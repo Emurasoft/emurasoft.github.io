@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>另存工作区为命令 &#8212; EmEditor  文档</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="搜索" href="../../search.html" />
+    <link rel="next" title="保存工作区命令" href="workspace_save_current.html" />
+    <link rel="prev" title="最近使用的工作区命令" href="workspace_recent_file1.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  文档</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/cmd/file/workspace_save_as">English</a>
+                <a href="/ja/cmd/file/workspace_save_as">日本語</a>
+                <a href="/ko/cmd/file/workspace_save_as">한국어</a>
+                <a href="/zh-cn/cmd/file/workspace_save_as">简体中文</a>
+                <a href="/zh-tw/cmd/file/workspace_save_as">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">快速搜索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="提交" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">命令参考</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bookmarks/index.html">书签类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../convert/index.html">转换类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../csv/index.html">CSV 类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../diff/index.html">比较类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.html">编辑类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../external_tools/index.html">外部工具类别</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">文件类别</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="activate_or_new.html">激活或新建命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="advanced_open.html">高级打开命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="app_exit.html">关闭命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="app_quit.html">直接关闭不保存命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="close_all_others.html">关闭所有其他文件命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="close_desktop.html">全部关闭 (仅当前桌面) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copy_file_dir.html">复制文件所在文件夹名命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copy_file_path.html">复制文件完整路径命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="erase_workspace.html">清除默认工作区命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="exit_all.html">全部关闭命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_close_open.html">关闭并打开命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_insert.html">插入命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_mru_file1.html">最近使用的文档列表命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_mru_folder1.html">最近使用的文件夹列表命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_mru_insert1.html">要插入的最近使用的文件列表命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_new.html">新建文本命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_new_config.html">新建配置列表命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_new_paste.html">新建并粘贴命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_new_paste_prefix.html">新建并粘贴为引用文本命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_new_paste_prefix_return.html">新建文件，粘贴为引用文本并换行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_open.html">打开命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_print.html">打印命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_print_direct.html">立即打印命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload.html">重新载入为相同编码命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_932.html">重新载入为日文 Shift JIS 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_ansi.html">重新载入为系统默认编码命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_binary.html">重新载入为二进制(ASCII 视图)命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_defined.html">要重新载入的编码列表命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_detect_all.html">重新载入并检测所有编码命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_euc.html">重新载入为日文 EUC 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_hex.html">重新载入为二进制 (十六进制视图) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_jis.html">重新载入为日文 JIS 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_unicode.html">重新载入为 UTF-16LE 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_unicode_bigendian.html">重新载入为 UTF-16BE 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_utf7.html">重新载入为 UTF-7 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_reload_utf8.html">重新载入为 UTF-8 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save.html">保存命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_932.html">保存为日文 Shift JIS 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_all.html">全部保存命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_all_as.html">以指定编码全部保存命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_ansi.html">保存为系统默认编码命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_as.html">另存为命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_binary.html">保存为二进制编码（ASCII 视图）命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_defined.html">要保存的编码列表命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_euc.html">保存为日文 EUC 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_exit.html">保存并关闭命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_hex.html">保存为二进制编码（十六进制视图）命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_jis.html">保存为日文 JIS 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_rename.html">重命名命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_unicode.html">保存为 UTF-16LE 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_unicode_bigendian.html">保存为 UTF-16BE 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_utf7.html">保存为 UTF-7 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save_utf8.html">保存为 UTF-8 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="load_workspace.html">还原默认工作区命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="most_recent_closed_file.html">最后关闭的文件命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="new_config_popup.html">新建（弹出菜单）命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="new_tray_icon.html">显示托盘图标命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="print_preview.html">打印预览命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quit_all.html">全部关闭不保存命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quit_desktop.html">全部关闭不保存 (仅当前桌面) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="recent_closed_file1.html">最近关闭的文件命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reload_popup.html">重新载入（弹出菜单）命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_as_cr.html">保存换行为 CR 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_as_crlf.html">保存换行为 CR+LF 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_as_lf.html">保存换行为 LF 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_close_desktop.html">保存并全部关闭 (仅当前桌面) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_exit_all.html">保存并全部关闭命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_utf16be_nosign.html">保存为不带签名的 UTF-16BE 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_utf16be_sign.html">保存为带签名的 UTF-16BE 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_utf16le_nosign.html">保存为不带签名的 UTF-16LE 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_utf16le_sign.html">保存为带签名的 UTF-16LE 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_utf8_nosign.html">保存为不带签名的 UTF-8 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_utf8_sign.html">保存为带签名的 UTF-8 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_workspace.html">保存默认工作区命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_workspace_close_desktop.html">保存工作区与所有文件并全部关闭 (仅当前桌面) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_workspace_exit_all.html">保存工作区，保存，并全部关闭命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_workspace_quit_all.html">保存工作区并全部关闭命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_workspace_quit_desktop.html">保存工作区并全部关闭 (仅当前桌面) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="workspace_open.html">打开工作区命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="workspace_recent_file1.html">最近使用的工作区命令</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">另存工作区为命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="workspace_save_current.html">保存工作区命令</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../help/index.html">帮助类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert/index.html">插入类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macros/index.html">宏类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugins/index.html">插件类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.html">搜索类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort/index.html">排序类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/index.html">工具类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.html">查看类别</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.html">窗口类别</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.html">对话框</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">常见问题解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">术语表</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">历史记录</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">如何…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">链接</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.html">宏参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">声明</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.html">插件参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">如何购买</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">命令参考</a> &lt;
+                <a href="index.html">文件类别</a> &lt;
+            另存工作区为命令
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>另存工作区为命令<a class="headerlink" href="#id1" title="此标题的永久链接">¶</a></h1>
+<section id="id2">
+<h2>摘要<a class="headerlink" href="#id2" title="此标题的永久链接">¶</a></h2>
+<blockquote>
+<div><p>用一个新文件名保存工作区。</p>
+</div></blockquote>
+</section>
+<section id="id3">
+<h2>说明<a class="headerlink" href="#id3" title="此标题的永久链接">¶</a></h2>
+<blockquote>
+<div><p>这个命令会保存目前在 EmEditor 中所有当前打开的文档的完整路径名称，光标位置以及其他设定到当前的工作区文件中。用 <a class="reference internal" href="workspace_open.html"><span class="doc std std-doc"><strong>打开工作区</strong> 命令</span></a> 会还原通过这个命令所保存的位置以及设定。</p>
+</div></blockquote>
+</section>
+<section id="id4">
+<h2>运行方法<a class="headerlink" href="#id4" title="此标题的永久链接">¶</a></h2>
+<ul class="simple">
+<li><p>默认菜单: <strong>文件 &gt; 工作区</strong> &gt; <strong>另存工作区为</strong></p></li>
+<li><p><a class="reference internal" href="../tools/all_commands.html"><span class="doc std std-doc">所有命令</span></a>: <strong>文件</strong> &gt; <strong>工作区</strong>
+&gt; <strong>另存工作区为</strong></p></li>
+<li><p>工具栏: 无</p></li>
+<li><p>状态栏: 无</p></li>
+<li><p>默认快捷键: 无</p></li>
+</ul>
+</section>
+<section id="id">
+<h2>插件命令ID<a class="headerlink" href="#id" title="此标题的永久链接">¶</a></h2>
+<ul class="simple">
+<li><p>EEID_WORKSPACE_SAVE_AS (3925)</p></li>
+</ul>
+</section>
+<section id="id5">
+<h2>宏<a class="headerlink" href="#id5" title="此标题的永久链接">¶</a></h2>
+<section id="javascript">
+<h3>[JavaScript]<a class="headerlink" href="#javascript" title="此标题的永久链接">¶</a></h3>
+<blockquote>
+<div><p>editor.ExecuteCommandByID(3925);</p>
+</div></blockquote>
+</section>
+<section id="vbscript">
+<h3>[VBScript]<a class="headerlink" href="#vbscript" title="此标题的永久链接">¶</a></h3>
+<blockquote>
+<div><p>editor.ExecuteCommandByID 3925</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">另存工作区为命令</a><ul>
+<li><a class="reference internal" href="#id2">摘要</a></li>
+<li><a class="reference internal" href="#id3">说明</a></li>
+<li><a class="reference internal" href="#id4">运行方法</a></li>
+<li><a class="reference internal" href="#id">插件命令ID</a></li>
+<li><a class="reference internal" href="#id5">宏</a><ul>
+<li><a class="reference internal" href="#javascript">[JavaScript]</a></li>
+<li><a class="reference internal" href="#vbscript">[VBScript]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; 版权所有 2023 Emurasoft.
+      由 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1创建。
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

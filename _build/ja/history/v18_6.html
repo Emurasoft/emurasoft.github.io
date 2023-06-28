@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Version 18.6 &#8212; EmEditor  ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/translations.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <script src="../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="next" title="Version 18.7" href="v18_7.html" />
+    <link rel="prev" title="Version 18.5" href="v18_5.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../index.html" title="Go to homepage">EmEditor  ドキュメント</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/history/v18_6">English</a>
+                <a href="/ja/history/v18_6">日本語</a>
+                <a href="/ko/history/v18_6">한국어</a>
+                <a href="/zh-cn/history/v18_6">简体中文</a>
+                <a href="/zh-tw/history/v18_6">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../cmd/index.html">コマンド リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dlg/index.html">ダイアログ ボックス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.html">よくある質問と回答集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html">特長</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">用語集</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">履歴</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="v1000.html">Version 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1100.html">Version 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1200.html">Version 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1300.html">Version 13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1400.html">Version 14</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_1.html">Version 14.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_2.html">Version 14.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_3.html">Version 14.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_4.html">Version 14.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_5.html">Version 14.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_6.html">Version 14.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_7.html">Version 14.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_8.html">Version 14.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_9.html">Version 14.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_0.html">Version 15.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_1.html">Version 15.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_2.html">Version 15.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_3.html">Version 15.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_4.html">Version 15.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_5.html">Version 15.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_6.html">Version 15.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_7.html">Version 15.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_8.html">Version 15.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_9.html">Version 15.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_0.html">Version 16.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_1.html">Version 16.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_2.html">Version 16.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_3.html">Version 16.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_4.html">Version 16.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_5.html">Version 16.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_6.html">Version 16.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_7.html">Version 16.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_8.html">Version 16.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_9.html">Version 16.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_0.html">Version 17.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_1.html">Version 17.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_2.html">Version 17.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_3.html">Version 17.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_4.html">Version 17.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_5.html">Version 17.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_6.html">Version 17.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_7.html">Version 17.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_8.html">Version 17.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_9.html">Version 17.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_0.html">Version 18.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_1.html">Version 18.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_2.html">Version 18.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_3.html">Version 18.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_4.html">Version 18.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_5.html">Version 18.5</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Version 18.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_7.html">Version 18.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_8.html">Version 18.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_9.html">Version 18.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_0.html">Version 19.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_1.html">Version 19.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_2.html">Version 19.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_3.html">Version 19.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_4.html">Version 19.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_5.html">Version 19.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_6.html">Version 19.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_7.html">Version 19.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_8.html">Version 19.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_9.html">Version 19.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_0.html">Version 20.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_1.html">Version 20.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_2.html">Version 20.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_3.html">Version 20.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_4.html">Version 20.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_5.html">Version 20.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_6.html">Version 20.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_7.html">Version 20.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_8.html">Version 20.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_9.html">Version 20.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_0.html">Version 21.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_1.html">Version 21.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_2.html">Version 21.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_3.html">Version 21.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_4.html">Version 21.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_5.html">Version 21.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_6.html">Version 21.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_7.html">Version 21.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_8.html">Version 21.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_9.html">Version 21.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_0.html">Version 22.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_1.html">Version 22.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_2.html">Version 22.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_3.html">Version 22.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_4.html">Version 22.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v400.html">Version 4.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v401.html">Version 4.01</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v402.html">Version 4.02</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v403.html">Version 4.03</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v404.html">Version 4.04</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v405.html">Version 4.05</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v406.html">Version 4.06</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v407.html">Version 4.07</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v408.html">Version 4.08</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v409.html">Version 4.09</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v410.html">Version 4.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v411.html">Version 4.11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v412.html">Version 4.12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v413.html">Version 4.13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v500.html">Version 5.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v600.html">Version 6.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v700.html">Version 7.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v800.html">Version 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v900.html">Version 9</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">使い方</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../link/index.html">リンク</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macro/index.html">マクロ リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notice/index.html">注意</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plugin/index.html">プラグイン リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../purchase/index.html">購入方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support/index.html">サポート</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="index.html">履歴</a> &lt;
+            Version 18.6
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="version-18-6">
+<h1>Version 18.6<a class="headerlink" href="#version-18-6" title="この見出しへのパーマリンク">¶</a></h1>
+<p>2019年 2月 6日</p>
+<section id="id1">
+<h2>一般の新機能<a class="headerlink" href="#id1" title="この見出しへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><p>複数選択モードの様々な動作を改善しました。例えば、[カスタマイズ] ダイアログ ボックスの <a class="reference internal" href="../dlg/customize/edit/index.html"><span class="doc std std-doc">[編集] ページ</span></a> に [複数選択をコピーする時、常に改行コードを挿入する] オプションが有効 (既定) の場合、複数選択をコピーして、別の複数選択の場所に貼り付けることができるようになりました。また、[複数選択でタイプする間、選択を保持する] オプションが無効 (既定) の場合、複数カーソルは矢印キーでカーソルを移動しても、複数選択内に制限されなくなりました。</p></li>
+<li><p>新バージョンでは、空の複数選択のカーソルが各行の最後にある時に Delete キーを押すか、各行の最初にある時に Back キーを押すことにより、改行を削除できるようになりました。</p></li>
+<li><p>新バージョンでは、設定のプロパティの <a class="reference internal" href="../dlg/properties/highlight2/index.html"><span class="doc std std-doc">[強調(2)] ページ</span></a> で、[かっこ/引用符の自動補完] オプションが有効の場合、複数選択中でも、かっこ/引用符の自動補完が可能になりました。</p></li>
+<li><p>複数選択中、選択された桁の範囲内のみで並べ替え、重複行の削除が可能になりました。</p></li>
+<li><p>複数選択中、 <a class="reference internal" href="../cmd/edit/insert.html"><span class="doc std std-doc">[挿入/上書] コマンド</span></a> (Insert キー) で挿入/上書モードの切り替えができるようになりました。</p></li>
+<li><p>[元に戻す] コマンドの後にカーソル位置や選択範囲の戻り方を改善しました。例えば、[単語右削除] コマンドを元に戻した後のカーソル位置、それから行選択後に [行の2重化] コマンドを元に戻した後の選択範囲を改善しました。</p></li>
+<li><p>新しい既定のショートカットには、複数選択から文頭/文末の選択を解除できる Alt+Ctrl+Shift+下/上キーが含まれます ([ <a class="reference internal" href="../cmd/edit/cancel_top_sel.html"><span class="doc std std-doc">複数選択から文頭の選択を解除します</span></a>] コマンド、[ <a class="reference internal" href="../cmd/edit/cancel_bottom_sel.html"><span class="doc std std-doc">複数選択から文末の選択を解除します</span></a>] コマンド)。</p></li>
+<li><p>複数選択中のカーソル移動やテキスト編集の動作を高速化しました。</p></li>
+<li><p>一時ファイルを使用しないで巨大ファイルを開くときの動作を高速化しました。</p></li>
+</ul>
+<section id="id2">
+<h3>テスト結果:<a class="headerlink" href="#id2" title="この見出しへのパーマリンク">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>v17.9</p></th>
+<th class="head"><p>v18.4</p></th>
+<th class="head"><p>v18.5</p></th>
+<th class="head"><p>v18.6</p></th>
+<th class="head"><p>v17.9 との比較</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>巨大ファイルを開く</p></td>
+<td><p>20.4 秒</p></td>
+<td><p>15.6 秒</p></td>
+<td><p>8.17 秒</p></td>
+<td><p>7.28 秒</p></td>
+<td><p>2.80 倍に高速化</p></td>
+</tr>
+</tbody>
+</table>
+<p>\* 1.34 GB、100,000,000 行、ランダム ASCII データ。[一時ファイルを使用] を無効、Windows 10 (64-bit)、Core i7-8700K、32GB RAM、500 GB SSD。</p>
+<ul class="simple">
+<li><p>[改行を削除] コマンドや、改行を含む文字列を、改行を含まない文字列に、すべて置換する動作を高速化しました。</p></li>
+</ul>
+</section>
+<section id="id3">
+<h3>テスト結果:<a class="headerlink" href="#id3" title="この見出しへのパーマリンク">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>v18.4</p></th>
+<th class="head"><p>v18.6</p></th>
+<th class="head"><p>v18.4 との比較</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>改行コードを削除</p></td>
+<td><p>6.02 秒</p></td>
+<td><p>3.44 秒</p></td>
+<td><p>1.75 倍に高速化</p></td>
+</tr>
+<tr class="row-odd"><td><p>上を元に戻す</p></td>
+<td><p>15.0 秒</p></td>
+<td><p>6.33 秒</p></td>
+<td><p>2.37 倍に高速化</p></td>
+</tr>
+</tbody>
+</table>
+<p>\* 538 MB、10,000,000 行、ランダム ASCII データ。[一時ファイルを使用] を無効、Windows 10 (64-bit)、Core i7-8700K、32GB RAM、500 GB SSD。</p>
+<ul class="simple">
+<li><p>非常に長い行が含まれている文書を編集する際の速度を向上しました。</p></li>
+<li><p><a class="reference internal" href="../cmd/edit/right_word.html"><span class="doc std std-doc">[1単語右へ]</span></a> (Ctrl+右)、 <a class="reference internal" href="../cmd/edit/left_word.html"><span class="doc std std-doc">[1単語左へ]</span></a> (Ctrl+左)、 <a class="reference internal" href="../cmd/edit/shift_right_word.html"><span class="doc std std-doc">[選択範囲を1単語右へ]</span></a> (Ctrl+Shift+右)、 <a class="reference internal" href="../cmd/edit/shift_left_word.html"><span class="doc std std-doc">[選択範囲を1単語左へ]</span></a> (Ctrl+Shift+左) コマンドの動作を改善しました。</p></li>
+<li><p><a class="reference internal" href="../cmd/search/replace_in_files.html"><span class="doc std std-doc">[ファイルから置換] コマンド</span></a> の既定のキーボード ショートカットとして、Ctrl+Shift+H を追加しました。</p></li>
+<li><p>新バージョンでは、CSV モードでフィルターが設定されている間に、列のコピーと貼り付け、列の2重化が可能になりました。</p></li>
+<li><p>フィルター ツール バーに [文字列全体に一致する] ボタンを追加しました。</p></li>
+<li><p>上書カーソルのサイズと色をカスタマイズできるようになりました。</p></li>
+<li><p>全画面表示の動作を改善しました (全画面表示中に、ステータス バーが表示されるようになり、Alt キーを押してもツール バーやメニューが表示されないようになりました)。</p></li>
+</ul>
+</section>
+</section>
+<section id="id4">
+<h2>新しい設定<a class="headerlink" href="#id4" title="この見出しへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../dlg/replace_in_files/index.html"><span class="doc std std-doc">[ファイルから置換] ダイアログ ボックス</span></a> に [&lt;&lt; 検索] ボタンを追加しました。</p></li>
+<li><p><a class="reference internal" href="../dlg/properties/file/save_details/index.html"><span class="doc std std-doc">[保存時の詳細] ダイアログ ボックス</span></a> に [カーソル行を除く] チェック ボックスを追加しました。</p></li>
+<li><p>[カスタマイズ] ダイアログ ボックスの <a class="reference internal" href="../dlg/customize/edit/index.html"><span class="doc std std-doc">[編集] ページ</span></a> に [複数選択をコピーする時、常に改行コードを挿入する] チェック ボックスと [複数選択でタイプする間、選択を保持する] チェック ボックスを追加しました。</p></li>
+<li><p>[カスタマイズ] ダイアログ ボックスの <a class="reference internal" href="../dlg/customize/view/index.html"><span class="doc std std-doc">[表示] ページ</span></a> の [高さ] ドロップ ダウン リスト ボックスに [フォント サイズと行間] 項目を追加しました。</p></li>
+<li><p>[カスタマイズ] ダイアログ ボックスの <a class="reference internal" href="../dlg/customize/view/index.html"><span class="doc std std-doc">[表示] ページ</span></a> に [上書カーソルのサイズと色を設定] チェック ボックスを追加しました。</p></li>
+<li><p>設定のプロパティの <a class="reference internal" href="../dlg/properties/display/index.html"><span class="doc std std-doc">[表示] ページ</span></a> の [指定する部分] 一覧に [複数選択のある行] 項目を追加しました。</p></li>
+</ul>
+</section>
+<section id="id5">
+<h2>新しいコマンド<a class="headerlink" href="#id5" title="この見出しへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../cmd/edit/remove_empty_lines.html"><span class="doc std std-doc">空行を削除</span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/edit/cancel_top_sel.html"><span class="doc std std-doc">複数選択から文頭の選択を解除します</span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/edit/cancel_bottom_sel.html"><span class="doc std std-doc">複数選択から文末の選択を解除します</span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/search/filterbar_whole_string.html"><span class="doc std std-doc">文字列全体に一致する (フィルター ツール バー)</span></a></p></li>
+</ul>
+</section>
+<section id="id6">
+<h2>プラグインの新機能<a class="headerlink" href="#id6" title="この見出しへのパーマリンク">¶</a></h2>
+<p>新バージョンでは、次のフォーマットでマクロから指定するスニペットを呼び出せるようになりました。区切り文字 (この場合「/」) は、文字列の最初の文字として指定されている必要があります。</p>
+<p>editor.ExecutePlugin( “Snippets.dll”, eePluginUserMessage, 2, “/FolderName/SnippetName” );</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">Version 18.6</a><ul>
+<li><a class="reference internal" href="#id1">一般の新機能</a><ul>
+<li><a class="reference internal" href="#id2">テスト結果:</a></li>
+<li><a class="reference internal" href="#id3">テスト結果:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id4">新しい設定</a></li>
+<li><a class="reference internal" href="#id5">新しいコマンド</a></li>
+<li><a class="reference internal" href="#id6">プラグインの新機能</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

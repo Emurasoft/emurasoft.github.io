@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>단어 완성 플러그인을 이용하기 &#8212; EmEditor  문서</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="색인" href="../../genindex.html" />
+    <link rel="search" title="검색" href="../../search.html" />
+    <link rel="next" title="단어 개수 플러그인 이용하기" href="plugin_wordcount.html" />
+    <link rel="prev" title="웹 미리보기 플러그인 사용하기" href="plugin_webpreview.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  문서</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/howto/plugin/plugin_wordcomplete">English</a>
+                <a href="/ja/howto/plugin/plugin_wordcomplete">日本語</a>
+                <a href="/ko/howto/plugin/plugin_wordcomplete">한국어</a>
+                <a href="/zh-cn/howto/plugin/plugin_wordcomplete">简体中文</a>
+                <a href="/zh-tw/howto/plugin/plugin_wordcomplete">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">빠른 검색</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="이동" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.html">명령 참조</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.html">대화 상자</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">자주 묻는 질문</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">기능</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">용어집</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">기록</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">이용 방법</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.html">사용자 지정</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.html">편집</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.html">파일</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro/index.html">매크로</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">플러그인</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="plugin_develop.html">플러그인 개발하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_explorer.html">탐색기 플러그인 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_findbar.html">찾기 모음 플러그인 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_htmlbar.html">엠에디터 Home - <span class="xref myst">엠에디터 도움말</span> - <span class="xref myst">방법</span> - <span class="xref myst">플러그인</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_htmlbar.html#htmlbar">HTMLBar 플러그인 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_install.html">플러그인 설치하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_opendocuments.html">문서 열기 플러그인</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_outlinetext.html">윤곽 플러그인을 사용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_projects.html">프로젝트 플러그인을 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_prop.html">플러그인 속성 바꾸기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_search.html">플러그인 검색 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_snippets.html">코드조각 플러그인 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_uninstall.html">플러그인 제거하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_webpreview.html">웹 미리보기 플러그인 사용하기</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">단어 완성 플러그인을 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_wordcount.html">단어 개수 플러그인 이용하기</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.html">찾기</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.html">보기</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.html">창</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">링크</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.html">매크로 참조</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">알림</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.html">플러그 인 참조</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">구매 방법</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">지원</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">이용 방법</a> &lt;
+                <a href="index.html">플러그인</a> &lt;
+            단어 완성 플러그인을 이용하기
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>단어 완성 플러그인을 이용하기<a class="headerlink" href="#id1" title="이 제목에 대한 퍼머링크">¶</a></h1>
+<p><strong>단어 완성</strong> 플러그인은 엠에디터 Professioanl으로 초기화되어 설치되어 있습니다. 문서에 입력하는대로
+이 플러그인은 이전에 사용된 단어로 채워지는것이 보일것이며, 엠에디터에 정의된 단어에 강조표시되어질 것입니다.</p>
+<p>사용자의 입력을 완성하기 위해서 목록이 보여지고 이 중에서 고를 수 있게 됩니다.</p>
+<p>단어 완성 플러그인은 최근 검색된 문자열을 완성시킬수도 있습니다. 이 과정은 단어 완성과 같으나,
+단어를 완정하는 대신에, 플러그인으로 문자열을 완성시킬 수 있습니다.</p>
+<p>단어 완성 플러그인을 사용하는 방법:</p>
+<ol class="arabic simple">
+<li><p><strong>플러그인</strong> 바에서 <img alt="" src="../../_images/wordcomplete.gif" /> 를 클릭해 주십시오.
+혹은, 도구 메뉴에서, <strong>플러그인</strong> 을 가리킨 후에, <strong>단어 완성</strong> 을 클릭하면 이것에 체크표시 되어집니다.</p></li>
+<li><p>문서에 삽입하고 싶은 단어의 처음 몇 글자를 입력하시고,
+이전에 사용된 단어와 엠에디터에서 정의된 강조표시 된 단어로 채워진 목록이 나타날 것입니다.</p></li>
+<li><p><strong>위로</strong> 혹은 <strong>아래로</strong> 키를 이용해서 삽입할 단어를 선택하고 <strong>엔터</strong> 를 눌러 주십시오.</p></li>
+</ol>
+<section id="id2">
+<h2>플러그인 속성<a class="headerlink" href="#id2" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<section id="id3">
+<h3>사전<a class="headerlink" href="#id3" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>강조표시 단어</strong></p></td>
+<td><p>구성 속성의 <strong>강조표시 (1) 탭</strong> 에서 정의된 문자열<br> 이 후보로써 사용되어집니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>문서에서 사용된 단어</strong></p></td>
+<td><p>현재 문서의 단어는 후보로써 사용됩니다.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>문자열 제한</strong></p></td>
+<td><p>현재 커서 위치의 이전과 이후에 지정된 줄에서의 문자 제한합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>이전 문서를 포함</strong></p></td>
+<td><p>후보 목록을 위해 이전 문서를 포함합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>그룹에 모든 문서 포함</strong></p></td>
+<td><p>같은 그룹 윈도우에 모든 문서를 포함합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>같은 구성인 경우에만</strong></p></td>
+<td><p>현재 문서와 같은 구성인 경우에만 모든 문서를 포함합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>사전 파일의 단어</strong></p></td>
+<td><p>구분된 파일의 단어는 후보로 사용됩니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>사전 파일</strong></p></td>
+<td><p>전체 경로 그리고 분리 파일의 이름은 지원 목록으로써 사용되어야 합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>무료 형식(만약 체크되지 않았다면, 줄마다)</strong></p></td>
+<td><p>스페이스로 구분된 어떤 파일이든 사전 파일로써 이용될 수 있습니다. <br> 만일 체크되지 않았다면, 각 줄은 반드시 새로운 줄로 나뉘어 져야 됩니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>클립보드 내용</strong></p></td>
+<td><p>클립보드의 단어는 후보로써 사용될 수 있습니다.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>파일 이름</strong></p></td>
+<td><p>같은 파일에 있는 파일 이름은 후보로써 사용될 수 있습니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>문자열 찾기</strong></p></td>
+<td><p>이전에 찾은 문자열의 기록을 보여줍니다.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>비율 새로고침</strong></p></td>
+<td><p>후보자가 얼마나 자주 새로고침 되는지를 지정합니다, 후보자 목록은 최근에 입력된 단어로 업데이트 됩니다.<br> 이 비율이 더 높을수록, 목록이 업데이트 되기 전에 입력되어야 합니다.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id4">
+<h3>일치 조건<a class="headerlink" href="#id4" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>대/소문자 일치</strong></p></td>
+<td><p>대/소문자가 일치되는지 지정하십시오. 예를 들어, <strong>ABC</strong> 와 <strong>abc</strong> 가 현재 문서에서 찾을 수 있다고 해 봅시다.(혹은 사전 파일) 만일 <strong>절대</strong> 가 선택되어 있으면, <strong>ABC</strong> 혹은 <strong>abc</strong> 가 후보로써 사용될 수 있으며,<br> 그리고 <strong>A</strong> 혹은 <strong>a</strong> 를 입력하게 되면, <strong>ABC</strong> 혹은 <strong>abc</strong> 가 디스플레이 됩니다. 만일 <strong>후보자 안에서</strong> 가 선택되어 있으면, <strong>ABC</strong> 와 <strong>abc</strong> 둘 다 후보자로 사용되며, <br> <strong>A</strong> 혹은 <strong>a</strong> 를 입력하게 되면 <strong>ABC</strong> 와 <strong>abc</strong> 가 디스플레이 됩니다. 만일 <strong>후보자와 입력 모두</strong> 가 선택되여졌다면, <strong>ABC</strong> 와 <strong>abc</strong> 가 후보자로 사용되지만, <strong>A</strong> 는 <strong>ABC</strong> 로 그리고 <strong>a</strong> 를 입력하면 <strong>abc</strong> 로 디스플레이 됩니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>우선순위</strong></p></td>
+<td><p>만일 <strong>최근 사용된 단어가 처음으로</strong> 가 선택되어 졌다면, 가장 마지막에 선택된 단어가 초기에 후보자 목록이 디스플레이 될 때 선택되어집니다. 만일 <strong>사전순</strong> 이 선택되어 있으면, 일치된 항목중 가장 상위 항목이 초기 선택으로 선택되어집니다.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>단어 입력</strong></p></td>
+<td><p>만일 <strong>일반 단어</strong> 가 선택되어 지면, 각 단어는 문자로 시작되며 문자 혹은 숙자로 끝나게 됩니다. 만일 <strong>점 구문</strong> 이 선택되게 되면, 각 단어는 점( <strong>.</strong>)을 포함하게 됩니다. 만일 <strong>HTML/XML</strong> 가 선택되어 지면, 각 단어는 <strong>&lt;</strong> 혹은 <strong>&amp;</strong> 로 시작되며, 이것은 단어의 중간에서 <strong>/</strong> 혹은 <strong>-</strong> 을 포함할 수 있으며, <strong>&gt;</strong> 혹은 <strong>;</strong> 으로 끝날 수 있습니다.<br> <strong>사용자 지정</strong> 이 선택되었으면, 사용자는 어떻게 단어가 텍스트 상자에 배열될 것인지 정의할 수 있습니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>첫번째 문자</strong></p></td>
+<td><p>만일 <strong>사용자 지정</strong> 이 <strong>단어 유형</strong> 드롭다운 목록에서 선택되어 있으면, 각 단어가 시작할 수 있는 첫번째 문자를 입력하십시오.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>중간 문자</strong></p></td>
+<td><p>만일 <strong>사용자 지정</strong> 이 <strong>단어 유형</strong> 드롭다운 목록에서 선택되어 있으면, 첫번째 문자와 마지막 문자 사이에 들어갈 수 있는 각 단어를 문자와 숫자를 입력하십시오.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>마지막 문자</strong></p></td>
+<td><p>만일 <strong>사용자 지정</strong> 이 <strong>단어 유형</strong> 드롭다운 목록에 선택되어 있으면, 각 단어가 끝날 수 있는 마지막 단어를 입력해 주십시오. 이 때, 첫번째 혹은 중간 문자가 있어서는 안됩니다.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id5">
+<h3>옵션<a class="headerlink" href="#id5" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>후보자 목록에서 아이콘을 디스플레이</strong></p></td>
+<td><p>후보자 목록에서 각 항목의 왼쪽에 있는 작은 아이콘을 디스플레이합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>하나의 후보자가 사용가능시, 자동 완성</strong></p></td>
+<td><p>사용자가 키보드 바로가기를 입력할 때, 하나의 항목이 후보를 위해 사용가능 할 때, 자동 완성 <strong>후보 순서 보이기</strong>(통상적으로 <strong>CTRL</strong> + <strong>SPACE</strong>)을 위한 플러그인을 허용합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>후보 목록에서 강조표시 색을 사용하기</strong></p></td>
+<td><p>강조표시된 줄로 정의된 색으로 후보 목록에 강조표시합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>후보 목록이 없을 때, 자동으로 목록을 숨기기</strong></p></td>
+<td><p>입력하는 단어와 일치하는 항목이 없을 때 후보 목록을 자동으로 숨깁니다.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>후보 목록에서 일치된 단어만 보이기</strong></p></td>
+<td><p>일치된 단어로만 후보 목록 제한하빈다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>일치된 그리고 같은 길이 단어를 후보 목록에서 제외</strong></p></td>
+<td><p>입력된 단어와 같은 길이로 일치된 단어를 자동적으로 제외시킵니다.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>입력된 것처럼 후보 목록 자동으로 보이기</strong></p></td>
+<td><p>입력한대로 후보목록을 자동적으로 디스플레이합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>문자의 개수</strong></p></td>
+<td><p>후보목록이 자동적으로 디스플레이 될 때 까지 플러그인이 기다리고 있는 문자의 개수</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>지연 시간</strong></p></td>
+<td><p>일치 단어를 찾고 난 후 부터 후보목록을 자동적으로 디스플레이 할 때까지 플러그인이 기다리고 있는 시간입니다.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h3>키보드<a class="headerlink" href="#id6" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p>사용가능한 명령 목록화 합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>새로운 바로가기 키 입력</strong></p></td>
+<td><p>선택된 명령을 위해서 바로가기 키를 입력합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>현재 키</strong></p></td>
+<td><p>현재 키가 선택된 명령에 할당되었습니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>설명</strong></p></td>
+<td><p>선택된 명령을 위해 설명합니다.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="id7">
+<h2>팁<a class="headerlink" href="#id7" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<p>초기값에서, 엠에디터는 사용자가 단어 입력을 시작할 때, 키 입력과 자동 목록 디스플레이를 디스플레이 합니다. 이 행동을 비활성화 하시려면, <strong>플러그인</strong> 모음의 플러그인 버튼을 오른쪽 클릭 한 후, <strong>속성</strong> 을 선택하시고 <strong>입력된 후보 목록 자동으로 보이기</strong> 체크 박스의 체크를 지우십시오.
+여전히 키보드 바로가기를 입력해서 목록을 디스플레이 할 수 있습니다.
+초기 키보드 바로가기는 <strong>CTRL + SPACE</strong> 이며, 다른 키보드 바로가기를 <strong>속성</strong> 에서 키보드 탭에서 선택함으로써 할당할 수 있습니다.
+<strong>플러그인 속성</strong> 의 옵션은 각각의 구성의 설정이 될 수 있습니다.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">단어 완성 플러그인을 이용하기</a><ul>
+<li><a class="reference internal" href="#id2">플러그인 속성</a><ul>
+<li><a class="reference internal" href="#id3">사전</a></li>
+<li><a class="reference internal" href="#id4">일치 조건</a></li>
+<li><a class="reference internal" href="#id5">옵션</a></li>
+<li><a class="reference internal" href="#id6">키보드</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id7">팁</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; 저작권 2023 Emurasoft.
+      <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 버전으로 생성되었습니다.
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

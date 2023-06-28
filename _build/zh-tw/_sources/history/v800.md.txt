@@ -1,0 +1,97 @@
+# Version 8
+
+2008年9月5日
+
+## 一般新增功能
+
+- 當打開一個大檔案時，會顯示一個大檔案控制器，讓您能指定檔案打開的範圍。
+- 垂直選取編輯讓您能在每行插入文本。
+- 二進制 (ASCII 視圖) 和二進制 (十六進制視圖) 被添加到可用的編碼中。
+- 「全部替換」指令的運行會更快如果放棄撤消信息的話。
+- 可以顯示快捷功能欄 (檢視 \> 快捷功能欄)。
+- 當每行太長時，優化速度。
+- 標記 (CR，LF，Tab，空白，EOF) 能被自訂。(工具 > 自訂 > 標記)。
+- 支持擴展的片假名。
+- 當點擊鼠標滾輪時，能自動移動。
+- 能顯示縮進線 (配置屬性 > 標記 \> 顯示縮進線)。
+- 右擊窗口左邊的行號來移動光標到行的開始位置處。
+- 能用規則運算式指定標記格式 (自訂 > 編輯 \> 標記格式)。
+- 能禁用拖放編輯功能 (自訂 > 編輯 \> 啟用文本拖放)。
+- 您能指定臨時資料夾 (自訂 > 進階 \> 使用系統臨時資料夾)。
+- 「鍵盤布局」對話方塊能讓您通過點擊窗口中的任何一列重新排序。
+- INI 檔案能被導入至注冊表 (導入和導出向導 > 導入個人 INI 檔案到注冊表)。
+- **複製** 命令現在可以複製整行當當沒有選取任何文本時。您也可以通過 **複製選區** 命令來延續舊的操作方式。
+- **剪切** 命令現在會剪切一整行當沒有選取任何文本時。您也可以通過 **剪切選區** 命令來延續舊的操作方式。
+- 當要打開的檔案中含有無效字符時，會顯示一個新的對話。
+- 當文檔要保存的編碼格式會導致文檔所含的某些字符丟失的話，EmEditor 會顯示一個新的對話。
+- 在檔案中查找的結果能被重新定位到輸出欄中 (在檔案中查找 \> 使用輸出欄)。
+- 新增的 **跳轉到下一個** 和 **跳轉到上一個** 命令能被用來在輸出欄上的結果之間跳轉。
+- CTRL 鍵加鼠標滾輪能增加或減少字體大小。
+- 右擊加鼠標滾輪能移動到下一個或上一個文檔。
+
+## 新增外掛程式功能
+
+- 解決方案模板，工具列，參數信息工具提示等讓 **項目** 外掛程式變得更實用和方便操作。它還能讓您以只讀方式打開Visual Studio解決方案檔案。
+- **字詞自動完成** 外掛程式現在能完成最近搜尋的字符串。
+
+## 新增選項
+
+- [**替換** 對話方塊](../dlg/replace/index) 中添加了 **搜尋所有已打開的文檔** 復選框。
+- 配置屬性中的 [**滾動** 選項卡](../dlg/properties/scroll/index) 上添加了
+**虛線** 復選框。
+- 配置屬性的 [**標記** 選項卡](../dlg/properties/marks/index) 上添加了 **顯示縮進線** 復選框。
+- 自訂」對話方塊中 [**狀態列** 選項卡](../dlg/customize/status/index) 上添加了
+**換行方式** 復選框。
+- [**自訂** 對話方塊](../dlg/customize/index) 中添加了 [**編輯** 選項卡](../dlg/customize/edit/index)。
+- 「自訂」對話方塊中的 [**進階** 選項卡](../dlg/customize/advanced/index) 上添加了 **使用系統臨時資料夾** 復選框以及 **臨時資料夾** 文本框。
+- 在 [**自訂** 對話方塊](../dlg/customize/index) 中添加了 [**標記** 選項卡](../dlg/customize/marks/index)。
+- 在「自訂」對話方塊中的 [**窗口** 選項卡](../dlg/customize/window/index) 上添加了 **當使用鼠標激活窗口時設置光標位置** 復選框。
+- [**工具列** 對話方塊](../dlg/toolbars/index) 中添加了 **在基本工具列中顯示巨集標題** 復選框復選框。
+- **丟棄檔案** 事件被添加到 [**選擇事件** 對話方塊](../dlg/macro_customize/my_macros/select_events/index) 中的 **選擇事件** 列表框中。
+- [**在檔案中查找** 對話方塊](../dlg/find_in_files/index) 中添加了 **使用輸出欄** 復選框。
+
+## 新增命令
+
+- [**重新載入為二進制(ASCII 視圖)**](../cmd/file/file_reload_binary)
+- [**重新載入二進制(十六進制視圖)**](../cmd/file/file_reload_hex)
+- [**另存為二進制(ASCII 視圖)**](../cmd/file/file_save_binary)
+- [**另存為二進制(十六進視圖)**](../cmd/file/file_save_hex)
+- [**清除工作空間**](../cmd/file/erase_workspace)
+- **[剪切選區](../cmd/edit/edit_cut_sel)**
+- [**複製選區**](../cmd/edit/edit_copy_sel)
+- [**選擇邏輯行**](../cmd/edit/select_logical_line)
+- [**跳轉到下一個**](../cmd/edit/jump_next)
+- [**跳轉到上一個**](../cmd/edit/jump_prev)
+- [**2 - 16 級別**](../cmd/edit/outline_level)
+- [**替換下一個**](../cmd/search/replace_next)
+- [**設置單詞為替換字符串**](../cmd/search/retrieve_replace_text)
+- [**切換快捷功能欄**](../cmd/view/view_function_bar)
+- [**切換大檔案控制器**](../cmd/view/large_file_bar)
+- [**自訂編輯**](../cmd/tools/customize_edit)
+- [**自訂標記**](../cmd/tools/customize_marks)
+- [**終止工具任務**](../cmd/tools/terminate_tool)
+
+## 巨集的新增功能
+
+- [**GetProfileInt**](../macro/editor/getprofileint)
+方式， [**GetProfileString**](../macro/editor/getprofilestring) 方式，
+[**WriteProfileInt**](../macro/editor/writeprofileint)
+方式， [**WriteProfileString**](../macro/editor/writeprofilestring) 方式，以及
+**[FileDialog](../macro/editor/filedialog)** 方式 被添加到 [**Editor** 對象](../macro/editor/index) 中。
+- 添加了 [**DroppedFiles** 集合](../macro/dropped_files/index)。
+- [**DroppedFiles**](../macro/window/droppedfiles) 屬性， [**ExStyle**](../macro/window/exstyle)
+屬性，以及 [**Style**](../macro/window/style)
+屬性 被添加到 [**Window** 對象](../macro/window/index) 中。
+- **DottedLine**
+屬性添加到 [**ScrollProp** 對象](../macro/scroll_prop/index) 中。
+- [**ShowIndentGuides** 屬性](../macro/mark_prop/show_indent_guides) 添加到 [**MarkProp** 對象](../macro/mark_prop/index) 中。
+
+## 外掛程式 API 新增功能
+
+- [EP\_USE\_DROPPED\_FILES](../plugin/plugin_message/ep_use_dropped_files) 被添加到 [外掛程式的消息](../plugin/plugin_message/index) 中。
+- 添加了 [EE\_GET\_DROPPED\_FILE](../plugin/message/ee_get_dropped_file) 消息。
+- 添加了 [Editor\_GetDroppedFile](../plugin/macro/editor_getdroppedfile) 內嵌函式
+- EI\_USE\_INI and EI\_GET\_LANGUAGE 參數被添加到 [EE\_INFO](../plugin/message/ee_info) 消息，
+[Editor\_Info](../plugin/macro/editor_info) 內嵌函式以及 [Editor\_DocInfo](../plugin/macro/editor_docinfo) 內嵌函式中。
+- EVENT\_DROPPED, EVENT\_LANGUAGE, and EVENT\_SAVING 被添加到
+[Events](../plugin/event/index) 中。

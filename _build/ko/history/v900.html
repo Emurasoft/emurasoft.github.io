@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>버전 9 &#8212; EmEditor  문서</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/translations.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <script src="../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="색인" href="../genindex.html" />
+    <link rel="search" title="검색" href="../search.html" />
+    <link rel="next" title="이용 방법" href="../howto/index.html" />
+    <link rel="prev" title="버전 8" href="v800.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../index.html" title="Go to homepage">EmEditor  문서</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/history/v900">English</a>
+                <a href="/ja/history/v900">日本語</a>
+                <a href="/ko/history/v900">한국어</a>
+                <a href="/zh-cn/history/v900">简体中文</a>
+                <a href="/zh-tw/history/v900">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">빠른 검색</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="이동" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../cmd/index.html">명령 참조</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dlg/index.html">대화 상자</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.html">자주 묻는 질문</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html">기능</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">용어집</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">기록</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="v1000.html">버전 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1100.html">버전 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1200.html">버전 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1300.html">버전 13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1400.html">버전 14</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_1.html">버전 14.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_2.html">버전 14.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v403.html">버전 4.03</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v404.html">버전 4.04</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v405.html">버전 4.05</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v406.html">버전 4.06</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v407.html">버전 4.07</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v408.html">버전 4.08</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v409.html">버전 4.09</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v410.html">버전 4.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v411.html">버전 4.11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v412.html">버전 4.12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v413.html">버전 4.13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v500.html">버전 5.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v600.html">버전 6.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v700.html">버전 7.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v800.html">버전 8</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">버전 9</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">이용 방법</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../link/index.html">링크</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macro/index.html">매크로 참조</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notice/index.html">알림</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plugin/index.html">플러그 인 참조</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../purchase/index.html">구매 방법</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support/index.html">지원</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="index.html">기록</a> &lt;
+            버전 9
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>버전 9<a class="headerlink" href="#id1" title="이 제목에 대한 퍼머링크">¶</a></h1>
+<p>2009년 10월 14일</p>
+<section id="id2">
+<h2>새로운 일반 기능<a class="headerlink" href="#id2" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<ul class="simple">
+<li><p>CVS (쉼표로 구분), TSV (탭으로 구분) 그리고 DSV (사용자 지정 구분) 모드가 지금 지원됩니다. 수직으로 지정된 열을 선택하거나, 지정된 열에서 정렬값을 분류할 수 있습니다. 축소 모드의 결합에서, 선택된 라인만을 분류할 수 있습니다.</p></li>
+<li><p>축소하기 모드가 추가되었습니다. <a class="reference internal" href="../cmd/edit/narrowing_toggle.html"><span class="doc std std-doc"><strong>축소하기</strong> 명령</span></a> 은 편집 가능한 영역으로써 유일한 선택을 할당하고, 나머지는 접근 할 수 없습니다. (축소하기 명령을 하기 전에 바깥 배경색이 일반 배경색과 다른 색인지 확인해 주세요.)</p></li>
+<li><p>윈도우 7 점프 목록 지원 점프 목록은 사용자 지정될 수 있고, 최근 목록을 포함 할 수도 있습니다. 최근 목록 작업을 하기 위해서 <a class="reference internal" href="../dlg/customize/index.html"><span class="doc std std-doc"><strong>사용자 지정</strong> 의 대화상자</span></a> 에서 <strong><a class="reference internal" href="../dlg/customize/file/index.html"><span class="doc std std-doc">파일</span></a></strong> 탭 안의 <strong>최근 문서에 항상 추가하기</strong> 폴더 체크박스의 대화상자에 반드시 체크해야 합니다. 최근 카테고리는 엠에디터가 관리하는 최근 메뉴와는 다릅니다. 또한, 최근 카테고리 안에서 엠에디터와 관련된 확장명을 가진 파일들만 최근의 범주에 포함됩니다.</p></li>
+<li><p>윈도우 7 작업 버튼 진행 표시줄을 지원합니다.</p></li>
+<li><p>전체 화면 모드가 추가되었습니다.</p></li>
+<li><p>클립보드 기록 기능이 추가되었습니다.</p></li>
+<li><p>최근 파일 혹은 최근 폴더 위에 오른쪽 마우스 클릭을 해서 팝업창이 나타나면 리스트에서 선택된 항목을 고정, 고정 해제, 혹은 삭제할 수 있습니다. 또한 이 폴더에서 항목, 윈도우 익스플로러, 명령 확인을 열거나 경로를 복사할 수 있습니다.</p></li>
+<li><p>와일드카드는 지금 명령 줄 안에서 지원되고 있습니다. 예를 들어, “emeditor.exe *.txt”를 실행하면 현재 폴더 내의 모든 txt파일들을 열게 됩니다.</p></li>
+<li><p>새로운 명령줄 옵션들(/act, /clw, /cjl, /n, /od, /rr, /scrlf, /scr, and /slf) 이 추가되었습니다.</p></li>
+<li><p>괄호/따옴표는 지금 자동완성 될 수 있습니다. 예를 들어, {을 입력 한 후에 }가 자동적으로 완성됩니다. 텍스트가 선택되어 졌을 때 “을 입력하면, 선택된 “”주위로 서라운딩 되어 집니다.</p></li>
+<li><p>#를 포함하거나 레이블 후 들여쓰기: 라인은 지금 무시될 수 있습니다.</p></li>
+<li><p>증분 검색은 <strong>찾기</strong> 와 <strong>바꾸기</strong> 대화상자에서 지원됩니다.</p></li>
+<li><p><strong>=</strong> 버튼은 <strong>찾기</strong> 와 <strong>바꾸기</strong> 대화상자 안의 단일 및 복수 텍스트 상자 사이로 설정/해제에 추가되었습니다.</p></li>
+<li><p><strong>파일에서 찾기</strong> 와 <strong>파일에서 바꾸기</strong> 대화상자는 지금 모덜리스 입니다.</p></li>
+<li><p>바꾸기 형식 “(?n:true_expression:false_expression)”은 정규 표현 대체 형식에 추가 되었습니다.</p></li>
+<li><p>표준 입력은 출력 사용자 지정 바에 입력될 수 있습니다.</p></li>
+<li><p>탭을 끌어다 놓으면 현재 파일과 새로운 그룹의 복사/만들기 바로가기를 선택할 수 있습니다.</p></li>
+<li><p>지금 도구 도구모음에서 오른쪽 버튼을 누르면 도구 속성이 바로 나타납니다.</p></li>
+<li><p>매크로 경로는 이제 내 매크로 폴더에서 관계된 경로로써 저장됩니다.</p></li>
+<li><p>사용자 지정 대화 박스 안의 “다음 문자들은 영숫자로 취급” 텍스트 상자의 문자는 이제 찾기/바꾸기와 함께 작업됩니다.</p></li>
+<li><p>커서 사이즈와 색깔은 이제 사용자 지정될 수 있습니다.</p></li>
+<li><p>윈도우 비스타 혹은 그 이후 버전에서 엠에디터는 사용자 계정 컨트롤을 이용해서 프롬프트가 권한을 상승한 후에 C:Program Files과도 같은 보호된 폴더에 저장 할 수 있도록 해 줍니다.</p></li>
+<li><p>엠에디터는 지금 작업 영역에서 실행 취소 정보를 저장할 수 있습니다. 그리고 파일에 이름을 지정 하지 않고도 제목 없는 문서들을 저장할 수 있습니다. 엠에디터를 끝낼 때, 저장 작업영역을 확인할 수 있으며, 확인 대화 상자는 비활성화 될 수도 있습니다.</p></li>
+<li><p>가로/세로 선은 텍스트 아래로 그어질 수 있으며, 깜빡거림은 완전히 제거되었습니다.</p></li>
+<li><p>UTF-16 항목은 인코딩 자동 검색 대화상자에 추가되었습니다.</p></li>
+<li><p>눈금 자 위에 컨텍스트 메뉴가 추가되었으며, 새로운 명령어들: 설정/해제 CSV 모드, 쉼표 위치 조정, 그리고 열 선택이 포함되었습니다.</p></li>
+<li><p>이 기능은 외부 도구 기능에 추가 된 표준 입력과 출력에 관련이 있습니다. 여기서 외부 도구를 필터로써 이용할 수 있습니다.</p></li>
+<li><p>커서 위치 혹은 전체 문서에서 줄 텍스트는 이제 매개변수로써 외부 도구로 통과될 수 있습니다.</p></li>
+<li><p>외부 도구의 표준 출력을 불러올 수 있으며, 문서에 삽입할 수 있습니다.</p></li>
+<li><p>출력 인코딩은 이제 <strong>활성문서를 저장</strong> 옵션을 포함합니다.</p></li>
+<li><p>이제 IME 상황별 다시 변환이 지원됩니다.</p></li>
+<li><p>다시 변환 키는 이제 아무 텍스트가 선택되지 않더라도 사용 가능합니다.</p></li>
+<li><p><strong>속성</strong> 명령어는 버튼이 주요 도구모음에 있을 시 플러그 인 버튼위의 콘텍스트 메뉴에 추가되었습니다.</p></li>
+<li><p>사용자 지정 바의 텍스트 색과 배경색은 이제 지정될 수 있습니다.</p></li>
+<li><p>박스 선택에서 복사된 클립보드 형식은 이제 Visual Studio와 호환됩니다.</p></li>
+<li><p>만일 무효한 문자가 경고 후 열릴 때 발견되어 진다면, 커서는 무효한 문자 위치로 넘어갑니다.</p></li>
+<li><p>도구 모음에 16가지 새로운 버튼이 추가되었습니다.</p></li>
+<li><p>도구 모음의 <img alt="" src="../_images/fileopen.gif" /> ( <strong>열기</strong>) 버튼에 화살표가 추가되었고, 화살표를 클릭하면 목록 또는 최근에 사용한 파일과 폴더를 표시합니다.</p></li>
+<li><p>도구 모음의 <img alt="" src="../_images/paste.gif" /> ( <strong>붙여넣기</strong>) 버튼에 화살표가 추가되었고, 화살표를 클릭하면 클립보드에서 최근에 사용한 텍스트의 목록을 표시합니다.</p></li>
+</ul>
+</section>
+<section id="id3">
+<h2>새로운 플러그 인 기능<a class="headerlink" href="#id3" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<section id="id4">
+<h3>코드조각 플러그 인<a class="headerlink" href="#id4" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<ul class="simple">
+<li><p>이제, 코드조각 트리는 코드조각 뿐만이 아니라 매크로도 포함하고 있습니다. 이 매크로는 파일로 저장되어질 필요가 없습니다.</p></li>
+<li><p>트리거 문자열과 단축키(기본 탭)는 지정 될 수 있습니다.</p></li>
+<li><p>도구 설명 힌트를 지정할 수 있으며, 이 트리거 문자열은 입력된 문자열과 일치할 때 도구 설명이 나타납니다 도구 설명의 자세한 정도와 지연 시간은 조정되어질 수 있습니다.</p></li>
+<li><p>TAB 과 SHIFT + TAB은 자리표시자 사이를 넘어가는 데 사용될 수 있습니다.</p></li>
+<li><p>코드조각과 매크로 텍스트를 엠에디터 편집에서 편집할 수 있습니다.</p></li>
+<li><p>플러그 인은 코드조각 사용자 지정 바가 숨겨져 있을 때에도 배경에서 사용 되어 집니다. (플러그 인 속성에서 설정)</p></li>
+<li><p>글로벌 매개변수는 지정될 수 있습니다.</p></li>
+<li><p>새로운 인터페이스 개체는 코드조각과 매크로 사이 에서 사용되어질 수 있습니다.</p></li>
+<li><p>매개변수 기호는 {x} 에서 ${x}로 바뀌었습니다.</p></li>
+<li><p>플러그 인은 엠에디터와 TextMate 코드조각들을 명령어 혹은 끌어다 놓기를 이용해서 Explorer부터 코드조각 트리까지의 코드조각 파일들을 쉽게 불러올 수 있습니다.</p></li>
+<li><p>새로운 쉘 코드 형식은 필터로써 코드조각을 사용할 수 있습니다. 쉘 코드는 표준 입력을 외부도구로 통과시킬 수 있고, 그 다음 표준 출력과 삽입을 코드조각으로써 받게됩니다.</p></li>
+</ul>
+</section>
+<section id="id5">
+<h3>플러그 인 개요<a class="headerlink" href="#id5" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<ul class="simple">
+<li><p>좁히기 혹은 넓히기 명령이 추가되었습니다.</p></li>
+<li><p>명령은 이제 축소될 수 있습니다. (플러그 인 개요 속성에서 명령 축소가능한 체크박스 생성)</p></li>
+</ul>
+</section>
+<section id="id6">
+<h3>플러그 인 프로젝트<a class="headerlink" href="#id6" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<ul class="simple">
+<li><p>포함할 파일, 제외할 파일, 그리고 제외할 폴더는 이제 와일드 카드를 이용하여 지정될 수 있습니다. (솔루션 속성 - 일반 탭)</p></li>
+<li><p>이제 고정 태그 파일을 사용할 수 있습니다. 솔루션 템플릿 속성의 기호 탭에서 고정 태그 파일 이름을 지정할 수 있습니다.</p></li>
+</ul>
+</section>
+<section id="id7">
+<h3>탐색기 플러그 인<a class="headerlink" href="#id7" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<ul class="simple">
+<li><p>이제 아이콘 오버레이가 지원됩니다.</p></li>
+</ul>
+</section>
+</section>
+<section id="id8">
+<h2>새로운 옵션<a class="headerlink" href="#id8" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<ul class="simple">
+<li><p><strong>증분 검색</strong> 체크박스와 <strong>=</strong> 버튼은 <a class="reference internal" href="../dlg/find/index.html"><span class="doc std std-doc"><strong>찾기</strong> 대화 상자</span></a> 와 <a class="reference internal" href="../dlg/replace/index.html"><span class="doc std std-doc"><strong>바꾸기</strong> 대화상자</span></a> 에 추가되었습니다.</p></li>
+<li><p><strong>괄호/따옴표 자동 완성</strong> 체크박스와 <strong>괄호 쌍</strong> 리스트 박스는 <a class="reference internal" href="../dlg/properties/index.html"><span class="doc std std-doc">구성 속성</span></a> 의 <a class="reference internal" href="../dlg/properties/highlight2/index.html"><span class="doc std std-doc"><strong>하이라이트(2)</strong> 탭</span></a> 에 추가되었습니다.</p></li>
+<li><p><strong>URL 클릭시 전체 문자열 선택</strong> 체크 박스는 <a class="reference internal" href="../dlg/properties/index.html"><span class="doc std std-doc">구성 속성</span></a> 의 <a class="reference internal" href="../dlg/properties/link/index.html"><span class="doc std std-doc"><strong>링크</strong> 탭</span></a> 에 추가되었습니다.</p></li>
+<li><p><strong>정규식 사용</strong> 체크박스와 <strong>(정규식) 후에 무시</strong> 텍스트 박스는 이제 <a class="reference internal" href="../dlg/properties/general/indent/index.html"><span class="doc std std-doc"><strong>탭/들여쓰기</strong> 대화상자</span></a> 에 추가되었습니다.</p></li>
+<li><p><strong>CSV (쉼표로 구분) 검색</strong> 체크 박스, <strong>TSV (탭으로 구분) 검색</strong> 체크 박스, <strong>DSV (사용자 지정 구분 기호) 검색</strong> 체크박스, 그리고 <strong>구분기호</strong> 텍스트 박스가 <a class="reference internal" href="../dlg/properties/index.html"><span class="doc std std-doc">구성 속성</span></a> 의 <a class="reference internal" href="../dlg/properties/file/index.html"><span class="doc std std-doc"><strong>파일</strong> 탭</span></a> 에 추가되었습니다.</p></li>
+<li><p><a class="reference internal" href="../dlg/customize/index.html"><span class="doc std std-doc"><strong>사용자 지정</strong> 대화 상자</span></a> 의 <a class="reference internal" href="../dlg/customize/search/index.html"><span class="doc std std-doc"><strong>검색</strong> 탭</span></a> 에서 <strong>찾기/바꾸기 대화상자에서 선택된 텍스트 사용</strong> 체크박스.</p></li>
+<li><p><strong>탭 마우스 옵션</strong> 대화 상자는 <strong>사용자 지정</strong> 대화상자의 <a class="reference internal" href="../dlg/customize/mouse/index.html"><span class="doc std std-doc"><strong>마우스</strong> 탭</span></a> 으로 이동하였습니다.</p></li>
+<li><p><a class="reference internal" href="../dlg/customize/index.html"><span class="doc std std-doc"><strong>사용자 지정</strong> 대화 상자</span></a> 의 <a class="reference internal" href="../dlg/customize/mouse/index.html"><span class="doc std std-doc"><strong>마우스</strong> 탭</span></a> 에서 <strong>CTRL + 마우스 휠로 글자크기 변환</strong> 체크 박스.</p></li>
+<li><p><strong>사용자 지정 바 색 - 시스템 색 이용</strong> 체크 박스, 사용자 지정 바 색 - 텍스트 버튼, 사용자 지정 바 색 - 배경 버튼, 커서 크기 그리고 색 - 너비 드롭 다운 목록 상자, 커서 크기 그리고 색 - 높이 드롭다운 목록 상자, 커서 크기 그리고 색 - 시스템 색 이용 체크 박스 그리고 커서 크기 그리고 색 - <strong>사용자 지정</strong> 의 <a class="reference internal" href="../dlg/customize/view/index.html"><span class="doc std std-doc"><strong>보기</strong> 탭</span></a> 에서 색 버튼.</p></li>
+<li><p><a class="reference internal" href="../dlg/customize/index.html"><span class="doc std std-doc"><strong>사용자 지정</strong> 대화 상자</span></a> 의 <a class="reference internal" href="../dlg/customize/sort/index.html"><span class="doc std std-doc"><strong>정렬</strong> 탭</span></a>.</p></li>
+<li><p><strong>자동 작업 영역 드롭 다운</strong> 리스트 박스와 <a class="reference internal" href="../dlg/customize/index.html"><span class="doc std std-doc"><strong>사용자 지정</strong> 대화 상자</span></a> 의 <a class="reference internal" href="../dlg/customize/window/index.html"><span class="doc std std-doc"><strong>윈도우</strong> 탭</span></a> 에 있는 <strong>종료 전에 묻지 마시오</strong> 체크 박스.</p></li>
+<li><p><strong>새 탭이 아닐 경우 새 파일에 대한 새 창</strong> 옵션은 <a class="reference internal" href="../dlg/customize/index.html"><span class="doc std std-doc"><strong>사용자 지정</strong> 대화 상자</span></a> 의 <a class="reference internal" href="../dlg/customize/tab/index.html"><span class="doc std std-doc"><strong>탭</strong> 탭</span></a> 에 있는 <strong>에서 열기</strong> 드롭다운 리스트 박스에 추가되었습니다.</p></li>
+<li><p><strong>끝낼 때 닫기</strong> 체크박스, <strong>입력</strong> 드롭다운 리스트 박스, <strong>사용자 지정</strong> 텍스트 박스, <strong>EOF 추가</strong> 체크 박스, <strong>출력</strong> 드롭 다운 리스트 박스, 그리고 <strong>표준 오차 포함</strong> 체크박스는 <a class="reference internal" href="../dlg/tools/properties/index.html"><span class="doc std std-doc"><strong>외부 도구 속성</strong> 대화 상자</span></a> 에 추가되었습니다.</p></li>
+<li><p><strong>연결 대상 엠에디터</strong> 버튼은 <a class="reference internal" href="../dlg/customize/index.html"><span class="doc std std-doc"><strong>사용자 지정</strong> 대화 상자</span></a> 의 <a class="reference internal" href="../dlg/properties/associate/index.html"><span class="doc std std-doc"><strong>연결</strong> 탭</span></a> 에 추가되었습니다.</p></li>
+</ul>
+</section>
+<section id="id9">
+<h2>새로운 명령<a class="headerlink" href="#id9" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<ul class="simple">
+<li><p><strong><a class="reference internal" href="../cmd/view/output_clear.html"><span class="doc std std-doc">출력 바 지우기</span></a></strong></p></li>
+<li><p><a class="reference internal" href="../cmd/view/full_screen.html"><span class="doc std std-doc"><strong>전체 화면</strong></span></a></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/paste_history.html"><span class="doc std std-doc">클립보드 링 순환</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/tools/customize_jump_list.html"><span class="doc std std-doc">사용자 지정 점프 목록</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/mode_normal.html"><span class="doc std std-doc">표준 모드</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/mode_csv.html"><span class="doc std std-doc">CSV 모드</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/mode_tsv.html"><span class="doc std std-doc">TSV 모드</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/mode_dsv.html"><span class="doc std std-doc">DSV 모드</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/adjust_column.html"><span class="doc std std-doc">구분 기호 위치 조정</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/select_column.html"><span class="doc std std-doc">CSV/TSV/DSV열 선택</span></a></strong></p></li>
+<li><p><a class="reference internal" href="../cmd/edit/sort_text_a.html"><span class="doc std std-doc"><strong>A부터 Z까지 정렬</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/edit/sort_text_d.html"><span class="doc std std-doc"><strong>Z부터 A까지 정렬</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/edit/sort_num_a.html"><span class="doc std std-doc"><strong>오름차순 정렬</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/edit/sort_num_d.html"><span class="doc std std-doc"><strong>내림차순 정렬</strong></span></a></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/narrowing_toggle.html"><span class="doc std std-doc">축소하기 설정/해제</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/narrowing_on.html"><span class="doc std std-doc">축소하기 설정</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/narrowing_off.html"><span class="doc std std-doc">축소하기 초기화</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/vertical_mode.html"><span class="doc std std-doc">접착 수직 모드</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/window/scroll_left.html"><span class="doc std std-doc">왼쪽 스크롤링</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/window/scroll_right.html"><span class="doc std std-doc">오른쪽 스크롤링</span></a></strong></p></li>
+<li><p><a class="reference internal" href="../cmd/tools/customize_sort.html"><span class="doc std std-doc"><strong>C사용자 지정 정렬</strong></span></a></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/tools/customize_view.html"><span class="doc std std-doc">사용자 지정 보기</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/tools/customize_mouse.html"><span class="doc std std-doc">사용자 지정 마우스</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/help/check_updates.html"><span class="doc std std-doc">업데이트 체크</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/help/customize_update_checker.html"><span class="doc std std-doc">사용자 지정 업데이트 검사기</span></a></strong></p></li>
+</ul>
+</section>
+<section id="id10">
+<h2>매크로 새로운 기능<a class="headerlink" href="#id10" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../macro/interface/index.html"><span class="doc std std-doc"><strong>Interface</strong> 개체</span></a></p></li>
+<li><p><a class="reference internal" href="../macro/window/index.html"><span class="doc std std-doc"><strong>Window</strong> 개체</span></a> 에 <a class="reference internal" href="../macro/window/interface.html"><span class="doc std std-doc"><strong>Interface</strong> 속성</span></a> 이
+추가되었습니다.</p></li>
+<li><p><a class="reference internal" href="../macro/indent_prop/index.html"><span class="doc std std-doc"><strong>IndentProp</strong> 개체</span></a> 에 <a class="reference internal" href="../macro/indent_prop/ignore_after.html"><span class="doc std std-doc"><strong>IgnoreAfter</strong> 속성</span></a> and <a class="reference internal" href="../macro/indent_prop/reg_exp.html"><span class="doc std std-doc"><strong>RegExp</strong> 속성</span></a> 이
+추가되었습니다.</p></li>
+<li><p><a class="reference internal" href="../macro/file_prop/index.html"><span class="doc std std-doc"><strong>FileProp</strong> 개체</span></a> 에 <a class="reference internal" href="../macro/file_prop/detect_csv.html"><span class="doc std std-doc"><strong>DetectCSV</strong> 속성</span></a>, <a class="reference internal" href="../macro/file_prop/detect_tsv.html"><span class="doc std std-doc"><strong>DetectTSV</strong> 속성</span></a>, <a class="reference internal" href="../macro/file_prop/detect_dsv.html"><span class="doc std std-doc"><strong>DetectDSV</strong> 속성</span></a>,
+및 <strong>Delimiter</strong> 속성이 추가되었습니다.</p></li>
+<li><p><a class="reference internal" href="../macro/clipboarddata/index.html"><span class="doc std std-doc"><strong>clipboardData</strong> 개체</span></a>
+향상.</p></li>
+</ul>
+</section>
+<section id="api">
+<h2>플러그인 API의 새로운 기능<a class="headerlink" href="#api" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../plugin/message/ee_clip_history.html"><span class="doc std std-doc">EE_CLIP_HISTORY</span></a> 메시지</p></li>
+<li><p><a class="reference internal" href="../plugin/message/ee_edit_temp.html"><span class="doc std std-doc">EE_EDIT_TEMP</span></a> 메시지</p></li>
+<li><p><a class="reference internal" href="../plugin/message/ee_get_attr.html"><span class="doc std std-doc">EE_GET_ATTR</span></a> 메시지</p></li>
+<li><p><a class="reference internal" href="../plugin/message/ee_get_output_string.html"><span class="doc std std-doc">EE_GET_OUTPUT_STRING</span></a> 메시지</p></li>
+<li><p><a class="reference internal" href="../plugin/message/ee_run_macro.html"><span class="doc std std-doc">EE_RUN_MACRO</span></a> 메시지</p></li>
+<li><p><a class="reference internal" href="../plugin/structure/attr_info.html"><span class="doc std std-doc">ATTR_INFO</span></a> 구조</p></li>
+<li><p><a class="reference internal" href="../plugin/structure/clip_info.html"><span class="doc std std-doc">CLIP_INFO</span></a> 구조</p></li>
+<li><p><a class="reference internal" href="../plugin/structure/run_macro_info.html"><span class="doc std std-doc">RUN_MACRO_INFO</span></a> 구조</p></li>
+<li><p><a class="reference internal" href="../plugin/structure/temp_info.html"><span class="doc std std-doc">TEMP_INFO</span></a> 구조</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_activatetemp.html"><span class="doc std std-doc">Editor_ActivateTemp</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_closetemp.html"><span class="doc std std-doc">Editor_CloseTemp</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_edittemp.html"><span class="doc std std-doc">Editor_EditTemp</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_getattr.html"><span class="doc std std-doc">Editor_GetAttr</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_getclip.html"><span class="doc std std-doc">Editor_GetClip</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_getclippos.html"><span class="doc std std-doc">Editor_GetClipPos</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_getoutputstring.html"><span class="doc std std-doc">Editor_GetOutputString</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_insertclip.html"><span class="doc std std-doc">Editor_InsertClip</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_runmacro.html"><span class="doc std std-doc">Editor_RunMacro</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_savetemp.html"><span class="doc std std-doc">Editor_SaveTemp</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_removeclip.html"><span class="doc std std-doc">Editor_RemoveClip</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_rotateclip.html"><span class="doc std std-doc">Editor_RotateClip</span></a> 인라인 함수</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_setclippos.html"><span class="doc std std-doc">Editor_SetClipPos</span></a> 인라인 함수</p></li>
+<li><p>플러그 인에 대한 <a class="reference internal" href="../plugin/plugin_message/ep_disable_auto_complete.html"><span class="doc std std-doc">EP_DISABLE_AUTO_COMPLETE</span></a> 메시지</p></li>
+<li><p><a class="reference internal" href="../plugin/event/index.html"><span class="doc std std-doc">EVENT_HISTORY</span></a> 이벤트</p></li>
+<li><p><a class="reference internal" href="../plugin/event/index.html"><span class="doc std std-doc">EVENT_TEMP_SAVING</span></a> 이벤트</p></li>
+<li><p>EI_COMBINE_HISTORY, EI_GET_BAR_TEXT_COLOR, EI_GET_BAR_BACK_COLOR, EI_GET_RETURN_TYPE flags (EE_INFO 메시지)</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">버전 9</a><ul>
+<li><a class="reference internal" href="#id2">새로운 일반 기능</a></li>
+<li><a class="reference internal" href="#id3">새로운 플러그 인 기능</a><ul>
+<li><a class="reference internal" href="#id4">코드조각 플러그 인</a></li>
+<li><a class="reference internal" href="#id5">플러그 인 개요</a></li>
+<li><a class="reference internal" href="#id6">플러그 인 프로젝트</a></li>
+<li><a class="reference internal" href="#id7">탐색기 플러그 인</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id8">새로운 옵션</a></li>
+<li><a class="reference internal" href="#id9">새로운 명령</a></li>
+<li><a class="reference internal" href="#id10">매크로 새로운 기능</a></li>
+<li><a class="reference internal" href="#api">플러그인 API의 새로운 기능</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; 저작권 2023 Emurasoft.
+      <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 버전으로 생성되었습니다.
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

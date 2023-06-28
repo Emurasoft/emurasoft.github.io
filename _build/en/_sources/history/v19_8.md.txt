@@ -1,0 +1,58 @@
+# Version 19.8
+
+2020年4月24日
+
+## 一般新增功能
+
+- 添加了使用 **[uchardet](https://github.com/BYVoid/uchardet)**（Mozilla 字元編碼探測的 C++ 分支）的選項，並改進了使用「偵測全部」選項打開檔案時的檔案編碼檢測。
+- 添加了一種功能，該功能可以在每個指定的位元組數處用換行分割檔案，並在打開多個檔案的同時對每個打開的文檔運行巨集（新的 **進階打開** 命令）。當你要在打開固定長度的記錄資料檔案（不包含換行）時，將其在每個指定的位元組數處用換行分割，并使用巨集將其轉換為 CSV 格式時，此功能可能很有用。
+- 新版本讓您能把轉換 CSV 格式錄制為巨集（ [**ConvertCsv** 方法](../macro/document/convert_csv)）。
+- 比較兩個文檔時，改進了并排顯示視窗的行為。例如，在同時并排顯示比較兩個視窗時最小化一個視窗，另一個視窗也將同時最小化。在 Windows 10 中，新版本消除了兩個并排顯示視窗之間的視覺間隙。
+- 添加了很暗的模式（僅適用於 Windows 10 Build 17763 或更高版本）。由於 Windows API 尚未正式支持針對桌面應用程式的深色模式，因此該功能仍處於測試階段。Windows 的未來版本可能不支持它。
+- 新增了命令來應用 Unicode 正規化，此正規化在「 [Unicode 標準第 15 號附件 Unicode Normalization Forms](http://unicode.org/reports/tr15/)」中定義。
+- 添加了一個選項，以將一系列正確的韓文拼音字母顯示為組成的字元。例如，如果啟用此選項，"ᄒ ᅡ ᆫ ᄀ ᅳ ᆯ"（不含空格）會被顯示為 "한글"。此選項對正確顯示舊韓文也有效。
+- 提高了多行規則運算式搜索和取代的速度。
+
+### 測試結果：
+
+|  | v19.6 | v19.7 | v19.8 | 相較於 v19.6 |
+| --- | --- | --- | --- | --- |
+| 尋找一個多行規則運算式 | 54.1 秒 | 24.0 秒 | 18.1 秒 | 快 3.01 倍 |
+
+\\* 測試條件與 [Version 19.7](v19_7) 中的測試條件相同。
+
+## 新增選項
+
+- 添加了 [**進階打開** 對話方塊](../dlg/advanced_open/index)。
+- 添加了 **很暗 (beta)** 核取方塊到 **自訂** 對話方塊的 [**檢視** 頁面](../dlg/customize/view/index) 上。
+- 添加了 **設定「偵測全部」選項時，用 uchardet 檢測檔案編碼** 和 **打開 US-ASCII 作為系統預設編碼** 核取方塊到 **自訂** 對話方塊的 [**檔案** 頁面](../dlg/customize/file/index) 上。
+- 重新命名 **多欄排序** 對話方塊為 [**進階排序** 對話方塊](../dlg/sort_multi/index)，並且新的對話方塊讓您能定義多個條件，即使是非 CSV 文檔。添加了 **「進階選項」** 按鈕到 **進階排序** 對話方塊中。
+- 添加了 **按出現次數對相同的字串進行群組** 核取方塊到 **自訂** 對話方塊的 [**排序** 頁面](../dlg/customize/sort/index) 上。
+- 添加了 **將編碼名稱附加到檔案名** 核取方塊到 **在檔案中** 尋找對話方塊的 [**進階** 對話方塊](../dlg/advanced/index) 中。
+- 添加了 **不再顯示這些新增選項** 核取方塊到 **啟動** 視窗中。
+- 添加了 **最早的版本** 下拉清單方塊到 [**自訂啟動視窗** 對話方塊](../dlg/customize_start/index) 中。
+- 添加了 **顯示組成的韓文拼音字母** 核取方塊到 **自訂** 對話方塊的 [**文字呈現** 頁面](../dlg/customize/text_rendering/index) 上。
+
+## 新增命令
+
+- [跳轉到其他](../cmd/diff/compare_jump_to_other)
+- [尋找最長行/儲存格](../cmd/search/find_longest)
+- [尋找非空最短行/儲存格](../cmd/search/find_shortest)
+- [進階打開](../cmd/file/advanced_open)
+- [重設欄寬](../cmd/edit/reset_column_width)
+- [Unicode 正規化表單 C (標準組合)](../cmd/edit/unicode_norm_fc)
+- [Unicode 正規化表單 D (標準分解)](../cmd/edit/unicode_norm_fd)
+- [Unicode 正規化表單 KC (相容性組合)](../cmd/edit/unicode_norm_fkc)
+- [Unicode 正規化表單 KD (相容性分解)](../cmd/edit/unicode_norm_fkd)
+
+## 外掛程式 API 新增功能
+
+- 添加了 [**EE\_CONVERT\_CSV** 消息](../plugin/message/ee_convert_csv)， [**Editor\_ConvertCsv** 內嵌函式](../plugin/macro/editor_convertcsv)，以及 [**CONVERT\_CSV\_INFO** 結構](../plugin/structure/convert_csv_info)。
+- 添加了 **SORT\_GROUP\_IDENTICAL** 標志到 [**SORT\_INFO** 結構](../plugin/structure/sort_info) 和 [**Editor\_Sort** 內嵌函式](../plugin/macro/editor_sort) 中。
+- 添加了 **FLAG\_FIND\_OUTPUT\_ENCODING** 標志到 [**GREP\_INFO\_EX** 結構](../plugin/structure/grep_info_ex) 中。
+
+## 新增巨集功能
+
+- 添加了 [**ConvertCsv** 方法](../macro/document/convert_csv) 到 **Document** 對象中。
+- 添加了 **eeSortGroupIdentical** 標志到 **Document** 對象的 [**Sort** 方法](../macro/document/sort) 中。
+- 添加了 **eeExFindOutputEncoding** 標志到 **Editor** 對象的 [**FindInFiles** 方法](../macro/editor/editor_findinfiles) 中。

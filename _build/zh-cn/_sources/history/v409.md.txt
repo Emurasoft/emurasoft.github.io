@@ -1,0 +1,7 @@
+# Version 4.09
+
+2004年9月6日
+
+- 修复了 EmEditor 不能再 Windows NT 4.0 上运行的 bug。(v4.06 - v4.08)
+- 修复了 EmEditor 无法运行宏如果以前没有安装过 v4.05 或之前的版本的 bug。(v4.06 - v4.08)
+- 修复了选择“键盘布局”命令会造成 EmEditor 故障的 bug。

@@ -1,0 +1,110 @@
+# Version 13
+
+2013年6月11日
+
+## 一般新增功能
+
+- [**多選區編輯**](../features/multiple_selection_editing)
+- [**為大檔案提供更多支持**](../features/more_support_for_very_large_files)
+- [**多個檔案的編碼轉換**](../features/multiple_file_encoding_conversion)
+- [**快速啟動**](../features/quick_launch)
+- 注釋/取消注釋指令除了作為行注釋之外，現在可作為開始/結尾注釋 (例如，/\\* ... \*/)。當選取的位置在一個行的中間時，EmEditor將自動選擇開始/結尾注釋。
+- 工作空間現在自動儲存所有的書籤。當重新加載檔案時，書籤將不再被刪除。
+- 當通過在「打開」對話方塊中指定一個新檔案名來創建新檔案時，EmEditor 將新建一個 0 位元的空檔案。
+- 您現在不需要通過分支項目就能在 EmEditor 說明中瀏覽所有控制項的信息。說明按鈕被棄用了，現在您可以通過按 **「?」** 按鈕或 **F1** 鍵來打開相關的說明。
+- 在進度視窗中有一個進度欄和百分比指示器。
+- 新的 **快速二進制比較 (忽略區域設置)** 讓排序更加快速。當 **穩定排序** 不是必需時，清除勾選穩定排序同樣讓排序速度加快。
+- [**多檔尋找** 對話方塊](../dlg/find_in_files/index) 現在會在 **檔案類型** 文字方塊中顯示所有與當前組態相關的檔案擴展名，當 **當前檔案類型** 從 **>** 功能表中被選取時。
+- 支持高 DPI 設定。
+- 新的版本讓您能通過鼠標選取用 **僅編輯選定區域模式** 命令所選取的文字之外的文字。
+- 安裝程序現在也能讓您把內容功能表添加到檔案總管中，并且讓 EmEditor 檢查更新。
+- 新添加的安裝程序指令行選項有: NOCHECKUPDATES，NOCONTEXTMENU，NODESKTOP，NOIEEDITOR，NOIEVIEW，NOPATH，NOSHORTCUT，NOTRAYICON，和 NOTXT。
+- EmEditor 免費版回來了！這次，EmEditor 免費版是與 EmEditor Professional 相同的執行檔案。在您試用 EmEditor Professional 30 天之後，您仍然可以使用 EmEditor 免費版，但免費版僅供個人使用。
+- 當一個用戶點擊視窗左邊緣或行號時，一個有關書籤功能的功能表會顯示。
+- /ff 和 /mc 命令行選項讓您能在一個打開的文檔中尋找一個字串。
+
+## 新增外掛程式功能
+
+### HTML 欄外掛程式
+
+- 現在用戶可以使用大尺寸的工具列。
+
+### 大綱外掛程式
+
+- 可以把大綱作為導航顯示，優化速度。
+
+### 專案外掛程式
+
+- 項目直到被用到才會加載，使方案加載操作更加快速。
+- **重新加載** 指令被添加到內容功能表 \- **方案** 子功能表中。另外， **F5** 鍵被設置為 **重新加載** 命令的快捷鍵。
+- 專案外掛程式現在支持Visual Studio 嵌套項目。
+
+## 新增選項
+
+- [**以指定編碼全部儲存** 對話方塊](../dlg/save_all_as/index)
+- [**檔案關聯組態** 對話方塊](../dlg/configuration_associations/index)
+- [**將當前文檔分割為多個檔案** 精靈](../dlg/split_to_files/index)
+- [**合併檔案** 精靈](../dlg/combine_files/index)
+- **快速啟動** 視窗
+- 在 **自訂** 對話方塊中的 [**編輯** 頁面](../dlg/customize/edit/index) 上添加了: **啟用多重選取**， **當沒有可用的撤消信息時進行提示**，以及 **當 EmEditor 無法打開剪貼簿時提示** 的核取方塊。
+- 在 **自訂** 對話方塊中的 [**排序** 頁面](../dlg/customize/sort/index) 上添加了: **快速二進制比較** 核取方塊， **穩定排序** 核取方塊以及 **最大內存大小** 文字方塊。
+- 在 **自訂** 對話方塊中的 [**檢視** 頁面](../dlg/customize/view/index) 上添加了: **使用雙重緩存** 核取方塊。
+- 在 **自訂** 對話方塊中的 [**狀態列** 頁面](../dlg/customize/status/index) 上添加了: **內存大小**， **一級緩存大小**， **二級緩存大小**，and **已使用的物理內存百分比**，這3個勾選內容到清單上。
+- 在 **自訂** 對話方塊中的 [**進階** 頁面](../dlg/customize/advanced/index) 上添加了: **內存大小**， **一級緩存大小**,以及 **二級緩存大小** 文字方塊。
+- 在 [**尋找** 對話方塊](../dlg/find/index) 中， **選定的文字或游標處的單詞** 選項被添加到了 **尋找** 文字方塊旁邊的 **「>」** 下拉功能表中。
+- 在 [**多檔尋找** 對話方塊](../dlg/find_in_files/index) 中， **當前檔案擴展名** 被添加到 **檔案類型** 文字方塊旁邊的 **「>」** 下拉功能表中。
+- 在 [**定位/縮排** 對話方塊](../dlg/properties/general/indent/index) 中添加了 **僅首行縮排** 核取方塊。
+- 在 [**定義組態** 對話方塊](../dlg/configurations/index) 中添加了 **「設為預設值」** 和 **「關聯」** 兩個按鈕。
+- 在 [**外部工具屬性** 對話方塊](../dlg/tools/properties/index) 中， **$(AppDir)**， **$(AppDrive)**，和 **$(Clipboard)** 參數被添加到點擊 **「>」** 按鈕所快顯的功能表中。
+- **更名時在刪除舊檔案前提示** 核取方塊被添加到 [**儲存詳細信息** 對話方塊](../dlg/properties/file/save_details/index) 中
+- 在 [**插入編號** 對話方塊](../dlg/insert_numbering/index) 中添加了: **跳過空白行** 和 **于空白行之後重新計數** 的核取方塊。
+- 在 **自訂** 對話方塊中的 [**鼠標** 頁面](../dlg/customize/mouse/index) 上添加了: **按住 CTRL 鍵并單擊以選擇單詞** 的核取方塊。
+- 在 **自訂** 對話方塊中的 [**搜尋** 頁面](../dlg/customize/search/index) 上添加了: **區分大小寫** 和 **匹配整個單詞** 的核取方塊。這些選項也應用於 **[添加下一個符合的結果](../cmd/search/add_next_occurrence)** 以及 **[添加所有符合的結果](../cmd/search/select_all_occurrences)** 指令。
+- 在 **自訂** 對話方塊中的 [**搜尋** 頁面](../dlg/customize/search/index) 上添加了: **當達到文檔末尾時提示** 的核取方塊。
+- **儲存設置** 核取方塊被添加到了 **打開** 對話方塊中。
+- 在 **自訂標記** 對話方塊中的 [**標記清單** 頁面](../dlg/customize_markers/marker_list/index) 上添加了 **標題** 核取方塊和文字方塊.
+- **點擊引號內的檔案名打開檔案** 核取方塊被添加到了組態屬性中的 [**連結** 頁面](../dlg/properties/link/index) 上。
+- 更新了 **MinimalZen** 主題并把它列在了組態屬性中 [**顯示** 頁面](../dlg/properties/display/index) 上。MinimalZen 是由 ToadLoading 開發的。
+
+## 新增命令
+
+- [選擇所有符合的結果](../cmd/search/select_all_occurrences)
+- [添加下一個符合的結果](../cmd/search/add_next_occurrence)
+- [添加下下個符合的結果](../cmd/search/add_next2_occurrence)
+- [將當前文檔分割為多個檔案](../cmd/tools/split_to_files)
+- [合併檔案](../cmd/tools/combine_files)
+- [快速啟動](../cmd/tools/search_all_commands)
+- [重復上一命令](../cmd/edit/repeat_last_command)
+- [用指定編碼全部儲存](../cmd/file/file_save_all_as)
+- [降級](../cmd/help/downgrade)
+- [升級](../cmd/help/upgrade)
+- [檔案關聯組態](../cmd/tools/configuration_associations)
+- [選擇行首](../cmd/edit/select_begin_lines)
+- [選擇行尾](../cmd/edit/select_end_lines)
+- [交換開始位置和結束位置](../cmd/edit/switch_start_end_select)
+- [選擇當前文檔中書籤標示行](../cmd/edit/bookmark_select)
+- [剪下當前文檔中書籤標示行](../cmd/edit/bookmark_cut)
+- [複製當前文檔中書籤標示行](../cmd/edit/bookmark_copy)
+- 尋找全部 (在「標記」工具列的右鍵功能表中)
+
+## 巨集的新增功能
+
+- [**Count** 屬性](../macro/selection/selection_count) 被添加到 **Selection** 對象中。
+- [**PromptRename** 屬性](../macro/file_save_prop/prompt_rename) 被添加到 **FileSaveProp** 對象中。
+- [**OpenFileInQuotes** 屬性](../macro/link_prop/open_file_in_quotes) 被添加到 **LinkProp** 對象中。
+- **eeFindSelectAll** 標志被添加到 [**Find** 方式](../macro/selection/selection_find) 中。
+- **iSel** 參數被添加到 [GetBottomPointX](../macro/selection/selection_getbottompointx)， [GetBottomPointY](../macro/selection/selection_getbottompointy)，
+[GetTopPointX](../macro/selection/selection_gettoppointx)，以及
+[GetTopPointY](../macro/selection/selection_gettoppointy) 方式中。
+
+## 外掛程式 API 新增功能
+
+- [EE\_GET\_MULTI\_SEL](../plugin/message/ee_get_multi_sel)
+消息 ( [Editor\_GetMultiSel](../plugin/macro/editor_getmultisel)
+內嵌函式)
+- EI\_GET\_CMD\_LIST\_SIZE 標志 ( [EE\_INFO](../plugin/message/ee_info) 消息)
+- [EE\_SET\_OUTLINE\_ARRAY](../plugin/message/ee_set_outline_array)
+messsage ( [Editor\_SetOutlineArray](../plugin/macro/editor_setoutlinearray)
+內嵌函式)
+- [OUTLINE\_ARRAY\_INFO](../plugin/structure/outline_array_info) 結構
+- [EVENT\_UI\_CHANGED 事件](../plugin/event/index)

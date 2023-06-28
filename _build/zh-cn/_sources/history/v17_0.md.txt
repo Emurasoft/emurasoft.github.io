@@ -1,0 +1,152 @@
+# Version 17.0
+
+2017年7月18日
+
+## 一般新增功能
+
+- 通过优化代码以保存设置（特别是便携式版本或当有许多宏在我的宏文档中时），大大提高了 EmEditor 的启动速度。 参见下面的测试结果表。
+
+### 测试结果:
+
+|  | v16.9.1 | v16.9.3 | v17.0 | 与 v16.9.1 相较 |
+| --- | --- | --- | --- | --- |
+| 启动时间 | 5.45 秒 | 0.734 秒 | 0.141 秒 | 快 38.7 倍 |
+
+\\* 64位便携版本（用 INI 文件），我的宏文档中有 119 个宏，9 个插件，20 个最近使用的文件，20 个最近使用的文件夹，10 个最近使用的字体。 测量程序初始化持续时间。测试系统：Windows 10 (64-bit) Core i7-4790 16GB RAM
+
+- 在 **自定义** 对话框中的 **历史** 页面上，当勾选 **保存光标位置和书签** 复选框时，之前的版本只能保存最近使用文件的光标位置和书签，现在，新版本能保存多达 30,000 天的历史记录。另外，你可以通过选项永久保存书签。
+- 如果在执行 **在文件中替换** 时检测到只读文件，新版本会在输出栏中显示一个警告信息。
+- 当鼠标指针悬停在工具栏上的「按字符换行」，「按窗口换行」和「按页面换行」按钮上时，新版本会在工具提示中显示边距（字符数）。
+
+## 新增选项
+
+- 把自定义对话框中的文件页面上的 **保存光标与书签位置** 复选框移动到了自定义对话框中的 [历史记录页面](../dlg/customize/history/index) 上。
+- 在自定义对话框中的 [历史记录页面](../dlg/customize/history/index) 上添加了 **最近的搜索次数** 文本框， **保存天数** 文本框以及 **永不清除书签** 复选框。
+- 添加了 [**清除历史记录** 对话框](../dlg/clear_history/index)，当你在 [**自定义历史** 页面](../dlg/customize/history/index) 上点击「清除历史记录...」按钮时会弹出该对话框。
+- 在 **配置属性** 对话框中的 [高亮 (1)](../dlg/properties/highlight1/index) 页面上添加了 **使用默认关键词** 复选框。
+- 添加了 **与查找/替换对话框同步历史记录** 复选框到 **自定义** 对话框中的 [**搜索** 页面](../dlg/customize/search/index) 上。
+- 添加了 **与查找同步** 命令到 [**替换** 对话框](../dlg/replace/index) 中点击 **替换为** 下拉列表框旁的“ **>**”按钮所显示的菜单上。
+- 添加了 **下拉列表字体** 下拉列表到 [**工具栏** 对话框](../dlg/toolbars/index) 中。
+
+## 新增命令
+
+- [删除旧的设定](../cmd/tools/delete_old_settings)
+
+## 插件 API 新增功能
+
+- 添加了 **单击运行宏** 复选框以及 **宏文件筛选器** 文本框到 **资源管理器** 插件属性中，并且 [资源管理器插件](../howto/plugin/plugin_explorer) 现在让你能点击一个宏文件来运行宏，而不是编辑宏。
+- 添加了 **用 EmEditor 运行这个宏** 命令到在 **资源管理器** 插件中右击宏文件弹出的上下文菜单上。
+
+## 新增宏功能
+
+- 添加了 [**ExecuteMacro** 方法](../macro/editor/editor_executemacro) 和 [**RegisteredName** 属性](../macro/editor/registeredname) 到 [**Editor** 对象](../macro/editor/index) 中。
+- 添加了 [**SerialToLogical**](../macro/document/serialtological)， [**LogicalToSerial**](../macro/document/logicaltoserial)， [**LogicalToView**](../macro/document/logicaltoview)， [**ViewToLogical**](../macro/document/viewtological) 方法到 **Document** 对象中。
+- 添加了 [**Point** 对象](../macro/point/index)。
+
+## 修复 Bug
+
+- 修复了与 **删除重复行** 命令相关的 bug。
+- 修复了当打开一个只读文件时， **调整分隔符位置 (整个文档)** 命令 不可用的 bug。
+- 修复了 **EE\_VIEW\_TO\_LOGICAL** 消息无法在64位版上正常运作的 bug。
+- 修复了当使用 **向上移动行** 或 **向下移动行** 命令时，当前行的背景颜色可能会变得不正确的 bug。
+
+## 备注
+
+最初运行新版本时，旧设置将被转换为新设置。旧设置还是会保留，但如果你执行 **删除旧设置** 命令，那么 EmEditor 将会清除旧设置。在极少数情况下，此版本可能与几个旧的插件和宏不兼容。 具体来说，依赖于下面的 **技术信息** 中列出的注册表信息的插件和宏可能不再有效。请确认这个版本是否适用于您的插件或宏，如果有任何问题，请到论坛或电邮联系我们，以便我们能够解决这些问题。如果您在使用 Aye Wong 的 MacroPopupMenu2， [请下载并运行名为 **PopupMacros.jsee 的新的宏**](https://www.emeditor.com/files/popupmacros-jsee/)。如果您使用宏临时设置当前宏，请使用新的 **ExecuteMacro** 方法进行重写 （请参阅 **PopupMacros.jsee** 宏作为示例）。
+
+## 技术信息
+
+过时的注册表项：
+
+`HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\ActiveString
+HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Macros
+HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\PlugIns
+HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Recent File List
+HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Recent Folder List
+HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Recent Font List
+HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Recent Insert List
+HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Recent Workspace List
+`
+
+在 HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Config\\(配置名称) 中过时的注册表值(包括旧版本中已过时的值):
+
+`Accel
+Clr
+Clr11
+Clr12
+Clr14
+Clr14_2
+Clr14_3
+Clr14_6
+Clr15_4
+Clr15_8
+Clr2
+Clr3
+ClrPreview
+ClrVar
+ConfigCopiedFrom
+ContextMenu
+DevMode
+DevNames
+GuideArray
+HW
+HW2, HW3, HW4, ...
+IgnoreIndent
+RegexIndentBegin
+RegexIndentEnd
+RegexIndentStatement
+InitialFolder
+JumpListMenu
+LineComment1
+LineComment2
+MainMenu
+MaxFindPreview
+NW
+OutlineBar
+OutlineBarInit
+OutlineComments
+OutlineGuide
+OutlineGuideInit
+OutlineGuideMax
+OutlineHideMatch
+OutlineIndentType
+OutlineLevelSize
+OutlineMatch-1 ... OutlineMatch-32
+OutlineRegex-1 ... OutlineRegex-32
+OutlineReplace-1 ... OutlineReplace-32
+OutlineVer
+OutlineViewLevel
+PIK
+PIKM
+PIKT
+TabMenu
+Tmpl
+TrayMenu1
+TrayMenu2
+TrayMenu3
+TrayMenu4
+TrayMenu5
+TrayMenu6
+TrayMenu7
+TrayMenu8
+`
+
+在 HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Common 中过时的注册表值:
+
+`RecentFilterList (v16.9 开始过时)`
+
+新增数据文件:
+
+`%APPDATA%\Emurasoft\EmEditor\Common\ActiveS.bin
+%APPDATA%\Emurasoft\EmEditor\Common\FileAttr.bin
+%APPDATA%\Emurasoft\EmEditor\Common\Macros.bin
+%APPDATA%\Emurasoft\EmEditor\Common\PlugIns.bin
+%APPDATA%\Emurasoft\EmEditor\Common\RecentFilterList.bin (添加在 v16.9 中)
+%APPDATA%\Emurasoft\EmEditor\Config\(配置名)\Accel.bin
+%APPDATA%\Emurasoft\EmEditor\Config\(配置名)\ClrPreview.bin
+%APPDATA%\Emurasoft\EmEditor\Config\(配置名)\ClrVar.bin
+%APPDATA%\Emurasoft\EmEditor\Config\(配置名)\DevInfo.bin
+%APPDATA%\Emurasoft\EmEditor\Config\(配置名)\NW.bin
+%APPDATA%\Emurasoft\EmEditor\Config\(配置名)\HW.bin
+%APPDATA%\Emurasoft\EmEditor\Config\(配置名)\PropEx.bin
+`

@@ -1,0 +1,45 @@
+# Version 15.4
+
+2015年 10月 13日
+
+## 一般の新機能
+
+- \[ブックマークされた行を削除\] コマンド、フィルターが設定された後の全削除、2 個の文書が異なるウィンドウで開かれている時の \[比較\] コマンドなどの動作を非常に高速化しました。
+- Base64 エンコーディングに関するコマンドを追加しました (下記の「新しいコマンド」を参照)。
+
+## 新しい設定
+
+- [\[複数列で並べ替え\] ダイアログ ボックス](../dlg/sort_multi/index) に、\[単語が少ないから多いへ\]、\[単語が多いから少ないへ\] ラジオ ボタンを追加しました。
+- 設定のプロパティの [\[スクロール\] タブ](../dlg/properties/scroll/index) に \[カーソル位置の上下1行を常に表示する\] チェック ボックスを追加しました。
+- \[カスタマイズ\] ダイアログ ボックスの \[記号\] タブが [\[記号/形式\] タブ](../dlg/customize/marks/index) に名称が変更し、日付、時刻を挿入する時に使用する日付の形式、時刻の形式を設定できるようになりました。
+- ファイルを開く時、ファイルに不正な文字を含んでいる場合に表示されるダイアログ ボックスに \[すべてに適用\] チェック ボックスが追加されました。
+- [\[CSV の結合\] ダイアログ ボックス](../dlg/join_csv/index) に、\[単純に結合 (キー無し)\] チェック ボタンを追加しました。
+- 設定のプロパティの [\[リンク\] タブ](../dlg/properties/link/index) に \[表示済みリンクを記憶する\] チェック ボックスを追加しました。
+- 設定のプロパティの [\[表示\] タブ](../dlg/properties/display/index) の \[指定する部分\] 一覧に「URL (表示済み)」、「メール アドレス (表示済み)」、「ファイルから検索ハイパーリンク (表示済み)」を追加しました。
+
+## 新コマンド
+
+- [Base64をプレーン テキストに変換 (現在のエンコード)](../cmd/edit/decode_base64)
+- [プレーン テキストをBase64に変換 (現在のエンコード)](../cmd/edit/encode_base64)
+- [Base64をプレーン テキストに変換 (UTF-8)](../cmd/edit/decode_base64_utf8)
+- [プレーン テキストをBase64に変換 (UTF-8)](../cmd/edit/encode_base64_utf8)
+- [Base64をバイナリ ファイルに変換](../cmd/edit/decode_base64_binary)
+- [バイナリ ファイルをBase64に変換](../cmd/edit/encode_base64_binary)
+- [単語が少ないから多いへ並べ替え](../cmd/edit/sort_words_a)
+- [単語が多いから少ないへ並べ替え](../cmd/edit/sort_words_d)
+- [表示済みリンクの履歴をクリア](../cmd/edit/clear_visit_history)
+
+## プラグインの新機能
+
+- [\[単語数\] プラグイン](../howto/plugin/plugin_wordcount) のクエリ タイプに、表示行数、ページ数を追加しました。
+
+## プラグイン API の新機能
+
+- EI\_GET\_PRINT\_PAGES パラメータが [EE\_INFO メッセージ](../plugin/message/ee_info) ( [Editor\_Info インライン関数](../plugin/macro/editor_info)) に追加されました。
+- EEID\_DECODE\_BASE64、EEID\_ENCODE\_BASE64、EEID\_DECODE\_BASE64\_UTF8、EEID\_ENCODE\_BASE64\_UTF8、EEID\_DECODE\_BASE64\_BINARY、EEID\_ENCODE\_BASE64\_BINARY、EEID\_SORT\_WORDS\_A、EEID\_SORT\_WORDS\_D、および EEID\_CLEAR\_VISIT\_HISTORY コマンドが追加されました。
+
+## マクロの新機能
+
+- eeJoinSimpleMerge フラグが [Join メソッド](../macro/editor/join) に追加されました。
+
+##### copyright © 2003-2023 by Emurasoft, Inc.

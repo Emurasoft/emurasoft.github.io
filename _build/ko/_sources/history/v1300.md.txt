@@ -1,0 +1,124 @@
+# 버전 13
+
+2013년 6월 11일
+
+## 새로운 일반 기능
+
+- [**다중 선택 편집**](../features/multiple_selection_editing)
+- [**대용량 파일의 추가 지원**](../features/more_support_for_very_large_files)
+- [**다중 파일의 인코딩 변환**](../features/multiple_file_encoding_conversion)
+- [**빠른 실행**](../features/quick_launch)
+- 주석/주석 취소 명령은 라인 주석이 추가된 시작/끝 주석으로 (예를 들어, /\\* ... \*/)로 새롭게 실행됩니다. 라인의 중간 지점이 선택 되었을 때 엠에디터는 시작/끝 주석을 사용 할 것입니다.
+- 이제부터 작업 영역은 모든 책갈피를 자동으로 저장합니다. 파일을 다시 로드 할 시 더이상 책갈피가 지워지지 않게 되었습니다.
+- 열기 대화상자에서 존재하지 않는 파일 이름을 지정하여 새로운 파일을 만들 때, 0 바이트의 빈 파일을 생성 하게 됩니다.
+- 각 대화상자에 대한 도움말이 분기 항목을 통해 탐색 할 필요 없이 모든 컨트롤에 관한 정보를 포함하게 되었습니다. 도움말 버튼은 더이상 사용되지 않고, **?** 버튼이나 **F1** 키를 누를시에 관련 도움말을 가져오게 됩니다.
+- 진행률 표시줄과 백분율 표시가 현재 진행 창에 표시됩니다.
+- 새로운 **빠른 이진수 비교** 는 정렬을 보다 빠르게 할 수 있게 합니다. 또한, **안정적 정렬** 선택을 지우시면 안정적 정렬이 불필요할때 정렬을 좀 더 빠르게 실행하도록 돕습니다.
+- [**파일에서 찾기** 대화 상자](../dlg/find_in_files/index) 에서 **>** 메뉴를 통해 **현재 파일 유형** 을 선택하면 파일 유형 텍스트 박스에 현재의 구성과 관련된 모든 파일 확장자를 나타내 줍니다.
+- 높은 DPI 설정을 지원합니다.
+- 새 버전은 **좁히기** 명령을 사용하여 지정된 텍스트 영역의 외부에서 마우스로 텍스트를 선택할수 있도록 합니다.
+- 설치 관리자는 윈도우 탐색기에 컨텍스트 메뉴를 추가 가능하게 하며, 엠에디터 업데이트 확인을 하도록 할 수 있습니다.
+- 설치 관리자의 명령줄 옵션이 추가되었습니다: NOCHECKUPDATES, NOCONTEXTMENU, NODESKTOP, NOIEEDITOR, NOIEVIEW, NOPATH, NOSHORTCUT, NOTRAYICON, and NOTXT.
+- 엠에디터 무료버전이 다시 돌아왔습니다! 이번에는 엠에디터 무료버전이 엠에디터 프로페셔널 버전과 동일한 실행 파일입니다. 엠에디터 프로페셔널을 30일동안 체험하신 후에, 엠에디터 무료버전을 제품 구입없이 개인적인 용도로 사용하실 수 있습니다.
+- 사용자가 줄 번호나 왼쪽 가장자리를 클릭할 시, 책갈피와 관련된 메뉴가 나타나게 됩니다.
+- /ff과 /mc 명령 줄 옵션을 사용하여 열려져 있는 문서안에서 문자열을 찾도록 합니다.
+
+## 새로운 플러그인 기능들
+
+### HTML 바 플러그인
+
+- 대형 도구 모음이 사용 가능 합니다.
+
+### 아웃라인 플러그인
+
+- 가이드로 아웃라인을 표시할 때 속도를 최적화 하였습니다.
+
+### 프로젝트 플러그인
+
+- 솔루션 로딩이 사용 될때까지 프로젝트를 로드하지 않음으로서 솔루션 로딩 실행이 더욱더 빨라졌습니다.
+- **다시 로드** 명령이 **솔루션** 하위 메뉴안의 컨텍스트 메뉴에 추가되었습니다. 또한, **F5** 키를 사용하여 다시로드 명령을 실행할수 있게 지정하였습니다.
+- 프로젝트 플러그인은 Visual Studio 중첩된 프로젝트를 지원하게 되었습니다.
+
+## 새로운 옵션들
+
+- [**인코딩하여 모두 저장** 대화 상자](../dlg/save_all_as/index)
+- [**구성 연결** 대화 상자](../dlg/configuration_associations/index)
+- [**현 문서를 여러 파일로 분할** 마법사](../dlg/split_to_files/index)
+- [**여러 문서를 한 파일로 결합** 마법사](../dlg/combine_files/index)
+- **빠른 실행** 대화 상자
+- **다중 선택 가능**, **더이상 가능한 실행 취소가 없을 때 확인**, 그리고 **EmEmditor가 클립보드를 열수 없을 때 확인** 체크 박스가 **사용자 지정** 대화 상자의
+[**편집** 탭](../dlg/customize/edit/index) 에 추가되었습니다.
+- **빠른 이진수 비교** 체크 박스, **안정적 정렬** 체크 박스, 그리고 **최대 메모리 사이즈** 텍스트 박스가 **사용자 지정** 대화 상자의
+[**정렬** 탭](../dlg/customize/sort/index) 에 추가되었습니다.
+- **이중 버퍼링 사용** 체크 박스가 **사용자 지정** 대화 상자의
+[**보기** 탭](../dlg/customize/view/index) 에 추가되었습니다.
+- **메모리 사이즈**, **L1 캐시 사이즈**, **L2 캐시 사이즈**, 그리고 **사용중인 실제 메모리의 백분율** 항목들이 **사용자 지정** 대화 상자의
+[**상태** 탭](../dlg/customize/status/index) 에 추가되었습니다.
+- **메모리 사이즈**, **L1 캐시 사이즈**, 그리고 **L2 캐시 사이즈** 텍스트 박스가 **사용자 지정** 대화 상자의
+[**고급** 탭](../dlg/customize/advanced/index) 에 추가되었습니다.
+- [**찾기** 대화 상자](../dlg/find/index) 의 **찾기** 텍스트 박스 옆 **>** 드롭다운 메뉴 안에 **선택된 텍스트 또는 커서에 단어** 항목이 추가되었습니다.
+- [**파일에서 찾기** 대화 상자](../dlg/find_in_files/index) 의 **파일 유형** 텍스트 박스 옆 **>** 드롭다운 메뉴 안에 **현 파일 확장명** 항목이 추가되었습니다.
+- **새로운 줄에서만 들여쓰기** 체크 박스가
+[**탭/들여쓰기** 대화 상자](../dlg/properties/general/indent/index) 에 추가되었습니다.
+- **기본값으로 설정** 버튼과 **연결** 버튼이
+[**구성 정의** 대화 상자](../dlg/configurations/index) 에 추가되었습니다.
+- **$(AppDir)**, **$(AppDrive)**, 그리고 **$(Clipboard)** 매개 변수들이 **[외부 도구 속성](../dlg/tools/properties/index)** 의 **>** 버튼이 클릭되었을 때 표시되는 메뉴에 추가되었습니다.
+- **이름을 변경할시 오래된 파일을 지우기 전에 확인** 체크 박스가
+[**세부 정보 저장** 대화 상자](../dlg/properties/file/save_details/index) 에 추가되었습니다.
+- **빈 줄 건너뛰기** 그리고 **빈 줄 다음부터 다시 번호 매기기** 체크 박스가
+[**번호 매기기 삽입** 대화 상자](../dlg/insert_numbering/index) 에 추가되었습니다.
+- **'CTRL + 클릭' 사용하여 단어 선택** 체크 박스가 **사용자 지정** 대화 상자의
+[**마우스** 탭](../dlg/customize/mouse/index) 에 추가되었습니다.
+- **대/소문자 구분** 과 **전체 단어 일치** 체크 박스가 **사용자 지정** 대화 상자의
+[**검색** 탭](../dlg/customize/search/index) 에 추가되었습니다. 이 옵션들은 **[다음 항목 추가](../cmd/search/add_next_occurrence)** 과 **[모든 항목 선택](../cmd/search/select_all_occurrences)** 명령에 적용됩니다.
+- **문서의 끝에 도달하였을 시 확인** 체크 박스가 **사용자 지정** 대화 상자의
+[**검색** 탭](../dlg/customize/search/index) 에 추가되었습니다.
+- **설정 저장** 체크 박스가 **열기** 대화 상자에 추가되었습니다.
+- **제목** 체크 박스와 텍스트 박스가 **마커 사용자 지정** 대화 상자의
+[**마커 목록** 탭](../dlg/customize_markers/marker_list/index) 에 추가되었습니다.
+- **따옴표 안의 파일 이름을 클릭하여 파일 열기** 체크 박스가 구성 속성의 링크 탭에 추가되었습니다.
+- 구성 속성의 [**디스플레이** 탭](../dlg/properties/display/index) 에 **MinimalZen** 테마가 업데이트되어 추가되었습니다. MinimalZen은 ToadLoading에 의해 개발되었습니다.
+
+## 새로운 명령들
+
+- [모든 항목 선택](../cmd/search/select_all_occurrences)
+- [다음 항목 추가](../cmd/search/add_next_occurrence)
+- [다음으로 다음인 항목 추가](../cmd/search/add_next2_occurrence)
+- [현 문서를 여러 파일로 분할](../cmd/tools/split_to_files)
+- [여러 문서를 한 파일로 결합](../cmd/tools/combine_files)
+- [빠른 실행](../cmd/tools/search_all_commands)
+- [지난 명령 다시 실행](../cmd/tools/repeat_last_command)
+- [인코딩하여 모두 저장](../cmd/file/file_save_all_as)
+- [다운그레이드](../cmd/help/downgrade)
+- [업그레이드](../cmd/help/upgrade)
+- [연결 구성](../cmd/tools/configuration_associations)
+- [줄의 시작부터 선택](../cmd/edit/select_begin_lines)
+- [줄의 끝부터 선택](../cmd/edit/select_end_lines)
+- [시작점과 끝점을 전환](../cmd/edit/switch_start_end_select)
+- [책갈피된 줄 선택하기](../cmd/edit/bookmark_select)
+- [책갈피된 줄 잘라내기](../cmd/edit/bookmark_cut)
+- [책갈피된 줄 복사하기](../cmd/edit/bookmark_copy)
+- 모두 찾기 (마커 도구 모음의 오른쪽-클릭 메뉴)
+
+## 매크로의 새로운 기능들
+
+- **Selection** 개체에
+[**Count** 속성](../macro/selection/selection_count) 이 추가되었습니다.
+- **FileSaveProp** 개체에
+[**PromptRename** 속성](../macro/file_save_prop/prompt_rename) 이 추가되었습니다.
+- **LinkProp** 개체에
+[**OpenFileInQuotes** 속성](../macro/link_prop/open_file_in_quotes) 이 추가되었습니다.
+- [**Find** 방법](../macro/selection/selection_find) 에 **eeFindSelectAll** 플래그가 추가되었습니다.
+- **ISEL** 매개 변수가
+[GetBottomPointX](../macro/selection/selection_getbottompointx),
+[GetBottomPointY](../macro/selection/selection_getbottompointy),
+[GetTopPointX](../macro/selection/selection_gettoppointx) 및
+[GetTopPointY](../macro/selection/selection_gettoppointy) 방법에 추가되었습니다.
+
+## 플러그인 API의 새로운 기능들
+
+- [EE\_GET\_MULTI\_SEL](../plugin/message/ee_get_multi_sel) 메시지 ( [Editor\_GetMultiSel](../plugin/macro/editor_getmultisel) 인라인 함수)
+- EI\_GET\_CMD\_LIST\_SIZE 플래그 ( [EE\_INFO](../plugin/message/ee_info) 메시지)
+- [EE\_SET\_OUTLINE\_ARRAY](../plugin/message/ee_set_outline_array) 메시지 ( [Editor\_OutlineArray](../plugin/macro/editor_setoutlinearray) 인라인 함수)
+- [OUTLINE\_ARRAY\_INFO](../plugin/structure/outline_array_info) 구조
+- [EVENT\_UI\_CHANGED 이벤트](../plugin/event/index)

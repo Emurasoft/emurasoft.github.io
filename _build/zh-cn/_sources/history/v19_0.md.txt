@@ -1,0 +1,56 @@
+# Version 19.0
+
+2019年7月30日
+
+## 一般新增功能
+
+- 新增了用包括在安装程序内的 **[CSS HTML Validator Lite](https://www.htmlvalidator.com/)（EmEditor 版）** 给 **HTML**， **CSS**，以及 **JSON** 文档 **检查语法** 的功能。
+- 新增了用 MSXML 分析程序给 **XML** 文档 **检查语法** 的功能。
+- **验证 CSV** 命令现在被称为 **语法检查** 命令，它可以检查所有支持的文件类型（CSV，XML，HTML，CSS 以及 JSON）。
+- 语法检查错误以红色波浪下划线（可自定义）显示，并且鼠标指针悬停在错误部分会显示有关错误信息的小提示。对于较小的文档，可以自动刷新语法检查。
+- 新版本允许您自定义下划线颜色，以便与文本颜色区分显示（设置选项在 **配置属性** 对话框中的 [**显示** 页面](../dlg/properties/display/index) 上）。
+- 添加了新的 [**反向排序** 命令](../cmd/edit/sort_reverse)，让您能按相反的顺序对文档进行排序。
+- 用多线程代码和最近 CPU 中的 AVX-2 指令集大大提高了切换到 **CSV 模式**， **语法检查**（CSV）以及 **调整分隔符位置（整个文档）** 命令的速度 。
+- 用多线程代码和最近 CPU 中的 AVX-2 以及 SSE4.2 指令集大大提高了切换到在很大的文件中执行删除重复行命令的速度。
+
+### 测试结果：
+
+|  | v18.9 | v19.0 | 比较 |
+| --- | --- | --- | --- |
+| 切换到 CSV 模式 | 1.67 秒 | 0.206 秒 | 快 8.11 倍 |
+| 删除重复行 | 47.7 秒 | 20.3 秒 | 快 2.35 倍 |
+
+\\* 切换到 CSV 模式：1.99 GB 1580万行，以逗号分隔的数字。
+
+删除重复行：2.70 GB，2 亿行，随机 ASCII 数据。
+
+全部：勾选“使用临时文件”选项，16 个线程；测试系统：Windows 10（64位），Core i9-9900K，32GB RAM，2TB SSD。
+
+## 新增选项
+
+- 添加了 [**语法检查** 页面](../dlg/customize/validation/index) 到 **自定义** 对话框中。
+- 添加了 [**语法检查** 页面](../dlg/properties/validation/index) 到 **配置属性** 对话框中。
+- 添加了 **下划线颜色** 下拉列表框到 **配置属性** 对话框中的 [**显示** 页面](../dlg/properties/display/index) 上。
+- 添加了 **保存大文件时启用文件映射** 复选框到 **自定义** 对话框的 **文件** 页面上。
+- 添加了 **指令集** 下拉列表框到 **自定义** 对话框的 **高级** 页面上。
+- 添加了 **Tab 数** 到配置属性对话框的 **大纲** 页面中的 **类型** 下拉列表框内。
+- 添加了 **仅检查选取的字符串** 单选按钮到 [**删除/把重复行设为书签** 对话框](../dlg/delete_duplicate_advanced/index) 中。
+- 添加了 **当存在垂直选择或多重选择时，仅检查选取的字符串 (删除重复行命令)** 选项到 **自定义** 对话框的 [**编辑** 页面](../dlg/customize/edit/index) 上。
+- 添加了 **当存在垂直选择或多重选择时，仅检查选取的字符串** 选项到 **自定义** 对话框的 [**排序** 页面](../dlg/customize/sort/index) 上。
+
+## 新增命令
+
+- [语法检查属性](../cmd/tools/property_validation)
+- [自定义语法检查](../cmd/tools/customize_validation)
+- [语法检查器](../cmd/view/toggle_validation_bar)
+- [反向排序](../cmd/edit/sort_reverse)
+
+## 插件 API 新增功能
+
+- 添加了 SORT\_REVERSE 以及 SORT\_INSPECT\_NOT\_SEL\_ONLY 标志到 [**SORT\_INFO** 结构](../plugin/structure/sort_info) 以及 [**Editor\_Sort** 内联函数](../plugin/macro/editor_sort) 中。
+- 添加了 MANAGE\_DUPLICATES\_INSPECT\_SEL\_ONLY 标志到 [**MANAGE\_DUPLICATES\_INFO** 结构](../plugin/structure/manage_duplicates_info) 以及 [**Editor\_ManageDuplicates** 内联函数](../plugin/macro/editor_manageduplicates) 中。
+
+## 新增宏功能
+
+- 添加了 **V** （反向排序）选项以及 **eeSortInspectNotSelOnly** 标志到 **Document** 对象的 [**Sort** 方法](../macro/document/sort) 中。
+- 添加了 **eeSortInspectSelOnly** 标志到 **Document** 对象的 [**DeleteDuplicates** 方法](../macro/document/delete_duplicates) 中。

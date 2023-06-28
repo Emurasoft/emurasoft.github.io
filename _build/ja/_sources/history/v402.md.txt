@@ -1,0 +1,36 @@
+# Version 4.02
+
+2004年1月23日
+
+- [\[ファイルから置換\] ダイアログ ボックス](../dlg/replace_in_files/index) で、\[変更したファイルを開いたままにする\] チェック ボックスを追加し、ウィンドウを開かずにファイルに変更をすぐに適用することができるようにしました。
+- [\[ファイルから置換\] ダイアログ ボックス](../dlg/replace_in_files/index) に、\[バックアップを保存する\] チェック ボックス、および
+\[バックアップ フォルダ\] テキスト ボックスを追加し、ファイルから置換前のバックアップを作成できるようにしました。
+- [\[ファイルから検索\] ダイアログ ボックス](../dlg/find_in_files/index) と [\[ファイルから置換\] ダイアログ ボックス](../dlg/replace_in_files/index) に、\[高度\]
+ボタンを追加し、検索または置換を行わないファイルまたはフォルダの名前を指定できるようになりました。
+- マクロに [FindInFiles メソッド](../macro/editor/editor_findinfiles)、 [ReplaceInFiles メソッド](../macro/editor/editor_replaceinfiles)、および
+[Sleep メソッド](../macro/window/window_sleep) を追加。
+- プラグインに [EE\_FIND\_IN\_FILESA \
+メッセージ](../plugin/message/ee_find_in_filesa)、 [EE\_FIND\_IN\_FILESW \
+メッセージ](../plugin/message/ee_find_in_filesw)、 [EE\_REPLACE\_IN\_FILESA \
+メッセージ](../plugin/message/ee_replace_in_filesa)、 [EE\_REPLACE\_IN\_FILESW \
+メッセージ](../plugin/message/ee_replace_in_filesw) を追加。
+- 読み取り専用属性の付いたファイルを開いても、書き換え禁止の状態にならない不具合を修正。
+- マクロの [GetActivePointX メソッド](../macro/selection/selection_getactivepointx)、 [GetBottomPointX \
+メソッド](../macro/selection/selection_getbottompointx)、 [GetTopPointX \
+メソッド](../macro/selection/selection_gettoppointx)、 [SetActivePoint \
+メソッド](../macro/selection/selection_setactivepoint) などで、eePosLogicalA 定数と eePosLogical 定数の意味が逆だったのを修正。
+- プラグインの [EE\_INFO メッセージ](../plugin/message/ee_info)、または
+[Editor\_Info マクロ](../plugin/macro/editor_info) の nCmd パラメータに
+EI\_GET\_NEXT\_BOOKMARK を指定しても正しい値を返さなかった不具合を修正。
+- [\[ファイルから検索\] ダイアログ ボックス](../dlg/find_in_files/index) で、\[正規表現を使用する\] チェック ボックスをチェックして検索すると、CR
+のみ、または LF の空白行が存在すると、行番号を正しく表示しなかった不具合を修正。
+- マクロで非常に長い文字列を挿入を記録すると、そのマクロを保存または編集時にエラーが発生したのを修正。
+- ファイルから検索、ファイルから置換の \[検索中\] ダイアログ ボックスに、検索する文字列も表示するようにした。
+- [コマンド ライン](../howto/file/file_commandline) /p オプションで印刷を行うと、他の EmEditor の \[ウィンドウ\] メニューに空の項目ができていたのを修正。
+- EVENT\_FILE\_OPENED イベントがファイルをオープンした後に発生するように調整。
+- ウィンドウ結合時でウィンドウを最小化している時、別のファイルを開いてもウィンドウが元に戻らないことがあるのを修正。
+- [コマンド ライン](../howto/file/file_commandline) に /fu オプションの追加。
+- 選択範囲のみ置換をする時、行選択で最後の行の次の行頭が、正規表現の ^ で置換されてしまう不具合を修正。
+- 新規作成時のテンプレート ファイルを、新規作成時のエンコードで開くように変更。
+- 選択テキストを他のウィンドウにドラッグ アンド ドロップで移動した後、 [\[元に戻す\] \
+コマンド](../cmd/edit/edit_undo) で元に戻らないことがある不具合を修正。

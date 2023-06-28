@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>[CSV] カテゴリ &#8212; EmEditor  ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="検索" href="../../search.html" />
+    <link rel="next" title="[中央揃え] コマンド" href="align_center.html" />
+    <link rel="prev" title="コマンド リファレンス" href="../index.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  ドキュメント</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/cmd/CSV/index">English</a>
+                <a href="/ja/cmd/CSV/index">日本語</a>
+                <a href="/ko/cmd/CSV/index">한국어</a>
+                <a href="/zh-cn/cmd/CSV/index">简体中文</a>
+                <a href="/zh-tw/cmd/CSV/index">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">コマンド リファレンス</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">[CSV] カテゴリ</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="align_center.html">[中央揃え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="align_left.html">[左揃え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="align_right.html">[右揃え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hide_column.html">[列の非表示] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manage_columns.html">[列の管理] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="row_heading_1.html">[行ヘディング 1] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="row_heading_2.html">[行ヘディング 2] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="row_heading_3.html">[行ヘディング 3] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="row_heading_4.html">[行ヘディング 4] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="row_heading_reset.html">[行ヘディング 0] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unhide_column.html">[列の再表示] コマンド</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../bookmarks/index.html">[ブックマーク] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../convert/index.html">[変換] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../diff/index.html">[比較] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.html">[編集] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../external_tools/index.html">[外部ツール] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.html">[ファイル] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../help/index.html">[ヘルプ] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert/index.html">[挿入] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macros/index.html">[マクロ] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugins/index.html">[プラグイン] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.html">[検索] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort/index.html">[並べ替え] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/index.html">[ツール] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.html">[表示] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.html">[ウィンドウ] カテゴリ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.html">ダイアログ ボックス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">よくある質問と回答集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">特長</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">履歴</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">使い方</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">リンク</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.html">マクロ リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">注意</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.html">プラグイン リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">購入方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">サポート</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">コマンド リファレンス</a> &lt;
+            [CSV] カテゴリ
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="csv">
+<h1>[CSV] カテゴリ<a class="headerlink" href="#csv" title="この見出しへのパーマリンク">¶</a></h1>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>コマンド名</p></td>
+<td><p>説明</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/mode_normal.html"><span class="doc std std-doc">通常モード</span></a></p></td>
+<td><p>CSV (カンマ区切り) と TSV (タブ区切り) モードをクリアにします。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/mode_csv.html"><span class="doc std std-doc">CSVモード</span></a></p></td>
+<td><p>CSV (カンマ区切り) モードを選択します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/mode_tsv.html"><span class="doc std std-doc">TSVモード</span></a></p></td>
+<td><p>TSV (タブ区切り) モードを選択します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/mode_dsv.html"><span class="doc std std-doc">DSVモード</span></a></p></td>
+<td><p>DSV (ユーザー定義区切り) モードを選択します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/sv_mode.html"><span class="doc std std-doc">CSV (複数項目)</span></a></p></td>
+<td><p>文書を指定するCSVとして表示します (複数項目)。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/csv_cell_mode.html"><span class="doc std std-doc">セル選択モード</span></a></p></td>
+<td><p>CSV文書でセル選択モードのオン/オフを切り替えます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../view/csv_hide_quotes.html"><span class="doc std std-doc">一時的に引用符を非表示</span></a></p></td>
+<td><p>一時的に現在のCSV文書を引用符やエスケープ文字を使用しないで表示します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../view/header_toggle.html"><span class="doc std std-doc">列ヘッダー</span></a></p></td>
+<td><p>CSV用の列ヘッダーの表示/非表示を切り替えます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../view/header_num.html"><span class="doc std std-doc">列ヘッダーに1から始まる数字を使用</span></a></p></td>
+<td><p>列ヘッダーに1から始まる数字を使用します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../view/header_alpha.html"><span class="doc std std-doc">列ヘッダーにアルファベットを使用</span></a></p></td>
+<td><p>列ヘッダーにアルファベットを使用します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../view/header_zero_base.html"><span class="doc std std-doc">列ヘッダーに0から始まる数字を使用</span></a></p></td>
+<td><p>列ヘッダーに0から始まる数字を使用します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/heading_toggle.html"><span class="doc std std-doc">ヘディングの設定/解除 (ウィンドウ枠の固定/解除)</span></a></p></td>
+<td><p>カーソル位置の上の行と左の列を非スクロール領域のヘディングとして設定または解除します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/heading_set.html"><span class="doc std std-doc">ヘディングの設定 (ウィンドウ枠の固定)</span></a></p></td>
+<td><p>カーソル位置の上の行と左の列を非スクロール領域のヘディングとして設定します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/heading_reset.html"><span class="doc std std-doc">列ヘディング 0</span></a></p></td>
+<td><p>既存の非スクロール領域の列ヘディングを解除します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/heading_1.html"><span class="doc std std-doc">列ヘディング 1</span></a></p></td>
+<td><p>最初の1行を非スクロール領域の列ヘディングとして設定します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/heading_2.html"><span class="doc std std-doc">列ヘディング 2</span></a></p></td>
+<td><p>最初の2行を非スクロール領域の列ヘディングとして設定します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/heading_3.html"><span class="doc std std-doc">列ヘディング 3</span></a></p></td>
+<td><p>最初の3行を非スクロール領域の列ヘディングとして設定します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/heading_4.html"><span class="doc std std-doc">列ヘディング 4</span></a></p></td>
+<td><p>最初の4行を非スクロール領域の列ヘディングとして設定します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#../csv/row_heading_reset"><span class="xref myst">行ヘディング 0</span></a></p></td>
+<td><p>既存の非スクロール領域の行ヘディングを解除します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#../csv/row_heading_1"><span class="xref myst">行ヘディング 1</span></a></p></td>
+<td><p>最初の1列を非スクロール領域の行ヘディングとして設定します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#../csv/row_heading_2"><span class="xref myst">行ヘディング 2</span></a></p></td>
+<td><p>最初の2列を非スクロール領域の行ヘディングとして設定します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#../csv/row_heading_3"><span class="xref myst">行ヘディング 3</span></a></p></td>
+<td><p>最初の3列を非スクロール領域の行ヘディングとして設定します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#../csv/row_heading_4"><span class="xref myst">行ヘディング 4</span></a></p></td>
+<td><p>最初の4列を非スクロール領域の行ヘディングとして設定します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/read_only_headings.html"><span class="doc std std-doc">列ヘディングは書き換え禁止</span></a></p></td>
+<td><p>列ヘディングを書き換え禁止にするかどうかの設定を切り替えます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/heading_popup.html"><span class="doc std std-doc">ヘディング (ポップアップ メニュー)</span></a></p></td>
+<td><p>ポップアップ メニューを表示して、ヘディングを設定します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/convert_to_sv.html"><span class="doc std std-doc">次のCSVに変換 (複数項目)</span></a></p></td>
+<td><p>現在のCSV文書または固定幅列文書を指定するCSV文書に変換します (複数項目)。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/convert_to_fixed_width.html"><span class="doc std std-doc">固定幅列に変換</span></a></p></td>
+<td><p>現在のセパレーター位置を使用して現在のCSV文書を固定幅列に変換します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/csv_converter.html"><span class="doc std std-doc">CSVコンバーター</span></a></p></td>
+<td><p>CSVコンバーターの表示/非表示を切り替えます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/adjust_column.html"><span class="doc std std-doc">区切り位置を調節 (文書全体)</span></a></p></td>
+<td><p>CSV文書にある全ての区切り位置を調節します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/adjust_column_visible.html"><span class="doc std std-doc">区切り位置を調節 (表示されている行のみ)</span></a></p></td>
+<td><p>CSV文書の表示されている行のみの区切り位置を調節します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#../csv/hide_column"><span class="xref myst">列の非表示</span></a></p></td>
+<td><p>選択列または現在列を非表示にします。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#../csv/unhide_column"><span class="xref myst">列の再表示</span></a></p></td>
+<td><p>選択列または現在列を再表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/reset_column_width.html"><span class="doc std std-doc">列幅をリセット</span></a></p></td>
+<td><p>CSV文書の選択列の幅をリセットします。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#../csv/align_left"><span class="xref myst">左揃え</span></a></p></td>
+<td><p>選択列または現在列を左に揃えます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#../csv/align_center"><span class="xref myst">中央揃え</span></a></p></td>
+<td><p>選択列または現在列を中央に揃えます。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#../csv/align_right"><span class="xref myst">右揃え</span></a></p></td>
+<td><p>選択列または現在列を右に揃えます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/select_column.html"><span class="doc std std-doc">CSV列を選択 (ヘディング無し)</span></a></p></td>
+<td><p>CSV文書で現在の列をヘディング無しで箱型選択モードで選択します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/select_column_with_headings.html"><span class="doc std std-doc">CSV列を選択 (ヘディング付き)</span></a></p></td>
+<td><p>CSV文書で現在の列をヘディング付きで箱型選択モードで選択します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/insert_column.html"><span class="doc std std-doc">左に列を挿入</span></a></p></td>
+<td><p>CSV文書の現在列の左側に新規列を挿入します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/insert_column_right.html"><span class="doc std std-doc">右に列を挿入</span></a></p></td>
+<td><p>CSV文書の現在列の右側に新規列を挿入します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/add_column.html"><span class="doc std std-doc">列を追加</span></a></p></td>
+<td><p>CSV文書の最終列の右側に新規列を挿入します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/duplicate_column.html"><span class="doc std std-doc">列の2重化</span></a></p></td>
+<td><p>CSV文書の選択列を2重化します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/move_column.html"><span class="doc std std-doc">列を移動/コピー</span></a></p></td>
+<td><p>CSV文書の選択列または現在の列を指定する場所に移動またはコピーします。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#../csv/manage_columns"><span class="xref myst">列の管理</span></a></p></td>
+<td><p>CSV文書の列の移動、コピー、削除、並べ替えを行います。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/combine_columns.html"><span class="doc std std-doc">列を結合</span></a></p></td>
+<td><p>CSV文書の選択列を結合します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/split_column.html"><span class="doc std std-doc">列を分割</span></a></p></td>
+<td><p>CSV文書の選択列を分割します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/make_columns_same.html"><span class="doc std std-doc">列数をそろえる</span></a></p></td>
+<td><p>CSV文書の列数をそろえます。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/remove_unnecessary_quotes.html"><span class="doc std std-doc">不要な2重引用符を削除</span></a></p></td>
+<td><p>CSV文書の不要な2重引用符を削除します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/remove_embedded_nl.html"><span class="doc std std-doc">CSVの埋め込み改行コードを削除</span></a></p></td>
+<td><p>CSV文書の埋め込み改行コードを削除します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/add_quotes.html"><span class="doc std std-doc">すべてのセルを引用符で囲む</span></a></p></td>
+<td><p>CSV 文書のすべてのセルを2重引用符で囲みます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/combine_lines.html"><span class="doc std std-doc">行を結合</span></a></p></td>
+<td><p>上下隣の重複したセルを結合します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/flash_fill.html"><span class="doc std std-doc">フラッシュ フィル (セル選択モードのみ)</span></a></p></td>
+<td><p>CSV文書の列全体に自動的に値を入力します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/transpose.html"><span class="doc std std-doc">行/列の入れ替え</span></a></p></td>
+<td><p>CSV文書の行と列を入れ替えます。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/pivot_table.html"><span class="doc std std-doc">ピボット テーブル</span></a></p></td>
+<td><p>CSV文書でピボット テーブルを作成します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/unpivot.html"><span class="doc std std-doc">ピボット解除</span></a></p></td>
+<td><p>CSVデータを平らにして行に変換します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/join_csv.html"><span class="doc std std-doc">CSVの結合</span></a></p></td>
+<td><p>2個のCSV文書を結合します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/extract_columns.html"><span class="doc std std-doc">列を抽出</span></a></p></td>
+<td><p>現在のCSV文書から指定する列を抽出します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/auto_add_separators.html"><span class="doc std std-doc">自動的にセパレーターを追加</span></a></p></td>
+<td><p>ノーマル モード時、固定幅列への変換の準備のため、セパレーターを自動的に検出して追加します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/add_remove_separator.html"><span class="doc std std-doc">セパレーターを追加/削除</span></a></p></td>
+<td><p>ノーマル モード時、固定幅列への変換の準備のため、カーソル位置 (または、ルーラー上のポイントされた位置) に、セパレーターを追加または削除します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/remove_all_separators.html"><span class="doc std std-doc">すべてのセパレーターを削除</span></a></p></td>
+<td><p>ノーマル モード時、すべてのセパレーターを削除します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/sv_sep_popup.html"><span class="doc std std-doc">列/セパレーター (ポップアップ メニュー)</span></a></p></td>
+<td><p>ポップアップ メニューを表示して、列またはセパレーターに関する作業を行います。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/csv_edit_cell.html"><span class="doc std std-doc">セル編集 (セル選択モードのみ)</span></a></p></td>
+<td><p>CSV文書の現在のセルを編集します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/clear_contents.html"><span class="doc std std-doc">値をクリア (セル選択モードのみ)</span></a></p></td>
+<td><p>選択されたセルの中身をクリアします。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/csv_next_cell.html"><span class="doc std std-doc">次のセル (セル選択モードのみ)</span></a></p></td>
+<td><p>CSV文書で次のセルにジャンプします。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/csv_prev_cell.html"><span class="doc std std-doc">前のセル (セル選択モードのみ)</span></a></p></td>
+<td><p>CSV文書で前のセルにジャンプします。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/csv_up.html"><span class="doc std std-doc">上のセル (セル選択モードのみ)</span></a></p></td>
+<td><p>CSV文書で上のセルにジャンプします。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/csv_down.html"><span class="doc std std-doc">下のセル (セル選択モードのみ)</span></a></p></td>
+<td><p>CSV文書で下のセルにジャンプします。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/right_edge.html"><span class="doc std std-doc">右端へ (セル選択モードのみ)</span></a></p></td>
+<td><p>現在のデータ領域の右端へ移動します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/left_edge.html"><span class="doc std std-doc">左端へ (セル選択モードのみ)</span></a></p></td>
+<td><p>現在のデータ領域の左端へ移動します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/top_edge.html"><span class="doc std std-doc">上端へ (セル選択モードのみ)</span></a></p></td>
+<td><p>現在のデータ領域の上端へ移動します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/bottom_edge.html"><span class="doc std std-doc">下端へ (セル選択モードのみ)</span></a></p></td>
+<td><p>現在のデータ領域の下端へ移動します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/shift_right_edge.html"><span class="doc std std-doc">選択範囲を右端へ (セル選択モードのみ)</span></a></p></td>
+<td><p>選択範囲を現在のデータ領域の右端へ移動します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/shift_left_edge.html"><span class="doc std std-doc">選択範囲を左端へ (セル選択モードのみ)</span></a></p></td>
+<td><p>選択範囲を現在のデータ領域の左端へ移動します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/shift_top_edge.html"><span class="doc std std-doc">選択範囲を上端へ (セル選択モードのみ)</span></a></p></td>
+<td><p>選択範囲を現在のデータ領域の上端へ移動します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/shift_bottom_edge.html"><span class="doc std std-doc">選択範囲を下端へ (セル選択モードのみ)</span></a></p></td>
+<td><p>選択範囲を現在のデータ領域の下端へ移動します。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/select_cell.html"><span class="doc std std-doc">セルを選択</span></a></p></td>
+<td><p>CSV文書で現在のセルを選択します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/next_cell.html"><span class="doc std std-doc">次のセル</span></a></p></td>
+<td><p>CSV文書で次のセルにジャンプします。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/prev_cell.html"><span class="doc std std-doc">前のセル</span></a></p></td>
+<td><p>CSV文書で前のセルにジャンプします。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/sv_popup.html"><span class="doc std std-doc">CSVモード (ポップアップ メニュー)</span></a></p></td>
+<td><p>ポップアップ メニューを表示して、CSV モードを選択します。</p></td>
+</tr>
+</tbody>
+</table>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="align_center.html">[中央揃え] コマンド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="align_left.html">[左揃え] コマンド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="align_right.html">[右揃え] コマンド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hide_column.html">[列の非表示] コマンド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="manage_columns.html">[列の管理] コマンド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="row_heading_1.html">[行ヘディング 1] コマンド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="row_heading_2.html">[行ヘディング 2] コマンド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="row_heading_3.html">[行ヘディング 3] コマンド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="row_heading_4.html">[行ヘディング 4] コマンド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="row_heading_reset.html">[行ヘディング 0] コマンド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="unhide_column.html">[列の再表示] コマンド</a></li>
+</ul>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

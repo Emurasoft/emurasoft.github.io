@@ -1,0 +1,44 @@
+# Version 15.6
+
+2015年11月16日
+
+## 一般新增功能
+
+- 打开文件的速度变得更快了。新版本打开一个大文件 (809 MB - 2.02 GB) 的速度比 v15.5 要快 12% 到 23%。
+- 你能选择 **更新频道**。选择 **beta 频道** 会通知你所有的更新包括 beta 版。
+- **快速启动** 命令现在包括三种模式: **命令** (Ctrl + Shift + C)， **选项** (Ctrl + Shift + O)，还有 **符号** (Ctrl + Shift + S)。按快捷键 Ctrl + Space 会弹出变更模式的菜单。
+- 你能把 **快速启动** 窗口作为一个无模式窗口打开。“快速启动”窗口中的工具栏添加了“保持此窗口打开”按钮，代替之前的“关闭”按钮。
+- 当存在多个 EmEditor 群组时，EmEditor 现在能同时显示多个 **配置属性** 和/或 **快速启动** 窗口。
+- 不再显示警告消息 _“侦测到 Windows 10。在 IE 浏览器上用 EmEditor 查看源代码的功能也许与 Microsoft Edge 不兼容...”_ 因为 Windows 10 Build 10586 修复了 Microsoft Edge 的 bug。
+- 给存在的 **WrapTags.jsee** 宏分配了快捷键： **Ctrl + Shift + ,**。
+- 添加了下列宏。
+
+## 新增宏
+
+- **SymbolList.jsee** (显示当前源代码的符号列表)
+- **GoToDefinition.jsee** (跳转到光标所在位置的函数的定义，快捷键 **F12**)
+- **PopBrowseContext.jsee** (从定义返回，快捷键 **Ctrl + Num \***)
+- **ParameterInfo.jsee** (当光标在一个函数的括号中时，把参数信息作为工具提示显示，快捷键 **Ctrl + Shift + Space**)
+
+## 新增选项
+
+- 在 [**自定义字体** 对话框](../dlg/properties/font/index) 中添加了 **仅显示固定间距的字体** 的复选框。
+
+## 新增命令
+
+- **[选择更新频道](../cmd/help/update_channel)**
+- **[制表符/缩进属性](../cmd/tools/property_indent)**
+- **[新建文件详细信息属性](../cmd/tools/property_file_new)**
+- **[保存文件详细信息属性](../cmd/tools/property_file_save)**
+- **[快速启动 \- 命令](../cmd/tools/ql_commands)**
+- **[快速启动 \- 选项](../cmd/tools/ql_options)**
+- **[快速启动 \- 符号](../cmd/tools/ql_symbols)**
+- **[自定义宏 \- 我的宏](../cmd/macros/customize_macro_my_macros)**
+- **[自定义宏 \- 选项](../cmd/macros/customize_macro_options)**
+- **[自定义标记 \- 标记列表](../cmd/tools/customize_markers_list)**
+- **[自定义标记 \- 自动标记](../cmd/tools/customize_markers_auto)**
+- **[自定义标记 \- 选项](../cmd/tools/customize_markers_options)**
+
+## 新增插件功能
+
+- **项目** 插件支持 7 条新增用户消息。这些新用户消息可以在包括 plug-in.h 之前通过定义 USE\_PROJECTS\_PLUGIN 来使用。

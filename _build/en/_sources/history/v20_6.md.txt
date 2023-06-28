@@ -1,0 +1,41 @@
+# Version 20.6
+
+2021年3月16日
+
+## 一般新增功能
+
+- 在許多核心功能中（包括打開檔案和多檔尋找/取代），支持的長檔案路徑超過 260 個字元。（某些功能，包括外掛程式和巨集仍然不支持長檔案路徑。）
+- 添加了自訂 URI 配置的功能。
+- 新版本讓您能在退出時清除檔案或搜索記錄（通過 **自訂** 對話方塊中 [**歷史記錄** 頁面](../dlg/customize/history/index) 上的 **退出時清除歷史記錄** 核取方塊）。
+- 將 **Internet Explorer** 取代為 **Microsoft Edge**（如果可用作預設外部工具）。
+- 新版本讓您能右鍵單擊 **字型** 功能表中的最近的字型名稱，然後選擇 **從此清單中刪除** 以從清單中刪除所選字型。
+- 當 CSV 文檔中存在許多列時，提高了 **GetCell()** 方法的速度。
+- 在 **Find**, **Replace**， **FindInFiles**，和 **ReplaceinFiles** 方法中闡明了巨集錯誤消息。
+- 提高了在存在很長的行並且允許換行時的速度。
+- **Emurasoft 客戶中心** 支持 **雙重身份驗證** 登錄。
+
+## 新增選項
+
+- 添加了 [**URI 配置** 頁面](../dlg/customize/uri_schemes/index) 到 **自訂** 對話方塊中。
+- 添加了 **設為書籤** 按鈕到 [**進階篩選** 對話方塊](../dlg/advanced_filter/index) 中。
+- 添加了 **退出時清除歷史記錄** 核取方塊到 **自訂** 對話方塊中的 [**歷史記錄** 頁面](../dlg/customize/history/index) 上。
+- 在 **自訂** 對話方塊中的 [**歷史記錄** 頁面](../dlg/customize/history/index) 上，將 **儲存游標和書籤位置** 核取方塊分為 **儲存游標位置** 和 **儲存書籤** 核取方塊。
+- 添加了 **自訂更新** 按鈕到 **啟動視窗** 中。
+- 從 **啟動視窗** 以及 **更新檢查器** 對話方塊中刪除了 **自動檢查更新** 以及 **自動在退出後安裝** 核取方塊。
+
+## 新增命令
+
+- [**反向選擇**](../cmd/edit/invert_selection)
+- [**自訂 URI 配置**](../cmd/tools/customize_uri_schemes)
+
+## 外掛程式新增功能
+
+- 添加了 **提示** 頁面到 **項目** 外掛程式的外掛程式屬性中。
+- 在 **程式碼片段** 外掛程式中匯入程式碼段後，新版本將不再展開樹。
+
+## 外掛程式 API 新增功能
+
+- 添加了 [**EE\_QUERY\_STRING\_EX** 消息](../plugin/message/ee_query_string_ex)， [**Editor\_QueryStringEx** 內嵌函式](../plugin/macro/editor_querystringex)，以及 [**QUERY\_STRING\_INFO** 結構](../plugin/structure/query_string_info)。
+- 添加了 **EI\_GET\_FILE\_NAME\_EX** 命令到 [**EE\_INFO** 消息](../plugin/message/ee_info) 中。
+- 添加了 [**STRING\_BUF** 結構](../plugin/structure/string_buf)。
+- 添加了 _hr_ 欄位到 **[GREP\_INFO\_EX](../plugin/structure/grep_info_ex)**，和 **[BATCH\_GREP\_INFO](../plugin/structure/batch_grep_info)** 結構中。

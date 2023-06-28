@@ -1,0 +1,62 @@
+# Version 5.00
+
+2005年12月20日
+
+- 無論您是要打開多份檔案還是要使用標籤頁功能，EmEditor 都能在一個進程中運行。在一個進程中運行能讓 EmEditor 啟動更加快速，減少內存用量，并且在激活其他文檔時避免任務欄閃爍。多個視窗則作為多線程運行。如果您到 [**自訂** 對話方塊](../dlg/customize/index) 中的 [**進階** 頁面](../dlg/customize/advanced/index) 上，勾選 **文檔間不共享 (禁用標籤頁)** 核取方塊，可以回到之前的行為模式 (多進程) 。
+- 當 EmEditor 發生一個應用程式錯誤時，錯誤處理程式讓您能在 EmEditor 終止前儲存已修改的檔案。
+- 如果一個個應用程式錯誤發生在一個外掛程式中，EmEditor 讓您不用終止程式就禁用外掛程式。
+- 標籤樣式可以在「按鈕」和「標籤頁」之間選擇。
+- 關閉按鈕 (×) 被添加到了標籤頁的右邊讓您可以一個一個關閉文檔。T
+- 支持群組視窗。要把一個文檔從目前的群組中分離出來，您可以直接把標籤頁拖放到目前的視窗之外，或者選擇 [**新增群組** 命令](../cmd/window/new_group)。
+- 標籤頁圖示現在可以在「無」，「檔案類型」，以及「EmEditor 圖示」之中做選擇。
+- 標籤頁寬度可以在「按檔案名稱調整」，「只在超出指定寬度時截短」，以及「固定為指定的寬度」之中做選擇。
+- 當標籤頁與視窗大小不合時，標籤頁寬度可以被調整，或在視窗中添加更多行。
+- 您可以自訂雙擊標籤頁或用游標中鍵單擊標籤頁所要執行的命令。
+- 旋轉游標滾輪能去到下一個或上一個標籤頁。
+- 您可以自訂標籤頁上的內容功能表。
+- 新的標籤頁插入位置，當關閉一個標籤頁時要激活哪一個標籤頁，以及用哪一個視窗來打開新文檔都可以被自訂。
+- 標籤頁能通過檔案名稱，類型，修改時間或最近激活的時間來排序。
+- 「全部合併」命令被重新命名為 [**啟用標籤頁** 命令](../cmd/window/window_combine)。
+- 添加了 **點擊「下一個文檔」命令時切換到上次使用的文檔視窗** 核取方塊到 [**自訂** 對話方塊](../dlg/customize/index) 中的 [**視窗** 頁面](../dlg/customize/window/index) 上。
+- **剝離目前的資料夾中的檔案路徑** 核取方塊和 **額外的鍵盤快速鍵** 下拉清單方塊被添加到了 [**自訂** 對話方塊](../dlg/customize/index) 中的 [**歷史記錄** 頁面](../dlg/customize/history/index) 上。
+- 可以顯示 [**偵測全部結果** 對話方塊](../dlg/detect_result/index) 當打開一個檔案時選擇自動偵測為編碼方式 。
+- 行號會顯示在一個固定的位置即使水平捲軸位置更改了。
+- EmEditor 在基本多文種平面 (Basic Multilingual Plane，簡稱 BMP)之外支持 Unicode 字元。
+- 當系統區域設置是日文時，半形反斜杠 (U+005C) 可以被轉換為全形日元標記 (U+0xFFE5)，通過全形/半形轉換命令。
+- 功能表欄現在是工具列之一，可以被移動到工具列之前或之後。
+- 當一個大檔案被打開時，現在會出現一個「進度」對話方塊，您可以在這個對話方塊中取消繼續打開。
+- 每一個工具列上的內容功能表中都添加了一個自訂命令。
+- 修復了一個安裝程式在夏令時期間提示重啟 Windows 的 bug。
+- 添加了 [**Documents** 集合](../macro/documents/index)，讓巨集現在可以列舉打開的文檔。添加了 [**Documents** 屬性](../macro/editor/editor_documents) 到 [**Editor** 對象](../macro/editor/index) 中。
+- 添加了 [**PopupMenu** 對象](../macro/popupmenu/index)，讓巨集可以創建快顯功能表。 [**CreatePopupMenu** 方式](../macro/window/createpopupmenu) 被添加到了 [**Window** 對象](../macro/window/index) 中。
+- 添加了 [**clipboardData** 對象](../macro/clipboarddata/index) ，讓巨集可以取回或設定剪貼簿數據。 [**clipboardData** \
+屬性](../macro/window/clipboarddata) 被添加到 [**Window** 對象](../macro/window/index) 中。
+- [**Activate** 方式](../macro/document/document_activate) 被添加到 [**Document** 對象](../macro/document/index) 中。
+- [**Redraw** 屬性](../macro/window/window_redraw) 被添加到 [**Window** 對象](../macro/window/index) 中以防止重新繪制在執行巨集的過程中。
+- [**退出** 方式](../macro/window/quit) 被添加到 [**Window** 對象](../macro/window/index) 來終止執行巨集。
+- 變更 [**Mode** 屬性](../macro/selection/selection_mode) 的規范。
+- [**EnableTab** 屬性](../macro/editor/editor_enabletab) 被添加到 [**Editor** 對象](../macro/editor/index) 中。
+- [**ScriptFullName** 屬性](../macro/window/scriptfullname) 以及 [**ScriptName** 屬性](../macro/window/scriptname) 被添加到 [**Window** 對象](../macro/window/index) 中。
+- 添加了 [**Editor\_GetSelTypeEx** 內嵌函式](../plugin/macro/editor_getseltypeex) 以及 [**Editor\_SetSelTypeEx** 內嵌函式](../plugin/macro/editor_setseltypeex)。
+- [EE\_SAVE\_FILEA](../plugin/message/ee_save_filea)， [EE\_SAVE\_FILEW](../plugin/message/ee_save_filew)， [EE\_GET\_MODIFIED](../plugin/message/ee_get_modified),
+[EE\_GET\_CONFIGA](../plugin/message/ee_get_configa)， [EE\_GET\_CONFIGW](../plugin/message/ee_get_configw)， [EE\_SET\_CONFIGA](../plugin/message/ee_set_configa),
+[EE\_SET\_CONFIGW](../plugin/message/ee_set_configw)，和 [EE\_INFO](../plugin/message/ee_info) 消息被延伸來指定目標文檔。
+- 添加了 [Editor\_DocSaveFileA](../plugin/macro/editor_docsavefilea)， [Editor\_DocSaveFileW](../plugin/macro/editor_docsavefilew),
+[Editor\_DocGetModified](../plugin/macro/editor_docgetmodified)， [Editor\_DocGetConfigA](../plugin/macro/editor_docgetconfiga),
+[Editor\_DocGetConfigW](../plugin/macro/editor_docgetconfigw)， [Editor\_DocSetConfigA](../plugin/macro/editor_docsetconfiga),
+[Editor\_DocSetConfigW](../plugin/macro/editor_docsetconfigw)，和 [Editor\_DocInfo](../plugin/macro/editor_docinfo) 內嵌函式。
+- EI\_GET\_DOC\_COUNT，EI\_INDEX\_TO\_DOC，EI\_DOC\_TO\_INDEX，EI\_ZORDER\_TO\_DOC，EI\_DOC\_TO\_ZORDER，EI\_GET\_ACTIVE\_INDEX，EI\_SET\_ACTIVE\_INDEX，EI\_GET\_FULL\_TITLEA，EI\_GET\_FULL\_TITLEW，EI\_GET\_SHORT\_TITLEA，
+EI\_GET\_SHORT\_TITLEW，EI\_GET\_SAVE\_AS\_TITLEA，EI\_GET\_SAVE\_AS\_TITLEW，EI\_MOVE\_ORDER，EI\_CLOSE\_DOC，和 EI\_SAVE\_DOC 值被添加到 [EE\_INFO](../plugin/message/ee_info) 消息參數中。
+- 添加了 [EE\_GET\_REDRAW](../plugin/message/ee_get_redraw) 消息。
+- EVENT\_CREATE\_FRAME，EVENT\_CLOSE\_FRMAE，EVENT\_DOC\_SEL\_CHANGED，EVENT\_TAB\_MOVED，和 EVENT\_DOC\_CLOSE 值被添加到外掛程式 [event](../plugin/event/index) 中。
+- 添加了新的外掛程式消息 [EP\_GET\_INFO](../plugin/plugin_message/ep_get_info)。
+- 外掛程式規范被延伸到 64-bit 的平臺上。添加了 [POINT\_PTR](../plugin/structure/point_ptr) 結構以及 [SIZE\_PTR](../plugin/structure/size_ptr) 結構。
+- 外掛程式巨集被改為內嵌函式來強制嚴格的參數類型驗證。
+- Unicode 現在被指定為 UTF-16LE，并且 Unicode big endian 現在被指定為 UTF-16BE。
+- 添加了新的 [命令列選項](../howto/file/file_commandline) (/cps，/ipi，/pos，/sa，/sp，/ss+，/ss-，/ws，and /wss) 包括編碼轉換選項。
+- 添加了 [**還原視窗位置** 命令](../cmd/window/restore_pos)。
+- **監控時間間隔** 文字方塊被添加到 **[組態屬性](../dlg/properties/index)** 中的 [**檔案** 頁面](../dlg/properties/file/index) 上。
+- **「複製」** 按鈕被添加到 [**外部工具** 對話方塊](../dlg/tools/index) 中。
+- 一些標籤頁功能同樣能在EmEditor Standard中可用。
+- EmEditor 優化了打開含有大字元的行的檔案的速度。
+- 更新了規則運算式引擎 (Boost.Regex 1.33.1)。要指定一個 4 位的 Unicode 值，用 \\x{XXXX} 而不是 \\xXXXX。

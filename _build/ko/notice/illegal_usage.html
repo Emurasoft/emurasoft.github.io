@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>저작권 ; 불법 이용에 대한 규제 &#8212; EmEditor  문서</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/translations.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <script src="../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="색인" href="../genindex.html" />
+    <link rel="search" title="검색" href="../search.html" />
+    <link rel="next" title="도움말 문서의 적용 범위" href="range.html" />
+    <link rel="prev" title="알림" href="index.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../index.html" title="Go to homepage">EmEditor  문서</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/notice/illegal_usage">English</a>
+                <a href="/ja/notice/illegal_usage">日本語</a>
+                <a href="/ko/notice/illegal_usage">한국어</a>
+                <a href="/zh-cn/notice/illegal_usage">简体中文</a>
+                <a href="/zh-tw/notice/illegal_usage">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">빠른 검색</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="이동" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../cmd/index.html">명령 참조</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dlg/index.html">대화 상자</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.html">자주 묻는 질문</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html">기능</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">용어집</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../history/index.html">기록</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">이용 방법</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../link/index.html">링크</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macro/index.html">매크로 참조</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">알림</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">저작권 ; 불법 이용에 대한 규제</a></li>
+<li class="toctree-l2"><a class="reference internal" href="range.html">도움말 문서의 적용 범위</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../plugin/index.html">플러그 인 참조</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../purchase/index.html">구매 방법</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support/index.html">지원</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="index.html">알림</a> &lt;
+            저작권 ; 불법 이용에 대한 규제
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>저작권 ; 불법 이용에 대한 규제<a class="headerlink" href="#id1" title="이 제목에 대한 퍼머링크">¶</a></h1>
+<p>저희는 최상의 품질의 제품을 만들기 위해서 최선을 다해오고 있습니다. Emurasoft Inc, Emsoft k.k. 판매 대리 업체와 다른 제휴 그룹 혹은 개인은 소프트웨어의 설치 혹은 이용 결과에 따른 제품의 어떤 손상과 손실에도 책임이 없습니다.</p>
+<p>이 프로그램은 Emurasoft Inc.에 저작권이 있습니다. 이 프로그램과 모든 연계된 문서는 국제 그리고 미국 저작권 법에 의해 보호됩니다. 불법적 이용 혹은 이 프로그램의 재생산은 법의 한도 내에서 검찰에 보고되는 결과를 초래합니다.</p>
+<p>Emurasoft는 Emurasoft Inc.의 등록상표로 등록되었습니다.</p>
+<section id="id2">
+<h2>불법 사용에 대한 경고 - 크랙, 키젠, 시리얼 등.<a class="headerlink" href="#id2" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<p>저희 제품을 불법으로 취득하고 등록키를 이용하는 사용자로 부터 제품을 보호 하고 모든 실제 사용자를 위한 중요한 알림입니다.</p>
+<p>크래커 혹은 키젠 그룹을 통한 불법 시리얼 번호를 다른 누구에게 제공되거나 웹사이트에 게재하여 얻은 불법 키를 이용하는 소프트웨어 사용은 엄격히 금지되어 있습니다.
+국제 그리고 미국 저작권법의 명백한 위법 행위입니다. 저희, Emurasoft, Inc.는 등록하고 구매 절차를 받으신 고객께만 합법적인 등록키를 제공합니다.
+불법 시리얼 번호가 전 세계적으로 크래커와 키젠 그룹에 의해 생성되고 널리 퍼져있으며, 그 규모가 점점더 커지는 것을 저희는 알고 있습니다.</p>
+<p>정의에 대한 주장과 공급 업체 및 개발자의 생산성을 높이기 위해서, 불법 응용 프로그램과 저희 제품을 잘못 사용하는 행위에 대해서 강력하게 대응할 것입니다.
+다른 사람과 소프트 웨어 등록 키를 공유하는것은 법으로 금지되어 있습니다.</p>
+<p>모든 엠에디터 사용자는 반드시 Emurasoft, Inc.에 의해 발행된 합법적으로 취득한 개인 등록 키를 갖고 있어야 합니다.</p>
+<p>더욱이, 등록되지 않은 시리얼 번호를 사용하는 것은 위험과 문제를 야기하며, 쉽게 다시 해결할 수 없습니다.
+사용자의 컴퓨터에 바이러스 혹은 개인정보에 대한 중요한 문제가 발생했을 때, 불법 라이센스 이용자는 지원될 수 없음을 명백히 알려드리는 바입니다.
+예를 들어, Trojan 혹은 다른 바이러스는 크래커 혹은 키젠 그룹으로 부터 취득한 등록키를 이용할 시에, 사용자의 컴퓨터를 칩입할 수 있습니다. 사용자의 중요 파일을 파괴할 뿐만 아니라, 컴퓨터를 감염시킬 수도 있습니다. 부적절한 응용 프로그램 때문에, 행동으로 으로 인해 사용자와 다른 사항에 상해를 입힐 수 있습니다.
+저희는 제품에 대한 사용자의 편의를 위해서, 제품 사용에 대한 기본 사용방법과 정책을 결정했습니다.
+저희가 이 알림을 사용자들께 알림으로써, 엠에디터의 모든 유저들께 저희가 여기에서 알려드린 사항을 주의깊게 고려해 주시기를 강력하게 추천하는 바이며, 모든 유저들은 합법적인 등록키를 사용해 주시기를 강력히 권고하는 바입니다.</p>
+</section>
+<section id="id3">
+<h2>크랙 버전에 대한 경고:<a class="headerlink" href="#id3" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<p>Emurasoft, Inc.는 소프트웨어의 불법 복사의 판매를 엄격히 금지합니다. 이 버전은 엠에디터 크랙 버전일 가능성이 매우 높으며, 제대로 작동하지 않을 수 있습니다. 이것은 Emurasoft, Inc.의 지적 재산권의 침해입니다. 저작권과 특허권 법은 불법 소프트웨어의 사용과 판매를 강력하게 금지하고 있습니다. Emurasoft, Inc.는 이 지적 재산권의 침해를 매우 심각하게 생각하고 있습니다. 위반자는 엄중한 처벌을 받게됩니다. 저희는 이러한 위법행위를 철저히 감시하고 있으며, 저희의 소프트웨어의 불법적인 이용과 분배에 대해서 모든 합법적인 방법으로 통제하고 모니터 하고 있습니다.</p>
+<p>이러한 불법 제품의 잠재 구매자는 불법 제품에 대한 구매는 매우 위험한 상황을 초래할 수 있다는 점을 반드시 유념하셔야 할 것입니다. 저희는 이러한 구매 제안을 주의하시기를 강력하게 알리고자 하는 바입니다.
+엠에디터는 다음사항에 대해서 아무런 책임이 없습니다: 엠에디터의 크랙 버전에 대한 이용, 지원, 혹은 이용의 결과. 만일 엠에디터 소프트웨어에 관심이 있다면, 회사 연락처를 안내해 드리겠습니다. 저희는 불법이 아닌 방법으로 고객님이 취득하신 모든 라이센스를 기쁜 마음으로 제공할 것이며, 라이센스에 대한 합법적인 소유자께 모든 지원과 도움을 아낌없이 드리겠습니다.</p>
+</section>
+<section id="id4">
+<h2>크랙 소프트웨어를 식별하는 법<a class="headerlink" href="#id4" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<p>엠에디터 혹은 잘 알려진 곳, 믿을만한 소매상이 아닌 다른 온라인 판매업체에서 저희 제품을 구입하셨다면, 다음의 경고 사항을 주의깊게 봐 주시기 바랍니다:</p>
+<p>-“터무니 없이 싼”가격</p>
+<p>-엠에디터 OEM</p>
+<p>-이미 등록된 소프트웨어</p>
+<p>-사용이 제한된 소프트웨어</p>
+<p>-익명의 판매자</p>
+<p>-환불 정책이 없는 경우</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">저작권 ; 불법 이용에 대한 규제</a><ul>
+<li><a class="reference internal" href="#id2">불법 사용에 대한 경고 - 크랙, 키젠, 시리얼 등.</a></li>
+<li><a class="reference internal" href="#id3">크랙 버전에 대한 경고:</a></li>
+<li><a class="reference internal" href="#id4">크랙 소프트웨어를 식별하는 법</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; 저작권 2023 Emurasoft.
+      <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 버전으로 생성되었습니다.
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

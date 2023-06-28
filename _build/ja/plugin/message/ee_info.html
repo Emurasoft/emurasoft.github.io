@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>EE_INFO &#8212; EmEditor  ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="検索" href="../../search.html" />
+    <link rel="next" title="EE_INFO_EX" href="ee_info_ex.html" />
+    <link rel="prev" title="EE_HELP" href="ee_help.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  ドキュメント</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/plugin/message/ee_info">English</a>
+                <a href="/ja/plugin/message/ee_info">日本語</a>
+                <a href="/ko/plugin/message/ee_info">한국어</a>
+                <a href="/zh-cn/plugin/message/ee_info">简体中文</a>
+                <a href="/zh-tw/plugin/message/ee_info">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.html">コマンド リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.html">ダイアログ ボックス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">よくある質問と回答集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">特長</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">履歴</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">使い方</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">リンク</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.html">マクロ リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">注意</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">プラグイン リファレンス</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../cmdid/index.html">コマンドID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../event/index.html">イベント</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exports/index.html">エクスポートする関数</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro/index.html">インライン関数</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../member_variables/index.html">CETLFrame 内部で必要なメンバー変数</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">メッセージ</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ee_add_ref.html">EE_ADD_REF</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_autofill.html">EE_AUTOFILL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_clip_history.html">EE_CLIP_HISTORY</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_compare.html">EE_COMPARE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_convert.html">EE_CONVERT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_convert_csv.html">EE_CONVERT_CSV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_convert_ex.html">EE_CONVERT_EX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_custom_bar_close.html">EE_CUSTOM_BAR_CLOSE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_custom_bar_open.html">EE_CUSTOM_BAR_OPEN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_dev_to_view.html">EE_DEV_TO_VIEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_do_idle.html">EE_DO_IDLE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_edit_column.html">EE_EDIT_COLUMN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_edit_temp.html">EE_EDIT_TEMP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_empty_undo_buffer.html">EE_EMPTY_UNDO_BUFFER</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_enum_config.html">EE_ENUM_CONFIG</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_enum_highlight.html">EE_ENUM_HIGHLIGHT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_exec_command.html">EE_EXEC_COMMAND</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_exec_plugin.html">EE_EXEC_PLUGIN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_extract_frequent.html">EE_EXTRACT_FREQUENT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_filter.html">EE_FILTER</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_find_in_filesa.html">EE_FIND_IN_FILESA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_find_in_filesw.html">EE_FIND_IN_FILESW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_find_regex.html">EE_FIND_REGEX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_find_replace.html">EE_FIND_REPLACE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_finda.html">EE_FINDA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_findw.html">EE_FINDW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_free.html">EE_FREE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_accel_array.html">EE_GET_ACCEL_ARRAY</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_active_string.html">EE_GET_ACTIVE_STRING</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_anchor_pos.html">EE_GET_ANCHOR_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_attr.html">EE_GET_ATTR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_caret_pos.html">EE_GET_CARET_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_cell.html">EE_GET_CELL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_cmd_id.html">EE_GET_CMD_ID</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_color.html">EE_GET_COLOR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_column.html">EE_GET_COLUMN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_configa.html">EE_GET_CONFIGA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_configw.html">EE_GET_CONFIGW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_dropped_file.html">EE_GET_DROPPED_FILE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_filter.html">EE_GET_FILTER</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_linea.html">EE_GET_LINEA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_lines.html">EE_GET_LINES</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_linew.html">EE_GET_LINEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_margin.html">EE_GET_MARGIN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_modified.html">EE_GET_MODIFIED</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_multi_sel.html">EE_GET_MULTI_SEL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_outline_level.html">EE_GET_OUTLINE_LEVEL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_output_string.html">EE_GET_OUTPUT_STRING</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_page_size.html">EE_GET_PAGE_SIZE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_redraw.html">EE_GET_REDRAW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_ref.html">EE_GET_REF</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_scroll_pos.html">EE_GET_SCROLL_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_sel_end.html">EE_GET_SEL_END</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_sel_start.html">EE_GET_SEL_START</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_sel_texta.html">EE_GET_SEL_TEXTA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_sel_textw.html">EE_GET_SEL_TEXTW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_sel_type.html">EE_GET_SEL_TYPE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_statusa.html">EE_GET_STATUSA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_statusw.html">EE_GET_STATUSW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_unicode_name.html">EE_GET_UNICODE_NAME</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_version.html">EE_GET_VERSION</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_word.html">EE_GET_WORD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_help.html">EE_HELP</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">EE_INFO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_info_ex.html">EE_INFO_EX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_insert_filea.html">EE_INSERT_FILEA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_insert_filew.html">EE_INSERT_FILEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_insert_stringa.html">EE_INSERT_STRINGA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_insert_stringw.html">EE_INSERT_STRINGW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_is_char_half_or_full.html">EE_IS_CHAR_HALF_OR_FULL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_join.html">EE_JOIN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_keyboard_prop.html">EE_KEYBOARD_PROP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_line_from_char.html">EE_LINE_FROM_CHAR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_line_index.html">EE_LINE_INDEX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_load_configa.html">EE_LOAD_CONFIGA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_load_configw.html">EE_LOAD_CONFIGW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_load_filea.html">EE_LOAD_FILEA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_load_filew.html">EE_LOAD_FILEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_logical_to_serial.html">EE_LOGICAL_TO_SERIAL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_logical_to_view.html">EE_LOGICAL_TO_VIEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_manage_duplicates.html">EE_MANAGE_DUPLICATES</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_match_regex.html">EE_MATCH_REGEX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_numbering.html">EE_NUMBERING</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_output_dir.html">EE_OUTPUT_DIR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_output_string.html">EE_OUTPUT_STRING</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_pivot_table.html">EE_PIVOT_TABLE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_query_status.html">EE_QUERY_STATUS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_query_string.html">EE_QUERY_STRING</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_query_string_ex.html">EE_QUERY_STRING_EX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_rearrange_columns.html">EE_REARRANGE_COLUMNS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_redraw.html">EE_REDRAW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_reg_query_value.html">EE_REG_QUERY_VALUE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_reg_set_value.html">EE_REG_SET_VALUE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_release.html">EE_RELEASE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_replace_in_filesa.html">EE_REPLACE_IN_FILESA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_replace_in_filesw.html">EE_REPLACE_IN_FILESW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_replacea.html">EE_REPLACEA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_replacew.html">EE_REPLACEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_run_macro.html">EE_RUN_MACRO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_save_filea.html">EE_SAVE_FILEA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_save_filew.html">EE_SAVE_FILEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_serial_to_logical.html">EE_SERIAL_TO_LOGICAL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_anchor_pos.html">EE_SET_ANCHOR_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_caret_pos.html">EE_SET_CARET_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_cell.html">EE_SET_CELL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_column.html">EE_SET_COLUMN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_configa.html">EE_SET_CONFIGA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_configw.html">EE_SET_CONFIGW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_modified.html">EE_SET_MODIFIED</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_multi_sel.html">EE_SET_MULTI_SEL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_outline_array.html"><span class="xref myst">EmEditor ホーム</span> - <span class="xref myst">EmEditor ヘルプ</span> - <span class="xref myst">プラグイン リファレンス</span>  - <span class="xref myst">メッセージ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_outline_array.html#ee-set-outline-array">EE_SET_OUTLINE_ARRAY</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_outline_level.html"><span class="xref myst">EmEditor ホーム</span> - <span class="xref myst">EmEditor ヘルプ</span> - <span class="xref myst">プラグイン リファレンス</span>  - <span class="xref myst">メッセージ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_outline_level.html#ee-set-outline-level">EE_SET_OUTLINE_LEVEL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_scroll_pos.html">EE_SET_SCROLL_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_sel_length.html">EE_SET_SEL_LENGTH</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_sel_type.html">EE_SET_SEL_TYPE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_sel_view.html">EE_SET_SEL_VIEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_statusa.html">EE_SET_STATUSA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_statusw.html">EE_SET_STATUSW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_show_outline.html">EE_SHOW_OUTLINE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_show_tip.html">EE_SHOW_TIP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_sort.html">EE_SORT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_split_column.html">EE_SPLIT_COLUMN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_toolbar_close.html">EE_TOOLBAR_CLOSE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_toolbar_open.html">EE_TOOLBAR_OPEN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_toolbar_show.html">EE_TOOLBAR_SHOW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_unpivot.html">EE_UNPIVOT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_update_toolbar.html">EE_UPDATE_TOOLBAR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_view_to_dev.html">EE_VIEW_TO_DEV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_view_to_logical.html">EE_VIEW_TO_LOGICAL</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../plugin_message/index.html">プラグインへのメッセージ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../structure/index.html">構造体</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">購入方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">サポート</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">プラグイン リファレンス</a> &lt;
+                <a href="index.html">メッセージ</a> &lt;
+            EE_INFO
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="ee-info">
+<h1>EE_INFO<a class="headerlink" href="#ee-info" title="この見出しへのパーマリンク">¶</a></h1>
+<p>実行中の EmEditor または指定するドキュメントに関する情報を取得または設定を行います。このメッセージを直接送るか、 <a class="reference internal" href="../macro/editor_info.html"><span class="doc std std-doc">Editor_Info</span></a>、 <a class="reference internal" href="../macro/editor_docinfo.html"><span class="doc std std-doc">Editor_DocInfo</span></a>、または <a class="reference internal" href="../macro/editor_docinfoex.html"><span class="doc std std-doc">Editor_DocInfoEx</span></a> インライン関数を使うことができます。</p>
+<p>EE_INFO</p>
+<p>wParam = (WPARAM)nCmd;</p>
+<p>lParam = (LPARAM)lParam;</p>
+<p>または</p>
+<p>EE_INFO</p>
+<p>wParam = MAKEWPARAM(nCmd, iDoc+1);</p>
+<p>lParam = (LPARAM)lParam;</p>
+<section id="id1">
+<h2>パラメータ<a class="headerlink" href="#id1" title="この見出しへのパーマリンク">¶</a></h2>
+<p><em>nCmd</em></p>
+<blockquote>
+<div><p>取得または設定する情報の種類を指定します。次のうちのいずれかとなります。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>nCmd</p></th>
+<th class="head"><p>意味</p></th>
+<th class="head"><p>lParam</p></th>
+<th class="head"><p>戻り値</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>EI_GET_ENCODE</p></td>
+<td><p>次に保存する時に使用される文字コードを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(int)nCP<br> 文字コード</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_ENCODE</p></td>
+<td><p>次に保存する時に使用される文字コードを設定します。</p></td>
+<td><p>(UINT)nCP<br> CODEPAGE_ で始まる文字コードを指定します。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_SIGNATURE</p></td>
+<td><p>次に保存する時にUnicode, UTF-8の署名を付けるかどうかを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bSignature<br> TRUE なら署名を付けます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_SIGNATURE</p></td>
+<td><p>次に保存する時にUnicode, UTF-8の署名を付けるかどうかを設定します。</p></td>
+<td><p>(BOOL)bSignature<br> TRUEなら署名を付けます。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_FONT_CHARSET</p></td>
+<td><p>フォントの文字セットを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(int)nCharset<br> 文字セットを返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_FONT_CHARSET</p></td>
+<td><p>フォントの文字セットを設定します。</p></td>
+<td><p>(int)nCharset<br> CHARSET_ で始まる文字セットを指定します。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_FONT_CP</p></td>
+<td><p>表示されているフォントのコードページを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(UINT)nCP<br> コードページ。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_INPUT_CP</p></td>
+<td><p>入力言語に対応するコードページを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(UINT)nCP<br> コードページ。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_SHOW_TAG</p></td>
+<td><p>タグを下線表示するかどうかを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bShowTag<br> TRUEならタグを下線表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_SHOW_TAG</p></td>
+<td><p>タグを下線表示するかどうかを設定します。</p></td>
+<td><p>(BOOL)bShowTag<br> TRUEならタグを下線表示します。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_FILE_NAMEA</p></td>
+<td><p>開いているファイル名をANSI文字列で取得します。</p></td>
+<td><p>(LPSTR)szFileName<br> ファイル名を取得するバッファへのポインタを指定します。バッファには、NULL文字を含めてMAX_PATHバイトを確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_FILE_NAME_EX</p></td>
+<td><p>開いているファイル名をUnicode文字列で取得します。</p></td>
+<td><p>(STRING_BUF*)pStringBuf<br> ファイル名を取得するための <a class="reference internal" href="../structure/string_buf.html"><span class="doc std std-doc">STRING_BUF 構造体</span></a> へのポインタを指定します。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_FILE_NAMEW</p></td>
+<td><p>開いているファイル名をUnicode文字列で取得します。</p></td>
+<td><p>(LPWSTR)szFileName<br> ファイル名を取得するバッファへのポインタを指定します。バッファには、NULL文字を含めてMAX_PATH文字分を確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_FILE_NAMEW</p></td>
+<td><p>現在開いているファイル名をリネームします。文書が無題の場合、ファイルを保存しないで文書のタイトルを変更します。</p></td>
+<td><p>(LPCWSTR)pszName<br>新しい名前を指定します。</p></td>
+<td><p>(HRESULT)hr<br>失敗すると負の値を返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_IS_PROPORTIONAL_FONT</p></td>
+<td><p>表示フォントがプロポーショナル フォントかどうかを取得します。Windows XP/2003 では、常に TRUE を返します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bProportionalFont<br> プロポーショナル フォントなら TRUE を、固定幅なら FALSE を返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_NEXT_BOOKMARK</p></td>
+<td><p>次のブックマーク位置を取得します。</p></td>
+<td><p>(INT_PTR)yLine<br> 検索を開始する論理行を指定します。-1 を指定すると、文書の先頭から検索を始めます。</p></td>
+<td><p>(INT_PTR)yLine<br> 検索したブックマークの論理行を返します。見つからない場合は -1 を返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_HILITE_FIND</p></td>
+<td><p>検索文字列を強調表示するかどうかを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bShowFindHilite</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_HILITE_FIND</p></td>
+<td><p>検索文字列を強調表示するかどうかを設定します。</p></td>
+<td><p>(BOOL)bShowFindHilite</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_APP_VERSIONA</p></td>
+<td><p>バージョン名をANSI文字列で取得します。</p></td>
+<td><p>(LPSTR)szVersionName<br> バージョン名を取得するバッファへのポインタを指定します。バッファには、NULL文字を含めてMAX_PATHバイトを確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_APP_VERSIONW</p></td>
+<td><p>バージョン名をUnicode文字列で取得します。</p></td>
+<td><p>(LPWSTR)szVersionName<br> バージョン名を取得するバッファへのポインタを指定します。バッファには、NULL文字を含めてMAX_PATH文字分を確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_READ_ONLY</p></td>
+<td><p>書き換え禁止状態かどうかを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bReadOnly</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_IS_WINDOW_COMBINED</p></td>
+<td><p>ウィンドウが結合された状態かどうかを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bCombined</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_WINDOW_COMBINE</p></td>
+<td><p>ウィンドウの結合状態を設定します。</p></td>
+<td><p>(BOOL)bCombined<br> TRUEなら結合します。FALSEなら結合を解除します。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_IS_UNDO_COMBINED</p></td>
+<td><p>TRUE だと挿入文字列を一度に元に戻します。FALSE だと文字単位で元に戻します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bCombined</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_DOC_COUNT</p></td>
+<td><p>現在のフレーム ウィンドウに開かれているドキュメントの数を返します。 (EmEditor Professional 5.00 以上のみ)</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(int)nCount<br> ドキュメントの数を返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_INDEX_TO_DOC</p></td>
+<td><p>ドキュメントのインデックスからハンドルに変換します。 (EmEditor Professional 5.00 以上のみ)</p></td>
+<td><p>ドキュメントの 0 を基底とするインデックスを指定します。</p></td>
+<td><p>(HEEDOC)hDoc<br> ドキュメントへのハンドルを返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_DOC_TO_INDEX</p></td>
+<td><p>ドキュメントのハンドルからインデックスに変換します。</p></td>
+<td><p>ドキュメントへのハンドルを指定します。</p></td>
+<td><p>(int)nIndex<br> ドキュメントの 0 を基底とするインデックスを返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_ZORDER_TO_DOC</p></td>
+<td><p>ドキュメントの Z オーダーからハンドルに変換します。</p></td>
+<td><p>ドキュメントの 0 を基底とするZオーダーを指定します。</p></td>
+<td><p>(HEEDOC)hDoc<br> ドキュメントへのハンドルを返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_DOC_TO_ZORDER</p></td>
+<td><p>ドキュメントのハンドルから Z オーダーに変換します。</p></td>
+<td><p>ドキュメントへのハンドルを指定します。</p></td>
+<td><p>(int)nZOrder<br> ドキュメントの 0 を基底とする Z オーダーを返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_ACTIVE_INDEX</p></td>
+<td><p>アクティブなドキュメントのインデックスを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(int)nIndex<br> ドキュメントの 0 を基底とするインデックスを返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_SET_ACTIVE_INDEX</p></td>
+<td><p>ドキュメントをアクティブにします。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bSuccess<br> 成功すると TRUE を、失敗すると FALSE を返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_FULL_TITLEA</p></td>
+<td><p>ドキュメントの長いタイトルを ANSI 文字列で取得します。</p></td>
+<td><p>(LPSTR)szＴｉｔｌｅ<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX_PATH バイトを確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_FULL_TITLEW</p></td>
+<td><p>ドキュメントの長いタイトルを Unicode 文字列で取得します。</p></td>
+<td><p>(LPWSTR)szTitle<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX_PATH 文字分を確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_SHORT_TITLEA</p></td>
+<td><p>ドキュメントの短いタイトルを ANSI 文字列で取得します。</p></td>
+<td><p>(LPSTR)szＴｉｔｌｅ<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX_PATH バイトを確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_SHORT_TITLEW</p></td>
+<td><p>ドキュメントの短いタイトルを Unicode 文字列で取得します。</p></td>
+<td><p>(LPWSTR)szTitle<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX_PATH 文字分を確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_SAVE_AS_TITLEA</p></td>
+<td><p>ドキュメントの長いタイトルからファイルが変更されたかどうかを示すアスタリスク「*」を除いた文字列を ANSI 文字列で取得します。</p></td>
+<td><p>(LPSTR)szＴｉｔｌｅ<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX_PATH バイトを確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_SAVE_AS_TITLEW</p></td>
+<td><p>ドキュメントの長いタイトルからファイルが変更されたかどうかを示すアスタリスク「*」を除いた文字列を Unicode 文字列で取得します。</p></td>
+<td><p>(LPWSTR)szTitle<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX_PATH 文字分を確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_MOVE_ORDER</p></td>
+<td><p>ドキュメントのタブの順番を変更します。</p></td>
+<td><p>移動先のTabの位置を 0 を基底とするインデックスで指定します。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_CLOSE_DOC</p></td>
+<td><p>ドキュメントを閉じます。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bSuccess<br> 成功すると TRUE を、失敗すると FALSE を返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SAVE_DOC</p></td>
+<td><p>ドキュメントを保存します。無題の場合は「名前を付けて保存」ダイアログ ボックスが表示されます。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bSuccess<br> 成功すると TRUE を、失敗すると FALSE を返します。無題の場合に「名前を付けて保存」ダイアログ ボックスで [キャンセル] を選択すると、FALSE を返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_CURRENT_FOLDER</p></td>
+<td><p>現在の作業フォルダを取得します。</p></td>
+<td><p>(LPWSTR)szDir<br> フォルダ名を取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX_PATH 文字分を確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_IS_LARGE_DOC</p></td>
+<td><p>非常に大きなファイルかどうかを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bLarge<br> 非常に大きなファイルの場合は TRUE を、そうでなければ FALSE を返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_USE_INI</p></td>
+<td><p>INI ファイルがレジストリの代わりに使用されているかどうかを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bIni<br> INI ファイルが使用されている場合は TRUE を、レジストリが使用されている場合は FALSE を返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_LANGUAGE</p></td>
+<td><p>現在選択されているユーザー インターフェイス用の言語を取得します。</p></td>
+<td><p>(LPWSTR)szFolder<br> 言語フォルダを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX_PATH 文字分を確保しておく必要があります。</p></td>
+<td><p>(UINT)nLangID<br> 現在選択されている言語 ID を返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_COMBINE_HISTORY</p></td>
+<td><p>元に戻す履歴の1つとして、次の変更を前の変更と結合するかどうかを指定します。</p></td>
+<td><p>(BOOL)bCombine<br> 結合する場合は TRUE を返します</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_BAR_TEXT_COLOR</p></td>
+<td><p>カスタム バーの文字色を取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(COLORREF)clrText<br> 文字色の RGB 値。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_BAR_BACK_COLOR</p></td>
+<td><p>カスタム バーの背景色を取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(COLORREF)clrBack<br> 背景色の RGB 値。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_RETURN_TYPE</p></td>
+<td><p>現在行の改行コードを取得します。現在行が文書の最終行で改行コードを持たない場合、1つ前の行の改行コードを取得します。</p></td>
+<td><p>(UINT_PTR)yLogicalLine<br> 論理行を指定します。</p></td>
+<td><p>(int)nReturnType<br> RETURN_METHOD_BOTH、RETURN_METHOD_CR_ONLY、RETURN_METHOD_LF_ONLY のいずれかを返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_ACTIVE_DOC</p></td>
+<td><p>アクティブなドキュメントへのハンドルを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(HEEDOC)hDoc<br> アクティブにするドキュメントへのハンドルを返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_ACTIVE_DOC</p></td>
+<td><p>ドキュメントをアクティブにします。</p></td>
+<td><p>(HEEDOC)hDoc<br> アクティブにするドキュメントへのハンドルを指定します。</p></td>
+<td><p>(BOOL)bSuccess<br>成功すると TRUE を、失敗すると FALSE を返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_SYNC_SESSION</p></td>
+<td><p>ドキュメントが比較または同期スクロールモードの場合、ドキュメントのセッションIDを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(int)nSessionID<br> ドキュメントが比較または同期スクロールモードの場合、ドキュメントのセッションIDを返します。ドキュメントが通常モードの場合、0 を返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_LOC_DLL_INSTANCE</p></td>
+<td><p>ローカライズされたリソース DLL のインスタンスを返します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(HINSTANCE)hinstLoc<br>ローカライズされたリソース DLL のインスタンスを返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_RES_DLL_INSTANCE</p></td>
+<td><p>リソース DLL のインスタンスを返します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(HINSTANCE)hinstRes<br>リソース DLL のインスタンスを返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_CMD_LIST_SIZE</p></td>
+<td><p>指定する複数メニュー コマンドで利用可能な項目数を返します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(int)nCount<br>利用可能な項目数を返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_DISCARD_UNDO</p></td>
+<td><p>EmEditor が置換、挿入、削除の速度を改善するために元に戻す情報を破棄するかどうかを示すフラグを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bDiscardUndo<br>フラグを返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_DISCARD_UNDO</p></td>
+<td><p>EmEditor が置換、挿入、削除の速度を改善するために元に戻す情報を破棄するかどうかを示すフラグを設定します。</p></td>
+<td><p>(BOOL)bDiscardUndo<br>フラグ。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_HEADING_LINES</p></td>
+<td><p>ヘディング (非スクロール領域) の行数を取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(int)nHeadingLines</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_HEADING_LINES</p></td>
+<td><p>ヘディング (非スクロール領域) の行数を設定します。</p></td>
+<td><p>(int)nHeadingLines</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_NARROWING_TOP</p></td>
+<td><p>部分編集の最上部の位置 (Y 座標) を取得します。-1 は、部分編集が設定されていないことを意味します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(int)nNarrowingTop</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_NARROWING_TOP</p></td>
+<td><p>部分編集の最上部の位置 (Y 座標) を設定します。-1 は、部分編集が設定されていないことを意味します。</p></td>
+<td><p>(int)nNarrowingTop</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_NARROWING_BOTTOM</p></td>
+<td><p>部分編集の最下部の位置 (Y 座標) を取得します。-1 は、部分編集が設定されていないことを意味します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(int)nNarrowingBottom</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_NARROWING_BOTTOM</p></td>
+<td><p>部分編集の最下部の位置 (Y 座標) を設定します。-1 は、部分編集が設定されていないことを意味します。</p></td>
+<td><p>(int)nNarrowingBottom</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_SET_HILITE_FILTER</p></td>
+<td><p>最後に使った検索の情報を使ってフィルターを設定します。アクティブなドキュメントのみ使用できます。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_CSV</p></td>
+<td><p>現在の CSV モードのインデックスを取得します。CSV モードでない場合は -1 を返します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(int)iCSV</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_PRINT_PAGES</p></td>
+<td><p>現在選択されているプリンター用のページ数を取得します。アクティブなドキュメントのみ使用できます。</p></td>
+<td><p>(BOOL)bSelOnly<br>選択範囲のみを使用してページ数を計算するかどうかを指定します。</p></td>
+<td><p>(int)nPages</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_CELL_MODE</p></td>
+<td><p>CSV セル選択モードかどうかを示すフラグを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bCellMode</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_SET_CELL_MODE</p></td>
+<td><p>CSV セル選択モードかどうかを示すフラグを設定します。</p></td>
+<td><p>(BOOL)bCellMode</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_UNTITLED</p></td>
+<td><p>文書が無題かどうかを示すフラグを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bUntitled</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_DPI</p></td>
+<td><p>現在のモニターの DPI 値を取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(long)nDPI</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_FILTER_VISIBLE_LINES_ABOVE</p></td>
+<td><p>フィルターで一致した行の上に表示する行数を取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(long)nLines</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_SET_FILTER_VISIBLE_LINES_ABOVE</p></td>
+<td><p>フィルターで一致した行の上に表示する行数の設定します。</p></td>
+<td><p>(long)nLines</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_FILTER_VISIBLE_LINES_BELOW</p></td>
+<td><p>フィルターで一致した行の下に表示する行数を取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(long)nLines</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_SET_FILTER_VISIBLE_LINES_BELOW</p></td>
+<td><p>フィルターで一致した行の下に表示する行数の設定します。</p></td>
+<td><p>(long)nLines</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_DPI_OPTIONS</p></td>
+<td><p>モニターに関するオプションを取得します。現在のところ、DPI_OPTIONS_RESIZE_WHEN_DPI_CHANGED のみがサポートされています。DPI_OPTIONS_RESIZE_WHEN_DPI_CHANGED が設定されていると、DPI の変更に応じてウィンドウのサイズが変更されます。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(long)nFlags</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_SET_DPI_OPTIONS</p></td>
+<td><p>モニターに関するオプションを設定します。現在のところ、DPI_OPTIONS_RESIZE_WHEN_DPI_CHANGED のみがサポートされています。DPI_OPTIONS_RESIZE_WHEN_DPI_CHANGED が設定されていると、DPI の変更に応じてウィンドウのサイズが変更されます。</p></td>
+<td><p>(long)nFlags</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_REGISTERED_NAME</p></td>
+<td><p>[バージョン情報] ダイアログ ボックスに表示される、ユーザー登録されている名前を取得します。製品が登録されていない場合、空の文字列が取得されます。</p></td>
+<td><p>(LPWSTR)szName<br>文字列を取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX_REG_NAME 文字分を確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_VALIDATE_CSV</p></td>
+<td><p>CSV文書の正当性を確認してエラーを出力し、オプションにより区切り位置を調節します。</p></td>
+<td><p>(int)nFlags<br>次の値の組み合わせを指定します。<br>VALIDATE_ADJUST_COLUMNS, VALIDATE_QUIET, VALIDATE_ADJUST_VISIBLE_ONLY, VALIDATE_DETECT_NL, VALIDATE_QUIET_IF_NO_ERROR, VALIDATE_ADJUST_ENLARGE_ONLY,  VALIDATE_DETECT_CSV,  VALIDATE_ASYNC</p></td>
+<td><p>(int)nResults<br>戻り値は、次の値の組み合わせになります。戻り値が 0 の場合エラーが無いことを意味します。<br>CSV_ADJUSTED, CSV_NL_EMBEDDED, CSV_ABORT, CSV_INVALID_QUOTES, CSV_INCONSISTENT_COLUMNS, CSV_NOT_CSV, CSV_ASYNC_SUCCESS,  CSV_ASYNC_RUNNING</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_CLIENT_RECT_NO_BARS</p></td>
+<td><p>スクロール バーまたはミニマップに占有された領域を除くエディタ ビューの座標を取得します。</p></td>
+<td><p>(RECT*)pRect</p></td>
+<td><p>成功すると TRUE を、失敗すると FALSE を返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_REFRESH_COMMON_SETTINGS</p></td>
+<td><p>共通の設定をロードし EmEditor ウィンドウを最新の情報に更新します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_NEWLINE_CODE</p></td>
+<td><p>文書で使用された改行コードを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>FLAG_CR_AND_LF、FLAG_CR_ONLY、FLAG_LF_ONLY、または FLAG_NEWLINE_MIXED を返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_MEMORY_SIZE</p></td>
+<td><p>文書で使用されている1かたまりのメモリ サイズを取得します。既定値は、[カスタマイズ] ダイアログ ボックスの <a class="reference internal" href="../../dlg/advanced/index.html"><span class="doc std std-doc">[高度] ページ</span></a> の [メモリ サイズ] テキスト ボックスで指定された値になります。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>メモリ サイズを返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_MEMORY_SIZE</p></td>
+<td><p>文書で使用される1かたまりのメモリ サイズを設定します。既定値は、[カスタマイズ] ダイアログ ボックスの <a class="reference internal" href="../../dlg/advanced/index.html"><span class="doc std std-doc">[高度] ページ</span></a> の [メモリ サイズ] テキスト ボックスで指定された値になります。</p></td>
+<td><p>(long)nBits<br>必要なメモリ サイズを指定します。</p></td>
+<td><p>新しいメモリ サイズを返します。文書がすでにより多くのメモリ サイズを使用している場合、この値は指定されたサイズよりも大きくなることがあります。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_BOOKMARK_COUNT</p></td>
+<td><p>文書内のブックマークの数を取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>文書内のブックマークの数を返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SYNC_NOW</p></td>
+<td><p>EmEditorをトリガーして、今すぐ同期します。</p></td>
+<td><p>(UINT)nFlags<br>次の値の組み合わせを指定します。<br>SYNC_FLAG_SEND, SYNC_FLAG_RECEIVE, SYNC_FLAG_FORCE, and SYNC_FLAG_REFRESH_UI.</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_CHAR_TYPE</p></td>
+<td><p>文字のタイプを取得します。</p></td>
+<td><p>(LPCWSTR)pch</p></td>
+<td><p>文字のタイプを返します。次のタイプのいずれかを指定できます。<br>CHAR_NULL, CHAR_SPACE, CHAR_MARK, CHAR_ALPHANUMERIC, CHAR_KANA , CHAR_KANA_MARK , CHAR_DB_SPACE, CHAR_DB_MARK, CHAR_DB_ALPHANUMERIC, CHAR_DB_HIRA, CHAR_DB_KATA, CHAR_DB_KANJI, CHAR_DB_KANA_MARK, CHAR_SECOND_DB, CHAR_HANGUL, CHAR_DB_HANGUL</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_FILE_POS_TO_LOGICAL</p></td>
+<td><p>ファイル位置を論理位置に変換します。</p></td>
+<td><p>(FILE_POS_INFO*)pFilePosInfo</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_LOGICAL_TO_FILE_POS</p></td>
+<td><p>論理位置をファイル位置に変換します。</p></td>
+<td><p>(FILE_POS_INFO*)pFilePosInfo</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_CELL_TO_LOGICAL</p></td>
+<td><p>セル位置を論理位置に変換します。</p></td>
+<td><p>(CELL_LOGICAL_INFO*)pCellLogicalInfo</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_LOGICAL_TO_CELL</p></td>
+<td><p>論理位置をセル位置に変換します。</p></td>
+<td><p>(CELL_LOGICAL_INFO*)pCellLogicalInfo</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_IS_VERY_DARK</p></td>
+<td><p>システムでダーク モードがサポートされているか調べ、サポートされている場合、ユーザーが非常に暗いモードを選択しているかを調べます。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>ユーザーが非常に暗いモードを選択していると TRUE を返し、そうでない場合 FALSE を返します。ただし、システムでダーク モードがサポートされていない場合は NOT_SUPPORTED を返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_WM_INITDIALOG</p></td>
+<td><p>非常に暗いモードをサポートするために、ダイアログ プロシージャーの WM_INITDIALOG メッセージの中で呼ばれます。</p></td>
+<td><p>(HWND)hWnd</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_WM_CTLCOLOR</p></td>
+<td><p>非常に暗いモードをサポートするために、ダイアログ プロシージャーの WM_CTLCOLORDLG、WM_CTLCOLORSTATIC、WM_CTLCOLOREDIT、WM_CTLCOLORBTN、WM_CTLCOLORLISTBOX メッセージの中で呼ばれます。</p></td>
+<td><p>(WPARAM)wParam<br>WM_CTLCOLORxxx メッセージの wParam を渡すことができます。</p></td>
+<td><p>非常に暗いモードが選択されている場合、ブラシを返します。この値をダイアログ プロシージャーの戻り値に渡す必要があります。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_WM_THEMECHANGED</p></td>
+<td><p>非常に暗いモードをサポートするために、ダイアログ プロシージャーの WM_THEMECHANGED メッセージの中で呼ばれます。</p></td>
+<td><p>(HWND)hWnd</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_INIT_LISTVIEW</p></td>
+<td><p>非常に暗いモードをサポートするために、リストビュー コントロールを初期化します。</p></td>
+<td><p>(HWND)hWnd</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_VIEW_FONT</p></td>
+<td><p>現在、選択されているエディタ フォントへのハンドルを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(HFONT)hFont</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_HIDE_QUOTES</p></td>
+<td><p>CSV セル選択モードで [引用符で囲まないで/エスケープしないで表示] が有効かどうかを示すフラグを取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>(BOOL)bHideQuotes</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_SET_HIDE_QUOTES</p></td>
+<td><p>CSV セル選択モードで [引用符で囲まないで/エスケープしないで表示] が有効かどうかを示すフラグを設定します。</p></td>
+<td><p>(BOOL)bHideQuotes</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_ENABLE_WM_CHAR</p></td>
+<td><p>内部で使用されます。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>内部で使用されます。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_SYNC</p></td>
+<td><p>同期フォルダへのパスを取得します。</p></td>
+<td><p>(LPWSTR)szDir<br>フォルダ名を取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX_PATH 文字分を確保しておく必要があります。</p></td>
+<td><p>SYNC_SETTINGS_SEND, SYNC_SETTINGS_RECEIVE を含む値の組み合わせを返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_SPLIT</p></td>
+<td><p>分割の状態を取得します。</p></td>
+<td><p>使用されません。</p></td>
+<td><p>次の値のどれかを返します:<br>SPLIT_NONE, SPLIT_HORZ, SPLIT_VERT, SPLIT_BOTH, SPLIT_2_HORZ, SPLIT_2_VERT</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_SUM</p></td>
+<td><p>選択範囲に含まれる数の合計と出現数を取得します。</p></td>
+<td><p>(SUM_INFO*)pSumInfo</p></td>
+<td><p>成功すると TRUE を、失敗すると FALSE を返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_GET_CONFIG</p></td>
+<td><p>選択されている設定の名前を取得します。</p></td>
+<td><p>設定の名前を取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX_CONFIG_NAME 文字分を確保しておく必要があります。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_SET_CONFIG</p></td>
+<td><p>指定する設定に変更します。</p></td>
+<td><p>設定の名前を指定します。</p></td>
+<td><p>(BOOL)bSuccess</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SAVE_FILE</p></td>
+<td><p>文書を保存します。</p></td>
+<td><p>完全パスのファイル名を指定します。</p></td>
+<td><p>(BOOL)bSuccess</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_INDEX_TO_DOC_REAL</p></td>
+<td><p>ドキュメントのインデックスからハンドルに変換します。EI_INDEX_TO_DOC と異なり、このコマンドは分割ウィンドウ内の個々の文書を数えます。</p></td>
+<td><p>ドキュメントの 0 を基底とするインデックスを指定します。</p></td>
+<td><p>(HEEDOC)hDoc<br>ドキュメントへのハンドルを返します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_DOC_TO_INDEX_REAL</p></td>
+<td><p>ドキュメントのハンドルからインデックスに変換します。EI_INDEX_TO_DOC と異なり、このコマンドは分割ウィンドウ内の個々の文書を数えます。</p></td>
+<td><p>ドキュメントへのハンドルを指定します。</p></td>
+<td><p>(int)nIndex<br>ドキュメントの 0 を基底とするインデックスを返します。</p></td>
+</tr>
+<tr class="row-even"><td><p>EI_GET_TITLE</p></td>
+<td><p>現在の文書のタイトルを取得します。</p></td>
+<td><p>(STRING_BUF*)pStringBuf<br> タイトルを取得するための <a class="reference internal" href="../structure/string_buf.html"><span class="doc std std-doc">STRING_BUF 構造体</span></a> へのポインタを指定します。</p></td>
+<td><p>使用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EI_SET_TITLE</p></td>
+<td><p>現在の文書のタイトルを設定します。タイトルには長いタイトルと短いタイトルを LF (\n) で区切って指定することができます。</p></td>
+<td><p>(LPCWSTR)pszTitle<br>新しいタイトルを指定します。</p></td>
+<td><p>(HRESULT)hr<br>失敗すると負の値を返します。</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p><em>iDoc</em></p>
+<blockquote>
+<div><p>操作対象のドキュメントのインデックスを指定します。wParamの上位ワードには、1 を基底とするインデックスを指定します。 wParam の上位ワードに 0 を指定すると、現在アクティブなドキュメントが操作対象になります。nCmd によっては、使用されないこともあります。その場合は、wParam の上位ワードに 0 を指定する必要があります。</p>
+</div></blockquote>
+<p><em>lParam</em></p>
+<blockquote>
+<div><p>nCmd によって意味が異なります。</p>
+</div></blockquote>
+</section>
+<section id="id2">
+<h2>戻り値<a class="headerlink" href="#id2" title="この見出しへのパーマリンク">¶</a></h2>
+<blockquote>
+<div><p>nCmd によって意味が異なります。</p>
+</div></blockquote>
+</section>
+<section id="id3">
+<h2>バージョン<a class="headerlink" href="#id3" title="この見出しへのパーマリンク">¶</a></h2>
+<blockquote>
+<div><p>Version 3.00 以上で利用できます。ただし、iDoc パラメータは Version 5.00 以上で利用できます。</p>
+</div></blockquote>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">EE_INFO</a><ul>
+<li><a class="reference internal" href="#id1">パラメータ</a></li>
+<li><a class="reference internal" href="#id2">戻り値</a></li>
+<li><a class="reference internal" href="#id3">バージョン</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

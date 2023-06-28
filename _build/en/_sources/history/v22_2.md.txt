@@ -1,0 +1,55 @@
+# Version 22.2
+
+2023年1月25日
+
+## 一般新增功能
+
+- 新版本在打開一個非常大的檔案的初始時就啟動了 CSV 檢測，這讓您能立即以 CSV 模式檢視檔案，而無需等待整個檔案加載完畢。
+- 新版本可在後臺檢查 CSV 語法，無需等待語法檢查完成即可檢視檔案。之前的版本總是在前臺檢查 CSV 語法。
+- 即使存在嵌入式換行符，新版本也允許 CSV 檢測作業。
+- 提高了可靠性和穩健性，尤其是在低記憶體情況下處理非常大的檔案時。
+- 新版本會在記憶體不足的時候顯示一個消息方塊，以及一個可單擊的 URL，以解釋在這種情況發生時如何增加虛擬記憶體。
+- 添加了 **\\V** 運算式到 [取代運算式語法](../howto/search/replacement_expression_syntax)，讓您能把 **V8 JavaScript 引擎** 用於取代運算式。
+- [**CommitList** 外掛程式](../howto/plugin/plugin_commit_list) 現在可以調用拉取、推送和擷取命令。
+- 添加了能篩選記錄的功能到 **CommitList** 中。
+- 改進了崩潰報告。
+- 更新了 **CSS HTML Validator Lite** 到 v21.0。
+- 提高了調整 CSV 分隔符位置、CSV 語法檢查、從 CSV 模式切換到普通模式以及處理超大檔案時的各種轉換和排序命令的速度。
+
+### 測試結果：
+
+|  | v22.1.4<br>(\*1) | v22.2<br>(\*2) | v22.2<br>(\*3) | 比較<br>(\*1 vs \*3) |
+| --- | --- | --- | --- | --- |
+| 按字母升序排序 | 30.1 秒 | 7.40 秒 | 6.42 秒 | 快 4.69 倍 |
+
+\\* 1) v22.1.4 每個檔案的最大記憶體大小： 8082 MB。
+
+\\* 2) v22.2 自動管理所有記憶體大小：關，每個檔案的最大記憶體大小：8082 MB。
+
+\\* 3) v22.2 自動管理所有記憶體大小：開，每個檔案的最大記憶體大小：262144 MB。
+
+\\* 全部：按字母升序排序，1000 萬行，10 GB 隨機 ASCII 數據。除了選擇「總是丟棄過長的復原信息來加速」之外，都是預設選項；操作系統：Windows 11，Ryzen 9 7900X，64 GB RAM，1TB SSD.。
+
+## 新增選項
+
+- 添加了 **自動管理所有記憶體大小** 核取方塊到 **自訂** 對話方塊的 [**進階** 頁面](../dlg/customize/advanced/index) 上。
+- 添加了 **拉取** 和 **推送** 按鈕以及 **擷取** 功能表項目到 [**CommitList** 外掛程式](../howto/plugin/plugin_commit_list) 中。
+- 添加了 **篩選記錄** 對話方塊到 [**CommitList**](../howto/plugin/plugin_commit_list) 中。
+- 添加了 **總是丟棄過長的復原信息來加速** 選項到 **進度** 對話方塊中（與 **自訂** 對話方塊的 **編輯** 頁面中同名的選項相同）。
+
+## 新增命令
+
+- [標記連結](../cmd/view/tag_links)
+
+## 新增外掛程式功能 <pro />
+
+- 添加了 **nFlags** 參數到 [**EE\_SET\_STATUSW** 消息](../plugin/message/ee_set_statusw) 和 [**Editor\_SetStatusW** 內嵌函式](../plugin/macro/editor_setstatusw) 中。
+
+## 新增巨集功能 <pro />
+
+- 添加了 **eeMacroLangV8** 和 **eeMacroSyncOnly** 標志到 **Editor** 對象的 [**ExecuteMacro** 方法](../macro/editor/editor_executemacro) 中。
+
+### 備註
+
+- \[P\] 僅限 EmEditor 專業版
+- \[PF\] EmEditor 專業版和 EmEditor 免費版

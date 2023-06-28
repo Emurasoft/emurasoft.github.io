@@ -1,0 +1,56 @@
+# Version 18.3
+
+2018年11月7日
+
+## 一般新增功能
+
+- 添加了隨機順序到排序。
+- 新版本可以打開每行16，32，64，128 和 256 字節的 **二進位（十六進位視圖）** 檔案。每行選擇更大的字節可以加快二進位檔案的加載速度
+- 在沒有臨時檔案的情況下，打開大檔案時重新啟用多線程搜尋/取代以提高其速度。
+- 在 **篩選** 工具列中添加了 **「僅書籤行」**， **「僅未標示書籤的行」** 和 **「符合換行符號」** 按鈕。
+- 大大提高了 **刪除換行符號** 以及驗證含有內嵌換行符號的 CSV 文檔的速度。
+- 當鍵盤焦點位於「篩選」工具列的「列」下拉清單方塊中，可以通過按 ENTER/ESC 鍵重新整理/中止篩選。
+- [新版本允許您在多選模式下通過 CTRL 加游標右鍵單擊來取消選擇。](https://www.emeditor.com/forums/topic/multiple-selection-editing/)
+- [您現在可以對未儲存的文檔啟用 **唯讀** 模式。](https://www.emeditor.com/forums/topic/read-only/)
+
+### 測試結果：
+
+|  | v18.2 | v18.3 | 比較 |
+| --- | --- | --- | --- |
+| 全部取代（不用臨時檔案打開） | 6.33 秒 | 2.17 秒 | 快 2.92 倍 |
+| 刪除換行符號 | 28.5 秒 | 8.42 秒 | 快 3.38 倍 |
+| 轉換到 CSV 模式（CSV 含內嵌換行） | 7.27 秒 | 0.01 秒 | 快 727 倍 |
+
+\\* 全部取代：1.34 GB，100,000,000 行，ASCII 隨機數據，取代 "aaa" 為 "@@@"，預設選項；刪除換行符號：538 MB，10,000,000 行，ASCII 隨機數據；轉換到 CSV 模式：142 KB，500 行，52,300 換行符；測試系統：Windows 10 (64-bit)，Core i7-8700K，32GB RAM。
+
+## 新增選項
+
+- 添加了 **隨機排序** 單選按鈕到 [**多欄排序** 對話方塊](../dlg/sort_multi/index) 中。
+- 添加了 **二進位（十六進位視圖）** 下拉清單方塊到 **自訂** 對話方塊的 [**格式** 頁面](../dlg/customize/format/index) 上。
+- 添加了 **僅書籤標示行**， **僅未標示書籤的行**， **符合換行符號**， **僅 CR**， **僅 LF**， **僅 CR+LF**， **其他** 核取方塊到 [**進階篩選** 對話方塊](../dlg/advanced_filter/index) 中。
+
+## 新增命令
+
+- [隨機排序](../cmd/edit/sort_random)
+- [僅書籤行（篩選工具列）](../cmd/search/filterbar_bookmarked_only)
+- [僅未標示書籤的行（篩選工具列）](../cmd/search/filterbar_unbookmarked_only)
+- [符合換行符號（篩選工具列）](../cmd/search/filterbar_match_nl)
+- [僅 CR（篩選工具列）](../cmd/search/filterbar_cr_only)
+- [僅 LF（篩選工具列）](../cmd/search/filterbar_lf_only)
+- [CR+LF（篩選工具列）](../cmd/search/filterbar_cr_lf)
+- [其他（篩選工具列）](../cmd/search/filterbar_nl_others)
+
+## 外掛程式 API 新增功能
+
+- 添加了 **SORT\_RANDOM** 標志到 [**Editor\_Sort** 內嵌函式](../plugin/macro/editor_sort) 以及 [**SORT\_INFO** 結構](../plugin/structure/sort_info) 中。
+- 添加了 **FLAG\_FIND\_BOOKMARKED\_ONLY**， **FLAG\_FIND\_CR\_ONLY**， **FLAG\_FIND\_CR\_LF**， **FLAG\_FIND\_LF\_ONLY**， **FLAG\_FIND\_NL\_OTHERS**， **FLAG\_FIND\_UNBOOKMARKED\_ONLY**，以及 **FLAG\_FIND\_MATCH\_NL** 標志到 [**FILTER\_INFO\_EX** 結構](../plugin/structure/filter_info_ex) 中。
+
+## 新增巨集功能
+
+- 添加了 **R**（隨機排序）選項到 [**Sort** 方法](../macro/document/sort) 的 **strColumns** 參數中。
+- 添加了 **ExFlags** 參數到 [**Filter** 方法](../macro/document/filter) 中。
+
+## 修復 Bug
+
+- 修復了與批次取代相關的某個問題。
+- 修復了使用者報告的問題（ [1](https://www.emeditor.com/forums/topic/external-tools/)， [2](https://www.emeditor.com/forums/topic/link-truncated-at-german-umlauts/)， [3](https://www.emeditor.com/forums/topic/csv-double-click-outside-to-create-a-new-cell-problem/)）。

@@ -1,0 +1,40 @@
+# Version 21.7
+
+2022年 5月 11日
+
+## 一般の新機能
+
+- 新バージョンは、 [\[比較\] コマンド](../cmd/diff/compare_direct)、または [\[オプションを指定して比較\] コマンド](../cmd/diff/compare_options) を実行した時、ファイルの比較の結果を、既定では、1 つの左右に分割されたウィンドウに表示するようになりました。設定により従来のようにウィンドウを並べて表示することも可能です。
+- 新バージョンは、読み直し前にスクロール位置が最下部の場合、ファイルの読み直しでスクロール位置が最下部を保持するようになりました。
+- 設定のプロパティの \[ファイル\] ページで \[すべて自動検出\] オプションが設定されている場合で、検出されたエンコードが Windows でサポートされていない場合 (VISCII など)、新バージョンは、システム既定エンコードとして継続して開くようになり、通知を表示するようになります。
+- URI 強調表示を改善しました。
+- CSV 選択モードで行選択の改善。
+- 水平グリッドの既定のスタイルを点線から標準に変更し、垂直区切り線の描画速度を向上しました。
+- C++ を含む設定でインデント終了の正規表現の既定値を変更しました。
+- \[連続置換\] ダイアログ ボックスで \[すべて一括置換\] をサポートしました。\[すべて連続置換\] は文書から 1回に 1個ずつ文字列を検索して、その検索を各検索文字列に対して繰り返しますが、\[すべて一括置換\] は文書からすべての検索文字列を同時に検索します。\[すべて一括置換\] は \[すべて連続置換\] よりも高速に動作します。詳しくは、 [\[すべて連続置換\] と \[すべて一括置換\] の違い](../howto/search/batch_vs_bulk) をお読みください。
+
+### テスト 結果:
+
+|  | すべて連続置換 (v21.7) | すべて一括置換 (v21.7) | 比較 |
+| --- | --- | --- | --- |
+| すべて置換 | 50 分 55 秒 | 0.484 秒 | 6310 倍に高速化 |
+
+\\* 100万個のランダム文字列をランダム文字列に置換、大文字と小文字を区別しない、966 KB, 10,000行、ランダム ASCII データ。既定オプション、Windows 11、Core i9-9900K、32GB RAM、2TB SSD。
+
+## 新しい設定
+
+- [\[連続置換\] ダイアログ ボックス](../dlg/replace/index) と [\[ファイルから連続置換\] ダイアログ ボックス](../dlg/replace_in_files/index) に \[すべて一括置換\] ボタンを追加しました。
+- [\[ファイルから連続検索\] ダイアログ ボックス](../dlg/find_in_files/index) と [\[ファイルから連続置換\] ダイアログ ボックス](../dlg/replace_in_files/index) に \[一括検索\] ボタンを追加しました。
+- \[ファイルの比較\] ウィザードの \[表示オプションの選択\] ページに \[左右に分割する\] ラジオ ボタンを追加しました。
+- \[カスタマイズ\] ダイアログの [\[ファイル\] ページ](../dlg/customize/file/index) に \[EmEditor がアクティブな時だけファイルを監視する\] オプションを追加しました。
+
+## プラグインの新機能
+
+- [BATCH\_INFO 構造体](../plugin/structure/batch_info) に FLAG\_FIND\_MULTI フラグを追加しました。
+- [LOAD\_FILE\_INFO\_EX 構造体](../plugin/structure/load_file_info) に LFI\_DONT\_ADD\_RECENT フラグを追加しました。
+- [Editor\_Compare インライン関数](../plugin/macro/editor_compare) と [COMPARE\_INFO 構造体](../plugin/structure/compare_info) に COMPARE\_SPLIT\_VERT フラグを追加しました。
+
+## マクロの新機能
+
+- Selection オブジェクトの [BatchReplace メソッド](../macro/selection/batch_replace) と Editor オブジェクトの [BatchFindInFiles メソッド](../macro/editor/editor_batchfindinfiles) と [BatchReplaceInFiles メソッド](../macro/editor/editor_batchreplaceinfiles) に eeExFindMulti フラグを追加しました。
+- Editor オブジェクトの [Compare メソッド](../macro/editor/compare) に eeCompareSplitVert フラグを追加しました。

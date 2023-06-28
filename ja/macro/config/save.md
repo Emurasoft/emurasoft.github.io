@@ -1,0 +1,19 @@
+# Save メソッド
+
+現在の設定を保存します。
+
+#### \[JavaScript\]
+
+object. **Save**( \[ _strName_ \] );
+
+#### \[VBScript\]
+
+object. **Save** \[ _strName_ \]
+
+## パラメータ
+
+_strName_
+
+オプションです。保存する設定名を指定します。省略する場合は設定名は変更されません。
+
+EmEditor Professional Version 7.00 以上で利用できます。

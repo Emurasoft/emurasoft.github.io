@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Window 對象 &#8212; EmEditor  說明文件</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../search.html" />
+    <link rel="next" title="Caption 屬性" href="caption.html" />
+    <link rel="prev" title="獲取電腦使用者的名稱" href="../tutorial/tutorial_username.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  說明文件</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/macro/window/index">English</a>
+                <a href="/ja/macro/window/index">日本語</a>
+                <a href="/ko/macro/window/index">한국어</a>
+                <a href="/zh-cn/macro/window/index">简体中文</a>
+                <a href="/zh-tw/macro/window/index">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">快速搜尋</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="前往" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.html">命令參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.html">對話方塊</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">常見問題解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">詞彙</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">歷史記錄</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">如何…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">連結</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">巨集參考</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../association_item/index.html">AssociationItem 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../association_list/index.html">AssociationList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../association_prop/index.html">AssociationProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../auto_save_prop/index.html">AutoSaveProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../backup_prop/index.html">BackupProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../character_range/index.html">CharacterRange 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../character_ranges/index.html">CharacterRanges 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../clipboarddata/index.html">clipboardData 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../config/index.html">Config 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configs/index.html">Configs 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../const/index.html">常數</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../csv/index.html">Csv 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../csv_list/index.html">CsvList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directive/index.html">Script 指示詞</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../display_item/index.html">DisplayItem 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../display_list/index.html">DisplayList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../display_prop/index.html">DisplayProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../document/index.html">Document 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../documents/index.html">Documents 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dropped_files/index.html">DroppedFiles 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../editor/index.html">Editor 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../features/index.html">功能</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_new_prop/index.html">FileNewProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_prop/index.html">FileProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_save_prop/index.html">FileSaveProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../filter/index.html">Filter 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../filters/index.html">Filters 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../font_item/index.html">FontItem 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../font_list/index.html">FontList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../font_prop/index.html">FontProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fuzzy_options/index.html">FuzzyOptions 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../general_prop/index.html">GeneralProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../highlight_item/index.html">HighlightItem 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../highlight_list/index.html">HighlightList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../highlight_prop/index.html">HighlightProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../indent_prop/index.html">IndentProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../interface/index.html">Interface 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../keyboard_item/index.html">KeyboardItem 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../keyboard_list/index.html">KeyboardList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../keyboard_prop/index.html">Keyboard 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../link_prop/index.html">LinkProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mark_prop/index.html">MarkProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../match/index.html">Match 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../matches/index.html">Matches 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../no_wrap_item/index.html">NoWrapItem 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../no_wrap_list/index.html">NoWrapList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../no_wrap_prop/index.html">NoWrapProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../output_bar/index.html">OutputBar 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../point/index.html">Point 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../popupmenu/index.html">PopupMenu 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../print_prop/index.html">PrintProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regex/index.html">Regex 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../scroll_prop/index.html">ScrollProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../selection/index.html">Selection 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shell/index.html">Shell 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../spell_prop/index.html">SpellProp 對象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorial/index.html">教程</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Window 對象</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="caption.html">Caption 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="children.html">Children 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="class_name.html">ClassName 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clipboarddata.html">clipboardData 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="combine_history.html">CombineHistory 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="createpopupmenu.html">CreatePopupMenu 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="discard_undo.html">DiscardUndo 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="droppedfiles.html">DroppedFiles 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="enabled.html">Enabled 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="exstyle.html">ExStyle 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="find_window.html">FindWindow 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="find_window_by_id.html">FindWindowByID 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="height.html">Height 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hwnd.html">hWnd 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="interface.html">Interface 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="leftx.html">LeftX 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="output_bar.html">OutputBar 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="parent.html">Parent 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="process_id.html">ProcessID 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quit.html">Quit 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scriptfullname.html">ScriptFullName 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scriptname.html">ScriptName 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="set_focus.html">SetFocus 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="set_foreground.html">SetForeground 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="set_position.html">SetPosition 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shell.html">shell 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="show_tip.html">ShowTip 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="style.html">Style 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thread_id.html">ThreadID 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="top.html">Top 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="valid.html">Valid 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="visible.html">Visible 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="width.html">Width 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_alert.html">alert 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_close.html">close 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_confirm.html">confirm 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_document.html">document 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_editor.html">editor 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_print.html">print 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_prompt.html">prompt 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_redraw.html">Redraw 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_scrollby.html">scrollBy 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_scrollto.html">scrollTo 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_scrollx.html">scrollX 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_scrolly.html">scrollY 屬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_sleep.html">Sleep 方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_status.html">status 屬性</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../windows/index.html">Windows 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../wrap_prop/index.html">WrapProp 對象</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">注意事項</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.html">外掛程式參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">如何購買</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">巨集參考</a> &lt;
+            Window 對象
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="window">
+<h1>Window 對象<a class="headerlink" href="#window" title="本標頭的永久連結">¶</a></h1>
+<section id="id1">
+<h2>屬性<a class="headerlink" href="#id1" title="本標頭的永久連結">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="caption.html"><span class="doc std std-doc">Caption</span></a></strong></p></td>
+<td><p>返回視窗的描述文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="children.html"><span class="doc std std-doc">Children</span></a></strong></p></td>
+<td><p>返回代表子視窗的 Windows 集合。.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="class_name.html"><span class="doc std std-doc">ClassName</span></a></strong></p></td>
+<td><p>返回視窗的類名。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="clipboarddata.html"><span class="doc std std-doc">clipboardData</span></a></strong></p></td>
+<td><p>返回 clipboardData 對象。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="combine_history.html"><span class="doc std std-doc">CombineHistory</span></a></strong></p></td>
+<td><p>指定要不要合併復原/重做記錄。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="discard_undo.html"><span class="doc std std-doc">DiscardUndo</span></a></strong></p></td>
+<td><p>返回標志來表示 EmEditor 要是否丟棄撤銷信息以提高取代、插入或刪除的速度。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="window_document.html"><span class="doc std std-doc">document</span></a></strong></p></td>
+<td><p>返回 Document 對象。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="droppedfiles.html"><span class="doc std std-doc"><strong>DroppedFiles</strong></span></a></p></td>
+<td><p>返回 DroppedFiles 對象。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="window_editor.html"><span class="doc std std-doc">editor</span></a></strong></p></td>
+<td><p>返回 Editor 對象。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="enabled.html"><span class="doc std std-doc">Enabled</span></a></strong></p></td>
+<td><p>返回是否視窗啟用了游標和鍵盤輸入。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="exstyle.html"><span class="doc std std-doc"><strong>ExStyle</strong></span></a></p></td>
+<td><p>返回指定視窗的延伸樣式。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="height.html"><span class="doc std std-doc">Height</span></a></strong></p></td>
+<td><p>返回或設置視窗高度。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="hwnd.html"><span class="doc std std-doc">hWnd</span></a></strong></p></td>
+<td><p>檢索或設置視窗的句柄值。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="interface.html"><span class="doc std std-doc"><strong>Interface</strong></span></a></p></td>
+<td><p>返回 Interface 對象。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="leftx.html"><span class="doc std std-doc">LeftX</span></a></strong></p></td>
+<td><p>以像素為單位返回或設置指定視窗的水平位置。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="output_bar.html"><span class="doc std std-doc">OutputBar</span></a></strong></p></td>
+<td><p>返回 OutputBar 對象。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="parent.html"><span class="doc std std-doc">Parent</span></a></strong></p></td>
+<td><p>返回父視窗對象。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="process_id.html"><span class="doc std std-doc">ProcessID</span></a></strong></p></td>
+<td><p>返回進程標識符。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="window_redraw.html"><span class="doc std std-doc">Redraw</span></a></strong></p></td>
+<td><p>在 EmEditor 中允許或禁止重繪變更。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="scriptfullname.html"><span class="doc std std-doc">ScriptFullName</span></a></strong></p></td>
+<td><p>檢索目前的運行的巨集檔案的完整路徑以及檔案名稱。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="scriptname.html"><span class="doc std std-doc">ScriptName</span></a></strong></p></td>
+<td><p>僅檢索目前的運行的巨集檔案的檔案名。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="style.html"><span class="doc std std-doc"><strong>Style</strong></span></a></p></td>
+<td><p>返回指定視窗的樣式。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="window_scrollx.html"><span class="doc std std-doc">scrollX</span></a></strong></p></td>
+<td><p>返回捲軸的水平位置。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="window_scrolly.html"><span class="doc std std-doc">scrollY</span></a></strong></p></td>
+<td><p>返回捲軸的垂直位置。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="shell.html"><span class="doc std std-doc">shell</span></a></strong></p></td>
+<td><p>返回 Shell 對象。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="window_status.html"><span class="doc std std-doc">status</span></a></strong></p></td>
+<td><p>檢索或設置在狀態列上顯示的一個字串。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="thread_id.html"><span class="doc std std-doc">ThreadID</span></a></strong></p></td>
+<td><p>返回創建視窗的線程的標識符。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="top.html"><span class="doc std std-doc">Top</span></a></strong></p></td>
+<td><p>以像素為單位返回或設置指定視窗的垂直位置。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="valid.html"><span class="doc std std-doc">Valid</span></a></strong></p></td>
+<td><p>返回是否視窗句柄還有效。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="visible.html"><span class="doc std std-doc">Visible</span></a></strong></p></td>
+<td><p>返回是否視窗可見。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="width.html"><span class="doc std std-doc">Width</span></a></strong></p></td>
+<td><p>返回或設置視窗的寬度。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id2">
+<h2>方法<a class="headerlink" href="#id2" title="本標頭的永久連結">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="window_alert.html"><span class="doc std std-doc">alert</span></a></strong></p></td>
+<td><p>在一個簡單的對話方塊中顯示一條消息和「OK」按鈕。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="window_close.html"><span class="doc std std-doc">close</span></a></strong></p></td>
+<td><p>關閉視窗。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="window_confirm.html"><span class="doc std std-doc">confirm</span></a></strong></p></td>
+<td><p>在一個簡單的對話方塊內顯示一條消息以及「OK」和「Cancel」按鈕。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="createpopupmenu.html"><span class="doc std std-doc">CreatePopupMenu</span></a></strong></p></td>
+<td><p>創建一個快顯功能表。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="find_window.html"><span class="doc std std-doc">FindWindow</span></a></strong></p></td>
+<td><p>通過類名和/或一個視窗標題尋找子 Window 對象。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="find_window_by_id.html"><span class="doc std std-doc">FindWindowByID</span></a></strong></p></td>
+<td><p>通過視窗標識符尋找子 Window 對象。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="window_print.html"><span class="doc std std-doc">print</span></a></strong></p></td>
+<td><p>顯示「列印」對話方塊。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="window_prompt.html"><span class="doc std std-doc">prompt</span></a></strong></p></td>
+<td><p>顯示一個對話方塊來輸入字串。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="quit.html"><span class="doc std std-doc">Quit</span></a></strong></p></td>
+<td><p>終止執行巨集。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="window_scrollby.html"><span class="doc std std-doc">scrollBy</span></a></strong></p></td>
+<td><p>通過指定的相對量捲動視窗。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="window_scrollto.html"><span class="doc std std-doc">scrollTo</span></a></strong></p></td>
+<td><p>把視窗捲動至指定的位置。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="set_focus.html"><span class="doc std std-doc">SetFocus</span></a></strong></p></td>
+<td><p>把鍵盤焦點設置到該視窗中。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="set_foreground.html"><span class="doc std std-doc">SetForeground</span></a></strong></p></td>
+<td><p>將視窗置前。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="set_position.html"><span class="doc std std-doc">SetPosition</span></a></strong></p></td>
+<td><p>設置視窗的大小和位置。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="show_tip.html"><span class="doc std std-doc">ShowTip</span></a></strong></p></td>
+<td><p>顯示工具提示。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="window_sleep.html"><span class="doc std std-doc">Sleep</span></a></strong></p></td>
+<td><p>在以毫秒為單位的指定時間內暫停執行巨集。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id3">
+<h2>版本<a class="headerlink" href="#id3" title="本標頭的永久連結">¶</a></h2>
+<p>支持 EmEditor 4.00 或之後的版本。</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="caption.html">Caption 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="children.html">Children 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="class_name.html">ClassName 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clipboarddata.html">clipboardData 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="combine_history.html">CombineHistory 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="createpopupmenu.html">CreatePopupMenu 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="discard_undo.html">DiscardUndo 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="droppedfiles.html">DroppedFiles 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enabled.html">Enabled 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exstyle.html">ExStyle 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="find_window.html">FindWindow 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="find_window_by_id.html">FindWindowByID 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="height.html">Height 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hwnd.html">hWnd 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface.html">Interface 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="leftx.html">LeftX 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="output_bar.html">OutputBar 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parent.html">Parent 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="process_id.html">ProcessID 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quit.html">Quit 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scriptfullname.html">ScriptFullName 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scriptname.html">ScriptName 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="set_focus.html">SetFocus 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="set_foreground.html">SetForeground 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="set_position.html">SetPosition 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="shell.html">shell 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="show_tip.html">ShowTip 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="style.html">Style 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thread_id.html">ThreadID 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="top.html">Top 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="valid.html">Valid 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="visible.html">Visible 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="width.html">Width 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_alert.html">alert 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_close.html">close 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_confirm.html">confirm 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_document.html">document 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_editor.html">editor 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_print.html">print 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_prompt.html">prompt 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_redraw.html">Redraw 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_scrollby.html">scrollBy 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_scrollto.html">scrollTo 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_scrollx.html">scrollX 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_scrolly.html">scrollY 屬性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_sleep.html">Sleep 方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="window_status.html">status 屬性</a></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">Window 對象</a><ul>
+<li><a class="reference internal" href="#id1">屬性</a></li>
+<li><a class="reference internal" href="#id2">方法</a></li>
+<li><a class="reference internal" href="#id3">版本</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; 版權所有 2023 Emurasoft。
+      使用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 建立。
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

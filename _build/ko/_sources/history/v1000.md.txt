@@ -1,0 +1,179 @@
+# 버전 10
+
+2010년 6월 30일
+
+## 새로운 일반 기능
+
+- **비교** 와 **동기화 스크롤링** 기능이 추가되었습니다.
+- **맞춤법** 기능이 추가되었습니다.
+- 라인의 오른쪽 끝 부분 제로 너비의 수직 선택 선택으로 각 라인의 끝으로 선택이 이동합니다. 다음 각 라인의 끝(선 길이가 동일하지 않은 경우에도)에 삽입 텍스트를 입력해 주세요.
+- 새로운 [**번호 매기기** 명령](../cmd/edit/numbering) 은 커서를 놓은 자리 또는 수직선택을 한 자리에 연속적 숫자들 혹은 문자들을 삽입할 수 있게 해 줍니다.
+- **CSV** 모드는 지금 새로운 선을 한개의 셀에 넣을 수 있습니다. 포함된 반환은 **보기 제어 문자** 체크박스가 구성 속성의 **기호** 탭의 **M** (CR) 그리고/혹은 **J** (LF) 반전 배경 색상으로 보여지게 됩니다.
+- 윈도우 탐색기에서 폴더에 마우스 오른쪽 단추를 클릭했을 때 표시되어 지는 상황에 맞는 메뉴는 지금 **엠에디터로 파일 찾기** 명령어를 포함하고 있습니다.
+- **자동 복구** 기능은 지금 가장 최근에 사용된 작업영역을 자동적으로 열어줍니다. ( **복구된 파일** 대화상자는 더이상 사용되지 않습니다.) 새 설치 프로그램 엠에디터를 업데이트 할 경우, 엠에디터 윈도우는 자동적으로 닫히게 되고, 마지막으로 사용된 작업 영역으로 재개됩니다.
+- 새로운 설치 프로그램은 이제 하나의 설치 프로그램에서 여러 언어버전을 허용합니다. (현재 영어와 일본어가 포함되어 있습니다.)
+- 새 설치 프로그램과 함께 새로운 **업데이트 검사기** 가 지금 사용됩니다. (v9의 **업데이트 검사기** 는 더이상 사용되지 않습니다.)
+- 새 명령줄 옵션 **/cmp** 가 추가되었습니다.
+- 지역화된 언어 파일이 오래 된 경우, 엠에디터 지금 자동으로 영어 문자열 및 대화 상자 리소스의 사용합니다.
+- 엠에디터는 지금 왼쪽으로의 조합(&l)과, 센터의 조합(&c), 그리고 오른쪽 (&r)을 인쇄 머리글과 바닥글에 대한 정렬을 지원합니다
+- 이진수(16진수 보기) 모드는 지금 ASCII 세로보기를 포함하고 있습니다.
+- 세로 선택은 이제 논리적 선택으로 제한됩니다. (라인 래핑은 더이상 사용되지 않기 때문에 여러 항목 선택은 더 이상 포함되지 않습니다.)
+- 이전의 버전에서는, 인식 불가능한 문자들을 포함한 파일을 다시 열 때 대화상자를 취소한 후에 새로운 제목 없는 문서를 열게 되었으나, 이것이 새롭게 개선되어, 파일을 비동기적으로 열 때 제외됩니다.
+- 기본값 PHP 하이라이트열은 가장 최근의 PHP기능 리스트로 업데이트 되었습니다.
+- 새로운 대체 표현 (?n:true\_expression:false\_expression) 은 [정규식 구문](../howto/search/search_regexp_syntax) 에 추가 되었습니다.
+
+## 새로운 플러그 인 기능
+
+### 코드조각 플러그 인
+
+- 단어 완성 플러그인은 지금 발췌문 플레이스 홀더 안에서 작동합니다.
+- 글로벌 옵션은 지금 정규식 코드조각 플러그 인에 추가되었습니다.
+
+### 윤곽 플러그 인
+
+- **커서 위치에 동기화 선택** **처음 실행시 사용자 정의 표시줄에서 설정에 초점을 맞춥니다**, **Esc 키를 이용해서 사용자 정의 모음을 닫습니다**, 그리고 **사용자 지정 바를 닫기 위해 Enter 키를 또는 이동 명령어를 사용합니다** 체크 박스들은 [윤곽 플러그 인 등록정보](../howto/plugin/plugin_outlinetext) 에 추가되었습니다.
+- **정규식으로 일치 문자열 숨기기/바꾸기** 체크박스 그리고 **정규식** 텍스트 박스는 정규식으로 일치 문자열을 숨기거나 바꿀 수 있도록 추가되었습니다.
+
+### 워드 완성 플러그 인
+
+- **워드 후보 목록에서 일치하거나 같은 길이의 워드는 제외** 체크박스는 플러그 인 속성의 **옵션** 에 추가되었습니다.
+
+### 탐색기 플러그 인
+
+- 탐색기 플러그인은 그 동안 열린 활성파일의 선택을 항상 똑같게 할 수 없었습니다. 이 버그는 수정되었습니다.
+
+## 새로운 옵션
+
+- [**맞춤법** 탭](../dlg/properties/spell/index) 은 [구성 속성](../dlg/properties/index) 에 추가되었습니다.
+- **표준 오차** 드롭다운 목록 박스는 [**외부 도구** 속성](../dlg/tools/properties/index) 에 추가되었고, 포함 표준 오류 체크박스는 더이상 사용되지 않습니다. 이 변경을 **표준 출력** 을 지정할 수 있으며, **표준 오차** 를 별도로 출력할 수 있습니다.
+- [**찾기** 대화상자](../dlg/find/index) 는 지금 새롭게 **일치 횟수** 체크박스를 포함하고 있습니다. 이것은 문서열을 찾을 때, 현재 바에서 몇개가 일치되는지를 보여 줍니다.
+- 카테고리명은 지금 **새 바로 가기 키** 텍스트 상자에서 지정된 키를 누를 때, 보여지게 됩니다.
+- **파일 혹은 폴더 무시하기** 텍스트 상자는 ( **파일에서 찾기** \> **고급**)는 지금 15,999문자 까지 허용합니다.
+- **찾기**/ **바꾸기** 드롭다운 리스트( **찾기**/ **바꾸기**/ **파일에서 찾기**/ **파일에서 바꾸기** 대화)의 오른쪽에 있는 **>** 버튼은 지금 **선택한 텍스트**, **단어에 커서**, **사용자 지정**, **기본값으로 저장**, 그리고 **다중 선** 명령어들을 지금 포함하고 있습니다. **=** 버튼은 더 이상 사용되지 않습니다.
+- 또 다른 **>** 버튼은 **파일 유형** 드롭다운 리스트의 오른쪽에 추가되어 질 수 있습니다. ( **파일에서 찾기**/ **파일에서 바꾸기** 대화). 이 버튼은 **현재 파일 유형**, **현재 파일**, 그리고 **기본으로 저장** 을 포함하고 있습니다.
+- **폴더 안** 드롭다운 리스트 박스( **파일에서 찾기**/ **파일에서 바꾸기** 대화)의 오른쪽에 있는 **...** 버튼은 **>** 버튼으로 바뀌었습니다. 이 버튼은 **현재 폴더**, **상위 폴더**, **최상위 폴더**, **사용자 지정**, 그리고 **기본으로 저장** 명령어들을 포함하고 있습니다.
+- 기본값 PHP 하이라이트열은 가장 최근의 PHP기능 리스트로 업데이트 되었습니다.
+- 탭 순서는 **바꾸기**/ **파일에서 찾기**/ **파일에서 바꾸기** 로 대화 상자 안에서 바뀌었습니다.
+- **물결모양 선** 과 **점선** 은 구성 속성의 [**디스플레이** 탭](../dlg/properties/display/index) 안의 (폰트 스타일) 드롭다운 리스트 박스로 추가되었습니다.
+- **가로 눈금** 체크 박스는 구성 속성의 [**스크롤** 탭](../dlg/properties/scroll/index) 에 추가되었습니다. **점선** 체크박스는 더 이상 사용되지 않습니다.
+- **머릿글** 체크박스와 **바닥글** 체크박스는 [구성 속성](../dlg/properties/index) 의 [**인쇄하기** 탭](../dlg/properties/print/index) 에 추가되었습니다.
+- **모두 삭제** 버튼은 [**사용자 지정 매크로** 대화상자](../dlg/macro_customize/index) 의 [**나의 매크로** 탭](../dlg/macro_customize/my_macros/index) 에 추가되었습니다.
+- **현지화 항목의 사용이 불가능 할때 영어 사용** 체크박스는 **사용자지정** 대화상자의 [**언어** 탭](../dlg/customize/lang/index) 에 추가되었습니다.
+- [**도구모음** 대화상자](../dlg/toolbars/index) 의 256 색단추는 더 이상 사용되지 않습니다.
+- [**번호매기기 삽입** 대화상자](../dlg/insert_numbering/index) 가 추가되었습니다.
+
+## 새로운 명령
+
+- **[서명과 함께 UTF-16LE로 저장](../cmd/file/save_utf16le_sign)**
+- **[서명 없이 UTF-16LE로 저장](../cmd/file/save_utf16le_nosign)**
+- **[서명과 함께 UTF-16BE로 저장](../cmd/file/save_utf16be_sign)**
+- **[서명 없이 UTF-16BE로 저장](../cmd/file/save_utf16be_nosign)**
+- **[서명과 함께 UTF-8로 저장](../cmd/file/save_utf8_sign)**
+- **[서명 없이 UTF-8로 저장](../cmd/file/save_utf8_nosign)**
+- **[HTML/XML 문자 참조를 유니코드로](../cmd/edit/decode_html_char_ref)**
+- **[유니코드를 HTML/XML 문자 참조로](../cmd/edit/encode_html_char_ref)**
+- **[유니버설 문자이름을 유니코드로](../cmd/edit/decode_ucn)**
+- **[유니코드를 유니버설 문자이름으로](../cmd/edit/encode_ucn)**
+- **[숫자매기기](../cmd/edit/numbering)**
+- **[셀 선택](../cmd/edit/select_cell)**
+- **[다음 셀](../cmd/edit/next_cell)**
+- **[이전 셀](../cmd/edit/prev_cell)**
+- **[맞춤법 검사](../cmd/edit/spell_toggle)**
+- **[따옴표 붙은 문자열에서 맞춤법 검사](../cmd/edit/spell_quote)**
+- **[작은 따옴표로 닫은 문자열에서 맞춤법 검사](../cmd/edit/spell_single_quotes)**
+- **[큰 따옴표로 닫은 문자열에서 맞춤법 검사](../cmd/edit/spell_double_quotes)**
+- **[주석에서 맞춤법 검사](../cmd/edit/spell_comments)**
+- **[스크립트에서 맞춤법 검사](../cmd/edit/spell_script)**
+- **[태그에서 맞춤법 검사](../cmd/edit/spell_tags)**
+- **[강조 표시된 텍스트에서 맞춤법 검사](../cmd/edit/spell_hilite)**
+- **[하이퍼링크에서 맞춤법 검사](../cmd/edit/spell_hyperlink)**
+- **[지정되지 않은 텍스트에서 맞춤법 검사](../cmd/edit/spell_rest)**
+- **[전체 문서에서 맞춤법 검사](../cmd/edit/spell_all)**
+- **[잘못된 이전 철자](../cmd/edit/spell_prev)**
+- **[잘못된 다음 철자](../cmd/edit/spell_next)**
+- **[맞춤법 제안](../cmd/edit/spell_suggest)**
+- **[사전](../cmd/edit/spell_dictionary)**
+- **[활성화 단축키](../cmd/view/toggle_output_shortcuts)**
+- **[줄 번호](../cmd/view/view_line_numbers)**
+- **[눈금자](../cmd/view/view_ruler)**
+- **[반환](../cmd/view/view_return)**
+- **[EOF (파일의 끝)](../cmd/view/view_eof)**
+- **[탭](../cmd/view/view_tab)**
+- **[스페이스](../cmd/view/view_space)**
+- **[와이드 스페이스](../cmd/view/view_wide_space)**
+- **[CR과 LF의 서로 다른 부호](../cmd/view/view_cr_lf_separate)**
+- **[제어 문자](../cmd/view/view_control)**
+- **[들여쓰기 가이드](../cmd/view/view_indent_guides)**
+- **[탭 열](../cmd/view/tab_column_popup)**
+- **[들여쓰기 열](../cmd/view/indent_column_popup)**
+- **[자동 들여쓰기](../cmd/view/toggle_auto_indent)**
+- **[탭에 공백 삽입](../cmd/view/toggle_spaces_tab)**
+- **[줄 바꿔서 들여쓰기](../cmd/view/toggle_wrap_indent)**
+- **[비교](../cmd/diff/compare_direct)**
+- **[옵션 비교](../cmd/diff/compare_options)**
+- **[다시 검사](../cmd/diff/compare_rescan)**
+- **[동기화 스크롤](../cmd/diff/sync_scroll_direct)**
+- **[옵션과 동기화 스크롤](../cmd/diff/sync_scroll_options)**
+- **[초기화](../cmd/diff/compare_reset)**
+- **[선행 공백 무시](../cmd/diff/ignore_lead_space)**
+- **[후행 공백 무시](../cmd/diff/ignore_trail_space)**
+- **[포함 공백 무시](../cmd/diff/ignore_embedded_space)**
+- **[대/소문자 무시](../cmd/diff/ignore_cases)**
+- **[반환 무시](../cmd/diff/ignore_returns)**
+- **[주석 무시](../cmd/diff/ignore_comment)**
+- **[인코딩 무시](../cmd/diff/ignore_encoding)**
+- **[동기화 수직 스크롤링](../cmd/diff/sync_vert)**
+- **[동기화 가로 스크롤링](../cmd/diff/sync_horz)**
+- **[동기화 커서 위치](../cmd/diff/sync_caret)**
+- **[완료시 창 위치 복원](../cmd/diff/sync_restore_pos)**
+- **[저장 옵션](../cmd/diff/compare_save_options)**
+- **[이전 변경 내용](../cmd/diff/compare_prev)**
+- **[다음 변경 내용](../cmd/diff/compare_next)**
+- **[변경된 이전 라인](../cmd/diff/compare_prev_line)**
+- **[변경된 다음 라인](../cmd/diff/compare_next_line)**
+- **[탭 창 위치를 복원](../cmd/window/restore_combined_pos)**
+- **[분할 시 동기화 가로 스크롤](../cmd/window/sync_horz_scroll_split)**
+- **[분할 시 동기화 세로 스크롤](../cmd/window/sync_vert_scroll_split)**
+- **[다음 창 또는 사용자 지정 표시줄](../cmd/window/next_pane_or_bar)**
+- **[이전 창 또는 사용자 지정 표시줄](../cmd/window/prev_pane_or_bar)**
+- **[최근에 접근한 문서](../cmd/window/next_zorder_doc)**
+- **[최소로 접근된 문서](../cmd/window/prev_zorder_doc)**
+- **[오른쪽 문서](../cmd/window/right_doc)**
+- **[왼쪽 문서](../cmd/window/left_doc)**
+
+## 새로운 도구 모음 버튼
+
+|     |     |
+| --- | --- |
+| ![](../images/compare24x16.gif)[비교](../cmd/diff/compare_direct) | 옵션 지정 없이 최근에 열어 본 두 문서를 비교합니다 |
+| ![](../images/rescan24x16.gif)[다시 검사](../cmd/diff/compare_rescan) | 비교 된 문서들 다시검사 하고 결과값을 새로 고칩니다. |
+| ![](../images/sync24x16.gif)[동기화 스크롤](../cmd/diff/sync_scroll_direct) | 옵션 지정 없이 최근에 열어 본 두 문서의 동기화 스크롤 합니다. |
+| ![](../images/reset24x16.gif)[초기화](../cmd/diff/compare_reset) | 초기화를 비교하거나 동기화 스크롤링 모드에서 비교해서 결과값을 지웁니다. |
+| ![](../images/line_number24x16.gif)[줄 번호](../cmd/view/view_line_numbers) | 줄 번호를 보여주거나 숨깁니다. |
+| ![](../images/ruler24x16.gif)[눈금자](../cmd/view/view_ruler) | 줄 번호를 보여주거나 숨깁니다. |
+| ![](../images/auto_indent24x16.gif)[자동 들여쓰기](../cmd/view/toggle_auto_indent) | 자동 들여쓰기를 사용하거나 사용하지 않습니다. |
+| ![](../images/space_tab24x16.gif)[탭에 공백 삽입](../cmd/view/toggle_spaces_tab) | 탭에 공백 삽입합니다. |
+| ![](../images/wrap_indent24x16.gif)[줄 바꿔서 들여쓰기](../cmd/view/toggle_wrap_indent) | 줄 바꿔서 들여쓰기를 사용하거나 사용하지 않습니다. |
+| ![](../images/tab_column24x16.gif)[탭 열](../cmd/view/tab_column_popup) | 탭 열들을 선택하기 위해 팝 업 메뉴를 보여줍니다. |
+| ![](../images/indent_column24x16.gif)[들여쓰기 열](../cmd/view/indent_column_popup) | 탭 열들을 선택하기 위해 팝 업 메뉴를 보여줍니다. |
+| ![](../images/html2uni24x16.gif)[HTML/XML 문자 참조를 유니코드로](../cmd/edit/decode_html_char_ref) | HTML/XML 문자 참조로 부터 선택된 텍스트를 디코딩 합니다. |
+| ![](../images/uni2html24x16.gif)[유니코드를 HTML/XML 문자 참조로](../cmd/edit/encode_html_char_ref) | HTML/XML 문자 참조로 부터 선택된 텍스트를 인코딩 합니다. |
+| ![](../images/ucs2uni24x16.gif)[유니버설 문자이름을 유니코드로](../cmd/edit/decode_ucn) | 유니버설 문자이름으로부터 선택된 텍스트를 디코딩 합니다. |
+| ![](../images/uni2ucs24x16.gif)[유니코드를 유니버설 문자이름으로](../cmd/edit/encode_ucn) | 유니버설 문자이름으로부터 선택된 텍스트를 디코딩 합니다. |
+| ![](../images/spelling24x16.gif)[맞춤법 검사](../cmd/edit/spell_toggle) | 문서의 맞춤법 검사합니다. |
+
+## 매크로 새로운 기능
+
+- [**SpellProp** 개체](../macro/spell_prop/index)
+- [**Config** 개체](../macro/config/index) 에 [**Spell** 속성](../macro/config/spell) 이 추가되었습니다.
+- [**ScrollProp** 개체](../macro/scroll_prop/index) 에 [**HorizontalGrid** 속성](../macro/scroll_prop/horizontal_grid) 이
+추가되었습니다. **DottedLine** 속성은 사용되지 않습니다.
+- [**Find** 메서드](../macro/selection/selection_find) 는
+이제부터 eeFindCount flag가 지정된 경우, 일치된 문자열의 발생 빈도의 수를 반환합니다.
+
+## 플러그인 API의 새로운 기능
+
+- [EE\_GET\_WORD](../plugin/message/ee_get_word) 메시지.
+- [Editor\_GetWord](../plugin/macro/editor_getword) 인라인 함수
+- EI\_GET\_ACTIVE\_DOC, EI\_SET\_ACTIVE\_DOC, EI\_GET\_SYNC\_SESSION, 및 EI\_GET\_LOC\_DLL\_INSTANCE flags (EE\_INFO 메시지).
+- [**GET\_LINE\_INFO** 구조](../plugin/structure/get_line_info) 에 _byteCrLf_ 필드와 FLAG\_GET\_CRLF\_BYTE flag가 추가되었습니다.

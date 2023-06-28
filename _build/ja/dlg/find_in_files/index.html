@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>[ファイルから検索] ダイアログ ボックス &#8212; EmEditor  ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="検索" href="../../search.html" />
+    <link rel="next" title="[あいまい一致のオプション] ダイアログ ボックス" href="../fuzzy_options/index.html" />
+    <link rel="prev" title="[検索] ダイアログ ボックス" href="../find/index.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  ドキュメント</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/dlg/find_in_files/index">English</a>
+                <a href="/ja/dlg/find_in_files/index">日本語</a>
+                <a href="/ko/dlg/find_in_files/index">한국어</a>
+                <a href="/zh-cn/dlg/find_in_files/index">简体中文</a>
+                <a href="/zh-tw/dlg/find_in_files/index">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.html">コマンド リファレンス</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">ダイアログ ボックス</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../about/index.html">[EmEditor のバージョン情報] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced/index.html">[高度] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced_filter/index.html">[高度なフィルター] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced_open/index.html">[高度に開く] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../auto_fill/index.html">[オート フィル] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../batch_options/index.html">[連続オプション] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../character_code_value_dialog/index.html">[文字コード値] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../clear_history/index.html">[今すぐ (終了時) 履歴をクリア] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../combine_columns/index.html">[列を結合] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../combine_files/index.html">[ファイルを結合] ウィザード</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../combine_lines/index.html">[行を結合] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration_associations/index.html">[設定の関連付け] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configurations/index.html">[設定の定義] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../convert/index.html">[半角/全角変換] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.html">[カスタマイズ] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../customize_markers/index.html">[マーカーのカスタマイズ] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../customize_start/index.html">[スタート ウィンドウのカスタマイズ] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../delete_duplicate_advanced/index.html">[重複行の削除/ブックマーク] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../detect_result/index.html">[すべて自動検出の結果] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../encodings/index.html">[エンコードの定義] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extract_columns/index.html">[列を抽出] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extract_frequent/index.html">[頻出文字列を抽出] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extract_options/index.html">[抽出オプション] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_associate/index.html">[EmEditorと関連付け] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../filter_extract_options/index.html">[フィルター抽出オプション] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../find/index.html">[検索] ダイアログ ボックス</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">[ファイルから検索] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fuzzy_options/index.html">[あいまい一致のオプション] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../import_export/index.html">インポートとエクスポートのウィザード</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert_numbering/index.html">[番号の挿入] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert_special/index.html">[特殊文字の入力] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../join_csv/index.html">[CSV の結合] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../jump/index.html">[ジャンプ] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro_customize/index.html">[マクロのカスタマイズ] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro_temp_options/index.html">[マクロ一時オプション] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../manage_columns/index.html">[列の管理] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../menus/index.html">[メニューの変更] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../move_column/index.html">[列を移動/コピー] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../number_range/index.html">[数値範囲を入力] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../opening/index.html">[購入方法] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pivot_table/index.html">[ピボット テーブル] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugins/index.html">[プラグインの設定] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../properties/index.html">設定のプロパティ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regist/index.html">[製品登録] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../repeat_count/index.html">[繰り返し] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../replace/index.html">[置換] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../replace_in_files/index.html">[ファイルから置換] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../save_all_as/index.html">[すべてエンコードを指定して保存] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort_columns/index.html">[列の並べ替え] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort_multi/index.html">[高度な並べ替え] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort_sel/index.html">[選択範囲の並べ替え] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../split_column/index.html">[列を分割] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../split_to_files/index.html">[ファイルを分割] ウィザード</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../toolbars/index.html">[ツール バー] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/index.html">[外部ツール] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tray/index.html">[トレイ アイコンの設定] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../undo_history/index.html">[元に戻す/やり直しの履歴] ダイアログ ボックス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../unpivot/index.html">[ピボット解除] ダイアログ ボックス</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">よくある質問と回答集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">特長</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">履歴</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">使い方</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">リンク</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.html">マクロ リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">注意</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.html">プラグイン リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">購入方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">サポート</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">ダイアログ ボックス</a> &lt;
+            [ファイルから検索] ダイアログ ボックス
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>[ファイルから検索] ダイアログ ボックス<a class="headerlink" href="#id1" title="この見出しへのパーマリンク">¶</a></h1>
+<p>このダイアログ ボックスは、 <a class="reference internal" href="../../cmd/search/grep.html"><span class="doc std std-doc">[ファイルから検索] コマンド</span></a> を実行すると表示されます。ここで指定する文字列とオプションでファイルから検索します。</p>
+<section id="id2">
+<h2>[検索する文字列] ドロップダウン リスト ボックス<a class="headerlink" href="#id2" title="この見出しへのパーマリンク">¶</a></h2>
+<p>検索する文字列を指定します。複数行テキスト ボックスの場合、Ctrl + Enter キーを使用して改行コードを挿入することができます。ドロップダウン リストが表示されている間に、Alt + Delete キーを押すことにより、選択した履歴の項目をクリアすることができます。</p>
+</section>
+<section id="id3">
+<h2>[&gt;] ボタン<a class="headerlink" href="#id3" title="この見出しへのパーマリンク">¶</a></h2>
+<p>このボタンをクリックすると、利用可能なコマンドの一覧が表示されます。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>選択テキストまたはカーソル位置の単語</strong></p></td>
+<td><p>これがチェックされていると、テキストが選択されていれば選択テキストで、そうでなければカーソル位置の単語で [検索する文字列] <br> ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>選択テキスト</strong></p></td>
+<td><p>これがチェックされていると、選択されたテキストで [検索する文字列] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>カーソル位置の単語</strong></p></td>
+<td><p>これがチェックされていると、カーソル位置の単語で [検索する文字列] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>カスタム</strong></p></td>
+<td><p>これがチェックされていると、最後に使用した文字列で [検索する文字列] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>既定として保存</strong></p></td>
+<td><p>次回ダイアログ ボックスが表示されたときの既定値として、このオプションを保存します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>複数行</strong></p></td>
+<td><p>ドロップダウン リスト ボックスの単一行と複数行を切り替えます。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>エディタのフォントを使用</strong></p></td>
+<td><p>これがチェックされていると、[検索する文字列] ドロップダウン リスト ボックスにエディタと同じフォントを使用します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>連続の一覧から選択</strong></p></td>
+<td><p>連続の一覧で定義した文字列を選択します。</p></td>
+</tr>
+</tbody>
+</table>
+<p>コマンドには、利用できる正規表現、またはエスケープ シーケンスの一覧が含まれることがあります。その中から項目を選択すると、その内容が、隣のテキスト ボックスに挿入されます。</p>
+</section>
+<section id="id4">
+<h2>[ファイルの種類] ドロップダウン リスト ボックス<a class="headerlink" href="#id4" title="この見出しへのパーマリンク">¶</a></h2>
+<p>検索するファイルの種類を指定します。ワイルドカード（*と?）が使用できます。また、複数のファイルをセミコロン（;）で区切って指定することができます。</p>
+</section>
+<section id="id5">
+<h2>[&gt;] ボタン<a class="headerlink" href="#id5" title="この見出しへのパーマリンク">¶</a></h2>
+<p>このボタンをクリックすると、利用可能なコマンドの一覧が表示されます。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>現在のファイルの種類</strong></p></td>
+<td><p>これがチェックされていると、現在のファイルの種類で、[ファイルの種類] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>現在のファイル拡張子</strong></p></td>
+<td><p>これがチェックされていると、現在のファイル拡張子で、[ファイルの種類] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>現在のファイル</strong></p></td>
+<td><p>これがチェックされていると、現在のファイルで、[ファイルの種類] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>カスタム</strong></p></td>
+<td><p>これがチェックされていると、最後に使用した文字列で、[ファイルの種類] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>既定として保存</strong></p></td>
+<td><p>次回ダイアログ ボックスが表示されたときの既定値として、このオプションを保存します。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h2>[検索するフォルダ] ドロップダウン リスト ボックス<a class="headerlink" href="#id6" title="この見出しへのパーマリンク">¶</a></h2>
+<p>検索するフォルダを指定します。また、複数のフォルダを縦線 (|) で区切って指定することができます。</p>
+</section>
+<section id="id7">
+<h2>[&gt;] ボタン<a class="headerlink" href="#id7" title="この見出しへのパーマリンク">¶</a></h2>
+<p>このボタンをクリックすると、利用可能なコマンドの一覧が表示されます。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>現在のフォルダ</strong></p></td>
+<td><p>これがチェックされていると、現在のフォルダで、[検索するフォルダ] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>1階層上のフォルダ</strong></p></td>
+<td><p>これがチェックされていると、現在の1階層上のフォルダで、[検索するフォルダ] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>2階層上のフォルダ</strong></p></td>
+<td><p>これがチェックされていると、現在の2階層上のフォルダで、[検索するフォルダ] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>ルート フォルダ</strong></p></td>
+<td><p>これがチェックされていると、ルート フォルダで、[検索するフォルダ] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>カスタム</strong></p></td>
+<td><p>これがチェックされていると、最後に使用した文字列で、[検索するフォルダ] ドロップダウン リスト ボックスを初期化します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>参照</strong></p></td>
+<td><p>これを選択すると、参照ダイアログ ボックスを表示して、フォルダを選択することができます。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>参照して追加</strong></p></td>
+<td><p>これを選択すると、参照ダイアログ ボックスを表示して、フォルダを選択し、既存のフォルダに追加することができます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>既定として保存</strong></p></td>
+<td><p>次回ダイアログ ボックスが表示されたときの既定値として、このオプションを保存します。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id8">
+<h2>[大文字と小文字を区別する] チェック ボックス<a class="headerlink" href="#id8" title="この見出しへのパーマリンク">¶</a></h2>
+<p>検索する文字列の大文字と小文字を区別して検索します。</p>
+</section>
+<section id="id9">
+<h2>[サブフォルダも検索する] チェック ボックス<a class="headerlink" href="#id9" title="この見出しへのパーマリンク">¶</a></h2>
+<p><strong>［検索するフォルダ］</strong> ドロップダウン リスト ボックスで指定したフォルダのサブフォルダも検索します。</p>
+</section>
+<section id="id10">
+<h2>[単語のみ検索する] チェック ボックス<a class="headerlink" href="#id10" title="この見出しへのパーマリンク">¶</a></h2>
+<p>単語のみ検索します。単語のみというのは、置換前の文字列の前後が、A～Z、a～z、0～9、_
+のいずれの文字でも囲まれていない場合のことです。全角文字で囲まれている場合は常に単語とみなされます。正規表現の場合、このチェック ボックスを使用すると正しく検索できない場合があります。正規表現を使用する場合は、これをチェックせずに、単語の区切り表現 (\&lt;、\&gt;、\b) を使用してください。</p>
+</section>
+<section id="id11">
+<h2>[終了したら閉じる] チェック ボックス<a class="headerlink" href="#id11" title="この見出しへのパーマリンク">¶</a></h2>
+<p>検索を終了したらダイアログ ボックスを閉じます。</p>
+</section>
+<section id="id12">
+<h2>[(無し)] ラジオ ボタン<a class="headerlink" href="#id12" title="この見出しへのパーマリンク">¶</a></h2>
+<p>文字列が文字通り一致するべきであることを指定します。</p>
+</section>
+<section id="id13">
+<h2>[正規表現] ラジオ ボタン<a class="headerlink" href="#id13" title="この見出しへのパーマリンク">¶</a></h2>
+<p><a class="reference internal" href="../../howto/search/search_regexp.html"><span class="doc std std-doc">正規表現</span></a> を有効にします。</p>
+</section>
+<section id="id14">
+<h2>[エスケープ シーケンス] ラジオ ボタン<a class="headerlink" href="#id14" title="この見出しへのパーマリンク">¶</a></h2>
+<p>エスケープ シーケンスを有効にします。エスケープ シーケンスとして次の文字を表現できます。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>\a</strong></p></td>
+<td><p>警告 (ベル)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>\b</strong></p></td>
+<td><p>バックスペース</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>\f</strong></p></td>
+<td><p>改頁</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>\n</strong></p></td>
+<td><p>改行</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>\t</strong></p></td>
+<td><p>水平タブ</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>\v</strong></p></td>
+<td><p>垂直タブ</p></td>
+</tr>
+<tr class="row-even"><td><p>*<em>\*</em></p></td>
+<td><p>円記号 (バックスラッシュ)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>\oooooo</strong></p></td>
+<td><p>8 進数表記による Unicode 文字</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>\xhhhh</strong></p></td>
+<td><p>16 進数表記による Unicode 文字</p></td>
+</tr>
+</tbody>
+</table>
+<p>ヌル文字 (\0) は使えません。\r の代わりに \n を使用します。</p>
+</section>
+<section id="id15">
+<h2>[数値範囲] ラジオ ボタン<a class="headerlink" href="#id15" title="この見出しへのパーマリンク">¶</a></h2>
+<p><a class="reference internal" href="../../howto/search/number_range_syntax.html"><span class="doc std std-doc">数値範囲</span></a> を有効にします。</p>
+</section>
+<section id="id16">
+<h2>[エンコード] ドロップダウン リスト ボックス<a class="headerlink" href="#id16" title="この見出しへのパーマリンク">¶</a></h2>
+<p>エンコードを選択します。[設定されたエンコード]
+を選択すると、開くファイルの拡張子に関連付けられたプロパティで設定されているエンコードになります。</p>
+</section>
+<section id="id17">
+<h2>[すべて自動検出] チェック ボックス<a class="headerlink" href="#id17" title="この見出しへのパーマリンク">¶</a></h2>
+<p>利用できるすべてのエンコードから統計的にエンコードを検出します。特にファイルが非常に小さい場合は、誤認する場合があります。このオプションは、HTML/XML Charset
+検出を含みません。</p>
+</section>
+<section id="html-xmlcharset">
+<h2>[HTML/XMLのCharsetを検出] チェック ボックス<a class="headerlink" href="#html-xmlcharset" title="この見出しへのパーマリンク">¶</a></h2>
+<p>HTMLファイルから “charset=…” を、XMLファイルから “encoding=…”
+を、または Python、Ruby ファイルから “#coding=…” を見つけ、それに対応するエンコードを使用します。HTML,
+XML, Python, Ruby ファイルを開く場合は、このオプションだけをチェックし、他のオプションはチェックしないでください。</p>
+</section>
+<section id="utf-8">
+<h2>[UTF-8を自動検出] チェック ボックス<a class="headerlink" href="#utf-8" title="この見出しへのパーマリンク">¶</a></h2>
+<p>エンコードの選択にかかわらず、UTF-8を統計的に検出します。</p>
+</section>
+<section id="id18">
+<h2>[設定を保存] チェック ボックス<a class="headerlink" href="#id18" title="この見出しへのパーマリンク">¶</a></h2>
+<p>エンコードに関するオプション ([エンコード] ドロップダウン リスト ボックス、[すべて自動検出] チェック ボックス、[HTML/XMLのCharsetを検出] チェック ボックス、[UTF-8を自動検出] チェック ボックス) を既定として保存し、次回このダイアログ ボックスを開いた時にこれらのオプションを復元します。</p>
+</section>
+<section id="id19">
+<h2>[出力方法] ドロップダウン リスト ボックス<a class="headerlink" href="#id19" title="この見出しへのパーマリンク">¶</a></h2>
+<p>結果をどのように表示するかを選択します。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>文書</strong></p></td>
+<td><p>ファイルから検索の結果を一覧として新規文書に表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>アウトプット バー</strong></p></td>
+<td><p>ファイルから検索の結果を一覧としてアウトプット バーに表示します。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>直接開く</strong></p></td>
+<td><p>ファイルから検索の結果を一覧としては表示せずに、検索文字列を含むファイルを直接開きます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>直接開いてフィルター</strong></p></td>
+<td><p>ファイルから検索の結果を一覧としては表示せずに、検索文字列を含むファイルを直接開き、さらにフィルターに検索文字列を設定します。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id20">
+<h2>[出力オプション] ドロップダウン リスト ボックス<a class="headerlink" href="#id20" title="この見出しへのパーマリンク">¶</a></h2>
+<p>結果をどのように表示するかを選択します。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>ファイル名、行、一致した行を表示</strong></p></td>
+<td><p>ファイル名、行番号、検索した文字列を含む行の内容が結果として表示されます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>ファイル名のみ表示</strong></p></td>
+<td><p>見つかったファイルのファイル名だけを結果として表示し、検索した文字列を含む行の内容は表示しません。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>一致した行のみ表示</strong></p></td>
+<td><p>検索した文字列を含む行の内容だけが結果として表示されます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>一致した文字列のみ表示</strong></p></td>
+<td><p>一致した文字列のみが結果として表示されます。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>ファイル名、行、一致した文字列を表示</strong></p></td>
+<td><p>ファイル名、行番号、一致した文字列が結果として表示されます。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>ファイル名と一致した文字列を表示</strong></p></td>
+<td><p>ファイル名と一致した文字列が結果として表示されます。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id21">
+<h2>[次の最大の一致数に達したら終了] チェック ボックス/テキスト ボックス<a class="headerlink" href="#id21" title="この見出しへのパーマリンク">¶</a></h2>
+<p>このチェック ボックスが設定されていると、一致数が指定した値に達したら、EmEditor はファイルからの検索を終了します。</p>
+</section>
+<section id="id22">
+<h2>[検索] ボタン<a class="headerlink" href="#id22" title="この見出しへのパーマリンク">¶</a></h2>
+<p>指定した条件でファイルから検索を開始します。</p>
+</section>
+<section id="id23">
+<h2>[抽出] ボタン<a class="headerlink" href="#id23" title="この見出しへのパーマリンク">¶</a></h2>
+<p>文書を新規作成して、指定文字列に一致するすべての行を抽出します。右側の ▼ ボタンをクリックすると、コンテキスト メニューが表示され、 <a class="reference internal" href="../extract_options/index.html"><span class="doc std std-doc">[抽出オプション] ダイアログ ボックス</span></a> にアクセスすることができます。</p>
+</section>
+<section id="id24">
+<h2>[置換 &gt;&gt;] ボタン<a class="headerlink" href="#id24" title="この見出しへのパーマリンク">¶</a></h2>
+<p>このボタンをクリックすると、現在のオプションを保存してこのダイアログ ボックスを閉じ、 <a class="reference internal" href="../replace_in_files/index.html"><span class="doc std std-doc"><strong>[ファイルから置換]</strong> <br />
+ダイアログ ボックス</span></a> を表示します。</p>
+</section>
+<section id="id25">
+<h2>[閉じる] ボタン<a class="headerlink" href="#id25" title="この見出しへのパーマリンク">¶</a></h2>
+<p>このダイアログ ボックスを閉じます。</p>
+</section>
+<section id="id26">
+<h2>[高度] ボタン<a class="headerlink" href="#id26" title="この見出しへのパーマリンク">¶</a></h2>
+<p>これをクリックすると、 <a class="reference internal" href="../advanced/index.html"><span class="doc std std-doc"><strong>[高度]</strong> ダイアログ ボックス</span></a> を表示し、高度なオプションを指定できるようになります。</p>
+</section>
+<section id="id27">
+<h2>[連続へ追加] ボタン<a class="headerlink" href="#id27" title="この見出しへのパーマリンク">¶</a></h2>
+<p>現在の設定を連続一覧に追加します。</p>
+</section>
+<section id="id28">
+<h2>[連続 &gt;&gt;] ボタン<a class="headerlink" href="#id28" title="この見出しへのパーマリンク">¶</a></h2>
+<p>このボタンをクリックして、[ファイルから検索] ダイアログ ボックスと [ファイルから連続検索] ダイアログ
+ボックスを切り替えます。</p>
+<p>次のコントロールは、ダイアログ ボックスが [ファイルから連続検索] ダイアログ ボックスに拡張されたときのみ表示されます。</p>
+</section>
+<section id="id29">
+<h2>[連続へ保存] ボタン<a class="headerlink" href="#id29" title="この見出しへのパーマリンク">¶</a></h2>
+<p>現在の設定を連続一覧に保存します。</p>
+</section>
+<section id="id30">
+<h2>リスト ボックス<a class="headerlink" href="#id30" title="この見出しへのパーマリンク">¶</a></h2>
+<p>連続検索で使用する検索の一覧を表示します。条件の列には次の省略文字が使用されます。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>C</p></td>
+<td><p>大文字と小文字を区別する</p></td>
+</tr>
+<tr class="row-odd"><td><p>R</p></td>
+<td><p>正規表現を使用する</p></td>
+</tr>
+<tr class="row-even"><td><p>W</p></td>
+<td><p>単語のみ検索する</p></td>
+</tr>
+<tr class="row-odd"><td><p>E</p></td>
+<td><p>CSVの埋め込み改行コードのみを検索する</p></td>
+</tr>
+<tr class="row-even"><td><p>S</p></td>
+<td><p>CRとLFを区別する</p></td>
+</tr>
+<tr class="row-odd"><td><p>D</p></td>
+<td><p>正規表現「.」が改行コードに一致することができる</p></td>
+</tr>
+<tr class="row-even"><td><p>B</p></td>
+<td><p>Boost.Regexを正規表現エンジンとして使用する</p></td>
+</tr>
+<tr class="row-odd"><td><p>O</p></td>
+<td><p>Onigmoを正規表現エンジンとして使用する</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id31">
+<h2>[すべて有効/無効にする] チェック ボックス<a class="headerlink" href="#id31" title="この見出しへのパーマリンク">¶</a></h2>
+<p>一覧のすべての項目の有効と無効を切り替えます。</p>
+</section>
+<section id="id32">
+<h2>[インポート] ボタン<a class="headerlink" href="#id32" title="この見出しへのパーマリンク">¶</a></h2>
+<p>以前に TSV 形式でエクスポートされた検索条件を含むファイルをインポートします。</p>
+</section>
+<section id="id33">
+<h2>[エクスポート] ボタン<a class="headerlink" href="#id33" title="この見出しへのパーマリンク">¶</a></h2>
+<p>定義された検索条件をファイルにエクスポートします。TSV 形式以外に、JavaScript または VBScript のマクロ形式でエクスポートすることもできます。</p>
+</section>
+<section id="id34">
+<h2>[一括検索] ボタン<a class="headerlink" href="#id34" title="この見出しへのパーマリンク">¶</a></h2>
+<p>このボタンをクリックして、連続一覧から選択項目を同時に検索します。</p>
+</section>
+<section id="id35">
+<h2>[連続検索] ボタン<a class="headerlink" href="#id35" title="この見出しへのパーマリンク">¶</a></h2>
+<p>このボタンをクリックして、連続一覧から選択項目を検索します。右側の ▼ ボタンをクリックすると、コンテキスト メニューが表示され、 <a class="reference internal" href="../batch_options/index.html"><span class="doc std std-doc">[連続オプション] ダイアログ ボックス</span></a> にアクセスすることができます。</p>
+</section>
+<section id="id36">
+<h2>[&lt;&lt; 連続] ボタン<a class="headerlink" href="#id36" title="この見出しへのパーマリンク">¶</a></h2>
+<p>このボタンをクリックして、[ファイルから連続検索] ダイアログ ボックスと [ファイルから検索] ダイアログ
+ボックスを切り替えます。</p>
+<p>このダイアログ ボックスは右下をマウスでドラッグすると、サイズを変更することができます。複数行で入力できる状態のとき、Ctrl + Enter キーを使用して改行コードを挿入することができます。</p>
+<p>さらに、このダイアログ ボックスから、次のダイアログ ボックスに移動することもできます。</p>
+<p><img alt="" src="../../_images/b.gif" /><a class="reference internal" href="../advanced/index.html"><span class="doc std std-doc">[高度] ダイアログ ボックス</span></a> ([高度] ボタンを選択)</p>
+<p><img alt="" src="../../_images/b.gif" /><a class="reference internal" href="../extract_options/index.html"><span class="doc std std-doc">[抽出オプション] ダイアログ ボックス</span></a> ([抽出オプション] を選択)</p>
+<p><img alt="" src="../../_images/b.gif" /><a class="reference internal" href="../batch_options/index.html"><span class="doc std std-doc">[連続オプション] ダイアログ ボックス</span></a> ([連続オプション] を選択)</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">[ファイルから検索] ダイアログ ボックス</a><ul>
+<li><a class="reference internal" href="#id2">[検索する文字列] ドロップダウン リスト ボックス</a></li>
+<li><a class="reference internal" href="#id3">[&gt;] ボタン</a></li>
+<li><a class="reference internal" href="#id4">[ファイルの種類] ドロップダウン リスト ボックス</a></li>
+<li><a class="reference internal" href="#id5">[&gt;] ボタン</a></li>
+<li><a class="reference internal" href="#id6">[検索するフォルダ] ドロップダウン リスト ボックス</a></li>
+<li><a class="reference internal" href="#id7">[&gt;] ボタン</a></li>
+<li><a class="reference internal" href="#id8">[大文字と小文字を区別する] チェック ボックス</a></li>
+<li><a class="reference internal" href="#id9">[サブフォルダも検索する] チェック ボックス</a></li>
+<li><a class="reference internal" href="#id10">[単語のみ検索する] チェック ボックス</a></li>
+<li><a class="reference internal" href="#id11">[終了したら閉じる] チェック ボックス</a></li>
+<li><a class="reference internal" href="#id12">[(無し)] ラジオ ボタン</a></li>
+<li><a class="reference internal" href="#id13">[正規表現] ラジオ ボタン</a></li>
+<li><a class="reference internal" href="#id14">[エスケープ シーケンス] ラジオ ボタン</a></li>
+<li><a class="reference internal" href="#id15">[数値範囲] ラジオ ボタン</a></li>
+<li><a class="reference internal" href="#id16">[エンコード] ドロップダウン リスト ボックス</a></li>
+<li><a class="reference internal" href="#id17">[すべて自動検出] チェック ボックス</a></li>
+<li><a class="reference internal" href="#html-xmlcharset">[HTML/XMLのCharsetを検出] チェック ボックス</a></li>
+<li><a class="reference internal" href="#utf-8">[UTF-8を自動検出] チェック ボックス</a></li>
+<li><a class="reference internal" href="#id18">[設定を保存] チェック ボックス</a></li>
+<li><a class="reference internal" href="#id19">[出力方法] ドロップダウン リスト ボックス</a></li>
+<li><a class="reference internal" href="#id20">[出力オプション] ドロップダウン リスト ボックス</a></li>
+<li><a class="reference internal" href="#id21">[次の最大の一致数に達したら終了] チェック ボックス/テキスト ボックス</a></li>
+<li><a class="reference internal" href="#id22">[検索] ボタン</a></li>
+<li><a class="reference internal" href="#id23">[抽出] ボタン</a></li>
+<li><a class="reference internal" href="#id24">[置換 &gt;&gt;] ボタン</a></li>
+<li><a class="reference internal" href="#id25">[閉じる] ボタン</a></li>
+<li><a class="reference internal" href="#id26">[高度] ボタン</a></li>
+<li><a class="reference internal" href="#id27">[連続へ追加] ボタン</a></li>
+<li><a class="reference internal" href="#id28">[連続 &gt;&gt;] ボタン</a></li>
+<li><a class="reference internal" href="#id29">[連続へ保存] ボタン</a></li>
+<li><a class="reference internal" href="#id30">リスト ボックス</a></li>
+<li><a class="reference internal" href="#id31">[すべて有効/無効にする] チェック ボックス</a></li>
+<li><a class="reference internal" href="#id32">[インポート] ボタン</a></li>
+<li><a class="reference internal" href="#id33">[エクスポート] ボタン</a></li>
+<li><a class="reference internal" href="#id34">[一括検索] ボタン</a></li>
+<li><a class="reference internal" href="#id35">[連続検索] ボタン</a></li>
+<li><a class="reference internal" href="#id36">[&lt;&lt; 連続] ボタン</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

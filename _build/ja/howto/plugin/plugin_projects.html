@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>[プロジェクト] プラグインの使い方 &#8212; EmEditor  ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="検索" href="../../search.html" />
+    <link rel="next" title="プラグインのプロパティを変更するには" href="plugin_prop.html" />
+    <link rel="prev" title="[開いている文書] プラグインの使い方" href="plugin_opendocuments.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  ドキュメント</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/howto/plugin/plugin_projects">English</a>
+                <a href="/ja/howto/plugin/plugin_projects">日本語</a>
+                <a href="/ko/howto/plugin/plugin_projects">한국어</a>
+                <a href="/zh-cn/howto/plugin/plugin_projects">简体中文</a>
+                <a href="/zh-tw/howto/plugin/plugin_projects">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.html">コマンド リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.html">ダイアログ ボックス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">よくある質問と回答集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">特長</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">履歴</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">使い方</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.html">各種設定</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.html">編集</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.html">ファイル操作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro/index.html">マクロ</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">プラグイン</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="plugin_commit_list.html">[コミット リスト] プラグインの使い方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_develop.html">プラグインを開発するには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_explorer.html">[エクスプローラ] プラグインの使い方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_htmlbar.html">[HTML バー] プラグインの使い方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_install.html">プラグインをインストールするには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_opendocuments.html">[開いている文書] プラグインの使い方</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">[プロジェクト] プラグインの使い方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_prop.html">プラグインのプロパティを変更するには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_search.html">[検索] プラグインの使い方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_snippets.html">[スニペット] プラグインの使い方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_uninstall.html">プラグインをアンインストールするには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_webpreview.html">[Web プレビュー] プラグインの使い方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_wordcomplete.html">[単語補完] プラグインの使い方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_wordcount.html">[単語数] プラグインの使い方</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.html">検索</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.html">表示</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.html">ウィンドウ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">リンク</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.html">マクロ リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">注意</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.html">プラグイン リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">購入方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">サポート</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">使い方</a> &lt;
+                <a href="index.html">プラグイン</a> &lt;
+            [プロジェクト] プラグインの使い方
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>[プロジェクト] プラグインの使い方<a class="headerlink" href="#id1" title="この見出しへのパーマリンク">¶</a></h1>
+<p>EmEditor Professional では、既定でプロジェクト (Projects) プラグインがインストールされます。このプラグインはプロジェクト ツリーを表示し、ファイルを選択して開くことができます。プロジェクト プラグインを使用するには、次の手順に従います。</p>
+<ol class="arabic simple">
+<li><p>プラグイン バーの <strong><img alt="" src="../../_images/projects.gif" /></strong> をクリックするか、または [ツール] メニューの [プラグイン] をポイントし、[プロジェクト] を選択します。すると、[プロジェクト] カスタム バーが表示されます。</p></li>
+<li><p>[プロジェクト] カスタム バーで右クリックを行い、[プロジェクトの新規作成] を選択します。</p></li>
+<li><p>無題プロジェクトで右クリックを行い、[既存のファイルを追加] を選択します。</p></li>
+<li><p>プロジェクトに含めたいファイルをすべて選択します。</p></li>
+</ol>
+<section id="id2">
+<h2>プロジェクト プラグインのコマンド<a class="headerlink" href="#id2" title="この見出しへのパーマリンク">¶</a></h2>
+<p>プロジェクト カスタム バーで右クリックを行うと、次の項目を含むメニューが表示されます。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>展開/折りたたみ</p></td>
+<td><p>ノードを展開または折りたたみます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>すべて開く</p></td>
+<td><p>フォルダ内のすべてのファイルを開きます。</p></td>
+</tr>
+<tr class="row-even"><td><p>開く</p></td>
+<td><p>ファイルを開きます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>読み取り専用ファイルとして開く</p></td>
+<td><p>ファイルを読み取り専用として開きます。</p></td>
+</tr>
+<tr class="row-even"><td><p>エンコードを指定して開く</p></td>
+<td><p>ファイルをエンコードを指定して開く</p></td>
+</tr>
+<tr class="row-odd"><td><p>フォルダの新規作成</p></td>
+<td><p>フォルダを新規作成します。</p></td>
+</tr>
+<tr class="row-even"><td><p>切り取り</p></td>
+<td><p>選択されている項目を切り取ってクリップボードに保存します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>コピー</p></td>
+<td><p>選択されている項目をコピーしてクリップボードに保存します。</p></td>
+</tr>
+<tr class="row-even"><td><p>貼り付け</p></td>
+<td><p>クリップボードの内容を貼り付けます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>削除</p></td>
+<td><p>選択されている項目を削除します。</p></td>
+</tr>
+<tr class="row-even"><td><p>名前の変更</p></td>
+<td><p>選択されている項目の名前を変更します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>ソリューションを実行</p></td>
+<td><p>ソリューションを実行します。</p></td>
+</tr>
+<tr class="row-even"><td><p>ソリューションの新規作成</p></td>
+<td><p>ソリューションを新規作成します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>ソリューションを開く</p></td>
+<td><p>既存のソリューション ファイルを開きます。</p></td>
+</tr>
+<tr class="row-even"><td><p>ソリューションを名前を付けて保存</p></td>
+<td><p>ソリューション ファイルに名前を付けて保存します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>最近のソリューションの一覧</p></td>
+<td><p>指定した最近使ったソリューション ファイルを開きます (複数項目)。</p></td>
+</tr>
+<tr class="row-even"><td><p>プロジェクトの新規作成</p></td>
+<td><p>プロジェクトを新規作成します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>プロジェクトを開く</p></td>
+<td><p>既存のプロジェクト ファイルを開きます。</p></td>
+</tr>
+<tr class="row-even"><td><p>プロジェクトを名前を付けて保存</p></td>
+<td><p>プロジェクト ファイルに名前を付けて保存します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>既存のファイルを追加</p></td>
+<td><p>既存のファイルをプロジェクトに追加します。</p></td>
+</tr>
+<tr class="row-even"><td><p>アクティブなファイルを追加</p></td>
+<td><p>現在アクティブになっているファイルをプロジェクトに追加します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>すべての開いているファイルを追加</p></td>
+<td><p>すべての開いているファイルをプロジェクトに追加します。</p></td>
+</tr>
+<tr class="row-even"><td><p>最近のプロジェクトの一覧</p></td>
+<td><p>指定した最近使ったプロジェクト ファイルを開きます (複数項目)。</p></td>
+</tr>
+<tr class="row-odd"><td><p>スタートアップ プロジェクトに設定</p></td>
+<td><p>指定したプロジェクトをスタートアップ プロジェクトに設定します。</p></td>
+</tr>
+<tr class="row-even"><td><p>ファイル名のみ</p></td>
+<td><p>ファイル名のみを表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>相対パス</p></td>
+<td><p>相対パスを表示します。</p></td>
+</tr>
+<tr class="row-even"><td><p>完全パス</p></td>
+<td><p>完全パスを表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>シンボル一覧を最新の情報に更新</p></td>
+<td><p>現在のプロジェクトに対するシンボル一覧を最新の情報に更新します。</p></td>
+</tr>
+<tr class="row-even"><td><p>すべてのシンボル一覧を最新の情報に更新</p></td>
+<td><p>すべてのシンボル一覧を最新の情報に更新します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>シンボル一覧</p></td>
+<td><p>シンボル一覧の表示/非表示を切り替えます。</p></td>
+</tr>
+<tr class="row-even"><td><p>設定</p></td>
+<td><p>利用可能な設定の一覧を表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>プラットフォーム</p></td>
+<td><p>利用可のなプラットフォームの一覧を表示します。</p></td>
+</tr>
+<tr class="row-even"><td><p>現在のソリューション テンプレートのプロパティ</p></td>
+<td><p>現在のソリューション テンプレートのプロパティを表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>ソリューション テンプレート</p></td>
+<td><p>ソリューション テンプレートを定義します。</p></td>
+</tr>
+<tr class="row-even"><td><p>プラグインのプロパティ</p></td>
+<td><p>プラグインのプロパティを表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>ツールの一覧</p></td>
+<td><p>指定したツールを実行します。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id3">
+<h2>ツール バー<a class="headerlink" href="#id3" title="この見出しへのパーマリンク">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong><img alt="" src="../../_images/newsolution.gif" /></strong> ソリューションの新規作成</p></td>
+<td><p>ソリューションを新規作成します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="" src="../../_images/opensolution.gif" /></strong> ソリューションを開く</p></td>
+<td><p>既に存在するソリューション ファイルを開きます。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><img alt="" src="../../_images/runsolution.gif" /></strong> ソリューションを実行</p></td>
+<td><p>オープンされたソリューションを実行します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="" src="../../_images/parameterinformation.gif" /></strong> パラメータ情報</p></td>
+<td><p>パラメータ情報を表示します。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><img alt="" src="../../_images/gotodefinition.gif" /></strong> 定義へ移動</p></td>
+<td><p>定義位置にジャンプします。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="" src="../../_images/popbrowsecontent.gif" /></strong> ブラウズ コンテキストのポップ</p></td>
+<td><p>カーソルを元の位置に戻します。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><img alt="" src="../../_images/symbollist.gif" /></strong> シンボル一覧</p></td>
+<td><p>シンボルの一覧を表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="" src="../../_images/propertiesforcurrentsolutiontemplate.gif" /></strong> 現在のソリューション テンプレートのプロパティ</p></td>
+<td><p>現在のソリューション テンプレートのプロパティを表示します。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><img alt="" src="../../_images/solutiontemplates.gif" /></strong> ソリューション テンプレート</p></td>
+<td><p>ソリューション テンプレートの設定ダイアログ ボックスを表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="" src="../../_images/pluginproperties.gif" /></strong> プラグインのプロパティ</p></td>
+<td><p>プラグインのプロパティを表示します。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id4">
+<h2>ソリューション テンプレート<a class="headerlink" href="#id4" title="この見出しへのパーマリンク">¶</a></h2>
+<p>プロジェクト プラグインで作成する、開く、または保存するすべてのソリューションは、どれからのソリューション テンプレートに属します。ソリューション テンプレートでは、ファイル拡張子のほか、フォーマット、マクロ、ツール、キーボード ショートカットなどの設定を指定することができます。ソリューション ファイルを開くと、ファイル拡張子に関連付けられたソリューション テンプレートが選択され、テンプレートで定義されたように動作します。</p>
+</section>
+<section id="id5">
+<h2>[ソリューション テンプレート] ダイアログ ボックス<a class="headerlink" href="#id5" title="この見出しへのパーマリンク">¶</a></h2>
+<p>このダイアログ ボックスは、<img alt="" src="../../_images/solutiontemplates.gif" /> ボタンをクリックすると表示されます。一覧には、利用可能なソリューション テンプレートが表示されます。[プロパティ] ボタンをクリックすると、選択されたソリューション テンプレートのプロパティを表示します。</p>
+</section>
+<section id="id6">
+<h2>ソリューション テンプレートのプロパティ<a class="headerlink" href="#id6" title="この見出しへのパーマリンク">¶</a></h2>
+<p>[一般] タブ</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ソリューション フォーマット</p></td>
+<td><p>ソリューションのフォーマットを選択します。現在、EmEditor と Visual Studio のみが選択可能です。</p></td>
+</tr>
+<tr class="row-odd"><td><p>ファイル拡張子</p></td>
+<td><p>ソリューションのファイル拡張子を指定します。ソリューションを開く時、ここで指定するファイル拡張子に関連付けられたソリューション テンプレートが自動的に選択されます。</p></td>
+</tr>
+<tr class="row-even"><td><p>書き換え禁止</p></td>
+<td><p>書き換え禁止かどうかを指定します。書き換え禁止を指定すると、プロジェクトにファイルを追加することができなくなり、ソリューションを保存の際、プロジェクト ファイルを上書きすることはありません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>含めるファイル</p></td>
+<td><p>プロジェクト ツリーにファイルをドラッグ&amp;ドロップする際に含めるファイルの種類を指定します。たとえば、.c と .cpp <br> の両方のファイルを含めたい場合には「*.c;*.cpp」と指定します。</p></td>
+</tr>
+<tr class="row-even"><td><p>除外するファイル</p></td>
+<td><p>プロジェクト ツリーにファイルをドラッグ&amp;ドロップする際に除外するファイルの種類を指定します。たとえば、.com と .exe <br> の両方のファイルを除外したい場合には「*.com;*.exe」と指定します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>除外するフォルダ</p></td>
+<td><p>プロジェクト ツリーにフォルダをドラッグ&amp;ドロップする際に除外するフォルダを指定します。たとえば、folder1 と <br> folder2 の両方のフォルダを除外したい場合には「folder1;folder2」と指定します。</p></td>
+</tr>
+</tbody>
+</table>
+<p>[設定] タブ</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>設定</p></td>
+<td><p>定義されている設定を選択します。[新規作成] を選択すると、新しい設定を定義することができます。[編集] を選択すると、設定を削除することができます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>プラットフォーム</p></td>
+<td><p>定義されているプラットフォームを選択します。[新規作成] を選択すると、新しいプラットフォームを定義することができます。[編集] を選択すると、プラットフォームを削除することができます。</p></td>
+</tr>
+<tr class="row-even"><td><p>マクロ</p></td>
+<td><p>定義されているマクロの一覧が表示されます。選択されている設定とプラットフォームに対するマクロの値を指定することができます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>新規作成</p></td>
+<td><p>このボタンをクリックすると、新しいマクロを作成します。</p></td>
+</tr>
+<tr class="row-even"><td><p>削除</p></td>
+<td><p>このボタンをクリックすると、選択されているマクロを削除します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>名前の変更</p></td>
+<td><p>このボタンをクリックすると、選択されているマクロの名前を変更します。</p></td>
+</tr>
+</tbody>
+</table>
+<p>[シンボル] タブ</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>すべてのシンボル一覧を自動更新する</p></td>
+<td><p>ファイルが追加されたときなどに、すべてのシンボル一覧を自動的に更新するかどうかを指定します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ctags への追加パラメータ (高度な設定)</p></td>
+<td><p>Ctags への追加パラメータを指定します。これは高度な設定であり、間違ったパラメータを指定すると、正しく動作しなくなる可能性があります。</p></td>
+</tr>
+</tbody>
+</table>
+<p>[ツール] タブ</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ツール</p></td>
+<td><p>定義されているツールの一覧が表示されます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>新規作成</p></td>
+<td><p>新しいツールを作成します。</p></td>
+</tr>
+<tr class="row-even"><td><p>削除</p></td>
+<td><p>選択されたツールを削除します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>コピー</p></td>
+<td><p>選択されたツールをコピーします。</p></td>
+</tr>
+<tr class="row-even"><td><p>上へ移動</p></td>
+<td><p>選択されたツールを上へ移動します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>下へ移動</p></td>
+<td><p>選択されたツールを下へ移動します。</p></td>
+</tr>
+<tr class="row-even"><td><p>プロパティ</p></td>
+<td><p>選択されたツールのプロパティを表示します。</p></td>
+</tr>
+</tbody>
+</table>
+<p>[キーボード] タブ</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>コマンド</p></td>
+<td><p>ここに利用できるコマンドの一覧が表示されています。</p></td>
+</tr>
+<tr class="row-odd"><td><p>追加するショートカット キー</p></td>
+<td><p>ここに追加するショートカット キーを入力してください。</p></td>
+</tr>
+<tr class="row-even"><td><p>現在のキー</p></td>
+<td><p>選択されているコマンドに対して現在割り当てられているショートカット キーの一覧が表示されています。</p></td>
+</tr>
+<tr class="row-odd"><td><p>割り当て</p></td>
+<td><p>入力したショートカット キーを選択されているコマンドに割り当てます。</p></td>
+</tr>
+<tr class="row-even"><td><p>削除</p></td>
+<td><p>選択されているショートカット キーを削除します。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id7">
+<h2>ソリューション用の設定とマクロの作り方<a class="headerlink" href="#id7" title="この見出しへのパーマリンク">¶</a></h2>
+<p>ソリューション テンプレートのプロパティの [設定] タブでは、設定を作成してマクロを定義することができます。新しい設定を作成するには、以下の手順に従います。</p>
+<ol class="arabic simple">
+<li><p>[設定] ドロップダウン リストをクリックして、[&lt;新規作成&gt;] を選択します。</p></li>
+<li><p>設定名を指定します。たとえば、Debug という名前の設定を作成します。</p></li>
+<li><p>[新規作成] ボタンをクリックすると、各設定に対してマクロを作成することができます。たとえば、OPTIONS というマクロを作成して、その値に /D _Debug と指定します。</p></li>
+<li><p>ここで、1. ～ 2. の手順を繰り返して、今度は Release という名前の設定を作成します。</p></li>
+<li><p>Release が選択された状態で、OPTIONS マクロを選択して、その右の値をクリックして、/O1 という値に変更します。</p></li>
+<li><p>以上で、設定を定義し、各設定に対するマクロを作成しました。</p></li>
+</ol>
+</section>
+<section id="id8">
+<h2>ソリューション用ツールの作り方<a class="headerlink" href="#id8" title="この見出しへのパーマリンク">¶</a></h2>
+<p>ソリューション テンプレートのプロパティの [ツール] タブでは、新しいツールを作成することができます。ツール プロパティでは、タイトル、コマンド、引数、初期ディレクトリ、アイコン パス、現在のアイコンなどを指定することができます。ツール プロパティでは、あらかじめ定義されているマクロ、たとえばファイル パスや現在の行を指定したり、自分で定義したマクロを指定することができます。新しいツールを作成するには、次の手順に従います。</p>
+<ol class="arabic simple">
+<li><p>ソリューション テンプレートのプロパティの [ツール] タブで、[新規作成] ボタンをクリックします。</p></li>
+<li><p>ツールのタイトルに、好きな名前、たとえば、「コンパイル」と入力します。</p></li>
+<li><p>コマンドにツールのパス、たとえば、C:\Program Files\Microsoft Visual Studio 9.0\VC\bin\cl.exe と入力します。</p></li>
+<li><p>引数にツールの引数、たとえば、<span class="math notranslate nohighlight">\((OPTIONS) \)</span>(Path) を入力します。</p></li>
+<li><p>初期ディレクトリ、たとえば、$(Dir) を入力します。</p></li>
+<li><p>アイコン パスと現在のアイコンを指定します。</p></li>
+<li><p>[ファイルを保存する] チェック ボックスをチェックして、ツール実行時にファイルを保存するように指定します。</p></li>
+<li><p>[アウトプット バーを使用する] チェック ボックスをチェックして、ツールの結果をアウトプット バーに表示するように指定します。</p></li>
+<li><p>すべて指定したら、OK をクリックします。</p></li>
+</ol>
+</section>
+<section id="id9">
+<h2>あらかじめ定義された引数<a class="headerlink" href="#id9" title="この見出しへのパーマリンク">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>$(Path)</strong></p></td>
+<td><p>アクティブな文書の完全パスと名前</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(Dir)</strong></p></td>
+<td><p>アクティブな文書のディレクトリ</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(Filename)</strong></p></td>
+<td><p>アクティブな文書のファイル拡張子を除くファイル名</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(Ext)</strong></p></td>
+<td><p>アクティブな文書のファイル拡張子</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(RelPath)</strong></p></td>
+<td><p>アクティブな文書の相対パスと名前</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(CurLine)</strong></p></td>
+<td><p>現在行の行番号</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(CurText)</strong></p></td>
+<td><p>現在のカーソル位置の単語</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(Solution)</strong></p></td>
+<td><p>ソリューション ファイルの完全パスと名前</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(Project)</strong></p></td>
+<td><p>プロジェクト ファイルの完全パスと名前</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(SolutionDir)</strong></p></td>
+<td><p>ソリューションのディレクトリ</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(ConfigurationName)</strong></p></td>
+<td><p>アクティブな設定名</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(PlatformName)</strong></p></td>
+<td><p>アクティブなプラットフォーム名</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(FrameworkSDKDir)</strong></p></td>
+<td><p>Framework SDK ディレクトリ (最後のバックスラッシュを含む)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(VCInstallDir)</strong></p></td>
+<td><p>Visual <br> C++ インストール ディレクトリ (最後のバックスラッシュを含む)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(VSInstallDir)</strong></p></td>
+<td><p>Visual Studio インストール ディレクトリ (最後のバックスラッシュを含む)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(WindowsSdkDir)</strong></p></td>
+<td><p>Windows <br> SDK インストール ディレクトリ (最後のバックスラッシュを含まない)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(LatestFrameworkDir)</strong></p></td>
+<td><p>Framework ディレクトリ</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(SourceSafe)</strong></p></td>
+<td><p>Visual SourceSafe 実行ファイル (ss.exe) の完全パスと名前</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(SccProjectName)</strong></p></td>
+<td><p>SourceSafe のプロジェクト名</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id10">
+<h2>副引数<a class="headerlink" href="#id10" title="この見出しへのパーマリンク">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>f</strong></p></td>
+<td><p>ファイル拡張子を除くファイル名</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>d</strong></p></td>
+<td><p>ディレクトリ</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>x</strong></p></td>
+<td><p>ファイル拡張子名</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id11">
+<h2>例<a class="headerlink" href="#id11" title="この見出しへのパーマリンク">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>$(Project,d)</strong></p></td>
+<td><p>プロジェクト ファイルのディレクトリを返します</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(Solution,f)</strong></p></td>
+<td><p>ソリューション ファイルのファイル名 (ファイル拡張子無し) を返します</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><span class="math notranslate nohighlight">\((Solution,f).\)</span>(Solution,x)</strong></p></td>
+<td><p>ソリューション ファイルのファイル名 (ファイル拡張子付き) を返します</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id12">
+<h2>ヒント<a class="headerlink" href="#id12" title="この見出しへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><p>F6 キーまたは ESC キーを押すと、エディタにキーボード フォーカスが戻ります。</p></li>
+<li><p>無題プロジェクトで右クリックを行い、[プロジェクトを名前を付けて保存] を選択することにより、無題プロジェクトを保存することができます。</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">[プロジェクト] プラグインの使い方</a><ul>
+<li><a class="reference internal" href="#id2">プロジェクト プラグインのコマンド</a></li>
+<li><a class="reference internal" href="#id3">ツール バー</a></li>
+<li><a class="reference internal" href="#id4">ソリューション テンプレート</a></li>
+<li><a class="reference internal" href="#id5">[ソリューション テンプレート] ダイアログ ボックス</a></li>
+<li><a class="reference internal" href="#id6">ソリューション テンプレートのプロパティ</a></li>
+<li><a class="reference internal" href="#id7">ソリューション用の設定とマクロの作り方</a></li>
+<li><a class="reference internal" href="#id8">ソリューション用ツールの作り方</a></li>
+<li><a class="reference internal" href="#id9">あらかじめ定義された引数</a></li>
+<li><a class="reference internal" href="#id10">副引数</a></li>
+<li><a class="reference internal" href="#id11">例</a></li>
+<li><a class="reference internal" href="#id12">ヒント</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

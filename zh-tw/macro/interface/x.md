@@ -1,0 +1,15 @@
+# x 屬性
+
+返回被一個支持的外掛程式所傳遞的游標的水平位置。
+
+#### \[JavaScript\]
+
+_x_ = Interface. **x**;
+
+#### \[VBScript\]
+
+_x_ = Interface. **x**
+
+## 版本
+
+支持 EmEditor 9.00 或之後的版本。

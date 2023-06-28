@@ -1,0 +1,62 @@
+# Version 17.8
+
+2018年6月13日
+
+## 一般新增功能
+
+- 添加了仅打开与指定的 **打开并筛选** 匹配的行的功能。这让你可以从一个非常大的文件中只打开包含特定字符串（如 ID 或名称）的行，来最小化内存使用空间。该功能还能让你编辑或排序指定的行，并将这些行保存到新文件。
+- [**字符码值对话框**](../dlg/character_code_value_dialog/index) 有新的布局，Unicode 码位现在位于字符下方，然后是编码信息。此外，还添加了 UTF-8 字符编码信息。
+- 如果选区太大或加载大文件时，显示在状态栏中的行数，字符数，单词数和换行符将显示“（点击）”。点击此文本会更新显示的值。
+- EmEditor 现在可以定期保存工作区，并在，例如，由于停电导致操作系统崩溃或发生硬件故障时，恢复工作区。与以前的版本一样，EmEditor 会在崩溃时保存工作区。
+- 恢复工作区时，会出现一个带进度条的对话框。如果在恢复工作区时发生意外事件，会在输出栏中出现警告消息。
+- 当要关闭一个已修改的文档时，出现的 **要保存更改吗？** 对话框中添加了 **保存工作区** 按钮添加。点击此按钮将所有修改后的文档保存为带撤消信息的工作区，下次打开 EmEditor 时，所有修改过的文档将被恢复并且所有撤消信息会被保留。
+
+## 新增选项
+
+- 添加了 **筛选** 下拉列表框， **>** 和 **X** 按钮， **使用临时文件**， **匹配大小写**， **使用正则表达式**， **使用转义符** 复选框， **默认** 文本框到 **大文件控制器** 自定义分栏中。
+- 添加了 **当打开并筛选是默认时提示** 复选框到 **自定义** 对话框的 [**文件** 页面](../dlg/customize/file/index) 上。
+- 添加了 **排除文件夹** 列表框， **添加** 和 **删除** 按钮到 **自定义** 对话框的 [**历史记录** 页面](../dlg/customize/history/index) 上。
+- 把 **排除 Internet 缓存文件夹** 复选框从 **自定义** 对话框的 [**文件** 页面](../dlg/customize/file/index) 上移动到了 [**历史记录** 页面](../dlg/customize/history/index) 上。
+- 把 **监控外部应用程序中的剪贴板复制内容** 和 **添加额外的信息到撤消/重做历史记录中** 复选框从 **自定义** 对话框的 [**历史记录** 页面](../dlg/customize/history/index) 上移动到了 [**编辑** 页面](../dlg/customize/edit/index) 上。
+- 添加了 **打开并筛选的筛选颜色** 到配置属性对话框中 [**显示** 页面](../dlg/properties/display/index) 上的 **指定部分** 列表框中。
+- 添加了 [**工作区** 页](../dlg/customize/workspace/index) 到 **自定义** 对话框中。
+- 把 **自动工作区** 下拉列表框以及 **退出前不再询问** 复选框从 **自定义** 对话框中的 [**窗口** 页](../dlg/customize/window/index) 移动到 [**工作区** 页](../dlg/customize/workspace/index) 上。
+- 添加了 **保存总是置顶状态** 选项到 **自定义** 对话框的 [**窗口** 页面](../dlg/customize/window/index) 中。
+- 添加了 **高亮活动标签** 复选框以及 **颜色** 按钮到自定义对话框中的 [**标签** 页面](../dlg/customize/tab/index) 上。
+
+## 新增命令
+
+- [使用 DirectWrite](../cmd/view/use_directwrite)
+- [自定义工作区](../cmd/tools/customize_workspace)
+
+## 插件新增功能
+
+- 添加了 **从不，并在完成时保留原文** 选项到 [**单词自动完成** 属性](../howto/plugin/plugin_wordcomplete) **匹配条件** 页面上的 **区分大小写** 下拉列表框中。
+
+## 插件 API 新增功能
+
+- 添加了 **EI\_GET\_MEMORY\_SIZE** 和 **EI\_SET\_MEMORY\_SIZE** 命令到 [**EE\_INFO** 消息](../plugin/message/ee_info) 中。
+- 添加了 **LFI\_USE\_TEMP\_FILE** 和 **LFI\_DONT\_USE\_TEMP\_FILE** 到 [**LOAD\_FILE\_INFO\_EX** 结构](../plugin/structure/load_file_info) 中。
+
+## 新增宏功能
+
+- 添加了 [**MemorySize** 属性](../macro/document/memory_size) 到 **Document** 对象中。
+- 添加了 **eeUseTempFile** 和 **eeDontUseTempFile** 标志到 [**OpenFile** 方法](../macro/editor/editor_openfile) 中。
+
+## 修复 Bug
+
+- 修复了在某个特定条件下合并 CSV 命令可能导致 EmEditor 无响应的问题。
+- 修复了在 EmEditor 启动时删除标准插件 DLL 文件可能导致 EmEditor 显示警告消息框的问题。
+- 修复了用户报告的问题 ( [1](https://www.emeditor.com/forums/topic/selecting-moving-theme-incremental-searchlist/)，
+[2](https://www.emeditor.com/forums/topic/filter/)，
+[3](https://www.emeditor.com/forums/topic/using-increase-line-indent-command-when-theres-no-selection-causes-crash/)，
+[4](https://www.emeditor.com/forums/topic/spelling-wordcomplete/)，
+[5](https://www.emeditor.com/forums/topic/text-rendering/)，
+[6](https://www.emeditor.com/forums/topic/active-string-2/)，
+[7](https://www.emeditor.com/forums/topic/indent/)，
+[8](https://www.emeditor.com/forums/topic/outline/)，
+[9](https://www.emeditor.com/forums/topic/snippet/)，
+[10](https://jp.emeditor.com/forums/topic/%e3%83%aa%e3%83%b3%e3%82%af%e3%81%ae%e4%b8%8b%e7%b7%9a%e3%81%ae%e8%89%b2%e3%82%92%e9%bb%92%e3%81%8b%e3%82%89%e5%a4%89%e3%81%88%e3%81%9f%e3%81%84/)，
+[11](https://jp.emeditor.com/forums/topic/csv%e3%81%ae%e3%82%bb%e3%83%ab%e3%83%84%e3%83%bc%e3%83%ab%e3%83%90%e3%83%bc%e3%81%a7%e3%80%81ctrlz%ef%bc%88%e5%85%83%e3%81%ab%e6%88%bb%e3%82%8b%ef%bc%89%e3%82%92%e3%81%99%e3%82%8b%e3%81%a8%e3%80%81/)，
+[12](https://jp.emeditor.com/forums/topic/combinehistory%e3%81%a7%e3%80%81ctrlz%e3%81%a7%e4%b8%80%e5%ba%a6%e3%81%ab%e5%86%85%e5%ae%b9%e3%81%8c%e6%88%bb%e3%82%89%e3%81%aa%e3%81%84/)，
+[13](https://jp.emeditor.com/forums/topic/%e3%82%b3%e3%83%a1%e3%83%b3%e3%83%88%e3%82%92%e3%81%99%e3%81%90%e3%81%ab%e5%9b%b2%e3%81%88%e3%82%8b%e3%82%88%e3%81%86%e3%81%aa%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89%e3%81%af%e3%81%82%e3%82%8a%e3%81%be/)， [14](https://www.emeditor.com/forums/topic/keep-the-position-while-split/)， [15](https://www.emeditor.com/forums/topic/filter/)， [16](https://www.emeditor.com/forums/topic/wordcomplete-issues/)， [17](https://www.emeditor.com/forums/topic/focus-issues-in-x-mouse-mode/)， [18](https://www.emeditor.com/forums/topic/close-all-without-save/)， [19](https://www.emeditor.com/forums/topic/large-file-controller-scroll-problem/))。

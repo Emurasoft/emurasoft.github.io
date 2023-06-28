@@ -1,0 +1,32 @@
+# Version 14.7
+
+2014年 12月 22日
+
+## 一般の新機能
+
+- フィルター ツール バーに否定ボタンが追加され、文字列に一致する行を除外して表示できるようになりました。
+- \[CSV/並べ替え\] ツール バーに、\[短い文字列から長い文字列へ並べ替え\] ボタンと \[長い文字列から短い文字列へ並べ替え\] ボタンが追加され、列の長さによって文書を並べ替えられるようになりました。
+- CSV 文書で列を指定してフィルターをかけられるようになりました。また、複数のフィルター文字列を指定できるようになりました (高度なフィルター)。
+
+## 新しい設定
+
+- \[カスタマイズ\] ダイアログ ボックスの \[並べ替え\] タブに、\[数字を数として扱う\]、\[長さで並べ替える時、全角文字を2文字として扱う\] チェック ボックスが追加されました。
+- [\[高度なフィルター\] ダイアログ ボックス](../dlg/advanced_filter/index) が追加されました。
+
+## 新コマンド
+
+- [否定 (フィルター ツール バー)](../cmd/search/filterbar_negative)
+- [短い文字列から長い文字列へ並べ替え](../cmd/edit/sort_length_a)
+- [長い文字列から短い文字列へ並べ替え](../cmd/edit/sort_length_d)
+- [高度なフィルター (フィルター ツール バー)](../cmd/search/filterbar_advanced)
+
+## マクロの新機能
+
+- Document オブジェクトに、 [Filter](../macro/document/filter) メソッド、 [GetCell](../macro/document/getcell) メソッド、 [GetColumns](../macro/document/getcolumns) メソッドが追加されました。
+
+## 新しいプラグイン API
+
+- [EE\_GET\_CELL](../plugin/message/ee_get_cell) メッセージと [Editor\_GetCell](../plugin/macro/editor_getcell) インライン関数
+- [EE\_FILTER](../plugin/message/ee_filter) メッセージと
+[Editor\_Filter インライン関数](../plugin/macro/editor_filter)
+- [GET\_CELL\_INFO](../plugin/structure/get_cell_info) 構造体と [FILTER\_INFO 構造体](../plugin/structure/filter_info)

@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Editor_LineFromChar &#8212; EmEditor  說明文件</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../search.html" />
+    <link rel="next" title="Editor_LineIndex" href="editor_lineindex.html" />
+    <link rel="prev" title="Editor_KeyboardProp" href="editor_keyboardprop.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  說明文件</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/plugin/macro/editor_linefromchar">English</a>
+                <a href="/ja/plugin/macro/editor_linefromchar">日本語</a>
+                <a href="/ko/plugin/macro/editor_linefromchar">한국어</a>
+                <a href="/zh-cn/plugin/macro/editor_linefromchar">简体中文</a>
+                <a href="/zh-tw/plugin/macro/editor_linefromchar">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">快速搜尋</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="前往" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.html">命令參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.html">對話方塊</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">常見問題解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">詞彙</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">歷史記錄</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">如何…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">連結</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.html">巨集參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">注意事項</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">外掛程式參考</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../cmdid/index.html">命令 ID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../event/index.html">事件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exports/index.html">導出函數</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">內嵌函式</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="editor_activatetemp.html">Editor_ActivateTemp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_addref.html">Editor_AddRef</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_autofill.html">Editor_AutoFill</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_batchfindinfiles.html">Editor_BatchFindInFiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_batchfindreplace.html">Editor_BatchFindReplace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_batchreplaceinfiles.html">Editor_BatchReplaceInFiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_closetemp.html">Editor_CloseTemp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_compare.html">Editor_Compare</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_convert.html">Editor_Convert</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_convertcsv.html">Editor_ConvertCsv</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_custombarclose.html">Editor_CustomBarClose</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_custombaropen.html">Editor_CustomBarOpen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_devtoview.html">Editor_DevToView</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_docgetconfiga.html">Editor_DocGetConfigA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_docgetconfigw.html">Editor_DocGetConfigW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_docgetlines.html">Editor_DocGetLines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_docgetmodified.html">Editor_DocGetModified</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_docinfo.html">Editor_DocInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_docinfoex.html">Editor_DocInfoEx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_docsavefilea.html">Editor_DocSaveFileA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_docsavefilew.html">Editor_DocSaveFileW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_docsetconfiga.html">Editor_DocSetConfigA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_docsetconfigw.html">Editor_DocSetConfigW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_doidle.html">Editor_DoIdle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_editcolumn.html">Editor_EditColumn</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_edittemp.html">Editor_EditTemp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_emptyundobuffer.html">Editor_EmptyUndoBuffer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_enumconfig.html">Editor_EnumConfig</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_enumhighlight.html">Editor_EnumHighlight</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_execcommand.html">Editor_ExecCommand</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_execplugin.html">Editor_ExecPlugin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_extractfrequent.html">Editor_ExtractFrequent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_filter.html">Editor_Filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_finda.html">Editor_FindA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_findinfiles.html">Editor_FindInFiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_findinfilesa.html">Editor_FindInFilesA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_findinfilesw.html">Editor_FindInFilesW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_findregex.html">Editor_FindRegex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_findreplace.html">Editor_FindReplace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_findw.html">Editor_FindW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_free.html">Editor_Free</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getaccelarray.html">Editor_GetAccelArray</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getactivestring.html">Editor_GetActiveString</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getanchorpos.html">Editor_GetAnchorPos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getattr.html">Editor_GetAttr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getcaretpos.html">Editor_GetCaretPos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getcell.html">Editor_GetCell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getclip.html">Editor_GetClip</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getclippos.html">Editor_GetClipPos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getcmdid.html">Editor_GetCmdID</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getcolor.html">Editor_GetColor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getcolumn.html">Editor_GetColumn</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getconfiga.html">Editor_GetConfigA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getconfigw.html">Editor_GetConfigW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getdroppedfile.html">Editor_GetDroppedFile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getfilter.html">Editor_GetFilter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getlinea.html">Editor_GetLineA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getlines.html">Editor_GetLines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getlinew.html">Editor_GetLineW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getmargin.html">Editor_GetMargin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getmodified.html">Editor_GetModified</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getmultisel.html">Editor_GetMultiSel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getoutlinelevel.html">Editor_GetOutlineLevel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getoutputstring.html">Editor_GetOutputString</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getpagesize.html">Editor_GetPageSize</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getredraw.html">Editor_GetRedraw</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getref.html">Editor_GetRef</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getscrollpos.html">Editor_GetScrollPos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getselend.html">Editor_GetSelEnd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getselstart.html">Editor_GetSelStart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getseltexta.html">Editor_GetSelTextA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getseltextw.html">Editor_GetSelTextW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getseltype.html">Editor_GetSelType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getseltypeex.html">Editor_GetSelTypeEx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getstatusa.html">Editor_GetStatusA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getstatusw.html">Editor_GetStatusW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getunicodename.html">Editor_GetUnicodeName</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getversion.html">Editor_GetVersion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_getword.html">Editor_GetWord</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_help.html">Editor_Help</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_info.html">Editor_Info</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_inserta.html">Editor_InsertA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_insertclip.html">Editor_InsertClip</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_insertfilea.html">Editor_InsertFileA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_insertfilew.html">Editor_InsertFileW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_insertstringa.html">Editor_InsertStringA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_insertstringw.html">Editor_InsertStringW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_insertw.html">Editor_InsertW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_ischarhalforfull.html">Editor_IsCharHalfOrFull</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_join.html">Editor_Join</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_keyboardprop.html">Editor_KeyboardProp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Editor_LineFromChar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_lineindex.html">Editor_LineIndex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_loadconfiga.html">Editor_LoadConfigA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_loadconfigw.html">Editor_LoadConfigW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_loadfilea.html">Editor_LoadFileA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_loadfilew.html">Editor_LoadFileW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_logicaltoserial.html">Editor_LogicalToSerial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_logicaltoview.html">Editor_LogicalToView</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_manageduplicates.html">Editor_ManageDuplicates</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_matchregex.html">Editor_MatchRegex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_numbering.html">Editor_Numbering</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_outputdir.html">Editor_OutputDir</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_outputstring.html">Editor_OutputString</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_overwritea.html">Editor_OverwriteA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_overwritew.html">Editor_OverwriteW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_pivottable.html">Editor_PivotTable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_querystatus.html">Editor_QueryStatus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_querystring.html">Editor_QueryString</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_querystringex.html">Editor_QueryStringEx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_rearrangecolumns.html">Editor_RearrangeColumns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_redraw.html">Editor_Redraw</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_regqueryvalue.html">Editor_RegQueryValue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_regsetvalue.html">Editor_RegSetValue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_release.html">Editor_Release</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_removeclip.html">Editor_RemoveClip</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_replacea.html">Editor_ReplaceA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_replaceinfiles.html">Editor_ReplaceInFiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_replaceinfilesa.html">Editor_ReplaceInFilesA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_replaceinfilesw.html">Editor_ReplaceInFilesW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_replacew.html">Editor_ReplaceW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_rotateclip.html">Editor_RotateClip</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_runmacro.html">Editor_RunMacro</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_savefilea.html">Editor_SaveFileA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_savefilew.html">Editor_SaveFileW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_savetemp.html">Editor_SaveTemp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_serialtological.html">Editor_SerialToLogical</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setanchorpos.html">Editor_SetAnchorPos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setcaretpos.html">Editor_SetCaretPos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setcaretposex.html">Editor_SetCaretPosEx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setcell.html">Editor_SetCell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setclippos.html">Editor_SetClipPos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setcolumn.html">Editor_SetColumn</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setconfiga.html">Editor_SetConfigA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setconfigw.html">Editor_SetConfigW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setmodified.html">Editor_SetModified</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setmultisel.html">Editor_SetMultiSel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setoutlinearray.html">Editor_SetOutlineArray</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setoutlinelevel.html">Editor_SetOutlineLevel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setscrollpos.html">Editor_SetScrollPos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setscrollposex.html">Editor_SetScrollPosEx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setsellength.html">Editor_SetSelLength</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setseltype.html">Editor_SetSelType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setseltypeex.html">Editor_SetSelTypeEx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setselview.html">Editor_SetSelView</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setstatusa.html">Editor_SetStatusA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_setstatusw.html">Editor_SetStatusW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_showoutline.html">Editor_ShowOutline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_showtip.html">Editor_ShowTip</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_sort.html">Editor_Sort</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_splitcolumn.html">Editor_SplitColumn</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_toolbarclose.html">Editor_ToolbarClose</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_toolbaropen.html">Editor_ToolbarOpen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_toolbarshow.html">Editor_ToolbarShow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_unpivot.html">Editor_Unpivot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_updatetoolbar.html">Editor_UpdateToolbar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_viewtodev.html">Editor_ViewToDev</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editor_viewtological.html">Editor_ViewToLogical</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../member_variables/index.html">所需的成員變數</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../message/index.html">消息</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugin_message/index.html">外掛程式消息</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../structure/index.html">結構</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">如何購買</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">外掛程式參考</a> &lt;
+                <a href="index.html">內嵌函式</a> &lt;
+            Editor_LineFromChar
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="editor-linefromchar">
+<h1>Editor_LineFromChar<a class="headerlink" href="#editor-linefromchar" title="本標頭的永久連結">¶</a></h1>
+<p>檢索包含指定字元索引 (序列位置) 的行的索引。一個字元索引是以零為初始值的整個文字起始處的字元的索引。您能直接用該內嵌函式或明確地發送
+<a class="reference internal" href="../message/ee_line_from_char.html"><span class="doc std std-doc">EE_LINE_FROM_CHAR</span></a>
+消息。</p>
+<p>Editor_LineFromChar( HWND hwnd, int nLogical, UINT nSerialIndex );</p>
+<section id="id1">
+<h2>參數<a class="headerlink" href="#id1" title="本標頭的永久連結">¶</a></h2>
+<p><em>hwnd</em></p>
+<blockquote>
+<div><p>指定 EmEditor 視圖或框架的視窗控制代碼。</p>
+</div></blockquote>
+<p><em>nLogical</em></p>
+<blockquote>
+<div><p>指定下列值之一。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>值</p></th>
+<th class="head"><p>含義</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>POS_VIEW</p></td>
+<td><p>顯示坐標</p></td>
+</tr>
+<tr class="row-odd"><td><p>POS_LOGICAL_A</p></td>
+<td><p>邏輯坐標 (把雙位元字元計為兩個)</p></td>
+</tr>
+<tr class="row-even"><td><p>POS_LOGICAL_W</p></td>
+<td><p>邏輯坐標 (把雙位元字元計為一個)</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p><em>nSerialIndex</em></p>
+<blockquote>
+<div><p>指定被包含在要被檢索的行號中的字元的字元索引。如果參數是 -1，EE_LINE_FROM_CHAR
+檢索目前的行 (游標所在行) 的行號。</p>
+</div></blockquote>
+</section>
+<section id="id2">
+<h2>返回值<a class="headerlink" href="#id2" title="本標頭的永久連結">¶</a></h2>
+<blockquote>
+<div><p>返回值是從零開始的、包含由 <em>nSerialIndex</em> 指定的字元索引的行號。</p>
+</div></blockquote>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">Editor_LineFromChar</a><ul>
+<li><a class="reference internal" href="#id1">參數</a></li>
+<li><a class="reference internal" href="#id2">返回值</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; 版權所有 2023 Emurasoft。
+      使用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 建立。
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

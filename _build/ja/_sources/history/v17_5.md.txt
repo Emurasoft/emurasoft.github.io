@@ -1,0 +1,31 @@
+# Version 17.5
+
+2018年 2月 27日
+
+## 一般の新機能
+
+- CSV セル選択モードで、オートフィル ハンドルがドラッグされると **オートフィル オプション** ボタンが表示されるようになりました。このボタンをクリックすると、オートフィル オプション メニューが表示され、オートフィルのタイプを選択したり、オートフィルを継続して上書きするか、オートフィルを新しい値で繰り返すかを指定できるようになりました。
+- EmEditor は、「 [Unicode Standard Annex #11 East Asian Width](http://www.unicode.org/reports/tr11/)」で指定された定義により文字の半角と全角を区別するようになりました。曖昧な文字を全角として扱うかどうかのオプションを追加しました。
+- DLL ハイジャック脆弱性を軽減しました。新しいバージョンでは、EmEditor 実行ファイルと DLL ファイルのデジタル署名を含む正当性チェックを行います。
+
+## 新しい設定
+
+- \[カスタマイズ\] ダイアログ ボックスの \[編集\] ページの \[編集のオプション\] リスト ボックスに \[曖昧な幅の文字を全角として扱う\] チェック ボックスを追加しました。
+
+## プラグイン API の新機能
+
+- [EE\_AUTOFILL メッセージ](../plugin/message/ee_autofill)、 [Editor\_AutoFill インライン関数](../plugin/macro/editor_autofill)、 [AUTOFILL\_INFO 構造体](../plugin/structure/autofill_info) を追加しました。
+- [EE\_INFO メッセージ](../plugin/message/ee_info) に EI\_REFRESH\_COMMON\_SETTINGS コマンドを追加しました。
+
+## マクロの新機能
+
+- Document オブジェクトに [AutoFill メソッド](../macro/document/autofill) を追加しました。
+- Editor オブジェクトに [RefreshCommonSettings メソッド](../macro/editor/refresh_common_settings) を追加しました。
+
+## 不具合の修正
+
+- CSVセル選択モードが無効の場合、単語をダブルクリックしても正しい単語が選択できないことがある不具合を修正しました。
+- \[すべてエンコードを指定して保存\] ダイアログ ボックスに関する特定の不具合を修正しました。
+- マクロの記録で、新しいフラグ (eeExFindBOL、eeExFindEOL、eeExFindLookaround) が記録されない不具合を修正しました。
+
+##### copyright © 2003-2023 by Emurasoft, Inc.

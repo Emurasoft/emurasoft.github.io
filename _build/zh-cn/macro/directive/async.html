@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>#async 指令 &#8212; EmEditor  文档</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="搜索" href="../../search.html" />
+    <link rel="next" title="#icon 指令" href="icon.html" />
+    <link rel="prev" title="脚本指令" href="index.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  文档</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/macro/directive/async">English</a>
+                <a href="/ja/macro/directive/async">日本語</a>
+                <a href="/ko/macro/directive/async">한국어</a>
+                <a href="/zh-cn/macro/directive/async">简体中文</a>
+                <a href="/zh-tw/macro/directive/async">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">快速搜索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="提交" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.html">命令参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.html">对话框</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">常见问题解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">术语表</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">历史记录</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">如何…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">链接</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">宏参考</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../association_item/index.html">AssociationItem 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../association_list/index.html">AssociationList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../association_prop/index.html">AssociationProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../auto_save_prop/index.html">AutoSaveProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../backup_prop/index.html">BackupProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../character_range/index.html">CharacterRange 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../character_ranges/index.html">CharacterRanges 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../clipboarddata/index.html">clipboardData 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../config/index.html">Config 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configs/index.html">Configs 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../const/index.html">常数</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../csv/index.html">Csv 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../csv_list/index.html">CsvList 集合</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">脚本指令</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">#async 指令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="icon.html">#icon 指令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="include.html">#include 指令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="language.html">#language 指令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="status.html">#status 指令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="title.html">#title 指令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tooltip.html">#tooltip 指令</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../display_item/index.html">DisplayItem 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../display_list/index.html">DisplayList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../display_prop/index.html">DisplayProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../document/index.html">Document 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../documents/index.html">Documents 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dropped_files/index.html">DroppedFiles 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../editor/index.html">Editor 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../features/index.html">功能</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_new_prop/index.html">FileNewProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_prop/index.html">FileProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_save_prop/index.html">FileSaveProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../filter/index.html">Filter 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../filters/index.html">Filters 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../font_item/index.html">FontItem 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../font_list/index.html">FontList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../font_prop/index.html">FontProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fuzzy_options/index.html">FuzzyOptions 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../general_prop/index.html">GeneralProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../highlight_item/index.html">HighlightItem 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../highlight_list/index.html">HighlightList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../highlight_prop/index.html">HighlightProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../indent_prop/index.html">IndentProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../interface/index.html">Interface 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../keyboard_item/index.html">KeyboardItem 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../keyboard_list/index.html">KeyboardList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../keyboard_prop/index.html">Keyboard 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../link_prop/index.html">LinkProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mark_prop/index.html">MarkProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../match/index.html">Match 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../matches/index.html">Matches 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../no_wrap_item/index.html">NoWrapItem 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../no_wrap_list/index.html">NoWrapList 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../no_wrap_prop/index.html">NoWrapProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../output_bar/index.html">OutputBar 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../point/index.html">Point 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../popupmenu/index.html">PopupMenu 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../print_prop/index.html">PrintProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regex/index.html">Regex 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../scroll_prop/index.html">ScrollProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../selection/index.html">Selection 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shell/index.html">Shell 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../spell_prop/index.html">SpellProp 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorial/index.html">教程</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.html">Window 对象</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../windows/index.html">Windows 集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../wrap_prop/index.html">WrapProp 对象</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">声明</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.html">插件参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">如何购买</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">宏参考</a> &lt;
+                <a href="index.html">脚本指令</a> &lt;
+            #async 指令
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="async">
+<h1>#async 指令<a class="headerlink" href="#async" title="此标题的永久链接">¶</a></h1>
+<p>指定宏是否应以异步方式（作为单独的线程）运行。该指令必须在主代码上方，脚本的第一行中指定。</p>
+<p>#async = “off” (or “on”)</p>
+<section id="id1">
+<h2>参数<a class="headerlink" href="#id1" title="此标题的永久链接">¶</a></h2>
+<p>“off” (or “on”)</p>
+<blockquote>
+<div><p>如果指定 “off”，将不会以异步方式运行宏。否则将以异步方式运行该宏。默认值取决于宏的运行方式。如果宏在指定事件中运行，则默认为 “off”。如果宏是通过代码片段插件执行，则会始终同步运行该宏。除此之外，在 <strong>自定义宏</strong> 对话框中的 <a class="reference internal" href="../../dlg/macro_customize/options/index.html"><span class="doc std std-doc"><strong>选项</strong> 页面</span></a> 中指定默认值。</p>
+</div></blockquote>
+</section>
+<section id="id2">
+<h2>示例<a class="headerlink" href="#id2" title="此标题的永久链接">¶</a></h2>
+<p>不用异步方式运行宏。</p>
+<p>#async = “off”</p>
+</section>
+<section id="id3">
+<h2>版本<a class="headerlink" href="#id3" title="此标题的永久链接">¶</a></h2>
+<p>支持 EmEditor Professional 20.8 或之后的版本。</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">#async 指令</a><ul>
+<li><a class="reference internal" href="#id1">参数</a></li>
+<li><a class="reference internal" href="#id2">示例</a></li>
+<li><a class="reference internal" href="#id3">版本</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; 版权所有 2023 Emurasoft.
+      由 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1创建。
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

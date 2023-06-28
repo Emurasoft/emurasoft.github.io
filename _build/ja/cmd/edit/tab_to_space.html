@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>[文書全体のタブを空白に変換] コマンド &#8212; EmEditor  ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="検索" href="../../search.html" />
+    <link rel="next" title="[選択範囲の空白をタブに変換] コマンド" href="tabify.html" />
+    <link rel="prev" title="[タブ挿入/インデント] コマンド" href="tab.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  ドキュメント</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/cmd/edit/tab_to_space">English</a>
+                <a href="/ja/cmd/edit/tab_to_space">日本語</a>
+                <a href="/ko/cmd/edit/tab_to_space">한국어</a>
+                <a href="/zh-cn/cmd/edit/tab_to_space">简体中文</a>
+                <a href="/zh-tw/cmd/edit/tab_to_space">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">コマンド リファレンス</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../CSV/index.html">[CSV] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bookmarks/index.html">[ブックマーク] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../convert/index.html">[変換] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../diff/index.html">[比較] カテゴリ</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">[編集] カテゴリ</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="add_column.html">[列を追加] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_quotes.html">[すべてのセルを引用符で囲む] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_remove_markers.html">[マーカーに追加/削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_remove_separator.html">[セパレーターを追加/削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_to_markers.html">[マーカーへ追加] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="adjust_column.html">[区切り位置を調節 (文書全体)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="adjust_column_visible.html">[区切り位置を調節 (表示されている行のみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="auto_add_separators.html">[自動的にセパレーターを追加] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="auto_copy.html">[自動コピー] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="auto_fill.html">[オートフィル/オート リピート] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="back.html">[左を1文字削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_clear.html">[この文書のブックマークをクリア] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_copy.html">[この文書のブックマークされた行をコピー] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_cut.html">[この文書のブックマークされた行を切り取り] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_delete.html">[この文書のブックマークされた行を削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_extract.html">[この文書のブックマークされた行を抽出して新規作成] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_group_clear.html">[このグループのブックマークをクリア] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_group_delete.html">[このグループのブックマークされた行を削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_group_extract.html">[このグループのブックマークされた行を抽出して新規作成] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_group_invert.html">[このグループのブックマークを反転] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_invert.html">[この文書のブックマークを反転] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_next.html">[このグループの次のブックマーク] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_next_around.html">[この文書の次のブックマーク(一周)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_next_within.html">[この文書の次のブックマーク] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_prev.html">[このグループの前のブックマーク] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_prev_around.html">[この文書の前のブックマーク(一周)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_prev_within.html">[この文書の前のブックマーク] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_reset.html">[ブックマークを解除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_select.html">[この文書のブックマークされた行を選択] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_set.html">[ブックマークを設定] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_toggle.html">[ブックマークを設定/解除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bottom.html">[文末へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bottom_edge.html">[下端へ (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="box_extend_down.html">[箱型選択範囲を1文字下へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="box_extend_left.html">[箱型選択範囲を1文字左へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="box_extend_right.html">[箱型選択範囲を1文字右へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="box_extend_up.html">[箱型選択範囲を1文字上へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cancel_bottom_sel.html">[複数選択から文末の選択を解除します] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cancel_top_sel.html">[複数選択から文頭の選択を解除します] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="capitalize.html">[単語の最初の文字を大文字に変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="caret_back.html">[戻る] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="caret_forward.html">[進む] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clear_contents.html">[値をクリア (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clear_undo_redo_history.html">[元に戻す/やり直しの履歴をすべてクリア] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clear_visit_history.html">[表示済みリンクの履歴をクリア] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clipboard_history.html">[クリップボードの履歴を表示] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="combine_columns.html">[列を結合] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="combine_lines.html">[行を結合] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="convert.html">[半角/全角変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="convert_to_fixed_width.html">[固定幅列に変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="convert_to_sv.html">[CSVに変換 (複数項目)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copy_column.html">[列のコピー] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_cell_mode.html">[セル選択モード] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_converter.html">[CSVコンバーター] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_down.html">[下のセル (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_edit_cell.html">[セル編集 (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_next_cell.html">[次のセル (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_prev_cell.html">[前のセル (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_up.html">[上のセル (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_validate.html">[構文チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cut_column.html">[列の切り取り] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_base64.html">[Base64をプレーン テキストに変換(現在のエンコード)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_base64_binary.html">[Base64をバイナリ ファイルに変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_base64_utf8.html">[Base64をプレーン テキストに変換(UTF-8)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_html_char_ref.html">[HTML/XML文字参照をUnicodeに変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_percent.html">[パーセント エンコーディングをUnicodeに変換(現在のエンコード)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_percent_utf8.html">[パーセント エンコーディングをUnicodeに変換(UTF-8)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_ucn.html">[Universal Character NamesをUnicodeに変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete.html">[削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_column.html">[列の削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_complete.html">[完全に削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_cr_wrap.html">[改行コードを削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_duplicate.html">[重複行の削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_duplicate_advanced.html">[重複行の削除/ブックマーク(高度)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_left_line.html">[行左削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_left_word.html">[単語左削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_line.html">[行削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_right_line.html">[行右削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_right_word.html">[単語右削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_word.html">[単語の削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="down.html">[1行下へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="duplicate_column.html">[列の2重化] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="duplicate_line.html">[行の2重化] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_comment.html">[コメント挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy.html">[コピー] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_deselect.html">[コピーして選択解除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_line.html">[行コピー] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_link.html">[リンクをコピー] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_prefix.html">[引用付きコピー] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_prefix_deselect.html">[引用付きコピーして選択解除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_sel.html">[選択範囲をコピー] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_cut.html">[切り取り] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_cut_line.html">[行カット] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_cut_sel.html">[選択範囲を切り取り] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_paste.html">[貼り付け] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_paste_ansi.html">[システム既定エンコードで貼り付け] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_redo.html">[やり直し] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_select_all.html">[すべて選択] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_uncomment.html">[コメント削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_undo.html">[元に戻す] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_base64.html">[プレーン テキストをBase64に変換(現在のエンコード)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_base64_binary.html">[バイナリ ファイルをBase64に変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_base64_utf8.html">[プレーン テキストをBase64に変換(UTF-8)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_html_char_entity_ref.html">[UnicodeをHTML文字実体参照に変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_html_char_ref.html">[UnicodeをHTML/XML数値文字参照に変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_percent.html">[Unicodeをパーセント エンコーディングに変換(現在のエンコード)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_percent_utf8.html">[Unicodeをパーセント エンコーディングに変換(UTF-8)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_ucn.html">[UnicodeをUniversal Character Namesに変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="end.html">[行末へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="escape.html">[選択のキャンセル] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="extract_columns.html">[列を抽出] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="filter_column.html">[列でフィルター] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="filter_out_column.html">[列でフィルター除外] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="filter_out_word.html">[選択テキストまたはカーソル位置の単語でフィルター除外] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="filter_word.html">[選択テキストまたはカーソル位置の単語でフィルター] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="flash_fill.html">[フラッシュ フィル (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="force_clipboard_text.html">[クリップボード フォーマットをテキストに固定] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="han_to_zen.html">[全角に変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_1.html">[列ヘディング 1] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_2.html">[列ヘディング 2] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_3.html">[列ヘディング 3] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_4.html">[列ヘディング 4] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_popup.html">[ヘディング (ポップアップ メニュー)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_reset.html">[列ヘディング 0] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_set.html">[ヘディングの設定 (ウィンドウ枠の固定)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_toggle.html">[ヘディングの設定/解除 (ウィンドウ枠の固定/解除)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="home.html">[行頭へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="home_text.html">[行頭またはテキスト開始へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="indent.html">[インデント] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert.html">[挿入/上書] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_acute.html">[鋭アクセントを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_caron.html">[キャロンを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_cedilla.html">[セディーユを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_circumflex.html">[曲折アクセントを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_column.html">[左に列を挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_column_right.html">[右に列を挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_control.html">[特殊文字を入力] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_copyright.html">[コピーライトを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_cr.html">[CRのみ挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_cr_lf.html">[CR+LFを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_cr_wrap.html">[改行コードを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_date.html">[時刻と日付] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_date_time.html">[日付と時刻] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_diaeresis.html">[ウムラウトを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_euro.html">[ユーロを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_grave.html">[低アクセントを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_inverted_exclamation.html">[逆立ち感嘆符を挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_inverted_question.html">[逆立ち疑問符を挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_lf.html">[LFのみ挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_ligature.html">[合字を挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_macron.html">[マクロンを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_registered.html">[登録商標を挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_ring_above.html">[輪を挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_stroke.html">[斜線を挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_tab.html">[Tabを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_tilde.html">[ティルデを挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_trademark.html">[商標を挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="invert_selection.html">[選択範囲を反転] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="join_csv.html">[CSVの結合] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="join_lines.html">[行の結合] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="jump.html">[ジャンプ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="jump_next.html">[次へジャンプ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="jump_prev.html">[前へジャンプ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="left.html">[1文字左へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="left_edge.html">[左端へ (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="left_word.html">[1単語左へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="line_open_above.html">[上に行挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="line_open_below.html">[下に行挿入] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="link_open.html">[リンクを開く] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="logical_end.html">[論理行の行末へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="logical_home.html">[論理行の行頭へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="logical_home_text.html">[論理行の行頭またはテキスト開始へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="make_columns_same.html">[列数をそろえる] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="make_lower.html">[小文字に変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="make_upper.html">[大文字に変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mode_csv.html">[CSVモード] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mode_dsv.html">[DSVモード] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mode_normal.html">[通常モード] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mode_tsv.html">[TSVモード] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_column.html">[列を移動/コピー] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_column_left.html">[1列左へ移動] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_column_right.html">[1列右へ移動] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_last_edit.html">[最後に編集した位置へ移動] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_line_down.html">[1行下へ移動] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_line_up.html">[1行上へ移動] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="narrowing_off.html">[部分編集の解除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="narrowing_on.html">[部分編集の設定] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="narrowing_toggle.html">[部分編集の設定/解除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_cell.html">[次のセル] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_logical_line.html">[次の論理行] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_paren.html">[対応するかっこへ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_tag.html">[対応するタグへ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="numbering.html">[番号] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_collapse_all.html">[アウトラインをすべて縮小] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_collapse_line.html">[アウトラインを縮小] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_expand_all.html">[アウトラインをすべて展開] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_expand_line.html">[アウトラインを展開] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_level.html">[レベル2-16] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_next_node.html">[次のノードへ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_prev_node.html">[前のノードへ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_sync_bar_to_guide.html">[アウトライン バーとアウトライン ガイドを同期する] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_toggle_line.html">[アウトラインを展開/縮小] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pagedown.html">[1ページ下へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pageup.html">[1ページ上へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paste_history.html">[クリップボード リングの回転] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paste_html.html">[HTMLで貼り付け] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paste_prefix.html">[引用付き貼り付け] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paste_prefix_return.html">[引用と改行コード付き貼り付け] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paste_return.html">[改行コード付き貼り付け] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pivot_table.html">[ピボット テーブル] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="prev_cell.html">[前のセル] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="prev_logical_line.html">[前の論理行] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="read_only.html">[書き換え禁止] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="read_only_headings.html">[列ヘディングは書き換え禁止] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reconvert.html">[再変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="redo_all.html">[すべてやり直し] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="redo_recent.html">[最近のやり直し (複数項目)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remove_all_separators.html">[すべてのセパレーターを削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remove_embedded_nl.html">[CSVの埋め込み改行コードを削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remove_empty_columns.html">[空列を削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remove_empty_lines.html">[空行を削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remove_unnecessary_quotes.html">[不要な2重引用符を削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="repeat_last_command.html">[最後のコマンドを繰り返す] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="repeat_steps.html">[ステップの繰り返し] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reset_column_width.html">[列幅をリセット] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="restore_deleted.html">[削除した文字列を復元] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="right.html">[1文字右へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="right_edge.html">[右端へ (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="right_word.html">[1単語右へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="right_word_end.html">[単語の右端へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sel_trim_left.html">[先頭の空白を削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sel_trim_right.html">[最後の空白を削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_begin_lines.html">[行の最初を選択] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_box.html">[箱型選択を開始] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_cell.html">[セルを選択] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_char.html">[文字選択を開始] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_column.html">[CSV列を選択 (ヘディング無し)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_column_with_headings.html">[CSV列を選択 (ヘディング付き)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_end_lines.html">[行の最後を選択] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_line.html">[行選択を開始] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_logical_line.html">[論理行選択を開始] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_word.html">[単語選択を開始] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_bottom.html">[選択範囲を文末へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_bottom_edge.html">[選択範囲を下端へ (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_down.html">[選択範囲を1行下へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_end.html">[選択範囲を行末へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_home.html">[選択範囲を行頭へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_home_text.html">[選択範囲を行頭またはテキスト開始へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_left.html">[選択範囲を1文字左へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_left_edge.html">[選択範囲を左端へ (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_left_word.html">[選択範囲を1単語左へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_logical_end.html">[選択範囲を論理行の行末へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_logical_home.html">[選択範囲を論理行の行頭へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_logical_home_text.html">[選択範囲を論理行の行頭またはテキスト開始へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_next_node.html">[選択範囲を次のノードへ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_next_paren.html">[選択範囲を対応するかっこへ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_next_tag.html">[選択範囲を対応するタグへ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_pagedown.html">[選択範囲を1ページ下へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_pageup.html">[選択範囲を1ページ上へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_prev_node.html">[選択範囲を前のノードへ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_right.html">[選択範囲を1文字右へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_right_edge.html">[選択範囲を右端へ (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_right_word.html">[選択範囲を1単語右へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_right_word_end.html">[選択範囲を単語の右端へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_tab.html">[タブの左移動/逆インデント] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_top.html">[選択範囲を文頭へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_top_edge.html">[選択範囲を上端へ (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_up.html">[選択範囲を1行上へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_date_a.html">[日時が古いから新しいへ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_date_d.html">[日時が新しいから古いへ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_ipv4_a.html">[IPv4アドレス昇順に並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_ipv4_d.html">[IPv4アドレス降順に並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_ipv6_a.html">[IPv6アドレス昇順に並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_ipv6_d.html">[IPv6アドレス降順に並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_length_a.html">[短い文字列から長い文字列へ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_length_d.html">[長い文字列から短い文字列へ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_multi.html">[高度な並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_num_a.html">[小さい値から大きい値へ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_num_d.html">[大きい値から小さい値へ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_occurrence_a.html">[出現頻度が少ないから多いへ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_occurrence_d.html">[出現頻度が多いから少ないへ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_random.html">[ランダムに並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_reverse.html">[逆順に並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_text_a.html">[AからZへ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_text_d.html">[ZからAへ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_words_a.html">[単語が少ないから多いへ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_words_d.html">[単語が多いから少ないへ並べ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="space_to_tab.html">[文書全体の空白をタブに変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_all.html">[すべてのスペル チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_comments.html">[コメントのスペル チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_dictionary.html">[辞書] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_double_quotes.html">[2重引用符で囲まれた文字列のスペル チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_hilite.html">[強調文字列のスペル チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_hyperlink.html">[ハイパーリンクのスペル チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_next.html">[次のスペル ミス] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_prev.html">[前のスペル ミス] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_quote.html">[引用マークで始まる行のスペル チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_rest.html">[残りの文書のスペル チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_script.html">[スクリプトのスペル チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_single_quotes.html">[1重引用符で囲まれた文字列のスペル チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_suggest.html">[スペル チェックの提案] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_tags.html">[タグのスペル チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_toggle.html">[スペル チェック] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="split_column.html">[列を分割] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="split_lines.html">EmEditor ホーム - <span class="xref myst">EmEditor ヘルプ</span> - <span class="xref myst">コマンド リファレンス</span>  - <span class="xref myst">[変換] カテゴリ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="split_lines.html#id1">[行の分割] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sv_mode.html">[CSV (複数項目)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sv_popup.html">[CSVモード (ポップアップ メニュー)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sv_sep_popup.html">[列/セパレーター (ポップアップ メニュー)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="switch_start_end_select.html">[選択開始位置と終了位置を切り替える] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tab.html">[タブ挿入/インデント] コマンド</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">[文書全体のタブを空白に変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tabify.html">[選択範囲の空白をタブに変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tag_jump.html">[タグ ジャンプ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="toggle_ime.html">[IMEを開く] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="top.html">[文頭へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="top_edge.html">[上端へ (セル選択モードのみ)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="transpose.html">[行/列の入れ替え] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trim_right.html">[行末の空白を削除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="undo_all.html">[すべて元に戻す] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="undo_history.html">[元に戻す/やり直しの履歴] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="undo_recent.html">[最近を元に戻す (複数項目)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unicode_norm_fc.html">[Unicode正規化形式C (正準合成)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unicode_norm_fd.html">[Unicode正規化形式D (正準分解)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unicode_norm_fkc.html">[Unicode正規化形式KC (互換合成)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unicode_norm_fkd.html">[Unicode正規化形式KD (互換分解)] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unindent.html">[逆インデント] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unpivot.html">[ピボット解除] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="untabify.html">[選択範囲のタブを空白に変換] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="up.html">[1行上へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vertical_mode.html">[固定箱型選択モード] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vertical_selection.html">[垂直選択] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_bottom.html">[ウィンドウの下へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_left.html">[ウィンドウの左へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_right.html">[ウィンドウの右へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_top.html">[ウィンドウの上へ] コマンド</a></li>
+<li class="toctree-l3"><a class="reference internal" href="zen_to_han.html">[半角に変換] コマンド</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../external_tools/index.html">[外部ツール] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.html">[ファイル] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../help/index.html">[ヘルプ] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert/index.html">[挿入] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macros/index.html">[マクロ] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugins/index.html">[プラグイン] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.html">[検索] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort/index.html">[並べ替え] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/index.html">[ツール] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.html">[表示] カテゴリ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.html">[ウィンドウ] カテゴリ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.html">ダイアログ ボックス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">よくある質問と回答集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">特長</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">履歴</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">使い方</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">リンク</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.html">マクロ リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">注意</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.html">プラグイン リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">購入方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">サポート</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">コマンド リファレンス</a> &lt;
+                <a href="index.html">[編集] カテゴリ</a> &lt;
+            [文書全体のタブを空白に変換] コマンド
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>[文書全体のタブを空白に変換] コマンド<a class="headerlink" href="#id1" title="この見出しへのパーマリンク">¶</a></h1>
+<section id="id2">
+<h2>概要<a class="headerlink" href="#id2" title="この見出しへのパーマリンク">¶</a></h2>
+<blockquote>
+<div><p>文書全体のタブを空白に変換します。</p>
+</div></blockquote>
+</section>
+<section id="id3">
+<h2>説明<a class="headerlink" href="#id3" title="この見出しへのパーマリンク">¶</a></h2>
+<blockquote>
+<div><p>文書全体のタブを空白に変換します。タブの桁数については、プロパティの <a class="reference internal" href="../../dlg/properties/general/index.html"><span class="doc std std-doc"><strong>[基本]</strong> タブ</span></a> の</p>
+<p><strong>[タブ/インデント]</strong> ボタンをクリックし、 <a class="reference internal" href="../../dlg/properties/general/indent/index.html"><span class="doc std std-doc"><strong>[タブ/インデント]</strong> <br />
+ダイアログ ボックス</span></a> で設定できます。このコマンドは、文書全体を選択してから、 <a class="reference internal" href="untabify.html"><span class="doc std std-doc"><strong>[選択範囲のタブを空白に変換]</strong> コマンド</span></a> を実行することと等価ですが、選択範囲は変更されません。</p>
+</div></blockquote>
+</section>
+<section id="id4">
+<h2>実行方法<a class="headerlink" href="#id4" title="この見出しへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><p>既定のメニュー: なし</p></li>
+<li><p><a class="reference internal" href="../../glossary/allcommands.html"><span class="doc std std-doc">すべてのコマンド</span></a>: [編集] - [高度な操作] - [文書全体のタブを空白に変換]</p></li>
+<li><p>ツール バー: なし</p></li>
+<li><p>ステータス バー: なし</p></li>
+<li><p>既定のショートカット: なし</p></li>
+</ul>
+</section>
+<section id="id">
+<h2>プラグイン コマンド ID<a class="headerlink" href="#id" title="この見出しへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><p>EEID_TAB_TO_SPACE (4253)</p></li>
+</ul>
+</section>
+<section id="id5">
+<h2>マクロ<a class="headerlink" href="#id5" title="この見出しへのパーマリンク">¶</a></h2>
+<section id="javascript">
+<h3>[JavaScript]<a class="headerlink" href="#javascript" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>editor.ExecuteCommandByID(4253);</p>
+</div></blockquote>
+</section>
+<section id="vbscript">
+<h3>[VBScript]<a class="headerlink" href="#vbscript" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>editor.ExecuteCommandByID 4253</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">[文書全体のタブを空白に変換] コマンド</a><ul>
+<li><a class="reference internal" href="#id2">概要</a></li>
+<li><a class="reference internal" href="#id3">説明</a></li>
+<li><a class="reference internal" href="#id4">実行方法</a></li>
+<li><a class="reference internal" href="#id">プラグイン コマンド ID</a></li>
+<li><a class="reference internal" href="#id5">マクロ</a><ul>
+<li><a class="reference internal" href="#javascript">[JavaScript]</a></li>
+<li><a class="reference internal" href="#vbscript">[VBScript]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

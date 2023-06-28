@@ -1,0 +1,64 @@
+# Version 17.7
+
+2018年5月16日
+
+## 一般新增功能
+
+- 提高了各种 **排序** 命令的速度。
+- 文件比较后添加了生成报告文件的功能。 添加了 **eeCompare** 配置和以 **竖线** 分隔的 CSV 格式来查看比较报告。
+- 将 **Python** 语法更新到 Python 3.7.0b4。
+
+### 测试结果：
+
+|  | v17.6 | v17.7 | 比较 |
+| --- | --- | --- | --- |
+| CSV 排序（数字，按 1 列排序） | 19.7 秒 | 0.719 秒 | 快 27.4 倍 |
+| CSV 多列排序（数字，按 2 列排序） | 72.6 秒 | 1.97 秒 | 快 36.9 倍 |
+| CSV 多列排序（数字，按 3 列排序） | 94.7 秒 | 3.09 秒 | 快 30.6 倍 |
+
+\\* 185 MB，2,170,000 行，CSV 数字数据。测试系统：Windows 10 (64-bit)，Core i7-8700K，32GB RAM。
+
+## 新增选项
+
+- 添加了「 **复制并关闭**」按钮到执行 **[字符代码值](../cmd/view/watch_char_code)** 命令时显示的对话框上。
+- 添加了 **生成报告？** 页到 **比较** 向导中。
+- 添加了 **文件修改日期 (&e)** 和 **文件修改时间 (&u)** 宏到配置属性的 [**打印** 页面](../dlg/properties/print/index) 上的 **页眉/页脚** 文本框中。
+- 添加了 **颜色** 下拉列表框到配置属性的 [**高亮 (1)** 页面](../dlg/properties/highlight1/index) 上，让你能指定与比较相关的颜色。
+- 添加了 **使用临时文件的最小大小** 文本框以及 **目前使用临时文件** 消息到 **大文件控制器** 自定义分栏中。
+- 添加了 **忽略空单元格** 复选框到 [**删除/把重复行设为书签** 对话框](../dlg/delete_duplicate_advanced/index) 中。
+- 添加了 **比较 CSV 文档单元格中未加引号的字符串** 复选框到 **自定义** 对话框中的 [**排序** 页面](../dlg/customize/sort/index) 上。
+
+## 新增命令
+
+- [自定义文本呈现](../cmd/tools/customize_rendering)
+- [生成报告](../cmd/diff/compare_generate_report)
+
+## 插件 API 新增功能
+
+- 添加了 **MANAGE\_DUPLICATES\_IGNORE\_EMPTY\_CELLS** 标志到 [**MANAGE\_DUPLICATES\_INFO** 结构](../plugin/structure/manage_duplicates_info) 中。
+- 添加了 **SORT\_UNQUOTE\_CELLS** 标志到 [**SORT\_INFO** 结构](../plugin/structure/sort_info) 中。
+- 添加了 [**EE\_COMPARE** 消息](../plugin/message/ee_compare)， [**Editor\_Compare** 内联函数](../plugin/macro/editor_compare)，以及 [**COMPARE\_INFO** 结构](../plugin/structure/compare_info)。
+
+## 新增宏功能
+
+- 添加了 **eeIgnoreEmptyCells** 标志到 **Document** 对象的 [**DeleteDuplicates** 方法](../macro/document/delete_duplicates) 中。
+- 添加了 **eeSortUnquoteCells** 标志到 **Document** 对象的 [**Sort** 方法](../macro/document/sort) 中。
+- 添加了 [**Compare** 方法](../macro/editor/compare) 到 **Editor** 对象中。
+
+## 修复 Bug
+
+- 修复了启用 DirectWrite 时关键字高亮显示的问题。
+- 修复了与排序有关的问题。
+- 修复了用户报告的问题 ( [1](https://www.emeditor.com/forums/topic/line-space/)，
+[2](https://jp.emeditor.com/forums/topic/%e5%9e%82%e7%9b%b4%e7%bd%ab%e7%b7%9a%e3%81%8c%e6%96%87%e5%ad%97%e3%81%ae%e8%a3%8f%e3%81%ab%e5%9b%9e%e3%82%8b/)，
+[3](https://jp.emeditor.com/forums/topic/%e3%83%80%e3%82%a4%e3%82%a2%e3%83%ad%e3%82%b0%e3%81%ae%e3%82%b5%e3%82%a4%e3%82%ba/)，
+[4](https://jp.emeditor.com/forums/topic/directwrite%e4%bd%bf%e7%94%a8%e6%99%82%e3%81%ab%e3%80%81%e8%a1%8c%e9%a0%ad%e7%a6%81%e5%89%87%e6%96%87%e5%ad%97%e3%81%8c%e8%a1%a8%e7%a4%ba%e3%81%95%e3%82%8c%e3%81%aa%e3%81%84/)，
+[5](https://www.emeditor.com/forums/topic/filter-select-delete-line/)，
+[6](https://www.emeditor.com/forums/topic/outline-guide-chaos/)，
+[7](https://www.emeditor.com/forums/topic/wrapped-text-invisible/)，
+[8](https://www.emeditor.com/forums/topic/changes-in-highlight-2-revert-after-page-switched-back/)，
+[9](https://www.emeditor.com/forums/topic/filter-select-delete-line/)，
+[10](https://www.emeditor.com/forums/topic/keyboard-map-quick-launch/)，
+[11](https://www.emeditor.com/forums/topic/selecting-moving-theme-incremental-searchlist/)，
+[12](https://www.emeditor.com/forums/topic/chm/)，
+[13](https://www.emeditor.com/forums/topic/display-issue-in-split-panes/)， [14](https://jp.emeditor.com/forums/topic/%e3%83%9e%e3%82%af%e3%83%ad%e3%81%a7%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ae%e8%a8%ad%e5%ae%9a%e3%82%92%e3%83%ad%e3%83%bc%e3%83%89%e3%81%97%e3%81%a6%e3%82%bb%e3%83%bc%e3%83%96/))。

@@ -1,0 +1,55 @@
+# 버전 5.00
+
+2005년 12월 20일
+
+- 이제 EmEditor는 여러개의 파일이 열려있고 탭이 사용되는지 여부에 상관없이 단일 프로세스로 실행됩니다. 이를 통해 EmEditor가 여러개의 파일을 열기 위해 선택하였을 때 빠르게 시작하고, 메모리의 사용량을 줄이며, 또한 다른 문서가 활성화 중일 때 작업 표시줄이 깜빡거리는 것을 표지하지 않도록 하였습니다. 이제 부터 다중 스레드로 여러 창을 실행시킬 수 있습니다. 이전의 기능 (멀티 프로세스) 또한 [**사용자 지정** 대화 상자](../dlg/customize/index) 의 [**고급** 탭](../dlg/customize/advanced/index) 에서 **문서 간 프로세스를 공유하지 않기 (탭 비활성화)** 체크 박스를 선택하여 사용 가능합니다.
+- EmEditor에서 응용 프로그램 오류가 발생하는 경우, 실제로 종료되기 이전에는 오류 처리기가 수정된 파일을 저장하도록 합니다.
+- 플러그 인 내부에서 응용 프로그램 오류가 발생하는 경우, EmEditor는 종료됨 없이 플러그 인을 비활성화 할 수 있도록 합니다.
+- 탭 스타일은 버튼과 탭 사이에서 선택 될 수 있습니다.
+- 각 문서를 닫기 위해 닫기 버튼을 탭의 오른쪽에 추가하였습니다.
+- 이제부터 창-그룹화가 지원됩니다. 현재 그룹에서 문서를 분리하기 위해서는 현재 창의 외부를 향해 탭을 끌어서 놓거나 [**새 그룹** 명령](../cmd/window/new_group) 을 선택합니다.
+- 이제 탭 아이콘을 **없음**, **파일 유형** 및 **EmEditor 아이콘** 중에서 선택할 수 있습니다.
+- 탭 너비는 **파일 이름 변경**, **지정된 너비보다 긴 경우에만 자르기**, 및 **지정된 너비로 수정** 중에서 선택할 수 있습니다.
+- 탭이 창에 맞지 않을 때는, 이제 탭 너비를 조정하거나 더 많은 줄을 추가할 수 있습니다.
+- 이제 탭을 더블 클릭하고 가운데 클릭하여 명령을 실행하도록 사용자 지정할 수 있습니다.
+- 이제 탭에서 마우스 휠을 돌리면 다음 또는 이전의 탭을 선택할 수 있습니다.
+- 탭의 상황에 맞는 메뉴를 사용자 지정 할 수 있습니다.
+- 새 탭 삽입 위치, 다른 탭을 닫을 때 활성화하는 탭, 및 새 문서를 여는 창을 사용자 지정 할 수 있습니다.
+- 탭은 파일명, 형식, 수정한 시간 또는 최근에 사용한 순서로 정렬될 수 있습니다.
+- 모두 결합 명령이 [**탭 활성화** 명령](../cmd/window/window_combine) 으로 이름이 바뀌었습니다.
+- [**사용자 지정** 대화 상자](../dlg/customize/index) 의 [**창** 탭](../dlg/customize/window/index) 에 **다음 문서 명령을 위하여 마지막 사용된 문서로 변경** 체크 박스를 추가하였습니다.
+- [**사용자 지정** 대화 상자](../dlg/customize/index) 의 [**기록** 탭](../dlg/customize/history/index) 에 **현재 폴더 내 파일의 스트립 경로** 체크 박스와 **기타 키보드 바로가기** 드롭 다운 리스트 박스가 추가되었습니다.
+- 이제부터 파일이 열릴 때 인코딩 방법을 위해 자동 검색이 선택되었을 때, [**모든 결과 검색** 대화 상자](../dlg/detect_result/index) 가 표시됩니다.
+- 이제 수평 스크롤 바의 위치가 변경되더라도 줄 번호는 고정된 위치에 있게 됩니다.
+- 이제부터 BMP(기본 다국어 평면) 이외의 유니코드 문자를 지원합니다.
+- 시스템 로케일이 Japanese(일본어)일 때, 반자 백슬래시(U+005C)는 이제 전자/반자 변환 명령에 의해 전자 엔(yen) 표시 (U+0xFFE5)로 변환됩니다.
+- 메뉴 모음은 이제 도구 모음 중 하나로 다른 도구모음 이전 또는 후로 이동할 수 있습니다.
+- 대용량 파일이 열렸을 때 이제 진행 대화 상자가 나타나며, 작업을 취소할 수 있습니다.
+- 각 도구 모음 상황에 맞는 메뉴에 사용자 지정 명령이 추가되었습니다.
+- 일광 절약 시간 (daylight saving time) 동안에 Windows를 다시 실행하기를 안내하는 설치 프로그램의 오류를 수정하였습니다.
+- [**Documents** 컬렉션](../macro/documents/index) 이 추가되었고, 매크로는 이제 열린 문서를 열거 할 수 있습니다. [**Editor** 개체](../macro/editor/index) 에 [**Documents** 속성](../macro/editor/editor_documents) 이 추가되었습니다.
+- [**PopupMenu** 개체](../macro/popupmenu/index) 가 추가되었고, 매크로는 이제 팝업 메뉴를 생성할 수 있습니다. [**Window** 개체](../macro/window/index) 에 [**CreatePopupMenu** 메서드](../macro/window/createpopupmenu) 가 추가되었습니다.
+- [**clipboardData** 개체](../macro/clipboarddata/index) 가 추가되었고, 매크로는 이제 클립보드 데이터를 검색하거나 설정할 수 있습니다. [**Window** 개체](../macro/window/index) 에 [**clipboardData** 속성](../macro/window/clipboarddata) 이 추가되었습니다.
+- [**Document** 개체](../macro/document/index) 에 [**Activate** 메서드](../macro/document/document_activate) 가 추가되었습니다.
+- 매크로 실행중에 다시그리기를 막기 위해 [**Window** 개체](../macro/window/index) 에 [**Redraw** 속성](../macro/window/window_redraw) 을 추가하였습니다.
+- 매크로 실행을 종료하기 위해 [**Window** 개체](../macro/window/index) 에 [**Quit** 메서드](../macro/window/quit) 를 추가하였습니다.
+- [**Mode** 속성](../macro/selection/selection_mode) 의 사양을 변경하였습니다.
+- [**Editor** 개체](../macro/editor/index) 에 [**EnableTab** 속성](../macro/editor/editor_enabletab) 을 추가하였습니다.
+- [**Window** 개체](../macro/window/index) 에 [**ScriptFullName** 속성](../macro/window/scriptfullname) 과 [**ScriptName** 속성](../macro/window/scriptname) 을 추가하였습니다.
+- [**Editor\_GetSelTypeEx** 인라인 함수](../plugin/macro/editor_getseltypeex) 와 [**Editor\_SetSelTypeEx** 인라인 함수](../plugin/macro/editor_setseltypeex) 가 추가되었습니다.
+- 대상 문서를 지정하기 위해 [EE\_SAVE\_FILEA](../plugin/message/ee_save_filea), [EE\_SAVE\_FILEW](../plugin/message/ee_save_filew), [EE\_GET\_MODIFIED](../plugin/message/ee_get_modified), [EE\_GET\_CONFIGA](../plugin/message/ee_get_configa), [EE\_GET\_CONFIGW](../plugin/message/ee_get_configw), [EE\_SET\_CONFIGA](../plugin/message/ee_set_configa), [EE\_SET\_CONFIGW](../plugin/message/ee_set_configw), 및 [EE\_INFO](../plugin/message/ee_info) 메시지가 확장되었습니다.
+- [Editor\_DocSaveFileA](../plugin/macro/editor_docsavefilea), [Editor\_DocSaveFileW](../plugin/macro/editor_docsavefilew), [Editor\_DocGetModified](../plugin/macro/editor_docgetmodified), [Editor\_DocGetConfigA](../plugin/macro/editor_docgetconfiga), [Editor\_DocGetConfigW](../plugin/macro/editor_docgetconfigw), [Editor\_DocSetConfigA](../plugin/macro/editor_docsetconfiga), [Editor\_DocSetConfigW](../plugin/macro/editor_docsetconfigw), 및 [Editor\_DocInfo](../plugin/macro/editor_docinfo) 인라인 함수가 추가되었습니다.
+- [EE\_INFO](../plugin/message/ee_info) 메시지 매개 변수에 EI\_GET\_DOC\_COUNT, EI\_INDEX\_TO\_DOC, EI\_DOC\_TO\_INDEX, EI\_ZORDER\_TO\_DOC, EI\_DOC\_TO\_ZORDER, EI\_GET\_ACTIVE\_INDEX, EI\_SET\_ACTIVE\_INDEX, EI\_GET\_FULL\_TITLEA, EI\_GET\_FULL\_TITLEW, EI\_GET\_SHORT\_TITLEA, EI\_GET\_SHORT\_TITLEW, EI\_GET\_SAVE\_AS\_TITLEA, EI\_GET\_SAVE\_AS\_TITLEW, EI\_MOVE\_ORDER, EI\_CLOSE\_DOC, 및 EI\_SAVE\_DOC 값은 추가하였습니다.
+- [EE\_GET\_REDRAW](../plugin/message/ee_get_redraw) 메시지가 추가되었습니다.
+- 플러그 인 [이벤트](../plugin/event/index) 에 EVENT\_CREATE\_FRAME, EVENT\_CLOSE\_FRMAE, EVENT\_DOC\_SEL\_CHANGED, EVENT\_TAB\_MOVED, 및 EVENT\_DOC\_CLOSE 값이 추가되었습니다.
+- 새로운 플러그 인 메시지 [EP\_GET\_INFO](../plugin/plugin_message/ep_get_info) 가 추가되었습니다.
+- 플러그 인 사양이 64 비트 플랫폼에 확장되었습니다. [POINT\_PTR](../plugin/structure/point_ptr) 구조와 [SIZE\_PTR](../plugin/structure/size_ptr) 구조가 추가되었습니다.
+- 엄격한 매개 변수 형식 유효성을 강력히 하기 위해 플러그 인 매크로가 인라인 함수로 변경되었습니다.
+- 유니코드는 이제 UTF-16LE로 지정되고, 유니코드(big endian)은 UTF-16BE로 지정되었습니다.
+- 인코딩 변환 옵션이 추가된 새로운 [명령 줄 옵션](../howto/file/file_commandline) (/cps, /ipi, /pos, /sa, /sp, /ss+, /ss-, /ws, and /wss)이 추가되었습니다.
+- [**창 위치 복원** 명령](../cmd/window/restore_pos) 이 추가되었습니다.
+- **[구성 속성](../dlg/properties/index)** 의 [**파일** 탭](../dlg/properties/file/index) 에 **모니터 간격** 텍스트 박스가 추가되었습니다.
+- [**외부 도구** 대화 상자](../dlg/tools/index) 에 **복사** 버튼이 추가되었습니다.
+- 이제 EmEditor Standard에서도 제한 탭 기능이 사용 가능합니다.
+- 한 줄에 많은 문자가 있는 파일을 여는 속도를 최적화 하였습니다.
+- 정규 표현식 엔진(Boost.Regex 1.33.1)을 업데이트 하였습니다. 4 자릿수 유니코드 값을 지정하려면, \\xXXXX 대신에 \\x{XXXX}를 사용하십시오.

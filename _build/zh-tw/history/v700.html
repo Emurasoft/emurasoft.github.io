@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Version 7.00 &#8212; EmEditor  說明文件</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/translations.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <script src="../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜尋" href="../search.html" />
+    <link rel="next" title="Version 8" href="v800.html" />
+    <link rel="prev" title="Version 6.00" href="v600.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../index.html" title="Go to homepage">EmEditor  說明文件</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/history/v700">English</a>
+                <a href="/ja/history/v700">日本語</a>
+                <a href="/ko/history/v700">한국어</a>
+                <a href="/zh-cn/history/v700">简体中文</a>
+                <a href="/zh-tw/history/v700">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">快速搜尋</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="前往" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../cmd/index.html">命令參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dlg/index.html">對話方塊</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.html">常見問題解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">詞彙</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">歷史記錄</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="v1000.html">Version 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1100.html">Version 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1200.html">Version 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1300.html">Version 13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1400.html">Version 14</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_1.html">Version 14.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_2.html">Version 14.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_3.html">Version 14.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_4.html">Version 14.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_5.html">Version 14.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_6.html">Version 14.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_7.html">Version 14.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_8.html">Version 14.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_9.html">Version 14.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_0.html">Version 15.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_1.html">Version 15.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_2.html">Version 15.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_3.html">Version 15.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_4.html">Version 15.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_5.html">Version 15.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_6.html">Version 15.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_7.html">Version 15.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_8.html">Version 15.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_9.html">Version 15.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_0.html">Version 16.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_1.html">Version 16.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_2.html">Version 16.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_3.html">Version 16.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_4.html">Version 16.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_5.html">Version 16.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_6.html">Version 16.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_7.html">Version 16.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_8.html">Version 16.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_9.html">Version 16.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_0.html">Version 17.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_1.html">Version 17.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_2.html">Version 17.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_3.html">Version 17.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_4.html">Version 17.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_5.html">Version 17.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_6.html">Version 17.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_7.html">Version 17.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_8.html">Version 17.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_9.html">Version 17.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_0.html">Version 18.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_1.html">Version 18.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_2.html">Version 18.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_3.html">Version 18.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_4.html">Version 18.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_5.html">Version 18.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_6.html">Version 18.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_7.html">Version 18.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_8.html">Version 18.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_9.html">Version 18.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_0.html">Version 19.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_1.html">Version 19.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_2.html">Version 19.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_3.html">Version 19.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_4.html">Version 19.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_5.html">Version 19.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_6.html">Version 19.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_7.html">Version 19.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_8.html">Version 19.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_9.html">Version 19.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_0.html">Version 20.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_1.html">Version 20.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_2.html">Version 20.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_3.html">Version 20.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_4.html">Version 20.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_5.html">Version 20.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_6.html">Version 20.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_7.html">Version 20.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_8.html">Version 20.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_9.html">Version 20.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_0.html">Version 21.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_1.html">Version 21.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_2.html">Version 21.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_3.html">Version 21.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_4.html">Version 21.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_5.html">Version 21.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_6.html">Version 21.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_7.html">Version 21.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_8.html">Version 21.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_9.html">Version 21.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_0.html">Version 22.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_1.html">Version 22.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_2.html">Version 22.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_3.html">Version 22.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_4.html">Version 22.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v403.html">Version 4.03</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v404.html">Version 4.04</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v405.html">Version 4.05</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v406.html">Version 4.06</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v407.html">Version 4.07</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v408.html">Version 4.08</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v409.html">Version 4.09</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v410.html">Version 4.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v411.html">Version 4.11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v412.html">Version 4.12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v413.html">Version 4.13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v500.html">Version 5.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v600.html">Version 6.00</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Version 7.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v800.html">Version 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v900.html">Version 9</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">如何…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../link/index.html">連結</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macro/index.html">巨集參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notice/index.html">注意事項</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plugin/index.html">外掛程式參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../purchase/index.html">如何購買</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support/index.html">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="index.html">歷史記錄</a> &lt;
+            Version 7.00
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="version-7-00">
+<h1>Version 7.00<a class="headerlink" href="#version-7-00" title="本標頭的永久連結">¶</a></h1>
+<p>2007年12月18日</p>
+<ul class="simple">
+<li><p>新的多線程設計讓您能檢視或編輯文檔當打開一個大檔案時。</p></li>
+<li><p>「從原始檔案中讀取未修改的行」復選框，「鎖定原始檔案」復選框以及「使用異步打開的最小檔案大小」文本框被添加到自訂對話方塊中的 <a class="reference internal" href="../dlg/customize/advanced/index.html"><span class="doc std std-doc">進階選項卡</span></a> 上，更優化打開大檔案的速度。</p></li>
+<li><p>自訂分欄可以通過外掛程式顯示。</p></li>
+<li><p><a class="reference internal" href="../plugin/message/ee_toolbar_open.html"><span class="doc std std-doc">EE_TOOLBAR_OPEN</span></a>， <a class="reference internal" href="../plugin/message/ee_toolbar_close.html"><span class="doc std std-doc">EE_TOOLBAR_CLOSE</span></a>， <a class="reference internal" href="../plugin/message/ee_toolbar_show.html"><span class="doc std std-doc">EE_TOOLBAR_SHOW</span></a>,
+<a class="reference internal" href="../plugin/message/ee_help.html"><span class="doc std std-doc">EE_HELP</span></a>， <a class="reference internal" href="../plugin/message/ee_reg_set_value.html"><span class="doc std std-doc">EE_REG_SET_VALUE</span></a>， <a class="reference internal" href="../plugin/message/ee_reg_query_value.html"><span class="doc std std-doc">EE_REG_QUERY_VALUE</span></a>， <a class="reference internal" href="../plugin/message/ee_query_string.html"><span class="doc std std-doc">EE_QUERY_STRING</span></a>，
+<a class="reference internal" href="../plugin/message/ee_keyboard_prop.html"><span class="doc std std-doc">EE_KEYBOARD_PROP</span></a>， <a class="reference internal" href="../plugin/message/ee_get_accel_array.html"><span class="doc std std-doc">EE_GET_ACCEL_ARRAY</span></a>， <a class="reference internal" href="../plugin/message/ee_output_dir.html"><span class="doc std std-doc">EE_OUTPUT_DIR</span></a>，
+<a class="reference internal" href="../plugin/message/ee_output_string.html"><span class="doc std std-doc">EE_OUTPUT_STRING</span></a>， <a class="reference internal" href="../plugin/message/ee_enum_highlight.html"><span class="doc std std-doc">EE_ENUM_HIGHLIGHT</span></a> 消息被添加到外掛程式界面。</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_toolbaropen.html"><span class="doc std std-doc">Editor_ToolbarOpen</span></a>， <a class="reference internal" href="../plugin/macro/editor_toolbarclose.html"><span class="doc std std-doc">Editor_ToolbarClose</span></a>， <a class="reference internal" href="../plugin/macro/editor_toolbarshow.html"><span class="doc std std-doc">Editor_ToolbarShow</span></a>,
+<a class="reference internal" href="../plugin/macro/editor_help.html"><span class="doc std std-doc">Editor_Help</span></a>， <a class="reference internal" href="../plugin/macro/editor_regsetvalue.html"><span class="doc std std-doc">Editor_RegSetValue</span></a>， <a class="reference internal" href="../plugin/macro/editor_regqueryvalue.html"><span class="doc std std-doc">Editor_RegQueryValue</span></a>， <a class="reference internal" href="../plugin/macro/editor_querystring.html"><span class="doc std std-doc">Editor_QueryString</span></a>，
+<a class="reference internal" href="../plugin/macro/editor_keyboardprop.html"><span class="doc std std-doc">Editor_KeyboardProp</span></a>， <a class="reference internal" href="../plugin/macro/editor_getaccelarray.html"><span class="doc std std-doc">Editor_GetAccelArray</span></a> <a class="reference internal" href="../plugin/macro/editor_docgetlines.html"><span class="doc std std-doc">Editor_DocGetLines</span></a>，
+<a class="reference internal" href="../plugin/macro/editor_outputdir.html"><span class="doc std std-doc">Editor_OutputDir</span></a>， <a class="reference internal" href="../plugin/macro/editor_outputstring.html"><span class="doc std std-doc">Editor_OutputString</span></a>， <a class="reference internal" href="../plugin/macro/editor_enumhighlight.html"><span class="doc std std-doc">Editor_EnumHighlight</span></a> 內嵌函式被添加到外掛程式界面。</p></li>
+<li><p><a class="reference internal" href="../plugin/structure/toolbar_info.html"><span class="doc std std-doc">TOOLBAR_INFO</span></a>， <a class="reference internal" href="../plugin/structure/reg_set_value_info.html"><span class="doc std std-doc">REG_SET_VALUE_INFO</span></a>， <a class="reference internal" href="../plugin/structure/reg_query_value_info.html"><span class="doc std std-doc">REG_QUERY_VALUE_INFO</span></a> 結構被添加到外掛程式界面。</p></li>
+<li><p><a class="reference internal" href="../plugin/event/index.html"><span class="doc std std-doc">EVENT_TOOLBAR_CLOSED，EVENT_TOOLBAR_SHOW 事件</span></a> 被添加到外掛程式界面。</p></li>
+<li><p>EmEditor 現在讓您能編輯比之前版本更大的檔案 (取決于可用的內存)。</p></li>
+<li><p>巨集工具列被添加讓您能更方便地訪問「我的巨集」。</p></li>
+<li><p>您現在能變更一個巨集的圖示，標題，以及工具提示 ( <a class="reference internal" href="../macro/directive/icon.html"><span class="doc std std-doc"><strong>#icon</strong> 指令</span></a>， <a class="reference internal" href="../macro/directive/title.html"><span class="doc std std-doc"><strong>#title</strong> 指令</span></a>， <a class="reference internal" href="../macro/directive/tooltip.html"><span class="doc std std-doc"><strong>#tooltip</strong> 指令</span></a>)。</p></li>
+<li><p><strong>顯示巨集工具列</strong> 復選框被添加到 <a class="reference internal" href="../dlg/toolbars/index.html"><span class="doc std std-doc"><strong>工具列</strong> 對話方塊</span></a> 中。</p></li>
+<li><p><a class="reference internal" href="../dlg/find/index.html"><span class="doc std std-doc"><strong>查找</strong> 對話方塊</span></a> 和 <a class="reference internal" href="../dlg/replace/index.html"><span class="doc std std-doc"><strong>替換</strong> 對話方塊</span></a> 現在可以調整大小。</p></li>
+<li><p>EmEditor 現在不顯示對話方塊就能自動把修改過的檔案保存為前綴為 “AutoSave-” 的檔案名，當 EmEditor 出現故障或當 Windows 在自動更新下被強制重新啟動時。同樣，EmEditor 現在會出現一個提示消息，顯示自動恢復的檔案當重啟時。</p></li>
+<li><p>當打開一個檔案時，在狀態列上顯示的檔案大小現在根據需要以 KB，MB，或 GB 顯示。</p></li>
+<li><p>用鼠標點擊三次能選擇一整行。</p></li>
+<li><p>添加了 <a class="reference internal" href="../macro/editor/editor_querystringbyid.html"><span class="doc std std-doc"><strong>QueryStringByID</strong> 方式</span></a>。</p></li>
+<li><p>EmEditor 能錄制并播放在其他應用程序中的鍵盤以及鼠標操作。</p></li>
+<li><p>添加了 <a class="reference internal" href="../macro/shell/index.html"><span class="doc std std-doc"><strong>Shell</strong> 對象</span></a> 以及 <a class="reference internal" href="../macro/windows/index.html"><span class="doc std std-doc"><strong>Windows</strong> 集合</span></a>。</p></li>
+<li><p><strong><a class="reference internal" href="../macro/window/children.html"><span class="doc std std-doc">Children</span></a></strong>， <strong><a class="reference internal" href="../macro/window/class_name.html"><span class="doc std std-doc">ClassName</span></a></strong>， <strong><a class="reference internal" href="../macro/window/enabled.html"><span class="doc std std-doc">Enabled</span></a></strong>， <strong><a class="reference internal" href="../macro/window/height.html"><span class="doc std std-doc">Height</span></a></strong>,
+<strong><a class="reference internal" href="../macro/window/hwnd.html"><span class="doc std std-doc">hWnd</span></a></strong>， <strong><a class="reference internal" href="../macro/window/leftx.html"><span class="doc std std-doc">LeftX</span></a></strong>， <strong><a class="reference internal" href="../macro/window/output_bar.html"><span class="doc std std-doc">OutputBar</span></a>,</strong> <strong><a class="reference internal" href="../macro/window/parent.html"><span class="doc std std-doc">Parent</span></a></strong>， <strong><a class="reference internal" href="../macro/window/process_id.html"><span class="doc std std-doc">ProcessID</span></a></strong>， <strong><a class="reference internal" href="../macro/window/thread_id.html"><span class="doc std std-doc">ThreadID</span></a></strong>,
+<strong><a class="reference internal" href="../macro/window/top.html"><span class="doc std std-doc">Top</span></a></strong>， <strong><a class="reference internal" href="../macro/window/valid.html"><span class="doc std std-doc">Valid</span></a></strong>， <strong><a class="reference internal" href="../macro/window/visible.html"><span class="doc std std-doc">Visible</span></a></strong>，和 <strong><a class="reference internal" href="../macro/window/width.html"><span class="doc std std-doc">Width</span></a></strong> 屬性還有 <strong><a class="reference internal" href="../macro/window/find_window.html"><span class="doc std std-doc">FindWindow</span></a></strong>，
+<strong><a class="reference internal" href="../macro/window/find_window_by_id.html"><span class="doc std std-doc">FindWindowByID</span></a></strong>， <strong><a class="reference internal" href="../macro/window/set_focus.html"><span class="doc std std-doc">SetFocus</span></a></strong>， <strong><a class="reference internal" href="../macro/window/set_foreground.html"><span class="doc std std-doc">SetForeground</span></a></strong>，和 <strong><a class="reference internal" href="../macro/window/set_position.html"><span class="doc std std-doc">SetPosition</span></a></strong>
+方式被添加到了 <a class="reference internal" href="../macro/window/index.html"><span class="doc std std-doc"><strong>Window</strong> 對象</span></a> 中。</p></li>
+<li><p><a class="reference internal" href="../macro/document/config.html"><span class="doc std std-doc"><strong>Config</strong> 屬性</span></a> 被添加到 <a class="reference internal" href="../macro/document/index.html"><span class="doc std std-doc"><strong>Document</strong> 對象</span></a> 中。</p></li>
+<li><p>添加了配置屬性的對象 ( <a class="reference internal" href="../macro/association_item/index.html"><span class="doc std std-doc"><strong>AssociationItem</strong> 對象</span></a>， <a class="reference internal" href="../macro/association_list/index.html"><span class="doc std std-doc"><strong>AssociationList</strong> 集合</span></a>，
+<a class="reference internal" href="../macro/association_prop/index.html"><span class="doc std std-doc"><strong>AssociationProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/auto_save_prop/index.html"><span class="doc std std-doc"><strong>AutoSaveProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/backup_prop/index.html"><span class="doc std std-doc"><strong>BackupProp</strong> 對象</span></a>，
+<a class="reference internal" href="../macro/config/index.html"><span class="doc std std-doc"><strong>Config</strong> 對象</span></a>， <a class="reference internal" href="../macro/configs/index.html"><span class="doc std std-doc"><strong>Configs</strong> 集合,</span></a> <a class="reference internal" href="../macro/display_item/index.html"><span class="doc std std-doc"><strong>DisplayItem</strong> 對象</span></a>， <a class="reference internal" href="../macro/display_list/index.html"><span class="doc std std-doc"><strong>DisplayList</strong> 集合</span></a>，
+<a class="reference internal" href="../macro/display_prop/index.html"><span class="doc std std-doc"><strong>DisplayProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/file_new_prop/index.html"><span class="doc std std-doc"><strong>FileNewProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/file_save_prop/index.html"><span class="doc std std-doc"><strong>FileSaveProp</strong> 對象</span></a>，
+<a class="reference internal" href="../macro/file_prop/index.html"><span class="doc std std-doc"><strong>FileProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/font_item/index.html"><span class="doc std std-doc"><strong>FontItem</strong> 對象</span></a>， <a class="reference internal" href="../macro/font_list/index.html"><span class="doc std std-doc"><strong>FontList</strong> 集合</span></a>， <a class="reference internal" href="../macro/font_prop/index.html"><span class="doc std std-doc"><strong>FontProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/general_prop/index.html"><span class="doc std std-doc"><strong>GeneralProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/highlight_item/index.html"><span class="doc std std-doc"><strong>HighlightItem</strong> 對象</span></a>， <a class="reference internal" href="../macro/highlight_list/index.html"><span class="doc std std-doc"><strong>HighlightList</strong> 集合</span></a>，
+<a class="reference internal" href="../macro/highlight_prop/index.html"><span class="doc std std-doc"><strong>HighlightProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/indent_prop/index.html"><span class="doc std std-doc"><strong>IndentProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/keyboard_item/index.html"><span class="doc std std-doc"><strong>KeyboardItem</strong> 對象</span></a>，
+<a class="reference internal" href="../macro/keyboard_list/index.html"><span class="doc std std-doc"><strong>KeyboardList</strong> 集合</span></a>， <a class="reference internal" href="../macro/keyboard_prop/index.html"><span class="doc std std-doc"><strong>KeyboardProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/link_prop/index.html"><span class="doc std std-doc"><strong>LinkProp</strong> 對象</span></a>，
+<a class="reference internal" href="../macro/mark_prop/index.html"><span class="doc std std-doc"><strong>MarkProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/no_wrap_item/index.html"><span class="doc std std-doc"><strong>NoWrapItem</strong> 對象</span></a>， <a class="reference internal" href="../macro/no_wrap_list/index.html"><span class="doc std std-doc"><strong>NoWrapList</strong> 集合</span></a>，
+<a class="reference internal" href="../macro/no_wrap_prop/index.html"><span class="doc std std-doc"><strong>NoWrapProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/print_prop/index.html"><span class="doc std std-doc"><strong>PrintProp</strong> 對象</span></a>， <a class="reference internal" href="../macro/scroll_prop/index.html"><span class="doc std std-doc"><strong>ScrollProp</strong> 對象</span></a>，和
+<a class="reference internal" href="../macro/wrap_prop/index.html"><span class="doc std std-doc"><strong>WrapProp</strong> 對象</span></a>)。</p></li>
+<li><p>The <a class="reference internal" href="../macro/document/getline.html"><span class="doc std std-doc"><strong>GetLine</strong> 方式</span></a>， <a class="reference internal" href="../macro/document/getlines.html"><span class="doc std std-doc"><strong>GetLines</strong> 方式</span></a> 被添加到 <a class="reference internal" href="../macro/document/index.html"><span class="doc std std-doc"><strong>Document</strong> 對象</span></a> 中。</p></li>
+<li><p>The <a class="reference internal" href="../macro/editor/configs.html"><span class="doc std std-doc"><strong>Configs</strong> 方式</span></a> 被添加到 <a class="reference internal" href="../macro/editor/index.html"><span class="doc std std-doc"><strong>Editor</strong> 對象</span></a> 中。</p></li>
+<li><p>添加了 <a class="reference internal" href="../macro/output_bar/index.html"><span class="doc std std-doc"><strong>OutputBar</strong> 對象</span></a>。</p></li>
+<li><p>支持虛擬空間模式 (在配置屬性中的 <a class="reference internal" href="../dlg/properties/general/index.html"><span class="doc std std-doc"><strong>一般</strong> 選項卡</span></a> 上添加了 <strong>啟用虛擬空間</strong> 復選框)。</p></li>
+<li><p>「打開」對話方塊現在能允許同時打開多個檔案。</p></li>
+<li><p><a class="reference internal" href="../features/portable.html"><span class="doc std std-doc">便攜性選項 (為 USB 驅動器安裝準備)</span></a></p></li>
+<li><p><strong>記錄鼠標活動及鍵盤輸入到其他應用程序中</strong> 復選框， <strong>錄制所有鼠標動作</strong> 復選框，以及 <strong>在插入休眠模式前的空閑時間</strong> 文本框被添加到了 <a class="reference internal" href="../dlg/macro_customize/index.html"><span class="doc std std-doc"><strong>自訂巨集</strong> 對話方塊</span></a> 中的 <a class="reference internal" href="../dlg/macro_customize/options/index.html"><span class="doc std std-doc"><strong>選項</strong> 選項卡</span></a> 上。</p></li>
+<li><p>添加了新的外掛程式: <a class="reference internal" href="../howto/plugin/plugin_projects.html"><span class="doc std std-doc">專案外掛程式</span></a>，查找欄外掛程式 <a class="reference internal" href="../howto/plugin/plugin_htmlbar.html"><span class="doc std std-doc">HTML 工具列外掛程式</span></a>，以及 <a class="reference internal" href="../howto/plugin/plugin_wordcomplete.html"><span class="doc std std-doc">字詞自動完成外掛程式</span></a>。</p></li>
+<li><p><a class="reference internal" href="../cmd/view/show_macros_bar.html"><span class="doc std std-doc"><strong>巨集工具列</strong></span></a>， <a class="reference internal" href="../cmd/view/refresh_toolbars.html"><span class="doc std std-doc"><strong>刷新工具列</strong></span></a>， <strong><a class="reference internal" href="../cmd/macros/record_mouse.html"><span class="doc std std-doc">錄制所有動作</span></a></strong>,
+<strong><a class="reference internal" href="../cmd/macros/record_no_mouse.html"><span class="doc std std-doc">錄制除鼠標/鍵盤外的所有動作</span></a></strong>， <strong><a class="reference internal" href="../cmd/window/left_custom_bar.html"><span class="doc std std-doc">左自訂分欄</span></a></strong>， <strong><a class="reference internal" href="../cmd/window/top_custom_bar.html"><span class="doc std std-doc">頂部自訂分欄</span></a></strong>， <strong><a class="reference internal" href="../cmd/window/right_custom_bar.html"><span class="doc std std-doc">右自訂分欄</span></a></strong>， <strong><a class="reference internal" href="../cmd/window/bottom_custom_bar.html"><span class="doc std std-doc">底部自訂分欄</span></a></strong> 命令被推薦了。</p></li>
+<li><p><a class="reference internal" href="../cmd/search/edit_replace.html"><span class="doc std std-doc"><strong>替換</strong> 命令</span></a>，
+<a class="reference internal" href="../cmd/edit/make_upper.html"><span class="doc std std-doc"><strong>大寫</strong> 命令</span></a>，
+<a class="reference internal" href="../cmd/edit/make_lower.html"><span class="doc std std-doc"><strong>小寫</strong> 命令</span></a>，
+<a class="reference internal" href="../cmd/edit/capitalize.html"><span class="doc std std-doc"><strong>Capitalize</strong> 命令</span></a>, <a class="reference internal" href="../cmd/edit/zen_to_han.html"><span class="doc std std-doc"><strong>半角</strong> 命令</span></a>，以及 <a class="reference internal" href="../cmd/edit/han_to_zen.html"><span class="doc std std-doc"><strong>全角</strong> 命令</span></a> 現在能轉換一個垂直選取的區域。</p></li>
+<li><p>當打印時，一個有 <strong>換頁</strong> 碼 (U+000C) 的文檔現在可以在代碼處插入一個新的分頁。</p></li>
+<li><p>文本以及背景顏色添加了 <strong>透明</strong> 選項。</p></li>
+<li><p><a class="reference internal" href="../dlg/properties/general/indent/index.html"><span class="doc std std-doc"><strong>制表符/縮進</strong> 對話方塊</span></a> 中添加了 <strong>換行縮進</strong> 復選框。</p></li>
+<li><p><a class="reference internal" href="../dlg/customize/index.html"><span class="doc std std-doc">自訂對話方塊</span></a> 中 <a class="reference internal" href="../dlg/customize/window/index.html"><span class="doc std std-doc"><strong>窗口</strong> 選項卡</span></a> 添加了 <strong>自動保存工作區</strong> 復選框以及 <strong>自動還原工作區</strong> 復選框。</p></li>
+<li><p><strong>全部高亮</strong> 復選框被添加到 <a class="reference internal" href="../dlg/properties/index.html"><span class="doc std std-doc">配置屬性</span></a> 中的 <a class="reference internal" href="../dlg/properties/highlight1/index.html"><span class="doc std std-doc"><strong>高亮 (1)</strong> 選項卡</span></a> 上。</p></li>
+<li><p><a class="reference internal" href="../dlg/properties/index.html"><span class="doc std std-doc">配置屬性</span></a> 中的 <a class="reference internal" href="../dlg/properties/scroll/index.html"><span class="doc std std-doc"><strong>滾動</strong> 選項卡</span></a> 添加了 <strong>平滑滾動</strong> 復選框以及 <strong>平滑滾動</strong> 滑塊。</p></li>
+<li><p>您現在能把一個庫檔案包括進一個巨集中 ( <a class="reference internal" href="../macro/directive/include.html"><span class="doc std std-doc"><strong>#include</strong> 指令</span></a>)。</p></li>
+<li><p>添加了 <a class="reference internal" href="../howto/file/file_commandline.html"><span class="doc std std-doc">新命令行選項 ( <strong>/ne</strong>)</span></a>。</p></li>
+<li><p>添加了 <strong>列</strong> 文本框到 <a class="reference internal" href="../dlg/jump/index.html"><span class="doc std std-doc"><strong>跳轉</strong> 對話方塊</span></a> 中。</p></li>
+<li><p>當多個檔案被修改并且 <strong>全部關閉</strong> 命令被選取， <strong>保存更改到…</strong> 消息框現在包括 <strong>全部應用</strong> 復選框。</p></li>
+<li></li>
+</ul>
+<p>EI_GET_CURRENT_FOLDER and EI_IS_LARGE_DOC 命令被添加到
+<a class="reference internal" href="../plugin/message/ee_info.html"><span class="doc std std-doc">EE_INFO</span></a> 消息 ( <a class="reference internal" href="../plugin/macro/editor_info.html"><span class="doc std std-doc">Editor_Info</span></a>， <a class="reference internal" href="../plugin/macro/editor_docinfo.html"><span class="doc std std-doc">Editor_DocInfo</span></a> 內嵌函式)中。</p>
+<ul class="simple">
+<li><p><strong>輸出編碼</strong> 下拉列表框被添加到 <a class="reference internal" href="../dlg/tools/properties/index.html"><span class="doc std std-doc"><strong>外部工具屬性</strong> 對話方塊</span></a> 中。</p></li>
+<li><p>「關閉」按鈕可以在激活的選項卡或每個選項卡上顯示 (在「自訂」對話方塊框中「標簽」選項卡上的 <strong>關閉按鈕</strong> 下拉列表框中設定)。</p></li>
+<li><p>只讀圖示能被顯示在標簽上。( <strong>顯示只讀圖示</strong> 復選框)。</p></li>
+<li><p>在「查找」下拉列表框中用 ALT + DELETE 從搜尋記錄中清除一個項目。</p></li>
+<li><p>用戶定義的菜單允許兩次按鍵快捷方式 ( <a class="reference internal" href="../dlg/menus/index.html"><span class="doc std std-doc"><strong>延時</strong> 滑塊</span></a>)。</p></li>
+<li><p><strong>主題</strong> 下拉列表框 drop-down list box，the <strong>「&gt;」</strong> 按鈕， <strong>字符間距</strong> 文本框被添加到配置屬性中的 <strong><a class="reference internal" href="../dlg/properties/display/index.html"><span class="doc std std-doc">顯示選項卡</span></a></strong> 上。</p></li>
+<li><p>您可以定義事件驅動的巨集。( <strong>「事件」</strong> 按鈕， <strong>在發生事件時運行</strong> 復選框， <strong>事件</strong> 文本框， <a class="reference internal" href="../dlg/macro_customize/my_macros/select_events/index.html"><span class="doc std std-doc"><strong>選擇事件</strong> 對話方塊</span></a>)。</p></li>
+<li><p>在 Windows Vista 系統上， <strong>打開</strong>/ <strong>另存為</strong> 對話方塊現在與Windows Vista設計一致，讓您能輕松訪問檔案的歷史版本，這也是 Windows Vista 的功能之一。</p></li>
+<li><p>安裝程序現在讓您能更改安裝程序資料夾如果前一個版本已經被安裝的話。</p></li>
+</ul>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; 版權所有 2023 Emurasoft。
+      使用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 建立。
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

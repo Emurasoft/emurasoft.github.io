@@ -1,0 +1,73 @@
+# Version 14.6
+
+2014年 10月 21日
+
+## 一般の新機能
+
+- 新バージョンでは、8 種類までの CSV フォーマットを定義できるようになりました。区切りには、39文字までの文字列を指定できます。\[2重引用符内の区切り文字を許可\]、\[2重引用符内の改行を許可\] チェック ボックスが追加され、ヘディングの行数が指定できるようになりました。ヘディングは、ファイルの先頭の非スクロール領域で、文書の下の方へスクロールしても、ヘディングはエディタの上部に常に表示されます。ヘディングを書き換え禁止の設定にすることも可能です。
+- \[CSV/並べ替え\] ツール バーが追加され、CSV 関連の機能が大幅に強化されました。
+- \[CSV/並べ替え\] ツール バーで、CSV モードの変更、CSV の変換、固定幅カラムに変換、各種カラム/セパレータ関連のコマンド、並べ替えコマンド、\[重複行を削除\] コマンド、行番号、ルーラーの表示/非表示切り替え、ヘディングの設定を行えるようになりました。
+- 次のコマンドは、Shift を押しながら実行することで、現在のグループ内のすべての文書に対して適用されます — \[通常モード\]、CSVモード切替各コマンド、指定するCSVに変換する各コマンド、\[固定幅カラムに変換\]、各種並べ替えコマンド、\[重複行を削除\]、\[ヘディング 0～4\]、\[区切り位置を調節\]、\[自動的にセパレーターを追加\]、\[すべてのセパレーターを削除\]
+- \[複数列で並べ替え\] コマンドが追加されました。
+- フィルター ツール バーが追加され、指定する文字列に一致する行のみを表示することができるようになりました。
+- [\[検索\] ダイアログ ボックス](../dlg/find/index) に \[抽出\] ボタンが追加されました。\[抽出\] ボタンを押すと、検索文字列を含む行を抽出して新規作成します。
+- ルーラーのダブルクリックで、ヘディングを除く部分の列選択になりました。トリプルクリックで、すべての部分の列選択になりました。また、ダブル/トリプルクリックの後、マウスボタンを押した状態で、マウスを左右に動かすことで、複数の列を選択できるようになりました。
+- ルーラーをダブルクリックした時に、列が自動調節されないようになりました。
+- v14.5.4 で無効にしていた更新チェッカー機能が復活しました。新しい更新チェッカーは、更新チェッカーと同じデジタル証明書で署名された更新プログラムのみをインストールします。
+
+## 新しい設定
+
+- \[カスタマイズ\] ダイアログに [\[CSV\] タブ](../dlg/customize/csv/index) が追加されました。
+- 設定のプロパティの [\[ファイル\] タブ](../dlg/properties/file/index) に、\[検出するCSV\] リスト ボックスが追加され、\[CSV (カンマ区切り) を検出\] チェック ボックス、\[CSV (カンマ区切り) を検出\] チェック ボックス、\[DSV (ユーザー定義区切り) を検出\] チェック ボックスは廃止になりました。\[区切り\] テキスト ボックスは、\[カスタマイズ\] ダイアログの
+[\[CSV\] タブ](../dlg/customize/csv/index) に移動しました。
+- [\[検索\] ダイアログ ボックス](../dlg/find/index) に \[選択した範囲のみ\] チェックボックスを追加しました (\[置換\] ダイアログ ボックスには以前から存在しました)。これにより、例えば、CSV ファイルの特定の列のみから検索することができるようになりました。
+- 設定のプロパティの [\[表示\] タブ](../dlg/properties/display/index) に \[ヘディング\]、\[検索範囲\]、\[フィルター\] が追加されました。
+- 設定のプロパティの [\[ファイル\] タブ](../dlg/properties/file/index) に、\[UTF-8を優先する\] チェック ボックスが追加されました。
+
+## 新コマンド
+
+- [ヘディングの設定/解除](../cmd/edit/heading_toggle)
+- [ヘディングの設定](../cmd/edit/heading_set)
+- [ヘディングの解除](../cmd/edit/heading_reset)
+- [固定幅列に変換](../cmd/edit/convert_to_fixed_width)
+- [セパレーターを追加/削除](../cmd/edit/add_remove_separator)
+- [自動的にセパレーターを追加](../cmd/edit/auto_add_separators)
+- [すべてのセパレーターを削除](../cmd/edit/remove_all_separators)
+- [列を挿入](../cmd/edit/insert_column)
+- [列を追加](../cmd/edit/add_column)
+- [垂直選択](../cmd/edit/vertical_selection)
+- [CSV/並べ替えツール バー](../cmd/view/show_sv_bar)
+- 次のCSVに変換 (ポップアップ メニュー)
+- [列/セパレーター (ポップアップ メニュー)](../cmd/edit/sv_sep_popup)
+- [ヘディング 1](../cmd/edit/heading_1)
+- [ヘディング 2](../cmd/edit/heading_2)
+- [ヘディング 3](../cmd/edit/heading_3)
+- [ヘディング 4](../cmd/edit/heading_4)
+- [ヘディング (ポップアップ メニュー)](../cmd/edit/heading_popup)
+- [CSVモード (ポップアップ メニュー)](../cmd/edit/sv_popup)
+- [ヘディングは書き換え禁止](../cmd/edit/read_only_headings)
+- [区切り位置を調節 (表示されている行のみ)](../cmd/edit/adjust_column_visible)
+- [不要な2重引用符を削除](../cmd/edit/remove_unnecessary_quotes)
+- [複数列で並べ替え](../cmd/edit/sort_multi)
+- [フィルター用の表現の参照 (フィルター ツール バー)](../cmd/search/filterbar_browse_exp_f)
+- [最新の情報に更新 (フィルター ツール バー)](../cmd/search/filterbar_refresh)
+- [インクリメンタル サーチ (フィルター ツール バー)](../cmd/search/filterbar_incremental)
+- [大文字と小文字を区別する (フィルター ツール バー)](../cmd/search/filterbar_case)
+- [正規表現を使用する (フィルター ツール バー)](../cmd/search/filterbar_reg_exp)
+- [エスケープ シーケンスを使用する (フィルター ツール バー)](../cmd/search/filterbar_escape)
+- [単語のみ検索する (フィルター ツール バー)](../cmd/search/filterbar_only_word)
+- [フィルター ツール バー](../cmd/view/show_filter_bar)
+- [フィルター ツール バーにフォーカスを設定する](../cmd/search/focus_filter_bar)
+- [フィルター ツール バーを閉じる](../cmd/search/close_filter_bar)
+- [中止 (フィルター ツール バー)](../cmd/search/filterbar_abort)
+- [複数行の変更をブロック (フィルター ツール バー)](../cmd/search/filterbar_limit)
+- [CSV (複数項目)](../cmd/edit/sv_mode)
+- [次のCSVに変換 (複数項目)](../cmd/edit/convert_to_sv)
+
+## マクロの新機能
+
+- Document オブジェクトに、 [HeadingLines](../macro/document/heading_lines)、 [NarrowingTop](../macro/document/narrowing_top)、 [NarrowingBottom](../macro/document/narrowing_bottom) プロパティが追加されました。
+
+## 新しいプラグイン API
+
+- EI\_GET\_HEADING\_LINES、EI\_SET\_HEADING\_LINES、EI\_GET\_NARROWING\_TOP、EI\_SET\_NARROWING\_TOP、EI\_GET\_NARROWING\_BOTTOM、EI\_SET\_NARROWING\_BOTTOM フラグ ( [EE\_INFO メッセージ](../plugin/message/ee_info))

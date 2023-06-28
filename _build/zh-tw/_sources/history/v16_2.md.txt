@@ -1,0 +1,38 @@
+# Version 16.2
+
+2016年10月4日
+
+## 一般新增功能
+
+- 篩選工具列讓你能指定額外顯示符合行之前以及之後的行數。 **符合行以上的額外的可見行數** 與 **符合行以下的額外的可見行數** 下列清單方塊被添加到了篩選工具列上。
+- **尋找抽出** 功能可以指定符合行以上及一下的可見行數，還可以指定分隔符，把符合行與額外的可見行分隔。
+- 添加了全部抽出按鈕到取代對話方塊中，讓你能用規則運算式抽出所有符合的字串，并用取代表達式取代。例如，在 **尋找** 文字方塊中輸入 **<h3>(.\*?)</h3>**，并在取代為文字方塊中輸入 **\\1**，勾選 **使用規則運算式** 核取方塊，然后點擊全部抽出，EmEditor 會抽出在 **<h3>** 和 **</h3>** 之間的所有字串到一個新的文檔中。
+- 優化了篩選速度。
+
+## 新增選項
+
+- 添加了 **按日期和時間從舊到新排序** 和 **按日期和時間從新到舊排序** 選項按鈕到 [**多欄排序** 對話方塊](../dlg/sort_multi/index) 中。
+- 添加了 **符合行以上的額外的行數** 與 **符合行以下的額外的行數** 下列清單方塊以及 **分隔符** 文字方塊到 **抽出選項** 對話方塊中。
+- 添加了 **「全部抽出」** 按鈕到 **取代** 對話方塊中。
+
+## 新增命令
+
+- [按日期和時間從舊到新排序](../cmd/edit/sort_date_a)
+- [按日期和時間從新到舊排序](../cmd/edit/sort_date_d)
+
+## 外掛程式 API 新增功能
+
+- 添加了 **EI\_GET\_FILTER\_VISIBLE\_LINES\_ABOVE**， **EI\_SET\_FILTER\_VISIBLE\_LINES\_ABOVE**， **EI\_GET\_FILTER\_VISIBLE\_LINES\_BELOW**， **EI\_SET\_FILTER\_VISIBLE\_LINES\_BELOW** 標志到 [EE\_INFO 消息](../plugin/message/ee_info) 中。
+- 添加了 **POS\_CELL\_LOGICAL** 以及 **POS\_CELL\_VIEW** 標志到 **EE\_GET\_ANCHOR\_POS**， **EE\_GET\_CARET\_POS**， **EE\_GET\_SEL\_START**， **EE\_GET\_SEL\_END**， **EE\_SET\_CARET\_POS**，以及 **EE\_SET\_ANCHOR\_POS** 消息。
+
+## 巨集的新增功能
+
+- **[VisibleLinesAbove](../macro/filters/visible_lines_above)** 和 **[VisibleLinesBelow](../macro/filters/visible_lines_below)** 屬性被添加到了 [**Filters** 集合](../macro/filters/index) 中。
+- **eePosCellLogical** 和 **eePosCellView** 標志被添加到了 **[GetActivePointY](../macro/selection/selection_getactivepointy)**， **[GetAnchorPointY](../macro/selection/selection_getanchorpointy)**， **[SetActivePoint](../macro/selection/selection_setactivepoint)**， **[SetAnchorPoint](../macro/selection/selection_setanchorpoint)**， **[GetBottomPointY](../macro/selection/selection_getbottompointy)**，和 **[GetTopPointY](../macro/selection/selection_gettoppointy)** 方法中。
+
+## Bug Fixes
+
+- 修復了在使用 **多檔取代** 命令時，UTF-8 檔案的 Unicode 簽名 (BOM) 會消失的 bug。
+- 修復了在 **抽出選項** 對話方塊中，勾選 **顯示為輸出欄** 核取方塊，然后執行 **全部抽出** 命令會導致 EmEditor 故障的 bug。
+- 修復了不勾選「按住 CTRL 鍵并單擊以選擇單字」選項時，按住 CTRL 鍵雙擊時會取消目前的選取的部分的 bug。
+- 修復了在加載一個很大檔案的同時切換到 CSV 模式會導致 EmEditor 故障的 bug。

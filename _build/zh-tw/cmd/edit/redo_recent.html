@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>重做最近 (多個條目) 命令 &#8212; EmEditor  說明文件</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../search.html" />
+    <link rel="next" title="刪除所有分隔符號命令" href="remove_all_separators.html" />
+    <link rel="prev" title="全部重做命令" href="redo_all.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  說明文件</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/cmd/edit/redo_recent">English</a>
+                <a href="/ja/cmd/edit/redo_recent">日本語</a>
+                <a href="/ko/cmd/edit/redo_recent">한국어</a>
+                <a href="/zh-cn/cmd/edit/redo_recent">简体中文</a>
+                <a href="/zh-tw/cmd/edit/redo_recent">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">快速搜尋</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="前往" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">命令參考</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bookmarks/index.html">書籤類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../convert/index.html">轉換類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../csv/index.html">CSV 類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../diff/index.html">比較類別</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">編輯類別</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="add_column.html">添加欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_quotes.html">添加引號到所有儲存格上命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_remove_markers.html">添加/刪除標記命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_remove_separator.html">添加/刪除分隔符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_to_markers.html">添加至標記命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="adjust_column.html">調整分隔符號位置命令 (整個文件) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="adjust_column_visible.html">調整分隔符號位置 (僅可見行) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="auto_add_separators.html">自動添加分隔符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="auto_copy.html">自動復制命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="auto_fill.html">自動填滿/自動重複命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="back.html">刪除左側字元命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_clear.html">清除目前文件中的所有書籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_copy.html">複製目前的文件中書籤標示行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_cut.html">剪下目前的文件中書籤標示行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_delete.html">刪除目前的文件中的書籤標示行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_extract.html">擷取目前的文件中的書籤標示行到新檔案中命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_group_clear.html">清除目前的群組中全部的書籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_group_delete.html">刪除目前的群組中書籤標示行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_group_extract.html">抽出目前的群組中所有書籤標示行至新檔案命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_group_invert.html">倒置目前的群組中的書籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_invert.html">倒置目前的文件中的書籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_next.html">轉到本組文件的下一個書籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_next_around.html">目前文檔中的下一個書籤（周圍）命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_next_within.html">目前的文檔中的下一個書籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_prev.html">轉到本組文件的上一個書籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_prev_around.html">目前文檔中的上一個書籤（周圍）命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_prev_within.html">目前的文檔中的上一個書籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_reset.html">重設書籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_select.html">選擇目前的文件中書籤標示行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_set.html">設置書籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bookmark_toggle.html">設置或清除書籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bottom.html">文檔底部命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bottom_edge.html">下邊緣 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="box_extend_down.html">向下延伸一行 (垂直選擇模式)命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="box_extend_left.html">向左延伸一個字元 (垂直選擇模式)命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="box_extend_right.html">向右延伸一個字元 (垂直選擇模式)命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="box_extend_up.html">向上延伸一行 (垂直選擇模式)命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cancel_bottom_sel.html">取消多選區最下方選取命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cancel_top_sel.html">取消多選區最上方選取命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="capitalize.html">首字母大寫命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="caret_back.html">后退命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="caret_forward.html">前進命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clear_contents.html">清除內容 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clear_undo_redo_history.html">清除所有復原/重做歷史命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clear_visit_history.html">清除瀏覽過的連結記錄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clipboard_history.html">顯示剪貼簿記錄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="combine_columns.html">合併欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="combine_lines.html">合併行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="convert.html">半形/全形轉換命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="convert_to_fixed_width.html">固定欄寬命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="convert_to_sv.html">轉換為 CSV (多個項目) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copy_column.html">復制欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_cell_mode.html">儲存格選擇模式命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_converter.html">CSV 轉換器命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_down.html">下方儲存格 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_edit_cell.html">編輯儲存格 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_next_cell.html">下一個儲存格 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_prev_cell.html">上一個儲存格 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_up.html">上方儲存格 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csv_validate.html">語法檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cut_column.html">剪下欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_base64.html">將 Base64 轉換為純文字 (目前的編碼) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_base64_binary.html">Base64 轉換為二進位檔案命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_base64_utf8.html">將 Base64 轉換為純文字 (UTF-8) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_html_char_ref.html">將 HTML/XML 字元參照轉換為 Unicode 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_percent.html">將百分號編碼轉換為 Unicode (目前的編碼)命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_percent_utf8.html">將百分號編碼轉換為 Unicode (UTF-8)命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decode_ucn.html">通用字元名稱轉換為 Unicode 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete.html">刪除命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_column.html">刪除欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_complete.html">完全刪除命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_cr_wrap.html">移除換行字元命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_duplicate.html">刪除重複行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_duplicate_advanced.html">刪除/把重複行設為書籤 (進階) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_left_line.html">刪除到行首命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_left_word.html">刪除左側單字命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_line.html">刪除行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_right_line.html">刪除到行末命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_right_word.html">刪除右側單字命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_word.html">刪除單字命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="down.html">下一行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="duplicate_column.html">複製欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="duplicate_line.html">複製行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_comment.html">註解命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy.html">複製命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_deselect.html">複製並取消選擇命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_line.html">複製行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_link.html">複製連結命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_prefix.html">複製為引用文字命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_prefix_deselect.html">複製為引用文字并取消選擇命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_copy_sel.html">複製選區命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_cut.html">剪下命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_cut_line.html">剪下行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_cut_sel.html">剪下選區命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_paste.html">貼上命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_paste_ansi.html">貼上為系統預設編碼命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_redo.html">重做命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_select_all.html">全選命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_uncomment.html">取消註解命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_undo.html">復原命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_base64.html">將純文字轉換為 Base64 (目前的編碼) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_base64_binary.html">二進位檔案轉換為 Base64</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_base64_utf8.html">將純文字轉換為 Base64 (UTF-8) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_html_char_entity_ref.html">將 Unicode 轉換為 HTML 字元實體參照命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_html_char_ref.html">將 Unicode 轉換為 HTML/XML 字元值參照命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_percent.html">將 Unicode 轉換為百分號編碼 (目前的編碼) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_percent_utf8.html">將 Unicode 轉換為百分號編碼 (UTF-8) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="encode_ucn.html">將 Unicode 轉換為通用字元名稱命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="end.html">移至行末命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="escape.html">取消選擇命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="extract_columns.html">擷取欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="filter_column.html">在欄中篩選命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="filter_out_column.html">在欄中篩選除外命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="filter_out_word.html">篩選除所選內容或游標處文字命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="filter_word.html">用選取內容或游標處的單字篩選</a></li>
+<li class="toctree-l3"><a class="reference internal" href="flash_fill.html">快速填入 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="force_clipboard_text.html">強制轉換剪貼簿格式為文字格式命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="han_to_zen.html">全形命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_1.html">欄標題 1 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_2.html">欄標題 2 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_3.html">欄標題 3 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_4.html">欄標題 4 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_popup.html">標題 (快顯) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_reset.html">欄標題 0 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_set.html">設置標題（凍結窗格）命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heading_toggle.html">顯示或隱藏標題（凍結或取消凍結窗格）命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="home.html">移至行首命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="home_text.html">移至行首或文字起始位置命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="indent.html">增加行縮排命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert.html">插入/覆寫命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_acute.html">插入尖音符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_caron.html">插入變音符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_cedilla.html">插入下加符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_circumflex.html">插入抑揚符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_column.html">在左邊插入一欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_column_right.html">在右邊插入一欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_control.html">插入特殊字元命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_copyright.html">插入版權符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_cr.html">插入 CR 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_cr_lf.html">插入 CR 和 LF 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_cr_wrap.html">插入換行字元命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_date.html">時間和日期命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_date_time.html">日期和時間命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_diaeresis.html">插入分音符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_euro.html">插入歐元符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_grave.html">插入低音符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_inverted_exclamation.html">插入倒轉的驚嘆號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_inverted_question.html">插入倒轉的問號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_lf.html">插入 LF 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_ligature.html">插入連字符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_macron.html">插入長音符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_registered.html">插入注冊符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_ring_above.html">插入圓環重音符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_stroke.html">插入畫線符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_tab.html">插入 Tab 鍵命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_tilde.html">插入波狀符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="insert_trademark.html">插入商標符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="invert_selection.html">反向選擇命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="join_csv.html">合併 CSV 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="join_lines.html">連接行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="jump.html">跳轉命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="jump_next.html">跳轉到下一個命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="jump_prev.html">跳轉到上一個命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="left.html">左移一個字元命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="left_edge.html">左邊緣 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="left_word.html">左移一個單字命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="line_open_above.html">在上方插入一行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="line_open_below.html">在下方插入一行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="link_open.html">打開連結命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="logical_end.html">移至邏輯行行末命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="logical_home.html">移至邏輯行行首命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="logical_home_text.html">移至邏輯行行首或文字起始位置命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="make_columns_same.html">使欄數相同命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="make_lower.html">小寫命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="make_upper.html">大寫命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mode_csv.html">CSV 模式命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mode_dsv.html">使用者自訂的 DSV 模式命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mode_normal.html">標準模式命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mode_tsv.html">TSV 模式命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_column.html">移動/復制欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_column_left.html">向左移動資料欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_column_right.html">向右移動資料欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_last_edit.html">移動到上次編輯位置命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_line_down.html">向下移動行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_line_up.html">向上移動行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="narrowing_off.html">停用僅編輯選定區域模式命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="narrowing_on.html">啟用僅編輯選定區域模式命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="narrowing_toggle.html">切換僅編輯選定區域模式命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_cell.html">下一儲存格命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_logical_line.html">下一邏輯行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_paren.html">尋找配對的括號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_tag.html">搜尋符合的標籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="numbering.html">編號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_collapse_all.html">全部折疊命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_collapse_line.html">折疊目前的行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_expand_all.html">全部展開命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_expand_line.html">展開目前的行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_level.html">級別 2-16 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_next_node.html">下一個節點命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_prev_node.html">上一個節點命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_sync_bar_to_guide.html">同步大綱顯示條和大綱導引命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outline_toggle_line.html">展開/折疊目前的行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pagedown.html">下一頁命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pageup.html">上一頁命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paste_history.html">循環貼上命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paste_html.html">貼上為 HTML 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paste_prefix.html">貼為引文命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paste_prefix_return.html">貼為引文并換行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paste_return.html">貼上并換行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pivot_table.html">樞紐分析表命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="prev_cell.html">上一儲存格命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="prev_logical_line.html">上一邏輯行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="read_only.html">唯讀命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="read_only_headings.html">欄標題唯讀命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reconvert.html">重新轉換命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="redo_all.html">全部重做命令</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">重做最近 (多個條目) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remove_all_separators.html">刪除所有分隔符號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remove_embedded_nl.html">在 CSV 中刪除內嵌新行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remove_empty_columns.html">刪除空欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remove_empty_lines.html">刪除空行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remove_unnecessary_quotes.html">刪除不需要的雙引號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="repeat_last_command.html">重複上一個指令命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="repeat_steps.html">重複步驟命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reset_column_width.html">重設欄寬命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="restore_deleted.html">還原已刪除的字串命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="right.html">右移一個字元命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="right_edge.html">右邊緣 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="right_word.html">右移一個單字命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="right_word_end.html">右移到單字末尾命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sel_trim_left.html">刪除開頭空格命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sel_trim_right.html">刪除尾端空格命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_begin_lines.html">選擇行首命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_box.html">方塊垂直選取命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_cell.html">選擇儲存格</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_char.html">選擇字元命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_column.html">選取不帶標題的 CSV 欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_column_with_headings.html">選取帶標題的 CSV 欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_end_lines.html">選擇行尾命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_line.html">選擇行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_logical_line.html">選擇邏輯行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_word.html">選擇單字命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_bottom.html">延伸選區到文檔底部命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_bottom_edge.html">延伸到下邊緣 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_down.html">延伸選區到下一行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_end.html">延伸選區到行末命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_home.html">延伸選區到行首命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_home_text.html">延伸選區到行首或文字起始位置命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_left.html">往左延伸一個字元命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_left_edge.html">延伸到左邊緣 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_left_word.html">往左延伸一個單字命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_logical_end.html">延伸選區到邏輯行行末命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_logical_home.html">延伸選區到邏輯行行首命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_logical_home_text.html">延伸選區到邏輯行行首或文字起始位置命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_next_node.html">延伸到下一個節點命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_next_paren.html">延伸選區到配對的括號命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_next_tag.html">延伸選取到配對的標籤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_pagedown.html">延伸選區到下一頁命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_pageup.html">延伸選區到上一頁命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_prev_node.html">延伸到上一個節點命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_right.html">往右延伸一個字元命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_right_edge.html">延伸到右邊緣 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_right_word.html">往右延伸一個單字命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_right_word_end.html">向右延伸到單字末尾命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_tab.html">左移 Tab 或減少行縮排命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_top.html">延伸選區到文檔頂部命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_top_edge.html">延伸到上邊緣 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shift_up.html">延伸選區到上一行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_date_a.html">按日期和時間從舊到新排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_date_d.html">按日期和時間從新到舊排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_ipv4_a.html">IPv4 位址升序排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_ipv4_d.html">IPv4 位址降序排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_ipv6_a.html">IPv6 位址升序排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_ipv6_d.html">IPv6 位址降序排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_length_a.html">按文字長度從短到長命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_length_d.html">按文字長度從長到短命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_multi.html">進階排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_num_a.html">按數字升序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_num_d.html">按數字降序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_occurrence_a.html">按出現次數升序排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_occurrence_d.html">按出現次數降序排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_random.html">隨機排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_reverse.html">反向排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_text_a.html">按字母升序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_text_d.html">按字母降序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_words_a.html">按字數從少到多排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sort_words_d.html">按字數從多到少排序命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="space_to_tab.html">定位點化整個文檔命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_all.html">對整個文檔進行拼字檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_comments.html">對注釋進行拼字檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_dictionary.html">字典命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_double_quotes.html">對雙引號內的字串進行拼字檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_hilite.html">對亮顯文字進行拼字檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_hyperlink.html">對超連結進行拼字檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_next.html">下一拼字錯誤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_prev.html">上一拼字錯誤命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_quote.html">對已引用的行進行拼字檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_rest.html">對未指定文字進行拼字檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_script.html">對指令碼進行拼字檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_single_quotes.html">對單引號內的字串進行拼字檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_suggest.html">拼字建議命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_tags.html">對標記進行拼字檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spell_toggle.html">拼字檢查命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="split_column.html">分割欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="split_lines.html">分割行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sv_mode.html">CSV (多個項目) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sv_popup.html">CSV (快顯功能表) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sv_sep_popup.html">欄/分隔符號 (快顯功能表) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="switch_start_end_select.html">在開始位置和結束位置處切換命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tab.html">Tab 或增加行縮排命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tab_to_space.html">非定位點化整個文檔命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tabify.html">定位點化命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tag_jump.html">跳轉至標記命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="toggle_ime.html">切換輸入法命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="top.html">文檔頂部命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="top_edge.html">上邊緣 (僅限儲存格選擇模式) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="transpose.html">轉置命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trim_right.html">刪除行末空格命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="undo_all.html">全部復原命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="undo_history.html">復原/重做歷史命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="undo_recent.html">復原最近 (多個條目) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unicode_norm_fc.html">Unicode 正規化表單 C (標準組合) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unicode_norm_fd.html">Unicode 正規化表單 D (標準分解) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unicode_norm_fkc.html">Unicode 正規化表單 KC (相容性組合) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unicode_norm_fkd.html">Unicode 正規化表單 KD (相容性分解) 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unindent.html">減少行縮排命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unpivot.html">取消樞紐命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="untabify.html">非定位點化命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="up.html">上一行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vertical_mode.html">相粘垂直模式命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vertical_selection.html">垂直選擇命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_bottom.html">視窗底部命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_left.html">移至視窗左端命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_right.html">移至視窗右端命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_top.html">視窗頂部命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="zen_to_han.html">半形命令</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../external_tools/index.html">外部工具類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.html">檔案類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../help/index.html">說明類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert/index.html">插入類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macros/index.html">巨集類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugins/index.html">外掛程式類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.html">搜尋類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort/index.html">排序類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/index.html">工具類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.html">檢視類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.html">視窗類別</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.html">對話方塊</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">常見問題解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">詞彙</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">歷史記錄</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">如何…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">連結</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.html">巨集參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">注意事項</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.html">外掛程式參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">如何購買</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">命令參考</a> &lt;
+                <a href="index.html">編輯類別</a> &lt;
+            重做最近 (多個條目) 命令
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>重做最近 (多個條目) 命令<a class="headerlink" href="#id1" title="本標頭的永久連結">¶</a></h1>
+<section id="id2">
+<h2>摘要<a class="headerlink" href="#id2" title="本標頭的永久連結">¶</a></h2>
+<blockquote>
+<div><p>重做指定操作。</p>
+</div></blockquote>
+</section>
+<section id="id3">
+<h2>說明<a class="headerlink" href="#id3" title="本標頭的永久連結">¶</a></h2>
+<blockquote>
+<div><p>重做指定操作。</p>
+</div></blockquote>
+</section>
+<section id="id4">
+<h2>運行方法<a class="headerlink" href="#id4" title="本標頭的永久連結">¶</a></h2>
+<ul class="simple">
+<li><p>預設功能表: 無</p></li>
+<li><p><a class="reference internal" href="../tools/all_commands.html"><span class="doc std std-doc">全部命令</span></a>: <strong>編輯</strong> &gt; <strong>重做</strong> &gt; <strong>重做最近 (多個條目)</strong></p></li>
+<li><p>工具列: <img alt="" src="../../_images/editredo.gif" /> (向下箭頭)</p></li>
+<li><p>狀態列: 無</p></li>
+<li><p>預設捷徑: 無</p></li>
+</ul>
+</section>
+<section id="id">
+<h2>外掛程式命令ID<a class="headerlink" href="#id" title="本標頭的永久連結">¶</a></h2>
+<ul class="simple">
+<li><p>從 EEID_REDO_RECENT 到 EEID_REDO_RECENT + 63 (從 22912 到 22912 + 63)</p></li>
+</ul>
+</section>
+<section id="id5">
+<h2>巨集<a class="headerlink" href="#id5" title="本標頭的永久連結">¶</a></h2>
+<section id="javascript">
+<h3>[JavaScript]<a class="headerlink" href="#javascript" title="本標頭的永久連結">¶</a></h3>
+<blockquote>
+<div><p>editor.ExecuteCommandByID(22912 + i); //i 是從 0 到 63 的整數</p>
+</div></blockquote>
+</section>
+<section id="vbscript">
+<h3>[VBScript]<a class="headerlink" href="#vbscript" title="本標頭的永久連結">¶</a></h3>
+<blockquote>
+<div><p>editor.ExecuteCommandByID 22912 + i 『i 是從 0 到 63 的整數</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">重做最近 (多個條目) 命令</a><ul>
+<li><a class="reference internal" href="#id2">摘要</a></li>
+<li><a class="reference internal" href="#id3">說明</a></li>
+<li><a class="reference internal" href="#id4">運行方法</a></li>
+<li><a class="reference internal" href="#id">外掛程式命令ID</a></li>
+<li><a class="reference internal" href="#id5">巨集</a><ul>
+<li><a class="reference internal" href="#javascript">[JavaScript]</a></li>
+<li><a class="reference internal" href="#vbscript">[VBScript]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; 版權所有 2023 Emurasoft。
+      使用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 建立。
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>正则表达式语法 &#8212; EmEditor  文档</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+<script>
+    window.addEventListener("load", () => {
+        // Replace <pro /> and <profree /> tags
+        for (const element of document.querySelectorAll(".pro")) {
+            element.textContent = "[P]";
+            element.setAttribute("title", "EmEditor Professional only");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+
+        for (const element of document.querySelectorAll(".profree")) {
+            element.textContent = "[PF]";
+            element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+            element.style.verticalAlign = "super";
+            element.style.fontSize = "smaller";
+            element.style.cursor = "help";
+        }
+    });
+</script>
+
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="搜索" href="../../search.html" />
+    <link rel="next" title="替换一个字符串" href="search_replace.html" />
+    <link rel="prev" title="使用正则表达式" href="search_regexp.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.html" title="Go to homepage">EmEditor  文档</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                English
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/en/howto/search/search_regexp_syntax">English</a>
+                <a href="/ja/howto/search/search_regexp_syntax">日本語</a>
+                <a href="/ko/howto/search/search_regexp_syntax">한국어</a>
+                <a href="/zh-cn/howto/search/search_regexp_syntax">简体中文</a>
+                <a href="/zh-tw/howto/search/search_regexp_syntax">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">快速搜索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="提交" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.html">命令参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.html">对话框</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.html">常见问题解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.html">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">术语表</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.html">历史记录</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">如何…</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.html">自定义</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.html">编辑</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.html">文件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro/index.html">宏</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugin/index.html">插件</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">搜索</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="batch_vs_bulk.html">批处理替换全部和多项替换全部之间的区别</a></li>
+<li class="toctree-l3"><a class="reference internal" href="number_range_syntax.html">数字范围表达式语法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="replacement_expression_syntax.html">替换表达式语法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_erase.html">删除找到的字符串高亮</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_find.html">查找一个文本字符串</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_grep.html">在多个文件中查找一个字符串</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_nl.html">指定换行符</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_regexp.html">使用正则表达式</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">正则表达式语法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_replace.html">替换一个字符串</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_replace_files.html">在多个文件中替换</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.html">查看</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.html">窗口</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.html">链接</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.html">宏参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.html">声明</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.html">插件参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.html">如何购买</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.html">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+<div style="margin-left: 2vw">
+	<p>
+        
+                <a href="../index.html">如何…</a> &lt;
+                <a href="index.html">搜索</a> &lt;
+            正则表达式语法
+        
+	</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        // Scroll toctree to current page
+        // Last item in array is current page
+        const elements = document.querySelectorAll("li.current");
+        if (elements.length > 0) {
+            elements[elements.length - 1].scrollIntoView({block: "center"});
+        }
+    });
+</script>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>正则表达式语法<a class="headerlink" href="#id1" title="此标题的永久链接">¶</a></h1>
+<p>EmEditor 正则表达式语言基于 Perl 正则表达式语法。</p>
+<section id="id2">
+<h2>文字<a class="headerlink" href="#id2" title="此标题的永久链接">¶</a></h2>
+<p>所有字符都是文字除了: “.”, “*”, “?”, “+”, “(”, “)”, “{”, “}”,
+“[”, “]”, “^”, “$” 和 “\”。这些字符代表文字当之前有一个
+“\” 时。一个文字是一个与它自己相匹配的字符。例如，搜索 “\?” 会匹配每一个在文档中的 “?” ，或搜索 “Hello” 会匹配每一个在文档中的 “Hello” 。</p>
+</section>
+<section id="id3">
+<h2>元字符<a class="headerlink" href="#id3" title="此标题的永久链接">¶</a></h2>
+<p>下列表格包含元字符（非文字）的完整列表以及这些元字符在正则表达式中的行为。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>\</p></td>
+<td><p>把下一个字符标记为一个特殊字符，一个文字，或一个向后引用。例如，‘n’ 与字符 “n” 相匹配。而 ‘\n’ 代表一个换行符号。序列 ‘' 代表 “\”，“\(” 则与 “(” 相匹配。</p></td>
+</tr>
+<tr class="row-odd"><td><p>^</p></td>
+<td><p>匹配输入字符串的开始位置。例如，“^e” 表示任何由 “e” 开头的字符串。</p></td>
+</tr>
+<tr class="row-even"><td><p>$</p></td>
+<td><p>匹配输入字符串的结尾位置。例如，“e$” 表示任何由 “e” 结尾的字符串。</p></td>
+</tr>
+<tr class="row-odd"><td><p>*</p></td>
+<td><p>匹配之前的字符或子表达式零次或多次。例如，zo* 会匹配 “z” 以及 “zoo”。* 等同于 {0,}。</p></td>
+</tr>
+<tr class="row-even"><td><p>+</p></td>
+<td><p>匹配之前的字符或子表达式一次或多次。例如，‘zo+’ 匹配 “zo” 以及 “zoo”，但不匹配 “z”。 + 等同于 {1,}。</p></td>
+</tr>
+<tr class="row-odd"><td><p>?</p></td>
+<td><p>匹配之前的字符或子表达式零次或一次。例如，“do(es)?” 匹配 “do” 在  “do” 或 “does” 中。? 等同于 {0,1}。</p></td>
+</tr>
+<tr class="row-even"><td><p>{n}</p></td>
+<td><p>n 是一个非负整数。匹配确定的 n 次。例如，‘o{2}’ 不匹配 “Bob” 中的 “o”，但与 “food” 中的两个 o 匹配。</p></td>
+</tr>
+<tr class="row-odd"><td><p>{n,}</p></td>
+<td><p>n 是一个非负整数。匹配至少 n 次。例如，‘o{2,}’ 不匹配 “Bob” 中的 “o”，单匹配 “foooood” 中的所有 o。and matches all the o’s in “foooood”. “o{1,}” 等同于  ‘o+’。 ‘o{0,}’ 等同与 ‘o*’。</p></td>
+</tr>
+<tr class="row-even"><td><p>{n,m}</p></td>
+<td><p>m 和 n 都要是非负整数，n &lt;= m。匹配至少 n 次，最多 m 次。例如，“o{1,3}” 与 “fooooood”中的前三个 o 向匹配。<br> ‘o{0,1}’ 等同于 ‘o?’。要注意的是你不能在逗号与数字之间加一个空格。</p></td>
+</tr>
+<tr class="row-odd"><td><p>?</p></td>
+<td><p>当这个字符紧跟着任何其他数量词 (*, <br> +, ?, {n}, {n,}, {n,m}) 时，匹配的模式是非贪婪。一个非贪婪模式尽可能少地与搜索字符串匹配，而默认的贪婪模式则尽可能多地与搜索字符串匹配。例如，字符串 “oooo”，‘o+?’ 匹配单一的一个 “o”，而w ‘o+’ 匹配所有 ‘o’。</p></td>
+</tr>
+<tr class="row-even"><td><p>.</p></td>
+<td><p>与任何单一字符串匹配。例如，“.e” 匹配任何在 “e” 之前的文字，如 “he”，“we”，或 “me”。<br> 在 EmEditor Professional 中，它匹配 <strong>搜索正则表达式的附近行</strong> 文本框中指定范围内的换行当 <strong>正则表达式 “.” 匹配换行符</strong> 复选框被勾选。</p></td>
+</tr>
+<tr class="row-odd"><td><p>(pattern)</p></td>
+<td><p>括号有两个作用: 把一个格式组合到一个子表达式中，以及捕捉生成该匹配的格式。例如，表达式 “(ab)*” 匹配所有字符串 “ababab”。每一个子表达式的匹配被捕捉为一个从左到右编号的向后引用（如下）。要匹配括号字符，用 ‘\(’ 或 ‘\)’。</p></td>
+</tr>
+<tr class="row-even"><td><p>(?<name>pattern)</p></td>
+<td><p>捕获与 “pattern” 匹配的字符串到 “name” 群组中。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\1 - \9</p></td>
+<td><p>指定一个向后引用 - 一个向后引用是上一个被匹配的子表达式的引用。引用的内容是与子表达式相匹配的内容，而不是表达式本身。一个向后引用由转义符 “\” 加一个 “1” 到 “9” 的数字组成。“\1” 指的是第一个子表达式，“\2” 是第 2 个，以此类推。例如，“(a)\1” 会捕捉 “a” 为第一个向后引用，并匹配任何 “aa” 文本。你还可以使用向后引用功能当你在 <strong>搜索</strong> 菜单下选择 <strong>替换</strong> 功能时。用正则表达式来定位一个文本格式，与之相匹配的文本能被一个指定的向后引用替换。例如，“(h)(e)” 的表达式会在文本中查找 “he”，把 “\1” 放在 <strong>替换为</strong> 文本框中会用 “h” 取代 “he”， 而如果是 “\2\1” 的话，则会用 “eh” 取代 “he” 。</p></td>
+</tr>
+<tr class="row-even"><td><p>\k<name></p></td>
+<td><p>表示一个已命名的向后引用。已命名的向后引用是用以下形式引用之前匹配的已命名的捕获组：(?<name>expression)。如果 “name” 是一个数字，则它表示一个已编号的向后引用，相当于 \1，\2，\3，…。</p></td>
+</tr>
+<tr class="row-odd"><td><p>(?:pattern)</p></td>
+<td><p>一个与格式相匹配，但不捕获该匹配的子表达式，这是一个不能用向后引用来存储的非捕获匹配。这个表达式通常和 “or” 字符 (|) 组合使用。例如，’industr(?:y|ies) 是一个比 ‘industry|industries’ 更实用的表达式。</p></td>
+</tr>
+<tr class="row-even"><td><p>(?=pattern)</p></td>
+<td><p>子表达式执行匹配 lookahead 搜索，查找任何后面跟着符合的模式的字符串。例如，“x(?=abc)” 与 “x”相匹配仅当字符串后面跟着 “abc” 表达式时。<br> 这是一个不能用向后引用来存储的非捕获匹配。模式不包含换行。</p></td>
+</tr>
+<tr class="row-odd"><td><p>(?!pattern)</p></td>
+<td><p>子表达式执行非匹配 lookahead 搜索，查找任何后面没有跟着符合的模式的字符串。例如，“x(?!abc)” 与 “x” 相匹配只有当该字符串后面不跟着 “abc” 表达式时。这是一个不能用向后引用来存储的非捕获匹配。模式不包含换行。</p></td>
+</tr>
+<tr class="row-even"><td><p>(?&lt;=pattern)</p></td>
+<td><p>子表达式执行匹配 lookbehind 搜索，查找任何前面是符合的模式的字符串。例如，“(?&lt;=abc)x” 匹配一个 “x” 只有当它前面有表达式 “abc”时。这是一个不能用向后引用来存储的非捕获匹配。模式不包含换行。模式必须是固定长度。</p></td>
+</tr>
+<tr class="row-odd"><td><p>(?&lt;!pattern)</p></td>
+<td><p>子表达式执行非匹配 lookbehind 搜索，查找任何前面不是符合模式的字符串。例如，“(?&lt;!abc)x” 匹配 “x” 只有当它前面不跟着 “abc” 表达式时。这是一个不能用向后引用来存储的非捕获匹配。模式不包含换行。模式必须是固定长度。</p></td>
+</tr>
+<tr class="row-even"><td><p>x|y</p></td>
+<td><p>与 x 或 y 向匹配。例如，‘z|food’ 与 “z” 或 “food” 匹配。‘(z|f)ood’ 与 “zood” 或 “food” 匹配。</p></td>
+</tr>
+<tr class="row-odd"><td><p>[xyz]</p></td>
+<td><p>字符集。匹配任何在括号内的字符。例如，‘[abc]’ 与 “plain” 中的 ‘a’ 相匹配。</p></td>
+</tr>
+<tr class="row-even"><td><p>[^xyz]</p></td>
+<td><p>负字符集。匹配任何不在括号内的字符。例如，[^abc]’ 与 “plain” 中的 ‘p’ 相匹配。</p></td>
+</tr>
+<tr class="row-odd"><td><p>[a-z]</p></td>
+<td><p>字符范围。与任何指定范围的字符相匹配。例如，‘[a-z]’ 与任何 ‘a’ 到 ‘z’ 的小写字母相匹配。</p></td>
+</tr>
+<tr class="row-even"><td><p>[^a-z]</p></td>
+<td><p>负字符范围。与任何不在指定范围内的字符相匹配。例如，‘[a-z]’ 与任何不在 ‘a’ 到 ‘z’ 范围内的字符相匹配。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id4">
+<h2>字符类<a class="headerlink" href="#id4" title="此标题的永久链接">¶</a></h2>
+<p>下面的字符类被用在字符集中，例如 “[:classname:]”。例如，“[[:space:]]” 是所有空白字符的集合。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>alnum</p></td>
+<td><p>任何语言字符及数字: 字母，音节或表意字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p>alpha</p></td>
+<td><p>任何语言字符: 字母，音节或表意字符。</p></td>
+</tr>
+<tr class="row-even"><td><p>blank</p></td>
+<td><p>任何空白字符，空格或 tab。</p></td>
+</tr>
+<tr class="row-odd"><td><p>cntrl</p></td>
+<td><p>任何控制字符。</p></td>
+</tr>
+<tr class="row-even"><td><p>digit</p></td>
+<td><p>任何 0-9 的数字。</p></td>
+</tr>
+<tr class="row-odd"><td><p>graph</p></td>
+<td><p>任何图形字符。</p></td>
+</tr>
+<tr class="row-even"><td><p>lower</p></td>
+<td><p>任何 a-z 的小写字符，以及其他小写字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p>print</p></td>
+<td><p>任何可打印的字符。</p></td>
+</tr>
+<tr class="row-even"><td><p>punct</p></td>
+<td><p>任何标点字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p>space</p></td>
+<td><p>任何空白字符。</p></td>
+</tr>
+<tr class="row-even"><td><p>upper</p></td>
+<td><p>任何 A-Z 的大写字母，以及其他大写字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p>xdigit</p></td>
+<td><p>任何十六进制数字字符，0-9，a-f 还有 A-F。</p></td>
+</tr>
+<tr class="row-even"><td><p>word</p></td>
+<td><p>任何单词字符 - 所有字母数字字符以及下划线。</p></td>
+</tr>
+<tr class="row-odd"><td><p>unicode</p></td>
+<td><p>任何大于 255 代码的字符。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id5">
+<h2>单一字符转义序列<a class="headerlink" href="#id5" title="此标题的永久链接">¶</a></h2>
+<p>下列转义序列是单一字符的别名:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0x07</p></td>
+<td><p>\a</p></td>
+<td><p>响铃字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p>0x0C</p></td>
+<td><p>\f</p></td>
+<td><p>换页 (FF)。</p></td>
+</tr>
+<tr class="row-even"><td><p>0x0A</p></td>
+<td><p>\n</p></td>
+<td><p>换行字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p>0x0D</p></td>
+<td><p>\r</p></td>
+<td><p>回车符。</p></td>
+</tr>
+<tr class="row-even"><td><p>0x09</p></td>
+<td><p>\t</p></td>
+<td><p>Tab 字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p>0x0B</p></td>
+<td><p>\v</p></td>
+<td><p>垂直 tab。</p></td>
+</tr>
+<tr class="row-even"><td><p>0x1B</p></td>
+<td><p>\e</p></td>
+<td><p>ASCII 转义符。</p></td>
+</tr>
+<tr class="row-odd"><td><p>0dd</p></td>
+<td><p>\0dd</p></td>
+<td><p>八进制字符代码，dd 是一个或多个八进制数字（仅限 Boost.Regex only）。</p></td>
+</tr>
+<tr class="row-even"><td><p>0xXX</p></td>
+<td><p>\xXX</p></td>
+<td><p>一个十六进制字符代码，XX 是一个或多个十六进制数字 （一个 Unicode 字符）。</p></td>
+</tr>
+<tr class="row-odd"><td><p>0xXXXX</p></td>
+<td><p>\x{XXXX}</p></td>
+<td><p>一个十六进制字符代码，XXXX 是一个或多个十六进制数字 （一个 Unicode 字符）。</p></td>
+</tr>
+<tr class="row-even"><td><p>Z-‘&#64;’</p></td>
+<td><p>\cZ Z-‘&#64;’</p></td>
+<td><p>一个 ASCII 转义序列控制-Z，其中 Z 是任一 ASCII 字符大于或等于 ‘&#64;’ 的字符代码。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h2>单词边界<a class="headerlink" href="#id6" title="此标题的永久链接">¶</a></h2>
+<p>下列转义序列与单词的边界相匹配:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>\&lt;</p></td>
+<td><p>匹配一个单词的开头。(仅限 Boost.Regex)</p></td>
+</tr>
+<tr class="row-odd"><td><p>\&gt;</p></td>
+<td><p>匹配一个单词的结尾。(仅限 Boost.Regex)</p></td>
+</tr>
+<tr class="row-even"><td><p>\b</p></td>
+<td><p>匹配单词的边界（一个单词的开头或结尾）。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\B</p></td>
+<td><p>仅当不在单词边界处时匹配。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id7">
+<h2>字符类的转义序列<a class="headerlink" href="#id7" title="此标题的永久链接">¶</a></h2>
+<p>下列转义序列能被用来表示整个字符类:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>\w</p></td>
+<td><p>任何单词字符 - 所有字母数字字符加下划线。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\W</p></td>
+<td><p>\w 的补集 - 查找任何非单词的字符。</p></td>
+</tr>
+<tr class="row-even"><td><p>\s</p></td>
+<td><p>任何空白字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\S</p></td>
+<td><p>\s 的补集。</p></td>
+</tr>
+<tr class="row-even"><td><p>\d</p></td>
+<td><p>任何 0-9 的数字。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\D</p></td>
+<td><p>\d 的补集。</p></td>
+</tr>
+<tr class="row-even"><td><p>\l</p></td>
+<td><p>任何 a-z 的小写字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\L</p></td>
+<td><p>\l 的补集。</p></td>
+</tr>
+<tr class="row-even"><td><p>\u</p></td>
+<td><p>任何 A-Z 的大写字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\U</p></td>
+<td><p>\u 补集。</p></td>
+</tr>
+<tr class="row-even"><td><p>\C</p></td>
+<td><p>任何单一字符，等同与 ‘.’。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\Q</p></td>
+<td><p>开始引述运算符，任何跟在该符号后面的内容会被作为一个文本字符直到找到 \E 结束引述运算符。</p></td>
+</tr>
+<tr class="row-even"><td><p>\E</p></td>
+<td><p>结束引述运算符，终止一个由 \Q 开始的序列。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id8">
+<h2>替换表达式<a class="headerlink" href="#id8" title="此标题的永久链接">¶</a></h2>
+<p>请参考 <a class="reference internal" href="replacement_expression_syntax.html"><span class="doc std std-doc">替换表达式语法</span></a>。</p>
+</section>
+<section id="id9">
+<h2>注意<a class="headerlink" href="#id9" title="此标题的永久链接">¶</a></h2>
+<ul class="simple">
+<li><p>在 <strong>在文件中查找</strong> 和 <strong>在文件中替换</strong> 中，回车符 (\r) 以及换行符 (\n) 必须仔细指明。更多信息，请参考 <a class="reference internal" href="search_nl.html"><span class="doc std std-doc">指定换行</span></a>。</p></li>
+<li><p>为了一些转义序列能在 EmEditor 中运作，例如 “\l”， “\u” 以及它们的补集，必须选择区分大小写的选项。</p></li>
+</ul>
+</section>
+<section id="id10">
+<h2>版权声明<a class="headerlink" href="#id10" title="此标题的永久链接">¶</a></h2>
+<p>EmEditor 使用 Boost library Regex++ 的正则表达式惯例。</p>
+<p>Copyright © 1998-2001 Dr John Maddock</p>
+</section>
+<section id="id11">
+<h2>请同样参考<a class="headerlink" href="#id11" title="此标题的永久链接">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../../faq/search/search_reg_exp_ex.html"><span class="doc std std-doc">Q. 正则表达式的例子有哪些？</span></a></p></li>
+<li><p><a class="reference internal" href="search_nl.html"><span class="doc std std-doc">指定换行</span></a></p></li>
+<li></li>
+<li></li>
+</ul>
+</section>
+<section id="nnn-xhh">
+<h2>（备注：不支持 <strong>\nnn</strong> 和 <strong>\xHH</strong> ）<a class="headerlink" href="#nnn-xhh" title="此标题的永久链接">¶</a></h2>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">正则表达式语法</a><ul>
+<li><a class="reference internal" href="#id2">文字</a></li>
+<li><a class="reference internal" href="#id3">元字符</a></li>
+<li><a class="reference internal" href="#id4">字符类</a></li>
+<li><a class="reference internal" href="#id5">单一字符转义序列</a></li>
+<li><a class="reference internal" href="#id6">单词边界</a></li>
+<li><a class="reference internal" href="#id7">字符类的转义序列</a></li>
+<li><a class="reference internal" href="#id8">替换表达式</a></li>
+<li><a class="reference internal" href="#id9">注意</a></li>
+<li><a class="reference internal" href="#id10">版权声明</a></li>
+<li><a class="reference internal" href="#id11">请同样参考</a></li>
+<li><a class="reference internal" href="#nnn-xhh">（备注：不支持 <strong>\nnn</strong> 和 <strong>\xHH</strong> ）</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+        &#169; 版权所有 2023 Emurasoft.
+      由 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1创建。
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

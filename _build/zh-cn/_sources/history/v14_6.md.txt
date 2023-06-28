@@ -1,0 +1,71 @@
+# Version 14.6
+
+2014年10月20日
+
+## 一般新增功能
+
+- 新的版本让你能定义多达 8 个 CSV 格式，并且每个格式能允许多达 39 个字符长度的文本。你能为每个格式指定不同的选项，例如是否运行分隔符在双引号中，或是否允许双引号中的换行，以及 **列标题** 所占的行数。
+- 添加了 **CSV/排序** 工具栏，并且大大提高了与 CSV 相关的功能。
+- **CSV/排序** 工具栏让你能更改 **CSV 模式**， **转换 CSV**， **固定列宽**，还有各种与列/分隔符相关的命令，排序命令， **删除复制行** 命令， **行号**， **标尺** 以及 **标题** 等命令。
+- 以下的命令能通过按下命令按钮的同时按 SHIFT 键来对当前群组中的所有文档进行该操作 — **标准模式**，所有 CSV 命令，所有 **转换为** 命令， **固定列宽**，所有排序命令， **删除重复行**， **标题 0 – 4**， **调整分隔符位置**， **自动添加分隔符**，以及 **删除所有分隔符**。
+- 添加了 **多列排序** 命令。
+- 新增了 **筛选** 工具栏。 **筛选** 工具栏让你能仅查看有包括特定字符串的行。
+- 在 [**查找** 对话框](../dlg/find/index) 中新增了 **「提取全部」** 按钮。按下 **「提取全部」** 按钮会抽出包含搜索字符串的行到一个新文档中。
+- 在 CSV 模式下，双击标尺能选择双击位置处的整列内容，不包含标题所在的行；快速点击标尺 3 次能选择整列，并且包括标题所在的行。在双击或点击 3 次之后，在按住鼠标键的同时把鼠标左移或右移能选择多列。A
+- 双击标尺不再调整列。
+- 在 v14.5.4 被暂停的更新功能又恢复了。新的更新检查器仅安装与更新器相同证书的被电子签名的更新数据包。
+
+## 新增选项
+
+- 添加了 [**CSV** 页面](../dlg/customize/csv/index) 到 **自定义** 对话框中。
+- 添加了 **要检测的 CSV 文件** 到配置属性中的 [**文件** 页面](../dlg/properties/file/index) 上 (弃用 **检测 CSV**， **检测 TSV** 和 **检测 DSV** 复选框)。 **分隔符** 文本框被移到 **自定义** 对话框中的 [**CSV** 页面](../dlg/customize/csv/index) 上。
+- **仅搜索选区** 复选框被添加到了 [**查找** 对话框](../dlg/find/index) 中。
+- 添加了 **标题**， **搜索范围** 和 **筛选** 这些条目到配置属性中的 [**显示** 页面](../dlg/properties/display/index) 上。
+- 添加了 **优先选择 UTF-8** 复选框到配置属性中的 [**文件** 页面](../dlg/properties/file/index) 上。
+
+## 新增命令
+
+- [切换标题](../cmd/edit/heading_toggle)
+- [设置标题](../cmd/edit/heading_set)
+- [重设标题](../cmd/edit/heading_reset)
+- [固定列宽](../cmd/edit/convert_to_fixed_width)
+- [添加/删除分隔符](../cmd/edit/add_remove_separator)
+- [自动添加分隔符](../cmd/edit/auto_add_separators)
+- [删除所有分隔符](../cmd/edit/remove_all_separators)
+- [插入列](../cmd/edit/insert_column)
+- [添加列](../cmd/edit/add_column)
+- [垂直选择](../cmd/edit/vertical_selection)
+- [切换CSV/排序工具栏](../cmd/view/show_sv_bar)
+- [列/分隔符 (弹出菜单)](../cmd/edit/sv_sep_popup)
+- [标题 1](../cmd/edit/heading_1)
+- [标题 2](../cmd/edit/heading_2)
+- [标题 3](../cmd/edit/heading_3)
+- [标题 4](../cmd/edit/heading_4)
+- [标题 (弹出菜单)](../cmd/edit/heading_popup)
+- [CSV 模式 (弹出菜单)](../cmd/edit/sv_popup)
+- [标题只读](../cmd/edit/read_only_headings)
+- [调整分隔符位置 (仅可见行)](../cmd/edit/adjust_column_visible)
+- [删除不需要的双引号](../cmd/edit/remove_unnecessary_quotes)
+- [多列排序](../cmd/edit/sort_multi)
+- [浏览筛选表达式 (筛选工具栏)](../cmd/search/filterbar_browse_exp_f)
+- [刷新 (筛选工具栏)](../cmd/search/filterbar_refresh)
+- [渐进式搜索 (筛选工具栏)](../cmd/search/filterbar_incremental)
+- [大小写需符合 (筛选工具栏)](../cmd/search/filterbar_case)
+- [使用正则表达式 (筛选工具栏)](../cmd/search/filterbar_reg_exp)
+- [使用转义序列 (筛选工具栏)](../cmd/search/filterbar_escape)
+- [整个单词需匹配 (筛选工具栏)](../cmd/search/filterbar_only_word)
+- [切换筛选工具栏](../cmd/view/show_filter_bar)
+- [将焦点设置在筛选工具栏](../cmd/search/focus_filter_bar)
+- [关闭筛选工具栏](../cmd/search/close_filter_bar)
+- [中止 (筛选工具栏)](../cmd/search/filterbar_abort)
+- [阻止多行更改 (筛选工具栏)](../cmd/search/filterbar_limit)
+- [CSV (多个条目)](../cmd/edit/sv_mode)
+- [转换为 CSV (多个条目)](../cmd/edit/convert_to_sv)
+
+## 宏的新增功能
+
+- 添加了 [HeadingLines](../macro/document/heading_lines)， [NarrowingTop](../macro/document/narrowing_top)，和 [NarrowingBottom](../macro/document/narrowing_bottom) 属性到 Document 对象中。
+
+## 插件 API 新增功能
+
+- EI\_GET\_HEADING\_LINES，EI\_SET\_HEADING\_LINES，EI\_GET\_NARROWING\_TOP，EI\_SET\_NARROWING\_TOP，EI\_GET\_NARROWING\_BOTTOM，EI\_SET\_NARROWING\_BOTTOM ( [EE\_INFO 消息](../plugin/message/ee_info))。

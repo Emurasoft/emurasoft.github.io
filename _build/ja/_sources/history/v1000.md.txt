@@ -1,0 +1,190 @@
+# Version 10
+
+2010年7月1日
+
+## 一般の新機能
+
+- **比較** 機能と **同期スクロール** 機能が追加されました。
+- **スペル チェック** 機能が追加されました。
+- 行末の右で、幅が 0 の箱型選択を行うと、(長さが異なる行であっても) 選択された行末が選択されるようになり、それから文字を入力すると、行末に文字が挿入されるようになりました。
+- [\[番号\] コマンド](../cmd/edit/numbering) が追加され、カーソル位置または箱型選択位置に連続した数字または文字を挿入することができるようになりました。
+- CSV モードは、改行を含むセルを利用できるようになりました。埋め込まれた改行は、 **M** (CR) または **J** (LF) と反転した背景色で表示されます (設定のプロパティの \[記号\] タブで、\[制御文字を表示\] チェック ボックスがチェックされている場合)。
+- Windows エクスプローラのフォルダで右クリックしたときに表示されるコンテキスト メニューに、\[EmEditor でファイルから検索\] コマンドが追加されました。
+- 自動復旧機能は、ワークスペースと同様に、最後に表示していたウィンドウの配置と元に戻す情報をそのまま保存、復旧するようになりました (\[復旧されたファイル\] ダイアログ ボックスは廃止になりました)。インストーラで更新時も、開いている EmEditor のウィンドウを自動的に閉じてから、また元の状態で開くようになりました。
+- 新しいインストーラーを使用し、複数の言語エディションを 1 つのインストーラに含めるようになりました (現在のところ、英語版と日本語版が含まれています)。
+- 新しいインストーラーに付属する更新チェッカーを使用するようになり、更新時のダウンロードとインストールの作業が簡単に行えるになりました (v9 の更新チェッカーは廃止になりました)。
+- 新しいコマンドライン オプション **/cmp** が追加されました。
+
+- ローカライズされた言語ファイルが古い場合、EmEditor が可能な限り自動的に英語の文字列やダイアログ ボックスのリソースを使用するようになりました。
+- 印刷ヘッダ、フッタで、左揃え(&l)、中央揃え(&c)、右揃え(&r) の組み合わせが指定できるようになりました。
+- バイナリ (16進数表示) で、アスキー表示を横に含めるようになりました。
+- 箱型選択は、論理選択に限定するようになりました (行の折り返しによる複数の選択は含めないようになりました)。
+- 従来は、ファイルを読み直すとき、指定したエンコードで変換できな文字がある警告ダイアログが表示されたときに、キャンセルを選択すると、無題の新規ドキュメントが開かれてしまいました。巨大ファイルを非同期で開く場合を除き、この問題を修正しました。
+- PHP の設定の既定の強調文字列一覧を最新の PHP 関数一覧に合わせて修正しました。
+- [正規表現構文](../howto/search/search_regexp_syntax) に新しい置換表現 (?n:true\_expression:false\_expression) が追加されました。
+
+## プラグイン新機能
+
+### スニペット プラグイン
+
+- 単語補完プラグインは、スニペットのプレイスホルダーの内側でも動作するようになりました。
+- スニペット プラグインの「変換」に使用する正規表現で、グローバル オプション「g」を追加しました。
+
+### アウトライン プラグイン
+
+- アウトライン プラグインのプロパティで、\[選択をカーソル位置と同期する\]、\[起動時、カスタム バーにフォーカスを設定する\]、\[ESC キーを押してカスタム バーを閉じる\]、\[Enter キーまたは移動コマンドでカスタム バーを閉じる\] チェック ボックスを追加しました。
+- \[一致した文字列を隠す/正規表現で置換する\] チェック ボックスと \[置換\] テキスト ボックスが追加され、一致した文字列を隠してカスタム バーに表示したり、正規表現で任意の文字列に置換してから表示できるようになりました (「カスタム」タイプの場合)。
+
+### 単語補完プラグイン
+
+- \[一致した同じ長さの単語を候補リストから除外する\] チェック ボックスが、 [プラグインのプロパティ](../howto/plugin/plugin_wordcomplete) の \[オプション\] タブに追加されました。
+
+### エクスプローラ プラグイン
+
+- エクスプローラ プラグインで選択しているファイルが、開かれているアクティブなファイルと同期していないことがありました。この不具合を修正しました。
+
+## 新しい設定
+
+- 設定のプロパティに [\[スペル チェック\] タブ](../dlg/properties/spell/index) が追加されました。
+- **\[標準エラー\]** ドロップダウン リスト ボックスが、\[外部ツール\] のプロパティに追加され、\[標準エラーを含める\] チェック ボックスは廃止になりました。この変更により、標準出力と標準エラーの出力先を別々に指定できるようになりました。
+- 検索ダイアログには、 **\[一致する文字列を数える\]** チェック ボックスが追加され、文字列を検索したとき、ステータス バーにその一致した数を表示するようになりました。
+- 設定のプロパティの \[キーボード\] タブで、追加するショートカット キーに既に割り当てられているキーを入力した際に、コマンド名だけでなく分類名も表示するようになりました。
+- \[無視するファイルまたはフォルダ\] (\[ファイルから検索\] \- \[高度\]) に入力できる文字数が 15,999 文字まで増えました。
+-
+検索/置換/ファイルから検索/ファイルから置換ダイアログの検索/置換ドロップダウン リストの右の \[>\] ボタンに、\[選択テキスト\]、\[カーソル位置の単語\]、\[カスタム\]、\[既定として保存\] コマンドが追加されました。
+-
+ファイルから検索/ファイルから置換ダイアログの \[ファイルの種類\] ドロップダウン リストの右に、新しい \[>\] ボタンが追加されました。このボタンには、\[現在のファイルの種類\]、\[現在のファイル\]、\[カスタム\]、\[既定として保存\]、\[複数行\] コマンドが追加されました。\[=\] ボタンは廃止になりました。
+-
+ファイルから検索/ファイルから置換ダイアログの \[検索するフォルダ\] ドロップダウン リストの右 \[>\] ボタンに、\[現在のフォルダ\]、\[1階層上のフォルダ\]、\[2階層上のフォルダ\]、\[ルート フォルダ\]、\[カスタム\]、\[参照\]、\[既定として保存\] コマンドが追加されました。
+-
+\[カスタマイズ\] ダイアログの \[検索\] タブで、\[検索/置換ダイアログ ボックスで、選択テキストを使用する\] チェック ボックス、\[検索/置換ダイアログ ボックスで、カーソル位置の単語を使用する\] チェック ボックス、\[ファイルから検索で現在のフォルダを既定とする\] チェック ボックスは廃止になりました。
+-
+置換/ファイルから検索/ファイルから置換でタブを押したときのコントロールのフォーカスが当たる順番を変更しました。
+-
+設定のプロパティの \[表示\] タブの \[スタイル\] 一覧に「波線」と「点線」を追加しました。また、下線がアンダースコア「\_」と重ならないように位置を調節しました。
+-
+設定のプロパティの \[スクロール\] タブに **\[水平グリッド\]** チェック ボックスを追加しました。\[点線罫線\] チェック ボックスは廃止になりました。
+-
+設定のプロパティの \[印刷\] タブで、 **\[ヘッダ\]** チェック ボックス、 **\[フッタ\]** チェック ボックスが追加されました。
+-
+\[マクロのカスタマイズ\] ダイアログ ボックスの \[マイ マクロ\] タブで、 **\[すべて削除\]** ボタンが追加されました。
+-
+\[カスタマイズ\] ダイアログ ボックスの [\[言語\] タブ](../dlg/customize/lang/index) で、 **\[ローカライズされた項目が見つからない場合、英語を使用する\]** チェック ボックスが追加されました。
+- [\[ツール バー\] ダイアログ ボックス](../dlg/toolbars/index) で、\[256色\]
+ラジオ ボタンは廃止になりました。
+- [\[番号の挿入\] \
+ダイアログ ボックス](../dlg/insert_numbering/index) が追加されました。
+
+## 新コマンド
+
+- [UTF-16LE(BOM付き)で保存](../cmd/file/save_utf16le_sign)
+- [UTF-16LE(BOM無し)で保存](../cmd/file/save_utf16le_nosign)
+- [UTF-16BE(BOM付き)で保存](../cmd/file/save_utf16be_sign)
+- [UTF-16BE(BOM無し)で保存](../cmd/file/save_utf16be_nosign)
+- [UTF-8(BOM付き)で保存](../cmd/file/save_utf8_sign)
+- [UTF-8(BOM無し)で保存](../cmd/file/save_utf8_nosign)
+- [HTML/XML文字参照をUnicodeに変換](../cmd/edit/decode_html_char_ref)
+- [UnicodeをHTML/XML文字参照に変換](../cmd/edit/encode_html_char_ref)
+- [Universal Character NamesをUnicodeに変換](../cmd/edit/decode_ucn)
+- [UnicodeをUniversal Character Namesに変換](../cmd/edit/encode_ucn)
+- [番号](../cmd/edit/numbering)
+- [セルを選択](../cmd/edit/select_cell)
+- [次のセル](../cmd/edit/next_cell)
+- [前のセル](../cmd/edit/prev_cell)
+- [スペル チェック](../cmd/edit/spell_toggle)
+- [引用マークで始まる行のスペル チェック](../cmd/edit/spell_quote)
+- [1重引用符で囲まれた文字列のスペル チェック](../cmd/edit/spell_single_quotes)
+- [2重引用符で囲まれた文字列のスペル チェック](../cmd/edit/spell_double_quotes)
+- [コメントのスペル チェック](../cmd/edit/spell_comments)
+- [スクリプトのスペル チェック](../cmd/edit/spell_script)
+- [タグのスペル チェック](../cmd/edit/spell_tags)
+- [強調文字列のスペル チェック](../cmd/edit/spell_hilite)
+- [ハイパーリンクのスペル チェック](../cmd/edit/spell_hyperlink)
+- [残りの文書のスペル チェック](../cmd/edit/spell_rest)
+- [すべてのスペル チェック](../cmd/edit/spell_all)
+- [前のスペル ミス](../cmd/edit/spell_prev)
+- [次のスペル ミス](../cmd/edit/spell_next)
+- [スペル チェックの提案](../cmd/edit/spell_suggest)
+- [辞書](../cmd/edit/spell_dictionary)
+- [ショートカット キーを有効にする](../cmd/view/toggle_output_shortcuts)
+- [行番号](../cmd/view/view_line_numbers)
+- [ルーラ](../cmd/view/view_ruler)
+- [改行](../cmd/view/view_return)
+- [EOF](../cmd/view/view_eof)
+- [タブ](../cmd/view/view_tab)
+- [半角空白](../cmd/view/view_space)
+- [全角空白](../cmd/view/view_wide_space)
+- [CRとLFを区別](../cmd/view/view_cr_lf_separate)
+- [制御文字](../cmd/view/view_control)
+- [インデント ガイド](../cmd/view/view_indent_guides)
+- [タブの桁数](../cmd/view/tab_column_popup)
+- [インデントの桁数](../cmd/view/indent_column_popup)
+- [自動インデント](../cmd/view/toggle_auto_indent)
+- [タブの代わりに空白を挿入](../cmd/view/toggle_spaces_tab)
+- [折り返しインデント](../cmd/view/toggle_wrap_indent)
+- [比較](../cmd/diff/compare_direct)
+- [オプションを指定して比較](../cmd/diff/compare_options)
+- [再スキャン](../cmd/diff/compare_rescan)
+- [同期スクロール](../cmd/diff/sync_scroll_direct)
+- [オプションを指定して同期スクロール](../cmd/diff/sync_scroll_options)
+- [リセット](../cmd/diff/compare_reset)
+- [行頭の空白を無視](../cmd/diff/ignore_lead_space)
+- [行末の空白を無視](../cmd/diff/ignore_trail_space)
+- [埋め込まれた空白を無視](../cmd/diff/ignore_embedded_space)
+- [大文字小文字の区別を無視](../cmd/diff/ignore_cases)
+- [改行を無視](../cmd/diff/ignore_returns)
+- [コメントを無視](../cmd/diff/ignore_comment)
+- [エンコードを無視](../cmd/diff/ignore_encoding)
+- [垂直同期スクロール](../cmd/diff/sync_vert)
+- [水平同期スクロール](../cmd/diff/sync_horz)
+- [カーソル位置の同期](../cmd/diff/sync_caret)
+- [終了時ウィンドウ位置を復元](../cmd/diff/sync_restore_pos)
+- [オプションの保存](../cmd/diff/compare_save_options)
+- [前の変更](../cmd/diff/compare_prev)
+- [次の変更](../cmd/diff/compare_next)
+- [前の変更行](../cmd/diff/compare_prev_line)
+- [次の変更行](../cmd/diff/compare_next_line)
+- [タブ ウィンドウを元の位置に戻す](../cmd/window/restore_combined_pos)
+- [分割ウィンドウの水平同期スクロール](../cmd/window/sync_horz_scroll_split)
+- [分割ウィンドウの垂直同期スクロール](../cmd/window/sync_vert_scroll_split)
+- [次のペインまたはカスタム バー](../cmd/window/next_pane_or_bar)
+- [前のペインまたはカスタム バー](../cmd/window/prev_pane_or_bar)
+- [最後にアクセスした文書](../cmd/window/next_zorder_doc)
+- [最もアクセスしていない文書](../cmd/window/prev_zorder_doc)
+- [右の文書](../cmd/window/right_doc)
+- [左の文書](../cmd/window/left_doc)
+
+## ツール バーの新しいボタン
+
+|     |     |
+| --- | --- |
+| ![](../images/compare24x16.gif)[比較](../cmd/diff/compare_direct) | 最近表示した 2 個の文書をオプションを指定せずに比較します。 |
+| ![](../images/rescan24x16.gif)[再スキャン](../cmd/diff/compare_rescan) | 比較した文書を再スキャンして結果を最新情報に更新します。 |
+| ![](../images/sync24x16.gif)[同期スクロール](../cmd/diff/sync_scroll_direct) | 最近表示した 2 個の文書をオプションを指定せずに同期スクロールします。 |
+| ![](../images/reset24x16.gif)[リセット](../cmd/diff/compare_reset) | 比較や同期スクロールをリセットして比較結果をクリアします。 |
+| ![](../images/line_number24x16.gif)[行番号](../cmd/view/view_line_numbers) | 行番号の表示/非表示を切り替えます。 |
+| ![](../images/ruler24x16.gif)[ルーラ](../cmd/view/view_ruler) | ルーラの表示/非表示を切り替えます。 |
+| ![](../images/auto_indent24x16.gif)[自動インデント](../cmd/view/toggle_auto_indent) | 自動インデントを有効にします。 |
+| ![](../images/space_tab24x16.gif)[タブの代わりに空白を挿入](../cmd/view/toggle_spaces_tab) | タブの代わりに空白を挿入します。 |
+| ![](../images/wrap_indent24x16.gif)[折り返しインデント](../cmd/view/toggle_wrap_indent) | 折り返しインデントを有効にします。 |
+| ![](../images/tab_column24x16.gif)[タブの桁数](../cmd/view/tab_column_popup) | ポップアップ メニューを表示してタブの桁数を選択します。 |
+| ![](../images/indent_column24x16.gif)[インデントの桁数](../cmd/view/indent_column_popup) | ポップアップ メニューを表示してインデントの桁数を選択します。 |
+| ![](../images/html2uni24x16.gif)[HTML/XML文字参照をUnicodeに変換](../cmd/edit/decode_html_char_ref) | 選択テキストをHTML/XML文字参照からUnicodeに変換します。 |
+| ![](../images/uni2html24x16.gif)[UnicodeをHTML/XML文字参照に変換](../cmd/edit/encode_html_char_ref) | 選択テキストをUnicodeからHTML/XML文字参照に変換します。 |
+| ![](../images/ucs2uni24x16.gif)[Universal Character NamesをUnicodeに変換](../cmd/edit/decode_ucn) | 選択テキストをUniversal Character NamesからUnicodeに変換します。 |
+| ![](../images/uni2ucs24x16.gif)[UnicodeをUniversal Character Namesに変換](../cmd/edit/encode_ucn) | 選択テキストをUnicodeからUniversal Character Namesに変換します。 |
+| ![](../images/spelling24x16.gif)[スペル チェック](../cmd/edit/spell_toggle) | 文書のスペル チェックを行います。 |
+
+## マクロ新機能
+
+- [SpellProp オブジェクト](../macro/spell_prop/index)
+- [Config オブジェクト](../macro/config/index) [Spell プロパティ](../macro/config/spell) が追加されました。
+- [ScrollProp オブジェクト](../macro/scroll_prop/index) に [HorizontalGrid プロパティ](../macro/scroll_prop/horizontal_grid) が追加されました。
+- [Find メソッド](../macro/selection/selection_find) は、eeFindCount フラグが指定されている場合、一致した文字列の数を返すようになりました。
+
+## 新しいプラグイン API
+
+- [EE\_GET\_WORD メッセージ](../plugin/message/ee_get_word)
+- [Editor\_GetWord インライン関数](../plugin/macro/editor_getword)
+- EI\_GET\_ACTIVE\_DOC、EI\_SET\_ACTIVE\_DOC、EI\_GET\_SYNC\_SESSION、EI\_GET\_LOC\_DLL\_INSTANCE フラグ (EE\_INFO メッセージ)
+- byteCrLf フィールドと FLAG\_GET\_CRLF\_BYTE フラグが [GET\_LINE\_INFO 構造体](../plugin/structure/get_line_info) に追加されました。

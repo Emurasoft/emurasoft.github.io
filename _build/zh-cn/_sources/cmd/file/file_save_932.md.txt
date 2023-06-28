@@ -1,0 +1,34 @@
+# 保存为日文 Shift JIS 命令
+
+### 摘要
+
+> 用日文 Shift JIS 编码保存当前文件。
+
+### 说明
+
+> 这个命令会用日文 Shift JIS 编码保存当前文件，除非文档还未被命名。如果文档无标题，会出现一个 **另存为** 对话框，让你输入一个文件名来保存文件。
+>
+> 这个命令与旧版本的EmEditor兼容。你还可以使用 [**以指定编码保存（多个项目）** 命令](file_save_defined) 并指定日文 Shift JIS。
+
+### 运行方法
+
+- 默认菜单: 无
+- [所有命令](../tools/all_commands): **文件** \> **保存**
+\> **以指定编码保存** \> **保存为日文 Shift JIS**
+- 工具栏: 无
+- 状态栏: 无
+- 默认快捷键: 无
+
+### 插件命令ID
+
+- EEID\_FILE\_SAVE\_932 (4265)
+
+### 宏
+
+#### \[JavaScript\]
+
+> editor.ExecuteCommandByID(4265);
+
+#### \[VBScript\]
+
+> editor.ExecuteCommandByID 4265

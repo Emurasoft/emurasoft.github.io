@@ -1,0 +1,32 @@
+# 大纲属性命令
+
+### 摘要
+
+> 当前配置的大纲属性。
+
+### 说明
+
+> 显示 **[配置属性](../../dlg/properties/index)** 对话框中的 [**大纲** 页面](../../dlg/properties/outline/index)。
+
+### 运行方法
+
+- 默认菜单: 无
+- [所有命令](all_commands): **工具** >
+**当前配置属性** \> **大纲**
+- 工具栏: 无
+- 状态栏: 无
+- 默认快捷键: 无
+
+### 插件命令ID
+
+- EEID\_PROPERTY\_OUTLINE (8976)
+
+### 宏
+
+#### \[JavaScript\]
+
+> editor.ExecuteCommandByID(8976);
+
+#### \[VBScript\]
+
+> editor.ExecuteCommandByID 8976

@@ -1,0 +1,69 @@
+# Version 11
+
+2011年9月21日
+
+## 一般の新機能
+
+- [マーカー](../features/markers)
+- [HTML/XML 文字参照のツール チップ表示](../features/tooltip_char_ref)
+- [検索ツール バー](../features/find_bar)
+- [連続置換](../features/batch_replace)
+- 新しい [\[重複行の削除\] コマンド](../cmd/edit/delete_duplicate) を使用して、選択テキストがあれば選択範囲から、選択テキストがなければ文書全体から、重複行を削除することができるようになりました。
+- 各種並べ替えコマンドは、選択テキストがあれば、選択範囲から並べ替えできるようになりました。
+- 新しい [\[最近閉じたファイル\] コマンド](../cmd/file/file_mru_folder1) を使用して、最近閉じたファイルを開けるようになりました。
+- 韓国語 IME の漢字 (ハンジャ) 変換に対応しました。
+- ステータス バーには、従来の表示項目に追加して、選択範囲の文字数、単語数、行数を表示できるようになりました。また表示の順序を自由に変更することができるようになりました。
+- Unicode 異字体シーケンス (IVS) に対応しました。(対応フォントが必要です。)
+- Boost バージョン 1.47 にしました。
+- Hunspell バージョン 1.3.1 にしました。
+
+## 新しい設定
+
+- [\[マーカーのカスタマイズ\] ダイアログ ボックス](../dlg/customize_markers/index) が追加されました。
+- [\[置換\] ダイアログ ボックス](../dlg/replace/index) に、 **\[連続置換\]** ボタン、 **\[連続へ追加\]** ボタン、 **\[変更\]** ボタン、リスト ボックス、 **\[すべて有効/無効にする\]** チェック ボックス、 **\[上へ\]** ボタン、 **\[下へ\]** ボタン、 **\[すべて選択\]** ボタン、 **\[インポート\]** ボタン、 **\[エクスポート\]** ボタン、 **\[すべて連続置換\]** ボタンが追加されました。
+- [設定のプロパティ](../dlg/properties/index) の [\[強調(2)\] タブ](../dlg/properties/highlight2/index) に、 **\[HTML/XML文字参照とUCNを強調する\]** チェック ボックスが追加されました。
+- [\[カスタマイズ\] ダイアログ ボックス](../dlg/customize/index) の [\[検索\] タブ](../dlg/customize/search/index) に、 **\[検索/置換ダイアログで、ショートカットを無効にする\]** チェック ボックス、 **\[検索後、エディタにフォーカスを切り替える\]** チェック ボックス、 **\[ESC を押して閉じる\]** チェック ボックスが追加されました。
+- [\[カスタマイズ\] ダイアログ ボックス](../dlg/customize/index) の
+[\[ステータス\] タブ](../dlg/customize/status/index) に、 **\[ステータス\]** リスト ボックス、 **\[上へ\]** ボタン、 **\[下へ\]** ボタンが追加されました。
+
+## 新コマンド
+
+- [検索ツール バー](../cmd/view/show_find_bar)
+- [マーカーへ追加](../cmd/edit/add_to_markers)
+- [マーカー ツール バー](../cmd/view/show_markers_bar)
+- [マーカーのカスタマイズ](../cmd/tools/customize_markers)
+- [UnicodeをHTML文字実体参照に変換](../cmd/edit/encode_html_char_entity_ref)
+- [重複行の削除](../cmd/edit/delete_duplicate)
+- [検索ツール バーにフォーカスを設定する](../cmd/search/focus_find_bar)
+- [検索用の表現の参照 (検索ツール バー)](../cmd/search/findbar_browse_exp_f)
+- [置換用の表現の参照 (検索ツール バー)](../cmd/search/findbar_browse_exp_r)
+- [前を検索 (検索ツール バー)](../cmd/search/findbar_find_prev)
+- [次を検索 (検索ツール バー)](../cmd/search/findbar_find_next)
+- [インクリメンタル サーチ (検索ツール バー)](../cmd/search/findbar_incremental)
+- [開いているすべての文書から検索 (検索ツール バー)](../cmd/search/findbar_open_doc)
+- [大文字と小文字を区別する (検索ツール バー)](../cmd/search/findbar_case)
+- [エスケープ シーケンスを使用する (検索ツール バー)](../cmd/search/findbar_escape)
+- [正規表現を使用する (検索ツール バー)](../cmd/search/findbar_reg_exp)
+- [単語のみ検索する (検索ツール バー)](../cmd/search/findbar_only_word)
+- [文末まで移動したら文頭に移動する (検索ツール バー)](../cmd/search/findbar_around)
+- [一致する文字列を数える (検索ツール バー)](../cmd/search/findbar_count)
+- [置換 >\> (検索ツール バー)](../cmd/search/findbar_replace_dlg)
+- [次を置換 (検索ツール バー)](../cmd/search/findbar_replace_next)
+- [すべて置換 (検索ツール バー)](../cmd/search/findbar_replace_all)
+- [選択した範囲のみ (検索ツール バー)](../cmd/search/findbar_sel_only)
+- [最も最近閉じたファイル](../cmd/file/most_recent_closed_file)
+- [検索ツール バーを閉じる](../cmd/search/close_find_bar)
+- [すべてのマーカーを有効にする](../cmd/view/marker_enable_all)
+- [すべてのマーカーを無効にする](../cmd/view/marker_disable_all)
+- [すべてのマーカーを削除する](../cmd/view/marker_delete_all)
+- [最近閉じたファイル](../cmd/file/file_mru_folder1) (複数項目)
+
+## マクロ新機能
+
+- [**HighlightProp** オブジェクト](../macro/highlight_prop/index) に、 [**HighlightCharRef** プロパティ](../macro/highlight_prop/highlight_char_ref) が追加されました。
+- [エンコード定数](../macro/const/const_encoding) に、eeEncodingBinary と eeEncodingHex が追加されました。
+
+## 新しいプラグイン API
+
+- CCustomizeInfo クラスに [HighlightCharRef メンバー](../macro/highlight_prop/highlight_char_ref) が追加されました。
+- 新コマンド (EEID\_SHOW\_FIND\_BAR から EEID\_CLOSE\_FIND\_BAR までと EEID\_RECENT\_CLOSED\_FILE1) が追加されました。

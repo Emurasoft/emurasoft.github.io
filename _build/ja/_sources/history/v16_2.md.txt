@@ -1,0 +1,40 @@
+# Version 16.2
+
+2016年 10月 5日
+
+## 一般の新機能
+
+- フィルター ツール バーは、一致した行の前後に表示する追加の行を指定することができるようになりました。フィルター ツール バーに、\[一致する行の上に追加表示する行数\] と \[一致する行の下に追加表示する行数\] ドロップダウン リスト ボックスが追加されました。
+- 検索の抽出機能は、一致した行の前後に追加する行数を指定することができるようになりました。また、区切り文字列を指定できるようになりました。
+- \[置換\] ダイアログに \[抽出\] ボタンが追加され、正規表現を使用して一致するすべての文字列を検索して抽出し、置換表現を使用して置換できるようになりました。例えば、検索する文字列に「<h3>(.\*?)</h3>」と入力し、置換後の文字列に「\\1」と入力して、\[正規表現を使用する\] をチェックして \[抽出\] ボタンをクリックすると、新規文書に「<h3>」と「</h3>」の間の文字列が抽出されます。
+- フィルター時の動作の高速化。
+
+## 新しい設定
+
+- [\[複数列で並べ替え\] ダイアログ ボックス](../dlg/sort_multi/index) に、\[日時が古いから新しいへ\] と \[日時が新しいから古いへ\] ラジオ ボタンが追加されました。
+- [\[抽出オプション\] ダイアログ ボックス](../dlg/extract_options/index) に、\[一致する行の上に追加する行数\] と \[一致する行の下に表示する行数\] ドロップダウン リスト ボックス、\[区切り\] テキスト ボックスが追加されました。
+- [\[置換\] ダイアログ](../dlg/replace/index) に \[抽出\] ボタンが追加されました。
+
+## 新しいコマンド
+
+- [日時が古いから新しいへ並べ替え](../cmd/edit/sort_date_a)
+- [日時が新しいから古いへ並べ替え](../cmd/edit/sort_date_d)
+
+## プラグイン API の新機能
+
+- [EE\_INFO メッセージ](../plugin/message/ee_info) に、EI\_GET\_FILTER\_VISIBLE\_LINES\_ABOVE、EI\_SET\_FILTER\_VISIBLE\_LINES\_ABOVE、EI\_GET\_FILTER\_VISIBLE\_LINES\_BELOW、EI\_SET\_FILTER\_VISIBLE\_LINES\_BELOW フラグが追加されました。
+- POS\_CELL\_LOGICAL、POS\_CELL\_VIEW フラグが、EE\_GET\_ANCHOR\_POS、EE\_GET\_CARET\_POS、EE\_GET\_SEL\_START、EE\_GET\_SEL\_END、EE\_SET\_CARET\_POS、EE\_SET\_ANCHOR\_POS メッセージに追加されました。
+
+## マクロの新機能
+
+- [Filters コレクション](../macro/filters/index) に、 [VisibleLinesAbove](../macro/filters/visible_lines_above) と [VisibleLinesBelow](../macro/filters/visible_lines_below) プロパティが追加されました。
+- eePosCellLogical、eePosCellView フラグが [GetActivePointY](../macro/selection/selection_getactivepointy)、 [GetAnchorPointY](../macro/selection/selection_getanchorpointy)、 [SetActivePoint](../macro/selection/selection_setactivepoint)、 [SetAnchorPoint](../macro/selection/selection_setanchorpoint) 、 [GetBottomPointY](../macro/selection/selection_getbottompointy)、 [GetTopPointY](../macro/selection/selection_gettoppointy) メソッドに追加されました。
+
+## 不具合の修正
+
+- ファイルから置換で、UTF-8 (BOM付き) のファイルの BOM が消えてしまうことがある不具合を修正しました。
+- 検索の抽出オプションで \[アウトプット バーを使用\] が設定されている場合に、抽出を実行すると、異常終了する可能性がある不具合を修正しました。
+- \[Ctrl+クリックで単語選択\] が設定されていない場合、Ctrlを押しながらダブル クリックで、以前の選択が解除されてしまう不具合を修正しました。
+- 巨大ファイルを読み込み中に CSV モードを変更しようとすると異常終了する不具合を修正しました。
+
+##### copyright © 2003-2023 by Emurasoft, Inc.
