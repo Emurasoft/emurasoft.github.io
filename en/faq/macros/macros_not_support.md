@@ -1,0 +1,3 @@
+# Q. The "Object doesn't support this property or method" error is displayed when I use a certain method of JavaScript in my macros. Why?
+
+Many new methods in modern JavaScript/ECMAScript are not available in EmEditor. EmEditor macros use JScript 5.8 (equivalent to Internet Explorer 8.0), thus newer methods introduced after JScript 5.8 are not supported in EmEditor macros. On the other hand, the Replace Expressions use Chakra (equivalent to Microsoft Edge Legacy), and support up to ECMAScript 5.1, thus newer methods introduced after ECMAScript 5.1 are not supported. Please check if the methods you want to use meet the required versions.

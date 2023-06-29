@@ -1,0 +1,3 @@
+# Q. How can I round numbers in a column to 2 decimal places?
+
+Select a whole column where you want to round numbers. Select **Replace** on the **Search** menu (or press CTRL + H) to bring up the **Replace** dialog box. Click the **Number Range** radio button. Clear the **Integers Only** option, leave **Minimum** and **Maximum** fields empty, and click **OK** if the **Enter Number Range** dialog box appears. Make sure " **\[ , \]**" is set in the **Find** field. In the **Replace with** field, enter " `\J parseFloat( \0 ).toFixed(2)`". Make sure " **In the Selections Only**" option is enabled, and click the " **Replace All**" button.

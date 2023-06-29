@@ -1,0 +1,19 @@
+# MaxDetectLines Property
+
+Corresponds to the **Max lines to detect** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
+
+#### \[JavaScript\]
+
+_n_ = object. **MaxDetectLines**;
+
+object. **MaxDetectLines** = _n_;
+
+#### \[VBScript\]
+
+_n_ = object. **MaxDetectLines**
+
+object. **MaxDetectLines** = _n_
+
+## Version
+
+Supported on EmEditor Professional Version 19.4 or later.
