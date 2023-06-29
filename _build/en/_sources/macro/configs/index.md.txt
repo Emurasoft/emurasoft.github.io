@@ -1,15 +1,15 @@
-# Configs 集合
+# Configs Collection
 
-Configs 集合提供 [**Config** 對象](../config/index) 的集合。
+Configs collection provides a collection of [**Config** objects](../config/index).
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 檢索組態的數目。 |
-| **[Item](item)** | 為指定索引的組態檢索 [**Config** 對象](../config/index)。 |
+| **[Count](count)** | Retrieves the number of configurations. |
+| **[Item](item)** | Retrieves the [**Config** object](../config/index) for the configuration of the specified index. |
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -31,9 +31,9 @@ alert cfg.Name
 
 Next
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

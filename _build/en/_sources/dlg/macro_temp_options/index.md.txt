@@ -1,56 +1,59 @@
-# 「巨集臨時選項」對話方塊
+# Macro Temporary Options dialog box
 
-這個對話方塊會顯示當
-[**使用臨時選項運行巨集** 命令](../../cmd/macros/macro_run_options) 被選取時。
+This dialog box appears when the
+[**Run with Temporary Options** \
+command](../../cmd/macros/macro_run_options) is selected.
 
-### 「巨集」文字方塊
+### Macro text box
 
-指定要運行的巨集檔案名。如果目前的巨集已被記錄且未儲存，則該文字方塊顯示"（未命名）"。
+Specifies the macro file name to run. If the current macro has been recorded and unsaved, this text box shows "(Untitled)".
 
-### 「...」按鈕
+### ... button
 
-單擊此按鈕可顯示 **打開** 對話方塊，您可以在其中選擇要運行的巨集檔案。
+Click this button to display the **Open** dialog box where you can select a macro file to run.
 
-### 「▼ 」按鈕
+### ▼ button
 
-單擊此按鈕可顯示預設巨集、（剪貼簿）選項和 **我的巨集** 清單。
+Click this button to display the default macro, the (Clipboard) option and the list of **My Macros**.
 
-### 「將此設定為預設巨集」核取方塊
+### Set this as the default macro check box
 
-如果勾選該核取方塊，則所選巨集將被設定為預設巨集。
+If this is checked, the selected macro will be set as the default macro.
 
-### 「設定重複次數」核取方塊和文字方塊
+### Set Repeat Count check box and text box
 
-指定巨集重複的次數。
+Specifies the number of times the macro repeats.
 
-### 「搜尋失敗即停止」核取方塊
+### Stop if Search Fails check box
 
-如果該核取方塊被勾選，巨集將會停止當尋找或取代字串失敗時。這個核取方塊適用於當您想要重複巨集來尋找或取代一個字串時。
+If this box is checked, the macro will be stopped when finding or replacing a string
+fails. It is useful when you want to repeat a macro that finds or replaces a
+string.
 
-### 「抑制重繪」核取方塊
+### Suppress redraw check box
 
-如果勾選該核取方塊，則巨集以「Redraw = false」開頭。EmEditor 將抑制變更的重繪直到「Redraw = true」或到達巨集的結尾。
+If this box is checked, the macro starts with "Redraw = false". EmEditor will suppress redraw of changes until "Redraw = true" or the end of macro is reached.
 
-### 「對每個打開的文檔運行巨集」核取方塊
+### Run the macro against each opened document check box
 
-如果勾選了該核取方塊，則可以在運行巨集之前指定要打開的檔案。在打開每個指定的檔案後，巨集將立即運行。如果指定了 **重複次數**，則每個打開的檔案都會重複該巨集。
+If this box is checked, you can specify files to open before running the macro. The macro will be run immediately after each specified file is opened. If the **Repeat Count** is specified, the macro will be repeated for each opened file.
 
-### 「名稱」清單方塊
+### Name list box
 
-指定要打開的檔案，如果勾選了 **對每個打開的文檔運行巨集** 核取方塊。
+Specifies the files to open if the **Run the macro against each opened document** check box is set.
 
-### 「添加」按鈕
+### Add button
 
-將項目添加到清單中。
+Adds an item to the list.
 
-### 「刪除」按鈕
+### Delete button
 
-從清單中刪除所選項目。
+Deletes the selected items from the list.
 
-### 「運行巨集後儲存並關閉每個文檔」核取方塊
+### Save and close each document after running the macro check box
 
-如果勾選了該核取方塊，在運行巨集後，將儲存並關閉每個打開的檔案。
+If this is checked, each opened file will be saved and closed after running the macro.
 
-### 「儲存選項」核取方塊
+### Save options check box
 
-如果勾選了該核取方塊，將儲存設定。
+If this is checked, the settings will be saved.

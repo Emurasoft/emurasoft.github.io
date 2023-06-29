@@ -1,6 +1,6 @@
-# ThreadID 屬性
+# ThreadID Property
 
-返回創建視窗的線程的標識符。
+Returns the identifier of the thread that created the window.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _id_ = wnd. **ThreadID**;
 
 _id_ = wnd. **ThreadID**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

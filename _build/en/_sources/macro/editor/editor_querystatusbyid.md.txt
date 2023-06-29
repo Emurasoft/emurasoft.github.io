@@ -1,6 +1,7 @@
-# QueryStatusByID 方法
+# QueryStatusByID Method
 
-檢索指定命令的目前的狀態，是否已被勾選和啟用。
+Retrieves the current status of the specified command, whether it is enabled
+and checked.
 
 #### \[JavaScript\]
 
@@ -10,21 +11,23 @@ _nStatus_ = editor. **QueryStatusByID**( _nID_ );
 
 _nStatus_ = editor. **QueryStatusByID**( _nID_ )
 
-## 參數
+## Parameters
 
 _nID_
 
-指定表示要執行的命令 ID 的一個整數。詳見 **[命令參考](../../cmd/index)** 來檢視可用命令清單。不是所有命令都可以或被支持。
+Specifies an integer indicating the Command ID to execute. See the
+**[Command Reference](../../cmd/index)** for the list of available
+commands. Not all commands may be available or supported.
 
-## 返回值
+## Return Values
 
 Returns a combination of the following values.
 
 |     |     |
 | --- | --- |
-| eeStatusEnabled | 命令被啟用。 |
-| eeStatusLatched | 命令被勾選。 |
+| eeStatusEnabled | The command is enabled. |
+| eeStatusLatched | The command is checked. |
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

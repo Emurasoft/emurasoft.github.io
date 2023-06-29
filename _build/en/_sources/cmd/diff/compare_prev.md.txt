@@ -1,26 +1,26 @@
-# 上一更改命令
+# Previous Change command
 
-### 摘要
+### Summary
 
-> 跳轉至上一更改。
+> Jumps to the previous change.
 
-### 說明
+### Description
 
-> 在比較模式下，跳轉至上一更改。
+> Jumps to the previous difference when in comparison mode.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **比較** \> **上一更改**
-- [全部命令](../tools/all_commands): **比較** \> **上一更改**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: SHIFT+F7
+- Default Menu: **Compare** \> **Previous Change**
+- [All Commands](../tools/all_commands): **Compare** \> **Previous Change**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: SHIFT+F7
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_COMPARE\_PREV (4509)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

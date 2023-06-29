@@ -1,6 +1,6 @@
-# OutputBar 屬性
+# OutputBar Property
 
-返回 [OutputBar 對象](../output_bar/index)。
+Returns the [OutputBar Object](../output_bar/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _outbar_ = **OutputBar**;
 
 Set _outbar_ = **OutputBar**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,6 +1,6 @@
-# scrollY 屬性
+# scrollY Property
 
-返回捲軸的垂直位置。
+Returns the vertical position of the scroll bar.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _yPos_ = **scrollY**;
 
 _yPos_ = **scrollY**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

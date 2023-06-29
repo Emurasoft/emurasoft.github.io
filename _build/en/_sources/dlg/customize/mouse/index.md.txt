@@ -1,67 +1,68 @@
-# 「滑鼠」頁面
+# Mouse page
 
-**滑鼠** 頁面讓您能自訂與滑鼠有關的設定。
+The **Mouse** page allows you to customize settings related to the mouse.
 
-### 「在索引標籤上 \- 按一下滑鼠中間鍵」下拉清單方塊
+### On Tabs - Middle Mouse Button Click drop-down list box
 
-當在一個索引標籤上按一下滑鼠中鍵時，指定一個動作。
+Specifies an action when the middle mouse button is clicked on a tab.
 
-### 「索引標籤上 \- 按兩下滑鼠左鍵」下拉清單方塊
+### On Tabs - Left Mouse Button Double-Click drop-down list box
 
-當在一個索引標籤上按兩下滑鼠左鍵時，指定一個動作。
+Specifies an action when the left mouse button is double-clicked on a tab.
 
-### 「使用滑鼠滾輪選擇標籤」核取方塊
+### Use Mouse Wheel to Select check box
 
-啟用滑鼠滾輪來選擇索引標籤。
+Enables the mouse wheel to select tabs.
 
-### 「索引標籤外部 \- 按一下滑鼠中鍵」下拉清單方塊
+### Outside of Tabs - Middle Mouse Button Click drop-down list box
 
-當在標籤欄上的索引標籤外部按一下滑鼠中鍵時，指定一個動作。
+Specifies an action when the middle mouse button is clicked outside of tabs on the Tab bar.
 
-### 「索引標籤外 \- 按兩下滑鼠左鍵」下拉清單方塊
+### Outside of Tabs - Left Mouse Button Double-Click drop-down list box
 
-當在標籤欄上的索引標籤外部按兩下滑鼠左鍵時，指定一個動作。
+Specifies an action when the left mouse button is double-clicked outside of tabs on the Tab bar.
 
-### 「啟用文字拖放」核取方塊
+### Enable Text Drag and Drop check box
 
-如果勾選了該核取方塊，你能拖放選取的文字來複製或移動到另一個地方。如果你在拖放的同時按下 CTRL 鍵，文字會被複製。如果你在拖放的同時按下 SHIFT 鍵，文字會被移動。如果你在拖放文字時不按任何鍵，那么拖放到同一個視窗會移動文字，拖放到另一個視窗則會複製文字。
+If this is checked, you can drag and drop the selection of text to copy or move into another place. If you drag and drop while the CTRL key is pressed, the text is copied. If you drag and drop while the SHIFT key is pressed, the text is moved. If you don't press any key while dragging and dropping, the
+text will be moved if you drop into the same window, and copied if you drop into another window.
 
-### 「按三下滑鼠左鍵選擇行」核取方塊
+### Enable Triple-Click to Select Line check box
 
-啟用在游標位置處連續按三次滑鼠左鍵選擇整個行。
+Enables triple-clicking the mouse to select a line at the current cursor position.
 
-### 「使用 CTRL 加滾輪改變字型大小」核取方塊
+### CTRL + Wheel to Change Font Size check box
 
-如果勾選了該核取方塊，你能通過在按下 CTRL 鍵的同時用滑鼠滾輪來改變字型大小。
+If this is checked, you can change the font size by rotating the mouse wheel while pressing the CTRL key.
 
-### 「當使用滑鼠開啟視窗時設定游標位置」核取方塊
+### Set Cursor Position when Activated with Mouse check box
 
-如果勾選了該核取方塊，則按一下 EmEditor 視窗以啟動游標位置時將移動游標位置。
+If this box is checked, the cursor position will be moved when you click on an EmEditor window to activate it.
 
-### 「使用滑鼠右鍵加滾輪切換標籤」核取方塊
+### Right Click + Wheel to Switch Tab check box
 
-如果勾選了該核取方塊，按滑鼠右鍵的同時用滑鼠滾輪讓 EmEditor 在索引標籤之間循環。
+If this box is checked, rotating the mouse wheel while pressing the right mouse button causes EmEditor to cycle between tabs.
 
-### 「按住 CTRL 鍵並按一下滑鼠來選擇單字」核取方塊
+### CTRL + Click to Select a Word check box
 
-如果勾選了該核取方塊，在一個單字上按一下滑鼠右鍵的同時按住 CTRL 鍵會選擇這個單字（一個以 A-Z，a-z，0-9，或一個下劃線開頭和結尾的字串）。
+If this box is checked, clicking on a word while pressing the CTRL key will select a word (defined as a string beginning and ending with A-Z, a-z, 0-9, or an underscore).
 
-### 「按一下滑鼠中鍵以貼上」核取方塊
+### Middle Click to Paste check box
 
-如果勾選了該核取方塊，EmEditor 會在按一下滑鼠中鍵時貼上。
+If this box is checked, clicking the middle mouse button will paste what is on the clipboard.
 
-### 「拖動選取框線以延伸/縮小選區」核取方塊
+### Drag selection border to extend/shrink selection check box
 
-如果勾選了該核取方塊，則可以拖動選取框線以延伸或縮小選擇範圍。
+If this box is checked, you can drag the selection border to extend or shrink the selection.
 
-### 「在非儲存格選擇模式下啟用自動重複控點」核取方塊
+### Enable AutoRepeat handle in non-Cell Selection Mode check box
 
-如果勾選了該核取方塊，則可以在非儲存格選擇模式下使用自動重複控點。
+If this box is checked, you can use the AutoRepeat handle in non-Cell Selection Mode.
 
-### 「激活 EmEditor 當從另一個應用程式中拖入文字時」核取方塊
+### Activate EmEditor when text dropped from another app check box
 
-如果勾選了該核取方塊，當從另一個應用程式中拖入文字時，會激活 EmEditor 視窗。
+If this box is checked, the EmEditor window will be activated when text is dropped from another app.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

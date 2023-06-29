@@ -1,27 +1,30 @@
-# 鍵盤屬性命令
+# Keyboard Properties command
 
-### 摘要
+### Summary
 
-> 目前的組態的鍵盤屬性。
+> Displays Keyboard properties.
 
-### 說明
+### Description
 
-> 顯示 **[組態屬性](../../dlg/properties/index)** 對話方塊中的 [**鍵盤** 頁面](../../dlg/properties/keyboard/index)。
+> Displays the [**Keyboard** \
+> page](../../dlg/properties/keyboard/index)
+> of the **[Configuration Properties](../../dlg/properties/index)**
+> dialog box.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具** >
-**當前組態屬性** \> **鍵盤**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](all_commands): **Tools** >
+**Properties for Current Configuration** \> **Keyboard**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_PROPERTY\_KEYBOARD (8974)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

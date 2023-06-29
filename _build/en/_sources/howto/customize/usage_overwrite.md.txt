@@ -1,7 +1,8 @@
-# 設置覆寫模式
+# To Set Overwrite Mode
 
-按 **Insert** 鍵，覆寫模式會被激活。注意狀態列會顯示 **OVR** 當編輯模式是覆寫模式時。
+By pressing the **Insert** key, overwrite mode is activated. Note that the
+Status Bar displays **OVR** when in overwrite mode.
 
-## 提示
+## Tips
 
-- 再次按 **Insert** 鍵返回到插入模式。
+- Press the **Insert** key to return to Insert mode.

@@ -1,27 +1,28 @@
-# 檢查更新命令
+# Check for Updates command
 
-### 摘要
+### Summary
 
-> 連接到 Emurasoft 服務器檢查可用的新版本的 EmEditor。
+> Checks for available new versions of EmEditor by connecting to the Emurasoft server.
 
-### 說明
+### Description
 
-> 通過連接到 Emurasoft 的服務器上來檢查可用的新版本的 EmEditor。要進行這項操作，必須有網絡連接。在 EmEditor 完成更新檢查并偵測到可更新的新版本后，您會被詢問是否要開始更新。
+> Checks for available new versions of EmEditor by connecting to the Emurasoft server. An Internet connection is required for this operation. After EmEditor has finished checking for updates, you
+> will be prompted to begin updates if they are available.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **說明** \> **檢查更新**
-- [全部命令](../tools/all_commands): **說明** >
-**檢查更新**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Help** \> **Check for Updates**
+- [All Commands](../tools/all_commands): **Help** >
+**Check for Updates**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CHECK\_UPDATES (4481)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

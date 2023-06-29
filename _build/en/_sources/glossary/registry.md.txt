@@ -1,3 +1,4 @@
-# 注冊表
+# Registry
 
-一個為操作系統儲存偏好，設定以及選項的數據庫。
+A database used to store preferences, settings and options for the
+operating system.

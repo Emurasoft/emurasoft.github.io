@@ -1,26 +1,26 @@
-# 插入 Tab 鍵命令
+# Insert Tab command
 
-### 摘要
+### Summary
 
-> 在游標處插入一個 Tab 鍵。
+> Inserts a tab at the current cursor position.
 
-### 說明
+### Description
 
-> 在目前的游標位置處插入一個 Tab 鍵。
+> Inserts a tab at the current cursor position.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **插入** \> **Tab**
-- [全部命令](../tools/all_commands): **插入** \> **Tab**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: Tab
+- Default Menu: **Insert** \> **Tab**
+- [All Commands](../tools/all_commands): **Insert** \> **Tab**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_INSERT\_TAB (3878)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,4 +1,4 @@
-# 外掛程式
+# Plug-ins
 
 ```{toctree}
 :maxdepth: 1

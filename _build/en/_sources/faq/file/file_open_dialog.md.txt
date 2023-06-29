@@ -1,5 +1,9 @@
-# Q. 怎么能設定一個預設資料夾，讓「打開」對話方塊一直從這個資料夾中打開檔案？
+# Q. How can I open from the same folder in the open dialog?
 
-選擇工具功能表下的「 **自訂**」，然后在「 **檔案**」頁面上勾選「 **記住最后打開的資料夾**」。
+Select **Customize** under the **Tools** menu, and check the **Remember Last**
+**Folder** check box on the **Customize** dialog box.
 
-另外，您也可以右擊 EmEditor 捷徑，打開 **屬性**。在「 **目標**」(Target) 文字方塊中的路徑后加 /cd。例如，如果 EmEditor 的安裝資料夾是 C:\\Program Files\\EmEditor，那么請輸入 "C:\\Program Files\\EmEditor\\emeditor.exe" /cd，并且在「 **起始位置**」(Start in) 文字方塊中輸入您要打開的資料夾路徑。
+Alternatively, display the **Properties** for the EmEditor shortcut that
+you usually use to run EmEditor, and add /cd in the **Target** text box. For
+instance, if the install folder of EmEditor is "C:\\Program Files\\EmEditor",
+enter "C:\\Program Files\\EmEditor\\emeditor.exe" /cd. Moreover, fill the **Start in** text box as a folder you want to open from.

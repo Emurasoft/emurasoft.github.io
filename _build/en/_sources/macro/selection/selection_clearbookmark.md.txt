@@ -1,6 +1,6 @@
-# ClearBookmark 方法
+# ClearBookmark Method
 
-清除目前的行上的書籤。
+Clears a bookmark on the current line.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document.selection. **ClearBookmark**();
 
 document.selection. **ClearBookmark**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

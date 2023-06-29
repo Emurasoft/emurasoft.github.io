@@ -1,5 +1,5 @@
-# 快速啟動
+# Quick Launch
 
-新增的 **[「快速啟動」](../cmd/tools/search_all_commands)** 命令會打開一個對話方塊，讓您能輸入部分關鍵字來搜尋所有在 EmEditor 中可使用的命令。對話方塊中會顯示一個清單方塊，含有所有與搜尋有關的命令，您可以在清單方塊中選擇您想要啟動的項目。 **「快速啟動」**
-視窗可以搜尋所有 EmEditor 的命令，外掛程式，巨集，外部工具，
-最近使用的檔案，資料夾，字型，打開的文檔檔案名稱等等。
+The new **[Quick Launch](../cmd/tools/search_all_commands)** command allows you to open a dialog box where you can type a partial keyword to search all the commands available in EmEditor. A list box is quickly filled with searched commands, and then you can select which list item you want to launch. The **Quick Launch**
+window will search all EmEditor commands, plug-ins, macros, external tools,
+recently used files, folders, fonts, opened document file names, and much more.

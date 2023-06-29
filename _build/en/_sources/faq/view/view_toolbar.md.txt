@@ -1,3 +1,5 @@
-# Q. 我不喜歡新的像玩具一樣的 Windows XP 樣式工具列。能顯示舊的工具列按鈕嗎？
+# Q. I don't like the new toyish Windows XP style toolbars. Can I use the old toolbar buttons?
 
-是的。從 **工具** 功能表下到 **「自訂工具列」** 中勾選 **「16色」** 核取方塊。
+Yes. Select **Customize Toolbar** from the **Tools** menu, and select
+**16**
+**color**.

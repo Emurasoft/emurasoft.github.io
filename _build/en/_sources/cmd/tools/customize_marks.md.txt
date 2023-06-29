@@ -1,28 +1,29 @@
-# 自訂段落標記命令
+# Customize Marks command
 
-### 摘要
+### Summary
 
-> 打開自訂對話方塊中的段落標記頁面。
+> Opens the Marks page of the Customize dialog box.
 
-### 說明
+### Description
 
-> 顯示讓您能定義一般應用程式設定的 [**自訂** 對話方塊](../../dlg/customize/index) 中的段落標記頁面。
+> Displays the Marks page of the [**Customize** dialog box](../../dlg/customize/index),
+> where you can define common application settings.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具** >
-**自訂** >
-**段落標記**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](all_commands): **Tools** >
+**Customize** >
+**Marks**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE\_MARKS (9050)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

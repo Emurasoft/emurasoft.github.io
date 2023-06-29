@@ -1,3 +1,4 @@
-# Q. 貼上命令不起作用，怎么辦？
+# Q. The paste command doesn't work.
 
-請檢查一下您的殺毒軟體。有時候，殺毒軟件會阻止應用程式訪問剪貼簿。如果是這樣的話，您必須要明確地把 EmEditor 排除在阻止訪問剪貼簿的應用程式之外。
+Please check Anti-Virus software.
+Sometimes, anti-virus programs block applications to access the Clipboard, and in that case, you will have to explicitly exclude EmEditor from blocking the Clipboard access.

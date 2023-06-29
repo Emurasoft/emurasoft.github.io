@@ -1,4 +1,4 @@
-# 疑難解答
+# Troubleshooting
 
 ```{toctree}
 :maxdepth: 1

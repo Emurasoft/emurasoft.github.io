@@ -17,13 +17,16 @@ author = 'Emurasoft'
 
 extensions = ['multiproject', 'myst_parser']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv']
-html_css_files = ['custom.css']
 html_static_path = ['_static']
+html_css_files = ['custom.css']
 templates_path = ['_templates']
+html_file_suffix = '.htm'
+html_copy_source = False
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+html_theme_path = ['_themes']
 html_theme = 'piccolo_theme'
 
 html_sidebars = {

@@ -1,6 +1,7 @@
-# EnableTab 屬性
+# EnableTab Property
 
-設置或檢索是否標簽頁被啟用。所有的文檔可能無法立即使用在標簽頁被啟用或禁用后。因此，在標簽頁被啟用或禁用后，可能有必要先退出巨集再運行該巨集。
+Sets or retrieves whether the tab is enabled. All documents may not be available immediately after the tab is enabled or disabled. Exiting from the macro and running the macro may be necessary
+after the tab is enabled or disabled.
 
 #### \[JavaScript\]
 
@@ -14,6 +15,6 @@ _bEnableTab_ = editor. **EnableTab**
 
 editor. **EnableTab** = _bEnableTab_
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

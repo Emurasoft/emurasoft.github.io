@@ -1,28 +1,30 @@
-# 用指定編碼全部儲存命令
+# Save All with Encoding command
 
-### 摘要
+### Summary
 
-> 除了未命名的文檔外，以指定的目標資料夾，編碼以及換行方式儲存所有打開的文檔。
+> Saves all opened documents with the specified destination folder,
+> encoding, and newline characters, except for untitled documents.
 
-### 說明
+### Description
 
-> 這個命令會顯示一個 **用指定編碼全部儲存** 對話方塊。在對話方塊中，您可以用一個特定的編碼和指定的選項來儲存所有打開的檔案 (除了無標題的文檔之外) 。這個對話方塊讓您能選擇目標資料夾，要儲存的編碼，以及換行方式。
+> This command displays the **Save All with Encoding** dialog box, where you can specify options for saving all open files (except untitled documents) with a specified encoding. The
+> dialog box allows you to choose the destination folder, the encoding to save in, and the newline characters.
 >
-> 要使用這個命令，您想要儲存的打開文檔必須已經在這個操作之前就已經被儲存過。換句話說，您不能對還未被創建的無標題文檔使用 **用指定編碼全部儲存** 命令。對于這些文檔請使用 **儲存** 或 **另存新檔** 命令。
+> In order to use this command, the opened documents that you wish to save with this command must have been previously saved. In other words, you cannot use the **Save All with Encoding** command for untitled documents that have not yet been created using the **Save** or **Save As** commands.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檔案** \> **用指定編碼全部儲存**
-- [全部命令](../tools/all_commands): **檔案** \> **用指定編碼全部儲存**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **File** \> **Save All with Encoding**
+- [All Commands](../tools/all_commands): **File** \> **Save All with Encoding**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILE\_SAVE\_ALL\_AS (3843)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

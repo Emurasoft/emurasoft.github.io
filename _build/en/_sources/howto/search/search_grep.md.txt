@@ -1,10 +1,11 @@
-# 在多個檔案中尋找一個字串
+# To Find a String in Files
 
-1. 在工具列上點擊  ![Find in Files](../../images/grep.gif)
-。
-2. 輸入要搜尋的文字字串，文字類型 (如果多于 1 個文字類型的話，用分號隔開) ，還有要搜尋的資料夾。
+1. Click  ![Find in Files](../../images/grep.gif)
+on the Toolbar.
+2. Enter the text string to search for, the file type(s) (separated with a
+semicolon if more than one), and the folder(s) to search.
 
-## 提示
+## Tips
 
-- 勾選 **區分大小寫** 來區分大小和小寫。
-- 勾選 **搜尋子資料夾** 會搜尋指定資料夾中的子資料夾。
+- Check **Match Case** to differentiate between uppercase and lowercase.
+- Check **Look in Subfolders**, to also search subfolders.

@@ -1,26 +1,26 @@
-# 下一更改的字元命令
+# Next Changed Character command
 
-### 摘要
+### Summary
 
-> 跳轉到下一更改的字元處。
+> Jumps to the next changed character.
 
-### 說明
+### Description
 
-> 在比較模式下，跳轉到下一更改的字元處。
+> Jumps to the next changed character when in comparison mode.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **比較** \> **下一更改的字元**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: CTRL+F7
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Compare** \> **Next Changed Character**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+F7
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_COMPARE\_NEXT\_CHAR (4090)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,3 +1,4 @@
-# XML 分析器
+# XML Parser
 
-一個用來把 XML 信息轉換為一系列能讓一個程式使用的結構。
+A tool used to convert XML information into a set of structures
+that an application can use.

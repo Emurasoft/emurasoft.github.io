@@ -1,6 +1,6 @@
-# CombineHistory 屬性
+# CombineHistory Property
 
-指定要不要合併復原/重做記錄。
+Specifies the undo/redo history to be combined or not combined.
 
 #### \[JavaScript\]
 
@@ -14,7 +14,7 @@ _b_ = **CombineHistory**
 
 **CombineHistory** = _b_;
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -36,6 +36,6 @@ document.writeln "DEF"
 
 CombineHistory = False
 
-## 版本
+## Version
 
-支持 EmEditor Professional 15.5 或之後的版本。
+Supported on EmEditor Professional Version 15.5 or later.

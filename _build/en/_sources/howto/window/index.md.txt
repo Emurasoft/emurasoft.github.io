@@ -1,6 +1,6 @@
-# 視窗
+# Window
 
-如何...
+How to...
 
 ```{toctree}
 :maxdepth: 1

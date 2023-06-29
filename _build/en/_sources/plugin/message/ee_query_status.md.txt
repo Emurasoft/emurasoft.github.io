@@ -1,6 +1,8 @@
 # EE\_QUERY\_STATUS
 
-查詢命令的狀態，無論命令是否被啟用，也不管命令是否處于被選中的狀態。您能明確地發送該消息或用 [Editor\_QueryStatus](../macro/editor_querystatus) 內嵌函式。
+Queries the status of the command, whether the command is enable and whether
+the command is a checked status. You can send this message explicitly or by
+using the [Editor\_QueryStatus](../macro/editor_querystatus) inline function.
 
 EE\_QUERY\_STATUS
 
@@ -8,17 +10,19 @@ wParam = (WPARAM) (UINT) nCmdID;
 
 lParam = (LPARAM) (BOOL\*) pbChecked;
 
-## 參數
+## Parameters
 
 _nCmdID_
 
-> 狀態被查詢的命令的標識符。請參考
-> [命令 ID](../cmdid/index)。
+> The identifier of the command on which the status is queried. See
+> [Command IDs](../cmdid/index).
 
 _pbChecked_
 
-> 指針指向一個接收勾選狀態的變量 (TRUE 表示所選命令已被選中，FALSE 則表示所選命令沒有被勾選) 。
+> Pointer to a variable that receives a checked status (TRUE indicates the
+> command is checked, FALSE indicates the command is not checked).
 
-## 返回值
+## Return Values
 
-> 如果命令被啟用，返回值就不是零。如果命令沒有被啟用，返回值是零。
+> If the command is enable, the return value is nonzero. If the command it
+> not enable, the return value is zero.

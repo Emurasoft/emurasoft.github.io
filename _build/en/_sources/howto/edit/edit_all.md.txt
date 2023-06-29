@@ -1,7 +1,7 @@
-# 選擇整個文檔
+# To Select the Entire Document
 
-選擇 **編輯** 功能表下的 **全選**。
+Select **Select All** under the **Edit** menu.
 
-### 提示
+### Tips
 
-- 另外，您也可以按 CTRL + A 來選擇整個文檔。
+- Alternatively, press CTRL + A to select the entire document.

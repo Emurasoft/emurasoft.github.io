@@ -1,6 +1,6 @@
-# CurrentDirectory 屬性
+# CurrentDirectory Property
 
-為輸出列設置當前目錄。這個信息是必需的如果文本包含只能從當前目錄跳至的相對路徑。
+Sets the current directory for the output bar. This information is necessary if the text contains a relative path that can be jumped only from the current directory.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ OutputBar. **CurrentDirectory** = _szCurrDir_;
 
 OutputBar. **CurrentDirectory** = _szCurrDir_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

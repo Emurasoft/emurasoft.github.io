@@ -1,6 +1,6 @@
 # JOIN\_INFO
 
-用於 [EE\_JOIN](../message/ee_join) 消息。
+Used by [EE\_JOIN](../message/ee_join) message.
 
 typedef struct \_JOIN\_INFO {
 
@@ -23,58 +23,61 @@ UINT iDocument3;
 
 } JOIN\_INFO;
 
-## 欄位
+## Fields
 
 _cbSize_
 
-> 指定這個結構的大小，sizeof( JOIN\_INFO )。
+> Specifies the size of this structure, sizeof( JOIN\_INFO ).
 
 _flags_
 
-> 從如下值中指定一個組合。
+> Specifies a combination of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | JOIN\_FLAG\_UNIQUE\_KEY\_1 | 第一個文檔中指定的索引鍵資料欄包含一個唯一索引鍵。 |
-> | JOIN\_FLAG\_UNIQUE\_KEY\_2 | 第二個文檔中指定的索引鍵資料欄包含一個唯一索引鍵。 |
-> | JOIN\_FLAG\_INCLUDE\_ALL\_1 | 第一個文檔中的所有資料列都會被包括在輸出中。輸出文檔將包含空的資料格如果第一個文檔中的行沒有符合的結果。 |
-> | JOIN\_FLAG\_INCLUDE\_ALL\_2 | 第一個文檔中的所有資料列都會被包括在輸出中。輸出文檔將包含空的資料格如果第一個文檔中的行沒有符合的結果。 |
-> | JOIN\_FLAG\_MATCH\_CASE | 大小寫符合。 |
-> | JOIN\_FLAG\_SIMPLE\_JOIN | 合併兩個文檔而不比較索引鍵。如果指定了此標志，則會忽略 _pszColumn1_ 和 _pszColumn2_ 參數。 |
-> | JOIN\_FLAG\_IGNORE\_HEADINGS\_1 | 忽略第一個文檔中的標題，以便將第一個文檔中的標題保留在合併的文檔中。 |
-> | JOIN\_FLAG\_IGNORE\_HEADINGS\_2 | 忽略第二個文檔中的標題。 |
-> | JOIN\_FLAG\_CONTAIN | Key1 包含 Key2。 |
-> | JOIN\_FLAG\_START\_WITH | Key1 以 Key2 開始。 |
-> | JOIN\_FLAG\_END\_WITH | Key1 以 Key2 結尾。 |
-> | JOIN\_FLAG\_MATCH\_SPLIT\_BOTH | 兩個分割的字串都符合。 |
-> | JOIN\_FLAG\_MATCH\_SPLIT\_ONE | Key1 符合分割的 Key2。 |
-> | JOIN\_FLAG\_FUZZY | 使用模糊比對。 此旗標不能與 JOIN\_FLAG\_END\_WITH、JOIN\_FLAG\_MATCH\_SPLIT\_BOTH 或 JOIN\_FLAG\_MATCH\_SPLIT\_ONE 結合使用。此旗標會使過程變慢。 |
-> | JOIN\_FLAG\_SWAP | Key1 和 Key2 互換，如果還指定了 JOIN\_FLAG\_CONTAIN，JOIN\_FLAG\_START\_WITH，或 JOIN\_FLAG\_END\_WITH。 |
+> | JOIN\_FLAG\_UNIQUE\_KEY\_1 | The specified column in the first document contains a unique key. |
+> | JOIN\_FLAG\_UNIQUE\_KEY\_2 | The specified column in the second document contains a unique key. |
+> | JOIN\_FLAG\_INCLUDE\_ALL\_1 | All lines in the first document should be included in the output. The output document will contain empty cells if lines in the first document do not have matches. |
+> | JOIN\_FLAG\_INCLUDE\_ALL\_2 | All lines in the second document should be included in the output. The output document will contain empty cells if lines in the second document do not have matches. |
+> | JOIN\_FLAG\_MATCH\_CASE | Matches cases. |
+> | JOIN\_FLAG\_SIMPLE\_JOIN | Merge two documents without comparing keys. If this is specified, _pszColumn1_ and _pszColumn2_ parameters are ignored. |
+> | JOIN\_FLAG\_IGNORE\_HEADINGS\_1 | Ignore headings in the first document so that headings from the first document are retained in the merged document. |
+> | JOIN\_FLAG\_IGNORE\_HEADINGS\_2 | Ignore headings in the second document. |
+> | JOIN\_FLAG\_CONTAIN | Key1 contains Key2. |
+> | JOIN\_FLAG\_START\_WITH | Key1 starts with Key2. |
+> | JOIN\_FLAG\_END\_WITH | Key1 ends with Key2. |
+> | JOIN\_FLAG\_MATCH\_SPLIT\_BOTH | Both split strings match. |
+> | JOIN\_FLAG\_MATCH\_SPLIT\_ONE | Key1 matches split Key2. |
+> | JOIN\_FLAG\_FUZZY | Uses fuzzy matching. This flag cannot be combined with JOIN\_FLAG\_END\_WITH, JOIN\_FLAG\_MATCH\_SPLIT\_BOTH, or JOIN\_FLAG\_MATCH\_SPLIT\_ONE. This flag makes the process slower. |
+> | JOIN\_FLAG\_SWAP | Swaps Key1 and Key2 if JOIN\_FLAG\_CONTAIN, JOIN\_FLAG\_START\_WITH, JOIN\_FLAG\_END\_WITH, or JOIN\_FLAG\_MATCH\_SPLIT\_ONE is also specified. |
 
 _pszDocument1_
 
-> 指定字串來識別第一個文檔。這個值可以是檔案名，檔案名以及路徑，或一個冒號 (:) 后跟目前的群組中指定文檔的索引號。例如，"filename.csv"，"C:\\data\\filename.csv" (如果是 JavaScript，"C:\\\data\\\filename.csv")，或 ":2"。
+> Specifies the string to identify the first document. This value can be a file name, file name with the full path, or a colon (:) followed by the index of the document in the current group. For
+> example, "filename.csv", "C:\\data\\filename.csv", or ":2".
 
 _pszDocument2_
 
-> 指定字串來識別第二個文檔。這個值的格式與 pszDocument1 格式相同。
+> Specifies the string to identify the second document. The format of this value is the same as pszDocument1.
 
 _pszColumn1_
 
-> 指定字串來識別第一個文檔的索引鍵資料欄。這個值可以是指定欄的第一行或一個冒號 (:) 后跟指定欄的索引號。例如，"first\_name" 或 ":5"。
+> Specifies the string to identify the key column of the first document. This value can be either the first line of the column or a colon (:) followed by the index of the
+> column. For
+> example, "first\_name" or ":5".
 
 _pszColumn2_
 
-> 指定字串來識別第二個文檔的索引鍵資料欄。這個值的格式與 pszColumn1 格式相同。
+> Specifies the string to identify the key column of the second document. The format of this value is the same as pszColumn1.
 
 _pszSelect_
 
-> 指定字串來選擇要包括在輸出文檔中的欄。例如，"file1.csv>column1,file2.csv>column2"。
+> Specifies the string to select which columns to include in the output document. For example, "file1.csv>column1,file2.csv>column2". Use '+' instead of ',' to concatenate with the previous column, and '\|' to use the first non-empty value.
 
 _iDocument3_
 
-> 這個欄位將充滿輸出文檔的索引，當函數返回時。
+> This field will be filled with the index of the output document when the function returns.
 
-## 版本
+## Version
 
-> 支持 EmEditor 14.8 或之後的版本。
+> Supported on EmEditor Professional Version 14.8 or later.

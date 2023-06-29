@@ -1,31 +1,31 @@
-# 轉換為 CSV (多個項目) 命令
+# Convert to CSV (multiple items) command
 
-### 摘要
+### Summary
 
-> 把目前的含有分隔值的文檔或固定欄寬文檔轉換為指定的分隔值文檔 (多個項目)。
+> Converts the current separated value document or fixed width column document to the specified separated value document (multiple items).
 
-### 說明
+### Description
 
-> 把目前的含有分隔值的文檔或固定欄寬文檔轉換為指定的分隔值文檔。
+> Converts the current separated value document or fixed width column document to the specified separated value document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **CSV** \> **轉換為** \> **(CSV 格式)**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: (None)
+- [All Commands](../tools/all_commands): **CSV** \> **Convert to** \> **(CSV)**
+- Toolbar: (None)
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
-- 從 EEID\_CONVERT\_TO\_SV 到 EEID\_CONVERT\_TO\_SV + 63 (從 22656 到 22656 + 63)
+- From EEID\_CONVERT\_TO\_SV through EEID\_CONVERT\_TO\_SV + 63 (from 22656 through 22656 + 63)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
-> editor.ExecuteCommandByID(22656 + i); //i 是一個從 0 到 63 的整數
+> editor.ExecuteCommandByID(22656 + i); //i is an integer from 0 through 63
 
 #### \[VBScript\]
 
-> editor.ExecuteCommandByID 22656 + i 'i 是一個從 0 到 63 的整數
+> editor.ExecuteCommandByID 22656 + i 'i is an integer from 0 through 63

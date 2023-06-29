@@ -1,3 +1,4 @@
-# 外掛程式
+# Plug-in
 
-一個外掛程式是一個程式，能與其他程式互動來提供一個特定的，通常非常具體的功能。
+A plug-in (or plugin) is a program that can interact with another program to
+provide a certain, usually very specific, function.

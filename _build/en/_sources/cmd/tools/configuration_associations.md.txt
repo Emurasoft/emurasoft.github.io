@@ -1,26 +1,27 @@
-# 檔案關聯組態命令
+# Associate Configurations command
 
-### 摘要
+### Summary
 
-> 將檔案類型關聯到組態項。
+> Associates configurations with files types.
 
-### 說明
+### Description
 
-> 顯示 [**檔案關聯組態** 對話方塊](../../dlg/configuration_associations/index)，讓您能選取與特定檔案類型相關聯的 EmEditor 組態。
+> Displays the
+> [**Configurations Associations** dialog box](../../dlg/configuration_associations/index), where you can select which EmEditor configurations to associate with specific file types.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **工具** \> **檔案關聯組態**
-- [所有命令](all_commands): **工具** \> **檔案關聯組態**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Tools** \> **Associate Configurations**
+- [All Commands](all_commands): **Tools** \> **Associate Configurations**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CONFIG\_ASSOCIATE (3847)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

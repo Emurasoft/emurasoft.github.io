@@ -1,6 +1,6 @@
-# Config 屬性
+# Config Property
 
-檢索 [**Config** 對象](../config/index)。
+Retrieves the [**Config** Object](../config/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _cfg_ = document. **Config;**
 
 Set _cfg_ = document. **Config**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

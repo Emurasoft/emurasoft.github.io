@@ -1,40 +1,40 @@
 # Editor\_ConvertCsv
 
-轉換目前的文檔的 CSV 格式。你能直接用該內嵌函式或明確地發送 [EE\_CONVERT\_CSV](../message/ee_convert_csv) 消息。
+Converts the CSV format of the current document. You can use this inline function or explicitly send the [EE\_CONVERT\_CSV](../message/ee_convert_csv) message.
 
 HRESULT Editor\_ConvertCsv( HWND hwnd, int iDestMode, UINT nFlags = 0, int nSepCount = 0, const int\* pcxSepWidths = NULL );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _iDestMode_
 
-> 指定要將目前的文檔轉換為 CSV 格式的索引。0 表示固定寬度的欄格式（非 CSV）。1 表示「自訂」對話方塊中 「CSV」 頁面上的第一個定義的格式（預設情況下是「逗號分隔」）。
+> Specifies the index of the CSV format you want to convert the current document to. 0 means fixed-width columns format (non-CSV). 1 means the first defined format in the CSV tab of the Customize dialog box (Comma separated by default).
 
 _nFlags_
 
-> 你能指定一個以下值的組合。
+> You can specify a combination of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | CSV\_HALF\_WIDTH | 假定所有字元為半形字元以提高速度。 |
-> | CSV\_DISCARD\_UNDO | 丟棄復原信息以提高速度。 |
+> | CSV\_HALF\_WIDTH | Assumes all half-width characters to improve the speed. |
+> | CSV\_DISCARD\_UNDO | Discards undo information to improve the speed. |
 
 _nSepCount_
 
-> 如果目前的文檔是非 CSV 文檔，並且要將目前的固定欄寬的文檔轉換為 CSV 文檔，則此參數指定分隔符號數，並且它必須與在 _pcxSepWidths_ 參數中指定的陣列大小相同。如果目前的文檔是 CSV 文檔，則可忽略此參數。
+> If the current document is a non-CSV document, and if you want to convert the current document of fixed-width columns to a CSV document, this parameter specifies the number of separators, and it must be equal to the size of the array specified in the _pcxSepWidths_ parameter. This parameter is ignored if the current document is a CSV document.
 
 _pcxSepWidths_
 
-> 如果 _nSepCount_ 參數不是零，則指定表示分隔符號之間的寬度的整數陣列。
+> Specifies the array of integers representing the widths between separators if the _nSepCount_ parameter is non-zero.
 
-## 返回值
+## Return Values
 
-> 如果成功，返回值為 S\_OK。
+> The return value is S\_OK if succeeds.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional 19.8 或之後的版本。
+> Supported on Version 19.8 or later.

@@ -1,3 +1,3 @@
-# Q. 為什么 EmEditor 和 Notepad 都不出現當我在 IE 瀏覽器上點擊「檢視源代碼」時？
+# Q. Why does neither EmEditor nor Notepad appear when I click View Source in Internet Explorer?
 
-這是 IE 瀏覽器中的一個 bug。請在 IE 瀏覽器中刪除臨時網絡檔案。
+This is a bug in Internet Explorer. Please delete Temporary Internet files in Internet Explorer.

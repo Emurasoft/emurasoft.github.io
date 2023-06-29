@@ -1,5 +1,14 @@
-# Q. 怎么在行的開頭或末尾搜尋一個字？
+# Q. How can I search for a word at the beginning of lines or a word at the end of lines?
 
-當您在「 **查找**」對話方塊中勾選了「 **使用規則運算式**」后，行的開頭可以用 「^」來表示，而行的末尾可以用 「$」 來表示。所以，要在行的開頭部分查找，請在「查找」文本框內輸入「^xxxxx」；要在行的末尾部分查找，請輸入「xxxxx$」。
+The beginning of a line can be represented as "^" and the end of lines can be represented as "$" if you check **Use Regular Expression**
+in the **Find** dialog box. Enter "^Search String" in **Find** field if you want to find "Search
+String" at
+the beginning of lines, or "Search String$" if you want to find "Search
+String" at the end of
+lines.
 
-您還可以勾選「 **使用轉義符**」，這樣就能用「\\n」來表示新的一行。當您要在行的開頭部分查找，您可以輸入「\\nxxxxx」；當您要在行的末尾部分查找時，可以輸入「xxxxx\\n」。
+A new line can be also represented as "\\n" if you check **Use Escape Sequence**. Enter "\\nSearch String" in **Find** field if you want to find "Search
+String" at
+the beginning of lines, or "Search String\\n" if you want to find "Search
+String" at the end of
+lines.

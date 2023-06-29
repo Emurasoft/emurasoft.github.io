@@ -1,27 +1,28 @@
-# 列印預覽命令
+# Print Preview command
 
-### 摘要
+### Summary
 
-> 顯示目前的文檔的列印預覽。
+> Displays preview of how the current document will be printed.
 
-### 說明
+### Description
 
-> 顯示 **列印預覽** 視窗預覽目前的文檔的列印效果。在 **列印預覽** 視窗中，您可以列印或設置列印參數。
+> Displays the **Print Preview** window to show how this document will be printed.
+> From the **Print Preview** window, you can print or set options for printing.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檔案** \> **列印預覽**
-- [全部命令](../tools/all_commands): **檔案** \> **列印**
-\> **列印預覽**
-- 工具列: ![](../../images/printpreview.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **File** \> **Print Preview**
+- [All Commands](../tools/all_commands): **File** \> **Print**
+\> **Print Preview**
+- Toolbar: ![](../../images/printpreview.gif)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_PRINT\_PREVIEW (4286)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

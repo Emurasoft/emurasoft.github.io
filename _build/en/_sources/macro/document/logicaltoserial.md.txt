@@ -1,6 +1,6 @@
-# LogicalToSerial 方法
+# LogicalToSerial Method
 
-將指定位置的邏輯坐標轉換為基于單個的串行位置。
+Converts the logical coordinates of a specified position to the one-based serial position.
 
 #### \[JavaScript\]
 
@@ -10,17 +10,17 @@ _nSerialPos_ = document. **LogicalToSerial**( _x_, _y_ );
 
 _nSerialPos_ = document. **LogicalToSerial**( _x_, _y_ )
 
-## 參數
+## Parameters
 
 _x_
 
-指定基于單個的水平（字元）位置。
+Specifies the one-based horizontal (character) position.
 
 _y_
 
-指定基于單個的垂直（行）位置。
+Specifies the one-based vertical (line) position.
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -30,6 +30,6 @@ n = document.LogicalToSerial( 5, 1 );
 
 n = document.LogicalToSerial( 5, 1 )
 
-## 版本
+## Version
 
-支持 EmEditor Professional 17.0 或之後的版本。
+Supported on EmEditor Professional Version 17.0 or later.

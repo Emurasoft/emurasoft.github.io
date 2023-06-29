@@ -1,6 +1,6 @@
-# ColorList 屬性
+# ColorList Property
 
-為顏色清單檢索 [DisplayList 集合](../display_list/index)。
+Retrieves the [**DisplayList** collection](../display_list/index) for the color list.
 
 #### \[JavaScript\]
 
@@ -12,6 +12,6 @@ object. **ColorList**;
 _list_ =
 object. **ColorList**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

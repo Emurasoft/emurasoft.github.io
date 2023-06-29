@@ -1,31 +1,32 @@
-# 激活或新增命令
+# Activate or New command
 
-### 摘要
+### Summary
 
-> 激活 EmEditor 或創建一個新檔案 (僅用於系統匣圖示) 。
+> Activates EmEditor or Creates a new file (available only in the tray icon).
 
-### 說明
+### Description
 
-> 如果 EmEditor 目前的沒有運行，這個命令會打開 EmEditor。如果 EmEditor 目前的已經運行了，這個命令會創建一個新的未命名文檔。命令僅顯示在系統匣圖示功能表中。
+> If EmEditor is not currently running, this command will open EmEditor. If EmEditor is already running, this command will create a new untitled document. Command available only in the tray icon
+> menu.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): 無
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): None
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
-- 無
+- None
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
-> 無
+> None
 
 #### \[VBScript\]
 
-> 無
+> None

@@ -1,6 +1,6 @@
-# Name 屬性
+# Name Property
 
-為目前的組態對象檢索名稱。
+Retrieves the name for the current configuration object.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _s_ = object. **Name**;
 
 _s_ = object. **Name**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

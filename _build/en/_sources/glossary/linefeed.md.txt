@@ -1,4 +1,5 @@
-# 換行符
+# Line Feed
 
-一個 ASCII 字元命令顯示外圍 (如顯示器，
-印表機等) 把游標向下移一行。當后面跟著一個 CR，這個 LF 被用來標示一個新行。
+An ASCII character which instructs the display peripheral (monitors,
+printers, etc) to move the cursor one line down. When following a CR, a LF is
+used to indicate a new line.

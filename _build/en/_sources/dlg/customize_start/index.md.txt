@@ -1,63 +1,63 @@
-# 「自訂啟動視窗」對話方塊
+# Customize Start Window dialog box
 
-這個對話方塊會出現當你在 **啟動** 視窗中按 **「自訂」** 按鈕時。
+This dialog box appears when the **Customize** button in the **Start** window is selected.
 
-### 「總是顯示啟動視窗而不打開檔案在啟動 EmEditor 時」核取方塊
+### Always show the Start window when EmEditor launches without opening files check box
 
-如果勾選了該核取方塊，每當 EmEditor 打開一個新文檔時，都會顯示啟動視窗。
+If this is checked, the Start window appears when EmEditor opens as a new document.
 
-### 「顯示啟動視窗當在新文檔中按向下鍵時」核取方塊
+### Show the Start window when the Down key is pressed on a new document check box
 
-如果勾選了該核取方塊，當在新文檔中按了向下鍵時啟動視窗就會顯示。
+If this is checked, the Start window appears when the Down key is pressed on a new document.
 
-### 「如果沒有設置自動工作區，在執行還原之前工作區命令時提示」核取方塊
+### Prompt if the automatic workspace is not set when restoring previous workspace check box
 
-如果勾選了該核取方塊，當你點擊 **「還原之前的工作區」** 按鈕，EmEditor 會顯示提示消息如果沒有設置自動工作區的話。
+If this is checked, EmEditor shows the prompt message if the automatic workspace is not set when the **Restore Previous Workspace** button is clicked in the **Start** window.
 
-### 「顯示最近的工作區」核取方塊
+### Show the Recent Workspaces check box
 
-如果勾選了該核取方塊，啟動視窗會包括最近的工作區。
+If this is checked, the Start window includes the recent workspaces.
 
-### 「顯示新增選項」核取方塊
+### Show New Options check box
 
-如果勾選了該核取方塊，啟動視窗會顯示新增選項清單。如果你清除此選項以隱藏新增選項清單，每當 EmEditor 更新到帶有新增選項的主版本時，還是會顯示該清單。
+If this is checked, the Start window includes new options. Even if you clear this option to hide the new options, it will be set again when EmEditor is updated to a new major version with new options.
 
-### 「最早的版本」核取方塊
+### Oldest Version drop-down list box
 
-指定在「新增選項」清單方塊中顯示的最早的版本。如果指定了將來版本（比目前的版本新），則僅顯示將來版本中可用的新增選項。
+Specifies the oldest version displayed in the **New Options** list box. If a future version (newer than the current version) is specified, only the new options available in future versions will be displayed.
 
-### 「顯示額外的按鈕」核取方塊
+### Show Additional Buttons check box
 
-如果勾選了該核取方塊，啟動視窗會顯示額外的按鈕。
+If this is checked, the Start window includes additional buttons.
 
-### 「貼齊主視窗」核取方塊
+### Snap to Main Window check box
 
-如果勾選了該核取方塊，啟動視窗會與主視窗貼齊。
+If this is checked, the Start window snaps to the main window.
 
-### 「變更的日期」核取方塊
+### Date Modified check box
 
-如果勾選了該核取方塊，啟動視窗會包括變更的日期。
+If this is checked, the Start window includes date modified.
 
-### 「類型」核取方塊
+### Type check box
 
-如果勾選了該核取方塊，啟動視窗會包括檔案類型。
+If this is checked, the Start window includes file type.
 
-### 「大小」核取方塊
+### Size check box
 
-如果勾選了該核取方塊，啟動視窗會包括檔案大小。
+If this is checked, the Start window includes file size.
 
-### 「大圖示」選項按鈕
+### Large Icons radio button
 
-如果選擇了該選項按鈕，啟動視窗會用大圖示顯示。
+If this is checked, the Start window is displayed with large icons.
 
-### 「小圖示」選項按鈕
+### Small Icons radio button
 
-如果選擇了該選項按鈕，啟動視窗會用小圖示顯示。
+If this is checked, the Start window is displayed with small icons.
 
-### 「顯示更新檢查器」核取方塊
+### Show Update Checker check box
 
-如果勾選了該核取方塊，則啟動視窗將包含「更新檢查器」。此選項在市集應用版本或可攜式式版本的 EmEditor 中不可用，或者在安裝 EmEditor 時停用了更新檢查器功能，此選項也不可用。
+If this is checked, the Start window includes Update Checker. This option will not be available in the store app versions or portable versions of EmEditor, or if the Updater Checker feature was disabled while installing EmEditor.
 
-### 「僅當新版本可用時」核取方塊
+### Only when new versions available check box
 
-如果勾選了該核取方塊，則即使勾選了 **顯示更新檢查器** 核取方塊，僅當新版本可用時，啟動視窗才包括更新檢查器。
+If this is checked, the Start window includes Update Checker only when new versions become available for updates even if the **Show Update Checker** check box is set.

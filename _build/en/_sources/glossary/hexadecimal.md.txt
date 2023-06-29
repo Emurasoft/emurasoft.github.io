@@ -1,3 +1,8 @@
-# 十六進位
+# Hexadecimal
 
-在各種編程語言中使用的基數為16個字母數字系統，通常使用 0-9 和 A-F 編寫。由于每一個十六進位數字把每一個位元 (8 位) 作為兩個連續的十六進位數字。十六進位數含有一個 "0x" 或 "U+" 前綴或一個 "h" 后綴。
+A base-16 alphanumerical system used in various programming languages,
+usually written using characters 0-9 and A-F. Useful because each
+hexadecimal figure can represent every byte (8 bits) as two consecutive
+hexadecimal digits. Hexadecimal numbers have either an "0x" or
+"U+" prefix or an
+"h" suffix.

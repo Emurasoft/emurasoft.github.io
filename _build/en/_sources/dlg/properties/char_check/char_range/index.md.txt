@@ -1,19 +1,20 @@
-# 「字元範圍」對話方塊
+# Character Range dialog box
 
-這個對話方塊會出現當點擊 [**字元檢查** 頁面](../index) 或 [**模糊比對選項** 對話方塊](../../../fuzzy_options/index) 上的 [**「添加」** 按鈕](../index)。
+This dialog box appears when the [**Add** button](../index)
+on the [**Character Check** page](../index) is selected.
 
-### 「Unicode 指令碼」清單方塊
+### Unicode Script list box
 
-選擇 Unicode 指令碼。
+Selects Unicode scripts.
 
-### 「Unicode 的一般類別」清單方塊
+### Unicode General Category list box
 
-選擇 Unicode 的一般類別。
+Selects Unicode general category.
 
-### 「最小字元」文字方塊
+### Minimum character text box
 
-輸入最小字元範圍。您可以在十六進位值中輸入至少 4 位字元程式碼值，帶或不帶「U+」前綴，或者實際的一個字元。例如，您可以輸入：「U+0061」、「0061」或「a」。
+Enter the minimum character of a range. You may enter at least 4-digit character code value in a hexadecimal value with or without "U+" prefix, or actual one character. For instance, you may enter: "U+0061", "0061", or "a".
 
-### 「最大字元」文字方塊
+### Maximum character text box
 
-輸入與 **最小字元** 文字方塊格式相同的最大字元範圍。
+Enter the maximum character of a range as the same format as the **Minimum character** text box.

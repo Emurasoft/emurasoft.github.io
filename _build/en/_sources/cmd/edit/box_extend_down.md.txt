@@ -1,27 +1,27 @@
-# 向下延伸一行 (垂直選擇模式)命令
+# Line Down Extend (Vertical Mode) command
 
-### 摘要
+### Summary
 
-> 將垂直選擇向下延伸一行。
+> Extends the vertical selection down one line.
 
-### 說明
+### Description
 
-> 將垂直選擇向下延伸一行。
+> Extends the vertical selection down one line.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **延伸選區**
-\> **向下延伸一行 (垂直選擇模式)**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: ALT+CTRL+向下鍵
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Line Down Extend (Vertical Mode)**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: ALT+CTRL+DOWN ARROW
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_BOX\_EXTEND\_DOWN (4028)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
@@ -30,3 +30,5 @@
 #### \[VBScript\]
 
 > editor.ExecuteCommandByID 4028
+
+##### CopyDown © 2003-2023 by Emurasoft, Inc.

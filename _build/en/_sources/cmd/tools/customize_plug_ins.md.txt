@@ -1,26 +1,27 @@
-# 自訂外掛程式命令
+# Customize Plug-ins command
 
-### 摘要
+### Summary
 
-> 自訂外掛程式。
+> Customizes Plug-ins.
 
-### 說明
+### Description
 
-> 顯示 [**自訂外掛程式** 對話方塊](../../dlg/plugins/index)，讓您能自訂外掛程式的設定。
+> Displays the [**Customize Plug-ins** \
+> dialog box](../../dlg/plugins/index), where you can customize the plug-ins settings.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **外掛程式** \> **自訂外掛程式**
-- [所有命令](all_commands): **外掛程式** \> **自訂外掛程式**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Plug-ins** \> **Customize Plug-ins**
+- [All Commands](all_commands): **Plug-ins** \> **Customize Plug-ins**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE\_PLUG\_INS (4238)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

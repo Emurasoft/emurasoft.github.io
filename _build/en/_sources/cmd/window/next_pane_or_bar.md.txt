@@ -1,28 +1,28 @@
-# 下一窗格或自訂顯示條命令
+# Next Pane or Custom Bar command
 
-### 摘要
+### Summary
 
-> 切換至下一窗格或自訂顯示條。
+> Switches to the next pane or the custom bar.
 
-### 說明
+### Description
 
-> 把游標移動到下一個窗格，當視窗被分割為多個窗格時；把游標移動到自訂顯示條，當視窗沒有被分割時。
+> Moves the cursor to the next pane, if the window is split into multiple panes, or the next custom bar if it is not.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **視窗**
-\> **窗格**
-\> **下一窗格或自訂顯示條**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Window**
+\> **Panes**
+\> **Next Pane or Custom Bar**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_NEXT\_PANE\_OR\_BAR (4553)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

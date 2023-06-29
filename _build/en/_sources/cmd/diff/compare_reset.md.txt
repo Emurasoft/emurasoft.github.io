@@ -1,26 +1,27 @@
-# 重設命令
+# Reset to Normal Mode command
 
-### 摘要
+### Summary
 
-> 重設比較或同步捲動模式并清除比較結果。
+> Resets comparison or synchronized scrolling mode and clears comparison results.
 
-### 說明
+### Description
 
-> 重設比較或同步捲動模式并清除比較結果。(檔案還原成標籤模式)。
+> Resets comparison or synchronized scrolling mode and clears comparison results (files return to tab mode).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **比較** \> **重設為普通模式**
-- [全部命令](../tools/all_commands): **比較** \> **重設為普通模式**
-- 工具列: ![](../../images/reset24x16.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Compare** \> **Reset to Normal Mode**
+- [All Commands](../tools/all_commands): **Compare** \> **Reset**
+**to Normal Mode**
+- Toolbar: ![](../../images/reset24x16.gif)
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_COMPARE\_RESET (4497)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

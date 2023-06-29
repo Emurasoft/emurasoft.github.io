@@ -1,6 +1,7 @@
 # EE\_GET\_ANCHOR\_POS
 
-檢索選區的原點。您能明確地發送該消息或用 [Editor\_GetAnchorPos](../macro/editor_getanchorpos) 內嵌函式。
+Retrieves the origin point of the selection. You can send this message explicitly
+or by using the [Editor\_GetAnchorPos](../macro/editor_getanchorpos) inline function.
 
 EE\_GET\_ANCHOR\_POS
 
@@ -8,22 +9,24 @@ wParam = (WPARAM) (int) nLogical;
 
 lParam = (LPARAM) (POINT\_PTR\*) pptPos;
 
-## 參數
+## Parameters
 
 _nLogical_
 
-> 指定下列值之一。
+> Specifies one of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | POS\_VIEW | 顯示坐標 |
-> | POS\_LOGICAL\_A | 邏輯坐標 (把雙位元字符計為兩個) |
-> | POS\_LOGICAL\_W | 邏輯坐標 (把雙位元字符計為一個) |
+> | POS\_VIEW | Display Coordinates |
+> | POS\_LOGICAL\_A | Logical Coordinates (Count double-byte characters as two) |
+> | POS\_LOGICAL\_W | Logical Coordinates (Count double-byte characters as one) |
+> | POS\_CELL | CSV Cell Unit |
 
 _pptPos_
 
-> 指針指向一個會接收選區原點的 [POINT\_PTR 結構](../structure/point_ptr)。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the origin point of the
+> selection.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

@@ -1,6 +1,6 @@
-# document 屬性
+# document Property
 
-返回 [**Document** 對象](../document/index)。
+Returns the [**Document** Object](../document/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _doc_ = **document**;
 
 Set _doc_ = **document**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

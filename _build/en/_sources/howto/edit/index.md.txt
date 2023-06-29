@@ -1,6 +1,6 @@
-# 編輯
+# Edit
 
-如何...
+How to...
 
 ```{toctree}
 :maxdepth: 1

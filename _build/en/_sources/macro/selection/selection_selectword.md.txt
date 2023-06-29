@@ -1,6 +1,6 @@
-# SelectWord 方法
+# SelectWord Method
 
-選擇游標處的整個單字。
+Selects an entire word at the cursor.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document.selection. **SelectWord**();
 
 document.selection. **SelectWord**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

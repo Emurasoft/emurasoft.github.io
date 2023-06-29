@@ -1,3 +1,4 @@
-# 巨集
+# Macro
 
-一個由使用者編程并儲存的命令序列，當使用時，可以延伸其可用性通過自動化多個命令到一個進程中。
+A user-programmed saved sequence of commands that, when used, expands usability
+by enabling multiple commands to be automated into one process.

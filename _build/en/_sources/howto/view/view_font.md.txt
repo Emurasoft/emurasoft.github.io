@@ -1,6 +1,7 @@
-# 更改字型
+# To Change Fonts
 
-1. 在 **檢視** 功能表下選擇
-![Font](../../images/fontpopup.gif) 。
-2. 選擇 **顯示字型**。
-3. 選擇 **字型**， **字型樣式**，以及 **大小**。
+1. Select
+![Font](../../images/fontpopup.gif)
+under the **View** menu.
+2. Choose **Display Font**.
+3. Select **Font**, **Font style**, and **Size**.

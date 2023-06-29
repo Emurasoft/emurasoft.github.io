@@ -1,6 +1,6 @@
-# regex 屬性
+# regex Property
 
-檢索 [**Regex** 對象](../regex/index)。
+Retrieves the [**Regex** Object](../regex/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _reg_ = editor. **regex**;
 
 Set _reg_ = editor. **regex**
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 15.9 或之後的版本。
+Supported on EmEditor Professional Version 15.9 or later.

@@ -1,27 +1,27 @@
-# 移至行末命令
+# End command
 
-### 摘要
+### Summary
 
-> 移動游標到目前的行的行末。
+> Moves the cursor to the end of the current line.
 
-### 說明
+### Description
 
-> 移動游標到目前的行的行末。
+> Moves the cursor to the end of the current line.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **水平移動游標**
-\> **移至行末**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: END
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **End**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: END
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_END (4166)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

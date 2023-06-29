@@ -1,6 +1,6 @@
-# Spell 屬性
+# Spell Property
 
-檢索 [SpellProp 對象](../spell_prop/index)。
+Retrieves the [SpellProp object](../spell_prop/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _obj_ = object. **Spell**;
 
 Set _obj_ = object. **Spell**
 
-## 版本
+## Version
 
-支持 EmEditor 10.00 或之後的版本。
+Supported on EmEditor Professional Version 10.00 or later.

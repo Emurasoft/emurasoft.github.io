@@ -1,6 +1,6 @@
-# Visible 屬性
+# Visible Property
 
-返回是否視窗可見。
+Returns whether the window is visible.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _b_ = wnd. **Visible**;
 
 _b_ = wnd. **Visible**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,23 +1,23 @@
 # Editor\_CustomBarClose
 
-關閉自訂顯示條。您能直接用該內嵌函式或明確地發送 [EE\_CUSTOM\_BAR\_CLOSE](../message/ee_custom_bar_close) 消息。
+Closes a custom bar. You can use this inline function or explicitly send the [EE\_CUSTOM\_BAR\_CLOSE](../message/ee_custom_bar_close) message.
 
 Editor\_CustomBarClose( HWND hwnd, UINT nCustomBarID );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nCustomBarID_
 
-> 指定要關閉的自訂顯示條。這會是 Editor\_CustomBarOpen 內嵌函式的返回值。
+> Specifies the custom bar to close. This is the return value from the Editor\_CustomBarOpen inline function.
 
-## 返回值
+## Return Values
 
-> 如果消息成功，返回值為非零值。如果該消息不成功，返回值為零。
+> If the message succeeds, the return value is TRUE. If the message fails, the return value is FALSE.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 6.00 或之後的版本。
+> Supported on EmEditor Professional Version 6.00 or later.

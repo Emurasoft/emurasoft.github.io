@@ -1,20 +1,20 @@
-# FileNewProp 對象
+# FileNewProp Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [Encoding](encoding) | 與 [**新增檔案詳細信息** 對話方塊](../../dlg/properties/file/new_details/index) 中的 **編碼** 下拉清單方塊相對應。 |
-| [InitialFolder](initial_folder) | 與 [**新增檔案詳細信息** 對話方塊](../../dlg/properties/file/new_details/index) 中的 **初始資料夾** 文字方塊相對應。 |
-| [ReturnMethod](return_method) | 與 [**新增檔案詳細信息** 對話方塊](../../dlg/properties/file/new_details/index) 中的 **換行方式** 下拉清單方塊相對應。 |
-| [SetInitialFolder](set_initial_folder) | 與 [**新增檔案詳細信息** 對話方塊](../../dlg/properties/file/new_details/index) 中的 **設置初始資料夾** 核取方塊相對應。 |
-| [TemplateFile](template_file) | 與 [**新增檔案詳細信息** 對話方塊](../../dlg/properties/file/new_details/index) 中的 **模板檔案** 文字方塊相對應。 |
-| [UnicodeSignature](unicode_signature) | 與 [**新增檔案詳細信息** 對話方塊](../../dlg/properties/file/new_details/index) 中的 **添加一個 Unicode 簽名 (BOM)** 核取方塊相對應。 |
-| [UseTemplate](use_template) | 與 [**新增檔案詳細信息** 對話方塊](../../dlg/properties/file/new_details/index) 中的 **使用模板** 文字方塊相對應。 |
+| [Encoding](encoding) | Corresponds to the **Encoding drop-down** list box in the <br> [**New File Details** dialog box](../../dlg/properties/file/new_details/index). |
+| [InitialFolder](initial_folder) | Corresponds to the **Initial Folder** text box in the [**New File Details** dialog box](../../dlg/properties/file/new_details/index). |
+| [ReturnMethod](return_method) | Corresponds to the **Return**<br>**Method drop-down** list box in the <br> [**New File Details** dialog box](../../dlg/properties/file/new_details/index). |
+| [SetInitialFolder](set_initial_folder) | Corresponds to the **Set Initial Folder** check box in the [**New File Details** dialog box](../../dlg/properties/file/new_details/index). |
+| [TemplateFile](template_file) | Corresponds to the **Template**<br>**File** text box in the <br> [**New File Details** dialog box](../../dlg/properties/file/new_details/index). |
+| [UnicodeSignature](unicode_signature) | Corresponds to the **Add**<br>**a Unicode Signature (BOM)** check box in the [**New File Details** dialog box](../../dlg/properties/file/new_details/index). |
+| [UseTemplate](use_template) | Corresponds to the **Use**<br>**Template** text box in the [**New File Details** dialog box](../../dlg/properties/file/new_details/index). |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

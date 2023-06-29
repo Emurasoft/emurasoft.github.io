@@ -1,27 +1,27 @@
-# 模糊比對 (搜尋工具列) 命令
+# Fuzzy Matching (Find toolbar) command
 
-### 摘要
+### Summary
 
-> 切換搜尋工具列上「模糊比對」按鈕的狀態。
+> Toggles the Fuzzy Matching button on the Find toolbar.
 
-### 說明
+### Description
 
-> 切換搜尋工具列上「模糊比對」按鈕的狀態。
+> Toggles the Fuzzy Matching button on the Find toolbar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜索**
-\> **搜尋工具列** \> **模糊比對**
-- 工具列: ![](../../images/fuzzy.gif) (搜尋工具列)
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Fuzzy Matching**
+- Toolbar:  (Find toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FINDBAR\_FUZZY (23236)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

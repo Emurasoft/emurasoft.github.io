@@ -1,9 +1,11 @@
-# 定義編碼
+# To Define Encodings
 
-1. 選擇 **工具** 功能表下的 [**定義編碼** 命令](../../cmd/tools/define_code_page)。
-2. 點擊 **「新增」** 按鈕如果您想要定義一個新編碼。
-3. 選擇 **編碼** 以及 **字型類別** 并未該編碼輸入 **名稱**。
+1. Select the [**Define**\
+**Encodings** command](../../cmd/tools/define_code_page) under the **Tools** menu.
+2. Click the **New** button if you want to define a new encoding.
+3. Select the **Encoding** and the **Font Category**, and enter the **Name** for this encoding.
 
-## 提示
+## Tips
 
-要用一個被定義的編碼來打開一個檔案，在 **打開** 對話方塊中選擇指定編碼。
+To open a file with a defined encoding, select the specified encoding in the
+**Open** dialog box.

@@ -1,6 +1,6 @@
-# EndOfDocument 方法
+# EndOfDocument Method
 
-把游標移到文檔末尾。
+Moves the cursor to the end of the document.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,13 @@ document.selection. **EndOfDocument**( \[ _bExtend_ \] );
 
 document.selection. **EndOfDocument** \[ _bExtend_ \]
 
-## 參數
+## Parameters
 
 _bExtend_
 
-可選項。指定是否折疊被移動的文字。預設的值為 false，并且所移動的文字被折疊。
+Optional. Specifies whether the moved text is collapsed or not. The default
+is false and the moved text is collapsed.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

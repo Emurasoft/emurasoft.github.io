@@ -1,26 +1,30 @@
-# 水平分割命令
+# Split Horizontally command
 
-### 摘要
+### Summary
 
-> 水平分割目前的視窗。
+> Splits the current window horizontally.
 
-### 說明
+### Description
 
-> 這個命令會把目前的視窗分割成兩個水平窗格。用游標來控制分割位置。點擊游標將固定分割位置 (您也可以在以后根據需要改變方向)。
+> This command splits the current window into two horizontal panes. Use the
+> mouse to control the split position. Click to set the split to a fixed
+> position (you can change the orientation later as necessary).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **視窗** \> **水平分割**
-- [全部命令](../tools/all_commands): **視窗** \> **分割** \> **水平分割**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Window**
+\> **Split Horizontally**
+- [All Commands](../tools/all_commands): **Window**
+\> **Split** \> **Split Horizontally**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_WINDOW\_SPLIT\_HORZ (4299)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

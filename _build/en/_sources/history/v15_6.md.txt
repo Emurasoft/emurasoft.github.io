@@ -1,44 +1,45 @@
 # Version 15.6
 
-2015年11月16日
+November 18, 2015
 
-## 一般新增功能
+## New General Features
 
-- 打開檔案的速度變得更快了。新版本打開一個大檔案 (809 MB - 2.02 GB) 的速度比 v15.5 要快 12% 到 23%。
-- 你能選擇 **更新頻道**。選擇 **beta 頻道** 會通知你所有的更新包括 beta 版。
-- **快速啟動** 命令現在包括三種模式: **命令** (Ctrl + Shift + C)， **選項** (Ctrl + Shift + O)，還有 **符號** (Ctrl + Shift + S)。按捷徑 Ctrl + Space 會快顯變更模式的功能表。
-- 你能把 **快速啟動** 視窗作為一個無模式視窗打開。「快速啟動」視窗中的工具列添加了「保持此視窗打開」按鈕，代替之前的「關閉」按鈕。
-- 當存在多個 EmEditor 群組時，EmEditor 現在能同時顯示多個 **組態屬性** 和/或 **快速啟動** 視窗。
-- 不再顯示警告消息 _「偵測到 Windows 10。在 Internet Explorer 上用 EmEditor 檢視原始程式碼的功能也許與 Microsoft Edge 不兼容...」_ 因為 Windows 10 Build 10586 修復了 Microsoft Edge 的 bug。
-- 給存在的 **WrapTags.jsee** 巨集分配了捷徑： **Ctrl + Shift + ,**。
-- 添加了下面的巨集。
+- Improved the speed of opening files. Compared to v15.5, the speed to open a large file (809 MB - 2.02 GB) became 12% - 23% faster.
+- You can now select the **update channel**. Selecting the **beta channel** will notify you all updates including betas.
+- The **Quick Launch** command now includes three modes: **Commands** (Ctrl + Shift + C), **Options** (Ctrl + Shift + O), and **Symbols** (Ctrl + Shift + S). Ctrl + Space to bring up the menu to change the mode.
+- The **Quick Launch** window can be opened as a modeless window. The toolbar in the Quick Launch window includes "Keep This Window Open" button instead of the "Close" button.
+- When multiple EmEditor groups exist, multiple **configuration properties** and/or **Quick Launch** windows can be displayed at once.
+- The **Start** window now moves along with the EmEditor window when moving the EmEditor window while the Start window is open.
+- The _"Windows 10 has been detected. The View Source by EmEditor on Internet Explorer feature might have a conflict with Microsoft Edge..."_ warning message will not be displayed any more since Windows 10 Build 10586 fixes the Microsoft Edge bug.
+- The existing **WrapTags.jsee** macro was assigned to shortcut **Ctrl + Shift + ,**.
+- The following four macros were added.
 
-## 新增巨集
+## New Macros
 
-- **SymbolList.jsee** (顯示目前的原始程式碼的符號清單)
-- **GoToDefinition.jsee** (跳轉到游標所在位置的函數的定義，捷徑 **F12**)
-- **PopBrowseContext.jsee** (從定義返回，捷徑 **Ctrl + Num \***)
-- **ParameterInfo.jsee** (當游標在一個函數的括號中時，把參數信息作為工具提示顯示，捷徑 **Ctrl + Shift + Space**)
+- **SymbolList.jsee** (Displays the symbol list for the current source code)
+- **GoToDefinition.jsee** (Jumps to the definition of the function at the cursor, shortcut **F12**)
+- **PopBrowseContext.jsee** (Returns from the definition, shortcut **Ctrl + Num \***)
+- **ParameterInfo.jsee** (Displays the parameter information as a tooltip when the cursor is inside the parentheses of a function, shortcut **Ctrl + Shift + Space**)
 
-## 新增選項
+## New Options
 
-- 在 [**自訂字型** 對話方塊](../dlg/properties/font/index) 中添加了 **僅顯示固定字幅的字型** 的核取方塊。
+- The **Show Fixed Pitch Fonts Only** check box was added to the [**Customize Font** dialog box](../dlg/properties/font/index).
 
-## 新增命令
+## New Commands
 
-- **[選擇更新頻道](../cmd/help/update_channel)**
-- **[Tab/縮排屬性](../cmd/tools/property_indent)**
-- **[新增檔案詳細信息屬性](../cmd/tools/property_file_new)**
-- **[儲存檔案詳細信息屬性](../cmd/tools/property_file_save)**
-- **[快速啟動 \- 命令](../cmd/tools/ql_commands)**
-- **[快速啟動 \- 選項](../cmd/tools/ql_options)**
-- **[快速啟動 \- 符號](../cmd/tools/ql_symbols)**
-- **[自訂巨集 \- 我的巨集](../cmd/macros/customize_macro_my_macros)**
-- **[自訂巨集 \- 選項](../cmd/macros/customize_macro_options)**
-- **[自訂標記 \- 標記清單](../cmd/tools/customize_markers_list)**
-- **[自訂標記 \- 自動標記](../cmd/tools/customize_markers_auto)**
-- **[自訂標記 \- 選項](../cmd/tools/customize_markers_options)**
+- **[Select Update Channel](../cmd/help/update_channel)**
+- **[Tab/Indent Properties](../cmd/tools/property_indent)**
+- **[New File Details Properties](../cmd/tools/property_file_new)**
+- **[Save File Details Properties](../cmd/tools/property_file_save)**
+- **[Quick Launch - Commands](../cmd/tools/ql_commands)**
+- **[Quick Launch - Options](../cmd/tools/ql_options)**
+- **[Quick Launch - Symbols](../cmd/tools/ql_symbols)**
+- **[Customize Macros - My Macros](../cmd/macros/customize_macro_my_macros)**
+- **[Customize Macros - Options](../cmd/macros/customize_macro_options)**
+- **[Customize Markers - Marker List](../cmd/tools/customize_markers_list)**
+- **[Customize Markers - Auto Marker](../cmd/tools/customize_markers_auto)**
+- **[Customize Markers - Options](../cmd/tools/customize_markers_options)**
 
-## 新增外掛程式功能
+## Plug-in New Features
 
-- **專案** 外掛程式支持 7 條新增使用者消息。這些新使用者消息可以在包括 plug-in.h 之前通過定義 USE\_PROJECTS\_PLUGIN 來使用。
+- The **Projects** plug-in supports 7 new user messages. These new user message can be used by defining USE\_PROJECTS\_PLUGIN before including the plug-in.h.

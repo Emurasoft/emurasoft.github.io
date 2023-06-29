@@ -1,6 +1,6 @@
-# write 方法
+# write Method
 
-把一個字串傳遞到一個支持的外掛程式中。
+Passes a string to a supported plug-in.
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ Interface. **write**( _str_ );
 
 Interface. **write** _str_
 
-## 參數
+## Parameters
 
 _str_
 
-指定要傳遞的字串。
+Specifies the string to be passed.
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -26,6 +26,6 @@ Interface. **write**( "Hello" );
 
 Interface. **write** "Hello"
 
-## 版本
+## Version
 
-支持 EmEditor 9.00 或之後的版本。
+Supported on EmEditor Professional Version 9.00 or later.

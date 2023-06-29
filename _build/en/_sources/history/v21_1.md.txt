@@ -1,26 +1,26 @@
 # Version 21.1
 
-2021年8月31日
+August 31, 2021
 
-## 一般新增功能
+## New General Features
 
-- 預設情況下，當您選擇 **我的巨集** 中的一個或按下分配給一個巨集的快速鍵時，新版本不會變更預設巨集。此行為可通過 **自訂巨集** 對話方塊中的 **選項** 頁面中的 **運行「我的巨集」中的一個會將其設定為預設巨集** 核取方塊進行自訂。
-- 在 **巨集** 功能表上的 **我的巨集** 中的一個右鍵單擊，所顯示的功能表中添加了 **設為預設** 命令。
-- 新版本預設設定了 **使用 DirectWrite** 選項（如果速度最重要，請停用此選項）。
-- 新版本能正確顯示許多操作系統支持的 [**表情符號（Emoji）數列**](https://unicode.org/Public/emoji/14.0/emoji-sequences.txt) 和 [**Emoji ZWJ 數列**](https://unicode.org/Public/emoji/14.0/emoji-zwj-sequences.txt) 當您移動游標或選擇 **字元程式碼值** 命令時。
-- 變更了組合字元的 Unicode 名稱格式（使用分號代替 AND）。
-- 預設情況下，停用選項按鈕以在安裝程式中選擇 **每使用者** 或 **每臺計算機** 安裝。 [請參閱常見問題解答以選擇 **每臺計算機** 安裝。](../faq/setup/setup_all_users)
-- 提高了各種操作的速度。
+- By default, the new version does not change the default macro when you select one of **My Macros** or press the shortcut key assigned to a macro. This behavior is customizable by the **Running one of My Macros will set it as the default macro** check box in the **Options** page of the **Customize Macros** dialog box.
+- Added the **Set Default** command to the right-click menu on one of **My Macros** on the **Macros** menu.
+- The new version sets the **Use DirectWrite** option by default (Please disable this option if the speed is most important).
+- The new version shows many OS-supported [**Emoji Sequences**](https://unicode.org/Public/emoji/14.0/emoji-sequences.txt) and [**Emoji ZWJ Sequences**](https://unicode.org/Public/emoji/14.0/emoji-zwj-sequences.txt) correctly when you move the cursor or select the **Character Code Value** command.
+- Changed the Unicode Name format for combined characters (used a semicolon instead of AND).
+- Disable the radio buttons to select **per-user** or **per-computer** install in the installer by default. [Please see FAQ to select the **per-computer** install.](../faq/setup/setup_all_users)
+- Improved the speed of various operations.
 
-### 測試結果
+### Test results:
 
-|  | v21.0 | v21.1 | 比較 |
+|  | v21.0 | v21.1 | Comparison |
 | --- | --- | --- | --- |
-| 運行巨集（反復切換文檔和插入字元） | 28.8 秒 | 14.0 秒 | 快 2.06 倍 |
+| Run a macro (repeatedly switch documents and insert characters) | 28.8 seconds | 14.0 seconds | 2.06 times faster |
 
-\\* 使用下面的測試巨集。預設設定除了關閉 DirectWrite，16 執行緒；測試系統：Windows 10 （64位），Core i9-9900K，64GB RAM，2TB SSD。
+\\* Use the testmacro below. Default settings except Direct Write off, 16 threads, Windows 10 (64-bit), Core i9-9900K, 64GB RAM, 2TB SSD.
 
-### 測試巨集：
+### Test macro:
 
 document.selection.Text="a";
 
@@ -42,21 +42,21 @@ doc2.selection.Text="a";
 
 }
 
-## 新增選項
+## New Options
 
-- 在 [**巨集臨時選項** 對話方塊](../dlg/macro_temp_options/index) 中添加了 **將此設定為預設巨集** 和 **抑制重繪** 核取方塊。
-- 在 [**巨集臨時選項** 對話方塊](../dlg/macro_temp_options/index) 中單擊 **...▼** 按鈕時顯示的功能表中添加了 **（剪貼簿）** 選項。
-- 在 [**進階打開** 對話方塊](../dlg/advanced_open/index) 中添加了 **將此設定為預設巨集** 核取方塊。
-- 在 [**自訂巨集** 對話方塊](../dlg/macro_customize/index) 的 [**選項** 頁面](../dlg/macro_customize/options/index) 中添加了 **運行「我的巨集」中的一個會將其設定為預設巨集** 核取方塊以及 **預設語言** 選項。
+- Added the **Set this as the default macro** and **Suppress redraw** check boxes to the [**Macro Temporary Options** dialog box](../dlg/macro_temp_options/index).
+- Added the **(Clipboard)** option to the menu displayed when the **...▼** button is clicked in [**Macro Temporary Options** dialog box](../dlg/macro_temp_options/index).
+- Added the **Set this as the default macro** check box to the [**Advanced Open** dialog box](../dlg/advanced_open/index).
+- Added the **Running one of My Macros will set it as the default macro** check box and **Default language** option to the [**Options** page](../dlg/macro_customize/options/index) of the [**Customize Macros** dialog box](../dlg/macro_customize/index).
 
-## 新增命令
+## New Commands
 
-- [運行剪貼簿巨集](../cmd/macros/macro_run_clipboard)
+- [Run Clipboard Macro](../cmd/macros/macro_run_clipboard)
 
-## 外掛程式的新增功能
+## Plug-in New Features
 
-- 提高了字典很大時打開候選清單或 **WordComplete** 外掛程式的速度。
+- Improved the speed of opening the candidate list or the **WordComplete** plug-in when the dictionary is very large.
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 **nType** 參數到 **Editor** 對象的 [**WriteProfileString** 方法](../macro/editor/writeprofilestring) 中。
+- Added the **nType** parameter to the [**WriteProfileString** method](../macro/editor/writeprofilestring) of the **Editor** object.

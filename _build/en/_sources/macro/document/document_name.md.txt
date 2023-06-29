@@ -1,6 +1,6 @@
-# Name 屬性
+# Name Property
 
-檢索不帶路徑的文檔的檔案名，或重新命名文檔的檔案名。如果文檔沒有標題，則重新命名文檔標題而不儲存檔案。
+Retrieves the file name of the document without its path, or renames the file name of the document. If the document is untitled, renames the document title without saving the file.
 
 #### \[JavaScript\]
 
@@ -10,7 +10,7 @@ _strName_ = document. **Name**;document. **Name** = _strName_;
 
 _strName_ = document. **Name** document. **Name** = _strName_
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -20,6 +20,6 @@ alert( document.Name );
 
 alert document.Name
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

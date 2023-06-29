@@ -1,6 +1,7 @@
 # EE\_SET\_STATUSA
 
-在狀態列上顯示一條 ANSI 消息。您能明確地發送該消息或用 [Editor\_SetStatusA](../macro/editor_setstatusa) 內嵌函式。
+Displays an ANSI message on the status bar. You can send this message
+explicitly or use the [Editor\_SetStatusA](../macro/editor_setstatusa) inline function.
 
 EE\_SET\_STATUSA
 
@@ -8,12 +9,12 @@ wParam = 0;
 
 lParam = (LPARAM) (LPCSTR) szStatus;
 
-## 參數
+## Parameters
 
 _szStatus_
 
-> 指定要顯示在狀態列上的消息文本。
+> Specifies a message text to be displayed on the status bar.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

@@ -1,15 +1,15 @@
-# DroppedFiles 集合
+# DroppedFiles Collection
 
-DroppedFiles 集合在一個框架視窗中提供拖放的檔案名稱的集合。
+DroppedFiles collection provides a collection of the names of dropped files in a frame window.
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 檢索被拖放的檔案的數目。 |
-| **[Item](item)** | 檢索指定索引下的被拖放的檔案名稱。 |
+| **[Count](count)** | Retrieves the number of dropped files. |
+| **[Item](item)** | Retrieves the file names for the dropped file of the specified index. |
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -29,9 +29,9 @@ alert str
 
 Next
 
-## 版本
+## Version
 
-支持 EmEditor 8.00 或之後的版本。
+Supported on EmEditor Professional Version 8.00 or later.
 
 ```{toctree}
 :maxdepth: 1

@@ -1,26 +1,28 @@
-# 分割檔案命令
+# Split a File command
 
-### 摘要
+### Summary
 
-> 將目前的文件或一個檔案分割並儲存為多個檔案。
+> Splits the current document or an existing file and saves as several files.
 
-### 說明
+### Description
 
-> 打開 **[分割檔案精靈](../../dlg/split_to_files/index)**，讓您能在每一個特定的行或書籤標示行處把目前的文檔分割成多個檔案。它還能給每一個被分割出來的檔案指定一個頁首和/或頁尾。
+> Opens the **[Split a File Wizard](../../dlg/split_to_files/index)**, which allows you to split the current document to several files at
+> either every certain number of lines or before every bookmarked line. It also allows you to specify a header and/or footer for each separated file.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **工具** \> **分割/合併** \> **分割檔案**
-- [所有命令](all_commands): **工具** \> **分割/合併** \> **分割檔案**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Tools** \> **Split a File**
+- [All Commands](all_commands): **Tools**
+> **Split/Combine** \> **Split a File**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SPLIT\_TO\_FILES (4606)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

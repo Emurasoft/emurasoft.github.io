@@ -1,6 +1,6 @@
-# Clear 方法
+# Clear Method
 
-刪除集合中的所有項目。
+Removes all items in the collection.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ list. **Clear**();
 
 list. **Clear**
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

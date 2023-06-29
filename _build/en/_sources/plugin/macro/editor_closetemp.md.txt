@@ -1,24 +1,24 @@
 # Editor\_CloseTemp
 
-關閉臨時文字。您能直接用該內嵌函式或明確地發送 [EE\_EDIT\_TEMP](../message/ee_edit_temp)
-消息。
+Closes the temporary text. You can use this inline function or explicitly send the [EE\_EDIT\_TEMP](../message/ee_edit_temp)
+message.
 
 Editor\_CloseTemp( HWND hwnd, UINT nEditID );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nEditID_
 
-> 指定您想要關閉的臨時文字 ID。
+> Specifies the ID of the temporary text that you want to close.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 9.00 或之後的版本。
+> Supported on EmEditor Version 9.00 or later.

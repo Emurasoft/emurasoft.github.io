@@ -1,27 +1,28 @@
-# 剪下行命令
+# Cut Line(s) command
 
-### 摘要
+### Summary
 
-> 剪下選取的行或目前的行到剪貼簿。
+> Cuts the selected lines or current line and moves it to the Clipboard.
 
-### 說明
+### Description
 
-> 剪下選取的行或游標處的一邏輯行，并把它放到剪貼簿中。在這個指示詞之後，您可以通過把游標移動到另一個地方并運行 [**貼上** 命令](edit_paste) 來放置該行。
+> Cuts the selected lines or one logical line at the cursor, and puts it on the Clipboard. After
+> this command, you can place the line by moving the cursor to a
+> different location and running the [**Paste** command](edit_paste).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **進階** \> **剪下行**
-- [全部命令](../tools/all_commands): **編輯** \> **剪下**
-\> **剪下行**
-- 工具列:無
-- 狀態列:無
-- 預設鍵盤快速鍵: CTRL+L
+- Default Menu: **Edit** \> **Advanced** \> **Cut Line(s)**
+- [All Commands](../tools/all_commands): **Edit** \> **Cut** \> **Cut Line(s)**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+L
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_EDIT\_CUT\_LINE (4193)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,26 +1,26 @@
-# 排序類別
+# Sort category
 
 |     |     |
 | --- | --- |
-| [**按字母升序**](../edit/sort_text_a) | 在目前的欄中以字母升序排序文字。 |
-| [**按字母降序**](../edit/sort_text_d) | 在目前的欄中以字母降序排序文字。 |
-| [**按數字升序**](../edit/sort_num_a) | 在目前的欄中以升序排序數字。 |
-| [**按數字降序**](../edit/sort_num_d) | 在目前的欄中以降序排序數字。 |
-| [**按文字長度從短到長**](../edit/sort_length_a) | 在目前的欄中按文字長度從短到長排序文字。 |
-| [**按文字長度從長到短**](../edit/sort_length_d) | 在目前的欄中按文字長度從長到短排序文字。 |
-| [**按字數從少到多排序**](../edit/sort_words_a) | 把目前的欄中的文字按字數以升序順序排序。 |
-| [**按字數從多到少排序**](../edit/sort_words_d) | 把目前的欄中的文字按字數以降序順序排序。 |
-| [**按日期和時間從舊到新排序**](../edit/sort_date_a) | 把目前的欄中的日期和時間按升序排序。 |
-| [**按日期和時間從新到舊排序**](../edit/sort_date_d) | 把目前的欄中的日期和時間按降序排序。 |
-| [**按出現次數升序排序**](../edit/sort_occurrence_a) | 把目前的欄中的出現次數按升序排序。 |
-| [**按出現次數降序排序**](../edit/sort_occurrence_d) | 把目前的欄中的出現次數按降序排序。 |
-| [**隨機排序**](../edit/sort_random) | 隨機排序目前的欄。 |
-| [**反向排序**](../edit/sort_reverse) | 反向排序。 |
-| [**進階排序**](../edit/sort_multi) | 排序文檔中的多個欄或用進階選項。 |
-| [**欄排序**](sort_columns) | 對 CSV 文檔中的欄進行排序。 |
-| **[刪除重複行](../edit/delete_duplicate)** | 刪除已選中文字或整個文檔內的重複行。 |
-| **[刪除/把重複行設為書籤 (進階)](../edit/delete_duplicate_advanced)** | 顯示一個對話方塊來指定設置并刪除在選區或整個文檔中的重複行。 |
-| [排序/刪除選區內重複的分割字串](sort_sel) | 排序或刪除選區中的重複的分割字串。 |
+| [**Sort A to Z**](../edit/sort_text_a) | Sort text at the current column in ascending order. |
+| [**Sort Z to A**](../edit/sort_text_d) | Sort text at the current column in descending order. |
+| [**Sort Smallest to Largest**](../edit/sort_num_a) | Sort numbers at the current column in ascending order. |
+| [**Sort Largest to Smallest**](../edit/sort_num_d) | Sort numbers at the current column in descending order. |
+| [**Sort Shortest to Longest**](../edit/sort_length_a) | Sorts text at the current column by length in ascending order. |
+| [**Sort Longest to Shortest**](../edit/sort_length_d) | Sorts text at the current column by length in descending order. |
+| [**Sort Fewest to Most Words**](../edit/sort_words_a) | Sorts text at the current column by the number of words in ascending order. |
+| [**Sort Most to Fewest Words**](../edit/sort_words_d) | Sorts text at the current column by the number of words in descending order. |
+| [**Sort Date and Time Oldest to Newest**](../edit/sort_date_a) | Sorts date and time at the current column in ascending order. |
+| [**Sort Date and Time Newest to Oldest**](../edit/sort_date_d) | Sorts date and time at the current column in descending order. |
+| [**Sort by Occurrence Ascending**](../edit/sort_occurrence_a) | Sorts by occurrence in the current column, in ascending order. |
+| [**Sort by Occurrence Descending**](../edit/sort_occurrence_d) | Sorts by occurrence in the current column, in descending order. |
+| [**Sort Randomly**](../edit/sort_random) | Sorts randomly in the current column. |
+| [**Sort Reverse**](../edit/sort_reverse) | Sorts reverse in the current column. |
+| [**Advanced Sort**](../edit/sort_multi) | Sorts the document by multiple columns or with advanced options. |
+| [**Sort Columns**](sort_columns) | Sorts columns of the CSV document. |
+| **[Delete Duplicate Lines](../edit/delete_duplicate)** | Deletes duplicate lines in the selection or in the entire document. |
+| **[Delete/Bookmark Duplicate Lines (Advanced)](../edit/delete_duplicate_advanced)** | Displays a dialog box to specify settings and deletes or set bookmarks at duplicate lines in the selection or in the entire document. |
+| [**Sort/Remove Duplicate Split Strings in Selection**](sort_sel) | Sorts or removes duplicate split strings in the selection. |
 
 ```{toctree}
 :maxdepth: 1

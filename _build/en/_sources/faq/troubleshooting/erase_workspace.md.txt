@@ -1,7 +1,7 @@
-# Q. 當我啟動 EmEditor 時，它會加載以前運行的大檔案。我怎么禁用自動加載？
+# Q. When I try to launch EmEditor, it is trying to load very large files. Can you disable this?
 
-如果 EmEditor 試著加載上次使用的工作區，您可以在命令提示符中，運行:
+EmEditor is trying to load the last used workspace. In the Command Prompt, run:
 
 emeditor.exe /clw
 
-在運行這個命令后，上次使用的工作區就會被刪除，EmEditor 會啟動一個無標題視窗。
+and the last used workspace will be erased, and an untitled EmEditor window will be launched.

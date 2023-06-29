@@ -1,197 +1,202 @@
-# 使用專案外掛程式
+# To Use Projects Plug-in
 
-**專案** 外掛程式預設安裝在 EmEditor Professional 中。該外掛程式會顯示資料夾樹狀目錄并讓您能從資料夾樹狀目錄中打開檔案。
+The **Projects** plug-in is installed by default with EmEditor Professional. This plug-in displays folder trees and allows you to open files from the folder trees.
 
-要用新的 **專案** 創建一個外掛程式:
+To create a new project using the **Projects** plug-in:
 
-1. 在 **外掛程式** 欄上點擊 **![](../../images/projects.gif)** 。或在 **工具** 功能表下，指向 **外掛程式**，然后點擊 **專案**， 便會出現 **專案** 自訂顯示條。
-2. 右擊 **專案** 欄，選擇 **新增專案**。
-3. 右擊 **無標題專案**，把游標指針移到「專案」上，然后點擊 **「添加現有的檔案」**。
-4. 選擇所有您想要包含在專案中的檔案。
+1. Click **![](../../images/projects.gif)** on the **Projects** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Projects**. The **Projects** custom bar will appear.
+2. Right-click in the **Projects** bar, and select **New Projects**.
+3. Right-click on **Untitled Project**, and select **Add Existing Files**.
+4. Select all files you want to include in the project.
 
-### 專案外掛程式命令
+### The Projects Plug-in Commands
 
-右擊專案欄顯示下列選項:
-
-|     |     |
-| --- | --- |
-| **展開/折疊** | 展開或折疊節點。 |
-| **打開所有檔案** | 打開所有資料夾中的檔案。 |
-| **打開** | 打開檔案。 |
-| **以唯讀方式打開** | 以唯讀方式打開檔案。 |
-| **使用指定的編碼打開** | 用指定的編碼打開檔案。 |
-| **新增資料夾** | 創建一個新資料夾。 |
-| **剪下** | 把選取的項目移動到剪貼簿上。 |
-| **複製** | 複製選取的項目并把它貼上到剪貼簿上。 |
-| **貼上** | 插入剪貼簿內容。 |
-| **移除** | 移除選取項目。 |
-| **重新命名** | 重新命名選取項目。 |
-| **執行解決方案** | 執行解決方案。 |
-| **新增解決方案** | 創建一個新的解決方案。 |
-| **打開解決方案** | 打開一個已存在的解決方案。 |
-| **解決方案另存新檔** | 用一個新名稱儲存解決方案檔案。 |
-| **最近解決方案清單** | 打開一個指定的最近訪問的解決方案 (多項目) 。 |
-| **新增專案** | 創建一個新專案。 |
-| **打開專案** | 打開一個已存在的專案。 |
-| **專案另存新檔** | 用一個新名稱儲存專案檔案。 |
-| **添加現有的檔案** | 添加現有的檔案到專案中。 |
-| **加入目前的檔案** | 把目前的檔案加入到專案中。 |
-| **添加所有打開的檔案** | 添加所有打開的檔案到專案中。 |
-| **最近專案清單** | 打開一個指定的最近訪問的專案 (多個項目) 。 |
-| **設為啟動專案** | 把指定的專案設為啟動專案。 |
-| **僅檔案名** | 僅為每個項目顯示檔案名。 |
-| **相對路徑** | 顯示每個項目的相對路徑。 |
-| **完整路徑** | 顯示每個項目的完整路徑。 |
-| **重新整理符號清單** | 重新整理目前的專案的符號清單。 |
-| **重新整理所有符號清單** | 重新整理所有專案的符號清單。 |
-| **符號清單** | 顯示或隱藏符號清單。 |
-| **組態** | 列出可用的組態。 |
-| **平臺** | 列出可用的平臺。 |
-| **目前的解決方案模板屬性** | 顯示目前的解決方案模板屬性。 |
-| **解決方案模板** | 定義解決方案模板。 |
-| **外掛程式屬性** | 顯示外掛程式屬性。 |
-| **工具清單** | 運行一個指定的工具。 |
-
-### 專案外掛程式工具列
+Right clicking on the Projects bar shows the following options:
 
 |     |     |
 | --- | --- |
-| **![](../../images/newsolution.gif)新的解決方案** | 創建一個新的解決方案。 |
-| **![](../../images/opensolution.gif)打開解決方案** | 打開一個已存在的解決方案。 |
-| **![](../../images/runsolution.gif)執行解決方案** | 執行打開的解決方案。 |
-| **![](../../images/parameterinformation.gif)參數信息** | 顯示參數信息。 |
-| **![](../../images/gotodefinition.gif)轉到定義** | 讓游標跳至定義。 |
-| **![](../../images/popbrowsecontent.gif)快顯瀏覽內容** | 讓游標返回到前一個。 |
-| **![](../../images/symbollist.gif)符號清單** | 顯示符號的清單。 |
-| **![](../../images/propertiesforcurrentsolutiontemplate.gif)目前的解決方案模板屬性** | 為目前的解決方案模板顯示自訂屬性。「一般」頁面包括「解決方案格式」，「檔案副檔名」，「唯讀」等選項。「組態」頁面包括組態，平臺，以及巨集的設定。「符號」頁面包括「自動重新整理符號清單」以及「Ctags 附加參數」等設置。「工具」頁面包括自訂工具。「鍵盤」頁面包括為該外掛程式上的命令分配鍵盤快速鍵。 |
-| **![](../../images/solutiontemplates.gif)解決方案模板** | 顯示 **解決方案模板** 對話方塊。 |
-| **![](../../images/pluginproperties.gif)外掛程式屬性** | 顯示外掛程式屬性。 |
+| **Expand/Collapse** | expands or collapses the node. |
+| **Open All** | opens all files in the folder. |
+| **Open** | opens the file. |
+| **Open as Read-Only** | opens the file as read-only. |
+| **Open with Encoding** | opens the file with a specified encoding. |
+| **New Folder** | creates a new folder. |
+| **Cut** | cuts the selected item and moves it to the Clipboard. |
+| **Copy** | copies the selected item and pastes it to the Clipboard. |
+| **Paste** | inserts the contents of the Clipboard. |
+| **Remove** | removes the selected item. |
+| **Rename** | renames the selected item. |
+| **Run Solution** | runs the solution. |
+| **New Solution** | creates a new solution. |
+| **Open Solution** | opens an existing solution. |
+| **Save Solution As** | saves the solution file with a new name. |
+| **List of Recent Solutions** | opens a specified recently accessed solution (multiple items). |
+| **New Project** | creates a new project. |
+| **Open Project** | opens an existing project. |
+| **Save Project As** | saves the project file with a new name. |
+| **Add Existing Files** | adds existing files to the project. |
+| **Add Active File** | adds the active file to the project. |
+| **Add All Open Files** | adds the all open files to the project. |
+| **List of Recent Projects** | opens a specified recently accessed project (multiple items). |
+| **Set as Startup Project** | sets the specified project as the startup project. |
+| **File Name Only** | displays the file name only for each item. |
+| **Relative Path** | displays the relative path for each item. |
+| **Full Path** | displays the full path for each item. |
+| **Refresh Symbol List** | refreshes the symbol list for the current project. |
+| **Refresh All Symbol Lists** | refreshes the symbol lists for all projects. |
+| **Symbol List** | shows or hides the symbol list. |
+| **Configuration** | lists the available configurations. |
+| **Platform** | lists the available platforms. |
+| **Properties for Current Solution Template** | displays the properties for the current solution template. |
+| **Solution Templates** | defines solution templates. |
+| **Plug-in Properties** | displays the plug-in properties. |
+| **List of Tools** | runs a specified tool. |
 
-### 解決方案模板
-
-每個您所創建，打開或儲存在專案外掛程式中的模板都是一個解決方案模板。每個解決方案模板指定相關聯的檔案副檔名的特性，包括解決方案格式，巨集，工具以及鍵盤快速鍵。當您打開一個解決方案檔案，一個與檔案副檔名相關聯的解決方案模板會被選取并按該模板所設定的特性執行。
-
-### 「解決方案模板」對話方塊
-
-該對話方塊會出現當您點擊 ![](../../images/solutiontemplates.gif) 按鈕。可用的解決方案模板會顯示在清單中。點擊「屬性」按鈕來顯示選取的解決方案模板屬性。
-
-### 解決方案模板屬性
-
-**「一般」頁面**
-
-|     |     |
-| --- | --- |
-| **解決方案格式** | 選擇一個解決方案格式。目前，只有 **EmEditor** 以及 **Visual Studio** 可以選取。 |
-| **檔案副檔名** | 為解決方案檔案指定副檔名。這樣，當您打開一個解決方案檔案時，一個與這個檔案副檔名相關聯的解決方案模板就會被選取。 |
-| **唯讀** | 指定解決方案是否唯讀。如果您設為唯讀，您無法添加檔案到該解決方案中，并且專案檔案不會被重寫當您儲存該解決方案時。 |
-
-**「組態」頁面**
-
-|     |     |
-| --- | --- |
-| **組態** | 選擇一個被定義的組態。選擇 <新增> 讓您定義一個新組態。選擇 <編輯\> 讓您刪除一個組態。 |
-| **平臺** | 選擇一個定義過的平臺。選擇 <新增> 讓您定義一個新平臺。選擇 <編輯\> 讓您刪除一個平臺。 |
-| **巨集** | 顯示定義過的巨集清單。它讓您能為每個巨集以及每個組態和平臺的組合指定一個值。 |
-| **新增** | 創建一個新的巨集。 |
-| **刪除** | 刪除一個被選取的巨集。 |
-| **重新命名** | 重新命名一個被選取的巨集。 |
-
-**「符號」頁面**
+### The Projects plug-in toolbar
 
 |     |     |
 | --- | --- |
-| **自動重新整理所有符號清單** | 指定是否要更新符號清單當添加一個新檔案時。 |
-| **Ctags 附加參數 (進階選項)** | 指定 Ctags 附加參數。這是一個進階選項，設置錯誤的參數會讓符號清單工作不正常。 |
+| **![](../../images/newsolution.gif) New Solution** | creates a new solution. |
+| **![](../../images/opensolution.gif) Open Solution** | opens an existing solution. |
+| **![](../../images/runsolution.gif) Run Solution** | runs the open solution. |
+| **![](../../images/parameterinformation.gif) Parameter Information** | displays the parameter information. |
+| **![](../../images/gotodefinition.gif) Go to Definition** | causes the cursor to jump to definitions. |
+| **![](../../images/popbrowsecontent.gif) Pop Browse Context** | causes the cursor to return to the previous. |
+| **![](../../images/symbollist.gif) Symbol List** | displays a list of symbols. |
+| **![](../../images/propertiesforcurrentsolutiontemplate.gif) Properties for Current Solution Template** | displays the customizable properties for the current solution template. The General tab includes the Solution Format, File Extension, and Read Only option. The Configurations tab includes Configurations, Platforms, and Macros. The <br> Symbols tab includes, Refresh All Symbol Lists Automatically and Additional Parameters to Ctags. The Tools tab includes customizable tools. The Keyboard page includes the option to assign commands to keyboard shortcuts for this plug-in. |
+| **![](../../images/solutiontemplates.gif) Solution Templates** | displays the **Solution Template** dialog box. |
+| **![](../../images/pluginproperties.gif) Plug-in Properties** | displays the plug-in Properties. |
 
-**「工具」頁面**
+### Solution Templates
 
-|     |     |
-| --- | --- |
-| **工具** | 顯示定義過的工具清單。 |
-| **新增** | 創建一個新工具。 |
-| **刪除** | 刪除選取的工具。 |
-| **複製** | 複製選取的工具。 |
-| **上移** | 在清單上把選取的工具上移。 |
-| **下移** | 在清單上把選取的工具下移。 |
-| **屬性** | 顯示或編輯選取工具屬性。 |
+Every solution you create, open or save in the Projects plug-in belongs to a solution template. Each solution template specifies the associated file extension's characteristics, including solution formats, macros, tools, and keyboard shortcuts.
+When you open a solution file, a solution template associated with the file extension is selected and behaves per the characteristics defined for the template.
 
-**「鍵盤」頁面**
+### Solution Templates dialog box
 
-|     |     |
-| --- | --- |
-| **命令** | 列出可用命令。 |
-| **按下新的快速鍵** | 為選取的命令輸入新的快速鍵。 |
-| **目前的鍵** | 被分配給選取命令的目前的鍵。 |
-| **分配** | 分配快速鍵給目前的選取的命令。 |
-| **刪除** | 刪除選取的鍵。 |
+This dialog box appears when you click the ![](../../images/solutiontemplates.gif) button. Available solution templates are displayed in the list. Click the Properties button to display the properties of the selected solution template.
 
-### 創建解決方案的組態以及巨集
+### Solution Template Properties
 
-在目前的解決方案模板屬性對話方塊中的「組態」頁面上，您能創建并編輯組態和巨集。要創建一個新的組態:
-
-1. 點擊一下組態下的 <預設>，在快顯的下拉清單方塊中選擇 <新增>。
-2. 您能指定組態名稱。例如，創建一個叫做 Debug 的組態。
-3. 您能為每個組態創建巨集。
-4. 在巨集清單下，點擊「新增」。把巨集命名為 OPTIONS 并把它的值指定為 D \_Debug。
-5. 現在創建另一個叫做 Release 的組態。
-6. 在 Release 組態下，把叫作 OPTIONS 的巨集的值指定為 /O1。
-7. 現在您有指定的組態，以及每個指定組態中的巨集。
-
-### 創建解決方案工具
-
-在目前的解決方案模板屬性對話方塊中的「工具」頁面上，您您能創建新工具。工具屬性讓您能指定標題，命令，參數，初始目錄，圖示路徑，以及目前的圖示等。工具屬性提供了一些預設的參數，例如檔案路徑和目前的行。要創建一個新工具:
-
-1. 在「工具」頁面上點擊「新增」。
-2. 把工具命名為「編譯」。
-3. 指定命令，例如，C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\VC\\bin\\cl.exe.
-4. 指定參數，例如，$(OPTIONS) $(Path)。
-5. 指定初始路徑，例如 $(Dir)。
-6. 指定圖示路徑以及目前的圖示。
-7. 勾選「儲存檔案」核取方塊，指示工具儲存檔案。
-8. 勾選「在輸出欄中顯示」來指定所需的輸出編碼
-9. 完成后，點擊「確定」。
-
-### 預設參數
+**General tab**
 
 |     |     |
 | --- | --- |
-| **$(Path)** | 目前的文檔的完整路徑及名稱。 |
-| **$(Dir)** | 目前的文檔的目錄。 |
-| **$(Filename)** | 目前的文檔不帶副檔名的檔案名。 |
-| **$(Ext)** | 目前的文檔的副檔名。 |
-| **$(RelPath)** | 目前的文檔的相對路徑及名稱。 |
-| **$(CurLine)** | 目前的行的行號。 |
-| **$(CurText)** | 目前的游標位置處的單字。 |
-| **$(Solution)** | 解決方案檔案的完整路徑及名稱。 |
-| **$(Project)** | 專案檔案的完整路徑及名稱。 |
-| **$(SolutionDir)** | 解決方案的目錄。 |
-| **$(ConfigurationName)** | 目前的組態名稱。 |
-| **$(PlatformName)** | 目前的平臺名稱。 |
-| **$(FrameworkSDKDir)** | 末端帶反斜杠的 framework SDK 目錄。 |
-| **$(VCInstallDir)** | 末端帶反斜杠的 Visual C++ 安裝目錄。 |
-| **$(VSInstallDir)** | 末端帶反斜杠的 Visual <br> Studio 安裝目錄。 |
-| **$(WindowsSdkDir)** | 末端沒有反斜杠的 Windows <br> SDK 安裝目錄。 |
-| **$(LatestFrameworkDir)** | Framework 目錄。 |
-| **$(SourceSafe)** | Visual SourceSafe executable (ss.exe) 的完整路徑以及名稱。 |
-| **$(SccProjectName)** | SourceSafe 的專案名稱。 |
+| **Solution Format** | selects a solution format. Currently, only **EmEditor** and **Visual Studio** can be selected. |
+| **File Extension** | specifies the file extension for solution files. When you open a solution file, a solution template associated with the file extension is selected. |
+| **Read Only** | specifies whether the solution is read only. If you set to read only, you won't be able to add files to the solution, and the project files won't be overridden when a solution is saved. |
+| **Files to Include** | specifies file types that are included when you drag and drop files <br> to a project tree. For example, you would specify "\*.c;\*.cpp" if you <br> would like to include both .c and .cpp files. |
+| **Files to Exclude** | specifies file types that are excluded when you drag and drop files <br> to a project tree. For example, you would specify "\*.com;\*.exe" if <br> you would like to exclude both .com and .exe files. |
+| **Folder to Exclude** | specifies folder names that are excluded when you drag and drop <br> files to a project tree. For example, you would specify <br> "\*folder1;folder2" if you would like to exclude both "folder1" and <br> "folder2" folders. |
+
+**Configurations tab**
+
+|     |     |
+| --- | --- |
+| **Configurations** | selects a defined configuration. Selecting <New> allows you to define a new configuration. Selecting <Edit> allows you to delete a configuration. |
+| **Platforms** | selects a defined platform. Selecting <New> allows you to define a new platform. Selecting <Edit> allows you to delete a platform. |
+| **Macros** | displays the list of defined macros. It allows you to specify a value for each macro and for the combination of each configuration and platform. |
+| **New** | creates a new macro. |
+| **Delete** | deletes a selected macro. |
+| **Rename** | renames a selected macro. |
+
+**Symbols tab**
+
+|     |     |
+| --- | --- |
+| **Refresh All Symbol Lists Automatically** | specifies whether to update the symbol list when a new file is added. |
+| **Additional Parameters to Ctags (advanced option)** | specifies additional parameters to Ctags. This is an advanced option, and setting wrong parameters may prevent the symbol list from working properly. |
+
+**Tools tab**
+
+|     |     |
+| --- | --- |
+| **Tools** | displays the list of defined tools. |
+| **New** | creates a new tool. |
+| **Delete** | deletes the selected tool. |
+| **Copy** | copies the selected tool. |
+| **Up** | moves the selected tool up on the list. |
+| **Down** | moves the selected tool down on the list. |
+| **Properties** | shows or edits the selected tool properties. |
+
+**Keyboard page**
+
+|     |     |
+| --- | --- |
+| **Commands** | lists available commands. |
+| **Press New Shortcut Key** | enter shortcut key for the selected command. |
+| **Current Keys** | current keys assigned to the selected command. |
+| **Assign** | assigns the shortcut key to the currently selected command. |
+| **Delete** | deletes the selected key. |
+
+### Creating Configurations and Macros for Solutions
+
+Under Configurations properties in the Properties for Current Solution Template dialog box, you can create new and edit configurations and macros. To create a new configuration:
+
+1. Click <Default> under configurations, then click <New>.
+2. You can specify the configuration name. For example, create a configuration named, Debug.
+3. You can create macros for each configuration.
+4. Under macros, click New. Name the macro OPTIONS and specify its value as /D \_Debug.
+5. Now create another configuration named Release.
+6. Under the Release configuration, for the macro named OPTIONS, specify its value as /O1.
+7. Now you have specified configurations, and macros for each configuration.
+
+### Creating Tools for Solutions
+
+Under Tools properties, in the Properties for Current Solution Template dialog box, you can create new tools. Tools Properties allows you to specify the Title, Command, Arguments, Initial Directory, Icon Path, and Current Icon, among other
+options. The Tools Properties provides some predefined Arguments, such as File Path and Current Line. To create a new tool:
+
+1. Click New in the Tools Properties dialog box.
+2. Name the tool, Compile.
+3. Specify the Command, for example, C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\VC\\bin\\cl.exe.
+4. Specify the Argument, for example, $(OPTIONS) $(Path).
+5. Specify the Initial Directory, for example, $(Dir).
+6. Specify the Icon Path and Current Icon.
+7. Click the Saves Files button to direct the tool to save the files.
+8. Click the Use Output Bar to specify the desired Output Encoding.
+9. When finished, click OK.
+
+### Predefined Arguments
+
+|     |     |
+| --- | --- |
+| **$(Path)** | the full path and name of the active document. |
+| **$(Dir)** | the <br> directory of the active document. |
+| **$(Filename)** | the file name of the active document without file extension. |
+| **$(Ext)** | the file <br> extension of the active document. |
+| **$(RelPath)** | the <br> relative path and name of the active document. |
+| **$(CurLine)** | the line <br> number of current line. |
+| **$(CurText)** | the word of <br> the current cursor position. |
+| **$(Solution)** | the full path and name of the solution file. |
+| **$(Project)** | the full path and name of the project file. |
+| **$(SolutionDir)** | the directory of the solution. |
+| **$(ConfigurationName)** | the active configuration name. |
+| **$(PlatformName)** | the active platform name. |
+| **$(FrameworkSDKDir)** | framework <br> SDK directory with trailing backslash. |
+| **$(VCInstallDir)** | the Visual <br> C++ install directory with trailing backslash. |
+| **$(VSInstallDir)** | the Visual <br> Studio install directory with trailing backslash. |
+| **$(WindowsSdkDir)** | the Windows <br> SDK install directory without trailing backslash. |
+| **$(LatestFrameworkDir)** | the <br> Framework directory. |
+| **$(SourceSafe)** | full path and name of Visual SourceSafe executable (ss.exe). |
+| **$(SccProjectName)** | the project <br> name for SourceSafe. |
 
 ### Sub Arguments
 
 |     |     |
 | --- | --- |
-| **f** | 不帶副檔名的檔案名。 |
-| **d** | 目錄。 |
-| **x** | 檔案副檔名。 |
+| **f** | file name without extension. |
+| **d** | directory. |
+| **x** | file extension. |
 
 ### Examples
 
 |     |     |
 | --- | --- |
-| **$(Project,d)** | 返回專案檔案的目錄。 |
-| **$(Solution,f)** | 返回解決方案檔案的不帶副檔名的檔案名稱。 |
-| **$(Solution,f).$(Solution,x)** | 返回解決方案檔案的包含副檔名的檔案名稱。 |
+| **$(Project,d)** | returns the directory of the project file. |
+| **$(Solution,f)** | returns the file name without extension of the solution file. |
+| **$(Solution,f).$(Solution,x)** | returns the file name with extension of the solution file. |
 
-## 提示
+## Tips
 
-- 按 **ESC** 鍵能讓鍵盤焦點回到編輯器中。
-- 您可以在 **無標題專案** 上右擊，選擇 **專案另存新檔** 來儲存 **無標題專案**。
+- Press the **F6** key or **ESC** key to set the keyboard focus back to the editor.
+- You may save **Untitled Project** by right-clicking on **Untitled Project**, and selecting **Save Project As**.

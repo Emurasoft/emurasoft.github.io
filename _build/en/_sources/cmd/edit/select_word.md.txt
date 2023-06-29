@@ -1,27 +1,29 @@
-# 選擇單字命令
+# Select Word command
 
-### 摘要
+### Summary
 
-> 選擇目前的游標所在位置右側的單字。
+> Selects the word right of the current cursor position.
 
-### 說明
+### Description
 
-> 選擇目前的游標所在位置右側的單字。這個命令選擇所有在兩個空格之間的文字字元。空格僅在游標位于空格前的情況下會被選取。
+> Selects the word right of the current cursor position. This command selects
+> all text characters between two white space characters.  White space is
+> only selected if the cursor is placed before the white space.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **延伸選區**
-\> **選擇單字**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: ALT+F8
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Select Word**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: ALT+F8
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SELECT\_WORD (4251)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

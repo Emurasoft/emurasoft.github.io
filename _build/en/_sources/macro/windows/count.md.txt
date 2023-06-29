@@ -1,6 +1,6 @@
-# Count 屬性
+# Count Property
 
-檢索視窗數目。
+Retrieves the number of windows.
 
 #### \[JavaScript\]
 
@@ -10,7 +10,7 @@ _nCount_ = shell.windows. **Count**;
 
 _nCount_ = shell.windows. **Count**
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -20,6 +20,6 @@ alert( "Number of top-level windows: " + shell.windows.Count );
 
 alert "Number of top-level windows: " & shell.windows.Count
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

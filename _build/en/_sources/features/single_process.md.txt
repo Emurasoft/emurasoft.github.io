@@ -1,5 +1,6 @@
-# 輕巧，單一進程，多線程設計以及低記憶體用量
+# Light-Weight, Single-Process, Multi-Threading, and Low Memory Usage
 
-無論您是要打開多份檔案還是要使用標簽頁功能，EmEditor 都能在一個進程中運行。在一個進程中運行能讓 EmEditor 啟動更加快速，減少記憶體用量，并且在激活其他文檔時避免任務欄閃爍。多個窗口則作為多線程運行。另外，我們還添加了許多外掛程式命令以及巨集方式來導航多個文檔中。
+EmEditor runs in one process when multiple files are opened. EmEditor also runs in one process whether using the tab feature or not. Running in one process allows EmEditor to start much faster when multiple files are selected to open, reduce
+memory usage, and suppress the task bar blinking when activating other documents. Multiple windows now run as multi-threading. Many plug-in commands and macro methods have been added to navigate multiple documents.
 
-(EmEditor Professional/Standard Version 5 的新增功能)
+(New feature in EmEditor Professional/Standard Version 5)

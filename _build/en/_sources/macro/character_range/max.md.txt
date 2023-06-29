@@ -1,6 +1,6 @@
-# Max 屬性
+# Max Property
 
-指定對象的最大字元。
+Specifies the maximum character of the object.
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ item. **Max**
 
 item. **Max** = _c_
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

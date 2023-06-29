@@ -1,60 +1,74 @@
-# 「儲存詳細信息」對話方塊
+# Save Details dialog box
 
-該對話方塊會顯示當在組態屬性中 [**檔案** 頁面](../index) 上的 **「儲存中」** 按鈕被選擇時。
+This dialog box appears when the **Saving** button
+on the [**File** page](../index) of Configuration Properties is selected.
 
-### 「當儲存 Unicode 為 ANSI 時進行提示」核取方塊
+### Prompt when Saving Unicode as ANSI check box
 
-當把一個檔案儲存為除了 Unicode，Unicode big endian，或 UTF-8 之外的一個編碼時，顯示提示當文檔中包含無法被轉換為指定編碼的 Unicode 字元。
+When saving a file as an encoding other than Unicode, Unicode big endian, or
+UTF-8, prompts if the document contains Unicode characters which cannot be
+converted to the specified encoding.
 
-### 「把 Unicode 儲存為 HTML/XML 字元引用」核取方塊
+### Save Unicode as HTML/XML Character Reference check box
 
-如果該核取方塊被勾選了，任何無法被轉換為目標代碼頁的 Unicode 字元將被編碼為一個數字實體代碼，例如 &#10070;。
+If this box is checked, any Unicode character that cannot be converted to the
+destination code page will be encoded as a numeric entity code such as &#10070;.
 
-### 「使用命名實體引用」核取方塊
+### Use Named Entity Reference check box
 
-如果該核取方塊被勾選了，任何無法被轉換為目標代碼頁的 Unicode 字元將被編碼為命名實體代碼，例如 &copy;.
-這個選項僅當安裝了 IE 5.0 或之後的版本版可用。T
+If this box is checked, any Unicode character that cannot be converted to the
+destination code page will be encoded as the named entity code such as &copy;.
+This option is available only when Internet Explorer 5.0 or later is installed.
 
-### 「把 Tab 儲存為空白」核取方塊
+### Save Tabs as Spaces check box
 
-把 Tab 轉換為空白當儲存文檔時。
+Convert tabs to spaces when saving documents.
 
-### 「儲存時自動換行」核取方塊
+### Insert Returns when Saving check box
 
-當儲存文檔時在換行處插入換行符號。
+Insert returns at wrap points when saving documents.
 
-### 「儲存時刪除空檔案」核取方塊
+### Delete Empty Files when Saving check box
 
-刪除檔案如果文檔是空的。
+Delete the file if the document is empty.
 
-### 「總是啟用儲存」核取方塊
+### Always Enable Saving check box
 
-啟用 [**儲存** 命令](../../../../cmd/file/file_save) 即使文檔沒有被修改。
+Enable the [**Save** command](../../../../cmd/file/file_save) even
+if the document is not modified.
 
-### 「刪除行末空白」核取方塊
+### Delete Spaces at End of Lines check box
 
-刪除行末空白當儲存文檔時。
+Delete spaces at end of lines when saving documents. Even if this option is enabled, extra spaces at the cursor line will not be affected when a file is being saved. However, they will be deleted when a file is being saved and closed at the same time.
 
-### 「自動為無標題文檔命名」核取方塊
+### Except for Line at Cursor check box
 
-如果該核取方塊被勾選了，當一個無標題文檔被儲存時，文檔的第一行會被用來命名該檔案。
+### Automatically Name Untitled Document check box
 
-### 「更名時在刪除舊檔案前提示」核取方塊
+If this is checked, when an untitled document is being saved, the first line of the document will be used to name the file.
 
-如果該核取方塊被勾選了，當重新命名時，EmEditor 會在刪除舊檔案前顯示一個對話方塊來提示使用者。
+### Prompt before Deleting an Old File when Renaming check box
 
-### 「編碼」下拉清單方塊
+If this is checked, EmEditor will display a dialogue box to prompt user before deleting the old file when renaming.
 
-選擇一個儲存檔案時的編碼方式。
+### Encoding drop-down list box
 
-### 「添加一個 Unicode 簽名 (BOM)」核取方塊
+Select an encoding method when saving the file.
 
-當把一個檔案儲存為 Unicode，Unicode big endian，或 UTF-8 時，添加一個位元順序標記 (BOM)到檔案中。
+### Add a Unicode Signature (BOM) check box
 
-### 「換行符號」下拉清單方塊
+When saving the file as Unicode, Unicode big endian or UTF-8, add the Byte
+Order Mark (BOM) signature to the file.
 
-指定如何儲存換行。 **無更改** 不會變更換行方式。 **CR+LF (Windows)** 會把所有換行方式變為 CR+LF 對。 **僅 CR (Macintosh)** 會把所有換行方式變為 CR。 **僅LF (Unix)** 會把所有換行方式變為 LF。一般，Windows 用 CR+LF 的換行方式；Macintosh 僅用 CR，Unix 僅用 LF。
+### Newline Character drop-down list box
 
-### 「重設」按鈕
+Specify how to save returns. **No Change** will not change the return
+styles. **CR+LF (Windows)** will change all returns to CR plus LF pairs. **CR only (Macintosh)** will change all returns to CRs. **LF only (Unix)**
+will change returns to LFs. Generally, Windows uses CR+LF for all returns.
+Macintosh uses CRs only, and Unix uses LFs only.
 
-重設為預設設定。 [**重設** 對話方塊](../../reset/index) 會被顯示并讓您能從另一個組態複製設定。
+### Reset button
+
+Resets to default settings. The
+[**Reset** dialog box](../../reset/index) will be displayed
+and will allow you to copy from another configuration.

@@ -1,8 +1,10 @@
-# 更改文字顏色
+# To Change Text Color
 
-1. 點擊 ![Properties for Current Configuration](../../images/properties.gif)
-(如果您只想更改目前的組態) 或
+1. Click ![Properties for Current Configuration](../../images/properties.gif)
+(if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
-(如果您想要更改所有組態) 并到 **顯示** 頁面上。
-2. 從清單中選擇一個或多個項目。
-3. 點擊 **文字顏色** 按鈕或 **背景顏色** 按鈕來更改顏色。
+(if you want to change all configurations) to
+display the **Display** tab.
+2. Select an item or items from the list.
+3. Click the **Text Color** button or the **Background Color** button
+to change the color.

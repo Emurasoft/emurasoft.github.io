@@ -1,6 +1,6 @@
-# CsvList 屬性
+# CsvList Property
 
-檢索或設置 [**CsvList** 集合](../csv_list/index)。
+Retrieves or sets the [**CsvList** Collection](../csv_list/index).
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ Set _csvs_ = editor. **CsvList**
 
 editor. **CsvList** = _csvs_
 
-## 版本
+## Version
 
-支持 EmEditor 19.4 或之後的版本。
+Supported on EmEditor Professional Version 19.4 or later.

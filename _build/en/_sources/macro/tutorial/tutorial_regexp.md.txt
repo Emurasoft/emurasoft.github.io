@@ -1,8 +1,8 @@
-# 使用規則運算式
+# Using Regular Expressions
 
-要使用規則運算式，請用 RegExp 對象。
+To use regular expressions, use the RegExp Object.
 
-下面的示例代碼用規則運算式來決定指定的字串是否是一個電子郵件地址。
+The following example code uses regular expressions to determine whether or not the specified string is an email address.
 
 #### \[JavaScript\]
 
@@ -49,6 +49,6 @@ alert "The email address is invalid."
 
 End If
 
-## 參考
+## References
 
 )

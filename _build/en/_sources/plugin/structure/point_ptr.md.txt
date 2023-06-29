@@ -1,6 +1,6 @@
 # POINT\_PTR
 
-用來指定一個點的位置。在 32 位的外掛程式中，POINT\_PTR 與 POINT 結構相同。在 64 位外掛程式中，每一個欄位從 32 位整數被延伸到 64 位整數。
+Used to specify a point position. In 32-bit plug-ins, POINT\_PTR is the same as the POINT structure. In 64-bit plug-ins, each field is extended to the 64-bit integer from the 32-bit integer.
 
 typedef struct tagPOINT\_PTR
 
@@ -16,8 +16,8 @@ LONG\_PTR y;
 
 _x_
 
-> 指定一個 x 軸值。
+> Specifies an x-axis value.
 
 y
 
-> 指定一個 y 軸值。
+> Specifies a y-axis value.

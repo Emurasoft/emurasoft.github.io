@@ -1,27 +1,28 @@
-# 自訂系統匣圖示命令
+# Customize Tray Icon command
 
-### 摘要
+### Summary
 
-> 自訂系統匣圖示。
+> Customizes Tray Icon.
 
-### 說明
+### Description
 
-> 顯示 [**自訂系統匣圖示** 對話方塊](../../dlg/tray/index)，讓您能自訂系統系統匣圖示設定。
+> Displays the [**Customize Tray Icon** \
+> dialog box](../../dlg/tray/index), where you can customize the System Tray icon settings.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具** >
-**自訂系統匣圖示**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](all_commands): **Tools** >
+**Customize Tray Icon**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE\_TRAY (4273)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

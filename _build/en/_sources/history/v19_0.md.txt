@@ -1,56 +1,56 @@
 # Version 19.0
 
-2019年7月30日
+July 30, 2019
 
-## 一般新增功能
+## New General Features
 
-- 新增了用包括在安裝程式內的 **[CSS HTML Validator Lite](https://www.htmlvalidator.com/)（EmEditor 版）** 給 **HTML**， **CSS**，以及 **JSON** 文檔 **檢查語法** 的功能。
-- 新增了用 MSXML 剖析器給 **XML** 文檔 **檢查語法** 的功能。
-- **驗證 CSV** 命令現在被稱為 **語法檢查** 命令，它可以檢查所有支持的檔案類型（CSV，XML，HTML，CSS 以及 JSON）。
-- 語法檢查錯誤以紅色波浪下劃線（可自訂）顯示，並且游標指針懸停在錯誤部分會顯示有關錯誤信息的小提示。對於較小的文檔，可以自動重新整理語法檢查。
-- 新版本允許您自訂下劃線顏色，以便與文字顏色區分顯示（設定選項在 **組態屬性** 對話方塊中的 [**顯示** 頁面](../dlg/properties/display/index) 上）。
-- 添加了新的 [**反向排序** 命令](../cmd/edit/sort_reverse)，讓您能按相反的順序對文檔進行排序。
-- 用多執行緒程式碼和最近 CPU 中的 AVX-2 指令集大大提高了切換到 **CSV 模式**， **語法檢查**（CSV）以及 **調整分隔符號位置（整個文件）** 命令的速度 。
-- 用多執行緒程式碼和最近 CPU 中的 AVX-2 以及 SSE4.2 指令集大大提高了切換到在很大的檔案中執行刪除重複行命令的速度。
+- Added an ability to **check syntax** of **HTML**, **CSS**, and **JSON** documents using **[CSS HTML Validator Lite](https://www.htmlvalidator.com/)** (EmEditor edition), which is included in the installer.
+- Added an ability to **check syntax** of **XML** documents using MSXML Parser.
+- The **Validate CSV** command is now called the **Syntax Check** command, and it can check syntax of all supported document types (CSV, XML, HTML, CSS, and JSON).
+- Syntax check errors are displayed with red wiggly underlines (customizable), and hovering the mouse pointer causes a tooltip show information about the errors. Syntax check can be automatically refreshed for smaller documents.
+- The new version allows you to customize underline colors for highlight separately from the text colors ( [**Display** page](../dlg/properties/display/index) of the **Configuration Properties** dialog box).
+- Added the new [**Sort Reverse** command](../cmd/edit/sort_reverse), which allows you to sort document(s) in reversed order.
+- Greatly improved the speed of switching to a **CSV mode**, and the **Syntax Check** (CSV) and **Adjust Separator Position (Whole Document)** commands using multi-threaded code and the AVX-2 instruction set found in recent CPUs .
+- Greatly improved the speed of the Delete Duplicate Lines command on a very large file using multi-threaded code and the AVX-2 and SSE4.2 instruction sets found in recent CPUs.
 
-### 測試結果：
+### Test results:
 
-|  | v18.9 | v19.0 | 比較 |
+|  | v18.9 | v19.0 | Comparison |
 | --- | --- | --- | --- |
-| 切換到 CSV 模式 | 1.67 秒 | 0.206 秒 | 快 8.11 倍 |
-| 刪除重複行 | 47.7 秒 | 20.3 秒 | 快 2.35 倍 |
+| Switch to CSV mode | 1.67 seconds | 0.206 seconds | 8.11 times faster |
+| Delete Duplicate Lines | 47.7 seconds | 20.3 seconds | 2.35 times faster |
 
-\\* 切換到 CSV 模式：1.99 GB 1580萬行，以逗號分隔的數字。
+\\* Switch to CSV mode: 1.99 GB 15.8 million lines, comma separated numbers.
 
-刪除重複行：2.70 GB，2 億行，隨機 ASCII 數據。
+Delete Duplicate Lines: 2.70 GB, 200 million lines, random ASCII data.
 
-全部：勾選「使用臨時檔案」選項，16 個執行緒；測試系統：Windows 10（64位），Core i9-9900K，32GB RAM，2TB SSD。
+All: Use Temporary Files option on, 16 threads, Windows 10 (64-bit), Core i9-9900K, 32GB RAM, 2TB SSD.
 
-## 新增選項
+## New Options
 
-- 添加了 [**語法檢查** 頁面](../dlg/customize/validation/index) 到 **自訂** 對話方塊中。
-- 添加了 [**語法檢查** 頁面](../dlg/properties/validation/index) 到 **組態屬性** 對話方塊中。
-- 添加了 **下劃線顏色** 下拉清單方塊到 **組態屬性** 對話方塊中的 [**顯示** 頁面](../dlg/properties/display/index) 上。
-- 添加了 **儲存大檔案時啟用檔案對應** 核取方塊到 **自訂** 對話方塊的 **檔案** 頁面上。
-- 添加了 **指令集** 下拉清單方塊到 **自訂** 對話方塊的 **進階** 頁面上。
-- 添加了 **Tab 數** 到組態屬性對話方塊的 **大綱** 頁面中的 **類型** 下拉清單方塊內。
-- 添加了 **僅檢查選取的字串** 選項按鈕到 [**刪除/把重複行設為書籤** 對話方塊](../dlg/delete_duplicate_advanced/index) 中。
-- 添加了 **當存在垂直選擇或多重選擇時，僅檢查選取的字串 (刪除重複行命令)** 選項到 **自訂** 對話方塊的 [**編輯** 頁面](../dlg/customize/edit/index) 上。
-- 添加了 **當存在垂直選擇或多重選擇時，僅檢查選取的字串** 選項到 **自訂** 對話方塊的 [**排序** 頁面](../dlg/customize/sort/index) 上。
+- Added the [**Syntax Check** page](../dlg/customize/validation/index) to the **Customize** dialog box.
+- Added the [**Syntax Check** page](../dlg/properties/validation/index) to the **Configuration Properties** dialog box.
+- Added the **Underline Color** drop-down list box to the [**Display** page](../dlg/properties/display/index) of the **Configuration Properties** dialog box.
+- Added the **Enable file mapping when saving a large file** check box to the [**File** page](../dlg/customize/file/index) of the **Customize** dialog box.
+- Added the **Instruction Set** drop-down list box to the [**Advanced** page](../dlg/customize/advanced/index) of the **Customize** dialog box.
+- Added the **Number of Tabs** option to the **Type** drop-down list box in the [**Outline** page](../dlg/properties/outline/index) of configuration properties.
+- Added the **Inspect Selected Strings Only** radio button to the [**Delete Duplicate Lines** dialog box](../dlg/delete_duplicate_advanced/index).
+- Added the **Inspect only selected strings when vertical selection or multiple selections exist (Delete Duplicates command)** option to the [**Edit** page](../dlg/customize/edit/index) of the **Customize** dialog box.
+- Added the **Inspect only selected strings when vertical selection or multiple selections exist** option to the [**Sort** page](../dlg/customize/sort/index) of the **Customize** dialog box.
 
-## 新增命令
+## New Commands
 
-- [語法檢查屬性](../cmd/tools/property_validation)
-- [自訂語法檢查](../cmd/tools/customize_validation)
-- [語法檢查器](../cmd/view/toggle_validation_bar)
-- [反向排序](../cmd/edit/sort_reverse)
+- [Syntax Check Properties](../cmd/tools/property_validation)
+- [Customize Syntax Check](../cmd/tools/customize_validation)
+- [Syntax Checker](../cmd/view/toggle_validation_bar)
+- [Sort Reverse](../cmd/edit/sort_reverse)
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 SORT\_REVERSE 以及 SORT\_INSPECT\_NOT\_SEL\_ONLY 標志到 [**SORT\_INFO** 結構](../plugin/structure/sort_info) 以及 [**Editor\_Sort** 內嵌函式](../plugin/macro/editor_sort) 中。
-- 添加了 MANAGE\_DUPLIDATES\_INSPECT\_SEL\_ONLY 標志到 [**MANAGE\_DUPLICATES\_INFO** 結構](../plugin/structure/manage_duplicates_info) 以及 [**Editor\_ManageDuplicates** 內嵌函式](../plugin/macro/editor_manageduplicates) 中。
+- Added the SORT\_REVERSE and SORT\_INSPECT\_NOT\_SEL\_ONLY flags to the [**SORT\_INFO** structure](../plugin/structure/sort_info) and [**Editor\_Sort** inline function](../plugin/macro/editor_sort).
+- Added the MANAGE\_DUPLICATES\_INSPECT\_SEL\_ONLY flag to the [**MANAGE\_DUPLICATES\_INFO** structure](../plugin/structure/manage_duplicates_info) and [**Editor\_ManageDuplicates** inline function](../plugin/macro/editor_manageduplicates).
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 **V** （反向排序）選項以及 **eeSortInspectNotSelOnly** 標志到 **Document** 對象的 [**Sort** 方法](../macro/document/sort) 中。
-- 添加了 **eeSortInspectSelOnly** 標志到 **Document** 對象的 [**DeleteDuplicates** 方法](../macro/document/delete_duplicates) 中。
+- Added the **V** (sorts reverse) option and the **eeSortInspectNotSelOnly** flag to the [**Sort** method](../macro/document/sort) of the **Document** object.
+- Added the **eeSortInspectSelOnly** flag to the [**DeleteDuplicates** method](../macro/document/delete_duplicates) of the **Document** object.

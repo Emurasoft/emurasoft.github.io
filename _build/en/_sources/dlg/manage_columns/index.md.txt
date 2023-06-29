@@ -1,35 +1,36 @@
-# 「管理欄」對話方塊
+# Manage Columns dialog box
 
-當你執行 [**管理欄** 命令](../../cmd/csv/manage_columns) 時，這個對話方塊會出現。
+This dialog box appears when the
+[**Manage Columns** command](../../cmd/csv/manage_columns) is selected.
 
-### 「欄」清單方塊
+### Column list box
 
-顯示欄的清單。你可以選擇清單中的一個或多個條目，然後拖放以重新排欄條目。你也可以右鍵單擊清單，然後選擇 **複製** 和 **貼上** 以複製欄。
+Displays the list of columns. You can select one or multiple items in the list, and drag and drop to rearrange the items. You can also right-click on the list, and select **Copy** and **Paste** to duplicate columns.
 
-### 「上移」按鈕
+### Up button
 
-將所選條目在清單中上移。
+Moves the selected item up on the list.
 
-### 「下移」按鈕
+### Down button
 
-將所選條目在清單中下移。
+Moves the selected item down on the list.
 
-### 「頂部」按鈕
+### Top button
 
-將所選條目移至清單頂部。
+Moves the selected item to the top on the list.
 
-### 「底部」按鈕
+### Bottom button
 
-將所選條目移至清單底部。
+Moves the selected item to the bottom on the list.
 
-### 「刪除」按鈕
+### Delete button
 
-單擊此按鈕可從清單中刪除所選條目。
+Click this button to delete the selected item from the list.
 
-### 「排序」按鈕
+### Sort button
 
-單擊此按鈕對欄進行排序。
+Click this button to sort the columns.
 
-### 「>」按鈕
+### \> button
 
-單擊此按鈕可顯示其他命令。
+Click this button to show additional commands.

@@ -1,20 +1,21 @@
 # Editor\_ExecCommand
 
-執行一個指定的命令。您能直接用該內嵌函式或明確地發送 [EE\_EXEC\_COMMAND](../message/ee_exec_command)
-消息。
+Executes a specified command. You can use this inline function or explicitly send the [EE\_EXEC\_COMMAND](../message/ee_exec_command)
+message.
 
 Editor\_ExecCommand( HWND hwnd, UINT nCmdID );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nCmdID_
 
-> 要執行的命令的識別符。請檢視 [命令 ID](../cmdid/index)。
+> The identifier of the command to be executed. See
+> [Command IDs](../cmdid/index).
 
-## 返回值
+## Return Value
 
-> 不使用返回值。
+> The return value is not used.

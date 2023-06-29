@@ -1,27 +1,27 @@
-# 刪除單字命令
+# Delete Word command
 
-### 摘要
+### Summary
 
-> 刪除目前的游標所在位置的單字。
+> Deletes the word at the current cursor position.
 
-### 說明
+### Description
 
-> 刪除游標位置處在兩個空格之間的任何文字。如果在游標位置處沒有文字的話，這個命令將刪除空格。
+> Deletes any text at the cursor position between two white space characters. This command deletes white space if there is no text present at the cursor position.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **刪除**
-\> **刪除單字**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: CTRL+SHIFT+DELETE
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Word**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+SHIFT+DELETE
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_DELETE\_WORD (4194)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

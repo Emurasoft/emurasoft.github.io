@@ -1,6 +1,6 @@
-# TreatAs 屬性
+# TreatAs Property
 
-指定要取代的字元。 如果指定-1，則在用於模糊比對時將忽略指定的範圍。
+Specifies the character to be substituted for. If -1 is specified, the specified range will be ignored when used for fuzzy matching.
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ item. **TreatAs**
 
 item. **TreatAs** = _c_
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

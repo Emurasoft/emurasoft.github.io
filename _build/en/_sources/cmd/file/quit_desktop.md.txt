@@ -1,27 +1,27 @@
-# 全部關閉不儲存 (僅目前的桌面) 命令
+# Close All without Save (Current Desktop Only) command
 
-### 摘要
+### Summary
 
-> 在目前的虛擬桌面上，關閉所有打開的檔案并不儲存。
+> Closes all open files without saving in the current virtual desktop.
 
-### 說明
+### Description
 
-> 在目前的虛擬桌面上，關閉所有打開的檔案并不儲存。
+> Closes all open files without saving in the current virtual desktop.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **關閉**
-\> **全部關閉不儲存 (僅目前的桌面)**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Close All without Save (Current Desktop Only)**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_QUIT\_DESKTOP (3936)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

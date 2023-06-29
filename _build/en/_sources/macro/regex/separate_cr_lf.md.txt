@@ -1,6 +1,6 @@
-# SeparateCrLf 屬性
+# SeparateCrLf Property
 
-設置或檢索規則運算式是否分開處理 CR 以及 LF。
+Sets or retrieves whether the regular expression treats CR and LF separately.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _b_ = reg. **SeparateCrLf**;
 
 reg. **SeparateCrLf** = _b_;
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 15.9 或之後的版本。
+Supported on EmEditor Professional Version 15.9 or later.

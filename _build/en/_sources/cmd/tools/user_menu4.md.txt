@@ -1,27 +1,29 @@
-# 使用者功能表 (4) 命令
+# User Menu (4) command
 
-### 摘要
+### Summary
 
-> 顯示使用者功能表 (4)，被用作兩次按鍵捷徑的第一個快速鍵。
+> Shows User Menu (4), used as the first shortcut key for two-keystroke
+> shortcuts.
 
-### 說明
+### Description
 
-> 顯示使用者功能表 (4)，被用作兩次按鍵捷徑的第一個快速鍵。使用者功能表可以通過 [**自訂功能表** 命令](customize_menu) 個人化。
+> Shows User Menu (4), used as the first shortcut key for two-keystroke
+> shortcuts. User Menus can be customized with the [**Customize Menus** command](customize_menu).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具** >
-**使用者功能表** \> **使用者功能表 (4)**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](all_commands): **Tools** >
+**User Menu** \> **User Menu (4)**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_USER\_MENU1 (4432)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

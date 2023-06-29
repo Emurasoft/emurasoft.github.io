@@ -1,6 +1,6 @@
-# Reset 方法
+# Reset Method
 
-重設目前的組態。
+Resets the configuration.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,12 @@ object. **Reset**( \[ _strName_ \] );
 
 object. **Reset** \[ _strName_ \]
 
-## 參數
+## Parameters
 
 _strName_
 
-可選。指定要重設的預設組態名稱。如果省略，預設組態的目前的名稱會被使用。如果名稱不是預設組態之一，會出現錯誤。
+Optional. Specifies the name of the default configuration to be reset. If omitted, the default configuration of the current name will be used. An error occurs if the name is not one of default configurations.
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

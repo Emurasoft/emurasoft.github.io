@@ -1,6 +1,6 @@
-# Add 方法
+# Add Method
 
-添加一個項目。
+Adds an item.
 
 #### \[JavaScript\]
 
@@ -10,27 +10,27 @@ list. **Add**( _nKey_, _nFlags_, _nCommand_ );
 
 list. **Add** _nKey_, _nFlags_, _nCommand_
 
-## 參數
+## Parameters
 
 _nKey_
 
-指定要添加的項目的按鍵。
+Specifies the key of the item to add.
 
 _nFlags_
 
-從如下值中指定一個組合。
+Specifies a combination of the following values.
 
 |     |     |
 | --- | --- |
-| eeVirtualKey | 指定對象的 Key 成員是一個虛擬鍵代碼。如果這個標志沒有指定，那么對象的 Key 成員被假定為指定一個字元代碼。 |
-| eeShift | 指定必須按下 SHIFT 鍵當按下加速鍵時。 |
-| eeCtrl | 指定必須按下 CTRL 鍵當按下加速鍵時。 |
-| eeAlt | 指定必須按下 ALT 鍵當按下加速鍵時。 |
+| eeVirtualKey | Specifies the Key member of the object is a virtual-key code. If this flag is not specified, the Key member of the object is assumed to specify a character code. |
+| eeShift | Specifies the SHIFT key must be held down when the accelerator key is pressed. |
+| eeCtrl | Specifies the CTRL key must be held down when the accelerator key is pressed. |
+| eeAlt | Specifies the ALT key must be held down when the accelerator key is pressed. |
 
 _nCommand_
 
-指定要添加的項目的命令 ID。
+Specifies the command ID of the item to add.
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

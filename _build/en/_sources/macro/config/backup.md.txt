@@ -1,7 +1,7 @@
-# Backup 屬性
+# Backup Property
 
-檢索
-[BackupProp 對象](../backup_prop/index)。
+Retrieves the
+[BackupProp object](../backup_prop/index).
 
 #### \[JavaScript\]
 
@@ -11,6 +11,6 @@ _obj_ = object. **Backup**;
 
 Set _obj_ = object. **Backup**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

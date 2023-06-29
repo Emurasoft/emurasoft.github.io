@@ -1,6 +1,6 @@
-# HeadingLines 屬性
+# HeadingLines Property
 
-檢索或設置標題的行數 (不能捲動的區域)。
+Retrieves or sets the number of lines for headings (non-scrollable area).
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _n_ = document. **HeadingLines**
 
 document. **HeadingLines** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor 14.6 或之後的版本。
+Supported on EmEditor Professional Version 14.6 or later.

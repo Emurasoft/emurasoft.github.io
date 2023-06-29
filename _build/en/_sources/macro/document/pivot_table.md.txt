@@ -1,6 +1,6 @@
-# PivotTable 方法
+# PivotTable Method
 
-在 CSV 文檔中建立樞紐分析表。
+Creates a pivot table in the CSV document.
 
 #### \[JavaScript\]
 
@@ -10,115 +10,115 @@ document. **PivotTable**( iRow, iColumn, iValue, nFlags, strSortRow, nSortRowFla
 
 document. **PivotTable** iRow, iColumn, iValue, nFlags, strSortRow, nSortRowFlags, strSortColumn, nSortColumnFlags, strLocale, strTotalRowLabel, strTotalColLabel, nDecimalPlaces
 
-## 參數
+## Parameters
 
 _iRow_
 
-> 指定 CSV 文檔的資料欄的索引，用於延伸到新樞紐分析表中的資料列。
+> Specifies the index of the column of the CSV document to be extended to the rows in a new pivot table.
 
 _iColumn_
 
-> 指定 CSV 文檔的資料欄的索引，用於延伸到新樞紐分析表中的資料欄。
+> Specifies the index of the column of the CSV document to be extended to the columns in a new pivot table.
 
 _iValue_
 
-> 指定 CSV 文檔的資料欄的索引，用於延伸到新樞紐分析表中的值。
+> Specifies the index of the column of the CSV document to be extended to the values in a new pivot table.
 
 _nFlags_
 
-> 指定下面的值的組合。
+> Specifies a combination of following values.
 >
 > |     |     |
 > | --- | --- |
-> | eePivotTypeCount | 值的數量。 |
-> | eePivotTypeSum | 值的總和。 |
-> | eePivotTypeAverage | 值的平均值。 |
-> | eePivotTypeMax | 最大的值。 |
-> | eePivotTypeMin | 最小的值。 |
-> | eePivotTotalRows | 顯示列的總值。 |
-> | eePivotTotalColumns | 顯示欄的總值。 |
+> | eePivotTypeCount | The number of values. |
+> | eePivotTypeSum | The sum of the values. |
+> | eePivotTypeAverage | The average of the values. |
+> | eePivotTypeMax | The largest value. |
+> | eePivotTypeMin | The smallest value. |
+> | eePivotTotalRows | Displays the total row values. |
+> | eePivotTotalColumns | Displays the total column values. |
 
 _strSortRow_
 
-> 指定包含要應用於資料列的標志的字串。如果此項為空或省略，則不會執行排序。
+> Specifies a string containing a flag to be applied to the row. If this is empty or omitted, no sort will be performed.
 >
-> 語法：
+> Syntax:
 >
 > option (+/-)
 >
-> option：從下表中選擇一種排序選項：
+> option: select one of the sorting options from the table below:
 >
 > |     |     |
 > | --- | --- |
-> | A | 對文字進行排序。 |
-> | D | 對日期和時間進行排序。 |
-> | I | 對 IPv4 地址進行排序。 |
-> | P | 對 IPv6 地址進行排序。 |
-> | L | 按字元數對字串進行排序。 |
-> | N | 對數字進行排序。 |
-> | O | 按出現次數排序。 |
-> | W | 按字數排序字串。 |
+> | A | Sorts text. |
+> | D | Sorts date and time. |
+> | I | Sorts IPv4 addresses. |
+> | P | Sorts IPv6 addresses. |
+> | L | Sorts strings by the number of characters. |
+> | N | Sorts numbers. |
+> | O | Sorts by occurrence. |
+> | W | Sorts strings by the number of words. |
 >
-> (+/-)：從下表中選擇一種排序選項：
->
-> |     |     |
-> | --- | --- |
-> | + | 升序。 |
-> | - | 降序。 |
->
-> 範例：
+> (+/-): select one of the sorting options from the table below:
 >
 > |     |     |
 > | --- | --- |
-> | A+ | 按升序對文字進行排序。 |
-> | N- | 按降序對數字進行排序。 |
+> | + | Ascending order. |
+> | - | Descending order. |
+>
+> For example:
+>
+> |     |     |
+> | --- | --- |
+> | A+ | Sorts text in ascending order. |
+> | N- | Sorts numbers in descending order. |
 
 _nSortRowFlags_
 
-> 您可以指定要應用於該資料列的以下值的組合。僅當 _strSortRow_ 不為空時，才能指定這些標志。該參數可以省略。
+> You can specify a combination of the following values to be applied to the row. These flags can be specified only if _strSortRow_ is not empty. This parameter can be omitted.
 >
 > |     |     |
 > | --- | --- |
-> | eeSortBinaryComparison | 使用更快的二進位排序算法進行排序，該算法忽略區域設定信息。 |
-> | eeSortDigitsAsNumbers | 即使按字母順序排序，數字也按數字排序。開頭負號和開頭小數點不是數字的一部分。 |
-> | eeSortGroupIdentical | 按出現次數排序時將相同的字串群組。 |
-> | eeSortIgnoreCase | 忽略大小寫。 |
-> | eeSortIgnoreKanaType | 平假名和片假名字元比較相等。 |
-> | eeSortIgnoreNonSpace | 忽略非空格字元。 |
-> | eeSortIgnoreSymbols | 忽略符號。 |
-> | eeSortIgnoreWidth | 忽略半形和全形字元之間的差異。 |
-> | eeSortIgnorePrefix | 按數字排序時，忽略開頭非數字字元。 |
-> | eeSortLengthView | 按長度排序時，全形字元被視為 2 個字元。 |
-> | eeSortStable | 使用穩定排序來維護相同記錄的相對順序。穩定排序會比較慢。 |
-> | eeSortStringSort | 視連字號和縮寫符號為正常字元。 |
+> | eeSortBinaryComparison | A faster binary sort algorithm, which ignores locale information, is used for sorting. |
+> | eeSortDigitsAsNumbers | Digits are sorted as numbers even when sorted by alphabetical order. A leading negative sign and leading decimal point are not part of the number. |
+> | eeSortGroupIdentical | Groups identical strings when sorted by occurrence. |
+> | eeSortIgnoreCase | Case is ignored. |
+> | eeSortIgnoreKanaType | Hiragana and Katakana characters compare as equal. |
+> | eeSortIgnoreNonSpace | Nonspacing characters are ignored. |
+> | eeSortIgnoreSymbols | Symbols are ignored. |
+> | eeSortIgnoreWidth | The difference between half-width and full-width characters is ignored. |
+> | eeSortIgnorePrefix | Leading non-numeric characters are ignored when sorted by numbers. |
+> | eeSortLengthView | Full width characters are treated as 2 characters when sorted by lengths. |
+> | eeSortStable | Use stable sort to maintain the relative order of identical records. Stable sorting is slower. |
+> | eeSortStringSort | Hyphen and apostrophe are treated as normal characters. |
 
 _strSortColumn_
 
-> 指定包含要應用於資料欄的標志的字串。格式與 _strSortRow_ 參數相同。如果此項為空或省略，則不會執行排序。
+> Specifies a string containing a flag to be applied to the column. The format is the same as the _strSortRow_ parameter. If this is empty or omitted, no sort will be performed.
 
 _nSortColumnFlags_
 
-> 您可以指定要應用於該資料欄的值。這些標志與 _nSortRowFlags_ 相同，只有在 _strSortColumn_ 不為空時才能指定。該參數可以省略。
+> You can specify values to be applied to the column. These flags are the same as _nSortRowFlags_, and can be specified only if _strSortColumn_ is not empty. This parameter can be omitted.
 
 _strLocale_
 
-> 指定用於排序的語言環境，例如：「en-US」。如果此項為空或省略，則使用在「自訂」對話方塊的「排序」索引標籤中指定的區域設定。
+> Specifies the locale used for sorting, for example: "en-US". If this is empty or omitted, the locale specified in the "Sort" tab in the Customize dialog box is used.
 
 _strTotalRowLabel_
 
-> 指定列的總值的標題標籤。只有在 _nFlags_ 參數中指定了 **eePivotTotalRows** 時，才使用此參數。
+> Specifies the heading label for the total row values. This parameter is used only if **eePivotTotalRows** is specified in the _nFlags_ parameter.
 
 _strTotalColLabel_
 
-> 指定欄的總值的標題標籤。只有在 _nFlags_ 參數中指定了 **eePivotTotalColumns** 時才使用此參數。
+> Specifies the heading label for the total column values. This parameter is used only if **eePivotTotalColumns** is specified in the _nFlags_ parameter.
 
 _nDecimalPlaces_
 
-> 指定值的小數位數。
+> Specifies the decimal places of the values.
 
-## 範例
+## Examples
 
-通過將 CSV 文檔的第一個資料欄設定為新樞紐分析表的資料列，將第二個資料欄設定為該資料欄，將第三個資料欄設定為值來建立樞紐分析表。通過更快的二進位排序算法按升序對資料列和資料欄中的文字進行排序。顯示總計。
+Creates a pivot table by setting the first column of the CSV document to the row of the new pivot table, the second column to the column, and the third column to the values. Sorts text in both rows and columns in ascending order by a faster binary sort algorithm. Displays the grand totals.
 
 #### \[JavaScript\]
 
@@ -128,6 +128,6 @@ document.PivotTable( 1, 2, 3, eePivotTypeSumInt \| eePivotTotalRows \| eePivotTo
 
 document.PivotTable 1, 2, 3, eePivotTypeSumInt Or eePivotTotalRows Or eePivotTotalColumns, "A+", eeSortBinaryComparison, "A+", eeSortBinaryComparison, "", "Grand Total", "Grand Total"
 
-## 版本
+## Version
 
-支持 EmEditor Professional v21.4 或之後的版本。
+Supported on EmEditor Professional Version 21.4 or later.

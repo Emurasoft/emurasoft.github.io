@@ -1,43 +1,43 @@
-# 「語法檢查」頁面
+# Syntax Check page
 
-**語法檢查** 頁面讓你能自訂語法檢查器。
+The **Syntax Check** page allows you to customize the syntax checker.
 
-### 「語法檢查器引擎」下拉清單方塊
+### Syntax Checker Engine drop-down list box
 
-指定要給 HTML/CSS/JSON 文檔使用的語法檢查器引擎。
+Specifies the syntax checker engine to use for HTML/CSS/JSON documents.
 
-### 「停用語法檢查如果行數超過」文字方塊
+### Disable syntax check if number of lines exceeds text box
 
-如果文檔中的行數超過此數量，將停用 HTML/CSS/JSON 文檔的語法檢查。
+Syntax check for HTML/CSS/JSON documents will be disabled if the number of lines in a document exceeds this number.
 
-### 「停用語法檢查如果行的長度超過」文字方塊
+### Disable syntax check if line length exceeds text box
 
-如果文檔中每行的任何行長度超過此數字，將停用 HTML/CSS/JSON 文檔的語法檢查。
+Syntax check for HTML/CSS/JSON documents will be disabled if any line length per line in a document exceeds this number.
 
-### 「翻譯 URL」文字方塊
+### Translation URL text box
 
-指定用於 HTML/CSS/JSON 語法檢查結果的「線上翻譯」命令的 URL。"%1" 是給目的語言識別項的一個預留位置（例如，"ja" 代表日文），還有 "%2" 是給 UTF-8 百分比編碼原始程式文字的一個預留位置。請注意，只有在「自訂」對話方塊的 **語言** 頁面中選擇了非英語時，才能使用翻譯功能。
+Specifies the URL to use for the Translate Online command on a HTML/CSS/JSON syntax check result. "%1" is a placeholder for the destination language identifier (for instance, "ja" for Japanese), and "%2" is a placeholder for the UTF-8 percent-encoded source text. Note that the translation feature is available only when non-English is selected in the **Language** page of the Customize dialog box.
 
-### 「驗證 XML 文檔（XML）」核取方塊
+### Validate XML documents (XML) check box
 
-如果勾選該核取方塊，EmEditor 將驗證 XML 文檔。如果不勾選，EmEditor將僅檢查XML文檔是否格式正確。
+If this is checked, EmEditor will validate XML documents. If not checked, EmEditor will only check whether XML documents are well-formed.
 
-### 「解析外部定義（XML）」核取方塊
+### Resolve external definitions (XML) check box
 
-如果勾選該核取方塊，則 EmEditor 將嘗試解析外部定義，可解析的命名空間，文檔類型定義（DTD）外部子集和外部實體引用。
+If this is checked, EmEditor will try resolving external definitions, resolvable namespaces, document type definition (DTD) external subsets, and external entity references.
 
-### 「自動重新整理」核取方塊
+### Automatically Refresh check box
 
-如果勾選該核取方塊，EmEditor 會自動重新整理語法檢查亮顯。
+If this is checked, EmEditor will automatically refresh the syntax check highlight.
 
-### 「停用自動重新整理如果行數超過」文字方塊
+### Disable automatic refresh if number of lines exceeds text box
 
-如果文檔中的行數超過此數量，將停用自動重新整理。
+Automatic refresh will be disabled if the number of lines in a document exceeds this number.
 
-### 「搜索 URL」文字方塊
+### Search URL text box
 
-指定用於語法檢查結果的「線上搜索」命令的 URL。"%1" 將取代為原始程式文字（UTF-8 百分比編碼）。
+Specifies the URL to use for the Search Online command on a syntax check result. %1 will be replaced with the source text (UTF-8 percent-encoded).
 
-### 「重置」按鈕
+### Reset button
 
-重置為預設設定。
+Resets to default settings.

@@ -1,8 +1,10 @@
-# 尋找一個文字字串
+# To Find a Text String
 
-1. 點擊工具列上的  ![Search](../../images/editfind.gif) 來顯示 **尋找** 對話方塊。
-2. 輸入您想要尋找的文字字串。您能選擇從文檔中的目前的位置處向上或向下搜尋。
+1. Click  ![Search](../../images/editfind.gif)
+on the Toolbar to display the **Find** dialog.
+2. Enter the text string you would like to find. You can search up or down
+from the current position in the document.
 
-## 提示
+## Tips
 
-- 勾選 **大小寫需符合** 區別大寫和小寫。
+- Check **Match Case** to differentiate between uppercase and lowercase.

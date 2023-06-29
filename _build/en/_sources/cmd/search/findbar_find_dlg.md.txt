@@ -1,27 +1,27 @@
-# << 尋找(尋找工具列) 命令
+# << Find (Find toolbar) command
 
-### 摘要
+### Summary
 
-> 切換尋找工具列上的「<< 尋找」按鈕。
+> Toggles the << Find button on the Find toolbar.
 
-### 說明
+### Description
 
-> 切換尋找工具列上的「<< 尋找」按鈕。
+> Toggles the << Find button on the Find toolbar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜索**
-\> **尋找工具列** \> **尋找 >>**
-- 工具列: ![](../../images/findbar_find_dlg.png) (尋找工具列)
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **<< Find**
+- Toolbar: ![](../../images/findbar_find_dlg.png) (Find toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FINDBAR\_FIND\_DLG (4070)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

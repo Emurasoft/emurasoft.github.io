@@ -1,6 +1,6 @@
-# LogicalToView 方法
+# LogicalToView Method
 
-將指定位置的邏輯坐標轉換為顯示坐標，并檢索 [**Point** 對象](../point/index) 中的位置。
+Converts the logical coordinates of a specified position to the display coordinates, and retrieves the position in the [**Point** object](../point/index).
 
 #### \[JavaScript\]
 
@@ -10,17 +10,17 @@ _point_ = document. **LogicalView**( _x_, _y_ );
 
 _point_ = document. **LogicalView**( _x_, _y_ )
 
-## 參數
+## Parameters
 
 _x_
 
-指定基于單個的水平（字元）位置。
+Specifies the one-based horizontal (character) position.
 
 _y_
 
-指定基于單個的垂直（行）位置。
+Specifies the one-based vertical (line) position.
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -38,6 +38,6 @@ x = point.x
 
 y = point.y
 
-## 版本
+## Version
 
-支持 EmEditor Professional 17.0 或之後的版本。
+Supported on EmEditor Professional Version 17.0 or later.

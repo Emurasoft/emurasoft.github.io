@@ -1,52 +1,52 @@
-# Editor 對象
+# Editor Object
 
-## 屬性
-
-|     |     |
-| --- | --- |
-| **[ActiveDocument](editor_activedocument)** | 為目前的文檔，檢索 Document 對象。 |
-| **[Configs](configs)** | 檢索 Configs 集合。 |
-| **[CsvList](csv_list)** | 檢索或設置 CsvList 集合。 |
-| **[Documents](editor_documents)** | 為目前的打開的文檔，檢索 Documents 集合。 |
-| **[EnableTab](editor_enabletab)** | 設置或檢索是否標籤頁被啟用。 |
-| **[filters](filters)** | 檢索 Filters 集合。 |
-| **[FullName](editor_fullname)** | 檢索 EmEditor 可執行檔案 (emeditor.exe) 的完整規格，包括路徑。 |
-| **[FuzzyOptions](fuzzy_options)** | 檢索 FuzzyOptions對象。 |
-| **[LangID](langid)** | 檢索目前選取的語言 ID。 |
-| **[regex](regex)** | 檢索 Regex 對象。 |
-| **[RegisteredName](registeredname)** | 檢索註冊名。 |
-| **[Version](editor_version)** | 檢索 表示目前的 EmEditor 版本的字串。 |
-
-## 方法
+## Properties
 
 |     |     |
 | --- | --- |
-| **[BatchFindInFiles](editor_batchfindinfiles)** | 在多個檔案中搜索多個字串。 |
-| **[BatchReplaceInFiles](editor_batchreplaceinfiles)** | 在多個檔案中取代多個字串。 |
-| **[Compare](compare)** | 比較兩個文檔。 |
-| **[GetUnicodeName](getunicodename)** | 檢索指定字元或字串的 Unicode 名。 |
-| **[ExecuteCommandByID](editor_executecommandbyid)** | 執行由一個表示命令 ID 整數標識的命令。 |
-| **[ExecuteMacro](editor_executemacro)** | 執行一個指定的巨集。 |
-| **[ExecutePlugin](editor_executeplugin)** | 執行指定外掛程式。 |
-| **[FileDialog](filedialog)** | 顯示一個「打開」或「另存新檔」對話方塊，讓使用者指定磁碟機、目錄以及要打開的檔案名。 |
-| **[FindInFiles](editor_findinfiles)** | 在多個檔案中搜尋符合的字串。 |
-| [**GetProfileInt**](getprofileint) | 按 EmEidtor 的設定，從註冊表或一個 INI 檔案上檢索指定項目的整數值。 |
-| [**GetProfileString**](getprofilestring) | 按 EmEidtor 的設定，從註冊表或一個 INI 檔案上檢索指定項目的字串值。 |
-| [**Join**](join) | 按指定索引鍵資料欄，用一個與 JOIN 操作類似的方法合併兩個 CSV 文檔，並創建一個新文檔。 |
-| **[NewFile](editor_newfile)** | 新增一個檔案。 |
-| **[OpenFile](editor_openfile)** | 打開一個已存在的檔案。 |
-| **[QueryStatusByID](editor_querystatusbyid)** | 檢索指定命令的目前的狀態，是否已被勾選和啟用。 |
-| **[QueryStringByID](editor_querystringbyid)** | 檢索與指定命令相關聯的字串。 |
-| **[RefreshCommonSettings](refresh_common_settings)** | 加載常用設置並重新整理 EmEditor 視窗。 |
-| **[ReplaceInFiles](editor_replaceinfiles)** | 在多個檔案中取代文字。 |
-| **[SaveAll](editor_saveall)** | 儲存所有目前的打開的檔案。 |
-| **[SaveCloseAll](editor_savecloseall)** | 儲存並關閉所有打開的檔案。 |
-| [**WriteProfileInt**](writeprofileint) | 按 EmEditor 的設定，把一個整數值設置到註冊表或一個 INI 檔案中。 |
-| [**WriteProfileString**](writeprofilestring) | 按 EmEditor 的設定，把一個字串值設置到註冊表或一個 INI 檔案中。 |
+| **[ActiveDocument](editor_activedocument)** | Retrieves the Document Object for the current document. |
+| **[Configs](configs)** | Retrieves the Configs Collection. |
+| **[CsvList](csv_list)** | Retrieves or sets the CsvList Collection. |
+| **[Documents](editor_documents)** | Retrieves the Documents Collection for the currently opened documents. |
+| **[EnableTab](editor_enabletab)** | Sets or retrieves whether the tab is enabled. |
+| **[filters](filters)** | Retrieves the Filters collection. |
+| **[FullName](editor_fullname)** | Retrieves the full specification of the EmEditor executable file (emeditor.exe), <br> including the path. |
+| **[FuzzyOptions](fuzzy_options)** | Retrieves the FuzzyOptions object. |
+| **[LangID](langid)** | Retrieves the currently selected language ID. |
+| **[regex](regex)** | Retrieves the Regex object. |
+| **[RegisteredName](registeredname)** | Retrieves the registered name. |
+| **[Version](editor_version)** | Retrieves the string indicating the current version of EmEditor. |
 
-## 版本
+## Methods
 
-支持 EmEditor 4.00 或之後的版本。
+|     |     |
+| --- | --- |
+| **[BatchFindInFiles](editor_batchfindinfiles)** | Searches multiple files for multiple strings. |
+| **[BatchReplaceInFiles](editor_batchreplaceinfiles)** | Replaces multiple strings in multiple files. |
+| **[Compare](compare)** | Compares two documents. |
+| **[GetUnicodeName](getunicodename)** | Retrieves the Unicode name of the specified character or string. |
+| **[ExecuteCommandByID](editor_executecommandbyid)** | Executes the command identified by an integer indicating the Command ID. |
+| **[ExecuteMacro](editor_executemacro)** | Executes the specified macro. |
+| **[ExecutePlugin](editor_executeplugin)** | Executes the specified plug-in. |
+| **[FileDialog](filedialog)** | Displays an Open or Save As dialog box that lets the user specify the drive, directory, and the name of a file to open. |
+| **[FindInFiles](editor_findinfiles)** | Searches multiple files for matching string. |
+| [**GetProfileInt**](getprofileint) | Retrieves the integer value for the specified entry from the Registry or an INI file depending on the EmEditor <br> settings. |
+| [**GetProfileString**](getprofilestring) | Retrieves the string value for the specified <br> entry from the Registry or an INI file depending on the EmEditor settings. |
+| [**Join**](join) | Combines two CSV documents specifying key columns, using a method similar to JOIN operations, and creates a new document. |
+| **[NewFile](editor_newfile)** | Creates a new file. |
+| **[OpenFile](editor_openfile)** | Opens an existing file. |
+| **[QueryStatusByID](editor_querystatusbyid)** | Retrieves the current status of the specified command, whether it is <br> enabled and checked. |
+| **[QueryStringByID](editor_querystringbyid)** | Retrieves the string associated with the specified command. |
+| **[RefreshCommonSettings](refresh_common_settings)** | Loads common settings and refreshes the EmEditor window. |
+| **[ReplaceInFiles](editor_replaceinfiles)** | Replaces text in multiple files. |
+| **[SaveAll](editor_saveall)** | Saves all currently open files. |
+| **[SaveCloseAll](editor_savecloseall)** | Saves and Closes all open files. |
+| [**WriteProfileInt**](writeprofileint) | Sets an integer value into the Registry or an INI <br> file depending on the EmEditor settings. |
+| [**WriteProfileString**](writeprofilestring) | Sets a string value into the Registry or an INI file depending on the <br> EmEditor settings. |
+
+## Version
+
+Supported on EmEditor Professional Version 4.00 or later.
 
 ```{toctree}
 :maxdepth: 1

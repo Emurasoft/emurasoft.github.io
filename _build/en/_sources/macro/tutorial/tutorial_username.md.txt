@@ -1,8 +1,8 @@
-# 獲取電腦使用者的名稱
+# Get the Name of a Computer User
 
-要獲取電腦使用者的名稱，用 WshNetwork 對象的 UserName 屬性。
+To get the name of a computer user, use the UserName Property of WshNetwork Object.
 
-下面的示例演示了如何獲取目前的電腦使用者的名稱:
+The following example demonstrates how to get the name of a current computer user:
 
 #### \[JavaScript (JScript)\]
 
@@ -16,6 +16,6 @@ Set WshNetwork = CreateObject( "WScript.Network" )
 
 alert "User Name = " & WshNetwork.UserName
 
-## 參考
+## References
 
 )

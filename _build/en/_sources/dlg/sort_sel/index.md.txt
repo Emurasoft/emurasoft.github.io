@@ -1,44 +1,45 @@
-# 「選區排序」對話方塊
+# Sort Selection dialog box
 
-這個對話方塊會出現，當你選擇 [**排序/刪除選區內重複的分割字串** 命令](../../cmd/sort/sort_sel) 時。
+This dialog box appears when the
+[**Sort/Remove Duplicate split strings in Selection** command](../../cmd/sort/sort_sel) is selected.
 
-### 「分隔符號」文字方塊
+### Separator text box
 
-在對選區進行排序時指定一個字串作為分隔符號。
+Specifies a string as a separator when sorting a selection.
 
-### 「自動偵測分隔符號」核取方塊
+### Detect separator automatically check box
 
-如果勾選了此選項，此對話方塊會偵測分隔符號，並更新 **分隔符號** 文字方塊。
+If this is checked, this dialog box detects the separator, and updates the **Separator** text box.
 
-### 「刪除重複的分割字串」核取方塊
+### Remove duplicate split strings check box
 
-如果勾選了此選項，EmEditor 會刪除重複的分割字串。
+If this is checked, EmEditor removes duplicate split strings.
 
-### 「排序分割字串」核取方塊
+### Sort split strings check box
 
-如果勾選了此選項，EmEditor 會按指定的排序條件排序分割字串。
+If this is checked, EmEditor sorts split strings with the specified sort condition.
 
-### 「如何排序」清單方塊
+### How to Sort list box
 
-顯示已定義排序條件的清單。
+Displays the list of defined sort conditions.
 
 |     |     |
 | --- | --- |
-| 按字母升序排序 | 在指定欄中按文字升序排序。 |
-| 按字母降序排序 | 在指定欄中按文字降序排序。 |
-| 按數字升序排序 | 在指定欄中按數字升序排序。 |
-| 按數字降序排序 | 在指定欄中按數字降序排序。 |
-| 按文字長度從短到長排序 | 在指定欄中按文字長度升序排序。 |
-| 按文字長度從長到短排序 | 在指定欄中按文字長度降序排序。 |
-| 按字數從少到多排序 | 在指定欄中按字數升序排序文字。 |
-| 按字數從多到少排序 | 在指定欄中按字數降序排序文字。 |
-| 按日期和時間從舊到新排序 | 把目前的列中的日期和時間按升序排序。 |
-| 按日期和時間從新到舊排序 | 把目前的列中的日期和時間按降序排序。 |
-| 按出現次數升序排序 | 把目前的欄中的出現次數按升序排序。 |
-| 按出現次數降序排序 | 把目前的欄中的出現次數按降序排序。 |
-| IPv4 位址升序排序 | 把目前的欄中的 IPv4 位址按升序排序。 |
-| IPv4 位址降序排序 | 把目前的欄中的 IPv4 位址按降序排序。 |
-| IPv6 位址升序排序 | 把目前的欄中的 IPv6 位址按升序排序。 |
-| IPv6 位址降序排序 | 把目前的欄中的 IPv6 位址按降序排序。 |
-| 隨機排序 | 隨機排序目前的欄。 |
-| 反向排序 | 以相反的順序對分割的字串進行排序。 |
+| Sort A to Z | Sorts split strings in ascending order. |
+| Sort Z to A | Sorts split strings in descending order. |
+| Sort Smallest to Largest | Sorts numbers in split strings in ascending order. |
+| Sort Largest to Smallest | Sorts numbers in split strings in descending order. |
+| Sort Shortest to Longest | Sorts split strings by length in ascending order. |
+| Sort Longest to Shortest | Sorts split strings by length in descending order. |
+| Sort Fewest to Most Words | Sorts split strings by the number of words in ascending order. |
+| Sort Most to Fewest Words | Sorts split strings by the number of words in descending order. |
+| Sort Date and Time Oldest to Newest | Sorts date and time in split strings in ascending order. |
+| Sort Date and Time Newest to Oldest | Sorts date and time in split strings in descending order. |
+| Sort by Occurrence Ascending | Sorts by occurrence in split strings, in ascending order. |
+| Sort by Occurrence Descending | Sorts by occurrence in split strings, in descending order. |
+| Sort IPv4 Addresses Ascending | Sorts IPv4 addresses in split strings, in ascending order. |
+| Sort IPv4 Addresses Descending | Sorts IPv4 addresses in split strings, in descending order. |
+| Sort IPv6 Addresses Ascending | Sorts IPv6 addresses in split strings, in ascending order. |
+| Sort IPv6 Addresses Descending | Sorts IPv6 addresses in split strings, in descending order. |
+| Sort Randomly | Sorts split strings randomly. |
+| Sort Reverse | Sorts split strings in reverse order. |

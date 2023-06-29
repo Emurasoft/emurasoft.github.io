@@ -1,6 +1,6 @@
 # EXEC\_PLUGIN\_INFO
 
-用於 [EE\_EXEC\_PLUGIN](../message/ee_exec_plugin) 消息。
+Used by [EE\_EXEC\_PLUGIN](../message/ee_exec_plugin) message.
 
 typedef struct \_EXEC\_PLUGIN\_INFO {
 
@@ -18,35 +18,35 @@ LONG\_PTR nResult;
 
 } EXEC\_PLUGIN\_INFO;
 
-## 字段
+## Fields
 
 _cbSize_
 
-> 指定該結構的大小，sizeof( EE\_PLUGIN\_INFO )。
+> Specifies the size of this structure, sizeof( EE\_PLUGIN\_INFO ).
 
 _nFlags_
 
-> 指定一個下列值的組合。eePluginExecuteCommand，eePluginUserMessage，和 eePluginQueryStatus 一定要專門指定。
+> Specifies a combination of the following values. eePluginExecuteCommand, eePluginUserMessage, and eePluginQueryStatus must be mutually exclusively specified.
 >
 > |     |     |
 > | --- | --- |
-> | PLUGIN\_FLAG\_EXEC\_COMMAND | 如同選擇外掛程式命令一樣運行外掛程式。如果指定該值，那么忽略 wParam 和 lParam 參數。 |
-> | PLUGIN\_FLAG\_USER\_MSG | 用 wParam 和 lParam 參數發送消息至外掛程式。 |
-> | PLUGIN\_FLAG\_QUERY\_STATUS | 檢索外掛程式狀態。如果指定該值，那么忽略 wParam 和 lParam 參數。 |
-> | PLUGIN\_FLAG\_ABSOLUTE\_PATH | pszName 包含檔案的完整路徑。如果不指定這個標志，外掛程式一定要在預設外掛程式資料夾中，即 EmEditor 安裝資料夾中的 PlugIns 子資料夾中。 |
+> | PLUGIN\_FLAG\_EXEC\_COMMAND | Runs the plug-in as if a user selected the plug-in command. The wParam and lParam parameters are ignored when this is specified. |
+> | PLUGIN\_FLAG\_USER\_MSG | Sends a message to the plug-in using the wParam and lParam parameters. |
+> | PLUGIN\_FLAG\_QUERY\_STATUS | Retrieves the plug-in status. The wParam and lParam parameters are ignored when this is specified. |
+> | PLUGIN\_FLAG\_ABSOLUTE\_PATH | The pszName contains the full path to the file. If this flag is not specified, the plug-in must exist in the default plug-in folder, which is PlugIns subfolder of the EmEditor install folder. |
 
 _pszName_
 
-> 指定外掛程式檔案名。
+> Specifies the plug-in file name.
 
 _wParam_
 
-> 指定第一個送至外掛程式的參數。參數的含義取決于外掛程式。
+> Specifies the first parameter to send to the plug-in. The meaning of the parameter depends on each plug-in.
 
 _lParam_
 
-> 指定第二個送至外掛程式的參數。參數的含義取決于外掛程式。
+> Specifies the second parameter to send to the plug-in. The meaning of the parameter depends on each plug-in.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional 15.5 或之後的版本。
+> Supported on EmEditor Professional Version 15.5 or later.

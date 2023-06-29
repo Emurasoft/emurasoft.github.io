@@ -1,26 +1,26 @@
-# 控制字元命令
+# Control Characters command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏控制字元。
+> Shows or hides control character marks.
 
-### 說明
+### Description
 
-> 顯示或隱藏控制字元。
+> Shows or hides control character marks.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **標記** \> **控制字元**
-- [全部命令](../tools/all_commands): **檢視** \> **標記** \> **控制字元**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** \> **Marks** \> **Control Characters**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Control Characters**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_VIEW\_CONTROL (4538)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

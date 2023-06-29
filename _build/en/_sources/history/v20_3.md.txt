@@ -1,35 +1,35 @@
 # Version 20.3
 
-2020年11月17日
+November 17, 2020
 
-## 一般新增功能
+## New General Features
 
-- 改進了檢測到新版本的 EmEditor 時的行為，以及整體更新體驗。當檢測到新版本時，將顯示工具提示在 EmEditor 視窗的右下角，為您顯示新版本號，並讓您能選擇立即安裝，或在退出時安裝新版本。 另外，在 **啟動視窗** 還添加了與 **更新檢查器** 相關的選項，該選項使您可以啟用/停用自動更新，立即安裝，或者選擇退出時安裝新版本。
-- 從安裝程式中刪除了 _emedshl.dll_ 和 _emedshl64.dll_ 檔案，並添加了與 Windows **檔案總管** 內容功能表相關的註冊表項和值。 這樣可以防止在以後的解除安裝/更新過程中出現 _「正在使用檔案」_ 消息方塊。
-- 預設安裝將不再創建桌面捷徑。您仍然可以通過選擇「自訂安裝」來創建桌面捷徑。
-- 將滑鼠停留在 HTML / XML 字元引用，通用字元名稱或百分比編碼的主動字串上時，在顯示的工具提示中添加了 **全部轉換** 和 **全部停用** 命令。
-- 提高了在大型檔案中包括使用 **顯示符合數** 選項的 **尋找**， **篩選**， **全部取代** 和 **比較** 在內的各種操作的速度。
+- Improved the behavior when a new version of EmEditor is detected, and improved the overall update experience. When a new version is detected, a tooltip appears in the right bottom corner of the EmEditor window, shows you a new version number, and allows you to install now, or select whether to install the new version on exit. Also added options related to the **Update Checker** to the **Start Window**, which allows you to enable/disable the automatic update, install now, or allows you to select whether to install the new version on exit.
+- Removed _emedshl.dll_ and _emedshl64.dll_ files from installers, and added Registry keys and values related to the Windows Explorer context menu. This will prevent the _Files in use_ message box from appearing during future uninstall/updates.
+- The desktop shortcut will not be created anymore by the default installation. You can still create the desktop shortcut by selecting the **Custom** install.
+- Added the **Convert All** and **Disable All** commands to a tooltip displayed when hovering over HTML/XML character references, universal character names, or percent-encoding active strings.
+- Improved the speed of various operations including **Find** with the **Count Matches** option, **Filter**, **Replace All**, and **Compare** in very large files.
 
-### 測試結果：
+### Test results:
 
-|  | v20.2.0 | v20.3.0 | 比較 |
+|  | v20.2.0 | v20.3.0 | Comparison |
 | --- | --- | --- | --- |
-| 尋找 "abc"，勾選 **顯示符合數** 選項 | 8.20 秒 | 2.32 秒 | 快 3.53倍 |
-| 用 "@@@" 取代 "abc" | 8.38 秒 | 2.87 秒 | 快 2.92倍 |
-| 篩選 "abc" | 9.41 秒 | 3.31 秒 | 快 2.84倍 |
-| 尋找 "\[a-c\]"，勾選 **規則運算式**（ **Onigmo**)）和 **顯示符合數** 選項 | 162 秒 | 50.7 秒 | 快 3.20 倍 |
-| 用 "@" 取代 "\[a-c\]"，勾選 **規則運算式**（ **Onigmo**)）選項 | 220 秒 | 64.2 秒 | 快 3.43 倍 |
+| Find "abc" with **Count Matches** option | 8.20 seconds | 2.32 seconds | 3.53 times faster |
+| Replace "abc" with "@@@" | 8.38 seconds | 2.87 seconds | 2.92 times faster |
+| Filter "abc" | 9.41 seconds | 3.31 seconds | 2.84 times faster |
+| Find "\[a-c\]" with **Regular Expressions** ( **Onigmo**) and **Count Matches** options | 162 seconds | 50.7 seconds | 3.20 times faster |
+| Replace "\[a-c\]" with "@" with **Regular Expressions** ( **Onigmo**) option | 220 seconds | 64.2 seconds | 3.43 times faster |
 
-10 GB，3億行，隨機ASCII數據，勾選「總是丟棄過長的復原信息來加速」選項，Windows 10（64位），Core i9-9900K，32GB RAM，2TB SSD。
+10 GB, 300 million lines, random ASCII data, discard undo information, Windows 10 (64-bit), Core i9-9900K, 32GB RAM, 2TB SSD.
 
-## 新增選項
+## New Options
 
-- 添加了 **循環** 核取方塊到 [**取代** 對話方塊](../dlg/replace/index) 中。
-- 添加了 **顯示更新檢查器** 和 **僅當新版本可用時** 核取方塊到 [自訂啟動視窗](../dlg/customize_start/index) 對話方塊中。
-- 添加了 **清除數字範圍選項** 核取方塊到 _「檢測到數字/ IP 地址範圍的格式錯誤」_ 消息方塊中。
-- 從組態屬性對話方塊中的 [**亮顯（2）** 頁面](../dlg/properties/highlight2/index) 上刪除了 **亮顯 HTML/XML 中的字元引用及通用字元名稱** 核取方塊。相似的選項現在包含在 [**連結** 頁面](../dlg/properties/link/index) 上的 **主動字串** 清單方塊中。
+- Added the **Wrap Around** check box to the [**Replace** dialog box](../dlg/replace/index).
+- Added the **Show Update Checker** and **Only when new versions available** check boxes to the [Customize Start Window](../dlg/customize_start/index) dialog box.
+- Added the **Clear the Number Range** option check box to the _An incorrect format of a number/IP address range was detected_ message box.
+- Removed the **Highlight HTML/XML Character Reference and UCN** check box from the [**Highlight (2)** page](../dlg/properties/highlight2/index) of configuration properties. The similar option had been included in the **Active String** list box of the [**Link** page](../dlg/properties/link/index).
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了一個可選的參數到 [**prompt** 方法](../macro/window/window_prompt) 中來允許多行文字方塊。
-- 添加了 **eeFindAround** 標志到 **Selection** 對象的 [**Replace** 方法](../macro/selection/selection_replace) 中。
+- Added an optional parameter to the [**prompt** method](../macro/window/window_prompt) to allow a multiline text box.
+- Added **eeFindAround** flag to the [**Replace** method](../macro/selection/selection_replace) of the **Selection** object.

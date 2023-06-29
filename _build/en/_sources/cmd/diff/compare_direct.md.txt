@@ -1,26 +1,26 @@
-# 比較命令
+# Compare command
 
-### 摘要
+### Summary
 
-> 不指定參數比較最后訪問的兩個文檔。
+> Compares the two most recently viewed documents without specifying options.
 
-### 說明
+### Description
 
-> 不指定參數，直接比較兩個最近訪問的文檔。EmEditor 將會出現提示如果兩個檔案的編碼不一致，但還是會繼續進行比較。
+> Compares the two most recently viewed documents without specifying options. EmEditor will prompt if the encodings of the two files are not the same, but will proceed with the comparison.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **比較** \> **直接比較**
-- [全部命令](../tools/all_commands): **比較** \> **比較**
-- 工具列:  ![](../../images/compare24x16.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Compare** \> **Compare Direct**
+- [All Commands](../tools/all_commands): **Compare** \> **Compare Direct**
+- Toolbar: ![](../../images/compare24x16.gif)
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_COMPARE\_DIRECT (4492)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

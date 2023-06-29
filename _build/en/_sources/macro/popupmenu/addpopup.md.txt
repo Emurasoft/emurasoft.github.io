@@ -1,6 +1,6 @@
-# AddPopup 方法
+# AddPopup Method
 
-添加一個新的子功能表到功能表末尾。
+Adds a new submenu to the end of the menu.
 
 #### \[JavaScript\]
 
@@ -10,16 +10,16 @@ popupmenu. **AddPopup**( _strText_, _submenu_);
 
 popupmenu. **AddPopup** _strText_, _submenu_
 
-## 參數
+## Parameters
 
 _strText_
 
-指定要顯示的文字。
+Specifies text to display.
 
 _submenu_
 
-指定一個分隔的 [PopupMenu 對象](index) 來作為一個新的子功能表顯示。
+Specifies a separate [PopupMenu Object](index) to display as a new submenu.
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

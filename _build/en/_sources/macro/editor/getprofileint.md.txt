@@ -1,6 +1,7 @@
-# GetProfileInt 方法
+# GetProfileInt Method
 
-按 EmEidtor 的設定，從注冊表或一個 INI 檔案上檢索指定項目的整數值。
+Retrieves the integer value for the specified entry from the Registry or an INI file depending on the EmEditor
+settings.
 
 #### \[JavaScript\]
 
@@ -10,11 +11,11 @@ _n_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _nDefault_ );
 
 _n_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _nDefault_ )
 
-## 參數
+## Parameters
 
 _nKey_
 
-用下列值之一來指定一個鍵值。eeRegConfig 和 eeRegEmEditorPlugin 需要 _pszConfig_ 參數來指定鍵值。
+Specifies one of the following values to specify a key. eeRegConfig and eeRegEmEditorPlugin require the _pszConfig_ parameter to specify the key.
 
 |     |     |
 | --- | --- |
@@ -35,16 +36,17 @@ _nKey_
 
 _strConfig_
 
-用一個額外的字符串來指定鍵值當 eeRegConfig，eeRegEmEditorPlugin，或 eeRegEmEditorUsers 被選擇時。
+Specifies an additional string to specify the key when eeRegConfig, eeRegEmEditorPlugin, or eeRegEmEditorUsers is selected.
 
 _strEntry_
 
-指定要被檢索的值的名稱。
+Specifies the name of the value to be retrieved.
 
 _nDefault_
 
-指定預設值假如沒有找到或不能檢索該值。
+Specifies the default value in case the value is not found or
+cannot be retrieved.
 
-## 版本
+## Version
 
-支持 EmEditor 8.00 或之後的版本。
+Supported on EmEditor Professional Version 8.00 or later.

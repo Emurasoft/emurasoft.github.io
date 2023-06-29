@@ -1,10 +1,11 @@
-# 取代一個字串
+# To Replace a String
 
-1. 選擇 **搜尋** 功能表下的 **取代**。
-2. 輸入要取代的文字字串以及要取代為的文字字串。
-3. 點擊 **取代下一個** 來取代下一個符合的文字字串。
+1. Select **Replace** on the **Search** menu.
+2. Enter the text string to be replaced and the text string to replace it with.
+3. Click **Replace Next** to replace the next occurrence of the text
+string.
 
-## 提示
+## Tips
 
-- 點擊 **符合大小寫** 來區分大寫和小寫。
-- 點擊 **取代全** 來取代所有符合的文字字串。
+- Check **Match Case** to differentiate between uppercase and lowercase.
+- Click **Replace All** to replace all the occurrences of the text string.

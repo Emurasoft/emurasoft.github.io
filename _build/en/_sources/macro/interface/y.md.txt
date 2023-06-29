@@ -1,6 +1,6 @@
-# y 屬性
+# y Property
 
-返回被一個支持的外掛程式所傳遞的游標的垂直位置。
+Returns the vertical position of the cursor passed by a supported plug-in.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _y_ = Interface. **y**;
 
 _y_ = Interface. **y**
 
-## 版本
+## Version
 
-支持 EmEditor 9.00 或之後的版本。
+Supported on EmEditor Professional Version 9.00 or later.

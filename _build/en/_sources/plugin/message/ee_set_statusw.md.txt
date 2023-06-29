@@ -1,6 +1,7 @@
 # EE\_SET\_STATUSW
 
-在狀態列上顯示一條 Unicode 消息。您能明確地發送該消息或用 [Editor\_SetStatusW](../macro/editor_setstatusw) 內嵌函式。
+Displays a Unicode message on the status bar. You can send this message
+explicitly or use the [Editor\_SetStatusW](../macro/editor_setstatusw) inline function.
 
 EE\_SET\_STATUSW
 
@@ -8,24 +9,24 @@ wParam = (WPARAM) (UINT) nFlags;
 
 lParam = (LPARAM) (LPCWSTR) szStatus;
 
-## 參數
+## Parameters
 
 _szStatus_
 
-> 指定要顯示在狀態列上的消息文本。
+> Specifies a message text to be displayed on the status bar.
 
 _nFlags_
 
-> 指定以下值的組合。
+> Specifies a combination of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | STATUS\_FLAG\_NONE | 用正常顏色顯示消息。 |
-> | STATUS\_FLAG\_MESSAGE | 用預設亮顯顏色顯示消息。 |
-> | STATUS\_FLAG\_WARNING | 用黃色顯示消息。 |
-> | STATUS\_FLAG\_ERROR | 用紅色顯示消息。 |
-> | STATUS\_FLAG\_ERASE\_SHORTLY | 幾秒鐘後顯示一條消息，然後將其刪除。 |
+> | STATUS\_FLAG\_NONE | Displays a message in a normal color. |
+> | STATUS\_FLAG\_MESSAGE | Displays a message in the default highlight color. |
+> | STATUS\_FLAG\_WARNING | Displays a message in yellow . |
+> | STATUS\_FLAG\_ERROR | Displays a message in red. |
+> | STATUS\_FLAG\_ERASE\_SHORTLY | Displays a message in a few weconds, and then erases it. |
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

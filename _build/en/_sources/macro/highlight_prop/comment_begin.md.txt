@@ -1,6 +1,8 @@
-# CommentBegin 屬性
+# CommentBegin Property
 
-與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「注釋」群組方塊 \- 「開始」** 文字方塊相對應。
+Corresponds to the **Comments**
+**group box - Begin** text box in the
+[**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +18,6 @@ object. **CommentBegin**
 
 object. **CommentBegin** = _str_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

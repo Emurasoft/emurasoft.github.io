@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Version 8 &#8212; EmEditor  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../_static/js/theme.js"></script>
+    <script src="../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="Index" href="../genindex.htm" />
+    <link rel="search" title="Search" href="../search.htm" />
+    <link rel="next" title="Version 9" href="v900.htm" />
+    <link rel="prev" title="Version 7.00" href="v700.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../index.htm" title="Go to homepage">EmEditor  documentation</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+                    English
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/history/v800">English</a>
+                <a href="/emeditor-help/ja/history/v800">日本語</a>
+                <a href="/emeditor-help/ko/history/v800">한국어</a>
+                <a href="/emeditor-help/zh-cn/history/v800">简体中文</a>
+                <a href="/emeditor-help/zh-tw/history/v800">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">Quick search</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../cmd/index.htm">Command Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dlg/index.htm">Dialog Boxes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.htm">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.htm">Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary/index.htm">Glossary</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.htm">History</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="v1000.htm">Version 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1100.htm">Version 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1200.htm">Version 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1300.htm">Version 13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1400.htm">Version 14</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_1.htm">Version 14.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_2.htm">Version 14.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_3.htm">Version 14.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_4.htm">Version 14.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_5.htm">Version 14.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_6.htm">Version 14.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_7.htm">Version 14.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_8.htm">Version 14.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_9.htm">Version 14.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_0.htm">Version 15.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_1.htm">Version 15.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_2.htm">Version 15.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_3.htm">Version 15.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_4.htm">Version 15.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_5.htm">Version 15.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_6.htm">Version 15.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_7.htm">Version 15.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_8.htm">Version 15.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_9.htm">Version 15.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_0.htm">Version 16.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_1.htm">Version 16.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_2.htm">Version 16.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_3.htm">Version 16.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_4.htm">Version 16.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_5.htm">Version 16.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_6.htm">Version 16.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_7.htm">Version 16.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_8.htm">Version 16.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_9.htm">Version 16.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_0.htm">Version 17.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_1.htm">Version 17.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_2.htm">Version 17.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_3.htm">Version 17.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_4.htm">Version 17.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_5.htm">Version 17.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_6.htm">Version 17.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_7.htm">Version 17.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_8.htm">Version 17.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_9.htm">Version 17.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_0.htm">Version 18.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_1.htm">Version 18.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_2.htm">Version 18.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_3.htm">Version 18.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_4.htm">Version 18.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_5.htm">Version 18.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_6.htm">Version 18.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_7.htm">Version 18.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_8.htm">Version 18.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_9.htm">Version 18.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_0.htm">Version 19.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_1.htm">Version 19.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_2.htm">Version 19.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_3.htm">Version 19.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_4.htm">Version 19.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_5.htm">Version 19.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_6.htm">Version 19.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_7.htm">Version 19.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_8.htm">Version 19.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_9.htm">Version 19.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_0.htm">Version 20.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_1.htm">Version 20.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_2.htm">Version 20.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_3.htm">Version 20.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_4.htm">Version 20.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_5.htm">Version 20.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_6.htm">Version 20.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_7.htm">Version 20.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_8.htm">Version 20.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_9.htm">Version 20.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_0.htm">Version 21.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_1.htm">Version 21.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_2.htm">Version 21.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_3.htm">Version 21.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_4.htm">Version 21.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_5.htm">Version 21.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_6.htm">Version 21.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_7.htm">Version 21.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_8.htm">Version 21.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_9.htm">Version 21.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_0.htm">Version 22.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_1.htm">Version 22.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_2.htm">Version 22.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_3.htm">Version 22.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_4.htm">Version 22.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v403.htm">Version 4.03</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v404.htm">Version 4.04</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v405.htm">Version 4.05</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v406.htm">Version 4.06</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v407.htm">Version 4.07</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v408.htm">Version 4.08</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v409.htm">Version 4.09</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v410.htm">Version 4.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v411.htm">Version 4.11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v412.htm">Version 4.12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v413.htm">Version 4.13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v500.htm">Version 5.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v600.htm">Version 6.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v700.htm">Version 7.00</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Version 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v900.htm">Version 9</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.htm">How to …</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../link/index.htm">Links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macro/index.htm">Macro Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notice/index.htm">Notices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plugin/index.htm">Plug-in Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../purchase/index.htm">How to Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support/index.htm">Support</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="index.htm">History</a> &lt;
+                Version 8
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="version-8">
+<h1>Version 8<a class="headerlink" href="#version-8" title="Permalink to this heading">¶</a></h1>
+<p>September 5, 2008</p>
+<section id="new-general-features">
+<h2>New General Features<a class="headerlink" href="#new-general-features" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li></li>
+</ul>
+</section>
+<section id="a-large-file-controller-is-now-displayed-when-a-very-large-file-is-opened-and-you-can-open-the-file-partially-with-the-specified-range">
+<h2>A
+Large File Controller is now displayed when a very large file is opened, and you can open the file partially with the specified range.<a class="headerlink" href="#a-large-file-controller-is-now-displayed-when-a-very-large-file-is-opened-and-you-can-open-the-file-partially-with-the-specified-range" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="vertical-selection-editing-is-now-possible-allows-you-to-insert-text-at-each-line-within-the-vertical-selection">
+<h2>Vertical selection editing is now possible (allows you to insert text at each line within the vertical selection).<a class="headerlink" href="#vertical-selection-editing-is-now-possible-allows-you-to-insert-text-at-each-line-within-the-vertical-selection" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="binary-ascii-view-and-binary-hexadecimal-view-were-added-to-available-encodings">
+<h2>Binary (ASCII View) and Binary (Hexadecimal View) were added to available encodings.<a class="headerlink" href="#binary-ascii-view-and-binary-hexadecimal-view-were-added-to-available-encodings" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="replace-all-can-now-be-accelerated-by-discarding-the-undo-information">
+<h2>Replace All can now be accelerated by discarding the Undo information.<a class="headerlink" href="#replace-all-can-now-be-accelerated-by-discarding-the-undo-information" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="the-function-bar-can-now-be-displayed-view-function-bar">
+<h2>The Function Bar can now be displayed (View &gt; Function Bar).<a class="headerlink" href="#the-function-bar-can-now-be-displayed-view-function-bar" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="speed-is-optimized-when-each-line-is-very-long">
+<h2>Speed is optimized when each line is very long.<a class="headerlink" href="#speed-is-optimized-when-each-line-is-very-long" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="marks-cr-lf-tab-space-eof-can-be-customized-tools-customize-marks">
+<h2>Marks (CR, LF, Tab, Space, EOF) can be customized (Tools &gt; Customize &gt; Marks).<a class="headerlink" href="#marks-cr-lf-tab-space-eof-can-be-customized-tools-customize-marks" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="extended-katakana-support-is-available">
+<h2>Extended Katakana support is available.<a class="headerlink" href="#extended-katakana-support-is-available" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="auto-panning-by-clicking-the-mouse-wheel">
+<h2>Auto-panning by clicking the mouse wheel.<a class="headerlink" href="#auto-panning-by-clicking-the-mouse-wheel" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="the-indent-guides-can-be-displayed-configuration-properties-marks-show-indent-guides">
+<h2>The Indent Guides can be displayed (Configuration Properties &gt; Marks &gt; Show Indent Guides).<a class="headerlink" href="#the-indent-guides-can-be-displayed-configuration-properties-marks-show-indent-guides" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="right-click-in-the-line-numbers-or-the-left-side-of-the-window-to-move-the-cursor-to-start-of-that-line">
+<h2>Right-click in the line numbers or the left side of the window to move the cursor to start of that line.<a class="headerlink" href="#right-click-in-the-line-numbers-or-the-left-side-of-the-window-to-move-the-cursor-to-start-of-that-line" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="tag-format-can-be-specified-with-regular-expressions-customize-edit-tag-format">
+<h2>Tag Format can be specified with regular expressions (Customize &gt; Edit &gt; Tag Format).<a class="headerlink" href="#tag-format-can-be-specified-with-regular-expressions-customize-edit-tag-format" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="drag-and-drop-editing-can-be-disabled-customize-edit-enable-text-drag-and-drop">
+<h2>Drag and drop editing can be disabled (Customize &gt; Edit &gt; Enable Text Drag and Drop).<a class="headerlink" href="#drag-and-drop-editing-can-be-disabled-customize-edit-enable-text-drag-and-drop" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="temporary-folders-can-be-specified-customize-advanced-use-system-temporary-folder">
+<h2>Temporary folders can be specified (Customize &gt; Advanced &gt; Use System Temporary Folder).<a class="headerlink" href="#temporary-folders-can-be-specified-customize-advanced-use-system-temporary-folder" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="the-keyboard-map-window-can-be-sorted-by-clicking-each-column">
+<h2>The Keyboard Map window can be sorted by clicking each column.<a class="headerlink" href="#the-keyboard-map-window-can-be-sorted-by-clicking-each-column" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="ini-files-can-be-imported-to-the-registry-import-and-export-wizard-import-personal-ini-files-to-the-registry">
+<h2>INI files can be imported to the Registry (Import and Export Wizard &gt; Import Personal INI files to the Registry).<a class="headerlink" href="#ini-files-can-be-imported-to-the-registry-import-and-export-wizard-import-personal-ini-files-to-the-registry" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="the-copy-command-now-copies-the-entire-current-line-when-no-text-is-selected-the-old-behavior-can-be-also-selected-by-using-the-copy-selection-command">
+<h2>The <strong>Copy</strong> command now copies the entire current line when no text is selected. The old behavior can be also selected by using the <strong>Copy Selection</strong> command.<a class="headerlink" href="#the-copy-command-now-copies-the-entire-current-line-when-no-text-is-selected-the-old-behavior-can-be-also-selected-by-using-the-copy-selection-command" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="the-cut-command-now-cuts-the-entire-current-line-when-no-text-is-selected-the-old-behavior-can-be-also-selected-by-using-the-cut-selection-command">
+<h2>The <strong>Cut</strong> command now cuts the entire current line when no text is selected. The old behavior can be also selected by using the <strong>Cut Selection</strong> command.<a class="headerlink" href="#the-cut-command-now-cuts-the-entire-current-line-when-no-text-is-selected-the-old-behavior-can-be-also-selected-by-using-the-cut-selection-command" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="a-new-dialog-appears-when-invalid-characters-are-contained-in-the-opening-file">
+<h2>A new dialog appears when invalid characters are contained in the opening file.<a class="headerlink" href="#a-new-dialog-appears-when-invalid-characters-are-contained-in-the-opening-file" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="a-new-dialog-appears-when-the-document-contains-characters-which-will-be-lost-if-saved-as-selected-encoding-for-saving">
+<h2>A new dialog appears when the document contains characters which will be lost if saved as selected encoding for saving.<a class="headerlink" href="#a-new-dialog-appears-when-the-document-contains-characters-which-will-be-lost-if-saved-as-selected-encoding-for-saving" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="find-in-files-results-can-be-redirected-in-the-output-bar-find-in-files-use-output-bar">
+<h2>Find in Files results can be redirected in the Output Bar (Find in Files &gt; Use Output Bar).<a class="headerlink" href="#find-in-files-results-can-be-redirected-in-the-output-bar-find-in-files-use-output-bar" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="the-new-jump-next-and-jump-previous-commands-can-be-used-to-jump-between-results-in-the-output-bar">
+<h2>The new <strong>Jump Next</strong> and <strong>Jump Previous</strong> commands can be used to jump between results in the Output bar.<a class="headerlink" href="#the-new-jump-next-and-jump-previous-commands-can-be-used-to-jump-between-results-in-the-output-bar" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="mouse-wheel-with-ctrl-increases-or-decreases-the-font-size">
+<h2>Mouse wheel with CTRL increases or decreases the font size.<a class="headerlink" href="#mouse-wheel-with-ctrl-increases-or-decreases-the-font-size" title="Permalink to this heading">¶</a></h2>
+<p>Mouse wheel with Right-click moves to next or previous document.</p>
+</section>
+<section id="new-plug-in-features">
+<h2>New plug-in features<a class="headerlink" href="#new-plug-in-features" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>The <strong>Projects</strong> plug-in was improved with solution templates, the toolbar, the parameter information tooltip, etc. It also allows you to open Visual Studio solution files as read-only.</p></li>
+<li><p>The <strong>Word Complete</strong> plug-in can now complete recently searched strings.</p></li>
+</ul>
+</section>
+<section id="new-options">
+<h2>New options<a class="headerlink" href="#new-options" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Search All Open Documents</strong> check box in the <a class="reference internal" href="../dlg/replace/index.htm"><span class="doc std std-doc"><strong>Replace</strong> dialog box</span></a>.</p></li>
+<li><p><strong>Dotted Lines</strong> check box
+in the
+<a class="reference internal" href="../dlg/properties/scroll/index.htm"><span class="doc std std-doc"><strong>Scroll</strong> page</span></a> of Configuration
+Properties.</p></li>
+<li><p><strong>Show</strong>
+<strong>Indent Guides</strong> check box in the
+<a class="reference internal" href="../dlg/properties/marks/index.htm"><span class="doc std std-doc"><strong>Marks</strong> page</span></a> of Configuration
+Properties.</p></li>
+<li><p><strong>Newline Character</strong> check box in the <a class="reference internal" href="../dlg/customize/status/index.htm"><span class="doc std std-doc"><strong>Status</strong> page</span></a> of the Customize dialog box.</p></li>
+<li><p><a class="reference internal" href="../dlg/customize/edit/index.htm"><span class="doc std std-doc"><strong>Edit</strong> page</span></a> in the <a class="reference internal" href="../dlg/customize/index.htm"><span class="doc std std-doc"><strong>Customize</strong> dialog box</span></a>.</p></li>
+<li><p><strong>Use System Temporary Folder</strong> check box and <strong>Temporary Folder</strong> text box in the
+<a class="reference internal" href="../dlg/customize/advanced/index.htm"><span class="doc std std-doc"><strong>Advanced</strong> page</span></a> of the Customize dialog box.</p></li>
+<li><p><a class="reference internal" href="../dlg/customize/marks/index.htm"><span class="doc std std-doc"><strong>Marks</strong> page</span></a> in the
+<a class="reference internal" href="../dlg/customize/index.htm"><span class="doc std std-doc"><strong>Customize</strong> dialog box</span></a>.</p></li>
+<li><p><strong>Set Cursor Position when Activated with Mouse</strong> check box in the <a class="reference internal" href="../dlg/customize/window/index.htm"><span class="doc std std-doc"><strong>Window</strong> page</span></a> of the Customize dialog box.</p></li>
+<li><p><strong>Display Macro Titles in Basic Toolbar</strong> check box in the <a class="reference internal" href="../dlg/toolbars/index.htm"><span class="doc std std-doc"><strong>Toolbars</strong> dialog box</span></a>.</p></li>
+<li><p><strong>File Dropped</strong> event was added to the
+<strong>Select Events</strong> list box of the <a class="reference internal" href="../dlg/macro_customize/my_macros/select_events/index.htm"><span class="doc std std-doc"><strong>Select Events</strong> dialog box</span></a>.</p></li>
+<li><p><strong>Use Output Bar</strong> check box in the <a class="reference internal" href="../dlg/find_in_files/index.htm"><span class="doc std std-doc"><strong>Find in Files</strong> dialog Box</span></a>.</p></li>
+</ul>
+</section>
+<section id="new-commands">
+<h2>New commands<a class="headerlink" href="#new-commands" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../cmd/file/file_reload_binary.htm"><span class="doc std std-doc"><strong>Reload as Binary (ASCII View)</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/file/file_reload_hex.htm"><span class="doc std std-doc"><strong>Reload as Binary (Hex View)</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/file/file_save_binary.htm"><span class="doc std std-doc"><strong>Save as Binary (ASCII View)</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/file/file_save_hex.htm"><span class="doc std std-doc"><strong>Save as Binary (Hex View)</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/file/erase_workspace.htm"><span class="doc std std-doc"><strong>Erase Workspace</strong></span></a></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/edit_cut_sel.htm"><span class="doc std std-doc">Cut Selection</span></a></strong></p></li>
+<li><p><a class="reference internal" href="../cmd/edit/edit_copy_sel.htm"><span class="doc std std-doc"><strong>Copy Selection</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/edit/select_logical_line.htm"><span class="doc std std-doc"><strong>Select Logical Line</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/edit/jump_next.htm"><span class="doc std std-doc"><strong>Jump Next</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/edit/jump_prev.htm"><span class="doc std std-doc"><strong>Jump Previous</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/edit/outline_level.htm"><span class="doc std std-doc"><strong>Level 2 - 16</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/search/replace_next.htm"><span class="doc std std-doc"><strong>Replace Next</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/search/retrieve_replace_text.htm"><span class="doc std std-doc"><strong>Set Word to Replace</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/view/view_function_bar.htm"><span class="doc std std-doc"><strong>Toggle Function Bar</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/view/large_file_bar.htm"><span class="doc std std-doc"><strong>Toggle Large File Controller</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/tools/customize_edit.htm"><span class="doc std std-doc"><strong>Customize Edit</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/tools/customize_marks.htm"><span class="doc std std-doc"><strong>Customize Marks</strong></span></a></p></li>
+<li><p><a class="reference internal" href="../cmd/tools/terminate_tool.htm"><span class="doc std std-doc"><strong>Terminate Tool Job</strong></span></a></p></li>
+</ul>
+</section>
+<section id="macros-new-features">
+<h2>Macros new features<a class="headerlink" href="#macros-new-features" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../macro/editor/getprofileint.htm"><span class="doc std std-doc"><strong>GetProfileInt</strong></span></a>
+method, <a class="reference internal" href="../macro/editor/getprofilestring.htm"><span class="doc std std-doc"><strong>GetProfileString</strong></span></a> method,
+<a class="reference internal" href="../macro/editor/writeprofileint.htm"><span class="doc std std-doc"><strong>WriteProfileInt</strong></span></a>
+method, <a class="reference internal" href="../macro/editor/writeprofilestring.htm"><span class="doc std std-doc"><strong>WriteProfileString</strong></span></a> method, and
+<strong><a class="reference internal" href="../macro/editor/filedialog.htm"><span class="doc std std-doc">FileDialog</span></a></strong> method
+were added to the <a class="reference internal" href="../macro/editor/index.htm"><span class="doc std std-doc"><strong>Editor</strong> Object</span></a>.</p></li>
+<li><p><a class="reference internal" href="../macro/dropped_files/index.htm"><span class="doc std std-doc"><strong>DroppedFiles</strong> Collection</span></a>
+was added.</p></li>
+<li><p><a class="reference internal" href="../macro/window/droppedfiles.htm"><span class="doc std std-doc"><strong>DroppedFiles</strong></span></a> property, <a class="reference internal" href="../macro/window/exstyle.htm"><span class="doc std std-doc"><strong>ExStyle</strong></span></a>
+property, and <a class="reference internal" href="../macro/window/style.htm"><span class="doc std std-doc"><strong>Style</strong></span></a>
+property were added to the <a class="reference internal" href="../macro/window/index.htm"><span class="doc std std-doc"><strong>Window</strong> Object</span></a>.</p></li>
+<li><p><strong>DottedLine</strong>
+property added to the <a class="reference internal" href="../macro/scroll_prop/index.htm"><span class="doc std std-doc"><strong>ScrollProp</strong> Object</span></a>.</p></li>
+<li><p><a class="reference internal" href="../macro/mark_prop/show_indent_guides.htm"><span class="doc std std-doc"><strong>ShowIndentGuides</strong></span></a> property added to the
+<a class="reference internal" href="../macro/mark_prop/index.htm"><span class="doc std std-doc"><strong>MarkProp</strong> Object</span></a>.</p></li>
+</ul>
+</section>
+<section id="plug-in-api-new-features">
+<h2>Plug-in API new features<a class="headerlink" href="#plug-in-api-new-features" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../plugin/plugin_message/ep_use_dropped_files.htm"><span class="doc std std-doc">EP_USE_DROPPED_FILES</span></a> was added to the
+<a class="reference internal" href="../plugin/plugin_message/index.htm"><span class="doc std std-doc">Messages to Plug-ins</span></a>.</p></li>
+<li><p><a class="reference internal" href="../plugin/message/ee_get_dropped_file.htm"><span class="doc std std-doc">EE_GET_DROPPED_FILE</span></a>
+message was added.</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_getdroppedfile.htm"><span class="doc std std-doc">Editor_GetDroppedFile</span></a>
+inline function was added.</p></li>
+<li><p>EI_USE_INI and EI_GET_LANGUAGE parameters were added to
+the
+<a class="reference internal" href="../plugin/message/ee_info.htm"><span class="doc std std-doc">EE_INFO</span></a> message,
+<a class="reference internal" href="../plugin/macro/editor_info.htm"><span class="doc std std-doc">Editor_Info</span></a> inline function, and
+<a class="reference internal" href="../plugin/macro/editor_docinfo.htm"><span class="doc std std-doc">Editor_DocInfo</span></a> inline
+function.</p></li>
+<li><p>EVENT_DROPPED, EVENT_LANGUAGE, and EVENT_SAVING were added to the
+<a class="reference internal" href="../plugin/event/index.htm"><span class="doc std std-doc">Events</span></a>.</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">Version 8</a><ul>
+<li><a class="reference internal" href="#new-general-features">New General Features</a></li>
+<li><a class="reference internal" href="#a-large-file-controller-is-now-displayed-when-a-very-large-file-is-opened-and-you-can-open-the-file-partially-with-the-specified-range">A
+Large File Controller is now displayed when a very large file is opened, and you can open the file partially with the specified range.</a></li>
+<li><a class="reference internal" href="#vertical-selection-editing-is-now-possible-allows-you-to-insert-text-at-each-line-within-the-vertical-selection">Vertical selection editing is now possible (allows you to insert text at each line within the vertical selection).</a></li>
+<li><a class="reference internal" href="#binary-ascii-view-and-binary-hexadecimal-view-were-added-to-available-encodings">Binary (ASCII View) and Binary (Hexadecimal View) were added to available encodings.</a></li>
+<li><a class="reference internal" href="#replace-all-can-now-be-accelerated-by-discarding-the-undo-information">Replace All can now be accelerated by discarding the Undo information.</a></li>
+<li><a class="reference internal" href="#the-function-bar-can-now-be-displayed-view-function-bar">The Function Bar can now be displayed (View &gt; Function Bar).</a></li>
+<li><a class="reference internal" href="#speed-is-optimized-when-each-line-is-very-long">Speed is optimized when each line is very long.</a></li>
+<li><a class="reference internal" href="#marks-cr-lf-tab-space-eof-can-be-customized-tools-customize-marks">Marks (CR, LF, Tab, Space, EOF) can be customized (Tools &gt; Customize &gt; Marks).</a></li>
+<li><a class="reference internal" href="#extended-katakana-support-is-available">Extended Katakana support is available.</a></li>
+<li><a class="reference internal" href="#auto-panning-by-clicking-the-mouse-wheel">Auto-panning by clicking the mouse wheel.</a></li>
+<li><a class="reference internal" href="#the-indent-guides-can-be-displayed-configuration-properties-marks-show-indent-guides">The Indent Guides can be displayed (Configuration Properties &gt; Marks &gt; Show Indent Guides).</a></li>
+<li><a class="reference internal" href="#right-click-in-the-line-numbers-or-the-left-side-of-the-window-to-move-the-cursor-to-start-of-that-line">Right-click in the line numbers or the left side of the window to move the cursor to start of that line.</a></li>
+<li><a class="reference internal" href="#tag-format-can-be-specified-with-regular-expressions-customize-edit-tag-format">Tag Format can be specified with regular expressions (Customize &gt; Edit &gt; Tag Format).</a></li>
+<li><a class="reference internal" href="#drag-and-drop-editing-can-be-disabled-customize-edit-enable-text-drag-and-drop">Drag and drop editing can be disabled (Customize &gt; Edit &gt; Enable Text Drag and Drop).</a></li>
+<li><a class="reference internal" href="#temporary-folders-can-be-specified-customize-advanced-use-system-temporary-folder">Temporary folders can be specified (Customize &gt; Advanced &gt; Use System Temporary Folder).</a></li>
+<li><a class="reference internal" href="#the-keyboard-map-window-can-be-sorted-by-clicking-each-column">The Keyboard Map window can be sorted by clicking each column.</a></li>
+<li><a class="reference internal" href="#ini-files-can-be-imported-to-the-registry-import-and-export-wizard-import-personal-ini-files-to-the-registry">INI files can be imported to the Registry (Import and Export Wizard &gt; Import Personal INI files to the Registry).</a></li>
+<li><a class="reference internal" href="#the-copy-command-now-copies-the-entire-current-line-when-no-text-is-selected-the-old-behavior-can-be-also-selected-by-using-the-copy-selection-command">The <strong>Copy</strong> command now copies the entire current line when no text is selected. The old behavior can be also selected by using the <strong>Copy Selection</strong> command.</a></li>
+<li><a class="reference internal" href="#the-cut-command-now-cuts-the-entire-current-line-when-no-text-is-selected-the-old-behavior-can-be-also-selected-by-using-the-cut-selection-command">The <strong>Cut</strong> command now cuts the entire current line when no text is selected. The old behavior can be also selected by using the <strong>Cut Selection</strong> command.</a></li>
+<li><a class="reference internal" href="#a-new-dialog-appears-when-invalid-characters-are-contained-in-the-opening-file">A new dialog appears when invalid characters are contained in the opening file.</a></li>
+<li><a class="reference internal" href="#a-new-dialog-appears-when-the-document-contains-characters-which-will-be-lost-if-saved-as-selected-encoding-for-saving">A new dialog appears when the document contains characters which will be lost if saved as selected encoding for saving.</a></li>
+<li><a class="reference internal" href="#find-in-files-results-can-be-redirected-in-the-output-bar-find-in-files-use-output-bar">Find in Files results can be redirected in the Output Bar (Find in Files &gt; Use Output Bar).</a></li>
+<li><a class="reference internal" href="#the-new-jump-next-and-jump-previous-commands-can-be-used-to-jump-between-results-in-the-output-bar">The new <strong>Jump Next</strong> and <strong>Jump Previous</strong> commands can be used to jump between results in the Output bar.</a></li>
+<li><a class="reference internal" href="#mouse-wheel-with-ctrl-increases-or-decreases-the-font-size">Mouse wheel with CTRL increases or decreases the font size.</a></li>
+<li><a class="reference internal" href="#new-plug-in-features">New plug-in features</a></li>
+<li><a class="reference internal" href="#new-options">New options</a></li>
+<li><a class="reference internal" href="#new-commands">New commands</a></li>
+<li><a class="reference internal" href="#macros-new-features">Macros new features</a></li>
+<li><a class="reference internal" href="#plug-in-api-new-features">Plug-in API new features</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

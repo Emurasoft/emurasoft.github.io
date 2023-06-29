@@ -1,6 +1,7 @@
 # EE\_SORT
 
-排序文檔。你可以明確地發送該消息或用 [Editor\_Sort](../macro/editor_sort) 內嵌函式。
+Sorts the document. You can send this message explicitly or use
+the [Editor\_Sort](../macro/editor_sort) inline function.
 
 EE\_SORT
 
@@ -8,16 +9,16 @@ wParam = 0;
 
 lParam = (LPARAM) (SORT\_INFO\*) pSortInfo;
 
-## 參數
+## Parameters
 
 _pSortInfo_
 
-> 指向 [SORT\_INFO](../structure/sort_info) 結構。
+> Pointer to the [SORT\_INFO](../structure/sort_info) structure.
 
-## 返回值
+## Return Value
 
-> 返回 HRESULT 值。0 或正值表示成功，負值表示失敗。
+> Returns the HRESULT value. A zero or positive value means success while a negative value means failure.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional Version 16.4 或之後的版本。
+> Supported on EmEditor Professional Version 16.4 or later.

@@ -1,6 +1,6 @@
-# Reset 方法
+# Reset Method
 
-將集合重設為預設值。
+Resets the collection to default.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ list. **Reset**();
 
 list. **Reset**
 
-## 版本
+## Version
 
-支持 EmEditor 19.4 或之後的版本。
+Supported on EmEditor Professional Version 19.4 or later.

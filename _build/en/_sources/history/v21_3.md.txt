@@ -1,44 +1,44 @@
 # Version 21.3
 
-2021年11月24日
+November 24, 2021
 
-## 一般新增功能
+## New General Features
 
-- **免費版** 支持 **超大檔案**（以前，只有 **專業版** 支持超大檔案）。
-- 新版本允許日期/時間範圍和格式用於 **尋找**/ **取代**/ **篩選** 的 **[數字範圍運算式](../howto/search/number_range_syntax)** 中。例如， **\[ 2021/10/28 , 2021/12/31 "yyyy/M/d" \]** 表示 2021 年 10 月 28 日和 2021 年 12 月 31日之間的所有日期。如果省略日期格式，則預設日期格式源自 **自訂** 對話方塊的 **排序** 頁面中指定的區域設定。
-- 重新設計了 **輸入數字範圍** 對話方塊，新版本允許您對數字範圍使用任意小數點。例如， **( 1,0 , 9,0 "," )** 表示 1 到 9 之間所有的用逗號作為小數點的十進位數字。
-- 新版本允許您將視窗分割為 **3 個窗格**。選擇 **水平分割** 或 **垂直分割** 命令兩次，將視窗分割為 3 個窗格。
-- 新版本允許在組態屬性的 **鍵盤** 頁面中分配 **ENTER** 鍵。這讓您可以將 **ENTER** 鍵分配給 [**下一儲存格**（僅限儲存格選擇模式）](../cmd/edit/csv_next_cell) 命令。
-- 當檢索 **Windows 剪貼簿歷史記錄** 需要很長時間時，添加了通知提示。
-- 將簡體中文的對話方塊字型設定為 **微軟雅黑**，9點，繁體中文的對話方塊字型設定為 **微軟正黑**，9點。
-- 新版本在啟用 **分割時同步水平/垂直捲動** 選項時會同步游標和捲軸位置。
-- 當您顯示 **自訂巨集** 的 **我的巨集** 頁面時，如果 **我的巨集** 清單中含有不存在的檔案名，新版本會顯示一個對話方塊。
-- 提高了 **編輯** 功能表上 **編碼/解碼所選內容** 子功能表中所有命令、 **刪除開頭空格**、 **刪除尾端空格** 以及 **在欄中篩選** 命令的速度。
+- **Very large file** support on the **Free** version (previously, only the **Professional** version supported very large files).
+- The new version allows date/time range and format in **[Number Range Expressions](../howto/search/number_range_syntax)** for **Find**/ **Replace**/ **Filter**. For instance, **\[ 10/28/2021 , 12/31/2021 "M/d/yyyy" \]** means all dates between 10/28/2021 and 12/31/2021. If a date format is omitted, the default date format is derived from the locale specified in the **Sort** page of the **Customize** dialog box.
+- Redesigned the **Enter Number Range** dialog box, and the new version allows you to use any decimal point for a number range. For instance, **( 1,0 , 9,0 "," )** means all decimal numbers between 1 and 9 using a comma as the decimal point.
+- The new version allows you to split a window to **3 panes**. Select the **Split Horizontally** or **Split Vertically** commands twice to split a window into 3 panes.
+- The new version allows the **ENTER** key to be assigned in the **Keyboard** page of configuration properties. This allows you to assign the **ENTER** key as the [**Next Cell** (Cell Selection Mode Only)](../cmd/edit/csv_next_cell) command.
+- Added a notification when it takes a long time to retrieve the **Windows Clipboard History**.
+- Set the dialog box font to **Microsoft YaHei**, 9 point for Simplified Chinese, and **Microsoft JhengHei**, 9 point for Traditional Chinese.
+- The new version synchronizes the cursor position as well as the scroll position when the **Synchronize Horizontal/Vertical Scrolling when Split** option is on.
+- The new version shows a dialog box to remove nonexistent file names from the **My Macros** list if any when you show the **My Macros** page of the **Customize Macros** dialog box.
+- Improved the speed of commands in the **Encode/Decode Selection** submenu on the **Edit** menu, **Remove Leading Spaces**, **Remove Trailing Spaces**, and **Filter in Column** commands.
 
-### 測試結果
+### Test results:
 
-|  | v21.2 | v21.3 | 比較 |
+|  | v21.2 | v21.3 | Comparison |
 | --- | --- | --- | --- |
-| 將百分號編碼字元轉為 Unicode\*1 | 73.8 秒 | 7.16 秒 | 快 10.3 倍 |
-| 將 Unicode 轉為百分號編碼字元\*1 | 95.6 秒 | 10.3 秒 | 快 9.28 倍 |
-| 刪除開頭空格\*1 | 9.25 秒 | 3.19 秒 | 快 2.90 倍 |
-| 刪除尾端空格\*1 | 12.1 秒 | 3.19 秒 | 快 3.79 倍 |
-| 在欄中篩選\*2 | 1.13 秒 | 0.297 秒 | 快 3.80 倍 |
+| Percent-encoding to Unicode\*1 | 73.8 seconds | 7.16 seconds | 10.3 times faster |
+| Unicode to Percent-encoding\*1 | 95.6 seconds | 10.3 seconds | 9.28 times faster |
+| Remove Leading Spaces\*1 | 9.25 seconds | 3.19 seconds | 2.90 times faster |
+| Remove Trailing Spaces\*1 | 12.1 seconds | 3.19 seconds | 3.79 times faster |
+| Filter in Column\*2 | 1.13 seconds | 0.297 seconds | 3.80 times faster |
 
-\*1 1.34 GB，1 億行，隨機 ASCII 數據。
+\*1 1.34 GB, 100 million lines, random ASCII data.
 
-\*2 1.99 GB，1590 萬行，隨機 CSV 數據。
+\*2 1.99 GB, 15.9 million lines, random CSV data.
 
-所有測試：預設選項，除了勾選「總是丟棄冗長的復原信息以加速」；測試系統：16 個執行緒，Windows 11，Core i9-11900K，64GB 記憶體，2TB SSD。
+All: Default options except Always Discard Lengthy Undo Information to Accelerate on, 16 threads, Windows 11, Core i9-11900K, 64GB RAM, 2TB SSD.
 
-## 新增選項
+## New Options
 
-- 添加了 **添加 EmEditor 圖示到內容功能表中** 到 **自訂** 對話方塊的 [**捷徑** 頁面](../dlg/customize/shortcut/index) 上。
-- 在 **自訂** 對話方塊的 [**視窗** 頁面](../dlg/customize/window/index) 中添加了 **對話方塊字型大小** 滑桿。
+- Added the **Add an EmEditor icon to the Context menu** to the [**Shortcut** page](../dlg/customize/shortcut/index) of the **Customize** dialog box.
+- Added the **Dialog box font size** slider to the [**Window** page](../dlg/customize/window/index) of the **Customize** dialog box.
 
-## 新增命令
+## New Commands
 
-- [**下一個儲存格**（儲存格選擇模式）](../cmd/edit/csv_next_cell)
-- [**上一個儲存格**（儲存格選擇模式）](../cmd/edit/csv_prev_cell)
-- [**上方儲存格**（儲存格選擇模式）](../cmd/edit/csv_up)
-- [**下方儲存格**（儲存格選擇模式）](../cmd/edit/csv_down)
+- [**Next Cell** (Cell Selection Mode Only)](../cmd/edit/csv_next_cell)
+- [**Previous Cell** (Cell Selection Mode Only)](../cmd/edit/csv_prev_cell)
+- [**Cell Above** (Cell Selection Mode Only)](../cmd/edit/csv_up)
+- [**Cell Below** (Cell Selection Mode Only)](../cmd/edit/csv_down)

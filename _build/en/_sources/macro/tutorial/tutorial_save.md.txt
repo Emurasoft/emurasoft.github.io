@@ -1,15 +1,22 @@
-# 儲存巨集
+# Save Macro
 
-要儲存一個巨集，請選擇 [**儲存巨集** 命令](../../cmd/macros/macro_save)，EmEditor 會顯示一個 **另存新檔** 對話方塊。EmEditor 的預設資料夾是 **我的文檔** 資料夾下的 **我的巨集** 資料夾。要更改預設資料夾，請選擇 [**自訂巨集** 命令](../../cmd/macros/customize_macro)，然后在 **自訂巨集** 對話方塊上的 [**選項** 頁面](../../dlg/macro_customize/options/index) 上變更資料夾。
+To save a macro, select the [**Save Macro** command](../../cmd/macros/macro_save). The **Save As** dialog box should appear. EmEditor defaults to the My Macrosfolder under the My Documents folder. To change the default folder,
+select the **[Customize Macros](../../cmd/macros/customize_macro)** [command](../../cmd/macros/customize_macro) **,** then go to the [**Options**\
+page](../../dlg/macro_customize/options/index) in the
+[**Customize Macros** dialog box](../../dlg/macro_customize/index).
 
-在儲存時，您能在快顯的對話方塊上的 **儲存類型** 下拉清單方塊中選擇 JavaScript 或 VBScript。
+You can select either JavaScript or VBScript from the
+**Save as type** drop-down list box
+in the lower part of the dialog box.
 
-現在給巨集檔案命名。讓我們把這個教程檔案儲存為:
+Now give the macro file a name. Let's save our tutorial file as:
 
 "tutorial"
 
-注意: 當您儲存檔案時，您不需要指定一個副檔名。適當的檔案副檔名會根據檔案被儲存為的指令碼語言而自動追加。
+Note: you do not need to specify an extension when you save the file. An
+appropriate file extension will be appended automatically depending on what
+scripting language the file was saved as.
 
-點擊 **「儲存」** 用我們指定的名字儲存該巨集。
+Click **Save** to save the macro under the name we've specified.
 
-## 下一主題:
+## Next Topic:

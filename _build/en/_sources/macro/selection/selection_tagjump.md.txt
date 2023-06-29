@@ -1,6 +1,6 @@
-# TagJump 方法
+# TagJump Method
 
-跳轉到游標所在的標籤。
+Jumps to a tag at the cursor.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document.selection. **TagJump**();
 
 document.selection. **TagJump**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

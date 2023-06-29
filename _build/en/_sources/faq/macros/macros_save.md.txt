@@ -1,3 +1,4 @@
-# Q. 我能把多個巨集保存到檔案中嗎？
+# Q. Can I save multiple macros to files?
 
-可以，您能通過「保存巨集」命令把已錄制的巨集保存到檔案中。
+Yes. You can save multiple macros to files by using the
+[**Save Macro** command](../../cmd/macros/macro_save).

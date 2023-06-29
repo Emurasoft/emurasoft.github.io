@@ -1,6 +1,8 @@
-# MemorySize 屬性
+#### [Editor Home](https://www.emeditor.com/) - [EmEditor Help](../../index) \- [EmEditor Macro Reference](../index) \- [Document Object](index)
 
-檢索或設置文檔的每個大塊的最大記憶體大小。可以在 **自訂** 對話方塊的 [**進階** 頁面](../../dlg/customize/advanced/index) 上的 **記憶體大小** 文字方塊中指定預設值。 屬性獲取（n = document.MemorySize）總會成功，但設置（document.MemorySize = n）可能會拋出例外，如果文檔已經使用比指定大小更大的記憶體大小。
+# MemorySize Property
+
+Retrieves or sets the maximum memory size per large chunk for the document. The default value can be specified in the **Memory Size** text box in the [**Advanced** page](../../dlg/customize/advanced/index) of the **Customize** dialog box. The property getter (n = document.MemorySize) always succeeds, however the setter (document.MemorySize = n) may throw an exception if the document is already using a higher memory size than the specified size.
 
 #### \[JavaScript\]
 
@@ -14,6 +16,6 @@ _n_ = document. **MemorySize**
 
 document. **MemorySize** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor v17.8 或之後的版本。
+Supported on EmEditor Professional Version 17.8 or later.

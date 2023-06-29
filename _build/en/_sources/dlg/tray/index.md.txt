@@ -1,35 +1,42 @@
-# 「自訂系統匣圖示」對話方塊
+# Customize Tray Icon dialog box
 
-這個對話方塊會顯示當 [**自訂系統匣圖示** 命令](../../cmd/tools/customize_tray) 被選取時。
+This dialog box appears when the
+[**Customize Tray Icon** command](../../cmd/tools/customize_tray) is selected.
 
-### 「單擊游標左鍵」下拉清單方塊
+### Left Mouse Button Click drop-down list box
 
-指定一個動作當在系統匣圖示上點擊游標左鍵。
+Specify an action when the left mouse button is clicked on the tray icon.
 
-### 「單擊游標右鍵」下拉清單方塊
+### Right Mouse Button Click drop-down list box
 
-指定一個動作當在系統匣圖示上點擊游標左鍵。
+Specify an action when the right mouse button is clicked on the tray icon.
 
-### 「單擊游標中鍵」下拉清單方塊
+### Middle Mouse Button Click drop-down list box
 
-指定一個動作當在系統匣圖示上點擊游標左鍵。
+Specify an action when the middle mouse button is clicked on the tray
+icon.
 
-### 「雙擊游標左鍵」下拉清單方塊
+### Left Mouse Button Double-Click drop-down list box
 
-指定一個動作當在系統匣圖示上雙擊游標左鍵。
+Specify an action when the left mouse button is double-clicked on the tray
+icon.
 
-### 「模擬游標左鍵的快速鍵」文字方塊
+### Shortcut Key to Simulate Left Mouse Button text box
 
-為游標左鍵指定快速鍵。例如，如果您輸入 N，ALT + CTRL + N 會被指定為快速鍵。
+Specifies the shortcut key for the left mouse button. For instance, if you enter N, ALT + CTRL + N can be specified as the shortcut key.
 
-### 「使用 EmEditor 抓取文字的快速鍵」文字方塊
+### Shortcut Key to Grab Text with EmEditor text box
 
-指定打開一個有焦點編輯方塊內容的 EmEditor 視窗，并且原來編輯方塊中的內容會被 EmEditor 中的內容所取代當關閉 EmEditor 視窗時。例如，如果您輸入 X，ALT + CTRL + X 會被指定為快速鍵。
+Specifies the shortcut key to launch an EmEditor window with the contents of
+the focused edit box, and the original edit box will be filled with the EmEditor
+contents when the EmEditor window closes. For instance, if you
+enter X, ALT + CTRL + X can be specified as the shortcut key.
 
-### 「自訂功能表」按鈕
+### Customize Menu button
 
-顯示 [**自訂功能表** 對話方塊](../menus/index) 來自訂功能表。
+Displays the [**Customize**\
+**Menus** dialog box](../menus/index) to customize menus.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

@@ -1,6 +1,6 @@
-# Item 屬性
+# Item Property
 
-為指定索引檢索 [HighlightItem 對象](../highlight_item/index)。
+Retrieves the [HighlightItem object](../highlight_item/index) for the specified index.
 
 #### \[JavaScript\]
 
@@ -12,12 +12,12 @@ list. **Item**( _Index_ );
 _item_ =
 list. **Item**( _Index_ )
 
-## 參數
+## Parameters
 
 _Index_
 
-指定項目的索引為以 1 為基準的整數。
+Specifies the index of the item as a one-based integer.
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

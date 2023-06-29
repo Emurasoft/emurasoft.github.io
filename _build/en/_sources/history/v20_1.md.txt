@@ -1,44 +1,44 @@
 # Version 20.1
 
-2020年9月1日
+September 1, 2020
 
-## 一般新增功能
+## New General Features
 
-- 添加了可變更與每種 CSV 格式相關的引號標記的功能。添加了 [**Concordance 加載檔案 (DAT)** 格式](https://help.ediscoveryplatform.com/home/technical-notes-available/tiff-image-dat-load-file) 到預設的 CSV 格式清單中。
-- 把新檔案的編碼設為 **UTF-8 不帶 Unicode 簽名**，並且在Text（文字）組態下，預設啟用 **優先選擇 UTF-8** 選項。預設情況下，US-ASCII 檔案將以不帶簽名的 UTF-8 格式打開。
-- 改善了 [命令列 **/l** 和 **/cl** 選項](../howto/file/file_commandline)，允許用負數指定從最後一行開始的行數，或從最後一行開始的字元數。
-- 新版本預設將剪貼簿歷史記錄中選取的一個字串移動到歷史記錄中的最新位置，並將目前的剪貼簿中的內容取代為該字串。
-- 添加了 **開始篩選** 和 **結束篩選** 選項到進階篩選對話方塊中，讓你能把多行設定為要篩選的行。
-- 在跳轉對話方塊中添加了能夠指定 **檔案位置** 的跳轉目的地。變更 **檔案位置** 將在確認跳轉之前自動更新 **跳轉** 對話方塊中的 **行** 和 **列**,反之亦然。
-- 在 64 位版本中，ee128.exe，ee256.exe 和 ee512.exe 現在重新構建為 DLL（ee128.dll，ee256.dll 和 ee512.dll）。在 32 位中，ee128.dll 已添加到安裝中。
-- 添加了 EECommon.dll 檔案到安裝中。
-- 更新了 **Sum** 巨集，以便能夠對 CSV 文檔中選取儲存格中的數字求和。
-- 提高了打開超大檔案的速度。
+- Added an ability to change the quotation mark associated with each CSV format. Added the [**Concordance load file (DAT)** format](https://help.ediscoveryplatform.com/home/technical-notes-available/tiff-image-dat-load-file) to the default CSV format list.
+- Sets the encoding for new files as **UTF-8 without a Unicode Signature**, and sets the **Prefer UTF-8** option on by default for **Text** configurations. By default, US-ASCII files will be opened as UTF-8 without Signature.
+- Enhanced [command line **/l** and **/cl** options](../howto/file/file_commandline) to allow negative numbers to specify the number of lines from the last line, or number of characters from the end of line.
+- The new version moves a selected string in the clipboard history to the newest position in the history by default, and replaces the current Clipboard with the selected string.
+- Added the **Begin Filter** and **End Filter** options to the Advanced Filter feature to allow you to set only a range of lines as filtered lines.
+- Added an ability to specify the **file position** in the Jump dialog box to specify the jump destination. Changing the **File Position** will update the **Line** and **Column** in the **Jump** dialog box before you confirm the jump, and vice versa.
+- In 64-bit, ee128.exe, ee256.exe, and ee512.exe are now rebuilt as DLL (ee128.dll, ee256.dll, and ee512.dll). In 32-bit, ee128.dll was added to the install.
+- Added EECommon.dll file to the install.
+- Updated the **Sum** macro to be able to sum numbers in selected cells in CSV documents.
+- Improved the speed of opening very large files by multi-threading.
 
-### 測試結果：
+### Test results:
 
-|  | v20.0 | v20.1 | 比較 |
+|  | v20.0 | v20.1 | Comparison |
 | --- | --- | --- | --- |
-| 打開一個大檔案 （第一次） | 15.3 秒 | 5.97 秒 | 快 2.56 倍 |
-| 打開一個大檔案 （第二次） | 3.58 秒 | 0.781 秒 | 快 4.58 倍 |
+| Open a large file (first time) | 15.3 seconds | 5.97 seconds | 2.56 times faster |
+| Open a large file (second time) | 3.58 seconds | 0.781 seconds | 4.58 times faster |
 
-\\* 2.70 GB，200,000,000 行，ASCII 隨機數據檔案。測試系統：16 執行緒，Windows 10 (64-bit)，Core i9-9900K，32GB RAM，2TB SSD。 _第一次_ 和 _第二次_ 指在重啟 Windows 後第一次和第二次打開檔案。由於 [Windows 快取機制](https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/subsystem/cache-memory-management/)，第二次通常比第一次更快。EmEditor 不會留下任何臨時檔案來提高打開檔案的速度。
+\\* 2.70 GB, 200,000,000 lines, ASCII random data file. 16 threads, Windows 10 (64-bit), Core i9-9900K, 32GB RAM, 2TB SSD. The _First time_ and _second time_ mean that the first time and second time opening of the file after restarting Windows. The second time is usually faster than the first time because of the [Windows cache mechanism](https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/subsystem/cache-memory-management/). EmEditor does NOT leave any temporary files to increase the speed of opening files.
 
-## 新增選項
+## New Options
 
-- 添加了 **聯繫新的水平/垂直群組** 核取方塊到 **自訂** 對話方塊的 [**視窗** 頁面](../dlg/customize/window/index) 上。
-- 添加了 **引號標記** 文字方塊到 **自訂** 對話方塊的 [**CSV** 頁面](../dlg/customize/csv/index) 上。
-- 添加了 **開始篩選** 和 **結束篩選** 核取方塊到 [**進階篩選** 對話方塊](../dlg/advanced_filter/index) 中。
-- 添加了 **檔案位置** 文字方塊到 [**跳轉** 對話方塊](../dlg/jump/index) 中。
-- 添加了 **將最近使用的字串移動到剪貼簿歷史記錄的頂部** 核取方塊到 **自訂** 對話方塊中的 [**編輯** 頁面](../dlg/customize/edit/index) 上。
+- Added the **Bond new horizontal/vertical groups** check box to the [**Window** page](../dlg/customize/window/index) of the **Customize** dialog box.
+- Added the **Quotation Mark** text box to the [**CSV** page](../dlg/customize/csv/index) of the **Customize** dialog box.
+- Added the **Begin Filter** and **End Filter** check boxes to the [**Advanced Filter** dialog box](../dlg/advanced_filter/index).
+- Added the **File Position** text box to the [**Jump** dialog box](../dlg/jump/index).
+- Added the **Move recently used string to top in the Clipboard History** check box to the [**Edit** page](../dlg/customize/edit/index) of the **Customize** dialog box.
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 **CI\_MOVE\_CLIP** 動作到 [**CLIP\_INFO** 結構](../plugin/structure/clip_info) 中。
-- 添加了 **FLAG\_FILTER\_BEGIN** 和 **FLAG\_FILTER\_END** 標志到 [**FILTER\_INFO\_EX**](../plugin/structure/filter_info_ex) 結構中。
-- 添加了 **EI\_FILE\_POS\_TO\_LOGICAL**， **EI\_LOGICAL\_TO\_FILE\_POS**， **EI\_CELL\_TO\_LOGICAL**，和 **EI\_LOGICAL\_TO\_CELL** 命令到 [**EE\_INFO**](../plugin/message/ee_info) 消息中。
+- Added the **CI\_MOVE\_CLIP** action to the [**CLIP\_INFO** structure](../plugin/structure/clip_info).
+- Added the **FLAG\_FILTER\_BEGIN** and **FLAG\_FILTER\_END** flags to the [**FILTER\_INFO\_EX**](../plugin/structure/filter_info_ex) structure.
+- Added the **EI\_FILE\_POS\_TO\_LOGICAL**, **EI\_LOGICAL\_TO\_FILE\_POS**, **EI\_CELL\_TO\_LOGICAL**, and **EI\_LOGICAL\_TO\_CELL** commands to the [**EE\_INFO**](../plugin/message/ee_info) message.
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 [**QuotationMark** 屬性](../macro/csv/quotation_mark) 到 **Csv** 對象中。
-- 添加了 **eeExFilterBegin** 和 **eeExFilterEnd** 標志到 **Document** 對象的 [**Filter** 方法](../macro/document/filter) 中。
+- Added the [**QuotationMark** property](../macro/csv/quotation_mark) to the **Csv** object.
+- Added the **eeExFilterBegin** and **eeExFilterEnd** flags to the [**Filter** method](../macro/document/filter) of the **Document** object.

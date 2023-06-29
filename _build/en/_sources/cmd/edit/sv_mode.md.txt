@@ -1,31 +1,31 @@
-# CSV (多個項目) 命令
+# CSV (multiple items) command
 
-### 摘要
+### Summary
 
-> 把文檔顯示為指定的分隔值模式 (多個項目)。
+> Shows the document as the specified separated value mode (multiple items).
 
-### 說明
+### Description
 
-> 把文檔顯示為指定的分隔值模式。
+> Shows the document as the specified separated value mode.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **CSV** \> **(CSV 格式)**
-- [全部命令](../tools/all_commands): **編輯** \> **CSV** \> **(CSV 格式)**
-- 工具列: ![](../../images/csv_mode.gif) \+ (CSV 格式) (CSV 工具列)
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **CSV** \> **(CSV)**
+- [All Commands](../tools/all_commands): **CSV** \> **(CSV)**
+- Toolbar: ![](../../images/csv_mode.gif) (CSV)
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
-- 從 EEID\_SV\_MODE 到 EEID\_SV\_MODE + 63 (從 22528 到 22528 + 63)
+- From EEID\_SV\_MODE through EEID\_SV\_MODE + 63 (from 22528 through 22528 + 63)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
-> editor.ExecuteCommandByID(22528 + i); //i 是一個從 0 到 63 的整數
+> editor.ExecuteCommandByID(22528 + i); //i is an integer from 0 through 63
 
 #### \[VBScript\]
 
-> editor.ExecuteCommandByID 22528 + i 'i 是一個從 0 到 63 的整數
+> editor.ExecuteCommandByID 22528 + i 'i is an integer from 0 through 63

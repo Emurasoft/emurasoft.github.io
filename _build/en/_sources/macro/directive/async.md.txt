@@ -1,21 +1,21 @@
-# \#async 指示詞
+# \#async directive
 
-指定巨集是否應以非同步方式（作為單獨的執行緒）運行。該指示詞必須在主程式碼上方，腳本的第一行中指定。
+Specifies whether the macro should be run asynchronously (as a separate thread). This directive must be specified at the first lines of the script above the main code.
 
 #async = "off" (or "on")
 
-## 參數
+## Parameters
 
 "off" (or "on")
 
-> 如果指定 "off"，將不會以非同步方式運行巨集。否則將以非同步方式運行該巨集。預設值取決於巨集的運行方式。如果巨集在指定事件中運行，則預設為 "off"。如果巨集是通過程式碼片段外掛程式執行，則會始終同步運行該巨集。除此之外，在 **自訂巨集** 對話方塊中的 [**選項** 頁面](../../dlg/macro_customize/options/index) 中指定預設值。
+> The macro will be not run asynchronously if "off" is specified, otherwise it will be run asynchronously. The default depends on the way a macro is run. If a macro is run at a specified event, the default is off. If a macro specified by the Snippets plug-in, the macro is always run synchronously. Otherwise, the default is specified in the [**Options** page](../../dlg/macro_customize/options/index) of the **Customize Macros** dialog box.
 
-## 範例
+## Examples
 
-不用非同步方式運行巨集。
+Do not run the macro asynchronously.
 
 #async = "off"
 
-## 版本
+## Version
 
-支持 EmEditor Professional 20.8 或之後的版本。
+Supported on EmEditor Professional Version 20.8.

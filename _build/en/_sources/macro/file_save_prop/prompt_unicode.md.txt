@@ -1,6 +1,7 @@
-# PromptUnicode 屬性
+# PromptUnicode Property
 
-與 [**儲存詳細信息** 對話方塊](../../dlg/properties/file/save_details/index) 中的 **當儲存 Unicode 為 ANSI 時進行提示** 核取方塊相對應。
+Corresponds to the **Prompt**
+**when Saving Unicode as ANSI** check box in the [**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ object. **PromptUnicode**
 
 object. **PromptUnicode** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

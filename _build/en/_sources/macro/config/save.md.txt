@@ -1,6 +1,6 @@
-# Save 方法
+# Save Method
 
-儲存目前的組態。
+Saves the configuration.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,12 @@ object. **Save**( \[ _strName_ \] );
 
 object. **Save** \[ _strName_ \]
 
-## 參數
+## Parameters
 
 _strName_
 
-可選。指定要儲存的組態名稱。如果省略，名稱將不會更改。
+Optional. Specifies the name of the configuration to be saved. If omitted, the name will not be changed.
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,27 +1,28 @@
-# 循環 (搜尋工具列) 命令
+# Wrap Around (Find toolbar) command
 
-### 摘要
+### Summary
 
-> 切換工具列上「循環」按鈕的狀態。
+> Toggles the Wrap Around button on the Find toolbar.
 
-### 說明
+### Description
 
-> 切換工具列上「循環」按鈕的狀態。切換此命令後，用 **尋找下一個** 或 **尋找上一個** 期間到達文檔的結尾或開頭處時，EmEditor 將移動到文檔的開頭或結尾處以繼續搜尋。
+> Toggles the Wrap Around button on the Find toolbar. When this command is toggled, EmEditor will move to the beginning or end of the document to continue searching when the end
+> or beginning of the document is reached during a **Find Next** or **Find Previous** command.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜尋**
-\> **搜尋工具列** \> **循環**
-- 工具列: ![](../../images/find_around.png) (搜尋工具列)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Wrap Around**
+- Toolbar: ![](../../images/find_around.png) (Find toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FINDBAR\_AROUND (4577)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

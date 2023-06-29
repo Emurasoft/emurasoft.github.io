@@ -1,27 +1,30 @@
-# 當前組態屬性命令
+# Properties for Current Configuration command
 
-### 摘要
+### Summary
 
-> 更改目前的選定組態的屬性。
+> Changes properties for currently selected configuration.
 
-### 說明
+### Description
 
-> 為目前的組態顯示 **[組態屬性](../../dlg/properties/index)** 對話方塊。在這個功能表中，您可以為目前的組態設置不同的參數。
+> Displays the **[Configuration \**
+> **Properties](../../dlg/properties/index)** dialog box for the current configuration. Within this
+> menu, you can set
+> various options for the current configuration.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **工具** \> **當前組態屬性**
-- [所有命令](all_commands): **工具** >
-**當前組態屬性** \> **屬性**
-- 工具列: ![](../../images/properties.gif)
-- 狀態列: 無
-- 預設捷徑: ALT+ENTER
+- Default Menu: **Tools** \> **Properties for Current Configuration**
+- [All Commands](all_commands): **Tools** >
+**Properties for Current Configuration** \> **Properties**
+- Toolbar: ![](../../images/properties.gif)
+- Status Bar: None
+- Default Shortcut Key: ALT+ENTER
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE (4219)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

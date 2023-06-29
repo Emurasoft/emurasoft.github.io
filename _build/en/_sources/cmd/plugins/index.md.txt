@@ -1,6 +1,6 @@
-# 外掛程式類別
+# Plug-ins category
 
 |     |     |
 | --- | --- |
-| **[外掛程式清單](../tools/plug_in1)** | 運行一個指定的外掛程式 (多個項目) 。 |
-| **[自訂外掛程式](../tools/customize_plug_ins)** | 自訂外掛程式。 |
+| **[Plug-ins List](../tools/plug_in1)** | Runs a specified plug-in (multiple items). |
+| **[Customize Plug-ins](../tools/customize_plug_ins)** | Customizes plug-ins. |

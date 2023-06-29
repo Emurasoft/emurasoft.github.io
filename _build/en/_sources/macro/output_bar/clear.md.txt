@@ -1,6 +1,6 @@
-# Clear 方法
+# Clear Method
 
-清除輸出列的內容。
+Clears the contents of the output bar.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ OutputBar. **Clear**();
 
 OutputBar. **Clear**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

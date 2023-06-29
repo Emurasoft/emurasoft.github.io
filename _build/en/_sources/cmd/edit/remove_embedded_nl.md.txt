@@ -1,26 +1,28 @@
-# 在 CSV 中刪除內嵌新行命令
+# Remove Embedded Newlines in CSV command
 
-### 摘要
+### Summary
 
-> 在 CSV 文檔中刪除內嵌新行。
+> Removes embedded newlines in CSV documents.
 
-### 說明
+### Description
 
-> 在 CSV 文檔中刪除內嵌新行。
+> Removes embedded newlines in CSV documents.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **CSV** \> **進階** \> **刪除內嵌新行**
-- [全部命令](../tools/all_commands): **CSV** \> **進階** \> **刪除內嵌新行**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **CSV** \> **Advanced** \>
+**Remove Embedded Newlines**
+- [All Commands](../tools/all_commands): **CSV** \> **Advanced** \>
+**Remove Embedded Newlines**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_REMOVE\_EMBEDDED\_NL (3922)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

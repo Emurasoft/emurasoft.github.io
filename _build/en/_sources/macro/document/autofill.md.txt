@@ -1,6 +1,6 @@
-# AutoFill 方法
+# AutoFill Method
 
-對 CSV 文檔執行自動填滿或快速填入操作。
+Performs the AutoFill or Flash Fill action on the CSV document.
 
 #### \[JavaScript\]
 
@@ -10,68 +10,74 @@ _nResults_ = document. **AutoFill**( _xSrcCellStart_, _ySrcCellStart_, _xSrcCell
 
 _nResults_ = document. **AutoFill**( _xSrcCellStart_, _ySrcCellStart_, _xSrcCellEnd_, _ySrcCellEnd_, _xDestCellStart_, _yDestCellStart_, _xDestCellEnd_, _yDestCellEnd_, _nFlags_, _nIncrement_ )
 
-## 參數
+## Parameters
 
 _xSrcCellStart_
 
-指定源儲存格起始位置的欄號。
+Specifies the column number of the starting position of the source cells.
 
 _ySrcCellStart_
 
-指定源儲存格起始位置的行號。
+Specifies the line number of the starting position of the source cells.
 
 _xSrcCellEnd_
 
-指定源儲存格結束位置的欄號。
+Specifies the column number of the ending position of the source cells.
 
 _ySrcCellEnd_
 
-指定源儲存格結束位置的行號。
+Specifies the line number of the ending position of the source cells.
 
 _xDestCellStart_
 
-指定目標儲存格起始位置的欄號。
+Specifies the column number of the starting position of the destination cells.
 
 _yDestCellStart_
 
-指定目標儲存格起始位置的行號。
+Specifies the line number of the starting position of the destination cells.
 
 _xDestCellEnd_
 
-指定目標儲存格結束位置的欄號。
+Specifies the column number of the ending position of the destination cells.
 
 _yDestCellEnd_
 
-指定目標儲存格結束位置的行號。
+Specifies the line number of the ending position of the destination cells.
 
 _nFlags_
 
-指定一個下列值的組合。如果省略，將會自動指定 **eeFillDefault**。
+Specifies a combination of the following values. If omitted, **eeFillDefault** will be specified.
 
 |     |     |
 | --- | --- |
-| eeFillDefault | EmEditor 決定填充到目標儲存格的值。 |
-| eeFillCopy | 將源範圍中的值複製到目標範圍，必要時重複。 |
-| eeFillSeries | 將源範圍中的值作為一數列延伸到目標範圍。 |
-| eeFlashFill | 執行快速填入操作，即根據檢測到的模式將源範圍內的值延伸到目標範圍。該標志僅適用於垂直方向。 |
-| eeFillDontOverwrite | 自動填滿操作不會覆寫目標範圍中的現有儲存格。不能與 eeFlashFill 結合使用。 |
-| eeFillRepeat | 自動填滿操作將在非空儲存格上重複顯示新的值。不能與 eeFlashFill 結合使用。 |
+| eeFillDefault | EmEditor determines the values to fill the destination cells. |
+| eeFillCopy | Copies the values from the source range to the target range, repeating if necessary. |
+| eeFillSeries | Extends the values in the source range into the target range as a series. |
+| eeFlashFill | Performs the Flash Fill action, i.e. extends the values from the source range into the target range based on the detected pattern. This flag is valid only for the vertical direction. |
+| eeFillDontOverwrite | The AutoFill action will not overwrite the existing cells in the target range. Cannot combine with eeFlashFill. |
+| eeFillRepeat | The AutoFill action will be repeated with the new value on a non-empty cell. Cannot combine with eeFlashFill. |
 
 _nIncrement_
 
-如果源範圍只指定了一個儲存格，並且 **eeFillSeries** 被指定為 _nFlags_ 的參數，那么可以在這指定數列的增量數。如果省略，將指定 1。
+Specifies the number of increment for a series if only one cell is specified for the source range and if **eeFillSeries** is specified for the _nFlags_ parameter. If omitted, 1 will be specified.
 
-## 返回值
+## Return Values
 
-返回值為 0 意味著沒有錯誤。返回值為 1 意味著消息無法檢測到模式以完成自動填滿或快速填入操作。
+The return value can be a combination of the following values if the method succeeds. The return value of 0 means the method couldn't detect the pattern to complete the AutoFill or Flash Fill action. A negative value means the message failed.
 
-## 範例
+|     |     |
+| --- | --- |
+| eeFillDefault | Copies the values from the source range to the target range, repeating if necessary. |
+| eeFillSeries | Extends the values in the source range into the target range as a series. |
+| eeFlashFill | Performs the Flash Fill action, i.e. extends the values from the source range into the target range based on the detected pattern. This flag is valid only for the vertical direction. |
+
+## Examples
 
 #### \[JavaScript\]
 
 nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries \| eeFillDontOverwrite );
 
-if( nResults == 0 ) {
+if( nResults >= 0 ) {
 
 alert( "Success" );
 
@@ -81,12 +87,12 @@ alert( "Success" );
 
 nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries \| eeFillDontOverwrite );
 
-If nResults == 0 Then
+If nResults >= 0 Then
 
 alert "Success"
 
 End If
 
-## 版本
+## Version
 
-支持 EmEditor 17.5 或之後的版本。
+Supported on EmEditor Professional Version 17.5 or later.

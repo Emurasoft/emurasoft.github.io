@@ -1,6 +1,6 @@
-# Run 方法
+# Run Method
 
-在新進程中運行程式。
+Runs a program in a new process.
 
 #### \[JavaScript\]
 
@@ -10,37 +10,37 @@ nReturnCode = shell. **Run**( _strCommand_, _nWindowStyle_, _bWaitOnReturn_, _st
 
 nReturnCode = shell. **Run**( _strCommand_, _nWindowStyle_, _bWaitOnReturn_, _strParameter_, _strFolder_ )
 
-## 參數
+## Parameters
 
 _strCommand_
 
-指定命令。通常，這是程式檔案的完整路徑和名稱。
+Specifies a command. Usually, this is a full path and name of the program file.
 
 _nWindowStyle_
 
-指定一個整數值，指示程式視窗的外觀。該參數可以省略。此參數可以是以下值之一。
+Specifies an integer value indicating the appearance of the program's window. This parameter can be omitted. This parameter can be one of the following value.
 
 |     |     |
 | --- | --- |
-| 值 | 描述 |
-| 1 | 激活並顯示一個視窗。如果視窗被最小化或最大化，系統會將其恢復到原來的大小和位置。 |
-| 2 | 激活視窗並將其顯示為最小化視窗。 |
-| 3 | 激活視窗並將其顯示為最大化視窗。 |
-| 4 | 以最近的大小和位置顯示視窗。活動視窗保持活動狀態。 |
+| Value | Description |
+| 1 | Activates and displays a window. If the window is minimized or maximized, the system restores it to its original size and position. |
+| 2 | Activates the window and displays it as a minimized window. |
+| 3 | Activates the window and displays it as a maximized window. |
+| 4 | Displays a window in its most recent size and position. The active window remains active. |
 
 _bWaitOnReturn_
 
-指定一個布林值（'true' 或 'false'），指示腳本是否應等待程式完成執行後再繼續執行腳本中的下一條語句。該參數可以省略。
+Specifies a boolean value indicating whether the script should wait for the program to finish executing before continuing to the next statement in your script. This parameter can be omitted.
 
 _strParameter_
 
-指定要作為命令列的參數。該參數可以省略。
+Specifies a parameter you want to pass as the command line. This parameter can be omitted.
 
 _strFolder_
 
-指定初始目錄。該參數可以省略。
+Specifies an initial directory. This parameter can be omitted.
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -50,10 +50,10 @@ nAttr = shell.Run( "C:\\\Windows\\\calc.exe", 1 );
 
 nAttr = shell.Run( "C:\\Test\\file.txt" )
 
-## 返回值
+## Return Value
 
-如果 _bWaitOnReturn_ 為 true，則返回程式的傳回代碼。如果 _bWaitOnReturn_ 為 false，則不使用返回值。
+Returns a return code of the program if _bWaitOnReturn_ is true. The return value is not used if _bWaitOnReturn_ is false.
 
-## 版本
+## Version
 
-支持 EmEditor Professional 22.1 或之後的版本。
+Supported on EmEditor Professional Version 22.1 or later.

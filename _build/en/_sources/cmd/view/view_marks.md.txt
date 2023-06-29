@@ -1,27 +1,29 @@
-# 標記命令
+# Marks command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏換行符、檔案結尾或 Tab標記。
+> Toggles newline characters, EOF and tab marks.
 
-### 說明
+### Description
 
-> 顯示或隱藏換行符、檔案結尾或 Tab標記。這些標記可以在 **[組態屬性](../../dlg/properties/index)** 對話方塊 [**標記** 頁面](../../dlg/properties/marks/index) 上被單獨設置。
+> Toggles newline characters, EOF and tab marks. These marks can be set independently
+> on the [**Marks** page](../../dlg/properties/marks/index) of
+> the **[Configuration Properties](../../dlg/properties/index)** dialog box.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** >
-**標記** \> **標記 (換行， 檔案結尾或 Tab和 Tab)**
-- 工具列: ![](../../images/marks.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** >
+**Marks** \> **Marks (Returns, EOF and Tabs)**
+- Toolbar: ![](../../images/marks.gif)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_VIEW\_MARKS (4370)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

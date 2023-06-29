@@ -1,6 +1,6 @@
-# Activate 方法
+# Activate Method
 
-激活文檔。
+Activates the document.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document. **Activate**();
 
 document. **Activate**
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

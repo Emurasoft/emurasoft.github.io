@@ -1,26 +1,29 @@
-# 新增并貼上命令
+# New and Paste command
 
-### 摘要
+### Summary
 
-> 創建一個新的文件并插入剪貼簿中的內容。
+> Creates a new file and inserts the contents of the Clipboard.
 
-### 說明
+### Description
 
-> 這個命令等同于 [**新增文字** 命令](file_new) 加 [**貼上** 命令](../edit/edit_paste)。在預設設置下，新增的文件會使用文字 (Text) 組態。您可以到 [**定義組態** 對話方塊](../../dlg/configurations/index) 中更改這預設組態。
+> This command is equivalent to the [**New Text** \
+> command](file_new) followed by the [**Paste** \
+> command](../edit/edit_paste). By default, the new file will use the Text configuration. You can change the default configuration in the
+> [**Define Configurations** dialog box](../../dlg/configurations/index).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **新增** \> **新增并貼上**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **New** \> **New and Paste**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILE\_NEW\_PASTE (4123)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

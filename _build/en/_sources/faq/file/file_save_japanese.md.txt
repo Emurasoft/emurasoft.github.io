@@ -1,11 +1,23 @@
-# Q. 怎么能把一段中文 (或日文、韓文等) 的 Word 文檔貼上到 EmEditor 上并把它儲存為一個文字檔案呢？
+# Q. How can I paste Japanese (or Korean, Chinese, etc.) Word documents into EmEditor and save as text files?
 
-如果 Windows 不能正常顯示日文，韓文或中文字型，那么您需要到 **控制面板**，選擇「 **時鐘，語言和區域**」，點擊」 **語言**」頁面，然后 **安裝東亞語言檔案**。
+If Windows does not display
+Japanese, Korean, or Chinese fonts properly, you will need to go to **Control**
+**Panel**, select **Regional and Language Options**, click the **Languages**
+tab, and then check **Install files for East Asian languages**.
 
-打開您的 Word 文檔，選取要複製的文字，然后按一下 CTRL+C 把文字複製到剪貼簿中。
+Open your Word document, select the text
+you want to copy, and then press CTRL + C to copy the text to the Clipboard.
 
-開啟一個新的 EmEditor 視窗后，按一下 CTRL+V 來把剪貼簿內容貼上到 EmEditor 視窗中。在 EmEditor 中顯示的文字應該是正常的，但如果顯示不正常，請從 **「檢視」** 功能表中的 **「字型類別」** 中選擇文字的語言類別。如果還是不能正常顯示，請到「 **檢視**」功能表中選擇 [**字型** 命令](../../cmd/view/font)。在顯示的對話方塊中點擊顯示字型旁的 **「更改」** 按鈕，然后從清單中選擇一個合適的字型，比如中文是 **Simsun**。
+Launch a new EmEditor window and press CTRL + V to paste the Clipboard contents to the EmEditor window. You should see the text in Japanese (or Korean,
+Chinese, etc.). If you cannot see the text properly, select Japanese (or Korean,
+Chinese, etc.) from the **Font Category** sub menu under the **View**
+menu. If you still cannot see it properly, select the
+[**Font** command](../../cmd/view/font)
+under the **View** menu, and select an appropriate font, for instance, **MS**
+**Gothic** if it is Japanese.
 
-要儲存文檔時，請選擇在 **檔案** 功能表下的 [**另存新檔** 命令](../../cmd/file/file_save_as)，確保您在 **編碼** 下拉清單方塊中選擇的是 **Unicode** 或 **UTF-8**。您也可以選擇一個區域設置特定的編碼，例如 **Chinese Simplified (GB2312)**。
+To save the document, select the [**Save As** command](../../cmd/file/file_save_as) under the **File**
+menu, and make sure you select either **Unicode** or **UTF-8** from the **Encoding** drop-down list box. You may also select a locale-specific encoding such as
+**Japanese (Shift-JIS)** if you wish.
 
-## 請同樣參考
+## See Also

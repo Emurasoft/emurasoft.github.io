@@ -1,3 +1,4 @@
-# 對象的連結與嵌入 (OLE)
+# Object Linking & Embedding (OLE)
 
-一個程式整合技術，在程式之間傳遞并分享信息。
+A program-integration technology for transferring and sharing information
+between programs.

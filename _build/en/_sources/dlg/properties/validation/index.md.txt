@@ -1,23 +1,25 @@
-# 「語法檢查」頁面
+# Syntax Check page
 
-**語法檢查** 頁面讓你能設置與語法檢查相關聯的屬性。
+The **Syntax Check** page allows you to set properties related to Syntax Check.
 
-### 「啟用語法檢查」核取方塊
+### Enable Syntax Check check box
 
-如果勾選了該核取方塊，語法檢查錯誤會以紅色波浪下劃線（可自訂）顯示，並且游標指針懸停在錯誤部分會顯示有關錯誤信息的小提示。
+If this is checked, syntax check errors are displayed with red wiggly underlines (customizable), and hovering the mouse pointer causes a tooltip show information about the errors.
 
-### 「文檔類型」下拉清單方塊
+### Document Type drop-down list box
 
-指定要檢查語法的文檔類型。請註意，如果選擇了 **CSV**，則僅在 CSV 模式下時才能啟用語法檢查。如果選擇了 **語言伺服器協議**，將會使用在 [**語言伺服器** 頁面](../language_server/index) 上指定的 **文檔類型**。
+Specifies the document type to check syntax. Notes that syntax check will be enabled only while a CSV mode is selected if **CSV** is selected. If the **Language Server Protocol** is selected, the **Document Type** specified in the [**Language Server** page](../language_server/index) is used.
 
-### 「顯示清單」下拉清單方塊
+### Show List drop-down list box
 
 |     |     |
 | --- | --- |
-| （無） | 語法檢查結果不會顯示為清單。即使結果不顯示為清單，如果勾選了 **啟用語法檢查** 核取方塊，語法錯誤也會以紅色波浪下劃線表示。 |
-| 在打開一個文檔時 | 打開此組態的文檔時，語法檢查結果將顯示為清單。 |
-| 僅在檢測到錯誤時 | 僅當打開此組態的文檔時檢測到錯誤時，語法檢查結果才會顯示為清單。 |
+| (None) | Syntax check results will not be displayed as a list. Even if results are not displayed as a list, syntax check errors will be displayed with red wiggly underlines if the **Enable Syntax Check** check box is set. |
+| When a Document is Opened | Syntax check results will be displayed as a list when a document of this configuration is opened. |
+| Only when Errors are Detected | Syntax check results will be displayed as a list only if errors are detected when a document of this configuration is opened. |
 
-### 「重置」按鈕
+### Reset button
 
-重置為預設設定。會顯示 [**重置** 對話方塊](../reset/index) 並讓你能從另一個組態復制設定。
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.

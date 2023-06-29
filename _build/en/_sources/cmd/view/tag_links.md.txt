@@ -1,26 +1,26 @@
-# 標記連結命令
+# Tag Links command
 
-### 摘要
+### Summary
 
-> 顯示標記的超連結。
+> Shows hyperlinks to tags.
 
-### 說明
+### Description
 
-> 顯示標記的超連結。如果您 **多檔尋找** 並儲存結果檔案，稍後再次打開該檔案，檔案中的超連結就會消失。該命令讓您能再次啟用超連結。
+> Shows hyperlinks to tags. If you **Find in Files** and save the result file, and later open the file again, the hyperlinks in the file disappear. This command allows you to turn on the hyperlinks again.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **標記連結**
-- [所有命令](../tools/all_commands): **檢視** \> **標記連結**
-- Toolbar: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **View** \> **Tag Links**
+- [All Commands](../tools/all_commands): **View** \> **Tag Links**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_TAG\_LINKS (23241)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,13 +1,14 @@
-# 定義一個新組態
+# To Define a New Configuration
 
-1. 點擊
-![Select Configuration](../../images/configpopup.gif) 并從功能表中選擇
-**定義組態**。
-2. 點擊 **「新增」** 按鈕，并命名新組態。
-3. 點擊 **「屬性」** 按鈕并更改新組態屬性。
+1. Click
+![Select Configuration](../../images/configpopup.gif) and select
+**Define Configuration** from the menu.
+2. Click the **New** button, and name the new configuration.
+3. Click the **Properties** button to change the new configuration
+properties.
 
-## 提示
+## Tips
 
-- 通過定義多個組態，您能有效地選擇其他組態。
+- By defining multiple configurations, you can effectively select other configurations.
 
-- 要複製并從另一個組態修改定義新組態，選擇一個組態并點擊 **「複製」** 按鈕。
+- To copy and modify from another configuration, select a configuration and click the **Copy** button.

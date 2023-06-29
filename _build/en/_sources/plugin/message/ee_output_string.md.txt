@@ -1,6 +1,7 @@
 # EE\_OUTPUT\_STRING
 
-追加一個字符串到輸出列中。您能明確地發送該消息或用 [Editor\_OutputString](../macro/editor_outputstring) 內嵌函式。
+Appends a string to the output bar. You can send this
+message explicitly or use the [Editor\_OutputString](../macro/editor_outputstring) inline function.
 
 EE\_OUTPUT\_STRING
 
@@ -8,27 +9,28 @@ wParam = nFlags;
 
 lParam = (LPARAM) (LPCWSTR) szString;
 
-## 參數
+## Parameters
 
 _nFlags_
 
-> 從如下值中指定一個組合。
+> Specifies a combination of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | FLAG\_OPEN\_OUTPUT | 打開輸出列。 |
-> | FLAG\_CLOSE\_OUTPUT | 關閉輸出列。 |
-> | FLAG\_FOCUS\_OUTPUT | 把鍵盤焦點設置到輸出列上。 |
-> | FLAG\_CLEAR\_OUTPUT | 清除輸出列中的內容。 |
+> | FLAG\_OPEN\_OUTPUT | Opens the output bar. |
+> | FLAG\_CLOSE\_OUTPUT | Closes the output bar. |
+> | FLAG\_FOCUS\_OUTPUT | Sets the keyboard focus to the output bar. |
+> | FLAG\_CLEAR\_OUTPUT | Clears the contents of the output bar. |
 
 _szString_
 
-> 指定要被追加的字符串。
+> Specifies the string to be appended.
 
-## 返回值
+## Return Values
 
-> 如果消息成功，返回值為非零值。如果消息不成功，返回值為零。
+> If the message succeeds, the return value is nonzero. If the message fails,
+> the return value is zero.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 7.00 或之後的版本。
+> Supported on EmEditor Version 7.00 or later.

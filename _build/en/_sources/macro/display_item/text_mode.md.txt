@@ -1,6 +1,6 @@
-# TextMode 屬性
+# TextMode Property
 
-指定文字顏色模式。
+Specifies the text color mode.
 
 #### \[JavaScript\]
 
@@ -14,16 +14,16 @@ _nMode_ = item. **TextMode**
 
 item. **TextMode** = _nMode_
 
-## 備注
+## Notes
 
-nMode 參數會是下列值之一。
+The nMode parameter should be one of the following values.
 
 |     |     |
 | --- | --- |
-| 0 | 自訂 |
-| 1 | 預設 |
-| 2 | 透明 |
+| 0 | Custom |
+| 1 | Default |
+| 2 | Transparent |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

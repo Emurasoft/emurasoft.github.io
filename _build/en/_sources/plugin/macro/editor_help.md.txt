@@ -1,24 +1,25 @@
 # Editor\_Help
 
-顯示說明中的指定頁面。您能直接用該內嵌函式或明確地發送 [EE\_HELP](../message/ee_help)
-消息。
+Displays the specified page of the Help. You can use this inline function or explicitly send
+the [EE\_HELP](../message/ee_help)
+message.
 
 Editor\_Help( HWND hwnd, LPCTSTR szPageURL );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _szPageURL_
 
-> 指定要顯示的說明頁面的 URL。
+> Specifies the URL of the Help page to display.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> Return value is not used.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 7.00 或之後的版本。
+> Supported on EmEditor Version 7.00 or later.

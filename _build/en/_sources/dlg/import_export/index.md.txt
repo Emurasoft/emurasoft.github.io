@@ -1,28 +1,29 @@
-# 匯入匯出精靈
+# Import and Export Wizard
 
-這個精靈會出現當您執行 [**匯入匯出** 命令](../../cmd/tools/import_export) 時。您能選擇從一個檔案中匯入設定或匯入目前的設定到一個檔案中。
+This wizard appears when the [**Import and Export** command](../../cmd/tools/import_export) is selected. You can then select to import settings from a file or to export current settings into a file.
 
-有關精靈中每一個控制項 (例如，核取方塊或文字方塊) 的更多信息，請參考下面的控制項清單，或按 **F1** 鍵當選取一個控制項時。
+To find more information about each control, such as a check box or a text
+box in the wizard, select from the control list below, or press the **F1** key when a control is selected.
 
-### 「請選擇要執行的操作」清單方塊
+### Choose an action to perform list box
 
-您可以從清單中選擇一個要執行的操作。
+You can select an action to perform from the list.
 
 |     |     |
 | --- | --- |
-| **匯出所有設置到一個注冊表檔案中。** | 匯出所有自訂的設置，包括組態，功能表，工具列，外部工具以及最近使用的檔案清單到一個注冊表檔案中。以后，您用這個檔案匯入來還原目前的的設定，或複製該設定到另一臺電腦上。 |
-| **匯出所有設置到 INI 檔案中。** | 匯出自訂的設置以及全局設置到 INI 檔案中。這個選項會被禁用如果 INI 檔案已經存在在 EmEditor 安裝資料夾中。 |
-| **從一個注冊表檔案中匯入所有設置。** | 讀取通過選擇 **匯出所有設置到一個檔案中** 來儲存設置的檔案。您能用這個選項來還原之前儲存的設定。 |
-| **設置一個使用預設值的可移動驅動器 (例如: USB 驅動器)。** | 複製 EmEditor 檔案并用預設設定創建 INI 檔案到一個可移動驅動器中。這個選項會被禁用如果 INI 檔案已經存在在 EmEditor 安裝資料夾中。 |
-| **設置一個可移動驅動器 (例如: USB 驅動器) 并將所有設置匯出為 INI 檔案。** | 複製 EmEditor 檔案并用目前的設定創建 INI 檔案到一個可移動驅動器中。這個選項會被禁用如果 INI 檔案已經存在在 EmEditor 安裝資料夾中。 |
-| **從 INI 檔案匯入至注冊表。** | 從 INI 檔案匯入至注冊表。 |
+| **Export all personal settings into a registry file.** | Export all the personal settings including configurations, menus, Toolbars, External Tools and the recently used file list to a Registration file. You can later use this file to import to restore the current settings, or copy the settings to another computer. |
+| **Export all settings to INI files.** | Export all the personal and global settings to INI files. This option is disabled if INI files already exist in the EmEditor install folder. |
+| **Import all personal settings from a registry file.** | Read a previously saved file by selecting **Export all personal settings into a file**. You can use this selection to restore previously saved settings. |
+| **Set up a removable drive such as a USB drive with default settings.** | Copy EmEditor files and create INI files with default settings to a removable drive. This option is disabled if INI files already exist in the EmEditor install folder. |
+| **Set up a removable drive such as a USB drive and export all settings into INI files.** | Copy EmEditor files and create INI files with the current settings to a removable drive. This option is disabled if INI files already exist in the EmEditor install folder. |
+| **Import INI files to the Registry.** | Import all personal settings in INI files to the Registry. |
 
-**注意**
+**Notes**
 
-下列 INI 檔案會被創建當您選擇創建 INI 檔案的選項之一:
+The following INI files will be created when you select one of options to create INI files:
 
 - eeCommon.ini
 - eeConfig.ini
 - eeLM.ini
 
-當 EmEditor 開始并在它的安裝資料夾中尋找 eeUseIni.ini 時，EmEditor 會用這些 INI 檔案，而不是注冊表，并且不會儲存任何設定到注冊表中。
+When EmEditor starts and finds eeUseIni.ini in its install folder, EmEditor uses these INI files instead of the Registry, and does not save any settings to the Registry.

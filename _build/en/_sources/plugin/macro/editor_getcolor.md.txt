@@ -1,58 +1,58 @@
 # Editor\_GetColor
 
-檢索指定部分的文字、背景顏色以及樣式。您能用內嵌函式或直接送出 [EE\_GET\_COLOR](../message/ee_get_color) 信息。
+Retrieves the text and background colors and style for the specified part. You can use this inline function or explicitly send the [EE\_GET\_COLOR](../message/ee_get_color) message.
 
 Editor\_GetColor( HWND hwnd, BOOL bFind, UINT nIndex, COLORREF\* pclrText, COLORREF\* pclrBack, int\* pnAttr );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _bFind_
 
-> 指定 TRUE 如果檢索的顏色是尋找顏色；如果檢索的是其他部分的顏色，指定 FALSE。
+> Specifies TRUE if retrieving colors for Find, or FALSE if retrieving colors for one of other parts.
 
 _nIndex_
 
-> 指定要檢索顏色的索引。如果 bFind 是 FALSE，那么索引一定小于 MAX\_SMART\_COLOR 值。
+> Specifies the index to retrieve colors. If bFind is FALSE, the index must be less than MAX\_SMART\_COLOR.
 
 _pclrText_
 
-> 指定一個指標來檢索文字顏色。它可以是一個 RGB 值或下列的值之一。
+> Specifies a pointer to retrieve the text color. It is an RGB value of the color or one of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | DEFAULT\_COLOR | 使用 Windows 系統顏色。 |
-> | TRANSPARENT\_COLOR | 顏色透明。 |
+> | DEFAULT\_COLOR | The Windows system color is used. |
+> | TRANSPARENT\_COLOR | The color is transparent. |
 
 _pclrBack_
 
-> 指定一個指標來檢索背景顏色。它可以是一個 RGB 值或下列的值之一。
+> Specifies a pointer to retrieve the background color. It is an RGB value of the color or one of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | DEFAULT\_COLOR | 使用 Windows 系統顏色。 |
-> | TRANSPARENT\_COLOR | 顏色透明。 |
+> | DEFAULT\_COLOR | The Windows system color is used. |
+> | TRANSPARENT\_COLOR | The color is transparent. |
 
 _pnAttr_
 
-> 指定一個要檢索樣式的指標。它可以是下列的值之一。
+> Specifies a pointer to retrieve the style. It is one of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | SMART\_COLOR\_FONT\_NORMAL | 字型為標準。 |
-> | SMART\_COLOR\_FONT\_UNDERLINE | 字型帶下劃線。 |
-> | SMART\_COLOR\_FONT\_BOLD | 字型是粗體。 |
-> | SMART\_COLOR\_FONT\_ITALIC | 字型是斜體。 |
-> | SMART\_COLOR\_FONT\_WIGGLY | 字型彎曲。 |
-> | SMART\_COLOR\_FONT\_DOTTED | 如果是行，指定的行帶虛線。 |
+> | SMART\_COLOR\_FONT\_NORMAL | The font is normal. |
+> | SMART\_COLOR\_FONT\_UNDERLINE | The font is underlined. |
+> | SMART\_COLOR\_FONT\_BOLD | The font is bold. |
+> | SMART\_COLOR\_FONT\_ITALIC | The font is italic. |
+> | SMART\_COLOR\_FONT\_WIGGLY | The font is wiggly. |
+> | SMART\_COLOR\_FONT\_DOTTED | In case of lines, the specified lines are dotted. |
 
-## 返回值
+## Return Values
 
-> 返回值是 TRUE 如果通過的話，或 FALSE 如果未通過的話。
+> The return value is TRUE if succeeded, or FALSE if failed.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 14.4 或之後的版本。
+> Supported on Version 14.4 or later.

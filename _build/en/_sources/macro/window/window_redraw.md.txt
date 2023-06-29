@@ -1,6 +1,6 @@
-# Redraw 屬性
+# Redraw Property
 
-在 EmEditor 中允許或禁止重繪變更。
+Allows changes in EmEditor to be redrawn or prevents changes in EmEditor from being redrawn.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _b_ = **Redraw**
 
 **Redraw** = _b_;
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

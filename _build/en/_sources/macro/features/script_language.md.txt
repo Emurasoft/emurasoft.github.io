@@ -1,7 +1,14 @@
-# 支持 JavaScript 或 VBScript
+# Support for JavaScript or VBScript
 
-EmEditor 把 JavaScript 或 VBScript 作為它的巨集語言，所以對于熟悉 HTML 或 Windows 指令碼編寫的使用者，編寫巨集并不困難。對于不熟悉這些指令碼語言的使用者，EmEditor 也能讓您輕松地編輯巨集。EmEditor 能錄制鍵盤動作，并把它儲存到一個能隨時加載的巨集檔案中。通過 JavaScript 或 VBScript，您還能輕松地檢查代碼出錯的部分。例如，在 JavaScript 中，您能用下列語句來排查錯誤:
+EmEditor uses JavaScript or VBScript for its macro language, so those who are
+familiar with HTML or Windows scripting will be able to write macros with little
+difficulty. For those unfamiliar with scripting languages, EmEditor can record
+keystrokes, which can then be saved in a macro file that can easily be loaded in
+different situations. With the use of JavaScript or VBScript, you can also
+troubleshoot your code easily. For example, in JavaScript, you can use the
+following statement to troubleshoot errors:
 
 try { ... } catch(e) { ... }
 
-當存在一個錯誤，例如無法打開檔案，try-catch 語句會允許指令碼繼續執行，而不是強制終止它。
+When an error occurs, such as a file opening failure, the try-catch statement
+allows the script to continue executing, instead of forcing it to terminate.

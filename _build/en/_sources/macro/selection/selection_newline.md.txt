@@ -1,6 +1,6 @@
-# NewLine 方法
+# NewLine Method
 
-在游標處插入指定的新行數。
+Inserts the specified number of newline characters at the cursor.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,13 @@ document.selection. **NewLine**( \[ _nCount_ \] );
 
 document.selection. **NewLine** \[ _nCount_ \]
 
-## 參數
+## Parameters
 
 _nCount_
 
-可選項。指定游標位置處的新行數。預設值是 1。
+Optional. Specifies the number of newline characters at the cursor position. The
+default is 1.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

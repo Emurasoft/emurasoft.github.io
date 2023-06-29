@@ -1,27 +1,30 @@
-# 儲存工作區并全部關閉命令
+# Save Workspace and Close All command
 
-### 摘要
+### Summary
 
-> 儲存工作區并關閉所有打開的檔案。
+> Saves the workspace and closes all open files.
 
-### 說明
+### Description
 
-> 這個命令會儲存完整的路徑名稱，游標位置，以及所有在 EmEditor 中打開的文檔的設定，然后再關閉所有打開的文檔。這個命令等同于 [儲存預設工作區命令](save_workspace) 加 [全部關閉命令](exit_all)。
+> This command saves the full path names, the cursor positions, and other
+> settings of all currently open documents in EmEditor, then closes all open
+> documents. This command is equivalent to the [Save \
+> Workspace command](save_workspace) followed by the [Close All command](exit_all).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **關閉**
-\> **儲存工作區并全部關閉**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Save Workspace and Close All**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SAVE\_WORKSPACE\_QUIT\_ALL (4332)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

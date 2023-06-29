@@ -1,3 +1,12 @@
-# 立即訊息 (外掛程式)
+# Messaging (Plug-in)
 
-一個簡單的 Intranet 通訊功能。在選取一小段文字后，在 **外掛程式** 工具列或功能表上選擇 **「傳送選取的文字」** 外掛程式，您會看到 **「傳送至」** 的對話方塊。您可以選擇要傳送訊息的電腦，也可以勾選 **「傳送至所有電腦」** 的核取方塊把文字發送給所有聯機電腦。要使用這個功能，每臺電腦都必須有安裝 EmEditor，并且 EmEditor 的系統匣圖示一定要在任務欄運行。接收一方的屏幕上會有一個氣球狀提示。請點擊這個提示或者右擊系統匣圖示以選取 **「顯示最后一條消息」** 的命令，EmEditor 會打開一個新視窗來顯示收到的訊息。發送的文字長度是有限制的。另外，訊息提醒在 Windows 8 系統上會以 **Toast** 通知的形式顯示。外掛程式可以在 EmEditor 資源庫中找到。
+A simple intranet communication feature was added. After selecting short
+text, selecting the **Send Selected Text** plug-in on the **Plug-ins** toolbar or menu brings up the **Send To** dialog
+box to select computers to send to. Selecting computers or setting the **Send to All Computers** check box will send the selected text to the
+specified computer(s). EmEditor must be installed on the destination
+computer(s), and the EmEditor tray icon must be running in order to receive
+text. When receiving text, a balloon tip will appear. Clicking the balloon tip
+or right-clicking on the tray icon and selecting the **Show Last Message**
+command will open a new EmEditor window with the received text. There is a limit
+in the length of text to send. Please note that on Windows 8, a **Toast**
+will appear. The plug-ins is available in the EmEditor library.

@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>消息 &#8212; EmEditor  說明文件</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="索引" href="../../genindex.htm" />
+    <link rel="search" title="搜尋" href="../../search.htm" />
+    <link rel="next" title="EE_ADD_REF" href="ee_add_ref.htm" />
+    <link rel="prev" title="所需的成員變數" href="../member_variables/index.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  說明文件</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/plugin/message/index">English</a>
+                <a href="/emeditor-help/ja/plugin/message/index">日本語</a>
+                <a href="/emeditor-help/ko/plugin/message/index">한국어</a>
+                <a href="/emeditor-help/zh-cn/plugin/message/index">简体中文</a>
+                <a href="/emeditor-help/zh-tw/plugin/message/index">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">快速搜尋</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.htm">命令參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.htm">對話方塊</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">常見問題解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">詞彙</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">歷史記錄</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.htm">如何…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">連結</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">巨集參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">注意事項</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">外掛程式參考</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../cmdid/index.htm">命令 ID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../event/index.htm">事件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exports/index.htm">導出函數</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro/index.htm">內嵌函式</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../member_variables/index.htm">所需的成員變數</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">消息</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="ee_add_ref.htm">EE_ADD_REF</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_autofill.htm">EE_AUTOFILL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_clip_history.htm">EE_CLIP_HISTORY</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_compare.htm">EE_COMPARE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_convert.htm">EE_CONVERT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_convert_csv.htm">EE_CONVERT_CSV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_convert_ex.htm">EE_CONVERT_EX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_custom_bar_close.htm">EE_CUSTOM_BAR_CLOSE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_custom_bar_open.htm">EE_CUSTOM_BAR_OPEN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_dev_to_view.htm">EE_DEV_TO_VIEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_do_idle.htm">EE_DO_IDLE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_edit_column.htm">EE_EDIT_COLUMN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_edit_temp.htm">EE_EDIT_TEMP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_empty_undo_buffer.htm">EE_EMPTY_UNDO_BUFFER</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_enum_config.htm">EE_ENUM_CONFIG</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_enum_highlight.htm">EE_ENUM_HIGHLIGHT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_exec_command.htm">EE_EXEC_COMMAND</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_exec_plugin.htm">EE_EXEC_PLUGIN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_extract_frequent.htm">EE_EXTRACT_FREQUENT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_filter.htm">EE_FILTER</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_find_in_filesa.htm">EE_FIND_IN_FILESA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_find_in_filesw.htm">EE_FIND_IN_FILESW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_find_regex.htm">EE_FIND_REGEX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_find_replace.htm">EE_FIND_REPLACE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_finda.htm">EE_FINDA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_findw.htm">EE_FINDW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_free.htm">EE_FREE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_accel_array.htm">EE_GET_ACCEL_ARRAY</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_active_string.htm">EE_GET_ACTIVE_STRING</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_anchor_pos.htm">EE_GET_ANCHOR_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_attr.htm">EE_GET_ATTR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_caret_pos.htm">EE_GET_CARET_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_cell.htm">EE_GET_CELL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_cmd_id.htm">EE_GET_CMD_ID</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_color.htm">EE_GET_COLOR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_column.htm">EE_GET_COLUMN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_configa.htm">EE_GET_CONFIGA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_configw.htm">EE_GET_CONFIGW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_dropped_file.htm">EE_GET_DROPPED_FILE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_filter.htm">EE_GET_FILTER</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_linea.htm">EE_GET_LINEA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_lines.htm">EE_GET_LINES</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_linew.htm">EE_GET_LINEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_margin.htm">EE_GET_MARGIN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_modified.htm">EE_GET_MODIFIED</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_multi_sel.htm">EE_GET_MULTI_SEL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_outline_level.htm">EE_GET_OUTLINE_LEVEL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_output_string.htm">EE_GET_OUTPUT_STRING</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_page_size.htm">EE_GET_PAGE_SIZE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_redraw.htm">EE_GET_REDRAW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_ref.htm">EE_GET_REF</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_scroll_pos.htm">EE_GET_SCROLL_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_sel_end.htm">EE_GET_SEL_END</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_sel_start.htm">EE_GET_SEL_START</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_sel_texta.htm">EE_GET_SEL_TEXTA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_sel_textw.htm">EE_GET_SEL_TEXTW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_sel_type.htm">EE_GET_SEL_TYPE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_statusa.htm">EE_GET_STATUSA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_statusw.htm">EE_GET_STATUSW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_unicode_name.htm">EE_GET_UNICODE_NAME</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_version.htm">EE_GET_VERSION</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_get_word.htm">EE_GET_WORD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_help.htm">EE_HELP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_info.htm">EE_INFO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_info_ex.htm">EE_INFO_EX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_insert_filea.htm">EE_INSERT_FILEA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_insert_filew.htm">EE_INSERT_FILEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_insert_stringa.htm">EE_INSERT_STRINGA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_insert_stringw.htm">EE_INSERT_STRINGW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_is_char_half_or_full.htm">EE_IS_CHAR_HALF_OR_FULL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_join.htm">EE_JOIN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_keyboard_prop.htm">EE_KEYBOARD_PROP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_line_from_char.htm">EE_LINE_EROM_CHAR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_line_index.htm">EE_LINE_INDEX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_load_configa.htm">EE_LOAD_CONFIGA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_load_configw.htm">EE_LOAD_CONFIGW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_load_filea.htm">EE_LOAD_FILEA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_load_filew.htm">EE_LOAD_FILEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_logical_to_serial.htm">EE_LOGICAL_TO_SERIAL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_logical_to_view.htm">EE_LOGICAL_TO_VIEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_manage_duplicates.htm">EE_MANAGE_DUPLICATES</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_match_regex.htm">EE_MATCH_REGEX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_numbering.htm">EE_NUMBERING</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_output_dir.htm">EE_OUTPUT_DIR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_output_string.htm">EE_OUTPUT_STRING</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_pivot_table.htm">EE_PIVOT_TABLE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_query_status.htm">EE_QUERY_STATUS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_query_string.htm">EE_QUERY_STRING</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_query_string_ex.htm">EE_QUERY_STRING_EX</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_rearrange_columns.htm">EE_REARRANGE_COLUMNS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_redraw.htm">EE_REDRAW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_reg_query_value.htm">EE_REG_QUERY_VALUE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_reg_set_value.htm">EE_REG_SET_VALUE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_release.htm">EE_RELEASE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_replace_in_filesa.htm">EE_REPLACE_IN_FILESA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_replace_in_filesw.htm">EE_REPLACE_IN_FILESW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_replacea.htm">EE_REPLACEA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_replacew.htm">EE_REPLACEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_run_macro.htm">EE_RUN_MACRO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_save_filea.htm">EE_SAVE_FILEA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_save_filew.htm">EE_SAVE_FILEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_serial_to_logical.htm">EE_SERIAL_TO_LOGICAL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_anchor_pos.htm">EE_SET_ANCHOR_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_caret_pos.htm">EE_SET_CARET_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_cell.htm">EE_SET_CELL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_column.htm">EE_SET_COLUMN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_configa.htm">EE_SET_CONFIGA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_configw.htm">EE_SET_CONFIGW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_modified.htm">EE_SET_MODIFIED</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_multi_sel.htm">EE_SET_MULTI_SEL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_outline_array.htm">EE_SET_OUTLINE_ARRAY</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_outline_level.htm">EE_SET_OUTLINE_LEVEL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_scroll_pos.htm">EE_SET_SCROLL_POS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_sel_length.htm">EE_SET_SEL_LENGTH</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_sel_type.htm">EE_SET_SEL_TYPE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_sel_view.htm">EE_SET_SEL_VIEW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_statusa.htm">EE_SET_STATUSA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_set_statusw.htm">EE_SET_STATUSW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_show_outline.htm">EE_SHOW_OUTLINE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_show_tip.htm">EE_SHOW_TIP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_sort.htm">EE_SORT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_split_column.htm">EE_SPLIT_COLUMN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_toolbar_close.htm">EE_TOOLBAR_CLOSE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_toolbar_open.htm">EE_TOOLBAR_OPEN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_toolbar_show.htm">EE_TOOLBAR_SHOW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_unpivot.htm">EE_UNPIVOT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_update_toolbar.htm">EE_UPDATE_TOOLBAR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_view_to_dev.htm">EE_VIEW_TO_DEV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ee_view_to_logical.htm">EE_VIEW_TO_LOGICAL</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../plugin_message/index.htm">外掛程式消息</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../structure/index.htm">結構</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">如何購買</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">外掛程式參考</a> &lt;
+                消息
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>消息<a class="headerlink" href="#id1" title="本標頭的永久連結">¶</a></h1>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_add_ref.htm"><span class="doc std std-doc">EE_ADD_REF</span></a></p></td>
+<td><p>遞增該外掛程式的引用號。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_autofill.htm"><span class="doc std std-doc">EE_AUTOFILL</span></a></p></td>
+<td><p>對 CSV 文檔執行自動填滿或快速填入操作。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_clip_history.htm"><span class="doc std std-doc">EE_CLIP_HISTORY</span></a></p></td>
+<td><p>控制剪貼簿記錄。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_compare.htm"><span class="doc std std-doc">EE_COMPARE</span></a></p></td>
+<td><p>比較兩個檔案。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_convert.htm"><span class="doc std std-doc">EE_CONVERT</span></a></p></td>
+<td><p>轉換字元。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_convert_csv.htm"><span class="doc std std-doc">EE_CONVERT_CSV</span></a></p></td>
+<td><p>轉換目前的文檔的 CSV 格式。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_convert_ex.htm"><span class="doc std std-doc">EE_CONVERT_EX</span></a></p></td>
+<td><p>轉換字元。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_custom_bar_close.htm"><span class="doc std std-doc">EE_CUSTOM_BAR_CLOSE</span></a></p></td>
+<td><p>關閉自訂顯示條。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_custom_bar_open.htm"><span class="doc std std-doc">EE_CUSTOM_BAR_OPEN</span></a></p></td>
+<td><p>打開自訂顯示條。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_dev_to_view.htm"><span class="doc std std-doc">EE_DEV_TO_VIEW</span></a></p></td>
+<td><p>轉換指定位置的設備 (客戶端) 坐標來顯示坐標。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_do_idle.htm"><span class="doc std std-doc">EE_DO_IDLE</span></a></p></td>
+<td><p>重新整理工具列，視窗標題，標籤頁及其他。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_edit_column.htm"><span class="doc std std-doc">EE_EDIT_COLUMN</span></a></p></td>
+<td><p>移動，復制，刪除，或合併目前的 CSV 文檔中的指定欄。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_edit_temp.htm"><span class="doc std std-doc">EE_EDIT_TEMP</span></a></p></td>
+<td><p>把臨時文字作為一個新文檔打開，或激活、儲存或關閉已存在的臨時文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_empty_undo_buffer.htm"><span class="doc std std-doc">EE_EMPTY_UNDO_BUFFER</span></a></p></td>
+<td><p>為復原和重做命令清空緩衝區。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_enum_config.htm"><span class="doc std std-doc">EE_ENUM_CONFIG</span></a></p></td>
+<td><p>列舉可用的組態。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_enum_highlight.htm"><span class="doc std std-doc">EE_ENUM_HIGHLIGHT</span></a></p></td>
+<td><p>列舉亮顯的字串。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_exec_command.htm"><span class="doc std std-doc">EE_EXEC_COMMAND</span></a></p></td>
+<td><p>執行一個指定的命令。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_exec_plugin.htm"><span class="doc std std-doc">EE_EXEC_PLUGIN</span></a></p></td>
+<td><p>執行一個指定的外掛程式。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_extract_frequent.htm"><span class="doc std std-doc">EE_EXTRACT_FREQUENT</span></a></p></td>
+<td><p>將常用字串抽出到新文檔中。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_filter.htm"><span class="doc std std-doc">EE_FILTER</span></a></p></td>
+<td><p>用指定字串和設定篩選文檔。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_finda.htm"><span class="doc std std-doc">EE_FINDA</span></a></p></td>
+<td><p>搜尋一個 ANSI 字串。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_findw.htm"><span class="doc std std-doc">EE_FINDW</span></a></p></td>
+<td><p>搜尋一個 Unicode 字串。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_find_in_filesa.htm"><span class="doc std std-doc">EE_FIND_IN_FILESA</span></a></p></td>
+<td><p>在指定路徑的多個檔案中搜尋一個 ANSI 字串。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_find_in_filesw.htm"><span class="doc std std-doc">EE_FIND_IN_FILESW</span></a></p></td>
+<td><p>在指定路徑的多個檔案中搜尋一個 Unicode 字串。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_find_regex.htm"><span class="doc std std-doc">EE_FIND_REGEX</span></a></p></td>
+<td><p>用規則運算式搜尋一個字串。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_find_replace.htm"><span class="doc std std-doc">EE_FIND_REPLACE</span></a></p></td>
+<td><p>搜尋或取代一個字串。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_free.htm"><span class="doc std std-doc">EE_FREE</span></a></p></td>
+<td><p>釋放一個指定的外掛程式。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_accel_array.htm"><span class="doc std std-doc">EE_GET_ACCEL_ARRAY</span></a></p></td>
+<td><p>檢索快速鍵的數組。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_active_string.htm"><span class="doc std std-doc">EE_GET_ACTIVE_STRING</span></a></p></td>
+<td><p>檢索主動字串。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_anchor_pos.htm"><span class="doc std std-doc">EE_GET_ANCHOR_POS</span></a></p></td>
+<td><p>檢索選區的原點。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_attr.htm"><span class="doc std std-doc">EE_GET_ATTR</span></a></p></td>
+<td><p>在指定位置檢索組態與屬性。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_caret_pos.htm"><span class="doc std std-doc">EE_GET_CARET_POS</span></a></p></td>
+<td><p>檢索目前的游標位置。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_cell.htm"><span class="doc std std-doc">EE_GET_CELL</span></a></p></td>
+<td><p>在指定單元格內檢索 Unicode 文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_cmd_id.htm"><span class="doc std std-doc">EE_GET_CMD_ID</span></a></p></td>
+<td><p>獲得外掛程式命令 ID。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_color.htm"><span class="doc std std-doc">EE_GET_COLOR</span></a></p></td>
+<td><p>檢索指定部分的文字、背景顏色以及樣式。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_column.htm"><span class="doc std std-doc">EE_GET_COLUMN</span></a></p></td>
+<td><p>在 CSV 模式中檢索一欄文字。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_configa.htm"><span class="doc std std-doc">EE_GET_CONFIGA</span></a></p></td>
+<td><p>檢索所選取的組態名稱為 ANSI 字串。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_configw.htm"><span class="doc std std-doc">EE_GET_CONFIGW</span></a></p></td>
+<td><p>檢索所選取的組態名稱為 Unicode 字串。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_dropped_file.htm"><span class="doc std std-doc">EE_GET_DROPPED_FILE</span></a></p></td>
+<td><p>檢索最近拖放的檔案。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_filter.htm"><span class="doc std std-doc">EE_GET_FILTER</span></a></p></td>
+<td><p>檢索目前的文檔的篩選字串及設定。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_linea.htm"><span class="doc std std-doc">EE_GET_LINEA</span></a></p></td>
+<td><p>在指定行檢索 ANSI 文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_lines.htm"><span class="doc std std-doc">EE_GET_LINES</span></a></p></td>
+<td><p>檢索在 EmEditor 中的行數。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_linew.htm"><span class="doc std std-doc">EE_GET_LINEW</span></a></p></td>
+<td><p>檢索指定行的 Unicode 文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_margin.htm"><span class="doc std std-doc">EE_GET_MARGIN</span></a></p></td>
+<td><p>檢索邊距大小。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_modified.htm"><span class="doc std std-doc">EE_GET_MODIFIED</span></a></p></td>
+<td><p>檢索文字的修改狀態。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_multi_sel.htm"><span class="doc std std-doc">EE_GET_MULTI_SEL</span></a></p></td>
+<td><p>當多個選區都可用時，檢索一個指定選區的信息。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_outline_level.htm"><span class="doc std std-doc">EE_GET_OUTLINE_LEVEL</span></a></p></td>
+<td><p>檢索指定邏輯行的大綱級別。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_output_string.htm"><span class="doc std std-doc">EE_GET_OUTPUT_STRING</span></a></p></td>
+<td><p>檢索輸出列中的文字。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_page_size.htm"><span class="doc std std-doc">EE_GET_PAGE_SIZE</span></a></p></td>
+<td><p>檢索頁面大小。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_redraw.htm"><span class="doc std std-doc">EE_GET_REDRAW</span></a></p></td>
+<td><p>檢索在 EmEditor 中允許或禁止重繪變更的標志。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_ref.htm"><span class="doc std std-doc">EE_GET_REF</span></a></p></td>
+<td><p>檢索一個指定外掛程式的引用號。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_scroll_pos.htm"><span class="doc std std-doc">EE_GET_SCROLL_POS</span></a></p></td>
+<td><p>檢索捲軸的目前的游標位置。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_sel_end.htm"><span class="doc std std-doc">EE_GET_SEL_END</span></a></p></td>
+<td><p>檢索選區的結尾字元位置。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_sel_start.htm"><span class="doc std std-doc">EE_GET_SEL_START</span></a></p></td>
+<td><p>檢索選區的開始字元位置。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_sel_texta.htm"><span class="doc std std-doc">EE_GET_SEL_TEXTA</span></a></p></td>
+<td><p>檢索被選取的 ANSI 文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_sel_textw.htm"><span class="doc std std-doc">EE_GET_SEL_TEXTW</span></a></p></td>
+<td><p>檢索被選取的 Unicode 文字。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_sel_type.htm"><span class="doc std std-doc">EE_GET_SEL_TYPE</span></a></p></td>
+<td><p>獲得選區狀態的類型。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_statusa.htm"><span class="doc std std-doc">EE_GET_STATUSA</span></a></p></td>
+<td><p>檢索顯示在狀態列上的 ANSI 文字。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_statusw.htm"><span class="doc std std-doc">EE_GET_STATUSW</span></a></p></td>
+<td><p>檢索顯示在狀態列上的 Unicode 文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_unicode_name.htm"><span class="doc std std-doc">EE_GET_UNICODE_NAME</span></a></p></td>
+<td><p>檢索指定字元或字串的 Unicode 名。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_get_version.htm"><span class="doc std std-doc">EE_GET_VERSION</span></a></p></td>
+<td><p>返回版本號。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_get_word.htm"><span class="doc std std-doc">EE_GET_WORD</span></a></p></td>
+<td><p>檢索游標位置處的一個單字。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_help.htm"><span class="doc std std-doc">EE_HELP</span></a></p></td>
+<td><p>顯示說明中的指定頁面。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_info.htm"><span class="doc std std-doc">EE_INFO</span></a></p></td>
+<td><p>檢索或設定用於 EmEditor 的信息參數之一的值。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_info_ex.htm"><span class="doc std std-doc">EE_INFO_EX</span></a></p></td>
+<td><p>檢索或設定用於 EmEditor 的信息參數之一的值。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_insert_filea.htm"><span class="doc std std-doc">EE_INSERT_FILEA</span></a></p></td>
+<td><p>在游標處插入指定檔案內容 (ANSI)。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_insert_filew.htm"><span class="doc std std-doc">EE_INSERT_FILEW</span></a></p></td>
+<td><p>在游標處插入指定檔案內容 (Unicode)。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_insert_stringa.htm"><span class="doc std std-doc">EE_INSERT_STRINGA</span></a></p></td>
+<td><p>把一個 ANSI 字串插入到目前的游標位置處。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_insert_stringw.htm"><span class="doc std std-doc">EE_INSERT_STRINGW</span></a></p></td>
+<td><p>把一個 Unicode 字串插入到目前的游標位置處。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_is_char_half_or_full.htm"><span class="doc std std-doc">EE_IS_CHAR_HALF_OR_FULL</span></a></p></td>
+<td><p>決定一個指定的字元是全形還是半形。它也可以計算指定字串的總寬度。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_keyboard_prop.htm"><span class="doc std std-doc">EE_KEYBOARD_PROP</span></a></p></td>
+<td><p>顯示指定命令 ID 和組態的鍵盤屬性。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_join.htm"><span class="doc std std-doc">EE_JOIN</span></a></p></td>
+<td><p>按指定索引鍵資料欄,用一個與 JOIN 操作類似的方法合併兩個 CSV 文檔,并創建一個新文檔。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_keyboard_prop.htm"><span class="doc std std-doc">EE_KEYBOARD_PROP</span></a></p></td>
+<td><p>顯示指定命令 ID 和組態的鍵盤屬性。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_line_from_char.htm"><span class="doc std std-doc">EE_LINE_FROM_CHAR</span></a></p></td>
+<td><p>檢索包含指定字元索引 (序列位置) 的行的索引。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_line_index.htm"><span class="doc std std-doc">EE_LINE_INDEX</span></a></p></td>
+<td><p>檢索在 EmEditor 中一個指定行的第一個字元的字元索引。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_load_configa.htm"><span class="doc std std-doc">EE_LOAD_CONFIGA</span></a></p></td>
+<td><p>重新載入由一個 ANSI 字串指定名稱的組態。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_load_configw.htm"><span class="doc std std-doc">EE_LOAD_CONFIGW</span></a></p></td>
+<td><p>重新載入由一個 Unicode 字串指定名稱的組態。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_load_filea.htm"><span class="doc std std-doc">EE_LOAD_FILEA</span></a></p></td>
+<td><p>把一個指定檔案載入到 EmEditor 中 (ANSI)。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_load_filew.htm"><span class="doc std std-doc">EE_LOAD_FILEW</span></a></p></td>
+<td><p>把一個指定檔案載入到 EmEditor 中 (Unicode)。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_logical_to_serial.htm"><span class="doc std std-doc">EE_LOGICAL_TO_SERIAL</span></a></p></td>
+<td><p>把邏輯坐標轉換為序列位置。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_logical_to_view.htm"><span class="doc std std-doc">EE_LOGICAL_TO_VIEW</span></a></p></td>
+<td><p>把邏輯坐標轉換為顯示坐標。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_manage_duplicates.htm"><span class="doc std std-doc">EE_MANAGE_DUPLICATES</span></a></p></td>
+<td><p>刪除或把重複行設為書籤。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_match_regex.htm"><span class="doc std std-doc">EE_MATCH_REGEX</span></a></p></td>
+<td><p>用規則運算式搜尋一個字串。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_numbering.htm"><span class="doc std std-doc">EE_NUMBERING</span></a></p></td>
+<td><p>在游標位置或垂直選擇處，插入編號。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_output_dir.htm"><span class="doc std std-doc">EE_OUTPUT_DIR</span></a></p></td>
+<td><p>為輸出列設置目前的目錄。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_output_string.htm"><span class="doc std std-doc">EE_OUTPUT_STRING</span></a></p></td>
+<td><p>追加一個字串到輸出列中。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_pivot_table.htm"><span class="doc std std-doc">EE_PIVOT_TABLE</span></a></p></td>
+<td><p>在 CSV 文檔中建立樞紐分析表。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_query_status.htm"><span class="doc std std-doc">EE_QUERY_STATUS</span></a></p></td>
+<td><p>查詢命令的狀態，無論命令是否被啟用，也不管命令是否處于被選中的狀態。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_query_string.htm"><span class="doc std std-doc">EE_QUERY_STRING</span></a></p></td>
+<td><p>查詢與指定的命令相關聯的字串。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_query_string_ex.htm"><span class="doc std std-doc">EE_QUERY_STRING_EX</span></a></p></td>
+<td><p>查詢與指定的命令相關聯的字串。此消息支持超過 MAX_PATH 的長檔案路徑。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_rearrange_columns.htm"><span class="doc std std-doc">EE_REARRANGE_COLUMNS</span></a></p></td>
+<td><p>重排 CSV 欄。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_redraw.htm"><span class="doc std std-doc">EE_REDRAW</span></a></p></td>
+<td><p>在 EmEditor 中允許或禁止重繪變更。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_reg_query_value.htm"><span class="doc std std-doc">EE_REG_QUERY_VALUE</span></a></p></td>
+<td><p>根據 EmEditor 的設定，從注冊表或一個 INI 檔案中查詢一個值。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_reg_set_value.htm"><span class="doc std std-doc">EE_REG_SET_VALUE</span></a></p></td>
+<td><p>根據 EmEditor 的設定，設一個值到注冊表或一個 INI 檔案中。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_release.htm"><span class="doc std std-doc">EE_RELEASE</span></a></p></td>
+<td><p>遞減外掛程式的引用號。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_replace_in_filesa.htm"><span class="doc std std-doc">EE_REPLACE_IN_FILESA</span></a></p></td>
+<td><p>在指定路徑的多個檔案中取代一個 ANSI 字串。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_replace_in_filesw.htm"><span class="doc std std-doc">EE_REPLACE_IN_FILESW</span></a></p></td>
+<td><p>在指定路徑的多個檔案中取代一個 Unicode 字串。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_replacea.htm"><span class="doc std std-doc">EE_REPLACEA</span></a></p></td>
+<td><p>取代一個 ANSI 字串。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_replacew.htm"><span class="doc std std-doc">EE_REPLACEW</span></a></p></td>
+<td><p>取代一個 Unicode 字串。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_run_macro.htm"><span class="doc std std-doc">EE_RUN_MACRO</span></a></p></td>
+<td><p>運行一個巨集。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_save_filea.htm"><span class="doc std std-doc">EE_SAVE_FILEA</span></a></p></td>
+<td><p>儲存文字到一個指定的檔案中 (ANSI)。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_save_filew.htm"><span class="doc std std-doc">EE_SAVE_FILEW</span></a></p></td>
+<td><p>儲存文字到一個指定的檔案中 (Unicode)。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_serial_to_logical.htm"><span class="doc std std-doc">EE_SERIAL_TO_LOGICAL</span></a></p></td>
+<td><p>把序列位置轉換為邏輯坐標。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_set_anchor_pos.htm"><span class="doc std std-doc">EE_SET_ANCHOR_POS</span></a></p></td>
+<td><p>設置選區的原點。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_set_caret_pos.htm"><span class="doc std std-doc">EE_SET_CARET_POS</span></a></p></td>
+<td><p>移動游標位置并且選擇性地延伸選區。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_set_cell.htm"><span class="doc std std-doc">EE_SET_CELL</span></a></p></td>
+<td><p>在指定儲存格內設置文字。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_set_column.htm"><span class="doc std std-doc">EE_SET_COLUMN</span></a></p></td>
+<td><p>設置一列文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_set_configa.htm"><span class="doc std std-doc">EE_SET_CONFIGA</span></a></p></td>
+<td><p>變更為一個用 ANSI 字串指定的組態。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_set_configw.htm"><span class="doc std std-doc">EE_SET_CONFIGW</span></a></p></td>
+<td><p>變更為一個用 Unicode 字串指定的組態。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_set_modified.htm"><span class="doc std std-doc">EE_SET_MODIFIED</span></a></p></td>
+<td><p>變更文字的修改狀態。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_set_multi_sel.htm"><span class="doc std std-doc">EE_SET_MULTI_SEL</span></a></p></td>
+<td><p>當多個選取內容可用時，設置指定的選取內容的信息。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_set_outline_array.htm"><span class="doc std std-doc">EE_SET_OUTLINE_ARRAY</span></a></p></td>
+<td><p>為指定的多行設置大綱級別。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_set_outline_level.htm"><span class="doc std std-doc">EE_SET_OUTLINE_LEVEL</span></a></p></td>
+<td><p>為指定的邏輯行設置大綱級別。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_set_scroll_pos.htm"><span class="doc std std-doc">EE_SET_SCROLL_POS</span></a></p></td>
+<td><p>指定捲動欄位置。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_set_sel_length.htm"><span class="doc std std-doc">EE_SET_SEL_LENGTH</span></a></p></td>
+<td><p>變更選區的字元長度。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_set_sel_type.htm"><span class="doc std std-doc">EE_SET_SEL_TYPE</span></a></p></td>
+<td><p>設置選區狀態的類型。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_set_sel_view.htm"><span class="doc std std-doc">EE_SET_SEL_VIEW</span></a></p></td>
+<td><p>變更選區的開始和結束位置。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_set_statusa.htm"><span class="doc std std-doc">EE_SET_STATUSA</span></a></p></td>
+<td><p>在狀態列上顯示一條 ANSI 消息。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_set_statusw.htm"><span class="doc std std-doc">EE_SET_STATUSW</span></a></p></td>
+<td><p>在狀態列上顯示一條 Unicode 消息。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_show_outline.htm"><span class="doc std std-doc">EE_SHOW_OUTLINE</span></a></p></td>
+<td><p>顯示或隱藏大綱。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_show_tip.htm"><span class="doc std std-doc">EE_SHOW_TIP</span></a></p></td>
+<td><p>顯示或隱藏工具提示。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_sort.htm"><span class="doc std std-doc">EE_SORT</span></a></p></td>
+<td><p>排序文檔。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_split_column.htm"><span class="doc std std-doc">EE_SPLIT_COLUMN</span></a></p></td>
+<td><p>分割目前的 CSV 文檔的指定欄。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_toolbar_close.htm"><span class="doc std std-doc">EE_TOOLBAR_CLOSE</span></a></p></td>
+<td><p>關閉自訂工具列。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_toolbar_open.htm"><span class="doc std std-doc">EE_TOOLBAR_OPEN</span></a></p></td>
+<td><p>打開自訂工具列。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_toolbar_show.htm"><span class="doc std std-doc">EE_TOOLBAR_SHOW</span></a></p></td>
+<td><p>顯示或隱藏一個自訂工具列。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_unpivot.htm"><span class="doc std std-doc">EE_UNPIVOT</span></a></p></td>
+<td><p>通過壓平合併 CSV 數據將欄轉換為列。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_update_toolbar.htm"><span class="doc std std-doc">EE_UPDATE_TOOLBAR</span></a></p></td>
+<td><p>在工具列中更新一個按鈕的狀態。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ee_view_to_dev.htm"><span class="doc std std-doc">EE_VIEW_TO_DEV</span></a></p></td>
+<td><p>把顯示指定位置的顯示坐標轉換為設備 (客戶端) 坐標。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ee_view_to_logical.htm"><span class="doc std std-doc">EE_VIEW_TO_LOGICAL</span></a></p></td>
+<td><p>把一個指定位置的顯示坐標轉換為邏輯坐標。</p></td>
+</tr>
+</tbody>
+</table>
+<p>這些常數在頭檔案 (plugin.h) 中被定義。</p>
+<p>同樣支持下列 Windows API 消息。其中，有一些支持可能不完整，因為消息的視窗控制代碼參數指定的是視圖的視窗控制代碼，而不是 EmEditor 的框架。有關這些消息的更多信息請檢視微軟 MSDN 資源庫。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>EM_GETSEL</p></td>
+<td><p>檢索目前的選區的開始和結束字元位置。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EM_SCROLLCARET</p></td>
+<td><p>捲動游標到視圖。</p></td>
+</tr>
+<tr class="row-even"><td><p>EM_SETSEL</p></td>
+<td><p>選擇一個字元範圍。</p></td>
+</tr>
+<tr class="row-odd"><td><p>EM_REPLACESEL</p></td>
+<td><p>用指定的文字取代目前的選區。</p></td>
+</tr>
+<tr class="row-even"><td><p>WM_CLEAR</p></td>
+<td><p>刪除目前的選區。</p></td>
+</tr>
+<tr class="row-odd"><td><p>WM_COPY</p></td>
+<td><p>把目前的選區複製到剪貼簿上。</p></td>
+</tr>
+<tr class="row-even"><td><p>WM_CUT</p></td>
+<td><p>刪除目前的選區并複製被刪除的文字到剪貼簿上。</p></td>
+</tr>
+<tr class="row-odd"><td><p>WM_GETTEXT</p></td>
+<td><p>複製整個文檔到一個緩衝區。</p></td>
+</tr>
+<tr class="row-even"><td><p>WM_GETTEXTLENGTH</p></td>
+<td><p>檢索用來檢索整個文檔，除了終止空字元外的緩衝區大小。</p></td>
+</tr>
+<tr class="row-odd"><td><p>WM_PASTE</p></td>
+<td><p>在目前的游標位置複製目前的在剪貼簿上的內容。</p></td>
+</tr>
+<tr class="row-even"><td><p>WM_SETTEXT</p></td>
+<td><p>設置整個文檔。</p></td>
+</tr>
+<tr class="row-odd"><td><p>WM_UNDO</p></td>
+<td><p>撤回最后的操作。</p></td>
+</tr>
+</tbody>
+</table>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ee_add_ref.htm">EE_ADD_REF</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_autofill.htm">EE_AUTOFILL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_clip_history.htm">EE_CLIP_HISTORY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_compare.htm">EE_COMPARE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_convert.htm">EE_CONVERT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_convert_csv.htm">EE_CONVERT_CSV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_convert_ex.htm">EE_CONVERT_EX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_custom_bar_close.htm">EE_CUSTOM_BAR_CLOSE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_custom_bar_open.htm">EE_CUSTOM_BAR_OPEN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_dev_to_view.htm">EE_DEV_TO_VIEW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_do_idle.htm">EE_DO_IDLE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_edit_column.htm">EE_EDIT_COLUMN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_edit_temp.htm">EE_EDIT_TEMP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_empty_undo_buffer.htm">EE_EMPTY_UNDO_BUFFER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_enum_config.htm">EE_ENUM_CONFIG</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_enum_highlight.htm">EE_ENUM_HIGHLIGHT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_exec_command.htm">EE_EXEC_COMMAND</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_exec_plugin.htm">EE_EXEC_PLUGIN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_extract_frequent.htm">EE_EXTRACT_FREQUENT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_filter.htm">EE_FILTER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_find_in_filesa.htm">EE_FIND_IN_FILESA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_find_in_filesw.htm">EE_FIND_IN_FILESW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_find_regex.htm">EE_FIND_REGEX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_find_replace.htm">EE_FIND_REPLACE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_finda.htm">EE_FINDA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_findw.htm">EE_FINDW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_free.htm">EE_FREE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_accel_array.htm">EE_GET_ACCEL_ARRAY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_active_string.htm">EE_GET_ACTIVE_STRING</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_anchor_pos.htm">EE_GET_ANCHOR_POS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_attr.htm">EE_GET_ATTR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_caret_pos.htm">EE_GET_CARET_POS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_cell.htm">EE_GET_CELL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_cmd_id.htm">EE_GET_CMD_ID</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_color.htm">EE_GET_COLOR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_column.htm">EE_GET_COLUMN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_configa.htm">EE_GET_CONFIGA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_configw.htm">EE_GET_CONFIGW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_dropped_file.htm">EE_GET_DROPPED_FILE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_filter.htm">EE_GET_FILTER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_linea.htm">EE_GET_LINEA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_lines.htm">EE_GET_LINES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_linew.htm">EE_GET_LINEW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_margin.htm">EE_GET_MARGIN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_modified.htm">EE_GET_MODIFIED</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_multi_sel.htm">EE_GET_MULTI_SEL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_outline_level.htm">EE_GET_OUTLINE_LEVEL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_output_string.htm">EE_GET_OUTPUT_STRING</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_page_size.htm">EE_GET_PAGE_SIZE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_redraw.htm">EE_GET_REDRAW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_ref.htm">EE_GET_REF</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_scroll_pos.htm">EE_GET_SCROLL_POS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_sel_end.htm">EE_GET_SEL_END</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_sel_start.htm">EE_GET_SEL_START</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_sel_texta.htm">EE_GET_SEL_TEXTA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_sel_textw.htm">EE_GET_SEL_TEXTW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_sel_type.htm">EE_GET_SEL_TYPE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_statusa.htm">EE_GET_STATUSA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_statusw.htm">EE_GET_STATUSW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_unicode_name.htm">EE_GET_UNICODE_NAME</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_version.htm">EE_GET_VERSION</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_get_word.htm">EE_GET_WORD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_help.htm">EE_HELP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_info.htm">EE_INFO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_info_ex.htm">EE_INFO_EX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_insert_filea.htm">EE_INSERT_FILEA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_insert_filew.htm">EE_INSERT_FILEW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_insert_stringa.htm">EE_INSERT_STRINGA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_insert_stringw.htm">EE_INSERT_STRINGW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_is_char_half_or_full.htm">EE_IS_CHAR_HALF_OR_FULL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_join.htm">EE_JOIN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_keyboard_prop.htm">EE_KEYBOARD_PROP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_line_from_char.htm">EE_LINE_EROM_CHAR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_line_index.htm">EE_LINE_INDEX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_load_configa.htm">EE_LOAD_CONFIGA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_load_configw.htm">EE_LOAD_CONFIGW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_load_filea.htm">EE_LOAD_FILEA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_load_filew.htm">EE_LOAD_FILEW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_logical_to_serial.htm">EE_LOGICAL_TO_SERIAL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_logical_to_view.htm">EE_LOGICAL_TO_VIEW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_manage_duplicates.htm">EE_MANAGE_DUPLICATES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_match_regex.htm">EE_MATCH_REGEX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_numbering.htm">EE_NUMBERING</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_output_dir.htm">EE_OUTPUT_DIR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_output_string.htm">EE_OUTPUT_STRING</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_pivot_table.htm">EE_PIVOT_TABLE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_query_status.htm">EE_QUERY_STATUS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_query_string.htm">EE_QUERY_STRING</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_query_string_ex.htm">EE_QUERY_STRING_EX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_rearrange_columns.htm">EE_REARRANGE_COLUMNS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_redraw.htm">EE_REDRAW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_reg_query_value.htm">EE_REG_QUERY_VALUE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_reg_set_value.htm">EE_REG_SET_VALUE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_release.htm">EE_RELEASE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_replace_in_filesa.htm">EE_REPLACE_IN_FILESA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_replace_in_filesw.htm">EE_REPLACE_IN_FILESW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_replacea.htm">EE_REPLACEA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_replacew.htm">EE_REPLACEW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_run_macro.htm">EE_RUN_MACRO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_save_filea.htm">EE_SAVE_FILEA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_save_filew.htm">EE_SAVE_FILEW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_serial_to_logical.htm">EE_SERIAL_TO_LOGICAL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_anchor_pos.htm">EE_SET_ANCHOR_POS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_caret_pos.htm">EE_SET_CARET_POS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_cell.htm">EE_SET_CELL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_column.htm">EE_SET_COLUMN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_configa.htm">EE_SET_CONFIGA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_configw.htm">EE_SET_CONFIGW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_modified.htm">EE_SET_MODIFIED</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_multi_sel.htm">EE_SET_MULTI_SEL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_outline_array.htm">EE_SET_OUTLINE_ARRAY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_outline_level.htm">EE_SET_OUTLINE_LEVEL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_scroll_pos.htm">EE_SET_SCROLL_POS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_sel_length.htm">EE_SET_SEL_LENGTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_sel_type.htm">EE_SET_SEL_TYPE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_sel_view.htm">EE_SET_SEL_VIEW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_statusa.htm">EE_SET_STATUSA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_set_statusw.htm">EE_SET_STATUSW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_show_outline.htm">EE_SHOW_OUTLINE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_show_tip.htm">EE_SHOW_TIP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_sort.htm">EE_SORT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_split_column.htm">EE_SPLIT_COLUMN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_toolbar_close.htm">EE_TOOLBAR_CLOSE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_toolbar_open.htm">EE_TOOLBAR_OPEN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_toolbar_show.htm">EE_TOOLBAR_SHOW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_unpivot.htm">EE_UNPIVOT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_update_toolbar.htm">EE_UPDATE_TOOLBAR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_view_to_dev.htm">EE_VIEW_TO_DEV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ee_view_to_logical.htm">EE_VIEW_TO_LOGICAL</a></li>
+</ul>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; 版權所有 2023 Emurasoft。
+      使用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 建立。
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

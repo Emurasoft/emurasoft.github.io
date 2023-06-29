@@ -1,23 +1,24 @@
-# 「剪貼簿」頁面
+# Clipboard page
 
-**剪貼簿** 頁面讓你能自訂與剪貼簿操作相關的設定。
+The **Clipboard** page allows you to customize settings related to clipboard
+operations.
 
-### 「貼上時顯示剪貼簿歷史記錄」核取方塊
+### Show Clipboard History on Paste check box
 
-如果這個核取方塊被勾選了，在執行 **[貼上](../../../cmd/edit/edit_paste)** 命令時，EmEditor 會出現 **顯示剪貼簿歷史記錄** 按鈕。點擊該按鈕或執行 **顯示剪貼簿記錄** 命令（預設捷徑：CTRL + SHIFT + V）會顯示 **剪貼簿歷史記錄** 清單方塊，讓您能快速選擇以前使用的剪貼簿上的文字。
+If this is checked, EmEditor will show **Show Clipboard History** button when the **[Paste](../../../cmd/edit/edit_paste)** command was selected. Clicking this button or selecting the **Show Clipboard History** (default shortcut: Ctrl+Shift+V) command displays the **Clipboard History** listbox, which allows you to quickly select a previously used Clipboard text.
 
-### 「監控外部應用程式中的剪貼簿複製內容」核取方塊
+### Monitor the Clipboard copied on External Applications check box
 
-如果這個核取方塊被勾選了，EmEditor 將監控在外部應用程式上複製的剪貼簿內容。
+If this is checked, EmEditor will monitor the Clipboard contents copied on external applications.
 
-### 「在啟動時檢索 Windows 剪貼簿歷史記錄」核取方塊
+### Retrieve Windows Clipboard History on Startup check box
 
-如果這個核取方塊被勾選了，EmEditor 將在啟動時檢索 Windows 剪貼簿歷史記錄，以便讓 EmEditor 的剪貼簿歷史記錄包括啟動 EmEditor 之前的所有 Windows 上的剪貼簿歷史記錄。此選項僅在操作系統是 Windows 10 Build 18362 或更高版本時才可用，並且必須在 Windows 設定 - 剪貼簿上啟用剪貼簿歷史記錄。
+If this is checked, EmEditor will retrieve the Windows Clipboard History on Startup so that the EmEditor's clipboard history will include all Windows Clipboard History before EmEditor was launched. This option is available only on Windows 10 Build 18362 or later, and the Clipboard History must be enabled on Windows Settings - Clipboard.
 
-### 「將最近使用的字串移動到剪貼簿歷史記錄的頂部」核取方塊
+### Move recently used string to top in the Clipboard History check box
 
-如果勾選了該核取方塊，EmEditor 會將最近使用的字串移動到剪貼簿歷史記錄的頂部。
+If this is checked, EmEditor will move recently used string to the top in the Clipboard History.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

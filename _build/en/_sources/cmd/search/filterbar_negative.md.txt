@@ -1,27 +1,27 @@
-# 負向 (篩選工具列) 命令
+# Negative (Filter Toolbar) command
 
-### 摘要
+### Summary
 
-> 切換篩選工具列上的「負向」按鈕。
+> Toggles the Negative button on the Filter toolbar.
 
-### 說明
+### Description
 
-> 切換篩選工具列上的「負向」按鈕。
+> Toggles the Negative button on the Filter toolbar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜索**
-\> **篩選工具列** \> **負向**
-- 工具列: ![](../../images/filterbar_negative.png) (篩選工具列)
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Negative**
+- Toolbar: ![](../../images/filterbar_negative.png) (Filter toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILTERBAR\_NEGATIVE (3916)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

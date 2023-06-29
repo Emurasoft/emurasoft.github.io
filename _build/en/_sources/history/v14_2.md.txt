@@ -1,46 +1,54 @@
 # Version 14.2
 
-2014年1月7日
+January 7, 2014
 
-## 一般新增功能
+## New General Features
 
-- 您可以在 EmEidtor 中設置 **用戶自訂參考線**。用戶自訂參考線是一條條橙色的垂直虛線，讓您能更容易地檢視垂直排列的源代碼或文字檔案。
-- 右擊尺規便會顯示的內容功能表上現在有了 **添加/刪除用戶自訂參考線** 命令，讓您能更方便地在鼠標指定位置添加或刪除參考線。
-- 捷徑，CTRL + SHIFT + I， 被設置為 **插入特殊字元** 命令的預設捷徑。
-- 如果上一次在 **插入特殊字元** 對話方塊中使用的是 **字元代碼** 文字方塊，新版本的 EmEditor 讓您再次打開該對話方塊時，鍵盤焦點停留在 **字元代碼** 文字方塊上。
-- 在預設的 **HTML** 和 **CSS** 組態中，新的 **HTML 5 元素** 和 **CSS 3 屬性** 已被添加高亮顯示。
-- 新的 **插入長音符** 命令讓您能方便地插入長音符。而且，已存在的 **插入重音字元** 命令被擴展到輸入下面 _額外的_ 字元 (要檢視完整清單，請參考 [插入特殊字元](../howto/edit/edit_special_char)):
+- **User-defined guides** can be set now. User-defined guides are vertical lines at specified columns on the editor for each configuration. User-defined guides allow you to easily view
+vertically arranged source
+code or text files.
+- The context menu when right-clicking on the Ruler now includes the **Add/Remove User-Defined Guide** command, which conveniently add a new guide, or remove an existing guide at
+the mouse-pointed position.
+- CTRL + SHIFT + I was assigned to the default keyboard shortcut for the **Insert Special Character** command.
+- If the **Code Value** text box was last used in the **Insert Special Character** dialog box, the new version now initially sets the keyboard focus to the **Code Value**
+text box when you open the dialog box again.
+- New **HTML 5 elements** and **CSS 3 properties** were added as highlight words to the default **HTML** and **CSS** configurations.
+- The new **Insert Macron** command allows you to insert characters with a macron. Moreover, the existing **insert accent character** commands were extended to type
+the following _additional_ characters (please see [Insert Special Characters](../howto/edit/edit_special_char) for the complete list):
 
 > |     |     |     |
 > | --- | --- | --- |
-> | **重音類型** | **要輸入這些字元** | **請按(預設捷徑)** |
-> | 抑音符 | Ǹ, ǹ, Ỳ, ỳ | CTRL + \` (重音標記)，文字 |
-> | 銳音符 | Ć, ć, Ĺ, ĺ, Ń, ń, Ŕ, ŕ, Ǵ, ǵ, Ḱ, ḱ, Ḿ, ḿ, Ṕ, ṕ, Ẃ, ẃ | CTRL + ' (撇號)，文字 |
-> | 揚抑符 | Ĉ, ĉ, Ĝ, ĝ, Ĥ, ĥ, Ĵ, ĵ, Ŝ, ŝ, Ŵ, ŵ, Ŷ, ŷ | CTRL + SHIFT + ^，文字 |
-> | 波形符 | Ĩ, ĩ, Ṽ, ṽ, Ỹ, ỹ | CTRL + SHIFT + ~(波形符)，文字 |
-> | 分音符 | Ẅ, ẅ, Ẍ, ẍ, ẗ, ?/td> | CTRL + SHIFT + : (冒號)，文字或空白 |
-> | 上圓圈符 | Ů, ů | CTRL + SHIFT + @，文字 |
-> | 連字元 | Ł, ł, Ⱥ, Ȼ, Ɇ, ɇ | CTRL + /，文字 |
-> | 下加符 | Č, č, Ď, ď, Ě, ě, Ľ, ľ, Ň, ň, Ř, ř, Š, š, Ť, ť, Ž, ž, Ǧ, ǧ, Ǩ, ǩ, ǰ, Ȟ, ȟ, ˇ | ALT + SHIFT + ^，文字或空白 |
-> | 劃線符 | Ā, ā, Ē, ē, Ō, ō, Ū, ū, Ȳ, ȳ, Ḡ, ḡ, Ī, ī, ?/td> | ALT + - (連字元)，文字或空白 |
-> | 分音符 \+ 抑音符 | Ǜ, ǜ | CTRL + SHIFT + : (冒號), CTRL + ' (撇號)，文字 |
-> | 分音符 \+ 銳音符 | Ǘ, ǘ, Ḯ, ḯ | CTRL + SHIFT + : (冒號)，CTRL + ' (撇號)，文字 |
-> | 分音符 \+ 揚抑符 | Ǚ, ǚ | CTRL + SHIFT + : (冒號)，ALT + SHIFT + ^，文字 |
-> | 分音符 \+ 長音符 | Ǖ, ǖ, Ǟ, ǟ, Ȫ, ȫ | CTRL + SHIFT + : (冒號), ALT + -(連字元)，文字 |
+> | **Accent Type** | **To type this** | **Press (default keyboard shortcuts)** |
+> | Grave | Ǹ, ǹ, Ỳ, ỳ | CTRL + \` (ACCENT GRAVE), the letter |
+> | Acute | Ć, ć, Ĺ, ĺ, Ń, ń, Ŕ, ŕ, Ǵ, ǵ, Ḱ, ḱ, Ḿ, ḿ, Ṕ, ṕ, Ẃ, ẃ | CTRL + ' (APOSTROPHE), the letter |
+> | Circumflex | Ĉ, ĉ, Ĝ, ĝ, Ĥ, ĥ, Ĵ, ĵ, Ŝ, ŝ, Ŵ, ŵ, Ŷ, ŷ | CTRL + SHIFT + ^ (CARET), the letter |
+> | Tilde | Ĩ, ĩ, Ṽ, ṽ, Ỹ, ỹ | CTRL + SHIFT + ~ (TILDE), the letter |
+> | Diaeresis | Ẅ, ẅ, Ẍ, ẍ, ẗ, ¨ | CTRL + SHIFT + : (COLON), the letter or SPACE |
+> | Ring | Ů, ů | CTRL + SHIFT + @, the letter |
+> | Stroke | Ł, ł, Ⱥ, Ȼ, Ɇ, ɇ | CTRL + /, the letter |
+> | Caron | Č, č, Ď, ď, Ě, ě, Ľ, ľ, Ň, ň, Ř, ř, Š, š, Ť, ť, Ž, ž, Ǧ, ǧ, Ǩ, ǩ, ǰ, Ȟ, ȟ, ˇ | ALT + SHIFT + ^ (CARET), the letter or SPACE |
+> | Macron | Ā, ā, Ē, ē, Ō, ō, Ū, ū, Ȳ, ȳ, Ḡ, ḡ, Ī, ī, ¯ | ALT + - (HYPHEN), the letter or SPACE |
+> | Diaeresis + Grave | Ǜ, ǜ | CTRL + SHIFT + : (COLON), CTRL + ' (APOSTROPHE), the letter |
+> | Diaeresis + Acute | Ǘ, ǘ, Ḯ, ḯ | CTRL + SHIFT + : (COLON), CTRL + ' (APOSTROPHE), the letter |
+> | Diaeresis + Caron | Ǚ, ǚ | CTRL + SHIFT + : (COLON), ALT + SHIFT + ^ (CARET), the letter |
+> | Diaeresis + Macron | Ǖ, ǖ, Ǟ, ǟ, Ȫ, ȫ | CTRL + SHIFT + : (COLON), ALT + - (HYPHEN), the letter |
 
-## 新增選項
+## New Options
 
-- 在 **自訂標記** 對話方塊中的 **選項** 頁面上，新增了 **當標記工具列隱藏時，自動禁用標記** 的核取方塊。
-- **取代** 對話方塊中新增了 **「<< 尋找」** 按鈕。
-- 組態屬性中的 **標記** 頁面上新增了 **顯示用戶自訂參考線** 核取方塊和 **用戶自訂參考線** 文字方塊。
-- **組態屬性** 中 **顯示** 頁面上的 **指定部分** 新增了 **用戶自訂參考線** 項目。
+- The **Disable markers automatically when the Markers toolbar is hidden** check box was added to the **Options** tab of the **Customize Markers** dialog
+box.
+- The **<< Find** button was added to the **Replace** dialog box.
+- The **Show User-Defined Guides** check box and the **User-Defined Guide Positions** text box were added to the **Marks** tab of configuration
+properties.
+- The **User-Defined Guides** item was added to the **Specified Part** list box in the **Display** tab of
+**Configuration Properties**.
 
-## 新增命令
+## New Commands
 
-- **[插入長音符](../cmd/edit/insert_macron)**
-- [**添加/刪除用戶自訂參考線**](../cmd/view/add_remove_guide)
-- **[用戶自訂參考線](../cmd/view/view_user_defined_guides)**
+- **[Insert Macron](../cmd/edit/insert_macron)**
+- [**Add/Remove User-Defined Guide**](../cmd/view/add_remove_guide)
+- **[User-Defined Guides](../cmd/view/view_user_defined_guides)**
 
-## 巨集的新增功能
+## Macro New Features
 
-- [**ShowUserDefinedGuides** 屬性](../macro/mark_prop/show_user_defined_guides) 被添加到 **MarkProp** 對象中。
+- The [**ShowUserDefinedGuides** property](../macro/mark_prop/show_user_defined_guides) was added to the **MarkProp** object.

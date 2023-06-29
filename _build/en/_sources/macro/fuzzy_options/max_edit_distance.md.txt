@@ -1,6 +1,6 @@
-# MaxEditDistance 屬性
+# MaxEditDistance Property
 
-檢索或設定最大編輯距離。
+Sets or retrieves the maximum edit distance.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _n_ = obj. **MaxEditDistance**;
 
 obj. **MaxEditDistance** = _n_;
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

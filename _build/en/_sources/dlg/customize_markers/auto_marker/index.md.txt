@@ -1,27 +1,27 @@
-# 「自動標記」頁面
+# Auto Marker tab
 
-**自動標記** 頁面讓您能自訂標記清單。
+The **Auto Marker** tab allows you to customize the Auto Marker.
 
-### 「啟用自動標記」核取方塊
+### Enable Auto Marker check box
 
-啟用自動標記。
+Enables the Auto Marker.
 
-### 「檢索游標所在處的單字」核取方塊
+### Retrieve Word at Cursor check box
 
-檢索游標位置處的單字。
+Retrieves the word at the cursor position.
 
-### 「整個字需符合」核取方塊
+### Whole Word Only check box
 
-只有當整個字詞都符合字串時，亮顯選取的字串。
+Highlight the selected string only if the whole word is the string.
 
-### 「大小寫需符合」核取方塊
+### Match Case check box
 
-只有當大小寫符合時，亮顯被選取的字詞。
+Highlight the selected word only if the case matches.
 
-### 「只允許字母和數字」核取方塊
+### Alphabets and Numbers Only check box
 
-只有當字詞包含字母和數字時，亮顯選取的單字。
+Highlights the selected word only if the word contains only alphabets and numbers.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

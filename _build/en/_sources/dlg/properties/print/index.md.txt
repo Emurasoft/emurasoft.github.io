@@ -1,59 +1,37 @@
-# 「列印」頁面
+# Print page
 
-**列印** 頁面讓您能設置與列印操作相關的屬性。
+The **Print** page allows you to set properties related to print
+operations.
 
-### 「列印行號」核取方塊
+### Print Line Numbers check box
 
-在頁面的左邊列印行號。
+Print line numbers down the left side of the page.
 
-### 「忽略顏色與下劃線」核取方塊
+### Ignore Color and Underlines check box
 
-當列印時，忽略顏色與下劃線。
+Ignore color and underlines when printing.
 
-### 「插入分隔線」核取方塊
+### Draw Separating Lines check box
 
-在頁眉與文字之間以及文字與頁腳之間插入水平線。
+Insert horizontal lines between the header and the text and between the text
+and the footer.
 
-### 「列印時按頁面換行」核取方塊
+### Wrap by Page when Printing check box
 
-列印時按頁面寬度換行。
+Wrap according to page width when printing.
 
-### 「行距」文字方塊
+### Space Between Lines text box
 
-指定列印時行與行之間的距離。這個值對應于一個單一的行高度的 1/10。
+Specify the amount of space between lines when printing. This value
+corresponds to 1/10 of the height of a single line.
 
-### 「頁眉」核取方塊
+### Header check box
 
-啟用指定的頁眉。
+Enables the specified header.
 
-### 「頁眉」文字方塊
+### Header text box
 
-用下列標記在頁面頂部列印文檔信息。
-
-### 「>」按鈕
-
-用該按鈕從預設的標記清單中選取。
-
-|     |     |
-| --- | --- |
-| &f | 檔案名稱 |
-| &n | 路徑名稱 |
-| &p | 頁號 |
-| &a | 總頁數 |
-| &d | 今天的日期 |
-| &t | 目前的時間 |
-| &c | 居中對齊 |
-| &r | 右對齊 |
-| &e | 上次修改日期 |
-| &u | 上次修改時間 |
-
-### 「頁腳」核取方塊
-
-啟用指定的頁腳。
-
-### 「頁腳」文字方塊
-
-用下列標記在頁面底部列印文檔信息。
+Print document information at the top of the page using the following marks.
 
 ### \> button
 
@@ -61,24 +39,51 @@ Use this button to select from a list of predefined marks.
 
 |     |     |
 | --- | --- |
-| &f | 檔案名稱 |
-| &n | 路徑名稱 |
-| &p | 頁號 |
-| &a | 總頁數 |
-| &d | 日期 |
-| &t | 時間 |
-| &c | 居中對齊 |
-| &r | 右對齊 |
+| &f | file name |
+| &n | full path |
+| &p | page number |
+| &a | total number of pages |
+| &d | today's date |
+| &t | current time |
+| &c | center aligned |
+| &r | right aligned |
+| &e | last modified date |
+| &u | last modified time |
 
-### 「頁面設置」按鈕
+### Footer check box
 
-用該按鈕來指定頁面設定。
+Enables the specified footer.
 
-### 「字型」按鈕
+### Footer text box
 
-指定用來列印的字型。
+Print document information at the bottom of the page using the following
+marks.
 
-### 「重設」按鈕
+### \> button
 
-重設為預設設定。
-[**重設** 對話方塊](../reset/index) 讓您能從另一個組態中複製設定。
+Use this button to select from a list of predefined marks.
+
+|     |     |
+| --- | --- |
+| &f | file name |
+| &n | full path |
+| &p | page number |
+| &a | total number of pages |
+| &d | date |
+| &t | time |
+| &c | center aligned |
+| &r | right aligned |
+
+### Page Setup button
+
+Use this button to specify page settings.
+
+### Font button
+
+Specify the font to use for printing.
+
+### Reset button
+
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.

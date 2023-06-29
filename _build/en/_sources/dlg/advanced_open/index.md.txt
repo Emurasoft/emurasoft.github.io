@@ -1,23 +1,23 @@
-# 「進階打開」對話方塊
+# Advanced Open dialog box
 
-這個對話方塊會出現當你選擇了 [**進階打開** 命令](../../cmd/file/advanced_open)。你能在每個指定的位元組數處用換行分割檔案，並在打開多個檔案的同時對每個打開的文檔運行巨集。
+This dialog box appears when the [**Advanced Open** command](../../cmd/file/advanced_open) is selected. You can split a file with newlines at every specified number of bytes, and run a macro against each opened document while opening multiple files.
 
-### 「在每個指定的位元組數處插入換行」核取方塊
+### Insert newlines at every specified number of bytes check box
 
-如果勾選此核取方塊，EmEditor 將在打開檔案時在每個指定的位元組數處插入換行。當你要打開固定長度的記錄資料檔案並且知道每個記錄的長度時，此功能很有用。
+If this box is checked, EmEditor will insert a newline at every specified number of bytes while opening file(s). This feature is useful when you want to open fixed-length record data file and when you know the length of each record.
 
-### 「確保每個檔案末尾都有換行字元」核取方塊
+### Ensure a newline exists at the end of each file check box
 
-如果勾選此核取方塊，EmEditor 將檢查每個打開的檔案末尾是否存在換行字元，如果不存在換行字元，則將其添加到打開的文檔中。
+If this box is checked, EmEditor will check if a newline exists at the end of each open file, and append a newline to the open document if it does not exist.
 
-### 「對每個打開的文檔運行巨集」核取方塊
+### Run a macro against each opened document check box
 
-如果勾選此核取方塊，則可以指定一個巨集，以在打開多個檔案時針對每個打開的文檔運行。
+If this box is checked, you can specify a macro to run against each open document while opening multiple files.
 
-### 「選擇要打開的檔案」按鈕
+### Select Files to Open button
 
-單擊此按鈕以顯示 **「打開檔案」** 對話方塊，你可以在其中選擇要在 EmEditor 中打開的檔案。
+Click this button to display the **Open** dialog box where you can select the file(s) you want to open in EmEditor.
 
-### 「將此設定為預設巨集」核取方塊
+### Set this as the default macro check box
 
-如果選中此方塊，您可以將所選巨集設定為預設巨集。
+If this box is checked, you can set the selected macro as the default macro.

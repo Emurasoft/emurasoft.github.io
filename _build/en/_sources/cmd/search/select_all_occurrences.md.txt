@@ -1,27 +1,27 @@
-# 選擇所有符合的結果命令
+# Select All Occurrences command
 
-### 摘要
+### Summary
 
-> 選擇所有與指定文字相符合的結果。
+> Selects all the occurrences of the specified text.
 
-### 說明
+### Description
 
-> 選擇目前的文檔中所有與指定文字相符合的結果。
+> Selects all the occurrences of the specified text in the current document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **搜尋** \> **選擇所有符合的結果**
-- [全部命令](../tools/all_commands): **搜尋**
-\> **選擇所有符合的結果**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: CTRL+Shift+A
+- Default Menu: **Search** \> **Select All Occurrences**
+- [All Commands](../tools/all_commands): **Search**
+\> **Select All Occurrences**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: CTRL+Shift+A
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SELECT\_ALL\_OCCURRENCES (4603)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

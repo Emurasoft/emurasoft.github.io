@@ -1,7 +1,7 @@
-# Display 屬性
+# Display Property
 
-檢索
-[DisplayProp 對象](../display_prop/index)。
+Retrieves the
+[DisplayProp object](../display_prop/index).
 
 #### \[JavaScript\]
 
@@ -11,6 +11,6 @@ _obj_ = object. **Display**;
 
 Set _obj_ = object. **Display**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

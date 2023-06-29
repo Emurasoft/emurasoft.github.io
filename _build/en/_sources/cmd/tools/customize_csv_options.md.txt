@@ -1,28 +1,29 @@
-# 自訂CSV 選項命令
+# Customize CSV Options command
 
-### 摘要
+### Summary
 
-> 打開自訂對話方塊中的 CSV 選項頁面。
+> Opens the CSV Options page of the Customize dialog box.
 
-### 說明
+### Description
 
-> 顯示讓你能定義通用應用設定的 [**自訂** 對話方塊](../../dlg/customize/index) 中的 CSV 選項頁面。
+> Displays the CSV Options page of the [**Customize** dialog box](../../dlg/customize/index),
+> where you can define CSV Options settings.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具** >
-**自訂** >
-**CSV 選項**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: None
+- [All Commands](all_commands): **Tools** >
+**Customize** >
+**CSV Options**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE\_CSV\_OPTIONS (9068)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

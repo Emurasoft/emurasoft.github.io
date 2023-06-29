@@ -1,30 +1,34 @@
 # Version 16.1
 
-2016年6月20日
+June 29, 2016
 
-## 一般新增功能
+## New General Features
 
-- 添加了新的儲存格工具列。當激活一個 CSV 文檔并且這個文檔在儲存格選擇模式下時，EmEditor 會預設顯示儲存格工具列。儲存格工具列讓你能編輯選取的儲存格。不同于編輯器，儲存格工具列不會顯示環繞儲存格文字的雙引號，另外，嵌入式分隔符會被跳過。換行程式碼會顯示為換行。
-- 支持大部分 HTML5 命名的字元參考。
-- 許多對話方塊包含有核取方塊的清單 (例如抽出欄)，新版本讓你能拖放條目來重新排列清單中的順序，并且 **「啟用/停用選取項目」** 核取方塊會變成 **「全部啟用/停用」** 當清單中只有 1 個或沒有項目被選取時。
-- 個別監視器 DPI 感知。(v16.1.4)
-- 添加了通用 Windows 平台 (UWP) 應用程式版。它僅支持 Windows 10 Build 14393 或更新的版本。EmEditor 不支持 Windows 10 Mobile，Xbox，或 Hololense。(v16.1.5)
+- The new Cell toolbar was added. By default, the Cell toolbar appears when a CSV document is active and the cell selection mode is selected. The Cell toolbar allows you to edit the selected cell(s). Unlike the editor behavior, the Cell toolbar does not show the surrounding double quotes, and embedded delimiters are escaped. Newline codes are displayed as newlines.
+- Supports most of HTML5 named character references.
+- Many dialog boxes including a list with check boxes (such as Extract Columns), the new version allows you to drag and drop items to arrange the order in the list, and the **Enable/Disable Selected Items** check box now becomes **Enable/Disable All** when only 1 or 0 item is selected in the list.
+- Per-Monitor DPI-Aware. (v16.1.4)
+- Added the **Universal Windows Platform (UWP) app** version. It supports only PC versions of Windows 10 Build 14393 (Anniversary Update) or later. EmEditor does NOT support Windows 10 Mobile, Xbox, or HoloLens. (v16.1.5)
 
-## 新增選項
+## New Options
 
-- 添加了 **「自動顯示/隱藏儲存格工具列」**， **「自動設置焦點（儲存格工具列）」**，以及 **「自動調節高度（儲存格工具列）」** 核取方塊到 **「自訂」** 對話方塊中 [**CSV** 頁面](../dlg/customize/csv/index) 上的 **「CSV 選項」** 清單中。
-- 添加了 **「全部啟用/停用」** 或 **「啟用/停用選取項目」** 核取方塊到到 **「自訂」** 對話方塊中 [**狀態列** 頁面](../dlg/customize/status/index) 上。
-- 現在即使在 [**外部工具屬性** 對話方塊](../dlg/tools/properties/index) 上的 **輸入** 下列清單方塊中選擇 **選定區域** 或 **文檔**，也可以啟用 **添加檔案結束符 (Ctrl+Z，U+001A 或 1AH)** 核取方塊。
+- The **Automatically Show/Hide Cell Toolbar** check box, the **Automatically Set Focus (Cell Toolbar)**, and the **Automatically Adjust Height (Cell Toolbar)** were added to the **CSV Options** list in the [**CSV** page](../dlg/customize/csv/index) of the **Customize** dialog box.
+- The **Enable/Disable All** or **Enable/Disable Selected Items** check box was added to the [**Status** page](../dlg/customize/status/index) of the **Customize** dialog box.
+- The **Add EOF (Ctrl+Z, U+001A or 1AH)** check box became enabled even when the **Selection** or **Document** is selected from the **Input** drop-down list box in the [**External Tool Properties** dialog box](../dlg/tools/properties/index).
 
-## 新增命令
+## New Commands
 
-- [儲存格工具列](../cmd/view/show_cell_bar)
-- [儲存格工具列選項](../cmd/view/cell_bar_options)
-- [自動顯示/隱藏儲存格工具列](../cmd/view/auto_show_hide_cell_bar)
-- [自動設置焦點(儲存格工具列)](../cmd/view/auto_set_focus)
-- [自動調整高度(儲存格工具列)](../cmd/view/auto_adjust_height)
+- [Cell Toolbar](../cmd/view/show_cell_bar)
+- [Cell Toolbar Options](../cmd/view/cell_bar_options)
+- [Automatically Show/Hide Cell Toolbar](../cmd/view/auto_show_hide_cell_bar)
+- [Automatically Set Focus (Cell Toolbar)](../cmd/view/auto_set_focus)
+- [Automatically Adjust Height (Cell Toolbar)](../cmd/view/auto_adjust_height)
 
-## 修復 Bug
+## Plug-in API New Features
 
-- 修復了與在尋找對話方塊中的抽出命令相關的 bug。
-- 修復了打開多個大檔案然后全部關閉會導致 EmEditor 故障的 bug。
+- The **EI\_GET\_DPI** flag was added to the [EE\_INFO message](../plugin/message/ee_info).
+
+## Bug Fixes
+
+- Fixed a certain bug related to the Extract command in the Find dialog box.
+- Fixed the bug where EmEditor might have crashed when opening multiple very large files and exit all.

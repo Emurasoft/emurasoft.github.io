@@ -1,3 +1,5 @@
-# 半形
+# Half Width
 
-東亞字元集中的字元的字形圖像延伸到整個字元顯示單元。在傳統的字元集中，全形字元通常被編碼為一個單一位元。
+Characters of East Asian character sets whose glyph image occupies half
+of the character display cell. In legacy character sets, half width characters
+are normally encoded in a single byte.

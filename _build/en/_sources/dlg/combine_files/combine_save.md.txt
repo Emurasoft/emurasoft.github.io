@@ -1,7 +1,7 @@
-# 「儲存參數？」頁面
+# Save Options ? page
 
-這個頁面讓您儲存目前的用來合併檔案所設置的參數。
+This page allows you to save the settings used for the current combine files session.
 
-### 「儲存參數」核取方塊
+### Save options check box
 
-如果該核取方塊被勾選了，設定將被儲存。
+If this is checked, the settings will be saved.

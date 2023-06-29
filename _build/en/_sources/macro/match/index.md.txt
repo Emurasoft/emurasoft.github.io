@@ -1,16 +1,16 @@
-# Match 對象
+# Match Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [FirstIndex](first_index) | 一個唯讀值，它包含在符合發生時的原始字串中以零為基的位置。 |
-| [Length](length) | 一個包含符合字串總長度的唯讀值。 |
-| [Value](value) | 一個包含符合值或文字的唯讀值。 |
+| [FirstIndex](first_index) | A read-only value that contains the zero-based position within the original string where the match occurred. |
+| [Length](length) | A read-only value that contains the total length of the matched string. |
+| [Value](value) | A read-only value that contains the matched value or text. |
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 15.9 或之後的版本。
+Supported on EmEditor Professional Version 15.9 or later.
 
 ```{toctree}
 :maxdepth: 1

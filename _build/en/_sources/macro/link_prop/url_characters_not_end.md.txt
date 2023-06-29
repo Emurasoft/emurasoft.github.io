@@ -1,6 +1,8 @@
-# URLCharactersNotEnd 屬性
+# URLCharactersNotEnd Property
 
-與組態屬性中 [**連結** 頁面](../../dlg/properties/link/index) 上的 **行末不允許的字元** 核取方塊相對應。
+Corresponds to the **Characters**
+**Not Allowed at End** text box in the
+[**Link** page](../../dlg/properties/link/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -14,6 +16,6 @@ _s_ = object. **URLCharactersNotEnd**
 
 object. **URLCharactersNotEnd** = _s_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

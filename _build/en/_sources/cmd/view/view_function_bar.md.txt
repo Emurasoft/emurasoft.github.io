@@ -1,27 +1,27 @@
-# 切換快捷功能條命令
+# Toggle Function Bar command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏快捷功能條。
+> Shows or hides the function bar.
 
-### 說明
+### Description
 
-> 在 EmEditor 視窗低端，顯示或隱藏快捷功能條。
+> Shows or hides the function bar at the bottom of the EmEditor window.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **快捷功能條**
-- [全部命令](../tools/all_commands): **檢視** >
-**快捷功能條**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** \> **Function Bar**
+- [All Commands](../tools/all_commands): **View** >
+**Function Bar**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_VIEW\_FUNCTION\_BAR (4448)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

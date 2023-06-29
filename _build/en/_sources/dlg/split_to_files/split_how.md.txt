@@ -1,15 +1,18 @@
-# 「歡迎使用檔案分割器」頁面
+# Welcome to File Splitter page
 
-這個頁面讓您能指定如何把文檔分割為多個檔案。
+This page allows you to specify how you want to split the document into
+multiple files.
 
-### 「按指定行數」單選按鈕
+### Every specified number of lines radio button
 
-如果選擇該按鈕，EmEditor 會按指定行數分割檔案。
+If this is selected, EmEditor splits the file at every specified number of
+lines.
 
-### 「行」文字方塊
+### Lines text box
 
-如果 **按指定行數** 單選按鈕被選擇，指定行的數目。
+If the **Every specified number of lines** radio button is
+selected, specifies how many lines.
 
-### 「在每個書籤標示行之後」單選按鈕
+### After every bookmarked line radio button
 
-如果選擇該按鈕，EmEditor 會在每個添加書籤的行后分割檔案。
+If this is selected, EmEditor splits the file after every bookmarked line.

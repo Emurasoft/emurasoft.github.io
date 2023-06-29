@@ -1,47 +1,47 @@
 # Version 17.1
 
-2017年8月17日
+August 17, 2017
 
-## 一般新增功能
+## New General Features
 
-- 添加了 **欄標題** 到 CSV 模式中。單擊欄標題或尺規將選擇指定的整列。 單擊尺規的左邊緣或行號的頂部將選擇整個文檔。
-- 即使沒有尺寸調整底方塊，分割/合併精靈也可以調整大小。
-- 新版本讓你能同時顯示迷你地圖以及垂直捲軸。
-- 新版本讓你能用快速鍵操作 **刪除右側單字** (Ctrl+Delete)， **刪除單字** (Ctrl+Shift+Delete)，以及 **刪除左側單字** (Ctrl+Backspace) 這些命令在例如 **尋找** 和 **取代** 對話方塊的許多對話方塊中的文字方塊以及清單方塊上。
-- 改進了在 CSV 儲存格選擇模式或垂直選擇模式下貼上的文字包含換行符或分隔符的行為。
-- 即使在 **自訂** 對話方塊中的 **搜尋** 頁面上勾選了 **全字拼字須相符** 核取方塊，當選取的不是完整單字時執行 **添加下一個符合結果** (Ctrl+R) 或 **選擇所有符合結果** (Ctrl+Shift+A) 命令，EmEditor 會臨時搜尋非單字字串。
-- 在不選取 **符合大小寫** 選項的情況下，大大提高了在插入換行符號時的 **全部取代** 的速度。
+- Added the **column header** for CSV modes. Clicking on the column header or the ruler will select the specified whole column. Clicking the left edge of the ruler or the top part of the line numbers will select the whole document.
+- Split/Combine wizards became resizable even though the grip is invisible.
+- The new version allows you to display both the Minimap and the vertical scroll bar simultaneously.
+- The new version allows you to use the shortcut keys for **Delete Right Word** (Ctrl+Delete), **Delete Word** (Ctrl+Shift+Delete), and **Delete Left Word** (Ctrl+Backspace) in text boxes and drop-down list in many dialog boxes such as **Find** and **Replace** dialog boxes.
+- Improved the behavior when a pasted text contains newlines or delimiters during the CSV cell selection mode or vertical selection mode.
+- Even if the **Match Whole Word** check box is set in the **Search** page of the **Customize** dialog box, EmEditor temporarily searches for non-word strings when the **Add Next Occurrence** (Ctrl+R) or **Select All Occurrences** (Ctrl+Shift+A) command is executed while the selection is not whole word(s).
+- Greatly improved the speed of **Replace All** when inserting newline codes while the **Match Case** option is cleared.
 
-### 測試結果
+### Test results:
 
-|  | v17.0 | v17.1 | 比較 |
+|  | v17.0 | v17.1 | Comparison |
 | --- | --- | --- | --- |
-| 把 "a" 全部取代為 "a\\n" | 112.281 秒 | 6.891 秒 | 快 16.3 倍 |
+| Replace All "a" with "a\\n" | 112.281 seconds | 6.891 seconds | 16.3 times faster |
 
-\\* 在 1 行中重複 "abcdefghij" 100,000 次，全部取代，不勾選「符合大小寫」，勾選「使用逸出序列」。測試系統：Windows 10 (64-bit) Core i7-4790 16GB RAM
+\\* 100,000 times repeat of "abcdefghij" in one line, Replace All with Match Case deselected, Use Escape Sequences selected, Windows 10 (64-bit) Core i7-4790 16GB RAM.
 
-## 新增選項
+## New Options
 
-- 添加了 **顯示欄標題**， **使用字母字元作為欄標題** 以及 **用基底為0的數字字元作為欄標題** 核取方塊核取方塊到 **自訂** 對話方塊的 [**CSV** 頁面](../dlg/customize/csv/index) 上。
-- 把組態屬性 [**亮顯 (1)** 頁面](../dlg/properties/highlight1/index) 上的 **使用預設關鍵字** 核取方塊改為一個包含 **使用者定義的字串和預設關鍵字** 選項的下拉清單，並且新增了 **「添加預設」** 按鈕。。
-- 添加了 **包括每個重複的所有行** 核取方塊到 [**刪除/把重複行設為書籤** 對話方塊](../dlg/delete_duplicate_advanced/index) 中。
-- 添加了"行號 (懸停)"，"尺規/欄標題 (懸停)"，"行號 (選取的行)"，"尺規/欄標題 (選取的列)"，"行號 (選區)"，"尺規/欄標題 (選區)"到組態屬性 [**顯示** 頁面](../dlg/properties/display/index) 上的「指定部分」清單中。
-- 添加了 **添加序列號到未命名文檔名稱中** 核取方塊到 [**新增檔案詳細信息** 對話方塊](../dlg/properties/file/new_details/index) 中 (組態屬性 \- **檔案** 頁面 \- **新增檔案** 按鈕)。
-- 添加了 **顯示基底為0的行/欄號** 核取方塊到組態屬性的 [**一般** 頁面](../dlg/properties/general/index) 上。
-- 添加了 **除了二進位檔案** 核取方塊到組態屬性的 [**檔案** 頁面](../dlg/properties/file/index) 上。
+- Added the **Show Column Header**, **Use Alphabetical Characters for Column Header**, and **Use Zero-Based Numerical Characters for Column Header** check boxes to the [**CSV** page](../dlg/customize/csv/index) of the **Customize** dialog box.
+- Replaced the **Use the Default Keywords** check box with a drop-down list including the **Both User-Defined Strings and Default Keywords** option in and added the **Add Default** button to the [**Highlight (1)** page](../dlg/properties/highlight1/index) of configuration properties.
+- Added the **Include All Lines of Each Duplicate** check box to the [**Delete/Bookmark Duplicate Lines** dialog box](../dlg/delete_duplicate_advanced/index).
+- Added **Line numbers (hovered)**, **Ruler/Column header (hovered)**, **Line numbers (line selected)**, **Ruler/Column header (column selected)**, **Line numbers (selected)**, and **Ruler/Column header (selected)** to the **Specify Part** list in the [**Display** page](../dlg/properties/display/index) of configuration properties.
+- Added the **Add a Sequential Number to Untitled Document Name** check box in the [**New File Details** dialog box](../dlg/properties/file/new_details/index) (configuration properties - **File** page - **New Files** button).
+- Added the **Show Zero-based Line/Column Numbers** check box to the [**General** page](../dlg/properties/general/index) of configuration properties.
+- Added the **Except for Binary Files** check box to the [**File** page](../dlg/properties/file/index) of configuration properties.
 
-## 新增命令
+## New Commands
 
-- [欄標題](../cmd/view/header_toggle)
-- [用基底為1的數字字元作為欄標題](../cmd/view/header_num)
-- [用字母字元作為欄標題](../cmd/view/header_alpha)
-- [用基底為0的數字字元作為欄標題](../cmd/view/header_zero_base)
+- [Column Header](../cmd/view/header_toggle)
+- [Use One-Based Numerical Characters for Column Header](../cmd/view/header_num)
+- [Use Alphabetical Characters for Column Header](../cmd/view/header_alpha)
+- [Use Zero-Based Numerical Characters for Column Header](../cmd/view/header_zero_base)
 
-## 修復 Bug
+## Bug Fixes
 
-- 修復了與 **檢測全部結果** 對話方塊相關的問題。
-- 修復了僅在選區內尋找或取代無法連續使用的問題。
-- 修復了與組態屬性中亮顯 （1）頁面相關的某個問題。
-- 修復了與字型命令相關的問題。
-- 修復了與合併 CSV 相關的問題。
-- 修復了 EmEditor 免費版無法顯示內容功能表的問題。
+- Fixed a certain issue related to the **Detect All Result** dialog box.
+- Fixed the issue where Find or Replace in the selection only did not work continuously.
+- Fixed a certain issue related to the Highlight (1) page of configuration properties.
+- Fixed a certain issue related to the Font commands.
+- Fixed a certain issue related to the CSV Join.
+- Fixed the issue where EmEditor Free did not display the context menu.

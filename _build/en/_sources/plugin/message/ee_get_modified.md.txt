@@ -1,6 +1,7 @@
 # EE\_GET\_MODIFIED
 
-檢索文本的修改狀態。您能明確地發送該消息或用 [Editor\_GetModified](../macro/editor_getmodified) 或 [Editor\_DocGetModified](../macro/editor_docgetmodified) 內嵌函式。
+Retrieves the modified state of the text. You can send this message
+explicitly or use the [Editor\_GetModified](../macro/editor_getmodified) inline function or [Editor\_DocGetModified](../macro/editor_docgetmodified) inline function..
 
 EE\_GET\_MODIFIED
 
@@ -8,16 +9,18 @@ wParam = (WPARAM) MAKEWPARAM(0, iDoc+1);
 
 lParam = hDoc;
 
-## 參數
+## Parameters
 
 _iDoc_
 
-> 指定目標文件的索引。指定目標文件的索引。應當指定一個從 1 開始的索引在 wParam 的高字處。如果 wParam 的高字處指定了 0，那么目前使用中的文件就會成為目標文件。
+> Specifies the index of the target document. A one-based index should be specified at the higher word of wParam. If 0 is specified at the higher word of wParam, the currently active document will
+> be targeted.
 
 _hDoc_
 
-> （可選）指定目標文件的控點。如果指定此參數，iDoc 必須為 0。
+> Optionally, specifies the handle to the target document. iDoc must be zero if you specify this parameter.
 
-## 返回值
+## Return Values
 
-> 如果文本被修改，返回值是 TRUE。如果文本沒有被修改，返回值是 FALSE。
+> If the text is modified, the return value is TRUE. If the text is not
+> modified, the return value is FALSE.

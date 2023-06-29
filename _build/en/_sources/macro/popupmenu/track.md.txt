@@ -1,6 +1,6 @@
-# Track 方法
+# Track Method
 
-顯示快顯功能表，檢索所選功能表項的識別項。
+Displays the popup menu, and retrieves the identifier of the selected menu item.
 
 #### \[JavaScript\]
 
@@ -10,16 +10,16 @@ id = popupmenu. **Track**( _flags_ );
 
 id = popupmenu. **Track**( _flags_ )
 
-## 參數
+## Parameters
 
 _flags_
 
-指定菜單要顯示的位置。能指定下列值。如果不指定，彈出菜單會在當前光標位置處顯示。
+Specifies where the menu should be displayed. The following value can be specified. If not specified, the popup menu will be displayed at the current cursor position.
 
 |     |     |
 | --- | --- |
-| eePosMouse | 在當前鼠標指針位置處顯示彈出菜單。 |
+| eePosMouse | Displays the popup menu at the current mouse pointer position. |
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

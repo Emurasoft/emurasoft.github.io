@@ -1,26 +1,27 @@
-# 清除瀏覽過的連結記錄命令
+# Clear Visited Link History command
 
-### 摘要
+### Summary
 
-> 清除瀏覽過的 URL，電子郵件以及符合標記記錄。
+> Clears the visited URLs, Email addresses, and tag history.
 
-### 說明
+### Description
 
-> 清除瀏覽過的 URL，電子郵件以及符合標記記錄。
+> Clears the visited URLs, Email addresses, and tag history.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **進階** \> **清除瀏覽過的連結記錄**
-- 工具列： 無
-- 狀態列: 無
-- 預設捷徑: F10
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
+\> **Clear Visited Link History**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: F10
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CLEAR\_VISIT\_HISTORY (3947)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

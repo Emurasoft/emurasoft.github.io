@@ -1,79 +1,79 @@
-# 搜尋類別
+# Search category
 
 |     |     |
 | --- | --- |
-| **[尋找](edit_find)** | 尋找一個字串。 |
-| **[取代](edit_replace)** | 取代一個字串。 |
-| **[尋找下一個](edit_repeat)** | 尋找下一個符合。 |
-| **[尋找上一個](edit_repeat_back)** | 尋找上一個符合。 |
-| **[尋找下一單字](find_next_word)** | 尋找目前的單字的下一個符合結果。 |
-| **[尋找前一單字](find_prev_word)** | 尋找目前的單字的前一個符合結果。 |
-| **[添加下一個符合結果](add_next_occurrence)** | 添加選取指定文字的下一個符合結果。 |
-| **[添加下下個符合結果](add_next2_occurrence)** | 添加選取指定文字的下下個符合結果。 |
-| **[選擇所有符合結果](select_all_occurrences)** | 選擇指定文字的所有符合結果。 |
-| [**取代下一個**](replace_next) | 取代下一個符合併再次尋找符合。 |
-| **[設置單字為尋找字串](retrieve_find_text)** | 設置目前的游標所在的單字為查詢字串。 |
-| [**設置單字為取代字串**](retrieve_replace_text) | 設置目前的游標所在的單字為取代字串。 |
-| **[取消尋找亮顯](erase_find_hilite)** | 清除搜尋字串的亮顯。 |
-| **[尋找下一個警告/Unicode 字元](find_next_unicode)** | 尋找下一個無法轉換為要儲存的編碼的警告或 Unicode 字元。 |
-| **[尋找上一個警告/Unicode 字元](find_prev_unicode)** | 尋找上一個無法轉換為要儲存的編碼的警告或 Unicode 字元。 |
-| **[取消 Unicode 高亮顯示](erase_unicode_hilite)** | 取消亮顯顯示無法轉換為要儲存的編碼的 Unicode 字元。 |
-| **[多檔尋找](grep)** | 在多個檔案中搜尋符合的字串。 |
-| **[多檔取代](replace_in_files)** | 取代多個檔案中的文字。 |
-| **[抽出常用字串](extract_frequent)** | 將常用字串抽出到新文檔中。 |
-| **[尋找最長行/儲存格](find_longest)** | 尋找非 CSV 文檔中最長的行或 CSV 文檔的目前的欄中最長的儲存格。 |
-| **[尋找非空最短行/儲存格](find_shortest)** | 尋找非 CSV 文檔中的非空最短行或 CSV 文檔的目前的欄中的非空最短儲存格。 |
-| **[尋找最短行/儲存格](find_empty_or_shortest)** | 尋找非 CSV 文檔中的最短行或 CSV 文檔目前的欄中的最短儲存格。 |
-| **[將焦點設在篩選工具列](focus_filter_bar)** | 把焦點設到篩選工具列上。 |
-| **[關閉篩選工具列](close_filter_bar)** | 關閉篩選工具列。 |
-| **[瀏覽篩選表達式 (篩選工具列)](filterbar_browse_exp_f)** | 為在篩選工具列中使用的篩選字串瀏覽規則運算式或逸出序列。 |
-| **[重新整理 (篩選工具列)](filterbar_refresh)** | 用目前的篩選設定重新整理文檔。 |
-| **[中止 (篩選工具列)](filterbar_abort)** | 中止篩選并清空篩選字串。 |
-| **[漸進式搜尋 (篩選工具列)](filterbar_incremental)** | 切換「篩選」工具列上的「漸進式搜尋」按鈕。 |
-| **[使用規則運算式 (篩選工具列)](filterbar_reg_exp)** | 切換「篩選」工具列上的「使用規則運算式」按鈕。 |
-| **[使用逸出序列 (篩選工具列)](filterbar_escape)** | 切換「篩選」工具列上的「使用逸出序列」按鈕。 |
-| **[使用數字範圍 (篩選工具列)](filterbar_number_range)** | 切換「篩選」工具列上的「使用數字範圍」按鈕。 |
-| **[模糊比對 (篩選工具列)](filterbar_fuzzy)** | 切換「篩選」工具列上的「模糊比對」按鈕。 |
-| **[大小寫需符合 (篩選工具列)](filterbar_case)** | 切換「篩選」工具列上的「大小寫需符合」按鈕。 |
-| **[整個字需符合 (篩選工具列)](filterbar_only_word)** | 切換「篩選」工具列上的「整個字需符合」按鈕。 |
-| **[整個字串需符合 (篩選工具列)](filterbar_whole_string)** | 切換「篩選」工具列上的「整個字串需符合 」按鈕。 |
-| **[負向 (篩選工具列)](filterbar_negative)** | 切換「篩選」工具列上的「負向」按鈕。 |
-| **[僅書籤行 (篩選工具列)](filterbar_bookmarked_only)** | 切換「篩選」工具列上的「僅書籤行」按鈕。 |
-| **[僅未標示書籤的行 (篩選工具列)](filterbar_unbookmarked_only)** | 切換「篩選」工具列上的「僅未標示書籤的行」按鈕。 |
-| **[符合換行符號 (篩選工具列)](filterbar_match_nl)** | 切換「篩選」工具列上的「符合換行符號」按鈕。 |
-| **[僅 CR (篩選工具列)](filterbar_cr_only)** | 切換「篩選」工具列上的「僅 CR」命令。 |
-| **[僅 LF (篩選工具列)](filterbar_lf_only)** | 切換「篩選」工具列上的「僅 LF」命令。 |
-| **[CR+LF (篩選工具列)](filterbar_cr_lf)** | 切換「篩選」工具列上的「CR+LF」命令。 |
-| **[其他 (篩選工具列)](filterbar_nl_others)** | 切換「篩選」工具列上的「其他」命令。 |
-| **[進階篩選 (篩選工具列)](filterbar_advanced)** | 顯示「進階篩選」對話方塊。 |
-| **[阻止對多行進行修改 (篩選工具列)](filterbar_limit)** | 切換「篩選」工具列上的「阻止對多行進行修改」按鈕。 |
-| **[全部設為書籤 (篩選工具列)](filterbar_bookmark)** | 為所有篩選出來的行設置書籤。 |
-| **[抽出所有行 (篩選工具列)](filterbar_extract)** | 將所有篩選出來的行抽出到一個新文檔中。 |
-| **[抽出符合字串 (篩選工具列)](filterbar_extract_matches)** | 將符合的字串抽出到新文檔中。 |
-| **[抽出選項 (篩選工具列)](filterbar_extract_options)** | 指定抽出符合字串命令的選項。 |
-| **[將焦點移至搜尋工具列](focus_find_bar)** | 將焦點移至搜尋工具列。 |
-| **[關閉搜尋工具列](close_find_bar)** | 關閉搜尋工具列。 |
-| **[瀏覽尋找表達式 (搜尋工具列)](findbar_browse_exp_f)** | 瀏覽用於搜尋工具列中「尋找」字串的規則運算式或逸出序列。 |
-| **[瀏覽取代表達式 (搜尋工具列)](findbar_browse_exp_r)** | 瀏覽用於搜尋工具列中「取代」字串的規則運算式或逸出序列。 |
-| **[尋找上一個 (搜尋工具列)](findbar_find_prev)** | 用搜尋工具列尋找上一個符合。 |
-| **[尋找下一個 (搜尋工具列)](findbar_find_next)** | 用搜尋工具列尋找下一個符合。 |
-| **[漸進式搜尋 (搜尋工具列)](findbar_incremental)** | 切換搜尋工具列上「漸進式搜尋」按鈕的狀態。 |
-| **[搜尋所有打開的文檔 (搜尋工具列)](findbar_open_doc)** | 切換搜尋工具列上「搜尋所有打開的文檔」按鈕的狀態。 |
-| **[使用規則運算式 (搜尋工具列)](findbar_reg_exp)** | 切換工具列上使用「規則運算式」按鈕的狀態。 |
-| **[使用逸出序列 (搜尋工具列)](findbar_escape)** | 切換搜尋工具列上「使用逸出序列」按鈕的狀態。 |
-| **[使用數字範圍 (搜尋工具列)](findbar_number_range)** | 切換搜尋工具列上「使用數字範圍」按鈕的狀態。 |
-| **[模糊比對 (搜尋工具列)](findbar_fuzzy)** | 切換搜尋工具列上「模糊比對」按鈕的狀態。 |
-| **[區分大小寫 (搜尋工具列)](findbar_case)** | 切換搜尋工具列上「區分大小寫」按鈕的狀態。 |
-| **[符合整個單字 (搜尋工具列)](findbar_only_word)** | 切換搜尋工具列上「符合整個單字」按鈕的狀態。 |
-| **[進階 (搜尋工具列)](findbar_advanced)** | 顯示尋找工具列的進階對話方塊。 |
-| **[循環 (搜尋工具列)](findbar_around)** | 切換工具列上「循環」按鈕的狀態。 |
-| **[符合次數 (搜尋工具列)](findbar_count)** | 切換工具列上「符合次數」按鈕狀態。 |
-| **[取代 >\> (搜尋工具列)](findbar_replace_dlg)** | 切換搜尋工具列上的「取代 >>」按鈕。 |
-| **[<< 尋找(尋找工具列)](findbar_find_dlg)** | 切換尋找工具列上的「<< 尋找」按鈕。 |
-| **[取代下一個 (搜尋工具列)](findbar_replace_next)** | 用搜尋工具列取代下一個符合的字串。 |
-| **[取代全部 (搜尋工具列)](findbar_replace_all)** | 用搜尋工具列取代所有符合的字串。 |
-| **[僅限于選區內 (搜尋工具列)](findbar_sel_only)** | 切換搜尋工具列上「僅限于選區內」按鈕的狀態。 |
-| **[搜尋符號](../tools/ql_symbols)** | 打開快速啟動視窗并選擇符號。 |
+| **[Find](edit_find)** | Finds a string. |
+| **[Replace](edit_replace)** | Replaces a string. |
+| **[Find Next](edit_repeat)** | Finds next occurrence. |
+| **[Find Previous](edit_repeat_back)** | Finds previous occurrence. |
+| **[Find Next Word](find_next_word)** | Finds the next occurrence of the current word. |
+| **[Find Previous Word](find_prev_word)** | Finds the previous occurrence of the current word. |
+| **[Add Next Occurrence](add_next_occurrence)** | Adds the next occurrence of the specified text to the selection. |
+| **[Add Next Next Occurrence](add_next2_occurrence)** | Adds the next next occurrence of the specified text to the selection. |
+| **[Select All Occurrences](select_all_occurrences)** | Selects all the occurrences of the specified text. |
+| [**Replace Next**](replace_next) | Replaces the next occurrence and finds the next occurrence. |
+| **[Set Word to Find](retrieve_find_text)** | Sets the current word as the query string. |
+| [**Set Word to Replace**](retrieve_replace_text) | Sets the current word as the replace string. |
+| **[Erase Find Highlight](erase_find_hilite)** | Erases highlights from search terms. |
+| **[Find Next Warning Character/Unicode](find_next_unicode)** | Finds the next warning or Unicode character that cannot be converted to the encoding for saving. |
+| **[Find Previous Warning Character/Unicode](find_prev_unicode)** | Finds the previous warning or Unicode character that cannot be converted to the encoding for saving. |
+| **[Erase Unicode Highlight](erase_unicode_hilite)** | Erases any highlights marking Unicode characters that cannot be converted to the <br> encoding for saving. |
+| **[Find in Files](grep)** | Searches multiple files for a matching string. |
+| **[Replace in Files](replace_in_files)** | Replaces text in multiple files. |
+| **[Set Focus to Filter Toolbar](focus_filter_bar)** | Sets the focus to the Filter toolbar. |
+| **[Close Filter Toolbar](close_filter_bar)** | Closes the Filter Toolbar. |
+| **[Browse Filter Expressions (Filter toolbar)](filterbar_browse_exp_f)** | Browses regular expressions or escape sequences for the Filter string used in the Filter toolbar. |
+| **[Refresh (Filter toolbar)](filterbar_refresh)** | Refreshes the document with the current filter settings. |
+| **[Abort (Filter toolbar)](filterbar_abort)** | Aborts filtering and empties the filter string. |
+| **[Incremental Search (Filter toolbar)](filterbar_incremental)** | Toggles the Incremental Search button on the Filter toolbar. |
+| **[Use Regular Expressions (Filter toolbar)](filterbar_reg_exp)** | Toggles the Use Regular Expressions button on the Filter toolbar. |
+| **[Use Escape Sequence (Filter toolbar)](filterbar_escape)** | Toggles the Use Escape Sequence button on the Filter toolbar. |
+| **[Use Number Range (Filter toolbar)](filterbar_number_range)** | Toggles the Use Number Range button on the Filter toolbar. |
+| **[Fuzzy Matching (Filter toolbar)](filterbar_fuzzy)** | Toggles the Fuzzy Matching button on the Filter toolbar. |
+| **[Match Case (Filter toolbar)](filterbar_case)** | Toggles the Match Case button on the Filter toolbar. |
+| **[Match Whole Word (Filter toolbar)](filterbar_only_word)** | Toggles the Match Whole Word button on the Filter toolbar. |
+| **[Match Whole String (Filter toolbar)](filterbar_whole_string)** | Toggles the Match Whole String button on the Filter toolbar. |
+| **[Negative (Filter toolbar)](filterbar_negative)** | Toggles the Negative button on the Filter toolbar. |
+| **[Bookmarked Lines Only (Filter toolbar)](filterbar_bookmarked_only)** | Toggles the Bookmarked Lines Only button on the Filter toolbar. |
+| **[Unbookmarked Lines Only (Filter toolbar)](filterbar_unbookmarked_only)** | Toggles the Unbookmarked Lines Only button on the Filter toolbar. |
+| **[Match Newline Characters (Filter toolbar)](filterbar_match_nl)** | Toggles the Match Newline Characters button on the Filter toolbar. |
+| **[CR Only (Filter toolbar)](filterbar_cr_only)** | Toggles the CR Only command on the Filter toolbar. |
+| **[LF Only (Filter toolbar)](filterbar_lf_only)** | Toggles the LF Only command on the Filter toolbar. |
+| **[CR+LF (Filter toolbar)](filterbar_cr_lf)** | Toggles the CR and LF command on the Filter toolbar. |
+| **[Others (Filter toolbar)](filterbar_nl_others)** | Toggles the Others command on the Filter toolbar. |
+| **[Advanced Filter (Filter toolbar)](filterbar_advanced)** | Shows the Advanced Filter dialog box. |
+| **[Block Multiline Changes (Filter toolbar)](filterbar_limit)** | Toggles the Block Multiline Changes button on the Filter toolbar. |
+| **[Bookmark All (Filter toolbar)](filterbar_bookmark)** | Sets a bookmark on every filtered line. |
+| **[Extract All Lines (Filter toolbar)](filterbar_extract)** | Extracts all filtered lines into a new document. |
+| **[Extract Matched Strings (Filter toolbar)](filterbar_extract_matches)** | Extracts matched strings into a new document. |
+| **[Extract Options (Filter toolbar)](filterbar_extract_options)** | Specifies options for the Extract Matched Strings command. |
+| **[Set Focus to Find Toolbar](focus_find_bar)** | Sets the focus to the Find toolbar. |
+| **[Close Find Toolbar](close_find_bar)** | Closes the Find Toolbar. |
+| **[Browse Find Expressions (Find toolbar)](findbar_browse_exp_f)** | Browses regular expressions or escape sequences for the Find string used in the Find toolbar. |
+| **[Browse Replace Expressions (Find toolbar)](findbar_browse_exp_r)** | Browses regular expressions or escape sequences for the Replace string. |
+| **[Find Previous (Find toolbar)](findbar_find_prev)** | Finds the previous occurrence using the Find toolbar. |
+| **[Find Next (Find toolbar)](findbar_find_next)** | Finds the next occurrence using the Find toolbar. |
+| **[Incremental Search (Find toolbar)](findbar_incremental)** | Toggles the Incremental Search button on the Find toolbar. |
+| **[Search All Open Documents (Find toolbar)](findbar_open_doc)** | Toggles the Search All Open Documents button on the Find toolbar. |
+| **[Use Regular Expressions (Find toolbar)](findbar_reg_exp)** | Toggles the Use Regular Expressions button on the Find toolbar. |
+| **[Use Escape Sequence (Find toolbar)](findbar_escape)** | Toggles the Use Escape Sequence button on the Find toolbar. |
+| **[Use Number Range (Find toolbar)](findbar_number_range)** | Toggles the Use Number Range button on the Find toolbar. |
+| **[Fuzzy Matching (Find toolbar)](findbar_fuzzy)** | Toggles the Fuzzy Matching button on the Find toolbar. |
+| **[Match Case (Find toolbar)](findbar_case)** | Toggles the Match Case button on the Find toolbar. |
+| **[Match Whole Word (Find toolbar)](findbar_only_word)** | Toggles the Match Whole Word button on the Find toolbar. |
+| **[Wrap Around (Find toolbar)](findbar_around)** | Toggles the Wrap Around button on the Find toolbar. |
+| **[Count Matches (Find toolbar)](findbar_count)** | Toggles the Count Matches button on the Find toolbar. |
+| **[Advanced (Find toolbar)](findbar_advanced)** | Displays the Advanced dialog box for the Find toolbar. |
+| **[Replace >> (Find toolbar)](findbar_replace_dlg)** | Toggles the Replace >> button on the Find toolbar. |
+| **[<< Find (Find toolbar)](findbar_find_dlg)** | Toggles the << Find button on the Find toolbar. |
+| **[Replace Next (Find toolbar)](findbar_replace_next)** | Replaces the next matched string using the Find toolbar. |
+| **[Replace All (Find toolbar)](findbar_replace_all)** | Replaces all the matched strings using the Find toolbar. |
+| **[In the Selection Only (Find toolbar)](findbar_sel_only)** | Toggles the In the Selection Only button on the Find toolbar. |
+| **[Extract Frequent Strings](extract_frequent)** | Extracts frequently used strings into a new document. |
+| **[Find Longest Line/Cell](find_longest)** | Finds the longest line in a non-CSV document or longest cell in the current column of a CSV document. |
+| **[Find Non-empty Shortest Line/Cell](find_shortest)** | Finds the non-empty shortest line in a non-CSV document or non-empty shortest cell in the current column of a CSV document. |
+| **[Find Shortest Line/Cell](find_empty_or_shortest)** | Finds the shortest line in a non-CSV document or shortest cell in the current column of a CSV document. |
+| **[Search Symbols](../tools/ql_symbols)** | Opens the Quick Launch window and selects symbols. |
 
 ```{toctree}
 :maxdepth: 1
@@ -126,7 +126,6 @@ findbar_browse_exp_f
 findbar_browse_exp_r
 findbar_case
 findbar_count
-findbar_embedded_newlines
 findbar_escape
 findbar_find_dlg
 findbar_find_next

@@ -1,27 +1,27 @@
-# 最上層顯示命令
+# Always on Top command
 
-### 摘要
+### Summary
 
-> 總是將該視窗顯示在最上層。
+> Toggles always on top status.
 
-### 說明
+### Description
 
-> 總是將該視窗顯示在最上層。如果視窗已經在最上方了，最上層顯示命令會被解除。其他文檔將一直在被設置為最上層顯示的文檔下方顯示。
+> Toggles always on top status. When always on top is enabled, the EmEditor window will stay visible when focus is lost.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **視窗** \> **最上層顯示**
-- [全部命令](../tools/all_commands): **視窗**
-\> **最上層顯示** \> **最上層顯示**
-- 工具列: ![](../../images/windowalwaystop.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Window** \> **Always on Top**
+- [All Commands](../tools/all_commands): **Window**
+\> **Always on Top** \> **Always on Top**
+- Toolbar: ![](../../images/windowalwaystop.gif)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_WINDOW\_ALWAYS\_TOP (4239)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

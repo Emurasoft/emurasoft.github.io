@@ -1,19 +1,21 @@
 # Editor\_AddRef
 
-I遞增外掛程式的引用號。您能直接用該內嵌函式或明確地發送 [EE\_ADD\_REF](../message/ee_add_ref) 消息。
+Increments the reference number of the plug-in. You can use this inline function or explicitly send the [EE\_ADD\_REF](../message/ee_add_ref) message.
 
 Editor\_AddRef( HWND hwnd, HINSTANCE hInstance );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _hInstance_
 
-> 為外掛程式指定實例句柄。
+> Specifies the instance handle for the plug-in.
 
-## 返回值
+## Return Values
 
-> 返回值是遞增后的外掛程式引用號。如果返回值小于或等于零，指定的外掛程式能從 EmEditor 上安全地卸載。
+> The return value is the reference number of the plug-in after incremented.
+> If the return value is less than or equal to zero, the specified plug-in can
+> be safely unloaded from EmEditor.

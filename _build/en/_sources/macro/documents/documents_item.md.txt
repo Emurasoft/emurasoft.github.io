@@ -1,6 +1,6 @@
-# Item 屬性
+# Item Property
 
-為指定索引的文檔檢索文檔對象。
+Retrieves the document object for the document of the specified index.
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ _doc_ = editor.Documents. **Item**( _Index_ );
 
 _doc_ = editor.Documents. **Item**( _Index_ )
 
-## 參數
+## Parameters
 
 _Index_
 
-指定以 1 為基準的整數為文檔的索引。
+Specifies the index of the document as a one-based integer.
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -26,6 +26,6 @@ alert( "Full Name for the first document: " + editor.Documents.Item(1).FullName 
 
 alert "Full Name for the first document: " & editor.Documents.Item(1).FullName
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

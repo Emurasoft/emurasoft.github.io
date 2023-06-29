@@ -1,6 +1,6 @@
-# CopyLink 方法
+# CopyLink Method
 
-複製游標處的超連結到剪貼簿上。
+Copies the hyperlink at the cursor to the Clipboard.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document.selection. **CopyLink**();
 
 document.selection. **CopyLink**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

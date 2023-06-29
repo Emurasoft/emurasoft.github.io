@@ -1,32 +1,37 @@
 # Editor\_LineFromChar
 
-檢索包含指定字元索引 (序列位置) 的行的索引。一個字元索引是以零為初始值的整個文字起始處的字元的索引。您能直接用該內嵌函式或明確地發送
+Retrieves the index of the line that contains the specified character index
+(the serial position). A character index is the zero-based index of the
+character from the beginning of the entire text. You can use this inline function or explicitly send the
 [EE\_LINE\_FROM\_CHAR](../message/ee_line_from_char)
-消息。
+message.
 
 Editor\_LineFromChar( HWND hwnd, int nLogical, UINT nSerialIndex );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nLogical_
 
-> 指定下列值之一。
+> Specify one of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | POS\_VIEW | 顯示坐標 |
-> | POS\_LOGICAL\_A | 邏輯坐標 (把雙位元字元計為兩個) |
-> | POS\_LOGICAL\_W | 邏輯坐標 (把雙位元字元計為一個) |
+> | POS\_VIEW | Display Coordinates |
+> | POS\_LOGICAL\_A | Logical Coordinates (Count double-byte characters as two) |
+> | POS\_LOGICAL\_W | Logical Coordinates (Count double-byte characters as one) |
 
 _nSerialIndex_
 
-> 指定被包含在要被檢索的行號中的字元的字元索引。如果參數是 -1，EE\_LINE\_FROM\_CHAR
-> 檢索目前的行 (游標所在行) 的行號。
+> Specifies the character index of the character contained in the line whose
+> number is to be retrieved. If this parameter is -1, EE\_LINE\_FROM\_CHAR
+> retrieves the line number of the current line (the line containing the
+> cursor).
 
-## 返回值
+## Return Values
 
-> 返回值是從零開始的、包含由 _nSerialIndex_ 指定的字元索引的行號。
+> The return value is the zero-based line number of the line containing the
+> character index specified by _nSerialIndex_.

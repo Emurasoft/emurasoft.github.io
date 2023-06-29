@@ -1,3 +1,8 @@
-# Q. 當我用 EmEditor 寫完一個 Java 類別并編譯它時，我得到一個錯誤提示說在我創建的類別開頭有 3 個無效字元。這個情況每次發生，但在我的類別關鍵字前，也就是錯誤提示指出的地方并沒有任何的字元。我該怎么處理?
+# Q. When I write a Java class with EmEditor and compile it I get an error that states that there are three invalid characters at the beginning of my class. This happens every time and I do not have any characters before the class keyword, which is where the error says they are.
 
-在檔案頂端的 3 個字元是 UTF-8 檔案的字節順序標記 (Byte Order Mark)。在預設情況下，Java 檔案是作為含有 BOM 的 UTF-8 檔案被創建的，但這個預設設定可以更改。請參考下列步驟: **Java 屬性** \> **檔案** 頁面 \> **「新增檔案」** 按鈕 \> 取消勾選 **添加一個 Unicode 簽名 (BOM)** 核取方塊。
+The three characters at the top of your file are the "Byte Order Mark" of a
+UTF-8 file. By default, a Java file is created as UTF-8 with BOM. You can change
+the default code page for new files from **Java Properties** \> **File**
+tab > **New Files**
+button, and change the code page to Normal ANSI, or uncheck the **Add a Unicode**
+**Signature** (BOM) box.

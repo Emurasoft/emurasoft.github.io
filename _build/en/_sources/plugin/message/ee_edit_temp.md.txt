@@ -1,7 +1,7 @@
 # EE\_EDIT\_TEMP
 
-把臨時文本作為一個新文檔打開，或激活、保存或關閉已存在的臨時文本。您能明確地發送該消息或用 [Editor\_ActivateTemp](../macro/editor_activatetemp)， [Editor\_CloseTemp](../macro/editor_closetemp)，
-[Editor\_EditTemp](../macro/editor_edittemp)，或 [Editor\_SaveTemp](../macro/editor_savetemp) 內嵌函式。
+Opens temporary text as a new document, or activates, saves, or closes the existing temporary text. You can send this message explicitly or by using the [Editor\_ActivateTemp](../macro/editor_activatetemp), [Editor\_CloseTemp](../macro/editor_closetemp),
+[Editor\_EditTemp](../macro/editor_edittemp), or [Editor\_SaveTemp](../macro/editor_savetemp) inline function.
 
 EE\_EDIT\_TEMP
 
@@ -9,16 +9,16 @@ wParam = 0;
 
 lParam = (LPARAM) (TEMP\_INFO) pTI;
 
-## 參數
+## Parameters
 
 _pTI_
 
-> 指針指向 [TEMP\_INFO](../structure/temp_info) 結構。
+> Pointer to the [TEMP\_INFO](../structure/temp_info) structure.
 
-## 返回值
+## Return Values
 
-> 返回值是新文檔的 ID。然而，當關閉一個臨時文本時，不使用返回值。
+> The return value is the ID of the new document. However, it is not used when closing a temporary text.
 
-## 支持版本
+## Version
 
-支持 EmEditor 9.00 或之後的版本。
+Supported on EmEditor Version 9.00 or later.

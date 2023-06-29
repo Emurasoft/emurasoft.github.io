@@ -1,7 +1,7 @@
-# 「儲存參數？」頁面
+# Save Options ? page
 
-這個頁面讓您能儲存設定。
+This page allows you to save the settings.
 
-### 「儲存參數」核取方塊
+### Save options check box
 
-如果勾選了該核取方塊，設定會被儲存。
+If this is checked, the settings will be saved.

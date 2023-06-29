@@ -1,17 +1,21 @@
-# 更改換行方式
+# To Change Wrapping Mode
 
-在工具列上點擊
+Click
 ![No Wrap](../../images/wrapnone.gif)
-不換行，
-![Wrap by Characters](../../images/wrapbychar.gif) 按指定字元數換行，
-![Wrap by Window](../../images/wrapbywindow.gif) 按視窗大小換行，或
+on the Toolbar to not wrap lines at all,
+![Wrap by Characters](../../images/wrapbychar.gif) to wrap by
+the specified number of characters,
+![Wrap by Window](../../images/wrapbywindow.gif) to
+wrap by the size of the window, or
 ![Wrap by Page](../../images/wrapbypage.gif)
-按頁面大小換行。
+to wrap by the size of the page.
 
-## 提示
+## Tips
 
-- 要更改按字元換行的字元數，點擊
+- To change the character counts when wrapping by characters,
+click
 ![Properties for Current Configuration](../../images/properties.gif)
-(如果您只想更改目前的組態) 或
+(if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
-(如果您想要更改所有組態) 并到 **一般** 頁面上更改 **標準行邊距** 以及 **引用行邊距。**
+(if you want to change all configurations) to
+show the **General** tab and change the **Normal Line Margin** and **Quoted Line Margin.**

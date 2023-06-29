@@ -1,8 +1,8 @@
-# Script 指示詞
+# Script Directives
 
-## 版本
+## Version
 
-支持 EmEditor 6.00 或之後的版本。
+Supported on EmEditor Professional Version 6.00 or later.
 
 ```{toctree}
 :maxdepth: 1

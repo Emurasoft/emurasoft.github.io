@@ -1,28 +1,28 @@
-# 總是置頂 \- 關命令
+# Always on Top - Off command
 
-### 摘要
+### Summary
 
-> 取消將該視窗置頂顯示。
+> Disables always on top.
 
-### 說明
+### Description
 
-> 解除目前的視窗總是置頂的狀態。其他文檔將一直在被設置為總是置頂的文檔下方顯示。
+> Disables always on top.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **視窗** \>
-**總是置頂** \>
-**總是置頂 \- 關**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Window** \>
+**Always on Top** \>
+**Always on Top - Off**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_WINDOW\_ALWAYS\_TOP\_OFF (4344)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

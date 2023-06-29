@@ -1,11 +1,12 @@
-# 儲存并全部關閉
+# To Save and Close All
 
-選擇 **檔案** 功能表下 **儲存并關閉** 命令的同時按下 SHIFT 鍵。
+Select **Save and Close** under the **File** menu while pressing the
+SHIFT key.
 
-## 提示
+## Tips
 
-另外，您也可以用下列方式儲存并推出所有視窗。
+Alternatively, you can save and exit all in the following ways.
 
-- 按 CTRL + SHIFT + E。
-- 從 **檔案** 功能表下選擇 **儲存并全部關閉**。
-- 點擊系統匣圖示，并從功能表上選擇 **儲存并全部關閉**。
+- Press CTRL + SHIFT + E.
+- Select **Save All and Close** from the **File** menu.
+- Click the tray icon, and select **Save All and Close** from the menu.

@@ -23,7 +23,6 @@ div#top_nav nav p#toggle_sidebar a {
 
 .languageDropdown {
     position: relative;
-    display: inline-flex;
 }
 
 .languageDropdown a {
@@ -47,4 +46,9 @@ div#top_nav nav p#toggle_sidebar a {
 div#searchbox form.search input[type="text"] {
     background-color: #ffffff;
     color: #333333;
+}
+
+div.document form input[type="submit"] {
+    color: #333333;
+    background-color: #f2f2f2;
 }

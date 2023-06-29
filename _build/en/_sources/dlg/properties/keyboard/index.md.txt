@@ -1,47 +1,50 @@
-# 「鍵盤」頁面
+# Keyboard page
 
-**鍵盤** 頁面讓您能設置與基本操作相關的屬性。
+The **Keyboard** page allows you to set properties related to basic
+operations.
 
-### 「類別」下拉清單方塊
+### Category drop-down list box
 
-命令的可用類別。
+Available category for commands.
 
-### 「命令」下拉清單方塊
+### Commands drop-down list box
 
-在選取的類別中可用的命令。Commands available for the selected category.
+Commands available for the selected category.
 
-### 「<」按鈕
+### < button
 
-跳回到之前選取的命令處。
+Jumps back to the previously selected command.
 
-### 「按下新的快速鍵」文字方塊
+### Press New Shortcut Key text box
 
-為選取的命令按下新的快速鍵。
+Enter shortcut key for the selected command.
 
-### 「目前的已被分配到」文字
+### Currently Assigned to text
 
-顯示剛按下的快速鍵目前被分配的命令。
+Command that the shortcut key just pressed is currently assigned to.
 
-### 「>」按鈕
+### \> button
 
-跳轉到與目前的已被分配的鍵相關的命令上。
+Jumps to the command that the currently assigned key is associated with.
 
-### 「目前的鍵」清單方塊
+### Current Keys list box
 
-被分配給選取命令的目前的鍵。
+Current keys assigned to the selected command.
 
-### 「描述」文字方塊
+### Description text box
 
-選取命令的描述。
+Description for the selected command.
 
-### 「分配」按鈕
+### Assign button
 
-分配快速鍵給目前的選取的命令。
+Assign the shortcut key to the currently selected command.
 
-### 「刪除」按鈕
+### Delete button
 
-刪除目前的被選取的快速鍵。
+Delete the currently selected shortcut key.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。會顯示 [**重設** 對話方塊](../reset/index) 并讓您能從另一個組態複製設定。
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.

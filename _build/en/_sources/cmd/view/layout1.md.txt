@@ -1,26 +1,26 @@
-# 版面配置命令
+# Layout command
 
-### 摘要
+### Summary
 
-> 切換此版面配置（多個項目）。
+> Toggles this layout (multiple items).
 
-### 說明
+### Description
 
-> 切換此版面配置（多個項目）。
+> Toggles this layout (multiple items).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **版面配置** \> （ **版面配置**）
-- [全部命令](../tools/all_commands): **檢視** \> **版面配置** \> （ **版面配置**）
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **View** \> **Layouts** \> ( **Layout**)
+- [All Commands](../tools/all_commands): **View** \> **Layouts** \> ( **Layout**)
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_LAYOUT1 (22592)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

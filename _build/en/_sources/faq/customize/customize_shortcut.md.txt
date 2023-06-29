@@ -1,3 +1,6 @@
-# Q. 在更新 EmEditor 后，怎么把新命令添加到一個功能表中或添加給新的命令添加鍵盤快速鍵？
+# Q. After updating EmEditor to the newest version, how can I add the new commands to a menu or add the new keyboard shortcuts?
 
-如果新命令沒有在功能表中顯示，請到「 **工具**」功能表下的「 **自訂功能表**」中，點擊「 **重設**」按鈕，還原功能表的預設設置。要添加新的命令快速鍵，請到「 **所有組態屬性**」中的「 **鍵盤**」頁面上點擊「 **重設**」。
+If the new commands do not show up in a menu, select **Customize Menus**
+under the **Tools** menu, and click on the **Reset** button to reset the menus to their
+defaults. To add new command shortcuts, click on the **Reset** button in the
+**Keyboard** tab of **Properties for All Configurations**.

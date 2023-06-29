@@ -1,4 +1,4 @@
-# 命令參考
+# Command Reference
 
 ```{toctree}
 :maxdepth: 1

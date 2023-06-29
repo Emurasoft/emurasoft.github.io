@@ -1,27 +1,28 @@
-# 延伸選區到下一頁命令
+# Page Down Extend command
 
-### 摘要
+### Summary
 
-> 把選區向下延伸一頁。
+> Extends the selection down one page.
 
-### 說明
+### Description
 
-> 把選區向下延伸一頁。如果組態屬性對話方塊中的 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **捲動半頁** 核取方塊被勾選的話，游標只會移動半頁。
+> Extends the selection down one page. The cursor moves a half page if the **Scroll Half Page** check box is checked on the
+> [**Scroll** page](../../dlg/properties/scroll/index) of the Configuration Properties dialog box.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **垂直移動游標**
-\> **延伸選區到下一頁**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: SHIFT+PAGE DOWN
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
+\> **Page Down**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: SHIFT+PAGE DOWN
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SHIFT\_PAGEDOWN (4179)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

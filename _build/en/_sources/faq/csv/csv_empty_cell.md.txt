@@ -1,3 +1,3 @@
-# Q. 如何僅顯示欄中的空儲存格？
+# Q. How can I display only empty cells in a column?
 
-右鍵單擊空儲存格，然后從內容功能表中選擇「在欄中篩選」。
+Right-click on an empty cell, and select **Filter in Column** from the context menu.

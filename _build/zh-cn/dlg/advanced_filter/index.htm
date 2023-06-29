@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>“高级筛选”对话框 &#8212; EmEditor  文档</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="索引" href="../../genindex.htm" />
+    <link rel="search" title="搜索" href="../../search.htm" />
+    <link rel="next" title="“高级打开”对话框" href="../advanced_open/index.htm" />
+    <link rel="prev" title="“高级”对话框" href="../advanced/index.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  文档</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/dlg/advanced_filter/index">English</a>
+                <a href="/emeditor-help/ja/dlg/advanced_filter/index">日本語</a>
+                <a href="/emeditor-help/ko/dlg/advanced_filter/index">한국어</a>
+                <a href="/emeditor-help/zh-cn/dlg/advanced_filter/index">简体中文</a>
+                <a href="/emeditor-help/zh-tw/dlg/advanced_filter/index">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">快速搜索</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.htm">命令参考</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">对话框</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../about/index.htm">“关于 EmEditor”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced/index.htm">“高级”对话框</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">“高级筛选”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced_open/index.htm">“高级打开”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../auto_fill/index.htm">“自动填充”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../batch_options/index.htm">“批处理选项”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../character_code_value_dialog/index.htm">“字符代码值”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../clear_history/index.htm">“立即（退出时）清除历史记录”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../combine_columns/index.htm">“合并列”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../combine_files/index.htm">合并文件向导</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../combine_lines/index.htm">“合并行”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration_associations/index.htm">“文件关联配置”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configurations/index.htm">“定义配置”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../convert/index.htm">“半角/全角转换”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.htm">“自定义”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../customize_markers/index.htm">“自定义标记”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../customize_start/index.htm">“自定义启动窗口”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../delete_duplicate_advanced/index.htm">“删除/把重复行设为书签”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../detect_result/index.htm">“检测全部结果”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../encodings/index.htm">“定义编码”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extract_columns/index.htm">提取列”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extract_frequent/index.htm">“提取常用字符串”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extract_options/index.htm">“提取选项”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_associate/index.htm">“与 EmEditor 关联”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../filter_extract_options/index.htm">“筛选提取选项”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../find/index.htm">“查找”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../find_in_files/index.htm">“在文件中查找”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fuzzy_options/index.htm">“模糊匹配选项”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../import_export/index.htm">导入导出向导</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert_numbering/index.htm">“插入编号”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert_special/index.htm">“插入特殊字符”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../join_csv/index.htm">“合并 CSV”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../jump/index.htm">“跳转”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro_customize/index.htm">“自定义宏”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro_temp_options/index.htm">“宏临时选项”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../manage_columns/index.htm">“管理列”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../menus/index.htm">“自定义菜单”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../move_column/index.htm">“移动/复制列”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../number_range/index.htm">“输入数字范围”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../opening/index.htm">“如何购买”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pivot_table/index.htm">“数据透视表”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugins/index.htm">“自定义插件”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../properties/index.htm">配置属性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regist/index.htm">“注册产品”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../repeat_count/index.htm">“重复”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../replace/index.htm">“替换”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../replace_in_files/index.htm">“在文件中替换”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../save_all_as/index.htm">“以指定编码全部保存”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort_columns/index.htm">“列排序”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort_multi/index.htm">“高级排序”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort_sel/index.htm">“选区排序”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../split_column/index.htm">“拆分列”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../split_to_files/index.htm">分割文件向导</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../toolbars/index.htm">“工具栏”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/index.htm">“外部工具”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tray/index.htm">“自定义托盘图标”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../undo_history/index.htm">“撤消/重做历史”对话框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../unpivot/index.htm">“逆透视”对话框</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">常见问题解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">术语表</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">历史记录</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.htm">如何…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">链接</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">宏参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">声明</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.htm">插件参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">如何购买</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">对话框</a> &lt;
+                “高级筛选”对话框
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>“高级筛选”对话框<a class="headerlink" href="#id1" title="此标题的永久链接">¶</a></h1>
+<p>这个对话框会出现当你选择了
+<strong>高级筛选</strong> 命令或按了 <strong>筛选</strong> 工具栏上的
+<strong>「高级筛选」</strong> 按钮。</p>
+<section id="id2">
+<h2>“查找 | 列 | 条件”列表框<a class="headerlink" href="#id2" title="此标题的永久链接">¶</a></h2>
+<p>用列表来显示定义过的筛选。</p>
+</section>
+<section id="id3">
+<h2>“列”下拉列表框<a class="headerlink" href="#id3" title="此标题的永久链接">¶</a></h2>
+<p>更改列表中“列”的选项。</p>
+</section>
+<section id="id4">
+<h2>“大小写需符合”复选框<a class="headerlink" href="#id4" title="此标题的永久链接">¶</a></h2>
+<p>大小写需符合当搜索一个字符串时。</p>
+</section>
+<section id="id5">
+<h2>“整个单词需匹配”复选框<a class="headerlink" href="#id5" title="此标题的永久链接">¶</a></h2>
+<p>仅搜索单词。一个单词被定义为一个以这些字符开头并结尾的字符串: A – Z，a – z，0 – 9，或下划线。由全角字符包围的字符串被认为是单词。当使用正则表达式时，该复选框可能不能正常运作。当使用正则表达式时，请用单词边界表达式（\&lt;，\&gt;，以及 \b）。</p>
+</section>
+<section id="id6">
+<h2>“匹配整个字符串”复选框<a class="headerlink" href="#id6" title="此标题的永久链接">¶</a></h2>
+<p>匹配所选列，字符位置或整行中的整个项目。建议尽可能设置此选项以优化筛选的速度。当使用逻辑或运算定义多个筛选条件时，请为所有条件设置此选项，以便更快地提高筛选速度。</p>
+</section>
+<section id="id7">
+<h2>“反向”复选框<a class="headerlink" href="#id7" title="此标题的永久链接">¶</a></h2>
+<p>勾选该复选框将会排除所有匹配的搜索结果。文档会隐藏所有与指定字符串相匹配的结果。</p>
+</section>
+<section id="id8">
+<h2>“仅书签行”复选框<a class="headerlink" href="#id8" title="此标题的永久链接">¶</a></h2>
+<p>仅匹配书签行。</p>
+</section>
+<section id="id9">
+<h2>“仅未标记书签的行”复选框<a class="headerlink" href="#id9" title="此标题的永久链接">¶</a></h2>
+<p>仅匹配未标记书签的行。</p>
+</section>
+<section id="id10">
+<h2>“（无）”单选按钮<a class="headerlink" href="#id10" title="此标题的永久链接">¶</a></h2>
+<p>指定字符串应按字面意思匹配。</p>
+</section>
+<section id="id11">
+<h2>“正则表达式”单选按钮<a class="headerlink" href="#id11" title="此标题的永久链接">¶</a></h2>
+<p>启用 <a class="reference internal" href="../../howto/search/search_regexp.htm"><span class="doc std std-doc">正则表达式</span></a>。</p>
+</section>
+<section id="id12">
+<h2>“转义序列”单选按钮<a class="headerlink" href="#id12" title="此标题的永久链接">¶</a></h2>
+<p>启用转义序列。你能把下列字符作为转义序列。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>\a</p></td>
+<td><p>警告（响铃）</p></td>
+</tr>
+<tr class="row-odd"><td><p>\b</p></td>
+<td><p>退格</p></td>
+</tr>
+<tr class="row-even"><td><p>\f</p></td>
+<td><p>换页</p></td>
+</tr>
+<tr class="row-odd"><td><p>\n</p></td>
+<td><p>换行符</p></td>
+</tr>
+<tr class="row-even"><td><p>\t</p></td>
+<td><p>水平制表符</p></td>
+</tr>
+<tr class="row-odd"><td><p>\v</p></td>
+<td><p>垂直制表符</p></td>
+</tr>
+<tr class="row-even"><td><p>\</p></td>
+<td><p>反斜杠</p></td>
+</tr>
+<tr class="row-odd"><td><p>\oooooo</p></td>
+<td><p>Unicode 字符在八进制表达式中</p></td>
+</tr>
+<tr class="row-even"><td><p>\xhhhh</p></td>
+<td><p>Unicode 字符在十六进制表达式中</p></td>
+</tr>
+</tbody>
+</table>
+<p>空字符（\0）可能不能使用。一定要用 \n 而不是 \r。</p>
+</section>
+<section id="id13">
+<h2>“数字范围”单选按钮<a class="headerlink" href="#id13" title="此标题的永久链接">¶</a></h2>
+<p>启用 <a class="reference internal" href="../../howto/search/number_range_syntax.htm"><span class="doc std std-doc">数字范围表达式</span></a>。</p>
+</section>
+<section id="id14">
+<h2>“匹配换行符”复选框<a class="headerlink" href="#id14" title="此标题的永久链接">¶</a></h2>
+<p>匹配指定换行符。此选项应与 <strong>仅 CR</strong>， <strong>仅 LF</strong>， <strong>仅 CR+LF</strong>，以及/或 <strong>其他</strong> 复选框合用。</p>
+</section>
+<section id="cr">
+<h2>“仅 CR”复选框<a class="headerlink" href="#cr" title="此标题的永久链接">¶</a></h2>
+<p>只匹配换行符是 CR 的行。此选项应与 <strong>匹配换行符</strong> 选项合用。</p>
+</section>
+<section id="lf">
+<h2>“仅 LF”复选框<a class="headerlink" href="#lf" title="此标题的永久链接">¶</a></h2>
+<p>只匹配换行符是 LF 的行。此选项应与 <strong>匹配换行符</strong> 选项合用。</p>
+</section>
+<section id="cr-lf">
+<h2>“CR+LF”复选框<a class="headerlink" href="#cr-lf" title="此标题的永久链接">¶</a></h2>
+<p>匹配换行符是 CR+LF 的行。此选项应与 <strong>匹配换行符</strong> 选项合用。</p>
+</section>
+<section id="id15">
+<h2>“其他”复选框<a class="headerlink" href="#id15" title="此标题的永久链接">¶</a></h2>
+<p>匹配没有换行符的行。这些行包括文件的最后一行以及非常长的行，例如继续到下一行而没有换行符的行。此选项应与 <strong>匹配换行符</strong> 选项合用。</p>
+</section>
+<section id="id16">
+<h2>“开始筛选”复选框<a class="headerlink" href="#id16" title="此标题的永久链接">¶</a></h2>
+<p>用字符数指定开始筛选的位置。如果同时存在“开始筛选”的项和另一个“结束筛选”的项，则 EmEditor 仅显示与“开始筛选”匹配的行和与“结束筛选”匹配的行之间的行。</p>
+</section>
+<section id="id17">
+<h2>“结束筛选”复选框<a class="headerlink" href="#id17" title="此标题的永久链接">¶</a></h2>
+<p>用字符数指定结束筛选的位置。</p>
+</section>
+<section id="or">
+<h2>“对前一个条件用逻辑或运算 (OR)”复选框<a class="headerlink" href="#or" title="此标题的永久链接">¶</a></h2>
+<p>对当前条件与前一个条件执行逻辑或运算 (OR)。如果不勾选该复选框，会默认使用逻辑与运算 (AND)。</p>
+</section>
+<section id="id18">
+<h2>「筛选」按钮<a class="headerlink" href="#id18" title="此标题的永久链接">¶</a></h2>
+<p>应用指定的筛选条件。</p>
+</section>
+<section id="id19">
+<h2>「设为书签」按钮<a class="headerlink" href="#id19" title="此标题的永久链接">¶</a></h2>
+<p>把满足指定条件的行设为书签。</p>
+</section>
+<section id="id20">
+<h2>「中止」按钮<a class="headerlink" href="#id20" title="此标题的永久链接">¶</a></h2>
+<p>中止当前的筛选。</p>
+</section>
+<section id="id21">
+<h2>「导入」按钮<a class="headerlink" href="#id21" title="此标题的永久链接">¶</a></h2>
+<p>导入之前导出的包含筛选条件的 TSV 文件。</p>
+</section>
+<section id="id22">
+<h2>「导出」按钮<a class="headerlink" href="#id22" title="此标题的永久链接">¶</a></h2>
+<p>把已定义的筛选条件导出到一个文件中。文件格式可以是 TSV，JavaScript 或 VBScript 宏格式。</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">“高级筛选”对话框</a><ul>
+<li><a class="reference internal" href="#id2">“查找 | 列 | 条件”列表框</a></li>
+<li><a class="reference internal" href="#id3">“列”下拉列表框</a></li>
+<li><a class="reference internal" href="#id4">“大小写需符合”复选框</a></li>
+<li><a class="reference internal" href="#id5">“整个单词需匹配”复选框</a></li>
+<li><a class="reference internal" href="#id6">“匹配整个字符串”复选框</a></li>
+<li><a class="reference internal" href="#id7">“反向”复选框</a></li>
+<li><a class="reference internal" href="#id8">“仅书签行”复选框</a></li>
+<li><a class="reference internal" href="#id9">“仅未标记书签的行”复选框</a></li>
+<li><a class="reference internal" href="#id10">“（无）”单选按钮</a></li>
+<li><a class="reference internal" href="#id11">“正则表达式”单选按钮</a></li>
+<li><a class="reference internal" href="#id12">“转义序列”单选按钮</a></li>
+<li><a class="reference internal" href="#id13">“数字范围”单选按钮</a></li>
+<li><a class="reference internal" href="#id14">“匹配换行符”复选框</a></li>
+<li><a class="reference internal" href="#cr">“仅 CR”复选框</a></li>
+<li><a class="reference internal" href="#lf">“仅 LF”复选框</a></li>
+<li><a class="reference internal" href="#cr-lf">“CR+LF”复选框</a></li>
+<li><a class="reference internal" href="#id15">“其他”复选框</a></li>
+<li><a class="reference internal" href="#id16">“开始筛选”复选框</a></li>
+<li><a class="reference internal" href="#id17">“结束筛选”复选框</a></li>
+<li><a class="reference internal" href="#or">“对前一个条件用逻辑或运算 (OR)”复选框</a></li>
+<li><a class="reference internal" href="#id18">「筛选」按钮</a></li>
+<li><a class="reference internal" href="#id19">「设为书签」按钮</a></li>
+<li><a class="reference internal" href="#id20">「中止」按钮</a></li>
+<li><a class="reference internal" href="#id21">「导入」按钮</a></li>
+<li><a class="reference internal" href="#id22">「导出」按钮</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; 版权所有 2023 Emurasoft.
+      由 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1创建。
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

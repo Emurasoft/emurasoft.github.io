@@ -1,6 +1,6 @@
 # INFO\_EX\_DATA
 
-用於 [**EE\_INFO\_EX** 消息](../message/ee_info_ex)。
+Used by [**EE\_INFO\_EX** message](../message/ee_info_ex).
 
 typedef struct \_INFO\_EX\_DATA {
 
@@ -14,24 +14,25 @@ LPARAM lParam;
 
 } INFO\_EX\_DATA;
 
-## 欄位
+## Fields
 
 _cbSize_
 
-> 必須是 sizeof(INFO\_EX\_DATA)。
+> Must be sizeof(INFO\_EX\_DATA).
 
 _nCmd_
 
-> 指定要檢索或設定的參數。請參閱 [**EE\_INFO** 消息](../message/ee_info) 的命令清單。
+> Specifies a parameter to retrieve or set. Please see the
+> [**EE\_INFO** message](../message/ee_info) for the list of commands.
 
 _hDoc_
 
-> 指定目標文件的控點。如果指定 NULL，則目前使用中的文件將成為目標。根據 _nCmd_，也有可能不使用該欄位。
+> Specifies the handle to the target document. If NULL is specified, the currently active document will be targeted. This field may not be used depending on _nCmd_.
 
 _lParam_
 
-> 取決於指定的參數。
+> Depends on the parameter specified.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional v21.8 或之後的版本。
+> Supported on EmEditor Professional Version 21.8 or later.

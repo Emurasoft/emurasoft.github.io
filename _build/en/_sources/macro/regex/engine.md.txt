@@ -1,14 +1,14 @@
-# Engine 屬性
+# Engine Property
 
-設置會檢索規則運算式引擎類型。
+Sets or retrieves the type of the regular expression engine.
 
-該值必須是下列值之一。
+The value must be one of the following values.
 
 |     |     |
 | --- | --- |
-| 0 | 使用預設規則運算式引擎。 |
-| eeExFindRegexBoost | 把 Boost.Regex 作為規則運算式引擎。 |
-| eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎。 |
+| 0 | Uses the default regular expression engine. |
+| eeExFindRegexBoost | Uses Boost.Regex as the regular expression engine. |
+| eeExFindRegexOnigmo | Uses Onigmo as the regular expression engine. |
 
 #### \[JavaScript\]
 
@@ -22,6 +22,6 @@ _n_ = reg. **Engine**;
 
 reg. **Engine** = _n_;
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 15.9 或之後的版本。
+Supported on EmEditor Professional Version 15.9 or later.

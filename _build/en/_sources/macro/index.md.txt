@@ -1,16 +1,16 @@
-# 巨集參考
+# Macro Reference
 
-## 概述
+## Overview
 
-## 常用對象
+## Frequently Used Objects
 
-## 所有對象
+## All  Objects
 
-## 常數和指示詞
+## Constants and Directives
 
-## 版本
+## Version
 
-把正在編寫中的巨集儲存到檔案中在 EmEditor 4.00 或之後的版本上支持。
+Scripting macros to save into files are supported on EmEditor Professional Version 4.00 or later.
 
 ```{toctree}
 :maxdepth: 1

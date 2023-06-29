@@ -1,6 +1,6 @@
-# Italic 屬性
+# Italic Property
 
-True 如果字型的格式被設置為斜體。
+True if the font is formatted as Italic.
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ item. **Italic**
 
 item. **Italic** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

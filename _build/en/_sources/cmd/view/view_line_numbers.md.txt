@@ -1,28 +1,28 @@
-# 行號命令
+# Line Numbers command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏行號。
+> Shows or hides line numbers.
 
-### 說明
+### Description
 
-> 顯示或隱藏行號。在預設設定下，EmEditor 不顯示行號。
+> Shows or hides line numbers. By default, EmEditor does not display line numbers.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **行號**
-- [全部命令](../tools/all_commands): **檢視** >
-**行號**
-- 工具列:
+- Default Menu: **View** \> **Line Numbers**
+- [All Commands](../tools/all_commands): **View** >
+**Line Numbers**
+- Toolbar:
 ![](../../images/line_number24x16.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_VIEW\_LINE\_NUMBERS (4530)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

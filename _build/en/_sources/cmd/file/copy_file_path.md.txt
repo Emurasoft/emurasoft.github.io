@@ -1,27 +1,28 @@
-# 複製檔案完整路徑命令
+# Copy File Path Name command
 
-### 摘要
+### Summary
 
-> 複製目前的檔案的完整路徑名到剪貼簿。
+> Copies the full path of the current file to the Clipboard.
 
-### 說明
+### Description
 
-> 複製目前的檔案的完整路徑名，并把它置放到剪貼簿上。如果文檔沒有標題，這個命令則不能被選取。
+> Copies the full path name of the file and puts it on the Clipboard. This
+> command cannot be selected if the document is untitled.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檔案** \> **複製檔案完整路徑**
-- [全部命令](../tools/all_commands): **檔案** \> **複製**
-\> **檔案完整路徑**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **File** \> **Copy File Path Name**
+- [All Commands](../tools/all_commands): **File** \> **Copy**
+\> **File Path Name**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_COPY\_FILE\_PATH (4326)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

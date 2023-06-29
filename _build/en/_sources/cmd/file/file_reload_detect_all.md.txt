@@ -1,27 +1,36 @@
-# 重新載入并偵測所有編碼命令
+# Reload Detect All command
 
-### 摘要
+### Summary
 
-> 使用最適合的編碼重新載入目前的檔案。
+> Reloads the current file using the best-fit encoding.
 
-### 說明
+### Description
 
-> 這個命令會用從 Windows 操作系統上所有可用編碼中統計偵測到的一個編碼來從磁盤上重新載入目前的檔案。偵測可能失敗，特別是當檔案很小的話。這個命令只有當您的 IE 瀏覽器是 5.0 或之後的版本才可用。如果文檔在 EmEditor 中被更改了，那么 EmEditor 會顯示一條提示消息 "您確定您想要放棄更改嗎？"。選擇 **Yes** 會放棄之前所做的修改，并且重新載入新的內容。選擇 **No** 會中止重新載入并讓您繼續編輯文檔。
+> This command reloads the current file from the disk with an
+> encoding statistically detected from all encodings available on the Windows
+> Operating System. The detection may fail, especially when the file is small.
+> This command is available only when Internet Explorer 5.0 or later is
+> installed. If the document is changed within EmEditor, the prompt message
+> "Are you sure you want to abandon changes?" appears. Selecting **Yes**
+> will discard the changes without saving, and will reload the new contents.
+> Selecting **No** will abort reloading and will allow you to continue
+> editing the document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檔案** \> **重新載入** \> **全部偵測**
-- [全部命令](../tools/all_commands): **檔案** \> **重新載入**
-\> **全部偵測**
-- 工具列: ![](../../images/reload.gif) (點擊箭頭) \> **全部偵測**
-- 狀態列: (在顯示的 **編碼** 上雙擊) \> **全部偵測**
-- 預設捷徑: 無
+- Default Menu: **File** \> **Reload** \> **Detect All**
+- [All Commands](../tools/all_commands): **File** \> **Reload**
+\> **Detect All**
+- Toolbar: ![](../../images/reload.gif) (on
+the arrow) > **Detect All**
+- Status Bar: (double-click on **Encoding**) \> **Detect All**
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILE\_RELOAD\_DETECT\_ALL (4279)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

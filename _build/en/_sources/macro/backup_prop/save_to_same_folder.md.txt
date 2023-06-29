@@ -1,6 +1,8 @@
-# SaveToSameFolder 屬性
+# SaveToSameFolder Property
 
-與組態屬性中 [**備份** 頁面](../../dlg/properties/backup/index) 上的 **儲存備份檔案到源檔案所在資料夾** 核取方塊對應。
+Corresponds to the **Save**
+**Backups to the Same Folder** check box in the
+[**Backup** page](../../dlg/properties/backup/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +18,6 @@ object. **SaveToSameFolder**
 
 object. **SaveToSameFolder** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

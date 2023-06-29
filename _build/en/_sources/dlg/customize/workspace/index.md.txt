@@ -1,44 +1,45 @@
-# 「工作區」頁面
+# Workspace page
 
-**工作區** 頁面讓您能自訂與 EmEditor 工作區相關的設定。
+The **Workspace** page allows you to customize settings related to EmEditor
+workspaces.
 
-### 「自動工作區」下拉清單方塊
+### Automatic Workspace drop-down list box
 
-指定儲存和加載行為。您可以從下列選項中選擇:
+Specifies the save and load behavior. Select one of the following options:
 
 |     |     |
 | --- | --- |
-| **無** | 不儲存或還原工作區。 |
-| **僅儲存** | 當即將關閉最後一個分組時，工作區將自動儲存，但在啟動 EmEditor 時不會自動恢復工作區。 |
-| **僅加載** | 當啟動 EmEditor 時，將自動恢復工作區，但當要關閉最後一個分組時不會自動儲存工作區。 |
-| **儲存並還原** | 當即將關閉最後一個分組時，將自動儲存工作區，並在 EmEditor 啟動時自動恢復。 |
-| **儲存還原並保留復原信息** | 當即將關閉最後一個分組時，將自動儲存工作區，並在 EmEditor 啟動時自動恢復。同時還會儲存和恢復復原和重做信息。 |
-| **儲存還原並保留復原信息，且不提示儲存檔案** | 當即將關閉最後一個分組時，將自動儲存工作區，並在 EmEditor 啟動時自動恢復。同時還會儲存和恢復復原和重做信息，並在關閉最後一個分組時不顯示儲存檔案的提示。 |
+| **None** | Does not save or restore the workspace. |
+| **Save Only** | The workspace will be saved automatically when the last group is about to close, but will not restore the workspace automatically when EmEditor is launched. |
+| **Load Only** | The workspace will be restored automatically when EmEditor is launched, but will not save the workspace automatically when the last group is about to close. |
+| **Save and Restore** | The workspace will be saved automatically when the last group is about to close, and restored automatically when EmEditor is launched. |
+| **Save, Restore and Keep Undo Information** | The workspace will be saved automatically when the last group is about to close, and restored automatically when EmEditor is launched. The undo and redo information is also saved and restored. |
+| **Save, Restore and Keep Undo Information, and No Prompt to Save Files** | The workspace will be saved automatically when the last group is about to close, and restored automatically when EmEditor is launched. The undo and redo information is also saved and restored, and no prompt to save files is displayed when you close the last group. |
 
-### 「退出前不再詢問」核取方塊
+### Do not ask before exiting check box
 
-如果勾選了該核取方塊，則在退出時不會顯示選擇工作區參數的對話方塊。
+If this box is checked, a dialog box to select workspace options will not be displayed when exiting.
 
-### 「不包含使用暫時資料夾的檔案」核取方塊
+### Do not include files that are using temporary folder check box
 
-指定工作區不應包含使用暫時資料夾的檔案。
+Specifies that a workspace should not include files that are using the temporary folder.
 
-### 「不包含超過指定行數的檔案」核取方塊
+### Do not include files of which the number of lines exceed check box
 
-指定工作區不應包含行數超過指定數量的檔案。
+Specifies that a workspace should not include files of which the number of lines exceed the specified number.
 
-### 「崩潰時儲存工作區」核取方塊
+### Save workspace on crash check box
 
-如果勾選了該核取方塊，EmEditor 會在崩潰時儲存工作區，並允許你在下次啟動 EmEditor 時恢復工作區。
+If this is checked, EmEditor saves the workspace on crash, and allows you to restore the workspace next time EmEditor is launched.
 
-### 「定期儲存工作區:」核取方塊
+### Save workspace periodically check box
 
-如果勾選了該核取方塊，EmEditor 將按指定的時間間隔定期儲存工作區，並允許你在啟動 EmEditor 時恢復工作區。
+If this is checked, EmEditor saves the workspace periodically at the specified interval, and allows you to restore the workspace when EmEditor is launched.
 
-### 「不要在「儲存更改？」對話方塊中顯示「儲存工作區」按鈕」核取方塊
+### Do not display the Save Workspace button in the "Save Changes?" dialog box check box
 
-如果勾選了該核取方塊，EmEditor 將不在「儲存更改？」對話方塊中顯示「儲存工作區」按鈕。
+If this is checked, EmEditor does not display the Save Workspace button in the "Save Changes?" dialog box.
 
-### 「重置」按鈕
+### Reset button
 
-重置為預設設置。
+Resets to default settings.

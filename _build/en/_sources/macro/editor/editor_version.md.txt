@@ -1,6 +1,6 @@
-# Version 屬性
+# Version Property
 
-檢索 表示當前 EmEditor 版本的字符串。
+Retrieves the string indicating the current version of EmEditor.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _strVersion_ = editor. **Version**;
 
 _strVersion_ = editor. **Version**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

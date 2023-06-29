@@ -1,26 +1,27 @@
-# 移除換行字元命令
+# Remove Newline Characters command
 
-### 摘要
+### Summary
 
-> 在目前的選取範圍內移除文字區端點處的換行字元。
+> Removes newline characters at wrap points in the selection.
 
-### 說明
+### Description
 
-> 刪除選區換行點處的新行。這個命令與 [**合併行** 命令](join_lines)，但這個命令不會在每一行的換行點插入空格。
+> Removes newline characters at wrap points in the selection. Similar to [**Join Lines** command](join_lines), but this command does not
+> insert a space at each line at wrap points.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **轉換** \> **移除換行字元**
-- [全部命令](../tools/all_commands): **轉換** \> **移除換行字元**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: 無
+- Default Menu: **Convert** \> **Remove Newline Characters**
+- [All Commands](../tools/all_commands): **Convert** \> **Remove Newline Characters**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_DELETE\_CR\_WRAP (4144)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

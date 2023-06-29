@@ -1,26 +1,26 @@
-# 通知命令
+# Notifications command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏通知。
+> Shows or hides Notifications.
 
-### 說明
+### Description
 
-> 顯示或隱藏通知。
+> Shows or hides Notifications.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **通知**
-- [全部命令](../tools/all_commands): **檢視** \> **通知**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **View** \> **Notifications**
+- [All Commands](../tools/all_commands): **View** \> **Notifications**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_TOGGLE\_NOTIFICATIONS (4061)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

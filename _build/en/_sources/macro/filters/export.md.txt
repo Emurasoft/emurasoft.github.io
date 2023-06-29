@@ -1,6 +1,6 @@
-# Export 方法
+# Export Method
 
-把集合匯出到 TSV 檔案中。
+Exports the collection to a TSV file.
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ list. **Export**( _strFileName_ );
 
 list. **Export** _strFileName_
 
-## 參數
+## Parameters
 
 _strFileName_
 
-指定包括 TSV 檔案的完整路徑的檔案名。
+Specifies the file name including the full path of the TSV file.
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -38,6 +38,6 @@ filters.Export "E:\\Test\\filter.tsv"
 
 End If
 
-## 版本
+## Version
 
-支持 EmEditor 16.0 或之後的版本。
+Supported on EmEditor Professional Version 16.0 or later.

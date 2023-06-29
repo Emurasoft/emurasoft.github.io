@@ -1,6 +1,6 @@
-# CreatePopupMenu 方法
+# CreatePopupMenu Method
 
-創建一個彈出菜單。
+Creates a popup menu.
 
 #### \[JavaScript\]
 
@@ -10,10 +10,10 @@ _popupmenu_ = **CreatePopupMenu**();
 
 Set _popupmenu_ = **CreatePopupMenu**
 
-## 返回值
+## Return Values
 
-返回一個新創建的 PopupMenu 對象。
+Returns a newly created PopupMenu Object.
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

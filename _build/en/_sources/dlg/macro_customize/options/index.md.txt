@@ -1,39 +1,46 @@
-# 「選項」頁面
+# Options tab
 
-**選項** 頁面讓您能設定與 **巨集** 功能表相關的選項。
+The **Options** tab allows you to set options related to the **Macros** menu.
 
-### 「當儲存或選擇新的巨集時將該巨集添加至'我的巨集'」核取方塊
+### Add to My Macros when New Macro is Saved or   Selected check box
 
-如果勾選了改核取方塊，當一個新的巨集通過 [**儲存巨集** 命令](../../../cmd/macros/macro_save) 或 [**選擇巨集** 命令](../../../cmd/macros/macro_select) 被選取時，這個巨集會被添加到 **我的巨集** 中。
+If this box is checked, when a new macro is selected by the
+[**Save Macro** command](../../../cmd/macros/macro_save) or the
+[**Select Macro** command](../../../cmd/macros/macro_select), the
+macro will be added to **My Macros**.
 
-### 「當編輯新錄制的巨集時詢問巨集語言」核取方塊
+### Ask Macro Language when Editing New Recorded Macro check box
 
-顯示一個對話方塊來選擇巨集語言是 JavaScript 還是 VBScript當您要用 **編輯巨集** 命令編輯一個臨時巨集時。
+Displays a dialog box to select a macro language from JavaScript or VBScript
+when selecting the **Edit Macro** command while a temporary macro is selected.
 
-### 「運行我的巨集中的一個會將其設為預設巨集」核取方塊
+### Running one of My Macros will set it as the default macro check box
 
-如果選中此方塊，當您選擇 **我的巨集** 之一或按下分配給巨集的快速鍵時，所選巨集將被設定為預設巨集。
+If this box is checked, when you select one of **My Macros** or press the shortcut key assigned to a macro, the selected macro will be set as the default macro.
 
-### 「預設情況下異步運行巨集」核取方塊
+### Run macros asynchronously by default check box
 
-如果勾選此核取方塊，EmEditor 會異步運行巨集如果不使用 [**#async** 指令](../../../macro/directive/async)。
+If this box is checked, EmEditor runs macros asynchronously if the [**#async** directive](../../../macro/directive/async) is not used.
 
-### 「使用 V8 作為 JavaScript 引擎」核取方塊
+### Use V8 as JavaScript engine check box
 
-如果勾選了此核取方塊，則在不使用 [**#language** 指令時](../../../macro/directive/language) EmEditor 會使用 V8 引擎運行 JavaScript 巨集。
+If this box is checked, EmEditor runs JavaScript macros using the V8 engine if the [**#language** directive](../../../macro/directive/language) is not used.
 
-### 「預設語言」選項
+### Default language option
 
-指定巨集的預設語言。如果為巨集選擇了剪貼簿，則此選項會在剪貼簿中選擇巨集的語言。
+Specifies the default language for a macro. If the Clipboard is selected for the macro, this option selects the language of the macro in the Clipboard.
 
-### 「資料夾」文字方塊
+### Folder text box
 
-為 **我的巨集** 指定預設資料夾。當您通過 [**儲存巨集** 命令](../../../cmd/macros/macro_save) 或 [**選擇巨集** 命令](../../../cmd/macros/macro_select) 選取一個巨集時，這個資料夾將會顯示為預設資料夾。
+Specifies the default folder for **My Macros**. When you select a macro by using
+the [**Save Macro** command](../../../cmd/macros/macro_save) or the
+[**Select Macro** command](../../../cmd/macros/macro_select), this
+folder will be the default folder.
 
-### 「...」按鈕
+### ... button
 
-點擊該按鈕來尋找指定的檔案。
+Click this button to find the specified file.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

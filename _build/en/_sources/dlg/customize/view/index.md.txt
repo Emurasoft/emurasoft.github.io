@@ -1,59 +1,55 @@
-# 「檢視」頁面
+# View page
 
-**檢視** 頁面讓您能自訂與檢視有關的設定。
+The **View** page allows you to customize settings related to view.
 
-### 「自訂顯示條顏色 \- 使用系統顏色」核取方塊
+### Custom Bar Colors - Use System Color check box
 
-如果該核取方塊被勾選了，每一個自訂顯示條的文字和背景顏色都會用系統顏色。
+If this is checked, the text and background colors of each custom bar will use system colors.
 
-### 「自訂顯示條顏色 \- 文字」按鈕
+### Custom Bar Colors - Text button
 
-點擊該按鈕更改自訂顯示條的文字顏色。
+Click this button to change the text color of custom bars.
 
-### 「自訂顯示條顏色 \- 背景」按鈕
+### Custom Bar Colors - Background button
 
-點擊該按鈕變更自訂顯示條的背景顏色。
+Click this button to change the background color of custom bars.
 
-### 「自訂顯示條顏色 \- (示例) 」文字
+### Custom Bar Colors - (Sample) text
 
-用目前的選取的顏色顯示一個文字示例。
+Shows a sample of text with the currently selected colors.
 
-### 「游標大小與顏色 \- 設定覆寫游標大小和顏色」核取方塊
+### Cursor Size and Color - Set Overwrite Cursor Size and Color check box
 
-指定在與「插入」模式相對的「覆寫」模式期間，適用於游標大小和顏色的下列選項。
+Specifies the following options apply to the cursor size and color during the Overwrite mode opposed to the Insert Mode.
 
-### 「游標大小與顏色 \- 寬度」下拉清單方塊
+### Cursor Size and Color - Width drop-down list box
 
-指定游標的寬度。
+Specifies the width of the cursor.
 
-### 「游標大小與顏色 \- 高度」下拉清單方塊
+### Cursor Size and Color - Height drop-down list box
 
-指定游標的高度。
+Specifies the height of the cursor.
 
-### 「游標大小與顏色 \- 使用系統顏色」核取方塊
+### Cursor Size and Color - Use System Color check box
 
-如果該核取方塊被勾選了，游標顏色會變為與背景色相反的顏色。
+If this is checked, the cursor color becomes the inverse of the background color.
 
-### 「游標大小與顏色 \- 顏色」按鈕
+### Cursor Size and Color - Color button
 
-點擊該按鈕更改游標顏色。
+Click this button to change the color of the cursor
 
-### 「使用雙重緩存」核取方塊
+### Synchronize Wrap Mode check box
 
-使用雙重緩存在屏幕上繪制文字。雙重緩存會讓閃爍消失，但繪制會變慢。如果使用的是運行比較慢的電腦，文字繪制地也比較緩慢，您可以清除勾選該核取方塊。
+Synchronizes the wrap mode through out all the documents with the same configuration. If this is not checked, the wrapping mode can be set independently per document, not only per configuration.
 
-### 「同步換行模式」核取方塊
+### App Theme drop-down list box
 
-在所有有著相同組態的文檔中同步換行模式。如果該核取方塊沒有被勾選，那么換行模式就會由每一個文檔單獨設置，而不僅僅是每一個組態。
+If **System** is selected, EmEditor will use dark colors when Dark mode is used in Windows 10. If **Light** is selected, EmEditor will use light colors. However, editor colors can be specified in the [**Display** page](../../properties/display/index) of configuration properties.
 
-### 「App 主題」下列清單方塊
+### Very Dark (beta) check box
 
-如果選擇了 **系統**，EmEditor 會用 Windows 10 中指定的模式，比如如果您在 Windows 10 中選擇了夜間模式時，EmEditor 也會沿用夜間模式。如果選擇了日間模式，EmEditor 會沿用日間模式。編輯器顏色可以在組態屬性的 [**顯示** 頁面](../../properties/display/index) 上設定。
+If this option is set, EmEditor will use dark colors on all elements including menu bars and dialog boxes when Dark mode is used in Windows 10 Build 17763 or later only. This feature is still beta since Windows API does not officially support the dark mode against desktop apps. It may not be supported on future versions of Windows.
 
-### 「很暗 (beta)」按鈕
+### Reset button
 
-如果設定了此選項，僅在 Windows 10 Build 17763 或更高版本中使用「深色」模式時，EmEditor 才會在所有元素（包括功能表列和對話方塊）上使用深色。 由於 Windows API 尚未正式支持針對桌面應用程式的深色模式，因此該功能仍處於測試階段。Windows 的未來版本可能不支持它。
-
-### 「重設」按鈕
-
-重設為預設設定。
+Resets to default settings.

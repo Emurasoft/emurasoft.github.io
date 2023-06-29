@@ -1,6 +1,6 @@
-# MsgBox 方法
+# MsgBox Method
 
-根據對象提供的信息顯示對話方塊，並檢索所選按鈕、選項按鈕或命令連結的識別項。此方法忽略分隔項和子功能表。
+Displays the dialog box based on the information provided by the object, and retrieves the identifier of the selected button, radio button, or command link. This method ignores separator items and submenus.
 
 #### \[JavaScript\]
 
@@ -10,30 +10,30 @@ id = popupmenu. **MsgBox**( _message_, _message2_, _flags_ );
 
 id = popupmenu. **MsgBox**( _message_, _message2_, _flags_ )
 
-## 參數
+## Parameters
 
 _strMessage_
 
-指定要顯示的消息。
+Specifies a message to be displayed.
 
 _strMessage2_
 
-可選。指定要在第一條消息下方顯示的附加消息。
+Optional. Specifies an additional message to be displayed below the first message.
 
 _flags_
 
-可選。指定以下值的組合。eeCommandLinks 和 eeRadioButtons 不能合用。
+Optional. Specifies a combination of the following values. eeCommandLinks and eeRadioButtons cannot be combined.
 
 |     |     |
 | --- | --- |
-| eeCommandLinks | 指示功能表項將顯示為命令連結而不是按鈕。 |
-| eeRadioButtons | 指示功能表項將顯示為選項按鈕而不是按鈕。 |
-| eeHideStopMacro | 從對話方塊中隱藏停止巨集核取方塊。 |
-| eeIconStop | 對話方塊中出現一個停止標志圖示。 |
-| eeIconExclamation | 對話方塊中出現一個感嘆號圖示。 |
-| eeIconInformation | 對話方塊中出現一個由圓圈中的小寫字母 i 組成的圖示。 |
+| eeCommandLinks | Indicates that the menu items are to be displayed as command links instead of push buttons. |
+| eeRadioButtons | Indicates that the menu items are to be displayed as radio buttons instead of push buttons. |
+| eeHideStopMacro | Hides the Stop Macro check box from the dialog box. |
+| eeIconStop | A stop-sign icon appears in the dialog box. |
+| eeIconExclamation | An exclamation-point icon appears in the dialog box. |
+| eeIconInformation | An icon consisting of a lowercase letter i in a circle appears in the dialog box. |
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -75,6 +75,6 @@ result = menu.MsgBox( "Header", "Body", eeRadioButtons Or eeIconStop Or eeHideSt
 
 If result <> 0 Then alert( menu.GetText( result ) )
 
-## 版本
+## Version
 
-支持 EmEditor Professional v20.9 或之後的版本。
+Supported on EmEditor Professional Version 20.9 or later.

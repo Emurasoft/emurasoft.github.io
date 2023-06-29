@@ -1,46 +1,51 @@
-# 「模糊比對選項」對話方塊
+# Fuzzy Matching Options dialog box
 
-這個對話方塊會出現，當你在 **尋找**， **取代**， **多檔尋找**， **多檔取代**， **進階篩選**，或 **合併 CSV** 對話方塊中點擊 **...** 按鈕時。
+This dialog box appears when the
+**...** button is clicked in the **Find**, **Replace**, **Find in Files**, **Replace in Files**, **Advanced Filter**, or **Join CSV** dialog box.
 
-### 「相似性」滑桿
+### Similarity slider
 
-以百分比指定相似度。例如，你指定了 75%，如果搜索字串的長度為 4 個字元，則 4 個字元中的 3 個必須相等才能符合。如果勾選了以下任一選項，您可以把相似性設為 100%。例如，如果您只想忽略變音符號，則應將此設定為 100% 並勾選 **忽略不占位的組合字元，例如變音符號、dakuten（日文中的濁點）和 handakuten（日文中的半濁點）** 核取方塊。
+Specifies the similarity in percentage. For instance, if you specify 75%, and if the search string is 4 characters long, 3 out of 4 characters must be equal in order to match. You may set this 100% if any of the following options is set. For instance, if you only want to ignore diacritics, you should set this 100% and set the **Ignore nonspacing combining characters, such as diacritics, dakuten, and handakuten** check box.
 
-### 「忽略不佔空間的組合字元，例如讀音符號、dakuten（日文中的濁點）和 handakuten（日文中的半濁點）」核取方塊
+### Max edit distance
 
-如果勾選此項，EmEditor 會忽略不佔空間的組合字元，例如讀音符號、dakuten（日文中的濁點）和 handakuten（日文中的半濁點）。例如，不會區分 é (U+00E9) 和 e (U+0065)。
+Specifies the max [edit distance](https://en.wikipedia.org/wiki/Edit_distance) that a matched string can have. `fuzzx maching` and `fuzzy matching` are 2 edit distance apart.
 
-### 「不區分半形與全形字元」核取方塊
+### Ignore nonspacing combining characters, such as diacritics, dakuten, and handakuten check box
 
-如果勾選此項，則忽略半形和全形字元的區別。例如，不會區分 A (U+0041) 和 Ａ (U+FF21)。
+If this is checked, nonspacing combining characters, such as diacritics, dakuten, and handakuten, are ignored. For instance, é (U+00E9) and e (U+0065) will not be differentiated.
 
-### 「不區分平假名與片假名字元」核取方塊
+### Do not differentiate between a half-width and a full-width characters check box
 
-如果勾選此項，則在比較相應的平假名和片假名字元時會視為同等。例如，不會區分 あ (U+3042) 和 ア 。
+If this is checked, the difference between half-width and full-width characters is ignored. For instance, A (U+0041) and Ａ (U+FF21) will not be differentiated.
 
-### 「不區分大小假名字元」核取方塊
+### Do not differentiate between Hiragana and Katakana characters check box
 
-如果勾選此項，則在比較相應的大假名和小假名字元時會視為同等。例如，不會區分 あ (U+3042) 和 ぁ (U+3041) 。
+If this is checked, corresponding Hiragana and Katakana characters compare as equal. For instance, あ (U+3042) and ア (U+30A2) will not be differentiated.
 
-### 「忽略 Unicode Variation Selector 字元」核取方塊
+### Do not differentiate between small and large kana characters check box
 
-如果勾選此項，會忽略 Unicode Variation Selector 字元。例如，不會區分 辻 (U+8FBB) 和 辻󠄀 (U+8FBB U+E0100)。
+If this is checked, corresponding small and large kana characters compare as equal. For instance, あ (U+3042) and ぁ (U+3041) will not be differentiated.
 
-### 「忽略 Emoji 序列」核取方塊
+### Ignore Unicode Variation Selector characters check box
 
-如果勾選此項，則忽略除序列的第一個程式碼值之外的表情符號（Emoji）序列。例如，不會區分 👨‍🦰 (red hair man, U+1F468 U+200D U+1F9B0) 和 👨‍🦳 (white hair man, U+1F468 U+200D U+1F9B3)。
+If this is checked, Unicode Variation Selector characters are ignored. For instance, 辻 (U+8FBB) and 辻󠄀 (U+8FBB U+E0100) will not be differentiated.
 
-### 「添加」按鈕
+### Ignore Emoji sequences check box
 
-會顯示 [**字串/字元範圍** 對話方塊](str_char_range/index)，讓你能把一個字串或字元範圍添加到清單中。
+If this is checked, Emoji sequences are ignored except the first code value of the sequences. For instance, 👨‍🦰 (red hair man, U+1F468 U+200D U+1F9B0) and 👨‍🦳 (white hair man, U+1F468 U+200D U+1F9B3) will not be differentiated.
 
-### 「刪除」按鈕
+### Add button
 
-從清單中刪除選取的範圍。
+[**String/Character Range** dialog box](str_char_range/index) will be displayed and will allow you to add a string or character range to the list.
 
-### 「字元範圍」清單方塊
+### Delete button
 
-列出使用者定義的字元範圍。雙擊清單中的項目讓你能編輯所選範圍。
+Removes the selected range from the list.
+
+### String/Character ranges list box
+
+Lists the user-defined strings and character ranges. Double-clicking on an item in the list will allow you to edit the selected string or character range.
 
 ```{toctree}
 :maxdepth: 1

@@ -1,27 +1,27 @@
-# 延伸選取到配對的標籤命令
+# Matching Tag Extend command
 
-### 摘要
+### Summary
 
-> 把選區延伸到配對的標籤。
+> Extends the selection to the corresponding tag.
 
-### 說明
+### Description
 
-> 在一個 XML 或 XHTML 文檔中，當游標位于一個開始/結束標籤處，這個命令會把選取延伸到相對應的結束/開始標籤處。
+> When the cursor is placed at an opening/closing tag in an XML or XHTML document, this command will extend the selection to the corresponding closing/opening tag.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **搜尋** \> **選擇目前的標籤**
-- [全部命令](../tools/all_commands): **編輯** \> **延伸選取**
-\> **延伸選取到配對的標籤**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: CTRL+SHIFT+.
+- Default Menu: **Search** \> **Select Current Tag**
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Matching Tag Extend**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+SHIFT+.
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SHIFT\_NEXT\_TAG (4602)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

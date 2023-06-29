@@ -1,3 +1,3 @@
-# Q. 雙擊 EmEditor 中的一個標籤頁可以在一個新視窗中顯示該標籤頁。可以禁用這個行為嗎？
+# Q. Double-clicking a tab causes to create a new window. Can you disable this behavior?
 
-可以。請去「自訂」對話方塊中的「游標」頁面上，如果「雙擊游標左鍵」下的下拉單中的選項是「新增群組」，請把它改成「未定義」。
+Yes. please go to the Mouse page of the Customize dialog box. If the "New Group" is selected for the Left Mouse Button Double-Click, select "Undefined".

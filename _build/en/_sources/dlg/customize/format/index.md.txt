@@ -1,31 +1,31 @@
-# 「格式」頁面
+# Format page
 
-**格式** 頁面讓您能自訂日期，時間和行數的格式。
+The **Format** page allows you to customize settings related to the formats of date, time and line numbers.
 
-### 日期
+### Date
 
-讓你能自訂要使用的日期格式當你用 **日期和時間** 命令或 **時間和日期** 命令時。如果勾選 **使用系統格式** 核取方塊，那么在 **控制台** 中指定的日期格式會被使用。
+Allows you to customize the date format to use when you use **Date and Time** command or **Time and Date** command. If the **Use System Format** check box is set, the date format specified in the **Control Panel** will be used.
 
-### 時間
+### Time
 
-讓你能自訂要使用的時間格式當你用 **日期和時間** 命令或 **時間和日期** 命令時。如果勾選 **使用系統格式** 核取方塊，那么在 **控制台** 中指定的日期格式會被使用。
+Allows you to customize the time format to use when you use **Date and Time** command or **Time and Date** command. If the **Use System Format** check box is set, the time format specified in the **Control Panel** will be used.
 
-### 行數 (十進位)
+### Line Number (Decimal)
 
-用十進位設置行數格式。你可以選擇如何把有多個數位的數字分組，還可以在 **「數字分隔符號」** 文字方塊中指定區分數字組的分隔符號。 **「空格寬度」** 滑桿讓你能調整空格的寬度。
+Allows you to customize the format of line numbers in the decimal number system. You can choose how to group numbers with many digits as well as specify a delimiter used to divide numbers in the **Digit Group Separator** text box. You can use the **Space Width** slider to adjust the width of space.
 
-### 行數 (十六進位)
+### Line Number (Hexadecimal)
 
-用十六進位設置行數格式。你可以選擇如何把有多個數位的數字群組，還可以在 **「數字分隔符號」** 文字方塊中指定區分數字組的分隔符號。十六進位行數用於打開檔案的編碼為二進位 (十六進位檢視) 時。 **「空格寬度」** 滑桿讓你能調整空格的寬度。
+Allows you to customize the format of line numbers in the hexadecimal number system. You can choose how to group numbers with many digits as well as specify a delimiter used to divide numbers in the **Digit Group Separator** text box. Hexadecimal line numbers are used when **Binary (Hexadecimal View)** is selected as **Encoding** when opening a file. You can use the **Space Width** slider to adjust the width of space.
 
-### 「二進位（十六進位視圖）」下拉清單方塊
+### Binary (Hexadecimal View) drop-down list box
 
-讓你能選擇要顯示二進位（十六進位視圖）檔案的格式。
+Allows you to select a format to display for Binary (Hexadecimal View) files.
 
-### 「自訂」文字方塊
+### Custom text box
 
-當你從 **二進位（十六進位視圖）** 下拉清單方塊中選擇 **自訂** 時，可以為每行指定一個任意數字作為位元組。
+Allows you to specify an arbitrary number for bytes per line when you select **Custom** from the **Binary (Hexadecimal View)** drop-down list box.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

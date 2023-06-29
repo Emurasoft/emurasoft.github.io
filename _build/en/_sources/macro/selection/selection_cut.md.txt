@@ -1,6 +1,7 @@
-# Cut 方法
+# Cut Method
 
-複製選取的文字到剪貼簿上并在原先的位置處刪除該文字。
+Copies the selected text to the Clipboard and deletes it from its
+original location.
 
 #### \[JavaScript\]
 
@@ -10,6 +11,6 @@ document.selection. **Cut**();
 
 document.selection. **Cut**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

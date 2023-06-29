@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>正規表現構文 &#8212; EmEditor  ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="索引" href="../../genindex.htm" />
+    <link rel="search" title="検索" href="../../search.htm" />
+    <link rel="next" title="置換するには" href="search_replace.htm" />
+    <link rel="prev" title="正規表現を使用するには" href="search_regexp.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  ドキュメント</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+                    日本語
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/howto/search/search_regexp_syntax">English</a>
+                <a href="/emeditor-help/ja/howto/search/search_regexp_syntax">日本語</a>
+                <a href="/emeditor-help/ko/howto/search/search_regexp_syntax">한국어</a>
+                <a href="/emeditor-help/zh-cn/howto/search/search_regexp_syntax">简体中文</a>
+                <a href="/emeditor-help/zh-tw/howto/search/search_regexp_syntax">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">クイック検索</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="検索" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.htm">コマンド リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.htm">ダイアログ ボックス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">よくある質問と回答集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">特長</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">履歴</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">使い方</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.htm">各種設定</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.htm">編集</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.htm">ファイル操作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro/index.htm">マクロ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugin/index.htm">プラグイン</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.htm">検索</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="batch_vs_bulk.htm">[すべて連続置換] と [すべて一括置換] の違い</a></li>
+<li class="toctree-l3"><a class="reference internal" href="number_range_syntax.htm">数値範囲表現構文</a></li>
+<li class="toctree-l3"><a class="reference internal" href="replacement_expression_syntax.htm">置換表現構文</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_erase.htm">検索文字列の強調を解除するには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_find.htm">検索するには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_grep.htm">ファイルから検索するには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_nl.htm">改行コードの指定方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_regexp.htm">正規表現を使用するには</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">正規表現構文</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_replace.htm">置換するには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_replace_files.htm">ファイルから置換するには</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.htm">表示</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.htm">ウィンドウ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">リンク</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">マクロ リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">注意</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.htm">プラグイン リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">購入方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">サポート</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">使い方</a> &lt;
+                    <a href="index.htm">検索</a> &lt;
+                正規表現構文
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>正規表現構文<a class="headerlink" href="#id1" title="この見出しへのパーマリンク">¶</a></h1>
+<p>EmEditor は、Perl の正規表現構文に基づいています。</p>
+<section id="id2">
+<h2>リテラル<a class="headerlink" href="#id2" title="この見出しへのパーマリンク">¶</a></h2>
+<p>“.”, “|”, “*”, “?”, “+”, “(”, “)”, “{”, “}”, “[”, “]”, “^”, “$”, “|” および
+&quot;\“を除くすべての文字はリテラルです。これらの文字は、”\“が前に付くとリテラルになります。例えば、”\?“の検索は文書内のすべての”?&quot;に一致し、&quot;hello&quot;の検索は文書内のすべての&quot;hello&quot;に一致します。</p>
+</section>
+<section id="id3">
+<h2>メタ文字<a class="headerlink" href="#id3" title="この見出しへのパーマリンク">¶</a></h2>
+<p>次の表は、メタ文字の全リストと、正規表現におけるメタ文字の動作を示しています。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>\</p></td>
+<td><p>次に続く文字が特殊文字、リテラル、前方参照、または 8 進エスケープであることを示します。たとえば、“n” は文字 “n” <br> と一致しますが、“\n” は改行文字と一致します。“\&quot; は “\” と、”\(&quot; は “(” と一致します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>^</p></td>
+<td><p>行の先頭と一致します。たとえば、&quot;^e&quot;は行頭の&quot;e&quot;と一致します。</p></td>
+</tr>
+<tr class="row-even"><td><p>$</p></td>
+<td><p>行の末尾と一致します。たとえば、&quot;e$&quot;は行末の&quot;e&quot;と一致します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>*</p></td>
+<td><p>直前の文字または部分式と 0 回以上一致します。たとえば、zo* は “z” と “zoo” のどちらにも一致します。* は {0,} <br> と同じ意味です。</p></td>
+</tr>
+<tr class="row-even"><td><p>+</p></td>
+<td><p>直前の文字または部分式と 1 回以上一致します。たとえば、‘zo+’ は “zo” や “zoo” とは一致しますが、“z” <br> とは一致しません。+ は {1,} と同じ意味です。</p></td>
+</tr>
+<tr class="row-odd"><td><p>?</p></td>
+<td><p>直前の文字または部分式と 0 回または 1 回一致します。たとえば、“do(es)?” は “do” または “does” の “do” <br> と一致します。? は {0,1} と同じ意味です。</p></td>
+</tr>
+<tr class="row-even"><td><p>{n}</p></td>
+<td><p>n には、0 以上の整数を指定します。正確に n 回一致します。たとえば、‘o{2}’ は “Bob” の “o” <br> とは一致しませんが、“food” の 2 つの “o” とは一致します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>{n,}</p></td>
+<td><p>n には、0 以上の整数を指定します。少なくとも n 回一致します。たとえば、‘o{2,}’ は “Bob” の “o” <br> とは一致しませんが、“foooood” のすべての “o” とは一致します。“o{1,}” は “o+” と同じ意味です。“o{0,}” は “o*” <br> と同じ意味です。</p></td>
+</tr>
+<tr class="row-even"><td><p>{n,m}</p></td>
+<td><p>m および n には 0 以上の整数を指定します。n は m 以下です。n ～ m 回一致します。たとえば、“o{1,3}” は <br> “fooooood” の最初の 3 つの “o” と一致します。“o{0,1}” は “o?” と同じ意味です。カンマと数の間には空白を入れません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>?</p></td>
+<td><p>ほかの量指定子 (*, +, ?, {n}, {n,}, {n,m}) <br> の直後に指定すると、一致パターンが最短一致になります。既定のパターンでは、できるだけ多くの文字列と一致するのに比べて、最短一致パターンでは、できるだけ少ない文字列と一致します。たとえば、文字列 <br> “oooo” に対して、‘o+?’ を指定すると 1 つの “o” と一致し、‘o+’ を指定するとすべての “o” と一致します。</p></td>
+</tr>
+<tr class="row-even"><td><p>.</p></td>
+<td><p>任意の 1 文字に一致します。たとえば、&quot;.e&quot;は、“he”、“we”、&quot;me&quot;のいずれかと一致します。 <strong>[正規表現「.」が改行コードに一致することができる]</strong> チェック ボックスがチェックされている場合、 <strong>[正規表現で検索する追加行数]</strong> テキスト ボックスで指定する行数の範囲内で、改行コードにも一致します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>(pattern)</p></td>
+<td><p>()は、２つの目的があります: <br> pattern を部分式にグループ化することと、一致した文字列を取得することです。たとえば&quot;(ab)*&quot;は&quot;ababab&quot;という文字列すべてに一致します。部分式は左から右の順に番号化された後方参照 <br> (以下を参照) によって取得できます。かっこ ( ) と一致させるには、‘\(’ または ‘\)’ を指定します。</p></td>
+</tr>
+<tr class="row-even"><td><p>(?<name>pattern)</p></td>
+<td><p>“pattern” で一致した文字列を “name” というグループに捕獲します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\1 - \9</p></td>
+<td><p>後方参照を示します。後方参照は、一致した部分式への参照です。参照は部分式が一致したものであり、表現そのものではありません。後方参照はエスケープ文字&quot;\“とそれに続く数字&quot;1”-“9&quot;から成り立っています。後方参照は <br> [検索] メニューの [置換] を選択したときに使います。正規表現を使ってテキスト <br> パターンを見つけ、一致したテキストは指定した後方参照で置換されます。たとえば、”(h)(e)“は&quot;he&quot;を見つけ、[置換後の文字列] <br> に入力した”\1&quot;は&quot;he&quot;を&quot;h&quot;に変換し、&quot;\2\1&quot;は&quot;he&quot;を&quot;eh&quot;に変換します。</p></td>
+</tr>
+<tr class="row-even"><td><p>\k<name></p></td>
+<td><p>名前付き後方参照を示します。名前付き後方参照は、以前に一致した (?<name>expression) のフォームの捕獲式グループへの参照です。“name” が数字の場合、数字の後方参照を示し、\1, \2, \3, … と等価です。</p></td>
+</tr>
+<tr class="row-odd"><td><p>(?:pattern)</p></td>
+<td><p>pattern と一致しても、その文字列が記憶されない部分式です。後方参照で使用できません。“または” を意味する (|) <br> を使用して、パターンの一部を結合するときに便利です。たとえば、‘industry|industries’ <br> と指定する代わりに、‘industr(?:y|ies)’ と指定する方が簡潔です。</p></td>
+</tr>
+<tr class="row-even"><td><p>(?=pattern)</p></td>
+<td><p>肯定先読みを実行する部分式です。pattern <br> に一致する文字列が始まる位置にある検索文字列と一致します。一致した文字列は記憶されず、後で使用することはできません。たとえば&quot;x(?=abc)&quot;は、abc が後に続く場合のみ&quot;x&quot;に一致します。pattern <br> には改行コードを含めることはできません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>(?!pattern)</p></td>
+<td><p>否定先読み検索を実行する部分式です。pattern <br> に一致しない文字列が始まる位置にある検索文字列と一致します。一致した文字列は記憶されず、後で使用することはできません。たとえば&quot;x(?!abc)&quot;は、abc が後に続かない場合のみ&quot;x&quot;に一致します。pattern <br> には改行コードを含めることはできません。</p></td>
+</tr>
+<tr class="row-even"><td><p>(?&lt;=pattern)</p></td>
+<td><p>肯定後読みを実行する部分式です。pattern に一致する文字列で終わる位置にある検索文字列と一致します。一致した文字列は記憶されず、後で使用することはできません。たとえば&quot;(?&lt;=abc)x&quot;は、abc の後に続く場合のみ&quot;x&quot;に一致します。pattern には改行コードを含めることはできません。pattern は固定長である必要があります。</p></td>
+</tr>
+<tr class="row-odd"><td><p>(?&lt;!pattern)</p></td>
+<td><p>否定後読み検索を実行する部分式です。pattern <br> に一致しない文字列で終わる位置にある検索文字列と一致します。一致した文字列は記憶されず、後で使用することはできません。たとえば&quot;(?&lt;!abc)x&quot;は、abc の後に続かない場合のみ&quot;x&quot;に一致します。pattern <br> には改行コードを含めることはできません。pattern は固定長である必要があります。</p></td>
+</tr>
+<tr class="row-even"><td><p>x|y</p></td>
+<td><p>x または y と一致します。たとえば、“z|food” は “z” または “food” と一致します。‘(z|f)ood’ は、“zood” <br> または “food” に一致します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>[xyz]</p></td>
+<td><p>文字セットを指定します。角かっこで囲まれた文字のいずれかに一致します。たとえば、‘[abc]’ は “plain” の ‘a’ と一致します。</p></td>
+</tr>
+<tr class="row-even"><td><p>[^xyz]</p></td>
+<td><p>除外する文字セットを指定します。角かっこで囲まれた文字以外の文字に一致します。たとえば、‘[^abc]’ は “plain” の ‘p’ <br> と一致します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>[a-z]</p></td>
+<td><p>文字の範囲を指定します。指定した範囲に含まれる任意の文字に一致します。たとえば、‘[a-z]’ は小文字の英字 a ～ z <br> の範囲にある任意の文字と一致します。</p></td>
+</tr>
+<tr class="row-even"><td><p>[^a-z]</p></td>
+<td><p>否定の文字の範囲を指定します。指定した範囲に含まれていない任意の文字に一致します。たとえば、‘[^a-z]’ は小文字の英字 a ～ z <br> の範囲外にある任意の文字と一致します。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id4">
+<h2>文字クラス<a class="headerlink" href="#id4" title="この見出しへのパーマリンク">¶</a></h2>
+<p>次の文字クラスは、文字セットの中で、“[:classname:]” のように使用されます。例えば、“[[:space:]]”
+はすべての空白文字のセットを表します。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>alnum</p></td>
+<td><p>任意の言語上の文字と数字: アルファベット、音節文字、漢字が含まれます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>alpha</p></td>
+<td><p>任意の言語上の文字: アルファベット、音節文字、漢字が含まれます。</p></td>
+</tr>
+<tr class="row-even"><td><p>blank</p></td>
+<td><p>任意の空白文字、空白またはタブ。</p></td>
+</tr>
+<tr class="row-odd"><td><p>cntrl</p></td>
+<td><p>任意のコントロール文字。</p></td>
+</tr>
+<tr class="row-even"><td><p>digit</p></td>
+<td><p>任意の数字 0-9。</p></td>
+</tr>
+<tr class="row-odd"><td><p>graph</p></td>
+<td><p>任意のグラフィック文字。</p></td>
+</tr>
+<tr class="row-even"><td><p>lower</p></td>
+<td><p>任意の a-z、その他の小文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p>print</p></td>
+<td><p>任意の表示できる文字。</p></td>
+</tr>
+<tr class="row-even"><td><p>punct</p></td>
+<td><p>任意の句読点。</p></td>
+</tr>
+<tr class="row-odd"><td><p>space</p></td>
+<td><p>任意の空白文字。</p></td>
+</tr>
+<tr class="row-even"><td><p>upper</p></td>
+<td><p>任意の A-Z、その他の大文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p>xdigit</p></td>
+<td><p>任意の 16 進数文字 0-9、a-f、A-F。</p></td>
+</tr>
+<tr class="row-even"><td><p>word</p></td>
+<td><p>任意の単語文字 (すべての alnum 文字と下線)。</p></td>
+</tr>
+<tr class="row-odd"><td><p>unicode</p></td>
+<td><p>文字コード値が 256 以上の任意の文字。(Regex.Boost のみ)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id5">
+<h2>文字プロパティ<a class="headerlink" href="#id5" title="この見出しへのパーマリンク">¶</a></h2>
+<p>構文:</p>
+<p>\p{property-name}</p>
+<p>\P{property-name}  (否定)</p>
+<p>\p{^property-name}  (否定)  (Onigmo のみ)</p>
+<p>次の文字プロパティ名が使用できます。例えば、“\p{alnum}”
+は任意の英数字を表し、“\P{alnum}” はその否定形です。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>alnum</p></td>
+<td><p>任意の言語上の文字と数字: アルファベット、音節文字、漢字が含まれます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>alpha</p></td>
+<td><p>任意の言語上の文字: アルファベット、音節文字、漢字が含まれます。</p></td>
+</tr>
+<tr class="row-even"><td><p>blank</p></td>
+<td><p>任意の空白文字、空白またはタブ。</p></td>
+</tr>
+<tr class="row-odd"><td><p>cntrl</p></td>
+<td><p>任意のコントロール文字。</p></td>
+</tr>
+<tr class="row-even"><td><p>digit</p></td>
+<td><p>任意の数字 0-9。</p></td>
+</tr>
+<tr class="row-odd"><td><p>graph</p></td>
+<td><p>任意のグラフィック文字。</p></td>
+</tr>
+<tr class="row-even"><td><p>lower</p></td>
+<td><p>任意の a-z、その他の小文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p>print</p></td>
+<td><p>任意の表示できる文字。</p></td>
+</tr>
+<tr class="row-even"><td><p>punct</p></td>
+<td><p>任意の句読点。</p></td>
+</tr>
+<tr class="row-odd"><td><p>space</p></td>
+<td><p>任意の空白文字。</p></td>
+</tr>
+<tr class="row-even"><td><p>upper</p></td>
+<td><p>任意の A-Z、その他の大文字。</p></td>
+</tr>
+<tr class="row-odd"><td><p>xdigit</p></td>
+<td><p>任意の 16 進数文字 0-9、a-f、A-F。</p></td>
+</tr>
+<tr class="row-even"><td><p>word</p></td>
+<td><p>任意の単語文字 (すべての alnum 文字と下線)。</p></td>
+</tr>
+<tr class="row-odd"><td><p>unicode</p></td>
+<td><p>文字コード値が 256 以上の任意の文字。(Regex.Boost のみ)</p></td>
+</tr>
+<tr class="row-even"><td><p>ascii</p></td>
+<td><p>ASCII 文字。(Onigmo のみ)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hiragana</p></td>
+<td><p>ひらがな。(Onigmo のみ)</p></td>
+</tr>
+<tr class="row-even"><td><p>Katakana</p></td>
+<td><p>カタカナ。(Onigmo のみ)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Han</p></td>
+<td><p>漢字。(Onigmo のみ)</p></td>
+</tr>
+<tr class="row-even"><td><p>Hangul</p></td>
+<td><p>ハングル。(Onigmo のみ)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h2>1 文字エスケープ シーケンス<a class="headerlink" href="#id6" title="この見出しへのパーマリンク">¶</a></h2>
+<p>次のエスケープ シーケンスは 1 文字のエイリアスです。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0x07</p></td>
+<td><p>\a</p></td>
+<td><p>0x07 ベル文字</p></td>
+</tr>
+<tr class="row-odd"><td><p>0x0C</p></td>
+<td><p>\f</p></td>
+<td><p>0x0C フォーム フィード</p></td>
+</tr>
+<tr class="row-even"><td><p>0x0A</p></td>
+<td><p>\n</p></td>
+<td><p>0x0A 改行</p></td>
+</tr>
+<tr class="row-odd"><td><p>0x0D</p></td>
+<td><p>\r</p></td>
+<td><p>0x0D 復帰</p></td>
+</tr>
+<tr class="row-even"><td><p>0x09</p></td>
+<td><p>\t</p></td>
+<td><p>0x09 タブ</p></td>
+</tr>
+<tr class="row-odd"><td><p>0x0B</p></td>
+<td><p>\v</p></td>
+<td><p>0x0B 垂直タブ</p></td>
+</tr>
+<tr class="row-even"><td><p>0x1B</p></td>
+<td><p>\e</p></td>
+<td><p>0x1B エスケープ文字</p></td>
+</tr>
+<tr class="row-odd"><td><p>0dd</p></td>
+<td><p>\0dd</p></td>
+<td><p>0dd 8 進数 (Boost.Regex のみ)</p></td>
+</tr>
+<tr class="row-even"><td><p>0xXX</p></td>
+<td><p>\xXX</p></td>
+<td><p>0xXX 16 進数 (Unicode)</p></td>
+</tr>
+<tr class="row-odd"><td><p>0xXXXX</p></td>
+<td><p>\x{XXXX}</p></td>
+<td><p>0xXXXX 16 進数 (Unicode)</p></td>
+</tr>
+<tr class="row-even"><td><p>0xXXXXXXXX</p></td>
+<td><p>\x{XXXXXXXX}</p></td>
+<td><p>0xXXXXXXXX 16 進数 (Unicode)(Onigmo のみ)</p></td>
+</tr>
+<tr class="row-odd"><td><p>0xXXXXXXXX</p></td>
+<td><p>\uXXXX</p></td>
+<td><p>0xXXXXXXXX 16 進数 (Unicode)(Onigmo のみ)</p></td>
+</tr>
+<tr class="row-even"><td><p>\cZ Z-‘&#64;’</p></td>
+<td><p>\cZ Z-‘&#64;’</p></td>
+<td><p>Ctrl-Z (Z は、'&#64;'以下の任意の文字コード)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id7">
+<h2>単語の区切り<a class="headerlink" href="#id7" title="この見出しへのパーマリンク">¶</a></h2>
+<p>次のエスケープ シーケンスは単語の区切りに一致します。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>\&lt;</p></td>
+<td><p>単語の開始位置に一致します。(Boost.Regex のみ)</p></td>
+</tr>
+<tr class="row-odd"><td><p>\&gt;</p></td>
+<td><p>単語の終了位置に一致します。(Boost.Regex のみ)</p></td>
+</tr>
+<tr class="row-even"><td><p>\b</p></td>
+<td><p>単語の区切り (単語の開始または終了位置) に一致します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\B</p></td>
+<td><p>単語の区切りでないときに一致します。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id8">
+<h2>エスケープ シーケンス<a class="headerlink" href="#id8" title="この見出しへのパーマリンク">¶</a></h2>
+<p>次のエスケープ シーケンスは、すべての文字クラスを表現するのに使われます。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>\w</p></td>
+<td><p>単語に使用される任意の文字と一致します。英数字とアンダースコアが含まれます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\W</p></td>
+<td><p>\w の補完です。</p></td>
+</tr>
+<tr class="row-even"><td><p>\s</p></td>
+<td><p>空白、タブ、フォーム フィードなどの任意の空白文字と一致します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\S</p></td>
+<td><p>\s の補完です</p></td>
+</tr>
+<tr class="row-even"><td><p>\d</p></td>
+<td><p>任意の数字 0 から 9 と一致します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\D</p></td>
+<td><p>\d の補完です。</p></td>
+</tr>
+<tr class="row-even"><td><p>\l</p></td>
+<td><p>任意の小文字 a から z と一致します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\L</p></td>
+<td><p>\l の補完です。</p></td>
+</tr>
+<tr class="row-even"><td><p>\u</p></td>
+<td><p>任意の大文字 A から Z と一致します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\U</p></td>
+<td><p>\u の補完です。</p></td>
+</tr>
+<tr class="row-even"><td><p>\C</p></td>
+<td><p>任意の文字と一致します。'.'と同等です。</p></td>
+</tr>
+<tr class="row-odd"><td><p>\Q</p></td>
+<td><p>引用始まり演算子です。ここから引用終わり演算子&quot;\E&quot;までは、リテラルとして扱われます。</p></td>
+</tr>
+<tr class="row-even"><td><p>\E</p></td>
+<td><p>引用終わり演算子です。\Q から始まるシーケンスを終了します。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id9">
+<h2>置換表現<a class="headerlink" href="#id9" title="この見出しへのパーマリンク">¶</a></h2>
+<p><a class="reference internal" href="replacement_expression_syntax.htm"><span class="doc std std-doc">置換表現</span></a> を参照してください。</p>
+</section>
+<section id="id10">
+<h2>注意<a class="headerlink" href="#id10" title="この見出しへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><p>[ファイルから検索] および [ファイルから置換] では、復帰 (\r) と改行 (\n)
+を厳密に分けて検索する必要があります。指定方法の違いについて、詳しくは、 <a class="reference internal" href="search_nl.htm"><span class="doc std std-doc">改行コードの指定方法</span></a> をお読みください。</p></li>
+<li><p>“\l”、&quot;\u&quot;とその補完のように、エスケープ シーケンスによっては、大文字と小文字を区別するがチェックされていることが必要です。</p></li>
+</ul>
+</section>
+<section id="id11">
+<h2>著作権表示<a class="headerlink" href="#id11" title="この見出しへのパーマリンク">¶</a></h2>
+<p>EmEditor の正規表現検索ルーチンは、Boost ライブラリの Regex++ 、および Onigmo を利用しています。</p>
+<p>Copyright © Dr John Maddock</p>
+<p>Copyright © K. Takata, based on Oniguruma Copyright © by K. Kosako.</p>
+</section>
+<section id="id12">
+<h2>参考<a class="headerlink" href="#id12" title="この見出しへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../../faq/search/search_reg_exp_ex.htm"><span class="doc std std-doc">Q. 正規表現例を教えてください。</span></a></p></li>
+<li><p><a class="reference internal" href="search_nl.htm"><span class="doc std std-doc">改行コードの指定方法</span></a></p></li>
+<li></li>
+<li><p>(注: \nnn と \xHH は非対応です)</p></li>
+<li></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">正規表現構文</a><ul>
+<li><a class="reference internal" href="#id2">リテラル</a></li>
+<li><a class="reference internal" href="#id3">メタ文字</a></li>
+<li><a class="reference internal" href="#id4">文字クラス</a></li>
+<li><a class="reference internal" href="#id5">文字プロパティ</a></li>
+<li><a class="reference internal" href="#id6">1 文字エスケープ シーケンス</a></li>
+<li><a class="reference internal" href="#id7">単語の区切り</a></li>
+<li><a class="reference internal" href="#id8">エスケープ シーケンス</a></li>
+<li><a class="reference internal" href="#id9">置換表現</a></li>
+<li><a class="reference internal" href="#id10">注意</a></li>
+<li><a class="reference internal" href="#id11">著作権表示</a></li>
+<li><a class="reference internal" href="#id12">参考</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

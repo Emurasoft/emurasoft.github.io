@@ -1,27 +1,27 @@
-# 自訂更新檢查程式命令
+# Customize Update Checker command
 
-### 摘要
+### Summary
 
-> 自訂更新程式。
+> Customizes the Update Checker.
 
-### 說明
+### Description
 
-> 打開 **更新選項** 對話方塊，您可以指定 EmEditor 檢查更新的次數以及下載和儲存路徑。
+> Opens the **Update Options** dialog box, where you can specify how often EmEditor checks for updates, and where updates are downloaded and saved.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **說明** \> **自訂更新檢查程式**
-- [全部命令](../tools/all_commands): **說明** >
-**自訂更新檢查程式**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Help** \> **Customize Update Checker**
+- [All Commands](../tools/all_commands): **Help** >
+**Customize Update Checker**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE\_UPDATE\_CHECKER (4482)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

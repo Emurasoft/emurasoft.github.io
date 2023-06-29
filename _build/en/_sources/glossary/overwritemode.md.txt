@@ -1,3 +1,4 @@
-# 覆寫模式
+# Overwrite Mode
 
-一個鍵入模式，輸入的字元會被寫在該行的任何其他字元上。
+A typing mode in which the characters typed will write over any other
+characters already on the line.

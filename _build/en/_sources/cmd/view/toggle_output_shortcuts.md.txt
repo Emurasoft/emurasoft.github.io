@@ -1,27 +1,27 @@
-# 啟用快速鍵 (輸出列) 命令
+# Enable Shortcut Keys (Output Bar) command
 
-### 摘要
+### Summary
 
-> 啟用或停用輸出列內的快速鍵。
+> Enables or disables shortcut keys in the Output Bar.
 
-### 說明
+### Description
 
-> 啟用或停用輸出列內的快速鍵。
+> Enables or disables shortcut keys in the Output Bar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** >
-**輸出列** \> **啟用快速鍵**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** >
+**Output Bar** \> **Enable Shortcut Keys**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_TOGGLE\_OUTPUT\_SHORTCUTS (4549)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

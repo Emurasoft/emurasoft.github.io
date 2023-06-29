@@ -1,23 +1,27 @@
-# (副檔名) 屬性對話方塊
+# (Extension) Properties dialog box
 
-這個對話方塊會出現當您在 [**與 EmEditor 關聯** 對話方塊](../index) 中點擊 **「屬性」** 按鈕時。
+This dialog box appears when the
+**Properties**
+button is selected on the
+[**Associate with EmEditor** dialog box](../index). You can set properties for the
+specified extension.
 
-### 「副檔名」文字方塊
+### Extension text box
 
-輸入文件您想要關聯的文件副檔名。
+Enter the file extension you want to associate.
 
-### 「文件類型」文字方塊
+### File Types text box
 
-輸入文件類型。
+Enter the file type.
 
-### 「本文件的示例圖示」文字方塊
+### Sample Icon from This File text box
 
-輸入示例圖示的文件名稱。
+Enter the file name you sampled the icon from.
 
-### 「...」按鈕
+### ... button
 
-點擊該按鈕尋找指定文件。
+Click this button to find the specified file.
 
-### 「目前的圖示」清單方塊
+### Current Icon list box
 
-目前的被選取的圖示以及您能使用的圖示清單。
+List of icons you can use and the current icon selected.

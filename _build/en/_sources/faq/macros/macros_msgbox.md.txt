@@ -1,5 +1,5 @@
-# Q. 我能使用 VBScript MSgBox 功能嗎？
+# Q. Can I use the VBScript MsgBox function?
 
-不行。但是，您可以用 WshShell 的 Popup 方法。您還能用 [**alert** 方法](../../macro/window/window_alert) 或者 [**confirm** 方法](../../macro/window/window_confirm) 來代替。
+No. However, you can use the Popup method of the WshShell. You can also use the [**alert** method](../../macro/window/window_alert) or [**confirm** method](../../macro/window/window_confirm) instead.
 
-## 請參考
+## See Also

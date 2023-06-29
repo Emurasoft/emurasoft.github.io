@@ -1,27 +1,29 @@
-# 右移一個字元命令
+# Char Right command
 
-### 摘要
+### Summary
 
-> 將游標向右移動一個字元。
+> Moves the cursor one character to the right.
 
-### 說明
+### Description
 
-> 將游標向右移動一個字元。如果游標在行末，這個命令會將游標移動到下一行的起始位置。這個命令等同于按一下鍵盤上的向右鍵。
+> Moves the cursor one character to the right. If the cursor is at the end of a
+> line, this command moves the cursor to the start of the next line.
+> Equivalent to pushing the RIGHT ARROW key once.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **水平移動游標**
-\> **右移一個字元**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: 向右鍵
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Char Right**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: RIGHT ARROW
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_RIGHT (4156)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

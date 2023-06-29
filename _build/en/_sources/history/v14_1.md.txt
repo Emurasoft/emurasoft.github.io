@@ -2,27 +2,43 @@
 
 December 23, 2013
 
-## 一般新增功能
+## New General Features
 
-- 增強的多重選取功能: 當您進行多重選取時，您可以使用 SHIFT + RIGHT 或 LEFT 鍵來延伸選區。
-- 現在能指定多達15個字元的 **行注釋** (過去是3個字元) 。
-- 您可以自訂 **已添加書簽的行** 的顏色。
-- 即使作了選取， **當前行的顏色** 也會被保留。
-- 您現在可以為每一個組態設置一個預設的初始資料夾。當一個 **無標題** 文檔被儲存時， **另存新檔** 對話方塊將使用指定的初始資料夾進行初始化。要注意的是如果一個 **已知的資料夾** (例如 **文檔**， **圖片** 等)被指定，Windows 系統可能會重新定向資料夾位置。如果 Windows 8.1 系統上有設置 **Sky Drive** 集成，那文檔資料夾就可能會被重新定向到 **Sky Drive 文檔** 資料夾中。
+- Enhanced multiple selections: you can now use SHIFT + RIGHT or LEFT
+keys to extend the selection while multiple selections are made.
+- **Line comments** up to 15 characters long can be specified now (used to be
+up to 3 characters long).
+- The color of **Bookmarked lines** can be specified now.
+- The **current line color** is now kept even while a selection is made.
+- You can now set a default initial folder for each configuration. When
+an **untitled** document is saved, the **Save As** dialog box will be initialized with
+the specified initial folder. Notes that if a **known folder** (such as
+**Documents**, **Pictures**, etc.) is specified, the Windows system might redirect
+the folder location. If the **Sky Drive** integration is set on Windows 8.1, the
+**Documents** folder might be redirected to the **Sky Drive Documents** folder.
 
-## 新增選項
+## New options
 
-- **已添加書簽的行** 項目被添加到 **組態屬性** 中 **顯示** 頁面上的 **指定部分** 清單方塊中。
-- " **不再顯示這個消息**"核取方塊被添加到拒絕訪問對話方塊中，讓您可以跳過這條提示消息。這個對話方塊會在 EmEditor 試著儲存檔案到 Program Files 或 Windows 系統資料夾中時出現。這個設置不會在 EmEditor 會話中被記住，所以當您重新啟動 EmEditor 后，這條消息還是會出現。
-- [**新建檔案詳細信息** 對話方塊中](../dlg/properties/file/new_details/index) 新增了 **設置初始資料夾** 核取方塊和 **初始資料夾** 文字方塊。
+- The **Bookmarked Lines** item was added to the **Specified Part** list box in the **Display** tab of
+**Configuration Properties**.
+- The " **Do not show this message again**" check box was
+added to the Access Denied dialog box to skip this prompt message. This
+dialog box is displayed when EmEditor tries to save a file in the Program
+Files or Windows system folder. This setting will be not be remember between
+EmEditor sessions, so the prompt message will show up again after you
+restart EmEditor.
+- The **Set Initial Folder** check box and **Initial**
+**Folder** text box were added to the
+[**New File Details** \
+dialog box.](../dlg/properties/file/new_details/index)
 
-## 新增命令
+## New commands
 
-- **[重設所有設定](../cmd/tools/reset_all_settings)**
+- **[Reset All Settings](../cmd/tools/reset_all_settings)**
 
-## 巨集的新增功能
+## Macro new features
 
 - The [**InitialFolder** \
-屬性](../macro/file_new_prop/initial_folder) 被添加到 **FileNewProp** 對象中。
+property](../macro/file_new_prop/initial_folder) was added to the **FileNewProp** object.
 - The [**SetInitialFolder** \
-屬性](../macro/file_new_prop/set_initial_folder) 被添加到 **FileNewProp** 對象中。
+property](../macro/file_new_prop/set_initial_folder) was added to the **FileNewProp** object.

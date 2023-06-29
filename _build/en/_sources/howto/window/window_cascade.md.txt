@@ -1,3 +1,4 @@
-# 排列視窗
+# To Arrange Windows
 
-從視窗功能表中選擇 **水平平鋪** 或 **垂直平鋪** 來平鋪視窗。
+Select **Tile Horizontally** or **Tile Vertically** from the **Window**
+menu, to arrange the windows as tiles.

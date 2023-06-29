@@ -1,53 +1,53 @@
 # Version 15.8
 
-2016年2月15日
+February 15, 2016
 
-## 一般新增功能
+## New General Features
 
-- 添加了 **儲存格選擇模式**，大大增強了 CSV 編輯功能。在打開一個 CSV 文檔之後，如果選擇儲存格選擇模式，EmEditor 會隱藏 CSV 分隔符，你能 **用游標或鍵盤選擇儲存格**，就像在電子表格程式 (Excel) 中一樣。在儲存格選擇模式下，按 **向右方向鍵** 或 **向左方向鍵** 能左右移動儲存格選取方塊。雙擊一個儲存格，按 ENTER 鍵，或選擇 **編輯儲存格** 命令能讓你直接編輯選取的儲存格。在選擇多個儲存格的情況下，執行 **編輯儲存格** 命令還能讓你同時編輯多個儲存格。另外，在編輯并確認一個儲存格之後，EmEditor 會進行語法檢查。
-- 在 **儲存格選擇模式** 下，按 **TAB** 鍵能移動到下一個儲存格，按 **SHIFT + TAB** 能移動到上一個儲存格。還有， **在上方新增一行** 和 **在下方新增一行** 命令會自動為含有分隔符的文檔插入分隔符。
-- 在預設情況下， 添加了 CSV/排序工具列上的儲存格選擇按鈕的氣球狀提示。
-- **剪下行**， **複製行**，以及 **刪除行** 命令現在不止可以用在目前的行上，還可以用在選取得多個行上。
-- 右擊編輯器左邊緣或行號所快顯的功能表上，現在包括了 **剪下行**， **複製行**， **貼上**，以及 **刪除行** 命令，讓你能更方便地編輯文檔。
-- 到巨集功能表下，右擊我的巨集清單上的任意一個巨集，會出現一個內容功能表，其中包括 **編輯** 命令。
-- 之前使用的 SHA-1 電子簽名被新的 SHA-1/SHA-256 雙電子簽名取代。
-- 為提高安全性，EmEditor 不再在可執行檔案中使用共享分區。
-- 為提高安全性，啟用了地址空間布局隨機化 (address space layout randomization, ASLR)。
+- The **Cell Selection Mode** was added, and CSV editing was greatly enhanced. If the **Cell Selection Mode** was selected after a CSV document is opened, the CSV delimiters will be hidden, and you can **select cell(s) by the mouse or keyboard** like a spreadsheet program (Excel). During the Cell Selection Mode, pressing the **RIGHT** or **LEFT key** moves the cell right or left. Double-clicking on a cell, pressing the ENTER key, or selecting the **Edit Cell** command will allow you to edit the selected cell. Selecting the **Edit Cell** while selecting multiple cells will allow you to edit multiple cells simultaneously. Syntax check after a cell is edited and confirmed.
+- In the **Cell Selection Mode**, **TAB** moves to the next cell, **SHIFT + TAB** moves to the previous cell. These commands as well as **Open Line Above** and **Open Line Below** commands insert delimiters automatically if not already exist.
+- The Balloon Tip on Cell Selection Button on the CSV/Sort toolbar was added by default.
+- **Cut Line(s)**, **Copy Line(s)**, and **Delete Line(s)** commands can now work when several lines are selected.
+- Right-click menu on the left edge of the editor or on line numbers now includes **Cut Line(s)**, **Copy Line(s)**, **Paste**, and **Delete Line(s)** commands.
+- Right-click on the My Macros on the Macros menu brings up the context menu including the **Edit** command.
+- Previously used **SHA-1 digital signatures** were replaced by new **SHA-1/SHA-256 double digital signatures**.
+- For security improvements, EmEditor no longer uses the **shared section** in the executable files.
+- For security improvements, **address space layout randomization** ( **ASLR**) was enabled.
 
-## 新增選項
+## New Options
 
-- 添加了「自動切換到儲存格選擇模式」和「在儲存格選擇按鈕上顯示氣球狀提示」復選方塊到 **自訂對話方塊** 中的 [**CSV 頁面**](../dlg/customize/csv/index) 上。
-- 添加了 **「CSV 儲存格所選文字」** 以及 **「CSV 儲存格選擇方塊架」** 到組態屬性中的 **顯示** 頁面上。另外，在 **樣式** 下拉清單中添加了 **「粗線」** 選項。
-- 在自訂巨集對話方塊中，我的巨集頁面上的 **「新增」** 按鈕變更為 **「添加」** 按鈕。
+- The **Switch to Cell Selection Mode Automatically** check box and the **Show Balloon Tip on Cell Selection Button** check box were added to the [**CSV page**](../dlg/customize/csv/index) of the **Customize dialog box**.
+- **CSV cell selected text** and **CSV cell selection frame** were added to the list in the **Display** tab of configuration properties. **Thick Line** was added to the **Style** drop-down list.
+- The **New** button to add a new item to the **My Macros** list was changed to the **Add** button on the **My Macro** tab of the **Customize Macros** dialog box.
 
-## 新增命令
+## New Commands
 
-- **[儲存格選擇模式](../cmd/edit/csv_cell_mode)**
-- **[編輯儲存格](../cmd/edit/csv_edit_cell)**
-- **[完全刪除](../cmd/edit/delete_complete)**
+- **[Cell Selection Mode](../cmd/edit/csv_cell_mode)**
+- **[Edit Cell](../cmd/edit/csv_edit_cell)**
+- **[Delete Completely](../cmd/edit/delete_complete)**
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 EI\_GET\_CELL\_MODE，EI\_SET\_CELL\_MODE 標志到 [EE\_INFO 消息](../plugin/message/ee_info) 中。
-- 添加了 POS\_CELL 標志到 [EE\_GET\_ANCHOR\_POS](../plugin/message/ee_get_anchor_pos)， [EE\_GET\_CARET\_POS](../plugin/message/ee_get_caret_pos)， [EE\_SET\_ANCHOR\_POS](../plugin/message/ee_set_anchor_pos)， [EE\_SET\_CARET\_POS](../plugin/message/ee_set_caret_pos) 消息中。
+- The **EI\_GET\_CELL\_MODE**, **EI\_SET\_CELL\_MODE** flags were added to the [EE\_INFO message](../plugin/message/ee_info).
+- The **POS\_CELL** flag was added to the [EE\_GET\_ANCHOR\_POS](../plugin/message/ee_get_anchor_pos), [EE\_GET\_CARET\_POS](../plugin/message/ee_get_caret_pos), [EE\_SET\_ANCHOR\_POS](../plugin/message/ee_set_anchor_pos), [EE\_SET\_CARET\_POS](../plugin/message/ee_set_caret_pos) messages.
 
-## 巨集的新增功能
+## Macro New Features
 
-- 添加了 [**CellMode** 屬性](../macro/document/cell_mode) 到 Document 對象中。
-- 添加了 **bComplete** 參數到 Selection 對象的 [**Delete** 方法](../macro/selection/selection_delete) 中。
-- 添加了 **eePosCell** 到 **Selection** 對象的 [**GetActivePointX**](../macro/selection/selection_getactivepointx)， [**GetActivePointY**](../macro/selection/selection_getactivepointy)， [**GetAnchorPointX**](../macro/selection/selection_getanchorpointx)， [**GetAnchorPointY**](../macro/selection/selection_getanchorpointy)， [**SetActivePoint**](../macro/selection/selection_setactivepoint)， [**SetAnchorPoint**](../macro/selection/selection_setanchorpoint) 函數的 **nFlags** 參數中。
+- The [**CellMode** property](../macro/document/cell_mode) was added to the Document object.
+- The **bComplete** parameter was added to the [**Delete** method](../macro/selection/selection_delete) of the Selection object.
+- The **eePosCell** was added to the **nFlags** parameter of the [**GetActivePointX**](../macro/selection/selection_getactivepointx), [**GetActivePointY**](../macro/selection/selection_getactivepointy), [**GetAnchorPointX**](../macro/selection/selection_getanchorpointx), [**GetAnchorPointY**](../macro/selection/selection_getanchorpointy), [**SetActivePoint**](../macro/selection/selection_setactivepoint), [**SetAnchorPoint**](../macro/selection/selection_setanchorpoint) functions of the **Selection** object.
 
-## 修復 Bug
+## Bug Fixes
 
-- 修復了多檔尋找 (UTF-16BE 帶 Unicode 簽名) 可能會使 EmEditor 故障的 bug。
-- [緩解了安裝程式的 DLL 劫持漏洞。](http://www.advancedinstaller.com/dll-hijacking.html)
-- 修復了切換書籤命令可能無法重新整理編輯器左邊緣的 bug。
-- 修復了在合併檔案的精靈中，在清單中變更指定檔案的順序不能反應在結果中的 bug。
-- 修復了在 v15.7 中，許多用於亮顯字串的規則運算式會導致高 CPU 用量的 bug。
-- 修復了 CSV 自動檢測功能無法用於很大的 CSV 檔案的 bug。
-- 篩選工具列現在能在很大的檔案上允許漸進式搜尋。
-- 修復了當搜尋字串是空的時候，巨集的 Find 方法可能導致錯誤的 bug。
-- 修復了多檔尋找 (UTF-8 帶 Unicode 簽名) 可能導致搜尋結果包含 BOM。
-- 修復了在自訂巨集對話方塊中一個的 bug。
-- 修復了在大綱顯示條在特定條件下會閃爍的 bug。
-- 修復了專案外掛程式中的參數信息工具提示可能在特定條件下無法運作的 bug。
+- Fixed the bug where Find in Files (UTF-16BE with Unicode signature) might have caused EmEditor crash.
+- [Mitigations for the installer’s DLL hijacking vulnerability.](http://www.advancedinstaller.com/dll-hijacking.html)
+- Fixed the bug where the Toggle Bookmark command might not have refresh the left edge of the editor.
+- Fixed the bug where changing the order of the files in the list in the Combine Documents into a Single File wizard did not reflect the results.
+- Fixed the bug where many regular expressions are used for highlight strings can result in high CPU usage on v15.7.
+- Fixed the bug where CSV auto detection did not work on very large CSV files.
+- The Filter toolbar now allows incremental search even on very large files.
+- Fixed the bug where the Find method of macros could cause an error when the search string is empty.
+- Fixed the bug where the Find in Files (UTF-8 with Unicode signature) might cause the search result contains the BOM.
+- Fixed a certain bug in the Customize Macros dialog box.
+- Fixed the bug where the Outline Bar could flash under a certain condition.
+- Fixed the bug where the Parameter Information tooltip of the Projects plug-in might not have worked under a certain condition.

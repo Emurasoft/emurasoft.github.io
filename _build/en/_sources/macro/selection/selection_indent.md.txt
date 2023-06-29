@@ -1,6 +1,7 @@
-# Indent 方法
+# Indent Method
 
-按指定的縮排等級數來縮排被選取的行。
+Indents the selected lines by the specified number of indentation
+levels.
 
 #### \[JavaScript\]
 
@@ -10,13 +11,14 @@ document.selection. **Indent**( \[ _nCount_ \] );
 
 document.selection. **Indent** \[ _nCount_ \]
 
-## 參數
+## Parameters
 
 _nCount_
 
-可選項。指定縮排等級數。預設值是 1。如果指定的是負數，該方法與 [**UnIndent** \
-方法](selection_unindent) 的行為相同。如果指定值為 0，該方法的行為與指定值為 1 時的行為相同。
+Optional. Specifies the number of indentation levels. The default is 1. If
+negative, the method acts like the [**UnIndent** \
+Method](selection_unindent). If 0, the method acts like 1.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

@@ -1,8 +1,9 @@
-# 新增外掛程式
+# New Plug-ins
 
-下面這些外掛程式是 Version 7 新增的。專案外掛程式和字詞自動完成外掛程式使用了 **自訂欄** 功能。
+The following plug-ins are new in Version 7. The Projects plug-in and the Word Complete plug-in utilize the **Custom Toolbar** feature.
 
-- 尋找列外掛程式 \- 讓您能搜尋，包括從工具列上進行增量搜尋。
-- [HTML 工具列外掛程式](../howto/plugin/plugin_htmlbar) \- 能在工具列上顯示快捷按鈕以及常用的 HTML 標籤和元素。
-- [專案外掛程式](../howto/plugin/plugin_projects) \- 顯示資料夾樹狀目錄并讓您能從樹狀目錄中直接打開檔案。
-- [字詞自動完成外掛程式](../howto/plugin/plugin_wordcomplete) \- 顯示在 EmEditor 中定義過的亮顯單字以及之前使用過的單字清單，讓您不用輸入，從清單中直接選擇一個單字。
+-
+FindBar Plug-in - allows you to do searches, including incremental search, from within the toolbar.
+- [HTMLBar Plug-in](../howto/plugin/plugin_htmlbar) \- displays a toolbar filled with buttons which help you insert frequently used HTML tags and elements.
+- [Projects Plug-in](../howto/plugin/plugin_projects) \- displays folder trees and allows you to open files from the folder trees.
+- [Word Complete Plug-in](../howto/plugin/plugin_wordcomplete) \- displays the list filled with previously used words and highlighted words defined in EmEditor, and lets you select a word from the list to complete your typing.

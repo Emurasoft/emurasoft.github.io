@@ -1,6 +1,6 @@
 # EP\_QUERY\_PROPERTIES
 
-查詢屬性是否被啟用。
+Queries whether the properties are available.
 
 EP\_QUERY\_PROPERTIES
 
@@ -10,12 +10,13 @@ wParam = 0;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _hwndParent_
 
-> 外掛程式設置對話方塊的視窗控制代碼。
+> The window handle of the Plug-ins Settings dialog box.
 
-## 返回值
+## Return Values
 
-> 您必須返回 TRUE 如果屬性可用，或 FALSE 如果屬性不可用。
+> You must return TRUE if the properties are available, or FALSE if the
+> properties are not available.

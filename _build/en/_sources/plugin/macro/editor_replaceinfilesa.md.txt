@@ -1,24 +1,24 @@
 # Editor\_ReplaceInFilesA
 
-在指定位置的多個檔案中搜尋一個 ANSI 字串。您能直接用該內嵌函式或明確地發送 [EE\_REPLACE\_IN\_FILESA message](../message/ee_replace_in_filesa).
+Replaces an ANSI string in multiple files in the specified location. You can use this inline function or explicitly send the [EE\_REPLACE\_IN\_FILESA message](../message/ee_replace_in_filesa).
 
 Editor\_ReplaceInFilesA( HWND hwnd, GREP\_INFOA pGrepInfo );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pGrepInfo_
 
-> 指定一個指標至 [GREP\_INFOW \
-> 結構](../structure/grep_infow)。
+> Specifies a pointer to the [GREP\_INFOW \
+> Structure](../structure/grep_infow).
 
-## 返回值
+## Return Value
 
-> 返回 FALSE 如果使用者中止，不然，返回 TRUE。
+> Returns FALSE if the user aborts, or TRUE if not.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 4.02 或之後的版本。
+> Supported on EmEditor Professional Version 4.02 or later.

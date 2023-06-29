@@ -1,6 +1,6 @@
-# FirstIndex 屬性
+# FirstIndex Property
 
-一個唯讀值，它包含在符合發生時的原始字串中以零為基的位置。
+A read-only value that contains the zero-based position within the original string where the match occurred.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _i_ = m. **FirstIndex**;
 
 _i_ = m. **FirstIndex**;
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 15.9 或之後的版本。
+Supported on EmEditor Professional Version 15.9 or later.

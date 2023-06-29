@@ -1,6 +1,6 @@
-# 批次取代全部和多項取代全部之間的區別
+# Difference between Batch Replace All and Bulk Replace All
 
-**批次取代全部** 一次在整個文檔中搜索一個字串，並按搜索字串的數量重複此過程。 **多項取代全部** 同時搜索所有搜索字串。這個區別會導致不同的結果，如果搜索/取代字串配對包含如下範例：
+**Batch Replace All** searches a whole document for one string at a time, and repeats this procedure for the number of search strings. **Bulk Replace All** searches for all search strings simultaneously. The difference may lead to different results if search/replace string pairs contain, for instance:
 
 1 → 5
 
@@ -10,22 +10,24 @@
 
 5 → 1
 
-並且如果源文檔是：
+and if the source document is:
 
 \[1,2,3,4,5\]
 
-在這個情況下，如果用 **批次取代全部**，EmEditor 會先把整個文檔中的 1 取代為 5，然後再將 2 取代為 4。這樣，源文檔會變為：
+In this case, if **Batch Replace All** is used, EmEditor will replace 1 with 5 for the whole document first, and then will replace 2 with 4. At this point, the source document becomes:
 
 \[5,4,3,4,5\]
 
-接下來，當它將 4 取代為 2 時，請註意它將取代兩個 4（第二個和第四個數字）。最後，當它將 5 取代為 1 時，它將取代兩個 5（第一個和最後一個數字）。因此，結果將是：
+Next, when it replaces 4 with 2, note that it will replace two 4's (the second and fourth numbers). Lastly, when it replaces 5 with 1, it will replace two 5's (the first and last numbers). Thus, the result will be:
 
 \[1,2,3,2,1\]
 
-如果使用新的 **多項取代全部**，EmEditor 將同時取代所有字串。因此，結果將是：
+If the new **Bulk Replace All** is used, EmEditor will replace all strings simultaneously. Therefore, the result will be:
 
 \[5,4,3,2,1\]
 
-**多項取代全部** 的執行速度會比 **批次取代全部** 快很多。在我們的測試中， **多項取代全部** 的速度比 **批次取代全部** 快 6310 倍，當搜索/取代配對有 100 萬個時。（請參考 [Version 21.7](../../history/v21_7) 中的測試結果）。
+as you expect.
 
-**多項取代全部** 不支援規則運算式，數字範圍，或包含換行的字串。
+**Bulk Replace All** will replace much faster than **Batch Replace All**. In our test, **Bulk Replace All** completed 6310 times faster than **Batch Replace All** when one million search/replace pairs existed (See [Version 21.7](../../history/v21_7) for test results).
+
+**Bulk Replace All** does not support regular expressions, number ranges, or strings including newlines.

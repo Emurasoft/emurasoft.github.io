@@ -1,27 +1,27 @@
-# 移至邏輯行行首命令
+# Logical Home command
 
-### 摘要
+### Summary
 
-> 移動游標到目前的邏輯行的行首。
+> Moves the cursor to the start of the current logical line.
 
-### 說明
+### Description
 
-> 移動游標到目前的邏輯行的行首。
+> Moves the cursor to the start of the current logical line.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **水平移動游標**
-\> **移至邏輯行行首**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: ALT+HOME
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Logical Home**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: ALT+HOME
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_LOGICAL\_HOME (4165)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

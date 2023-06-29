@@ -1,27 +1,30 @@
 # Editor\_SetScrollPosEx
 
-指定捲動欄位置。您能直接用該內嵌函式或明確地發送 [EE\_SET\_SCROLL\_POS](../message/ee_set_scroll_pos) 消息。
+Specifies the scroll bar position. You can use this inline function or explicitly send the [EE\_SET\_SCROLL\_POS](../message/ee_set_scroll_pos) message.
 
 Editor\_SetScrollPos( HWND hwnd, POINT\* pptPos, BOOL bCanMoveCursor );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pptPos_
 
-> 指標至一個指定捲動欄位置的 [POINT\_PTR](../structure/point_ptr)。游標位置將不會被改變。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the scroll bar positions. The
+> cursor position will not be changed.
 
 _bCanMoveCursor_
 
-> 如果該參數是 TRUE 并且 [**通過捲動位置移動游標** 核取方塊](../../dlg/properties/scroll/index) 被勾選，游標位置也會被移動。如果該參數是 FALSE，游標位置則不會被移動。
+> If this parameter is TRUE and if the
+> [**Move**\
+> **Cursor by Scrolling** check box](../../dlg/properties/scroll/index) is selected, the cursor position will also move. If this parameter is FALSE, the cursor position will not move.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 5.00 或之後的版本。
+> Supported on EmEditor Professional Version 5.00 or later.

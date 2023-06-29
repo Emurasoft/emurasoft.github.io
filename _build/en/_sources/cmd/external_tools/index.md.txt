@@ -1,5 +1,5 @@
-# 外部工具類別
+# External Tools category
 
 |     |     |
 | --- | --- |
-| **[外部工具清單](../tools/tool1)** | 啟動一個指定的外部工具 (多個項目) 。 |
+| **[Tools List](../tools/tool1)** | Launches a specified tool (multiple items). |

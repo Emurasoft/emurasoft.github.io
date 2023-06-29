@@ -1,6 +1,8 @@
-# Command 屬性
+# Command Property
 
-指定命令 ID。
+Specifies the command ID. See the
+**[Command Reference](../../cmd/index)** for the list of available
+commands. Not all commands may be available or supported.
 
 #### \[JavaScript\]
 
@@ -16,6 +18,6 @@ item. **Command**
 
 item. **Command** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

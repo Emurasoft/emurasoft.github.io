@@ -1,27 +1,27 @@
-# 垂直平鋪視窗命令
+# Tile Windows Vertically command
 
-### 摘要
+### Summary
 
-> 垂直平鋪排列視窗，使其不重疊。
+> Arranges windows vertically as non-overlapping tiles.
 
-### 說明
+### Description
 
-> 垂直排列非組合的 EmEditor 視窗，使其不重疊平鋪。
+> Arranges non-combined EmEditor windows vertically as non-overlapping tiles.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **視窗** \> **垂直平鋪**
-- [全部命令](../tools/all_commands): **視窗**
-\> **垂直平鋪**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Window** \> **Tile Vertically**
+- [All Commands](../tools/all_commands): **Window**
+\> **Tile Vertically**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_WINDOW\_TILE\_VERT (4243)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,3 +1,7 @@
-# Q. 文字內容無法被正常貼上到 EmEditor 上。這段文字是從另一個應用程式中複製過來的，比如 Netscape Navigator。
+# Q. I cannot paste text correctly when the content in the Clipboard has been copied from another application such as Netscape Navigator.
 
-一些其他應用程式，特別是 Netscape Navigator，在把文字從 ANSI 轉碼到 Unicode 時會出現困難。所以，這時我們不能用一般的 **貼上** 命令。請到 **「工具」** 功能表下，選擇 **所有命令**，然后選擇 **編輯** \> **貼上** \> **貼上為系統預設編碼**。另外，您也可以到 **「當前組態屬性」** 對話方塊中的 **「一般」** 頁面上勾選 **「總是貼為 ANSI」** 核取方塊。.
+Some other applications, particularly Netscape Navigator, have problems translating text from ANSI to Unicode. Instead of using the regular
+**Paste** command, select **All Commands** under the **Tools** menu, then
+**Edit > Paste > ANSI Paste**. Alternatively, check **Always Paste as ANSI** on the
+**General** tab
+of the **Current Configuration Properties** dialog box.

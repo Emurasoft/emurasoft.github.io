@@ -1,6 +1,6 @@
-# Heading 屬性
+# Heading Property
 
-與在自訂對話方塊中 [**CSV 格式** 頁面](../../dlg/customize/csv/index) 上的 **欄標題** 文字方塊對應。
+Corresponds to the **Lines of headings** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _n_ = object. **Heading**
 
 object. **Heading** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor 19.4 或之後的版本。
+Supported on EmEditor Professional Version 19.4 or later.

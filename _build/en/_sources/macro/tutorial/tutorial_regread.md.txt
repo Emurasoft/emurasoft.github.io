@@ -1,8 +1,8 @@
-# 操作注冊表
+# Manipulate the Registry
 
-要操作注冊表，用 RegRead 方法，RegWrite 方法，和 WshShell 對象 的 RegDelete 方法。
+To manipulate the registry, use the RegRead Method, RegWrite Method, and RegDelete Method of WshShell Object.
 
-下面的示例代碼會從注冊表上讀取一個運行的巨集的檔案名稱，并顯示它。
+The following example code reads the file name of a running macro from the registry, and displays it.
 
 #### \[JavaScript (JScript)\]
 
@@ -21,10 +21,11 @@ str = WshShell.RegRead( "HKCU\\Software\\EmSoft\\EmEditor v3\\Common\\MacroFile"
 
 alert str
 
-## 提示:
+## Tips:
 
-在 JavaScript 中，如果您想要在一個字串中包括一個反斜杠 "\\"，它必須在前面加上另一個反斜杠 "\\\"。
+In JavaScript, if you want to include a backslash "\\" within a string,
+it must be preceded by another backslash "\\\".
 
-## 參考
+## References
 
 )

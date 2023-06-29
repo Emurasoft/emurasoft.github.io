@@ -1,3 +1,5 @@
-# 假名
+# Kana
 
-日文的書寫系統。符號代表音節，并且常被用來與日文圖形符號 (kanji) 聯用來更改單字的形式。
+One of the writing systems used in Japanese. Symbols
+represent syllables and are often used in conjunction with Japanese pictorial
+symbols (kanji) to change the form of words.

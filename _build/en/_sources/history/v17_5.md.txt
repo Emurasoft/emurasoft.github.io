@@ -1,29 +1,29 @@
 # Version 17.5
 
-2018年2月27日
+February 27, 2018
 
-## 一般新增功能
+## New General Features
 
-- 在 CSV 選擇模式中， **自動填滿選項** 按鈕現在會在拖動自動填滿控點時出現。單擊此按鈕將顯示 **「自動填滿選項」** 功能表，您可以在其中選擇自動填滿的類型，並可以複製原始值或漸增每個儲存格中的值。
-- EmEditor現在根據 [「Unicode標準附件＃11 - 東亞寬度」](http://www.unicode.org/reports/tr11/) 來決定字元的寬度。有一個新的選項可以將不明確寬度的字元視為全形。
-- DLL 劫持漏洞的緩解措施。新版本有各種新的檢查，包括比較 EmEditor 可執行檔案和 DLL 檔案的數位簽章。
+- In the CSV selection mode, the **AutoFill Option** button now appears when the AutoFill handle is dragged. Clicking on this button will show the **AutoFill Option** menu where you will be able to choose the type of AutoFill, and to either duplicate the original value or increment the value with each cell.
+- EmEditor now determines the width of characters according to the " [Unicode Standard Annex #11 - East Asian Width](http://www.unicode.org/reports/tr11/)". There is a new option to treat ambiguous characters as fullwidth.
+- Mitigations for DLL hijacking vulnerability. The new version has various new checks, which includes comparing digital signatures of EmEditor executables and DLL files.
 
-## 新增選項
+## New Options
 
-- 在 **「自訂」** 對話方塊的 **「編輯」** 頁面的 **「編輯選項」** 清單方塊中添加了 **「將不明確寬度的字元視為全形」** 核取方塊。
+- Added the **Treat Ambiguous Width Characters as Fullwidth** check box to the **Edit Options** list box in the **Edit** tab of the **Customize** dialog box.
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 [**EE\_AUTOFILL** 消息](../plugin/message/ee_autofill)， [**Editor\_AutoFill** 內嵌函式](../plugin/macro/editor_autofill) 和 [**AUTOFILL\_INFO** 結構](../plugin/structure/autofill_info)。
-- 將 **EI\_REFRESH\_COMMON\_SETTINGS** 命令添加到 [**EE\_INFO** 消息](../plugin/message/ee_info) 中。
+- Added the [**EE\_AUTOFILL** message](../plugin/message/ee_autofill), the [**Editor\_AutoFill** inline function](../plugin/macro/editor_autofill), and the [**AUTOFILL\_INFO** structure](../plugin/structure/autofill_info).
+- Added the **EI\_REFRESH\_COMMON\_SETTINGS** command to the [**EE\_INFO** message](../plugin/message/ee_info).
 
-## 新增巨集功能
+## Macro New Features
 
-- 將 **[AutoFill](../macro/document/autofill)** 方法添加到 **Document** 對象。
-- 將 [**RefreshCommonSettings** 方法](../macro/editor/refresh_common_settings) 添加到 **Editor** 對象。
+- Added the **[AutoFill](../macro/document/autofill)** method to the **Document** object.
+- Added the [**RefreshCommonSettings** method](../macro/editor/refresh_common_settings) to the **Editor** object.
 
-## 修復 Bug
+## Bug Fixes
 
-- 修正了在停用 CSV 選擇模式時，雙擊單字可能無法選擇正確單字的問題。
-- 修復了與「以指定編碼全部儲存」對話方塊相關的 bug。
-- 修復了錄制巨集時無法捕獲新的標志（eeExFindBOL，eeExFindEOL和eeExFindLookaround）的 bug。
+- Fixed a bug where double-clicking a word might not select the correct word when the CSV selection mode is disabled.
+- Fixed a bug related to the Save All with Encoding dialog box.
+- Fixed a bug where recording a macro did not capture the new flags (eeExFindBOL, eeExFindEOL, and eeExFindLookaround).

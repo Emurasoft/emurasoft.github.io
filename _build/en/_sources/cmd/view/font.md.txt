@@ -1,27 +1,29 @@
-# 自訂字型命令
+# Customize Font command
 
-### 摘要
+### Summary
 
-> 更改字型設定。
+> Change font settings.
 
-### 說明
+### Description
 
-> 這個命令顯示 [**自訂字型** 對話方塊](../../dlg/properties/font/index)，讓您可以設定顯示的字型和列印字型。
+> This command displays the [**Customize Font** dialog box](../../dlg/properties/font/index),
+> where you can set the display font and the print font.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **字型**
-- [全部命令](../tools/all_commands): **檢視** >
-**字型** \> **字型**
-- 工具列: ![](../../images/fontpopup.gif) (點擊箭頭)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** \> **Font**
+- [All Commands](../tools/all_commands): **View** >
+**Font** \> **Font**
+- Toolbar: ![](../../images/fontpopup.gif) (not
+on the arrow)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FONT (4218)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,3 +1,9 @@
-# 高性能
+# Highest Quality Features
 
-EmEditor 不僅是個小型快速的文本編輯器，它的可靠性和能力也是最優秀的。在 Windows 2000/XP 系統中，EmEditor 能夠打開超過 4 千兆位元大小的檔案 (取決于可用的內存，理論上可以達到 500 千兆位元)。它能打開有多于 10 百萬行的檔案或編碼。撤消和重做也能夠無限地調整。其他有用的功能包括換行/不換行，自動保存，還有備份。EmEditor的文本編輯功能是替代記事本的最佳選擇。
+While EmEditor is a small, fast text editor, its reliability and
+capabilities are of the highest quality. On a Windows 2000/XP/Vista/7/8 system,
+EmEditor is capable of opening files over 4 gigabytes in size (and depending on available memory,
+theoretically up to 500 gigabytes).  It can open files with more than 10
+million lines and 10 million columns of text or code. Undo and Redo counts are infinitely adjustable. Other
+useful functions include wrap/no wrap, auto save, and backup. EmEditor's text
+editing features offer the best alternative to Notepad.

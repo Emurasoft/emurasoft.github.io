@@ -1,26 +1,26 @@
-# 完成后還原視窗位置命令
+# Restore Window Positions when Finished command
 
-### 摘要
+### Summary
 
-> 當比較或同步完成后還原視窗位置。
+> Restores window positions when comparison or synchronization is finished.
 
-### 說明
+### Description
 
-> 當比較或同步完成或取消后還原原始視窗/標籤位置。
+> Restores original window/tab positions when comparison or synchronization is canceled or finished.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **比較** \> **完成后還原視窗位置**
-- [全部命令](../tools/all_commands): **比較** \> **完成后還原視窗位置**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Compare** \> **Restore Window Positions when Finished**
+- [All Commands](../tools/all_commands): **Compare** \> **Restore Window Positions when Finished**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SYNC\_RESTORE\_POS (4546)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

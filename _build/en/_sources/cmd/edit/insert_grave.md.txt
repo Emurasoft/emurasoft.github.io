@@ -1,28 +1,29 @@
-# 插入低音符號命令
+# Insert Grave command
 
-### 摘要
+### Summary
 
-> 插入一個帶有低音符號的字元。
+> Inserts a character with a grave accent mark.
 
-### 說明
+### Description
 
-> 在選擇這個命令后，在游標處插入一個帶有低音符號的字元 (à，è，ì，ò，ù，À，È，Ì，
-> Ò 或 Ù) 通過輸入 a，e，i，o，u，A，E，I，O
-> 或 U；插入一個單引號 (‘) 通過輸入 \` ；或一個雙引號 (“) 通過輸入 " 。
+> After selecting this command, insert a character with a grave accent (à, è, ì, ò, ù, À, È, Ì,
+> Ò or Ù) at the cursor by typing a, e, i, o, u, A, E, I, O
+> or U; a single quotation mark (‘)
+> by typing \`; or a double quotation mark (“) by typing ".
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **插入** \> **讀音符號** \> **低音符號**
-- [全部命令](../tools/all_commands): **插入** \> **讀音符號** \> **低音符號**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: CTRL+\`
+- Default Menu: **Insert** \> **Diacritics** \> **Grave**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Grave**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+\`
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_INSERT\_GRAVE (4303)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

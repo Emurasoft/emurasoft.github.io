@@ -1,3 +1,4 @@
-# 換行點
+# Wrap Point
 
-文字被強制換到下一行由于邊距或頁面邊緣的位置。
+The point at which text is forced to the next line due to the locations
+of the margins or page edges.

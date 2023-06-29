@@ -1,63 +1,60 @@
-# 「刪除/把重複行設為書籤」對話方塊
+# Delete/Bookmark Duplicate Lines dialog box
 
-當您執行 [**刪除/把重複行設為書籤 (進階)** 命令](../../cmd/edit/delete_duplicate_advanced) 或在工具列上按 **「刪除/把重複行設為書籤 (進階)」** 按鈕時，這個對話方塊會出現。
+This dialog box appears when the
+[**Delete/Bookmark Duplicate Lines (Advanced)** command](../../cmd/edit/delete_duplicate_advanced) or the **Delete/Bookmark Duplicate Lines (Advanced)** button is selected in a toolbar.
 
-### 「檢查整行」單選按鈕
+### Inspect Whole Lines radio button
 
-如果勾選了該按鈕，EmEditor 會檢查是否有整行的重複。
+If this button is checked, EmEditor inspects whole lines for duplication.
 
-### 「僅檢查選取的字串」選項按鈕
+### Inspect Selected Strings Only radio button
 
-如果勾選了該按鈕，當存在垂直選擇或多重選擇時，EmEditor 僅檢查選取的字串是否有重複。
+If this button is checked, EmEditor inspects only selected strings for duplication when vertical selection or multiple selections exist.
 
-### 「僅檢查指定欄」單選按鈕
+### Inspect Specified Columns Only radio button
 
-如果選擇了該按鈕，EmEditor 僅在指定的欄中檢查是否有重複的行。
+If this button is checked, EmEditor inspects only specified columns for duplication.
 
-### 「欄」清單方塊
+### Columns list box
 
-顯示可以指定的欄的清單。
+Displays the list of columns that can be specified.
 
-### 「全部啟用/禁用」核取方塊
+### Enable/Disable ALL check box
 
-這個核取方塊讓您能啟用或禁用清單上的所有項目。
+This check box allows you to enable or disable all items in the list.
 
-### 「忽略大小寫」核取方塊
+### Ignore Case check box
 
-當執行刪除或把重複行設為書籤命令時，忽略大小寫。
+Ignores cases when deleting duplicate lines.
 
-### 「忽略空白行」核取方塊
+### Ignore Empty Lines check box
 
-當執行刪除或把重複行設為書籤命令時，忽略所有空行。
+Ignores all empty lines when deleting duplicate lines.
 
-### 「忽略空儲存格」核取方塊
+### Ignore Empty Cells check box
 
-刪除或把重復行設為書籤時忽略 CSV 文檔中的所有空儲存格。 換句話說，如果選擇了所有列，那么將忽略僅有分隔符號的行。當選取多個列時，指定列中的所有儲存格必須為空以便被忽略。
+Ignores all empty cells in CSV documents when deleting duplicate lines. In other words, lines that contain only separators are ignored if all columns are selected. When multiple columns are specified, all cells in the specified columns must be empty in order to be ignored.
 
-### 「僅比較相鄰兩行 (假設已預先排序)」核取方塊
+### Compare Adjacent Lines Only (Assume Presorted) check box
 
-僅檢查相鄰兩行。這個選項在文檔已排序后才可用。
+Inspects only adjacent lines. This option is useful if the document has been already sorted.
 
-### 「應用於群組中的所有文檔」核取方塊
+### Apply to all documents in the group check box
 
-把設定應用於目前的群組中的所有文檔上。
+Applies the settings to all documents in this group.
 
-### 「僅限于選區」核取方塊
+### In the Selection Only check box
 
-刪除選取的行，或把選取的行設為書籤。
+Deletes or bookmarks only the selected lines.
 
-### 「包括所有重複行」核取方塊
+### Include All Lines of Each Duplicate check box
 
-刪除或把所有重複行設為書籤。
+Deletes or bookmarks all duplicate lines.
 
-### 「刪除」按鈕
+### Delete button
 
-按設定執行刪除重複行命令。
+Starts deleting duplicate lines according to the settings.
 
-### 「設為書籤」按鈕
+### Bookmark button
 
-按設定把重複行設為書籤。
-
-### 「取消」按鈕
-
-取消設定並關閉對話方塊。
+Starts bookmarking duplicate lines according to the settings.

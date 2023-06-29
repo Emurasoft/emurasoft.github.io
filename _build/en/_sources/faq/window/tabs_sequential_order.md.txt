@@ -1,3 +1,6 @@
-# Q. 能不能在切換標籤時，讓 EmEditor 從左到右移動文檔標籤？
+# Q. Is there a way to make EmEditor move through document tabs in sequential order from left to right?
 
-可以。選擇 **「工具」** 功能表下的 **「自訂」**，到 [**「視窗」** 頁面](../../dlg/customize/window/index) 上，清除對 **「點擊 \[下一個文檔\] 命令時切換到上次使用的文檔視窗」** 核取方塊的勾選。當這個核取方塊沒有被勾選時，您可以在標籤文檔之間從左到右 ( **CTRL** + **TAB**) 或從右到左 ( **CTRL** + **SHIFT** + **TAB** ) 切換文檔。當這個核取方塊被勾選時，按下 **CTRL** + **TAB** 和 **CTRL** + **SHIFT** + **TAB**，會在活動的文檔和上一次檢視的文檔之間切換。
+Yes. Select **Customize** on the **Tools** menu, then select the
+[**Window** page](../../dlg/customize/window/index), and clear the **Switch to last used document for Next Document** check box. When unchecked, you can switch between the tabbed documents in order from left to right, or right to left, using
+**CTRL** + **TAB**, or
+**CTRL** + **SHIFT** + **TAB** respectively. When checked, pressing **CTRL** + **TAB** and **CTRL** + **SHIFT** + **TAB**, switch back and forth between the active document and the last viewed document.

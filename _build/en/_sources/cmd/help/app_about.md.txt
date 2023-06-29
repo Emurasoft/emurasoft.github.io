@@ -1,27 +1,28 @@
-# 關于 EmEditor 命令
+# About EmEditor command
 
-### 摘要
+### Summary
 
-> 顯示版本信息。
+> Displays version information.
 
-### 說明
+### Description
 
-> 顯示 [**關于 EmEditor** 對話方塊](../../dlg/about/index)，讓您能確認 EmEditor 的版本信息。
+> Displays the [**About EmEditor** dialog box](../../dlg/about/index),
+> where you can confirm the version information about EmEditor.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **說明** \> **關于 EmEditor**
-- [全部命令](../tools/all_commands): **說明** >
-**關于 EmEditor**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Help** \> **About EmEditor**
+- [All Commands](../tools/all_commands): **Help** >
+**About EmEditor**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_APP\_ABOUT (4250)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

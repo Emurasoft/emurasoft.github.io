@@ -1,3 +1,5 @@
-# 文檔對象模型 (DOM)
+# Document Object Model (DOM)
 
-一個 DOM 被用於網頁瀏覽器中來表示對象，例如文字和圖像，是如何在一個網頁上顯示的。一個 DOM 識別一個對象的屬性并定義一個對象如何被操作的。
+A DOM is used by Web browsers to indicate how objects, such as text and
+images, are represented on a Web page.  A DOM identifies an object's
+attributes and defines how an object can be manipulated.

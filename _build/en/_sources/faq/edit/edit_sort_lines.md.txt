@@ -1,5 +1,4 @@
-# Q. 怎么把行按字母或數字進行排序？
+# Q. How can I sort lines in alphabetical or numerical order?
 
-您可以選擇
-[**「按字母升序模式排列」**](../../cmd/edit/sort_text_a)， [**「按字母降序模式排列」**](../../cmd/edit/sort_text_d)， [**「按數字升序模式排列」**](../../cmd/edit/sort_num_a)，或 [**「按數字降序模式排列」**](../../cmd/edit/sort_num_d)
-命令把行重新排序。這些命令在「編輯」功能表下的「排序」子功能表里。
+You can select the
+[**Sort A to Z**](../../cmd/edit/sort_text_a), [**Sort Z to A**](../../cmd/edit/sort_text_d), [**Sort Smallest to Largest**](../../cmd/edit/sort_num_a), or [**Sort Largest to Smallest**](../../cmd/edit/sort_num_d) command to sort in alphabetical or numerical order. These commands can be found in the **Sort** submenu on the **Edit** menu.

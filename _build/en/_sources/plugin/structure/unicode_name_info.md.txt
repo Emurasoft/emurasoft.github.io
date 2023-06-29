@@ -1,6 +1,7 @@
 # UNICODE\_NAME\_INFO
 
-用於 [EE\_GET\_UNICODE\_NAME 消息](../message/ee_get_unicode_name)。
+Used by
+[EE\_GET\_UNICODE\_NAME message](../message/ee_get_unicode_name).
 
 typedef struct \_UNICODE\_NAME\_INFO {
 
@@ -16,28 +17,28 @@ int cchSrc;
 
 } UNICODE\_NAME\_INFO;
 
-## 欄位
+## Fields
 
 _cbSize_
 
-> 指定這個結構的大小，sizeof( UNICODE\_NAME\_INFO )。
+> Specifies sizeof( UNICODE\_NAME\_INFO ).
 
 _cchBuf_
 
-> 以字節為單位指定緩衝區大小，包括終止空字元。
+> Specifies the size of the buffer in characters including the terminating NULL.
 
 _pBuf_
 
-> 指定指針指向的能檢索 Unicode 名的緩衝區。
+> Specifies the pointer to the buffer to retrieve the Unicode name.
 
 _pstrSrc_
 
-> 指定源字元或字串。
+> Specifies the source character or string.
 
 _cchSrc_
 
-> 指定在 _pstrSrc_ 中指定的字元數。
+> Specifies the number of characters specified in _pstrSrc_.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional 19.1 或之後的版本。
+> Supported on Version 19.1 or later.

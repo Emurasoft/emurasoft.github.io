@@ -1,6 +1,6 @@
-# SetFileAttributes 方法
+# SetFileAttributes Method
 
-設定指定檔案或資料夾的屬性。
+Sets the attributes of a specified file or folder.
 
 #### \[JavaScript\]
 
@@ -10,26 +10,26 @@ shell. **SetFileAttributes**( _strFile_, _nAttr_ );
 
 shell. **SetFileAttributes** _strFile_, _nAttr_
 
-## 參數
+## Parameters
 
 _strFile_
 
-要設定屬性的檔案或資料夾的完整路徑和名稱。
+The full path and name of a file or folder to set the attributes.
 
 _nAttr_
 
-以下值的組合。
+A combination of the following values.
 
 |     |     |
 | --- | --- |
-| 值 | 描述 |
-| 0 | 正常 |
-| 1 | 唯讀 |
-| 2 | 隱藏 |
-| 4 | 系統 |
-| 32 | 封存 |
+| Value | Description |
+| 0 | Normal |
+| 1 | Read-only |
+| 2 | Hidden |
+| 4 | System |
+| 32 | Archive |
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -39,6 +39,6 @@ shell.SetFileAttributes( "C:\\\Test\\\file.txt", 1 );
 
 shell.SetFileAttributes "C:\\Test\\file.txt", 1
 
-## 版本
+## Version
 
-支持 EmEditor Professional 22.1 或之後的版本。
+Supported on EmEditor Professional Version 22.1 or later.

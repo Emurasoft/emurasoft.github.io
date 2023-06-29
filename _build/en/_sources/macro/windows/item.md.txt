@@ -1,6 +1,6 @@
-# Item 屬性
+# Item Property
 
-為指定索引的視窗檢索視窗對象。
+Retrieves the window object for the window of the specified index.
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ _wnd_ = shell.windows. **Item**( _Index_ );
 
 _wnd_ = shell.windows. **Item**( _Index_ )
 
-## 參數
+## Parameters
 
 _Index_
 
-用以 1 為基準的整數指定視窗的索引。
+Specifies the index of the window as a one-based integer.
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -26,6 +26,6 @@ alert( "Name of the first window: " + shell.windows.Item(1).Caption );
 
 alert "Name of the first window: " + shell.windows.Item(1).Caption
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

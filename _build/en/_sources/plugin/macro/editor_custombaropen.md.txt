@@ -1,19 +1,19 @@
 # Editor\_CustomBarOpen
 
-打開自訂顯示條。如果在發送該消息前已經打開了一個自訂顯示條，EmEditor 會關閉該自訂顯示條并打開一個新的自訂顯示條。您能直接用該內嵌函式或明確地發送 [EE\_CUSTOM\_BAR\_OPEN](../message/ee_custom_bar_open) 消息。
+Opens a custom bar. If a custom bar is already open before sending this message, EmEditor closes the custom bar, and opens a new custom bar. You can use this inline function or explicitly send the [EE\_CUSTOM\_BAR\_OPEN](../message/ee_custom_bar_open) message.
 
 Editor\_CustomBarOpen( HWND hwnd, CUSTOM\_BAR\_INFO\* pCustomBarInfo );
 
-## 參數
+## Parameters
 
 _pCustomBarInfo_
 
-> 指標至 [CUSTOM\_BAR\_INFO 結構](../structure/custom_bar_info)。
+> Pointer to the [CUSTOM\_BAR\_INFO structure](../structure/custom_bar_info).
 
-## 返回值
+## Return Values
 
-> 返回值是一個自訂顯示條 ID。這個 ID 是必要的當用 Editor\_CustomBarClose 內嵌函式來關閉該自訂顯示條時。如果消息不成功，返回值則是零。
+> The return value is a custom bar ID, which is necessary when the custom bar is closed with the Editor\_CustomBarClose inline function. If the message fails, the return value is zero.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 6.00 或之後的版本。
+> Supported on EmEditor Professional Version 6.00 or later.

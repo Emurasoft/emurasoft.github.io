@@ -1,6 +1,6 @@
-# MoveColumn 方法
+# MoveColumn Method
 
-在 CSV 模式下移動或複製指定欄。
+Moves or copies specified columns in a CSV mode.
 
 #### \[JavaScript\]
 
@@ -10,32 +10,32 @@ document. **MoveColumn**( _iColumn_, _iColumn2_, _iColumnTo_ \[ , _nFlags_ \] );
 
 document. **MoveColumn** _iColumn_, _iColumn2_, _iColumnTo_ \[ , _nFlags_ \]
 
-## 參數
+## Parameters
 
 _iColumn1_
 
-指定要移動或複製的首欄。
+Specifies the first column to move or copy.
 
 _iColumn2_
 
-指定要移動或複製的最后一欄。
+Specifies the last column to move or copy.
 
 _iColumnTo_
 
-指定要把欄移動或複製到其之前的欄。
+Specifies the column to move or copy the columns before.
 
 _nFlags_
 
-你可以指定以下值之一。如果省略，則會用 eeColumnMove。
+You can specify one the following values. If omitted, eeColumnMove is used.
 
-| 值 | 含義 |
+| Value | Meaning |
 | --- | --- |
-| eeColumnMove | 把從 _iColumn1_ 到 _iColumn2_ 的欄移動到 _iColumnTo_ 的欄之前。 |
-| eeColumnCopy | 把從 _iColumn1_ 到 _iColumn2_ 的欄複製到 _iColumnTo_ 的欄之前。 |
+| eeColumnMove | Moves columns from _iColumn1_ through _iColumn2_ before _iColumnTo_. |
+| eeColumnCopy | Copies columns from _iColumn1_ through _iColumn2_ before _iColumnTo_. |
 
-## 示例
+## Examples
 
-以下示例將欄 3 移動到最左邊。
+The following example moves column 3 to the left edge.
 
 #### \[JavaScript\]
 
@@ -45,6 +45,6 @@ document.MoveColumn( 3, 3, 1 );
 
 document.MoveColumn 3, 3, 1
 
-## 版本
+## Version
 
-支持 EmEditor Professional 19.7 或之後的版本。
+Supported on EmEditor Professional Version 19.7 or later.

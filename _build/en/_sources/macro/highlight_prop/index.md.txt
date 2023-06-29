@@ -1,34 +1,36 @@
-# HighlightProp 對象
+# HighlightProp Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [CommentBegin](comment_begin) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「注釋」群組方塊 \- 「開始」** 文字方塊相對應。 |
-| [CommentEnd](comment_end) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「注釋」群組方塊 \- 「結束」** 文字方塊相對應。 |
-| [Enabled](enabled) | 與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **亮顯單字** 核取方塊相對應。 |
-| [EscapeCharacter](escape_character) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「引號內的字串」群組方塊 \- 「逸出字元」** 文字方塊相對應。 |
-| [HighlightCharRef](highlight_char_ref) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **亮顯 HTML/XML 中的字元引用及通用字元名稱** 核取方塊相對應。 |
-| [HighlightMatchingBrackets](highlight_matching_brackets) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **亮顯配對括號** 核取方塊相對應。 |
-| [HighlightMatchingTag](highlight_matching_tag) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **亮顯配對標籤** 核取方塊相對應。 |
-| [LineComment1](line_comment1) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「注釋」群組方塊 \- 「行注釋」** 文字方塊相對應。 |
-| [LineComment2](line_comment2) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「注釋」群組方塊 \- 「行注釋」** 文字方塊相對應。 |
-| [List](list) | 檢索 [**HighlightList** 集合](../highlight_list/index)。 |
-| [QuoteContinue](quote_continue) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「引號內的字串」群組方塊 \- 「轉到下一行」** 核取方塊相對應。 |
-| [QuoteDouble](quote_double) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「引號內的字串」群組方塊 \- 雙引號 \["..."\]** 核取方塊相對應。 |
-| [QuoteSingle](quote_single) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「引號內的字串」群組方塊 \- 單引號 \['...'\]** 核取方塊相對應。 |
-| [ScriptBegin](script_begin) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「指令碼」群組方塊 \- 「開始」** 文字方塊相對應。 |
-| [ScriptEnd](script_end) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「指令碼」群組方塊 \- 「結束」** 文字方塊相對應。 |
-| [SpecialSyntax](special_syntax) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **特殊語法** 下拉清單方塊相對應。 |
-| [TagBegin](tag_begin) | 與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **開始標記** 文字方塊相對應。 |
-| [TagEnd](tag_end) | 與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **結束標記** 文字方塊相對應。 |
+| [AutoCompleteBrackets](auto_complete_brackets) | Corresponds to the **Auto-Complete Brackets/Quotation Marks** check box in the <br> [**Highlight (2)** tab](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [CommentBegin](comment_begin) | Corresponds to the **Comments**<br>**group box - Begin** text box in the <br> [**Highlight (2)** tab](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [CommentEnd](comment_end) | Corresponds to the **Comments**<br>**group box - End** text box in the <br> [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [Enabled](enabled) | Corresponds to the **Highlight**<br>**These Words** check box in the [**Highlight (1)** tab](../../dlg/properties/highlight1/index) of Configuration Properties. |
+| [EscapeCharacter](escape_character) | Corresponds to the **String**<br>**Enclosed by Quotation Marks group box - Escape Character** text box in the <br> [**Highlight (2)** tab](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [HighlightCharRef](highlight_char_ref) | Corresponds to the **Highlight HTML/XML Character Reference and UCN** check box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [HighlightMatchingBrackets](highlight_matching_brackets) | Corresponds to the **Highlight**<br>**Matching Parentheses/Brackets** check box in the <br> [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [HighlightMatchingTag](highlight_matching_tag) | Corresponds to the **Highlight**<br>**Matching Tag** check box in the <br> [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [LineComment1](line_comment1) | Corresponds to the **Comments**<br>**group box - Line Comment** text box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [LineComment2](line_comment2) | Corresponds to the **Comments**<br>**group box - Line Comment** text box in the [**Highlight (2)** tab](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [List](list) | Retrieves the [**HighlightList** collection](../highlight_list/index). |
+| [QuoteContinue](quote_continue) | Corresponds to the **String Enclosed by Quotation Marks group box - Continue to Next Line** check <br> box in the [**Highlight (2)** tab](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [QuoteDouble](quote_double) | Corresponds to the **String**<br>**Enclosed by Quotation Marks group box - Double Quotation Marks "..."** check box in the <br> [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [QuoteSingle](quote_single) | Corresponds to the **String**<br>**Enclosed by Quotation Marks group box - Single Quotation Marks '...'** check box in the <br> [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [ScriptBegin](script_begin) | Corresponds to the **Script**<br>**group box - Begin** text box in the <br> [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [ScriptEnd](script_end) | Corresponds to the **Script**<br>**group box - End** text box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [SpecialSyntax](special_syntax) | Corresponds to the **Special**<br>**Syntax drop-down** list box in the <br> [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties. |
+| [TagBegin](tag_begin) | Corresponds to the **Begin**<br>**Tag** text box in the <br> [**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties. |
+| [TagEnd](tag_end) | Corresponds to the **End**<br>**Tag** text box in the <br> [**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties. |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1
+auto_complete_brackets
 comment_begin
 comment_end
 enabled

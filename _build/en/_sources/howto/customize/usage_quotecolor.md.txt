@@ -1,11 +1,13 @@
-# 在引用行上更改顏色
+# To Change the Color on Quoted Lines
 
-1. 點擊 ![Properties for Current Configuration](../../images/properties.gif)
-(如果您只想更改目前的組態) 或
+1. Click ![Properties for Current Configuration](../../images/properties.gif)
+(if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
-(如果您想要更改所有組態) 并到 **顯示** 頁面上。
-2. 從清單中選擇 **引用行** 并點擊 **「文字」** 按鈕來更改顏色。
+(if you want to change all configurations) to display
+the **Display** tab.
+2. Select **Quoted Line** from the list and click the **Text** button
+to change the color.
 
-## 提示
+## Tips
 
-- 在 **引用標記** 中設置字元來定義 **引用行**。
+- Set characters in **Quote Marks** to define a line as **Quoted Line**.

@@ -1,26 +1,26 @@
-# 刪除重複行命令
+# Delete Duplicate Lines command
 
-### 摘要
+### Summary
 
-> 刪除已選中文字或整個文檔內的重複行。
+> Deletes duplicate lines in the selection or in the entire document.
 
-### 說明
+### Description
 
-> 刪除已選中文字或整個文檔內的重複行。重複行第一個執行個體將被保留。
+> Deletes duplicate lines in the selection or in the entire document. The first instance of the duplicate line will be retained.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **排序** \> **刪除重複行**
-- [全部命令](../tools/all_commands): **排序** \> **刪除重複行**
-- 工具列: ![](../../images/deleteduplicatelines.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Sort** \> **Delete Duplicate Lines**
+- [All Commands](../tools/all_commands): **Sort** \> **Delete Duplicate Lines**
+- Toolbar: ![](../../images/deleteduplicatelines.gif)
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_DELETE\_DUPLICATE (4564)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

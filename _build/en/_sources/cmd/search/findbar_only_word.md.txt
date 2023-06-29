@@ -1,28 +1,28 @@
-# 符合整個單字 (搜尋工具列) 命令
+# Match Whole Word (Find toolbar) command
 
-### 摘要
+### Summary
 
-> 切換搜尋工具列上「符合整個單字」按鈕的狀態。
+> Toggles the Match Whole Word button on the Find toolbar.
 
-### 說明
+### Description
 
-> 切換搜尋工具列上「符合整個單字」按鈕的狀態。當這個命令被切換時，搜尋會返回只有當整個單字都符合的搜尋結果。
-> (例如，"searches" 將不會是 "search"的符合的結果。)
+> Toggles the Match Whole Word button on the Find toolbar. When this command is toggled, searching will return results only when the whole word at the matched location matches the search term.
+> (e.g., "searches" will not be returned as a match for "search")
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜尋**
-\> **搜尋工具列** \> **符合整個單字**
-- 工具列: ![](../../images/find_only_word.png) (搜尋工具列)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Search Only Word**
+- Toolbar: ![](../../images/find_only_word.png) (Find toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FINDBAR\_ONLY\_WORD (4576)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

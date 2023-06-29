@@ -1,7 +1,8 @@
 # COLUMN\_STRUCT
 
-用於 [Editor\_SetColumn](../macro/editor_setcolumn)
-內嵌函式 ( [EE\_SET\_COLUMN](../message/ee_set_column) 消息) 中。
+Used by [Editor\_GetColumn](../macro/editor_getcolumn)
+inline function ( [EE\_GET\_COLUMN](../message/ee_get_column) message) or [Editor\_SetColumn](../macro/editor_setcolumn)
+inline function ( [EE\_SET\_COLUMN](../message/ee_set_column) message).
 
 typedef struct \_COLUMN\_STRUCT {
 
@@ -25,42 +26,47 @@ HGLOBAL hGlobalData;
 
 } COLUMN\_STRUCT;
 
-## 欄位
+## Fields
 
 _cbSize_
 
-> 指定此結構的大小 (以字節為單位)，sizeof(COLUMN\_STRUCT)。
+> Specifies the size of this structure in bytes, sizeof(COLUMN\_STRUCT).
 
 _iColumn_
 
-> 指定列的索引。
+> Specifies the index of the column.
 
 _yLineTop_
 
-> 指定要設置的第一行的行號。
+> Specifies a line number of the first line to set.
 
 _yLines_
 
-> 限制要設置的行數。如果為零，則不指定限制。
+> Specifies the number of lines to set as a limit. If this is zero, no limit is specified.
 
 _pBuf_
 
-> 指定要設置或插入的字串。字串可以用在 strDelimiter 中指定的分隔符分隔開。
+> Specifies a string to set or insert when used with the Editor\_SetColumn inline function (EE\_SET\_COLUMN message). The string can be separated by the delimiter specified in strDelimiter. It also specifies a buffer to receive the string when used with the Editor\_GetColumn inline function (EE\_GET\_COLUMN message).
 
 _cchBuf_
 
-> 不使用。
+> Specifies the size of the buffer in characters when used with Editor\_GetColumn inline function (EE\_GET\_COLUMN message).
 
 _pszDelimiter_
 
-> 指定用於 _pBuf_ 中分隔字串的分隔符。如果空著或省略該參數，同樣的字串會用於列中的每一個儲存格上。
+> Specifies the delimiter to separate the string specified in _pBuf_. If this is empty, the same string is used for every cell in the column.
 
 _flags_
 
-> 指定下列值之一。
+> Specifies on of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | AUTO\_QUOTE | 檢查字串是否包含分隔符，換行符或引號，并在必要時跳過這些字元并添加引號。 |
-> | DONT\_QUOTE | 不做上述過程。 |
-> | ALWAYS\_QUOTE | 總是添加引號。 |
+> | AUTO\_QUOTE | Checks whether the string contains delimiters, newlines, or quotes, and escape those characters and add quotes if necessary. |
+> | DONT\_QUOTE | Don't do the above process. |
+> | ALWAYS\_QUOTE | Always add quotes. |
+> | USE\_HGLOBAL | Specifies that the hGlobalData should be filled with the newly allocated global memory when used with the Editor\_GetColumn inline function (EE\_GET\_COLUMN message). The pBuf and cchBuf fields must be 0 when this flag is used. |
+
+_hGlobalData_
+
+> Specifies a variable that receives a handle to the newly allocated global memory object when used with the Editor\_GetColumn inline function (EE\_GET\_COLUMN message). The caller must free this memory object using the GlobalFree function.

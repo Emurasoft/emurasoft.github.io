@@ -1,7 +1,7 @@
-# 設置高速捲動
+# To Set High Speed Scroll
 
-1. 點擊 ![Properties for Current Configuration](../../images/properties.gif)
-(如果您只想更改目前的組態) 或
+1. Click ![Properties for Current Configuration](../../images/properties.gif)
+(if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
-(如果您想要更改所有組態) 并到 **捲動** 頁面上。
-2. 勾選 **每次捲動兩行** 以及 **快速移動游標**。
+(if you want to change all configurations) to display the **Scroll** tab in Properties.
+2. Select **Double Line Scroll** and **Faster Cursor Movement**.

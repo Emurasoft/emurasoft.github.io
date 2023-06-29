@@ -1,3 +1,3 @@
-# 全屏視圖
+# Full Screen View
 
-全屏視圖會隱藏所有功能表，工具列，和狀態列，讓您能使用全屏來進行您的編輯任務。F11是系統預設的全屏模式快捷鍵。
+The full screen mode hides all menus, toolbars, and the status bar so you can utilize the full screen with editing task.

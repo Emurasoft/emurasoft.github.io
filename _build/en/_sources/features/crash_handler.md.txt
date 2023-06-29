@@ -1,5 +1,6 @@
-# 支持錯誤處理程序
+# Application Error Handler Support
 
-當 EmEditor 發生一個應用程序錯誤時，錯誤處理程序將讓您在 EmEditor 終止前保存已修改的檔案。如果個應用程序錯誤發生在一個外掛程式中，EmEditor 讓您不用終止程序就禁用外掛程式。
+Should an application error occur in EmEditor, the error handler will let you save modified files before it actually terminates. Should an application error occur inside a plug-in, EmEditor
+will allow you to disable the plug-in without terminating.
 
-(EmEditor Professional/Standard Version 5 的新增功能)。
+(New feature in EmEditor Professional/Standard 5.0)

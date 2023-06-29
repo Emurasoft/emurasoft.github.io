@@ -1,22 +1,22 @@
-# AssociationList 集合
+# AssociationList Collection
 
-AssociationList 集合提供 [AssociationItem 對象](../association_item/index) 的集合。
+AssociationList collection provides a collection of [AssociationItem objects](../association_item/index).
 
-## 屬性
-
-|     |     |
-| --- | --- |
-| **[Count](count)** | 檢索項目的數目。 |
-| **[Item](item)** | 為指定索引檢索 [AssociationItem 對象](../association_item/index)。 |
-
-## 方法
+## Properties
 
 |     |     |
 | --- | --- |
-| **[Add](add)** | 添加一個項目。 |
-| **[Remove](remove)** | 刪除一個項目。 |
+| **[Count](count)** | Retrieves the number of items. |
+| **[Item](item)** | Retrieves the [AssociationItem object](../association_item/index) for the specified index. |
 
-## 示例
+## Methods
+
+|     |     |
+| --- | --- |
+| **[Add](add)** | Adds an item. |
+| **[Remove](remove)** | Removes an item. |
+
+## Examples
 
 #### \[JavaScript\]
 
@@ -38,9 +38,9 @@ alert item.Name
 
 Next
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

@@ -1,26 +1,26 @@
-# 用基底為1的數字字元作為欄標題命令
+# Use One-Based Numerical Characters for Column Header command
 
-### 摘要
+### Summary
 
-> 使用基底為1的數字字元作為欄標題。
+> Uses one-based numerical characters for the column header.
 
-### 說明
+### Description
 
-> 使用基底為1的數字字元作為欄標題。
+> Uses one-based numerical characters for the column header. This command is equivalent to the status where both the **Use Alphabetical Characters for Column Header** and **Use Zero-Based Numerical Characters for Column Header** check boxes are cleared in the **CSV** page of the **Customize** dialog box.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **CSV** \> **欄標題類型** \> **1, 2, 3, ...**
-- [全部命令](../tools/all_commands): **CSV** \> **欄標題類型** \> **1, 2, 3, ...**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **CSV** \> **Column Header Type** \> **1, 2, 3, ...**
+- [All Commands](../tools/all_commands): **CSV** \> **Column Header Type** \> **1, 2, 3, ...**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_HEADER\_NUM (3986)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

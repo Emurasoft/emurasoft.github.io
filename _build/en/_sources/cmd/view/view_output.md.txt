@@ -1,28 +1,29 @@
-# 切換輸出列命令
+# Toggle Output Bar command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏輸出列。
+> Shows or hides the output bar.
 
-### 說明
+### Description
 
-> 顯示或隱藏輸出列。輸出列會在一個外部工具啟用時顯示，當 [**使用輸出列** 核取方塊](../../dlg/tools/properties/index) 被勾選。
+> Shows or hides the output bar. The output bar is displayed when an external tool is launched while the
+> [**Use Output Bar** check box](../../dlg/tools/properties/index) is checked.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **輸出**
-- [全部命令](../tools/all_commands): **檢視** >
-**輸出列** >
-**輸出**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: ALT+2
+- Default Menu: **View** \> **Output**
+- [All Commands](../tools/all_commands): **View** >
+**Output Bar** >
+**Output**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: ALT+2
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_VIEW\_OUTPUT (4420)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

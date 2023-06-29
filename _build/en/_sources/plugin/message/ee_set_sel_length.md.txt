@@ -1,8 +1,9 @@
 # EE\_SET\_SEL\_LENGTH
 
-變更選區的字符長度。您能明確地發送該消息或用
+Changes the character length of the selection. You can send this message
+explicitly or use the
 [Editor\_SetSelLength](../macro/editor_setsellength)
-內嵌函式。
+inline function.
 
 EE\_SET\_SEL\_LENGTH
 
@@ -10,12 +11,13 @@ wParam = (WPARAM) (UINT) nLen;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _nLen_
 
-> 指定選區的字符長度。換行總是計為兩個字符長度 (CR+LF)。
+> Specifies the character length of the selection. Returns are always two
+> character length (CR+LF).
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

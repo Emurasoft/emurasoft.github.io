@@ -1,3 +1,4 @@
-# 統一資源定位器 (URL)
+# Uniform Resource Locator (URL)
 
-一個獨特的識別一個網頁，檔案，或其他在網絡上的資源類型的位置的地址。
+A unique address that identifies the location of a page, file, or other type
+of resource on the Internet.

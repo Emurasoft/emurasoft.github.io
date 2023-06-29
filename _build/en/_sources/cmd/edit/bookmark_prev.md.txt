@@ -1,26 +1,29 @@
-# 轉到本組文件的上一個書籤命令
+# Previous Bookmark in This Group command
 
-### 摘要
+### Summary
 
-> 轉到目前的群組中的上一個書籤處。
+> Goes to the previous bookmark in this group.
 
-### 說明
+### Description
 
-> 把游標移動到目前的群組中的上一個書籤位置。如果在目前的文檔中不存在書籤，這個命令會轉到上一個文檔的最后一個書籤位置處。如果只有一個文檔有書籤，這個命令會直接轉到那個文檔的最后一個書籤位置處。
+> Moves the cursor to the previous bookmark in this group. If no bookmark exists on
+> the current document, this command will go to the last bookmark in the
+> previous document. If only one document contains bookmarks, it will go
+> straight to the last bookmark of that document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **書籤** \> **目前的群組** \> **上一個書籤**
-- [全部命令](../tools/all_commands): **書籤** \> **目前的群組** \> **上一個書籤**
-- 工具列: ![](../../images/bookmarkprev.gif)
-- 狀態列: 無
-- 預設捷徑: SHIFT+F2
+- Default Menu: **Bookmarks** \> **This Group** \> **Previous Bookmark**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **This Group** \> **Previous Bookmark**
+- Toolbar: ![](../../images/bookmarkprev.gif)
+- Status Bar: None
+- Default Keyboard Shortcut: SHIFT+F2
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_BOOKMARK\_PREV (4322)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

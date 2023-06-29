@@ -1,21 +1,21 @@
-# \#tooltip 指示詞
+# \#tooltip directive
 
-指定要顯示的工具提示字串當游標放在一個工具列按鈕上時。這個指示詞必須在主代碼上方的指示詞碼中的第一行上被指定。
+Specifies the tooltip string displayed when a mouse is placed on the toolbar button. This directive must be specified at the first lines of the script above the main code.
 
 #tooltip = " _tooltip_"
 
-## 參數
+## Parameters
 
 _tooltip_
 
-> 指定要顯示的工具提示字串當游標放在一個工具列按鈕上時。工具提示不會被顯示如果指定的是一個空字串。
+> Specifies the tooltip string displayed when a mouse is placed on the toolbar button. The tooltip would not be displayed if an empty string was specified.
 
-## 示例
+## Examples
 
-組態工具提示 "calculation"。
+Configure the tooltip as "calculation".
 
 #tooltip = "Calculation"
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

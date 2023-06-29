@@ -1,6 +1,6 @@
-# SearchList 屬性
+# SearchList Property
 
-為搜索顏色清單檢索 [DisplayList 集合](../display_list/index)。
+Retrieves [**DisplayList** collection](../display_list/index) for the search color list.
 
 #### \[JavaScript\]
 
@@ -12,6 +12,6 @@ object. **SearchList**;
 _list_ =
 object. **SearchList**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

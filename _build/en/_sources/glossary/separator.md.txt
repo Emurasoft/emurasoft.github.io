@@ -1,3 +1,4 @@
-# 分隔符
+# Separator
 
-EmEditor 中的一個功能，能讓使用者在一個功能表上分隔命令。
+A function in EmEditor that allows a user to create a separation between
+commands within a menu.

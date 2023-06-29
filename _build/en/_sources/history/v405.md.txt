@@ -1,13 +1,13 @@
 # Version 4.05
 
-2004年8月4日
+August 4, 2004
 
-- 修復了在一個命令列之後的自動縮排行為。
-- 當一個規則運算式搜索字串的末尾是反斜線時，EmEditor 會突然出故障的 bug 被修復。
-- EmEditor 不能導入包含大于 80 個字元長度的行的語法文件的 bug 被修復。
-- 在特定條件下，EmEditor 不能用例如像 "\\\" 的表達式在文件中取代。
-- 添加了一條消息當被選取的外掛程式無法在「自訂外掛程式」對話方塊中被刪除時。
-- 有關在視窗沒有合併但視窗位置被儲存后，運行「在文件中取代」命令后，EmEditor 無法在點擊一個被最小化的視窗時還原儲存的視窗大小的 bug 已經被修復了。
-- 在 Windows XP Tablet PC 上運行 EmEditor 的「在文件中尋找」命令，EmEditor 會出故障的 bug。
-- 當目前的文件被刪除并用同樣的名稱被取代時，并且在「被其他程式更改時」的選項選擇的是「提示」，EmEditor 還是沒有顯示提示信息的 bug 被修復。
-- 當「被其他程式更改時」的選項選擇的是「提示」，但 EmEditor 還是沒有激活應該顯示提示信息的主視窗的 bug 被修復。
+- Fixed the auto indent behavior after a commented line.
+- Fixed a bug that EmEditor crashed if a search regular expression string ended with a backslash.
+- Fixed a bug that EmEditor could not import a syntax file containing a line with more than 80 characters long.
+- Fixed a bug that EmEditor could not replace in files an expression such as "\\\" under a certain condition.
+- Added a message when a selected plug-in cannot be removed in the Customize Plug-ins dialog box.
+- Fixed a bug that EmEditor did not restore the saved window size on clicking a minimized window after the Replace in Files command, when windows were not combined, and the window position was saved.
+- Fixed a bug that EmEditor crashed during Find in Files on Windows XP Tablet PC Edition.
+- Fixed a bug that EmEditor did not display a prompt message when the current file was removed and then replaced with the same name when "Prompt" was selected for "Changed by Another Program" drop-down list box.
+- Fixed a bug that EmEditor did not activate the main window displaying a prompt message when "Prompt" was selected for "Changed by Another Program" drop-down list box.

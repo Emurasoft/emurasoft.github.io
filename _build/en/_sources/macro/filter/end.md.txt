@@ -1,6 +1,7 @@
-# End 屬性
+# End Property
 
-指定你要搜索的文字的末尾欄的索引 (邏輯字元數)。指定 0 如果你想要搜索剩余的文字。要啟用這個欄位， _Column_ 屬性必須是 -1 。
+Specifies the index of end of the column (in logical characters) of the text you want to search, or 0 if you want to search
+all the rest of the text. The _Column_ property must be -1 to enable this field.
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ item. **End**
 
 item. **End** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 16.0 或之後的版本。
+Supported on EmEditor Professional Version 16.0 or later.

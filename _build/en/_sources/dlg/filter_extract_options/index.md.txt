@@ -1,15 +1,16 @@
-# 「篩選抽出選項」對話方塊
+# Filter Extract Options dialog box
 
-當你在 **篩選** 工具列中單擊 **抽出所有行** 按鈕時，在顯示的功能表中選擇 **抽出選項** 時會出現此對話方塊。
+This dialog box appears when the
+**Extract Options** is selected in the menu displayed when the **Extract All** button is clicked in the **Filter** toolbar.
 
-### 「抽出每行第一個符合的字串」選項按鈕
+### Extract first matched string per line radio button
 
-如果勾選了此項，則每行抽出第一個符合的字串。
+If this is checked, extracts first matched string per line.
 
-### 「抽出所有符合的字串」選項按鈕
+### Extract all matched strings radio button
 
-如果勾選了此項，則抽出所有符合的字串。
+If this is checked, extracts all matched strings.
 
-### 「分隔符號」文字方塊
+### Delimiter text box
 
-當每行符合多個字串時，指定一個分隔符號來分隔符合的字串。此選項僅在選擇 **抽出所有符合的字串** 選項按鈕時可用。
+Specifies a delimiter to separate matched strings when more than one strings are matched per line. This option is available only when the **Extract all matched strings** radio button is selected.

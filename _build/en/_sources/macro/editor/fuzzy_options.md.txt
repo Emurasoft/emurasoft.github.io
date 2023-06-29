@@ -1,6 +1,6 @@
-# FuzzyOptions 屬性
+# FuzzyOptions Property
 
-檢索 [**FuzzyOptions** 對象](../fuzzy_options/index)。
+Retrieves the [**FuzzyOptions** Object](../fuzzy_options/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _reg_ = editor. **FuzzyOptions**;
 
 Set _reg_ = editor. **FuzzyOptions**
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

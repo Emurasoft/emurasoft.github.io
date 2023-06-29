@@ -1,27 +1,27 @@
-# 制表欄命令
+# Tab Columns command
 
-### 摘要
+### Summary
 
-> 顯示一個快顯功能表來選擇制表欄。
+> Displays a popup menu to select tab columns.
 
-### 說明
+### Description
 
-> 顯示一個快顯功能表來選擇制表欄。
+> Displays a popup menu to select tab columns.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** \> **Tab/縮排** \> **制表欄**
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Tab Columns**
 - Toolbar:
 ![](../../images/tab_column24x16.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_TAB\_COLUMN\_POPUP (4550)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

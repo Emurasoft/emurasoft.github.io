@@ -1,6 +1,6 @@
-# Add 方法
+# Add Method
 
-添加一個項目。
+Adds an item.
 
 #### \[JavaScript\]
 
@@ -10,16 +10,16 @@ list. **Add**( _sName_, _bEnabled_);
 
 list. **Add** _sName_, _bEnabled_
 
-## 參數
+## Parameters
 
 _sName_
 
-指定要添加的項目名稱。
+Specifies the name of the item to add.
 
 _bEnabled_
 
-指定是否啟用項目。
+Specifies whether the item is enabled.
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

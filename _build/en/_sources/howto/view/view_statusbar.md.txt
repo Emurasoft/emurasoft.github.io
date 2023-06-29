@@ -1,15 +1,19 @@
-# 狀態列
+# The Status Bar
 
-狀態列位于視窗的底部，它會預設顯示下列信息。
+The Status Bar shown on the bottom of the window displays the following
+information by default.
 
-- 對目前被選取的功能表項目或工具列按鈕的命令解釋。
-- 目前選取的組態。
-- 游標所在的行與欄。
-- 用來打開檔案的編碼方式。
-- 覆寫模式 **(OVR)**
-- 唯讀模式 **(READ)**
+- The command explanation of the currently selected menu item or the Toolbar
+button.
+- The currently selected configuration.
+- The current line and column at the cursor.
+- Encoding method used to open.
+- Overwrite mode **(OVR)**
+- Read only mode **(READ)**
 
-### 提示
+### Tips
 
-- 您能雙擊大多數項目來變更它們的設定。
-- 顯示在狀態列上的信息可以在自訂對話方塊中的 [**狀態列** 頁面](../../dlg/customize/status/index) 上設定。
+- You can double-click on most items to change their settings.
+- Information displayed on the Status Bar can be customized in the
+[**Status** page](../../dlg/customize/status/index) of the
+Customize dialog box.

@@ -1,16 +1,16 @@
-# 強大的標簽頁功能
+# Powerful Tab Features
 
-由于所有窗口都在同一視窗中以單一進程運行，而不像之前版本僅僅合并窗口，被增強后的標簽頁功能現在更加穩定。
+Enhanced tab features are stable since all windows run in a single window in a single process unlike previous versions which only combine windows.
 
-- 您能選擇 **標簽頁** 或 **按鈕** 樣式。
-- 您可以點擊標簽右邊的關閉按鈕 (×) 來關閉活動的文檔。
-- 新版的 EmEditor 支持分組窗口，并且您還可以拖放任何標簽頁到另一個分組中或創建一個新的分組。
-- 新版的 EmEditor 支持分組窗口，并且您還可以拖放任何標簽頁到另一個分組中或創建一個新的分組。
-- 您可以自訂雙擊標簽頁或用鼠標中鍵單擊標簽頁所要執行的命令。
-- 您可以自訂雙擊標簽頁或用鼠標中鍵單擊標簽頁所要執行的命令。
-- 您能自訂標簽頁上的上下文菜單。
-- 您還可以自訂 **新的標簽頁插入位置**， **當關閉一個標簽頁時要激活哪一個標簽頁**，以及 **用哪一個窗口來打開新文檔**。
-- 標簽頁能通過檔案名稱，類型，修改時間或最近激活的時間來排序。您也可以用這些條件來指定 **自動排列** 的方式。
-- 當 EmEditor 窗口有太多標簽頁時，標簽頁欄能被延伸到多行或自動調節標簽頁寬度。
+- **Tab** or **Button** style can be selected.
+- Close button (×) on the right-side of the tab can be clicked to close the active document.
+- Window-grouping is supported, and any tab item can be dragged-and-dropped into another group to join or to create a new group.
+- Tab icons and the button width can be customized.
+- The command to run when double-clicking the tab or clicking the tab by the middle mouse button can be customized.
+- The mouse wheel rotation activates another document.
+- The context menu on the tab can be customized.
+- The **New tab insert position**, **Which tab should be activated when a tab is closed**, and the **Window to open a new document with** can be customized.
+- The tab can be arranged by file names, types, modified times or the recently activated order. The **Auto arrange** can also be specified.
+- The tab can be extended to multiple rows or the width can be automatically adjusted when it doesn't fit in the window.
 
-(EmEditor Professional Version 5 的新增功能)
+(New feature in EmEditor Professional Version 5)

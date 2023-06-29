@@ -1,6 +1,6 @@
-# PreviousBookmark 方法
+# PreviousBookmark Method
 
-移動到文檔中的上一個書籤處。
+Moves to the previous bookmark in the document.
 
 #### \[JavaScript\]
 
@@ -10,10 +10,10 @@ _bFound_ = document.selection. **PreviousBookmark**();
 
 _bFound_ = document.selection. **PreviousBookmark**
 
-## 返回值
+## Return Values
 
-返回 true 如果上一個書籤被找到；返回 false 如果沒有找到。
+Returns true if the previous bookmark is found, or false if not.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

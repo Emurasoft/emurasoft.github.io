@@ -1,27 +1,27 @@
-# 自訂跳轉清單命令
+# Customize Jump List command
 
-### 摘要
+### Summary
 
-> 自訂跳轉清單。
+> Customizes the jump list.
 
-### 說明
+### Description
 
-> 自訂跳轉清單。當您右擊任務欄上的 EmEditor 圖示時會跳轉清單。這個功能在 Windows 7 和以后的版本中可用。
+> Customizes the jump list. The jump list is displayed on the Task Bar when you right-click on the EmEditor icon. This feature is available on Windows 7 or later.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具** >
-**自訂跳轉**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](all_commands): **Tools** >
+**Customize Jump List**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE\_JUMP\_LIST (4455)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

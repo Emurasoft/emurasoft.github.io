@@ -1,69 +1,80 @@
 # Version 11
 
-2011年9月21日
+September 21, 2011
 
-## 一般新增功能
+## New General Features
 
-- [**標記**](../features/markers)
-- [**顯示 HTML/XML 字元引用的工具提示**](../features/tooltip_char_ref)
-- [**「尋找」工具列**](../features/find_bar)
-- [**批次取代**](../features/batch_replace)
-- 新增的 **刪除複製行** 命令讓您能刪除在選區中的複製行如果文字中的一部分被選取的話，或刪除整個文檔中的複製行。
-- 當一部分的文字被選取時，排序命令讓您能僅對選取的文字進行排序。
-- 新的 **最近關閉的檔案** 命令讓您能打開最近關閉的檔案。
-- 支持使用韓文 IME 進行 Hanja 轉換。
-- 狀態列現在讓您能顯示在選區中的字元數，字數，行數。另外，顯示順序現在也能夠被自訂了。
-- 支持 Unicode 的表意變化序列(IVS)。(需要支持字型。)
+- [**Markers**](../features/markers)
+- [**Tooltip to show HTML/XML character reference**](../features/tooltip_char_ref)
+- [**Find toolbar**](../features/find_bar)
+- [**Batch replace**](../features/batch_replace)
+- The new **Delete Duplicate Lines** command allows you delete duplicate lines in the selection if a portion of text is selected, or in the entire document.
+- The sort commands now sort the selected text only when a portion of text is selected.
+- The new **Recently Closed Files** commands allow you to open recently closed files.
+- Supports the Hanja conversion of Korean IME.
+- The status bar now allows you to display the number of characters in the selection, the number of words in the selection, and the number of lines in the selection. Also, the display order can be customizable now.
+- Unicode Ideographic Variation Sequence (IVS) is now supported. (Supporting fonts are needed.)
 - Boost version 1.47.
 - Hunspell version 1.3.1.
 
-## 新增選項
+## New options
 
-- 添加了 [**自訂標記** 對話方塊](../dlg/customize_markers/index)。
-- 在 [**取代** 對話方塊](../dlg/replace/index) 中添加了 **「批處理」** 按鈕， **「添加至批處理」** 按鈕，
-**「修改」** 按鈕， **清單** 方塊， **全部啟用/禁用** 核取方塊， **「上移」** 按鈕， **「下移」** button, **「刪除」** 按鈕， **「全選」** 按鈕， **「導入…」** 按鈕， **「導出…」** 按鈕，還有 **「批處理取代全部」**。
-- 在 [組態屬性](../dlg/properties/index) 的 [**亮顯 (2)** 頁面](../dlg/properties/highlight2/index) 上，添加了 **亮顯 HTML/XML 中的字元引用及通用字元名稱** 的核取方塊。
-- 在 [**自訂** 對話方塊](../dlg/customize/index) 中的 [**搜尋** 頁面](../dlg/customize/search/index) 上，添加了 **禁用尋找/取代對話方塊中的捷徑** 核取方塊， **尋找后將焦點置回編輯器** 核取方塊，以及 **按下「ESC」鍵時關閉** 核取方塊。
-- 在 [**自訂** 對話方塊](../dlg/customize/index) 中的 **[**狀態列** 頁面](../dlg/customize/status/index) 上添加了狀態列** 清單方塊， **「上移」** 按鈕和 **「下移」** 按鈕。
+- The [**Customize Markers** dialog box](../dlg/customize_markers/index) was added.
+- **Batch** button, **Add to Batch** button,
+**Modify** button, **List** box, **Enable/Disable All** check box,
+**Up** button, **Down** button, **Delete**
+button, **Select All** button,
+**Import** button, **Export** button, and
+**Batch Replace All** button were added to the [**Replace** dialog box](../dlg/replace/index).
+- The **Highlight HTML/XML Character Reference and UCN** check box was added to the
+[**Highlight (2)** page](../dlg/properties/highlight2/index) of the [Configuration Properties](../dlg/properties/index).
+- **Disable Shortcuts in the Find/Replace Dialog Boxes** check box,
+**Switch the Focus to the Editor after Searched** check box, and **Close if ESC pressed** check box were added to
+the [**Search** page](../dlg/customize/search/index) of the
+[**Customize** dialog box](../dlg/customize/index).
+- **Status** list box, **Up** button, and
+**Down** button were added to the [**Status** page](../dlg/customize/status/index) of the
+[**Customize** dialog box](../dlg/customize/index).
 
-## 新增命令
+## New commands
 
-- **[搜尋工具列](../cmd/view/show_find_bar)**
-- [**添加至標記**](../cmd/edit/add_to_markers)
-- **[標記工具列](../cmd/view/show_markers_bar)**
-- **[自訂標記](../cmd/tools/customize_markers)**
-- **[將 Unicode 轉換為 HTML 字元實體引用](../cmd/edit/encode_html_char_entity_ref)**
-- **[刪除複製行](../cmd/edit/delete_duplicate)**
-- **[將焦點移至搜尋工具列](../cmd/search/focus_find_bar)**
-- **[瀏覽「尋找」表達式(搜尋工具列)](../cmd/search/findbar_browse_exp_f)**
-- **[瀏覽「取代」表達式(搜尋工具列)](../cmd/search/findbar_browse_exp_r)**
-- **[尋找上一個(搜尋工具列)](../cmd/search/findbar_find_prev)**
-- **[尋找下一個(搜尋工具列)](../cmd/search/findbar_find_next)**
-- **[增量搜尋(搜尋工具列)](../cmd/search/findbar_incremental)**
-- **[搜尋所有已打開的文檔(搜尋工具列)](../cmd/search/findbar_open_doc)**
-- **[區分大小寫(搜尋工具列)](../cmd/search/findbar_case)**
-- **[使用規則運算式(搜尋工具列)](../cmd/search/findbar_reg_exp)**
-- **[使用逸出序列(搜尋工具列)](../cmd/search/findbar_escape)**
-- **[符合整個單詞(搜尋工具列)](../cmd/search/findbar_only_word)**
-- **[移動到文檔開始/結束處(搜尋工具列)](../cmd/search/findbar_around)**
-- **[符合次數(搜尋工具列)](../cmd/search/findbar_count)**
-- **[取代 >\> (搜尋工具列)](../cmd/search/findbar_replace_dlg)**
-- **[僅限于選區內(搜尋工具列)](../cmd/search/findbar_sel_only)**
-- **[取代下一個(搜尋工具列)](../cmd/search/findbar_replace_next)**
-- **[全部取代(搜尋工具列)](../cmd/search/findbar_replace_all)**
-- **[最后關閉的檔案](../cmd/file/most_recent_closed_file)**
-- **[關閉搜尋工具列](../cmd/search/close_find_bar)**
-- **[啟用全部標記](../cmd/view/marker_enable_all)**
-- **[禁用全部標記](../cmd/view/marker_disable_all)**
-- **[刪除所有標記](../cmd/view/marker_delete_all)**
-- [**最后關閉的檔案**](../cmd/file/recent_closed_file1)(多個項目)
+- **[Find Toolbar](../cmd/view/show_find_bar)**
+- [**Add to Markers**](../cmd/edit/add_to_markers)
+- **[Markers Toolbar](../cmd/view/show_markers_bar)**
+- **[Customize Markers](../cmd/tools/customize_markers)**
+- **[Unicode to HTML Character Entity Reference](../cmd/edit/encode_html_char_entity_ref)**
+- **[Delete Duplicate Lines](../cmd/edit/delete_duplicate)**
+- **[Set Focus to Find Toolbar](../cmd/search/focus_find_bar)**
+- **[Browse Find Expressions (Find toolbar)](../cmd/search/findbar_browse_exp_f)**
+- **[Browse Replace Expressions (Find toolbar)](../cmd/search/findbar_browse_exp_r)**
+- **[Find Previous (Find toolbar)](../cmd/search/findbar_find_prev)**
+- **[Find Next (Find toolbar)](../cmd/search/findbar_find_next)**
+- **[Incremental Search (Find toolbar)](../cmd/search/findbar_incremental)**
+- **[Search All Open Documents (Find toolbar)](../cmd/search/findbar_open_doc)**
+- **[Match Case (Find toolbar)](../cmd/search/findbar_case)**
+- **[Use Regular Expressions (Find toolbar)](../cmd/search/findbar_reg_exp)**
+- **[Use Escape Sequence (Find toolbar)](../cmd/search/findbar_escape)**
+- **[Search Only Word (Find toolbar)](../cmd/search/findbar_only_word)**
+- **[Move to Start/End of Document (Find toolbar)](../cmd/search/findbar_around)**
+- **[Count Matches (Find toolbar)](../cmd/search/findbar_count)**
+- **[Replace >> (Find toolbar)](../cmd/search/findbar_replace_dlg)**
+- **[In the Selection Only (Find toolbar)](../cmd/search/findbar_sel_only)**
+- **[Replace Next (Find toolbar)](../cmd/search/findbar_replace_next)**
+- **[Replace All (Find toolbar)](../cmd/search/findbar_replace_all)**
+- **[Most Recently Closed File](../cmd/file/most_recent_closed_file)**
+- **[Close Find Toolbar](../cmd/search/close_find_bar)**
+- **[Enable All Markers](../cmd/view/marker_enable_all)**
+- **[Disable All Markers](../cmd/view/marker_disable_all)**
+- **[Delete All Markers](../cmd/view/marker_delete_all)**
+- [**Recently Closed Files**](../cmd/file/recent_closed_file1) (multiple items)
 
-## 巨集的新增功能
+## Macros new features
 
-- [**HighlightCharRef** 屬性](../macro/highlight_prop/highlight_char_ref) 被添加到 [**HighlightProp** 對象](../macro/highlight_prop/index) 中。
-- eeEncodingBinary 和 eeEncodingHex 常數被添加到 [Encoding Constants](../macro/const/const_encoding) 中。
+- [**HighlightCharRef** property](../macro/highlight_prop/highlight_char_ref) was added to the
+[**HighlightProp** object](../macro/highlight_prop/index).
+- eeEncodingBinary and eeEncodingHex constants were added to the [Encoding Constants](../macro/const/const_encoding).
 
-## 外掛程式 API 新增功能
+## Plug-in API new features
 
-- m\_bHighlightCharRef 成員被添加到 CCustomizeInfo 類中。
-- 添加了新命令 (從 EEID\_SHOW\_FIND\_BAR 到 EEID\_CLOSE\_FIND\_BAR 以及 EEID\_RECENT\_CLOSED\_FILE1)。
+- The m\_bHighlightCharRef member was added to the CCustomizeInfo class.
+- New commands (from EEID\_SHOW\_FIND\_BAR through EEID\_CLOSE\_FIND\_BAR and EEID\_RECENT\_CLOSED\_FILE1) were added.

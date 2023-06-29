@@ -1,3 +1,4 @@
-# 對話方塊
+# Dialog Box
 
-顯示在屏幕上的任何類型的快顯方塊或視窗，被用來顯示信息，或要求使用者輸入。
+Any type of pop-up box or window displayed on the screen to either
+display information, or request user input.

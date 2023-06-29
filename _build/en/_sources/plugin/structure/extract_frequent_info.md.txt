@@ -1,6 +1,7 @@
 # EXTRACT\_FREQUENT\_INFO
 
-用於 [EE\_EXTRACT\_FREQUENT](../message/ee_extract_frequent) 消息。
+Used by
+[EE\_EXTRACT\_FREQUENT](../message/ee_extract_frequent) message.
 
 typedef struct \_EXTRACT\_FREQUENT\_INFO {
 
@@ -18,46 +19,46 @@ LPCWSTR pszIgnore;
 
 } EXTRACT\_FREQUENT\_INFO;
 
-## 欄位
+## Fields
 
 _cbSize_
 
-> 指定 sizeof( EXTRACT\_FREQUENT\_INFO )。
+> Specifies sizeof( EXTRACT\_FREQUENT\_INFO ).
 
 _nType_
 
-> 指定以下值之一。
+> Specifies one of the following values.
 
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | FREQ\_TYPE\_LINES | 創建一個常用行清單。 |
-> | FREQ\_TYPE\_WORDS | 創建一個常用詞清單。單字是由非字母數字字元包圍的字串，可以通過在 **自訂** 對話方塊中的 [**編輯** 頁面](../../dlg/customize/edit/index) 上的 **將下列字元識別為字母數字** 文字方塊來自訂。 |
-> | FREQ\_TYPE\_CELLS | 創建一個常用儲存格清單。 |
-> | FREQ\_TYPE\_IPV4 | 創建一個常用 IPv4 地址清單。 |
-> | FREQ\_TYPE\_IPV6 | 創建一個常用 IPv6 地址清單。 |
+> | FREQ\_TYPE\_LINES | Creates a list of frequent lines. |
+> | FREQ\_TYPE\_WORDS | Creates a list of frequent words. A word is a string surrounded by non-alphanumeric characters, which can be customized by the **Treat the following characters as alphanumeric** text box in the [**Edit** page](../../dlg/customize/edit/index) of the **Customize** dialog box. |
+> | FREQ\_TYPE\_CELLS | Creates a list of frequent cells. |
+> | FREQ\_TYPE\_IPV4 | Creates a list of frequent IPv4 addresses. |
+> | FREQ\_TYPE\_IPV6 | Creates a list of frequent IPv6 addresses. |
 
 _nNumOfLines_
 
-> 指定要抽出的最大字串數。實際匯出可能會超過此數字，以便包括所有同一頻率檢測到的多個字串。
+> Specifies the maximum number of strings to be extracted. The actual output may exceed this number in order to include all multiple strings detected for the same frequency.
 
 _iCsvFormat_
 
-> 指定要顯示的 CSV 格式。
+> Specifies the CSV format to display as.
 
 _nFlags_
 
-> 指定以下值的組合。
+> Specifies a combination of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | FLAG\_FIND\_CASE | 大小寫需符合。 |
-> | FLAG\_FIND\_OPEN\_DOC | 在同一個框架視窗中，搜索所有打開的文檔。 |
-> | FLAG\_FIND\_SEL\_ONLY | 僅在選區內搜索。 |
+> | FLAG\_FIND\_CASE | Matches cases. |
+> | FLAG\_FIND\_OPEN\_DOC | Searches all open documents in the same frame window. |
+> | FLAG\_FIND\_SEL\_ONLY | Searches only in the selection. |
 
 _pszIgnore_
 
-> 指定在計算常用字串時要忽略的字串。多個字串必須用換行符 (\\n) 分隔。
+> Specifies strings to be ignored while counting frequent strings. Multiple strings must be separated by a line-feed (\\n).
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional 21.9 或之後的版本。
+> Supported on Version 21.9 or later.

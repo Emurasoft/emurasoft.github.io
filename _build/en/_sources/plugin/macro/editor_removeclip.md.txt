@@ -1,34 +1,34 @@
 # Editor\_RemoveClip
 
-在剪貼簿記錄上的指定位置處刪除文字。您能直接用該內嵌函式或明確地發送 [EE\_CLIP\_HISTORY](../message/ee_clip_history)
-消息。
+Removes text at the specified position in the Clipboard history. You can use this inline function or explicitly send the [EE\_CLIP\_HISTORY](../message/ee_clip_history)
+message.
 
 Editor\_RemoveClip( HWND hwnd, UINT iPos, UINT nFlags );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _iPos_
 
-> 指定剪貼簿記錄上的位置。
+> Specifies the position in the Clipboard history.
 
 _nFlags_
 
-> 指定要刪除的剪貼簿的格式。
+> Specifies the format of the Clipboard to removed.
 >
 > |     |     |
 > | --- | --- |
-> | SEL\_TYPE\_CHAR | 剪貼簿格式是標準文字。 |
-> | SEL\_TYPE\_LINE | 剪貼簿格式是文字行。 |
-> | SEL\_TYPE\_BOX | 剪貼簿格式是文字的垂直選區。 |
+> | SEL\_TYPE\_CHAR | The Clipboard format is normal text. |
+> | SEL\_TYPE\_LINE | The Clipboard format is lines of text. |
+> | SEL\_TYPE\_BOX | The Clipboard format is vertical selection of text. |
 
-## 返回值
+## Return Values
 
-> 返回值是剪貼簿記錄上文字被刪除的位置。如果消息沒有成功，返回值是 -1。
+> The return value is the position in the Clipboard history where the text is removed. If the message fails, the return value is -1.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 9.00 或之後的版本。
+> Supported on EmEditor Version 9.00 or later.

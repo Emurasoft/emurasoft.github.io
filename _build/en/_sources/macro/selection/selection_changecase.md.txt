@@ -1,6 +1,6 @@
-# ChangeCase 方法
+# ChangeCase Method
 
-變更所選取的文字的大小寫。
+Changes the case of the selected text.
 
 #### \[JavaScript\]
 
@@ -10,18 +10,18 @@ document.selection. **ChangeCase**( _nFlags_ );
 
 document.selection. **ChangeCase** _nFlags_
 
-## 參數
+## Parameters
 
 _nFlags_
 
-指定下列值之一:
+Specifies one of the following values:
 
 |     |     |
 | --- | --- |
-| eeCaseLowerCase | 把大寫字母轉換成小寫字母。 |
-| eeCaseUpperCase | 把小寫字母轉換成大寫字母。 |
-| eeCaseCapitalize | 大寫每一個單字的第一個字母 (EmEditor 4.10 或之後的版本) 。 |
+| eeCaseLowerCase | Converts uppercase letters to lowercase letters. |
+| eeCaseUpperCase | Converts lowercase letters to uppercase letters. |
+| eeCaseCapitalize | Capitalizes the first letter of each word (EmEditor Professional Version 4.10 or later). |
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

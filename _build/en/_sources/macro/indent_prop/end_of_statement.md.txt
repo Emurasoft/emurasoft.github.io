@@ -1,6 +1,8 @@
-# EndOfStatement 屬性
+# EndOfStatement Property
 
-與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **語句結束** 文字方塊相對應。
+Corresponds to the **End**
+**of Statement** text box in the
+[**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
 
 #### \[JavaScript\]
 
@@ -14,6 +16,6 @@ _s_ = object. **EndOfStatement**
 
 object. **EndOfStatement** = _s_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,26 +1,27 @@
-# 運行剪貼簿巨集命令
+# Run Clipboard Macro command
 
-### 摘要
+### Summary
 
-> 運行剪貼簿巨集。
+> Run the clipboard macro.
 
-### 說明
+### Description
 
-> 運行剪貼簿巨集。
+> Runs the clipboard macro.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **巨集** \> **運行剪貼簿**
-- [全部命令](../tools/all_commands): **巨集**
-\> **運行剪貼簿**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **Macros** \> **Run Clipboard**
+- [All Commands](../tools/all_commands): **Macros**
+\> **Run Clipboard**
+- Toolbar: None
 
-### 外掛程式命令ID
+- Status Bar: None
+- Default Shortcut Key: None
+
+### Plug-in Command ID
 
 - EEID\_MACRO\_RUN\_CLIPBOARD (4074)
 
-### 巨集
+### Macros
 
-> 不可用。
+> Not available.

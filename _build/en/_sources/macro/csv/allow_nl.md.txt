@@ -1,6 +1,6 @@
-# AllowNL 屬性
+# AllowNL Property
 
-與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **允許在引號內換行** 核取方塊對應。
+Corresponds to the **Allow newlines in quotes** check box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _b_ = object. **AllowNL**
 
 object. **AllowNL** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 19.4 或之後的版本。
+Supported on EmEditor Professional Version 19.4 or later.

@@ -1,6 +1,6 @@
-# Configs 屬性
+# Configs Property
 
-檢索 [**Configs** 集合](../configs/index)。
+Retrieves the [**Configs** Collection](../configs/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _cfgs_ = editor. **Configs**;
 
 Set _cfgs_ = editor. **Configs**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,27 +1,29 @@
-# 內容功能表命令
+# Context Menu command
 
-### 摘要
+### Summary
 
-> 顯示內容功能表。
+> Shows Context Menu.
 
-### 說明
+### Description
 
-> 在 EmEditor 視窗中顯示一個內容功能表。在內容功能表中被顯示的功能表命令可以通過 [**自訂功能表** 命令](customize_menu) 被設定。當右擊游標右鍵時，這個功能表也會出現。
+> Displays a context menu within the EmEditor window. Menu commands displayed
+> in the context menu can be customized by the [**Customize Menus** command](customize_menu). This menu also appears when the right
+> mouse button is clicked.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具** >
-**內容功能表**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](all_commands): **Tools** >
+**Context Menu**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CONTEXT\_MENU (4301)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

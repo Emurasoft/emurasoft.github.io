@@ -1,34 +1,43 @@
-# 最近使用的資料夾清單命令
+# List of Recent Folders command
 
-### 摘要
+### Summary
 
-> 打開一個指定的最近訪問的資料夾 (多個項目) 。
+> Opens a specified recently accessed folder (multiple items).
 
-### 說明
+### Description
 
-> 這個命令由多個功能表項目組成。有了這個命令，您能選擇一個包含有多個最近打開的檔案的資料夾。所顯示的最近訪問的資料夾數
-> 可以在 **工具** 功能表 ( **工具** \> **自訂** \> **歷史記錄**) 下的 [**自訂** 對話方塊](../../dlg/customize/index) 中 [**歷史記錄** 頁面](../../dlg/customize/history/index) 上的 **最近使用的檔案數** 文字方塊中設定。
+> This command consists of multiple menu items. With this command, you can
+> choose a folder containing files which have been recently accessed to open. The number of folders to be
+> displayed as the recently used folders can be set on the
+> **Number of Recent**
+> **Files** text box on the
+> [**History** page](../../dlg/customize/history/index) of
+> the [**Customize** dialog box](../../dlg/customize/index),
+> under the **Tools** Menu ( **Tools** \> **Customize** \> **History**).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **系統系統匣圖示功能表** \> **最近使用的資料夾** \> **(選擇資料夾路徑)**
-- [全部命令](../tools/all_commands): **檔案** \> **打開**
-\> **最近使用的資料夾** \> **(選擇資料夾路徑)**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **System Tray Icon menu** \> **Recent Folder** \> **(select folder**
+**path)**
+- [All Commands](../tools/all_commands): **File** \> **Open**
+\> **Recent Folder** \> **(select folder path)**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
-- 從 EEID\_FILE\_MRU\_FOLDER1 到 EEID\_FILE\_MRU\_FOLDER1 + 63 (從 4992
-到 4992 + 63)
+- From EEID\_FILE\_MRU\_FOLDER1 through EEID\_FILE\_MRU\_FOLDER1 + 63 (from 4992
+through 4992 + 63)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4992 + i);  // i 是一個從 0 到 63 的整數
+> editor.ExecuteCommandByID(4992 + i);  // i is an integer from 0
+> through 63
 
 #### \[VBScript\]
 
-> editor.ExecuteCommandByID 4992 + i   ' i 是一個從 0 到 63 的整數
+> editor.ExecuteCommandByID 4992 + i   ' i is an integer from 0
+> through 63

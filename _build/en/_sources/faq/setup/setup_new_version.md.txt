@@ -1,12 +1,17 @@
-# Q. 我現在使用的是舊版的 EmEditor。我能不用卸載舊版的 EmEditor 就安裝新版本的 EmEditor 嗎？
+# Q. I am using a previous version of EmEditor. Can I install a newer version of EmEditor without uninstalling the previous version?
 
-如果您使用的是 EmEditor v3.00或v3以后的版本，并且想要保持以前使用的 EmEditor 配置設定的話，您不需要卸載就可以覆蓋舊版。步驟如下:
+If you have been using a version of EmEditor v3.00 or newer, and want to maintain the same configurations,
+you do not need to uninstall the previous version. You can install the newest version with the same destination folder.
+The steps are as follows:
 
-1. 安裝最新的版本。
-2. 當安裝完成時，重新啟動Windows。
+1. Install the newest version.
+2. When the installation is complete, reboot Windows.
 
-如果您用的 EmEditor 版本在v3.00以前，也不想要保持以前使用的 EmEditor 配置設定的話，我們推薦您可以先完全卸載以前的版本，重新啟動計算機，然后再安裝新版本。具體步驟如下:
+If you have been using a version of EmEditor older than v3.00, or don't want to maintain the same configurations
+of EmEditor, we recommend uninstalling the previous version completely and rebooting the computer
+before installing the newer version of EmEditor. The steps are as follows:
 
-1. 點擊 **「開始」**， 在「開始」菜單上選擇「控制面板。從 **「卸載或更改程序」** 中選擇 EmEditor (或 EmEditor v3)。然后點擊 **「刪除」** 按鈕。
-2. 當卸載完成后，重新啟動 Windows。
-3. 按屏幕指示，安裝新版本。
+1. Click the **Start** button and select Control Panel from the **Start** menu. Select the EmEditor (or EmEditor
+v3) from the **Add or Remove Programs**. Click the **Delete** button.
+2. Reboot Windows when uninstalling is complete.
+3. Install the new version.

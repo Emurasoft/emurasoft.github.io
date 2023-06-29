@@ -1,7 +1,7 @@
 # EE\_CLIP\_HISTORY
 
-操控剪貼簿記錄。您能明確地發送該消息或通過用 [Editor\_GetClip](../macro/editor_getclip)， [Editor\_GetClipPos](../macro/editor_getclippos)， [Editor\_InsertClip](../macro/editor_insertclip)，
-[Editor\_RemoveClip](../macro/editor_removeclip)， [Editor\_RotateClip](../macro/editor_rotateclip)，或 [Editor\_SetClipPos](../macro/editor_setclippos) 內嵌函式。
+Manipulates the Clipboard history. You can send this message explicitly or by using the [Editor\_GetClip](../macro/editor_getclip), [Editor\_GetClipPos](../macro/editor_getclippos), [Editor\_InsertClip](../macro/editor_insertclip),
+[Editor\_RemoveClip](../macro/editor_removeclip), [Editor\_RotateClip](../macro/editor_rotateclip), or [Editor\_SetClipPos](../macro/editor_setclippos) inline function.
 
 EE\_CLIP\_HISTORY
 
@@ -9,16 +9,18 @@ wParam = 0;
 
 lParam = (LPARAM) (CLIP\_INFO) pCI;
 
-## 參數
+## Parameters
 
 _pTI_
 
-> 指針指向 [CLIP\_INFO](../structure/clip_info) 結構。
+> Pointer to the [CLIP\_INFO](../structure/clip_info) structure.
 
-## 返回值
+## Return Values
 
-> 如果消息沒有成功發送，那么返回值是 -1。如果消息發送成功，那么返回值取決于 CLIP\_INFO 結構的 nAction 參數所指定的值。如果 nAction 參數是 CI\_GET\_CLIP，那么返回值則是以位元數表示的 pszBuf 緩沖區大小，這個緩沖區被用來需要包括終止空字符的文本。如果 nAction 參數是 CI\_INSERT\_CLIP，那返回值是剪貼簿記錄中新文本被插入的位置。如果 nAction 參數是 CI\_REMOVE\_CLIP，那返回值便是剪貼簿記錄中文本被刪除的位置。如果 nAction 參數是 CI\_GET\_CLIP\_POS，那返回值是剪貼簿記錄中的當前位置。如果 nAction 參數是 CI\_SET\_CLIP\_POS，那返回值是剪貼簿記錄中的舊位置。如果 nAction 參數是 CI\_ROTATE\_CLIP，那返回值是 1。
+> If the message fails, the return value is -1. If the message succeeds, the return value depends on the value specified as the nAction parameter of the CLIP\_INFO structure. If the nAction parameter is CI\_GET\_CLIP, the return value is the size of the pszBuf buffer in characters needed to receive
+> the text including the terminating NULL. If the nAction parameter is CI\_INSERT\_CLIP, the return value is the position in the Clipboard history where the new text is inserted. If the nAction parameter is CI\_REMOVE\_CLIP, the return value is the position in the Clipboard history
+> where the text is removed. If the nAction parameter is CI\_GET\_CLIP\_POS, the return value is the current position in the Clipboard history. If the nAction parameter is CI\_SET\_CLIP\_POS, the return value is the old position in the Clipboard history. If the nAction parameter is CI\_ROTATE\_CLIP, the return value is 1.
 
-## 支持版本
+## Version
 
-支持 EmEditor 9.00 或之後的版本
+Supported on EmEditor Version 9.00 or later.

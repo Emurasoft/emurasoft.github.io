@@ -1,56 +1,53 @@
-# 「自訂外掛程式」對話方塊
+# Customize Plug-ins dialog box
 
-這個對話方塊會顯示當
-[**自訂外掛程式** 命令](../../cmd/tools/customize_plug_ins) 被選取。
+This dialog box appears when the
+[**Customize plug-ins** \
+command](../../cmd/tools/customize_plug_ins) is selected.
 
-### 自訂外掛程式清單方塊
+### Customize Plug-ins list box
 
-您能使用的外掛程式清單。
+List of plug-ins you can use.
 
-### 「添加」按鈕
+### Add button
 
-從一個指定資料夾中添加一個新的項目到清單上。
+Add a new item from a specified folder to the list.
 
-### 「刪除」按鈕
+### Remove button
 
-從清單上刪除選取的項目。
+Remove the selected item on the list.
 
-### 「上移」按鈕
+### Up button
 
-把被選取的項目在清單上上移。
+Move the selected item up on the list.
 
-### 「下移」按鈕
+### Down button
 
-「下移」按鈕
+Move the selected item down on the list.
 
-### 「重新整理」按鈕
+### Refresh button
 
-更新清單中的內容。
+Update the contents of the list.
 
-### 「屬性」按鈕
+### Properties button
 
-顯示或編輯清單中被選取的組態屬性。
+Show or edit the selected configuration properties in the list.
 
-### 「卸載」按鈕
+### Uninstall button
 
-卸載選取的外掛程式。
+Uninstall the selected plug-in.
 
-### (名稱) 文字
+### (Name) text
 
-選取外掛程式的名稱。
+The name of the selected plug-in.
 
-### (版本) 文字
+### (Version) text
 
-選取外掛程式的版本信息。
+The version information of the selected plug-in.
 
-### 資料夾文字方塊
+### (Path) text
 
-指定一個外掛程式資料夾。
+The file path of the selected plug-in.
 
-### 「...」按鈕
+### Reset button
 
-點擊該按鈕來尋找指定檔案。
-
-### 「重設」按鈕
-
-重設為預設設定。
+Resets to default settings.

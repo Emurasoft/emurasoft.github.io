@@ -1,240 +1,256 @@
-# 使用命令列選項
+# Using Command Line Options
 
-命令列選項能在「開始」功能表中的「運行」對話方塊中或一個命令提示符視窗中被指定。
+Command line options can be specified in the Run dialog box on the Start menu or a  Command Prompt window.
 
-## 語法
+## Syntax
 
-### 打開一個或多個檔案
+### Open a file or files
 
 > " _File1_" " _File2_" " _File3_" ... \[/r\] \[/fh\] \[/nr\] \[/sp\] \[/l _LineNumber_\] \[/cl _ColumnNumber_\]
 > \[/cp _encoding_\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
 
-### 新增一個檔案
+### Create a new file
 
 > \[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
 
-### 新增一個檔案並貼上
+### Create a new file and paste
 
 > \[/i\] \[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
 
-### 新增一個檔案並貼為引文
+### Create a new file and paste with quote
 
 > \[/iq\] \[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
 
-### 新增一個檔案，貼為引文並換行
+### Create a new file and paste with quote and returns
 
 > \[/iqr\] \[/cd\] \[/sp\] \[/c " _Config_"\]
 > \[/mf " _MacroPath_"\]
 
-### 顯示系統匣圖示
+### Display the Tray Icon
 
 > /ti
 
-### 列印一個檔案
+### Print a file
 
 > " _File_" /p \[/nr\] \[/sp\] \[/cp encoding\]
 
-### 比較兩個檔案
+### Compare two files
 
 > /cmp " _File1_" " _File2_"
 
-### 轉換一個檔案編碼
+### Convert a file encoding
 
 > " _SrcFile_" \[/nr\] \[/sp\] \[/cp _EncodingToOpen_\] \[/c " _Config_"\] /cps _EncodingToSave_ /ss+ /sa " _DestFile_"
 >
-> 如果不用 Unicode 簽名 (BOM) 儲存，用 /ss- 而不是 /ss+.
+> To save
+> without the Unicode signature (BOM), use /ss- instead of /ss+.
 
-### 顯示「多檔尋找」對話方塊
+### Display Find in Files dialog box
 
 > /fd
 
-### 顯示「多檔取代」對話方塊
+### Display Replace in Files dialog box
 
 > /rd
 
-### 多檔尋找
+### Find in files
 
 > /fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/fn\] \[/fu " _FilesToIgnore_"\]
 > \[/cp _encoding_\] " _path_"
 >
-> 當點擊在「多檔尋找」對話方塊中的「尋找」按鈕時，該命令被內部調用。要進行不區分大小的搜尋，用 /fi 而不是 /fc。
+> This command is called internally when the Find button is selected in the Find in Files dialog box. To search without matching case, use /fi instead
+> of /fc.
 
-### 多檔取代
+### Replace in files
 
 > /fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/ko\] \[/fu " _FilesToIgnore_"\] \[/cp
 > _encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
 >
-> 當點擊在「多檔取代」對話方塊中的「取代全部」按鈕時，該命令被內部調用。要進行不區分大小的搜尋，用 /fi 而不是 /fc。/ko 和 /bk 不能同時被指定。
+> This command is called internally when the Replace All button is selected in the
+> Replace in Files dialog box. To search without matching case, use /fi instead of /fc. /ko and /bk cannot be specified simultaneously.
 
-### 打開一個檔案並取代
+### Open a file and replace
 
 > " _File_"
 > /rc " _FindWhat_" \[/fw\] \[/x\] \[/cp encoding\] /rw " _ReplaceWith_"
 >
-> 當執行「多檔取代」命令時，該命令被內部調用。要進行不區分大小的搜尋，用 /ri 而不是 /rc。
+> This command is called internally during the Replace in Files process. To search without matching
+> case, use /ri instead of /rc.
 
-### 還原工作區
+### Restore workspace
 
 > /ws
 >
-> 該命令被內部調用當選擇「還原工作區」命令時。
+> This command is called internally when the Restore Workspace command is selected.
 
-### 儲存工作區
+### Save workspace
 
 > /wss
 >
-> 該命令被內部調用當選擇「儲存工作區」命令時。
+> This command is called internally when the Save Workspace command is selected.
 
-### 用 EmEditor 抓取文字
+### Grab text with EmEditor
 
 > /eh
 >
-> 該命令從系統匣圖示上被調用，當按下在「自訂系統匣圖示」對話方塊中定義的用 EmEditor 抓取文字的快速鍵時。
+> This command is called from the Tray Icon when the shortcut key to grab text with EmEditor defined in the Customize Tray Icon dialog box is pressed.
 
-### 顯示「說明」
+### Display Help
 
 > /?
 
-## 選項
+## Options
 
 |     |     |
 | --- | --- |
-| /? | 顯示「說明」。 |
-| /act | 激活 EmEditor 如果它已經在運行，或啟動 EmEditor，如果它還沒有運行。 |
-| /bk " _BackupFolder_" | 指定一個備份資料夾當多檔取代時。 |
-| /c " _Config_" | 設定組態。 |
-| /ca | 關閉所有文檔。 |
-| /car | 關閉所有文檔包括隱藏的視窗如果 "快速開始" 選項被啟用。 |
-| /cd | 在「打開」文字方塊中把目前的目錄設為預設資料夾。 |
-| /cjl | 自訂在 Windows 7 或之後版本中的跳轉清單。 |
-| /cl _ColumnNumber_ | 邏輯欄號。負數表示從行尾開始的字元數。 |
-| /clw | 清除工作去。 |
-| /cmp | 比較兩個檔案。 |
-| /cp _Encoding_ | 設定一個用來打開的編碼。一個編碼可以是 [編碼常數](../../macro/const/const_encoding) 之一。可以指定帶有下列數值的組合。
+| /? | displays Help. |
+| /act | activates EmEditor if it is already running, or launches EmEditor if it is not already running. |
+| /bk " _BackupFolder_" | specifies a backup folder when replacing in files. |
+| /c " _Config_" | sets the configuration. |
+| /ca | closes all documents. |
+| /car | closes all documents including a hidden window if the "Quick Start" option is enabled. |
+| /cd | set the current directory as the default folder in the Open dialog box. |
+| /cjl | customizes the Jump List on Windows 7 or later. |
+| /cl _ColumnNumber_ | logical column number. A negative number means the number of characters from the end of the line. |
+| /clw | clears the workspace. |
+| /cmp | compares two files. |
+| /cp _Encoding_ | sets an encoding to open as.  An encoding can be one of [Encoding Constants](../../macro/const/const_encoding). A combination with following values can be specified.
 
 |     |     |
 | --- | --- |
-| 131072 | 偵測 Unicode 簽名 (BOM)。 |
-| 262144 | 偵測 UTF-8。 |
-| 524288 | 偵測 HTML/XML 字元集。 |
-| 1048576 | 偵測所有編碼。 | |
-| /cps _Encoding_ | 設定一個用來打開的編碼。一個編碼可以是 [編碼常數](../../macro/const/const_encoding) 之一。 |
-| /csv " _CSVName_" | 設定初始 CSV 模式，停用 CSV 檢測。 _CSVName_ 可以是 CSV 格式的名稱或索引號。如果指定為 0，則使用普通模式。 |
-| /di | 指定工作資料夾當創建一個新文檔時。EmEditor 內部使用。 |
-| /eh | 抓取文字塊內容。 |
-| /fc " _FindWhat_" | 多檔尋找 (區分大小寫) 。 |
-| /fd | 顯示 [**多檔尋找** 對話方塊](../../dlg/find_in_files/index)。 |
-| /ff " _FindWhat_" | 直接在打開的文檔中尋找一個字串。可以與 /mc 或 /x 聯合使用。 |
-| /fi " _FindWhat_" | 多檔尋找 (不區分大小寫) 。 |
-| /fh | 亮顯被搜尋的字串。 |
-| /fhf | 用上次搜尋的字串篩選。 |
-| /fn | 僅顯示檔案名稱當多檔尋找時。 |
-| /fu " _FilesToIgnore_" | 忽略下列檔案或資料夾名稱。 |
-| /fr | 在子資料夾中搜尋當進行多檔尋找時 (與/fc 或 /fi 一起用) 。 |
-| /fw | 僅搜尋單字 |
-| /hide | 把 EmEditor 作為一個隱藏的視窗運行當 "快速開始" 選項被啟用時。 |
-| /i | 從剪貼簿上貼上一個文字字串。 |
-| /ipi | 重新整理外掛程式清單。從外掛程式安裝程式中使用。 |
-| /iq | 從剪貼簿上貼上一個文字字串為引用文字。 |
-| /iqr | 從剪貼簿上貼上一個文字字串為引用文字並換行。 |
-| /ko | 保持修改的檔案打開當多檔取代時。 |
-| /l _LineNumber_ | 把游標移到邏輯行的行號處。負數表示從檔案底部開始的行數。 |
-| /layout " _Layout_" | 使用指定的版面配置。 |
-| /max _limit_ | 當符合數達到此數量時停止多檔尋找或取代。 |
-| /mc | 符合大小寫當 /ff 被用來尋找一個字串時。 |
-| /mf | 指定一個要運行的巨集檔案。 |
-| /n | 總是作為一個新檔案開始。 |
-| /ncp | 隱藏 "指定的檔案不存在。要打開一個新檔案嗎？" 的提示消息當一個指定的檔案無法找到時。<br> 此選項不適用於從工作區恢復檔案。 |
-| /ne | 指定停用由事件觸發的巨集。 |
-| /ng | 總是建立一個新的群組視窗。 |
-| /nr | 不添加檔案路徑到最近檔案清單中。 |
-| /od | 顯示「打開」對話方塊來選擇要打開的檔案。 |
-| /p | 列印檔案。 |
-| /pos left top right bottom | 用四個整數指定視窗位置 (左，頂，右，底) 。 |
-| /r | 唯讀模式。 |
-| /rc " _FindWhat_" | 多檔取代 (區分大小寫) 。 |
-| /rd | 顯示 [**多檔取代** 對話方塊](../../dlg/replace_in_files/index)。 |
-| /rh | 把 HTML 檔案打開為唯讀。內部使用。 |
-| /ri " _FindWhat_" | 多檔取代 (不區分大小寫) 。 |
-| /rr | 在資料夾中以遞歸方式打開檔案。 |
-| /rw | 指定要用來取代的字串。 |
-| /sa " _DestFile_" | 在轉換編碼後指定一個要儲存為的檔案名稱。 |
-| /sca | 儲存並關閉所有打開的文檔。 |
-| /scrlf | 在轉換編碼後用 CR+LF 作為換行方式來儲存檔案。 |
-| /scr | 在轉換編碼後用僅 CR 作為換行方式來儲存檔案。 |
-| /slf | 在轉換編碼後用僅 LF 作為換行方式來儲存檔案。 |
-| /sp | 指定要在其他 EmEditor 視窗中運行一個新的單獨進程。這個選項適用於由於應用程式必須監控進程終止來偵測檔案修改，因此必須從另一個應用程式中啟動一個新的 EmEditor 視窗。如果該選項被指定，一些包括頁面操作在內的功能將被停用，並且會喪失支持。 |
-| /ss+ | 用一個 Unicode 簽名 (BOM) 儲存檔案在在轉換編碼之後。 |
-| /ss- | 不用一個 Unicode 簽名 (BOM) 儲存檔案在在轉換編碼之後。 |
-| /ti | 顯示系統匣圖示。 |
-| /uob | 用匯出欄來顯示多檔尋找的結果。 |
-| /x | 用規則運算式尋找或多檔尋找。 |
-| /xnr | 使用數字範圍運算式多檔尋找或尋找。 |
-| /ws | 還原工作區。 |
-| /wss | 儲存工作區。 |
+| 131072 | Detects Unicode signature (BOM). |
+| 262144 | Detects UTF-8. |
+| 524288 | Detects HTML/XML Charset. |
+| 1048576 | Detects all encodings. | |
+| /cps _Encoding_ | sets an encoding to save as.  An encoding can be one of [Encoding Constants](../../macro/const/const_encoding). |
+| /csv " _CSVName_" | sets the initial CSV mode, and the CSV detection is disabled. _CSVName_ can be the name of the CSV format or the index number. If 0 is specified, the normal mode is used. |
+| /di | specifies the working folder when creating a new document. Used internally by EmEditor. |
+| /eh | grabs a text box contents. |
+| /fc " _FindWhat_" | find in files (case sensitive). |
+| /fd | displays the [**Find in Files**dialog box](../../dlg/find_in_files/index). |
+| /ff " _FindWhat_" | find a string directly within the opened document. Can be combined with <br> /mc or /x. |
+| /fi " _FindWhat_" | find in files (ignore case). |
+| /fh | highlights searched strings. |
+| /fhf | filters using the last searched string(s). |
+| /fn | displays only file names when finding in file. |
+| /fu " _FilesToIgnore_" | ignores the following file or folder names. |
+| /fr | search in sub folders when finding in <br>files (use with /fc or /fi). |
+| /fw | searches only words. |
+| /hide | runs EmEditor as a hidden window when the "Quick Start" option is enabled. |
+| /i | pastes a text string from the Clipboard. |
+| /ipi | refreshes the plug-in list. used from plug-in installers. |
+| /iq | pastes a text string in quotes from the Clipboard. |
+| /iqr | pastes a text string in quotes and returns from the Clipboard. |
+| /ko | keeps modified files open when replacing in files. |
+| /l _LineNumber_ | move cursor to the logical line number. A negative number means the number of lines from the bottom of the file. |
+| /layout " _Layout_" | uses a specified layout. |
+| /max _limit_ | Stops find or replace in files when the number of matches reaches this number. |
+| /mc | matches cases when /ff is used to find a string. |
+| /mf | specifies a macro file to run. |
+| /n | always start as a new file. |
+| /ncp | suppresses "The specified file does not exist. Open as a new file?" prompt when a specified file is not found. <br> This option does not apply when restoring files from a workspace. |
+| /ne | specifies event-triggered macros should be disabled. |
+| /ng | always creates a new group window. |
+| /nr | does not add the file path to the recent file list. |
+| /od | displays the Open dialog box to select files to open. |
+| /p | prints the file. |
+| /pos left top right bottom | specifies the window position with four integers (left, top, right, bottom). |
+| /r | read-only mode. |
+| /rc " _FindWhat_" | replaces in files (case sensitive). |
+| /rd | displays the [**Replace in**\<br>**Files** dialog box](../../dlg/replace_in_files/index). |
+| /rh | opens HTML files as read-only. Used internally. |
+| /ri " _FindWhat_" | replaces in files (ignore case). |
+| /rr | opens files in folders recursively. |
+| /rw | specifies a string to be replaced with. |
+| /sa " _DestFile_" | specifies a file name to save as after the encoding conversion. |
+| /sca | saves and closes all opened documents. |
+| /scrlf | saves the file using CR+LF as newline characters after the encoding conversion. |
+| /scr | saves the file using the CR only as newline characters after the encoding conversion. |
+| /slf | saves the file using the LF only as newline characters after the encoding conversion. |
+| /sp | specifies that a new separate process from other EmEditor windows should be run. This option is useful when a new EmEditor window must be launched from another application because the application must monitor the process termination so it can <br> detect the file modification. If this is specified, however, some features including tab operations will be disabled, and will void support. |
+| /ss+ | saves the file with a Unicode signature (BOM) after the encoding conversion. |
+| /ss- | saves the file without a Unicode signature (BOM) after the encoding conversion. |
+| /ti | displays the Tray Icon. |
+| /uob | uses the Output Bar to display the Find in Files results. |
+| /x | finds or finds in files using a regular expression. |
+| /xnr | finds or finds in files using a number range expression. |
+| /ws | restores the workspace. |
+| /wsf "WorkspaceFile" | restores the specified workspace. |
+| /wss | saves the workspace. |
 
-## 範例
+## Examples
 
 /rr \*.htm
 
-> 打開所有 .htm 檔案包括所有子資料夾。
+> opens all .htm files including all sub folders.
 
 /p "filename"
 
-> 匯出檔案名稱。
+> prints filename.
 
 /r "filename"
 
-> 用唯讀模式打開 filename 檔案。
+> opens filename in read only
+> mode.
 
 /c "Normal" "filename"
 
-> 用預設組態打開 filename 檔案。
+> opens filename in the
+> default configuration.
 
 /l 123 "filename"
 
-> 打開 filename 檔案，跳到第 123 行並顯示。
+> opens filename, jumps to
+> the 123rd line and displays it.
 
 /l -1 "filename"
 
-> 打開 filename 檔案，跳到最後一行並顯示。
+> opens filename, jumps to the last line and displays it.
 
 /ff "what" /mc "filename"
 
-> 打開 filename 檔案，並尋找符合的大小寫。
+> opens filename, and finds what matching cases.
 
 /fh
 
-> 亮顯最後一次搜尋的字串。
+> highlights string of last search.
 
 /ti
 
-> 作為一個系統匣圖示打開。
+> opens as a tray icon.
 
 /fi "ABC" "c:\\Temp\\\*.txt"
 
-> 在 c:\\Temp 資料夾中從所有副檔名為 .txt 的檔案中搜尋字串 ABC，並忽略大小寫。
+> searches for the string ABC
+> from all files with the extension .txt on the c:\\Temp folder while ignoring case.
 
 /fi "abc" /fr /fw /fn /fu "\_\*;\*.bak" /cp 65536 "c:\\test\\\*.htm;\*.txt"
 
-> 在 c:\\test 資料夾中從所有副檔名為 .htm 以及 .txt 的檔案中搜尋字串 abc，並忽略大小寫。另外，該命令的附加條件有搜尋子資料夾，只搜尋字詞，僅顯示檔案名，忽略檔案或資料夾名稱與 "\_\*;\*.bak" 符合，並使用系統預設編碼。
+> searches for the string abc from all files with the extension .htm and .txt on the c:\\test folder while ignoring case. it searches sub folders, searches only words, displays only file names,
+> ignores file or folder names matching "\_\*;\*.bak", and uses the system default encoding.
 
 /fc "\[a-e\]" /fr /x /fu "\_\*;\*.bak" /cp 65536
 "c:\\test\\\*.htm;\*.txt"
 
-> 在 c:\\test 資料夾中從所有副檔名為 .htm 以及 .txt 的檔案中搜尋與規則運算式 \[a-e\] 符合的文字，並且大小寫需符合。另外，該命令的附加條件有搜尋子資料夾，忽略檔案或資料夾名稱與 "\_\*;\*.bak" 符合，並使用系統預設編碼。
+> searches for text matching a regular expression \[a-e\] from all files with the extension .htm and .txt on the c:\\test folder while not ignoring case. it searches sub folders, ignores file or folder
+> names matching "\_\*;\*.bak", and uses the system default encoding.
 
 "c:\\test\\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\\test\\utf8.txt" /scrlf
 
-> 不用 Unicode 簽名，把一個 UTF-16LE 檔案，c:\\test\\utf16.txt，轉換為 UTF-8，並儲存為 c:\\test\\utf8.txt。換行方式被轉換為 CR+LF。
+> converts a UTF-16LE file c:\\test\\utf16.txt to UTF-8 without a Unicode signature and saves as c:\\test\\utf8.txt. The newline characters is converted to CR+LF.
 
-## 提示
+/layout "Focus Mode"
 
-- 在檔案中搜尋的字串必須跟在 /fc 或 /fi 之後。
-- 如果不指定任何選項，被選取的檔案只會被打開。
-- 如果 /c 沒有被指定，並且與某個組態相關聯的副檔名相同，那么會用該組態打開檔案。i
-- 如果一個資料夾名稱被指定而不是一個檔案名，EmEditor 會用「打開」對話方塊顯示該資料夾。
-- 命令列選項區分大小寫。例如 /r 無法被識別如果寫作 /R 的話。
-- 當從命令列進行搜尋時，會一直用逸出數列。
-- 可以使用連字號（-）代替斜線（/）。例如，可以使用 -sp 代替 /sp。
-- 要將 EmEditor 設定為 Git 的預設文字編輯器，請打開 Git Bash 並鍵入：git config --global core.editor "emeditor.exe -sp"。
+> uses the "Focus Mode" layout.
+
+## Tips
+
+- The string searched for in files must be after /fc or /fi.
+- If no options are specified, the selected file will simply be opened.
+- If /c is not specified and the associated extensions of the
+configuration are the same, open the file with that configuration.
+- If a folder name is specified instead of a file name, the Open dialog box with that folder will be displayed.
+- Command line options are case sensitive. For instance /r will not be recognized if written as /R.
+- Escape sequences are always on when searching from the command line.
+- A hyphen (-) can be used instead of a slash (/). For instance, -sp can be used instead of /sp.
+- To set EmEditor as the default text editor for Git, open Git Bash and type: git config --global core.editor "emeditor.exe -sp".

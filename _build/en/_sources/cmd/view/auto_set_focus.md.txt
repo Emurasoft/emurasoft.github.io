@@ -1,27 +1,27 @@
-# 自動設置焦點（儲存格工具列）命令
+# Automatically Set Focus (Cell Toolbar) command
 
-### 摘要
+### Summary
 
-> 自動設置焦點到儲存格工具列上。
+> Automatically sets focus to the cell toolbar.
 
-### 說明
+### Description
 
-> 自動設置焦點到儲存格工具列上。
+> Automatically sets focus to the cell toolbar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** >
-**工具列** \> **儲存格工具列選項** \> **自動設置焦點**
-- 工具列: ![](../../images/commonsettings.gif) (儲存格工具列) \+ 自動設置焦點
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Cell Toolbar Options** \> **Automatically Set Focus**
+- Toolbar: ![](../../images/commonsettings.gif) (Cell toolbar) + Automatically Set Focus
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CELL\_BAR\_AUTO\_FOCUS (3970)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

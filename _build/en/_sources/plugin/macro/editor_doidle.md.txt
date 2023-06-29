@@ -1,23 +1,23 @@
 # Editor\_DoIdle
 
-重新整理工具列，視窗標題，標籤頁及其他。您能直接用該內嵌函式或明確地發送 [EE\_DO\_IDLE](../message/ee_do_idle) 消息。
+Refreshes the toolbar, the window title, the tab, and others. You can use this inline function or explicitly send the [EE\_DO\_IDLE](../message/ee_do_idle) message.
 
 Editor\_DoIdle( HWND hwnd, BOOL bResetTab );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _bResetTab_
 
-> 重新整理標籤頁。
+> Resets the tab.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 5.00 或之後的版本。
+> Supported on EmEditor Professional Version 5.00 or later.

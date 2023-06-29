@@ -1,27 +1,27 @@
-# 選擇更新頻道命令
+# Select Update Channel command
 
-### 摘要
+### Summary
 
-> 選擇一個更新頻道。
+> Selects an update channel.
 
-### 說明
+### Description
 
-> 選擇一個更新頻道。
+> Selects an update channel.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **說明** \> **選擇更新頻道**
-- [全部命令](../tools/all_commands): **說明** >
-**選擇更新頻道**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Help** \> **Select Update Channel**
+- [All Commands](../tools/all_commands): **Help** >
+**Select Update Channel**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_UPDATE\_CHANNEL (3950)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,28 +1,28 @@
-# 進階 (搜尋工具列) 命令
+# Advanced (Find toolbar) command
 
-### 摘要
+### Summary
 
-> 顯示搜尋工具列的進階對話方塊。
+> Displays the Advanced dialog box for the Find toolbar.
 
-### 說明
+### Description
 
-> 顯示搜尋工具列的進階對話方塊。
+> Displays the Advanced dialog box for the Find toolbar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜索**
-\> **搜尋工具列** \> **進階**
-- 工具列: ![](../../images/commonsettings.gif)
-(搜尋工具列)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Advanced**
+- Toolbar: ![](../../images/commonsettings.gif)
+(Find toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_FINDBAR\_ADVANCED (3923)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

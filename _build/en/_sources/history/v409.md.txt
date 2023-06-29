@@ -1,7 +1,7 @@
 # Version 4.09
 
-2004年9月6日
+September 6, 2004
 
-- 修復了 EmEditor 不能再 Windows NT 4.0 上運行的 bug。(v4.06 - v4.08)
-- 修復了 EmEditor 無法運行巨集如果以前沒有安裝過 v4.05 或之前的版本的 bug。(v4.06 - v4.08)
-- 修復了選擇「鍵盤布局」命令會造成 EmEditor 故障的 bug。
+- Fixed a bug that EmEditor could not run on Windows NT 4.0. (v4.06 - v4.08)
+- Fixed a bug that EmEditor could not run macros if v4.05 or earlier was not installed before. (v4.06 - v4.08)
+- Fixed a bug that selecting the Keyboard Map command could cause EmEditor crash.

@@ -1,6 +1,6 @@
-# DetectUnicodeSignature 屬性
+# DetectUnicodeSignature Property
 
-與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **偵測 Unicode 簽名 (BOM)** 核取方塊相對應。
+Corresponds to the **Detect Unicode Signature (BOM)** check box in the [**File** tab](../../dlg/properties/file/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ object. **DetectUnicodeSignature**
 
 object. **DetectUnicodeSignature** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,35 +1,36 @@
 # Editor\_GetUnicodeName
 
-檢索指定字元或字串的 Unicode 名。你能直接用該內嵌函式或明確地發送 [EE\_GET\_UNICODE\_NAME](../message/ee_get_unicode_name) 消息。
+Retrieves the Unicode name of the specified character or string. You can use this inline function or explicitly send the [EE\_GET\_UNICODE\_NAME](../message/ee_get_unicode_name) message.
 
 int Editor\_GetUnicodeName( HWND hwnd, LPWSTR pBuf, int cchBuf, LPCWSTR pstrSrc, int cchSrc );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pBuf_
 
-> 指定指針指向的能檢索 Unicode 名的緩衝區。
+> Specifies the pointer to the buffer to retrieve the Unicode name.
 
 _cchBuf_
 
-> 以字節為單位指定緩衝區大小，包括終止空字元。
+> Specifies the size of the buffer in characters including the terminating NULL.
 
 _pstrSrc_
 
-> 指定源字元或字串。
+> Specifies the source character or string.
 
 _cchSrc_
 
-> 指定在 _pstrSrc_ 中指定的字元數。
+> Specifies the number of characters specified in _pstrSrc_.
 
-## 返回值
+## Return Values
 
-> 如果 UNICODE\_NAME\_INFO 結構的 _cchBuf_ 欄位是零，那返回值則是用字元數表示的一個會接收文字的緩衝區的必需大小。
+> If _cchBuf_ field of the UNICODE\_NAME\_INFO structure is zero, the return value is the required size, in characters,
+> for a buffer that can receive the text.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional 19.1 或之後的版本。
+> Supported on Version 19.1 or later.

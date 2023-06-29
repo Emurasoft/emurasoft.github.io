@@ -1,6 +1,6 @@
-# SelectLine 方法
+# SelectLine Method
 
-在游標處選擇一行。
+Selects a line at the cursor.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document.selection. **SelectLine**();
 
 document.selection. **SelectLine**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

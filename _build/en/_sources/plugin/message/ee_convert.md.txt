@@ -1,7 +1,7 @@
 # EE\_CONVERT
 
-轉換字符。您能明確地發送該消息或用
-[Editor\_Convert](../macro/editor_convert) 內嵌函式。
+Converts characters. You can send this message explicitly or use the
+[Editor\_Convert](../macro/editor_convert) inline function.
 
 EE\_CONVERT
 
@@ -9,38 +9,39 @@ wParam = (WPARAM) (UINT) nFlags;
 
 lParam = (LPARAM) (LPCWSTR) szChars;
 
-## 參數
+## Parameters
 
 _nFlags_
 
-> 您能指定下列數值的組合。
+> You can specify a combination of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | FLAG\_MAKE\_LOWER | 轉換為小寫字符。 |
-> | FLAG\_MAKE\_UPPER | 轉換為大寫字符。 |
-> | FLAG\_HAN\_TO\_ZEN | 轉換為全角字符。 |
-> | FLAG\_ZEN\_TO\_HAN. | 轉換為半角字符。 |
-> | FLAG\_CAPITALIZE | 每一個單詞的首字母大寫。 |
-> | FLAG\_MAKE\_LOWER\_L | 轉換為小寫字元（與地區設定相關）。 |
-> | FLAG\_MAKE\_UPPER\_L | 轉換為大寫字元（與地區設定相關）。 |
-> | FLAG\_CAPITALIZE\_L | 將每個單字的首字母大寫（與地區設定相關）。 |
-> | FLAG\_CONVERT\_SELECT\_ALL | 轉換整個文本。如果沒有設置該標志，EE\_CONVERT 僅轉換選區內的字符。 |
-> | FLAG\_CONVERT\_KATA | 轉換片假名。 |
-> | FLAG\_CONVERT\_ALPHANUMERIC | 轉換字母和數字字符。 |
-> | FLAG\_CONVERT\_MARK | 轉換標記。 |
-> | FLAG\_CONVERT\_SPACE | 轉換空白。 |
-> | FLAG\_CONVERT\_KANA\_MARK | 轉換假名標記。 |
-> | FLAG\_CONVERT\_CUSTOM | 當指定 FLAG\_HAN\_TO\_ZEN 或 FLAG\_ZEN\_TO\_HAN 時，szChars 參數指定應轉換哪些單個字元。如果指定了此值，則還必須指定 szChars 參數，並忽略 FLAG\_CONVERT\_KATA，FLAG\_CONVERT\_ALPHANUMERIC，FLAG\_CONVERT\_MARK，FLAG\_CONVERT\_SPACE，FLAG\_CONVERT\_KANA\_MARK 的值。 |
-> | FLAG\_JAPANESE\_YEN | 將 U+005C（反斜線）轉換為 U+FFE5（全形日幣標記），反之亦然。 |
-> | FLAG\_KOREAN\_WON | 將 U+005C（反斜線）轉換為 U+FFE6（全形韓幣標記），反之亦然。 |
-> | FLAG\_RIGHT\_SINGLE\_QUOTATION | 將 U+0027（縮寫符號）轉換為 U+2019（右單引號），反之亦然。 |
-> | FLAG\_RIGHT\_DOUBLE\_QUOTATION | 將 U+0022（引號）轉換為 U+201D（右雙引號），反之亦然。 |
+> | FLAG\_MAKE\_LOWER | Converts to lowercase characters. |
+> | FLAG\_MAKE\_UPPER | Converts to uppercase characters. |
+> | FLAG\_HAN\_TO\_ZEN | Converts to full-size characters. |
+> | FLAG\_ZEN\_TO\_HAN. | Converts to half-size characters |
+> | FLAG\_CAPITALIZE | Capitalizes the first letter of each word. |
+> | FLAG\_MAKE\_LOWER\_L | Converts to lowercase characters (locale-dependent). |
+> | FLAG\_MAKE\_UPPER\_L | Converts to uppercase characters (locale-dependent). |
+> | FLAG\_CAPITALIZE\_L | Capitalizes the first letter of each word (locale-dependent). |
+> | FLAG\_CONVERT\_SELECT\_ALL | Converts the entire text. If this flag is not set, EE\_CONVERT converts <br> the characters only in the selection. |
+> | FLAG\_CONVERT\_KATA | Converts Katakana. |
+> | FLAG\_CONVERT\_ALPHANUMERIC | Converts Alphabets and numeric characters. |
+> | FLAG\_CONVERT\_MARK | Converts marks. |
+> | FLAG\_CONVERT\_SPACE | Converts spaces. |
+> | FLAG\_CONVERT\_KANA\_MARK | Converts Kana marks. |
+> | FLAG\_CONVERT\_CUSTOM | When FLAG\_HAN\_TO\_ZEN or FLAG\_ZEN\_TO\_HAN is specified, the szChars parameter specifies which individual characters should be converted. If this value is specified, you must also specify the szChars parameter, and FLAG\_CONVERT\_KATA, FLAG\_CONVERT\_ALPHANUMERIC, FLAG\_CONVERT\_MARK, FLAG\_CONVERT\_SPACE, FLAG\_CONVERT\_KANA\_MARK values are ignored. |
+> | FLAG\_JAPANESE\_YEN | Converts U+005C (REVERSE SOLIDUS) to U+FFE5 (FULLWIDTH YEN SIGN), and vice versa. |
+> | FLAG\_KOREAN\_WON | Converts U+005C (REVERSE SOLIDUS) to U+FFE6 (FULLWIDTH WON SIGN), and vice versa. |
+> | FLAG\_RIGHT\_SINGLE\_QUOTATION | Converts U+0027 (APOSTROPHE) to U+2019 (RIGHT SINGLE QUOTATION MARK), and vice versa. |
+> | FLAG\_RIGHT\_DOUBLE\_QUOTATION | Converts U+0022 (QUOTATION MARK) to U+201D (RIGHT DOUBLE QUOTATION MARK), and vice versa. |
 
 _szChars_
 
-> 如果指定了 FLAG\_CONVERT\_CUSTOM，則可以設定要轉換的單個全形字元的組合。 如果不使用，請將此參數設定為 NULL。
+> You can set a combination of individual full-width characters you want to convert if FLAG\_CONVERT\_CUSTOM is specified. Set this parameter NULL if not used.
 
-## 返回值
+## Return Values
 
-> 如果消息成功，返回值為非零值。如果該消息不成功，返回值為零。
+> If the message succeeds, the return value is nonzero. If the message fails,
+> the return value is zero.

@@ -1,19 +1,19 @@
-# 「優化」頁面
+# Optimization page
 
-**優化** 頁面讓你能自訂與優化有關的設定。
+The **Optimization** page allows you to customize Optimization settings.
 
-### 「不高顯顯示如果行的長度超過:」滑桿
+### Do not highlight if line length exceeds slider
 
-通過禁用亮顯顯示長度超過指定字元長度的行來提高性能。
+Improves performance by disabling highlighting of lines that are longer than the specified length in characters.
 
-### 「假設固定寬度字型」核取方塊
+### Assume fixed width font check box
 
-啟用此選項將提高長度超過指定長度的行的呈現速度，但如果使用比例寬度字型或文檔包含全形字元，則可能無法很好地運作。
+Enabling this option will improve rendering speeds of lines that are longer than the specified length, but may not work well if proportional width font is used or if the document contains full-width characters.
 
-### 「在捲軸上停用慢速尋找標記」核取方塊
+### Disable slow find markers on scroll bar check box
 
-啟用此選項將在打開非常大的檔案時停用垂直捲軸上的尋找標記，來提高搜索速度。
+Enabling this option will disable find markers on the vertical scroll bar while opening a very large file, and improve the speed of searches.
 
-### 「重置」按鈕
+### Reset button
 
-重置為預設設置。
+Resets to default settings.

@@ -1,6 +1,6 @@
 # COLUMN\_INFO
 
-用於 [SORT\_INFO 結構](sort_info)。
+Used by the [SORT\_INFO structure](sort_info).
 
 typedef struct \_COLUMN\_INFO {
 
@@ -10,26 +10,27 @@ UINT nFlags;
 
 } COLUMN\_INFO;
 
-## 欄位
+## Fields
 
 _iCol_
 
-> 指定要排序的列。
+> Specifies the column to be sorted.
 
 _nFlags_
 
-> 指定下列值的組合。
+> Specifies a combination of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | SORT\_ASCEND | 按升序排序。 |
-> | SORT\_DESCEND | 按降序排序。 |
-> | SORT\_DATE | 排序日期和時間。 |
-> | SORT\_LENGTH | 按文字長度排序。 |
-> | SORT\_NUM | 排序數字。 |
-> | SORT\_TEXT | 按字母順序排序文字。 |
-> | SORT\_WORDS | 按字數排序文字。 |
+> | SORT\_ASCEND | Sorts in ascending order. |
+> | SORT\_DESCEND | Sorts in descending order. |
+> | SORT\_DATE | Sorts date and time. |
+> | SORT\_LENGTH | Sorts text by length. |
+> | SORT\_NUM | Sorts numbers. |
+> | SORT\_OCCURRENCE | Sorts by occurrence. |
+> | SORT\_TEXT | Sorts text in alphabetical order. |
+> | SORT\_WORDS | Sorts text by the number of words. |
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional Version 16.4 或之後的版本。
+> Supported on EmEditor Professional Version 16.4 or later.

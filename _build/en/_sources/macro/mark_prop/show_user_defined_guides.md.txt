@@ -1,6 +1,6 @@
-# ShowUserDefinedGuides 屬性
+# ShowUserDefinedGuides Property
 
-與組態屬性中 [**標記** 頁面](../../dlg/properties/marks/index) 上的 **顯示使用者自訂參考線** 核取方塊相對應。
+Corresponds to the **Show User-Defined Guides** check box in the [**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ object. **ShowUserDefinedGuides**
 
 object. **ShowUserDefinedGuides** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 14.2.0 或之後的版本。
+Supported on EmEditor Professional Version 14.2.0 or later.

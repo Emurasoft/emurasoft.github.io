@@ -1,10 +1,16 @@
-# 安裝外掛程式
+# To Install Plug-ins
 
-1. 從網上下載您想要安裝的外掛程式。Emurasoft 網站有很多可用的外掛程式。
-2. 按照附帶的下載外掛程式的說明正確地安裝它們。通常，把一個帶 **.DLL** 副檔名的檔案複製到 EmEditor 目錄的 **外掛程式** 資料夾中 (一般而言是 C:\\Program Files\\EmEditor3\\PlugIns)， 就完成了安裝。
-3. 當您運行 EmEditor 時，您安裝的外掛程式功能表項目會被添加到 **工具** 功能表下，工具列上也會出現一個按鈕。
+1. Download the plug-ins you want to install from the Internet. Many plug-ins
+are available from the Emurasoft Home Page.
+2. Follow the directions included with the downloaded plug-ins to properly
+install them. Usually, copying the file with a **.DLL** extension to the
+**PlugIns** folder in the EmEditor directory (usually, C:\\Program Files\\EmEditor3\\PlugIns)
+will complete the installation.
+3. When you run EmEditor, the plug-ins menu item that you installed will be
+added under the **Tools** menu and a button will be added to the toolbar.
 
-### 提示
+### Tips
 
-- 用最新版的 EmEditor 以及外掛程式可確保它們一起正常工作。
-- 您可以自訂工具列按鈕，功能表和鍵盤快速鍵。
+- Use the newest version of EmEditor and the plug-ins to ensure that they
+work together properly.
+- You can customize toolbar buttons, menus and keyboard shortcuts.

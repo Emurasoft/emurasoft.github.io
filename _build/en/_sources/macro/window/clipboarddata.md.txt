@@ -1,6 +1,6 @@
-# clipboardData 屬性
+# clipboardData Property
 
-返回 [**clipboardData** 對象](../clipboarddata/index)。
+Returns the [**clipboardData** Object](../clipboarddata/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _clip_ = **clipboardData**;
 
 Set _clip_ = **clipboardData**
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

@@ -1,6 +1,6 @@
-# Filter 方法
+# Filter Method
 
-用指定的字串以及設定來篩選文檔。
+Filters the document with the specified string and settings.
 
 #### \[JavaScript\]
 
@@ -10,72 +10,75 @@ _nCount_ = document. **Filter**( _strFilter_, _iColumn_, _flags_\[, _xBegin_\[, 
 
 _nCount_ = document. **Filter**( _strFilter_, _iColumn_, _flags_\[, _xBegin_\[, _xEnd_\[, _ExFlags_\[ _, nVisibleLinesAbove_\[ _, nVisibleLinesBelow_\]\]\]\]\] )
 
-## 參數
+## Parameters
 
 _strFilter_
 
-> 指定一個要搜索的字串。如果指定了空字串且ExFlags為0，則將中止目前的篩選。
+> Specifies a string to search for. If an empty string is specified and ExFlags is 0, the current filter will be aborted.
 
 _iColumn_
 
-> 指定您想要搜尋的以 1 為基準文字的欄位的索引；如果您要搜尋整行，可以指定 0 ；如果您要用字元數把開始以及結束的文字指定為 _xBegin_ 和 _xEnd_，可以指定 -1。
+> Specifies the one-based index of the column of the text you want to search, 0 if you want to search for whole lines, or -1 if you want to specify the beginning and end of the text in characters as _xBegin_ and _xEnd_.
 
 _flags_
 
-> 從如下值中指定一個組合。
+> Specifies a combination of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | eeFindContinue | 指定下次調用的 Filter 方法不會清除篩選記錄。在調用 Filter 方法之後，這個篩選不會被馬上應用。您可以在您要進行多個級別的篩選時，使用這個標志。它與 eeFindKeepPrevious 標志相同，但由於實際的篩選不會在每次調用消息時被應用，這個方法更適用於多個篩選級別。 |
-> | eeFindKeepPrevious | 指定 Filter 方法不能在應用新篩選前清除已存在的篩選記錄。您可以在您要進行多個級別的篩選時，使用這個標志。 |
-> | eeFindLogicalOr | 指定一個邏輯分離 (logical OR) 到之前的層級上在多層級篩選的情況下。 |
-> | eeFindNegative | 顯示篩選工具列並排除與指定字串符合的行。 |
-> | eeFindRemoveLast | 刪除前一次添加的篩選級別。 |
-> | eeFindReplaceCase | 大小寫需符合。 |
-> | eeFindReplaceEscSeq | 使用逸出序列。不能與 eeFindReplaceRegExp 或 eeExFindNumberRange 合用。 |
-> | eeFindReplaceOnlyWord | 整個單字需符合。 |
-> | eeFindReplaceRegExp | 使用規則運算式搜尋字串。不能與 eeFindReplaceEscSeq 或 eeExFindNumberRange 合用。 |
-> | eeFindWholeString | 符合整個字串。 |
+> | eeFindContinue | Specifies the Filter method called next time should not clear the filter. This filter is not <br> applied immediately after this Filter method is called. This flag is used when you want to create multiple levels of the filter. <br> It is similar to the eeFindKeepPrevious flag, but since the actual filter is not <br> applied each time the Filter method is called, this method works faster if there are multiple filter levels. |
+> | eeFindKeepPrevious | Specifies the Filter method should not clear the existing filter before applying the new filter. This flag is used when you want to create multiple levels of the filter. |
+> | eeFindLogicalOr | Specifies a logical disjunction (logical OR) to the previous level in case of multiple levels of the filter. |
+> | eeFindNegative | Shows the Filter toolbar and excludes the lines that match the specified string. |
+> | eeFindRemoveLast | Removes the last added filter level. |
+> | eeFindReplaceCase | Matches cases. |
+> | eeFindReplaceEscSeq | Uses escape sequences. Cannot be combined with eeFindReplaceRegExp or eeExFindNumberRange. |
+> | eeFindReplaceOnlyWord | Matches only whole words. |
+> | eeFindReplaceRegExp | Uses a regular expression for the searched string. Cannot be combined <br> with eeFindReplaceEscSeq or eeExFindNumberRange. |
+> | eeFindWholeString | Matches whole strings. |
 
 _xBegin_
 
-> 指定您想要搜尋的文字的欄位開始的索引 (用邏輯字元數) ；您也可以指定 0 如果您想要把文字的最後一部分作為 _xEnd_。要使這個欄位有效， _iColumn_ 值必須是 -1。
+> Specifies the index of beginning of the column (in logical characters) of the text you want to search, or 0 if you want to
+> count the last portion of the text and specify as _xEnd_. The _iColumn_ must be -1 to enable this field.
 
 _xEnd_
 
-> 指定您想要搜尋的文字的欄位結束的索引 (用邏輯字元數) ；您也可以指定 0 如果您想要搜尋所有剩下的文字。要使這個欄位有效， _iColumn_ 值必須是 -1。
+> Specifies the index of end of the column (in logical characters) of the text you want to search, or 0 if you want to search
+> all the rest of the text. The _iColumn_ must be -1 to enable this field.
 
 _ExFlags_
 
-> 指定一個下列值的組合。
+> Specifies a combination of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | eeExFindBookmarkedOnly | 僅符合書籤行。此標志不能與 eeExFindUnbookmarkedOnly 合用。 |
-> | eeExFindCrLf | 符合換行符號為「CR + LF」的行。此標志必須與 eeExFindMatchNL 結合使用。 |
-> | eeExFindCrOnly | 符合換行符號為「僅 CR」的行。此標志必須與 eeExFindMatchNL 結合使用。 |
-> | eeExFindFuzzy | 使用模糊比對。 |
-> | eeExFindLfOnly | 符合換行符號為「僅 LF」的行。此標志必須與 eeExFindMatchNL 結合使用。 |
-> | eeExFindLinkFile | 指定 _strFilter_ 是連結檔案的檔案路徑，該連結檔案包含多個由換行符分隔的搜索字串。如果一行中包含 Tab，則搜索字串是第一個不包含 Tab的字串。 _strFilter_ 可能是 EmEditor 安裝路徑的相對路徑。它可能包含環境變數，例如 %USERPROFILE%。 |
-> | eeExFindMatchNL | 符合指定的換行符號。此標志應與 eeExFindCrLf，eeExFindCrOnly，eeExFindLfOnly，和/或 eeExFindNLOthers 結合使用。 |
-> | eeExFindNLOthers | 符合沒有換行符號的行。這些行包括檔案的最後一行以及非常長的行，例如繼續到下一行而沒有換行符號的行。此標志必須與 eeExFindMatchNL 結合使用。 |
-> | eeExFindNumberRange | 符合 [數字範圍運算式](../../howto/search/number_range_syntax)。此標志不能與 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 結合使用。 |
-> | eeExFindUnbookmarkedOnly | 僅符合不是書籤行的行。此標志不能與 eeExFindBookmarkedOnly 合用。 |
-> | eeExFilterBegin | 指定一個開始篩選。此標志不能與 eeExFilterEnd 合用。 |
-> | eeExFilterEnd | 指定一個結束篩選。此標志不能與 eeExFilterBegin 合用。 |
+> | eeExFindBookmarkedOnly | Matches bookmarked lines only. This flag cannot be combined with eeExFindUnbookmarkedOnly. |
+> | eeExFindCrLf | Matches lines of which the newline character is CR and LF. This flag must be combined with eeExFindMatchNL. |
+> | eeExFindCrOnly | Matches lines of which the newline character is CR only. This flag must be combined with eeExFindMatchNL. |
+> | eeExFindFuzzy | Uses fuzzy matching. |
+> | eeExFindLfOnly | Matches lines of which the newline character is LF only. This flag must be combined with eeExFindMatchNL. |
+> | eeExFindLinkFile | Specifies _strFilter_ is the file path to a linked file that contains multiple search strings divided by newlines. If a tab character is included in a line, the search string is the first string not including the tab character. _strFilter_ may be a relative path from the EmEditor install path. It may contain environment variables such as %USERPROFILE%. |
+> | eeExFindMatchNL | Matches specified newline characters. This flag should be combined with eeExFindCrLf, eeExFindCrOnly, eeExFindLfOnly, and/or eeExFindNLOthers. |
+> | eeExFindNLOthers | Matches lines without a newline character. These lines includes the last line of the file and very long lines that continue to the next line without a newline character. This flag must be combined with eeExFindMatchNL. |
+> | eeExFindNumberRange | Matches a [number range expression](../../howto/search/number_range_syntax). This flag cannot be combined with eeFindReplaceEscSeq or eeFindReplaceRegExp. |
+> | eeExFindUnbookmarkedOnly | Matches unbookmarked lines only. This flag cannot be combined with eeExFindBookmarkedOnly. |
+> | eeExFilterBegin | Specifies a begin filter. This flag cannot be combined with eeExFilterEnd. |
+> | eeExFilterEnd | Specifies an end filter. This flag cannot be combined with eeExFilterBegin. |
 
 _nVisibleLinesAbove_
 
-> 指定要在符合的行上方顯示的額外的可見行數。如果指定了 -1，則使用先前使用的值。
+> Specifies the number of additional lines to display above matched lines. Uses the previously used value if -1 is specified.
 
 _nVisibleLinesBelow_
 
-> 指定要在符合的行下方顯示的額外的可見行數。如果指定了 -1，則使用先前使用的值。
+> Specifies the number of additional lines to display below matched lines. Uses the previously used value if -1 is specified.
 
-## 返回值
+## Return Values
 
-返回值是與指定字串符合的行數。如果指定字串是一個空字串，返回值是 -1。如果指定的是 eeFindContinue，返回值則為 0。
+The return value
+is the number of the lines that match the specified string. If the specified string is an empty string, and neither eeExFindBookmarkedOnly, eeExFindUnbookmarkedOnly, nor eeExFindMatchNL is specified, the return value is -1. If eeFindContinue is specified, the return value is 0.
 
-## 版本
+## Version
 
-支持 EmEditor Professional 14.7 或之後的版本。
+Supported on EmEditor Professional Version 14.7 or later.

@@ -1,53 +1,53 @@
 # Version 21.6
 
-2022年3月23日
+March 23, 2022
 
-## 一般新增功能
+## New General Features
 
-- 新版本讓您能通過 **[Unicode 腳本](https://www.unicode.org/reports/tr24/tr24-32.html)** 和 **[Unicode 一般類別](https://www.unicode.org/reports/tr44/#General_Category_Values)** 指定字元範圍；該設定可以在 **組態屬性** 對話方塊的 **字元檢查** 頁面上變更。（EmEditor 專業版和 EmEditor 免費版）
-- 新版本在 **字元程式碼值** 命令上顯示 **Unicode 腳本** 和 **Unicode 的一般類別**。（EmEditor 專業版和 EmEditor 免費版）
-- 支持所有可能的 **Emoji** 數列。（EmEditor 專業版和 EmEditor 免費版）
-- 將 **Unicode 名稱** 數據庫更新到 Unicode v14.0.0。（EmEditor 專業版和 EmEditor 免費版）
-- 將 **\\D** 和 **\\T** 運算式添加到 **[取代運算式語法](../howto/search/replacement_expression_syntax)** 中。這些運算式可用於將不同格式表示的多個日期/時間轉換為一種日期/時間格式。例如，如果符合日期為 "2022-03-31"，取代運算式為 "\\Dm/d/yyyy"，則結果將變為 "3/31/2022"。（EmEditor 專業版和 EmEditor 免費版）
-- 將 **\\Nc**、 **\\Nd**、 **\\NC** 和 **\\ND** 運算式添加到 **[取代運算式語法](../howto/search/replacement_expression_syntax)** 中來 [規范化字串](https://www.unicode.org/reports/tr15/)。（EmEditor 專業版和 EmEditor 免費版）
-- 新版本允許您將檔案從 **檔案總管** **拖放** 到 **篩選** 工具列的 **篩選** 方塊，以及 **進階篩選**、 **批次尋找**、 **批次取代**、 **在檔案中批次尋找/取代** 對話方塊中的清單方塊來建立連結檔案。連結檔案可以包含多個由換行符分隔的搜索字串。（僅限 EmEditor 專業版）
-- **篩選** 工具列上的 **抽出全部** 按鈕變成了一個下拉方塊，點擊該按鈕將顯示一個功能表，您可以在其中選擇 **抽出所有行** 和 **抽出符合字串** 命令。如果符合多個字串， **抽出符合字串** 命令將每行僅抽出一個字串。（僅限 EmEditor 專業版）
-- 當許多搜索字串（不是規則運算式或數字範圍）與 **邏輯或運算 (OR) 先前條件** 選項一起使用時，大大提高了 **進階篩選** 命令的速度。（僅限 EmEditor 專業版）
-- 大大提高了 **合併 CSV** 命令的速度當選擇了 **... 包含 ...**， **... 以 ... 開始**，或 **... 以 ... 結尾** 條件時。（僅限 EmEditor 專業版）
-- 大大提高了定義多個搜索字串時 **尋找** 對話方塊中 **多項尋找** 的速度。（僅限 EmEditor 專業版）
+- The new version allows you to specify character ranges by using the **[Unicode Script](https://www.unicode.org/reports/tr24/tr24-32.html)** and **[Unicode General Category](https://www.unicode.org/reports/tr44/#General_Category_Values)** when setting the **Character Check** page of **Configuration properties**. (EmEditor Professional and EmEditor Free)
+- The new version displays **Unicode Script** and **Unicode General Category** on the **Character Code Value** command. (EmEditor Professional and EmEditor Free)
+- Supported all possible **Emoji** sequences. (EmEditor Professional and EmEditor Free)
+- Updated the **Unicode name** database to Unicode v14.0.0. (EmEditor Professional and EmEditor Free)
+- Added the **\\D** and **\\T** expressions to the **[Replacement Expression Syntax](../howto/search/replacement_expression_syntax)**. These expressions can be useful to convert several dates/times expressed by different formats into one date/time format. For instance, if the matched date is "2022-03-31", and the replacement expression is "\\Dm/d/yyyy", the result will become "3/31/2022". (EmEditor Professional and EmEditor Free)
+- Added the **\\Nc**, **\\Nd**, **\\NC**, and **\\ND** expressions to the **[Replacement Expression Syntax](../howto/search/replacement_expression_syntax)** to [normalize strings](https://www.unicode.org/reports/tr15/). (EmEditor Professional and EmEditor Free)
+- The new version allows you to **drag and drop** a file from **Explorer** to the **Filter** box in the **Filter** toolbar and a list box in the **Advanced Filter**, **Batch Find**, **Batch Replace**, **Batch Find/Replace in Files** dialog boxes to create a linked file. The linked file can contain multiple search strings divided by newlines. (EmEditor Professional only)
+- The **Extract All** button on the **Filter** toolbar is now a drop-down box, and clicking the button will display a menu where you can select between the **Extract All Lines** and **Extract Matched Strings** commands. The **Extract Matched Strings** command will extract only one string per line if multiple strings are matched. (EmEditor Professional only)
+- Significantly improved the speed of the **Advanced Filter** command when many search strings (not regular expressions or number ranges) are combined with the **Logical Disjunction (OR) to the Previous Condition** option. (EmEditor Professional only)
+- Greatly improved the speed of the **Join CSV** command when the **... contains ...**, **... starts with ...**, or **... ends with ...** conditions are selected. (EmEditor Professional only)
+- Greatly improved the speed of **Multi-Find** in the **Find** dialog box when many search strings are defined. (EmEditor Professional only)
 
-### 測試結果：
+### Test results:
 
-|  | v21.5 | v21.6 | 比較 |
+|  | v21.5 | v21.6 | Comparison |
 | --- | --- | --- | --- |
-| 進階篩選 | 35.5 秒 | 0.094 秒 | 快 378 倍 |
-| 合併 CSV | 1130 秒 | 2.81 秒 | 快 402 倍 |
+| Advanced Filter | 35.5 seconds | 0.094 seconds | 378 times faster |
+| Join CSV | 1130 seconds | 2.81 seconds | 402 times faster |
 
-\*進階篩選：100 萬個隨機電話號碼，邏輯或運算 (OR)、忽略大小寫、96.6 KB、1,000 行、隨機 ASCII 數據。
+\*Advanced Filter: 1 million random phone numbers combined by logical disjunction (OR), ignore case, 96.6 KB, 1,000 lines, random ASCII data.
 
-合併 CSV：兩個 19.5MB，100 萬行，隨機 ASCII 數據 CSV 檔案；合併條件：Key1 包含 Key2，忽略大小寫，沒有唯一鍵。
+Join CSV: Two 19.5MB, 1 million line, random ASCII data CSV files, Join Condition: Key1 contains Key2, ignore case, no unique keys.
 
-其它：預設選項；操作系統：Windows 11，Core i9-11900K，64GB RAM，2TB SSD。
+All: Default options, Windows 11, Core i9-11900K, 64GB RAM, 2TB SSD.
 
-## 新增選項
+## New Options
 
-- 添加了 **連結檔案** 核取方塊和 **添加** 按鈕右側的 ▼ 鍵到 [**進階篩選** 對話方塊](../dlg/advanced_filter/index) 中。點擊 ▼ 部分將允許您添加連結檔案。連結檔案可以包含多個由換行符分隔的搜索字串。（僅限 EmEditor 專業版）
-- 在 [**批次尋找**](../dlg/find/index)、 [**批次取代**](../dlg/replace/index)、 [**批次多檔尋找**](../dlg/find_in_files/index) 以及 [**批次多檔取代**](../dlg/replace_in_files/index) 對話方塊中，添加了 ▼ 到 **添加至批次** 按鈕的右側。點擊 ▼ 部分將允許您添加連結檔案。連結檔案可以包含由 Tab 和換行符分隔的多個搜索字串（ Tab 可用於分隔尋找和取代字串）。在 **批次尋找/批次取代** 對話方塊中的 **顯示符合數** 選項會被忽略如果 **連結檔案** 包含在 **清單方塊** 中並且選擇了 **多項尋找下一個** 或 **多項尋找上一個** 按鈕的話。（僅限 EmEditor 專業版）
-- **篩選** 工具列上的 **抽出全部** 按鈕變成了一個下拉按鈕，點擊該按鈕會顯示一個內容功能表以在 **抽出所有行** 和 **抽出符合字串** 命令之間進行選擇。（僅限 EmEditor 專業版）
-- 添加了 **Unicode 腳本** 和 **Unicode 一般類別** 清單方塊到 [**字元範圍** 對話方塊](../dlg/properties/char_check/char_range/index) 中。（EmEditor 專業版和 EmEditor 免費版）
-- 添加了 **選擇模式** 條目到 **自訂** 對話方塊的 [**狀態列** 頁面](../dlg/customize/status/index) 上。（僅限 EmEditor 專業版）
-- 刪除了 **永不清除書籤** 核取方塊到 **自訂** 對話方塊中的 [**歷史** 頁面](../dlg/customize/history/index) 上。（僅限 EmEditor 專業版）
+- Added the **Link File** check box and ▼ on the right side of the **Add** button to the [**Advanced Filter** dialog box](../dlg/advanced_filter/index). Clicking the ▼ part will allow you to add a linked file. The linked file can contain multiple search strings divided by newlines. The linked file must be encoded as UTF-16LE with BOM, UTF-8 with BOM, or UTF8 without BOM (EmEditor Professional only)
+- Added ▼ on the right side of the **Add to Batch** button in the **[Batch Find](../dlg/find/index)**, **[Batch Replace](../dlg/replace/index)**, **[Batch Find in Files](../dlg/find_in_files/index)**, and **[Batch Replace in Files](../dlg/replace_in_files/index)** dialog boxes. Clicking the ▼ part will allow you to add a linked file. The linked file can contain multiple search strings divided by tabs and newlines (Tabs can be used to separate find and replace strings). The **Count Matches** option in the **Batch Find/Batch Replace** dialog box will be ignored if **linked files** are included in the List box and **Multi-Find Next** or **Multi-Find Previous** button is selected. (EmEditor Professional only)
+- The **Extract All** button on the **Filter** toolbar became a drop-down button, and clicking the button displays a context menu to select between the **Extract All Lines** and **Extract Matched Strings** commands. (EmEditor Professional only)
+- Added the **Unicode Script** and **Unicode General Category** list boxes to the [**Character Range** dialog box](../dlg/properties/char_check/char_range/index). (EmEditor Professional and EmEditor Free)
+- Added the **Selection Mode** item to the [**Status** page](../dlg/customize/status/index) of the **Customize** dialog box. (EmEditor Professional only)
+- Removed the **Never Clear Bookmarks** check box from the [**History** page](../dlg/customize/history/index) of the **Customize** dialog box, and added the **days** text box for the **Save Bookmarks** option to the **History** page. (EmEditor Professional only)
 
-## 新增命令
+## New Commands
 
-- [**抽出符合字串**（ **篩選** 工具列）](../cmd/search/filterbar_extract_matches)（僅限 EmEditor 專業版）
+- [**Extract Matched Strings** ( **Filter** toolbar)](../cmd/search/filterbar_extract_matches) (EmEditor Professional only)
 
-## 外掛程式的新增功能
+## Plug-in New Features
 
-- 添加了 **EI\_SET\_FILE\_NAMEW** 參數到 [**EE\_INFO** 消息](../plugin/message/ee_info) 中。（僅限 EmEditor 專業版）
-- 添加了 **FLAG\_FIND\_LINK\_FILE** 標志到 [**FILTER\_INFO\_EX** 結構](../plugin/structure/filter_info_ex) 和 [**Editor\_Filter** 內嵌函式](../plugin/macro/editor_filter) 中。（僅限 EmEditor 專業版）
+- Added the **EI\_SET\_FILE\_NAMEW** parameter to the [**EE\_INFO** message](../plugin/message/ee_info). (EmEditor Professional only)
+- Added the **FLAG\_FIND\_LINK\_FILE** flag to the [**FILTER\_INFO\_EX** structure](../plugin/structure/filter_info_ex) and [**Editor\_Filter** inline function](../plugin/macro/editor_filter). (EmEditor Professional only)
 
-## 新增巨集功能
+## Macro New Features
 
-- 允許使用 **Document** 對象的 [**Name** 屬性](../macro/document/document_name) 重新命名文檔的檔案名稱。如果文檔沒有標題，該屬性會重新命名文檔標題而不儲存檔案。（僅限 EmEditor 專業版）
-- 添加了 **eeExFindLinkFile** 標志到 **Document** 對象的 [**Filter** 方法](../macro/document/filter) 中。（僅限 EmEditor 專業版）
+- Allows the [**Name** property](../macro/document/document_name) of the **Document** object to be used to rename the file name of the document. If the document is untitled, the property renames the document title without saving the file. (EmEditor Professional only)
+- Added the **eeExFindLinkFile** flag to the [**Filter** method](../macro/document/filter) of the **Document** object. (EmEditor Professional only)

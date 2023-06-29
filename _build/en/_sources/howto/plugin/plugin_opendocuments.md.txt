@@ -1,32 +1,33 @@
-# 使用打開的文檔外掛程式
+# To Use Open Documents Plug-in
 
-**打開的文檔** 外掛程式被預設用 EmEditor Professional 安裝。外掛程式顯示打開的文檔清單，并讓您能在清單中激活，關閉，或儲存被選取的文檔。要使用 **打開的文檔** 外掛程式:
+The **Open Documents** plug-in is installed by default with EmEditor Professional. This plug-in displays the list of open documents, and allows you to activate, close, or save selected documents within the list. To use the **Open Documents** plug-in:
 
-1. 確保啟用標籤頁。當標籤頁被啟用時， **啟用標籤頁** 功能表項目會在 **視窗** 功能表中被勾選。
-2. 在 **外掛程式** 欄上點擊 ![Open Documents](../../images/plugin_opendocuments.gif) 。或在 **工具** 功能表中，指向 **外掛程式**，然后點擊 **打開的文檔**。
-打開的文檔清單會出現在 **打開的文檔** 自訂顯示條中。
+1. Make sure the tabs are enabled. When the tabs are enabled, the **Enable Tabs** menu item is checked on the **Window** menu.
+2. Click the **![Open Documents](../../images/plugin_opendocuments.gif)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Open Documents**.
+The list of open documents will appear in the **Open**
+**Documents** custom bar.
 
-## 內容功能表選項
+## Context Menu Options
 
-右擊打開的文檔清單，會出現內容功能表。
+Right-click on the list of open documents and the context menu will appear.
 
-選擇:
+Choose to:
 
-**激活**， **儲存**， **關閉** 或對被選取的文檔進行其他操作。
+**Activate**, **Save**, **Close** or other operations against the selected document.
 
-**重新整理** 或 **全選** 文檔。
+**Refresh** or **Select All** documents.
 
-**關閉該群組中所有其他的文檔**， **關閉之前的文檔**，或 **關閉之後的文檔**。
+**Close All Others in Group**, **Close All Previous**, or **Close All Next**.
 
-**創建** 一個 **新增群組** 或 **新增群組并最小化**。
+**Create** a **New Group** or **New Minimized Group**.
 
-**移動** 一個文檔 **到到下一群組** 或 **上一群組**。
+**Move** a document to **Next Group** or **Previous Group**.
 
-**排列** 文檔通過 **名稱**， **類型**， **已修改的**， **可用**, **升序**， **降序**，或 **自動排列**。
+**Arrange** the documents by **Name**, **Type**, **Modified**, **Active**, **Ascending Order**, **Descending Order**, or **Auto Arrange**.
 
-**檢視** 文檔的 **完整路徑**，或 **標題**，或兩者 **混合**。
+**View** the **Full Path**, or **Title**, or a **Blend** of the two.
 
-## 提示
+## Tips
 
-- 按 **F6** 鍵或 **ESC** 鍵把鍵盤焦點帶回編輯器中。
-- 在清單中選取的文檔上點擊游標中鍵來關閉該文檔。
+- Press the **F6** key or **ESC** key to set the keyboard focus back to the editor.
+- Click the middle mouse button to close the selected document in the list.

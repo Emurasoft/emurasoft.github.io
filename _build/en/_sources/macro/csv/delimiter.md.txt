@@ -1,6 +1,6 @@
-# Delimiter 屬性
+# Delimiter Property
 
-檢索或設置目前的 Csv 對象的分隔符號。
+Retrieves or sets the delimiter for the current Csv object.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _s_ = object. **Delimiter**
 
 object. **Delimiter** = _s_
 
-## 版本
+## Version
 
-支持 EmEditor 15.2 或之後的版本。
+Supported on EmEditor Professional Version 15.2 or later.

@@ -1,26 +1,27 @@
-# 立即列印命令
+# Print Now command
 
-### 摘要
+### Summary
 
-> 使用預設的印表機而不指定任何選項列印目前的檔案。
+> Prints the current file on the default printer without previewing.
 
-### 說明
+### Description
 
-> 這個命令會立即執行列印文檔文檔命令，而不再顯示 **列印** 對話方塊。印表機會使用預設設置的。這個預設設置可以在控制面板中的 **設備和印表機 (Windows 8，7，還有 Vista) ，印表機和傳真 (WinXP)** 或者 **印表機 (Win98 / ME)** 中設定或更改。
+> This command immediately prints the document without displaying the **Print** dialog box. The printer to use for printing is the default printer
+> set in **Devices and Printers (Windows 8, 7, and Vista), Printers and Faxes (WinXP)** or **Printers (Win98 / ME)** in the Control Panel.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **列印** \> **立即列印**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **Print** \> **Print Now**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILE\_PRINT\_DIRECT (4115)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,23 +1,26 @@
 # EE\_MATCH\_REGEX
 
-決定一個字符串是否與一個指定的規則運算式相匹配。您能明確地發送該消息或用 [Editor\_MatchRegex](../macro/editor_matchregex) 內嵌函式。
+Determines whether a string matches a specified regular expression. You can send this message
+explicitly or use the [Editor\_MatchRegex](../macro/editor_matchregex) inline function.
 
 EE\_MATCH\_REGEX
 
 wParam = 0;
 
-lParam = (LPARAM) (MATCH\_REGEX\_INFO\*) pMatchRegexInfo;
+lParam = (LPARAM) (MATCH\_REGEX\_INFO\_EX\*) pMatchRegexInfo;
 
-## 參數
+## Parameters
 
 _pMatchRegexInfo_
 
-> 指針指向 [MATCH\_REGEX\_INFO 結構](../structure/match_regex_info)。
+> Pointer to the [MATCH\_REGEX\_INFO\_EX structure](../structure/match_regex_info_ex) or [MATCH\_REGEX\_INFO structure](../structure/match_regex_info).
 
-## 返回值
+## Return Values
 
-> 如果一個字符串與指定的規則運算式相匹配，返回值是 TRUE。如果一個字符串與指定的規則運算式不匹配，返回值是 FALSE。如果規則運算式有語法錯誤或存在另一個嚴重錯誤，返回值是 -1。
+> If a string matches the specified regular expression, the return value is TRUE. If a string does not match the specified regular expression, the return
+> value is FALSE. If the regular expression has a syntax error or another fatal error occurs,
+> the return value is -1.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 6.00 或之後的版本。
+> Supported on Version 6.00 or later.

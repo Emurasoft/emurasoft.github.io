@@ -1,28 +1,28 @@
 # Editor\_ShowOutline
 
-顯示或隱藏大綱。您能直接用該內嵌函式或明確地發送 [EE\_SHOW\_OUTLINE](../message/ee_show_outline) 消息。
+Shows or hides the outline. You can use this inline function or explicitly send the [EE\_SHOW\_OUTLINE](../message/ee_show_outline) message.
 
 Editor\_ShowOutline( HWND hwnd, WPARAM nFlags );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nFlags_
 
-> 指定下列值之一。
+> Specifies one of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | SHOW\_OUTLINE\_SHOW | 顯示大綱。 |
-> | SHOW\_OUTLINE\_HIDE | 隱藏大綱。 |
+> | SHOW\_OUTLINE\_SHOW | Shows outline. |
+> | SHOW\_OUTLINE\_HIDE | Hides outline. |
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 6.00 或之後的版本。
+> Supported on EmEditor Professional Version 6.00 or later.

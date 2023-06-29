@@ -1,6 +1,6 @@
-# HighlightTag 屬性
+# HighlightTag Property
 
-決定是否要高亮標簽。
+Determines whether to highlight tags.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _bHighlightTag_ = document. **HighlightTag**
 
 document. **HighlightTag** = _bHighlightTag_
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

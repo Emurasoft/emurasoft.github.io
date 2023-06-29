@@ -1,6 +1,6 @@
-# ForegroundWindow 屬性
+# ForegroundWindow Property
 
-檢索當前置前視窗。
+Retrieves the current foreground window.
 
 #### \[JavaScript\]
 
@@ -10,11 +10,11 @@ wnd = shell. **ForegroundWindow**;
 
 wnd = shell. **ForegroundWindow**
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
-wnd = shell.FouregroundWindow;
+wnd = shell.ForegroundWindow;
 
 str = wnd.Caption;
 
@@ -22,12 +22,12 @@ alert( str );
 
 #### \[VBScript\]
 
-wnd = shell.FouregroundWindow
+wnd = shell.ForegroundWindow
 
 str = wnd.Caption
 
 alert str
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

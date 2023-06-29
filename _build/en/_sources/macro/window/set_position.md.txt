@@ -1,6 +1,6 @@
-# SetPosition 方法
+# SetPosition Method
 
-設置視窗的大小和位置。
+Sets the size and position of the window.
 
 #### \[JavaScript\]
 
@@ -10,24 +10,24 @@ wnd. **SetPosition**( _x_, _y_, _width_, _height_ );
 
 wnd. **SetPosition** _x_, _y_, _width_, _height_
 
-## 參數
+## Parameters
 
 _x_
 
-以像素為單位指定視窗的水平位置。
+Specifies the horizontal position of the window, in pixels.
 
 _y_
 
-以像素為單位指定視窗的垂直位置。
+Specifies the vertical position of the window, in pixels.
 
 _width_
 
-以像素為單位指定視窗的寬度。
+Specifies the width of the window, in pixels.
 
 _height_
 
-以像素為單位指定視窗的高度。
+Specifies the height of the window, in pixels.
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

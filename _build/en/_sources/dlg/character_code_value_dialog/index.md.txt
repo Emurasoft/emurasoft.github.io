@@ -1,17 +1,15 @@
-# 「字元碼值」對話方塊
+# Character Code Value dialog box
 
-**「字元碼值」** 對話方塊顯示有關在游標處的目前的字元數列的各種信息。這個對話方塊可以通過選擇 [**字元碼值** 命令](../../cmd/view/watch_char_code) 訪問。
+The **Character Code Value** dialog box displays various information about the current character sequence at the cursor position. This dialog box can be accessed by selecting the [**Character Code Value** command](../../cmd/view/watch_char_code).
 
-「字元碼值」對話方塊顯示下列信息：
+Character Code Value displays the following information in order.
 
-![帶有行號標記的字元程式碼值對話方塊的屏幕截圖。](../../images/characterCodeValueDialog.png)
+1. The character
+2. Unicode code point
+3. Document encoding and encoded bytes
+4. Unicode name for this character
+5. Script name
+6. General category
+7. Byte position in file
 
-第 1 行：字元
-
-第 2 行：Unicode 字碼指標
-
-第 3 行：文檔編碼以及編碼字元值
-
-第 4 行：字元的 Unicode 名稱
-
-顯示的信息可以通過按「複製並關閉」進行複製。
+The displayed information can be copied by pressing **Copy and Close**.

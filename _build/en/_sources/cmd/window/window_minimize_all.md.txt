@@ -1,27 +1,27 @@
-# 全部最小化命令
+# Minimize All command
 
-### 摘要
+### Summary
 
-> 最小化所有視窗。
+> Minimizes all windows.
 
-### 說明
+### Description
 
-> 最小化所有打開的 EmEditor 視窗。
+> Minimizes all open EmEditor windows.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **視窗** \> **全部最小化**
-- [全部命令](../tools/all_commands): **視窗**
-\> **全部最小化**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Window** \> **Minimize All**
+- [All Commands](../tools/all_commands): **Window**
+\> **Minimize All**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_WINDOW\_MINIMIZE\_ALL (4244)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,29 +1,30 @@
 # Editor\_OverwriteW
 
-把一個 Unicode 字串插入到目前的游標位置處。這會覆寫已存在的字串。您能直接用該內嵌函式或明確地發送
+Inserts a Unicode string at the current cursor position. This overwrites the
+existing string. You can use this inline function or explicitly send the
 [EE\_INSERT\_STRINGW](../message/ee_insert_stringw)
-消息。
+message.
 
 Editor\_OverwriteW( HWND hwnd, LPCWSTR szString, bool bKeepDestReturnType = false );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _szString_
 
-> 指定要插入的字串。
+> Specifies the string to be inserted.
 
 _bKeepDestReturnType_
 
-> 指定保持目標換行方式 (僅　CR，僅　LF，或　CR 和 LF) 。當該參數被省略時，EmEditor　會保持在　szString 參數中指定的換行方式。
+> Specifies that the destination return type (CR only, LF only or both CR and LF) should be kept. When this parameter is omitted, EmEditor keeps the return type specified in the szString parameter.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.
 
-## 支持版本
+## Version
 
-> bKeepDestReturnType 標志支持　EmEditor 7.00 或之後的版本。
+> The bKeepDestReturnType flag is supported on EmEditor Version 7.00 or later.

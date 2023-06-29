@@ -1,28 +1,29 @@
-# 新增群組并最小化命令
+# New Minimized Group command
 
-### 摘要
+### Summary
 
-> 從組合視窗中分離目前的文檔為一個新的群組并最小化。
+> Detaches the current document from combined windows as a new group, and minimizes.
 
-### 說明
+### Description
 
-> 從組合視窗中分離目前的文檔為一個新的群組并最小化。這個命令等同于拖放標籤頁到目前的 EmEditor 視窗外，當出現提示時，選擇 **新增群組** 并最小化新增視窗。
+> Detaches the current document from combined windows as a new group, and minimizes. This is the same as dragging a tab outside of the current EmEditor window and selecting **New Group**
+> when prompted, then minimizing the new window.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **視窗** \>
-**群組**
-\> **新增群組并最小化**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Window** \>
+**Group**
+\> **New Minimized Group**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_NEW\_GROUP\_MINIMIZE (4392)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

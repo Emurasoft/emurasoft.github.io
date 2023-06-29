@@ -1,6 +1,6 @@
-# LineColor 屬性
+# LineColor Property
 
-指定對象的下劃線顏色。
+Specifies the underline color of the object.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _rgb_ = item. **LineColor**;
 
 item. **LineColor** = _rgb_;
 
-## 版本
+## Version
 
-支持 EmEditor Professional v19.1 或之後的版本。
+Supported on EmEditor Professional Version 19.1 or later.

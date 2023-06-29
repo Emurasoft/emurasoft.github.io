@@ -1,27 +1,28 @@
-# 按激活順序排列命令
+# Arrange by Active command
 
-### 摘要
+### Summary
 
-> 按激活順序排列標籤頁。
+> Arranges tabs by active order.
 
-### 說明
+### Description
 
-> 按激活順序排列標籤頁 (最近激活的文檔出現在最左邊)。如果勾選了 [**自動排列** 命令](auto_sort)，每當一個檔案被打開或一個文檔被激活時，標籤頁就會按這個命令自動排列。如果 [**自動排列** 命令](auto_sort) 沒有被勾選的話，這個命令只會執行一次。
+> Arranges tabs by most recently active (most recently active appears to the left). If the [**Auto Arrange** command](auto_sort) is checked, this command is called each time when a file is opened or a document is activated, and automatically arranged. If the
+> [**Auto Arrange** command](auto_sort) is not checked, this command is called once.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** \> **標籤排列方式**
-\> **可用**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** \> **Arrange Tabs by**
+\> **Active**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SORT\_ZORDER (4401)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,28 +1,28 @@
-# 升級命令
+# Upgrade command
 
-### 摘要
+### Summary
 
-> 將本產品升級為 EmEditor Professional。
+> Upgrades this product to EmEditor Professional.
 
-### 說明
+### Description
 
-> 將本產品升級為 EmEditor Professional。這個命令在 EmEditor Professional 中不可用。
+> Upgrades this product to EmEditor Professional. This command is not available in EmEditor Professional.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **說明** >
-**升級**
-- [全部命令](../tools/all_commands): **說明** >
-**升級**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Help** >
+**Upgrade**
+- [All Commands](../tools/all_commands): **Help** >
+**Upgrade**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_HELP\_UPGRADE (3845)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

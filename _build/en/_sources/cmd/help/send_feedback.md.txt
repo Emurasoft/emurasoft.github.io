@@ -1,27 +1,27 @@
-# 傳送意見命令
+# Send Feedback command
 
-### 摘要
+### Summary
 
-> 將意見反應傳送給 EmEditor 開發團隊。
+> Sends feedback to the EmEditor developer team.
 
-### 說明
+### Description
 
-> 將意見反應傳送給 EmEditor 開發團隊。
+> Sends feedback to the EmEditor developer team.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **說明** \> **傳送意見**
-- [全部命令](../tools/all_commands): **說明** >
-**傳送意見**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **Help** \> **Send Feedback**
+- [All Commands](../tools/all_commands): **Help** >
+**Send Feedback**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SEND\_FEEDBACK (4058)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

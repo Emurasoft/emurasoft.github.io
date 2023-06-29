@@ -1,35 +1,48 @@
-# 「標記」頁面
+# Marks page
 
-**標記** 頁面讓您能自訂與標記相關的設定。
+The **Marks** page allows you to customize settings related to the marks.
 
-### 「自訂 CR+LF」核取方塊/文字方塊
+### Customize CR+LF check box/text box
 
-自訂 CR+LF 標記為一個指定的標記。這個選項只適用於當 [**顯示換行標記** 核取方塊](../../properties/marks/index) 被勾選時。
+Customizes the CR+LF mark to a specified mark. This option applies only if the
+[**Show**\
+**Returns** check box](../../properties/marks/index) is also checked.
 
-### 「自訂 CR」核取方塊/文字方塊
+### Customize CR check box/text box
 
-自訂 CR 標記為一個指定的標記。這個選項只適用於當 [**顯示換行標記** 核取方塊](../../properties/marks/index) 被勾選時。
+Customizes the CR mark to a specified mark. This option applies only if the
+[**Show**\
+**Returns** check box](../../properties/marks/index) is also checked.
 
-### 「自訂 LF」核取方塊/文字方塊
+### Customize LF check box/text box
 
-自訂 LF 標記為一個指定的標記。這個選項只適用於當 [**顯示換行標記** 核取方塊](../../properties/marks/index) 被勾選時。
+Customizes the LF mark to a specified mark. This option applies only if the
+[**Show**\
+**Returns** check box](../../properties/marks/index) is also checked.
 
-### 「自訂 EOF」核取方塊/文字方塊
+### Customize EOF check box/text box
 
-自訂 EOF 標記為一個指定的標記。這個選項只適用於當 [**顯示檔案結束標記** 核取方塊](../../properties/marks/index) 被勾選時。
+Customizes the EOF mark to a specified mark. This option applies only if the
+[**Show**\
+**End of File** check box](../../properties/marks/index) is also checked.
 
-### 「自訂 Tab」核取方塊/文字方塊
+### Customize Tab check box/text box
 
-自訂 Tab 標記為一個指定的標記。 這個選項只適用於當 [**顯示 Tab** 核取方塊](../../properties/marks/index) 被勾選時。
+Customizes the Tab mark to a specified mark. This option applies only if the
+[**Show**\
+**Tabs** check box](../../properties/marks/index) is also checked.
 
-### 「自訂空白」核取方塊/文字方塊
+### Customize Space check box/text box
 
-自訂 Space 標記為一個指定的標記。 這個選項只適用於當 [**顯示空白** 核取方塊](../../properties/marks/index) 被勾選時。
+Customizes the Space mark to a specified mark. This option applies only if the
+[**Show**\
+**Spaces** check box](../../properties/marks/index) is also checked.
 
-### 「自訂全形空白」核取方塊/文字方塊
+### Customize Wide Space check box/text box
 
-自訂 Wide Space 標記為一個指定的標記。 這個選項只適用於當 [**顯示全形空白** 核取方塊](../../properties/marks/index) 被勾選時。
+Customizes the Wide Space mark to a specified mark. This option applies only if the
+[**Show Wide Spaces** check box](../../properties/marks/index) is also checked.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

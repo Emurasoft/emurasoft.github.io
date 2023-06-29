@@ -1,3 +1,8 @@
-# 系統預設編碼
+# System Default Encoding
 
-一個用於 Windows 操作系統的非 Unicode 程式的系統編碼。您能到 **控制面板** 上，選擇 **區域和語言選項**，然后點擊 **進階** 頁面，再選擇 **非 Unicode 程式語言** 如果您用的是 Windows 2000/XP/2003/Vista。英文的 Windows 操作系統通常會把西歐作為預設編碼。這個也被稱作 ANSI。
+A system encoding for non-Unicode programs used on the Windows Operating
+Systems. You can change the System Default Encoding by selecting the **Control**
+**Panel**, selecting **Regional and Language Options**, selecting the **Advanced** tab, and
+then selecting the **Language for non-Unicode programs** if you are using Windows
+2000/XP/2003/Vista. The English Windows Operating System usually selects Western
+European by default. This is also called ANSI.

@@ -1,26 +1,26 @@
-# 重新掃描命令
+# Rescan command
 
-### 摘要
+### Summary
 
-> 重新掃描并重新整理所比較的文檔。
+> Rescans the compared documents and refreshes the results.
 
-### 說明
+### Description
 
-> 重新掃描被比較的文檔并更新結果。
+> Rescans the compared documents and refreshes the results.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **比較** \> **重新掃描**
-- [全部命令](../tools/all_commands): **比較** \> **重新掃描**
-- 工具列:  ![](../../images/rescan24x16.gif)
-- 狀態列: 無
-- 預設捷徑: **F5**
+- Default Menu: **Compare** \> **Rescan**
+- [All Commands](../tools/all_commands): **Compare** \> **Rescan**
+- Toolbar: ![](../../images/rescan24x16.gif)
+- Status Bar: None
+- Default Keyboard Shortcut: **F5**
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_COMPARE\_RESCAN (4494)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

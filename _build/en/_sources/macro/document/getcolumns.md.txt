@@ -1,6 +1,6 @@
-# GetColumns 方法
+# GetColumns Method
 
-在 CSV 模式中檢索欄數。如果文檔不是 CSV 模式，那么該方法會返回 0。
+Retrieves the number of columns in a CSV mode. If the document is not a CSV mode, this method returns 0.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _n_ = document. **GetColumns**();
 
 _n_ = document. **GetColumns**()
 
-## 版本
+## Version
 
-支持 EmEditor Professional 14.7 或之後的版本。
+Supported on EmEditor Professional Version 14.7 or later.

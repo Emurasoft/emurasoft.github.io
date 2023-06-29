@@ -1,6 +1,6 @@
-# filters 屬性
+# filters Property
 
-檢索 [Filters 集合](../filters/index)。
+Retrieves the [Filters collection](../filters/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _f_ = editor. **filters**;
 
 Set _f_ = editor. **filters**
 
-## 版本
+## Version
 
-支持 EmEditor Professional 19.9 或之後的版本。
+Supported on EmEditor Professional Version 19.9 or later.

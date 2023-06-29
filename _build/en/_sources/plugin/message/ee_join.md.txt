@@ -1,6 +1,7 @@
 # EE\_JOIN
 
-按指定索引鍵資料欄,用一個與 JOIN 操作類似的方法合併兩個 CSV 文檔,并創建一個新文檔。您可以明確地發送該消息或用 [Editor\_Join](../macro/editor_join) 內嵌函式。
+Combines two CSV documents specifying key columns, using a method similar to JOIN operations, and creates a new document. You can send this message explicitly or use
+the [Editor\_Join](../macro/editor_join) inline function.
 
 EE\_JOIN
 
@@ -8,31 +9,32 @@ wParam = (WPARAM) (JOIN\_INFO\*) pJoinInfo;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _pJoinInfo_
 
-> 指針指向 [JOIN\_INFO](../structure/join_info) 結構。
+> Pointer to the [JOIN\_INFO](../structure/join_info) structure.
 
-## 返回值
+## Return Value
 
-> 返回值是新文檔的行數。返回值為負數如果發生錯誤的話。如果發生錯誤,返回值是下列值之一:
+> The return value
+> is the number of the lines in the new document. The return value is a negative value if an error occurs. If an error occurs, the return value can be one of the following values:
 >
 > |     |     |
 > | --- | --- |
-> | E\_DOCUMENT\_1\_NOT\_FOUND | 無法找到第一個文檔。 |
-> | E\_DOCUMENT\_2\_NOT\_FOUND | 無法找到第二個文檔。 |
-> | E\_COLUMN\_1\_NOT\_FOUND | 無法找到第一欄。 |
-> | E\_COLUMN\_2\_NOT\_FOUND | 無法找到第一欄。 |
-> | E\_SELECT\_SYNTAX | 選擇的字串中有語法錯誤。 |
-> | E\_SELECT\_DOCUMENT\_NOT\_FOUND | 無法在選擇的字串中找到指定的文檔。 |
-> | E\_SELECT\_COLUMN\_NOT\_FOUND | 無法在選擇的字串中找到指定欄。 |
-> | E\_DIFFERENT\_CSV\_MODE | 不同的 CSV 模式。 |
-> | E\_NOT\_MDI | 必須啟用 Tab。 |
-> | E\_WRITE\_TEMP\_FILE | 臨時檔案寫入錯誤。 |
-> | E\_ABORT | 被使用者中止。 |
-> | E\_FAIL | 未指定的錯誤。 |
+> | E\_DOCUMENT\_1\_NOT\_FOUND | Cannot find the first document. |
+> | E\_DOCUMENT\_2\_NOT\_FOUND | Cannot find the second document. |
+> | E\_COLUMN\_1\_NOT\_FOUND | Cannot find the first column. |
+> | E\_COLUMN\_2\_NOT\_FOUND | Cannot find the second column. |
+> | E\_SELECT\_SYNTAX | Syntax error in the Select string. |
+> | E\_SELECT\_DOCUMENT\_NOT\_FOUND | Cannot find a specified document in the Select string. |
+> | E\_SELECT\_COLUMN\_NOT\_FOUND | Cannot find a specified column in the Select string. |
+> | E\_DIFFERENT\_CSV\_MODE | Different CSV modes. |
+> | E\_NOT\_MDI | Tabs must be enabled. |
+> | E\_WRITE\_TEMP\_FILE | Temporary file write error. |
+> | E\_ABORT | Aborted by a user. |
+> | E\_FAIL | Unspecified error. |
 
-## 版本
+## Version
 
-> 支持 EmEditor 14.8 或之後的版本。
+> Supported on EmEditor Professional Version 14.8 or later.

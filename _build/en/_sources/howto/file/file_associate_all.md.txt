@@ -1,13 +1,26 @@
-# 在檔案總管中雙擊來打開一個檔案
+# To Open a File by Double Clicking in Explorer
 
-1. 在 **工具** 功能表下，選擇 [**「自訂」** 命令](../../cmd/tools/common_settings)。
-2. 選擇 [**「檔案」** 頁面](../../dlg/customize/file/index)。
-3. 點擊 [**「與 EmEditor 關聯」** 按鈕](../../dlg/customize/file/index)。
-4. 點擊 **「添加」** 按鈕。
-5. 在 **副檔名** 文字方塊中輸入您想要關聯的檔案副檔名，然后在 **檔案類型** 文字方塊中，輸入任何名稱，從 **「本檔案的示例圖示」** 文字方塊以及 **「目前的圖示」** 的清單方塊中選擇一個圖示。
-6. 在檔案總管中，含有與 EmEditor 關聯的副檔名的檔案圖示會變更到指定的圖示，雙擊這些圖示便能用 EmEditor 打開這些檔案了。
+1. Select the [**Customize** command](../../cmd/tools/common_settings) under the **Tools** menu.
+2. Select the [**File** page](../../dlg/customize/file/index).
+3. Click the [**Associate with EmEditor** button](../../dlg/customize/file/index).
+4. Click the **Add** button.
+5. Enter the file extension you want to associate in the **Extension**
+text box, enter any name in the **File Types** text box, select an icon from the
+**Sample Icon from This File** text box and the **Current Icon** list
+box.
+6. In Explorer, icons whose extension have been associated with EmEditor
+will change to the specified icons, and double-clicking on those icons
+will open those files with EmEditor.
 
-### 提示
+### Tips
 
-- 如果您試著輸入一個已經與另一個程式關聯的副檔名，消息方塊會顯示「該副檔名已經與『...』關聯，您確定要更改關聯嗎？」。選擇「是」將更改關聯，雙擊檔案將不再運行原本的關聯程式。然而 [**「與 EmEditor 關聯」** 對話方塊](../../dlg/file_associate/index) 中刪除新增的副檔名將還原與原先的程式的關聯設置。
-- 如果您不想要更改關聯設置，您仍然可以通過在檔案總管中按右鍵功能表選擇「EmEditor」來打開檔案。
+- If you try to enter an extension already associated with another program,
+the message box "This extension is already associated with '...'. Are you
+sure you want to change the association?" appears. Selecting Yes will change
+the association, and double-clicking the file will no longer run the old
+associated program. However, deleting the new extension in the
+[**Associate with EmEditor** dialog box](../../dlg/file_associate/index)
+will restore the association with the old program.
+- If you do not want to change the association, you can still open a file
+in Explorer by selecting EmEditor in the menu displayed by right clicking on
+the file.

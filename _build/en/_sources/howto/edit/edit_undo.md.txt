@@ -1,11 +1,15 @@
-# 復原上一次的編輯
+# To Undo the Last Edit
 
-點擊工具列上的
-![Undo](../../images/editundo.gif) 。
+Click
+![Undo](../../images/editundo.gif) on
+the Toolbar.
 
-### 提示
+### Tips
 
-- 另外，您也可以按 CTRL + Z 來復原上一次的編輯。
-- 要重做上一次被撤銷的編輯，點擊工具列上的
-![Redo](../../images/editredo.gif) ，或按 CTRL + Y。
-- 您能復原的次數僅取決于可用的內存總數。
+- Alternatively, click CTRL + Z to undo the last edit.
+- To redo the last undone edit, click
+![Redo](../../images/editredo.gif)
+on the Toolbar, or press CTRL + Y on
+the Toolbar.
+- The number of times you can undo is dependent only on the amount of memory
+available.

@@ -1,6 +1,6 @@
-# Save 方法
+# Save Method
 
-將模糊選項儲存到應用數據資料夾。
+Saves the fuzzy options to the app data folder.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ obj. **Save**();
 
 obj. **Save**
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

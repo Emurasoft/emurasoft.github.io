@@ -1,27 +1,30 @@
 # Editor\_GetWord
 
-檢索游標位置處的一個單字。您能直接用該內嵌函式或明確地發送 [EE\_GET\_WORD](../message/ee_get_word) 消息。
+Retrieves a word at the cursor position. You can use this inline function or explicitly send the [EE\_GET\_WORD](../message/ee_get_word) message.
 
 Editor\_GetWord( HWND hwnd, UINT nBufferSize, LPWSTR szBuffer );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nBufferSize_
 
-> 用字元數指定複製到緩沖區的最大字元數，包括空字元。
+> Specifies the maximum number of characters in characters to copy to the buffer,
+> including the NULL character.
 
 _szBuffer_
 
-> 指標至會接收文字的緩沖區。
+> Pointer to the buffer that will receive the text.
 
-## 返回值
+## Return Values
 
-> 如果 _nBufferSize_ 是零，返回值是能接收文字的緩沖區的必需的大小字元數。如果 _nBufferSize_ 不是零，不使用返回值。
+> If _nBufferSize_ is zero, the return value is the required size, in characters,
+> for a buffer that can receive the text. If _nBufferSize_ is not zero, the
+> return value is not used.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 10.00 或之後的版本。
+> Supported on EmEditor Version 10.00 or later.

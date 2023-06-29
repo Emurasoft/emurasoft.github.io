@@ -1,6 +1,7 @@
 # EE\_SET\_CARET\_POS
 
-移動游標位置并且選擇性地延伸選區。您能明確地發送該消息或用 [Editor\_SetCaretPos](../macro/editor_setcaretpos) 內嵌函式或 [Editor\_SetCaretPosEx](../macro/editor_setcaretposex) 內嵌函式。
+Moves the cursor position and optionally extends the selection. You can send this message explicitly or by
+using the [Editor\_SetCaretPos](../macro/editor_setcaretpos) inline function or the [Editor\_SetCaretPosEx](../macro/editor_setcaretposex) inline function.
 
 EE\_SET\_CARET\_POS
 
@@ -8,34 +9,37 @@ wParam = MAKEWPARAM( nLogical, bExtend );
 
 lParam = (LPARAM) (POINT\_PTR\*) pptPos;
 
-## 參數
+## Parameters
 
 _nLogical_
 
-> 從如下值中指定一個組合。
+> Specifies a combination of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | POS\_VIEW | 顯示坐標 |
-> | POS\_LOGICAL\_A | 邏輯坐標 (把雙位元字元計為兩個) |
-> | POS\_LOGICAL\_W | 邏輯坐標 (把雙位元字元計為一個) |
-> | POS\_SCROLL\_DONT\_CARE | 游標位置成為捲動變得最小的地方。 |
-> | POS\_SCROLL\_CENTER | 游標位置向視窗中心靠近。 |
-> | POS\_SCROLL\_TOP | 游標位置成為視窗的頂部。 |
-> | POS\_CELL | CSV 儲存格單位 |
+> | POS\_VIEW | Display Coordinates |
+> | POS\_LOGICAL\_A | Logical Coordinates (Count double-byte characters as two) |
+> | POS\_LOGICAL\_W | Logical Coordinates (Count double-byte characters as one) |
+> | POS\_CELL | CSV Cell Unit |
+> | POS\_SCROLL\_DONT\_CARE | The cursor position becomes where the scrolling becomes minimum. |
+> | POS\_SCROLL\_CENTER | The cursor position becomes near the center of the window. |
+> | POS\_SCROLL\_TOP | The cursor position becomes the top of the window. |
 
 _bExtend_
 
-> 決定是否要延伸目前的選區。如果 _bExtend_ 是 TRUE，那么選區活動尾端會移動到指定位置，而定位端仍會呆在原來的位置。否則，兩端都會被移動到指定的位置。
+> Determines whether to extend the current selection. If _bExtend_ is
+> TRUE, then the active end of the selection moves to the location while the
+> anchor end remains where it is. Otherwise, both ends are moved to the
+> specified location.
 
 _pptPos_
 
-> 指針指向一個指定游標位置的 [POINT\_PTR 結構](../structure/point_ptr)。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specified the cursor position.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 4.03 或之後的版本。 然而，POS\_SCROLL\_DONT\_CARE，POS\_SCROLL\_CENTER，以及 POS\_SCROLL\_TOP 標志支持 EmEditor 6.00 或之後的版本。
+> Supported on Version 4.03 or later. However, POS\_SCROLL\_DONT\_CARE, POS\_SCROLL\_CENTER, and POS\_SCROLL\_TOP flags are supported on Version 6.00 or later.

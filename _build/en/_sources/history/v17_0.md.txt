@@ -1,152 +1,231 @@
 # Version 17.0
 
-2017年7月18日
+July 18, 2017
 
-## 一般新增功能
+## New General Features
 
-- 通過優化程式碼以儲存設置（特別是可攜式式版本或當有許多巨集在我的巨集文檔中時），大大提高了 EmEditor 的啟動速度。 參見下面的測試結果表。
+- Greatly improved the EmEditor launch speed by optimizing the code to save settings (especially for the portable versions or when many macros are registered to My Macros). See the test results table below.
 
-### 測試結果:
+### Test results:
 
-|  | v16.9.1 | v16.9.3 | v17.0 | 與 v16.9.1 相較 |
+|  | v16.9.1 | v16.9.3 | v17.0 | Comparison to v16.9.1 |
 | --- | --- | --- | --- | --- |
-| 啟動時間 | 5.45 秒 | 0.734 秒 | 0.141 秒 | 快 38.7 倍 |
+| Launch Time | 5.45 seconds | 0.734 seconds | 0.141 seconds | 38.7 times faster |
 
-\\* 64位可攜式版本（用 INI 檔案），我的巨集文檔中有 119 個巨集，9 個外掛程式，20 個最近使用的檔案，20 個最近使用的資料夾，10 個最近使用的字型。 測量程式初始化持續時間。測試系統：Windows 10 (64-bit) Core i7-4790 16GB RAM
+\\* 64-bit portable version (using INI files), 119 macros registered to My Macros, 9 plug-ins, 20 recently used files, 20 recently used folders, 10 recently used fonts. Measured the duration of the program initialization, Windows 10 (64-bit) Core i7-4790 16GB RAM.
 
-- 在 **自訂** 對話方塊中的 **歷史** 頁面上，當勾選 **儲存游標位置和書籤** 核取方塊時，之前的版本只能儲存最近使用檔案的游標位置和書籤，現在，新版本能儲存多達 30,000 天的歷史記錄。另外，你可以通過選項永久儲存書籤。
-- 如果在執行 **多檔取代** 時檢測到唯讀檔案，新版本會在輸出欄中顯示一個警告信息。
-- 當游標指針懸停在工具列上的「按字元換行」，「按視窗換行」和「按頁面換行」按鈕上時，新版本會在工具提示中顯示邊距（字元數）。
+- When the **Save Cursor Position and Bookmarks** check box is set in the **History** page of the **Customize** dialog box, previous versions saved cursor positions and bookmarks only for recently used files. The new version saves the information up to specified days (maximum 30,000 days). Moreover, the bookmarks can be indefinitely remembered by the option.
+- If a read-only file is detected during **Replace in Files**, the new version displays a warning message in the **Output Bar**.
+- The new version shows the margin (number of characters) in the tooltips when the mouse pointer hovers over the **Wrap by Characters**, **Wrap by Window** or **Wrap by Page** buttons in the toolbar.
 
-## 新增選項
+## New Options
 
-- 把自訂對話方塊中的檔案頁面上的 **儲存游標與書籤位置** 核取方塊移動到了自訂對話方塊中的 [歷史記錄頁面](../dlg/customize/history/index) 上。
-- 在自訂對話方塊中的 [歷史記錄頁面](../dlg/customize/history/index) 上添加了 **最近的搜尋次數** 文字方塊， **儲存天數** 文字方塊以及 **永不清除書籤** 核取方塊。
-- 添加了 [**清除歷史記錄** 對話方塊](../dlg/clear_history/index)，當你在 [**自訂歷史** 頁面](../dlg/customize/history/index) 上點擊「清除歷史記錄...」按鈕時會快顯該對話方塊。
-- 在 **組態屬性** 對話方塊中的 [亮顯 (1)](../dlg/properties/highlight1/index) 頁面上添加了 **使用預設關鍵詞** 核取方塊。
-- 添加了 **與尋找/取代對話方塊同步歷史記錄** 核取方塊到 **自訂** 對話方塊中的 [**搜尋** 頁面](../dlg/customize/search/index) 上。
-- 添加了 **與尋找同步** 命令到 [**取代** 對話方塊](../dlg/replace/index) 中點擊 **取代為** 下拉清單方塊旁的「 **>**」按鈕所顯示的功能表上。
-- 添加了 **下拉清單字型** 下拉清單到 [**工具列** 對話方塊](../dlg/toolbars/index) 中。
+- Moved the **Save Cursor Position and Bookmarks** check box from the **File** page to the [**History** page](../dlg/customize/history/index) of the **Customize** dialog box.
+- Added the **Number of Recent Searches** text box, **Number of Days to Save** text box, and the **Never Clear Bookmarks** check box to the [**History** page](../dlg/customize/history/index) of the **Customize** dialog box.
+- Added the [**Clear History** dialog box](../dlg/clear_history/index), which will be displayed when the **Clear History** button is clicked in the [**History** page](../dlg/customize/history/index) of the **Customize** dialog box.
+- Added the **Use Default Keywords** check box to the [Highlight (1) page](../dlg/properties/highlight1/index) of configuration properties.
+- Added the **Synchronize History with Find/Replace Dialog Boxes** check box to the [**Search** page](../dlg/customize/search/index) of the **Customize** dialog box.
+- Added the **Synchronize with Find** command to the menu displayed when the **>** button by the **Replace with** drop-down list box is clicked in the [**Replace** dialog box](../dlg/replace/index).
+- Added the **Drop-down List Font** drop-down list to [**Toolbars** dialog box](../dlg/toolbars/index).
 
-## 新增命令
+## New Commands
 
-- [刪除舊的設定](../cmd/tools/delete_old_settings)
+- [Delete Old Settings](../cmd/tools/delete_old_settings)
 
-## 外掛程式 API 新增功能
+## Plug-in New Features
 
-- 添加了 **單擊運行巨集** 核取方塊以及 **巨集檔案篩選器** 文字方塊到 **檔案總管** 外掛程式屬性中，并且 [檔案總管外掛程式](../howto/plugin/plugin_explorer) 現在讓你能點擊一個巨集檔案來運行巨集，而不是編輯巨集。
-- 添加了 **用 EmEditor 運行這個巨集** 命令到在 **檔案總管** 外掛程式中右擊巨集檔案快顯的內容功能表上。
+- Added the **Click to run a macro** check box and the **Macro File Filter** text box to the **Explorer** plug-in Properties, and the [Explorer plug-in](../howto/plugin/plugin_explorer) allows you to click a macro file to run the macro instead of editing the macro.
+- Added the **Run this Macro with EmEditor** command to the context menu displayed in the **Explorer** plug-in custom bar.
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 [**ExecuteMacro** 方法](../macro/editor/editor_executemacro) 和 [**RegisteredName** 屬性](../macro/editor/registeredname) 到 [**Editor** 對象](../macro/editor/index) 中。
-- 添加了 [**SerialToLogical**](../macro/document/serialtological)， [**LogicalToSerial**](../macro/document/logicaltoserial)， [**LogicalToView**](../macro/document/logicaltoview)， [**ViewToLogical**](../macro/document/viewtological) 方法到 **Document** 對象中。
-- 添加了 [**Point** 對象](../macro/point/index)。
+- Added the [**ExecuteMacro** method](../macro/editor/editor_executemacro) and [**RegisteredName** property](../macro/editor/registeredname) to the [**Editor** object](../macro/editor/index).
+- Added the [**SerialToLogical**](../macro/document/serialtological), [**LogicalToSerial**](../macro/document/logicaltoserial), [**LogicalToView**](../macro/document/logicaltoview), [**ViewToLogical**](../macro/document/viewtological) methods to the **Document** object.
+- Added the [**Point** object](../macro/point/index).
 
-## 修復 Bug
+## Bug Fixes
 
-- 修復了與 **刪除重複行** 命令相關的 bug。
-- 修復了當打開一個唯讀檔案時， **調整分隔符位置 (整個文檔)** 命令 不可用的 bug。
-- 修復了 **EE\_VIEW\_TO\_LOGICAL** 消息無法在64位版上正常運作的 bug。
-- 修復了當使用 **向上移動行** 或 **向下移動行** 命令時，目前的行的背景顏色可能會變得不正確的 bug。
+- Fixed a certain bug related to the **Delete Duplicate Lines** command.
+- Fixed the bug where the **Adjust Separator Positions (Whole Document)** command was grayed out when a read-only file is opened.
+- Fixed the bug where the **EE\_VIEW\_TO\_LOGICAL** message did not work correctly on the 64-bit version.
+- Fixed the bug where the background color of the current line might have become incorrect when the **Move Line Up** or **Move Line Down** command was used.
 
-## 備注
+## Remarks
 
-最初運行新版本時，舊設置將被轉換為新設置。舊設置還是會保留，但如果你執行 **刪除舊設置** 命令，那么 EmEditor 將會清除舊設置。在極少數情況下，此版本可能與幾個舊的外掛程式和巨集不兼容。 具體來說，依賴于下面的 **技術信息** 中列出的注冊表信息的外掛程式和巨集可能不再有效。請確認這個版本是否適用於您的外掛程式或巨集，如果有任何問題，請到論壇或電郵聯系我們，以便我們能夠解決這些問題。如果您在使用 Aye Wong 的 MacroPopupMenu2， [請下載并運行名為 **PopupMacros.jsee 的新的巨集**](https://www.emeditor.com/files/popupmacros-jsee/)。如果您使用巨集臨時設置目前的巨集，請使用新的 **ExecuteMacro** 方法進行重寫 （請參閱 **PopupMacros.jsee** 巨集作為範例）。
+When this version is first launched, the old settings will be converted to new settings. The old settings will remain, but selecting the **Delete Old Settings** command will clear them at anytime. In rare cases, this version might not be compatible with a few old plug-ins and macros. Specifically, plug-ins and macros that depend on the registry information listed in the **Technical Information** below might not work anymore. Please verify if this version works with your plug-ins and macros, and let us know if there are any issues at the forum or by emails so that we can resolve those issues. If you are using Aye Wong's **MacroPopupMenu2**, [please download and run a new macro called **PopupMacros.jsee**](https://www.emeditor.com/files/popupmacros-jsee/). If you are using a macro to set the current macro temporarily, please rewrite it by using the new **ExecuteMacro** method (refer to the **PopupMacros.jsee** macro as a sample).
 
-## 技術信息
+## Technical Information
 
-過時的注冊表項：
+Obsolete registry keys:
 
-`HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\ActiveString
-HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Macros
-HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\PlugIns
-HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Recent File List
-HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Recent Folder List
-HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Recent Font List
-HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Recent Insert List
-HKEY_CURRENT_USER\Software\EmSoft\EmEditor v3\Recent Workspace List
-`
+HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\ActiveString
 
-在 HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Config\\(組態名稱) 中過時的注冊表值(包括舊版本中已過時的值):
+HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Macros
 
-`Accel
+HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\PlugIns
+
+HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Recent File List
+
+HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Recent Folder List
+
+HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Recent Font List
+
+HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Recent Insert List
+
+HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Recent Workspace List
+
+Obsolete registry values in HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Config\\(Configuration Name) (including already obsolete values on older versions):
+
+Accel
+
 Clr
+
 Clr11
+
 Clr12
+
 Clr14
-Clr14_2
-Clr14_3
-Clr14_6
-Clr15_4
-Clr15_8
+
+Clr14\_2
+
+Clr14\_3
+
+Clr14\_6
+
+Clr15\_4
+
+Clr15\_8
+
 Clr2
+
 Clr3
+
 ClrPreview
+
 ClrVar
+
 ConfigCopiedFrom
+
 ContextMenu
+
 DevMode
+
 DevNames
+
 GuideArray
+
 HW
+
 HW2, HW3, HW4, ...
+
 IgnoreIndent
+
 RegexIndentBegin
+
 RegexIndentEnd
+
 RegexIndentStatement
+
 InitialFolder
+
 JumpListMenu
+
 LineComment1
+
 LineComment2
+
 MainMenu
+
 MaxFindPreview
+
 NW
+
 OutlineBar
+
 OutlineBarInit
+
 OutlineComments
+
 OutlineGuide
+
 OutlineGuideInit
+
 OutlineGuideMax
+
 OutlineHideMatch
+
 OutlineIndentType
+
 OutlineLevelSize
+
 OutlineMatch-1 ... OutlineMatch-32
+
 OutlineRegex-1 ... OutlineRegex-32
+
 OutlineReplace-1 ... OutlineReplace-32
+
 OutlineVer
+
 OutlineViewLevel
+
 PIK
+
 PIKM
+
 PIKT
+
 TabMenu
+
 Tmpl
+
 TrayMenu1
+
 TrayMenu2
+
 TrayMenu3
+
 TrayMenu4
+
 TrayMenu5
+
 TrayMenu6
+
 TrayMenu7
+
 TrayMenu8
-`
 
-在 HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Common 中過時的注冊表值:
+Obsolete registry values in HKEY\_CURRENT\_USER\\Software\\EmSoft\\EmEditor v3\\Common:
 
-`RecentFilterList (v16.9 開始過時)`
+RecentFilterList (obsolete on v16.9)
 
-新增數據檔案:
+Newly added data files:
 
-`%APPDATA%\Emurasoft\EmEditor\Common\ActiveS.bin
-%APPDATA%\Emurasoft\EmEditor\Common\FileAttr.bin
-%APPDATA%\Emurasoft\EmEditor\Common\Macros.bin
-%APPDATA%\Emurasoft\EmEditor\Common\PlugIns.bin
-%APPDATA%\Emurasoft\EmEditor\Common\RecentFilterList.bin (添加在 v16.9 中)
-%APPDATA%\Emurasoft\EmEditor\Config\(組態名)\Accel.bin
-%APPDATA%\Emurasoft\EmEditor\Config\(組態名)\ClrPreview.bin
-%APPDATA%\Emurasoft\EmEditor\Config\(組態名)\ClrVar.bin
-%APPDATA%\Emurasoft\EmEditor\Config\(組態名)\DevInfo.bin
-%APPDATA%\Emurasoft\EmEditor\Config\(組態名)\NW.bin
-%APPDATA%\Emurasoft\EmEditor\Config\(組態名)\HW.bin
-%APPDATA%\Emurasoft\EmEditor\Config\(組態名)\PropEx.bin
-`
+%APPDATA%\\Emurasoft\\EmEditor\\Common\\ActiveS.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Common\\BRP.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Common\\FileAttr.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Common\\FRP.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Common\\Macros.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Common\\Menu0.bin ... Menu13.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Common\\PlugIns.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Common\\RecentFilterList.bin (Added on v16.9)
+
+%APPDATA%\\Emurasoft\\EmEditor\\Config\\(Configuration Name)\\Accel.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Config\\(Configuration Name)\\ClrPreview.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Config\\(Configuration Name)\\ClrVar.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Config\\(Configuration Name)\\DevInfo.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Config\\(Configuration Name)\\NW.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Config\\(Configuration Name)\\HW.bin
+
+%APPDATA%\\Emurasoft\\EmEditor\\Config\\(Configuration Name)\\PropEx.bin

@@ -1,19 +1,19 @@
 # Editor\_SetConfigA
 
-變更為一個用 ANSI 字串指定的組態。您能直接用該內嵌函式或明確地發送 [EE\_SET\_CONFIGA](../message/ee_set_configa) 消息。
+Changes to a configuration specified by an ANSI string. You can use this inline function or explicitly send the [EE\_SET\_CONFIGA](../message/ee_set_configa) message.
 
 Editor\_SetConfigA( HWND hwnd, LPCSTR szConfigName );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _szConfigName_
 
-> 用 ANSI 字串指定一個組態。
+> Specifies a configuration by an ANSI string.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

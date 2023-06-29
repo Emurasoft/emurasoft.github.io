@@ -1,6 +1,8 @@
-# EscapeCharacter 屬性
+# EscapeCharacter Property
 
-與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「引號內的字串」群組方塊 \- 「逸出字元」** 文字方塊相對應。
+Corresponds to the **String**
+**Enclosed by Quotation Marks group box - Escape Character** text box in the
+[**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -14,6 +16,6 @@ _str_ = object. **EscapeCharacter**
 
 object. **EscapeCharacter** = _str_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,6 +1,6 @@
-# NewFile 方法
+# NewFile Method
 
-新建一個檔案。
+Creates a new file.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ editor. **NewFile**();
 
 editor. **NewFile**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

@@ -1,14 +1,14 @@
-# 使用檔案總管外掛程式
+# To Use Explorer Plug-in
 
-**檔案總管** 外掛程式被預設安裝到 EmEditor Professional 中。該外掛程式會顯示資料夾樹狀目錄，并且讓您能從資料夾樹狀目錄中打開一個檔案。要使用 **檔案總管** 外掛程式:
+The **Explorer** plug-in is installed by default with EmEditor Professional. This plug-in displays the folder tree and allows you to open a file from the folder tree. To use the **Explorer** plug-in:
 
-1. 在 **外掛程式** 欄上點擊 ![Explorer](../../images/plugin_explorer.gif) 。或在 **工具** 功能表中，指向 **外掛程式**，然后點擊 **檔案總管**。 **檔案總管** 自訂顯示條便會出現。
-2. 尋找并從樹狀目錄上點擊一個要打開的檔案，該檔案就會被 EmEditor 打開。
+1. Click **![Explorer](../../images/plugin_explorer.gif)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Explorer**. The **Explorer** custom bar will appear.
+2. Find and click a file to open from the folder tree, and the file will be opened with EmEditor.
 
-## 提示
+## Tips
 
-- 按 **F6** 鍵或 **ESC** 鍵讓鍵盤焦點回到編輯器中。
-- 要直接輸入路徑，使用 **路徑** 下拉清單。
--  要只顯示特定的檔案類型，在過濾器下拉清單中設置過濾條件。可以使用通配符 ( **\***, **?**)。要分隔多個檔案規格，請用分號( **;**)。
-- 右擊清單檢視隱藏的檔案，重新整理，或清除 **路徑** 以及 **過濾器** 記錄。
-- 預設的設定是單擊打開一個項目。您可以在外掛程式屬性中改變這個行為。
+- Press the **F6** key or **ESC** key to set the keyboard focus back to the editor.
+- To enter the path directly, use the **Path** drop-down list.
+-  To display only certain file types, set the filter in the Filter drop-down list. Wild cards ( **\***, **?**) can be used. To separate multiple file specifications, use a semicolon ( **;**).
+- Right-click on the list to view hidden files, refresh, or clear the **Path** and **Filter** history.
+- Single-click opens an item by default. You can change this behavior from the plug-in properties.

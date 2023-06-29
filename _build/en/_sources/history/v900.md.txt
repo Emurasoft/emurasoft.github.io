@@ -1,158 +1,183 @@
 # Version 9
 
-2009年10月14日
+October 14, 2009
 
-## 一般新增功能
+## New General Features
 
-- 支持 CSV (逗號分隔)，TSV (制表符分隔) 以及 DSV (用戶定義的分隔符分隔) 模式。您能垂直選取一個特定的列，或者在一個特定的列中將數值進行排序。您也可以與僅編輯選定區域模式聯用，只排序選定的區域。
-- 添加了僅編輯選定區域模式。 [**僅編輯選定** 命令](../cmd/edit/narrowing_toggle) 讓您能編輯選取的區域，并且鎖定其余的文檔部分。 (在嘗試僅編輯選定命令之前，請先確定分頁標記背景顏色與一般背景顏色不同。)
-- 支持 Windows 7 跳轉列表。跳轉列表能被自訂，并且它還包括最近目錄。要使用最近目錄，請到 [**自訂** 對話方塊](../dlg/customize/index) 中的 [**檔案** 選項卡](../dlg/customize/file/index) 上勾選 **總是添加到最近使用的文檔資料夾中** 復選框。最近目錄與 EmEditor 所管理的最近菜單不同，只有那些擴展名與 EmEditor 關聯的檔案才會在最近目錄中顯示。
-- 支持 Windows 7 任務欄按鈕進度條
-- 添加了全屏模式。
-- 添加了剪貼簿記錄功能。
-- 右擊最近打開的檔案列表會顯示一個彈出一個菜單，您可以把一個檔案固定到此列表，取消固定，或從該列表中移除。用這個菜單，您還可以從列表中的一個資料夾中打開一個項目，打開 Windonws 檔案總管或命令提示符，還有複製路徑。
-- 在命令行中支持通配符。例如，運行 "emeditor.exe \*.txt" 將打開在當前資料夾中所有 txt 檔案。
-- 添加了新的命令行選項 (/act, /clw, /cjl, /n, /od, /rr, /scrlf, /scr, and /slf) 。
-- 括號/引號可以自動完成。例如，當您輸入{ , EmEditor 將自動幫您插入 } 來完成整個括號。當您選取了一段文本，輸入一個上引號 "，EmEditor 就會自動匹配一個下引號 ""到選取的文本末尾。
-- 現在可以忽略在 #include 或 Label: 行之後的縮進了。
-- 在 **查找** 和 **替換** 對話方塊中支持增量搜尋。
-- 在 **查找** 和 **替換** 對話方塊中，添加了 **「=」** 按鈕讓您能在單個和多個文本框中切換。
-- **在檔案中查找** 和 **多檔取代** 對話方塊現在無模式。
-- 添加了 "(?n:true\_expression:false\_expression)" 到規則運算式中來替換格式。
-- 可以在輸出欄中用標準輸入法輸入。
-- 拖放一個選項卡讓您能在複製/創建當前檔案快捷鍵和創建一個新分組中選擇。
-- 您可以在工具列上右擊一個按鈕來直接顯示該按鈕的屬性。
-- 巨集路徑被保存為相對路徑到我的巨集資料夾中。
-- 在「自訂」對話方塊的「編輯」選項卡上的「將下列字符識別為字母數字」文本框現在可用於「查找/替換」命令。
-- 光標大小和顏色可以被自訂。
-- 在Windows Vista 和之後的系統中，當您啟用了用戶賬號控制(User Account Control)。EmEditor 就能把檔案保存到受保護的資料夾中，例如 "C:\\Program Files" 中，在提升權限的提示出現之後。
-- EmEditor 現在可以用一個工作空間保存撤消信息，并讓您能不用命名檔案來保存無標題的文檔。當 EmEditor 要退出時，它能夠提示您保存您的工作空間。這個提示也可以被設置為不出現。
-- 水平/垂直行現在在文本以下繪制，閃爍也完全消除。
-- 添加了 UTF-16 輸入項到自動偵測編碼對話方塊中。
-- 尺規上添加了右鍵菜單和新的命令: 切換 CSV 模式，調整分割條位置，選擇列。
-- 與標準輸入和輸出相關的功能被添加到了外部工具功能中。這讓您能把外部工具作為一個過濾器。
-- 在光標位置或整個文檔中的文本能作為一個參數傳遞到外部工具中。
-- 一個外部工具的標準輸出能被檢索并插入到文檔中。
-- 輸出編碼現在包括 **另存為活動文檔** 選項。
-- 支持 IME 語境再轉換。
-- 即使沒有選取文本，重新轉換鍵現在也能啟用。
-- 一個外掛程式按鈕的上下文菜單中添加了 **屬性** 命令即使這個按鈕在主工具列中。
-- 您可以指定自訂欄中的文本的顏色和背景顏色了。
-- 從一個框選複製的剪切板格式現在與 Visual Studio 相容了。
-- 如果在打開時偵測到一個空或無效的字符，在警告對話方塊出現后，光標現在會跳轉到無效字符的所在位置。
-- 工具列上添加了 16 個新按鈕。
-- 一個箭頭被添加到![](../images/fileopen.gif)工具列上的 ( **「打開」**) 按鈕旁；點擊該箭頭會顯示一列表最近使用的檔案和資料夾。
-- 一個箭頭被添加到![](../images/paste.gif)工具列上的 ( **「粘貼」**) 按鈕旁；點擊該箭頭會顯示一列表最近在剪貼簿中使用的文本。
+- CSV (Comma-separated), TSV (Tab-separated) and DSV (User-defined delimiter-separated) modes are supported now. You can vertically select a specified column, or sort values at a specified column. In conjunction with the narrowing mode, you can sort only selected lines.
+- Narrowing mode added. The [**Narrowing** command](../cmd/edit/narrowing_toggle) assigns only the selection as editable area and make the rest inaccessible. (Before trying the Narrowing command, make sure the Page break marks background color is different from the General background color.)
+- Supports Windows 7 Jump List. The jump list can be customized, and it also includes the recent category. In order to have the recent category work, **Always**
+**Add to Recent Documents** Folder check box in the [**File** page](../dlg/customize/file/index) of the
+[**Customize** dialog box](../dlg/customize/index) must be checked. The recent category is different from the recent menu that EmEditor manages, and only those files with the extensions associated with EmEditor will be included in the recent category.
+- Supports Windows 7 Task Button Progress Bar.
+- Full Screen mode added.
+- Clipboard history features were added.
+- Right-clicking on the recent file list or recent folder list displays a popup menu, where you can pin, unpin, or remove an selected item from the list. You can also open an item from this folder, open Windows Explorer, open Command Prompt, or copy path.
+- Wildcards are now supported in the command line. For instance, running "emeditor.exe \*.txt" will open all the txt files in the current folder.
+- New command line options (/act, /clw, /cjl, /n, /od, /rr, /scrlf, /scr, and /slf) added.
+- Brackets/Quotation marks can be auto-completed now. For example, typing {, will insert } automatically after {. When text is selected, typing " will surround the selection with "".
+- Indentation after #include or Label: line can be ignored now.
+- Incremental search is supported in the **Find** and **Replace** dialog boxes.
+- The **=** button was added to toggle between single and multiple text boxes in the **Find** and **Replace** dialog boxes.
+- The **Find in Files** and **Replace in Files** dialog boxes are modeless now.
+- The replace format "(?n:true\_expression:false\_expression)" was added to regular expression replace formats.
+- The standard input can be entered in the Output custom bar.
+- Dragging and dropping a tab now allows you to choose between copying/creating a shortcut of the current file and creating a new group.
+- You can now right click on a button on the Tools toolbar to display the tool properties directly.
+- Macro paths are saved as relative path to My Macros folder now.
+- Characters specified in the "Treat the following characters as alphanumeric" text box in the Customize dialog box now work with Find/Replace.
+- Cursor size and color can be customized now.
+- In Windows Vista and later, with User Account Control enabled, EmEditor now allows you to save files into protected folders such as "C:\\Program Files" after a prompt to elevate the privilege.
+- EmEditor can now save the Undo information with workspace, and allows you to save untitled documents without naming the files. EmEditor can prompt to save workspace when it is about to exit, and the prompt dialog box can be disabled.
+- The Horizontal/Vertical lines are now drawn below text, and flickering was completely eliminated.
+- The UTF-16 entry was added to the Auto Detect encoding dialog box.
+- The Context menu on the Ruler was added, and new commands: Toggle CSV Mode, Adjust Comma positions, and Select Column were included.
+- The features related to the standard input and output were added to the external tool feature. This allows you to use an external tool as a filter.
+- The line text at the cursor position or the entire document can be passed as a parameter to an external tool now.
+- The standard output of an external tool can be retrieved and inserted into the document.
+- The output encoding now includes the **Save as Active Document** option.
+- The IME contextual reconversion is supported now.
+- The Reconvert key is now enabled even when no text is selected.
+- The **Properties** command added to the Context Menu on a plug-in button even when the button is in the main toolbar.
+- Text color and background color of custom bars can be specified now.
+- The Clipboard format copied from a box selection is now compatible with Visual Studio.
+- The cursor now jumps to the invalid character position if a null or invalid character is detected during the opening after the warning dialog.
+- 16 New button on the toolbar were added.
+- An arrow was added to the ![](../images/fileopen.gif)
+( **Open**) button on the toolbar, and clicking the arrow display the list or recently used files and folders.
+- An arrow was added to the ![](../images/paste.gif)
+( **Paste**) button on the toolbar, and clicking the arrow display the list of recently used text on the Clipboard.
 
-## 新增外掛程式功能
+## New plug-in features
 
-### 代碼片段外掛程式
+### Snippets plug-in
 
-- 現在，程式碼片段目錄樹不僅包括程式碼片段，還包括巨集。這些巨集不必另存為一個檔案。
-- 您可以指定觸發字符串和快捷鍵(預設情況下是Tab)。
-- 您可以指定工具提示的內容；當觸發字符串與輸入的字符串匹配時，工具提示會出現。工具提示的詳細程度和延遲時間。
-- TAB 以及 SHIFT + TAB 能被用來在占位符之間跳轉。
-- 您可以在 EmEditor 編輯器中編輯程式碼片段和巨集文本。
-- 即使程式碼片段自訂欄被隱藏 (可以在外掛程式屬性中設置)，該外掛程式仍然能在背景中運作。
-- 全局參數可以被指定。
-- 新增的界面對象能被用來在程式碼片段和巨集之間溝通。
-- 參數符號可以從 \\{x} 變更為 ${x}。
-- 代碼片段外掛程式能方便地導入 EmEditor 和 TextMate 代碼片段通過導入命令或從檔案總管拖放代碼片段檔案到代碼片段目錄樹上。
-- 新增的外殼程序代碼 (Shell Code) 格式讓您能把程式碼片段作為篩選器使用。外殼程序代碼 (Shell Code) 讓您能把標準輸入傳遞到外部工具中，然后接收標準輸出并作為一個程式碼片段插入。
+- Now, the snippet tree includes not only snippets, but also macros. These macros don't need to be saved as a file.
+- Trigger strings and shortcut keys (Tab by default) can be specified.
+- Tooltip hints can be specified; the tooltip appears when the trigger string matches the typed string. The tooltip verbosity and delay time can be adjusted.
+- TAB and SHIFT + TAB can be used to jump between placeholders.
+- Snippets and macros text can be edited in the EmEditor editor.
+- The plug-in can work in the background even when the Snippets custom bar is hidden (set in the Plug-in properties).
+- Global parameters can be specified.
+- The new Interface object can be used to communicate between snippets and macros.
+- The parameter symbol was changed from \\{x} to ${x}.
+- The plug-in can easily import EmEditor and TextMate snippets by the Import command or drag and drop snippet files from Explorer to the Snippets tree.
+- The new shell code format allows you to use snippets as filters. The shell code allows you to pass the standard input to an external tool, and then receives the standard output and insert as a snippet.
 
-### 大綱外掛程式
+### Outline plug-in
 
-- 添加了僅編輯選定模式和放寬命令。
-- 注釋能被折疊了 (在大綱外掛程式屬性中勾選「使注釋可折疊」復選框)。
+- The Narrow and Widen commands were added.
+- Comments can be collapsed now (Make Comments Collapsible check box in the Outline plug-in Properties).
 
-### 專案外掛程式
+### Projects plug-in
 
-- 您可以使用通配符指定要包含的檔案，要排除的檔案以及要排除的資料夾(解決方案屬性-「一般」選項卡)。
-- 您可以使用一個固定標簽的檔案。您可以在解決方案模板屬性中的「符號」選項卡上指定固定標簽檔案名稱。
+- Files to include, files to exclude, and folder to exclude can now be specified using wildcards (Solution Properties - General tab).
+- You can now use a fixed tag file. You can specify the fixed tag file name in the Symbol tab of Solution Template Properties.
 
-### 檔案總管外掛程式
+### Explorer plug-in
 
-- 支持圖示覆蓋。
+- Icon overlays are supported now.
 
-## 新增選項
+## New options
 
-- **增量搜尋** 復選框和 **「=」按鈕** 被添加到 [**查找** 對話方塊](../dlg/find/index) 和 [**替換** 對話方塊](../dlg/replace/index) 中。
-- **括號/引號自動完成** 復選框和 **括號對** 列表框被添加到 [配置屬性](../dlg/properties/index) 中 [**高亮 (2)** 選項卡](../dlg/properties/highlight2/index) 上。
-- **點擊 URL 時選擇整個 URL 字符串** 復選框被添加到 [配置屬性](../dlg/properties/index) 中 [**連結** 選項卡](../dlg/properties/link/index) 上。
-- [**制表符/縮進** 對話方塊](../dlg/properties/general/indent/index) 中添加了 **使用規則運算式** 復選框以及 **忽略規則運算式之後的內容** 文本框。
-- **偵測 CSV (逗號分隔)** 復選框， **偵測 TSV (制表符分隔)** 復選框， **偵測 DSV (用戶定義的分隔符分隔)** 復選框，以及 **分隔符** 文本框被添加到 [配置屬性](../dlg/properties/index) 中的 [**檔案** 選項卡](../dlg/properties/file/index) 上。
-- [**自訂** 對話方塊](../dlg/customize/index) 中 [**搜尋** 選項卡](../dlg/customize/search/index) 上添加了 **查找/替換對話方塊中用選取的文本** 復選框。
-- **標簽頁鼠標選項** 對話方塊被移到了 [**自訂** 對話方塊](../dlg/customize/index) 中的 [**鼠標** 選項卡](../dlg/customize/mouse/index) 上。
-- **按住 CTRL 鍵加鼠標滾輪調整字體大小** 復選框在 [**自訂** 對話方塊](../dlg/customize/index) 中的 [**鼠標** 選項卡](../dlg/customize/mouse/index) 上。
-- **自訂分欄顏色 \- 使用系統顏色** 復選框，
-**自訂分欄顏色 \- 「文本」按鈕**， **自訂分欄顏色 \- 「背景」按鈕**， **光標大小與顏色 \- 寬度** 下拉列表框， **光標大小與顏色 \- 高度** 下拉列表框， **光標大小與顏色 \- 使用系統顏色** 復選框，以及 **光標大小與顏色 \- 「顏色」按鈕** 在 [**自訂** 對話方塊](../dlg/customize/index) 中 [**檢視** 選項卡](../dlg/customize/view/index) 上。
-- 添加了 [**自訂** 對話方塊](../dlg/customize/index) 中的 [**排序** 選項卡](../dlg/customize/sort/index)。
-- **自動工作區** 下拉列表框以及 **退出前不再詢問** 復選框被添加到了 [**自訂** 對話方塊](../dlg/customize/index) 中的 [**窗口** 選項卡](../dlg/customize/window/index) 上。
-- **在新窗口中打開新的檔案，否則在新的標簽頁中打開** 的選項被添加到了 [**自訂** 對話方塊](../dlg/customize/index) 中 [**標簽** 選項卡](../dlg/customize/tab/index) 上的 **打開位置** 下拉列表中。
-- [**外部工具屬性** 對話方塊](../dlg/tools/properties/index) 中添加了 **外部工具退出后關閉輸出欄** 復選框， **輸入** 下拉列表框， **自訂** 文本框， **添加檔案結束符** 復選框， **輸出** 下拉列表框還有 **包含標準錯誤** 復選框。
-- **「與 EmEditor 相關聯…」** 按鈕被添加到了 [**自訂** 對話方塊](../dlg/customize/index) 中 [**關聯** 選項卡](../dlg/properties/associate/index) 上。
+- **Incremental Search** check box and the **= button** were added to the [**Find** \
+dialog box](../dlg/find/index) and the [**Replace** dialog box](../dlg/replace/index).
+- **Auto-Complete Brackets/Quotation Marks** check box and **Bracket Pairs** list box were added to the
+[**Highlight (2)** page](../dlg/properties/highlight2/index) of
+[Configuration Properties](../dlg/properties/index).
+- **Clicking in URL Selects the Whole String** check box was added to the
+[**Link** page](../dlg/properties/link/index) of
+[Configuration Properties](../dlg/properties/index).
+- **Use Regular Expressions** check box and **Ignore After (Regular Expression)** text box were added to the [**Tab/Indent** dialog box](../dlg/properties/general/indent/index).
+- **Detect CSV (Comma-Separated)** check box, **Detect TSV (Tab-Separated)** check box, **Detect DSV (User-Defined Delimiter-Separated)** check box,
+and **Delimiter** text box were added to the
+[**File** page](../dlg/properties/file/index) of
+[Configuration Properties](../dlg/properties/index).
+- **Use Selected Text in Find/Replace Dialog Box** check box in the [**Search** page](../dlg/customize/search/index) of the [**Customize** dialog box](../dlg/customize/index).
+- **Tab Mouse Options** dialog box was moved to the [**Mouse** page](../dlg/customize/mouse/index) of the
+[**Customize** dialog box](../dlg/customize/index).
+- **CTRL + Wheel to Change Font Size** check box in the [**Mouse** page](../dlg/customize/mouse/index) of the
+[**Customize** dialog box](../dlg/customize/index).
+- **Custom Bar Colors - Use System Color** check box,
+**Custom Bar Colors - Text button**, **Custom Bar Colors - Background button**,
+**Cursor Size and Color - Width drop-down** list box, **Cursor Size and Color - Height drop-down** list box,
+**Cursor Size and Color - Use System Color** check box,
+and **Cursor Size and Color - Color button** in the [**View** page](../dlg/customize/view/index) of the
+[**Customize** dialog box](../dlg/customize/index).
+- [**Sort** page](../dlg/customize/sort/index) of the
+[**Customize** dialog box](../dlg/customize/index).
+- **Automatic Workspace drop-down** list box and **Do not ask before exiting** check box in the [**Window** page](../dlg/customize/window/index) of the
+[**Customize** dialog box](../dlg/customize/index).
+- The **New Window for New File, otherwise New Tab** option was added to the
+**Open In** drop-down list box in the [**Tab** page](../dlg/customize/tab/index) of the
+[**Customize** dialog box](../dlg/customize/index).
+- **Close on Exit** check box, **Input** drop-down list box, **Custom** text box,
+**Add EOF** check box, **Output** drop-down list box, and **Include Standard Error** check box were added to the
+[**External**\
+**Tool Properties** Dialog Box](../dlg/tools/properties/index).
+- **Associate with EmEditor** button was added to the [**Association** page](../dlg/properties/associate/index) of the [**Customize** dialog box](../dlg/customize/index).
 
-## 新增命令
+## New commands
 
-- **[清空輸出欄窗口](../cmd/view/output_clear)**
-- [**全屏**](../cmd/view/full_screen)
-- **[循環粘貼](../cmd/edit/paste_history)**
-- **[自訂跳轉列表](../cmd/tools/customize_jump_list)**
-- **[標準模式](../cmd/edit/mode_normal)**
-- **[CSV 模式](../cmd/edit/mode_csv)**
-- **[TSV 模式](../cmd/edit/mode_tsv)**
-- **[DSV 模式](../cmd/edit/mode_dsv)**
-- **[調整分隔符位置](../cmd/edit/adjust_column)**
-- **[選擇 CSV/TSV/DSV 列](../cmd/edit/select_column)**
-- [**字母升序**](../cmd/edit/sort_text_a)
-- [**字母降序**](../cmd/edit/sort_text_d)
-- [**數字升序**](../cmd/edit/sort_num_a)
-- [**數字降序**](../cmd/edit/sort_num_d)
-- **[切換僅編輯選定區域模式](../cmd/edit/narrowing_toggle)**
-- **[啟用僅編輯選定區域模式](../cmd/edit/narrowing_on)**
-- **[重設選定的編輯區域](../cmd/edit/narrowing_off)**
-- **[粘滯垂直模式](../cmd/edit/vertical_mode)**
-- **[向左滾動](../cmd/window/scroll_left)**
-- **[向右滾動](../cmd/window/scroll_right)**
-- [**自訂排序**](../cmd/tools/customize_sort)
-- **[自訂檢視](../cmd/tools/customize_view)**
-- **[自訂鼠標](../cmd/tools/customize_mouse)**
-- **[檢查更新](../cmd/help/check_updates)**
-- **[自訂更新檢查程式](../cmd/help/customize_update_checker)**
+- **[Clear Output Bar](../cmd/view/output_clear)**
+- [**Full Screen**](../cmd/view/full_screen)
+- **[Cycle Clipboard Ring](../cmd/edit/paste_history)**
+- **[Customize Jump List](../cmd/tools/customize_jump_list)**
+- **[Normal Mode](../cmd/edit/mode_normal)**
+- **[CSV Mode](../cmd/edit/mode_csv)**
+- **[TSV Mode](../cmd/edit/mode_tsv)**
+- **[DSV Mode](../cmd/edit/mode_dsv)**
+- **[Adjust Separator Positions](../cmd/edit/adjust_column)**
+- **[Select CSV/TSV/DSV Column](../cmd/edit/select_column)**
+- [**Sort A to Z**](../cmd/edit/sort_text_a)
+- [**Sort Z to A**](../cmd/edit/sort_text_d)
+- [**Sort Smallest to Largest**](../cmd/edit/sort_num_a)
+- [**Sort Largest to Smallest**](../cmd/edit/sort_num_d)
+- **[Toggle Narrowing](../cmd/edit/narrowing_toggle)**
+- **[Set Narrowing](../cmd/edit/narrowing_on)**
+- **[Reset Narrowing](../cmd/edit/narrowing_off)**
+- **[Sticky Vertical Mode](../cmd/edit/vertical_mode)**
+- **[Scroll Left](../cmd/window/scroll_left)**
+- **[Scroll Right](../cmd/window/scroll_right)**
+- [**Customize Sort**](../cmd/tools/customize_sort)
+- **[Customize View](../cmd/tools/customize_view)**
+- **[Customize Mouse](../cmd/tools/customize_mouse)**
+- **[Check for Updates](../cmd/help/check_updates)**
+- **[Customize Update Checker](../cmd/help/customize_update_checker)**
 
-## 巨集的新增功能
+## Macros new features
 
-- [**Interface** 對象](../macro/interface/index)
-- [**Interface** 屬性](../macro/window/interface) 被添加到 [**Window** 對象](../macro/window/index) 中。
-- [**IgnoreAfter** 屬性](../macro/indent_prop/ignore_after) 和 [**RegExp** 屬性](../macro/indent_prop/reg_exp) 被添加到 [**IndentProp** 對象](../macro/indent_prop/index) 中。
-- [**DetectCSV** 屬性](../macro/file_prop/detect_csv)， [**DetectTSV** 屬性](../macro/file_prop/detect_tsv)， [**DetectDSV** 屬性](../macro/file_prop/detect_dsv)，和 **Delimiter** 屬性被添加到 [**FileProp** 對象](../macro/file_prop/index) 中。
-- 改善了 [**clipboardData** 對象](../macro/clipboarddata/index)。
+- [**Interface** object](../macro/interface/index)
+- [**Interface** property](../macro/window/interface) was added to the [**Window** Object](../macro/window/index).
+- [**IgnoreAfter** property](../macro/indent_prop/ignore_after) and [**RegExp** property](../macro/indent_prop/reg_exp) were added to the [**IndentProp** Object](../macro/indent_prop/index).
+- [**DetectCSV** property](../macro/file_prop/detect_csv), [**DetectTSV** property](../macro/file_prop/detect_tsv), [**DetectDSV** property](../macro/file_prop/detect_dsv), and **Delimiter** property were added to the [**FileProp** Object](../macro/file_prop/index).
+- [**clipboardData** Object](../macro/clipboarddata/index) enhancements.
 
-## 外掛程式 API 新增功能
+## Plug-in API new features
 
-- [EE\_CLIP\_HISTORY](../plugin/message/ee_clip_history) 消息。
-- [EE\_EDIT\_TEMP](../plugin/message/ee_edit_temp) 消息。
-- [EE\_GET\_ATTR](../plugin/message/ee_get_attr) 消息。
-- [EE\_GET\_OUTPUT\_STRING](../plugin/message/ee_get_output_string) 消息。
-- [EE\_RUN\_MACRO](../plugin/message/ee_run_macro) 消息。
-- [ATTR\_INFO](../plugin/structure/attr_info) 結構。
-- [CLIP\_INFO](../plugin/structure/clip_info) 結構。
-- [RUN\_MACRO\_INFO](../plugin/structure/run_macro_info) 結構。
-- [TEMP\_INFO](../plugin/structure/temp_info) 結構。
-- [Editor\_ActivateTemp](../plugin/macro/editor_activatetemp) 內嵌函式。
-- [Editor\_CloseTemp](../plugin/macro/editor_closetemp) 內嵌函式。
-- [Editor\_EditTemp](../plugin/macro/editor_edittemp) 內嵌函式。
-- [Editor\_GetAttr](../plugin/macro/editor_getattr) 內嵌函式。
-- [Editor\_GetClip](../plugin/macro/editor_getclip) 內嵌函式。
-- [Editor\_GetClipPos](../plugin/macro/editor_getclippos) 內嵌函式。
-- [Editor\_GetOutputString](../plugin/macro/editor_getoutputstring) 內嵌函式。
-- [Editor\_InsertClip](../plugin/macro/editor_insertclip) 內嵌函式。
-- [Editor\_RunMacro](../plugin/macro/editor_runmacro) 內嵌函式。
-- [Editor\_SaveTemp](../plugin/macro/editor_savetemp) 內嵌函式。
-- [Editor\_RemoveClip](../plugin/macro/editor_removeclip) 內嵌函式。
-- [Editor\_RotateClip](../plugin/macro/editor_rotateclip) 內嵌函式。
-- [Editor\_SetClipPos](../plugin/macro/editor_setclippos) 內嵌函式。
-- [EP\_DISABLE\_AUTO\_COMPLETE](../plugin/plugin_message/ep_disable_auto_complete) 傳送到外掛程式。
-- [EVENT\_HISTORY 事件](../plugin/event/index)。
-- [EVENT\_TEMP\_SAVING 事件](../plugin/event/index)。
-- EI\_COMBINE\_HISTORY, EI\_GET\_BAR\_TEXT\_COLOR, EI\_GET\_BAR\_BACK\_COLOR, EI\_GET\_RETURN\_TYPE 標志 (EE\_INFO 消息)。
+- [EE\_CLIP\_HISTORY](../plugin/message/ee_clip_history) message.
+- [EE\_EDIT\_TEMP](../plugin/message/ee_edit_temp) message.
+- [EE\_GET\_ATTR](../plugin/message/ee_get_attr) message.
+- [EE\_GET\_OUTPUT\_STRING](../plugin/message/ee_get_output_string) message.
+- [EE\_RUN\_MACRO](../plugin/message/ee_run_macro) message.
+- [ATTR\_INFO](../plugin/structure/attr_info) structure.
+- [CLIP\_INFO](../plugin/structure/clip_info) structure.
+- [RUN\_MACRO\_INFO](../plugin/structure/run_macro_info) structure.
+- [TEMP\_INFO](../plugin/structure/temp_info) structure.
+- [Editor\_ActivateTemp](../plugin/macro/editor_activatetemp) inline function.
+- [Editor\_CloseTemp](../plugin/macro/editor_closetemp) inline function.
+- [Editor\_EditTemp](../plugin/macro/editor_edittemp) inline function.
+- [Editor\_GetAttr](../plugin/macro/editor_getattr) inline function.
+- [Editor\_GetClip](../plugin/macro/editor_getclip) inline function.
+- [Editor\_GetClipPos](../plugin/macro/editor_getclippos) inline function.
+- [Editor\_GetOutputString](../plugin/macro/editor_getoutputstring) inline function.
+- [Editor\_InsertClip](../plugin/macro/editor_insertclip) inline function.
+- [Editor\_RunMacro](../plugin/macro/editor_runmacro) inline function.
+- [Editor\_SaveTemp](../plugin/macro/editor_savetemp) inline function.
+- [Editor\_RemoveClip](../plugin/macro/editor_removeclip) inline function.
+- [Editor\_RotateClip](../plugin/macro/editor_rotateclip) inline function.
+- [Editor\_SetClipPos](../plugin/macro/editor_setclippos) inline function.
+- [EP\_DISABLE\_AUTO\_COMPLETE](../plugin/plugin_message/ep_disable_auto_complete) message to plug-ins.
+- [EVENT\_HISTORY event](../plugin/event/index).
+- [EVENT\_TEMP\_SAVING event.](../plugin/event/index)
+- EI\_COMBINE\_HISTORY, EI\_GET\_BAR\_TEXT\_COLOR, EI\_GET\_BAR\_BACK\_COLOR, EI\_GET\_RETURN\_TYPE flags (EE\_INFO message).

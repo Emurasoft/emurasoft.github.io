@@ -1,7 +1,10 @@
-# Q. 當我試著升級 EmEditor 時，我看到對話方塊顯示「您需要購買升級」。我怎么知道我是否需要購買升級？
+# Q. When I try to update EmEditor, I see the dialog box that says "You might need to purchase an upgrade." How do I know if I need to purchase an upgrade?
 
-您可以到我們客戶中心的 [**更新/重發註冊金鑰** 頁面](https://support.emeditor.com/send_keys.php) 上，輸入您的電子郵件。系統會自動發送升級的註冊金鑰給您。如果您收到的郵件中不含升級的註冊金鑰，那就表明您的更新維護計劃已過期,您需要購買升級。
+Please go to [**Resend Keys Page**](https://support.emeditor.com/send_keys.php)
+and enter the email address you used to purchase EmEditor. Our system will send a list of all the available keys to you, including the key of the latest version if your license is eligible.
 
-## 請參考
+You can also go to the **Help** menu in EmEditor, select the **About EmEditor** command. In the **About EmEditor** dialog box, click the **Extend Maintenance Plan** button and you will be guided to renew your subscription.
 
-[Q. 如何訂閱更新維護計劃？](subscribe_maintenance)
+## See Also
+
+[Q. How do I subscribe to a maintenance/renewal plan?](subscribe_maintenance)

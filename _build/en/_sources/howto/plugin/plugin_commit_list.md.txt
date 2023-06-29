@@ -1,37 +1,41 @@
-# 使用提交清單外掛程式
+# To Use CommitList Plug-in
 
-**提交清單** 外掛程式預設安裝在 EmEditor Professional 中。此外掛程式會顯示 Git 倉儲的目前的變更和提交的歷史記錄。要使用 **提交清單** 外掛程式，請點擊 **外掛程式** 欄上的 ![提交清單](../../images/plugin_commit_list.gif) 圖示。或到 **工具** 功能表上，將滑鼠指向 **外掛程式**，然後點擊 **提交清單**。
+The **CommitList** plug-in is installed by default with EmEditor Professional. This plug-in shows the current changes and the commit history of a Git repo. To use the **CommitList** plug-in, click ![CommitList](../../images/plugin_commit_list.gif) on the **Plug-ins** bar. Or in the **Tools** menu, point to **Plug-ins**, and then click **CommitList**.
 
-此外掛程式將首先檢查目前的文檔是否在一個 **[Git](https://git-scm.com/)** 倉儲中。如果是，您可以選擇該倉儲並顯示其提交的歷史記錄。您可以點擊 **打開...** 按鈕來打開不同的倉儲。
+Some features of CommitList require Git to be installed and callable from command prompt with the command `git`.
 
-## 變更邊欄
+## Changes sidebar
 
-該外掛程式將首先檢查目前的文檔是否在 **[Git](https://git-scm.com/)** 倉儲中。 如果是，將打開倉儲並顯示其狀態。您可以單擊側邊欄中的 **打開...** 按鈕打開不同的倉儲。
+The plug-in will first check if the current document is in a **[Git](https://git-scm.com/)** repo. If it is, the repo will be opened and its repo status will be shown. You can click on the **Open...** button in the sidebar to open a different repo.
 
-目前的變更和暫存的變更顯示在側邊欄中。暫存的變更是添加到索引中的變更。對工作目錄的所有其他變更都顯示在變更樹中。
+Current changes and staged changes are shown in the sidebar. Staged changes are changes that were added to the index. All other changes to the working directory are shown in the changes list.
 
-右鍵單擊側邊欄中的已變更檔案將顯示一個功能表，其中包含針對該已變更檔案的命令。您可以 **暫存** 或 **取消暫存** 變更。您也可以 **復原變更** 將檔案恢復到以前的狀態。您還可以在編輯器中 **檢視變更** 和 **打開檔案**。單擊 **重新整理** 將重新整理已變更的檔案清單。
+Right-clicking on a changed file in the sidebar will show a menu with commands for that changed file. You can **Stage** or **Unstage** the change. You can **Undo Changes** to revert the file to the previous state. You can also **View Changes** and **Open File** in the editor. Clicking on **Refresh** will refresh the changed files list.
 
-提交清單外掛程式會監視檔案系統，如果倉儲目錄中的檔案被外部程式修改，則會重新整理側邊欄。
+CommitList monitors the file system so that if a file in the repo directory was modified by an external program, the sidebar is refreshed.
 
-**提取** 按鈕會將變更從遠程倉儲拉取到本地倉儲。 **推送** 則將本地變更發送到遠程倉儲。如果目前的分支沒有與上游分支相關聯，則在將變更推送到上游分支之前將建立上游分支。這些命令在完成時會用狀態列發送訊息。
+The **Pull** button pulls changes from the remote to the local repo. **Push** sends local changes to the remote repo. If the current branch is not associated with an upstream branch, the upstream branch will be created before pushing changes to it. These commands print a message to the status bar on completion.
 
-您可以單擊 **>** 按鈕以訪問更多命令。 **擷取** 命令會更新您的遠程跟蹤分支。 **狀態** 命令則會顯示 `git 狀態` 的匯出。
+You can click on the **>** button to access more commands. The **Fetch** command updates your remote-tracking branches. The **Status** command prints the output of `git status`.
 
-您可以使用下拉功能表變更目前的分支。變更分支等同於命令 `git checkout branch`。沖突的變更將阻止您簽出分支。
+You can change the current branch with the dropdown menu. Changing the branch is equivalent to the command `git checkout branch`. Conflicting changes will prevent you from checking out a branch.
 
-分支下拉清單下方的編輯控件是您可以編寫提交訊息的地方。單擊 **提交暫存**/ **提交全部** 來提交暫存變更或暫存所有變更並提交。提交將提交給目前的選定的分支。
+The edit control below the branch dropdown is where you can write a commit message. Click on **Commit Staged**/ **Commit All** to either commit the staged changes or to stage all changes and commit. The commit will be made to the currently selected branch.
 
-## 提交清單
+## Commit list
 
-點擊 **提交清單** 按鈕來檢視提交歷史。在提交清單中，可以通過左側的分支清單檢視其他分支的歷史記錄。選擇提交後，右側欄會顯示提交詳細信息和此次提交變更的檔案清單。右鍵單擊清單中的檔案並選擇 **與上一個比較** 以檢視此次提交對檔案的變更。
+Click on the **Commit List** button to view the commit history. When a commit is selected, the right panel displays the commit details and the list of files changed on this commit. Right-click on a file in the list and select **Compare with Previous** to see what changed to the file on this commit.
 
-在提交清單中，您可以右鍵單擊提交並選擇 **複製** 以複製提交詳細信息。 **提交時瀏覽檔案** 將在提交時顯示樹狀目錄。 **比較提交** 將向您展示兩次提交之間的差異。
+In the commit list, you can right-click on a commit and select **Copy** to copy the commit details. **Browse Files At Commit** will show the directory tree when the commit was made. And **Compare Commits** will show you the differences between two commits.
 
-您可以通過單擊 **篩選記錄** 來篩選清單。輸入 **篩選字串**，選擇 **篩選依據** 選項，然後點擊 **篩選**。提交清單現在僅顯示與篩選符合的提交。 點擊 **篩選記錄** 按鈕旁邊的 **X** 按鈕會取消篩選。
+You can checkout the commit with **Checkout (--detach)**, which creates a detached HEAD. If you want to create a new branch from the commit, select **Create New Branch...**.
 
-如果在目前的倉儲中的檔案已在編輯器中打開，則可以使用 **檢視目前的檔案的歷史記錄** 按鈕。它會列出包括對目前的檔案的變更的所有提交。右鍵單擊一個提交將顯示四個選項。 **顯示提交** 會跳轉到主提交清單中的那個提交。 **與上一個比較** 將檔案與其之前的修訂版進行比較。 **提交時比較檔案** 則將兩次不同提交時的檔案進行比較。 **與工作樹狀上的檔案比較** 會比較所選提交的檔案和工作樹狀上的版本。
+You can filter the list by clicking on **Filter History…**. Enter the **Filter String**, select a **Filter By** option, then click **Filter**. The commit list now only shows commits that match the filter. The **X** button next to the **Filter History…** button cancels the filter.
 
-## 提示
+The left panel shows a list of branches in the repo. Select **View Branch** to show the list of commits for that branch. You can **Checkout Branch** to switch to the branch, **Create New Branch** from the selected branch, or **Delete Branch**. When two branches are selected, you can compare the files between those branches with **Compare Branches**.
 
-- 按 **F6** 鍵或 **ESC** 鍵可以讓鍵盤焦點返回到編輯器中。
+If a file that is in the current repo is opened in the editor, the **View History For Current Document** button can be selected. It lists any commits that include changes to the current file. Right-clicking on a commit will show four options. **Show Commit** jumps to that commit in the main commit list. **Compare with Previous** compares the file with its previous revision. **Compare File at Commits** compares the file at two different commits. **Compare with File in Working Tree** compares the file at the selected commit and the work tree version.
+
+## Tips
+
+- Press the **F6** key or **ESC** key to set the keyboard focus back to the editor.

@@ -1,31 +1,32 @@
 # Version 14.7
 
-2014年12月22日
+December 22, 2014
 
-## 一般新增功能
+## New General Features
 
-- 在 **篩選** 工具列上新增了 **「負向」** 按鈕，讓您能排除與篩選字串符合的行。
-- 在 **CSV/排序** 工具列上新增了 **按文字長度從短到長** 和 **按文字長度從長到短** 按鈕，讓您能按列中文字的長度排序文檔。
-- 新的版本讓您能在 CSV 文檔中按特定的列篩選。另外您能指定多個列來進行篩選 (進階篩選)。
+- The new **Negative** button in the **Filter** toolbar allows you to exclude the matched lines.
+- The new **Sort Shortest to Longest** and **Sort Longest to Shortest** buttons in the **CSV/Sort** toolbar allows you to sort the document by length of columns.
+- The new version allows you to specify a column to the filter in CSV documents. Also multiple levels of the filter can be specified (Advanced Filter).
 
-## 新增選項
+## New Options
 
-- 在 **自訂** 對話方塊中新增了 **將數字作為數量處理** 核取方塊以及 **當按長度排序時，將全形字元作為 2 個字元排序** 核取方塊。
-- 添加了 [**進階篩選** 對話方塊](../dlg/advanced_filter/index)。
+- The **Treat digits as numbers** check box and **Treat full-width characters as 2 characters when sorting by length** check box were added to the **Sort** tab of the
+**Customize** dialog box.
+- [**Advanced Filter** dialog box](../dlg/advanced_filter/index) was added.
 
-## 新增命令
+## New Commands
 
-- **[負向 (篩選工具列)](../cmd/search/filterbar_negative)**
-- [**按文字長度從短到長**](../cmd/edit/sort_length_a)
-- [**按文字長度從長到短**](../cmd/edit/sort_length_d)
-- [**進階篩選 (篩選工具列)**](../cmd/search/filterbar_advanced)
+- **[Negative (Filter toolbar)](../cmd/search/filterbar_negative)**
+- [**Sort Shortest to Longest**](../cmd/edit/sort_length_a)
+- [**Sort Longest to Shortest**](../cmd/edit/sort_length_d)
+- [**Advanced Filter (Filter toolbar)**](../cmd/search/filterbar_advanced)
 
-## 巨集的新增功能
+## Macro New Features
 
-- 添加了 **[Filter](../macro/document/filter)**， [**GetCell**](../macro/document/getcell)，以及 [**GetColumns**](../macro/document/getcolumns) 方式到 Document 對象中。
+- **[Filter](../macro/document/filter)**, [**GetCell**](../macro/document/getcell), and [**GetColumns**](../macro/document/getcolumns) methods were added to the Document object.
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- [**EE\_GET\_CELL**](../plugin/message/ee_get_cell) 消息以及 [**Editor\_GetCell**](../plugin/macro/editor_getcell) 內嵌函式。
-- [**EE\_FILTER**](../plugin/message/ee_filter) 消息以及 [**Editor\_Filter**](../plugin/macro/editor_filter) 內嵌函式。
-- [**GET\_CELL\_INFO**](../plugin/structure/get_cell_info)，和 [**FILTER\_INFO**](../plugin/structure/filter_info) 結構。
+- [**EE\_GET\_CELL**](../plugin/message/ee_get_cell) message and [**Editor\_GetCell**](../plugin/macro/editor_getcell) inline function.
+- [**EE\_FILTER**](../plugin/message/ee_filter) message and [**Editor\_Filter**](../plugin/macro/editor_filter) inline function.
+- [**GET\_CELL\_INFO**](../plugin/structure/get_cell_info), and [**FILTER\_INFO**](../plugin/structure/filter_info) structures.

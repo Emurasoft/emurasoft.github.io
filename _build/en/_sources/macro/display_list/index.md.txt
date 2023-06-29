@@ -1,15 +1,15 @@
-# DisplayList 集合
+# DisplayList Collection
 
-DisplayList 集合提供 [DisplayItem 對象](../display_item/index) 的集合。
+DisplayList collection provides a collection of [DisplayItem objects](../display_item/index).
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 檢索項目的總數。 |
-| **[Item](item)** | 為指定索引檢索 [DisplayItem 對象](../display_item/index)。 |
+| **[Count](count)** | Retrieves the number of items. |
+| **[Item](item)** | Retrieves the [DisplayItem object](../display_item/index) for the specified index. |
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -31,9 +31,9 @@ alert item.TextColor
 
 Next
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

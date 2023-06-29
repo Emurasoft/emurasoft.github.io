@@ -1,44 +1,45 @@
-# 「字串/字元範圍」對話方塊
+# String/Character Range dialog box
 
-這個對話方塊會出現，當您選擇 [**模糊符合選項** 對話方塊](../index) 上的 [**添加** 按鈕](../../properties/char_check/index) 時。
+This dialog box appears when the [**Add** button](../../properties/char_check/index)
+on the [**Fuzzy Matching Options** dialog box](../index) is selected.
 
-### 「字串」 選項按鈕/文字方塊
+### String radio button/text box
 
-選擇字串，並指定要符合的字串。
+Selects a string, and specifies a string to match.
 
-### 「字元範圍」 選項按鈕
+### Character Range radio button
 
-選擇字元範圍。
+Selects a character range.
 
-### 「Unicode 指令碼」清單方塊
+### Unicode Script list box
 
-選擇 Unicode 指令碼。
+Selects Unicode scripts.
 
-### 「Unicode 的一般類別」清單方塊
+### Unicode General Category list box
 
-Unicode 的一般類別。
+Selects Unicode general category.
 
-### 「最小字元」文字方塊
+### Minimum character text box
 
-輸入範圍的最小字元。您可以輸入至少 4 位十六進位值的字元程式碼值，帶或不帶 "U+" 前綴，或實際的一個字元。例如，您可以輸入："U+0061"，"0061"，或 "a"。
+Enter the minimum character of a range. You may enter at least 4-digit character code value in a hexadecimal value with or without "U+" prefix, or actual one character. For instance, you may enter: "U+0061", "0061", or "a".
 
-### 「最大字元」文字方塊
+### Maximum character text box
 
-輸入與 **最小字元** 文字方塊相同格式的範圍的最大字元。
+Enter the maximum character of a range as the same format as the **Minimum character** text box.
 
-### 「視為 \- 忽略」選項按鈕
+### Treat as - Ignore radio button
 
-忽略符合的字串或字元。
+Ignores the matched string or character.
 
-### 「視為 \- 一個字串」文字方塊
+### Treat as - A string text box
 
-輸入要取代的字元或字串。如果為空，則忽略指定的字串或字元範圍。字串或字元可以包括以下逸出數列。
+Enter a character or a string to be substituted for. If this is empty, the specified string or character range is ignored. The string or character can include the following escape sequences.
 
 |     |     |
 | --- | --- |
-| \\a | 警告（響鈴） |
-| \\b | 退格 |
-| \\t | 水平 Tab |
-| \\v | 垂直 Tab |
-| \\\ | 反斜杠 |
-| \\xhhhh | Unicode 字元在十六進位運算式中 |
+| \\a | Warning (Bell) |
+| \\b | Backspace |
+| \\t | Horizontal tab |
+| \\v | Vertical tab |
+| \\\ | Backslash |
+| \\xhhhh | Unicode character in hexadecimal notation |

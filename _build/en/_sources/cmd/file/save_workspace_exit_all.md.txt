@@ -1,27 +1,29 @@
-# 儲存工作區，儲存，并全部關閉命令
+# Save Workspace, Save, and Close All command
 
-### 摘要
+### Summary
 
-> 儲存工作區，儲存，并關閉所有打開的檔案。
+> Saves the workspace, saves and closes all open files.
 
-### 說明
+### Description
 
-> 這個命令儲存工作區以及所有打開的文檔，然后再關閉所有打開的文檔。這個命令等同于 [儲存預設工作區命令](save_workspace) 加 [儲存并關閉命令](save_exit_all)。
+> This command saves the workspace and all open documents, then closes all open documents. This command is equivalent to the [Save \
+> Workspace command](save_workspace) followed by the [Save and \
+> Close All command](save_exit_all).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **關閉**
-\> **存工作區，儲存，并關閉所有打開的檔案**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Save Workspace, Save, and Close All**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SAVE\_WORKSPACE\_EXIT\_ALL (4331)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

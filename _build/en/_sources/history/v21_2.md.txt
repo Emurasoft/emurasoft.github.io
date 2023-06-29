@@ -1,33 +1,33 @@
 # Version 21.2
 
-2021年10月26日
+October 26, 2021
 
-## 一般新增功能
+## New General Features
 
-- 許多以前僅適用於專業版的功能現在也能在 **免費版** 中使用。新的免費功能包括 **書籤**、 **標記**、 **比較檔案**（僅限預設選項）、 **拼字**、 **編號**、 **全屏視圖**、 **工作區**、 **巨集**（ **記錄** 和 **運行**，不能使用可編寫腳本的巨集）、 **大綱**、 **啟動視窗**，以及組態屬性中的許多選項。有關詳細信息，請參閱 [比較表格](https://zh-tw.emeditor.com/text-editor-features/history/emeditor-free/)。
-- 新版本會顯示一個對話方塊，供您在首次啟動 EmEditor 時選擇要使用的 **EmEditor Professional** 或 **EmEditor Free**。
-- 新版本能夠檢測重複步驟，並顯示帶有 **輸入重複次數** 超連結的通知提示。單擊 **輸入重複次數** 超連結會打開 **重複** 對話方塊，您可以在其中指定重複特定步驟的次數。 **重複** 對話方塊將所選步驟顯示為巨集，您可以將其儲存、編輯或選擇為預設巨集。 **重複** 對話方塊也可以通過 **編輯** 功能表訪問，它在 **EmEditor Free** 和 **EmEditor Professional** 上都可以使用。
-- 新版本在您右鍵單擊大多數功能表項和工具列按鈕所顯示的內容功能表中顯示了 **分配鍵盤快速鍵** 命令。此命令會打開 **所有組態屬性** 的 **鍵盤** 頁面，並且自動選擇您右鍵單擊的命令。此功能使您可以輕松地為大多數命令（包括巨集和外掛程式）分配鍵盤快速鍵。
-- **所有組態** 成為 **鍵盤對應** 的預設設定。
-- 右鍵單擊 **巨集**， **外掛程式**，或 **外部工具** 工具列上的按鈕會顯示專屬的內容功能表。
-- 此版本允許您 **點擊**（而非雙擊） **狀態列** 來變更設定或顯示功能表。
-- 在檔案總管的內容功能表中添加了 EmEditor 圖示。
-- 設定 **檢測 HTML/XML 字元集** 選項後，新版本使用 Windows 編碼，當 HTML 中有經常錯誤標記的編碼（根據 [WHATWG 社區標準](https://encoding.spec.whatwg.org/#names-and-labels)，iso-8859-1 即 windows-1252，iso-8859-9 即 windows-1254，iso-8859-11 即 windows-874）。
-- 新版本將 C1 控件（從 U+0080 到 U+009F）顯示為 "�"。
-- 如果在 EmEditor 啟動時啟用了 **自動複製** 功能，新版本會顯示一個通知氣球提示，以防止使用者在使用自動複製後忘記停用該功能。
-- 添加了 **PowerShell** 到預設的外部工具中。
+- Many features that were previously available only for the Professional version were enabled also for the **Free** version. The new Free features include **Bookmarks**, **Markers**, **Compare files** (with default options only), **Spelling**, **Numbering**, **Full screen view**, **Workspaces**, **Macros** ( **Record** and **Run** only, no scriptable macros), **Outline**, **Start window**, and many options in configuration properties. See the [comparison table](https://www.emeditor.com/text-editor-features/history/emeditor-free/) for details.
+- The new version shows a dialog box to select **EmEditor Professional** or **EmEditor Free** to use when you launch EmEditor for the first time.
+- The new version detects repeated steps, and show a notification tip with the **Enter Repeat Count** hyperlink. Clicking the **Enter Repeat Count** hyperlink brings up the **Repeat** dialog box, where you can specify the number of times to repeat the specified steps. The **Repeat** dialog box shows the selected steps as a macro, which you can save, edit, or select as the default macro. The **Repeat** dialog box can also be accessed on the **Edit** menu, and it is available both on **EmEditor Free** as well as on **EmEditor Professional**.
+- The new version allows you to right-click on most menu items and toolbar buttons to display a context menu to show the **Assign Keyboard Shortcut** command. This command opens the **Keyboard** page of **Properties for All Configurations**, and selects the command where you right-clicked. This ability allows you to easily assign a keyboard shortcut for most commands including macros and plug-ins.
+- **All Configurations** becomes the default setting for the **Keyboard Map**.
+- Right-click on buttons on the **Macros**, **Plug-ins**, or **Tools** toolbar shows its specific context menu.
+- The new version allows you to **click** (not double-click) on the **status bar** to change settings or show menus.
+- Added the EmEditor icon to the Context Menu in Explorer.
+- When the **Detect HTML/XML Charset** option is set, the new version uses Windows encodings where often mislabeled encodings are used in HTML (iso-8859-1 to windows-1252, iso-8859-9 to windows-1254, and iso-8859-11 to windows-874 according to the [WHATWG community Living Standard](https://encoding.spec.whatwg.org/#names-and-labels)).
+- The new version displays C1 controls (from U+0080 through U+009F) as "�".
+- The new version shows a notification balloon tip if the **Auto Copy** feature is enabled when EmEditor is launched, which prevents users from forgetting to disable the feature after using it.
+- Added **PowerShell** to the default external tools.
 
-## 新增選項
+## New Options
 
-- 在 **自訂** 對話方塊的 [**視窗** 頁面](../dlg/customize/window/index) 中添加了 **在檔案名左側顯示修改標記** 選項。
-- 添加了 **成功完成後打開合併的檔案**， **對合併的檔案運行巨集**， **將此設定為預設巨集** 核取方塊到 **合併檔案** 精靈的 [目標頁面](../dlg/combine_files/combine_wiz_dest) 上。
-- 在 **合併檔案** 精靈的 [「目標檔案和選項」頁面](../dlg/combine_files/combine_wiz_dest) 上添加了 **▼** 按鈕以指定參數，諸如 **$(CombineRunSerial)** 和可指定目標檔案的 **$(NumOfFiles)**。
-- 添加了 **成功完成後打開所有分割檔案**、 **對每個打開的分割檔案運行巨集**、 **將此設定為預設巨集** 核取方塊到 **分割檔案** 精靈的 [「目標檔案」頁面](../dlg/split_to_files/split_files)。
-- 將 **自訂** 對話方塊中的 **CSV 頁面** 劃分為 [**CSV 格式**](../dlg/customize/csv/index) 和 [**CSV 選項**](../dlg/customize/csv_options/index) 頁面。
-- 將 **要檢測的最小行數** 選項添加到 **自訂** 對話方塊中的 [**CSV 格式** 頁面](../dlg/customize/csv/index) 上。在此選項上設定 2 允許 EmEditor 自動檢測 2 行 CSV 檔案。以前的版本要求 CSV 檔案中至少存在 3 行才能自動檢測。
-- 添加了 [**重複** 對話方塊](../dlg/repeat_count/index)。
+- Added the **Show the modification mark on the left side of file name** option to the [**Window** page](../dlg/customize/window/index) of the **Customize** dialog box.
+- Added the **Open the combined file when finished successfully**, **Run a macro against the combined file**, **Set this as the default macro** check boxes to the [Destination page](../dlg/combine_files/combine_wiz_dest) of the **Combine Files** wizard.
+- Added the **▼** button to the [Destination page](../dlg/combine_files/combine_wiz_dest) of the **Combine Files** wizard to specify arguments such as **$(CombineRunSerial)** and **$(NumOfFiles)** to specify the destination file.
+- Added the **Open all split files when finished successfully**, **Run a macro against each opened split files**, **Set this as the default macro** check boxes to the [Destination page](../dlg/split_to_files/split_files) of the **Split a File** wizard.
+- Divided the **CSV page** of the **Customize** dialog box to [**CSV Formats**](../dlg/customize/csv/index) and [**CSV Options**](../dlg/customize/csv_options/index) pages.
+- Add the **Min lines to detect** option to the [**CSV Formats** page](../dlg/customize/csv/index) of the **Customize** dialog box. Setting 2 on this option allows EmEditor to detect 2-line CSV files automatically. Previous versions required at least 3 lines exist in a CSV file to be detected automatically.
+- Added the [**Repeat** dialog box](../dlg/repeat_count/index).
 
-## 新增命令
+## New Commands
 
-- [**自訂 CSV 選項**](../cmd/tools/customize_csv_options)
-- [**重複步驟**](../cmd/edit/repeat_steps)
+- [**Customize CSV Options**](../cmd/tools/customize_csv_options)
+- **[Repeat Steps](../cmd/edit/repeat_steps)**

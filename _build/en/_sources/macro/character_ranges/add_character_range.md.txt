@@ -1,6 +1,6 @@
-# AddCharacterRange 方法
+# AddCharacterRange Method
 
-添加字元範圍。
+Adds a character range.
 
 #### \[JavaScript\]
 
@@ -10,24 +10,24 @@ list. **AddCharacterRange**( _nMin_, _nMax_, _sProperties_, _sTreatAs_ );
 
 list. **AddCharacterRange** _nMin_, _nMax_, _sProperties_, _sTreatAs_
 
-## 參數
+## Parameters
 
 _nMin_
 
-指定範圍的最小字元。
+Specifies the minimum character of a range.
 
 _nMax_
 
-指定範圍的最大字元。
+Specifies the maximum character of a range.
 
 _sProperties_
 
-指定表示 Unicode 指令碼和/或 Unicode 一般類別屬性的字串。
+Specifies a string representing Unicode Script and/or Unicode General Category properties.
 
 _sTreatAs_
 
-指定要取代的字串。如果指定了空字串，則指定的範圍將被忽略。
+Specifies a string to be substituted for. If an empty string is specified, the specified range will be ignored.
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

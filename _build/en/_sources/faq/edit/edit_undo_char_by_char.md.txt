@@ -1,3 +1,8 @@
-# Q. 怎么用復原命令來一一刪除插入的字串？
+# Q. How can I undo inserted strings character by character using the Undo command?
 
-預設設置下，每執行一次 **「復原」** 命令，一整個插入的字串會被刪除。您可以通過到 [**自訂** 對話方塊](../../dlg/customize/index) 上的 [**編輯** 頁面](../../dlg/customize/edit/index) 上勾選 **「逐格復原」** 核取方塊來改變這一行為設定。您將需要重新啟動 EmEditor。
+By default, an entire inserted string will be undone by one **Undo** command. You
+can change this behavior by checking the
+**Undo**
+**Character by Character** check box on the
+[**Edit** page](../../dlg/customize/edit/index) of the
+[**Customize** dialog box](../../dlg/customize/index). You will then need to restart EmEditor.

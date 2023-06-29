@@ -1,15 +1,17 @@
-# 「插入特殊字元」對話方塊
+# Insert Special Character dialog box
 
-這個對話方塊會出現當您選擇了 [**插入特殊字元** 命令](../../cmd/edit/insert_control)。它讓您能選擇一個要插入的字元。
+This dialog box appears when the [**Insert**\
+**Special Character** command](../../cmd/edit/insert_control) is selected. It allows you to select a character
+to insert.
 
-### 「要添加的字元」下拉清單方塊
+### Characters to Add drop-down list box
 
-在下拉清單中選擇字元類別。
+Select the category of the characters in the list.
 
-### 「要添加的字元」清單方塊
+### Characters to Add list box
 
-從清單上選擇您想要插入的控制字元。
+Select the control character you want to insert from the list.
 
-### 「字元代碼」文字方塊
+### Code Value text box
 
-用十六進位符號指定您想要插入的 Unicode 字元。
+Specify the Unicode character you want to insert in hexadecimal notation.

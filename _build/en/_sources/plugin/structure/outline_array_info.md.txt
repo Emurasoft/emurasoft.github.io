@@ -1,8 +1,8 @@
 # OUTLINE\_ARRAY\_INFO
 
-用於
+Used by
 [Editor\_SetOutlineArray](../macro/editor_setoutlinearray)
-內嵌函式 ( [EE\_SET\_OUTLINE\_ARRAY](../message/ee_set_outline_array) 消息) 中。
+inline function ( [EE\_SET\_OUTLINE\_ARRAY](../message/ee_set_outline_array) message).
 
 typedef struct \_OUTLINE\_ARRAY\_INFO {
 
@@ -18,24 +18,24 @@ BYTE\* pLevelData;
 
 } SET\_INFO;
 
-## 欄位
+## Fields
 
 _nVersion_
 
-> 已保留。必須是 1。
+> Reserved. Must be 1.
 
 _nFlags_
 
-> 已保留。必須是 0。
+> Reserved. Must be 0.
 
 _nCount_
 
-> 指定多行的行數。
+> Specifies the number of multiple lines.
 
 _pLevelData_
 
-> 指定一個決定大綱級別的位元數組。
+> Specifies an array of BYTE that specifies the outline levels.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 13 或之後的版本。
+> Supported in Version 13 or later.

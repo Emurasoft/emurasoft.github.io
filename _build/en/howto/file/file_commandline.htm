@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Using Command Line Options &#8212; EmEditor  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="Index" href="../../genindex.htm" />
+    <link rel="search" title="Search" href="../../search.htm" />
+    <link rel="next" title="To Exit All" href="file_exitall.htm" />
+    <link rel="prev" title="To Create Backups" href="file_backup.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  documentation</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+                    English
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/howto/file/file_commandline">English</a>
+                <a href="/emeditor-help/ja/howto/file/file_commandline">日本語</a>
+                <a href="/emeditor-help/ko/howto/file/file_commandline">한국어</a>
+                <a href="/emeditor-help/zh-cn/howto/file/file_commandline">简体中文</a>
+                <a href="/emeditor-help/zh-tw/howto/file/file_commandline">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">Quick search</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.htm">Command Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.htm">Dialog Boxes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">History</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">How to …</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.htm">Customize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.htm">Edit</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.htm">File</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="file_associate_all.htm">To Open a File by Double Clicking in Explorer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_associate_config.htm">To Associate a File Extension with the Current Configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_auto_save.htm">To Save Files Automatically</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_backup.htm">To Create Backups</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Using Command Line Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_exitall.htm">To Exit All</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_new.htm">To Create a New File</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_open.htm">To Open an Existing File</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_recent_folder.htm">To Open a File from the Recently Used Folder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save.htm">To Save an Edited File</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_saveallexit.htm">To Save and Close All</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_types.htm">Supported File Types</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../macro/index.htm">Macros</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugin/index.htm">Plug-ins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.htm">Search</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.htm">View</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.htm">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">Links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">Macro Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">Notices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.htm">Plug-in Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">How to Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">Support</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">How to …</a> &lt;
+                    <a href="index.htm">File</a> &lt;
+                Using Command Line Options
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="using-command-line-options">
+<h1>Using Command Line Options<a class="headerlink" href="#using-command-line-options" title="Permalink to this heading">¶</a></h1>
+<p>Command line options can be specified in the Run dialog box on the Start menu or a  Command Prompt window.</p>
+<section id="syntax">
+<h2>Syntax<a class="headerlink" href="#syntax" title="Permalink to this heading">¶</a></h2>
+<section id="open-a-file-or-files">
+<h3>Open a file or files<a class="headerlink" href="#open-a-file-or-files" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>“ <em>File1</em>” “ <em>File2</em>” “ <em>File3</em>” … [/r] [/fh] [/nr] [/sp] [/l <em>LineNumber</em>] [/cl <em>ColumnNumber</em>]
+[/cp <em>encoding</em>] [/c “ <em>Config</em>”] [/mf “ <em>MacroPath</em>”]</p>
+</div></blockquote>
+</section>
+<section id="create-a-new-file">
+<h3>Create a new file<a class="headerlink" href="#create-a-new-file" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>[/cd] [/sp] [/c “ <em>Config</em>”] [/mf “ <em>MacroPath</em>”]</p>
+</div></blockquote>
+</section>
+<section id="create-a-new-file-and-paste">
+<h3>Create a new file and paste<a class="headerlink" href="#create-a-new-file-and-paste" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>[/i] [/cd] [/sp] [/c “ <em>Config</em>”] [/mf “ <em>MacroPath</em>”]</p>
+</div></blockquote>
+</section>
+<section id="create-a-new-file-and-paste-with-quote">
+<h3>Create a new file and paste with quote<a class="headerlink" href="#create-a-new-file-and-paste-with-quote" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>[/iq] [/cd] [/sp] [/c “ <em>Config</em>”] [/mf “ <em>MacroPath</em>”]</p>
+</div></blockquote>
+</section>
+<section id="create-a-new-file-and-paste-with-quote-and-returns">
+<h3>Create a new file and paste with quote and returns<a class="headerlink" href="#create-a-new-file-and-paste-with-quote-and-returns" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>[/iqr] [/cd] [/sp] [/c “ <em>Config</em>”]
+[/mf “ <em>MacroPath</em>”]</p>
+</div></blockquote>
+</section>
+<section id="display-the-tray-icon">
+<h3>Display the Tray Icon<a class="headerlink" href="#display-the-tray-icon" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>/ti</p>
+</div></blockquote>
+</section>
+<section id="print-a-file">
+<h3>Print a file<a class="headerlink" href="#print-a-file" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>“ <em>File</em>” /p [/nr] [/sp] [/cp encoding]</p>
+</div></blockquote>
+</section>
+<section id="compare-two-files">
+<h3>Compare two files<a class="headerlink" href="#compare-two-files" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>/cmp “ <em>File1</em>” “ <em>File2</em>”</p>
+</div></blockquote>
+</section>
+<section id="convert-a-file-encoding">
+<h3>Convert a file encoding<a class="headerlink" href="#convert-a-file-encoding" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>“ <em>SrcFile</em>” [/nr] [/sp] [/cp <em>EncodingToOpen</em>] [/c “ <em>Config</em>”] /cps <em>EncodingToSave</em> /ss+ /sa “ <em>DestFile</em>”</p>
+<p>To save
+without the Unicode signature (BOM), use /ss- instead of /ss+.</p>
+</div></blockquote>
+</section>
+<section id="display-find-in-files-dialog-box">
+<h3>Display Find in Files dialog box<a class="headerlink" href="#display-find-in-files-dialog-box" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>/fd</p>
+</div></blockquote>
+</section>
+<section id="display-replace-in-files-dialog-box">
+<h3>Display Replace in Files dialog box<a class="headerlink" href="#display-replace-in-files-dialog-box" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>/rd</p>
+</div></blockquote>
+</section>
+<section id="find-in-files">
+<h3>Find in files<a class="headerlink" href="#find-in-files" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>/fc “ <em>FindWhat</em>” [/fr] [/fw] [/x] [/fn] [/fu “ <em>FilesToIgnore</em>”]
+[/cp <em>encoding</em>] “ <em>path</em>”</p>
+<p>This command is called internally when the Find button is selected in the Find in Files dialog box. To search without matching case, use /fi instead
+of /fc.</p>
+</div></blockquote>
+</section>
+<section id="replace-in-files">
+<h3>Replace in files<a class="headerlink" href="#replace-in-files" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>/fc “ <em>FindWhat</em>” [/fr] [/fw] [/x] [/ko] [/fu “ <em>FilesToIgnore</em>”] [/cp
+<em>encoding</em>] “ <em>path</em>” /rw “ <em>ReplaceWith</em>” [/bk “ <em>BackupFolder</em>”]</p>
+<p>This command is called internally when the Replace All button is selected in the
+Replace in Files dialog box. To search without matching case, use /fi instead of /fc. /ko and /bk cannot be specified simultaneously.</p>
+</div></blockquote>
+</section>
+<section id="open-a-file-and-replace">
+<h3>Open a file and replace<a class="headerlink" href="#open-a-file-and-replace" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>“ <em>File</em>”
+/rc “ <em>FindWhat</em>” [/fw] [/x] [/cp encoding] /rw “ <em>ReplaceWith</em>”</p>
+<p>This command is called internally during the Replace in Files process. To search without matching
+case, use /ri instead of /rc.</p>
+</div></blockquote>
+</section>
+<section id="restore-workspace">
+<h3>Restore workspace<a class="headerlink" href="#restore-workspace" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>/ws</p>
+<p>This command is called internally when the Restore Workspace command is selected.</p>
+</div></blockquote>
+</section>
+<section id="save-workspace">
+<h3>Save workspace<a class="headerlink" href="#save-workspace" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>/wss</p>
+<p>This command is called internally when the Save Workspace command is selected.</p>
+</div></blockquote>
+</section>
+<section id="grab-text-with-emeditor">
+<h3>Grab text with EmEditor<a class="headerlink" href="#grab-text-with-emeditor" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>/eh</p>
+<p>This command is called from the Tray Icon when the shortcut key to grab text with EmEditor defined in the Customize Tray Icon dialog box is pressed.</p>
+</div></blockquote>
+</section>
+<section id="display-help">
+<h3>Display Help<a class="headerlink" href="#display-help" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>/?</p>
+</div></blockquote>
+</section>
+</section>
+<section id="options">
+<h2>Options<a class="headerlink" href="#options" title="Permalink to this heading">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>/?</p></td>
+<td><p>displays Help.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/act</p></td>
+<td><p>activates EmEditor if it is already running, or launches EmEditor if it is not already running.</p></td>
+</tr>
+<tr class="row-even"><td><p>/bk “ <em>BackupFolder</em>”</p></td>
+<td><p>specifies a backup folder when replacing in files.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/c “ <em>Config</em>”</p></td>
+<td><p>sets the configuration.</p></td>
+</tr>
+<tr class="row-even"><td><p>/ca</p></td>
+<td><p>closes all documents.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/car</p></td>
+<td><p>closes all documents including a hidden window if the “Quick Start” option is enabled.</p></td>
+</tr>
+<tr class="row-even"><td><p>/cd</p></td>
+<td><p>set the current directory as the default folder in the Open dialog box.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/cjl</p></td>
+<td><p>customizes the Jump List on Windows 7 or later.</p></td>
+</tr>
+<tr class="row-even"><td><p>/cl <em>ColumnNumber</em></p></td>
+<td><p>logical column number. A negative number means the number of characters from the end of the line.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/clw</p></td>
+<td><p>clears the workspace.</p></td>
+</tr>
+<tr class="row-even"><td><p>/cmp</p></td>
+<td><p>compares two files.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/cp <em>Encoding</em></p></td>
+<td><p>sets an encoding to open as.  An encoding can be one of <a class="reference internal" href="../../macro/const/const_encoding.htm"><span class="doc std std-doc">Encoding Constants</span></a>. A combination with following values can be specified.</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>131072</p></td>
+<td><p>Detects Unicode signature (BOM).</p></td>
+</tr>
+<tr class="row-odd"><td><p>262144</p></td>
+<td><p>Detects UTF-8.</p></td>
+</tr>
+<tr class="row-even"><td><p>524288</p></td>
+<td><p>Detects HTML/XML Charset.</p></td>
+</tr>
+<tr class="row-odd"><td><p>1048576</p></td>
+<td><p>Detects all encodings.</p></td>
+</tr>
+<tr class="row-even"><td><p>/cps <em>Encoding</em></p></td>
+<td><p>sets an encoding to save as.  An encoding can be one of <a class="reference internal" href="../../macro/const/const_encoding.htm"><span class="doc std std-doc">Encoding Constants</span></a>.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/csv “ <em>CSVName</em>”</p></td>
+<td><p>sets the initial CSV mode, and the CSV detection is disabled. <em>CSVName</em> can be the name of the CSV format or the index number. If 0 is specified, the normal mode is used.</p></td>
+</tr>
+<tr class="row-even"><td><p>/di</p></td>
+<td><p>specifies the working folder when creating a new document. Used internally by EmEditor.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/eh</p></td>
+<td><p>grabs a text box contents.</p></td>
+</tr>
+<tr class="row-even"><td><p>/fc “ <em>FindWhat</em>”</p></td>
+<td><p>find in files (case sensitive).</p></td>
+</tr>
+<tr class="row-odd"><td><p>/fd</p></td>
+<td><p>displays the <a class="reference internal" href="../../dlg/find_in_files/index.htm"><span class="doc std std-doc"><strong>Find in Files</strong>dialog box</span></a>.</p></td>
+</tr>
+<tr class="row-even"><td><p>/ff “ <em>FindWhat</em>”</p></td>
+<td><p>find a string directly within the opened document. Can be combined with <br> /mc or /x.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/fi “ <em>FindWhat</em>”</p></td>
+<td><p>find in files (ignore case).</p></td>
+</tr>
+<tr class="row-even"><td><p>/fh</p></td>
+<td><p>highlights searched strings.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/fhf</p></td>
+<td><p>filters using the last searched string(s).</p></td>
+</tr>
+<tr class="row-even"><td><p>/fn</p></td>
+<td><p>displays only file names when finding in file.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/fu “ <em>FilesToIgnore</em>”</p></td>
+<td><p>ignores the following file or folder names.</p></td>
+</tr>
+<tr class="row-even"><td><p>/fr</p></td>
+<td><p>search in sub folders when finding in <br>files (use with /fc or /fi).</p></td>
+</tr>
+<tr class="row-odd"><td><p>/fw</p></td>
+<td><p>searches only words.</p></td>
+</tr>
+<tr class="row-even"><td><p>/hide</p></td>
+<td><p>runs EmEditor as a hidden window when the “Quick Start” option is enabled.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/i</p></td>
+<td><p>pastes a text string from the Clipboard.</p></td>
+</tr>
+<tr class="row-even"><td><p>/ipi</p></td>
+<td><p>refreshes the plug-in list. used from plug-in installers.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/iq</p></td>
+<td><p>pastes a text string in quotes from the Clipboard.</p></td>
+</tr>
+<tr class="row-even"><td><p>/iqr</p></td>
+<td><p>pastes a text string in quotes and returns from the Clipboard.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/ko</p></td>
+<td><p>keeps modified files open when replacing in files.</p></td>
+</tr>
+<tr class="row-even"><td><p>/l <em>LineNumber</em></p></td>
+<td><p>move cursor to the logical line number. A negative number means the number of lines from the bottom of the file.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/layout “ <em>Layout</em>”</p></td>
+<td><p>uses a specified layout.</p></td>
+</tr>
+<tr class="row-even"><td><p>/max <em>limit</em></p></td>
+<td><p>Stops find or replace in files when the number of matches reaches this number.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/mc</p></td>
+<td><p>matches cases when /ff is used to find a string.</p></td>
+</tr>
+<tr class="row-even"><td><p>/mf</p></td>
+<td><p>specifies a macro file to run.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/n</p></td>
+<td><p>always start as a new file.</p></td>
+</tr>
+<tr class="row-even"><td><p>/ncp</p></td>
+<td><p>suppresses “The specified file does not exist. Open as a new file?” prompt when a specified file is not found. <br> This option does not apply when restoring files from a workspace.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/ne</p></td>
+<td><p>specifies event-triggered macros should be disabled.</p></td>
+</tr>
+<tr class="row-even"><td><p>/ng</p></td>
+<td><p>always creates a new group window.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/nr</p></td>
+<td><p>does not add the file path to the recent file list.</p></td>
+</tr>
+<tr class="row-even"><td><p>/od</p></td>
+<td><p>displays the Open dialog box to select files to open.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/p</p></td>
+<td><p>prints the file.</p></td>
+</tr>
+<tr class="row-even"><td><p>/pos left top right bottom</p></td>
+<td><p>specifies the window position with four integers (left, top, right, bottom).</p></td>
+</tr>
+<tr class="row-odd"><td><p>/r</p></td>
+<td><p>read-only mode.</p></td>
+</tr>
+<tr class="row-even"><td><p>/rc “ <em>FindWhat</em>”</p></td>
+<td><p>replaces in files (case sensitive).</p></td>
+</tr>
+<tr class="row-odd"><td><p>/rd</p></td>
+<td><p>displays the <a class="reference internal" href="../../dlg/replace_in_files/index.htm"><span class="doc std std-doc"><strong>Replace in</strong>&lt;br&gt;<strong>Files</strong> dialog box</span></a>.</p></td>
+</tr>
+<tr class="row-even"><td><p>/rh</p></td>
+<td><p>opens HTML files as read-only. Used internally.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/ri “ <em>FindWhat</em>”</p></td>
+<td><p>replaces in files (ignore case).</p></td>
+</tr>
+<tr class="row-even"><td><p>/rr</p></td>
+<td><p>opens files in folders recursively.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/rw</p></td>
+<td><p>specifies a string to be replaced with.</p></td>
+</tr>
+<tr class="row-even"><td><p>/sa “ <em>DestFile</em>”</p></td>
+<td><p>specifies a file name to save as after the encoding conversion.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/sca</p></td>
+<td><p>saves and closes all opened documents.</p></td>
+</tr>
+<tr class="row-even"><td><p>/scrlf</p></td>
+<td><p>saves the file using CR+LF as newline characters after the encoding conversion.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/scr</p></td>
+<td><p>saves the file using the CR only as newline characters after the encoding conversion.</p></td>
+</tr>
+<tr class="row-even"><td><p>/slf</p></td>
+<td><p>saves the file using the LF only as newline characters after the encoding conversion.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/sp</p></td>
+<td><p>specifies that a new separate process from other EmEditor windows should be run. This option is useful when a new EmEditor window must be launched from another application because the application must monitor the process termination so it can <br> detect the file modification. If this is specified, however, some features including tab operations will be disabled, and will void support.</p></td>
+</tr>
+<tr class="row-even"><td><p>/ss+</p></td>
+<td><p>saves the file with a Unicode signature (BOM) after the encoding conversion.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/ss-</p></td>
+<td><p>saves the file without a Unicode signature (BOM) after the encoding conversion.</p></td>
+</tr>
+<tr class="row-even"><td><p>/ti</p></td>
+<td><p>displays the Tray Icon.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/uob</p></td>
+<td><p>uses the Output Bar to display the Find in Files results.</p></td>
+</tr>
+<tr class="row-even"><td><p>/x</p></td>
+<td><p>finds or finds in files using a regular expression.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/xnr</p></td>
+<td><p>finds or finds in files using a number range expression.</p></td>
+</tr>
+<tr class="row-even"><td><p>/ws</p></td>
+<td><p>restores the workspace.</p></td>
+</tr>
+<tr class="row-odd"><td><p>/wsf “WorkspaceFile”</p></td>
+<td><p>restores the specified workspace.</p></td>
+</tr>
+<tr class="row-even"><td><p>/wss</p></td>
+<td><p>saves the workspace.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this heading">¶</a></h2>
+<p>/rr *.htm</p>
+<blockquote>
+<div><p>opens all .htm files including all sub folders.</p>
+</div></blockquote>
+<p>/p “filename”</p>
+<blockquote>
+<div><p>prints filename.</p>
+</div></blockquote>
+<p>/r “filename”</p>
+<blockquote>
+<div><p>opens filename in read only
+mode.</p>
+</div></blockquote>
+<p>/c “Normal” “filename”</p>
+<blockquote>
+<div><p>opens filename in the
+default configuration.</p>
+</div></blockquote>
+<p>/l 123 “filename”</p>
+<blockquote>
+<div><p>opens filename, jumps to
+the 123rd line and displays it.</p>
+</div></blockquote>
+<p>/l -1 “filename”</p>
+<blockquote>
+<div><p>opens filename, jumps to the last line and displays it.</p>
+</div></blockquote>
+<p>/ff “what” /mc “filename”</p>
+<blockquote>
+<div><p>opens filename, and finds what matching cases.</p>
+</div></blockquote>
+<p>/fh</p>
+<blockquote>
+<div><p>highlights string of last search.</p>
+</div></blockquote>
+<p>/ti</p>
+<blockquote>
+<div><p>opens as a tray icon.</p>
+</div></blockquote>
+<p>/fi “ABC” “c:\Temp\*.txt”</p>
+<blockquote>
+<div><p>searches for the string ABC
+from all files with the extension .txt on the c:\Temp folder while ignoring case.</p>
+</div></blockquote>
+<p>/fi “abc” /fr /fw /fn /fu “_*;*.bak” /cp 65536 “c:\test\*.htm;*.txt”</p>
+<blockquote>
+<div><p>searches for the string abc from all files with the extension .htm and .txt on the c:\test folder while ignoring case. it searches sub folders, searches only words, displays only file names,
+ignores file or folder names matching “_*;*.bak”, and uses the system default encoding.</p>
+</div></blockquote>
+<p>/fc “[a-e]” /fr /x /fu “_*;*.bak” /cp 65536
+“c:\test\*.htm;*.txt”</p>
+<blockquote>
+<div><p>searches for text matching a regular expression [a-e] from all files with the extension .htm and .txt on the c:\test folder while not ignoring case. it searches sub folders, ignores file or folder
+names matching “_*;*.bak”, and uses the system default encoding.</p>
+</div></blockquote>
+<p>“c:\test\utf16.txt” /cp 65537 /cps 65001 /ss- /sa “c:\test\utf8.txt” /scrlf</p>
+<blockquote>
+<div><p>converts a UTF-16LE file c:\test\utf16.txt to UTF-8 without a Unicode signature and saves as c:\test\utf8.txt. The newline characters is converted to CR+LF.</p>
+</div></blockquote>
+<p>/layout “Focus Mode”</p>
+<blockquote>
+<div><p>uses the “Focus Mode” layout.</p>
+</div></blockquote>
+</section>
+<section id="tips">
+<h2>Tips<a class="headerlink" href="#tips" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>The string searched for in files must be after /fc or /fi.</p></li>
+<li><p>If no options are specified, the selected file will simply be opened.</p></li>
+<li><p>If /c is not specified and the associated extensions of the
+configuration are the same, open the file with that configuration.</p></li>
+<li><p>If a folder name is specified instead of a file name, the Open dialog box with that folder will be displayed.</p></li>
+<li><p>Command line options are case sensitive. For instance /r will not be recognized if written as /R.</p></li>
+<li><p>Escape sequences are always on when searching from the command line.</p></li>
+<li><p>A hyphen (-) can be used instead of a slash (/). For instance, -sp can be used instead of /sp.</p></li>
+<li><p>To set EmEditor as the default text editor for Git, open Git Bash and type: git config –global core.editor “emeditor.exe -sp”.</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">Using Command Line Options</a><ul>
+<li><a class="reference internal" href="#syntax">Syntax</a><ul>
+<li><a class="reference internal" href="#open-a-file-or-files">Open a file or files</a></li>
+<li><a class="reference internal" href="#create-a-new-file">Create a new file</a></li>
+<li><a class="reference internal" href="#create-a-new-file-and-paste">Create a new file and paste</a></li>
+<li><a class="reference internal" href="#create-a-new-file-and-paste-with-quote">Create a new file and paste with quote</a></li>
+<li><a class="reference internal" href="#create-a-new-file-and-paste-with-quote-and-returns">Create a new file and paste with quote and returns</a></li>
+<li><a class="reference internal" href="#display-the-tray-icon">Display the Tray Icon</a></li>
+<li><a class="reference internal" href="#print-a-file">Print a file</a></li>
+<li><a class="reference internal" href="#compare-two-files">Compare two files</a></li>
+<li><a class="reference internal" href="#convert-a-file-encoding">Convert a file encoding</a></li>
+<li><a class="reference internal" href="#display-find-in-files-dialog-box">Display Find in Files dialog box</a></li>
+<li><a class="reference internal" href="#display-replace-in-files-dialog-box">Display Replace in Files dialog box</a></li>
+<li><a class="reference internal" href="#find-in-files">Find in files</a></li>
+<li><a class="reference internal" href="#replace-in-files">Replace in files</a></li>
+<li><a class="reference internal" href="#open-a-file-and-replace">Open a file and replace</a></li>
+<li><a class="reference internal" href="#restore-workspace">Restore workspace</a></li>
+<li><a class="reference internal" href="#save-workspace">Save workspace</a></li>
+<li><a class="reference internal" href="#grab-text-with-emeditor">Grab text with EmEditor</a></li>
+<li><a class="reference internal" href="#display-help">Display Help</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#options">Options</a></li>
+<li><a class="reference internal" href="#examples">Examples</a></li>
+<li><a class="reference internal" href="#tips">Tips</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

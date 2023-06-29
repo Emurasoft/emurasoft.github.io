@@ -1,6 +1,6 @@
-# OpenFileInQuotes 屬性
+# OpenFileInQuotes Property
 
-與組態屬性中 [**連結** 頁面](../../dlg/properties/link/index) 上的 **點擊引號內的檔案名打開檔案** 核取方塊相對應。
+Corresponds to the **Clicking a File Name in Quotes Opens the File** check box in the [**Link** tab](../../dlg/properties/link/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ object. **OpenFileInQuotes**
 
 object. **OpenFileInQuotes** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 13 或之後的版本。
+Supported in EmEditor Professional Version 13 or later.

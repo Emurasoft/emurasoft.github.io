@@ -1,27 +1,27 @@
-# 刪除行命令
+# Delete Line(s) command
 
-### 摘要
+### Summary
 
-> 刪除選取的行或目前的行。
+> Deletes the selected lines or the current line.
 
-### 說明
+### Description
 
-> 刪除選取的行或游標處的一邏輯行。
+> Deletes the selected lines or one logical line at the cursor.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **刪除**
-\> **刪除行**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: CTRL+SHIFT+L
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Line(s)**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+SHIFT+L
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_DELETE\_LINE (4190)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,35 +1,36 @@
-# 「語言」頁面
+# Language page
 
-**語言** 頁面讓您能自訂用在功能表和對話方塊中的語言。
+The **Language** page allows you to customize the language used for menus and dialog boxes.
 
-### 「使用系統語言」單選按鈕
+### Use System Language radio button
 
-如果選擇了該按鈕，EmEditor 會用與 Windows 系統語言相同的語言。如果相同的語言不可用，EmEditor 會用任何安裝的語言。選取的語言會被用在 EmEditor 功能表，對話方塊，說明和其他界面元素上。
+If this button is checked, EmEditor tries to use the same language as Windows system language if more than one language component is installed for EmEditor. If the same language is not available, EmEditor uses any installed language. The selected
+language is used for EmEditor menus, dialog boxes, the Help and other user interface elements.
 
-### 「選擇語言」單選按鈕
+### Select Language radio button
 
-如果選擇了該按鈕，EmEditor 會用在下拉清單方塊中所選取的語言顯示。
+If this button is checked, EmEditor uses the language selected in the drop-down list box below.
 
-### 「目前的語言」文字
+### Current Language text
 
-顯示目前的所選取的語言。
+Displays the currently selected language.
 
-### 「作者/譯者」文字
+### Author/Translator text
 
-顯示目前的所選取語言的作者或譯者。
+Displays the author or translator for the currently selected language.
 
-### (作者/譯者 url) 文字
+### (Author/translator url) text
 
-用預設的網頁瀏覽器去到這個 URL。
+Go to this URL with the default Web browser.
 
-### 「版本」文字
+### Version text
 
-顯示目前的所選取語言的版本。
+Displays the version for the currently selected language.
 
-### 「目前圖示」下拉清單方塊
+### Current Icon drop-down list box
 
-在下拉清單方塊中選取顯示的 EmEditor 程式圖示。
+Specifies EmEditor's icon.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

@@ -1,6 +1,6 @@
-# Replace 方法
+# Replace Method
 
-在文檔中取代一個字串。
+Replaces a string in the document.
 
 #### \[JavaScript\]
 
@@ -10,11 +10,11 @@ nFound = document.selection. **Replace**( _strFind_, _strReplace_, _nFlags_\[, _
 
 nFound = document.selection. **Replace**( _strFind_, _strReplace_, _nFlags_\[, _nExFlags_\] )
 
-## 參數
+## Parameters
 
 _strFind_
 
-指定一個要搜索的字串。如果指定 eeExFindNumberRange，此字串是以區間表示的數字範圍。
+Specifies a string to search for. If eeExFindNumberRange is specified, this string is a number range in interval notation.
 
 _strReplace_
 
@@ -22,46 +22,46 @@ Specifies a string to replace with.
 
 _nFlags_
 
-指定一個下列值的組合:
+Specifies a combination of the following values:
 
 |     |     |
 | --- | --- |
-| eeFindAround | 到達文檔末尾時，移至文檔開頭再搜尋。 |
-| eeFindExtract | 如果在 _nExFlags_ 中未指定 eeExFindInsertColumn，則此方法使用規則運算式將尋找結果抽出到新文檔中。eeFindReplaceRegExp 必須在 nFlags 中指定，並且 _strReplace_ 不能為空。<br>如果在 _nExFlags_ 中指定 eeExFindInsertColumn，則 CSV 文檔必須處於活動狀態，並且一個 或更多列必須被選擇。此外，如果在 _nFlags_ 中未指定 eeFindReplaceRegExp，則該方法將插入具有符合字串的新列。如果在 _nFlags_ 中指定了 eeFindReplaceRegExp，則該方法將使用規則運算式插入帶有取代運算式的新列。 |
-| eeFindMatchDotNL | 規則運算式 "." 符合新行字元。 |
-| eeFindOutput | 將抽出結果顯示為輸出列中的清單。必須與 eeFindExtract 結合使用。 |
-| eeFindReplaceCase | 區分大小寫。 |
-| eeFindReplaceEmbeddedNL | 在 CSV 文檔中只比對內嵌新行，不比對其他新行。 |
-| eeFindReplaceEscSeq | 使用逸出序列。不能與 eeFindReplaceRegExp 聯用。 |
-| eeFindReplaceOnlyWord | 符合整個單字。 |
-| eeFindReplaceOpenDoc | 在同一個框架視窗中，搜尋所有打開的文檔。 |
-| eeFindReplaceQuiet | 狀態列上不顯示消息如果沒有找到任何字串的話。 |
-| eeFindReplaceRegExp | 為 strFind 用規則運算式。不能與 eeFindReplaceEscSeq 聯用。如果此標志與 eeFindExtract 聯用，則生成的符合項將被取代為 strReplace。 |
-| eeFindReplaceSelOnly | 僅在選區內搜尋。 |
-| eeFindSaveHistory | 為重複搜尋儲存搜尋過的字串。 |
-| eeReplaceAll | 立即取代全部。 |
-| eeReplaceSelOnly | 僅取代選定內容。 |
+| eeFindAround | Moves to the start of the document when reaches the end of the document. |
+| eeFindExtract | If eeExFindInsertColumn is not specified in _nExFlags_, this method extracts find results to a new document using a regular expression. eeFindReplaceRegExp must be specified in nFlags, and _strReplace_ must not be empty.<br>If eeExFindInsertColumn is specified in _nExFlags_, a CSV document must be active, and one or more columns must be selected. Moreover, if eeFindReplaceRegExp is not specified in _nFlags_, the method inserts a new column with the matched strings. if eeFindReplaceRegExp is specified in _nFlags_, the method inserts a new column with the replacement expressions using a regular expression. |
+| eeFindMatchDotNL | The regular expression "." can match newline characters. |
+| eeFindOutput | Displays the extract results as a list in the Output Bar. Must combine with eeFindExtract. |
+| eeFindReplaceCase | Matches cases. |
+| eeFindReplaceEmbeddedNL | Matches embedded newlines in CSV documents and does not match other newlines. |
+| eeFindReplaceEscSeq | Uses escape sequences. Cannot be combined with eeFindReplaceRegExp or eeExFindNumberRange. |
+| eeFindReplaceOnlyWord | Matches only whole words. |
+| eeFindReplaceOpenDoc | Searches all open documents in the same frame window. |
+| eeFindReplaceQuiet | Does not display a message on the status bar if no string is found. |
+| eeFindReplaceRegExp | Uses a regular expression for strFind. Cannot be combined <br> with eeFindReplaceEscSeq or eeExFindNumberRange. If this flag is combined with eeFindExtract, the resulting matches will be replaced with strReplace. |
+| eeFindReplaceSelOnly | Replaces only in the selection. |
+| eeFindSaveHistory | Saves the searched string for repeated search. |
+| eeReplaceAll | Replaces all at once. |
+| eeReplaceSelOnly | Replaces only in the selection. (same as eeFindReplaceSelOnly) |
 
 _nExFlags_
 
-指定一個下列值的組合。
+Specifies a combination of the following values.
 
 |     |     |
 | --- | --- |
-| eeExFindBOL | 規則運算式 ‘^’ 可符合選取部分的開頭。 |
-| eeExFindEOL | 規則運算式 ‘$’ 可符合選取部分的結尾。 |
-| eeExFindFuzzy | 使用模糊比對。 |
-| eeExFindInsertColumn | 為抽出的列創建新的 CSV 欄。必須在 nFlags 中指定 eeFindExtract。新欄將插入在原始欄的右側。 |
-| eeExFindLookaround | 只在選區內進行規則運算式搜索時用環顧。 |
-| eeExFindNumberRange | 符合 [數字範圍運算式](../../howto/search/number_range_syntax)。此標志不能與 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
-| eeExFindRegexBoost | 把 Boost.Regex 作為規則運算式引擎。不能與 eeExFindRegexOnigmo 聯用。 |
-| eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎。不能與 eeExFindRegexBoost 聯用。 |
-| eeExFindSeparateCRLF | 區分 CR 和 LF。 |
+| eeExFindBOL | The regular expression ‘^’ can match the beginning of the selection. |
+| eeExFindEOL | The regular expression ‘$’ can match the end of the selection. |
+| eeExFindFuzzy | Uses fuzzy matching. |
+| eeExFindInsertColumn | Creates a new CSV column for extracted columns. eeFindExtract must be specified in nFlags. The new column is inserted just to the right of the original. |
+| eeExFindLookaround | Looks around during selection only regular-expression searches. |
+| eeExFindNumberRange | Matches a [number range expression](../../howto/search/number_range_syntax). This flag cannot be combined with eeFindReplaceEscSeq or eeFindReplaceRegExp. |
+| eeExFindRegexBoost | Uses Boost.Regex as the regular expression engine. Cannot be combined with eeExFindRegexOnigmo. |
+| eeExFindRegexOnigmo | Uses Onigmo as the regular expression engine. Cannot be combined with eeExFindRegexBoost. |
+| eeExFindSeparateCRLF | Treats CR and LF separately. |
 
-## 返回值
+## Return Values
 
-返回被取代的字串數如果 eeReplaceAll 被指定。否則的話，返回 1 如果被找到，或 0 如果沒有找到。
+Returns the number of replaced strings if eeReplaceAll or eeFindExtract is specified. Otherwise, returns 1 if a matching string was found, or 0 if it was not found.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

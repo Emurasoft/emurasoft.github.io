@@ -1,6 +1,7 @@
 # EE\_GET\_FILTER
 
-檢索目前的文檔的篩選字串及設定。你能明確地發送該消息或用 [Editor\_GetFilter](../macro/editor_filter) 內嵌函式。
+Retrieves the filter strings and settings for the current document. You can send this message explicitly or use
+the [Editor\_GetFilter](../macro/editor_filter) inline function.
 
 EE\_GET\_FILTER
 
@@ -8,20 +9,21 @@ wParam = (WPARAM) (FILTER\_INFO\_EX\*) pFilterInfo;
 
 lParam = (LPARAM)(int)iFilter;
 
-## 參數
+## Parameters
 
 _pFilterInfo_
 
-> 指針指向 [FILTER\_INFO\_EX](../structure/filter_info_ex) 結構。
+> Pointer to the [FILTER\_INFO\_EX](../structure/filter_info_ex) structure.
 
 _iFilter_
 
-> 指定你要檢索的字串及其設定的篩選器的索引，或指定 -1 來獲取篩選器的數目。
+> Specifies the index of the filter whose string and settings you want to retrieve, or -1 to get the number of filters.
 
-## 返回值
+## Return Value
 
-> 如果 iFilter 是 0 或更大的數字并且消息成功，返回值為 TRUE。如果 iFilter 是 -1，返回值是篩選器的數目。
+> The return value
+> is TRUE if the iFilter is 0 or larger and the message was successful. The return value is the number of filters if the iFilter is -1.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional Version 16.0 或之後的版本。
+> Supported on EmEditor Professional Version 16.0 or later.

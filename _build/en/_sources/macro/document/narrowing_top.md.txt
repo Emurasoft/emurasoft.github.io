@@ -1,6 +1,6 @@
-# NarrowingTop 屬性
+# NarrowingTop Property
 
-檢索或設置僅編輯區域的頂部 ( y 軸)。-1 代表沒有設置僅編輯選區。
+Retrieves or sets the top position (y-axis) of the narrowing (editable area). Setting this variable to -1 disables narrowing.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _n_ = document. **NarrowingTop**
 
 document. **NarrowingTop** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor 14.6 或之後的版本。
+Supported on EmEditor Professional Version 14.6 or later.

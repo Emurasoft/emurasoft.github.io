@@ -1,33 +1,36 @@
-# 要儲存的編碼清單命令
+# List of Encodings to Save command
 
-### 摘要
+### Summary
 
-> 用一個指定的編碼(多個項目)儲存目前的檔案。
+> Saves the current file using a specified encoding (multiple items).
 
-### 說明
+### Description
 
-> 這個命令由多個項目組成，您可以選擇預先定義的編碼。如果文檔有標題，這個命令會把目前的檔案用指定的編碼儲存。如果文檔文檔沒有標題，則會出現一個 **另存新檔** 對話方塊，讓您能輸入一個檔案名來儲存檔案。
+> This command consists of multiple menu items, from which you can select predefined
+> encodings. If the document is titled, this command saves the current file using the specified encoding. If  the document is untitled, the **Save As** dialog box appears, which allows you to enter a file name to save the file as.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **儲存**
-\> **以指定編碼儲存** \> **(選擇編碼)**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **Save**
+\> **Save with Encoding** \> **(choose encoding)**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-ins command ID
 
-- 從 EEID\_FILE\_SAVE\_DEFINED 到 ID\_FILE\_SAVE\_DEFINED + 255 (從 7680
-到 7680 + 255)
+- From EEID\_FILE\_SAVE\_DEFINED through ID\_FILE\_SAVE\_DEFINED + 255 (from 7680
+through 7680 + 255)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
-> editor.ExecuteCommandByID(7680 + i);  // i 是一個從 0 到 255 的整數
+> editor.ExecuteCommandByID(7680 + i);  // i is an integer from 0
+> through 255
 
 #### \[VBScript\]
 
-> editor.ExecuteCommandByID 7680  + i  ' i 是一個從 0 到 255 的整數
+> editor.ExecuteCommandByID 7680  + i  ' i is an integer from 0
+> through 255

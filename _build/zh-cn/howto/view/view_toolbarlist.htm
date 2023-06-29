@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>工具栏上的按钮 &#8212; EmEditor  文档</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="索引" href="../../genindex.htm" />
+    <link rel="search" title="搜索" href="../../search.htm" />
+    <link rel="next" title="检视光标处的字符代码值" href="view_watch.htm" />
+    <link rel="prev" title="自定义工具栏" href="view_toolbar.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  文档</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/howto/view/view_toolbarlist">English</a>
+                <a href="/emeditor-help/ja/howto/view/view_toolbarlist">日本語</a>
+                <a href="/emeditor-help/ko/howto/view/view_toolbarlist">한국어</a>
+                <a href="/emeditor-help/zh-cn/howto/view/view_toolbarlist">简体中文</a>
+                <a href="/emeditor-help/zh-tw/howto/view/view_toolbarlist">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">快速搜索</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.htm">命令参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.htm">对话框</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">常见问题解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">术语表</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">历史记录</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">如何…</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.htm">自定义</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.htm">编辑</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.htm">文件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro/index.htm">宏</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugin/index.htm">插件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.htm">搜索</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.htm">查看</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="view_color.htm">更改文本颜色</a></li>
+<li class="toctree-l3"><a class="reference internal" href="view_font.htm">更改字体</a></li>
+<li class="toctree-l3"><a class="reference internal" href="view_menu.htm">自定义菜单</a></li>
+<li class="toctree-l3"><a class="reference internal" href="view_statusbar.htm">状态栏</a></li>
+<li class="toctree-l3"><a class="reference internal" href="view_toolbar.htm">自定义工具栏</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">工具栏上的按钮</a></li>
+<li class="toctree-l3"><a class="reference internal" href="view_watch.htm">检视光标处的字符代码值</a></li>
+<li class="toctree-l3"><a class="reference internal" href="view_wrap.htm">更改换行方式</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.htm">窗口</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">链接</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">宏参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">声明</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.htm">插件参考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">如何购买</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">如何…</a> &lt;
+                    <a href="index.htm">查看</a> &lt;
+                工具栏上的按钮
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>工具栏上的按钮<a class="headerlink" href="#id1" title="此标题的永久链接">¶</a></h1>
+<section id="emeditor-professional">
+<h2>在 EmEditor Professional 上可用的按钮<a class="headerlink" href="#emeditor-professional" title="此标题的永久链接">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><img alt="" src="../../_images/filenew.gif" /><a class="reference internal" href="../../cmd/file/file_new.htm"><span class="doc std std-doc">新建文本</span></a></p></td>
+<td><p>创建一个新的文本文件。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/fileopen.gif" /><a class="reference internal" href="../../cmd/file/file_open.htm"><span class="doc std std-doc">打开</span></a></p></td>
+<td><p>打开一个已存在的文件。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/filecloseopen.gif" /><a class="reference internal" href="../../cmd/file/file_close_open.htm"><span class="doc std std-doc">关闭并打开</span></a></p></td>
+<td><p>关闭当前文件，然后打开一个已存在的文件。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/filesave.gif" /><a class="reference internal" href="../../cmd/file/file_save.htm"><span class="doc std std-doc">保存</span></a></p></td>
+<td><p>保存当前文件。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/filesaveall.gif" /><a class="reference internal" href="../../cmd/file/file_save_all.htm"><span class="doc std std-doc">全部保存</span></a></p></td>
+<td><p>保存所有文件。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/reload.gif" /><a class="reference internal" href="../../cmd/file/file_reload.htm"><span class="doc std std-doc">重新载入</span></a></p></td>
+<td><p>重新载入当前文件。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/fileprint.gif" /><a class="reference internal" href="../../cmd/file/file_print.htm"><span class="doc std std-doc">打印</span></a></p></td>
+<td><p>打印当前文件。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/printpreview.gif" /><a class="reference internal" href="../../cmd/file/print_preview.htm"><span class="doc std std-doc">打印预览</span></a></p></td>
+<td><p>预览当前文档的打印预览。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/appexit.gif" /><a class="reference internal" href="../../cmd/file/app_exit.htm"><span class="doc std std-doc">关闭</span></a></p></td>
+<td><p>退出 EmEditor。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/exitall.gif" /><a class="reference internal" href="../../cmd/file/exit_all.htm"><span class="doc std std-doc">全部关闭</span></a></p></td>
+<td><p>保存文件并退出 EmEditor。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/cut.gif" /><a class="reference internal" href="../../cmd/edit/edit_cut.htm"><span class="doc std std-doc">剪切</span></a></p></td>
+<td><p>剪切选定内容至剪贴板。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/copy.gif" /><a class="reference internal" href="../../cmd/edit/edit_copy.htm"><span class="doc std std-doc">复制</span></a></p></td>
+<td><p>复制选定内容至剪贴板。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/paste.gif" /><a class="reference internal" href="../../cmd/edit/edit_paste.htm"><span class="doc std std-doc">粘贴</span></a></p></td>
+<td><p>插入剪贴板内容。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/editundo.gif" /><a class="reference internal" href="../../cmd/edit/edit_undo.htm"><span class="doc std std-doc">撤消</span></a></p></td>
+<td><p>撤消上一次的操作。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/editredo.gif" /><a class="reference internal" href="../../cmd/edit/edit_redo.htm"><span class="doc std std-doc">重做</span></a></p></td>
+<td><p>重做上一次撤消的操作。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/jump.gif" /><a class="reference internal" href="../../cmd/edit/jump.htm"><span class="doc std std-doc">跳转</span></a></p></td>
+<td><p>跳转到指定行。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/editfind.gif" /><a class="reference internal" href="../../cmd/search/edit_find.htm"><span class="doc std std-doc">查找</span></a></p></td>
+<td><p>查找一个字符串。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/editrepeatback.gif" /><a class="reference internal" href="../../cmd/search/edit_repeat_back.htm"><span class="doc std std-doc">查找上一个</span></a></p></td>
+<td><p>查找上一个匹配。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/editrepeat.gif" /><a class="reference internal" href="../../cmd/search/edit_repeat.htm"><span class="doc std std-doc">查找下一个</span></a></p></td>
+<td><p>查找下一个匹配。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/replace.gif" /><a class="reference internal" href="../../cmd/search/edit_replace.htm"><span class="doc std std-doc">替换</span></a></p></td>
+<td><p>替换一个字符串。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/erasefindhilite.gif" /><a class="reference internal" href="../../cmd/search/erase_find_hilite.htm"><span class="doc std std-doc">取消高亮</span></a></p></td>
+<td><p>取消搜索字符串的高亮。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/grep.gif" /><a class="reference internal" href="../../cmd/search/grep.htm"><span class="doc std std-doc">在文件中查找</span></a></p></td>
+<td><p>在多个文件中搜索匹配的字符串。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/wrapnone.gif" /><a class="reference internal" href="../../cmd/view/wrap_none.htm"><span class="doc std std-doc">不换行</span></a></p></td>
+<td><p>以不换行的方式呈现每一行。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/wrapbychar.gif" /><a class="reference internal" href="../../cmd/view/wrap_by_char.htm"><span class="doc std std-doc">按字符换行</span></a></p></td>
+<td><p>按指定的字符换行。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/wrapbywindow.gif" /><a class="reference internal" href="../../cmd/view/wrap_by_window.htm"><span class="doc std std-doc">按窗口换行</span></a></p></td>
+<td><p>按窗口大小换行。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/wrapbypage.gif" /><a class="reference internal" href="../../cmd/view/wrap_by_paper.htm"><span class="doc std std-doc">按页面换行</span></a></p></td>
+<td><p>按页面宽度换行。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/fontpopup.gif" /><a class="reference internal" href="../../cmd/view/font.htm"><span class="doc std std-doc">字体</span></a></p></td>
+<td><p>更改字体设定。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/properties.gif" /><a class="reference internal" href="../../cmd/tools/customize.htm"><span class="doc std std-doc">当前配置属性</span></a></p></td>
+<td><p>更改当前选定配置的属性。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/allproperties.gif" /><a class="reference internal" href="../../cmd/tools/all_prop.htm"><span class="doc std std-doc">所有配置的属性</span></a></p></td>
+<td><p>更改所有配置的属性。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/configpopup.gif" /><a class="reference internal" href="../../cmd/tools/config_popup.htm"><span class="doc std std-doc">选择配置（弹出菜单）</span></a></p></td>
+<td><p>显示一个弹出菜单来选择配置。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/commonsettings.gif" /><a class="reference internal" href="../../cmd/tools/common_settings.htm"><span class="doc std std-doc">自定义</span></a></p></td>
+<td><p>自定义常用应用程序设置。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/macrorecord.gif" /><a class="reference internal" href="../../cmd/macros/quick_macro_record.htm"><span class="doc std std-doc">开始/停止宏录制</span></a></p></td>
+<td><p>开始或停止宏录制。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/macrorun.gif" /><a class="reference internal" href="../../cmd/macros/quick_macro_run.htm"><span class="doc std std-doc">运行宏</span></a></p></td>
+<td><p>运行宏。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/windowalwaystop.gif" /><a class="reference internal" href="../../cmd/window/window_always_top.htm"><span class="doc std std-doc">总是置顶</span></a></p></td>
+<td><p>设置或取消总是将该窗口置顶显示。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/bookmarktoggle.gif" /><a class="reference internal" href="../../cmd/edit/bookmark_toggle.htm"><span class="doc std std-doc">设置或清除书签</span></a></p></td>
+<td><p>在当前行设置或清除书签。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/bookmarkprev.gif" /><a class="reference internal" href="../../cmd/edit/bookmark_prev.htm"><span class="doc std std-doc">上一个书签</span></a></p></td>
+<td><p>去到上一个书签处。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/bookmarknext.gif" /><a class="reference internal" href="../../cmd/edit/bookmark_next.htm"><span class="doc std std-doc">下一个书签</span></a></p></td>
+<td><p>去到下一个书签。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/bookmarkclear.gif" /><a class="reference internal" href="../../cmd/edit/bookmark_clear.htm"><span class="doc std std-doc">清除书签</span></a></p></td>
+<td><p>清除所有书签。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/filesaveexit.gif" /><a class="reference internal" href="../../cmd/file/file_save_exit.htm"><span class="doc std std-doc">保存并关闭</span></a></p></td>
+<td><p>保存并关闭当前文件。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/saveexitall.gif" /><a class="reference internal" href="../../cmd/file/save_exit_all.htm"><span class="doc std std-doc">保存并全部关闭</span></a></p></td>
+<td><p>保存并关闭所有打开的文件。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/nextparen.gif" /><a class="reference internal" href="../../cmd/edit/next_paren.htm"><span class="doc std std-doc">查找配对的括号</span></a></p></td>
+<td><p>移动光标到配对的圆括号/方括号。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/duplicateline.gif" /><a class="reference internal" href="../../cmd/edit/duplicate_line.htm"><span class="doc std std-doc">创建当前行的副本</span></a></p></td>
+<td><p>创建当前逻辑行的副本。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/insertcontrol.gif" /><a class="reference internal" href="../../cmd/edit/insert_control.htm"><span class="doc std std-doc">插入特殊字符</span></a></p></td>
+<td><p>插入一个特殊字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/marks.gif" /><a class="reference internal" href="../../cmd/view/view_marks.htm"><span class="doc std std-doc">标记</span></a></p></td>
+<td><p>显示或隐藏换行符、文件结尾或制表符标记。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/editcomment.gif" /><a class="reference internal" href="../../cmd/edit/edit_comment.htm"><span class="doc std std-doc">注释</span></a></p></td>
+<td><p>注释选定区域。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/edituncomment.gif" /><a class="reference internal" href="../../cmd/edit/edit_uncomment.htm"><span class="doc std std-doc">取消注释</span></a></p></td>
+<td><p>取消选定区域的注释标记。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/indent.gif" /><a class="reference internal" href="../../cmd/edit/indent.htm"><span class="doc std std-doc">增加行缩进</span></a></p></td>
+<td><p>增加选定区域的行缩进。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/unindent.gif" /><a class="reference internal" href="../../cmd/edit/unindent.htm"><span class="doc std std-doc">减少行缩进</span></a></p></td>
+<td><p>减少选定区域的行缩进。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/macrosave.gif" /><a class="reference internal" href="../../cmd/macros/macro_save.htm"><span class="doc std std-doc">保存宏</span></a></p></td>
+<td><p>保存临时宏。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/macroedit.gif" /><a class="reference internal" href="../../cmd/macros/macro_edit.htm"><span class="doc std std-doc">编辑宏</span></a></p></td>
+<td><p>编辑当前选定的宏。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/macroselect.gif" /><a class="reference internal" href="../../cmd/macros/macro_select.htm"><span class="doc std std-doc">选择宏</span></a></p></td>
+<td><p>选择一个宏。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/windowsplithorzfix.gif" /><a class="reference internal" href="../../cmd/window/window_split_horz_toggle.htm"><span class="doc std std-doc">切换水平分割</span></a></p></td>
+<td><p>切换水平窗口分割。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/windowcombine.gif" /><a class="reference internal" href="../../cmd/window/window_combine.htm"><span class="doc std std-doc">合并窗口</span></a></p></td>
+<td><p>合并多个窗口。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/increasefontsize.gif" /><a class="reference internal" href="../../cmd/view/increase_font_size.htm"><span class="doc std std-doc">增大字体</span></a></p></td>
+<td><p>增大显示的字体大小。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/decreasefontsize.gif" /><a class="reference internal" href="../../cmd/view/decrease_font_size.htm"><span class="doc std std-doc">减小字体</span></a></p></td>
+<td><p>减小显示的字体大小。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/replaceinfiles.gif" /><a class="reference internal" href="../../cmd/search/replace_in_files.htm"><span class="doc std std-doc">在文件中替换</span></a></p></td>
+<td><p>替换多个文件中的文本。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/bookmarkprevwithin.gif" /><a class="reference internal" href="../../cmd/edit/bookmark_prev_within.htm"><span class="doc std std-doc">当前窗口中的上一个书签</span></a></p></td>
+<td><p>去到当前窗口中的上一个书签处。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/bookmarknextwithin.gif" /><a class="reference internal" href="../../cmd/edit/bookmark_next_within.htm"><span class="doc std std-doc">当前窗口中的下一个书签</span></a></p></td>
+<td><p>去到当前窗口中的下一个书签处。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/delete.gif" /><a class="reference internal" href="../../cmd/edit/delete.htm"><span class="doc std std-doc">删除</span></a></p></td>
+<td><p>删除选定内容，或删除光标右边的字符。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/full_screen.gif" /><a class="reference internal" href="../../cmd/view/full_screen.htm"><span class="doc std std-doc">全屏</span></a></p></td>
+<td><p>切换全屏模式。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/sticky.gif" /><a class="reference internal" href="../../cmd/edit/vertical_mode.htm"><span class="doc std std-doc">粘滞垂直模式</span></a></p></td>
+<td><p>切换粘滞垂直模式。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/outline_min.gif" /><a class="reference internal" href="../../cmd/edit/outline_collapse_all.htm"><span class="doc std std-doc">全部折叠</span></a></p></td>
+<td><p>当显示大纲视图时折叠整个文档。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/outline_exp.gif" /><a class="reference internal" href="../../cmd/edit/outline_expand_all.htm"><span class="doc std std-doc">全部展开</span></a></p></td>
+<td><p>当显示大纲视图时展开整个文档。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/save_as.gif" /><a class="reference internal" href="../../cmd/file/file_save_as.htm"><span class="doc std std-doc">另存为</span></a></p></td>
+<td><p>使用一个新的名称保存当前文件。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/cycle_clipboard_ring.gif" /><a class="reference internal" href="../../cmd/edit/paste_history.htm"><span class="doc std std-doc">循环粘贴</span></a></p></td>
+<td><p>在光标位置处插入剪贴板中的历史内容。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/default_mode.gif" /><a class="reference internal" href="../../cmd/edit/mode_normal.htm"><span class="doc std std-doc">标准模式</span></a></p></td>
+<td><p>清除 CSV (逗号分隔)，TSV (制表符分隔)，以及 DSV (分隔符分隔) 模式。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/csv.gif" /><a class="reference internal" href="../../cmd/edit/mode_csv.htm"><span class="doc std std-doc">CSV 模式</span></a></p></td>
+<td><p>选择 CSV (逗号分隔) 模式。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/tsv.gif" /><a class="reference internal" href="../../cmd/edit/mode_tsv.htm"><span class="doc std std-doc">TSV 模式</span></a></p></td>
+<td><p>选择 TSV (制表符分隔) 模式。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/dsv.gif" /><a class="reference internal" href="../../cmd/edit/mode_dsv.htm"><span class="doc std std-doc">用户定义的 DSV 模式</span></a></p></td>
+<td><p>选择用户定义的 DSV (分隔符分隔) 模式。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/narrowing.gif" /><a class="reference internal" href="../../cmd/edit/narrowing_toggle.htm"><span class="doc std std-doc">切换仅编辑选定区域模式</span></a></p></td>
+<td><p>启用或不用仅选定的区域可编辑，其他剩余的区域则不允许访问模式。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/sortinga-z.gif" /><a class="reference internal" href="../../cmd/edit/sort_text_a.htm"><span class="doc std std-doc">字母升序</span></a></p></td>
+<td><p>在当前列中以字母升序排序文本。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/sortingz-a.gif" /><a class="reference internal" href="../../cmd/edit/sort_text_d.htm"><span class="doc std std-doc">字母降序</span></a></p></td>
+<td><p>在当前列中以字母降序排序文本。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/sorting0-9.gif" /><a class="reference internal" href="../../cmd/edit/sort_num_a.htm"><span class="doc std std-doc">数字升序</span></a></p></td>
+<td><p>在当前列中以升序排序数字。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/sorting9-0.gif" /><a class="reference internal" href="../../cmd/edit/sort_num_d.htm"><span class="doc std std-doc">数字降序</span></a></p></td>
+<td><p>在当前列中以降序排序数字。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/compare24x16.gif" /><a class="reference internal" href="../../cmd/diff/compare_direct.htm"><span class="doc std std-doc">比较</span></a></p></td>
+<td><p>不指定参数比较最后访问的两个文档。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/rescan24x16.gif" /><a class="reference internal" href="../../cmd/diff/compare_rescan.htm"><span class="doc std std-doc">重新扫描</span></a></p></td>
+<td><p>重新扫描并刷新所比较的文档。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/sync24x16.gif" /><a class="reference internal" href="../../cmd/diff/sync_scroll_direct.htm"><span class="doc std std-doc">同步滚动</span></a></p></td>
+<td><p>不指定参数直接同步滚动两个最近访问的文档。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/reset24x16.gif" /><a class="reference internal" href="../../cmd/diff/compare_reset.htm"><span class="doc std std-doc">重置</span></a></p></td>
+<td><p>重置比较或同步滚动模式并清除比较结果。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/line_number24x16.gif" /><a class="reference internal" href="../../cmd/view/view_line_numbers.htm"><span class="doc std std-doc">行号</span></a></p></td>
+<td><p>显示或隐藏行号。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/ruler24x16.gif" /><a class="reference internal" href="../../cmd/view/view_ruler.htm"><span class="doc std std-doc">标尺</span></a></p></td>
+<td><p>显示或隐藏标尺。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><img alt="Outline" src="../../_images/plugin_outline.gif" /></strong><a class="reference internal" href="../../cmd/view/outline_bar_guide.htm"><span class="doc std std-doc">大纲显示</span></a></p></td>
+<td><p>显示或隐藏大纲栏和大纲导航。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/auto_indent24x16.gif" /><a class="reference internal" href="../../cmd/view/toggle_auto_indent.htm"><span class="doc std std-doc">自动缩进</span></a></p></td>
+<td><p>启用或停用自动缩进。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/space_tab24x16.gif" /><a class="reference internal" href="../../cmd/view/toggle_spaces_tab.htm"><span class="doc std std-doc">将制表符转换为空格</span></a></p></td>
+<td><p>将制表符转换为空格。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/wrap_indent24x16.gif" /><a class="reference internal" href="../../cmd/view/toggle_wrap_indent.htm"><span class="doc std std-doc">换行缩进</span></a></p></td>
+<td><p>启用或停用换行缩进。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/tab_column24x16.gif" /><a class="reference internal" href="../../cmd/view/tab_column_popup.htm"><span class="doc std std-doc">制表栏</span></a></p></td>
+<td><p>显示一个弹出菜单来选择制表栏。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/indent_column24x16.gif" /><a class="reference internal" href="../../cmd/view/indent_column_popup.htm"><span class="doc std std-doc">缩进栏</span></a></p></td>
+<td><p>显示一个弹出菜单来选择缩进栏。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/html2uni24x16.gif" /><a class="reference internal" href="../../cmd/edit/decode_html_char_ref.htm"><span class="doc std std-doc">将 HTML/XML 字符引用转换为 Unicode</span></a></p></td>
+<td><p>解码选中的 HTML/XML 字符引用文本。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/uni2html24x16.gif" /><a class="reference internal" href="../../cmd/edit/encode_html_char_ref.htm"><span class="doc std std-doc">将 Unicode 转换为 HTML/XML 数字字符引用</span></a></p></td>
+<td><p>把选中的文本编码为 HTML/XML 数字字符引用。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/ucs2uni24x16.gif" /><a class="reference internal" href="../../cmd/edit/decode_ucn.htm"><span class="doc std std-doc">将通用字符名称转换为 Unicode</span></a></p></td>
+<td><p>解码选中的选中的通用字符名称文本。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/uni2ucs24x16.gif" /><a class="reference internal" href="../../cmd/edit/encode_ucn.htm"><span class="doc std std-doc">将 Unicode 转换为通用字符名称</span></a></p></td>
+<td><p>将选中的文本用通用字符名称编码。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/spelling24x16.gif" /><a class="reference internal" href="../../cmd/edit/spell_toggle.htm"><span class="doc std std-doc">拼写检查</span></a></p></td>
+<td><p>对文档进行拼写检查。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/emeditor12_toggle_find_bar_button.png" /><a class="reference internal" href="../../cmd/view/show_find_bar.htm"><span class="doc std std-doc">查找工具栏</span></a></p></td>
+<td><p>显示或隐藏查找工具栏。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/emeditor12_back_button.png" /><a class="reference internal" href="../../cmd/edit/caret_back.htm"><span class="doc std std-doc">后退</span></a></p></td>
+<td><p>移动光标至上一位置。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/emeditor12_forward_button.png" /><a class="reference internal" href="../../cmd/edit/caret_forward.htm"><span class="doc std std-doc">前进</span></a></p></td>
+<td><p>移动光标至下一位置。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="CommitList" src="../../_images/plugin_commit_list.gif" /><a class="reference internal" href="../plugin/plugin_commit_list.htm"><span class="doc std std-doc">提交列表</span></a></p></td>
+<td><p>提交列表插件。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="Explorer" src="../../_images/plugin_explorer.gif" /><a class="reference internal" href="../plugin/plugin_explorer.htm"><span class="doc std std-doc">资源管理器</span></a></p></td>
+<td><p>资源管理器插件。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/htmlbar.gif" /><a class="reference internal" href="../plugin/plugin_htmlbar.htm"><span class="doc std std-doc">HTMLBar</span></a></p></td>
+<td><p>HTMLBar 插件。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="Open Documents" src="../../_images/plugin_opendocuments.gif" /></strong><a class="reference internal" href="../plugin/plugin_opendocuments.htm"><span class="doc std std-doc">打开的文档</span></a></p></td>
+<td><p>打开的文档插件。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><img alt="" src="../../_images/projects.gif" /></strong><a class="reference internal" href="../plugin/plugin_projects.htm"><span class="doc std std-doc">项目</span></a></p></td>
+<td><p>项目插件。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="Search" src="../../_images/plugin_search.gif" /></strong><a class="reference internal" href="../plugin/plugin_search.htm"><span class="doc std std-doc">搜索</span></a></p></td>
+<td><p>搜索插件。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><img alt="Snippets" src="../../_images/plugin_snippets.gif" /></strong><a class="reference internal" href="../plugin/plugin_snippets.htm"><span class="doc std std-doc">代码片段</span></a></p></td>
+<td><p>代码片段插件。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="Web Preview" src="../../_images/plugin_webpreview.gif" /><a class="reference internal" href="../plugin/plugin_webpreview.htm"><span class="doc std std-doc">网页预览</span></a></p></td>
+<td><p>网页预览插件。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../../_images/wordcomplete.gif" /><a class="reference internal" href="../plugin/plugin_wordcomplete.htm"><span class="doc std std-doc">单词自动完成</span></a></p></td>
+<td><p>单词自动完成插件。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="Word Count" src="../../_images/plugin_wordcount.gif" /></strong><a class="reference internal" href="../plugin/plugin_wordcount.htm"><span class="doc std std-doc">字数统计</span></a></p></td>
+<td><p>字数统计插件。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">工具栏上的按钮</a><ul>
+<li><a class="reference internal" href="#emeditor-professional">在 EmEditor Professional 上可用的按钮</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; 版权所有 2023 Emurasoft.
+      由 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1创建。
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

@@ -1,19 +1,25 @@
 # EE\_FILTER
 
-用指定字串和設定篩選文檔。您能明確地發送這條消息或用 [Editor\_Filter](../macro/editor_filter) 內嵌函式。
+Filters the document with the specified string and settings. You can send this message explicitly or use
+the [Editor\_Filter](../macro/editor_filter) inline function.
 
 EE\_FILTER
 
-wParam = (WPARAM) (FILTER\_INFO\*) pFilterInfo;
+wParam = (WPARAM) (FILTER\_INFO\_EX\*) pFilterInfo;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _pFilterInfo_
 
-> 指針指向 [FILTER\_INFO](../structure/filter_info) 結構。
+> Pointer to the [FILTER\_INFO\_EX](../structure/filter_info_ex) structure.
 
-## 返回值
+## Return Value
 
-> 返回值是與指定字串相符合的行數。如果指定字串是一個空字串，那么返回值是 -1。如果指定的是 FLAG\_FIND\_CONTINUE，那返回值是 0。
+> The return value
+> is the number of the lines that match the specified string. If the specified string is an empty string, and neither FLAG\_FIND\_BOOKMARKED\_ONLY, FLAG\_FIND\_UNBOOKMARKED\_ONLY, nor FLAG\_FIND\_MATCH\_NL is specified, the return value is -1. If FLAG\_FIND\_CONTINUE is specified, the return value is 0.
+
+## Version
+
+> Supported on EmEditor Professional Version 14.7 or later.

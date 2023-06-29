@@ -1,108 +1,109 @@
-# 「標籤」頁面
+# Tab page
 
-**標籤** 頁面讓您能自訂與標籤相關的設定。
+The **Tab** page allows you to customize settings related to the tabs.
 
-### 「樣式」下拉清單方塊
+### Style drop-down list box
 
-指定如何顯示文檔導航。您可以從下列幾個選項中選擇。
-
-|     |     |
-| --- | --- |
-| **標籤頁** | 以標籤頁形式顯示。 |
-| **按鈕** | 以工具列按鈕形式顯示。 |
-
-### 「圖示」下拉清單方塊
-
-指定如何顯示每一個標籤頁的圖示。您可以從下列幾個選項中選擇。
+Specifies how document navigators are displayed. Select one of the following options.
 
 |     |     |
 | --- | --- |
-| **無** | 不顯示任何圖示 |
-| **文檔類型圖示** | 顯示與打開的文檔類型相關聯的圖示。 |
-| **EmEditor 圖示** | 顯示 EmEditor 圖示。 |
+| **Tab** | Displayed as tabs. |
+| **Button** | Displayed as toolbar buttons. |
 
-### 「插入位置」下拉清單方塊
+### Icons drop-down list box
 
-指定一個新的標籤頁的插入位置。您可以從下列幾個選項中選擇。
-
-|     |     |
-| --- | --- |
-| **最左邊** | 插入一個新的標籤頁到最左邊的位置中。 |
-| **最右邊** | 插入一個新的標籤頁到最右邊的位置中。 |
-| **目前的標籤頁左側** | 插入一個新的標籤頁到活動的文檔標籤頁的左邊。 |
-| **目前的標籤頁右側** | 插入一個新的標籤頁到活動的文檔標籤頁的右邊。 |
-
-### 「關閉時」下拉清單方塊
-
-指定哪一個標籤頁會被激活當關閉一個標籤頁時。您可以從下列幾個選項中選擇。
+Specifies how an icon for each tab is displayed. Select one of the following options.
 
 |     |     |
 | --- | --- |
-| **激活最近使用的標籤頁** | 激活最近使用的標籤頁。 |
-| **激活左邊的標籤頁** | 激活關閉的標籤頁左邊的標籤頁。 |
-| **激活右邊的標籤頁** | 激活關閉的標籤頁右邊的標籤頁。 |
+| **None** | Does not display any icons. |
+| **Document Type Icons** | Displays icons associated with opened document types. |
+| **EmEditor Icon** | Displays the EmEditor icon. |
 
-### 「打開位置」下拉清單方塊
+### Insert Position drop-down list box
 
-指定在哪一個視窗中一個新檔案會被打開。您可以從下列幾個選項中選擇。
-
-|     |     |
-| --- | --- |
-| **在新視窗中打開** | 在新視窗中打開新檔案和已存在的檔案。 |
-| **在最近使用的視窗中的新標籤頁中打開** | 在最近使用的視窗中的新標籤頁中打開新檔案和已存在的檔案。但是，當標籤頁被禁用時，或當一個外掛程式在運行時，檔案可能會一直在一個新視窗中打開。 |
-| **在新視窗中打開新檔案，否則在新標籤頁中打開** | 在新視窗中打開一個新檔案，在新標籤頁中打開一個已存在的檔案。但是，當標籤頁被禁用時，或當一個外掛程式在運行時，檔案可能會一直在一個新視窗中打開。 |
-
-### 「寬度」下拉清單方塊
-
-指定如何調整每一個標籤頁的寬度。您可以從下列幾個選項中選擇。
+Specifies where a new tab should be inserted. Select one of the following options.
 
 |     |     |
 | --- | --- |
-| **按檔案名稱調整** | 按檔案名稱長度，調整每一個標籤頁的寬度。 |
-| **只在超出指定寬度時截短** | 按檔案名稱長度，調整每一個標籤頁的寬度，但是當檔案名長度大于在 **指定寬度** 文字方塊中指定的數值時，截短。 |
-| **固定為指定的寬度** | 所有的標籤頁寬度與 **指定寬度** 文字方塊中指定的數值相同。 |
+| **Leftmost** | A new tab will be inserted at the leftmost position. |
+| **Rightmost** | A new tab will be inserted at the rightmost position. |
+| **Left of Active Tab** | A new tab will be inserted to the left of the active document tab. |
+| **Right of Active Tab** | A new tab will be inserted to the right of the active document tab. |
 
-### 「標籤不合適時」下拉清單方塊
+### When Closed drop-down list box
 
-指定如何顯示標籤頁當標籤頁不適合視窗寬度時。您可以從下列幾個選項中選擇。
-
-|     |     |
-| --- | --- |
-| **無** | 什么也不做。 |
-| **調整寬度** | 調整每一個標籤頁寬度使標籤頁能適合視窗寬度。 |
-| **添加行** | 添加行來顯示所有的標籤頁。 |
-
-### 「關閉按鈕」下拉清單方塊
-
-指定如何顯示關閉按鈕。您可以從下列幾個選項中選擇。
+Specifies which tab should be activated when a tab is closed. Select one of the following options.
 
 |     |     |
 | --- | --- |
-| **無** | 不顯示關閉按鈕。 |
-| **在視窗右側顯示** | 在視窗右側顯示關閉按鈕。 |
-| **在活動標籤頁上顯示** | 僅在活動標籤頁上顯示關閉按鈕。 |
-| **在每個標籤頁上顯示** | 在每個標籤頁上顯示關閉按鈕。 |
+| **Activate Most Recent Tab** | Activates the most recently used tab. |
+| **Activate Left Tab** | Activates the tab to the left of the closed tab. |
+| **Activate Right Tab** | Activates the tab to the right of the closed tab. |
 
-### 「指定寬度」文字方塊
+### Open In drop-down list box
 
-指定每一個標籤頁的寬度當 **只在超出指定寬度時截短** 或 **固定為指定的寬度** 在 **寬度** 下拉清單方塊中被選擇時。
+Specifies in which window a new file should be opened. Select one of the following options.
 
-### 「顯示唯讀圖示」核取方塊
+|     |     |
+| --- | --- |
+| **New Window** | Opens both new files and existing files in new windows. |
+| **New Tab in Most Recent Window** | Opens both new files and existing files in new tabs in the most recent window. However, when tabs are disabled, or when a plug-in is running, the file might be opened always in a new window. |
+| **New Window for New File, otherwise New Tab** | Opens a new file in a new window, and an existing file as a new tab. However, when tabs are disabled, or when a plug-in is running, the file might be opened always in a new window. |
 
-當檔案以唯讀模式打開時，在該檔案的標籤頁上顯示唯讀圖示。
+### Width drop-down list box
 
-### 「亮顯活動標籤」核取方塊
+Specifies how each tab width is adjusted. Select one of the following options.
 
-當 **樣式** 下拉清單方塊選擇 **標籤** 時，亮顯顯示活動標籤。
+|     |     |
+| --- | --- |
+| **Adjust to file name** | Each tab is adjusted to its file name length. |
+| **Truncate only when longer than specified width** | Each tab is adjusted to its file name length, but truncated only when its length is longer than a width specified in the **Specified Width** text box. |
+| **Fix to specified width** | All tabs are same in length as specified in the **Specified Width** text box. |
 
-### 「色彩」按鈕
+### When Not Fit drop-down list box
 
-當 **亮顯活動標籤** 核取方塊被勾選時，指定亮顯顯示活動標籤的色彩。
+Specifies how tabs should be displayed when tabs do not fit in the window width. Specifies one of the following options.
 
-### 「自訂功能表」按鈕
+|     |     |
+| --- | --- |
+| **None** | Does nothing. |
+| **Adjust Width** | Adjusts each tab width to fit to the window width. |
+| **Add Rows** | Adds rows to display all the tabs. |
 
-顯示 [**自訂功能表** 對話方塊](../../menus/index) 來更改功能表設定。
+### Close Button drop-down list box
 
-### 「重設」按鈕
+Specifies how the Close button should be displayed. Select one of the following options.
 
-重設為預設設定。
+|     |     |
+| --- | --- |
+| **None** | Does not display the Close button. |
+| **Right Side of Window** | Displays the Close button on the right side of the window. |
+| **On Active Tab** | Displays the Close button only on the active tab. |
+| **On Each Tab** | Displays the Close button on each tab. |
+
+### Specified Width text box
+
+Specifies the width of each tab when **Truncate only when Longer than specified width** or **Fixed to specified width** is selected for the **Item Width** drop-down list box.
+
+### Show Read-Only Icon check box
+
+Shows the read-only icon on the tab where the file is opened as read-only mode.
+
+### Highlight Active Tab check box
+
+Highlights the active tab when the **Tab** is selected for the **Style** drop-down list box.
+
+### Color button
+
+Specifies the color to highlight the active tab when the **Highlight Active Tab** check box is set.
+
+### Customize Menu button
+
+Displays the [**Customize**\
+**Menus** dialog box](../../menus/index) to customize menus.
+
+### Reset button
+
+Resets to default settings.

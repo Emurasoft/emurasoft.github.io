@@ -1,28 +1,28 @@
-# 標記工具列命令
+# Markers Toolbar command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏標記工具列。
+> Shows or hides the markers toolbar.
 
-### 說明
+### Description
 
-> 顯示或隱藏標記工具列。標記工具列會顯示所有已定義的標記。
+> Shows or hides the markers toolbar. The markers toolbar displays all defined markers.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** >
-**工具列** \> **標記工具列**
-- [全部命令](../tools/all_commands): **檢視** >
-**工具列** \> **標記工具列**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** >
+**Toolbars** \> **Markers Toolbar**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Markers Toolbar**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SHOW\_MARKERS\_BAR (4561)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

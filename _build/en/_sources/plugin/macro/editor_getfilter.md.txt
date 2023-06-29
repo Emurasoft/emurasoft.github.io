@@ -1,53 +1,54 @@
 # Editor\_GetFilter
 
-檢索目前的文檔的篩選字串及設定。你能用該內嵌函式或明確地發送
-the [EE\_GET\_FILTER](../message/ee_filter) 消息。
+Retrieves the filter strings and settings for the current document. You can use this inline function or explicitly send
+the [EE\_GET\_FILTER](../message/ee_filter) message.
 
 Editor\_GetFilter( HWND hwnd, int iFilter, LPWSTR pszFilter, UINT cchFilter, int\* piColumn, UINT64\* pnFlags, INT\_PTR\* pxBegin, INT\_PTR\* pxEnd )
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pszFilter_
 
-> 指定一個緩衝區來檢索篩選字串。
+> Specifies a buffer to retrieve the filter string.
 
 _cchFilter_
 
-> 用字元數指定檢索篩選字串的緩衝區的大小。
+> Specifies the size of the buffer in characters to retrieve the filter string.
 
 _piColumn_
 
-> 指定指針指向整數來檢索用篩選器過濾的文字的列索引。如果篩選文檔的所有列，即搜索「一整行」而非特定的列，那么這個索引值是 -1。
+> Specifies the pointer to the integer to retrieve the index of the column of the text where the filter is applied. This index becomes -1 if the whole lines are searched for the filter.
 
 _pnFlags_
 
-> 指定指針指向 64-bit 的整數來檢索標志。檢索的標志會是下列值的組合。
+> Specifies the pointer to the 64-bit integer to retrieve the flags. The retrieved flags can be a combination of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | FLAG\_FIND\_CASE | 大小寫需符合。 |
-> | FLAG\_FIND\_ESCAPE | 使用逸出序列。 |
-> | FLAG\_FIND\_LOGICAL\_OR | 指定一個邏輯或運算 (logical OR) 到之前的層級上在多層級篩選的情況下。 |
-> | FLAG\_FIND\_NEGATIVE | 顯示篩選工具列并排除與指定字串符合的行。 |
-> | FLAG\_FIND\_ONLY\_WORD | 整個單字需符合。 |
-> | FLAG\_FIND\_REG\_EXP | 使用規則運算式。 |
+> | FLAG\_FIND\_CASE | Matches cases. |
+> | FLAG\_FIND\_ESCAPE | Uses escape sequences. |
+> | FLAG\_FIND\_LOGICAL\_OR | Specifies a logical disjunction (logical OR) to the previous level in case of multiple levels of the filter. |
+> | FLAG\_FIND\_NEGATIVE | Shows the Filter toolbar and excludes the lines that match the specified string. |
+> | FLAG\_FIND\_ONLY\_WORD | Searches only words. |
+> | FLAG\_FIND\_REG\_EXP | Uses a regular expression. |
 
 _pxBegin_
 
-> 指定指針指向整數來檢索要搜索的文字的起始欄的索引（用邏輯字元數）；這個值可以是 -1，如果文字的最后一部分被作為 _xEnd_。
+> Specifies the pointer to the integer to retrieve the index of beginning of the column (in logical characters) of the text to be searched. This value can be -1 if the last portion of the text should be counted as specified as _xEnd_.
 
 _pxEnd_
 
-> 指定指針指向整數來檢索要搜索的文字的末尾欄的索引（用邏輯字元數）；這個值可以是 -1，如果要搜索剩余的文字。
+> Specifies the pointer to the integer to retrieve the index of ending of the column (in logical characters) of the text to be searched. This value can be -1 if all the rest of the text should be searched.
 
-## 返回值
+## Return Values
 
-> 如果 iFilter 是 0 或更大的數字并且消息成功，返回值為 TRUE。如果 iFilter 是 -1，返回值是篩選器的數目。
+> The return value
+> is TRUE if the iFilter is 0 or larger and the message was successful. The return value is the number of filters if the iFilter is -1.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional Version 16.0 或之後的版本。
+> Supported on EmEditor Professional Version 16.0 or later.

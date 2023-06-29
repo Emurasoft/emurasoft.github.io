@@ -1,35 +1,35 @@
-# 「自動填滿」對話方塊
+# AutoFill dialog box
 
-當你選擇 [**自動填滿** 命令](../../cmd/edit/auto_fill) 時，會出現這個對話方塊。它讓你能迅速將一序列或明顯的模式填充到相鄰的儲存格中。
+This dialog box appears when the [**AutoFill** command](../../cmd/edit/auto_fill) is selected. It allows you to quickly fill a series or pattern into neighboring cells.
 
-### 「向右」單選按鈕
+### Right radio button
 
-向右填充儲存格。
+Fills cells to the right.
 
-### 「向下」單選按鈕
+### Down radio button
 
-向下填充儲存格。
+Fills cells below.
 
-### 「向左」單選按鈕
+### Left radio button
 
-向左填充儲存格。
+Fills cells to the left.
 
-### 「向上」單選按鈕
+### Up radio button
 
-向上填充儲存格。
+Fills cells above.
 
-### 「複製」單選按鈕
+### Copy radio button
 
-通過複製所選儲存格的值來填充儲存格。
+Fills cells by copying the value of the selected cell.
 
-### 「數列」單選按鈕
+### Series radio button
 
-用序列填充儲存格。
+Fills cells with a series.
 
-### 「增量」文字方塊
+### Increment text box
 
-指定用十進位形式表示的增量。
+Specifies an increment in the decimal notation.
 
-### 「儲存格數」文字方塊
+### Number of Cells text box
 
-指定用十進位形式表示的儲存格數。
+Specifies the number of cells in the decimal notation.

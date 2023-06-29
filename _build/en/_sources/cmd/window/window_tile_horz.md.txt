@@ -1,27 +1,27 @@
-# 水平平鋪視窗命令
+# Tile Windows Horizontally command
 
-### 摘要
+### Summary
 
-> 水平平鋪排列視窗，使其不重疊。
+> Arranges windows horizontally as non-overlapping tiles.
 
-### 說明
+### Description
 
-> 水平排列非組合的 EmEditor 視窗，使其不重疊平鋪。
+> Arranges non-combined EmEditor windows horizontally as non-overlapping tiles.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **視窗** \> **水平平鋪**
-- [全部命令](../tools/all_commands): **視窗**
-\> **水平平鋪**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Window** \> **Tile Horizontally**
+- [All Commands](../tools/all_commands): **Window**
+\> **Tile Horizontally**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_WINDOW\_TILE\_HORZ (4242)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

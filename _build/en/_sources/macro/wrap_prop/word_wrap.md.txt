@@ -1,6 +1,7 @@
-# WordWrap 屬性
+# WordWrap Property
 
-與組態屬性中 [**換行** 頁面](../../dlg/properties/wrap/index) 上的 **自動換行** 核取方塊相對應。
+Corresponds to the **Word**
+**Wrap** check box in the [**Wrap** page](../../dlg/properties/wrap/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -14,6 +15,6 @@ _str_ = object. **WordWrap**
 
 object. **WordWrap** = _str_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

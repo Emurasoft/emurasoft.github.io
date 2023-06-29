@@ -1,26 +1,26 @@
-# 清除目前文件中的所有書籤命令
+# Clear All Bookmarks in This Document command
 
-### 摘要
+### Summary
 
-> 清除目前文件中的所有書籤。
+> Clears all bookmarks in the current document.
 
-### 說明
+### Description
 
-> 清除目前文件中的所有書籤。
+> Clears all bookmarks in the current document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **書籤** \> **清除所有書籤**
-- [全部命令](../tools/all_commands): **書籤** \> **清除所有書籤**
-- 工具列: ![](../../images/bookmarkclear.gif)
-- 狀態列: 無
-- 預設捷徑: CTRL+SHIFT+F2
+- Default Menu: **Bookmarks** \> **Clear All Bookmarks**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Clear All Bookmarks**
+- Toolbar: ![](../../images/bookmarkclear.gif)
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+SHIFT+F2
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_BOOKMARK\_CLEAR (4323)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

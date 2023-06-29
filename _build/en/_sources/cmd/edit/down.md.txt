@@ -1,27 +1,28 @@
-# 下一行命令
+# Line Down command
 
-### 摘要
+### Summary
 
-> 移動游標到下一行。
+> Moves the cursor down one line.
 
-### 說明
+### Description
 
-> 把游標向下移動一行。等同于按一次下移箭頭鍵。
+> Moves the cursor down one line.  Equivalent to pushing the DOWN ARROW
+> key once.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **垂直移動游標**
-\> **下一行**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: 下移箭頭
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
+\> **Line Down**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: DOWN ARROW
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_DOWN (4161)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

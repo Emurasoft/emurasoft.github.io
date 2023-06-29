@@ -1,59 +1,61 @@
-# 「文字呈現」頁面
+# Text Rendering page
 
-**文字呈現** 頁面讓你能自訂在編輯器視圖中呈現文字的方式。EmEditor 會即時反應變更的設置，以便你在編輯器中預覽它們。
+The **Text Rendering** page customizes how text is rendered in the editor view. Changes are applied instantly, so that they can be previewed in the editor.
 
-### 「使用 DirectWrite」核取方塊
+### Use DirectWrite check box
 
-如果勾選了該核取方塊，則使用 DirectWrite 在編輯器視圖中繪制文字。如果未選中，則使用 GDI 繪制文字。DirectWrite 是 GPU 加速的 DirectX API，與 GDI 相比，它改善了文字的渲染和可讀性。 DirectWrite 不適用於列印，列印預覽或迷你地圖。
+If this is checked, DirectWrite is used for drawing text in the editor view. If this is unchecked, GDI is used for drawing text. DirectWrite is a GPU-accelerated DirectX API which improves the rendering and readability of text compared to GDI. DirectWrite is not applied for printing, print preview, or the minimap.
 
-### 「自動檢測設置」核取方塊
+### Auto-Detect Settings check box
 
-檢測顯示器的最佳設置。該選項可以為不同的顯示器設置不同的設置。如果啟用了自動檢測設置，則下面的 DirectWrite 選項將被忽略。
+Detects optimal settings for the monitor. This option may set
+separate settings for different monitors. The DirectWrite options below are ignored if Auto-Detect Settings is on.
 
-### 「抗鋸齒模式」下拉清單方塊
+### Anti-Aliasing Mode drop-down list box
 
-設置文字顯示的消除鋸齒模式。 **ClearType** 是一種消除鋸齒方法，可將子像素細節添加到文字中。 **灰度** 是一種更簡單的抗鋸齒方法。選擇 **無** 將關閉消除鋸齒功能。
+Sets the anti-aliasing mode for text display. **ClearType** is an anti-aliasing method that adds sub-pixel detail to text. **Grayscale** is a more simple antialiasing method. Selecting **None** will turn off anti-aliasing.
 
-### 「呈現模式」下拉清單方塊
+### Rendering Mode drop-down list box
 
-設置文字顯示的呈現模式。由于抗鋸齒的呈現方式，不同的呈現模式會為文字外觀添加細微變化。選擇 **預設** 會自動選擇呈現模式。如果抗鋸齒模式為「無」，則呈現模式將被忽略。ClearType 和呈現模式「輪廓」不能同時使用。請參閱 [MSDN 上的「DWRITE\_RENDERING\_MODE 列舉」](https://docs.microsoft.com/en-us/windows/win32/api/dwrite/ne-dwrite-dwrite_rendering_mode) 來了解每種呈現模式的詳細信息。
+Sets the rendering mode for text display. Different rendering modes add subtle changes to text appearance due to how anti-aliasing is rendered. By selecting **Default**, the rendering mode is automatically selected. If anti-aliasing mode is "None", rendering mode is ignored. ClearType and the rendering mode "Outline" cannot be used simultaneously. See ["DWRITE\_RENDERING\_MODE (Windows 8 and later) enumeration" on MSDN](https://docs.microsoft.com/en-us/windows/win32/api/dwrite/ne-dwrite-dwrite_rendering_mode) for detailed information on each rendering mode.
 
-### 「Gamma」滑桿
+### Gamma slider
 
-Gamma 值用於校正 Gamma。
+Gamma value used for gamma correction.
 
-### 「對比」滑桿
+### Contrast slider
 
-調整邊緣清晰度。0.0是最低對比度，3.0是最高對比度。
+Adjusts edge sharpness. 0.0 is the lowest degree of contrast, and 3.0 is the highest degree of contrast.
 
-### 「ClearType 級別」滑桿
+### ClearType Level slider
 
-ClearType 抗鋸齒的比率。值為 0.0 表示不應用 ClearType，1.0 表示 ClearType在發揮全效。
+The ratio of ClearType antialiasing. A value of 0.0 means no ClearType is applied, and 1.0 means ClearType has full effect.
 
-### 「使用彩色字型」核取方塊
+### Use Color Fonts check box
 
-使用嵌入的顏色信息繪制顏色到字型中。適用於 Windows 8.1 和更高版本的平臺。
+Draws color using embedded color information in fonts. Available to Windows 8.1 and later platforms.
 
-### 「使用雙緩沖」核取方塊
+### Use Double Buffering check box
 
-使用雙緩沖在屏幕上來繪制文字。雙緩沖可減少閃爍，但會使繪圖變慢。如果使用較慢的計算機並且繪圖很慢，請取消勾選此核取方塊。如果使用 DirectWrite，則此核取方塊禁用。
+Uses double buffering to draw text on screen. Double buffering reduces flicker, but makes drawing slower. If a slower computer is used and if drawing
+is slow, please clear this check box. This checkbox is disabled if DirectWrite is used.
 
-### 「遞補字型」清單方塊
+### Fallback Fonts list box
 
-定義 [**「自訂字型」** 對話方塊](../../properties/font/index) 中 Unicode 字元在指定字型中不可用時可以使用的字型清單。其他選項可以通過右鍵單擊清單找到。它還能讓你拖放所選項目以重新排列清單。
+Defines fallback fonts that can be used for characters that are not supported in the current font. The current display font is specified in the [**Customize Font** dialog box](../../properties/font/index). The top-most font in the Fallback Fonts list has the highest priority in selecting a fallback font. Right-clicking on the list will show additional commands, and drag and dropping an item will change ordering.
 
-### 「顯示組成的韓文拼音字母」核取方塊
+### Display Hangul Jamo Composed check box
 
-如果勾選了此核取方塊，EmEditor 將把一系列正確的韓文拼音字母顯示為組成的字元。例如，"ᄒ ᅡ ᆫ ᄀ ᅳ ᆯ"（不含空格）會被顯示為 "한글"。這個選項對於在無法使用組成字元的情況下正確顯示舊韓文也有效。
+If this is checked, EmEditor displays a correct series of Hangul Jamo as composed characters. For example, "ᄒ ᅡ ᆫ ᄀ ᅳ ᆯ" (without spaces) will be displayed as "한글". This option is also effective to display old Hangul correctly where composed characters are unavailable.
 
-### 「添加」按鈕
+### Add button
 
-將新項目添加到清單中。
+Adds a new item to the list.
 
-### 「刪除」按鈕
+### Delete button
 
-從清單中刪除所選項目。
+Deletes the selection from the list.
 
-### 「重置」按鈕
+### Reset button
 
-將所有文字呈現選項重設為其預設設置。
+Resets all Text Rendering options to their default settings.

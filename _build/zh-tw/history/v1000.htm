@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Version 10 &#8212; EmEditor  說明文件</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/translations.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../_static/js/theme.js"></script>
+    <script src="../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="索引" href="../genindex.htm" />
+    <link rel="search" title="搜尋" href="../search.htm" />
+    <link rel="next" title="Version 11" href="v1100.htm" />
+    <link rel="prev" title="歷史記錄" href="index.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../index.htm" title="Go to homepage">EmEditor  說明文件</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/history/v1000">English</a>
+                <a href="/emeditor-help/ja/history/v1000">日本語</a>
+                <a href="/emeditor-help/ko/history/v1000">한국어</a>
+                <a href="/emeditor-help/zh-cn/history/v1000">简体中文</a>
+                <a href="/emeditor-help/zh-tw/history/v1000">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">快速搜尋</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../cmd/index.htm">命令參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dlg/index.htm">對話方塊</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.htm">常見問題解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.htm">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary/index.htm">詞彙</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.htm">歷史記錄</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Version 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1100.htm">Version 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1200.htm">Version 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1300.htm">Version 13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v1400.htm">Version 14</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_1.htm">Version 14.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_2.htm">Version 14.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_3.htm">Version 14.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_4.htm">Version 14.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_5.htm">Version 14.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_6.htm">Version 14.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_7.htm">Version 14.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_8.htm">Version 14.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v14_9.htm">Version 14.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_0.htm">Version 15.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_1.htm">Version 15.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_2.htm">Version 15.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_3.htm">Version 15.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_4.htm">Version 15.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_5.htm">Version 15.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_6.htm">Version 15.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_7.htm">Version 15.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_8.htm">Version 15.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v15_9.htm">Version 15.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_0.htm">Version 16.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_1.htm">Version 16.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_2.htm">Version 16.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_3.htm">Version 16.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_4.htm">Version 16.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_5.htm">Version 16.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_6.htm">Version 16.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_7.htm">Version 16.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_8.htm">Version 16.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v16_9.htm">Version 16.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_0.htm">Version 17.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_1.htm">Version 17.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_2.htm">Version 17.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_3.htm">Version 17.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_4.htm">Version 17.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_5.htm">Version 17.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_6.htm">Version 17.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_7.htm">Version 17.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_8.htm">Version 17.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v17_9.htm">Version 17.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_0.htm">Version 18.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_1.htm">Version 18.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_2.htm">Version 18.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_3.htm">Version 18.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_4.htm">Version 18.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_5.htm">Version 18.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_6.htm">Version 18.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_7.htm">Version 18.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_8.htm">Version 18.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v18_9.htm">Version 18.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_0.htm">Version 19.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_1.htm">Version 19.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_2.htm">Version 19.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_3.htm">Version 19.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_4.htm">Version 19.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_5.htm">Version 19.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_6.htm">Version 19.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_7.htm">Version 19.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_8.htm">Version 19.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v19_9.htm">Version 19.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_0.htm">Version 20.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_1.htm">Version 20.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_2.htm">Version 20.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_3.htm">Version 20.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_4.htm">Version 20.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_5.htm">Version 20.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_6.htm">Version 20.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_7.htm">Version 20.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_8.htm">Version 20.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v20_9.htm">Version 20.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_0.htm">Version 21.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_1.htm">Version 21.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_2.htm">Version 21.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_3.htm">Version 21.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_4.htm">Version 21.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_5.htm">Version 21.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_6.htm">Version 21.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_7.htm">Version 21.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_8.htm">Version 21.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v21_9.htm">Version 21.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_0.htm">Version 22.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_1.htm">Version 22.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_2.htm">Version 22.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_3.htm">Version 22.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v22_4.htm">Version 22.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v403.htm">Version 4.03</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v404.htm">Version 4.04</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v405.htm">Version 4.05</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v406.htm">Version 4.06</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v407.htm">Version 4.07</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v408.htm">Version 4.08</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v409.htm">Version 4.09</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v410.htm">Version 4.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v411.htm">Version 4.11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v412.htm">Version 4.12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v413.htm">Version 4.13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v500.htm">Version 5.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v600.htm">Version 6.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v700.htm">Version 7.00</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v800.htm">Version 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v900.htm">Version 9</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.htm">如何…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../link/index.htm">連結</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macro/index.htm">巨集參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notice/index.htm">注意事項</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plugin/index.htm">外掛程式參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../purchase/index.htm">如何購買</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support/index.htm">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="index.htm">歷史記錄</a> &lt;
+                Version 10
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="version-10">
+<h1>Version 10<a class="headerlink" href="#version-10" title="本標頭的永久連結">¶</a></h1>
+<p>2010年6月30日</p>
+<section id="id1">
+<h2>一般新增功能<a class="headerlink" href="#id1" title="本標頭的永久連結">¶</a></h2>
+<ul class="simple">
+<li><p>添加了 <strong>比較</strong> 和 <strong>同步滾動</strong> 功能。</p></li>
+<li><p>添加了 <strong>拼寫</strong> 功能。</p></li>
+<li><p>在行右端進行沒有寬度垂直選取將會讓 EmEditor 自動把每行的末端作為選取編輯的開始位置。所以，您輸入的文本會出現在您選取的每一行的末端(即使行的長度都不相同)。</p></li>
+<li><p>新增的 <a class="reference internal" href="../cmd/edit/numbering.htm"><span class="doc std std-doc"><strong>編號</strong> 命令</span></a> 讓您能在光標處或垂直選取處插入連續的數字或字符。</p></li>
+<li><p><strong>CSV</strong> 模式現在讓您能在一個單元格中包括新的行。在配置屬性的 <strong>標記</strong> 選項卡上選擇 <strong>顯示控制字符</strong> 的復選框，內嵌回車會以反轉的顏色顯示 <strong>M</strong> (CR) 和/或 <strong>J</strong> (LF)。</p></li>
+<li><p>在 Windows 檔案總管由右鍵顯示的上下文菜單中包括了新增的 <strong>用 EmEditor 在檔案中查找</strong> 命令。</p></li>
+<li><p><strong>自動恢復</strong> 功能現在能自動打開上次使用的工作空間 ( <strong>恢復的檔案</strong> 對話方塊被棄用了)。當用新的安裝程序更新 EmEditor 時，EmEditor 窗口會自動關上，并且他們會作為上次使用的工作空間被重新打開。</p></li>
+<li><p>新的安裝程序現在能在一個程序中安裝多個語言版本 (目前是英文和日文)。</p></li>
+<li><p>與新安裝程序一起更新的 <strong>更新檢查程式</strong> (v9 的 <strong>更新檢查程式</strong> 被棄用了)。</p></li>
+<li><p>添加了新的命令行選項 <strong>/cmp</strong>。</p></li>
+<li><p>當本地化語言檔案是舊的時，EmEditor 自動使用英文字符串和對話方塊資源。</p></li>
+<li><p>EmEditor 現在支持左(&amp;l)對齊，居中(&amp;c)以及右(&amp;r)對齊的組合來打印頁眉和頁腳。</p></li>
+<li><p>二進制 (十六進制視圖) 模式現在包括并排 ASCII 視圖。</p></li>
+<li><p>垂直選擇模式現在被限制為只能選取邏輯行 (由于換行所產生的多重選取現在不再算在內了)。</p></li>
+<li><p>在上一個版本中，在重新載入一個包含無效字符的檔案時，在彈出的對話方塊點擊「取消」之後會打開一個新的無標題文檔。這個 bug 已經被修復了，除了當您異步打開一個大檔案時。</p></li>
+<li><p>預設的 PHP 高亮字符串中被更新到最新的 PHP 功能列表中。</p></li>
+<li><p>添加了一個新的替換表達式 (?n:true_expression:false_expression) 到 <a class="reference internal" href="../howto/search/search_regexp_syntax.htm"><span class="doc std std-doc">規則運算式語法</span></a> 中。</p></li>
+</ul>
+</section>
+<section id="id2">
+<h2>新增外掛程式功能<a class="headerlink" href="#id2" title="本標頭的永久連結">¶</a></h2>
+<section id="id3">
+<h3>程式碼片段外掛程式<a class="headerlink" href="#id3" title="本標頭的永久連結">¶</a></h3>
+<ul class="simple">
+<li><p>字詞自動完成外掛程式現在能運用在程式碼片段占位符中。</p></li>
+<li><p>程式碼片段外掛程式的規則運算式添加了全局選項。</p></li>
+</ul>
+</section>
+<section id="id4">
+<h3>大綱外掛程式<a class="headerlink" href="#id4" title="本標頭的永久連結">¶</a></h3>
+<ul class="simple">
+<li><p>大綱外掛程式屬性中添加了 <strong>同步選區至光標處</strong>， <strong>第一次運行時將焦點移至自訂數據條</strong>， <strong>使用 ESC 鍵關閉自訂數據條</strong>，還有 <strong>使用回車鍵或 GO 命令關閉自訂數據條</strong> 這幾個復選框。</p></li>
+<li><p>添加了 <strong>隱藏匹配的字符串/用規則運算式替換</strong> 復選框和 <strong>規則運算式</strong> 文本框，讓您能隱藏匹配的字符串或用規則運算式替換匹配的字符串。</p></li>
+</ul>
+</section>
+<section id="id5">
+<h3>字詞自動完成外掛程式<a class="headerlink" href="#id5" title="本標頭的永久連結">¶</a></h3>
+<ul class="simple">
+<li><p><strong>從候選列表中排除已匹配的和同樣長度的單詞</strong> 復選框到該 <a class="reference internal" href="../howto/plugin/plugin_wordcomplete.htm"><span class="doc std std-doc">外掛程式屬性</span></a> 的 <strong>選項</strong> 選項卡上。</p></li>
+</ul>
+</section>
+<section id="id6">
+<h3>檔案總管外掛程式<a class="headerlink" href="#id6" title="本標頭的永久連結">¶</a></h3>
+<ul class="simple">
+<li><p>檔案總管外掛程式不用一個打開的已激活的檔案同步選取的部分。這個 bug 已修復了。</p></li>
+</ul>
+</section>
+</section>
+<section id="id7">
+<h2>新增選項<a class="headerlink" href="#id7" title="本標頭的永久連結">¶</a></h2>
+<ul class="simple">
+<li><p>在 <a class="reference internal" href="../dlg/properties/index.htm"><span class="doc std std-doc">配置屬性</span></a> 中添加了 <a class="reference internal" href="../dlg/properties/spell/index.htm"><span class="doc std std-doc"><strong>拼寫</strong> 選項卡</span></a>。</p></li>
+<li><p>在 <a class="reference internal" href="../dlg/tools/properties/index.htm"><span class="doc std std-doc"><strong>外部工具屬性</strong></span></a> 中添加了 <strong>標準錯誤</strong> 的下拉列表框，原來的「包括標準錯誤」復選框被棄用了。這個變更讓您能分開指定 <strong>標準輸出</strong> 以及 <strong>標準錯誤</strong> 輸出。</p></li>
+<li><p><a class="reference internal" href="../dlg/find/index.htm"><span class="doc std std-doc"><strong>查找</strong> 對話方塊</span></a> 現在包括新增的 <strong>顯示匹配數</strong> 復選框，能在狀態列顯示匹配的數目當您搜尋一個字符串后。</p></li>
+<li></li>
+</ul>
+<p>當您輸入一個分配鍵在 <strong>按下新的快捷鍵</strong> 文本框中時，會顯示類別名稱。</p>
+<ul class="simple">
+<li><p><strong>要忽略的檔案或資料夾</strong> 文本框 ( <strong>在檔案中查找</strong> &gt; <strong>進階</strong>) 現在能允許多達 15,999 個字符。</p></li>
+<li><p>在 <strong>查找</strong>/ <strong>替換</strong> 下拉列表右邊的 <strong>「&gt;」</strong> 按鈕 ( <strong>查找</strong>/ <strong>替換</strong>/ <strong>在檔案中查找</strong>/ <strong>多檔取代</strong> 對話方塊中) 現在包括 <strong>選擇的文本</strong>， <strong>光標下的單詞</strong>， <strong>自訂</strong>， <strong>保存為預設</strong> 和 <strong>多行</strong> 等命令。 <strong>「=」</strong> 按鈕被棄用了。</p></li>
+<li><p>另一個 <strong>「&gt;」</strong> 按鈕被添加到 <strong>檔案類型</strong> 下拉列表框的右邊 ( <strong>在檔案中查找</strong>/ <strong>多檔取代</strong> 對話方塊中)。這個按鈕包括 <strong>當前檔案類型</strong>， <strong>當前檔案</strong>，and <strong>保存為預設</strong> 命令。</p></li>
+<li><p>原本在 <strong>搜尋資料夾</strong> 下拉列表框 ( <strong>在檔案中查找</strong>/ <strong>多檔取代</strong> 對話方塊中) 旁邊的 <strong>「…」</strong> 按鈕被換成了 <strong>「&gt;」</strong> 按鈕。這個按鈕包括 <strong>當前資料夾</strong>， <strong>父資料夾</strong>， <strong>祖父資料夾</strong>， <strong>自訂</strong>， <strong>瀏覽</strong>，和 <strong>保存為預設</strong> 命令。</p></li>
+<li><p><strong>在查找/替換對話方塊中用選取的文本</strong> 復選框， <strong>在查找/替換對話方塊中用選取的文本用光標處的單詞</strong> 復選框，和 <strong>把當前資料夾設為預設在在檔案中查找中</strong> 復選框 (在 <strong>自訂</strong> 對話方塊的 <strong>搜尋</strong> 選項卡上) 被棄用了。</p></li>
+<li><p>標簽順序在 <strong>替換</strong>/ <strong>在檔案中查找</strong>/ <strong>多檔取代</strong> 對話方塊中更改了。</p></li>
+<li><p><strong>波形線</strong> 和 <strong>虛線</strong> 被添加到配置屬性中 <a class="reference internal" href="../dlg/properties/display/index.htm"><span class="doc std std-doc"><strong>顯示</strong> 選項卡</span></a> 上的 <strong>(字體樣式)</strong> 下拉列表框中。</p></li>
+<li><p><strong>水平線</strong> 復選框被添加到了配置屬性中的 <a class="reference internal" href="../dlg/properties/scroll/index.htm"><span class="doc std std-doc"><strong>滾動</strong> 選項卡</span></a> 上。 <strong>虛線</strong> 復選框被棄用了。</p></li>
+<li><p><strong>頁眉</strong> 復選框和 <strong>頁腳</strong> 復選框被添加到了 <a class="reference internal" href="../dlg/properties/index.htm"><span class="doc std std-doc">配置屬性</span></a> 中的 <a class="reference internal" href="../dlg/properties/print/index.htm"><span class="doc std std-doc"><strong>打印</strong> 選項卡</span></a> 上。</p></li>
+<li><p><strong>「全部刪除」</strong> 按鈕被添加到 <a class="reference internal" href="../dlg/macro_customize/index.htm"><span class="doc std std-doc"><strong>自訂巨集</strong> 對話方塊</span></a> 中 <a class="reference internal" href="../dlg/macro_customize/my_macros/index.htm"><span class="doc std std-doc"><strong>我的巨集</strong> 選項卡</span></a> 上。</p></li>
+<li><p><strong>當本地化語言不可用時，使用英語</strong> 復選框被添加到 <strong>自訂</strong> 對話方塊中的 <a class="reference internal" href="../dlg/customize/lang/index.htm"><span class="doc std std-doc"><strong>語言</strong> 選項卡</span></a> 上。</p></li>
+<li><p><a class="reference internal" href="../dlg/toolbars/index.htm"><span class="doc std std-doc"><strong>工具列</strong> 對話方塊</span></a> 中的「256色」按鈕被棄用了。</p></li>
+<li><p>添加了 <a class="reference internal" href="../dlg/insert_numbering/index.htm"><span class="doc std std-doc"><strong>插入編號</strong> 對話方塊</span></a>。</p></li>
+</ul>
+</section>
+<section id="id8">
+<h2>新增命令<a class="headerlink" href="#id8" title="本標頭的永久連結">¶</a></h2>
+<ul class="simple">
+<li><p><strong><a class="reference internal" href="../cmd/file/save_utf16le_sign.htm"><span class="doc std std-doc">保存為帶簽名的UTF-16LE</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/file/save_utf16le_nosign.htm"><span class="doc std std-doc">保存為不帶簽名的UTF-16LE</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/file/save_utf16be_sign.htm"><span class="doc std std-doc">保存為帶簽名的UTF-16BE</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/file/save_utf16be_nosign.htm"><span class="doc std std-doc">保存為不帶簽名的UTF-16BE</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/file/save_utf8_sign.htm"><span class="doc std std-doc">保存為帶簽名的UTF-8</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/file/save_utf8_nosign.htm"><span class="doc std std-doc">保存為不帶簽名的UTF-8</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/decode_html_char_ref.htm"><span class="doc std std-doc">將 HTML/XML 字符引用轉換為 Unicode</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/encode_html_char_ref.htm"><span class="doc std std-doc">將 Unicode 轉換為 HTML/XML 數字字符引用</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/decode_ucn.htm"><span class="doc std std-doc">將通用字符名稱轉換為 Unicode</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/encode_ucn.htm"><span class="doc std std-doc">將 Unicode 轉換為通用字符名稱</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/numbering.htm"><span class="doc std std-doc">編號</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/select_cell.htm"><span class="doc std std-doc">選擇單元格</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/next_cell.htm"><span class="doc std std-doc">下一單元格</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/prev_cell.htm"><span class="doc std std-doc">上一單元格</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_toggle.htm"><span class="doc std std-doc">拼寫檢查</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_quote.htm"><span class="doc std std-doc">對已引用的行進行拼寫檢查</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_single_quotes.htm"><span class="doc std std-doc">對單引號內的字符串進行拼寫檢查</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_double_quotes.htm"><span class="doc std std-doc">對雙引號內的字符串進行拼寫檢查</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_comments.htm"><span class="doc std std-doc">對注釋進行拼寫檢查</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_script.htm"><span class="doc std std-doc">對指令碼進行拼寫檢查</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_tags.htm"><span class="doc std std-doc">對標記進行拼寫檢查</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_hilite.htm"><span class="doc std std-doc">對高亮文本進行拼寫檢查</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_hyperlink.htm"><span class="doc std std-doc">對超連結進行拼寫檢查</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_rest.htm"><span class="doc std std-doc">對未指定文本進行拼寫檢查</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_all.htm"><span class="doc std std-doc">對整個文檔進行拼寫檢查</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_prev.htm"><span class="doc std std-doc">上一拼寫錯誤</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_next.htm"><span class="doc std std-doc">下一拼寫錯誤</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_suggest.htm"><span class="doc std std-doc">拼寫建議</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/edit/spell_dictionary.htm"><span class="doc std std-doc">字典</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/toggle_output_shortcuts.htm"><span class="doc std std-doc">啟用快捷鍵</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/view_line_numbers.htm"><span class="doc std std-doc">行號</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/view_ruler.htm"><span class="doc std std-doc">尺規</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/view_return.htm"><span class="doc std std-doc">回車</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/view_eof.htm"><span class="doc std std-doc">EOF</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/view_tab.htm"><span class="doc std std-doc">標簽</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/view_space.htm"><span class="doc std std-doc">空白</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/view_wide_space.htm"><span class="doc std std-doc">全角空白</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/view_cr_lf_separate.htm"><span class="doc std std-doc">帶不同標記的 CR 和 LF</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/view_control.htm"><span class="doc std std-doc">控制字符</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/view_indent_guides.htm"><span class="doc std std-doc">縮進參考線</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/tab_column_popup.htm"><span class="doc std std-doc">制表欄</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/indent_column_popup.htm"><span class="doc std std-doc">縮進欄</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/toggle_auto_indent.htm"><span class="doc std std-doc">自動縮進</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/toggle_spaces_tab.htm"><span class="doc std std-doc">將制表符轉換為空白</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/view/toggle_wrap_indent.htm"><span class="doc std std-doc">換行縮進</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/compare_direct.htm"><span class="doc std std-doc">比較</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/compare_options.htm"><span class="doc std std-doc">按參數比較</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/compare_rescan.htm"><span class="doc std std-doc">重新掃描</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/sync_scroll_direct.htm"><span class="doc std std-doc">同步滾動</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/sync_scroll_options.htm"><span class="doc std std-doc">按參數同步滾動</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/compare_reset.htm"><span class="doc std std-doc">重設</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/ignore_lead_space.htm"><span class="doc std std-doc">忽略前導空白</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/ignore_trail_space.htm"><span class="doc std std-doc">忽略末尾空白</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/ignore_embedded_space.htm"><span class="doc std std-doc">忽略內嵌空白</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/ignore_cases.htm"><span class="doc std std-doc">忽略大小寫</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/ignore_returns.htm"><span class="doc std std-doc">忽略回車</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/ignore_comment.htm"><span class="doc std std-doc">忽略注釋</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/ignore_encoding.htm"><span class="doc std std-doc">忽略編碼</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/sync_vert.htm"><span class="doc std std-doc">同步垂直滾動</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/sync_horz.htm"><span class="doc std std-doc">同步水平滾動</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/sync_caret.htm"><span class="doc std std-doc">同步光標位置</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/sync_restore_pos.htm"><span class="doc std std-doc">完成后還原窗口位置</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/compare_save_options.htm"><span class="doc std std-doc">保存參數</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/compare_prev.htm"><span class="doc std std-doc">上一更改</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/compare_next.htm"><span class="doc std std-doc">下一更改</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/compare_prev_line.htm"><span class="doc std std-doc">上一更改的行</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/diff/compare_next_line.htm"><span class="doc std std-doc">下一更改的行</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/window/restore_combined_pos.htm"><span class="doc std std-doc">還原標簽窗口位置</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/window/sync_horz_scroll_split.htm"><span class="doc std std-doc">當分割時同步水平滾動</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/window/sync_vert_scroll_split.htm"><span class="doc std std-doc">當分割時同步垂直滾動</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/window/next_pane_or_bar.htm"><span class="doc std std-doc">下一窗格或自訂分欄</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/window/prev_pane_or_bar.htm"><span class="doc std std-doc">上一窗格或自訂分欄</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/window/next_zorder_doc.htm"><span class="doc std std-doc">最后訪問的文檔</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/window/prev_zorder_doc.htm"><span class="doc std std-doc">最少訪問的文檔</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/window/right_doc.htm"><span class="doc std std-doc">右邊的文檔</span></a></strong></p></li>
+<li><p><strong><a class="reference internal" href="../cmd/window/left_doc.htm"><span class="doc std std-doc">左邊的文檔</span></a></strong></p></li>
+</ul>
+</section>
+<section id="id9">
+<h2>新增工具列按鈕<a class="headerlink" href="#id9" title="本標頭的永久連結">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><img alt="" src="../_images/compare24x16.gif" /><a class="reference internal" href="../cmd/diff/compare_direct.htm"><span class="doc std std-doc">比較</span></a></p></td>
+<td><p>不指定參數比較最后訪問的兩個文檔。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../_images/rescan24x16.gif" /><a class="reference internal" href="../cmd/diff/compare_rescan.htm"><span class="doc std std-doc">重新掃描</span></a></p></td>
+<td><p>重新掃描并刷新所比較的文檔。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../_images/sync24x16.gif" /><a class="reference internal" href="../cmd/diff/sync_scroll_direct.htm"><span class="doc std std-doc">同步滾動</span></a></p></td>
+<td><p>不指定參數直接同步滾動兩個最近訪問的文檔。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../_images/reset24x16.gif" /><a class="reference internal" href="../cmd/diff/compare_reset.htm"><span class="doc std std-doc">重設</span></a></p></td>
+<td><p>重設比較或同步滾動模式并清除比較結果</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../_images/line_number24x16.gif" /><a class="reference internal" href="../cmd/view/view_line_numbers.htm"><span class="doc std std-doc">行號</span></a></p></td>
+<td><p>顯示或隱藏行號。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../_images/ruler24x16.gif" /><a class="reference internal" href="../cmd/view/view_ruler.htm"><span class="doc std std-doc">尺規</span></a></p></td>
+<td><p>顯示或隱藏尺規。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../_images/auto_indent24x16.gif" /><a class="reference internal" href="../cmd/view/toggle_auto_indent.htm"><span class="doc std std-doc">自動縮進</span></a></p></td>
+<td><p>啟用或停用自動縮進。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../_images/space_tab24x16.gif" /><a class="reference internal" href="../cmd/view/toggle_spaces_tab.htm"><span class="doc std std-doc">將制表符轉換為空白</span></a></p></td>
+<td><p>將制表符轉換為空白。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../_images/wrap_indent24x16.gif" /><a class="reference internal" href="../cmd/view/toggle_wrap_indent.htm"><span class="doc std std-doc">換行縮進</span></a></p></td>
+<td><p>啟用或停用換行縮進。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../_images/tab_column24x16.gif" /><a class="reference internal" href="../cmd/view/tab_column_popup.htm"><span class="doc std std-doc">制表欄</span></a></p></td>
+<td><p>顯示一個彈出菜單來選擇制表欄。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../_images/indent_column24x16.gif" /><a class="reference internal" href="../cmd/view/indent_column_popup.htm"><span class="doc std std-doc">縮進欄</span></a></p></td>
+<td><p>顯示一個彈出菜單來選擇縮進欄。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../_images/html2uni24x16.gif" /><a class="reference internal" href="../cmd/edit/decode_html_char_ref.htm"><span class="doc std std-doc">將 HTML/XML 字符引用轉換為 Unicode</span></a></p></td>
+<td><p>將選中的文本視為 HTML/XML 字符引用進行解碼。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../_images/uni2html24x16.gif" /><a class="reference internal" href="../cmd/edit/encode_html_char_ref.htm"><span class="doc std std-doc">將 Unicode 轉換為 HTML/XML 字符引用</span></a></p></td>
+<td><p>將已選中的文本編碼為 HTML/XML 字符引用的格式。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../_images/ucs2uni24x16.gif" /><a class="reference internal" href="../cmd/edit/decode_ucn.htm"><span class="doc std std-doc">將通用字符名稱轉換為 Unicode</span></a></p></td>
+<td><p>將選中的文本視為通用字符名稱進行解碼。</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../_images/uni2ucs24x16.gif" /><a class="reference internal" href="../cmd/edit/encode_ucn.htm"><span class="doc std std-doc">將 Unicode 轉換為通用字符名稱</span></a></p></td>
+<td><p>將選中的文本編碼為通用字符名稱。</p></td>
+</tr>
+<tr class="row-odd"><td><p><img alt="" src="../_images/spelling24x16.gif" /><a class="reference internal" href="../cmd/edit/spell_toggle.htm"><span class="doc std std-doc">拼寫檢查</span></a></p></td>
+<td><p>對文檔進行拼寫檢查。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id10">
+<h2>巨集的新增功能<a class="headerlink" href="#id10" title="本標頭的永久連結">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../macro/spell_prop/index.htm"><span class="doc std std-doc"><strong>SpellProp</strong> 對象</span></a></p></li>
+<li><p><a class="reference internal" href="../macro/config/spell.htm"><span class="doc std std-doc"><strong>Spell</strong> 屬性</span></a> 被添加到 <a class="reference internal" href="../macro/config/index.htm"><span class="doc std std-doc"><strong>Config</strong> 對象</span></a>。</p></li>
+<li><p><a class="reference internal" href="../macro/scroll_prop/horizontal_grid.htm"><span class="doc std std-doc"><strong>HorizontalGrid</strong> 屬性</span></a> 被添加到 <a class="reference internal" href="../macro/scroll_prop/index.htm"><span class="doc std std-doc"><strong>ScrollProp</strong> 對象</span></a>。 <strong>DottedLine</strong> 屬性被棄用了。</p></li>
+<li><p>如果 eeFindCount 標志被指定， <a class="reference internal" href="../macro/selection/selection_find.htm"><span class="doc std std-doc"><strong>Find</strong> 方式</span></a> 現在會返回匹配的字符串出現次數。</p></li>
+</ul>
+</section>
+<section id="api">
+<h2>外掛程式 API 新增功能<a class="headerlink" href="#api" title="本標頭的永久連結">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../plugin/message/ee_get_word.htm"><span class="doc std std-doc">EE_GET_WORD</span></a> 消息。</p></li>
+<li><p><a class="reference internal" href="../plugin/macro/editor_getword.htm"><span class="doc std std-doc">Editor_GetWord</span></a> 內嵌函式。</p></li>
+<li><p>EI_GET_ACTIVE_DOC，EI_SET_ACTIVE_DOC，EI_GET_SYNC_SESSION，以及 EI_GET_LOC_DLL_INSTANCE 標志 (EE_INFO 消息)。</p></li>
+<li><p><em>byteCrLf</em> field 和 FLAG_GET_CRLF_BYTE 標志被添加到 <a class="reference internal" href="../plugin/structure/get_line_info.htm"><span class="doc std std-doc"><strong>GET_LINE_INFO</strong> 結構</span></a> 中。</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">Version 10</a><ul>
+<li><a class="reference internal" href="#id1">一般新增功能</a></li>
+<li><a class="reference internal" href="#id2">新增外掛程式功能</a><ul>
+<li><a class="reference internal" href="#id3">程式碼片段外掛程式</a></li>
+<li><a class="reference internal" href="#id4">大綱外掛程式</a></li>
+<li><a class="reference internal" href="#id5">字詞自動完成外掛程式</a></li>
+<li><a class="reference internal" href="#id6">檔案總管外掛程式</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id7">新增選項</a></li>
+<li><a class="reference internal" href="#id8">新增命令</a></li>
+<li><a class="reference internal" href="#id9">新增工具列按鈕</a></li>
+<li><a class="reference internal" href="#id10">巨集的新增功能</a></li>
+<li><a class="reference internal" href="#api">外掛程式 API 新增功能</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; 版權所有 2023 Emurasoft。
+      使用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 建立。
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

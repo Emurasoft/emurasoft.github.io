@@ -1,6 +1,6 @@
-# Keyboard 屬性
+# Keyboard Property
 
-檢索 [KeyboardProp 對象](../keyboard_prop/index)。
+Retrieves the [KeyboardProp object](../keyboard_prop/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _obj_ = object. **Keyboard**;
 
 Set _obj_ = object. **Keyboard**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

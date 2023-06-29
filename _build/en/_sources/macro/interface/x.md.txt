@@ -1,6 +1,6 @@
-# x 屬性
+# x Property
 
-返回被一個支持的外掛程式所傳遞的游標的水平位置。
+Returns the horizontal position of the cursor passed by a supported plug-in.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _x_ = Interface. **x**;
 
 _x_ = Interface. **x**
 
-## 版本
+## Version
 
-支持 EmEditor 9.00 或之後的版本。
+Supported on EmEditor Professional Version 9.00 or later.

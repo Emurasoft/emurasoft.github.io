@@ -1,6 +1,6 @@
 # SORT\_INFO
 
-用於 [EE\_SORT](../message/ee_sort) 消息。
+Used by the [EE\_SORT](../message/ee_sort) message.
 
 typedef struct \_SORT\_INFO {
 
@@ -18,64 +18,64 @@ COLUMN\_INFO\* anColumns;
 
 } SORT\_INFO;
 
-## 欄位
+## Fields
 
 _nVer_
 
-> 指定結構的版本。必須指定 VER\_SORT\_INFO。
+> Specifies the version of this structure. Must specify VER\_SORT\_INFO.
 
 _nFlags_
 
-> 指定下列值的組合。
+> Specifies a combination of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | NORM\_IGNORECASE | 忽略大小寫。 |
-> | NORM\_IGNOREKANATYPE | 平假名和片假名字元相等。 |
-> | NORM\_IGNORENONSPACE | 忽略非空格字元。 |
-> | NORM\_IGNORESYMBOLS | 忽略符號。 |
-> | NORM\_IGNOREWIDTH | 忽略半形和全形字元之間的差別。 |
-> | SORT\_BINARY\_COMPARISON | 用快速二進位比較來排序。將忽略地區設定資訊。 |
-> | SORT\_COLUMNS | 對欄進行排序。如果未指定，則消息對行進行排序。 |
-> | SORT\_DATE | 對日期和時間進行排序。 |
-> | SORT\_DELETE\_DUPLICATE | 如果還指定了 SORT\_COLUMNS，則刪除指定行中具有相同儲存格的欄。 |
-> | SORT\_DIGITSASNUMBERS | 即使按字母順序排序，數字也會作為序號被排序。 |
-> | SORT\_DIGIT\_GROUPING | 允許對數字進行數字分位。 |
-> | SORT\_IGNORE\_PREFIX | 當用數字升序或數字降序命令時，排序時前導非數字字元會被忽略。 |
-> | SORT\_INSPECT\_NOT\_SEL\_ONLY | 檢查整行即使存在垂直選擇或多重選擇時。 |
-> | SORT\_IPV4 | 對 IPv4 位址進行排序。 |
-> | SORT\_IPV6 | 對 IPv6 位址進行排序。 |
-> | SORT\_LENGTH | 按字元數對字串排序。 |
-> | SORT\_LENGTH\_VIEW | 當選擇按文字長度排序命令時，全形字元會被視為 2 個字元。 |
-> | SORT\_NUM | 對數字進行排序。 |
-> | SORT\_GROUP\_IDENTICAL | 按出現次數對相同的字串進行群組。必須與 SORT\_OCCURRENCE 一起指定。 |
-> | SORT\_OCCURRENCE | 按出現次數排序。 |
-> | SORT\_RANDOM | 隨機排序。 |
-> | SORT\_REMOVE\_EMPTY | 如果還指定了 SORT\_COLUMNS，則刪除指定行中包含空儲存格的欄。 |
-> | SORT\_REVERSE | 反向排序。 |
-> | SORT\_SELECTION\_ONLY | 僅檢查選取部分。 |
-> | SORT\_STABLE | 使用平穩排序來維護相同記錄的相對順序，但通常較慢。 |
-> | SORT\_STRINGSORT | 連字號和縮寫符號被視為正常字元。 |
-> | SORT\_TEXT | 對文字進行排序。 |
-> | SORT\_UNQUOTE\_CELLS | 比較 CSV 文檔儲存格中未加引號的字串。例如，當儲存格字串是 _"a""b"_ 時，要比較的實際字串將是 _a"b_。 |
-> | SORT\_WORDS | 按字數對字串排序。 |
+> | NORM\_IGNORECASE | Case is ignored. |
+> | NORM\_IGNOREKANATYPE | Hiragana and Katakana characters compare as equal. |
+> | NORM\_IGNORENONSPACE | Nonspacing characters are ignored. |
+> | NORM\_IGNORESYMBOLS | Symbols are ignored. |
+> | NORM\_IGNOREWIDTH | The difference between half-width and full-width characters is ignored. |
+> | SORT\_BINARY\_COMPARISON | Fast binary comparison is used to sort. The locale information is ignored. |
+> | SORT\_COLUMNS | Sorts columns. If this is not specified the message sorts lines. |
+> | SORT\_DATE | Sorts date and time. |
+> | SORT\_DELETE\_DUPLICATE | Removes columns with the same cell at the specified line if SORT\_COLUMNS is also specified. |
+> | SORT\_DIGITSASNUMBERS | Digits are sorted as numbers even when sorted by alphabetical order. |
+> | SORT\_DIGIT\_GROUPING | Allows digit grouping in numbers. |
+> | SORT\_IGNORE\_PREFIX | Leading non-numeric characters are ignored when using Sort Smallest to Largest or Sort Largest to Smallest commands. |
+> | SORT\_INSPECT\_NOT\_SEL\_ONLY | Inspects the whole lines even when vertical selection or multiple selections exist. |
+> | SORT\_IPV4 | Sorts IPv4 addresses. |
+> | SORT\_IPV6 | Sorts IPv6 addresses. |
+> | SORT\_LENGTH | Sorts strings by the number of characters. |
+> | SORT\_LENGTH\_VIEW | Full width characters are treated as 2 characters when using Sort Shortest to Longest or Sort Longest to Shortest commands. |
+> | SORT\_NUM | Sorts numbers. |
+> | SORT\_GROUP\_IDENTICAL | Groups identical strings when sorted by occurrence. Must be specified with SORT\_OCCURRENCE. |
+> | SORT\_OCCURRENCE | Sorts by occurrence. |
+> | SORT\_RANDOM | Sorts randomly. |
+> | SORT\_REMOVE\_EMPTY | Removes columns with an empty cell at the specified line if SORT\_COLUMNS is also specified. |
+> | SORT\_REVERSE | Sorts in reverse order. |
+> | SORT\_SELECTION\_ONLY | Inspects only the selected lines. |
+> | SORT\_STABLE | Stable sort is used. The stable sort maintains the relative order of records. The stable sort is usually slower. |
+> | SORT\_STRINGSORT | Punctuation marks are treated the same as symbols. |
+> | SORT\_TEXT | Sorts text. |
+> | SORT\_UNQUOTE\_CELLS | Compares unquoted strings in cells of CSV documents. For instance, when a cell strings is _"a""b"_, the actual string to compare will be _a"b_. |
+> | SORT\_WORDS | Sorts strings by the number of words. |
 
 _pszLocale_
 
-> 指定排序的地區設定資訊。如果該值為空，將使用在自訂對話方塊中指定的地區設定。
+> Specifies the locale used to sort. If this is empty, the locale specified in the Customize dialog box is used.
 
 _bModified_
 
-> 如果在處理消息時修改文檔，則此欄位將設置為 TRUE，否則將設置為 FALSE。
+> This field will be set to TRUE if the document is modified while the message is processed, otherwise it will be set to FALSE.
 
 _nNumOfColumns_
 
-> 指定在 _anColulmns_ 欄位中指定的列數。
+> Specifies the number of columns specified in the _anColumns_ field.
 
 _anColumns_
 
-> 指定一個 [COLUMN\_INFO 結構](../structure/column_info) 數組，每個結構包含要排序的列和要使用的標志。 此欄位不能為NULL。
+> Specifies an array of [COLUMN\_INFO structures](column_info) each of which contains the column to be sorted and the flag to be used. This field cannot be NULL.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional Version 16.4 或之後的版本。
+> Supported on EmEditor Professional Version 16.4 or later.

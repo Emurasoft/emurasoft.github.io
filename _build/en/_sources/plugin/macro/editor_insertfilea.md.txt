@@ -1,25 +1,29 @@
 # Editor\_InsertFileA
 
-在游標處插入指定檔案內容。檔案名用一個 ANSI 字串指定。您能直接用該內嵌函式或明確地發送
-[EE\_INSERT\_FILEA 消息](../message/ee_insert_filea)。
+Inserts the specified file contents at the cursor. The file name is specified
+as an ANSI string. You can use this inline function or explicitly send the
+[EE\_INSERT\_FILEA message](../message/ee_insert_filea).
 
 Editor\_InsertFileA( HWND hwnd, LOAD\_FILE\_INFO\* pLoadFileInfo, LPCSTR
 szFileName );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pLoadFileInfo_
 
-> 指標至一個 [LOAD\_FILE\_INFO](../structure/load_file_info) 結構。如果該參數為空，Editor\_InsertFileA 會通過屬性中預設的方式打開一個檔案。
+> Pointer to a [LOAD\_FILE\_INFO](../structure/load_file_info) structure. If this parameter is NULL, Editor\_InsertFileA
+> will open a file by a method predefined by the properties.
 
 _szFileName_
 
-> 指定一個完整路徑的檔案名稱。如果指定了一個不存在的檔案，Editor\_InsertFileA 會失敗。
+> Specifies a full path file name. If a non-existing file is specified, Editor\_InsertFileA
+> will fail.
 
-## 返回值
+## Return Values
 
-> 如果命令成功，返回值就不是零。如果命令不成功，返回值是零。
+> If the command is successful, the return value is nonzero. If the command
+> it not successful, the return value is zero.

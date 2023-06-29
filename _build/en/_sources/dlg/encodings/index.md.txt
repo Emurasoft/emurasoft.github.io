@@ -1,16 +1,16 @@
-# 「定義編碼」對話方塊
+# Define Encodings dialog box
 
-這個對話方塊會顯示當
-[**定義編碼** 命令](../../cmd/tools/define_code_page) 被選擇時。
+This dialog box appears when the
+[**Define Encodings** command](../../cmd/tools/define_code_page) is selected.
 
-### 「編碼」清單方塊
+### Encoding list box
 
-系統中可用的編碼清單（字碼頁）。最初顯示在功能表和打開/另存新檔對話方塊中的下拉清單方塊中選中的編碼。
+The list of encodings (code pages) available in the system. Checked encodings are displayed initially in menus and the drop-down list box in the Open/Save As dialog boxes.
 
-### 「全部啟用/停用」核取方塊
+### Enable/Disable All check box
 
-啟用或停用清單上的所有條目。
+Enables or disables all items on the list.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

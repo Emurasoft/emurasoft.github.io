@@ -1,6 +1,6 @@
-# RowHeading 屬性
+# RowHeading Property
 
-與在自訂對話方塊中 [**CSV 格式** 頁面](../../dlg/customize/csv/index) 上的 **列標題** 文字方塊對應。
+Corresponds to the **Row headings** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _n_ = object. **RowHeading**
 
 object. **RowHeading** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor Profesional 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

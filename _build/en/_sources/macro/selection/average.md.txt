@@ -1,6 +1,6 @@
-# Average 屬性
+# Average Property
 
-檢索所選內容中包含的數字的平均值。
+Retrieves the average of the numbers contained in the selection.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _v_ = document.selection. **Average**;
 
 _v_ = document.selection. **Average**
 
-## 版本
+## Version
 
-支持 EmEditor Professional v21.5 或之後的版本。
+Supported in EmEditor Professional Version 21.5 or later.

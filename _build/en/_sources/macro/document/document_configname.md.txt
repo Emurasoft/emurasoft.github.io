@@ -1,6 +1,6 @@
-# ConfigName 屬性
+# ConfigName Property
 
-檢索或設置當前配置名稱。
+Retrieves or sets the current configuration name.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _strName_ = document. **ConfigName**
 
 document. **ConfigName** = _strName_
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

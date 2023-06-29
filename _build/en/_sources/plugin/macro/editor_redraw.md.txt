@@ -1,20 +1,23 @@
 # Editor\_Redraw
 
-在 EmEditor 中允許或禁止重繪變更。您能直接用該內嵌函式或明確地發送
-[EE\_REDRAW](../message/ee_redraw) 消息。
+Allows changes in EmEditor to be redrawn or prevents changes in EmEditor from
+being redrawn. You can use this inline function or explicitly send the
+[EE\_REDRAW](../message/ee_redraw) message.
 
 Editor\_Redraw( HWND hwnd, BOOL bRedraw );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _bRedraw_
 
-> 指定重繪狀態。如果該參數是 TRUE，內容會在發生變更之後被重繪。如果該參數是 FALSE，內容將不能在發生變更之後被重繪。
+> Specifies the redraw state. If this parameter is TRUE, the content can be
+> redrawn after a change. If this parameter is FALSE, the content cannot be
+> redrawn after a change.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

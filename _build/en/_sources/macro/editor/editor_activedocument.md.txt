@@ -1,6 +1,6 @@
-# ActiveDocument 屬性
+# ActiveDocument Property
 
-為當前文檔，檢索 [Document 對象](../document/index)。
+Retrieves the [Document Object](../document/index) for the current document.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _doc_ = editor. **ActiveDocument**;
 
 Set _doc_ = editor. **ActiveDocument**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

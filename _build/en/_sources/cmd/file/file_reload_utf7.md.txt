@@ -1,27 +1,33 @@
-# 重新載入為 UTF-7 命令
+# Reload as UTF-7 command
 
-### 摘要
+### Summary
 
-> 用 Unicode(UTF-7) 重新載入目前的檔案。
+> Reloads the current file using Unicode (UTF-7) encoding.
 
-### 說明
+### Description
 
-> 這個命令會用 Unicode(UTF-7) 編碼從磁盤上重新加載目前的檔案。如果文檔已被更改了，這個命令會用最新的內容來取代文檔。如果文檔在 EmEditor 中被更改了，那么 EmEditor 會顯示一條提示消息"您確定您想要放棄更改嗎？"。選擇 **Yes** 會放棄之前所做的修改，并且重新載入新的內容。選擇 **No** 會中止重新載入并讓您繼續編輯文檔。
+> This command reloads the current file from the disk using the Unicode (UTF-7)
+> encoding. If the document is changed within EmEditor, the prompt message
+> "Are you sure you want to abandon changes?" appears. Selecting **Yes**
+> will discard the changes without saving, and will reload the new contents.
+> Selecting **No** will abort reloading and will allow you to continue
+> editing the document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檔案** \> **重新載入** \> **UTF-7**
-- [全部命令](../tools/all_commands): **檔案** \> **重新載入**
+- Default Menu: **File** \> **Reload** \> **UTF-7**
+- [All Commands](../tools/all_commands): **File** \> **Reload**
 \> **UTF-7**
-- 工具列: ![](../../images/reload.gif) (點擊箭頭) \> **系統預設**
-- 狀態列: (在顯示的 **編碼** 上雙擊) \> **UTF-7**
-- 預設捷徑: 無
+- Toolbar: ![](../../images/reload.gif) (on
+the arrow) > **System Default**
+- Status Bar: (double-click on **Encodings**) \> **UTF-7**
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILE\_RELOAD\_UTF7 (4259)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,27 +1,30 @@
-# 定義組態命令
+# Define Configurations command
 
-### 摘要
+### Summary
 
-> 定義組態。
+> Defines Configurations.
 
-### 說明
+### Description
 
-> 顯示 [**定義組態** 對話方塊](../../dlg/configurations/index)，讓您能定義新組態或顯示目前的以及選取的組態屬性。
+> Displays the [**Define Configurations** dialog box](../../dlg/configurations/index),
+> where you can define new configurations or display the properties of
+> current and selected configurations.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **工具** \> **選擇組態** \> **定義組態**
-- [所有命令](all_commands): **工具** >
-**Select Configuration** \> **定義組態**
-- 工具列: ![](../../images/configpopup.gif) (點擊箭頭)
-- 狀態列: (雙擊組態名稱) \> **定義組態**
-- 預設快速鍵: 無
+- Default Menu: **Tools** \> **Select Configuration** \> **Define Configurations**
+- [All Commands](all_commands): **Tools** >
+**Select Configuration** \> **Define Configurations**
+- Toolbar: ![](../../images/configpopup.gif) (not
+on the arrow)
+- Status Bar: (double-click on configuration name) > **Define Configurations**
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CONFIG (4221)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

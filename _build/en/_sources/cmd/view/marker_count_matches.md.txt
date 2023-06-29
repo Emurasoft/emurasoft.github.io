@@ -1,27 +1,27 @@
-# 計算標記相符項目命令
+# Count Marker Matches command
 
-### 摘要
+### Summary
 
-> 計算目前的文檔中所有與標記相符的項目數。
+> Counts matches of all markers in the current document.
 
-### 說明
+### Description
 
-> 計算目前的文檔中所有與標記相符的項目數。
+> Counts matches of all markers in the current document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** \> **標記**
-\> **計算相符項目**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** \> **Markers**
+\> **Count Matches**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_MARKER\_COUNT\_MATCHES (4042)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

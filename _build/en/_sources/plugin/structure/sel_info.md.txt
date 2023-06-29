@@ -1,8 +1,8 @@
 # SEL\_INFO
 
-用於
+Used by
 [Editor\_GetMultiSel](../macro/editor_getmultisel)
-內嵌函式 ( [EE\_GET\_MULTI\_SEL](../../plugin/message/ee_get_multi_sel) 消息)。
+inline function ( [EE\_GET\_MULTI\_SEL](../../plugin/message/ee_get_multi_sel) message).
 
 typedef struct \_SEL\_INFO {
 
@@ -16,24 +16,24 @@ POINT\_PTR ptCaret;
 
 } SET\_INFO;
 
-## 欄位
+## Fields
 
 _cbSize_
 
-> 必須指定 sizeof( SEL\_INFO )。
+> Must specify sizeof( SEL\_INFO ).
 
 _ptStart_
 
-> 指定所選內容的開始位置。
+> Specifies the starting position of the selection.
 
 _ptEnd_
 
-> 指定所選內容的結束位置。
+> Specifies the ending position of the selection.
 
 _ptCaret_
 
-> 指定所選內容的游標位置。
+> Specifies the cursor position of the selection.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 13 或之後的版本。
+> Supported on Version 13 or later.

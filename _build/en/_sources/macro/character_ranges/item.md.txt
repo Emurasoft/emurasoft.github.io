@@ -1,6 +1,6 @@
-# Item 屬性
+# Item Property
 
-為指定索引檢索 [**CharacterRange** 對象](../character_range/index)。
+Retrieves the [**CharacterRange** object](../character_range/index) for the specified index.
 
 #### \[JavaScript\]
 
@@ -12,12 +12,12 @@ list. **Item**( _Index_ );
 _item_ =
 list. **Item**( _Index_ )
 
-## 參數
+## Parameters
 
 _Index_
 
-將項目的索引指定為從零開始的整數。
+Specifies the index of the item as a zero-based integer.
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

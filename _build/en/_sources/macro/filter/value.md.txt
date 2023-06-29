@@ -1,6 +1,6 @@
-# Value 屬性
+# Value Property
 
-指定要搜索的字串。
+Specifies a string to search for.
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ item. **Value**
 
 item. **Value** = _s_
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 16.0 或之後的版本。
+Supported on EmEditor Professional Version 16.0 or later.

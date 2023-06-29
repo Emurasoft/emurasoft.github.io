@@ -1,6 +1,6 @@
-# IgnoreCase 屬性
+# IgnoreCase Property
 
-設置或檢索是否規則運算式忽略大小寫。
+Sets or retrieves whether the regular expression ignores cases.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _b_ = reg. **IgnoreCase**;
 
 reg. **IgnoreCase** = _b_;
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 15.9 或之後的版本。
+Supported on EmEditor Professional Version 15.9 or later.

@@ -1,4 +1,4 @@
-# 歷史記錄
+# History
 
 ```{toctree}
 :maxdepth: 1

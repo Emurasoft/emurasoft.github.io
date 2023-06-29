@@ -1,10 +1,10 @@
-# 創建一個新檔案
+# To Create a New File
 
-1. 在工具列上點擊
+1. Click
 ![New](../../images/filenew.gif)
-。
-2. 在新增的 EmEditor 視窗中輸入您的文字。
+on the Toolbar.
+2. Enter your text in the new EmEditor window.
 
-## 提示
+## Tips
 
-- 或者，雙擊系統匣圖示。
+- Alternatively, double-click the tray icon.

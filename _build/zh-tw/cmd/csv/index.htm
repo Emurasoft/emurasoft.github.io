@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>CSV 類別 &#8212; EmEditor  說明文件</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="索引" href="../../genindex.htm" />
+    <link rel="search" title="搜尋" href="../../search.htm" />
+    <link rel="next" title="置中對齊命令" href="align_center.htm" />
+    <link rel="prev" title="轉換類別" href="../convert/index.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  說明文件</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/cmd/csv/index">English</a>
+                <a href="/emeditor-help/ja/cmd/csv/index">日本語</a>
+                <a href="/emeditor-help/ko/cmd/csv/index">한국어</a>
+                <a href="/emeditor-help/zh-cn/cmd/csv/index">简体中文</a>
+                <a href="/emeditor-help/zh-tw/cmd/csv/index">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">快速搜尋</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">命令參考</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bookmarks/index.htm">書籤類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../convert/index.htm">轉換類別</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">CSV 類別</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="align_center.htm">置中對齊命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="align_left.htm">靠左對齊命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="align_right.htm">靠右對齊命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hide_column.htm">隱藏欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manage_columns.htm">管理欄命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="row_heading_1.htm">列標題 1 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="row_heading_2.htm">列標題 2 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="row_heading_3.htm">列標題 3 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="row_heading_4.htm">列標題 4 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="row_heading_reset.htm">列標題 0 命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unhide_column.htm">取消隱藏欄命令</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../diff/index.htm">比較類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.htm">編輯類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../external_tools/index.htm">外部工具類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.htm">檔案類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../help/index.htm">說明類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert/index.htm">插入類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macros/index.htm">巨集類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugins/index.htm">外掛程式類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.htm">搜尋類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort/index.htm">排序類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/index.htm">工具類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.htm">檢視類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.htm">視窗類別</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.htm">對話方塊</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">常見問題解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">詞彙</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">歷史記錄</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.htm">如何…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">連結</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">巨集參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">注意事項</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.htm">外掛程式參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">如何購買</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">命令參考</a> &lt;
+                CSV 類別
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="csv">
+<h1>CSV 類別<a class="headerlink" href="#csv" title="本標頭的永久連結">¶</a></h1>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/mode_normal.htm"><span class="doc std std-doc">標準模式</span></a></strong></p></td>
+<td><p>選擇標準模式。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/mode_csv.htm"><span class="doc std std-doc">CSV 模式</span></a></strong></p></td>
+<td><p>選擇 CSV (逗號分隔) 模式。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/mode_tsv.htm"><span class="doc std std-doc">TSV 模式</span></a></strong></p></td>
+<td><p>選擇 TSV ( Tab分隔) 模式。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/mode_dsv.htm"><span class="doc std std-doc">使用者定義的 DSV 模式</span></a></strong></p></td>
+<td><p>選擇使用者自訂的分隔符分隔模式 (使用者自訂分隔)。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/sv_mode.htm"><span class="doc std std-doc">CSV (多個條目)</span></a></strong></p></td>
+<td><p>把文檔顯示為指定的分隔值模式 (多個條目)。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/csv_cell_mode.htm"><span class="doc std std-doc">儲存格選擇模式</span></a></strong></p></td>
+<td><p>在 CSV 文檔中編輯目前的儲存格。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../view/csv_hide_quotes.htm"><span class="doc std std-doc">臨時隱藏引號</span></a></strong></p></td>
+<td><p>臨時顯示目前的的 CSV 文檔，不帶引號或逸出數列。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../view/header_toggle.htm"><span class="doc std std-doc">欄標題</span></a></strong></p></td>
+<td><p>顯示或隱藏欄標題。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../view/header_num.htm"><span class="doc std std-doc">用從1開始的數字字元作為欄標題</span></a></strong></p></td>
+<td><p>使用從1開始的數字字元作為欄標題。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../view/header_alpha.htm"><span class="doc std std-doc">用字母字元作為欄標題</span></a></strong></p></td>
+<td><p>使用字母字元作為欄標題。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../view/header_zero_base.htm"><span class="doc std std-doc">用基底為0的數字字元作為欄標題</span></a></strong></p></td>
+<td><p>使用基底為0的數字字元作為欄標題。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/heading_toggle.htm"><span class="doc std std-doc">顯示或隱藏標題（凍結或取消凍結窗格）</span></a></strong></p></td>
+<td><p>將目前的儲存格上方的列和左側的欄設定或重設為不可捲動。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/heading_set.htm"><span class="doc std std-doc">設定標題（凍結窗格）</span></a></strong></p></td>
+<td><p>將目前的儲存格上方的行和左側的列設定為不可捲動。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/heading_reset.htm"><span class="doc std std-doc">欄標題 0</span></a></strong></p></td>
+<td><p>重設欄標題。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/heading_1.htm"><span class="doc std std-doc">欄標題 1</span></a></strong></p></td>
+<td><p>把第一行作為標題並且固定不捲動。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/heading_2.htm"><span class="doc std std-doc">欄標題 2</span></a></strong></p></td>
+<td><p>把前兩行作為標題並且固定不捲動。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/heading_3.htm"><span class="doc std std-doc">欄標題 3</span></a></strong></p></td>
+<td><p>把前三行作為標題並且固定不捲動。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/heading_4.htm"><span class="doc std std-doc">欄標題 4</span></a></strong></p></td>
+<td><p>把前四行作為標題並且固定不捲動。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="row_heading_reset.htm"><span class="doc std std-doc">列標題 0</span></a></strong></p></td>
+<td><p>重設列標題。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="row_heading_1.htm"><span class="doc std std-doc">列標題 1</span></a></strong></p></td>
+<td><p>把第一欄作為標題並且固定不捲動。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="row_heading_2.htm"><span class="doc std std-doc">列標題 2</span></a></strong></p></td>
+<td><p>把前兩欄作為標題並且固定不捲動。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="row_heading_3.htm"><span class="doc std std-doc">列標題 3</span></a></strong></p></td>
+<td><p>把前三欄作為標題並且固定不捲動。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="row_heading_4.htm"><span class="doc std std-doc">列標題 4</span></a></strong></p></td>
+<td><p>把前四欄作為標題並且固定不捲動。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/read_only_headings.htm"><span class="doc std std-doc">欄標題唯讀</span></a></strong></p></td>
+<td><p>切換選項使欄標題唯讀。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/heading_popup.htm"><span class="doc std std-doc">標題 (快顯)</span></a></strong></p></td>
+<td><p>顯示一個快顯功能表來設定標題。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/convert_to_sv.htm"><span class="doc std std-doc">轉換為 CSV (多個條目)</span></a></strong></p></td>
+<td><p>把目前的含有分隔值的文檔或固定欄寬文檔轉換為指定的分隔值文檔 (多個項目)。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/convert_to_fixed_width.htm"><span class="doc std std-doc">固定欄寬</span></a></strong></p></td>
+<td><p>用目前的分隔符位置把目前的含有分隔值的文檔轉換為固定欄寬。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/csv_converter.htm"><span class="doc std std-doc">CSV 轉換器</span></a></strong></p></td>
+<td><p>顯示或隱藏 CSV 轉換器。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/adjust_column.htm"><span class="doc std std-doc">調整分隔符號位置 (整個文檔)</span></a></strong></p></td>
+<td><p>調整 CSV 文檔中所有分隔符號的位置。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/adjust_column_visible.htm"><span class="doc std std-doc">調整分隔符號位置 (僅可見行)</span></a></strong></p></td>
+<td><p>僅在 CSV 文檔的可見行上調整分隔符號位置。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="hide_column.htm"><span class="doc std std-doc">隱藏列</span></a></strong></p></td>
+<td><p>隱藏選取的列或目前的列。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="unhide_column.htm"><span class="doc std std-doc">取消隱藏列</span></a></strong></p></td>
+<td><p>顯示選取列之間的隱藏列。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/reset_column_width.htm"><span class="doc std std-doc">重設列寬</span></a></strong></p></td>
+<td><p>重設 CSV 文檔中所選列的寬度。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="align_left.htm"><span class="doc std std-doc">左對齊</span></a></strong></p></td>
+<td><p>把選取的列或目前的列中的文字向左對齊。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="align_center.htm"><span class="doc std std-doc">居中對齊</span></a></strong></p></td>
+<td><p>把選取的列或目前的列中的文字居中對齊。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="align_right.htm"><span class="doc std std-doc">右對齊</span></a></strong></p></td>
+<td><p>把選取的列或目前的列中的文字向右對齊。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/select_column.htm"><span class="doc std std-doc">選擇不包括標題的 CSV 列</span></a></strong></p></td>
+<td><p>在 CSV 文檔中用垂直選擇模式選擇目前的列但不包括標題。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/select_column_with_headings.htm"><span class="doc std std-doc">選擇包括標題的 CSV 列</span></a></strong></p></td>
+<td><p>在 CSV 文檔中用垂直選擇模式選擇目前的列並包括標題。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/insert_column.htm"><span class="doc std std-doc">在左邊插入一列</span></a></strong></p></td>
+<td><p>在含有分隔值的文檔中的目前的列的左邊插入新的一列。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/insert_column_right.htm"><span class="doc std std-doc">在右邊插入一列</span></a></strong></p></td>
+<td><p>在含有分隔值的文檔中的目前的列的右邊插入新的一列。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/add_column.htm"><span class="doc std std-doc">添加列</span></a></strong></p></td>
+<td><p>在含有分隔值的文檔中的最後一列的右邊添加新的一列。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/duplicate_column.htm"><span class="doc std std-doc">重複列</span></a></strong></p></td>
+<td><p>重複 CSV 文檔中選取的列。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/move_column.htm"><span class="doc std std-doc">移動/複製列</span></a></strong></p></td>
+<td><p>將 CSV 文檔中選取的列或目前的列移動或複製到指定位置。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/combine_columns.htm"><span class="doc std std-doc">合併列</span></a></strong></p></td>
+<td><p>合併 CSV 文檔中選取的列。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/split_column.htm"><span class="doc std std-doc">分割列</span></a></strong></p></td>
+<td><p>分割 CSV 文檔中選取的列。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/make_columns_same.htm"><span class="doc std std-doc">使列數相同</span></a></strong></p></td>
+<td><p>使 CSV 文檔中的列數相同。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/remove_unnecessary_quotes.htm"><span class="doc std std-doc">刪除不需要的雙引號</span></a></strong></p></td>
+<td><p>刪除 CSV 文檔中不需要的雙引號。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/remove_embedded_nl.htm"><span class="doc std std-doc">在 CSV 中刪除嵌入式換行</span></a></strong></p></td>
+<td><p>在 CSV 文檔中刪除嵌入式換行。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/add_quotes.htm"><span class="doc std std-doc">添加引號到所有儲存格上</span></a></strong></p></td>
+<td><p>添加雙引號到 CSV 文檔的所有儲存格上。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/combine_lines.htm"><span class="doc std std-doc">合併行</span></a></strong></p></td>
+<td><p>合併 CSV 文檔中垂直相鄰的重複儲存格。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/flash_fill.htm"><span class="doc std std-doc">快速填入 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>自動填滿 CSV 文檔的整個列中的值。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/transpose.htm"><span class="doc std std-doc">轉置</span></a></strong></p></td>
+<td><p>顯示或隱藏 CSV 文檔的行和列。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/pivot_table.htm"><span class="doc std std-doc">數據透視表</span></a></strong></p></td>
+<td><p>在 CSV 文檔中創建數據透視表。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/unpivot.htm"><span class="doc std std-doc">逆透視</span></a></strong></p></td>
+<td><p>通過平展 CSV 數據將列轉換為行。</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../edit/join_csv.htm"><span class="doc std std-doc">合併 CSV</span></a></p></td>
+<td><p>合併兩個 CSV 文檔。</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../edit/extract_columns.htm"><span class="doc std std-doc">抽出列</span></a></p></td>
+<td><p>從目前的 CSV 文檔中抽出指定列。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/auto_add_separators.htm"><span class="doc std std-doc">自動添加分隔符</span></a></strong></p></td>
+<td><p>自動檢測並添加分隔符當在標準模式下準備轉換為固定列寬模式時。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/add_remove_separator.htm"><span class="doc std std-doc">添加/刪除分隔符</span></a></strong></p></td>
+<td><p>在游標位置處(或在尺規上所指的位置處)添加或刪除一個分隔符當在標準模式下準備轉換為固定列寬模式時。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/remove_all_separators.htm"><span class="doc std std-doc">刪除所有分隔符</span></a></strong></p></td>
+<td><p>在標準模式下，刪除所有分隔符。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/sv_sep_popup.htm"><span class="doc std std-doc">列/分隔符 (快顯功能表)</span></a></strong></p></td>
+<td><p>顯示一個設定列或分隔符選項的快顯式功能表。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/csv_edit_cell.htm"><span class="doc std std-doc">編輯儲存格 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>在 CSV 文檔中編輯目前的儲存格。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/clear_contents.htm"><span class="doc std std-doc">清除內容 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>清除 CSV 文檔中所選區域的內容。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/csv_next_cell.htm"><span class="doc std std-doc">下一儲存格 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>在 CSV 文檔中跳轉到下一個儲存格。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/csv_prev_cell.htm"><span class="doc std std-doc">上一儲存格 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>在 CSV 文檔中跳轉到上一個儲存格。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/csv_up.htm"><span class="doc std std-doc">上方儲存格 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>在 CSV 文檔中跳轉到上面的儲存格。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/csv_down.htm"><span class="doc std std-doc">下方儲存格 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>在 CSV 文檔中跳轉到下面的儲存格。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/right_edge.htm"><span class="doc std std-doc">右邊緣 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>移動到目前的數據區域的右邊緣。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/left_edge.htm"><span class="doc std std-doc">左邊緣 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>移動到目前的數據區域的左邊緣。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/top_edge.htm"><span class="doc std std-doc">上邊緣 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>移動到目前的數據區域的上邊緣。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/bottom_edge.htm"><span class="doc std std-doc">下邊緣 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>移動到目前的數據區域的下邊緣。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/shift_right_edge.htm"><span class="doc std std-doc">延伸到右邊緣 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>把選區延伸到目前的數據區域的右邊緣。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/shift_left_edge.htm"><span class="doc std std-doc">延伸到左邊緣 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>把選區延伸到目前的數據區域的左邊緣。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/shift_top_edge.htm"><span class="doc std std-doc">延伸到上邊緣 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>把選區延伸到目前的數據區域的上邊緣。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/shift_bottom_edge.htm"><span class="doc std std-doc">延伸到下邊緣 (僅限儲存格選擇模式)</span></a></strong></p></td>
+<td><p>把選區延伸到目前的數據區域的下邊緣。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/select_cell.htm"><span class="doc std std-doc">選擇儲存格</span></a></strong></p></td>
+<td><p>在 CSV 模式下選擇目前的游標所在位置的儲存格。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/next_cell.htm"><span class="doc std std-doc">下一儲存格</span></a></strong></p></td>
+<td><p>在 CSV 模式下跳轉至下一儲存格。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><a class="reference internal" href="../edit/prev_cell.htm"><span class="doc std std-doc">上一儲存格</span></a></strong></p></td>
+<td><p>在 CSV 模式下跳轉至上一儲存格。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><a class="reference internal" href="../edit/sv_popup.htm"><span class="doc std std-doc">CSV (快顯功能表)</span></a></strong></p></td>
+<td><p>顯示一個能選擇 CSV 模式的快顯功能表。</p></td>
+</tr>
+</tbody>
+</table>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="align_center.htm">置中對齊命令</a></li>
+<li class="toctree-l1"><a class="reference internal" href="align_left.htm">靠左對齊命令</a></li>
+<li class="toctree-l1"><a class="reference internal" href="align_right.htm">靠右對齊命令</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hide_column.htm">隱藏欄命令</a></li>
+<li class="toctree-l1"><a class="reference internal" href="manage_columns.htm">管理欄命令</a></li>
+<li class="toctree-l1"><a class="reference internal" href="row_heading_1.htm">列標題 1 命令</a></li>
+<li class="toctree-l1"><a class="reference internal" href="row_heading_2.htm">列標題 2 命令</a></li>
+<li class="toctree-l1"><a class="reference internal" href="row_heading_3.htm">列標題 3 命令</a></li>
+<li class="toctree-l1"><a class="reference internal" href="row_heading_4.htm">列標題 4 命令</a></li>
+<li class="toctree-l1"><a class="reference internal" href="row_heading_reset.htm">列標題 0 命令</a></li>
+<li class="toctree-l1"><a class="reference internal" href="unhide_column.htm">取消隱藏欄命令</a></li>
+</ul>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; 版權所有 2023 Emurasoft。
+      使用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 建立。
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

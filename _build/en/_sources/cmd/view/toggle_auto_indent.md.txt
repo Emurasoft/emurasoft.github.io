@@ -1,27 +1,27 @@
-# 自動縮排命令
+# Auto Indent command
 
-### 摘要
+### Summary
 
-> 啟用或停用自動縮排。
+> Enables or disables the auto indent.
 
-### 說明
+### Description
 
-> 啟用或停用自動縮排。當啟用自動縮排時，EmEditor 將會自動縮排新的行來符合緊隨新行之前一行的縮排。
+> Enables or disables the auto indent. When auto indent is enabled, EmEditor will automatically indent newline characters to match the indent of the line immediately preceding the newline character.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **Tab/縮排** \> **自動縮排**
-- [全部命令](../tools/all_commands): **檢視** \> **Tab/縮排** \> **自動縮排**
+- Default Menu: **View** \> **Tab/Indent** \> **Auto Indent**
+- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Auto Indent**
 - Toolbar:
 ![](../../images/auto_indent24x16.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_TOGGLE\_AUTO\_INDENT (4540)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

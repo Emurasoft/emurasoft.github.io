@@ -1,4 +1,4 @@
-# 購買
+# Purchase and Update
 
 ```{toctree}
 :maxdepth: 1

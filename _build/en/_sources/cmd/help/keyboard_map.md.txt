@@ -1,27 +1,27 @@
-# 鍵盤映射圖命令
+# Keyboard Map command
 
-### 摘要
+### Summary
 
-> 顯示可用命令的鍵盤快速鍵清單。
+> Displays all available keyboard shortcuts.
 
-### 說明
+### Description
 
-> 顯示可用命令的鍵盤快速鍵清單。
+> Displays the list of available commands with the keyboard shortcuts.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **幫助** \> **鍵盤映射圖**
-- [全部命令](../tools/all_commands): **幫助** >
-**鍵盤映射圖**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Help** \> **Keyboard Map**
+- [All Commands](../tools/all_commands): **Help** >
+**Keyboard Map**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_KEYBOARD\_MAP (4298)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

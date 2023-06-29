@@ -1,8 +1,10 @@
 # Version 4.13
 
-2005年2月17日
+February 17, 2005
 
-- 修復了 [**多檔尋找** 命令](../cmd/search/grep) 用正確的編碼無法搜尋無關聯副檔名的檔案的 bug。
-- 當儲存一個空檔案時，您能選擇刪除該檔案，儲存為空檔案，或取消儲存指令。
-- 添加了 [**切換水平分割** 命令](../cmd/window/window_split_horz_toggle) 和 [**切換垂直分割** 命令](../cmd/window/window_split_vert_toggle)。
-- 把工具列按鈕 ![](../images/windowsplithorzfix.gif) 的意思變更為 [**切換水平分** 命令](../cmd/window/window_split_horz_toggle)。
+- Fixed a bug that the [**Find in Files** command](../cmd/search/grep) failed to search files with unassociated extensions with correct encodings.
+- When saving an empty file, you can now choose to delete the file, save as an empty file, or cancel the save command.
+- [**Toggle Horizontal Split** command](../cmd/window/window_split_horz_toggle) and [**Toggle Vertical Split** command](../cmd/window/window_split_vert_toggle)
+added.
+- Changed the meaning of the Toolbar button ![](../images/windowsplithorzfix.gif)
+to [**Toggle Horizontal Split** command](../cmd/window/window_split_horz_toggle).

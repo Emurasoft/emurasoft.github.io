@@ -1,57 +1,59 @@
-# 「檔案關聯組態」對話方塊
+# Configuration Associations dialog box
 
-### 檔案類型清單方塊
+### File Types list box
 
-顯示與選取的組態相關聯的檔案類型清單。通過設置關聯，當您打開或儲存副檔名被關聯的檔案時，EmEditor 會自動使用相關聯的組態。
+List of all the file types associated with the selected configuration. By setting an association, the associated configuration is automatically selected when you open files or save files with the associated extension.
 
-### 使用通配符單選按鈕
+### Use Wildcard radio button
 
-指定選取的檔案類型使用通配符，例如 \\* 和 ? 。
+Specifies that the selected file type uses wildcards such as \* and ?.
 
-### 使用規則運算式單選按鈕
+### Use Regular Expressions radio button
 
-指定選取的檔案類型使用規則運算式。
+Specifies that the selected file type uses regular expressions.
 
-### 組態下拉方塊
+### Configuration drop box
 
-指定哪一個組態與選取的檔案類型相關聯。
+Specifies which configuration is associated with the selected file type.
 
-### 「用於 \[多檔尋找\] 對話方塊中的檔案類型」核取方塊
+### Use in Find in Files Filter check box
 
-指定是否將選取的檔案類型用作 **多檔尋找** 對話方塊中的 **檔案類型**。
+Specifies whether the selected file type is used for the **Current File**
+**Type** in the **Find in Files** dialog box.
 
-### 「新增」按鈕
+### New button
 
-點擊該按鈕添加新的項目到清單中。
+Click this button to add a new item to the list.
 
-### 「刪除」按鈕
+### Delete button
 
-點擊該按鈕從清單上刪除選取的項目。
+Click this button to delete the selected item from the list.
 
-### 「上移」按鈕
+### Up button
 
-把選取的項目在清單上向上移動。
+Moves the selected item up on the list.
 
-### 「下移」按鈕
+### Down button
 
-把選取的項目在清單上向下移動。
+Moves the selected item down on the list.
 
-### 「頂部」按鈕
+### Top button
 
-把選取的項目移到清單的最上方。
+Moves the selected item to the top on the list.
 
-### 「底部」按鈕
+### Bottom button
 
-把選取的項目移到清單的最下方。
+Moves the selected item to the bottom on the list.
 
-### 「立即應用」按鈕
+### Apply Now button
 
-立即應用所有設定并關閉對話方塊。
+Applies the settings now without closing the dialog box.
 
-### 「關聯到 EmEditor」按鈕
+### Associate with EmEditor button
 
-顯示 [**與 EmEditor 關聯** 對話方塊](../../dlg/file_associate/index)，讓使用者可以指定要與 EmEditor 相關聯的檔案副檔名。
+Displays the
+[**Associate with EmEditor** dialog box](../../dlg/file_associate/index), where the user can specify which file extensions to associate with EmEditor.
 
-下面的對話方塊同樣能夠通過該對話方塊訪問。
+The following dialog box is also available through this dialog box.
 
-(選擇 **「關聯到 EmEditor」** 按鈕)
+(Select **Associate with EmEditor** button)

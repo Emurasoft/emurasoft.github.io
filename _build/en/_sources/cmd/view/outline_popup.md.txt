@@ -1,28 +1,28 @@
-# 大綱顯示 (快顯功能表) 命令
+# Outlining (Popup Menu) command
 
-### 摘要
+### Summary
 
-> 顯示一個快顯功能表來指定大綱設定。
+> Shows a popup menu to specify outline settings.
 
-### 說明
+### Description
 
-> 顯示一個快顯功能表來指定大綱設定。
+> Shows a popup menu to specify outline settings.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** >
-**大綱** >
-**大綱 (快顯功能表)**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** >
+**Outline** >
+**Outlining (Popup Menu)**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_OUTLINE\_POPUP (3875)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

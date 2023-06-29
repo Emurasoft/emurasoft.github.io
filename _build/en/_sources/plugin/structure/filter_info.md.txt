@@ -1,10 +1,11 @@
 # FILTER\_INFO
 
-用於 [EE\_FILTER](../message/ee_filter) 消息。
+Used by [EE\_FILTER](../message/ee_filter) message. This structure is
+obsolete. New plug-ins should use the [FILTER\_INFO\_EX](filter_info_ex) structure instead.
 
 typedef struct \_FILTER\_INFO {
 
-UINT     cchSize;
+UINT     cbSize;
 
 UINT     flags;
 
@@ -18,44 +19,46 @@ INT\_PTR  xEnd;
 
 } FILTER\_INFO;
 
-## 欄位
+## Fields
 
-_cch_
+_cbSize_
 
-> 指定這個結構的大小，sizeof( FILTER\_INFO )。
+> Specifies the size of this structure, sizeof( FILTER\_INFO ).
 
 _flags_
 
-> 從如下值中指定一個組合。
+> Specifies a combination of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | FLAG\_FIND\_CASE | 大小寫需符合。 |
-> | FLAG\_FIND\_CONTINUE | 指定下次調用的 EE\_FILTER 消息不會清除篩選記錄。在調用這個消息之後，這個篩選不會被馬上應用。您可以在您要進行多個級別的篩選時，使用這個標志。它與 FLAG\_FIND\_KEEP\_PREVIOUS 標志相同，但由于實際的篩選不會在每次調用消息時被應用，這個方法更適用於多個篩選級別。 |
-> | FLAG\_FIND\_ESCAPE | 使用逸出序列。 |
-> | FLAG\_FIND\_KEEP\_PREVIOUS | 指定 EE\_FILTER 消息不會在應用新篩選前清除已存在的篩選記錄。您可以在您要進行多個級別的篩選時，使用這個標志。 |
-> | FLAG\_FIND\_LOGICAL\_OR | 指定一個運算邏輯分離 (logical OR) 到之前的層級上在多層級篩選的情況下。 |
-> | FLAG\_FIND\_NEGATIVE | 顯示篩選工具列并排除與指定字串符合的行。 |
-> | FLAG\_FIND\_ONLY\_WORD | 整個單字需符合。 |
-> | FLAG\_FIND\_REG\_EXP | 使用一個規則運算式。 |
-> | eeFindRemoveLast | 刪除前一次添加的篩選級別。 |
+> | FLAG\_FIND\_CASE | Matches cases. |
+> | FLAG\_FIND\_CONTINUE | Specifies the EE\_FILTER message called next time should not clear the filter. This filter is not <br> applied immediately after this message is called. This flag is used when you want to create multiple levels of the filter. <br> It is similar to the FLAG\_FIND\_KEEP\_PREVIOUS flag, but since the actual filter is not <br> applied each time the message is called, this method works faster if there are multiple filter levels. |
+> | FLAG\_FIND\_ESCAPE | Uses escape sequences. |
+> | FLAG\_FIND\_KEEP\_PREVIOUS | Specifies the EE\_FILTER message should not clear the existing filter before applying the new filter. This flag is used when you want to create multiple levels of the filter. |
+> | FLAG\_FIND\_LOGICAL\_OR | Specifies a logical disjunction (logical OR) to the previous level in case of multiple levels of the filter. |
+> | FLAG\_FIND\_NEGATIVE | Shows the Filter toolbar and excludes the lines that match the specified string. |
+> | FLAG\_FIND\_ONLY\_WORD | Searches only words. |
+> | FLAG\_FIND\_REG\_EXP | Uses a regular expression. |
+> | FLAG\_FIND\_REMOVE\_LAST | Removes the last added filter level. |
 
 _iColumn_
 
-> 指定您想要搜尋的文字的欄位的索引，或指定 -1 如果您想要搜尋整行。如果您要用字元數把開始以及結束的文字指定為 _xBegin_ 和 _xEnd_，可以指定 -2。
+> Specifies the index of the column of the text you want to search, or -1 if you want to search whole lines, or -2 if you want to specify the beginning and end of the text in characters as _xBegin_ and _xEnd_.
 
 _pszFilter_
 
-> 指定一個要搜尋的字串。
+> Specifies a string to search for.
 
 _xBegin_
 
-> 指定您想要搜尋的文字的欄位開始的索引 (用邏輯字元數) ；您也可以指定 -1 如果您想要把文字的最后一部分作為 _xEnd_。要使這個欄位有效， _iColumn_ 值必須是 -2。
+> Specifies the index of beginning of the column (in logical characters) of the text you want to search, or -1 if you want to
+> count the last portion of the text and specify as _xEnd_. The _iColumn_ must be -2 to enable this field.
 
 _xEnd_
 
-> 指定您想要搜尋的文字的欄位結束的索引 (用邏輯字元數) ；您也可以指定 -1 如果您想要搜尋所有剩下的文字。要使這個欄位有效， _iColumn_ 值必須是 -2。
+> Specifies the index of ending of the column (in logical characters) of the text you want to search, or -1 if you want to search
+> all the rest of the text. The _iColumn_ must be -2 to enable this field.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional 14.7 或之後的版本。
+> Supported on EmEditor Professional Version 14.7 or later.

@@ -1,6 +1,6 @@
-# FindWindowByID 方法
+# FindWindowByID Method
 
-通過視窗標識符尋找子 Window 對象。
+Finds the child window object by the window identifier.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,12 @@ wndChild = wnd. **FindWindowByID**( id );
 
 wndChild = wnd. **FindWindowByID**( id )
 
-## 參數
+## Parameters
 
 _id_
 
-指定視窗標識符。
+Specifies the window identifier.
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

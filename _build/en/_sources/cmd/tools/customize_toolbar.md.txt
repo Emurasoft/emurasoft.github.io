@@ -1,27 +1,28 @@
-# 自訂工具列命令
+# Customize Toolbars command
 
-### 摘要
+### Summary
 
-> 自訂工具列設置。
+> Customizes toolbar settings.
 
-### 說明
+### Description
 
-> 顯示 [**工具列** 對話方塊](../../dlg/toolbars/index)，讓您能自訂工具列。
+> Displays the [**Toolbars** dialog box](../../dlg/toolbars/index),
+> where you can customize toolbars.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **工具** \> **自訂工具列**
-- [所有命令](all_commands): **工具** >
-**自訂工具列**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Tools** \> **Customize Toolbars**
+- [All Commands](all_commands): **Tools** >
+**Customize Toolbars**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE\_TOOLBAR (4224)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

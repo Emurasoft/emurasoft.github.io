@@ -1,6 +1,8 @@
-# UsePrinterFont 屬性
+# UsePrinterFont Property
 
-與自訂字型對話方塊中的 [**在下方的清單中包含預設的印表機字型** 核取方塊](../../dlg/properties/font/index) 相對應。
+Corresponds to the **Include**
+**Default Printer Fonts in Lists Below** check box in the
+[**Customize Font** dialog box](../../dlg/properties/font/index).
 
 #### \[JavaScript\]
 
@@ -16,6 +18,6 @@ object. **UsePrinterFont**
 
 object. **UsePrinterFont** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

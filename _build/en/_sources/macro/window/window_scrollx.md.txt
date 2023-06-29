@@ -1,6 +1,6 @@
-# scrollX 屬性
+# scrollX Property
 
-返回捲軸的水平位置。
+Returns the horizontal position of the scroll bar.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _xPos_ = **scrollX**;
 
 _xPos_ = **scrollX**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

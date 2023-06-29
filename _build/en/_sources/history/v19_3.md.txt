@@ -1,28 +1,28 @@
 # Version 19.3
 
-2019年10月8日
+October 8, 2019
 
-## 一般新增功能
+## New General Features
 
-- 當選擇多行或進行多個選取後執行 **篩選**， **篩選除外**， **在欄中篩選**，或 **在欄中篩選除外** 命令時，新版本會把多個字串設為 **進階篩選**。
-- 當選擇多行或進行多個選取後執行 **新增標記** 或 **新增或刪除標記** 命令，新版本會把多個字串添加到 **標記** 中，或從 **標記** 工具列中刪除這些字串。
-- 添加了 **全設為書籤** 命令到在 **標記** 工具列上單擊滑鼠右鍵所顯示的內容功能表中。
-- 添加了更多的選項讓你能自訂 **啟動** 視窗。
-- 在 **啟動** 視窗中的清單控制項之外單擊滑鼠右鍵時，新版本將顯示一個內容功能表。
-- 添加了 **管線分隔** 格式到預設的 CSV 格式定義，並將一個現有格式的稱謂該成 **比較報告**。
-- 當文檔包含很長的行時，提高了各種操作的速度。
+- The new version sets multiple strings as the **Advanced Filter** when selecting multiple lines or making multiple selections, and then selecting the **Filter**, **Filter Out**, **Filter in Column**, or **Filter Out in Column** command.
+- The new version adds multiple strings to the **Markers** or removes multiple strings from the **Markers** when selecting multiple lines or making multiple selections, and then selecting the **Add to Markers** or **Add to/Remove from Markers** command.
+- Added the **Bookmark All** command to the menu displayed when right-clicked on a button in the **Marker** toolbar.
+- Added more options to customize the **Start** window.
+- The new version displays a context menu when right-clicked outside the list controls in the **Start** window.
+- Added the **Pipe separated** format to the default CSV format definitions, and change the title of a existing format to **Comparison Report**.
+- Improved the speed of various operations when the document contains a very long line.
 
-### 測試結果：
+### Test results:
 
-|  | v19.2 | v19.3 | 比較 |
+|  | v19.2 | v19.3 | Comparison |
 | --- | --- | --- | --- |
-| 在沒有換行符號的非常大的文檔中移動游標 | 59.9 秒 | 8.72 秒 | 快 6.87 倍 |
+| Move cursor in a very large document without newlines | 59.9 seconds | 8.72 seconds | 6.87 times faster |
 
-\\* 3.38 GB，1 行（無換行符號），XML 檔案，運行巨集把游標移至行尾，然後至還剩 1,000 字元處。勾選「使用臨時檔案」選項。
+\\* 3.38 GB, 1 line (no newlines), XML file, run a macro to move to the end of line, and then 1,000 characters left. Use Temporary Files on.
 
-測試系統：Windows 10 (64-bit)，Core i9-9900K，32GB RAM，2TB SSD。
+Windows 10 (64-bit), Core i9-9900K, 32GB RAM, 2TB SSD.
 
-## 新增選項
+## New Options
 
-- 添加了 **當儲存 Unicode 為 ANSI 時提示** 核取方塊， **編碼** 下拉清單方塊以及 **換行符號** 下拉清單方塊到 **合併檔案** 精靈中的 [**目的檔案和選項** 頁面](../dlg/combine_files/combine_wiz_dest) 上。
-- 添加了 **顯示額外的按鈕**， **貼齊主視窗**， **變更的日期**， **類型**，和 **大小** 核取方塊以及 **大圖示** 和 **小圖示** 選項按鈕到 [**自訂啟動視窗** 對話方塊](../dlg/customize_start/index) 中。
+- Added the **Prompt when Saving Unicode as ANSI** check box, **Encoding** drop-down list box, and **Newline Character** drop-down list box to the [**Destination files and options** page](../dlg/combine_files/combine_wiz_dest) of the **Combine Files** wizard.
+- Added the **Show Additional Buttons**, **Snap to Main Window**, **Date Modified**, **Type**, and **Size** check boxes, and **Large Icons** and **Small Icons** radio buttons to the [**Customize Start Window** dialog box](../dlg/customize_start/index).

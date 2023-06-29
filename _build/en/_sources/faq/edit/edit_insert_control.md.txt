@@ -1,3 +1,7 @@
-# Q. 可以插入控制字元，例如換頁符嗎？
+# Q. Can I insert control characters such as form feeds?
 
-要在EmEditor 中插入控制字元，在 **編輯** 功能表下選擇 **進階** \> **插入特殊字元**。另外，您也可以用 CTRL (+ SHIFT) 加對應的鍵來輸入您要的字元。但是，前提是這個組合沒有被定義成別的快速鍵，并且， 請確認在 **組態屬性** 中的 **「一般」** 頁面上 **「允許插入控制字元」** 核取方塊已勾選。
+To insert control characters on EmEditor v3, select **Advanced** \> **Insert**
+**Special Characters** under the **Edit** menu. Alternatively, you can type
+corresponding keys with CTRL (+ SHIFT) only if the corresponding keys have not
+been assigned for shortcut keys and if the **Allow Insert Control Characters** is
+checked on the **General** tab of **Properties**.

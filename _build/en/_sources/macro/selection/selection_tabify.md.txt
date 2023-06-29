@@ -1,6 +1,6 @@
-# Tabify 方法
+# Tabify Method
 
-把選定內容中的空白轉換為 tab。
+Converts spaces to tabs in the selection.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document.selection. **Tabify**();
 
 document.selection. **Tabify**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

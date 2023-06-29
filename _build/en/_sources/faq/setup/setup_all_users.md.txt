@@ -1,5 +1,5 @@
-# Q. 如何在安裝過程中選擇「每個人（所有使用者）」？
+# Q. How can I select the Everybody (all users) during installation?
 
-預設情況下，安裝程式中的 **安裝類型** 對話方塊處於停用狀態，您無法選擇 **每個人（所有使用者）** 選項。 我們建議接受預設的「只為我」安裝，因為將來更新會更安全、更容易。但是，如果您在安裝 EmEditor 時確實需要選擇 **每個人（所有使用者）** 選項，則必須在命令列中指定 **MSIINSTALLPERUSER=””** 選項。例如，如果 EmEditor 安裝檔案是 emed64\_21.1.0.msi，您將需要按 **Win(⊞)+R** 鍵來調出 **運行** 對話方塊，然後輸入以下命令：
+By default, the **Installation Type** dialog in the Installer is disabled, and you cannot select the **Everybody (all users)** option. We recommend accepting the default per-user install because it will be safer and easier to update in the future. However, if you really need to select the **Everybody (all users)** option while installing EmEditor, you must specify **MSIINSTALLPERUSER=””** option in the command line. For instance, if the EmEditor installation file is emed64\_21.1.0.msi, you will need to press **Win(⊞)+R** keys to bring up the **Run** dialog box, and enter the following command:
 
 msiexec /i "(...path...)emed64\_21.1.0.msi" MSIINSTALLPERUSER=""

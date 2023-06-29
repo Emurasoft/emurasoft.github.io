@@ -1,7 +1,9 @@
-# 設置唯讀模式
+# To Set Read-Only Mode
 
-在 **編輯** 功能表下選擇 **唯讀**。
+Select **Read Only** under the **Edit** menu.
 
-### 注意
+### Notes
 
-- 如果文檔已被修改，會出現警示消息 **「您確定要放棄更改并繼續嗎？」**。選擇 **是** 將放棄更改。
+- If the document has been modified, the warning message **Are you sure to**
+**want to abandon the change and continue?** will appear. Selecting **Yes**
+will abandon the changes.

@@ -1,6 +1,6 @@
-# CopyPath 方法
+# CopyPath Method
 
-僅複製文檔的路徑到剪貼簿上。
+Copies the path of the document without its file name to the Clipboard.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document. **CopyPath**();
 
 document. **CopyPath**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

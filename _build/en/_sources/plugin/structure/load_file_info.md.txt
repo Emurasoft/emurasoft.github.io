@@ -1,9 +1,9 @@
 # LOAD\_FILE\_INFO\_EX
 
-用於 [Editor\_LoadFileA](../macro/editor_loadfilea)
-和 [Editor\_LoadFileW](../macro/editor_loadfilew)
-內嵌函式 ( [EE\_LOAD\_FILEA](../message/ee_load_filea) 和
-[EE\_LOAD\_FILEW](../message/ee_load_filew) 消息) 中。
+Used by [Editor\_LoadFileA](../macro/editor_loadfilea)
+and [Editor\_LoadFileW](../macro/editor_loadfilew)
+inline functions ( [EE\_LOAD\_FILEA](../message/ee_load_filea) and
+[EE\_LOAD\_FILEW](../message/ee_load_filew) messages).
 
 typedef struct \_LOAD\_FILE\_INFO\_EX {
 
@@ -27,50 +27,51 @@ UINT nFlags;
 
 _cbSize_
 
-> 一定是 sizeof(LOAD\_FILE\_INFO\_EX)。
+> Must be sizeof(LOAD\_FILE\_INFO\_EX).
 
 _nCP_
 
-> 按檔案被打開的方式指定一個代碼頁。
+> Specifies a code page by which a file is opened.
 >
 > |     |     |
 > | --- | --- |
-> | CODEPAGE\_ANSI | 標準 ANSI |
+> | CODEPAGE\_CONFIG | Uses file encodings specified in the configuration associated with the opened file. |
+> | CODEPAGE\_ANSI | Normal ANSI |
 > | CODEPAGE\_UNICODE | Unicode little endian |
 > | CODEPAGE\_UNICODE\_BIGENDIAN | Unicode big endian |
 > | CODEPAGE\_UTF8 | UTF-8 |
 > | CODEPAGE\_UTF7 | UTF-7 |
-> | CODEPAGE\_932 | 日文 Shift JIS |
-> | CODEPAGE\_JIS | 日文 JIS |
-> | CODEPAGE\_EUC | 日文 EUC |
-> | CODEPAGE\_AUTO\_SJIS\_JIS | 從日文 Shift JIS 和 JIS 轉換。 |
-> | CODEPAGE\_AUTO\_SJIS\_JIS\_EUC | 從日文 Shift JIS、JIS、EUC 轉換。 |
-> | Others | 您能通過系統使用的所有代碼頁。 |
+> | CODEPAGE\_932 | Japanese Shift JIS |
+> | CODEPAGE\_JIS | Japanese JIS |
+> | CODEPAGE\_EUC | Japanese EUC |
+> | CODEPAGE\_AUTO\_SJIS\_JIS | Converts from Japanese Shift JIS and JIS. |
+> | CODEPAGE\_AUTO\_SJIS\_JIS\_EUC | Converts from Japanese Shift JIS、JIS、EUC. |
+> | Others | All code pages you can use by system. |
 
 _bDetectUnicode_
 
-> 如果 TRUE，Unicode 會被偵測。
+> If TRUE, Unicode will be detected.
 
 _bDetectAll_
 
-> 如果 TRUE，所有代碼頁會被偵測。
+> If TRUE, all code pages will be detected.
 
 _bDetectCharset_
 
-> 如果 TRUE，HTML/XML Charset 會被偵測。
+> If TRUE, HTML/XML Charset will be detected.
 
 _bDetectUTF8_
 
-> 如果 TRUE，UTF-8 會被偵測。
+> If TRUE, UTF-8 will be detected.
 
 _nFlags_
 
-> 從如下值中指定一個組合。
+> Specifies a combination of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | LFI\_ALLOW\_ASYNC\_OPEN | 允許異步打開一個檔案。 |
-> | LFI\_ALLOW\_NEW\_WINDOW | 在新視窗中打開一個檔案。 |
-> | LFI\_USE\_TEMP\_FILE | 打開檔案時使用臨時檔案。 |
-> | LFI\_DONT\_USE\_TEMP\_FILE | 打開檔案時不使用臨時檔案。如果既沒有指定 LFI\_USE\_TEMP\_FILE 也沒有指定 LFI\_DONT\_USE\_TEMP\_FILE，EmEditor 會根據將要打開的檔案大小自動選擇使用臨時檔案。 |
-> | LFI\_DONT\_ADD\_RECENT | 不將檔案路徑添加到最近的檔案清單中。 |
+> | LFI\_ALLOW\_ASYNC\_OPEN | Allows a file to be opened asynchronously. |
+> | LFI\_ALLOW\_NEW\_WINDOW | Opens a file in a new window. |
+> | LFI\_USE\_TEMP\_FILE | Uses temporary files when opening a file. |
+> | LFI\_DONT\_USE\_TEMP\_FILE | Doesn't use temporary files when opening a file. If neither LFI\_USE\_TEMP\_FILE nor LFI\_DONT\_USE\_TEMP\_FILE is specified, EmEditor automatically selects to use temporary files depending on the size of the file that is about to be opened. |
+> | LFI\_DONT\_ADD\_RECENT | Doesn't add the file path to the recent file list. |

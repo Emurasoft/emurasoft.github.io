@@ -1,3 +1,5 @@
 # UTF-8
 
-UTF-8 (8-位 Unicode 傳輸格式) 是一個無損，可變長度的字元編碼，它用位元群組來表示許多世界語言的字母的 Unicode 標準。
+UTF-8 (8-bit Unicode Transformation Format) is a lossless,
+variable-length character encoding, which uses groups of bytes to represent the
+Unicode standard for the alphabets of many of the world's languages.

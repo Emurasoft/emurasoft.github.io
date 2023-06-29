@@ -1,8 +1,8 @@
 # BATCH\_GREP\_INFO
 
-用於 [Editor\_BatchFindInFiles](../macro/editor_batchfindinfiles) 和
-[Editor\_BatchReplaceInFiles](../macro/editor_batchreplaceinfiles) 內嵌函式 ( [EE\_FIND\_IN\_FILESW](../message/ee_find_in_filesw) 和 [EE\_REPLACE\_IN\_FILESW \
-消息](../message/ee_replace_in_filesw)) 。
+Used by [Editor\_BatchFindInFiles](../macro/editor_batchfindinfiles) and
+[Editor\_BatchReplaceInFiles](../macro/editor_batchreplaceinfiles) inline functions ( [EE\_FIND\_IN\_FILESW](../message/ee_find_in_filesw) and [EE\_REPLACE\_IN\_FILESW \
+message](../message/ee_replace_in_filesw) s).
 
 typedef struct \_BATCH\_GREP\_INFO {
 
@@ -28,105 +28,108 @@ HRESULT hr;
 
 } BATCH\_GREP\_INFO;
 
-## 欄位
+## Fields
 
 _cbSize_
 
-> 指定 sizeof( BATCH\_GREP\_INFO )。
+> Specifies size\_of(BATCH\_GREP\_INFO).
 
 _nBatchCount_
 
-> 指定在 _lParam_ 參數中指定的 FIND\_REPLACE\_INFO 結構的數量。
+> Specifies the number of FIND\_REPLACE\_INFO structures specified in _lParam_.
 
 _nBatchFlags_
 
-> 指定一個以下值的組合。
+> Specifies a combination of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | FLAG\_FIND\_COUNT\_FREQUENCY | 根據結果創建一個常用字串表。必須與 FLAG\_FIND\_EXTRACT 和 FLAG\_FIND\_OUTPUT\_DISPLAY 合用。 |
-> | FLAG\_FIND\_IGNORE\_FILES | I忽略由 _pszFilesToIgnore_ 指定的檔案或資料夾。 |
-> | FLAG\_FIND\_RECURSIVE | 在指定路徑的子資料夾中搜索。 |
-> | FLAG\_FIND\_REGEX\_BOOST | 使用 Boost.Regex 作為規則運算式引擎。 |
-> | FLAG\_FIND\_REGEX\_ONIGMO | 使用 Onigmo 作為規則運算式引擎。 |
-> | FLAG\_FIND\_OPEN\_DIRECT | 直接打開包含指定字串的文檔。不能與 FLAG\_FIND\_OPEN\_FILTER 或 FLAG\_FIND\_OUTPUT 合用。 |
-> | FLAG\_FIND\_OPEN\_FILTER | 直接打開包含指定字串的文檔，並將指定字串設為篩選。不能與 FLAG\_FIND\_OPEN\_DIRECT 或 FLAG\_FIND\_OUTPUT 合用。 |
-> | FLAG\_FIND\_OUTPUT | 在匯出欄中以清單形式顯示「多檔尋找」結果。不能與 FLAG\_FIND\_OPEN\_DIRECT 或 FLAG\_FIND\_OPEN\_FILTER 合用。 |
-> | FLAG\_FIND\_OUTPUT\_ENCODING | 將編碼名稱附加到檔案名。 |
-> | FLAG\_FIND\_SEPARATE\_CRLF | 區別處理 CR 和 LF。 |
-> | FLAG\_REPLACE\_BACKUP | 儲存備份。不能與 FLAG\_REPLACE\_KEEP\_OPEN 合用。 |
-> | FLAG\_REPLACE\_KEEP\_OPEN | 保持修改的檔案為打開狀態。不能與 FLAG\_REPLACE\_BACKUP 合用。 |
+> | FLAG\_FIND\_COUNT\_FREQUENCY | Creates a table of frequent strings from the results. Must combine with FLAG\_FIND\_OUTPUT\_DISPLAY. |
+> | FLAG\_FIND\_IGNORE\_FILES | Ignores the files or folders specified by _pszFilesToIgnore_. |
+> | FLAG\_FIND\_RECURSIVE | Searches in subfolders of the specified path. |
+> | FLAG\_FIND\_REGEX\_BOOST | Uses Boost.Regex as the regular expression engine. |
+> | FLAG\_FIND\_REGEX\_ONIGMO | Uses Onigmo as the regular expression engine. |
+> | FLAG\_FIND\_OPEN\_DIRECT | Directly opens the document that includes the specified string. Cannot combine with FLAG\_FIND\_OPEN\_FILTER or FLAG\_FIND\_OUTPUT. |
+> | FLAG\_FIND\_OPEN\_FILTER | Directly opens the document that includes the specified string, and set the specified string as the filter. Cannot combine with FLAG\_FIND\_OPEN\_DIRECT or FLAG\_FIND\_OUTPUT. |
+> | FLAG\_FIND\_OUTPUT | Displays the Find in Files results as a list in the Output Bar. Cannot combine with FLAG\_FIND\_OPEN\_DIRECT or FLAG\_FIND\_OPEN\_FILTER. |
+> | FLAG\_FIND\_OUTPUT\_ENCODING | Appends encoding names to file names. |
+> | FLAG\_FIND\_SEPARATE\_CRLF | Treats CR and LF separately. |
+> | FLAG\_REPLACE\_BACKUP | Saves the backups. Cannot be combined with FLAG\_REPLACE\_KEEP\_OPEN. |
+> | FLAG\_REPLACE\_KEEP\_OPEN | Keeps the modified files open. Cannot combine with eeReplaceBackup. <br> Cannot be combined with FLAG\_REPLACE\_BACKUP. |
 >
-> 此外，您可以指定以下值之一。
+> Additionally, you may specify one of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | FLAG\_FIND\_FILE\_AND\_MATCHED | 搜索結果將顯示檔案名和符合的字串。 |
-> | FLAG\_FIND\_FILE\_LINE\_AND\_MATCHED | 搜索結果將顯示檔案名，行號和符合的字串。 |
-> | FLAG\_FIND\_FILENAMES\_ONLY | 搜索結果僅顯示檔案名，而包含搜索字串的整行將不顯示為結果。 |
-> | FLAG\_FIND\_LINE\_ONLY | 搜索結果僅顯示包含搜索字串的整行。 |
-> | FLAG\_FIND\_MATCHED\_ONLY | 搜索結果僅顯示符合的字串。 |
+> | FLAG\_FIND\_FILE\_AND\_MATCHED | File names and matched strings will be displayed. |
+> | FLAG\_FIND\_FILE\_LINE\_AND\_MATCHED | File names, line numbers and matched strings will be displayed. |
+> | FLAG\_FIND\_FILENAMES\_ONLY | Only file names will be displayed and the whole lines containing the searched string will not be displayed as results. |
+> | FLAG\_FIND\_LINE\_ONLY | Only the whole lines containing the searched string will be displayed as results. |
+> | FLAG\_FIND\_MATCHED\_ONLY | Only the matched strings will be displayed as results. |
 
 _nTotalCount_
 
-> 返回時，此欄位將接收所有搜索的檔案中符合字串出現的總數。如果不用於取代檔案，則返回值為所有搜索的檔案中包含符合字串的行總數。
+> On return, this field will contain the total number of the occurrences of the matched string in all the searched files. If this is not used for replacing in files, the return value is the total number of lines containing matched strings in all the searched files.
 
 _pszFind_
 
-> 指定要搜索的字串。
+> Specifies a string to search for.
 
 _pszReplace_
 
-> 多檔取代時，指定要取代的字串。
+> When replacing in files, specifies a string to replace with.
 
 _pszPath_
 
-> 指定要搜索的路徑。它可以包括通配符，例如 \\* 和 ?。
+> Specifies a path to search from. It can include wild cards such as \* and
+> ?.
 
 _pszBackupPath_
 
-> 當多檔取代時，指定備份資料夾，如果 _nFlags_
-> 包括 FLAG\_REPLACE\_BACKUP。
+> When replacing in files, specifies the backup folder, if _nFlags_
+> includes FLAG\_REPLACE\_BACKUP.
 
 _pszFilesToIgnore_
 
-> 如果 _nFlags_ 包括 FLAG\_FIND\_IGNORE\_FILES，則指定要忽略的檔案或資料夾名稱。它可以包括通配符，例如 \* 和 ?。要指定多個檔案，用分號 (;) 來隔開檔案。
+> If _nFlags_ includes FLAG\_FIND\_IGNORE\_FILES, specifies the file or
+> folder names to ignore. It can include wild cards such as \* and ?. To
+> specify multiple files, use semicolons (;) to separate them.
 
 _nCP_
 
-> 指定用於打開檔案的程式碼頁。
+> Specifies a code page by which a file is opened.
 >
 > |     |     |
 > | --- | --- |
-> | CODEPAGE\_ANSI | 標準 ANSI |
+> | CODEPAGE\_ANSI | Normal ANSI |
 > | CODEPAGE\_UNICODE | Unicode little endian |
 > | CODEPAGE\_UNICODE\_BIGENDIAN | Unicode big endian |
 > | CODEPAGE\_UTF8 | UTF-8 |
 > | CODEPAGE\_UTF7 | UTF-7 |
-> | CODEPAGE\_932 | 日文 Shift JIS |
-> | CODEPAGE\_JIS | 日文 JIS |
-> | CODEPAGE\_EUC | 日文 EUC |
-> | CODEPAGE\_AUTO\_SJIS\_JIS | 從日文 Shift JIS 和 JIS 轉換。 |
-> | CODEPAGE\_AUTO\_SJIS\_JIS\_EUC | 從日文 Shift JIS、JIS、EUC 轉換。 |
-> | Others | 你能通過系統使用的所有程式碼頁。 |
-> | CODEPAGE\_DETECT\_UNICODE | 檢測 Unicode。能與另一個值進行組合。 |
-> | CODEPAGE\_DETECT\_UTF8 | 檢測 UTF-8。能與另一個值進行組合。 |
-> | CODEPAGE\_DETECT\_CHARSET | 檢測 HTML/XML Charset。能與另一個值進行組合。 |
-> | CODEPAGE\_DETECT\_ALL | 檢測所有程式碼頁。能與另一個值進行組合。 |
+> | CODEPAGE\_932 | Japanese Shift JIS |
+> | CODEPAGE\_JIS | Japanese JIS |
+> | CODEPAGE\_EUC | Japanese EUC |
+> | CODEPAGE\_AUTO\_SJIS\_JIS | Converts from Japanese Shift JIS and JIS. |
+> | CODEPAGE\_AUTO\_SJIS\_JIS\_EUC | Converts form Japanese Shift JIS、JIS、EUC. |
+> | Others | All code pages you can used by system. |
+> | CODEPAGE\_DETECT\_UNICODE | Detects Unicode. Can be combined with another value. |
+> | CODEPAGE\_DETECT\_UTF8 | Detects UTF-8. Can be combined with another value. |
+> | CODEPAGE\_DETECT\_CHARSET | Detects HTML/XML Charset. Can be combined with another value. |
+> | CODEPAGE\_DETECT\_ALL | Detects all code pages. Can be combined with another value. |
 
 _nLimit_
 
-> 當符合數達到此數字時，EmEditor 將停止搜索檔案。 如果指定 0，則 EmEditor 不會停止搜索檔案。
+> EmEditor stops searching files when the number of matches reaches this number. If 0 is specified, EmEditor does not stop searching files.
 
 _hr_
 
-> 此欄位將由結果值填充，其中負值表示錯誤。錯誤值包括以下值。
+> This field will be filled with the result value where the negative value indicates an error. Error values include the following values.
 >
 > |     |     |
 > | --- | --- |
-> | E\_WRONG\_NUM\_FORMAT | 檢測到數字/IP 地址範圍的格式不正確。 |
-> | E\_REGEX\_UNKNOWN | 規則運算式引擎中發生未知錯誤。 |
+> | E\_WRONG\_NUM\_FORMAT | An incorrect format of a number/IP address range was detected. |
+> | E\_REGEX\_UNKNOWN | An unknown error occurred in the regular expression engine. |
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional 20.0 或之後的版本。
+> Supported on EmEditor Professional Version 20.0 or later.

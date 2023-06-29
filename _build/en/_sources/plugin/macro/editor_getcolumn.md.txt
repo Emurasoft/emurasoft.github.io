@@ -1,20 +1,20 @@
 # Editor\_GetColumn
 
-在 CSV 模式中設置一欄文字。你能用該內嵌函式或明確地發送
-[EE\_GET\_COLUMN](../message/ee_get_column) 消息。
+Sets a column of text in CSV mode. You can use this inline function or explicitly send the
+[EE\_GET\_COLUMN](../message/ee_get_column) message.
 
 Editor\_GetColumn( HWND hwnd, COLUMN\_STRUCT\* pColumnStruct );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pColumnStruct_
 
-> 指針指向 [COLUMN\_STRUCT](../structure/column_struct) 結構。
+> Pointer to the [COLUMN\_STRUCT](../structure/column_struct) structure.
 
-## 返回值
+## Return Values
 
-> 返回值是緩衝區的大小，包括如果成功檢索文字所需的終止 NULL 的字元數，或者如果失敗的負值。返回值可以大于檢索文字的確切大小。
+> The return value is the size of the buffer including the terminating NULL in characters needed to retrieve the text if succeeded, or negative if failed. The return value can be larger than the exact size to retrieve the text.

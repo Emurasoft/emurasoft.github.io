@@ -1,5 +1,9 @@
-# Q. 怎么能使每次打開 EmEditor 視窗時都最大化？
+# Q. How can I always open EmEditor windows at the maximized size?
 
-首先，請最大化 EmEditor 視窗。選擇 **「工具」** 功能表下的
-[**「自訂」** 命令](../../cmd/tools/common_settings)，到 [**「視窗」** 頁面](../../dlg/customize/window/index) 上，
-點擊 **「儲存目前的視窗位置」** 按鈕，再勾選 **「還原視窗位置」** 核取方塊，最后點擊 **「確定」**。
+First maximize the EmEditor window, then select the
+[**Customize** command](../../cmd/tools/common_settings) from the
+**Tools** menu, select the [**Window** page](../../dlg/customize/window/index),
+click the **Save Current**
+**Window Position** button, check the
+**Restore Window**
+**Position** check box, and then click **OK**.

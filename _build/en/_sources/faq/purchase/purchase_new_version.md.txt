@@ -1,5 +1,5 @@
-# Q. 如果我購買了EmEditor，我能免費更新到最新的版本嗎？還是每次要更新到新版本時，我都需要付注冊費？
+# Q. If I purchase EmEditor, can I get the newer version for free? Or do I have to pay for the registration fee every time I get a new version?
 
-如果您購買的是永久授權，您以后都可以免費更新到最新的版本。
+If you purchase a lifetime license, you will get all the new versions for free.
 
-如果您購買的是年訂閱，在 1 年內是不需要支付任何程式升級更新費用的。在 1 年之後，只要您繼續訂閱更新維護計劃，您就可以升級到新版本。
+If you purchase an annual subscription, you will get all the new versions for one year after your purchase date. After one year, you will need to renew your subscription in order to continue using EmEditor.

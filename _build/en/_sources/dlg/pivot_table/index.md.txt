@@ -1,89 +1,90 @@
-# 「樞紐分析表」對話方塊
+# Pivot Table dialog box
 
-當你執行 [**樞紐分析表** 命令](../../cmd/edit/pivot_table) 時，這個對話方塊會出現。
+This dialog box appears when the
+[**Pivot Table** command](../../cmd/edit/pivot_table) is selected.
 
-### 「類型」下拉清單方塊
+### Type drop-down list box
 
-選擇要建立的樞紐分析表類型。
-
-|     |     |
-| --- | --- |
-| 計數 | 計算出現次數。 |
-| 總和 | 對值求和。 |
-| 平均值 | 計算所有值的平均值。 |
-| 最大值 | 最大值。 |
-| 最小值 | 最小值。 |
-
-### 「小數位數」文字方塊
-
-如果在 **類型** 下拉清單方塊中選擇了 **總和**、 **平均值**、 **最大值** 或 **最小值**，請指定小數位數。如果指定了 0，則所有值都被視為整數，並且忽略小數點右邊的任何數字。
-
-### 「資料列」下拉清單方塊
-
-選擇要延伸成新樞紐分析表中的資料列的 CSV 文檔的欄。
-
-### 「排序」下拉清單方塊
-
-選擇新資料列（每列的第一欄）的排序方法。
+Selects the type of a pivot table to be created.
 
 |     |     |
 | --- | --- |
-| 按字母升序排序 | 按文字升序排序。 |
-| 按字母降序排序 | 按文字降序排序。 |
-| 按數字升序排序 | 按數字升序排序。 |
-| 按數字降序排序 | 按數字降序排序。 |
-| 按文字長度從短到長排序 | 按文字長度升序排序。 |
-| 按文字長度從長到短排序 | 按文字長度降序排序。 |
-| 按字數從少到多排序 | 按字數升序排序文字。 |
-| 按字數從多到少排序 | 按字數降序排序文字。 |
-| 按日期和時間從舊到新排序 | 把日期和時間按升序排序。 |
-| 按日期和時間從新到舊排序 | 把日期和時間按降序排序。 |
-| 按出現次數升序排序 | 把出現次數按升序排序。 |
-| 按出現次數降序排序 | 把出現次數按降序排序。 |
-| IPv4 地址升序排序 | 把 IPv4 地址按升序排序。 |
-| IPv4 地址降序排序 | 把 IPv4 地址按降序排序。 |
-| IPv6 地址升序排序 | 把 IPv6 地址按升序排序。 |
-| IPv6 地址降序排序 | 把 IPv6 地址按降序排序。 |
+| Count | Counts the occurrences. |
+| Sum | Sums the values. |
+| Average | Calculates the average of all values. |
+| Max | Maximum value. |
+| Min | Minimum value. |
 
-### 「資料欄」下拉清單方塊
+### Decimal places text box
 
-選擇要延伸成新樞紐分析表中的資料欄的 CSV 文檔的欄。
+Specifies the decimal places if **Sum**, **Average**, **Max** or **Min** is selected in the **Type** drop-down list box. If 0 is specified, all values are treated as integers, and any digits right of the decimal point are ignored.
 
-### 「排序」下拉清單方塊
+### Rows drop-down list box
 
-選擇新資料欄（每欄的第一列）的排序方法。
+Selects the column of the CSV document to be extended to the rows in a new pivot table.
+
+### Sort drop-down list box
+
+Selects the sort method of the new rows (the first column of each row).
 
 |     |     |
 | --- | --- |
-| 按字母升序排序 | 按文字升序排序。 |
-| 按字母降序排序 | 按文字降序排序。 |
-| 按數字升序排序 | 按數字升序排序。 |
-| 按數字降序排序 | 按數字降序排序。 |
-| 按文字長度從短到長排序 | 按文字長度升序排序。 |
-| 按文字長度從長到短排序 | 按文字長度降序排序。 |
-| 按字數從少到多排序 | 按字數升序排序文字。 |
-| 按字數從多到少排序 | 按字數降序排序文字。 |
-| 按日期和時間從舊到新排序 | 把日期和時間按升序排序。 |
-| 按日期和時間從新到舊排序 | 把日期和時間按降序排序。 |
-| 按出現次數升序排序 | 把出現次數按升序排序。 |
-| 按出現次數降序排序 | 把出現次數按降序排序。 |
-| IPv4 地址升序排序 | 把 IPv4 地址按升序排序。 |
-| IPv4 地址降序排序 | 把 IPv4 地址按降序排序。 |
-| IPv6 地址升序排序 | 把 IPv6 地址按升序排序。 |
-| IPv6 地址降序排序 | 把 IPv6 地址按降序排序。 |
+| Sort A to Z | Sorts strings in ascending order. |
+| Sort Z to A | Sorts strings in descending order. |
+| Sort Smallest to Largest | Sorts numbers in strings in ascending order. |
+| Sort Largest to Smallest | Sorts numbers in strings in descending order. |
+| Sort Shortest to Longest | Sorts strings by length in ascending order. |
+| Sort Longest to Shortest | Sorts strings by length in descending order. |
+| Sort Fewest to Most Words | Sorts strings by the number of words in ascending order. |
+| Sort Most to Fewest Words | Sorts strings by the number of words in descending order. |
+| Sort Date and Time Oldest to Newest | Sorts date and time in strings in ascending order. |
+| Sort Date and Time Newest to Oldest | Sorts date and time in strings in descending order. |
+| Sort by Occurrence Ascending | Sorts by occurrence in strings, in ascending order. |
+| Sort by Occurrence Descending | Sorts by occurrence in strings, in descending order. |
+| Sort IPv4 Addresses Ascending | Sorts IPv4 addresses in strings, in ascending order. |
+| Sort IPv4 Addresses Descending | Sorts IPv4 addresses in strings, in descending order. |
+| Sort IPv6 Addresses Ascending | Sorts IPv6 addresses in strings, in ascending order. |
+| Sort IPv6 Addresses Descending | Sorts IPv6 addresses in strings, in descending order. |
 
-### 「值」下拉清單方塊
+### Columns drop-down list box
 
-選擇要延伸到新樞紐分析表中的值的 CSV 文檔的欄。
+Selects the column of the CSV document to be extended to the columns in a new pivot table.
 
-### 「總計欄」核取方塊
+### Sort drop-down list box
 
-在最後一列顯示每欄的總值。如果已設定，請輸入要用於該列第一欄的標籤。
+Selects the sort method of the new columns (the first row of each column).
 
-### 「總計列」核取方塊
+|     |     |
+| --- | --- |
+| Sort A to Z | Sorts strings in ascending order. |
+| Sort Z to A | Sorts strings in descending order. |
+| Sort Smallest to Largest | Sorts numbers in strings in ascending order. |
+| Sort Largest to Smallest | Sorts numbers in strings in descending order. |
+| Sort Shortest to Longest | Sorts strings by length in ascending order. |
+| Sort Longest to Shortest | Sorts strings by length in descending order. |
+| Sort Fewest to Most Words | Sorts strings by the number of words in ascending order. |
+| Sort Most to Fewest Words | Sorts strings by the number of words in descending order. |
+| Sort Date and Time Oldest to Newest | Sorts date and time in strings in ascending order. |
+| Sort Date and Time Newest to Oldest | Sorts date and time in strings in descending order. |
+| Sort by Occurrence Ascending | Sorts by occurrence in strings, in ascending order. |
+| Sort by Occurrence Descending | Sorts by occurrence in strings, in descending order. |
+| Sort IPv4 Addresses Ascending | Sorts IPv4 addresses in strings, in ascending order. |
+| Sort IPv4 Addresses Descending | Sorts IPv4 addresses in strings, in descending order. |
+| Sort IPv6 Addresses Ascending | Sorts IPv6 addresses in strings, in ascending order. |
+| Sort IPv6 Addresses Descending | Sorts IPv6 addresses in strings, in descending order. |
 
-在最右側的欄中顯示每列的總值。如果已設定，請輸入要用於欄第一列的標籤。
+### Values drop-down list box
 
-### 「標題」下拉清單方塊
+Selects the column of the CSV document to be extended to the values in a new pivot table.
 
-指定用作標題的列數。
+### Total in columns check box
+
+Displays the total value of each column at the bottom row. If this is set, enter the label to be used for the first column of the row.
+
+### Total in rows check box
+
+Displays the total value of each row at the rightmost column. If this is set, enter the label to be used for the first row of the column.
+
+### Header drop-down list box
+
+Specifies the number of rows used as the header.

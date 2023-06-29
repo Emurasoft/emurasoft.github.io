@@ -1,6 +1,6 @@
-# Undo 方法
+# Undo Method
 
-撤消上一次的動作。
+Undo the last action.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document. **Undo**();
 
 document. **Undo**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

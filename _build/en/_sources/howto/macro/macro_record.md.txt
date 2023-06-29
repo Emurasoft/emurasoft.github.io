@@ -1,13 +1,18 @@
-# 錄制或運行巨集
+# To Record or Run Macro
 
-1. 在工具列上點擊 ![Start/Stop Macro Record](../../images/macrorecord.gif) 。
-2. 進行您想要錄制的操作。
-3. 完成錄制通過在工具列上再次點擊
-![Start/Stop Macro Record](../../images/macrorecord.gif) 。
-4. 要運行錄制的巨集，點擊工具列上的
-![](../../images/macrorun.gif) 。
+1. Click ![Start/Stop Macro Record](../../images/macrorecord.gif)
+on the Toolbar.
+2. Do the operations you want recorded.
+3. Finish recording by clicking
+![Start/Stop Macro Record](../../images/macrorecord.gif)
+again on the Toolbar.
+4. To run the recorded macro, click
+![](../../images/macrorun.gif) on
+the Toolbar.
 
-## 提示
+## Tips
 
-- EmEditor 不能錄制所有操作。例如，在快速巨集中不允許游標游標移動，因為無法被錄制。
-- 預設設定下，CTRL + SHIFT + R (開始/停止巨集錄制) 以及 CTRL + SHIFT + P (運行巨集) 鍵被設置為這些指令的快速鍵。
+- EmEditor cannot record all operations. For example, mouse cursor movement is
+not allowed during the quick macro, because it cannot be recorded.
+- By default, CTRL + SHIFT + R (Start/Stop Macro Record) and CTRL + SHIFT + P (Run
+Macro) keys are assigned as these commands.

@@ -1,13 +1,14 @@
-# 「選擇事件」對話方塊
+# Select Events dialog box
 
-在 [**自訂巨集** 對話方塊](../../index) 中的 [**我的巨集** 選項卡](../index) 上，點擊「事件」按鈕，該對話方塊就會出現。
+This dialog box appears when the Events button on the [**My Macros** \
+page](../index) of the [**Customize Macros** dialog box](../../index) is selected.
 
-這個對話方塊僅在以管理權限登陸時會顯示。
+This dialog box is available only when logged on with the Administrative privileges.
 
-### 選擇事件列表框
+### Select Events list box
 
-顯示一系列的可以被選為觸發的事件，這樣，巨集就會在遇到這些事件時自動運行。如果使用 **拖放檔案** 事件，則拖放的檔案將不會通過 EmEditor 自動打開，但必須由指定的巨集使用 [**DroppedFiles** 集合](../../../../macro/dropped_files/index) 處理。
+Displays the list of events that can be selected as triggers at which a macro starts running automatically. If the **File Dropped** event is used, dropped files will not be opened automatically with EmEditor, but they must be handled by the specified macro using the [**DroppedFiles** collection](../../../../macro/dropped_files/index).
 
-### 延時滑塊
+### Delay Time slider
 
-在某些事件下，滑塊能被用來調整延遲時間，也就是在巨集運行之前的等候時間。
+For certain events, this slider can be used to adjust the delay time for which a macro waits before it runs.

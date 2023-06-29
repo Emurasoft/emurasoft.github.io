@@ -1,6 +1,6 @@
-# Close 方法
+# Close Method
 
-關閉文檔。
+Closes the document.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document. **Close**();
 
 document. **Close**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

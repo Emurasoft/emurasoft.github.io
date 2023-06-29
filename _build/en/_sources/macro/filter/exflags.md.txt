@@ -1,10 +1,10 @@
-# ExFlags 屬性
+# ExFlags Property
 
-指定以下值的組合。
+Specifies a combination of the following values.
 
 |     |     |
 | --- | --- |
-| eeExFindNumberRange | 符合 [數字範圍運算式](../../howto/search/number_range_syntax)。此標志不能與 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
+| eeExFindNumberRange | Matches a [number range expression](../../howto/search/number_range_syntax). This flag cannot be combined with eeFindReplaceEscSeq or eeFindReplaceRegExp. |
 
 #### \[JavaScript\]
 
@@ -20,6 +20,6 @@ item. **ExFlags**
 
 item. **ExFlags** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor Professional 19.9 或之後的版本。
+Supported on EmEditor Professional Version 19.9 or later.

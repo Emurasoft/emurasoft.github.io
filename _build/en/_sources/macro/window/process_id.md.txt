@@ -1,6 +1,6 @@
-# ProcessID 屬性
+# ProcessID Property
 
-返回進程標識符。
+Returns the process identifier.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _id_ = wnd. **ProcessID**;
 
 _id_ = wnd. **ProcessID**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

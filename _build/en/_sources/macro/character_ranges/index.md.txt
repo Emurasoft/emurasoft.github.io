@@ -1,25 +1,25 @@
-# CharacterRanges 集合
+# CharacterRanges Collection
 
-CharacterRanges 集合提供 [**CharacterRange** 對象](../character_range/index) 的集合。
+CharacterRanges collection provides a collection of [**CharacterRange** objects](../character_range/index).
 
-## 屬性
-
-|     |     |
-| --- | --- |
-| [Count](count) | 檢索項目的數目。 |
-| [Item](item) | 為指定索引檢索 [**CharacterRange** 對象](../character_range/index)。 |
-
-## 方法
+## Properties
 
 |     |     |
 | --- | --- |
-| [AddCharacterRange](add_character_range) | 添加字元範圍。 |
-| [AddString](add_string) | 添加一個字串。 |
-| [Clear](clear) | 刪除集合中的所有項目。 |
+| [Count](count) | Retrieves the number of items. |
+| [Item](item) | Retrieves the [**CharacterRange** object](../character_range/index) for the specified index. |
 
-## 版本
+## Methods
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+|     |     |
+| --- | --- |
+| [AddCharacterRange](add_character_range) | Adds a character range. |
+| [AddString](add_string) | Adds a string. |
+| [Clear](clear) | Removes all items in the collection. |
+
+## Version
+
+Supported on EmEditor Professional Version 22.0 or later.
 
 ```{toctree}
 :maxdepth: 1

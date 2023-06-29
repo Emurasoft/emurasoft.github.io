@@ -1,27 +1,27 @@
-# ScrollProp 對象
+# ScrollProp Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [DoubleLineScroll](double_line_scroll) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **每次捲動兩行** 核取方塊相對應。 |
-| [FastCursorMove](fast_cursor_move) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **快速移動游標** 核取方塊相對應。 |
-| [HalfPage](half_page) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **捲動半頁** 核取方塊相對應。 |
-| [HorizontalBar](horizontal_bar) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **水平捲軸** 下拉清單方塊相對應。 |
-| [HorizontalGrid](horizontal_grid) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **水平格線** 核取方塊相對應。 |
-| [HorizontalLine](horizontal_line) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **水平線** 核取方塊相對應。 |
-| [HorizontalPage](horizontal_page) | Corresponds to the **總是啟用 1 頁水平捲動** 核取方塊相對應。 |
-| [MoveCursorScroll](move_cursor_scroll) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **通過捲動位置移動游標** 核取方塊相對應。 |
-| [ShowOnlyActive](show_only_active) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **只在活動窗格中顯示捲軸** 核取方塊相對應。 |
-| [Smooth](smooth) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **平滑捲動** 核取方塊相對應。 |
-| [SmoothSpeed](smooth_speed) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **平滑捲動滑塊** 相對應。 |
-| [VerticalBar](vertical_bar) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **垂直捲軸** 下拉清單方塊相對應。 |
-| [VerticalLine](vertical_line) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **垂直線** 核取方塊相對應。 |
-| [VerticalPage](vertical_page) | 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **總是啟用 1 頁垂直捲動** 核取方塊相對應。 |
+| [DoubleLineScroll](double_line_scroll) | Corresponds to the **Double Line Scroll** check box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [FastCursorMove](fast_cursor_move) | Corresponds to the **Faster Cursor Movement** check box in the <br> [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [HalfPage](half_page) | Corresponds to the **Scroll Half Page** check box in the <br> [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [HorizontalBar](horizontal_bar) | Corresponds to the **Horizontal Scroll Bar drop-down** list box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [HorizontalGrid](horizontal_grid) | Corresponds to the **Horizontal Grid** check box in the <br> [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [HorizontalLine](horizontal_line) | Corresponds to the **Horizontal Line** check box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [HorizontalPage](horizontal_page) | Corresponds to the **Always Enable 1 Page Horizontal Scroll** check box in the <br> [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [MoveCursorScroll](move_cursor_scroll) | Corresponds to the **Move Cursor by Scrolling** check box in the <br> [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [ShowOnlyActive](show_only_active) | Corresponds to the **Show Scroll Bars Only in Active Pane** check box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [Smooth](smooth) | Corresponds to the **Smooth Scroll** check box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [SmoothSpeed](smooth_speed) | Corresponds to the **Smooth Scroll slider** in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [VerticalBar](vertical_bar) | Corresponds to the **Vertical Scroll Bar drop-down** list box in the <br> [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [VerticalLine](vertical_line) | Corresponds to the **Vertical Line** check box in the <br> [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
+| [VerticalPage](vertical_page) | Corresponds to the **Always Enable 1 Page Vertical Scroll** check box in the <br> [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties. |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

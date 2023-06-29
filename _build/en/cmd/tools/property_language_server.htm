@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>EmEditor Home - EmEditor Help - Command Reference - Tools category &#8212; EmEditor  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="Index" href="../../genindex.htm" />
+    <link rel="search" title="Search" href="../../search.htm" />
+    <link rel="next" title="Link Properties command" href="property_link.htm" />
+    <link rel="prev" title="Wrap Properties command" href="property_kinsoku.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  documentation</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+                    English
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/cmd/tools/property_language_server">English</a>
+                <a href="/emeditor-help/ja/cmd/tools/property_language_server">日本語</a>
+                <a href="/emeditor-help/ko/cmd/tools/property_language_server">한국어</a>
+                <a href="/emeditor-help/zh-cn/cmd/tools/property_language_server">简体中文</a>
+                <a href="/emeditor-help/zh-tw/cmd/tools/property_language_server">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">Quick search</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">Command Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bookmarks/index.htm">Bookmarks category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../convert/index.htm">Convert category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../csv/index.htm">CSV category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../diff/index.htm">Compare category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.htm">Edit category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../external_tools/index.htm">External Tools category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.htm">File category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../help/index.htm">Help category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert/index.htm">Insert category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macros/index.htm">Macros category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugins/index.htm">Plug-ins category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.htm">Search category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort/index.htm">Sort category</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.htm">Tools category</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="all_commands.htm">All Commands command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="all_prop.htm">Properties for All Configurations command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="combine_files.htm">Combine Files command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="common_settings.htm">Customize command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="config.htm">Define Configurations command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="config_popup.htm">Select Configuration (popup menu) command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="configuration_associations.htm">Associate Configurations command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="context_menu.htm">Context Menu command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize.htm">Properties for Current Configuration command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_active_string.htm">Customize Active String command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_advanced.htm">Customize Advanced command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_clipboard.htm">Customize Clipboard command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_csv_options.htm">Customize CSV Options command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_edit.htm">Customize Edit command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_file.htm">Customize File command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_format.htm">Customize Format command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_history.htm">Customize History command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_jump_list.htm">Customize Jump List command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_lang.htm">Customize Language command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_layouts.htm">Customize Layouts command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_markers.htm">Customize Markers command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_markers_auto.htm">Customize Markers - Auto Marker command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_markers_list.htm">Customize Markers - Marker List command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_markers_options.htm">Customize Markers - Options command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_marks.htm">Customize Marks command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_menu.htm">Customize Menus command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_mouse.htm">Customize Mouse command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_notifications.htm">Customize Notifications command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_optimization.htm">Customize Optimization command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_outline.htm">Customize Outline command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_plug_ins.htm">Customize Plug-ins command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_rendering.htm">Customize Text Rendering command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_search.htm">Customize Search command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_shortcut.htm">Customize Shortcut command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_sort.htm">Customize Sort command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_status.htm">Customize Status command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_sv.htm">Customize CSV Formats command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_sync.htm">Customize Sync command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_tab.htm">Customize Tab command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_toolbar.htm">Customize Toolbars command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_tools.htm">Customize Tools command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_tray.htm">Customize Tray Icon command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_update.htm">Customize Update command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_uri_schemes.htm">Customize URI Schemes command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_validation.htm">Customize Syntax Check command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_view.htm">Customize View command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_window.htm">Customize Window command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="customize_workspace.htm">Customize Workspace command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="define_code_page.htm">Define Encodings command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delete_old_settings.htm">Delete Old Settings command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_associate.htm">Associate with EmEditor command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="import_export.htm">Import and Export command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plug_in1.htm">Plug-ins List command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_auto_save.htm">Auto Save Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_backup.htm">Backup Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_char_check.htm"><span class="xref myst">EmEditor Home</span> - <span class="xref myst">EmEditor Help</span> - <span class="xref myst">Command Reference</span>  - <span class="xref myst">Tools category</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_char_check.htm#character-check-properties-command">Character Check Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_comment.htm">Highlight (2) Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_face.htm">No Wrap Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_file.htm">File Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_file_new.htm"><span class="xref myst">EmEditor Home</span> - <span class="xref myst">EmEditor Help</span> - <span class="xref myst">Command Reference</span>  - <span class="xref myst">Tools category</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_file_new.htm#new-file-details-properties-command">New File Details Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_file_save.htm"><span class="xref myst">EmEditor Home</span> - <span class="xref myst">EmEditor Help</span> - <span class="xref myst">Command Reference</span>  - <span class="xref myst">Tools category</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_file_save.htm#save-file-details-properties-command">Save File Details Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_hilite.htm">Highlight (1) Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_indent.htm"><span class="xref myst">EmEditor Home</span> - <span class="xref myst">EmEditor Help</span> - <span class="xref myst">Command Reference</span>  - <span class="xref myst">Tools category</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_indent.htm#tab-indent-properties-command">Tab/Indent Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_keyboard.htm">Keyboard Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_kinsoku.htm">Wrap Properties command</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><span class="xref myst">EmEditor Home</span> - <span class="xref myst">EmEditor Help</span> - <span class="xref myst">Command Reference</span>  - <span class="xref myst">Tools category</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#language-server-properties-command">Language Server Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_link.htm">Link Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_margin.htm">General Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_mark.htm">Marks Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_outline.htm">Outline Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_print.htm">Print Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_scroll.htm">Scroll Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_show.htm">Display Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_spell.htm"><span class="xref myst">EmEditor Home</span> - <span class="xref myst">EmEditor Help</span> - <span class="xref myst">Command Reference</span>  - <span class="xref myst">Tools category</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_spell.htm#spelling-properties-command">Spelling Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="property_validation.htm">Syntax Check Properties command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ql_commands.htm">Search Commands command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ql_options.htm">Search Options command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ql_symbols.htm">Search Symbols command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reset_all_settings.htm">Reset All Setting command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_all_commands.htm">Quick Launch command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="select_config.htm">Configurations List command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="split_to_files.htm">Split a File command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="start_window.htm">Start Window command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="terminate_tool.htm">Terminate Tool Job command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tool1.htm">Tools List command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="user_menu1.htm">User Menu (1) command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="user_menu2.htm">User Menu (2) command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="user_menu3.htm">User Menu (3) command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="user_menu4.htm">User Menu (4) command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="user_menu5.htm">User Menu (5) command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="user_menu6.htm">User Menu (6) command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="user_menu7.htm">User Menu (7) command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="user_menu8.htm">User Menu (8) command</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.htm">View category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.htm">Window category</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.htm">Dialog Boxes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.htm">How to …</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">Links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">Macro Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">Notices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.htm">Plug-in Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">How to Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">Support</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">Command Reference</a> &lt;
+                    <a href="index.htm">Tools category</a> &lt;
+                <span class="xref myst">EmEditor Home</span> - <span class="xref myst">EmEditor Help</span> - <span class="xref myst">Command Reference</span>  - <span class="xref myst">Tools category</span>
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="emeditor-home-emeditor-help-command-reference-tools-category">
+<h1><a class="reference internal" href="../../dlg/properties/keyboard/index.htm"><span class="doc std std-doc">EmEditor Home</span></a> - <a class="reference internal" href="../../index.htm"><span class="doc std std-doc">EmEditor Help</span></a> - <a class="reference internal" href="../index.htm"><span class="doc std std-doc">Command Reference</span></a>  - <a class="reference internal" href="index.htm"><span class="doc std std-doc">Tools category</span></a><a class="headerlink" href="#emeditor-home-emeditor-help-command-reference-tools-category" title="Permalink to this heading">¶</a></h1>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="language-server-properties-command">
+<h1>Language Server Properties command<a class="headerlink" href="#language-server-properties-command" title="Permalink to this heading">¶</a></h1>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><p>Displays Language Server properties.</p>
+</div></blockquote>
+</section>
+<section id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><p>Displays the <a class="reference internal" href="../../dlg/properties/language_server/index.htm"><span class="doc std std-doc"><strong>Language Server</strong> <br />
+page</span></a>
+of the <strong><a class="reference internal" href="../../dlg/properties/index.htm"><span class="doc std std-doc">Configuration Properties</span></a></strong>
+dialog box.</p>
+</div></blockquote>
+</section>
+<section id="how-to-run">
+<h2>How to Run<a class="headerlink" href="#how-to-run" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Default Menu: None</p></li>
+<li><p><a class="reference internal" href="all_commands.htm"><span class="doc std std-doc">All Commands</span></a>: <strong>Tools</strong> &gt;
+<strong>Properties for Current Configuration</strong> &gt; <strong>Language Server</strong></p></li>
+<li><p>Toolbar: None</p></li>
+<li><p>Status Bar: None</p></li>
+<li><p>Default Shortcut Key: None</p></li>
+</ul>
+</section>
+<section id="plug-in-command-id">
+<h2>Plug-in Command ID<a class="headerlink" href="#plug-in-command-id" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>EEID_PROPERTY_LANGUAGE_SERVER (8982)</p></li>
+</ul>
+</section>
+<section id="macros">
+<h2>Macros<a class="headerlink" href="#macros" title="Permalink to this heading">¶</a></h2>
+<section id="javascript">
+<h3>[JavaScript]<a class="headerlink" href="#javascript" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>editor.ExecuteCommandByID(8982);</p>
+</div></blockquote>
+</section>
+<section id="vbscript">
+<h3>[VBScript]<a class="headerlink" href="#vbscript" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>editor.ExecuteCommandByID 8982</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#"><span class="xref myst">EmEditor Home</span> - <span class="xref myst">EmEditor Help</span> - <span class="xref myst">Command Reference</span>  - <span class="xref myst">Tools category</span></a></li>
+<li><a class="reference internal" href="#language-server-properties-command">Language Server Properties command</a><ul>
+<li><a class="reference internal" href="#summary">Summary</a></li>
+<li><a class="reference internal" href="#description">Description</a></li>
+<li><a class="reference internal" href="#how-to-run">How to Run</a></li>
+<li><a class="reference internal" href="#plug-in-command-id">Plug-in Command ID</a></li>
+<li><a class="reference internal" href="#macros">Macros</a><ul>
+<li><a class="reference internal" href="#javascript">[JavaScript]</a></li>
+<li><a class="reference internal" href="#vbscript">[VBScript]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

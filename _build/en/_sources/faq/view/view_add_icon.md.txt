@@ -1,3 +1,3 @@
-# Q. 如何添加圖示到工具列中？
+# Q. How can I add an icon to the toolbar?
 
-您可以雙擊工具列，在出現的對話方塊中添加圖示。或者到 **工具** 功能表上選擇 **自訂工具列**，從清單中選擇 **工具列 1**，然後點擊 **自訂** 按鈕。將出現一個對話方塊，讓您可以在其中添加新圖示。
+Double-click the toolbar, or select **Customize Toolbars** on the **Tools** menu, and select the **Toolbar 1** you from the list, and click **Customize**. A dialog box appears, where you can add new icons.

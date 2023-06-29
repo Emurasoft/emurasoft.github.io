@@ -1,27 +1,28 @@
-# 自訂工具命令
+# Customize Tools command
 
-### 摘要
+### Summary
 
-> 自訂外部工具。
+> Customizes external tools.
 
-### 說明
+### Description
 
-> 顯示 [**外部工具** 對話方塊](../../dlg/tools/index)，讓您能自訂外部工具。
+> Displays the [**External Tools** dialog box](../../dlg/tools/index),
+> where you can customize external tools.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **工具** \> **外部工具** \> **自訂工具**
-- [所有命令](all_commands): **工具** >
-**自訂工具**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Tools** \> **External Tools** \> **Customize Tools**
+- [All Commands](all_commands): **Tools** >
+**Customize Tools**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE\_TOOLS (4324)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

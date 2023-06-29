@@ -1,8 +1,8 @@
-# 獲取一個選定的字串
+# Get a Selected String
 
-要獲取一個選定的字串，用 [Text 屬性](../selection/selection_text)。
+To get a selected string, use [Text Property](../selection/selection_text).
 
-下面的例子演示了如何獲得并顯示一個被選取的字串。
+The following example demonstrates how to get a selected string and display it.
 
 #### \[JavaScript\]
 

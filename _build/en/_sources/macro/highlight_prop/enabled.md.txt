@@ -1,6 +1,8 @@
-# Enabled 屬性
+# Enabled Property
 
-與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **亮顯單字** 核取方塊相對應。
+Corresponds to the **Highlight**
+**These Words** check box in the
+[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +18,6 @@ object. **Enabled**
 
 object. **Enabled** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

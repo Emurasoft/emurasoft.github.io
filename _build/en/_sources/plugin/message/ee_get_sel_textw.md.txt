@@ -1,6 +1,7 @@
 # EE\_GET\_SEL\_TEXTW
 
-檢索被選取的 Unicode 文本。您能明確地發送該消息或用 [Editor\_GetSelTextW](../macro/editor_getseltextw) 內嵌函式。
+Retrieves the selected Unicode text. You can send this message explicitly or
+by using the [Editor\_GetSelTextW](../macro/editor_getseltextw) inline function.
 
 EE\_GET\_SEL\_TEXTW
 
@@ -8,16 +9,18 @@ wParam = (WPARAM) (UINT) nBufferSize;
 
 lParam = (LPARAM) (LPWSTR) szBuffer;
 
-## 參數
+## Parameters
 
 _nBufferSize_
 
-> 用單詞數指定最大字符數來複製到緩沖區，包括空字符。
+> Specifies the maximum number of characters in words to copy to the buffer,
+> including the NULL character.
 
 _szBuffer_
 
-> 指針指向會接收文本的緩沖區。
+> Pointer to the buffer that will receive the text.
 
-## 返回值
+## Return Values
 
-> 如果 _nBufferSize_ 為零，那返回值是用位元數表示的一個會接收文本的緩沖區的必需大小。如果 _nBufferSize_ 為非零，不使用返回值。
+> If _nBufferSize_. is zero, the return value is the required size, in words,
+> for a buffer that can receive the text. If _nBufferSize_ is not zero, the return value is not used.

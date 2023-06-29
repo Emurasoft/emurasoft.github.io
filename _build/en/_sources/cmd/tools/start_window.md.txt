@@ -1,27 +1,27 @@
-# 啟動視窗命令
+# Start Window command
 
-### 摘要
+### Summary
 
-> 顯示啟動視窗。
+> Displays the Start window.
 
-### 說明
+### Description
 
-> 顯示啟動視窗。
+> Displays the Start window.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具**
-> **啟動視窗**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](all_commands): **Tools**
+> **Start Window**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_START\_WINDOW (3948)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

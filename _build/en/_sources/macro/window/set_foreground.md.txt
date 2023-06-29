@@ -1,6 +1,6 @@
-# SetForeground 方法
+# SetForeground Method
 
-將視窗置前。
+Brings the window to foreground.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ wnd. **SetForeground**();
 
 wnd. **SetForeground**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

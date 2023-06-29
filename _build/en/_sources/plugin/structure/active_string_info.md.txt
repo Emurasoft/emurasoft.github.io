@@ -1,6 +1,6 @@
 # ACTIVE\_STRING\_INFO
 
-用於 [EE\_GET\_ACTIVE\_STRING](../message/ee_get_active_string) 消息。
+Used by [EE\_GET\_ACTIVE\_STRING](../message/ee_get_active_string) message.
 
 typedef struct \_ACTIVE\_STRING\_INFO {
 
@@ -14,24 +14,24 @@ UINT nFlags;
 
 } ACTIVE\_STRING\_INFO;
 
-## 成員
+## Members
 
 _cbSize_
 
-> 以字節為單位的數據結構大小。在發送 [EE\_GET\_ACTIVE\_STRING](../message/ee_get_active_string) 消息之前，把這個成員設為 sizeof( ACTIVE\_STRING\_INFO )。
+> Size of this data structure, in bytes. Set this member to sizeof( ACTIVE\_STRING\_INFO ) before sending the [EE\_GET\_ACTIVE\_STRING](../message/ee_get_active_string) message.
 
 _pBuf_
 
-> 指定要接收主動字串的緩衝區。
+> Specifies the buffer to receive the active string.
 
 _cchBuf_
 
-> 用字元數指定緩衝區大小。
+> Specifies the size of the buffer in characters.
 
 _nFlags_
 
-> 目前不使用。
+> Currently not used.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional 16.9 或之後的版本。
+> Supported on Version 16.9 or later.

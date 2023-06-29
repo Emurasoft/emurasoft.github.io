@@ -1,55 +1,57 @@
-# 「自訂功能表」對話方塊
+# Customize Menus dialog box
 
-這個對話方塊會顯示當
-[**自訂功能表** 命令](../../cmd/tools/customize_menu) 被選取時。
+This dialog box appears when the
+[**Customize Menu** command](../../cmd/tools/customize_menu) is selected.
 
-### 「需要自訂的功能表」清單方塊
+### Menu to Customize list box
 
-指定一個要自訂的功能表。
+Specify a menu to customize.
 
-### 「已定義的功能表」清單方塊
+### Defined Menu list box
 
-已定義的功能表元素。
+Components of the defined menu.
 
-### 「延時」滑塊
+### Delay Time slider
 
-指定當選擇一個使用者功能表時推遲顯示功能表的時間。可以在功能表顯示前輸入一個快速鍵。
+Specifies the delay time to display the menu when a user menu is selected. It is possible to enter a shortcut key before the menu is displayed.
 
-### 「在上方插入」按鈕
+### Insert Above button
 
-在選取項目的上方插入。
+Insert above the selected item.
 
-### 「在下方插入」按鈕
+### Insert Below button
 
-在選取項目的下方插入。
+Insert below the selected item.
 
-### 「插入右邊」按鈕
+### Insert Right button
 
-插入一個新功能表到被選取的快顯功能表的右邊。
+Insert a new menu to the right of the selected popup menu.
 
-### 「屬性」按鈕
+### Properties button
 
-顯示或編輯清單中被選取的組態屬性。
+Show or edit the selected configuration properties in the list.
 
-### 「刪除」按鈕
+### Delete button
 
-點擊該按鈕從清單上刪除被選取的項目。
+Click this button to delete the selected item from the list.
 
-### 「上移」按鈕
+### Up button
 
-把被選取的項目在清單上上移。
+Move the selected item up on the list.
 
-### 「下移」按鈕
+### Down button
 
-把被選取的項目在清單上下移。
+Move the selected item down on the list.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.
 
-下面的對話方塊同樣能夠通過該對話方塊訪問。
+The following dialog box is also available through this dialog box.
 
-(點擊 **「屬性」** 按鈕)
+(Select
+**Properties**
+button)
 
 ```{toctree}
 :maxdepth: 1

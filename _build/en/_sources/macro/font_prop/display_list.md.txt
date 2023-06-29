@@ -1,6 +1,6 @@
-# DisplayList 屬性
+# DisplayList Property
 
-檢索 FontList 對象。
+Retrieves the FontList object.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _list_ = object. **DisplayList**;
 
 _list_ = object. **DisplayList**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

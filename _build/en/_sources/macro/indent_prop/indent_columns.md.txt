@@ -1,6 +1,8 @@
-# IndentColumns 屬性
+# IndentColumns Property
 
-與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **縮排列** 文字方塊相對應。
+Corresponds to the **Indent**
+**Columns** text box in the
+[**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
 
 #### \[JavaScript\]
 
@@ -16,6 +18,6 @@ object. **IndentColumns**
 
 object. **IndentColumns** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

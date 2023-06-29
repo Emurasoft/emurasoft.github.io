@@ -1,6 +1,6 @@
-# FullName 屬性
+# FullName Property
 
-檢索文檔的完整路徑以及檔案名稱。
+Retrieves the complete path and the file name of the document.
 
 #### \[JavaScript\]
 
@@ -10,7 +10,7 @@ _strName_ = document. **FullName;**
 
 _strName_ = document. **FullName**
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -20,6 +20,6 @@ alert( document.FullName );
 
 alert document.FullName
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

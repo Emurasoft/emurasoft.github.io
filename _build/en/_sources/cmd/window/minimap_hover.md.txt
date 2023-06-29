@@ -1,28 +1,26 @@
-# 停留時顯示迷你地圖命令
+# Show Minimap while Hovered command
 
-### 摘要
+### Summary
 
-> 當滑鼠停留在垂直捲軸上時顯示迷你地圖。
+> Shows the minimap while the mouse is hovered on the vertical scroll bar.
 
-### 說明
+### Description
 
-> 當滑鼠停留在垂直捲軸上時顯示迷你地圖。
+> Shows the minimap while the mouse is hovered on the vertical scroll bar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **視窗**
-\> **捲動**
-\> **停留時顯示迷你地圖**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Show Minimap while Hovered**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_MINIMAP\_HOVER (4044)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

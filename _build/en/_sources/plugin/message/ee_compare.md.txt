@@ -1,6 +1,7 @@
 # EE\_COMPARE
 
-比較兩個檔案。你能明確地發送該消息或用 [Editor\_Compare](../macro/editor_compare) 內嵌函式。
+Compares two files. You can send this message explicitly or use
+the [Editor\_Compare](../macro/editor_compare) inline function.
 
 EE\_COMPARE
 
@@ -8,26 +9,26 @@ wParam = (WPARAM) (COMPARE\_INFO\*) pCompareInfo;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _pCompareInfo_
 
-> 指針指向 [COMPARE\_INFO](../structure/compare_info) 結構。
+> Pointer to the [COMPARE\_INFO](../structure/compare_info) structure.
 
-## 返回值
+## Return Value
 
-> 返回值可以是以下值之一。 如果發生錯誤，返回值為負值。
+> The return value can be one of the following values. The return value is a negative value if an error occurs.
 >
 > |     |     |
 > | --- | --- |
-> | E\_DOCUMENT\_1\_NOT\_FOUND | 找不到第一個檔案。 |
-> | E\_DOCUMENT\_2\_NOT\_FOUND | 找不到第二個檔案。 |
-> | E\_FAIL | 未指定的錯誤。 |
-> | E\_NOT\_MDI | 必須啟用 Tab。 |
-> | S\_DIFF | 兩個文檔不相同。 |
-> | S\_MATCHED | 兩個文檔相同。 |
-> | S\_MATCHED\_IGNORED | 除了被忽略的地方外，兩個文檔是相同的。 |
+> | E\_DOCUMENT\_1\_NOT\_FOUND | Cannot find the first document. |
+> | E\_DOCUMENT\_2\_NOT\_FOUND | Cannot find the second document. |
+> | E\_FAIL | Unspecified error. |
+> | E\_NOT\_MDI | Tabs must be enabled. |
+> | S\_DIFF | Two documents are NOT identical.. |
+> | S\_MATCHED | Two documents are identical. |
+> | S\_MATCHED\_IGNORED | Two documents are identical except for ignored places. |
 
-## 支持版本
+## Version
 
-> 支持 EmEditor Professional v17.7 或之後的版本。
+> Supported on EmEditor Professional Version 17.7 or later.

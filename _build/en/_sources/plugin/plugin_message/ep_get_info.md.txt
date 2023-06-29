@@ -1,6 +1,6 @@
 # EP\_GET\_INFO
 
-檢索有關外掛程式的信息。
+Retrieves information about the plug-in.
 
 EP\_GET\_INFO
 
@@ -10,29 +10,29 @@ wParam = flag;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _hwndParent_
 
-> EmEditor 框架視窗的視窗控制代碼。
+> The window handle of the EmEditor frame window.
 
-_標志_
+_flag_
 
-> 指定被請求的信息類型。它是下列值之一。
+> Specifies the type of information requested. It is one of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | EPGI\_ALLOW\_OPEN\_SAME\_GROUP | 返回 TRUE 如果該外掛程式允許 EmEditor 在同一個群組中打開一個新檔案。 |
-> | EPGI\_ALLOW\_MULTIPLE\_INSTANCES | 返回 TRUE 如果外掛程式支持多個實例。如果外掛程式被允許在多于一個框架中同時運行，這個消息會返回 TRUE。注意全局變量會被分享當多個實例運行時。 |
-> | EPGI\_MAX\_EE\_VERSION | 返回支持的 EmEditor 的最新版本號 \* 1000。 |
-> | EPGI\_MIN\_EE\_VERSION | 返回支持的 EmEditor 最舊的版本號 \* 1000。 |
-> | EPGI\_SUPPORT\_EE\_PRO | 返回 TRUE 如果支持 EmEditor Professional。 |
-> | EPGI\_SUPPORT\_EE\_STD | 返回 TRUE 如果支持 EmEditor Standard。 |
+> | EPGI\_ALLOW\_OPEN\_SAME\_GROUP | Returns TRUE if the plug-in allows EmEditor to open a new file in the same group. |
+> | EPGI\_ALLOW\_MULTIPLE\_INSTANCES | Returns TRUE if the plug-in supports multiple instances. If the plug-in should be allowed to run in more than one frame simultaneously, this message should return TRUE. Note that global <br> variables will be shared when multiple instances are running. |
+> | EPGI\_MAX\_EE\_VERSION | Returns the newest version number of supported EmEditor \* 1000. |
+> | EPGI\_MIN\_EE\_VERSION | Returns the oldest version number of supported EmEditor \* 1000. |
+> | EPGI\_SUPPORT\_EE\_PRO | Returns TRUE if EmEditor Professional is supported. |
+> | EPGI\_SUPPORT\_EE\_STD | Returns TRUE if EmEditor Standard is supported. |
 
-## 返回值
+## Return Values
 
-> 返回值取決于標志參數。
+> The return value depends on the flag parameter.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 5.00 或之後的版本。
+> Supported on EmEditor Professional Version 5.00 or later.

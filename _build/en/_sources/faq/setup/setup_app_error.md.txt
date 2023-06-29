@@ -1,8 +1,11 @@
-# Q. 在啟動或編輯中，如果 EmEditor 突然出故障了，怎么辦？
+# Q. What do I do if EmEditor crashes when starting or editing?
 
-1. 如果您有安裝外掛程式，請先從外掛程式資料夾中刪除所有外掛程式，然后試著再次運行EmEditor。
-2. 如果問題還是存在，請到控制面板中選擇 **「添加/刪除程式」** 來卸載EmEditor。重新啟動您的電腦，然后再重新安裝EmEditor.
+1. If you have plug-ins installed, remove all plug-ins from the
+plug-ins folder, and try running EmEditor again.
+2. If the problem persists, select **Add/Remove Programs** in Control Panel to
+uninstall EmEditor. Reboot your PC, and reinstall EmEditor.
 
-3. 如果 EmEditor 只在打開 UTF-8 或 Unicode 的檔案時出故障，請到編輯器中的 **「檢視」**
-下拉功能表，選擇 **「字型」**，并在「字型分類」清單中選擇 **「標準」**，然后在
-**「顯示字型」** 方塊旁按一下 **「更改」** 按鈕檢視是否選擇了合適的字型。
+3. If EmEditor crashes only when opening UTF-8 or Unicode files, select **Font**
+under the **View** menu, select **Normal** from the Character set list, select the
+**Change** button beside the **Display Font** box and check if the proper font is
+selected.

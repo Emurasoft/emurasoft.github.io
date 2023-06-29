@@ -1,19 +1,25 @@
-# 「關于 EmEditor」對話方塊
+# About EmEditor dialog box
 
-該對話方塊會在 [**關于 EmEditor** 命令](../../cmd/help/app_about) 被選擇時顯示。有關 EmEditor 的信息將會被呈現。
+This dialog box appears when the [**About**\
+**EmEditor** command](../../cmd/help/app_about) is selected. Information about EmEditor will be
+displayed.
 
-### 「重新輸入注冊碼」按鈕
+### How to Purchase button
 
-顯示 [**如何購買** 對話方塊](../opening/index)，并解釋如何購買產品的副本。它也能讓您鍵入注冊碼。
+Displays the [**How to Purchase** dialog box](../opening/index),
+and explains how to purchase a copy of the product. It will also allow you to
+enter the registration key.
 
-### 「更新授權」按鈕
+### Renew License button
 
-讓您能更新授權。
+Allows you to renew the license key.
 
-### (URL) 文字
+### (URL) text
 
-用一個網頁瀏覽器來顯示這個 URL 的內容。
+Go to this URL with a Web browser.
 
-下面所示的對話方塊可以用這個對話方塊來打開。
+The following dialog box is also available through this dialog box.
 
-(選擇 **「重新輸入注冊碼」** 按鈕)
+(Select the
+**How to Purchase**
+button)

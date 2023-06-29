@@ -1,26 +1,26 @@
-# 縮排參考線命令
+# Indent Guides command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏縮排參考線。
+> Shows or hides indent guides.
 
-### 說明
+### Description
 
-> 顯示或隱藏縮排參考線。
+> Shows or hides indent guides.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **標記** \> **縮排參考線**
-- [全部命令](../tools/all_commands): **檢視** \> **標記** \> **縮排參考線**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** \> **Marks** \> **Indent Guides**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Indent Guides**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_VIEW\_INDENT\_GUIDES (4539)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

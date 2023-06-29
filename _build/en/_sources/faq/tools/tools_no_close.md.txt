@@ -1,3 +1,5 @@
-# Q. 我想要在命令提示符中用一個外部工具編譯已打開的檔案，但是在編譯完成后如何能讓命令提示符視窗保持開啟？
+# Q. I want to compile the opened file with an external tool in Command Prompt, but how can I keep the Command Prompt window from closing after the compilation is finished?
 
-選擇「外部工具」子功能表下的 [**「自訂工具」** 命令](../../cmd/tools/customize_tools)，點擊 **「新增」** 按鈕并在 **「命令」** 文字方塊中輸入"cmd.exe"，然后在 **「參數」** 文字方塊中輸入 _"_/k "filename" $(Path)"。
+Select the [**Customize Tools** \
+command](../../cmd/tools/customize_tools), and select the **New** button and enter "cmd.exe" in the **Command**
+text box, and _"_/k "filename" $(Path)" in the **Arguments** text box.

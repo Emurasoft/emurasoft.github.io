@@ -1,55 +1,55 @@
-# 「標記清單」頁面
+# Marker List tab
 
-**標記清單** 頁面讓您能自訂標記清單。
+The **Marker List** tab allows you to customize the marker list.
 
-### 「標記清單」清單方塊
+### Marker List list box
 
-要被亮顯的標記清單。點擊要啟用或禁用項目的核取方塊。
+List of markers to be highlighted. Click the check boxes to enable or disable the items.
 
-### 「標題」核取方塊
+### Title check box
 
-啟用指定標題。
+Enables the specified title.
 
-### 「標題」文字方塊
+### Title text box
 
-讓您能為新標記指定一個名字。
+Allows you to specify a name for the new Marker.
 
-### 「啟用已選中的項」核取方塊
+### Enable Selected Items check box
 
-啟用或禁用在清單中已選中的項。
+Enables or Disables the selected items in the list.
 
-### 「添加」按鈕
+### Add button
 
-點擊該按鈕添加一個新的項目到清單上。
+Click this button to add a new item to the list.
 
-### 「刪除」按鈕
+### Delete button
 
-點擊該按鈕從清單上刪除選取的項目。
+Click this button to delete the selected item from the list.
 
-### 「上移」按鈕
+### Up button
 
-把被選取的項目在清單上上移。
+Move the selected item up on the list.
 
-### 「下移」按鈕
+### Down button
 
-把被選取的項目在清單上下移。
+Move the selected item down on the list.
 
-### 「全選」按鈕
+### Select All button
 
-選擇整個清單。
+Select the entire list.
 
-### 「顏色」下拉清單方塊
+### Color drop-down list box
 
-在清單中指定選取項目的顏色。
+Specifies the color for the selected items in the list.
 
-### 「全詞符合時亮顯」核取方塊
+### Whole Word Only check box
 
-只有當整個字詞都符合字串時，亮顯選取的字串。
+Highlight the selected string only if the whole word is the string.
 
-### 「大小寫需符合」核取方塊
+### Match Case check box
 
-只有當大小寫符合時，亮顯被選取的字詞。
+Highlight the selected word only if the case matches.
 
-### 「規則運算式」核取方塊
+### Regular Expression check box
 
-用一個規則運算式亮顯選取的字串。
+Highlight the selected string using a regular expression.

@@ -1,27 +1,27 @@
-# 區分大小寫 (搜尋工具列) 命令
+# Match Case (Find toolbar) command
 
-### 摘要
+### Summary
 
-> 切換搜尋工具列上「區分大小寫」按鈕的狀態。
+> Toggles the Match Case button on the Find toolbar.
 
-### 說明
+### Description
 
-> 切換搜尋工具列上「區分大小寫」按鈕的狀態。當這個命令被開啟后，搜尋會區分字串的大小寫。
+> Toggles the Match Case button on the Find toolbar. When this command is toggled, searches will be case-sensitive.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜尋**
-\> **搜尋工具列** \> **區分大小寫**
-- 工具列: ![](../../images/find_case.png) (搜尋工具列)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Match Case**
+- Toolbar: ![](../../images/find_case.png) (Find toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FINDBAR\_CASE (4573)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,3 +1,3 @@
-# 儲存至受保護的資料夾
+# Save in Protected Folder
 
-在 Windows Vista 和以后的版本中，當使用者賬戶控制被啟用時，EmEditor 讓您在提升權限提示后，儲存檔案至受保護的資料夾，例如到 "C:\\Program Files" 中。
+In Windows Vista and later, with User Account Control enabled, EmEditor now allows you to save files into protected folders such as "C:\\Program Files" after a prompt to elevate the privilege.

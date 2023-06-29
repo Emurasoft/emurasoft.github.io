@@ -1,7 +1,7 @@
-# 啟用虛擬空間
+# To Enable Virtual Space
 
-1. 點擊 ![Properties for Current Configuration](../../images/properties.gif)
-(如果您只想更改目前的組態) 或
+1. Click ![Properties for Current Configuration](../../images/properties.gif)
+(if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
-(如果您想要更改所有組態) 并到 **一般** 頁面上。
-2. 勾選「 **啟用虛擬空間**」核取方塊。
+(if you want to change all configurations) to display the **General** tab.
+2. Check **Enable Virtual Space**.

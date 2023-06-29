@@ -1,68 +1,84 @@
-# 「進階」對話方塊
+# Advanced dialog box
 
-該對話方塊會出現，當您在 [**尋找** 對話方塊](../find/index)， [**取代** 對話方塊](../replace/index)， [**多檔尋找** 對話方塊](../find_in_files/index) 或 [**多檔取代** 對話方塊](../replace_in_files/index) 中按下 **「進階」** 按鈕時。
+This dialog box appears when the
+**Advanced** button is selected in the [**Find** dialog box](../find/index), [**Replace** dialog box](../replace/index), [**Find**\
+**in Files** dialog box](../find_in_files/index) or the [**Replace**\
+**in Files** dialog box](../replace_in_files/index).
 
-### 「僅比對 CSV 中的內嵌新行」核取方塊
+### Match Only Embedded Newlines in CSV check box
 
-如果這個核取方塊被勾選了，EmEditor 只比對 CSV 文檔中的內嵌新行。
+If this box is checked, EmEditor matches only embedded newlines in CSV documents.
 
-### 「區分 CR 和 LF」核取方塊
+### Treat CR and LF Separately check box
 
-如果這個核取方塊被勾選了，EmEditor 會區分 CR 和 LF。在執行「多檔尋找」和「多檔取代」的時候，無論有無勾選這個選項，EmEditor 都會區分 CR 和 LF 如果你勾選了「使用規則運算式」選項。
+If this box is checked, EmEditor will treat CR and LF separately. In case Find in Files and Replace in Files, EmEditor will treat CR and LF separately if the Use Regular Expressions is checked regardless of this option.
 
-### 「規則運算式“.”符合新行字元」核取方塊
+### Regular Expressions “.” Can Match Newline Characters check box
 
-指定是否“.”能符合換行符，當用規則運算式搜索字串時。即使不勾選該核取方塊，一個規則運算式 \\s 能符合換行，當 **搜索規則運算式的附加行** 文字行中的數字大于零時。除了 [**多檔尋找** 命令](../../cmd/search/grep) 之外，實際能符合的行數取決于 **搜索規則運算式的附加行** 文字方塊中指定的數字。
+Specifies whether a period can match newline characters when searching for a string using a regular expression. A regular expression \\s can match newline characters when a number
+greater than zero is specified in the **Additional**
+**Lines to Search for Regular Expressions** text box even if this is not checked. Except for the
+[**Find in Files** command](../../cmd/search/grep), the
+actual number of lines that can be matched depends on the number specified in
+the **Additional**
+**Lines to Search for Regular Expressions** text box.
 
-### 「規則運算式引擎」下拉清單方塊
+### Regular Expression Engine drop-down list box
 
-指定要在 EmEditor 的 **尋找**， **取代**， **在文件中尋找**，和 **在文件中取代** 中使用的規則運算式引擎。你能選擇 **Boost.Regex** 或 **Onigmo**。
+Specifies the regular expression engine to use in **Find**, **Replace**, **Find in Files**, and **Replace in Files**. You can choose **Boost.Regex** or **Onigmo**.
 
-下面的選項僅出現在 **尋找** 對話方塊以及 **取代** 對話方塊中。
+The following option only appears in the **Find** dialog box and **Replace** dialog box.
 
-### 「'^'和'$'可以符合選取部分的開始和結束」核取方塊
+### '^' and '$' can Match Beginning and End of the Selection check box
 
-允許你使用只能符合選取部分的開始或結束的規則運算式。 只有在 **尋找** 或 **取代** 對話方塊中啟用 **僅搜索選區** 選項時，此選項才有效。
+Allows you to use regular expressions that can match only at the beginning or ending of the selection. This option is valid only if the **In the Selection Only** option is enabled in the **Find** or **Replace** dialog box.
 
-### 「在僅搜索選區時用環顧」核取方塊
+### Look Around during the Selection Only Search check box
 
-當啟用 **僅搜索選區** 選項時，允許你使用環顧表達式來檢視選區外部。例如，"(?<=a)b" 將符合 "b" 即使選區始于包含 "ab" 的行中的 "b"。 然而，啟用此選項會減慢搜索過程，因為 EmEditor 將搜索包括選區在內的整行。 而且，這個選項可能會讓一個正規的規則運算式無法符合選區。 例如，即使啟用該選項，".\*" 也不會符合選區中的任何字串如果選區不是整行。這是因為 EmEditor 會符合整行，但選區只是整行中的一部分。只有在 **尋找** 或 **取代** 對話方塊中啟用 **僅搜索選區** 選項時，此選項才有效。
+Allows you to use lookahead/lookbehind expressions to look outside of the selection while matching only in the selection. For instance, "(?<=a)b" will match "b" even if the selection begins at "b" in the line containing "ab". However, Enabling this option can slow down the search process because EmEditor will search the whole line including the selection. Moreover, this option can prevent a legitimate regular expression from matching the selection. For instance, ".\*" can't match any strings in the selection if the selection doesn't cover the whole line and if this option is enabled because EmEditor matches the whole line but the selection is only a portion of the line. This option is valid only if the **In the Selection Only** option is enabled in the **Find** or **Replace** dialog box.
 
-### 「搜尋規則運算式的附加行」文字方塊
+### Additional Lines to Search for Regular Expressions text box
 
-指定用規則運算式搜索一個字串時的附加行的行數。EmEditor 會把一個字串作為參數一行行地傳遞給規則運算式功能。然而通過這種方法，規則運算式 <td>.\*?</td> 無法比對 <td> 和 </td> 之間的字串如果字串中包含一個新行字元。在這個文字方塊中指定一個比零大的數值，并勾選 **規則運算式“.”符合換行符** 核取方塊可以讓 EmEditor 在指定的新行數內搜索字串。另一方面， [**多檔尋找** 命令](../../cmd/search/grep) 不需要受這個選項的限制，多檔尋找命令總是從整個文件搜索。
+Specifies the number of additional lines to search for a string when using a regular expression. EmEditor passes a string line by line as a parameter to the regular expression
+function. By this method, however, the regular expression <td>.\*?</td> would not be able to match a string between <td> and </td> if the string contains a newline character. Specifying a number greater than zero in this text
+box and checking the **Regular Expressions “.” Can Match Newline Characters** check box
+will enable searching for the string with up to the specified number of new
+lines. On the other hand, the [**Find in**\
+**Files** command](../../cmd/search/grep) always searches from the whole file independent of this option.
 
-下面的選項僅出現在 **多檔尋找** 對話方塊和 **多檔取代** 對話方塊中。
+The following options only appear in the **Find in Files** dialog box and **Replace in Files** dialog box.
 
-### 「忽略以下檔案或資料夾」核取方塊
+### Ignore Following Files or Folders check box
 
-如果這個核取方塊被勾選了，EmEditor 將不能搜尋在 **忽略的檔案或資料夾**
-文字方塊中指定的檔案或資料夾名稱。
+If this box is checked, EmEditor will not search for file or folder names
+specified in the **Files or Folders to Ignore**
+text box.
 
-### 「忽略的檔案或資料夾」文字方塊
+### Files or Folders to Ignore text box
 
-指定要忽略的檔案或資料夾名稱。要指定多個名稱，用分號 ( **;**) 把名稱分隔開。
+Specifies the names of files or folders to ignore. To specify multiple names,
+separate them with a semicolon ( **;**).
 
-### 「忽略二進位檔案」核取方塊
+### Ignore Binary Files check box
 
-如果這個核取方塊被勾選了，EmEditor 不會搜尋二進位檔案 (檔案包含空字元即使這些檔案不是 UTF-16 檔案)。
+If this box is checked, EmEditor will not search binary files (files that contain NULL characters even though they are not UTF-16 files).
 
-### 「在結果中顯示被忽略的檔案」核取方塊
+### Show Ignored Files in Results check box
 
-如果這個核取方塊被勾選了，EmEditor 不會在結果中顯示被忽略的檔案，當勾選了 **忽略下列檔案或資料夾** 核取方塊或 **忽略二進位檔案** 核取方塊時。
+If this box is checked, EmEditor will not show ignored files in the output when the **Ignore Following files or folders** check box or the **Ignore Binary Files** check box is checked.
 
-### 「提示如果指定資料夾不存在」核取方塊
+### Prompt if the specified folder does not exist check box
 
-檢查在 **搜尋資料夾** 下拉清單方塊中指定的檔案是否存在，如果不存在，顯示一個對話方塊讓使用者取消操作。
+Checks whether the folder specified in the **In Folder** drop-down list box, and if it doesn't exist, displays a dialog box so that a user can cancel the operation.
 
-### 「將編碼名稱附加到檔案名」核取方塊
+### Append encoding names to file names check box
 
-如果這個核取方塊被勾選了，EmEditor 會將編碼名稱附加到多檔尋找結果的檔案名稱上。在組態屬性的 [**檔案** 頁面](../properties/file/index) 中設定了 **偵測全部** 選項時，以及要檢查搜尋檔案的編碼時，此選項很有用。
+If this box is checked, EmEditor will append encoding names to file names in the Find in Files results. This option is useful when the **Detect All** option is set in the [**File** page](../properties/file/index) of configuration properties, and when you want to check the encodings of searched files.
 
-### 「最舊的修改日期」日期方塊
+### Oldest date modified date box
 
-如果選擇了此核取方塊，則指定搜索檔案的最早修改日期。
+Specifies the oldest date modified to search files if this check box is set.
 
-### 「最新的修改日期」日期方塊
+### Newest date modified date box
 
-如果選擇了此核取方塊，則指定搜索檔案的最遲修改日期。如果只選擇了 **最舊的修改日期**，EmEditor 會搜索晚於指定日期的檔案。如果只選擇了 **最新的修改日期**，EmEditor 會搜索早於指定日期的檔案。如果兩者都沒有選擇，EmEditor 會搜索所有檔案，而不考慮檔案日期。
+Specifies the newest date modified to search files if this check box is set. If only the **Oldest date modified** is set, EmEditor searches files newer than the specified date. If only the **Newest date modified** is set, EmEditor searches files older than the specified date. If neither of them is set, EmEditor searches all files regardless of file dates.

@@ -1,6 +1,6 @@
-# GetUnicodeName 方法
+# GetUnicodeName Method
 
-檢索指定字元或字串的 Unicode 名。
+Retrieves the Unicode name of the specified character or string.
 
 #### \[JavaScript\]
 
@@ -10,16 +10,16 @@ _strName_ = editor. **GetUnicodeName**( _strChar_ );
 
 _strName_ = editor. **GetUnicodeName**( _strChar_ )
 
-## 參數
+## Parameters
 
 _strChar_
 
-指定源字元或字串。
+Specifies the source character or string.
 
-## 返回值
+## Return Values
 
-返回值時指定的字元或字串的 Unicode 名。
+The return value is the Unicode name of the specified character or string.
 
-## 版本
+## Version
 
-支持 EmEditor Professional v19.1 或之後的版本。
+Supported on EmEditor Professional Version 19.1 or later.

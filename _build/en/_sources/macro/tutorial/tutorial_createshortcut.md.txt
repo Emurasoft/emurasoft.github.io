@@ -1,8 +1,8 @@
-# 創建一個捷徑
+# Create a Shortcut
 
-要創建一個捷徑，用 WshShell 對象的 CreateShortcut 方法。
+To create a shortcut, use the CreateShortcut Method of a WshShell Object.
 
-下面的示例代碼在桌面上創建一個已打開的檔案的捷徑。
+The following example code creates a shortcut on the desktop to an opened file.
 
 #### \[JavaScript (JScript)\]
 
@@ -60,6 +60,6 @@ oShellLink.Save
 
 End If
 
-## 參考
+## References
 
 )

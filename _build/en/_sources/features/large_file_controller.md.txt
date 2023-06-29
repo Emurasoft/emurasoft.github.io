@@ -1,3 +1,4 @@
-# 大檔案控制器
+# Large File Controller
 
-EmEditor 現在能讓您能通過自訂工具條-大檔案控制器打開檔案中的一部分來檢視并編輯比 16 TB 大的檔案。大檔案控制器讓您能指定開始的位置，結束的位置，還有檔案打開的範圍。它還能讓您停止打開檔案，監測檔案的實際大小，以及可用的臨時磁盤空間。
+EmEditor is able to open files larger than 16 TB by opening a portion of the file with the custom bar - Large File Controller. The Large File Controller allows you to specify the beginning point, end point, and range of the file to be opened. It also allows you to stop the opening of the
+file and monitor the real size of the file and the size of the temporary disk available.

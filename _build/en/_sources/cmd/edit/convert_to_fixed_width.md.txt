@@ -1,30 +1,30 @@
-# 固定欄寬命令
+# Convert to Fixed Width Columns command
 
-### 摘要
+### Summary
 
-> 用目前的分隔符位置把目前的含有分隔值的文檔轉換為固定欄寬。
+> Converts the current separated value document to the fixed width columns using the current separator positions.
 
-### 說明
+### Description
 
-> 用目前的分隔符位置把目前的含有分隔值的文檔轉換為固定欄寬。
+> Converts the current separated value document to the fixed width columns using the current separator positions.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **CSV** \> **轉換為** \> **固定欄寬**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: (None)
+- [All Commands](../tools/all_commands): **CSV** \> **Convert to** \> **Convert to Fixed Width Columns**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_CONVERT\_TO\_FIXED\_WIDTH (3883)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
-> >editor.ExecuteCommandByID(3883);
+> editor.ExecuteCommandByID(3883);
 
 #### \[VBScript\]
 

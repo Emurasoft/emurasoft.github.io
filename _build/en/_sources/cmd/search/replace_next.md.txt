@@ -1,27 +1,28 @@
-# 取代下一個命令
+# Replace Next command
 
-### 摘要
+### Summary
 
-> 取代下一個符合的結果。
+> Replaces the next occurrence.
 
-### 說明
+### Description
 
-> 用同樣的參數，取代之前搜尋過的字串的下一個符合的結果
+> Replaces the next occurrence of the previously searched string, with the same
+> options.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜尋**
-\> **取代下一個**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Replace Next**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_REPLACE\_NEXT (4447)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

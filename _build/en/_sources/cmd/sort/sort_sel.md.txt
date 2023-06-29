@@ -1,26 +1,26 @@
-# 排序/刪除選區內重複的分割字串命令
+# Sort/Remove Duplicate Split Strings in Selection command
 
-### 摘要
+### Summary
 
-> 排序或刪除選區中的重複的分割字串。
+> Sorts or removes duplicate split strings in the selection.
 
-### 說明
+### Description
 
-> 排序或刪除選區中的重複的分割字串。當選擇該命令時會顯示 [**選區排序** 對話方塊](../../dlg/sort_sel/index)。
+> Sorts or removes duplicate split strings in the selection. The [**Sort Selection** dialog box](../../dlg/sort_sel/index) will appear when this command is selected.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **排序** \> **排序/刪除選區內重複的分割字串**
-- [所有命令](../tools/all_commands): **排序** \> **排序/刪除選區內重複的分割字串**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **Sort** \> **Sort/Remove Duplicate Split Strings in Selection**
+- [All Commands](../tools/all_commands): **Sort** \> **Sort/Remove Duplicate Split Strings in Selection**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_SORT\_SEL (23237)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

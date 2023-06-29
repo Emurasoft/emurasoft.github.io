@@ -1,3 +1,4 @@
-# 所有命令
+# All Commands
 
-所有命令是 EmEditor 的命令之一，讓您能檢視所有可用的命令。預設設定下，它可以在工具功能表下被找到。請同樣參考 [**所有命令** 命令](../cmd/tools/all_commands)。
+All Commands is one of the commands of EmEditor, which allows you to view all available commands. By default, it is found under
+the Tools Menu. See also [**All Commands** command](../cmd/tools/all_commands).

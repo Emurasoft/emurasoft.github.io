@@ -1,6 +1,6 @@
-# Highlight 屬性
+# Highlight Property
 
-檢索 [HighlightProp 對象](../highlight_prop/index)。
+Retrieves the [HighlightProp object](../highlight_prop/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _obj_ = object. **Highlight**;
 
 Set _obj_ = object. **Highlight**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

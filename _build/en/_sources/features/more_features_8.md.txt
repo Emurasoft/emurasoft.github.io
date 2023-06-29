@@ -1,44 +1,44 @@
-# 更多新增功能
+# More Features Added (Version 8)
 
-其他 Version 8 的功能包括:
+Other features introduced on Version 8 include:
 
 -
-您可以選擇顯示快捷功能欄 (檢視 \> 快捷功能欄) .
+The Function Bar can be displayed (View > Function Bar).
 -
-在處理每行都很長的檔案時，速度被優化了。
+Speed is optimized when each line is very long.
 -
-能自訂標記 (CR，LF，Tab，空白，EOF) 。 (工具 > 自訂 > 標記) 。
+Marks (CR, LF, Tab, Space, EOF) can be customized (Tools > Customize > Marks).
 -
-支持延伸的片假名。
+Extended Katakana support is available.
 -
-當點擊游標滾輪時，能自動移動。
+Auto-panning by clicking the mouse wheel.
 -
-能顯示縮進線 (組態屬性 > 組態屬性 \> 組態屬性)。
+The Indent Guides can be displayed (Configuration Properties > Marks > Show Indent Guides).
 -
-右擊視窗左邊的行號來移動游標到行的開始位置處。
+Right-click in the line numbers or the left side of the window to move the cursor to start of that line.
 -
-您能用規則運算式指定標記格式 (自訂 > 編輯 \> 標記格式)。
+Tag Format can be specified with regular expressions (Customize > Edit > Tag Format).
 -
-您能禁用拖放編輯 (自訂 > 編輯 \> 啟用文字拖放)。
+Drag and drop editing can be disabled (Customize > Edit > Enable Text Drag and Drop).
 -
-您能指定臨時資料夾 (自訂 > 自訂 \> 使用系統臨時資料夾)。
+Temporary folders can be specified (Customize > Advanced > Use System Temporary Folder).
 -
-「鍵盤布局」對話方塊能讓您通過點擊視窗中的任何一列重新排序。
+The Keyboard Map window can be sorted by clicking each column.
 -
-INI檔案能被導入至注冊表 (導入和導出精靈 > 導入個人 INI 檔案到注冊表)。
+INI files can be imported to the Registry (Import and Export Wizard > Import Personal INI files to the Registry).
 -
-當沒有選取任何文字時， **「複製」** 命令現在會複製一整行。您也可以通過 **「複製選區」** 命令來延續舊的操作方式。
+The **Copy** command now copies the entire current line when no text is selected. The old behavior can be also selected by using the **Copy Selection** command.
 -
-當沒有選取任何文字時， **「剪下」** 命令現在會剪下一整行。您也可以通過 **「剪下選區」** 命令來延續舊的操作方式。
+The **Cut** command now cuts the entire current line when no text is selected. The old behavior can be also selected by using the **Cut Selection** command.
 -
-當要打開的檔案中含有無效字元時，會顯示一個新的對話。
+A new dialog appears when invalid characters are contained in the opening file.
 -
-當文檔要儲存的編碼格式會導致文檔所含的某些字元丟失的話，EmEditor會顯示一個新的對話。
+A new dialog appears when the document contains characters which will be lost if saved as selected encoding for saving.
 -
-多檔尋找的結果能被重新定位到輸出欄中 (多檔尋找 \> 使用輸出欄)。
+Find in Files results can be redirected in the Output Bar (Find in Files > Use Output Bar).
 -
-新增的 **「跳轉到下一個」** 和 **「跳轉到上一個」** 命令能被用來在輸出欄上的結果之間跳轉。
+The new **Jump Next** and **Jump Previous** commands can be used to jump between results in the Output bar.
 -
-CTRL 鍵加游標滾輪能增加或減少字型大小。
+Mouse wheel with CTRL increases or decreases the font size.
 -
-CTRL 鍵加游標滾輪能增加或減少字型大小。
+Mouse wheel with Right-click moves to next or previous document.

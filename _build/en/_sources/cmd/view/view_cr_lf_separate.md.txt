@@ -1,26 +1,26 @@
-# 帶不同標記的 CR 和 LF 命令
+# CR and LF with Different Marks command
 
-### 摘要
+### Summary
 
-> 顯示帶不同標記的 CR 和 LF。
+> Shows CR and LF with different marks.
 
-### 說明
+### Description
 
-> 顯示帶不同標記的 CR 和 LF。在預設設定下，EmEditor 會用同樣的標記顯示 CR 和 LF。
+> Shows CR and LF with different marks. By default, EmEditor displays CR and LF with the same mark.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **標記** \> **顯示帶不同標記的 CR 和 LF。**
-- [全部命令](../tools/all_commands): **檢視** \> **標記** \> **顯示帶不同標記的 CR 和 LF。**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** \> **Marks** \> **CR and LF with Different Marks**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **CR and LF with Different Marks**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_VIEW\_CR\_LF\_SEPARATE (4537)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

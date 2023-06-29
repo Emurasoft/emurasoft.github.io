@@ -1,6 +1,6 @@
-# Add 方法
+# Add Method
 
-添加一個項目。
+Adds an item.
 
 #### \[JavaScript\]
 
@@ -12,16 +12,14 @@ list. **Add** _strName_, _strDelimiter_
 
 ## Parameters
 
-## 參數
-
 _strName_
 
-指定一個名稱。
+Specifies a name.
 
 _strDelimiter_
 
-指定一個分隔符號。
+Specifies a delimiter.
 
-## 版本
+## Version
 
-支持 EmEditor 19.4 或之後的版本。
+Supported on EmEditor Professional Version 19.4 or later.

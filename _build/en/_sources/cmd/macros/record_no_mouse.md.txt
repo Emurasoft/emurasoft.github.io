@@ -1,26 +1,29 @@
-# 開始錄制命令
+# Start Recording command
 
-### 摘要
+### Summary
 
-> 開始錄制一個除游標或鍵盤動作外的巨集。
+> Starts recording a macro except mouse or keyboard activities.
 
-### 說明
+### Description
 
-> 開始錄制一個除游標或鍵盤動作外的巨集。如果目前的正在錄制一個巨集，這個命令則變成終止錄制巨集。這個命令則變成終止錄制巨集。這個巨集會被作為一個臨時的巨集被錄制，并儲存在注冊表中。 [**運行巨集** 命令](quick_macro_run) 會啟動臨時的巨集； [**儲存巨集** 命令](macro_save) 讓你能把臨時的巨集儲存為一個檔案。
+> Starts recording a macro while disregarding mouse and keyboard activities. If currently
+> recording a macro, this command stops recording the macro. The macro will be recorded as
+> a temporary macro, saved in the Registry. The [**Run Macro** command](quick_macro_run) will start the temporary macro, and the
+> [**Save Macro** command](macro_save) allows you to save the temporary macro to a file.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **巨集**
-\> **開始錄制**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Macros**
+\> **Start Recording**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_RECORD\_NO\_MOUSE (4424)
 
-### 巨集
+### Macros
 
-> 不可用。
+> Not available.

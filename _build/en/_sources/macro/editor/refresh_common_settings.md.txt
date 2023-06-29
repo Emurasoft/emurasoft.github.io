@@ -1,6 +1,6 @@
-# RefreshCommonSettings 方法
+# RefreshCommonSettings Method
 
-加載常用設置並重新整理 EmEditor 視窗。
+Loads common settings and refreshes the EmEditor window.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ editor. **RefreshCommonSettings**();
 
 editor. **RefreshCommonSettings**
 
-## 版本
+## Version
 
-支持 EmEditor 17.5 或之後的版本。
+Supported on EmEditor Professional Version 17.5 or later.

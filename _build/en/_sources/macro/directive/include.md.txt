@@ -1,21 +1,21 @@
-# \#include 指示詞
+# \#include directive
 
-指定要包括的檔案。該指示詞必須在主代碼上方的指示詞碼中的第一行上被指定。
+Specifies the file to include. This directive must be specified at the first lines of the script above the main code.
 
 #include " _filename_"
 
-## 參數
+## Parameters
 
 _filename_
 
-> 用從目前的巨集檔案的相對路徑或完整路徑上指定要包括的檔案。如果路徑被省略，指定目前的的巨集檔案所在的檔案的標題。
+> Specifies the file to include with the relative paths from the current macro file or the complete paths. If the paths are omitted, specify the title of the file in which the current macro file exists.
 
-## 示例
+## Examples
 
-包括檔案 library.jsee
+Include the file library.jsee
 
 #include "library.jsee"
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 or latere
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,6 +1,6 @@
-# Script 屬性
+# Script Property
 
-指定字型的腳本。
+Specifies the script of the font.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _n_ = item. **Script**
 
 item. **Script** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

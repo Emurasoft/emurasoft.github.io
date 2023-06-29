@@ -1,23 +1,26 @@
 # Editor\_ReplaceInFiles
 
-在指定的多個檔案中取代一個 Unicode 字串。你能直接用該內嵌函式或明確地發送 [EE\_REPLACE\_IN\_FILESW](../message/ee_replace_in_filesw) 消息。
+Replaces a Unicode string in multiple files in the specified location. You can
+use this inline function or explicitly send the
+[EE\_REPLACE\_IN\_FILESW](../message/ee_replace_in_filesw) message.
 
 Editor\_ReplaceInFiles( HWND hwnd, GREP\_INFO\_EX\* pGrepInfo );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pGrepInfo_
 
-> 指定一個指針指向 [GREP\_INFO\_EX 結構](../structure/grep_info_ex)。
+> Specifies a pointer to the [GREP\_INFO\_EX \
+> Structure](../structure/grep_info_ex).
 
-## 返回值
+## Return Value
 
-> 返回 FALSE 如果使用者終止，或 TRUE 如果沒有終止。
+> Returns FALSE if the user aborts, or TRUE if not.
 
-## 版本
+## Version
 
-> 支持 Version 15.7 或之後的版本。
+> Supported on EmEditor Professional Version 15.7 or later.

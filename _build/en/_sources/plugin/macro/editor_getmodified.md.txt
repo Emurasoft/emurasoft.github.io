@@ -1,15 +1,16 @@
 # Editor\_GetModified
 
-檢索文本的修改狀態。您能直接用該內嵌函式或明確地發送 [EE\_GET\_MODIFIED](../message/ee_get_modified) 消息。
+Retrieves the modified state of the text. You can use this inline function or explicitly send the [EE\_GET\_MODIFIED](../message/ee_get_modified) message.
 
 Editor\_GetModified( HWND hwnd );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
-## 返回值
+## Return Values
 
-> 如果文本被修改，返回值是 TRUE。如果文本沒有被修改，返回值是 FALSE。
+> If the text is modified, the return value is TRUE. If the text is not
+> modified, the return value is FALSE.

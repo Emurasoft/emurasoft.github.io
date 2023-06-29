@@ -1,24 +1,25 @@
 # Editor\_ToolbarOpen
 
-打開自訂工具列。您能直接用該內嵌函式或明確地發送 [EE\_TOOLBAR\_OPEN](../message/ee_toolbar_open)
-消息。
+Opens a custom toolbar. You can use this inline function or explicitly send
+the [EE\_TOOLBAR\_OPEN](../message/ee_toolbar_open)
+message.
 
 Editor\_ToolbarOpen( HWND hwnd, TOOLBAR\_INFO\* pToolbarInfo );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pToolbarInfo_
 
-> 指標至 TOOLBAR\_INFO 結構。
+> Pointer to the TOOLBAR\_INFO structure.
 
-## 返回值
+## Return Values
 
-> 返回值是一個自訂工具列 ID。如果消息失敗，返回值為零。
+> The return value is a custom toolbar ID. If the message fails, the return value is zero.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 7.00 或之後的版本。
+> Supported on EmEditor Professional Version 7.00 or later.

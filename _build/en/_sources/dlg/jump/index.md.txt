@@ -1,23 +1,26 @@
-# 「跳轉」對話方塊
+# Jump dialog box
 
-這個對話方塊會出現當選擇了 [**跳轉** 命令](../../cmd/edit/jump)。您能指定想要前往的行的位置。
+This dialog box appears when the [**Jump** \
+command](../../cmd/edit/jump) is selected. You can specify a line number to which you would like to
+jump.
 
-### 「行」文字方塊
+### Line text box
 
-輸入想要跳轉至的行的位置。
+Line number to which you would like to jump.
 
-### 「欄」文字方塊
+### Column text box
 
-輸入想要跳轉至的欄的位置。
+Column number to which you would like to jump. In case of a CSV document, this number represents the column relative to the left side of the specified CSV column.
 
-### 「邏輯坐標」核取方塊
+### Logical Coordinates check box
 
-用 [邏輯坐標](../../glossary/logicalcoordinates) 計算行的數目。
+Count line numbers as [logical \
+coordinates](../../glossary/logicalcoordinates).
 
-### 「CSV 欄」下拉清單方塊
+### CSV Column drop-down list box
 
-在 CSV 文檔中，選擇要跳轉到的欄的位置。
+CSV Column number to which you would like to jump in case of a CSV document.
 
-### 「檔案位置」文字方塊
+### File Position text box
 
-輸入要跳轉到的檔案位置。變更 **檔案位置** 將在確認跳轉之前自動更新對話方塊中的 **行** 和 **列**,反之亦然。
+Specify the file position to which you would like to jump. Changing the **File Position** will update the **Line** and **Column** in the dialog box before you confirm the jump, and vice versa.

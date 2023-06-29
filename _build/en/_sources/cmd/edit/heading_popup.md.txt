@@ -1,26 +1,26 @@
-# 標題 (快顯) 命令
+# Heading (Popup) command
 
-### 摘要
+### Summary
 
-> 顯示一個快顯功能表來設置標題。
+> Shows a popup menu to set headings.
 
-### 說明
+### Description
 
-> 顯示一個快顯功能表來設置標題。
+> Shows a popup menu to set headings.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **CSV** \> **標題（凍結窗格）** \> **標題 (快顯)**
-- 工具列: ![](../../images/heading.gif)
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Heading (Popup)**
+- Toolbar: ![](../../images/heading.gif)
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_HEADING\_POPUP (3898)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

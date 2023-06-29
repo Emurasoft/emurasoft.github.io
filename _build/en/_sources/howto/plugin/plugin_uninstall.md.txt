@@ -1,9 +1,11 @@
-# 卸載外掛程式
+# To Uninstall Plug-ins
 
-1. 對于帶有卸載功能的外掛程式，請到 **工具** 功能表下選擇 **自訂外掛程式...**。
-2. 選擇您想要卸載的外掛程式，并單擊 **卸載**。
+1. With Plug-ins that have uninstalling functions, select **Customize**
+**Plug-ins...** under the **Tools** menu.
+2. Select the plug-in that you want to uninstall, and click **Uninstall**.
 
-## 提示
+## Tips
 
-- 對于不帶有卸載功能的外掛程式，請到 C:\\Program Files\\EmEditor\\PlugIns 資料夾中刪除該外掛程式的 .DLL 檔案來卸載外掛程式。
-- 相對于卸載，您可以禁用外掛程式。要禁用一個外掛程式，在 **自訂外掛程式** 對話方塊中清除勾選該外掛程式項目即可。
+- With plug-ins that do not have uninstalling functions, manually delete the .DLL files
+from the C:\\Program Files\\EmEditor\\PlugIns folder in order to uninstall.
+- Instead of uninstalling, you can just disable a plug-in. To disable a plug-in, clear the check box of the item you want to disable in the **Customize Plug-ins** dialog box.

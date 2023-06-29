@@ -1,27 +1,27 @@
-# 反向選擇命令
+# Invert Selection command
 
-### 摘要
+### Summary
 
-> 反向選擇。
+> Inverts the selection.
 
-### 說明
+### Description
 
-> 反向選擇。
+> Inverts the selection.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **進階** \> **反向選擇**
-- [全部命令](../tools/all_commands): **編輯** \> **延伸選區**
-\> **反向選擇**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **Edit** \> **Advanced** \> **Invert Selection**
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Invert Selection**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_INVERT\_SELECTION (4065)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

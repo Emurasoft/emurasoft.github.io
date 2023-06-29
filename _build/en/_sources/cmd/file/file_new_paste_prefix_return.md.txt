@@ -1,26 +1,27 @@
-# 新增檔案，貼為引文并換行命令
+# New File, Paste in Quotes and Newline Characters command
 
-### 摘要
+### Summary
 
-> 創建一個新的檔案，貼上選定內容為引用文字并換行。
+> Creates a file, pastes the current selection in quotes and newline characters.
 
-### 說明
+### Description
 
-> 這個命令等同于 [**新增文字** 命令](file_new) 加 [**貼為引文并換行** 命令](../edit/paste_prefix_return)。
+> This command is equivalent to the [**New Text** \
+> command](file_new) followed by the [**Paste in Quotes and Newline Characters** command](../edit/paste_prefix_return).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **新增** \> **新增檔案，貼為引文并換行**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **New** \> **New File, Paste in Quotes and Newline Characters**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_NEW\_PASTE\_PREFIX\_RETURN (4272)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,23 +1,24 @@
-# 「取消樞紐」對話方塊
+# Unpivot dialog box
 
-當你執行 [**取消樞紐** 命令](../../cmd/edit/unpivot) 時，這個對話方塊會出現。
+This dialog box appears when the
+[**Unpivot** command](../../cmd/edit/unpivot) is selected.
 
-### 「屬性名稱」文字方塊
+### Attribute name text box
 
-在第一列輸入要用於屬性欄的標籤。
+Enter the label to be used for the attribute column on the first row.
 
-### 「值名稱」文字方塊
+### Value name text box
 
-在第一列輸入要用於值欄的標籤。
+Enter the label to be used for the value column on the first row.
 
-### 「欄」清單方塊
+### Column list box
 
-選擇要取消樞紐的 CSV 文檔的欄。
+Selects the columns of the CSV document to unpivot.
 
-### 「標題」下拉清單方塊
+### Header drop-down list box
 
-指定用作標題的列數。
+Specifies the number of rows used as the header.
 
-### 「頁腳」下拉清單方塊
+### Footer drop-down list box
 
-指定用作頁腳的列數。
+Specifies the number of rows used as the footer.

@@ -1,3 +1,4 @@
-# Q. 分割視窗有什么作用？
+# Q. What is the split window for?
 
-當您在文字底部編寫時，分割視窗可以讓您同時檢視文字頂部。但是，您不能在分割視窗的每一個窗格中打開不同的檔案。
+Sometimes it is convenient when you are writing at the bottom of the text, to view the top of the text at the same time. You cannot open a different file on each pane of
+the split window.

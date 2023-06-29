@@ -1,6 +1,6 @@
-# CombineLines 方法
+# CombineLines Method
 
-合併 CSV 文檔中垂直相鄰的重複儲存格。
+Combines vertical adjacent duplicate cells of the CSV document.
 
 #### \[JavaScript\]
 
@@ -10,87 +10,87 @@ _nCount_ = document. **CombineLines**( _strColumnsToInspect_, _strColumnsToCombi
 
 _nCount_ = document. **CombineLines**( _strColumnsToInspect_, _strColumnsToCombine_, _strInsert_, _strSortType_, _flags_, _strLocale_ )
 
-## 參數
+## Parameters
 
 _strColumns_
 
-> 指定一個字串，該字串包含用逗號分隔的，以 1 為基準的索引的欄。例如，"1,3,5" 表示欄 1，3，和 5。指定的欄會被檢查是否有重複。
+> Specifies a string containing one-based indexes of columns separated by commas. For instance, "1,3,5" means the column 1, 3, and 5. The specified columns are inspected for duplicates.
 
 _strColumnsToCombine_
 
-> 指定一個字串，該字串包含用逗號分隔的，以 1 為基準的索引的欄。例如，"1,3,5" 表示欄 1，3，和 5。指定的欄會被合併。
+> Specifies a string containing one-based indexes of columns separated by commas. For instance, "1,3,5" means the column 1, 3, and 5. The specified columns are combined.
 
 _strInsert_
 
-> 指定字串作為分隔符號。如果省略，則使用空字串。
+> Specifies a string as a separator. If omitted, an empty string is used.
 
 _strSortType_
 
-> 指定包含標志的字串。如果為空或省略，將不進行排序。
+> Specifies a string containing a flag. If this is empty or omitted, no sort will be performed.
 >
-> 語法：
+> Syntax:
 >
 > option (+/-)
 >
-> option: 從下表中選擇一種排序選項：
+> option: select one of the sorting options from the table below:
 >
 > |     |     |
 > | --- | --- |
-> | A | 對文字進行排序。 |
-> | D | 對日期和時間進行排序。 |
-> | I | 對 IPv4 地址進行排序。 |
-> | P | 對 IPv6 地址進行排序。 |
-> | L | 按字元數排序字串。 |
-> | N | 對數字進行排序。 |
-> | O | 按出現次數排序。 |
-> | R | 隨機排序。 |
-> | V | 反向排序。 |
-> | W | 按字數排序字串。 |
+> | A | Sorts text. |
+> | D | Sorts date and time. |
+> | I | Sorts IPv4 addresses. |
+> | P | Sorts IPv6 addresses. |
+> | L | Sorts strings by the number of characters. |
+> | N | Sorts numbers. |
+> | O | Sorts by occurrence. |
+> | R | Sorts randomly. |
+> | V | Sorts reverse. |
+> | W | Sorts strings by the number of words. |
 >
-> (+/-)：從下表中選擇一種排序選項：
->
-> |     |     |
-> | --- | --- |
-> | + | 升序。 |
-> | - | 降序。 |
->
-> 例如：
+> (+/-): select one of the sorting options from the table below:
 >
 > |     |     |
 > | --- | --- |
-> | A+ | 按升序對文字進行排序。 |
-> | N- | 按降序對數字進行排序。 |
+> | + | Ascending order. |
+> | - | Descending order. |
+>
+> For example:
+>
+> |     |     |
+> | --- | --- |
+> | A+ | Sorts text in ascending order. |
+> | N- | Sorts numbers in descending order. |
 
 _nFlags_
 
-> 你可以指定以下值的組合。要刪除重複的字串，一定要指定 eeRemoveDuplicates。僅當 _strSortType_ 不為空時，才能指定其他標志。不能省略此參數。
+> You can specify a combination of the following values. To remove duplicate split strings, eeRemoveDuplicates must be specified. The other flags can be specified only if _strSortType_ is not empty. This parameter can be omitted.
 >
 > |     |     |
 > | --- | --- |
-> | eeCombineLinesIgnoreCase | 在檢查相鄰的重複儲存格時忽略大小寫。 |
-> | eeRemoveDuplicates | 刪除重複字串。 |
-> | eeSortBinaryComparison | 用忽略地區設定資訊的快速二進位排序算法進行排序。 |
-> | eeSortDigitsAsNumbers | 即使按字母順序排序，數字也按數字大小進行排序。開頭負號和開頭小數點不屬於數字。 |
-> | eeSortGroupIdentical | 當按出現次數排序時，群組相同的字串。 |
-> | eeSortIgnoreCase | 排序時忽略大小寫。 |
-> | eeSortIgnoreKanaType | 平假名和片假名字元作為相同比較。 |
-> | eeSortIgnoreNonSpace | 忽略非空格字元。 |
-> | eeSortIgnoreSymbols | 忽略符號。 |
-> | eeSortIgnoreWidth | 忽略半形和全形字元之間的差異。 |
-> | eeSortIgnorePrefix | 按數字排序時，忽略開頭的非數字字元。 |
-> | eeSortLengthView | 按長度排序時，全形字元被視為 2 個字元。 |
-> | eeSortRemoveEmpty | 刪除空字串。 |
-> | eeSortStable | 使用平穩排序來維持相同記錄的相對順序。平穩排序的速度會較慢。 |
-> | eeSortStringSort | 連字號和所有格符號被視為普通字元。 |
+> | eeCombineLinesIgnoreCase | Ignores case while checking adjacent duplicate cells. |
+> | eeRemoveDuplicates | Removes duplicate strings. |
+> | eeSortBinaryComparison | A faster binary sort algorithm, which ignores locale information, is used for sorting. |
+> | eeSortDigitsAsNumbers | Digits are sorted as numbers even when sorted by alphabetical order. A leading negative sign and leading decimal point are not part of the number. |
+> | eeSortGroupIdentical | Groups identical strings when sorted by occurrence. |
+> | eeSortIgnoreCase | Case is ignored while sorting. |
+> | eeSortIgnoreKanaType | Hiragana and Katakana characters compare as equal. |
+> | eeSortIgnoreNonSpace | Nonspacing characters are ignored. |
+> | eeSortIgnoreSymbols | Symbols are ignored. |
+> | eeSortIgnoreWidth | The difference between half-width and full-width characters is ignored. |
+> | eeSortIgnorePrefix | Leading non-numeric characters are ignored when sorted by numbers. |
+> | eeSortLengthView | Full width characters are treated as 2 characters when sorted by lengths. |
+> | eeSortRemoveEmpty | Removes empty strings. |
+> | eeSortStable | Use stable sort to maintain the relative order of identical records. Stable sorting is slower. |
+> | eeSortStringSort | Hyphen and apostrophe are treated as normal characters. |
 
 _strLocale_
 
-> 指定排序的地區設定資訊，例如："en-US"。如果該值為空或被省略，將使用在自訂對話方塊中「排序」頁面上指定的地區設定資訊。
+> Specifies the locale used for sorting, for example: "en-US". If this is empty or omitted, the locale specified in the "Sort" tab in the Customize dialog box is used.
 
-## 返回值
+## Return Values
 
-返回值是找到的重複行的數量。
+The return value is the number of duplicate lines that were found.
 
-## 版本
+## Version
 
-支持 EmEditor Professional 20.0 或之後的版本。
+Supported on EmEditor Professional Version 20.0 or later.

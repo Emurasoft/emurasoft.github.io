@@ -1,74 +1,79 @@
-# 「亮顯 (2) 」頁面
+# Highlight (2) page
 
-**亮顯 (2)** 頁面讓您能設置與亮顯 (2) 相關的屬性。
+The **Highlight (2)** page allows you to set properties related to
+highlight (2).
 
-### 「註解」群組方塊 \- 「開始」文字方塊
+### Comments group box - Begin text box
 
-為多行註解選擇開頭的字串。
+Select the beginning string for multiple line comments.
 
-### 「註解」群組方塊 \- 「結束」文字方塊
+### Comments group box - End text box
 
-為多行註解選擇結尾的字串。
+Select the end string for multiple line comments.
 
-### 「註解」群組方塊 \- 「行註解」(1) 文字方塊
+### Comments group box - Line Comment (1) text box
 
-指定一個用於行註解的字串。
+Specify a string that designates a line comment.
 
-### 「註解」群組方塊 \- 「行註解」(2) 文字方塊
+### Comments group box - Line Comment (2) text box
 
-指定一個用於行註解的字串。
+Specify a string that designates a line comment.
 
-### 「引號內的字串」群組方塊 \- 單引號 \['...'\] 核取方塊
+### String Enclosed by Quotation Marks group box - Single Quotation Marks \['...'\] check box
 
-如果該核取方塊被勾選了，單引號內的字串將被亮顯。
+If this box is checked, strings enclosed with single quotation marks will be
+highlighted.
 
-### 「引號內的字串」群組方塊 \- 雙引號 \["..."\] 核取方塊
+### String Enclosed by Quotation Marks group box - Double Quotation Marks \["..."\] check box
 
-如果該核取方塊被勾選了，雙引號內的字串將被亮顯。
+If this box is checked, strings enclosed with double quotation marks will
+be highlighted.
 
-### 「引號內的字串」群組方塊 \- 「轉到下一行」核取方塊
+### String Enclosed by Quotation Marks group box - Continue to Next Line check box
 
-如果該核取方塊被勾選了，引號內的字串能橫跨多行。
+If this box is checked, quoted strings may span multiple lines.
 
-### 「引號內的字串」群組方塊 \- 「轉義字元」文字方塊
+### String Enclosed by Quotation Marks group box - Escape Character text box
 
-為引號標記指定一個轉義字元。
+Specify an escape character for quotation marks.
 
-### 「指令碼」群組方塊 \- 「開始」文字方塊
+### Script group box - Begin text box
 
-為指令碼指定開始字串。
+Specify the beginning string for scripts.
 
-### 「指令碼」群組方塊 \- 「結束」文字方塊
+### Script group box - End text box
 
-為指令碼指定結束字串。
+Specify the end string for scripts.
 
-### 「特殊語法」下拉清單方塊
+### Special Syntax drop-down list box
 
-從下列選項中選擇。
+Select from the following.
 
 |     |     |
 | --- | --- |
-| **(無)** | 使用一個與 HTML 無關的檔案。 |
-| **HTML** | 使用一個 HTML 或 ASP 檔案。這個語法使用 HTML，CSS，JavaScript，VBScript，還有 Script 組態。 |
-| **HTML-內嵌** | 使用如同 JSP 或 PHP，HTML 內嵌語言的指令碼語言。這個語法使用 HTML，CSS，JavaScript，VBScript，還有 Script 組態。 |
+| **(None)** | Uses a file unrelated to HTML. |
+| **HTML** | Uses an HTML or ASP file. It uses the HTML, CSS, JavaScript, VBScript, <br> and Script configurations. |
+| **HTML-Embedded** | Uses script languages such as JSP or PHP, HTML embedded language. It <br> uses the HTML, CSS, JavaScript, VBScript, and Script configurations. |
 
-### 「亮顯配對標籤」核取方塊
+### Highlight Matching Tag check box
 
-在 XHTML 和 XML 文檔中，EmEditor 能亮顯游標附近被標籤限定的區域。這個功能只有當一個文檔是格式良好的 XML 文檔時，才能正常運作。如果在一個文檔中沒有結束標記的話，比如一個舊的 HTML 文檔，那么這個功能就可能不會正常運作。
+Highlights inside a tag and the matching tag at the cursor in XHTML and XML documents. This feature works only when a document is a well-formed XML document. The feature may not work if ending tags
+are missing from a document such as an old HTML document.
 
-### 「亮顯配對括號」核取方塊
+### Highlight Matching Brackets check box
 
-亮顯符合的括號 (圓括號或方括號) 。
+Highlight the matching brace (parenthesis or bracket).
 
-### 「自動完成括號/引號標記」核取方塊
+### Auto-Complete Brackets/Quotation Marks check box
 
-自動完成括號/引號標記。
+Auto-completes brackets and quotation marks.
 
-### 「括號對」清單方塊
+### Bracket Pairs list box
 
-自動完成的括號對清單。被勾選的項目會被自動完成，不勾選的項目則不會被自動完成。您不能添加一對新的括號對。
+The list of bracket pairs that can be auto-completed. Checked items are auto-completed while unchecked items are not auto-completed. You can't add a new pair of brackets.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設的設定。
-[**重設** 對話方塊](../reset/index) 會被顯示并讓您能從另一個組態複製設定。
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.

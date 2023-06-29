@@ -1,32 +1,32 @@
-# 「功能表屬性」對話方塊
+# Menu Properties dialog box
 
-這個對話方塊會顯示當
-**「屬性」** 按鈕在 [**自訂功能表** 對話方塊](../index) 上被點擊時。
+This dialog box appears when the
+**Properties** button is selected on the [**Customize Menus** dialog box](../index).
 
-### 「命令」單選按鈕
+### Command radio button
 
-指定一個命令功能表。
+Specify a command menu.
 
-### 「快顯」單選按鈕
+### Popup radio button
 
-指定一個快顯功能表作為功能表資料夾。
+Specify a popup menu as a menu folder.
 
-### 「分隔符」單選按鈕
+### Separator radio button
 
-指定一個分隔符分隔命令。
+Specify a separator to separate commands.
 
-### 類別清單方塊
+### Category list box
 
-命令的可用類別。
+Available category for commands.
 
-### 命令清單方塊
+### Commands list box
 
-被選取類別中的可用命令。
+Commands available for the selected category.
 
-### 描述文字
+### Description text
 
-顯示描述被選取命令。
+Display the description for the selected command.
 
-### 名稱文字方塊
+### Name text box
 
-指定一個功能表名稱。使用 & 標記來指定一個快速鍵。
+Specify a menu name. Use the & mark to specify a shortcut key.

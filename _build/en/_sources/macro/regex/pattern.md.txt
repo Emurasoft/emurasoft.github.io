@@ -1,6 +1,6 @@
-# Pattern 屬性
+# Pattern Property
 
-設置或檢索規則運算式模式。
+Sets or retrieves the regular expression pattern.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ s = reg. **Pattern**
 
 reg. **Pattern** = _s_
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 15.9 或之後的版本。
+Supported on EmEditor Professional Version 15.9 or later.

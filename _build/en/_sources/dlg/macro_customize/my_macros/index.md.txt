@@ -1,54 +1,55 @@
-# 「我的巨集」頁面
+# My Macros tab
 
-**我的巨集** 頁面讓您能設定與 **我的巨集** 相關的選項。
+The **My Macros** tab allows you to set options related to **My Macros**.
 
-### 「我的巨集」清單方塊
+### My Macros list box
 
-顯示 **我的巨集** 清單。
+Displays the list of **My Macros**.
 
-### 「添加」按鈕
+### Add button
 
-點擊該按鈕來添加一個新項目到清單上。
+Click this button to add a new item to the list.
 
-### 「刪除」按鈕
+### Delete button
 
-點擊該按鈕從清單上刪除選取項目。
+Click this button to delete the selected item from the list.
 
-### 「刪除全部」按鈕
+### Delete All button
 
-點擊該按鈕從清單上刪除所有項目。
+Click this button to delete all items from the list.
 
-### 「上移」按鈕
+### Up button
 
-把被選取的項目在清單上上移。
+Move the selected item up on the list.
 
-### 「下移」按鈕
+### Down button
 
-把被選取的項目在清單上下移。
+Move the selected item down on the list.
 
-### 「編輯」按鈕
+### Edit button
 
-用 EmEditor 打開選取的巨集檔案來編輯巨集。
+Opens the selected macro file with EmEditor so that you can edit the macro.
 
-### 「事件」按鈕
+### Events button
 
-顯示 [**選擇事件** 對話方塊](select_events/index)，讓您能選擇可以與被選取的巨集相關聯的事件。
+Displays the [**Select Events** dialog box](select_events/index) so you can select events which the selected macro can be associated with.
 
-### 「在發生事件時運行」核取方塊
+### Runs at Events check box
 
-在指定的事件發生時，運行被選取的巨集。
+Runs the selected macro at the specified events.
 
-### 「事件」文字
+### Events text box
 
-顯示巨集運行時的事件。
+Displays the events at which the macro runs.
 
-### 「路徑」文字
+### Path text box
 
-顯示選取巨集的完整路徑。
+Displays the full path of the selected macro.
 
-下面的對話方塊同樣能夠通過該對話方塊訪問。
+The following dialog box is also available through this dialog box.
 
-(選擇 **「事件」** 按鈕)
+(Select
+**Events** button)
 
 ```{toctree}
 :maxdepth: 1

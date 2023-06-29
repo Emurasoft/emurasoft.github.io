@@ -1,20 +1,20 @@
 # Editor\_GetClipPos
 
-檢索剪貼簿記錄中的目前的位置。您能直接用該內嵌函式或明確地發送 [EE\_CLIP\_HISTORY](../message/ee_clip_history)
-消息。
+Retrieves the current position in the Clipboard history. You can use this inline function or explicitly send the [EE\_CLIP\_HISTORY](../message/ee_clip_history)
+message.
 
 Editor\_GetClipPos( HWND hwnd );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
-## 返回值
+## Return Values
 
-> 檢索剪貼簿記錄中的目前的位置。如果消息不成功，返回值是 -1。
+> Retrieves the current position in the Clipboard history. If the message fails, the return value is -1.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 9.00 或之後的版本。
+> Supported on EmEditor Version 9.00 or later.

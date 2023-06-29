@@ -1,32 +1,39 @@
 # Version 14
 
-2013年12月9日
+December 9, 2013
 
-## 一般新增功能
+## New General Features
 
-- 增強的多選區功能。當多個選區被選中時，游標可以在多處位置同時移動。
-- 添加了四個新命令: [**將百分比編碼轉換為 Unicode (當前編碼)**](../cmd/edit/decode_percent)，
-[**將 Unicode 轉換為百分比編碼 (當前編碼)**](../cmd/edit/encode_percent)，
-[**將百分比編碼轉換為 Unicode (UTF-8)**](../cmd/edit/decode_percent_utf8)，以及
-[**將 Unicode 轉換為百分比編碼 (UTF-8)**](../cmd/edit/encode_percent_utf8)。當鼠標指針懸停在百分比編碼文字上時，一個工具提示會出現，并自動顯示解碼的文字。
-- 添加了 [**向上移動行**](../cmd/edit/move_line_up) 和 [**向下移動行**](../cmd/edit/move_line_down) 的命令。
-- 當 **尋找** 對話方塊開啟時，再按一下 **尋找** 命令或 CTRL + F 快捷鍵，可以把鍵盤焦點拉回到 **尋找** 下拉清單方塊中。這個操作同樣也適用在 **取代**， **多檔尋找** 或 **多檔取代** 這些對話方塊中，只要您再按一下功能表中尋找命令或快捷鍵，鍵盤焦點都會回到 **尋找** 下拉清單方塊中。
-- 當 **自訂巨集** 或 **自訂功能表** 對話方塊被關閉時，EmEditor v14 會被優化來減少屏幕刷新。
-- 解決了當 _TeamViewer_ 同時被運行并登錄時，EmEditor 可能會故障的問題。
+- Enhanced multiple selections. When multiple selections are made, cursors appear simultaneously at multiple locations.
+- Four new commands: [**Percent-encoding to Unicode (Current Encoding)**](../cmd/edit/decode_percent),
+[**Unicode to Percent-encoding (Current Encoding)**](../cmd/edit/encode_percent),
+[**Percent-encoding to Unicode (UTF-8)**](../cmd/edit/decode_percent_utf8), and
+[**Unicode to Percent-encoding (UTF-8)**](../cmd/edit/encode_percent_utf8) were added. If the mouse pointer hovers on the text
+encoded with percent encoding, a tooltip will automatically appear with decoded text.
+- The [**Move Line Up**](../cmd/edit/move_line_up) and
+[**Move Line Down**](../cmd/edit/move_line_down) commands were added.
+- When the **Find** dialog box is open, selecting the **Find** command or pressing **CTRL + F** now sets the keyboard focus to the **Find**
+drop-down list box now. Similarly, the **Replace**, **Find in Files**, and **Replace in Files** dialog boxes now sets the keyboard focus to the **Find**
+drop-down list box when activated by the shortcuts or selecting from menus.
+- Optimized to reduce the screen refresh when the **Customize Macros** or **Customize Menus** dialog is closed.
+- Addressed the issue where EmEditor might have crashed when _TeamViewer_ was run simultaneously and signed in.
 
-## 新增選項
+## New options
 
-- 在 [**多檔尋找** 對話方塊](../dlg/find_in_files/index) 和 [**多檔取代** 對話方塊](../dlg/replace_in_files/index) 中，新增了
-**搜尋完成后關閉該對話方塊** 的核取方塊。
-- **輸出選項** 下拉清單方塊被添加到了 [**多檔尋找** 對話方塊](../dlg/find_in_files/index) 中，能從這些選項中選擇要顯示的內容: **檔案名和行**， **僅檔案名**， **僅匹配行**，以及 **僅匹配字元**。
-- 添加了 **輸入維護金鑰** 對話方塊。
-- [**關于 EmEditor** 對話方塊](../dlg/about/index) 中新增了 **「增加維護金鑰」** 的按鈕。
+- The
+**Close when Finished** check box in the [**Find in Files** dialog box](../dlg/find_in_files/index) and the
+[**Replace in Files** dialog box](../dlg/replace_in_files/index).
+- The **Output Options** drop-down list box was added to the [**Find in Files** dialog \
+box](../dlg/find_in_files/index), where you can select the display option from
+**File Names and Lines**, **File Names Only**, **Matched Lines Only**, and **Matched Strings Only**.
+- The **Enter Maintenance Key** dialog box was added.
+- The **Add Maintenance Key** button in the [**About EmEditor** dialog box](../dlg/about/index).
 
-## 新增命令
+## New commands
 
-- [**將百分比編碼轉換為 Unicode (當前編碼)**](../cmd/edit/decode_percent)
-- [**將 Unicode 轉換為百分比編碼 (當前編碼)**](../cmd/edit/encode_percent)
-- [**將百分比編碼轉換為 Unicode (UTF-8)**](../cmd/edit/decode_percent_utf8)
-- [**將 Unicode 轉換為百分比編碼 (UTF-8)**](../cmd/edit/encode_percent_utf8)
-- [**向上移動行**](../cmd/edit/move_line_up)
-- [**向下移動行**](../cmd/edit/move_line_down)
+- [**Percent-encoding to Unicode (Current Encoding)**](../cmd/edit/decode_percent)
+- [**Unicode to Percent-encoding (Current Encoding)**](../cmd/edit/encode_percent)
+- [**Percent-encoding to Unicode (UTF-8)**](../cmd/edit/decode_percent_utf8)
+- [**Unicode to Percent-encoding (UTF-8)**](../cmd/edit/encode_percent_utf8)
+- [**Move Line Up**](../cmd/edit/move_line_up)
+- [**Move Line Down**](../cmd/edit/move_line_down)

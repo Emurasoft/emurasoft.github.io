@@ -1,27 +1,29 @@
-# 分割命令
+# Split command
 
-### 摘要
+### Summary
 
-> 分割目前的視窗到窗格中。
+> Splits the current window into four panes.
 
-### 說明
+### Description
 
-> 這個命令會把目前的視窗分割成四個窗格。用游標來控制分割位置。點擊游標將固定分割位置 (您也可以在以后根據需要改變方向)。
+> This command splits the current window into four panes.  Use the mouse
+> to control the split position. Click to set the split to a fixed position
+> (you can change the orientation later as necessary).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **視窗** \> **分割**
-- [全部命令](../tools/all_commands): **視窗**
-\> **分割** \> **分割**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: CTRL+F12
+- Default Menu: **Window** \> **Split**
+- [All Commands](../tools/all_commands): **Window**
+\> **Split** \> **Split**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: CTRL+F12
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_WINDOW\_SPLIT (4240)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

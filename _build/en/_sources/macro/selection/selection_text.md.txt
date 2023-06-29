@@ -1,6 +1,6 @@
-# Text 屬性
+# Text Property
 
-檢索被選取的文字，或在游標位置處插入一個字串。
+Retrieves the selected text, or inserts a string at the cursor position.
 
 #### \[JavaScript\]
 
@@ -14,7 +14,7 @@ _str_ = document.selection. **Text**
 
 document.selection. **Text** = _str_
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -32,6 +32,6 @@ alert "The selected text is " & str
 
 document.selection.Text = "Hello"
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

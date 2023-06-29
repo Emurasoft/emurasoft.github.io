@@ -1,6 +1,8 @@
-# InsertReturns 屬性
+# InsertReturns Property
 
-與 [**儲存詳細信息** 對話方塊](../../dlg/properties/file/save_details/index) 中的 **儲存時自動換行** 核取方塊相對應。
+Corresponds to the **Insert**
+**Returns when Saving** check box in the
+[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 #### \[JavaScript\]
 
@@ -16,6 +18,6 @@ object. **InsertReturns**
 
 object. **InsertReturns** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

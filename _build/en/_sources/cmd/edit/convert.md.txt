@@ -1,26 +1,30 @@
-# 半形/全形轉換命令
+# Half-Width/Full-Width Conversion command
 
-### 摘要
+### Summary
 
-> 轉換選定文字中的半形和全形字元。
+> Converts the selection between half-width and full-width characters.
 
-### 說明
+### Description
 
-> 這個命令會把半形字元轉換為全形字元，或者把全形字元轉換為半形字元。當執行該命令時， [**「半形/全形轉換」** 對話方塊](../../dlg/convert/index) 會顯示，您可以設置字元類型以及範圍。
+> This command converts half-width characters to full-width characters, or
+> converts full-width characters to half-width characters.  The
+> [**Half-Width/Full-Width Conversion** dialog box](../../dlg/convert/index)
+> will be displayed upon executing this command, where you can set types of
+> characters and the selection.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **轉換** \> **半形/全形轉換**
-- [全部命令](../tools/all_commands): **轉換** \> **半形/全形轉換**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: CTRL+T
+- Default Menu: **Convert** \> **Half-Width/Full-Width Conversion**
+- [All Commands](../tools/all_commands): **Convert** \> **Half-Width/Full-Width Conversion**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+T
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CONVERT (4148)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

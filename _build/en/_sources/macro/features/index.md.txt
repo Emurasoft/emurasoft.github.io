@@ -1,10 +1,11 @@
-# 功能
+# Features
 
-EmEditor Professional 讓您能用 JavaScript 或 VBScript 創建功能豐富的巨集。巨集的功能包括:
+EmEditor Professional allows you to create functionally-rich macros using JavaScript or VBScript.
+Features of the macros include:
 
-## 註意
+## Notes
 
-EmEditor 中沒有目前的 JavaScript/ECMAScript 中的許多新方法。EmEditor 巨集使用 JScript 5.8（相當於 Internet Explorer 8.0），因此 EmEditor 巨集不支援 JScript 5.8 之後引入的新方法。請檢查您要使用的方法是否滿足所需的版本。
+Many new methods in modern JavaScript/ECMAScript are not available in EmEditor. EmEditor macros use JScript 5.8 (equivalent to Internet Explorer 8.0), thus newer methods introduced after JScript 5.8 are not supported in EmEditor macros. Please check if the methods you want to use meet the required versions.
 
 ```{toctree}
 :maxdepth: 1

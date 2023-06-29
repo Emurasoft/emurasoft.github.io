@@ -1,6 +1,7 @@
-# DeleteLeft 方法
+# DeleteLeft Method
 
-刪除所選內容。如果選定內容是空的，那么刪除游標左邊的指定字元數。
+Deletes the selected text. If the selection is empty, deletes the specified
+number of characters to the left of the cursor.
 
 #### \[JavaScript\]
 
@@ -10,13 +11,16 @@ document.selection. **DeleteLeft**( \[ _nCount_ \] );
 
 document.selection. **DeleteLeft** \[ _nCount_ \]
 
-## 參數
+## Parameters
 
 _nCount_
 
-可選項。指定游標左邊要刪除的字元數。預設值為 1。如果指定的是負數，那這個方法與 [**Delete** \
-方法](selection_delete) 的行為相同。如果指定的是 0，會刪除游標往左的 1 個字元數。
+Optional. Specifies the number of characters to delete to the left of the
+cursor. The default is 1. If negative, the method acts like
+the
+[**Delete** \
+Method.](selection_delete) If 0, the method acts like 1.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

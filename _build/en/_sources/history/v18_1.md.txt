@@ -1,61 +1,61 @@
 # Version 18.1
 
-2018年9月26日
+September 26, 2018
 
-## 一般新增功能
+## New General Features
 
-- 打開非常大的檔案時，大大提高了各種操作的速度。
+- Greatly improved the speed of **Find in Files** and various operations when opening very large files.
 
-### 測試結果：
+### Test results:
 
-|  | v17.9 | v18.0 | v18.1 | 與 v17.9 相較 |
+|  | v17.9 | v18.0 | v18.1 | Comparison to v17.9 |
 | --- | --- | --- | --- | --- |
-| 多檔尋找\*1 | 8.86 秒 | 7.31 秒 | 0.609 秒 | 快 14.5 倍 |
-| 打開一個很大的檔案\*2 | 7.06 秒 | 7.06 秒 | 2.44 秒 | 快 2.89 倍 |
-| 轉換到 CSV 模式\*3 | 59.3 秒 | 18.4 秒 | 3.02 秒 | 快 19.6 倍 |
-| 按字母升序排序（預設選項） | 64.0  秒 | 38.1 秒 | 32.1 秒 | 快 1.99 倍 |
-| 按字母升序排序（快速二進位比較） | 35.5 秒 | 10.3 秒 | 8.28 秒 | 快 4.29 倍 |
-| 刪除重複行 | 31.7  秒 | 18.3  秒 | 2.20  秒 | 快 14.4 倍 |
-| 儲存（為同一檔案在更改後） | 25.8 秒 | 0.562 秒 | 0.406  秒 | 快 63.5 倍 |
-| 儲存為新檔案 | 26.7 秒 | 0.484 秒 | 0.343 秒 | 快 77.8 倍 |
+| Find in Files\*1 | 8.86 seconds | 7.31 seconds | 0.609 seconds | 14.5 times faster |
+| Open a very large file\*2 | 7.06 seconds | 7.06 seconds | 2.44 seconds | 2.89 times faster |
+| Switch to CSV mode\*3 | 59.3 seconds | 18.4 seconds | 3.02 seconds | 19.6 times faster |
+| Sort A to Z (default options) | 64.0  seconds | 38.1 seconds | 32.1 seconds | 1.99 times faster |
+| Sort A to Z (fast binary comparison) | 35.5  seconds | 10.3 seconds | 8.28 seconds | 4.29 times faster |
+| Delete Duplicate Lines | 31.7  seconds | 18.3  seconds | 2.20  seconds | 14.4 times faster |
+| Save (as the same file after changes) | 25.8 seconds | 0.562 seconds | 0.406  seconds | 63.5 times faster |
+| Save As a new file | 26.7 seconds | 0.484 seconds | 0.343 seconds | 77.8 times faster |
 
-\*1 在 11,370 個 HTML 檔案中尋找 "abc" (總共 29.9 MB)。
+\*1 Find "abc" in 11,370 HTML files (total of 29.9 MB).
 
-\*2 1.34 GB，100,000,000 行，ASCII 隨機數據
+\*2 1.34 GB, 100,000,000 lines, random ASCII data
 
-\*3 1.99 GB，15,860,000 行，隨機抽取數字。
+\*3 1.99 GB, 15,860,000 lines, random number data.
 
-\\* 其它：538 MB，10,000,000 行，ASCII 隨機數據，「使用臨時檔案」選項（預設）。測試系統：Windows 10 (64-bit), Core i7-8700K, 32GB RAM。
+\\* All others: 538 MB, 10,000,000 lines, random ASCII data, Use Temporary Files option on (default), Windows 10 (64-bit), Core i7-8700K, 32GB RAM.
 
-- 添加了 **同步** 設定功能。預設設定不啟用此功能。
-- 添加了 **/max** 選項到 [命令列選項](../howto/file/file_commandline) 中。
+- Added the **Sync** settings feature. This feature is disabled by default.
+- Added the **/max** option to the [command line options](../howto/file/file_commandline).
 
-## 新增選項
+## New Options
 
-- 添加了 [**同步** 頁面](../dlg/customize/sync/index) 到 **自訂** 對話方塊中。
-- 添加了 **一個儲存格中的最大新行數** 文字方塊到 **自訂** 對話方塊中的 [**CSV** 頁面](../dlg/customize/csv/index) 上。
-- 添加了 **每個檔案的最大記憶體大小** 文字方塊到 **自訂** 對話方塊中的 [**進階** 頁面](../dlg/customize/advanced/index) 上。
-- 添加了 **App 主題** 下列清單方塊到 **自訂** 對話方塊的 [**檢視** 頁面](../dlg/customize/view/index) 上。
-- 添加了 **停止如果符合數達到** 文字方塊到 [**多檔尋找**](../dlg/find_in_files/index) 以及 [**多檔取代**](../dlg/replace_in_files/index) 對話方塊中。棄用了 **自訂** 對話方塊中 [**搜尋** 頁面](../dlg/customize/search/index) 上的 **如使文檔保持開啟，可取代的最多檔案數目** 文字方塊。
+- Added the [**Sync** page](../dlg/customize/sync/index) to the **Customize** dialog box.
+- Added the **Max newlines in a cell** text box to the [**CSV** page](../dlg/customize/csv/index) of the **Customize** dialog box.
+- Added the **Maximum Memory Size per File** text box to the [**Advanced** page](../dlg/customize/advanced/index) of the **Customize** dialog box.
+- Added the **App Theme** drop-down list box to the [**View** page](../dlg/customize/view/index) of the **Customize** dialog box.
+- Added the **Stop if number of matches reaches** text box to the [**Find in Files**](../dlg/find_in_files/index) and [**Replace in Files**](../dlg/replace_in_files/index) dialog boxes. The **Maximum Number of Files to Replace if Kept Open** text box in the [**Search** page](../dlg/customize/search/index) of the **Customize** dialog box was deprecated.
 
-## 新增命令
+## New Commands
 
-- [自訂同步](../cmd/tools/customize_sync)
+- [Customize Sync](../cmd/tools/customize_sync)
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 **nLimit** 欄位到 [**GREP\_INFO\_EX** 結構](../plugin/structure/grep_info_ex) 中。
+- Added the **nLimit** field to the [**GREP\_INFO\_EX** structure](../plugin/structure/grep_info_ex).
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 **nExFlags** 和 **nLimit** 參數到 **Editor** 對象的 [**FindInFiles** 方法](../macro/editor/editor_findinfiles) 以及 [**ReplaceInFiles** 方法](../macro/editor/editor_replaceinfiles) 中。
+- Added **nExFlags** and **nLimit** parameters to the [**FindInFiles** method](../macro/editor/editor_findinfiles) and [**ReplaceInFiles** method](../macro/editor/editor_replaceinfiles) of the **Editor** object.
 
-## 修復 Bug
+## Bug Fixes
 
-- 修復了使用者報告的問題（ [1](https://www.emeditor.com/forums/topic/cursor-position-incorrect/)，
-[2](https://jp.emeditor.com/forums/topic/%e3%82%a6%e3%82%a3%e3%83%b3%e3%83%89%e3%82%a6%e3%82%bf%e3%83%96%e3%81%ae%e8%a1%a8%e7%a4%ba%e3%81%8c%e6%ad%a3%e5%b8%b8%e3%81%ab%e5%87%a6%e7%90%86%e3%81%95%e3%82%8c%e3%81%aa%e3%81%84/)，
-[3](https://jp.emeditor.com/forums/topic/%e6%a4%9c%e7%b4%a2%e6%99%82%e3%81%ae%e3%82%a2%e3%82%a6%e3%83%88%e3%83%a9%e3%82%a4%e3%83%b3%e3%81%ae%e8%87%aa%e5%8b%95%e5%b1%95%e9%96%8b/)，
-[4](https://jp.emeditor.com/forums/topic/unicode-%e7%b5%90%e5%90%88%e6%96%87%e5%ad%97%e3%81%ae%e3%83%8f%e3%82%a4%e3%83%a9%e3%82%a4%e3%83%88%e6%99%82%e3%81%ae%e4%b8%8d%e5%85%b7%e5%90%88/)，
-[5](https://www.emeditor.com/forums/topic/line-number-areas-are-not-fully-refreshed/)，
-[6](https://www.emeditor.com/forums/topic/view-page-of-the-customize-dialog-box/)，
-[7](https://jp.emeditor.com/forums/topic/%e3%82%a2%e3%82%a6%e3%83%88%e3%83%a9%e3%82%a4%e3%83%b3%e3%81%ae-%ef%bc%88%e7%b8%ae%e5%b0%8f%e8%a1%a8%e7%a4%ba%ef%bc%89%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3%e3%81%8c%e3%81%99%e3%81%90%e3%81%ab/)）。
+- Fixed customer-reported issues ( [1](https://www.emeditor.com/forums/topic/cursor-position-incorrect/),
+[2](https://jp.emeditor.com/forums/topic/%e3%82%a6%e3%82%a3%e3%83%b3%e3%83%89%e3%82%a6%e3%82%bf%e3%83%96%e3%81%ae%e8%a1%a8%e7%a4%ba%e3%81%8c%e6%ad%a3%e5%b8%b8%e3%81%ab%e5%87%a6%e7%90%86%e3%81%95%e3%82%8c%e3%81%aa%e3%81%84/),
+[3](https://jp.emeditor.com/forums/topic/%e6%a4%9c%e7%b4%a2%e6%99%82%e3%81%ae%e3%82%a2%e3%82%a6%e3%83%88%e3%83%a9%e3%82%a4%e3%83%b3%e3%81%ae%e8%87%aa%e5%8b%95%e5%b1%95%e9%96%8b/),
+[4](https://jp.emeditor.com/forums/topic/unicode-%e7%b5%90%e5%90%88%e6%96%87%e5%ad%97%e3%81%ae%e3%83%8f%e3%82%a4%e3%83%a9%e3%82%a4%e3%83%88%e6%99%82%e3%81%ae%e4%b8%8d%e5%85%b7%e5%90%88/),
+[5](https://www.emeditor.com/forums/topic/line-number-areas-are-not-fully-refreshed/),
+[6](https://www.emeditor.com/forums/topic/view-page-of-the-customize-dialog-box/),
+[7](https://jp.emeditor.com/forums/topic/%e3%82%a2%e3%82%a6%e3%83%88%e3%83%a9%e3%82%a4%e3%83%b3%e3%81%ae-%ef%bc%88%e7%b8%ae%e5%b0%8f%e8%a1%a8%e7%a4%ba%ef%bc%89%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3%e3%81%8c%e3%81%99%e3%81%90%e3%81%ab/)).

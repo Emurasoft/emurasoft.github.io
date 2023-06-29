@@ -1,6 +1,7 @@
 # Version 4.03
 
-2004年2月25日
+February 25, 2004
 
-- [EmEditor Professional 的新功能](../features/feature_pro)
-- [EmEditor Professional 和 EmEditor Standard 的新功能](../features/feature_pro_std)
+- [New Features of EmEditor Professional](../features/feature_pro)
+- [New features for both EmEditor \
+Professional and EmEditor Standard](../features/feature_pro_std)

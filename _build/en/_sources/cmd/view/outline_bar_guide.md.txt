@@ -1,26 +1,28 @@
-# 切換大綱顯示條和導引命令
+# Toggle Outline Bar and Guide command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏大綱顯示條和大綱導引。
+> Shows or hides the outline bar and the outline guide.
 
-### 說明
+### Description
 
-> 顯示或隱藏大綱顯示條和大綱導引。
+> Shows or hides the outline bar and the outline guide.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** \> **大綱** \> **大綱顯示條和導引**
-- 工具列: **![Outline](../../images/plugin_outline.gif)**
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** >
+**Outline** >
+**Outline Bar and Guide**
+- Toolbar: **![Outline](../../images/plugin_outline.gif)**
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_OUTLINE\_BAR\_GUIDE (3874)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

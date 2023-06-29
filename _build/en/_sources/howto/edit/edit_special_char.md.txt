@@ -1,139 +1,142 @@
-# 插入特殊字元
+# To Insert Special Characters
 
-在 **編輯** 功能表下選擇 **進階**，然后選擇 **插入特殊字元**。
+Select **Advanced** under the **Edit** menu, and then select **Insert**
+**Special Character.**
 
-另外，您也可以用預設捷徑來插入下列字元:
+Alternatively, you can use the default shortcut keys for the following
+characters:
 
-**一個帶重音符的字母** à è ì ò ù À È Ì Ò Ù Ǹ, ǹ, Ỳ, ỳ
+**A letter with a grave accent** à è ì ò ù À È Ì Ò Ù Ǹ, ǹ, Ỳ, ỳ
 
-CTRL + \` (重音符), 字母
+CTRL + \` (grave accent), the letter
 
-**一個帶銳音符的字母** á é í ó ú ý Á É Í Ó Ú Ý ś ź Ś Ź Ć, ć, Ĺ, ĺ, Ń, ń, Ŕ, ŕ, Ǵ, ǵ, Ḱ, ḱ, Ḿ, ḿ, Ṕ, ṕ, Ẃ, ẃ
+**A letter with an acute accent** á é í ó ú ý Á É Í Ó Ú Ý ś ź Ś Ź Ć, ć, Ĺ, ĺ, Ń, ń, Ŕ, ŕ, Ǵ, ǵ, Ḱ, ḱ, Ḿ, ḿ, Ṕ, ṕ, Ẃ, ẃ
 
-CTRL + ' (單引號), 字母
+CTRL + ' (apostrophe), the letter
 
-**一個帶揚抑符的字母**  â ê î ô û Â Ê Î Ô Û Ĉ, ĉ, Ĝ, ĝ, Ĥ, ĥ, Ĵ, ĵ, Ŝ, ŝ, Ŵ, ŵ, Ŷ, ŷ
+**A letter with a circumflex**  â ê î ô û Â Ê Î Ô Û Ĉ, ĉ, Ĝ, ĝ, Ĥ, ĥ, Ĵ, ĵ, Ŝ, ŝ, Ŵ, ŵ, Ŷ, ŷ
 
-CTRL + SHIFT + 6, 字母
+CTRL + SHIFT + 6, the letter
 
-**一個帶波形符的字母** ã ñ õ Ã Ñ Õ ẽ ũ Ẽ Ũ Ĩ, ĩ, Ṽ, ṽ, Ỹ, ỹ
+**A letter with a tilde** ã ñ õ Ã Ñ Õ ẽ ũ Ẽ Ũ Ĩ, ĩ, Ṽ, ṽ, Ỹ, ỹ
 
-CTRL + SHIFT + \` (重音符), 字母
+CTRL + SHIFT + \` (grave accent), the letter
 
-**一個帶分音符的字母**  ä ë ï ö ü ÿ Ä Ë Ï Ö Ü Ÿ Ẅ, ẅ, Ẍ, ẍ, ẗ, ?/p>
+**A letter with a diaeresis**  ä ë ï ö ü ÿ Ä Ë Ï Ö Ü Ÿ Ẅ, ẅ, Ẍ, ẍ, ẗ, ¨
 
-CTRL + SHIFT + ; (分號), 字母
+CTRL + SHIFT + ; (semi colon), the letter
 
-(在許多鍵盤上，Shift + ; 代表 : (冒號))
+(On many keyboards, Shift + ; represents : (colon))
 
-**一個帶分音符和重音符的字母**  Ǜ, ǜ
+**A letter with a diaeresis and a grave**  Ǜ, ǜ
 
-CTRL + SHIFT + : (冒號), CTRL + ' (單引號), 字母
+CTRL + SHIFT + : (colon), CTRL + ' (apostrophe), the letter
 
-**一個帶分音符和銳音符的字母**  Ǘ, ǘ, Ḯ, ḯ
+**A letter with a diaeresis and an acute**  Ǘ, ǘ, Ḯ, ḯ
 
-CTRL + SHIFT + : (冒號), CTRL + ' (單引號), 字母
+CTRL + SHIFT + : (colon), CTRL + ' (apostrophe), the letter
 
-**一個帶分音符和變音符的字母**  Ǚ, ǚ
+**A letter with a diaeresis and a caron**  Ǚ, ǚ
 
-CTRL + SHIFT + : (冒號), ALT + SHIFT + ^ (脫字號), 字母
+CTRL + SHIFT + : (colon), ALT + SHIFT + ^ (caret), the letter
 
-**一個帶分音符和長音符的字母**  Ǖ, ǖ, Ǟ, ǟ, Ȫ, ȫ
+**A letter with a diaeresis and a macron**  Ǖ, ǖ, Ǟ, ǟ, Ȫ, ȫ
 
-CTRL + SHIFT + : (冒號), ALT + - (連字元), 字母
+CTRL + SHIFT + : (colon), ALT + - (hyphen), the letter
 
-**一個帶上圓圈符的字母** å Å Ů, ů
+**A letter with a ring above** å Å Ů, ů
 
-CTRL + SHIFT + 2, 字母
+CTRL + SHIFT + 2, the letter
 
-(在許多鍵盤上，Shift + 2 代表 @)
+(On many keyboards, Shift + 2. represents @)
 
-**一個連字元** æ œ Æ Œ
+**A ligature** æ œ Æ Œ
 
-CTRL + SHIFT + 7, a, A, o 或 O
+CTRL + SHIFT + 7, a, A, o or O
 
-(在許多鍵盤上，Shift + 7 代表 &)
+(On many keyboards, Shift + 7 represents &)
 
-**一個清s** ß
+**A sharp** s ß
 
 CTRL + SHIFT + 7, s
 
-(在許多鍵盤上，Shift + 7 代表 &)
+(On many keyboards, Shift + 7 represents &)
 
-**帶下加符的 一個 c 或 C 字母** ç Ç
+**A c or C letter with a cedilla** ç Ç
 
-CTRL + , (逗號), c 或 C
+CTRL + , (comma), c or C
 
-**一個 eth 字母** ð Ð
+**An eth letter** ð Ð
 
-CTRL + ' (單引號), d 或 D
+CTRL + ' (apostrophe), d or D
 
-**一個帶劃線的字母** ø Ø Ł, ł, Ⱥ, Ȼ, Ɇ, ɇ
+**An o or O letter with a stroke** ø Ø Ł, ł, Ⱥ, Ȼ, Ɇ, ɇ
 
-CTRL + /, 字母
+CTRL + /, the letter
 
-**一個帶揚抑符的字母** ǎ, ǐ, ǒ, ǔ, Ǎ, Ǐ, Ǒ Ǔ Č, č, Ď, ď, Ě, ě, Ľ, ľ, Ň, ň, Ř, ř, Š, š, Ť, ť, Ž, ž, Ǧ, ǧ, Ǩ, ǩ, ǰ, Ȟ, ȟ, ˇ
+**A letter with a caron** ǎ, ǐ, ǒ, ǔ, Ǎ, Ǐ, Ǒ Ǔ Č, č, Ď, ď, Ě, ě, Ľ, ľ, Ň, ň, Ř, ř, Š, š, Ť, ť, Ž, ž, Ǧ, ǧ, Ǩ, ǩ, ǰ, Ȟ, ȟ, ˇ
 
-ALT+SHIFT+6, 字母
+ALT+SHIFT+6, the letter
 
-**一個帶有長音符的字母** Ā, ā, Ē, ē, Ō, ō, Ū, ū, Ȳ, ȳ, Ḡ, ḡ, Ī, ī, ?/p>
+**A letter with a macron** Ā, ā, Ē, ē, Ō, ō, Ū, ū, Ȳ, ȳ, Ḡ, ḡ, Ī, ī, ¯
 
-ALT + -, 字母
+ALT + -, the letter
 
-**一個美分標記** ¢
+**A cent sign** ¢
 
 CTRL + /, c
 
-**一個倒轉的問號**  ¿
+**An inverted question mark**  ¿
 
 ALT + CTRL + SHIFT + /
 
-(在許多鍵盤上，Shift + / 代表 ?)
+(On many keyboards, Shift + / represents ?)
 
-**一個倒轉的感嘆號**  ¡
+**An inverted exclamation mark**  ¡
 
 ALT + CTRL + SHIFT + 1
 
-(在許多鍵盤上，Shift + 1 代表 !)
+(On many keyboards, Shift + 1 represents !)
 
-**一個度標記**  °
+**A degree sign**  °
 
-CTRL + SHIFT + 2, 空白
+CTRL + SHIFT + 2, space
 
-(在許多鍵盤上，Shift + 2 代表 @)
+(On many keyboards, Shift + 2 represents @)
 
-**一個版權符** ©
+**A copyright sign** ©
 
 ALT + CTRL + C
 
-**一個注冊符**  ®
+**A registered sign**  ®
 
 ALT + CTRL + R
 
-**一個商標符** ™
+**A trademark sign** ™
 
 ALT + CTRL + T
 
-**一個歐元符** €
+**An euro sign** €
 
 ALT + CTRL + E
 
-**一個左單引號** ‘
+**A single opening quote** ‘
 
-CTRL + \` (重音符), \` (重音符)
+CTRL + \` (grave accent), \` (grave accent)
 
-**一個右單引號** ’
+**A single closing quote** ’
 
-CTRL + ' (單引號), ' (單引號)
+CTRL + ' (apostrophe), ' (apostrophe)
 
-**一個左雙引號** “
+**A double opening quote** “
 
-CTRL + \` (重音符), "
+CTRL + \` (grave accent), "
 
-**一個右雙引號** ”
+**A double closing quote** ”
 
-CTRL + ' (單引號), "
+CTRL + ' (apostrophe), "
 
-**注意**
+**Note**
 
-如果這些快速鍵不起作用，您可能需要重新設置。顯示 **屬性** 中的 **鍵盤** 頁面，按 **「重設」** 按鈕。
+If these shortcut keys do not work, you may need to reset your properties.
+Display the **Keyboard** tab in **Properties**, and press the **Reset** button.

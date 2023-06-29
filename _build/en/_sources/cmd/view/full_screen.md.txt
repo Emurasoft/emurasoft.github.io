@@ -1,26 +1,26 @@
-# 版面配置 1（焦點模式）命令
+# Layout 1 (Focus Mode) command
 
-### 摘要
+### Summary
 
-> 切換版面配置 1（預設為焦點模式）模式。
+> Toggles Layout 1 (Focus Mode by default).
 
-### 說明
+### Description
 
-> 切換版面配置 1（預設為焦點模式）模式。
+> Toggles Layout 1 (Focus Mode by default).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **版面配置** \> **全屏**
-- [全部命令](../tools/all_commands): **檢視** \> **版面配置** \> **全屏**
-- 工具列: ![](../../images/full_screen.gif)
-- 狀態列: 無
-- 預設捷徑: F11
+- Default Menu: **View** \> **Layouts** \> **Full Screen**
+- [All Commands](../tools/all_commands): **View** \> **Layouts** \> **Full Screen**
+- Toolbar: ![](../../images/full_screen.gif)
+- Status Bar: None
+- Default Shortcut Key: F11
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FULL\_SCREEN (4453)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

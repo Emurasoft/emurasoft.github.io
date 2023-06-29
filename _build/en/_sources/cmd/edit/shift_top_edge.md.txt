@@ -1,26 +1,26 @@
-# 延伸到上邊緣 (僅限儲存格選擇模式) 命令
+# Top Edge Extend (Cell Selection Mode Only) command
 
-### 摘要
+### Summary
 
-> 把選區延伸到目前的數據區域的上邊緣。
+> Extends the selection to the top edge of the current data region.
 
-### 說明
+### Description
 
-> 把選區延伸到目前的數據區域的上邊緣。
+> Extends the selection to the top edge of the current data region.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **CSV** \> **僅限儲存格選擇模式** \> **延伸到上邊緣**
-- 工具列: ![](../../images/cell_selection_mode.gif)
-- 狀態列: 無
-- 預設捷徑: CTRL+SHIFT+向上鍵 (僅限儲存格選擇模式)
+- Default Menu: None
+- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode Only** \> **Top Edge Extend**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+SHIFT+UP ARROW (Cell Selection Mode Only)
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SHIFT\_TOP\_EDGE (4023)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

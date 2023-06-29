@@ -1,6 +1,6 @@
-# StartOfLine 方法
+# StartOfLine Method
 
-把游標移動到行首。
+Moves the cursor to the start of the line.
 
 #### \[JavaScript\]
 
@@ -11,22 +11,23 @@ document.selection. **StartOfLine**( \[ _bExtend_ \[, _nFlags_ \] \]
 
 document.selection. **StartOfLine** \[ _bExtend_ \[, _nFlags_ \] \]
 
-## 參數
+## Parameters
 
 _bExtend_
 
-可選項。指定是否折疊被移動的文字。預設的值為 false，并且所移動的文字被折疊。
+Optional. Specifies whether the moved text is collapsed or not. The default
+is false and the moved text is collapsed.
 
 _nFlags_
 
-指定一個下列值的組合:
+Specifies a combination of the following values:
 
 |     |     |
 | --- | --- |
-| eeLineView | 指定顯示行。 |
-| eeLineLogical | 指定邏輯行。 |
-| eeLineHomeText | 移動到文字的開始位置，不算空白。 |
+| eeLineView | Specifies display lines. |
+| eeLineLogical | Specifies logical lines. |
+| eeLineHomeText | Moves to the beginning of text except spaces. |
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

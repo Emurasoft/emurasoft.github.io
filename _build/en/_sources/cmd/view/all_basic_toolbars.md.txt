@@ -1,27 +1,27 @@
-# 切換所有基本工具列命令
+# Toggle All Basic Toolbars command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏所有基本工具列。
+> Shows or hides all basic toolbars.
 
-### 說明
+### Description
 
-> 顯示或隱藏所有基本工具列。
+> Shows or hides all basic toolbars.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **工具列** \> **所有基本工具列**
-- [全部命令](../tools/all_commands): **檢視** >
-**工具列** \> **所有基本工具列**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **View** \> **Toolbars** \> **All Basic Toolbars**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **All Basic Toolbars**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_ALL\_BASIC\_TOOLBARS (4068)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

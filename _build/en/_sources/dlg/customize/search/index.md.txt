@@ -1,51 +1,58 @@
-# 「搜尋」頁面
+# Search page
 
-**搜尋** 頁面讓您能自訂與搜尋操作相關的設置。
+The **Search** page allows you to customize settings related to search
+operations.
 
-### 「醒目提示使用 \[多檔取代\] 命令取代的字串」核取方塊
+### Highlight Strings Replaced After Replace in Files check box
 
-如果該核取方塊被勾選了，EmEditor 會亮顯用 [**多檔取代** 命令](../../../cmd/search/replace_in_files) 取代過的字串。如果該核取方塊沒有被勾選，EmEditor 會亮顯搜尋字串。
+If this box is checked, EmEditor highlights the strings that have been
+replaced with
+the [**Replace in Files** command](../../../cmd/search/replace_in_files).
+If not checked, EmEditor highlights the searched strings.
 
-### 「禁用 \[尋找/取代\] 對話方塊中的鍵盤快速鍵」核取方塊
+### Disable Shortcuts in the Find/Replace Dialog Boxes check box
 
-如果該核取方塊被勾選了，在尋找和取代對話方塊中的鍵盤快速鍵會被禁用。
+If this is checked, the keyboard shortcuts in the Find and Replace dialog boxes will be disabled.
 
-### 「當達到文檔結尾處時發出提醒」核取方塊
+### Prompt when End of Document is Reached check box
 
-如果該核取方塊被勾選了，EmEditor 會顯示一個對話方塊來提示使用者當搜尋達到文檔末尾處時。
+If this is checked, EmEditor will display a dialog box to prompt the user when Search reaches the end of the document.
 
-### 「輸入數字範圍時顯示「輸入數字範圍」對話方塊」核取方塊
+### Shows the Enter Number Range dialog box when entering a number range check box
 
-如果勾選了該核取方塊，當用數字範圍搜索時，EmEditor 會顯示「輸入數字範圍」對話方塊。
+If this is checked, EmEditor will display the Enter Number Range dialog box when searching using number range.
 
-### 「提示當漸進式搜尋需要很長時間才能完成時」核取方塊
+### Prompt when an incremental search takes a long time to complete check box
 
-如果勾選了該核取方塊，當漸進式搜尋需要很長時間完成時，EmEditor 會提示使用者是否要停用漸進式搜尋。
+If this is checked, EmEditor will display a dialog box to prompt the user when an incremental search takes a long time to complete.
 
-### 「搜尋後焦點回到編輯區」核取方塊
+### Return Focus to Editor after Searched check box
 
-如果該核取方塊被勾選了，在用搜尋工具列完成搜尋後，焦點會被切換到編輯器。
+If this is checked, the focus will be switched to the editor after searching using the Find Toolbar.
 
-### 「按下「ESC」鍵關閉」核取方塊
+### Close if ESC pressed check box
 
-如果該核取方塊被勾選了，你可以按「ESC」鍵來關閉搜尋和篩選工具列。
+If this is checked, the Find Toolbar as well as the Filter Toolbar will be closed when you press the ESC key.
 
-### 「與尋找/取代對話方塊同步歷史記錄」核取方塊
+### Synchronize History with Find/Replace Dialog Boxes check box
 
-如果勾選了該核取方塊，搜尋工具列會將歷史記錄與尋找/取代對話方塊中的同步。
+If this is checked, the Find Toolbar will synchronize history with Find/Replace dialog boxes.
 
-### 「區分大小寫」核取方塊
+### Match Case
 
-如果該核取方塊被勾選了，EmEditor 會僅搜尋與您選擇的單字的大小寫符合的單字當添加下一個符合的結果或選擇所以符合的結果時。
+If this is checked, EmEditor will search only for words that
+match the case of the word that you select while
+adding Next Occurrence or selecting All Occurrences.
 
-### 「符合整個字」核取方塊
+### Match Whole Word
 
-如果該核取方塊被勾選了，EmEditor 會符合整個單字當添加下一個符合的結果或選擇所以符合的結果時。
+If this is checked, EmEditor will match whole words while
+adding Next Occurrence or selecting All Occurrences.
 
-### 「預設規則運算式引擎」下拉清單方塊
+### Default Regular Expression Engine drop-down list box
 
-指定要在 EmEditor 中使用的規則運算式引擎。你能選擇 **Boost.Regex** 或 **Onigmo**。規則運算式能被用在 **尋找**， **取代**， **多檔尋找**， **多檔取代**， **篩選**， **亮顯**， **標記跳轉**， **自動縮排**， **大綱**，以及外掛程式中。這個選項的設定會影響到在 EmEditor 中進行的所有正則表達搜索。但是，當用於 **尋找**， **取代**， **多檔尋找**，以及 **多檔取代** 命令時，規則運算式引擎能在這些命令的 [**進階** 對話方塊](../../advanced/index) 中另外設定。
+Specifies the regular expression engine to use in EmEditor. You can choose **Boost.Regex** or **Onigmo**. Regular expressions can be used in **Find**, **Replace**, **Find in Files**, **Replace in Files**, **Filter**, **Highlight**, **Markers, Tag Jump**, **Auto Indent**, **Outlining**, and plug-ins, and the selection will affect all the regular expression searches in EmEditor. However, **Find**, **Replace**, **Find in Files**, and **Replace in Files** can be independently configured in the [**Advanced** dialog box](../../advanced/index).
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設置。
+Resets to default settings.

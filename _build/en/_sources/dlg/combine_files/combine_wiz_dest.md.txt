@@ -1,53 +1,56 @@
-#### [EmEditor Home](index) - [EmEditor 說明](../../index) \- [對話方塊](../index) - [合併檔案精靈](index)
+#### [EmEditor Home](index) - [EmEditor Help](../../index) \- [Dialog \ Boxes](../index) - [Combine Files wizard](index)
 
-# 「目的檔案和選項」頁面
+# Destination files and options page
 
-此頁面讓您能選擇目的檔案名和選項。
+This page allows you to select a destination file name and options.
 
-### 「目的檔案」文字方塊
+### Destination file text box
 
-指定要儲存為的檔案名稱。
+Specifies the file name to be saved.
 
-### 「...」按鈕
+### ... button
 
-點擊該按鈕來尋找指定檔案。
+Click this button to find the specified file.
 
-### 「▼」按鈕
+### ▼ button
 
-用該按鈕從預設的參數清單中選擇參數。
+Click this button to display a list of predefined arguments.
 
-### 「編碼」下拉清單方塊
+### Encoding drop-down list box
 
-選擇一個儲存檔案時的編碼方式
+Select an encoding method when saving the file.
 
-### 「換行符」下拉清單方塊
+### Newline Character drop-down list box
 
-指定如何儲存換行。 **無變更** 不會變更換行方式。 **CR+LF (Windows)** 會把所有換行方式變為 CR+LF 對。 **僅 CR (Macintosh)** 會把所有換行方式變為 CR。 **僅LF (Unix)** 會把所有換行方式變為 LF。一般，Windows 用 CR+LF 的換行方式；Macintosh 僅用 CR，Unix 僅用 LF。
+Specify how to save returns. **No Change** will not change the return
+styles. **CR+LF (Windows)** will change all returns to CR plus LF pairs. **CR only (Macintosh)** will change all returns to CRs. **LF only (Unix)**
+will change returns to LFs. Generally, Windows uses CR+LF for all returns.
+Macintosh uses CRs only, and Unix uses LFs only.
 
-### 「僅已設定書籤的行」核取方塊
+### Bookmarked lines only check box
 
-如果勾選了該核取方塊，僅設定書籤的行會被儲存。
+If this is checked, only bookmarked lines will be saved.
 
-### 「從除第一個文檔之外的所有文檔中刪除第一行」核取方塊
+### Remove the first line from all documents except the first document check box
 
->如果勾選了該核取方塊，EmEditor 會從除第一個檔案之外的所有源文檔中刪除第一行。
+If this is checked, EmEditor will remove the first line from all source documents except the first document.
 
-### 「當儲存 Unicode 為 ANSI 時進行提示」核取方塊
+### Prompt when Saving Unicode as ANSI check box
 
-當把一個檔案儲存為除了 Unicode，Unicode big endian，或 UTF-8 之外的一個編碼時，顯示提示當文檔中包含無法被轉換為指定編碼的 Unicode 字元。
+When saving a file as an encoding other than Unicode, Unicode big endian, or UTF-8, prompts if the document contains Unicode characters which cannot be converted to the specified encoding.
 
-### 「成功完成後打開合併的檔案」核取方塊
+### Open the combined file when finished successfully check box
 
-如果勾選了該核取方塊，EmEditor 將在合併檔案成功完成後打開合併的檔案。
+If this is checked, EmEditor will open the combined file when combining files is finished successfully.
 
-### 「對合併的檔案運行巨集」核取方塊
+### Run a macro against the combined file check box
 
->如果勾選了該核取方塊，EmEditor 將對合併的檔案運行巨集。
+If this is checked, EmEditor will run a macro against the combined file.
 
-### 「對合併的檔案運行巨集」文字方塊
+### Run a macro against the combined file text box
 
->指定要對合併的檔案運行的巨集檔案。
+Specify a macro file to run against the combined file.
 
-### 「將此設定為預設巨集」核取方塊
+### Set this as the default macro check box
 
-如果選中此項，則所選巨集將被設定為預設巨集。
+If this is checked, the selected macro will be set as the default macro.

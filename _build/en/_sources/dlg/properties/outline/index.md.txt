@@ -1,56 +1,61 @@
-# 「大綱」頁面
+# Outline page
 
-**大綱** 頁面讓你能設定與大綱相關的屬性。
+The **Outline** page allows you to set properties related to Outline.
 
-### 「導航模式顯示大綱」核取方塊
+### Display Outline as guide check box
 
-如果勾選了該核取方塊，EmEditor 會把大綱作為導航顯示在編輯器的左邊。這個核取方塊只有在自訂對話方塊中 [**大綱** 頁面](../../customize/outline/index) 上的 **為每一個組態切換大綱導引** 核取方塊被勾選時可用。
+If this is checked, EmEditor displays the outlining as a guide on the left side of the editor. This check box is enabled only if the **Toggle Outline Guide per configuration**
+check box is checked in the [**Outline** page](../../customize/outline/index) of the Customize dialog box.
 
-### 「自訂工具條顯示大綱」核取方塊
+### Display Outline as custom bar check box
 
-如果勾選了該核取方塊，EmEditor 會在自訂顯示條中顯示大綱。這個核取方塊只有在自訂對話方塊中 [**大綱** 頁面](../../customize/outline/index) 上的 **為每一個組態切換大綱顯示條** 核取方塊被勾選時可用。.
+If this is checked, EmEditor displays the outlining in a custom bar. This check box is enabled only if the **Toggle Outline Bar per configuration** check box is checked in the
+[**Outline** page](../../customize/outline/index) of the Customize dialog box.
 
-### 「最多級別」下拉清單方塊
+### Max level drop-down list box
 
-指定要顯示的最多大綱級別數。
+Specifies the maximum outlining level to be displayed.
 
-### 「初始狀態」下拉清單方塊
+### Initially drop-down list box
 
-指定在首次打開檔案時是否應將大綱展開，折疊或展開/折疊到指定的級別。
+Specifies whether outlining should be expanded, collapsed, or expanded/collapsed to the specified level when a file is first opened.
 
-### 「類型」下拉清單方塊
+### Type drop-down list box
 
-決定如何計算大綱的排列。從下列選項中選擇一個：
+Determines how outlining is calculated. Select one from the following:
 
 |     |     |
 | --- | --- |
-| **大括弧數 {}** | 用大括號數計算大綱的排列。這適用於許多編程語言。 |
-| **空格數** | 用在每行開頭的空格數或 tab 數計算大綱的排列。這適用於一般用途。 |
-| **自訂** | 按照在 **搜尋** 清單方塊中指定的設定計算大綱的排列。如果選擇該選項，請點擊 **搜尋** 清單方塊旁邊的 **「添加」** 按鈕，將多個項目添加到清單中。 |
-| **方括弧數 \[\]** | 用方括號數 計算大綱的排列。這對某些編程語言可能很有用。 |
-| **自訂（指定第1級別作為開始/第2級別作為結束）** | 按照在 **搜尋** 清單方塊中指定的設定計算大綱的排列。如果選擇該選項，請點擊 **搜尋** 清單方塊旁邊的 **「添加」** 按鈕，將兩個項目添加到清單中。 **搜尋** 清單方塊中的第一項作為開始字串，第二項作為結束字串。XML 組態將此設定作為預設值使用。 |
-| **Tab 數** | 按照每行開頭的 Tab 數計算大綱的排列。這個選項可能對一般用途有用。 |
+| **Number of Braces {}** | Outlining is calculated by number of braces. This may be useful for many programming languages. |
+| **Number of Spaces** | Outlining is calculated by number of spaces or tabs at the beginning of each line. This may be useful for general purposes. |
+| **Custom** | Outlining is calculated according to the specified settings in the **Find** list box. If this is selected, click the **Add** button next to the **Find** <br> list box to add more than one item to the list. |
+| **Number of Brackets \[\]** | Outlining is calculated by number of brackets. This may be useful for some programming languages. |
+| **Custom (Specify Begin as Level 1/End as Level 2)** | Outlining is calculated according to the specified settings in the **Find** list box. If this is selected, click the **Add** button next to the **Find** <br> list box to add two items to the list. The first item in the **Find** list box is set as the begin string, and the second item as the end string. The XML configuration uses this as default. |
+| **Number of Tabs** | Outlining is calculated by number of tabs at the beginning of each line. This may be useful for general purposes. |
 
-### 「使註解可折疊」核取方塊
+### Make comments collapsible check box
 
-指定註解是否可折疊。
+Specifies whether comments should be collapsible.
 
-### 「隱藏符合的字串/用規則運算式取代」核取方塊
+### Hide matched strings/replace with regular expressions check box
 
-指定是否應在自訂工具條中隱藏符合的字串。如果勾選了下面的 **規則運算式** 核取方塊，則此選項指定是否應使用 **取代為** 中指定的字串取代符合的字串。
+Specifies whether matched strings should be hidden in the custom bar. If the **Regular Expression** check box is checked, this option specifies whether matched strings should be replaced with strings specified at the **Replace with**.
 
-### 「搜尋」清單方塊
+### Find drop-down list box
 
-如果沒有勾選 **規則運算式** 核取方塊，請輸入要匹配的行的開頭的字元。例如，輸入 "." 來匹配僅以 "." 開始的行。如果勾選了 "規則運算式" 核取方塊，請輸入一個與指定級別相符合的規則運算式。例如，輸入 "^\\d.\*?$" 來匹配僅以數字開始的行。
+If the **Regular Expression** is unchecked, enter character(s) that a line should begin with. For instance, enter "." to match only the lines beginning with ".". If the "Regular Expression" is checked, enter a regular expression that should match
+for the specified level. For instance, enter "^\\d.\*?$" to match only the lines beginning with a number.
 
-### 「規則運算式」核取方塊
+### Regular Expression check box
 
-指定在 **搜尋** 文字方塊中輸入的字串是否要作為規則運算式處理。
+Specifies whether the string entered in the **Find** text box is treated as a regular expression.
 
-### 「取代為」文字方塊
+### Replace with text box
 
-指定要取代為的字串當選擇了 **隱藏符合的字串/用規則運算式取代** 核取方塊時。
+Specifies a string to replace with when the **Hide matched strings/replace with regular expressions** check box is checked.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。會顯示 [**重設** 對話方塊](../reset/index) 並讓你能從另一個組態複製設定。
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.

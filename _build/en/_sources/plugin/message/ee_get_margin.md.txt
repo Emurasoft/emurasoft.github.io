@@ -1,7 +1,8 @@
 # EE\_GET\_MARGIN
 
-檢索邊距大小。您能明確地發送該消息或用 [Editor\_GetMargin](../macro/editor_getmargin)
-內嵌函式。
+Retrieves the margin size. You can send this message explicitly or by using
+the [Editor\_GetMargin](../macro/editor_getmargin)
+inline function.
 
 EE\_GET\_MARGIN
 
@@ -9,10 +10,13 @@ wParam = 0;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
-> 無。
+> None.
 
-## 返回值
+## Return Values
 
-> 返回當前被選取的邊距大小。如果標準行邊距大小以及引用行邊距大小不同，更大的邊距值會被返回。如果換行方式是按視窗大小換行，返回值取決于當前視窗大小。
+> Returns the currently selected margin size. If the normal line margin size
+> and the quoted line margin size are different, the larger margin will be
+> returned. If lines are wrapped by the window size, the return value will
+> depend on the current window size.

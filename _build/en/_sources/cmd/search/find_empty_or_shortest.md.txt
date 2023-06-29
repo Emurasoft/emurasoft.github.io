@@ -1,27 +1,27 @@
-# 尋找最短行/儲存格命令
+# Find Shortest Line/Cell command
 
-### 摘要
+### Summary
 
-> 尋找非 CSV 文檔中的最短行或 CSV 文檔目前的欄中的最短儲存格。
+> Finds the shortest line in a non-CSV document or shortest cell in the current column of a CSV document.
 
-### 說明
+### Description
 
-> 尋找非 CSV 文檔中的最短行或 CSV 文檔目前的欄中的最短儲存格。
+> Finds the shortest line in a non-CSV document or shortest cell in the current column of a CSV document. This command does not find the last empty line.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **搜索** \> **尋找最短行/儲存格**
-- [全部命令](../tools/all_commands): **搜索**
-\> **尋找最短行/儲存格**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **Search** \> **Find Shortest Line/Cell**
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Shortest Line/Cell**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FIND\_EMPTY\_OR\_SHORTEST (4064)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,6 +1,6 @@
 # EE\_GET\_OUTPUT\_STRING
 
-檢索輸出列中的文本。您能明確地發送該消息或用 [Editor\_GetOutputString](../macro/editor_getoutputstring) 內嵌函式。
+Retrieves the text in the output bar. You can send this message explicitly or by using the [Editor\_GetOutputString](../macro/editor_getoutputstring) inline function.
 
 EE\_GET\_OUTPUT\_STRING
 
@@ -8,20 +8,20 @@ wParam = (WPARAM) (UINT) cchBuf;
 
 lParam = (LPARAM) (LPWSTR) pBuf;
 
-## 參數
+## Parameters
 
 _cchBuf_
 
-> 用位元數指定緩沖區大小，包括終止空字符。
+> Specifies the size of the buffer in characters including the terminating NULL character.
 
 _pBuf_
 
-> 指定指針指向接收文本的緩沖區。
+> Specifies the pointer to the buffer that receives the text.
 
-## 返回值
+## Return Values
 
-> 返回值是用來接收文本的緩沖區大小位元數，包括終止空字符。
+> The return value is the size of the buffer in characters including the terminating NULL character needed to receive the text.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 9.00 或之後的版本。
+> Supported on EmEditor Version 9.00 or later.

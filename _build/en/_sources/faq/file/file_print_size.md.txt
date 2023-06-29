@@ -1,3 +1,4 @@
-# Q. 列印出來的字型太小，怎么辦？
+# Q. Printing font size is too small.
 
-請選擇 **工具** 下拉單中的 **「目前的組態屬性」** ，在 **「列印」** 頁面上點擊 **「字型...」** 按鈕 ，然後你就能自訂字型和大小了。
+Choose **Properties for Current Configuration** under the **Tools** menu and
+click the **Font** button on the **Print** tab to customize font and size.

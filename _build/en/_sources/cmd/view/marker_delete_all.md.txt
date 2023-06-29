@@ -1,27 +1,27 @@
-# 刪除全部標記命令
+# Delete All Markers command
 
-### 摘要
+### Summary
 
-> 刪除全部標記。
+> Deletes all markers.
 
-### 說明
+### Description
 
-> 刪除全部標記。
+> Deletes all markers.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** \> **標記**
-\> **刪除全部**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** \> **Markers**
+\> **Delete All**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_MARKER\_DELETE\_ALL (4587)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

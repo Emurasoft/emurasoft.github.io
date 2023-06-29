@@ -1,24 +1,24 @@
 # Version 17.3
 
-2017年12月13日
+December 13, 2017
 
-## 一般新增功能
+## New General Features
 
-- 在 CSV 儲存格選擇模式中，拖動選定儲存格的邊框將移動或復制選定內容。 在選擇整個欄或行的同時，按下 SHIFT 鍵將重新排列選取的欄或行。
-- 狀態列中的數字（如行號和列）顯示為3位數分隔的數字（取決于Windows上的區域和語言設置）。
-- Onigmo 版本已更新至 v6.1.3。 規則運算式的新功能，如 Absent Operator 已可用。
-- 將對話方塊中的字型大小從 8pt 改為 9pt。
-- 大大提高了當選擇多個儲存格并按下 ENTER 鍵編輯時的編輯速度。
-- 雙擊 **自動填滿** 控點時的行為已被調整。 如果緊靠所選儲存格下面的儲存格為空，則自動填滿操作將在下一個非空儲存格處停止。 但是，如果在按住 SHIFT 鍵的同時雙擊自動填滿控點，并且只選擇了一行，則自動填滿操作會將新值延續到非空儲存格上，直到最後一行。 即使目前的儲存格中包含數字，新版本將直接複製相同的值而不是填入序列號。
-- 新版本允許用快速鍵 CTRL + A 在 **儲存格** 工具列中選擇全部內容。
+- In the **CSV Cell Selection Mode**, dragging a border of the selected cell(s) moves or copies the selection. When entire columns or line(s) are selected, dropping with the SHIFT key reorders the columns or line(s).
+- Numbers (such as line numbers and columns) in the **Status Bar** are displayed as 3-digit separated numbers (depending on the **Region and Language** settings on Windows).
+- The **Onigmo** version was updated to v6.1.3. Regular expression new features such as **Absent Operator** are available.
+- Changed the font size in dialog boxes from 8 point to 9 point.
+- Greatly improved the speed of editing when many cells were selected and the ENTER key was pressed.
+- The behavior was adjusted when double-clicking the **AutoFill** handle. If the cell immediately below the selection is empty, the AutoFill action will stop at the next non-empty cell. However, if the AutoFill handle is double-clicked while the SHIFT key is pressed, and if only one row is selected, the AutoFill action will be repeated with the new value on a non-empty cell until the last row. The new version will simply copy the same value rather than serial numbers even if the current cell contains a number when only one row is selected.
+- The new version allows CTRL + A to select all in the **Cell** toolbar.
 
-## 新增選項
+## New Options
 
-- 將 **僅允許雙擊** 核取方塊還原到組態屬性的 [**連結** 頁面](../dlg/properties/link/index) 中。
-- 在自訂對話方塊的 [**進階** 頁面](../dlg/customize/advanced/index) 中添加了 **自動** 核取方塊。
-- 在自訂對話方塊的 [**CSV** 頁面](../dlg/customize/csv/index) 中添加了 **在儲存格選擇模式中啟用拖放來移動或復制儲存格** 的核取方塊。
+- Restored the **Enable Double-Clicking Only** check box to the [**Link** page](../dlg/properties/link/index) of configuration properties.
+- Added the **Auto** check box to the [**Advanced** page](../dlg/customize/advanced/index) of the Customize dialog box.
+- Added the **Enable Drag and Drop to Move or Copy Cells in Cell Selection Mode** check box to the [**CSV** page](../dlg/customize/csv/index) of the Customize dialog box.
 
-## 新增命令
+## New Commands
 
-- [向右移動資料欄](../cmd/edit/move_column_right)
-- [向左移動資料欄](../cmd/edit/move_column_left)
+- [Move Column Right](../cmd/edit/move_column_right)
+- [Move Column Left](../cmd/edit/move_column_left)

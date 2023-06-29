@@ -1,27 +1,27 @@
-# 換行縮排命令
+# Wrap Indent command
 
-### 摘要
+### Summary
 
-> 啟用或停用換行縮排。
+> Enables or disables Wrap Indent.
 
-### 說明
+### Description
 
-> 啟用或停用換行縮排。當啟用這個命令時，換行時將執行縮排。
+> Enables or disables Wrap Indent. When this command is enabled, indents will be carried over when lines are wrapped.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **Tab/縮排** \> **換行縮排**
-- [全部命令](../tools/all_commands): **檢視** \> **Tab/縮排** \> **換行縮排**
-- 工具列:
+- Default Menu: **View** \> **Tab/Indent** \> **Wrap Indent**
+- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Wrap Indent**
+- Toolbar:
 ![](../../images/wrap_indent24x16.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_TOGGLE\_WRAP\_INDENT (4542)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

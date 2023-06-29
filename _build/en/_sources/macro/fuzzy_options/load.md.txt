@@ -1,6 +1,6 @@
-# Load 方法
+# Load Method
 
-從應用數據資料夾加載模糊選項。
+Loads the fuzzy options from the app data folder.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ obj. **Load**();
 
 obj. **Load**
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

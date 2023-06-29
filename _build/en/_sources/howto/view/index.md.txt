@@ -1,6 +1,6 @@
-# 檢視
+# View
 
-如何...
+How to...
 
 ```{toctree}
 :maxdepth: 1

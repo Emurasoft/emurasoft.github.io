@@ -1,6 +1,6 @@
-# ReadOnly 屬性
+# ReadOnly Property
 
-檢索或設置文檔是否為只讀。
+Retrieves or sets whether the document is read-only.
 
 #### \[JavaScript\]
 
@@ -14,7 +14,7 @@ _bReadOnly_ = document. **ReadOnly**
 
 document. **ReadOnly** = _bReadOnly_
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -34,6 +34,6 @@ alert( "The document is not read-only." )
 
 End If
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

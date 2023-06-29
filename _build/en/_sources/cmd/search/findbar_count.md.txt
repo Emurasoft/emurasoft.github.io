@@ -1,27 +1,27 @@
-# 符合次數 (搜尋工具列) 命令
+# Count Matches (Find toolbar) command
 
-### 摘要
+### Summary
 
-> 切換工具列上「符合次數」按鈕狀態。
+> Toggles the Count Matches button on the Find toolbar.
 
-### 說明
+### Description
 
-> 切換工具列上「符合次數」按鈕狀態。當這個命令被激活時，EmEditor 將顯示找到的符合指定字串的數目。
+> Toggles the Count Matches button on the Find toolbar. When this command is toggled, EmEditor will display the number of matches found for the specified string.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜尋**
-\> **搜尋工具列** \> **符合次數**
-- 工具列: ![](../../images/find_count.png) (搜尋工具列)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Count Matches**
+- Toolbar: ![](../../images/find_count.png) (Find toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FINDBAR\_COUNT (4578)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,6 +1,6 @@
-# getData 方法
+# getData Method
 
-從剪貼簿上用指定的格式檢索數據。
+Retrieves the data in the specified format from the Clipboard.
 
 #### \[JavaScript\]
 
@@ -10,24 +10,24 @@ _sData_ = clipboardData. **getData**( _sDataFormat_, _iPos_ );
 
 _sData_ = clipboardData. **getData**( _sDataFormat_, _iPos_ )
 
-## 參數
+## Parameters
 
 _sDataFormat_
 
-指定一個或多個下列數據格式值的字符串。
+String that specifies one or more of the following data format values.
 
 |     |     |
 | --- | --- |
-| Text | 指定文本格式。 |
-| LineText | 指定行文本格式。 |
-| BoxText | 指定框文本格式。 |
-| html | 指定 HTML 格式。 |
+| Text | Specifies the text format. |
+| LineText | Specifies the line text format. |
+| BoxText | Specifies the box text format. |
+| html | Specifies the HTML format. |
 
 _iPos_
 
-可選項。在剪貼簿記錄中指定位置如果您想要檢索舊的剪貼簿記錄。如果該參數值是 -1 或被省略，當前數據會被檢索。該值必須是 0 或 -1 如果 "html" 被指定為 _sDataFormat_ 參數。
+Optional. Specifies the position in the Clipboard history if you want to retrieve older clipboard data. If this is -1 or omitted, the current data is retrieved. This value must be 0 or -1 if "html" is specified in the _sDataFormat_ parameter.
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -37,7 +37,7 @@ str = clipboardData.getData("Text");
 
 str = clipboardData.getData("Text")
 
-下列巨集顯示剪貼簿記錄，并且選擇一個項目會插入該文本內容。
+The following macro displays the clipboard history, and selecting an item will insert that text.
 
 #### \[JavaScript\]
 
@@ -69,7 +69,7 @@ document.write( s );
 
 }
 
-下列巨集把剪貼簿內容粘貼為 HTML 格式。
+The following macro pastes the clipboard contents as HTML format.
 
 #### \[JavaScript\]
 
@@ -77,6 +77,6 @@ str = clipboardData.getData("html");
 
 document.selection.Text = str;
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

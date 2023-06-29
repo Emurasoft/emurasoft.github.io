@@ -1,3 +1,3 @@
-# Q. 「尋找」對話方塊如何顯示先前搜索的字串，而不是游標處的單字？
+# Q. How can the Find dialog box show the previously searched string, not the word at the cursor?
 
-在「尋找」下拉清單方塊的右側，單擊 **>** 按鈕以顯示功能表，然後選擇 **上次使用的值**。
+On the right side of the Find drop-down list box, click the **>** button to display a menu, and select the **Last Used Value**.

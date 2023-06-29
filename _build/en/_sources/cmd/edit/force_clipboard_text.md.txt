@@ -1,31 +1,32 @@
-# 強制轉換剪貼簿格式為文字格式命令
+# Force Clipboard Format to Text command
 
-### 摘要
+### Summary
 
-> 把剪貼簿格式強制轉換為僅文字格式 (僅在托盤圖示功能表中顯示)。
+> Forces the clipboard format to text only (available only in the tray icon).
 
-### 說明
+### Description
 
-> 監視剪貼簿內容并轉換為僅文字格式，如果內容格式不是文字或文字方塊的話。這個命令可用於當您要在不同的文字處理器之間複製并貼上時。該命令與 EmEditor 中的複製或貼上命令沒有關聯，它只存在在托盤圖示中，不存在在 EmEditor 的主程式中。
+> Monitors the clipboard contents and converts to text only if any formats other than simple text or box text exist. This command may be useful when you copy and paste between word processor
+> applications. This command is not related to copy or paste operations within EmEditor. This command exists only in the tray icon, and does not exist in the EmEditor main program.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): 無
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): None
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
-- 無
+- None
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
-> 無
+> None
 
 #### \[VBScript\]
 
-> 無
+> None

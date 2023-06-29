@@ -1,3 +1,5 @@
-# Q. 當我試著不用副檔名來儲存一個檔案時，"txt"會被自動添加到這個檔案名中。我怎么阻止副檔名被自動添加到檔案名中的情況？
+# Q. When I try saving a file as a file name without an extension, ".txt" will be added automatically. How can I prevent an extension from being added to a file name?
 
-在檔案名前后用雙引號("")引起來，就能防止自動添加副檔名。例如，如果您輸入的檔案名是"File"，那么檔案的名稱就是 File，而不是 File.txt。
+Surrounding the file name with quotation marks ("") will prevent an extension
+from being appended.  For example, "file" will just be saved as file
+instead of file.txt.

@@ -1,6 +1,6 @@
-# SelectColumn 方法
+# SelectColumn Method
 
-在 CSV 模式中選擇指定的欄。
+Selects specified columns in a CSV mode.
 
 #### \[JavaScript\]
 
@@ -10,20 +10,20 @@ document.selection. **SelectColumn**( _iColumn_, \[ \[ _iColumn2_ \], _nFlags_ \
 
 document.selection. **SelectColumn** _iColumn_, \[ \[ _iColumn2_ \], _nFlags_ \]
 
-## 參數
+## Parameters
 
 _nFlags_
 
-指定 0 或以下值：
+Specifies 0 or the following value:
 
 |     |     |
 | --- | --- |
-| eeNoHeadings | 選取內容排除標題。 |
+| eeNoHeadings | excludes headings from the selection. |
 
-## 返回值
+## Return Values
 
-此方法不返回值。
+This method does not return values.
 
-## 版本
+## Version
 
-支持 EmEditor Professional 21.0 或之後的版本。
+Supported in EmEditor Professional Version 21.0 or later.

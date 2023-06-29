@@ -1,20 +1,20 @@
 # Editor\_GetAttr
 
-在剪貼簿記錄中的指定位置處刪除文字。您能直接用該內嵌函式或明確地發送 [EE\_GET\_ATTR](../message/ee_get_attr)
-消息。
+Removes text at the specified position in the Clipboard history. You can use this inline function or explicitly send the [EE\_GET\_ATTR](../message/ee_get_attr)
+message.
 
 Editor\_GetAttr( HWND hwnd, ATTR\_INFO\* pAI );
 
-## 參數
+## Parameters
 
 _pAI_
 
-> 指標至 [ATTR\_INFO](../structure/attr_info) 結構。
+> Pointer to the [ATTR\_INFO](../structure/attr_info) structure.
 
-## 返回值
+## Return Values
 
-> 返回值是 TRUE 如果成功，或 FALSE 如果不成功。
+> The return value is TRUE if succeeded, or FALSE if failed.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 9.00 或之後的版本。
+> Supported on EmEditor Version 9.00 or later.

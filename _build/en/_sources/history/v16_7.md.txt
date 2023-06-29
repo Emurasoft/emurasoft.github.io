@@ -1,38 +1,38 @@
 # Version 16.7
 
-2017年4月24日
+April 24, 2017
 
-## 一般新增功能
+## New General Features
 
-- 支持「個別顯示器 DPI 感知 v2」，Windows 10 Creators (創造者更新) 的新功能之一。當你在多個顯示器上用不同 DPI 值時，對話方塊，功能表，以及工具列都會更自然地顯示。
-- 行號預設格式恢復成與 v16.5 版之前一樣的格式。
-- 大大提高了「多檔尋找」，以及「尋找」對話方塊中用輸出欄進行「抽出」的執行速度。
+- Supported "Per-Monitor DPI-aware v2", one of the new features of Windows 10 Creators Update. The dialog boxes, menus, and toolbars are displayed more naturally when using multiple monitors with different DPIs.
+- The default format for line numbers became pre-v16.5.
+- Greatly improved the speed for **Find in Files** and **Extract** in the **Find** dialog box using the Output bar.
 
-### 測試結果：
+### Test results:
 
-|  | v16.6 | v16.7 | 比較 |
+|  | v16.6 | v16.7 | Comparison |
 | --- | --- | --- | --- |
-| 抽出 "1" | 166.8 秒 | 0.93 秒 | 快 179 倍 |
-| 用「多檔尋找」尋找 "1" | 120.3 秒 | 0.90 秒 | 快 134 倍 |
+| Extract "1" | 166.8 seconds | 0.93 seconds | 179 times faster |
+| Find "1" using Find in Files | 120.3 seconds | 0.90 seconds | 134 times faster |
 
-\\* 100,000 行 "0123456789"；條件：不勾選「區分大小寫」，勾選「使用逸出序列」，選擇「使用輸出欄」。測試系統：Windows 10 (64-bit) Core i7-4790 16GB RAM
+\\* 100,000 lines of "0123456789", Match Case deselected, Use Escape Sequences selected, Use Output Bar selected. Windows 10 (64-bit) Core i7-4790 16GB RAM
 
-## 新增選項
+## New Options
 
-- 在 **自訂** 對話方塊的 [**「格式」** 頁](../dlg/customize/format/index) 上添加了 **「空格寬度」** 滑桿。
-- 在 **組態屬性** 對話方塊的 [**「捲動」** 頁](../dlg/properties/scroll/index) 上添加了 **「3D 外觀」** 核取方塊。
+- The **"Space Width"** sliders were added to the [**Format** page](../dlg/customize/format/index) of the **Customize** dialog box.
+- The **"3D Look"** check box was added to the [Scroll page](../dlg/properties/scroll/index) of **Configuration Properties**.
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 [**EE\_SET\_CELL**](../plugin/message/ee_set_cell)， [**EE\_SET\_COLUMN**](../plugin/message/ee_set_column) 消息。
-- 添加了 [**Editor\_SetCell**](../plugin/macro/editor_setcell)， [**Editor\_SetColumn**](../plugin/macro/editor_setcolumn) 內嵌函式。
-- 添加了 [**COLUMN\_STRUCT**](../plugin/structure/column_struct) 結構。
+- The [**EE\_SET\_CELL**](../plugin/message/ee_set_cell) and [**EE\_SET\_COLUMN**](../plugin/message/ee_set_column) messages were added.
+- The [**Editor\_SetCell**](../plugin/macro/editor_setcell) and [**Editor\_SetColumn**](../plugin/macro/editor_setcolumn) inline functions were added.
+- The [**COLUMN\_STRUCT**](../plugin/structure/column_struct) structure was added.
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 [**SetCell**](../macro/document/setcell)， [**SetColumn**](../macro/document/setcolumn)，和 [**InsertColumn**](../macro/document/insertcolumn) 方法到 **Document** 對象中。
+- The [**SetCell**](../macro/document/setcell), [**SetColumn**](../macro/document/setcolumn), and [**InsertColumn**](../macro/document/insertcolumn) methods were added to the **Document** object.
 
-## 修復 Bug
+## Bug Fixes
 
-- 修復了與尋找對話方塊中的抽出功能相關的 bug。
-- 修復了與標準輸入到輸出欄相關的 bug。
+- Fixed a certain bug related to the Extract feature in the Find dialog box.
+- Fixed a certain bug related to the standard input to the Output Bar.

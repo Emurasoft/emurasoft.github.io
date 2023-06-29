@@ -1,4 +1,4 @@
-# 合併檔案精靈
+# Combine Files wizard
 
 ```{toctree}
 :maxdepth: 1

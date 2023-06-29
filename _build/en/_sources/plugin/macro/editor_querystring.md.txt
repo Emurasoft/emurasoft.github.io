@@ -1,45 +1,46 @@
 # Editor\_QueryString
 
-查詢與指定的命令相關聯的字串。您能直接用該內嵌函式或明確地發送 [EE\_QUERY\_STRING](../message/ee_query_string) 消息。
+Queries the string associated with the specified command. You can use this inline function or explicitly send the [EE\_QUERY\_STRING](../message/ee_query_string) message.
 
 Editor\_QueryString( HWND hwnd, UINT nCmdID, LPWSTR psz, BOOL
 bShortTitle = FALSE );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nCmdID_
 
-> 指定一個表示要執行的命令 ID 的整數。只能使用下列命令。詳細信息請訪問
-> **[命令參考](../../cmd/index)**。
+> Specifies an integer indicating the Command ID to execute. Only following commands can be used. See the
+> **[Command Reference](../../cmd/index)** for details.
 >
 > |     |     |     |
 > | --- | --- | --- |
-> | nID | 命令名稱 | 返回值 |
-> | 4609 到 4609 + 63 | [**最近文檔清單**](../../cmd/file/file_mru_file1) | 檔案路徑和名稱 |
-> | 4864 到 4864 + 63 | [**要插入的最近檔案清單**](../../cmd/file/file_mru_insert1) | 檔案路徑和名稱 |
-> | 4992 到 4992 + 63 | [**最近資料夾清單**](../../cmd/file/file_mru_folder1) | 檔案路徑和名稱 |
-> | 5376 到 5376 + 255 | **[文檔清單命令](../../cmd/window/window_menu)** | 視窗標題 |
-> | 5632 到 5632 + 255 | **[外掛程式清單命令](../../cmd/tools/plug_in1)** | 外掛程式檔案名稱 |
-> | 6656 到 6656 + 255 | [**要重新載入的編碼清單命令**](../../cmd/file/file_reload_defined) | 編碼名稱 |
-> | 7680 到 7680 + 255 | [**要儲存的編碼清單**](../../cmd/file/file_save_defined) | 編碼名稱 |
-> | 9216 到 9216 + 1023 | **[巨集清單命令](../../cmd/macros/macro1)** | 巨集路徑和名稱 |
+> | nID | Command Name | Return Value |
+> | 4609 through 4609 + 63 | [**List of Recent Documents**](../../cmd/file/file_mru_file1) | file path and name |
+> | 4864 through 4864 + 63 | [**List of Recent Files to Insert**](../../cmd/file/file_mru_insert1) | file path and name |
+> | 4992 through 4992 + 63 | [**List of Recent Folders**](../../cmd/file/file_mru_folder1) | file path and name |
+> | 5376 through 5376 + 255 | **[Documents List command](../../cmd/window/window_menu)** | window title |
+> | 5632 through 5632 + 255 | **[Plug-ins List command](../../cmd/tools/plug_in1)** | plug-in file name |
+> | 6656 through 6656 + 255 | [**List of Encodings to Reload command**](../../cmd/file/file_reload_defined) | encoding name |
+> | 7680 through 7680 + 255 | [**List of Encodings to Save**](../../cmd/file/file_save_defined) | encoding name |
+> | 9216 through 9216 + 1023 | **[Macros List command](../../cmd/macros/macro1)** | macro path and name |
 
 _bShortTitle_
 
-> 指定是否在特定命令中需要字串的簡短版本。
+> Specifies whether the short version of the string is needed in certain
+> commands.
 
 _psz_
 
-> 指定要檢索字串的緩沖區。
+> Specifies the buffer to retrieve the string.
 
-## 返回值
+## Return Values
 
-> 如果命令 ID 有效，返回值是非零。否則的話，返回值是零。
+> If the command ID is valid, the return value is nonzero. Otherwise, the return value is zero.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 7.00 或之後的版本。
+> Supported on EmEditor Professional Version 7.00 or later.

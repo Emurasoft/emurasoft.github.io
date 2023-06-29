@@ -1,9 +1,12 @@
-# 顯示一個消息方塊
+# Display a Message Box
 
-要在一個消息方塊中顯示簡單的文字，您能用 [alert \
-方法](../window/window_alert) 或 [confirm 方法](../window/window_confirm)。然而，這些方法僅能顯示三個按鈕: YES，NO 以及 CANCEL。要在消息方塊中顯示更多復雜的文字，請用 WshShell 對象的 Popup 方法。
+To display simple text in a message box, you can use [alert \
+Method](../window/window_alert) or [confirm Method](../window/window_confirm).
+However, these methods can only display three buttons: YES, NO, and CANCEL.
+To display more complex text in a message box, use Popup Method of WshShell Object.
 
-下面的示例代碼顯示文字 Continue? 以及 YES，NO 和 CANCEL 按鈕。變量 n 的數值是 6 如果選擇了 YES 按鈕，變為 7 如果選擇了 NO 按鈕，或 2 如果選擇了 CANCEL 按鈕。
+The following example code displays the text Continue? and then YES, NO, and CANCEL buttons.
+The variable n is assigned the value 6 if YES button is selected, 7 if NO button is selected, or 2 if CANCEL button is selected.
 
 #### \[JavaScript (JScript)\]
 

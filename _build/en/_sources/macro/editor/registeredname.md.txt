@@ -1,6 +1,6 @@
-# RegisteredName 屬性
+# RegisteredName Property
 
-檢索注冊名。
+Retrieves the registered name.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _szName_ = editor. **RegisteredName**;
 
 Set _szName_ = editor. **RegisteredName**
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 17.0 或之後的版本。
+Supported on EmEditor Professional Version 17.0 or later.

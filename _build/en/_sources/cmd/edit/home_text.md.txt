@@ -1,27 +1,30 @@
-# 移至行首或文字起始位置命令
+# Home or Start of Text command
 
-### 摘要
+### Summary
 
-> 移動游標到目前的行首個非空的字元處。
+> Moves the cursor to the first non-white space character of the current
+> line.
 
-### 說明
+### Description
 
-> 把游標移動到目前的行的起始位置處。這個命令會忽略目前的行行首的空格并把游標移動到第一個非空格字元的旁邊。
+> Moves the cursor to the start of the current line. This command ignores any white space
+> at the beginning of the current line, and places the cursor next to the
+> first non-white space character.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **水平移動游標**
->  **移至行首或文字起始位置**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: HOME
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+>  **Home or Start of Text**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: HOME
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_HOME\_TEXT (4296)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

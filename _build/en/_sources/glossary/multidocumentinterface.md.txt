@@ -1,3 +1,4 @@
-# 多文檔界面 (MDI)
+# Multi Document Interface (MDI)
 
-一個讓使用者能方便地在多個視窗中創建應用程式的界面。一個 MDI 可以用一個視窗來顯示多個視窗。
+An interface that enables users to easily create applications with
+multiple windows. An MDI uses one window to display multiple windows.

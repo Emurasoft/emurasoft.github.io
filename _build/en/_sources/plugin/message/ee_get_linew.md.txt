@@ -1,7 +1,8 @@
 # EE\_GET\_LINEW
 
-檢索指定行的 Unicode 文本。您能明確地發送該消息或用
-[Editor\_GetLineW](../macro/editor_getlinew) 內嵌函式。
+Retrieves the Unicode text on the specified line. You can send this message
+explicitly or use the
+[Editor\_GetLineW](../macro/editor_getlinew) inline function.
 
 EE\_GET\_LINEW
 
@@ -9,16 +10,18 @@ wParam = (WPARAM) (GET\_LINE\_INFO\*) pGetLineInfo;
 
 lParam = (LPARAM) (LPWSTR) szString;
 
-## 參數
+## Parameters
 
 _pGetLineInfo_
 
-> 指針指向 [GET\_LINE\_INFO](../structure/get_line_info) 結構。
+> Pointer to the [GET\_LINE\_INFO](../structure/get_line_info) structure.
 
 _szString_
 
-> 指針指向會接收文本的緩沖區。
+> Pointer to the buffer that will receive the text.
 
-## 返回值
+## Return Values
 
-> 如果 _pGetLineInfo->cch_ 為零，必須要有返回值位元數來表示接收文本的緩沖區。如果 _pGetLineInfo->cch_ 非零，不使用返回值。
+> If _pGetLineInfo->cch_ is zero, the return value is the required
+> size, in words, for a buffer that can receive the text. If _pGetLineInfo->cch_ is not zero, the
+> return value is not used.

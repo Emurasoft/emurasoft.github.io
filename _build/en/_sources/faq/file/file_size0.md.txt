@@ -1,3 +1,4 @@
-# Q. 怎么儲存一個空檔案？
+# Q. How can I save an empty file?
 
-選擇 **工具** 下拉單中的「 **當前組態屬性**」，然后在「 **檔案**」頁面上點擊「儲存中...」，在快顯的對話方塊中清除對「 **當儲存時刪除空檔案**」的勾選。
+Choose **Properties for Current Configuration** under the **Tools** menu and on
+the **File** tab uncheck the **Delete Empty Files when Saving** box.

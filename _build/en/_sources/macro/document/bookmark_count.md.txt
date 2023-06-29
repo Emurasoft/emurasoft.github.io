@@ -1,6 +1,8 @@
-# BookmarkCount 屬性
+#### [Editor Home](https://www.emeditor.com/) - [EmEditor Help](../../index) \- [EmEditor Macro Reference](../index) \- [Document Object](index)
 
-檢索文檔中的書籤數。
+# BookmarkCount Property
+
+Retrieves the number of bookmarks in the document.
 
 #### \[JavaScript\]
 
@@ -10,6 +12,6 @@ _n_ = document. **BookmarkCount**;
 
 _n_ = document. **BookmarkCount**
 
-## 版本
+## Version
 
-支持 EmEditor Professional 17.9 或之後的版本。
+Supported on EmEditor Professional Version 17.9 or later.

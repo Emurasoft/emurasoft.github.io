@@ -1,3 +1,5 @@
-# Q. 我使用的是新版本的 EmEditor (或新的 beta 版本)。我能不卸載新版，就安裝一個舊的版本嗎？
+# Q. I am using a new version (or a new beta version) of EmEditor. Can I install an older version of EmEditor without uninstalling the new version?
 
-不能。您必須先卸載新版，才能安裝舊版。如果不這樣做的話，會導致不同 EmEditor 版本的 DLL 檔案不相容。在您卸載新版本之前，您要先退出所有 EmEditor 視窗，包括系統匣圖示。在安裝過程中，您會被詢問是否要保留所有以前的設置。請選擇」是」，如果您想保留所有的自訂設置。如果 Windows 系統要求您在安裝過程中重啟電腦，您也需要重啟一下電腦。
+No. You should uninstall the new version of EmEditor before installing an older version of EmEditor. Failure to do so might cause some new DLL files to remain in the install directory, which can be incompatible with the older version of EmEditor.
+Before you uninstall the newer version, you should exit all EmEditor windows including the Tray Icon. When you uninstall the new version, you will be asked to keep all the settings. Selecting YES will keep all the settings that may be used in the
+older version of EmEditor. If you are asked to restart Windows during the installation, you should restart Windows.

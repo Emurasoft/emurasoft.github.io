@@ -1,23 +1,26 @@
 # Editor\_GetSelTextW
 
-檢索被選取的 Unicode 文字。您能直接用該內嵌函式或明確地發送 [EE\_GET\_SEL\_TEXTW](../message/ee_get_sel_textw) 消息。
+Retrieves the selected Unicode text. You can use this inline function or explicitly send the [EE\_GET\_SEL\_TEXTW](../message/ee_get_sel_textw) message.
 
 Editor\_GetSelTextW( HWND hwnd, UINT nBufferSize, LPWSTR szBuffer );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nBufferSize_
 
-> 用單字數指定最大字元數來複製到緩沖區，包括空字元。
+> Specifies the maximum number of characters in words to copy to the buffer,
+> including the NULL character.
 
 _szBuffer_
 
-> 指標至會接收文字的緩沖區。
+> Pointer to the buffer that will receive the text.
 
-## 返回值
+## Return Values
 
-> 如果 _nBufferSize_ 為零，那以位元為單位的返回值是一個會接收文字的緩沖區的必需大小。如果 _nBufferSize_ 為非零，不使用返回值。
+> If _nBufferSize_ is zero, the return value is the required size, in words,
+> for a buffer that can receive the text. If _nBufferSize_ is not zero, the
+> return value is not used.

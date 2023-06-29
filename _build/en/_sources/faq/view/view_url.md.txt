@@ -1,4 +1,5 @@
-# Q. 怎么在顯示 URL 時，不用在特定的字元處斷開(例如 , (逗號))？
+# Q. How can I display URLs without breaking at specific characters (such as , (comma))?
 
-在 **目前的組態屬性** 對話方塊中的 [**「連結」** 頁面](../../dlg/properties/link/index) 上，
-添加您不想要斷開 URL 的字元(例如，(逗號))到 **「識別這些字元」** 文字方塊中。
+On the [**Link** page](../../dlg/properties/link/index) in
+the **Current Configuration Properties** dialog box, add characters you don't want to break
+URLs (such as , (comma)) to **Recognize These Characters**.

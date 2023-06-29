@@ -1,6 +1,6 @@
-# DroppedFiles 屬性
+# DroppedFiles Property
 
-返回 [**DroppedFiles** 對象](../dropped_files/index)。
+Returns the [**DroppedFiles** Object](../dropped_files/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _obj_ = **DroppedFiles**;
 
 Set _obj_ = **DroppedFiles**
 
-## 版本
+## Version
 
-支持 EmEditor 8.00 或之後的版本。
+Supported on EmEditor Professional Version 8.00 or later.

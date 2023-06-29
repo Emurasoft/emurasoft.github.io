@@ -1,19 +1,19 @@
-# BackupProp 對象
+# BackupProp Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [Folder](folder) | 與組態屬性中 [**備份** 頁面](../../dlg/properties/backup/index) 上的 **備份資料夾** 文字方塊對應。 |
-| [RenameIfSameNameExists](rename_if_same_name_exists) | 與組態屬性中 [**備份** 頁面](../../dlg/properties/backup/index) 上的 **重新命名檔案，檔案名已存在** 核取方塊對應。 |
-| [SaveToFolder](save_to_folder) | 與組態屬性中 [**備份** 頁面](../../dlg/properties/backup/index) 上的 **儲存備份檔案到備份資料夾** 核取方塊對應。 |
-| [SaveToFolderIfRecycleFailed](save_to_folder_if_recycle_failed) | 與組態屬性中 [**備份** 頁面](../../dlg/properties/backup/index) 上的 **無法使用回收站，儲存到備份資料夾** 核取方塊對應。 |
-| [SaveToSameFolder](save_to_same_folder) | 與組態屬性中 [**備份** 頁面](../../dlg/properties/backup/index) 上的 **儲存備份檔案到源檔案所在資料夾** 核取方塊對應。 |
-| [UseRecycleBin](use_recycle_bin) | 與組態屬性中 [**備份** 頁面](../../dlg/properties/backup/index) 上的 **使用回收站進行備份** 核取方塊對應。 |
+| [Folder](folder) | Corresponds to the **Backup**<br>**Folder** text box in the <br> [**Backup** page](../../dlg/properties/backup/index) of Configuration Properties. |
+| [RenameIfSameNameExists](rename_if_same_name_exists) | Corresponds to the **Rename**<br>**if the Same File Name Exists** check box in the <br> [**Backup** page](../../dlg/properties/backup/index) of Configuration Properties. |
+| [SaveToFolder](save_to_folder) | Corresponds to the **Save Backups to Backup Folder** check box in the <br> [**Backup** page](../../dlg/properties/backup/index) of Configuration Properties. |
+| [SaveToFolderIfRecycleFailed](save_to_folder_if_recycle_failed) | Corresponds to the **Save**<br>**to Backup Folder if Recycle Bin not Available** check box in the [**Backup** page](../../dlg/properties/backup/index) of Configuration Properties. |
+| [SaveToSameFolder](save_to_same_folder) | Corresponds to the **Save**<br>**Backups to the Same Folder** check box in the [**Backup** page](../../dlg/properties/backup/index) of Configuration Properties. |
+| [UseRecycleBin](use_recycle_bin) | Corresponds to the **Use**<br>**Recycle Bin to Backup** check box in the <br> [**Backup** page](../../dlg/properties/backup/index) of Configuration Properties. |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

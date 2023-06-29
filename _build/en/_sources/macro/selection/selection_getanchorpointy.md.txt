@@ -1,6 +1,6 @@
-# GetAnchorPointY 方法
+# GetAnchorPointY Method
 
-返回選定內容原點的行號。
+Returns the line number of the origin point of the selection.
 
 #### \[JavaScript\]
 
@@ -10,19 +10,19 @@ yPos = document.selection. **GetAnchorPointY**( _nFlags_ );
 
 yPos = document.selection. **GetAnchorPointY**( _nFlags_ )
 
-## 參數
+## Parameters
 
 _nFlags_
 
-指定一個下列值的組合:
+Specifies a combination of the following values:
 
 |     |     |
 | --- | --- |
-| eePosView | 返回視圖中的行號。 |
-| eePosLogical | 返回邏輯行號，取決于從文檔起始位置開始的新行數。 |
-| eePosCellLogical | 邏輯坐標中的 CSV 儲存格單位。 |
-| eePosCellView | 顯示坐標中的 CSV 儲存格單位。 |
+| eePosView | Returns the line number in view. |
+| eePosLogical | Returns the logical line number, determined by the number of new <br> lines from the start of the document. |
+| eePosCellLogical | CSV cell unit in logical coordinates. |
+| eePosCellView | CSV cell unit in view coordinates. |
 
-## 版本
+## Version
 
-支持 EmEditor 4.03 或之後的版本。
+Supported on EmEditor Professional Version 4.03 or later.

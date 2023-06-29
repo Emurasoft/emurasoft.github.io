@@ -1,7 +1,8 @@
 # EE\_VIEW\_TO\_DEV
 
-把顯示指定位置的顯示坐標轉換為設備 (客戶端) 坐標。您能明確地發送該消息或用
-[Editor\_ViewToDev](../macro/editor_viewtodev) 內嵌函式。
+Converts the display coordinates of a specified position to the device
+(client) coordinates. You can send this message explicitly or use the
+[Editor\_ViewToDev](../macro/editor_viewtodev) inline function.
 
 EE\_VIEW\_TO\_DEV
 
@@ -9,16 +10,18 @@ wParam = (WPARAM) (POINT\_PTR\*) pptView;
 
 lParam = (LPARAM) (POINT\_PTR\*) pptDev;
 
-## 參數
+## Parameters
 
 _pptView_
 
-> 指針指向一個指定要被轉換的顯示坐標的 [POINT\_PTR 結構](../structure/point_ptr)。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the display coordinates to be
+> converted.
 
 _pptDev_
 
-> 指針指向一個要接收轉換后的設備坐標的 [POINT\_PTR 結構](../structure/point_ptr)。這個結構的 x 或 y 值可能會變為 LONG\_PTR\_MIN 或 LONG\_PTR\_MAX，當指定位置無效或指定位置離屏幕矩形太遠。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) to receive the converted device coordinates. The x or y value of this structure might become LONG\_PTR\_MIN or LONG\_PTR\_MAX
+> the specified position is invalid or the specified position is far from the screen rectangle.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

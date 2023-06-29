@@ -1,3 +1,3 @@
-# 新增外部工具
+# New External Tools
 
-新增的功能與標準輸出和輸入相關，都被添加到外部工具功能中。讓您能把外部工具作為篩選器。
+The features related to the standard input and output were added to the external tool feature. This allows you to use an external tool as a filter.

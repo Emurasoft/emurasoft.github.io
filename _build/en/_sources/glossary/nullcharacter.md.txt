@@ -1,3 +1,7 @@
-# 空字元
+# Null Character
 
-一個代碼值為 0 的字元。它不經常在文字檔案中使用，因此包含空字元的檔案是除了文字檔案之外程式或數據檔案。EmEditor 無法編輯這些二進位檔案 (除了文字檔案之外的程式和數據檔案)。請使用另外的程式，例如一個二進位編輯器，來編輯二進位檔案。
+A character with the code value 0. It is not usually used in text files, and
+thus files containing null characters are programs or data files other than text
+files. These binary files (programs and data files except text files) cannot be
+edited by EmEditor. Another program, such as a binary editor, must be used to edit
+binary files if you need to edit them.

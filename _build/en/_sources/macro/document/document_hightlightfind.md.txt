@@ -1,6 +1,6 @@
-# HighlightFind 屬性
+# HighlightFind Property
 
-決定是否要高亮搜尋字符串。
+Determines whether to highlight the searched strings.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _bHighlightFind_ = document. **HighlightFind**
 
 document. **HighlightFind** = _bHighlightFind_
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

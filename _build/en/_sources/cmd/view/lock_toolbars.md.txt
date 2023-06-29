@@ -1,28 +1,33 @@
-# 鎖定工具列命令
+# Lock Toolbars command
 
-### 摘要
+### Summary
 
-> 鎖定所有工具列。
+> Locks all toolbars.
 
-### 說明
+### Description
 
-> 鎖定工具列如果沒有被鎖定，或解除鎖定工具列如果工具列已被鎖定。當沒有被鎖定時，工具列可以被通過拖曳在每個工具列的左側邊緣上的把手來移動。被鎖定的工具列將不會移動，并且也不會在每個工具列的左側邊緣上顯示把手。
+> Locks the toolbars if not already locked, or unlocks the toolbars if
+> already locked.
+> When unlocked, toolbars can be moved around by dragging the grip on the
+> left-hand edge of each
+> toolbar. Locked toolbars will not move and do not show the
+> grips on the left-hand edge of each toolbar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** >
-**工具列** \> **鎖定工具列**
-- [全部命令](../tools/all_commands): **檢視** >
-**工具列** \> **鎖定工具列**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** >
+**Toolbars** \> **Lock Toolbars**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Lock Toolbars**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_LOCK\_TOOLBARS (4341)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

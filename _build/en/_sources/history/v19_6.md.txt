@@ -1,34 +1,35 @@
 # Version 19.6
 
-2020年2月12日
+February 12, 2020
 
-## 一般新增功能
+## New General Features
 
-- 新版在您選擇 **貼上** （CTRL + V）命令時會出現 **顯示剪貼簿歷史記錄** 按鈕。點擊該按鈕或執行 **顯示剪貼簿記錄** 命令（預設捷徑：CTRL + SHIFT + V）會顯示 **剪貼簿歷史記錄** 清單方塊，讓您能快速選擇以前使用的剪貼簿上的文字（要停用此功能，請到 **自訂** 對話方塊的 [**編輯** 頁面](../dlg/customize/edit/index) 上清除 **貼上時顯示剪貼簿歷史記錄** 核取方塊）。
-- 新版本能顯示迷你地圖僅當滑鼠停留在垂直捲軸上時（要停用此功能，請到組態屬性的 [**捲動** 頁面](../dlg/properties/scroll/index) 上清除 **停留時顯示迷你地圖** 核取方塊）。
-- 添加了通過 [**抽出常用字串** 命令](../cmd/search/extract_frequent) 來創建一清單顯示常用的 CSV 儲存格，IPv4 地址或 IPv6 地址。
-- 添加了從 **多檔尋找** 結果中創建常用字串表的功能（ **多檔尋找** 對話方塊- **抽出** 按鈕右側的箭頭 - **抽出選項** 對話方塊- **計算常用字串** 核取方塊）。
-- [數字範圍運算式](../howto/search/number_range_syntax) 現在可以指定一組具有指定增量的數字。例如，要指定從 0 到 10 內的偶數，您可以用 \[0, 10, 2\]。
-- 將 **JSON** 添加到預設組態。
+- The new version shows the **Show Clipboard History** button when the **Paste** (CTRL + V) command was selected. Clicking this button or selecting the **Show Clipboard History** (default shortcut: Ctrl+Shift+V) command displays the **Clipboard History** listbox, which allows you to quickly select a previously used Clipboard text (To disable this feature, clear **Show Clipboard History on Paste** check box to the [**Edit** page](../dlg/customize/edit/index) of the **Customize** dialog box).
+- The new version can show the Minimap only while the mouse is hovered on the vertical scroll bar (to disable this feature, clear the **Show Minimap while Hovered** check box on the [**Scroll** page](../dlg/properties/scroll/index) of configuration properties).
+- Added the ability to create a table of frequent CSV cells, IPv4 addresses, or IPv6 addresses via the
+[**Extract Frequent Strings** command](../cmd/search/extract_frequent).
+- Added the ability to create a table of frequent strings from the **Find in Files** results (the **Find in Files** dialog box - the arrow at the right side of the **Extract** button - **Extract Options** dialog box - the **Count Frequent Strings** check box).
+- [Number Range Expression](../howto/search/number_range_syntax) can now specify a set of numbers with a specified increment. For example, to specify only even numbers in the range of 0 to 10, you can use \[0, 10, 2\].
+- Added **JSON** to default configurations.
 
-## 新增選項
+## New Options
 
-- 添加了 **在啟動時檢索 Windows 剪貼簿歷史記錄** 和 **貼上時顯示剪貼簿歷史記錄** 核取方塊到 **自訂** 對話方塊中的 [**編輯** 頁面](../dlg/customize/edit/index) 上。
-- 添加了 **停留時顯示迷你地圖** 核取方塊到組態屬性的 [**捲動** 頁面](../dlg/properties/scroll/index) 上。
-- 添加了 **儲存格**， **IPv4 地址**，以及 **IPv6 地址** 單選按鈕到 [**抽出常用字串** 對話方塊](../dlg/extract_frequent/index) 中。
-- 添加了 **遞增值+最小值** 核取方塊和 **遞增值** 文字方塊到 [**輸入數字范圍** 對話方塊](../dlg/number_range/index) 中。
-- 添加了 **抽出** 按鈕到 [**多檔尋找** 對話方塊](../dlg/find_in_files/index) 中。
-- 添加了 **自訂** 文字方塊到 **自訂** 對話方塊的 [**格式** 頁面](../dlg/customize/format/index) 上。
+- Added the **Retrieve Windows Clipboard History on Startup** and **Show Clipboard History on Paste** check boxes to the [**Edit** page](../dlg/customize/edit/index) of the **Customize** dialog box.
+- Added the **Show Minimap while Hovered** check box to the [**Scroll** page](../dlg/properties/scroll/index) of configuration properties.
+- Added the **Cells**, **IPv4 Addresses**, and **IPv6 Addresses** radio buttons to the [**Extract Frequent Strings** dialog box](../dlg/extract_frequent/index).
+- Added the **Multiples + Minimum numbers Only** check box and **Multiples of** text box to the [**Enter Number Range** dialog box](../dlg/number_range/index).
+- Added the **Extract** button to the [**Find in Files** dialog box](../dlg/find_in_files/index).
+- Added the **Custom** text box to the [**Format** page](../dlg/customize/format/index) of the **Customize** dialog box.
 
-## 新增命令
+## New Commands
 
-- [停留時顯示迷你地圖](../cmd/window/minimap_hover)
-- [顯示剪貼簿記錄](../cmd/edit/clipboard_history)
+- [Show Minimap while Hovered](../cmd/window/minimap_hover)
+- [Show Clipboard History](../cmd/edit/clipboard_history)
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 **FLAG\_FIND\_COUNT\_FREQUENCY** 標志到 [**GREP\_INFO\_EX** 結構](../plugin/structure/grep_info_ex) 中。
+- Added the **FLAG\_FIND\_COUNT\_FREQUENCY** flag to the [**GREP\_INFO\_EX** structure](../plugin/structure/grep_info_ex).
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 **eeExFindCountFrequency** 標志到 [**FindInFiles** 方法](../macro/editor/editor_findinfiles) 中。
+- Added the **eeExFindCountFrequency** flag to the [**FindInFiles** method](../macro/editor/editor_findinfiles).

@@ -1,19 +1,19 @@
-# Parent 屬性
+# Parent Property
 
-返回父視窗對象。
+Returns the parent window object.
 
 #### \[JavaScript\]
 
-_wnd_ = wnd. **Parent**;
+_w_ = wnd. **Parent**;
 
-wnd. **Parent** = _wnd_;
+wnd. **Parent** = _w_;
 
 #### \[VBScript\]
 
-_wnd_ = wnd. **Parent**
+_w_ = wnd. **Parent**
 
-wnd. **Parent** = _wnd_
+wnd. **Parent** = _w_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

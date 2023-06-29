@@ -1,46 +1,46 @@
 # Version 18.2
 
-2018年10月10日
+October 10, 2018
 
-## 一般新增功能
+## New General Features
 
-- 打開非常大的檔案時，大大提高了尋找，取代，篩選，CSV 排序和其他操作的速度。刪除了多線程搜索/取代，因為單線程搜索/取代現在更快。
-- 在新版本中，狀態列會突出顯示重要消息。
+- Greatly improved the speed of Find, Replace, Filter, CSV sort and other operations when opening very large files. Removed multi-threaded search/replace, as single-threaded search/replace is now faster.
+- In the new version, the status bar is highlighted for important messages.
 
-### 測試結果：
+### Test results:
 
-|  | v18.0 | v18.1 | v18.2 | 與 v18.0 相較 |
+|  | v18.0 | v18.1 | v18.2 | Comparison to v18.0 |
 | --- | --- | --- | --- | --- |
-| 用 "顯示符合數" 選項尋找 "abc" | 4.09 秒 | 3.26 秒 | 1.80 秒 | 快 2.27 倍 |
-| 用 "@@@" 取代 "abc" | 4.30  秒 | 3.22 秒 | 1.75 秒 | 快 2.46 倍 |
-| 篩選 "abc" | 4.16 秒 | 3.14 秒 | 1.73 秒 | 快 2.40 倍 |
-| CSV 排序 | 0.797 秒 | 0.781 秒 | 0.500 秒 | 快 1.60 倍 |
-| CSV 多列排序（數字，按 2 欄排序） | 1.88 秒 | 1.813 秒 | 1.30 秒 | 快 1.45 倍 |
-| CSV（數字，按 3 欄排序） | 3.02  秒 | 3.02 秒 | 2.19 秒 | 快 1.38 倍 |
+| Find "abc" with "Count Matches" option | 4.09 seconds | 3.26 seconds | 1.80 seconds | 2.27 times faster |
+| Replace "abc" with "@@@" | 4.30  seconds | 3.22 seconds | 1.75 seconds | 2.46 times faster |
+| Filter "abc" | 4.16 seconds | 3.14 seconds | 1.73 seconds | 2.40 times faster |
+| CSV Sort | 0.797 seconds | 0.781 seconds | 0.500 seconds | 1.60 times faster |
+| CSV Sort by Multiple Columns (numbers, sort by 2 columns) | 1.88 seconds | 1.813 seconds | 1.30 seconds | 1.45 times faster |
+| CSV Sort by Multiple Columns (numbers, sort by 3 columns) | 3.02  seconds | 3.02 seconds | 2.19 seconds | 1.38 times faster |
 
-\\* 尋找/取代/篩選：538 MB，10,000,000 行，隨機 ASCII 數據；排序；185 MB，2,170,000 行，CSV 數字數據。測試系統：Windows 10 (64-bit)，Core i7-8700K, 32GB RAM。
+\\* Find/Replace/Filter: 538 MB, 10,000,000 lines, random ASCII data, Sort: 185 MB, 2,170,000 lines, CSV number data, Windows 10 (64-bit), Core i7-8700K, 32GB RAM.
 
-## 新增選項
+## New Options
 
-- 添加了 **按出現次數升序排序** 以及 **按出現次數降序排序** 單選按鈕到 [**多列排序** 對話方塊](../dlg/sort_multi/index) 中。
-- 添加了 **不要在「儲存更改？」對話方塊中顯示「儲存工作區」按鈕** 核取方塊到 **自訂** 對話方塊的 [**工作區** 頁面](../dlg/customize/workspace/index) 中。
+- Added the **Sort by Occurrence Ascending** and **Sort by Occurrence Descending** radio buttons to the [**Sort by Multiple Columns** dialog box](../dlg/sort_multi/index).
+- Added the **Do not display the Save Workspace button in the "Save Changes?" dialog box** check box to the [**Workspace** page](../dlg/customize/workspace/index) of the **Customize** dialog box.
 
-## 新增命令
+## New Commands
 
-- [目前文檔中的下一個書籤（周圍）](../cmd/edit/bookmark_next_around)
-- [目前文檔中的上一個書籤（周圍）](../cmd/edit/bookmark_prev_around)
-- [按出現次數升序排序](../cmd/edit/sort_occurrence_a)
-- [按出現次數降序排序](../cmd/edit/sort_occurrence_d)
+- [Next Bookmark in This Document (Around)](../cmd/edit/bookmark_next_around)
+- [Previous Bookmark in This Document (Around)](../cmd/edit/bookmark_prev_around)
+- [Sort by Occurrence Ascending](../cmd/edit/sort_occurrence_a)
+- [Sort by Occurrence Descending](../cmd/edit/sort_occurrence_d)
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 **SORT\_OCCURRENCE** 標志到 [**Editor\_Sort** 內嵌函式](../plugin/macro/editor_sort) 以及 [**SORT\_INFO** 結構](../plugin/structure/sort_info) 中。
+- Added the **SORT\_OCCURRENCE** flag to the [**Editor\_Sort** inline function](../plugin/macro/editor_sort) and the [**SORT\_INFO** structure](../plugin/structure/sort_info).
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 **O**（按出現次數排序）選項到 [**Sort** 方法](../macro/document/sort) 中的 **strColumns** 參數中。
+- Added the **O** (sorts by occurrence) option to the **strColumns** parameter of the [**Sort** method](../macro/document/sort).
 
-## 修復 Bug
+## Bug Fixes
 
-- 修復了備份功能不起作用的問題。
-- 修復了使用者報告的問題（ [1](https://www.emeditor.com/forums/topic/multiple-line-selecting/)）。
+- Fixed the bug where the Backup feature did not work.
+- Fixed customer-reported issues ( [1](https://www.emeditor.com/forums/topic/multiple-line-selecting/)).

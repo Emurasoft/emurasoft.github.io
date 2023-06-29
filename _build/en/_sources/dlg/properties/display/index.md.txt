@@ -1,90 +1,93 @@
-# 「顯示」頁面
+# Display page
 
-**顯示** 頁面讓您能設置與顯示相關的屬性。
+The **Display** page allows you to set properties related to display.
 
-### 「主題」下拉清單方塊
+### Theme drop-down list box
 
-選擇一個定義顏色組合的主題。
+Selects a theme defining a combination of colors.
 
-### 「>」按鈕
+### \> button
 
-一個與主題相關的功能表會顯示當該按鈕被點擊時。選擇下列選項之一。
+A menu regarding the themes appears when this button is clicked. Select one of the following options.
 
 |     |     |
 | --- | --- |
-| **儲存** | 儲存設定到被選取的主題中。 |
-| **複製** | 用另一個名稱複製被選取的主題。 |
-| **重新命名** | 改變主題的名稱。 |
-| **刪除** | 刪除被選取的主題。 |
-| **導入** | 從一個主題檔案中導入一個主題。 |
-| **導出** | 導出被選取的主題到一個主題檔案中。 |
-| **導出全部** | 導出全部主題。 |
-| **全部重設** | 重設所有主題。 |
+| **Save** | Saves the settings to the selected theme. |
+| **Copy** | Copies the selected theme as another name. |
+| **Rename** | Changes the name of the theme. |
+| **Delete** | Deletes the selected theme. |
+| **Import** | Imports a theme from a theme file. |
+| **Export** | Exports the selected theme into a theme file. |
+| **Export All** | Exports all themes. |
+| **Reset All** | Resets all themes. |
 
-### 「搜尋」文字方塊
+### Search text box
 
-在「指定部分」清單方塊中尋找一個項目。
+Finds an item in the Specify Part list box.
 
-### 「指定部分」清單方塊
+### Specify Part list box
 
-選擇一個要指定顏色與下劃線屬性的項目。
+Select an item to apply color and underline attributes.
 
-### 「文字色彩」下拉清單方塊
+### Text Color drop-down list box
 
-為文字選擇一個色彩類型。
+Selects a color for text.
 
-### 「...」按鈕
+### ... button
 
-單擊此按鈕可指定自訂的文字色彩。
+Click this button to find the specified text color.
 
-### 「背景色彩」下拉清單方塊
+### Background Color drop-down list box
 
-為背景選擇一個色彩類型。
+Selects a color for the background.
 
-### 「...」按鈕
+### ... button
 
-單擊此按鈕可指定自訂的背景色彩。
+Click this button to find the specified background color.
 
-### 「樣式」下拉清單方塊
+### Style drop-down list box
 
-把底線，粗體，斜體，波浪線，虛線或粗線樣式應用到選取的項目上。
+Apply underline, bold, italic, wiggly line, dotted line or thick line format to the selected item.
 
-### 「底線色彩」下拉清單方塊
+### Underline Color drop-down list box
 
-為底線選擇一個色彩類型。
+Selects a color for underline.
 
-### 「...」按鈕
+### ... button
 
-單擊此按鈕可指定自訂的底線色彩。
+Click this button to find the specified underline color.
 
-### 「搜索亮顯」文字方塊
+### Search Colors text box
 
-指定要亮顯顯示的之前搜索的字串數。
+Specifies the number of previously searched strings to highlight.
 
-### 「全選」按鈕
+### Select All button
 
-選擇整個清單。
+Select the entire list.
 
-### 「引用標記」文字方塊
+### Quote Marks text box
 
-當識別 **引用文字** 時要使用的引用標記清單。
+List of quote marks to be used when recognizing **Quoted Lines**.
 
-### 「行距」文字方塊
+### Line Space text box
 
-指定行與行之間的距離。這個值對應于一個單一的行高度的 1/10。
+Specify the amount of space between lines. This value corresponds to 1/10 of
+the height of a single line.
 
-### 「字元間距」文字方塊
+### Character Space text box
 
-用像素指定字元之間的距離。
+Specify the amount of space between characters in pixels.
 
-### (示例) 文字
+### (Display Example) Text
 
-用目前的被選取的字型來顯示示例文字。
+Show a sample of text with the currently selected font.
 
-### 「字型」按鈕
+### Font button
 
-指定要被用來顯示文字的字型。
+Specify the font to be used to display text.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。會顯示 [**重設** 對話方塊](../reset/index) 并讓您能從另一個組態複製設定。
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.

@@ -1,27 +1,29 @@
-# 延伸選區到行首或文字起始位置命令
+# Home or Start of Text Extend command
 
-### 摘要
+### Summary
 
-> 把選區延伸到目前的行的行首或該行的文字起始位置處。
+> Extends the selection to the start of the current line or the start of the
+> text on that line.
 
-### 說明
+### Description
 
-> 選擇所有在目前的行開頭處的第一個非空格字元和游標位置之間的文字。
+> Selects all text between the cursor position and the first non-white space
+> character at the beginning of the current line.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **延伸選區**
-\> **延伸選區到行首或文字起始位置**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: SHIFT+HOME
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Home or Start of Text Extend**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: SHIFT+HOME
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SHIFT\_HOME\_TEXT (4297)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

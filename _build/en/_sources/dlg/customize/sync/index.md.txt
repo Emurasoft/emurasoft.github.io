@@ -1,47 +1,47 @@
-# 「同步」頁面
+# Sync page
 
-**同步** 頁面讓你能自訂與同步有關的設定。
+The **Sync** page allows you to customize sync settings.
 
-### 「同步設定」核取方塊
+### Sync Settings checkbox
 
-啟用同步設定。
+Enable setting synchronization.
 
-### 「雙向」單選按鈕
+### Bidirectional radio button
 
-此選項更新其他電腦中的 EmEditor 設定，還會更新目前的電腦中的EmEditor 設定。當兩臺電腦同時打開 EmEditor 時，EmEditor 使用上次儲存的設定。
+This option updates EmEditor settings in other computers, and also updates EmEditor settings in the current computer. EmEditor uses the last saved settings when two computers are opening EmEditor at the same time.
 
-### 「僅發送」單選按鈕
+### Send only radio button
 
-將設定發送到其他電腦中的 EmEditor，但不更新目前的電腦中的 EmEditor 設定。
+Sends the settings to EmEditor in other computers, but does not update EmEditor settings in the current computer.
 
-### 「僅接收」單選按鈕
+### Receive only radio button
 
-從其他電腦接收 EmEditor 設定，但不將設定發送到其他電腦。
+Receives EmEditor settings from other computers, but does not send the settings to other computers.
 
-### 「Microsoft 賬戶」單選按鈕
+### Microsoft Account radio button
 
-使用 Microsoft 賬戶來同步設定。僅適用於市集應用版。
+Uses Microsoft Account to sync settings. Available only on the Store App versions.
 
-### 「網絡資料夾」單選按鈕
+### Network Folder radio button
 
-指定網絡上的共享資料夾以供所有電腦共享。這可以是 UNC（通用命名慣例）路徑，例如 \\\computer1\\sharedfolder\\EmEditorSync，或本機資料夾，例如，C:\\Users\\name\\OneDrive\\EmEditorSync。
+Specifies a shared folder on the network to be shared by all computers. This can be a UNC (Universal Naming Convention) path, for instance, \\\computer1\\sharedFolder\\EmEditorSync, or a local folder, for instance, C:\\Users\\name\\OneDrive\\EmEditorSync.
 
-### 「監控間隔」文字方塊
+### Monitor Interval text box
 
-指定 EmEditor 檢查共享資料夾中是否有新設定的頻率。此選項僅影響發送頻率而不影響接收頻率。
+Specifies how often EmEditor checks if new settings become available in the shared folder. This option only affects the sending frequency and not the receiving frequency.
 
-### 「包括支持的外掛程式」核取方塊
+### Include supported plug-ins checkbox
 
-如果勾選此項，只要這些外掛程式支持同步功能，外掛程式設定也會同步。
+If this is checked, plug-ins settings are also synced as long as the sync feature is supported to those plug-ins.
 
-### 「立即發送」按鈕
+### Send Now button
 
-將所有設定發送到共享資料夾。
+Sends all settings to the shared folder.
 
-### 「立即接收」按鈕
+### Receive Now button
 
-從共享資料夾接收所有設定。
+Receives all settings from the shared folder.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

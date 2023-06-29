@@ -1,23 +1,23 @@
-# IndentProp 對象
+# IndentProp Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [AutoIndent](auto_indent) | 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **啟用自動縮排** 核取方塊相對應。 |
-| [Begin](begin) | 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **開始縮排** 文字方塊相對應。 |
-| [End](end) | 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **結束縮排** 文字方塊相對應。 |
-| [EndOfStatement](end_of_statement) | 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **語句結束** 文字方塊相對應。 |
-| [IgnoreAfter](ignore_after) | 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **忽略規則運算式之後的內容** 文字方塊相對應。 |
-| [IndentColumns](indent_columns) | 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **縮排列** 文字方塊相對應。 |
-| [InsertSpaces](insert_spaces) | 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **將 Tab轉換為空白** 核取方塊相對應。 |
-| [RegExp](reg_exp) | 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **使用規則運算式** 核取方塊相對應。 |
-| [TabColumns](tab_columns) | 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **Tab 列** 文字方塊相對應。 |
-| [WrapIndent](wrap_indent) | 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **換行縮排** 核取方塊相對應。 |
+| [AutoIndent](auto_indent) | Corresponds to the **Enable**<br>**Auto Indent** check box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [Begin](begin) | Corresponds to the **Begin**<br>**Indent** text box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [End](end) | Corresponds to the **End**<br>**Indent** text box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [EndOfStatement](end_of_statement) | Corresponds to the **End**<br>**of Statement** text box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [IgnoreAfter](ignore_after) | Corresponds to the **Ignore After (Regular Expression)** text box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [IndentColumns](indent_columns) | Corresponds to the **Indent**<br>**Columns** text box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [InsertSpaces](insert_spaces) | Corresponds to the **Insert**<br>**Spaces for Tabs** check box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [RegExp](reg_exp) | Corresponds to the **Use Regular Expressions** check box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [TabColumns](tab_columns) | Corresponds to the **Tab**<br>**Columns** text box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [WrapIndent](wrap_indent) | Corresponds to the **Wrap Indent** check box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

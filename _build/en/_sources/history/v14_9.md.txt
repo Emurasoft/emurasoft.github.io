@@ -1,35 +1,41 @@
 # Version 14.9
 
-2015年2月25日
+March 2, 2015
 
-## 一般新增功能
+## New General Features
 
-- 新增的 **在 CSV 中刪除嵌入式換行** 命令讓您能在 CSV 文檔中刪除嵌入式換行。
-- 在 [**自訂外掛程式** 對話方塊](../dlg/plugins/index) 中新增了 **「添加」** 和 **「刪除」** 按鈕，讓您能從別的檔案添加新的外掛程式。新版本將不會自動偵測外掛程式。如果您要安裝新外掛程式的話，必須點擊 **「添加」** 把外掛程式添加到外掛程式清單中。
-- **大檔案控制器** 中添加了 **「把打開的部分儲存為」** 按鈕，讓您能把打開的部分儲存為另一個檔案。
-- **「設為書籤」** 按鈕被添加到 **「刪除重複行」** 對話方塊中，讓您能把所有重複行設為書籤，而不只是刪除它們。
-- 這個版本適用於 Windows Vista 以及之後的版本，將不會在 Windows XP 上運作。
-- Boost library 被更新到 Version 1.57。
+- The new **Remove Embedded Newlines in CSV** command allows you to remove embedded newlines in CSV documents.
+- The new **Add** and **Remove** buttons in the [**Customize Plug-ins** dialog box](../dlg/plugins/index) allow you to add a new plug-in from a different folder. The new version will not detect a new plug-in automatically. The **Add** button in this dialog box must be clicked to be included in the plug-in list if a user installs a new plug-in.
+- The **Save Opened Potion As** button was added to the **Large File Controller**, which allows you to save the opened portion as a different file.
+- The **Bookmark** button was added to the **Delete Duplicate Lines** dialog box, which allows you to set bookmarks in duplicate lines without deleting them.
+- This version will not work on Windows XP, and is optimized for Windows Vista or later.
+- The Boost library was updated to Version 1.57.
 
-## 新增選項
+## New Options
 
-- 新的 **符合 CSV 中的嵌入式換行** 命令被添加到 **尋找/取代** 對話方塊中點擊 **>** 按鈕顯示的功能表項目中。
-- 在 **尋找** 工具列上添加了 **「符合 CSV 中的嵌入式換行」** 按鈕。
-- 在 **尋找/取代/多檔尋找/多檔取代** 對話方塊中點擊 **>** 按鈕顯示的功能表項目中添加了 **固定值** 選項。另外， **自訂** 被更名為 **上次使用的值**。 **儲存為預設值** 被更名為 **自動儲存**，您能通過單擊選項切換這些選項的啟用/禁用狀態。
-- 在 [**檔案關聯組態** 對話方塊](../dlg/configuration_associations/index) 中添加了 **「用於 \[多檔尋找\] 對話方塊中的檔案類型」** 的核取方塊。
+- The new **Match Only Embedded Newlines in CSV** command was added to the menu item appeared when the
+**>** button is clicked in the **Find/Replace** dialog box.
+- The new **Match Only Embedded Newlines in CSV** button was
+added to the **Find** toolbar.
+- The new **Fixed Value** option was added to the menu item appeared when the
+**>** button is clicked in the **Find/Replace/Find in Files/Replace in Files** dialog box. Also **Custom** was renamed to **Last Used Value**. **Save as Default** was renamed to **Auto Save**, and allows you to toggle the enable/disable status.
+- The **Use in Find in Files Filter** check box was added to the [**Configuration Associations** dialog box](../dlg/configuration_associations/index).
 
-## 新增命令
+## New Commands
 
-- **[在 CSV 中刪除內嵌新行](../cmd/edit/remove_embedded_nl)**
-- **[比對 CSV 中的內嵌新行 (搜尋工具列)](../cmd/search/findbar_embedded_newlines)**
+- **[Remove Embedded Newlines in CSV](../cmd/edit/remove_embedded_nl)**
+- **Match Only Embedded Newlines in CSV (Find toolbar)**
 
-## 巨集的新增功能
+## Macro New Features
 
-- **eeFindReplaceEmbeddedNL** 標志被添加到 **Selection 對象** 的 **[尋找](../macro/selection/selection_find)** 以及 **[取代](../macro/selection/selection_replace)** 方法中。
+- The **eeFindReplaceEmbeddedNL** flag was added to the **[Find](../macro/selection/selection_find)** and **[Replace](../macro/selection/selection_replace)** methods
+of the Selection object.
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 EEID\_REMOVE\_EMBEDDED\_NL 和 EEID\_FINDBAR\_EMBEDDED\_NL 命令。
-- **FLAG\_FIND\_EMBEDDED\_NL** 被添加到
-[**Editor\_FindA**](../plugin/macro/editor_finda)，
-[**Editor\_FindW**](../plugin/macro/editor_findw) 內嵌函式以及 [**EE\_FINDA**](../plugin/message/ee_finda) 和 [**EE\_FINDW**](../plugin/message/ee_findw) 消息中。
+- **EEID\_REMOVE\_EMBEDDED\_NL** and **EEID\_FINDBAR\_EMBEDDED\_NL** commands were added.
+- The **FLAG\_FIND\_EMBEDDED\_NL** flag was added to the
+[**Editor\_FindA**](../plugin/macro/editor_finda),
+[**Editor\_FindW**](../plugin/macro/editor_findw) inline functions
+and the [**EE\_FINDA**](../plugin/message/ee_finda) and
+[**EE\_FINDW**](../plugin/message/ee_findw) messages.

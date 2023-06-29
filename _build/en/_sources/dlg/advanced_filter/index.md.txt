@@ -1,119 +1,142 @@
-# 「進階篩選」對話方塊
+# Advanced Filter dialog box
 
-這個對話方塊會出現當您選擇了
-**進階篩選** 命令或按了 **篩選** 工具列上的
-**「進階篩選」** 按鈕。
+This dialog box appears when the
+**Advanced Filter** command or the
+**Advanced Filter** button is selected in the **Filter** toolbar.
 
-### 「尋找 \| 列 \| 條件」清單方塊
+### Find \| Columns \| Conditions list box
 
-用清單來顯示定義過的篩選。
+Shows the list of defined filters.
 
-### 「列」下拉清單方塊
+### Enable/Disable All check box
 
-更改清單中「列」的選項。
+Enables or disables all items in the list.
 
-### 「大小寫需符合」核取方塊
+### Column drop down list box
 
-大小寫需符合當搜索一個字串時。
+Changes the column for the items selected in the list.
 
-### 「整個單字需符合」核取方塊
+### Begin text box
 
-僅搜索單字。一個單字被定義為一個以這些字元開頭并結尾的字串: A – Z，a – z，0 – 9，或下劃線。由全形字元包圍的字串被認為是單字。當使用規則運算式時，該核取方塊可能不能正常運作。當使用規則運算式時，請用單字邊界表達式 (\\<，\\>，以及 \\b) 。
+Specifies the one-based index of the character where the search begins.
 
-### 「符合整個字串」核取方塊
+### End text box
 
-符合所選列，字元位置或整行中的整個項目。建議盡可能設置此選項以優化篩選的速度。當使用邏輯或運算定義多個篩選條件時，請為所有條件設置此選項，以便更快地提高篩選速度。
+Specifies the one-based index of the character where the search ends. The specified ending character is exclusive. For instance, if you specify 1 in the Begin text box, and 2 in the End text box, only one character (2-1=1) will be searched.
 
-### 「負向」核取方塊
+### Count Last check box
 
-勾選該核取方塊將會排除所有符合的搜索結果。文檔會隱藏所有與指定字串相符合的結果。
+If this is checked, the search range is counted from the end of the line.
 
-### 「僅書籤行」核取方塊
+### All the Rest check box
 
-僅符合書籤行。
+If this is checked, the search range is up to the end of the line.
 
-### 「僅未標示書籤的行」核取方塊
+### Match Case check box
 
-僅符合僅未標示書籤的行。
+Match cases when searching for a string.
 
-### 「（無）」選項按鈕
+### Match Whole Word check box
 
-指定字串應按字面意思符合。
+Search words only. A word is defined as a string that begins and ends with
+any of these characters: A – Z, a – z, 0 – 9, or an underscore. Strings
+surrounded by full-width characters are considered words. When using regular expressions, this check box may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
 
-### 「規則運算式」選項按鈕
+### Match Whole String check box
 
-啟用 [規則運算式](../../howto/search/search_regexp)。
+This matches the whole item in the selected column, character positions, or the whole line. It is recommended to set this option whenever possible to optimize the filter for speed. When multiple filter conditions are defined with the Logical Disjunction, set this option for all conditions to increase the filter speed extremely faster.
 
-### 「逸出序列」選項按鈕
+### Negative check box
 
-啟用逸出序列。你能把下列字元作為逸出序列。
+This negates the match condition. Therefore, the lines matched to the specified string will be hidden from the document when displayed. This option does not affect the **Bookmarked Lines Only**, **Unbookmarked Lines Only**, or **Match Newline Characters** options.
+
+### Bookmarked Lines Only check box
+
+Matches bookmarked lines only.
+
+### Unbookmarked Lines Only check box
+
+Matches unbookmarked lines only.
+
+### (None) radio button
+
+Specifies that the string should match literally.
+
+### **Regular Expressions** radio button
+
+Enables [regular expressions](../../howto/search/search_regexp).
+
+### **Escape Sequence** radio button
+
+Enables escape sequences. You can use the following characters as escape
+sequences.
 
 |     |     |
 | --- | --- |
-| \\a | 警告（響鈴） |
-| \\b | 退格 |
-| \\f | 換頁 |
-| \\n | 換行 |
-| \\t | 水平 Tab |
-| \\v | 垂直 Tab |
-| \\\ | 反斜杠 |
-| \\oooooo | Unicode 字元在八進位運算式中 |
-| \\xhhhh | Unicode 字元在十六進位運算式中 |
+| **\\a** | Warning (Bell) |
+| **\\b** | Backspace |
+| **\\f** | Form feed |
+| **\\n** | Newline character |
+| **\\t** | Horizontal tab |
+| **\\v** | Vertical tab |
+| **\\\** | Backslash |
+| **\\oooooo** | Unicode character in octal notation |
+| **\\xhhhh** | Unicode character in hexadecimal notation |
 
-空字元（\\0）可能不能使用。一定要用 \\n 而不是 \\r。
+A null character (\\0) may not be used. \\n must be used instead of \\r.
 
-### 「數字範圍」選項按鈕
+### **Number Range** radio button
 
-啟用 [數字範圍運算式](../../howto/search/number_range_syntax)。
+Enables [number range expressions](../../howto/search/number_range_syntax).
 
-### 「符合換行符號」核取方塊
+### Match Newline Characters check box
 
-符合指定換行符號。此選項應與 **僅 CR**， **僅 LF**， **僅 CR+LF**，以及/或 **其他** 核取方塊合用。
+Matches specified newline characters. This option should be combined with **CR Only**, **LF Only**, **CR+LF Only**, and/or **Others** check boxes.
 
-### 「僅 CR」核取方塊
+### CR Only check box
 
-只符合換行符號是 CR 的行。此選項應與 **符合換行符號** 選項合用。
+Matches lines of which the newline character is CR only. This option should be combined with the **Match Newline Characters** option.
 
-### 「僅 LF」核取方塊
+### LF Only check box
 
-只符合換行符號是 LF 的行。此選項應與 **符合換行符號** 選項合用。
+Matches lines of which the newline character is LF only. This option should be combined with the **Match Newline Characters** option.
 
-### 「CR+LF」核取方塊
+### CR+LF check box
 
-符合換行符號是 CR+LF 的行。此選項應與 **符合換行符號** 選項合用。
+Matches lines of which the newline character is CR and LF. This option should be combined with the **Match Newline Characters** option.
 
-### 「其他」核取方塊
+### Others check box
 
-符合沒有換行符號的行。這些行包括檔案的最後一行以及非常長的行，例如繼續到下一行而沒有換行符號的行。此選項應與 **符合換行符號** 選項合用。
+Matches lines without a newline character. These lines includes the last line of the file and very long lines that continue to the next line without a newline character. This option should be combined with the **Match Newline Characters** option.
 
-### 「開始篩選」核取方塊
+### Begin Filter check box
 
-用字元數指定開始篩選的位置。如果同時存在「開始篩選」的項目和另一個「結束篩選」的項目，則 EmEditor 僅顯示與「開始篩選」符合的行和與「結束篩選」符合的行之間的行。
+Specifies a begin filter. If both an item with the begin filter and another item with the end filter exist, EmEditor shows only the lines between the line that matches the begin filter and the line that matches the end filter.
 
-### 「結束篩選」核取方塊
+### End Filter check box
 
-用字元數指定結束篩選的位置。
+Specifies an end filter.
 
-### 「對前一個條件用運算邏輯分離 (OR)」核取方塊
+### Logical Disjunction (OR) to the Previous Condition check box
 
-在目前的條件與前一個條件上執行運算邏輯分離 (OR)。如果不勾選該核取方塊，會預設使用運算邏輯結合 (AND)。
+Specifies a logical disjunction (logical OR) to the previous condition. If this is not checked, a logical conjunction (logical AND) is specified.
 
-### 「篩選」按鈕
+### Filter button
 
-應用指定的篩選條件并關閉該對話方塊。
+Applies the specified conditions.
 
-### 「設為書籤」按鈕
+### Bookmark button
 
-把滿足指定條件的行設為書籤。
+Bookmark lines that satisfy the specified conditions.
 
-### 「中止」按鈕
+### Abort button
 
-中止目前的的篩選。
+Aborts the current filters.
 
-### 「匯入」按鈕
+### Import button
 
-匯入之前匯出的包含篩選條件的 TSV 檔案。
+Imports a previously exported TSV file containing the filter conditions.
 
-### 「匯出」按鈕
+### Export button
 
-把已定義的篩選條件匯出到一個檔案中。檔案格式可以是 TSV，JavaScript 或 VBScript 巨集格式。
+Exports defined filter conditions into a file. The file format can be a TSV, JavaScript or VBScript macro format.

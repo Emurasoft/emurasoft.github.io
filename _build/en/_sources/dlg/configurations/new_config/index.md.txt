@@ -1,15 +1,17 @@
-# 「新增」對話方塊
+# New dialog box
 
-這個對話方塊會顯示當您在 [**定義組態** 對話方塊](../index) 中按下 **「新增」** 按鈕時。您可以選擇一個模板來創建一個新的組態。
+This dialog box appears when the **New**
+button is selected in the [**Define Configurations** dialog \
+box](../index). You can select a template to create a new configuration.
 
-### 「使用預設組態」單選按鈕
+### Use Default Configuration radio button
 
-使用預設組態來創建一個新的組態。
+Uses the default configuration to create a new configuration.
 
-### 「複製為模板」單選按鈕
+### Copy from Template radio button
 
-從另一個組態中複製設定。
+Copy settings from another configuration.
 
-### 組態清單方塊
+### Configurations list box
 
-選擇一個要複製的組態。
+Select a configuration to copy from.

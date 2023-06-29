@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>向上翻頁命令 &#8212; EmEditor  說明文件</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="索引" href="../../genindex.htm" />
+    <link rel="search" title="搜尋" href="../../search.htm" />
+    <link rel="next" title="捲動至頂部命令" href="scroll-top.htm" />
+    <link rel="prev" title="向右翻頁命令" href="scroll-pageright.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  說明文件</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/cmd/window/scroll-pageup">English</a>
+                <a href="/emeditor-help/ja/cmd/window/scroll-pageup">日本語</a>
+                <a href="/emeditor-help/ko/cmd/window/scroll-pageup">한국어</a>
+                <a href="/emeditor-help/zh-cn/cmd/window/scroll-pageup">简体中文</a>
+                <a href="/emeditor-help/zh-tw/cmd/window/scroll-pageup">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">快速搜尋</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">命令參考</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bookmarks/index.htm">書籤類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../convert/index.htm">轉換類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../csv/index.htm">CSV 類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../diff/index.htm">比較類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.htm">編輯類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../external_tools/index.htm">外部工具類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.htm">檔案類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../help/index.htm">說明類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert/index.htm">插入類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macros/index.htm">巨集類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugins/index.htm">外掛程式類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.htm">搜尋類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort/index.htm">排序類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/index.htm">工具類別</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.htm">檢視類別</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.htm">視窗類別</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="active_pane.htm">活動窗格命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bottom_custom_bar.htm">底部自訂顯示條命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group_close_all.htm">關閉目前的群組命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group_close_left.htm">關閉目前的群組中所有左側的文檔命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group_close_others.htm">關閉目前的群組中的所有其他文檔命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group_close_right.htm">關閉目前的群組中所有右側的文檔命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="left_custom_bar.htm">左側自訂顯示條命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="left_doc.htm">左邊的文檔命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="minimap_entire_map.htm">顯示整個迷你地圖命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="minimap_hover.htm">停留時顯示迷你地圖命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="minimap_toggle.htm">切換迷你地圖命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="minimap_zoom_in.htm">放大迷你地圖命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="minimap_zoom_out.htm">縮小迷你地圖命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_next_group.htm">移動到下一個群組命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="move_prev_group.htm">移動到上一個群組命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="new_group.htm">新增群組命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="new_group_cascade.htm">新增層疊群組命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="new_group_horz.htm">新增水平群組命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="new_group_minimize.htm">新增群組并最小化命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="new_group_vert.htm">新增垂直群組命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_pane.htm">下一個窗格命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_pane_or_bar.htm">下一窗格或自訂顯示條命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_window.htm">下一個文檔命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="next_zorder_doc.htm">最后訪問的文檔命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="prev_pane.htm">上一個窗格命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="prev_pane_or_bar.htm">上一窗格或自訂顯示條命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="prev_window.htm">上一個文檔命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="prev_zorder_doc.htm">最少訪問的文檔命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="restore_combined_pos.htm">還原標籤頁視窗位置命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="restore_pos.htm">還原視窗位置命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="right_custom_bar.htm">右側自訂顯示條命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="right_doc.htm">右邊的文檔命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll-bottom.htm">捲動至底部命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll-pagedown.htm">向下翻頁命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll-pageleft.htm">向左翻頁命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll-pageright.htm">向右翻頁命令</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">向上翻頁命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll-top.htm">捲動至頂部命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll_down.htm">向下捲動一行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll_left.htm">向左捲動命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll_left_edge.htm">捲動至左邊緣命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll_marks_toggle.htm">切換垂直捲軸上的標記命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll_right.htm">向右捲動命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll_right_edge.htm">捲動至右邊緣命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scroll_up.htm">向上捲動一行命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sync_horz_scroll_split.htm">當分割時同步水平捲動命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sync_vert_scroll_split.htm">當分割時同步垂直捲動命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="top_custom_bar.htm">頂部自訂顯示條命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_always_top.htm">最上層顯示命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_always_top_off.htm">總是置頂 - 關命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_always_top_on.htm">總是置頂 - 開命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_cascade.htm">層疊視窗命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_combine.htm">啟用標籤頁命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_combine_off.htm">啟用標籤頁 - 關命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_combine_on.htm">啟用標籤頁 - 開命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_delete_panes.htm">移除分割命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_menu.htm">文檔清單命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_minimize_all.htm">全部最小化命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_move_next.htm">移動到下一個命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_move_prev.htm">移動到上一個命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_split.htm">分割命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_split_horz.htm">水平分割命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_split_horz_fix.htm">水平分割并固定位置命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_split_horz_toggle.htm">切換水平分割命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_split_vert.htm">垂直分割命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_split_vert_fix.htm">垂直分割并固定位置命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_split_vert_toggle.htm">切換垂直分割命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_tile_horz.htm">水平平鋪視窗命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="window_tile_vert.htm">垂直平鋪視窗命令</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.htm">對話方塊</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">常見問題解答</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">詞彙</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">歷史記錄</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.htm">如何…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">連結</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">巨集參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">注意事項</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.htm">外掛程式參考</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">如何購買</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">支持</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">命令參考</a> &lt;
+                    <a href="index.htm">視窗類別</a> &lt;
+                向上翻頁命令
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>向上翻頁命令<a class="headerlink" href="#id1" title="本標頭的永久連結">¶</a></h1>
+<section id="id2">
+<h2>摘要<a class="headerlink" href="#id2" title="本標頭的永久連結">¶</a></h2>
+<blockquote>
+<div><p>把文檔向上捲動一頁。</p>
+</div></blockquote>
+</section>
+<section id="id3">
+<h2>說明<a class="headerlink" href="#id3" title="本標頭的永久連結">¶</a></h2>
+<blockquote>
+<div><p>把文檔向上捲動一頁。</p>
+</div></blockquote>
+</section>
+<section id="id4">
+<h2>運行方法<a class="headerlink" href="#id4" title="本標頭的永久連結">¶</a></h2>
+<ul class="simple">
+<li><p>預設功能表: 無</p></li>
+<li><p><a class="reference internal" href="../tools/all_commands.htm"><span class="doc std std-doc">全部命令</span></a>: <strong>視窗</strong> &gt; <strong>捲動</strong> &gt; <strong>向上翻頁</strong></p></li>
+<li><p>工具列: 無</p></li>
+<li><p>狀態列: 無</p></li>
+<li><p>預設捷徑: 無</p></li>
+</ul>
+</section>
+<section id="id">
+<h2>外掛程式命令 ID<a class="headerlink" href="#id" title="本標頭的永久連結">¶</a></h2>
+<ul class="simple">
+<li><p>EEID_SCROLL_PAGE_UP (3866)</p></li>
+</ul>
+</section>
+<section id="id5">
+<h2>巨集<a class="headerlink" href="#id5" title="本標頭的永久連結">¶</a></h2>
+<section id="javascript">
+<h3>[JavaScript]<a class="headerlink" href="#javascript" title="本標頭的永久連結">¶</a></h3>
+<blockquote>
+<div><p>editor.ExecuteCommandByID(3866);</p>
+</div></blockquote>
+</section>
+<section id="vbscript">
+<h3>[VBScript]<a class="headerlink" href="#vbscript" title="本標頭的永久連結">¶</a></h3>
+<blockquote>
+<div><p>editor.ExecuteCommandByID 3866</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">向上翻頁命令</a><ul>
+<li><a class="reference internal" href="#id2">摘要</a></li>
+<li><a class="reference internal" href="#id3">說明</a></li>
+<li><a class="reference internal" href="#id4">運行方法</a></li>
+<li><a class="reference internal" href="#id">外掛程式命令 ID</a></li>
+<li><a class="reference internal" href="#id5">巨集</a><ul>
+<li><a class="reference internal" href="#javascript">[JavaScript]</a></li>
+<li><a class="reference internal" href="#vbscript">[VBScript]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; 版權所有 2023 Emurasoft。
+      使用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 建立。
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

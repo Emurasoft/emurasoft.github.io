@@ -1,11 +1,12 @@
-# 調整行距
+# To Adjust Space Between Lines
 
-1. 點擊 ![Properties for Current Configuration](../../images/properties.gif)
-(如果您只想更改目前的組態) 或
+1. Click ![Properties for Current Configuration](../../images/properties.gif)
+(if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
-(如果您想要更改所有組態) 并到 **顯示** 頁面上。
-2. 更改 **行距** 來調整行與行之間的距離。
+(if you want to change all configurations) to
+display the **Display** tab.
+2. Change **Line Space** to adjust the space between lines.
 
-## 提示
+## Tips
 
-- 數值 1 等于字元高度的十分之一。
+- The value 1 is equal to one tenth of the character's height.

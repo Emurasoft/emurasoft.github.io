@@ -1,6 +1,6 @@
-# Paste 方法
+# Paste Method
 
-在游標處插入剪貼簿內容。
+Inserts the Clipboard contents at the cursor.
 
 #### \[JavaScript\]
 
@@ -10,19 +10,19 @@ document.selection. **Paste**( _nFlags_ );
 
 document.selection. **Paste** _nFlags_
 
-## 參數
+## Parameters
 
 _nFlags_
 
-指定一個下列值的組合:
+Specifies a combination of the following values:
 
 |     |     |
 | --- | --- |
-| eeCopyUnicode | 貼上為 Unicode (預設) 。 |
-| eeCopyQuotes | 貼為引文。 |
-| eeCopyNL | 用新行貼上。 |
-| eeCopySystemDefault | 貼上為 [系統預設編碼](../../glossary/systemdefaultencoding)。 |
+| eeCopyUnicode | Pastes as Unicode (default). |
+| eeCopyQuotes | Pastes in quotes. |
+| eeCopyNL | Pastes with newline characters. |
+| eeCopySystemDefault | Pastes as the [system default encoding](../../glossary/index). |
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

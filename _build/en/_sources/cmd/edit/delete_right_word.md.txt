@@ -1,27 +1,29 @@
-# 刪除右側單字命令
+# Delete Right Word command
 
-### 摘要
+### Summary
 
-> 刪除目前的游標右邊的單字。
+> Deletes the word to the right of the cursor.
 
-### 說明
+### Description
 
-> 從游標位置處到目前的行中的下一個單字的第一個字元前刪除文字。這個命令會刪除空格。
+> Deletes text from the cursor position to the first character of the next
+> word in the current line.
+> This command does delete white space.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **刪除**
-\> **刪除右側單字**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: CTRL+DELETE
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Right Word**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+DELETE
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_DELETE\_RIGHT\_WORD (4275)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

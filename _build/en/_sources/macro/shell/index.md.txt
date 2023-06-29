@@ -1,30 +1,30 @@
-# Shell 對象
+# Shell Object
 
-## 屬性
-
-|     |     |
-| --- | --- |
-| **[ForegroundWindow](foreground_window)** | 檢索當前置前視窗。 |
-| **[windows](windows)** | 返回頂層視窗集合。 |
-
-## 方法
+## Properties
 
 |     |     |
 | --- | --- |
-| [**CreateFolder**](create_folder) | 創建一個資料夾。 |
-| [**DeleteFile**](delete_file) | 刪除一個或多個指定的檔案。 |
-| [**DeleteFolder**](delete_folder) | 刪除一個或多個指定的資料夾及其內容。 |
-| [**FileExists**](file_exists) | 如果指定檔案存在則返回 true；如果沒有，則為 false。 |
-| **[FindWindow](find_window)** | 通過一個類名和/或視窗標題查找頂層 Window 對象。 |
-| [**FolderExists**](folder_exists) | 如果指定資料夾存在則返回 true；如果沒有，則為 false。 |
-| [**GetFileAttributes**](get_file_attributes) | 返回指定檔案或資料夾的屬性。 |
-| [**Run**](run) | 在新進程中運行程式。 |
-| **[SendKeys](send_keys)** | 發送一個或多個鍵擊（或滑鼠活動）到活動視窗中。 |
-| [**SetFileAttributes**](set_file_attributes) | 設定指定檔案或資料夾的屬性。 |
+| **[ForegroundWindow](foreground_window)** | Retrieves the current foreground window. |
+| **[windows](windows)** | Returns the top-level Windows collection. |
 
-## 版本
+## Methods
 
-支持 EmEditor 7.00 或之後的版本。
+|     |     |
+| --- | --- |
+| [**CreateFolder**](create_folder) | Creates a folder. |
+| [**DeleteFile**](delete_file) | Deletes one or more specified files. |
+| [**DeleteFolder**](delete_folder) | Deletes one or more specified folders and their contents.. |
+| [**FileExists**](file_exists) | Returns true if a specified file exists; false if it does not. |
+| **[FindWindow](find_window)** | Finds the top-level Window object by a class name and/or by a window title. |
+| [**FolderExists**](folder_exists) | Returns true if a specified folder exists; false if it does not. |
+| [**GetFileAttributes**](get_file_attributes) | Returns the attributes of a specified file or folder. |
+| [**Run**](run) | Runs a program in a new process. |
+| **[SendKeys](send_keys)** | Sends one or more keystrokes (or mouse activities) to the active window. |
+| [**SetFileAttributes**](set_file_attributes) | Sets the attributes of a specified file or folder. |
+
+## Version
+
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

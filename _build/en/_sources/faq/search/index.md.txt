@@ -1,4 +1,4 @@
-# 搜尋
+# Search
 
 ```{toctree}
 :maxdepth: 1

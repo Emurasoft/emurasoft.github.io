@@ -1,6 +1,6 @@
-# Style 屬性
+# Style Property
 
-指定對象的樣式。
+Specifies the style of the object.
 
 #### \[JavaScript\]
 
@@ -14,17 +14,20 @@ _n_ = item. **Style**
 
 item. **Style** = _n_
 
-## 備注
+## Notes
 
-nStyle 參數會是下列值之一。
+The nStyle parameter should be one of the following values.
 
 |     |     |
 | --- | --- |
-| 0 | 標準 |
-| 1 | 底線 |
-| 2 | 粗體 |
-| 3 | 斜體 |
+| 0 | Normal |
+| 1 | Underline |
+| 2 | Bold |
+| 3 | Italic |
+| 4 | Wiggly line |
+| 5 | Dotted line |
+| 6 | Thick line |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

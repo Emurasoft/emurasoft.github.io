@@ -1,6 +1,6 @@
-# Insert 方法
+# Insert Method
 
-插入一個項目。
+Inserts an item.
 
 #### \[JavaScript\]
 
@@ -10,16 +10,16 @@ list. **Insert**( _Index_, _obj_ );
 
 list. **Insert** _Index_, _obj_
 
-## 參數
+## Parameters
 
 _Index_
 
-將項目的索引指定為基於 1 的整數。
+Specifies the index of the item as a one-based integer.
 
 _obj_
 
-指定一個項目。
+Specifies an item.
 
-## 版本
+## Version
 
-支持 EmEditor 19.4 或之後的版本。
+Supported on EmEditor Professional Version 19.4 or later.

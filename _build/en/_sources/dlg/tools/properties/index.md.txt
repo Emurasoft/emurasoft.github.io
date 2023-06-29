@@ -1,107 +1,121 @@
-# 「外部工具屬性」對話方塊
+# External Tool Properties dialog box
 
-這個對話方塊會顯示當您點擊了 **外部工具** 對話方塊中的 **「屬性」** 按鈕。
+This dialog box appears when the
+**Properties** button on the **External Tools** dialog box is selected.
 
-### 「標題」文字方塊
+### Title text box
 
-將顯示在 **工具** 功能表下的子功能表 **外部工具** 上的工具或命令名稱。
+The name of the tool or command that will appear on the **External Tools**
+submenu of the **Tools** menu.
 
-### 「命令」文字方塊
+### Command text box
 
-指定到 .exe, .com, .bat, .cmd 的路徑或到您想要啟動的其他檔案上的路徑。
+Specifies the path to the .exe, .com, .bat, .cmd, or other files that you
+intend to launch.
 
-### 「參數」文字方塊
+### Arguments text box
 
-指定要被傳遞到工具上的參數當啟動工具時。您可以用 **箭頭** ( **>**) 按鈕從預設的參數清單中選擇，或者您也可指定環境變量，例如 %WinDir%。
+Specifies the arguments that are passed to the tool when the tool is
+launched. Use the **Arrow** ( **>**) button to select from a
+list of predefined arguments. You can also specify environment variables, such as
+%WinDir%.
 
-### 「初始路徑」文字方塊
+### Initial Directory text box
 
-指定工具的工作目錄。您可以用 **箭頭** ( **>**) 按鈕選擇一個目錄，或者指定環境變量，例如 %WinDir%。
+Specifies the working directory of the tool. Use the
+**Arrow** ( **>**) button to select a directory. You
+can also specify environment variables, such as %WinDir%.
 
-### 「圖示路徑」文字方塊
+### Icon Path text box
 
-輸入您的示例圖示的檔案名。
+Enter the file name you sampled the icon from.
 
-### 「目前的圖示」清單方塊
+### Current Icon list box
 
-您能使用的圖示清單以及選取的目前的圖示。
+List of icons you can use and the current icon selected.
 
-### 「儲存檔案」核取方塊
+### Save File check box
 
-如果勾選了該核取方塊，EmEditor 將在啟動工具前儲存目前的打開的文檔。
+If this is checked, EmEditor will save the current open document before
+launching the tool.
 
-### 「在輸出列中顯示」核取方塊
+### Use Current Environment Variables check box
 
-如果勾選了該核取方塊，EmEditor 會把標準輸出和標準錯誤輸出重定向到輸出列中。
+If this is checked, external tools will use current environment variables when launched. If not, external tools will use environment variables inherited from the parent process (EmEditor).
 
-### 「將焦點設在輸出列上」核取方塊
+### Use Output Bar check box
 
-如果勾選了該核取方塊，EmEditor 會把鍵盤焦點設置到輸出列上。
+If this is checked, EmEditor will redirect the standard output and standard error output to the Output Bar.
 
-### 「外部工具退出后關閉輸出列」核取方塊
+### Set Focus in Output Bar check box
 
-如果勾選了該核取方塊，將在工具進程終止后關閉輸出列。
+If this is checked, EmEditor will set the keyboard focus to the Output Bar.
 
-### 「輸入」下拉清單方塊
+### Close on Exit check box
 
-為外部工具選擇標準輸入。
+If this is checked, the Output Bar will be closed after the tool process is terminated.
 
-|     |     |
-| --- | --- |
-| 無 | 不使用標準輸入。 |
-| 選定區域 | 把選取的文字用作標準輸入。 |
-| 文檔 | 把整個文檔用作標準輸入。 |
-| 自訂 | 在自訂的格式中指定標準輸入。如果選擇了這個選項，一定要指定 **自訂** 文字方塊以及 **添加檔案結束符** 核取方塊。 |
+### Input drop-down list box
 
-### 「自訂」文字方塊
-
-指定自訂標準輸入。該文字方塊只有在「輸入」下拉清單方塊中選擇 **自訂** 時可用。
-
-### 「添加檔案結束符 (Ctrl+Z，U+001A 或 1AH)」核取方塊
-
-如果勾選了該核取方塊，那么 **檔案結尾** 字元 (U+001A 或 1AH) 會被添加到自訂標準輸入中。檔案結束符一般不需要，但是一些舊的程式也許需要檔案結束符。
-
-### 「輸出」下拉清單方塊
-
-為外部工具選擇標準輸出。
+Select the standard input for the external tool.
 
 |     |     |
 | --- | --- |
-| 丟棄 | 丟棄標準輸出。 |
-| 取代選定區域 | 標準輸出將取代選取的文字。 |
-| 取代文檔 | 標準輸出將取代整個文檔。 |
-| 在選定區域前插入 | 在選取文字之前插入標準輸出。 |
-| 在選定區域后插入 | 在選取文字之後插入標準輸出。 |
-| 顯示為「工具提示」 | 標準輸出會顯示為工具提示。 |
-| 創建新文檔 | 標準輸出變成新增文檔的內容。 |
+| None | No standard input is used. |
+| Selection | The selected text is used as the standard input. |
+| Document | The entire document is used as the standard input. |
+| Custom | Specifies the standard input in customized format. If this is selected, the **Custom** text box and the **Add EOF** check box must also be specified. |
 
-### 「編碼」下拉清單方塊
+### Custom text box
 
-為輸出列選擇編碼。
+Specifies the customized standard input. This text box is enabled only if **Custom** is selected in the **Input** drop-down list box.
 
-### 「包含標準錯誤」下拉清單方塊
+### Add EOF (Ctrl+Z, U+001A or 1AH) check box
 
-選擇您想要為外部工具顯示標準錯誤的方式。
+If this is checked, the **End of File** character (U+001A or 1AH) will be added to the end of the customized standard input. The EOF character is generally not necessary, but some old applications might need the EOF character.
+
+### Output drop-down list box
+
+Select the standard output for the external tool.
 
 |     |     |
 | --- | --- |
-| 丟棄 | 丟棄標準錯誤。 |
-| 取代選定區域 | 標準錯誤將取代選取的文字。 |
-| 取代文檔 | 標準錯誤將取代整個文檔。 |
-| 在選定區域前插入 | 在選取文字之前插入標準錯誤。 |
-| 在選定區域后插入 | 在選取文字之後插入標準錯誤。 |
-| 顯示為「工具提示」 | 標準錯誤會顯示為工具提示。 |
-| 創建新文檔 | 標準錯誤變成新增文檔的內容。 |
-| 以輸出列顯示 | 標準錯誤會被顯示在輸出列中。 |
+| Discard | The standard output will be discarded. |
+| Replace Selection | The standard output will replace the selected text. |
+| Replace Document | The standard output will replace the entire document. |
+| Insert before Selection | The standard output will be inserted before the selected text. |
+| Insert after Selection | The standard output will be inserted after the selected text. |
+| Show as Tool Tip | The standard output will be displayed as a tool tip. |
+| Create New Document | The standard output will be contents of a new document. |
 
-### 「...」按鈕
+### Encoding drop-down list box
 
-點擊該按鈕來尋找指定檔案。
+Select the encoding for the Output Bar.
 
-### 「>」按鈕
+### Standard Error drop-down list box
 
-用該按鈕從預設的參數清單中選擇參數。
+Select how you want to display the standard error for the external tool.
 
-## 請同樣參考
+|     |     |
+| --- | --- |
+| Discard | The standard error will be discarded. |
+| Replace Selection | The standard error will replace the selected text. |
+| Replace Document | The standard error will replace the entire document. |
+| Insert before Selection | The standard error will be inserted before the selected text. |
+| Insert after Selection | The standard error will be inserted after the selected text. |
+| Show as Tool Tip | The standard error will be displayed as a tool tip. |
+| Create New Document | The standard error will be contents of a new document. |
+| Display as Output Bar | The standard error will be displayed in the Output Bar. |
 
-[Q. 外部工具組態的例子有哪些？](../../../faq/tools/tools_external)
+### ... button
+
+Click this button to find the specified file.
+
+### \> button
+
+Use this button to select from a list of predefined arguments.
+
+## See also
+
+[Q. \
+Examples of external tool definitions?](../../../faq/tools/tools_external)

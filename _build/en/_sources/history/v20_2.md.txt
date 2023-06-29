@@ -1,40 +1,42 @@
 # Version 20.2
 
-2020年10月6日
+October 6, 2020
 
-## 一般新增功能
+## New General Features
 
-- 添加了對「嵌套」CSV 文檔欄中的重複元素（由分號等分隔符分隔）進行排序或刪除的功能。為此，請選擇 **分割欄** 命令並在快顯的 [**分割欄** 對話方塊](../dlg/split_column/index) 中選擇 **把選取的欄分割到 \- （無）** 選項按鈕。
-- 當 **進階** 對話方塊中的任一選項不再是預設值，新版本會在（ **在檔案中**） **尋找**/ **取代** 對話方塊中的 **進階** 按鈕上顯示 **\*** 記號。如果設定了任何進階選項，則 **尋找** 工具列中的 **進階** 按鈕將突出顯示。
-- 添加了 **複製** 和 **轉換** 命令到停留在 HTML/XML 字元引用，通用字元名稱或百分比編碼的主動字串上時顯示的工具提示中。
-- 將 **自動填滿/自動重複** 命令添加到完成拖動自動填滿/自動重複手柄時顯示的內容功能表中。此命令允許您輸入行/欄數來重複相同值的副本或延伸數欄號。
-- 提高了「分割欄」命令的速度。
+- Added an ability to sort or delete duplicate elements (separated by a separator such as a semicolon) in a column of "nested" CSV documents. To do this, select the **Split Columns** command and select **Split the selected columns into - (None)** in the [**Split Columns** dialog box](../dlg/split_column/index).
+- The new version shows the **\*** mark in the **Advanced** button of the **Find**/ **Replace** ( **in Files**) dialog boxes when any options in the **Advanced** dialog has been changed from the default. The **Advanced** button in the **Find** toolbar will be highlighted if any advanced options are set.
+- Added the **Copy** and **Convert** commands to a tooltip displayed when hovering over an HTML/XML character reference, universal character name, or percent-encoding active string.
+- Added the **AutoFill/AutoRepeat** command to the context menu displayed when you finish dragging the AutoFill/AutoRepeat handle. This command allows you to enter how many lines/columns to repeat the copy of the same value or extend the serial numbers.
+- Improved the speed of the Split Columns command.
 
-### 測試結果：
+### Test results:
 
-|  | v20.1.0 | v20.2.0 | 比較 |
+|  | v20.1.0 | v20.2.0 | Comparison |
 | --- | --- | --- | --- |
-| 將欄分割為欄（1200萬行） | 12.1 秒 | 2.42 秒 | 快 5.00 倍 |
-| 將欄分割為行（100,000 行） | 262 秒 | 0.141 秒 | 快 1,860 倍 |
+| Split a column to columns (12 million lines) | 12.1 seconds | 2.42 seconds | 5.00 times faster |
+| Split a column to lines (100,000 lines) | 262 seconds | 0.141 seconds | 1,860 times faster |
 
-\\* 將欄分割為欄：611 MB，1200萬行，ASCII CSV 數據。
+\\* Split a column to columns: 611 MB, 12 million lines, ASCII CSV data.
 
-將欄分割為行：5.13 MB，100,000 行，ASCII CSV 數據
+Split a column to lines: 5.13 MB, 100,000 lines, ASCII CSV data.
 
-所有測試：「總是丟棄過長的復原信息來加速」選項開，「自動調整分隔符號位置」選項關，16 執行緒，Windows 10 (64-bit)，Core i9-9900K，32GB RAM，2TB SSD。
+All: Always discard Lengthy Undo information to Accelerate option on, Adjust Separator Positions Automatically option off, 16 threads, Windows 10 (64-bit), Core i9-9900K, 32GB RAM, 2TB SSD.
 
-## 新增選項
+## New Options
 
-- 添加了 **把選取的欄分割到 \- （無）** 選項按鈕到 [**分割欄** 對話方塊](../dlg/split_column/index) 中。
-- 添加了 **在捲軸上停用慢速尋找標記** 核取方塊到 **自訂** 對話方塊中的 [**優化** 頁面](../dlg/customize/optimization/index) 上。
-- 添加了 **檔案訪問超時** 文字方塊到 **自訂** 對話方塊中的 [**檔案** 頁面](../dlg/customize/file/index) 上。
+- Added the **Split the selected columns into - (None)** radio button to the [**Split Columns** dialog box](../dlg/split_column/index).
+- Added the **Disable slow find markers on scroll bar** check box to the [**Optimization** page](../dlg/customize/optimization/index) of the **Customize** dialog box.
+- Added the **File access timeout** text box to the [**File** page](../dlg/customize/file/index) of the **Customize** dialog box.
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 _cbSize_ 和 _ptCaret_ 欄位到 [**SEL\_INFO** 結構](../plugin/structure/sel_info) 中。
-- 添加了 [**EE\_SET\_MULTI\_SEL** 消息](../plugin/message/ee_set_multi_sel) 和 [**Editor\_SetMultiSel** 內嵌函式](../plugin/macro/editor_setmultisel)。
+- Added the _cbSize_ and _ptCaret_ fields to the [**SEL\_INFO** structure](../plugin/structure/sel_info).
+- Added the COLUMN\_SPLIT\_TO\_NONE type to the [**SPLIT\_COLUMN\_INFO** structure](../plugin/structure/split_column_info) and [**Editor\_SplitColumn** inline function](../plugin/macro/editor_splitcolumn).
+- Added the [**EE\_SET\_MULTI\_SEL** message](../plugin/message/ee_set_multi_sel) and [**Editor\_SetMultiSel** inline function](../plugin/macro/editor_setmultisel).
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 _iSel_ 參數到 **Selection** 對象的 **[GetActivePointX](../macro/selection/selection_getactivepointx)**， **[GetActivePointY](../macro/selection/selection_getactivepointy)**，和 **[SetActivePoint](../macro/selection/selection_setactivepoint)** 方法中。
-- 添加了一個參數到 **Window** 對象的 [**alert**](../macro/window/window_alert) 和 [**confirm**](../macro/window/window_confirm) 方法中。
+- Added the _iSel_ parameter to the **[GetActivePointX](../macro/selection/selection_getactivepointx)**, **[GetActivePointY](../macro/selection/selection_getactivepointy)**, and **[SetActivePoint](../macro/selection/selection_setactivepoint)** methods of the **Selection** object.
+- Added the **eeSplitIntoNone** type to the **[SplitColumn](../macro/document/split_column)** method of the **Document** object.
+- Added an optional parameter to the [**alert**](../macro/window/window_alert) and [**confirm**](../macro/window/window_confirm) methods of the **Window** object.

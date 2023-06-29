@@ -1,27 +1,28 @@
-# 全部關閉命令
+# Close All command
 
-### 摘要
+### Summary
 
-> 關閉打所有開的檔案。
+> Closes all open files and quits EmEditor.
 
-### 說明
+### Description
 
-> 這個命令會關閉所有已打開的檔案。如果存在一個已被修改的文檔，則會顯示一個即時消息來讓您選擇是否想要儲存變更。
+> This command closes all opened files. If a modified file exists, a prompt
+> message appears to select whether you want to save the changes or not.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **關閉**
-\> **全部關閉**
-- 工具列: ![](../../images/exitall.gif)
-- 狀態列: 無
-- 預設捷徑: ALT+SHIFT+X
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Close All**
+- Toolbar: ![](../../images/exitall.gif)
+- Status Bar: None
+- Default Shortcut Key: ALT+SHIFT+X
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_EXIT\_ALL (4119)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,6 +1,6 @@
-# VisibleLinesAbove 屬性
+# VisibleLinesAbove Property
 
-指定符合行以上可見行的行數。
+Specifies the number of visible lines above the matched lines.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _n_ = list. **VisibleLinesAbove**
 
 list. **VisibleLinesAbove** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor 16.2 或之後的版本。
+Supported on EmEditor Professional Version 16.2 or later.

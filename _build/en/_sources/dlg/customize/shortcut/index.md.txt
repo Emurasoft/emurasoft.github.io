@@ -1,51 +1,53 @@
-# 「捷徑」頁面
+# Shortcut page
 
-**捷徑** 頁面讓您能自訂與捷徑相關的設定。
+The **Shortcut** page allows you to customize settings related to the shortcuts.
 
-### 「新增一個捷徑到「傳送到」功能表」核取方塊
+### Add a shortcut to the "Send To" menu check box
 
-在 EmEditor 中，添加一個捷徑到檔案總管中的 "發送到" 功能表中。
+In EmEditor, adds a shortcut to the "Send To" menu in Explorer.
 
-### 「在任務長條圖中顯示系統匣圖示」核取方塊
+### Display a tray icon to the task bar check box
 
-在 Windows 任務長條圖的通知區域顯示一個 EmEditor 的系統匣圖示。
+Displays an EmEditor tray icon on the Windows Taskbar notification area.
 
-### 「Windows 啟動時在顯示系統匣圖示」核取方塊
+### Display a tray icon when Windows Starts check box
 
-顯示一個系統匣圖示當 Windows 下次啟動時。
+Displays an EmEditor tray icon next time Windows starts.
 
-### 「EmEditor 啟動時在顯示系統匣圖示」核取方塊
+### Display a tray icon when EmEditor launches check box
 
-顯示一個系統匣圖示當 EmEditor 下次啟動時。
+Displays an EmEditor tray icon next time EmEditor launches.
 
-### 「EmEditor 的高速啟動」核取方塊
+### EmEditor Quick Start check box
 
-高速啟動 EmEditor 當 EmEditor 系統匣圖示顯示時。如果勾選了該核取方塊，一個隱藏的 EmEidtor 視窗在會在 EmEditor 系統匣圖示顯示的同時運行。當您啟動 EmEditor 時，這個隱藏的 EmEidtor 視窗會變為可見的狀態，迅速打開 EmEditor。
+Quickly launches EmEditor while the EmEditor tray icon is displayed. If this is checked, a hidden EmEditor window launches at the same time as the EmEditor tray icon. When you start EmEditor, the hidden EmEditor window switches to the visible
+state, and EmEditor appears to launch quickly.
 
-### 「在 Internet Explorer 上用 EmEditor 檢視原始檔」核取方塊
+### View Source by EmEditor on Internet Explorer check box
 
-把 EmEditor 指定為在 Internet Explorer 上檢視源代碼的預設工具。
+Specifies EmEditor should be used for the View Source command in Internet Explorer.
 
-### 「添加一個捷徑至檔案總管的內容功能表中」核取方塊
+### Add a shortcut to the Context Menu on Explorer check box
 
-在 EmEditor 中，添加一個捷徑到資源管理器的內容功能表上。這個選項僅在每個使用者的安裝時啟用。
+Adds a shortcut to the Context Menu in Explorer. This option is enabled only if EmEditor has been installed per user.
 
-### 「添加 EmEditor 圖示到內容功能表中」核取方塊
+### Add an EmEditor icon to the Context menu check box
 
-添加 EmEditor 圖示到內容功能表上。僅當勾選了 **添加一個捷徑到檔案總管的內容功能表** 核取方塊時，才能啟用此選項。
+Adds an EmEditor icon to the context menu. This option is enabled only if the **Add a shortcut to the Context Menu on Explorer** check box is set.
 
-### 「把 EmEditor 添加至 Internet Explorer 的 HTML 編輯器清單」核取方塊
+### Add EmEditor to Internet Explorer HTML editor list check box
 
-添加 EmEditor 到 Internet Explorer 的 HTML 編輯器清單中。這個選項僅在每個使用者的安裝時啟用。
+Adds EmEditor to the HTML editor list used by Internet Explorer. This option is enabled only if EmEditor has been installed per user.
 
-### 「自訂系統匣圖示」按鈕
+### Customize Tray Icon button
 
-顯示 [**自訂系統匣圖示** 對話方塊](../../tray/index)，讓您能自訂系統系統匣圖示設定。
+Displays [**Customize Tray Icon** dialog box](../../tray/index), where you can customize the System Tray icon settings.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.
 
-您同樣能通過該對話方塊訪問下列對話方塊。
+The following dialog box is also available through this dialog box.
 
-( **「自訂系統匣圖示」** 按鈕)
+(Select
+**Customize Tray Icon** button)

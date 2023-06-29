@@ -1,31 +1,32 @@
-# 字典命令
+# Dictionary command
 
-### 摘要
+### Summary
 
-> 選擇該字典來檢查拼字 (多個項目) 。
+> Selects this dictionary to check spelling (multiple items).
 
-### 說明
+### Description
 
-> 選擇該字典來檢查拼字。EmEditor安裝程式已含有一個美式英語詞典。額外的字典可以在 **[OpenOffice.org wiki](https://wiki.openoffice.org/wiki/Dictionaries)** 中下載。要添加一個字典，複製 **\*.dic** 和 **\*.aff** 檔案到 **Dictionaries (字典)**，即 EmEditor 安裝資料夾的子資料夾中 (通常是在 C:\\Program Files\\EmEditor\\Dictionaries 中)。
+> Selects this dictionary to check spelling. The EmEditor installer includes a U.S. English dictionary. Additional dictionaries are available for download at the **[OpenOffice.org wiki](https://wiki.openoffice.org/wiki/Dictionaries)**. To add a dictionary, copy **\*.dic** and **\*.aff** files
+> into the **Dictionaries** sub folder of the EmEditor install folder (usually C:\\Program Files\\EmEditor\\Dictionaries).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **拼字檢查** \> **字典** \> **(字典)**
-- [全部命令](../tools/all_commands): **編輯** \> **拼字檢查** \> **字典** \> **(字典)**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Edit** \> **Spelling** \> **Dictionaries** \> **(Dictionaries)**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Dictionaries** \> **(Dictionaries)**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
-- 從 EEID\_SELECT\_DICTIONARY 到 EEID\_SELECT\_DICTIONARY + 255 (從 22016 到 22016 + 255)
+- From EEID\_SELECT\_DICTIONARY through EEID\_SELECT\_DICTIONARY + 255 (from 22016 through 22016 + 255)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
-> editor.ExecuteCommandByID(22016 + i);  // i 是一個從 0 到 255 的整數
+> editor.ExecuteCommandByID(22016 + i);  // i is an integer from 0 through 255
 
 #### \[VBScript\]
 
-> editor.ExecuteCommandByID 22016 + i  ' i 是一個從 0 到 255 的整數
+> editor.ExecuteCommandByID 22016 + i  ' i is an integer from 0 through 255

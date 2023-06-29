@@ -1,27 +1,32 @@
-# 語言伺服器屬性命令
+#### [EmEditor Home](../../dlg/properties/keyboard/index) - [EmEditor Help](../../index) \- [Command Reference](../index)  \- [Tools category](index)
 
-### 摘要
+# Language Server Properties command
 
-> 目前的組態的語言伺服器屬性。
+### Summary
 
-### 說明
+> Displays Language Server properties.
 
-> 顯示 **[組態屬性](../../dlg/properties/index)** 對話方塊中的 [**語言伺服器** 頁面](../../dlg/properties/char_check/index)。
+### Description
 
-### 運行方法
+> Displays the [**Language Server** \
+> page](../../dlg/properties/language_server/index)
+> of the **[Configuration Properties](../../dlg/properties/index)**
+> dialog box.
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具** >
-**目前的組態屬性** \> **語言伺服器**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+### How to Run
 
-### 外掛程式命令ID
+- Default Menu: None
+- [All Commands](all_commands): **Tools** >
+**Properties for Current Configuration** \> **Language Server**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
+
+### Plug-in Command ID
 
 - EEID\_PROPERTY\_LANGUAGE\_SERVER (8982)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

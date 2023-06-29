@@ -1,23 +1,23 @@
-# 「選項」頁面
+# Options tab
 
-**選項** 頁面讓您能自訂標記選項。
+The **Options** tab allows you to customize the marker options.
 
-### 「預設顏色」下拉清單方塊
+### Default Color drop-down list box
 
-當您添加下一個標記到標記清單中時，指定標記顏色。
+Specifies which color should be used for the next marker when you add to the marker list.
 
-### 「從清單中移除一個標記時提示確認」核取方塊
+### Prompt to remove one marker from the list check box
 
-如果該核取方塊被勾選，當使用者在標記工具列上的右鍵功能表中選擇 **刪除** 命令時，EmEditor 會顯現一個提示消息方塊來確認指令。
+When this check box is checked, EmEditor displays a prompt message box for confirmation when a user selects the **Delete** command from the right-click menu on the Marker toolbar.
 
-### 「自動顯示或隱藏標記工具列」核取方塊
+### Show or hide the markers toolbar automatically check box
 
-如果該核取方塊被勾選，EmEditor 會自動隱藏標記工具列當工具列上沒有按鈕時，當使用者定義一個標記時，再顯示工具列。
+When this check box is checked, EmEditor automatically hides the Markers toolbar when there is no button on the toolbar, and displays the toolbar when a user defines a marker.
 
-### 「當標記工具列隱藏時，自動禁用標記」核取方塊
+### Disable markers automatically when the Markers toolbar is hidden check box
 
-如果該核取方塊被勾選，EmEditor 會自動禁用所有標記當標記工具列隱藏時。
+When this check box is checked, EmEditor automatically disables all the markers when the Markers toolbar is hidden.
 
-### 「打開文檔時計算相符項目」核取方塊
+### Count matches when a document is opened check box
 
-如果該核取方塊被勾選，EmEditor 會在打開文檔時自動計算文檔中所有與標記相符的項目數。
+When this check box is checked, EmEditor automatically counts matches of all markers when a document is opened.

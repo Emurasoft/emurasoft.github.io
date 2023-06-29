@@ -1,6 +1,6 @@
-# FindWindow 方法
+# FindWindow Method
 
-通過一個類名和/或視窗標題查找頂層 [Window 對象](../window/index)。
+Finds the top-level [Window object](../window/index) by a class name and/or by a window title.
 
 #### \[JavaScript\]
 
@@ -10,17 +10,17 @@ wnd = shell. **FindWindow**( _strClass_, _strCaption_ );
 
 wnd = shell. **FindWindow**( _strClass_, _strCaption_ )
 
-## 參數
+## Parameters
 
 _strClass_
 
-指定視窗類名。如果這個參數為空，所有類名都匹配。
+Specifies the window's class name. If this parameter is empty, all class names match.
 
 _strCaption_
 
-指定視窗名稱 (標題) 。如果該參數為空，所有視窗名稱都匹配。
+Specifies the window name (title). If this parameter is empty, all window names match.
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -34,6 +34,6 @@ wnd = shell.FindWindow( "", "Calculator" )
 
 wnd.SetForeground
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

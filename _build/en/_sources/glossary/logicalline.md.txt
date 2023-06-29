@@ -1,3 +1,4 @@
-# 邏輯行
+# Logical Line
 
-邏輯行是一個文檔中新行的總數，與換行無關。
+Logical lines are sums of the actual number of newline characters in a document,
+regardless of line wrapping.

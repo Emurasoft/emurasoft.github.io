@@ -1,44 +1,44 @@
 # Version 16.4
 
-2017年1月24日
+January 24, 2017
 
-## 一般新增功能
+## New General Features
 
-- 新增 **自動復制** 功能讓你能不用選擇復制命令 (CTRL + C)，就復制選取部分到剪貼簿上。當開啟 **自動復制** 模式時，選取部分會立即被復制到剪貼簿上，即使之後取消選取、被刪除，或切換活動文檔，亦或是編輯器失去鍵盤焦點。該功能不能在 CSV 儲存格模式中使用。
-- **刪除/把重複行設為書籤 (高級)** 命令以及 **多欄排序** 命令現在可以錄制為巨集。
-- 當刪除已排序文檔的復制行時，如勾選 **僅比較相鄰兩行 (假設已預先排序)** 核取方塊，會大大提供運行速度。
+- The new **Auto Copy** feature allows you to copy the selection automatically to the Clipboard without selecting the Copy command (CTRL + C). While the **Auto Copy** mode is on, the selection will be copied to the Clipboard immediately before the selection is deselected or deleted, immediately before the active document is switched, or the editor loses the keyboard focus. However, it does not work during the CSV cell mode.
+- The **Delete/Bookmark Duplicate Lines (Advanced)** command and **Sort by Multiple Columns** commands can be recorded as a macro now.
+- When deleting duplicates of an already sorted document, setting the **Compare Adjacent Lines Only (Assume Presorted)** check box dramatically increases the speed of the operation.
 
-## 新增巨集
+## New Macros
 
-- **AutoCopy.jsee** (切換自動復制功能，等同于自動復制命令)
-- 所有預設巨集都添加了圖示。
+- **AutoCopy.jsee** (Toggles the Auto Copy feature, equivalent to the Auto Copy command)
+- Icons were added to all the standard macros.
 
-## 新增選項
+## New Options
 
-- 添加了“自動復制”核取方塊到 **自訂** 對話方塊中的 [**編輯** 頁面](../dlg/customize/edit/index) 上。
-- 添加了 **僅比較相鄰兩行 (假設已預先排序)** 以及 **僅限于選區** 核取方塊到 [**刪除/把重複行設為書籤** 對話方塊](../dlg/delete_duplicate_advanced/index)。
-- 添加了 **僅限于選區** 核取方塊到 [**多欄排序** 對話方塊](../dlg/sort_multi/index) 中。
-- 添加了 **顯示箭頭** 核取方塊到組態屬性的 [**捲動** 頁面](../dlg/properties/scroll/index) 上。
-- **自訂巨集** 對話方塊現在可調整大小。在 **我的巨集** 頁面上 **我的巨集** 清單中，你能選擇多個條目，以及拖放選取的條目。添加了 **「頂部」**， **「底部」** 和 **「重設」** 按鈕到 **我的巨集** 頁面上，移除了 **「全部刪除」** 按鈕。當鍵盤焦點在 **我的巨集** 清單上時， **CTRL + A** 讓你選取所有條目。
+- The **Auto Copy** check box was added to the [**Edit** page](../dlg/customize/edit/index) of the **Customize** dialog box.
+- The **Compare Adjacent Lines Only (Assume Presorted)** and **In the Selection Only** check boxes were added to the [**Delete/Bookmark Duplicate Lines** dialog box](../dlg/delete_duplicate_advanced/index).
+- The **In the Selection Only** check box was added to the [**Sort by Multiple Columns** dialog box](../dlg/sort_multi/index).
+- The **Show Arrows** check box was added to the [**Scroll** page](../dlg/properties/scroll/index) of configuration properties.
+- The **Customize Macros** dialog box can be resizable now. The **My Macros** list in the **My Macros** tab now allows you to select multiple items, and it also allows you to drag and drop selected items. The **Top**, **Bottom**, and **Reset** buttons were added to the **My Macros** tab, and **Delete All** button is obsolete. While the **My Macros** list has the keyboard focus, **CTRL + A** allows you to select all items.
 
-## 新增命令
+## New Commands
 
-- **[自動復制](../cmd/edit/auto_copy)**
+- **[Auto Copy](../cmd/edit/auto_copy)**
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 [EE\_MANAGE\_DUPLICATES](../plugin/message/ee_manage_duplicates) 和 [EE\_SORT](../plugin/message/ee_sort) 消息。
-- 添加了 [Editor\_ManageDuplicates](../plugin/macro/editor_manageduplicates) 和 [Editor\_Sort](../plugin/macro/editor_sort) 內嵌函式。
-- 添加了 [MANAGE\_DUPLICATES\_INFO](../plugin/structure/manage_duplicates_info)， [COLUMN\_INFO](../plugin/structure/column_info) 以及 [SORT\_INFO](../plugin/structure/sort_info) 結構。
-- 添加了 **EEID\_AUTO\_COPY** 命令。
+- The [EE\_MANAGE\_DUPLICATES](../plugin/message/ee_manage_duplicates) and [EE\_SORT](../plugin/message/ee_sort) messages were added.
+- The [Editor\_ManageDuplicates](../plugin/macro/editor_manageduplicates) and [Editor\_Sort](../plugin/macro/editor_sort) inline functions were added.
+- The [MANAGE\_DUPLICATES\_INFO](../plugin/structure/manage_duplicates_info), [COLUMN\_INFO](../plugin/structure/column_info), and [SORT\_INFO](../plugin/structure/sort_info) structures were added.
+- The **EEID\_AUTO\_COPY** command was added.
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 **[DeleteDuplicates](../macro/document/delete_duplicates)** 方法和 **[Sort](../macro/document/sort)** 方法到 **Document** 對象中。
-- [**#status** 指示詞](../macro/directive/status) ... 指定目前的巨集的狀態 (是否啟用巨集以及是否勾選) 應該模擬由 ID 指定的命令。
+- The **[DeleteDuplicates](../macro/document/delete_duplicates)** method and **[Sort](../macro/document/sort)** method were added to the **Document** object.
+- [**#status** directive](../macro/directive/status) ... Specifies the status (whether the macro is enabled and whether it is checked) of the current macro should mimic the command specified by the ID.
 
-## 修復 Bug
+## Bug Fixes
 
-- 修復與使用多個不同 DPI 螢幕有關的問題。
-- 修復了一些與 CSV 儲存格模式有關的問題。
-- 修復了一些與篩選功能相關的問題。
+- Fixed some issues related to using a high-DPI monitor or multiple different-DPI monitors.
+- Fixed some issues related to the CSV cell mode.
+- Fixed some issues related to the Filter feature.

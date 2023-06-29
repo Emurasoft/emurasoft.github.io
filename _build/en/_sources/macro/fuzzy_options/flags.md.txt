@@ -1,17 +1,17 @@
-# Flags 屬性
+# Flags Property
 
-設定或檢索旗標。
+Sets or retrieves flags.
 
-該值必須為零或以下值的組合。
+The value must be zero or a combination of the following values.
 
 |     |     |
 | --- | --- |
-| eeFuzzyIgnoreCombining | 忽略組合字元，例如讀音符號、dakuten（日文中的濁點）和 handakuten（日文中的半濁點）。 |
-| eeFuzzyIgnoreEmoji | 忽略表情符號（emoji）序列。 |
-| eeFuzzyIgnoreKanaSize | 忽略大假名和小假名之間的區別。 |
-| eeFuzzyIgnoreKanaType | 忽略平假名與片假名字元之間的區別。 |
-| eeFuzzyIgnoreVS | 忽略 Variation Selector。 |
-| eeFuzzyIgnoreWidth | 忽略忽略半形和全形字元的區別。全形形式是中文和日文腳本中使用的獨特格式。 |
+| eeFuzzyIgnoreCombining | combining haracters, such as diacritics, dakuten, and handakuten, are ignored. |
+| eeFuzzyIgnoreEmoji | emoji sequences are ignored. |
+| eeFuzzyIgnoreKanaSize | the difference between small and large kana characters is ignored. |
+| eeFuzzyIgnoreKanaType | the difference between Hiragana and Katakana characters is ignored. |
+| eeFuzzyIgnoreVS | Variation Selectors are ignored. |
+| eeFuzzyIgnoreWidth | the difference between half-width and full-width characters is ignored. The full-width form is a formatting distinction used in Chinese and Japanese scripts. |
 
 #### \[JavaScript\]
 
@@ -25,6 +25,6 @@ _n_ = obj. **Flags**;
 
 obj. **Flags** = _n_;
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

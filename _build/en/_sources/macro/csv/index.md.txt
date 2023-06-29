@@ -1,27 +1,27 @@
-# Csv 對象
+# Csv Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [**AllowDelimiter**](allow_delimiter) | 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **允許分隔符號在引號內** 核取方塊對應。 |
-| [**AllowNL**](allow_nl) | 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **允許在引號內換行** 核取方塊對應。 |
-| [**Delimiter**](delimiter) | 檢索或設定目前的 Csv 對象的分隔符號。 |
-| [**EnableTitle**](enable_title) | 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **工具列按鈕標題** 核取方塊對應。 |
-| [**Escape**](escape) | 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **使用逸出字元** 核取方塊對應。 |
-| [**FirstDetectLine**](first_detect_line) | 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **要偵測的第一行** 文字方塊對應。 |
-| [**Heading**](heading) | 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **欄標題** 文字方塊對應。 |
-| [**LinesCell**](lines_cell) | 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **一個儲存格中的最大換行數** 文字方塊對應。 |
-| [**MaxDetectLines**](max_detect_lines) | 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **要偵測的最大行數** 文字方塊對應。 |
-| [**MinDetectDelimiter**](min_detect_delimiter) | 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **要偵測的最小分隔符號數** 文字方塊對應。 |
-| [**Name**](name) | 檢索或設定目前的 Csv 對象的名稱。 |
-| [**QuotationMark**](quotation_mark) | 檢索或設定目前的 Csv 對象的引號標記。 |
-| [**RowHeading**](row_heading) | 與在自訂對話方塊中 [**CSV 格式** 頁面](../../dlg/customize/csv/index) 上的 **列標題** 文字方塊對應。 |
-| [**Title**](title) | 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **工具列按鈕標題** 文字方塊對應。 |
+| [**AllowDelimiter**](allow_delimiter) | Corresponds to the **Allow delimiters in quotes** check box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box. |
+| [**AllowNL**](allow_nl) | Corresponds to the **Allow newlines in quotes** check box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box. |
+| [**Delimiter**](delimiter) | Retrieves or sets the delimiter for the current Csv object. |
+| [**EnableTitle**](enable_title) | Corresponds to the **Toolbar button title** check box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box. |
+| [**Escape**](escape) | Corresponds to the **Use Escape Character** check box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box. |
+| [**FirstDetectLine**](first_detect_line) | Corresponds to the **First line to detect** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box. |
+| [**Heading**](heading) | Corresponds to the **Column headings** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box. |
+| [**LinesCell**](lines_cell) | Corresponds to the **Max newlines in a cell** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box. |
+| [**MaxDetectLines**](max_detect_lines) | Corresponds to the **Max lines to detect** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box. |
+| [**MinDetectDelimiter**](min_detect_delimiter) | Corresponds to the **Min delimiters to detect** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box. |
+| [**Name**](name) | Retrieves or sets the name for the current Csv object. |
+| [**QuotationMark**](quotation_mark) | Retrieves or sets the quotation mark for the current Csv object. |
+| [**RowHeading**](row_heading) | Corresponds to the **Row headings** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box. |
+| [**Title**](title) | Corresponds to the **Toolbar button title** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box. |
 
-## 版本
+## Version
 
-支持 EmEditor 15.2 或之後的版本。
+Supported on EmEditor Professional Version 15.2 or later.
 
 ```{toctree}
 :maxdepth: 1

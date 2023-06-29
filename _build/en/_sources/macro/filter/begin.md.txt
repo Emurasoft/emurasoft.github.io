@@ -1,6 +1,7 @@
-# Begin 屬性
+# Begin Property
 
-指定你要搜索的文字的起始欄的索引 (邏輯字元數)。指定你要搜索的文字的起始列的索引 (邏輯字元數)。指定 0 如果你想要把文字的最后一部分指定為 _End_。要啟用這個欄位， _Column_ 屬性必須是 -1 。
+Specifies the index of beginning of the column (in logical characters) of the text you want to search, or 0 if you want to
+count the last portion of the text and specify as _End_. The _Column_ property must be -1 to enable this field.
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ item. **Begin**
 
 item. **Begin** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 16.0 或之後的版本。
+Supported on EmEditor Professional Version 16.0 or later.

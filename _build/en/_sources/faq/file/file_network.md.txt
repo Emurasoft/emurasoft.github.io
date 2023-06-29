@@ -1,3 +1,5 @@
-# Q. 在一個網絡上使用一個共享資料夾，可以阻止別的使用者更改我已開啟的并且正在編輯的檔案嗎？
+# Q. When using a shared folder on a network, is it possible to prevent other users from making changes to a file that I have open and I am working on?
 
-是的。您可以到組態屬性的「 **檔案**」頁面上，在「 **被其他程式更改時**」旁邊的下拉清單中選擇「 **保持鎖定**」。這樣，其他使用者就不能打開這個檔案了。但是，他們能在您關閉檔案之後，編輯并儲存更改。
+Yes, it is possible. On the **File** tab of **Properties**, select **Keep Locked** from the **Changed by Another Program** combo box.
+Other users will still be able to open the file but they will not be able to
+save changes to the file until you have closed the file.

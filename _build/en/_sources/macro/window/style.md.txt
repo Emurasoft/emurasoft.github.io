@@ -1,6 +1,6 @@
-# Style 屬性
+# Style Property
 
-返回指定視窗的樣式。
+Returns the styles of the specified window.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _n_ = wnd. **Style**;
 
 _n_ = wnd. **Style**
 
-## 版本
+## Version
 
-支持 EmEditor 8.00 或之後的版本。
+Supported on EmEditor Professional Version 8.00 or later.

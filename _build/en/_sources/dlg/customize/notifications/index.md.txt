@@ -1,15 +1,15 @@
-# 「通知」頁面
+# Notifications page
 
-**通知** 頁面讓你能自訂與通知相關的設定。
+The **Notifications** page allows you to customize settings related to the notifications.
 
-### 「全部啟用/停用」核取方塊
+### Enable/Disable All check box
 
-啟用或停用清單上所有條目。
+Enables or disables all items on the list.
 
-### 「顯示快顯提示」核取方塊
+### Show Balloon Tip check box
 
-如果勾選了此選項，則當有可用通知時，EmEditor 會在狀態列上顯示快顯提示。
+If this is checked, EmEditor shows the balloon tip on the status bar when a notification becomes available.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

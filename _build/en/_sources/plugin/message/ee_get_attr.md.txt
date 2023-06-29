@@ -1,6 +1,6 @@
 # EE\_GET\_ATTR
 
-在指定位置檢索配置與屬性。您能明確地發送該消息或用 [Editor\_GetAttr](../macro/editor_getattr) 內嵌函式。
+Retrieves the configurations and attributes at the specified position. You can send this message explicitly or by using the [Editor\_GetAttr](../macro/editor_getattr) inline function.
 
 EE\_GET\_ATTR
 
@@ -8,16 +8,16 @@ wParam = 0;
 
 lParam = (LPARAM) (ATTR\_INFO) pAI;
 
-## 參數
+## Parameters
 
 _pAI_
 
-> 指針指向 [ATTR\_INFO](../structure/attr_info) 結構。
+> Pointer to the [ATTR\_INFO](../structure/attr_info) structure.
 
-## 返回值
+## Return Values
 
-> 返回值是 TRUE 如果成功，或 FALSE 如果不成功。
+> The return value is TRUE if succeeded, or FALSE if failed.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 9.00 或之後的版本。
+> Supported on EmEditor Version 9.00 or later.

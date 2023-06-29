@@ -1,6 +1,6 @@
-# Add 方法
+# Add Method
 
-添加一個新的項目到功能表末尾。
+Adds a new item to the end of the menu.
 
 #### \[JavaScript\]
 
@@ -10,26 +10,26 @@ popupmenu. **Add**( _strText_, _id_, _flags_ );
 
 popupmenu. **Add** _strText_, _id_, _flags_
 
-## 參數
+## Parameters
 
 _strText_
 
-指定要顯示的文字。如果 eeMenuSeparator 在 _flags_ 參數中被設置，必須指定一個空字串。
+Specifies text to display. If eeMenuSeparator is set in the _flags_ parameter, an empty string must be specified.
 
 _id_
 
-指定新功能表項目的識別項。Track 方法把識別項作為返回值。如果 eeMenuSeparator 在 _flags_ 參數中被設置，必須指定 0。
+Specifies the identifier of the new menu item. The Track Method uses this identifier as the return value. If eeMenuSeparator is set in the _flags_ parameter, 0 must be specified.
 
 _flags_
 
-指定項目的狀態。能指定下列標志。
+Specifies status of the item. The following flags can be specified.
 
 |     |     |
 | --- | --- |
-| eeMenuChecked | 把一個選中標記放在功能表項目旁。在功能表項旁邊放置一個核取標記。 |
-| eeMenuGrayed | 停用功能表項目並且讓它變為灰色，這樣就不能選擇它。 |
-| eeMenuSeparator | 畫一條水平分隔線。這個標志不能與其他標志合用。 |
+| eeMenuChecked | Places a check mark next to the menu item. |
+| eeMenuGrayed | Disables the menu item and grays it so that it cannot be selected. |
+| eeMenuSeparator | Draws a horizontal dividing line. This flag cannot be combined with others. |
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

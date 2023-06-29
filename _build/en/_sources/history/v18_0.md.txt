@@ -1,37 +1,42 @@
 # Version 18.0
 
-2018年8月8日
+August 8, 2018
 
-## 一般新增功能
+## New General Features
 
-- 打開非常大的檔案時，大大提高了各種操作的速度。
+- Greatly improved the speed of various operations when opening very large files.
 
-### 測試結果:
+### Test results:
 
-|  | v17.9 | v18.0 | 比較 |
+|  | v17.9 | v18.0 | Comparison |
 | --- | --- | --- | --- |
-| 用 "顯示符合數" 選項尋找 "abc" | 28.9 秒 | 4.09 秒 | 快 7.07 倍 |
-| 用 "@@@" 取代所有 "abc" | 30.9 秒 | 4.30  秒 | 快 7.19 倍 |
-| 篩選 "abc" | 30.7 秒 | 4.16 秒 | 快 7.38 倍 |
-| A 到 Z 排序（預設選項） | 64.0 秒 | 38.1 秒 | 快 1.67 倍 |
-| A 到 Z 排序（快速二進位比較） | 35.5 秒 | 10.3 秒 | 快 3.45 倍 |
-| 刪除重複行 | 31.7  秒 | 18.3  秒 | 快 1.73 倍 |
-| 儲存（為同一檔案在更改後） | 25.8 秒 | 0.562 秒 | 快 45.9 倍 |
-| 儲存為新檔案 | 26.7 秒 | 0.484 秒 | 快 55.2 倍 |
+| Find "abc" with "Count Matches" option | 28.9 seconds | 4.09 seconds | 7.07 times faster |
+| Replace "abc" with "@@@" | 30.9 seconds | 4.30  seconds | 7.19 times faster |
+| Filter "abc" | 30.7 seconds | 4.16 seconds | 7.38 times faster |
+| Sort A to Z (default options) | 64.0  seconds | 38.1 seconds | 1.67 times faster |
+| Sort A to Z (fast binary comparison) | 35.5  seconds | 10.3 seconds | 3.45 times faster |
+| Delete Duplicate Lines | 31.7  seconds | 18.3  seconds | 1.73 times faster |
+| Save (as the same file after changes) | 25.8 seconds | 0.562 seconds | 45.9 times faster |
+| Save As a new file | 26.7 seconds | 0.484 seconds | 55.2 times faster |
 
-\\* 538 MB，10,000,000 行，ASCII 隨機數據，「使用臨時檔案」選項（預設）。測試系統：Windows 10 (64-bit)，Core i7-8700K，32GB RAM。
+\\* 538 MB, 10,000,000 lines, random ASCII data, Use Temporary Files option on (default), Windows 10 (64-bit), Core i7-8700K, 32GB RAM.
 
-- 新版本讓您能用任何編碼當打開，重載，或儲存沒有在 [**定義編碼** 對話方塊](../dlg/encodings/index) 中定義編碼的檔案。在 **編碼** 下拉清單方塊或 **重新加載** 功能表中選擇 "更多..." 會顯示額外的編碼。編碼的初始清單可以在 [**定義編碼** 對話方塊](../dlg/encodings/index) 中的 **編碼** 清單中自訂。
-- 如果在 Windows 10 中使用 **暗** 模式，EmEditor 也將使用深色。當您在 Windows 設置的個人化下的顏色標籤中選擇 **暗** 模式時，EmEditor 會深色顯示 **尋找**/ **篩選** 工具列上的自訂顯示條和下拉清單方塊，以及在對話方塊中的文字方塊和清單方塊。一些顏色可以在 **自訂** 對話方塊的 [**檢視** 頁面](../dlg/customize/view/index) 上進一步定義。 在組態屬性的 **顯示** 頁面上選擇 **MinimalZen** 時，編輯器檢視顏色會變為深色。
-- 增加了可用於 [**與 EmEditor 關聯**](../dlg/file_associate/index) 的圖示。
+- The new version allows you to use any encoding when opening, reloading, or saving files without first defining them in the [**Define Encodings** dialog box](../dlg/encodings/index). Selecting "More..." in the **Encoding** drop-down list box or the **Reload** menu will show additional encodings. The initial list of encodings can be customized via the **Encoding** list in the [**Define Encodings** dialog box](../dlg/encodings/index).
+- If **Dark** mode is used in Windows 10, EmEditor will also use dark colors. EmEditor displays custom bars, drop-down list boxes in the **Find**/ **Filter** toolbars, text boxes, and list boxes inside dialog boxes in dark colors when **Dark** mode is selected in the Colors tab under Personalization in Windows Settings. Some of these colors can be further customized in the [**View** page](../dlg/customize/view/index) of the **Customize** dialog box. Editor view colors becomes dark colors when selecting the **MinimalZen** in the **Display** page of configuration properties.
+- Increased the number of icons that can be used in the [**Associate with EmEditor** dialog box](../dlg/file_associate/index).
 
-## 新增選項
+## New Options
 
-- 添加了 **在網路路徑中創建新檔案時提示** 核取方塊到自訂對話方塊的 [**檔案** 頁面](../dlg/customize/file/index) 上。
-- 從組態屬性的 **顯示** 頁面刪除了 **Black**， **Blue**， **Brick**， **EmEditor Classic**，以及 **Rose** 主題。
-- 添加了 **全部啟用/禁用** 核取方塊到 [**定義編碼** 對話方塊](../dlg/encodings/index)，並刪除了 **「新增」**， **「刪除」**， **「上移」**， **「下移」**， **「屬性」** 按鈕。棄用了 **編碼屬性** 對話方塊。
-- 從 [**偵測全部結果** 對話方塊](../dlg/detect_result/index) 刪除了 **「打開未定義編碼作為系統預設編碼」** 核取方塊。
+- Added the **Prompt when creating a new file in a network path** check box to the [**File** page](../dlg/customize/file/index) of the **Customize** dialog box.
+- Deleted the **Black**, **Blue**, **Brick**, **EmEditor Classic**, and **Rose** themes from the **Display** page of configuration properties.
+- Added the **Enable/Disable All** check box to the [**Define Encodings** dialog box](../dlg/encodings/index), and removed the **New**, **Delete**, **Up**, **Down**, **Properties** buttons from the dialog box. The **Encoding Properties** dialog box was deprecated.
+- Removed the **Open Undefined as System Default Encoding** check box from the [**Detect All Result** dialog box](../dlg/detect_result/index).
 
-## 修復 Bug
+## Bug Fixes
 
-- 修復了使用者報告的問題（ [1](https://www.emeditor.com/forums/topic/wordcomplete/)， [2](https://www.emeditor.com/forums/topic/customize-menus/)， [3](https://jp.emeditor.com/forums/topic/%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%8b%e3%82%89%e6%a4%9c%e7%b4%a2%e3%81%a7%e3%80%81%e6%9c%80%e5%88%9d%e3%81%ae%e3%83%92%e3%83%83%e3%83%88%e3%81%a7%e6%ad%a2%e3%82%81%e3%82%8b%e3%82%aa%e3%83%97/)， [4](https://jp.emeditor.com/forums/topic/%e9%ab%98%e5%ba%a6%e3%81%aa%e3%83%95%e3%82%a3%e3%83%ab%e3%82%bf%e3%83%bc%e3%81%a7%e9%95%b7%e3%81%84%e6%96%87%e5%ad%97%e3%81%8c%e9%80%94%e4%b8%ad%e3%81%a7%e9%80%94%e5%88%87%e3%82%8c%e3%82%8b/)， [5](https://jp.emeditor.com/forums/topic/%e5%90%88%e6%88%90%e7%94%a8%e6%bf%81%e7%82%b9%e3%81%ae%e8%a1%a8%e7%a4%ba%e4%bd%8d%e7%bd%ae%e3%81%8c%e3%81%8a%e3%81%8b%e3%81%97%e3%81%84/)， [6](https://jp.emeditor.com/forums/topic/directdraw%e6%9c%89%e5%8a%b9%e6%99%82%e3%80%81%e6%96%87%e5%ad%97%e3%81%ae%e7%af%84%e5%9b%b2%e9%81%b8%e6%8a%9e%e3%81%ae%e4%b8%ad%e3%81%ae%e3%82%b9%e3%83%9a%e3%83%bc%e3%82%b9%e3%81%ae%e5%a2%83%e7%95%8c/)）。
+- Fixed customer-reported issues ( [1](https://www.emeditor.com/forums/topic/wordcomplete/),
+[2](https://www.emeditor.com/forums/topic/customize-menus/),
+[3](https://jp.emeditor.com/forums/topic/%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%8b%e3%82%89%e6%a4%9c%e7%b4%a2%e3%81%a7%e3%80%81%e6%9c%80%e5%88%9d%e3%81%ae%e3%83%92%e3%83%83%e3%83%88%e3%81%a7%e6%ad%a2%e3%82%81%e3%82%8b%e3%82%aa%e3%83%97/),
+[4](https://jp.emeditor.com/forums/topic/%e9%ab%98%e5%ba%a6%e3%81%aa%e3%83%95%e3%82%a3%e3%83%ab%e3%82%bf%e3%83%bc%e3%81%a7%e9%95%b7%e3%81%84%e6%96%87%e5%ad%97%e3%81%8c%e9%80%94%e4%b8%ad%e3%81%a7%e9%80%94%e5%88%87%e3%82%8c%e3%82%8b/),
+[5](https://jp.emeditor.com/forums/topic/%e5%90%88%e6%88%90%e7%94%a8%e6%bf%81%e7%82%b9%e3%81%ae%e8%a1%a8%e7%a4%ba%e4%bd%8d%e7%bd%ae%e3%81%8c%e3%81%8a%e3%81%8b%e3%81%97%e3%81%84/),
+[6](https://jp.emeditor.com/forums/topic/directdraw%e6%9c%89%e5%8a%b9%e6%99%82%e3%80%81%e6%96%87%e5%ad%97%e3%81%ae%e7%af%84%e5%9b%b2%e9%81%b8%e6%8a%9e%e3%81%ae%e4%b8%ad%e3%81%ae%e3%82%b9%e3%83%9a%e3%83%bc%e3%82%b9%e3%81%ae%e5%a2%83%e7%95%8c/)).

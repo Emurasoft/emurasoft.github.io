@@ -1,6 +1,6 @@
-# SaveCloseAll 方法
+# SaveCloseAll Method
 
-儲存并關閉所有打開的檔案。
+Saves and Closes all open files.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ editor. **SaveCloseAll**();
 
 editor. **SaveCloseAll**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

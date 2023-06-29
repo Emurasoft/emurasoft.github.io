@@ -1,27 +1,29 @@
-# 下一頁命令
+# Page Down command
 
-### 摘要
+### Summary
 
-> 移動游標到下一頁。
+> Moves the cursor down one page.
 
-### 說明
+### Description
 
-> 把游標向下移一頁。游標會向下移半頁，如果在組態屬性對話方塊中的 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **捲動半頁** 核取方塊被勾選。
+> Moves the cursor down one page at a time. The cursor will move down half of a
+> page if the **Scroll Half Page** check box is checked on the
+> [**Scroll** page](../../dlg/properties/scroll/index) in the Configuration Properties dialog box.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **Edit** \> **垂直移動游標**
-\> **下一頁**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: PAGE DOWN
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
+\> **Page Down**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: PAGE DOWN
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_PAGEDOWN (4163)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

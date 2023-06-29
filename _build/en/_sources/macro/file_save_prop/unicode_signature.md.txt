@@ -1,6 +1,6 @@
-# UnicodeSignature 屬性
+# UnicodeSignature Property
 
-與 [**添加一個 Unicode 簽名 (BOM)** 核取方塊](../../dlg/properties/file/save_details/index) 相對應。
+Corresponds to the **Add a Unicode Signature (BOM)** check box in the [**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ object. **UnicodeSignature**
 
 object. **UnicodeSignature** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,28 +1,28 @@
-# 相粘垂直模式命令
+# Sticky Vertical Mode command
 
-### 摘要
+### Summary
 
-> 切換相粘垂直模式。
+> Toggles the sticky vertical mode.
 
-### 說明
+### Description
 
-> 切換相粘垂直模式。當相粘垂直模式可用時，拖曳游標來選取文字會自動垂直選取文字，而不是標準的選取模式。
+> Toggles the sticky vertical mode. When Sticky Vertical Mode is active, dragging the mouse to select text will automatically result in vertical selection, rather than standard selection.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **選擇模式**
-\> **相粘垂直模式**
-- [全部命令](../tools/all_commands): **編輯** \> **選擇模式**
-\> **相粘垂直模式**
-- 工具列: ![](../../images/sticky.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Edit** \> **Selection Mode**
+\> **Sticky Vertical Mode**
+- [All Commands](../tools/all_commands): **Edit** \> **Selection Mode**
+\> **Sticky Vertical Mode**
+- Toolbar: ![](../../images/sticky.gif)
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_VERTICAL\_MODE (4473)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

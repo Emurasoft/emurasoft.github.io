@@ -1,39 +1,39 @@
 # Version 15.7
 
-2015年12月10日
+December 16, 2015
 
-## 一般新增功能
+## New General Features
 
-- 除了之前預設的 **Boost.Regex** 規則運算式引擎之外，你還能把 **Onigmo** 選擇為規則運算式引擎。 如果你把 **Onigmo** 選為規則運算式引擎，你能用更多字元類型，例如 **\\p{Han}**， **\\p{Hangul}**， **\\p{Hebrew}** 等。要尋找更多有關 **Onigmo** 規則運算式語法，請檢視 [https://github.com/k-takata/Onigmo/blob/master/doc/RE](https://github.com/k-takata/Onigmo/blob/master/doc/RE) 以及 Unicode 屬性 [https://github.com/k-takata/Onigmo/blob/master/doc/UnicodeProps.txt](https://github.com/k-takata/Onigmo/blob/master/doc/UnicodeProps.txt)。
-- 這個版本讓你能分開搜索并取代 CR 和 LF。
-- 在禁用 **區別 CR 和 LF** 選項時，如果你試著搜索包含 \\r (CR) 的字串，會出現 _「搜索字串包含 CR。你想要啟用區別 CR 和 LF 選項嗎？」_ 提示消息。
-- 如果一個文檔的最后一行是空的，規則運算式不再符合最后一行。
+- You can now select **Onigmo** as the regular expression engine in addition to **Boost.Regex**. If **Onigmo** is selected as the regular expression engine, you can use character types such as **\\p{Han}**, **\\p{Hangul}**, **\\p{Hebrew}**, etc. To find more details about the **Onigmo** regular expression syntax, please view [https://github.com/k-takata/Onigmo/blob/master/doc/RE](https://github.com/k-takata/Onigmo/blob/master/doc/RE) and Unicode Properties [https://github.com/k-takata/Onigmo/blob/master/doc/UnicodeProps.txt](https://github.com/k-takata/Onigmo/blob/master/doc/UnicodeProps.txt).
+- This version allows you to search and replace CR and LF separately.
+- If you try to search for a string containing \\r (CR) while the **Treat CR and LF separately** option is disabled, the prompt message _“The search string contains CR. Do you want to enable the Treat CR and LF Separately option?”_ will appear now.
+- If the last line of the document is empty, regular expressions will not match the last line anymore.
 
-## 新增選項
+## New Options
 
-- 添加了 **預設規則運算式引擎** 下拉清單方塊到 **自訂** 對話方塊中的 [**搜尋** 頁面](../dlg/customize/search/index) 上。
-- 在 **尋找/取代** 對話方塊中 **「自訂」** 按鈕被 **「進階」** 按鈕取代。在 [**進階** 對話方塊](../dlg/advanced/index) 中，現在包括了更多搜索選項。
-- 添加了 **「進階」** 按鈕到尋找工具列上。
-- 添加了 **顯示啟動視窗當在新文檔中按向下鍵時** 核取方塊到 [**自訂啟動視窗** 對話方塊](../dlg/customize_start/index) 中。
+- The **Default Regular Expression Engine** drop-down list box was added to the [**Search** page](../dlg/customize/search/index) of the **Customize** dialog box.
+- The **Customize** button was replaced with **Advanced** button in the **Find**/ **Replace** dialog boxes. In the [**Advanced** dialog box](../dlg/advanced/index), more search options are included now.
+- The **Advanced** button was added to the Find toolbar.
+- The **Show the Start window when the Down key is pressed on a new document** check box was added to the [**Customize Start Window** dialog box](../dlg/customize_start/index).
 
-## 新增命令
+## New Commands
 
-- **[進階 (搜尋工具列)](../cmd/search/findbar_advanced)**
+- **[Advanced (Find toolbar)](../cmd/search/findbar_advanced)**
 
-## 外掛程式新增功能
+## Plug-in New Features
 
-- 添加了 **全部折疊** 以及 **全部展開** 命令到 **項目** 外掛程式 **符號** 清單中的內容功能表上。
+- The **Collapse All** and **Extract All** commands were added to the context menu on the **Symbol** list of the **Projects** plug-in.
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 [**EE\_FIND\_REPLACE** 消息](../plugin/message/ee_find_replace)。
-- 添加了 [**Editor\_FindReplace**](../plugin/macro/editor_findreplace)， [**Editor\_FindInFiles**](../plugin/macro/editor_findinfiles)，和 [**Editor\_ReplaceInFiles**](../plugin/macro/editor_replaceinfiles) 內嵌函式。
-- 添加了 [**FIND\_REPLACE\_INFO**](../plugin/structure/find_replace_info)， **[GREP\_INFO\_EX](../plugin/structure/grep_info_ex)**， **[MATCH\_REGEX\_INFO\_EX](../plugin/structure/match_regex_info_ex)**，和 **[FIND\_REGEX\_INFO\_EX](../plugin/structure/find_regex_info_ex)** 結構。
+- The [**EE\_FIND\_REPLACE** message](../plugin/message/ee_find_replace) was added.
+- The [**Editor\_FindReplace**](../plugin/macro/editor_findreplace), [**Editor\_FindInFiles**](../plugin/macro/editor_findinfiles), and [**Editor\_ReplaceInFiles**](../plugin/macro/editor_replaceinfiles) inline function were added.
+- The [**FIND\_REPLACE\_INFO**](../plugin/structure/find_replace_info), **[GREP\_INFO\_EX](../plugin/structure/grep_info_ex)**, **[MATCH\_REGEX\_INFO\_EX](../plugin/structure/match_regex_info_ex)**, and **[FIND\_REGEX\_INFO\_EX](../plugin/structure/find_regex_info_ex)** structures were added.
 
-## 巨集的新增功能
+## Macro New Features
 
-- 添加了 **eeFindMatchDotNL** 標志到 **nFlags** 參數，還有 **eeExFindRegexBoost**， **eeExFindRegexOnigmo** 和 **eeExFindSeparateCRLF** 標志被添加到 **Selection** 對象的 [**Find** 方法](../macro/selection/selection_find) 和 [**Replace** 方法](../macro/selection/selection_replace) 的 **nExFlags** 參數中。
+- The **eeFindMatchDotNL** flag was added to the **nFlags** parameter and **eeExFindRegexBoost**, **eeExFindRegexOnigmo** and **eeExFindSeparateCRLF** flags were added to the **nExFlags** parameter of the [**Find** method](../macro/selection/selection_find) and [**Replace** method](../macro/selection/selection_replace) of the **Selection** object.
 
-## 感謝
+## Acknowledgement
 
-我們要感謝 K. Kosako (Oniguruma) 和 K. Takata (Onigmo)，開發了這么棒的規則運算式引擎。
+We would like to thank K. Kosako (Oniguruma) and K. Takata (Onigmo) who created the amazing regular expression engine.

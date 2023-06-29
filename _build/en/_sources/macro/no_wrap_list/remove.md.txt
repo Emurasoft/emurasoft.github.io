@@ -1,6 +1,6 @@
-# Remove 方法
+# Remove Method
 
-刪除一個項目。
+Removes an item.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,12 @@ list. **Remove**( _Index_ );
 
 list. **Remove** _Index_
 
-## 參數
+## Parameters
 
 _Index_
 
-指定項目索引為以 1 為基準的整數。
+Specifies the index of the item as a one-based integer.
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,107 +1,108 @@
-# Q. 外部工具組態的例子有哪些？
+# Q. What are examples of External Tools configuration?
 
-- 打開 **IE瀏覽器**
+- Open **Internet Explorer**
 
-**命令**: C:\\Program Files\\Internet Explorer\\iexplore.exe
+**Command**: C:\\Program Files\\Internet Explorer\\iexplore.exe
 
-**參數**: $(Path)
+**Arguments**: $(Path)
 
-**初始目錄**: $(Dir)
+**Initial Directory**: $(Dir)
 
-**圖示路徑**: C:\\Program Files\\Internet Explorer\\iexplore.exe
+**Icon Path**: C:\\Program Files\\Internet Explorer\\iexplore.exe
 
 Check **Save File**
 
-- 打開 **檔案總管**
+- Open **Explorer**
 
-**命令**: %WinDir%\\explorer.exe
+**Command**: %WinDir%\\explorer.exe
 
-**參數**: $(Dir)
+**Arguments**: $(Dir)
 
-**初始目錄**: $(Dir)
+**Initial Directory**: $(Dir)
 
-**圖示路徑**: %WinDir%\\explorer.exe
+**Icon Path**: %WinDir%\\explorer.exe
 
-- 打開 **命令提示符**
+- Open **Command Prompt**
 
-**命令**: %WinDir%\\system32\\cmd.exe
+**Command**: %WinDir%\\system32\\cmd.exe
 
-**參數**: $(Dir)
+**Arguments**: $(Dir)
 
-**初始目錄**: $(Dir)
+**Initial Directory**: $(Dir)
 
-**圖示路徑**: %WinDir%\\system32\\cmd.exe
+**Icon Path**: %WinDir%\\system32\\cmd.exe
 
-- 通過 **Visual C++** 編譯
+- Compile by **Visual C++**
 
-**命令**: %WinDir%\\system32\\cmd.exe
+**Command**: %WinDir%\\system32\\cmd.exe
 
-**參數**: /k "C:\\Program Files\\Visual Studio\\Vc7\\bin\\vcvars32.bat"&&cl $(Path)
+**Arguments**: /k "C:\\Program Files\\Visual Studio\\Vc7\\bin\\vcvars32.bat"&&cl $(Path)
 
-**初始目錄**: $(Dir)
+**Initial Directory**: $(Dir)
 
-**圖示路徑**: C:\\Program Files\\Visual Studio\\Common7\\IDE\\devenv.exe
+**Icon Path**: C:\\Program Files\\Visual Studio\\Common7\\IDE\\devenv.exe
 
-檢查 **儲存檔案**
+Check **Save File**
 
-- 運行相關程式
+- Run associated program
 
-**命令**: $(Path)
+**Command**: $(Path)
 
-**參數**:
+**Arguments**:
 
-**初始目錄**: $(Dir)
+**Initial Directory**: $(Dir)
 
-**圖示路徑**:
+**Icon Path**:
 
-檢查 **儲存檔案**
+Check **Save File**
 
-- 用 **Google** 搜尋在游標處的單字或一段選取的文字。
+- Search **Google** for a word at cursor or a selected text.
 
-**命令**: http://google.com/search?q=$(CurText)
+**Command**: http://google.com/search?q=$(CurText)
 
-**參數**:
+**Arguments**:
 
-**初始目錄**:
+**Initial Directory**:
 
-**圖示路徑**:
+**Icon Path**:
 
-- 從 **Microsoft Visual SourceSafe** 簽出
+- Check out from **Microsoft Visual SourceSafe**
 
-**命令**: %WinDir%\\system32\\cmd.exe
+**Command**: %WinDir%\\system32\\cmd.exe
 
-**參數**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkout
+**Arguments**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkout
 $/(path)/$(Filename).$(Ext) -y(user name)
 
-**初始目錄**: $(Dir)
+**Initial Directory**: $(Dir)
 
-**圖示路徑**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
+**Icon Path**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
 
-- 簽入到 **Microsoft Visual SourceSafe** 中
+- Check in to **Microsoft Visual SourceSafe**
 
-**命令**: %WinDir%\\system32\\cmd.exe
+**Command**: %WinDir%\\system32\\cmd.exe
 
-**參數**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkin
+**Arguments**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkin
 $/(path)/$(Filename).$(Ext) -y(user name)
 
-**初始目錄**: $(Dir)
+**Initial Directory**: $(Dir)
 
-**圖示路徑**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
+**Icon Path**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
 
-檢查 **儲存檔案**
+Check **Save File**
 
-您能在 **命令**， **參數**， **初始目錄**，and **圖示路徑** 中使用下面預先定義的參數。
+You can use the following predefined arguments in **Command**, **Arguments**, **Initial Directory**, and **Icon Path**.
 
-$(Path) 檔案的完整路徑名稱。
+$(Path) The full path name of the file.
 
-$(Dir) 檔案的目錄名稱。
+$(Dir) The directory name of the file.
 
-$(Filename) 副檔名之外的檔案名。
+$(Filename) The file name without its extension.
 
-$(Ext) 檔案名的延伸。
+$(Ext) The file name extension.
 
-$(CurLine) 游標處的邏輯行行號。
+$(CurLine) The logical line number of the cursor.
 
-$(CurText) 選取的文字或在游標處的單字(如果沒有選取的文字)。
+$(CurText) The selected text if selected, or the word at the cursor if not
+selected.
 
-您還能指定環境變量，例如 %WinDir% 。
+You can also specify environment variables, such as %WinDir%

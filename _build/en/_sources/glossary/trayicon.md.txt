@@ -1,3 +1,4 @@
-# 系統匣圖示
+# Tray Icon
 
-一個小圖示，在 Windows 操作系統的系統托盤中出現，讓使用者能快捷地訪問程式。
+A small icon, which appears in the System Tray in Windows operating
+systems, which allows the user to access a program easily and quickly.

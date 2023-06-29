@@ -1,6 +1,6 @@
-# Mark 屬性
+# Mark Property
 
-檢索 [MarkProp 對象](../mark_prop/index)。
+Retrieves the [MarkProp object](../mark_prop/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _obj_ = object. **Mark**;
 
 Set _obj_ = object. **Mark**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

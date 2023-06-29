@@ -1,6 +1,6 @@
-# ShowIndentGuides 屬性
+# ShowIndentGuides Property
 
-與組態屬性中 [**標記** 頁面](../../dlg/properties/marks/index) 上的 **顯示縮排線** 核取方塊相對應。
+Corresponds to the Show Indent Guides check box in the Mark tab of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -18,6 +18,6 @@ object. **ShowIndentGuides**
 object. **ShowIndentGuides**
 = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 8.00 或之後的版本。
+Supported on EmEditor Professional Version 8.00 or later.

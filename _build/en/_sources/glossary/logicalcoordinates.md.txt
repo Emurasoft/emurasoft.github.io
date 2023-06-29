@@ -1,3 +1,7 @@
-# 邏輯坐標
+# Logical Coordinates
 
-邏輯坐標邏輯坐標指的是一個文檔中的坐標，不管這個文檔是用哪一種換行模式。在邏輯坐標中，行的數目是一個文檔中實際換行所產生的行的總數，列的數目則是十從上一個換行字元開始的字元數或從文檔最初開始的字元數如果這是文檔的第一行的話。
+Logical coordinates refer to the coordinates in a document regardless of whether the
+wrap mode is in use. In logical coordinates, line numbers are sums of the actual number
+of newline characters in a document, and a column is the number of characters from the
+previous newline character or from the start of the document if it's the first
+line of the document.

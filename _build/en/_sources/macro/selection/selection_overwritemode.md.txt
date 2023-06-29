@@ -1,6 +1,6 @@
-# OverwriteMode 屬性
+# OverwriteMode Property
 
-設置或檢索表示覆寫或插入模式的標志。
+Sets or retrieves a flag indicating the overwrite or insert mode.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _bOverwrite_ = document.selection. **OverwriteMode**
 
 document.selection. **OverwriteMode** = _bOverwrite_
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

@@ -1,6 +1,6 @@
-# editor 屬性
+# editor Property
 
-返回 [Editor 對象](../editor/index)。
+Returns the [Editor Object](../editor/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _app_ = **editor**;
 
 Set _app_ = **editor**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

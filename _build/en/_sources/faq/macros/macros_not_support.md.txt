@@ -1,3 +1,3 @@
-# Q. 當我在巨集中使用某種 JavaScript 方法時，會顯示「物件不支援此屬性或方法」的錯誤。為什么？
+# Q. The "Object doesn't support this property or method" error is displayed when I use a certain method of JavaScript in my macros. Why?
 
-EmEditor 中沒有目前的 JavaScript/ECMAScript 中的許多新方法。EmEditor 巨集使用 JScript 5.8（相當於 Internet Explorer 8.0），因此 EmEditor 巨集不支持 JScript 5.8 之後引入的新方法。另一方面，取代運算式使用 Chakra（相當於 Microsoft Edge Legacy），並且最多支持到 ECMAScript 5.1，因此不支持 ECMAScript 5.1 之後引入的新方法。請檢查您要使用的方法是否滿足所需的版本。
+Many new methods in modern JavaScript/ECMAScript are not available in EmEditor. EmEditor macros use JScript 5.8 (equivalent to Internet Explorer 8.0), thus newer methods introduced after JScript 5.8 are not supported in EmEditor macros. On the other hand, the Replace Expressions use Chakra (equivalent to Microsoft Edge Legacy), and support up to ECMAScript 5.1, thus newer methods introduced after ECMAScript 5.1 are not supported. Please check if the methods you want to use meet the required versions.

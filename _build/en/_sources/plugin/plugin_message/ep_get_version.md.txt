@@ -1,6 +1,6 @@
 # EP\_GET\_VERSION
 
-檢索外掛程式版本。
+Retrieves the plug-in version.
 
 EP\_GET\_VERSION
 
@@ -10,20 +10,22 @@ wParam = cb;
 
 lParam = szVersion;
 
-## 參數
+## Parameters
 
 _hwndParent_
 
-> 外掛程式設置對話方塊的視窗控制代碼。
+> The window handle of the Plug-ins Settings dialog box.
 
 _cb_
 
-> 指定要複製到緩沖區的最大字元數，包括 NULL 字元。
+> Specifies the maximum number of characters to copy to the buffer, including
+> the NULL character.
 
 _szVersion_
 
-> 指針指向會接收文字的緩沖區。
+> Pointer to the buffer that will receive the text.
 
-## 返回值
+## Return Values
 
-> 返回值是一個能接收文字的緩沖區的必需大小。
+> The return value is the required size for a buffer that can receive the
+> text.

@@ -1,6 +1,6 @@
-# DuplicateLine 方法
+# DuplicateLine Method
 
-複製目前的行。
+Duplicates the current line.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document.selection. **DuplicateLine**();
 
 document.selection. **DuplicateLine**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

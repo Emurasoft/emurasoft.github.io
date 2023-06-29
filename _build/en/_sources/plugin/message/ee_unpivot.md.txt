@@ -1,6 +1,6 @@
 # EE\_UNPIVOT
 
-通過壓平合併 CSV 數據將欄轉換為列。你能明確地發送該消息或用 [Editor\_Unpivot](../macro/editor_unpivot) 內嵌函式。
+Converts columns into rows by flattening the CSV data. You can send this message explicitly or use the [Editor\_Unpivot](../macro/editor_unpivot) inline function.
 
 EE\_UNPIVOT
 
@@ -8,16 +8,16 @@ wParam = (WPARAM)(UNPIVOT\*)pInfo;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _pInfo_
 
-> 指定指針指向 [UNPIVOT\_INFO](../structure/pivot_table_info) 結構。
+> Specifies the pointer to the [UNPIVOT\_INFO](../structure/unpivot_info) structure.
 
-## 返回值
+## Return Values
 
-> 如果失敗，則返回值為負值。
+> The return value is a negative value if it fails.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor Professional 21.4 或之後的版本。
+> Supported on Version 21.4 or later.

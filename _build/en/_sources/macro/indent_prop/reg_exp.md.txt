@@ -1,6 +1,7 @@
-# RegExp 屬性
+# RegExp Property
 
-與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **使用規則運算式** 核取方塊相對應。
+Corresponds to the **Use Regular Expressions** check box in the
+[**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
 
 #### \[JavaScript\]
 
@@ -14,6 +15,6 @@ _b_ = object. **RegExp**
 
 object. **RegExp** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 9.00 或之後的版本。
+Supported on EmEditor Professional Version 9.00 or later.

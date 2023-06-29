@@ -1,27 +1,27 @@
-# 關閉目前的群組中所有右側的文檔命令
+# Close All Right in Group command
 
-### 摘要
+### Summary
 
-> 關閉目前的群組中目前的文檔右側的所有文檔視窗。
+> Closes all right documents in the current group.
 
-### 說明
+### Description
 
-> 關閉目前的群組中目前的文檔右側的所有文檔視窗。
+> Closes all documents with tabs to the left of the active document in the current group.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **視窗**
-\> **群組** \> **關閉目前的群組中所有右側的文檔**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Window**
+\> **Group** \> **Close All Right in Group**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_GROUP\_CLOSE\_RIGHT (4390)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

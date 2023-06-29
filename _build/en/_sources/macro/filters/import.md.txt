@@ -1,6 +1,6 @@
-# Import 方法
+# Import Method
 
-把 TSV 檔案匯入到集合中。
+Imports a TSV file to the collection.
 
 #### \[JavaScript\]
 
@@ -10,17 +10,17 @@ list. **Import**( _strFileName_\[, _bAppend_ \] );
 
 list. **Import** _strFileName_\[, _bAppend_ \]
 
-## 參數
+## Parameters
 
 _strFileName_
 
-指定包括 TSV 檔案的完整路徑的檔案名。
+Specifies the file name including the full path of the TSV file.
 
 _bAppend_
 
-指定方法是否匯入檔案并將篩選條件附加到現有篩選條件上。 如果省略，則假定為 False。
+Specifies whether the method imports a file and appends the filters to the existing filters. The False is assumed if omitted.
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -38,6 +38,6 @@ filters.Import "E:\\Test\\filter.tsv"
 
 document.filters = filters
 
-## 版本
+## Version
 
-支持 EmEditor 16.0 或之後的版本。
+Supported on EmEditor Professional Version 16.0 or later.

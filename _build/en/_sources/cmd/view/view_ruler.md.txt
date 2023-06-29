@@ -1,27 +1,27 @@
-# 尺規命令
+# Ruler command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏尺規。
+> Shows or hides the ruler.
 
-### 說明
+### Description
 
-> 顯示或隱藏尺規。在預設設定下，EmEditor 不顯示尺規。
+> Shows or hides the ruler. By default, EmEditor does not display the ruler.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **尺規**
-- [全部命令](../tools/all_commands): **檢視** \> **尺規**
-- 工具列:
+- Default Menu: **View** \> **Ruler**
+- [All Commands](../tools/all_commands): **View** \> **Ruler**
+- Toolbar:
 ![](../../images/ruler24x16.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
-- EEID\_VIEW\_LINE\_RULER (4531)
+- EEID\_VIEW\_RULER (4531)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,16 +1,30 @@
-# 在多個檔案中取代
+# To Replace in Files
 
-1. 選擇 **搜尋** 功能表下的 [**多檔取代** 命令](../../cmd/search/replace_in_files) 來顯示
-[**多檔取代** 對話方塊](../../dlg/replace_in_files/index)。
-2. 輸入要搜尋的文字字串，要取代為的文字字串，文字類型 (如果多于 1 個文字類型的話，用分號隔開) ，還有要搜尋的資料夾，然后按
-**「取代全部」** 按鈕。
-3. 如果您點擊了 **保持修改的檔案為打開狀態** 核取方塊，所有被更改的檔案都會打開，讓您確認更改。
-4. 如果更改正確，您可以選擇
-[**儲存并全部關閉** 命令](../../cmd/file/save_exit_all)。如果您想取消更改，您可以選擇 [**所有命令** 命令](../../cmd/tools/all_commands)，然后到 **檔案** \> **關閉** \> [**全部關閉不儲存** 命令](../../cmd/file/quit_all)。
+1. Select the [**Replace in**\
+**Files** command](../../cmd/search/replace_in_files) under the Search menu to display the
+[**Replace in Files** \
+dialog box](../../dlg/replace_in_files/index).
+2. Enter the text string to search for, the text string to replace with, the file type(s) (separated with a semicolon if more than one) and the folder(s) to search, then press the
+**Replace All**
+button.
+3. If you check the **Keep Modified Files Open** check box,
+all files that have had changes made will be left open, so that you can verify
+the changes.
+4. If the changes are correct, you can select the
+[**Save and Close All** command](../../cmd/file/save_exit_all).
+If you want to cancel the changes, you can select the
+[**All Commands** command](../../cmd/tools/all_commands),
+and select **File** \> **Close** \> [**Close All without Save** command](../../cmd/file/quit_all).
 
-## 提示
+## Tips
 
-- 勾選 **區分大小寫** 來區分大小和小寫。
-- 勾選 **搜尋子資料夾** 會搜尋指定資料夾中的子資料夾。
-- 如果您不勾選
-**保持修改的檔案為打開狀態** 核取方塊，檔案中所做的更改將會立即生效。如果該核取方塊被勾選了，那么進行取代的檔案總數可以在 [**自訂** 對話方塊](../../dlg/customize/index) 中 [**搜尋** 頁面](../../dlg/customize/search/index) 上的 **選擇「保持修改的檔案為打開狀態」選項時，可取代的最大檔案數** 文字方塊中限制。
+- Check **Match Case** to differentiate between uppercase and lowercase.
+- Check **Look in Subfolders**, to also search subfolders.
+- If you do not check the
+**Keep Modified Files Open** check box,
+changes to files will be made immediately. If this is checked, the number of files replaced will be limited to the
+**Maximum Number of Files to Replace if**
+**Kept Open** text box on the
+[**Search** \
+page](../../dlg/customize/search/index) of the
+[**Customize** dialog box](../../dlg/customize/index).

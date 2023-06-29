@@ -1,55 +1,58 @@
-# 「 Tab/縮排」對話方塊
+# Tab/Indent dialog box
 
-這個對話方塊會顯示當選擇 **「 Tab/縮排」** 按鈕在 [**一般** 頁面](../../general/index) 上時。
+This dialog box appears when the **Tab/Indent** button
+on the [**General** page](../index) of Configuration Properties is selected.
 
-### 「啟用自動縮排」核取方塊
+### Enable Auto Indent check box
 
-換行時，用與前一行相同的方式插入空白。
+Insert spaces in same manner as the previous line when entering a new line.
 
-### 「將 Tab 轉換為空白」核取方塊
+### Insert Spaces for Tabs check box
 
-用空白而不是 Tab 來縮排。
+Use spaces instead of tabs for indenting.
 
-### 「換行縮排」核取方塊
+### Wrap Indent check box
 
-當一邏輯行被換行時，用與第一行顯示行相同的方式在剩余的顯示行上插入虛空白。
+When a logical line is wrapped, inserts virtual spaces on the remaining display lines in same manner as the first display line.
 
-### 「忽略寬間距空格」核取方塊
+### Ignore Wide Spaces check box
 
-如果勾選了該核取方塊，EmEditor 會忽略寬間距空格。
+If this is checked, EmEditor will ignore wide spaces.
 
-### 「使用規則運算式」核取方塊
+### Use Regular Expressions check box
 
-如果勾選了該核取方塊，您能用規則運算式指定 **開始縮排** 文字方塊， **結束縮排** 文字方塊以及 **語句結束** 文字方塊。
+If this is checked, you can specify the **Begin Indent** text box, **End Indent** text box, and **End of Statement** text box as regular expressions.
 
-### 「僅縮排新行」核取方塊
+### Indent only at newline characters check box
 
-如果勾選了該核取方塊，僅在新行處插入縮排。
+If this is checked, indents will be inserted only at newline characters.
 
-### 「Tab 間距」文字方塊
+### Tab Columns text box
 
-Tab 間距的字元數 (一個 Tab 所含有的空白字元數)。
+Tab columns in characters.
 
-### 「縮排間距」文字方塊
+### Indent Columns text box
 
-縮排間距的字元數。
+Indent columns in characters.
 
-### 「開始縮排」文字方塊
+### Begin Indent text box
 
-指定一個字元來開始縮排。
+Specify a character to begin the indent.
 
-### 「結束縮排」文字方塊
+### End Indent text box
 
-指定一個字元來結束縮排。
+Specify a character to end the indent.
 
-### 「語句結束」文字方塊
+### End of Statement text box
 
-指定一個字元來表示語句的末尾。
+Specify a character to indicate the end of the statement.
 
-### 「忽略規則運算式之後的內容」文字方塊
+### Ignore After (Regular Expression) text box
 
-在與該文字方塊中指定的規則運算式符合的行之後，忽略自動縮排。
+The auto indent is ignored after the line that matches the regular expression specified in this text box.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。會顯示 [**重設** 對話方塊](../../reset/index) 並讓您能從另一個組態複製設定。
+Resets to default settings. The
+[**Reset** dialog box](../../reset/index) will be displayed
+and will allow you to copy from another configuration.

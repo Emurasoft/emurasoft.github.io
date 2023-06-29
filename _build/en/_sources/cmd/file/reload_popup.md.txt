@@ -1,27 +1,36 @@
-# 重新載入 (快顯功能表) 命令
+# Reload (popup menu) command
 
-### 摘要
+### Summary
 
-> 顯示快顯功能表來指定一個編碼并用該編碼重新載入檔案。
+> Shows a popup menu to select an encoding to reload the file with.
 
-### 說明
+### Description
 
-> 這個命令會顯示一個快顯功能表，讓您能選取一個編碼來重新載入目前的檔案。在選取編碼之後，這個命令會從磁盤上重新載入檔案。如果從上次載入或打開到現在，檔案有變更，這個命令會用最新的內容取代原來的文檔。如果文檔在 EmEditor 中被更改了，那么 EmEditor 會顯示一條提示消息"您確定您想要放棄更改嗎？"。選擇 **Yes** 會放棄之前所做的修改，并且重新載入新的內容。選擇 **No** 會中止重新載入并讓您繼續編輯文檔。
+> This command displays a popup menu, from which you can select an encoding
+> to use for reloading. After an encoding is selected, this command reloads
+> the file from the disk. If changes were made to the file since it was last reloaded
+> or opened, this command will replace the document with the latest contents.
+> If the document was changed within EmEditor, the prompt message "Are you sure
+> you want to abandon changes?" appears. Selecting **Yes** will
+> discard the
+> changes without saving, and will reload the new contents. Selecting **No**
+> will abort reloading and will allow you to continue editing the document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **重新載入**
-\> **快顯功能表**
-- 工具列: ![](../../images/reload.gif) (點擊箭頭)
-- 狀態列: 在顯示的編碼上雙擊
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **Reload**
+\> **Popup Menu**
+- Toolbar: ![](../../images/reload.gif) (on
+the arrow)
+- Status Bar: double-click on Encodings
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_RELOAD\_POPUP (4283)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,6 +1,6 @@
-# Valid 屬性
+# Valid Property
 
-返回是否視窗句柄還有效。
+Returns whether the window handle is valid.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _b_ = wnd. **Valid**;
 
 _b_ = wnd. **Valid**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,26 +1,26 @@
-# 大綱顯示條命令
+# Toggle Outline Bar command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏大綱顯示條。
+> Shows or hides the outline bar.
 
-### 說明
+### Description
 
-> 顯示或隱藏大綱顯示條。
+> Shows or hides the outline bar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **大綱顯示條**
-- [全部命令](../tools/all_commands): **檢視** \> **大綱** \> **大綱顯示條**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** \> **Outline Bar**
+- [All Commands](../tools/all_commands): **View** \> **Outline** \> **Outline Bar**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_OUTLINE\_BAR (3872)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

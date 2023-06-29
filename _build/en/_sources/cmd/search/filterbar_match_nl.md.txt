@@ -1,27 +1,27 @@
-# 符合換行符號 (篩選工具列) 命令
+# Match Newline Characters (Filter Toolbar) command
 
-### 摘要
+### Summary
 
-> 切換「篩選」工具列上的「符合換行符號」按鈕。
+> Toggles the Match Newline Characters button on the Filter toolbar.
 
-### 說明
+### Description
 
-> 切換「篩選」工具列上的「符合換行符號」按鈕。
+> Toggles the Match Newline Characters button on the Filter toolbar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜索**
-\> **篩選工具列** \> **符合換行符號**
-- 工具列:  ![](../../images/match_newline_characters.png) \+ 符合換行符號 (篩選工具列)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Match Newline Characters**
+- Toolbar: ![](../../images/match_newline_characters.png) \+ Match Newline Characters (Filter toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILTERBAR\_MATCH\_NL (4006)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

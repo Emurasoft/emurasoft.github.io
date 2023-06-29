@@ -1,6 +1,6 @@
-# hWnd 屬性
+# hWnd Property
 
-檢索或設置視窗的句柄值。
+Retrieves or sets the handle value of the window.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _h_ = wnd. **hWnd**
 
 wnd. **hWnd** = _h_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

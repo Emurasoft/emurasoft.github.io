@@ -1,6 +1,7 @@
-# DetectAll 屬性
+# DetectAll Property
 
-與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **全部偵測** 核取方塊相對應。
+Corresponds to the **Detect**
+**All** check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -14,6 +15,6 @@ _b_ = object. **DetectAll**
 
 object. **DetectAll** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

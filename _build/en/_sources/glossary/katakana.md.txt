@@ -1,3 +1,4 @@
-# 片假名
+# Katakana
 
-一個用來音譯非日語單字的音節書寫形式。
+A syllabic form of writing in Japanese that is used
+to transliterate non-Japanese words.

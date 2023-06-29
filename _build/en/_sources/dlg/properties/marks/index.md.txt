@@ -1,51 +1,53 @@
-# 「標記」頁面
+# Marks page
 
-**標記** 頁面讓您能設定與標記有關的屬性。
+The **Marks** page allows you to set properties related to marks.
 
-### 「顯示換行符號」核取方塊
+### Show Newline Characters check box
 
-勾選該核取方塊在文檔中顯示換行符號。
+Check to display newline characters in documents.
 
-### 「顯示檔案結束標記」核取方塊
+### Show End of File check box
 
-勾選該核取方塊在文檔中顯示檔案結束標記。
+Check to display the end of file mark in documents.
 
-### 「顯示 Tab」核取方塊
+### Show Tabs check box
 
-勾選該核取方塊在文檔中顯示 Tab。
+Check to display tab marks in documents.
 
-### 「顯示空白」核取方塊
+### Show Spaces check box
 
-在文字中顯示單一位元字元空白標記。
+Show single byte character space marks in the text.
 
-### 「顯示全形空白」核取方塊
+### Show Wide Spaces check box
 
-勾選該核取方塊在文檔中顯示全形空白。
+Check to display double byte character space marks in documents.
 
-### 「使用不同的標記來顯示 CR 與 LF」核取方塊
+### Show CR and LF with Different Marks check box
 
-勾選該核取方塊用不同的標記來區分 CR 與 LF。
+Check to use different marks to distinguish CR from LF.
 
-### 「顯示控制字元」核取方塊
+### Show Control Characters check box
 
-在文字中顯示控制字元標記。
+Show control character marks in the text.
 
-### 「顯示縮排線」核取方塊
+### Show Indent Guides check box
 
-顯示縮排線。
+Shows indent guides.
 
-### 「顯示使用者自訂參考線」核取方塊
+### Show User-Defined Guides check box
 
-顯示使用者自訂參考線。
+Shows user-defined guides.
 
-### 「使用者自訂參考線位置」文字方塊
+### User-Defined Guide Positions text box
 
-指定使用者自訂參考線位置。多個位置能用逗號 (,) 隔開。
+Specifies the column positions of user-defined guides. Multiple positions can be separated by commas (,).
 
-### 「亮顯更改過的/變更已儲存的行」核取方塊
+### Highlight Changed/Saved Lines check box
 
-在 EmEditor 視窗的左邊緣亮顯更改過的或變更已儲存的行。
+Highlights the lines that have been changed/saved on the left edge of EmEditor windows.
 
-### 「重設」按鈕
+### Reset button
 
-顯示 [**重設** 對話方塊](../reset/index) 讓您能從另一個組態中複製設定。
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.

@@ -1,6 +1,6 @@
-# windows 屬性
+# windows Property
 
-返回頂層視窗集合。
+Returns the top-level [Windows collection](../windows/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ wnds = shell. **windows**;
 
 wnds = shell. **windows**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

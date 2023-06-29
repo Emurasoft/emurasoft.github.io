@@ -1,29 +1,29 @@
-# FileProp 對象
+# FileProp Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [CheckFileChanged](check_file_changed) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **被其他程式更改時** 下拉清單方塊相對應。 |
-| [DetectAll](detect_all) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **全部偵測** 核取方塊相對應。 |
-| [DetectCharset](detect_charset) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **偵測 HTML/XML 字元集** 核取方塊相對應。 |
-| [DetectCSV](detect_csv) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **偵測 CSV (逗號分隔)** 核取方塊相對應。 |
-| [DetectDSV](detect_dsv) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **偵測 DSV (使用者定義的分隔符分隔)** 核取方塊相對應。 |
-| [DetectTSV](detect_tsv) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **偵測 TSV (Tab 鍵分隔)** 核取方塊相對應。 |
-| [DetectUnicodeSignature](detect_unicode_signature) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **偵測 Unicode 簽名 (BOM)** 核取方塊相對應。 |
-| [DetectUTF8](detect_utf8) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **偵測 UTF-8** 核取方塊相對應。 |
-| [Encoding](encoding) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **檔案打開時的編碼** 下拉清單方塊相對應。 |
-| [MonitorInterval](monitor_interval) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **監控時間間隔** 文字方塊相對應。 |
-| [NoFullPathIfNotActive](no_full_path_if_not_active) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **失去焦點時不顯示完整路徑** 核取方塊相對應。 |
-| [NotepadDiary](notepad_diary) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **創建與記事本兼容的日志檔案** 核取方塊相對應。 |
-| [PromptInconsistentReturns](prompt_inconsistent_returns) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **換行方式不一致時進行提示** 核取方塊相對應。 |
-| [PromptInvalid](prompt_invalid) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **如果發現無效字元時進行提示** 核取方塊相對應。 |
-| [PromptNull](prompt_null) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **如果發現空字元時進行提示** 核取方塊相對應。 |
-| [ShowFullPath](show_full_path) | 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **顯示包含完整路徑的檔案名** 核取方塊相對應。 |
+| [CheckFileChanged](check_file_changed) | Corresponds to the **Changed**<br>**by Another Program drop-down** list box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [DetectAll](detect_all) | Corresponds to the **Detect**<br>**All** check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [DetectCharset](detect_charset) | Corresponds to the **Detect HTML/XML Charset** <br> check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [DetectCSV](detect_csv) | Corresponds to the **Detect CSV (Comma-Separated)** check box in the <br> [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [DetectDSV](detect_dsv) | Corresponds to the **Detect DSV (User-Defined Delimiter-Separated)** check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [DetectTSV](detect_tsv) | Corresponds to the **Detect TSV (Comma-Separated)** check box in the <br> [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [DetectUnicodeSignature](detect_unicode_signature) | Corresponds to the **Detect Unicode Signature (BOM)** check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [DetectUTF8](detect_utf8) | Corresponds to the **Detect**<br>**UTF-8** check box in the <br> [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [Encoding](encoding) | Corresponds to the **Opening**<br>**Encoding drop-down** list box in the <br> [**File** tab](../../dlg/properties/file/index) of Configuration Properties. |
+| [MonitorInterval](monitor_interval) | Corresponds to the **Monitor Interval** text box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [NoFullPathIfNotActive](no_full_path_if_not_active) | Corresponds to the **Without**<br>**Full Path if Not Active** check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [NotepadDiary](notepad_diary) | Corresponds to the **Notepad-Compatible**<br>**Diary** check box in the <br> [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [PromptInconsistentReturns](prompt_inconsistent_returns) | Corresponds to the **Prompt**<br>**at Inconsistent Returns** check box in the <br> [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [PromptInvalid](prompt_invalid) | Corresponds to the **Prompt**<br>**if Invalid Character Found** check box in the <br> [**File** tab](../../dlg/properties/file/index) of Configuration Properties. |
+| [PromptNull](prompt_null) | Corresponds to the **Prompt**<br>**if Null Character Found** check box in the <br> [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
+| [ShowFullPath](show_full_path) | Corresponds to the **Show**<br>**File Name with Full Path** check box in the <br> [**File** page](../../dlg/properties/file/index) of Configuration Properties. |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

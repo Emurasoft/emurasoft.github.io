@@ -1,26 +1,27 @@
-# 顯示托盤圖示命令
+# Display Tray Icon command
 
-### 摘要
+### Summary
 
-> 顯示一個新的系統托盤圖示。
+> Displays a new System Tray icon.
 
-### 說明
+### Description
 
-> 這個命令會在 Windows 任務欄的通知區域中顯示 EmEditor 的托盤圖示。如果 EmEditor 的托盤圖示已經存在，這個命令不會有任何作用。
+> This command displays an EmEditor tray icon on the Windows Taskbar notification area. It will not have any effect if an EmEditor tray icon
+> already exists.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **新增** \> **顯示托盤圖示**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **New** \> **Display Tray Icon**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_NEW\_TRAY\_ICON (4121)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

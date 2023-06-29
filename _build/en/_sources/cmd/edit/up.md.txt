@@ -1,27 +1,27 @@
-# 上一行命令
+# Line Up command
 
-### 摘要
+### Summary
 
-> 移動游標到上一行。
+> Moves the cursor up one line.
 
-### 說明
+### Description
 
-> 把游標向上移動一行。等同于按一次上移箭頭鍵。
+> Moves the cursor up one line. Equivalent to pushing the UP ARROW key once.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **垂直移動游標**
-\> **上一行**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: 上移箭頭
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
+\> **Line Up**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: UP ARROW
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_UP (4160)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

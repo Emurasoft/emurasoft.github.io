@@ -1,6 +1,6 @@
-# HorizontalBar 屬性
+# HorizontalBar Property
 
-與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **水平捲軸** 下拉清單方塊相對應。
+Corresponds to the **Horizontal Scroll Bar drop-down** list box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ object. **HorizontalBar**
 
 object. **HorizontalBar** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

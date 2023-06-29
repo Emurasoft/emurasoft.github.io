@@ -1,11 +1,12 @@
-# 「立即（退出時）清除歷史記錄」對話方塊
+# Clear History Now (on Exit) dialog box
 
-這個對話方塊會出現當你按了 [**自訂** 對話方塊](../customize/index) 中 **歷史記錄** 頁面上的 **「立即清除歷史記錄」** 按鈕或 **「退出時清除歷史記錄」** 按鈕時。你可以清除游標位置、書籤，以及所有在最近檔案中使用的尋找、取代字串記錄。
+This dialog box appears when either the **Clear History Now** button or **Clear History on Exit** button on the [**History** page](../customize/history/index) of the
+[**Customize** dialog box](../customize/index) is selected. You can clear cursor position, bookmarks, and all the recently used strings in find, replace and for recently used files.
 
-### 「要清除的歷史記錄項」清單方塊
+### History items to clear list box
 
-顯示要清除的歷史記錄項清單。
+Shows the list of history items to clear.
 
-### 「全部啟用/禁用」核取方塊
+### Enable/Disable All check box
 
-啟用或禁用清單上選取的條目。
+Enables or disables all items in the list.

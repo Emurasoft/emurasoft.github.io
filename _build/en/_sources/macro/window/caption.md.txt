@@ -1,6 +1,6 @@
-# Caption 屬性
+# Caption Property
 
-返回視窗的描述文字。
+Returns the caption text for the window.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _str_ = wnd. **Caption**;
 
 _str_ = wnd. **Caption**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

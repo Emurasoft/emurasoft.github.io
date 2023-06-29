@@ -1,3 +1,4 @@
-# 輸入法編輯器 (IME)
+# Input Method Editor (IME)
 
-讓使用者能用標準鍵盤輸入其他語言的字元和符號的程式。
+A program that allows users to enter characters and symbols of other
+languages using a standard keyboard.

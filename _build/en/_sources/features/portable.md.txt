@@ -1,3 +1,4 @@
-# 可攜式選項 (為 USB 磁碟機安裝準備)
+# Portability Options (Ready for a USB Drive Install)
 
-您現在可以選擇把所有的設置保存到 INI 檔案中，而不是注冊表中。從 [**匯入匯出** 向導](../dlg/import_export/index) (「工具」菜單下) ，您可以把設置導出到 INI 檔案中。一旦 EmEditor 在目錄中偵測到 INI 檔案，它就不會把設置保存到注冊表中。這個外掛程式接口被擴展來支持注冊表以及 INI 檔案操作。
+You have the option to save all settings to INI files instead of the Registry. From the [**Import and Export** Wizard](../dlg/import_export/index) (on the Tools menu), you have the option to export settings to INI files. Once
+EmEditor detects INI files in its directory, it does not save the settings to the Registry. The plug-in interface was extended to support the Registry and INI file manipulation.

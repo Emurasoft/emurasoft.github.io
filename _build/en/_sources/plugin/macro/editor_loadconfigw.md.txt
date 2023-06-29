@@ -1,19 +1,19 @@
 # Editor\_LoadConfigW
 
-重新載入由一個 Unicode 字串指定名稱的組態。您能直接用該內嵌函式或明確地發送 [EE\_LOAD\_CONFIGW](../message/ee_load_configw) 消息。
+Reloads a configuration which is specified by name as a Unicode string. You can use this inline function or explicitly send the [EE\_LOAD\_CONFIGW](../message/ee_load_configw) message.
 
 Editor\_LoadConfigW( HWND hwnd, LPCWSTR szConfigName );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _szConfigName_
 
-> 指定要重新載入的組態名稱。
+> Specifies the name of a configuration to be reloaded.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

@@ -1,6 +1,6 @@
-# Documents 屬性
+# Documents Property
 
-為當前打開的文檔，檢索 [Documents 集合](../documents/index)。
+Retrieves the [Documents Collection](../documents/index) for the currently opened documents.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _docs_ = editor. **Documents**;
 
 Set _docs_ = editor. **Documents**
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

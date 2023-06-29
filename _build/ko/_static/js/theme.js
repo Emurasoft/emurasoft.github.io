@@ -61,18 +61,6 @@ function setupAutodocCpp() {
     })
 }
 
-function setupSearchSidebar() {
-    const searchInput = document.querySelector('form.search input[type=text]')
-    if (searchInput) {
-        searchInput.placeholder = 'Search...'
-    }
-
-    const searchButton = document.querySelector('form.search input[type=submit]')
-    if (searchButton) {
-        searchButton.value = 'Search'
-    }
-}
-
 function setupSidebarToggle() {
     const sidebar = document.querySelector('.sphinxsidebar')
     document.querySelector('#toggle_sidebar a').onclick = (event) => {
@@ -102,7 +90,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     setupAutodocPy()
     setupAutodocCpp()
-    setupSearchSidebar()
     setupSidebarToggle()
     setupRightSidebarToggle()
 })

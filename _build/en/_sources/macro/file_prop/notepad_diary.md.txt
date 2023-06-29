@@ -1,6 +1,8 @@
-# NotepadDiary 屬性
+# NotepadDiary Property
 
-與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **創建與記事本兼容的日志檔案** 核取方塊相對應。
+Corresponds to the **Notepad-Compatible**
+**Diary** check box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -14,6 +16,6 @@ _b_ = object. **NotepadDiary**
 
 object. **NotepadDiary** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

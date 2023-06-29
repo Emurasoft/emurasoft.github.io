@@ -1,27 +1,27 @@
-# 使用 DirectWrite 命令
+# Use DirectWrite command
 
-### 摘要
+### Summary
 
-> 指定是否使用 DirectWrite 進行文字呈現。
+> Toggles the Use DirectWrite setting.
 
-### 說明
+### Description
 
-> 指定是否使用 DirectWrite 進行文字呈現。
+> Toggles the Use DirectWrite setting.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **使用 DirectWrite**
-- [全部命令](../tools/all_commands): **檢視** \> **字型** \> **使用 DirectWrite**
-- 工具列: ![](../../images/fontpopup.gif)
-（點擊箭頭） \> **使用 DirectWrite**
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** \> **Use DirectWrite**
+- [All Commands](../tools/all_commands): **View** \> **Font** \> **Use DirectWrite**
+- Toolbar: ![](../../images/fontpopup.gif)
+(on the arrow) > **Use DirectWrite**
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_USE\_DIRECTWRITE (3997)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

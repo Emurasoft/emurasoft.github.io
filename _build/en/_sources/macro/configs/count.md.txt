@@ -1,6 +1,6 @@
-# Count 屬性
+# Count Property
 
-檢索組態的數目。
+Retrieves the number of configurations.
 
 #### \[JavaScript\]
 
@@ -10,7 +10,7 @@ _nCount_ = editor.Configs. **Count**;
 
 _nCount_ = editor.Configs. **Count**
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -20,6 +20,6 @@ alert( "Number of Configurations: " + editor.Configs.Count );
 
 alert "Number of Configurations: " & editor.Configs.Count
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

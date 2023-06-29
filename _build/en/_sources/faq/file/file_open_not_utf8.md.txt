@@ -1,5 +1,13 @@
-# Q. 怎么用西歐 (Western European) 而不是 UTF-8 打開一個 XML 檔案?
+# Q. How can I open an XML file as Western European, not as UTF-8?
 
-如果一個 XML 檔案是作為 Unicode 被打開的，您可以到 **「當前組態屬性」** 中，選擇 [**檔案** 頁面](../../dlg/properties/file/index)，然后檢視 **「檔案打開時的編碼」** 旁的下拉清單方塊。如果被選擇的是 **「Unicode」**，請您把它改為 **「系統預設」**。如果 **「偵測 HTML/XML 字元」** 核取方塊被勾選了，一個「encoding=」的指令會在一個 XML 檔案中被搜尋。如果這個指令被找到了，EmEditor使用這個指定的編碼。要注意的是，為目前打開的檔案所指定的編碼與新增檔案或正在儲存的檔案所指定的編碼是不同的。
+If an XML file is opened as Unicode, display the **Current Configuration**
+**Properties**, select
+the [**File** page](../../dlg/properties/file/index), and check **Opening**
+**Encoding** drop-down list box. If this is **Unicode**, select **System Default**. If
+**Detect**
+**HTML/XML Charset** check box is checked, an "encoding=" directive specified within
+an XML file is searched, and EmEditor uses the specified encoding if the
+directive is found. Note that the encoding specified for opening files is
+different from the encoding specified for new files or for saving files.
 
-## 請同樣參考
+## See Also

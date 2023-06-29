@@ -1,75 +1,75 @@
-# 「輸入數字範圍」對話方塊
+# Enter Number Range dialog box
 
-此對話方塊讓你能創建一個 [數字範圍運算式](../../howto/search/number_range_syntax)。 此對話方塊會出現當你在 **尋找**， **取代**， **多檔尋找**， **多檔取代**，或 **進階篩選** 對話方塊中點選了 **數字範圍** 選項按鈕。
+This dialog box helps you to create a [number range expression](../../howto/search/number_range_syntax). This dialog box appears when you select the **Number Range** radio button in the **Find**, **Replace**, **Find in Files**, **Replace in Files**, or **Advanced Filter** dialog box.
 
-### 「最小值」文字方塊
+### Minimum number text box
 
-指定一個數字範圍的最小值。如果勾選了 **僅整數值** 核取方塊，此數值將不包括小數。
+Specifies the minimum value of a number range. This value should not include the decimal point if the **Integers Only** check box is set.
 
-### 「包括最小值」核取方塊
+### Include Minimum check box
 
-指定最小值是否包括在數字範圍內。
+Specifies that the minimum value should be included in a number range.
 
-### 「最大值」文字方塊
+### Maximum text box
 
-指定一個數字範圍的最大值。如果勾選了 **僅整數值** 核取方塊，此數值將不包括小數。
+Specifies the maximum value of a number range. This value should not include the decimal point if the **Integers Only** check box is set.
 
-### 「包括最大值」核取方塊
+### Include Maximum check box
 
-指定最大值是否包括在數字範圍內。
+Specifies that the maximum value should be included in a number range.
 
-### 「遞增值+最小值」核取方塊
+### Multiples + Minimum numbers Only check box
 
-指定僅與最小值加上指定整數的倍數符合的數字。
+Specifies that only multiples of the specified integers added by the minimum number should be matched.
 
-### 「遞增值」核取方塊
+### Multiples of text box
 
-如果勾選了 **遞增值+最小值** 核取方塊，為之指定一個數值。
+Specifies a factor if the **Multiples + Minimum numbers Only** check box is set.
 
-### 「整數」核取方塊
+### Integers radio button
 
-指定是否僅與整數相符。
+Specifies that only integers should be matched.
 
-### 「小數位數」選項按鈕
+### Decimal numbers radio button
 
-指定與小數位數相符。
+Specifies that decimal numbers should be matched.
 
-### 「使用預設的小數點」核取方塊
+### Use default decimal point check box
 
-指定使用從目前的語言環境派生的小數點。如果未設定，則應在下面的下拉清單方塊中指定小數點字元。
+Specifies that the decimal point derived from the current locale should be used. If this is not set, a decimal point character should be specified in the drop down list box below.
 
-### 「IP 地址」選項按鈕
+### IP addresses radio button
 
-指定與 IP 地址相符。
+Specifies that IP addresses should be matched.
 
-### 「IP 地址/CIDR 標記」核取方塊
+### IP Address/CIDR notation check box
 
-選擇將 IP 地址範圍指定為 IP 地址/CIDR 標記。如果勾選了此核取方塊，則應在下面的文字方塊中指定正確的 IPv4/IPv6 地址/CIDR 標記。例如，如果要搜索從 192.168.0.0 到 192.168.255.255 的 IPv4 地址，就要指定 "192.168.0.0/16" 。
+Specifies that a range of IP addresses is specified as an IP address/CIDR notation. If this check box is set, an correct IPv4/IPv6 address/CIDR notation should be specified in the text box below. For example, specify "192.168.0.0/16" if you want to search for IPv4 addresses from 192.168.0.0 through 192.168.255.255.
 
-### 「日期/時間」選項按鈕
+### Dates/times radio button
 
-指定與日期和/或時間相符。
+Specifies that dates and/or times should be matched.
 
-### 「使用預設的日期格式」核取方塊
+### Use default date format check box
 
-指定使用從目前的語言環境派生的日期格式。如果未勾選，則要在核取方塊下面的下拉清單方塊中指定日期和/或時間格式。
+Specifies that the date format derived from the current locale should be used. If this is not set, a date and/or time format should be specified in the drop down list box below.
 
-### 「>」按鈕
+### \> button
 
-單擊此按鈕可顯示可以使用的日期/時間格式。
+Click this button to show available date/time formats that can be used.
 
-### 「前置詞」文字方塊
+### Prefix text box
 
-指定在比對值之前相符的字串。該欄位可以為空。
+Specifies a string that should match before the matched value. This field can be empty.
 
-### 「後置詞」文字方塊
+### Suffix text box
 
-指定在比對值之後相符的字串。該欄位可以為空。
+Specifies a string text that should match after the matched value. This field can be empty.
 
-### 「下次跳過此對話方塊」核取方塊
+### Skip this dialog box next time check box
 
-指定下次是否應不顯示此對話方塊直接跳到 **尋找** 或 **篩選** 下拉清單方塊中。
+Specifies that this dialog box should be skipped and go to the **Find** or **Filter** drop-down list box directly next time.
 
-## 請同樣參考
+## See Also
 
-- [數字範圍運算式](../../howto/search/number_range_syntax)
+- [Number Range Expression Syntax](../../howto/search/number_range_syntax)

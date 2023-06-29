@@ -1,28 +1,28 @@
-# 降級命令
+# Downgrade command
 
-### 摘要
+### Summary
 
-> 將產品降級為 EmEditor Free。
+> Downgrades the product to EmEditor Free.
 
-### 說明
+### Description
 
-> 將產品從 EmEditor Professional 降級為 EmEditor Free。在降級之前，EmEditor 會顯示一條確認提示。
+> Downgrades the product to EmEditor Free from EmEditor Professional. User will be prompted to confirm before the downgrade occurs.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **說明** >
-**降級**
-- [全部命令](../tools/all_commands): **說明** >
-**降級**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Help** >
+**Downgrade**
+- [All Commands](../tools/all_commands): **Help** >
+**Downgrade**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_HELP\_DOWNGRADE (3844)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

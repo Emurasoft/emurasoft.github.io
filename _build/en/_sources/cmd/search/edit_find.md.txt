@@ -1,27 +1,29 @@
-# 尋找命令
+# Find command
 
-### 摘要
+### Summary
 
-> 尋找一個字串。
+> Finds a string.
 
-### 說明
+### Description
 
-> 尋找一個指定的字串。這個命令顯示 [尋找對話方塊](../../dlg/find/index)。指定一個字串和其他參數會，就可以開始多檔尋找指定的字串。
+> Finds a specified string. This command displays the
+> [Find dialog box](../../dlg/find/index). Specifying a string
+> and other options will start finding the specified string.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **搜尋** \> **尋找**
-- [全部命令](../tools/all_commands): **搜尋**
-\> **尋找**
-- 工具列: ![](../../images/editfind.gif)
-- 狀態列: 無
-- 預設捷徑: CTRL+F
+- Default Menu: **Search** \> **Find**
+- [All Commands](../tools/all_commands): **Search**
+\> **Find**
+- Toolbar: ![](../../images/editfind.gif)
+- Status Bar: None
+- Default Shortcut Key: CTRL+F
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_EDIT\_FIND (4200)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

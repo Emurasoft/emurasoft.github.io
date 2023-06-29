@@ -1,29 +1,31 @@
 # Editor\_GetAnchorPos
 
-檢索選區的原點。您能直接用該內嵌函式或明確地發送 [EE\_GET\_ANCHOR\_POS](../message/ee_get_anchor_pos) 消息。
+Retrieves the origin point of the selection. You can use this inline function
+or explicitly send the [EE\_GET\_ANCHOR\_POS](../message/ee_get_anchor_pos) message.
 
 Editor\_GetAnchorPos( HWND hwnd, int nLogical, POINT\_PTR\* pptPos );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nLogical_
 
-> 指定下列值之一。
+> Specifies one of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | POS\_VIEW | 顯示坐標 |
-> | POS\_LOGICAL\_A | 邏輯坐標 (把雙位元字元計為兩個) |
-> | POS\_LOGICAL\_W | 邏輯坐標 (把雙位元字元計為一個) |
+> | POS\_VIEW | Display Coordinates |
+> | POS\_LOGICAL\_A | Logical Coordinates (Count double-byte characters as two) |
+> | POS\_LOGICAL\_W | Logical Coordinates (Count double-byte characters as one) |
 
 _pptPos_
 
-> 指標至一個會接收選區原點的 [POINT\_PTR 結構](../structure/point_ptr)。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the origin point of the
+> selection.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

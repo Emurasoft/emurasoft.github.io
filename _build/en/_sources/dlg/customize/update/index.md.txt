@@ -1,31 +1,31 @@
-# 「更新」頁面
+# Update page
 
-**更新** 頁面讓你能自訂與更新相關的設定。
+The **Update** page allows you to customize settings related to the notifications.
 
-### 「自動檢查更新」核取方塊
+### Automatically check for updates check box
 
-每隔指定的天數自動檢查更新。
+Automatically checks for updates every specified number of days.
 
-### 「退出時自動安裝」核取方塊
+### Automatically install on exit check box
 
-如果有可用的新版本，則在 EmEditor 退出時自動安裝新版本。
+Automatically installs a new version when EmEditor exits if a new version is available.
 
-### 「包括 beta 版」核取方塊
+### Include beta versions check box
 
-檢查更新時包括 beta 版本以及官方發行版本。
+Checks for updates Including beta versions as well as official release versions when checking for updates.
 
-### 「檢查頻率」文字方塊
+### Check frequency text box
 
-指定要檢查更新的頻率。如果指定為 0，則 EmEditor 在每次啟動時都會檢查更新。
+Specifies how often you want to check for updates. If 0 is specified, EmEditor checks for updates every time it launches.
 
-### 「下載資料夾」文字方塊
+### Downloads folder text box
 
-指定要下載新版本的目標資料夾。
+Specifies a destination folder where you want to download new versions.
 
-### 「在下載資料夾中建立要調試的日志檔案」核取方塊
+### Create log files to debug in the Downloads folder check box
 
-在下載資料夾中建立兩種類型的日志檔案。一種是 _Updater.log_，另一種是 _EEInst-YYYY-MM-DD-HHMMSS.txt_ 格式。如果更新檢查器無法安裝新版本，則這些檔案可能有助於調試更新檢查器。
+Creates two types of log files in the Downloads folder. One is _Updater.log_, and the other is created as a format of _EEInst-YYYY-MM-DD-HHMMSS.txt_. These files might help debugging the Update Checker if the Update Checker failed to install new versions.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

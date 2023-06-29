@@ -1,135 +1,184 @@
-# 規則運算式語法
+# Regular Expression Syntax
 
-EmEditor 規則運算式語言基于 Perl 規則運算式語法。
+EmEditor regular expression
+syntax is based on Perl regular expression syntax.
 
-## 文字
+## Literals
 
-所有字元都是文字除了: ".", "\*", "?", "+", "(", ")", "{", "}",
-"\[", "\]", "^", "$" 和 "\\"。這些字元代表文字當之前有一個
-"\\" 時。一個文字是一個與它自己相符合的字元。例如，搜尋 "\\?" 會符合每一個在文檔中的 "?" ，或搜尋 "Hello" 會符合每一個在文檔中的 "Hello" 。
+All characters are literals except: ".", "\*", "?", "+", "(", ")", "{", "}",
+"\[", "\]", "^", "$", "\|", and "\\". These characters are literals when preceded by a
+"\\". A literal is a character that matches itself. For example, searching for
+"\\?" will match every "?" in the document, or searching for "Hello" will match
+every "Hello" in the document.
 
-## 元字元
+## Metacharacters
 
-下清單格包含元字元 (非文字) 的完整清單以及這些元字元在規則運算式中的行為。
-
-|     |     |
-| --- | --- |
-| \ | 把下一個字元標記為一個特殊字元，一個文字，或一個向后引用。例如，'n' 與字元 "n" 相符合。而 '\\n' 代表一個換行符號。序列 '\\\' 代表 "\\"，"\\(" 則與 "(" 相符合。 |
-| ^ | 符合輸入字串的開始位置。例如，"^e" 表示任何由 "e" 開頭的字串。 |
-| $ | 符合輸入字串的結尾位置。例如，"e$" 表示任何由 "e" 結尾的字串。 |
-| \* | 符合之前的字元或子表達式零次或多次。例如，zo\* 會符合 "z" 以及 "zoo"。\* 等同于 {0,}。 |
-| + | 符合之前的字元或子表達式一次或多次。例如，'zo+' 符合 "zo" 以及 "zoo"，但不符合 "z"。 + 等同于 {1,}。 |
-| ? | 符合之前的字元或子表達式零次或一次。例如，"do(es)?" 符合 "do" 在  "do" 或 "does" 中。? 等同于 {0,1}。 |
-| {n} | n 是一個非負整數。符合確定的 n 次。例如，'o{2}' 不符合 "Bob" 中的 "o"，但與 "food" 中的兩個 o 符合。 |
-| {n,} | n 是一個非負整數。符合至少 n 次。例如，'o{2,}' 不符合 "Bob" 中的 "o"，單符合 "foooood" 中的所有 o。and matches all the o's in "foooood". "o{1,}" 等同于  'o+'。 'o{0,}' 等同與 'o\*'。 |
-| {n,m} | m 和 n 都要是非負整數，n <= m。符合至少 n 次，最多 m 次。例如，"o{1,3}" 與 "fooooood"中的前三個 o 向符合。<br> 'o{0,1}' 等同于 'o?'。要注意的是您不能在逗號與數字之間加一個空白。 |
-| ? | 當這個字元緊跟著任何其他數量詞 (\*, <br> +, ?, {n}, {n,}, {n,m}) 時，符合的模式是非貪婪。一個非貪婪模式盡可能少地與搜尋字串符合，而預設的貪婪模式則盡可能多地與搜尋字串符合。例如，字串 "oooo"，'o+?' 符合單一的一個 "o"，而w 'o+' 符合所有 'o'。 |
-| . | 與任何單一字串符合。例如，".e" 符合任何在 "e" 之前的文字，如 "he"，"we"，或 "me"。<br> 在 EmEditor Professional 中，它符合 **搜尋規則運算式的附近行** 文字方塊中指定範圍內的換行當 **規則運算式 "." 符合換行符** 核取方塊被勾選。 |
-| (pattern) | 括號有兩個作用: 把一個格式組合到一個子表達式中，以及捕捉生成該符合的格式。例如，表達式 "(ab)\*" 符合所有字串 "ababab"。每一個子表達式的符合被捕捉為一個從左到右編號的向后引用 (如下) 。要符合括號字元，用 '\\(' 或 '\\)'。 |
-| (?<name>pattern) | 捕獲與 "pattern" 符合的字串到 "name" 群組中。 |
-| \\1 - \\9 | 指定一個向后引用 \- 一個向后引用是上一個被符合的子表達式的引用。引用的內容是與子表達式相符合的內容，而不是表達式本身。一個向后引用由逸出序列 "\\" 加一個 "1" 到 "9" 的數字組成。"\\1" 指的是第一個子表達式，"\\2" 是第 2 個，以此類推。例如，"(a)\\1" 會捕捉 "a" 為第一個向后引用，并符合任何 "aa" 文字。您還可以使用向后引用功能當您在 **搜尋** 功能表下選擇 **取代** 功能時。用規則運算式來定位一個文字格式，與之相符合的文字能被一個指定的向后引用取代。例如，"(h)(e)" 的表達式會在文字中尋找 "he"，把 "\\1" 放在 **取代為** 文字方塊中會用 "h" 取代 "he"， 而如果是 "\\2\\1" 的話，則會用 "eh" 取代 "he" 。 |
-| \\k<name> | 表示一個已命名的反向參考。已命名的反向參考是用以下形式引用之前符合的已命名的捕獲組：(?<name>expression)。如果 "name" 是一個數字，則它表示一個已編號的反向參考，相當於 \\1，\\2，\\3，...。 |
-| (?:pattern) | 一個與格式相符合，但不捕獲該符合的子表達式，這是一個不能用向后引用來存儲的非捕獲符合。這個表達式通常和 "or" 字元 (\|) 組合使用。例如，'industr(?:y\|ies) 是一個比 'industry\|industries' 更實用的表達式。 |
-| (?=pattern) | 子表達式執行符合 lookahead 搜尋，尋找任何后面跟著符合的模式的字串。例如，"x(?=abc)" 與 "x"相符合僅當字串后面跟著 "abc" 表達式時。<br> 這是一個不能用向后引用來存儲的非捕獲符合。模式不包含換行。 |
-| (?!pattern) | 子表達式執行非符合 lookahead 搜尋，尋找任何后面沒有跟著符合的模式的字串。例如，"x(?!abc)" 與 "x" 相符合只有當該字串后面不跟著 "abc" 表達式時。這是一個不能用向后引用來存儲的非捕獲符合。模式不包含換行。 |
-| (?<=pattern) | 子表達式執行符合 lookbehind 搜尋，尋找任何前面是符合的模式的字串。例如，"(?<=abc)x" 符合一個 "x" 只有當它前面有表達式 "abc"時。這是一個不能用向后引用來存儲的非捕獲符合。模式不包含換行。模式必須是固定長度。 |
-| (?<!pattern) | 子表達式執行非符合 lookbehind 搜尋，尋找任何前面不是符合模式的字串。例如，"(?<!abc)x" 符合 "x" 只有當它前面不跟著 "abc" 表達式時。這是一個不能用向后引用來存儲的非捕獲符合。模式不包含換行。模式必須是固定長度。 |
-| x\|y | 與 x 或 y 向符合。例如，'z\|food' 與 "z" 或 "food" 符合。'(z\|f)ood' 與 "zood" 或 "food" 符合。 |
-| \[xyz\] | 字元集。符合任何在括號內的字元。例如，'\[abc\]' 與 "plain" 中的 'a' 相符合。 |
-| \[^xyz\] | 負字元集。符合任何不在括號內的字元。例如，\[^abc\]' 與 "plain" 中的 'p' 相符合。 |
-| \[a-z\] | 字元範圍。與任何指定範圍的字元相符合。例如，'\[a-z\]' 與任何 'a' 到 'z' 的小寫字母相符合。 |
-| \[^a-z\] | 負字元範圍。與任何不在指定範圍內的字元相符合。例如，'\[a-z\]' 與任何不在 'a' 到 'z' 範圍內的字元相符合。 |
-
-## 字元類
-
-下面的字元類被用在字元集中，例如 "\[:classname:\]"。例如，"\[\[:space:\]\]" 是所有空白字元的集合。
+The following tables contain the complete list of metacharacters
+(non-literals) and their behavior in the context of regular expressions.
 
 |     |     |
 | --- | --- |
-| alnum | 任何語言字元及數字: 字母，音節或表意字元。 |
-| alpha | 任何語言字元: 字母，音節或表意字元。 |
-| blank | 任何空白字元，空白或 tab。 |
-| cntrl | 任何控制字元。 |
-| digit | 任何 0-9 的數字。 |
-| graph | 任何圖形字元。 |
-| lower | 任何 a-z 的小寫字元，以及其他小寫字元。 |
-| print | 任何可列印的字元。 |
-| punct | 任何標點字元。 |
-| space | 任何空白字元。 |
-| upper | 任何 A-Z 的大寫字母，以及其他大寫字元。 |
-| xdigit | 任何十六進位數字字元，0-9，a-f 還有 A-F。 |
-| word | 任何單字字元 \- 所有字母數字字元以及下劃線。 |
-| unicode | 任何大于 255 代碼的字元。 |
+| \ | Marks the next character as a special character, a literal, or a back <br> reference. For example, 'n' matches the character "n". '\\n' matches a <br> newline character. The sequence '\\\' matches "\\" and "\\(" matches "(". |
+| ^ | Matches the position at the beginning of the input string. For <br> example, "^e" matches any "e" that begins a string. |
+| $ | Matches the position at the end of the input string. For <br> example, "e$" matches any "e" that ends a string. |
+| \* | Matches the preceding character or sub-expression zero or more times. <br> For example, zo\* matches "z" and "zoo". \* is equivalent to {0,}. |
+| + | Matches the preceding character or sub-expression one or more times. For <br> example, 'zo+' matches "zo" and "zoo" , but not "z". + is equivalent to {1,}. |
+| ? | Matches the preceding character or sub-expression zero or one time. For <br> example, "do(es)?" matches the "do" in  "do"or "does".? is equivalent to <br> {0,1} |
+| {n} | n is a nonnegative integer. Matches exactly n times. For example, 'o{2}' <br> does not match the "o" in "Bob" but matches the two o's in "food". |
+| {n,} | n is a nonnegative integer. Matches at least n times. For example, 'o{2,}' <br> does not match "o" in "Bob" and matches all the o's in "foooood". "o{1,}" is <br> equivalent to 'o+'. 'o{0,}' is equivalent to 'o\*'. |
+| {n,m} | m and n are nonnegative integers, where n <= m. Matches at least n and <br> at most m times. For example, "o{1,3}" matches the first three o's in "fooooood". <br> 'o{0,1}' is equivalent to 'o?'. Note that you cannot put a space between the <br> comma and the numbers. |
+| ? | When this character immediately follows any of the other quantifiers (\*, <br> +, ?, {n}, {n,}, {n,m}), the matching pattern is non-greedy. A non-greedy <br> pattern matches as little of the searched string as possible, whereas the <br> default greedy pattern matches as much of the searched string as possible. <br> For example, in the string "oooo", 'o+?' matches a single "o", while 'o+' <br> matches all 'o's. |
+| . | Matches any single character. For example, ".e" will match text where any <br> character precedes an "e", like "he", "we", or "me". <br> In EmEditor Professional, it matches a newline character within the range specified <br> in the **Additional**<br>**Lines to Search for Regular Expressions** text box if the<br> **Regular**<br>**Expression "." Can Match Newline Characters** check box is <br> checked. |
+| (pattern) | Parentheses serve two purposes: to group a pattern into a <br> sub-expression and to capture what generated the match. For example the <br> expression "(ab)\*" would match all of the string "ababab". Each <br> sub-expression match is captured as a back reference (see below) numbered <br> from left to right. To match parentheses characters ( ), use '\\(' or '\\)'. |
+| (?<name>pattern) | Captures the string matched by "pattern" into the group "name". |
+| \\1 - \\9 | Indicates a back reference - a back reference is a reference to a <br> previous sub-expression that has already been matched. The reference is to <br> what the sub-expression matched, not to the expression itself. A back <br> reference consists of the escape character "\\" followed by a digit "1" to <br> "9", "\\1" refers to the first sub-expression, "\\2" to the second etc. For <br> example, "(a)\\1" would capture "a" as the first back reference and match any <br> text "aa". Back references can also be used when using the **Replace** <br> feature under the **Search** menu. Use regular expressions to locate a <br> text pattern, and the matching text can be replaced by a specified back <br> reference. For example, "(h)(e)" will find "he", and putting "\\1" in <br> the **Replace With** box will replace "he" with "h" whereas "\\2\\1" will <br> replace "he" with "eh". |
+| \\k<name> | Indicates a named back reference. A named back reference is a reference to a previous named capturing group using this form: (?<name>expression). If "name" is a number, it indicates a numbered back reference, equivalent to \\1, \\2, \\3, ... |
+| (?:pattern) | A subexpression that matches pattern but does not capture the match, <br> that is, it is a non-capturing match that is not stored for possible later <br> use with back references. This is useful for combining parts of a pattern <br> with the "or" character (\|). For example, 'industr(?:y\|ies) is a more <br> economical expression than 'industry\|industries'. |
+| (?=pattern) | A subexpression that performs a positive lookahead search, which matches <br> the string at any point where a string matching pattern begins. For example, <br> "x(?=abc)" matches an "x"only if it is followed by the expression "abc". <br> This is a non-capturing match, that is, the match is not captured for <br> possible later use with back references. pattern cannot contain a newline character. |
+| (?!pattern) | A subexpression that performs a negative lookahead search, which matches <br> the search string at any point where a string not matching pattern begins. <br> For example, "x(?!abc)" matches an "x" only if it is not followed by the <br> expression "abc". This is a non-capturing match, that is, the match is not captured for possible later use with back references. pattern cannot contain a newline character. |
+| (?<=pattern) | A subexpression that performs a positive lookbehind search, which matches <br> the search string at any point where a string matching pattern ends. <br> For example, "(?<=abc)x" matches an "x" only if it is preceded by the <br> expression "abc". This is a non-capturing match, that is, the match is not <br> captured for possible later use with back references. pattern cannot contain <br> a newline character. pattern must be of fixed length. |
+| (?<!pattern) | A subexpression that performs a negative lookbehind search, which matches <br> the search string at any point where a string not matching pattern ends. <br> For example, "(?<!abc)x" matches an "x" only if it is not preceded by the <br> expression "abc". This is a non-capturing match, that is, the match is not <br> captured for possible later use with back references. pattern cannot contain <br> a newline character. pattern must be of fixed length. |
+| x\|y | Matches either x or y. For example, 'z\|food' matches "z" or "food". '(z\|f)ood' <br> matches "zood" or "food". |
+| \[xyz\] | A character set. Matches any one of the enclosed characters. For <br> example, '\[abc\]' matches the 'a' in "plain". |
+| \[^xyz\] | A negative character set. Matches any character not enclosed. For <br> example, '\[^abc\]' matches the 'p' in "plain". |
+| \[a-z\] | A range of characters. Matches any character in the specified range. For <br> example, '\[a-z\]' matches any lowercase alphabetic character in the range 'a' <br> through 'z'. |
+| \[^a-z\] | A negative range characters. Matches any character not in the specified <br> range. For example, '\[^a-z\]' matches any character not in the range 'a' <br> through 'z'. |
 
-## 單一字元逸出序列
+## Character Classes
 
-下列逸出序列是單一字元的別名:
+The following character classes are used within a character set such as "\[:classname:\]".
+For instance, "\[\[:space:\]\]"
+is the set of all whitespace characters.
+
+|     |     |
+| --- | --- |
+| alnum | Any linguistic character and number: alphabetical, syllabary, or ideographic. |
+| alpha | Any linguistic character: alphabetical, syllabary, or ideographic. |
+| blank | Any blank character, either a space or a tab. |
+| cntrl | Any control character. |
+| digit | Any digit 0-9. |
+| graph | Any graphical character. |
+| lower | Any lowercase character a-z, and other lowercase character. |
+| print | Any printable character. |
+| punct | Any punctuation character. |
+| space | Any whitespace character. |
+| upper | Any uppercase character A-Z, and other uppercase character. |
+| xdigit | Any hexadecimal digit character, 0-9, a-f and A-F. |
+| word | Any word character - all alphanumeric characters plus the underscore. |
+| unicode | Any character whose code is greater than 255. (Regex.Boost only) |
+
+## Character Properties
+
+Syntax:
+
+\\p{property-name}
+
+\\P{property-name}  (negative)
+
+\\p{^property-name}  (negative)  (Onigmo only)
+
+The following property names can be used. For instance, "\\p{alnum}" is any alphanumeric character, and "\\P{alnum}" is its negative form.
+
+|     |     |
+| --- | --- |
+| alnum | Any linguistic character and number: alphabetical, syllabary, or ideographic. |
+| alpha | Any linguistic character: alphabetical, syllabary, or ideographic. |
+| blank | Any blank character, either a space or a tab. |
+| cntrl | Any control character. |
+| digit | Any digit 0-9. |
+| graph | Any graphical character. |
+| lower | Any lowercase character a-z, and other lowercase character. |
+| print | Any printable character. |
+| punct | Any punctuation character. |
+| space | Any whitespace character. |
+| upper | Any uppercase character A-Z, and other uppercase character. |
+| xdigit | Any hexadecimal digit character, 0-9, a-f and A-F. |
+| word | Any word character - all alphanumeric characters plus the underscore. |
+| unicode | Any character whose code is greater than 255. (Regex.Boost only) |
+| ascii | Any ASCII characters. (Onigmo only) |
+| Hiragana | Any Hiragana character. (Onigmo only) |
+| Katakana | Any Katakana character. (Onigmo only) |
+| Han | Any Han character. (Onigmo only) |
+| Hangul | Any Hangul character. (Onigmo only) |
+
+## Single character escape sequences
+
+The following escape sequences are aliases for single characters:
 
 |     |     |     |
 | --- | --- | --- |
-| 0x07 | \\a | 響鈴字元。 |
-| 0x0C | \\f | 換頁 (FF)。 |
-| 0x0A | \\n | 換行字元。 |
-| 0x0D | \\r | 歸位符。 |
-| 0x09 | \\t | Tab 字元。 |
-| 0x0B | \\v | 垂直 tab。 |
-| 0x1B | \\e | ASCII 逸出序列。 |
-| 0dd | \\0dd | 八進位字元代碼，dd 是一個或多個八進位數字（僅限 Boost.Regex only）。 |
-| 0xXX | \\xXX | 一個十六進位字元代碼，XX 是一個或多個十六進位數字 (一個 Unicode 字元) 。 |
-| 0xXXXX | \\x{XXXX} | 一個十六進位字元代碼，XXXX 是一個或多個十六進位數字 (一個 Unicode 字元) 。 |
-| Z-'@' | \\cZ Z-'@' | 一個 ASCII 逸出序列控制-Z，其中 Z 是任一 ASCII 字元大于或等于 '@' 的字元代碼。 |
+| 0x07 | \\a | Bell character. |
+| 0x0C | \\f | Form feed. |
+| 0x0A | \\n | Newline character. |
+| 0x0D | \\r | Carriage return. |
+| 0x09 | \\t | Tab character. |
+| 0x0B | \\v | Vertical tab. |
+| 0x1B | \\e | ASCII Escape character. |
+| 0dd | \\0dd | An octal character code, where dd is one or more octal <br> digits (Boost.Regex only). |
+| 0xXX | \\xXX | A hexadecimal character code, where XX is one or more <br> hexadecimal digits (a Unicode character). |
+| 0xXXXX | \\x{XXXX} | A hexadecimal character code, where XXXX is one or more <br> hexadecimal digits (a Unicode character). |
+| 0xXXXXXXXX | \\x{XXXXXXXX} | A hexadecimal character code, where XXXXXXXXis one or more <br> hexadecimal digits (a Unicode character). (Onigmo only) |
+| 0xXXXXXXXX | \\uXXXX | A hexadecimal character code, where XXXX is one or more <br> hexadecimal digits (a Unicode character). (Onigmo only) |
+| Z-'@' | \\cZ Z-'@' | An ASCII escape sequence control-Z, where Z is any ASCII <br> character greater than or equal to the character code for '@'. |
 
-## 單字邊界
+## Word Boundaries
 
-下列逸出序列與單字的邊界相符合:
-
-|     |     |
-| --- | --- |
-| \\< | 符合一個單字的開頭。 (僅限 Boost.Regex) |
-| \\> | 符合一個單字的結尾。 (僅限 Boost.Regex) |
-| \\b | 符合單字的邊界 (一個單字的開頭或結尾) 。 |
-| \\B | 僅當不在單字邊界處時符合。 |
-
-## 字元類的逸出序列
-
-下列逸出序列能被用來表示整個字元類:
+The following escape sequences match the boundaries of words:
 
 |     |     |
 | --- | --- |
-| \\w | 任何單字字元 \- 所有字母數字字元加下劃線。 |
-| \\W | \\w 的補集 - 尋找任何非單字的字元。 |
-| \\s | 任何空白字元。 |
-| \\S | \\s 的補集。 |
-| \\d | 任何 0-9 的數字。 |
-| \\D | \\d 的補集。 |
-| \\l | 任何 a-z 的小寫字元。 |
-| \\L | \\l 的補集。 |
-| \\u | 任何 A-Z 的大寫字元。 |
-| \\U | \\u 補集。 |
-| \\C | 任何單一字元，等同與 '.'。 |
-| \\Q | 開始引述運算符，任何跟在該符號后面的內容會被作為一個文字字元直到找到 \\E 結束引述運算符。 |
-| \\E | 結束引述運算符，終止一個由 \\Q 開始的序列。 |
+| \\< | Matches the start of a word. (Boost.Regex only) |
+| \\> | Matches the end of a word. (Boost.Regex only) |
+| \\b | Matches a word boundary (the start or end of a word). |
+| \\B | Matches only when not at a word boundary. |
 
-## 取代表達式
+## Character class escape sequences
 
-請參考 [取代運算式語法](replacement_expression_syntax)。
+The following escape sequences can be used to represent entire character
+classes:
 
-## 注意
+|     |     |
+| --- | --- |
+| \\w | Any word character - all alphanumeric characters plus the <br> underscore. |
+| \\W | Complement of \\w - find any non-word character |
+| \\s | Any whitespace character. |
+| \\S | Complement of \\s. |
+| \\d | Any digit 0-9. |
+| \\D | Complement of \\d. |
+| \\l | Any lower case character a-z. |
+| \\L | Complement of \\l. |
+| \\u | Any upper case character A-Z. |
+| \\U | Complement of \\u. |
+| \\C | Any single character, equivalent to '.'. |
+| \\Q | The begin quote operator, everything that follows is treated <br> as a literal character until a \\E end quote operator is found. |
+| \\E | The end quote operator, terminates a sequence begun with \\Q. |
 
-- 在 **多檔尋找** 和 **多檔取代** 中，歸位符 (\\r) 以及換行符 (\\n) 必須仔細指明。更多信息，請參考 [指定換行](search_nl)。
-- 為了一些逸出序列能在 EmEditor 中運作，例如 "\\l"， "\\u" 以及它們的補集，必須選擇區分大小寫的選項。
+## Replacement Expressions
 
-## 版權聲明
+See [Replacement Expression Syntax](replacement_expression_syntax).
 
-EmEditor 使用 Boost library Regex++ 的規則運算式慣例。
+## Notes
 
-Copyright (c) 1998-2001 Dr John Maddock
+- In **Find in Files** and in **Replace in Files**, the carriage return (\\r) and the
+line feed (\\n) must be specified carefully. See [To \
+Specify newline characters](search_nl) for details.
+- In order for some escape sequences to work in EmEditor, like "\\l", "\\u" and
+their complements, the Match Case option has to be selected.
 
-## 請同樣參考
+## Copyright Notice
 
-- [Q. 規則運算式的例子有哪些？](../../faq/search/search_reg_exp_ex)
-- [指定換行](search_nl)
+The regular expression routines used in EmEditor use Boost library Regex++ and Onigmo.
+
+Copyright (C) Dr John Maddock
+
+Copyright (C) K. Takata, based on Oniguruma Copyright (C) by K. Kosako.
+
+## See Also
+
+- [Q. What are examples of \
+regular expressions?](../../faq/search/search_reg_exp_ex)
+- [To Specify newline characters](search_nl)
 -
 -
-（備注：不支持 **\\nnn** 和 **\\xHH** ）
+(Notes: **\\nnn** and **\\xHH** are unsupported)
 -

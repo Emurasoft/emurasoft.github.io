@@ -1,3 +1,3 @@
-# Q. 如何停用 CSV 偵測？
+# Q. How can I disable CSV detections?
 
-在「工具」功能表上選擇「目前的組態屬性」，選擇「檔案」頁面，然后取消勾選「要偵測的 CSV 檔案」清單方塊中的所有核取方塊。
+Select **Properties for Current Configuration** on the **Tools** menu, select the **File** page, and clear all the check boxes in the **CSV files to detect** list box.

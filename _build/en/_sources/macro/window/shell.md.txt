@@ -1,6 +1,6 @@
-# shell 屬性
+# shell Property
 
-返回 [**Shell** 對象](../shell/index)。
+Returns the [**Shell** Object](../shell/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _shl_ = **shell**;
 
 Set _shl_ = **shell**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

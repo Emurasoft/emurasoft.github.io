@@ -1,33 +1,42 @@
-# 最近關閉的檔案命令
+# Recently Closed Files command
 
-### 摘要
+### Summary
 
-> 打開一個指定的最近關閉的文檔 (多個項目) 。
+> Opens a specified recently closed document (multiple items)
 
-### 說明
+### Description
 
-> 這個命令由多個功能表項目組成，會顯示一清單的最近關閉的檔案。這個命令會打開一個指定的檔案。所顯示的最近訪問的檔案數
-> 可以在 **工具** 功能表 ( **工具** \> **自訂** \> **歷史記錄**) 下的 [**自訂** 對話方塊](../../dlg/customize/index) 中 [**歷史記錄** 頁面](../../dlg/customize/history/index) 上的 **最近使用的檔案數** 文字方塊中設定。
+> This command consists of multiple menu items, displaying a list of recently
+> closed
+> files. This command opens a specified file. The number of files to be
+> displayed as the recent files can be set on the
+> **Number of Recent**
+> **Files** text box on the
+> [**History** page](../../dlg/customize/history/index) of
+> the [**Customize** dialog box](../../dlg/customize/index),
+> under the **Tools** Menu ( **Tools** \> **Customize** \> **History**).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **打開**
-\> **最近關閉的檔案** \> **(選擇檔案名)**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **Open**
+\> **Recently Closed File** \> **(select file name)**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
-- 從 EEID\_RECENT\_CLOSED\_FILE1 到 EEID\_RECENT\_CLOSED\_FILE1 + 63 (從 4800 到 4800 + 63)
+- From EEID\_RECENT\_CLOSED\_FILE1 through EEID\_RECENT\_CLOSED\_FILE1 + 63 (from 4800 through 4800 + 63)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
-> editor.ExecuteCommandByID (4800 + i);  // i 是一個從 0 到 63 的整數
+> editor.ExecuteCommandByID (4800 + i);  // i is an integer from 0
+> through 63
 
 #### \[VBScript\]
 
-> editor.ExecuteCommandByID 4800 + i  ' i 是一個從 0 到 63 的整數
+> editor.ExecuteCommandByID 4800 + i  ' i is an integer from 0 through
+> 63

@@ -1,4 +1,4 @@
-# 注意事項
+# Notices
 
 ```{toctree}
 :maxdepth: 1

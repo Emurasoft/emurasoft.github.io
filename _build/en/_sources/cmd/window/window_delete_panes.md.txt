@@ -1,27 +1,27 @@
-# 移除分割命令
+# Remove Split command
 
-### 摘要
+### Summary
 
-> 移除分割。
+> Removes the split.
 
-### 說明
+### Description
 
-> 從目前的文檔中移除所有視窗分割。
+> Removes all window splits from the current document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **視窗** \> **移除分割**
-- [全部命令](../tools/all_commands): **視窗**  \>
-**分割** \> **移除分割**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: SHIFT+F12
+- Default Menu: **Window** \> **Remove Split**
+- [All Commands](../tools/all_commands): **Window**  \>
+**Split** \> **Remove Split**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: SHIFT+F12
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_DELETE\_PANES (4284)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

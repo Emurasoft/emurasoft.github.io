@@ -1,6 +1,6 @@
 # GET\_COLOR\_INFO
 
-用於 [EE\_GET\_COLOR](../message/ee_get_color) 消息。
+Used by [EE\_GET\_COLOR](../message/ee_get_color) messages.
 
 typedef struct \_GET\_COLOR\_INFO {
 
@@ -22,47 +22,47 @@ int nAttr;
 
 _cbSize_
 
-> \[In\] 以位元為單位的數據結構大小。在發送 [EE\_GET\_COLOR](../message/ee_get_color) 消息之前，把該成員設為 sizeof( GET\_COLOR\_INFO )。
+> \[In\] Size of this data structure, in bytes. Set this member to sizeof( GET\_COLOR\_INFO ) before sending the [EE\_GET\_COLOR](../message/ee_get_color) message.
 
 _bFind_
 
-> \[in\] 指定 TRUE 如果檢索查找的顏色，或 FALSE 如果檢索其他部分的顏色。
+> \[in\] Specifies TRUE if retrieving colors for Find, or FALSE if retrieving colors for one of other parts.
 
 _nIndex_
 
-> \[in\] 指定索引來檢索顏色。如果 bFind 是 FALSE，索引必須低于 MAX\_SMART\_COLOR。
+> \[in\] Specifies the index to retrieve colors. If bFind is FALSE, the index must be less than MAX\_SMART\_COLOR.
 
 _clrText_
 
-> \[out\] 該成員包含文本顏色在從 [EE\_GET\_COLOR](../message/ee_get_color) 消息返回后。該值可以是一個顏色的 RGB 值或下列的值之一。
+> \[out\] This member contains the text color after returning from the [EE\_GET\_COLOR](../message/ee_get_color) message. The value can be an RGB value of the color or one of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | DEFAULT\_COLOR | 使用 Windows 系統顏色。 |
-> | TRANSPARENT\_COLOR | 顏色是透明的。 |
+> | DEFAULT\_COLOR | The Windows system color is used. |
+> | TRANSPARENT\_COLOR | The color is transparent. |
 
 _clrBack_
 
-> \[out\] 該成員包含背景顏色在從 [EE\_GET\_COLOR](../message/ee_get_color) 消息返回后。該值可以是一個顏色的 RGB 值或下列的值之一。
+> \[out\] This member contains the background color after returning from the [EE\_GET\_COLOR](../message/ee_get_color) message. The value can be an RGB value of the color or one of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | DEFAULT\_COLOR | 使用 Windows 系統顏色。 |
-> | TRANSPARENT\_COLOR | 顏色是透明的。 |
+> | DEFAULT\_COLOR | The Windows system color is used. |
+> | TRANSPARENT\_COLOR | The color is transparent. |
 
 _nAttr_
 
-> \[out\] 該成員包含樣式在從 [EE\_GET\_COLOR](../message/ee_get_color) 消息返回后。該值可以是一個顏色的 RGB 值或下列的值之一。
+> \[out\] This member contains the style after returning from the [EE\_GET\_COLOR](../message/ee_get_color) message. The value is one of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | SMART\_COLOR\_FONT\_NORMAL | 字體為標準。 |
-> | SMART\_COLOR\_FONT\_UNDERLINE | 字體帶下劃線。 |
-> | SMART\_COLOR\_FONT\_BOLD | 字體是粗體。 |
-> | SMART\_COLOR\_FONT\_ITALIC | 字體是斜體。 |
-> | SMART\_COLOR\_FONT\_WIGGLY | 字體彎曲。 |
-> | SMART\_COLOR\_FONT\_DOTTED | 如果是行，指定的行帶虛線。 |
+> | SMART\_COLOR\_FONT\_NORMAL | The font is normal. |
+> | SMART\_COLOR\_FONT\_UNDERLINE | The font is underlined. |
+> | SMART\_COLOR\_FONT\_BOLD | The font is bold. |
+> | SMART\_COLOR\_FONT\_ITALIC | The font is italic. |
+> | SMART\_COLOR\_FONT\_WIGGLY | The font is wiggly. |
+> | SMART\_COLOR\_FONT\_DOTTED | In case of lines, the specified lines are dotted. |
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 14.4 或之後的版本。
+> Supported on Version 14.4 or later.

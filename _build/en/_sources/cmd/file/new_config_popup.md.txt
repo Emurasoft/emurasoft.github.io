@@ -1,28 +1,45 @@
-# 新增 (快顯功能表) 命令
+# New (popup menu) command
 
-### 摘要
+### Summary
 
-> 顯示一個快顯功能表來使用指定的組態新增一個檔案。
+> Shows a popup menu to create a new file with a specified
+> configuration.
 
-### 說明
+### Description
 
-> 這個命令會顯示一個新的 EmEditor 視窗并準備一個新的文檔。該命令將不會立即在磁盤上創建新檔案。該檔案會在您輸入并選擇 [**儲存** 命令](file_save) 或 [**另存新檔** 命令](file_save_as) 之後才會被創建。
+> This command displays a new EmEditor window and prepares to start writing a
+> new document. This command will not create a file on disk immediately. The
+> file will not be created until you select the [**Save** \
+> command](file_save) or the [**Save As** command](file_save_as) after you
+> write something.
 >
-> 這個命令會顯示一個快顯功能表，并讓您選擇新增檔案的組態 (例如，Text，HTML，VBScript 等等)。如果指定的組態被組態成模板檔案，該模板會被用作起始文檔。一個模板檔案，新檔案的編碼，換行方式以及字型類別都能在 [**新增檔案詳細信息** 對話方塊](../../dlg/properties/file/new_details/index) 中設置。要打開該對話方塊，可以到點擊 [**當前組態屬性** 按鈕](../tools/customize) (或按 ALT + ENTER)，選擇 [**檔案** 頁面](../../dlg/properties/file/index)，然后點擊 **新增檔案** 按鈕。
+> This command displays a popup menu, and allows you to select a
+> configuration to begin with (such as Text, HTML, VBScript, etc). If the specified configuration is configured with a template file,
+> the template will be used as the starting document. A template file, encoding for a new file,
+> the newline characters, and the font category can be set in
+> the [**New File**\
+> **Details** dialog box](../../dlg/properties/file/new_details/index), which can be accessed by clicking the
+> [**Properties for Current Configuration** \
+> button](../tools/customize) (or press ALT + ENTER), selecting the
+> [**File** page](../../dlg/properties/file/index), and then
+> clicking the **New**
+> **Files**
+> button.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **新增** \> **新增 (快顯功能表)**
-- 工具列: ![](../../images/filenew.gif) (點擊箭頭)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **New** \> **New (Popup Menu)**
+- Toolbar: ![](../../images/filenew.gif) (on
+the arrow)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_NEW\_CONFIG\_POPUP (4281)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

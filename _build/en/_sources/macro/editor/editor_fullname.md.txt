@@ -1,6 +1,7 @@
-# FullName 屬性
+# FullName Property
 
-檢索 EmEditor 可執行檔案 (emeditor.exe) 的完整規格，包括路徑。
+Retrieves the full specification of the EmEditor executable file (emeditor.exe),
+including the path.
 
 #### \[JavaScript\]
 
@@ -10,7 +11,7 @@ _strName_ = editor. **FullName**;
 
 _strName_ = editor. **FullName**
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -24,6 +25,6 @@ strName = editor. **FullName**
 
 alert "The full name of EmEditor is" & strName & "."
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

@@ -1,27 +1,27 @@
-# 尋找非空最短行/儲存格命令
+# Find Non-empty Shortest Line/Cell command
 
-### 摘要
+### Summary
 
-> 尋找非 CSV 文檔中的非空最短行或 CSV 文檔的目前的欄中的非空最短儲存格。
+> Finds the non-empty shortest line in a non-CSV document or non-empty shortest cell in the current column of a CSV document.
 
-### 說明
+### Description
 
-> 尋找非 CSV 文檔中的非空最短行或 CSV 文檔的目前的欄中的非空最短儲存格。
+> Finds the non-empty shortest line in a non-CSV document or non-empty shortest cell in the current column of a CSV document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **搜索** \> **尋找非空最短行/儲存格**
-- [全部命令](../tools/all_commands): **搜索**
-\> **尋找非空最短行/儲存格**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Search** \> **Find Non-empty Shortest Line/Cell**
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Non-empty Shortest Line/Cell**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FIND\_SHORTEST (4050)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

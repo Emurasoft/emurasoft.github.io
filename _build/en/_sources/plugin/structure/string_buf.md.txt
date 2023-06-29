@@ -1,6 +1,6 @@
 # STRING\_BUF
 
-用於 [EE\_INFO 消息](../message/ee_info) 中。
+Used by [EE\_INFO message](../message/ee_info).
 
 typedef struct \_STRING\_BUF {
 
@@ -10,16 +10,16 @@ UINT cchBuf;
 
 } STRING\_BUF;
 
-## 成員
+## Members
 
 _pBuf_
 
-> 指定用於檢索字串的緩沖區。
+> Specifies a buffer to retrieve a string.
 
 _cchBuf_
 
-> 指定以字元為單位的緩沖區大小。
+> Specifies the size of the buffer in characters.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor Professional Version 20.6 或之後的版本。
+> Supported on Version 20.6 or later.

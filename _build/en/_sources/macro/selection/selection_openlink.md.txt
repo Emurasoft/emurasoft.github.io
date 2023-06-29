@@ -1,6 +1,6 @@
-# OpenLink 方法
+# OpenLink Method
 
-打開游標處的超連結。
+Opens the hyperlink at the cursor.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document.selection. **OpenLink**();
 
 document.selection. **OpenLink**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

@@ -1,6 +1,6 @@
-# Path 屬性
+# Path Property
 
-僅檢索當前文檔的路徑，不檢索路徑。
+Retrieves the path of the document without the file name.
 
 #### \[JavaScript\]
 
@@ -10,7 +10,7 @@ _strPath_ = document. **Path**;
 
 _strPath_ = document. **Path**
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -20,6 +20,6 @@ alert( document.Path );
 
 alert document.Path
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

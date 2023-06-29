@@ -1,6 +1,6 @@
-# Interface 屬性
+# Interface Property
 
-返回 [**Interface** 對象](../interface/index)。
+Returns the [**Interface** Object](../interface/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _obj_ = **Interface**;
 
 Set _obj_ = **Interface**
 
-## 版本
+## Version
 
-支持 EmEditor 9.00 或之後的版本。
+Supported on EmEditor Professional Version 9.00 or later.

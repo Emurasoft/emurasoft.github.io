@@ -1,27 +1,27 @@
-# 如何購買命令
+# How to Purchase command
 
-### 摘要
+### Summary
 
-> 顯示如何購買 EmEditor 的信息。
+> Displays information on how to purchase EmEditor.
 
-### 說明
+### Description
 
-> 在「EmEditor 說明」中打開有關「如何購買」的章節。
+> Opens the How to Purchase section in EmEditor Help.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **幫助** \> **如何購買**
-- [全部命令](../tools/all_commands): **幫助** >
-**如何購買**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Help** \> **How to Purchase**
+- [All Commands](../tools/all_commands): **Help** >
+**How to Purchase**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_HELP\_REGIST (4248)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

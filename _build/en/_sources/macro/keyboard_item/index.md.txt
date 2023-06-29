@@ -1,16 +1,16 @@
-# KeyboardItem 對象
+# KeyboardItem Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [Command](command) | 指定命令 ID。 |
-| [Flags](flags) | 指定對象的標志。 |
-| [Key](key) | 指定對象的按鍵。 |
+| [Command](command) | Specifies the command ID. |
+| [Flags](flags) | Specifies the flags of the object. |
+| [Key](key) | Specifies the key of the object. |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

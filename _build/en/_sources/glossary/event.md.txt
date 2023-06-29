@@ -1,3 +1,4 @@
-# 事件
+# Event
 
-被一個程式偵測到的動作或事件的發生。事件可以是使用者的操作，例如點擊游標按鈕或按一個鍵。
+An action or occurrence detected by a program. Events can be user
+actions, such as clicking a mouse button or pressing a key.

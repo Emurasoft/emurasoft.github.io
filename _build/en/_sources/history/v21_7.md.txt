@@ -1,40 +1,40 @@
 # Version 21.7
 
-2022年5月11日
+May 11, 2022
 
-## 一般新增功能
+## New General Features
 
-- 新版本會預設用垂直分割視窗顯示比較檔案的結果，當您選擇 **[比較](../cmd/diff/compare_direct)** 或 **[按參數比較](../cmd/diff/compare_options)** 命令時。之前使用的平鋪視窗顯示仍然可以通過設定選項來實現。
-- 如果重新加載之前捲動位置在底部，則新版本將在重新加載檔案時保持捲動位置在底部。
-- 當在組態屬性的 **檔案** 頁面中選擇 **偵測全部** 選項時，如果 Windows 不支持偵測到的編碼（如 **VISCII**），新版本將繼續以系統預設編碼打開檔案並顯示通知。
-- 改進了 URI 亮顯顯示。
-- 改善了 CSV 選擇模式中的行選取行為。
-- 將 **水平網格** 的預設樣式由 **虛線** 改為 **普通**，並優化 **垂直分隔符** 的繪制速度。
-- 在某些組態（包括 C++）中變更了規則運算式中 **結尾縮排** 的預設值。
-- **批次取代** 對話方塊支持 **多項取代全部**。 **多項取代全部** 會在文檔中同時搜索所有搜索字串，而 **批次取代全部** 則在文檔中一次搜索一個搜索字串，然後重複對每個搜索詞的搜索。 **多項取代全部** 的速度比 **批次取代全部** 快得多。詳細信息請參閱 [**批次取代全部和多項取代全部之間的區別**](../howto/search/batch_vs_bulk)。
+- The new version displays file comparison results in one vertically split window by default when you select the **[Compare](../cmd/diff/compare_direct)** or **[Compare with Options](../cmd/diff/compare_options)** command. The previously used tiled window display is still possible by setting options.
+- The new version will keep the scroll position bottom when the file is reloaded if the scroll position was bottom before reloaded.
+- When the **Detect All** option is set in the **File** page of configuration properties, the detected encoding was unsupported on Windows (such as **VISCII**), the new version will continue to open the file as the system default encoding and show a notification.
+- Improved URI highlighting.
+- Improved line selections in CSV selection mode.
+- Changed the default style of **Horizontal Grid** from **Dotted Lines** to **Normal**, and optimized the drawing speed for **Vertical Separators**.
+- Changed the default value for the **End Indent** in a regular expression in some configurations including C++.
+- Supported **Bulk Replace All** in the **Batch Replace** dialog box. **Bulk Replace All** searches the document simultaneously for all search strings while **Batch Replace All** searches the document for one search string at a time and repeats the search for each search term. **Bulk Replace All** works much faster than **Batch Replace All**. See [**Difference between Batch Replace All and Bulk Replace All**](../howto/search/batch_vs_bulk) for more information.
 
-### 測試結果：
+### Test results:
 
-|  | 批次取代全部（v21.7） | 多項取代全部（v21.7） | 比較 |
+|  | Batch Replace All (v21.7) | Bulk Replace All (v21.7) | Comparison |
 | --- | --- | --- | --- |
-| 取代全部 | 50 分 55 秒 | 0.484 秒 | 快 6310 倍 |
+| Replace All | 50 minutes 55 seconds | 0.484 seconds | 6310 times faster |
 
-\\* 用隨機字串取代 100 萬個隨機字串，忽略大小寫，966 KB，10,000 行，隨機 ASCII 數據。預設選項；操作系統：Windows 11，Core i9-11900K，64GB RAM，2TB SSD。
+\\* Replace 1 million random strings with random strings, ignore case, 966 KB, 10,000 lines, random ASCII data. Default options, Windows 11, Core i9-9900K, 32GB RAM, 2TB SSD.
 
-## 新增選項
+## New Options
 
-- 添加了 **多項取代全部** 按鈕到 **[批次取代](../dlg/replace/index)** 和 **[批次多檔取代](../dlg/replace_in_files/index)** 對話方塊中。
-- 添加了 **多項尋找** 按鈕到 **[批次多檔尋找](../dlg/find_in_files/index)** 和 **[批次多檔取代](../dlg/replace_in_files/index)** 對話方塊中。
-- 添加了 **垂直分割** 選項按鈕到 **比較檔案** 精靈的 **選擇檢視選項** 頁面中。
-- 添加了 **僅在 EmEditor 處於活動狀態時監控檔案** 選項到 **自訂** 對話方塊的 [**檔案** 頁面](../dlg/customize/file/index) 上。
+- Added the **Bulk Replace All** button to the **[Batch Replace](../dlg/replace/index)** and **[Batch Replace in Files](../dlg/replace_in_files/index)** dialog boxes.
+- Added the **Bulk Find** button to the **[Batch Find in Files](../dlg/find_in_files/index)** and **[Batch Replace in Files](../dlg/replace_in_files/index)** dialog boxes.
+- Added the **Split vertically** radio button to the **Select view options** page of the **Compare Files** wizard.
+- Added the **Monitor files only while EmEditor is active** option to the [**File** page](../dlg/customize/file/index) of the **Customize** dialog box.
 
-## 外掛程式的新增功能
+## Plug-in New Features
 
-- 添加了 **FLAG\_FIND\_MULTI** 標志到 [**BATCH\_INFO** 結構](../plugin/structure/batch_info) 中。
-- 添加了 **LFI\_DONT\_ADD\_RECENT** 標志到 [**LOAD\_FILE\_INFO\_EX** 結構](../plugin/structure/load_file_info) 中。
-- 添加了 **COMPARE\_SPLIT\_VERT** 標志到 [**Editor\_Compare** 內嵌函式](../plugin/macro/editor_compare) 以及 [**COMPARE\_INFO** 結構](../plugin/structure/compare_info) 中。
+- Added the **FLAG\_FIND\_MULTI** flag to the [**BATCH\_INFO** structure](../plugin/structure/batch_info).
+- Added the **LFI\_DONT\_ADD\_RECENT** flag to the [**LOAD\_FILE\_INFO\_EX** structure](../plugin/structure/load_file_info).
+- Added the **COMPARE\_SPLIT\_VERT** flag to the [**Editor\_Compare** inline function](../plugin/macro/editor_compare) and [**COMPARE\_INFO** structure](../plugin/structure/compare_info).
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 **eeExFindMulti** 標志到 **Selection** 對象的 [**BatchReplace** 方法](../macro/selection/batch_replace) 和 **Editor** 對象的 **[BatchFindInFiles](../macro/editor/editor_batchfindinfiles)** 和 **[BatchReplaceInFiles](../macro/editor/editor_batchreplaceinfiles)** 方法中。
-- 添加了 **eeCompareSplitVert** 標志到 [**Editor** 對象](../macro/editor/index) 的 [**Compare** 方法](../macro/editor/compare) 中。
+- Added the **eeExFindMulti** flag to the [**BatchReplace** method](../macro/selection/batch_replace) of the **Selection** object and the **[BatchFindInFiles](../macro/editor/editor_batchfindinfiles)** and **[BatchReplaceInFiles](../macro/editor/editor_batchreplaceinfiles)** methods of the **Editor** object.
+- Added the **eeCompareSplitVert** flag to the [**Compare** method](../macro/editor/compare) of the [**Editor** Object](../macro/editor/index).

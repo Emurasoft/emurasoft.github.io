@@ -1,6 +1,6 @@
-# Count 屬性
+# Count Property
 
-檢索 Csv 對象的數目。
+Retrieves the number of Csv objects.
 
 #### \[JavaScript\]
 
@@ -10,16 +10,16 @@ _nCount_ = editor.CsvList. **Count**;
 
 _nCount_ = editor.CsvList. **Count**
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
-alert( "Csv 對象數： " + editor.CsvList.Count );
+alert( "Number of Csv objects: " + editor.CsvList.Count );
 
 #### \[VBScript\]
 
-alert "Csv 對象數： " & editor.CsvList.Count
+alert "Number of Csv objects: " & editor.CsvList.Count
 
-## 版本
+## Version
 
-支持 EmEditor 19.4 或之後的版本。
+Supported on EmEditor Professional Version 19.4 or later.

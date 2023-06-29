@@ -1,28 +1,28 @@
-# 清空輸出列視窗命令
+# Clear Output Bar command
 
-### 摘要
+### Summary
 
-> 清除輸出列視窗中的內容。
+> Clears the contents of the Output Bar.
 
-### 說明
+### Description
 
-> 清除輸出列視窗中的內容。
+> Clears the contents of the Output Bar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** >
-**輸出列** >
-**清空輸出列**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** >
+**Output Bar** >
+**Clear Output**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_OUTPUT\_CLEAR (4452)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

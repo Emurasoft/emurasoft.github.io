@@ -1,6 +1,8 @@
-# WrapMode 屬性
+# WrapMode Property
 
-與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **自動換行** 下拉清單方塊相對應。
+Corresponds to the
+**Wrap by** drop-down list box in the
+[**General** page](../../dlg/properties/general/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,19 +18,19 @@ object. **WrapMode**
 
 object. **WrapMode** = _nMode_
 
-## 參數
+## Parameters
 
 _nMode_
 
-從下列值中選擇。
+Select from the following values.
 
 |     |     |
 | --- | --- |
-| eeWrapNone | 不換行。 |
-| eeWrapByChar | 按指定字元長度 (字節數) 換行。字元長度能在 [**標準行邊距** 文字方塊](../../dlg/properties/general/index) 或 [**引用行邊距** 文字方塊](../../dlg/properties/general/index) 中指定。 |
-| eeWrapByWindow | 按視窗寬度換行。如果視窗的大小被重新調整，換行的位置也會被調整。 |
-| eeWrapByPage | 按列印的頁面寬度換行。 |
+| eeWrapNone | Does not wrap lines. |
+| eeWrapByChar | Wraps by a specified length of characters (in bytes). The length of <br> characters can be specified at <br> [**Normal**\<br>**Line Margin** text box](../../dlg/properties/general/index) or <br> [**Quote**\<br>**Line Margin** text box](../../dlg/properties/general/index). |
+| eeWrapByWindow | Wraps according to the window width. If the window resizes, the wrapped position will resize. |
+| eeWrapByPage | Wraps according to the printed page width. |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

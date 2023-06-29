@@ -1,22 +1,22 @@
-# Interface 對象
+# Interface Object
 
-## 屬性
-
-|     |     |
-| --- | --- |
-| **[x](x)** | 返回被一個支持的外掛程式所傳遞的游標的水平位置。 |
-| **[y](y)** | 返回被一個支持的外掛程式所傳遞的游標的垂直位置。 |
-
-## 方法
+## Properties
 
 |     |     |
 | --- | --- |
-| **[write](write)** | 把一個字串傳遞到一個支持的外掛程式中。 |
-| **[writeln](writeln)** | 把一個字串和新行傳遞到一個支持的外掛程式中。 |
+| **[x](x)** | Returns the horizontal position of the cursor passed by a supported plug-in. |
+| **[y](y)** | Returns the vertical position of the cursor passed by a supported plug-in. |
 
-## 版本
+## Methods
 
-支持 EmEditor 9.00 或之後的版本。
+|     |     |
+| --- | --- |
+| **[write](write)** | Passes a string to a supported plug-in. |
+| **[writeln](writeln)** | Passes a string and a newline character to a supported plug-in. |
+
+## Version
+
+Supported on EmEditor Professional Version 9.00 or later.
 
 ```{toctree}
 :maxdepth: 1

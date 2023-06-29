@@ -1,6 +1,8 @@
-# 「自訂標記」對話方塊
+# Customize Markers dialog box
 
-這個對話方塊會出現當您選擇了 [**自訂標記** 命令](../../cmd/tools/customize_markers)。您可以為標記設定選項。
+This dialog box appears when the
+[**Customize Markers** command](../../cmd/tools/customize_markers) is selected.
+You can set options for Markers.
 
 ```{toctree}
 :maxdepth: 1

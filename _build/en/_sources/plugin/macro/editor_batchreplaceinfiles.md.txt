@@ -1,27 +1,29 @@
 # Editor\_BatchReplaceInFiles
 
-在指定位置取代多個檔案中的多個字串。你能直接用該內嵌函式或明確地發送 [EE\_REPLACE\_IN\_FILESW](../message/ee_replace_in_filesw) 消息。
+Replaces multiple strings in multiple files in the specified location. You can
+use this inline function or explicitly send the
+[EE\_REPLACE\_IN\_FILESW](../message/ee_replace_in_filesw) message.
 
 Editor\_BatchReplaceInFiles( HWND hwnd, FIND\_REPLACE\_INFO\* pBatchArray, BATCH\_GREP\_INFO\* pGrepInfo );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控點。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pBatchArray_
 
-> 指針指向 [FIND\_REPLACE\_INFO 結構](../structure/find_replace_info) 的陣列。
+> Specifies a pointer to the array of [FIND\_REPLACE\_INFO structures](../structure/find_replace_info).
 
 _pBatchGrepInfo_
 
-> 指定指針指向 [BATCH\_GREP\_INFO 結構](../structure/batch_grep_info)。
+> Specifies a pointer to the [BATCH\_GREP\_INFO structure](../structure/batch_grep_info).
 
-## 返回值
+## Return Value
 
-> 如果使用者中止，返回 FALSE，否則返回 TRUE。
+> Returns FALSE if the user aborts, or TRUE if not.
 
-## 版本
+## Version
 
-> 指定 EmEditor Professional 20.0 或之後的版本。
+> Supported on EmEditor Professional Version 15.7 or later.

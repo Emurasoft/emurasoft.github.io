@@ -1,30 +1,35 @@
-# 關閉并打開命令
+# Close and Open command
 
-### 摘要
+### Summary
 
-> 關閉目前的檔案并打開另一個已存在的檔案。
+> Closes the current file and opens another existing file.
 
-### 說明
+### Description
 
-> 這個命令顯示 **打開** 對話方塊，并讓您能選取您想要用 EmEditor 打開的檔案。在一個檔案被選取后，會出現一個提示，問您是否要儲存對之前檔案所做的更改。選擇「是」或「否」來打開選取的檔案。
+> This command displays the **Open** dialog box, and allows you to select
+> a file you would like to open with EmEditor. After a file is selected, a
+> prompt will be displayed asking whether save changes for previous file or not. Selecting either Yes or No will open
+> the selected file.
 >
-> 如果目前的 EmEditor 視窗是無標題的，并且沒有插入任何字元，那么這個命令等同于 [**打開** 命令](file_open)。
+> If the current EmEditor window is untitled and no character is inserted,
+> this command behaves the same as the [**Open** \
+> command](file_open).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檔案** \> **關閉并打開**
-- [全部命令](../tools/all_commands): **檔案** \> **打開**
-\> **關閉并打開**
-- 工具列:
+- Default Menu: **File** \> **Close and Open**
+- [All Commands](../tools/all_commands): **File** \> **Open**
+\> **Close and Open**
+- Toolbar:
 ![](../../images/filecloseopen.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILE\_CLOSE\_OPEN (4098)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,26 +1,27 @@
-# 巨集清單命令
+# Macros List command
 
-### 摘要
+### Summary
 
-> 在我的巨集清單中運行一個指定的巨集 (多個項目) 。
+> Runs a specified macro in My Macros list (multiple items).
 
-### 說明
+### Description
 
-> 這個命令由多個功能表項目組成。這個命令運行一個指定的在「我的巨集」目錄中注冊過的巨集。您可以用 [自訂巨集命令](customize_macro) 來設置您要使用的巨集檔案。
+> This command consists of multiple menu items. This command runs a
+> specified macro registered in the My Macros directory. You may set your Macro file to use in My Macro at the [Customize Macros command](customize_macro).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **巨集** \> ( **選擇巨集名稱**)
-- [全部命令](../tools/all_commands): **巨集**
-\> ( **選擇巨集名稱**)
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Macros** \> ( **select macro name**)
+- [All Commands](../tools/all_commands): **Macros**
+\> ( **select macro name**)
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
-- 從 EEID\_MACRO1 到 EEID\_MACRO1 + 1023 (從 9216 到 9216 + 1023)
+- From EEID\_MACRO1 through EEID\_MACRO1 + 1023 (From 9216 through 9216 + 1023)
 
-### 巨集
+### Macros
 
-> 不可用。
+> Not available.

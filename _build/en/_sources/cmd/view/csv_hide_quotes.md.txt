@@ -1,26 +1,26 @@
-# 暫時隱藏引號命令
+# Hide Quotes Temporarily command
 
-### 摘要
+### Summary
 
-> 暫時顯示目前的 CSV 文檔，不具引號或逸出字元。
+> Temporarily shows the current CSV document without quotation marks or escape characters.
 
-### 說明
+### Description
 
-> 暫時顯示目前的 CSV 文檔，不具引號或逸出字元。
+> Temporarily shows the current CSV document without quotation marks or escape characters.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **CSV** \> **暫時隱藏引號**
-- [全部命令](../tools/all_commands): **CSV** \> **暫時隱藏引號**
-- 工具列: ![](../../images/csv_hide_quotes.gif)
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **CSV** \> **Hide Quotes Temporarily**
+- [All Commands](../tools/all_commands): **CSV** \> **Hide Quotes Temporarily**
+- Toolbar: ![](../../images/csv_hide_quotes.gif)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CSV\_HIDE\_QUOTES (4067)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

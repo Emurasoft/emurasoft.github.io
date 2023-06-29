@@ -1,26 +1,26 @@
-# 欄標題命令
+# Column Header command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏欄標題。
+> Shows or hides the column header.
 
-### 說明
+### Description
 
-> 顯示或隱藏欄標題。在預設設定下，當你打開一個 CSV 檔案時，EmEditor 會顯示欄標題。
+> Shows or hides the column header. EmEditor displays the column header automatically when one of CSV formats is selected if the **Show Column Header** check box is set in the **CSV** page of the **Customize** dialog box.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **CSV** \> **欄標題**
-- [全部命令](../tools/all_commands): **CSV** \> **欄標題**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **CSV** \> **Column Header**
+- [All Commands](../tools/all_commands): **CSV** \> **Column Header**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_HEADER\_TOGGLE (3985)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

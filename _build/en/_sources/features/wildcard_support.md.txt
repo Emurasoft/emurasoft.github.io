@@ -1,3 +1,3 @@
-# 支持萬用字元
+# Wildcard Support
 
-您現在能用萬用字元 (\\* or ?) 指定檔案名稱。有了這個功能，您可以在」Command Prompt」中同時打開多個檔案。
+You can now specify file names with wildcard characters (\* or ?) in command line. With this feature, you can open multiple files in Command Prompt at the same time.

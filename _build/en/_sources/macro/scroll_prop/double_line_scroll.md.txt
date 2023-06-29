@@ -1,6 +1,7 @@
-# DoubleLineScroll 屬性
+# DoubleLineScroll Property
 
-與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **每次捲動兩行** 核取方塊相對應。
+Corresponds to the **Double Line Scroll** check box in the
+[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ object. **DoubleLineScroll**
 
 object. **DoubleLineScroll** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

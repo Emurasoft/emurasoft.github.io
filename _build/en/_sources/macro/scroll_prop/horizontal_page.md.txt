@@ -1,6 +1,7 @@
-# HorizontalPage 屬性
+# HorizontalPage Property
 
-Corresponds to the **總是啟用 1 頁水平捲動** 核取方塊相對應。
+Corresponds to the **Always Enable 1 Page Horizontal Scroll** check box in the
+[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ object. **HorizontalPage**
 
 object. **HorizontalPage** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

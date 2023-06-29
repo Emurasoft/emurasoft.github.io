@@ -1,17 +1,17 @@
 # Editor\_EmptyUndoBuffer
 
-為復原和重做命令清空緩沖區。您能直接用該內嵌函式或明確地發送
+Empties the buffer for the Undo and Redo commands. You can use this inline function or explicitly send the
 [EE\_EMPTY\_UNDO\_BUFFER](../message/ee_empty_undo_buffer)
-消息。
+message.
 
 Editor\_EmptyUndoBuffer( HWND hwnd );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

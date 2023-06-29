@@ -1,6 +1,6 @@
-# MinDetectDelimiter 屬性
+# MinDetectDelimiter Property
 
-與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **要偵測的最小分隔符號數** 文字方塊對應。
+Corresponds to the **Min delimiters to detect** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _n_ = object. **MinDetectDelimiter**
 
 object. **MinDetectDelimiter** = _n_
 
-## 版本
+## Version
 
-支持 EmEditor 19.4 或之後的版本。
+Supported on EmEditor Professional Version 19.4 or later.

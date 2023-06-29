@@ -1,6 +1,6 @@
-# Title 屬性
+# Title Property
 
-檢索或設定文檔標題。標題可以包含由換行符符號分隔的長標題和短標題（\\n 或 Chr(10)）。
+Retrieves or sets the title of the document. The title may contain long and short titles separated by a linefeed (\\n or Chr(10)).
 
 #### \[JavaScript\]
 
@@ -10,7 +10,7 @@ _strTitle_ = document. **Title**;document. **Title** = _strTitle_;
 
 _strTitle_ = document. **Title** document. **Title** = _strTitle_
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -20,6 +20,6 @@ document.Title = "This is a long title.\\nShort title";
 
 document.Title = "This is a long title." & Chr(10) & "Short title"
 
-## 版本
+## Version
 
-支持 EmEditor Professional v21.8 或之後的版本。
+Supported on EmEditor Professional Version 21.8 or later.

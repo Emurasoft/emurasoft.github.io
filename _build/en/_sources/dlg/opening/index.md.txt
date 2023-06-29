@@ -1,11 +1,14 @@
-# 「如何購買」對話方塊
+# How to Purchase dialog box
 
-當 EmEditor 沒有輸入注冊密鑰，或點擊 [**關于 EmEditor** 對話方塊](../about/index) 上的 **「如何購買」** 按鈕時，該對話方塊會出現。
+This dialog box appears when EmEditor launches without entering the
+registration key or when the **How to Purchase**
+button on the [**About EmEditor** dialog box](../about/index) is
+selected.
 
-### (URL) 文本
+### (URL) text
 
-用網頁瀏覽器到訪問該 URL。
+Go to this URL with a Web browser.
 
-### 「說明」按鈕
+### Help button
 
-顯示說明。
+Show registration instructions.

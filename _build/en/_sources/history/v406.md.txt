@@ -1,10 +1,10 @@
 # Version 4.06
 
-2004年8月26日
+August 26, 2004
 
-- 修復了 v4.05 版本無法安裝模板檔案的 bug (template.\*)。
-- 如果編碼是 UTF-8 或 Unicode，狀態列現在回顯示是否帶簽名。
-- 當一個檔案被外部程式修改時，會顯示一條即時消息僅當焦點回復到 EmEditor 中時。
-- 在安裝資料夾被修改后，修復了即使勾選了"添加 EmEditor 到 Internet Explorer v5 或之後的 HTML 編輯器清單"，EmEditor 也沒有顯示在 Internet Explorer 上的 HTML 編輯器清單中的問題。
-- 對于「層疊/平鋪視窗」命令不能移動 Windows XP SP2 上活動視窗的問題進行了改進。
-- 優化了「全部取代」命令。
+- Fixed a bug that the Setup in v4.05 could not install template files (template.\*).
+- If encoding is UTF-8 or Unicode, the status bus now shows with or without signature (BOM).
+- When a file is changed outside, a prompt message will appear only when the EmEditor has a focus.
+- After the installed folder is changed, fixed an issue that EmEditor does not appear in HTML editor list in Internet Explorer even if "Add EmEditor to Internet Explorer v5 or later HTML editor list" is checked during the installation.
+- Worked around an issue that Cascade/Tile Windows command did not move the active window on Windows XP SP2.
+- Optimized the Replace All command.

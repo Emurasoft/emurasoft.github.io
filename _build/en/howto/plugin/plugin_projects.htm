@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>To Use Projects Plug-in &#8212; EmEditor  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="Index" href="../../genindex.htm" />
+    <link rel="search" title="Search" href="../../search.htm" />
+    <link rel="next" title="To Change Plug-in Properties" href="plugin_prop.htm" />
+    <link rel="prev" title="To Use Open Documents Plug-in" href="plugin_opendocuments.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  documentation</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+                    English
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/howto/plugin/plugin_projects">English</a>
+                <a href="/emeditor-help/ja/howto/plugin/plugin_projects">日本語</a>
+                <a href="/emeditor-help/ko/howto/plugin/plugin_projects">한국어</a>
+                <a href="/emeditor-help/zh-cn/howto/plugin/plugin_projects">简体中文</a>
+                <a href="/emeditor-help/zh-tw/howto/plugin/plugin_projects">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">Quick search</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.htm">Command Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.htm">Dialog Boxes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">History</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">How to …</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.htm">Customize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.htm">Edit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.htm">File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro/index.htm">Macros</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.htm">Plug-ins</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="plugin_commit_list.htm">To Use CommitList Plug-in</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_develop.htm">To Develop Plug-ins</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_explorer.htm">To Use Explorer Plug-in</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_htmlbar.htm">To Use HTMLBar Plug-in</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_install.htm">To Install Plug-ins</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_opendocuments.htm">To Use Open Documents Plug-in</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">To Use Projects Plug-in</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_prop.htm">To Change Plug-in Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_search.htm">To Use Search Plug-in</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_snippets.htm">To Use Snippets Plug-in</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_uninstall.htm">To Uninstall Plug-ins</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_webpreview.htm">To Use Web Preview Plug-in</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_wordcomplete.htm">To Use Word Complete Plug-in</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_wordcount.htm">To Use Word Count Plug-in</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.htm">Search</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.htm">View</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.htm">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">Links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">Macro Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">Notices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.htm">Plug-in Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">How to Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">Support</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">How to …</a> &lt;
+                    <a href="index.htm">Plug-ins</a> &lt;
+                To Use Projects Plug-in
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="to-use-projects-plug-in">
+<h1>To Use Projects Plug-in<a class="headerlink" href="#to-use-projects-plug-in" title="Permalink to this heading">¶</a></h1>
+<p>The <strong>Projects</strong> plug-in is installed by default with EmEditor Professional. This plug-in displays folder trees and allows you to open files from the folder trees.</p>
+<p>To create a new project using the <strong>Projects</strong> plug-in:</p>
+<ol class="arabic simple">
+<li><p>Click <strong><img alt="" src="../../_images/projects.gif" /></strong> on the <strong>Projects</strong> bar. Or on the <strong>Tools</strong> menu, point to <strong>Plug-ins</strong>, and then click <strong>Projects</strong>. The <strong>Projects</strong> custom bar will appear.</p></li>
+<li><p>Right-click in the <strong>Projects</strong> bar, and select <strong>New Projects</strong>.</p></li>
+<li><p>Right-click on <strong>Untitled Project</strong>, and select <strong>Add Existing Files</strong>.</p></li>
+<li><p>Select all files you want to include in the project.</p></li>
+</ol>
+<section id="the-projects-plug-in-commands">
+<h2>The Projects Plug-in Commands<a class="headerlink" href="#the-projects-plug-in-commands" title="Permalink to this heading">¶</a></h2>
+<p>Right clicking on the Projects bar shows the following options:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Expand/Collapse</strong></p></td>
+<td><p>expands or collapses the node.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Open All</strong></p></td>
+<td><p>opens all files in the folder.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Open</strong></p></td>
+<td><p>opens the file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Open as Read-Only</strong></p></td>
+<td><p>opens the file as read-only.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Open with Encoding</strong></p></td>
+<td><p>opens the file with a specified encoding.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>New Folder</strong></p></td>
+<td><p>creates a new folder.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Cut</strong></p></td>
+<td><p>cuts the selected item and moves it to the Clipboard.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Copy</strong></p></td>
+<td><p>copies the selected item and pastes it to the Clipboard.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Paste</strong></p></td>
+<td><p>inserts the contents of the Clipboard.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Remove</strong></p></td>
+<td><p>removes the selected item.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Rename</strong></p></td>
+<td><p>renames the selected item.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Run Solution</strong></p></td>
+<td><p>runs the solution.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>New Solution</strong></p></td>
+<td><p>creates a new solution.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Open Solution</strong></p></td>
+<td><p>opens an existing solution.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Save Solution As</strong></p></td>
+<td><p>saves the solution file with a new name.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>List of Recent Solutions</strong></p></td>
+<td><p>opens a specified recently accessed solution (multiple items).</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>New Project</strong></p></td>
+<td><p>creates a new project.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Open Project</strong></p></td>
+<td><p>opens an existing project.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Save Project As</strong></p></td>
+<td><p>saves the project file with a new name.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Add Existing Files</strong></p></td>
+<td><p>adds existing files to the project.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Add Active File</strong></p></td>
+<td><p>adds the active file to the project.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Add All Open Files</strong></p></td>
+<td><p>adds the all open files to the project.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>List of Recent Projects</strong></p></td>
+<td><p>opens a specified recently accessed project (multiple items).</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Set as Startup Project</strong></p></td>
+<td><p>sets the specified project as the startup project.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>File Name Only</strong></p></td>
+<td><p>displays the file name only for each item.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Relative Path</strong></p></td>
+<td><p>displays the relative path for each item.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Full Path</strong></p></td>
+<td><p>displays the full path for each item.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Refresh Symbol List</strong></p></td>
+<td><p>refreshes the symbol list for the current project.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Refresh All Symbol Lists</strong></p></td>
+<td><p>refreshes the symbol lists for all projects.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Symbol List</strong></p></td>
+<td><p>shows or hides the symbol list.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Configuration</strong></p></td>
+<td><p>lists the available configurations.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Platform</strong></p></td>
+<td><p>lists the available platforms.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Properties for Current Solution Template</strong></p></td>
+<td><p>displays the properties for the current solution template.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Solution Templates</strong></p></td>
+<td><p>defines solution templates.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Plug-in Properties</strong></p></td>
+<td><p>displays the plug-in properties.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>List of Tools</strong></p></td>
+<td><p>runs a specified tool.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="the-projects-plug-in-toolbar">
+<h2>The Projects plug-in toolbar<a class="headerlink" href="#the-projects-plug-in-toolbar" title="Permalink to this heading">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong><img alt="" src="../../_images/newsolution.gif" /> New Solution</strong></p></td>
+<td><p>creates a new solution.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="" src="../../_images/opensolution.gif" /> Open Solution</strong></p></td>
+<td><p>opens an existing solution.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><img alt="" src="../../_images/runsolution.gif" /> Run Solution</strong></p></td>
+<td><p>runs the open solution.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="" src="../../_images/parameterinformation.gif" /> Parameter Information</strong></p></td>
+<td><p>displays the parameter information.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><img alt="" src="../../_images/gotodefinition.gif" /> Go to Definition</strong></p></td>
+<td><p>causes the cursor to jump to definitions.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="" src="../../_images/popbrowsecontent.gif" /> Pop Browse Context</strong></p></td>
+<td><p>causes the cursor to return to the previous.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><img alt="" src="../../_images/symbollist.gif" /> Symbol List</strong></p></td>
+<td><p>displays a list of symbols.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="" src="../../_images/propertiesforcurrentsolutiontemplate.gif" /> Properties for Current Solution Template</strong></p></td>
+<td><p>displays the customizable properties for the current solution template. The General tab includes the Solution Format, File Extension, and Read Only option. The Configurations tab includes Configurations, Platforms, and Macros. The <br> Symbols tab includes, Refresh All Symbol Lists Automatically and Additional Parameters to Ctags. The Tools tab includes customizable tools. The Keyboard page includes the option to assign commands to keyboard shortcuts for this plug-in.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><img alt="" src="../../_images/solutiontemplates.gif" /> Solution Templates</strong></p></td>
+<td><p>displays the <strong>Solution Template</strong> dialog box.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong><img alt="" src="../../_images/pluginproperties.gif" /> Plug-in Properties</strong></p></td>
+<td><p>displays the plug-in Properties.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="solution-templates">
+<h2>Solution Templates<a class="headerlink" href="#solution-templates" title="Permalink to this heading">¶</a></h2>
+<p>Every solution you create, open or save in the Projects plug-in belongs to a solution template. Each solution template specifies the associated file extension’s characteristics, including solution formats, macros, tools, and keyboard shortcuts.
+When you open a solution file, a solution template associated with the file extension is selected and behaves per the characteristics defined for the template.</p>
+</section>
+<section id="solution-templates-dialog-box">
+<h2>Solution Templates dialog box<a class="headerlink" href="#solution-templates-dialog-box" title="Permalink to this heading">¶</a></h2>
+<p>This dialog box appears when you click the <img alt="" src="../../_images/solutiontemplates.gif" /> button. Available solution templates are displayed in the list. Click the Properties button to display the properties of the selected solution template.</p>
+</section>
+<section id="solution-template-properties">
+<h2>Solution Template Properties<a class="headerlink" href="#solution-template-properties" title="Permalink to this heading">¶</a></h2>
+<p><strong>General tab</strong></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Solution Format</strong></p></td>
+<td><p>selects a solution format. Currently, only <strong>EmEditor</strong> and <strong>Visual Studio</strong> can be selected.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>File Extension</strong></p></td>
+<td><p>specifies the file extension for solution files. When you open a solution file, a solution template associated with the file extension is selected.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Read Only</strong></p></td>
+<td><p>specifies whether the solution is read only. If you set to read only, you won’t be able to add files to the solution, and the project files won’t be overridden when a solution is saved.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Files to Include</strong></p></td>
+<td><p>specifies file types that are included when you drag and drop files <br> to a project tree. For example, you would specify “*.c;*.cpp” if you <br> would like to include both .c and .cpp files.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Files to Exclude</strong></p></td>
+<td><p>specifies file types that are excluded when you drag and drop files <br> to a project tree. For example, you would specify “*.com;*.exe” if <br> you would like to exclude both .com and .exe files.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Folder to Exclude</strong></p></td>
+<td><p>specifies folder names that are excluded when you drag and drop <br> files to a project tree. For example, you would specify <br> “*folder1;folder2” if you would like to exclude both “folder1” and <br> “folder2” folders.</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Configurations tab</strong></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Configurations</strong></p></td>
+<td><p>selects a defined configuration. Selecting <New> allows you to define a new configuration. Selecting <Edit> allows you to delete a configuration.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Platforms</strong></p></td>
+<td><p>selects a defined platform. Selecting <New> allows you to define a new platform. Selecting <Edit> allows you to delete a platform.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Macros</strong></p></td>
+<td><p>displays the list of defined macros. It allows you to specify a value for each macro and for the combination of each configuration and platform.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>New</strong></p></td>
+<td><p>creates a new macro.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Delete</strong></p></td>
+<td><p>deletes a selected macro.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Rename</strong></p></td>
+<td><p>renames a selected macro.</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Symbols tab</strong></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Refresh All Symbol Lists Automatically</strong></p></td>
+<td><p>specifies whether to update the symbol list when a new file is added.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Additional Parameters to Ctags (advanced option)</strong></p></td>
+<td><p>specifies additional parameters to Ctags. This is an advanced option, and setting wrong parameters may prevent the symbol list from working properly.</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Tools tab</strong></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Tools</strong></p></td>
+<td><p>displays the list of defined tools.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>New</strong></p></td>
+<td><p>creates a new tool.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Delete</strong></p></td>
+<td><p>deletes the selected tool.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Copy</strong></p></td>
+<td><p>copies the selected tool.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Up</strong></p></td>
+<td><p>moves the selected tool up on the list.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Down</strong></p></td>
+<td><p>moves the selected tool down on the list.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Properties</strong></p></td>
+<td><p>shows or edits the selected tool properties.</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Keyboard page</strong></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Commands</strong></p></td>
+<td><p>lists available commands.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Press New Shortcut Key</strong></p></td>
+<td><p>enter shortcut key for the selected command.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Current Keys</strong></p></td>
+<td><p>current keys assigned to the selected command.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Assign</strong></p></td>
+<td><p>assigns the shortcut key to the currently selected command.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Delete</strong></p></td>
+<td><p>deletes the selected key.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="creating-configurations-and-macros-for-solutions">
+<h2>Creating Configurations and Macros for Solutions<a class="headerlink" href="#creating-configurations-and-macros-for-solutions" title="Permalink to this heading">¶</a></h2>
+<p>Under Configurations properties in the Properties for Current Solution Template dialog box, you can create new and edit configurations and macros. To create a new configuration:</p>
+<ol class="arabic simple">
+<li><p>Click <Default> under configurations, then click <New>.</p></li>
+<li><p>You can specify the configuration name. For example, create a configuration named, Debug.</p></li>
+<li><p>You can create macros for each configuration.</p></li>
+<li><p>Under macros, click New. Name the macro OPTIONS and specify its value as /D _Debug.</p></li>
+<li><p>Now create another configuration named Release.</p></li>
+<li><p>Under the Release configuration, for the macro named OPTIONS, specify its value as /O1.</p></li>
+<li><p>Now you have specified configurations, and macros for each configuration.</p></li>
+</ol>
+</section>
+<section id="creating-tools-for-solutions">
+<h2>Creating Tools for Solutions<a class="headerlink" href="#creating-tools-for-solutions" title="Permalink to this heading">¶</a></h2>
+<p>Under Tools properties, in the Properties for Current Solution Template dialog box, you can create new tools. Tools Properties allows you to specify the Title, Command, Arguments, Initial Directory, Icon Path, and Current Icon, among other
+options. The Tools Properties provides some predefined Arguments, such as File Path and Current Line. To create a new tool:</p>
+<ol class="arabic simple">
+<li><p>Click New in the Tools Properties dialog box.</p></li>
+<li><p>Name the tool, Compile.</p></li>
+<li><p>Specify the Command, for example, C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\cl.exe.</p></li>
+<li><p>Specify the Argument, for example, <span class="math notranslate nohighlight">\((OPTIONS) \)</span>(Path).</p></li>
+<li><p>Specify the Initial Directory, for example, $(Dir).</p></li>
+<li><p>Specify the Icon Path and Current Icon.</p></li>
+<li><p>Click the Saves Files button to direct the tool to save the files.</p></li>
+<li><p>Click the Use Output Bar to specify the desired Output Encoding.</p></li>
+<li><p>When finished, click OK.</p></li>
+</ol>
+</section>
+<section id="predefined-arguments">
+<h2>Predefined Arguments<a class="headerlink" href="#predefined-arguments" title="Permalink to this heading">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>$(Path)</strong></p></td>
+<td><p>the full path and name of the active document.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(Dir)</strong></p></td>
+<td><p>the <br> directory of the active document.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(Filename)</strong></p></td>
+<td><p>the file name of the active document without file extension.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(Ext)</strong></p></td>
+<td><p>the file <br> extension of the active document.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(RelPath)</strong></p></td>
+<td><p>the <br> relative path and name of the active document.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(CurLine)</strong></p></td>
+<td><p>the line <br> number of current line.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(CurText)</strong></p></td>
+<td><p>the word of <br> the current cursor position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(Solution)</strong></p></td>
+<td><p>the full path and name of the solution file.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(Project)</strong></p></td>
+<td><p>the full path and name of the project file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(SolutionDir)</strong></p></td>
+<td><p>the directory of the solution.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(ConfigurationName)</strong></p></td>
+<td><p>the active configuration name.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(PlatformName)</strong></p></td>
+<td><p>the active platform name.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(FrameworkSDKDir)</strong></p></td>
+<td><p>framework <br> SDK directory with trailing backslash.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(VCInstallDir)</strong></p></td>
+<td><p>the Visual <br> C++ install directory with trailing backslash.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(VSInstallDir)</strong></p></td>
+<td><p>the Visual <br> Studio install directory with trailing backslash.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(WindowsSdkDir)</strong></p></td>
+<td><p>the Windows <br> SDK install directory without trailing backslash.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(LatestFrameworkDir)</strong></p></td>
+<td><p>the <br> Framework directory.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(SourceSafe)</strong></p></td>
+<td><p>full path and name of Visual SourceSafe executable (ss.exe).</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>$(SccProjectName)</strong></p></td>
+<td><p>the project <br> name for SourceSafe.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sub-arguments">
+<h2>Sub Arguments<a class="headerlink" href="#sub-arguments" title="Permalink to this heading">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>f</strong></p></td>
+<td><p>file name without extension.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>d</strong></p></td>
+<td><p>directory.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>x</strong></p></td>
+<td><p>file extension.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this heading">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>$(Project,d)</strong></p></td>
+<td><p>returns the directory of the project file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>$(Solution,f)</strong></p></td>
+<td><p>returns the file name without extension of the solution file.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong><span class="math notranslate nohighlight">\((Solution,f).\)</span>(Solution,x)</strong></p></td>
+<td><p>returns the file name with extension of the solution file.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tips">
+<h2>Tips<a class="headerlink" href="#tips" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Press the <strong>F6</strong> key or <strong>ESC</strong> key to set the keyboard focus back to the editor.</p></li>
+<li><p>You may save <strong>Untitled Project</strong> by right-clicking on <strong>Untitled Project</strong>, and selecting <strong>Save Project As</strong>.</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">To Use Projects Plug-in</a><ul>
+<li><a class="reference internal" href="#the-projects-plug-in-commands">The Projects Plug-in Commands</a></li>
+<li><a class="reference internal" href="#the-projects-plug-in-toolbar">The Projects plug-in toolbar</a></li>
+<li><a class="reference internal" href="#solution-templates">Solution Templates</a></li>
+<li><a class="reference internal" href="#solution-templates-dialog-box">Solution Templates dialog box</a></li>
+<li><a class="reference internal" href="#solution-template-properties">Solution Template Properties</a></li>
+<li><a class="reference internal" href="#creating-configurations-and-macros-for-solutions">Creating Configurations and Macros for Solutions</a></li>
+<li><a class="reference internal" href="#creating-tools-for-solutions">Creating Tools for Solutions</a></li>
+<li><a class="reference internal" href="#predefined-arguments">Predefined Arguments</a></li>
+<li><a class="reference internal" href="#sub-arguments">Sub Arguments</a></li>
+<li><a class="reference internal" href="#examples">Examples</a></li>
+<li><a class="reference internal" href="#tips">Tips</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

@@ -1,7 +1,8 @@
-# 激活另一個視窗
+# To Activate Another Window
 
-從 **視窗** 功能表下選擇所要顯示的文檔視窗。
+Select the desired window from the **Window** menu.
 
-**提示**
+**Tips**
 
-另外，您也可以用游標右鍵單擊系統匣圖示，選擇所要的視窗。
+Alternatively, click the tray icon with the right mouse button, and select
+the desired menu.

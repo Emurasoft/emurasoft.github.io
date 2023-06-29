@@ -1,26 +1,26 @@
-# 複製行命令
+# Duplicate Line command
 
-### 摘要
+### Summary
 
-> 創建目前的邏輯行的副本。
+> Duplicates the current logical line.
 
-### 說明
+### Description
 
-> 在目前的游標位置下方插入目前的邏輯行的副本。
+> Inserts a copy of the current logical line below the current cursor position.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **插入** \> **複製行**
-- [全部命令](../tools/all_commands): **插入** \> **複製行**
-- 工具列: ![](../../images/duplicateline.gif)
-- 狀態列: 無
-- 預設捷徑: CTRL+SHIFT+Y
+- Default Menu: **Insert** \> **Duplicate Line**
+- [All Commands](../tools/all_commands): **Insert** \> **Duplicate Line**
+- Toolbar: ![](../../images/duplicateline.gif)
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+SHIFT+Y
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_DUPLICATE\_LINE (4328)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

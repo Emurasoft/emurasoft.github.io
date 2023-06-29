@@ -1,27 +1,27 @@
-# 打開 EmEditor 首頁命令
+# Go to EmEditor Home page command
 
-### 摘要
+### Summary
 
-> 打開 EmEditor 網站首頁。
+> Opens the EmEditor web site.
 
-### 說明
+### Description
 
-> 在您預設的網絡瀏覽器中打開 EmEditor 網站。
+> Opens the EmEditor web site in your default internet browser.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **幫助** \> **打開 EmEditor 首頁**
-- [全部命令](../tools/all_commands): **幫助** >
-**打開 EmEditor 首頁**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **Help** \> **Go to EmEditor Home Page**
+- [All Commands](../tools/all_commands): **Help** >
+**Go to EmEditor Home Page**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_WEB\_HOME (4249)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

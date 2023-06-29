@@ -1,6 +1,6 @@
-# Csv 屬性
+# Csv Property
 
-檢索 [**Csv** 對象](../csv/index)。
+Retrieves the [**Csv** Object](../csv/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _mycsv_ = document. **Csv;**
 
 Set _mycsv_ = document. **Csv**
 
-## 版本
+## Version
 
-支持 EmEditor 15.2 或之後的版本。
+Supported on EmEditor Professional Version 15.2 or later.

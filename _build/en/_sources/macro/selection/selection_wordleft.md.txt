@@ -1,6 +1,6 @@
-# WordLeft 方法
+# WordLeft Method
 
-把游標向左移指定的單字數。
+Moves the cursor the specified number of words to the left.
 
 #### \[JavaScript\]
 
@@ -10,17 +10,19 @@ document.selection. **WordLeft**( \[ _bExtend_ \[, _nCount_ \] \] );
 
 document.selection. **WordLeft** \[ _bExtend_ \[, _nCount_ \] \]
 
-## 參數
+## Parameters
 
 _bExtend_
 
-可選項。指定是否折疊被移動的文字。預設的值為 false，并且所移動的文字被折疊。
+Optional. Specifies whether the moved text is collapsed or not. The default
+is false and the moved text is collapsed.
 
 _nCount_
 
-可選項。指定向左移的單字數。預設值是 1。如果指定的是負數，該方法與 [**WordRight** \
-方法](selection_wordright) 的行為相同。如果指定值為 0，該方法的行為與指定值為 1 時的行為相同。
+Optional. Specifies the number of words to move to the left. The default is
+1\. If negative, the method acts like the [**WordRight** \
+Method](selection_wordright). If 0, the method acts like 1.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

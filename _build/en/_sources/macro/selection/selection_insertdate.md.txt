@@ -1,6 +1,6 @@
-# InsertDate 方法
+# InsertDate Method
 
-插入目前的時間和日期。
+Inserts the current time and date.
 
 #### \[JavaScript\]
 
@@ -10,21 +10,23 @@ document.selection. **InsertDate**( _nFlags_ );
 
 document.selection. **InsertDate** \[ _nFlags_ \]
 
-## 參數
+## Parameters
 
 _nFlags_
 
-指定一個下列值的組合:
+Specifies a combination of the following values:
 
 |     |     |
 | --- | --- |
-| eeDateTimeDate | 指定時間，后跟一個空白，然后日期。 |
-| eeDateDateTime | 指定日期，后跟一個空白，然后時間。 |
+| eeDateTimeDate | Specifies the time followed by a space and then by the date. |
+| eeDateDateTime | Specifies the date followed by a space and then by the time. |
 
-## 備注
+## Remarks
 
-用於時間與日期的格式能在 Windows 上被組態，通過到 **控制面板** 中的 **區域語言選項** 上，然后選擇 **日期與時間**。
+The formats used for the time and date can be configured in Windows by
+selecting the **Regional & Language Options** in **Control Panel**, then
+selecting **Date & Time**.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

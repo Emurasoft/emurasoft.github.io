@@ -1,26 +1,28 @@
-# 向下捲動一行命令
+# Scroll Line Down command
 
-### 摘要
+### Summary
 
-> 將文檔向下捲動一行。
+> Scrolls the document down by one line.
 
-### 說明
+### Description
 
-> 將文檔向下捲動一行。然而，視窗會捲動兩行如果 **每次捲動兩行** 核取方塊被勾選，該核取方塊在組態屬性對話方塊中的 [**捲動** 頁面](../../dlg/properties/scroll/index) 上。
+> Scrolls the document down by one line. However, the window scrolls two lines if the
+> **Double Line Scroll** check box is checked on the
+> [**Scroll** page](../../dlg/properties/scroll/index) in the Configuration Properties dialog box.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **視窗** \> **捲動** \> **向下一行**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: CTRL+向下鍵
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Line Down**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+DOWN ARROW
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_SCROLL\_DOWN (4171)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

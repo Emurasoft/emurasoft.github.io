@@ -1,27 +1,30 @@
-# 大綱屬性命令
+# Outline Properties command
 
-### 摘要
+### Summary
 
-> 目前的組態的大綱屬性。
+> Displays Outlining properties.
 
-### 說明
+### Description
 
-> 顯示 **[組態屬性](../../dlg/properties/index)** 對話方塊中的 [**大綱** 頁面](../../dlg/properties/outline/index)。
+> Displays the [**Outline** \
+> page](../../dlg/properties/outline/index)
+> of the **[Configuration Properties](../../dlg/properties/index)**
+> dialog box.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具** >
-**當前組態屬性** \> **大綱**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](all_commands): **Tools** >
+**Properties for Current Configuration** \> **Outline**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_PROPERTY\_OUTLINE (8976)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

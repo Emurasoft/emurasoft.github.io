@@ -1,6 +1,6 @@
-# write 方法
+# write Method
 
-在當前光標位置處插入或改寫一個字符串。
+Inserts or overwrites a string at the current cursor position.
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ document. **write**( _str_ );
 
 document. **write** _str_
 
-## 參數
+## Parameters
 
 _str_
 
-指定要插入或改寫為的字符串。
+Specifies the string to be inserted or overwritten.
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -26,6 +26,6 @@ document. **write**( "Hello" );
 
 document. **write** "Hello"
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

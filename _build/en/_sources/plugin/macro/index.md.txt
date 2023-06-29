@@ -1,165 +1,165 @@
-# 內嵌函式
+# Inline Functions
 
 |     |     |
 | --- | --- |
-| [Editor\_ActivateTemp](editor_activatetemp) | 激活臨時文字。 |
-| [Editor\_AddRef](editor_addref) | 遞增外掛程式的引用號。 |
-| [Editor\_AutoFill](editor_autofill) | 對 CSV 文檔執行自動填滿或快速填入操作。 |
-| [Editor\_BatchFindInFiles](editor_batchfindinfiles) | 從指定路徑中的多個檔案中搜索多個字串。 |
-| [Editor\_BatchFindReplace](editor_batchfindreplace) | 搜索或取代多個字串。 |
-| [Editor\_BatchReplaceInFiles](editor_batchreplaceinfiles) | 在指定位置取代多個檔案中的多個字串。 |
-| [Editor\_CloseTemp](editor_closetemp) | 關閉臨時文字。 |
-| [Editor\_Compare](editor_compare) | 比較兩個檔案。 |
-| [Editor\_Convert](editor_convert) | 轉換字元。 |
-| [Editor\_ConvertCsv](editor_convertcsv) | 轉換目前的文檔的 CSV 格式。 |
-| [Editor\_CustomBarOpen](editor_custombaropen) | 打開自訂顯示條。 |
-| [Editor\_CustomBarClose](editor_custombarclose) | 關閉自訂顯示條。 |
-| [Editor\_DevToView](editor_devtoview) | 轉換指定位置的設備 (客戶端) 坐標來顯示坐標。 |
-| [Editor\_DocGetConfigA](editor_docgetconfiga) | 用一個 ANSI 字串檢索選取的組態名稱。 |
-| [Editor\_DocGetConfigW](editor_docgetconfigw) | 為指定的文檔檢索選取的組態名稱并把它作為一個 Unicode 字串。 |
-| [Editor\_DocGetLines](editor_docgetlines) | 檢索指定文檔的行數。 |
-| [Editor\_DocGetModified](editor_docgetmodified) | 檢索指定文檔的文字的修改狀態。 |
-| [Editor\_DocInfo](editor_docinfo) | 檢索或設置用於 EmEditor 的信息參數之一的值。 |
-| [Editor\_DocInfoEx](editor_docinfoex) | 檢索或設置用於 EmEditor 的信息參數之一的值。 |
-| [Editor\_DocSaveFileA](editor_docsavefilea) | 儲存指定文檔中的文字到另一個指定的檔案中 (ANSI)。 |
-| [Editor\_DocSaveFileW](editor_docsavefilew) | 儲存指定文檔中的文字到另一個指定的檔案中 (Unicode)。 |
-| [Editor\_DocSetConfigA](editor_docsetconfiga) | 把指定文檔變更為一個用 ANSI 字串指定的組態。 |
-| [Editor\_DocSetConfigW](editor_docsetconfigw) | 把指定文檔變更為一個用 Unicode 字串指定的組態。 |
-| [Editor\_DoIdle](editor_doidle) | 重新整理工具列，視窗標題，標籤頁及其他。 |
-| [Editor\_EditColumn](editor_editcolumn) | 移動，復制，刪除，或合併目前的 CSV 文檔中的指定欄。 |
-| [Editor\_EditTemp](editor_edittemp) | 把臨時文字作為一個新文檔打開。 |
-| [Editor\_EnumConfig](editor_enumconfig) | 列舉可用的組態。 |
-| [Editor\_EnumHighlight](editor_enumhighlight) | 列舉亮顯的字串。 |
-| [Editor\_EmptyUndoBuffer](editor_emptyundobuffer) | 為復原和重做命令清空緩衝區。 |
-| [Editor\_ExecCommand](editor_execcommand) | 執行一個指定的命令。 |
-| [Editor\_ExecPlugin](editor_execplugin) | 執行一個指定的外掛程式。 |
-| [Editor\_ExtractFrequent](editor_extractfrequent) | 將常用字串抽出到新文檔中。 |
-| [Editor\_Filter](editor_filter) | 用指定的字串以及設定來篩選文檔。 |
-| [Editor\_FindA](editor_finda) | 搜尋一個 ANSI 字串。 |
-| [Editor\_FindInFiles](editor_findinfiles) | 在指定路徑的多個檔案中搜尋一個字串。 |
-| [Editor\_FindInFilesA](editor_findinfilesa) | 在指定路徑的多個檔案中搜尋一個 ANSI 字串。 |
-| [Editor\_FindInFilesW](editor_findinfilesw) | 在指定路徑的多個檔案中搜尋一個 Unicode 字串。 |
-| [Editor\_FindRegex](editor_findregex) | 用規則運算式搜尋一個字串。 |
-| [Editor\_FindReplace](editor_findreplace) | 搜尋或取代一個字串。 |
-| [Editor\_FindW](editor_findw) | 搜尋一個 Unicode 字串。 |
-| [Editor\_Free](editor_free) | 釋放一個指定的外掛程式。 |
-| [Editor\_GetAccelArray](editor_getaccelarray) | 檢索快速鍵的數組。 |
-| [Editor\_GetActiveString](editor_getactivestring) | 檢索主動字串。 |
-| [Editor\_GetAnchorPos](editor_getanchorpos) | 檢索選區的原點。 |
-| [Editor\_GetAttr](editor_getattr) | 在剪貼簿記錄中的指定位置處刪除文字。 |
-| [Editor\_GetCaretPos](editor_getcaretpos) | 檢索目前的游標位置。 |
-| [Editor\_GetCell](editor_getcell) | 在指定的單元格內檢索 Unicode 文字。 |
-| [Editor\_GetClip](editor_getclip) | 在剪貼簿記錄中的指定位置處檢索文字。 |
-| [Editor\_GetClipPos](editor_getclippos) | 檢索剪貼簿記錄中的目前的位置。 |
-| [Editor\_GetCmdID](editor_getcmdid) | 獲得外掛程式命令 ID。 |
-| [Editor\_GetColor](editor_getcolor) | 檢索指定部分的文字、背景顏色以及樣式。 |
-| [Editor\_GetColumn](editor_getcolumn) | 在 CSV 模式中設置一欄文字。 |
-| [Editor\_GetConfigA](editor_getconfiga) | 檢索所選取的組態名稱為 ANSI 字串。 |
-| [Editor\_GetConfigW](editor_getconfigw) | 檢索所選取的組態名稱為 Unicode 字串。 |
-| [Editor\_GetDroppedFile](editor_getdroppedfile) | 檢索最近拖放的檔案。 |
-| [Editor\_GetFilter](editor_getfilter) | 檢索當前文檔的篩選字符串及設定。 |
-| [Editor\_GetLineA](editor_getlinea) | 在指定行檢索 ANSI 文字。 |
-| [Editor\_GetLines](editor_getlines) | 檢索目前的文檔的行數。 |
-| [Editor\_GetLineW](editor_getlinew) | 檢索指定行的 Unicode 文字。 |
-| [Editor\_GetMargin](editor_getmargin) | 檢索邊距大小。 |
-| [Editor\_GetModified](editor_getmodified) | 檢索文字的修改狀態。 |
-| [Editor\_GetMultiSel](editor_getmultisel) | 當多個選區都可用時，檢索一個指定選區的信息。 |
-| [Editor\_GetOutlineLevel](editor_getoutlinelevel) | 檢索指定邏輯行的大綱級別。 |
-| [Editor\_GetOutputString](editor_getoutputstring) | 檢索輸出列中的文字。 |
-| [Editor\_GetPageSize](editor_getpagesize) | 檢索頁面大小。 |
-| [Editor\_GetRef](editor_getref) | 檢索一個指定外掛程式的引用號。 |
-| [Editor\_GetRedraw](editor_getredraw) | 檢索在 EmEditor 中允許或禁止重繪變更的標志。 |
-| [Editor\_GetScrollPos](editor_getscrollpos) | 檢索捲軸的目前的游標位置。 |
-| [Editor\_GetSelEnd](editor_getselend) | 檢索選區的結尾字元位置。 |
-| [Editor\_GetSelStart](editor_getselstart) | 檢索選區的開始字元位置。 |
-| [Editor\_GetSelTextA](editor_getseltexta) | 檢索被選取的 ANSI 文字。 |
-| [Editor\_GetSelTextW](editor_getseltextw) | 檢索被選取的 Unicode 文字。 |
-| [Editor\_GetSelType](editor_getseltype) | 獲得選區狀態的類型。 |
-| [Editor\_GetSelTypeEx](editor_getseltypeex) | 獲得選區狀態的類型。 |
-| [Editor\_GetStatusA](editor_getstatusa) | 檢索顯示在狀態列上的 ANSI 文字。 |
-| [Editor\_GetStatusW](editor_getstatusw) | 檢索顯示在狀態列上的 Unicode 文字。 |
-| [Editor\_GetUnicodeName](editor_getunicodename) | 檢索指定字元或字串的 Unicode 名。 |
-| [Editor\_GetVersion](editor_getversion) | 返回版本號。 |
-| [Editor\_GetWord](editor_getword) | 檢索游標位置處的一個單字。 |
-| [Editor\_Help](editor_help) | 顯示說明中的指定頁面。 |
-| [Editor\_Info](editor_info) | 檢索或設置用於 EmEditor 的信息參數之一的值。 |
-| [Editor\_InsertA](editor_inserta) | 把一個 ANSI 字串插入到目前的游標位置處。 |
-| [Editor\_InsertClip](editor_insertclip) | 在剪貼簿記錄上的指定位置處插入文字。 |
-| [Editor\_InsertFileA](editor_insertfilea) | 在游標處插入指定檔案內容　(ANSI)。 |
-| [Editor\_InsertFileW](editor_insertfilew) | 在游標處插入指定檔案內容 (Unicode)。 |
-| [Editor\_InsertStringA](editor_insertstringa) | 把一個 ANSI 字串插入到目前的游標位置處。取決于目前的屬性，這可能會覆寫已存在的字串。 |
-| [Editor\_InsertStringW](editor_insertstringw) | 把一個 Unicode 字串插入到目前的游標位置處。取決于目前的屬性，這可能會覆寫已存在的字串。 |
-| [Editor\_InsertW](editor_insertw) | 把一個 Unicode 字串插入到目前的游標位置處。 |
-| [Editor\_IsCharHalfOrFull](editor_ischarhalforfull) | 決定一個指定的字元是全形還是半形。它也可以計算指定字串的總寬度。 |
-| [Editor\_Join](editor_join) | 按指定索引鍵資料欄,用一個與 JOIN 操作類似的方法合併兩個 CSV 文檔,并創建一個新文檔。 |
-| [Editor\_KeyboardProp](editor_keyboardprop) | 顯示指定命令 ID 和組態的鍵盤屬性。 |
-| [Editor\_LineFromChar](editor_linefromchar) | 檢索包含指定字元索引 (序列位置) 的行的索引。 |
-| [Editor\_LineIndex](editor_lineindex) | 檢索在 EmEditor 中一個指定行的第一個字元的字元索引。 |
-| [Editor\_LoadConfigA](editor_loadconfiga) | 重新載入由一個 ANSI 字串指定名稱的組態。 |
-| [Editor\_LoadConfigW](editor_loadconfigw) | 重新載入由一個 Unicode 字串指定名稱的組態。 |
-| [Editor\_LoadFileA](editor_loadfilea) | 把一個指定檔案載入到 EmEditor 中　(ANSI)。 |
-| [Editor\_LoadFileW](editor_loadfilew) | 把一個指定檔案載入到 EmEditor 中　(Unicode)。 |
-| [Editor\_LogicalToSerial](editor_logicaltoserial) | 把邏輯坐標轉換為序列位置。 |
-| [Editor\_LogicalToView](editor_logicaltoview) | 把邏輯坐標轉換為顯示坐標。 |
-| [Editor\_ManageDuplicates](editor_manageduplicates) | 刪除或把重複行設為書籤。 |
-| [Editor\_MatchRegex](editor_matchregex) | 決定一個字串是否與一個指定的規則運算式相符合。 |
-| [Editor\_Numbering](editor_numbering) | 在游標位置或垂直選擇處，插入編號。 |
-| [Editor\_OutputDir](editor_outputdir) | 為輸出列設置目前的目錄。 |
-| [Editor\_OutputString](editor_outputstring) | 追加一個字串到輸出列中。 |
-| [Editor\_OverwriteA](editor_overwritea) | 通過在目前的游標位置處覆寫已存在的字串插入一個 ANSI 字串。 |
-| [Editor\_OverwriteW](editor_overwritew) | 通過在目前的游標位置處覆寫已存在的字串插入一個 Unicode 字串。 |
-| [Editor\_PivotTable](editor_pivottable) | 在 CSV 文檔中建立樞紐分析表。 |
-| [Editor\_QueryStatus](editor_querystatus) | 查詢命令的狀態，無論命令是否被啟用，也不管命令是否處于被選中的狀態。 |
-| [Editor\_QueryString](editor_querystring) | 查詢與指定的命令相關聯的字串。 |
-| [Editor\_QueryStringEx](editor_querystringex) | 查詢與指定的命令相關聯的字串。此內嵌函式支持超過 MAX\_PATH 的長檔案路徑。 |
-| [Editor\_RearrangeColumns](editor_rearrangecolumns) | 重排 CSV 欄。 |
-| [Editor\_Redraw](editor_redraw) | 在 EmEditor 中允許或禁止重繪變更。 |
-| [Editor\_RegQueryValue](editor_regqueryvalue) | 根據 EmEditor 的設定，從注冊表或一個 INI 檔案中查詢一個值。 |
-| [Editor\_RegSetValue](editor_regsetvalue) | 根據 EmEditor 的設定，設一個值到注冊表或一個 INI 檔案中。 |
-| [Editor\_Release](editor_release) | 遞減外掛程式的引用號。 |
-| [Editor\_RemoveClip](editor_removeclip) | 在剪貼簿記錄上的指定位置處刪除文字。 |
-| [Editor\_ReplaceA](editor_replacea) | 取代一個 ANSI 字串。 |
-| [Editor\_ReplaceW](editor_replacew) | 取代一個 Unicode 字串。 |
-| [Editor\_ReplaceInFiles](editor_replaceinfiles) | 在指定位置的多個檔案中取代一個字串。 |
-| [Editor\_ReplaceInFilesA](editor_replaceinfilesa) | 在指定位置的多個檔案中搜尋一個 ANSI 字串。 |
-| [Editor\_ReplaceInFilesW](editor_replaceinfilesw) | 在指定位置的多個檔案中取代一個 Unicode 字串。 |
-| [Editor\_RotateClip](editor_rotateclip) | 在剪貼簿記錄上旋轉目前的位置。 |
-| [Editor\_RunMacro](editor_runmacro) | 運行一個巨集。 |
-| [Editor\_SaveFileA](editor_savefilea) | 儲存文字到一個指定的檔案中 (ANSI)。 |
-| [Editor\_SaveFileW](editor_savefilew) | 儲存文字到一個指定的檔案中 (Unicode)。 |
-| [Editor\_SaveTemp](editor_savetemp) | 儲存臨時文字。 |
-| [Editor\_SerialToLogical](editor_serialtological) | 把序列位置轉換為邏輯坐標。 |
-| [Editor\_SetAnchorPos](editor_setanchorpos) | 設置選區的原點。 |
-| [Editor\_SetCaretPos](editor_setcaretpos) | 指定游標位置。 |
-| [Editor\_SetCaretPosEx](editor_setcaretposex) | 移動游標位置并且選擇性地延伸選區。 |
-| [Editor\_SetCell](editor_setcell) | 在指定的儲存格中設置文字。 |
-| [Editor\_SetColumn](editor_setcolumn) | 設置一列文字。 |
-| [Editor\_SetClipPos](editor_setclippos) | 在剪貼簿記錄上設置目前的位置。 |
-| [Editor\_SetConfigA](editor_setconfiga) | 變更為一個用 ANSI 字串指定的組態。 |
-| [Editor\_SetConfigW](editor_setconfigw) | 變更為一個用 Unicode 字串指定的組態。 |
-| [Editor\_SetModified](editor_setmodified) | 變更文字的修改狀態。 |
-| [Editor\_SetMultiSel](editor_setmultisel) | 當多個選取內容可用時，設置指定的選取內容的信息。 |
-| [Editor\_SetOutlineArray](editor_setoutlinearray) | 為指定的多行設置大綱級別。 |
-| [Editor\_SetOutlineLevel](editor_setoutlinelevel) | 為指定的邏輯行設置大綱級別。 |
-| [Editor\_SetScrollPos](editor_setscrollpos) | 指定捲動欄位置。 |
-| [Editor\_SetScrollPosEx](editor_setscrollposex) | 指定捲動欄位置。 |
-| [Editor\_SetSelLength](editor_setsellength) | 變更選區的字元長度。 |
-| [Editor\_SetSelType](editor_setseltype) | 設置選區狀態的類型。 |
-| [Editor\_SetSelTypeEx](editor_setseltypeex) | 設置選區狀態的類型。 |
-| [Editor\_SetSelView](editor_setselview) | 變更選區的開始和結束位置。 |
-| [Editor\_SetStatusA](editor_setstatusa) | 在狀態列上顯示一條 ANSI 消息。 |
-| [Editor\_SetStatusW](editor_setstatusw) | 在狀態列上顯示一條 Unicode 消息。 |
-| [Editor\_ShowOutline](editor_showoutline) | 顯示或隱藏大綱。 |
-| [Editor\_ShowTip](editor_showtip) | 顯示或隱藏工具提示。 |
-| [Editor\_Sort](editor_sort) | 排序文檔。 |
-| [Editor\_SplitColumn](editor_splitcolumn) | 分割目前的 CSV 文檔的指定欄。 |
-| [Editor\_ToolbarClose](editor_toolbarclose) | 關閉一個自訂工具列。 |
-| [Editor\_ToolbarOpen](editor_toolbaropen) | 打開自訂工具列。 |
-| [Editor\_ToolbarShow](editor_toolbarshow) | 顯示或隱藏一個自訂工具列。 |
-| [Editor\_Unpivot](editor_unpivot) | 通過壓平合併 CSV 數據將欄轉換為列。 |
-| [Editor\_UpdateToolbar](editor_updatetoolbar) | 在工具列中更新一個按鈕的狀態。 |
-| [Editor\_ViewToDev](editor_viewtodev) | 把顯示指定位置的顯示坐標轉換為設備 (客戶端) 坐標。 |
-| [Editor\_ViewToLogical](editor_viewtological) | 把一個指定位置的顯示坐標轉換為邏輯坐標。 |
+| [Editor\_ActivateTemp](editor_activatetemp) | Activates temporary text. |
+| [Editor\_AddRef](editor_addref) | Increments the reference number of the plug-in. |
+| [Editor\_AutoFill](editor_autofill) | Performs the AutoFill or Flash Fill action on the CSV document. |
+| [Editor\_BatchFindInFiles](editor_batchfindinfiles) | Searches for multiple strings from multiple files in the specified path. |
+| [Editor\_BatchFindReplace](editor_batchfindreplace) | Searches or replaces multiple strings. |
+| [Editor\_BatchReplaceInFiles](editor_batchreplaceinfiles) | Replaces multiple strings in multiple files in the specified location. |
+| [Editor\_CloseTemp](editor_closetemp) | Closes the temporary text. |
+| [Editor\_Compare](editor_compare) | Compares two files. |
+| [Editor\_Convert](editor_convert) | Converts characters. |
+| [Editor\_ConvertCsv](editor_convertcsv) | Converts the CSV format of the current document. |
+| [Editor\_CustomBarOpen](editor_custombaropen) | Opens a custom bar. |
+| [Editor\_CustomBarClose](editor_custombarclose) | Closes a custom bar. |
+| [Editor\_DevToView](editor_devtoview) | Converts the device (client) coordinates of a specified position to the <br> display coordinates. |
+| [Editor\_DocGetConfigA](editor_docgetconfiga) | Retrieves the selected configuration name for the specified document as an ANSI string. |
+| [Editor\_DocGetConfigW](editor_docgetconfigw) | Retrieves the selected configuration name for the specified document as a Unicode string. |
+| [Editor\_DocGetLines](editor_docgetlines) | Retrieves the number of the lines for the specified document. |
+| [Editor\_DocGetModified](editor_docgetmodified) | Retrieves the modified state of the text of the specified document. |
+| [Editor\_DocInfo](editor_docinfo) | Retrieves or sets the value of one of the information parameters used by EmEditor. |
+| [Editor\_DocInfoEx](editor_docinfoex) | Retrieves or sets the value of one of the information parameters used by EmEditor. |
+| [Editor\_DocSaveFileA](editor_docsavefilea) | Saves the text of the specified document to a specified file (ANSI). |
+| [Editor\_DocSaveFileW](editor_docsavefilew) | Saves the text of the specified document to a specified file (Unicode). |
+| [Editor\_DocSetConfigA](editor_docsetconfiga) | Changes the specified document to a configuration specified by an ANSI string. |
+| [Editor\_DocSetConfigW](editor_docsetconfigw) | Changes the specified document to a configuration specified by a Unicode string. |
+| [Editor\_DoIdle](editor_doidle) | Refreshes the toolbar, the window title, the tab, and others. |
+| [Editor\_EditColumn](editor_editcolumn) | Moves, copies, deletes, or combines specified columns of the current CSV document. |
+| [Editor\_EditTemp](editor_edittemp) | Opens temporary text as a new document. |
+| [Editor\_EnumConfig](editor_enumconfig) | Enumerates available configurations. |
+| [Editor\_EnumHighlight](editor_enumhighlight) | Enumerates highlighted strings. |
+| [Editor\_EmptyUndoBuffer](editor_emptyundobuffer) | Empties the buffer for the Undo and Redo commands. |
+| [Editor\_ExecCommand](editor_execcommand) | Executes a specified command. |
+| [Editor\_ExecPlugin](editor_execplugin) | Executes a specified plug-in. |
+| [Editor\_ExtractFrequent](editor_extractfrequent) | Extracts frequently used strings into a new document. |
+| [Editor\_Filter](editor_filter) | Filters the document with the specified string and settings. |
+| [Editor\_FindA](editor_finda) | Searches an ANSI string. |
+| [Editor\_FindInFiles](editor_findinfiles) | Searches for a string from multiple files in the specified path. |
+| [Editor\_FindInFilesA](editor_findinfilesa) | Searches for an ANSI string from multiple files in the specified path. |
+| [Editor\_FindInFilesW](editor_findinfilesw) | Searches for a Unicode string from multiple files in the specified path. |
+| [Editor\_FindRegex](editor_findregex) | Searches a string for a regular expression. |
+| [Editor\_FindReplace](editor_findreplace) | Searches or replaces a string. |
+| [Editor\_FindW](editor_findw) | Searches an Unicode string. |
+| [Editor\_Free](editor_free) | Frees a specified plug-in. |
+| [Editor\_GetAccelArray](editor_getaccelarray) | Retrieves the array of the shortcut keys. |
+| [Editor\_GetActiveString](editor_getactivestring) | Retrieves the active string. |
+| [Editor\_GetAnchorPos](editor_getanchorpos) | Retrieves the origin point of the selection. |
+| [Editor\_GetAttr](editor_getattr) | Removes text at the specified position in the Clipboard history. |
+| [Editor\_GetCaretPos](editor_getcaretpos) | Retrieves the current cursor position. |
+| [Editor\_GetCell](editor_getcell) | Retrieves the Unicode text on the specified cell. |
+| [Editor\_GetClip](editor_getclip) | Retrieves text at the specified position in the Clipboard history. |
+| [Editor\_GetClipPos](editor_getclippos) | Retrieves the current position in the Clipboard history. |
+| [Editor\_GetCmdID](editor_getcmdid) | Obtains the plug-in command ID. |
+| [Editor\_GetColor](editor_getcolor) | Retrieves the text and background colors and style for the specified part. |
+| [Editor\_GetColumn](editor_getcolumn) | Sets a column of text in CSV mode. |
+| [Editor\_GetConfigA](editor_getconfiga) | Retrieves the selected configuration name as an ANSI string. |
+| [Editor\_GetConfigW](editor_getconfigw) | Retrieves the selected configuration name as a Unicode string. |
+| [Editor\_GetDroppedFile](editor_getdroppedfile) | Retrieves the most recently dropped file. |
+| [Editor\_GetFilter](editor_getfilter) | Retrieves the filter strings and settings for the current document. |
+| [Editor\_GetLineA](editor_getlinea) | Retrieves the ANSI text on the specified line. |
+| [Editor\_GetLines](editor_getlines) | Retrieves the number of the lines for the current document. |
+| [Editor\_GetLineW](editor_getlinew) | Retrieves the Unicode text on the specified line. |
+| [Editor\_GetMargin](editor_getmargin) | Retrieves the margin size. |
+| [Editor\_GetModified](editor_getmodified) | Retrieves the modified state of the text. |
+| [Editor\_GetMultiSel](editor_getmultisel) | Retrieves the information of a specified selection when multiple <br> selections are available. |
+| [Editor\_GetOutlineLevel](editor_getoutlinelevel) | Retrieves the outline level for the specified logical line. |
+| [Editor\_GetOutputString](editor_getoutputstring) | Retrieves the text in the output bar. |
+| [Editor\_GetPageSize](editor_getpagesize) | Retrieves a page size. |
+| [Editor\_GetRef](editor_getref) | Retrieves the reference number of a specified plug-in. |
+| [Editor\_GetRedraw](editor_getredraw) | Retrieves the flag that allows changes in EmEditor to be redrawn or prevents changes in EmEditor <br> to be redrawn. |
+| [Editor\_GetScrollPos](editor_getscrollpos) | Retrieves the current positions of the scroll bars. |
+| [Editor\_GetSelEnd](editor_getselend) | Retrieves the ending character position of the selection. |
+| [Editor\_GetSelStart](editor_getselstart) | Retrieves the starting character position of the selection. |
+| [Editor\_GetSelTextA](editor_getseltexta) | Retrieves the selected ANSI text. |
+| [Editor\_GetSelTextW](editor_getseltextw) | Retrieves the selected Unicode text. |
+| [Editor\_GetSelType](editor_getseltype) | Obtains the type of selection status. |
+| [Editor\_GetSelTypeEx](editor_getseltypeex) | Obtains the type of selection status. |
+| [Editor\_GetStatusA](editor_getstatusa) | Retrieves the ANSI text displayed on the status bar. |
+| [Editor\_GetStatusW](editor_getstatusw) | Retrieves the Unicode text displayed on the status bar. |
+| [Editor\_GetUnicodeName](editor_getunicodename) | Retrieves the Unicode name of the specified character or string. |
+| [Editor\_GetVersion](editor_getversion) | Returns the version number. |
+| [Editor\_GetWord](editor_getword) | Retrieves a word at the cursor position. |
+| [Editor\_Help](editor_help) | Displays the specified page of the Help. |
+| [Editor\_Info](editor_info) | Retrieves or sets the value of one of the information parameters used by <br> EmEditor. |
+| [Editor\_InsertA](editor_inserta) | Inserts an ANSI string into the current cursor position. |
+| [Editor\_InsertClip](editor_insertclip) | Inserts text at the specified position in the Clipboard history. |
+| [Editor\_InsertFileA](editor_insertfilea) | Inserts the specified file contents at the cursor (ANSI). |
+| [Editor\_InsertFileW](editor_insertfilew) | Inserts the specified file contents at the cursor (Unicode). |
+| [Editor\_InsertStringA](editor_insertstringa) | Inserts an ANSI string at the current cursor position. This may <br> overwrite the existing string depending on the current properties. |
+| [Editor\_InsertStringW](editor_insertstringw) | Inserts a Unicode string into the current cursor position. This may <br> overwrite the existing string depending on the current Properties. |
+| [Editor\_InsertW](editor_insertw) | Inserts a Unicode string at the current cursor position. |
+| [Editor\_IsCharHalfOrFull](editor_ischarhalforfull) | Determines whether a specified character is a half-width or full-width <br> character. It can also count the total widths of the specified string. |
+| [Editor\_Join](editor_join) | Combines two CSV documents specifying key columns, using a method similar to JOIN operations, and creates a new document. |
+| [Editor\_KeyboardProp](editor_keyboardprop) | Displays the Keyboard Properties for the specified command ID and configuration. |
+| [Editor\_LineFromChar](editor_linefromchar) | Retrieves the index of the line that contains the specified character <br> index (the serial position). |
+| [Editor\_LineIndex](editor_lineindex) | Retrieves the character index of the first character of a specified line <br> in EmEditor. |
+| [Editor\_LoadConfigA](editor_loadconfiga) | Reloads a configuration which is specified by name as an ANSI string. |
+| [Editor\_LoadConfigW](editor_loadconfigw) | Reloads a configuration which is specified by name as a Unicode string. |
+| [Editor\_LoadFileA](editor_loadfilea) | Loads a specified file into EmEditor (ANSI). |
+| [Editor\_LoadFileW](editor_loadfilew) | Loads a specified file into EmEditor (Unicode). |
+| [Editor\_LogicalToSerial](editor_logicaltoserial) | Converts the logical coordinates to the serial position. |
+| [Editor\_LogicalToView](editor_logicaltoview) | Converts the logical coordinates to the display coordinates. |
+| [Editor\_ManageDuplicates](editor_manageduplicates) | Deletes or bookmarks duplicate lines. |
+| [Editor\_MatchRegex](editor_matchregex) | Determines whether a string matches a specified regular expression. |
+| [Editor\_Numbering](editor_numbering) | Inserts numbering at the cursor position or vertical selection. |
+| [Editor\_OutputDir](editor_outputdir) | Sets the current directory for the output bar. |
+| [Editor\_OutputString](editor_outputstring) | Appends a string to the output bar. |
+| [Editor\_OverwriteA](editor_overwritea) | Inserts an ANSI string by overwriting the existing string at the current <br> cursor position. |
+| [Editor\_OverwriteW](editor_overwritew) | Inserts a Unicode string by overwriting the existing string at the <br> current cursor position. |
+| [Editor\_PivotTable](editor_pivottable) | Creates a pivot table in the CSV document. |
+| [Editor\_QueryStatus](editor_querystatus) | Queries the status of the command, whether the command is enabled, and whether <br>the status has been checked. |
+| [Editor\_QueryString](editor_querystring) | Queries the string associated with the specified command. |
+| [Editor\_QueryStringEx](editor_querystringex) | Queries the string associated with the specified command. This inline function supports a long path exceeding MAX\_PATH. |
+| [Editor\_RearrangeColumns](editor_rearrangecolumns) | Rearranges CSV columns. |
+| [Editor\_Redraw](editor_redraw) | Allows changes in EmEditor to be redrawn, or prevents changes in EmEditor <br> from being redrawn. |
+| [Editor\_RegQueryValue](editor_regqueryvalue) | Queries a value from the Registry or an INI file depending on the EmEditor settings. |
+| [Editor\_RegSetValue](editor_regsetvalue) | Sets a value into the Registry or an INI file depending on the EmEditor settings. |
+| [Editor\_Release](editor_release) | Decrements the reference number of the plug-in. |
+| [Editor\_RemoveClip](editor_removeclip) | Removes text at the specified position in the Clipboard history. |
+| [Editor\_ReplaceA](editor_replacea) | Replaces an ANSI string. |
+| [Editor\_ReplaceW](editor_replacew) | Replaces an Unicode string. |
+| [Editor\_ReplaceInFiles](editor_replaceinfiles) | Replaces a string in multiple files in the specified location. |
+| [Editor\_ReplaceInFilesA](editor_replaceinfilesa) | Replaces an ANSI string in multiple files in the specified location. |
+| [Editor\_ReplaceInFilesW](editor_replaceinfilesw) | Replaces a Unicode string in multiple files in the specified location. |
+| [Editor\_RotateClip](editor_rotateclip) | Rotates the current position in the Clipboard history. |
+| [Editor\_RunMacro](editor_runmacro) | Runs a macro. |
+| [Editor\_SaveFileA](editor_savefilea) | Saves the text to a specified file (ANSI). |
+| [Editor\_SaveFileW](editor_savefilew) | Saves the text to a specified file (Unicode). |
+| [Editor\_SaveTemp](editor_savetemp) | Saves the temporary text. |
+| [Editor\_SerialToLogical](editor_serialtological) | Converts the serial position to the logical coordinates. |
+| [Editor\_SetAnchorPos](editor_setanchorpos) | Sets the origin point of the selection. |
+| [Editor\_SetCaretPos](editor_setcaretpos) | Moves the cursor position. |
+| [Editor\_SetCaretPosEx](editor_setcaretposex) | Moves the cursor position and optionally extends the selection. |
+| [Editor\_SetCell](editor_setcell) | Sets the text on the specified cell. |
+| [Editor\_SetClipPos](editor_setclippos) | Sets the current position in the Clipboard history. |
+| [Editor\_SetColumn](editor_setcolumn) | Sets a column of text in CSV mode. |
+| [Editor\_SetConfigA](editor_setconfiga) | Changes to a configuration specified by an ANSI string. |
+| [Editor\_SetConfigW](editor_setconfigw) | Changes to a configuration specified by a Unicode string. |
+| [Editor\_SetModified](editor_setmodified) | Changes the modified state of the text. |
+| [Editor\_SetMultiSel](editor_setmultisel) | Sets the information of a specified selection when multiple selections are available. |
+| [Editor\_SetOutlineArray](editor_setoutlinearray) | Sets the outline levels for the specified multiple lines. |
+| [Editor\_SetOutlineLevel](editor_setoutlinelevel) | Sets the outline level for the specified logical line. |
+| [Editor\_SetScrollPos](editor_setscrollpos) | Specifies the scroll bars position. |
+| [Editor\_SetScrollPosEx](editor_setscrollposex) | Specifies the scroll bars position. |
+| [Editor\_SetSelLength](editor_setsellength) | Changes the character length of the selection. |
+| [Editor\_SetSelType](editor_setseltype) | Sets the type of selection status. |
+| [Editor\_SetSelTypeEx](editor_setseltypeex) | Sets the type of selection status. |
+| [Editor\_SetSelView](editor_setselview) | Changes the starting and ending position of the selection. |
+| [Editor\_SetStatusA](editor_setstatusa) | Displays an ANSI message on the status bar. |
+| [Editor\_SetStatusW](editor_setstatusw) | Displays a Unicode message on the status bar. |
+| [Editor\_ShowOutline](editor_showoutline) | Shows or hides the outline. |
+| [Editor\_ShowTip](editor_showtip) | Shows or hides the tooltip. |
+| [Editor\_Sort](editor_sort) | Sorts the document. |
+| [Editor\_SplitColumn](editor_splitcolumn) | Splits specified columns of the current CSV document. |
+| [Editor\_ToolbarClose](editor_toolbarclose) | Closes a custom toolbar. |
+| [Editor\_ToolbarOpen](editor_toolbaropen) | Opens a custom toolbar. |
+| [Editor\_ToolbarShow](editor_toolbarshow) | Shows or hides a custom toolbar. |
+| [Editor\_Unpivot](editor_unpivot) | Converts columns into rows by flattening the CSV data. |
+| [Editor\_UpdateToolbar](editor_updatetoolbar) | Updates a button status in a toolbar. |
+| [Editor\_ViewToDev](editor_viewtodev) | Converts the display coordinates of a specified position to the device <br> (client) coordinates. |
+| [Editor\_ViewToLogical](editor_viewtological) | Converts the display coordinates of a specified position to the logical <br> coordinates. |
 
 ```{toctree}
 :maxdepth: 1

@@ -1,15 +1,15 @@
-# Point 對象
+# Point Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [x](x) | 代表 Point 對象的水平（或字元）位置。 |
-| [y](y) | 代表 Point 對象的垂直（或行）位置。 |
+| [x](x) | Represents the horizontal (or character) position of the Point object. |
+| [y](y) | Represents the vertical (or line) position of the Point object. |
 
-## 版本
+## Version
 
-支持 EmEditor 17.0 或之後的版本。
+Supported on EmEditor Professional Version 17.0 or later.
 
 ```{toctree}
 :maxdepth: 1

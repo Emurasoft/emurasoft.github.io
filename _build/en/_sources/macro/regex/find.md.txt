@@ -1,6 +1,6 @@
-# Find 方法
+# Find Method
 
-用規則運算式搜尋指定的字串并返回一個 [**Matches** 集合](../matches/index) 如果發現符合。如果設定的是 **Global** 屬性，這個方法能重複用同樣的參數來檢索幾個符合。
+Searches the specified string for the regular expression and returns a [**Matches** collection](../matches/index) if a match is found. If the **Global** property is set, this method can be repeated with the same parameter to retrieve several matches.
 
 #### \[JavaScript\]
 
@@ -10,17 +10,17 @@ match  = reg. **Find**( _strText_ );
 
 match  = reg. **Find**( _strText_ )
 
-## 參數
+## Parameters
 
 _strText_
 
-指定要用規則運算式搜尋的字串。
+Specifies a string to search for the regular expression.
 
-## 返回值
+## Return Values
 
-返回一個 [Matches 集合](../matches/index) 如果指定字串包含符合的規則運算式。該功能會返回 null 如果沒有找到符合。
+Returns a [Matches collection](../matches/index) if the specified string contains the matched regular expression. This functions returns null if no match is found.
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -66,6 +66,6 @@ alert( "Found: FirstIndex = " & match.FirstIndex & " , Length = " & match.Length
 
 End If
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 15.9 或之後的版本。
+Supported in EmEditor Professional Version 15.9 or later.

@@ -1,28 +1,33 @@
-# 中歐語系字型命令
+# Display in Central European font command
 
-### 摘要
+### Summary
 
-> 以中歐語系字型顯示文字。
+> Displays text in a Central European font.
 
-### 說明
+### Description
 
-> 從字型分類中選擇中歐文字型。每一個字型分類中的字型可以在 [**自訂字型** 對話方塊](../../dlg/properties/font/index) 中被設定。變更字型分類將不會改變打開檔案的編碼。如果您想要變更編碼并重新載入檔案，選擇 [**重新載入** (多個項目) 命令](../file/file_reload_defined)。
+> Selects the Central European font from the font category. The fonts in each
+> font category can be set on the
+> [**Customize Font** dialog box](../../dlg/properties/font/index).
+> Changing the font category will not change the encoding to use to open a
+> file. If you want to change the encoding and reload the file, select the
+> [**Reload with Encoding** (multiple menu) command](../file/file_reload_defined).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **字型分類** \> **中歐文**
-- [全部命令](../tools/all_commands): **檢視** \> **字型** >
-**字型分類** \> **中歐文**
-- 工具列: ![](../../images/fontpopup.gif)
-(點擊箭頭) \> **字型分類** \> **中歐文**
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** \> **Font Category** > **Central European**
+- [All Commands](../tools/all_commands): **View** \> **Font** >
+**Font Category** > **Central European**
+- Toolbar: ![](../../images/fontpopup.gif)
+(on the arrow) > **Font Category** \> **Central European**
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CHARSET\_CENTRAL\_EUROPE (8707)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

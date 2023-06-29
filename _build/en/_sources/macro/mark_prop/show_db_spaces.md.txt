@@ -1,8 +1,8 @@
-# ShowDBSpaces 扽俶
+# ShowDBSpaces Property
 
 Corresponds to the **Show**
 **Double-Byte Spaces** check box in the
-[**Marks** tab](../../dlg/properties/marks/index) of Configuration Properties.
+[**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -18,6 +18,6 @@ object. **ShowDBSpaces**
 
 object. **ShowDBSpaces** = _b_
 
-## 唳掛
+## Version
 
-盓厥 EmEditor 7.00 麼眳綴腔唳掛﹝
+Supported on EmEditor Professional Version 7.00 or later.

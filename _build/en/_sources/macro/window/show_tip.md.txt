@@ -1,6 +1,6 @@
-# ShowTip 方法
+# ShowTip Method
 
-顯示工具提示。
+Displays a tooltip.
 
 #### \[JavaScript\]
 
@@ -10,23 +10,23 @@
 
 **ShowTip** _strTip_, _flags_
 
-## 參數
+## Parameters
 
 _strTip_
 
-指定要在工具提示中顯示的文字。文字長度不能超過 3,999 個字元。該字串可包含以這種格式指定的可點擊文字："<a href="url">可點擊文字</a>"。
+Specifies the text to display in the tooltip. The length of the text must be no more than 3,999 characters long. The string may include clickable text specified in this format: "<a href="url">clickable text</a>".
 
 _flags_
 
-指定下列值之一。
+Specifies one of the following values.
 
 |     |     |
 | --- | --- |
-| eeShowTipActiveString | 在游標懸停的主動字串處顯示工具提示。 |
-| eeShowTipCurrentCaret | 在插入符號位置顯示工具提示。 |
-| eeShowTipCurrentMouse | 在游標指針位置顯示工具提示。 |
-| eeShowTipHide | 如果已經顯示，隱藏工具提示。 |
+| eeShowTipActiveString | Displays the tooltip at the active string where the mouse pointer is hovered. |
+| eeShowTipCurrentCaret | Displays the tooltip at the caret position. |
+| eeShowTipCurrentMouse | Displays the tooltip at the mouse pointer position. |
+| eeShowTipHide | Hides the tooltip if already displayed. |
 
-## 版本
+## Version
 
-支持 EmEditor 16.9 或之後的版本。
+Supported on EmEditor Professional Version 16.9 or later.

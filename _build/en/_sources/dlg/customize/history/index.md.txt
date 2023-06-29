@@ -1,73 +1,79 @@
-# 「歷史記錄」頁面
+# History page
 
-**歷史記錄** 頁面讓您能自訂與歷史記錄相關的設定。
+The **History** page allows you to customize settings related to history.
 
-### 「最近使用的檔案數」文字方塊
+### Number of Recent Files text box
 
-最近使用的檔案數會被顯示在 **檔案** 功能表以及系統匣圖示功能表中。最大值是 64。
+Number of recently used files shown in the **File** menu and the tray icon menu. The maximum is 64.
 
-### 「最近使用的字型數」文字方塊
+### Number of Recent Fonts text box
 
-最近使用的字型數會被顯示在 **檢視** 功能表下。最大值是 64。
+Number of recently used fonts shown in the **View** menu. The maximum is 64.
 
-### 「最近的搜尋次數」文字方塊
+### Number of Recent Searches text box
 
-在尋找/取代對話方塊中顯示的最近搜尋次數。
+Number of recent searches shown in the **Find/Replace** dialog boxes.
 
-### 「剝離目前的資料夾中的檔案路徑」核取方塊
+### **Popup if Number of Items Exceeds** text box
 
-如果該核取方塊被勾選了，那么與目前的檔案同一個資料夾的檔案路徑將不會被顯示。但是，當創建一個新檔案并且沒有其他打開的檔案時，就會顯示檔案的完整路徑。
+Number of items first displayed in the menu. The items exceeding this number are displayed inside the **More** popup menu.
 
-### 「額外的鍵盤快速鍵」下拉清單方塊
+### Strip Path for Files in Current Folder check box
 
-當功能表項目總數超過 10 時，指定鍵盤快速鍵。您可以從下列的幾個選項中選擇。
+If this is checked, the path of the file in the same folder as the active file will not be displayed. However, the full path may appear when a new file is created and when there is no other file opened.
+The tray icon menu always displays the full path.
+
+### Extra Keyboard Shortcut drop-down list box
+
+Specifies keyboard shortcuts when the number of menu items exceeds ten. Select one of the following options.
 
 |     |     |
 | --- | --- |
-| **無快速鍵** | 不添加任何快速鍵。 |
-| **全部為零** | 添加所有零 (0) 。 |
-| **添加字母** | 添加字母 (A-Z) 。如果選擇該選項，取決於功能表組態，其他存在的功能表項目快速鍵可能會與這些字母相沖突。 |
+| **No Shortcut** | Does not add any keyboard shortcuts. |
+| **All Zeros** | Adds all zeros (0). |
+| **Add Alphabets** | Adds alphabets (A-Z). If this is selected, depending on the menu configuration, other existing menu item keyboard shortcuts might conflict with these alphabets. |
 
-### 「儲存游標位置」核取方塊
+### Save Cursor Position check box
 
-如果勾選了該選項，EmEditor 會將游標位置儲存到指定天數 (最長 100 天)。
+If this is checked, EmEditor will save the cursor position up to specified days (maximum 100 days).
 
-### 「天」文字方塊
+### days text box
 
-指定儲存游標位置的天數。最長為 100 天。
+Specifies the number of days to save the cursor position. The maximum is 100 days.
 
-### 「儲存書籤」核取方塊
+### Save Bookmarks check box
 
-如果勾選了該選項，EmEditor 會將書籤儲存到指定天數 (最長 100 天)。
+If this is checked, EmEditor will save bookmarks up to specified days (maximum 100 days).
 
-### 「天」文字方塊
+### days text box
 
-指定儲存書籤的天數。最長為 100 天。
+Specifies the number of days to save the bookmarks. The maximum is 100 days.
 
-### 「排除資料夾」清單方塊
+### Exclusion Folders list box
 
-指定 EmEditor 應避免添加到最近的檔案清單或最近的資料夾清單中的資料夾清單。這些資料夾中的任何子資料夾也將被排除在外。
+Specifies the list of folders that EmEditor should exclude from adding to the recent file list or recent folder list. Any subfolders on these folders are also excluded as well.
 
-### 「添加」按鈕
+### Add button
 
-添加一個項目到清單上。
+Adds an item to the list.
 
-### 「刪除」按鈕
+### Delete button
 
-從清單上刪除一個項目。
+Deletes an item to the list.
 
-### 「排除網際網路快取資料夾」核取方塊
+### Exclude Internet Cache Files from Recent Files List check box
 
-如果勾選了該選項，EmEditor 將不會添加網際網路快取資料夾中的檔案路徑。
+If this box is checked, EmEditor will not add file paths that are in the Internet
+cache folder.
 
-### 「退出時清除歷史記錄」按鈕
+### Clear History on Exit button
 
-顯示 [**退出時清除歷史記錄** 對話方塊](../../clear_history/index)，讓你在退出時清除指定的歷史記錄。
+Displays the [**Clear History on Exit** dialog box](../../clear_history/index), where you can clear the specified history items on exit.
 
-### 「立即清除歷史記錄」按鈕
+### Clear History Now button
 
-顯示 [**立即清除歷史記錄** 對話方塊](../../clear_history/index)，讓你立即清除指定的歷史記錄。
+Displays the [**Clear History Now** dialog box](../../clear_history/index), where you can clear the specified history items now.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設置。
+Resets to default settings.

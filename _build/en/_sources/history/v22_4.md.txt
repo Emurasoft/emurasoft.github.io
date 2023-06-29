@@ -1,49 +1,44 @@
 # Version 22.4
 
-2023年5月17日
+May 17th, 2023
 
-## 一般新增功能
+## New General Features
 
-- 改進了從慢速磁碟機或網絡磁碟機打開超大檔案時的行為和進度消息。 <profree />
-- 改進了取消 **多檔尋找** 時的響應時間。 <profree />
-- 添加了使用 **語言服務器協議** (LSP) 的 **語法檢查** 功能。 <pro />
-- 通過添加簽出提交和創建新分支的能力改進了 **提交清單 (CommitList)** 外掛程式。 <pro />
-- 添加了在 **尋找** 對話方塊或 **尋找** 工具列中輸入搜索字串時更新亮顯顯示的功能。啟用此功能後，只有在 **尋找**/ **取代**/ **多檔尋找**/ **多檔取代** 對話方塊或 **尋找** 工具列可見時，才會顯示亮顯。EmEditor 預設停用此功能，但可以通過單擊 **尋找** 下拉清單方塊旁邊 **>** 按鈕所顯示的功能表中，選擇 **自動亮顯** 來啟用此功能。 <profree />
-- 改進了使用滑鼠延伸選區時的捲動行為。當您拖動滑鼠（按住滑鼠左鍵的同時移動滑鼠指針）經過編輯器視窗的邊緣時，滑鼠指針的形狀會發生變化。滑鼠指針越過視窗邊緣越遠，捲動速度越快。如果將滑鼠指針移離視窗太遠，捲動行為就像您拖動捲動滑塊（縮略圖）一樣。此模式讓您能輕松地將選區的末端移動到文檔中的任何位置。預設情況下，當您進入該模式時會顯示迷你地圖。在按住滑鼠左鍵的同時按下 **ESC** 鍵將切換回正常選取模式。 <profree />
-- 單擊水平捲軸箭頭時，新版本會向右或向左捲動 8 個字元。 <profree />
-- 變更了主功能表上的捷徑（ **轉換** 和 **工具**）。 <profree />
-- 變更了貼上行為 \- 如果剪貼簿文字包含換行符且目前的選擇模式為多選，則新版本也會貼上為多行。 <profree />
-- 提高了可靠性和穩健性，尤其是在低記憶體情況下處理非常大的檔案時。 <profree />
-- 新版本把「beta 測試版」稱作「預覽版」。 <profree />
-- 提高了 **多檔尋找**、 **刪除列**、 **清除內容**、 **隨機排序** 和 base 64 編碼/解碼命令的速度。 **隨機排序** 命令的速度通過使用快速偽隨機數生成器（ [Xoshiro-cpp](https://github.com/Reputeless/Xoshiro-cpp)）得到了進一步的提高。
+- Improved the behavior and progress message when opening a very large file from a slow or network drive. <profree />
+- Improved the response time when canceling **Find in Files**. <profree />
+- Added the **syntax check** feature using **Language Server Protocol** (LSP). <pro />
+- Improved the **CommitList** plugin by adding the ability to checkout commits and create new branches. <pro />
+- Added the ability to update highlighting while you type in the **Find** dialog or the **Find** toolbar. When this feature is enabled, highlighting occurs only when the **Find**/ **Replace**/ **Find in Files**/ **Replace in Files** dialog box or **Find** toolbar is visible. This feature is disabled by default, but can be enabled by selecting the **Auto Highlight** in the menu displayed when you click the **>** button next to the **Find** drop-down list box in the **Find** dialog box. <profree />
+- Improved the scrolling behavior while extending the selection using the mouse. When you drag the mouse (move the mouse pointer while pressing the left mouse button) past the edge of the editor window, the mouse pointer shape changes. The farther you move the mouse pointer past the edge of the window, the faster the scrolling speed becomes. If you move the mouse pointer too far away from the window, the scrolling behaves as if you were dragging the scroll box (thumb). This mode allows you to move the endpoint of the selection easily to any position in the document. By default, the Minimap will be displayed when you enter this mode. Pressing the **ESC** key while still pressing the left mouse button will switch back to the normal selection mode. <profree />
+- The new version scrolls 8 characters right or left when you click the horizontal scrollbar arrows. <profree />
+- Changed the shortcuts on the main menu ( **Convert** and **Tools**). <profree />
+- Changed the behavior on paste - the new version pastes as box if the clipboard text contains newlines and the current selection mode is multi-selection. <profree />
+- Improved the reliability and robustness especially when dealing with very large files in low memory situations. <profree />
+- The new version calls "beta versions" as "preview versions". <profree />
+- Improved the speed of **Find in Files**, **Delete Columns**, **Clear Contents**, **Sort Randomly**, and base 64 encoding/decoding commands. The speed of the **Sort Randomly** command was further improved by using a fast pseudorandom number generator ( [Xoshiro-cpp](https://github.com/Reputeless/Xoshiro-cpp)).
 
-### 測試結果：
+### Test results:
 
-|  | v22.3 | v22.4 | 比較 |
+|  | v22.3 | v22.4 | Comparison |
 | --- | --- | --- | --- |
-| 多檔尋找 | 6.240 秒 | 2.261 秒 | 快 2.76 倍 |
-| 刪除列 | 2.582 秒 | 1.072 秒 | 快 2.41 倍 |
-| 清除內容 | 2.658 秒 | 1.101 秒 | 快 2.41 倍 |
-| 隨機排序 | 6.668 秒 | 4.858 秒 | 快 1.47 倍 |
+| Find in Files | 6.240 seconds | 2.261 seconds | 2.76 times faster |
+| Delete Columns | 2.582 seconds | 1.072 seconds | 2.41 times faster |
+| Clear Contents | 2.658 seconds | 1.101 seconds | 2.41 times faster |
+| Sort Randomly | 6.668 seconds | 4.858 seconds | 1.47 times faster |
 
-\\* 多檔尋找：在 8 個隨機 ASCII/UTF-8 數據檔案（總共 5.73 GB）中尋找 "abc"，忽略大小寫。
+\*Find in Files: Find "abc" in 8 random ASCII/UTF-8 data files (total 5.73 GB), ignore case.
 
-刪除列，清除內容：1.99 GB，1590 萬行，隨機 CSV 數據。
+Delete Columns, Clear Contents: 1.99 GB, 15.9 million lines, random CSV data.
 
-隨機排序：9.68 GB，2 億行，隨機 ASCII 數據。
+Sort Randomly: 9.68 GB, 200 million lines, random ASCII data.
 
-全部：除了選擇「總是丟棄過長的復原信息來加速」之外都是預設選項；操作系統：Windows 11，Core i9-11900K，64GB RAM，2TB SSD。
+All: Default options except the Always Discard Lengthy Undo Information to Accelerate option on, Windows 11, Core i9-11900K, 64GB RAM, 2TB SSD.
 
-## 新增選項
+## New Options
 
-- 添加了 **語言服務器協議** 選項到組態屬性中的 [**語法檢查** 頁面](../dlg/properties/validation/index) 上的 **文檔類型** 下拉清單方塊中。 <pro />
-- 添加了 **自動亮顯** 命令到 [**尋找** 對話方塊](../dlg/find/index) 中單擊 **尋找** 下拉清單方塊旁邊的 **>** 按鈕所顯示的功能表中。 <profree />
+- Added the **Language Server Protocol** option to the **Document Type** drop-down list box in the [**Syntax Check** page](../dlg/properties/validation/index) of configuration properties. <pro />
+- Added the **Auto Highlight** command to the menu displayed when you click the **>** button next to the **Find** drop-down list box in the [**Find** dialog box](../dlg/find/index). <profree />
 
-## 新增外掛程式功能 <pro />
+## Plug-in New Features <pro />
 
-- [**CommitList** 外掛程式](../howto/plugin/plugin_commit_list) 中添加了簽出提交、創建新分支或刪除分支的功能。這些命令可以通過提交清單或分支清單的內容功能表訪問。
-
-### 備註
-
-- \[P\] 僅限 EmEditor 專業版
-- \[PF\] EmEditor 專業版和 EmEditor 免費版
+- Added the ability to checkout commit, create new branch, or delete a branch to the [**CommitList** plug-in](../howto/plugin/plugin_commit_list). They are accessed through the context menu of the commit list or the branches list.

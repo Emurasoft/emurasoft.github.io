@@ -1,6 +1,7 @@
-# HighlightCharRef 屬性
+# HighlightCharRef Property
 
-與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **亮顯 HTML/XML 中的字元引用及通用字元名稱** 核取方塊相對應。
+Corresponds to the **Highlight HTML/XML Character Reference and UCN** check box in the
+[**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ object. **HighlightCharRef**
 
 object. **HighlightCharRef** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 11.00 或之後的版本。
+Supported on EmEditor Professional Version 11.00 or later.

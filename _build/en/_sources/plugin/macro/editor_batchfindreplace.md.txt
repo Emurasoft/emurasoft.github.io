@@ -1,59 +1,59 @@
 # Editor\_BatchFindReplace
 
-搜索或取代多個字串。你能直接用該內嵌函式或明確地發送 [EE\_FIND\_REPLACE](../message/ee_find_replace) 消息。
+Searches or replaces multiple strings. You can use this inline function or explicitly send the [EE\_FIND\_REPLACE](../message/ee_find_replace) message.
 
 HRESULT Editor\_BatchFindReplace( HWND hwnd, FIND\_REPLACE\_INFO\* pBatchArray, UINT nBatchCount, UINT64 nBatchFlags, UINT64\* pnTotalCount );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控點。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pBatchArray_
 
-> 指針指向 [FIND\_REPLACE\_INFO 結構](../structure/find_replace_info)。
+> Pointer to the array of [FIND\_REPLACE\_INFO structure](../structure/find_replace_info).
 
 _nBatchCount_
 
-> 指定在 _pBatchArray_ 參數中指定的 FIND\_REPLACE\_INFO 結構的數量。
+> Specifies the number of FIND\_REPLACE\_INFO structures specified in _pBatchArray_ parameter.
 
 _nBatchFlags_
 
-> \[in\] 指定一個以下值的組合。
+> \[in\] Specifies a combination of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | FLAG\_FIND\_AROUND | 移動到文字的開始/結束處。 |
-> | FLAG\_FIND\_BOL | 規則運算式 ‘^’ 可符合選取部分的開頭。 |
-> | FLAG\_FIND\_BOOKMARK | 在有符合的字串的行上設定書籤。 |
-> | FLAG\_FIND\_COUNT | 計算符合字串的出現次數。 |
-> | FLAG\_FIND\_COUNT\_FREQUENCY | 根據抽出結果創建一個常用字串表。必須與 FLAG\_FIND\_EXTRACT 和 FLAG\_FIND\_OUTPUT\_DISPLAY 結合使用。必須啟用視窗標籤頁。 |
-> | FLAG\_FIND\_EMBEDDED\_NL | 在 CSV 文檔中只符合嵌入式換行，不符合其他換行。 |
-> | FLAG\_FIND\_EOL | 規則運算式 ‘$’ 可符合選取部分的末尾。 |
-> | FLAG\_FIND\_EXTRACT | 把符合的行抽出到一個新文檔中。 |
-> | FLAG\_FIND\_FUZZY | 使用模糊比對。 |
-> | FLAG\_FIND\_LOOKAROUND | 只在選區內進行規則運算式搜索時用合樣判斷提示。 |
-> | FLAG\_FIND\_NEXT | 從游標處往下搜索字串。如果沒有設定該標志，則往上搜索字串。 |
-> | FLAG\_FIND\_NO\_PROMPT | 即使未找到任何字串，也禁止顯示對話方塊。 |
-> | FLAG\_FIND\_OPEN\_DOC | 在同一個框架視窗中搜索所有打開的文檔。 |
-> | FLAG\_FIND\_OUTPUT | 在匯出欄中以清單形式顯示抽出結果。 必須與 FLAG\_FIND\_EXTRACT 結合使用。 |
-> | FLAG\_FIND\_REGEX\_BOOST | 把 Boost.Regex 作為規則運算式引擎。 |
-> | FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作為規則運算式引擎。 |
-> | FLAG\_FIND\_SAVE\_HISTORY | 為重複搜索儲存搜索過的字串。 |
-> | FLAG\_FIND\_SEPARATE\_CRLF | 區分 CR 和 LF 。 |
-> | FLAG\_FIND\_SEL\_ONLY | 僅在選區內搜索。 |
-> | FLAG\_REPLACE\_ALL | 取代所有符合結果。 |
-> | FLAG\_REPLACE\_SEL\_ONLY | 當與 FLAG\_REPLACE\_ALL 一起指定時，僅取代選區中的內容。 |
+> | FLAG\_FIND\_AROUND | Moves to start/end of the text. |
+> | FLAG\_FIND\_BOL | The regular expression ‘^’ can match the beginning of the selection. |
+> | FLAG\_FIND\_BOOKMARK | Sets bookmarks on lines where the string is matched. |
+> | FLAG\_FIND\_COUNT | Counts the occurrences of the matched string. |
+> | FLAG\_FIND\_COUNT\_FREQUENCY | Creates a table of frequent strings from the Extract results. Must combine with FLAG\_FIND\_EXTRACT and FLAG\_FIND\_OUTPUT\_DISPLAY. Window Tabs must be enabled. |
+> | FLAG\_FIND\_EMBEDDED\_NL | Matches embedded newlines in CSV documents and does not match other newlines. |
+> | FLAG\_FIND\_EOL | The regular expression ‘$’ can match the end of the selection. |
+> | FLAG\_FIND\_EXTRACT | Extracts matched lines to a new document. |
+> | FLAG\_FIND\_FUZZY | Uses fuzzy matching. |
+> | FLAG\_FIND\_LOOKAROUND | Looks around during selection only regular-expression searches. |
+> | FLAG\_FIND\_NEXT | Searches the string downward from the cursor position. If this flag is <br> not set, searches the string upward. |
+> | FLAG\_FIND\_NO\_PROMPT | Suppresses displaying a dialog box even if no string is found. |
+> | FLAG\_FIND\_OPEN\_DOC | Searches all open documents in the same frame window. |
+> | FLAG\_FIND\_OUTPUT | Displays the Extract results as a list in the Output Bar. Must combine with FLAG\_FIND\_EXTRACT. |
+> | FLAG\_FIND\_REGEX\_BOOST | Uses Boost.Regex as the regular expression engine. |
+> | FLAG\_FIND\_REGEX\_ONIGMO | Uses Onigmo as the regular expression engine. |
+> | FLAG\_FIND\_SAVE\_HISTORY | Saves the searched string for repeated search. |
+> | FLAG\_FIND\_SEPARATE\_CRLF | Treats CR and LF separately. |
+> | FLAG\_FIND\_SEL\_ONLY | Searches only in the selection. |
+> | FLAG\_REPLACE\_ALL | Replaces all occurrences. |
+> | FLAG\_REPLACE\_SEL\_ONLY | Replaces only in the selection when specified with FLAG\_REPLACE\_ALL. |
 
 _pnTotalCount_
 
-> \[out\] 指定一個指向變數的指針，當 nBatchFlags 包含 FLAG\_FIND\_COUNT，FLAG\_FIND\_BOOKMARK，FLAG\_FIND\_SELECT\_ALL，FLAG\_FIND\_EXTRACT 或 FLAG\_FIND\_FILTER 時，該變數將接收出現的次數。
+> \[out\] Specifies a pointer to the variable that receives the number of occurrences when nBatchFlags includes FLAG\_FIND\_COUNT, FLAG\_FIND\_BOOKMARK, FLAG\_FIND\_SELECT\_ALL, FLAG\_FIND\_EXTRACT or FLAG\_FIND\_FILTER.
 
-## 返回值
+## Return Values
 
-> 如果找到了搜索的字串，則返回 S\_OK；如果找不到，則返回 S\_FALSE。如果發生錯誤，返回值是負值。如果使用者取消搜索，則負值包括 E\_ABORT；如果發生嚴重錯誤，則負值包括E\_FAIL。
+> Returns S\_OK if the searched string is found, S\_FALSE if not found. The return value is a negative value is an error occurs. The negative value includes E\_ABORT if a user cancels the search, and E\_FAIL if a fatal error occurs.
 
-## 版本
+## Version
 
-> 指定 Version 19.9 或之後的版本。
+> Supported on Version 19.9 or later.

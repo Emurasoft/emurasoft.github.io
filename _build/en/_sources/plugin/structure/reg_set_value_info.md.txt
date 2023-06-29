@@ -1,6 +1,6 @@
 # REG\_SET\_VALUE\_INFO
 
-用於 [EE\_REG\_SET\_VALUE 消息](../message/ee_reg_set_value)。
+Used by [EE\_REG\_SET\_VALUE message](../message/ee_reg_set_value).
 
 typedef struct \_REG\_SET\_VALUE\_INFO {
 
@@ -22,15 +22,15 @@ DWORD dwFlags;
 
 } REG\_SET\_VALUE\_INFO;
 
-## 構成
+## Members
 
 _cbSize_
 
-> 以位元為單位的數據結構大小。把這個成員設為 sizeof( REG\_SET\_VALUE\_INFO )。
+> Size of this data structure, in bytes. Set this member to sizeof( REG\_SET\_VALUE\_INFO ).
 
 _dwKey_
 
-> 用下列值之一指定一個鍵值。EEREG\_CONFIG 和 EEREG\_EMEDITORPLUGIN 需要 pszConfig 參數來指定鍵值。
+> Specifies one of the following values to specify a key. EEREG\_CONFIG and EEREG\_EMEDITORPLUGIN require the pszConfig parameter to specify the key.
 >
 > |     |     |
 > | --- | --- |
@@ -51,34 +51,34 @@ _dwKey_
 
 _pszConfig_
 
-> 用一個額外的字符串來指定鍵值當 when EEREG\_CONFIG，EEREG\_EMEDITORPLUGIN，或 EEREG\_EMEDITORUSERS 被選取時。
+> Specifies an additional string to specify the key when EEREG\_CONFIG, EEREG\_EMEDITORPLUGIN, or EEREG\_EMEDITORUSERS is selected.
 
 _pszValue_
 
-> 指定要被設置的值的名稱。如果該參數是 NULL 并且 dwType 參數是 REG\_SZ，dwKey 和 pszConfig 參數所指向的整個鍵值包括這個鍵值內的所有項目都會被刪除。
+> Specifies the name of the value to be set. If this parameter is NULL and the dwType parameter is REG\_SZ, the entire key pointed to by dwKey and pszConfig parameters, including all entries within the key, is deleted.
 
 _dwType_
 
-> 用下列值之一來指定 lpData 參數指向的數據類型。
+> Specifies one of the following values to specify the type of data pointed to by the lpData parameter.
 >
 > |     |     |
 > | --- | --- |
-> | REG\_BINARY | 任何形式的二進制數據。 |
-> | REG\_DWORD | 一個 32 位數字。 |
-> | REG\_SZ | 一個以 null 結尾的 Unicode 字符串。 |
+> | REG\_BINARY | Binary data in any form. |
+> | REG\_DWORD | A 32-bit number. |
+> | REG\_SZ | A null-terminated Unicode string. |
 
 _lpData_
 
-> 被儲存的數據。對于 REG\_SZ 類型，字符串必須是以 null 結尾。
+> The data to be stored. For the REG\_SZ type, the string must be null-terminated.
 
 _cbData_
 
-> 由 lpData 參數指向的以位元為單位的信息大小。如果該數據是 REG\_SZ 類型，cbData 必須得包括終止空字符的大小。
+> The size of the information pointed to by the lpData parameter, in bytes. If the data is of type REG\_SZ, cbData must include the size of the terminating null character.
 
 _dwFlags_
 
-> 這個參數可以是 EE\_REG\_VARIABLE\_SIZE 如果二進制數據是一個可變的大小。否則的話，它必須是零。
+> This parameter can be EE\_REG\_VARIABLE\_SIZE if the binary data is of a variable size. Otherwise, it must be zero.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 7.00 或之後的版本。
+> Supported on Version 7.00 or later.

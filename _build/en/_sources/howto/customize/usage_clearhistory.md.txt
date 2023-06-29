@@ -1,4 +1,5 @@
-# 清除最近使用的檔案以及尋找和取代記錄
+# To Clear Recently Used Files and Find and Replace History
 
-1. 選擇 [**自訂** 命令](../../cmd/tools/common_settings)，去到 [**自訂** 對話方塊](../../dlg/customize/index) 中的 **歷史記錄** 頁面上。
-2. 點擊 **「清除歷史記錄」** 按鈕。
+1. Select the [**Customize** \
+command](../../cmd/tools/common_settings) to display the **History** tab of the [**Customize** dialog box](../../dlg/customize/index).
+2. Click the **Clear History** button.

@@ -1,27 +1,27 @@
-# 刪除舊的設定命令
+# Delete Old Settings command
 
-### 摘要
+### Summary
 
-> 刪除所有不再使用的舊設定。
+> Delete old settings that are not used anymore.
 
-### 說明
+### Description
 
-> 刪除所有不再使用的舊設定。
+> Delete old settings that are not used anymore.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具**
-\> **刪除舊的設定**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](all_commands): **Tools**
+\> **Delete Old Settings**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_DELETE\_OLD\_SETTINGS (3984)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

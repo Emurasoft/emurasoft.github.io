@@ -1,27 +1,27 @@
-# 搜尋所有打開的文檔 (搜尋工具列) 命令
+# Search All Open Documents (Find toolbar) command
 
-### 摘要
+### Summary
 
-> 切換搜尋工具列上「搜尋所有打開的文檔」按鈕的狀態。
+> Toggles the Search All Open Documents button on the Find toolbar.
 
-### 說明
+### Description
 
-> 切換搜尋工具列上「搜尋所有打開的文檔」按鈕的狀態。當按下「搜尋所有打開的文檔」按鈕后，用 **尋找** 命令就可以在目前的視窗中搜尋所有打開的文檔。
+> Toggles the Search All Open Documents button on the Find toolbar. Using the **Find** command will now search all documents open in the current window.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜尋**
-\> **搜尋工具列** \> **搜尋所有打開的文檔**
-- 工具列: ![](../../images/find_open_doc.png) (搜尋工具列)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Search All Open Documents**
+- Toolbar: ![](../../images/find_open_doc.png) (Find toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FINDBAR\_OPEN\_DOC (4572)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

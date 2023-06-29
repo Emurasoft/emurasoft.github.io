@@ -1,199 +1,209 @@
-# 「尋找」對話方塊
+# Find dialog box
 
-這個對話方塊會出現當您選擇了 [**尋找** 命令](../../cmd/search/edit_find)。您能指定要尋找的字串，以及其他的選項。
+This dialog box appears when the [**Find** command](../../cmd/search/edit_find)
+is selected. You can specify a string to find, as well as other options.
 
-### 「尋找」下拉清單方塊
+### Find drop-down list box
 
-輸入一個要搜尋的字串。如果這是一個多行的文字方塊，您能通過輸入 CTRL + ENTER 來換行。當下拉清單開啟時，您可以通過按 ALT + DELETE 鍵來清除選取的歷史項目。
+Enter a string to search for. If this is a multi-line text box, you can enter newline characters by pressing CTRL + ENTER. While the drop-down list is open, you may press ALT + DELETE to clear the selected history item.
 
-### 「>」按鈕
+### \> button
 
-點擊該按鈕來顯示一列可用的指令。
-
-|     |     |
-| --- | --- |
-| **選取內容或游標位置處的單字** | 當該選項被勾選時，對話方塊會把選取的內容或游標位置處的單字作為尋找文字方塊中的初始字串。 |
-| **選取內容** | 當該選項被勾選時，對話方塊會把選取的內容作為尋找文字方塊中的初始字串。 |
-| **游標處的單字** | 當該選項被勾選時，對話方塊會把選取的內容作為尋找文字方塊中的初始字串。 |
-| **上次使用的值** | 當該選項被勾選時，對話方塊會把上次尋找的字串作尋找文字方塊中的初始字串。 |
-| **固定值** | 當該選項被勾選時，對話方塊會把設為固定值的字串作為尋找文字方塊中的初始字串。 |
-| **自動儲存** | 把選項 (選取內容或游標位置處的單字，選取內容，游標處的單字，上次使用的值，或固定值) 儲存為默值；當下一次對話方塊顯示時，就會是預設的設定。 |
-| **多行** | 讓文字方塊在單一行與多行之間切換。 |
-| **使用編輯器字型** | 當該選項被勾選時， **尋找** 下拉清單方塊會使用與編輯器相同的字型。 |
-| **自動亮顯** | 選中此選項後，當您在 **尋找** 對話方塊中輸入搜索字串時，符合的字串會自動亮顯顯示。當您關閉尋找對話方塊時，亮顯顯示就會被停用。此選項還會影響 **尋找** 工具列。 |
-| **從批次清單中選擇** | 從批次清單中選擇要搜尋的字串。 |
-
-這個命令還包括一清單可用的逸出序列或規則運算式。從清單中選擇一個條目會把被選取的條目插入到按鈕旁的文字方塊中。
-
-### 「大小寫須相符」核取方塊
-
-當搜索一個字串時，區分大小寫。
-
-### 「全字拼寫須相符」核取方塊
-
-僅搜尋符合的單字。一個單字被定義為一個以這些字元開頭并結尾的字串: A – Z，a – z，0 – 9，或一條底線。由全形字元包圍的字串被認作是一個單字。當使用規則運算式時，該核取方塊可能不能正常運作。所以,當使用規則運算式時，請用運算式來標明單字界限（\\<，\\>，以及 \\b）。
-
-### 「漸進式搜尋」核取方塊
-
-當該核取方塊被勾選時，搜索會在你輸入字詞到 **尋找** 下拉清單方塊中那一刻就開始。
-
-### 「搜索所有已打開的文檔」核取方塊
-
-在同一個方塊架視窗中，搜索所有打開的文檔。
-
-### 「僅搜索選區」核取方塊
-
-僅在文檔被選取的區域中搜索。
-
-### 「循環」核取方塊
-
-從目前的位置向下搜索通過選擇 **尋找下一個**。如果直到文檔末尾都沒有發現這個單字的話，它會從文檔頂部繼續搜索。 **尋找上一個** 會從目前的位置向上搜索到文件開頭處。如果單字沒有被找到，它會從文件底部開繼續搜索。
-
-### 「顯示符合數」核取方塊
-
-當該核取方塊被勾選時，EmEditor 會計算文檔中符合的字串出現的次數。結果會顯示在狀態列中。如果 **連結檔案** 包含在 **清單方塊** 中並且選擇了 **多項尋找下一個** 或 **多項尋找上一個**，則將忽略此選項。
-
-### 「完成后關閉」核取方塊
-
-關閉該對話方塊在搜索完成后。
-
-### 「（無）」選項按鈕
-
-指定字串應按字面意思符合。
-
-### 「規則運算式」選項按鈕
-
-啟用 [規則運算式](../../howto/search/search_regexp)。
-
-### 「逸出序列」選項按鈕
-
-啟用逸出序列。你能把下列字元作為逸出序列。
+Click this button to show the list of available commands.
 
 |     |     |
 | --- | --- |
-| \\a | 警告（響鈴） |
-| \\b | 退格 |
-| \\f | 換頁 |
-| \\n | 換行 |
-| \\t | 水平 Tab |
-| \\v | 垂直 Tab |
-| \\\ | 反斜杠 |
-| \\oooooo | Unicode 字元在八進位運算式中 |
-| \\xhhhh | Unicode 字元在十六進位運算式中 |
+| **Selected Text or Word at Cursor** | When this is checked, the dialog box initializes the Find drop-down list box with the selected text <br> or the word at the cursor. |
+| **Selected Text** | When this is checked, the dialog box initializes the Find drop-down list box with the selected text. |
+| **Word at Cursor** | When this is checked, the dialog box initializes the Find drop-down list box with the word at the cursor. |
+| **Last Used Value** | When this is checked, the dialog box initializes the Find drop-down list box with the last used string. |
+| **Fixed Value** | When this is checked, the dialog box initializes the Find drop-down list box with the string set as the fixed value. |
+| **Auto Save** | Saves the option (Selected Text, Word at Cursor, Last Used Value or Fixed Value) as the default for the next time the dialog box is displayed. |
+| **Multiline** | Toggles between singleline and multiline of the drop-down list box. |
+| **Use editor font** | When this is checked, the **Find** drop-down list box uses the same font as the editor. |
+| **Auto Highlight** | When this is checked, matched strings are highlighted automatically as you type in the **Find** drop-down list box. Hilighting will be disabled when you close this dialog box. This option also affects the **Find** toolbar. |
+| **Select from Batch List** | Selects a string to search for from the batch list. |
 
-空字元（\\0）可能不能使用。一定要用 \\n 而不是 \\r。
+The commands also includes the list of available escape sequences or regular expressions. Selecting an item from the list will insert the selected item into the text box next to the button.
 
-### 「數字範圍」選項按鈕
+### Match Case check box
 
-啟用 [數字範圍運算式](../../howto/search/number_range_syntax)。
+Match cases when searching for a string.
 
-### 「尋找上一個」按鈕
+### Match Whole Word check box
 
-搜索目前的位置之前符合的字串。
+Search words only. A word is defined as a string that begins and ends with
+any of these characters: A – Z, a – z, 0 – 9, or an underscore. Strings
+surrounded by full-width characters are considered words. When using regular expressions, this check box may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
 
-### 「尋找下一個」按鈕
+### Incremental Search check box
 
-搜索目前的位置之後符合的字串。
+When this is checked, the search immediately starts as you type in the **Find** drop-down list box.
 
-### 「全部選取」按鈕
+### Search All Documents in the Group check box
 
-尋找并選擇所有與搜索字串符合的結果。
+Searches all open documents in the same frame window.
 
-### 「全部設為書籤」按鈕
+### In the Selection Only check box
 
-把所有與指定字串符合的行用書籤標示。
+Searches only the selection of the document.
 
-### 「全部抽出」按鈕
+### Wrap Around check box
 
-抽出與搜索字串符合的行，通過創建一個新的文檔。點擊右邊的「▼」按鈕會顯示一個內容功能表，讓你能訪問 [**抽出選項** 對話方塊](../extract_options/index)。
+Search down from the current position by choosing **Find Next**. If the word is not found by the end of the file, it will continue searching from the top of the file. **Find Previous**
+will search from the current position up to the beginning of the file. If the word has not been found, it will continue searching from the
+bottom of the file.
 
-### 「取代 >>」按鈕
+### Count Matches check box
 
-點擊該按鈕為指定字串以及選項顯示 [**取代** 對話方塊](../replace/index)。
+If this is checked, EmEditor counts the occurrences of the matched string in the
+document. The result will be displayed in the status bar. This option will be ignored if **linked files** are included in the **List box** and **Multi-Find Next** or **Multi-Find Previous** button is selected.
 
-### 「關閉」按鈕
+### Close when Finished check box
 
-點擊該按鈕來關閉該對話方塊。
+Close the dialog box when finished searching.
 
-### 「進階」按鈕
+### (None) radio button
 
-點擊該按鈕來顯示 [**進階** 對話方塊](../advanced/index)。
+Specifies that the string should match literally.
 
-### 「加入批次」按鈕
+### **Regular Expressions** radio button
 
-添加目前的設定到批次清單中。
+Enables [regular expressions](../../howto/search/search_regexp).
 
-### 「批次處理 >>」按鈕
+### **Escape Sequence** radio button
 
-在 **尋找** 對話方塊與 **批次尋找** 對話方塊之間切換。
-
-下列控件僅在該對話方塊延伸為 **批次尋找** 對話方塊時顯示。
-
-### 「儲存至批次」按鈕
-
-儲存目前的設定到批次清單中。
-
-### 清單方塊
-
-顯示用於批次的尋找字串清單。下列字母縮寫用在清單方塊的條件列中，代表指定的尋找條件。
+Enables escape sequences. You can use the following characters as escape
+sequences.
 
 |     |     |
 | --- | --- |
-| **C** | 大小寫需符合 |
-| **R** | 使用規則運算式 |
-| **W** | 只搜索單字 |
-| **E** | 僅符合 CSV 中的嵌入式換行 |
-| **S** | 區別 CR 和 LF |
-| **D** | 規則運算式 "." 符合換行符 |
-| **B** | 把 Boost.Regex 作為規則運算式引擎 |
-| **O** | 把 Onigmo 作為規則運算式引擎 |
+| **\\a** | Warning (Bell) |
+| **\\b** | Backspace |
+| **\\f** | Form feed |
+| **\\n** | Newline character |
+| **\\t** | Horizontal tab |
+| **\\v** | Vertical tab |
+| **\\\** | Backslash |
+| **\\oooooo** | Unicode character in octal notation |
+| **\\xhhhh** | Unicode character in hexadecimal notation |
 
-### 「全部啟用/停用」核取方塊
+A null character (\\0) may not be used. \\n must be used instead of \\r.
 
-啟用或停用清單上所有的條目。
+### **Number Range** radio button
 
-### 「匯入」按鈕
+Enables [number range expressions](../../howto/search/number_range_syntax).
 
-匯入之前匯出的包含尋找條件的 TSV 檔案。
+### Find Previous button
 
-### 「匯出」按鈕
+Search previous from the current position.
 
-把已定義的尋找條件匯出到一個檔案中。檔案格式可以是 TSV，JavaScript 或 VBScript 巨集格式。
+### Find Next button
 
-### 「多項尋找上一個」按鈕
+Search next from the current position.
 
-在批次清單中搜索目前的位置之前的多個選取的條目。
+### Select All button
 
-### 「多項尋找下一個」按鈕
+Find and select all occurrences of the search term.
 
-在批次清單中搜索目前的位置之後的多個選取的條目。
+### Bookmark button
 
-### 「批次設為書籤」按鈕
+Bookmarks all lines that match the specified string.
 
-單擊此按鈕可以將為批次清單中所選條目符合的所有行添加書籤。
+### Extract button
 
-### 「批次抽出」按鈕
+Extract the lines that match the specified string by creating a new document. Clicking the ▼ button on the right will display a context menu, where you can access the [**Extract Options** dialog box](../extract_options/index).
 
-單擊此按鈕可將所選條目抽出到批次清單中。單擊右邊的「▼」按鈕會顯示一個內容功能表，讓你能訪問 [**批次選項** 對話方塊](../batch_options/index)。
+### Replace >> button
 
-### 「篩選全部」按鈕
+Click this button to display the [**Replace** \
+dialog box](../replace/index) for the specified string with selected options.
 
-單擊此按鈕篩選批次清單中的所選條目。
+### Close button
 
-### 「中止篩選」按鈕
+Click this button to close the dialog box.
 
-單擊此按鈕中止篩選批次清單中的所選條目。
+### Advanced button
 
-### 「<< 批次」按鈕
+Click this button to display the [**Advanced** dialog box](../advanced/index).
 
-在 **批次尋找** 對話方塊與 **尋找** 對話方塊之間切換。
+### Add to Batch button
 
-這個對話方塊能通過拖動對話方塊的右下角來調整對話方塊大小。當啟用多行的文字方塊時，按 CTRL + ENTER 能插入新行。
+Adds the current settings to the batch list.
 
-你還能通過這個對話方塊訪問下列對話方塊。
+### Batch >> button
 
-( 點擊「 **進階**」按鈕 )
+Toggles between the **Find** dialog box and the **Batch Find** dialog box.
 
-( 點擊 **抽出選項** )
+The following controls appear only when the dialog box extends to the
+**Batch Find** dialog box.
 
-( 點擊 **批次選項** )
+### Save to Batch button
+
+Saves the current settings to the batch list.
+
+### List box
+
+Displays the list of find strings to be used for the batch process. The following abbreviations are used for the Condition column.
+
+|     |     |
+| --- | --- |
+| **C** | Match Case |
+| **R** | Use Regular Expressions |
+| **W** | Search Only Word |
+| **E** | Match Only Embedded Newlines in CSV |
+| **S** | Treat CR and LF Separately |
+| **D** | Regular Expression "." can Match Newlines |
+| **B** | Use Boost.Regex as the Regular Expression Engine |
+| **O** | Use Onigmo as the Regular Expression Engine |
+
+### Enable/Disable All check box
+
+Enables or disables all items in the list.
+
+### Import button
+
+Imports a previously exported TSV file containing the Find strings, Replace with strings and conditions.
+
+### Export button
+
+Exports defined find conditions into a file. The file format can be a TSV, JavaScript or VBScript macro format.
+
+### Multi-Find Previous button
+
+Search multiple selected items from the batch list before the current position.
+
+### Multi-Find Next button
+
+Search multiple selected items from the batch list after the current position.
+
+### Batch Bookmark button
+
+Click this button to bookmark all lines that match the selected items from the batch list.
+
+### Batch Extract button
+
+Click this button to extract the selected item in the batch list. Clicking the ▼ button on the right will display a context menu, where you can access the [**Batch Options** dialog box](../batch_options/index).
+
+### Filter All button
+
+Click this button to filter the selected item in the batch list.
+
+### Abort Filter button
+
+Click this button to abort filtering the selected item in the batch list.
+
+### << Batch button
+
+Toggles between the **Batch Find** dialog box and the **Find** dialog box.
+
+This dialog box can be resized by dragging the right-bottom corner of the dialog box. When the dialog box becomes larger, a multi-line string can be entered as a search term. While multi-line text box is enabled, CTRL + ENTER key can be used to
+insert newline characters.
+
+The following dialog box is also available through this dialog box.
+
+(Select **Advanced** button)
+
+(Select **Extract Options**)
+
+(Select **Batch Options**)

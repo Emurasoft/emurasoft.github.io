@@ -1,27 +1,28 @@
-# 切換大檔案控制器命令
+# Toggle Large File Controller command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏大檔案控制器。
+> Shows or hides the large file controller.
 
-### 說明
+### Description
 
-> 顯示或隱藏大檔案控制器。當打開一個大檔案時，EmEditor 會顯示大檔案控制器，如果 **當打開一個大檔案時，顯示大檔案控制器** 核取方塊 (在自訂對話方塊 [檔案頁面](../../dlg/customize/file/index) 上) 被勾選了。
+> Shows or hides the large file controller. The large file controller is displayed when a large file is opened while the
+> **Displays Large File Controller when a large file is opened** check box (in the [File page](../../dlg/customize/file/index) of the Customize dialog box) is checked.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **大檔案控制器**
-- [全部命令](../tools/all_commands): **檢視** >
-**大檔案控制器**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** \> **Large File Controller**
+- [All Commands](../tools/all_commands): **View** >
+**Large File Controller**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_LARGE\_FILE\_BAR (4449)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

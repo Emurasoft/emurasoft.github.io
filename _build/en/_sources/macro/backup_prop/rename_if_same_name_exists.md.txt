@@ -1,6 +1,7 @@
-# RenameIfSameNameExists 屬性
+# RenameIfSameNameExists Property
 
-與組態屬性中 [**備份** 頁面](../../dlg/properties/backup/index) 上的 **重新命名檔案，檔案名已存在** 核取方塊對應。
+Corresponds to the **Rename if the Same File Name Exists** check box in the
+[**Backup** page](../../dlg/properties/backup/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -14,6 +15,6 @@ _b_ = object. **RenameIfSameNameExists**
 
 object. **RenameIfSameNameExists** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

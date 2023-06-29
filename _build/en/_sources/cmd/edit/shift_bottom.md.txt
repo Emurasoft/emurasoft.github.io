@@ -1,27 +1,27 @@
-# 延伸選區到文檔底部命令
+# Bottom Extend command
 
-### 摘要
+### Summary
 
-> 把選區延伸到文檔底部。
+> Extends the selection to the bottom of the file.
 
-### 說明
+### Description
 
-> 把選區延伸到文檔底部。
+> Extends the selection to the bottom of the file.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **延伸選區**
-\> **延伸選區到文檔底部**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: CTRL+SHIFT+END
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Bottom Extend**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+SHIFT+END
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SHIFT\_BOTTOM (4185)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

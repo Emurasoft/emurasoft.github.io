@@ -1,6 +1,7 @@
-# SetInitialFolder 屬性
+# SetInitialFolder Property
 
-與 [**新增檔案詳細信息** 對話方塊](../../dlg/properties/file/new_details/index) 中的 **設置初始資料夾** 核取方塊相對應。
+Corresponds to the **Set Initial Folder** check box in the
+[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ object. **SetInitialFolder**
 
 object. **SetInitialFolder** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 14.1 或之後的版本。
+Supported on EmEditor Professional Version 14.1 or later.

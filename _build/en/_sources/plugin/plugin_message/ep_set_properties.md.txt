@@ -1,6 +1,6 @@
 # EP\_SET\_PROPERTIES
 
-請求外掛程式顯示屬性。
+Requests the plug-in to display the properties.
 
 EP\_SET\_PROPERTIES
 
@@ -10,12 +10,13 @@ wParam = 0;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _hwndParent_
 
-> 外掛程式設置對話方塊的視窗控制代碼。
+> The window handle of the Plug-ins Settings dialog box.
 
-## 返回值
+## Return Values
 
-> 您必須返回 TRUE 如果屬性被顯示，或 FALSE 如果屬性沒有被顯示。
+> You must return TRUE if the properties have been displayed, or FALSE if the
+> properties have not been displayed.

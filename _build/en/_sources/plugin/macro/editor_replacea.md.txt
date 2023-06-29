@@ -1,36 +1,39 @@
 # Editor\_ReplaceA
 
-取代一個 ANSI 字串。R您能直接用該內嵌函式或明確地發送
-[EE\_REPLACEA](../message/ee_replacea) 消息。
+Replaces an ANSI string. This inline function is obsolete. Newer plug-ins should use the Editor\_FindReplace inline function instead. You can use this inline function or explicitly send the
+[EE\_REPLACEA](../message/ee_replacea) message.
 
 Editor\_ReplaceA( HWND hwnd, UINT nFlags, LPCSTR szFindReplace );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nFlags_
 
-> 您能從如下值中指定一個組合。
+> You can specify a combination of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | FLAG\_FIND\_CASE | 區分大小寫。 |
-> | FLAG\_FIND\_CLOSE | 搜尋完成后關閉對話方塊。 |
-> | FLAG\_FIND\_ESCAPE | 使用逸出序列。 |
-> | FLAG\_FIND\_NO\_PROMPT | 禁止顯示對話方塊即使沒有找到字串。 |
-> | FLAG\_FIND\_ONLY\_WORD | 符合整個單字。 |
-> | FLAG\_FIND\_REG\_EXP | 使用規則運算式。 |
-> | FLAG\_FIND\_SAVE\_HISTORY | 為重複搜尋儲存搜尋過的字串。 |
-> | FLAG\_REPLACE\_ALL | 取代所有符合的結果。 |
-> | FLAG\_REPLACE\_SEL\_ONLY | 當被用 FLAG\_REPLACE\_ALL 指定時，僅在選區中取代。 |
+> | FLAG\_FIND\_CASE | Matches case. |
+> | FLAG\_FIND\_CLOSE | Closes the dialog box after finished. |
+> | FLAG\_FIND\_ESCAPE | Uses escape sequences. |
+> | FLAG\_FIND\_NO\_PROMPT | Suppresses displaying a dialog box even if no string is found. |
+> | FLAG\_FIND\_ONLY\_WORD | Searches only words. |
+> | FLAG\_FIND\_REG\_EXP | Uses a regular expression. |
+> | FLAG\_FIND\_SAVE\_HISTORY | Saves the searched string for repeated search. |
+> | FLAG\_REPLACE\_ALL | Replaces all occurrences. |
+> | FLAG\_REPLACE\_SEL\_ONLY | Replaces only in the selection when specified with FLAG\_REPLACE\_ALL. |
 
 _szFindReplace_
 
-> 指定一個要搜尋的字串和一個用來取代的字串。您必須按照先指定要搜尋的字串，然后指定用來取代的字串這個順序，另外，兩者之間必須插入空字元 ('\\0')。
+> Specifies a string to search and a string to replace. You must specify the
+> string to search and the string to replace, in that order. The null
+> character ('\\0') must be inserted between the two.
 
-## 返回值
+## Return Values
 
-> 如果消息成功，返回值不是零。如果消息不成功，返回值是零。
+> If the message succeeds, the return value is nonzero. If the message fails,
+> the return value is zero.

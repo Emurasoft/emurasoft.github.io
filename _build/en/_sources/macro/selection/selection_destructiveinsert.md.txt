@@ -1,6 +1,6 @@
-# DestructiveInsert 方法
+# DestructiveInsert Method
 
-插入文字，覆蓋已存在的文字。
+Inserts text, overwriting the existing text.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,12 @@ document.selection. **DestructiveInsert**( str );
 
 document.selection. **DestructiveInsert** str
 
-## 參數
+## Parameters
 
 _str_
 
-指定要插入的字串，覆蓋已存在的文字。
+Specifies a string to insert, overwriting the existing text.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

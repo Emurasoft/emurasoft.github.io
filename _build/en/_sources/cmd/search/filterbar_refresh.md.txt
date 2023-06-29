@@ -1,27 +1,27 @@
-# 重新整理命令
+# Refresh (Filter Toolbar) command
 
-### 摘要
+### Summary
 
-> 用目前的篩選設定重新整理文檔。
+> Refreshes the document with the current filter settings.
 
-### 說明
+### Description
 
-> 用目前的篩選設定重新整理文檔。
+> Refreshes the document with the current filter settings.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜索**
-\> **篩選工具列** \> **重新整理**
-- 工具列: ![](../../images/refresh.gif) (篩選工具列)
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Refresh**
+- Toolbar: ![](../../images/refresh.gif) (Filter toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_FILTERBAR\_REFRESH (3905)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

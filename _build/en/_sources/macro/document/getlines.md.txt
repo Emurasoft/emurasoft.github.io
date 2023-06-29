@@ -1,6 +1,6 @@
-# GetLines 方法
+# GetLines Method
 
-檢索文檔中的行數。
+Retrieves the number of the lines in the document.
 
 #### \[JavaScript\]
 
@@ -10,16 +10,16 @@ _nLines_ = document. **GetLines**( \[ _nFlags_ \] );
 
 _nLines_ = document. **GetLines**( \[ _nFlags_ \] )
 
-## 參數
+## Parameters
 
 _nFlags_
 
-可選項。您能指定下列值。如果您沒有指定任何值，EmEditor 會預設指定邏輯坐標。
+Optional. You can specify the following value. If no value is specified, the logical coordinates are specified.
 
 |     |     |
 | --- | --- |
-| eeGetLineView | 在視圖中指定坐標。 |
+| eeGetLineView | Specifies coordinates in view. |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

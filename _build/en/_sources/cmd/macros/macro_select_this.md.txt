@@ -1,26 +1,26 @@
-# 設為目前的巨集命令
+# Select This Macro command
 
-### 摘要
+### Summary
 
-> 把已打開的檔案設定為目前的巨集。
+> Sets the opened file as the current macro.
 
-### 說明
+### Description
 
-> 把目前的檔案設置為目前的巨集。在 [**運行巨集** 命令](quick_macro_run) 的功能表上，它會顯示檔案名并且會讓您知道這個檔案已被選取。
+> Sets the current file as the current macro. On the menu of [**Run Macro** command](quick_macro_run), it will show the file name and let you know that this file is selected.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **巨集** \> **設為目前的巨集**
-- [全部命令](../tools/all_commands): **巨集**
-\> **設為目前的巨集**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Macros** \> **Select This**
+- [All Commands](../tools/all_commands): **Macros**
+\> **Select This**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_MACRO\_SELECT\_THIS (4349)
 
-### 巨集
+### Macros
 
-> 不可用。
+> Not available.

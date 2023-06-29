@@ -1,8 +1,8 @@
-# 貼為引文
+# To Paste in Quotes
 
-1. 選擇 **工具** 功能表下的 **所以命令...**。
-2. 選擇 **編輯**， **貼上** 還有 **貼為引文**。
+1. Select **All Commands...** under the **Tools** menu.
+2. Select **Edit**, **Paste** and then **Paste in Quotes**.
 
-**提示**
+**Tips**
 
-在預設設定下，您可以按 CTRL + B 來把文字貼為引文。
+By default, you can press CTRL + B to paste in quotes.

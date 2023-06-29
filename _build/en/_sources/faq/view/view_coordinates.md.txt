@@ -1,3 +1,7 @@
-# Q. 什么是邏輯坐標和顯示坐標？什么是邏輯行？
+# Q. What are logical coordinates and display coordinates? What is a logical line?
 
-邏輯坐標指的是一個文檔中的坐標，不管這個文檔是用哪一種換行模式。在邏輯坐標中，因為要換行而產生的歸位符不算在內。邏輯行指的是一個文檔中行的總數減去換行產生的行。顯示坐標，則包括換行后的行。
+Logical coordinates refer to the coordinates in a document regardless of
+the wrap mode in use. Returns due to the wrapping of lines are not counted.
+Logical lines refers to the number of lines, discounting lines formed by
+wrapping, in a document. Display coordinates, on the other hand, include
+wrapped lines in their sum.

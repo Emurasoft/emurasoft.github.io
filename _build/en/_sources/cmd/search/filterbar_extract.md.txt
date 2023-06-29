@@ -1,27 +1,27 @@
-# 抽出所有行 (篩選工具列) 命令
+# Extract All Lines (Filter Toolbar) command
 
-### 摘要
+### Summary
 
-> 將所有篩選出來的行抽出到一個新文檔中。
+> Extracts all filtered lines into a new document.
 
-### 說明
+### Description
 
-> 將所有篩選出來的行抽出到一個新文檔中。
+> Extracts all filtered lines into a new document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜尋**
-\> **篩選工具列** \> **抽出所有行**
-- 工具列: ![](../../images/extract_all.png) (篩選工具列) \> **抽出所有行**
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Extract All Lines**
+- Toolbar: ![](../../images/extract_all.png) (Filter toolbar) > **Extract All Lines**
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILTERBAR\_EXTRACT (3928)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

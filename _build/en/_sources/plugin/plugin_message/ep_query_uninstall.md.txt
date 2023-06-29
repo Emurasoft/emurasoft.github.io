@@ -1,6 +1,6 @@
 # EP\_QUERY\_UNINSTALL
 
-查詢外掛程式是否被卸載。
+Queries whether the plug-in can be uninstalled.
 
 EP\_QUERY\_UNINSTALL
 
@@ -10,12 +10,13 @@ wParam = 0;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _hwndParent_
 
-> 外掛程式設置對話方塊的視窗控制代碼。
+> The window handle of the Plug-ins Settings dialog box.
 
-## 返回值
+## Return Values
 
-> 如果該外掛程式能被卸載，返回值是 TRUE。如果該外掛程式不能被卸載，返回值是 FALSE。
+> If the plug-in can be uninstalled, the return value is TRUE. If the plug-in
+> cannot be uninstalled, the return value is FALSE.

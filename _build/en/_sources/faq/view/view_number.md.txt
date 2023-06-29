@@ -1,4 +1,5 @@
-# Q. 我在 EmEditor 視窗的左邊有顯示行號，但是，要換行時，我不想讓行號也隨之遞增。我該怎么做？
+# Q. I display line numbers on the left edge of EmEditor window. When a line is wrapped, I do not want to see the line number incremented within the logical line. How do I configure this behavior?
 
-在 **目前的組態屬性** 對話方塊中的 [**一般** 頁面](../../dlg/properties/general/index) 上
-的 **行列顯示** 組合方塊中選擇邏輯坐標選項中的一個。
+On the [**General** page](../../dlg/properties/general/index) in the **Current Configuration Properties**
+dialog box, select one of the logical
+coordinates options from the **Line and Column Display as** combo box.

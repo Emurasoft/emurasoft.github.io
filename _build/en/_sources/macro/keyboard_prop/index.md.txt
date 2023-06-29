@@ -1,14 +1,14 @@
-# Keyboard 對象
+# Keyboard Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [List](list) | 檢索 [**KeyboardList** 集合](../keyboard_list/index)。 |
+| [List](list) | Retrieves the [**KeyboardList** collection](../keyboard_list/index). |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

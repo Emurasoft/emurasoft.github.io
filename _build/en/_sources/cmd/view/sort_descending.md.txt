@@ -1,27 +1,28 @@
-# 降序命令
+# Arrange in Descending Order command
 
-### 摘要
+### Summary
 
-> 按降序排列。
+> Arranges in descending order.
 
-### 說明
+### Description
 
-> 按降序排列。如果勾選了 [**自動排列** 命令](auto_sort)，標籤頁會按特定順序重新排列。如果 [**自動排列** 命令](auto_sort) 沒有被勾選的話，標籤頁不會重新排列直到再次指定排列順序。
+> Arranges tabs in descending order. If the [**Auto Arrange** command](auto_sort) is checked, tabs will be rearranged by the specified order. If the [**Auto Arrange** command](auto_sort) is not checked, tabs will not be rearranged
+> until the arrange order is specified next time.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** \> **標籤排列方式**
-\> **降序**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** \> **Arrange Tabs by**
+\> **Descending Order**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SORT\_DESCENDING (4403)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

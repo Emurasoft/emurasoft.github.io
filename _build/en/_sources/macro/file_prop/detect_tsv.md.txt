@@ -1,6 +1,7 @@
-# DetectTSV 屬性
+# DetectTSV Property
 
-與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **偵測 TSV (Tab 分隔)** 核取方塊相對應。
+Corresponds to the **Detect TSV (Tab-Separated)** check box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -14,6 +15,6 @@ _b_ = object. **DetectTSV**
 
 object. **DetectTSV** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 9.00 或之後的版本。
+Supported on EmEditor Professional Version 9.00 or later.

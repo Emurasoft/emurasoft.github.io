@@ -1,6 +1,7 @@
-# ShowOnlyActive 屬性
+# ShowOnlyActive Property
 
-與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **只在活動窗格中顯示捲軸** 核取方塊相對應。
+Corresponds to the **Show Scroll Bars Only in Active Pane** check box in the
+[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ object. **ShowOnlyActive**
 
 object. **ShowOnlyActive** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

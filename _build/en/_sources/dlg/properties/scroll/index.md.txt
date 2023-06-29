@@ -1,129 +1,138 @@
-# 「捲動」頁面
+# Scroll page
 
-**捲動** 頁面讓您能設置與捲動操作相關的屬性。
+The **Scroll** page allows you to set properties related to scroll
+operations.
 
-### 「水平捲軸」下拉清單方塊
+### Horizontal Scroll Bar drop-down list box
 
-指定如何顯示水平捲軸。
-
-|     |     |
-| --- | --- |
-| **不顯示** | 不顯示水平捲軸。 |
-| **僅在需要時顯示** | 顯示水平捲軸僅當一行的長度大于視窗寬度時。 |
-| **總是顯示** | 總是顯示水平捲軸。 |
-
-### 「垂直捲軸」下拉清單方塊
-
-指定如何顯示垂直捲軸。
+Specifies how to display the horizontal scroll bar.
 
 |     |     |
 | --- | --- |
-| **不顯示** | 不顯示垂直捲軸。 |
-| **僅在需要時顯示** | 顯示垂直捲軸僅當行的總數大于目前的視窗可以顯示的總數時。 |
-| **總是顯示** | 總是顯示垂直捲軸。 |
+| **Nothing** | Does not display the horizontal scroll bar. |
+| **Display Only when Necessary** | Displays the horizontal scroll bar only when the length of a line is <br> longer than the window width. |
+| **Always Display** | Always displays the horizontal scroll bar. |
 
-### 「平滑捲動」核取方塊
+### Vertical Scroll Bar drop-down list box
 
-如果該核取方塊被勾選了，EmEditor 視窗會平穩地捲動。
+Specifies how to display the vertical scroll bar.
 
-### 「速度」滑桿
+|     |     |
+| --- | --- |
+| **Nothing** | Does not display the vertical scroll bar. |
+| **Display Only when Necessary** | Displays the vertical scroll bar only when the number of total lines is <br> larger than one that the current window can display. |
+| **Always Display** | Always displays the vertical scroll bar. |
 
-使用該滑桿來調整平滑捲動的速度。
+### Smooth Scroll check box
 
-### 「總是啟用 1 頁水平捲動」核取方塊
+If this is checked, EmEditor windows scroll smoothly.
 
-總是啟用 1 頁水平捲動。
+### Speed slider
 
-### 「總是啟用 1 頁垂直捲動」核取方塊
+Use this slider to adjust the smooth scroll speed.
 
-總是啟用 1 頁垂直捲動。
+### Always Enable 1 Page Horizontal Scroll check box
 
-### 「水平線」核取方塊
+Always enable 1 page horizontal scrolling.
 
-在游標處顯示水平線。
+### Always Enable 1 Page Vertical Scroll check box
 
-### 「垂直線」核取方塊
+Always enable 1 page vertical scrolling.
 
-在游標處顯示垂直線。
+### Horizontal Line check box
 
-### 「只在活動窗格中顯示捲軸」核取方塊
+Display horizontal line at the cursor.
 
-只有當在一個分割的視窗中的目前的窗格是活動的時候，才顯示捲軸。
+### Vertical Line check box
 
-### 「每次捲動兩行」核取方塊
+Display vertical line at the cursor.
 
-一次捲動 2 行。勾選該核取方塊如果您想要更快地捲動視窗。
+### Show Scroll Bars Only in Active Pane check box
 
-### 「快速移動游標」核取方塊
+Show scroll bars only when current pane is active in a split window.
 
-讓游標移動更快。如果該核取方塊被勾選了，游標移動速度加快兩被當按住鍵盤上的箭頭鍵來移動游標時。
+### Double Line Scroll check box
 
-#### **提示:** 您也可以到 **控制面板** 上的 **鍵盤** 屬性中的 **速度** 頁面上調整鍵盤重複速率。
+Scroll 2 lines at a time. Check this box if you want to scroll the window faster.
 
-### 「通過捲動位置移動游標」核取方塊
+### Faster Cursor Movement check box
 
-如果該核取方塊被勾選了，游標會被重新定位當水平或垂直捲軸位置變更時。
+Make cursor movement faster. If this box is checked, the cursor moves double at a time when one
+of the arrow keys is repeated by being pressed.
 
-### 「捲動半頁」核取方塊
+#### **Tips:** You can also adjust the keyboard repeat rate on the **Speed** tab of **Keyboard** Properties on the **Control Panel**.
 
-通常是捲動一整頁，但勾選該核取方塊后，僅會捲動半頁。
+### Move Cursor by Scrolling check box
 
-### 「水平格線」核取方塊
+If this box is checked, the cursor will be repositioned when the horizontal or
+vertical scroll bar position is changed.
 
-顯示水平格線。
+### Scroll Half Page check box
 
-### 「總是顯示游標上/下1行」核取方塊
+Scroll only a half page when normally a whole page is scrolled.
 
-總是顯示游標所在行的上一行以及下一行當你上下移動游標時。
+### Horizontal Grid check box
 
-### 「3D 外觀」核取方塊
+Displays horizontal grid
 
-如果勾選了該核取方塊，捲軸會有 3D 框線。
+### Always Show 1 Line above/below Cursor check box
 
-### 「在垂直捲軸上顯示標記」核取方塊
+Always shows one line above and below the cursor position when you move the cursor up or down.
 
-如果該核取方塊被勾選了，EmEditor 視窗會在垂直捲軸上顯示標記。
+### 3D Look check box
 
-### 「在垂直捲軸上顯示標記」群組方塊 \- 「更改」核取方塊
+If this is checked, the scroll bars will have a 3D border.
 
-如果該核取方塊被勾選了，EmEditor 視窗會在垂直捲軸上標記出更改過的或更改后儲存過的行。
+### Show Markers on Vertical Scroll Bar check box
 
-### 「在垂直捲軸上顯示標記」群組方塊 \- 「標記」核取方塊
+If this is checked, EmEditor windows will show markers on
+vertical scroll bar.
 
-如果該核取方塊被勾選了，EmEditor 視窗會在垂直捲軸上標記出書籤位置以及當您比較兩個檔案時出現的差異。
+### Show Markers on Vertical Scroll Bar group box - Changes check box
 
-### 「在垂直捲軸上顯示標記」群組方塊 \- 「找到的字串」核取方塊
+If this box is checked, EmEditor windows will mark changed/saved
+lines on Vertical Scroll Bar.
 
-如果該核取方塊被勾選了，EmEditor 視窗會在垂直捲軸上標記出與搜尋字串相符合的行。
+### Show Markers on Vertical Scroll Bar group box - Marks check box
 
-### 「在垂直捲軸上顯示標記」群組方塊 \- 「游標位置」核取方塊
+If this box is checked, EmEditor windows will mark bookmark
+positions and the differences when you compare two files on Vertical Scroll Bar.
 
-如果該核取方塊被勾選了， EmEditor 視窗會在垂直捲軸上標記出游標位置。
+### Show Markers on Vertical Scroll Bar group box - Found String check box
 
-### 「迷你地圖」核取方塊
+If this box is checked, EmEditor windows will mark lines matched with the search strings on Vertical Scroll Bar.
 
-如果該核取方塊被勾選了，EmEditor 視窗會在垂直捲軸旁顯示文檔的迷你地圖。
+### Show Markers on Vertical Scroll Bar group box - Cursor Position check box
 
-### 「停留時顯示迷你地圖」核取方塊
+If this box is checked, EmEditor windows will mark the cursor
+position on Vertical Scroll Bar.
 
-如果勾選了該核取方塊，EmEditor 視窗會在滑鼠停留在垂直捲軸上時顯示迷你地圖。
+### Minimap check box
 
-### 「顯示整個地圖」核取方塊
+If this is checked, EmEditor windows will show a minimap next to the vertical scroll bar.
 
-如果該核取方塊被勾選了，EmEditor 視窗會在垂直捲軸旁顯示整個地圖。
+### Show Minimap while Hovered check box
 
-### 「縮放」滑桿
+If this is checked, EmEditor windows will show the minimap while the mouse is hovered on the vertical scroll bar.
 
-使用該滑桿來調整縮放迷你地圖。
+### Show Entire Map check box
 
-### 「比例」滑桿
+If this is checked, EmEditor windows will show the entire image of the minimap next to the vertical scroll bar.
 
-使用該滑桿來調整迷你地圖的比例。
+### Zoom slider
 
-### 「顯示箭頭」核取方塊
+Use this slider to adjust the zoom of the minimap.
 
-如果勾選了該核取方塊，在迷你地圖頂部和底部，會顯示向上以及向下箭頭。
+### Aspect Ratio slider
 
-### 「重設」按鈕
+Use this slider to adjust the aspect ratio of the minimap.
 
-重設為預設設定。 [**重設** 對話方塊](../reset/index) 會被顯示并讓您能從另一個組態複製設定。
+### Show Arrows check box
+
+If this is checked, the UP arrow button will appear at the top of the minimap and the DOWN arrow button will appear at the bottom of the minimap.
+
+### Reset button
+
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.

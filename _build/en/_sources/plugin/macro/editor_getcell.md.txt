@@ -1,24 +1,26 @@
 # Editor\_GetCell
 
-在指定的儲存格內檢索 Unicode 文字。你能用該內嵌函式或明確地發送
-[EE\_GET\_CELL](../message/ee_get_cell) 消息。
+Retrieves the Unicode text on the specified cell. You can use this inline function or explicitly send the
+[EE\_GET\_CELL](../message/ee_get_cell) message.
 
 Editor\_GetCell( HWND hwnd, GET\_CELL\_INFO\* pGetCellInfo, LPWSTR szString );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pGetCellInfo_
 
-> 指針指向 [GET\_CELL\_INFO](../structure/get_cell_info) 結構。
+> Pointer to the [GET\_CELL\_INFO](../structure/get_cell_info) structure.
 
 _szString_
 
-> 指針指向要接收文字的緩衝區。
+> Pointer to the buffer that will receive the text.
 
-## 返回值
+## Return Values
 
-> 如果 _pGetCellInfo->cch_ 是零，返回值是一個緩衝區能接收文字的必需的大小，以字元為單位。如果 _pGetLineInfo->cch_ 不是零，則不使用返回值。如果 _pGetCellInfo->iColumn_ 是 -1，返回值,是列數。
+> If _pGetCellInfo->cch_ is zero, the return value is the required
+> size, in characters, for a buffer that can receive the text. If _pGetLineInfo->cch_ is not zero, the
+> return value is not used. If _pGetCellInfo->iColumn_ is -1, the return value is the number of columns.

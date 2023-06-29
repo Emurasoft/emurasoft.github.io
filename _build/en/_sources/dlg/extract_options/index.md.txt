@@ -1,50 +1,51 @@
-# 「抽出選項」對話方塊
+# Extract Options dialog box
 
-這個對話方塊會顯示當在 [**尋找** 對話方塊](../find/index) 中選擇 **抽出選項** 時。
+This dialog box appears when the
+**Extract Options** is selected in the [**Find** dialog box](../find/index).
 
-### 「以輸出列顯示」核取方塊
+### Use Output Bar check box
 
-如果勾選了這個核取方塊，EmEditor 會在輸出欄中顯示搜索結果。
+If this box is checked, EmEditor displays the search results as a list in the Output Bar.
 
-### 「抽出選項」下列清單方塊
+### Extract Options drop-down list box
 
-選擇如何顯示搜索結果。
+Selects how results are displayed.
 
 |     |     |
 | --- | --- |
-| **顯示檔案名和行** | 檔案名稱以及包含搜索字串的行將會作為結果被顯示。 |
-| **僅顯示檔案名** | 只有檔案名會被顯示為尋找結果，包含搜索字串的行將不會被顯示。 |
-| **僅顯示符合的行** | 只有包含搜索字串的行將作為結果被顯示。 |
-| **僅顯示符合的字串** | 只有符合的字串會作為結果被顯示。 |
+| **Display File Names and Lines** | Both the file names and the whole lines containing the searched string will be displayed as results. |
+| **Display File Names Only** | Only file names will be displayed and the whole lines containing the searched string will not be displayed as results. |
+| **Display Matched Lines Only** | Only the whole lines containing the searched string will be displayed as results. |
+| **Display Matched Strings Only** | Only the matched strings will be displayed as results. |
 
-### 「符合的行以上的額外的行數」下拉清單方塊
+### Number of Additional Lines Above Matched Lines drop-down list box
 
-當 **抽出選項** 下拉功能表中選擇 **顯示檔案名和行** 或 **僅顯示符合的行** 時，指定符合行上方的額外的行數。
+Specifies the number of additional lines above matched lines when the **Display File Names and Lines** or **Display Matched Lines Only** is selected for the **Extract Options** drop-down list box.
 
-### 「符合的行以下的額外的行數」下拉清單方塊
+### Number of Additional Lines Below Matched Lines drop-down list box
 
-當 **抽出選項** 下拉功能表中選擇 **顯示檔案名和行** 或 **僅顯示符合的行** 時，指定符合行下方的額外的行數。
+Specifies the number of additional lines below matched lines when the **Display File Names and Lines** or **Display Matched Lines Only** is selected for the **Extract Options** drop-down list box.
 
-### 「分隔符號」文字方塊
+### Separator text box
 
-當為 **符合的行以上的額外的行數** 或 **符合的行以下的額外的行數** 下拉清單方塊指定大於 0 的數字時，指定分隔符號。
+Specifies the separator when a number greater than 0 is specified for the **Number of Additional Lines Above Matched Lines** or **Number of Additional Lines Below Matched Lines** drop-down list box.
 
-### 「計算常用字串」核取方塊
+### Count Frequent Strings check box
 
-如果勾選了該核取方塊，EmEditor 會計算常用字串並將其抽出到新文檔中。
+If this box is checked, EmEditor counts the frequently used strings and extracts them into a new document.
 
-### 「行數」文字方塊
+### Number of Lines text box
 
-指定要抽出的最大字串數。
+Specifies the maximum number of strings to be extracted.
 
-### 「CSV 格式」下拉清單方塊
+### CSV Format drop-down list box
 
-指定要顯示為的 CSV 格式。
+Specifies the CSV format to display as.
 
-### 「添加」按鈕
+### Add button
 
-添加一個條目到清單上。
+Adds an item to the list.
 
-### 「刪除」按鈕
+### Delete button
 
-點擊該按鈕從清單中刪除被選取的條目。
+Deletes the selected item(s) from the list.

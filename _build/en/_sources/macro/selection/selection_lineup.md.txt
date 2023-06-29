@@ -1,6 +1,6 @@
-# LineUp 方法
+# LineUp Method
 
-把游標上移指定的行數。
+Moves the cursor up a specified number of lines.
 
 #### \[JavaScript\]
 
@@ -10,17 +10,19 @@ document.selection. **LineUp**( \[ _bExtend_ \[, _nCount_ \] \] );
 
 document.selection. **LineUp** \[ _bExtend_ \[, _nCount_ \] \]
 
-## 參數
+## Parameters
 
 _bExtend_
 
-可選項。指定是否折疊被移動的文字。預設的值為 false，并且所移動的文字被折疊。
+Optional. Specifies whether the moved text is collapsed or not. The default
+is false and the moved text is collapsed.
 
 _nCount_
 
-可選項。指定上移的行數。預設值是 1。如果指定的是負數，該方法與 [**LineDown** \
-Method](selection_linedown)。如果指定值為 0，該方法的行為與指定值為 1 時的行為相同。
+Optional. Specifies the number of lines to move up. The default is 1. If
+negative, the method acts like the [**LineDown** \
+Method](selection_linedown). If 0, the method acts like 1.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

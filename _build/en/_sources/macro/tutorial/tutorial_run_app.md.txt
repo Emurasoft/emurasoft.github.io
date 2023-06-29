@@ -1,8 +1,8 @@
-# 運行外部程式
+# Run External Applications
 
-要運行外部程式，請用 WshShell 對象的 Run 方法 。
+To run an external application, use the Run Method of WshShell Object.
 
-下面的示例代碼會運行 Windows 中的計算器并給它發送鍵擊來執行一個簡單的運算 1+2=。
+The following example code runs the Windows calculator and sends it keystrokes to execute a simple calculation 1+2=.
 
 #### \[JavaScript (JScript)\]
 

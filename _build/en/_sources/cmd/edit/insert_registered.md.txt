@@ -1,26 +1,26 @@
-# 插入注冊符號命令
+# Insert Registered command
 
-### 摘要
+### Summary
 
-> 插入一個注冊符號。
+> Inserts a registered symbol.
 
-### 說明
+### Description
 
-> 在游標處插入一個注冊符號 (®)。
+> Inserts a registered symbol (®) at the cursor.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **插入** \> **標記** \> **注冊符號**
-- [全部命令](../tools/all_commands): **插入** \> **標記** \> **注冊符號**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: ALT+CTRL+R
+- Default Menu: **Insert** \> **Marks** \> **Registered**
+- [All Commands](../tools/all_commands): **Insert** \> **Marks** \> **Registered**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: ALT+CTRL+R
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_INSERT\_REGISTERED (4315)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

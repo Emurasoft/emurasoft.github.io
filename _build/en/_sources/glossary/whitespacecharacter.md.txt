@@ -1,3 +1,4 @@
-# 空白字元
+# Whitespace Character
 
-在屏幕上不可見的字元，例如一個空白或一個 tab。
+A character which doesn't visibly show on the screen, such as a space or
+a tab.

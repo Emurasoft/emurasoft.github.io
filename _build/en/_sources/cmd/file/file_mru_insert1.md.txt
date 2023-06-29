@@ -1,33 +1,40 @@
-# 插入最近使用的檔案清單命令
+# List of Recent Files to Insert command
 
-### 摘要
+### Summary
 
-> 插入一個指定的最近訪問的檔案在游標位置處 (多個項目) 。
+> Inserts a specified recently accessed file at the cursor position (multiple items).
 
-### 說明
+### Description
 
-> 這個命令由多個功能表項目組成，讓您能選擇一個最近訪問的檔案在游標位置處插入。所顯示的最近訪問的檔案數
-> 可以在 **工具** 功能表 ( **工具** \> **自訂** \> **歷史記錄**) 下的 [**自訂** 對話方塊](../../dlg/customize/index) 中 [**歷史記錄** 頁面](../../dlg/customize/history/index) 上的 **最近使用的檔案數** 文字方塊中設定。
+> This command consists of multiple menu items, allowing you choose a recently
+> accessed file to insert at the cursor position. The number of files to be
+> displayed as the recent files can be set on the
+> **Number of Recent**
+> **Files** text box on the
+> [**History** page](../../dlg/customize/history/index) of
+> the [**Customize** dialog box](../../dlg/customize/index),
+> under the **Tools** Menu ( **Tools** \> **Customize** \> **History**).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **插入** \> **(選擇檔案名)**
-- [全部命令](../tools/all_commands): **插入** \> **(選擇檔案名)**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Insert** \> **(select file name)**
+- [All Commands](../tools/all_commands): **Insert** \> **(select file name)**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
-- 從 EEID\_FILE\_MRU\_INSERT1 到 EEID\_FILE\_MRU\_INSERT1 + 63 (從 4864
-到 4864 + 63)
+- From EEID\_FILE\_MRU\_INSERT1 through EEID\_FILE\_MRU\_INSERT1 + 63 (from 4864
+through 4864 + 63)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4864 + i); // i 是一個從 0 到 63 的整數
+> editor.ExecuteCommandByID(4864 + i); // i is an integer from 0 through 63
 
 #### \[VBScript\]
 
-> editor.ExecuteCommandByID 4864 + i   ' i 是一個從 0 到 63 的整數
+> editor.ExecuteCommandByID 4864 + i   ' i is an integer from 0
+> through 63

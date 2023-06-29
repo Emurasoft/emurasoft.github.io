@@ -1,5 +1,5 @@
-# 說明文檔所涵蓋的內容
+# Coverage of the Help Document
 
-這個說明文檔僅包含與 EmEditor 相關的信息。
+This help document contains information only about EmEditor Professional.
 
-## 另外，請參考
+## See Also

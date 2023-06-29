@@ -1,6 +1,6 @@
-# PromptRename 屬性
+# PromptRename Property
 
-與 [**儲存詳細信息** 對話方塊](../../dlg/properties/file/save_details/index) 中的 **更名時在刪除舊檔案前提示** 核取方塊相對應。
+Corresponds to the **Prompt before Deleting an Old File when Renaming** check box in the [**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ object. **PromptRename**
 
 object. **PromptRename** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 13 或之後的版本。
+Supported in EmEditor Professional Version 13 or later.

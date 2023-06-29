@@ -1,15 +1,15 @@
-# 「偵測全部結果」對話方塊
+# Detect All Result dialog box
 
-當一個檔案在啟用全部偵測選項的情況下被打開，EmEditor 就會顯示這個對話方塊。您可以指定一個要用來打開檔案的編碼。
+This dialog box appears when a file is opened while the Detect All option is enabled for encoding selection. You can specify an encoding to open the file with.
 
-### 「編碼」清單方塊
+### Encoding list box
 
-為目前的檔案顯示偵測到的編碼清單。
+Displays the list of encodings detected for the current file.
 
-### 「預覽」文字方塊
+### Preview with text box
 
-用選取的編碼預覽被編碼的檔案。
+Displays the preview of the file encoded with the selected encoding.
 
-### 「打開 US-ASCII 作為系統預設編碼」核取方塊
+### Open US-ASCII as System Default Encoding
 
-當選取的編碼是 US-ASCII 時，這個選項會把檔案作為系統預設編碼打開。
+When the selected encoding is US-ASCII, this option opens the file as the System Default Encoding.

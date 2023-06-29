@@ -1,27 +1,30 @@
-# Tab 或增加行縮排命令
+# Tab or Increase Line Indent command
 
-### 摘要
+### Summary
 
-> 插入 Tab 或增加目前的行縮排。
+> Inserts a tab character, or increases the line indent.
 
-### 說明
+### Description
 
-> 在游標處插入一個 Tab (tab 字元)。如果多行被選取了，這個命令將在所有選取行的行首插入一個 Tab。
+> Inserts a tab character at the cursor. If
+> multiple lines are selected, this commands inserts a tab character at the
+> start of each line selected.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **水平移動游標**
-\> **插入 Tab 或增加行縮**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: TAB
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Insert Tab/Increase Line**
+**Indent**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: TAB
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_TAB (4188)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

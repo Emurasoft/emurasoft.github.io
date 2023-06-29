@@ -1,3 +1,4 @@
-# 刪除找到的字串亮顯
+# To Remove Highlight from Found Strings
 
-要刪除找到的字串亮顯，在 **搜尋** 功能表下選擇 **取消亮顯**。
+To remove the highlight from strings that matched a search, select **Erase**
+**Highlight** under the **Search** menu.

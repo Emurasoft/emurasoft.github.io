@@ -1,3 +1,7 @@
-# Q. 怎么能黑白列印文檔？
+# Q. How do I print my document in color or in black and white?
 
-要列印黑白檔案，請到 **工具** 功能表下的 **[當前組態屬性](../../dlg/properties/index)** 中點選 [**列印** 頁面](../../dlg/properties/print/index)，然后勾選 **忽略顏色與下劃線** 核取方塊。要列印彩色時，請不要勾選該選方塊。
+To print in black and white, click **[Properties for Current Configuration](../../dlg/properties/index)** under the
+**Tools** menu, click the
+[**Print** tab](../../dlg/properties/print/index), and then
+select the **Ignore Color and Underlines** check box.
+To print in color, clear the check box.

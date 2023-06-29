@@ -1,11 +1,13 @@
-# 打開一個已存在的檔案
+# To Open an Existing File
 
-1. 在工具列欄上點擊
-![Open](../../images/fileopen.gif) 。
-2. 選擇您想要打開的檔案并點擊 **「打開」** 按鈕。
+1. Click
+![Open](../../images/fileopen.gif) on the
+toolbar.
+2. Select the file you want to open and click on the **Open** button.
 
-## 提示
+## Tips
 
-- 或者，您可以從瀏覽器右鍵功能表，選擇 **「發送到」**，然后選擇EmEditor。
-- 或者，點擊系統匣圖示并選擇 **「打開」**。
-- 從 **檔案** 功能表中選擇最近使用的檔案。
+- Alternatively, from the Explorer right-click menu, Select **Send To** and then
+select EmEditor.
+- Alternatively, click the tray icon and select **Open**.
+- Recently used files can be selected from the **File** menu.

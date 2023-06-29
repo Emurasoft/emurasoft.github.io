@@ -1,16 +1,16 @@
-# 其他功能
+# Other features
 
-其他 EmEditor 功能:
+Other EmEditor features:
 
-- 用規則運算式查找和替換支持 Unicode。
-- 鍵盤，工具列，菜單，字體和自訂色彩。
-- 窗口最多可以被分成4個窗格。
-- 可點擊的 URL 和電子郵箱地址。
-- 支持微軟 IntelliMouse。
-- 打印功能 (打印預覽，色彩打印，頁眉/頁腳)。
-- 框選模式 (鼠標選取加 ALT 鍵) 。
-- 能夠定義多個配置和關聯檔案擴展名。
-- 能夠保存備份到回收站。
-- 能夠從任務欄的系統匣圖示處打開最近使用的檔案。
-- 支持全球輸入法編輯器 (IME) (Windows 98/Me)。
-- 用快捷鍵插入重音符和特殊字符。
+- Find and Replace with regular expressions supporting Unicode.
+- Keyboard, toolbar, menu, font and color customization.
+- The window can be split to a maximum of 4 panes.
+- Clickable URLs and email addresses.
+- Microsoft IntelliMouse support.
+- Print features (print preview, color print, header/footer).
+- Box-select mode (Mouse select with ALT key).
+- Can define multiple configurations and associate file extensions.
+- Can save backups to the Recycle Bin.
+- Can open recently used files from the tray icon on the task bar.
+- Supports Global Input Method Editor (IME) (Windows 98/Me).
+- Shortcut keys to insert accent marks and special characters.

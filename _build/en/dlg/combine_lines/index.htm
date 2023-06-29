@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Combine Lines dialog box &#8212; EmEditor  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="Index" href="../../genindex.htm" />
+    <link rel="search" title="Search" href="../../search.htm" />
+    <link rel="next" title="Configuration Associations dialog box" href="../configuration_associations/index.htm" />
+    <link rel="prev" title="EmEditor Home - EmEditor Help - Dialog \ Boxes - Combine Files wizard" href="../combine_files/combine_wiz_src.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  documentation</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+                    English
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/dlg/combine_lines/index">English</a>
+                <a href="/emeditor-help/ja/dlg/combine_lines/index">日本語</a>
+                <a href="/emeditor-help/ko/dlg/combine_lines/index">한국어</a>
+                <a href="/emeditor-help/zh-cn/dlg/combine_lines/index">简体中文</a>
+                <a href="/emeditor-help/zh-tw/dlg/combine_lines/index">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">Quick search</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.htm">Command Reference</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">Dialog Boxes</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../about/index.htm">About EmEditor dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced/index.htm">Advanced dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced_filter/index.htm">Advanced Filter dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced_open/index.htm">Advanced Open dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../auto_fill/index.htm">AutoFill dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../batch_options/index.htm">Batch Options dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../character_code_value_dialog/index.htm">Character Code Value dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../clear_history/index.htm">Clear History Now (on Exit) dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../combine_columns/index.htm">Combine Columns dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../combine_files/index.htm">Combine Files wizard</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Combine Lines dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration_associations/index.htm">Configuration Associations dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configurations/index.htm">Define Configurations dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../convert/index.htm">Half-Width/Full-Width Conversion dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.htm">Customize dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../customize_markers/index.htm">Customize Markers dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../customize_start/index.htm">Customize Start Window dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../delete_duplicate_advanced/index.htm">Delete/Bookmark Duplicate Lines dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../detect_result/index.htm">Detect All Result dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../encodings/index.htm">Define Encodings dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extract_columns/index.htm">Extract Columns dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extract_frequent/index.htm">Extract Frequent Strings dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extract_options/index.htm">Extract Options dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_associate/index.htm">Associate with EmEditor dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../filter_extract_options/index.htm">Filter Extract Options dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../find/index.htm">Find dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../find_in_files/index.htm">Find in Files dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fuzzy_options/index.htm">Fuzzy Matching Options dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../import_export/index.htm">Import and Export Wizard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert_numbering/index.htm">Insert Numbering dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../insert_special/index.htm">Insert Special Character dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../join_csv/index.htm">Join CSV dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../jump/index.htm">Jump dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro_customize/index.htm">Customize Macros dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro_temp_options/index.htm">Macro Temporary Options dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../manage_columns/index.htm">Manage Columns dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../menus/index.htm">Customize Menus dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../move_column/index.htm">Move/Copy Columns dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../number_range/index.htm">Enter Number Range dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../opening/index.htm">How to Purchase dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pivot_table/index.htm">Pivot Table dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugins/index.htm">Customize Plug-ins dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../properties/index.htm">Configuration Properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regist/index.htm">Register Product dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../repeat_count/index.htm">Repeat dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../replace/index.htm">Replace dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../replace_in_files/index.htm">Replace in Files dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../save_all_as/index.htm">Save All with Encoding dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort_columns/index.htm">Sort Columns dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort_multi/index.htm">Advanced Sort dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sort_sel/index.htm">Sort Selection dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../split_column/index.htm">Split Columns dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../split_to_files/index.htm">Split a File wizard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../toolbars/index.htm">Toolbars dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/index.htm">External Tools dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tray/index.htm">Customize Tray Icon dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../undo_history/index.htm">Undo/Redo History dialog box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../unpivot/index.htm">Unpivot dialog box</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.htm">How to …</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">Links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">Macro Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">Notices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.htm">Plug-in Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">How to Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">Support</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">Dialog Boxes</a> &lt;
+                Combine Lines dialog box
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="combine-lines-dialog-box">
+<h1>Combine Lines dialog box<a class="headerlink" href="#combine-lines-dialog-box" title="Permalink to this heading">¶</a></h1>
+<p>This dialog box appears when the
+<a class="reference internal" href="../../cmd/edit/combine_lines.htm"><span class="doc std std-doc"><strong>Combine Lines</strong> command</span></a> is selected. This command combines vertical adjacent duplicate cells.</p>
+<section id="columns-to-inspect-duplicates-list-box">
+<h2>Columns to inspect duplicates list box<a class="headerlink" href="#columns-to-inspect-duplicates-list-box" title="Permalink to this heading">¶</a></h2>
+<p>Displays the list of columns that can be specified to inspect duplicates.</p>
+</section>
+<section id="ignore-case-check-box">
+<h2>Ignore Case check box<a class="headerlink" href="#ignore-case-check-box" title="Permalink to this heading">¶</a></h2>
+<p>If this box is checked, EmEditor ignores case when comparing vertical adjacent cells.</p>
+</section>
+<section id="columns-to-combine-list-box">
+<h2>Columns to combine list box<a class="headerlink" href="#columns-to-combine-list-box" title="Permalink to this heading">¶</a></h2>
+<p>Displays the list of columns to combine.</p>
+</section>
+<section id="string-to-insert-list-box">
+<h2>String to Insert list box<a class="headerlink" href="#string-to-insert-list-box" title="Permalink to this heading">¶</a></h2>
+<p>You can specify the string to insert when combining lines.</p>
+</section>
+<section id="remove-empty-strings-check-box">
+<h2>Remove empty strings check box<a class="headerlink" href="#remove-empty-strings-check-box" title="Permalink to this heading">¶</a></h2>
+<p>If this is checked, EmEditor removes empty strings when combining lines.</p>
+</section>
+<section id="remove-duplicate-strings-check-box">
+<h2>Remove duplicate strings check box<a class="headerlink" href="#remove-duplicate-strings-check-box" title="Permalink to this heading">¶</a></h2>
+<p>If this is checked, EmEditor removes duplicate strings when combining lines.</p>
+</section>
+<section id="sort-strings-check-box">
+<h2>Sort strings check box<a class="headerlink" href="#sort-strings-check-box" title="Permalink to this heading">¶</a></h2>
+<p>If this is checked, EmEditor sorts strings with the specified sort condition.</p>
+</section>
+<section id="how-to-sort-list-box">
+<h2>How to Sort list box<a class="headerlink" href="#how-to-sort-list-box" title="Permalink to this heading">¶</a></h2>
+<p>Displays the list of defined sort conditions.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Sort A to Z</p></td>
+<td><p>Sorts strings in ascending order.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sort Z to A</p></td>
+<td><p>Sorts strings in descending order.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sort Smallest to Largest</p></td>
+<td><p>Sorts numbers in strings in ascending order.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sort Largest to Smallest</p></td>
+<td><p>Sorts numbers in strings in descending order.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sort Shortest to Longest</p></td>
+<td><p>Sorts strings by length in ascending order.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sort Longest to Shortest</p></td>
+<td><p>Sorts strings by length in descending order.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sort Fewest to Most Words</p></td>
+<td><p>Sorts strings by the number of words in ascending order.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sort Most to Fewest Words</p></td>
+<td><p>Sorts strings by the number of words in descending order.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sort Date and Time Oldest to Newest</p></td>
+<td><p>Sorts date and time in strings in ascending order.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sort Date and Time Newest to Oldest</p></td>
+<td><p>Sorts date and time in strings in descending order.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sort by Occurrence Ascending</p></td>
+<td><p>Sorts by occurrence in strings, in ascending order.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sort by Occurrence Descending</p></td>
+<td><p>Sorts by occurrence in strings, in descending order.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sort IPv4 Addresses Ascending</p></td>
+<td><p>Sorts IPv4 addresses in strings, in ascending order.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sort IPv4 Addresses Descending</p></td>
+<td><p>Sorts IPv4 addresses in strings, in descending order.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sort IPv6 Addresses Ascending</p></td>
+<td><p>Sorts IPv6 addresses in strings, in ascending order.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sort IPv6 Addresses Descending</p></td>
+<td><p>Sorts IPv6 addresses in strings, in descending order.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sort Randomly</p></td>
+<td><p>Sorts strings randomly.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sort Reverse</p></td>
+<td><p>Sorts strings in reverse order.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="string-to-insert-text-box">
+<h2>String to Insert text box<a class="headerlink" href="#string-to-insert-text-box" title="Permalink to this heading">¶</a></h2>
+<p>Specifies a string to insert when combining vertical adjacent duplicate cells.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">Combine Lines dialog box</a><ul>
+<li><a class="reference internal" href="#columns-to-inspect-duplicates-list-box">Columns to inspect duplicates list box</a></li>
+<li><a class="reference internal" href="#ignore-case-check-box">Ignore Case check box</a></li>
+<li><a class="reference internal" href="#columns-to-combine-list-box">Columns to combine list box</a></li>
+<li><a class="reference internal" href="#string-to-insert-list-box">String to Insert list box</a></li>
+<li><a class="reference internal" href="#remove-empty-strings-check-box">Remove empty strings check box</a></li>
+<li><a class="reference internal" href="#remove-duplicate-strings-check-box">Remove duplicate strings check box</a></li>
+<li><a class="reference internal" href="#sort-strings-check-box">Sort strings check box</a></li>
+<li><a class="reference internal" href="#how-to-sort-list-box">How to Sort list box</a></li>
+<li><a class="reference internal" href="#string-to-insert-text-box">String to Insert text box</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

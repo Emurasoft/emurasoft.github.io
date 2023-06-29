@@ -1,3 +1,4 @@
-# 切換
+# Toggle
 
-用同樣的鍵或命令在兩個操作之間互相轉換。
+Switching back and forth between two computer
+operations using the same key or command.

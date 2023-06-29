@@ -1,3 +1,3 @@
-# Q. 如何以全彩顯示表情符號？
+# Q. How can I display emoji in full colors?
 
-到 **工具** 功能表下選擇 **自訂**，在 **文字呈現** 頁面上確保勾選了「使用 DirectWrite」選項。
+Please select "Customize" on the "Tools" menu, and ensure the "Use DirectWrite" option is set in the "Text Rendering" page.

@@ -1,26 +1,29 @@
-# 列印命令
+# Print command
 
-### 摘要
+### Summary
 
-> 列印目前的檔案。
+> Prints the current file.
 
-### 說明
+### Description
 
-> 這個命令顯示 **列印** 對話方塊，讓您能指定要復印的數目以及文檔列印的範圍。點擊 **OK** 來開始列印。
+> This command displays the **Print** dialog box, where you can specify
+> the number of copies and the print range for the document you wish to print.
+> Click **OK** to
+> start the printing.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檔案** \> **列印**
-- [全部命令](../tools/all_commands): **檔案** \> **列印** \> **列印**
-- 工具列: ![](../../images/fileprint.gif)
-- 狀態列: 無
-- 預設捷徑: CTRL+P
+- Default Menu: **File** \> **Print**
+- [All Commands](../tools/all_commands): **File** \> **Print** \> **Print**
+- Toolbar: ![](../../images/fileprint.gif)
+- Status Bar: None
+- Default Shortcut Key: CTRL+P
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILE\_PRINT (4114)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

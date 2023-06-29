@@ -1,6 +1,6 @@
-# GetColumn 方法
+# GetColumn Method
 
-在 CSV 模式中檢索文字欄。
+Retrieves a column of text in CSV mode.
 
 #### \[JavaScript\]
 
@@ -10,38 +10,38 @@ _str_ = document. **GetColumn**( _iColumn_, _strDelimiter_, _flags_, _yTop_, _yL
 
 _str_ = document. **GetColumn**( _iColumn_, _strDelimiter_, _flags_, _yTop_, _yLines_ )
 
-## 參數
+## Parameters
 
 _iColumn_
 
-指定欄的索引。
+Specifies the index of the column.
 
 _strDelimiter_
 
-指定分隔符來分隔輸出的字串。 此參數不能為空。
+Specifies the delimiter to separate the string for the output. This parameter cannot be empty.
 
 _flags_
 
-> 指定下列值之一。eeCellDontCheckDelimiter 可以與其他標志之一組合使用。
+> Specifies one of the following values. The eeCellDontCheckDelimiter can be combined with one of the other flags.
 >
 > |     |     |
 > | --- | --- |
-> | eeCellIncludeNone | 返回的文字不包括加在文字上的雙引號或分隔符。 |
-> | eeCellIncludeQuotes | 返回的文字可以包括加在文字上的雙引號，但不包括分隔符。 |
-> | eeCellIncludeQuotesAndDelimiter | 返回的文字可以包括加在文字上的雙引號以及分隔符。 |
-> | eeCellDontCheckDelimiter | 設定如果每個儲存格包含這個分隔符，該方法會失敗。如果未指定，則該方法不會檢查每個儲存格是否包含分隔符。 |
+> | eeCellIncludeNone | The returned text may not include surrounded double-quotes or delimiters. |
+> | eeCellIncludeQuotes | The returned text may include surrounded double-quotes but no delimiters. |
+> | eeCellIncludeQuotesAndDelimiter | The returned text may include surrounded double-quotes and delimiters. |
+> | eeCellDontCheckDelimiter | Specifies that the method should fail if each cell contains the delimiter. If this is not specified, the method will not check whether each cell contains the delimiter. |
 
 _yTop_
 
-指定要設置的第一行的行號。如果省略，會預設為檔案的首行。
+Specifies a line number of the first line to set. If omitted, the first line is specified.
 
 _yLines_
 
-指定要設置為限制的行數。 如果為零或省略，則不指定限制。
+Specifies the number of lines to set as a limit. If this is zero or omitted, no limit is specified.
 
-## 範例
+## Examples
 
-以下範例檢索第一列，并插入一個與第一列長度相同的新列作為第二列。運行此巨集之前，CSV文檔必須處于活動狀態。 由于使用換行符號(\\n, Chr(10)) 作為分隔符，我們假定每個儲存格不包含換行符。
+The following example retrieves the first column, and insert a new column with the length of each cell as the second column. A CSV document must be active before this macro is run. Since a linefeed (\\n, Chr(10)) is used as a delimiter, we assume that each cell does not contain a linefeed.
 
 #### \[JavaScript\]
 
@@ -89,6 +89,6 @@ If x > 0 Then s2 = Left( s2, x - 1 )
 
 document.InsertColumn 2, s2, Chr(10), eeDontQuote
 
-## 版本
+## Version
 
-支持 EmEditor Professional 16.8 或之後的版本。
+Supported on EmEditor Professional Version 16.8 or later.

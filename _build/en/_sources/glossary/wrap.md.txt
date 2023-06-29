@@ -1,3 +1,4 @@
-# 換行
+# Wrap
 
-一個程式強制所有文字都能在被定義的邊距範圍內的功能。請同樣參考 [換行點](wrappoint)。
+A feature that causes a program to force all text to fit within the
+defined margins. See also [Wrap Point.](wrappoint)

@@ -1,3 +1,5 @@
-# 外部工具
+# External Tools
 
-您能用 EmEditor 中的工具列按鈕或鍵盤快捷鍵啟動您喜歡的外部工具。比如，您可以在您最喜歡的網絡瀏覽器中測試 HTML 檔案。
+You can launch your favorite external tools from within EmEditor via toolbar
+buttons or keyboard shortcuts. For instance, you can run your favorite Internet
+browser to test out HTML files.

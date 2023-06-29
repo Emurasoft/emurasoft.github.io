@@ -1,55 +1,58 @@
-# 「拼字檢查」頁面
+# Spelling page
 
-**拼字檢查** 頁面讓您能設置與拼字檢查相關的屬性。
+The **Spelling** page allows you to set properties related to spelling.
 
-### 「拼字檢查」核取方塊
+### Check Spelling check box
 
-如果該核取方塊被勾選了，EmEditor 會在文檔中檢查拼字。
+If this is checked, EmEditor checks spelling in documents.
 
-### 「支持駝峰式大小寫」核取方塊
+### Support Camel Case check box
 
-如果該核取方塊被勾選了，EmEditor 會支持駝峰式大小寫當在文檔中進行拼字檢查時。
+If this is checked, EmEditor supports camel case while checking spelling in documents.
 
-### 「全部」核取方塊
+### All check box
 
-點擊該核取方塊來勾選或清除勾選下列所有的核取方塊。
+Click this check box to toggle all check boxes below.
 
-### 「引用行」核取方塊
+### Quoted Lines check box
 
-如果該核取方塊被勾選了，EmEditor 會檢查引用行的拼字。
+If this is checked, EmEditor checks spelling in quoted lines.
 
-### 「單引號內的字串」核取方塊
+### String Enclosed by Single Quotation Marks check box
 
-如果該核取方塊被勾選了，EmEditor 會檢查單引號內的字串的拼字。
+If this is checked, EmEditor checks spelling in strings enclosed by single quotation marks.
 
-### 「雙引號內的字串」核取方塊
+### String Enclosed by Double Quotation Marks check box
 
-如果該核取方塊被勾選了，EmEditor 會檢查雙引號內的字串的拼字。
+If this is checked, EmEditor checks spelling in strings enclosed by double quotation marks.
 
-### 「注釋」核取方塊
+### Comments check box
 
-如果該核取方塊被勾選了，EmEditor 會檢查注釋的拼字。
+If this is checked, EmEditor checks spelling in comments.
 
-### 「指令碼」核取方塊
+### Script check box
 
-如果該核取方塊被勾選了，EmEditor 會檢查指令碼的拼字。
+If this is checked, EmEditor checks spelling in script.
 
-### 「標記」核取方塊
+### Tags check box
 
-如果該核取方塊被勾選了，EmEditor 會檢查標記的拼字。
+If this is checked, EmEditor checks spelling in tags.
 
-### 「已亮顯的文字」核取方塊
+### Highlighted Text check box
 
-如果該核取方塊被勾選了，EmEditor 會檢查已亮顯的文字的拼字。
+If this is checked, EmEditor checks spelling in highlighted text.
 
-### 「超連結」核取方塊
+### Hyperlinks check box
 
-如果該核取方塊被勾選了，EmEditor 會檢查超連結的拼字。
+If this is checked, EmEditor checks spelling in hyperlinks.
 
-### 「未指定的文字」核取方塊
+### Unspecified Text check box
 
-如果該核取方塊被勾選了，EmEditor 會檢查未指定的文字的拼字。
+If this is checked, EmEditor checks spelling in unspecified text that is not
+covered by previous controls.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。會顯示 [**重設** 對話方塊](../reset/index) 并讓您能從另一個組態複製設定。
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.

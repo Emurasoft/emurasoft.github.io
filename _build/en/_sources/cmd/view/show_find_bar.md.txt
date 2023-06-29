@@ -1,29 +1,29 @@
-# 搜尋工具列命令
+# Find Toolbar command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏搜尋工具列。
+> Shows or hides the Find toolbar.
 
-### 說明
+### Description
 
-> 顯示或隱藏搜尋工具列。搜尋工具列讓您能尋找或取代文檔中的字串。
+> Shows or hides the Find toolbar. The Find toolbar allows you to find or replace strings in the document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** >
-**工具列** \> **搜尋工具列**
-- [全部命令](../tools/all_commands): **檢視** >
-**工具列** \> **搜尋工具列**
+- Default Menu: **View** >
+**Toolbars** \> **Find Toolbar**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Find Toolbar**
 - Toolbar:
 ![](../../images/emeditor12_toggle_find_bar_button.png)
-- 狀態列: 無
-- 預設捷徑: 無
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SHOW\_FIND\_BAR (4559)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

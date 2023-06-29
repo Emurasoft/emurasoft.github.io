@@ -1,6 +1,6 @@
-# Load 方法
+# Load Method
 
-加載一個組態。
+Loads a configuration.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,12 @@ object. **Load**( \[ _strName_ \] );
 
 object. **Load** \[ _strName_ \]
 
-## 參數
+## Parameters
 
 _strName_
 
-可選。指定要被加載的組態名稱。如果省略，名稱將不會更改。
+Optional. Specifies the name of the configuration to be loaded. If omitted, the name will not be changed.
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

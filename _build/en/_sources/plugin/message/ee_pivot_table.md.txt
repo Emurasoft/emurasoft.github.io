@@ -1,6 +1,6 @@
 # EE\_PIVOT\_TABLE
 
-在 CSV 文檔中建立樞紐分析表。你能明確地發送該消息或用 [Editor\_PivotTable](../macro/editor_pivottable) 內嵌函式。
+Creates a pivot table in the CSV document. You can send this message explicitly or use the [Editor\_PivotTable](../macro/editor_pivottable) inline function.
 
 EE\_PIVOT\_TABLE
 
@@ -8,16 +8,16 @@ wParam = (WPARAM)(PIVOT\_TABLE\_INFO\*)pInfo;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _pInfo_
 
-> 指定指向 [PIVOT\_TABLE\_INFO](../structure/pivot_table_info) 結構的指針。
+> Specifies the pointer to the [PIVOT\_TABLE\_INFO](../structure/pivot_table_info) structure.
 
-## 返回值
+## Return Values
 
-> 如果失敗，則返回值為負值。
+> The return value is a negative value if it fails.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor Professional 21.4 或之後的版本。
+> Supported on Version 21.4 or later.

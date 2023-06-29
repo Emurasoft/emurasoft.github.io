@@ -1,3 +1,5 @@
-# 規則運算式
+# Regular Expression
 
-一個規則運算式是一個文字模式，由普通字元，或文字 (例如字母 a-z) 以及被稱作元字元的具有特殊意義的專用字元組成。
+A regular expression is a pattern of text that consists of ordinary
+characters, or literals, (for example letters a-z) and special characters,
+known as metacharacters.

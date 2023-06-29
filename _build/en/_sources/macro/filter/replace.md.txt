@@ -1,6 +1,6 @@
-# Replace 屬性
+# Replace Property
 
-指定要取代為的字串。
+Specifies a string to replace with.
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ item. **Replace**
 
 item. **Replace** = _s_
 
-## 版本
+## Version
 
-支持 EmEditor Professional 19.9 或之後的版本。
+Supported on EmEditor Professional Version 19.9 or later.

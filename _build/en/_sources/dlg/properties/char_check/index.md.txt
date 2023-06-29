@@ -1,50 +1,57 @@
-# 「字元檢查」頁面
+# Character Check page
 
-**字元檢查** 頁面讓你能設定與字元檢查相關的屬性。
+The **Character Check** page allows you to set properties related to character check.
 
-### 「儲存前檢查」核取方塊
+### Check before savings check box
 
-如果勾選了該核取方塊，EmEditor 會在儲存前檢查文檔是否包含指定的警告字元。
+If this is checked, EmEditor checks if the document contains specified warning characters immediately before being saved.
 
-### 「警告隱形字元」核取方塊
+### Warn invisible characters check box
 
-點擊該核取方塊以警告隱形字元。
+Click this check box to warn invisible characters. An invisible character is any of the following:
 
-### 「警告控制字元」核取方塊
+`
+SOFT HYPHEN (0x00ad), ARABIC LETTER MARK (0x061c), MONGOLIAN VOWEL SEPARATOR (0x180e), ZERO WIDTH SPACE (0x200b), ZERO WIDTH NON-JOINER (0x200c), ZERO WIDTH JOINER (0x200d), LEFT-TO-RIGHT MARK (0x200e), RIGHT-TO-LEFT MARK (0x200f), LEFT-TO-RIGHT EMBEDDING (0x202a), RIGHT-TO-LEFT EMBEDDING (0x202b), POP DIRECTIONAL FORMATTING (0x202c), LEFT-TO-RIGHT OVERRIDE (0x202d), RIGHT-TO-LEFT OVERRIDE (0x202e), WORD JOINER (0x2060), FUNCTION APPLICATION (0x2061), INVISIBLE TIMES (0x2062), INVISIBLE SEPARATOR (0x2063), INVISIBLE PLUS (0x2064), LEFT-TO-RIGHT ISOLATE (0x2066), RIGHT-TO-LEFT ISOLATE (0x2067), FIRST STRONG ISOLATE (0x2068), POP DIRECTIONAL ISOLATE (0x2069), INHIBIT SYMMETRIC SWAPPING (0x206a), ACTIVATE SYMMETRIC SWAPPING (0x206b), INHIBIT ARABIC FORM SHAPING (0x206c), ACTIVATE ARABIC FORM SHAPING (0x206d), NATIONAL DIGIT SHAPES (0x206e), NOMINAL DIGIT SHAPES (0x206f), ZERO WIDTH NO-BREAK SPACE (0xfeff), INTERLINEAR ANNOTATION ANCHOR (0xfff9), INTERLINEAR ANNOTATION SEPARATOR (0xfffa), INTERLINEAR ANNOTATION TERMINATOR (0xfffb), OBJECT REPLACEMENT CHARACTER (0xfffc)
+`
 
-點擊該核取方塊以警告控制字元。
+### Warn control characters check box
 
-### 「警告代理字元」核取方塊
+Click this check box to warn control characters. A control character has a code point of either (1) less than or equal to `0x1f`, but is not carriage return, line feed, or tab, or (2) in the range `[0x7f, 0x9f]`.
 
-點擊該核取方塊以警告代理項字元。
+### Warn surrogate characters check box
 
-### 「警告指定範圍內的字元」核取方塊
+Click this check box to warn surrogate characters.
 
-點擊該核取方塊以警告指定範圍內的字元。
+### Warn characters in specified ranges check box
 
-### 「警告不在指定範圍的字元」核取方塊
+Click this check box to warn characters in specified ranges.
 
-點擊該核取方塊以警告指定範圍內的字元。
+### Warn characters outside of specified ranges check box
 
-### 「添加」按鈕
+Click this check box to warn characters outside of specified ranges.
 
-[**字元範圍** 對話方塊](char_range/index) 將顯示並允許您將指定範圍添加到清單中。
+### Add button
 
-### 「刪除」按鈕
+[**Character Range** dialog box](char_range/index) will be displayed and will allow you to add specified range to the list.
 
-從清單中刪除所選範圍。
+### Delete button
 
-### 「字元範圍」清單方塊
+Removes the selected range from the list.
 
-列出使用者定義的字元範圍。雙擊清單中的項目將允許您編輯所選範圍。
+### Character ranges list box
 
-### 「重設」按鈕
+Lists the user-defined character ranges. Double-clicking on an item in the list will allow you to edit the selected range.
 
-重設為預設設定。會顯示 [**重設** 對話方塊](../reset/index) 並讓你能從另一個組態複製設定。
+### Reset button
 
-你能通過該頁面訪問下列對話方塊。
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.
 
-（選擇 **「添加」** 按鈕）
+You can also move to the following dialog box from this page.
+
+(Select **Add**
+button)
 
 ```{toctree}
 :maxdepth: 1

@@ -1,41 +1,41 @@
-# Config 對象
+# Config Object
 
-## 屬性
-
-|     |     |
-| --- | --- |
-| [Association](association) | 檢索 [AssociationProp 對象](../association_prop/index)。 |
-| [AutoSave](auto_save) | 檢索 [AutoSaveProp 對象](../auto_save_prop/index)。 |
-| [Backup](backup) | 檢索 [BackupProp 對象](../backup_prop/index)。 |
-| [Display](display) | 檢索 [DisplayProp 對象](../display_prop/index)。 |
-| [File](file) | 檢索 [FileProp 對象](../file_prop/index)。 |
-| [FileNew](file_new) | 檢索 [FileNewProp 對象](../file_new_prop/index)。 |
-| [FileSave](file_save) | 檢索 [FileSaveProp 對象](../file_save_prop/index)。 |
-| [Font](font) | 檢索 [FontProp 對象](../font_prop/index)。 |
-| [General](general) | 檢索 [GeneralProp 對象](../general_prop/index)。 |
-| [Highlight](highlight) | 檢索 [HighlightProp 對象](../highlight_prop/index)。 |
-| [Indent](indent) | 檢索 [IndentProp 對象](../indent_prop/index)。 |
-| [Keyboard](keyboard) | 檢索 [KeyboardProp 對象](../keyboard_prop/index)。 |
-| [Link](link) | 檢索 [LinkProp 對象](../link_prop/index)。 |
-| [Mark](mark) | 檢索 [MarkProp 對象](../mark_prop/index)。 |
-| [Name](name) | 為目前的組態對象檢索名稱。 |
-| [NoWrap](no_wrap) | 檢索 [NoWrapProp 對象](../no_wrap_prop/index)。 |
-| [Print](print) | 檢索 [PrintProp 對象](../print_prop/index)。 |
-| [Scroll](scroll) | 檢索 [ScrollProp 對象](../scroll_prop/index)。 |
-| [Spell](spell) | 檢索 [SpellProp 對象](../spell_prop/index)。 |
-| [Wrap](wrap) | 檢索 [WrapProp 對象](../wrap_prop/index)。 |
-
-## 方法
+## Properties
 
 |     |     |
 | --- | --- |
-| [Load](load) | 加載一個組態。 |
-| [Reset](reset) | 重設目前的組態。 |
-| [Save](save) | 儲存目前的組態。 |
+| [Association](association) | Retrieves the [AssociationProp object](../association_prop/index). |
+| [AutoSave](auto_save) | Retrieves the [AutoSaveProp object](../auto_save_prop/index). |
+| [Backup](backup) | Retrieves the <br> [BackupProp object](../backup_prop/index). |
+| [Display](display) | Retrieves the <br> [DisplayProp object](../display_prop/index). |
+| [File](file) | Retrieves the [FileProp object](../file_prop/index). |
+| [FileNew](file_new) | Retrieves the [FileNewProp object](../file_new_prop/index). |
+| [FileSave](file_save) | Retrieves the [FileSaveProp object](../file_save_prop/index). |
+| [Font](font) | Retrieves the [FontProp object](../font_prop/index). |
+| [General](general) | Retrieves the [GeneralProp object](../general_prop/index). |
+| [Highlight](highlight) | Retrieves the [HighlightProp object](../highlight_prop/index). |
+| [Indent](indent) | Retrieves the [IndentProp object](../indent_prop/index). |
+| [Keyboard](keyboard) | Retrieves the [KeyboardProp object](../keyboard_prop/index). |
+| [Link](link) | Retrieves the [LinkProp object](../link_prop/index). |
+| [Mark](mark) | Retrieves the [MarkProp object](../mark_prop/index). |
+| [Name](name) | Retrieves the name for the current configuration object. |
+| [NoWrap](no_wrap) | Retrieves the [NoWrapProp object](../no_wrap_prop/index). |
+| [Print](print) | Retrieves the [PrintProp object](../print_prop/index). |
+| [Scroll](scroll) | Retrieves the [ScrollProp object](../scroll_prop/index). |
+| [Spell](spell) | Retrieves the [SpellProp object](../spell_prop/index). |
+| [Wrap](wrap) | Retrieves the [WrapProp object](../wrap_prop/index). |
 
-## 版本
+## Methods
 
-支持 EmEditor 7.00 或之後的版本。
+|     |     |
+| --- | --- |
+| [Load](load) | Loads a configuration. |
+| [Reset](reset) | Resets the current configuration. |
+| [Save](save) | Saves the current configuration. |
+
+## Version
+
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

@@ -1,27 +1,29 @@
-# 跳轉命令
+# Jump command
 
-### 摘要
+### Summary
 
-> 跳轉到指定行。
+> Jumps to a specified line.
 
-### 說明
+### Description
 
-> 這個命令會顯示 [**「跳轉」** 對話方塊](../../dlg/jump/index)。您可以在這個對話方塊中指定一個行號，文檔會跳轉到指定的行上。
+> This command displays the [**Jump** dialog \
+> box](../../dlg/jump/index). Specify a line number in the dialog box, and the document will jump to the line
+> specified.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **跳轉**
-- [全部命令](../tools/all_commands): **編輯** \> **進階**
-\> **跳轉**
-- 工具列: ![](../../images/jump.gif)
-- 狀態列: 無
-- 預設捷徑: CTRL+G
+- Default Menu: **Edit** \> **Jump**
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
+\> **Jump**
+- Toolbar: ![](../../images/jump.gif)
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+G
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_JUMP (4139)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

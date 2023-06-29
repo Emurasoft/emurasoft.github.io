@@ -1,12 +1,12 @@
-# 教程
+# Tutorial
 
-本節將通過簡單的方式一步一步地教您如何使用巨集。
+This section demonstrates how to use macros in a simple and step-by-step manner.
 
-## 創建巨集
+## Create macros
 
-## 操作字串
+## Manipulate String
 
-## 使用對象
+## Use Object
 
 ```{toctree}
 :maxdepth: 1

@@ -1,51 +1,46 @@
 # Version 21.9
 
-2022年8月9日
+August 9, 2022
 
-## 一般新增功能
+## New General Features
 
-- 通過更新的 [**提交清單** 外掛程式](../howto/plugin/plugin_commit_list)，新版本讓您能輕松檢視 **[Git](https://git-scm.com/)** 變更以及暫存的變更。 （詳情請看 [**外掛程式的新增功能**](#plugin_new_features)）。 <pro />
-- 新版本改進了每個變更行的比較結果的視圖，並在編輯文檔時能動態更新比較結果。 <profree />
-- 當分割視窗進行比較時，添加了 **上一更改**， **下一更改**， **上一更改的字元**，和 **下一更改的字元** 按鈕到文檔標題。 <profree />
-- 新版本能讓您 **隱藏** 或 **取消隱藏** 任何 CSV 欄。 <pro />
-- 新版本讓您能 **向右**、 **向左** 或 **置中** **對齊** 任何 CSV 欄。 <pro />
-- 新版本讓您能設定 **列標題** 以及 **欄標題**（ **凍結窗格**）。 <pro />
-- 重新設計了預設的 **主功能表**， **內容功能表** 以及 **尺規功能表**。當您右鍵單擊編輯器視圖的左上角矩形區域時，新版本會在選取整個文檔時顯示一個新的快顯功能表。 <profree />
-- 預設的 **主功能表** 包括新的 **CSV** 子功能表，可以訪問大多數與 CSV 相關的命令。當您右鍵單擊 CSV 欄標題時，新版本會顯示一個新的快顯功能表。 <pro />
-- 把 **[下一更改的字元](../cmd/diff/compare_next_char)** 命令的鍵盤快速鍵變更為 Ctrl+F7， **[上一更改的字元](../cmd/diff/compare_prev_char)** 命令的鍵盤快速鍵為 Ctrl+Shift+F7。 <profree />
-- 當選取超出視圖邊方塊的文字時，調整了捲動的速度。將滑鼠從編輯器視圖移得越遠，捲動的速度就越快。如果將滑鼠移動得更遠，捲動位置將移動到文檔的頂部/底部（最左側/最右側）。 <profree />
+- The new version allows you to see **[Git](https://git-scm.com/)** changes and staging changes easily with the updated [**Commit List** plug-in](../howto/plugin/plugin_commit_list) (see [**Plug-in New Features**](#plugin_new_features)). <pro />
+- The new version improves comparison result view for each changed lines, and dynamically updates comparison results while editing a document. <profree />
+- Added the **Previous Change**, **Next Change**, **Previous Changed Character**, and the **Next Changed Character** buttons to document titles when a window is split for comparisons. <profree />
+- The new version allows you to **hide** or **unhide** any CSV columns. <pro />
+- The new version allows you to **align** any CSV columns **right** or **center**. <pro />
+- The new version allows you to set **row headings** as well as **column headings** ( **Freeze Panes**). <pro />
+- Redesigned the default **Main** menu, **Context** menu, and **Ruler** menu. The new version displays a new popup menu while selecting the entire document when you right-click on the top-left rectangle area of the editor view. <profree />
+- The new default **Main** menu includes the new **CSV** sub menu, where most CSV related commands can be accessed. The new version displays a new popup menu when you right-click on a CSV column heading. <pro />
+- Changed the keyboard shortcuts for the **[Next Changed Character](../cmd/diff/compare_next_char)** (Ctrl+F7) and **[Previous Changed Character](../cmd/diff/compare_prev_char)** (Ctrl+Shift+F7) commands. <profree />
+- Adjusted scroll speed when selecting text beyond the view border. The farther you move the mouse from the editor view, the faster the scroll becomes. If you move the mouse even farther, the scroll position moves to the top/bottom (leftmost/rightmost) of the document. <profree />
 
-## 新增選項
+## New Options
 
-- 添加了 **靠右對齊數字欄** 核取方塊到 **自訂** 對話方塊中的 [**CSV 選項** 頁面](../dlg/customize/csv_options/index) 上。 <pro />
+- Added the **Align number columns right** check box to the [**CSV Options** page](../dlg/customize/csv_options/index) of the **Customize** dialog box. <pro />
 
-## 新增命令
+## New Commands
 
-- [隱藏欄](../cmd/csv/hide_column) <pro />
-- [取消隱藏欄](../cmd/csv/unhide_column) <pro />
-- [上一更改的字元](../cmd/diff/compare_prev_char) <profree />
-- [下一更改的字元](../cmd/diff/compare_next_char) <profree />
-- [列標題 0](../cmd/csv/row_heading_reset) <pro />
-- [列標題 1](../cmd/csv/row_heading_1) <pro />
-- [列標題 2](../cmd/csv/row_heading_2) <pro />
-- [列標題 3](../cmd/csv/row_heading_3) <pro />
-- [列標題 4](../cmd/csv/row_heading_4) <pro />
-- [靠左對齊](../cmd/csv/align_left) <pro />
-- [置中對齊](../cmd/csv/align_center) <pro />
-- [靠右對齊](../cmd/csv/align_right) <pro />
+- [Hide Columns](../cmd/csv/hide_column) <pro />
+- [Unhide Columns](../cmd/csv/unhide_column) <pro />
+- [Previous Changed Character](../cmd/diff/compare_prev_char) <profree />
+- [Next Changed Character](../cmd/diff/compare_next_char) <profree />
+- [Row Heading 0](../cmd/csv/row_heading_reset) <pro />
+- [Row Heading 1](../cmd/csv/row_heading_1) <pro />
+- [Row Heading 2](../cmd/csv/row_heading_2) <pro />
+- [Row Heading 3](../cmd/csv/row_heading_3) <pro />
+- [Row Heading 4](../cmd/csv/row_heading_4) <pro />
+- [Align Left](../cmd/csv/align_left) <pro />
+- [Align Center](../cmd/csv/align_center) <pro />
+- [Align Right](../cmd/csv/align_right) <pro />
 
-## 外掛程式的新增功能 <pro />
+## Plug-in New Features <pro />
 
-- 新版中的 [**提交清單** 外掛程式](../howto/plugin/plugin_commit_list) 引入了 **變更** 側邊欄，讓您可以檢視 **變更** 和 **暫存的變更**。
-- 新版的 [**提交清單** 外掛程式](../howto/plugin/plugin_commit_list) 會以唯讀方式打開檔案當選擇了 **與上一個比較** 命令，並提高了 **檔案記錄** 的速度。
-- 添加了 [**EE\_EXTRACT\_FREQUENT** 消息](../plugin/message/ee_extract_frequent)， [**EXTRACT\_FREQUENT\_INFO** 結構](../plugin/structure/extract_frequent_info)，和 [**Editor\_ExtractFrequent** 內嵌函式](../plugin/macro/editor_extractfrequent)。
-- 新版本中的 [**單字自動完成** 外掛程式](../howto/plugin/plugin_wordcomplete) 讓您能在顯示候選清單時，通過按 Ctrl+Space 來控制 **向下** 鍵，按 Ctrl+Shift+Space 來控制 **向上** 鍵。
+- The new version of the [**Commit List** plug-in](../howto/plugin/plugin_commit_list) introduces the **Changes** sidebar where you can view the **changes** and **staged changes**.
+- The new version of the [**Commit List** plug-in](../howto/plugin/plugin_commit_list) opens files as read-only when the **Compare with Previous** command is selected, and improves the speed of **File History**.
+- Added the [**EE\_EXTRACT\_FREQUENT** message](../plugin/message/ee_extract_frequent), the [**EXTRACT\_FREQUENT\_INFO** structure](../plugin/structure/extract_frequent_info), and the [**Editor\_ExtractFrequent** inline function](../plugin/macro/editor_extractfrequent).
+- The new version of the [**Word Complete** plug-in](../howto/plugin/plugin_wordcomplete) allows you to press Ctrl+Space for the **Down** key, and Ctrl+Shift+Space for the **Up** key while the candidate list is displayed.
 
-## 新增巨集功能 <pro />
+## Macro New Features <pro />
 
-- 添加了 [**ExtractFrequent** 方法](../macro/selection/extract_frequent) 到 **Selection** 對象。
-
-### 備註
-
-- \[P\] 僅限 EmEditor 專業版
-- \[PF\] EmEditor 專業版和 EmEditor 免費版
+- Added the [**ExtractFrequent** method](../macro/selection/extract_frequent) to the **Selection** object.

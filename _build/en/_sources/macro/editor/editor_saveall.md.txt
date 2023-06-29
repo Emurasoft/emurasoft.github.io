@@ -1,6 +1,6 @@
-# SaveAll 方法
+# SaveAll Method
 
-儲存所有目前的打開的檔案。
+Saves all currently open files.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ editor. **SaveAll**();
 
 editor. **SaveAll**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

@@ -1,45 +1,46 @@
 # Version 16.6
 
-2017年4月4日
+April 4, 2017
 
-## 一般新增功能
+## New General Features
 
-- 大大提高了「全部取代」，「合併 CSV」，「移除換行符號」以及「插入換行符號」的速度。
+- Greatly improved speed for **Replace All**, **Join CSV**, **Remove Newline Characters**, and **Insert Newline Characters** operations. See the test results table below.
 
-### 測試結果：
+### Test results:
 
-|  | v16.5 | v16.6 | 比較 |
+|  | v16.5 | v16.6 | Comparison |
 | --- | --- | --- | --- |
-| 把 "9\\n0" 全部取代為 "a\\nb" | 17.1 秒 | 0.14 秒 | 快 122 倍 |
-| 復原上述指令 | 14.0 秒 | 0.11 秒 | 快 127 倍 |
-| 把 "9\\n" 全部取代為 "a" | 32.7 秒 | 22.4 秒 | 快 31.5% |
-| 復原上述指令 | 73.5 秒 | 29.2 秒 | 快 60.3% |
-| 把 "0" 全部取代為 "0\\n" | 10.4 秒 | 0.15 秒 | 快 69 倍 |
-| 復原上述指令 | 7.14 秒 | 0.07 秒 | 快 102 倍 |
-| 合併兩個 CSV 文檔 | 385 秒 | 2.57 秒 | 快 150 倍 |
-| 移除換行符號 | 34.8 秒 | 22.4 秒 | 快 55% |
-| 復原上述指令 | 105.3 秒 | 13.9 秒 | 快 7.6 倍 |
-| 插入換行符號 | 78.8 秒 | 13.7 秒 | 快 5.8 倍 |
-| 復原上述指令 | 36.0 秒 | 22.6 秒 | 快 59% |
+| Replace All "9\\n0" with "a\\nb" | 17.1 seconds | 0.14 seconds | 122 times faster |
+| Undo the above | 14.0 seconds | 0.11 seconds | 127 times faster |
+| Replace All "9\\n" with "a" | 32.7 seconds | 22.4 seconds | 31.5% faster |
+| Undo the above | 73.5 seconds | 29.2 seconds | 60.3% faster |
+| Replace All "0" with "0\\n" | 10.4 seconds | 0.15 seconds | 69 times faster |
+| Undo the above | 7.14 seconds | 0.07 seconds | 102 times faster |
+| Join two CSV documents | 385 seconds | 2.57 seconds | 150 times faster |
+| Remove Newline Characters | 34.8 seconds | 22.4 seconds | 55% faster |
+| Undo the above | 105.3 seconds | 13.9 seconds | 7.6 times faster |
+| Insert Newline Characters | 78.8 seconds | 13.7 seconds | 5.8 times faster |
+| Undo the above | 36.0 seconds | 22.6 seconds | 59% faster |
 
-\\* 取代：100,000 行 "0123456789"；條件：不勾選「區分大小寫」，勾選「使用逸出序列」。合併 CSV：合併 10,000 行的 CSV 和 101,668 行的 CSV。移除換行符號：100,000 行 "0123456789"，全部選擇，然后執行「移除換行符號」命令。插入換行符號：重複 "0123456789" 100,000 次，按 10 個字元換行，然后全部選擇并執行「插入換行符號」命令。測試系統：Windows 10 (64-bit) Core i7-4790 16GB RAM
+\\* Replace: 100,000 lines of "0123456789", Match Case deselected, Use Escape Sequences selected. Join CSV: Join 10,000-line CSV and 101,668-line CSV. Remove Newline Characters: 100,000 lines of "0123456789", select all, and use Remove Newline Characters command. Insert Newline Characters: 100,000 times repeat of "0123456789" in one line, wrap by 10 characters, select all, and use Insert Newline Characters command. Windows 10 (64-bit) Core i7-4790 16GB RAM
 
-- 可以自訂行號的格式。(自訂對話方塊 \- 格式頁面)。
+- The line number format can be customized now. (Customize dialog box - Format page).
 
-## 新增選項
+## New Options
 
-- [**自訂** 對話方塊](../dlg/customize/index) 中的 **標記/格式** 頁面被分成了 [**標記** 頁面](../dlg/customize/marks/index) 和 [**格式** 頁面](../dlg/customize/format/index)，并且在 **格式** 頁面上添加了 **行號 (十進位)** 和 **行號 (十六進位)** 格式設定。
+- The **Marks/Formats** page of the [**Customize** dialog box](../dlg/customize/index) was divided into the [**Marks** page](../dlg/customize/marks/index) and [**Format** page](../dlg/customize/format/index), and **Line Number (Decimal)** and **Line Number (Hexadecimal)** boxes were added to the **Format** page of the **Customize** dialog box.
 
-## 新增命令
+## New Command
 
-- [**自訂格式**](../cmd/tools/customize_format)
+- [**Customize Format**](../cmd/tools/customize_format)
 
-## 修復 Bug
+## Bug Fixes
 
-- 修復了 HTML/XML 大檔案會在選擇「亮顯配對標籤」選項后突然故障的 bug。
-- 修復了 EmEditor 的運行速度下降當我的巨集文檔中有太多的巨集檔案。
-- 修復了當「快速啟動 EmEditor」選項被選擇時，無法在第一個打開的檔案上顯示迷你地圖的 bug。
-- 修復了在選擇「區別 CR 和 LF」選項時， 與「全部取代」命令相關的 bug。
-- 修復了在組態屬性的鍵盤頁面上無法分配 Ctrl+Shift+F 的 bug。
-- 修復了重新調整組態屬性或自訂對話方塊大小時的顯示錯誤。
-- 修復了在分割視窗，移除分割并退出后，EmEditor 可能會故障的 bug。
+- Fixed the bug where very large HTML/XML files could crash immediately after opening when "Highlight Matching Tag" is set.
+- Fixed the bug where EmEditor could slow down (especially vertical cursor movement) when many macros are registered to My Macros.
+- Fixed the bug where Minimap could not be displayed for the first opened file when "EmEditor Quick Launch" is set.
+- Fixed the bug related to Replace All when "Treat CR and LF Separately" is set.
+- Fixed the bug where Ctrl+Shift+F could not be assigned in the Keyboard page of Configuration Properties.
+- Fixed the display bug when Configuration Properties or the Customize dialog box is resized.
+- Fixed the bug where EmEditor could crash after splitting a window, remove split, and exit.
+- Terms like "New Line" and "Return Method" are now consistently called "Newline Character".

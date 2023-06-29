@@ -1,6 +1,6 @@
-# DeleteColumn 方法
+# DeleteColumn Method
 
-刪除 CSV 模式中指定的欄。
+Deletes specified columns in a CSV mode.
 
 #### \[JavaScript\]
 
@@ -10,19 +10,19 @@ document. **DeleteColumn**( _iColumn_, \[ _iColumn2_ \] );
 
 document. **DeleteColumn** _iColumn_, \[ _iColumn2_ \]
 
-## 參數
+## Parameters
 
 _iColumn1_
 
-指定要刪除的第一欄。
+Specifies the first column to delete.
 
 _iColumn2_
 
-指定要刪除的最後一欄。如果省略，只有 _iColumn1_ 指定的欄會被刪除。
+Specifies the last column to delete. If omitted, only one column specified by _iColumn1_ will be deleted.
 
-## 範例
+## Examples
 
-以下範例會刪除第 3 到 5 欄。
+The following example deletes columns 3 through 5.
 
 #### \[JavaScript\]
 
@@ -32,6 +32,6 @@ document.DeleteColumn( 3, 5 );
 
 document.DeleteColumn 3, 5
 
-## 版本
+## Version
 
-支持 EmEditor Professional 21.0 或之後的版本。
+Supported on EmEditor Professional Version 21.0 or later.

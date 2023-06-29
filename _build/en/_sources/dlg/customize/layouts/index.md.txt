@@ -1,31 +1,31 @@
-# 「版面配置」頁面
+# Layouts page
 
-**版面配置** 頁面讓您能定義每個版面配置並且自訂選項。
+The **Layouts** page allows you to define layouts and customize options for each layout.
 
-### 「版面配置」清單方塊
+### Layouts list box
 
-顯示定義的版面配置清單。
+Shows the list of defined layouts.
 
-### 「添加」按鈕
+### Add button
 
-將項目添加到清單中。
+Adds an item to the list.
 
-### 「刪除」按鈕
+### Delete button
 
-刪除清單中選取的項目。
+Deletes the selected item(s) in the list.
 
-### 「選項」清單方塊
+### Options list box
 
-顯示所選版面配置的選項清單。
+Shows the list of options for the selected layouts.
 
-### 「全部啟用/停用」核取方塊
+### Enable/Disable ALL check box
 
-啟用或停用清單上所有條目。
+This check box allows you to enable or disable all items in the list.
 
-### 「儲存目前的版面配置」按鈕
+### Save Current Layout button
 
-將包括視窗位置和工具列版面配置在內的目前的版面配置儲存到「版面配置」清單方塊中選中的項目中。
+Saves the current layout including the window position and toolbar layout to the selected items in the Layouts list box.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

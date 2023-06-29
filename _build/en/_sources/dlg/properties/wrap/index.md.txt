@@ -1,27 +1,30 @@
-# 「換行」頁面
+# Wrap page
 
-**換行** 頁面讓您能設置與換行相關的屬性。
+The **Wrap** page allows you to set properties related to wrap.
 
-### 「自動換行」核取方塊
+### Word Wrap check box
 
-啟用自動換行。
+Enable word wraps.
 
-### 「啟用標記后自動換行」核取方塊
+### Enable Word Wrap After Marks check box
 
-啟用標記后自動換行。
+Enable word wrap after marks.
 
-### 「將指定字元換行」核取方塊
+### Wrap These Characters check box
 
-按 \[行首處不允許\] 和 \[行尾處不允許\] 文字方塊中的設定換行。
+Wrap characters specified at \[Not allowed at line head\] and at \[Not allowed
+at line end\].
 
-### 「行首處不允許」文字方塊
+### Not Allowed at Line Head text box
 
-不允許這些字元在行首換行。
+These characters will not be allowed to wrap at the beginning of lines.
 
-### 「行尾處不允許」文字方塊
+### Not Allowed at Line End text box
 
-不允許這些字元在行末換行。
+These characters will not be allowed to wrap at the end of lines.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。會顯示 [**重設** 對話方塊](../reset/index) 并讓您能從另一個組態複製設定。
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.

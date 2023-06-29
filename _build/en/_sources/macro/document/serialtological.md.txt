@@ -1,6 +1,6 @@
-# SerialToLogical 方法
+# SerialToLogical Method
 
-將串行位置轉換為邏輯坐標，并檢索在 [**Point** 對象](../point/index) 中的位置。
+Converts a serial position to the logical coordinates, and retrieves the position in the [**Point** object](../point/index).
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ _point_ = document. **SerialToLogical**( _nSerialPos_ );
 
 _point_ = document. **SerialToLogical**( _nSerialPos_ )
 
-## 參數
+## Parameters
 
 _nSerialPos_
 
-指定串行位置，它是從整個文字開頭的字元的基于一個索引。
+Specifies the serial position, which is one-based index of the character from the beginning of the entire text.
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -34,6 +34,6 @@ x = point.x
 
 y = point.y
 
-## 版本
+## Version
 
-支持 EmEditor Professional 17.0 或之後的版本。
+Supported on EmEditor Professional Version 17.0 or later.

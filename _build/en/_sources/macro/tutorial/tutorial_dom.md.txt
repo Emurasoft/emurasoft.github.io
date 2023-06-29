@@ -1,7 +1,12 @@
-# 巨集的規格 (文檔對象模型)
+# Specifications of Macro (Document Object Model)
 
-在 EmEditor 巨集文檔對象模型 (DOM) 的規格中，In the specifications of the EmEditor macro Document 對象 Model (DOM), **[Window 對象](../window/index)** 是目前的的範圍。換句話說，沒有明確的範圍的屬性和方法指的都是目前的的 **[Window 對象](../window/index)**。
-例如，第一個 _document_ 是 Window 對象的 **[document 屬性](../window/window_document)**，適用於網頁瀏覽器的指令碼。對于熟悉網頁瀏覽器指令碼的使用者，下面的代碼可能會比較眼熟:
+In the specifications of the EmEditor macro Document Object Model (DOM), **[Window Object](../window/index)**
+is the current scope. In other words, properties and methods without explicit scope refer
+to the current **[Window Object](../window/index)**.
+For example, the first _document_ is the **[document Property](../window/window_document)** of the Window
+Object,
+which applies to scripts used for web browsers. For those who are familiar with web browser scripting,
+the following code might look more familiar:
 
 #### \[JavaScript\]
 
@@ -11,27 +16,38 @@ document.write("EmEditor supports macros.");
 
 document.write "EmEditor supports macros."
 
-上面任一指令碼都會產生同樣的結果； **[Text 屬性](../selection/selection_text)** 以及 **[write 方法](../document/document_write)** 的行為是一致的。
+Either of the above examples produces the same result; the behaviors of **[Text Property](../selection/selection_text)** and that of **[write Method](../document/document_write)** are identical.
 
-在 EmEditor 巨集中，您能用多個對象。我們這樣設計巨集是為了達到面向對象的編程 (OOP) 以及允許程式的延伸性并能適應增強的巨集，例如在一個巨集中操縱多個視窗和文檔。
+You can use multiple objects in EmEditor macros. We designed the macros this way to achieve Object-Oriented Programming
+(OOP)
+as well as to allow extensibility and to accommodate future enhancements of the macros,
+such as manipulating multiple windows and documents in a single macro.
 
-您能在 EmEditor 巨集中用下列的對象:
+You can use the following objects in EmEditor macros:
 
-- **[Window 對象](../window/index)** \-
+- **[Window Object](../window/index)** \-
 
-變為預設範圍，這樣，不需要指定對象名稱。它會提供 Windows 使用者界面的方法與屬性。比如， [**document**\
-**屬性**](../window/window_document) 讓您能把 **[Document 對象](../document/index)** 的屬性與方法用於目前的文檔。同樣， **[editor \**
-**屬性](../window/window_editor)** 讓您能訪問 **[Editor 對象](../editor/index)**。
+becomes the default scope, and thus, there is no need to specify object names.
+It provides methods and properties of Windows user interfaces. The **[document \**
+**Property](../window/window_document)** allows you to use properties and methods of **[Document Object](../document/index)**
+for the current document. Also, the **[editor \**
+**Property](../window/window_editor)** allows you to access **[Editor Object](../editor/index)**.
 
-- **[Document 對象](../document/index)** \-
-為打開的文檔提供方法和屬性，應用於整個文檔中的所有元素，包括檔案中的細節部分，例如文檔的檔案名，安裝名，還有唯讀狀態。而且， **[selection \**
-**屬性](../document/document_selection)** 讓您能把 **[Selection \**
-**對象](../selection/index)** 用於目前的選區範圍 (Selection Range) 以及游標位置。
+- **[Document Object](../document/index)** \-
+provides methods and properties for opened documents,
+which applies to elements of the overall document and includes details about a file, such as the file name of the document,
+the setup name, and the read-only status. Furthermore, the **[selection \**
+**Property](../document/document_selection)** allows you to use **[Selection \**
+**Object](../selection/index)** for the current Selection Range and cursor location.
 
-- **[Selection 對象](../selection/index)** \-
-為目前的選區範圍 (Selection Range) 以及游標位置提供方法和屬性。它提供許多方法和屬性。例如在選區範圍內的選取變更 (Selection Change)，字元轉換，游標移動，搜尋以及取代。
+- **[Selection Object](../selection/index)** \-
+provides methods and properties for the current Selection Range and cursor location.
+It provides many methods and properties, such as Selection Change in Selection Range,
+character conversion, cursor movement, search, and replace.
 
-- **[Editor 對象](../editor/index)** \- EmEditor
-EmEditor 為整個應用程式所提供的方法和屬性。例如，它提供 EmEditor 可執行的檔案的路徑和版本，以及用於打開新或指定檔案的方法和屬性。
+- **[Editor Object](../editor/index)** \- EmEditor
+provides methods and properties for overall EmEditor application. For example,
+it provides the path and version of EmEditor executables, and methods and properties used in opening new or
+specified files.
 
-## 下一主題:
+## Next Topic:

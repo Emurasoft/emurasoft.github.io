@@ -1,6 +1,7 @@
-# Saved 屬性
+# Saved Property
 
-檢索或設置表示自從上次被保存或打開后文檔是否已被修改的標志。
+Retrieves or sets the flag indicating whether the document is changed since
+the last time it was saved or opened.
 
 #### \[JavaScript\]
 
@@ -14,7 +15,7 @@ _bSaved_ = document. **Saved**
 
 document. **Saved** = _bSaved_
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -34,6 +35,6 @@ alert( "The document is changed." )
 
 End If
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

@@ -1,6 +1,7 @@
-# ShowFullPath 屬性
+# ShowFullPath Property
 
-與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **顯示包含完整路徑的檔案名** 核取方塊相對應。
+Corresponds to the **Show**
+**File Name with Full Path** check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ object. **ShowFullPath**
 
 object. **ShowFullPath** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

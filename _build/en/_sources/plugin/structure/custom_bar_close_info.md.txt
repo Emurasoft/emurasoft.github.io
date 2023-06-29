@@ -1,6 +1,6 @@
 # CUSTOM\_BAR\_CLOSE\_INFO
 
-用於 [EVENT\_CUSTOM\_BAR\_CLOSED 事件](../event/index)。
+Used by [EVENT\_CUSTOM\_BAR\_CLOSED event](../event/index).
 
 typedef struct \_CUSTOM\_BAR\_CLOSE\_INFO {
 
@@ -12,33 +12,33 @@ DWORD dwFlags;
 
 } CUSTOM\_BAR\_CLOSE\_INFO;
 
-## 構成
+## Members
 
 _nID_
 
-> \[in\] 自訂分欄 ID。
+> \[in\] The custom bar ID.
 
 _iPos_
 
-> \[in\] 在關閉自訂分欄之前的位置。
+> \[in\] The position of the custom bar immediately before it is closed.
 >
 > |     |     |
 > | --- | --- |
-> | 0 | 視窗的左邊。 |
-> | 1 | 視窗的頂部。 |
-> | 2 | 視窗的右邊。 |
-> | 3 | 視窗的底部。 |
+> | 0 | The left side of the window. |
+> | 1 | The top of the window. |
+> | 2 | The right side of the window. |
+> | 3 | The bottom of the window. |
 
 _dwFlags_
 
-> \[out\] 自訂分欄被關閉的原因。
+> \[out\] The reason that the custom bar is closed.
 >
 > |     |     |
 > | --- | --- |
-> | 0 | 自訂分欄被用戶關閉。 |
-> | CLOSED\_FRAME\_WINDOW | 框架視窗被關閉。 |
-> | CLOSED\_ANOTHER\_CUSTOM\_BAR | 自訂分欄被關閉因為另一個自訂分欄被打開。 |
+> | 0 | The custom bar is closed by a user. |
+> | CLOSED\_FRAME\_WINDOW | The frame window is being closed. |
+> | CLOSED\_ANOTHER\_CUSTOM\_BAR | The custom bar is closed because another custom bar is opened. |
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 6.00 或之後的版本。
+> Supported on EmEditor Professional Version 6.00 or later.

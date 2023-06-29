@@ -1,3 +1,3 @@
-# Q. 我想把 EmEditor 安裝到另一臺電腦上。是否有任何步驟要遵循？
+# Q. I want to uninstall EmEditor from one computer, and install EmEditor to another computer. Are there any procedures to follow for licensing?
 
-您只需從一臺電腦上解除安裝 EmEditor，然後將 EmEditor 安裝到另一臺電腦上即可。沒有別的特殊步驟需要遵循。
+You can simply uninstall EmEditor from one computer, and install EmEditor to another computer. There are no special procedures to follow for licensing.

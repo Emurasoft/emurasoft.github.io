@@ -1,6 +1,6 @@
-# DeleteFolder 方法
+# DeleteFolder Method
 
-刪除一個或多個指定的資料夾及其內容。指定的資料夾即使不為空也會被刪除。
+Deletes one or more specified folders and their contents. The specified folder is deleted even if it is not empty.
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ shell. **DeleteFolder**( _strFolder_ );
 
 shell. **DeleteFolder** _strFolder_
 
-## 參數
+## Parameters
 
 _strFolder_
 
-要刪除的資料夾的名稱。它可以在最後一個路徑組件中包含通配符。
+The name of the folder to delete. It can contain wildard characters in the last path component.
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -26,6 +26,6 @@ shell.DeleteFolder( "C:\\\Test\\\folder" );
 
 shell.DeleteFolder "C:\\Test\\folder"
 
-## 版本
+## Version
 
-支持 EmEditor Professional 22.1 或之後的版本。
+Supported on EmEditor Professional Version 22.1 or later.

@@ -1,27 +1,33 @@
-# 復原命令
+# Undo command
 
-### 摘要
+### Summary
 
-> 復原上一次的操作。
+> Undo the last action.
 
-### 說明
+### Description
 
-> 復原上一次的操作。如果您重複這個指示詞，您能復原連續的前幾次操作。如果 [**自訂** 對話方塊](../../dlg/customize/index) 中 [**編輯** 頁面](../../dlg/customize/edit/index) 是上
-> **「逐格復原」** 核取方塊被勾選，一個字串的插入會被一個字元一個字元的復原。
+> Undo the last action. If you repeat this command, you can undo several
+> previous consecutive
+> actions. If the
+> **Undo**
+> **Character by Character** check box is
+> checked on the [**Edit** \
+> page](../../dlg/customize/edit/index) of the [**Customize** dialog \
+> box](../../dlg/customize/index), a string insert will be undone character by character.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **復原**
-- [全部命令](../tools/all_commands): **編輯** \> **復原**
-- 工具列: ![](../../images/editundo.gif)
-- 狀態列: 無
-- 預設捷徑: CTRL+Z 或 ALT+BACKSPACE
+- Default Menu: **Edit** \> **Undo**
+- [All Commands](../tools/all_commands): **Edit** \> **Undo**
+- Toolbar: ![](../../images/editundo.gif)
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+Z or ALT+BACKSPACE
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_EDIT\_UNDO (4124)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

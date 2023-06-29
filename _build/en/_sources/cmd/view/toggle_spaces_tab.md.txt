@@ -1,27 +1,27 @@
-# 將 Tab 轉換為空格命令
+# Insert Spaces for Tabs command
 
-### 摘要
+### Summary
 
-> 將 Tab 轉換為空格。
+> Inserts spaces for tabs.
 
-### 說明
+### Description
 
-> 當按下 Tab 鍵時，插入空格而不是一個 tab 字元。
+> Inserts spaces instead of a tab character to indent when the Tab key is pressed.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** \> **Tab/縮排** \> **將 Tab 轉換為空格**
-- [全部命令](../tools/all_commands): **檢視** \> **Tab/縮排** \> **將 Tab 轉換為空格**
-- 工具列:
+- Default Menu: **View** \> **Tab/Indent** \> **Insert Spaces for Tabs**
+- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Insert Spaces for Tabs**
+- Toolbar:
 ![](../../images/space_tab24x16.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_TOGGLE\_SPACES\_TAB (4541)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,6 +1,7 @@
-# 插入字元
+# Insert Characters
 
-要用巨集來插入字元，用 **[Text 屬性](../selection/selection_text)**。您可以按下列步驟修改教程檔案:
+To insert characters using a macro, use the **[Text Property](../selection/selection_text)**.
+Modify our tutorial file as follows:
 
 #### \[JavaScript\]
 
@@ -18,49 +19,59 @@ document.selection.NewLine
 
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
 
-被添加到第二行的 **[NewLine 方法](../selection/selection_newline)** 會在游標位置插入一個新的行。在第三行的代碼會在字串起始位置插入一個 tab 字元。一個 tab 字元在 JavaScript 中由 "\\t" 表示，在 VBScript 中由 Chr(9) 表示。您同樣能用 VBScript 常數，vbTab，作為一個 tab 字元。
+The **[NewLine Method](../selection/selection_newline)** added in the second line
+inserts a newline character at the cursor position.
+The code in the third line inserts a tab character at the beginning of the string.
+A tab character is represented by "\\t" in JavaScript, and Chr(9) in VBScript.
+You can also use the VBScript constant, vbTab, for a tab character.
 
-下清單格列出了在 JavaScript 和 VBScript 常用的逸出序列。
+The following tables list commonly used escape sequences in both scripting
+languages.
 
 #### \[JavaScript\]
 
 |     |     |     |
 | --- | --- | --- |
-| \\b | \\u0008 | 后退鍵。 |
-| \\t | \\u0009 | 水平 tab。 |
-| \\n | \\u000a | 新行。 |
-| \\f | \\u000c | 換頁。 |
-| \\r | \\u000d | 歸位。 |
-| \\" | \\u0022 | 雙引號。 |
-| \\' | \\u0027 | 單引號。 |
-| \\\ | \\u005c | 反斜杠。 |
-| \\xXX |  | 由兩個十六進位數指定的含編碼的 Latin-1 字元。 |
-| \\uXXXX |  | 由四個十六進位數指定的含編碼的 Unicode 字元。 |
+| \\b | \\u0008 | Backspace. |
+| \\t | \\u0009 | Horizontal Tab. |
+| \\n | \\u000a | Newline character. |
+| \\f | \\u000c | Form feed. |
+| \\r | \\u000d | Carriage return. |
+| \\" | \\u0022 | Double quote. |
+| \\' | \\u0027 | Single quote. |
+| \\\ | \\u005c | Backslash. |
+| \\xXX |  | The Latin-1 character with the encoding specified by the two hexadecimal digits. |
+| \\uXXXX |  | The Unicode character with the encoding specified by the four hexadecimal digits. |
 
-#### ![](../../images/g.gif) 參考:  [JScript \ 特殊字元 (Microsoft MSDN Library)](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Lexical_grammar\#%E5%AD%97%E4%B8%B2)
+#### ![](../../images/g.gif) Reference:  [JScript \ Special Characters (Microsoft MSDN Library)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar\#String_literals)
 
 #### \[VBScript\]
 
 |     |     |     |
 | --- | --- | --- |
-| vbCr | Chr(13) | 歸位。 |
-| vbCrLf | Chr(13) & Chr(10) | 歸位 \+ 新行組合。 |
-| vbFormFeed | Chr(12) | 換頁。 |
-| vbLf | Chr(10) | 新行。 |
-| vbNewLine | Chr(13) & Chr(10) or Chr(10) | 特定平臺的新行字元。相當于 Windows 中的 vbCrLf。 |
-| vbTab | Chr(9) | 水平 tab。 |
-| vbVerticalTab | Chr(11) | 垂直 tab。 |
+| vbCr | Chr(13) | Carriage return. |
+| vbCrLf | Chr(13) & Chr(10) | Carriage return + newline character combination. |
+| vbFormFeed | Chr(12) | Form feed. |
+| vbLf | Chr(10) | Newline character. |
+| vbNewLine | Chr(13) & Chr(10) or Chr(10) | Platform-specific newline character. Equivalent to vbCrLf in Windows. |
+| vbTab | Chr(9) | Horizontal tab. |
+| vbVerticalTab | Chr(11) | Vertical tab. |
 
-#### ![](../../images/g.gif) 參考:  [VBScript \ 字串常數 (Microsoft MSDN Library)](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/hh277t8e(v=vs.84))
+#### ![](../../images/g.gif) Reference:  [VBScript \ String Constants (Microsoft MSDN Library)](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/hh277t8e(v=vs.84))
 
-## 提示
+## Tips
 
-行尾端以一個 \\r (CR) 和一個 \\n (LF) 的組合結尾。CR 和 LF 使用不同方式。例如，如果您寫:
+Line-endings are terminated with a combination of a \\r (CR) and a \\n (LF). Use the CR and LF in distinct manners.
+For example, if you write:
 
 document.selection.Text = "\\n";
 
-插入的僅僅是歸位符 (LF)，而不是 Windows 行尾端的慣例。當您在 EmEditor 中按歸位鍵時，EmEditor 會插入該行所用的行尾端方式 (僅 CR，僅 LF，或 CR+LF) 。如果您想要在按歸位鍵時與在 EmEditor 中有相同的行為，我們建議您用
-**[NewLine 方法](../selection/selection_newline)**
-或 **[writeln 方法](../document/document_writeln)**。
+only carriage return (LF) is inserted,
+which is not a line-ending convention in Windows.
+When you press the RETURN key in EmEditor, EmEditor inserts whatever line-ending (CR only, LF only, or CR+LF)
+is used in that line.
+If you want the same behavior upon pressing the RETURN key, as in
+EmEditor, we recommend that you use the **[NewLine Method](../selection/selection_newline)**
+or the **[writeln Method](../document/document_writeln)**.
 
-## 下一主題:
+## Next Topic:

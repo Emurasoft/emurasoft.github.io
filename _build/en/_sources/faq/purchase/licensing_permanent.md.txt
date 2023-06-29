@@ -1,5 +1,5 @@
-# Q. 標準授權和永久授權之間的差別是什么？
+# Q. What is the difference between Annual Subscription and Lifetime License?
 
-**永久授權** 讓您能在產品生命周期內免費使用 EmEditor 並接收軟體的所有更新。
+**Annual Subscription** allows you to use EmEditor when the subscription is valid. After the subscription expires, you will need to renew your subscription in order to continue using EmEditor.
 
-**年訂閱** 允許您在訂閱有效期間使用 EmEditor 並接收軟體更新。如果您要在訂閱期結束後繼續使用 EmEditor，您需要訂閱更新維護計劃。
+**Lifetime License** allows you to get all the new versions for free during the lifetime of the product.

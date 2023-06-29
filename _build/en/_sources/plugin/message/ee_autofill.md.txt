@@ -1,6 +1,6 @@
 # EE\_AUTOFILL
 
-對 CSV 文檔執行自動填滿或快速填入操作。你可以明確地發送該消息或用 [Editor\_AutoFill](../macro/editor_autofill) 內嵌函式。
+Performs the AutoFill or Flash Fill action on the CSV document. You can send this message explicitly or by using the [Editor\_AutoFill](../macro/editor_autofill) inline function.
 
 EE\_AUTOFILL
 
@@ -8,22 +8,22 @@ wParam = 0;
 
 lParam = (LPARAM) (AUTOFILL\_INFO\*) pInfo;
 
-## 參數
+## Parameters
 
 _pInfo_
 
-> 指針指向 [AUTOFILL\_INFO](../structure/autofill_info) 結構。
+> Pointer to the [AUTOFILL\_INFO](../structure/autofill_info) structure.
 
-## 返回值
+## Return Values
 
-> 如果消息成功，則返回值可以是以下值的組合。返回值 0 意味著消息無法檢測到模式以完成自動填滿或快速填入操作。負值表示消息失敗。
+> The return value can be a combination of the following values if the message succeeds. The return value of 0 means the message couldn't detect the pattern to complete the AutoFill or Flash Fill action. A negative value means the message failed.
 >
 > |     |     |
 > | --- | --- |
-> | S\_FILL\_COPY | 將源範圍中的值複製到目標範圍，必要時重複。 |
-> | S\_FILL\_SERIES | 將源範圍中的值作為一數列延伸到目標範圍。 |
-> | S\_FILL\_FLASH | 執行快速填入操作，即根據檢測到的模式將源範圍中的值延伸到目標範圍。該標志僅適用於垂直方向。 |
+> | S\_FILL\_COPY | Copies the values from the source range to the target range, repeating if necessary. |
+> | S\_FILL\_SERIES | Extends the values in the source range into the target range as a series. |
+> | S\_FILL\_FLASH | Performs the Flash Fill action, i.e. extends the values from the source range into the target range based on the detected pattern. This flag is valid only for the vertical direction. |
 
-## 版本
+## Version
 
-> 支持 EmEditor 17.5 或之後的版本。
+Supported on EmEditor Version 17.5 or later.

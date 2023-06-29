@@ -1,6 +1,6 @@
 # FIND\_REGEX\_INFO
 
-用於 [Editor\_FindRegex 內嵌函式](../macro/editor_findregex) ( [EE\_FIND\_REGEX 消息](../message/ee_find_regex)) 中。此結構已經過時了。新外掛應使用 [FIND\_REGEX\_INFO\_EX 結構](find_regex_info_ex)。
+Used by [Editor\_FindRegex inline function](../macro/editor_findregex) ( [EE\_FIND\_REGEX message](../message/ee_find_regex)). This structure is obsolete. Newer plug-ins should use the [FIND\_REGEX\_INFO\_EX structure](find_regex_info_ex) instead.
 
 typedef struct \_FIND\_REGEX\_INFO {
 
@@ -26,53 +26,53 @@ UINT cchResult; // new v9
 
 } FIND\_REGEX\_INFO;
 
-## 構成
+## Members
 
 _cbSize_
 
-> \[in\] 以位元為單位的數據結構大小。在發送 EE\_FIND\_REGEX 消息之前，把該成員設為 sizeof( FIND\_REGEX\_INFO )。
+> \[in\] Size of this data structure, in bytes. Set this member to sizeof( FIND\_REGEX\_INFO ) before sending the EE\_FIND\_REGEX message.
 
 _nFlags_
 
-> \[in\] 指定一個下列值得組合。
+> \[in\] Specifies a combination of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | FLAG\_FIND\_CASE | 區分大小寫。 |
-> | FLAG\_FIND\_ONLY\_WORD | 匹配整個單詞。 |
+> | FLAG\_FIND\_CASE | Matches cases. |
+> | FLAG\_FIND\_ONLY\_WORD | Searches only words. |
 
 _pszRegex_
 
-> \[in\] 指定一個要搜尋的規則運算式。
+> \[in\] Specifies a regular expression to search for.
 
 _pszText_
 
-> \[in\] 指定一個要搜尋的字符串。
+> \[in\] Specifies a string to search.
 
 _ppszStart_
 
-> \[out\] 指針位于與規則運算式匹配的字符串的開始處。
+> \[out\] The pointer at the beginning of the string where the regular expression matches.
 
 _ppszEnd_
 
-> \[out\] 指針位于與規則運算式匹配的字符串的結尾處。
+> \[out\] The pointer at the end of the string where the regular expression matches.
 
 _ppszNext_
 
-> \[out\] 如果必要的話，指針位于下一個規則運算式搜尋應當發生的位置。
+> \[out\] The pointer at the position of the string where the next regular expression search should occur if necessary.
 
 _pszReplace_
 
-> \[in\] 指定一個替換表達式。
+> \[in\] Specifies a replace expression.
 
 _pszResult_
 
-> \[out\] 指定一個接收轉換后的替換表達式的緩沖區。
+> \[out\] Specifies a pointer to the buffer to receive the replaced string.
 
 _cchResult_
 
-> \[in\] 指定以字符為單位的緩沖區 _pszResult_ 大小，包括終止空字符。
+> \[in\] Specifies the size of the buffer in characters.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 6.00 或之後的版本。然而， _pszReplace_， _pszResult_，以及 _cchResult_ 參數被添加到 EmEditor 9.00 上。
+> Supported on Version 6.00 or later. However, the _pszReplace_, _pszResult_, and _cchResult_ parameters were added on Version 9.00.

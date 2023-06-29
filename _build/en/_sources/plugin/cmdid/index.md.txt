@@ -1,7 +1,8 @@
-# 命令 ID
+# Command IDs
 
-命令 ID 通過 [EE\_EXEC\_COMMAND 消息](../message/ee_exec_command)， [Editor\_ExecCommand 內嵌函式](../macro/editor_execcommand)， [EE\_QUERY\_STATUS 消息](../message/ee_query_status)，以及 [Editor\_QueryStatus 內嵌函式](../macro/editor_querystatus) 被使用。
+Command IDs are used by the [EE\_EXEC\_COMMAND message](../message/ee_exec_command), the [Editor\_ExecCommand inline function](../macro/editor_execcommand), the [EE\_QUERY\_STATUS message](../message/ee_query_status), and the [Editor\_QueryStatus inline function](../macro/editor_querystatus).
 
-命令 ID 的說明請訪問 [命令參考](../../cmd/index)。
+Command IDs are described in [Command Reference](../../cmd/index).
 
-這些常數在頭檔案(plugin.h)中被定義。
+These constants are defined at the
+header file (plugin.h).

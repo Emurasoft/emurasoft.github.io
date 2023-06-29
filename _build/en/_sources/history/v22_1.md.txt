@@ -1,62 +1,57 @@
 # Version 22.1
 
-2022年12月6日
+December 6th, 2022
 
-## 一般新增功能
+## New General Features
 
-- 使用 **[V8 JavaScript 引擎](https://v8.dev/)** 支持現代 **JavaScript**。 <pro />
-- 新版本的 [**網頁預覽** 外掛程式](../howto/plugin/plugin_webpreview) 預設使用基於 **Chromium** 的 **Microsoft Edge** 瀏覽器控件。 <pro />
-- 添加了創建提交、變更分支、暫存變更和復原變更的功能到 [**CommitList** 外掛程式](../howto/plugin/plugin_commit_list) 中。 <pro />
-- 重新設計了 **故障報告** 對話方塊，並允許直接從 **EmEditor** 發送報告。 <profree />
-- 新版本支持不帶分隔符號的 **日期格式**（作為一種 **數字範圍** 類型）（例如，" **_yyyyMMdd_**"）。 <profree />
-- 新版本允許通過 **取代** 對話方塊中的 **抽出** 按鈕使用 **數字範圍**。 <pro />
-- [即使游標在括號右側，新版本也能夠亮顯括號](https://stackoverflow.com/questions/74169320/highlight-brackets-when-caret-be-after-bracket)。 <profree />
-- 允許將儲存格從 **Excel** 複製並貼上到 **EmEditor**。 <pro />
-- 在 **跳轉** 和其他對話方塊中允許全形數字。 <profree />
-- 從預設布局中刪除 **尋找** 工具列。 <pro />
-- 重新分類了 **所有命令** 功能表以及 **快速啟動** 和 **鍵盤對應** 視窗中的命令類別。 <profree />
-- 提高了計算所選內容中的字元數和複製字串的速度。 <profree />
+- Supported modern **JavaScript** using the **[V8 JavaScript engine](https://v8.dev/)**. <pro />
+- The new version of the [**WebPreview** plug-in](../howto/plugin/plugin_webpreview) uses the **Microsoft Edge** browser control based on **Chromium** by default. <pro />
+- Added the ability to create commits, change branches, stage changes, and undo changes with the [**CommitList** plug-in](../howto/plugin/plugin_commit_list). <pro />
+- Redesigned the **Crash Report** dialog box, and allow the report to be sent directly from **EmEditor**. <profree />
+- The new version supports **date formats** (a type of **number range**) without separators (for instance, " **_yyyyMMdd_**"). <profree />
+- The new version allows the use of a **number range** with the **Extract** button in the **Replace** dialog box. <pro />
+- [The new version highlights brackets even if the cursor is at the right side of the bracket](https://stackoverflow.com/questions/74169320/highlight-brackets-when-caret-be-after-bracket). <profree />
+- Allowed copying and pasting cells from **Excel** to **EmEditor**. <pro />
+- Allowed full-width numbers in **Jump** and other dialog boxes. <profree />
+- Remove the **Find** toolbar from the default layout. <pro />
+- Recategorized the **All Commands** menu and the command category in the **Quick Launch** and **Keyboard Map** windows. <profree />
+- Improved the speed of counting the number of characters in a selection and copying strings. <profree />
 
-### 測試結果：
+### Test results:
 
-|  | v22.0 | v22.1 | 比較 |
+|  | v22.0 | v22.1 | Comparison |
 | --- | --- | --- | --- |
-| 計算字元數 | 32.2 秒 | 14.4 秒 | 快 2.24 倍 |
+| Count the Number of Characters | 32.2 seconds | 14.4 seconds | 2.24 times faster |
 
-\\* 在全選後點擊狀態列中的「在選區內的字元數」，10億行，52GB 隨機 ASCII 數據。預設選項；操作系統：Windows 11，Ryzen 9 7900X，64 GB RAM，1TB SSD。
+\\* Click the Number of Characters in the selection on the status bar after Select All, 1 billion lines, 52 GB random ASCII data. Default options, Windows 11, Ryzen 9 7900X, 64 GB RAM, 1TB SSD.
 
-## 新增選項
+## New Options
 
-- 添加了 **[選區排序](../dlg/sort_sel/index)**， **[欄排序](../dlg/sort_columns/index)** 以及 **[管理欄](../dlg/manage_columns/index)** 對話方塊。 <pro />
-- 添加了 **使用 V8 作為 JavaScript 引擎** 選項到 **自訂巨集** 對話方塊的 [**選項** 頁面](../dlg/macro_customize/options/index) 上。 <pro />
-- 添加了 **丟棄多余的字串** 選項到 [**分割列** 對話方塊](../dlg/split_column/index) 中。 <pro />
-- 添加了 **Microsoft Edge** 和 **Internet Explorer** 選項按鈕到 [**網頁預覽** 外掛程式](../howto/plugin/plugin_webpreview) 的屬性中。 <pro />
+- Added the **[Sort Selection](../dlg/sort_sel/index)**, **[Sort Columns](../dlg/sort_columns/index)**, and **[Manage Columns](../dlg/manage_columns/index)** dialog boxes. <pro />
+- Added the **Use V8 as JavaScript engine** option to the [**Option** page](../dlg/macro_customize/options/index) of the **Customize Macros** dialog box. <pro />
+- Added the **Discard extra strings** option to the [**Split Columns** dialog box](../dlg/split_column/index). <pro />
+- Added the **Microsoft Edge** and **Internet Explorer** radio buttons to the [**WebPreview** plug-in](../howto/plugin/plugin_webpreview) Properties. <pro />
 
-## 新增命令
+## New Commands
 
-- [**排序/刪除選區內重複的分割字串**](../cmd/sort/sort_sel) <pro />
-- [**欄排序**](../cmd/sort/sort_columns) <pro />
-- [**管理欄**](../cmd/csv/manage_columns) <pro />
+- [**Sort/Remove Duplicate Split Strings in Selection**](../cmd/sort/sort_sel) <pro />
+- [**Sort Columns**](../cmd/sort/sort_columns) <pro />
+- [**Manage Columns**](../cmd/csv/manage_columns) <pro />
 
-## 外掛程式的新增功能 <pro />
+## Plug-in New Features <pro />
 
-- 添加了 **SPLIT\_DONT\_DISCARD\_EXTRA** 標志到 [**SPLIT\_COLUMN\_INFO** 結構](../plugin/structure/split_column_info) 中。
-- 添加了 [**EE\_CONVERT\_EX**](../plugin/message/ee_convert_ex) 和 **[EE\_REARRANGE\_COLUMNS](../plugin/message/ee_rearrange_columns)** 消息。
-- 添加了 [**CONVERT\_INFO**](../plugin/structure/convert_info) 和 [**REARRANGE\_COLUMNS\_INFO**](../plugin/structure/rearrange_columns_info) 結構。
-- 添加了 [**Editor\_RearrangeColumns**](../plugin/macro/editor_rearrangecolumns) 內嵌函式。
-- 添加了 **pszSeparator**， **nSortFlags**，和 **pszLocale** 參數到 [**Editor\_Convert** 內嵌函式](../plugin/macro/editor_convert) 中。
-- 添加了 **SORT\_COLUMNS**， **SORT\_DELETE\_DUPLICATE**，和 **SORT\_REMOVE\_EMPTY** 標志到 [**Editor\_Sort**](../plugin/macro/editor_sort) 內嵌函式和 [**SORT\_INFO**](../plugin/structure/sort_info) 結構中。
+- Added the **SPLIT\_DONT\_DISCARD\_EXTRA** flag to the [**SPLIT\_COLUMN\_INFO** structure](../plugin/structure/split_column_info).
+- Added the [**EE\_CONVERT\_EX**](../plugin/message/ee_convert_ex) and **[EE\_REARRANGE\_COLUMNS](../plugin/message/ee_rearrange_columns)** messages.
+- Added the [**CONVERT\_INFO**](../plugin/structure/convert_info) and [**REARRANGE\_COLUMNS\_INFO**](../plugin/structure/rearrange_columns_info) structures.
+- Added the [**Editor\_RearrangeColumns**](../plugin/macro/editor_rearrangecolumns) inline function.
+-  Added the **pszSeparator**, **nSortFlags**, and **pszLocale** parameters to the [**Editor\_Convert** inline function](../plugin/macro/editor_convert).
+- Added the **SORT\_COLUMNS**, **SORT\_DELETE\_DUPLICATE**, and **SORT\_REMOVE\_EMPTY** flags to the [**Editor\_Sort**](../plugin/macro/editor_sort) inline function and the [**SORT\_INFO**](../plugin/structure/sort_info) structure.
 
-## 新增巨集功能 <pro />
+## Macro New Features <pro />
 
-- 添加了 **[Run](../macro/shell/run)**， **[FileExists](../macro/shell/file_exists)**， **[FolderExists](../macro/shell/folder_exists)**， **[DeleteFile](../macro/shell/delete_file)**， **[DeleteFolder](../macro/shell/delete_folder)**， **[CreateFolder](../macro/shell/create_folder)**， **[GetFileAttributes](../macro/shell/get_file_attributes)**，和 **[SetFileAttributes](../macro/shell/set_file_attributes)** 方法到 **Shell** 對象中。
-- 添加了 [**RearrangeColumns** 方法](../macro/document/rearrange_columns) 到 **Document** 對象中。
-- 添加了 **eeDontDiscardExtra** 到 **Document** 對象的 [**SplitColumn** 方法](../macro/document/split_column) 中。
-- 添加了 [**Sort** 方法](../macro/selection/sort) 到 **Selection** 對象中。
-- 添加了 **eeSortColumns**， **eeRemoveDuplicates**，和 **eeSortRemoveEmpty** 標志到 **Document** 對象的 **[Sort](../macro/document/sort)** 方法中。
-- 添加了 **V8** 到 [**#langauge** 指令](../macro/directive/language) 中。
-
-### 備註
-
-- \[P\] 僅限 EmEditor 專業版
-- \[PF\] EmEditor 專業版和 EmEditor 免費版
+- Added the **[Run](../macro/shell/run)**, **[FileExists](../macro/shell/file_exists)**, **[FolderExists](../macro/shell/folder_exists)**, **[DeleteFile](../macro/shell/delete_file)**, **[DeleteFolder](../macro/shell/delete_folder)**, **[CreateFolder](../macro/shell/create_folder)**, **[GetFileAttributes](../macro/shell/get_file_attributes)**, and **[SetFileAttributes](../macro/shell/set_file_attributes)** methods to the **Shell** object.
+- Added the [**RearrangeColumns** method](../macro/document/rearrange_columns) to the **Document** object.
+- Added **eeDontDiscardExtra** to the [**SplitColumn** method](../macro/document/split_column) of the **Document** object.
+- Added the [**Sort** method](../macro/selection/sort) to the **Selection** object.
+- Added the **eeSortColumns**, **eeRemoveDuplicates**, and **eeSortRemoveEmpty** flags to the **[Sort](../macro/document/sort)** method of the **Document** object.
+- Added **V8** to the [**#langauge** directive](../macro/directive/language).

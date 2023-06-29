@@ -1,3 +1,3 @@
-# Q. 舊版和新版的 EmEditor 能在同一臺電腦上共存嗎？
+# Q. Can both the old version of EmEditor and new version of EmEditor coexist on the same computer?
 
-不能。舊版的 EmEditor 與新版的 EmEditor 在同一臺電腦上不能共存。
+No. The old version of EmEditor and new version of EmEditor cannot coexist on the same computer.

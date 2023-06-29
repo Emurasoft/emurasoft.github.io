@@ -1,27 +1,29 @@
-# 打開命令
+# Open command
 
-### 摘要
+### Summary
 
-> 打開一個已存在的檔案。
+> Opens an existing file.
 
-### 說明
+### Description
 
-> 這個命令顯示 **打開** 對話方塊，并讓您能選擇一個您想要用 EmEditor 打開的檔案。通常，檔案會在一個新的標籤中打開。但是，如果目前的標籤是無標題的并且沒有輸入任何字元，那么檔案會在目前的標籤中打開。如果您想要每次都有目前的標籤打開檔案的話，請使用 [**關閉并打開** 命令](file_close_open)。
+> This command displays the **Open** dialog box, and allows you to select a file you would like to open with EmEditor. Normally, the file will open in a new tab. However, the file will open within the current
+> tab if the current tab is untitled and no characters have been typed. If you wish to open a new file within the current tab every time, use the [**Close and Open** \
+> command](file_close_open).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檔案** \> **打開**
-- [全部命令](../tools/all_commands): **檔案** \> **打開**
-\> **打開**
-- 工具列: ![](../../images/fileopen.gif)
-- 狀態列: 無
-- 預設捷徑: CTRL+O
+- Default Menu: **File** \> **Open**
+- [All Commands](../tools/all_commands): **File** \> **Open**
+\> **Open**
+- Toolbar: ![](../../images/fileopen.gif)
+- Status Bar: None
+- Default Shortcut Key: CTRL+O
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILE\_OPEN (4097)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

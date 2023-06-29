@@ -1,26 +1,26 @@
-# 插入下加符號命令
+# Insert Cedilla command
 
-### 摘要
+### Summary
 
-> 在輸入字元 c 或 C 時在該字元上插入下加符號。
+> Inserts a c/C character with a cedilla accent mark.
 
-### 說明
+### Description
 
-> 在選擇這個命令后，在游標處插入一個下加符號 (ç 或 Ç) 通過輸入 c 或 C。
+> After selecting this command, Insert a cedilla (ç or Ç) at the cursor by typing c or C.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **插入** \> **讀音符號** \> **下加符號**
-- [全部命令](../tools/all_commands): **插入** \> **讀音符號** \> **下加符號**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: CTRL + ,
+- Default Menu: **Insert** \> **Diacritics** \> **Cedilla**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Cedilla**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL + ,
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_INSERT\_CEDILLA (4310)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

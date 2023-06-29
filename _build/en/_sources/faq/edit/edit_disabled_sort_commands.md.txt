@@ -1,11 +1,11 @@
-# Q. 排序命令可能會被停用。停用排序命令的條件是什么？
+# Q. The sort commands may become disabled. What are the conditions that disable the sort commands?
 
-當滿足以下任一條件時，排序命令將被停用：
+The sort commands become disabled when any of the following conditions is met:
 
-> (1) 篩選已打開。
+> (1) Filter is on.
 
-> (2) 文檔以唯讀方式打開。
+> (2) The document is open as read-only.
 
-> (3) 選取部分包含唯讀 CSV 標題。
+> (3) The selection contains a read-only CSV headings.
 
-> (4) 選取內容包含在「僅編輯選定區域」命令指定的文字之外。
+> (4) The selection contains outside of text specified by the Narrowing command.

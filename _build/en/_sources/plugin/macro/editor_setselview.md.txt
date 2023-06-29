@@ -1,23 +1,25 @@
 # Editor\_SetSelView
 
-變更選區的開始和結束位置。您能直接用該內嵌函式或明確地發送 [EE\_SET\_SEL\_VIEW](../message/ee_set_sel_view) 消息。
+Changes the the starting and ending position of the selection. You can use this inline function or explicitly send the [EE\_SET\_SEL\_VIEW](../message/ee_set_sel_view) message.
 
 Editor\_SetSelView( HWND hwnd, POINT\_PTR\* pptSelStart, POINT\_PTR\* pptSelEnd );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pptSelStart_
 
-> 指標至一個指定選區開始位置的 [POINT\_PTR 結構](../structure/point_ptr)。該位置由顯示坐標標示。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the starting position of the
+> selection. The position is by display coordinates.
 
 _pptSelEnd_
 
-> 指標至一個指定選區結束位置的 [POINT\_PTR 結構](../structure/point_ptr)。該位置由顯示坐標標示。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the ending position of the
+> selection. The position is by display coordinates.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

@@ -1,30 +1,35 @@
-# 貼上為系統預設編碼命令
+# Paste as System Default Encoding command
 
-### 摘要
+### Summary
 
-> 用 [系統預設編碼](../../glossary/systemdefaultencoding) 貼上剪貼簿上的內容。
+> Pastes Clipboard contents using the [system default \
+> encoding](../../glossary/index).
 
-### 說明
+### Description
 
-> 在游標處用 [系統預設編碼](../../glossary/systemdefaultencoding) 貼上剪貼簿上的內容。 在這個命令之前，用
-> [**複製** 命令](edit_copy) 或
-> [**剪下** 命令](edit_cut) 來把文字放到剪貼簿中。
-> 這個命令等同于 [**貼上** 命令](edit_paste) 如果在屬性對話方塊中的 [**一般** 頁面](../../dlg/properties/general/index) 上的 **「總是貼為 ANSI」** 核取方塊被勾選。
+> Pastes the Clipboard contents at the cursor position using the
+> [**system default encoding**](../../glossary/systemdefaultencoding). Before this command, use the
+> [**Copy** command](edit_copy) or the
+> [**Cut** command](edit_cut) to put text on the Clipboard.
+> This command is equivalent to the [**Paste** \
+> command](edit_paste) if the
+> **Always Paste as ANSI** check box
+> is checked on the [**General** page](../../dlg/properties/general/index) of the Properties dialog box.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **貼上**
-\> **貼上為系統預設編碼命令**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: ALT+CTRL+V
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Paste**
+\> **Paste as System Default Encoding**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: ALT+CTRL+V
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_EDIT\_PASTE\_ANSI (4262)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

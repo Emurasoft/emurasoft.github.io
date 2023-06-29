@@ -1,3 +1,5 @@
-# Q. 為什么沒有 ASP 組態？
+# Q. Why is there no ASP configuration?
 
-ASP 語法被包括在 HTML 組態中，并且根據 VBScript 或 JavaScript 組態的設定，嵌入的指令碼 (通常用 VBScript 或 JavaScript 編寫) 也會被亮顯顯示。
+The ASP syntax is included in the HTML configuration, and the embedded
+script (usually written in VBScript or JavaScript) will be highlighted according
+to the VBScript or JavaScript configuration.

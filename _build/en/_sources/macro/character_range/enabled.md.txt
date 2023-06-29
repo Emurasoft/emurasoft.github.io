@@ -1,6 +1,6 @@
-# Enabled 屬性
+# Enabled Property
 
-指定是否啟用對象的標志。
+Specifies the flag indicating whether the object is enabled.
 
 #### \[JavaScript\]
 
@@ -16,6 +16,6 @@ item. **Enabled**
 
 item. **Enabled** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 22.0 或之後的版本。
+Supported on EmEditor Professional Version 22.0 or later.

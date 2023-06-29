@@ -1,4 +1,4 @@
-# Q. 怎么以獨占方式打開檔案？
+# Q. How can I open a file exclusively?
 
-選擇 **工具** 功能表中 **所有組態的屬性** (或在您打開檔案之後， 在 **工具** 功能表上選擇 **當前組態屬性**)。
-到 **檔案** 頁面上，在 **「被其他程式更改時」** 旁的下拉清單方塊中，選擇 **「保持鎖定」**。
+Select **Properties for All Configurations** on the **Tools** menu (or after you open the file, select **Properties for Current Configuration** on the **Tools** menu). Select the **File** tab, and select **Keep Locked**
+in the **Changed by Another Program** drop-down list box.

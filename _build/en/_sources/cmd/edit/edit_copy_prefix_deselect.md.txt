@@ -1,27 +1,34 @@
-# 複製為引用文字并取消選擇命令
+# Copy in Quotes and Deselect command
 
-### 摘要
+### Summary
 
-> 將所選內容複製為引用文字，貼上至剪貼簿並取消選擇。
+> Copies the selection in quotes, pastes it to the Clipboard and deselects
+> text.
 
-### 說明
+### Description
 
-> 將所選內容複製為引用文字，把它貼上到剪貼簿并取消選擇該文字。這個命令等同于 [**複製為引用文字** 命令](edit_copy_prefix) 加 [**取消選擇** 命令](escape)。 在這個命令之後，您可以通過把游標移動到不同的位置再運行 [**貼上** 命令](edit_paste) 來放置選取內容。
+> Copies the selected text with the quote marks to the Clipboard, and
+> deselects the text.
+> This command is equivalent to the [**Copy Text in**\
+> **Quotes** command](edit_copy) followed by the [**Cancel** \
+> command](escape). After this command, you
+> can place the selection by moving the cursor to a different location
+> and running the [**Paste** command](edit_paste).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **複製**
-\> **複製引用并取消選擇**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: CTRL+SHIFT+Q
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Copy**
+\> **Copy in Quotes and Deselect**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+SHIFT+Q
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_EDIT\_COPY\_PREFIX\_DESELECT (4131)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

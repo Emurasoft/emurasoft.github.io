@@ -1,27 +1,30 @@
-# 上一個文檔命令
+# Previous Document command
 
-### 摘要
+### Summary
 
-> 切換到上一個文檔。
+> Switches to the previous document.
 
-### 說明
+### Description
 
-> 切換到上一個打開的 EmEditor 文檔。這個命令的行為取決于 [**「點擊 \[下一個文檔\] 命令時切換到上次使用的文檔視窗」** 核取方塊](../../dlg/customize/window/index) 是否被勾選。如果該核取方塊被勾選，那么使用這個命令會切換到上次最早使用的文檔。如果沒有被勾選，使用這個命令會切換到上一個顯示在索引標籤欄上的文檔。
+> Switches to the previous open EmEditor document. The behavior of this command depends on whether the
+> [**Switch to last used document for Next**\
+> **Document command** check box](../../dlg/customize/window/index) is checked. If it is checked, this command will switch to the earliest used document. If not checked, this command will switch to the previous document displayed on the
+> tab bar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **視窗** \> **上一個文檔**
-- [全部命令](../tools/all_commands): **視窗**
-\> **文檔導航** \> **上一個文檔**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: CTRL+SHIFT+TAB
+- Default Menu: **Window** \> **Previous Document**
+- [All Commands](../tools/all_commands): **Window**
+\> **Document Navigation** \> **Previous Document**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: CTRL+SHIFT+TAB
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_PREV\_WINDOW (4246)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,6 +1,6 @@
-# CopyFullName 方法
+# CopyFullName Method
 
-複製文檔的完整路徑以及檔案名稱到剪貼簿上。
+Copies the complete path and the file name of the document to the Clipboard.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document. **CopyFullName**();
 
 document. **CopyFullName**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

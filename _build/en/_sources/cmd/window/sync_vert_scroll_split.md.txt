@@ -1,26 +1,26 @@
-# 當分割時同步垂直捲動命令
+# Synchronize Vertical Scrolling when Split command
 
-### 摘要
+### Summary
 
-> 同步分割視窗的垂直捲動。
+> Synchronizes vertical scrolling of split windows.
 
-### 說明
+### Description
 
-> 同步分割視窗的垂直捲動。
+> Synchronizes vertical scrolling of split windows.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **視窗** \> **當分割時同步垂直捲動**
-- [全部命令](../tools/all_commands): **視窗** \> **分割** \> **當分割時同步垂直捲動**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Window** \> **Synchronize Vertical Scrolling when Split**
+- [All Commands](../tools/all_commands): **Window** \> **Split** \> **Synchronize Vertical Scrolling when Split**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_SYNC\_VERT\_SCROLL\_SPLIT (4524)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

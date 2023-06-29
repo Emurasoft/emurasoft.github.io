@@ -1,27 +1,28 @@
-# 複製檔案所在資料夾名命令
+# Copy File Directory Name command
 
-### 摘要
+### Summary
 
-> 複製目前的檔案所在資料夾的完整路徑名到剪貼簿。
+> Copies the full path of the directory of the current file to the Clipboard.
 
-### 說明
+### Description
 
-> 複製目前的檔案所在資料夾的完整路徑名到剪貼簿。如果文檔沒有標題，這個命令則不能被選取。
+> Copies the directory name of the file and put it on the Clipboard. This
+> command cannot be selected if the document is untitled.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **複製**
-\> **檔案類別名**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **Copy**
+\> **File Directory Name**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_COPY\_FILE\_DIR (4327)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,6 +1,8 @@
 # EE\_GET\_COLOR
 
-檢索指定部分的文本、背景顏色以及樣式。您能明確地送出該信息或用 [Editor\_GetColor](../macro/editor_getcolor) 內嵌函式。
+Retrieves the text and background colors and style for the specified part. You can send
+this message explicitly or use the
+[Editor\_GetColor](../macro/editor_getcolor) inline function.
 
 EE\_GET\_COLOR
 
@@ -8,16 +10,16 @@ wParam = 0;
 
 lParam = (LPARAM) (GET\_COLOR\_INFO\*) pGetColorInfo;
 
-## 參數
+## Parameters
 
 _pGetColorInfo_
 
-> 指針指向 [GET\_COLOR\_INFO](../structure/get_color_info) 結構。
+> Pointer to the [GET\_COLOR\_INFO](../structure/get_color_info) structure..
 
-## 返回值
+## Return Values
 
-> 返回值是 TRUE 如果通過的話，或 FALSE 如果未通過的話。
+> The return value is TRUE if succeeded, or FALSE if failed.
 
-## 支持版本
+## Version
 
-> 支持 Version 14.4 以及之後的版本。
+> Supported on Version 14.4 or later.

@@ -1,6 +1,6 @@
-# Global 屬性
+# Global Property
 
-設置或檢索全域標幟。
+Sets or retrieves the global flag.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _b_ = reg. **Global**;
 
 reg. **Global** = _b_;
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 15.9 或之後的版本。
+Supported on EmEditor Professional Version 15.9 or later.

@@ -1,6 +1,7 @@
-# UnicodeSignature 屬性
+# UnicodeSignature Property
 
-檢索或設置標志來表示 EmEditor 是否應添加 Unicode 簽名 (BOM) 當下次保存該文檔時。
+Retrieves or sets the flag to indicate whether EmEditor adds the Unicode
+signature (BOM) next time it saves the document.
 
 #### \[JavaScript\]
 
@@ -14,6 +15,6 @@ _bUnicodeSignature_ = document. **UnicodeSignature**
 
 document. **UnicodeSignature** = _bUnicodeSignature_
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

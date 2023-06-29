@@ -1,28 +1,28 @@
-# 活動窗格命令
+# Active Pane command
 
-### 摘要
+### Summary
 
-> 切換到活動窗格。
+> Switches to the active pane.
 
-### 說明
+### Description
 
-> 切換到活動窗格當顯示自訂顯示條時。
+> Switches to the active pane when a custom bar is displayed.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **視窗**
-\> **窗格**
-\> **活動窗格**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Window**
+\> **Panes**
+\> **Active Pane**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_ACTIVE\_PANE (4409)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

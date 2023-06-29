@@ -1,92 +1,121 @@
-# 「一般」頁面
+# General page
 
-**一般** 頁面讓您能設置與基本操作有關的屬性。
+The **General** page allows you to set properties related to basic
+operations.
 
-### 「自動換行」下拉清單方塊
+### Wrap by drop-down list box
 
-指定換行方式。您可以從下列幾個選項中選擇一個。
-
-|     |     |
-| --- | --- |
-| **不換行** | 不換行。 |
-| **指定字元** | 按指定的字元長度 (位元數) 換行。字元的長度可以在 **標準行邊距** 文字方塊或 **引用行邊距** 文字方塊中指定。 |
-| **視窗寬度** | 按視窗寬度換行。如果調整了視窗大小，換行的位置也會調整。 |
-| **頁面寬度** | 按列印的頁面寬度換行。 |
-
-### 「行列顯示」下拉清單方塊
-
-指定要顯示的行數與列的位置。您可以從下列幾個選項中選擇一個。
+Specifies how lines should wrap. Select one of the following options.
 
 |     |     |
 | --- | --- |
-| **顯示坐標** | 行號和列位置會以被顯示的方式計數。如果換行，那么被換行的位置也會被計算在內。列的位置會在換行處被還原為 1。一個全形的字元計為 2 。這是如同文字處理器一樣的顯示方式。 |
-| **邏輯坐標** (全形字元計為 2 列) | 用真正的邏輯行號來計算行號和列位置。行號與列位置不取決于換行方式。一個全形字元被計為 2 列。一個 Tab字元被計為 1 個字元。 |
-| **邏輯坐標** (全形字元計為 1 列) | 用真正的邏輯行行號來計算行號和列位置。行號與列位置不取決于換行方式。一個全形字元被計為 1 列。一個 Tab字元被計為 1 個字元。 |
-| **邏輯 Tab寬度** (全形字元計為 2 列) | 用真正的邏輯行行號來計算行號和列位置。行號與列位置不取決于換行方式。一個全形字元被計為 2 列。當計數一個 Tab字元時，就當它是用空白代替的。 |
+| **No Wrap** | Does not wrap lines. |
+| **Specified Characters** | Wraps by a specified length of characters (in bytes). The length of <br> characters can be specified at **Normal**<br>**Line Margin** text box or **Quote**<br>**Line Margin** text box. |
+| **Window Width** | Wraps according to the window width. If the window resizes, the wrapped position will resize. |
+| **Page Width** | Wraps according to the printed page width. |
 
-### 「標準行邊距」文字方塊
+### Line and Column Display as drop-down list box
 
-不是引用字元開頭的用位元數標示的行的長度，當 **按指定字元換行** 被選取時。
+Specifies how line numbers and column position should be displayed. Select
+one of the following options.
 
-### 「引用行邊距」文字方塊
+|     |     |
+| --- | --- |
+| **Display Coordinates** | Line numbers and column positions are counted as displayed. If a line <br> wraps, the wrapped position is counted. The column position will be restored <br> to one at the wrapped position. A full-width character is counted as two. It <br> can be called a word-processor-like display. |
+| **Logical Coord.** (Full-Width Char. as 2 Col.) | Line numbers and column positions are counted by real logical lines. <br> Lines numbers and column positions do not depend on how lines are wrapped. A <br> full-width character is counted as two columns. A tab character is counted as <br> one character. |
+| **Logical Coord.**(Full-Width Char. as 1 Col.) | Line numbers and column positions are counted by real logical lines. <br> Line numbers and column positions do not depend on how lines are wrapped. A <br> full-width character is counted as one column. A tab character is counted as <br> one character. |
+| **Logical w/Tab**(Full-Width Char. as 2 Col.) | Line numbers and column positions are counted by real logical lines. <br> Line numbers and column positions do not depend on how lines are wrapped. A <br> full-width character is counted as two columns. A tab character is counted as <br> if it were replaced by spaces. |
 
-引用字元開頭的用位元數標示的行的長度，當 **按指定字元換行** 被選取時。
+### Normal Line Margin text box
 
-### 「引用字元」文字方塊
+The length of lines in bytes that do not begin with quote characters when **Wrapped by**
+**Specified Characters** is selected.
 
-EmEditor 用於 **引用行邊距** 文字方塊上的引用字元。它同樣也適用於 [**複製引用** 命令](../../../cmd/edit/edit_copy_prefix)。
+### Quoted Line Margin text box
 
-### 「顯示行號」核取方塊
+The length of lines in bytes that begins with quote characters when **Wrapped by Specified**
+**Characters** is selected.
 
-在視窗的左邊顯示行號。列印時如果要列印行號，您將需要勾選 **列印** 頁面上的 **列印行號** 核取方塊。
+### Quote Character text box
 
-### 「顯示尺規」核取方塊
+Quote character that EmEditor uses for the **Quoted Line**
+**Margin** text box. It is also used by the
+[**Quote**\
+**Copy** command](../../../cmd/edit/edit_copy_prefix).
 
-在視窗的頂部顯示尺規。
+### Show Line Numbers check box
 
-### 「顯示基底為0的行/欄號」核取方塊
+Shows line numbers on the left side of the window. To print line numbers when
+printing, you will need to check the **Print Line Numbers** check box on the
+**Print**
+page.
 
-顯示基底為0的行號以及欄號，而不是從1開始。這個選項不會更改巨集或外掛程式行為。
+### Show Ruler check box
 
-### 「運行輸入法編輯器」核取方塊
+Shows the ruler on the top of the window.
 
-當啟動 EmEditor 時，同時運行輸入法編輯器 (IME)。
+### Show Zero-based Line/Column Numbers check box
 
-### 「視窗左邊緣無可用空間」
+Shows zero-based line numbers and column numbers instead of one-based numbers. This option does NOT alter macro or plug-in behaviors.
 
-不在 EmEditor 視窗左邊緣顯示空白當不顯示行號時。
+### Run Input Method Editor check box
 
-### 「顯示頁碼」核取方塊
+Runs an Input Method Editor (IME) when running EmEditor.
 
-顯示頁碼。EmEditor 會繪制分頁線，游標所在頁面的頁碼會被顯示在狀態列中。如果顯示行號，那么行的數目是從每頁的頂端開始計算的。如果沒有可用的印表機的話， 頁數可能不會被顯示。
+### No Space at Left Edge of Window check box
 
-### 「允許插入控制字元」核取方塊
+Does not display a space along the left edge of the EmEditor window when line
+numbers are not displayed.
 
-如果勾選了該核取方塊，您能通過輸入 CTRL + 一個字母鍵來插入一個控制字元，或 CTRL + SHIFT + 一個字母鍵，只要它沒有在其他地方被組態為一個快速鍵。如果沒有勾選該核取方塊，您不能這樣插入控制字元。
+### Show Page Numbers check box
 
-### 「在剪貼簿保留換行符號 (CR/LF)」核取方塊
+Displays page numbers. Page break lines will be drawn, and page numbers will be displayed in
+the status bar to show in which page the cursor is located. If line numbers are
+displayed, the line numbers are based from the top of each page. Page numbers
+might not be displayed if a printer is unavailable.
 
-如果勾選了該核取方塊，當進行複製貼上時換行符號 也會被保留。例如，僅 LF 的換行符會被複製並貼上到另一處只有 LF 換行符的地方。
+### Allow Insert Control Character check box
 
-### 「總是貼為ANSI」核取方塊
+If this box is checked, you can insert a control character by typing CTRL + an alphabetical
+key, or CTRL + SHIFT+ an alphabetical key, as long as it is not configured elsewhere
+as a shortcut key. If this box is not checked, you cannot insert a control character
+in this way.
 
-如果勾選了該核取方塊，貼上到剪貼簿上的文字不會作為 Unicode, 而是會一直作為 [系統預設編碼](../../../glossary/systemdefaultencoding)。這個選項在一些情況下可以用到，比如當您想要從其他應用程式中複製文字，因為這些應用程式無法把文字從 [系統預設編碼](../../../glossary/systemdefaultencoding) 轉換為 Unicode 時。
+### Preserve Newline Characters on Clipboard check box
 
-### 「啟用虛空白」核取方塊
+If this box is checked, the newline characters will be preserved when you copy and paste text.
+For instance, the LF only returns will be copied and pasted to another location
+with LF only returns.
 
-如果勾選了該核取方塊，游標游標可以移動超出每一行的末尾，而當插入一個字元在超出每行末尾處時，空白也會被插入。
+### Always Paste as ANSI check box
 
-### 「 Tab/縮排」按鈕
+If this box is checked, text is pasted from the Clipboard not as Unicode, but
+always as the [system \
+default encoding](../../../glossary/systemdefaultencoding). This option is sometimes useful when you want to copy text from
+other applications that have a problem converting text from the
+[system default encoding](../../../glossary/systemdefaultencoding)
+to Unicode.
 
-按這個按鈕顯示 [**Tab/縮排** 對話方塊](indent/index) 來指定 **自動縮排** 設定。
+### Enable Virtual Space check box
 
-### 「重設」按鈕
+When this is checked, the cursor can move beyond the end of each line, and spaces are inserted when a character is inserted beyond the end of each line.
 
-重設為預設設定。會顯示 [**重設** 對話方塊](../reset/index) 并讓您能從另一個組態複製設定。
+### Tab/Indent button
 
-您能通過該頁面訪問下列對話方塊。
+Press this button to display the [**Tab/Indent** dialog \
+box](indent/index) to specify **Auto Indent** settings.
 
-(點擊 **「 Tab/縮排」** 按鈕)
+### Reset button
+
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.
+
+You can also move to the following dialog box from this page.
+
+(Select the
+**Tab/Indent**
+button)
 
 ```{toctree}
 :maxdepth: 1

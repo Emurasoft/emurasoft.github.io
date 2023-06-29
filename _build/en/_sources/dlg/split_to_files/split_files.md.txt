@@ -1,27 +1,28 @@
-# 「目標檔案」頁面
+# Destination files page
 
-這個頁面讓您能指定目標資料夾以及檔案名稱在把文檔分割為多個檔案后。
+This page allows you to specify destination folder and file names after
+splitting the document into multiple files.
 
-### 「資料夾」文字方塊
+### Folder text box
 
-指定目標資料夾的路徑。
+Specifies the path to the destination folder.
 
-### 「檔案名」文字方塊
+### File Name text box
 
-指定要儲存的檔案名。
+Specifies the file name to save.
 
-### 「成功完成後打開所有分割檔案」核取方塊
+### Open all split files when finished successfully check box
 
-如果勾選了該核取方塊，EmEditor 將在分割檔案成功完成後打開分割後的檔案。
+If this is checked, EmEditor will open all split files when splitting a file is finished successfully.
 
-### 「對每個打開的分割檔案運行巨集」核取方塊
+### Run a macro against each opened split files check box
 
->如果勾選了該核取方塊，EmEditor 將對每個打開的分割後的檔案運行巨集。
+If this is checked, EmEditor will run a macro against each of the opened split files.
 
-### 「對每個打開的分割檔案運行巨集」文字方塊
+### Run a macro against each opened split files text box
 
->指定要對分割後的檔案運行的巨集檔案。
+Specify a macro file to run against each of the opened split files.
 
-### 「將此設定為預設巨集」核取方塊
+### Set this as the default macro check box
 
-如果選中此項，則所選巨集將被設定為預設巨集。
+If this is checked, the selected macro will be set as the default macro.

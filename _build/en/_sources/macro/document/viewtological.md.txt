@@ -1,6 +1,6 @@
-# ViewToLogical 方法
+# ViewToLogical Method
 
-將指定位置的顯示坐標轉換為邏輯坐標，并檢索 [**Point** 對象](../point/index) 中的位置。
+Convert the display coordinates of a specified position to the logical coordinates, and retrieves the position in the [**Point** object](../point/index).
 
 #### \[JavaScript\]
 
@@ -14,11 +14,11 @@ _point_ = document. **ViewToLogical**( _x_, _y_ )
 
 _x_
 
-指定基于單個的水平（字元）位置。
+Specifies the one-based horizontal (character) position.
 
 _y_
 
-指定基于單個的垂直（行）位置。
+Specifies the one-based vertical (line) position.
 
 ## Examples
 
@@ -38,6 +38,6 @@ x = point.x
 
 y = point.y
 
-## 版本
+## Version
 
-支持 EmEditor Professional 17.0 或之後的版本。
+Supported on EmEditor Professional Version 17.0 or later.

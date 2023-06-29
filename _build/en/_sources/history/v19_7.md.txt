@@ -1,46 +1,46 @@
 # Version 19.7
 
-2020年3月24日
+March 24, 2020
 
-## 一般新增功能
+## New General Features
 
-- 添加了 **移動/複製欄** 命令，可以通過尺規上的右鍵功能表選擇該命令。 選擇此命令將快顯一個對話方塊，您可以在其中指定要將選定的欄或目前的欄移動或複製到的位置。
-- 添加了 **合併欄** 命令，可以通過尺規上的右鍵功能表選擇該命令。 選擇此命令將快顯一個對話方塊，您可以在其中選擇是串連欄還是使用第一個非空白值值。
-- 添加了合併欄的選項到 **抽出欄** 和 **合併 CSV** 命令中。
-- 使用改進的算法和多執行緒程式碼極大地提高了多行搜索的速度。
+- Added the **Move/Copy Columns** command, and it can be selected via the right-click menu on the ruler. Selecting this command brings up a dialog box where you can specify where you want to move or copy selected columns or the current column to.
+- Added the **Combine Columns** command, and it can be selected via the right-click menu on the ruler. Selecting this command brings up a dialog box where you can select whether to concatenate columns or to use the first non-empty value.
+- Added an option to combine columns to the **Extract Columns** and **Join CSV** commands.
+- Greatly improved the speed of multiline search using an improved algorithm and multi-threaded code.
 
-### 測試結果：
+### Test results:
 
-|  | v19.6 | v19.7 | 比較 |
+|  | v19.6 | v19.7 | Comparison |
 | --- | --- | --- | --- |
-| 尋找一個多行字串 \*1 | 68.8 倍 | 0.625 倍 | 快 110 倍 |
-| 取代一個多行字串 \*2 | 25.3 倍 | 0.907 倍 | 快 27.9 倍 |
-| 取代一個多行的規則運算式 \*3 | 54.1 倍 | 24.0 倍 | 快 2.25 倍 |
+| Find a multiline string \*1 | 68.8 seconds | 0.625 seconds | 110 times faster |
+| Replace a multiline string \*2 | 25.3 seconds | 0.907 seconds | 27.9 times faster |
+| Replace a multiline regular expression \*3 | 54.1 seconds | 24.0 seconds | 2.25 times faster |
 
-\*1 尋找一個 10 行的字串，勾選「符合大小寫」，1 個字串符合。
+\*1 Find a 10-line string, Count Matches enabled, 1 string matched.
 
-\*2 把 "ab\\nde" 取代成 "@"，勾選「逸出序列」，17 個字串符合。
+\*2 Replace "ab\\nde" with "@", Escape Sequence selected, 17 strings matched.
 
-\*3 把 "a.\*?\\nb.\*?\\nc" 取代成 "@"，勾選「規則運算式」，9,842 個字串符合。
+\*3 Replace "a.\*?\\nb.\*?\\nc" with "@", Regular Expression selected, 9,842 strings matched.
 
-1.34 GB，100,000,000 行，ASCII 隨機數據檔案。16 執行緒，Windows 10 (64-bit)，Core i9-9900K，32GB RAM，2TB SSD。
+1.34 GB, 100,000,000 lines, ASCII random data file. 16 threads, Windows 10 (64-bit), Core i9-9900K, 32GB RAM, 2TB SSD.
 
-## 新增選項
+## New Options
 
-- 添加了 [**移動/複製欄** 對話方塊](../dlg/move_column/index)。
-- 添加了 [**合併欄** 對話方塊](../dlg/combine_columns/index)。
-- 添加了 **與上一欄合併** 核取方塊， **串連** 和 **使用第一個非空白值值** 選項按鈕到 [**抽出欄** 對話方塊](../dlg/extract_columns/index) 中。
-- 添加了 **與上一欄合併** 核取方塊， **串連** 和 **使用第一個非空白值值** 選項按鈕到 [**合併 CSV** 對話方塊](../dlg/join_csv/index) 中。
+- Added the [**Move/Copy Columns** dialog box](../dlg/move_column/index).
+- Added the [**Combine Columns** dialog box](../dlg/combine_columns/index).
+- Added the **Combine with previous column** check box and the **Concatenate** and **Use first non-empty value** radio buttons to the [**Extract Column** dialog box](../dlg/extract_columns/index).
+- Added the **Combine with previous column** check box and the **Concatenate** and **Use first non-empty value** radio buttons to the [**Join CSV** dialog box](../dlg/join_csv/index).
 
-## 新增命令
+## New Commands
 
-- [移動/複製欄](../cmd/edit/move_column)
-- [合併欄](../cmd/edit/combine_columns)
+- [Move/Copy Columns](../cmd/edit/move_column)
+- [Combine Columns](../cmd/edit/combine_columns)
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 [**EE\_EDIT\_COLUMN** 消息](../plugin/message/ee_edit_column)， [**Editor\_EditColumn** 內嵌函式](../plugin/macro/editor_editcolumn)，以及 [**EDIT\_COLUMN\_INFO** 結構](../plugin/structure/edit_column_info)。
+- Added the [**EE\_EDIT\_COLUMN** message](../plugin/message/ee_edit_column), [**Editor\_EditColumn** inline function](../plugin/macro/editor_editcolumn), and [**EDIT\_COLUMN\_INFO** structure](../plugin/structure/edit_column_info).
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 [**MoveColumn**](../macro/document/movecolumn) 和 [**CombineColumns**](../macro/document/combinecolumns) 方法到 [**Document** 對象](../macro/document/index) 中。
+- Added the **[MoveColumn](../macro/document/movecolumn)** and **[CombineColumns](../macro/document/combinecolumns)** methods to the [**Document** object](../macro/document/index).

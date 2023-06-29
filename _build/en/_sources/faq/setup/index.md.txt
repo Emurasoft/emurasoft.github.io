@@ -1,14 +1,15 @@
-# 安裝
+# Setup
 
 ```{toctree}
 :maxdepth: 1
 change_folder
 setup_all_users
 setup_app_error
+setup_crack
 setup_disable_emeditor_from_context_menu
 setup_download
+setup_emeditor_not_run
 setup_error_file
-setup_folder_emeditor3
 setup_icons
 setup_intermediate_certificates
 setup_new_folder

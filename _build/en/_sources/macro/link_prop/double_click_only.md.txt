@@ -1,6 +1,7 @@
-# DoubleClickOnly 屬性
+# DoubleClickOnly Property
 
-與組態屬性中 [**連結** 頁面](../../dlg/properties/link/index) 上的 **僅允許雙擊** 核取方塊相對應。
+Corresponds to the **Enable**
+**Double-Clicking Only** check box in the [**Link** page](../../dlg/properties/link/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ object. **DoubleClickOnly**
 
 object. **DoubleClickOnly** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

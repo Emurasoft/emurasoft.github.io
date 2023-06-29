@@ -1,6 +1,6 @@
-# Format 方法
+# Format Method
 
-插入或刪除選定內容中的新行。
+Inserts or deletes newline characters in the selection.
 
 #### \[JavaScript\]
 
@@ -10,19 +10,19 @@ document.selection. **Format**( _nFlags_ );
 
 document.selection. **Format** _nFlags_
 
-## 參數
+## Parameters
 
 _nFlags_
 
-指定一個下列值的組合:
+Specifies a combination of the following values:
 
 |     |     |
 | --- | --- |
-| eeFormatInsertNL | 在選區的換行處插入換行符號。 |
-| eeFormatDeleteNL | 在選區的換行處移除換行符號。 |
-| eeFormatSplitLines | 通過插入新行并刪除尾隨空白來分割行 (適用於 EmEditor 4.10 或之後的版本) 。 |
-| eeFormatJoinLines | 通過插入新行并刪除尾隨空白來合併行 (適用於 EmEditor 4.10 或之後的版本) 。 |
+| eeFormatInsertNL | Inserts newline characters at wrapped positions in the selection. |
+| eeFormatDeleteNL | Removes newline characters at wrapped positions in the selection. |
+| eeFormatSplitLines | Splits lines by inserting newline characters and removing trailing spaces (EmEditor Professional Version 4.10 or later). |
+| eeFormatJoinLines | Joins lines by removing newline characters and inserting spaces at the end of each line (EmEditor Professional Version 4.10 or later). |
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

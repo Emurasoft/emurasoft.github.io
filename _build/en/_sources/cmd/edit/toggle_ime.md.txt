@@ -1,26 +1,26 @@
-# 切換輸入法命令
+# Toggle IME command
 
-### 摘要
+### Summary
 
-> 為遠東語言啟用或禁用輸入法編輯器。
+> Toggles the IME.
 
-### 說明
+### Description
 
-> 為遠東語言啟用或禁用輸入法編輯器。
+> Enables or disables the Input Method Editor for Far East languages.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **進階** \> **輸入法**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: CTRL+F11
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced** \> **IME**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+F11
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_TOGGLE\_IME (4198)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

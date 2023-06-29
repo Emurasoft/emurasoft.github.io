@@ -1,6 +1,7 @@
-# 外掛程式參考
+# Plug-in Reference
 
-您能用 C++ 編程語言來開發延伸 EmEditor 功能的外掛程式。
+You can develop plug-ins that extend EmEditor functions by using the C++
+programming language.
 
 ```{toctree}
 :maxdepth: 1

@@ -1,6 +1,6 @@
-# LineOpen 方法
+# LineOpen Method
 
-在兩行之間插入一個空行。
+Inserts a empty line between two lines.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,14 @@ document.selection. **LineOpen**( \[ _bAbove_ \] );
 
 document.selection. **LineOpen** \[ _bAbove_ \]
 
-## 參數
+## Parameters
 
 _bAbove_
 
-可選項。如果 true 被指定，在目前的行的開始插入一個新行。如果 false 被指定，在目前的行的末尾插入一個新行。預設值是 false。
+Optional. If true is specified, inserts a new line at the start of the
+current line. If false is specified, inserts a new line at the end of the current
+line. The default is false.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

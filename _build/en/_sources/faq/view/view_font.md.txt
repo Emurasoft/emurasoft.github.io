@@ -1,3 +1,6 @@
-# Q. 我什么時候要使用「檢視」功能表下的「字型分類」？
+# Q. When do I use Font Category under the View menu?
 
-EmEditor 無法從 Unicode 檔案中偵測語言。您必須在「 **檢視**」功能表下的「 **字型分類**」中選擇一個合適的類別來顯示非系統預設的字型集。當創建一個新檔案時，如果您要使用的語言是非系統預設的字型集，您也需要選擇您想要使用的 **「字型類別」**。
+EmEditor cannot detect a language from Unicode files. You will have to
+manually choose a **Font Category** under the **View** menu to display a
+non-default character set in a Unicode file correctly. When creating a new file
+with a language other than default character set, you also need to select the **Font Category** you want to use.

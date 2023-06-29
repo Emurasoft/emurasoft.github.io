@@ -1,6 +1,7 @@
 # EE\_SET\_SEL\_TYPE
 
-設置選區狀態的類型。您能明確地發送該消息或用 [Editor\_SetSelType](../macro/editor_setseltype) 內嵌函式或 [Editor\_SetSelTypeEx](../macro/editor_setseltypeex) 內嵌函式。
+Sets the type of selection status. You can send this message explicitly or
+use the [Editor\_SetSelType](../macro/editor_setseltype) inline function or [Editor\_SetSelTypeEx](../macro/editor_setseltypeex) inline function.
 
 EE\_SET\_SEL\_TYPE
 
@@ -8,29 +9,30 @@ wParam = (WPARAM) (BOOL) bNeedAlways;
 
 lParam = (LPARAM) nSelType;
 
-## 參數
+## Parameters
 
 _bNeedAlways_
 
-> 如果該參數是 TRUE，您能設置選區狀態的類型即使沒有選取任何文本。如果該參數是 FALSE，SEL\_TYPE\_NONE 將會取消對選擇部分的選取。
+> If this parameter is TRUE, the type of selection status can be set even if none is selected. If this parameter is FALSE, SEL\_TYPE\_NONE will cancel the selection.
 
 _nSelType_
 
-> 您能從如下值中指定一個組合。然而，SEL\_TYPE\_NONE，SEL\_TYPE\_CHAR，SEL\_TYPE\_LINE，SEL\_TYPE\_BOX 不能聯合使用。只有 SEL\_TYPE\_KEYBOARD 可以與 SEL\_TYPE\_NONE，
-> SEL\_TYPE\_CHAR，SEL\_TYPE\_LINE，或 SEL\_TYPE\_BOX一起使用。
+> You can specify a combination of the following values. However, SEL\_TYPE\_NONE, SEL\_TYPE\_CHAR, SEL\_TYPE\_LINE, SEL\_TYPE\_BOX cannot be
+> combined. Only SEL\_TYPE\_KEYBOARD can be combined with SEL\_TYPE\_NONE,
+> SEL\_TYPE\_CHAR, SEL\_TYPE\_LINE, or SEL\_TYPE\_BOX.
 >
 > |     |     |
 > | --- | --- |
-> | SEL\_TYPE\_NONE | 沒有選擇。 |
-> | SEL\_TYPE\_CHAR | 流選擇模式。 |
-> | SEL\_TYPE\_LINE | 行選擇模式。 |
-> | SEL\_TYPE\_BOX | 垂直選擇模式。 |
-> | SEL\_TYPE\_KEYBOARD | 指定鍵盤選擇模式。這個值能與另一個值進行組合。 |
+> | SEL\_TYPE\_NONE | Not selected. |
+> | SEL\_TYPE\_CHAR | Stream selection mode. |
+> | SEL\_TYPE\_LINE | Line selection mode. |
+> | SEL\_TYPE\_BOX | Vertical selection mode. |
+> | SEL\_TYPE\_KEYBOARD | Specifies the keyboard selection mode. This value can be combined with <br> another value. |
 
-## 返回值
+## Return Values
 
-> 不使用。
+> Not used.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 3.00 或之後的版本。然而，bNeedAlways 支持 EmEditor 5.00 或之後的版本。在前幾個版本中，bNeedAlways 被假定為 FALSE。
+> Supported on EmEditor Professional Version 3.00 or later. However, bNeedAlways is supported on Version 5.00 or later. On the previous versions, bNeedAlways is assumed to be FALSE.

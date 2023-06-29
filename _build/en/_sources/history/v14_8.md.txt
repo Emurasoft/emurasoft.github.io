@@ -1,33 +1,36 @@
 # Version 14.8
 
-2015年1月22日
+February 2, 2015
 
-## 一般新增功能
+## New General Features
 
-- 新的 **合併 CSV** 功能讓您能用與 SQL 中 JOIN 操作 (INNER JOIN, OUTER JOIN, RIGHT JOIN and LEFT JOIN) 類似的一個方法按指定索引鍵資料欄合併兩個 CSV 文檔。
-- 新增的 **刪除重複行 (進階)** 功能讓您能檢查指定欄中的重複，并可選擇是否要忽略空白行。
-- 尺規現在能在 CSV 模式下顯示欄索引。
-- 新增了巨集標志來刪除前一次使用的篩選級別。
-- 亮顯了百分比編碼 ( _%uxxxx_ 格式) 的非標準執行，并且能通過游標右擊工具提示選擇 **轉碼** 來解碼，或執行 **將通用字元名稱轉換為 Unicode** 命令。
+- The new **Join CSV** feature allows you to merge two CSV documents specifying key columns, using a method similar to JOIN operations (INNER JOIN, OUTER JOIN, RIGHT JOIN and LEFT
+JOIN) in SQL.
+- The new **Delete Duplicate Lines (Advanced)** feature allows you to specify which columns to inspect for duplication, and optionally ignore empty lines.
+- The ruler can now display the column index while in a CSV mode.
+- The new macro flag to remove the last used filter level.
+- The Non-standard implementation of percent encoding ( _%uxxxx_ format) is now highlighted and can be decoded by right-clicking the tooltip and select **Convert**, or by using the **Universal Character Names to Unicode** command.
 
-## 新增選項
+## New Options
 
-- 添加了 [**合併 CSV** 對話方塊](../dlg/join_csv/index)。
-- 添加了 [**刪除重複行** 對話方塊](../dlg/delete_duplicate_advanced/index)。
-- 添加了 **要偵測的第一行** 文字方塊以及 **僅在可見行上調節分隔符位置** 核取方塊到 **自訂** 對話方塊中的 [**CSV** 頁面](../dlg/customize/csv/index) 上。
+- The [**Join CSV** dialog box](../dlg/join_csv/index) was added.
+- The [**Delete Duplicate Lines** dialog box](../dlg/delete_duplicate_advanced/index) was added.
+- The **First lines to detect** text box and the **Adjust Separator Positions in Visual Lines Only** check box were added to the
+[**CSV** page](../dlg/customize/csv/index) of **Customize** dialog box.
 
-## 新增命令
+## New Commands
 
-- **[刪除重複行 (進階)](../cmd/edit/delete_duplicate_advanced)**
-- **[合併 CSV](../cmd/edit/join_csv)**
+- **[Delete Duplicate Lines (Advanced)](../cmd/edit/delete_duplicate_advanced)**
+- **[Join CSV](../cmd/edit/join_csv)**
 
-## 巨集的新增功能
+## Macro New Features
 
-- 添加了 **eeFindRemoveLast** 標志到 [**Filter** 方法](../macro/document/filter) 中。
-- 添加了 [**Join** 方法](../macro/editor/join) 到 **Editor** 對象中。
+- The **eeFindRemoveLast** flag was added to the [**Filter** method](../macro/document/filter).
+- The [**Join** method](../macro/editor/join) was added to the **Editor** object.
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 **FLAG\_FIND\_REMOVE\_LAST** 標志到 [**Editor\_Filter** 內嵌函式](../plugin/macro/editor_filter) 以及 [**FILTER\_INFO** 結構](../plugin/structure/filter_info) 中。
-- 添加了 [**EE\_JOIN** 消息](../plugin/message/ee_join)， [**Editor\_Join** 內嵌函式](../plugin/macro/editor_join)，以及
-[**JOIN\_INFO** 結構](../plugin/structure/join_info)。
+- The **FLAG\_FIND\_REMOVE\_LAST** flag was added to the [**Editor\_Filter** inline function](../plugin/macro/editor_filter) and the
+[**FILTER\_INFO** structure](../plugin/structure/filter_info).
+- The [**EE\_JOIN** message](../plugin/message/ee_join), [**Editor\_Join** inline function](../plugin/macro/editor_join), and
+[**JOIN\_INFO** structure](../plugin/structure/join_info) were added.

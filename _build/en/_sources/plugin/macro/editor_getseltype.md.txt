@@ -1,27 +1,27 @@
 # Editor\_GetSelType
 
-獲得選區狀態的類型。您能直接用該內嵌函式或明確地發送 [EE\_GET\_SEL\_TYPE](../message/ee_get_sel_type) 消息。
+Obtains the type of selection status. You can use this inline function or explicitly send the [EE\_GET\_SEL\_TYPE](../message/ee_get_sel_type) message.
 
 Editor\_GetSelType( HWND hwnd );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
-## 返回值
+## Return Values
 
-> 返回一個下列值的組合。SEL\_TYPE\_NONE，SEL\_TYPE\_CHAR，SEL\_TYPE\_LINE，和 SEL\_TYPE\_BOX 不能被組合。只有 SEL\_TYPE\_KEYBOARD 能與其他值組合。
+> Returns a combination of the following values. SEL\_TYPE\_NONE, SEL\_TYPE\_CHAR, SEL\_TYPE\_LINE, and SEL\_TYPE\_BOX cannot be combined. Only SEL\_TYPE\_KEYBOARD can be combined with other values.
 
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | SEL\_TYPE\_NONE | 沒有選取。 |
-> | SEL\_TYPE\_CHAR | 字元被選取。 |
-> | SEL\_TYPE\_LINE | 行被選取。 |
-> | SEL\_TYPE\_BOX | 方塊被選取。 |
-> | SEL\_TYPE\_KEYBOARD | 用鍵盤選取。 |
+> | SEL\_TYPE\_NONE | None is selected. |
+> | SEL\_TYPE\_CHAR | Characters are selected. |
+> | SEL\_TYPE\_LINE | Lines are selected. |
+> | SEL\_TYPE\_BOX | Boxes are selected. |
+> | SEL\_TYPE\_KEYBOARD | Selected by the keyboard. |
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 3.00 或之後的版本。
+> Supported on EmEditor Professional Version 3.00 or later.

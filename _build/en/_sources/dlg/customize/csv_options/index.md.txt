@@ -1,91 +1,91 @@
-# 「CSV 選項」頁面
+# CSV Options page
 
-**CSV 選項** 頁面讓您能自訂與 CSV 選項相關的設定。
+The **CSV Options** page allows you to customize settings related to the CSV options.
 
-### 「僅在標題和尺規處用游標拖曳分隔符號」核取方塊
+### Drag separators only in headings and the ruler with the mouse check box
 
-指定分隔符號是否能用游標只在標題和尺規處拖曳。如果不勾選該選項，分隔符號可以在文檔的任何一處被拖曳。
+Specifies whether separators can be dragged with the mouse only in headings and the ruler. If this is not checked, separators can be dragged everywhere in the document.
 
-### 「標題唯讀」核取方塊
+### Read only in headings check box
 
-指定標題是否應當唯讀。
+Specifies whether headings should be read only.
 
-### 「自動調節分隔符號位置」核取方塊
+### Adjust Separator Positions Automatically check box
 
-如果勾選了該選項，每當文檔模式轉換為 CSV 模式時，EmEditor 會自動調節分隔符號位置。
+If this is checked, separator positions will be adjusted automatically when the document mode is switch to a CSV mode and other major edits have occurred.
 
-### 「僅在可見行上調節分隔符號位置」核取方塊
+### Adjust Separator Positions in Visual Lines Only check box
 
-如果勾選了該選項，只能在 CSV 文檔的可見行上調節分隔符號位置。如果沒有勾選該選項，EmEditor 會調節 CSV 文檔中多達 1000 行的分隔符號位置。
+If this is checked, separator positions can be adjusted only in the visible lines of the CSV document. If this is not checked, separator positions are adjusted from the first up to 1,000 lines.
 
-### 「雙擊選擇一個儲存格」核取方塊
+### Double-click to Select a Cell check box
 
-如果勾選了該選項，雙擊一個儲存格讓你能編輯該儲存格。
+If this is checked, double-clicking on a cell will allow you to edit the selected cell.
 
-### 「自動切換到儲存格選擇模式」核取方塊
+### Switch to Cell Selection Mode Automatically check box
 
-如果勾選了該選項，在打開一個 CSV 文檔后，儲存格選擇模式會自動開啟。
+If this is checked, the Cell Selection Mode will be selected after a CSV document is opened.
 
-### 「自動顯示/隱藏儲存格工具列」核取方塊
+### Automatically Show/Hide Cell Toolbar check box
 
-如果勾選了該選項，當在儲存格選擇模式下激活 CSV 文檔時，會顯示儲存格工具列。
+If this is checked, the Cell toolbar appears when a CSV document is active and the cell selection mode is selected.
 
-### 「自動設置焦點」核取方塊
+### Automatically Set Focus check box
 
-如果勾選了該選項，EmEditor 會自動把焦點設在儲存格工具列上。
+If this is checked, EmEditor automatically sets focus to the cell toolbar.
 
-### 「自動調節高度」核取方塊
+### Automatically Adjust Height check box
 
-如果勾選了該選項，EmEditor 會自動調節儲存格工具列的高度。
+If this is checked, EmEditor automatically adjusts the height of the cell toolbar.
 
-### 「顯示欄標題」核取方塊
+### Show Column Header check box
 
-如果勾選了該選項，EmEditor 會在打開 CSV 文檔時顯示欄標題。
+If this is checked, EmEditor automatically displays the column header when a CSV document is opened.
 
-### 「用字母字元作為欄標題」核取方塊
+### Use Alphabetical Characters for Column Header check box
 
-用字母字元作為欄標題。
+Uses alphabetical characters for the column header.
 
-### 「用基底為0的數字字元作為欄標題」核取方塊
+### Use Zero-Based Characters for Column Header check box
 
-用基底為0的數字字元作為欄標題。
+Uses zero-based numerical characters for the column header.
 
-### 「在儲存格選擇模式中啟用自動填滿」核取方塊
+### Enable AutoFill in Cell Selection Mode check box
 
-如果勾選了該選項，則在儲存格選擇模式下，所選儲存格邊框的右下角將顯示 **自動填滿控點**。你可以拖動控點以將序列或模式繼續到相鄰儲存格中。當所選儲存格位于 CSV 文檔頂部時，雙擊自動填滿控點，上述行為可應用於文檔的整個資料欄中。
+If this is checked, **AutoFill handle** will be displayed at the bottom right corner of the selected cell border under the CSV selection mode. You can drag the handle to continue a series or pattern into neighboring cells. Double-clicking the AutoFill handle while the selected cell is at the top of the CSV document, the above behavior can be applied to the entire column of the document.
 
-### 「在儲存格選擇模式中啟用拖放來移動或復制儲存格」核取方塊
+### Enable Drag and Drop to Move or Copy Cells in Cell Selection Mode check box
 
-在 CSV 儲存格選擇模式中，拖動選定儲存格的邊框將移動或復制選定內容。 在選擇整個欄或行的同時，按下 SHIFT 鍵將重新排列選取的欄或行。
+If this is checked, you can drag a border of the selected cell(s) to move or copy the selection. While the whole columns or line(s) are selected, dropping with the SHIFT key reorders the columns or line(s).
 
-### 「在儲存格選擇模式下編輯時保持欄數相同」核取方塊
+### Keep Number of Columns Same while Editing in Cell Selection Mode check box
 
-如果勾選了該選項，EmEditor 會在儲存格選擇模式下編輯時保持相同的欄數。
+If this is checked, EmEditor keeps the number of columns same while editing in the cell selection mode.
 
-### 「按 TAB 鍵在儲存格選擇模式下創建一個新的儲存格」核取方塊
+### Press TAB key to Create a New Cell in Cell Selection Mode check box
 
-當啟用該選項時，如果目前的儲存格是最右邊的儲存格，按 TAB 鍵去下一個儲存格會導致產生一個新的儲存格。
+If this is checked, pressing the TAB key to go to the next cell will cause a new cell created if the current cell is the rightmost cell.
 
-### 「雙擊標題/行號在儲存格選擇模式下創建一個新的欄/行」核取方塊
+### Double-Click Header/Line Numbers to Create a New Column/Line check box
 
-如果勾選了該選項，雙擊標題或行號會導致 EmEditor 在儲存格選擇模式下創建一個新的欄或行。
+If this is checked, double-clicking the header or line numbers causes EmEditor to create a new column or line.
 
-### 「雙擊外部以在儲存格選擇模式下創建新儲存格」核取方塊
+### Double-Click Outside to Create a New Cell check box
 
-如果勾選了該選項，在可編輯的儲存格外雙擊將導致 EmEditor 在儲存格選擇模式下創建一個新的儲存格。
+If this is checked, double-clicking outside of editable cells will cause EmEditor to create a new cell.
 
-### 「靠右對齊數字欄」核取方塊
+### Align number columns right check box
 
-如果勾選了此選項，則當打開 CSV 檔案或選擇 CSV 模式時，數字欄會自動靠右對齊。
+If this is checked, number columns are right-aligned automatically when a CSV file is opened or when a CSV mode is selected.
 
-### 「提示如果 CSV 語法檢查仍在運行」核取方塊
+### Prompt when CSV Syntax Check is still running check box
 
-如果勾選了此選項，當 CSV 語法檢查仍在運行時，EmEditor 會顯示一個消息方塊以中止 CSV 語法檢查。
+If this is checked, EmEditor shows a message box to abort CSV syntax check when CSV Syntax Check is still running.
 
-### 「預設欄寬」文字方塊
+### Default Column Width text box
 
-指定欄寬的預設值。
+Specifies the default value of column width.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

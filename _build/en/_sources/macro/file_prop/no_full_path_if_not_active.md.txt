@@ -1,6 +1,8 @@
-# NoFullPathIfNotActive 屬性
+# NoFullPathIfNotActive Property
 
-與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **失去焦點時不顯示完整路徑** 核取方塊相對應。
+Corresponds to the **Without**
+**Full Path if Not Active** check box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -14,6 +16,6 @@ _b_ = object. **NoFullPathIfNotActiveProperty**
 
 object. **NoFullPathIfNotActiveProperty** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

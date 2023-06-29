@@ -1,26 +1,28 @@
-# 日期和時間命令
+# Date and Time command
 
-### 摘要
+### Summary
 
-> 插入日期與時間。
+> Inserts the current date and time.
 
-### 說明
+### Description
 
-> 在游標位置處插入目前的日期和時間。這個命令會先插入日期，接著一個空格，跟著是時間。插入的日期與時間的格式可以在 Windows 系統上組態。在 **控制面板** 中選擇 **區域和語言選項**，然后選擇 **日期和時間**。
+> Inserts the current date and time at the cursor position. This commands
+> inserts the date followed by a space and then by the time. The formats used
+> for the time and date can be configured in Windows by selecting the **Regional & Language Options** in **Control Panel**, then selecting **Date & Time**.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **插入** \> **日期和時間**
-- [全部命令](../tools/all_commands): **插入** \> **日期和時間**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: SHIFT+F5
+- Default Menu: **Insert** \> **Date and Time**
+- [All Commands](../tools/all_commands): **Insert** \> **Date and Time**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: SHIFT+F5
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_INSERT\_DATE\_TIME (4138)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,23 +1,24 @@
 # Editor\_GetOutlineLevel
 
-檢索指定邏輯行的大綱級別。您能直接用該內嵌函式或明確地發送 [EE\_GET\_OUTLINE\_LEVEL](../message/ee_get_outline_level) 消息。
+Retrieves the outline level for the specified logical line. You can use this inline function or explicitly send the [EE\_GET\_OUTLINE\_LEVEL](../message/ee_get_outline_level) message.
 
 Editor\_GetOutlineLevel( HWND hwnd, INT\_PTR nLogicalLine );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nLogicalLine_
 
-> 指定邏輯行。
+> Specifies a logical line.
 
-## 返回值
+## Return Values
 
-> 返回值是指定邏輯行的大綱級別。如果發生錯誤，返回值是 -1。
+> The return value is the outline level for the specified logical line. If an
+> error occurs, the return value will be -1.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 6.00 或之後的版本。
+> Supported on EmEditor Professional Version 6.00 or later.

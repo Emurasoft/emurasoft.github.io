@@ -1,26 +1,28 @@
-# 對亮顯文字進行拼字檢查命令
+# Check Spelling in Highlight command
 
-### 摘要
+### Summary
 
-> 對亮顯文字進行拼字檢查。
+> Checks spelling in highlight.
 
-### 說明
+### Description
 
-> 對亮顯文字進行拼字檢查。錯誤拼字的字詞會以紅色下劃線顯示。
+> Checks spelling in highlight. Misspelled words will be underlined in red.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **拼字檢查** \> **檢查拼字于** \> **亮顯文字**
-- [全部命令](../tools/all_commands): **編輯** \> **拼字檢查** \> **檢查拼字于** \> **亮顯文字**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Highlighted**
+**Text**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **Highlight**
+**Text**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SPELL\_HILITE (4519)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

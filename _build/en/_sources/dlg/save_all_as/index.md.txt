@@ -1,15 +1,18 @@
-# 「用指定編碼全部儲存」對話方塊
+# Save All with Encoding dialog box
 
-這個對話方塊會出現當選擇了 [**以指定編碼全部儲存** 命令](../../cmd/file/file_save_all_as)。您能用指定的目標資料夾，編碼，以及換行方式儲存所有打開的文檔，除了無標題文檔之外。
+This dialog box appears when the
+[**Save All with Encoding** \
+command](../../cmd/file/file_save_all_as) is selected. You can save all opened documents with the specified
+destination folder, encoding, and newline characters, except for untitled documents.
 
-### 「目的資料夾」文字方塊
+### Destination Folder text box
 
-指定目標資料夾。
+Specifies the destination folder.
 
-### 「編碼」下拉方塊
+### Encoding drop box
 
-指定要用來儲存檔案的編碼。
+Specifies the encoding to be used to save the files.
 
-### 「換行方式」下拉方塊
+### Newline Character drop box
 
-指定要用來儲存檔案的換行方式。
+Specifies the newline characters to be used to save the files.

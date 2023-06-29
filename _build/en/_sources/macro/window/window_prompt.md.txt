@@ -1,6 +1,6 @@
-# prompt 方法
+# prompt Method
 
-顯示一個對話方塊來輸入字串。
+Displays a dialog box to enter a string.
 
 #### \[JavaScript\]
 
@@ -10,29 +10,30 @@ _strAnswer_ = **prompt**( _strMessage, strDefault, flags_);
 
 _strAnswer_ = **prompt**( _strMessage, strDefault, flags_ )
 
-## 參數
+## Parameters
 
 _strMessage_
 
-指定要顯示的消息。
+Specifies a message to be displayed.
 
 _strDefault_
 
-指定一個預設字串顯示在該文字方塊中。
+Specifies a default string to be displayed in the text box.
 
 _flags_
 
-可選。指定以下值之一。如果省略，則指定為 0。
+Optional. Specifies one of following values. If omitted, 0 is specified.
 
 |     |     |
 | --- | --- |
-| 0 | 顯示單行文字方塊。 |
-| eePromptMultiline | 顯示多行文字方塊。 |
+| 0 | Displays a single-line text box. |
+| eePromptMultiline | Displays a multiline text box. |
 
-## 返回值
+## Return Values
 
-在文字方塊中返回使用者輸入的字串如果選擇了「OK」按鈕，或者返回一個空字串如果選擇了「Cancel」。
+Returns the string the user entered in the text box if the OK button is
+selected, or an empty string if the Cancel button is selected.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

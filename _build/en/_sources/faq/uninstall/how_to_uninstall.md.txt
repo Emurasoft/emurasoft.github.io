@@ -1,3 +1,9 @@
-# Q. 我在使用 EmEditor 試用版本之後決定不購買。我要怎么卸載 EmEditor？
+# Q. I was using EmEditor on a trial basis and decided I don't want to purchase it. How do I uninstall EmEditor?
 
-請關閉所有在運行的 EmEditor 程式。(注意: 「EmEditor 說明」也要關閉。如果您正在從說明上閱讀此頁，我們推薦您把步驟寫下來，或者也可以去我們的網站- **支持**- **常見問題**- **卸載** 中檢視)。點擊 Windows 操作系統中的 **「開始」** 功能表，選擇 **「程式和功能」**，然后從 **「卸載或更改程式」** 中選擇 EmEditor，點擊 **「刪除」** 按鈕。然后按照 EmEditor 卸載對話方塊的指示完成卸載。我們推薦您在完成卸載后，重新啟動Windows。
+Close all running EmEditor programs (Note that EmEditor Help will be closed as well. If you are reading this page from the
+Help, we recommend writing down the information on this page before closing).
+Click the **Start** button on the Windows Operating System and select Control Panel from the **Start** menu.
+Select **Add or Remove Programs**. Select EmEditor from the **Add or Remove Programs** dialog box.
+and then click the **Delete** button. Follow the instructions in the
+**EmEditor Uninstall** dialog box. We recommend restarting the Windows
+Operating System when the uninstalling is complete.

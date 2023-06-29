@@ -1,3 +1,11 @@
 # Windows Scripting Host
 
-巨集的操作基于 Windows Scripting Host (WSH) 引擎的工作環境。因此，您可以用不同的Windows Component 對象 Model (COM) 對象。例如您可以用 RegExp 對象來執行規則運算式搜尋，用 FileSystemObject 對象來操控檔案，用 WshShell 對象創建快捷鍵，操縱 Windows 注冊表，或者用 WshNetwork 對象來進行具有聯網功能的工作。另外，您可以創建并執行巨集，讓您能用一個支持自動化 (例如 Word 和 Excel) 的外部程序來複製 EmEditor 中創建的文檔，粘貼并顯示在外部程序中。
+EmEditor macros are based on the Windows Scripting Host (WSH) engine, so you
+can use various Windows Component Object Model (COM) objects. For
+example, you can perform regular expression searches using the RegExp object,
+manipulate files using the FileSystemObject object, create a short-cut,
+manipulate the Windows Registry using the WshShell object, or work with
+networking functions using the WshNetwork object. Additionally, you can create
+and execute a macro that utilizes an external application that supports
+Automation (such as Word and Excel) to copy a document created in
+EmEditor, then paste into, and print it from the external application.

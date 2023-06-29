@@ -1,7 +1,8 @@
 # EE\_SET\_OUTLINE\_ARRAY
 
-為指定的多行設置大綱級別。您能明確地發送該消息或用
-[Editor\_SetOutlineArray](../macro/editor_setoutlinearray) 內嵌函式。
+Sets the outline levels for the specified multiple lines. You can send this message
+explicitly or use the
+[Editor\_SetOutlineArray](../macro/editor_setoutlinearray) inline function.
 
 EE\_SET\_OUTLINE\_ARRAY
 
@@ -9,16 +10,17 @@ wParam = (WPARAM) 0;
 
 lParam = (LPARAM) (OUTLINE\_ARRAY\_INFO\*) pOutlineArrayInfo;
 
-## 參數
+## Parameters
 
 _pOutlineArrayInfo_
 
-> 指針指向一個 [OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) 結構。
+> Pointer to an [OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) structure.
 
-## 返回值
+## Return Values
 
-> 返回值是 FALSE 如果沒有變更。否則，返回值是 TRUE。
+> The return value is FALSE if there was no change. Otherwise, the return
+> value is TRUE.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 13 或之後的版本。
+> Supported in EmEditor Professional Version 13 or later.

@@ -1,6 +1,6 @@
-# Count 屬性
+# Count Property
 
-檢索項目數量。
+Retrieves the number of items.
 
 #### \[JavaScript\]
 
@@ -12,6 +12,6 @@ List. **Count**;
 _n_ =
 List. **Count**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

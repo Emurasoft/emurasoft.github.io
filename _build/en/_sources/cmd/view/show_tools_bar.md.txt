@@ -1,28 +1,28 @@
-# 外部工具工具列命令
+# Tools Toolbar command
 
-### 摘要
+### Summary
 
-> 顯示或隱藏工具列上的外部工具。
+> Shows or hides the Tools toolbar.
 
-### 說明
+### Description
 
-> 顯示或隱藏工具列上的外部工具。外部工具工具列會顯示所有被使用者定義的外部工具。
+> Shows or hides the Tools toolbar. The Tools toolbar displays all external tools defined by the user.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檢視** >
-**工具列** \> **外部工具工具列**
-- [全部命令](../tools/all_commands): **檢視** >
-**工具列** \> **外部工具工具列**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **View** >
+**Toolbars** \> **Tools Toolbar**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Tools Toolbar**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SHOW\_TOOLS\_BAR (4319)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

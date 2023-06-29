@@ -1,27 +1,27 @@
-# 把目前的字型設為預設值命令
+# Set Current Font Size as Default command
 
-### 摘要
+### Summary
 
-> 把目前的字型大小設為預設大小。
+> Sets the current font size as the default size
 
-### 說明
+### Description
 
-> 把目前的字型大小設為預設大小。
+> Sets the current font size as the default size.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** \> **字型** >
-**把目前的字型設為預設值**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** \> **Font** >
+**Set Current Font Size as Default**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SET\_DEFAULT\_FONT\_SIZE (3877)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

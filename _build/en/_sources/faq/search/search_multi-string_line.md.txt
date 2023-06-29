@@ -1,7 +1,8 @@
-# Q. 怎么在查找/替換對話方塊中把多行字符串作為要搜尋的字符串？
+# Q. How can I enter a multiple-line string as a search string in the Find/Replace dialog box?
 
-在「查找」下拉列表框的右邊，點擊 **「>」** 按鈕會顯示一個下拉菜單單，點擊 **「多行」**。而且，拖曳對話方塊的右下角可以使文本框顯示多行。要輸入一個新的行，請使用CTRL + ENTER。
+On the right side of the Find drop-down list box, click the **>** button to display a menu, and select the **Multiline**. Moreover, drag the right bottom corner of the
+dialog box so the text box allows multiple lines. In order to enter a new line, use CTRL + ENTER.
 
-## 請同樣參考
+## See Also
 
-[如何使用規則運算式](../../howto/search/search_regexp)
+[To Use Regular Expressions](../../howto/search/search_regexp)

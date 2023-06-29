@@ -1,6 +1,7 @@
 # EE\_OUTPUT\_DIR
 
-為輸出列設置當前目錄。您能明確地發送該消息或用 [Editor\_OutputDir](../macro/editor_outputdir) 內嵌函式。
+Sets the current directory for the output bar. You can send this
+message explicitly or use the [Editor\_OutputDir](../macro/editor_outputdir) inline function.
 
 EE\_OUTPUT\_DIR
 
@@ -8,16 +9,16 @@ wParam = 0;
 
 lParam = (LPARAM) (LPCWSTR) szCurrDir;
 
-## 參數
+## Parameters
 
 _szCurrDir_
 
-> 指定當前目錄。該信息是必需的如果文本含有一個只能從當前目錄上跳轉的、可點擊的相對路徑。
+> Specifies the current directory. This information is necessary if the text contains a clickable relative path that can be jumped only from the current directory.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 7.00 或之後的版本。
+> Supported on EmEditor Version 7.00 or later.

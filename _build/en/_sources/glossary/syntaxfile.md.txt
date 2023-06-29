@@ -1,3 +1,6 @@
-# 語法檔案
+# Syntax File
 
-一個檔案列出哪些單字或詞組程式會識別為重要功能，以及如何解釋它們。在 EmEditor 中，一個語法檔案 (由 .esy 副檔名表示) 被用來定義哪一些字串需要亮顯，以及一個特定檔案類型的檔案如何在 EmEditor 中顯示。
+A file that outlines which words or phrases a program recognizes as
+functionally important, and how to interpret them. In EmEditor, a syntax file
+(denoted by an .esy extension) is used to define which strings are highlighted
+and how a file of a certain file type is displayed in EmEditor.

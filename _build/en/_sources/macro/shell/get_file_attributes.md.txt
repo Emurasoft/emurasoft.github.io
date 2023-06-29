@@ -1,6 +1,6 @@
-# GetFileAttributes 方法
+# GetFileAttributes Method
 
-返回指定檔案或資料夾的屬性。
+Returns the attributes of a specified file or folder.
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ nAttr = shell. **GetFileAttributes**( _strFile_ );
 
 nAttr = shell. **GetFileAttributes**( _strFile_ )
 
-## 參數
+## Parameters
 
 _strFile_
 
-用於檢索屬性的檔案或資料夾的完整路徑和名稱。
+The full path and name of a file or folder to retrieve the attributes.
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -26,23 +26,23 @@ nAttr = shell.GetFileAttributes( "C:\\\Test\\\file.txt" );
 
 nAttr = shell.GetFileAttributes( "C:\\Test\\file.txt" )
 
-## 返回值
+## Return Value
 
-返回以下值的組合。
+Returns a combination of the following values.
 
 |     |     |
 | --- | --- |
-| 值 | 描述 |
-| 0 | 正常 |
-| 1 | 唯讀 |
-| 2 | 隱藏 |
-| 4 | 系統 |
-| 8 | 數量 |
-| 16 | 目錄 |
-| 32 | 封存 |
-| 1024 | 別名 |
-| 2048 | 已壓縮 |
+| Value | Description |
+| 0 | Normal |
+| 1 | Read-only |
+| 2 | Hidden |
+| 4 | System |
+| 8 | Volume |
+| 16 | Directory |
+| 32 | Archive |
+| 1024 | Alias |
+| 2048 | Compressed |
 
-## 版本
+## Version
 
-支持 EmEditor Professional 22.1 或之後的版本。
+Supported on EmEditor Professional Version 22.1 or later.

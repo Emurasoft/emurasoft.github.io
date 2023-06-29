@@ -1,15 +1,15 @@
-# FontList 集合
+# FontList Collection
 
-FontList 集合提供 [FontItem 對象](../font_item/index) 的集合。
+FontList collection provides a collection of [FontItem objects](../font_item/index).
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 檢索項目數量。 |
-| **[Item](item)** | 為指定的索引檢索 [FontItem 對象](../font_item/index)。 |
+| **[Count](count)** | Retrieves the number of items. |
+| **[Item](item)** | Retrieves the [FontItem object](../font_item/index) for the specified index. |
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -31,9 +31,9 @@ alert item.Name
 
 Next
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

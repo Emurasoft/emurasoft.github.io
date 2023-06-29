@@ -1,4 +1,5 @@
-# 創建一個與記事本兼容的日志
+# To Create a Notepad-Compatible Diary
 
-1. 點擊  ![](../../images/properties.gif) 來顯示 **檔案** 頁面。
-2. 勾選 **創建與記事本兼容的日志檔案**。
+1. Click  ![](../../images/properties.gif) to display
+the **File** tab.
+2. Check **Notepad-Compatible Diary**.

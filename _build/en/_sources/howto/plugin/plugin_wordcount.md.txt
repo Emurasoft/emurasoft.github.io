@@ -1,23 +1,26 @@
-# 使用字數統計外掛程式
+# To Use Word Count Plug-in
 
-**字數統計** 被預設用 EmEditor Professional 安裝。該外掛程式會統計包含整個文檔以及文字選區內的字數。字數統計外掛程式會一直統計整個文檔中字數。如果您選取了一段文字，它也會計算選區內的字數。要使用 **字數統計** 外掛程式:
+The **Word Count** plug-in is installed by default with EmEditor Professional. This plug-in counts words contained in the entire document and in a selection of text. The word count plug-in always counts the words in the entire document. It
+counts the words in a selection if you make a selection of text. To use the **Word Count** plug-in:
 
-1. 選擇您想要計數的文字或不選取任何文字來對統計整個文檔的字數。
-2. 在 **外掛程式** 欄上點擊 **![Word Count](../../images/plugin_wordcount.gif)**。或在 **工具** 功能表上，指向 **外掛程式**，然后點擊 **字數統計**。
+1. Select text where you want to count words or select no text to count the entire document.
+2. Click **![Word Count](../../images/plugin_wordcount.gif)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Word Count**.
 
-**字數統計** 自訂顯示條會出現。在第一列中，外掛程式顯示查詢的類型: 文字，位元，單字，以及行。 在第二列中，外掛程式顯示整個文檔中字數。在第三列中，外掛程式顯示選取文字的字數。
+The **Word Count** custom bar appears. In the first column, the plug-in displays the types of query: characters, width, words, and lines. In the second column, the plug-in displays the count of words in the entire document. In the third column, the
+plug-in displays the count of words in the selected text only.
 
-您可以點擊 **「立即重新整理」** 按鈕來重新計算文檔和/或選區并更新單字字數統計，或勾選 " **自動重新整理**" 核取方塊來立即反應任何的變更。 (這個不適用於選取的文字) 。
+You can click the **Refresh Now** button to recount the document and/or selection and update the word count, or press the " **Refresh Automatically**" button to reflect changes immediately. (This does not apply to a selection of text.)
 
-**字數統計外掛程式** 查詢是可自訂的。點擊 **字數統計** 顯示條中的 **「自訂」** 按鈕，會顯示 **自訂查詢** 對話方塊。您可以在對話方塊中新增，刪除，複製并排序查詢。您還可以點擊 **「重設」** 來把所有查詢還原到預設設定。
+The **Word Count Plug-in** queries are customizable. Click on the **Customize** button of the **Word Count** bar. The **Customize Queries** dialog box appears where you can create new, delete, copy and order queries. You can also click **Reset** to return all queries to
+the default settings.
 
-## 要創建一個新的查詢 (例如大寫字元) :
+## To create a new query (such as Uppercase characters):
 
-1. 在 **自訂查詢** 對話方塊中點擊 **新增** ，出現 **查詢屬性** 對話方塊。
-2. 在 **標題** 文字方塊中，命名新的查詢。
-3. 指定數量類型是 **文字**， **位元**， **單字**，或 **邏輯行**。
-4. 選擇 **使用規則運算式** 核取方塊。一些可用的 **規則運算式** 示例通過點擊文字方塊旁的「>」按鈕。
+1. Click **New** in the **Customize Queries** dialog box. The **Query Properties** box appears.
+2. Name the new query in the **Title** text box.
+3. Specify the type by Number of **Characters**, **Widths**, **Number of Words**, or **Logical Lines**.
+4. Select the **Use Regular Expression** check box. Some **Regular Expression** examples are available by clicking the > button next to the text box.
 
-**提示:**
+**Tips:**
 
-一個已存在的查詢的屬性同樣能通過選擇「自訂查詢」對話方塊中的「屬性」按鈕來編輯。
+Properties of an existing query, can also be edited by selecting the query to edit in the Customize Queries dialog box, and clicking Properties.

@@ -1,7 +1,8 @@
 # EE\_INFO
 
-檢索或設定用於 EmEditor 的信息參數之一的值。您能明確地發送該消息或用
-[Editor\_Info](../macro/editor_info)， [Editor\_DocInfo](../macro/editor_docinfo)，或 [Editor\_DocInfoEx](../macro/editor_docinfoex) 內嵌函式。
+Retrieves or sets the value of one of the information parameters used by
+EmEditor. You can send this message explicitly or use the
+[Editor\_Info](../macro/editor_info), [Editor\_DocInfo](../macro/editor_docinfo), or [Editor\_DocInfoEx](../macro/editor_docinfoex) inline functions.
 
 EE\_INFO
 
@@ -17,137 +18,137 @@ wParam = MAKEWPARAM(nCmd, iDoc+1);
 
 lParam = (LPARAM)lParam;
 
-## 參數
+## Parameters
 
 _nCmd_
 
-> 指定要檢索或設置的參數。這個參數可以是下面表格中所列的值之一。
+> Specifies a parameter to retrieve or set. This parameter can be one of the values from the following table.
 >
-> |     |     |     |     |
+> | nCmd | Meaning | lParam | Return Value |
 > | --- | --- | --- | --- |
-> | **nCmd** | **含義** | **lParam** | **返回值** |
-> | EI\_GET\_ENCODE | 檢索要儲存檔案的編碼方式。 | 不使用。 | (int)nCP<br> 編碼方式。 |
-> | EI\_SET\_ENCODE | 設置一個儲存檔案的編碼方式。 | (UINT)nCP<br> 指定一個以 CODEPAGE\_ 為開始值的編碼方式。 | 不使用。 |
-> | EI\_GET\_SIGNATURE | 檢索是否要給 Unicode/UTF-8 檔案簽名。 | 不使用。 | (BOOL)bSignature<br> TRUE，簽名。 |
-> | EI\_SET\_SIGNATURE | 設置是否要給 Unicode/UTF-8 檔案簽名。 | (BOOL)bSignature<br> TRUE，簽名。 | 不使用。 |
-> | EI\_GET\_FONT\_CHARSET | 檢索一個要顯示的字元集。 | 不使用。 | (int)nCharset<br> 字元集。 |
-> | EI\_SET\_FONT\_CHARSET | 設置要一個要顯示的字元集。 | (int)nCharset<br> 指定一個以 CHARSET\_ 為開始值的字元集。 | 不使用。 |
-> | EI\_GET\_FONT\_CP | 檢索所使用的字型顯示的代碼頁。 | 不使用。 | (UINT)nCP<br> 該代碼頁。 |
-> | EI\_GET\_INPUT\_CP | 檢索所使用的輸入語言的代碼頁。 | 不使用。 | (UINT)nCP<br> 該代碼頁。 |
-> | EI\_GET\_SHOW\_TAG | 檢索是否顯示被亮顯的標籤。 | 不使用。 | (BOOL)bShowTag<br> TRUE 表示亮顯標籤。 |
-> | EI\_SET\_SHOW\_TAG | 設置是否顯示被亮顯的標籤。 | (BOOL)bShowTag<br> TRUE 表示亮顯標籤。 | 不使用。 |
-> | EI\_GET\_FILE\_NAMEA | 用位元組檢索目前的打開的檔案名。 | (LPSTR)szFileName<br> 指定一個指針指向緩衝區來檢索檔案名。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
-> | EI\_GET\_FILE\_NAME\_EX | 用 Unicode 檢索當前打開的檔案名。 | (STRING\_BUF\*)pStringBuf<br> 指定一個指針指向檢索檔案名的 [STRING\_BUF](../structure/string_buf) 結構。 | 不使用。 |
-> | EI\_GET\_FILE\_NAMEW | 檢索目前的打開的檔案名，用 Unicode 表示。 | (LPSTR)szFileName<br> 指定一個指針指向緩衝區來檢索檔案名。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
-> | EI\_SET\_FILE\_NAMEW | 重新命名目前打開的檔案名。如果文檔沒有標題，則重新命名文檔標題而不儲存檔案。 | (LPCWSTR)pszName<br> 指定新名稱。 | (HRESULT)hr<br>如果失敗則返回負值。 |
-> | EI\_IS\_PROPORTIONAL\_FONT | 檢索是否顯示的字型是成比例的。 | 不使用。 | (BOOL)bProportionalFont |
-> | EI\_GET\_NEXT\_BOOKMARK | 尋找下一個書籤位置。 | (int)yLine<br> 指定一個要搜尋的起始邏輯行位置。-1 會從文檔開始處搜尋。 | (int)yLine<br> 返回被搜尋的邏輯行。-1 會被返回如果沒有被尋找到任何符合的結果的話。 |
-> | EI\_GET\_HILITE\_FIND | 檢索被搜尋的字串是否被亮顯。 | 不使用。 | (BOOL)bShowFindHilite |
-> | EI\_SET\_HILITE\_FIND | 設置被搜尋的字串是否被亮顯。 | (BOOL)bShowFindHilite | 不使用。 |
-> | EI\_GET\_APP\_VERSIONA | 檢索版本名稱為一個 ANSI　字串。 | (LPSTR)szVersionName<br> 指定一個指針指向一個緩衝區來檢索版本字串。緩存區必須是 MAX\_PATH 字元長度包括終止空字元。 | 不使用。 |
-> | EI\_GET\_APP\_VERSIONW | 檢索版本名稱為一個 Unicode 字串。 | (LPWSTR)szVersionName<br> 指定一個指針指向一個緩衝區來檢索版本字串。緩存區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
-> | EI\_GET\_READ\_ONLY | 檢索文檔是否為唯讀模式。 | 不使用。 | (BOOL)bReadOnly |
-> | EI\_IS\_WINDOW\_COMBINED | 檢索視窗是否被合併。 | 不使用。 | (BOOL)bCombined |
-> | EI\_WINDOW\_COMBINE | 設置視窗是否被合併。 | (BOOL)bCombined<br> 合併視窗如果是 TRUE，或分隔視窗如果是 FALSE。 | 不使用。 |
-> | EI\_IS\_UNDO\_COMBINED | 檢索一個被插入的字串是否能被立即撤銷。 | 不使用。 | (BOOL)bCombined |
-> | EI\_GET\_DOC\_COUNT | 檢索在目前的框架視窗中打開文檔的數目 (僅適用於 EmEditor 5.00 或之後的版本)。 | 不使用。 | (int)nCount<br> 返回打開文檔數。 |
-> | EI\_INDEX\_TO\_DOC | 把一個文檔索引轉換為文檔句柄(僅適用於 EmEditor 5.00 或之後的版本)。 | 指定從零開始的文檔索引。 | (HEEDOC)hDoc<br> 返回文檔的句柄。 |
-> | EI\_DOC\_TO\_INDEX | 把一個文檔句柄轉換為文檔索引。 | 指定文檔的句柄。 | (int)nIndex<br> 返回從零開始的文檔索引。 |
-> | EI\_ZORDER\_TO\_DOC | 把一個文檔的疊置順序 (z-order) 轉換為一個文檔句柄。 | 指定從零開始的文檔疊置順序。 | (HEEDOC)hDoc<br> 返回句柄到該文檔中。 |
-> | EI\_DOC\_TO\_ZORDER | 把一個文檔句柄轉換為一個文檔的疊置順序 (z-order)。 | 為該文檔指定句柄。 | (int)nZOrder<br> 返回從零開始的文檔疊置順序。 |
-> | EI\_GET\_ACTIVE\_INDEX | 檢索活動文檔的索引。 | 不使用。 | (int)nIndex<br> 返回從零開始的文檔疊置順序。 |
-> | EI\_SET\_ACTIVE\_INDEX | 激活一個文檔。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。 |
-> | EI\_GET\_FULL\_TITLEA | 在 ANSI 字串中，檢索文檔的完整標題。 | (LPSTR)szTitle<br> 指定要檢索字串的緩衝區。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
-> | EI\_GET\_FULL\_TITLEW | 在 Unicode 字串中，檢索文檔的完整標題。 | (LPWSTR)szTitle<br> 指定要檢索字串的緩衝區。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
-> | EI\_GET\_SHORT\_TITLEA | 在 ANSI 字串中，檢索文檔的簡略標題。 | (LPSTR)szTitle<br> 指定要檢索字串的緩衝區。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
-> | EI\_GET\_SHORT\_TITLEW | 在 Unicode 字串中，檢索文檔的簡略標題。 | (LPWSTR)szTitle<br> 指定要檢索字串的緩衝區。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
-> | EI\_GET\_SAVE\_AS\_TITLEA | 檢索文檔的完整標題，除了星號 (\*) 所表示的在 ANSI 字串中的修改。 | (LPSTR)szTitle<br> 指定要檢索字串的緩衝區。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
-> | EI\_GET\_SAVE\_AS\_TITLEW | 檢索文檔的完整標題，除了星號 (\*) 所表示的在 Unicode 字串中的修改。 | (LPWSTR)szTitle<br> 指定要檢索字串的緩衝區。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
-> | EI\_MOVE\_ORDER | 改變文檔標籤頁順序。 | 指定從零開始的目標標籤頁索引。 | 不使用。 |
-> | EI\_CLOSE\_DOC | 關閉文檔。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。 |
-> | EI\_SAVE\_DOC | 儲存文檔。如果文檔未命名，會出現 **另存新檔** 對話方塊。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。當文檔未命名時，在 **另存新檔** 對話方塊中選擇「取消」，也會返回 FALSE。 |
-> | EI\_GET\_CURRENT\_FOLDER | 檢索目前的運作的資料夾。 | (LPWSTR)szDir<br> 指定要檢索字串的緩衝區。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
-> | EI\_IS\_LARGE\_DOC | 檢索標志來指出文檔是否很大。 | 不使用。 | (BOOL)bLarge<br> 返回 TRUE 如果文檔很大。否則的話，返回 FALSE。 |
-> | EI\_USE\_INI | 檢索是否用 INI 檔案，而不是注冊表。 | 不使用。 | (BOOL)bIni<br> 返回 TRUE 如果用 INI 檔案，或 FALSE 如果用注冊表。 |
-> | EI\_GET\_LANGUAGE | 檢索目前的為使用者界面選取的語言。 | (LPWSTR)szFolder<br> 指定要檢索字串的緩衝區。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | (UINT)nLangID<br> 返回目前的被選取的語言 ID。 |
-> | EI\_COMBINE\_HISTORY | 指定是否要合併上一變更與下一變更，讓它們一起作為一個復原記錄。 | (BOOL)bCombine<br> 合併的話，返回 TRUE。 | 不使用。 |
-> | EI\_GET\_BAR\_TEXT\_COLOR | 檢索自訂顯示條的文字顏色。 | 不使用。 | (COLORREF)clrText<br> 返回文字顏色的 RGB 值。 |
-> | EI\_GET\_BAR\_BACK\_COLOR | 檢索自訂顯示條的背景顏色。Retrieves the background color of custom bars. | 不使用。 | (COLORREF)clrBack<br> 返回背景顏色的 RGB 值。 |
-> | EI\_GET\_RETURN\_TYPE | 檢索目前的行的換行方式。如果目前的行是文檔的最后一行，并且沒有換行，那就檢索前一行的換行方式。 | (UINT\_PTR)yLogicalLine<br> 指定邏輯行的索引。 | (int)nReturnType<br> 返回 RETURN\_METHOD\_BOTH，RETURN\_METHOD\_CR\_ONLY，或 RETURN\_METHOD\_LF\_ONLY。 |
-> | EI\_GET\_ACTIVE\_DOC | 檢索活動文檔的句柄。 | 不使用。 | (HEEDOC)hDoc<br> 返回該文檔的句柄。 |
-> | EI\_SET\_ACTIVE\_DOC | 激活一個文檔。 | (HEEDOC)hDoc<br>指定要被激活文檔的句柄。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。 |
-> | EI\_GET\_SYNC\_SESSION | 檢索文檔的時段 ID，如果文檔在比較或同步捲動模式中。 | 不使用。 | (int)nSessionID<br> 返回時段 ID，如果文檔在比較或同步捲動模式中。返回 0，如果文檔是標準模式。 |
-> | EI\_GET\_LOC\_DLL\_INSTANCE | 檢索本地化資源 DLL 實例的句柄。 | 不使用。 | (HINSTANCE)hinstLoc<br> 返回本地化資源 DLL 實例的句柄。 |
-> | EI\_GET\_RES\_DLL\_INSTANCE | 檢索資源 DLL 實例的句柄。 | 不使用。 | (HINSTANCE)hinstRes<br> 返回資源 DLL 實例的句柄。 |
-> | EI\_GET\_CMD\_LIST\_SIZE | 檢索指定多項功能表命令中可用的項目數。 | 多項功能表命令 ID 的第一個項目。T | (int)nCount<br>返回可用的項目數。 |
-> | EI\_GET\_DISCARD\_UNDO | 檢索標志，為了指出是否要 EmEditor 丟棄復原信息來提高取代，插入或刪除的速度。 | 不使用。 | (BOOL)bDiscardUndo<br>Returns the flag. |
-> | EI\_SET\_DISCARD\_UNDO | 設置標志，為了指出是否要 EmEditor 丟棄復原信息來來提高取代，插入或刪除的速度。 | (BOOL)bDiscardUndo<br>The flag. | 不使用。 |
-> | EI\_GET\_HEADING\_LINES | 檢索標題的行數（非捲動區域）。 | 不使用。 | (int)nHeadingLines |
-> | EI\_SET\_HEADING\_LINES | 設定標題的行數（非捲動區域）。 | (int)nHeadingLines | 不使用。 |
-> | EI\_GET\_NARROWING\_TOP | 檢索僅編輯選定區域的首行（y 坐標）。-1 表示未設定僅編輯選定區域。 | 不使用。 | (int)nNarrowingTop |
-> | EI\_SET\_NARROWING\_TOP | 設定僅編輯選定區域的首行（y 坐標）。-1 表示未設定僅編輯選定區域。 | (int)nNarrowingTop | 不使用。 |
-> | EI\_GET\_NARROWING\_BOTTOM | 檢索僅編輯選定區域的末行（y 坐標）。-1 表示未設定僅編輯選定區域。 | 不使用。 | (int)nNarrowingBottom |
-> | EI\_SET\_NARROWING\_BOTTOM | 設定僅編輯選定區域的末行（y 坐標）。-1 表示未設定僅編輯選定區域。 | (int)nNarrowingBottom | 不使用。 |
-> | EI\_SET\_HILITE\_FILTER | 使用上次使用的尋找信息設定篩選。僅允許使用激活的文檔。 | 不使用。 | 不使用。 |
-> | EI\_GET\_CSV | 檢索目前的 CSV 模式的索引，如果不是 CSV 模式，則返回 -1。 | 不使用。 | (int)iCSV |
-> | EI\_GET\_PRINT\_PAGES | 檢索目前指定列印的頁數。僅允許激活的文檔。 | (BOOL)bSelOnly<br>指定是否僅計算選取區域的頁數。 | (int)nPages |
-> | EI\_GET\_COMBINE\_HISTORY | 檢索能顯示是否要在復原記錄中把下個變更與上一個變更合併為一個的標志。 | 不使用。 | (BOOL)bCombine |
-> | EI\_GET\_CELL\_MODE | 檢索標志，顯示選擇模式是否是儲存格選擇模式。 | 不使用。 | (BOOL)bCellMode |
-> | EI\_SET\_CELL\_MODE | 設置標志，顯示選擇模式是否是儲存格選擇模式。 | (BOOL)bCellMode | 不使用。 |
-> | EI\_GET\_UNTITLED | 檢索顯示文檔是否未命名的標志。 | 不使用。 | (BOOL)bUntitled |
-> | EI\_GET\_DPI | 檢索目前的監視器的 DPI 值。 | 不使用。 | (long)nDPI |
-> | EI\_GET\_FILTER\_VISIBLE\_LINES\_ABOVE | 檢索用篩選器符合的行以上的可見行數。 | 不使用。 | (long)nLines |
-> | EI\_SET\_FILTER\_VISIBLE\_LINES\_ABOVE | 設置用篩選器符合的行以上的可見行數。 | (long)nLines | 不使用。 |
-> | EI\_GET\_FILTER\_VISIBLE\_LINES\_BELOW | 檢索用篩選器符合的行以下的可見行數。 | 不使用。 | (long)nLines |
-> | EI\_SET\_FILTER\_VISIBLE\_LINES\_BELOW | 設置用篩選器符合的行以下的可見行數。 | (long)nLines | 不使用。 |
-> | EI\_GET\_DPI\_OPTIONS | 檢索與螢幕相關的選項。目前只支持 DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED。當設置 DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED 時，EmEditor 會在 DPI 變更時調整視窗的大小。 | 不使用。 | (long)nFlags |
-> | EI\_SET\_DPI\_OPTIONS | 設置與螢幕相關的選項。目前只支持 DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED。當設置 DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED 時，EmEditor 會在 DPI 變更時調整視窗的大小。 | (long)nFlags | 不使用。 |
-> | EI\_GET\_REGISTERED\_NAME | 檢索注冊名稱，顯示在「關于」對話方塊中。 如果產品未注冊，將檢索空字串。 | (LPWSTR)szName<br>指定要檢索字串的緩沖區。 緩沖區必須為 MAX\_REG\_NAME 字元長度，包括終止 NULL 字元。 | 不使用。 |
-> | EI\_VALIDATE\_CSV | 驗證CSV文檔和輸出錯誤，并可選擇地調整分隔符位置。 | (int)nFlags<br>你可以指定 VALIDATE\_ADJUST\_COLUMNS，VALIDATE\_QUIET，VALIDATE\_ADJUST\_VISIBLE\_ONLY，VALIDATE\_DETECT\_NL，VALIDATE\_DONT\_CLEAR\_OUTPUT，VALIDATE\_QUIET\_IF\_NO\_ERROR，VALIDATE\_ADJUST\_ENLARGE\_ONLY，VALIDATE\_DETECT\_CSV 和 VALIDATE\_ASYNC 的組合。 | (int)nResults<br>返回值是 CSV\_ADJUSTED，CSV\_NL\_EMBEDDED，CSV\_ABORT，CSV\_INVALID\_QUOTES，CSV\_INCONSISTENT\_COLUMNS，CSV\_NOT\_CSV，CSV\_ASYNC\_SUCCESS 和 CSV\_ASYNC\_RUNNING 的組合。返回值為 0 表示沒有錯誤。 |
-> | EI\_GET\_CLIENT\_RECT\_NO\_BARS | 檢索編輯器視圖的坐標，不包括捲軸和迷你地圖占用的區域。 | (RECT\*)pRect | 如果成功，返回 TRUE；如果失敗，返回 FALSE。 |
-> | EI\_REFRESH\_COMMON\_SETTINGS | 加載常用設置並重新整理 EmEditor 視窗。 | 不使用。 | 不使用。 |
-> | EI\_GET\_NEWLINE\_CODE | 檢索文檔中使用的新行字元碼。 | 不使用。 | 返回 FLAG\_CR\_AND\_LF，FLAG\_CR\_ONLY，FLAG\_LF\_ONLY，或 FLAG\_NEWLINE\_MIXED。 |
-> | EI\_GET\_MEMORY\_SIZE | 檢索文檔中使用的記憶體大小。可以在 **自訂** 對話方塊的 [**進階** 頁面](../../dlg/customize/advanced/index) 上的 **記憶體大小** 文字方塊中指定預設值。 | 不使用。 | 返回記憶體大小。 |
-> | EI\_SET\_MEMORY\_SIZE | 設置文檔中使用的記憶體大小。可以在 **自訂** 對話方塊的 [**進階** 頁面](../../dlg/customize/advanced/index) 上的 **記憶體大小** 文字方塊中指定預設值。 | (long)nBits<br>指定所需的記憶體大小。 | 返回新的記憶體大小。如果文檔已經使用大於指定大小的記憶體大小，則此值可能會大於指定的大小。 |
-> | EI\_GET\_BOOKMARK\_COUNT | 檢索文檔中的書籤數。 | 不使用。 | 返回文檔中的書籤數。 |
-> | EI\_SYNC\_NOW | 觸發 EmEditor 立即同步。 | (UINT)nFlags<br>你可以指定 SYNC\_FLAG\_SEND，SYNC\_FLAG\_RECEIVE，SYNC\_FLAG\_FORCE，和 SYNC\_FLAG\_REFRESH\_UI 的組合。 | 不使用。 |
-> | EI\_GET\_CHAR\_TYPE | 檢索字元類型。 | (LPCWSTR)pch | 返回字元類型。它可以是下列類型之一：<br>CHAR\_NULL，CHAR\_SPACE，CHAR\_MARK，CHAR\_ALPHANUMERIC，CHAR\_KANA ，CHAR\_KANA\_MARK ，CHAR\_DB\_SPACE，CHAR\_DB\_MARK，CHAR\_DB\_ALPHANUMERIC，CHAR\_DB\_HIRA，CHAR\_DB\_KATA，CHAR\_DB\_KANJI，CHAR\_DB\_KANA\_MARK，CHAR\_SECOND\_DB，CHAR\_HANGUL，CHAR\_DB\_HANGUL。 |
-> | EI\_FILE\_POS\_TO\_LOGICAL | 將檔案位置轉換為邏輯位置。 | (FILE\_POS\_INFO\*)pFilePosInfo | 不使用。 |
-> | EI\_LOGICAL\_TO\_FILE\_POS | 將邏輯位置轉換為檔案位置。 | (FILE\_POS\_INFO\*)pFilePosInfo | 不使用。 |
-> | EI\_CELL\_TO\_LOGICAL | 將儲存格位置轉換為邏輯位置。 | (CELL\_LOGICAL\_INFO\*)pCellLogicalInfo | 不使用。 |
-> | EI\_LOGICAL\_TO\_CELL | 將邏輯位置轉換為儲存格位置。 | (CELL\_LOGICAL\_INFO\*)pCellLogicalInfo | 不使用。 |
-> | EI\_IS\_VERY\_DARK | 檢查系統是否支持夜間模式，如果支持，則檢查使用者是否選擇了很暗模式。 | 不使用。 | 如果使用者選擇了很暗模式，則返回 TRUE；否則，返回FALSE；如果系統不支援夜間模式，則返回 NOT\_SUPPORTED。 |
-> | EI\_WM\_INITDIALOG | 在對話方塊程序中的 WM\_INITDIALOG 消息內部呼叫，以支持很暗模式。 | (HWND)hWnd | 不使用。 |
-> | EI\_WM\_CTLCOLOR | 在對話方塊程序中的 WM\_CTLCOLORDLG，WM\_CTLCOLORSTATIC，WM\_CTLCOLOREDIT，WM\_CTLCOLORBTN，以及 WM\_CTLCOLORLISTBOX 消息內部呼叫，以支持很暗的模式。 | (WPARAM)wParam<br>您可以轉發傳遞 WM\_CTLCOLORxxx 消息。 | 如果選擇了很暗模式，則返回畫筆。您必須將此值傳遞給對話方塊程序的返回值。 |
-> | EI\_WM\_THEMECHANGED | 在對話方塊程序中的 WM\_THEMECHANGED 消息內部呼叫，以支持很暗的模式。 | (HWND)hWnd | 不使用。 |
-> | EI\_INIT\_LISTVIEW | 初始化一個清單視圖控件以支持很暗模式。 | (HWND)hWnd | 不使用。 |
-> | EI\_GET\_VIEW\_FONT | 檢索目前的選擇的編輯器字型的控點。 | 不使用。 | (HFONT)hFont |
-> | EI\_GET\_HIDE\_QUOTES | 檢索一個標志，該標志指示在 CSV 儲存格選擇模式下是否啟用了「隱藏引號」顯示畫面。 | 不使用。 | (BOOL)bHideQuotes |
-> | EI\_SET\_HIDE\_QUOTES | 設定一個標志，該標志指示在 CSV儲存格選擇模式下是否啟用了「隱藏引號」顯示畫面。 | (BOOL)bHideQuotes | 不使用。 |
-> | EI\_ENABLE\_WM\_CHAR | 內部使用。 | 不使用。 | 內部使用。 |
-> | EI\_GET\_SYNC | 檢索同步資料夾的路徑。 | (LPWSTR)szDir<br>指定用於檢索字串的緩沖區。緩沖區必須是 MAX\_PATH 字元長，包括終止的 NULL 字元。 | 返回包括 SYNC\_SETTINGS\_SEND 和 SYNC\_SETTINGS\_RECEIVE 的值的組合。 |
-> | EI\_GET\_SPLIT | 檢索分割狀態。 | 不使用。 | 返回以下值之一：SPLIT\_NONE，SPLIT\_HORZ，SPLIT\_VERT，SPLIT\_BOTH，SPLIT\_2\_HORZ，或 SPLIT\_2\_VERT。 |
-> | EI\_GET\_SUM | 檢索所選內容中包含的數字的總和以及次數。 | (SUM\_INFO\*)pSumInfo | 如果成功返回 TRUE，如果失敗則返回 FALSE。 |
-> | EI\_GET\_CONFIG | 檢索選取的組態名稱。 | 指定指向緩沖區的指針以檢索組態名稱。緩沖區的長度必須為 MAX\_CONFIG\_NAME 指定的字元，包括終止 NULL 字元。 | 不使用。 |
-> | EI\_SET\_CONFIG | 對指定組態的變更。 | 指定一個組態名稱。 | (BOOL)bSuccess |
-> | EI\_SAVE\_FILE | 儲存一個文件。 | 指定完整的檔案路徑名稱。 | (BOOL)bSuccess |
-> | EI\_INDEX\_TO\_DOC\_REAL | 將文件索引轉換為文件控點。與 EI\_INDEX\_TO\_DOC 不同，此命令計算在分割視窗中唯一的單個文件。 | 指定從零開始的文件索引。 | (HEEDOC)hDoc<br>返回文件的控點。 |
-> | EI\_DOC\_TO\_INDEX\_REAL | 將文件索引轉換為文件控點。與 EI\_INDEX\_TO\_DOC 不同，此命令計算在分割視窗中唯一的單個文件。 | 指定文件的控點。 | (int)nIndex<br>返回從零開始的文件索引。 |
-> | EI\_GET\_TITLE | 檢索目前的文檔的標題。 | (STRING\_BUF\*)pStringBuf<br> 指定指針指向一個檢索標題的 [STRING\_BUF](../structure/string_buf) 結構。 | 不使用。 |
-> | EI\_SET\_TITLE | 設定目前的文檔的標題。標題可能包含由換行符 (\\n) 分隔的長標題和短標題。 | (LPCWSTR)pszTitle<br> 指定一個新標題。 | (HRESULT)hr<br>如果失敗，則返回負值。 |
+> | EI\_GET\_ENCODE | Retrieves the encoding method to save files. | Not used. | (int)nCP<br> The encoding method. |
+> | EI\_SET\_ENCODE | Sets an encoding method to save files. | (UINT)nCP<br> Specifies an encoding method, whose value begins by CODEPAGE\_. | Not used. |
+> | EI\_GET\_SIGNATURE | Retrieves whether to sign Unicode/UTF-8 files. | Not used. | (BOOL)bSignature<br> TRUE to sign. |
+> | EI\_SET\_SIGNATURE | Sets whether to sign Unicode/UTF-8 files. | (BOOL)bSignature<br> TRUE to sign. | Not used. |
+> | EI\_GET\_FONT\_CHARSET | Retrieves the character set to display. | Not used. | (int)nCharset<br> The character set. |
+> | EI\_SET\_FONT\_CHARSET | Sets a character set to display. | (int)nCharset<br> Specifies an character set whose value begins by CHARSET\_. | Not used. |
+> | EI\_GET\_FONT\_CP | Retrieves the code page used by the font to display. | Not used. | (UINT)nCP<br> The code page. |
+> | EI\_GET\_INPUT\_CP | Retrieves the code page used by the input languages. | Not used. | (UINT)nCP<br> The code page. |
+> | EI\_GET\_SHOW\_TAG | Retrieves whether to show the tag highlighted. | Not used. | (BOOL)bShowTag<br> TRUE to highlight the tag. |
+> | EI\_SET\_SHOW\_TAG | Sets whether to show the tag highlighted. | (BOOL)bShowTag<br> TRUE to highlight the tag. | Not used. |
+> | EI\_GET\_FILE\_NAMEA | Retrieves the file name currently opened, in bytes. | (LPSTR)szFileName<br> Specifies a pointer to a buffer to retrieve the file name. The buffer must <br> be MAX\_PATH character long including the terminating NULL character. | Not used. |
+> | EI\_GET\_FILE\_NAME\_EX | Retrieves the file name currently opened, in Unicode. | (STRING\_BUF\*)pStringBuf<br> Specifies a pointer to a [STRING\_BUF](../structure/string_buf) structure that retrieves the file name. | Not used. |
+> | EI\_GET\_FILE\_NAMEW | Retrieves the file name currently opened, in Unicode. | (LPSTR)szFileName<br> Specifies a pointer to a buffer to retrieve the file name. The buffer must <br> be MAX\_PATH character long including the terminating NULL character. | Not used. |
+> | EI\_SET\_FILE\_NAMEW | Renames the file name currently opened. If the document is untitled, renames the document title without saving the file. | (LPCWSTR)pszName<br> Specifies a new name. | (HRESULT)hr<br>Returns a negative value if failed. |
+> | EI\_IS\_PROPORTIONAL\_FONT | Retrieves whether the display font is proportional. | Not Used. | (BOOL)bProportionalFont |
+> | EI\_GET\_NEXT\_BOOKMARK | Finds the next book mark position. | (int)yLine<br> Specifies an initial logical line to search from. -1 will search from the <br> beginning of the document. | (int)yLine<br> Returns the searched logical line. -1 will be returned if not found. |
+> | EI\_GET\_HILITE\_FIND | Retrieves whether searched strings are highlighted. | Not used. | (BOOL)bShowFindHilite |
+> | EI\_SET\_HILITE\_FIND | Sets whether searched strings are highlighted. | (BOOL)bShowFindHilite | Not used. |
+> | EI\_GET\_APP\_VERSIONA | Retrieves the version name as an ANSI string. | (LPSTR)szVersionName<br> Specifies a pointer to a buffer to retrieve the version string. The buffer <br> must be MAX\_PATH character long including the terminating NULL character. | Not used. |
+> | EI\_GET\_APP\_VERSIONW | Retrieves the version name as a Unicode string. | (LPWSTR)szVersionName<br> Specifies a pointer to a buffer to retrieve the version string. The buffer <br> must be MAX\_PATH character long including the terminating NULL character. | Not used. |
+> | EI\_GET\_READ\_ONLY | Retrieves whether the document is read-only. | Not used. | (BOOL)bReadOnly |
+> | EI\_IS\_WINDOW\_COMBINED | Retrieves whether the windows are combined. | Not used. | (BOOL)bCombined |
+> | EI\_WINDOW\_COMBINE | Sets whether the windows are combined. | (BOOL)bCombined<br> Combines the windows if TRUE, or separate the windows if FALSE. | Not used. |
+> | EI\_IS\_UNDO\_COMBINED | Retrieves whether an inserted string can be undone at once. | Not used. | (BOOL)bCombined |
+> | EI\_GET\_DOC\_COUNT | Retrieves the number of opened documents in the current frame window (EmEditor Professional 5.00 or later only). | Not used. | (int)nCount<br> Returns the number of documents. |
+> | EI\_INDEX\_TO\_DOC | Converts a document index to a document handle (EmEditor Professional 5.00 or later only). | Specifies the zero-based index of the document. | (HEEDOC)hDoc<br> Returns the handle to the document. |
+> | EI\_DOC\_TO\_INDEX | Converts a document handle to a document index. | Specifies the handle to the document. | (int)nIndex<br> Returns the zero-based index of the document. |
+> | EI\_ZORDER\_TO\_DOC | Converts a document z-order to a document handle. | Specifies the zero-based z-order of the document. | (HEEDOC)hDoc<br> Returns the handle to the document. |
+> | EI\_DOC\_TO\_ZORDER | Converts a document handle to a document z-order. | Specifies the handle to the document. | (int)nZOrder<br> Returns the zero-based z-order of the document. |
+> | EI\_GET\_ACTIVE\_INDEX | Retrieves the index of the active document. | Not used. | (int)nIndex<br> Returns the zero-based index of the document. |
+> | EI\_SET\_ACTIVE\_INDEX | Activates a document. | Not used. | (BOOL)bSuccess<br> Returns TRUE if succeeded, or FALSE if failed. |
+> | EI\_GET\_FULL\_TITLEA | Retrieves the full title of the document in ANSI string. | (LPSTR)szTitle<br> Specifies the buffer to retrieve the string. The buffer must be MAX\_PATH character long including the terminating NULL character. | Not used. |
+> | EI\_GET\_FULL\_TITLEW | Retrieves the full title of the document in Unicode string. | (LPWSTR)szTitle<br> Specifies the buffer to retrieve the string. The buffer must be MAX\_PATH character long including the terminating NULL character. | Not used. |
+> | EI\_GET\_SHORT\_TITLEA | Retrieves the short title of the document in ANSI string. | (LPSTR)szTitle<br> Specifies the buffer to retrieve the string. The buffer must be MAX\_PATH character long including the terminating NULL character. | Not used. |
+> | EI\_GET\_SHORT\_TITLEW | Retrieves the short title of the document in Unicode string. | (LPWSTR)szTitle<br> Specifies the buffer to retrieve the string. The buffer must be MAX\_PATH character long including the terminating NULL character. | Not used. |
+> | EI\_GET\_SAVE\_AS\_TITLEA | Retrieves the full title of the document except the asterisk (\*) indicating modification in ANSI string. | (LPSTR)szTitle<br> Specifies the buffer to retrieve the string. The buffer must be MAX\_PATH character long including the terminating NULL character. | Not used. |
+> | EI\_GET\_SAVE\_AS\_TITLEW | Retrieves the full title of the document except the asterisk (\*) indicating modification in Unicode string. | (LPWSTR)szTitle<br> Specifies the buffer to retrieve the string. The buffer must be MAX\_PATH character long including the terminating NULL character. | Not used. |
+> | EI\_MOVE\_ORDER | Moves the document tab order. | Specifies the zero-based index of the destination tab. | Not used. |
+> | EI\_CLOSE\_DOC | Closes the document. | Not used. | (BOOL)bSuccess<br> Returns TRUE if succeeded, or FALSE if failed. |
+> | EI\_SAVE\_DOC | Saves the document. If the document is untitled, the **Save As** dialog box will appear. | Not used. | (BOOL)bSuccess<br> Returns TRUE if succeeded, or FALSE if failed. Selecting Cancel in the **Save As** dialog box when the document is untitled will also return FALSE. |
+> | EI\_GET\_CURRENT\_FOLDER | Retrieves the current working folder. | (LPWSTR)szDir<br> Specifies the buffer to retrieve the string. The buffer must be MAX\_PATH character long including the terminating NULL character. | Not used. |
+> | EI\_IS\_LARGE\_DOC | Retrieves the flag to indicate whether the document is very large. | Not used. | (BOOL)bLarge<br> Returns TRUE if the document is very large. Otherwise, it returns FALSE. |
+> | EI\_USE\_INI | Retrieves whether the INI files are used instead of the <br> Registry. | Not used. | (BOOL)bIni<br> Returns TRUE if the INI files are used, or FALSE if the Registry is used. |
+> | EI\_GET\_LANGUAGE | Retrieves the currently selected language for the user <br> interface. | (LPWSTR)szFolder<br> Specifies the buffer to retrieve the language folder. The buffer must be <br> MAX\_PATH character long including the terminating NULL character. | (UINT)nLangID<br> Returns the currently selected language ID. |
+> | EI\_COMBINE\_HISTORY | Specifies whether to combine the next change with the previous change as one history for Undo. | (BOOL)bCombine<br> TRUE to combine. | Not used. |
+> | EI\_GET\_BAR\_TEXT\_COLOR | Retrieves the text color of custom bars. | Not used. | (COLORREF)clrText<br> Returns the RGB value of the text color. |
+> | EI\_GET\_BAR\_BACK\_COLOR | Retrieves the background color of custom bars. | Not used. | (COLORREF)clrBack<br> Returns the RGB value of the background color. |
+> | EI\_GET\_RETURN\_TYPE | Retrieves the return type of the current line. If the current line is the last line of the document and does not have a return, it retrieves the return type of the previous line. | (UINT\_PTR)yLogicalLine<br> Specifies the index of the logical line. | (int)nReturnType<br> Returns either RETURN\_METHOD\_BOTH, RETURN\_METHOD\_CR\_ONLY, or RETURN\_METHOD\_LF\_ONLY |
+> | EI\_GET\_ACTIVE\_DOC | Retrieves the handle to the active document. | Not used. | (HEEDOC)hDoc<br> Returns the handle to the document. |
+> | EI\_SET\_ACTIVE\_DOC | Activates a document. | (HEEDOC)hDoc<br>Specifies the handle to the document to be activated. | (BOOL)bSuccess<br> Returns TRUE if succeeded, or FALSE if failed. |
+> | EI\_GET\_SYNC\_SESSION | Retrieves the session ID of the document if the document is in comparison or synchronous scroll mode. | Not used. | (int)nSessionID<br> Returns the session ID if the document is in comparison or synchronous scroll mode. Returns 0 if the document is in normal mode. |
+> | EI\_GET\_LOC\_DLL\_INSTANCE | Retrieves the handle to the localized resource DLL instance. | Not used. | (HINSTANCE)hinstLoc<br> Returns the handle to the localized resource DLL instance. |
+> | EI\_GET\_RES\_DLL\_INSTANCE | Retrieves the handle to the resource DLL instance. | Not used. | (HINSTANCE)hinstRes<br> Returns the handle to the resource DLL instance. |
+> | EI\_GET\_CMD\_LIST\_SIZE | Retrieves the number of items available for the specified multiple-menu <br> command | The first item of the multiple-menu command ID. | (int)nCount<br>Returns the number of items available. |
+> | EI\_GET\_DISCARD\_UNDO | Retrieves the flag to indicate whether EmEditor discards undo information to improve the speed of replace, insert or delete. | Not used. | (BOOL)bDiscardUndo<br>Returns the flag. |
+> | EI\_SET\_DISCARD\_UNDO | Sets the flag to indicate whether EmEditor discards undo information to improve the speed of replace, insert or delete. | (BOOL)bDiscardUndo<br>The flag. | Not used. |
+> | EI\_GET\_HEADING\_LINES | Retrieves the number of lines of the headings (non-scroll area). | Not used. | (int)nHeadingLines |
+> | EI\_SET\_HEADING\_LINES | Sets the number of lines of the headings (non-scroll area). | (int)nHeadingLines | Not used. |
+> | EI\_GET\_NARROWING\_TOP | Retrieves the top line (y-coordinate) of the narrowing. -1 means the narrowing is not set. | Not used. | (int)nNarrowingTop |
+> | EI\_SET\_NARROWING\_TOP | Sets the top line (y-coordinate) of the narrowing. -1 means the narrowing is not set. | (int)nNarrowingTop | Not used. |
+> | EI\_GET\_NARROWING\_BOTTOM | Retrieves the bottom line (y-coordinate) of the narrowing. -1 means the narrowing is not set. | Not used. | (int)nNarrowingBottom |
+> | EI\_SET\_NARROWING\_BOTTOM | Sets the bottom line (y-coordinate) of the narrowing. -1 means the narrowing is not set. | (int)nNarrowingBottom | Not used. |
+> | EI\_SET\_HILITE\_FILTER | Sets the filter using last used find information. Only the active document is allowed. | Not used. | Not used. |
+> | EI\_GET\_CSV | Retrieves the index of the current CSV mode, or -1 if it is not a CSV mode. | Not used. | (int)iCSV |
+> | EI\_GET\_PRINT\_PAGES | Retrieves the number of pages for the currently selected printer. Only the active document is allowed. | (BOOL)bSelOnly<br>Specifies whether only the selection is calculated to retrieve the number of pages. | (int)nPages. |
+> | EI\_GET\_COMBINE\_HISTORY | Retrieves the flag that shows whether to combine the next change with the previous change as one history for Undo. | Not used. | (BOOL)bCombine |
+> | EI\_GET\_CELL\_MODE | Retrieves the flag that shows whether the selection mode is cell selection mode. | Not used. | (BOOL)bCellMode |
+> | EI\_SET\_CELL\_MODE | Sets the flag that shows whether the selection mode is cell selection mode. | (BOOL)bCellMode | Not used. |
+> | EI\_GET\_UNTITLED | Retrieves the flag that shows whether the document is untitled. | Not used. | (BOOL)bUntitled |
+> | EI\_GET\_DPI | Retrieves the DPI value at the current monitor. | Not used. | (long)nDPI |
+> | EI\_GET\_FILTER\_VISIBLE\_LINES\_ABOVE | Retrieves the number of visible lines above the matched lines by filters. | Not used. | (long)nLines |
+> | EI\_SET\_FILTER\_VISIBLE\_LINES\_ABOVE | Sets the number of visible lines above the matched lines by filters. | (long)nLines | Not used. |
+> | EI\_GET\_FILTER\_VISIBLE\_LINES\_BELOW | Retrieves the number of visible lines below the matched lines by filters. | Not used. | (long)nLines |
+> | EI\_SET\_FILTER\_VISIBLE\_LINES\_BELOW | Sets the number of visible lines below the matched lines by filters. | (long)nLines | Not used. |
+> | EI\_GET\_DPI\_OPTIONS | Retrieves the options related to the monitor. Currently, only DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED is supported. When DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED is set, EmEditor resizes the window when the DPI is changed. | Not used. | (long)nFlags |
+> | EI\_SET\_DPI\_OPTIONS | Sets the options related to the monitor. Currently, only DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED is supported. When DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED is set, EmEditor resizes the window when the DPI is changed. | (long)nFlags | Not used. |
+> | EI\_GET\_REGISTERED\_NAME | Retrieves the registered name, which is displayed in the About dialog box. If the product is not registered, an empty string will be retrieved. | (LPWSTR)szName<br>Specifies the buffer to retrieve the string. The buffer must be MAX\_REG\_NAME character long including the terminating NULL character. | Not used. |
+> | EI\_VALIDATE\_CSV | Validates the CSV document and output errors, and optionally adjusts separator positions. | (int)nFlags<br>You may specify a combination of VALIDATE\_ADJUST\_COLUMNS, VALIDATE\_QUIET, VALIDATE\_ADJUST\_VISIBLE\_ONLY, VALIDATE\_DETECT\_NL, VALIDATE\_QUIET\_IF\_NO\_ERROR, VALIDATE\_ADJUST\_ENLARGE\_ONLY, VALIDATE\_DETECT\_CSV, and VALIDATE\_ASYNC. | (int)nResults<br>Return values are combination of CSV\_ADJUSTED, CSV\_NL\_EMBEDDED, CSV\_ABORT, CSV\_INVALID\_QUOTES, CSV\_INCONSISTENT\_COLUMNS, CSV\_NOT\_CSV, CSV\_ASYNC\_SUCCESS, and CSV\_ASYNC\_RUNNING. The return value of 0 means there were no errors. |
+> | EI\_GET\_CLIENT\_RECT\_NO\_BARS | Retrieves the coordinates of the editor view excluding the area occupied by scroll bars and the Minimap. | (RECT\*)pRect | Returns TRUE if succeeded, or FALSE if failed. |
+> | EI\_REFRESH\_COMMON\_SETTINGS | Loads common settings and refreshes the EmEditor window. | Not used. | Not used. |
+> | EI\_GET\_NEWLINE\_CODE | Retrieves the newline character code used in the document. | Not used. | Returns FLAG\_CR\_AND\_LF, FLAG\_CR\_ONLY, FLAG\_LF\_ONLY, or FLAG\_NEWLINE\_MIXED. |
+> | EI\_GET\_MEMORY\_SIZE | Retrieves the memory size used in the document. The default value can be specified in the **Memory Size** text box in the [**Advanced** page](../../dlg/customize/advanced/index) of the **Customize** dialog box. | Not used. | Returns the memory size. |
+> | EI\_SET\_MEMORY\_SIZE | Sets the memory size used in the document. The default value can be specified in the **Memory Size** text box in the [**Advanced** page](../../dlg/customize/advanced/index) of the **Customize** dialog box. | (long)nBits<br>Specifies the required memory size. | Returns the new memory size. This value may become greater than the specified size if the document already uses greater memory size than the specified size. |
+> | EI\_GET\_BOOKMARK\_COUNT | Retrieves the number of bookmarks in the document. | Not used. | Returns the number of bookmarks in the document. |
+> | EI\_SYNC\_NOW | Triggers EmEditor to sync now. | (UINT)nFlags<br>You may specify a combination of SYNC\_FLAG\_SEND, SYNC\_FLAG\_RECEIVE, SYNC\_FLAG\_FORCE, and SYNC\_FLAG\_REFRESH\_UI. | Not used. |
+> | EI\_GET\_CHAR\_TYPE | Retrieves the type of the character. | (LPCWSTR)pch | Returns the type of the character. It can be one of the following types:<br>CHAR\_NULL, CHAR\_SPACE, CHAR\_MARK, CHAR\_ALPHANUMERIC, CHAR\_KANA , CHAR\_KANA\_MARK , CHAR\_DB\_SPACE, CHAR\_DB\_MARK, CHAR\_DB\_ALPHANUMERIC, CHAR\_DB\_HIRA, CHAR\_DB\_KATA, CHAR\_DB\_KANJI, CHAR\_DB\_KANA\_MARK, CHAR\_SECOND\_DB, CHAR\_HANGUL, CHAR\_DB\_HANGUL. |
+> | EI\_FILE\_POS\_TO\_LOGICAL | Converts a file position to the logical position. | (FILE\_POS\_INFO\*)pFilePosInfo | Not used. |
+> | EI\_LOGICAL\_TO\_FILE\_POS | Converts a logical position to the file position. | (FILE\_POS\_INFO\*)pFilePosInfo | Not used. |
+> | EI\_CELL\_TO\_LOGICAL | Converts a cell position to the logical position. | (CELL\_LOGICAL\_INFO\*)pCellLogicalInfo | Not used. |
+> | EI\_LOGICAL\_TO\_CELL | Converts a logical position to the cell position. | (CELL\_LOGICAL\_INFO\*)pCellLogicalInfo | Not used. |
+> | EI\_IS\_VERY\_DARK | Checks if the dark mode is supported in the system, and whether the user selects the very dark mode if supported. | Not used. | Returns TRUE if the user selects the very dark mode, FALSE if not, or NOT\_SUPPORTED if the dark mode is not supported in the system. |
+> | EI\_WM\_INITDIALOG | Called inside the WM\_INITDIALOG message in a dialog procedure to support the very dark mode. | (HWND)hWnd | Not used. |
+> | EI\_WM\_CTLCOLOR | Called inside the WM\_CTLCOLORDLG, WM\_CTLCOLORSTATIC, WM\_CTLCOLOREDIT, WM\_CTLCOLORBTN, and WM\_CTLCOLORLISTBOX messages in a dialog procedure to support the very dark mode. | (WPARAM)wParam<br>You may forward pass of the WM\_CTLCOLORxxx messages. | Returns a brush if the very dark mode is selected. You must pass this value to the dialog procedure return value. |
+> | EI\_WM\_THEMECHANGED | Called inside the WM\_THEMECHANGED message in a dialog procedure to support the very dark mode. | (HWND)hWnd | Not used. |
+> | EI\_INIT\_LISTVIEW | Initialize a listview control to support the very dark mode. | (HWND)hWnd | Not used. |
+> | EI\_GET\_VIEW\_FONT | Retrieves the handle to the currently selected editor font. | Not used. | (HFONT)hFont |
+> | EI\_GET\_HIDE\_QUOTES | Retrieves a flag indicating whether the Unquoted/Unescaped View is enabled in the CSV cell selection mode. | Not used. | (BOOL)bHideQuotes |
+> | EI\_SET\_HIDE\_QUOTES | Sets a flag indicating whether the Unquoted/Unescaped View is enabled in the CSV cell selection mode. | (BOOL)bHideQuotes | Not used. |
+> | EI\_ENABLE\_WM\_CHAR | Used internally. | Not used. | Used internally. |
+> | EI\_GET\_SYNC | Retrieves the path to the sync folder. | (LPWSTR)szDir<br>Specifies the buffer to retrieve the string. The buffer must be MAX\_PATH character long including the terminating NULL character. | Returns a combination of values including SYNC\_SETTINGS\_SEND and SYNC\_SETTINGS\_RECEIVE. |
+> | EI\_GET\_SPLIT | Retrieves the split status. | Not used. | Returns one of following values: SPLIT\_NONE, SPLIT\_HORZ, SPLIT\_VERT, SPLIT\_BOTH, SPLIT\_2\_HORZ, or SPLIT\_2\_VERT |
+> | EI\_GET\_SUM | Retrieves the sum and count of numbers contained in the selection. | (SUM\_INFO\*)pSumInfo | Returns TRUE if succeeded, or FALSE if failed. |
+> | EI\_GET\_CONFIG | Retrieves the selected configuration name. | Specifies a pointer to a buffer to retrieve the configuration name. The buffer must be MAX\_CONFIG\_NAME character long including the terminating NULL character. | Not used. |
+> | EI\_SET\_CONFIG | Changes to a specified configuration. | Specifies a configuration name. | (BOOL)bSuccess |
+> | EI\_SAVE\_FILE | Saves a document. | Specifies a full path file name. | (BOOL)bSuccess |
+> | EI\_INDEX\_TO\_DOC\_REAL | Converts a document index to a document handle. Unlike EI\_INDEX\_TO\_DOC, this command counts unique individual documents in a split window. | Specifies the zero-based index of the document. | (HEEDOC)hDoc<br>Returns the handle to the document. |
+> | EI\_DOC\_TO\_INDEX\_REAL | Converts a document handle to a document index. Unlike EI\_INDEX\_TO\_DOC, this command counts unique individual documents in a split window. | Specifies the handle to the document. | (int)nIndex<br>Returns the zero-based index of the document. |
+> | EI\_GET\_TITLE | Retrieves the title of the current document. | (STRING\_BUF\*)pStringBuf<br> Specifies a pointer to a [STRING\_BUF](../structure/string_buf) structure that retrieves the title. | Not used. |
+> | EI\_SET\_TITLE | Sets the title of the current document. The title may contain long and short titles separated by a linefeed (\\n). | (LPCWSTR)pszTitle<br> Specifies a new title. | (HRESULT)hr<br>Returns a negative value if failed. |
 
 _iDoc_
 
-> 指定目標文件的索引。指定目標文件的索引。應當指定一個從 1 開始的索引在 wParam 參數的高字處。如果 wParam 參數的高字處指定了 0，那么目前使用中的文件就會成為目標文件。根據不同的 nCmd，這個參數也有可能不被使用。如果是這個情況，那么 wParam 的高字一定是 0。
+> Specifies the index of the target document. A one-based index should be specified at the higher word of wParam. If 0 is specified at the higher word of wParam, the currently active document will
+> be targeted. This parameter may not be used depending on nCmd. In this case, the higher word of wParam must be 0.
 
 _lParam_
 
-> 取決于指定的參數。
+> Depends on the parameter specified.
 
-## 返回值
+## Return Values
 
-> 取決于指定的參數。
+> Depends on the parameter specified.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 3.00 或之後的版本。 然而，iDoc 參數僅在 EmEditor 5.00 或之後的版本上支持。
+> Supported in EmEditor Professional Version 3.00 or later. However, the iDoc parameter is only supported on Version 5.00 or later.

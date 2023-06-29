@@ -1,6 +1,6 @@
-# SetColumn 方法
+# SetColumn Method
 
-在 CSV 模式下設置文字列。
+Sets a column of text in a CSV mode.
 
 #### \[JavaScript\]
 
@@ -10,41 +10,42 @@ document. **SetColumn**( _iColumn_, _strInsert_, _strDelimiter_, _flags_, _yTop_
 
 document. **SetColumn**( _iColumn_, _strInsert_, _strDelimiter_, _flags_, _yTop_, _yLines_ )
 
-## 參數
+## Parameters
 
 _iColumn_
 
-指定列的索引。
+Specifies the index of the column.
 
 _strInsert_
 
-指定要設置的字串。字串可以用在 strDelimiter 指定的分隔符分隔開。
+Specifies the string to set. The string can be separated by the delimiter specified in strDelimiter.
 
 _strDelimiter_
 
-指定用於 strInsert 中分隔字串的分隔符。如果空著或省略該參數，同樣的字串會用於列中的每一個儲存格上。
+Specifies the delimiter to separate the string specified in strInsert. If this is empty or omitted, the same string is used for every cell in the column.
 
 _flags_
 
-> 指定下列值之一。
+> Specifies one of the following values. If omitted, eeAutoQuote is specified.
 >
 > |     |     |
 > | --- | --- |
-> | eeAutoQuote | 檢視字串是否包含分隔符，換行符號，或引號，跳過這些字元，必要時添加引號。 |
-> | eeDontQuote | 不做上述過程。 |
-> | eeAlwaysQuote | 總是添加引號。 |
+> | eeAutoQuote | Checks whether the string contains delimiters, newlines, or quotes, and escape those characters and add quotes if necessary. |
+> | eeDontQuote | Don't do the above process. |
+> | eeAlwaysQuote | Always add quotes. |
 
 _yTop_
 
-指定要設置的第一行的行號。如果省略，會預設為檔案的首行。
+Specifies a line number of the first line to set. If omitted, the first line is specified.
 
 _yLines_
 
-指定要設置的行的行數。如果為零或省略，則不指定限制。
+Specifies the number of lines to set as a limit. If this is zero or omitted, no limit is specified.
 
-## 範例
+## Examples
 
-下面的範例會在第三列的左邊插入一個空列，并合併第一列和第二列的內容作為插入的這個列的內容。在運行這個巨集之前，CSV文檔必須處于活動狀態。由于換行符號 (\\n, Chr(10)) 被當作分隔符，我們假設每個儲存格不包含換行符號。
+The following example inserts an empty column on the left side of the third column, and combines
+the first and second columns and set as third column. A CSV document must be active before this macro is run. Since a linefeed (\\n, Chr(10)) is used as a delimiter, we assume that each cell does not contain a linefeed.
 
 #### \[JavaScript\]
 
@@ -86,6 +87,6 @@ Next
 
 document.SetColumn 3, s3, Chr(10), eeAutoQuote
 
-## 版本
+## Version
 
-支持 EmEditor Professional 16.7 或之後的版本。
+Supported on EmEditor Professional Version 16.7 or later.

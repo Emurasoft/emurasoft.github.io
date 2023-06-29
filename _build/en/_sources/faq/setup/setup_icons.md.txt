@@ -1,3 +1,4 @@
-# Q. 如何變更關聯的文字檔案圖示？
+# Q. How to change associated text file icons?
 
-要變更相關圖示，請運行 EmEditor，在 **工具** 功能表下選擇 **自訂**，選擇 **檔案** 頁面，單擊 **關聯到 EmEditor** 按鈕。選擇 「txt」 圖示，點擊 **屬性** 按鈕，然後選擇您要使用的圖示。
+To change the associated icon, run EmEditor, select **Customize** on the **Tools** menu, select the **File** tab, click the
+**Associate with EmEditor** button. Select the "txt" icon in the list, click the **Properties** button, and select the icon you want to use.

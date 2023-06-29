@@ -1,6 +1,6 @@
-# QuotationMark 屬性
+# QuotationMark Property
 
-檢索或設定目前的 Csv 對象的引號標記。
+Retrieves or sets the quotation mark for the current Csv object.
 
 #### \[JavaScript\]
 
@@ -14,6 +14,6 @@ _ch_ = object. **QuotationMark**
 
 object. **QuotationMark** = _ch_
 
-## 版本
+## Version
 
-支持 EmEditor 20.1 或之後的版本。
+Supported on EmEditor Professional Version 20.1 or later.

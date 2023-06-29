@@ -1,32 +1,35 @@
-# 文檔清單命令
+# Documents List command
 
-### 摘要
+### Summary
 
-> 切換到指定的文檔 (多個項目)。
+> Switches to the specified document (multiple items).
 
-### 說明
+### Description
 
-> 切換到指定的 EmEditor 文檔。如果指定的文檔被最小化了，這個命令會還原指定文檔的正常大小。這個命令由多個功能表項目組成。
+> Switches to the specified EmEditor document. If the specified document is minimized, it will restore its
+> normal size. This command consists of multiple menu items.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **視窗** \> ( **文檔名稱**)
-- [全部命令](../tools/all_commands): **視窗**
-\> ( **文檔名稱**)
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Window** \> ( **document name**)
+- [All Commands](../tools/all_commands): **Window**
+\> ( **document name**)
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
-- 從 EEID\_WINDOW\_MENU 到 EEID\_WINDOW\_MENU + 255 (從 5376 到 5376 + 255)
+- From EEID\_WINDOW\_MENU through EEID\_WINDOW\_MENU + 255 (from 5376 through 5376 + 255)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
-> editor.ExecuteCommandByID(5376 + i);  // i是一個從0到255的整數
+> editor.ExecuteCommandByID(5376 + i);  // i is an integer from 0
+> through 255
 
 #### \[VBScript\]
 
-> editor.ExecuteCommandByID 5376 + i   ' i是一個從0到255的整數
+> editor.ExecuteCommandByID 5376 + i   ' i is an integer from 0
+> through 255

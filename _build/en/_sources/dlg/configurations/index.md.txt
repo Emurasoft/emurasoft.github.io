@@ -1,56 +1,62 @@
-# 「定義組態」對話方塊
+# Define Configurations dialog box
 
-這個對話方塊會顯示當 [**定義組態** 命令](../../cmd/tools/config) 被選取時。您能在這定義組態。
+This dialog box appears when the [**Define Configurations** command](../../cmd/tools/config) is selected. You can define configurations
+here.
 
-### 組態清單方塊
+### Configurations list box
 
-目前的被定義的組態清單。
+List of currently defined configurations.
 
-### 「選擇」按鈕
+### Select button
 
-把選取的項目設為目前的組態，并關閉對話方塊。
+Set the selected item as the current configuration, and close the dialog box.
 
-### 「關閉」按鈕
+### Close button
 
-點擊該按鈕關閉對話方塊。
+Click this button to close the dialog box.
 
-### 「新增」按鈕
+### New button
 
-點擊該按鈕添加新項目到清單中。 [**新增** 對話方塊](new_config/index) 會出現當您點擊該按鈕時。
+Click this button to add a new item to the list. The
+[**New** dialog box](new_config/index) appears when you click this button.
 
-### 「刪除」按鈕
+### Delete button
 
-點擊該按鈕從清單中刪除選取的項目。
+Click this button to delete the selected item from the list.
 
-### 「複製」按鈕
+### Copy button
 
-複製選取的項目。
+Make a copy of the selected item.
 
-### 「全選」按鈕
+### Select All button
 
-選取整個清單。
+Select the entire list.
 
-### 「屬性」按鈕
+### Properties button
 
-顯示或編輯清單中選取的組態屬性。
+Show or edit the selected configuration properties in the list.
 
-### 「設為預設值」按鈕
+### Set as Default button
 
-把選取的項目設為預設組態。選取預設組態當運行 EmEditor 或選擇 [**新增文字** 命令](../../cmd/file/file_new) 被選取時。
+Set the selected item as the default configuration. The
+default configuration is selected when EmEditor is launched or when
+the
+[**New Text** command](../../cmd/file/file_new) is selected.
 
-### 「關聯」按鈕
+### Associations button
 
-點擊該按鈕前往 [**檔案關聯組態** 對話方塊](../configuration_associations/index)。
+Click this button to go to the
+[**Configuration Associations** dialog box](../configuration_associations/index).
 
-### 「全部重設」按鈕
+### Reset All button
 
-點擊該按鈕重設所有項目到預設的設定。
+Click this button to reset all items to default settings.
 
-下面的對話方塊同樣能夠通過該對話方塊訪問。
+The following dialog boxes are also available through this dialog box.
 
-(選擇 **「新增」** 按鈕)
+(Select **New** button)
 
-(選擇 **「關聯」** 按鈕)
+(Select **Associations** button)
 
 ```{toctree}
 :maxdepth: 1

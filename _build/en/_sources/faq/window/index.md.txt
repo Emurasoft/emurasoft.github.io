@@ -1,4 +1,4 @@
-# 視窗
+# Window
 
 ```{toctree}
 :maxdepth: 1

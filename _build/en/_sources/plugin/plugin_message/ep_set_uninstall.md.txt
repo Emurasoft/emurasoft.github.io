@@ -1,6 +1,6 @@
 # EP\_SET\_UNINSTALL
 
-卸載外掛程式。
+Uninstalls the plug-in.
 
 EP\_SET\_UNINSTALL
 
@@ -10,32 +10,33 @@ wParam = (WPARAM) (LPTSTR) pszUninstallCommand;
 
 lParam = (LPARAM) (LPTSTR) pszUninstallParam;
 
-## 參數
+## Parameters
 
 _hwndParent_
 
-> 外掛程式設定對話方塊的視窗處理。
+> The window handle of the Plug-ins Settings dialog box.
 
 _pszUninstallCommand_
 
-> 指定要運行的指令當返回值是 UNINSTALL\_RUN\_COMMAND 時。
+> Specifies the command to run when the return value is UNINSTALL\_RUN\_COMMAND.
 
 _pszUninstallParam_
 
-> 指定要運行的命令的參數當返回值是 UNINSTALL\_RUN\_COMMAND 時。
+> Specifies the parameter for the command to run when the return value is UNINSTALL\_RUN\_COMMAND.
 
-## 返回值
+## Return Values
 
-> 返回值可以是下列值之一。
+> The return value is one of following values.
 >
 > |     |     |
 > | --- | --- |
-> | UNINSTALL\_FALSE | 不卸載。 |
-> | UNINSTALL\_SIMPLE\_DELETE | 只移除 DLL 外掛程式檔案。 |
-> | UNINSTALL\_RUN\_COMMAND | 運行指定的命令。 |
+> | UNINSTALL\_FALSE | Does not uninstall. |
+> | UNINSTALL\_SIMPLE\_DELETE | Simply removes the plug-in DLL file. |
+> | UNINSTALL\_RUN\_COMMAND | Runs the specified command. |
 >
-> 如果返回值是 TRUE，外掛程式將被卸載。如果返回值是 FALSE，外掛程式將不會被卸載。
+> If the return value is TRUE, the plug-in will be uninstalled. If the return
+> value is FALSE, the plug-in will not be uninstalled.
 
-## 版本
+## Version
 
-> 支持 Version 3.00 或之後的版本。但是，返回值 UNINSTALL\_RUN\_COMMAND 以及 pszUninstallCommand 參數還有 pszUninstallParam 參數支持 Version 6.00 或之後的版本。
+> Supported on Version 3.00 or later. However, the return value UNINSTALL\_RUN\_COMMAND and pszUninstallCommand parameter and pszUninstallParam parameter are supported on Version 6.00 or later.

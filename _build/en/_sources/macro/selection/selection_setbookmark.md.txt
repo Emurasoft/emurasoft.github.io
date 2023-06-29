@@ -1,6 +1,6 @@
-# SetBookmark 方法
+# SetBookmark Method
 
-在游標位置處設一個書籤。
+Sets a bookmark at the cursor position.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document.selection. **SetBookmark**();
 
 document.selection. **SetBookmark**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

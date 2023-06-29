@@ -1,6 +1,6 @@
-# write 方法
+# write Method
 
-附加一個字串到輸出列上。
+Appends a string to the output bar.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,12 @@ OutputBar. **write**( _str_ );
 
 OutputBar. **write** _str_
 
-## 參數
+## Parameters
 
 _str_
 
-指定要附加的字串。
+Specifies the string to be appended.
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

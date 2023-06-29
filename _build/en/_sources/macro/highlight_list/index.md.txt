@@ -1,22 +1,22 @@
-# HighlightList 集合
+# HighlightList Collection
 
-HighlightList 集合提供 [HighlightItem 對象](../highlight_item/index) 的集合。
+HighlightList collection provides a collection of [HighlightItem objects](../highlight_item/index).
 
-## 屬性
-
-|     |     |
-| --- | --- |
-| **[Count](count)** | 檢索項目總數。 |
-| **[Item](item)** | 為指定索引檢索 [HighlightItem 對象](../highlight_item/index)。 |
-
-## 方法
+## Properties
 
 |     |     |
 | --- | --- |
-| **[Add](add)** | 添加一個項目。 |
-| **[Remove](remove)** | 刪除一個項目。 |
+| **[Count](count)** | Retrieves the number of items. |
+| **[Item](item)** | Retrieves the [HighlightItem object](../highlight_item/index) for the specified index. |
 
-## 示例
+## Methods
+
+|     |     |
+| --- | --- |
+| **[Add](add)** | Adds an item. |
+| **[Remove](remove)** | Removes an item. |
+
+## Examples
 
 #### \[JavaScript\]
 
@@ -38,9 +38,9 @@ alert item.Name
 
 Next
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

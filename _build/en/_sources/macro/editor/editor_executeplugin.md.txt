@@ -1,6 +1,6 @@
-# ExecutePlugin 方法
+# ExecutePlugin Method
 
-執行一個指定的外掛程式。
+Executes a specified plug-in.
 
 #### \[JavaScript\]
 
@@ -10,41 +10,41 @@ _nResult_ = editor. **ExecutePlugin**( _strPluginFileName_, _nFlags_, _nParam_, 
 
 _nResult_ = editor. **ExecutePlugin**( _strPluginFileName_, _nFlags_, _nParam_, _strParam_ )
 
-## 參數
+## Parameters
 
 _strPluginFileName_
 
-指定外掛程式檔案名。
+Specifies the plug-in file name.
 
 _nFlags_
 
-指定下列值的組合。不能同時指定 eePluginExecuteCommand，eePluginUserMessage，和 eePluginQueryStatus。
+Specifies a combination of the following values. eePluginExecuteCommand, eePluginUserMessage, and eePluginQueryStatus must be mutually exclusively specified.
 
 |     |     |
 | --- | --- |
-| eePluginExecuteCommand | 像使用者選擇外掛程式命令一樣運行外掛程式。指定此參數時，將忽略 nParam 和 strParam 參數。 |
-| eePluginUserMessage | 使用 nParam 和 strParam 參數向外掛程式發送消息。 |
-| eePluginQueryStatus | 檢索外掛程式狀態。指定此參數時，將忽略 nParam 和 strParam 參數。 |
-| eePluginAbsolutePath | strPluginFileName 包含檔案的完整路徑。如果未指定此標志，則外掛程式必須存在于預設外掛程式資料夾中，即 EmEditor 安裝資料夾中的 PlugIns 子資料夾。 |
+| eePluginExecuteCommand | Runs the plug-in as if a user selected the plug-in command. The nParam and strParam parameters are ignored when this is specified. |
+| eePluginUserMessage | Sends a message to the plug-in using the nParam and strParam parameters. |
+| eePluginQueryStatus | Retrieves the plug-in status. The nParam and strParam parameters are ignored when this is specified. |
+| eePluginAbsolutePath | The strPluginFileName contains the full path to the file. If this flag is not specified, the plug-in must exist in the default plug-in folder, which is PlugIns subfolder of the EmEditor install folder. |
 
 _nParam_
 
-指定要發送到外掛程式的整數參數。參數的含義取決于每個外掛程式。如果省略，則 0 會被指定。
+Specifies the integer parameter to send to the plug-in. The meaning of the parameter depends on each plug-in. If this is omitted, 0 is specified.
 
 _strParam_
 
-指定要發送到外掛程式的字串參數。參數的含義取決于每個外掛程式。如果省略，則空字串會被指定。
+Specifies the string parameter to send to the plug-in. The meaning of the parameter depends on each plug-in. If this is omitted, an empty string is specified.
 
-## 返回值
+## Return Values
 
-返回值為負值如果發生錯誤的話。否則，如果指定了 eePluginExecuteCommand，則返回值為0。如果指定了 eePluginUserMessage，則返回值的含義取決于每個外掛程式。如果指定了eePluginQueryStatus，則該方法會返回以下值的組合。
+The return value is a negative value If an error occurs. Otherwise, if eePluginExecuteCommand is specified, the return value is 0. If eePluginUserMessage is specified, the meaning of the return values depends on each plug-in. If eePluginQueryStatus is specified, the method returns a combination of the following values.
 
 |     |     |
 | --- | --- |
-| eeStatusEnabled | 外掛程式已啟用。 |
-| eeStatusLatched | 外掛程式已檢查。 |
+| eeStatusEnabled | The plug-in is enabled. |
+| eeStatusLatched | The plug-in is checked. |
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -62,6 +62,6 @@ editor.ExecutePlugin "Snippets.dll", eePluginUserMessage, 1, "General" & Chr(92)
 
 editor.ExecutePlugin "Snippets.dll", eePluginUserMessage, 2, "/General/Date"
 
-## 版本
+## Version
 
-支持 EmEditor 15.5 或之後的版本。
+Supported on EmEditor Professional Version 15.5 or later.

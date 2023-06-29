@@ -1,6 +1,6 @@
-# FileExists 方法
+# FileExists Method
 
-如果指定檔案存在則返回 true；如果沒有，則為 false。
+Returns true if a specified file exists; false if it does not.
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ b = shell. **FileExists**( _strFile_ );
 
 b = shell. **FileExists**( _strFile_ )
 
-## 參數
+## Parameters
 
 _strFile_
 
-要確定其存在的檔案的名稱。
+The name of the file whose existance is to be determined.
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -26,6 +26,6 @@ b = shell.FileExists( "C:\\\Test\\\file.txt" );
 
 b = shell.FileExists( "C:\\Test\\file.txt" )
 
-## 版本
+## Version
 
-支持 EmEditor Professional 22.1 或之後的版本。
+Supported on EmEditor Professional Version 22.1 or later.

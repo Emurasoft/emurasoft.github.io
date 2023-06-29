@@ -1,6 +1,6 @@
-# Item 屬性
+# Item Property
 
-為指導索引檢索 [KeyboardItem 對象](../keyboard_item/index)。
+Retrieves the [KeyboardItem object](../keyboard_item/index) for the specified index.
 
 #### \[JavaScript\]
 
@@ -12,12 +12,12 @@ list. **Item**( _Index_ );
 _item_ =
 list. **Item**( _Index_ )
 
-## 參數
+## Parameters
 
 _Index_
 
-指定以 1 為基準的整數為項目的索引。
+Specifies the index of the item as a one-based integer.
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

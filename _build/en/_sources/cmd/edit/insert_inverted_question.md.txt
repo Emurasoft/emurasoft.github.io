@@ -1,26 +1,26 @@
-# 插入倒轉的問號命令
+# Insert Inverted Question Mark command
 
-### 摘要
+### Summary
 
-> 插入一個倒轉的問號。
+> Inserts an inverted question mark.
 
-### 說明
+### Description
 
-> 在游標處插入一個倒轉的問號 (¿)。
+> Inserts an inverted question mark (¿) at the cursor.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **插入** \> **標記** \> **倒問號**
-- [全部命令](../tools/all_commands): **插入** \> **標記** \> **倒問號**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: ALT+CTRL+SHIFT+/
+- Default Menu: **Insert** \> **Marks** \> **Inverted Question Mark**
+- [All Commands](../tools/all_commands): **Insert** \> **Marks** \> **Inverted Question Mark**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: ALT+CTRL+SHIFT+/
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_INSERT\_INVERTED\_QUESTION (4312)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

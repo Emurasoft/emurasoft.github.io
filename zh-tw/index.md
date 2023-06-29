@@ -1,9 +1,3 @@
-#### [EmEditor 首頁](http://zh-tw.emeditor.com/)
-
-![Emurasoft EmEditor](images/emeditor-text-editor.png)
-
-## EmEditor Professional
-
 # 說明
 
 #### [禁止非法使用本軟體。](notice/illegal_usage)

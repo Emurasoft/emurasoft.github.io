@@ -1,6 +1,6 @@
-# DeleteFile 方法
+# DeleteFile Method
 
-刪除一個或多個指定的檔案。
+Deletes one or more specified files.
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ shell. **DeleteFile**( _strFile_ );
 
 shell. **DeleteFile** _strFile_
 
-## 參數
+## Parameters
 
 _strFile_
 
-要刪除的檔案的名稱。它可以在最後一個路徑組件中包含通配符。
+The name of the file to delete. It can contain wildard characters in the last path component.
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -26,6 +26,6 @@ shell.DeleteFile( "C:\\\Test\\\\*.txt" );
 
 shell.DeleteFile "C:\\Test\\\*.txt"
 
-## 版本
+## Version
 
-支持 EmEditor Professional 22.1 或之後的版本。
+Supported on EmEditor Professional Version 22.1 or later.

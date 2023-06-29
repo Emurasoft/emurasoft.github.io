@@ -1,6 +1,6 @@
-# scrollTo 方法
+# scrollTo Method
 
-把視窗捲動至指定的位置。
+Scrolls the window to the specified position.
 
 #### \[JavaScript\]
 
@@ -10,16 +10,16 @@
 
 **scrollTo** _x_, _y_
 
-## 參數
+## Parameters
 
 _x_
 
-指定一個水平位置來捲動列。
+Specifies a horizontal position to scroll to in columns.
 
 _y_
 
-指定一個垂直位置來捲動行。
+Specifies a vertical position to scroll to in lines.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

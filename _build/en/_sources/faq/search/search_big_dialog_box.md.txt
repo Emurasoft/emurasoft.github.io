@@ -1,7 +1,7 @@
-# Q. 查找/替換對話方塊太大了。
+# Q. Why is the Find/Replace dialog box so big?
 
-您可以把鼠標指針移到查找/替換對話方塊的右下角來調整該對話方塊的大小。
+The Find/Replace dialog box allows resizing by dragging the right bottom corner with the mouse.
 
-## 請同樣參考
+## See Also
 
-[如何使用規則運算式](../../howto/search/search_regexp)
+[To Use Regular Expressions](../../howto/search/search_regexp)

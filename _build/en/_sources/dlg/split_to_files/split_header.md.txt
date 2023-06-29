@@ -1,15 +1,15 @@
-# 「頁首和頁尾」頁面
+# Header and footer page
 
-這個頁面讓您指定一個頁首或尾頁，并把它添加到分割后的檔案中。T
+This page allows you to specify a header or footer which you can add to each split file.
 
-### 「頁首」核取方塊/文字方塊
+### Header text box
 
-指定要在每個分割后的檔案頂部附加的頁首。
+Specifies the header to be appended at the top of each split file.
 
-### 「頁尾」核取方塊/文字方塊
+### Footer text box
 
-指定要在每個分割后的檔案底部附加的頁尾。
+Specifies the footer to be appended at the bottom of each split file.
 
-### 「把第一行作為頁首重複」核取方塊
+### Repeat the first line as header check box
 
-指定文檔的第一行作為頁首在每頁頂端時重複。
+Specifies the first line of the document is repeated as the header of each split file.

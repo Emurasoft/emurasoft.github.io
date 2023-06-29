@@ -1,6 +1,7 @@
-# Enabled 屬性
+# Enabled Property
 
-與組態屬性中 [**自動儲存** 頁面](../../dlg/properties/autosave/index) 上的 **自動儲存** 核取方塊對應。
+Corresponds to the **Auto**
+**Save** check box in the [**Auto Save** page](../../dlg/properties/autosave/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -14,6 +15,6 @@ _b_ = object. **Enabled**
 
 object. **Enabled** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

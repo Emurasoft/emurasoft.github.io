@@ -1,8 +1,9 @@
 # EE\_GET\_SCROLL\_POS
 
-檢索滾動條的當前光標位置。您能明確地發送該消息或用
+Retrieves the current positions of the scroll bars. You can send this message
+explicitly or use the
 [Editor\_GetScrollPos](../macro/editor_getscrollpos)
-內嵌函式。
+inline function.
 
 EE\_GET\_SCROLL\_POS
 
@@ -10,12 +11,12 @@ wParam = 0;
 
 lParam = (LPARAM) (POINT\_PTR\*) pptPos;
 
-## 參數
+## Parameters
 
 _pptPos_
 
-> 指針指向一個會接收滾動條位置的 [POINT\_PTR 結構](../structure/point_ptr)。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the scroll bar positions.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

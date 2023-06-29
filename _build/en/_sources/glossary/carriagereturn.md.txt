@@ -1,3 +1,4 @@
-# 歸位
+# Carriage Return
 
-一個 ASCII 字元指示顯示設備 (顯示器，印表機等等) 來把游標移動到下一行的開始位置處。
+An ASCII character which instructs the display peripheral (monitors,
+printers, etc.) to move the cursor to the beginning of the next line.

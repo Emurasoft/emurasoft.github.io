@@ -1,6 +1,6 @@
-# Save 方法
+# Save Method
 
-保存文檔。
+Saves the document.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,12 @@ document. **Save**( \[ _strName_ \] );
 
 document. **Save** \[ _strName_ \]
 
-## 參數
+## Parameters
 
 _strName_
 
-可選項。指定要保存的檔案的完整路徑名稱。如果被省略，會顯示 **另存為** 對話方塊。
+Optional. Specifies the full path name of the files to be saved. If omitted, the **Save As** dialog box will appear.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

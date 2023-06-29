@@ -1,6 +1,6 @@
-# Mode 屬性
+# Mode Property
 
-設置或檢索表示選取模式的標志。
+Sets or retrieves a flag indicating the selection mode.
 
 #### \[JavaScript\]
 
@@ -14,24 +14,26 @@ _nMode_ = document.selection. **Mode**
 
 document.selection. **Mode** = _nMode_
 
-## 參數
+## Parameters
 
 _nMode_
 
-指定一個下列值的組合: 但是，eeModeStream，eeModeLine，以及 eeModeBox
-不能聯合使用。只有 eeModeKeyboard 可以與 eeModeStream，eeModeLine，或
-eeModeBox 聯合使用。當設定屬性時，eeModeSelected 會被忽略。
+Specifies a combination of the following values: However, eeModeStream, eeModeLine,
+and eeModeBox
+cannot be combined. Only eeModeKeyboard can be combined with eeModeStream, eeModeLine,
+or
+eeModeBox.  When setting the property, eeModeSelected will be ignored.
 
 |     |     |
 | --- | --- |
-| eeModeStream | 流選擇模式。 |
-| eeModeLine | 行選擇模式。 |
-| eeModeBox | 垂直選擇模式。 |
-| eeModeMask | 一個來檢查選擇模式的掩碼。不能設置屬性。要檢查 Mode 屬性，用一個 AND 運算符并用eeModeStream，eeModeLine，和 eeModeBox 比較結果。 |
-| eeModeKeyboard | 指定鍵盤選擇模式。這個值能與另一個值進行組合。 |
-| eeModeSelected | 選定內容不是空的。僅當檢索屬性時有效。 |
+| eeModeStream | Stream selection mode. |
+| eeModeLine | Line selection mode. |
+| eeModeBox | Vertical selection mode. |
+| eeModeMask | A mask to inspect the selection mode. Cannot use to set the property. To <br> inspect the Mode Property, use an AND operator and compare the result with <br> eeModeStream, eeModeLine, and eeModeBox. |
+| eeModeKeyboard | Specifies the keyboard selection mode. This value can be combined with <br> another value. |
+| eeModeSelected | Selection is not empty. Valid only when retrieving the property. |
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -88,6 +90,7 @@ alert "And also the keyboard selection mode."
 
 End If
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。EmEditor 5.00 或之後的版本支持 eeModeSelected，而且這個屬性會返回選擇模式即使選定內容為空。
+Supported on EmEditor Professional Version 4.00 or later. However, EmEditor Professional Version 5.00 or later supports eeModeSelected, and this property returns selection mode even when the
+selection is empty.

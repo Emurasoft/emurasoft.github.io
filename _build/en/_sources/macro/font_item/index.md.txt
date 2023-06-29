@@ -1,18 +1,18 @@
-# FontItem 對象
+# FontItem Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [Bold](bold) | True 如果字型的格式被設置為粗體。 |
-| [Italic](italic) | True 如果字型的格式被設置為斜體。 |
-| [Name](name) | 指定對象的名稱。 |
-| [Script](script) | 指定字型的指令碼。 |
-| [Size](size) | 用點數(pt)指定字型大小。 |
+| [Bold](bold) | True if the font is formatted as Bold. |
+| [Italic](italic) | True if the font is formatted as Italic. |
+| [Name](name) | Specifies the name of the object. |
+| [Script](script) | Specifies the script of the font. |
+| [Size](size) | Specifies the font size in points. |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

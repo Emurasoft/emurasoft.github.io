@@ -1,6 +1,7 @@
-# NameUntitled 屬性
+# NameUntitled Property
 
-與 [**儲存詳細信息** 對話方塊](../../dlg/properties/file/save_details/index) 中的 **自動為無標題文檔命名** 核取方塊相對應。
+Corresponds to the **Automatically Name Untitled Document** check box in the
+[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ object. **NameUntitled**
 
 object. **NameUntitled** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

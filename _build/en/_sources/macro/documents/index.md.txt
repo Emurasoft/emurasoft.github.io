@@ -1,15 +1,15 @@
-# Documents 集合
+# Documents Collection
 
-Documents 集合在一個框架視窗中提供文檔對象的集合。
+Documents collection provides a collection of document objects in a frame window.
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| **[Count](documents_count)** | 檢索文檔的數目。 |
-| **[Item](documents_item)** | 為指定索引的文檔檢索文檔對象。 |
+| **[Count](documents_count)** | Retrieves the number of documents. |
+| **[Item](documents_item)** | Retrieves the document object for the document of the specified index. |
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -31,9 +31,9 @@ alert doc.FullName
 
 Next
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.
 
 ```{toctree}
 :maxdepth: 1

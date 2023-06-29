@@ -1,7 +1,8 @@
 # EE\_GET\_CMD\_ID
 
-獲得外掛程式命令 ID。您能明確地發送該消息或用 [Editor\_GetCmdID](../macro/editor_getcmdid)
-內嵌函式。
+Obtains the Plug-in command ID. You can send this message explicitly or by
+using the [Editor\_GetCmdID](../macro/editor_getcmdid)
+inline function.
 
 EE\_GET\_CMD\_ID
 
@@ -9,12 +10,12 @@ wParam = 0;
 
 lParam = (LPARAM) (HINSTANCE) hInstance
 
-## 參數
+## Parameters
 
 _hInstance_
 
-> 指定外掛程式的實例句柄。
+> Specifies the Plug-in instance handle.
 
-## 返回值
+## Return Values
 
-> 返回命令 ID 來運行該外掛程式。
+> Returns command ID to run this Plug-in.

@@ -1,8 +1,9 @@
 # EE\_SET\_CONFIGA
 
-變更為一個用 ANSI 字符串指定的配置。您能明確地發送該消息或用
+Changes to a configuration specified by an ANSI string. You can send this
+message explicitly or use the
 [Editor\_SetConfigA](../macro/editor_setconfiga)
-內嵌函式。
+inline function.
 
 EE\_SET\_CONFIGA
 
@@ -10,12 +11,12 @@ wParam = 0;
 
 lParam = (LPARAM) (LPCSTR) szConfigName;
 
-## 參數
+## Parameters
 
 _szConfigName_
 
-> 用 ANSI 字符串指定一個配置。
+> Specifies a configuration by an ANSI string.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

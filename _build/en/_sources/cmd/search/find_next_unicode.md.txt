@@ -1,35 +1,46 @@
-# 尋找下一個警告/Unicode 字元命令
+# Find Next Warning Character/Unicode command
 
-### 摘要
+### Summary
 
-> 尋找下一個無法轉換為要儲存的編碼的警告或 Unicode 字元。
+> Finds the next warning or Unicode character that cannot be converted to the encoding for saving.
 
-### 說明
+### Description
 
-> 通過選取字元，尋找下一個無法轉換為要儲存的編碼的 Unicode 字元。如果不能被轉換的 Unicode 字元沒有亮顯，這個命令會亮顯該字元。亮顯的顏色可以在當前組態屬性對話方塊中 [**顯示** 頁面](../../dlg/properties/display/index) 上的 **指定部分** 清單方塊下的 **亮顯 (8)** 設定。
+> Finds the next Unicode character that cannot be converted to the encoding for
+> saving, by selecting the character. If the Unicode character which cannot
+> be converted is not highlighted, this command
+> will highlight it. The highlight color will be the color specified by
+> **Highlight (8)** under the
+> **Specify Part** list box on the
+> [**Display** page](../../dlg/properties/display/index) of
+> the Current Configuration Properties dialog box.
 >
-> 要用來儲存檔案的編碼有下面的幾個條件決定:
-> 要用來儲存檔案的編碼有下面的幾個條件決定:
+> The encoding used to save the file will be determined as follows:
 >
-> 如果有這樣的提示消息 "該文檔包含 Unicode 格式的字元。如果您使用選定的編碼儲存該文檔，那么該文檔中的部分字元將會丟失。要保留 Unicode 信息，請點擊「取消」，選擇「另存新檔」，然后在編碼下拉清單中選擇一個 Unicode 選項。要繼續嗎？" 出現，檔案將會用您指定的編碼儲存當您儲存檔案的時候。
+> If the prompt
+> message "This document contains characters in Unicode format which will
+> be lost if you save this document as the selected encoding for saving. To
+> keep the Unicode information, click Cancel below, select Save As, and then
+> select one of the Unicode options from the Encoding drop-down list box.
+> "Continue?" appears, the file will
+> be saved using the encoding you specified when trying to save the file.
 >
-> 在您選擇 [**取消 Unicode 亮顯** 命令](erase_unicode_hilite) 之後，用來儲存檔案的編碼就是狀態列中顯示的編碼。
+> After you select the [**Erase Unicode Highlight** command](erase_unicode_hilite), the encoding used to save the
+> file will be the encoding displayed in the status bar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **搜尋**
-\> **尋找下一個警告/Unicode 字元**
-- [全部命令](../tools/all_commands): **搜尋**
-\> **尋找下一個警告/Unicode 字元**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: F9
+- Default Menu: **Search** \> **Find Next Warning Character/Unicode**
+- [All Commands](../tools/all_commands): **Search** \> **Unicode** \> **Find Next Warning Character/Unicode**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: F9
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FIND\_NEXT\_UNICODE (4375)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

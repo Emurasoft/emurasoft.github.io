@@ -1,26 +1,26 @@
-# 設置書籤命令
+# Set Bookmark command
 
-### 摘要
+### Summary
 
-> 設置書籤在目前的行設置書籤。
+> Sets a bookmark on the current line.
 
-### 說明
+### Description
 
-> 設置書籤在目前的行設置書籤。
+> Sets a bookmark on the current line.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): 無
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Set Bookmark**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_BOOKMARK\_SET (4353)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

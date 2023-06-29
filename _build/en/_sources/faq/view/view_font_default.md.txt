@@ -1,4 +1,12 @@
-# Q. 當我用預設設置打開一個檔案時，檔案變為不可讀；如果我從「檢視」下的「字型分類」選項中選擇另一個字元集，檔案看起來更糟糕。但是，如果我在打開檔案時選擇一個合適的編碼，檔案則能正常顯示。這是怎么一回事？
+# Q. When I open a file using the default settings, it becomes unreadable, and if I choose another character set from the Font Category sub menu under the View menu, it becomes worse. But if I select a proper encoding when I open the file, it works. Why?
 
-EmEditor 的內部處理編碼是 Unicode。當您打開一個 ANSI 檔案時，EmEditor 可以把 ANSI 文字轉換為 Unicode 文字。當您要打開一個檔案時，應該在 **「打開」** 對話方塊中選擇一個編碼。如果您不選擇編碼，EmEditor 會用 [系統預設編碼](../../glossary/systemdefaultencoding) 來打開檔案。
-所以，要用一個不同的編碼來打開檔案，您需要指定打開該檔案的編碼。您可以在打開檔案之後更改編碼，到 **檔案** 功能表下選擇 [**重新載入** 命令](../../cmd/file/file_reload_defined)，然后指定一個不同的編碼。
+EmEditor's internal processing is Unicode. EmEditor
+converts ANSI text to Unicode text when you open an ANSI file. When opening a
+file, you should select an encoding in
+the **Open dialog** box. If you don't select an encoding, EmEditor defaults
+the file to the
+[system default encoding](../../glossary/systemdefaultencoding).
+In order to open a file with a different encoding, you need to select the
+desired encoding when you open the file. You can later change the encoding by
+choosing the [**Reload** \
+command](../../cmd/file/file_reload_defined) under the **File** menu and selecting a different encoding option.

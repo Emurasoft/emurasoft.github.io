@@ -1,27 +1,27 @@
-# 向右延伸到單字末尾命令
+# Word End Right Extend command
 
-### 摘要
+### Summary
 
-> 向右延伸選區到單字的末尾。
+> Extends the selection right to the end of the word.
 
-### 說明
+### Description
 
-> 向右延伸選區到單字的末尾。
+> Extends the selection right to the end of the word.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **延伸選區**
-\> **向右延伸到單字末尾**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: CTRL+SHIFT+向右鍵
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Word End Right Extend**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+SHIFT+RIGHT ARROW
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SHIFT\_RIGHT\_WORD\_END (4031)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

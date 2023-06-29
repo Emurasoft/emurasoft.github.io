@@ -1,3 +1,4 @@
-# Q. 怎么在游標處顯示下劃線？
+# Q. How can I display an underline at the cursor position?
 
-到 **目前的組態屬性** 對話方塊中的 [**捲動** 頁面](../../dlg/properties/scroll/index) 上，勾選 **「水平線」**。
+On the [**Scroll** page](../../dlg/properties/scroll/index)
+in the **Current Configuration Properties** dialog box, check **Horizontal Line**.

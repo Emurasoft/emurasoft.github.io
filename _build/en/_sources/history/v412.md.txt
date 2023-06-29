@@ -1,5 +1,5 @@
 # Version 4.12
 
-2005年2月9日
+February 9, 2005
 
-- 修復了當在「使用臨時選項運行巨集」對話方塊中設定重複次數多于 240 次時，EmEditor 故障的 bug。
+- Fixed a bug that EmEditor could crash if Repeat Count was set as more than 240 times in the Macro Temporary Options dialog box.

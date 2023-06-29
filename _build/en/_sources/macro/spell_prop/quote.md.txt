@@ -1,6 +1,7 @@
-# Quote 屬性
+# Quote Property
 
-與組態屬性中 [**拼字檢查** 頁面](../../dlg/properties/spell/index) 上的 **引用行** 核取方塊相對應。
+Corresponds to the **Quoted Lines** check box in the
+[**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ object. **Quote**
 
 object. **Quote** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 10.00 或之後的版本。
+Supported on EmEditor Professional Version 10.00 or later.

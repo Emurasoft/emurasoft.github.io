@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>코드조각 플러그인 이용하기 &#8212; EmEditor  문서</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="색인" href="../../genindex.htm" />
+    <link rel="search" title="검색" href="../../search.htm" />
+    <link rel="next" title="플러그인 제거하기" href="plugin_uninstall.htm" />
+    <link rel="prev" title="플러그인 검색 이용하기" href="plugin_search.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  문서</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+                    한국어
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/howto/plugin/plugin_snippets">English</a>
+                <a href="/emeditor-help/ja/howto/plugin/plugin_snippets">日本語</a>
+                <a href="/emeditor-help/ko/howto/plugin/plugin_snippets">한국어</a>
+                <a href="/emeditor-help/zh-cn/howto/plugin/plugin_snippets">简体中文</a>
+                <a href="/emeditor-help/zh-tw/howto/plugin/plugin_snippets">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">빠른 검색</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="이동" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.htm">명령 참조</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.htm">대화 상자</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">자주 묻는 질문</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">기능</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">용어집</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">기록</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">이용 방법</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.htm">사용자 지정</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.htm">편집</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file/index.htm">파일</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../macro/index.htm">매크로</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.htm">플러그인</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="plugin_develop.htm">플러그인 개발하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_explorer.htm">탐색기 플러그인 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_findbar.htm">찾기 모음 플러그인 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_htmlbar.htm">엠에디터 Home - <span class="xref myst">엠에디터 도움말</span> - <span class="xref myst">방법</span> - <span class="xref myst">플러그인</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_htmlbar.htm#htmlbar">HTMLBar 플러그인 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_install.htm">플러그인 설치하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_opendocuments.htm">문서 열기 플러그인</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_outlinetext.htm">윤곽 플러그인을 사용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_projects.htm">프로젝트 플러그인을 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_prop.htm">플러그인 속성 바꾸기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_search.htm">플러그인 검색 이용하기</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">코드조각 플러그인 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_uninstall.htm">플러그인 제거하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_webpreview.htm">웹 미리보기 플러그인 사용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_wordcomplete.htm">단어 완성 플러그인을 이용하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugin_wordcount.htm">단어 개수 플러그인 이용하기</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.htm">찾기</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.htm">보기</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.htm">창</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">링크</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">매크로 참조</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">알림</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.htm">플러그 인 참조</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">구매 방법</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">지원</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">이용 방법</a> &lt;
+                    <a href="index.htm">플러그인</a> &lt;
+                코드조각 플러그인 이용하기
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>코드조각 플러그인 이용하기<a class="headerlink" href="#id1" title="이 제목에 대한 퍼머링크">¶</a></h1>
+<p><strong>코드조각</strong> 플러그인은 엠에디터 Professional의 초기값으로 설치됩니다.
+이 플러그인으로 단어 혹은 구를 빠르게 삽입할 수 있습니다.
+코드조각은 문서에 삽입한 텍스트의 일부분이며, 텍스트를 변형하고 다양한 기본 제공과 사용자 정의 매개변수를 위해서
+일반 텍스트, 자리표시자, 셸코드, 매크로 혹은 정규식이 될 수도 있습니다.
+코드조각 플러그인에서, 두가지 항목을 만들 수 있습니다 - 코드조각 그리고 매크로 입니다.</p>
+<p><strong>코드조각</strong> 플러그인을 이용하기 위해서, <strong>플러그인</strong> 바에 있는
+<strong><img alt="snippets" src="../../_images/plugin_snippets.gif" /></strong> 를 클릭하십시오.
+혹은 <strong>도구</strong> 메뉴에서 <strong>플러그인</strong> 을 가리킨 다음, <strong>코드조각</strong> 을 클릭해 주십시오.
+<strong>코드조각</strong> 사용자 지정 바가 나타날 것입니다.</p>
+<p>코드조각 모음에서 오른쪽 클릭을 하면 다음의 옵션들이 나타납니다:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>삽입</p></td>
+<td><p>선택된 코드조각을 삽입합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>편집</p></td>
+<td><p>선택된 코드조각을 편집합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>코드조각 선택</p></td>
+<td><p>삽입하려는 코드조각을 선택하기 위한 문자를 어디에 입력할 수 있는지를 알려주는 대화 상자가 디스플레이 됩니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>새 코드조각</p></td>
+<td><p>새로운 코드조각을 만듭니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>새 매크로</p></td>
+<td><p>새로운 매크로를 만듭니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>새 폴더</p></td>
+<td><p>새로운 폴더를 만듭니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>위로 이동</p></td>
+<td><p>선택된 코드조각을 목록의 위로 이동합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>아래로 이동</p></td>
+<td><p>선택된 코드조각을 목록의 아래로 이동합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>삭제</p></td>
+<td><p>선택된 코드조각을 삭제합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>모두 삭제</p></td>
+<td><p>모든 코드조각을 삭제합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>이 폴더로 가져오기</p></td>
+<td><p>이 폴더로 코드조각을 가져옵니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>루트로 가져오기</p></td>
+<td><p>루트 폴더로 코드조각을 가져옵니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>이 폴더 보내기</p></td>
+<td><p>이 폴더의 모든 코드조각을 지정된 곳으로 보냅니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>모두 보내기</p></td>
+<td><p>모든 코드조각을 지정된 곳으로 보냅니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>모두 초기화 (초기값 가져오기)</p></td>
+<td><p>모든 코드조각을 초기화하고 코드조각 목록의 초기값을 가져옵니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>트리거 키</p></td>
+<td><p>트리거 키를 보이거나 숨깁니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>구성</p></td>
+<td><p>구성을 보이거나 숨깁니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>플러그인 속성</p></td>
+<td><p>플러그인 속성을 디스플레이 합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>이름</p></td>
+<td><p>이름별로 정렬합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>유형</p></td>
+<td><p>유형으로 정렬합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>텍스트</p></td>
+<td><p>텍스트별로 정렬합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>팁</p></td>
+<td><p>팁으로 정렬합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>트리거</p></td>
+<td><p>트리거로 정렬합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>오름차순 정렬</p></td>
+<td><p>오름차순으로 정렬합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>내림차순 정렬</p></td>
+<td><p>내림차순으로 정렬합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>자동 정렬</p></td>
+<td><p>코드조각을 자동으로 정렬합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>속성</p></td>
+<td><p>선택된 코드조각 혹은 코드조각 폴더의 속성을 디스플레이 합니다.</p></td>
+</tr>
+</tbody>
+</table>
+<section id="id2">
+<h2>코드조각 플러그인 속성<a class="headerlink" href="#id2" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<p>코드조각 플러그인의 속성을 조정하기 위해서, 플러그인 바의 코드조각 플러그인 버튼을 오른쪽 클릭하고 속성을 선택합니다.</p>
+<section id="id3">
+<h3>일반 탭<a class="headerlink" href="#id3" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>사용자 지정 모음 위치</p></td>
+<td><p>사용자 지정 바 위치 설정합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>배경에서 실행</p></td>
+<td><p>코드조각 사용자 지정 바를 닫더라도, 코드조각이 작동하도록 합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>초기 바로가기 키</p></td>
+<td><p>초기 바로가기 키를 지정합니다; 처음 초기 바로가기 키는 TAB 입니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>자세한 표시 수준</p></td>
+<td><p>팁의 주파수를 조정합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>지연 시간</p></td>
+<td><p>팁이 나타나기 전에 지연 시간을 조정합니다.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id4">
+<h3>글로벌 매개변수 탭<a class="headerlink" href="#id4" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>추가</p></td>
+<td><p>매개변수를 추가하고 그것의 값을 지정합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>삭제</p></td>
+<td><p>매개변수를 삭제합니다.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id5">
+<h3>키보드 탭<a class="headerlink" href="#id5" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>명령</p></td>
+<td><p>사용 가능한 명령의 목록. (팝업 메뉴 혹은 코드조각 선택)</p></td>
+</tr>
+<tr class="row-odd"><td><p>새 바로가기 키 누르기</p></td>
+<td><p>선택된 명령을 위해서 바로가기 키를 입력할 수 있습니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>현재 키</p></td>
+<td><p>현재 키를 선택된 명령에 지정합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>설명</p></td>
+<td><p>선택된 명령을 위한 설명을 제공합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>버튼 지정</p></td>
+<td><p>현재 선택된 명령에 바로가기 키를 지정합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>버튼 삭제</p></td>
+<td><p>현재 선택된 바로가기 키를 삭제합니다.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="id6">
+<h2>코드조각 폴더 속성<a class="headerlink" href="#id6" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<p>코드조각 폴더의 각각의 속성을 조정하기 위해서, 코드조각 사용자 지정 바에서 오른쪽 클릭을 한 후에 속성을 선택합니다.</p>
+<section id="id7">
+<h3>일반 탭<a class="headerlink" href="#id7" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>이름</p></td>
+<td><p>코드조각 폴더의 이름을 지정합니다.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id8">
+<h3>구성 탭<a class="headerlink" href="#id8" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>다음의 구성에서 자동 완성 만</p></td>
+<td><p>어떤 구성이 자동 완성될지 지정합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>코드조각</p></td>
+<td><p>코드조각을 위해서 구성 설정합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>매크로</p></td>
+<td><p>매크로를 위해서 편집하기 위한 구성을 설정합니다.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="id9">
+<h2>코드조각 속성<a class="headerlink" href="#id9" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<p>코드조각의 각각의 속성을 조정하기 위해서, 코드조각 사용자 지정 바의 코드조각을 오른쪽 클릭하고 속성을 선택합니다.</p>
+<section id="id10">
+<h3>일반 탭<a class="headerlink" href="#id10" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>이름</p></td>
+<td><p>코드조각 폴더의 이름을 지정합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>트리거</p></td>
+<td><p>코드조각을 위해서 트리거를 지정합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>바로가기</p></td>
+<td><p>코드조각을 위한 바로가기를 지정합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>팁</p></td>
+<td><p>코드조각을 위한 팁을 지정합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>유형</p></td>
+<td><p>유형을 지정합니다. (코드조각 혹은 매크로)</p></td>
+</tr>
+<tr class="row-odd"><td><p>텍스트</p></td>
+<td><p>코드조각의 텍스트를 지정합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>편집</p></td>
+<td><p>엠에디터 창에서 코드조각을 편집할 수 있습니다.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id11">
+<h3>구성 탭<a class="headerlink" href="#id11" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>다음의 구성으로 자동완성만</p></td>
+<td><p>자동 완성을 하려는 구성을 지정합니다.</p></td>
+</tr>
+<tr class="row-odd"><td><p>코드조각</p></td>
+<td><p>코드조각으로 편집하려는 구성을 설정합니다.</p></td>
+</tr>
+<tr class="row-even"><td><p>매크로</p></td>
+<td><p>매크로를 위해서 편집하고자 하는 구성을 설정합니다.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="id12">
+<h2>코드조각 구문<a class="headerlink" href="#id12" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<section id="id13">
+<h3>일반 텍스트<a class="headerlink" href="#id13" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<p>당신의 문서에 삽입하고자 하는 일반 텍스트를 포함할 수 있습니다. 일반 텍스트를 작성하기 위해서, 대부분의 문자가 이용될 수 있습니다. 하지만, \, <span class="math notranslate nohighlight">\(, 혹은 \`과 같은 문자를 일반 텍스트에 삽입하고자 한다면, \\\, \\\)</span>, 그리고 `로 이스케이프 하셔야 합니다.</p>
+</section>
+<section id="id14">
+<h3>자리표시자<a class="headerlink" href="#id14" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<p>코드조각을 삽입한 후에, 커서 위치는 자리표시자 사이를 점프하게 되며, TAB키를 눌러서 다음 자리표시자로 이동할 수 있습니다.</p>
+<p>초기값이 코드조각이 삽입되었을 때 초기값으로 처음 나타나게 되면,코드조각을 <span class="math notranslate nohighlight">\({n:default}으로 이 탭 스탑을 정의할 수 있습니다. 초기값이 없다면, {}을 생략해서 탭 정지가 n이 0에서 9사이인 정수인 \)</span>n로 나타나게 됩니다. 사용자가 코드조각을 삽입할 때, 처음 커스 위치는 <span class="math notranslate nohighlight">\(1이며, TAB을 누르면 다음의 자리표시자 \)</span>2, <span class="math notranslate nohighlight">\(3, ...가 있는 탭 정지로 이동하게 됩니다. 마지막 냅 정지는 \)</span>0입니다.</p>
+<p>예를 들어, 다음의 코드조각은 HTML에 하이퍼링크를 삽입하며, 첫번째 커서 위치는 <span class="math notranslate nohighlight">\(1입니다. 커서가 \)</span>1에 있을 때, 사용자가 TAB키를 누르면 커서는 <span class="math notranslate nohighlight">\(2로 점프하며 그 후에는 \)</span>0으로 점프하게 됩니다.</p>
+<p><a target="$1" href="$2">$0</a></p>
+<p>코드조각은 초기값을 포함할 수 있습니다. 다음의 코드조각은 초기값으로 하이퍼링크를 삽입할 수 있습니다.</p>
+<p><a target="${1:\_blank}" href="${2:url}">$0</a></p>
+<p>자리표시자에서 자리표시자를 포함할 수 있습니다. 다음의 코드조각은 선택된 타겟 매개변수로 하이퍼링크 태그를 삽입합니다. 사용자는 인수를 덮어쓰기 할 지, 삭제할지, 다음 TAB키를 입력해서 다음 자리표시자로 이동할지를 결정할 수 있습니다.</p>
+<p>&lt;a <span class="math notranslate nohighlight">\({1: target=&quot;\)</span>{2:_blank}“} href=”<span class="math notranslate nohighlight">\({3:url}&quot;&gt;\)</span>0</a></p>
+</section>
+<section id="id15">
+<h3>반전<a class="headerlink" href="#id15" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<p>만일 같은 자리표시자 인텍스를 사용한다면, 자리표시자의 모든 값은 같거나 반전됩니다. 다음의 코드조각은 “for” 반복을 삽입합니다. 이 경우, i 값은 자리표시자 <span class="math notranslate nohighlight">\(2의 초기값이며, 같은 색인의 자리표시자는 두개의 다른 장소에서 사용됩니다. 커서가 \)</span>{2:i}일 경우, i의 값을 바꾸는 것은 다른 자리표시자로 반전이 됩니다.</p>
+<p>for( <span class="math notranslate nohighlight">\({1:int} \)</span>{2:i} = <span class="math notranslate nohighlight">\({3:0}; \)</span>2 != <span class="math notranslate nohighlight">\({4:10}; \)</span>2++ ){</p>
+<p>$0</p>
+<p>}</p>
+</section>
+<section id="id16">
+<h3>변형<a class="headerlink" href="#id16" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<p>정규식과 바꾸기 형식을 이용해서 하나의 자리표시자의 값을 다른것으로 바꿀 수 있습니다. 구문은 다음과 같습니다: ${n/regexp/replace_format/option} 다음으로 자세히 설명됩니다:</p>
+<p>n: 자리표시자의 색인</p>
+<p>regexp: 찾고자 하는 정규식</p>
+<p>replace_format: 바꾸기 형식</p>
+<p>옵션:</p>
+<p><strong>i</strong> : 대/소문자 무시가히</p>
+<p><strong>g</strong> : 글로벌 옵션</p>
+<p>다음의 예문은 첫번째 줄에 입력된 문자(처음 문자가 대문자인것을 제외하고)를 두번째 줄로 복사합니다.</p>
+<p>$1</p>
+<p>${1/./\U\0/}</p>
+</section>
+<section id="id17">
+<h3>미리 정의된 매개변수:<a class="headerlink" href="#id17" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<p>$1 자리표시자 1</p>
+<p>$2 자리표시자 2</p>
+<p>$3 자리표시자 3</p>
+<p>$4 자리표시자 4</p>
+<p>$5 자리표시자 5</p>
+<p>…</p>
+<p>$9 자리표시자 9</p>
+<p>$0 마지막 자리표시자</p>
+<p>${n:default} 초기 텍스트로된 자리표시자 n</p>
+<p>${Path} 파일의 전체 경로 이름</p>
+<p>${Dir} 현재 파일의 디렉터리 이름</p>
+<p>${파일name} 확장을 제외한 파일 이름</p>
+<p>${파일nameEx} 확장이 있는 파일 이름</p>
+<p>${Ext} 파일 이름 확장</p>
+<p>${LineText} 커서 위치에 줄</p>
+<p>${WordText} 커서 위치에 단어</p>
+<p>${SelText} 선택된 텍스트</p>
+<p>${CurCol} 커서의 논리적 열 번호</p>
+<p>${CurLine} 커서의 논리적 줄 번호</p>
+<p>${Date} 오늘 날짜</p>
+<p>${Time} 현재 시간</p>
+<p>${Charset} 문자 집합 (HTML 메타 테그에서 이용되는)</p>
+<p>${TabSize} 탭 크기</p>
+<p>${IndentSize} 들여쓰기 크기</p>
+<p>${AutoIndent} 자동 들여쓰기 켜기는 1, 끄기는 0.</p>
+<p>${UseSpacesForTabs} 만일 “텝을 위해 스페이스 사용; 이 켜기는 1, 끄기는 0</p>
+<p>${AppVersion} 엠에디터의 버전</p>
+<p>${PluginVersion} 코드조각 플러그인의 버전</p>
+<p><span class="math notranslate nohighlight">\({TM\_fileNAME}는 다음과 같음: \)</span>{filenameEx}.</p>
+<p><span class="math notranslate nohighlight">\({TM\_CURRENT\_LINE}는 다음과 같음: \)</span>{LineText}.</p>
+<p><span class="math notranslate nohighlight">\({TM\_CURRENT\_WORD}는 다음과 같음: \)</span>{WordText}.</p>
+<p><span class="math notranslate nohighlight">\({TM\_DIRECTORY}는 다음과 같음: \)</span>{Dir}.</p>
+<p><span class="math notranslate nohighlight">\({TM\_파일PATH}는 다음과 같음: \)</span>{Path}.</p>
+<p><span class="math notranslate nohighlight">\({TM\_LINE\_INDEX}는 다음과 같음: \)</span>{CurCol}.</p>
+<p><span class="math notranslate nohighlight">\({TM\_LINE\_NUMBER}는 다음과 같음: \)</span>{CurLine}.</p>
+<p><span class="math notranslate nohighlight">\({TM\_SELECTED\_TEXT}는 다음과 같음: \)</span>{SelText}.</p>
+<p><span class="math notranslate nohighlight">\({TM\_SOFT\_TABS}는 다음과 같음: \)</span>{UseSpacesForTabs}.</p>
+<p><span class="math notranslate nohighlight">\({TM\_TAB\_SIZE}는 다음과 같음: \)</span>{TabSize}.</p>
+<p>${PickFullPath,title,filter} 선택된 파일의 전체 경로 이름. 제목은 대화 상자의 제목이며, 필터는 이 형식의 파일 필터: Text files|*.txt|All files|*.*||</p>
+<p>${PickRelativePath,title,filter} 선택된 파일의 관련된 경로 이름. 제목은 대화상자의 제목이며, 필터는 형식의 파일 형식: Text files|*.txt|All files|*.*||</p>
+<p>${PickColor} 선택된 색상의 RGB 값</p>
+<p>${DefColor} 최근에 선택된 색상의 RGB 값</p>
+<p>${parameter_name} parameter_name이 위의 목록에 미리 정의되어 있지 않을 때, 매개변수를 따로 만들 수 있습니다. 매개변수의 값이 플러그인 속성의 글로벌 매개변수 탭에 저장될 수 있지 않다면, 새로운 사용자 매개변수가 사용될 때, 대화 상자는 새로운 값을 삽입할 수 있는 곳에 대화상자가 나타납니다.</p>
+</section>
+<section id="id18">
+<h3>셸 코드<a class="headerlink" href="#id18" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<p>콘솔 응용 프로그램을 실행시킬 수 있는 셸 코드를 정의하고 문자열을 표준 입력에 통과시킬 수 있습니다. 콘솔 응용 프로그램의 표준 오차 뿐만이 아니라, 표준 출력도 텍스트 문서의 커서 위치로 다시 리디렉션할 수 있습니다.셸 코드는 반드시 다음의 형식으로 지정되어야 합니다:</p>
+<p>`- appname</p>
+<p>stdin1</p>
+<p>stdin2</p>
+<p>…</p>
+<p>`</p>
+<p>만일 결과 문자열이 새로운 줄로 끝난다면, (CR, LF 혹은 CR+LF), 새로운 줄은 삭제될 것입니다. 예를 들어, 다음의 코드조각은 위쪽 문자의 ${이름} 매개변수 내용을 삽입합니다.</p>
+<p>`- powershell -</p>
+<p>prompts for name then echos the hello greeting</p>
+<p>\<span class="math notranslate nohighlight">\(name = &quot;\)</span>{name}”.ToUpper()</p>
+<p>“Hello \$name!”</p>
+<p>exit</p>
+<p>`</p>
+<p>코드조각 매개변수를 구문 분석 하고 싶지 않다면, 다음을 작성할 수 있습니다:</p>
+<p>`!- appname</p>
+<p>stdin1</p>
+<p>stdin2</p>
+<p>…</p>
+<p>`</p>
+<p>만일 명령 확인에서 사용된 명령을 사용하고 싶다면, `#cmd shell_code`이 형식에서 명령 확인 창(cmd.exe)으로 통과된 셸 코드를 정의할 수 있습니다. 지정한 값은 : “%COMSPEC% /c shell_code” 이 형식에서 cmd.exe으로 통과될 수 있습니다. 콘솔 응용 프로그램에서 표준 오차 뿐만 아니라 표준 출력은 텍스트 문서의 커서 위치로 리디렉트 됩니다. 예를 들어, 다음의 코드조각은 현재 폴더 목록을 삽입합니다. 각각의 코드조각에서 포함하고자 하는 코드조각을 얼마든지 포함할 수 있습니다.</p>
+<p>`#cmd DIR`</p>
+</section>
+<section id="macros">
+<h3>Macros<a class="headerlink" href="#macros" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<p>`# ` 형식에 있는 코드조각의 매크로를 포함할 수 있습니다. 첫번째 문자 #는 이것이 셸코드가 아니라 매크로라는것을 알려줍니다. 만일 JavaScript가 아닌 VBScript, PerlScript, PHPScript 혹은 RubyScript와 같은 ActiveScript라면, “#language=”를 이용해서 언어를 정의해야 합니다. 예를 들어, VBScript를 이용고 싶다면, `#language=“VBScript”…`를 작성해야 합니다. <strong>인터페이스</strong> 개체는 코드조각과 엠에디터 매크로 엔진 사이에서 값을 통과시키는데 사용됩니다. 다음의 예는 클립보드의 내용을 커서 위치로 삽입합니다.</p>
+<p>The clipboard contains `# Interface.write( clipboardData.getData(“”) );`.</p>
+<p>Interface.write() 방식은 매크로 결과를 코드조각으로 통과시킵니다. 결과의 마지막에 캐리지 리턴을 추가하고 새로운 줄 (CR+LF)를 추가하는 대신에 Interface.writeln()를 사용할 수도 있습니다. 각각의 코드조각에 포함하고 싶은 매크로를 얼마든지 포함할 수 있습니다.</p>
+</section>
+<section id="id19">
+<h3>초기 값에 포함된 매개변수, 셸코드, 혹은 매크로<a class="headerlink" href="#id19" title="이 제목에 대한 퍼머링크">¶</a></h3>
+<p>자리표시자 초기 값은 매개변수 셸콛, 매크로를 포함할 수 있습니다. 다음의 코드조각은 선택된 것이 있을 때, <p> 과 </p> 사이에서 선택된 텍스트와 <p> 태그를 삽입합니다.</p>
+<p>${0:${SelText}}</p>
+<p>셸 코드와 매크로는 코드와 매크로 안에서 매개변수를 포함합니다. 다음의 코드조각은 사용자가 계속 하기 위해서 ${name} 매개변수를 위한 값을 입력한 곳의 대화 상자를 디스플레이합니다.</p>
+<p>`# var s = “${name}”;</p>
+<p>for( var i = 0; i != 5; i++ ){</p>
+<p>Interface.writeln( s );</p>
+<p>}</p>
+<p>`</p>
+<p>You will need to be careful that all모든 \ 과 ` 그리고 $ 는 \에 의해서 진행될 때, 주의해야만 합니다. 예를들어, 다음의 코드조각은 “C:\Program files\EmEditorquot;를 포함합니다.</p>
+<p>`# Interface.writeln( “C:\\Program files\\EmEditor” ); `</p>
+<p>이것은 백슬래시가 반드시 \로 작성되어야 하기 때문이며, 또한 JavaScript는 백슬레시를 \로 변환십니다. 결과적으로, 백슬레시는 네개의 백슬레시로 변환합니다.(\\)</p>
+<p>만일 백슬래시가 변환되길 원치 않는다면, 어떤 매개변수도 셸코드나 매크로에 포함시킬 필요가 업다면, 느낌표를 코드 앞에 포함할 수 있습니다. 그것은 –셸코드 이고, `!..`로 작성하며, 매크로에서 `!#…`로 작성합니다. 그러므로, 이전의 예는 다음으로 다시 작성될 수 있습니다:</p>
+<p>`!# Interface.writeln( “C:\Program files\EmEditor” ); `</p>
+</section>
+</section>
+<section id="id20">
+<h2>팁<a class="headerlink" href="#id20" title="이 제목에 대한 퍼머링크">¶</a></h2>
+<ul class="simple">
+<li><p><strong>F6</strong> 키 혹은 <strong>ESC</strong> 키를 편집기로 다시 초점을 맞추기 위해 눌러주십시오.</p></li>
+<li><p>사용자 지정 바 위치는 <strong>플러그인</strong> 바에서 <strong>플러그인 버튼</strong> 을 오른쪽 클릭하고 난 후, <strong>속성</strong> 을 선택해서 상위, 하위, 오른쪽, 혹은 왼쪽에 설정될 수 있습니다.</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">코드조각 플러그인 이용하기</a><ul>
+<li><a class="reference internal" href="#id2">코드조각 플러그인 속성</a><ul>
+<li><a class="reference internal" href="#id3">일반 탭</a></li>
+<li><a class="reference internal" href="#id4">글로벌 매개변수 탭</a></li>
+<li><a class="reference internal" href="#id5">키보드 탭</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id6">코드조각 폴더 속성</a><ul>
+<li><a class="reference internal" href="#id7">일반 탭</a></li>
+<li><a class="reference internal" href="#id8">구성 탭</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id9">코드조각 속성</a><ul>
+<li><a class="reference internal" href="#id10">일반 탭</a></li>
+<li><a class="reference internal" href="#id11">구성 탭</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id12">코드조각 구문</a><ul>
+<li><a class="reference internal" href="#id13">일반 텍스트</a></li>
+<li><a class="reference internal" href="#id14">자리표시자</a></li>
+<li><a class="reference internal" href="#id15">반전</a></li>
+<li><a class="reference internal" href="#id16">변형</a></li>
+<li><a class="reference internal" href="#id17">미리 정의된 매개변수:</a></li>
+<li><a class="reference internal" href="#id18">셸 코드</a></li>
+<li><a class="reference internal" href="#macros">Macros</a></li>
+<li><a class="reference internal" href="#id19">초기 값에 포함된 매개변수, 셸코드, 혹은 매크로</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id20">팁</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; 저작권 2023 Emurasoft.
+      <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1 버전으로 생성되었습니다.
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

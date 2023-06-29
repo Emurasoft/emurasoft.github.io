@@ -1,6 +1,6 @@
-# Copy 方法
+# Copy Method
 
-複製選定內容到剪貼簿上。
+Copies the selection to the Clipboard.
 
 #### \[JavaScript\]
 
@@ -10,17 +10,17 @@ document.selection. **Copy**( _nFlags_ );
 
 document.selection. **Copy** _nFlags_
 
-## 參數
+## Parameters
 
 _nFlags_
 
-指定一個下列值的組合:
+Specifies a combination of the following values:
 
 |     |     |
 | --- | --- |
-| eeCopyUnicode | 複製為 Unicode (預設) 。 |
-| eeCopyQuotes | 複製為引用文字。 |
+| eeCopyUnicode | Copies as Unicode (default). |
+| eeCopyQuotes | Copies in quotes. |
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

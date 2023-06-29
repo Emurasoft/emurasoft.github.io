@@ -1,6 +1,6 @@
-# GetText 方法
+# GetText Method
 
-檢索被識別項指定的功能表項目的文字字串。
+Retrieves the text string of the menu item specified by the identifier.
 
 #### \[JavaScript\]
 
@@ -10,12 +10,12 @@ _strText_ = popupmenu. **GetText**( _id_ );
 
 _strText_ = popupmenu. **GetText**( _id_ )
 
-## 參數
+## Parameters
 
 _id_
 
-功能表項目的整數識別項由 [Add 方法](add) 指定。
+The integer identifier of the menu item specified by the [Add Method](add).
 
-## 版本
+## Version
 
-支持 EmEditor 5.00 或之後的版本。
+Supported on EmEditor Professional Version 5.00 or later.

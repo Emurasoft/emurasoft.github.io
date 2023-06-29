@@ -1,27 +1,28 @@
-# 刪除左側字元命令
+# Delete Left Character command
 
-### 摘要
+### Summary
 
-> 刪除選定內容，或刪除游標左側的一個字元。
+> Deletes the selection, or deletes one character at the left of the cursor.
 
-### 說明
+### Description
 
-> 刪除選定文字 (如果有選取的話)，或刪除游標左側的一個字元如果沒有任何文字被選取。
+> Deletes the selected text (if any), or deletes one character to the
+> left of the cursor if no text is selected.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **刪除**
-\> **刪除左側字元**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: Backspace
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Left Character**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: Backspace
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_BACK (4186)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,23 +1,23 @@
-# 「URI 配置」頁面
+# URI Schemes page
 
-**URI 配置** 頁面讓你能自訂與URI 配置有關的設定。
+The **URI Schemes** page allows you to customize URI schemes.
 
-### 「URI 配置」清單方塊
+### URI Schemes list box
 
-顯示可用的URI 配置。
+Shows the list of available URI schemes.
 
-### 「全部啟用/停用」核取方塊
+### Enable/Disable ALL check box
 
-這個核取方塊讓你能啟用或停用清單上所有的條目。
+This check box allows you to enable or disable all items in the list.
 
-### 「添加」按鈕
+### Add button
 
-添加一個條目到清單上。
+Adds an item to the list.
 
-### 「刪除」按鈕
+### Delete button
 
-點擊此按鈕從清單中刪除被選取的條目。
+Deletes the selected item(s) from the list.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

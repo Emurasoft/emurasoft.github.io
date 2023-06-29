@@ -1,6 +1,7 @@
 # EE\_EXTRACT\_FREQUENT
 
-將常用字串抽出到新文檔中。你可以明確地發送該消息或用 [Editor\_ExtractFrequent](../macro/editor_extractfrequent) 內嵌函式。
+Extracts frequently used strings into a new document. You can send this message
+explicitly or use the [Editor\_ExtractFrequent](../macro/editor_extractfrequent) inline function.
 
 EE\_EXTRACT\_FREQUENT
 
@@ -8,16 +9,16 @@ wParam = (WPARAM) (EXTRACT\_FREQUENT\_INFO\*) pInfo;
 
 lParam = 0;
 
-## 參數s
+## Parameters
 
 _pInfo_
 
-> 指針指向 [EXTRACT\_FREQUENT\_INFO 結構](../structure/extract_frequent_info)。
+> Pointer to the [EXTRACT\_FREQUENT\_INFO structure](../structure/extract_frequent_info).
 
-## 返回值
+## Return Values
 
-> 如果發生錯誤，則返回值為負。
+> The return value is negative if an error occurs.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional Version 21.9 或之後的版本。
+> Supported on Version 21.9 or later.

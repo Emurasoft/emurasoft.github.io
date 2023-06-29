@@ -1,7 +1,7 @@
 # EE\_KEYBOARD\_PROP
 
-顯示指定命令 ID 和配置的鍵盤屬性。您能明確地發送該消息或用
-[Editor\_KeyboardProp](../macro/editor_keyboardprop) 內嵌函式。
+Displays the Keyboard Properties for the specified command ID and configuration. You can send this message explicitly or use the
+[Editor\_KeyboardProp](../macro/editor_keyboardprop) inline function.
 
 EE\_KEYBOARD\_PROP
 
@@ -9,16 +9,16 @@ wParam = (WPARAM)(UINT)nCmdID;
 
 lParam = (LPARAM)(LPCWSTR)pszConfigName;
 
-## 參數
+## Parameters
 
 _nCmdID_
 
-> 給鍵盤屬性上的初始選區指定命令 ID。
+> Specifies the command ID for the initial selection on the Keyboard Properties.
 
 _pszConfigName_
 
-> 指定 EmEditor 顯示鍵盤屬性的配置。
+> Specifies the configuration for which EmEditor displays the Keyboard Properties.
 
-## 返回值
+## Return Values
 
-> 如果用戶在配置屬性上選擇 OK，返回值是 TRUE。如果用戶選擇 Cancel，返回值是 FALSE。
+> If the user selects OK on the Configuration Properties, the return value is TRUE. If the user selects Cancel, the return value is FALSE.

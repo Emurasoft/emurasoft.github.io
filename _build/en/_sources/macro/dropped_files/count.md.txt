@@ -1,6 +1,6 @@
-# Count 屬性
+# Count Property
 
-檢索拖放的檔案的數目。
+Retrieves the number of dropped files.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _nCount_ = DroppedFiles. **Count**;
 
 _nCount_ = DroppedFiles. **Count**
 
-## 版本
+## Version
 
-支持 EmEditor 8.00 或之後的版本。
+Supported on EmEditor Professional Version 8.00 or later.

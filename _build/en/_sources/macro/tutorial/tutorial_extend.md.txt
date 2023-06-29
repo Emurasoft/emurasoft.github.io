@@ -1,6 +1,6 @@
-# 變更選取範圍
+# Change Selection Range
 
-要更改選取範圍，添加第六行到我們所示范的巨集中:
+To change Selection Range, add the sixth line to our tutorial macro:
 
 #### \[JavaScript\]
 
@@ -30,29 +30,34 @@
 >
 > document.selection.CharRight True, 9
 
-儲存該巨集并在一個新的 EmEditor 視窗中運行它。注意，"text edit" 部分會如下圖所示被亮顯顯示:
+Save the above macro and run it in a new EmEditor Window. Notice that the "text edit" part is displayed highlighted
+as follows:
 
 text editor.
 
-我們把 _true_ 傳遞到 **CharRight 方法** 的第一個參數中，這樣就變更了游標位置并且改變了選取範圍；您也可以當按住 SHIFT 鍵的同時按右箭頭鍵來進行相同的操作。
+We passed _true_ to the first parameter of the **CharRight Method**, which
+has moved the cursor as well as changed the selection range; pressing the RIGHT
+ARROW key while holding down
+the SHIFT key gives you the same effect.
 
-同樣，許多游標移動方法接收參數來變更選取範圍 (詳見 [移動游標](tutorial_move)) 。
+Similarly, most of the methods for cursor movements receive arguments to change the selection range
+(See [Move Cursor](tutorial_move)).
 
-更多變更選取範圍的可用方法:
-
-|     |     |
-| --- | --- |
-| **[SelectAll](../selection/selection_selectall)** | 選擇整個文字。等同于 CTRL + A 鍵。 |
-| **[SelectLine](../selection/selection_selectline)** | 選擇游標所在處的行。 |
-| **[SelectWord](../selection/selection_selectword)** | 選擇游標位置處的整個單字。 |
-| **[Collapse](../selection/selection_collapse)** | 關閉目前的選項。等同于 ESC 鍵。 |
-
-您能用下列屬性安裝或檢查選取範圍的狀態:
+More methods are available to change the selection range:
 
 |     |     |
 | --- | --- |
-| **[IsActiveEndGreater](../selection/selection_isactiveendgreater)** | 顯示活動點是否與選取範圍的結尾部分符合。 |
-| **[IsEmpty](../selection/selection_isempty)** | 顯示是否選取範圍為空。 |
-| **[Mode](../selection/selection_mode)** | 獲取或安裝選擇類型 (垂直選擇，行選擇等等) 。 |
+| **[SelectAll](../selection/selection_selectall)** | Selects the entire text. Equivalent to the CTRL + A key. |
+| **[SelectLine](../selection/selection_selectline)** | Selects the line in which the cursor is located. |
+| **[SelectWord](../selection/selection_selectword)** | Selects an entire word at the cursor. |
+| **[Collapse](../selection/selection_collapse)** | Turns off the current option. Equivalent to the ESC key. |
 
-## 下一主題:
+You can setup or check the status of the selection range in the following properties:
+
+|     |     |
+| --- | --- |
+| **[IsActiveEndGreater](../selection/selection_isactiveendgreater)** | Shows whether the active point matches the end part of the selection range. |
+| **[IsEmpty](../selection/selection_isempty)** | Shows whether the selection range is empty. |
+| **[Mode](../selection/selection_mode)** | Gets or setup the selection type(vertical selection, line selection etc.). |
+
+## Next Topic:

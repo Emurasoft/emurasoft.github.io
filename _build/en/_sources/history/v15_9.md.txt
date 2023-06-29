@@ -1,49 +1,50 @@
 # Version 15.9
 
-2016年4月19日
+April 19, 2016
 
-## 一般新增功能
+## New General Features
 
-- 添加了新的 **CSV 轉換器**。
-- CSV 轉換命令優化。
-- 添加另一個分隔符到 CSV 文檔的右邊。
-- **剪下欄**， **復制欄**， **貼上**， **刪除欄**， **在左邊插入一欄**，以及 **在右邊插入一欄** 命令被添加到了右擊尺規顯示的快顯功能表上。
-- 添加了 **在上方插入一行** 和 **在下方插入一行** 命令到右擊編輯器左邊緣會顯示的功能表中。
-- 廢棄了復原緩衝區的設定。改用實體記憶體大小來決定復原的信息是否應該保留。實體記憶體閾值可以在 **自訂** 對話方塊的 **進階** 頁面上設置。
-- 新版本讓你能取消目前的命令當復原數據不可用時。
+- The new **CSV Converter** was added.
+- CSV conversion command optimization.
+- Another separator is added to the right side of CSV documents.
+- The **Cut Columns**, **Copy Columns**, **Paste**, **Delete Columns**, **Insert Column Left**, and **Insert Column Right** commands were added to the Ruler menu.
+- The **Insert Line Above** and **Insert Line Below** commands were added to the left edge menu.
+- The settings for Undo buffer is obsolete. Instead, the physical memory size is used to determine whether the Undo should be retained. The physical memory threshold can be set in the Advanced page of the Customize dialog box.
+- The new version allows you to cancel the current command when the Undo data will not be available.
 
-## 新增選項
+## New Options
 
-- 添加了 **預設欄寬** 文字方塊到 **自訂** 對話方塊中的 **CSV** 頁面上。
-- 添加了 **總是丟棄過長的復原信息來加速** 核取方塊到 **自訂** 對話方塊中的 **編輯** 頁面上。
-- 添加了 **最大記憶體大小** 文字方塊到 **自訂** 對話方塊中的 **排序** 頁面上。
+- The **Default column width** text box was added to the **CSV** tab of the **Customize** dialog box.
+- The **Always Discard Lengthy Undo Information to Accelerate** check box was added to the **Edit** tab of the **Customize** dialog box.
+- The **Maximum Memory Size** text box was moved from the **Sort** tab to the **Advanced** tab of the **Customize** dialog box.
 
-## 新增命令
+## New Commands
 
-- [**CSV 轉換器**](../cmd/edit/csv_converter)
-- [**刪除欄**](../cmd/edit/delete_column)
-- [**剪下欄**](../cmd/edit/cut_column)
-- [**復制欄**](../cmd/edit/copy_column)
-- [**在右邊插入一欄**](../cmd/edit/insert_column_right)
+- **[CSV Converter](../cmd/edit/csv_converter)**
+- [**Delete Columns**](../cmd/edit/delete_column)
+- [**Cut Columns**](../cmd/edit/cut_column)
+- [**Copy Columns**](../cmd/edit/copy_column)
+- [**Insert Column Right**](../cmd/edit/insert_column_right)
 
-## 外掛程式新增功能
+## Plug-in New Features
 
-- **復制** 以及 **全選** 命令被添加到 **字數統計** 外掛程式中的內容功能表上。
-- 能夠用路徑調用程式碼片段。
+- The **Copy** and **Select All** commands were added to the context menu on the list of the **Word Count** plug-in.
+- Added the ability to call a snippet by the path.
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 延伸了 [**FIND\_REGEX\_INFO\_EX** 結構](../plugin/structure/find_regex_info_ex)。添加了 **BACK\_REF** 結構。
+- The [**FIND\_REGEX\_INFO\_EX** structure](../plugin/structure/find_regex_info_ex) was extended. The **BACK\_REF** structure was added.
+- The **EI\_GET\_UNTITLED** flag was added to the [EE\_INFO message](../plugin/message/ee_info).
 
-## 巨集的新增功能
+## Macro New Features
 
-- 添加了 [**Regex** 對象](../macro/regex/index)， [**Matches** 集合](../macro/matches/index)，and [**Match** 對象](../macro/match/index)。
-- 添加了 [**regex** 屬性](../macro/editor/regex) 到 **Editor** 對象中。
-- 在 **JSON** 對象中支持 **JScript Version 5.8**。
+- The [**Regex** object](../macro/regex/index), [**Matches** collection](../macro/matches/index), and [**Match** object](../macro/match/index) were added.
+- The [**regex** property](../macro/editor/regex) was added to the **Editor** object.
+- **JScript Version 5.8** support including the **JSON** object.
 
-## 修復 Bug
+## Bug Fixes
 
-- 修復了一個與 CSV 儲存格模式相關的 bug。
-- 優化了用 Onigmo 進行的 Lookbehind 規則運算式搜索。
-- 修復了在選取多個區域時與全部取代相關的一個 bug。
-- 修復了一個與巨集的 Replace 方法相關的 bug。
+- Fixed a certain bug related to the CSV cell mode.
+- Lookbehind regular expression searches using Onigmo work better now.
+- Fixed a certain bug related to Replace All while making multiple selections.
+- Fixed a certain bug related to the Replace method of macros.

@@ -1,27 +1,27 @@
-# 自訂標記命令
+# Customize Markers command
 
-### 摘要
+### Summary
 
-> 自訂標記設置。
+> Customizes marker settings.
 
-### 說明
+### Description
 
-> 顯示 [**自訂標記** 對話方塊](../../dlg/customize_markers/index)，讓您能自訂標記。
+> Displays the [**Customize Markers** dialog box](../../dlg/customize_markers/index), where you can customize markers.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **工具** \> **自訂標記**
-- [所有命令](all_commands): **工具** >
-**自訂標記**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Tools** \> **Customize Markers**
+- [All Commands](all_commands): **Tools** >
+**Customize Markers** \> **Customize Markers**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE\_MARKERS (4562)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

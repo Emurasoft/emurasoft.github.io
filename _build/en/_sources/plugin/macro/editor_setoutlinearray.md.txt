@@ -1,32 +1,33 @@
 # Editor\_SetOutlineArray
 
-為指定的多行設置大綱級別。您能直接用該內嵌函式或明確地發送
-[EE\_SET\_OUTLINE\_ARRAY](../message/ee_set_outline_array) 消息。
+Sets the outline levels for the specified multiple lines. You can use this inline function or explicitly send the
+[EE\_SET\_OUTLINE\_ARRAY](../message/ee_set_outline_array) message.
 
 Editor\_SetOutlineArray( HWND hwnd, INT\_PTR nStartLine, INT\_PTR nCount, BYTE\* pLevelData );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nStartLine_
 
-> 指定多行的首行。
+> Specifies the first line of multiple lines.
 
 _nCount_
 
-> 指定多行的行數。
+> Specifies the number of multiple lines.
 
 _pLevelData_
 
-> 指定決定大綱級別的位元數組。
+> Specifies an array of BYTE that specifies the outline levels.
 
-## 返回值
+## Return Values
 
-> 返回值是 FALSE 如果沒有變更。否則，返回值是 TRUE。
+> The return value is FALSE if there was no change. Otherwise, the return
+> value is TRUE.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 13 或之後的版本。
+> Supported in EmEditor Professional Version 13 or later.

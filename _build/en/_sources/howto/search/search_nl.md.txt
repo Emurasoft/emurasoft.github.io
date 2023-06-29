@@ -1,31 +1,34 @@
-# 指定換行符號
+# To Specify Newline Characters
 
-下列表格顯示如何指定換行符號。
+The following tables show how to specify newline characters.
 
-## 「查找」對話方塊，「替換」對話方塊 \- 查找，替換為
-
-|     |     |
-| --- | --- |
-| 勾選「使用規則運算式」 | \\n 或 \\r\\n (相同含義) |
-| 不勾選「使用規則運算式」 (使用轉義序列) | \\n 或 \\r\\n (相同含義) |
-
-## 「在檔案中查找」對話方塊，「多檔取代」對話方塊 \- 查找
+## Find Dialog box, Replace dialog box - Find, Replace with
 
 |     |     |
 | --- | --- |
-| 勾選「使用規則運算式」 | \\r\\n，\\r，或 \\n (取決于實際的換行方式) |
-| 不勾選「使用規則運算式」 (使用轉義序列) | \\n 或 \\r\\n (相同含義) |
+| Use Regular Expressions is on | \\n or \\r\\n (same meaning) |
+| Use Regular Expressions is off (Use Escape Sequence) | \\n or \\r\\n (same meaning) |
 
-## 「多檔取代」對話方塊 \- 替換為
+## Find in Files dialog box, Replace in Files dialog box - Find
+
+|     |     |
+| --- | --- |
+| Use Regular Expressions is on | \\r\\n, \\r, or \\n (depends on actual newline character) |
+| Use Regular Expressions is off (Use Escape Sequence) | \\n or \\r\\n (same meaning) |
+
+## Replace in Files dialog box - Replace with
 
 |     |     |     |
 | --- | --- | --- |
-|  | 勾選「保持修改的檔案打開」 | 不勾選「保持修改的檔案打開」 |
-| 勾選「使用規則運算式」 | \\r\\n，\\r，或 \\n (取決于實際的換行方式) | \\r\\n，\\r，或 \\n (取決于實際的換行方式) |
-| 不勾選「使用規則運算式」 (使用轉義序列) | \\n 或 \\r\\n (相同含義) | \\r\\n，\\r，或 \\n (取決于實際的換行方式) |
+|  | Keep Modified Files Open is on | Keep Modified Files Open is off |
+| Use Regular Expressions is on | \\r\\n, \\r, or \\n (depends on actual newline character) | \\r\\n, \\r, or \\n (depends on actual newline character) |
+| Use Regular Expressions is off (Use Escape Sequence) | \\n or \\r\\n (same meaning) | \\r\\n, \\r, or \\n (depends on actual newline character) |
 
 ## Tips
 
-- 如遇 "\\n 或 \\r\\n (相同含義) "，您無法通過分辨 CR+LF，僅 CR，以及 僅 LF 來搜尋換行。
-- 如遇 "\\r\\n，\\r，或 \\n (取決于實際的換行方式) "，您需要指定 "\\r\\n" 如果實際的換行是 CR+LF，"\\r" 如果是僅 CR，或
-"\\n" 如果僅 LF。通常，CR+LF (\\r\\n) 被用在 Windows 操作系統中，CR (\\r) 被用在 Macintosh 上，還有 LF (\\n) 被用於 Unix。
+- In case of "\\n or \\r\\n (same meaning)", you cannot search newline characters by
+distinguishing CR+LF, CR only, and LF only.
+- In case of "\\r\\n, \\r, or \\n (depends on actual newline character)", you
+need to specify "\\r\\n" if the actual newline character is CR+LF, "\\r" if CR only, or
+"\\n" if LF only. Usually CR+LF (\\r\\n) is used on Windows Operating Systems,
+CR (\\r) is used on Macintosh, and LF (\\n) is used on Unix.

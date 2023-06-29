@@ -1,8 +1,9 @@
-# 更改外掛程式屬性
+# To Change Plug-in Properties
 
-1. 對于帶有屬性的外掛程式，請到 **工具** 功能表下選擇 **自訂外掛程式...**。
-2. 選擇您想要更改的外掛程式并單擊 **屬性**。
+1. With advanced plug-ins that have properties, select **Customize**
+**Plug-ins...** under the **Tools** menu.
+2. Select the plug-in that you want to change and click **Properties**.
 
-## 提示
+## Tips
 
-- 對于沒有屬性的外掛程式，您無法更改屬性。
+- With plug-ins that do not have properties, you cannot change the properties.

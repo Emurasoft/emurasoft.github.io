@@ -1,6 +1,7 @@
 # EDIT\_COLUMN\_INFO
 
-用於 [EE\_EDIT\_COLUMN](../message/ee_edit_column) 消息。
+Used by
+[EE\_EDIT\_COLUMN](../message/ee_edit_column) message.
 
 typedef struct \_EDIT\_COLUMN\_INFO {
 
@@ -22,78 +23,78 @@ LPCWSTR pszLocale;
 
 } EDIT\_COLUMN\_INFO;
 
-## 欄位
+## Fields
 
 _cbSize_
 
-> 指定 sizeof( EDIT\_COLUMN\_INFO )。
+> Specifies sizeof( EDIT\_COLUMN\_INFO ).
 
 _nFlags_
 
-> 你可以指定以下值之一。
+> You can specify one of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | COLUMN\_MOVE | 把從 _iColumn1_ 到 _iColumn2_ 的欄移動到 _iColumnTo_ 的欄之前。 |
-> | COLUMN\_COPY | 把從 _iColumn1_ 到 _iColumn2_ 的欄復制到 _iColumnTo_ 的欄之前。 |
-> | COLUMN\_CONCAT | 連接從 _iColumn1_ 到 _iColumn2_ 的欄，可以選擇使用 _pszInsert_ 作為分隔符號。 |
-> | COLUMN\_COALESCE | 用第一個非空置把從 _iColumn1_ 到 _iColumn2_ 的欄合併為一欄。 |
-> | COLUMN\_DELETE | 刪除從 _iColumn1_ 到 _iColumn2_ 的欄。 |
-> | COLUMN\_SELECT | 選取從 _iColumn1_ 到 _iColumn2_ 的欄。 |
-> | COLUMN\_SELECT\_NO\_HEADINGS | 選取從 _iColumn1_ 到 _iColumn2_ 的欄，排除標題。 |
+> | COLUMN\_MOVE | Moves columns from _iColumn1_ through _iColumn2_ before _iColumnTo_. |
+> | COLUMN\_COPY | Copies columns from _iColumn1_ through _iColumn2_ before _iColumnTo_. |
+> | COLUMN\_CONCAT | Concatenates columns from _iColumn1_ through _iColumn2_, optionally using _pszInsert_ as a separator. |
+> | COLUMN\_COALESCE | Combines columns from _iColumn1_ through _iColumn2_ into one column using the first non-empty value. |
+> | COLUMN\_DELETE | Deletes columns from _iColumn1_ through _iColumn2_. |
+> | COLUMN\_SELECT | Selects columns from _iColumn1_ through _iColumn2_. |
+> | COLUMN\_SELECT\_NO\_HEADINGS | Selects columns from _iColumn1_ through _iColumn2_, excluding headings. |
 
 _iColumn1_
 
-> 指定要應用此消息的第一欄。
+> Specifies the first column to apply the message.
 
 _iColumn2_
 
-> 指定要應用此消息的最后一欄。
+> Specifies the last column to apply the message.
 
 _iColumnTo_
 
-> 如果指定了 COLUMN\_MOV E或 COLUMN\_COPY，則指定在此欄之前要移動或複製的欄。僅當指定了 COLUMN\_MOVE 或 COLUMN\_COPY 時，才使用此欄位。
+> Specifies the column to move or copy the columns before if COLUMN\_MOVE or COLUMN\_COPY is specified. This field is used only when COLUMN\_MOVE or COLUMN\_COPY is specified.
 
 _pszInsert_
 
-> 連接或分割欄時，將一個字串指定為分隔符號。僅當指定了 COLUMN\_CONCAT 時，才使用此欄位。
+> Specifies a string as a separator when concatenating columns. This field is used only when COLUMN\_CONCAT is specified.
 
 _nCombineFlags_
 
-> 您可以指定以下值的組合。必須指定 SORT\_ENABLED 對字串進行排序，並與其他標志結合以指定排序行為。 必須指定 SORT\_DELETE\_DUPLICATE 才能刪除重複的字串。只有在 _nFlags_ 欄位中指定了 COLUMN\_CONCAT 時，才使用此欄位。
+> You can specify a combination of the following values. SORT\_ENABLED must be specified to sort strings, and combine with other flags to specify the sort behavior. SORT\_DELETE\_DUPLICATE must be specified to remove duplicate strings. This field is used only if COLUMN\_CONCAT is specified in the _nFlags_ field.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | NORM\_IGNORECASE | 忽略大小寫。 |
-> | NORM\_IGNOREKANATYPE | 平假名和片假名字元作為相同比較。 |
-> | NORM\_IGNORENONSPACE | 忽略非空格字元。 |
-> | NORM\_IGNORESYMBOLS | 忽略符號。 |
-> | NORM\_IGNOREWIDTH | 忽略半形和全形字元之間的差異。 |
-> | SORT\_BINARY\_COMPARISON | 用忽略地區設定信息的快速二進位排序算法進行排序。 |
-> | SORT\_DATE | 對日期和時間進行排序。 |
-> | SORT\_DELETE\_DUPLICATE | 刪除重複字串。 |
-> | SORT\_DIGITSASNUMBERS | 即使按字母順序排序，數字也按數字大小進行排序。 |
-> | SORT\_ENABLED | 對分割的字串進行排序。 |
-> | SORT\_IGNORE\_PREFIX | 按數字排序時，忽略開頭的非數字字元。 |
-> | SORT\_IPV4 | 對 IPv4 地址進行排序。 |
-> | SORT\_IPV6 | 對 IPv6 地址進行排序。 |
-> | SORT\_LENGTH | 按字元數對字串進行排序。 |
-> | SORT\_LENGTH\_VIEW | 按文字長度排序時，全形字元被視為 2 個字元。 |
-> | SORT\_NUM | 對數字進行排序。 |
-> | SORT\_GROUP\_IDENTICAL | 按出現次數排序時群組相同的字串。必須用 SORT\_OCCURRENCE 指定。 |
-> | SORT\_OCCURRENCE | 按出現次數排序。 |
-> | SORT\_RANDOM | 隨機排序。 |
-> | SORT\_REMOVE\_EMPTY | 刪除空字串。 |
-> | SORT\_REVERSE | 反向排序。 |
-> | SORT\_STABLE | 使用穩定排序來維持相同記錄的相對順序。穩定排序的速度會較慢。 |
-> | SORT\_STRINGSORT | 標點符號的處理方式與符號相同。 |
-> | SORT\_TEXT | 對文字進行排序。 |
-> | SORT\_WORDS | 按字數排序字串。 |
+> | NORM\_IGNORECASE | Case is ignored. |
+> | NORM\_IGNOREKANATYPE | Hiragana and Katakana characters compare as equal. |
+> | NORM\_IGNORENONSPACE | Nonspacing characters are ignored. |
+> | NORM\_IGNORESYMBOLS | Symbols are ignored. |
+> | NORM\_IGNOREWIDTH | The difference between half-width and full-width characters is ignored. |
+> | SORT\_BINARY\_COMPARISON | Fast binary comparison is used to sort. The locale information is ignored. |
+> | SORT\_DATE | Sorts date and time. |
+> | SORT\_DELETE\_DUPLICATE | Removes duplicate strings. |
+> | SORT\_DIGITSASNUMBERS | Digits are sorted as numbers even when sorted by alphabetical order. |
+> | SORT\_ENABLED | Sorts split strings. |
+> | SORT\_IGNORE\_PREFIX | Leading non-numeric characters are ignored when using Sort Smallest to Largest or Sort Largest to Smallest commands. |
+> | SORT\_IPV4 | Sorts IPv4 addresses. |
+> | SORT\_IPV6 | Sorts IPv6 addresses. |
+> | SORT\_LENGTH | Sorts strings by the number of characters. |
+> | SORT\_LENGTH\_VIEW | Full width characters are treated as 2 characters when using Sort Shortest to Longest or Sort Longest to Shortest commands. |
+> | SORT\_NUM | Sorts numbers. |
+> | SORT\_GROUP\_IDENTICAL | Groups identical strings when sorted by occurrence. Must be specified with SORT\_OCCURRENCE. |
+> | SORT\_OCCURRENCE | Sorts by occurrence. |
+> | SORT\_RANDOM | Sorts randomly. |
+> | SORT\_REMOVE\_EMPTY | Removes empty strings. |
+> | SORT\_REVERSE | Sorts in reverse order. |
+> | SORT\_STABLE | Stable sort is used. The stable sort maintains the relative order of records. The stable sort is usually slower. |
+> | SORT\_STRINGSORT | Punctuation marks are treated the same as symbols. |
+> | SORT\_TEXT | Sorts text. |
+> | SORT\_WORDS | Sorts strings by the number of words. |
 
 _pszLocale_
 
-> 指定用於排序的語言環境。如果此項為空或省略，則使用「自訂」對話方塊中指定的地區設定。
+> Specifies the locale used to sort. If this is empty, the locale specified in the Customize dialog box is used.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional 19.7 或之後的版本。
+> Supported on Version 19.7 or later.

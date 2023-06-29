@@ -1,35 +1,39 @@
-# 「連結」頁面
+# Link page
 
-**連結** 頁面讓您能設置與連結相關聯的屬性。
+The **Link** page allows you to set properties related to links.
 
-### 「主動字串」清單方塊
+### Active String list box
 
-顯示可以指定并啟用為 **主動字串** 的類型清單。帶有復選標記的每個項目都能作為主動字串。可以在 **自訂** 對話方塊的 [**主動字串** 頁面](../../customize/active_string/index) 中為每個事件分配每個主動字串的操作。
+Displays the list of types that can be specified to be enabled as **Active String**. Each item with the check mark acts as Active String. An action can be assigned to each Active String for each event in the [**Active String** page](../../customize/active_string/index) of the **Customize** dialog box.
 
-### 「僅允許雙擊」核取方塊
+### Enable Double-Clicking Only check box
 
-盡管在 **自訂** 對話方塊的 [**主動字串** 頁面](../../customize/active_string/index) 中進行了設置，但與 **按一下左鍵** 的事件相關的操作將被忽略。
+Despite the settings in the [**Active String** page](../../customize/active_string/index) of the **Customize** dialog box, the actions associated with the **Left Clicked** event are ignored.
 
-### 「標記已瀏覽連結」核取方塊
+### Remember Visited Links check box
 
-記得瀏覽過的 URL，郵件地址以及標記(在 **多檔尋找** 命令之後)并亮顯這些連結。亮顯顏色可以在組態屬性中的 [**顯示** 頁面](../display/index) 上設定。
+Remembers the visited URLs, mail addresses and tags (after the **Find in Files** command) and highlight those links according to the specified colors specified in the [**Display** page](../display/index) of configuration properties.
 
-### 「識別雙位元字元為 URL」核取方塊
+### URLs and Mail Addresses Can Include Full-Width Unicode Characters check box
 
-把雙位元字元識別為 URL。
+Recognize full-width Unicode characters as URLs.
 
-### 「識別單位元假名與假名符合為 URL」核取方塊
+### URLs and Mail Addresses Can Include Half-Width Unicode Characters check box
 
-識別單位元假名與假名符合為 URL。
+Recognize half-width Unicode characters as URLs.
 
-### 「識別這些字元」文字方塊
+### Recognize These Characters text box
 
-指定被識別為 URL 的字元。這些字元由小于 128 的 ASCII 程式碼值組成。
+Specify characters that are recognized as URLs. The characters consist of
+ASCII code value less than 128.
 
-### 「行末不允許的字元」文字方塊
+### Characters Not Allowed at End text box
 
-在 **識別這些字元** 文字方塊中指定的字元中，指定 URL 末尾不允許的字元。
+Among characters specified in the **Recognize These**
+**Characters** text box, specify characters not allowed at the end of URLs.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。會顯示 [**重設** 對話方塊](../reset/index) 并讓您能從另一個組態複製設定。
+Resets to default settings. The
+[**Reset** dialog box](../reset/index) will be displayed
+and will allow you to copy from another configuration.

@@ -1,59 +1,59 @@
-# Q. 怎么定義兩次按鍵的鍵盤捷徑？
+# Q. How can I define two-keystroke keyboard shortcuts?
 
-您可以通過整合使用者功能表功能和鍵盤映射功能來定義兩次按鍵的鍵盤捷徑。通過定義使用者功能表(1)，CTRL+K 已經被預先設置為第一個兩次按鍵的鍵盤捷徑。
+You can define two-keystroke keyboard shortcuts by using a combination of the user menu features and the keyboard mapping features. By default, CTRL+K is predefined for the first key of two-keystroke shortcuts using User Menu (1).
 
-一些系統預先定義的快速鍵包括:
+Some of the predefined shortcuts include:
 
-CTRL+K, K 切換書籤
+CTRL+K, K Toggle Bookmark
 
-CTRL+K, N 目前的文檔中的下一個書籤
+CTRL+K, N Next Bookmark in this Document
 
-CTRL+K, P 目前的文檔中的上一個書籤
+CTRL+K, P Previous Bookmark in this Document
 
-CTRL+K, L 清除目前的文檔中的所有書籤
+CTRL+K, L Clear All Bookmarks in this Document
 
-CTRL+K, C 注釋選定內容
+CTRL+K, C Comment Selection
 
-CTRL+K, U 取消注釋選定內容
+CTRL+K, U Uncomment Selection
 
-在這個清單中，在您按第二個鍵之前，可以按也可以不按 CTRL 鍵。例如，切換書籤指令的捷徑是先按 CTRL 鍵和 K 鍵，然后您可以再按一下 K 鍵，或再按一下 CTRL 鍵和 K 鍵。兩種方式都可以。
+In this list, the second key can be activated with or without CTRL key. For instance, the Toggle Bookmark command can be activated by pressing K with CTRL, and then K again with or without CTRL.
 
-添加新的兩次按鍵的鍵盤捷徑:
+To add new two-keystroke shortcuts:
 
-1\. 到說明功能表下選擇 **「鍵盤布局」**.
+1\. On the Help menu select **Keyboard Map**.
 
-2\. 如果您想要所有 EmEditor 的組態都使用同樣的捷徑的話，點擊工具列上的 **「鍵盤布局設置」** 按鈕，選擇 **「所有組態」** (或取消選擇「所有組態」如果您不想捷徑通用的話) 。
+2\. Click to select the **All Configurations** button on the Toolbar, if you want all of the configurations to use the same shortcuts (or deselect it to not use the same shortcuts).
 
-3\. 在清單中尋找「使用者功能表(2)」并雙擊符合項目。
+3\. Scroll down the list to User Menu (2) and double-click.
 
-4\. 在快顯的 **「組態屬性」** 對話方塊中，輸入一個快速鍵到 **「按下新的快速鍵」** 文字方塊中。例如， CTRL+;。
+4\. In the **Configuration Properties**, type a shortcut in the text box, **Press a New Shortcut Key**. For instance, CTRL+;.
 
-5\. 點擊 **「分配」** 按鈕，然后點擊「確定」。
+5\. Click the **Assign** button, and click OK.
 
-6\. 關閉「鍵盤布局」視窗。
+6\. Close the Keyboard Map window.
 
-7\. 在 **工具** 功能表下選擇 **「自訂功能表」**。
+7\. Next, on the **Tools** menu select **Customize Menus**.
 
-8\. 在「需要定義的功能表清單」下選擇「使用者功能表(2)」。
+8\. Select User Menu (2) on the Menu to Customize list.
 
-9\. 點擊 **「插入右邊」** 按鈕。
+9\. Click the **Insert Right** button.
 
-10\. 在快顯的 **「功能表屬性」** 對話方塊中，選擇一個要添加快速鍵的命令。
+10\. In the **Menu Properties**, select a new command to assign a shortcut to.
 
-11\. 在對話方塊中的 **「名稱」** 文字方塊中，用 & 指定一個新的快速鍵。
+11\. On the **Name** text box, use & to specify a new shortcut key.
 
-12\. 在 & 的右邊輸入字元，這個字元代表第二次要按的快速鍵。
+12\. The character to the right of & specifies the second character.
 
-例如，如果您想要給 **「新增并貼上」** 命令設置一個兩次按鍵的捷徑并把"N"設置為第二個快速鍵，操作如下:
+For instance, if you want to add **New and Paste** command and set "N" as the second shortcut key:
 
-1\. 在「功能表屬性」對話方塊中的「類別」組合方塊中，選擇 **「檔案」**。
+1\. Select **File** in the Category list.
 
-2\. 在「命令」組合方塊中選擇 **「新增并貼上」**。
+2\. Select **New and Paste** in the Command list.
 
-3\. 在 **「名稱」** 文字方塊中輸入: **&New and Paste**。
+3\. Type **&New and Paste** in the **Name** text box.
 
-4\. 點擊「確定」。
+4\. Click OK.
 
-重複以上的步驟，您就可以給許多的命令設置快速鍵。
+Repeat this procedure to define as many commands as you prefer.
 
-在預設情況下，使用者功能表會在按第一個鍵的1秒后出現。第二個快速鍵在使用者功能表出現之前有效。您可以到 **「自訂功能表」** 中移動 **「延時」** 滑塊，讓功能表出現的時間延長。
+By default, the user menu will appear 1 second after the first key is pressed. Second shortcut keys work before the user menu appears. You can change the delay time for each user menu by adjusting the **Delay Time** slider on the bottom of the **Customize Menus** dialog box.

@@ -1,35 +1,35 @@
-# 「復原/重做歷史」對話方塊
+# Undo/Redo History dialog box
 
-當你選擇 [**復原/重做歷史** 命令](../../cmd/edit/undo_history) 時，該對話方塊會出現。你可以跳轉到歷史記錄中的特定操作，或導出導入復原/重做歷史記錄。
+This dialog box appears when the [**Undo/Redo History** command](../../cmd/edit/undo_history) is selected. You can jump to a particular action in the history, or export and import the undo/redo history.
 
-### 清單
+### List
 
-此清單中顯示目前的文檔的復原和重做歷史記錄。 選擇項以下的條目表示重做的操作，選擇項上方的條目表示復原的操作。 你可以點擊一個條目來跳轉到特定的動作。 清單左側的「＃」標記表示儲存的操作或新文檔。在清單上單擊右鍵會顯示內容功能表，你可以在其中選擇所有操作或將選定的條目字串復制到剪貼簿。
+The Undo and Redo history for the current document is displayed in this list. Items below the selection represent the Redo actions, and items above the selection represent the Undo actions. You can click an item to jump to the particular action. The '#' mark on the left of the list means the saved action or the new document.Right-clicking will display the context menu where you can select all or copy selected item strings to the Clipboard.
 
-### 「復原」按鈕
+### Undo button
 
-開始復原所選的操作。
+Starts undoing the selected actions.
 
-### 「重做」按鈕
+### Redo button
 
-開始重做所選的操作。
+Starts redoing the selected actions.
 
-### 「全部復原」按鈕
+### Undo All button
 
-開始復原所有之前的操作。
+Starts undoing all the previous actions.
 
-### 「全部重做」按鈕
+### Redo All button
 
-開始重做所有之前的操作。
+Starts redoing all the previous actions.
 
-### 「導入」按鈕
+### Import button
 
-導入先前導出的包含「復原/重做」歷史記錄的 CSV 檔案。 目前的文檔必須與導出歷史記錄時的文檔相同。
+Imports a previously exported CSV file containing the Undo/Redo history. The current document must be identical to one from which the history was exported.
 
-### 「導出」按鈕
+### Export button
 
-將復原/重做歷史記錄導出為 CSV 檔案。當你下次導入檔案時，文檔必須與目前的文檔相同。如果你希望通過導入歷史記錄來重做相同的操作，則在導出歷史記錄之前，你應該 **全部復原** 之前的操作。
+Exports the Undo/Redo history into a CSV file. When you import the file next time, the document must be identical to the current document. If you would like to redo the same actions in the future by importing the history, you should **Undo All** before you export the history.
 
-### 「全部清除」按鈕
+### Clear All button
 
-點擊此按鈕將清除復原/重做歷史記錄中的所有操作。
+Clicking this button clears all the actions in the Undo/Redo history.

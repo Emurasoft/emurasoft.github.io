@@ -1,6 +1,7 @@
 # EE\_GET\_CARET\_POS
 
-檢索目前的游標位置。您能明確地發送該消息或用 [Editor\_GetCaretPos](../macro/editor_getcaretpos) 內嵌函式。
+Retrieves the current cursor position. You can send this message explicitly
+or by using the [Editor\_GetCaretPos](../macro/editor_getcaretpos) inline function.
 
 EE\_GET\_CARET\_POS
 
@@ -8,23 +9,23 @@ wParam = (WPARAM) (int) nLogical;
 
 lParam = (LPARAM) (POINT\_PTR\*) pptPos;
 
-## 參數
+## Parameters
 
 _nLogical_
 
-> 指定下列值之一。
+> Specifies one of the following values.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | POS\_VIEW | 顯示坐標 |
-> | POS\_LOGICAL\_A | 邏輯坐標 (把雙位元字元計為兩個) |
-> | POS\_LOGICAL\_W | 邏輯坐標 (把雙位元字元計為一個) |
-> | POS\_CELL | CSV 儲存格單位 |
+> | POS\_VIEW | Display Coordinates |
+> | POS\_LOGICAL\_A | Logical Coordinates (Count double-byte characters as two) |
+> | POS\_LOGICAL\_W | Logical Coordinates (Count double-byte characters as one) |
+> | POS\_CELL | CSV Cell Unit |
 
 _pptPos_
 
-> 指針指向一個會接收目前的游標位置的 [POINT\_PTR 結構](../structure/point_ptr)。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the current cursor position.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

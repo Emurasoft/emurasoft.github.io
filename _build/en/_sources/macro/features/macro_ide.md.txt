@@ -1,5 +1,11 @@
-# 巨集的集成開發環境
+# Integrated Development Environment for Macros
 
-當您在 EmEditor 中打開一個巨集檔案時，關鍵字，例如 EmEditor 巨集對象，屬性，或方法都會被自動亮顯。對某些關鍵字的說明，請將游標移到關鍵字上，然后選擇 **「尋找關鍵字」** 命令，或按 **F1** 鍵。
+When you open a macro file in EmEditor, keywords, such as EmEditor macro
+objects, properties, or methods, are automatically highlighted. For assistance
+on certain keywords, move the cursor over the keyword and select **Find**
+**Keyword**, or press **F1**.
 
-當在執行一個巨集時發生錯誤，一個對話方塊會出現，顯示發生錯誤的內容。如果您點擊 **「編輯」** 按鈕，該巨集檔案會被打開，并跳至錯誤發生的位置處。
+When an error occurs
+during the execution of a macro, a dialog box will appear showing the content of
+the error. If you click on the **Edit** button, the macro file opens,
+allowing you to jump to the location where the error occurred.

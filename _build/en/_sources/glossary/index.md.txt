@@ -1,4 +1,4 @@
-# 詞彙
+# Glossary
 
 ```{toctree}
 :maxdepth: 1

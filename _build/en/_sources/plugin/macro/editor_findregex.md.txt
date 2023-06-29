@@ -1,23 +1,24 @@
 # Editor\_FindRegex
 
-用規則運算式搜尋一個字串。您能直接用該內嵌函式或明確地發送 [EE\_FIND\_REGEX](../message/ee_find_regex) 消息。
+Searches a string for a regular expression. You can use this inline function or explicitly send the [EE\_FIND\_REGEX](../message/ee_find_regex) message.
 
-Editor\_FindRegex( HWND hwnd, FIND\_REGEX\_INFO\* pFindRegexInfo );
+Editor\_FindRegex( HWND hwnd, FIND\_REGEX\_INFO\_EX\* pFindRegexInfo );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pFindRegexInfo_
 
-> 指標至 [FIND\_REGEX\_INFO 結構](../structure/find_regex_info)。
+> Pointer to the [FIND\_REGEX\_INFO\_EX structure](../structure/find_regex_info_ex) or [FIND\_REGEX\_INFO structure](../structure/find_regex_info).
 
-## 返回值
+## Return Values
 
-> 如果一個符合指定規則運算式的字串被找到了，返回值是 TURE。如果指定的規則運算式沒有被找到，返回值是 FALSE。如果規則運算式存在語法錯誤或其他嚴重錯誤，返回值是 -1。
+> If a string that matches the specified regular expression is found, the return value is TRUE. If the specified regular expression is not found, the return value is FALSE. If the regular expression has a syntax error or another fatal error
+> occurs, the return value is -1.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 6.00 或之後的版本。
+> Supported on Version 6.00 or later.

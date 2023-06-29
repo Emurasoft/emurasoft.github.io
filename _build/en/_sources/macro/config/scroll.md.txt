@@ -1,6 +1,6 @@
-# Scroll 屬性
+# Scroll Property
 
-檢索 [ScrollProp 對象](../scroll_prop/index)。
+Retrieves the [ScrollProp object](../scroll_prop/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _obj_ = object. **Scroll**;
 
 Set _obj_ = object. **Scroll**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

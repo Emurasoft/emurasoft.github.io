@@ -1,3 +1,4 @@
-# 命令列
+# Command Line
 
-一個特定的代碼字串，指示一個程式用某一種方式運作。
+A specific string of code which instructs a program to function in a
+certain way.

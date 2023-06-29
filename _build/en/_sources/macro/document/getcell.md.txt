@@ -1,6 +1,6 @@
-# GetCell 方法
+# GetCell Method
 
-在 CSV 模式中指定的單元格中檢索文字。
+Retrieves the text on the specified cell in a CSV mode.
 
 #### \[JavaScript\]
 
@@ -10,26 +10,26 @@ _str_ = document. **GetCell**( _yLine_, _iColumn_, _flags_ );
 
 _str_ = document. **GetCell**( _yLine_, _iColumn_, _flags_ )
 
-## 參數
+## Parameters
 
 _yLine_
 
-指定要檢索的文字的行號。
+Specifies a line number of the text to retrieve.
 
 _iColumn_
 
-指定要檢索的文字的列索引。
+Specifies the index of the column of the text you want to retrieve.
 
 _flags_
 
-> 指定下列值之一。
+> Specifies one of the following values.
 >
 > |     |     |
 > | --- | --- |
-> | eeCellIncludeNone | 返回的文字不包括加在文字上的雙引號或分隔符。 |
-> | eeCellIncludeQuotes | 返回的文字可以包括加在文字上的雙引號，但不包括分隔符。 |
-> | eeCellIncludeQuotesAndDelimiter | 返回的文字可以包括加在文字上的雙引號以及分隔符。 |
+> | eeCellIncludeNone | The returned text may not include surrounded double-quotes or delimiters. |
+> | eeCellIncludeQuotes | The returned text may include surrounded double-quotes but no delimiters. |
+> | eeCellIncludeQuotesAndDelimiter | The returned text may include surrounded double-quotes and delimiters. |
 
-## 版本
+## Version
 
-支持 EmEditor Professional 14.7 或之後的版本。
+Supported on EmEditor Professional Version 14.7 or later.

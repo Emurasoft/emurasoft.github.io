@@ -1,93 +1,93 @@
 # Editor\_PivotTable
 
-在 CSV 文檔中建立樞紐分析表。你能直接用該內嵌函式或明確地發送 [EE\_PIVOT\_TABLE](../message/ee_pivot_table) 消息。
+Creates a pivot table in the CSV document. You can use this inline function or explicitly send the [EE\_PIVOT\_TABLE](../message/ee_pivot_table) message.
 
 HRESULT Editor\_PivotTable( HWND hwnd, int iRow, int iColumn, int iValue, UINT nFlags, UINT nSortRow, UINT nSortColumn, LPCWSTR pszLocale, LPCWSTR pszTotalRowLabel, LPCWSTR pszTotalColLabel, int nDecimalPlaces );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控點。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _iRow_
 
-> 指定 CSV 文檔的資料欄的索引，用於延伸到新樞紐分析表中的行。
+> Specifies the index of the column of the CSV document to be extended to the rows in a new pivot table.
 
 _iColumn_
 
-> 指定 CSV 文檔的資料欄的索引，用於延伸到新樞紐分析表中的資料欄。
+> Specifies the index of the column of the CSV document to be extended to the columns in a new pivot table.
 
 _iValue_
 
-> 指定 CSV 文檔的資料欄的索引，用於延伸到新樞紐分析表中的值。
->
-> _nFlags_
+> Specifies the index of the column of the CSV document to be extended to the values in a new pivot table.
 
-> 指定下面的值的組合。
+_nFlags_
+
+> Specifies a combination of following values.
 >
 > |     |     |
 > | --- | --- |
-> | PIVOT\_TYPE\_COUNT | 值的數量。 |
-> | PIVOT\_TYPE\_SUM | 值的總和。 |
-> | PIVOT\_TYPE\_AVERAGE | 值的平均值。 |
-> | PIVOT\_TYPE\_MAX | 最大的值。 |
-> | PIVOT\_TYPE\_MIN | 最小的值。 |
-> | PIVOT\_FLAG\_TOTAL\_ROW | 顯示列的總值。 |
-> | PIVOT\_FLAG\_TOTAL\_COL | 顯示欄的總值。 |
+> | PIVOT\_TYPE\_COUNT | The number of values. |
+> | PIVOT\_TYPE\_SUM | The sum of the values. |
+> | PIVOT\_TYPE\_AVERAGE | The average of the values. |
+> | PIVOT\_TYPE\_MAX | The largest value. |
+> | PIVOT\_TYPE\_MIN | The smallest value. |
+> | PIVOT\_FLAG\_TOTAL\_ROW | Displays the total row values. |
+> | PIVOT\_FLAG\_TOTAL\_COL | Displays the total column values. |
 
 _nSortRow_
 
-> 指定應用於行的排序標志組合。如果此項為 0，則不會執行排序。
+> Specifies a combination of sort flags be applied to the row. If this is 0, no sort will be performed.
 >
-> | 值 | 含義 |
+> | Value | Meaning |
 > | --- | --- |
-> | NORM\_IGNORECASE | 忽略大小寫。 |
-> | NORM\_IGNOREKANATYPE | 平假名和片假名字元比較相等。 |
-> | NORM\_IGNORENONSPACE | 忽略非空格字元。 |
-> | NORM\_IGNORESYMBOLS | 忽略符號。 |
-> | NORM\_IGNOREWIDTH | 忽略半形和全形字元之間的差異。 |
-> | SORT\_BINARY\_COMPARISON | 使用更快的二進位排序算法進行排序，該算法忽略區域設定信息。 |
-> | SORT\_DATE | 對日期和時間進行排序。 |
-> | SORT\_DIGITSASNUMBERS | 即使按字母順序排序，數字也按數字排序。 |
-> | SORT\_ENABLED | 對分割的字串進行排序。 |
-> | SORT\_IGNORE\_PREFIX | 使用按數字升序排序或按數字降序排序命令時，將忽略開頭非數字字元。 |
-> | SORT\_IPV4 | 對 IPv4 地址進行排序。 |
-> | SORT\_IPV6 | 對 IPv6 地址進行排序。 |
-> | SORT\_LENGTH | 按字元數對字串進行排序。 |
-> | SORT\_LENGTH\_VIEW | 使用按文字長度從短到長排序或按文字長度從長到短排序命令時，全形字元被視為 2 個字元。 |
-> | SORT\_NUM | 對數字進行排序。 |
-> | SORT\_GROUP\_IDENTICAL | 按出現次數排序時將相同的字串群組。 必須用 SORT\_OCCURRENCE 指定。 |
-> | SORT\_OCCURRENCE | 按出現次數排序。 |
-> | SORT\_STABLE | 使用穩定排序。穩定排序會維護相同記錄的相對順序，但會比較慢。 |
-> | SORT\_STRINGSORT | 標點符號的處理方式與符號相同。 |
-> | SORT\_TEXT | 對文字進行排序。 |
-> | SORT\_WORDS | 按單字數對字串進行排序。 |
+> | NORM\_IGNORECASE | Case is ignored. |
+> | NORM\_IGNOREKANATYPE | Hiragana and Katakana characters compare as equal. |
+> | NORM\_IGNORENONSPACE | Nonspacing characters are ignored. |
+> | NORM\_IGNORESYMBOLS | Symbols are ignored. |
+> | NORM\_IGNOREWIDTH | The difference between half-width and full-width characters is ignored. |
+> | SORT\_BINARY\_COMPARISON | Fast binary comparison is used to sort. The locale information is ignored. |
+> | SORT\_DATE | Sorts date and time. |
+> | SORT\_DIGITSASNUMBERS | Digits are sorted as numbers even when sorted by alphabetical order. |
+> | SORT\_ENABLED | Sorts split strings. |
+> | SORT\_IGNORE\_PREFIX | Leading non-numeric characters are ignored when using Sort Smallest to Largest or Sort Largest to Smallest commands. |
+> | SORT\_IPV4 | Sorts IPv4 addresses. |
+> | SORT\_IPV6 | Sorts IPv6 addresses. |
+> | SORT\_LENGTH | Sorts strings by the number of characters. |
+> | SORT\_LENGTH\_VIEW | Full width characters are treated as 2 characters when using Sort Shortest to Longest or Sort Longest to Shortest commands. |
+> | SORT\_NUM | Sorts numbers. |
+> | SORT\_GROUP\_IDENTICAL | Groups identical strings when sorted by occurrence. Must be specified with SORT\_OCCURRENCE. |
+> | SORT\_OCCURRENCE | Sorts by occurrence. |
+> | SORT\_STABLE | Stable sort is used. The stable sort maintains the relative order of records. The stable sort is usually slower. |
+> | SORT\_STRINGSORT | Punctuation marks are treated the same as symbols. |
+> | SORT\_TEXT | Sorts text. |
+> | SORT\_WORDS | Sorts strings by the number of words. |
 
 _nSortColumn_
 
-> 指定包含要應用於資料欄的排序標志的組合。如果此項為 0，則不會執行排序。這些標志與 _nSortRow_ 參數相同。
+> Specifies a combination of sort flags to be applied to the column. If this is 0, no sort will be performed. The flags are the same as the _nSortRow_ parameter.
 
 _pszLocale_
 
-> 指定用於排序的語言環境，例如：「en-US」。如果此項為空或省略，則使用在 **自訂** 對話方塊的 **排序** 頁面中指定的區域設定。
+> Specifies the locale used for sorting, for example: "en-US". If this is empty or omitted, the locale specified in the **Sort** page of the **Customize** dialog box is used.
 
 _pszTotalRowLabel_
 
-> 指定列的總值的標題標籤。只有在 _nFlags_ 參數中指定 PIVOT\_FLAG\_TOTAL\_ROW 時才使用此參數。
+> Specifies the heading label for the total row values. This parameter is used only if PIVOT\_FLAG\_TOTAL\_ROW is specified in the _nFlags_ parameter.
 
 _pszTotalColLabel_
 
-> 指定欄的總值的標題標籤。只有在 _nFlags_ 參數中指定 PIVOT\_FLAG\_TOTAL\_COL 時才使用此參數。
+> Specifies the heading label for the total column values. This parameter is used only if PIVOT\_FLAG\_TOTAL\_COL is specified in the _nFlags_ parameter.
 
 _nDecimalPlaces_
 
-> 指定值的小數位數。
+> Specifies the decimal places of the values.
 
-## 返回值
+## Return Values
 
-> 如果失敗，則返回值為負值。
+> The return value is a negative value if it fails.
 
-## 版本
+## Version
 
-> 支持 EmEditor Professional 21.4 或之後的版本。
+> Supported on Version 21.4 or later.

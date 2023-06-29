@@ -1,92 +1,99 @@
-# 「CSV 格式」頁面
+# CSV Formats page
 
-**CSV 格式** 頁面讓您能自訂與 CSV 格式相關的設定。
+The **CSV Formats** page allows you to customize settings related to the CSV formats.
 
-### CSV 格式清單方塊
+### CSV Formats list box
 
-顯示定義的 CSV 格式清單。為了在打開一個檔案時偵測該檔案是否含有 CSV 格式，必須到組態屬性中 [**檔案** 頁面](../../properties/file/index) 上的 **要偵測的 CSV 檔案** 清單方塊中勾選要偵測的 CSV 格式。
+Displays the list of defined CSV formats. In order to be detected when a file is opened, CSV formats must be checked in the **CSV files to Detect** list box in the
+[**File** page](../../properties/file/index) of configuration properties. The priority order of the detection is the order specified in this list box.
 
-### 「添加」按鈕
+### Add button
 
-添加一個項目到清單上。
+Adds an item to the list.
 
-### 「刪除」按鈕
+### Delete button
 
-點擊該按鈕從清單中刪除被選取的項目。
+Click this button to delete the selected item from the list.
 
-### 「上移」按鈕
+### Up button
 
-把選取的項目在清單上往上移。
+Move the selected item up on the list.
 
-### 「下移」按鈕
+### Down button
 
-把選取的項目在清單上往下移。
+Move the selected item down on the list.
 
-### 「全選」按鈕
+### Select All button
 
-選擇整個清單。
+Select the entire list.
 
-### 「工具列按鈕標題」核取方塊和文字方塊
+### Toolbar button title check box and text box
 
-指定與 CSV 格式名不同的標題。
+Specifies the title separately from the CSV format name.
 
-### 「分隔符號」文字方塊
+### Delimiter text box
 
-指定一個分隔符號來分隔不同類別的數據。分隔符號可以包括以下的逸出序列。分隔符號也可以是一個最長 39 個字元的字串。
+Specifies a delimiter to separate the data items. The delimiter can include the following escape sequences. The delimiter is a string up to 39 character long.
 
 |     |     |
 | --- | --- |
-| \\a | 警告 (響鈴) |
-| \\b | 退格 |
-| \\t | 水平 Tab |
-| \\v | 垂直 Tab |
-| \\\ | 反斜杠 |
-| \\xhhhh | 用十六進位表示的 Unicode 字元 |
+| \\a | Warning (Bell) |
+| \\b | Backspace |
+| \\t | Horizontal tab |
+| \\v | Vertical tab |
+| \\\ | Backslash |
+| \\xhhhh | Unicode character in hexadecimal notation |
 
-### 「引號標記」文字方塊
+### Quotation Mark text box
 
-指定引號標記來引用數據項。引號可以包括以上逸出序列。引號必須必須是一個字元。
+Specifies a quotation mark to quote data items. The quotation mark can include the above escape sequences. The quotation mark must be exactly one character.
 
-### 「允許分隔符號在引號內」核取方塊
+### Allow delimiters in quotes check box
 
-指定分隔符號是否可以在引號內。
+Specifies whether the delimiters should be allowed in quotes.
 
-### 「允許在引號內換行」核取方塊
+### Allow newlines in quotes check box
 
-指定是否允許在引號內的換行。
+Specifies whether newline characters should be allowed in quotes.
 
-### 「使用逸出序列」核取方塊
+### Use Escape Character check box
 
-指定是否應使用一個反斜線來轉義分隔符號和反斜線。此選項允許非標準的 CSV 格式，即引號內不允許分隔符號。
+Specifies whether delimiters and backslashes should be escaped by a backslash. This option allows a nonstandard CSV format, which does not allow delimiters in quotes.
 
-### 「欄標題」文字方塊
+### Column headings text box
 
-指定在一個 CSV 文檔中的欄標題所占的資料行數。
+Specifies the number of lines that are column headings in a CSV document.
 
-### 「列標題」文字方塊
+### Row headings text box
 
-指定在一個 CSV 文檔中的列標題所占的資料欄數。
+Specifies the number of columns that are row headings in a CSV document.
 
-### 「要偵測的最小行數」文字方塊
+### Min lines to detect text box
 
-指定作為一個 CSV 文檔所要偵測的最小行數。當打開一個檔案時，EmEditor 會在指定的行數中計算分隔符號的數目，如果所有行都有相同數目的分隔符號，檔案會被偵測為 CSV 文檔。不管您如何選擇，CSV 文檔至少必須要有兩行。而且，在組態屬性中的 [**檔案** 頁面](../../properties/file/index) 上，CSV 格式必須被勾選。
+The number specifies the minimum number of lines to detect as a CSV document. When a file is opened, EmEditor counts the number of delimiters in the number of lines specified here,
+and if all lines have the equal number of delimiters, the file is detected as the CSV document. Regardless of this option, the CSV document must be at least two lines. Moreover, CSV formats must be
+checked in the **CSV files to Detect** list box in the [**File** page](../../properties/file/index) of configuration properties.
 
-### 「要偵測的最大行數」文字方塊
+### Max lines to detect text box
 
-指定作為一個 CSV 文檔所要偵測的最大行數。當打開一個檔案時，EmEditor 會在指定的行數中計算分隔符號的數目，如果所有行都有相同數目的分隔符號，檔案會被偵測為 CSV 文檔。不管您如何選擇，CSV 文檔至少必須要有兩行。而且，在組態屬性中的 [**檔案** 頁面](../../properties/file/index) 上，CSV 格式必須被勾選。
+The number specifies the maximum number of lines to detect as a CSV document. When a file is opened, EmEditor counts the number of delimiters in the number of lines specified here,
+and if all lines have the equal number of delimiters, the file is detected as the CSV document. Regardless of this option, the CSV document must be at least two lines. Moreover, CSV formats must be
+checked in the **CSV files to Detect** list box in the [**File** page](../../properties/file/index) of configuration properties.
 
-### 「要偵測的最小分隔符號數」文字方塊
+### Min delimiters to detect text box
 
-這個數字指定要偵測為一個 CSV 文檔檔案所要包含的最小分隔符號數。例如，如果在一個 CSV 文檔中僅包含 3 個分隔符號，并且在這個文字方塊選項中的數字是 3，那么這個檔案會被偵測為 CSV 檔案。然而，如果在這個文字方塊選項中的數字是 4，那么檔案就不會被偵測為 CSV 檔案。而且，必須在組態屬性 [**檔案** 頁面](../../properties/file/index) 上的 **要偵測的 CSV 檔案** 清單方塊中勾選 CSV 格式。
+The number specifies the minimum number of delimiters to detect as a CSV document. For example, if one line contains only 3 delimiters in a CSV document, if the number in this text
+box is 3, this file would be detected as the CSV file. However, if the number in this text box is 4, the file would not be detected as the CSV file. Moreover, CSV formats must be checked in the
+**CSV files to Detect** list box in the [**File** page](../../properties/file/index) of configuration properties.
 
-### 「要偵測的第一行」文字方塊
+### First line to detect text box
 
-這個數字指定了作為開始偵測 CSV 文檔的第一行的行號。例如，一個文檔的前 3 行不包含分隔符號，并且這個文字方塊中的數字是 3，那么 EmEditor 會忽略文檔的前 3 行，把其余的文檔作為 CSV 檔案。
+The number specifies the line number of the first line to detect as a CSV document. For example, if the first 3 lines of a document do not contain delimiters, and if the number in this text box is 3, EmEditor would ignore the first 3 lines and detect the rest of the document as the CSV file.
 
-### 「一個儲存格中的最大換行數」文字方塊
+### Max newlines in a cell text box
 
-指定可以嵌入儲存格中的最大新行數。此選項只有在勾選了 **允許換行符號在引號內** 時才可用。
+Specifies the maximum number of newlines that can be embedded in a cell. This option is only available if the **Allow newlines in quotes** option is set.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。
+Resets to default settings.

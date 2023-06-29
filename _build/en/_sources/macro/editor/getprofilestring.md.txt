@@ -1,6 +1,7 @@
-# GetProfileString 方法
+# GetProfileString Method
 
-按 EmEidtor 的設定，從注冊表或一個 INI 檔案上檢索指定項目的字符串值。
+Retrieves the string value for the specified entry from the Registry or an INI file depending on the EmEditor
+settings.
 
 #### \[JavaScript\]
 
@@ -10,12 +11,12 @@ _str_ = editor. **GetProfileString**( _nKey_, _strConfig_, _strEntry_, _strDefau
 
 _str_ = editor. **GetProfileString**( _nKey_, _strConfig_, _strEntry_, _strDefault_ )
 
-## 參數
+## Parameters
 
 _nKey_
 
-用下列值之一來指定一個鍵值。eeRegConfig
-和 eeRegEmEditorPlugin 需要 _pszConfig_ 參數來指定鍵值。
+Specifies one of the following values to specify a key. eeRegConfig
+and eeRegEmEditorPlugin require the _pszConfig_ parameter to specify the key.
 
 |     |     |
 | --- | --- |
@@ -36,16 +37,37 @@ _nKey_
 
 _strConfig_
 
-用一個額外的字符串來指定鍵值當 eeRegConfig，eeRegEmEditorPlugin，或 eeRegEmEditorUsers 被選擇時。
+Specifies an additional string to specify the key when eeRegConfig, eeRegEmEditorPlugin, or eeRegEmEditorUsers is selected.
 
 _strEntry_
 
-指定要被檢索的值的名稱。
+Specifies the name of the value to be retrieved.
 
 _strDefault_
 
-指定預設值假如沒有找到或不能檢索該值。
+Specifies the default value in case the value is not found or
+cannot be retrieved.
 
-## 版本
+## Examples
 
-支持 EmEditor 8.00 或之後的版本。
+This example explains how to retrieve a 64-bit integer value.
+
+#### \[JavaScript\]
+
+nHigh = 0;
+
+nLow = 0;
+
+s = editor.GetProfileString( eeRegCommon, "", "FindFlag", "0" );
+
+if( s.length == 18 && s.substr( 0, 2 ) == "0x" ) {
+
+nHigh = parseInt( s.substr( 2, 8 ), 16 );
+
+nLow = parseInt( s.substr( 10, 8 ), 16 );
+
+}
+
+## Version
+
+Supported on EmEditor Professional Version 8.00 or later.

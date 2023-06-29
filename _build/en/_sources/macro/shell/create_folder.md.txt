@@ -1,6 +1,6 @@
-# CreateFolder 方法
+# CreateFolder Method
 
-創建一個資料夾。
+Creates a folder.
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ shell. **CreateFolder**( _strFolder_ );
 
 shell. **CreateFolder** _strFolder_
 
-## 參數
+## Parameters
 
 _strFolder_
 
-指定要創建的資料夾。
+Specifies a folder to create.
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -26,6 +26,6 @@ shell.CreateFolder( "C:\\\Test" );
 
 shell.CreateFolder "C:\\Test"
 
-## 版本
+## Version
 
-支持 EmEditor Professional 22.1 或之後的版本。
+Supported on EmEditor Professional Version 22.1 or later.

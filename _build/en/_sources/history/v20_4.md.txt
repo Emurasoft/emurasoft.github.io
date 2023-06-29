@@ -1,46 +1,46 @@
 # Version 20.4
 
-2020年12月15日
+December 15, 2020
 
-## 一般新增功能
+## New General Features
 
-- 添加了 **通知** 功能。當發生諸如「 _新版本可用_」，「 _檢測到 CSV 檔案_」之類的事件時，EmEditor 會在右下角顯示一個氣球狀提示，允許您確認或選擇通知操作。即使氣球提示消失在幾秒鐘後，您仍然可以點擊狀態列上的通知圖示（💬）以顯示通知欄，您可以在其中找到之前的通知清單。 點擊其中一項將顯示一個對話方塊，以確認或選擇通知操作。
-- 改善了 **更新檢查器** 的行為。
-- 添加了以 MB 為單位設定全局最大記憶體大小的功能，並改進了同時打開多個大檔案時與記憶體和執行緒使用率有關的行為。
-- 改進了 **刪除重複行** 和 **比較** 命令的速度。
+- Added the **Notifications** feature. When events like " _A New Version is available_", " _A CSV file was detected_", etc. occur, EmEditor displays a balloon tip in the bottom-right corner of the window which allows you to confirm the notification or to select an action. Even after the balloon tip disappears after several seconds, you can still click on the Notification icon (💬) on the status bar to display the Notification bar where you will find a list of the previous notifications. Clicking one of the items will bring up a dialog box to confirm or select an action for the notification.
+- Improved the **Update Checker** behavior.
+- Added an ability to set the global maximum memory size in MB, and optimized memory and thread usage when opening multiple large files simultaneously.
+- Improved the speed of the **Delete Duplicate Lines** and **Compare** commands.
 
-### 測試結果：
+### Test results:
 
-|  | v20.3.0 | v20.4.0 | 比較 |
+|  | v20.3.0 | v20.4.0 | Comparison |
 | --- | --- | --- | --- |
-| 刪除重複行 | 51.7 秒 | 21.6 秒 | 快 2.39倍 |
-| 比較 | 743 秒 | 1.59 秒 | 快 467 倍 |
+| Delete Duplicate Lines | 51.7 seconds | 21.6 seconds | 2.39 times faster |
+| Compare | 743 seconds | 1.59 seconds | 467 times faster |
 
-刪除重複行：10 GB，3億行，隨機ASCII數據，勾選「總是丟棄過長的復原信息來加速」選項。
+Delete Duplicate Lines: 10 GB, 300 million lines, random ASCII data, discard undo information.
 
-比較：兩個完全不同的 100 MB 檔案，3億行，隨機ASCII數據，Quality 5（最精確）
+Compare: two completely different 100 MB files, 3 million lines, random ASCII data, Quality 5 (most precise).
 
-測試系統：Windows 10（64位），Core i9-9900K，32GB RAM，2TB SSD。
+All: Windows 10 (64-bit), Core i9-9900K, 32GB RAM, 2TB SSD.
 
-## 新增選項
+## New Options
 
-- 添加了 [**通知** 頁面](../dlg/customize/notifications/index) 和 [**更新** 頁面](../dlg/customize/update/index) 到 **自訂** 對話方塊中。
-- 添加了 **最大記憶體大小（MB）** 文字方塊到 **自訂** 對話方塊中的 [**進階** 頁面](../dlg/customize/advanced/index) 上。
-- 添加了 **顯示檔案名，行和符合的字串** 和 **顯示檔案名和符合的字串** 到 [**多檔尋找** 對話方塊](../dlg/find_in_files/index) 中的 **匯出選項** 下拉清單方塊中。
+- Added the [**Notification** page](../dlg/customize/notifications/index) and [**Update** page](../dlg/customize/update/index) to the **Customize** dialog box.
+- Added the **Maximum Memory Size (MB)** text box to the [**Advanced** page](../dlg/customize/advanced/index) of the **Customize** dialog box.
+- Added **Display File Names, Lines, and Matched Strings** and **Display File Names and Matched Strings** to the **Output Options** drop-down list box of the [**Find in Files** dialog box](../dlg/find_in_files/index).
 
-## 新增命令
+## New Commands
 
-- [切換通知](../cmd/view/toggle_notifications)
-- [自訂通知](../cmd/tools/customize_notifications)
-- [自訂更新](../cmd/tools/customize_notifications)
-- [刪除空列](../cmd/edit/remove_empty_columns)
-- [清除所有復原/重做歷史](../cmd/edit/clear_undo_redo_history)
-- [尋找最短行/儲存格](../cmd/search/find_empty_or_shortest)
+- [Toggle Notifications](../cmd/view/toggle_notifications)
+- [Customize Notifications](../cmd/tools/customize_notifications)
+- [Customize Update](../cmd/tools/customize_update)
+- [Remove Empty Columns](../cmd/edit/remove_empty_columns)
+- [Clear All Undo/Redo History](../cmd/edit/clear_undo_redo_history)
+- [Find Shortest Line/Cell](../cmd/search/find_empty_or_shortest)
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 **FLAG\_FIND\_FILE\_AND\_MATCHED** 和 **FLAG\_FIND\_FILE\_LINE\_AND\_MATCHED** 標志到 **[BATCH\_GREP\_INFO](../plugin/structure/batch_grep_info)** 和 **[GREP\_INFO\_EX](../plugin/structure/grep_info_ex)** 結構中。
+- Added the **FLAG\_FIND\_FILE\_AND\_MATCHED** and **FLAG\_FIND\_FILE\_LINE\_AND\_MATCHED** flags to the **[BATCH\_GREP\_INFO](../plugin/structure/batch_grep_info)** and **[GREP\_INFO\_EX](../plugin/structure/grep_info_ex)** structures.
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 **eeFindFileLineAndMatched** 和 **eeFindFileAndMatched** 標志到 **[FindInFiles](../macro/editor/editor_findinfiles)** 和 **[BatchFindInFiles](../macro/editor/editor_batchfindinfiles)** 方法中。
+- Added the **eeFindFileLineAndMatched** and **eeFindFileAndMatched** flags to the **[FindInFiles](../macro/editor/editor_findinfiles)** and **[BatchFindInFiles](../macro/editor/editor_batchfindinfiles)** methods.

@@ -1,6 +1,6 @@
-# ExecuteCommandByID 方法
+# ExecuteCommandByID Method
 
-執行由一個表示命令 ID 整數標識的命令。
+Executes the command identified by an integer indicating the Command ID.
 
 #### \[JavaScript\]
 
@@ -8,15 +8,16 @@ editor. **ExecuteCommandByID**( _nID_ );
 
 #### \[VBScript\]
 
-_strName_ = editor. **ExecuteCommandByID** _nID_
+editor. **ExecuteCommandByID** _nID_
 
-## 參數
+## Parameters
 
 _nID_
 
-指定一個表示要執行的命令 ID 的整數。詳見
-**[命令參考](../../cmd/index)** 來檢視可用命令列表。不是所有的命令都可用或被支持。
+Specifies an integer indicating the Command ID to execute. See the
+**[Command Reference](../../cmd/index)** for the list of available
+commands. Not all commands may be available or supported.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

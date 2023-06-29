@@ -1,6 +1,6 @@
-# Test 方法
+# Test Method
 
-測試規則運算式是否與指定字串成功符合。
+Tests the regular expression is successfully matched against the specified string.
 
 #### \[JavaScript\]
 
@@ -10,17 +10,17 @@ _b_  = reg. **Test**( _strText_ );
 
 _b_  = reg. **Test**( _strText_ )
 
-## 參數
+## Parameters
 
 _strText_
 
-指定一個要測試的字串。
+Specifies a string to test.
 
-## 返回值
+## Return Values
 
-返回 True 如果規則運算式成功與指定字串符合，否則返回 False。
+Returns True if the regular expression is successfully matched against the specified string, or False if not.
 
-## 示例
+## Examples
 
 #### \[JavaScript\]
 
@@ -34,7 +34,7 @@ re.IgnoreCase = true;
 
 b = re.Test( "john@test.com" );
 
-if( b ) alert( "規則運算式符合" );
+if( b ) alert( "the regular expression matched" );
 
 #### \[VBScript\]
 
@@ -48,8 +48,8 @@ re.IgnoreCase = True
 
 b = re.Test( "john@test.com" )
 
-If b Then alert( "規則運算式符合" )
+If b Then alert( "the regular expression matched" )
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 15.9 或之後的版本。
+Supported in EmEditor Professional Version 15.9 or later.

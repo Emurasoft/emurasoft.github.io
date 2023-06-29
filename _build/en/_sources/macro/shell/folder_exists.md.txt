@@ -1,6 +1,6 @@
-# FolderExists 方法
+# FolderExists Method
 
-如果指定資料夾存在則返回 true；如果沒有，則為 false。
+Returns true if a specified folder exists; false if it does not.
 
 #### \[JavaScript\]
 
@@ -10,13 +10,13 @@ b = shell. **FolderExists**( _strFolder_ );
 
 b = shell. **FolderExists**( _strFolder_ )
 
-## 參數
+## Parameters
 
 _strFolder_
 
-要確定其存在的資料夾的名稱。
+The name of the folder whose existance is to be determined.
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
@@ -26,6 +26,6 @@ b = shell.FolderExists( "C:\\\Test\\\folder" );
 
 b = shell.FolderExists( "C:\\Test\\folder" )
 
-## 版本
+## Version
 
-支持 EmEditor Professional 22.1 或之後的版本。
+Supported on EmEditor Professional Version 22.1 or later.

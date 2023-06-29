@@ -1,6 +1,6 @@
 # EE\_GET\_ACCEL\_ARRAY
 
-檢索快捷鍵的數組。您能明確地發送該消息或用 [Editor\_GetAccelArray](../macro/editor_getaccelarray) 內嵌函式。
+Retrieves the array of the shortcut keys. You can send this message explicitly or by using the [Editor\_GetAccelArray](../macro/editor_getaccelarray) inline function.
 
 EE\_GET\_ACCEL\_ARRAY
 
@@ -8,20 +8,20 @@ wParam = (UINT) nBufSize;
 
 lParam = (ACCEL\*) pAccel;
 
-## 參數
+## Parameters
 
 _nBufSize_
 
-> 在會檢索快捷鍵數列的 ACCEL 中，指定緩沖區的大小。
+> Specifies the size of the buffer, in ACCEL, that will receive the shortcut key arrays.
 
 _pAccel_
 
-> 指定指針指向檢索 ACCEL 結構數列的緩沖區。
+> Specifies the pointer to the buffer that receives the array of the ACCEL structures.
 
-## 返回值
+## Return Values
 
-> 返回值是在用來接收快捷鍵數列的 ACCEL 中的緩沖區大小。
+> The return value is the size of the buffer, in ACCEL, that is needed to receive the shortcut key arrays.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 7.00 或之後的版本。
+> Supported on EmEditor Version 7.00 or later.

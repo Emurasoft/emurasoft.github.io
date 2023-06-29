@@ -1,15 +1,17 @@
-# 「重設」對話方塊
+# Reset dialog box
 
-這個對話方塊會出現當您在組態屬性對話方塊的任一頁面上選擇 **「重設」** 按鈕時。
+This dialog box appears when the
+**Reset** button is selected on each page of Configuration Properties or dialog
+boxes.
 
-### 「重設為預設值」單選按鈕
+### Reset to Default radio button
 
-重設為預設設定。
+Resets to default settings.
 
-### 「從其他組態中複製」單選按鈕
+### Copy from Other Configurations radio button
 
-從另一個組態中複製設定。
+Copy settings from another configuration.
 
-### 「組態」清單方塊
+### Configurations list box
 
-選擇一個組態來複製。
+Select a configuration to copy from.

@@ -1,27 +1,28 @@
 # Editor\_SetOutlineLevel
 
-為指定的邏輯行設置大綱級別。您能直接用該內嵌函式或明確地發送 [EE\_SET\_OUTLINE\_LEVEL](../message/ee_set_outline_level) 消息。
+Sets the outline level for the specified logical line. You can use this inline function or explicitly send the [EE\_SET\_OUTLINE\_LEVEL](../message/ee_set_outline_level) message.
 
 Editor\_SetOutlineLevel( HWND hwnd, INT\_PTR nLogicalLine, int nLevel );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _nLogicalLine_
 
-> 指定邏輯行。
+> Specifies a logical line.
 
 _nLevel_
 
-> 指定一個大綱級別。
+> Specifies an outline level.
 
-## 返回值
+## Return Values
 
-> 返回值是之前的指定邏輯行的大綱級別。如果發生錯誤，返回值是 -1。
+> The return value is the old outline level for the specified logical line.
+> If an error occurs, the return value will be -1.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 6.00 或之後的版本。
+> Supported on EmEditor Professional Version 6.00 or later.

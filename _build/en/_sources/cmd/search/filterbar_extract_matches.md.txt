@@ -1,27 +1,27 @@
-# 抽出符合字串 (篩選工具列) 命令
+# Extract Matched Strings (Filter Toolbar) command
 
-### 摘要
+### Summary
 
-> 將符合的字串抽出到新文檔中。如果符合多個字串，此命令將每行僅抽出一個字串。
+> Extracts matched strings into a new document.
 
-### 說明
+### Description
 
-> 將符合的字串抽出到新文檔中。
+> Extracts matched strings into a new document. This command will extract only one string per line if multiple strings are matched.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜尋**
-\> **篩選工具列** \> **抽出符合字串**
-- 工具列: ![](../../images/extract_all.png) (篩選工具列) \> **抽出符合字串**
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Extract Matched Strings**
+- Toolbar: ![](../../images/extract_all.png) (Filter toolbar) >  **Extract Matched Strings**
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILTERBAR\_EXTRACT\_MATCHES (4084)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

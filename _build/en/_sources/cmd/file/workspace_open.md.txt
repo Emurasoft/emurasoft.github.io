@@ -1,27 +1,27 @@
-# 打開工作區命令
+# Open Workspace command
 
-### 摘要
+### Summary
 
-> 打開一個被儲存的工作區檔案。
+> Opens a saved workspace file.
 
-### 說明
+### Description
 
-> 這個命令會打開一個工作區檔案來把目前在 EmEditor 中所有目前的打開的文檔的完整路徑名，游標位置，以及其他設定還原成之前通過 [**儲存工作區** 命令](workspace_save_current) 或 [**另存新工作區** 命令](workspace_save_as) 所儲存的檔案的設定。
+> This command opens a workspace file to restore the full path names, the cursor positions, and other settings of all currently open documents in EmEditor to a previously saved file set by the [**Save Workspace** command](workspace_save_current) or the [**Save Workspace As** command](workspace_save_as).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **檔案** \> **工作區** \> **打開工作區**
-- [全部命令](../tools/all_commands): **檔案** \> **工作區**
-\> **打開工作區**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: **File** \> **Workspace** \> **Open Workspace**
+- [All Commands](../tools/all_commands): **File** \> **Workspace**
+\> **Open Workspace**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_WORKSPACE\_OPEN (3924)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

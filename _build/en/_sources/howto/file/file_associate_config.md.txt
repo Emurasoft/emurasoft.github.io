@@ -1,4 +1,8 @@
-# 把目前的組態與一個檔案副檔名相關聯
+# To Associate a File Extension with the Current Configuration
 
-1. 選擇 **工具** 功能表下的 [**檔案關聯組態** 命令](../../cmd/tools/configuration_associations)，顯示 [**檔案關聯組態** 對話方塊](../../dlg/configuration_associations/index)。
-2. 點擊 **「新增」** 按鈕輸入您想要與目前的組態相關聯的副檔名。
+1. Click
+![Properties for Current Configuration](../../images/properties.gif)
+on the Toolbar and display the **Associate** tab.
+2. Make sure that **Enable Association** is checked.
+3. Click the **Add** button and enter the extension you want to
+associate with the current configuration.

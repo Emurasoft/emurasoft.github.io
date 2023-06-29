@@ -1,3 +1,3 @@
-# Q. 每當我打開多個檔案時，我得到一個完整的新視窗。怎么做才能恢復到標籤頁？
+# Q. Whenever I open multiple files, I get a complete new window. How can I revert to Tabs?
 
-請確認在視窗功能表下的「啟用標籤頁」選項被勾選。
+Please make sure the "Enable Tabs" is checked on the Windows menu.

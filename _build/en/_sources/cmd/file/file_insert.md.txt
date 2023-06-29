@@ -1,26 +1,28 @@
-# 插入命令
+# Insert command
 
-### 摘要
+### Summary
 
-> 插入一個指定的檔案到目前的游標位置。
+> Inserts a specified file at the current cursor position.
 
-### 說明
+### Description
 
-> 這個命令會顯示 **插入** 對話方塊，讓您能選取一個您想要插入到目前的檔案的檔案。在選取一個檔案后，這個命令會讀取被選取的檔案并把它的內容插入到游標所在位置。
+> This command displays the **Insert** dialog box, which allows you to
+> select a file you want to insert into the current file. After a file is selected, this command
+> reads the selected file and inserts its contents at the cursor position.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **插入** \> **插入**
-- [全部命令](../tools/all_commands): **插入** \> **插入**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Insert** \> **Insert**
+- [All Commands](../tools/all_commands): **Insert** \> **Insert**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FILE\_INSERT (4108)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

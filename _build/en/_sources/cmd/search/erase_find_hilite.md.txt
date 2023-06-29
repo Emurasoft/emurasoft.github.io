@@ -1,28 +1,29 @@
-# 取消尋找亮顯命令
+# Erase Find Highlight command
 
-### 摘要
+### Summary
 
-> 清除搜尋字串的亮顯。
+> Erases highlights from search terms.
 
-### 說明
+### Description
 
-> 清除在目前的文檔中所有之前搜尋過的字串的亮顯。
+> Erases all highlights for previously run search strings present on the current
+> document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **搜尋** \> **取消尋找亮顯**
-- [全部命令](../tools/all_commands): **搜尋**
-\> **取消尋找亮顯**
-- 工具列:
+- Default Menu: **Search** \> **Erase Find Highlight**
+- [All Commands](../tools/all_commands): **Search**
+\> **Erase Find Highlight**
+- Toolbar:
 ![](../../images/erasefindhilite.gif)
-- 狀態列: 無
-- 預設捷徑: ALT+F3
+- Status Bar: None
+- Default Shortcut Key: ALT+F3
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_ERASE\_FIND\_HILITE (4206)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

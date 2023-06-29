@@ -1,24 +1,29 @@
 # Editor\_LineIndex
 
-檢索在 EmEditor 中一個指定行的第一個字元的字元索引。一個字元索引是以零為初始值的編輯控件起始處的字元的索引。您能直接用該內嵌函式或明確地發送 [EE\_LINE\_INDEX](../message/ee_line_index)
-消息。
+Retrieves the character index of the first character of a specified line in
+EmEditor. A character index is the zero-based index of the character from the
+beginning of the edit control. You can use this inline function or explicitly send
+the [EE\_LINE\_INDEX](../message/ee_line_index)
+message.
 
 Editor\_LineIndex( HWND hwnd, BOOL bLogical, int yLine );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _bLogical_
 
-> 指定 TRUE，如果行號是按邏輯坐標標示。指定 FALSE，如果行號是按顯示坐標標示。
+> Specifies TRUE if the line number is by the logical coordinates. Specifies
+> FALSE if the line number is by the display coordinates.
 
 _yLine_
 
-> 指定從零開始的行號。-1 代表目前的行 (游標所在行) 的行號。
+> Specifies the zero-based line number. A value of -1 specifies the current
+> line number (the line that contains the cursor).
 
-## 返回值
+## Return Values
 
-> 返回值是在 _yLine_ 參數中指定的行的字元索引。
+> The return value is the character index of the line specified in the _yLine_ parameter.

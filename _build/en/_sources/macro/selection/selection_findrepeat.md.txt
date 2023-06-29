@@ -1,6 +1,6 @@
-# FindRepeat 方法
+# FindRepeat Method
 
-對同一個字串重複上一次搜尋。
+Repeats the previous search for the same string.
 
 #### \[JavaScript\]
 
@@ -10,18 +10,18 @@ document.selection. **FindRepeat**( _nFlags_ );
 
 document.selection. **FindRepeat** _nFlags_
 
-## 參數
+## Parameters
 
 _nFlags_
 
-指定一個下列值的組合:
+Specifies a combination of the following values:
 
 |     |     |
 | --- | --- |
-| eeFindRepeatNext | 從游標處往下搜尋字串。 |
-| eeFindRepeatPrevious | 從游標處往上搜尋字串。 |
-| eeFindRepeatWord | 搜尋游標處的單字如果選定內容為空的話。 |
+| eeFindRepeatNext | Searches downward from the cursor position. |
+| eeFindRepeatPrevious | Searches upward from the cursor position. |
+| eeFindRepeatWord | Searches for the word at the cursor position if the selection is empty. |
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

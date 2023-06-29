@@ -1,25 +1,25 @@
-# Q. 怎么安裝 EmEditor 語法檔案？
+# Q. How can I install an EmEditor syntax file?
 
-1\. 在「工具」下拉單中，把游標指向「選擇組態」。
+1\. Choose Select Configuration under the Tools menu.
 
-2\. 在清單的底部點擊「定義組態」。
+2\. Click Define Configuration at the very bottom of the list.
 
-3\. 點擊「新增」按鈕，選擇「使用預設組態」然后點擊「確定」。
+3\. Click the New button, select Use Default Configuration and click OK.
 
-4\. 輸入一個描述性名稱然后按歸位。
+4\. Enter a descriptive name and click Enter.
 
-5\. 點擊一下「屬性」按鈕，然后選擇「亮顯 (1)」頁面。
+5\. Click the Properties button and select the Highlight (1) page.
 
-6\. 點擊「導入」鍵，打開合適的語法檔案。如果「匯入」按鈕不可用，請檢查「啟用關鍵字亮顯」下的下拉清單方塊中是否選擇了「僅使用者定義的字串」或「使用者定義的字串和預設關鍵字」。
+6\. Click on the Import button, locate, and open the appropriate syntax file. If the "Import" button is disabled, check if "Only User Defined Strings" or "Both User-Defined Strings and Default Keywords" is selected in the drop-down list box under the "Enable Keyword Highlight".
 
-7\. 最后，點擊「OK」關閉「組態屬性」對話方塊。
+7\. Finally, click on OK to close the Properties dialog box and click on Close to close the Configurations dialog box.
 
-如果您想要啟用關聯的副檔名或指定一個副檔名的話，要先把 EmEditor 設定為與該組態相關聯，請進行下面幾步操作:
+If you want to enable associated extensions and specify an extension or extensions that EmEditor should associate with the configuration, follow these additional steps:
 
-8\. 到“工具”下拉單中，選擇“關聯組態”。
+8\. Go to Associate Configuration on the Tools menu.
 
-9\. 點擊「新增」按鈕。
+9\. Click the New button.
 
-10\. 用萬用字元輸入副檔名，比如 “\*.ext"。
+Type the file extension with the wildcard, for example "\*.ext".
 
-11\. 選擇新設定的組態名稱。
+Select your newly defined configuration name.

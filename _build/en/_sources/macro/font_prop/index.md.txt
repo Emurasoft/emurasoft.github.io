@@ -1,17 +1,17 @@
-# FontProp 對象
+# FontProp Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [DisplayList](display_list) | 檢索 FontList 對象。 |
-| [PrintList](print_list) | 檢索 PrintList 對象。 |
-| [SameFontPrint](same_font_print) | 與自訂字型對話方塊中的 [**將顯示字型作為印表機字型** 核取方塊](../../dlg/properties/font/index) 相對應。 |
-| [UsePrinterFont](use_printer_font) | 與自訂字型對話方塊中的 [**在下方的清單中包含預設的印表機字型** 核取方塊](../../dlg/properties/font/index) 相對應。 |
+| [DisplayList](display_list) | Retrieves the FontList object. |
+| [PrintList](print_list) | Retrieves the PrintList object. |
+| [SameFontPrint](same_font_print) | Corresponds to the [**Use Display Font as Printer Fon** t check box](../../dlg/properties/font/index) in the Customize Font dialog <br> box. |
+| [UsePrinterFont](use_printer_font) | Corresponds to the [**Include**\<br>**Default Printer Fonts in Lists Below** check box](../../dlg/properties/font/index) in the Customize Font dialog box. |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

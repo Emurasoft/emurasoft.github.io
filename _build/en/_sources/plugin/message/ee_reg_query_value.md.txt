@@ -1,6 +1,7 @@
 # EE\_REG\_QUERY\_VALUE
 
-根據 EmEditor 的設定，從注冊表或一個 INI 檔案中檢索數據的特定值。您能明確地發送該消息或用 [Editor\_RegQueryValue](../macro/editor_regqueryvalue) 內嵌函式。
+Retrieves the data for the specified value from the Registry or an INI file depending on the EmEditor settings. You can send this message explicitly or
+by using the [Editor\_RegQueryValue](../macro/editor_regqueryvalue) inline function.
 
 EE\_REG\_QUERY\_VALUE
 
@@ -8,18 +9,18 @@ wParam = 0;
 
 (REG\_QUERY\_VALUE\_INFO\*)lParam = pRegQueryValueInfo;
 
-## 參數
+## Parameters
 
 _pRegSetValueInfo_
 
-> 指針指向 [REG\_QUERY\_VALUE\_INFO 結構](../structure/reg_query_value_info)。
+> Pointer to the [REG\_QUERY\_VALUE\_INFO structure](../structure/reg_query_value_info).
 
-## 返回值
+## Return Values
 
-> 如果消息成功，返回值是 ERROR\_SUCCESS。
+> If the message succeeds, the return value is ERROR\_SUCCESS.
 >
-> 如果消息不成功，返回值是一個在 Winerror.h 中被定義的非零的錯誤代碼。
+> If the message fails, the return value is a nonzero error code defined in Winerror.h.
 
-## 支持版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Version 7.00 or later.

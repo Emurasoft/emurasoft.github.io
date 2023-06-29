@@ -1,3 +1,4 @@
-# 動態連結庫 (DLL)
+# Dynamic Link Library (DLL)
 
-一個執行能用於 Windows 程式中的函數或數據的資源庫。
+A library of executable functions or data that can be used by a Windows
+application.

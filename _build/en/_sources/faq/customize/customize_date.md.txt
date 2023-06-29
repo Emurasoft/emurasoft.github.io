@@ -1,3 +1,4 @@
-# Q. 怎么讓插入的日期年份以4位數顯示？
+# Q. How can I make the year appear as 4 digits when I insert dates?
 
-請到「控制面板」中的「區域設置」設定日期的顯示方式。這與記事本(Notepad)中的規范是一樣的。
+Customize the date format in the Locale, Control Panel. This specification
+is the same as Notepad.

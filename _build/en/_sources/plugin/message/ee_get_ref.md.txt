@@ -1,7 +1,8 @@
 # EE\_GET\_REF
 
-檢索一個指定外掛程式的引用號。您能明確地發送該消息或用
-[Editor\_GetRef](../macro/editor_getref) 內嵌函式。
+Retrieves the reference number of a specified plug-in. You can send this
+message explicitly or use the
+[Editor\_GetRef](../macro/editor_getref) inline function.
 
 EE\_GET\_REF
 
@@ -9,12 +10,14 @@ wParam = 0;
 
 lParam = (LPARAM)(ATOM)atom;
 
-## 參數
+## Parameters
 
 _atom_
 
-> 指定一個指定外掛程式檔案名的 atom。
+> Specifies the atom of a specified plug-in file name.
 
-## 返回值
+## Return Values
 
-> 返回值是一個指定外掛程式的引用號。如果返回值為零，指定的外掛程式能從 EmEditor 上安全卸載。
+> The return value is the reference number of a specified plug-in. If the
+> return value is zero, the specified plug-in can be safely unloaded from
+> EmEditor.

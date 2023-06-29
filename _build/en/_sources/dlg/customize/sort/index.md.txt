@@ -1,67 +1,71 @@
-# 「排序」頁面
+# Sort page
 
-**排序** 頁面讓你能自訂與排序功能相關的設定。
+The Sort page allows you to customize settings related to sort function.
 
-### 「快速二進位比較」核取方塊
+### Fast Binary Comparison check box
 
-如果勾選該選項，快速二進位比較會被用來排序。當該選項被勾選時，區域設置信息會被忽略。
+If this is checked, fast binary comparison is used to sort. The locale information is ignored when this is checked.
 
-### 「穩定排序」核取方塊
+### Stable Sort check box
 
-勾選該選項會啟用穩定排序。穩定排序維護記錄的相對順序。穩定排序通常較慢。
+If this is checked, stable sort is used. The stable sort maintains the relative order of records. The stable sort is usually slower.
 
-### 「忽略大小寫」核取方塊
+### Ignore case check box
 
-如果該選項被勾選了，大小寫會被忽略。
+If this is checked, case is ignored.
 
-### 「不區分平假名與片假名字元」核取方塊
+### Do not differentiate between Hiragana and Katakana characters check box
 
-如果該選項被勾選了，相應的平假名與片假名字元相等。
+If this is checked, corresponding Hiragana and Katakana characters compare as equal.
 
-### 「忽略不佔空間的組合字元，例如讀音符號、dakuten（日文中的濁點）和 handakuten（日文中的半濁點）」核取方塊
+### Ignore nonspacing combining characters, such as diacritics, dakuten, and handakuten check box
 
-如果該選項被勾選了，EmEditor 會忽略不佔空間的組合字元，例如讀音符號、dakuten（日文中的濁點）和 handakuten（日文中的半濁點）。
+If this is checked, nonspacing combining characters, such as diacritics, dakuten, and handakuten, are ignored.
 
-### 「忽略符號」核取方塊
+### Ignore symbols check box
 
-如果該選項被勾選了，符號會被忽略。
+If this is checked, symbols are ignored.
 
-### 「不區分半形與全形字元」核取方塊
+### Do not differentiate between a half-width and a full-width characters check box
 
-如果該選項被勾選了，半形與全形字元之間的差異會被忽略。全形形式是一種用於中文和日文腳本中的獨特格式。
+If this is checked, the difference between half-width and full-width characters is ignored. The full-width form is a formatting distinction used in Chinese and Japanese scripts.
 
-### 「將標點符號視為符號」核取方塊
+### Treat punctuation marks the same as symbols check box
 
-連字號和縮寫符號被視為正常字元。 這在預設情況下是關閉的，以確保按字母排序時包含連連字號或縮寫符號的單字是符合的。
+Hyphen and apostrophe are treated as normal characters. This is off by default to ensure that words containing hyphen or apostrophe are matched when sorting by letter.
 
-### 「將數字視為序號」核取方塊
+### Treat digits as numbers check box
 
-如果該選項被勾選了，數字會作為序號被排序，即使用 **字母升序** 或 **字母降序** 命令。例如，"2" 會排在 "10" 之前。
+If this is checked, digits are sorted as numbers even when using **Sort A to Z** or **Sort Z to A** commands. For example, "2" is sorted before "10".
 
-### 「對數字進行排序時忽略開頭的非數字字元」核取方塊
+### Ignore leading non-numeric characters when sorting numbers check box
 
-如果該選項被勾選了，排序時前導非數字字元會被忽略。
+If this is checked, leading non-numeric characters are ignored when using **Sort Smallest to Largest** or **Sort Largest to Smallest** commands.
 
-### 「比較 CSV 文檔儲存格中未加引號的字串」核取方塊
+### Treat full-width characters as 2 characters when sorting by length check box
 
-比較 CSV 文檔儲存格中未加引號的字串。 例如，當儲存格字串是 _"a""b"_ 時，要比較的實際字串將是 _a"b_。
+If this is checked, full width characters are treated as 2 characters when using **Sort Shortest to Longest** or **Sort Longest to Shortest** commands.
 
-### 「當存在垂直選擇或多重選擇時，僅檢查選取的字串」核取方塊
+### Compare unquoted strings in cells of CSV documents check box
 
-當存在垂直選擇或多重選擇時，僅用選取的字串來排序。
+Compares unquoted strings in cells of CSV documents. For instance, when a cell strings is _"a""b"_, the actual string to compare will be _a"b_.
 
-### 「按出現次數對相同的字串進行群組」核取方塊
+### Inspect only selected strings when vertical selection or multiple selections exist check box
 
-如果該選項被勾選了，EmEditor 會按出現次數對相同的字串進行群組。
+Inspects only selected strings for sort when vertical selection or multiple selections exist.
 
-### 「允許數字分位」核取方塊
+### Group identical strings when sort by occurrence check box
 
-允許對數字進行數字分位。數字群組字元取決於「地區設定」下拉清單方塊中指定的地區。此選項會影響狀態列上所顯示的總和和平均值以及搜索、篩選和排序命令的數字範圍運算式。
+Group identical strings when sort by occurrence.
 
-### 「地區設定」下拉清單方塊
+### Allow digit grouping check box
 
-指定用於排序的地區設定。
+Allows digit grouping in numbers. The digit grouping character depends on the locale specified in the Locale drop-down list box. This option affects the Sum and Average values on the status bar and the Number Range expressions for the Search and Filter as well as Sort commands.
 
-### 「重設」按鈕
+### Locale drop-down list box
 
-重設為預設設定。
+Specifies the locale used for the sort.
+
+### Reset button
+
+Resets to default settings.

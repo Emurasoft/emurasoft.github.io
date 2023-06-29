@@ -1,26 +1,27 @@
-# 自訂巨集命令
+# Customize Macros command
 
-### 摘要
+### Summary
 
-> 自訂巨集。
+> Customizes macros.
 
-### 說明
+### Description
 
-> 顯示 [**自訂巨集** 對話方塊](../../dlg/macro_customize/index)， 讓您能自訂巨集的設定。
+> Displays the [**Customize Macros** \
+> dialog box](../../dlg/macro_customize/index), where you can customize macro settings.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **巨集** \> **自訂**
-- [全部命令](../tools/all_commands): **巨集**
-\> **自訂**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Macros** \> **Customize**
+- [All Commands](../tools/all_commands): **Macros**
+\> **Customize**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE\_MACRO (4350)
 
-### 巨集
+### Macros
 
-> 不可用。
+> Not available.

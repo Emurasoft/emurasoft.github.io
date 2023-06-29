@@ -1,6 +1,7 @@
-# HighlightMatchingTag 屬性
+# HighlightMatchingTag Property
 
-與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **亮顯配對標籤** 核取方塊相對應。
+Corresponds to the **Highlight**
+**Matching Tag** check box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +17,6 @@ object. **HighlightMatchingTag**
 
 object. **HighlightMatchingTag** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 13.0.4 或之後的版本。
+Supported on EmEditor Professional Version 13.0.4 or later.

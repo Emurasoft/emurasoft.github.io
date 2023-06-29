@@ -1,6 +1,6 @@
-# Collapse 方法
+# Collapse Method
 
-折疊所選的部分到活動點。
+Collapses the selection to the active point.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document.selection. **Collapse**();
 
 document.selection. **Collapse**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

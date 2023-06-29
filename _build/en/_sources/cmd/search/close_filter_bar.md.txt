@@ -1,27 +1,27 @@
-# 關閉篩選工具列命令
+# Close Filter Toolbar command
 
-### 摘要
+### Summary
 
-> 關閉篩選工具列。
+> Closes the Filter Toolbar.
 
-### 說明
+### Description
 
-> 關閉篩選工具列。
+> Closes the Filter Toolbar.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜索**
-\> **篩選工具列** \> **關閉篩選工具列**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Close Filter Toolbar**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_CLOSE\_FILTER\_BAR (3913)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

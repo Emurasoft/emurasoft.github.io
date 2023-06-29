@@ -1,127 +1,116 @@
-# 「編輯」頁面
+# Edit page
 
-**編輯** 頁面讓你能自訂與編輯操作相關的設定。
+The **Edit** page allows you to customize settings related to edit
+operations.
 
-### 「使用規則運算式指定標記格式」核取方塊
+### Specify Tag Format using Regular Expressions check box
 
-使用規則運算式來指定標記格式。
+Uses regular expressions to specify the tag format.
 
-### 「尋找」文字方塊
+### Find text box
 
-指定一個規則運算式來符合標記。
+Specifies a regular expression to match a tag.
 
-### 「檔案名」文字方塊
+### File Name text box
 
-指定一個規則運算式來符合檔案名。
+Specifies a regular expression to match a file name.
 
-### 「行號」文字方塊
+### Line text box
 
-指定一個規則運算式來符合行號。
+Specifies a regular expression to match a line number.
 
-### 「欄」文字方塊
+### Column text box
 
-指定一個規則運算式來符合欄。
+Specifies a regular expression to match a column number.
 
-### 「儲存插入/覆寫模式」核取方塊
+### Save Insert/Overwrite Mode check box
 
-如果這個核取方塊被勾選了， **插入/覆寫** 模式會被儲存。當下一次你開啟一個新的 EmEditor 視窗時， **插入/覆寫** 模式會被還原。如果沒有勾選這個核取方塊，EmEditor 會一直以插入模式開始。
+If this box is checked, **Insert/Overwrite** mode will be saved, and the next time
+you start a new EmEditor window, the **Insert/Overwrite** mode will restored. If
+this box is not checked, EmEditor always starts with the insert mode.
 
-### 「啟用多重選取」核取方塊
+### Enable Multiple Selections check box
 
-指定你是否想要啟用多重選取。要做多重選取，在選取一塊區域后，用游標加 CTRL 鍵選取另一塊區域。另外，你也可以按 F8 鍵，移動游標來延伸選區，再按 F8 完成選取，把游標移動到下一個選取位置，重複這些步驟直到你選取了所有的選取區域。
+Specifies whether you want to enable multiple selections. To make multiple selections, after making one selection, make another selection with the mouse while pressing the CTRL key. Alternatively, you can press the F8 key, move the cursor to extend the selection, press the F8 key again to finish the selection, move the cursor again to go to the next selection position, and repeat this procedure until you make all selections.
 
-### 「以唯讀方式檢視 Internet Explorer 中用「檢視原始檔」打開的臨時檔案」核取方塊
+### Read Only when a temporary file is opened with View Source on Internet Explorer check box
 
-當一個臨時檔案在 IE中用「檢視源檔案」打開時，以唯讀方式檢視。
+Read Only when a temporary file is opened with View Source in Internet Explorer.
 
-### 「當 EmEditor 無法打開剪貼簿時提示」核取方塊
+### Prompt when EmEditor cannot open the Clipboard check box
 
-當 EmEditor 無法打開剪貼簿時，顯示一個對話方塊提醒使用者。
+Displays a dialog box to prompt users when EmEditor cannot open the Clipboard.
 
-### 「保持水平游標位置」核取方塊
+### Keep Horizontal Cursor Position check box
 
-在插入一個字串并向上/下移動游標之後，把游標返回到與插入字串之前相同的水平位置上。
+After inserting a string and moving the cursor up or down, returns the cursor position to the same horizontal position as the position before inserting the string.
 
-### 「逐格復原」核取方塊（需要重新啟動 EmEditor）
+### Undo Character by Character (need to restart EmEditor) check box
 
-如果勾選了這個核取方塊， [**復原** 命令](../../../cmd/edit/edit_undo) 會逐格復原單字。勾選這個選項還會影響到巨集，當錄制巨集時，會逐格錄制一個插入命令。要激活這個設定，你需要重啟 EmEditor。
+If this box is checked, the [**Undo** command](../../../cmd/edit/edit_undo) will undo the word, character by character.
+This action will also affect macros which record an insert command, character by character. To activate the new settings, you need to restart EmEditor.
 
-### 「總是丟棄冗長的復原資訊來加速」核取方塊
+### Always Discard Lengthy Undo Information to Accelerate check box
 
-總是丟棄冗長的復原資訊。如果符合以下條件之一，EmEditor 會決定丟棄復原資訊：（1）行數大于3,000,000行。（2）字元數大于100,000,000。（3）正在使用的系統實體記憶體的百分比大于 **自訂** 對話方塊的 **進階** 頁中指定的 **最大記憶體大小**。
+Always discards lengthy undo information. EmEditor determines that Undo information is
+lengthy enough to discard if one of the following conditions is met: (1) the number of lines is greater than 3,000,000 lines. (2) the number of characters is greater than 100,000,000. (3) the percentage of the system physical memory in use is greater than the **Maximum Memory Size** specified in the **Advanced** page of the **Customize** dialog box.
 
-### 「當沒有可用的復原信息時進行提示」核取方塊
+### Prompt when No Undo Information is Available check box
 
-當沒有可用的復原信息時，顯示一個對話方塊提醒使用者。
+Displays a dialog box to prompt users when no Undo information is available.
 
-### 「自動復制」核取方塊
+### Auto Copy check box
 
-這個選項讓你能不用選擇復制命令 (CTRL + C)，就復制選取部分到剪貼簿上。當開啟 **自動復制** 模式時，選取部分會立即被復制到剪貼簿上，即使之後取消選取、被刪除，或切換活動文檔，亦或是編輯器失去鍵盤焦點。該功能不能在 CSV 儲存格模式中使用。
+This option allows you to copy the selection automatically to the Clipboard without selecting the Copy command (CTRL + C). While the **Auto Copy** mode is on, the selection will be copied to the Clipboard immediately before the selection is deselected or deleted, immediately before the active document is switched, or the editor loses the keyboard focus. However, it does not work during the CSV cell mode.
 
-### 「當超長行存在時提示」核取方塊
+### Prompt when Very Long Lines Exist check box
 
-當文檔中存在很長的行時，顯示一個對話方塊來提示使用者。
+Displays a dialog box to prompt users when very long lines exist in the document.
 
-### 「將不明確寬度的字元視為全形」核取方塊
+### Treat Ambiguous Width Characters as Fullwidth check box
 
-將「 [Unicode 標準附錄 ＃11 - 東亞寬度](http://www.unicode.org/reports/tr11/) 中定義的不明確寬度的字元」 作為全形字元。
+Treats ambiguous characters defined in " [Unicode Standard Annex #11 - East Asian Width](http://www.unicode.org/reports/tr11/)" as Fullwidth.
 
-### 「監視外部應用程式中的剪貼簿複製內容」核取方塊
+### Add Additional Information to the Undo/Redo History check box
 
-如果這個核取方塊被勾選了，EmEditor 將監控在外部應用程式上複製的剪貼簿內容。
+If this is checked, EmEditor will add additional information, such as command name and bookmarks positions, in the comment when you export the Undo/Redo history.
 
-### 「在啟動時檢索 Windows 剪貼簿歷史記錄」核取方塊
+### Always insert newlines when copying multiple selections check box
 
-如果這個核取方塊被勾選了，EmEditor 將在啟動時檢索 Windows 剪貼簿歷史記錄，以便讓 EmEditor 的剪貼簿歷史記錄包括啟動 EmEditor 之前的所有 Windows 上的剪貼簿歷史記錄。此選項僅在操作系統是 Windows 10 Build 18362 或更高版本時才可用，並且必須在 Windows 設定 - 剪貼簿上啟用剪貼簿歷史記錄。
+If this is checked, EmEditor will insert newline characters when you copy multiple selections so that it can paste to another multiple selections.
 
-### 「貼上時顯示剪貼簿歷程記錄」核取方塊
+### Keep selections while typing in multiple selections check box
 
-如果這個核取方塊被勾選了，在執行 **[貼上](../../../cmd/edit/edit_paste)** 命令時，EmEditor 會出現 **顯示剪貼簿歷史記錄** 按鈕。點擊該按鈕或執行 **顯示剪貼簿記錄** 命令（預設捷徑：CTRL + SHIFT + V）會顯示 **剪貼簿歷史記錄** 清單方塊，讓您能快速選擇以前使用的剪貼簿上的文字。
+If this is checked, EmEditor will keep selections while typing in multiple selections, and confine the cursors to the multiple selection range when you move the cursor via arrow keys.
 
-### 「將最近使用的字串移動到剪貼簿歷史記錄的頂部」核取方塊
+### Alternative behavior of the Word Right command check box
 
-如果勾選了該核取方塊，EmEditor 會將最近使用的字串移動到剪貼簿歷史記錄的頂部。
+If this is checked, EmEditor will use an alternative behavior of the [**Word Right**](../../../cmd/edit/right_word) command.
 
-### 「添加額外的資訊到復原/重做歷史記錄中」核取方塊
+### Alternative behavior of the Word Left command check box
 
-如果這個核取方塊被勾選了，在匯出復原/重做歷史記錄時，EmEditor 將在注釋中添加其他資訊，例如命令名稱和書籤位置。
+If this is checked, EmEditor will use an alternative behavior of the [**Word Left**](../../../cmd/edit/left_word) command.
 
-### 「總是插入新行複製多個選區時」核取方塊
+### Ignore the last character in the selection on the Insert/Remove Newline Characters commands check box
 
-如果這個核取方塊被勾選了，EmEditor 會複製多個選區，然後貼上到另一處的多選區。
+If this is checked, EmEditor will ignore the last character in the selection when executing the Insert/Remove Newline Characters commands.
 
-### 「當在多選區輸入時保持選區」核取方塊
+### Inspect only selected strings when vertical selection or multiple selections exist (Delete Duplicates command) check box
 
-如果這個核取方塊被勾選了，當您移動游標時，EmEditor 會把游標局限于於選區範圍內。
+If this is checked, EmEditor will inspect only selected strings for duplication when vertical selection or multiple selections exist.
 
-### 「轉換右移一個單字命令的行為」核取方塊
+### Extend selection on the Duplicate Lines/Columns commands check box
 
-如果這個核取方塊被勾選了，EmEditor 會轉換 [**右移一個單字**](../../../cmd/edit/right_word) 命令的忽略空格的行為。
+If this is checked, EmEditor will extend selection when you run Duplicate Lines/Columns commands.
 
-### 「轉換左移一個單字命令的行為」核取方塊
+### Locale-dependent Uppercase/Lowercase check box
 
-如果這個核取方塊被勾選了，EmEditor 會轉換 [**左移一個單字**](../../../cmd/edit/left_word) 命令的忽略空格的行為。
+If this is checked, the **Uppercase**, **Lowercase**, and **Capitalize** commands will depend on the locale specified in the **Sort** page of the **Customize** dialog box.
 
-### 「執行「插入/刪除換行符號」命令時，忽略選擇范圍中的最后一個字元」核取方塊
+### Treat the following characters as alphanumeric text box
 
-如果這個核取方塊被勾選了，EmEditor 會忽略選擇范圍中的最后一個字元當執行「插入/刪除換行符號」命令時。
+Treats the following characters as alphanumeric when editing. For instance, when you double-click a word, these characters are treated as a part of the word. However, this setting does not apply to the regular expression \\w operator in the Find dialog box.
 
-### 「當存在垂直選擇或多重選擇時，僅檢查選取的字串 (刪除重複行命令)」核取方塊
+### Reset button
 
-如果勾選了該核取方塊，當存在垂直選擇或多重選擇時，EmEditor 僅檢查選取的字串是否有重複。
-
-### 「用複製行/欄命令時延伸選區」核取方塊
-
-如果勾選了該核取方塊，當存在垂直選擇或多重選擇時，EmEditor 僅檢查選取的字串是否有重複。
-
-### 「取決於地區設定的大小寫」核取方塊
-
-如果勾選了該核取方塊， **大寫**、 **小寫** 和 **首字母大寫** 命令將取決於 **自訂** 對話方塊中 **排序** 頁面上指定的地區設定。
-
-### 「將以下字元識別為英數字元」文字方塊
-
-在編輯時，將以下字元識別為英數字元。例如，當你雙擊一個單字時，這些字元被識別為是單字的一部分。但是，此設定不適用於「尋找」對話方塊中規則運算式 \\w 運算子。
-
-### 「重設」按鈕
-
-重設為預設設置。
+Resets to default settings.

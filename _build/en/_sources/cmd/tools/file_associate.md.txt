@@ -1,27 +1,28 @@
-# 與 EmEditor 關聯命令
+# Associate with EmEditor command
 
-### 摘要
+### Summary
 
-> 關聯檔案副檔名。
+> Associates file extensions with EmEditor.
 
-### 說明
+### Description
 
-> 顯示 [**與 EmEditor 關聯** 對話方塊](../../dlg/file_associate/index)，讓使用者可以指定要與 EmEditor 相關聯的檔案副檔名。
+> Displays the [**Associate with EmEditor** dialog box](../../dlg/file_associate/index),
+> where the user can specify which file extensions to associate with EmEditor.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [所有命令](all_commands): **工具** >
-**與 EmEditor 關聯**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](all_commands): **Tools** >
+**Associate with EmEditor**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_FILE\_ASSOCIATE (4223)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

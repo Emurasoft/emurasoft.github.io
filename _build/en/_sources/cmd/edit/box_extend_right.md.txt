@@ -1,27 +1,27 @@
-# 向右延伸一個字元 (垂直選擇模式)命令
+# Char Right Extend (Vertical Mode) command
 
-### 摘要
+### Summary
 
-> 將垂直選擇向右延伸一個字元。
+> Extends the vertical selection one character to the right.
 
-### 說明
+### Description
 
-> 將垂直選擇向右延伸一個字元。
+> Extends the vertical selection one character to the right.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **延伸選區**
-\> **向右延伸一個字元 (垂直選擇模式)**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: ALT+CTRL+向右鍵
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Char Right Extend (Vertical Mode)**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: ALT+CTRL+RIGHT ARROW
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_BOX\_EXTEND\_RIGHT (4025)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

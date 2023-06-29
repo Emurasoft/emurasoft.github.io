@@ -1,7 +1,8 @@
 # EE\_GET\_VERSION
 
-返回版本號。您能明確地發送該消息或用 [Editor\_GetVersion](../macro/editor_getversion)
-內嵌函式。
+Returns the version number. You can send this message explicitly or by using
+the [Editor\_GetVersion](../macro/editor_getversion)
+inline function.
 
 EE\_GET\_VERSION
 
@@ -9,17 +10,18 @@ wParam = pnProductType;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _pnProductType_
 
-> 指定一個指針指向整數值。這個消息返回下列值之一。
+> Specifies a pointer to an integer value. This message returns one of the
+> following values.
 >
 > |     |     |
 > | --- | --- |
 > | VERSION\_PRO | EmEditor Professional |
 > | VERSION\_STD | EmEditor Standard |
 
-## 返回值
+## Return Values
 
-> 返回被乘以 1000 的版本號。
+> Returns the version number multiplied by 1000.

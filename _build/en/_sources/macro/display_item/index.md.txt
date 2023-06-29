@@ -1,19 +1,19 @@
-# DisplayItem 對象
+# DisplayItem Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [BackColor](back_color) | 指定對象的背景顏色。 |
-| [BackMode](back_mode) | 指定背景顏色模式。 |
-| [LineColor](line_color) | 指定對象的下劃線顏色。 |
-| [Style](style) | 指定對象的樣式。 |
-| [TextColor](text_color) | 指定對象的文字顏色。 |
-| [TextMode](text_mode) | 指定文字顏色模式。 |
+| [BackColor](back_color) | Specifies the background color of the object. |
+| [BackMode](back_mode) | Specifies the background color mode. |
+| [LineColor](line_color) | Specifies the underline color of the object. |
+| [Style](style) | Specifies the style of the object. |
+| [TextColor](text_color) | Specifies the text color of the object. |
+| [TextMode](text_mode) | Specifies the text color mode. |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

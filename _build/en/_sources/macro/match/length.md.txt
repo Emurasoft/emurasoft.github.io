@@ -1,6 +1,6 @@
-# Length 屬性
+# Length Property
 
-一個包含符合字串總長度的唯讀值。
+A read-only value that contains the total length of the matched string.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _l_ = m. **Length**;
 
 _l_ = m. **Length**;
 
-## 版本
+## Version
 
-支持 EmEditor Professional Version 15.9 或之後的版本。
+Supported on EmEditor Professional Version 15.9 or later.

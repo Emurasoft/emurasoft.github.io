@@ -1,110 +1,138 @@
 # Version 13
 
-2013年6月11日
+June 11, 2013
 
-## 一般新增功能
+## New General Features
 
-- [**多選區編輯**](../features/multiple_selection_editing)
-- [**為大檔案提供更多支持**](../features/more_support_for_very_large_files)
-- [**多個檔案的編碼轉換**](../features/multiple_file_encoding_conversion)
-- [**快速啟動**](../features/quick_launch)
-- 注釋/取消注釋指令除了作為行注釋之外，現在可作為開始/結尾注釋 (例如，/\\* ... \*/)。當選取的位置在一個行的中間時，EmEditor將自動選擇開始/結尾注釋。
-- 工作空間現在自動儲存所有的書籤。當重新加載檔案時，書籤將不再被刪除。
-- 當通過在「打開」對話方塊中指定一個新檔案名來創建新檔案時，EmEditor 將新建一個 0 位元的空檔案。
-- 您現在不需要通過分支項目就能在 EmEditor 說明中瀏覽所有控制項的信息。說明按鈕被棄用了，現在您可以通過按 **「?」** 按鈕或 **F1** 鍵來打開相關的說明。
-- 在進度視窗中有一個進度欄和百分比指示器。
-- 新的 **快速二進制比較 (忽略區域設置)** 讓排序更加快速。當 **穩定排序** 不是必需時，清除勾選穩定排序同樣讓排序速度加快。
-- [**多檔尋找** 對話方塊](../dlg/find_in_files/index) 現在會在 **檔案類型** 文字方塊中顯示所有與當前組態相關的檔案擴展名，當 **當前檔案類型** 從 **>** 功能表中被選取時。
-- 支持高 DPI 設定。
-- 新的版本讓您能通過鼠標選取用 **僅編輯選定區域模式** 命令所選取的文字之外的文字。
-- 安裝程序現在也能讓您把內容功能表添加到檔案總管中，并且讓 EmEditor 檢查更新。
-- 新添加的安裝程序指令行選項有: NOCHECKUPDATES，NOCONTEXTMENU，NODESKTOP，NOIEEDITOR，NOIEVIEW，NOPATH，NOSHORTCUT，NOTRAYICON，和 NOTXT。
-- EmEditor 免費版回來了！這次，EmEditor 免費版是與 EmEditor Professional 相同的執行檔案。在您試用 EmEditor Professional 30 天之後，您仍然可以使用 EmEditor 免費版，但免費版僅供個人使用。
-- 當一個用戶點擊視窗左邊緣或行號時，一個有關書籤功能的功能表會顯示。
-- /ff 和 /mc 命令行選項讓您能在一個打開的文檔中尋找一個字串。
+- [**Multiple Selection Editing**](../features/multiple_selection_editing)
+- [**More Support for Very Large Files**](../features/more_support_for_very_large_files)
+- [**Multiple File Encoding Conversions**](../features/multiple_file_encoding_conversion)
+- [**Quick Launch**](../features/quick_launch)
+- The Comment/Uncomment commands now work as begin/end comments (for example, /\* ... \*/) in addition to line comments. EmEditor will choose begin/end comments when the middle of a line is selected.
+- A workspace now saves all bookmarks automatically. Bookmarks will no longer be erased when reloading files.
+- When creating a new file by specifying a non-existing file name in the Open dialog box, EmEditor will now create a zero-byte empty file.
+- The Help for each dialog box now contains information about all the controls without needing to navigate through branch items. The Help button was deprecated, and pressing the **?** button or the **F1** key will bring up the pertinent Help.
+- A progress bar and a percentage indicator are now displayed in the progress window.
+- The new **Fast Binary Comparison (Ignore Locale)** allows for faster sort. Clearing the **Stable Sort** also allows for faster sort when stable sorting is not necessary.
+- [**Find in Files** dialog box](../dlg/find_in_files/index) now shows all associated file extensions of the current configuration in the **File Types** text box when **Current File Type** is selected from the **>** menu.
+- High-DPI settings supported.
+- The new version allows you to select text with the mouse outside of the text area specified by the **Narrowing** command.
+- The installer now allows you to add the Context Menu to Windows Explorer, and to have EmEditor check the updates.
+- The installer command line options were added: NOCHECKUPDATES, NOCONTEXTMENU, NODESKTOP, NOIEEDITOR, NOIEVIEW, NOPATH, NOSHORTCUT, NOTRAYICON, and NOTXT.
+- EmEditor Free is back! This time, EmEditor Free is the same executable file as EmEditor Professional. After you try EmEditor Professional for 30 days, you can still use EmEditor Free without purchasing the product for personal use only.
+- When a user clicks on the left edge or the line numbers, a menu related to bookmarks now appears.
+- /ff and /mc command line options allow you to find a string in an
+opened document.
 
-## 新增外掛程式功能
+## New Plug-in Features
 
-### HTML 欄外掛程式
+### HTML Bar plug-in
 
-- 現在用戶可以使用大尺寸的工具列。
+- The large-size toolbar is now available.
 
-### 大綱外掛程式
+### Outline plug-in
 
-- 可以把大綱作為導航顯示，優化速度。
+- Optimized for speed when displaying outline as guide.
 
-### 專案外掛程式
+### Projects plug-in
 
-- 項目直到被用到才會加載，使方案加載操作更加快速。
-- **重新加載** 指令被添加到內容功能表 \- **方案** 子功能表中。另外， **F5** 鍵被設置為 **重新加載** 命令的快捷鍵。
-- 專案外掛程式現在支持Visual Studio 嵌套項目。
+- Solution loading operates much more quickly, as projects are not loaded until they are used.
+- The **Reload** command was added in the context menu - **Solution** sub menu. Also, the **F5** key was assigned as the
+**Reload** command.
+- The Projects plug-in now supports Visual Studio nested projects.
 
-## 新增選項
+## New options
 
-- [**以指定編碼全部儲存** 對話方塊](../dlg/save_all_as/index)
-- [**檔案關聯組態** 對話方塊](../dlg/configuration_associations/index)
-- [**將當前文檔分割為多個檔案** 精靈](../dlg/split_to_files/index)
-- [**合併檔案** 精靈](../dlg/combine_files/index)
-- **快速啟動** 視窗
-- 在 **自訂** 對話方塊中的 [**編輯** 頁面](../dlg/customize/edit/index) 上添加了: **啟用多重選取**， **當沒有可用的撤消信息時進行提示**，以及 **當 EmEditor 無法打開剪貼簿時提示** 的核取方塊。
-- 在 **自訂** 對話方塊中的 [**排序** 頁面](../dlg/customize/sort/index) 上添加了: **快速二進制比較** 核取方塊， **穩定排序** 核取方塊以及 **最大內存大小** 文字方塊。
-- 在 **自訂** 對話方塊中的 [**檢視** 頁面](../dlg/customize/view/index) 上添加了: **使用雙重緩存** 核取方塊。
-- 在 **自訂** 對話方塊中的 [**狀態列** 頁面](../dlg/customize/status/index) 上添加了: **內存大小**， **一級緩存大小**， **二級緩存大小**，and **已使用的物理內存百分比**，這3個勾選內容到清單上。
-- 在 **自訂** 對話方塊中的 [**進階** 頁面](../dlg/customize/advanced/index) 上添加了: **內存大小**， **一級緩存大小**,以及 **二級緩存大小** 文字方塊。
-- 在 [**尋找** 對話方塊](../dlg/find/index) 中， **選定的文字或游標處的單詞** 選項被添加到了 **尋找** 文字方塊旁邊的 **「>」** 下拉功能表中。
-- 在 [**多檔尋找** 對話方塊](../dlg/find_in_files/index) 中， **當前檔案擴展名** 被添加到 **檔案類型** 文字方塊旁邊的 **「>」** 下拉功能表中。
-- 在 [**定位/縮排** 對話方塊](../dlg/properties/general/indent/index) 中添加了 **僅首行縮排** 核取方塊。
-- 在 [**定義組態** 對話方塊](../dlg/configurations/index) 中添加了 **「設為預設值」** 和 **「關聯」** 兩個按鈕。
-- 在 [**外部工具屬性** 對話方塊](../dlg/tools/properties/index) 中， **$(AppDir)**， **$(AppDrive)**，和 **$(Clipboard)** 參數被添加到點擊 **「>」** 按鈕所快顯的功能表中。
-- **更名時在刪除舊檔案前提示** 核取方塊被添加到 [**儲存詳細信息** 對話方塊](../dlg/properties/file/save_details/index) 中
-- 在 [**插入編號** 對話方塊](../dlg/insert_numbering/index) 中添加了: **跳過空白行** 和 **于空白行之後重新計數** 的核取方塊。
-- 在 **自訂** 對話方塊中的 [**鼠標** 頁面](../dlg/customize/mouse/index) 上添加了: **按住 CTRL 鍵并單擊以選擇單詞** 的核取方塊。
-- 在 **自訂** 對話方塊中的 [**搜尋** 頁面](../dlg/customize/search/index) 上添加了: **區分大小寫** 和 **匹配整個單詞** 的核取方塊。這些選項也應用於 **[添加下一個符合的結果](../cmd/search/add_next_occurrence)** 以及 **[添加所有符合的結果](../cmd/search/select_all_occurrences)** 指令。
-- 在 **自訂** 對話方塊中的 [**搜尋** 頁面](../dlg/customize/search/index) 上添加了: **當達到文檔末尾時提示** 的核取方塊。
-- **儲存設置** 核取方塊被添加到了 **打開** 對話方塊中。
-- 在 **自訂標記** 對話方塊中的 [**標記清單** 頁面](../dlg/customize_markers/marker_list/index) 上添加了 **標題** 核取方塊和文字方塊.
-- **點擊引號內的檔案名打開檔案** 核取方塊被添加到了組態屬性中的 [**連結** 頁面](../dlg/properties/link/index) 上。
-- 更新了 **MinimalZen** 主題并把它列在了組態屬性中 [**顯示** 頁面](../dlg/properties/display/index) 上。MinimalZen 是由 ToadLoading 開發的。
+- The
+[**Save All with Encoding** dialog box](../dlg/save_all_as/index)
+- The
+[**Configuration Associations** dialog box](../dlg/configuration_associations/index)
+- The
+[**Split Current Document into Several Files** wizard](../dlg/split_to_files/index)
+- The
+[**Combine Documents into a Single File** wizard](../dlg/combine_files/index)
+- The
+**Quick Launch** window
+- The **Enable Multiple Selections**, **Prompt when No Undo**
+**Information is Available**, and the **Prompt when EmEditor cannot Open the Clipboard** check boxes in the
+[**Edit** page](../dlg/customize/edit/index) of the **Customize** dialog box.
+- The **Fast Binary Comparison** check box, the **Stable Sort** check box, and the **Minimum Memory Size** text box in the
+[**Sort** page](../dlg/customize/sort/index) of the **Customize** dialog box.
+- The **Use Double Buffering** check box in the
+[**View** page](../dlg/customize/view/index) of the **Customize** dialog box.
+- The **Memory Size**, **L1 Cache Size**, **L2 Cache Size**, and **percentage of physical memory in use** items were added to the list in the
+[**Status** page](../dlg/customize/status/index) of the **Customize** dialog box.
+- The **Memory Size**, **L1 Cache Size**, and **L2 Cache Size** text boxes in the [**Advanced** page](../dlg/customize/advanced/index) of the **Customize**
+dialog box.
+- The **Selected Text or Word at Cursor** item in the **>** drop-down menu by the **Find** text box in the
+[**Find** dialog box](../dlg/find/index).
+- The **Current File Extension** item in the **>** drop-down menu by the **File Types** text box in the
+[**Find in Files** dialog box](../dlg/find_in_files/index).
+- The **Indent only at newline characters** check box in the
+[**Tab/Indent** dialog box](../dlg/properties/general/indent/index).
+- The **Set as Default** button and the **Associations** button in the
+[**Define Configurations** dialog box](../dlg/configurations/index).
+- **$(AppDir)**, **$(AppDrive)**, and **$(Clipboard)** parameters were added to the menu displayed when the **>** button is clicked in the
+[**External Tool Properties** dialog box](../dlg/tools/properties/index).
+- The **Prompt before Deleting an Old File when Renaming** check box was added to the
+[**Save Details** dialog box](../dlg/properties/file/save_details/index).
+- The **Skip Empty Lines** and **Restart Numbering after Empty Lines** check boxes were added to the
+[**Insert Numbering** dialog box](../dlg/insert_numbering/index).
+- The **CTRL + Click to Select a Word** check box was added to the
+[**Mouse** page](../dlg/customize/mouse/index) of the **Customize**
+dialog box.
+- The **Match Case** and **Match Whole Word** check boxes were added to the
+[**Search** page](../dlg/customize/search/index) of the **Customize** dialog box. These options apply to the **[Add Next Occurrence](../cmd/search/add_next_occurrence)** and **[Select All Occurrences](../cmd/search/select_all_occurrences)**
+commands.
+- The **Prompt when End of Document is Reached** check box was added to the
+[**Search** page](../dlg/customize/search/index) of the **Customize** dialog box.
+- The **Save Settings** check box was added to the **Open** dialog box.
+- The **Title** check box and text box in the
+[**Marker List** page](../dlg/customize_markers/marker_list/index) of the **Customize Markers** dialog box.
+- The **Clicking a File Name in Quotes Opens the File** check box was added to the
+[**Link** page](../dlg/properties/link/index) of configuration properties.
+- The **MinimalZen** theme was updated and included in the [**Display** page](../dlg/properties/display/index) of configuration properties. The MinimalZen was
+developed by ToadLoading.
 
-## 新增命令
+## New commands
 
-- [選擇所有符合的結果](../cmd/search/select_all_occurrences)
-- [添加下一個符合的結果](../cmd/search/add_next_occurrence)
-- [添加下下個符合的結果](../cmd/search/add_next2_occurrence)
-- [將當前文檔分割為多個檔案](../cmd/tools/split_to_files)
-- [合併檔案](../cmd/tools/combine_files)
-- [快速啟動](../cmd/tools/search_all_commands)
-- [重復上一命令](../cmd/edit/repeat_last_command)
-- [用指定編碼全部儲存](../cmd/file/file_save_all_as)
-- [降級](../cmd/help/downgrade)
-- [升級](../cmd/help/upgrade)
-- [檔案關聯組態](../cmd/tools/configuration_associations)
-- [選擇行首](../cmd/edit/select_begin_lines)
-- [選擇行尾](../cmd/edit/select_end_lines)
-- [交換開始位置和結束位置](../cmd/edit/switch_start_end_select)
-- [選擇當前文檔中書籤標示行](../cmd/edit/bookmark_select)
-- [剪下當前文檔中書籤標示行](../cmd/edit/bookmark_cut)
-- [複製當前文檔中書籤標示行](../cmd/edit/bookmark_copy)
-- 尋找全部 (在「標記」工具列的右鍵功能表中)
+- [Select All Occurrences](../cmd/search/select_all_occurrences)
+- [Add Next Occurrence](../cmd/search/add_next_occurrence)
+- [Add Next Next Occurrence](../cmd/search/add_next2_occurrence)
+- [Split Current Document into Several Files](../cmd/tools/split_to_files)
+- [Combine Documents into a Single File](../cmd/tools/combine_files)
+- [Quick Launch](../cmd/tools/search_all_commands)
+- [Repeat Last Command](../cmd/edit/repeat_last_command)
+- [Save All with Encoding](../cmd/file/file_save_all_as)
+- [Downgrade](../cmd/help/downgrade)
+- [Upgrade](../cmd/help/upgrade)
+- [Associate Configuration](../cmd/tools/configuration_associations)
+- [Select Beginning of Lines](../cmd/edit/select_begin_lines)
+- [Select Ending of Lines](../cmd/edit/select_end_lines)
+- [Switch Starting Point and Ending Point](../cmd/edit/switch_start_end_select)
+- [Select Bookmarked Lines in This Document](../cmd/edit/bookmark_select)
+- [Cut Bookmarked Lines in This Document](../cmd/edit/bookmark_cut)
+- [Copy Bookmarked Lines in This Document](../cmd/edit/bookmark_copy)
+- Find All (Marker toolbar right-click menu)
 
-## 巨集的新增功能
+## Macro new features
 
-- [**Count** 屬性](../macro/selection/selection_count) 被添加到 **Selection** 對象中。
-- [**PromptRename** 屬性](../macro/file_save_prop/prompt_rename) 被添加到 **FileSaveProp** 對象中。
-- [**OpenFileInQuotes** 屬性](../macro/link_prop/open_file_in_quotes) 被添加到 **LinkProp** 對象中。
-- **eeFindSelectAll** 標志被添加到 [**Find** 方式](../macro/selection/selection_find) 中。
-- **iSel** 參數被添加到 [GetBottomPointX](../macro/selection/selection_getbottompointx)， [GetBottomPointY](../macro/selection/selection_getbottompointy)，
-[GetTopPointX](../macro/selection/selection_gettoppointx)，以及
-[GetTopPointY](../macro/selection/selection_gettoppointy) 方式中。
+- The [**Count** property](../macro/selection/selection_count) was added to the **Selection** object.
+- The [**PromptRename** property](../macro/file_save_prop/prompt_rename) was added to the **FileSaveProp** object.
+- The [**OpenFileInQuotes** property](../macro/link_prop/open_file_in_quotes) was added to the **LinkProp** object.
+- The **eeFindSelectAll** flag was added to the [**Find** method](../macro/selection/selection_find).
+- The **iSel** parameter was added to the [GetBottomPointX](../macro/selection/selection_getbottompointx), [GetBottomPointY](../macro/selection/selection_getbottompointy),
+[GetTopPointX](../macro/selection/selection_gettoppointx), and
+[GetTopPointY](../macro/selection/selection_gettoppointy) methods.
 
-## 外掛程式 API 新增功能
+## Plug-in API new features
 
 - [EE\_GET\_MULTI\_SEL](../plugin/message/ee_get_multi_sel)
-消息 ( [Editor\_GetMultiSel](../plugin/macro/editor_getmultisel)
-內嵌函式)
-- EI\_GET\_CMD\_LIST\_SIZE 標志 ( [EE\_INFO](../plugin/message/ee_info) 消息)
+message ( [Editor\_GetMultiSel](../plugin/macro/editor_getmultisel)
+inline function)
+- EI\_GET\_CMD\_LIST\_SIZE flag ( [EE\_INFO](../plugin/message/ee_info) message)
 - [EE\_SET\_OUTLINE\_ARRAY](../plugin/message/ee_set_outline_array)
-messsage ( [Editor\_SetOutlineArray](../plugin/macro/editor_setoutlinearray)
-內嵌函式)
-- [OUTLINE\_ARRAY\_INFO](../plugin/structure/outline_array_info) 結構
-- [EVENT\_UI\_CHANGED 事件](../plugin/event/index)
+message ( [Editor\_SetOutlineArray](../plugin/macro/editor_setoutlinearray)
+inline function)
+- [OUTLINE\_ARRAY\_INFO](../plugin/structure/outline_array_info) structure
+- [EVENT\_UI\_CHANGED event](../plugin/event/index)

@@ -1,19 +1,21 @@
 # Editor\_Free
 
-釋放一個指定的外掛程式。您能直接用該內嵌函式或明確地發送 [EE\_FREE](../message/ee_free) 消息。
+Frees a specified plug-in. You can use this inline function or explicitly send
+the [EE\_FREE](../message/ee_free) message.
 
 Editor\_Free( HWND hwnd, ATOM atom );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-通過被查詢的 Unicode 指定字元代碼。S
+Specifies the character code by Unicode to be queried.
 
 _atom_
 
-指定一個指定外掛程式檔案名的 atom。
+Specifies the atom of an specified plug-in file name.
 
-## 返回值
+## Return Values
 
-> 如果外掛程式被釋放，返回值是 TRUE。如果外掛程式沒有被釋放，返回值是 FALSE。
+> If the plug-in is freed, the return value is TRUE. If the plug-in is not
+> freed, the return value is FALSE.

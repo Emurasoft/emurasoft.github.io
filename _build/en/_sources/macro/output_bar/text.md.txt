@@ -1,6 +1,6 @@
-# Text 屬性
+# Text Property
 
-在匯出欄中檢索整個文字。
+Retrieves the entire text in the output bar.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _str_ = OutputBar. **Text**;
 
 _str_ = OutputBar. **Text**
 
-## 版本
+## Version
 
-支持 EmEditor Professional v20.5 或之後的版本。
+Supported on EmEditor Professional Version 20.5 or later.

@@ -1,27 +1,27 @@
-# 移動到上一個群組命令
+# Move to Previous Group command
 
-### 摘要
+### Summary
 
-> 移動目前的文檔到上一個群組中。
+> Moves the current document to the previous group.
 
-### 說明
+### Description
 
-> 移動目前的文檔到上一個群組中。 (重新合併為一個視窗)。
+> Moves the current document to the previous group (recombines into one window).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **視窗**
-\> **群組** \> **移動到上一個群組**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Window**
+\> **Group** \> **Move to Previous Group**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_MOVE\_PREV\_GROUP (4396)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

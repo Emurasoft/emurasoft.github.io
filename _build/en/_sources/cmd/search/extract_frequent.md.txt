@@ -1,27 +1,27 @@
-# 抽出常用字串命令
+# Extract Frequent Strings command
 
-### 摘要
+### Summary
 
-> 將常用字串抽出到新文檔中。這個命令會顯示 [**抽出常用字串** 對話方塊](../../dlg/extract_frequent/index)。
+> Extracts frequently used strings into a new document.
 
-### 說明
+### Description
 
-> 將常用字串抽出到新文檔中。
+> Extracts frequently used strings into a new document. This command displays the [**Extract Frequent Strings** dialog box](../../dlg/extract_frequent/index).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **搜索** \> **抽出常用字串**
-- [全部命令](../tools/all_commands): **搜索**
-\> **抽出常用字串**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Search** \> **Extract Frequent Strings**
+- [All Commands](../tools/all_commands): **Search**
+\> **Extract Frequent Strings**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_EXTRACT\_FREQUENT (4041)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

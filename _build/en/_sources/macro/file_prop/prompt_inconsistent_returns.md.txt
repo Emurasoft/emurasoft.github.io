@@ -1,6 +1,8 @@
-# PromptInconsistentReturns 屬性
+# PromptInconsistentReturns Property
 
-與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **換行方式不一致時進行提示** 核取方塊相對應。
+Corresponds to the **Prompt**
+**at Inconsistent Returns** check box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 #### \[JavaScript\]
 
@@ -16,6 +18,6 @@ object. **PromptInconsistentReturns**
 
 object. **PromptInconsistentReturns** = _b_
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

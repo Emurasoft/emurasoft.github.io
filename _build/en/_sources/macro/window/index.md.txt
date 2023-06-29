@@ -1,65 +1,65 @@
-# Window 對象
+# Window Object
 
-## 屬性
-
-|     |     |
-| --- | --- |
-| **[Caption](caption)** | 返回視窗的描述文字。 |
-| **[Children](children)** | 返回代表子視窗的 Windows 集合。. |
-| **[ClassName](class_name)** | 返回視窗的類名。 |
-| **[clipboardData](clipboarddata)** | 返回 clipboardData 對象。 |
-| **[CombineHistory](combine_history)** | 指定要不要合併復原/重做記錄。 |
-| **[DiscardUndo](discard_undo)** | 返回標志來表示 EmEditor 要是否丟棄撤銷信息以提高取代、插入或刪除的速度。 |
-| **[document](window_document)** | 返回 Document 對象。 |
-| [**DroppedFiles**](droppedfiles) | 返回 DroppedFiles 對象。 |
-| **[editor](window_editor)** | 返回 Editor 對象。 |
-| **[Enabled](enabled)** | 返回是否視窗啟用了游標和鍵盤輸入。 |
-| [**ExStyle**](exstyle) | 返回指定視窗的延伸樣式。 |
-| **[Height](height)** | 返回或設置視窗高度。 |
-| **[hWnd](hwnd)** | 檢索或設置視窗的句柄值。 |
-| [**Interface**](interface) | 返回 Interface 對象。 |
-| **[LeftX](leftx)** | 以像素為單位返回或設置指定視窗的水平位置。 |
-| **[OutputBar](output_bar)** | 返回 OutputBar 對象。 |
-| **[Parent](parent)** | 返回父視窗對象。 |
-| **[ProcessID](process_id)** | 返回進程標識符。 |
-| **[Redraw](window_redraw)** | 在 EmEditor 中允許或禁止重繪變更。 |
-| **[ScriptFullName](scriptfullname)** | 檢索目前的運行的巨集檔案的完整路徑以及檔案名稱。 |
-| **[ScriptName](scriptname)** | 僅檢索目前的運行的巨集檔案的檔案名。 |
-| [**Style**](style) | 返回指定視窗的樣式。 |
-| **[scrollX](window_scrollx)** | 返回捲軸的水平位置。 |
-| **[scrollY](window_scrolly)** | 返回捲軸的垂直位置。 |
-| **[shell](shell)** | 返回 Shell 對象。 |
-| **[status](window_status)** | 檢索或設置在狀態列上顯示的一個字串。 |
-| **[ThreadID](thread_id)** | 返回創建視窗的線程的標識符。 |
-| **[Top](top)** | 以像素為單位返回或設置指定視窗的垂直位置。 |
-| **[Valid](valid)** | 返回是否視窗句柄還有效。 |
-| **[Visible](visible)** | 返回是否視窗可見。 |
-| **[Width](width)** | 返回或設置視窗的寬度。 |
-
-## 方法
+## Properties
 
 |     |     |
 | --- | --- |
-| **[alert](window_alert)** | 在一個簡單的對話方塊中顯示一條消息和「OK」按鈕。 |
-| **[close](window_close)** | 關閉視窗。 |
-| **[confirm](window_confirm)** | 在一個簡單的對話方塊內顯示一條消息以及「OK」和「Cancel」按鈕。 |
-| **[CreatePopupMenu](createpopupmenu)** | 創建一個快顯功能表。 |
-| **[FindWindow](find_window)** | 通過類名和/或一個視窗標題尋找子 Window 對象。 |
-| **[FindWindowByID](find_window_by_id)** | 通過視窗標識符尋找子 Window 對象。 |
-| **[print](window_print)** | 顯示「列印」對話方塊。 |
-| **[prompt](window_prompt)** | 顯示一個對話方塊來輸入字串。 |
-| **[Quit](quit)** | 終止執行巨集。 |
-| **[scrollBy](window_scrollby)** | 通過指定的相對量捲動視窗。 |
-| **[scrollTo](window_scrollto)** | 把視窗捲動至指定的位置。 |
-| **[SetFocus](set_focus)** | 把鍵盤焦點設置到該視窗中。 |
-| **[SetForeground](set_foreground)** | 將視窗置前。 |
-| **[SetPosition](set_position)** | 設置視窗的大小和位置。 |
-| **[ShowTip](show_tip)** | 顯示工具提示。 |
-| **[Sleep](window_sleep)** | 在以毫秒為單位的指定時間內暫停執行巨集。 |
+| **[Caption](caption)** | Returns the caption text for the window. |
+| **[Children](children)** | Returns the Windows collection that represents child windows. |
+| **[ClassName](class_name)** | Returns the class name for the window. |
+| **[clipboardData](clipboarddata)** | Returns the clipboardData Object. |
+| **[CombineHistory](combine_history)** | Specifies the undo/redo history to be combined or not combined. |
+| **[DiscardUndo](discard_undo)** | Returns the flag to indicate whether EmEditor discards undo information to improve the speed of replace, insert or delete. |
+| **[document](window_document)** | Returns the Document Object. |
+| [**DroppedFiles**](droppedfiles) | Returns the DroppedFiles Object. |
+| **[editor](window_editor)** | Returns the Editor Object. |
+| **[Enabled](enabled)** | Returns whether the window is enabled for mouse and keyboard input. |
+| [**ExStyle**](exstyle) | Returns the extended styles of the specified window. |
+| **[Height](height)** | Returns or sets the height of the window. |
+| **[hWnd](hwnd)** | Retrieves or sets the handle value of the window. |
+| [**Interface**](interface) | Returns the Interface Object. |
+| **[LeftX](leftx)** | Returns or sets the horizontal position of the specified window, in pixels. |
+| **[OutputBar](output_bar)** | Returns the OutputBar Object. |
+| **[Parent](parent)** | Returns the parent window object. |
+| **[ProcessID](process_id)** | Returns the process identifier. |
+| **[Redraw](window_redraw)** | Allows changes in EmEditor to be redrawn or prevents changes in EmEditor from being redrawn. |
+| **[ScriptFullName](scriptfullname)** | Retrieves the complete path and file name of the currently running macro file. |
+| **[ScriptName](scriptname)** | Retrieves only the file name of the currently running macro file. |
+| [**Style**](style) | Returns the styles of the specified window. |
+| **[scrollX](window_scrollx)** | Returns the horizontal position of the scroll bar. |
+| **[scrollY](window_scrolly)** | Returns the vertical position of the scroll bar. |
+| **[shell](shell)** | Returns the Shell Object. |
+| **[status](window_status)** | Retrieves or sets a string displayed on the status bar. |
+| **[ThreadID](thread_id)** | Returns the identifier of the thread that created the window. |
+| **[Top](top)** | Returns or sets the vertical position of the specified window, in pixels. |
+| **[Valid](valid)** | Returns whether the window handle is valid. |
+| **[Visible](visible)** | Returns whether the window is visible. |
+| **[Width](width)** | Returns or sets the width of the window. |
 
-## 版本
+## Methods
 
-支持 EmEditor 4.00 或之後的版本。
+|     |     |
+| --- | --- |
+| **[alert](window_alert)** | Displays a message in a simple dialog box with the OK button. |
+| **[close](window_close)** | Closes the window. |
+| **[confirm](window_confirm)** | Displays a message in a simple dialog box with the OK button and the <br> Cancel button. |
+| **[CreatePopupMenu](createpopupmenu)** | Creates a popup menu. |
+| **[FindWindow](find_window)** | Finds the child Window object by a class name and/or by a window title. |
+| **[FindWindowByID](find_window_by_id)** | Finds the child window object by the window identifier. |
+| **[print](window_print)** | Displays the Print dialog box. |
+| **[prompt](window_prompt)** | Displays a dialog box to enter a string. |
+| **[Quit](quit)** | Terminates the macro execution. |
+| **[scrollBy](window_scrollby)** | Scrolls the window by the specified relative amount. |
+| **[scrollTo](window_scrollto)** | Scrolls the window to the specified position. |
+| **[SetFocus](set_focus)** | Sets the keyboard focus to the window. |
+| **[SetForeground](set_foreground)** | Brings the window to foreground. |
+| **[SetPosition](set_position)** | Sets the size and position of the window. |
+| **[ShowTip](show_tip)** | Displays a tooltip. |
+| **[Sleep](window_sleep)** | Pauses the macro execution for the specified time in milliseconds. |
+
+## Version
+
+Supported on EmEditor Professional Version 4.00 or later.
 
 ```{toctree}
 :maxdepth: 1

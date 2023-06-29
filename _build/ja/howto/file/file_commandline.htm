@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>コマンド ラインを指定するには &#8212; EmEditor  ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic_mod.css?v=0.7.0-1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="../../_static/js/theme.js"></script>
+    <script src="../../_static/js/petite-vue.js"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Replace <pro /> and <profree /> tags
+            for (const element of document.querySelectorAll(".pro")) {
+                element.textContent = "[P]";
+                element.setAttribute("title", "EmEditor Professional only");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+
+            for (const element of document.querySelectorAll(".profree")) {
+                element.textContent = "[PF]";
+                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.style.verticalAlign = "super";
+                element.style.fontSize = "smaller";
+                element.style.cursor = "help";
+            }
+        });
+    </script>
+
+    <link rel="index" title="索引" href="../../genindex.htm" />
+    <link rel="search" title="検索" href="../../search.htm" />
+    <link rel="next" title="すべて閉じるには" href="file_exitall.htm" />
+    <link rel="prev" title="バックアップを作成するには" href="file_backup.htm" /> 
+  </head>
+    <body data-dark_mode_code_blocks="true">
+
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../index.htm" title="Go to homepage">EmEditor  ドキュメント</a></h1>
+
+        <div class="languageDropdown">
+            <a href="#" onclick="toggleLanguageDropdown()">
+                
+                    日本語
+                
+            </a>
+            <div class="languageDropdown-content">
+                <a href="/emeditor-help/en/howto/file/file_commandline">English</a>
+                <a href="/emeditor-help/ja/howto/file/file_commandline">日本語</a>
+                <a href="/emeditor-help/ko/howto/file/file_commandline">한국어</a>
+                <a href="/emeditor-help/zh-cn/howto/file/file_commandline">简体中文</a>
+                <a href="/emeditor-help/zh-tw/howto/file/file_commandline">繁體中文</a>
+            </div>
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#333333;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#333333;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#333333;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#333333;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#333333;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#333333;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#333333;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#333333;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#333333;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../search.htm" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#333333" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+                <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">クイック検索</h3>
+                    <div class="searchformwrapper">
+                        <form class="search" action="../../search.htm" method="get">
+                            <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="検索" />
+                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                                search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+<script>
+    function toggleLanguageDropdown() {
+        const dropdown = document.querySelector('.languageDropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    window.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.languageDropdown');
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+</script>
+
+
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../cmd/index.htm">コマンド リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dlg/index.htm">ダイアログ ボックス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/index.htm">よくある質問と回答集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features/index.htm">特長</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.htm">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history/index.htm">履歴</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.htm">使い方</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../customize/index.htm">各種設定</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../edit/index.htm">編集</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.htm">ファイル操作</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="file_associate_all.htm">エクスプローラからファイルをダブルクリックして起動するには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_associate_config.htm">ファイルの拡張子を現在の設定に関連付けるには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_auto_save.htm">ファイルを定期的に自動で保存するには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_backup.htm">バックアップを作成するには</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">コマンド ラインを指定するには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_exitall.htm">すべて閉じるには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_ext_doubleclick.htm">エクスプローラから特定の拡張子のファイルをダブルクリックして EmEditor が起動できるようにするには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_new.htm">ファイルを新規に作成するには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_open.htm">既存のファイルを開くには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_recent_folder.htm">最近使ったフォルダからファイルを開くには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_save.htm">編集したファイルを保存するには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_saveallexit.htm">すべて保存して閉じるには</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_types.htm">EmEditor で編集できるファイルは</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gb18030.htm">GB18030 のファイルを開くことはできますか?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../macro/index.htm">マクロ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plugin/index.htm">プラグイン</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../search/index.htm">検索</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../view/index.htm">表示</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../window/index.htm">ウィンドウ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../link/index.htm">リンク</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../macro/index.htm">マクロ リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notice/index.htm">注意</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugin/index.htm">プラグイン リファレンス</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../purchase/index.htm">購入方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support/index.htm">サポート</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+    <div style="margin-left: 2vw">
+        <p>
+            
+                    <a href="../index.htm">使い方</a> &lt;
+                    <a href="index.htm">ファイル操作</a> &lt;
+                コマンド ラインを指定するには
+            
+        </p>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const elements = document.querySelectorAll("li.current");
+            if (elements.length > 0) {
+                elements[elements.length - 1].scrollIntoView({block: "center"});
+            }
+        });
+    </script>
+
+    
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>コマンド ラインを指定するには<a class="headerlink" href="#id1" title="この見出しへのパーマリンク">¶</a></h1>
+<p>Windows の [スタート] メニューの [ファイル名を指定して実行] を選択したり、コマンド プロンプトから指定して、EmEditor を実行することができます。コマンド ラインは、次のように指定します。</p>
+<section id="id2">
+<h2>構文<a class="headerlink" href="#id2" title="この見出しへのパーマリンク">¶</a></h2>
+<section id="id3">
+<h3>ファイルを開く<a class="headerlink" href="#id3" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>&quot; <em>File1</em>&quot; &quot; <em>File2</em>&quot; &quot; <em>File3</em>&quot; … [/r] [/fh] [/nr] [/sp] [/l <em>LineNumber</em>] [/cl <em>ColumnNumber</em>]
+[/cp <em>encoding</em>] [/c &quot; <em>Config</em>&quot;] [/mf &quot; <em>MacroPath</em>&quot;]</p>
+</div></blockquote>
+</section>
+<section id="id4">
+<h3>新規作成<a class="headerlink" href="#id4" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>[/cd] [/sp] [/c &quot; <em>Config</em>&quot;] [/mf &quot; <em>MacroPath</em>&quot;]</p>
+</div></blockquote>
+</section>
+<section id="id5">
+<h3>新規作成して貼り付け<a class="headerlink" href="#id5" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>[/i] [/cd] [/sp] [/c &quot; <em>Config</em>&quot;] [/mf &quot; <em>MacroPath</em>&quot;]</p>
+</div></blockquote>
+</section>
+<section id="id6">
+<h3>新規作成して引用付き貼り付け<a class="headerlink" href="#id6" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>[/iq] [/cd] [/sp] [/c &quot; <em>Config</em>&quot;] [/mf &quot; <em>MacroPath</em>&quot;]</p>
+</div></blockquote>
+</section>
+<section id="id7">
+<h3>新規作成して引用と改行コード付き貼り付け<a class="headerlink" href="#id7" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>[/iqr] [/cd] [/sp] [/c &quot; <em>Config</em>&quot;]
+[/mf &quot; <em>MacroPath</em>&quot;]</p>
+</div></blockquote>
+</section>
+<section id="id8">
+<h3>トレイアイコンを新規作成<a class="headerlink" href="#id8" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>/ti</p>
+</div></blockquote>
+</section>
+<section id="id9">
+<h3>ファイルを印刷<a class="headerlink" href="#id9" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>&quot; <em>File</em>&quot; /p [/nr] [/sp] [/cp encoding]</p>
+</div></blockquote>
+</section>
+<section id="id10">
+<h3>2 個のファイルを比較<a class="headerlink" href="#id10" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>/cmp &quot; <em>File1</em>&quot; &quot; <em>File2</em>&quot;</p>
+</div></blockquote>
+</section>
+<section id="id11">
+<h3>エンコードの変換<a class="headerlink" href="#id11" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>&quot; <em>SrcFile</em>&quot; [/nr] [/sp] [/cp <em>EncodingToOpen</em>] [/c &quot; <em>Config</em>&quot;] /cps <em>EncodingToSave</em> /ss+ /sa &quot; <em>DestFile</em>&quot;</p>
+<p>Unicode サイン (BOM) を付けて保存しない場合は、/ss+
+の代わりに /ss- を指定します。</p>
+</div></blockquote>
+</section>
+<section id="id12">
+<h3>[ファイルから検索] ダイアログ ボックスを表示<a class="headerlink" href="#id12" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>/fd</p>
+</div></blockquote>
+</section>
+<section id="id13">
+<h3>[ファイルから置換] ダイアログ ボックスを表示<a class="headerlink" href="#id13" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>/rd</p>
+</div></blockquote>
+</section>
+<section id="id14">
+<h3>ファイルから検索<a class="headerlink" href="#id14" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>/fc &quot; <em>FindWhat</em>&quot; [/fr] [/fw] [/x] [/fn] [/fu &quot; <em>FilesToIgnore</em>&quot;]
+[/cp <em>encoding</em>] &quot; <em>path</em>&quot;</p>
+<p>このコマンドは、EmEditor で [ファイルから検索] ダイアログ ボックスで [検索] を選択した直後に内部で呼ばれます。大文字と小文字を区別しない場合は、/fc の代わりに /fi を使用します。</p>
+</div></blockquote>
+</section>
+<section id="id15">
+<h3>ファイルから置換<a class="headerlink" href="#id15" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>/fc &quot; <em>FindWhat</em>&quot; [/fr] [/fw] [/x] [/ko] [/fu &quot; <em>FilesToIgnore</em>&quot;] [/cp
+<em>encoding</em>] &quot; <em>path</em>&quot; /rw &quot; <em>ReplaceWith</em>&quot; [/bk &quot; <em>BackupFolder</em>&quot;]</p>
+<p>このコマンドは、EmEditor で [ファイルから置換] ダイアログ ボックスで [すべて置換] を選択した直後に内部で呼ばれます。大文字と小文字を区別しない場合は、/fc の代わりに /fi を使用します。/ko と /bk は同時に指定できません。</p>
+</div></blockquote>
+</section>
+<section id="id16">
+<h3>ファイルを開いて置換<a class="headerlink" href="#id16" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>&quot; <em>File</em>&quot;
+/rc &quot; <em>FindWhat</em>&quot; [/fw] [/x] [/cp encoding] /rw &quot; <em>ReplaceWith</em>&quot;</p>
+<p>このコマンドは、EmEditor でファイルから置換の実行中に内部で呼ばれます。大文字と小文字を区別しない場合は、/rc の代わりに /ri を使用します。</p>
+</div></blockquote>
+</section>
+<section id="id17">
+<h3>ワークスペースを復元<a class="headerlink" href="#id17" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>/ws</p>
+<p>このコマンドは、EmEditor で [ワークスペースを復元] コマンドを実行した際に内部で呼ばれます。</p>
+</div></blockquote>
+</section>
+<section id="id18">
+<h3>ワークスペースを保存<a class="headerlink" href="#id18" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>/wss</p>
+<p>このコマンドは、EmEditor で [ワークスペースを保存] コマンドを実行した際に内部で呼ばれます。</p>
+</div></blockquote>
+</section>
+<section id="id19">
+<h3>テキスト ボックスの内容を取り込む<a class="headerlink" href="#id19" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>/eh</p>
+<p>このコマンドは、[トレイ アイコンの設定] ダイアログ ボックスで指定されている [EmEditor でテキストを取り込むショートカット キー] が押された時に、トレイアイコンから呼ばれます。</p>
+</div></blockquote>
+</section>
+<section id="id20">
+<h3>ヘルプを表示<a class="headerlink" href="#id20" title="この見出しへのパーマリンク">¶</a></h3>
+<blockquote>
+<div><p>/?</p>
+</div></blockquote>
+</section>
+</section>
+<section id="id21">
+<h2>各オプションの説明<a class="headerlink" href="#id21" title="この見出しへのパーマリンク">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>/?</p></td>
+<td><p>ヘルプを表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/act</p></td>
+<td><p>EmEditor が既に実行されている場合はそれをアクティブにし、実行されていない場合は実行します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/bk &quot; <em>BackupFolder</em>&quot;</p></td>
+<td><p>ファイルから置換時バックアップ用フォルダを指定します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/c &quot; <em>Config</em>&quot;</p></td>
+<td><p>設定を指定します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/ca</p></td>
+<td><p>すべての文書を閉じます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/car</p></td>
+<td><p>すべての文書を閉じ、[高速起動] のオプションを使用している場合、隠れて実行中のウィンドウも閉じます。</p></td>
+</tr>
+<tr class="row-even"><td><p>/cd</p></td>
+<td><p>ファイルを開くダイアログ ボックスでカレント ディレクトリから開きます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/cjl</p></td>
+<td><p>Windows 7 以降で、ジャンプ リストをカスタマイズします。</p></td>
+</tr>
+<tr class="row-even"><td><p>/cl <em>ColumnNumber</em></p></td>
+<td><p>論理桁番号を指定します。負の数字は行末からの文字数を意味します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/clw</p></td>
+<td><p>ワークスペースを消去します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/cmp</p></td>
+<td><p>2 個のファイルを比較します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/cp <em>Encoding</em></p></td>
+<td><p>開く時のエンコードの指定。 <a class="reference internal" href="../../macro/const/const_encoding.htm"><span class="doc std std-doc">エンコード定数</span></a> で定義されているエンコードと、以下に示す値の組み合わせが指定できます。</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>131072</p></td>
+<td><p>Unicode サイン (BOM) を検出します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>262144</p></td>
+<td><p>UTF-8 を自動検出します。</p></td>
+</tr>
+<tr class="row-even"><td><p>524288</p></td>
+<td><p>HTML/XML の Charset を検出します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>1048576</p></td>
+<td><p>すべて自動検出します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/cps <em>Encoding</em></p></td>
+<td><p>エンコードの変換で保存時のエンコードの指定。 <a class="reference internal" href="../../macro/const/const_encoding.htm"><span class="doc std std-doc">エンコード定数</span></a> で定義されているエンコードが指定できます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/csv &quot; <em>CSVName</em>&quot;</p></td>
+<td><p>最初の CSV モードを指定し、CSV 検出を無効にします。 <em>CSVName</em> は CSV フォーマットの名前、またはインデックスの数字です。0 を指定すると、ノーマル モードが使用されます。</p></td>
+</tr>
+<tr class="row-even"><td><p>/di &quot; <em>Folder</em>&quot;</p></td>
+<td><p>新規作成時、作業フォルダを指定します。EmEditor 内部で使用されます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/eh</p></td>
+<td><p>テキスト ボックスの内容を取り込みます。</p></td>
+</tr>
+<tr class="row-even"><td><p>/fc &quot; <em>FindWhat</em>&quot;</p></td>
+<td><p>大文字と小文字を区別してファイルから検索します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/fd</p></td>
+<td><p><a class="reference internal" href="../../dlg/find_in_files/index.htm"><span class="doc std std-doc">[ファイルから検索] ダイアログ ボックス</span></a> を表示します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/ff</p></td>
+<td><p>開いた文書から文字列を検索します。/mc または /x オプションと組み合わせて使用できます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/fi &quot; <em>FindWhat</em>&quot;</p></td>
+<td><p>大文字と小文字を区別しないでファイルから検索します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/fh</p></td>
+<td><p>検索した文字列を強調表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/fhf</p></td>
+<td><p>最後に検索した文字列を使ってフィルターを実行します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/fn</p></td>
+<td><p>ファイルから検索時ファイル名のみ取得します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/fu &quot; <em>FilesToIgnore</em>&quot;</p></td>
+<td><p>指定する名前のファイルまたはフォルダを無視します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/fr</p></td>
+<td><p>ファイルから検索時サブフォルダも検索します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/fw</p></td>
+<td><p>ファイルから検索時単語のみを検索します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/hide</p></td>
+<td><p>[高速起動] のオプションを使用している場合、隠れたウィンドウで実行します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/i</p></td>
+<td><p>起動後クリップボードから貼り付け</p></td>
+</tr>
+<tr class="row-even"><td><p>/ipi</p></td>
+<td><p>プラグイン一覧を最新に更新し、プラグイン バーを表示します。プラグインのセットアップから実行します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/iq</p></td>
+<td><p>起動後クリップボードから引用付き貼り付け</p></td>
+</tr>
+<tr class="row-even"><td><p>/iqr</p></td>
+<td><p>起動後クリップボードから引用と改行コード付き貼り付け</p></td>
+</tr>
+<tr class="row-odd"><td><p>/ko</p></td>
+<td><p>ファイルから置換で、変更したファイルを開いたままにします。</p></td>
+</tr>
+<tr class="row-even"><td><p>/l <em>LineNumber</em></p></td>
+<td><p>論理行番号を指定します。負の数字はファイルの最後からの行数を意味します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/layout &quot; <em>Layout</em>&quot;</p></td>
+<td><p>指定する名前のレイアウトを使用します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/max <em>limit</em></p></td>
+<td><p>一致の数がこの数字に到達すると、ファイルの検索または置換を終了します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/mc</p></td>
+<td><p>/ff と共に使用して、大文字小文字を区別して検索します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/mf</p></td>
+<td><p>実行するマクロ ファイル名</p></td>
+</tr>
+<tr class="row-odd"><td><p>/n</p></td>
+<td><p>常に新規作成で開始します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/ncp</p></td>
+<td><p>指定したファイルが見つからない場合に「指定したファイルは存在しません。新規作成しますか?」メッセージの表示を抑制します。このオプションは、ワークスペースからファイルを復元する時には適用されません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/ne</p></td>
+<td><p>イベントで実行するマクロを無効にします。</p></td>
+</tr>
+<tr class="row-even"><td><p>/ng</p></td>
+<td><p>常に新規グループ ウィンドウを作成します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/nr</p></td>
+<td><p>最近使ったファイルにファイル パスを追加しません。</p></td>
+</tr>
+<tr class="row-even"><td><p>/od</p></td>
+<td><p>開くファイルを選択するために [ファイルを開く] ダイアログ ボックスを表示します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/p</p></td>
+<td><p>印刷</p></td>
+</tr>
+<tr class="row-even"><td><p>/pos left top right bottom</p></td>
+<td><p>ウィンドウの表示位置を 4 つの整数で指定 (左、上、右、下)</p></td>
+</tr>
+<tr class="row-odd"><td><p>/r</p></td>
+<td><p>書き換え禁止</p></td>
+</tr>
+<tr class="row-even"><td><p>/rc &quot; <em>FindWhat</em>&quot;</p></td>
+<td><p>大文字と小文字を区別してファイルを開いて置換</p></td>
+</tr>
+<tr class="row-odd"><td><p>/rd</p></td>
+<td><p><a class="reference internal" href="../../dlg/replace_in_files/index.htm"><span class="doc std std-doc">[ファイルから置換] ダイアログ ボックス</span></a> を表示</p></td>
+</tr>
+<tr class="row-even"><td><p>/ri &quot; <em>FindWhat</em>&quot;</p></td>
+<td><p>大文字と小文字を区別しないでファイルを開いて置換</p></td>
+</tr>
+<tr class="row-odd"><td><p>/rr</p></td>
+<td><p>フォルダ内のファイルを再帰的に開きます。</p></td>
+</tr>
+<tr class="row-even"><td><p>/rw</p></td>
+<td><p>置換後の文字列を指定</p></td>
+</tr>
+<tr class="row-odd"><td><p>/sa &quot; <em>DestFile</em>&quot;</p></td>
+<td><p>エンコード変換後の保存先ファイル名を指定します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/sca</p></td>
+<td><p>ファイルをすべて保存して閉じます。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/scrlf</p></td>
+<td><p>エンコード変換後 CR+LF を使用してファイルを保存します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/scr</p></td>
+<td><p>エンコード変換後 CR のみを使用してファイルを保存します。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/slf</p></td>
+<td><p>エンコード変換後 LF のみを使用してファイルを保存します。</p></td>
+</tr>
+<tr class="row-even"><td><p>/sp</p></td>
+<td><p>他のEmEditorプロセスと異なるプロセスで実行します。EmEditorプロセスの実行中に編集中のファイルの更新を監視する他のアプリケーションとともに使用する場合に指定すると便利なことがあります。ただし、これを指定すると、タブの操作など一部の操作ができなくなり、サポートの対象外となります。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/ss+</p></td>
+<td><p>保存時、Unicodeサイン (BOM) を付けます。</p></td>
+</tr>
+<tr class="row-even"><td><p>/ss-</p></td>
+<td><p>保存時、Unicodeサイン (BOM) を付けません。</p></td>
+</tr>
+<tr class="row-odd"><td><p>/ti</p></td>
+<td><p>トレイアイコンを新規作成</p></td>
+</tr>
+<tr class="row-even"><td><p>/x</p></td>
+<td><p>正規表現を使用して検索、またはファイルから検索</p></td>
+</tr>
+<tr class="row-odd"><td><p>/xnr</p></td>
+<td><p>数値範囲表現を使用して検索、またはファイルから検索</p></td>
+</tr>
+<tr class="row-even"><td><p>/ws</p></td>
+<td><p>ワークスペースを復元</p></td>
+</tr>
+<tr class="row-odd"><td><p>/wsf “WorkspaceFile”</p></td>
+<td><p>指定したワークスペースを復元</p></td>
+</tr>
+<tr class="row-even"><td><p>/wss</p></td>
+<td><p>ワークスペースを保存</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id22">
+<h2>例<a class="headerlink" href="#id22" title="この見出しへのパーマリンク">¶</a></h2>
+<p>/rr *.htm</p>
+<blockquote>
+<div><p>拡張子が htm のファイルを、サブ フォルダ内も含めてすべて開きます。</p>
+</div></blockquote>
+<p>/p “filename”</p>
+<blockquote>
+<div><p>filename を印刷します。</p>
+</div></blockquote>
+<p>/r “filename”</p>
+<blockquote>
+<div><p>filename を書き換え禁止で開きます。</p>
+</div></blockquote>
+<p>/c “HTML” “filename”</p>
+<blockquote>
+<div><p>filename を HTML の設定で開きます。</p>
+</div></blockquote>
+<p>/l 123 “filename”</p>
+<blockquote>
+<div><p>filename を開き、123 行目にジャンプして表示します。</p>
+</div></blockquote>
+<p>/l -1 “filename”</p>
+<blockquote>
+<div><p>filename を開き、最終行にジャンプして表示します。</p>
+</div></blockquote>
+<p>/ff “what” /mc “filename”</p>
+<blockquote>
+<div><p>filename を開き、what を大文字小文字を区別して検索します。</p>
+</div></blockquote>
+<p>/fh</p>
+<blockquote>
+<div><p>最後に検索した文字列を強調表示します。</p>
+</div></blockquote>
+<p>/ti</p>
+<blockquote>
+<div><p>トレイアイコンとして起動します。</p>
+</div></blockquote>
+<p>/fi “ABC” “c:\Temp\*.txt”</p>
+<blockquote>
+<div><p>c:\Temp のフォルダ上の拡張子が txt のファイルから ABC
+という文字列を大文字小文字を区別しないで検索します。</p>
+</div></blockquote>
+<p>/fi “abc” /fr /fw /fn /fu “_*;*.bak” /cp 65536 “c:\test\*.htm;*.txt”</p>
+<blockquote>
+<div><p>c:\test のフォルダ上の拡張子が htm または txt のファイルから “abc”
+という文字列を大文字小文字を区別しないで検索します。その時、サブフォルダも検索し、単語のみを検索し、ファイル名のみを取得し、“_*;*.bak” に一致するファイルは無視し、システム既定エンコードを使用します。</p>
+</div></blockquote>
+<p>/fc “[a-e]” /fr /x /fu “_*;*.bak” /cp 65536
+“c:\test\*.htm;*.txt”</p>
+<blockquote>
+<div><p>c:\test のフォルダ上の拡張子が htm または txt のファイルから “[a-e]” という正規表現で、文字列を大文字小文字を区別して検索します。その時、サブフォルダも検索し、“_*;*.bak” に一致するファイルは無視し、システム既定エンコードを使用します。</p>
+</div></blockquote>
+<p>“c:\test\utf16.txt” /cp 65537 /cps 65001 /ss- /sa “c:\test\utf8.txt” /scrlf</p>
+<blockquote>
+<div><p>“c:\test\utf16.txt” という UTF-16LE のファイルを UTF-8 で Unicode サイン (BOM) 無しに変換し、“c:\test\utf8.txt” というファイル名で保存します。改行コードは CR+LF に変換します。</p>
+</div></blockquote>
+<p>/layout “集中モード”</p>
+<blockquote>
+<div><p>“集中モード” レウアウトを使用します。</p>
+</div></blockquote>
+</section>
+<section id="id23">
+<h2>ヒント<a class="headerlink" href="#id23" title="この見出しへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><p>ファイルから検索する文字列は、/fc または /fi の直後に指定しなければなりません。</p></li>
+<li><p>オプションを何も付けない場合は、指定したファイルを単に開きます。</p></li>
+<li><p>/c を付けていない場合で、設定の中に関連付けられている拡張子が一致する場合は、その設定を使って開きます。</p></li>
+<li><p>ファイル名の代わりにフォルダ名を指定すると、そのフォルダを既定として [開く] ダイアログ ボックスを表示します。</p></li>
+<li><p>コマンド ラインの英数字は、大文字と小文字を区別します。例えば /r を /R と書いても認識しません。</p></li>
+<li><p>コマンド ラインから検索するときは、常にエスケープ シーケンスを使用する設定になります。</p></li>
+<li><p>/ の代わりに - を使用することもできます。例えば、/sp の代わりに -sp を指定することができます。</p></li>
+<li><p>Git の既定テキスト エディタとして EmEditor を指定する場合は、Git Bash で git config --global core.editor “emeditor.exe -sp” と入力しください。</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">コマンド ラインを指定するには</a><ul>
+<li><a class="reference internal" href="#id2">構文</a><ul>
+<li><a class="reference internal" href="#id3">ファイルを開く</a></li>
+<li><a class="reference internal" href="#id4">新規作成</a></li>
+<li><a class="reference internal" href="#id5">新規作成して貼り付け</a></li>
+<li><a class="reference internal" href="#id6">新規作成して引用付き貼り付け</a></li>
+<li><a class="reference internal" href="#id7">新規作成して引用と改行コード付き貼り付け</a></li>
+<li><a class="reference internal" href="#id8">トレイアイコンを新規作成</a></li>
+<li><a class="reference internal" href="#id9">ファイルを印刷</a></li>
+<li><a class="reference internal" href="#id10">2 個のファイルを比較</a></li>
+<li><a class="reference internal" href="#id11">エンコードの変換</a></li>
+<li><a class="reference internal" href="#id12">[ファイルから検索] ダイアログ ボックスを表示</a></li>
+<li><a class="reference internal" href="#id13">[ファイルから置換] ダイアログ ボックスを表示</a></li>
+<li><a class="reference internal" href="#id14">ファイルから検索</a></li>
+<li><a class="reference internal" href="#id15">ファイルから置換</a></li>
+<li><a class="reference internal" href="#id16">ファイルを開いて置換</a></li>
+<li><a class="reference internal" href="#id17">ワークスペースを復元</a></li>
+<li><a class="reference internal" href="#id18">ワークスペースを保存</a></li>
+<li><a class="reference internal" href="#id19">テキスト ボックスの内容を取り込む</a></li>
+<li><a class="reference internal" href="#id20">ヘルプを表示</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id21">各オプションの説明</a></li>
+<li><a class="reference internal" href="#id22">例</a></li>
+<li><a class="reference internal" href="#id23">ヒント</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023 Emurasoft.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+
+    <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

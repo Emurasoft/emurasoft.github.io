@@ -1,23 +1,24 @@
 # Editor\_GetLineA
 
-在指定行檢索 ANSI 文字。您能直接用該內嵌函式或明確地發送 [EE\_GET\_LINEA](../message/ee_get_linea) 消息。
+Retrieves the ANSI text on the specified line. You can use this inline function or explicitly send the [EE\_GET\_LINEA](../message/ee_get_linea) message.
 
 Editor\_GetLineA( HWND hwnd, GET\_LINE\_INFO\* pGetLineInfo, LPSTR szString );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _pGetLineInfo_
 
-> 指標至 [GET\_LINE\_INFO](../structure/get_line_info) 結構。
+> Pointer to the [GET\_LINE\_INFO](../structure/get_line_info) structure.
 
 _szString_
 
-> 指標至會接收文字的緩沖區。
+> Pointer to the buffer that will receive the text.
 
-## 返回值
+## Return Values
 
-> 如果 _pGetLineInfo->cch_  為零，必須要有以位元為單位的返回值來表示接收文字的緩沖區。如果 _pGetLineInfo->cch_ 非零，不使用返回值。
+> If _pGetLineInfo->cch_  is zero, the return value is the
+> required size, in bytes, for a buffer that can receive the text. If _pGetLineInfo->cch_. is not zero, the return value is not used.

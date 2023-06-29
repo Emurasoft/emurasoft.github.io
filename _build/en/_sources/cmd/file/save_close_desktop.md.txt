@@ -1,27 +1,27 @@
-# 儲存并全部關閉 (僅目前的桌面) 命令
+# Save and Close All (Current Desktop Only) command
 
-### 摘要
+### Summary
 
-> 儲存并關閉所有在目前的虛擬桌面上打開的檔案。
+> Saves and closes all open files in the current virtual desktop.
 
-### 說明
+### Description
 
-> 儲存并關閉所有在目前的虛擬桌面上打開的檔案。
+> Saves and closes all open files in the current virtual desktop.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檔案** \> **關閉**
-\> **儲存并全部關閉 (僅目前的桌面)**
-- 工具列: 無
-- 狀態列: 無
-- 預設快速鍵: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Save and Close All (Current Desktop Only)**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SAVE\_CLOSE\_DESKTOP (3934)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

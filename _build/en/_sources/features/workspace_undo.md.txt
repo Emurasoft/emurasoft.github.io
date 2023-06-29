@@ -1,3 +1,5 @@
-# 包括復原信息的工作區
+# Workspace Including Undo Information
 
-EmEditor現在可以用一個工作區儲存復原信息，并讓您能不用命名檔案就能儲存無標題的文檔。當 EmEditor 要退出時，它能夠提示您儲存您的工作區。您也可以選擇不再顯示這個提示。
+EmEditor can now save the Undo information with a workspace, and allows you to
+save untitled documents without naming the files. EmEditor can prompt you to
+save your workspace when it is about to exit. The prompt can be disabled.

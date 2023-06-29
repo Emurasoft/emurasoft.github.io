@@ -1,15 +1,16 @@
-# 「批次選項」對話方塊
+# Batch Options dialog box
 
-這個對話方塊會顯示當在 **批次尋找/取代** 對話方塊中選擇 **批次選項** 時。
+This dialog box appears when the
+**Batch Options** is selected in the Batch Find/Replace dialog box.
 
-### 「啟用分隔符號」核取方塊
+### Enable Separator check box
 
-如果勾選了這個核取方塊，EmEditor 會在批次抽出符合結果時啟用分隔符。
+If this box is checked, EmEditor enables separator when extracting matched results in batches.
 
-### 「分隔符號」文字方塊
+### Separator text box
 
-指定一個分隔符。
+Specifies a separator.
 
-### 「>」按鈕
+### \> button
 
-點擊該按鈕來顯示預先設定的參數。
+Click this button to show the list of predefined arguments.

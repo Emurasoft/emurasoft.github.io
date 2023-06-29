@@ -1,33 +1,33 @@
-# 「語言伺服器」頁面
+# Language Server page
 
-**語言伺服器** 讓你能設定與語言伺服器相關的屬性。
+The **Language Server** page allows you to set properties related to language server.
 
-### 「啟用語言伺服器通訊協定（實驗性）」核取方塊
+### Enable Language Server Protocol (experimental) check box
 
-用語言伺服器通訊協定啟用停留工具提示。
+Enables hover tooltips using the Language Server Protocol.
 
-### 「文檔類型」下拉清單方塊
+### Document Type drop-down list box
 
-指定要使用的語言伺服器。HTML、CSS、JavaScript 和 Perl 服務器隨 EmEditor 安裝並可以使用。其他語言伺服器需要額外的安裝步驟。有關安裝語言伺服器的信息，請參閱下面的「語言伺服器安裝」部分。
+Specifies the language server to use. The HTML, CSS, JavaScript, and Perl servers are installed with EmEditor and are ready to use. Other language servers require additional steps to install. See the "Language Server installation" section below for information on installing language servers.
 
-### 「重設」按鈕
+### Reset button
 
-重設為預設設定。會顯示 [**重設** 對話方塊](../reset/index) 並讓你能從另一個組態複製設定。
+Resets to default settings. The [**Reset** dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
 
-## 語言伺服器安裝
+## Language Server installation
 
 ### C/C++
 
-安裝 [clangd](https://clangd.llvm.org/installation)。通過打開命令提示字元並調用 `clangd` 來測試安裝。 它支持基於 CMake 和 Bazel 的項目。您需要按照上述頁面上的項目設定步驟來生成 `compile_commands.json` 檔案。
+Install [clangd](https://clangd.llvm.org/installation) and follow the [project setup](https://clangd.llvm.org/installation#project-setup) instructions to generate the `compile_commands.json` file. Test the installation by opening Command Prompt and calling `clangd`. clangd only supports CMake and Bazel-based projects.
 
 ### Python
 
-用 pip 安裝 [Python LSP Server](https://github.com/python-lsp/python-lsp-server)。在命令提示字元中使用 `python -m pylsp` 測試安裝。
+Use pip to install [Python LSP Server](https://github.com/python-lsp/python-lsp-server). Test the installation with `python -m pylsp` in Command Prompt.
 
-### HTML，CSS，JavaScript，和 Perl
+### HTML, CSS, JavaScript, and Perl
 
-EmEditor 內置了這些服務器。以下清單提供了指向其源儲存機制的連結。
+These servers are built-in with EmEditor. The following list provides links to their source repositories.
 
-- HTML 和 CSS： [VSCode extensions](https://github.com/microsoft/vscode)
-- JavaScript： [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server)
-- Perl： [Perl Navigator Language Server](https://github.com/bscan/PerlNavigator)
+- HTML and CSS: [VSCode extensions](https://github.com/microsoft/vscode)
+- JavaScript: [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server)
+- Perl: [Perl Navigator Language Server](https://github.com/bscan/PerlNavigator)

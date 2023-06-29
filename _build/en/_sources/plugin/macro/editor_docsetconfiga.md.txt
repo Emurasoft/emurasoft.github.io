@@ -1,27 +1,27 @@
 # Editor\_DocSetConfigA
 
-把指定文檔變更為一個用 ANSI 字串指定的組態。您能直接用該內嵌函式或明確地發送 [EE\_SET\_CONFIGA](../message/ee_set_configa) 消息。
+Changes the specified document to a configuration specified by an ANSI string. You can use this inline function or explicitly send the [EE\_SET\_CONFIGA](../message/ee_set_configa) message.
 
 Editor\_SetConfigA( HWND hwnd, int iDoc, LPCSTR szConfigName );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _iDoc_
 
-> 指定目標文檔的索引。如果指定值為 -1，目前的活動文檔會被設為目標文檔。
+> Specifies the index of the target document. If -1 is specified, the currently active document will be targeted.
 
 _szConfigName_
 
-> 用 ANSI 字串指定一個組態。
+> Specifies a configuration by an ANSI string.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 5.00 或之後的版本。
+> Supported on EmEditor Professional Version 5.00 or later.

@@ -1,26 +1,26 @@
-# 上一拼字錯誤命令
+# Previous Misspelling command
 
-### 摘要
+### Summary
 
-> 跳轉至文檔內的上一拼字錯誤。
+> Jumps to previous misspelling in this document.
 
-### 說明
+### Description
 
-> 跳轉至文檔內的上一拼字錯誤。
+> Jumps to previous misspelling in this document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **拼字檢查** \> **上一拼字錯誤**
-- [全部命令](../tools/all_commands): **編輯** \> **拼字檢查** \> **上一拼字錯誤**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: CTRL+SHIFT+M
+- Default Menu: **Edit** \> **Spelling** \> **Previous Misspelling**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Previous Misspelling**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: CTRL+SHIFT+M
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_SPELL\_PREV (4555)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

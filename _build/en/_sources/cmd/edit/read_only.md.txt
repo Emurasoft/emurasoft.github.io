@@ -1,33 +1,33 @@
-# 唯讀命令
+# Read Only command
 
-### 摘要
+### Summary
 
-> 切換目前的文件的唯讀狀態。
+> Toggles Read Only status for the current file.
 
-### 說明
+### Description
 
-> 啟用或禁用文件的唯讀狀態。
+> Enables or disables the ability to save changes to the file.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **唯讀**
-- [全部命令](../tools/all_commands): **編輯** \> **進階**
-\> **唯讀**
-- 工具列: 無
-- 狀態列: 雙擊 **「唯讀」**
-- 預設鍵盤快速鍵: 無
+- Default Menu: **Edit** \> **Read Only**
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
+\> **Read Only**
+- Toolbar: None
+- Status Bar: Double-click on **READ**
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_READ\_ONLY (4113)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 
 > document.ReadOnly=true;
 
-或
+or
 
 > document.ReadOnly=false;
 
@@ -35,6 +35,6 @@
 
 > document.ReadOnly=true
 
-或
+or
 
 > document.ReadOnly=false

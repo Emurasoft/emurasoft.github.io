@@ -1,7 +1,7 @@
-# 輸出欄
+# Output Bar
 
-當一個編譯程序被指定為外部工具時，它的標準輸出可以顯示在 EmEditor 窗口內。這樣，EmEditor就能方便地捕捉一個編譯器的輸出，在錯誤處做標記，然后讓您可以在標記處編輯源代碼。
+When a console program is specified as an external tool, its standard output can be displayed in the EmEditor window. This makes it easy to capture a compiler's output, to tag jump at an error, and to edit back to the source code.
 
-## 請參考
+## See also
 
-- [**使用輸出欄** 復選框](../dlg/tools/properties/index)
+- [**Use Output Bar** check box](../dlg/tools/properties/index)

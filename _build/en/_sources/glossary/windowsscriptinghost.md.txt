@@ -1,3 +1,5 @@
 # Windows Scripting Host (WSH)
 
-Windows Scripting Host (WSH) 是獨立于語言的為與 Windows Scrip 兼容的指令碼引擎設立的指令碼主機。它能讓使用者從 Windows 桌面和命令提示符上同時運行指令碼。
+Windows Scripting Host (WSH) is a language-independent scripting host for
+Windows Script compatible scripting engines, which allows the user to run
+scripts from both the Windows desktop and the command prompt.

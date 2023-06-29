@@ -1,3 +1,5 @@
-# 系統托盤
+# System Tray
 
-在 Windows 任務欄的最右邊的小盒子，顯示時間，日期，也可能顯示目前的正在運行的程式。通常為系統操作保留。
+The small indented box on the far right side of the Windows Taskbar, which
+displays the time, date, and may or may not display programs which are currently
+running. Usually reserved for system operations.

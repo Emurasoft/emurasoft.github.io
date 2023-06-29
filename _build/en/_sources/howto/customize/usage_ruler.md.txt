@@ -1,7 +1,8 @@
-# 顯示行號或尺規
+# To Display Line Numbers and or the Ruler
 
-1. 點擊 ![Properties for Current Configuration](../../images/properties.gif)
-(如果您只想更改目前的組態) 或
+1. Click ![Properties for Current Configuration](../../images/properties.gif)
+(if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
-(如果您想要更改所有組態) 并到 **一般** 頁面上。
-2. 勾選 **顯示行號** 來顯示行號，或勾選 **顯示尺規** 來顯示尺規。
+(if you want to change all configurations) to display the **General** tab.
+2. Click **Show Line Numbers** to display line numbers, or click **Show**
+**Ruler** to display the ruler.

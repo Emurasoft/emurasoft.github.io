@@ -1,6 +1,6 @@
-# AutoSave 屬性
+# AutoSave Property
 
-檢索 [AutoSaveProp 對象](../auto_save_prop/index)。
+Retrieves the [AutoSaveProp object](../auto_save_prop/index).
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _obj_ = object. **AutoSave**;
 
 Set _obj_ = object. **AutoSave**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

@@ -1,3 +1,4 @@
-# 分割一個視窗
+# To Split a Window
 
-在視窗功能表下，選擇分割，然后在編輯視窗中點擊您想要分割發生的位置。
+Select **Split** from the **Window** menu, and then click the point in
+the window where you would like the split to occur.

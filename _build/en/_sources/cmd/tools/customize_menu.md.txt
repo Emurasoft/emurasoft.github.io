@@ -1,27 +1,28 @@
-# 自訂功能表命令
+# Customize Menus command
 
-### 摘要
+### Summary
 
-> 自訂功能表。
+> Customizes menus.
 
-### 說明
+### Description
 
-> 顯示 [**自訂功能表** 對話方塊](../../dlg/menus/index)，讓您能自訂 EmEditor 的功能表。
+> Displays the [**Customize Menus** \
+> dialog box](../../dlg/menus/index), where you can customize EmEditor's menus.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **工具** \> **自訂功能表**
-- [所有命令](all_commands): **工具** >
-**自訂功能表**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Tools** \> **Customize Menus**
+- [All Commands](all_commands): **Tools** >
+**Customize Menus**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_CUSTOMIZE\_MENU (4266)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

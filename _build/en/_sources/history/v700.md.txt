@@ -1,80 +1,111 @@
 # Version 7.00
 
-2007年12月18日
+December 18, 2007
 
-- 新的多線程設計讓您能檢視或編輯文檔當打開一個大檔案時。
-- 「從原始檔案中讀取未修改的行」復選框，「鎖定原始檔案」復選框以及「使用異步打開的最小檔案大小」文本框被添加到自訂對話方塊中的 [進階選項卡](../dlg/customize/advanced/index) 上，更優化打開大檔案的速度。
-- 自訂分欄可以通過外掛程式顯示。
-- [EE\_TOOLBAR\_OPEN](../plugin/message/ee_toolbar_open)， [EE\_TOOLBAR\_CLOSE](../plugin/message/ee_toolbar_close)， [EE\_TOOLBAR\_SHOW](../plugin/message/ee_toolbar_show),
-[EE\_HELP](../plugin/message/ee_help)， [EE\_REG\_SET\_VALUE](../plugin/message/ee_reg_set_value)， [EE\_REG\_QUERY\_VALUE](../plugin/message/ee_reg_query_value)， [EE\_QUERY\_STRING](../plugin/message/ee_query_string)，
-[EE\_KEYBOARD\_PROP](../plugin/message/ee_keyboard_prop)， [EE\_GET\_ACCEL\_ARRAY](../plugin/message/ee_get_accel_array)， [EE\_OUTPUT\_DIR](../plugin/message/ee_output_dir)，
-[EE\_OUTPUT\_STRING](../plugin/message/ee_output_string)， [EE\_ENUM\_HIGHLIGHT](../plugin/message/ee_enum_highlight) 消息被添加到外掛程式界面。
-- [Editor\_ToolbarOpen](../plugin/macro/editor_toolbaropen)， [Editor\_ToolbarClose](../plugin/macro/editor_toolbarclose)， [Editor\_ToolbarShow](../plugin/macro/editor_toolbarshow),
-[Editor\_Help](../plugin/macro/editor_help)， [Editor\_RegSetValue](../plugin/macro/editor_regsetvalue)， [Editor\_RegQueryValue](../plugin/macro/editor_regqueryvalue)， [Editor\_QueryString](../plugin/macro/editor_querystring)，
-[Editor\_KeyboardProp](../plugin/macro/editor_keyboardprop)， [Editor\_GetAccelArray](../plugin/macro/editor_getaccelarray) [Editor\_DocGetLines](../plugin/macro/editor_docgetlines)，
-[Editor\_OutputDir](../plugin/macro/editor_outputdir)， [Editor\_OutputString](../plugin/macro/editor_outputstring)， [Editor\_EnumHighlight](../plugin/macro/editor_enumhighlight) 內嵌函式被添加到外掛程式界面。
-- [TOOLBAR\_INFO](../plugin/structure/toolbar_info)， [REG\_SET\_VALUE\_INFO](../plugin/structure/reg_set_value_info)， [REG\_QUERY\_VALUE\_INFO](../plugin/structure/reg_query_value_info) 結構被添加到外掛程式界面。
-- [EVENT\_TOOLBAR\_CLOSED，EVENT\_TOOLBAR\_SHOW 事件](../plugin/event/index) 被添加到外掛程式界面。
-- EmEditor 現在讓您能編輯比之前版本更大的檔案 (取決于可用的內存)。
-- 巨集工具列被添加讓您能更方便地訪問「我的巨集」。
-- 您現在能變更一個巨集的圖示，標題，以及工具提示 ( [**#icon** 指令](../macro/directive/icon)， [**#title** 指令](../macro/directive/title)， [**#tooltip** 指令](../macro/directive/tooltip))。
-- **顯示巨集工具列** 復選框被添加到 [**工具列** 對話方塊](../dlg/toolbars/index) 中。
-- [**查找** 對話方塊](../dlg/find/index) 和 [**替換** 對話方塊](../dlg/replace/index) 現在可以調整大小。
-- EmEditor 現在不顯示對話方塊就能自動把修改過的檔案保存為前綴為 "AutoSave-" 的檔案名，當 EmEditor 出現故障或當 Windows 在自動更新下被強制重新啟動時。同樣，EmEditor 現在會出現一個提示消息，顯示自動恢復的檔案當重啟時。
-- 當打開一個檔案時，在狀態列上顯示的檔案大小現在根據需要以 KB，MB，或 GB 顯示。
-- 用鼠標點擊三次能選擇一整行。
-- 添加了 [**QueryStringByID** 方式](../macro/editor/editor_querystringbyid)。
-- EmEditor 能錄制并播放在其他應用程序中的鍵盤以及鼠標操作。
-- 添加了 [**Shell** 對象](../macro/shell/index) 以及 [**Windows** 集合](../macro/windows/index)。
-- **[Children](../macro/window/children)**， **[ClassName](../macro/window/class_name)**， **[Enabled](../macro/window/enabled)**， **[Height](../macro/window/height)**,
-**[hWnd](../macro/window/hwnd)**， **[LeftX](../macro/window/leftx)**， **[OutputBar](../macro/window/output_bar),** **[Parent](../macro/window/parent)**， **[ProcessID](../macro/window/process_id)**， **[ThreadID](../macro/window/thread_id)**,
-**[Top](../macro/window/top)**， **[Valid](../macro/window/valid)**， **[Visible](../macro/window/visible)**，和 **[Width](../macro/window/width)** 屬性還有 **[FindWindow](../macro/window/find_window)**，
-**[FindWindowByID](../macro/window/find_window_by_id)**， **[SetFocus](../macro/window/set_focus)**， **[SetForeground](../macro/window/set_foreground)**，和 **[SetPosition](../macro/window/set_position)**
-方式被添加到了 [**Window** 對象](../macro/window/index) 中。
-- [**Config** 屬性](../macro/document/config) 被添加到 [**Document** 對象](../macro/document/index) 中。
-- 添加了配置屬性的對象 ( [**AssociationItem** 對象](../macro/association_item/index)， [**AssociationList** 集合](../macro/association_list/index)，
-[**AssociationProp** 對象](../macro/association_prop/index)， [**AutoSaveProp** 對象](../macro/auto_save_prop/index)， [**BackupProp** 對象](../macro/backup_prop/index)，
-[**Config** 對象](../macro/config/index)， [**Configs** 集合,](../macro/configs/index) [**DisplayItem** 對象](../macro/display_item/index)， [**DisplayList** 集合](../macro/display_list/index)，
-[**DisplayProp** 對象](../macro/display_prop/index)， [**FileNewProp** 對象](../macro/file_new_prop/index)， [**FileSaveProp** 對象](../macro/file_save_prop/index)，
-[**FileProp** 對象](../macro/file_prop/index)， [**FontItem** 對象](../macro/font_item/index)， [**FontList** 集合](../macro/font_list/index)， [**FontProp** 對象](../macro/font_prop/index)， [**GeneralProp** 對象](../macro/general_prop/index)， [**HighlightItem** 對象](../macro/highlight_item/index)， [**HighlightList** 集合](../macro/highlight_list/index)，
-[**HighlightProp** 對象](../macro/highlight_prop/index)， [**IndentProp** 對象](../macro/indent_prop/index)， [**KeyboardItem** 對象](../macro/keyboard_item/index)，
-[**KeyboardList** 集合](../macro/keyboard_list/index)， [**KeyboardProp** 對象](../macro/keyboard_prop/index)， [**LinkProp** 對象](../macro/link_prop/index)，
-[**MarkProp** 對象](../macro/mark_prop/index)， [**NoWrapItem** 對象](../macro/no_wrap_item/index)， [**NoWrapList** 集合](../macro/no_wrap_list/index)，
-[**NoWrapProp** 對象](../macro/no_wrap_prop/index)， [**PrintProp** 對象](../macro/print_prop/index)， [**ScrollProp** 對象](../macro/scroll_prop/index)，和
-[**WrapProp** 對象](../macro/wrap_prop/index))。
-- The [**GetLine** 方式](../macro/document/getline)， [**GetLines** 方式](../macro/document/getlines) 被添加到 [**Document** 對象](../macro/document/index) 中。
-- The [**Configs** 方式](../macro/editor/configs) 被添加到 [**Editor** 對象](../macro/editor/index) 中。
-- 添加了 [**OutputBar** 對象](../macro/output_bar/index)。
-- 支持虛擬空間模式 (在配置屬性中的 [**一般** 選項卡](../dlg/properties/general/index) 上添加了 **啟用虛擬空間** 復選框)。
-- 「打開」對話方塊現在能允許同時打開多個檔案。
-- [便攜性選項 (為 USB 驅動器安裝準備)](../features/portable)
-- **記錄鼠標活動及鍵盤輸入到其他應用程序中** 復選框， **錄制所有鼠標動作** 復選框，以及 **在插入休眠模式前的空閑時間** 文本框被添加到了 [**自訂巨集** 對話方塊](../dlg/macro_customize/index) 中的 [**選項** 選項卡](../dlg/macro_customize/options/index) 上。
-- 添加了新的外掛程式: [專案外掛程式](../howto/plugin/plugin_projects)，查找欄外掛程式 [HTML 工具列外掛程式](../howto/plugin/plugin_htmlbar)，以及 [字詞自動完成外掛程式](../howto/plugin/plugin_wordcomplete)。
-- [**巨集工具列**](../cmd/view/show_macros_bar)， [**刷新工具列**](../cmd/view/refresh_toolbars)， **[錄制所有動作](../cmd/macros/record_mouse)**,
-**[錄制除鼠標/鍵盤外的所有動作](../cmd/macros/record_no_mouse)**， **[左自訂分欄](../cmd/window/left_custom_bar)**， **[頂部自訂分欄](../cmd/window/top_custom_bar)**， **[右自訂分欄](../cmd/window/right_custom_bar)**， **[底部自訂分欄](../cmd/window/bottom_custom_bar)** 命令被推薦了。
-- [**替換** 命令](../cmd/search/edit_replace)，
-[**大寫** 命令](../cmd/edit/make_upper)，
-[**小寫** 命令](../cmd/edit/make_lower)，
-[**Capitalize** 命令](../cmd/edit/capitalize), [**半角** 命令](../cmd/edit/zen_to_han)，以及 [**全角** 命令](../cmd/edit/han_to_zen) 現在能轉換一個垂直選取的區域。
-- 當打印時，一個有 **換頁** 碼 (U+000C) 的文檔現在可以在代碼處插入一個新的分頁。
-- 文本以及背景顏色添加了 **透明** 選項。
-- [**制表符/縮進** 對話方塊](../dlg/properties/general/indent/index) 中添加了 **換行縮進** 復選框。
-- [自訂對話方塊](../dlg/customize/index) 中 [**窗口** 選項卡](../dlg/customize/window/index) 添加了 **自動保存工作區** 復選框以及 **自動還原工作區** 復選框。
-- **全部高亮** 復選框被添加到 [配置屬性](../dlg/properties/index) 中的 [**高亮 (1)** 選項卡](../dlg/properties/highlight1/index) 上。
-- [配置屬性](../dlg/properties/index) 中的 [**滾動** 選項卡](../dlg/properties/scroll/index) 添加了 **平滑滾動** 復選框以及 **平滑滾動** 滑塊。
-- 您現在能把一個庫檔案包括進一個巨集中 ( [**#include** 指令](../macro/directive/include))。
-- 添加了 [新命令行選項 ( **/ne**)](../howto/file/file_commandline)。
-- 添加了 **列** 文本框到 [**跳轉** 對話方塊](../dlg/jump/index) 中。
-- 當多個檔案被修改并且 **全部關閉** 命令被選取， **保存更改到...** 消息框現在包括 **全部應用** 復選框。
+- The new multithreaded design now allows you to view or edit documents while opening a huge file.
+- Read Unmodified Lines from the Original File check box, Lock the Original File check box, and
+Minimum File Size to Open Asynchronously text box were added to the [Advanced page](../dlg/customize/advanced/index) of the Customize dialog box, and optimized the speed to open a huge file.
+- Custom toolbars can now be displayed using plug-ins.
+- [EE\_TOOLBAR\_OPEN](../plugin/message/ee_toolbar_open), [EE\_TOOLBAR\_CLOSE](../plugin/message/ee_toolbar_close), [EE\_TOOLBAR\_SHOW](../plugin/message/ee_toolbar_show),
+[EE\_HELP](../plugin/message/ee_help), [EE\_REG\_SET\_VALUE](../plugin/message/ee_reg_set_value), [EE\_REG\_QUERY\_VALUE](../plugin/message/ee_reg_query_value), [EE\_QUERY\_STRING](../plugin/message/ee_query_string),
+[EE\_KEYBOARD\_PROP](../plugin/message/ee_keyboard_prop), [EE\_GET\_ACCEL\_ARRAY](../plugin/message/ee_get_accel_array), [EE\_OUTPUT\_DIR](../plugin/message/ee_output_dir),
+[EE\_OUTPUT\_STRING](../plugin/message/ee_output_string), [EE\_ENUM\_HIGHLIGHT](../plugin/message/ee_enum_highlight) messages added to the plug-in interface.
+- [Editor\_ToolbarOpen](../plugin/macro/editor_toolbaropen), [Editor\_ToolbarClose](../plugin/macro/editor_toolbarclose), [Editor\_ToolbarShow](../plugin/macro/editor_toolbarshow),
+[Editor\_Help](../plugin/macro/editor_help), [Editor\_RegSetValue](../plugin/macro/editor_regsetvalue), [Editor\_RegQueryValue](../plugin/macro/editor_regqueryvalue), [Editor\_QueryString](../plugin/macro/editor_querystring),
+[Editor\_KeyboardProp](../plugin/macro/editor_keyboardprop), [Editor\_GetAccelArray](../plugin/macro/editor_getaccelarray) [Editor\_DocGetLines](../plugin/macro/editor_docgetlines),
+[Editor\_OutputDir](../plugin/macro/editor_outputdir), [Editor\_OutputString](../plugin/macro/editor_outputstring), [Editor\_EnumHighlight](../plugin/macro/editor_enumhighlight) inline functions added to the plug-in
+interface.
+- [TOOLBAR\_INFO](../plugin/structure/toolbar_info), [REG\_SET\_VALUE\_INFO](../plugin/structure/reg_set_value_info), [REG\_QUERY\_VALUE\_INFO](../plugin/structure/reg_query_value_info) structures added to
+the plug-in interface.
+- [EVENT\_TOOLBAR\_CLOSED, EVENT\_TOOLBAR\_SHOW events](../plugin/event/index) added to the plug-in interface.
+- EmEditor now allows you to edit bigger files than previous versions (depending on the available memory).
+- The Macros toolbar was added to allow you easily access My Macros.
+- You can now change the icon, the title, and the tooltip of a macro button ( [**#icon** directive](../macro/directive/icon), [**#title** directive](../macro/directive/title), [**#tooltip** directive](../macro/directive/tooltip)).
+- The **Display Macros Toolbar** check box was added to the [**Toolbars** dialog box](../dlg/toolbars/index).
+- The [**Find** dialog box](../dlg/find/index) and the
+[**Replace** dialog box](../dlg/replace/index) are now resizable.
+- EmEditor now automatically saves modified files as a file name prefixed with "AutoSave-" without displaying a dialog box when EmEditor crashes or when Windows is forced to restart in case of automatic updates. Also, EmEditor now prompts a
+message box displaying automatically recovered files when restarted.
+- The file size displayed on the status bar when a file is opened is now displayed in KB, MB, or GB as necessary.
+- Triple-clicking now selects a whole line.
+- The [**QueryStringByID** method](../macro/editor/editor_querystringbyid) is added.
+- EmEditor can now record and play keystrokes and mouse operation against other applications.
+- The [**Shell** Object](../macro/shell/index) and the [**Windows** Collection](../macro/windows/index) were added.
+- **[Children](../macro/window/children)**, **[ClassName](../macro/window/class_name)**, **[Enabled](../macro/window/enabled)**, **[Height](../macro/window/height)**,
+**[hWnd](../macro/window/hwnd)**, **[LeftX](../macro/window/leftx)**, **[OutputBar](../macro/window/output_bar),** **[Parent](../macro/window/parent)**, **[ProcessID](../macro/window/process_id)**, **[ThreadID](../macro/window/thread_id)**,
+**[Top](../macro/window/top)**, **[Valid](../macro/window/valid)**, **[Visible](../macro/window/visible)**, and **[Width](../macro/window/width)** properties and **[FindWindow](../macro/window/find_window)**,
+**[FindWindowByID](../macro/window/find_window_by_id)**, **[SetFocus](../macro/window/set_focus)**, **[SetForeground](../macro/window/set_foreground)**, and **[SetPosition](../macro/window/set_position)**
+methods
+were added to the [**Window** object](../macro/window/index).
+- The [**Config** property](../macro/document/config) was added to the [**Document** Object](../macro/document/index).
+- Objects for Configuration Properties ( [**AssociationItem** Object](../macro/association_item/index), [**AssociationList** Collection](../macro/association_list/index),
+[**AssociationProp** Object](../macro/association_prop/index), [**AutoSaveProp** Object](../macro/auto_save_prop/index), [**BackupProp** Object](../macro/backup_prop/index),
+[**Config** Object](../macro/config/index), [**Configs** Collection,](../macro/configs/index) [**DisplayItem** Object](../macro/display_item/index), [**DisplayList** Collection](../macro/display_list/index),
+[**DisplayProp** Object](../macro/display_prop/index), [**FileNewProp** Object](../macro/file_new_prop/index), [**FileSaveProp** Object](../macro/file_save_prop/index),
+[**FileProp** Object](../macro/file_prop/index), [**FontItem** Object](../macro/font_item/index), [**FontList** Collection](../macro/font_list/index), [**FontProp** Object](../macro/font_prop/index), [**GeneralProp** Object](../macro/general_prop/index), [**HighlightItem** Object](../macro/highlight_item/index), [**HighlightList** Collection](../macro/highlight_list/index),
+[**HighlightProp** Object](../macro/highlight_prop/index), [**IndentProp** Object](../macro/indent_prop/index), [**KeyboardItem** Object](../macro/keyboard_item/index),
+[**KeyboardList** Collection](../macro/keyboard_list/index), [**KeyboardProp** Object](../macro/keyboard_prop/index), [**LinkProp** Object](../macro/link_prop/index),
+[**MarkProp** Object](../macro/mark_prop/index), [**NoWrapItem** Object](../macro/no_wrap_item/index), [**NoWrapList** Collection](../macro/no_wrap_list/index),
+[**NoWrapProp** Object](../macro/no_wrap_prop/index), [**PrintProp** Object](../macro/print_prop/index), [**ScrollProp** Object](../macro/scroll_prop/index), and
+[**WrapProp** Object](../macro/wrap_prop/index)) were added.
+- The [**GetLine** method](../macro/document/getline), [**GetLines** method](../macro/document/getlines) were added to the [**Document** Object](../macro/document/index).
+- The [**Configs** method](../macro/editor/configs) was added to the [**Editor** Object](../macro/editor/index).
+- The [**OutputBar** Object](../macro/output_bar/index) was added.
+- The virtual space mode is now supported ( **Enable Virtual Space** check box in the
+[**General** page](../dlg/properties/general/index) of Configuration Properties).
+- The Open dialog box now allows multiple files to open simultaneously.
+- [Option for Portability (Ready for a USB Drive Install)](../features/portable)
+- **Record Mouse Activities and Keyboard Input to Other Applications** check box, **Record All Mouse Movements** check box, and
+**Idle Time before Inserting Sleep method** text box were added to the
+[**Options** page](../dlg/macro_customize/options/index) in the
+[**Customize Macros** dialog box](../dlg/macro_customize/index).
+- New plug-ins: the
+[Projects plug-in](../howto/plugin/plugin_projects), the Find Bar plug-in, the [HTML Bar plug-in](../howto/plugin/plugin_htmlbar), and the [Word Complete plug-in](../howto/plugin/plugin_wordcomplete) were added.
+- [**Macros Toolbar**](../cmd/view/show_macros_bar), [**Refresh Toolbars**](../cmd/view/refresh_toolbars), **Record All Activities**,
+**[Record All Except Mouse/Keyboard Activities](../cmd/macros/record_no_mouse)**, **[Left Custom Bar](../cmd/window/left_custom_bar)**, **[Top Custom Bar](../cmd/window/top_custom_bar)**, **[Right Custom Bar](../cmd/window/right_custom_bar)**, **[Bottom Custom Bar](../cmd/window/bottom_custom_bar)** commands were added.
+- [**Replace** command](../cmd/search/edit_replace),
+[**Uppercase** command](../cmd/edit/make_upper),
+[**Lowercase** command](../cmd/edit/make_lower),
+[**Capitalize** command](../cmd/edit/capitalize), [**Half-Width** command](../cmd/edit/zen_to_han), and
+[**Full-Width** command](../cmd/edit/han_to_zen) now allow a vertical selection
+to be converted.
+- When printing, a document with the **Form Feed** code (U+000C) now inserts a new page at the code.
+- The **Transparent** option was added to the text and background colors.
+- The **Wrap Indent** check box was added to the [**Tab/Indent** dialog box](../dlg/properties/general/indent/index).
+- The **Save Workspace Automatically** check box and the **Restore Workspace Automatically** check box were
+added to the [**Window** page](../dlg/customize/window/index) of the
+[Customize dialog box](../dlg/customize/index).
+- The **Highlight**
+**Right All** check box was added to the
+[**Highlight (1)** page](../dlg/properties/highlight1/index) of the [Configuration Properties](../dlg/properties/index).
+- The **Smooth Scroll**
+check box and the **Smooth Scroll**
+slider were added to the [**Scroll** \
+page](../dlg/properties/scroll/index) of the [Configuration Properties](../dlg/properties/index).
+- You can now include a library file from a macro ( [**#include** directive](../macro/directive/include)).
+- [New command line option ( **/ne**)](../howto/file/file_commandline) was added.
+- **Column** text box was added to the [**Jump** dialog box](../dlg/jump/index).
 -
-EI\_GET\_CURRENT\_FOLDER and EI\_IS\_LARGE\_DOC 命令被添加到
-[EE\_INFO](../plugin/message/ee_info) 消息 ( [Editor\_Info](../plugin/macro/editor_info)， [Editor\_DocInfo](../plugin/macro/editor_docinfo) 內嵌函式)中。
-- **輸出編碼** 下拉列表框被添加到 [**外部工具屬性** 對話方塊](../dlg/tools/properties/index) 中。
-- 「關閉」按鈕可以在激活的選項卡或每個選項卡上顯示 (在「自訂」對話方塊框中「標簽」選項卡上的 **關閉按鈕** 下拉列表框中設定)。
-- 只讀圖示能被顯示在標簽上。( **顯示只讀圖示** 復選框)。
-- 在「查找」下拉列表框中用 ALT + DELETE 從搜尋記錄中清除一個項目。
-- 用戶定義的菜單允許兩次按鍵快捷方式 ( [**延時** 滑塊](../dlg/menus/index))。
-- **主題** 下拉列表框 drop-down list box，the **「>」** 按鈕， **字符間距** 文本框被添加到配置屬性中的 **[顯示選項卡](../dlg/properties/display/index)** 上。
-- 您可以定義事件驅動的巨集。( **「事件」** 按鈕， **在發生事件時運行** 復選框， **事件** 文本框， [**選擇事件** 對話方塊](../dlg/macro_customize/my_macros/select_events/index))。
-- 在 Windows Vista 系統上， **打開**/ **另存為** 對話方塊現在與Windows Vista設計一致，讓您能輕松訪問檔案的歷史版本，這也是 Windows Vista 的功能之一。
-- 安裝程序現在讓您能更改安裝程序資料夾如果前一個版本已經被安裝的話。
+When more than one file is modified and the **Close All** command is selected, the **Save changes to...** message box now includes the **Apply to All** checkbox.
+-
+EI\_GET\_CURRENT\_FOLDER and EI\_IS\_LARGE\_DOC commands were added to
+[EE\_INFO](../plugin/message/ee_info) message ( [Editor\_Info](../plugin/macro/editor_info), [Editor\_DocInfo](../plugin/macro/editor_docinfo) inline functions).
+- **Output Encoding** drop-down list box was added to the [**External Tool Properties** dialog box](../dlg/tools/properties/index).
+-
+The Close button can be now displayed on the Active tab or on each tab ( **Close Button** drop-down list box).
+-
+Read-only icons can be now displayed on tabs ( **Show Read-Only Icon** check box).
+-
+ALT + DELETE to clear an item from search history in the Find drop-down list box.
+-
+User defined menus allowing two-stroke key shortcuts ( [**Delay Time** slider](../dlg/menus/index)).
+-
+The **Theme** drop-down list box, the **>** button, and the
+**Character Space** text box were added to the **[Display page](../dlg/properties/display/index)** of Configuration Properties.
+-
+You can now define event-driven macros ( **Events** button,
+**Runs at Events** check box,
+**Events** text box, [**Select Events** dialog box](../dlg/macro_customize/my_macros/select_events/index)).
+-
+Under Windows Vista, **Open**/ **Save As** dialog boxes are now Windows Vista design, and allows you to easily access to previous versions of files, which is one of the features of Windows Vista.
+- The installer now does not allow you to change the install folder if a previous version is already installed.

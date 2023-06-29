@@ -1,30 +1,30 @@
 # Version 19.5
 
-2019年12月18日
+December 18, 2019
 
-## 一般新增功能
+## New General Features
 
-- 添加了 **抽出常用字串** 命令以創建常用整行或字詞清單作為 CSV 文檔。
-- 添加了從抽出尋找結果中創建常用字串清單的功能（ **尋找** 對話方塊 \- **「全部抽出」** 按鈕右側的箭頭 \- **抽出選項** 對話方塊 \- **計算常用字串** 核取方塊）。例如，要在目前的文檔中創建一個常用的 IPv4 地址清單，打開 **「尋找」** 對話方塊，單擊 **「全部抽出」** 按鈕右側的箭頭，選擇 **「抽出選項」**，在「抽出選項」對話方塊中選擇 **「僅顯示符合的字串」**，并勾選 **「計算常用字串」** 核取方塊，然後到 **「尋找」** 對話方塊中點擊 **「數字範圍」** 選項按鈕，在 **「尋找」** 文字方塊中輸入 "0.0.0.0/0"，最後點擊 **「全部抽出」** 按鈕。
+- Added the **Extract Frequent Strings** command to create a list of frequent whole lines or words as a CSV document.
+- Added the ability to create a table of frequent strings from the Find Extract results (the **Find** dialog box - the arrow at the right side of the **Extract** button - **Extract Options** dialog box - the **Count Frequent Strings** check box). For instance, to create a list of frequently used IPv4 addresses in the current document, open the **Find** dialog box, click the arrow at the right side of the **Extract** button, select **Extract Options**, select **Display Matched Strings Only**, set the **Count Frequent Strings** check box in the **Extract Options** dialog box, click the **Number Range** radio button in the **Find** dialog box, enter "0.0.0.0/0" in the **Find** text box, and click the **Extract** button.
 
-## 新增選項
+## New Options
 
-- 添加了 [**抽出常用字串** 對話方塊](../dlg/extract_frequent/index)。
-- 添加了 **計算常用字串** 核取方塊， **行數** 文字方塊， **CSV 格式** 清單方塊以及 **「添加」** 和 **「刪除」** 按鈕到 [**抽出選項** 對話方塊](../dlg/extract_options/index) 中。
-- 添加了 **打開文檔時計算相符項目** 核取方塊到 [**自訂標記** 對話方塊](../dlg/customize_start/index) 的 [**選項** 頁面](../dlg/customize_markers/marker_options/index) 上。
-- 添加了 **顯示新增選項** 核取方塊到 [**自訂啟動視窗** 對話方塊](../dlg/customize_start/index) 中。
-- 添加了 **激活 EmEditor 當從另一個應用程式中拖入文字時** 核取方塊到 **自訂** 對話方塊的 [**滑鼠** 頁面](../dlg/customize/mouse/index) 上。
+- Added the [**Extract Frequent Strings** dialog box](../dlg/extract_frequent/index).
+- Added the **Count Frequent Strings** check box, **Number of Lines** text box, **CSV Format** list box, and **Add** and **Delete** buttons to the [**Extract Options** dialog box](../dlg/extract_options/index).
+- Added the **Count matches when a document is opened** check box to the [**Options** page](../dlg/customize_markers/marker_options/index) of the [**Customize Markers** dialog box](../dlg/customize_start/index).
+- Added the **Show New Options** check box to the [**Customize Start Window** dialog box](../dlg/customize_start/index).
+- Added the **Activate EmEditor when text dropped from another app** check box to the [**Mouse** page](../dlg/customize/mouse/index) of the **Customize** dialog box.
 
-## 新增命令
+## New Commands
 
-- [抽出常用字串](../cmd/search/extract_frequent)
-- [計算相符項目](../cmd/view/marker_count_matches)
-- [清除相符項目計數](../cmd/view/marker_clear_count)
+- [Extract Frequent Strings](../cmd/search/extract_frequent)
+- [Count Marker Matches](../cmd/view/marker_count_matches)
+- [Clear Marker Match Count](../cmd/view/marker_clear_count)
 
-## 外掛程式 API 新增功能
+## Plug-in API New Features
 
-- 添加了 **FLAG\_FIND\_COUNT\_FREQUENCY** 標志到 [**FIND\_REPLACE\_INFO** 結構](../plugin/structure/find_replace_info) 中。
+- Added the **FLAG\_FIND\_COUNT\_FREQUENCY** flag to the [**FIND\_REPLACE\_INFO** structure](../plugin/structure/find_replace_info).
 
-## 新增巨集功能
+## Macro New Features
 
-- 添加了 **eeExFindCountFrequency** 標志到 [**Find** 方法](../macro/selection/selection_find) 中。
+- Added the **eeExFindCountFrequency** flag to the [**Find** method](../macro/selection/selection_find).

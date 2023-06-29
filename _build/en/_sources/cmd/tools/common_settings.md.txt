@@ -1,27 +1,28 @@
-# 自訂命令
+# Customize command
 
-### 摘要
+### Summary
 
-> 自訂常用應用程式設置。
+> Customizes common application settings.
 
-### 說明
+### Description
 
-> 顯示 [**自訂** 對話方塊](../../dlg/customize/index)，讓您能定義常見的應用設定。
+> Displays the [**Customize** dialog box](../../dlg/customize/index),
+> where you can define common application settings.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **工具** \> **自訂**
-- [所有命令](all_commands): **工具** >
-**自訂** \> **自訂**
-- 工具列: ![](../../images/commonsettings.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: **Tools** \> **Customize**
+- [All Commands](all_commands): **Tools** >
+**Customize** \> **Customize**
+- Toolbar: ![](../../images/commonsettings.gif)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_COMMON\_SETTINGS (4222)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

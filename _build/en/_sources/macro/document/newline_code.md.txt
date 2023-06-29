@@ -1,6 +1,6 @@
-# NewlineCode 屬性
+# NewlineCode Property
 
-檢索文檔的目前的新行字元碼。
+Retrieves the current newline character code of the document.
 
 #### \[JavaScript\]
 
@@ -10,19 +10,19 @@ _nNewlineCode_ = document. **NewlineCode**;
 
 _nNewlineCode_ = document. **NewlineCode**
 
-## 參數
+## Parameters
 
 _nNewlineCode_
 
-指定下列其中一個值。
+Specifies one of the following values.
 
 |     |     |
 | --- | --- |
 | eeCrAndLf | CR+LF |
-| eeCrOnly | 僅 CR |
-| eeLfOnly | 僅 LF |
-| eeNewlineMixed | 混合 |
+| eeCrOnly | CR only |
+| eeLfOnly | LF only |
+| eeNewlineMixed | Mixed |
 
-## 版本
+## Version
 
-支持 EmEditor Professional 17.6 或之後的版本。
+Supported on EmEditor Professional Version 17.6 or later.

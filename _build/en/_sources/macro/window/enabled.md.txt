@@ -1,6 +1,6 @@
-# Enabled 屬性
+# Enabled Property
 
-返回是否視窗啟用了游標和鍵盤輸入。
+Returns whether the window is enabled for mouse and keyboard input.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _b_ = wnd. **Enabled**;
 
 _b_ = wnd. **Enabled**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

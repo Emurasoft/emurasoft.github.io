@@ -1,27 +1,30 @@
-# 跳轉至標記命令
+# Tag Jump command
 
-### 摘要
+### Summary
 
-> 跳轉至標記。
+> Jumps to a tag.
 
-### 說明
+### Description
 
-> 這個命令可以在運行 [**在文件中尋找** 命令](../search/grep) 之後使用，或當您要解析錯誤日志以尋找一個字串或一個錯誤時。如果一個文件的路徑和一個行號被顯示在一行的起始位置處，這個命令會打開該文件并且跳轉至有問題的行號。
+> This command is used after running the [**Find**\
+> **in Files** command](../search/grep), or for parsing an error log to locate a string or an error. If
+> a file's path and a line number are displayed at the start of a line, this command will open the file and jump to the line
+> number in question.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **進階** \> **跳轉至標記**
-- [全部命令](../tools/all_commands): **編輯** \> **進階**
-\> **跳轉至標記**
-- 工具列: 無
-- 狀態列: 無
-- 預設鍵盤快速鍵: F10
+- Default Menu: **Edit** \> **Advanced** \> **Tag Jump**
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
+\> **Tag Jump**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: F10
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_TAG\_JUMP (4147)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

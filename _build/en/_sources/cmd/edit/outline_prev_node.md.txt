@@ -1,26 +1,26 @@
-# 上一個節點命令
+# Previous Node command
 
-### 摘要
+### Summary
 
-> 當顯示大綱視圖時移動游標到上一個節點。
+> Moves the cursor to the previous node while outlining is displayed.
 
-### 說明
+### Description
 
-> 當顯示大綱視圖時移動游標到上一個節點。要使用該功能，先要啟用大綱來顯示大綱視圖。
+> Moves the cursor to the previous node while outlining is displayed. A plug-in for outlining is necessary to display outlining.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: **編輯** \> **大綱** \> **上一個節點**
-- [全部命令](../tools/all_commands): **編輯** \> **大綱** \> **上一個節點**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: Alt+Up
+- Default Menu: **Edit** \> **Outlining** \> **Previous Node**
+- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Previous Node**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: Alt+Up
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_OUTLINE\_PREV\_NODE (4416)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

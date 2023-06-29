@@ -1,3 +1,5 @@
-# Q. 有沒有可以讓游標「復原」和「重做」的命令？
+# Q. Are there Undo and Redo commands for the cursor position?
 
-是的，有，它們被稱為「向后」和「向前」。在預設的鍵盤快速鍵中，ALT + LEFT: 向后； ALT + RIGHT: 向前。有個這兩個鍵，您可以讓游標返回到前一個位置，或前進到下一個位置。這兩個命令有對應的工具列按鈕，可以通過「自訂工具列」被添加到 EmEditor 的工具列上。
+Yes, they are called the Back and Forward commands.
+On the default keyboard shortcut, you can use the Back (ALT + LEFT) and
+Forward (ALT + RIGHT) keys. The buttons for these commands can be added to a toolbar.

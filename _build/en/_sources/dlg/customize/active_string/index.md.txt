@@ -1,39 +1,39 @@
-# 「主動字串」頁面
+# Active String page
 
-**主動字串** 頁面讓你能為每個事件一個行為。
+The **Active String** page allows you to specify a behavior for each event.
 
-### 「類型」清單方塊
+### Type list box
 
-顯示可以自訂為 **主動字串** 的項目清單。這些項目包括URL，電子郵件地址，IPv4 和 IPv6 地址，用引號括起來的字串，HTML 字元參考，通用字元名稱/百分比編碼，十六進位顏色，RGB 顏色，標記和搜索字串。另外，可以在組態屬性的 [**連結** 頁面](../../properties/link/index) 中為每個組態啟用或禁用某個主動字串。顯示一列可以自訂條目會出現在主動字串中項目。
+Displays the list of items that can be customized as **Active String**. The items include URLs, email addresses, IPv4 and IPv6 addresses, strings enclosed by quotation marks, HTML Character Reference, Universal Character Names/Percent-encoding, Hexadecimal colors, RGB colors, Markers, and Search string. However, each Active String can be enabled or disabled per configuration in the [**Link** page](../../properties/link/index) of configuration properties.
 
-### 「事件」清單方塊
+### Event list box
 
-顯示可以選擇作為觸發器來自動運行操作的事件的清單。
+Displays the list of events that can be selected as triggers at which an action starts running automatically.
 
-### 「操作」下拉清單方塊
+### Action drop-down list box
 
-為某個主動字串類型指定特定事件觸發時的動作。
+Specifies an action when the specified event for the specified type is triggered.
 
-### 「在操作之前選擇字串」核取方塊
+### Select String before Action check box
 
-如果選中此選項，則在運行指定的操作之前將選擇主動字串。 某些操作可能需要勾選此核取方塊。如果在 **操作** 下拉清單方塊中選擇了 **無**，則不選中此選項也會選擇主動字串。
+If this is checked, the active string will be selected before running the specified action. Some actions might require this check box set. If **None** was selected for the **Action** drop-down list box, the active string will be simply selected without any actions.
 
-### 「命令」文字方塊
+### Command text box
 
-當在 **操作** 下拉清單方塊中選擇 **運行程式** 時，你可以指定要打開的程式，資料夾，文檔或 Internet 資源的名稱。你可以用 **「>」** 按鈕來選擇預定義的巨集，例如，用 _$(Path)_，或 **「...」** 按鈕從電腦中選擇一個檔案。
+When **Run Program** is selected for the **Action** drop-down list box, you can specify the name of a program, folder, document, or Internet resources to open. You can use the **>** button to select predefined macros, for instance, _$(Path)_, or the **...** button to select a file from the computer.
 
-### 「巨集的路徑」文字方塊
+### Macro Path box
 
-當在 **操作** 下拉清單方塊中選擇 **運行巨集** 時，你可以指定要運行的巨集檔案。你可以用 **「>」** 按鈕來選擇預定義的巨集，例如，用 _$(Path)_，或 **「...」** 按鈕從電腦中選擇一個檔案。
+When **Run Macro** is selected for the **Action** drop-down list box, you can specify the macro file to run. You can use the **>** button to select predefined macros, for instance, _$(Path)_, or the **...** button to select a file from the computer.
 
-### 「工具」下拉清單方塊
+### Tool drop-down list box
 
-當在 **操作** 下拉清單方塊中選擇 **外部工具** 時，你可以指定要運行的外部工具。外部工具可以在 [**自訂工具** 對話方塊](../../tools/index) 中定義。
+When **External Tool** is selected for the **Action** drop-down list box, you can specify the external tool to run. External Tools can be defined in the [**Customize Tools** dialog box](../../tools/index).
 
-### 「命令」下拉清單方塊
+### Command drop-down list box
 
-當在 **操作** 下拉清單方塊中選擇 **EmEditor 命令** 時，你可以從這個下拉清單方塊中選取要執行的命令。一些命令需要在執行之前選中主動字串，如果是這種情況，要勾選 **在操作之前選擇字串** 核取方塊。
+When **EmEditor Command** is selected for the **Action** drop-down list box, you can choose the command to execute from this drop-down list box. Some commands need the active string selected before execute, and in that case, the **Select String before Action** check box should be set.
 
-### 「重置」按鈕
+### Reset button
 
-重置為預設設定。
+Resets to default settings.

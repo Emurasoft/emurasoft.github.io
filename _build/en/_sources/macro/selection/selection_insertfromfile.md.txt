@@ -1,6 +1,6 @@
-# InsertFromFile 方法
+# InsertFromFile Method
 
-在游標位置處插入指定檔案的內容。
+Inserts the contents of the specified file at the cursor position.
 
 #### \[JavaScript\]
 
@@ -12,23 +12,24 @@ document.selection. **InsertFromFile** _strFileName_, _nEncoding_, _nFlags_
 
 _strFileName_
 
-指定要打開的檔案的完整路徑以及名稱。
+Specifies the full path and name of the file to be opened.
 
 _nEncoding_
 
-從 **[編碼常數](../const/const_encoding)** 中選擇或指定任何用於 Windows 操作系統的代碼頁。
+Selects from the **[Encoding Constants](../const/const_encoding)**,
+or specify any code page used in the Windows Operating System.
 
 _nFlags_
 
-指定一個下列值的組合:
+Specifies a combination of the following values:
 
 |     |     |
 | --- | --- |
-| eeOpenDetectUnicode | 偵測 Unicode 簽名 (BOM)。 |
-| eeOpenDetectUTF8 | 偵測 UTF-8。 |
-| eeOpenDetectCharset | 偵測 HTML/XML 字元集。 |
-| eeOpenDetectAll | 偵測所有編碼。 |
+| eeOpenDetectUnicode | Detects Unicode signature (BOM). |
+| eeOpenDetectUTF8 | Detects UTF-8. |
+| eeOpenDetectCharset | Detects HTML/XML Charset. |
+| eeOpenDetectAll | Detects all encodings. |
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

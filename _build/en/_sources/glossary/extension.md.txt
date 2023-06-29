@@ -1,3 +1,6 @@
-# 副檔名
+# Extension
 
-一個檔案名的后綴，以一個點開始，標示檔案類型。一般在點之後會跟著 3 個字母字元。例如，一個文字檔案的副檔名通常是 .txt，一個 HTML 檔案的副檔名通常是 .htm。
+A file name suffix beginning with a period, indicating the type of the file.
+Traditionally 3 alphabet characters after a period are used. For instance, a
+text file usually has .txt extension, and an HTML file usually has .htm
+extension.

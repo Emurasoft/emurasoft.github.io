@@ -1,6 +1,6 @@
 # EP\_USE\_DROPPED\_FILES
 
-查詢外掛程式是否想要用刪除的檔案。
+Queries whether the plug-in wants to use dropped files.
 
 EP\_USE\_DROPPED\_FILES
 
@@ -10,16 +10,17 @@ wParam = 0;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _hwndView_
 
-> EmEditor 檢視的視窗控制代碼。
+> The window handle to the EmEditor view.
 
-## 返回值
+## Return Values
 
-> 如果返回值是 TRUE，EmEditor 不會打開被刪除的檔案。
+> If the return value is TRUE, EmEditor will not open dropped
+> files.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 8.00 或之後的版本。
+> Supported on Version 8.00 or later.

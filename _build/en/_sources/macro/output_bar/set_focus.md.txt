@@ -1,6 +1,6 @@
-# SetFocus 方法
+# SetFocus Method
 
-把鍵盤焦點設置到輸出列上。
+Sets the keyboard focus to the output bar.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ OutputBar. **SetFocus**();
 
 OutputBar. **SetFocus**
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

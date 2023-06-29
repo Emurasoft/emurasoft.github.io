@@ -1,8 +1,11 @@
-# 在換行處插入或刪除換行符
+# To Insert or Delete Returns at Wrap Points
 
-選擇要插入或刪除換行符的文字，在 **編輯** 功能表下點選 **轉換選取範圍**，然后選擇
-[**插入換行符號** 命令](../../cmd/edit/insert_cr_wrap) 或 [**移除換行符號** 命令](../../cmd/edit/delete_cr_wrap)。
+Select the text within which to insert or delete returns, select **Convert Selection** under the **Edit** menu, and then select the
+[**Insert newline characters** \
+command](../../cmd/edit/insert_cr_wrap)
+or the [**Remove newline characters** \
+command](../../cmd/edit/delete_cr_wrap).
 
-### 提示
+### Tips
 
-- 這個操作會被禁用顯示當不換行時。
+- This operation will be disabled when lines are not wrapped.

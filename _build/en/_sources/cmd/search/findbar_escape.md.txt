@@ -1,27 +1,27 @@
-# 使用逸出序列 (搜尋工具列) 命令
+# Use Escape Sequence (Find toolbar) command
 
-### 摘要
+### Summary
 
-> 切換搜尋工具列上「使用逸出序列」按鈕的狀態。
+> Toggles the Use Escape Sequence button on the Find toolbar.
 
-### 說明
+### Description
 
-> 切換搜尋工具列上「使用逸出序列」按鈕的狀態。當這個命令被激活時，您可以用逸出序列來進一步指定搜尋字串。
+> Toggles the Use Escape Sequence button on the Find toolbar. When this command is active, you can use Escape Sequences to further specify search strings.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **搜尋**
-\> **搜尋工具列** \> **使用逸出序列**
-- 工具列: ![](../../images/find_escape.png) (搜尋工具列)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Use Escape Sequence**
+- Toolbar: ![](../../images/find_escape.png) (Find toolbar)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_FINDBAR\_ESCAPE (4575)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

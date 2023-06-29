@@ -1,26 +1,27 @@
-# 展開/折疊目前的行命令
+# Expand/Collapse Line command
 
-### 摘要
+### Summary
 
-> 當顯示大綱視圖時展開或折疊目前的行。
+> Expands or collapses the current line while outlining is displayed.
 
-### 說明
+### Description
 
-> 當顯示大綱視圖時，如果目前的行被折疊，這個命令會展開目前的行；如果目前的行是展開的，那么這個命令會折疊目前的行。這與點擊文字行左邊的「+」按鈕或「-」按鈕是一樣的。要使用該功能，先要啟用大綱來顯示大綱視圖。
+> While outlining is displayed, if the current line is collapsed, this command expands the current line, and if the current line is expanded, this command collapses the current line. It is the same effect as clicking the "+" button or the "-"
+> button at the left side of a text line. A plug-in for outlining is necessary to display the outlining.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **大綱** \> **展開/折疊行**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Expand/Collapse Line**
+- Toolbar: None
+- Status Bar: None
+- Default Keyboard Shortcut: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_OUTLINE\_TOGGLE\_LINE (4412)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

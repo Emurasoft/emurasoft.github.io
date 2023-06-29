@@ -1,6 +1,6 @@
-# IsEmpty 屬性
+# IsEmpty Property
 
-表示活動點是否與錨點相同。
+Indicates whether the anchor point is equal to the active point.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ _bEmpty_ = document.selection. **IsEmpty**;
 
 _bEmpty_ = document.selection. **IsEmpty**
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported on EmEditor Professional Version 4.00 or later.

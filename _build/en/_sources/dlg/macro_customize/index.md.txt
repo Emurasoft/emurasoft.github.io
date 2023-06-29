@@ -1,6 +1,8 @@
-# 「自訂巨集」對話方塊
+# Customize Macros dialog box
 
-這個對話方塊會出現當您選擇了 [**自訂巨集** 命令](../../cmd/macros/customize_macro)。
+This dialog box appears when the
+[**Customize Macros** \
+Command](../../cmd/macros/customize_macro) is selected.
 
 ```{toctree}
 :maxdepth: 1

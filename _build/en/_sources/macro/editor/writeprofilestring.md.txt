@@ -1,6 +1,7 @@
-# WriteProfileString 方法
+# WriteProfileString Method
 
-按 EmEditor 設定，設置一個字串值到注冊表或一個 INI 檔案中。
+Sets a string value into the Registry or an INI file
+depending on the EmEditor settings.
 
 #### \[JavaScript\]
 
@@ -10,11 +11,12 @@ editor. **WriteProfileString**( _nKey_, _strConfig_, _strEntry_, _strData_ \[ , 
 
 editor. **WriteProfileString** _nKey_, _strConfig_, _strEntry_, _strData_ \[ , _nType_ \]
 
-## 參數
+## Parameters
 
 _nKey_
 
-用下列值之一來指定一個機碼。eeRegConfig 和 eeRegEmEditorPlugin 需要 _pszConfig_ 參數來指定機碼。
+Specifies one of the following values to specify a key. eeRegConfig
+and eeRegEmEditorPlugin require the _pszConfig_ parameter to specify the key.
 
 |     |     |
 | --- | --- |
@@ -35,16 +37,38 @@ _nKey_
 
 _strConfig_
 
-用額外的字串來指定機碼當 eeRegConfig，eeRegEmEditorPlugin，或 eeRegEmEditorUsers 被選取時。
+Specifies an additional string to specify the key when eeRegConfig, eeRegEmEditorPlugin, or eeRegEmEditorUsers is selected.
 
 _strEntry_
 
-指定要檢索的值的名稱。
+Specifies the name of the value to be retrieved.
 
 _strData_
 
-指定要存儲的數據。
+Specifies the data to be stored.
 
-## 版本
+_nType_
 
-支持 EmEditor 8.00 或之後的版本。
+Specifies the data type. This can be zero of the following value. If this is zero or omitted, a normal string type is specified.
+
+|     |     |
+| --- | --- |
+| eeRegQWord | The data is a 64-bit integer represented by a string. The integer is assumed as a hexadecimal integer if the string starts with "0x", otherwise it is assumed as a decimal integer. |
+
+## Examples
+
+This example explains how to write a 64-bit integer value.
+
+#### \[JavaScript\]
+
+nLow = 0x02000183;
+
+nHigh = 0x00000004;
+
+s64 = "0x" + nHigh.toString(16) + ("00000000" + nLow.toString(16)).slice(-8);
+
+editor.WriteProfileString( eeRegCommon, "", "FindFlag", s64, eeRegQWord );
+
+## Version
+
+Supported on EmEditor Professional Version 8.00 or later.

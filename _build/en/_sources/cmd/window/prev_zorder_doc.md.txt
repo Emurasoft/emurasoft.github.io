@@ -1,27 +1,27 @@
-# 最少訪問的文檔命令
+# Least Accessed Document command
 
-### 摘要
+### Summary
 
-> 切換至最少訪問的文檔。
+> Switches to the least accessed document.
 
-### 說明
+### Description
 
-> 切換至最少訪問的文檔。
+> Switches to the least accessed document.
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **視窗**
-\> **文檔導航** \> **最少訪問的文檔**
-- 工具列: 無
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **Window**
+\> **Document Navigation** \> **Least Accessed Document**
+- Toolbar: None
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令 ID
+### Plug-in Command ID
 
 - EEID\_PREV\_ZORDER\_DOC (4545)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

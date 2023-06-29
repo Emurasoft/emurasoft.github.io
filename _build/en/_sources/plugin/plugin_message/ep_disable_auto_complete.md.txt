@@ -1,6 +1,8 @@
 # EP\_DISABLE\_AUTO\_COMPLETE
 
-查詢括號/引號自動完成功能是否被禁用。這個功能由在組態屬性中的 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **自動完成括號/引號標記** 核取方塊定義。
+Queries whether the auto complete for brackets/quotation marks feature should be disabled. This feature is defined by the **Highlight**
+**Matching Parentheses/Brackets** check box in the
+[**Highlight (2)** page](../../dlg/properties/highlight2/index) of configuration properties.
 
 EP\_DISABLE\_AUTO\_COMPLETE
 
@@ -10,16 +12,17 @@ wParam = 0;
 
 lParam = 0;
 
-## 參數
+## Parameters
 
 _hwndParent_
 
-> 外掛程式設置對話方塊的視窗控制代碼。
+> The window handle of the Plug-ins Settings dialog box.
 
-## 返回值
+## Return Values
 
-> 您必須返回 TRUE，如果自動完成功能被禁用，或 FALSE，如果自動完成功能被啟用。
+> You must return TRUE if the auto complete feature should be disabled, or FALSE if the
+> auto complete feature is allowed.
 
-## 支持版本
+## Version
 
-> 支持 EmEditor 9.00 或之後的版本。
+> Supported on Version 9.00 or later.

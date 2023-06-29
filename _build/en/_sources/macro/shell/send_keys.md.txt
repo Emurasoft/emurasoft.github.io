@@ -1,6 +1,7 @@
-# SendKeys 方法
+# SendKeys Method
 
-發送一個或多個鍵擊到活動視窗中 (就如同在鍵盤上輸入一樣) 。 這個 Send Keys 方法還能模擬游標活動。當這個方法發送所有游標操作到任何視窗中時，我們不推薦再發送游標操作到已經開始運行巨集的 EmEditor 視窗中。
+Sends one or more keystrokes to the active window (as if typed on the keyboard). The Send Keys method can also emulate mouse activities. While this method can send all mouse operation to any windows, it is not recommended to send mouse operations
+to the same EmEditor window where the macro is started.
 
 #### \[JavaScript\]
 
@@ -10,20 +11,20 @@ shell. **SendKeys**( _str_ );
 
 shell. **SendKeys** _str_
 
-## 參數
+## Parameters
 
 _str_
 
-指定一個表示您想要發送的擊鍵的字串。它還能包括游標活動。要發送特殊字元或游標活動，請用下列的表格:
+Specifies a string indicating the keystrokes you want to send. It can also include the mouse activities. To send special characters or mouse activities, use the following table:
 
 |     |     |
 | --- | --- |
-| **鍵** | **參數** |
+| **Key** | **Parameter** |
 | ALT | % |
 | ALT DOWN | {ALT DOWN} |
 | ALT UP | {ALT UP} |
 | APPS | {APPS} |
-| BACKSPACE | {BACKSPACE}，{BS}，或 {BKSP} |
+| BACKSPACE | {BACKSPACE}, {BS}, or {BKSP} |
 | BREAK | {BREAK} |
 | CAPS LOCK | {CAPSLOCK} |
 | CLEAR | {CLEAR} |
@@ -31,10 +32,10 @@ _str_
 | CTRL DOWN | {CTRL DOWN} |
 | CTRL UP | {CTRL UP} |
 | CONVERT | {CONVERT} |
-| DEL 或 DELETE | {DELETE} 或 {DEL} |
+| DEL or DELETE | {DELETE} or {DEL} |
 | DOWN ARROW | {DOWN} |
 | END | {END} |
-| ENTER | {ENTER} 或 ~ |
+| ENTER | {ENTER} or ~ |
 | ESC | {ESC} |
 | F1 | {F1} |
 | F2 | {F2} |
@@ -54,14 +55,14 @@ _str_
 | F16 | {F16} |
 | HELP | {HELP} |
 | HOME | {HOME} |
-| INS 或 INSERT | {INSERT} 或 {INS} |
+| INS or INSERT | {INSERT} or {INS} |
 | LEFT ARROW | {LEFT} |
 | LEFT WINDOWS | {LWIN} |
-| 滑鼠按下 | {BTNDOWN button, x, y} |
-| 滑鼠彈起 | {BTNUP button, x, y} |
-| 單擊滑鼠 | {CLICK button, x, y} |
-| 雙擊滑鼠 | {DBLCLICK button, x, y} |
-| 移動滑鼠到 | {MOVETO button, x, y} |
+| Mouse Down | {BTNDOWN button, x, y} |
+| Mouse Up | {BTNUP button, x, y} |
+| Mouse Click | {CLICK button, x, y} |
+| Mouse Double-click | {DBLCLICK button, x, y} |
+| Mouse Move To | {MOVETO, x, y} |
 | NONCONVERT | {NONCONVERT} |
 | NUM LOCK | {NUMLOCK} |
 | NUMPAD \* | {NUMPAD\*} |
@@ -94,48 +95,48 @@ _str_
 
 button: LEFT, RIGHT, MIDDLE
 
-x: X 屏幕坐標值
+x: X screen coordinate value
 
-y: Y 屏幕坐標值
+y: Y screen coordinate value
 
-當按下 SHIFT 時，同時按下 A 和 B,用 "+(ab)".
+When the SHIFT is held down while both A and B are pressed, use "+(ab)".
 
-當按下 SHIFT 時，同時按下 A，然後再按一個 B (這時不按 SHIFT)，用 "+ab".
+When the SHIFT is held down while A is pressed, followed by a lone B (with no SHIFT), use "+ab".
 
-## 範例
+## Examples
 
 #### \[JavaScript\]
 
-shell.SendKeys( "{CLICK LEFT, 10 , 20}" );  // 在屏幕座標 (10,20) 處點擊滑鼠左鍵。
+shell.SendKeys( "{CLICK LEFT, 10 , 20}" );  // Click Left Mouse Button at screen coordinate (10,20).
 
-shell.SendKeys( "{MOVETO, 30 , 40}" );      // 把滑鼠移到屏幕座標 (30,40) 處。
+shell.SendKeys( "{MOVETO, 30 , 40}" );      // Move Mouse to screen coordinate (30,40).
 
-shell.SendKeys( "abc~" );                   // 輸入 "abc" 並按 Enter。
+shell.SendKeys( "abc~" );                   // Type "abc" and then press Enter.
 
-shell.SendKeys( "%fo" );                    // 按住 ALT 不放的同時，按下 F，然後放開 ALT，按下 O。
+shell.SendKeys( "%fo" );                    // While ALT is held down, press F, and then press O without ALT.
 
-shell.SendKeys( "{~}~" );                   // 輸入 "~" 然後按 Enter。
+shell.SendKeys( "{~}~" );                   // Type "~" and then press Enter.
 
-shell.SendKeys( "{VK25}" );                 // 按下 KANJI 鍵 (VK\_KANJI = 25)。
+shell.SendKeys( "{VK25}" );                 // Press the KANJI key (VK\_KANJI = 25).
 
-shell.SendKeys( "{VK65 DOWN}" );            // 按下 A 鍵，並按住不放 （A 鍵 = 65）。
+shell.SendKeys( "{VK65 DOWN}" );            // Press the A key, and hold it down (A key = 65).
 
 #### \[VBScript\]
 
-shell.SendKeys "{CLICK LEFT, 10 , 20}"      // 在屏幕座標 (10,20) 處點擊滑鼠左鍵。
+shell.SendKeys "{CLICK LEFT, 10 , 20}"      // Click Left Mouse Button at screen coordinate (10,20).
 
-shell.SendKeys "{MOVETO, 30 , 40}"          // 把滑鼠移到屏幕座標 (30,40) 處。
+shell.SendKeys "{MOVETO, 30 , 40}"          // Move Mouse to screen coordinate (30,40).
 
-shell.SendKeys "abc~"                       // 輸入 "abc" 並按 Enter。
+shell.SendKeys "abc~"                       // Type "abc" and then press Enter.
 
-shell.SendKeys "%fo"                        // 按住 ALT 不放的同時，按下 F，然後放開 ALT，按下 O。
+shell.SendKeys "%fo"                        // While ALT is held down, press F, and then press O without ALT.
 
-shell.SendKeys "{~}~"                       // 輸入 "~" 然後按 Enter。
+shell.SendKeys "{~}~"                       // Type "~" and then press Enter.
 
-shell.SendKeys "{VK25}"                     // 按下 KANJI 鍵 (VK\_KANJI = 25)。
+shell.SendKeys "{VK25}"                     // Press the KANJI key (VK\_KANJI = 25).
 
-shell.SendKeys "{VK65 DOWN}"                // 按下 A 鍵，並按住不放 （A 鍵 = 65）。
+shell.SendKeys "{VK65 DOWN}"                // Press the A key, and hold it down (A key = 65).
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

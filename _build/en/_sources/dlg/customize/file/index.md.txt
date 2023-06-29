@@ -1,95 +1,114 @@
-# 「檔案」頁面
+# File page
 
-**檔案** 頁面讓你能自訂與檔案操作相關的設定。
+The **File** page allows you to customize settings related to file
+operations.
 
-### 「記住前一次的資料夾」核取方塊
+### Remember Last Folder check box
 
-在 **打開** 和 **另存新檔** 對話方塊中，顯示前一次的資料夾。
+In the **Open** and **Save As** dialogs, show the most recently used folder.
 
-### 「當打開一個新檔案時進行提示」核取方塊
+### Prompt when Opening a New File check box
 
-如果試圖打開不存在的檔案，顯示一條警告消息。
+Shows a warning message if trying to open non-existent files.
 
-### 「在網路路徑中創建新檔案時提示」核取方塊
+### Prompt when creating a new file in a network path check box
 
-如果嘗試在網路路徑中打開不存在的檔案，會顯示此警告消息。
+Shows an additional warning message if trying to open non-existent files in a network path.
 
-### 「總是添加到最近使用的文檔資料夾中」核取方塊
+### Always Add to Recent Documents Folder check box
 
-儲存捷徑到 Windows **最近使用的文檔** 資料夾中，當你打開或儲存檔案時。如果要 Windows 7 的捷徑清單包括最近使用的條目，這個核取方塊必須勾選。
+Save the shortcuts to the Windows **My Recent Documents** folder when you
+open or save files. This check box must be on in order for the recent category in the Windows 7 jump list to include the recently used items.
 
-### 「設定「偵測全部」選項時，用 uchardet 檢測檔案編碼」核取方塊
+### Use uchardet to detect file encodings when the Detect All option is set check box
 
-當選擇「偵測全部」選項來打開檔案時，EmEditor 會用 **[uchardet](https://github.com/BYVoid/uchardet)** （Mozilla 字元編碼探測的 C++ 分支）來檢測檔案編碼。
+When the **Detect All** option is used to open files, EmEditor will use **[uchardet](https://github.com/BYVoid/uchardet)** (C++ fork of Mozilla Charset Detectors) to detect file encoding.
 
-### 「打開 US-ASCII 作為系統預設編碼」核取方塊
+### Open US-ASCII as System Default Encoding check box
 
-如果偵測到的檔案編碼為 US-ASCII，則 EmEditor 會用系統預設編碼打開檔案。
+If the detected file encoding was US-ASCII, EmEditor will open the file as the system default encoding.
 
-### 「總是顯示所有偵測結果」核取方塊
+### Always Show Detect All Result check box
 
-總是顯示 [**偵測全部結果** 對話方塊](../../detect_result/index)，在選擇 **偵測全部** 選項的情況下打開一個檔案時，或在選擇 **[重新載入並全部偵測](../../../cmd/file/file_reload_detect_all)** 命令時。然而，如果偵測到的檔案編碼是帶簽名的 UTF-16，不帶簽名的 UTF-16 或帶簽名的 UTF-8，檔案會立即加載而不顯示該對話方塊。
+Always displays the
+[**Detect All Result** dialog box](../../detect_result/index) when the **Detect**
+**All** check box is selected when opening a file, or when the **[Reload Detect All](../../../cmd/file/file_reload_detect_all)** command is selected. However, if UTF-16 with
+signature, UTF-16 without signature or UTF-8 with signature is detected, the file will be loaded immediately without displaying the dialog box.
 
-### 「僅在偵測到多項編碼時顯示」核取方塊
+### Show only when Multiple Encodings Detected check box
 
-只有在選擇 **偵測全部** 選項的情況下打開一個檔案時，或在選擇 **[重新載入並全部偵測](../../../cmd/file/file_reload_detect_all)** 命令時，顯示 [**偵測全部結果** 對話方塊](../../detect_result/index)。
+Displays the
+[**Detect All Result** dialog box](../../detect_result/index) only if multiple encodings are detected when the **Detect**
+**All** check box is selected when opening a file, or when the **[Reload Detect All](../../../cmd/file/file_reload_detect_all)** command is selected.
 
-### 「在搜尋多個檔案時顯示偵測全部結果」核取方塊
+### Show Detect All Result also during Find in Files check box
 
-在進行「多檔尋找」時，顯示 [**偵測全部結果** 對話方塊](../../detect_result/index)，當 **偵測全部** 核取方塊被勾選時。
+Displays the
+[**Detect All Result** dialog box](../../detect_result/index) during Find in Files when the **Detect**
+**All** check box is selected.
 
-### 「避免存取印表機」核取方塊
+### Avoid Printer Access check box
 
-如果勾選該核取方塊，當運行 EmEditor 時，即使勾選了 **顯示頁數** 核取方塊，頁數也不會被顯示，除非選擇了 [**列印** 命令](../../../cmd/file/file_print) 或 [**列印預覽** 命令](../../../cmd/file/print_preview)。如果印表機存取過慢的話，建議勾選該選項。
+Avoids access to a printer. If this is checked, when EmEditor is launched, even if the
+**Show Page Numbers** check box is checked, page numbers will not be displayed until the
+[**Print** command](../../../cmd/file/file_print) or the [**Print Preview** command](../../../cmd/file/print_preview) is selected. This option is recommended if the printer access is slow.
 
-### 「當打開一個大檔案時，顯示大檔案控制器」核取方塊
+### Displays Large File Controller when a large file is opened check box
 
-如果勾選該核取方塊，EmEditor 會自動顯示大檔案控制器，當它打開一個大檔案時（檔案的大小定義取決于自訂對話方塊的 [進階頁面](../advanced/index) 上「異步打開的最小檔案大小」的數值）。
+If this is checked, EmEditor automatically displays the Large File Controller when it opens a large file (larger than the size specified in Minimum File Size to Open Asynchronously text box in the
+[Advanced page](../advanced/index) of the Customize dialog box).
 
-### 「當只打開檔案的指定部分時提示」核取方塊
+### Prompt when only a specified portion of file is opened check box
 
-如果勾選該核取方塊，EmEditor 會顯示一個提示對話方塊，當 EmEditor 僅加載 **從（預設）** 以及 **到（預設）** 文字方塊中指定的檔案部分時。
+If this is checked, EmEditor will display a prompt dialog box if EmEditor loads only a portion of a file specified in the **From (default)** and **To (default)** text boxes.
 
-### 「當打開並篩選是預設時提示」核取方塊
+### Prompt when default Open Filter exists check box
 
-如果勾選該核取方塊，EmEditor 會顯示一個提示對話方塊如果存在 **打開並篩選**。你可以在 **大檔案控制器** 中設定 **打開並篩選**。
+If this is checked, EmEditor will display a prompt dialog box if the **Open Filter** exists. The **Open Filter** can be set in the **Large File Controller**.
 
-### 「提示如果 Unicode (UTF-16) 檔案大小為奇數（以位元組為單位）」核取方塊
+### Prompt if a Unicode (UTF-16) file size is an odd number in bytes check box
 
-如果勾選該核取方塊，EmEditor 會顯示一個提示對話方塊如果 Unicode (UTF-16) 檔案大小為奇數（以位元組為單位）。
+If this is checked, EmEditor will display a prompt dialog box if a Unicode (UTF-16) file size is an odd number in bytes.
 
-### 「儲存大檔案時啟用檔案對應」核取方塊
+### Enable file mapping when saving a large file check box
 
-當勾選了該核取方塊，EmEditor 會在儲存一個很大的檔案時啟用檔案對應如果可能的話。
+If this is checked, EmEditor will enable file mapping when saving a very large file if possible.
 
-### 「從（預設）」文字方塊
+### Monitor files only while EmEditor is active check box
 
-指定 EmEditor 開始加載檔案的位置。0 是預設設定。
+If this is checked, EmEditor will monitor files only while EmEditor is active.
 
-### 「到（預設）」文字方塊
+### From (default)
 
-指定 EmEditor 結束加載檔案的位置。空白代表無限制，也是預設的設定。
+Specifies the place where EmEditor starts loading a file. By default, 0 is specified.
 
-### 「自訂檔案篩選類型」文字方塊
+### To (default)
 
-自訂在 **打開** 和 **另存新檔** 對話方塊中顯示的 **檔案類型**。
+Specifies the place where EmEditor ends loading a file. A blank means unlimited. By default, unlimited is specified.
 
-### 「偵測 UTF-8 的最大位元組」文字方塊
+### Custom File Filter text box
 
-指定偵測 UTF-8 檔案的最大位元組。
+Set the custom file filter shown in the **File Type** combo box in the **Open**
+dialog box and the **Save As** dialog box.
 
-### 「檔案存取超時」文字方塊
+### Maximum bytes to detect UTF-8 text box
 
-設定存取檔案時的超時時間（以秒為單位）。當存取速度慢的儲存媒體或網絡資料夾時，此選項尤其重要。
+Set the maximum bytes to detect UTF-8 files.
 
-### 「關聯到 EmEditor」按鈕
+### File access timeout text box
 
-顯示 [**關聯到 EmEditor** 對話方塊](../../file_associate/index)，讓使用者指定要與 EmEditor 關聯的檔案副檔名。
+Set the timeout period in seconds when accessing files. This option becomes important especially when accessing slow storage media or network folders.
 
-### 「重設」按鈕
+### Associate with EmEditor button
 
-重設為預設設置。
+Displays the [**Associate with EmEditor** dialog box](../../file_associate/index),
+where the user can specify which file extensions to associate with EmEditor.
 
-下面的對話方塊同樣能夠通過該對話方塊訪問。
+### Reset button
 
-（選擇 **「關聯到 EmEditor」** 按鈕）
+Resets to default settings.
+
+The following dialog box is also available through this dialog box.
+
+(Select
+**Associate with EmEditor** button)

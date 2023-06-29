@@ -1,5 +1,7 @@
-# 在打開檔案對話方塊中更改檔案類型
+# To Change the File types on the Open Dialog
 
-1. 選擇 [**自訂** 命令](../../cmd/tools/common_settings) 并顯示 [**自訂** 對話方塊](../../dlg/customize/index) 中的 **檔案** 頁面。
-2. 在 **自訂檔案篩選器** 文字方塊中指定檔案類型 **\*.txt;\*.bat**。
-3. 在 **打開** 對話方塊上的 **檔案類型** 下拉清單方塊中選擇 **自訂**。
+1. Select the [**Customize** \
+command](../../cmd/tools/common_settings) to display the **File** tab of the [**Customize** dialog box](../../dlg/customize/index).
+2. Specify file types as **\*.txt;\*.bat** in the **Custom File Filter**
+text box.
+3. Select **Custom** from the **File Types** drop-down list box in the **Open** dialog.

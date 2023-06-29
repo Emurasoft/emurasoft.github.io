@@ -1,3 +1,4 @@
-# Q. 原來游標的形狀是這樣「\|」，但現在它變成了一個實心的長方塊形狀。當我打字時，它不是輸入文字，而是覆寫存在的字元。怎么辦？
+# Q. The cursor shape used to look like 'I' but now it looks like a solid rectangle. When I type a letter, it is not inserted but overwrites an existing character. What happened?
 
-發生這種情況是因為您的 EmEditor 中的「覆寫」模式被啟用了。請按一下鍵盤上的「Insert」鍵來切換「插入/覆寫模式」。
+"Overwrite" mode is turned on. Press the
+**Insert** key on your keyboard to toggle "Overwrite" mode.

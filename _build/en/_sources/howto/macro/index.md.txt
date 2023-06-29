@@ -1,8 +1,10 @@
-# 巨集
+# Macros
 
-如何...
+How to...
 
-在 EmEditor Professional 中，一個巨集能被儲存到一個檔案中。更多有關巨集的信息，請詳見 [巨集參考](../../macro/index)。
+In EmEditor Professional, a macro can be saved into a file. For more
+information about macros, see [Macro \
+Reference](../../macro/index).
 
 ```{toctree}
 :maxdepth: 1

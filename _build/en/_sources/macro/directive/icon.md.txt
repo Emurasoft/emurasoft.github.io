@@ -1,25 +1,25 @@
-# \#icon 指示詞
+# \#icon directive
 
-指定要使用的工具列按鈕的圖示。這個指示詞必須在上述主代碼的指示詞碼的第一行中指定。
+Specifies the icon to use the toolbar button. This directive must be specified at the first lines of the script above the main code.
 
 #icon = " _filename_", _index_
 
-## 參數
+## Parameters
 
 _filename_
 
-> 用從目前的巨集檔案的相對路徑或完整路徑上指定提取圖示的檔案。如果路徑被省略，指定目前的的巨集檔案所在的檔案的標題。
+> Specifies the file extracting icon with the relative paths from the current macro file or the complete paths. If the paths are omitted, specify the title of the file in which the current macro file exists.
 
 _index_
 
-> 如果多個圖示存在在指定檔案中，指定您要使用的索引。0 會被選取如果指定被省略的話。
+> If multiple icons exist in the specified file, specify the index that you use. 0 would be selected if the specifying was omitted.
 
-## 示例
+## Examples
 
-用計算器圖示 (calc.exe)
+Use the icon of calculator (calc.exe)
 
 #icon = "C:\\WINDOWS\\system32\\calc.exe",0
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.

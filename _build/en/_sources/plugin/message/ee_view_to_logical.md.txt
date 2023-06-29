@@ -1,8 +1,9 @@
 # EE\_VIEW\_TO\_LOGICAL
 
-把一個指定位置的顯示坐標轉換為邏輯坐標。您能明確地發送該消息或用
+Converts the display coordinates of a specified position to the logical
+coordinates. You can send this message explicitly or use the
 [Editor\_ViewToLogical](../macro/editor_viewtological)
-內嵌函式。
+inline function.
 
 EE\_VIEW\_TO\_LOGICAL
 
@@ -10,16 +11,18 @@ wParam = (WPARAM) (POINT\_PTR\*) pptView;
 
 lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
 
-## 參數
+## Parameters
 
 _pptView_
 
-> 指針指向一個指定要被轉換的顯示坐標的 [POINT\_PTR 結構](../structure/point_ptr)。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the display coordinates to be
+> converted.
 
 _pptLogical_
 
-> 指針指向一個要接收轉換后的顯示坐標的 [POINT\_PTR 結構](../structure/point_ptr)。
+> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the converted logical
+> coordinates.
 
-## 返回值
+## Return Values
 
-> 不使用返回值。
+> The return value is not used.

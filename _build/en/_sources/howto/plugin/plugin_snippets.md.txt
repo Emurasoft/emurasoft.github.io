@@ -1,142 +1,145 @@
-# 使用程式碼片段外掛程式
+# To Use Snippets Plug-in
 
-**程式碼片段** 被預設用 EmEditor Professional 安裝。該外掛程式讓您能快速地插入單字以及短語。程式碼片段通常是讓您可以插入到文檔中的文字片段，它也可以包含一般文字，占位符，shell code，巨集，或規則運算式來轉換文字以及各種內置和使用者定義的參數。在這個程式碼片段外掛程式中，您可以創建兩種類型的項目 - 程式碼片段以及巨集。
+The **Snippets** plug-in is installed by default with EmEditor Professional. This plug-in allows you to insert words and phrases quickly. A snippet is a piece of text that you insert into your document and may contain plain text, placeholders, shell code, a macro, or regular expressions to
+transform text and various built-in and user-defined parameters. In the Snippets plug-in, you can create two types of items - snippets and macros.
 
-要使用 **程式碼片段** 外掛程式，點擊 **外掛程式** 欄中的 **![Snippets](../../images/plugin_snippets.gif)**。或在 **工具** 功能表下，指向 **外掛程式**，然后點擊 **程式碼片段**，便會出現 **程式碼片段** 自訂顯示條。
+To use the **Snippets** plug-in, Click **![Snippets](../../images/plugin_snippets.gif)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Snippets**. The **Snippets** custom bar will appear.
 
-右擊程式碼片段顯示條會顯示下列選項:
-
-|     |     |
-| --- | --- |
-| 插入 | 插入被選取的程式碼片段。 |
-| 編輯 | 編輯被選取的程式碼片段。 |
-| 選擇程式碼片段 | 顯示一個對話方塊，讓您能輸入一些字元來選擇要插入的程式碼片段。 |
-| 新增程式碼片段 | 創建一個新的程式碼片段。 |
-| 新增巨集 | 創建一個新的巨集。 |
-| 新增資料夾 | 創建一個新的資料夾。 |
-| 上移 | 把選取的程式碼片段在清單上往上移動。 |
-| 下移 | 把選取的程式碼片段在清單上往下移動。 |
-| 刪除 | 刪除被選取的程式碼片段。 |
-| 刪除全部 | 刪除全部程式碼片段。 |
-| 導入到該資料夾 | 把程式碼片段導入到該資料夾中。 |
-| 導入到根資料夾 | 把程式碼片段導入到根資料夾中。 |
-| 導出該資料夾/項目 | 導出所有在該資料夾中的程式碼片段到指定的目標中。 |
-| 導出全部 | 導出所有程式碼片段到指定的目標中。 |
-| 全部重設 (導入預設) | 重設所有程式碼片段并導入預設程式碼片段清單。 |
-| 觸發鍵 | 顯示或隱藏觸發鍵。 |
-| 組態 | 顯示或隱藏組態。 |
-| 外掛程式屬性 | 顯示外掛程式屬性。 |
-| 名稱 | 按名稱排列。 |
-| 類型 | 按類型排列。 |
-| 文字 | 按文字排列。 |
-| 提示 | 按提示排列。 |
-| 觸發文字 | 按觸發文字排列。 |
-| 升序 | 按升序排列。 |
-| 降序 | 按降序排列。 |
-| 自動排列 | 自動排列程式碼片段。 |
-| 屬性 | 顯示被選取的程式碼片段或程式碼片段資料夾的屬性。 |
-
-## 程式碼片段外掛程式屬性
-
-要調整程式碼片段外掛程式屬性，右擊外掛程式欄中的程式碼片段外掛程式按鈕，選擇屬性。
-
-### 一般頁面
+Right-clicking on the Snippets bar shows the following options:
 
 |     |     |
 | --- | --- |
-| 自訂顯示條位置 | 設置自訂顯示條位置。 |
-| 后臺運行 | 運行程式碼片段繼續運行即使您關閉了程式碼片段自訂顯示條。 |
-| 預設捷徑 | 指定預設捷徑；初始的預設捷徑是 TAB。 |
-| 詳細程度 | 調整提示的詳細程度。 |
-| 延時 | 調整在一個提示出現之前的時間。 |
+| Insert | inserts the selected snippet. |
+| Edit | edits the selected snippet. |
+| Select Snippet | Displays a dialog box where you can type a few characters to select a snippet to insert. |
+| New Snippet | creates a new snippet. |
+| New Macro | creates a new macro. |
+| New Folder | creates a new folder. |
+| Move Up | moves the selected snippet up on the list. |
+| Move Down | moves the selected snippet down on the list. |
+| Delete | deletes the selected snippet. |
+| Delete All | deletes all of the snippets. |
+| Import to This Folder | imports snippets to this folder. |
+| Import to Root | imports snippets to the root folder. |
+| Export This Folder | exports all snippets in this folder to the specified destination. |
+| Export All | exports all snippets to the specified destination. |
+| Reset All (Import Default) | resets all snippets and imports the default list of snippets. |
+| Trigger Keys | shows or hides trigger keys. |
+| Configurations | shows or hides configurations. |
+| Plug-in Properties | displays the plug-in properties. |
+| Name | arranges by name. |
+| Type | arranges by type. |
+| Text | arranges by text. |
+| Tip | arranges by tip. |
+| Trigger | arranges by trigger. |
+| Ascending Order | arranges in ascending order. |
+| Descending Order | arranges in descending order. |
+| Auto Arrange | arranges snippets automatically. |
+| Properties | displays the properties of the selected snippet or snippet folder. |
 
-### 全局參數頁面
+## Snippets Plug-in Properties
 
-|     |     |
-| --- | --- |
-| 「添加」按鈕 | 添加一個參數并為它指定一個值。 |
-| 「刪除」按鈕 | 刪除一個參數。 |
+To adjust the properties of the Snippets plug-in, right-click the Snippets Plug-in button on the Plug-ins bar and select Properties.
 
-### 鍵盤頁面
-
-|     |     |
-| --- | --- |
-| 命令 | 列出可用的命令。 (「快顯功能表」或「選擇程式碼片段」) |
-| 按下新的快速鍵 | 讓您能為選取的命令輸入快速鍵。 |
-| 目前的鍵 | 被分配給被選取的命令的目前的鍵。 |
-| 描述 | 對被選取的命令的說明。 |
-| 「分配」按鈕 | 分配快速鍵給目前的被選取的命令。A |
-| 「刪除」按鈕 | 刪除目前的被選取的快速鍵。 |
-
-## 程式碼片段資料夾屬性
-
-要調整每一個程式碼片段資料夾的屬性，在程式碼片段自訂顯示條中的一個資料夾上右擊，選擇「屬性」。
-
-### 一般頁面
-
-|     |     |
-| --- | --- |
-| 名稱 | 指定程式碼片段資料夾名稱。 |
-
-### 組態頁面
+### General tab
 
 |     |     |
 | --- | --- |
-| 僅在啟用下列組態時使用自動完成 | 指定要自動完成的組態。 |
-| 程式碼片段 | 設置要用來編輯程式碼片段的組態。 |
-| 巨集 | 設置要用來編輯巨集的組態。 |
+| Custom Bar Position | sets the custom bar position. |
+| Run Background | allows the snippets to work even if you close the Snippets custom bar. |
+| Default Shortcut Key | specifies the default shortcut key; the initial default shortcut key is TAB. |
+| Verbosity | adjusts the frequency of tips. |
+| Delay Time | adjusts the delay time before a tip appears. |
 
-## 程式碼片段屬性
-
-要調整每一個程式碼片段屬性，在程式碼片段自訂顯示條中的一個程式碼片段上右擊，選擇「屬性」。
-
-### 一般頁面
+### Global Parameters tab
 
 |     |     |
 | --- | --- |
-| 名稱 | 指定程式碼片段資料夾名稱。 |
-| 觸發文字 | 為程式碼片段指定觸發文字。 |
-| 快速鍵 | 為程式碼片段指定快速鍵。 |
-| 提示 | 為程式碼片段指定快速鍵。 |
-| 類型 | 指定類型 (程式碼片段或巨集) 。 |
-| 文字 | 指定程式碼片段的文字/ |
-| 編輯 | 讓使用者能在 EmEditor 視窗中編輯程式碼片段。 |
+| Add | adds a parameter and specifies its value. |
+| Delete | deletes a parameter. |
 
-### 組態頁面
+### Keyboard page
 
 |     |     |
 | --- | --- |
-| 僅在啟用下列組態時使用自動完成 | 指定要自動完成的組態。 |
-| 程式碼片段 | 設置要用來編輯程式碼片段的組態。 |
-| 巨集 | 設置要用來編輯巨集的組態。 |
+| Commands | lists available commands. (Popup Menu or Select Snippets) |
+| Press New Shortcut Key | allows you to enter shortcut key for the selected command. |
+| Current Keys | Current keys assigned to the selected command. |
+| Description | Description for the selected command. |
+| Assign button | Assign the shortcut key to the currently selected command. |
+| Delete button | Delete the currently selected shortcut key. |
 
-## 程式碼片段語法
+## Snippets Folders Properties
 
-### 純文字
+To adjust the properties of each of the snippets folders, right-click on a folder in the Snippets custom bar, and select Properties.
 
-程式碼片段包括任何您想要插入到文檔中的純文字。要編寫純文字，大部分的字元都可以使用，然而，如果您想要包括 \\，$，或 \` 到您的純文字中，它們必須被轉義為 \\\，\\$，以及 \\\`。
+### General tab
 
-### 占位符
+|     |     |
+| --- | --- |
+| Name | specifies the name of the snippets folder. |
 
-在您插入一個程式碼片段后，游標位置會在占位符之間跳轉，按 TAB 鍵會跳到下一個占位符。
+### Configurations tab
 
-您可以在占位符中把這些制表位定義為 ${n:default}，這樣，當程式碼片段被插入時，第一次出現會是預設值。如果沒有預設值，您可以省略 {}，讓制表位顯示為$n，在這里，n 的數值是一個 0 到 9 之間的整數。當一個使用者插入一個程式碼片段，最初的游標位置在 $1，按 TAB 鍵會讓 Tab前進道下一個占位符 $2，$3，... 等等。最后一個 Tab是 $0。
+|     |     |
+| --- | --- |
+| Auto complete only with the following configurations | specifies which configurations to auto complete with. |
+| Snippets | sets the configuration to edit with for snippets. |
+| Macros | sets the configuration to edit with for macros. |
 
-例如，下列的程式碼片段會在 HTML 中插入一個超連結，并且一開始的游標位置是 $1。當游標在 $1 處時，如果使用者按 TAB 鍵，游標會跳到 $2 處，然后到 $0。
+## Snippets Properties
+
+To adjust the properties of each of the snippets, right-click on a snippet in the Snippets custom bar, and select Properties.
+
+### General tab
+
+|     |     |
+| --- | --- |
+| Name | specifies the name of the snippets folder. |
+| Trigger | specifies the trigger for the snippet. |
+| Shortcut | specifies the shortcut for the snippet. |
+| Tip | specifies the tip for the snippet. |
+| Type | specifies the type (Snippet or Macro). |
+| Text | specifies the text of the snippet. |
+| Edit | allows a user to edit the snippet in the EmEditor window. |
+
+### Configurations tab
+
+|     |     |
+| --- | --- |
+| Auto complete only with the following configurations | specifies which configurations to auto complete with. |
+| Snippets | sets the configuration to edit with for snippets. |
+| Macros | sets the configuration to edit with for macros. |
+
+## Snippet Syntax
+
+### Plain text
+
+You may include any plain text you want to insert into your document. To write plain text, most characters can be used, however, if you want to include \\, $, or \` in your plain text, they must be escaped as \\\, \\$, and \\\`.
+
+### Placeholders
+
+After you insert a snippet, the cursor position jumps between placeholders, and pressing the TAB key will jump forward to the next placeholder.
+
+You can define these tab stops within your snippet as ${n:default} where default is the default value that first appears when the snippet is inserted. When there is no default value, you can omit {} so the tab stop appears as $n, where n is an integer value between 0 and 9. When a user inserts a
+snippet, the first cursor position is at $1, and pressing TAB will forward the tab stop to next placeholder $2, $3, ... etc. The last tab stop is at $0.
+
+For instance, the following snippet inserts a hyperlink in HTML, and the first cursor position is at $1. While the cursor is at $1, if the user presses the TAB key, the cursor jumps to $2, and then to $0.
 
 <a target="$1" href="$2">$0</a>
 
-程式碼片段能包括預設數值。下面顯示程式碼片段用一個預設值插入一個超連結。
+Snippets can include default values. The following snippet inserts a hyperlink with a default value.
 
 <a target="${1:\_blank}" href="${2:url}">$0</a>
 
-您能在一個占位符中再包含一個占位符。下列程式碼片段用選取的目標參數插入一個超連結標籤。使用者能決定是否覆寫參數，刪除它，或再次按 TAB 鍵前進道下一個占位符處。
+You can include a placeholder within a placeholder. The following snippet inserts a hyperlink tag with the target parameter selected. A user can decide to overtype the argument, delete it, or press the TAB key again to proceed to the next placeholder.
 
 <a ${1: target="${2:\_blank}"} href="${3:url}">$0</a>
 
-### 鏡像
+### Mirrors
 
-如果您用相同的占位符索引，所有這些占位符的數值都會變為相同或被鏡像。下列程式碼片段插入一個 “for” 循環。在這個情況下，數值 i 是占位符 $2 的預設值，并且相同索引中的占位符被用在其他兩處地方。當游標在 ${2:i} 處時，變更 i 的數值會被鏡像到其他地方。
+If you use the same placeholder index, all the values in these placeholders become the same or mirrored. The following snippet inserts a “for” loop. In this case, the value i is the default value for the placeholder $2, and placeholders with the same index are used in two other places. While the
+cursor is at ${2:i}, changing the value of i will be mirrored into the other places.
 
 for( ${1:int} ${2:i} = ${3:0}; $2 != ${4:10}; $2++ ){
 
@@ -144,119 +147,121 @@ $0
 
 }
 
-### 轉換
+### Transformation
 
-您能用規則運算式和取代格式把一個占位符的數值轉換為另一個。語法是: ${n/regexp/replace\_format/option} 其中
+You can transform the value of one placeholder into another by using a regular expression and a replace format. The syntax is: ${n/regexp/replace\_format/option} where
 
-n: 該占位符的索引
+n: the index of the placeholder
 
-regexp: 要搜尋的規則運算式
+regexp: regular expression to search for
 
-replace\_format: 取代的格式
+replace\_format: replace format
 
-選項:
+option:
 
-**i** : 忽略大小寫
+**i** : ignore cases
 
-**g** : 全局選項
+**g** : global option
 
-下列例子除了大寫第一個字元外，把第一行上輸入的字元複製到第二行上。T
+The following example copies characters entered in the first line to the second line, except the first character is capitalized.
 
 $1
 
 ${1/./\\U\\0/}
 
-### 預設的參數:
+### Predefined parameters:
 
-$1 占位符 1
+$1 Placeholder 1
 
-$2 占位符 2
+$2 Placeholder 2
 
-$3 占位符 3
+$3 Placeholder 3
 
-$4 占位符 4
+$4 Placeholder 4
 
-$5 占位符 5
+$5 Placeholder 5
 
 ...
 
-$9 占位符 9
+$9 Placeholder 9
 
-$0 上一個占位符
+$0 Last Placeholder
 
-${n:default} 有預設文字的占位符 n
+${n:default} Placeholder n with default Text
 
-${Path} 檔案的完整路徑名。
+${Path} The full path name of the file.
 
-${Dir} 目前的檔案的目錄名稱。
+${Dir} The directory name of the current file.
 
-${Filename} 不帶副檔名的檔案名。
+${Filename} The file name without its extension.
 
-${FilenameEx} 帶副檔名的檔案名。
+${FilenameEx} The file name with its extension.
 
-${Ext} 檔案副檔名。
+${Ext} The file name extension.
 
-${LineText} 游標所在行。
+${LineText} Line at cursor position.
 
-${WordText} 游標所在單字。
+${WordText} Word at cursor position.
 
-${SelText} 選取的文字。
+${SelText} The selected text.
 
-${CurCol} 游標的邏輯列號。
+${CurCol} The logical column number of the cursor.
 
-${CurLine} 游標的邏輯行號。
+${CurLine} The logical line number of the cursor.
 
-${Date} 今天的日期。
+${Date} Today's date.
 
-${Time} 目前的的時間。
+${Time} The current time.
 
-${Charset} 字元集 (用在 HTML META 標記中) 。
+${Charset} Charset (used in HTML meta tag)
 
-${TabSize} Tab大小。
+${TabSize} The tab size.
 
-${IndentSize} 縮排大小。
+${IndentSize} The indent size.
 
-${AutoIndent} 1 如果自動縮排開著，0 如果自動縮排關閉。
+${AutoIndent} 1 if auto indent is on, 0 if not.
 
-${UseSpacesForTabs} 1 如果 "將空白來取代 Tab" 開著，0 如果該選項被關閉。
+${UseSpacesForTabs} 1 if "Use Spaces for Tabs" is on, 0 if not.
 
-${AppVersion} EmEditor 的版本。
+${AppVersion} The version of EmEditor.
 
-${PluginVersion} 程式碼片段外掛程式的版本。
+${PluginVersion} The version of the Snippets plug-in.
 
-${TM\_FILENAME} 與 ${FilenameEx}相同。
+${TM\_FILENAME} Same as ${FilenameEx}.
 
-${TM\_CURRENT\_LINE} 與 ${LineText}相同。
+${TM\_CURRENT\_LINE} Same as ${LineText}.
 
-${TM\_CURRENT\_WORD} 與 ${WordText}相同。
+${TM\_CURRENT\_WORD} Same as ${WordText}.
 
-${TM\_DIRECTORY} 與 ${Dir}相同。
+${TM\_DIRECTORY} Same as ${Dir}.
 
-${TM\_FILEPATH} 與 ${Path}相同。
+${TM\_FILEPATH} Same as ${Path}.
 
-${TM\_LINE\_INDEX} 與 ${CurCol}相同。
+${TM\_LINE\_INDEX} Same as ${CurCol}.
 
-${TM\_LINE\_NUMBER} 與 ${CurLine}相同。
+${TM\_LINE\_NUMBER} Same as ${CurLine}.
 
-${TM\_SELECTED\_TEXT} 與 ${SelText}相同。
+${TM\_SELECTED\_TEXT} Same as ${SelText}.
 
-${TM\_SOFT\_TABS} 與 ${Use與SpacesForTabs}相同。
+${TM\_SOFT\_TABS} Same as ${UseSpacesForTabs}.
 
-${TM\_TAB\_SIZE} 與 ${TabSize}相同。
+${TM\_TAB\_SIZE} Same as ${TabSize}.
 
-${PickFullPath,title,filter} 選取檔案的完整路徑名稱。標題是對話方塊的標題，過濾器是檔案過濾器的格式: Text files\|\*.txt\|All files\|\*.\*\|\|
+${PickFullPath,title,filter} The full path name of the selected file. The title is the title of the dialog box, and the filter is the file filter in the format: Text files\|\*.txt\|All files\|\*.\*\|\|
 
-${PickRelativePath,title,filter} 選取檔案的相對路徑名稱。標題是對話方塊的標題，過濾器是檔案過濾器的格式: Text files\|\*.txt\|All files\|\*.\*\|\|
+${PickRelativePath,title,filter} The relative path name of the selected file. The title is the title of the dialog box, and the filter is the file filter in the format: Text files\|\*.txt\|All files\|\*.\*\|\|
 
-${PickColor} 選取顏色的 RGB 值。
+${PickColor} The RGB value of the selected color.
 
-${DefColor} 選取顏色的 RGB 值。
+${DefColor} The RGB value of the recently selected color.
 
-您同樣能在 ${parameter\_name} 的形式中創建您自己的參數，其中，parameter\_name 沒有在上述清單中被預先設定。當一個新使用者參數被使用，一個對話方塊出現，讓您能插入一個新的數值，除非一個參數的值被儲存到外掛程式屬性的全局參數頁面中。
+You can also create your own parameter in this form ${parameter\_name} where parameter\_name is not predefined in the above list. When a new user parameter is used, a dialog box appears where you can insert a new value, unless the value of a parameter can be saved in the Global Parameter tab of the
+Plug-in properties.
 
-### 外殼程式代碼 (Shell Code)
+### Shell Codes
 
-您能定義一個能夠運行程式，然后把字串傳遞到它的標準輸入中的外殼程式代碼。控制臺應用程式的標準輸出，還有標準錯誤，會被重新導向您下一個文檔的游標位置處。一個外殼程式代碼必須由下列格式指定:
+You can define a shell code that can run a console application and then pass strings to its standard input. The standard output, as well as the standard error, from the console application is redirected to the cursor position of your text document. A shell
+code must be specified by the following format:
 
 \`\- appname
 
@@ -268,7 +273,7 @@ stdin2
 
 \`
 
-如果結果字串以一個換行符 (CR，LF 或 CR+LF) 結尾,換行符會被刪除。例如下列程式碼片段會用大寫插入 ${name} 參數的內容。
+If the result string ends with a newline character (CR, LF or CR+LF), the newline character will be removed. For instance the following snippet inserts the contents of the ${name} parameter in upper characters.
 
 \`\- powershell -
 
@@ -282,7 +287,7 @@ exit
 
 \`
 
-如果您不想要分析程式碼片段參數，您可以寫:
+If you don't want to parse snippet parameters, you can write:
 
 \`!\- appname
 
@@ -294,25 +299,27 @@ stdin2
 
 \`
 
-如果您想要運行一個在命令提示符中使用的命令，您便能用 \`#cmd shell\_code\` 格式來定義一個可以被傳遞到命令提示符視窗 (cmd.exe) 的 shell 代碼。您指定的這個值可以用 "%COMSPEC% /c shell\_code" 格式被傳遞到 cmd.exe 中。標準輸出以及標準錯誤會從控制臺程式被重新導向到您的文字文檔的游標位置處。例如，下面的程式碼片段會插入到目前的的資料夾清單中。您能在每個程式碼片段中插入任意多個 shell 代碼。
+If you want to run a command used in command prompt, you can define a shell code that can be passed into the Command Prompt window (cmd.exe) in this form \`#cmd shell\_code\`. The value you specify is passed to cmd.exe in this form: "%COMSPEC% /c shell\_code". The standard output, as well as the standard error, from the console application is redirected to the
+cursor position of your text document. For instance the following snippet inserts the current folder listing. You can include as many shell codes as you want within each snippet.
 
 \`#cmd DIR\`
 
-### 巨集
+### Macros
 
-您能用 \`# \` 的格式在一個程式碼片段中包括一個巨集。第一個字元 # 表示這是一個巨集，而不是一個 shell 代碼。如果這個一個 ActiveScript 而不是 JavaScript，例如指示詞碼是 VBScript，PerlScript，PHPScript，或 RubyScript，您需要用 "#language=" 來定義語言。舉個例子，如果您想要用 VBScript，您就要寫 \`#language="VBScript"...\`。 **Interface** 對象被用來在程式碼片段和 EmEditor 巨集引擎之間傳遞值。下面的示例會在游標位置處插入剪貼簿上的內容。
+You can include a macro in a snippet in the form of \`# \`. The first character # indicates this is a macro, not a shell code. If this is an ActiveScript other than JavaScript, such as VBScript, PerlScript, PHPScript, or RubyScript, you will need to define the language using "#language=". For
+instance, if you wish to use VBScript, you would write \`#language="VBScript"...\`. The **Interface** object is used to pass values between the snippets and the EmEditor macro engine. The following sample inserts the contents of the Clipboard to the cursor position.
 
-剪貼簿包含 \`# Interface.write( clipboardData.getData("") );\`。
+The clipboard contains \`# Interface.write( clipboardData.getData("") );\`.
 
-Interface.write() 方法會把巨集結果傳遞到程式碼片段中。您同樣能使用 Interface.writeln() 來在結果的末尾添加歸位以及換行 (CR+LF)。您能在每個程式碼片段中包括任意多個巨集。
+Interface.write() method passes the macro result to the snippet. You can also use Interface.writeln() instead to add a carriage return and a newline character (CR+LF) at the end of the result. You can include as many macros as you want within each snippet.
 
-### 預設值，shell 代碼或巨集內的參數
+### Parameters within default value, shell code or macros
 
-占位符預設值能包含參數，shell 代碼或一個巨集。下面的程式碼片段會在 <p> 和 </p> 之間插入一個 <p> 標籤，如果存在選區的話。
+The placeholder default values can contain parameters, shell code or a macro. The following snippet inserts a <p> tag with the selected text between <p> and </p> if a selection exists.
 
 <p>${0:${SelText}}</p>
 
-Shell 代碼和巨集能包含在它們的代碼或巨集中包含參數。下面的程式碼片段顯示了一個對話方塊，讓使用者可以輸入 ${name} 參數值來繼續。
+Shell code and macros can contain parameters within their code or macro. The following snippet displays a dialog box where a user enters a value for the ${name} parameter to continue.
 
 \`# var s = "${name}";
 
@@ -324,17 +331,18 @@ Interface.writeln( s );
 
 \`
 
-您要小心所有 \ 和 \` 和 $ 之前都要有一個 \\。例如，下列程式碼片段插入的是 "C:\\Program Files\\EmEditor"。
+You will need to be careful that all \ and \` and $ are proceeded by a \\. For instance, the following snippet inserts "C:\\Program Files\\EmEditor".
 
 \`# Interface.writeln( "C:\\\\\\Program Files\\\\\\EmEditor" ); \`
 
-這是因為一個反斜杠必須被寫作 \\\，并且 JavaScript 同樣會把一個反斜杠轉換為 \\\。結果，一個反斜杠就轉換為四個反斜杠 (\\\\\\)。
+This is because a backslash must be written as \\\, and JavaScript also converts a backslash to \\\. As a result, a backslash converts to four backslashes (\\\\\\).
 
-如果您不想要反斜杠被轉換，并且您也不需要再一個 shell 代碼或巨集中包括任何參數，您可以在代碼的開始處標示一個感嘆號 (!)。即——在 shell 代碼中，您會寫 \`!...\`，在巨集中，您可以寫 \`!#...\`。因此，之前的例子可以被重新寫作:
+If you don't want backslashes converted and if you don't need to include any parameters within a shell code or macro, you can include an exclamation mark (!) at the beginning of the code. That is--in shell code, you would write \`!...\` and in macros, you would write \`!#...\`. Therefore, the previous
+example can be rewritten as:
 
 \`!# Interface.writeln( "C:\\\Program Files\\\EmEditor" ); \`
 
-## 提示
+## Tips
 
-- 按 **F6** 鍵或 **ESC** 鍵來把鍵盤焦點設回到編輯器中。
-- 您可以通過右擊 **外掛程式** 工具列上的外掛程式按鈕，選擇 **屬性**，調節自訂顯示條位置。位置可以是編輯器頂部，底部，右邊或左邊。
+- Press the **F6** key or **ESC** key to set the keyboard focus back to the editor.
+- The custom bar position can be set from top, bottom, right or left by right-clicking the plug-in button on the **Plug-ins** bar, and selecting the **Properties**.

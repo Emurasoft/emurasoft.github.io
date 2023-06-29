@@ -1,18 +1,18 @@
 # Editor\_RegQueryValue
 
-根據 EmEditor 的設定，從注冊表或一個 INI 檔案中檢索數據的特定值。您能直接用該內嵌函式或明確地發送 [EE\_REG\_QUERY\_VALUE](../message/ee_reg_query_value) 消息。
+Retrieves the data for the specified value from the Registry or an INI file depending on the EmEditor settings. You can use this inline function or explicitly send the [EE\_REG\_QUERY\_VALUE](../message/ee_reg_query_value) message.
 
 Editor\_RegQueryValue( HWND hwnd, DWORD dwKey, LPCWSTR pszConfig, LPCWSTR pszValue, DWORD dwType, BYTE\* lpData, DWORD\* lpcbData, DWORD dwFlags );
 
-## 參數
+## Parameters
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+> Specifies the window handle of the view or frame of EmEditor.
 
 _dwKey_
 
-> 用下列值之一來指定一個金鑰。EEREG\_CONFIG 和 EEREG\_EMEDITORPLUGIN 需要 pszConfig 參數來指定金鑰。
+> Specifies one of the following values to specify a key. EEREG\_CONFIG and EEREG\_EMEDITORPLUGIN require the pszConfig parameter to specify the key.
 >
 > |     |     |
 > | --- | --- |
@@ -33,40 +33,40 @@ _dwKey_
 
 _pszConfig_
 
-> 用一個額外的字串來指定金鑰當 EEREG\_CONFIG，EEREG\_EMEDITORPLUGIN，或 EEREG\_EMEDITORUSERS 被選取時。
+> Specifies an additional string to specify the key when EEREG\_CONFIG, EEREG\_EMEDITORPLUGIN, or EEREG\_EMEDITORUSERS is selected.
 
 _pszValue_
 
-> 指定要檢索的值的名稱。
+> Specifies the name of the value to be retrieved.
 
 _dwType_
 
-> 按 lpData 參數用下列值之一來指定被指向的數據類型。
+> Specifies one of the following values to specify the type of data pointed to by the lpData parameter.
 >
 > |     |     |
 > | --- | --- |
-> | REG\_BINARY | 任何形式的二進位數據。 |
-> | REG\_DWORD | 一個 32 位數字。 |
-> | REG\_SZ | 一個以 null 結尾的 Unicode 字串。 |
+> | REG\_BINARY | Binary data in any form. |
+> | REG\_DWORD | A 32-bit number. |
+> | REG\_SZ | A null-terminated Unicode string. |
 
 _lpData_
 
-> 一個指標至接收指定值的數據的緩沖區。只有當數據是 REG\_BINARY 時，這個參數可以是 NULL。
+> A pointer to a buffer that receives the value's data. This parameter can be NULL only if the data is of type REG\_BINARY.
 
 _lpcbData_
 
-> 一個指標至一個變量，這個變量以位元為單位表示由 lpData 參數指定的緩沖區的大小。當函數返回時，這個變量包含被複製到 lpData 上的數據大小。
+> A pointer to a variable that specifies the size of the buffer pointed to by the lpData parameter, in bytes. When the function returns, this variable contains the size of the data copied to lpData.
 
 _dwFlags_
 
-> 該參數被預留，并且必須是零。
+> This parameter is reserved and must be zero.
 
-## 返回值
+## Return Values
 
-> 如果消息成功，返回值是 ERROR\_SUCCESS。
+> If the function succeeds, the return value is ERROR\_SUCCESS.
 >
-> 如果消息不成功，返回值是一個在 Winerror.h 中被定義的非零的錯誤代碼。
+> If the function fails, the return value is a nonzero error code defined in Winerror.h.
 
-## 支持版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Version 7.00 or later.

@@ -1,6 +1,6 @@
-# ActiveString 屬性
+# ActiveString Property
 
-在游標懸停處檢索主動字串。
+Retrieves the active string where the mouse pointer is hovered.
 
 #### \[JavaScript\]
 
@@ -10,6 +10,6 @@ document. **ActiveString**;
 
 document. **ActiveString**
 
-## 版本
+## Version
 
-支持 EmEditor Professional 16.9 或之後的版本。
+Supported on EmEditor Professional Version 16.9 or later.

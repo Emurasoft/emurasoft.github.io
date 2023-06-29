@@ -1,27 +1,28 @@
-# 減小字型命令
+# Decrease Font Size command
 
-### 摘要
+### Summary
 
-> 減小顯示的字型大小。
+> Decreases the display font size.
 
-### 說明
+### Description
 
-> 減小顯示的字型大小。字型名稱和實際大小可以在 [**自訂字型** 對話方塊](../../dlg/properties/font/index) 中指定。
+> Decreases the display font size. The font name and the exact size can be
+> specified on the [**Customize Font** dialog box](../../dlg/properties/font/index).
 
-### 運行方法
+### How to Run
 
-- 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** \> **字型** >
-**減小顯示的字型大小**
-- 工具列: ![](../../images/decreasefontsize.gif)
-- 狀態列: 無
-- 預設捷徑: 無
+- Default Menu: None
+- [All Commands](../tools/all_commands): **View** \> **Font** >
+**Decrease Font Size**
+- Toolbar: ![](../../images/decreasefontsize.gif)
+- Status Bar: None
+- Default Shortcut Key: None
 
-### 外掛程式命令ID
+### Plug-in Command ID
 
 - EEID\_DECREASE\_FONT\_SIZE (4374)
 
-### 巨集
+### Macros
 
 #### \[JavaScript\]
 

@@ -1,59 +1,60 @@
-# 「抽出常用字串」對話方塊
+# Extract Frequent Strings dialog box
 
-該對話方塊會出現，當你選擇了 [**抽出常用字串** 命令](../../cmd/search/extract_frequent) 時。
+This dialog box appears when the
+[**Extract Frequent Strings** command](../../cmd/search/extract_frequent) is selected. It creates a list of frequently used strings as a CSV document.
 
-### 「整行」核取方塊
+### Whole Lines radio button
 
-創建常用行清單。
+Creates a list of frequent lines.
 
-### 「字詞」核取方塊
+### Words radio button
 
-創建常用字詞清單。字詞是被非字母數字字元包圍的字串，可以通過在 **自訂** 對話方塊 [**編輯** 頁面](../customize/edit/index) 上的 **將以下字元識別為英數字元** 文字方塊進行定義。
+Creates a list of frequent words. A word is a string surrounded by non-alphanumeric characters, which can be customized by the **Treat the following characters as alphanumeric** text box in the [**Edit** page](../customize/edit/index) of the **Customize** dialog box.
 
-### 「儲存格」選項按鈕
+### Cells radio button
 
-創建常用儲存格清單。
+Creates a list of frequent cells.
 
-### 「IPv4 地址」選項按鈕
+### IPv4 Addresses radio button
 
-創建常用 IPv4 地址清單。
+Creates a list of frequent IPv4 addresses.
 
-### 「IPv6 地址」選項按鈕
+### IPv6 Addresses radio button
 
-創建常用 IPv6 地址清單。
+Creates a list of frequent IPv6 addresses.
 
-### 「大小寫須相符」核取方塊
+### Match Case check box
 
-在計算常用字串時符合大小寫。
+Match cases while counting frequent strings.
 
-### 「搜索群組中所有文件」核取方塊
+### Search All Documents in the Group check box
 
-在同一個框架視窗中，搜尋所有打開的文檔。
+Searches all open documents in the same frame window.
 
-### 「僅限於選區」核取方塊
+### In the Selection Only check box
 
-僅從選取的文字中抽出常用字串。
+Extract frequent strings within the selected text only.
 
-### 「行數」文字方塊
+### Number of Lines text box
 
-指定要抽出的最大字串數。實際匯出可能會超過此數字，以包括針對同一頻率檢測到的所有多個字串。
+Specifies the maximum number of strings to be extracted. The actual output may exceed this number in order to include all multiple strings detected for the same frequency.
 
-### 「CSV 格式」下拉清單方塊
+### CSV Format drop-down list box
 
-指定要顯示為的 CSV 格式。
+Specifies the CSV format to display as.
 
-### 「可忽略的字串」清單方塊
+### Strings to Ignore list box
 
-顯示計數常用字串時要忽略的字串清單。
+Displays the list of strings to be ignored while counting frequent strings.
 
-### 「添加」按鈕
+### Add button
 
-添加一個條目到清單上。
+Adds an item to the list.
 
-### 「刪除」按鈕
+### Delete button
 
-點擊該按鈕從清單中刪除被選取的條目。
+Deletes the selected item(s) from the list.
 
-## 提示
+## Tips
 
-要計算和抽出與特定模式符合的字串，請到 [**抽出選項** 對話方塊](../extract_options/index) 中勾選 **計算常用字串** 核取方塊，先用一個規則運算式來尋找與之相符合的特定字串，然後用 [**尋找** 對話方塊](../find/index) 中的 **「全部抽出」** 按鈕。
+To count and extract strings matching a specific pattern, set the **Count Frequent Strings** check box in the [**Extract Options** dialog box](../extract_options/index), use a regular expression to match specific strings, and use the **Extract** button in the [**Find** dialog box](../find/index).

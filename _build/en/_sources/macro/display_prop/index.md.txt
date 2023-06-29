@@ -1,19 +1,19 @@
-# DisplayProp 對象
+# DisplayProp Object
 
-## 屬性
+## Properties
 
 |     |     |
 | --- | --- |
-| [CharacterSpace](character_space) | 與在 **組態屬性** 對話方塊中 [**顯示** 頁面](../../dlg/properties/display/index) 上的 **字元間距** 文字方塊相對應。 |
-| [ColorList](color_list) | 為色彩清單檢索 [**DisplayList** 對象](../display_item/index)。 |
-| [LineSpace](line_space) | 與在 **組態屬性** 對話方塊中 [**顯示** 頁面](../../dlg/properties/display/index) 上的 **行間距** 文字方塊相對應。 |
-| [QuoteMarks](quote_marks) | 與在 **組態屬性** 對話方塊中 [**顯示** 頁面](../../dlg/properties/display/index) 上的 **引用標記** 文字方塊相對應。 |
-| [SearchColors](search_colors) | 與在 **組態屬性** 對話方塊中 [**顯示** 頁面](../../dlg/properties/display/index) 上的 **搜尋亮顯** 文字方塊相對應。 |
-| [SearchList](search_list) | 為搜尋亮顯顏色清單檢索 [**HighlightList** 對象](../highlight_item/index)。 |
+| [CharacterSpace](character_space) | Corresponds to the **Character**<br>**Space** text box in the [**Display** page](../../dlg/properties/display/index) of Configuration Properties. |
+| [ColorList](color_list) | Retrieves the [**DisplayList** collection](../display_list/index) for the color list. |
+| [LineSpace](line_space) | Corresponds to the **Line**<br>**Space** text box in the <br> [**Display** page](../../dlg/properties/display/index) of Configuration Properties. |
+| [QuoteMarks](quote_marks) | Corresponds to the **Quote**<br>**Marks** text box in the <br> [**Display** page](../../dlg/properties/display/index) of Configuration Properties. |
+| [SearchColors](search_colors) | Corresponds to the **Search**<br>**Colors** text box in the [**Display** page](../../dlg/properties/display/index) of Configuration Properties. |
+| [SearchList](search_list) | Retrieves the [**DisplayList** collection](../display_list/index) for the search color list. |
 
-## 版本
+## Version
 
-支持 EmEditor 7.00 或之後的版本。
+Supported on EmEditor Professional Version 7.00 or later.
 
 ```{toctree}
 :maxdepth: 1

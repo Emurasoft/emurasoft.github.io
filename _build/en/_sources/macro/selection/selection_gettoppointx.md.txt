@@ -1,6 +1,6 @@
-# GetTopPointX 方法
+# GetTopPointX Method
 
-返回選定內容頂部的列號。
+Returns the column number of the top of the selection.
 
 #### \[JavaScript\]
 
@@ -10,22 +10,24 @@ xPos = document.selection. **GetTopPointX**( _nFlags_ \[, _iSel_ \] );
 
 xPos = document.selection. **GetTopPointX**( _nFlags_ \[, _iSel_ \] )
 
-## 參數
+## Parameters
 
 _nFlags_
 
-指定一個下列值的組合:
+Specifies a combination of the following values:
 
 |     |     |
 | --- | --- |
-| eePosView | 返回列位置。 |
-| eePosLogical | 從先前的新行 (或如果是第一行的話，就是文檔的開頭) 返回字元數。 |
-| eePosLogicalA | 與 eePosLogical 相同，但把一個全形字元計為 2。 |
+| eePosView | Returns the column position. |
+| eePosLogical | Returns the number of characters from the previous newline characters (or the <br> start of the document if the first line). |
+| eePosLogicalA | Same as eePosLogical but counts a full-width character as 2. |
+| eePosCell | CSV cell unit. |
 
 _iSel_
 
-可選項。指定選定內容的索引，以 1 為基準。如果 0 被指定或省略，會指定標準選擇。如果指定 1 或更大值，則 _nFlags_ 參數必須為 eePosLogical。
+Optional. Specifies the one-based index of the selection. If 0 is specified
+or omitted, the normal selection is specified. If 1 or larger is specified, the _nFlags_ parameter must be eePosLogical.
 
-## 版本
+## Version
 
-支持 EmEditor 4.00 或之後的版本。
+Supported in EmEditor Professional Version 4.00 or later.

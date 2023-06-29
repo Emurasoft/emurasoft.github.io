@@ -1,3 +1,5 @@
-# 書籤
+# Bookmark
 
-在 EmEditor 中的函數能讓使用者把文字中的一行標示為書籤。一個書籤能用在一文字行開始位置處的小正方形表示。EmEdtior 讓使用者能用 F2 鍵在書籤之間切換。
+A function in EmEditor that allows a user to bookmark a line of text.  A
+bookmark is represented by a small rectangle at the beginning of a line of
+text.  EmEditor allows a user to toggle between bookmarks using the F2 key.

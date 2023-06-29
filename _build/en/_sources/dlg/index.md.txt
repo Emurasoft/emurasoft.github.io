@@ -1,8 +1,9 @@
-# 對話方塊
+# Dialog Boxes
 
-EmEditor 中會出現下列對話方塊。
+The following dialog boxes exist in EmEditor.
 
-其他對話方塊您可以通過以上對話方塊訪問。
+There are other dialog boxes to which you can move through the above dialog
+boxes.
 
 ```{toctree}
 :maxdepth: 1
@@ -26,7 +27,6 @@ customize_start/index
 delete_duplicate_advanced/index
 detect_result/index
 encodings/index
-enter_maintenance/index
 extract_columns/index
 extract_frequent/index
 extract_options/index
