@@ -1,5 +1,0 @@
-# Version 4.12
-
-February 9, 2005
-
-- Fixed a bug that EmEditor could crash if Repeat Count was set as more than 240 times in the Macro Temporary Options dialog box.

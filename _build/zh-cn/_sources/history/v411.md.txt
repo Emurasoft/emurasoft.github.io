@@ -1,8 +1,0 @@
-# Version 4.11
-
-2005年1月29日
-
-- 修复了一个 EmEditor 无法在 Windows NT 4.0. 上运行的 bug。(v4.10)
-- 修复了 [**首字母大写** 命令](../cmd/edit/capitalize) 在 Windows 98/Me 上不能运作的 bug。(v4.10)
-- 修复了一个在状态栏上的工具提示位置会根据状态栏的设定变换的 bug。(v4.10)
-- 修复了 [**插入换行符** 命令](../cmd/edit/insert_cr_wrap) 以及 [**分割行** 命令](../cmd/edit/split_lines) 故障的 bug。 (v4.10)

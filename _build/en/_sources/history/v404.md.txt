@@ -1,8 +1,0 @@
-# Version 4.04
-
-March 19, 2004
-
-- Fixed a bug that a tiny EmEditor window appeared when EmEditor was launched depending on settings.
-- Fixed a bug that the first line of a document was printed with very little width in some cases.
-- EmEditor can now keep bookmarks when reloading the file.
-- You can now run on Windows NT 4.0 with Internet Explorer 5.5 or later with limited support.

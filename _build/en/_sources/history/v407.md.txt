@@ -1,6 +1,0 @@
-# Version 4.07
-
-August 27, 2004
-
-- Fixed a bug that Find in Files result path did not contain double-byte characters (v4.06).
-- Fixed a bug that recent font names did not contain double-byte characters (v4.06, Windows 98/ME).

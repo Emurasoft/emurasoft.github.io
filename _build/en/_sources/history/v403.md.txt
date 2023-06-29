@@ -1,7 +1,0 @@
-# Version 4.03
-
-February 25, 2004
-
-- [New Features of EmEditor Professional](../features/feature_pro)
-- [New features for both EmEditor \
-Professional and EmEditor Standard](../features/feature_pro_std)
