@@ -1,4 +1,4 @@
-# Properties 屬性
+# Properties 屬性 (CharacterRange ��H)
 
 指定表示對象的 Unicode 腳本和/或 Unicode 常規類別屬性的字串。
 

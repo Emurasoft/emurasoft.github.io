@@ -1,4 +1,4 @@
-# Scroll Property
+# Scroll Property (Config Object)
 
 Retrieves the [ScrollProp object](../scroll_prop/index).
 

@@ -1,4 +1,4 @@
-# FindWindow 方法
+# FindWindow 方法 (Shell ��H)
 
 通過一個類名和/或視窗標題查找頂層 [Window 對象](../window/index)。
 

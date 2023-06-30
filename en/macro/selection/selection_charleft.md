@@ -1,4 +1,4 @@
-# CharLeft Method
+# CharLeft Method (Selection Object)
 
 Moves the cursor the specified number of characters to the left.
 

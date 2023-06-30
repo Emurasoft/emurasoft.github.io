@@ -1,4 +1,4 @@
-# RefreshCommonSettings Method
+# RefreshCommonSettings Method (Editor Object)
 
 Loads common settings and refreshes the EmEditor window.
 

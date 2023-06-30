@@ -1,4 +1,4 @@
-# TextMode Property
+# TextMode Property (DisplayItem Object)
 
 Specifies the text color mode.
 

@@ -1,4 +1,4 @@
-# PivotTable Method
+# PivotTable Method (Document Object)
 
 Creates a pivot table in the CSV document.
 

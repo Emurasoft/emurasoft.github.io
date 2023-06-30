@@ -1,4 +1,4 @@
-# MarginQuote プロパティ
+# MarginQuote プロパティ (GeneralProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の
 **\[引用行の文字数\]** テキスト ボックスに相当します。

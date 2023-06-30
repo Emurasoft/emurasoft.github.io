@@ -1,4 +1,4 @@
-# HighlightTag Property
+# HighlightTag Property (Document Object)
 
 Determines whether to highlight tags.
 

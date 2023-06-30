@@ -1,4 +1,4 @@
-# NoWrap 繝励Ο繝代ユ繧｣
+# NoWrap 繝励Ο繝代ユ繧｣ (Config オブジェクト)
 
 [NoWrapProp 繧ｪ繝悶ず繧ｧ繧ｯ繝�](../no_wrap_prop/index) 蜿門ｾ励＠縺ｾ縺吶�
 

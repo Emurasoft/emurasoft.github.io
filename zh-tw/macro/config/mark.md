@@ -1,4 +1,4 @@
-# Mark 屬性
+# Mark 屬性 (Config ��H)
 
 檢索 [MarkProp 對象](../mark_prop/index)。
 

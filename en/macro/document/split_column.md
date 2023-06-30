@@ -1,4 +1,4 @@
-# SplitColumn Method
+# SplitColumn Method (Document Object)
 
 Splits columns by a specified separator and put them into right columns or lines beneath in a CSV mode.
 

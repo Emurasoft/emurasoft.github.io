@@ -1,4 +1,4 @@
-# Properties Property
+# Properties Property (CharacterRange Object)
 
 Specifies a string representing Unicode Script and/or Unicode General Category properties of the object.
 

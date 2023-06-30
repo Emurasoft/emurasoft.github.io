@@ -1,4 +1,4 @@
-# Link 繝励Ο繝代ユ繧｣
+# Link 繝励Ο繝代ユ繧｣ (Config オブジェクト)
 
 [LinkProp 繧ｪ繝悶ず繧ｧ繧ｯ繝�](../link_prop/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

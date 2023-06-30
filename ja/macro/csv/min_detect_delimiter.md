@@ -1,4 +1,4 @@
-# MinDetectDelimiter プロパティ
+# MinDetectDelimiter プロパティ (Csv �I�u�W�F�N�g)
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[検出最小区切り数\] テキスト ボックス に相当します。
 

@@ -1,4 +1,4 @@
-# ExFlags 屬性
+# ExFlags 屬性 (Filter ��H)
 
 指定以下值的組合。
 

@@ -1,4 +1,4 @@
-# WordRight Method
+# WordRight Method (Selection Object)
 
 Moves the cursor the specified number of words to the right.
 

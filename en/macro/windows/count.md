@@ -1,4 +1,4 @@
-# Count Property
+# Count Property (Windows Collection)
 
 Retrieves the number of windows.
 

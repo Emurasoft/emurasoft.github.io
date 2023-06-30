@@ -1,4 +1,4 @@
-# ShowDBSpaces å±žæ€§
+# ShowDBSpaces å±žæ€§ (MarkProp ¶ÔÏó)
 
 Corresponds to the **Show**
 **Double-Byte Spaces** check box in the

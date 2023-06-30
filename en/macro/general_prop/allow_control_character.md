@@ -1,4 +1,4 @@
-# AllowControlCharacter Property
+# AllowControlCharacter Property (GeneralProp Object)
 
 Corresponds to the **Allow Insert Control Character** check box in the
 [**General** page](../../dlg/properties/general/index) of Configuration Properties.

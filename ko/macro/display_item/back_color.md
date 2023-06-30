@@ -1,4 +1,4 @@
-# BackColor 속성
+# BackColor 속성 (DisplayItem ��ü)
 
 개체의 배경 색상을 지정합니다.
 

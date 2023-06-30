@@ -1,4 +1,4 @@
-# FontCategory Property
+# FontCategory Property (FileNewProp Object)
 
 Corresponds to the **Font**
 **Category drop-down** list box in the

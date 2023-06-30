@@ -1,4 +1,4 @@
-# OpenFile Method
+# OpenFile Method (Editor Object)
 
 Opens an existing file.
 

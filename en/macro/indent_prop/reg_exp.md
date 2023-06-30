@@ -1,4 +1,4 @@
-# RegExp Property
+# RegExp Property (IndentProp Object)
 
 Corresponds to the **Use Regular Expressions** check box in the
 [**Tab/Index** dialog box](../../dlg/properties/general/indent/index).

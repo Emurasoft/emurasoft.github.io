@@ -1,4 +1,4 @@
-# Remove Method
+# Remove Method (Filters Collection)
 
 Removes an item.
 

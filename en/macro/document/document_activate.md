@@ -1,4 +1,4 @@
-# Activate Method
+# Activate Method (Document Object)
 
 Activates the document.
 

@@ -1,4 +1,4 @@
-# hWnd Property
+# hWnd Property (Window Object)
 
 Retrieves or sets the handle value of the window.
 

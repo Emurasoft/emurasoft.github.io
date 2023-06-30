@@ -1,4 +1,4 @@
-# Sort Method
+# Sort Method (Selection Object)
 
 Sorts or removes duplicate split strings in the selection.
 

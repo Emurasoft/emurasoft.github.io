@@ -1,4 +1,4 @@
-# scrollBy Method
+# scrollBy Method (Window Object)
 
 Scrolls the window by the specified relative amount.
 

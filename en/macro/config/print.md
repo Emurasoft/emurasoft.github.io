@@ -1,4 +1,4 @@
-# Print Property
+# Print Property (Config Object)
 
 Retrieves the [PrintProp object](../print_prop/index).
 

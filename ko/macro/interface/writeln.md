@@ -1,4 +1,4 @@
-# writeln 메서드
+# writeln 메서드 (Interface ��ü)
 
 지원되는 플러그 인에 문자열과 새로운 줄을 전달합니다.
 

@@ -1,4 +1,4 @@
-# SearchColors プロパティ
+# SearchColors プロパティ (DisplayProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[表示\]** タブ](../../dlg/properties/display/index) の **\[検索色\]** テキスト ボックスに相当します。
 

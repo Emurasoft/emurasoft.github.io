@@ -1,4 +1,4 @@
-# GetLine Method
+# GetLine Method (Document Object)
 
 Retrieves the text on the specified line.
 

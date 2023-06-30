@@ -1,4 +1,4 @@
-# prompt Method
+# prompt Method (Window Object)
 
 Displays a dialog box to enter a string.
 

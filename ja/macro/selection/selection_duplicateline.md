@@ -1,4 +1,4 @@
-# DuplicateLine メソッド
+# DuplicateLine メソッド ()
 
 現在行を 2 重化します。
 

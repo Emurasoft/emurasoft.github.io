@@ -1,4 +1,4 @@
-# GetActivePointX 메서드
+# GetActivePointX 메서드 (Selection ��ü)
 
 커서 위치에 열 번호를 반환합니다.
 

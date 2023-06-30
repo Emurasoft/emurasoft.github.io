@@ -1,4 +1,4 @@
-# BatchFind メソッド
+# BatchFind メソッド ()
 
 複数の文字列を検索します。
 

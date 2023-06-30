@@ -1,4 +1,4 @@
-# regex Property
+# regex Property (Editor Object)
 
 Retrieves the [**Regex** Object](../regex/index).
 

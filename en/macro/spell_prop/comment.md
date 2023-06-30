@@ -1,4 +1,4 @@
-# Comment Property
+# Comment Property (SpellProp Object)
 
 Corresponds to the **Comments** check box in the
 [**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.

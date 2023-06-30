@@ -1,4 +1,4 @@
-# writeln 方法
+# writeln 方法 (Document ����)
 
 在当前光标位置处插入或改写一个字符串并换行。
 

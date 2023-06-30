@@ -1,4 +1,4 @@
-# SearchList 属性
+# SearchList 属性 (DisplayProp ����)
 
 为搜索颜色列表检索 [DisplayList 集合](../display_list/index)。
 

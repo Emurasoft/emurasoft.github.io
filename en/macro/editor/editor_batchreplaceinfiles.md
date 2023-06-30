@@ -1,4 +1,4 @@
-# BatchReplaceInFiles Method
+# BatchReplaceInFiles Method (Editor Object)
 
 Replaces multiple strings in multiple files.
 

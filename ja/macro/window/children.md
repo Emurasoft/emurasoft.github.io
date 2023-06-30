@@ -1,4 +1,4 @@
-# Children プロパティ
+# Children プロパティ ()
 
 子ウィンドウを表現する [Windows コレクション](../windows/index) を返します。
 

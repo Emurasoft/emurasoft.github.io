@@ -1,4 +1,4 @@
-# EnableTab Property
+# EnableTab Property (Editor Object)
 
 Sets or retrieves whether the tab is enabled. All documents may not be available immediately after the tab is enabled or disabled. Exiting from the macro and running the macro may be necessary
 after the tab is enabled or disabled.

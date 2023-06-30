@@ -1,4 +1,4 @@
-# clearData Method
+# clearData Method (clipboardData Object)
 
 Removes one or more data formats from the Clipboard.
 

@@ -1,4 +1,4 @@
-# BatchFind 方法
+# BatchFind 方法 (Selection ����)
 
 搜索多个字符串。
 

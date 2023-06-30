@@ -1,4 +1,4 @@
-# Indent 属性
+# Indent 属性 (Config ����)
 
 检索 [IndentProp 对象](../indent_prop/index)。
 

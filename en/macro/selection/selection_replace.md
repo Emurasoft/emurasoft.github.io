@@ -1,4 +1,4 @@
-# Replace Method
+# Replace Method (Selection Object)
 
 Replaces a string in the document.
 

@@ -1,4 +1,4 @@
-# Version Property
+# Version Property (Editor Object)
 
 Retrieves the string indicating the current version of EmEditor.
 

@@ -1,4 +1,4 @@
-# FileNew Property
+# FileNew Property (Config Object)
 
 Retrieves the [FileNewProp object](../file_new_prop/index).
 

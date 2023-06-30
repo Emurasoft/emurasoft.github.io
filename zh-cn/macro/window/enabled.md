@@ -1,4 +1,4 @@
-# Enabled 属性
+# Enabled 属性 (Window ����)
 
 返回是否窗口启用了鼠标和键盘输入。
 

@@ -1,4 +1,4 @@
-# Remove Method
+# Remove Method (KeyboardList Collection)
 
 Removes an item.
 

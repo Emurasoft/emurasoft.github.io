@@ -1,4 +1,4 @@
-# Flags Property
+# Flags Property (Filter Object)
 
 Specifies a combination of the following values.
 

@@ -1,4 +1,4 @@
-# Copy a File
+# Copy a File (Tutorial)
 
 To copy a file, CopyFile Method of a FileSystemObject.
 

@@ -1,4 +1,4 @@
-# DetectCharset Property
+# DetectCharset Property (FileProp Object)
 
 Corresponds to the **Detect HTML/XML Charset**
 check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties.

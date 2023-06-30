@@ -1,4 +1,4 @@
-# Command 属性
+# Command 属性 (KeyboardItem ����)
 
 指定命令 ID。
 

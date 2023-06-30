@@ -1,4 +1,4 @@
-# Encoding 属性
+# Encoding 属性 (Document ����)
 
 检索或设置打开的文件的当前编码。
 

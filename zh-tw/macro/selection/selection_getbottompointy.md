@@ -1,4 +1,4 @@
-# GetBottomPointY 方法
+# GetBottomPointY 方法 (Selection ��H)
 
 返回選定內容底部的行號。
 

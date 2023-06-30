@@ -1,4 +1,4 @@
-# OutputBar 属性
+# OutputBar 属性 (Window ����)
 
 返回 [OutputBar 对象](../output_bar/index)。
 

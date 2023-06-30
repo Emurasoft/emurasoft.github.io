@@ -1,4 +1,4 @@
-# LogicalToSerial 方法
+# LogicalToSerial 方法 (Document ��H)
 
 將指定位置的邏輯坐標轉換為基于單個的串行位置。
 

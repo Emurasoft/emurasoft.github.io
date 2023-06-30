@@ -1,4 +1,4 @@
-# TreatAs Property
+# TreatAs Property (CharacterRange Object)
 
 Specifies the character to be substituted for. If -1 is specified, the specified range will be ignored when used for fuzzy matching.
 

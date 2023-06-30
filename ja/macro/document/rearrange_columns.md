@@ -1,4 +1,4 @@
-# RearrangeColumns メソッド
+# RearrangeColumns メソッド ()
 
 CSV 列を再配置します。
 

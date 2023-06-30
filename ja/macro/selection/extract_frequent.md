@@ -1,4 +1,4 @@
-# ExtractFrequent メソッド
+# ExtractFrequent メソッド ()
 
 頻出文字列を抽出して新規文書を作成します。
 

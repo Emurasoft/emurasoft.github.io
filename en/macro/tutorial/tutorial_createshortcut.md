@@ -1,4 +1,4 @@
-# Create a Shortcut
+# Create a Shortcut (Tutorial)
 
 To create a shortcut, use the CreateShortcut Method of a WshShell Object.
 

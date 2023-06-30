@@ -1,4 +1,4 @@
-# clipboardData Property
+# clipboardData Property (Window Object)
 
 Returns the [**clipboardData** Object](../clipboarddata/index).
 

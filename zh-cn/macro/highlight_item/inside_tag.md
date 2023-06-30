@@ -1,4 +1,4 @@
-# InsideTag 属性
+# InsideTag 属性 (HighlightItem ����)
 
 与配置属性中 [**高亮 (1)** 页面](../../dlg/properties/highlight1/index) 上的 **仅在标记内** 复选框相对应。
 

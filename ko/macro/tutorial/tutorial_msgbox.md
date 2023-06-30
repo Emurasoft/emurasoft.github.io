@@ -1,4 +1,4 @@
-# 메시지 상자 표시
+# 메시지 상자 표시 (Ʃ�丮��)
 
 간단한 텍스트를 메시지 박스에 표시하려면, [alert 메서드](../window/window_alert)
 또는 [confirm 메서드](../window/window_confirm) 를 사용합니다.

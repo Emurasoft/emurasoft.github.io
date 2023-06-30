@@ -1,4 +1,4 @@
-# Run External Applications
+# Run External Applications (Tutorial)
 
 To run an external application, use the Run Method of WshShell Object.
 

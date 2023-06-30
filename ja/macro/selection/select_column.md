@@ -1,4 +1,4 @@
-# SelectColumn メソッド
+# SelectColumn メソッド ()
 
 CSV モードで指定された列を選択します。
 

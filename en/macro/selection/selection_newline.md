@@ -1,4 +1,4 @@
-# NewLine Method
+# NewLine Method (Selection Object)
 
 Inserts the specified number of newline characters at the cursor.
 

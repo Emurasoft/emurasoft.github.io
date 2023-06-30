@@ -1,4 +1,4 @@
-# Encoding プロパティ
+# Encoding プロパティ (FileSaveProp �I�u�W�F�N�g)
 
 [**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
 **\[エンコード\]** ドロップダウン リスト ボックスに相当します。

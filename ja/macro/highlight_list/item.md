@@ -1,4 +1,4 @@
-# Item プロパティ
+# Item プロパティ (HighlightList �R���N�V����)
 
 指定したインデックスの [HighlightItem オブジェクト](../highlight_item/index) を取得します。
 

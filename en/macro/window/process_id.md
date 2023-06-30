@@ -1,4 +1,4 @@
-# ProcessID Property
+# ProcessID Property (Window Object)
 
 Returns the process identifier.
 

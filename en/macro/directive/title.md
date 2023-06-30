@@ -1,4 +1,4 @@
-# \#title directive
+# \#title directive (Script Directives)
 
 Specifies the title string displayed on the toolbar button. This directive must be specified at the first lines of the script above the main code.
 

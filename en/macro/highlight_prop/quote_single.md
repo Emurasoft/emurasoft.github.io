@@ -1,4 +1,4 @@
-# QuoteSingle Property
+# QuoteSingle Property (HighlightProp Object)
 
 Corresponds to the **String**
 **Enclosed by Quotation Marks group box - Single Quotation Marks '...'** check box in the

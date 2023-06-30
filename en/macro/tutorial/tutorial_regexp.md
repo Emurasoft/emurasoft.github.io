@@ -1,4 +1,4 @@
-# Using Regular Expressions
+# Using Regular Expressions (Tutorial)
 
 To use regular expressions, use the RegExp Object.
 

@@ -1,4 +1,4 @@
-# Count Property
+# Count Property (AssociationList Collection)
 
 Retrieves the number of items.
 

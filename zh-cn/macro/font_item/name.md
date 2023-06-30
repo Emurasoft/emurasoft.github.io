@@ -1,4 +1,4 @@
-# Name 属性
+# Name 属性 (FontItem ����)
 
 指定对象的名称。
 

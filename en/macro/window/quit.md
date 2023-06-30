@@ -1,4 +1,4 @@
-# Quit Method
+# Quit Method (Window Object)
 
 Terminates the macro execution.
 

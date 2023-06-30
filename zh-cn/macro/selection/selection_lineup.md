@@ -1,4 +1,4 @@
-# LineUp 方法
+# LineUp 方法 (Selection ����)
 
 把光标上移指定的行数。
 

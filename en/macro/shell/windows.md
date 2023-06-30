@@ -1,4 +1,4 @@
-# windows Property
+# windows Property (Shell Object)
 
 Returns the top-level [Windows collection](../windows/index).
 

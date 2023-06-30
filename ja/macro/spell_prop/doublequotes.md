@@ -1,4 +1,4 @@
-# DoubleQuotes プロパティ
+# DoubleQuotes プロパティ ()
 
 設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の
 **\[2重引用符で囲まれた文字列\]** チェック ボックスに相当します。

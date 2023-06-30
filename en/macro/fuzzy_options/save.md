@@ -1,4 +1,4 @@
-# Save Method
+# Save Method (FuzzyOptions Object)
 
 Saves the fuzzy options to the app data folder.
 

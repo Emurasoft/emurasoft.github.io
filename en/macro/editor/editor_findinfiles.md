@@ -1,4 +1,4 @@
-# FindInFiles Method
+# FindInFiles Method (Editor Object)
 
 Searches multiple files for matching string. The resultant list of the
 searched files will be displayed on the current window. If the document is not

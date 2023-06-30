@@ -1,4 +1,4 @@
-# Enabled Property
+# Enabled Property (NoWrapProp Object)
 
 Corresponds to the **Enable**
 **Non-Wrap Words** check box in the

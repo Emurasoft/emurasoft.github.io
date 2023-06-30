@@ -1,4 +1,4 @@
-# GetText Method
+# GetText Method (PopupMenu Object)
 
 Retrieves the text string of the menu item specified by the identifier.
 

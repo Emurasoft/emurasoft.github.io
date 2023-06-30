@@ -1,4 +1,4 @@
-# GetProfileString Method
+# GetProfileString Method (Editor Object)
 
 Retrieves the string value for the specified entry from the Registry or an INI file depending on the EmEditor
 settings.

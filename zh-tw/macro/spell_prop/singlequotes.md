@@ -1,4 +1,4 @@
-# SingleQuotes 屬性
+# SingleQuotes 屬性 (SpellProp ��H)
 
 與組態屬性中 [**拼字檢查** 頁面](../../dlg/properties/spell/index) 上的 **單引號內的字串** 核取方塊相對應。
 

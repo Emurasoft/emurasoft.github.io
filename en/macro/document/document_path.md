@@ -1,4 +1,4 @@
-# Path Property
+# Path Property (Document Object)
 
 Retrieves the path of the document without the file name.
 

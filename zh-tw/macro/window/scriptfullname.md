@@ -1,4 +1,4 @@
-# ScriptFullName 屬性
+# ScriptFullName 屬性 (Window ��H)
 
 檢索當前運行的巨集檔案的完整路徑以及檔案名稱。
 

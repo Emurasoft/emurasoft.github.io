@@ -1,4 +1,4 @@
-# LineUp Method
+# LineUp Method (Selection Object)
 
 Moves the cursor up a specified number of lines.
 

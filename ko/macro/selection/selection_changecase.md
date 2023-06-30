@@ -1,4 +1,4 @@
-# ChangeCase 메서드
+# ChangeCase 메서드 (Selection ��ü)
 
 선택된 텍스트의 대,소문자를 변경합니다.
 

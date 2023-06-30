@@ -1,4 +1,4 @@
-# ShowTip Method
+# ShowTip Method (Window Object)
 
 Displays a tooltip.
 

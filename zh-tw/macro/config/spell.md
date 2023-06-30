@@ -1,4 +1,4 @@
-# Spell 屬性
+# Spell 屬性 (Config ��H)
 
 檢索 [SpellProp 對象](../spell_prop/index)。
 

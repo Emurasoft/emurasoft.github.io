@@ -1,4 +1,4 @@
-# ShowDBSpaces Property
+# ShowDBSpaces Property (MarkProp Object)
 
 Corresponds to the **Show**
 **Double-Byte Spaces** check box in the

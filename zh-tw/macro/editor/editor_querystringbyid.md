@@ -1,4 +1,4 @@
-# QueryStringByID 方法
+# QueryStringByID 方法 (Editor ��H)
 
 檢索與指定命令相關聯的字串。
 

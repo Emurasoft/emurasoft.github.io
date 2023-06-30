@@ -1,4 +1,4 @@
-# LineColor Property
+# LineColor Property (DisplayItem Object)
 
 Specifies the underline color of the object.
 

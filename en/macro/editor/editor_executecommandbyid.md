@@ -1,4 +1,4 @@
-# ExecuteCommandByID Method
+# ExecuteCommandByID Method (Editor Object)
 
 Executes the command identified by an integer indicating the Command ID.
 

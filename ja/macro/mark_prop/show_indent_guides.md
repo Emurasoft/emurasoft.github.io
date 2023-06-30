@@ -1,4 +1,4 @@
-# ShowIndentGuides プロパティ
+# ShowIndentGuides プロパティ (MarkProp �I�u�W�F�N�g)
 
 設定のプロパティの \[記号\] タブの \[インデント ガイドを表示\] に相当します。
 

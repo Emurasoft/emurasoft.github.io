@@ -1,4 +1,4 @@
-# Saved Property
+# Saved Property (Document Object)
 
 Retrieves or sets the flag indicating whether the document is changed since
 the last time it was saved or opened.

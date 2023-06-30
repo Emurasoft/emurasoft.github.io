@@ -1,4 +1,4 @@
-# writeln Method
+# writeln Method (Document Object)
 
 Inserts or overwrites a string and a newline character at the current cursor position.
 

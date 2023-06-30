@@ -1,4 +1,4 @@
-# Load 方法
+# Load 方法 (FuzzyOptions ����)
 
 从应用数据文件夹加载模糊选项。
 

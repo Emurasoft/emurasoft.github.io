@@ -1,4 +1,4 @@
-# Key 속성
+# Key 속성 (KeyboardItem ��ü)
 
 개체의 키를 지정합니다.
 

@@ -1,4 +1,4 @@
-# Replace Property
+# Replace Property (Filter Object)
 
 Specifies a string to replace with.
 

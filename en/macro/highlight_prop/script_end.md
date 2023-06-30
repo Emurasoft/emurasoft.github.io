@@ -1,4 +1,4 @@
-# ScriptEnd Property
+# ScriptEnd Property (HighlightProp Object)
 
 Corresponds to the **Script**
 **group box - End** text box in the

@@ -1,4 +1,4 @@
-# VisibleLinesBelow Property
+# VisibleLinesBelow Property (Filters Collection)
 
 Specifies the number of visible lines below the matched lines.
 

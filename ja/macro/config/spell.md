@@ -1,4 +1,4 @@
-# Spell 繝励Ο繝代ユ繧｣
+# Spell 繝励Ο繝代ユ繧｣ (Config オブジェクト)
 
 [SpellProp 繧ｪ繝悶ず繧ｧ繧ｯ繝�](../spell_prop/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

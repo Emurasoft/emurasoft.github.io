@@ -1,4 +1,4 @@
-# Flags Property
+# Flags Property (FuzzyOptions Object)
 
 Sets or retrieves flags.
 

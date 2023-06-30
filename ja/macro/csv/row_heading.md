@@ -1,4 +1,4 @@
-# RowHeading プロパティ
+# RowHeading プロパティ (Csv �I�u�W�F�N�g)
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[行ヘディング\] テキスト ボックス に相当します。
 

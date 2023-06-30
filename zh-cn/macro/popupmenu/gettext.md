@@ -1,4 +1,4 @@
-# GetText 方法
+# GetText 方法 (PopupMenu ����)
 
 检索被标识符指定的菜单项目的文本字符串。
 

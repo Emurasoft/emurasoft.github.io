@@ -1,4 +1,4 @@
-# EndOfDocument 方法
+# EndOfDocument 方法 (Selection ��H)
 
 把游標移到文檔末尾。
 

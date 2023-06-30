@@ -1,4 +1,4 @@
-# FindWindowByID 메서드
+# FindWindowByID 메서드 (Window ��ü)
 
 창 식별자로 하위 Window 개체를 검색합니다.
 

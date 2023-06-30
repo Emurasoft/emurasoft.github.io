@@ -1,4 +1,4 @@
-# Interface 屬性
+# Interface 屬性 (Window ��H)
 
 返回 [**Interface** 對象](../interface/index)。
 

@@ -1,4 +1,4 @@
-# Close Method
+# Close Method (Document Object)
 
 Closes the document.
 

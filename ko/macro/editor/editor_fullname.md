@@ -1,4 +1,4 @@
-# FullName 속성
+# FullName 속성 (Editor ��ü)
 
 경로를 포함한 엠에디터 실행 파일 (emeditor.exe)의 전체 사양을 검색합니다.
 

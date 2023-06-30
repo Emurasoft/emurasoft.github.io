@@ -1,4 +1,4 @@
-# ExtractColumns メソッド
+# ExtractColumns メソッド ()
 
 CSV 文書から指定する列を抽出して新規文書を作成します。
 

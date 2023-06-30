@@ -1,4 +1,4 @@
-# NoWrap 속성
+# NoWrap 속성 (Config ��ü)
 
 [NoWrapProp 개체](../no_wrap_prop/index) 를 검색합니다.
 

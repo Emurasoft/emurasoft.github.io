@@ -1,4 +1,4 @@
-# Clear Method
+# Clear Method (CharacterRanges Collection)
 
 Removes all items in the collection.
 

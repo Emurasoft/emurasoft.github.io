@@ -1,4 +1,4 @@
-# SendKeys Method
+# SendKeys Method (Shell Object)
 
 Sends one or more keystrokes to the active window (as if typed on the keyboard). The Send Keys method can also emulate mouse activities. While this method can send all mouse operation to any windows, it is not recommended to send mouse operations
 to the same EmEditor window where the macro is started.

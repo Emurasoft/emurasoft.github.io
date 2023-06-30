@@ -1,4 +1,4 @@
-# \#async directive
+# \#async directive (Script Directives)
 
 Specifies whether the macro should be run asynchronously (as a separate thread). This directive must be specified at the first lines of the script above the main code.
 

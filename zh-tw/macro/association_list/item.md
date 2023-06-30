@@ -1,4 +1,4 @@
-# Item 屬性
+# Item 屬性 (AssociationList ���X)
 
 為指定索引檢索 [AssociationItem 對象](../association_item/index)。
 

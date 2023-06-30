@@ -1,4 +1,4 @@
-# WriteProfileString 方法
+# WriteProfileString 方法 (Editor ����)
 
 按 EmEditor 设定，设置一个字符串值到注册表或一个 INI 文件中。
 

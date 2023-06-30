@@ -1,4 +1,4 @@
-# ForegroundWindow 속성
+# ForegroundWindow 속성 (Shell ��ü)
 
 현재 전경 창을 검색합니다.
 

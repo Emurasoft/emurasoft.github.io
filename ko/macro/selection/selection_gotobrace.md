@@ -1,4 +1,4 @@
-# GoToBrace 메서드
+# GoToBrace 메서드 (Selection ��ü)
 
 해당하는 대괄호/중괄호로 커서를 이동합니다.
 

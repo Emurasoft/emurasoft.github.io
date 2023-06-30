@@ -1,4 +1,4 @@
-# StartOfLine 方法
+# StartOfLine 方法 (Selection ����)
 
 把光标移动到行首。
 

@@ -1,4 +1,4 @@
-# Count Property
+# Count Property (Documents Collection)
 
 Retrieves the number of documents.
 

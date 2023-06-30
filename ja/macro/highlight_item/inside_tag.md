@@ -1,4 +1,4 @@
-# InsideTag プロパティ
+# InsideTag プロパティ (HighlightItem �I�u�W�F�N�g)
 
 設定のプロパティの [**\[強調(1)\]** タブ](../../dlg/properties/highlight1/index) の
 **\[タグの内側のみ\]** チェック ボックスに相当します。

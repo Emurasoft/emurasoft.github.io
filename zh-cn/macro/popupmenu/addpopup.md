@@ -1,4 +1,4 @@
-# AddPopup 方法
+# AddPopup 方法 (PopupMenu ����)
 
 添加一个新的子菜单到菜单末尾。
 

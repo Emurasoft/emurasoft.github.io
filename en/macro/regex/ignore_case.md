@@ -1,4 +1,4 @@
-# IgnoreCase Property
+# IgnoreCase Property (Regex Object)
 
 Sets or retrieves whether the regular expression ignores cases.
 

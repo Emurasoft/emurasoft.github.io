@@ -1,4 +1,4 @@
-# CopyFullName Method
+# CopyFullName Method (Document Object)
 
 Copies the complete path and the file name of the document to the Clipboard.
 

@@ -1,4 +1,4 @@
-# DisplayList 繝励Ο繝代ユ繧｣
+# DisplayList 繝励Ο繝代ユ繧｣ (FontProp オブジェクト)
 
 陦ｨ遉ｺ逕ｨ繝輔か繝ｳ繝医�ｮ [FontList 繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ](../font_list/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

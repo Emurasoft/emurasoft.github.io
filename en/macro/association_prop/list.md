@@ -1,4 +1,4 @@
-# List Property
+# List Property (AssociationProp Object)
 
 Retrieves the [AssociationList object](../association_list/index).
 

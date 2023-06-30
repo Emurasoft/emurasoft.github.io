@@ -1,4 +1,4 @@
-# UnIndent Method
+# UnIndent Method (Selection Object)
 
 Removes indents from the selected text by the specified number of
 indentation levels.

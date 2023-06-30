@@ -1,4 +1,4 @@
-# ExtractColumns 方法
+# ExtractColumns 方法 (Document ��H)
 
 抽出 CSV 文檔中的指定欄。
 

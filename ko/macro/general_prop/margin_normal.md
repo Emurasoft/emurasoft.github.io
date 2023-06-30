@@ -1,4 +1,4 @@
-# MarginNormal 속성
+# MarginNormal 속성 (GeneralProp ��ü)
 
 구성 속성 [**일반** 탭](../../dlg/properties/general/index) 의 **일반 줄 여백** 텍스트 박스에 해당합니다.
 

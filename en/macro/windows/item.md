@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (Windows Collection)
 
 Retrieves the window object for the window of the specified index.
 

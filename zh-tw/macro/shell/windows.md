@@ -1,4 +1,4 @@
-# windows 屬性
+# windows 屬性 (Shell ��H)
 
 返回頂層視窗集合。
 

@@ -1,4 +1,4 @@
-# HighlightMatchingTag Property
+# HighlightMatchingTag Property (HighlightProp Object)
 
 Corresponds to the **Highlight**
 **Matching Tag** check box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.

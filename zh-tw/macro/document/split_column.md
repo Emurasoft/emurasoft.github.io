@@ -1,4 +1,4 @@
-# SplitColumn 方法
+# SplitColumn 方法 (Document ��H)
 
 用指定的分隔符分割欄，並在 CSV 模式下將其放入右邊的欄或下方的行中。
 

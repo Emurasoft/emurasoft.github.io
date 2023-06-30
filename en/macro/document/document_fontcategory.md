@@ -1,4 +1,4 @@
-# FontCategory Property
+# FontCategory Property (Document Object)
 
 Retrieves or sets the current font category.
 

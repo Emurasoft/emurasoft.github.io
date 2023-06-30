@@ -1,4 +1,4 @@
-# SetColumn 方法
+# SetColumn 方法 (Document ����)
 
 在 CSV 模式下设置文本列。
 

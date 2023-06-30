@@ -1,4 +1,4 @@
-# Color Property
+# Color Property (HighlightItem Object)
 
 Specifies the color of the object.
 

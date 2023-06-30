@@ -1,4 +1,4 @@
-# Untabify 메서드
+# Untabify 메서드 (Selection ��ü)
 
 선택 영역에서 탭을 공백으로 변환합니다.
 

@@ -1,4 +1,4 @@
-# Interval プロパティ
+# Interval プロパティ (AutoSaveProp �I�u�W�F�N�g)
 
 設定のプロパティの \[自動保存\] タブの \[分毎\] テキスト ボックスに相当します。
 

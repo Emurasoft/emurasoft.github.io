@@ -1,4 +1,4 @@
-# Command Property
+# Command Property (KeyboardItem Object)
 
 Specifies the command ID. See the
 **[Command Reference](../../cmd/index)** for the list of available

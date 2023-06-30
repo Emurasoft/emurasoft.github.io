@@ -1,4 +1,4 @@
-# Print 繝励Ο繝代ユ繧｣
+# Print 繝励Ο繝代ユ繧｣ (Config オブジェクト)
 
 [PrintProp 繧ｪ繝悶ず繧ｧ繧ｯ繝�](../print_prop/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

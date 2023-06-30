@@ -1,4 +1,4 @@
-# StartOfLine 메서드
+# StartOfLine 메서드 (Selection ��ü)
 
 줄의 시작점으로 커서를 이동합니다.
 

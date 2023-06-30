@@ -1,4 +1,4 @@
-# Windows Scripting Host
+# Windows Scripting Host (Features)
 
 EmEditor macros are based on the Windows Scripting Host (WSH) engine, so you
 can use various Windows Component Object Model (COM) objects. For

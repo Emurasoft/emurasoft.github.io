@@ -1,4 +1,4 @@
-# Replace in Files
+# Replace in Files (Tutorial)
 
 To replace a string within specified files in a path, use [ReplaceInFiles Method](../editor/editor_replaceinfiles).
 

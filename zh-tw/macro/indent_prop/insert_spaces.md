@@ -1,4 +1,4 @@
-# InsertSpaces 屬性
+# InsertSpaces 屬性 (IndentProp ��H)
 
 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **將 Tab轉換為空格** 核取方塊相對應。
 

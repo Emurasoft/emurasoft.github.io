@@ -1,4 +1,4 @@
-# FastCursorMove Property
+# FastCursorMove Property (ScrollProp Object)
 
 Corresponds to the **Faster Cursor Movement** check box in the
 [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.

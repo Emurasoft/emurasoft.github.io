@@ -1,4 +1,4 @@
-# FirstIndex 屬性
+# FirstIndex 屬性 (Match ��H)
 
 一個唯讀值，它包含在符合發生時的原始字串中以零為基的位置。
 

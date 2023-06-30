@@ -1,4 +1,4 @@
-# Properties プロパティ
+# Properties プロパティ ()
 
 オブジェクトの Unicode 用字、Unicode 一般カテゴリを表現する文字列を指定します。
 

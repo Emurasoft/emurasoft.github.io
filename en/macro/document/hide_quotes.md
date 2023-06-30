@@ -1,4 +1,4 @@
-# HideQuotes Property
+# HideQuotes Property (Document Object)
 
 Sets or retrieves a flag indicating whether the Hide Quotes Temporarily mode is enabled in the CSV cell selection mode.
 

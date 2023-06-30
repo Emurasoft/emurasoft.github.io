@@ -1,4 +1,4 @@
-# SmoothSpeed 속성
+# SmoothSpeed 속성 (ScrollProp ��ü)
 
 구성 속성 [**스크롤** 탭](../../dlg/properties/scroll/index) 의 **부드럽게 스크롤 슬라이더** 에 해당합니다.
 

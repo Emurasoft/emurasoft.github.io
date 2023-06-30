@@ -1,4 +1,4 @@
-# DetectCharset 繝励Ο繝代ユ繧｣
+# DetectCharset 繝励Ο繝代ユ繧｣ (FileProp オブジェクト)
 
 險ｭ螳壹�ｮ繝励Ο繝代ユ繧｣縺ｮ [**\[繝輔ぃ繧､繝ｫ\]** 繧ｿ繝望(../../dlg/properties/file/index) 縺ｮ
 **\[HTML/XML縺ｮCharset繧呈､懷�ｺ\]**

@@ -1,4 +1,4 @@
-# GetBottomPointX Method
+# GetBottomPointX Method (Selection Object)
 
 Returns the column number of the bottom of the selection.
 

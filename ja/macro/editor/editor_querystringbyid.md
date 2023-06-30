@@ -1,4 +1,4 @@
-# QueryStringByID メソッド
+# QueryStringByID メソッド ()
 
 指定するコマンドに関連する文字列を取得します。
 

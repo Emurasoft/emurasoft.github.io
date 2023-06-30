@@ -1,4 +1,4 @@
-# PageUp Method
+# PageUp Method (Selection Object)
 
 Moves the cursor the specified number of pages up in the document.
 

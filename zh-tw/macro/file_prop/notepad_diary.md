@@ -1,4 +1,4 @@
-# NotepadDiary 屬性
+# NotepadDiary 屬性 (FileProp ��H)
 
 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **創建與記事本兼容的日志檔案** 核取方塊相對應。
 

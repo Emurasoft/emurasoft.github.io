@@ -1,4 +1,4 @@
-# CurrentDirectory 屬性
+# CurrentDirectory 屬性 (OutputBar ��H)
 
 為輸出列設置當前目錄。這個信息是必需的如果文本包含只能從當前目錄跳至的相對路徑。
 

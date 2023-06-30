@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (NoWrapList Collection)
 
 Retrieves the [NoWrapItem object](../no_wrap_item/index) for the specified index.
 

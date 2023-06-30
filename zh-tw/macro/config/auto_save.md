@@ -1,4 +1,4 @@
-# AutoSave 屬性
+# AutoSave 屬性 (Config ��H)
 
 檢索 [AutoSaveProp 對象](../auto_save_prop/index)。
 

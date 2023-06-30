@@ -1,4 +1,4 @@
-# IsActiveEndGreater 속성
+# IsActiveEndGreater 속성 (Selection ��ü)
 
 활성화 지점이 하단의 지점과 동일한 지 여부를 나타냅니다.
 

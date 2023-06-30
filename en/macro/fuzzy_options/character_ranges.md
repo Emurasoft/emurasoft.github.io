@@ -1,4 +1,4 @@
-# CharacterRanges Property
+# CharacterRanges Property (FuzzyOptions Object)
 
 Retrieves or sets the [**CharacterRanges** collection](../character_ranges/index).
 

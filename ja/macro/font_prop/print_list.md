@@ -1,4 +1,4 @@
-# PrintList 繝励Ο繝代ユ繧｣
+# PrintList 繝励Ο繝代ユ繧｣ (FontProp オブジェクト)
 
 蜊ｰ蛻ｷ逕ｨ繝輔か繝ｳ繝医�ｮ [FontList 繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ](../font_list/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

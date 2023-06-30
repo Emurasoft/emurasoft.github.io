@@ -1,4 +1,4 @@
-# ShowUserDefinedGuides 属性
+# ShowUserDefinedGuides 属性 (MarkProp ����)
 
 与配置属性中 [**标记** 页面](../../dlg/properties/marks/index) 上的 **显示用户自定义参考线** 复选框相对应。
 

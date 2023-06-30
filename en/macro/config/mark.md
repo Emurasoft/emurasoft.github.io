@@ -1,4 +1,4 @@
-# Mark Property
+# Mark Property (Config Object)
 
 Retrieves the [MarkProp object](../mark_prop/index).
 

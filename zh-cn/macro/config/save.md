@@ -1,4 +1,4 @@
-# Save 鏂规硶
+# Save 鏂规硶 (Config 对象)
 
 Saves the configuration.
 

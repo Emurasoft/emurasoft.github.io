@@ -1,4 +1,4 @@
-# ChangeCase Method
+# ChangeCase Method (Selection Object)
 
 Changes the case of the selected text.
 

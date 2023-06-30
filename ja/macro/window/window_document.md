@@ -1,4 +1,4 @@
-# document プロパティ
+# document プロパティ ()
 
 現在開いている [Document オブジェクト](../document/index) を返します。
 

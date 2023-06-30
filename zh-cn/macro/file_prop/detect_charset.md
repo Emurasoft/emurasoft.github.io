@@ -1,4 +1,4 @@
-# DetectCharset 属性
+# DetectCharset 属性 (FileProp ����)
 
 与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **检测 HTML/XML 字符集** 复选框相对应。
 

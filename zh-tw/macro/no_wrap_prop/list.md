@@ -1,4 +1,4 @@
-# List 屬性
+# List 屬性 (NoWrapProp ��H)
 
 檢索 [NoWrapList 集合](../no_wrap_list/index)。
 

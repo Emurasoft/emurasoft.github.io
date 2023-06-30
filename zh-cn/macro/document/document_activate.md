@@ -1,4 +1,4 @@
-# Activate 方法
+# Activate 方法 (Document ����)
 
 激活文档。
 

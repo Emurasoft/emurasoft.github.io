@@ -1,4 +1,4 @@
-# Activate 方法
+# Activate 方法 (Document ��H)
 
 激活文檔。
 

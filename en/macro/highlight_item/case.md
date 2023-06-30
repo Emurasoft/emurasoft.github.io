@@ -1,4 +1,4 @@
-# Case Property
+# Case Property (HighlightItem Object)
 
 Corresponds to the **Match**
 **Case** check box in the

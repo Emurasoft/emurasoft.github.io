@@ -1,4 +1,4 @@
-# ExFlags 属性
+# ExFlags 属性 (Filter ����)
 
 指定下列值的组合。
 

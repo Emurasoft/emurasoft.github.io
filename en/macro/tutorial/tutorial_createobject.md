@@ -1,4 +1,4 @@
-# Creates Object
+# Creates Object (Tutorial)
 
 This section introduces convenient ways of using other Objects available in Windows.
 To use Objects, use the ActiveXObject Object in JavaScript (JScript) or CreateObject function in VBScript. JavaScript (V8) does not support this method.

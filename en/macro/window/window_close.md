@@ -1,4 +1,4 @@
-# close Method
+# close Method (Window Object)
 
 Closes the window.
 

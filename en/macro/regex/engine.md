@@ -1,4 +1,4 @@
-# Engine Property
+# Engine Property (Regex Object)
 
 Sets or retrieves the type of the regular expression engine.
 

@@ -1,4 +1,4 @@
-# regex 屬性
+# regex 屬性 (Editor ��H)
 
 檢索 [**Regex** 對象](../regex/index)。
 

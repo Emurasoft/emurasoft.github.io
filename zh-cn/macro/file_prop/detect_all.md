@@ -1,4 +1,4 @@
-# DetectAll 属性
+# DetectAll 属性 (FileProp ����)
 
 与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **全部检测** 复选框相对应。
 

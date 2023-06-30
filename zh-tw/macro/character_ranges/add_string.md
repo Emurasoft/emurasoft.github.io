@@ -1,4 +1,4 @@
-# AddString 方法
+# AddString 方法 (CharacterRanges ���X)
 
 添加一個字串。
 

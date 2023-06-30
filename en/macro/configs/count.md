@@ -1,4 +1,4 @@
-# Count Property
+# Count Property (Configs Collection)
 
 Retrieves the number of configurations.
 

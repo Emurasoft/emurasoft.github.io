@@ -1,4 +1,4 @@
-# UsePrinterFont Property
+# UsePrinterFont Property (FontProp Object)
 
 Corresponds to the **Include**
 **Default Printer Fonts in Lists Below** check box in the

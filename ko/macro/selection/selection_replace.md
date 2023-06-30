@@ -1,4 +1,4 @@
-# Replace 메서드
+# Replace 메서드 (Selection ��ü)
 
 문서 내 문자열을 대체합니다.
 

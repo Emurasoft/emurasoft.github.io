@@ -1,4 +1,4 @@
-# ExecuteMacro 方法
+# ExecuteMacro 方法 (Editor ����)
 
 执行一个指定的宏。
 

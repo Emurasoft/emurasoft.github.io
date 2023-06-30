@@ -1,4 +1,4 @@
-# AutoIndent Property
+# AutoIndent Property (IndentProp Object)
 
 Corresponds to the **Enable**
 **Auto Indent** check box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index).

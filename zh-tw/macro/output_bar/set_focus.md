@@ -1,4 +1,4 @@
-# SetFocus 方法
+# SetFocus 方法 (OutputBar ��H)
 
 把鍵盤焦點設置到輸出列上。
 

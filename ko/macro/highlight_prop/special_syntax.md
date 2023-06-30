@@ -1,4 +1,4 @@
-# SpecialSyntax 속성
+# SpecialSyntax 속성 (HighlightProp ��ü)
 
 구성 속성 [**강조 표시 (2)** 탭](../../dlg/properties/highlight2/index) 의 **특수 구문 드롭 다운** 리스트 박스에 해당합니다.
 

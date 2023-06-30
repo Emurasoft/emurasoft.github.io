@@ -1,4 +1,4 @@
-# Spell 属性
+# Spell 属性 (Config ����)
 
 检索 [SpellProp 对象](../spell_prop/index)。
 

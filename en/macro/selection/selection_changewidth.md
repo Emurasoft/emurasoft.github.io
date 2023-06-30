@@ -1,4 +1,4 @@
-# ChangeWidth Method
+# ChangeWidth Method (Selection Object)
 
 Changes the width of the selected text.
 

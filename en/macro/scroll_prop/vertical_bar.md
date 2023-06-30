@@ -1,4 +1,4 @@
-# VerticalBar Property
+# VerticalBar Property (ScrollProp Object)
 
 Corresponds to the **Vertical Scroll Bar drop-down** list box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 

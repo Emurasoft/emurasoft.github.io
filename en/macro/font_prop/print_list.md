@@ -1,4 +1,4 @@
-# PrintList Property
+# PrintList Property (FontProp Object)
 
 Retrieves the PrintList object.
 

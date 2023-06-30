@@ -1,4 +1,4 @@
-# document 属性
+# document 属性 (Window ����)
 
 返回 [**Document** 对象](../document/index)。
 

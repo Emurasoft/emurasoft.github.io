@@ -1,4 +1,4 @@
-# windows 属性
+# windows 属性 (Shell ����)
 
 返回顶层窗口集合。
 

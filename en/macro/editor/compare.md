@@ -1,4 +1,4 @@
-# Compare Method
+# Compare Method (Editor Object)
 
 Compares two open documents.
 

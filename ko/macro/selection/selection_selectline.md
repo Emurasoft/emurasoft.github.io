@@ -1,4 +1,4 @@
-# SelectLine 메서드
+# SelectLine 메서드 (Selection ��ü)
 
 커서 위치에 줄을 선택합니다.
 

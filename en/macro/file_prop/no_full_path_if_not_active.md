@@ -1,4 +1,4 @@
-# NoFullPathIfNotActive Property
+# NoFullPathIfNotActive Property (FileProp Object)
 
 Corresponds to the **Without**
 **Full Path if Not Active** check box in the

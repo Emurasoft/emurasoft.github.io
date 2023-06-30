@@ -1,4 +1,4 @@
-# ExStyle 属性
+# ExStyle 属性 (Window ����)
 
 返回指定窗口的扩展样式。
 

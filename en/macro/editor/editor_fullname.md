@@ -1,4 +1,4 @@
-# FullName Property
+# FullName Property (Editor Object)
 
 Retrieves the full specification of the EmEditor executable file (emeditor.exe),
 including the path.

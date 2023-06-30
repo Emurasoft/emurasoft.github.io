@@ -1,4 +1,4 @@
-# CombineColumns Method
+# CombineColumns Method (Document Object)
 
 Combines specified columns in a CSV mode.
 

@@ -1,4 +1,4 @@
-# Record Macro
+# Record Macro (Tutorial)
 
 To record a macro, select the [**Start/Stop Macro Record** command](../../cmd/macros/quick_macro_record).
 The mouse pointer should then turn into a video camera icon, indicating that

@@ -1,4 +1,4 @@
-# Remove Method
+# Remove Method (NoWrapList Collection)
 
 Removes an item.
 

@@ -1,4 +1,4 @@
-# Encoding 속성
+# Encoding 속성 (FileProp ��ü)
 
 구성 속성 [**파일** 탭](../../dlg/properties/file/index) 의 **여는 인코딩 드롭 다운** 리스트 박스에 해당합니다.
 

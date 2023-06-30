@@ -1,4 +1,4 @@
-# Title Property
+# Title Property (Document Object)
 
 Retrieves or sets the title of the document. The title may contain long and short titles separated by a linefeed (\\n or Chr(10)).
 

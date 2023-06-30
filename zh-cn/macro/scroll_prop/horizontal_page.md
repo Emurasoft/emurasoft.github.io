@@ -1,4 +1,4 @@
-# HorizontalPage 属性
+# HorizontalPage 属性 (ScrollProp ����)
 
 Corresponds to the **总是启用 1 页水平滚动** 复选框相对应。
 

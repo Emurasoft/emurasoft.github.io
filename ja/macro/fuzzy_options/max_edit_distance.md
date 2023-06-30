@@ -1,4 +1,4 @@
-# MaxEditDistance プロパティ
+# MaxEditDistance プロパティ ()
 
 最大編集距離を設定または取得します。
 

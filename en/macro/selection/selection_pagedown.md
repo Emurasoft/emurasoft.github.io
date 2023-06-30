@@ -1,4 +1,4 @@
-# PageDown Method
+# PageDown Method (Selection Object)
 
 Moves the cursor the specified number of pages down in the document.
 

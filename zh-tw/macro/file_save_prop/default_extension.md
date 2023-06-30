@@ -1,4 +1,4 @@
-# DefaultExtension 屬性
+# DefaultExtension 屬性 (FileSaveProp ��H)
 
 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **預設副檔名** 文字方塊相對應。
 

@@ -1,4 +1,4 @@
-# NumericEntity プロパティ
+# NumericEntity プロパティ (FileSaveProp �I�u�W�F�N�g)
 
 [**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
 **\[Unicode文字をHTML/XMLの文字参照として保存\]** チェック ボックスに相当します。

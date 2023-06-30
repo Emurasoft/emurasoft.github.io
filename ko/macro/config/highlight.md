@@ -1,4 +1,4 @@
-# Highlight 속성
+# Highlight 속성 (Config ��ü)
 
 [HighlightProp 개체](../highlight_prop/index) 를 검색합니다.
 

@@ -1,4 +1,4 @@
-# Interface Property
+# Interface Property (Window Object)
 
 Returns the [**Interface** Object](../interface/index).
 

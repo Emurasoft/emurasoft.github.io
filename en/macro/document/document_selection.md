@@ -1,4 +1,4 @@
-# selection Property
+# selection Property (Document Object)
 
 Retrieves the [Selection Object](../selection/index).
 

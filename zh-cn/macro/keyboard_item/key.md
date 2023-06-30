@@ -1,4 +1,4 @@
-# Key 属性
+# Key 属性 (KeyboardItem ����)
 
 指定对象的按键。
 

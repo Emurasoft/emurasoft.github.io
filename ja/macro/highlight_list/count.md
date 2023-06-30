@@ -1,4 +1,4 @@
-# Count プロパティ
+# Count プロパティ (HighlightList �R���N�V����)
 
 アイテムの数を取得します。
 

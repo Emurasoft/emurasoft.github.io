@@ -1,4 +1,4 @@
-# writeln Method
+# writeln Method (Interface Object)
 
 Passes a string and a newline character to a supported plug-in.
 

@@ -1,4 +1,4 @@
-# Min Property
+# Min Property (CharacterRange Object)
 
 Specifies the minimum character of the object.
 

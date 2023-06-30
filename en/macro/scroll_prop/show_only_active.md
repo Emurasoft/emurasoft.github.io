@@ -1,4 +1,4 @@
-# ShowOnlyActive Property
+# ShowOnlyActive Property (ScrollProp Object)
 
 Corresponds to the **Show Scroll Bars Only in Active Pane** check box in the
 [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.

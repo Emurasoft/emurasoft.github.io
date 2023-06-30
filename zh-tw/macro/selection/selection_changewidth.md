@@ -1,4 +1,4 @@
-# ChangeWidth 方法
+# ChangeWidth 方法 (Selection ��H)
 
 變更所選取的文字的寬度。
 

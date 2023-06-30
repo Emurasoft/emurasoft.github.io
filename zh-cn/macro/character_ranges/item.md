@@ -1,4 +1,4 @@
-# Item 属性
+# Item 属性 (CharacterRanges ����)
 
 为指定索引检索 [**CharacterRange** 对象](../character_range/index)。
 

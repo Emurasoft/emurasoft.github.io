@@ -1,4 +1,4 @@
-# SelectColumn Method
+# SelectColumn Method (Selection Object)
 
 Selects specified columns in a CSV mode.
 

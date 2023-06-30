@@ -1,4 +1,4 @@
-# Command プロパティ
+# Command プロパティ (KeyboardItem �I�u�W�F�N�g)
 
 コマンド ID を指定します。
 

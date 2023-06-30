@@ -1,4 +1,4 @@
-# regex 属性
+# regex 属性 (Editor ����)
 
 检索 [**Regex** 对象](../regex/index)。
 

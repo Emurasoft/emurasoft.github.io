@@ -1,4 +1,4 @@
-# DeleteColumn メソッド
+# DeleteColumn メソッド ()
 
 CSV モードで指定された列を削除します。
 

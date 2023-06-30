@@ -1,4 +1,4 @@
-# SetFileAttributes Method
+# SetFileAttributes Method (Shell Object)
 
 Sets the attributes of a specified file or folder.
 

@@ -1,4 +1,4 @@
-# SaveCloseAll メソッド
+# SaveCloseAll メソッド ()
 
 すべての EmEditor で開かれているファイルを保存して閉じます。
 

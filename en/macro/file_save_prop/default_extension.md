@@ -1,4 +1,4 @@
-# DefaultExtension Property
+# DefaultExtension Property (FileSaveProp Object)
 
 Corresponds to the **Default**
 **Extension** text box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties.

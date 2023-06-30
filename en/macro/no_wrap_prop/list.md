@@ -1,4 +1,4 @@
-# List Property
+# List Property (NoWrapProp Object)
 
 Retrieves the [NoWrapList collection](../no_wrap_list/index).
 

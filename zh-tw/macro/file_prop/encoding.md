@@ -1,4 +1,4 @@
-# Encoding 屬性
+# Encoding 屬性 (FileProp ��H)
 
 與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **檔案打開時的編碼** 下拉清單方塊相對應。
 

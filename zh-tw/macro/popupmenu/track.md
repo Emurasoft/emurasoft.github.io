@@ -1,4 +1,4 @@
-# Track 方法
+# Track 方法 (PopupMenu ��H)
 
 顯示快顯功能表，檢索所選功能表項的識別項。
 

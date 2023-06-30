@@ -1,4 +1,4 @@
-# ReadOnly Property
+# ReadOnly Property (Document Object)
 
 Retrieves or sets whether the document is read-only.
 

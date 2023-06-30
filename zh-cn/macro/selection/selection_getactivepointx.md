@@ -1,4 +1,4 @@
-# GetActivePointX 方法
+# GetActivePointX 方法 (Selection ����)
 
 返回光标位置处的列号。
 

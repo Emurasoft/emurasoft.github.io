@@ -1,4 +1,4 @@
-# Enabled Property
+# Enabled Property (HighlightProp Object)
 
 Corresponds to the **Highlight**
 **These Words** check box in the

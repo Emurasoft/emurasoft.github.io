@@ -1,4 +1,4 @@
-# ExStyle 屬性
+# ExStyle 屬性 (Window ��H)
 
 返回指定視窗的延伸樣式。
 

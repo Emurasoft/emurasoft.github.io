@@ -1,4 +1,4 @@
-# InsertFromFile メソッド
+# InsertFromFile メソッド ()
 
 指定したファイルの中身をカーソル位置に挿入します。
 

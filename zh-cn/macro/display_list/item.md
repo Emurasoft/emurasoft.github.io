@@ -1,4 +1,4 @@
-# Item 属性
+# Item 属性 (DisplayList ����)
 
 为指定索引检索 [DisplayItem 对象](../display_item/index)。
 

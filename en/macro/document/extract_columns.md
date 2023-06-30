@@ -1,4 +1,4 @@
-# ExtractColumns Method
+# ExtractColumns Method (Document Object)
 
 Extracts the specified columns of the CSV document.
 

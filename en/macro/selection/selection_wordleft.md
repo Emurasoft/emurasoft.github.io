@@ -1,4 +1,4 @@
-# WordLeft Method
+# WordLeft Method (Selection Object)
 
 Moves the cursor the specified number of words to the left.
 

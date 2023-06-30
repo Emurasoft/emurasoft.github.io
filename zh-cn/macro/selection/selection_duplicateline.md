@@ -1,4 +1,4 @@
-# DuplicateLine 方法
+# DuplicateLine 方法 (Selection ����)
 
 复制当前行。
 

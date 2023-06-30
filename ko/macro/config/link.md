@@ -1,4 +1,4 @@
-# Link 속성
+# Link 속성 (Config ��ü)
 
 [LinkProp 개체](../link_prop/index) 를 검색합니다.
 

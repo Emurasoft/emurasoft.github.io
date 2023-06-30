@@ -1,4 +1,4 @@
-# Add Method
+# Add Method (NoWrapList Collection)
 
 Adds an item.
 

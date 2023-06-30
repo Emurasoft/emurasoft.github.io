@@ -1,4 +1,4 @@
-# Key Property
+# Key Property (KeyboardItem Object)
 
 Specifies the key of the object.
 

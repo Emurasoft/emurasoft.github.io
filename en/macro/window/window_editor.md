@@ -1,4 +1,4 @@
-# editor Property
+# editor Property (Window Object)
 
 Returns the [Editor Object](../editor/index).
 

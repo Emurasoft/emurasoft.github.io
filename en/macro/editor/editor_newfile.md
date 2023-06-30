@@ -1,4 +1,4 @@
-# NewFile Method
+# NewFile Method (Editor Object)
 
 Creates a new file.
 

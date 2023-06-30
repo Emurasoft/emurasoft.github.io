@@ -1,4 +1,4 @@
-# CommentBegin Property
+# CommentBegin Property (HighlightProp Object)
 
 Corresponds to the **Comments**
 **group box - Begin** text box in the

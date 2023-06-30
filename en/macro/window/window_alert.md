@@ -1,4 +1,4 @@
-# alert Method
+# alert Method (Window Object)
 
 Displays a message in a simple dialog box with the OK button.
 

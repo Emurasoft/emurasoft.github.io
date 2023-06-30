@@ -1,4 +1,4 @@
-# IgnoreColor Property
+# IgnoreColor Property (PrintProp Object)
 
 Corresponds to the **Ignore**
 **Color and Underlines** check box in the

@@ -1,4 +1,4 @@
-# LineSpace 속성
+# LineSpace 속성 (PrintProp ��ü)
 
 구성 속성 [**인쇄** 탭](../../dlg/properties/print/index) 의 **줄 사이 공백** 텍스트 박스에 해당합니다.
 

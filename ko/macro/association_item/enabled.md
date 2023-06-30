@@ -1,4 +1,4 @@
-# Enabled 속성
+# Enabled 속성 (AssociationItem ��ü)
 
 개체를 사용할 수 있는지 여부를 나타내는 플래그를 지정합니다.
 

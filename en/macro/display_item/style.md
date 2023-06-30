@@ -1,4 +1,4 @@
-# Style Property
+# Style Property (DisplayItem Object)
 
 Specifies the style of the object.
 

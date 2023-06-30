@@ -1,4 +1,4 @@
-# FindWindow Method
+# FindWindow Method (Window Object)
 
 Finds the child [Window object](../window/index) by a class name and/or by a window title.
 

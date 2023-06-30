@@ -1,4 +1,4 @@
-# RegExp Property
+# RegExp Property (HighlightItem Object)
 
 Corresponds to the **Regular**
 **Expression** check box in the [**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.

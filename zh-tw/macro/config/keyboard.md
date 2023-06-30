@@ -1,4 +1,4 @@
-# Keyboard 屬性
+# Keyboard 屬性 (Config ��H)
 
 檢索 [KeyboardProp 對象](../keyboard_prop/index)。
 

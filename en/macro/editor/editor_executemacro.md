@@ -1,4 +1,4 @@
-# ExecuteMacro Method
+# ExecuteMacro Method (Editor Object)
 
 Executes a specified macro.
 

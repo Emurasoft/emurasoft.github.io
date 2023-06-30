@@ -1,4 +1,4 @@
-# FindWindowByID メソッド
+# FindWindowByID メソッド ()
 
 ウィンドウ ID で子ウィンドウ オブジェクトを検索します。
 

@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (Documents Collection)
 
 Retrieves the document object for the document of the specified index.
 

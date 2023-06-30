@@ -1,4 +1,4 @@
-# scrollTo Method
+# scrollTo Method (Window Object)
 
 Scrolls the window to the specified position.
 

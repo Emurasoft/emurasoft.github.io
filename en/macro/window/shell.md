@@ -1,4 +1,4 @@
-# shell Property
+# shell Property (Window Object)
 
 Returns the [**Shell** Object](../shell/index).
 

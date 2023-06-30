@@ -1,4 +1,4 @@
-# Visible 屬性
+# Visible 屬性 (OutputBar ��H)
 
 顯示或隱藏輸出列。
 

@@ -1,4 +1,4 @@
-# FindWindowByID 方法
+# FindWindowByID 方法 (Window ����)
 
 通过窗口标识符查找子 Window 对象。
 

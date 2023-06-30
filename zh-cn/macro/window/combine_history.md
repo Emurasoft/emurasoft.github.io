@@ -1,4 +1,4 @@
-# CombineHistory 属性
+# CombineHistory 属性 (Window ����)
 
 指定要不要合并撤消/重做记录。
 

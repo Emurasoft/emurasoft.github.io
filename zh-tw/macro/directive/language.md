@@ -1,4 +1,4 @@
-# \#language 指示詞
+# \#language 指示詞 (Script ���ܵ�)
 
 指定要使用的指示詞碼語言。通過指定這個，您就可以使用 JavaScript 和 VBScript 之外的 ActiveScript 語言。這個指示詞必須在主代碼上方的指示詞碼中的第一行上被指定。
 

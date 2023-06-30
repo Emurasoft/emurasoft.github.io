@@ -1,4 +1,4 @@
-# Name Property
+# Name Property (HighlightItem Object)
 
 Specifies the name of the object.
 

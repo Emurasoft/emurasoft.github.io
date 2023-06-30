@@ -1,4 +1,4 @@
-# x Property
+# x Property (Point Object)
 
 Represents the horizontal (or character) position of the Point object.
 

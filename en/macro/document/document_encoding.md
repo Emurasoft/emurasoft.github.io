@@ -1,4 +1,4 @@
-# Encoding Property
+# Encoding Property (Document Object)
 
 Retrieves or sets the current encoding of the opened file.
 

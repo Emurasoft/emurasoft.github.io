@@ -1,4 +1,4 @@
-# Size 属性
+# Size 属性 (FontItem ����)
 
 用点数(pt)指定字体大小。
 

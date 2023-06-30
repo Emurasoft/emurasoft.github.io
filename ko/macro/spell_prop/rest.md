@@ -1,4 +1,4 @@
-# Rest 속성
+# Rest 속성 (SpellProp ��ü)
 
 구성 속성의 [**맞춤법** 탭](../../dlg/properties/spell/index) 의 **지정되지 않은 텍스트** 체크 박스에 해당합니다.
 

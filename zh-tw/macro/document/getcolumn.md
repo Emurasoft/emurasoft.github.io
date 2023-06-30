@@ -1,4 +1,4 @@
-# GetColumn 方法
+# GetColumn 方法 (Document ��H)
 
 在 CSV 模式中檢索文字欄。
 

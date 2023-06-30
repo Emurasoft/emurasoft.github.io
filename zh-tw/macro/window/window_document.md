@@ -1,4 +1,4 @@
-# document 屬性
+# document 屬性 (Window ��H)
 
 返回 [**Document** 對象](../document/index)。
 

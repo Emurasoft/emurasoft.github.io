@@ -1,4 +1,4 @@
-# Valid 屬性
+# Valid 屬性 (Window ��H)
 
 返回是否視窗句柄還有效。
 

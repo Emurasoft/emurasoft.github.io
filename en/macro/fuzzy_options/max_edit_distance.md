@@ -1,4 +1,4 @@
-# MaxEditDistance Property
+# MaxEditDistance Property (FuzzyOptions Object)
 
 Sets or retrieves the maximum edit distance.
 

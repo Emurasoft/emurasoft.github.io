@@ -1,4 +1,4 @@
-# ReadOnly 属性
+# ReadOnly 属性 (Document ����)
 
 检索或设置文档是否为只读。
 

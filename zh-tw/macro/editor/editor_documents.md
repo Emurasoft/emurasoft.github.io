@@ -1,4 +1,4 @@
-# Documents 屬性
+# Documents 屬性 (Editor ��H)
 
 為當前打開的文檔，檢索 [Documents 集合](../documents/index)。
 

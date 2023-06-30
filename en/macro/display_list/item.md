@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (DisplayList Collection)
 
 Retrieves the [DisplayItem object](../display_item/index) for the specified index.
 

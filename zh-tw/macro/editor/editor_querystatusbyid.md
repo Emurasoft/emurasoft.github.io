@@ -1,4 +1,4 @@
-# QueryStatusByID 方法
+# QueryStatusByID 方法 (Editor ��H)
 
 檢索指定命令的目前的狀態，是否已被勾選和啟用。
 

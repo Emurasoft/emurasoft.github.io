@@ -1,4 +1,4 @@
-# File Property
+# File Property (Config Object)
 
 Retrieves the [FileProp object](../file_prop/index).
 

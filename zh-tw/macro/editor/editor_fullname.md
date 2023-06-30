@@ -1,4 +1,4 @@
-# FullName 屬性
+# FullName 屬性 (Editor ��H)
 
 檢索 EmEditor 可執行檔案 (emeditor.exe) 的完整規格，包括路徑。
 

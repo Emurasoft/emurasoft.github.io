@@ -1,4 +1,4 @@
-# AddString Method
+# AddString Method (CharacterRanges Collection)
 
 Adds a string.
 

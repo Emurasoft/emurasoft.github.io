@@ -1,4 +1,4 @@
-# 파일 내 바꾸기
+# 파일 내 바꾸기 (Ʃ�丮��)
 
 경로에 지정된 파일 내에서 문자열을 대체하려면,
 [ReplaceInFiles 메서드](../editor/editor_replaceinfiles) 를 사용합니다.

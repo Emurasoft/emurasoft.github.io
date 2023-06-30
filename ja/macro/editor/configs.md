@@ -1,4 +1,4 @@
-# Configs プロパティ
+# Configs プロパティ ()
 
 [Configs コレクション](configs) を返します。
 

@@ -1,4 +1,4 @@
-# WordWrapAfterMarks 属性
+# WordWrapAfterMarks 属性 (WrapProp ����)
 
 与配置属性中 [**换行** 页面](../../dlg/properties/wrap/index) 上的 **启用标记后自动换行** 复选框相对应。
 

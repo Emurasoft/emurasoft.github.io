@@ -1,4 +1,4 @@
-# Run Method
+# Run Method (Shell Object)
 
 Runs a program in a new process.
 

@@ -1,4 +1,4 @@
-# Reset メソッド
+# Reset メソッド (CsvList �R���N�V����)
 
 コレクションをリセットします。
 

@@ -1,4 +1,4 @@
-# AddCharacterRange 方法
+# AddCharacterRange 方法 (CharacterRanges ���X)
 
 添加字元範圍。
 

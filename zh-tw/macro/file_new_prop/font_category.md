@@ -1,4 +1,4 @@
-# FontCategory 扽俶
+# FontCategory 扽俶 (FileNewProp ��H)
 
 Corresponds to the **Font**
 **Category drop-down** list box in the

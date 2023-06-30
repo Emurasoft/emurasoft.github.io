@@ -1,4 +1,4 @@
-# DeleteLeft 方法
+# DeleteLeft 方法 (Selection ��H)
 
 刪除所選內容。如果選定內容是空的，那么刪除游標左邊的指定字元數。
 

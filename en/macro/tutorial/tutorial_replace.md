@@ -1,4 +1,4 @@
-# Replace a String
+# Replace a String (Tutorial)
 
 To replace a string in files, add the ninth and tenth line to our tutorial macro:
 

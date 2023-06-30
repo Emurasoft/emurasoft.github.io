@@ -1,4 +1,4 @@
-# Get the Name of a Computer User
+# Get the Name of a Computer User (Tutorial)
 
 To get the name of a computer user, use the UserName Property of WshNetwork Object.
 

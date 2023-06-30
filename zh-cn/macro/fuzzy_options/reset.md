@@ -1,4 +1,4 @@
-# Reset 方法
+# Reset 方法 (FuzzyOptions ����)
 
 将模糊选项重置为默认值。
 

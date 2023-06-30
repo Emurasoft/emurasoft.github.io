@@ -1,4 +1,4 @@
-# Sleep Method
+# Sleep Method (Window Object)
 
 Pauses the macro execution for the specified time in milliseconds.
 

@@ -1,4 +1,4 @@
-# AddPopup Method
+# AddPopup Method (PopupMenu Object)
 
 Adds a new submenu to the end of the menu.
 

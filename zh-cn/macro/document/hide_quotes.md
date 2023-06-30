@@ -1,4 +1,4 @@
-# HideQuotes 属性
+# HideQuotes 属性 (Document ����)
 
 检索或设置一个标志，该标志指示在 CSV 单元格选择模式下是否启用了“隐藏引号”视图。
 

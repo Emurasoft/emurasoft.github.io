@@ -1,4 +1,4 @@
-# Footer Property
+# Footer Property (PrintProp Object)
 
 Corresponds to the **Footer** text box in the [**Print** page](../../dlg/properties/print/index) of Configuration Properties.
 

@@ -1,4 +1,4 @@
-# InsertReturns 繝励Ο繝代ユ繧｣
+# InsertReturns 繝励Ο繝代ユ繧｣ (FileSaveProp オブジェクト)
 
 [**\[菫晏ｭ俶凾縺ｮ隧ｳ邏ｰ\]** 繝繧､繧｢繝ｭ繧ｰ 繝懊ャ繧ｯ繧ｹ](../../dlg/properties/file/save_details/index) 縺ｮ **\[菫晏ｭ俶凾縲∵隼陦後さ繝ｼ繝峨ｒ謖ｿ蜈･\]** 繝√ぉ繝�繧ｯ 繝懊ャ繧ｯ繧ｹ縺ｫ逶ｸ蠖薙＠縺ｾ縺吶�
 

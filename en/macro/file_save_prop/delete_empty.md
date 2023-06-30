@@ -1,4 +1,4 @@
-# DeleteEmpty Property
+# DeleteEmpty Property (FileSaveProp Object)
 
 Corresponds to the **Delete**
 **Empty Files when Saving** check box in the

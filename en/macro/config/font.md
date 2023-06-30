@@ -1,4 +1,4 @@
-# Font Property
+# Font Property (Config Object)
 
 Retrieves the [FontProp object](../font_prop/index).
 

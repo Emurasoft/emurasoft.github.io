@@ -1,4 +1,4 @@
-# UseRecycleBin 属性
+# UseRecycleBin 属性 (BackupProp ����)
 
 与配置属性中 [**备份** 页面](../../dlg/properties/backup/index) 上的 **使用回收站进行备份** 复选框对应。
 

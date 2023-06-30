@@ -1,4 +1,4 @@
-# GetTopPointX 方法
+# GetTopPointX 方法 (Selection ����)
 
 返回选定内容顶部的列号。
 

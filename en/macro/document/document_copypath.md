@@ -1,4 +1,4 @@
-# CopyPath Method
+# CopyPath Method (Document Object)
 
 Copies the path of the document without its file name to the Clipboard.
 

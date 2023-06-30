@@ -1,4 +1,4 @@
-# Spell Property
+# Spell Property (Config Object)
 
 Retrieves the [SpellProp object](../spell_prop/index).
 

@@ -1,4 +1,4 @@
-# Encoding Property
+# Encoding Property (FileProp Object)
 
 Corresponds to the **Opening**
 **Encoding** drop-down list box in the

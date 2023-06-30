@@ -1,4 +1,4 @@
-# CamelCase 属性
+# CamelCase 属性 (SpellProp ����)
 
 与配置属性中 [**拼写检查** 页面](../../dlg/properties/spell/index) 上的 **支持驼峰式大小写** 复选框相对应。
 

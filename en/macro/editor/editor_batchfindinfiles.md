@@ -1,4 +1,4 @@
-# BatchFindInFiles Method
+# BatchFindInFiles Method (Editor Object)
 
 Searches multiple files for multiple strings. The resultant list of the
 searched files will be displayed on the current window. If the document is not

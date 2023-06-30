@@ -1,4 +1,4 @@
-# FontCategory プロパティ
+# FontCategory プロパティ ()
 
 フォント分類を取得、または設定します。
 

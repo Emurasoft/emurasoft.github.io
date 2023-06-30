@@ -1,4 +1,4 @@
-# CopyPath 메서드
+# CopyPath 메서드 (Document ��ü)
 
 클립보드에 문서의 경로만을 복사합니다.
 

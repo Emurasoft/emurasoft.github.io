@@ -1,4 +1,4 @@
-# NumericEntity Property
+# NumericEntity Property (FileSaveProp Object)
 
 Corresponds to the **Save**
 **Unicode as HTML/XML Character Reference** check box in the

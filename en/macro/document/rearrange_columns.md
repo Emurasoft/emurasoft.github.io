@@ -1,4 +1,4 @@
-# RearrangeColumns Method
+# RearrangeColumns Method (Document Object)
 
 Rearranges CSV columns.
 

@@ -1,4 +1,4 @@
-# Link Property
+# Link Property (Config Object)
 
 Retrieves the [LinkProp object](../link_prop/index).
 

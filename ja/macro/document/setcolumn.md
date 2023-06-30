@@ -1,4 +1,4 @@
-# SetColumn メソッド
+# SetColumn メソッド ()
 
 CSV モードで指定する列に文字列を設定します。
 

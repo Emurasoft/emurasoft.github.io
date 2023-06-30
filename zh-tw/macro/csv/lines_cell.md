@@ -1,4 +1,4 @@
-# LinesCell 屬性
+# LinesCell 屬性 (Csv ��H)
 
 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **一個儲存格中的最大換行數** 文字方塊對應。
 

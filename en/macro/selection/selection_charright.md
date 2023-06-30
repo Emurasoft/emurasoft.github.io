@@ -1,4 +1,4 @@
-# CharRight Method
+# CharRight Method (Selection Object)
 
 Moves the cursor the specified number of characters to the right.
 

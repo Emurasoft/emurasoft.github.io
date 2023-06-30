@@ -1,4 +1,4 @@
-# FileNew 屬性
+# FileNew 屬性 (Config ��H)
 
 檢索 [FileNewProp 對象](../file_new_prop/index)。
 

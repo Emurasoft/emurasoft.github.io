@@ -1,4 +1,4 @@
-# Association Property
+# Association Property (Config Object)
 
 Retrieves the [AssociationProp object](../association_prop/index).
 

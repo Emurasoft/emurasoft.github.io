@@ -1,4 +1,4 @@
-# Config プロパティ
+# Config プロパティ ()
 
 [Config オブジェクト](../config/index) を取得します。
 

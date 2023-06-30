@@ -1,4 +1,4 @@
-# Interval Property
+# Interval Property (AutoSaveProp Object)
 
 Corresponds to the Minutes text box in the Auto Save page of Configuration Properties.
 

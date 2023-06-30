@@ -1,4 +1,4 @@
-# SelectAll 方法
+# SelectAll 方法 (Selection ����)
 
 选择整个文档。
 

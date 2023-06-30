@@ -1,4 +1,4 @@
-# Join Method
+# Join Method (Editor Object)
 
 Combines two CSV documents specifying key columns, using a method similar to JOIN operations, and creates a new document.
 

@@ -1,4 +1,4 @@
-# WordWrap Property
+# WordWrap Property (WrapProp Object)
 
 Corresponds to the **Word**
 **Wrap** check box in the [**Wrap** page](../../dlg/properties/wrap/index) of Configuration Properties.

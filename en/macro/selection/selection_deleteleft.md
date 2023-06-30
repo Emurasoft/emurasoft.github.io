@@ -1,4 +1,4 @@
-# DeleteLeft Method
+# DeleteLeft Method (Selection Object)
 
 Deletes the selected text. If the selection is empty, deletes the specified
 number of characters to the left of the cursor.

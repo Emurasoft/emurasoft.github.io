@@ -1,4 +1,4 @@
-# ShowEOF 속성
+# ShowEOF 속성 (MarkProp ��ü)
 
 구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의 **파일의 끝 보이기** 체크 박스에 해당합니다.
 

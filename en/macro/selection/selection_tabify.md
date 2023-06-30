@@ -1,4 +1,4 @@
-# Tabify Method
+# Tabify Method (Selection Object)
 
 Converts spaces to tabs in the selection.
 

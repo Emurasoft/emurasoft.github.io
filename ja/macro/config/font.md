@@ -1,4 +1,4 @@
-# Font 繝励Ο繝代ユ繧｣
+# Font 繝励Ο繝代ユ繧｣ (Config オブジェクト)
 
 [FontPtop 繧ｪ繝悶ず繧ｧ繧ｯ繝�](../font_prop/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

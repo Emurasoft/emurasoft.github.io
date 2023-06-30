@@ -1,4 +1,4 @@
-# setData Method
+# setData Method (clipboardData Object)
 
 Assigns data in a specified format to the Clipboard.
 

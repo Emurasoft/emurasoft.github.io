@@ -1,4 +1,4 @@
-# FirstIndex Property
+# FirstIndex Property (Match Object)
 
 A read-only value that contains the zero-based position within the original string where the match occurred.
 

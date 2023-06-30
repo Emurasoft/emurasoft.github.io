@@ -1,4 +1,4 @@
-# Font 屬性
+# Font 屬性 (Config ��H)
 
 檢索 [FontProp 對象](../font_prop/index)。
 

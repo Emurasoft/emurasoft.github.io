@@ -1,4 +1,4 @@
-# CellMode Property
+# CellMode Property (Document Object)
 
 Sets or retrieves a flag indicating whether the selection mode is cell selection mode.
 

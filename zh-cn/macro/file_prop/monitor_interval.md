@@ -1,4 +1,4 @@
-# MonitorInterval 属性
+# MonitorInterval 属性 (FileProp ����)
 
 与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **监控时间间隔** 文本框相对应。
 

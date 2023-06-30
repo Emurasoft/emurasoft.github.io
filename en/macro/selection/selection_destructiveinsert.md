@@ -1,4 +1,4 @@
-# DestructiveInsert Method
+# DestructiveInsert Method (Selection Object)
 
 Inserts text, overwriting the existing text.
 

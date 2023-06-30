@@ -1,4 +1,4 @@
-# Collapse 方法
+# Collapse 方法 (Selection ����)
 
 折叠所选的部分到活动点。
 

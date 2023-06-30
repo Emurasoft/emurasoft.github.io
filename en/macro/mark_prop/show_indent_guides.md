@@ -1,4 +1,4 @@
-# ShowIndentGuides Property
+# ShowIndentGuides Property (MarkProp Object)
 
 Corresponds to the Show Indent Guides check box in the Mark tab of Configuration Properties.
 

@@ -1,4 +1,4 @@
-# Name Property
+# Name Property (Config Object)
 
 Retrieves the name for the current configuration object.
 

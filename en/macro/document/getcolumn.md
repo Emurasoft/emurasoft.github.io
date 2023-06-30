@@ -1,4 +1,4 @@
-# GetColumn Method
+# GetColumn Method (Document Object)
 
 Retrieves a column of text in CSV mode.
 

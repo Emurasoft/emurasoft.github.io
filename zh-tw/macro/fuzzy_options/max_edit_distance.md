@@ -1,4 +1,4 @@
-# MaxEditDistance 屬性
+# MaxEditDistance 屬性 (FuzzyOptions ��H)
 
 檢索或設定最大編輯距離。
 

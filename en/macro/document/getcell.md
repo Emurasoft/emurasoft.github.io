@@ -1,4 +1,4 @@
-# GetCell Method
+# GetCell Method (Document Object)
 
 Retrieves the text on the specified cell in a CSV mode.
 

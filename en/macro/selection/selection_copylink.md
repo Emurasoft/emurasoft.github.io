@@ -1,4 +1,4 @@
-# CopyLink Method
+# CopyLink Method (Selection Object)
 
 Copies the hyperlink at the cursor to the Clipboard.
 

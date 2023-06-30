@@ -1,4 +1,4 @@
-# AddFind Method
+# AddFind Method (Filters Collection)
 
 Adds an item for a search.
 

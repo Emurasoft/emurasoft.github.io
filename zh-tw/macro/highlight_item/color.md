@@ -1,4 +1,4 @@
-# Color 屬性
+# Color 屬性 (HighlightItem ��H)
 
 指定對象的顏色。
 

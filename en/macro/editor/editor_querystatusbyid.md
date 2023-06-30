@@ -1,4 +1,4 @@
-# QueryStatusByID Method
+# QueryStatusByID Method (Editor Object)
 
 Retrieves the current status of the specified command, whether it is enabled
 and checked.

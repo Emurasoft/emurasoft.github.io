@@ -1,4 +1,4 @@
-# DestructiveInsert メソッド
+# DestructiveInsert メソッド ()
 
 既に存在するテキストを上書きしてテキストを挿入します。
 

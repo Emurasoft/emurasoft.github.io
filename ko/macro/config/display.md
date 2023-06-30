@@ -1,4 +1,4 @@
-# Display 속성
+# Display 속성 (Config ��ü)
 
 [DisplayProp 개체](../display_prop/index) 를 검색합니다.
 

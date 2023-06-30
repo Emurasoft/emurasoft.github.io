@@ -1,4 +1,4 @@
-# GetTopPointX 方法
+# GetTopPointX 方法 (Selection ��H)
 
 返回選定內容頂部的列號。
 

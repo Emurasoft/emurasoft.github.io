@@ -1,4 +1,4 @@
-# Item 屬性
+# Item 屬性 (CharacterRanges ���X)
 
 為指定索引檢索 [**CharacterRange** 對象](../character_range/index)。
 

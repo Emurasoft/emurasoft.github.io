@@ -1,4 +1,4 @@
-# EndOfDocument Method
+# EndOfDocument Method (Selection Object)
 
 Moves the cursor to the end of the document.
 

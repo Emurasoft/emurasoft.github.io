@@ -1,4 +1,4 @@
-# Width Property
+# Width Property (Window Object)
 
 Returns or sets the width of the window.
 

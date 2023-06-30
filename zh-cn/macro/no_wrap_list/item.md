@@ -1,4 +1,4 @@
-# Item 属性
+# Item 属性 (NoWrapList ����)
 
 为指定索引检索 [NoWrapItem 对象](../no_wrap_item/index)。
 

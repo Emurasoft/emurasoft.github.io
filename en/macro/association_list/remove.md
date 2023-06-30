@@ -1,4 +1,4 @@
-# Remove Method
+# Remove Method (AssociationList Collection)
 
 Removes an item.
 

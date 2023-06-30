@@ -1,4 +1,4 @@
-# Clear Method
+# Clear Method (OutputBar Object)
 
 Clears the contents of the output bar.
 

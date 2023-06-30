@@ -1,4 +1,4 @@
-# ClearBookmark Method
+# ClearBookmark Method (Selection Object)
 
 Clears a bookmark on the current line.
 

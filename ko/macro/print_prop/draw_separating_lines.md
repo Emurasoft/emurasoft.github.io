@@ -1,4 +1,4 @@
-# DrawSeparatingLines 속성
+# DrawSeparatingLines 속성 (PrintProp ��ü)
 
 구성 속성 [**인쇄** 탭](../../dlg/properties/print/index) 의 **구분 선 그리기** 체크 박스에 해당합니다.
 

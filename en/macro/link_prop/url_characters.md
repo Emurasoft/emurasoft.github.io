@@ -1,4 +1,4 @@
-# URLCharacters Property
+# URLCharacters Property (LinkProp Object)
 
 Corresponds to the **Recognize**
 **These Characters** text box in the

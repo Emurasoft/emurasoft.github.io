@@ -1,4 +1,4 @@
-# GetAnchorPointY Method
+# GetAnchorPointY Method (Selection Object)
 
 Returns the line number of the origin point of the selection.
 

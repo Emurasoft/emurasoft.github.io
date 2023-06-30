@@ -1,4 +1,4 @@
-# File 속성
+# File 속성 (Config ��ü)
 
 [FileProp 개체](../file_prop/index) 를 검색합니다.
 

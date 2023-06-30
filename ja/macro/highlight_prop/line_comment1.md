@@ -1,4 +1,4 @@
-# LineComment1 プロパティ
+# LineComment1 プロパティ (HighlightProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[行コメント\] テキスト ボックスに相当します。
 

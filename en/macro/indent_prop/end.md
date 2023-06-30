@@ -1,4 +1,4 @@
-# End Property
+# End Property (IndentProp Object)
 
 Corresponds to the **End**
 **Indent** text box in the

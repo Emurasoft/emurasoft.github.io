@@ -1,4 +1,4 @@
-# SetBookmark Method
+# SetBookmark Method (Selection Object)
 
 Sets a bookmark at the cursor position.
 

@@ -1,4 +1,4 @@
-# SetCell 方法
+# SetCell 方法 (Document ����)
 
 在 CSV 模式下指定的单元格中设置文本。
 

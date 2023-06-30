@@ -1,4 +1,4 @@
-# DeleteDuplicates Method
+# DeleteDuplicates Method (Document Object)
 
 Deletes duplicate lines, or sets bookmarks on duplicate lines.
 

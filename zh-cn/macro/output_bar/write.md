@@ -1,4 +1,4 @@
-# write 方法
+# write 方法 (OutputBar ����)
 
 追加一个字符串到输出栏上。
 

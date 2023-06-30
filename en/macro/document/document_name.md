@@ -1,4 +1,4 @@
-# Name Property
+# Name Property (Document Object)
 
 Retrieves the file name of the document without its path, or renames the file name of the document. If the document is untitled, renames the document title without saving the file.
 

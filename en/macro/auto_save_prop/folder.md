@@ -1,4 +1,4 @@
-# Folder Property
+# Folder Property (AutoSaveProp Object)
 
 Corresponds to the **Auto**
 **Save Folder** text box in the

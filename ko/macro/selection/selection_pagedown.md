@@ -1,4 +1,4 @@
-# PageDown 메서드
+# PageDown 메서드 (Selection ��ü)
 
 문서 내에서 지정한 페이지 수만큼 아래로 커서를 이동합니다.
 

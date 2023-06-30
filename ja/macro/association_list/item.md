@@ -1,4 +1,4 @@
-# Item プロパティ
+# Item プロパティ (AssociationList �R���N�V����)
 
 指定したインデックスの [AssociationItem オブジェクト](../association_item/index) を取得します。
 

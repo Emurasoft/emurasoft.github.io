@@ -1,4 +1,4 @@
-# Style 屬性
+# Style 屬性 (DisplayItem ��H)
 
 指定對象的樣式。
 

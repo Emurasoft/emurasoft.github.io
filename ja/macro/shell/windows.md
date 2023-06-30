@@ -1,4 +1,4 @@
-# Windows プロパティ
+# Windows プロパティ ()
 
 トップ レベルの Windows コレクションを返します。
 

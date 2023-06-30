@@ -1,4 +1,4 @@
-# Reset Method
+# Reset Method (FuzzyOptions Object)
 
 Resets the fuzzy options to default values.
 

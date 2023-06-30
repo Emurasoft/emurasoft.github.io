@@ -1,4 +1,4 @@
-# ShowSpaces 屬性
+# ShowSpaces 屬性 (MarkProp ��H)
 
 與組態屬性中 [**標記** 頁面](../../dlg/properties/marks/index) 上的 **顯示空格** 核取方塊相對應。
 

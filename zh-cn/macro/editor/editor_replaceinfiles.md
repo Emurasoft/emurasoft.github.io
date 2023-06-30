@@ -1,4 +1,4 @@
-# ReplaceInFiles 方法
+# ReplaceInFiles 方法 (Editor ����)
 
 在多个文件中替换文本。
 

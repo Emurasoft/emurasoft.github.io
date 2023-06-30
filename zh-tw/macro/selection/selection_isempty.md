@@ -1,4 +1,4 @@
-# IsEmpty 屬性
+# IsEmpty 屬性 (Selection ��H)
 
 表示活動點是否與錨點相同。
 

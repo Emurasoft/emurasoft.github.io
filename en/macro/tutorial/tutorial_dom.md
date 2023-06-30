@@ -1,4 +1,4 @@
-# Specifications of Macro (Document Object Model)
+# Specifications of Macro (Document Object Model) (Tutorial)
 
 In the specifications of the EmEditor macro Document Object Model (DOM), **[Window Object](../window/index)**
 is the current scope. In other words, properties and methods without explicit scope refer

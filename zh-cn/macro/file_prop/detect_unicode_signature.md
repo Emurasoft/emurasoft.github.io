@@ -1,4 +1,4 @@
-# DetectUnicodeSignature 属性
+# DetectUnicodeSignature 属性 (FileProp ����)
 
 与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **检测 Unicode 签名 (BOM)** 复选框相对应。
 

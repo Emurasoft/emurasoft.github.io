@@ -1,4 +1,4 @@
-# selection 属性
+# selection 属性 (Document ����)
 
 检索 [Selection 对象](../selection/index)。
 

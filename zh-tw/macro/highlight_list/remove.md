@@ -1,4 +1,4 @@
-# Remove 方法
+# Remove 方法 (HighlightList ���X)
 
 刪除一個項目。
 

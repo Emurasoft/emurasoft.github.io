@@ -1,4 +1,4 @@
-# Kinsoku Property
+# Kinsoku Property (WrapProp Object)
 
 Corresponds to the **Wrap**
 **These Characters** check box in the

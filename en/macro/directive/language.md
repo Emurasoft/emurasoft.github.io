@@ -1,4 +1,4 @@
-# \#language directive
+# \#language directive (Script Directives)
 
 Specifies the scripting language to use. By specifying this, ActiveScript languages other than JavaScript and VBScript can be used. This directive must be specified at the first lines of the script above the main code.
 

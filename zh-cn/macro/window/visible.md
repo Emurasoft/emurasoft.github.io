@@ -1,4 +1,4 @@
-# Visible 属性
+# Visible 属性 (Window ����)
 
 返回是否窗口可见。
 

@@ -1,4 +1,4 @@
-# HideQuotes 屬性
+# HideQuotes 屬性 (Document ��H)
 
 檢索或設定一個標志，該標志指示在 CSV 儲存格選擇模式下是否啟用了「隱藏引號」顯示畫面。
 

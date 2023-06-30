@@ -1,4 +1,4 @@
-# Flags 屬性
+# Flags 屬性 (Filter ��H)
 
 指定下列值的組合。
 

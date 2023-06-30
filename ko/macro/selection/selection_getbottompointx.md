@@ -1,4 +1,4 @@
-# GetBottomPointX 메서드
+# GetBottomPointX 메서드 (Selection ��ü)
 
 선택 영역의 하단의 열 번호를 반환합니다.
 

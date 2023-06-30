@@ -1,4 +1,4 @@
-# GoToBrace メソッド
+# GoToBrace メソッド ()
 
 対応するかっこへ移動します。
 

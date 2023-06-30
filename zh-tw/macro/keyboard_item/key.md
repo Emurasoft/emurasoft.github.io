@@ -1,4 +1,4 @@
-# Key 屬性
+# Key 屬性 (KeyboardItem ��H)
 
 指定對象的按鍵。
 

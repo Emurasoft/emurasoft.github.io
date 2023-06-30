@@ -1,4 +1,4 @@
-# FindWindowByID Method
+# FindWindowByID Method (Window Object)
 
 Finds the child window object by the window identifier.
 

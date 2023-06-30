@@ -1,4 +1,4 @@
-# ShowLineNumbers Property
+# ShowLineNumbers Property (PrintProp Object)
 
 Corresponds to the **Print**
 **Line Numbers** check box in the

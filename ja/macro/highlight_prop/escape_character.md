@@ -1,4 +1,4 @@
-# EscapeCharacter プロパティ
+# EscapeCharacter プロパティ (HighlightProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の \[引用符に囲まれた文字列\] グループ \- \[エスケープ文字\] テキスト ボックスに相当します。
 

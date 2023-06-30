@@ -1,4 +1,4 @@
-# IgnoreAfter 속성
+# IgnoreAfter 속성 (IndentProp ��ü)
 
 [**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 의 **(정규식) 다음 무시** 텍스트 박스에 해당합니다.
 

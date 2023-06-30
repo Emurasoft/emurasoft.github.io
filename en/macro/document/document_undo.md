@@ -1,4 +1,4 @@
-# Undo Method
+# Undo Method (Document Object)
 
 Undo the last action.
 

@@ -1,4 +1,4 @@
-# SelectWord 메서드
+# SelectWord 메서드 (Selection ��ü)
 
 커서 위치에 단어 전체를 선택합니다.
 

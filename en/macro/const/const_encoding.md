@@ -1,4 +1,4 @@
-# Encoding Constants
+# Encoding Constants (Constants)
 
 |     |     |
 | --- | --- |

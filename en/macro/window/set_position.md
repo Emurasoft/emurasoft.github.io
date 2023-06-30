@@ -1,4 +1,4 @@
-# SetPosition Method
+# SetPosition Method (Window Object)
 
 Sets the size and position of the window.
 

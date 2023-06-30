@@ -1,4 +1,4 @@
-# LineSpace Property
+# LineSpace Property (DisplayProp Object)
 
 Corresponds to the **Line**
 **Space** text box in the

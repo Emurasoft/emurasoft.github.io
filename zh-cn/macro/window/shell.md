@@ -1,4 +1,4 @@
-# shell 属性
+# shell 属性 (Window ����)
 
 返回 [**Shell** 对象](../shell/index)。
 

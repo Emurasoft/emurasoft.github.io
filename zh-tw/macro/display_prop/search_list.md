@@ -1,4 +1,4 @@
-# SearchList 屬性
+# SearchList 屬性 (DisplayProp ��H)
 
 為搜索顏色清單檢索 [DisplayList 集合](../display_list/index)。
 

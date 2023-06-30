@@ -1,4 +1,4 @@
-# MarginNormal 屬性
+# MarginNormal 屬性 (GeneralProp ��H)
 
 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **標準行邊距** 文字方塊相對應。
 

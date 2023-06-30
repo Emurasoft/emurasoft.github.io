@@ -1,4 +1,4 @@
-# FindWindow 方法
+# FindWindow 方法 (Window ����)
 
 通过类名和/或一个窗口标题查找子 [Window 对象](../window/index)。
 

@@ -1,4 +1,4 @@
-# Run Macro
+# Run Macro (Tutorial)
 
 When you save a macro file, the macro becomes the default macro file, and thus, will be loaded the next time
 you select the [**Run Macro**\

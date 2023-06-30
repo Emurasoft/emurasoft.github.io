@@ -1,4 +1,4 @@
-# QueryStatusByID 메서드
+# QueryStatusByID 메서드 (Editor ��ü)
 
 활성화되고 있으며 선택되어 있는지 지정된 명령의 현재 상태를 검색합니다.
 

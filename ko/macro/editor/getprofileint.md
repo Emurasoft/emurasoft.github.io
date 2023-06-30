@@ -1,4 +1,4 @@
-# GetProfileInt 메서드
+# GetProfileInt 메서드 (Editor ��ü)
 
 엠에디터의 설정에 따라 레지스트리 또는 INI 파일로부터 지정된 엔트리의 정수 값을 검색합니다.
 

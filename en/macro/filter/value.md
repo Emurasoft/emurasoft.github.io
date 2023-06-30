@@ -1,4 +1,4 @@
-# Value Property
+# Value Property (Filter Object)
 
 Specifies a string to search for.
 

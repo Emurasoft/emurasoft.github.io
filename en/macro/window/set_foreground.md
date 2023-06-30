@@ -1,4 +1,4 @@
-# SetForeground Method
+# SetForeground Method (Window Object)
 
 Brings the window to foreground.
 

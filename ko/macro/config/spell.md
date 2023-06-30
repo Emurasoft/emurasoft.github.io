@@ -1,4 +1,4 @@
-# Spell 속성
+# Spell 속성 (Config ��ü)
 
 [SpellProp 개체](../spell_prop/index) 를 검색합니다.
 

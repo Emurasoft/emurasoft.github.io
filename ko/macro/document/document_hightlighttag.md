@@ -1,4 +1,4 @@
-# HighlightTag 속성
+# HighlightTag 속성 (Document ��ü)
 
 태그를 강조 표시 할자의 여부를 결정합니다.
 

@@ -1,4 +1,4 @@
-# ForegroundWindow プロパティ
+# ForegroundWindow プロパティ ()
 
 現在のフォアグラウンド ウィンドウを取得します。
 

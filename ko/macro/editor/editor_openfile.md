@@ -1,4 +1,4 @@
-# OpenFile 메서드
+# OpenFile 메서드 (Editor ��ü)
 
 기존 파일을 엽니다.
 

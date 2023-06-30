@@ -1,4 +1,4 @@
-# List 屬性
+# List 屬性 (HighlightProp ��H)
 
 檢索 [**HighlightList** 集合](../highlight_list/index)。
 

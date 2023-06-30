@@ -1,4 +1,4 @@
-# filters プロパティ
+# filters プロパティ ()
 
 [Filters コレクション](../filters/index) を取得、または設定します。
 

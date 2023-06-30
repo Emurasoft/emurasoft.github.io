@@ -1,4 +1,4 @@
-# \#tooltip directive
+# \#tooltip directive (Script Directives)
 
 Specifies the tooltip string displayed when a mouse is placed on the toolbar button. This directive must be specified at the first lines of the script above the main code.
 

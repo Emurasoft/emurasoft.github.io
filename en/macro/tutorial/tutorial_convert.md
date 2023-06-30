@@ -1,4 +1,4 @@
-# Convert Character in Selection Range
+# Convert Character in Selection Range (Tutorial)
 
 To convert characters in Selection Range, add the seventh line to our Tutorial macro:
 

@@ -1,4 +1,4 @@
-# FullName Property
+# FullName Property (Document Object)
 
 Retrieves the complete path and the file name of the document.
 

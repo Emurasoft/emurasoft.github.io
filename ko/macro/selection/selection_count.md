@@ -1,4 +1,4 @@
-# Count 속성
+# Count 속성 (Selection ��ü)
 
 현재 문서에서 선택된 영역의 수를 검색합니다.
 

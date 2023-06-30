@@ -1,4 +1,4 @@
-# ClearBookmark メソッド
+# ClearBookmark メソッド ()
 
 現在行のブックマークを解除します。
 

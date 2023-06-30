@@ -1,4 +1,4 @@
-# BatchFind Method
+# BatchFind Method (Selection Object)
 
 Searches for multiple strings.
 

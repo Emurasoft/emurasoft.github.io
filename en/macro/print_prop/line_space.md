@@ -1,4 +1,4 @@
-# LineSpace Property
+# LineSpace Property (PrintProp Object)
 
 Corresponds to the **Space**
 **Between Lines** text box in the

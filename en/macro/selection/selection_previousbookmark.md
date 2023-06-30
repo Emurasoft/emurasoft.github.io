@@ -1,4 +1,4 @@
-# PreviousBookmark Method
+# PreviousBookmark Method (Selection Object)
 
 Moves to the previous bookmark in the document.
 

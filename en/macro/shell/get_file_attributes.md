@@ -1,4 +1,4 @@
-# GetFileAttributes Method
+# GetFileAttributes Method (Shell Object)
 
 Returns the attributes of a specified file or folder.
 

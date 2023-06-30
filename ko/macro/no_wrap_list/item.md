@@ -1,4 +1,4 @@
-# Item 속성
+# Item 속성 (NoWrapList �÷���)
 
 지정된 인덱스를 위한 [NoWrapItem 개체](../no_wrap_item/index) 를 검색합니다.
 

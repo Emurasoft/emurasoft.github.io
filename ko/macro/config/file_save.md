@@ -1,4 +1,4 @@
-# FileSave 속성
+# FileSave 속성 (Config ��ü)
 
 [FileSaveProp 개체](../file_save_prop/index) 를 검색합니다.
 

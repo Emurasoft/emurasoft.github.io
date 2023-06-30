@@ -1,4 +1,4 @@
-# Average 屬性
+# Average 屬性 (Selection ��H)
 
 檢索所選內容中包含的數字的平均值。
 

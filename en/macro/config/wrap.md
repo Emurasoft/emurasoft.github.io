@@ -1,4 +1,4 @@
-# Wrap Property
+# Wrap Property (Config Object)
 
 Retrieves the [WrapProp object](../wrap_prop/index).
 

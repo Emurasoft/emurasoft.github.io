@@ -1,4 +1,4 @@
-# Font 속성
+# Font 속성 (Config ��ü)
 
 [FontProp 개체](../font_prop/index) 를 검색합니다.
 

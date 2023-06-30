@@ -1,4 +1,4 @@
-# MsgBox Method
+# MsgBox Method (PopupMenu Object)
 
 Displays the dialog box based on the information provided by the object, and retrieves the identifier of the selected button, radio button, or command link. This method ignores separator items and submenus.
 

@@ -1,4 +1,4 @@
-# filters Property
+# filters Property (Document Object)
 
 Retrieves or sets the [**Filters** Collection](../filters/index).
 

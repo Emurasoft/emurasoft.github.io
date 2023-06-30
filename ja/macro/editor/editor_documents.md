@@ -1,4 +1,4 @@
-# Documents プロパティ
+# Documents プロパティ ()
 
 現在開いている文書のコレクションを示す [Documents コレクション](../documents/index) を返します。
 

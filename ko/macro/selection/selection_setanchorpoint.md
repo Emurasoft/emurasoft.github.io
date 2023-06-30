@@ -1,4 +1,4 @@
-# SetAnchorPoint 메서드
+# SetAnchorPoint 메서드 (Selection ��ü)
 
 선택 영역의 원점을 설정합니다.
 

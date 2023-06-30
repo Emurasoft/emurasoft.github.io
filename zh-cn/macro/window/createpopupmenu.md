@@ -1,4 +1,4 @@
-# CreatePopupMenu 方法
+# CreatePopupMenu 方法 (Window ����)
 
 创建一个弹出菜单。
 

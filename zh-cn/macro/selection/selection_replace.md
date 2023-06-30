@@ -1,4 +1,4 @@
-# Replace 方法
+# Replace 方法 (Selection ����)
 
 在文档中替换一个字符串。
 

@@ -1,4 +1,4 @@
-# Untabify Method
+# Untabify Method (Selection Object)
 
 Converts tabs to spaces in the selection.
 

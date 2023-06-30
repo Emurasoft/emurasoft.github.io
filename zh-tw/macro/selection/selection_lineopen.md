@@ -1,4 +1,4 @@
-# LineOpen 方法
+# LineOpen 方法 (Selection ��H)
 
 在兩行之間插入一個空行。
 

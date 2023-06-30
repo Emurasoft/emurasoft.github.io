@@ -1,4 +1,4 @@
-# DeleteFolder Method
+# DeleteFolder Method (Shell Object)
 
 Deletes one or more specified folders and their contents. The specified folder is deleted even if it is not empty.
 

@@ -1,4 +1,4 @@
-# Folder プロパティ
+# Folder プロパティ (BackupProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の
 **\[バックアップ フォルダ\]** テキスト ボックスに相当します。

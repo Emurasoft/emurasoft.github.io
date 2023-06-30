@@ -1,4 +1,4 @@
-# Color 속성
+# Color 속성 (HighlightItem ��ü)
 
 개체의 색상을 지정합니다.
 

@@ -1,4 +1,4 @@
-# confirm Method
+# confirm Method (Window Object)
 
 Displays a message in a simple dialog box with the OK button and the Cancel
 button.

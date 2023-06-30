@@ -1,4 +1,4 @@
-# Keyboard Property
+# Keyboard Property (Config Object)
 
 Retrieves the [KeyboardProp object](../keyboard_prop/index).
 

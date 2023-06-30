@@ -1,4 +1,4 @@
-# PageUp 方法
+# PageUp 方法 (Selection ��H)
 
 在文檔中，把游標上移指定的頁數。
 

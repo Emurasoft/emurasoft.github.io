@@ -1,4 +1,4 @@
-# FolderExists メソッド
+# FolderExists メソッド ()
 
 指定するフォルダが存在すれば true を、存在しなければ false を返します。
 

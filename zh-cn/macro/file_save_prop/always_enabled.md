@@ -1,4 +1,4 @@
-# AlwaysEnabled 属性
+# AlwaysEnabled 属性 (FileSaveProp ����)
 
 与 [**保存详细信息** 对话框](../../dlg/properties/file/save_details/index) 中的 **总是启用保存** 复选框相对应。
 

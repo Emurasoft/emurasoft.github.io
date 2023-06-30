@@ -1,4 +1,4 @@
-# Test Method
+# Test Method (Regex Object)
 
 Tests the regular expression is successfully matched against the specified string.
 

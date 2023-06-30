@@ -1,4 +1,4 @@
-# CharRight 方法
+# CharRight 方法 (Selection ����)
 
 把光标向右移动指定的字符数。
 

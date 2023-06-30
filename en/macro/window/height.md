@@ -1,4 +1,4 @@
-# Height Property
+# Height Property (Window Object)
 
 Returns or sets the height of the window.
 

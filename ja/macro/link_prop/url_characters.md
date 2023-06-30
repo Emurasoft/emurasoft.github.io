@@ -1,4 +1,4 @@
-# URLCharacters プロパティ
+# URLCharacters プロパティ (LinkProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[リンク\]** タブ](../../dlg/properties/link/index) の
 **\[認識する文字\]** テキスト ボックスに相当します。

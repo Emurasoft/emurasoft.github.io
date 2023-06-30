@@ -1,4 +1,4 @@
-# GetFileAttributes 方法
+# GetFileAttributes 方法 (Shell ����)
 
 返回指定文件或文件夹的属性。
 

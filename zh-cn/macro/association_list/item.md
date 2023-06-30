@@ -1,4 +1,4 @@
-# Item 属性
+# Item 属性 (AssociationList ����)
 
 为指定索引检索 [AssociationItem 对象](../association_item/index)。
 

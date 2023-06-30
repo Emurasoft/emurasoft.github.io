@@ -1,4 +1,4 @@
-# Collapse 方法
+# Collapse 方法 (Selection ��H)
 
 折疊所選的部分到活動點。
 

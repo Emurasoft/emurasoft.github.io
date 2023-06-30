@@ -1,4 +1,4 @@
-# List Property
+# List Property (HighlightProp Object)
 
 Retrieves the [HighlightList Collection](../highlight_list/index).
 

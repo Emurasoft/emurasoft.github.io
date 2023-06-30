@@ -1,4 +1,4 @@
-# ReadOnly 속성
+# ReadOnly 속성 (Document ��ü)
 
 문서의 읽기 전용 상태를 설정합니다.
 

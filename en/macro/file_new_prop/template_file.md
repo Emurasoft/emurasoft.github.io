@@ -1,4 +1,4 @@
-# TemplateFile Property
+# TemplateFile Property (FileNewProp Object)
 
 Corresponds to the **Template**
 **File** text box in the

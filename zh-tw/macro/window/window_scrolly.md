@@ -1,4 +1,4 @@
-# scrollY 屬性
+# scrollY 屬性 (Window ��H)
 
 返回捲軸的垂直位置。
 

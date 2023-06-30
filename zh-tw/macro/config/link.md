@@ -1,4 +1,4 @@
-# Link 屬性
+# Link 屬性 (Config ��H)
 
 檢索 [LinkProp 對象](../link_prop/index)。
 

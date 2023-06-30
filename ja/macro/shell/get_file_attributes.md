@@ -1,4 +1,4 @@
-# GetFileAttributes メソッド
+# GetFileAttributes メソッド ()
 
 指定するファイルまたはフォルダの属性を返します。
 

@@ -1,4 +1,4 @@
-# LogicalToView 方法
+# LogicalToView 方法 (Document ����)
 
 将指定位置的逻辑坐标转换为显示坐标，并检索 [**Point** 对象](../point/index) 中的位置。
 

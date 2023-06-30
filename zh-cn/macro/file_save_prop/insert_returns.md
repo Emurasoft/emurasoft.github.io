@@ -1,4 +1,4 @@
-# InsertReturns 属性
+# InsertReturns 属性 (FileSaveProp ����)
 
 与 [**保存详细信息** 对话框](../../dlg/properties/file/save_details/index) 中的 **保存时自动换行** 复选框相对应。
 

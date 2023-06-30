@@ -1,4 +1,4 @@
-# MoveCursorScroll Property
+# MoveCursorScroll Property (ScrollProp Object)
 
 Corresponds to the **Move Cursor by Scrolling** check box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 

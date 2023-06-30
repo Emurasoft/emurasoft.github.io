@@ -1,4 +1,4 @@
-# TextColor Property
+# TextColor Property (DisplayItem Object)
 
 Specifies the background color of the object.
 

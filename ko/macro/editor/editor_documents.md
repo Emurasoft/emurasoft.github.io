@@ -1,4 +1,4 @@
-# Documents 속성
+# Documents 속성 (Editor ��ü)
 
 현재 열려있는 문서를 위한 [Documents 컬렉션](../documents/index) 을 검색합니다.
 

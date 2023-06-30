@@ -1,4 +1,4 @@
-# DisplayList 属性
+# DisplayList 属性 (FontProp ����)
 
 检索 FontList 对象。
 

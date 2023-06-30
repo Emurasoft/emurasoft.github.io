@@ -1,4 +1,4 @@
-# BookmarkCount 屬性
+# BookmarkCount 屬性 (Document ��H)
 
 檢索文檔中的書籤數。
 

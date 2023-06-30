@@ -1,4 +1,4 @@
-# ShowSpaces Property
+# ShowSpaces Property (MarkProp Object)
 
 Corresponds to the **Show**
 **Spaces** check box in the

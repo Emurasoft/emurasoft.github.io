@@ -1,4 +1,4 @@
-# ValidateCsv Method
+# ValidateCsv Method (Document Object)
 
 Validates the CSV document and output errors, and optionally adjusts separator positions.
 

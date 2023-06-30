@@ -8,19 +8,44 @@
     <script src="{{ pathto('_static/js/petite-vue.js', 1) }}"></script>
 
     <script>
-        window.addEventListener("load", () => {
+        document.addEventListener("DOMContentLoaded", () => {
             // Replace <pro /> and <profree /> tags
-            for (const element of document.querySelectorAll(".pro")) {
+            const proTitle = `
+                {% if language == "en" %}
+                    EmEditor Professional only
+                {% elif language == "ja" %}
+                    EmEditor Professional のみ
+                {% elif language == "ko" %}
+                {% elif language == "zh_CN" %}
+                    仅限 EmEditor 专业版
+                {% elif language == "zh_TW" %}
+                    僅限 EmEditor 專業版
+                {% endif %}
+            `;
+            const proFreeTitle = `
+                {% if language == "en" %}
+                    EmEditor Professional and EmEditor Free
+                {% elif language == "ja" %}
+                    EmEditor Professional と EmEditor Free
+                {% elif language == "ko" %}
+                {% elif language == "zh_CN" %}
+                    仅限 EmEditor 专业版
+                {% elif language == "zh_TW" %}
+                    EmEditor 專業版和 EmEditor 免費版
+                {% endif %}
+            `;
+
+            for (const element of document.querySelectorAll("pro")) {
                 element.textContent = "[P]";
-                element.setAttribute("title", "EmEditor Professional only");
+                element.setAttribute("title", proTitle.trim());
                 element.style.verticalAlign = "super";
                 element.style.fontSize = "smaller";
                 element.style.cursor = "help";
             }
 
-            for (const element of document.querySelectorAll(".profree")) {
+            for (const element of document.querySelectorAll("profree")) {
                 element.textContent = "[PF]";
-                element.setAttribute("title", "EmEditor Professional and EmEditor Free");
+                element.setAttribute("title", proFreeTitle.trim());
                 element.style.verticalAlign = "super";
                 element.style.fontSize = "smaller";
                 element.style.cursor = "help";
@@ -170,7 +195,7 @@
     </div>
 
     <script>
-        window.addEventListener("load", () => {
+        document.addEventListener("DOMContentLoaded", () => {
             // Scroll toctree to current page
             // Last item in array is current page
             const elements = document.querySelectorAll("li.current");
@@ -179,8 +204,10 @@
             }
         });
     </script>
-
-    {{ super() }}
+	
+	<article>
+    	{{ super() }}
+    </article>
 {% endblock %}
 
 

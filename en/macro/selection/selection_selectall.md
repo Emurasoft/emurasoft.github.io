@@ -1,4 +1,4 @@
-# SelectAll Method
+# SelectAll Method (Selection Object)
 
 Selects the entire document.
 

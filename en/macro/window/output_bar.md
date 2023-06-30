@@ -1,4 +1,4 @@
-# OutputBar Property
+# OutputBar Property (Window Object)
 
 Returns the [OutputBar Object](../output_bar/index).
 

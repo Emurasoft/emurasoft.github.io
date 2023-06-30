@@ -1,4 +1,4 @@
-# NotepadDiary 属性
+# NotepadDiary 属性 (FileProp ����)
 
 与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **创建与记事本兼容的日志文件** 复选框相对应。
 

@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (HighlightList Collection)
 
 Retrieves the [HighlightItem object](../highlight_item/index) for the specified index.
 

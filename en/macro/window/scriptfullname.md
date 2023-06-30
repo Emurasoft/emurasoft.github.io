@@ -1,4 +1,4 @@
-# ScriptFullName Property
+# ScriptFullName Property (Window Object)
 
 Retrieves the complete path and file name of the currently running macro file.
 

@@ -1,4 +1,4 @@
-# Item 屬性
+# Item 屬性 (HighlightList ���X)
 
 為指定索引檢索 [HighlightItem 對象](../highlight_item/index)。
 

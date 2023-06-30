@@ -1,4 +1,4 @@
-# AlwaysEnabled Property
+# AlwaysEnabled Property (FileSaveProp Object)
 
 Corresponds to the **Always Enable Saving** check box in the
 [**Save Details** dialog box](../../dlg/properties/file/save_details/index).

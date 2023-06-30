@@ -1,4 +1,4 @@
-# EndOfDocument 方法
+# EndOfDocument 方法 (Selection ����)
 
 把光标移到文档末尾。
 

@@ -1,4 +1,4 @@
-# clearData メソッド
+# clearData メソッド ()
 
 クリップボードを空にします。
 

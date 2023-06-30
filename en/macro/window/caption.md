@@ -1,4 +1,4 @@
-# Caption Property
+# Caption Property (Window Object)
 
 Returns the caption text for the window.
 

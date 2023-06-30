@@ -1,4 +1,4 @@
-# Add Method
+# Add Method (PopupMenu Object)
 
 Adds a new item to the end of the menu.
 

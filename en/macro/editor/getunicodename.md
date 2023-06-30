@@ -1,4 +1,4 @@
-# GetUnicodeName Method
+# GetUnicodeName Method (Editor Object)
 
 Retrieves the Unicode name of the specified character or string.
 

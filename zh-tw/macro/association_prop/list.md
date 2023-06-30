@@ -1,4 +1,4 @@
-# List 屬性
+# List 屬性 (AssociationProp ��H)
 
 檢索 [AssociationList 對象](../association_list/index)。
 

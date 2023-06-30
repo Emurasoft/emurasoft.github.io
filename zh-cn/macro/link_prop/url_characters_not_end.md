@@ -1,4 +1,4 @@
-# URLCharactersNotEnd 属性
+# URLCharactersNotEnd 属性 (LinkProp ����)
 
 与配置属性中 [**链接** 页面](../../dlg/properties/link/index) 上的 **行末不允许的字符** 复选框相对应。
 

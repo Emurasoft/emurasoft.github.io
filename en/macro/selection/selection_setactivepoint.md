@@ -1,4 +1,4 @@
-# SetActivePoint Method
+# SetActivePoint Method (Selection Object)
 
 Sets the cursor position.
 

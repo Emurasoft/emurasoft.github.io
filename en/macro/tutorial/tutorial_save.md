@@ -1,4 +1,4 @@
-# Save Macro
+# Save Macro (Tutorial)
 
 To save a macro, select the [**Save Macro** command](../../cmd/macros/macro_save). The **Save As** dialog box should appear. EmEditor defaults to the My Macrosfolder under the My Documents folder. To change the default folder,
 select the **[Customize Macros](../../cmd/macros/customize_macro)** [command](../../cmd/macros/customize_macro) **,** then go to the [**Options**\

@@ -1,4 +1,4 @@
-# CrLfDifferent Property
+# CrLfDifferent Property (MarkProp Object)
 
 Corresponds to the **Show**
 **CR and LF with Different Marks** check box in the

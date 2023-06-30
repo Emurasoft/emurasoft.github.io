@@ -1,4 +1,4 @@
-# CurrentDirectory 属性
+# CurrentDirectory 属性 (OutputBar ����)
 
 为输出栏设置当前目录。这个信息是必需的如果文本包含只能从当前目录跳至的相对路径。
 

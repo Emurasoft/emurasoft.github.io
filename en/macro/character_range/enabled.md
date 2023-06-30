@@ -1,4 +1,4 @@
-# Enabled Property
+# Enabled Property (CharacterRange Object)
 
 Specifies the flag indicating whether the object is enabled.
 

@@ -1,4 +1,4 @@
-# Mark 属性
+# Mark 属性 (Config ����)
 
 检索 [MarkProp 对象](../mark_prop/index)。
 

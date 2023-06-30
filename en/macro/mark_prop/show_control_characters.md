@@ -1,4 +1,4 @@
-# ShowControlCharacters Property
+# ShowControlCharacters Property (MarkProp Object)
 
 Corresponds to the **Show**
 **Control Characters** check box in the

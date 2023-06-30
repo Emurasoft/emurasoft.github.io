@@ -1,4 +1,4 @@
-# GetActivePointX 方法
+# GetActivePointX 方法 (Selection ��H)
 
 返回游標位置處的列號。
 

@@ -1,4 +1,4 @@
-# DisplayList 속성
+# DisplayList 속성 (FontProp ��ü)
 
 FontList 개체를 검색합니다.
 

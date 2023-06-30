@@ -1,4 +1,4 @@
-# ShowOnlyActive 屬性
+# ShowOnlyActive 屬性 (ScrollProp ��H)
 
 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **只在活動窗格中顯示捲軸** 核取方塊相對應。
 

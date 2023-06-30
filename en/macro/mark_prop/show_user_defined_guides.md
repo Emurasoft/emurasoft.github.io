@@ -1,4 +1,4 @@
-# ShowUserDefinedGuides Property
+# ShowUserDefinedGuides Property (MarkProp Object)
 
 Corresponds to the **Show User-Defined Guides** check box in the [**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
 

@@ -1,4 +1,4 @@
-# filters Property
+# filters Property (Editor Object)
 
 Retrieves the [Filters collection](../filters/index).
 

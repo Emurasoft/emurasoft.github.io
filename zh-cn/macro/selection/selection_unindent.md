@@ -1,4 +1,4 @@
-# UnIndent 方法
+# UnIndent 方法 (Selection ����)
 
 按指定的缩进等级数从被选取的文本中删除缩进。
 

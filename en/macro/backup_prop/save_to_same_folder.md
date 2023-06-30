@@ -1,4 +1,4 @@
-# SaveToSameFolder Property
+# SaveToSameFolder Property (BackupProp Object)
 
 Corresponds to the **Save**
 **Backups to the Same Folder** check box in the

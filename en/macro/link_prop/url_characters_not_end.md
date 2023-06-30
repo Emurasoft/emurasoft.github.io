@@ -1,4 +1,4 @@
-# URLCharactersNotEnd Property
+# URLCharactersNotEnd Property (LinkProp Object)
 
 Corresponds to the **Characters**
 **Not Allowed at End** text box in the

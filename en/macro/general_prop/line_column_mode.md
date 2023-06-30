@@ -1,4 +1,4 @@
-# LineColumnMode Property
+# LineColumnMode Property (GeneralProp Object)
 
 Corresponds to the **Line**
 **and Column Display as drop-down** list box in the

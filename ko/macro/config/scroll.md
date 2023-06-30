@@ -1,4 +1,4 @@
-# Scroll 속성
+# Scroll 속성 (Config ��ü)
 
 [ScrollProp 개체](../scroll_prop/index) 를 검색합니다.
 

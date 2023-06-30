@@ -1,4 +1,4 @@
-# UnicodeSignature 繝励Ο繝代ユ繧｣
+# UnicodeSignature 繝励Ο繝代ユ繧｣ (FileSaveProp オブジェクト)
 
 **\[菫晏ｭ俶凾縺ｮ隧ｳ邏ｰ\]** 繝繧､繧｢繝ｭ繧ｰ 繝懊ャ繧ｯ繧ｹ縺ｮ **\[Unicode繧ｵ繧､繝ｳ(BOM)繧剃ｻ倥￠繧欺]** 繝√ぉ繝�繧ｯ 繝懊ャ繧ｯ繧ｹ縺ｫ逶ｸ蠖薙＠縺ｾ縺吶�
 

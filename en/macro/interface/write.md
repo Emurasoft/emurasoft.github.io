@@ -1,4 +1,4 @@
-# write Method
+# write Method (Interface Object)
 
 Passes a string to a supported plug-in.
 

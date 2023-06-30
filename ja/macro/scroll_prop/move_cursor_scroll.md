@@ -1,4 +1,4 @@
-# MoveCursorScroll プロパティ
+# MoveCursorScroll プロパティ (ScrollProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の **\[スクロールでカーソルも移動\]** チェック ボックスに相当します。
 

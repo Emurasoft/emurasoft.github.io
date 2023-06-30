@@ -1,4 +1,4 @@
-# UnicodeSignature 属性
+# UnicodeSignature 属性 (FileSaveProp ����)
 
 与 [**添加一个 Unicode 签名 (BOM)** 复选框](../../dlg/properties/file/save_details/index) 相对应。
 

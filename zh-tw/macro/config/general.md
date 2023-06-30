@@ -1,4 +1,4 @@
-# General 屬性
+# General 屬性 (Config ��H)
 
 檢索 [GeneralProp 對象](../general_prop/index)。
 

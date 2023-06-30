@@ -1,4 +1,4 @@
-# Enabled Property
+# Enabled Property (AutoSaveProp Object)
 
 Corresponds to the **Auto**
 **Save** check box in the [**Auto Save** page](../../dlg/properties/autosave/index) of Configuration Properties.

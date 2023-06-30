@@ -1,4 +1,4 @@
-# List 속성
+# List 속성 (NoWrapProp ��ü)
 
 [NoWrapList 컬렉션](../no_wrap_list/index) 을 검색합니다.
 

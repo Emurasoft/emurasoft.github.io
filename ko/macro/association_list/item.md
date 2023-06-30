@@ -1,4 +1,4 @@
-# Item 속성
+# Item 속성 (AssociationList �÷���)
 
 지정된 인덱스의 [AssociationItem 개체](../association_item/index) 를 검사합니다.
 

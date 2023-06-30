@@ -1,4 +1,4 @@
-# scrollBy 方法
+# scrollBy 方法 (Window ����)
 
 通过指定的相对数量滚动窗口。
 

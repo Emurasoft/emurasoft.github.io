@@ -1,4 +1,4 @@
-# Find 메서드
+# Find 메서드 (Selection ��ü)
 
 지정된 문자열을 검색합니다.
 

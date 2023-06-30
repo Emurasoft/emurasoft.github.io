@@ -1,4 +1,4 @@
-# Backup 속성
+# Backup 속성 (Config ��ü)
 
 [BackupProp 개체](../backup_prop/index) 를 검색합니다.
 

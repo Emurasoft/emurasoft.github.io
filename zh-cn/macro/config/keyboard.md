@@ -1,4 +1,4 @@
-# Keyboard 属性
+# Keyboard 属性 (Config ����)
 
 检索 [KeyboardProp 对象](../keyboard_prop/index)。
 

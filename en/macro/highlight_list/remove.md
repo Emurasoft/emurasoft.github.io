@@ -1,4 +1,4 @@
-# Remove Method
+# Remove Method (HighlightList Collection)
 
 Removes an item.
 

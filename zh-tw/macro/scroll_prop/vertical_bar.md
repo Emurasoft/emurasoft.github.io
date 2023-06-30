@@ -1,4 +1,4 @@
-# VerticalBar 屬性
+# VerticalBar 屬性 (ScrollProp ��H)
 
 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **垂直捲軸** 下拉清單方塊相對應。
 

@@ -1,4 +1,4 @@
-# ThreadID Property
+# ThreadID Property (Window Object)
 
 Returns the identifier of the thread that created the window.
 

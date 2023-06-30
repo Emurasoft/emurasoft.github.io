@@ -1,4 +1,4 @@
-# Count Property
+# Count Property (HighlightList Collection)
 
 Retrieves the number of items.
 

@@ -1,4 +1,4 @@
-#### [Editor Home](https://www.emeditor.com/) - [EmEditor Help](../../index) \- [EmEditor Macro Reference](../index) \- [Document Object](index)
+#### [Editor Home](https://www.emeditor.com/) - [EmEditor Help](../../index) \- [EmEditor Macro Reference](../index) \- [Document Object](index) (Document Object)
 
 # BookmarkCount Property
 

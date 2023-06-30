@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (CsvList Collection)
 
 Retrieves the [**Csv** object](../csv/index) of the specified index.
 

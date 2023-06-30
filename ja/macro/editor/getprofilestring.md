@@ -1,4 +1,4 @@
-# GetProfileString メソッド
+# GetProfileString メソッド ()
 
 EmEditor の設定に応じて、レジストリまたは INI ファイルから、指定する文字列値を取得します。
 

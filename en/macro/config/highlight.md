@@ -1,4 +1,4 @@
-# Highlight Property
+# Highlight Property (Config Object)
 
 Retrieves the [HighlightProp object](../highlight_prop/index).
 

@@ -1,4 +1,4 @@
-# writeln 方法
+# writeln 方法 (Interface ��H)
 
 把一個字串和新行傳遞到一個支持的外掛程式中。
 

@@ -1,4 +1,4 @@
-# QueryStringByID Method
+# QueryStringByID Method (Editor Object)
 
 Retrieves the string associated with the specified command.
 

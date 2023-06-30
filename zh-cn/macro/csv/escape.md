@@ -1,4 +1,4 @@
-# Escape 属性
+# Escape 属性 (Csv ����)
 
 与在自定义对话框中 [**CSV** 页面](../../dlg/customize/csv/index) 上的 **使用转义字符** 复选框对应。
 

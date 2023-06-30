@@ -1,4 +1,4 @@
-# Item プロパティ
+# Item プロパティ (DroppedFiles �R���N�V����)
 
 指定したインデックスのファイル名を取得します。
 

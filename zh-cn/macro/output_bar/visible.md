@@ -1,4 +1,4 @@
-# Visible 属性
+# Visible 属性 (OutputBar ����)
 
 显示或隐藏输出栏。
 

@@ -1,4 +1,4 @@
-# RightAll Property
+# RightAll Property (HighlightItem Object)
 
 Corresponds to the **Highlight**
 **Right All** check box in the

@@ -1,4 +1,4 @@
-# Redo 메서드
+# Redo 메서드 (Document ��ü)
 
 [**실행 취소** 명령](../../cmd/edit/edit_undo) 으로 실행을 취소한 마지막 동작을 다시 실행합니다.
 

@@ -1,4 +1,4 @@
-# DetectCSV Property
+# DetectCSV Property (FileProp Object)
 
 Corresponds to the **Detect CSV (Comma-Separated)** check box in the
 [**File** page](../../dlg/properties/file/index) of Configuration Properties.

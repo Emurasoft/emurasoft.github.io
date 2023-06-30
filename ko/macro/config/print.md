@@ -1,4 +1,4 @@
-# Print 속성
+# Print 속성 (Config ��ü)
 
 [PrintProp 개체](../print_prop/index) 를 검색합니다.
 

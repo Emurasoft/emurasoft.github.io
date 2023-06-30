@@ -1,4 +1,4 @@
-# ProcessID 屬性
+# ProcessID 屬性 (Window ��H)
 
 返回進程標識符。
 

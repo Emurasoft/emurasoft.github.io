@@ -1,4 +1,4 @@
-# IndentColumns Property
+# IndentColumns Property (IndentProp Object)
 
 Corresponds to the **Indent**
 **Columns** text box in the

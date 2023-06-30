@@ -1,4 +1,4 @@
-# 创建对象
+# 创建对象 (�̳�)
 
 这个章节介绍使用其他在 Windows 中可用的对象的简便方法。要使用对象，用 JavaScript (JScript) 中的 ActiveXObject 对象在或 VBScript 中的 CreateObject 函数。JavaScript (V8) 不支持此方法。
 

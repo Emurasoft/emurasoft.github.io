@@ -1,4 +1,4 @@
-# InsertDate Method
+# InsertDate Method (Selection Object)
 
 Inserts the current time and date.
 

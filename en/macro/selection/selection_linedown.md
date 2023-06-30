@@ -1,4 +1,4 @@
-# LineDown Method
+# LineDown Method (Selection Object)
 
 Moves the cursor down a specified number of lines.
 

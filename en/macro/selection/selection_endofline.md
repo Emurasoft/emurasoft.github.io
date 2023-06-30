@@ -1,4 +1,4 @@
-# EndOfLine Method
+# EndOfLine Method (Selection Object)
 
 Moves the cursor to the end of the current line.
 

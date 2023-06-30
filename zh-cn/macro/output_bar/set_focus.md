@@ -1,4 +1,4 @@
-# SetFocus 方法
+# SetFocus 方法 (OutputBar ����)
 
 把键盘焦点设置到输出栏上。
 

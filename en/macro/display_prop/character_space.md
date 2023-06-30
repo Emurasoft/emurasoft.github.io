@@ -1,4 +1,4 @@
-# CharacterSpace Property
+# CharacterSpace Property (DisplayProp Object)
 
 Corresponds to the **Character**
 **Space** text box in the

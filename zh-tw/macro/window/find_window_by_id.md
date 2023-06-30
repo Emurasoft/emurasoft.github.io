@@ -1,4 +1,4 @@
-# FindWindowByID 方法
+# FindWindowByID 方法 (Window ��H)
 
 通過視窗標識符尋找子 Window 對象。
 

@@ -1,4 +1,4 @@
-# Format Method
+# Format Method (Selection Object)
 
 Inserts or deletes newline characters in the selection.
 

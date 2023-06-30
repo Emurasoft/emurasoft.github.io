@@ -1,4 +1,4 @@
-# UseTemplate 속성
+# UseTemplate 속성 (FileNewProp ��ü)
 
 [**새 파일 상세 정보** 대화 상자](../../dlg/properties/file/new_details/index) 의
 **서식 파일 사용** 체크 박스에 해당합니다.

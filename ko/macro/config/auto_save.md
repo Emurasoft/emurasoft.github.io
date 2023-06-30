@@ -1,4 +1,4 @@
-# AutoSave 속성
+# AutoSave 속성 (Config ��ü)
 
 [AutoSaveProp 개체](../auto_save_prop/index) 를 검색합니다.
 

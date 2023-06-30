@@ -1,4 +1,4 @@
-# Interface 属性
+# Interface 属性 (Window ����)
 
 返回 [**Interface** 对象](../interface/index)。
 

@@ -1,4 +1,4 @@
-# WordWrap プロパティ
+# WordWrap プロパティ (WrapProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[禁則文字\]** タブ](../../dlg/properties/wrap/index) の
 **\[欧文ワード ラップを行う\]** チェック ボックスに相当します。

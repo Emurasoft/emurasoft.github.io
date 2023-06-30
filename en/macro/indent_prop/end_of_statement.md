@@ -1,4 +1,4 @@
-# EndOfStatement Property
+# EndOfStatement Property (IndentProp Object)
 
 Corresponds to the **End**
 **of Statement** text box in the

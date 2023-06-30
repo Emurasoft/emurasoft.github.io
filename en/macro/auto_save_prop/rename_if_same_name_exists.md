@@ -1,4 +1,4 @@
-# RenameIfSameNameExists Property
+# RenameIfSameNameExists Property (AutoSaveProp Object)
 
 Corresponds to the **Rename**
 **if the Same File Name Exists** check box in the

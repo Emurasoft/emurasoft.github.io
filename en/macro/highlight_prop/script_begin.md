@@ -1,4 +1,4 @@
-# ScriptBegin Property
+# ScriptBegin Property (HighlightProp Object)
 
 Corresponds to the **Script**
 **group box - Begin** text box in the

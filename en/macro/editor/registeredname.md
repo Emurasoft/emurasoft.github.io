@@ -1,4 +1,4 @@
-# RegisteredName Property
+# RegisteredName Property (Editor Object)
 
 Retrieves the registered name.
 

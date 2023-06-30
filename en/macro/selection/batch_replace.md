@@ -1,4 +1,4 @@
-# BatchReplace Method
+# BatchReplace Method (Selection Object)
 
 Replaces multiple strings.
 

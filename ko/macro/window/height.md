@@ -1,4 +1,4 @@
-# Height 속성
+# Height 속성 (Window ��ü)
 
 창의 높이를 설정하거나 반환합니다.
 

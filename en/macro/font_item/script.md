@@ -1,4 +1,4 @@
-# Script Property
+# Script Property (FontItem Object)
 
 Specifies the script of the font.
 

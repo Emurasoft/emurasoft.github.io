@@ -1,4 +1,4 @@
-# HighlightFind 屬性
+# HighlightFind 屬性 (Document ��H)
 
 決定是否要高亮搜尋字符串。
 

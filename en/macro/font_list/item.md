@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (FontList Collection)
 
 Retrieves the [FontItem object](../font_item/index) for the specified index.
 

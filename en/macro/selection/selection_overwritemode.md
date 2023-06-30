@@ -1,4 +1,4 @@
-# OverwriteMode Property
+# OverwriteMode Property (Selection Object)
 
 Sets or retrieves a flag indicating the overwrite or insert mode.
 

@@ -1,4 +1,4 @@
-# GetColumn メソッド
+# GetColumn メソッド ()
 
 CSV モードで指定する列の文字列を取得します。
 

@@ -1,4 +1,4 @@
-# print Method
+# print Method (Window Object)
 
 Displays the Print dialog box.
 

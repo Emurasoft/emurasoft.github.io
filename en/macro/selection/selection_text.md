@@ -1,4 +1,4 @@
-# Text Property
+# Text Property (Selection Object)
 
 Retrieves the selected text, or inserts a string at the cursor position.
 

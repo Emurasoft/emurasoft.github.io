@@ -1,4 +1,4 @@
-# PromptInvalid Property
+# PromptInvalid Property (FileProp Object)
 
 Corresponds to the **Prompt**
 **if Invalid Character Found** check box in the

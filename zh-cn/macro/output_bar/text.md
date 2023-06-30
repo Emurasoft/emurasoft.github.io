@@ -1,4 +1,4 @@
-# Text 属性
+# Text 属性 (OutputBar ����)
 
 在输出栏中检索整个文本。
 

@@ -1,4 +1,4 @@
-# ScriptBegin プロパティ
+# ScriptBegin プロパティ (HighlightProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の \[スクリプト\] グループ \- \[開始\] テキスト ボックスに相当します。
 

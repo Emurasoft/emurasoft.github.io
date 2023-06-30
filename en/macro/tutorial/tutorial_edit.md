@@ -1,4 +1,4 @@
-# Edit Macro
+# Edit Macro (Tutorial)
 
 EmEditor automatically makes the last macro used the default macro. To edit the
 default macro, select the

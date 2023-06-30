@@ -1,4 +1,4 @@
-# NextBookmark Method
+# NextBookmark Method (Selection Object)
 
 Moves to the next bookmark in the document.
 

@@ -1,4 +1,4 @@
-# KinsokuBegin プロパティ
+# KinsokuBegin プロパティ (WrapProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[禁則文字\]** タブ](../../dlg/properties/wrap/index) の
 **\[行頭禁則文字\]** テキスト ボックスに相当します。

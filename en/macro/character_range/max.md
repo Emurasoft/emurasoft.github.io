@@ -1,4 +1,4 @@
-# Max Property
+# Max Property (CharacterRange Object)
 
 Specifies the maximum character of the object.
 

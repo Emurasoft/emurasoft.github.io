@@ -1,4 +1,4 @@
-# OnlyWord Property
+# OnlyWord Property (Regex Object)
 
 Sets or retrieves whether the regular expression matches only whole words.
 

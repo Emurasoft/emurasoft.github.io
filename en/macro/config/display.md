@@ -1,4 +1,4 @@
-# Display Property
+# Display Property (Config Object)
 
 Retrieves the
 [DisplayProp object](../display_prop/index).

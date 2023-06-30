@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (Configs Collection)
 
 Retrieves the [**Config** object](../config/index) for the configuration of the specified index.
 

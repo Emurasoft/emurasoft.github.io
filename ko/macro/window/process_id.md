@@ -1,4 +1,4 @@
-# ProcessID 속성
+# ProcessID 속성 (Window ��ü)
 
 프로세스 식별자를 반환합니다.
 

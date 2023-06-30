@@ -1,4 +1,4 @@
-# DrawSeparatingLines Property
+# DrawSeparatingLines Property (PrintProp Object)
 
 Corresponds to the **Draw**
 **Separating Lines** check box in the

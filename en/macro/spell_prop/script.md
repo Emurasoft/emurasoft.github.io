@@ -1,4 +1,4 @@
-# Script Property
+# Script Property (SpellProp Object)
 
 Corresponds to the **Script** check box in the [**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
 

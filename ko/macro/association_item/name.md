@@ -1,4 +1,4 @@
-# Name 속성
+# Name 속성 (AssociationItem ��ü)
 
 개체의 이름을 지정합니다.
 

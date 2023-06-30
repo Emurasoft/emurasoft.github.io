@@ -1,4 +1,4 @@
-# PromptInconsistentReturns Property
+# PromptInconsistentReturns Property (FileProp Object)
 
 Corresponds to the **Prompt**
 **at Inconsistent Returns** check box in the

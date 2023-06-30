@@ -1,4 +1,4 @@
-# BatchReplace 方法
+# BatchReplace 方法 (Selection ��H)
 
 取代多個字串。
 

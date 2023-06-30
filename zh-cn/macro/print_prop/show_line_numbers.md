@@ -1,4 +1,4 @@
-# ShowLineNumbers 属性
+# ShowLineNumbers 属性 (PrintProp ����)
 
 与配置属性中 [**打印** 页面](../../dlg/properties/print/index) 上的 **打印行号** 复选框相对应。
 

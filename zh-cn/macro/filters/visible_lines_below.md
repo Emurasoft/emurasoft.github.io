@@ -1,4 +1,4 @@
-# VisibleLinesBelow 属性
+# VisibleLinesBelow 属性 (Filters ����)
 
 指定匹配行以下可见行的行数。
 

@@ -1,4 +1,4 @@
-# WriteProfileInt Method
+# WriteProfileInt Method (Editor Object)
 
 Sets an integer value into the Registry or an INI file depending on the EmEditor
 settings.

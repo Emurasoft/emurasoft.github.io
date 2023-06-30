@@ -1,4 +1,4 @@
-# EndOfStatement 属性
+# EndOfStatement 属性 (IndentProp ����)
 
 与 [**制表符/缩进** 对话框](../../dlg/properties/general/indent/index) 上的 **语句结束** 文本框相对应。
 

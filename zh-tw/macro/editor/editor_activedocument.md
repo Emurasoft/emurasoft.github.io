@@ -1,4 +1,4 @@
-# ActiveDocument 屬性
+# ActiveDocument 屬性 (Editor ��H)
 
 為當前文檔，檢索 [Document 對象](../document/index)。
 

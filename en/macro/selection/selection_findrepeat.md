@@ -1,4 +1,4 @@
-# FindRepeat Method
+# FindRepeat Method (Selection Object)
 
 Repeats the previous search for the same string.
 

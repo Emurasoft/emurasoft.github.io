@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (DroppedFiles Collection)
 
 Retrieves the file names for the dropped file of the specified index.
 

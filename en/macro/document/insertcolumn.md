@@ -1,4 +1,4 @@
-# InsertColumn Method
+# InsertColumn Method (Document Object)
 
 Inserts a column of text in CSV mode.
 

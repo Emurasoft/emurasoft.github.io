@@ -1,4 +1,4 @@
-# SetFocus Method
+# SetFocus Method (Window Object)
 
 Sets the keyboard focus to the window.
 

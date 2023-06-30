@@ -1,4 +1,4 @@
-# Visible Property
+# Visible Property (Window Object)
 
 Returns whether the window is visible.
 

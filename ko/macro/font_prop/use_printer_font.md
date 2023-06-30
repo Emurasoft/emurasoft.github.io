@@ -1,4 +1,4 @@
-# UsePrinterFont 속성
+# UsePrinterFont 속성 (FontProp ��ü)
 
 [**글꼴 사용자 지정** 대화 상자의](../../dlg/properties/font/index) 아래 목록에 기본 프린터 글꼴 포함 체크 박스에 해당합니다.
 

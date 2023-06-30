@@ -1,4 +1,4 @@
-# SelectLine Method
+# SelectLine Method (Selection Object)
 
 Selects a line at the cursor.
 

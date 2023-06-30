@@ -1,4 +1,4 @@
-# Valid Property
+# Valid Property (Window Object)
 
 Returns whether the window handle is valid.
 

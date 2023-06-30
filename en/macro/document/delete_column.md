@@ -1,4 +1,4 @@
-# DeleteColumn Method
+# DeleteColumn Method (Document Object)
 
 Deletes specified columns in a CSV mode.
 

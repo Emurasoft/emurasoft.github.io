@@ -1,4 +1,4 @@
-# SaveCloseAll Method
+# SaveCloseAll Method (Editor Object)
 
 Saves and Closes all open files.
 

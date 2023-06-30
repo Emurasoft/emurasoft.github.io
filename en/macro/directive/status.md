@@ -1,4 +1,4 @@
-# \#status directive
+# \#status directive (Script Directives)
 
 Specifies the status (whether the macro is enabled and whether it is checked) of the current macro which should mimic the command specified by the ID. The Macros menu and Macros toolbar updates the macro status according to this specified command status. This directive must be specified at the first lines of the script above the main code.
 

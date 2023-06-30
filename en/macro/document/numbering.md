@@ -1,4 +1,4 @@
-# Numbering Method
+# Numbering Method (Document Object)
 
 Inserts numbering at the cursor position or vertical selection.
 

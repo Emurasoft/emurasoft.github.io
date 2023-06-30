@@ -1,4 +1,4 @@
-# ShowControlCharacters 属性
+# ShowControlCharacters 属性 (MarkProp ����)
 
 与配置属性中 [**标记** 页面](../../dlg/properties/marks/index) 上的 **显示控制字符** 复选框相对应。
 

@@ -1,4 +1,4 @@
-# Count プロパティ
+# Count プロパティ (KeyboardList �R���N�V����)
 
 アイテムの数を取得します。
 

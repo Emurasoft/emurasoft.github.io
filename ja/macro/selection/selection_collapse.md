@@ -1,4 +1,4 @@
-# Collapse メソッド
+# Collapse メソッド ()
 
 選択を解除します。
 

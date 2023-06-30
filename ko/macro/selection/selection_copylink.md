@@ -1,4 +1,4 @@
-# CopyLink 메서드
+# CopyLink 메서드 (Selection ��ü)
 
 클립보드에 커서 위치의 하이퍼링크를 복사합니다.
 

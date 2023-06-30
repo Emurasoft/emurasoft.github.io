@@ -1,4 +1,4 @@
-# ExtractFrequent Method
+# ExtractFrequent Method (Selection Object)
 
 Extracts frequently used strings into a new document.
 

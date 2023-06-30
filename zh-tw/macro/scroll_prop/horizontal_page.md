@@ -1,4 +1,4 @@
-# HorizontalPage 屬性
+# HorizontalPage 屬性 (ScrollProp ��H)
 
 Corresponds to the **總是啟用 1 頁水平捲動** 核取方塊相對應。
 

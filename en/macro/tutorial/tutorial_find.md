@@ -1,4 +1,4 @@
-# Find in Files
+# Find in Files (Tutorial)
 
 To find a string in files, add the eighth line to our tutorial macro:
 

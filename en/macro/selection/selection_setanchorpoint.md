@@ -1,4 +1,4 @@
-# SetAnchorPoint Method
+# SetAnchorPoint Method (Selection Object)
 
 Sets the origin point of the selection.
 

@@ -1,4 +1,4 @@
-# ReplaceInFiles Method
+# ReplaceInFiles Method (Editor Object)
 
 Replaces text in multiple files.
 

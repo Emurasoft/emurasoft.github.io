@@ -1,4 +1,4 @@
-# EndOfLine 메서드
+# EndOfLine 메서드 (Selection ��ü)
 
 현재 줄의 끝 지점으로 커서를 이동합니다.
 

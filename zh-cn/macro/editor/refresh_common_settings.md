@@ -1,4 +1,4 @@
-# RefreshCommonSettings 方法
+# RefreshCommonSettings 方法 (Editor ����)
 
 加载常用设置并刷新 EmEditor 窗口。
 

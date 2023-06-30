@@ -1,4 +1,4 @@
-# Indent Property
+# Indent Property (Config Object)
 
 Retrieves the [IndentProp object](../indent_prop/index).
 

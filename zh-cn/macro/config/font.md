@@ -1,4 +1,4 @@
-# Font 属性
+# Font 属性 (Config ����)
 
 检索 [FontProp 对象](../font_prop/index)。
 

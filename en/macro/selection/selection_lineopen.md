@@ -1,4 +1,4 @@
-# LineOpen Method
+# LineOpen Method (Selection Object)
 
 Inserts a empty line between two lines.
 

@@ -1,4 +1,4 @@
-# ForegroundWindow Property
+# ForegroundWindow Property (Shell Object)
 
 Retrieves the current foreground window.
 

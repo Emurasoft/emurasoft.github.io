@@ -1,4 +1,4 @@
-# clipboardData 屬性
+# clipboardData 屬性 (Window ��H)
 
 返回 [**clipboardData** 對象](../clipboarddata/index)。
 

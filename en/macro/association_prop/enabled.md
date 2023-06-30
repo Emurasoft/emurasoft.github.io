@@ -1,4 +1,4 @@
-# Enabled Property
+# Enabled Property (AssociationProp Object)
 
 Corresponds to the **Enable**
 **Association** check box in the

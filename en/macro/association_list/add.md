@@ -1,4 +1,4 @@
-# Add Method
+# Add Method (AssociationList Collection)
 
 Adds an item.
 

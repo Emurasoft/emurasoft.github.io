@@ -1,4 +1,4 @@
-# Documents Property
+# Documents Property (Editor Object)
 
 Retrieves the [Documents Collection](../documents/index) for the currently opened documents.
 

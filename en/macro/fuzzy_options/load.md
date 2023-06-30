@@ -1,4 +1,4 @@
-# Load Method
+# Load Method (FuzzyOptions Object)
 
 Loads the fuzzy options from the app data folder.
 

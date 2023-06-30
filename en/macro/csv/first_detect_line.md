@@ -1,4 +1,4 @@
-# FirstDetectLine Property
+# FirstDetectLine Property (Csv Object)
 
 Corresponds to the **First line to detect** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 

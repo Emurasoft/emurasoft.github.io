@@ -1,4 +1,4 @@
-# IsEmpty Property
+# IsEmpty Property (Selection Object)
 
 Indicates whether the anchor point is equal to the active point.
 

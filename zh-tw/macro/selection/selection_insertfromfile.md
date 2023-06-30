@@ -1,4 +1,4 @@
-# InsertFromFile 方法
+# InsertFromFile 方法 (Selection ��H)
 
 在游標位置處插入指定檔案的內容。
 

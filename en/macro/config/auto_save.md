@@ -1,4 +1,4 @@
-# AutoSave Property
+# AutoSave Property (Config Object)
 
 Retrieves the [AutoSaveProp object](../auto_save_prop/index).
 

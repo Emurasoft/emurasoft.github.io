@@ -1,4 +1,4 @@
-# General 속성
+# General 속성 (Config ��ü)
 
 [GeneralProp 개체](../general_prop/index) 를 검색합니다.
 

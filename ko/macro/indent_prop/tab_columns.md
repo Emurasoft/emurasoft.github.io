@@ -1,4 +1,4 @@
-# TabColumns 속성
+# TabColumns 속성 (IndentProp ��ü)
 
 [**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 의 **탭 열** 텍스트 박스에 해당합니다.
 

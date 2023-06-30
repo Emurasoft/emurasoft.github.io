@@ -1,4 +1,4 @@
-# AllowNL Property
+# AllowNL Property (Csv Object)
 
 Corresponds to the **Allow newlines in quotes** check box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 

@@ -1,4 +1,4 @@
-# MoveColumn メソッド
+# MoveColumn メソッド ()
 
 CSV モードで指定された列を移動またはコピーします。
 

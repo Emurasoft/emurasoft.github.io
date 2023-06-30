@@ -1,4 +1,4 @@
-# Unpivot Method
+# Unpivot Method (Document Object)
 
 Converts columns into rows by flattening the CSV data.
 

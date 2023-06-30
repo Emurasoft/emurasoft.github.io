@@ -1,4 +1,4 @@
-# WriteProfileString Method
+# WriteProfileString Method (Editor Object)
 
 Sets a string value into the Registry or an INI file
 depending on the EmEditor settings.

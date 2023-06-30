@@ -1,4 +1,4 @@
-# GetAnchorPointX Method
+# GetAnchorPointX Method (Selection Object)
 
 Returns the column number of the origin point of the selection.
 

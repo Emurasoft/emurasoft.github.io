@@ -1,4 +1,4 @@
-# DiscardUndo Property
+# DiscardUndo Property (Window Object)
 
 Returns the flag to indicate whether EmEditor discards undo information to improve the speed of replace, insert or delete.
 

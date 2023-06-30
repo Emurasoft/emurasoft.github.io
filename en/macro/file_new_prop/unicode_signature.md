@@ -1,4 +1,4 @@
-# UnicodeSignature Property
+# UnicodeSignature Property (FileNewProp Object)
 
 Corresponds to the **Add**
 **a Unicode Signature (BOM)** check box in the

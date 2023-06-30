@@ -1,4 +1,4 @@
-# CellMode 屬性
+# CellMode 屬性 (Document ��H)
 
 設置或檢索一個標志來顯示選擇模式是否是儲存格選擇模式。
 

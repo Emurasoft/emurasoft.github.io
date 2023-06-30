@@ -1,4 +1,4 @@
-# ExtractFrequent 方法
+# ExtractFrequent 方法 (Selection ����)
 
 将常用字符串提取到新文档中。
 

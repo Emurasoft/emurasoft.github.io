@@ -1,4 +1,4 @@
-# InsideTag Property
+# InsideTag Property (HighlightItem Object)
 
 Corresponds to the **Inside**
 **Tag Only** check box in the

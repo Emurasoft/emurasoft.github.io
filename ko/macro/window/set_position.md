@@ -1,4 +1,4 @@
-# SetPosition 메서드
+# SetPosition 메서드 (Window ��ü)
 
 창의 위치와 크기를 설정합니다.
 

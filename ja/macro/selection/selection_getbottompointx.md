@@ -1,4 +1,4 @@
-# GetBottomPointX メソッド
+# GetBottomPointX メソッド ()
 
 選択範囲の最後の現在桁を 1 で始まる整数で返します。
 

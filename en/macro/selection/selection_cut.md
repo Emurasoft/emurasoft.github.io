@@ -1,4 +1,4 @@
-# Cut Method
+# Cut Method (Selection Object)
 
 Copies the selected text to the Clipboard and deletes it from its
 original location.

@@ -1,4 +1,4 @@
-# LogicalToSerial Method
+# LogicalToSerial Method (Document Object)
 
 Converts the logical coordinates of a specified position to the one-based serial position.
 

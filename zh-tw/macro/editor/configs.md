@@ -1,4 +1,4 @@
-# Configs 屬性
+# Configs 屬性 (Editor ��H)
 
 檢索 [**Configs** 集合](../configs/index)。
 

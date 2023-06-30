@@ -1,4 +1,4 @@
-# Config 屬性
+# Config 屬性 (Document ��H)
 
 檢索 [**Config** 對象](../config/index)。
 

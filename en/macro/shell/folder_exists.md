@@ -1,4 +1,4 @@
-# FolderExists Method
+# FolderExists Method (Shell Object)
 
 Returns true if a specified folder exists; false if it does not.
 

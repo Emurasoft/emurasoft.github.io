@@ -1,4 +1,4 @@
-# Backup Property
+# Backup Property (Config Object)
 
 Retrieves the
 [BackupProp object](../backup_prop/index).

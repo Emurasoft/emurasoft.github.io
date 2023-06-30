@@ -1,4 +1,4 @@
-# SetActivePoint 方法
+# SetActivePoint 方法 (Selection ��H)
 
 設置關閉位置。
 

@@ -1,4 +1,4 @@
-# GetProfileString 메서드
+# GetProfileString 메서드 (Editor ��ü)
 
 엠에디터 설정에 따라 레지스트리 또는 INI 파일로부터 지정된 항목의 문자열 값을 검색합니다.
 

@@ -1,4 +1,4 @@
-# Style Property
+# Style Property (Window Object)
 
 Returns the styles of the specified window.
 

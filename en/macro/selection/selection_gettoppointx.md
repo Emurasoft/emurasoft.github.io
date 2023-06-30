@@ -1,4 +1,4 @@
-# GetTopPointX Method
+# GetTopPointX Method (Selection Object)
 
 Returns the column number of the top of the selection.
 

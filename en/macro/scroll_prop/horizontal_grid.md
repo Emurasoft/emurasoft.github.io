@@ -1,4 +1,4 @@
-# HorizontalGrid Property
+# HorizontalGrid Property (ScrollProp Object)
 
 Corresponds to the **Horizontal Grid** check box in the
 [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.

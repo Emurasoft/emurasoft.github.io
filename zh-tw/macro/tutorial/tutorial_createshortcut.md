@@ -1,4 +1,4 @@
-# 創建一個捷徑
+# 創建一個捷徑 (�е{)
 
 要創建一個捷徑，用 WshShell 對象的 CreateShortcut 方法。
 

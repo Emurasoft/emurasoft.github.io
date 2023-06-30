@@ -1,4 +1,4 @@
-# ExecuteMacro メソッド
+# ExecuteMacro メソッド ()
 
 指定するマクロを実行します。
 

@@ -1,4 +1,4 @@
-# FastCursorMove 属性
+# FastCursorMove 属性 (ScrollProp ����)
 
 与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **快速移动光标** 复选框相对应。
 

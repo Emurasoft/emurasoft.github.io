@@ -1,4 +1,4 @@
-# TagJump Method
+# TagJump Method (Selection Object)
 
 Jumps to a tag at the cursor.
 

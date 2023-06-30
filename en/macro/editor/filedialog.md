@@ -1,4 +1,4 @@
-# FileDialog Method
+# FileDialog Method (Editor Object)
 
 Displays an Open or Save As dialog box that lets the user specify the drive,
 directory, and the name of a file to open.

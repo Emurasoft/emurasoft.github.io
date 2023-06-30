@@ -1,4 +1,4 @@
-# BackMode Property
+# BackMode Property (DisplayItem Object)
 
 Specifies the background color mode.
 

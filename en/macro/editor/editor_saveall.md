@@ -1,4 +1,4 @@
-# SaveAll Method
+# SaveAll Method (Editor Object)
 
 Saves all currently open files.
 

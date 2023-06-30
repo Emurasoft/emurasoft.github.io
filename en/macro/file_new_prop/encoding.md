@@ -1,4 +1,4 @@
-# Encoding Property
+# Encoding Property (FileNewProp Object)
 
 Corresponds to the **Encoding drop-down** list box in the
 [**New File Details** dialog box](../../dlg/properties/file/new_details/index).

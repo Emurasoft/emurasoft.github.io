@@ -1,4 +1,4 @@
-# Add Method
+# Add Method (Filters Collection)
 
 Adds an item.
 

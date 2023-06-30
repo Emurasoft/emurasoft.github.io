@@ -1,4 +1,4 @@
-# SetColumn Method
+# SetColumn Method (Document Object)
 
 Sets a column of text in a CSV mode.
 

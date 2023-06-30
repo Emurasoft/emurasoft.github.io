@@ -1,4 +1,4 @@
-# SaveAll 方法
+# SaveAll 方法 (Editor ����)
 
 保存所有当前打开的文件。
 

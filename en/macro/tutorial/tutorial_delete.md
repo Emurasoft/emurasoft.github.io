@@ -1,4 +1,4 @@
-# Delete Characters
+# Delete Characters (Tutorial)
 
 To delete characters, add the fifth line to our tutorial macro:
 

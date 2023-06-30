@@ -1,4 +1,4 @@
-# InsertColumn メソッド
+# InsertColumn メソッド ()
 
 CSV モードで指定する列位置に新しい列を挿入します。
 

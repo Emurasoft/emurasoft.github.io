@@ -1,4 +1,4 @@
-# Size Property
+# Size Property (FontItem Object)
 
 Specifies the font size in points.
 

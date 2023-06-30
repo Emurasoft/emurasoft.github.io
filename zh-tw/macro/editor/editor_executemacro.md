@@ -1,4 +1,4 @@
-# ExecuteMacro 方法
+# ExecuteMacro 方法 (Editor ��H)
 
 執行一個指定的巨集。
 

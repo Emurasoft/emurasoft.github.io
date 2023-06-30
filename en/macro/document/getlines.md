@@ -1,4 +1,4 @@
-# GetLines Method
+# GetLines Method (Document Object)
 
 Retrieves the number of the lines in the document.
 

@@ -1,4 +1,4 @@
-# EscapeCharacter Property
+# EscapeCharacter Property (HighlightProp Object)
 
 Corresponds to the **String**
 **Enclosed by Quotation Marks group box - Escape Character** text box in the

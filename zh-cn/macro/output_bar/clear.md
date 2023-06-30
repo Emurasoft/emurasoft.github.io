@@ -1,4 +1,4 @@
-# Clear 方法
+# Clear 方法 (OutputBar ����)
 
 清除输出栏的内容。
 

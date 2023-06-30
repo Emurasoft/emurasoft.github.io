@@ -1,4 +1,4 @@
-# DeleteDuplicates 方法
+# DeleteDuplicates 方法 (Document ����)
 
 删除重复行，或把重复行设为书签。
 

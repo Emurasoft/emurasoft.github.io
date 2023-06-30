@@ -1,4 +1,4 @@
-# KinsokuBegin Property
+# KinsokuBegin Property (WrapProp Object)
 
 Corresponds to the **Not**
 **Allowed at Line Head** text box in the

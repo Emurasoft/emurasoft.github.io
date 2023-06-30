@@ -1,4 +1,4 @@
-# Highlight 属性
+# Highlight 属性 (Config ����)
 
 检索 [HighlightProp 对象](../highlight_prop/index)。
 

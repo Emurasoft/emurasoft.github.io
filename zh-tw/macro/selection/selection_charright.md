@@ -1,4 +1,4 @@
-# CharRight 方法
+# CharRight 方法 (Selection ��H)
 
 把游標向右移動指定的字元數。
 

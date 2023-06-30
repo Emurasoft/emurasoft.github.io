@@ -1,4 +1,4 @@
-# List 속성
+# List 속성 (Keyboard ��ü)
 
 [**KeyboardList** 컬렉션](../keyboard_list/index) 을 검색합니다.
 

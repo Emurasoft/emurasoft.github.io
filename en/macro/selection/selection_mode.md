@@ -1,4 +1,4 @@
-# Mode Property
+# Mode Property (Selection Object)
 
 Sets or retrieves a flag indicating the selection mode.
 

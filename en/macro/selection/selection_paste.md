@@ -1,4 +1,4 @@
-# Paste Method
+# Paste Method (Selection Object)
 
 Inserts the Clipboard contents at the cursor.
 

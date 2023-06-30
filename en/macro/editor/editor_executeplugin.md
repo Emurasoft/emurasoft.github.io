@@ -1,4 +1,4 @@
-# ExecutePlugin Method
+# ExecutePlugin Method (Editor Object)
 
 Executes a specified plug-in.
 

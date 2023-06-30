@@ -1,4 +1,4 @@
-# AllowDelimiter 属性
+# AllowDelimiter 属性 (Csv ����)
 
 与在自定义对话框中 [**CSV** 页面](../../dlg/customize/csv/index) 上的 **允许分隔符在引号内** 复选框对应。
 

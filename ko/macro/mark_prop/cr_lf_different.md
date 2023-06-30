@@ -1,4 +1,4 @@
-# CrLfDifferent 속성
+# CrLfDifferent 속성 (MarkProp ��ü)
 
 구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의 **CR과 LF를 다른 표시로 보이기** 체크 박스에 해당합니다.
 

@@ -1,4 +1,4 @@
-# MoveCursorScroll 屬性
+# MoveCursorScroll 屬性 (ScrollProp ��H)
 
 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **通過捲動位置移動游標** 核取方塊相對應。
 

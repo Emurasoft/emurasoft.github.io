@@ -1,4 +1,4 @@
-# Length Property
+# Length Property (Match Object)
 
 A read-only value that contains the total length of the matched string.
 

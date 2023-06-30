@@ -1,4 +1,4 @@
-# GetBottomPointY Method
+# GetBottomPointY Method (Selection Object)
 
 Returns the line number of the bottom of the selection.
 

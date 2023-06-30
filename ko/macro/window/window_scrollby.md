@@ -1,4 +1,4 @@
-# scrollBy 메서드
+# scrollBy 메서드 (Window ��ü)
 
 지정된 상대적인 양만큼 창을 스크롤합니다.
 

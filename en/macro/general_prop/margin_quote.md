@@ -1,4 +1,4 @@
-# MarginQuote Property
+# MarginQuote Property (GeneralProp Object)
 
 Corresponds to the **Quoted Line Margin** text box in the
 [**General** page](../../dlg/properties/general/index) of Configuration Properties.

@@ -1,4 +1,4 @@
-# UseRecycleBin Property
+# UseRecycleBin Property (BackupProp Object)
 
 Corresponds to the **Use**
 **Recycle Bin to Backup** check box in the

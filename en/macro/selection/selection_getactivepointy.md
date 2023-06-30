@@ -1,4 +1,4 @@
-# GetActivePointY Method
+# GetActivePointY Method (Selection Object)
 
 Returns the line number of the cursor position.
 

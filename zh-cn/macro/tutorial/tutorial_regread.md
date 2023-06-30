@@ -1,4 +1,4 @@
-# 操作注册表
+# 操作注册表 (�̳�)
 
 要操作注册表，用 RegRead 方法，RegWrite 方法，和 WshShell 对象 的 RegDelete 方法。
 

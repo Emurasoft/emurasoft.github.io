@@ -1,4 +1,4 @@
-# WordWrapAfterMarks 屬性
+# WordWrapAfterMarks 屬性 (WrapProp ��H)
 
 與組態屬性中 [**換行** 頁面](../../dlg/properties/wrap/index) 上的 **啟用標記后自動換行** 核取方塊相對應。
 

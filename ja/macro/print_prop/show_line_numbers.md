@@ -1,4 +1,4 @@
-# ShowLineNumbers プロパティ
+# ShowLineNumbers プロパティ (PrintProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[印刷\]** タブ](../../dlg/properties/print/index) の
 **\[行番号を印刷\]** チェック ボックスに相当します。

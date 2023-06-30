@@ -1,4 +1,4 @@
-# ActiveString Property
+# ActiveString Property (Document Object)
 
 Retrieves the active string where the mouse pointer is hovered.
 

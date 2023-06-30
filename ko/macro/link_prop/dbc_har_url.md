@@ -1,4 +1,4 @@
-# DBCharURL 속성
+# DBCharURL 속성 (LinkProp ��ü)
 
 구성 속성 [**링크** 탭](../../dlg/properties/link/index) 의 **더블 바이트 문자를 URL로 인식** 체크 박스에 해당합니다.
 

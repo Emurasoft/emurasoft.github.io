@@ -1,4 +1,4 @@
-# ShowReturns 속성
+# ShowReturns 속성 (MarkProp ��ü)
 
 구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의 **반환 보이기** 체크 박스에 해당합니다.
 

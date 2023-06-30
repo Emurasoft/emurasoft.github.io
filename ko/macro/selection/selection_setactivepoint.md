@@ -1,4 +1,4 @@
-# SetActivePoint 메서드
+# SetActivePoint 메서드 (Selection ��ü)
 
 커서 위치를 설정합니다.
 

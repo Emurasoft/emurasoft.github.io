@@ -1,4 +1,4 @@
-# Move Cursor
+# Move Cursor (Tutorial)
 
 To move the cursor, add the fourth line to our tutorial macro as follows:
 

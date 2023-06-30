@@ -1,4 +1,4 @@
-# ReplaceInFiles 方法
+# ReplaceInFiles 方法 (Editor ��H)
 
 在多個檔案中取代文字。
 

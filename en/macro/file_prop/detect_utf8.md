@@ -1,4 +1,4 @@
-# DetectUTF8 Property
+# DetectUTF8 Property (FileProp Object)
 
 Corresponds to the **Detect**
 **UTF-8** check box in the

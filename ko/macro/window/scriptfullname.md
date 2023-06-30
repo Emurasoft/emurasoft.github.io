@@ -1,4 +1,4 @@
-# ScriptFullName 속성
+# ScriptFullName 속성 (Window ��ü)
 
 현재 실행되고 있는 매크로 파일의 파일 이름과 전체 경로를 검색합니다.
 

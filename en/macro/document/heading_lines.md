@@ -1,4 +1,4 @@
-# HeadingLines Property
+# HeadingLines Property (Document Object)
 
 Retrieves or sets the number of lines for headings (non-scrollable area).
 

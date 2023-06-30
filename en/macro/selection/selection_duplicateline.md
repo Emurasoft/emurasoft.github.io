@@ -1,4 +1,4 @@
-# DuplicateLine Method
+# DuplicateLine Method (Selection Object)
 
 Duplicates the current line.
 

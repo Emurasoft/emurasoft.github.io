@@ -1,4 +1,4 @@
-# Collapse Method
+# Collapse Method (Selection Object)
 
 Collapses the selection to the active point.
 

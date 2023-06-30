@@ -1,4 +1,4 @@
-# GoToBrace Method
+# GoToBrace Method (Selection Object)
 
 Moves the cursor to the corresponding bracket / brace.
 

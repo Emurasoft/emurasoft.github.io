@@ -1,4 +1,4 @@
-# OutputBar 屬性
+# OutputBar 屬性 (Window ��H)
 
 返回 [OutputBar 對象](../output_bar/index)。
 

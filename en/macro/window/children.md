@@ -1,4 +1,4 @@
-# Children Property
+# Children Property (Window Object)
 
 Returns the [**Windows** collection](../windows/index) that represents child windows.
 

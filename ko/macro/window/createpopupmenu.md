@@ -1,4 +1,4 @@
-# CreatePopupMenu 메서드
+# CreatePopupMenu 메서드 (Window ��ü)
 
 팝업 메뉴를 생성합니다.
 

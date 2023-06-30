@@ -1,4 +1,4 @@
-# SaveToFolder 属性
+# SaveToFolder 属性 (AutoSaveProp ����)
 
 与配置属性中 [**自动保存** 页面](../../dlg/properties/autosave/index) 上的 **保存到自动保存文件夹** 复选框相对应。
 

@@ -1,4 +1,4 @@
-# Parent Property
+# Parent Property (Window Object)
 
 Returns the parent window object.
 

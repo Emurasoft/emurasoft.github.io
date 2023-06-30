@@ -1,4 +1,4 @@
-# shell 속성
+# shell 속성 (Window ��ü)
 
 [**Shell** 개체](../shell/index) 를 반환합니다.
 

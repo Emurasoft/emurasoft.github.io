@@ -1,4 +1,4 @@
-# ActiveDocument Property
+# ActiveDocument Property (Editor Object)
 
 Retrieves the [Document Object](../document/index) for the current document.
 

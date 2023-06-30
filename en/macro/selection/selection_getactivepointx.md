@@ -1,4 +1,4 @@
-# GetActivePointX Method
+# GetActivePointX Method (Selection Object)
 
 Returns the column number of the cursor position.
 

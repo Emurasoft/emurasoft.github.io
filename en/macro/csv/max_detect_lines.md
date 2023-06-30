@@ -1,4 +1,4 @@
-# MaxDetectLines Property
+# MaxDetectLines Property (Csv Object)
 
 Corresponds to the **Max lines to detect** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 

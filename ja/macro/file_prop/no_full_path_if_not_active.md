@@ -1,4 +1,4 @@
-# NoFullPathIfNotActive プロパティ
+# NoFullPathIfNotActive プロパティ (FileProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の **\[非アクティブ時フルパスにしない\]** チェック ボックスに相当します。
 

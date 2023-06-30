@@ -1,4 +1,4 @@
-# AllowControlCharacter 屬性
+# AllowControlCharacter 屬性 (GeneralProp ��H)
 
 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **允許插入控制字元** 核取方塊相對應。
 

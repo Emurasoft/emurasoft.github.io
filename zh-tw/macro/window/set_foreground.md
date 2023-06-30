@@ -1,4 +1,4 @@
-# SetForeground 方法
+# SetForeground 方法 (Window ��H)
 
 將視窗置前。
 

@@ -1,4 +1,4 @@
-# UseTemplate Property
+# UseTemplate Property (FileNewProp Object)
 
 Corresponds to the **Use**
 **Template** check box in the

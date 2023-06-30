@@ -1,4 +1,4 @@
-# NoWrap Property
+# NoWrap Property (Config Object)
 
 Retrieves the [NoWrapProp object](../no_wrap_prop/index).
 

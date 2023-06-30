@@ -1,4 +1,4 @@
-# DoubleClickOnly プロパティ
+# DoubleClickOnly プロパティ (LinkProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[リンク\]** タブ](../../dlg/properties/link/index) の **\[ダブル クリックのみ有効\]** チェック ボックスに相当します。
 

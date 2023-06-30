@@ -1,4 +1,4 @@
-# BatchReplaceInFiles 方法
+# BatchReplaceInFiles 方法 (Editor ����)
 
 在多个文件中替换多个字符串。
 

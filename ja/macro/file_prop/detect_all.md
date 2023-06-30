@@ -1,4 +1,4 @@
-# DetectAll プロパティ
+# DetectAll プロパティ (FileProp �I�u�W�F�N�g)
 
 設定のプロパティの **[\[ファイル\]](../../dlg/properties/file/index)** [タブ](../../dlg/properties/file/index) の
 **\[すべて自動検出\]** チェック ボックスに相当します。

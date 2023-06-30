@@ -1,4 +1,4 @@
-# 宏的规格（文档对象模型）
+# 宏的规格（文档对象模型） (�̳�)
 
 在 EmEditor 宏文档对象模型 (DOM) 的规格中，In the specifications of the EmEditor macro Document 对象 Model (DOM), **[Window 对象](../window/index)** 是当前的范围。换句话说，没有明确的范围的属性和方法指的都是当前的 **[Window 对象](../window/index)**。
 例如，第一个 _document_ 是 Window 对象的 **[document 属性](../window/window_document)**，适用于网页浏览器的脚本。对于熟悉网页浏览器脚本的用户，下面的代码可能会比较眼熟:

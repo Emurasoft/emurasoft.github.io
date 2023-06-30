@@ -1,4 +1,4 @@
-# \#include directive
+# \#include directive (Script Directives)
 
 Specifies the file to include. This directive must be specified at the first lines of the script above the main code.
 

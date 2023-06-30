@@ -1,4 +1,4 @@
-# CommentEnd プロパティ
+# CommentEnd プロパティ (HighlightProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[終了\] テキスト ボックスに相当します。
 

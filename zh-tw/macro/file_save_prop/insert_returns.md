@@ -1,4 +1,4 @@
-# InsertReturns 屬性
+# InsertReturns 屬性 (FileSaveProp ��H)
 
 與 [**儲存詳細信息** 對話方塊](../../dlg/properties/file/save_details/index) 中的 **儲存時自動換行** 核取方塊相對應。
 

@@ -1,4 +1,4 @@
-# GetProfileInt メソッド
+# GetProfileInt メソッド ()
 
 EmEditor の設定に応じて、レジストリまたは INI ファイルから、指定する整数値を取得します。
 

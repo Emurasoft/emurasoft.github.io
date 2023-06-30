@@ -1,4 +1,4 @@
-# FullName 属性
+# FullName 属性 (Document ����)
 
 检索文档的完整路径以及文件名称。
 

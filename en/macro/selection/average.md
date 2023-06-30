@@ -1,4 +1,4 @@
-# Average Property
+# Average Property (Selection Object)
 
 Retrieves the average of the numbers contained in the selection.
 

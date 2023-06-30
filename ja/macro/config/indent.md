@@ -1,4 +1,4 @@
-# Indent 繝励Ο繝代ユ繧｣
+# Indent 繝励Ο繝代ユ繧｣ (Config オブジェクト)
 
 [IndentProp 繧ｪ繝悶ず繧ｧ繧ｯ繝�](../indent_prop/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

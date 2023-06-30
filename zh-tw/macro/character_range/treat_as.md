@@ -1,4 +1,4 @@
-# TreatAs 屬性
+# TreatAs 屬性 (CharacterRange ��H)
 
 指定要取代的字元。 如果指定-1，則在用於模糊比對時將忽略指定的範圍。
 

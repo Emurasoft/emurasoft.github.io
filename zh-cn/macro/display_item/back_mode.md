@@ -1,4 +1,4 @@
-# BackMode 属性
+# BackMode 属性 (DisplayItem ����)
 
 指定背景颜色模式。
 

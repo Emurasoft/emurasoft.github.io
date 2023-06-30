@@ -1,4 +1,4 @@
-# Bold Property
+# Bold Property (FontItem Object)
 
 True if the font is formatted as Bold.
 

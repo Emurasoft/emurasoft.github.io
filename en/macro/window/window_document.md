@@ -1,4 +1,4 @@
-# document Property
+# document Property (Window Object)
 
 Returns the [**Document** Object](../document/index).
 

@@ -1,4 +1,4 @@
-# StartOfDocument メソッド
+# StartOfDocument メソッド ()
 
 カーソル位置を文書の最初に移動します。
 

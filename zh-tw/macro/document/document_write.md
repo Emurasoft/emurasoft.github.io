@@ -1,4 +1,4 @@
-# write 方法
+# write 方法 (Document ��H)
 
 在當前光標位置處插入或改寫一個字符串。
 

@@ -1,4 +1,4 @@
-# status Property
+# status Property (Window Object)
 
 Retrieves or sets a string displayed on the status bar.
 

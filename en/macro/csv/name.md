@@ -1,4 +1,4 @@
-# Name Property
+# Name Property (Csv Object)
 
 Retrieves or sets the name for the current Csv object.
 

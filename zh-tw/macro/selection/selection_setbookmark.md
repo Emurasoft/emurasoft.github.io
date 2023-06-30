@@ -1,4 +1,4 @@
-# SetBookmark 方法
+# SetBookmark 方法 (Selection ��H)
 
 在游標位置處設一個書籤。
 

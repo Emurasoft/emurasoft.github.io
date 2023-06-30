@@ -1,4 +1,4 @@
-# InsertDate 方法
+# InsertDate 方法 (Selection ����)
 
 插入当前时间和日期。
 

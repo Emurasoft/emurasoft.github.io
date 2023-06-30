@@ -1,4 +1,4 @@
-# DisplayList Property
+# DisplayList Property (FontProp Object)
 
 Retrieves the FontList object.
 

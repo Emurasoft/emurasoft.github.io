@@ -1,4 +1,4 @@
-# AddReplace 方法
+# AddReplace 方法 (Filters ���X)
 
 添加一個要取代的項目。
 

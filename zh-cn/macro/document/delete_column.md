@@ -1,4 +1,4 @@
-# DeleteColumn 方法
+# DeleteColumn 方法 (Document ����)
 
 删除 CSV 模式中指定的列。
 

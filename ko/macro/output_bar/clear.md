@@ -1,4 +1,4 @@
-# Clear 메서드
+# Clear 메서드 (OutputBar ��ü)
 
 출력 모음의 내용을 지웁니다.
 

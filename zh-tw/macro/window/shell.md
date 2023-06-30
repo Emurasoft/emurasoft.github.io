@@ -1,4 +1,4 @@
-# shell 屬性
+# shell 屬性 (Window ��H)
 
 返回 [**Shell** 對象](../shell/index)。
 

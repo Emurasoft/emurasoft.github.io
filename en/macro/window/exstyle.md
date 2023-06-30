@@ -1,4 +1,4 @@
-# ExStyle Property
+# ExStyle Property (Window Object)
 
 Returns the extended styles of the specified window.
 

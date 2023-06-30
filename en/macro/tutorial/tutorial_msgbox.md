@@ -1,4 +1,4 @@
-# Display a Message Box
+# Display a Message Box (Tutorial)
 
 To display simple text in a message box, you can use [alert \
 Method](../window/window_alert) or [confirm Method](../window/window_confirm).

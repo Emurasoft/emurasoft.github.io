@@ -1,4 +1,4 @@
-# GetAnchorPointX 方法
+# GetAnchorPointX 方法 (Selection ����)
 
 返回选定内容原点的列号。
 

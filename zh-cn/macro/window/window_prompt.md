@@ -1,4 +1,4 @@
-# prompt 方法
+# prompt 方法 (Window ����)
 
 显示一个对话框来输入字符串。
 

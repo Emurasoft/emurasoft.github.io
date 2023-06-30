@@ -1,4 +1,4 @@
-# CharacterSpace 屬性
+# CharacterSpace 屬性 (DisplayProp ��H)
 
 與組態屬性中的 [**顯示** 頁面](../../dlg/properties/display/index) 上的 **字元間距** 文字方塊相對應。
 

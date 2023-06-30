@@ -1,7 +1,3 @@
-![Emurasoft 엠에디터](images/emeditor-text-editor.png)
-
-## 엠에디터 프로페셔널
-
 # 도움말
 
 #### [이 프로그램을 불법으로 사용하지 마십시오.](notice/illegal_usage)

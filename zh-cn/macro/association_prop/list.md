@@ -1,4 +1,4 @@
-# List 属性
+# List 属性 (AssociationProp ����)
 
 检索 [AssociationList 对象](../association_list/index)。
 

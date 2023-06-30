@@ -1,4 +1,4 @@
-# CombineColumns 方法
+# CombineColumns 方法 (Document ����)
 
 在 CSV 模式下合并指定列。
 

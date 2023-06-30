@@ -1,4 +1,4 @@
-# TabsAsSpaces Property
+# TabsAsSpaces Property (FileSaveProp Object)
 
 Corresponds to the **Save**
 **Tabs as Spaces** check box in the

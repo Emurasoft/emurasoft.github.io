@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (CharacterRanges Collection)
 
 Retrieves the [**CharacterRange** object](../character_range/index) for the specified index.
 

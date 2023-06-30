@@ -1,4 +1,4 @@
-# DeleteDuplicates メソッド
+# DeleteDuplicates メソッド ()
 
 重複行を削除またはブックマークします。
 

@@ -1,4 +1,4 @@
-# GetBottomPointX 方法
+# GetBottomPointX 方法 (Selection ��H)
 
 返回選定內容底部的列號。
 

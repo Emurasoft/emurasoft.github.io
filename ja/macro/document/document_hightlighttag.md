@@ -1,4 +1,4 @@
-# HighlightTag プロパティ
+# HighlightTag プロパティ ()
 
 タグを強調表示するかどうかを取得、または設定します。
 

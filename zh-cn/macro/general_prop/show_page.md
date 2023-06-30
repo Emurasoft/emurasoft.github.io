@@ -1,4 +1,4 @@
-# ShowPage 属性
+# ShowPage 属性 (GeneralProp ����)
 
 与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **显示页码** 复选框相对应。
 

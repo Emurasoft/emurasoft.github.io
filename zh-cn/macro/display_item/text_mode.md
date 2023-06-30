@@ -1,4 +1,4 @@
-# TextMode 属性
+# TextMode 属性 (DisplayItem ����)
 
 指定文本颜色模式。
 

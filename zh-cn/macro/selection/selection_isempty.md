@@ -1,4 +1,4 @@
-# IsEmpty 属性
+# IsEmpty 属性 (Selection ����)
 
 表示活动点是否与锚点相同。
 

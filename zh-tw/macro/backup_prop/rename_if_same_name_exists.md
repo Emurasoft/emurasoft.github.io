@@ -1,4 +1,4 @@
-# RenameIfSameNameExists 屬性
+# RenameIfSameNameExists 屬性 (BackupProp ��H)
 
 與組態屬性中 [**備份** 頁面](../../dlg/properties/backup/index) 上的 **重新命名檔案，檔案名已存在** 核取方塊對應。
 

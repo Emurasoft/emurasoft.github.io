@@ -1,4 +1,4 @@
-# PromptNull Property
+# PromptNull Property (FileProp Object)
 
 Corresponds to the **Prompt**
 **if Null Character Found** check box in the

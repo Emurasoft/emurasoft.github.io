@@ -1,4 +1,4 @@
-# StartOfLine Method
+# StartOfLine Method (Selection Object)
 
 Moves the cursor to the start of the line.
 

@@ -1,4 +1,4 @@
-# editor プロパティ
+# editor プロパティ ()
 
 [Editor オブジェクト](../editor/index) を返します。
 

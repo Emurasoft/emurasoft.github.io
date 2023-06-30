@@ -1,4 +1,4 @@
-# TagJump 메서드
+# TagJump 메서드 (Selection ��ü)
 
 커서 위치에 태크로 점프합니다.
 

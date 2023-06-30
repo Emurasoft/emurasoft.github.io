@@ -1,4 +1,4 @@
-# ClassName 屬性
+# ClassName 屬性 (Window ��H)
 
 返回視窗的類名。
 

@@ -1,4 +1,4 @@
-# FullName 속성
+# FullName 속성 (Document ��ü)
 
 문서의 전체 경로와 파일 이름을 검색합니다.
 

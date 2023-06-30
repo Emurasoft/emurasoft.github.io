@@ -1,4 +1,4 @@
-# SetActivePoint 方法
+# SetActivePoint 方法 (Selection ����)
 
 设置关闭位置。
 

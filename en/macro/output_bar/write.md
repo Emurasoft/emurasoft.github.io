@@ -1,4 +1,4 @@
-# write Method
+# write Method (OutputBar Object)
 
 Appends a string to the output bar.
 

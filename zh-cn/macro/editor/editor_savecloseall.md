@@ -1,4 +1,4 @@
-# SaveCloseAll 方法
+# SaveCloseAll 方法 (Editor ����)
 
 保存并关闭所有打开的文件。
 

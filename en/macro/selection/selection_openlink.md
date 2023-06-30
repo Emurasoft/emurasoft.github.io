@@ -1,4 +1,4 @@
-# OpenLink Method
+# OpenLink Method (Selection Object)
 
 Opens the hyperlink at the cursor.
 

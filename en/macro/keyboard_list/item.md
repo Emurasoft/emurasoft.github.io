@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (KeyboardList Collection)
 
 Retrieves the [KeyboardItem object](../keyboard_item/index) for the specified index.
 

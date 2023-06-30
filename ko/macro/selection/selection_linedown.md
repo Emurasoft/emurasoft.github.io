@@ -1,4 +1,4 @@
-# LineDown 메서드
+# LineDown 메서드 (Selection ��ü)
 
 지정된 줄의 수 만큼 커서를 아래로 이동합니다.
 

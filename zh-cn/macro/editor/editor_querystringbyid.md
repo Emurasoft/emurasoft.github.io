@@ -1,4 +1,4 @@
-# QueryStringByID 方法
+# QueryStringByID 方法 (Editor ����)
 
 检索与指定命令相关联的字符串。
 

@@ -1,4 +1,4 @@
-# List 속성
+# List 속성 (HighlightProp ��ü)
 
 [**HighlightList** 컬렉션](../highlight_list/index) 을 검색합니다.
 

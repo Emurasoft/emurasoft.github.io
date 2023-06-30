@@ -1,4 +1,4 @@
-# Redraw Property
+# Redraw Property (Window Object)
 
 Allows changes in EmEditor to be redrawn or prevents changes in EmEditor from being redrawn.
 

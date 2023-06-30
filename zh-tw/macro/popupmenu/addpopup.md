@@ -1,4 +1,4 @@
-# AddPopup 方法
+# AddPopup 方法 (PopupMenu ��H)
 
 添加一個新的子功能表到功能表末尾。
 

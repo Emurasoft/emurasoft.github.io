@@ -1,4 +1,4 @@
-# DetectTSV Property
+# DetectTSV Property (FileProp Object)
 
 Corresponds to the **Detect TSV (Tab-Separated)** check box in the
 [**File** page](../../dlg/properties/file/index) of Configuration Properties.

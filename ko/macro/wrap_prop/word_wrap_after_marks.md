@@ -1,4 +1,4 @@
-# WordWrapAfterMarks 속성
+# WordWrapAfterMarks 속성 (WrapProp ��ü)
 
 구성 속성의 [**배치** 탭](../../dlg/properties/wrap/index) 의 **표시 후 단어 배치 활성화** 체크 박스에 해당합니다.
 

@@ -1,4 +1,4 @@
-# General 属性
+# General 属性 (Config ����)
 
 检索 [GeneralProp 对象](../general_prop/index)。
 

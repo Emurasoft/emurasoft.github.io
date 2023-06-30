@@ -1,4 +1,4 @@
-# FuzzyOptions Property
+# FuzzyOptions Property (Editor Object)
 
 Retrieves the [**FuzzyOptions** Object](../fuzzy_options/index).
 

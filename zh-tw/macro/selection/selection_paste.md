@@ -1,4 +1,4 @@
-# Paste 方法
+# Paste 方法 (Selection ��H)
 
 在游標處插入剪貼簿內容。
 

@@ -1,4 +1,4 @@
-# y Property
+# y Property (Point Object)
 
 Represents the vertical (or line) position of the Point object.
 

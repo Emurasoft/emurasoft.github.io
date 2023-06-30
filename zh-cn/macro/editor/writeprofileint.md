@@ -1,4 +1,4 @@
-# WriteProfileInt 方法
+# WriteProfileInt 方法 (Editor ����)
 
 设一个整数值到注册表中或一个取决于 EmEditor 设置的 INI 文件中。
 

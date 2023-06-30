@@ -1,4 +1,4 @@
-# JavaScript または VBScript が利用可能
+# JavaScript または VBScript が利用可能 ()
 
 マクロ言語に JavaScript または VBScript を利用しているため、HTML スクリプトや Windows
 スクリプトを作成した経験がある方なら、EmEditor マクロも簡単に作成できます。経験がない方でも、EmEditor はキーボード操作をマクロ

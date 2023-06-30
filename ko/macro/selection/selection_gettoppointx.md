@@ -1,4 +1,4 @@
-# GetTopPointX 메서드
+# GetTopPointX 메서드 (Selection ��ü)
 
 선택 영역의 상단의 열 번호를 반환합니다.
 

@@ -1,4 +1,4 @@
-# scrollTo 메서드
+# scrollTo 메서드 (Window ��ü)
 
 지정된 위치로 창을 스크롤합니다.
 

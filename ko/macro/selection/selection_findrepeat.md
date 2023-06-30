@@ -1,4 +1,4 @@
-# FindRepeat 메서드
+# FindRepeat 메서드 (Selection ��ü)
 
 같은 문자열로 이전 검색을 반복합니다.
 

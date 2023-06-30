@@ -1,4 +1,4 @@
-# QuotationMark 属性
+# QuotationMark 属性 (Csv ����)
 
 检索或设置当前 Csv 对象的引号标记。
 

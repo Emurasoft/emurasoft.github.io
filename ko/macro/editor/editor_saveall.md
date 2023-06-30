@@ -1,4 +1,4 @@
-# SaveAll 메서드
+# SaveAll 메서드 (Editor ��ü)
 
 현재 열려있는 파일들을 모두 저장합니다.
 

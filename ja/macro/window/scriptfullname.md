@@ -1,4 +1,4 @@
-# ScriptFullName プロパティ
+# ScriptFullName プロパティ ()
 
 現在実行しているマクロの完全パスと名前を取得します。
 

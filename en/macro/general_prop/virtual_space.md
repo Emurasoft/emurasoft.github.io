@@ -1,4 +1,4 @@
-# VirtualSpace Property
+# VirtualSpace Property (GeneralProp Object)
 
 Corresponds to the **Enable Virtual Space** check box in the
 [**General** page](../../dlg/properties/general/index) of Configuration Properties.

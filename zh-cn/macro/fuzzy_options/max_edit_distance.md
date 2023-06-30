@@ -1,4 +1,4 @@
-# MaxEditDistance 属性
+# MaxEditDistance 属性 (FuzzyOptions ����)
 
 检索或设置最大编辑距离。
 

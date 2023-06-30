@@ -1,4 +1,4 @@
-# GetAnchorPointX 메서드
+# GetAnchorPointX 메서드 (Selection ��ü)
 
 선택 영역의 원점의 열 번호를 반환합니다.
 

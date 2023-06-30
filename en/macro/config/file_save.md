@@ -1,4 +1,4 @@
-# FileSave Property
+# FileSave Property (Config Object)
 
 Retrieves the [FileSaveProp object](../file_save_prop/index).
 

@@ -1,4 +1,4 @@
-# NewlineCode プロパティ
+# NewlineCode プロパティ ()
 
 文書の改行コードを取得します。
 

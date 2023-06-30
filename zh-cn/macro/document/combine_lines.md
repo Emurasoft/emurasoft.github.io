@@ -1,4 +1,4 @@
-# CombineLines 方法
+# CombineLines 方法 (Document ����)
 
 合并 CSV 文档中垂直相邻的重复单元格。
 

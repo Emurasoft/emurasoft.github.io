@@ -1,4 +1,4 @@
-# StartOfDocument Method
+# StartOfDocument Method (Selection Object)
 
 Moves the cursor to the start of the document.
 

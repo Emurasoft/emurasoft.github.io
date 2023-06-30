@@ -1,4 +1,4 @@
-# GetAnchorPointY メソッド
+# GetAnchorPointY メソッド ()
 
 選択範囲の開始位置の現在行を 1 で始まる整数で返します。
 

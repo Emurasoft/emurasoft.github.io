@@ -1,4 +1,4 @@
-# Untitled Property
+# Untitled Property (Document Object)
 
 Retrieves a flag indicating whether the document is untitled.
 

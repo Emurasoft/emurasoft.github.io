@@ -1,4 +1,4 @@
-# Copy Method
+# Copy Method (Selection Object)
 
 Copies the selection to the Clipboard.
 

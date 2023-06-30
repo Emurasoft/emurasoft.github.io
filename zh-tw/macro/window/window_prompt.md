@@ -1,4 +1,4 @@
-# prompt 方法
+# prompt 方法 (Window ��H)
 
 顯示一個對話方塊來輸入字串。
 

@@ -1,4 +1,4 @@
-# WordWrapAfterMarks Property
+# WordWrapAfterMarks Property (WrapProp Object)
 
 Corresponds to the **Enable**
 **Word Wrap After Marks** check box in the

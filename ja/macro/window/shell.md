@@ -1,4 +1,4 @@
-# Shell オブジェクト
+# Shell オブジェクト ()
 
 現在開いている [Shell オブジェクト](../shell/index) を返します。
 

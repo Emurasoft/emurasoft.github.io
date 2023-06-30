@@ -1,4 +1,4 @@
-# ShowLineNumbers プロパティ
+# ShowLineNumbers プロパティ (GeneralProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の **\[行番号を表示\]** チェック ボックスに相当します。
 

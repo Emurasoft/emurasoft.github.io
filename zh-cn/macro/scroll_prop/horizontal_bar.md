@@ -1,4 +1,4 @@
-# HorizontalBar 属性
+# HorizontalBar 属性 (ScrollProp ����)
 
 与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **水平滚动条** 下拉列表框相对应。
 

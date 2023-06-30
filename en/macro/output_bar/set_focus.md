@@ -1,4 +1,4 @@
-# SetFocus Method
+# SetFocus Method (OutputBar Object)
 
 Sets the keyboard focus to the output bar.
 

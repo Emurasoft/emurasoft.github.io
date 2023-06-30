@@ -1,4 +1,4 @@
-# GetUnicodeName 方法
+# GetUnicodeName 方法 (Editor ��H)
 
 檢索指定字元或字串的 Unicode 名。
 

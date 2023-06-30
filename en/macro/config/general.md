@@ -1,4 +1,4 @@
-# General Property
+# General Property (Config Object)
 
 Retrieves the [GeneralProp object](../general_prop/index).
 

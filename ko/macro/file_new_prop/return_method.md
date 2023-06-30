@@ -1,4 +1,4 @@
-# ReturnMethod 속성
+# ReturnMethod 속성 (FileNewProp ��ü)
 
 [**새 파일 상세 정보** 대화 상자](../../dlg/properties/file/new_details/index) 의
 **반환 방법 드롭 다운** 리스트 박스에 해당합니다.

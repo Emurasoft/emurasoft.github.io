@@ -1,4 +1,4 @@
-# Display 繝励Ο繝代ユ繧｣
+# Display 繝励Ο繝代ユ繧｣ (Config オブジェクト)
 
 [DisplayProp 繧ｪ繝悶ず繧ｧ繧ｯ繝�](../display_prop/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

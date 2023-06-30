@@ -1,4 +1,4 @@
-# setData 메서드
+# setData 메서드 (clipboardData ��ü)
 
 클립보드에 지정된 형식 내 데이터를 할당합니다.
 

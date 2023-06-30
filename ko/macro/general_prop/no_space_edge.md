@@ -1,4 +1,4 @@
-# NoSpaceEdge 속성
+# NoSpaceEdge 속성 (GeneralProp ��ü)
 
 구성 속성 [**일반** 탭](../../dlg/properties/general/index) 의 **창 왼쪽 가장자리에 공백 없음** 체크 박스에 해당합니다.
 

@@ -1,4 +1,4 @@
-# Count プロパティ
+# Count プロパティ (DroppedFiles �R���N�V����)
 
 ドロップされたファイルの数を取得します。
 

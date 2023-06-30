@@ -1,4 +1,4 @@
-# Indent Method
+# Indent Method (Selection Object)
 
 Indents the selected lines by the specified number of indentation
 levels.

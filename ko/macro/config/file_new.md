@@ -1,4 +1,4 @@
-# FileNew 속성
+# FileNew 속성 (Config ��ü)
 
 [FileNewProp 개체](../file_new_prop/index) 를 검색합니다.
 

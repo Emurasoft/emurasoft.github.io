@@ -1,4 +1,4 @@
-# ChangeWidth メソッド
+# ChangeWidth メソッド ()
 
 半角文字と全角文字を変換します。
 

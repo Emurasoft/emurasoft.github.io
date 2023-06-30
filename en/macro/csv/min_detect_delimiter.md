@@ -1,4 +1,4 @@
-# MinDetectDelimiter Property
+# MinDetectDelimiter Property (Csv Object)
 
 Corresponds to the **Min delimiters to detect** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 

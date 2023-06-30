@@ -1,4 +1,4 @@
-# NewlineCode Property
+# NewlineCode Property (Document Object)
 
 Retrieves the current newline character code of the document.
 

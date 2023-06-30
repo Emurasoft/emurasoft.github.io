@@ -1,4 +1,4 @@
-# confirm 方法
+# confirm 方法 (Window ����)
 
 在一个简单的对话框内显示一条消息以及「OK」和「Cancel」按钮。
 

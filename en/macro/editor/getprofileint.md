@@ -1,4 +1,4 @@
-# GetProfileInt Method
+# GetProfileInt Method (Editor Object)
 
 Retrieves the integer value for the specified entry from the Registry or an INI file depending on the EmEditor
 settings.

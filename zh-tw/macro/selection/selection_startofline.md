@@ -1,4 +1,4 @@
-# StartOfLine 方法
+# StartOfLine 方法 (Selection ��H)
 
 把游標移動到行首。
 

@@ -1,4 +1,4 @@
-# SetPosition 方法
+# SetPosition 方法 (Window ��H)
 
 設置視窗的大小和位置。
 

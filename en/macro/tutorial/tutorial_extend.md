@@ -1,4 +1,4 @@
-# Change Selection Range
+# Change Selection Range (Tutorial)
 
 To change Selection Range, add the sixth line to our tutorial macro:
 

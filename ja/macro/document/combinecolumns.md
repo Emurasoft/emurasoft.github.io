@@ -1,4 +1,4 @@
-# CombineColumns メソッド
+# CombineColumns メソッド ()
 
 CSV モードで指定された列を結合します。
 

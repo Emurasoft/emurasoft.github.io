@@ -1,4 +1,4 @@
-# GetFileAttributes 方法
+# GetFileAttributes 方法 (Shell ��H)
 
 返回指定檔案或資料夾的屬性。
 

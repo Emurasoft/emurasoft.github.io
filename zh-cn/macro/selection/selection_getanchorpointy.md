@@ -1,4 +1,4 @@
-# GetAnchorPointY 方法
+# GetAnchorPointY 方法 (Selection ����)
 
 返回选定内容原点的行号。
 

@@ -1,4 +1,4 @@
-# CreateFolder Method
+# CreateFolder Method (Shell Object)
 
 Creates a folder.
 

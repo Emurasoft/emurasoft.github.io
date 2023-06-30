@@ -1,4 +1,4 @@
-# WrapIndent 속성
+# WrapIndent 속성 (IndentProp ��ü)
 
 [**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 의 **줄 바꿔서 들여쓰기** 체크 박스에 해당합니다.
 

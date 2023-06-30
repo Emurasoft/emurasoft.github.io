@@ -1,4 +1,4 @@
-# Get a Selected String
+# Get a Selected String (Tutorial)
 
 To get a selected string, use [Text Property](../selection/selection_text).
 

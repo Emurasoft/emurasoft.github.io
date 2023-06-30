@@ -1,4 +1,4 @@
-# VerticalLine Property
+# VerticalLine Property (ScrollProp Object)
 
 Corresponds to the **Vertical Line** check box in the
 [**Scroll** tab](../../dlg/properties/scroll/index) of Configuration Properties.

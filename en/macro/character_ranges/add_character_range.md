@@ -1,4 +1,4 @@
-# AddCharacterRange Method
+# AddCharacterRange Method (CharacterRanges Collection)
 
 Adds a character range.
 

@@ -1,4 +1,4 @@
-# KinsokuEnd Property
+# KinsokuEnd Property (WrapProp Object)
 
 Corresponds to the **Not**
 **Allowed at Line End** text box in the

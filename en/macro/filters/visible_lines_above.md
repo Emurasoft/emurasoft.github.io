@@ -1,4 +1,4 @@
-# VisibleLinesAbove Property
+# VisibleLinesAbove Property (Filters Collection)
 
 Specifies the number of visible lines above the matched lines.
 

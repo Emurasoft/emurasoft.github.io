@@ -1,4 +1,4 @@
-# SetFocus 메서드
+# SetFocus 메서드 (Window ��ü)
 
 창에 키보드 포커스를 설정합니다.
 

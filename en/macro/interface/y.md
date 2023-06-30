@@ -1,4 +1,4 @@
-# y Property
+# y Property (Interface Object)
 
 Returns the vertical position of the cursor passed by a supported plug-in.
 

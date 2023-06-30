@@ -1,4 +1,4 @@
-# SelectWord Method
+# SelectWord Method (Selection Object)
 
 Selects an entire word at the cursor.
 

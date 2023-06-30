@@ -1,4 +1,4 @@
-# Backup 屬性
+# Backup 屬性 (Config ��H)
 
 檢索
 [BackupProp 對象](../backup_prop/index)。

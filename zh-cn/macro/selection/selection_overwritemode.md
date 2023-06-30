@@ -1,4 +1,4 @@
-# OverwriteMode 属性
+# OverwriteMode 属性 (Selection ����)
 
 设置或检索表示改写或插入模式的标志。
 

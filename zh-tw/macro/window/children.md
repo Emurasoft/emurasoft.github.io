@@ -1,4 +1,4 @@
-# Children 屬性
+# Children 屬性 (Window ��H)
 
 返回代表子視窗的 [**Windows** 集合](../windows/index)。
 

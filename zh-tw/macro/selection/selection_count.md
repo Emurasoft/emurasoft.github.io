@@ -1,4 +1,4 @@
-# Count 屬性
+# Count 屬性 (Selection ��H)
 
 檢索在目前的文檔中所選取的數目。
 

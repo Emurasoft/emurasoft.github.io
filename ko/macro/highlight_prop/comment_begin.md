@@ -1,4 +1,4 @@
-# CommentBegin 속성
+# CommentBegin 속성 (HighlightProp ��ü)
 
 구성 속성 [**강조 표시 (2)** 탭](../../dlg/properties/highlight2/index) 의 **설명 그룹 박스 \- 시작** 텍스트 박스에 해당합니다.
 

@@ -1,4 +1,4 @@
-# write 方法
+# write 方法 (Interface ����)
 
 把一个字符串传递到一个支持的插件中。
 

@@ -1,4 +1,4 @@
-# GetActivePointY 메서드
+# GetActivePointY 메서드 (Selection ��ü)
 
 커서 위치에 줄 번호를 반환합니다.
 

@@ -1,4 +1,4 @@
-# Backup 繝励Ο繝代ユ繧｣
+# Backup 繝励Ο繝代ユ繧｣ (Config オブジェクト)
 
 [BackupProp 繧ｪ繝悶ず繧ｧ繧ｯ繝�](../backup_prop/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

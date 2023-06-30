@@ -1,4 +1,4 @@
-# Sort Method
+# Sort Method (Document Object)
 
 Sorts the document.
 

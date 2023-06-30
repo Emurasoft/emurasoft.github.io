@@ -1,4 +1,4 @@
-# Percent Property
+# Percent Property (FuzzyOptions Object)
 
 Sets or retrieves the percent value of similarity.
 

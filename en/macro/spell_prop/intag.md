@@ -1,4 +1,4 @@
-# InTag Property
+# InTag Property (SpellProp Object)
 
 Corresponds to the **Tags** check box in the
 [**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.

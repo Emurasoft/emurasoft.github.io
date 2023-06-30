@@ -1,4 +1,4 @@
-# Insert Characters
+# Insert Characters (Tutorial)
 
 To insert characters using a macro, use the **[Text Property](../selection/selection_text)**.
 Modify our tutorial file as follows:

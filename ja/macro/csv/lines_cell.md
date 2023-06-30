@@ -1,4 +1,4 @@
-# LinesCell プロパティ
+# LinesCell プロパティ (Csv �I�u�W�F�N�g)
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[セル内の最大改行数\] テキスト ボックス に相当します。
 

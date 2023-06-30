@@ -1,4 +1,4 @@
-# InsertFromFile Method
+# InsertFromFile Method (Selection Object)
 
 Inserts the contents of the specified file at the cursor position.
 

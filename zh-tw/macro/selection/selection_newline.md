@@ -1,4 +1,4 @@
-# NewLine 方法
+# NewLine 方法 (Selection ��H)
 
 在游標處插入指定的新行數。
 

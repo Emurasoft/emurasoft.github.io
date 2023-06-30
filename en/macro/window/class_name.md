@@ -1,4 +1,4 @@
-# ClassName Property
+# ClassName Property (Window Object)
 
 Returns the class name for the window.
 

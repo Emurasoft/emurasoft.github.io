@@ -1,4 +1,4 @@
-# PreviousBookmark 方法
+# PreviousBookmark 方法 (Selection ����)
 
 移动到文档中的上一个书签处。
 

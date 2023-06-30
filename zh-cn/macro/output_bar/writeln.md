@@ -1,4 +1,4 @@
-# writeln 方法
+# writeln 方法 (OutputBar ����)
 
 追加一个字符串和一个新行到输出栏上。
 

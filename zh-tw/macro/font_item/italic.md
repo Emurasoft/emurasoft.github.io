@@ -1,4 +1,4 @@
-# Italic 屬性
+# Italic 屬性 (FontItem ��H)
 
 True 如果字型的格式被設置為斜體。
 

@@ -1,4 +1,4 @@
-# IsActiveEndGreater 屬性
+# IsActiveEndGreater 屬性 (Selection ��H)
 
 表示活動點是否與底部點相同。
 

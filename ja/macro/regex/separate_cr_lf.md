@@ -1,4 +1,4 @@
-# SeparateCrLf プロパティ
+# SeparateCrLf プロパティ ()
 
 正規表現が CR と LF を区別するかどうかを設定または取得します。
 

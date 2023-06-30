@@ -1,4 +1,4 @@
-# ScriptName Property
+# ScriptName Property (Window Object)
 
 Retrieves only the file name of the currently running macro file.
 

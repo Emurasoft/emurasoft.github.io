@@ -1,4 +1,4 @@
-# Delimiter Property
+# Delimiter Property (Csv Object)
 
 Retrieves or sets the delimiter for the current Csv object.
 

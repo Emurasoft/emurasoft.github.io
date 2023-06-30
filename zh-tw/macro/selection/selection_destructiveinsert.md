@@ -1,4 +1,4 @@
-# DestructiveInsert 方法
+# DestructiveInsert 方法 (Selection ��H)
 
 插入文字，覆蓋已存在的文字。
 

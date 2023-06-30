@@ -1,4 +1,4 @@
-# Encoding 屬性
+# Encoding 屬性 (Document ��H)
 
 檢索或設置打開的檔案的當前編碼。
 

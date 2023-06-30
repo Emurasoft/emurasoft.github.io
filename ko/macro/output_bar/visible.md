@@ -1,4 +1,4 @@
-# Visible 속성
+# Visible 속성 (OutputBar ��ü)
 
 출력 모음을 보이거나 숨깁니다.
 

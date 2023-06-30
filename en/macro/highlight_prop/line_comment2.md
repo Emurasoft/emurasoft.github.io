@@ -1,4 +1,4 @@
-# LineComment2 Property
+# LineComment2 Property (HighlightProp Object)
 
 Corresponds to the **Comments**
 **group box - Line Comment** text box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.

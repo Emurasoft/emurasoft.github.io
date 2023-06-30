@@ -1,4 +1,4 @@
-# VisibleLinesBelow 屬性
+# VisibleLinesBelow 屬性 (Filters ���X)
 
 指定符合行以下可見行的行數。
 

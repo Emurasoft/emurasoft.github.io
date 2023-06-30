@@ -1,4 +1,4 @@
-# CopyFullName 메서드
+# CopyFullName 메서드 (Document ��ü)
 
 클립보드에 문서의 전체 경로와 파일 이름을 복사합니다.
 

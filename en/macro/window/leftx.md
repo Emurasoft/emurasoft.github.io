@@ -1,4 +1,4 @@
-# LeftX Property
+# LeftX Property (Window Object)
 
 Returns or sets the horizontal position of the specified window, in pixels.
 

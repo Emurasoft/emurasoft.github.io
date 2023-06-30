@@ -1,4 +1,4 @@
-# HorizontalGrid 屬性
+# HorizontalGrid 屬性 (ScrollProp ��H)
 
 與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **水平格線** 核取方塊相對應。
 

@@ -1,4 +1,4 @@
-# NameUntitled 属性
+# NameUntitled 属性 (FileSaveProp ����)
 
 与 [**保存详细信息** 对话框](../../dlg/properties/file/save_details/index) 中的 **自动为无标题文档命名** 复选框相对应。
 

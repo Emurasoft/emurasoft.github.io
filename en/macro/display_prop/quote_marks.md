@@ -1,4 +1,4 @@
-# QuoteMarks Property
+# QuoteMarks Property (DisplayProp Object)
 
 Corresponds to the **Quote**
 **Marks** text box in the

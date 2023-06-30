@@ -1,4 +1,4 @@
-# ShowEOF Property
+# ShowEOF Property (MarkProp Object)
 
 Corresponds to the **Show**
 **End of File** check box in the

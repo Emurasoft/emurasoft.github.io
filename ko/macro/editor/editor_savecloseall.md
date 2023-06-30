@@ -1,4 +1,4 @@
-# SaveCloseAll 메서드
+# SaveCloseAll 메서드 (Editor ��ü)
 
 열려있는 모든 파일을 저장하고 닫습니다.
 

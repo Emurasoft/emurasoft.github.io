@@ -1,4 +1,4 @@
-# Config 속성
+# Config 속성 (Document ��ü)
 
 [**Config** 개체](../config/index) 를 검색합니다.
 

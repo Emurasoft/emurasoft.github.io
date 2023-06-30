@@ -1,4 +1,4 @@
-# Export Method
+# Export Method (Filters Collection)
 
 Exports the collection to a TSV file.
 

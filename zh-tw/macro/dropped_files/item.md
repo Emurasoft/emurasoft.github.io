@@ -1,4 +1,4 @@
-# Item 屬性
+# Item 屬性 (DroppedFiles ���X)
 
 檢索指定索引下的被拖放的檔案名稱。
 

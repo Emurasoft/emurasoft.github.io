@@ -1,4 +1,4 @@
-# Count Property
+# Count Property (FontList Collection)
 
 Retrieves the number of items.
 

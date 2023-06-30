@@ -1,4 +1,4 @@
-# Hyperlink Property
+# Hyperlink Property (SpellProp Object)
 
 Corresponds to the **Hyperlinks** check box in the [**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
 

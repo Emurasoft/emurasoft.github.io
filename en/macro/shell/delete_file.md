@@ -1,4 +1,4 @@
-# DeleteFile Method
+# DeleteFile Method (Shell Object)
 
 Deletes one or more specified files.
 

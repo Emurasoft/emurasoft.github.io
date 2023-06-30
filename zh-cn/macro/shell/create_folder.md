@@ -1,4 +1,4 @@
-# CreateFolder 方法
+# CreateFolder 方法 (Shell ����)
 
 创建一个文件夹。
 

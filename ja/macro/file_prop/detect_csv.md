@@ -1,4 +1,4 @@
-# DetectCSV プロパティ
+# DetectCSV プロパティ (FileProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の **\[CSV（カンマ区切り）を検出\]** チェック ボックスに相当します。
 

@@ -1,4 +1,4 @@
-# ActiveDocument 속성
+# ActiveDocument 속성 (Editor ��ü)
 
 현재 문서의 [Document 개체](../document/index) 를 검색합니다.
 

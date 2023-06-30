@@ -1,4 +1,4 @@
-# GetTopPointY Method
+# GetTopPointY Method (Selection Object)
 
 Returns the line number of the top of the selection.
 

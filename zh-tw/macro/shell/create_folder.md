@@ -1,4 +1,4 @@
-# CreateFolder 方法
+# CreateFolder 方法 (Shell ��H)
 
 創建一個資料夾。
 

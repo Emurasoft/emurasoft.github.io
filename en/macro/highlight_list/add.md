@@ -1,4 +1,4 @@
-# Add Method
+# Add Method (HighlightList Collection)
 
 Adds an item.
 

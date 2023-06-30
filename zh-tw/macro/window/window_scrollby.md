@@ -1,4 +1,4 @@
-# scrollBy 方法
+# scrollBy 方法 (Window ��H)
 
 通過指定的相對數量捲動視窗。
 

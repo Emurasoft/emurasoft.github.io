@@ -1,4 +1,4 @@
-# Escape 屬性
+# Escape 屬性 (Csv ��H)
 
 與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **使用逸出字元** 核取方塊對應。
 

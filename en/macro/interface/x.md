@@ -1,4 +1,4 @@
-# x Property
+# x Property (Interface Object)
 
 Returns the horizontal position of the cursor passed by a supported plug-in.
 

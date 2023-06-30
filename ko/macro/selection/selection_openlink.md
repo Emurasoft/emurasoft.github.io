@@ -1,4 +1,4 @@
-# OpenLink 메서드
+# OpenLink 메서드 (Selection ��ü)
 
 커서 위치에 하이퍼링크를 엽니다.
 

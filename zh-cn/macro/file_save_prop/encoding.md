@@ -1,4 +1,4 @@
-# Encoding 属性
+# Encoding 属性 (FileSaveProp ����)
 
 与 [**保存详细信息** 对话框](../../dlg/properties/file/save_details/index) 中的 **编码** 下拉列表框相对应。
 

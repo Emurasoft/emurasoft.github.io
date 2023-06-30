@@ -1,4 +1,4 @@
-# ファイルから置換する
+# ファイルから置換する ()
 
 指定するパスの複数のファイルから文字列を置換するには、 [ReplaceInFiles \
 メソッド](../editor/editor_replaceinfiles) を利用します。

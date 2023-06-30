@@ -1,4 +1,4 @@
-# TabColumns Property
+# TabColumns Property (IndentProp Object)
 
 Corresponds to the **Tab**
 **Columns** text box in the

@@ -1,4 +1,4 @@
-# ShowReturns Property
+# ShowReturns Property (MarkProp Object)
 
 Corresponds to the **Show**
 **Returns** check box in the

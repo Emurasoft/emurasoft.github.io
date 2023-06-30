@@ -1,4 +1,4 @@
-# StartOfDocument 方法
+# StartOfDocument 方法 (Selection ����)
 
 把光标移动到文档的开始位置。
 

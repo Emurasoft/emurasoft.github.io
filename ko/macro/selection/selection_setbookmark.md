@@ -1,4 +1,4 @@
-# SetBookmark 메서드
+# SetBookmark 메서드 (Selection ��ü)
 
 커서 위치에 책갈피를 설정합니다.
 

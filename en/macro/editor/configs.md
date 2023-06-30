@@ -1,4 +1,4 @@
-# Configs Property
+# Configs Property (Editor Object)
 
 Retrieves the [**Configs** Collection](../configs/index).
 

@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (AssociationList Collection)
 
 Retrieves the [AssociationItem object](../association_item/index) for the specified index.
 

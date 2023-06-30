@@ -1,4 +1,4 @@
-# CheckFileChanged Property
+# CheckFileChanged Property (FileProp Object)
 
 Corresponds to the **Changed**
 **by Another Program drop-down** list box in the

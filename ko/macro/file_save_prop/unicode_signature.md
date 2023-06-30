@@ -1,4 +1,4 @@
-# UnicodeSignature 속성
+# UnicodeSignature 속성 (FileSaveProp ��ü)
 
 [**세부 정보 저장** 대화 상자](../../dlg/properties/file/save_details/index) 의
 **유니코드 서명 추가 (BOM)** 체크 박스에 해당합니다.

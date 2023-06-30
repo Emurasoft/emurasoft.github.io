@@ -1,4 +1,4 @@
-# HighlightFind Property
+# HighlightFind Property (Document Object)
 
 Determines whether to highlight the searched strings.
 

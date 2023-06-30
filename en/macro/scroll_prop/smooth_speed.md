@@ -1,4 +1,4 @@
-# SmoothSpeed Property
+# SmoothSpeed Property (ScrollProp Object)
 
 Corresponds to the **Smooth Scroll slider** in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 

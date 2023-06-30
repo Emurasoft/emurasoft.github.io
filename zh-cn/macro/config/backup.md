@@ -1,4 +1,4 @@
-# Backup 属性
+# Backup 属性 (Config ����)
 
 检索
 [BackupProp 对象](../backup_prop/index)。

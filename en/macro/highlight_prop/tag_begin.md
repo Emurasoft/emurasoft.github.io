@@ -1,4 +1,4 @@
-# TagBegin Property
+# TagBegin Property (HighlightProp Object)
 
 Corresponds to the **Begin**
 **Tag** text box in the

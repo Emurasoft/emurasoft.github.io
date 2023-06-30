@@ -1,4 +1,4 @@
-# Integrated Development Environment for Macros
+# Integrated Development Environment for Macros (Features)
 
 When you open a macro file in EmEditor, keywords, such as EmEditor macro
 objects, properties, or methods, are automatically highlighted. For assistance

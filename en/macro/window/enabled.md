@@ -1,4 +1,4 @@
-# Enabled Property
+# Enabled Property (Window Object)
 
 Returns whether the window is enabled for mouse and keyboard input.
 

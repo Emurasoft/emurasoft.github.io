@@ -1,4 +1,4 @@
-# SearchList 繝励Ο繝代ユ繧｣
+# SearchList 繝励Ο繝代ユ繧｣ (DisplayProp オブジェクト)
 
 讀懃ｴ｢濶ｲ縺ｮ繝ｪ繧ｹ繝医�ｮ [DisplayList 繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ](../display_list/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

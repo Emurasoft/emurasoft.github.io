@@ -1,4 +1,4 @@
-# Style 屬性
+# Style 屬性 (Window ��H)
 
 返回指定視窗的樣式。
 

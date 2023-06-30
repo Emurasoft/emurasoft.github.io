@@ -1,4 +1,4 @@
-# Save Method
+# Save Method (Config Object)
 
 Saves the configuration.
 

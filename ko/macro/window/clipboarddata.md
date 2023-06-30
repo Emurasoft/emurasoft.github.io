@@ -1,4 +1,4 @@
-# clipboardData 속성
+# clipboardData 속성 (Window ��ü)
 
 [**clipboardData** 개체](../clipboarddata/index) 를 반환합니다.
 

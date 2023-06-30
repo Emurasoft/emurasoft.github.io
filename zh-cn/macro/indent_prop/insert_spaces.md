@@ -1,4 +1,4 @@
-# InsertSpaces 属性
+# InsertSpaces 属性 (IndentProp ����)
 
 与 [**制表符/缩进** 对话框](../../dlg/properties/general/indent/index) 上的 **将制表符转换为空格** 复选框相对应。
 

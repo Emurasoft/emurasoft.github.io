@@ -1,4 +1,4 @@
-# ShowLineNumbers 属性
+# ShowLineNumbers 属性 (GeneralProp ����)
 
 与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **显示行号** 复选框相对应。
 

@@ -1,4 +1,4 @@
-# Load Method
+# Load Method (Config Object)
 
 Loads a configuration.
 

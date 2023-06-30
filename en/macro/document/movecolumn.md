@@ -1,4 +1,4 @@
-# MoveColumn Method
+# MoveColumn Method (Document Object)
 
 Moves or copies specified columns in a CSV mode.
 

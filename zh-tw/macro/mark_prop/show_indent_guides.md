@@ -1,4 +1,4 @@
-# ShowIndentGuides 屬性
+# ShowIndentGuides 屬性 (MarkProp ��H)
 
 與組態屬性中 [**標記** 頁面](../../dlg/properties/marks/index) 上的 **顯示縮排線** 核取方塊相對應。
 

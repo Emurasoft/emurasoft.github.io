@@ -1,4 +1,4 @@
-# BatchFindInFiles 方法
+# BatchFindInFiles 方法 (Editor ��H)
 
 在多個檔案中搜索多個字串。搜索檔案的結果清單將顯示在目前的視窗中。 如果未儲存文檔，該方法將顯示是否儲存檔案的提示信息。
 

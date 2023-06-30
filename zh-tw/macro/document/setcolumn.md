@@ -1,4 +1,4 @@
-# SetColumn 方法
+# SetColumn 方法 (Document ��H)
 
 在 CSV 模式下設置文字列。
 

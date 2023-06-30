@@ -1,4 +1,4 @@
-# SetCell Method
+# SetCell Method (Document Object)
 
 Sets the text on the specified cell in a CSV mode.
 

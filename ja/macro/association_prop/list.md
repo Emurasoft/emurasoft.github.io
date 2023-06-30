@@ -1,4 +1,4 @@
-# List 繝励Ο繝代ユ繧｣
+# List 繝励Ο繝代ユ繧｣ (AssociationProp オブジェクト)
 
 [AssociationList 繧ｪ繝悶ず繧ｧ繧ｯ繝�](../association_list/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

@@ -1,4 +1,4 @@
-# CreatePopupMenu Method
+# CreatePopupMenu Method (Window Object)
 
 Creates a popup menu.
 

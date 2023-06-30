@@ -1,4 +1,4 @@
-# confirm 方法
+# confirm 方法 (Window ��H)
 
 在一個簡單的對話方塊內顯示一條消息以及「OK」和「Cancel」按鈕。
 

@@ -1,4 +1,4 @@
-# VerticalBar プロパティ
+# VerticalBar プロパティ (ScrollProp �I�u�W�F�N�g)
 
 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の
 **\[垂直スクロール バー\]** ドロップダウン リスト ボックスに相当します。

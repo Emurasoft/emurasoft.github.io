@@ -1,4 +1,4 @@
-# Interface プロパティ
+# Interface プロパティ ()
 
 [**Interface** オブジェクト](../interface/index) を返します。
 

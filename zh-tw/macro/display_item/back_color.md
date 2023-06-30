@@ -1,4 +1,4 @@
-# BackColor 屬性
+# BackColor 屬性 (DisplayItem ��H)
 
 指定對象的背景顏色。
 

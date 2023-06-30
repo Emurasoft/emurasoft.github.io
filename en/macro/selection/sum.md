@@ -1,4 +1,4 @@
-# Sum Property
+# Sum Property (Selection Object)
 
 Retrieves the sum of the numbers contained in the selection.
 

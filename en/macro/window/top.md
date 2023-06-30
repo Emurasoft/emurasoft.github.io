@@ -1,4 +1,4 @@
-# Top Property
+# Top Property (Window Object)
 
 Returns or sets the vertical position of the specified window, in pixels.
 

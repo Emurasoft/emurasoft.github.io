@@ -1,4 +1,4 @@
-# Count Property
+# Count Property (DroppedFiles Collection)
 
 Retrieves the number of dropped files.
 

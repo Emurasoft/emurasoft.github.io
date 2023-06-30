@@ -1,4 +1,4 @@
-# CopyLink 方法
+# CopyLink 方法 (Selection ��H)
 
 複製游標處的超連結到剪貼簿上。
 

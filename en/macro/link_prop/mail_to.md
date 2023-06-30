@@ -1,4 +1,4 @@
-# MailTo Property
+# MailTo Property (LinkProp Object)
 
 Corresponds to the **Clicking**
 **Mail Address Sends Mail** check box in the [**Link** page](../../dlg/properties/link/index) of Configuration Properties.

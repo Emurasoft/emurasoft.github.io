@@ -1,4 +1,4 @@
-# Italic Property
+# Italic Property (FontItem Object)
 
 True if the font is formatted as Italic.
 

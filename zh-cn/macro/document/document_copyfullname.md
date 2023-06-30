@@ -1,4 +1,4 @@
-# CopyFullName 方法
+# CopyFullName 方法 (Document ����)
 
 复制文档的完整路径以及文件名称到剪贴板上。
 

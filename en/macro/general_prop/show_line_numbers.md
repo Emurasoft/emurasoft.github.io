@@ -1,4 +1,4 @@
-# ShowLineNumbers Property
+# ShowLineNumbers Property (GeneralProp Object)
 
 Corresponds to the **Show Line Numbers** check box in the
 [**General** page](../../dlg/properties/general/index) of Configuration Properties.

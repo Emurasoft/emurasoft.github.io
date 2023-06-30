@@ -1,4 +1,4 @@
-# EndOfLine 方法
+# EndOfLine 方法 (Selection ��H)
 
 把游標移到目前的行的尾端。
 

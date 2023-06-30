@@ -1,4 +1,4 @@
-# windows 속성
+# windows 속성 (Shell ��ü)
 
 최상위 Windows 컬렉션을 반환합니다.
 

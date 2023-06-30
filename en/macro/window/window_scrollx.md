@@ -1,4 +1,4 @@
-# scrollX Property
+# scrollX Property (Window Object)
 
 Returns the horizontal position of the scroll bar.
 

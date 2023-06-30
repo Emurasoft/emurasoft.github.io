@@ -1,4 +1,4 @@
-# AutoIndent 属性
+# AutoIndent 属性 (IndentProp ����)
 
 与 [**制表符/缩进** 对话框](../../dlg/properties/general/indent/index) 上的 **启用自动缩进** 复选框相对应。
 

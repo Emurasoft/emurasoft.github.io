@@ -1,4 +1,4 @@
-# Config Property
+# Config Property (Document Object)
 
 Retrieves the [**Config** Object](../config/index).
 

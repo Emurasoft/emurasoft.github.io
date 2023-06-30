@@ -1,4 +1,4 @@
-# Clear Method
+# Clear Method (Filters Collection)
 
 Removes all items in the collection.
 

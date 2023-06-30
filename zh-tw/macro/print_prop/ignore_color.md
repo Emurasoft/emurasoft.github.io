@@ -1,4 +1,4 @@
-# IgnoreColor 屬性
+# IgnoreColor 屬性 (PrintProp ��H)
 
 與組態屬性中 [**列印** 頁面](../../dlg/properties/print/index) 上的 **忽略顏色與下劃線** 核取方塊相對應。
 

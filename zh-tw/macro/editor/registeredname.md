@@ -1,4 +1,4 @@
-# RegisteredName 屬性
+# RegisteredName 屬性 (Editor ��H)
 
 檢索注冊名。
 

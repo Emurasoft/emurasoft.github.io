@@ -1,4 +1,4 @@
-# Item Property
+# Item Property (Filters Collection)
 
 Retrieves the [Filter object](../filter/index) for the specified index.
 

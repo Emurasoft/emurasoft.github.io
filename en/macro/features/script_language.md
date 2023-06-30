@@ -1,4 +1,4 @@
-# Support for JavaScript or VBScript
+# Support for JavaScript or VBScript (Features)
 
 EmEditor uses JavaScript or VBScript for its macro language, so those who are
 familiar with HTML or Windows scripting will be able to write macros with little

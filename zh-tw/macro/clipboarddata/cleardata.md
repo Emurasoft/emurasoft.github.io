@@ -1,4 +1,4 @@
-# clearData 方法
+# clearData 方法 (clipboardData ��H)
 
 從剪貼簿上刪除一個或多個數據格式。
 

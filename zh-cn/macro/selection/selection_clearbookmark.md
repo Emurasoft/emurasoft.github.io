@@ -1,4 +1,4 @@
-# ClearBookmark 方法
+# ClearBookmark 方法 (Selection ����)
 
 清除当前行上的书签。
 

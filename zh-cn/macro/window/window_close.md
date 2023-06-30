@@ -1,4 +1,4 @@
-# close 方法
+# close 方法 (Window ����)
 
 关闭窗口。
 

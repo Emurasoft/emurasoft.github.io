@@ -1,4 +1,4 @@
-# GetActivePointY 方法
+# GetActivePointY 方法 (Selection ��H)
 
 返回游標位置處的行號。
 

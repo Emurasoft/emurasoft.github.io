@@ -1,4 +1,4 @@
-# FindWindow Method
+# FindWindow Method (Shell Object)
 
 Finds the top-level [Window object](../window/index) by a class name and/or by a window title.
 

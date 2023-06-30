@@ -1,4 +1,4 @@
-# SelectAll 方法
+# SelectAll 方法 (Selection ��H)
 
 選擇整個文檔。
 

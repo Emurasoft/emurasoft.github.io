@@ -1,4 +1,4 @@
-# DroppedFiles プロパティ
+# DroppedFiles プロパティ ()
 
 [DroppedFiles コレクション](../dropped_files/index) を取得します。
 

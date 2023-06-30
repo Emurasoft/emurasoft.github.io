@@ -1,4 +1,4 @@
-# KanaURL 屬性
+# KanaURL 屬性 (LinkProp ��H)
 
 與組態屬性中 [**連結** 頁面](../../dlg/properties/link/index) 上的 **識別單字節假名與假名符合為 URL** 核取方塊相對應。
 

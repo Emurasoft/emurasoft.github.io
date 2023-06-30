@@ -1,4 +1,4 @@
-# WrapMode Property
+# WrapMode Property (GeneralProp Object)
 
 Corresponds to the
 **Wrap by** drop-down list box in the

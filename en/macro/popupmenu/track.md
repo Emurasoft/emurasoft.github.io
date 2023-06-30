@@ -1,4 +1,4 @@
-# Track Method
+# Track Method (PopupMenu Object)
 
 Displays the popup menu, and retrieves the identifier of the selected menu item.
 

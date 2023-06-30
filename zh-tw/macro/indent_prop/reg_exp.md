@@ -1,4 +1,4 @@
-# RegExp 屬性
+# RegExp 屬性 (IndentProp ��H)
 
 與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **使用規則運算式** 核取方塊相對應。
 

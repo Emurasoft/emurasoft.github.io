@@ -1,4 +1,4 @@
-# Import Method
+# Import Method (Filters Collection)
 
 Imports a TSV file to the collection.
 

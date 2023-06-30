@@ -1,4 +1,4 @@
-# IsActiveEndGreater Property
+# IsActiveEndGreater Property (Selection Object)
 
 Indicates whether the active point is equal to the bottom point.
 

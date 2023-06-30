@@ -1,4 +1,4 @@
-# Count Property
+# Count Property (NoWrapList Collection)
 
 Retrieves the number of items.
 

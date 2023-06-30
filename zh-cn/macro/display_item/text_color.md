@@ -1,4 +1,4 @@
-# TextColor 属性
+# TextColor 属性 (DisplayItem ����)
 
 指定对象的背景颜色。
 

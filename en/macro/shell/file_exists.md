@@ -1,4 +1,4 @@
-# FileExists Method
+# FileExists Method (Shell Object)
 
 Returns true if a specified file exists; false if it does not.
 

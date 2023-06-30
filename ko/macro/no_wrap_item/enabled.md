@@ -1,4 +1,4 @@
-# Enabled 속성
+# Enabled 속성 (NoWrapItem ��ü)
 
 개체를 활성화 할지 여부를 나타내는 플래그를 지정합니다.
 

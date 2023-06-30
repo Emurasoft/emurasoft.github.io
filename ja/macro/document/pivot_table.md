@@ -1,4 +1,4 @@
-# PivotTable メソッド
+# PivotTable メソッド ()
 
 CSV文書でピボット テーブルを作成します。
 

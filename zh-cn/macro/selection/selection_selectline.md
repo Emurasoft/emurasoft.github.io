@@ -1,4 +1,4 @@
-# SelectLine 方法
+# SelectLine 方法 (Selection ����)
 
 在光标处选择一行。
 

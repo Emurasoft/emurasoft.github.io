@@ -1,4 +1,4 @@
-# NamedEntity Property
+# NamedEntity Property (FileSaveProp Object)
 
 Corresponds to the **Use**
 **Named Entity Reference** check box in the

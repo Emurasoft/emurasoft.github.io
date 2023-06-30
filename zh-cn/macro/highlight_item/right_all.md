@@ -1,4 +1,4 @@
-# RightAll 属性
+# RightAll 属性 (HighlightItem ����)
 
 与配置属性中 [**高亮 (1)** 页面](../../dlg/properties/highlight1/index) 上的 **高亮单词与其右侧区域** 复选框相对应。
 

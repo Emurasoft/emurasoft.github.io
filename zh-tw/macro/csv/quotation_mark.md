@@ -1,4 +1,4 @@
-# QuotationMark 屬性
+# QuotationMark 屬性 (Csv ��H)
 
 檢索或設定目前的 Csv 對象的引號標記。
 

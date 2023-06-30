@@ -1,4 +1,4 @@
-# FontCategory 属性
+# FontCategory 属性 (Document ����)
 
 检索或设置当前字体类别。
 

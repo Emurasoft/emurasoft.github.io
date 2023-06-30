@@ -1,4 +1,4 @@
-# FileNew 属性
+# FileNew 属性 (Config ����)
 
 检索 [FileNewProp 对象](../file_new_prop/index)。
 

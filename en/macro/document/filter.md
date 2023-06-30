@@ -1,4 +1,4 @@
-# Filter Method
+# Filter Method (Document Object)
 
 Filters the document with the specified string and settings.
 

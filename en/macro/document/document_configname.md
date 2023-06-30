@@ -1,4 +1,4 @@
-# ConfigName Property
+# ConfigName Property (Document Object)
 
 Retrieves or sets the current configuration name.
 

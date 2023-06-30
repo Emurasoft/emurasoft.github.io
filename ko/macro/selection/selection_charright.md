@@ -1,4 +1,4 @@
-# CharRight 메서드
+# CharRight 메서드 (Selection ��ü)
 
 커서를 지정된 숫자의 문자만큼 오른쪽으로 이동합니다.
 

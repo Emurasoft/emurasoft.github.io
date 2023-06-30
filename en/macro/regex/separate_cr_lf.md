@@ -1,4 +1,4 @@
-# SeparateCrLf Property
+# SeparateCrLf Property (Regex Object)
 
 Sets or retrieves whether the regular expression treats CR and LF separately.
 

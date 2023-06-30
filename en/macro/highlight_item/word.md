@@ -1,4 +1,4 @@
-# Word Property
+# Word Property (HighlightItem Object)
 
 Corresponds to the **Whole**
 **Word Only** check box in the

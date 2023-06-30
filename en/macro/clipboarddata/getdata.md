@@ -1,4 +1,4 @@
-# getData Method
+# getData Method (clipboardData Object)
 
 Retrieves the data in the specified format from the Clipboard.
 

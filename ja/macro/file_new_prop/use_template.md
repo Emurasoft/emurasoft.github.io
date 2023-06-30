@@ -1,4 +1,4 @@
-# UseTemplate プロパティ
+# UseTemplate プロパティ (FileNewProp �I�u�W�F�N�g)
 
 [**\[新規作成時の詳細\]** のダイアログ ボックス](../../dlg/properties/file/new_details/index) の
 **\[テンプレートを使用\]** チェック ボックスに相当します。

@@ -1,4 +1,4 @@
-# TreatAs 属性
+# TreatAs 属性 (CharacterRange ����)
 
 指定要替换的字符。 如果指定-1，则在用于模糊匹配时将忽略指定的范围。
 

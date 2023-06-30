@@ -1,4 +1,4 @@
-# document 속성
+# document 속성 (Window ��ü)
 
 [**Document** 개체](../document/index) 를 반환합니다.
 

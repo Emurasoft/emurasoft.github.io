@@ -1,4 +1,4 @@
-# SpecialSyntax Property
+# SpecialSyntax Property (HighlightProp Object)
 
 Corresponds to the **Special**
 **Syntax drop-down** list box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.

@@ -1,4 +1,4 @@
-# Reset Method
+# Reset Method (Config Object)
 
 Resets the configuration.
 

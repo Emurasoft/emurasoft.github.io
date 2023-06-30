@@ -1,4 +1,4 @@
-# SetForeground 메서드
+# SetForeground 메서드 (Window ��ü)
 
 전경 창을 제공합니다.
 

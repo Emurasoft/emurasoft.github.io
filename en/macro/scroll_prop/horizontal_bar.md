@@ -1,4 +1,4 @@
-# HorizontalBar Property
+# HorizontalBar Property (ScrollProp Object)
 
 Corresponds to the **Horizontal Scroll Bar drop-down** list box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 

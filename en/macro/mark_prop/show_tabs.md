@@ -1,4 +1,4 @@
-# ShowTabs Property
+# ShowTabs Property (MarkProp Object)
 
 Corresponds to the **Show Tabs** check box in the [**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
 

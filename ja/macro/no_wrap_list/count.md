@@ -1,4 +1,4 @@
-# Count プロパティ
+# Count プロパティ (NoWrapList �R���N�V����)
 
 アイテムの数を取得します。
 

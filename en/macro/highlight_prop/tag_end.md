@@ -1,4 +1,4 @@
-# TagEnd Property
+# TagEnd Property (HighlightProp Object)
 
 Corresponds to the **End**
 **Tag** text box in the

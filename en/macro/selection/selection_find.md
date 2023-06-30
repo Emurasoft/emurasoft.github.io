@@ -1,4 +1,4 @@
-# Find Method
+# Find Method (Selection Object)
 
 Searches for the specified string.
 

@@ -1,4 +1,4 @@
-# Reset Method
+# Reset Method (CsvList Collection)
 
 Resets the collection to default.
 

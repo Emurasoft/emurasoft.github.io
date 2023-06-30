@@ -1,4 +1,4 @@
-# scrollY Property
+# scrollY Property (Window Object)
 
 Returns the vertical position of the scroll bar.
 

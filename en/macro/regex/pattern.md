@@ -1,4 +1,4 @@
-# Pattern Property
+# Pattern Property (Regex Object)
 
 Sets or retrieves the regular expression pattern.
 

@@ -1,4 +1,4 @@
-# CombineHistory Property
+# CombineHistory Property (Window Object)
 
 Specifies the undo/redo history to be combined or not combined.
 

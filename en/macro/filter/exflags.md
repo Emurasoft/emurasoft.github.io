@@ -1,4 +1,4 @@
-# ExFlags Property
+# ExFlags Property (Filter Object)
 
 Specifies a combination of the following values.
 

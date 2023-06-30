@@ -1,4 +1,4 @@
-# NamedEntity 繝励Ο繝代ユ繧｣
+# NamedEntity 繝励Ο繝代ユ繧｣ (FileSaveProp オブジェクト)
 
 [**\[菫晏ｭ俶凾縺ｮ隧ｳ邏ｰ\]** 繝繧､繧｢繝ｭ繧ｰ 繝懊ャ繧ｯ繧ｹ](../../dlg/properties/file/save_details/index) 縺ｮ **\[蜷榊燕縺ｫ繧医ｋ螳滉ｽ灘盾辣ｧ繧剃ｽｿ逕ｨ縺吶ｋ\]** 繝√ぉ繝�繧ｯ 繝懊ャ繧ｯ繧ｹ縺ｫ逶ｸ蠖薙＠縺ｾ縺吶�
 

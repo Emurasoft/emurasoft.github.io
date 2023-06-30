@@ -1,4 +1,4 @@
-# GetActivePointY メソッド
+# GetActivePointY メソッド ()
 
 カーソル位置の現在行を 1 で始まる整数で返します。
 

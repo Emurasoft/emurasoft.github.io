@@ -1,4 +1,4 @@
-# AddReplace Method
+# AddReplace Method (Filters Collection)
 
 Adds an item for a replace.
 

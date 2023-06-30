@@ -1,4 +1,4 @@
-# Find 方法
+# Find 方法 (Selection ����)
 
 搜索指定的字符串。
 

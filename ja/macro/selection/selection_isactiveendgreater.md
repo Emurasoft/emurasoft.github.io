@@ -1,4 +1,4 @@
-# IsActiveEndGreater プロパティ
+# IsActiveEndGreater プロパティ ()
 
 アクティブ ポイントが選択範囲の下部と一致しているかどうかを示します。
 

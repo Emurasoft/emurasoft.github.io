@@ -1,4 +1,4 @@
-# Global Property
+# Global Property (Regex Object)
 
 Sets or retrieves the global flag.
 

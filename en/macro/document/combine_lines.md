@@ -1,4 +1,4 @@
-# CombineLines Method
+# CombineLines Method (Document Object)
 
 Combines vertical adjacent duplicate cells of the CSV document.
 

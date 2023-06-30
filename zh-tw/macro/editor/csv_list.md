@@ -1,4 +1,4 @@
-# CsvList 屬性
+# CsvList 屬性 (Editor ��H)
 
 檢索或設置 [**CsvList** 集合](../csv_list/index)。
 

@@ -1,4 +1,4 @@
-# Count Property
+# Count Property (DisplayList Collection)
 
 Retrieves the number of items.
 

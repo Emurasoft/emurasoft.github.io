@@ -1,4 +1,4 @@
-# Children 속성
+# Children 속성 (Window ��ü)
 
 하위 창을 나타내는 [**Windows** 컬렉션](../windows/index) 을 반환합니다.
 

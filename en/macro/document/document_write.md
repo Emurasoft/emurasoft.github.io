@@ -1,4 +1,4 @@
-# write Method
+# write Method (Document Object)
 
 Inserts or overwrites a string at the current cursor position.
 

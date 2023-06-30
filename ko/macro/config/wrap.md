@@ -1,4 +1,4 @@
-# Wrap 속성
+# Wrap 속성 (Config ��ü)
 
 [WrapProp 개체](../wrap_prop/index) 를 검색합니다.
 

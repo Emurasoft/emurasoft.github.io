@@ -1,4 +1,4 @@
-# Manipulate the Registry
+# Manipulate the Registry (Tutorial)
 
 To manipulate the registry, use the RegRead Method, RegWrite Method, and RegDelete Method of WshShell Object.
 

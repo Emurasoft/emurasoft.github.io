@@ -1,4 +1,4 @@
-# 操作注冊表
+# 操作注冊表 (�е{)
 
 要操作注冊表，用 RegRead 方法，RegWrite 方法，和 WshShell 對象 的 RegDelete 方法。
 

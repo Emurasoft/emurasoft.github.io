@@ -1,4 +1,4 @@
-# Caption 屬性
+# Caption 屬性 (Window ��H)
 
 返回視窗的描述文字。
 

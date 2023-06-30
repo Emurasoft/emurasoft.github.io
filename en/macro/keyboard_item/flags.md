@@ -1,4 +1,4 @@
-# Flags Property
+# Flags Property (KeyboardItem Object)
 
 Specifies the flags of the object.
 

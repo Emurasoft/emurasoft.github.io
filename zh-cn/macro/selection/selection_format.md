@@ -1,4 +1,4 @@
-# Format 方法
+# Format 方法 (Selection ����)
 
 插入或删除选定内容中的换行符。
 

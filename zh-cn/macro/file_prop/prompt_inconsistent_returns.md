@@ -1,4 +1,4 @@
-# PromptInconsistentReturns 属性
+# PromptInconsistentReturns 属性 (FileProp ����)
 
 与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **换行方式不一致时进行提示** 复选框相对应。
 

@@ -1,4 +1,4 @@
-# DeleteFile メソッド
+# DeleteFile メソッド ()
 
 指定するファイルを削除します。
 

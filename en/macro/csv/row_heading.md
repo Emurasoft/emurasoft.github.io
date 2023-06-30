@@ -1,4 +1,4 @@
-# RowHeading Property
+# RowHeading Property (Csv Object)
 
 Corresponds to the **Row headings** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 

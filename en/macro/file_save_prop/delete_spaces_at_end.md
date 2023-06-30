@@ -1,4 +1,4 @@
-# DeleteSpacesAtEnd Property
+# DeleteSpacesAtEnd Property (FileSaveProp Object)
 
 Corresponds to the **Delete**
 **Spaces at End of Lines** check box in the [**Save Details** dialog box](../../dlg/properties/file/save_details/index).

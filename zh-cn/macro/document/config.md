@@ -1,4 +1,4 @@
-# Config 属性
+# Config 属性 (Document ����)
 
 检索 [**Config** 对象](../config/index)。
 

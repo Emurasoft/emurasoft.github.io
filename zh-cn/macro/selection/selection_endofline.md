@@ -1,4 +1,4 @@
-# EndOfLine 方法
+# EndOfLine 方法 (Selection ����)
 
 把光标移到当前行的尾端。
 

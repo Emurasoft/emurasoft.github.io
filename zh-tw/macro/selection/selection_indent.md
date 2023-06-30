@@ -1,4 +1,4 @@
-# Indent 方法
+# Indent 方法 (Selection ��H)
 
 按指定的縮排等級數來縮排被選取的行。
 

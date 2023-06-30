@@ -1,4 +1,4 @@
-# Count Property
+# Count Property (Filters Collection)
 
 Retrieves the number of items.
 

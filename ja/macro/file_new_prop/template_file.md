@@ -1,4 +1,4 @@
-# TemplateFile プロパティ
+# TemplateFile プロパティ (FileNewProp �I�u�W�F�N�g)
 
 [**\[新規作成時の詳細\]** のダイアログ ボックス](../../dlg/properties/file/new_details/index) の **\[テンプレート ファイル\]** テキスト ボックスに相当します。
 

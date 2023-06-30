@@ -1,4 +1,4 @@
-# List 繝励Ο繝代ユ繧｣
+# List 繝励Ο繝代ユ繧｣ (Keyboard オブジェクト)
 
 [KeyboardList 繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ](../keyboard_list/index) 繧貞叙蠕励＠縺ｾ縺吶�
 

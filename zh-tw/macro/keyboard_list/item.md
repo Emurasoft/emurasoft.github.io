@@ -1,4 +1,4 @@
-# Item 屬性
+# Item 屬性 (KeyboardList ���X)
 
 為指導索引檢索 [KeyboardItem 對象](../keyboard_item/index)。
 

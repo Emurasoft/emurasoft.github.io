@@ -1,4 +1,4 @@
-# SetAnchorPoint 方法
+# SetAnchorPoint 方法 (Selection ����)
 
 设置选定内容的原点。
 

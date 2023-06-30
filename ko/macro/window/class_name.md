@@ -1,4 +1,4 @@
-# ClassName 속성
+# ClassName 속성 (Window ��ü)
 
 창의 클래스 이름을 반환합니다.
 

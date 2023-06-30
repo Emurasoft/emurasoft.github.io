@@ -1,4 +1,4 @@
-# NotepadDiary Property
+# NotepadDiary Property (FileProp Object)
 
 Corresponds to the **Notepad-Compatible**
 **Diary** check box in the

@@ -1,4 +1,4 @@
-# OnlyWord 属性
+# OnlyWord 属性 (Regex ����)
 
 设置或检索是否正则表达式仅匹配整个单词。
 

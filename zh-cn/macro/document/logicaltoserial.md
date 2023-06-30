@@ -1,4 +1,4 @@
-# LogicalToSerial 方法
+# LogicalToSerial 方法 (Document ����)
 
 将指定位置的逻辑坐标转换为基于单个的串行位置。
 

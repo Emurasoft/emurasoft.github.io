@@ -1,4 +1,4 @@
-# NoWrap 属性
+# NoWrap 属性 (Config ����)
 
 检索 [NoWrapProp 对象](../no_wrap_prop/index)。
 
