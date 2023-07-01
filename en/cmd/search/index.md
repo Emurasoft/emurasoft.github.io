@@ -75,6 +75,7 @@
 | **[Find Shortest Line/Cell](find_empty_or_shortest)** | Finds the shortest line in a non-CSV document or shortest cell in the current column of a CSV document. |
 | **[Search Symbols](../tools/ql_symbols)** | Opens the Quick Launch window and selects symbols. |
 
+
 ```{toctree}
 :maxdepth: 1
 add_next2_occurrence

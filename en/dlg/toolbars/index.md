@@ -65,3 +65,4 @@ Customize the selected toolbar.
 ### Reset All button
 
 Click this button to reset all items to default settings.
+

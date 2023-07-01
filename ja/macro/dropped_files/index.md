@@ -33,6 +33,7 @@ Next
 
 EmEditor Professional Version 8.00 以上で利用できます。
 
+
 ```{toctree}
 :maxdepth: 1
 count

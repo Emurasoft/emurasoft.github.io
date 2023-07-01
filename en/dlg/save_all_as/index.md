@@ -16,3 +16,4 @@ Specifies the encoding to be used to save the files.
 ### Newline Character drop box
 
 Specifies the newline characters to be used to save the files.
+

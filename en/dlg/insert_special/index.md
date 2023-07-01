@@ -15,3 +15,4 @@ Select the control character you want to insert from the list.
 ### Code Value text box
 
 Specify the Unicode character you want to insert in hexadecimal notation.
+

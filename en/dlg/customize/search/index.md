@@ -56,3 +56,4 @@ Specifies the regular expression engine to use in EmEditor. You can choose **Boo
 ### Reset button
 
 Resets to default settings.
+

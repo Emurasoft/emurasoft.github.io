@@ -100,6 +100,7 @@
 | **[Clear Markers for Saved Lines](clear_saved_markers)** | Clears all markers indicating saved lines. |
 | **[Show Last Message](show_last_message)** | Shows the last received message (available only in the tray icon). |
 
+
 ```{toctree}
 :maxdepth: 1
 add_remove_guide

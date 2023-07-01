@@ -21,3 +21,4 @@ Click this button to display the **Open** dialog box where you can select the fi
 ### Set this as the default macro check box
 
 If this box is checked, you can set the selected macro as the default macro.
+

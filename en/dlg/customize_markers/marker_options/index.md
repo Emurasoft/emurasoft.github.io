@@ -21,3 +21,4 @@ When this check box is checked, EmEditor automatically disables all the markers 
 ### Count matches when a document is opened check box
 
 When this check box is checked, EmEditor automatically counts matches of all markers when a document is opened.
+

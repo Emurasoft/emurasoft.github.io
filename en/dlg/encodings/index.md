@@ -14,3 +14,4 @@ Enables or disables all items on the list.
 ### Reset button
 
 Resets to default settings.
+

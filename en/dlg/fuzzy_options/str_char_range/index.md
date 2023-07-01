@@ -43,3 +43,4 @@ Enter a character or a string to be substituted for. If this is empty, the speci
 | \\v | Vertical tab |
 | \\\ | Backslash |
 | \\xhhhh | Unicode character in hexadecimal notation |
+

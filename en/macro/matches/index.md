@@ -12,3 +12,4 @@ Matches collection provides a collection of [Match objects](../match/index) for 
 ## Version
 
 Supported on EmEditor Professional Version 15.9 or later.
+

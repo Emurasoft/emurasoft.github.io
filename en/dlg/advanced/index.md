@@ -82,3 +82,4 @@ Specifies the oldest date modified to search files if this check box is set.
 ### Newest date modified date box
 
 Specifies the newest date modified to search files if this check box is set. If only the **Oldest date modified** is set, EmEditor searches files newer than the specified date. If only the **Newest date modified** is set, EmEditor searches files older than the specified date. If neither of them is set, EmEditor searches all files regardless of file dates.
+

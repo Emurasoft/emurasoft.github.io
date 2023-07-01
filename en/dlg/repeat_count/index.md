@@ -21,3 +21,4 @@ Shows the equivalent macro to the selected steps.
 ### \> button
 
 Shows a menu to select an additional command.
+

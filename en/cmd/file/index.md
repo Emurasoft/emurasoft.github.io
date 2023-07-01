@@ -83,6 +83,7 @@
 | [**Recently Workspace**](workspace_recent_file1) | Opens a specified recently used workspace (multiple items). |
 | **[Activate or New](activate_or_new)** | Activates EmEditor or Creates a new file (available only in the tray icon). |
 
+
 ```{toctree}
 :maxdepth: 1
 activate_or_new

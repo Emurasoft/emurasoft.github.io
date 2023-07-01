@@ -31,6 +31,7 @@
 | **[Generate Report](compare_generate_report)** | Generates a report file based on the current comparison result. |
 | **[Jump to Other](compare_jump_to_other)** | Jumps to the other document that the current document is comparing with or scrolling with. |
 
+
 ```{toctree}
 :maxdepth: 1
 compare_bookmark

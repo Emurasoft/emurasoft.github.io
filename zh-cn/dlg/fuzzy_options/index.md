@@ -42,6 +42,7 @@
 
 列出用户定义的字符范围。双击列表中的项目让你能编辑所选范围。
 
+
 ```{toctree}
 :maxdepth: 1
 str_char_range/index

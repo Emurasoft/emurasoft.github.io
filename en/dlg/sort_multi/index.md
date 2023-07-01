@@ -63,3 +63,4 @@ Starts sorting the document(s) with the specified settings.
 ### Sort Opposite button
 
 Starts sorting the documents(s) with the specified settings in the opposite direction.
+

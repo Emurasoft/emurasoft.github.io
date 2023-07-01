@@ -67,3 +67,4 @@ Specifies the maximum number of splits per cell.
 ### Discard extra strings check box
 
 Discards extra strings.
+

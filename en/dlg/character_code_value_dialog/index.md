@@ -13,3 +13,4 @@ Character Code Value displays the following information in order.
 7. Byte position in file
 
 The displayed information can be copied by pressing **Copy and Close**.
+

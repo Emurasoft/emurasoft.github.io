@@ -76,6 +76,7 @@
 | [すべて置換 (検索ツール バー)](findbar_replace_all) | 検索ツール バーを使用してすべての一致した文字列を置換します。 |
 | [シンボルを検索](../tools/ql_symbols) | クイック起動ウィンドウを表示して、シンボルを選択します。 |
 
+
 ```{toctree}
 :maxdepth: 1
 add_next2_occurrence

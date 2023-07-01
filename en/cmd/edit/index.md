@@ -163,6 +163,7 @@
 | **[Syntax Check](csv_validate)** | Check syntax of the current document and shows the results. |
 | **[Force Clipboard Format to Text](force_clipboard_text)** | Forces the clipboard format to text only (available only in the tray icon). |
 
+
 ```{toctree}
 :maxdepth: 1
 add_column

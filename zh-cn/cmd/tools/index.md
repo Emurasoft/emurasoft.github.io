@@ -90,6 +90,7 @@
 | **[删除旧的设定](delete_old_settings)** | 删除所有不再使用的旧设定。 |
 | **[配置列表](select_config)** | 选择一个指定的配置（多个项目）。 |
 
+
 ```{toctree}
 :maxdepth: 1
 all_commands

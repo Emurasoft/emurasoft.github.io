@@ -12,3 +12,4 @@
 
 These export functions must be defined in a DEF File by this order. When you
 compile them, you need to select \_stdcall as a calling method. For details see plug-in samples in the EmEditor website library.
+

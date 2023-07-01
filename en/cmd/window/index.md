@@ -72,6 +72,7 @@
 | **[Move Previous](window_move_prev)** | Moves the current document to the previous tab position. |
 | **[Documents List](window_menu)** | Switches to the specified document (multiple items). |
 
+
 ```{toctree}
 :maxdepth: 1
 active_pane

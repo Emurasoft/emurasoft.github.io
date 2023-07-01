@@ -57,3 +57,4 @@ If this is checked, each opened file will be saved and closed after running the 
 ### Save options check box
 
 If this is checked, the settings will be saved.
+

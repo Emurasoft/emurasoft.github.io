@@ -41,3 +41,4 @@ and will allow you to copy from another configuration.
 ### Select All button
 
 Select the entire list.
+

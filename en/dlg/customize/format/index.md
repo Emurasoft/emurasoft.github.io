@@ -29,3 +29,4 @@ Allows you to specify an arbitrary number for bytes per line when you select **C
 ### Reset button
 
 Resets to default settings.
+

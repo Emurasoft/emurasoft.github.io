@@ -18,6 +18,7 @@
 
 Version 9.00 以上で利用できます。
 
+
 ```{toctree}
 :maxdepth: 1
 write

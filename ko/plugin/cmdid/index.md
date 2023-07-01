@@ -5,3 +5,4 @@ Command ID는 [EE\_EXEC\_COMMAND 메시지](../message/ee_exec_command), [Editor
 Command ID는 [명령 참조](../../cmd/index) 에 설명되어 있습니다.
 
 이러한 상수들은 [헤더 파일 (plugin.h)](https://download.emeditor.info/include/plugin.h) 에 정의되어 있습니다.
+

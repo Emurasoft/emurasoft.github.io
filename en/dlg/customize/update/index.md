@@ -29,3 +29,4 @@ Creates two types of log files in the Downloads folder. One is _Updater.log_, an
 ### Reset button
 
 Resets to default settings.
+

@@ -12,3 +12,4 @@ Matches 集合提供一集合的正则表达式搜索结果的 [Match 对象](..
 ## 版本
 
 支持 EmEditor Professional Version 15.9 或之后的版本。
+

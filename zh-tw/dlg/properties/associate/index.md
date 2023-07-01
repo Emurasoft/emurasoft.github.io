@@ -5,3 +5,4 @@
 ### 「關聯」按鈕
 
 點擊 [**定義組態** 對話方塊](../../configurations/index) 中的 \[關聯\] 按鈕可以打開 [**檔案關聯組態** 對話方塊](../../configuration_associations/index)。
+

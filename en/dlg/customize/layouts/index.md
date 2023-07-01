@@ -29,3 +29,4 @@ Saves the current layout including the window position and toolbar layout to the
 ### Reset button
 
 Resets to default settings.
+

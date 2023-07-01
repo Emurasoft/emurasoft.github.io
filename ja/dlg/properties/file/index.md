@@ -110,6 +110,7 @@ Charset 検出を含みません。
 ![](../../../images/b.gif)[**\[保存時の詳細\]** ダイアログ ボックス](save_details/index) ( **\[保存時\]**
 ボタンを選択)
 
+
 ```{toctree}
 :maxdepth: 1
 new_details/index

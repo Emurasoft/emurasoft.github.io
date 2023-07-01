@@ -26,3 +26,4 @@
 - eeLM.ini
 
 当 EmEditor 开始并在它的安装文件夹中查找 eeUseIni.ini 时，EmEditor 会用这些 INI 文件，而不是注册表，并且不会保存任何设定到注册表中。
+

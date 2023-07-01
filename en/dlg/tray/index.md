@@ -40,3 +40,4 @@ Displays the [**Customize**\
 ### Reset button
 
 Resets to default settings.
+

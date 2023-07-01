@@ -90,6 +90,7 @@
 | **[Reset All Settings](reset_all_settings)** | Resets all EmEditor settings and restarts EmEditor. |
 | **[Delete Old Settings](delete_old_settings)** | Delete old settings that are not used anymore. |
 
+
 ```{toctree}
 :maxdepth: 1
 all_commands

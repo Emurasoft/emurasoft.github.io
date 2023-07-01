@@ -22,3 +22,4 @@ If this is checked, EmEditor will move recently used string to the top in the Cl
 ### Reset button
 
 Resets to default settings.
+

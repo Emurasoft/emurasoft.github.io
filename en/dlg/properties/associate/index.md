@@ -7,3 +7,4 @@ association. Association editing in the configuration properties has been deprec
 
 Click this button to go to the
 [**Configuration Associations** dialog box](../../configuration_associations/index).
+

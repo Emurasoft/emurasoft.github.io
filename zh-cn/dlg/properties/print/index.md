@@ -81,3 +81,4 @@ Use this button to select from a list of predefined marks.
 ### 「重置」按钮
 
 重置为默认设定。会显示 [**重置** 对话框](../reset/index) 并让你能从另一个配置复制设定。
+

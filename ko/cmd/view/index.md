@@ -73,6 +73,7 @@
 | **[모든 마커 삭제 명령](marker_delete_all)** | 모든 마커를 삭제합니다. |
 | **[마지막 메시지 표시 명령](show_last_message)** | 마지막으로 받은 메시지를 표시합니다 (트레이 아이콘에서만 사용가능합니다.) |
 
+
 ```{toctree}
 :maxdepth: 1
 add_remove_guide

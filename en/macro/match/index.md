@@ -12,6 +12,7 @@
 
 Supported on EmEditor Professional Version 15.9 or later.
 
+
 ```{toctree}
 :maxdepth: 1
 first_index

@@ -87,3 +87,4 @@ Exports the current settings into a JavaScript or VBScript macro file. The expor
 ### Join Now button
 
 Merges the documents.
+

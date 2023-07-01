@@ -47,6 +47,7 @@ Removes the selected range from the list.
 
 Lists the user-defined strings and character ranges. Double-clicking on an item in the list will allow you to edit the selected string or character range.
 
+
 ```{toctree}
 :maxdepth: 1
 str_char_range/index

@@ -6,3 +6,4 @@ Command IDs are described in [Command Reference](../../cmd/index).
 
 These constants are defined at the
 header file (plugin.h).
+

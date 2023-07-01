@@ -21,3 +21,4 @@ Deletes the selected item(s) from the list.
 ### Reset button
 
 Resets to default settings.
+

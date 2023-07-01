@@ -12,3 +12,4 @@ Go to this URL with a Web browser.
 ### Help button
 
 Show registration instructions.
+

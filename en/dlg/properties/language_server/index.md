@@ -31,3 +31,4 @@ These servers are built-in with EmEditor. The following list provides links to t
 - HTML and CSS: [VSCode extensions](https://github.com/microsoft/vscode)
 - JavaScript: [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server)
 - Perl: [Perl Navigator Language Server](https://github.com/bscan/PerlNavigator)
+

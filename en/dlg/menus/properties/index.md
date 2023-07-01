@@ -30,3 +30,4 @@ Display the description for the selected command.
 ### Name text box
 
 Specify a menu name. Use the & mark to specify a shortcut key.
+

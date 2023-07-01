@@ -51,3 +51,4 @@ The file path of the selected plug-in.
 ### Reset button
 
 Resets to default settings.
+

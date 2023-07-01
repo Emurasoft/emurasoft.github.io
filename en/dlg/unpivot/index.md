@@ -22,3 +22,4 @@ Specifies the number of rows used as the header.
 ### Footer drop-down list box
 
 Specifies the number of rows used as the footer.
+

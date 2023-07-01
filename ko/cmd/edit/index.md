@@ -217,6 +217,7 @@
 | **[사전 명령](spell_dictionary)** | 맞춤법을 확인하기 위해 이 사전을 선택합니다 (여러 항목). |
 | **[텍스트에 클립보드 형식 적용 명령](force_clipboard_text)** | 텍스트에 클립보드 형식을 적용합니다 (트레이 아이콘에서만 사용 가능 합니다). |
 
+
 ```{toctree}
 :maxdepth: 1
 add_remove_markers

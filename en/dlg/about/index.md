@@ -23,3 +23,4 @@ The following dialog box is also available through this dialog box.
 (Select the
 **How to Purchase**
 button)
+

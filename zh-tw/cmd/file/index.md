@@ -83,6 +83,7 @@
 | [**最近使用的工作區**](workspace_recent_file1) | 打開一個指定的最近使用過的工作區 (多個項目) 。 |
 | **[激活或新增](activate_or_new)** | 激活 EmEditor 或創建一個新檔案(僅用於系統匣圖示)。 |
 
+
 ```{toctree}
 :maxdepth: 1
 activate_or_new

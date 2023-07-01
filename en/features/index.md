@@ -32,6 +32,7 @@ EmEditor is a robust, easy-to-use, multi-feature text editor. EmEditor features 
 
 ## Basic Features
 
+
 ```{toctree}
 :maxdepth: 1
 active_script

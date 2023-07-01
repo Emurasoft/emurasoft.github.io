@@ -43,3 +43,4 @@ If this is checked, EmEditor does not display the Save Workspace button in the "
 ### Reset button
 
 Resets to default settings.
+

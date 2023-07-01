@@ -161,6 +161,7 @@
 | [Editor\_ViewToDev](editor_viewtodev) | 把顯示指定位置的顯示坐標轉換為設備 (客戶端) 坐標。 |
 | [Editor\_ViewToLogical](editor_viewtological) | 把一個指定位置的顯示坐標轉換為邏輯坐標。 |
 
+
 ```{toctree}
 :maxdepth: 1
 editor_activatetemp

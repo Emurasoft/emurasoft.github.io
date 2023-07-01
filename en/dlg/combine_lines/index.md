@@ -59,3 +59,4 @@ Displays the list of defined sort conditions.
 ### String to Insert text box
 
 Specifies a string to insert when combining vertical adjacent duplicate cells.
+

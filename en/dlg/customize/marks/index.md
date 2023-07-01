@@ -46,3 +46,4 @@ Customizes the Wide Space mark to a specified mark. This option applies only if 
 ### Reset button
 
 Resets to default settings.
+

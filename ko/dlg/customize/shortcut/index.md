@@ -40,6 +40,7 @@
 
 ( **트레이 아이콘 사용자 지정** 버튼 선택)
 
+
 ```{toctree}
 :maxdepth: 1
 more_shortcuts/index

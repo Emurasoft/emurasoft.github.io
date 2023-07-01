@@ -163,6 +163,7 @@
 | **[语法检查](csv_validate)** | 检查当前文档的语法并显示结果。 |
 | **[强制转换剪贴板格式为文本格式](force_clipboard_text)** | 把剪贴板格式强制转换为仅文本格式（仅在托盘图标菜单中显示）。 |
 
+
 ```{toctree}
 :maxdepth: 1
 add_column

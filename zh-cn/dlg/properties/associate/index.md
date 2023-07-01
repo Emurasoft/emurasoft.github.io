@@ -5,3 +5,4 @@
 ### 「关联」按钮
 
 点击 [**定义配置** 对话框](../../configurations/index) 中的「关联」按钮可以打开 [**文件关联配置** 对话框](../../configuration_associations/index)。
+

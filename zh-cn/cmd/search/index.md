@@ -75,6 +75,7 @@
 | **[仅限于选区内 (查找工具栏)](findbar_sel_only)** | 切换查找工具栏上「仅限于选区内」按钮的状态。 |
 | **[搜索符号](../tools/ql_symbols)** | 打开快速启动窗口并选择符号。 |
 
+
 ```{toctree}
 :maxdepth: 1
 add_next2_occurrence

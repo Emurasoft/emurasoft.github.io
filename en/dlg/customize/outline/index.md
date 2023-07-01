@@ -29,3 +29,4 @@ The **Outline** page allows you to customize settings related to the outline.
 ### Reset button
 
 > Resets to default settings.
+

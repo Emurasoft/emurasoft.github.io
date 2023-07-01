@@ -49,3 +49,4 @@ Adds an item to the list.
 ### Delete button
 
 Deletes the selected item(s) from the list.
+

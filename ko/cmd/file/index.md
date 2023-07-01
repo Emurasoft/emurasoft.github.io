@@ -75,6 +75,7 @@
 | [**최근 닫은 파일 리스트**](recent_closed_file1) | 최근 닫은 지정된 문서를 엽니다 (여러 항목). |
 | **[활성화나 새로 만들기 명령](activate_or_new)** | 엠에디터를 활성화하거나 새 파일을 생성합니다 (트레이 아이콘에서만 사용 가능). |
 
+
 ```{toctree}
 :maxdepth: 1
 activate_or_new

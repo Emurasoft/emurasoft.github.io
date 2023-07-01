@@ -49,3 +49,4 @@ If this is checked, EmEditor shows execution time for some features such as Find
 ### Reset button
 
 Resets to default settings.
+

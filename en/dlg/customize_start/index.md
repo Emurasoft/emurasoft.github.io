@@ -61,3 +61,4 @@ If this is checked, the Start window includes Update Checker. This option will n
 ### Only when new versions available check box
 
 If this is checked, the Start window includes Update Checker only when new versions become available for updates even if the **Show Update Checker** check box is set.
+

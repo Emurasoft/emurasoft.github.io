@@ -66,3 +66,4 @@ If this box is checked, the EmEditor window will be activated when text is dropp
 ### Reset button
 
 Resets to default settings.
+

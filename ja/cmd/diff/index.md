@@ -32,6 +32,7 @@
 | [レポートを作成](compare_generate_report) | 現在の比較の結果に基づいてレポート ファイルを作成します。 |
 | [他方にジャンプ](compare_jump_to_other) | 現在の文書が比較またはスクロールしている他方の文書にジャンプします。 |
 
+
 ```{toctree}
 :maxdepth: 1
 compare_bookmark

@@ -36,3 +36,4 @@ These events are used as the nEvents parameter by the
 
 These constants are defined at the
 header file (plugin.h).
+

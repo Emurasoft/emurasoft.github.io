@@ -31,6 +31,7 @@
 | **[生成报告](compare_generate_report)** | 根据当前比较结果生成报告文件。 |
 | **[跳转到其他](compare_jump_to_other)** | 跳转到正在与当前文档比较或滚动的另一个文档。 |
 
+
 ```{toctree}
 :maxdepth: 1
 compare_bookmark

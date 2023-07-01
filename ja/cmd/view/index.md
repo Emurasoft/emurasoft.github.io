@@ -101,6 +101,7 @@
 | [保存行のマーカーをクリア](clear_saved_markers) | 保存行を示すマーカーをすべてクリアします。 |
 | [最後のメッセージを表示](show_last_message) | 最後に受信したメッセージを表示します (トレイ アイコンのみに存在するコマンド)。 |
 
+
 ```{toctree}
 :maxdepth: 1
 add_remove_guide

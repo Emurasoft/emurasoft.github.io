@@ -25,3 +25,4 @@ These member variables inside CETLFrame provide EmEditor with information about 
 | \_MIN\_EE\_VERSION | The oldest version number of supported EmEditor \* 1000. |
 | \_SUPPORT\_EE\_PRO | TRUE if EmEditor Professional is supported. |
 | \_SUPPORT\_EE\_STD | TRUE if EmEditor Standard is supported. |
+

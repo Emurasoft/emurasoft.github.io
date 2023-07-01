@@ -23,3 +23,4 @@ Specifies the document type to check syntax. Notes that syntax check will be ena
 Resets to default settings. The
 [**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
+

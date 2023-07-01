@@ -73,3 +73,4 @@ IPアドレスの範囲が IP アドレス/CIDR 表記で指定されること�
 ## 参考
 
 - [数値範囲表現構文](../../howto/search/number_range_syntax)
+

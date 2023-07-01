@@ -31,6 +31,7 @@
 | **[生成報告](compare_generate_report)** | 根據目前的比較結果生成報告檔案。 |
 | **[跳轉到其他](compare_jump_to_other)** | 跳轉到正在與目前的文檔比較或捲動的另一個文檔。 |
 
+
 ```{toctree}
 :maxdepth: 1
 compare_bookmark

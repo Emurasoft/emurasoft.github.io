@@ -54,3 +54,4 @@ Allows you to set or clear options.
 ### Set Options as Default button
 
 Saves these options as default to be used in the **[Half-Width](../../cmd/edit/zen_to_han)** and **[Full-Width](../../cmd/edit/han_to_zen)** commands.
+

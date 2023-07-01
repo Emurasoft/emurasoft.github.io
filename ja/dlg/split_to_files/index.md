@@ -10,6 +10,7 @@
 
 ![](../../images/b.gif)[\[文書を分割中\] ページ](../../dlg/split_to_files/split_progress)
 
+
 ```{toctree}
 :maxdepth: 1
 split_files

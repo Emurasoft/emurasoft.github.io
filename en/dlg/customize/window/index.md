@@ -82,3 +82,4 @@ By clicking this button, and checking the **Restore**
 ### Reset button
 
 Resets to default settings.
+

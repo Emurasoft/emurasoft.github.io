@@ -1,5 +1,6 @@
 # View
 
+
 ```{toctree}
 :maxdepth: 1
 view_add_icon

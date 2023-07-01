@@ -53,3 +53,4 @@ Highlight the selected word only if the case matches.
 ### Regular Expression check box
 
 Highlight the selected string using a regular expression.
+

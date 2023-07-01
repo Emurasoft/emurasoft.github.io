@@ -16,9 +16,9 @@
                 {% elif language == "ja" %}
                     EmEditor Professional のみ
                 {% elif language == "ko" %}
-                {% elif language == "zh_CN" %}
+                {% elif language == "zh-CN" %}
                     仅限 EmEditor 专业版
-                {% elif language == "zh_TW" %}
+                {% elif language == "zh-TW" %}
                     僅限 EmEditor 專業版
                 {% endif %}
             `;
@@ -28,9 +28,9 @@
                 {% elif language == "ja" %}
                     EmEditor Professional と EmEditor Free
                 {% elif language == "ko" %}
-                {% elif language == "zh_CN" %}
+                {% elif language == "zh-CN" %}
                     仅限 EmEditor 专业版
-                {% elif language == "zh_TW" %}
+                {% elif language == "zh-TW" %}
                     EmEditor 專業版和 EmEditor 免費版
                 {% endif %}
             `;
@@ -85,19 +85,27 @@
                     日本語
                 {% elif language == "ko" %}
                     한국어
-                {% elif language == "zh_CN" %}
+                {% elif language == "zh-CN" %}
                     简体中文
-                {% elif language == "zh_TW" %}
+                {% elif language == "zh-TW" %}
                     繁體中文
                 {% endif %}
             </a>
             <div class="languageDropdown-content">
-                <a href="/emeditor-help/en/{{ pagename }}.htm">English</a>
-                <a href="/emeditor-help/ja/{{ pagename }}.htm">日本語</a>
-                <a href="/emeditor-help/ko/{{ pagename }}.htm">한국어</a>
-                <a href="/emeditor-help/zh-cn/{{ pagename }}.htm">简体中文</a>
-                <a href="/emeditor-help/zh-tw/{{ pagename }}.htm">繁體中文</a>
+                <a href="#" onclick="changeLanguage('en')">English</a>
+                <a href="#" onclick="changeLanguage('ja')">日本語</a>
+                <a href="#" onclick="changeLanguage('ko')">한국어</a>
+                <a href="#" onclick="changeLanguage('zh-cn')">简体中文</a>
+                <a href="#" onclick="changeLanguage('zh-tw')">繁體中文</a>
             </div>
+
+            <script>
+                function changeLanguage(lang) {
+                    const currentLevel = ('{{ pagename }}'.match(/\//g)||[]).length + 1;
+                    const newPath = '../'.repeat(currentLevel) + lang + '/{{ pagename }}.htm';
+                    window.location.href = newPath;
+                }
+            </script>
         </div>
 
         &nbsp;&nbsp;&nbsp;&nbsp;

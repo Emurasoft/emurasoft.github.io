@@ -22,6 +22,7 @@
 | **[Delete/Bookmark Duplicate Lines (Advanced)](../edit/delete_duplicate_advanced)** | Displays a dialog box to specify settings and deletes or set bookmarks at duplicate lines in the selection or in the entire document. |
 | [**Sort/Remove Duplicate Split Strings in Selection**](sort_sel) | Sorts or removes duplicate split strings in the selection. |
 
+
 ```{toctree}
 :maxdepth: 1
 sort_columns

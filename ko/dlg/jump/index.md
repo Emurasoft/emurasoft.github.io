@@ -15,3 +15,4 @@
 ### 논리 결합체크 박스
 
 [논리적 통합](../../glossary/logicalcoordinates) 으로 줄번호를 계산합니다.
+

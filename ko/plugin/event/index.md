@@ -36,3 +36,4 @@
 nEvents 매개 변수로 사용됩니다.
 
 이러한 상수는 [헤더 파일 (plugin.h)](https://download.emeditor.info/include/plugin.h) 에서 정의되었습니다.
+

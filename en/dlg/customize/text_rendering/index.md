@@ -59,3 +59,4 @@ Deletes the selection from the list.
 ### Reset button
 
 Resets all Text Rendering options to their default settings.
+

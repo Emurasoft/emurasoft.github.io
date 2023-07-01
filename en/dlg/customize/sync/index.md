@@ -45,3 +45,4 @@ Receives all settings from the shared folder.
 ### Reset button
 
 Resets to default settings.
+

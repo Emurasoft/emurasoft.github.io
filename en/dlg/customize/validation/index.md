@@ -41,3 +41,4 @@ Specifies the URL to use for the Search Online command on a syntax check result.
 ### Reset button
 
 Resets to default settings.
+

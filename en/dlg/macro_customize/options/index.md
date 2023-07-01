@@ -44,3 +44,4 @@ Click this button to find the specified file.
 ### Reset button
 
 Resets to default settings.
+

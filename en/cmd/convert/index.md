@@ -41,3 +41,4 @@
 | **[Unicode Normalization Form D (Canonical Decomposition)](../edit/unicode_norm_fd)** | Apply Unicode Normalization Form D (Canonical Decomposition) to the selected string. |
 | **[Unicode Normalization Form KC (Compatibility Composition)](../edit/unicode_norm_fkc)** | Apply Unicode Normalization Form KC (Compatibility Composition) to the selected string. |
 | **[Unicode Normalization Form KD (Compatibility Decomposition)](../edit/unicode_norm_fkd)** | Apply Unicode Normalization Form KD (Compatibility Decomposition) to the selected string. |
+

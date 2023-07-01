@@ -23,6 +23,7 @@
 
 EmEditor Professional Version 15.2 以上で利用できます。
 
+
 ```{toctree}
 :maxdepth: 1
 allow_delimiter

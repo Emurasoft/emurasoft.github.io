@@ -52,3 +52,4 @@ Numbering will restart from the first value after empty lines during vertical se
 ### Restart Numbering at Discontinuous Lines
 
 Numbering will restart from the first value at discontinuous lines during multiple selection mode.
+

@@ -140,3 +140,4 @@ Imports a previously exported TSV file containing the filter conditions.
 ### Export button
 
 Exports defined filter conditions into a file. The file format can be a TSV, JavaScript or VBScript macro format.
+

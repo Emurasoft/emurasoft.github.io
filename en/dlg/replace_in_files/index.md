@@ -270,3 +270,4 @@ The following dialog box is also available through this dialog box.
 (Select **Extract Options**)
 
 (Select **Batch Options**)
+

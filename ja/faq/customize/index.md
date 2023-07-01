@@ -8,6 +8,7 @@
 ![](../../images/q.gif)[\[ファイル\] メニューの、\[エンコードを変更して読み直し\] のサブメニューには、\[標準ANSI\]、\[UTF-16LE\]、\[UTF-16BE\]、\[UTF-8\]、\[UTF-7\] \
 しか利用できるエンコードがありません。エンコードを追加するには?](customize_encoding)
 
+
 ```{toctree}
 :maxdepth: 1
 customize_asp

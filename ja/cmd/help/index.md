@@ -20,6 +20,7 @@
 | [ダウングレード](downgrade) | この製品を EmEditor Free にダウングレードします。 |
 | [バージョン情報](app_about) | バージョン情報を表示します。 |
 
+
 ```{toctree}
 :maxdepth: 1
 app_about

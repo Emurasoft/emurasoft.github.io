@@ -11,3 +11,4 @@ EmEditor Professional의 현재 버전에 대한 유지 관리 키를 클립보�
 보내지거나 구매 페이지에 표시됩니다. EmEditor Professional 라이센스가 필요하며, 유지 관리 플랜을 계속하기 위해
 유지 관리 키를 추가하기 이전에 EmEditor Professional의 등록 키가 이미 EmEditor에 입력되어 있어야 하는것을
 기억하시기 바랍니다.
+

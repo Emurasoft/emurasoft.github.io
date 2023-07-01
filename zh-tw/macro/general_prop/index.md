@@ -24,6 +24,7 @@
 
 支持 EmEditor 7.00 或之後的版本。
 
+
 ```{toctree}
 :maxdepth: 1
 allow_control_character

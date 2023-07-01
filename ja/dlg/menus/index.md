@@ -52,6 +52,7 @@
 ![](../../images/b.gif)[\[メニューのプロパティ\] ダイアログ ボックス](properties/index) (\[プロパティ\]
 ボタンを選択)
 
+
 ```{toctree}
 :maxdepth: 1
 properties/index

@@ -12,3 +12,4 @@ Displays the list of events that can be selected as triggers at which a macro st
 ### Delay Time slider
 
 For certain events, this slider can be used to adjust the delay time for which a macro waits before it runs.
+

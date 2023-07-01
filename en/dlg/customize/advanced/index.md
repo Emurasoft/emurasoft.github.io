@@ -84,3 +84,4 @@ Specifies the instruction set used to run EmEditor for certain portions of the c
 ### Reset button
 
 Resets to default settings.
+

@@ -161,6 +161,7 @@
 | [Editor\_ViewToDev](editor_viewtodev) | 表示座標をデバイス座標 (クライアント座標) に変換します。 |
 | [Editor\_ViewToLogical](editor_viewtological) | 表示座標を論理座標に変換します。 |
 
+
 ```{toctree}
 :maxdepth: 1
 editor_activatetemp

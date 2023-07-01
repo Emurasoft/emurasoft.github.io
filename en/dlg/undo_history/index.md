@@ -33,3 +33,4 @@ Exports the Undo/Redo history into a CSV file. When you import the file next tim
 ### Clear All button
 
 Clicking this button clears all the actions in the Undo/Redo history.
+

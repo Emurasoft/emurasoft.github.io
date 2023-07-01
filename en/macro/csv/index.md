@@ -23,6 +23,7 @@
 
 Supported on EmEditor Professional Version 15.2 or later.
 
+
 ```{toctree}
 :maxdepth: 1
 allow_delimiter

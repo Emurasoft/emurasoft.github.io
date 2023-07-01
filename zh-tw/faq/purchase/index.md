@@ -1,5 +1,6 @@
 # 購買
 
+
 ```{toctree}
 :maxdepth: 1
 how_to_find_version

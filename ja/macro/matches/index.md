@@ -12,3 +12,4 @@ Matches コレクションは、正規表現の検索結果を表す [Match オ�
 ## バージョン
 
 EmEditor Professional Version 15.9 以上で利用できます。
+

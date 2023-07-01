@@ -51,6 +51,7 @@ The following dialog box is also available through this dialog box.
 (Select
 **Events** button)
 
+
 ```{toctree}
 :maxdepth: 1
 select_events/index

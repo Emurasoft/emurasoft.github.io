@@ -41,3 +41,4 @@
 | **[Unicode 标准化表单 D（规范分解）](../edit/unicode_norm_fd)** | 将 Unicode 标准化表单 D（规范分解）应用于所选字符串。 |
 | **[Unicode 标准化表单 KC（兼容性组成）](../edit/unicode_norm_fkc)** | 将 Unicode 标准化表单 KC（兼容性组成）应用于所选字符串。 |
 | **[Unicode 标准化表单 KD（兼容性分解）](../edit/unicode_norm_fkd)** | 将 Unicode 标准化表单 KD（兼容性分解）应用于所选字符串。 |
+

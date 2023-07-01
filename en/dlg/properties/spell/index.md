@@ -56,3 +56,4 @@ covered by previous controls.
 Resets to default settings. The
 [**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
+

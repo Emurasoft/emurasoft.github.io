@@ -13,3 +13,4 @@ If this is checked, EmEditor shows the balloon tip on the status bar when a noti
 ### Reset button
 
 Resets to default settings.
+

@@ -83,6 +83,7 @@
 | [**最近使用的工作区**](workspace_recent_file1) | 打开一个指定的最近使用过的工作区（多个条目）。 |
 | **[激活或新建](activate_or_new)** | 激活EmEditor或创建一个新文件（仅用于托盘图标）。 |
 
+
 ```{toctree}
 :maxdepth: 1
 activate_or_new

@@ -82,3 +82,4 @@ Use this button to select from a list of predefined marks.
 
 重設為預設設定。
 [**重設** 對話方塊](../reset/index) 讓您能從另一個組態中複製設定。
+

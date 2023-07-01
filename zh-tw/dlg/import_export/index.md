@@ -26,3 +26,4 @@
 - eeLM.ini
 
 當 EmEditor 開始并在它的安裝資料夾中尋找 eeUseIni.ini 時，EmEditor 會用這些 INI 檔案，而不是注冊表，并且不會儲存任何設定到注冊表中。
+

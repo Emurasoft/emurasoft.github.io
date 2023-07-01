@@ -1,5 +1,6 @@
 # 詞彙
 
+
 ```{toctree}
 :maxdepth: 1
 allcommands

@@ -23,6 +23,7 @@
 | [TEMP\_INFO](temp_info) | [EE\_EDIT\_TEMP](../message/ee_edit_temp) 메시지와<br> [EVENT\_TEMP\_SAVING 이벤트](../event/index) 에 의해 사용됩니다. |
 | [TOOLBAR\_INFO](toolbar_info) | Used by [Editor\_ToolbarOpen 인라인 함수](../macro/editor_toolbaropen)<br> ( [EE\_TOOLBAR\_OPEN 메시지](../message/ee_toolbar_open))와 사용자 지정 도구 모음에 관련된<br> 이벤트에 의해 사용됩니다. |
 
+
 ```{toctree}
 :maxdepth: 1
 attr_info

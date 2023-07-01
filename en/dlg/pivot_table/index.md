@@ -88,3 +88,4 @@ Displays the total value of each row at the rightmost column. If this is set, en
 ### Header drop-down list box
 
 Specifies the number of rows used as the header.
+

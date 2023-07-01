@@ -261,3 +261,4 @@ HTMLファイルから "charset=..." を、XMLファイルから "encoding=..." 
 ![](../../images/b.gif)[\[抽出オプション\] ダイアログ ボックス](../extract_options/index) (\[抽出オプション\] を選択)
 
 ![](../../images/b.gif)[\[連続オプション\] ダイアログ ボックス](../batch_options/index) (\[連続オプション\] を選択)
+

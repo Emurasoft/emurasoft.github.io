@@ -20,6 +20,7 @@
 
 ![](../../images/q.gif)[\[単語数\] プラグインの使い方](plugin_wordcount)
 
+
 ```{toctree}
 :maxdepth: 1
 plugin_commit_list

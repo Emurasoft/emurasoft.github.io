@@ -36,7 +36,7 @@
 
     document.documentElement.dataset.mode = initialMode
 
-    PetiteVue.createApp({
+    const button = PetiteVue.createApp({
         'mode': initialMode,
         handleClick() {
             let currentMode = this.mode
@@ -54,6 +54,12 @@
 
             console.log(this.mode)
         }
-    }).mount('#mode_toggle')
+    })
+
+    const enableButton = window.location.protocol !== "file:";
+
+    if (enableButton) {
+        button.mount('#mode_toggle')
+    }
 })()
 </script>

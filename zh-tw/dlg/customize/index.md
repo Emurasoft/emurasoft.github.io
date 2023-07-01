@@ -2,6 +2,7 @@
 
 當您選擇 [**自訂** 命令](../../cmd/tools/common_settings) 時，會顯示這個對話方塊。您可以設置應用程式的全局選項。
 
+
 ```{toctree}
 :maxdepth: 1
 active_string/index

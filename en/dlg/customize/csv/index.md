@@ -97,3 +97,4 @@ Specifies the maximum number of newlines that can be embedded in a cell. This op
 ### Reset button
 
 Resets to default settings.
+

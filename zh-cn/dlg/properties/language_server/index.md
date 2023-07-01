@@ -31,3 +31,4 @@ EmEditor 内置了这些服务器。以下列表提供了指向其源存储库�
 - HTML 和 CSS： [VSCode extensions](https://github.com/microsoft/vscode)
 - JavaScript： [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server)
 - Perl： [Perl Navigator Language Server](https://github.com/bscan/PerlNavigator)
+

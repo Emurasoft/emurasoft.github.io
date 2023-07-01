@@ -4,6 +4,7 @@ This dialog box appears when the
 [**Customize** command](../../cmd/tools/common_settings) is selected.
 You can set global options for the application.
 
+
 ```{toctree}
 :maxdepth: 1
 active_string/index

@@ -65,3 +65,4 @@ Sets the Read-only attribute to the new backup files and folder.
 Resets to default settings. The
 [**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
+

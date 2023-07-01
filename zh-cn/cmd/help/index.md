@@ -19,6 +19,7 @@
 | **[降级](downgrade)** | 将产品降级为 EmEditor Free。 |
 | **[关于 EmEditor](app_about)** | 显示版本信息。 |
 
+
 ```{toctree}
 :maxdepth: 1
 app_about

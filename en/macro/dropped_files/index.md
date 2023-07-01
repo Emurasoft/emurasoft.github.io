@@ -33,6 +33,7 @@ Next
 
 Supported on EmEditor Professional Version 8.00 or later.
 
+
 ```{toctree}
 :maxdepth: 1
 count

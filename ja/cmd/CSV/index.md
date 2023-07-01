@@ -83,6 +83,7 @@
 | [前のセル](../edit/prev_cell) | CSV文書で前のセルにジャンプします。 |
 | [CSVモード (ポップアップ メニュー)](../edit/sv_popup) | ポップアップ メニューを表示して、CSV モードを選択します。 |
 
+
 ```{toctree}
 :maxdepth: 1
 align_center

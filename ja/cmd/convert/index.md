@@ -41,3 +41,4 @@
 | [Unicode正規化形式D (正準分解)](../edit/unicode_norm_fd) | 選択テキストに Unicode正規化形式D (正準分解) を適用します。 |
 | [Unicode正規化形式KC (互換合成)](../edit/unicode_norm_fkc) | 選択テキストに Unicode正規化形式KC (互換合成) を適用します。 |
 | [Unicode正規化形式KD (互換分解)](../edit/unicode_norm_fkd) | 選択テキストに Unicode正規化形式KD (互換分解) を適用します。 |
+

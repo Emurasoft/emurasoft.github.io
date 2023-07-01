@@ -27,3 +27,4 @@ The following INI files will be created when you select one of options to create
 - eeLM.ini
 
 When EmEditor starts and finds eeUseIni.ini in its install folder, EmEditor uses these INI files instead of the Registry, and does not save any settings to the Registry.
+

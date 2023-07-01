@@ -15,3 +15,4 @@ Copy settings from another configuration.
 ### Configurations list box
 
 Select a configuration to copy from.
+

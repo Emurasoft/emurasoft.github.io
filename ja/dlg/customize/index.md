@@ -63,6 +63,7 @@
 
 ![](../../images/b.gif)[\[言語\] ページ](lang/index)
 
+
 ```{toctree}
 :maxdepth: 1
 active_string/index

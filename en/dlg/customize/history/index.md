@@ -77,3 +77,4 @@ Displays the [**Clear History Now** dialog box](../../clear_history/index), wher
 ### Reset button
 
 Resets to default settings.
+

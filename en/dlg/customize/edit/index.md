@@ -114,3 +114,4 @@ Treats the following characters as alphanumeric when editing. For instance, when
 ### Reset button
 
 Resets to default settings.
+

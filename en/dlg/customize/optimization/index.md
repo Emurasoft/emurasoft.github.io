@@ -17,3 +17,4 @@ Enabling this option will disable find markers on the vertical scroll bar while 
 ### Reset button
 
 Resets to default settings.
+

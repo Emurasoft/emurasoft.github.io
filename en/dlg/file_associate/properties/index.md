@@ -25,3 +25,4 @@ Click this button to find the specified file.
 ### Current Icon list box
 
 List of icons you can use and the current icon selected.
+

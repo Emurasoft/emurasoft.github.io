@@ -42,6 +42,7 @@ Next
 
 Supported on EmEditor Professional Version 7.00 또는 later.
 
+
 ```{toctree}
 :maxdepth: 1
 add

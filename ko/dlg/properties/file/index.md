@@ -124,6 +124,7 @@ DSV(사용자 정의된 구분 기호로 구분)에 사용할 구분 기호를 �
 
 ( **저장 중** 버튼 선택)
 
+
 ```{toctree}
 :maxdepth: 1
 new_details/index

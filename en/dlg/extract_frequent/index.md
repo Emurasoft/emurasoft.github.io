@@ -58,3 +58,4 @@ Deletes the selected item(s) from the list.
 ## Tips
 
 To count and extract strings matching a specific pattern, set the **Count Frequent Strings** check box in the [**Extract Options** dialog box](../extract_options/index), use a regular expression to match specific strings, and use the **Extract** button in the [**Find** dialog box](../find/index).
+

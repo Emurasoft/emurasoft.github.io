@@ -22,3 +22,4 @@
 | **[Invert Bookmarks in This Group](../edit/bookmark_group_invert)** | Inverts all bookmarks in this group. |
 | **[Delete Bookmarked Lines in This Group](../edit/bookmark_group_delete)** | Deletes all bookmarked lines in this group. |
 | **[Extract Bookmarked Lines in this Group to New File](../edit/bookmark_group_extract)** | Extracts all bookmarked lines in this group and copied to a new document. |
+

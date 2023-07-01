@@ -163,6 +163,7 @@
 | **[語法檢查](csv_validate)** | 檢查目前的文檔的語法並顯示結果。 |
 | **[強制轉換剪貼簿格式為文字格式](force_clipboard_text)** | 把剪貼簿格式強制轉換為僅文字格式（僅在托盤圖示功能表中顯示）。 |
 
+
 ```{toctree}
 :maxdepth: 1
 add_column

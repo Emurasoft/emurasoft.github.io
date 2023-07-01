@@ -34,3 +34,4 @@ Specifies EmEditor's icon.
 ### Reset button
 
 Resets to default settings.
+

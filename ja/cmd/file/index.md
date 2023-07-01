@@ -84,6 +84,7 @@
 | [最近のワークスペース](workspace_recent_file1) | 指定した最近使ったワークスペースを開きます (複数項目)。 |
 | [アクティブにするか新規作成](activate_or_new) | EmEditorをアクティブにするか、または新規にファイルを作成します。(トレイ アイコンのみで利用可能です) |
 
+
 ```{toctree}
 :maxdepth: 1
 activate_or_new

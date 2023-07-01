@@ -11,3 +11,4 @@
 | PlugInProc( HWND hwnd, UINT nMsg, WPARAM wParam, LPARAM lParam ) | 用 [外掛程式消息](../plugin_message/index) 來檢索或設置設定。 |
 
 這些導出函數必須通過這個順序在一個 DEF 檔案中定義。當您編譯它們時，您需要選擇 \_stdcall 作為調用方式。有關更多外掛程式示例的信息，請訪問 EmEditor 網站的資源庫。
+

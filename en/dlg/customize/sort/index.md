@@ -69,3 +69,4 @@ Specifies the locale used for the sort.
 ### Reset button
 
 Resets to default settings.
+

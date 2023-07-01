@@ -82,6 +82,7 @@
 | **[Previous Cell](../edit/prev_cell)** | Jumps to the previous cell in CSV mode. |
 | **[CSV (popup menu)](../edit/sv_popup)** | Shows a popup menu to select a CSV mode. |
 
+
 ```{toctree}
 :maxdepth: 1
 align_center

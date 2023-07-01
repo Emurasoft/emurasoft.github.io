@@ -58,3 +58,4 @@ Starts deleting duplicate lines according to the settings.
 ### Bookmark button
 
 Starts bookmarking duplicate lines according to the settings.
+

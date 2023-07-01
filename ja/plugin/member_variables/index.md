@@ -25,3 +25,4 @@ CETLFrame で定義される必要のある変数があります。\_ID で始�
 | \_MIN\_EE\_VERSION | 対応するもっとも古い EmEditor のバージョン番号 \* 1000。 |
 | \_SUPPORT\_EE\_PRO | EmEditor Professional をサポートする場合に TRUE。 |
 | \_SUPPORT\_EE\_STD | EmEditor Standard をサポートする場合に TRUE。 |
+

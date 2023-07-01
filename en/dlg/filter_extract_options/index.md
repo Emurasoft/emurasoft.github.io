@@ -14,3 +14,4 @@ If this is checked, extracts all matched strings.
 ### Delimiter text box
 
 Specifies a delimiter to separate matched strings when more than one strings are matched per line. This option is available only when the **Extract all matched strings** radio button is selected.
+

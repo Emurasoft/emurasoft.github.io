@@ -1,5 +1,6 @@
 # Glossary
 
+
 ```{toctree}
 :maxdepth: 1
 allcommands

@@ -43,3 +43,4 @@ Displays the list of defined sort conditions.
 | Sort IPv6 Addresses Descending | Sorts IPv6 addresses in split strings, in descending order. |
 | Sort Randomly | Sorts split strings randomly. |
 | Sort Reverse | Sorts split strings in reverse order. |
+

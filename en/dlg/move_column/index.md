@@ -26,3 +26,4 @@ Displays the list of columns that can be specified.
 ### Destination - After the last column radio button
 
 If this button is checked, EmEditor moves/copies the selected columns after the last column.
+

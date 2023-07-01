@@ -31,3 +31,4 @@ pip を使用して [Python LSP Server](https://github.com/python-lsp/python-lsp
 - HTML と CSS: [VSCode extensions](https://github.com/microsoft/vscode)
 - JavaScript: [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server)
 - Perl: [Perl Navigator Language Server](https://github.com/bscan/PerlNavigator)
+

@@ -25,3 +25,4 @@ Highlights the selected word only if the word contains only alphabets and number
 ### Reset button
 
 Resets to default settings.
+

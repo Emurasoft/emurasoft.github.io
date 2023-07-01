@@ -2,6 +2,7 @@
 
 ![](../../images/q.gif)[\[すべて連続置換\] と \[すべて一括置換\] の違い](batch_vs_bulk)
 
+
 ```{toctree}
 :maxdepth: 1
 batch_vs_bulk

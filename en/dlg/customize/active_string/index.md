@@ -37,3 +37,4 @@ When **EmEditor Command** is selected for the **Action** drop-down list box, you
 ### Reset button
 
 Resets to default settings.
+

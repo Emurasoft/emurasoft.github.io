@@ -73,6 +73,7 @@
 | [前へ移動](window_move_prev) | 現在の文書をタブの前の位置に移動します。 |
 | [文書の一覧](window_menu) | 指定する文書をアクティブにして表示します (複数項目)。 |
 
+
 ```{toctree}
 :maxdepth: 1
 active_pane

@@ -19,6 +19,7 @@
 | **[Downgrade](downgrade)** | Downgrades the product to EmEditor Free. |
 | **[About EmEditor](app_about)** | Displays version information. |
 
+
 ```{toctree}
 :maxdepth: 1
 app_about

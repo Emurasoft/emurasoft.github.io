@@ -51,3 +51,4 @@ Highlights the lines that have been changed/saved on the left edge of EmEditor w
 Resets to default settings. The
 [**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
+

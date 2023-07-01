@@ -24,3 +24,4 @@ CSV Column number to which you would like to jump in case of a CSV document.
 ### File Position text box
 
 Specify the file position to which you would like to jump. Changing the **File Position** will update the **Line** and **Column** in the dialog box before you confirm the jump, and vice versa.
+

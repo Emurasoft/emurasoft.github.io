@@ -100,6 +100,7 @@
 | **[清除保存过的行的标记](clear_saved_markers)** | 清除所有指示保存行的标记。 |
 | **[显示最后一条消息](show_last_message)** | 显示最后收到的消息（仅在托盘图标菜单中显示）。 |
 
+
 ```{toctree}
 :maxdepth: 1
 add_remove_guide

@@ -89,3 +89,4 @@ Specifies the default value of column width.
 ### Reset button
 
 Resets to default settings.
+

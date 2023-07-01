@@ -53,3 +53,4 @@ If this option is set, EmEditor will use dark colors on all elements including m
 ### Reset button
 
 Resets to default settings.
+

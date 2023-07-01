@@ -19,6 +19,7 @@
 
 EmEditor Professional Version 22.0 以上で利用できます。
 
+
 ```{toctree}
 :maxdepth: 1
 add_character_range

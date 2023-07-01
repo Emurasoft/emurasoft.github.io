@@ -46,6 +46,7 @@
 
 - [数値範囲表現構文](../../howto/search/number_range_syntax)
 
+
 ```{toctree}
 :maxdepth: 1
 str_char_range/index

@@ -161,6 +161,7 @@
 | [Editor\_ViewToDev](editor_viewtodev) | Converts the display coordinates of a specified position to the device <br> (client) coordinates. |
 | [Editor\_ViewToLogical](editor_viewtological) | Converts the display coordinates of a specified position to the logical <br> coordinates. |
 
+
 ```{toctree}
 :maxdepth: 1
 editor_activatetemp

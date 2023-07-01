@@ -54,3 +54,4 @@ Click this button to find the specified initial folder.
 Resets to default settings. The
 [**Reset** dialog box](../../reset/index) will be displayed
 and will allow you to copy from another configuration.
+

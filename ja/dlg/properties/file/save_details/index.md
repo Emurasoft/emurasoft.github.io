@@ -63,3 +63,4 @@ Unicode、Unicode big endian、UTF-8で保存時、バイト オーダー マー
 ### \[リセット\] ボタン
 
 設定を既定にします。
+

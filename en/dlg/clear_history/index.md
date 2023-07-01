@@ -10,3 +10,4 @@ Shows the list of history items to clear.
 ### Enable/Disable All check box
 
 Enables or disables all items in the list.
+

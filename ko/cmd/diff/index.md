@@ -26,6 +26,7 @@
 | **[다음 변경된 줄 명령](compare_next_line)** | 다음으로 변경된 줄로 이동합니다. |
 | **[바뀐 내용 책갈피 명령](compare_bookmark)** | 변경된 모든 줄에 책갈피를 표시합니다. |
 
+
 ```{toctree}
 :maxdepth: 1
 compare_bookmark

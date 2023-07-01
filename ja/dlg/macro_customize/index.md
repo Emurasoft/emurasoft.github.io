@@ -9,6 +9,7 @@
 
 ![](../../images/b.gif)[\[オプション\] タブ](options/index)
 
+
 ```{toctree}
 :maxdepth: 1
 my_macros/index

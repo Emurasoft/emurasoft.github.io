@@ -51,3 +51,4 @@ Displays the list of defined sort conditions.
 ### Use first non-empty value radio button
 
 If this button is checked, EmEditor uses the first non-empty value to combine the selected columns.
+

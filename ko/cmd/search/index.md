@@ -39,6 +39,7 @@
 | **[모두 바꾸기（찾기 도구 모음）명령](findbar_replace_all)** | 찾기 도구 모음을 이용하여 일치하는 모든 문자열을 대체합니다. |
 | **[선택 내에서만 (찾기 도구 모음）명령](findbar_sel_only)** | 찾기 도구 모음에서 선택 내에서만 버튼을 설정/해제 합니다. |
 
+
 ```{toctree}
 :maxdepth: 1
 add_next2_occurrence

@@ -41,3 +41,4 @@
 | **[Unicode 正規化表單 D (標準分解)](../edit/unicode_norm_fd)** | 將 Unicode 正規化表單 D (標準分解) 應用於所選字串。 |
 | **[Unicode 正規化表單 KC (相容性組合)](../edit/unicode_norm_fkc)** | 將 Unicode 正規化表單 KC (相容性組合) 應用於所選字串。 |
 | **[Unicode 正規化表單 KD (相容性分解)](../edit/unicode_norm_fkd)** | 將 Unicode 正規化表單 KD (相容性分解) 應用於所選字串。 |
+

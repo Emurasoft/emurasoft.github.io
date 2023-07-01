@@ -11,3 +11,4 @@
 | PlugInProc( HWND hwnd, UINT nMsg, WPARAM wParam, LPARAM lParam ) | 用 [插件消息](../plugin_message/index) 来检索或设置设定。 |
 
 这些导出函数必须通过这个顺序在一个 DEF 文件中定义。当你编译它们时，你需要选择 \_stdcall 作为调用方式。有关更多插件示例的信息，请访问 EmEditor 网站的资源库。
+
