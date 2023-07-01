@@ -22,6 +22,7 @@ html_css_files = ['custom.css']
 templates_path = ['_templates']
 html_file_suffix = '.htm'
 html_copy_source = False
+html_favicon = '_static/favicon.ico'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
