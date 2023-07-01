@@ -52,3 +52,8 @@ div.document form input[type="submit"] {
     color: #333333;
     background-color: #f2f2f2;
 }
+
+h1 {
+    font-size: 2rem;
+    font-family: "Roboto-bold", "OpenSans", sans-serif;
+}
