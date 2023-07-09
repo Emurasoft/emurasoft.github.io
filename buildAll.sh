@@ -4,3 +4,5 @@ PROJECT='ja' sphinx-build . _build/ja
 PROJECT='ko' sphinx-build . _build/ko
 PROJECT='zh-cn' sphinx-build . _build/zh-cn
 PROJECT='zh-tw' sphinx-build . _build/zh-tw
+
+parallel 'PROJECT={} sphinx-build . _build/{}' ::: en ja ko zh-cn zh-tw'
