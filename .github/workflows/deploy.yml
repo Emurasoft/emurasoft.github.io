@@ -23,7 +23,7 @@ jobs:
       - name: Build pages
         run: sh ./buildAll.sh
       - name: Get minify
-        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.12.7/minify_linux_amd64.tar.gz | tar -xz && ls
+        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.12.7/minify_linux_amd64.tar.gz | tar -xz
       - name: Minify
         run: ./minify -v -r --sync -o _minified/ _build
       - name: Configure GitHub Pages
