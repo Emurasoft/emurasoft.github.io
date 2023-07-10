@@ -15,7 +15,7 @@ author = 'Emurasoft'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['multiproject', 'myst_parser']
+extensions = ['multiproject', 'myst_parser', 'sphinx_sitemap']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv']
 html_static_path = ['_static']
 html_css_files = ['custom.css']
@@ -23,6 +23,8 @@ templates_path = ['_templates']
 html_file_suffix = '.htm'
 html_copy_source = False
 html_favicon = '_static/favicon.ico'
+html_baseurl = 'https://emurasoft.github.io/emeditor-help/'
+sitemap_locales = ['en']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
