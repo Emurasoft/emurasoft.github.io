@@ -55,6 +55,20 @@
                 element.style.fontSize = "smaller";
                 element.style.cursor = "help";
             }
+
+            // Scroll toctree to current page
+            // Last item in array is current page
+            const itemElements = document.querySelectorAll("li.current");
+            if (itemElements.length > 0) {
+                itemElements[itemElements.length - 1].scrollIntoView({block: "center"});
+            }
+
+            // Hide empty table header
+            for (const element of document.querySelectorAll("th.head")) {
+                if (element.innerText === "") {
+                    element.style.display = "none";
+                }
+            }
         });
     </script>
 {% endblock %}
@@ -206,17 +220,6 @@
             {% endif %}
         </p>
     </div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            // Scroll toctree to current page
-            // Last item in array is current page
-            const elements = document.querySelectorAll("li.current");
-            if (elements.length > 0) {
-                elements[elements.length - 1].scrollIntoView({block: "center"});
-            }
-        });
-    </script>
 	
 	<article>
     	{{ super() }}
