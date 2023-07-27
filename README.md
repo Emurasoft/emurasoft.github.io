@@ -1,4 +1,3 @@
-# TODO
+# emeditor-help
 
-- Manually create toctrees for /features and /macro
-- Spellcheck
+Sphinx project for [https://www.emeditor.org/](https://www.emeditor.org/).
