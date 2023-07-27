@@ -2,142 +2,20 @@
 
 ## 概述
 
-
-
-
+```{toctree}
+:maxdepth: 1
+features/index
+tutorial/index
+```
 
 ## 常用對象
 
-
-
-
-
-
-
-
+- [Document 对象](document/index)
+- [Editor 对象](editor/index)
+- [Selection 对象](selection/index)
+- [Window 对象](window/index)
 
 ## 所有對象
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 常數和指示詞
-
-
-
-
-
-## 版本
-
-把正在編寫中的巨集儲存到檔案中在 EmEditor 4.00 或之後的版本上支持。
-
 
 ```{toctree}
 :maxdepth: 1
@@ -151,10 +29,8 @@ character_ranges/index
 clipboarddata/index
 config/index
 configs/index
-const/index
 csv/index
 csv_list/index
-directive/index
 display_item/index
 display_list/index
 display_prop/index
@@ -162,7 +38,6 @@ document/index
 documents/index
 dropped_files/index
 editor/index
-features/index
 file_new_prop/index
 file_prop/index
 file_save_prop/index
@@ -197,8 +72,15 @@ scroll_prop/index
 selection/index
 shell/index
 spell_prop/index
-tutorial/index
 window/index
 windows/index
 wrap_prop/index
+```
+
+## 常數和指示詞
+
+```{toctree}
+:maxdepth: 1
+const/index
+directive/index
 ```

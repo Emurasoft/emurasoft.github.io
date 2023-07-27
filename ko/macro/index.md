@@ -2,122 +2,20 @@
 
 ## 개요
 
-
-
-
+```{toctree}
+:maxdepth: 1
+features/index
+tutorial/index
+```
 
 ## 자주 사용되는 개체
 
-
-
-
-
-
-
-
+- [Document 개체](document/index)
+- [Editor 개체](editor/index)
+- [Selection 개체](selection/index)
+- [Window 개체](window/index)
 
 ## 모든 개체
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 상수 및 지침서
-
-
-
-
-
-## 버전
-
-파일로 저장하는 스크립트 매크로는 엠에디터 프로페셔널 버전 4.00 이상에서만 지원됩니다.
-
 
 ```{toctree}
 :maxdepth: 1
@@ -129,8 +27,6 @@ backup_prop/index
 clipboarddata/index
 config/index
 configs/index
-const/index
-directive/index
 display_item/index
 display_list/index
 display_prop/index
@@ -138,7 +34,6 @@ document/index
 documents/index
 dropped_files/index
 editor/index
-features/index
 file_new_prop/index
 file_prop/index
 file_save_prop/index
@@ -166,8 +61,15 @@ scroll_prop/index
 selection/index
 shell/index
 spell_prop/index
-tutorial/index
 window/index
 windows/index
 wrap_prop/index
+```
+
+## 상수 및 지침서
+
+```{toctree}
+:maxdepth: 1
+const/index
+directive/index
 ```

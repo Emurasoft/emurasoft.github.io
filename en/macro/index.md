@@ -2,142 +2,20 @@
 
 ## Overview
 
-
-
-
+```{toctree}
+:maxdepth: 1
+features/index
+tutorial/index
+```
 
 ## Frequently Used Objects
 
-
-
-
-
-
-
-
+- [Document オブジェクト](document/index)
+- [Editor オブジェクト](editor/index)
+- [Selection オブジェクト](selection/index)
+- [Window オブジェクト](window/index)
 
 ## All  Objects
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Constants and Directives
-
-
-
-
-
-## Version
-
-Scripting macros to save into files are supported on EmEditor Professional Version 4.00 or later.
-
 
 ```{toctree}
 :maxdepth: 1
@@ -151,10 +29,8 @@ character_ranges/index
 clipboarddata/index
 config/index
 configs/index
-const/index
 csv/index
 csv_list/index
-directive/index
 display_item/index
 display_list/index
 display_prop/index
@@ -162,7 +38,6 @@ document/index
 documents/index
 dropped_files/index
 editor/index
-features/index
 file_new_prop/index
 file_prop/index
 file_save_prop/index
@@ -197,8 +72,15 @@ scroll_prop/index
 selection/index
 shell/index
 spell_prop/index
-tutorial/index
 window/index
 windows/index
 wrap_prop/index
+```
+
+## Constants and Directives
+
+```{toctree}
+:maxdepth: 1
+const/index
+directive/index
 ```
