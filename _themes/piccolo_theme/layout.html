@@ -219,7 +219,7 @@
         <p>
             {% if parents|length > 0 %}
                 {%- for doc in parents %}
-                    <a href="{{ doc.link|e }}">{{ doc.title }}</a> |
+                    <a href="{{ doc.link|e }}">{{ doc.title }}</a> &mdash;
                 {%- endfor %}
                 {{ title }}
             {% endif %}
