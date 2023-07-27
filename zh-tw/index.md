@@ -1,3 +1,5 @@
+[<img src="_static/logo-minified.svg" width="300">](https://www.emeditor.com/)
+
 # EmEditor 說明
 
 ```{toctree}
@@ -16,5 +18,6 @@ notice/index
 plugin/index
 purchase/index
 support/index
-禁止非法使用本軟體。<notice/illegal_usage>
 ```
+
+- [禁止非法使用本軟體。](notice/illegal_usage)

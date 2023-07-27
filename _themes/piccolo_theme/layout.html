@@ -69,6 +69,11 @@
                     element.style.display = "none";
                 }
             }
+
+            // External links
+            for (const element of document.querySelectorAll("a.external")) {
+                element.setAttribute("target", "_blank");
+            }
         });
     </script>
 {% endblock %}

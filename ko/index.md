@@ -1,3 +1,5 @@
+[<img src="_static/logo-minified.svg" width="300">](https://www.emeditor.com/)
+
 # 엠에디터 도움말
 
 ```{toctree}
@@ -16,5 +18,6 @@ notice/index
 plugin/index
 purchase/index
 support/index
-이 프로그램을 불법으로 사용하지 마십시오. <notice/illegal_usage>
 ```
+
+- [이 프로그램을 불법으로 사용하지 마십시오.](notice/illegal_usage)
