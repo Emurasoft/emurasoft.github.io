@@ -1,37 +1,4 @@
-## EmEditor Professional
-
-# 帮助
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## [禁止非法使用本软件。](notice/illegal_usage)
-
+# EmEditor 帮助
 
 ```{toctree}
 :maxdepth: 1
@@ -49,4 +16,5 @@ notice/index
 plugin/index
 purchase/index
 support/index
+禁止非法使用本软件。<notice/illegal_usage>
 ```
