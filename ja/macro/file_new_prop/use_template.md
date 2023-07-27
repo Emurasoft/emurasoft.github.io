@@ -1,21 +1,23 @@
 # UseTemplate プロパティ (FileNewProp �I�u�W�F�N�g)
 
-[**\[新規作成時の詳細\]** のダイアログ ボックス](../../dlg/properties/file/new_details/index) の
-**\[テンプレートを使用\]** チェック ボックスに相当します。
+[\[新規作成時の詳細\] のダイアログ ボックス](../../dlg/properties/file/new_details/index) の
+\[テンプレートを使用\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **UseTemplate**;
+### \[JavaScript\]
 
-object. **UseTemplate** = _b_;
+```
+b = object.UseTemplate;
+object.UseTemplate = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **UseTemplate**
-
-object. **UseTemplate** = _b_
+```
+b = object.UseTemplate
+object.UseTemplate = b
+```
 
 ## バージョン
 

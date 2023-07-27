@@ -1,37 +1,42 @@
 # Select Line command
 
-### Summary
+## Summary
 
-> Toggles line selection mode.
+Toggles line selection mode.
 
-### Description
+## Description
 
-> Toggles line selection mode. This command allows you to highlight multiple
-> lines with the keyboard.  Moving the cursor with the arrow keys will
-> expand or contract the selection. Selecting the
-> [**Copy** command](edit_copy) or the
-> [**Cut** command](edit_cut) will end character selection
-> mode.
+Toggles line selection mode. This command allows you to highlight multiple
+lines with the keyboard.  Moving the cursor with the arrow keys will
+expand or contract the selection. Selecting the
+[Copy command](edit_copy) or the
+[Cut command](edit_cut) will end character selection
+mode.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Select Line**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Select Line
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+F8
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SELECT\_LINE (4154)
+```
+EEID_SELECT_LINE (4154)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4154);
+```
+editor.ExecuteCommandByID(4154);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4154
+```
+editor.ExecuteCommandByID 4154
+```

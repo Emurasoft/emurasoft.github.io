@@ -2,13 +2,19 @@
 
 检索 [AutoSaveProp 对象](../auto_save_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **AutoSave**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.AutoSave;
+```
 
-Set _obj_ = object. **AutoSave**
+### \[VBScript\]
+
+```
+Set obj = object.AutoSave
+```
 
 ## 版本
 

@@ -2,15 +2,19 @@
 
 [AssociationList オブジェクト](../association_list/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_list_ =
-object. **List**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.List;
+```
 
-_list_ =
-object. **List**
+### \[VBScript\]
+
+```
+list = object.List
+```
 
 ## バージョン
 

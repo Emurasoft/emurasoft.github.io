@@ -2,31 +2,37 @@
 
 Retrieves the current foreground window.
 
-#### \[JavaScript\]
+## 
 
-wnd = shell. **ForegroundWindow**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd = shell.ForegroundWindow;
+```
 
-wnd = shell. **ForegroundWindow**
+### \[VBScript\]
+
+```
+wnd = shell.ForegroundWindow
+```
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnd = shell.ForegroundWindow;
-
 str = wnd.Caption;
-
 alert( str );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd = shell.ForegroundWindow
-
 str = wnd.Caption
-
 alert str
+```
 
 ## Version
 

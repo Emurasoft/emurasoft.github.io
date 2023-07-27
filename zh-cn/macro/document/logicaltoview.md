@@ -1,14 +1,20 @@
 # LogicalToView 方法 (Document ����)
 
-将指定位置的逻辑坐标转换为显示坐标，并检索 [**Point** 对象](../point/index) 中的位置。
+将指定位置的逻辑坐标转换为显示坐标，并检索 [Point 对象](../point/index) 中的位置。
 
-#### \[JavaScript\]
+## 
 
-_point_ = document. **LogicalView**( _x_, _y_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+point = document.LogicalView( x, y );
+```
 
-_point_ = document. **LogicalView**( _x_, _y_ )
+### \[VBScript\]
+
+```
+point = document.LogicalView( x, y )
+```
 
 ## 参数
 
@@ -22,21 +28,21 @@ _y_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 point = document.LogicalToView( 10, 1 );
-
 x = point.x;
-
 y = point.y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 point = document.LogicalToView( 10, 1 )
-
 x = point.x
-
 y = point.y
+```
 
 ## 版本
 

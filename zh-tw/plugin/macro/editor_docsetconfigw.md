@@ -8,20 +8,20 @@ Editor\_SetConfigW( HWND hwnd, int iDoc, LPCWSTR szConfigName );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _iDoc_
 
-> 指定目標文檔的索引。如果指定值為 -1，目前的活動文檔會被設為目標文檔。
+指定目標文檔的索引。如果指定值為 -1，目前的活動文檔會被設為目標文檔。
 
 _szConfigName_
 
-> 用 Unicode 字串指定一個組態。
+用 Unicode 字串指定一個組態。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。
 
 ## 支持版本
 
-> 支持 EmEditor 5.00 或之後的版本。
+支持 EmEditor 5.00 或之後的版本。

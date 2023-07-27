@@ -2,15 +2,19 @@
 
 アイテムの数を取得します。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-List. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = List.Count;
+```
 
-_n_ =
-List. **Count**
+### \[VBScript\]
+
+```
+n = List.Count
+```
 
 ## バージョン
 

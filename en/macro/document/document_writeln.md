@@ -2,13 +2,19 @@
 
 Inserts or overwrites a string and a newline character at the current cursor position.
 
-#### \[JavaScript\]
+## 
 
-document. **writeln**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.writeln( str );
+```
 
-document. **writeln** _str_
+### \[VBScript\]
+
+```
+document.writeln str
+```
 
 ## Parameters
 
@@ -18,13 +24,17 @@ Specifies the string to be inserted or overwritten.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-document. **writeln**( "Hello" );
+```
+document.writeln( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document. **writeln** "Hello"
+```
+document.writeln "Hello"
+```
 
 ## Version
 

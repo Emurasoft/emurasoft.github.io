@@ -1,33 +1,38 @@
 # Outlining (Popup Menu) command
 
-### Summary
+## Summary
 
-> Shows a popup menu to specify outline settings.
+Shows a popup menu to specify outline settings.
 
-### Description
+## Description
 
-> Shows a popup menu to specify outline settings.
+Shows a popup menu to specify outline settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** >
-**Outline** >
-**Outlining (Popup Menu)**
+- [All Commands](../tools/all_commands):View >
+Outline >
+Outlining (Popup Menu)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_OUTLINE\_POPUP (3875)
+```
+EEID_OUTLINE_POPUP (3875)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3875);
+```
+editor.ExecuteCommandByID(3875);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3875
+```
+editor.ExecuteCommandByID 3875
+```

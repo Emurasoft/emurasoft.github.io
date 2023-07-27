@@ -1,20 +1,22 @@
 # NameUntitled 屬性 (FileSaveProp ��H)
 
-與 [**儲存詳細信息** 對話方塊](../../dlg/properties/file/save_details/index) 中的 **自動為無標題文檔命名** 核取方塊相對應。
+與 [儲存詳細信息 對話方塊](../../dlg/properties/file/save_details/index) 中的自動為無標題文檔命名 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **NameUntitled**;
+### \[JavaScript\]
 
-object. **NameUntitled** = _b_;
+```
+b = object.NameUntitled;
+object.NameUntitled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **NameUntitled**
-
-object. **NameUntitled** = _b_
+```
+b = object.NameUntitled
+object.NameUntitled = b
+```
 
 ## 版本
 

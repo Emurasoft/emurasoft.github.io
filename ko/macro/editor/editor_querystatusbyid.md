@@ -2,20 +2,26 @@
 
 활성화되고 있으며 선택되어 있는지 지정된 명령의 현재 상태를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_nStatus_ = editor. **QueryStatusByID**( _nID_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nStatus = editor.QueryStatusByID( nID );
+```
 
-_nStatus_ = editor. **QueryStatusByID**( _nID_ )
+### \[VBScript\]
+
+```
+nStatus = editor.QueryStatusByID( nID )
+```
 
 ## 매개 변수
 
 _nID_
 
 실행할 명령 ID를 나타내는 정수를 지정합니다.
-가능한 명령의 목록을 위해 **[명령 참조](../../cmd/index)** 를 참고하십시오.
+가능한 명령의 목록을 위해[명령 참조](../../cmd/index) 를 참고하십시오.
 모든 명령이 가능하거나 지원되지는 않습니다.
 
 ## 반환 값

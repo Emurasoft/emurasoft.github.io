@@ -1,18 +1,22 @@
 # CharacterRanges 屬性 (FuzzyOptions ��H)
 
-檢索或設定 [**CharacterRanges** 集合](../character_ranges/index)。
+檢索或設定 [CharacterRanges 集合](../character_ranges/index)。
 
-#### \[JavaScript\]
+## 
 
-_ranges_ = obj. **CharacterRanges**;
+### \[JavaScript\]
 
-obj. **CharacterRanges** = _ranges_;
+```
+ranges = obj.CharacterRanges;
+obj.CharacterRanges = ranges;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_ranges_ = obj. **CharacterRanges**
-
-obj. **CharacterRanges** = _ranges_
+```
+ranges = obj.CharacterRanges
+obj.CharacterRanges = ranges
+```
 
 ## 版本
 

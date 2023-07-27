@@ -2,13 +2,19 @@
 
 \[OK\] ボタンが付いたダイアログ ボックス内にメッセージを表示します。
 
-#### \[JavaScript\]
+## 
 
-**alert**( _strMessage_, _strMessage2_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+alert( strMessage, strMessage2 );
+```
 
-**alert** _strMessage, strMessage2_
+### \[VBScript\]
+
+```
+alert strMessage, strMessage2
+```
 
 ## パラメータ
 

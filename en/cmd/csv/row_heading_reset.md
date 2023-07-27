@@ -1,31 +1,36 @@
 # Row Heading 0 command
 
-### Summary
+## Summary
 
-> Resets row headings.
+Resets row headings.
 
-### Description
+## Description
 
-> Resets row headings.
+Resets row headings.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Headings (Freeze Panes)** \> **Row Heading 0**
-- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Row Heading 0**
+- Default Menu:CSV \>Headings (Freeze Panes) \>Row Heading 0
+- [All Commands](../tools/all_commands):CSV \>Headings (Freeze Panes) \>Row Heading 0
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ROW\_HEADING\_RESET (4091)
+```
+EEID_ROW_HEADING_RESET (4091)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4091);
+```
+editor.ExecuteCommandByID(4091);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4091
+```
+editor.ExecuteCommandByID 4091
+```

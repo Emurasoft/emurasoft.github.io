@@ -2,13 +2,19 @@
 
 Finds the child window object by the window identifier.
 
-#### \[JavaScript\]
+## 
 
-wndChild = wnd. **FindWindowByID**( id );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wndChild = wnd.FindWindowByID( id );
+```
 
-wndChild = wnd. **FindWindowByID**( id )
+### \[VBScript\]
+
+```
+wndChild = wnd.FindWindowByID( id )
+```
 
 ## Parameters
 

@@ -2,13 +2,19 @@
 
 CSV モードで指定するセルのテキストを取得します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = document. **GetCell**( _yLine_, _iColumn_, _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = document.GetCell( yLine, iColumn, flags );
+```
 
-_str_ = document. **GetCell**( _yLine_, _iColumn_, _flags_ )
+### \[VBScript\]
+
+```
+str = document.GetCell( yLine, iColumn, flags )
+```
 
 ## パラメータ
 
@@ -22,13 +28,13 @@ _iColumn_
 
 _flags_
 
-> 次のいずれかの値を指定します。
->
-> |     |     |
-> | --- | --- |
-> | eeCellIncludeNone | 出力テキストには囲む2重引用符も区切り文字列も含まれません。 |
-> | eeCellIncludeQuotes | 出力テキストには囲む2重引用符が含まれますが、区切り文字列も含まれません。 |
-> | eeCellIncludeQuotesAndDelimiter | 出力テキストには囲む2重引用符も区切り文字列も含まれます。 |
+次のいずれかの値を指定します。
+
+|     |     |
+| --- | --- |
+| eeCellIncludeNone | 出力テキストには囲む2重引用符も区切り文字列も含まれません。 |
+| eeCellIncludeQuotes | 出力テキストには囲む2重引用符が含まれますが、区切り文字列も含まれません。 |
+| eeCellIncludeQuotesAndDelimiter | 出力テキストには囲む2重引用符も区切り文字列も含まれます。 |
 
 ## バージョン
 

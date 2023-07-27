@@ -2,19 +2,25 @@
 
 Searches for multiple strings.
 
-#### \[JavaScript\]
+## 
 
-nFound = document.selection. **BatchFind**( _filters_, _nFlags_, _nExFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = document.selection.BatchFind( filters, nFlags, nExFlags );
+```
 
-nFound = document.selection. **BatchFind**( _filters_, _nFlags_, _nExFlags_ )
+### \[VBScript\]
+
+```
+nFound = document.selection.BatchFind( filters, nFlags, nExFlags )
+```
 
 ## Parameters
 
 _filters_
 
-Specifies a [**Filters** Collection](../filters/index) which contains search strings and flags.
+Specifies a [Filters Collection](../filters/index) which contains search strings and flags.
 
 _nFlags_
 

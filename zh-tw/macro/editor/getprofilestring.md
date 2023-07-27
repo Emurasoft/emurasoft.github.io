@@ -2,13 +2,19 @@
 
 按 EmEidtor 的設定，從注冊表或一個 INI 檔案上檢索指定項目的字符串值。
 
-#### \[JavaScript\]
+## 
 
-_str_ = editor. **GetProfileString**( _nKey_, _strConfig_, _strEntry_, _strDefault_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = editor.GetProfileString( nKey, strConfig, strEntry, strDefault );
+```
 
-_str_ = editor. **GetProfileString**( _nKey_, _strConfig_, _strEntry_, _strDefault_ )
+### \[VBScript\]
+
+```
+str = editor.GetProfileString( nKey, strConfig, strEntry, strDefault )
+```
 
 ## 參數
 

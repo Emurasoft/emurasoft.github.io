@@ -2,17 +2,21 @@
 
 显示或隐藏输出栏。
 
-#### \[JavaScript\]
+## 
 
-_bVisible_ = OutputBar. **Visible**;
+### \[JavaScript\]
 
-OutputBar. **Visible** = _bVisible_;
+```
+bVisible = OutputBar.Visible;
+OutputBar.Visible = bVisible;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bVisible_ = OutputBar. **Visible**;
-
-OutputBar. **Visible** = _bVisible_;
+```
+bVisible = OutputBar.Visible;
+OutputBar.Visible = bVisible;
+```
 
 ## 版本
 

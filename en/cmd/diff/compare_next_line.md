@@ -1,31 +1,36 @@
 # Next Changed Line command
 
-### Summary
+## Summary
 
-> Jumps to the next changed line.
+Jumps to the next changed line.
 
-### Description
+## Description
 
-> Jumps to the next changed line when in comparison mode.
+Jumps to the next changed line when in comparison mode.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Compare** \> **Next Changed Line**
+- [All Commands](../tools/all_commands):Compare \>Next Changed Line
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMPARE\_NEXT\_LINE (4557)
+```
+EEID_COMPARE_NEXT_LINE (4557)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4557);
+```
+editor.ExecuteCommandByID(4557);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4557
+```
+editor.ExecuteCommandByID 4557
+```

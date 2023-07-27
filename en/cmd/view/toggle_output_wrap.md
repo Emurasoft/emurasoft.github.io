@@ -1,32 +1,37 @@
 # Wrap by Window (Output Bar) command
 
-### Summary
+## Summary
 
-> Wraps lines according to window size in the Output Bar.
+Wraps lines according to window size in the Output Bar.
 
-### Description
+## Description
 
-> Wraps lines according to window size in the Output Bar.
+Wraps lines according to window size in the Output Bar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** >
-**Output Bar** \> **Wrap by Window**
+- [All Commands](../tools/all_commands):View >
+Output Bar \>Wrap by Window
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_TOGGLE\_OUTPUT\_WRAP (3949)
+```
+EEID_TOGGLE_OUTPUT_WRAP (3949)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3949);
+```
+editor.ExecuteCommandByID(3949);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3949
+```
+editor.ExecuteCommandByID 3949
+```

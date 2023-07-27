@@ -1,18 +1,22 @@
 # End 屬性 (IndentProp ��H)
 
-與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **結束縮排** 文字方塊相對應。
+與 [Tab/縮排 對話方塊](../../dlg/properties/general/indent/index) 上的結束縮排 文字方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **End**;
+### \[JavaScript\]
 
-object. **End** = _s_;
+```
+s = object.End;
+object.End = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **End**
-
-object. **End** = _s_
+```
+s = object.End
+object.End = s
+```
 
 ## 版本
 

@@ -1,31 +1,36 @@
 # Pivot Table command
 
-### Summary
+## Summary
 
-> Creates a pivot table in the CSV document.
+Creates a pivot table in the CSV document.
 
-### Description
+## Description
 
-> This command displays the [**Pivot Table** dialog box](../../dlg/pivot_table/index), and creates a pivot table in the CSV document.
+This command displays the [Pivot Table dialog box](../../dlg/pivot_table/index), and creates a pivot table in the CSV document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Advanced** \> **Pivot Table**
-- [All Commands](../tools/all_commands): **CSV** \> **Advanced** \> **Pivot Table**
+- Default Menu:CSV \>Advanced \>Pivot Table
+- [All Commands](../tools/all_commands):CSV \>Advanced \>Pivot Table
 - Toolbar: ![](../../images/pivot_table.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PIVOT\_TABLE (4081)
+```
+EEID_PIVOT_TABLE (4081)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4081);
+```
+editor.ExecuteCommandByID(4081);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4081
+```
+editor.ExecuteCommandByID 4081
+```

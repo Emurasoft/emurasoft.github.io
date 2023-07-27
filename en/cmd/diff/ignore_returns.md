@@ -1,31 +1,36 @@
 # Ignore Newline Characters command
 
-### Summary
+## Summary
 
-> Ignores newline characters at each line when comparing documents.
+Ignores newline characters at each line when comparing documents.
 
-### Description
+## Description
 
-> Ignores newline characters at each line when comparing documents.
+Ignores newline characters at each line when comparing documents.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Ignore Newline Characters**
-- [All Commands](../tools/all_commands): **Compare** \> **Ignore Newline Characters**
+- Default Menu:Compare \>Ignore Newline Characters
+- [All Commands](../tools/all_commands):Compare \>Ignore Newline Characters
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_IGNORE\_RETURNS (4502)
+```
+EEID_IGNORE_RETURNS (4502)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4502);
+```
+editor.ExecuteCommandByID(4502);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4502
+```
+editor.ExecuteCommandByID 4502
+```

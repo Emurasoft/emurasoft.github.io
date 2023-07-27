@@ -1,14 +1,14 @@
 # \[CSVの結合\] コマンド
 
-### 概要
+## 概要
 
-> 2個のCSV文書を結合します。
+2個のCSV文書を結合します。
 
-### 説明
+## 説明
 
-> 2個のCSV文書を結合します。
+2個のCSV文書を結合します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[高度\] - \[結合\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[高度\] - \[結合\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_JOIN\_CSV (3921)
+```
+EEID_JOIN_CSV (3921)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3921);
+```
+editor.ExecuteCommandByID(3921);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3921
+```
+editor.ExecuteCommandByID 3921
+```

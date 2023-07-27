@@ -1,20 +1,22 @@
 # QuoteCharacter Property (GeneralProp Object)
 
-Corresponds to the **Quote Character** text box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to theQuote Character text box in the [General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_str_ =
-object. **QuoteCharacter**;
+### \[JavaScript\]
 
-object. **QuoteCharacter** = _str_;
+```
+str = object.QuoteCharacter;
+object.QuoteCharacter = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ =
-object. **QuoteCharacter**
-
-object. **QuoteCharacter** = _str_
+```
+str = object.QuoteCharacter
+object.QuoteCharacter = str
+```
 
 ## Version
 

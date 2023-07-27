@@ -8,14 +8,14 @@ Editor\_GetRef( HWND hwnd, ATOM atom );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _atom_
 
-> Specifies the atom of an specified plug-in file name.
+Specifies the atom of an specified plug-in file name.
 
 ## Return Values
 
-> The return value is the reference number of a specified plug-in. If the
-> return value is zero, the specified plug-in can be safely unloaded from
-> EmEditor.
+The return value is the reference number of a specified plug-in. If the
+return value is zero, the specified plug-in can be safely unloaded from
+EmEditor.

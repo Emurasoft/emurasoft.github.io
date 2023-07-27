@@ -1,20 +1,22 @@
 # Smooth プロパティ (ScrollProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の **\[スムーズ スクロール\]** チェック ボックスに相当します。
+設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の\[スムーズ スクロール\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Smooth**;
+### \[JavaScript\]
 
-object. **Smooth** = _b_;
+```
+b = object.Smooth;
+object.Smooth = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Smooth**
-
-object. **Smooth** = _b_
+```
+b = object.Smooth
+object.Smooth = b
+```
 
 ## バージョン
 

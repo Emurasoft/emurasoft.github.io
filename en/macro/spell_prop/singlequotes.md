@@ -1,21 +1,23 @@
 # SingleQuotes Property (SpellProp Object)
 
-Corresponds to the **String Enclosed by Single Quotation Marks** check box in the
-[**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to theString Enclosed by Single Quotation Marks check box in the
+[Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SingleQuotes**;
+### \[JavaScript\]
 
-object. **SingleQuotes** = _b_;
+```
+b = object.SingleQuotes;
+object.SingleQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SingleQuotes**
-
-object. **SingleQuotes** = _b_
+```
+b = object.SingleQuotes
+object.SingleQuotes = b
+```
 
 ## Version
 

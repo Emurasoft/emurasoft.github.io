@@ -9,8 +9,8 @@ Editor\_GetModified( HWND hwnd );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 ## 戻り値
 
-> 更新されている場合は TRUE を、更新されていない場合は FALSE を返します。
+更新されている場合は TRUE を、更新されていない場合は FALSE を返します。

@@ -2,13 +2,19 @@
 
 Scrolls the window by the specified relative amount.
 
-#### \[JavaScript\]
+## 
 
-**scrollBy**( _dx_, _dy_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+scrollBy( dx, dy);
+```
 
-**scrollBy** _dx_, _dy_
+### \[VBScript\]
+
+```
+scrollBy dx, dy
+```
 
 ## Parameters
 

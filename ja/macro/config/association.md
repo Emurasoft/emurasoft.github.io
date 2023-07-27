@@ -2,13 +2,19 @@
 
 [AssociationProp オブジェクト](../association_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Association**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Association;
+```
 
-Set _obj_ = object. **Association**
+### \[VBScript\]
+
+```
+Set obj = object.Association
+```
 
 ## バージョン
 

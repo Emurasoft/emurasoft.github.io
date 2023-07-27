@@ -1,32 +1,37 @@
 # Enable Shortcut Keys (Output Bar) command
 
-### Summary
+## Summary
 
-> Enables or disables shortcut keys in the Output Bar.
+Enables or disables shortcut keys in the Output Bar.
 
-### Description
+## Description
 
-> Enables or disables shortcut keys in the Output Bar.
+Enables or disables shortcut keys in the Output Bar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** >
-**Output Bar** \> **Enable Shortcut Keys**
+- [All Commands](../tools/all_commands):View >
+Output Bar \>Enable Shortcut Keys
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_TOGGLE\_OUTPUT\_SHORTCUTS (4549)
+```
+EEID_TOGGLE_OUTPUT_SHORTCUTS (4549)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4549);
+```
+editor.ExecuteCommandByID(4549);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4549
+```
+editor.ExecuteCommandByID 4549
+```

@@ -2,13 +2,19 @@
 
 커서에 지정된 수만큼의 새로운 줄을 삽입합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **NewLine**( \[ _nCount_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.NewLine( [ nCount ] );
+```
 
-document.selection. **NewLine** \[ _nCount_ \]
+### \[VBScript\]
+
+```
+document.selection.NewLine [ nCount ]
+```
 
 ## 매개 변수
 

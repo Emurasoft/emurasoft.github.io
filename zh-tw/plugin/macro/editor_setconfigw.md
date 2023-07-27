@@ -8,12 +8,12 @@ Editor\_SetConfigW( HWND hwnd, LPCWSTR szConfigName );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _szConfigName_
 
-> 用 Unicode 字串指定一個組態。
+用 Unicode 字串指定一個組態。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

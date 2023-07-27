@@ -1,14 +1,14 @@
 # \[上下に並べて表示\] コマンド
 
-### 概要
+## 概要
 
-> ウィンドウを上下に並べて表示します。
+ウィンドウを上下に並べて表示します。
 
-### 説明
+## 説明
 
-> ウィンドウを上下に並べて表示します。
+ウィンドウを上下に並べて表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ウィンドウ\] \- \[上下に並べて表示\]
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[上下に並べて表示\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_WINDOW\_TILE\_HORZ (4242)
+```
+EEID_WINDOW_TILE_HORZ (4242)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4242);
+```
+editor.ExecuteCommandByID(4242);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4242
+```
+editor.ExecuteCommandByID 4242
+```

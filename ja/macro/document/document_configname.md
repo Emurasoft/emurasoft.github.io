@@ -2,17 +2,21 @@
 
 現在の設定の名前を取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_strName_ = document. **ConfigName;**
+### \[JavaScript\]
 
-document. **ConfigName** = _strName_;
+```
+strName = document.ConfigName;
+document.ConfigName = strName;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_strName_ = document. **ConfigName**
-
-document. **ConfigName** = _strName_
+```
+strName = document.ConfigName
+document.ConfigName = strName
+```
 
 ## バージョン
 

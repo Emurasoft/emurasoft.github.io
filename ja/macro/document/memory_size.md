@@ -2,17 +2,21 @@
 
 文書で使用されている1かたまりのメモリ サイズを取得します。既定値は、\[カスタマイズ\] ダイアログ ボックスの [\[高度\] ページ](../../dlg/advanced/index) の \[メモリ サイズ\] テキスト ボックスで指定された値になります。プロパティの取得 (n = document.MemorySize) は常に成功しますが、設定 (document.MemorySize = n) は、文書が既に指定されたサイズより大きなメモリ サイズを使用している場合、例外を発生させることがあります。
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **MemorySize**;
+### \[JavaScript\]
 
-document. **MemorySize** = _n_;
+```
+n = document.MemorySize;
+document.MemorySize = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = document. **MemorySize**
-
-document. **MemorySize** = _n_
+```
+n = document.MemorySize
+document.MemorySize = n
+```
 
 ## バージョン
 

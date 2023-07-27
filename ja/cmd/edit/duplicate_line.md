@@ -1,14 +1,14 @@
 # \[行の2重化\] コマンド
 
-### 概要
+## 概要
 
-> カーソルのある論理行全体を 2 重化します。
+カーソルのある論理行全体を 2 重化します。
 
-### 説明
+## 説明
 
-> カーソルのある論理行とのコピーを作成し、カーソル行の下に挿入します。
+カーソルのある論理行とのコピーを作成し、カーソル行の下に挿入します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[挿入\] \- \[行の2重化\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[行の2重化\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+Y
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DUPLICATE\_LINE (4328)
+```
+EEID_DUPLICATE_LINE (4328)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.DuplicateLine();
+```
+document.selection.DuplicateLine();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.DuplicateLine
+```
+document.selection.DuplicateLine
+```

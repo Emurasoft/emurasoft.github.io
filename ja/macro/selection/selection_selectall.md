@@ -2,13 +2,19 @@
 
 開いている文書の全体を選択します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectAll**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectAll();
+```
 
-document.selection. **SelectAll**
+### \[VBScript\]
+
+```
+document.selection.SelectAll
+```
 
 ## バージョン
 

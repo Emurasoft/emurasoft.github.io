@@ -8,19 +8,19 @@ Editor\_ToolbarShow( HWND hwnd, UINT nCustomRebarID, BOOL bVisible );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _nToolbarID_
 
-> 閉じるツール バーを指定します。EE\_TOOLBAR\_OPEN メッセージからの戻り値になります。
+閉じるツール バーを指定します。EE\_TOOLBAR\_OPEN メッセージからの戻り値になります。
 
 _bVisible_
 
-> TRUE を指定するとツール バーが表示され、FALSE を指定するとツール バーが非表示になります。
+TRUE を指定するとツール バーが表示され、FALSE を指定するとツール バーが非表示になります。
 
 ## 戻り値
 
-> メッセージが成功し、かつツール バーの状態が変更されたら TRUE を返します。失敗するか変更がなければ FALSE を返します。
+メッセージが成功し、かつツール バーの状態が変更されたら TRUE を返します。失敗するか変更がなければ FALSE を返します。
 
 ## バージョン
 

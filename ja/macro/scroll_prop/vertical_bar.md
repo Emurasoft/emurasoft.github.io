@@ -1,21 +1,23 @@
 # VerticalBar プロパティ (ScrollProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の
-**\[垂直スクロール バー\]** ドロップダウン リスト ボックスに相当します。
+設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
+\[垂直スクロール バー\] ドロップダウン リスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **VerticalBar**;
+### \[JavaScript\]
 
-object. **VerticalBar**  = _n_;
+```
+n = object.VerticalBar;
+object.VerticalBar  = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **VerticalBar**
-
-object. **VerticalBar**  = _n_
+```
+n = object.VerticalBar
+object.VerticalBar  = n
+```
 
 ## バージョン
 

@@ -2,15 +2,19 @@
 
 为指定索引检索 [HighlightItem 对象](../highlight_item/index)。
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-list. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = list.Item( Index );
+```
 
-_item_ =
-list. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = list.Item( Index )
+```
 
 ## 参数
 

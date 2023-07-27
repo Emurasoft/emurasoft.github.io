@@ -1,32 +1,37 @@
 # Open Link command
 
-### Summary
+## Summary
 
-> Opens a link.
+Opens a link.
 
-### Description
+## Description
 
-> Opens a hyperlink at the cursor.
+Opens a hyperlink at the cursor.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Open Link**
-- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
-\> **Open Link**
+- Default Menu:Edit \>Open Link
+- [All Commands](../tools/all_commands):Edit \>Advanced
+\>Open Link
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_LINK\_OPEN (4141)
+```
+EEID_LINK_OPEN (4141)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.OpenLink();
+```
+document.selection.OpenLink();
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.OpenLink
+```
+document.selection.OpenLink
+```

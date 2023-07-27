@@ -1,21 +1,23 @@
 # VerticalLine Property (ScrollProp Object)
 
-Corresponds to the **Vertical Line** check box in the
-[**Scroll** tab](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to theVertical Line check box in the
+[Scroll tab](../../dlg/properties/scroll/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **VerticalLine** ;
+### \[JavaScript\]
 
-object. **VerticalLine**  = _b_;
+```
+b = object.VerticalLine ;
+object.VerticalLine  = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **VerticalLine**
-
-object. **VerticalLine**  = _b_
+```
+b = object.VerticalLine
+object.VerticalLine  = b
+```
 
 ## Version
 

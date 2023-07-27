@@ -2,13 +2,19 @@
 
 [FileSaveProp 개체](../file_save_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **FileSave**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.FileSave;
+```
 
-_obj_ = object. **FileSave**
+### \[VBScript\]
+
+```
+obj = object.FileSave
+```
 
 ## 버전
 

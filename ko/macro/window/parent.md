@@ -2,17 +2,21 @@
 
 상위 window 개체를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_wnd_ = wnd. **Parent**;
+### \[JavaScript\]
 
-wnd. **Parent** = _wnd_;
+```
+wnd = wnd.Parent;
+wnd.Parent = wnd;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_wnd_ = wnd. **Parent**
-
-wnd. **Parent** = _wnd_
+```
+wnd = wnd.Parent
+wnd.Parent = wnd
+```
 
 ## 버전
 

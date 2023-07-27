@@ -1,14 +1,20 @@
 # shell 속성 (Window ��ü)
 
-[**Shell** 개체](../shell/index) 를 반환합니다.
+[Shell 개체](../shell/index) 를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_shl_ = **shell**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shl =shell;
+```
 
-Set _shl_ = **shell**
+### \[VBScript\]
+
+```
+Set shl =shell
+```
 
 ## 버전
 

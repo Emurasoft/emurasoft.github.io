@@ -1,22 +1,24 @@
 # UseTemplate Property (FileNewProp Object)
 
-Corresponds to the **Use**
-**Template** check box in the
-[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
+Corresponds to theUse
+Template check box in the
+[New File Details dialog box](../../dlg/properties/file/new_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **UseTemplate**;
+### \[JavaScript\]
 
-object. **UseTemplate** = _b_;
+```
+b = object.UseTemplate;
+object.UseTemplate = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **UseTemplate**
-
-object. **UseTemplate** = _b_
+```
+b = object.UseTemplate
+object.UseTemplate = b
+```
 
 ## Version
 

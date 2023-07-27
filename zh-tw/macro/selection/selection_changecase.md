@@ -2,13 +2,19 @@
 
 變更所選取的文字的大小寫。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ChangeCase**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ChangeCase( nFlags );
+```
 
-document.selection. **ChangeCase** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.ChangeCase nFlags
+```
 
 ## 參數
 

@@ -1,31 +1,36 @@
 # Remove Trailing Spaces command
 
-### Summary
+## Summary
 
-> Removes trailing spaces, tabs, and full-width spaces in the selection.
+Removes trailing spaces, tabs, and full-width spaces in the selection.
 
-### Description
+## Description
 
-> Removes trailing spaces, tabs, and full-width spaces in the selection.
+Removes trailing spaces, tabs, and full-width spaces in the selection.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Remove Trailing Spaces**
-- [All Commands](../tools/all_commands): **Convert** \> **Remove Trailing Spaces**
+- Default Menu:Convert \>Remove Trailing Spaces
+- [All Commands](../tools/all_commands):Convert \>Remove Trailing Spaces
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SEL\_TRIM\_RIGHT (4016)
+```
+EEID_SEL_TRIM_RIGHT (4016)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4016);
+```
+editor.ExecuteCommandByID(4016);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4016
+```
+editor.ExecuteCommandByID 4016
+```

@@ -2,17 +2,21 @@
 
 返回標志來表示 EmEditor 要是否丟棄撤銷信息以提高替換、插入或刪除的速度。
 
-#### \[JavaScript\]
+## 
 
-_b_ = **DiscardUndo**;
+### \[JavaScript\]
 
-**DiscardUndo** = _b_;
+```
+b =DiscardUndo;
+DiscardUndo = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = **DiscardUndo**
-
-**DiscardUndo** = _b_
+```
+b =DiscardUndo
+DiscardUndo = b
+```
 
 ## 版本
 

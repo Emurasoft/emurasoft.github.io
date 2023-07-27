@@ -2,35 +2,39 @@
 
 선택된 텍스트를 검색하거나 현재 위치에 문자열을 삽입합니다.
 
-#### \[JavaScript\]
+## 
 
-_str_ = document.selection. **Text**;
+### \[JavaScript\]
 
-document.selection. **Text** = _str_;
+```
+str = document.selection.Text;
+document.selection.Text = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = document.selection. **Text**
-
-document.selection. **Text** = _str_
+```
+str = document.selection.Text
+document.selection.Text = str
+```
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 str = document.selection.Text;
-
 alert( "The selected text is " + str );
-
 document.selection.Text = "Hello";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 str = document.selection.Text
-
 alert "The selected text is " & str
-
 document.selection.Text = "Hello"
+```
 
 ## 버전
 

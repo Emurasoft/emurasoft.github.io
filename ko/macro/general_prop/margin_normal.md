@@ -1,20 +1,22 @@
 # MarginNormal 속성 (GeneralProp ��ü)
 
-구성 속성 [**일반** 탭](../../dlg/properties/general/index) 의 **일반 줄 여백** 텍스트 박스에 해당합니다.
+구성 속성 [일반 탭](../../dlg/properties/general/index) 의일반 줄 여백 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **MarginNormal**;
+### \[JavaScript\]
 
-object. **MarginNormal** = _b_;
+```
+b = object.MarginNormal;
+object.MarginNormal = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **MarginNormal**
-
-object. **MarginNormal** = _b_
+```
+b = object.MarginNormal
+object.MarginNormal = b
+```
 
 ## 버전
 

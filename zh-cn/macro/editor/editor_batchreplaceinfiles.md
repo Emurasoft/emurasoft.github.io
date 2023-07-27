@@ -2,19 +2,25 @@
 
 在多个文件中替换多个字符串。
 
-#### \[JavaScript\]
+## 
 
-nFound = editor. **BatchReplaceInFiles**( _filters_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _strBackupPath_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = editor.BatchReplaceInFiles( filters, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ strBackupPath, [ nExFlags, [ nLimit ] ] ] ] ] );
+```
 
-nFound = editor. **BatchReplaceInFiles**( _filters_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _strBackupPath_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] \] )
+### \[VBScript\]
+
+```
+nFound = editor.BatchReplaceInFiles( filters, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ strBackupPath, [ nExFlags, [ nLimit ] ] ] ] ] )
+```
 
 ## 参数
 
 _filters_
 
-指定包含搜索字符串和标志的 [**Filters** 集合](../filters/index)。
+指定包含搜索字符串和标志的 [Filters 集合](../filters/index)。
 
 _strPath_
 
@@ -37,7 +43,7 @@ _nFlags_
 
 _nEncoding_
 
-从 **[编码常数](../const/const_encoding)** 中选择或指定任何用于 Windows 操作系统的代码页。如果指定 0 或省略，将使用与搜索的文件名关联的配置属性中指定的编码。
+从[编码常数](../const/const_encoding) 中选择或指定任何用于 Windows 操作系统的代码页。如果指定 0 或省略，将使用与搜索的文件名关联的配置属性中指定的编码。
 
 _strFilesToIgnore_
 
@@ -53,7 +59,7 @@ _nExFlags_
 
 |     |     |
 | --- | --- |
-| eeExFindMulti | 执行 **多项替换全部**。如果未指定，则执行 **批处理替换全部**。详情请参阅 [**批处理替换全部和多项替换全部之间的区别**](../../howto/search/batch_vs_bulk)。 |
+| eeExFindMulti | 执行多项替换全部。如果未指定，则执行批处理替换全部。详情请参阅 [批处理替换全部和多项替换全部之间的区别](../../howto/search/batch_vs_bulk)。 |
 | eeExFindRegexBoost | 使用 Boost.Regex 作为正则表达式引擎。 |
 | eeExFindRegexOnigmo | 使用 Onigmo 作为正则表达式引擎。 |
 

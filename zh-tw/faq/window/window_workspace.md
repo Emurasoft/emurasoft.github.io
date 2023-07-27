@@ -1,10 +1,10 @@
 # Q. 怎么儲存所有 EmEditor 視窗的目前的位置，并在下次開啟 EmEditor 時，同時打開所有的視窗？
 
-用游標左鍵點擊 EmEditor 的 **系統匣圖示** 來顯示 **系統匣圖示** 功能表，并且選擇
-[**「儲存預設工作區」** 命令](../../cmd/file/save_workspace)
+用游標左鍵點擊 EmEditor 的系統匣圖示 來顯示系統匣圖示 功能表，并且選擇
+[「儲存預設工作區」 命令](../../cmd/file/save_workspace)
 來儲存所有的檔案名和目前的工作區的游標位置。下次，您可以選擇
-[**「還原預設工作區」** 命令](../../cmd/file/load_workspace)
+[「還原預設工作區」 命令](../../cmd/file/load_workspace)
 來還原以前儲存的視窗，包括同樣的檔案名和游標位置。
 
-您還能使用 [**「儲存工作區并全部關閉」** 命令](../../cmd/file/save_workspace_quit_all)
-在儲存工作區后關閉所有視窗，或者用 [**「儲存工作區與所有檔案并全部關閉」** 命令](../../cmd/file/save_workspace_exit_all) 在儲存工作區后儲存并關閉所有視窗。
+您還能使用 [「儲存工作區并全部關閉」 命令](../../cmd/file/save_workspace_quit_all)
+在儲存工作區后關閉所有視窗，或者用 [「儲存工作區與所有檔案并全部關閉」 命令](../../cmd/file/save_workspace_exit_all) 在儲存工作區后儲存并關閉所有視窗。

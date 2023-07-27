@@ -1,18 +1,22 @@
 # URLCharacters 属性 (LinkProp ����)
 
-与配置属性中 [**链接** 页面](../../dlg/properties/link/index) 上的 **识别这些字符** 复选框相对应。
+与配置属性中 [链接 页面](../../dlg/properties/link/index) 上的识别这些字符 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **URLCharacters**;
+### \[JavaScript\]
 
-object. **URLCharacters** = _s_;
+```
+s = object.URLCharacters;
+object.URLCharacters = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **URLCharacters**
-
-object. **URLCharacters** = _s_
+```
+s = object.URLCharacters
+object.URLCharacters = s
+```
 
 ## 版本
 

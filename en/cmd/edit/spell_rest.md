@@ -1,33 +1,38 @@
 # Check Spelling in Unspecified Text
 
-### Summary
+## Summary
 
-> Checks spelling in the rest of the document.
+Checks spelling in the rest of the document.
 
-### Description
+## Description
 
-> Checks spelling in the rest of the document. Misspelled words will be underlined in red.
+Checks spelling in the rest of the document. Misspelled words will be underlined in red.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \>
-**Unspecified**
-- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \>
-**Unspecified Text**
+- Default Menu:Edit \>Spelling \>Check Spelling in \>
+Unspecified
+- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling in \>
+Unspecified Text
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SPELL\_REST (4521)
+```
+EEID_SPELL_REST (4521)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4521);
+```
+editor.ExecuteCommandByID(4521);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4521
+```
+editor.ExecuteCommandByID 4521
+```

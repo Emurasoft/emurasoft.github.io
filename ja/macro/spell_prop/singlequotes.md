@@ -1,21 +1,23 @@
 # SingleQuotes プロパティ ()
 
-設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の
-**\[1重引用符で囲まれた文字列\]** チェック ボックスに相当します。
+設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の
+\[1重引用符で囲まれた文字列\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SingleQuotes**;
+### \[JavaScript\]
 
-object. **SingleQuotes** = _b_;
+```
+b = object.SingleQuotes;
+object.SingleQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SingleQuotes**
-
-object. **SingleQuotes** = _b_
+```
+b = object.SingleQuotes
+object.SingleQuotes = b
+```
 
 ## バージョン
 

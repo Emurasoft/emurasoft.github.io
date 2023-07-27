@@ -2,13 +2,19 @@
 
 激活文檔。
 
-#### \[JavaScript\]
+## 
 
-document. **Activate**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Activate();
+```
 
-document. **Activate**
+### \[VBScript\]
+
+```
+document.Activate
+```
 
 ## 版本
 

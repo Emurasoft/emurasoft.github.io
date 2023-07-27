@@ -1,14 +1,20 @@
 # Redo 方法 (Document ����)
 
-用 [**Undo** 命令](../../cmd/edit/edit_undo) 重做上次撤消的动作。
+用 [Undo 命令](../../cmd/edit/edit_undo) 重做上次撤消的动作。
 
-#### \[JavaScript\]
+## 
 
-document. **Redo**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Redo();
+```
 
-document. **Redo**
+### \[VBScript\]
+
+```
+document.Redo
+```
 
 ## 版本
 

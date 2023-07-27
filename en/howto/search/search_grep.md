@@ -7,5 +7,5 @@ semicolon if more than one), and the folder(s) to search.
 
 ## Tips
 
-- Check **Match Case** to differentiate between uppercase and lowercase.
-- Check **Look in Subfolders**, to also search subfolders.
+- CheckMatch Case to differentiate between uppercase and lowercase.
+- CheckLook in Subfolders, to also search subfolders.

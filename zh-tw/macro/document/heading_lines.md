@@ -2,17 +2,21 @@
 
 檢索或設置標題的行數 (不能捲動的區域)。
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **HeadingLines**;
+### \[JavaScript\]
 
-document. **HeadingLines** = _n_;
+```
+n = document.HeadingLines;
+document.HeadingLines = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = document. **HeadingLines**
-
-document. **HeadingLines** = _n_
+```
+n = document.HeadingLines
+document.HeadingLines = n
+```
 
 ## 版本
 

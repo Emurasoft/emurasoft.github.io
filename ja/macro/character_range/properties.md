@@ -2,17 +2,21 @@
 
 オブジェクトの Unicode 用字、Unicode 一般カテゴリを表現する文字列を指定します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = obj. **Properties**;
+### \[JavaScript\]
 
-obj. **Properties** = _s_;
+```
+s = obj.Properties;
+obj.Properties = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = obj. **Properties**;
-
-obj. **Properties** = _s_;
+```
+s = obj.Properties;
+obj.Properties = s;
+```
 
 ## バージョン
 

@@ -2,17 +2,21 @@
 
 창의 너비를 설정하거나 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_width_ = wnd. **Width**;
+### \[JavaScript\]
 
-wnd. **Width** = _width_;
+```
+width = wnd.Width;
+wnd.Width = width;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_width_ = wnd. **Width**
-
-wnd. **Width** = _width_
+```
+width = wnd.Width
+wnd.Width = width
+```
 
 ## 버전
 

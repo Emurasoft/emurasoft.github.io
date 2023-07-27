@@ -1,14 +1,14 @@
 # \[選択範囲を対応するタグへ\] コマンド
 
-### 概要
+## 概要
 
-> 選択範囲を対応するタグへ移動します。
+選択範囲を対応するタグへ移動します。
 
-### 説明
+## 説明
 
-> カーソル位置に XML または XHTML 文書のタグが存在する場合、選択範囲をそれに対応するタグへ移動します。
+カーソル位置に XML または XHTML 文書のタグが存在する場合、選択範囲をそれに対応するタグへ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[検索\] \- \[現在のタグを選択\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択範囲の変更\] \- \[選択範囲を対応するタグへ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+.
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SHIFT\_NEXT\_TAG (4602)
+```
+EEID_SHIFT_NEXT_TAG (4602)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4602);
+```
+editor.ExecuteCommandByID(4602);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4602
+```
+editor.ExecuteCommandByID 4602
+```

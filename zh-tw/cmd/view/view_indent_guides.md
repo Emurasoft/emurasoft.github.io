@@ -1,31 +1,36 @@
 # 縮排參考線命令
 
-### 摘要
+## 摘要
 
-> 顯示或隱藏縮排參考線。
+顯示或隱藏縮排參考線。
 
-### 說明
+## 說明
 
-> 顯示或隱藏縮排參考線。
+顯示或隱藏縮排參考線。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **檢視** \> **標記** \> **縮排參考線**
-- [全部命令](../tools/all_commands): **檢視** \> **標記** \> **縮排參考線**
+- 預設功能表:檢視 \>標記 \>縮排參考線
+- [全部命令](../tools/all_commands):檢視 \>標記 \>縮排參考線
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_VIEW\_INDENT\_GUIDES (4539)
+```
+EEID_VIEW_INDENT_GUIDES (4539)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4539);
+```
+editor.ExecuteCommandByID(4539);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4539
+```
+editor.ExecuteCommandByID 4539
+```

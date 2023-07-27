@@ -1,20 +1,22 @@
 # DeleteSpacesAtEnd 屬性 (FileSaveProp ��H)
 
-與 [**儲存詳細信息** 對話方塊](../../dlg/properties/file/save_details/index) 中的 **刪除行末空格** 核取方塊相對應。
+與 [儲存詳細信息 對話方塊](../../dlg/properties/file/save_details/index) 中的刪除行末空格 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DeleteSpacesAtEnd**;
+### \[JavaScript\]
 
-object. **DeleteSpacesAtEnd** = _b_;
+```
+b = object.DeleteSpacesAtEnd;
+object.DeleteSpacesAtEnd = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DeleteSpacesAtEnd**
-
-object. **DeleteSpacesAtEnd** = _b_
+```
+b = object.DeleteSpacesAtEnd
+object.DeleteSpacesAtEnd = b
+```
 
 ## 版本
 

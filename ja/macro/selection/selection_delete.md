@@ -2,13 +2,19 @@
 
 選択範囲を削除します。選択が空の場合は、右側の指定した文字数だけ削除します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Delete**( \[\[ _nCount_ \], _bComplete_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Delete( [[ nCount ], bComplete ] );
+```
 
-document.selection. **Delete** \[\[ _nCount_ \], _bComplete_ \]
+### \[VBScript\]
+
+```
+document.selection.Delete [[ nCount ], bComplete ]
+```
 
 ## 引数
 

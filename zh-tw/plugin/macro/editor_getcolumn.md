@@ -9,12 +9,12 @@ Editor\_GetColumn( HWND hwnd, COLUMN\_STRUCT\* pColumnStruct );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _pColumnStruct_
 
-> 指針指向 [COLUMN\_STRUCT](../structure/column_struct) 結構。
+指針指向 [COLUMN\_STRUCT](../structure/column_struct) 結構。
 
 ## 返回值
 
-> 返回值是緩衝區的大小，包括如果成功檢索文字所需的終止 NULL 的字元數，或者如果失敗的負值。返回值可以大于檢索文字的確切大小。
+返回值是緩衝區的大小，包括如果成功檢索文字所需的終止 NULL 的字元數，或者如果失敗的負值。返回值可以大于檢索文字的確切大小。

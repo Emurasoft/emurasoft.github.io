@@ -1,20 +1,22 @@
 # NameUntitled プロパティ (FileSaveProp �I�u�W�F�N�g)
 
-[**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の **\[自動的に無題の文書に名前を付ける\]** チェック ボックスに相当します。
+[\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の\[自動的に無題の文書に名前を付ける\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **NameUntitled**;
+### \[JavaScript\]
 
-object. **NameUntitled** = _b_;
+```
+b = object.NameUntitled;
+object.NameUntitled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **NameUntitled**
-
-object. **NameUntitled** = _b_
+```
+b = object.NameUntitled
+object.NameUntitled = b
+```
 
 ## バージョン
 

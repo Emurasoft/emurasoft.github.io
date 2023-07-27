@@ -2,13 +2,19 @@
 
 檢索 [Selection 對象](../selection/index)。
 
-#### \[JavaScript\]
+## 
 
-_sel_ = document. **selection**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+sel = document.selection;
+```
 
-Set _sel_ = document. **selection**
+### \[VBScript\]
+
+```
+Set sel = document.selection
+```
 
 ## 版本
 

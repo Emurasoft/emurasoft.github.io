@@ -2,13 +2,19 @@
 
 检索 [FileSaveProp 对象](../file_save_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **FileSave**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.FileSave;
+```
 
-Set _obj_ = object. **FileSave**
+### \[VBScript\]
+
+```
+Set obj = object.FileSave
+```
 
 ## 版本
 

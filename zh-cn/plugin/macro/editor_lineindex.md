@@ -9,16 +9,16 @@ Editor\_LineIndex( HWND hwnd, BOOL bLogical, int yLine );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _bLogical_
 
-> 指定 TRUE，如果行号是按逻辑坐标标示。指定 FALSE，如果行号是按显示坐标标示。
+指定 TRUE，如果行号是按逻辑坐标标示。指定 FALSE，如果行号是按显示坐标标示。
 
 _yLine_
 
-> 指定从零开始的行号。-1 代表当前行（光标所在行）的行号。
+指定从零开始的行号。-1 代表当前行（光标所在行）的行号。
 
 ## 返回值
 
-> 返回值是在 _yLine_ 参数中指定的行的字符索引。
+返回值是在 _yLine_ 参数中指定的行的字符索引。

@@ -2,13 +2,19 @@
 
 カーソル位置に改行コードを挿入します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **NewLine**( \[ _nCount_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.NewLine( [ nCount ] );
+```
 
-document.selection. **NewLine** \[ _nCount_ \]
+### \[VBScript\]
+
+```
+document.selection.NewLine [ nCount ]
+```
 
 ## 引数
 

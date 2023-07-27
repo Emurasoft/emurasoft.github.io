@@ -1,20 +1,24 @@
 # KinsokuBegin Property (WrapProp Object)
 
-Corresponds to the **Not**
-**Allowed at Line Head** text box in the
-[**Wrap** page](../../dlg/properties/wrap/index) of Configuration Properties.
+Corresponds to theNot
+Allowed at Line Head text box in the
+[Wrap page](../../dlg/properties/wrap/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **KinsokuBegin**;
+### \[JavaScript\]
 
-object. **KinsokuBegin** = _str_;
+```
+str = object.KinsokuBegin;
+object.KinsokuBegin = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **KinsokuBegin**
-
-object. **KinsokuBegin** = _str_
+```
+str = object.KinsokuBegin
+object.KinsokuBegin = str
+```
 
 ## Version
 

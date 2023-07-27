@@ -1,18 +1,22 @@
 # URLCharactersNotEnd 屬性 (LinkProp ��H)
 
-與組態屬性中 [**連結** 頁面](../../dlg/properties/link/index) 上的 **行末不允許的字元** 核取方塊相對應。
+與組態屬性中 [連結 頁面](../../dlg/properties/link/index) 上的行末不允許的字元 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **URLCharactersNotEnd**;
+### \[JavaScript\]
 
-object. **URLCharactersNotEnd** = _s_;
+```
+s = object.URLCharactersNotEnd;
+object.URLCharactersNotEnd = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **URLCharactersNotEnd**
-
-object. **URLCharactersNotEnd** = _s_
+```
+s = object.URLCharactersNotEnd
+object.URLCharactersNotEnd = s
+```
 
 ## 版本
 

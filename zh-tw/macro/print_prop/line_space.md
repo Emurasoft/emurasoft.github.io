@@ -1,18 +1,22 @@
 # LineSpace 屬性 (PrintProp ��H)
 
-與組態屬性中 [**列印** 頁面](../../dlg/properties/print/index) 上的 **行距** 核取方塊相對應。
+與組態屬性中 [列印 頁面](../../dlg/properties/print/index) 上的行距 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **LineSpace**;
+### \[JavaScript\]
 
-object. **LineSpace** = _n_;
+```
+n = object.LineSpace;
+object.LineSpace = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **LineSpace**
-
-object. **LineSpace** = _n_
+```
+n = object.LineSpace
+object.LineSpace = n
+```
 
 ## 版本
 

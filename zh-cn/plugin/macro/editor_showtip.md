@@ -8,16 +8,16 @@ Editor\_ShowTip( HWND hwnd, TIP\_INFO\* pTipInfo );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _pTipInfo_
 
-> 指针指向 [TIP\_INFO](../structure/tip_info) 结构。
+指针指向 [TIP\_INFO](../structure/tip_info) 结构。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。
 
 ## 版本
 
-> 支持 EmEditor 16.9 或之后的版本。
+支持 EmEditor 16.9 或之后的版本。

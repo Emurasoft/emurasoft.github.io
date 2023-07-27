@@ -1,18 +1,22 @@
 # CsvList Property (Editor Object)
 
-Retrieves or sets the [**CsvList** Collection](../csv_list/index).
+Retrieves or sets the [CsvList Collection](../csv_list/index).
 
-#### \[JavaScript\]
+## 
 
-_csvs_ = editor. **CsvList**;
+### \[JavaScript\]
 
-editor. **CsvList** = _csvs_;
+```
+csvs = editor.CsvList;
+editor.CsvList = csvs;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Set _csvs_ = editor. **CsvList**
-
-editor. **CsvList** = _csvs_
+```
+Set csvs = editor.CsvList
+editor.CsvList = csvs
+```
 
 ## Version
 

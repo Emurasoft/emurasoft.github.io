@@ -1,14 +1,14 @@
 # \[上のセル (セル選択モードのみ)\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書で上のセルにジャンプします。
+CSV文書で上のセルにジャンプします。
 
-### 説明
+## 説明
 
-> CSV文書で上のセルにジャンプします。
+CSV文書で上のセルにジャンプします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セル選択モードのみ\] - \[上のセル\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CSV\_UP (4079)
+```
+EEID_CSV_UP (4079)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4079);
+```
+editor.ExecuteCommandByID(4079);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4079
+```
+editor.ExecuteCommandByID 4079
+```

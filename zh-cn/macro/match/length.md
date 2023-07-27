@@ -2,13 +2,19 @@
 
 一个包含匹配字符串总长度的只读值。
 
-#### \[JavaScript\]
+## 
 
-_l_ = m. **Length**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+l = m.Length;
+```
 
-_l_ = m. **Length**;
+### \[VBScript\]
+
+```
+l = m.Length;
+```
 
 ## 版本
 

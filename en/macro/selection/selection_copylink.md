@@ -2,13 +2,19 @@
 
 Copies the hyperlink at the cursor to the Clipboard.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **CopyLink**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.CopyLink();
+```
 
-document.selection. **CopyLink**
+### \[VBScript\]
+
+```
+document.selection.CopyLink
+```
 
 ## Version
 

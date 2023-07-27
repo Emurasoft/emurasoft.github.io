@@ -13,17 +13,21 @@
 | eeFuzzyIgnoreVS | 忽略变体选择符。 |
 | eeFuzzyIgnoreWidth | 忽略忽略半角和全角字符的区别。全角形式是中文和日文脚本中使用的独特格式。 |
 
-#### \[JavaScript\]
+## 
 
-_n_ = obj. **Flags**;
+### \[JavaScript\]
 
-obj. **Flags** = _n_;
+```
+n = obj.Flags;
+obj.Flags = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = obj. **Flags**;
-
-obj. **Flags** = _n_;
+```
+n = obj.Flags;
+obj.Flags = n;
+```
 
 ## 版本
 

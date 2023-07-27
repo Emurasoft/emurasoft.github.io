@@ -1,19 +1,23 @@
 # URLCharacters プロパティ (LinkProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[リンク\]** タブ](../../dlg/properties/link/index) の
-**\[認識する文字\]** テキスト ボックスに相当します。
+設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の
+\[認識する文字\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **URLCharacters**;
+### \[JavaScript\]
 
-object. **URLCharacters** = _s_;
+```
+s = object.URLCharacters;
+object.URLCharacters = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **URLCharacters**
-
-object. **URLCharacters** = _s_
+```
+s = object.URLCharacters
+object.URLCharacters = s
+```
 
 ## バージョン
 

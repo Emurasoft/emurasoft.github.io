@@ -1,34 +1,39 @@
 # Char Right command
 
-### Summary
+## Summary
 
-> Moves the cursor one character to the right.
+Moves the cursor one character to the right.
 
-### Description
+## Description
 
-> Moves the cursor one character to the right. If the cursor is at the end of a
-> line, this command moves the cursor to the start of the next line.
-> Equivalent to pushing the RIGHT ARROW key once.
+Moves the cursor one character to the right. If the cursor is at the end of a
+line, this command moves the cursor to the start of the next line.
+Equivalent to pushing the RIGHT ARROW key once.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
-\> **Char Right**
+- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
+\>Char Right
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: RIGHT ARROW
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_RIGHT (4156)
+```
+EEID_RIGHT (4156)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.CharRight(false,1);
+```
+document.selection.CharRight(false,1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.CharRight false,1
+```
+document.selection.CharRight false,1
+```

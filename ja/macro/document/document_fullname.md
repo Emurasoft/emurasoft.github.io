@@ -2,23 +2,33 @@
 
 文書ファイルの完全パスと名前を取得します。
 
-#### \[JavaScript\]
+## 
 
-_strName_ = document. **FullName;**
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = document.FullName;
+```
 
-_strName_ = document. **FullName**
+### \[VBScript\]
+
+```
+strName = document.FullName
+```
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( document.FullName );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert document.FullName
+```
 
 ## バージョン
 

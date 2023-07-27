@@ -1,32 +1,37 @@
 # Redo command
 
-### Summary
+## Summary
 
-> Redo the last undone action.
+Redo the last undone action.
 
-### Description
+## Description
 
-> Redo the last action undone with the [**Undo** command](edit_undo).
-> If you repeat this command, you can redo multiple consecutive actions.
+Redo the last action undone with the [Undo command](edit_undo).
+If you repeat this command, you can redo multiple consecutive actions.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Redo**
-- [All Commands](../tools/all_commands): **Edit** \> **Redo**
+- Default Menu:Edit \>Redo
+- [All Commands](../tools/all_commands):Edit \>Redo
 - Toolbar: ![](../../images/editredo.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+Y
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EDIT\_REDO (4125)
+```
+EEID_EDIT_REDO (4125)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.Redo();
+```
+document.Redo();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.Redo
+```
+document.Redo
+```

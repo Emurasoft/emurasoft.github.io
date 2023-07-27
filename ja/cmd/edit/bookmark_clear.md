@@ -1,14 +1,14 @@
 # \[この文書のブックマークをクリア\] コマンド
 
-### 概要
+## 概要
 
-> この文書のすべてのブックマークをクリアします。
+この文書のすべてのブックマークをクリアします。
 
-### 説明
+## 説明
 
-> この文書のすべてのブックマークをクリアします。
+この文書のすべてのブックマークをクリアします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ブックマーク\] \- \[ブックマークをクリア\]
 - [すべてのコマンド](../../glossary/allcommands): \[ブックマーク\] \- \[ブックマークをクリア\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+F2
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_BOOKMARK\_CLEAR (4323)
+```
+EEID_BOOKMARK_CLEAR (4323)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4323);
+```
+editor.ExecuteCommandByID(4323);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4323
+```
+editor.ExecuteCommandByID 4323
+```

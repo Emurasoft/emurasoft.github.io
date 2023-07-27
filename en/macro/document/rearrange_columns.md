@@ -2,19 +2,25 @@
 
 Rearranges CSV columns.
 
-#### \[JavaScript\]
+## 
 
-document. **RearrangeColumns**( _strColumns_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.RearrangeColumns( strColumns );
+```
 
-document. **RearrangeColumns** _strColumns_
+### \[VBScript\]
+
+```
+document.RearrangeColumns strColumns
+```
 
 ## Parameters
 
 _strColumns_
 
-> Specifies a string indicating the order of columns to be rearranged. For instance, "1, 3, 5" indicates the result will include the first, third, and fifth columns of the original CSV document.
+Specifies a string indicating the order of columns to be rearranged. For instance, "1, 3, 5" indicates the result will include the first, third, and fifth columns of the original CSV document.
 
 ## Version
 

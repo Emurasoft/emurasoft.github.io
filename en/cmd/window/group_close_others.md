@@ -1,32 +1,37 @@
 # Close All Others in Group command
 
-### Summary
+## Summary
 
-> Closes all other documents in the current group.
+Closes all other documents in the current group.
 
-### Description
+## Description
 
-> Closes all other documents in the current group.
+Closes all other documents in the current group.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Group** \> **Close All Others in Group**
+- [All Commands](../tools/all_commands):Window
+\>Group \>Close All Others in Group
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_GROUP\_CLOSE\_OTHERS (4388)
+```
+EEID_GROUP_CLOSE_OTHERS (4388)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4388);
+```
+editor.ExecuteCommandByID(4388);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4388
+```
+editor.ExecuteCommandByID 4388
+```

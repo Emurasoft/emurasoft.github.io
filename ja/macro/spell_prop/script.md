@@ -1,21 +1,23 @@
 # Script プロパティ ()
 
-設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の
-**\[スクリプト\]** チェック ボックスに相当します。
+設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の
+\[スクリプト\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Script**;
+### \[JavaScript\]
 
-object. **Script** = _b_;
+```
+b = object.Script;
+object.Script = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Script**
-
-object. **Script** = _b_
+```
+b = object.Script
+object.Script = b
+```
 
 ## バージョン
 

@@ -2,13 +2,19 @@
 
 현재 엠에디터 버전을 나타내는 문자열을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_strVersion_ = editor. **Version**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strVersion = editor.Version;
+```
 
-_strVersion_ = editor. **Version**
+### \[VBScript\]
+
+```
+strVersion = editor.Version
+```
 
 ## 버전
 

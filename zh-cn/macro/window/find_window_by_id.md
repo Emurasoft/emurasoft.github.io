@@ -2,13 +2,19 @@
 
 通过窗口标识符查找子 Window 对象。
 
-#### \[JavaScript\]
+## 
 
-wndChild = wnd. **FindWindowByID**( id );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wndChild = wnd.FindWindowByID( id );
+```
 
-wndChild = wnd. **FindWindowByID**( id )
+### \[VBScript\]
+
+```
+wndChild = wnd.FindWindowByID( id )
+```
 
 ## 参数
 

@@ -1,19 +1,23 @@
 # Encoding Property (FileSaveProp Object)
 
-Corresponds to the **Encoding drop-down** list box in the
-[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to theEncoding drop-down list box in the
+[Save Details dialog box](../../dlg/properties/file/save_details/index).
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Encoding**;
+### \[JavaScript\]
 
-object. **Encoding** = _n_;
+```
+n = object.Encoding;
+object.Encoding = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Encoding**
-
-object. **Encoding** = _n_
+```
+n = object.Encoding
+object.Encoding = n
+```
 
 ## Version
 

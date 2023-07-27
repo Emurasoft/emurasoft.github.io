@@ -1,32 +1,37 @@
 # Minimize All command
 
-### Summary
+## Summary
 
-> Minimizes all windows.
+Minimizes all windows.
 
-### Description
+## Description
 
-> Minimizes all open EmEditor windows.
+Minimizes all open EmEditor windows.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Window** \> **Minimize All**
-- [All Commands](../tools/all_commands): **Window**
-\> **Minimize All**
+- Default Menu:Window \>Minimize All
+- [All Commands](../tools/all_commands):Window
+\>Minimize All
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_MINIMIZE\_ALL (4244)
+```
+EEID_WINDOW_MINIMIZE_ALL (4244)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4244);
+```
+editor.ExecuteCommandByID(4244);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4244
+```
+editor.ExecuteCommandByID 4244
+```

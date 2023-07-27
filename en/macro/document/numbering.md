@@ -2,19 +2,25 @@
 
 Inserts numbering at the cursor position or vertical selection.
 
-#### \[JavaScript\]
+## 
 
-document.Numbering( _strFirst_, _strInc_, _nMaxLines_ \[, _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Numbering( strFirst, strInc, nMaxLines [, nFlags ] );
+```
 
-document.Numbering _strFirst_, _strInc_, _nMaxLines_ \[, _nFlags_ \]
+### \[VBScript\]
+
+```
+document.Numbering strFirst, strInc, nMaxLines [, nFlags ]
+```
 
 ## Parameters
 
 _strFirst_
 
-Specifies an initial value or character to insert at the first line. This text may include non-number prefix and/or suffix unless the **eeNumOther** is specified for the _nFlags_ parameter.
+Specifies an initial value or character to insert at the first line. This text may include non-number prefix and/or suffix unless theeeNumOther is specified for the _nFlags_ parameter.
 
 _strInc_
 
@@ -41,4 +47,4 @@ You can specify a combination of the following values. If 0 is specified or omit
 
 ## Version
 
-> Supported on Version 19.1 or later.
+Supported on Version 19.1 or later.

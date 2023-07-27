@@ -2,13 +2,19 @@
 
 Retrieves the [Documents Collection](../documents/index) for the currently opened documents.
 
-#### \[JavaScript\]
+## 
 
-_docs_ = editor. **Documents**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+docs = editor.Documents;
+```
 
-Set _docs_ = editor. **Documents**
+### \[VBScript\]
+
+```
+Set docs = editor.Documents
+```
 
 ## Version
 

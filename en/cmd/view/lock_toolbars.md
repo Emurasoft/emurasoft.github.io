@@ -1,38 +1,43 @@
 # Lock Toolbars command
 
-### Summary
+## Summary
 
-> Locks all toolbars.
+Locks all toolbars.
 
-### Description
+## Description
 
-> Locks the toolbars if not already locked, or unlocks the toolbars if
-> already locked.
-> When unlocked, toolbars can be moved around by dragging the grip on the
-> left-hand edge of each
-> toolbar. Locked toolbars will not move and do not show the
-> grips on the left-hand edge of each toolbar.
+Locks the toolbars if not already locked, or unlocks the toolbars if
+already locked.
+When unlocked, toolbars can be moved around by dragging the grip on the
+left-hand edge of each
+toolbar. Locked toolbars will not move and do not show the
+grips on the left-hand edge of each toolbar.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **Lock Toolbars**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Lock Toolbars**
+- Default Menu:View >
+Toolbars \>Lock Toolbars
+- [All Commands](../tools/all_commands):View >
+Toolbars \>Lock Toolbars
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_LOCK\_TOOLBARS (4341)
+```
+EEID_LOCK_TOOLBARS (4341)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4341);
+```
+editor.ExecuteCommandByID(4341);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4341
+```
+editor.ExecuteCommandByID 4341
+```

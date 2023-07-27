@@ -2,13 +2,19 @@
 
 選択範囲の最後の現在行を 1 で始まる整数で返します。
 
-#### \[JavaScript\]
+## 
 
-yPos = document.selection. **GetBottomPointY**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos = document.selection.GetBottomPointY( nFlags [, iSel ] );
+```
 
-yPos = document.selection. **GetBottomPointY**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+yPos = document.selection.GetBottomPointY( nFlags [, iSel ] )
+```
 
 ## 引数
 

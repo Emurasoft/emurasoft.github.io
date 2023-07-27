@@ -2,13 +2,19 @@
 
 클래스 이름 및/또는 창 제목으로 하위 [Window 개체](../window/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-wndChild = wnd. **FindWindow**( _strClass_, _strCaption_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wndChild = wnd.FindWindow( strClass, strCaption );
+```
 
-wndChild = wnd. **FindWindow**( _strClass_, _strCaption_ )
+### \[VBScript\]
+
+```
+wndChild = wnd.FindWindow( strClass, strCaption )
+```
 
 ## 매개 변수
 
@@ -22,17 +28,19 @@ _strCaption_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnd = FindWindow( "EmEditorView", "" );
-
 alert( wnd.Caption );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd = FindWindow( "EmEditorView", "" )
-
 alert wnd.Caption
+```
 
 ## 버전
 

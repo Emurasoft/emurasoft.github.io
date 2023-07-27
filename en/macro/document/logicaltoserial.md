@@ -2,13 +2,19 @@
 
 Converts the logical coordinates of a specified position to the one-based serial position.
 
-#### \[JavaScript\]
+## 
 
-_nSerialPos_ = document. **LogicalToSerial**( _x_, _y_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nSerialPos = document.LogicalToSerial( x, y );
+```
 
-_nSerialPos_ = document. **LogicalToSerial**( _x_, _y_ )
+### \[VBScript\]
+
+```
+nSerialPos = document.LogicalToSerial( x, y )
+```
 
 ## Parameters
 
@@ -22,13 +28,17 @@ Specifies the one-based vertical (line) position.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 n = document.LogicalToSerial( 5, 1 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 n = document.LogicalToSerial( 5, 1 )
+```
 
 ## Version
 

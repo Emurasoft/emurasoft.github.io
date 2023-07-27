@@ -2,13 +2,19 @@
 
 Loads a configuration.
 
-#### \[JavaScript\]
+## 
 
-object. **Load**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Load( [ strName ] );
+```
 
-object. **Load** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Load [ strName ]
+```
 
 ## Parameters
 

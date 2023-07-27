@@ -13,13 +13,13 @@ lParam = (LPARAM) (GREP\_INFOA) pGrepInfo;
 
 _pGrepInfo_
 
-> 指定一個指針指向 [GREP\_INFOA \
-> 結構](../structure/grep_infoa)。
+指定一個指針指向 [GREP\_INFOA \
+結構](../structure/grep_infoa)。
 
 ## Return Value
 
-> 返回 FALSE，如果用戶中止，不然，返回 TRUE。
+返回 FALSE，如果用戶中止，不然，返回 TRUE。
 
 ## 支持版本
 
-> 支持 EmEditor 4.02 或之後的版本。
+支持 EmEditor 4.02 或之後的版本。

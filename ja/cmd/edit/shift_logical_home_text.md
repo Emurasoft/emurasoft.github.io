@@ -1,14 +1,14 @@
 # \[選択範囲を論理行の行頭またはテキスト開始へ\] コマンド
 
-### 概要
+## 概要
 
-> 選択範囲を論理行の行頭またはテキスト開始位置へ移動します。
+選択範囲を論理行の行頭またはテキスト開始位置へ移動します。
 
-### 説明
+## 説明
 
-> 選択範囲を論理行の行頭へ移動します。ただし、行頭に空白が存在する場合で、現在のカーソル位置が空白を除いたテキストの開始位置でない場合、その空白を除いたテキストの開始位置に移動します。
+選択範囲を論理行の行頭へ移動します。ただし、行頭に空白が存在する場合で、現在のカーソル位置が空白を除いたテキストの開始位置でない場合、その空白を除いたテキストの開始位置に移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択範囲の変更\] \- \[選択範囲を論理行の行頭またはテキスト開始へ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SHIFT\_LOGICAL\_HOME\_TEXT (4334)
+```
+EEID_SHIFT_LOGICAL_HOME_TEXT (4334)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.StartOfLine(true,eeLineLogical \| eeLineHomeText);
+```
+document.selection.StartOfLine(true,eeLineLogical \| eeLineHomeText);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.StartOfLine true,eeLineLogical \| eeLineHomeText
+```
+document.selection.StartOfLine true,eeLineLogical \| eeLineHomeText
+```

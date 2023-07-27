@@ -12,18 +12,18 @@ Editor\_GetVersionEx( HWND hwnd, int\* pnProductType );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _pnProductType_
 
-> Specifies a pointer to an integer value. This message returns one of the
-> following value.
->
-> |     |     |
-> | --- | --- |
-> | VERSION\_PRO | EmEditor Professional |
-> | VERSION\_STD | EmEditor Standard |
+Specifies a pointer to an integer value. This message returns one of the
+following value.
+
+|     |     |
+| --- | --- |
+| VERSION\_PRO | EmEditor Professional |
+| VERSION\_STD | EmEditor Standard |
 
 ## Return Values
 
-> Returns the version number multiplied by 1000.
+Returns the version number multiplied by 1000.

@@ -5,4 +5,4 @@
 
 [Q. 怎么才能永久性地移除 EmEditor 托盘图标？](../setup/setup_tray_icon)
 
-如果任务栏上还是显示 EmEditor 的托盘图标，请选择 **“关闭托盘图标”** 来关闭它，然后再删除 emedtray.exe 和 emedres.dll 文件。
+如果任务栏上还是显示 EmEditor 的托盘图标，请选择“关闭托盘图标” 来关闭它，然后再删除 emedtray.exe 和 emedres.dll 文件。

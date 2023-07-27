@@ -2,13 +2,19 @@
 
 Retrieves a flag indicating whether the document is untitled.
 
-#### \[JavaScript\]
+## 
 
-_b_ = document. **Untitled**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = document.Untitled;
+```
 
-_b_ = document. **Untitled**
+### \[VBScript\]
+
+```
+b = document.Untitled
+```
 
 ## Version
 

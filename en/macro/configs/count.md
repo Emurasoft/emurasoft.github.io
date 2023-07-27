@@ -2,23 +2,33 @@
 
 Retrieves the number of configurations.
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = editor.Configs. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = editor.Configs.Count;
+```
 
-_nCount_ = editor.Configs. **Count**
+### \[VBScript\]
+
+```
+nCount = editor.Configs.Count
+```
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Number of Configurations: " + editor.Configs.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Number of Configurations: " & editor.Configs.Count
+```
 
 ## Version
 

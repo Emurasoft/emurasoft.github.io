@@ -1,36 +1,41 @@
 # Logical Home or Start of Text Extend command
 
-### Summary
+## Summary
 
-> Extends the selection to the start of the current logical line, or the start
-> of the text on that line.
+Extends the selection to the start of the current logical line, or the start
+of the text on that line.
 
-### Description
+## Description
 
-> Extends the selection to the start of the current logical line. If there is
-> white space before any text, the selection is extended to the first
-> non-white space character on the current line.
+Extends the selection to the start of the current logical line. If there is
+white space before any text, the selection is extended to the first
+non-white space character on the current line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Logical Home or Start of Text**
-**Extend**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Logical Home or Start of Text
+Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_LOGICAL\_HOME\_TEXT (4334)
+```
+EEID_SHIFT_LOGICAL_HOME_TEXT (4334)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.StartOfLine(true,eeLineLogical \| eeLineHomeText);
+```
+document.selection.StartOfLine(true,eeLineLogical \| eeLineHomeText);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.StartOfLine true,eeLineLogical \| eeLineHomeText
+```
+document.selection.StartOfLine true,eeLineLogical \| eeLineHomeText
+```

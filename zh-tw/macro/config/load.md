@@ -2,13 +2,19 @@
 
 加載一個組態。
 
-#### \[JavaScript\]
+## 
 
-object. **Load**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Load( [ strName ] );
+```
 
-object. **Load** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Load [ strName ]
+```
 
 ## 參數
 

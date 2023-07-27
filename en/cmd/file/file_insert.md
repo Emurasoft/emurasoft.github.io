@@ -1,33 +1,38 @@
 # Insert command
 
-### Summary
+## Summary
 
-> Inserts a specified file at the current cursor position.
+Inserts a specified file at the current cursor position.
 
-### Description
+## Description
 
-> This command displays the **Insert** dialog box, which allows you to
-> select a file you want to insert into the current file. After a file is selected, this command
-> reads the selected file and inserts its contents at the cursor position.
+This command displays theInsert dialog box, which allows you to
+select a file you want to insert into the current file. After a file is selected, this command
+reads the selected file and inserts its contents at the cursor position.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Insert**
-- [All Commands](../tools/all_commands): **Insert** \> **Insert**
+- Default Menu:Insert \>Insert
+- [All Commands](../tools/all_commands):Insert \>Insert
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_INSERT (4108)
+```
+EEID_FILE_INSERT (4108)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4108);
+```
+editor.ExecuteCommandByID(4108);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4108
+```
+editor.ExecuteCommandByID 4108
+```

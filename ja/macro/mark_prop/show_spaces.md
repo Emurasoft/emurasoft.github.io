@@ -1,20 +1,22 @@
 # ShowSpaces プロパティ (MarkProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[記号\]** タブ](../../dlg/properties/marks/index) の **\[半角空白表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[記号\] タブ](../../dlg/properties/marks/index) の\[半角空白表示\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowSpaces**;
+### \[JavaScript\]
 
-object. **ShowSpaces** = _b_;
+```
+b = object.ShowSpaces;
+object.ShowSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowSpaces**
-
-object. **ShowSpaces** = _b_
+```
+b = object.ShowSpaces
+object.ShowSpaces = b
+```
 
 ## バージョン
 

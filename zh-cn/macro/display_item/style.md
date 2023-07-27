@@ -2,17 +2,21 @@
 
 指定对象的样式。
 
-#### \[JavaScript\]
+## 
 
-_n_ = item. **Style**;
+### \[JavaScript\]
 
-item. **Style** = _n_;
+```
+n = item.Style;
+item.Style = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = item. **Style**
-
-item. **Style** = _n_
+```
+n = item.Style
+item.Style = n
+```
 
 ## 备注
 

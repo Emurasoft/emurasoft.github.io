@@ -1,32 +1,37 @@
 # Customize Jump List command
 
-### Summary
+## Summary
 
-> Customizes the jump list.
+Customizes the jump list.
 
-### Description
+## Description
 
-> Customizes the jump list. The jump list is displayed on the Task Bar when you right-click on the EmEditor icon. This feature is available on Windows 7 or later.
+Customizes the jump list. The jump list is displayed on the Task Bar when you right-click on the EmEditor icon. This feature is available on Windows 7 or later.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize Jump List**
+- [All Commands](all_commands):Tools >
+Customize Jump List
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_JUMP\_LIST (4455)
+```
+EEID_CUSTOMIZE_JUMP_LIST (4455)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4455);
+```
+editor.ExecuteCommandByID(4455);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4455
+```
+editor.ExecuteCommandByID 4455
+```

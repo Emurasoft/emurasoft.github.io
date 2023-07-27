@@ -1,32 +1,37 @@
 # 定义配置命令
 
-### 摘要
+## 摘要
 
-> 定义配置。
+定义配置。
 
-### 说明
+## 说明
 
-> 显示 [**定义配置** 对话框](../../dlg/configurations/index)，让你能定义新配置或显示当前以及选取的配置属性。
+显示 [定义配置 对话框](../../dlg/configurations/index)，让你能定义新配置或显示当前以及选取的配置属性。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **工具** \> **选择配置** \> **定义配置**
-- [所有命令](all_commands): **工具** >
-**Select Configuration** \> **定义配置**
+- 默认菜单:工具 \>选择配置 \>定义配置
+- [所有命令](all_commands):工具 >
+Select Configuration \>定义配置
 - 工具栏: ![](../../images/configpopup.gif)（点击箭头）
-- 状态栏: （双击配置名称） \> **定义配置**
+- 状态栏: （双击配置名称） \>定义配置
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_CONFIG (4221)
+```
+EEID_CONFIG (4221)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4221);
+```
+editor.ExecuteCommandByID(4221);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4221
+```
+editor.ExecuteCommandByID 4221
+```

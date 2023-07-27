@@ -2,13 +2,19 @@
 
 返回滚动栏的水平位置。
 
-#### \[JavaScript\]
+## 
 
-_xPos_ = **scrollX**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos =scrollX;
+```
 
-_xPos_ = **scrollX**
+### \[VBScript\]
+
+```
+xPos =scrollX
+```
 
 ## 版本
 

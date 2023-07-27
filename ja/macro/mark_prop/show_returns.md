@@ -1,20 +1,22 @@
 # ShowReturns プロパティ (MarkProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[記号\]** タブ](../../dlg/properties/marks/index) の **\[改行コード表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[記号\] タブ](../../dlg/properties/marks/index) の\[改行コード表示\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowReturns**;
+### \[JavaScript\]
 
-object. **ShowReturns** = _b_;
+```
+b = object.ShowReturns;
+object.ShowReturns = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowReturns**
-
-object. **ShowReturns** = _b_
+```
+b = object.ShowReturns
+object.ShowReturns = b
+```
 
 ## バージョン
 

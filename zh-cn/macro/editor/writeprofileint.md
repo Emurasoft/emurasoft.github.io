@@ -2,13 +2,19 @@
 
 设一个整数值到注册表中或一个取决于 EmEditor 设置的 INI 文件中。
 
-#### \[JavaScript\]
+## 
 
-editor. **WriteProfileInt**( _nKey_, _strConfig_, _strEntry_, _nData_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.WriteProfileInt( nKey, strConfig, strEntry, nData );
+```
 
-editor. **WriteProfileInt** _nKey_, _strConfig_, _strEntry_, _nData_
+### \[VBScript\]
+
+```
+editor.WriteProfileInt nKey, strConfig, strEntry, nData
+```
 
 ## 参数
 

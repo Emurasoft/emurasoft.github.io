@@ -1,14 +1,14 @@
 # \[バイナリ ファイルをBase64に変換\] コマンド
 
-### 概要
+## 概要
 
-> バイナリ ファイルを Base64 エンコーディングにデコードします。
+バイナリ ファイルを Base64 エンコーディングにデコードします。
 
-### 説明
+## 説明
 
-> バイナリ ファイルを Base64 エンコーディングにデコードします。
+バイナリ ファイルを Base64 エンコーディングにデコードします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[変換\] \- \[選択範囲のエンコード/デコード\] \- \[バイナリ ファイルをBase64に変換\]
 - [すべてのコマンド](../../glossary/allcommands): \[変換\] \- \[選択範囲のエンコード/デコード\] \- \[バイナリ ファイルをBase64に変換\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_ENCODE\_BASE64\_BINARY (3944)
+```
+EEID_ENCODE_BASE64_BINARY (3944)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3944);
+```
+editor.ExecuteCommandByID(3944);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3944
+```
+editor.ExecuteCommandByID 3944
+```

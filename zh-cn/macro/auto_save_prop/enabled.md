@@ -1,18 +1,22 @@
 # Enabled 属性 (AutoSaveProp ����)
 
-与配置属性中 [**自动保存** 页面](../../dlg/properties/autosave/index) 上的 **自动保存** 复选框对应。
+与配置属性中 [自动保存 页面](../../dlg/properties/autosave/index) 上的自动保存 复选框对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Enabled**;
+### \[JavaScript\]
 
-object. **Enabled** = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Enabled**
-
-object. **Enabled** = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## 版本
 

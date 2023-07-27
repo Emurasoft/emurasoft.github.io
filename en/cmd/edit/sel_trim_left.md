@@ -1,31 +1,36 @@
 # Remove Leading Spaces command
 
-### Summary
+## Summary
 
-> Removes leading spaces, tabs, and full-width spaces in the selection.
+Removes leading spaces, tabs, and full-width spaces in the selection.
 
-### Description
+## Description
 
-> Removes leading spaces, tabs, and full-width spaces in the selection.
+Removes leading spaces, tabs, and full-width spaces in the selection.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Remove Leading Spaces**
-- [All Commands](../tools/all_commands): **Convert** \> **Remove Leading Spaces**
+- Default Menu:Convert \>Remove Leading Spaces
+- [All Commands](../tools/all_commands):Convert \>Remove Leading Spaces
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SEL\_TRIM\_LEFT (4015)
+```
+EEID_SEL_TRIM_LEFT (4015)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4015);
+```
+editor.ExecuteCommandByID(4015);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4015
+```
+editor.ExecuteCommandByID 4015
+```

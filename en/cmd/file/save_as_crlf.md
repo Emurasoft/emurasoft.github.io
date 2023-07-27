@@ -1,34 +1,39 @@
 # Save Newline Characters as CR+LF command
 
-### Summary
+## Summary
 
-> Saves newline characters as CR+LF.
+Saves newline characters as CR+LF.
 
-### Description
+## Description
 
-> This command saves the document after converting all newline characters into CR+LF
-> (Windows). If the document is untitled, the **Save As** dialog box appears,
-> which allows you to enter a file name to save the file as.
+This command saves the document after converting all newline characters into CR+LF
+(Windows). If the document is untitled, theSave As dialog box appears,
+which allows you to enter a file name to save the file as.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Save**
-\> **Save in Different Newline Characters** \> **Save as CR+LF**
+- [All Commands](../tools/all_commands):File \>Save
+\>Save in Different Newline Characters \>Save as CR+LF
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SAVE\_AS\_CRLF (4105)
+```
+EEID_SAVE_AS_CRLF (4105)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4105);
+```
+editor.ExecuteCommandByID(4105);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4105
+```
+editor.ExecuteCommandByID 4105
+```

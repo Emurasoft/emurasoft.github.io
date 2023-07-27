@@ -1,14 +1,20 @@
 # List 속성 (Keyboard ��ü)
 
-[**KeyboardList** 컬렉션](../keyboard_list/index) 을 검색합니다.
+[KeyboardList 컬렉션](../keyboard_list/index) 을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_list_ = object. **List**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.List;
+```
 
-_list_ = object. **List**
+### \[VBScript\]
+
+```
+list = object.List
+```
 
 ## 버전
 

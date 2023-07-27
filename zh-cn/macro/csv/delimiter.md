@@ -2,17 +2,21 @@
 
 检索或设置当前 Csv 对象的分隔符。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Delimiter**;
+### \[JavaScript\]
 
-object. **Delimiter** = _s_;
+```
+s = object.Delimiter;
+object.Delimiter = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Delimiter**
-
-object. **Delimiter** = _s_
+```
+s = object.Delimiter
+object.Delimiter = s
+```
 
 ## 版本
 

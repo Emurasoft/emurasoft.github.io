@@ -1,14 +1,14 @@
 # \[CRとLFを区別\] コマンド
 
-### 概要
+## 概要
 
-> CRとLFを異なる記号で表示します。
+CRとLFを異なる記号で表示します。
 
-### 説明
+## 説明
 
-> CRとLFを異なる記号で表示します。
+CRとLFを異なる記号で表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[記号\] \- \[CRとLFを区別\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[記号\] \- \[CRとLFを区別\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_CR\_LF\_SEPARATE (4537)
+```
+EEID_VIEW_CR_LF_SEPARATE (4537)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4537);
+```
+editor.ExecuteCommandByID(4537);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4537
+```
+editor.ExecuteCommandByID 4537
+```

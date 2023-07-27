@@ -8,12 +8,12 @@ Editor\_SetColumn( HWND hwnd, COLUMN\_STRUCT\* pColumnStruct );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _pGetLineInfo_
 
-> [COLUMN\_STRUCT 構造体](../structure/column_struct) へのポインタを指定します。
+[COLUMN\_STRUCT 構造体](../structure/column_struct) へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると 0 または正の値を返します。失敗すると負の値を返します。
+成功すると 0 または正の値を返します。失敗すると負の値を返します。

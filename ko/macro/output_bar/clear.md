@@ -2,13 +2,19 @@
 
 출력 모음의 내용을 지웁니다.
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **Clear**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.Clear();
+```
 
-OutputBar. **Clear**
+### \[VBScript\]
+
+```
+OutputBar.Clear
+```
 
 ## 버전
 

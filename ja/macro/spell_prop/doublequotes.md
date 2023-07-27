@@ -1,21 +1,23 @@
 # DoubleQuotes プロパティ ()
 
-設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の
-**\[2重引用符で囲まれた文字列\]** チェック ボックスに相当します。
+設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の
+\[2重引用符で囲まれた文字列\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DoubleQuotes**;
+### \[JavaScript\]
 
-object. **DoubleQuotes** = _b_;
+```
+b = object.DoubleQuotes;
+object.DoubleQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DoubleQuotes**
-
-object. **DoubleQuotes** = _b_
+```
+b = object.DoubleQuotes
+object.DoubleQuotes = b
+```
 
 ## バージョン
 

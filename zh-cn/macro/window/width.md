@@ -2,17 +2,21 @@
 
 返回或设置窗口的宽度。
 
-#### \[JavaScript\]
+## 
 
-_width_ = wnd. **Width**;
+### \[JavaScript\]
 
-wnd. **Width** = _width_;
+```
+width = wnd.Width;
+wnd.Width = width;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_width_ = wnd. **Width**
-
-wnd. **Width** = _width_
+```
+width = wnd.Width
+wnd.Width = width
+```
 
 ## 版本
 

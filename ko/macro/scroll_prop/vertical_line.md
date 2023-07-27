@@ -1,20 +1,22 @@
 # VerticalLine 속성 (ScrollProp ��ü)
 
-구성 속성 [**스크롤** 탭](../../dlg/properties/scroll/index) 의 **세로 줄** 체크 박스에 해당합니다.
+구성 속성 [스크롤 탭](../../dlg/properties/scroll/index) 의세로 줄 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **VerticalLine** ;
+### \[JavaScript\]
 
-object. **VerticalLine**  = _b_;
+```
+b = object.VerticalLine ;
+object.VerticalLine  = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **VerticalLine**
-
-object. **VerticalLine**  = _b_
+```
+b = object.VerticalLine
+object.VerticalLine  = b
+```
 
 ## 버전
 

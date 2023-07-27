@@ -2,13 +2,19 @@
 
 創建一個資料夾。
 
-#### \[JavaScript\]
+## 
 
-shell. **CreateFolder**( _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.CreateFolder( strFolder );
+```
 
-shell. **CreateFolder** _strFolder_
+### \[VBScript\]
+
+```
+shell.CreateFolder strFolder
+```
 
 ## 參數
 
@@ -18,13 +24,17 @@ _strFolder_
 
 ## 範例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.CreateFolder( "C:\\\Test" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.CreateFolder "C:\\Test"
+```
 
 ## 版本
 

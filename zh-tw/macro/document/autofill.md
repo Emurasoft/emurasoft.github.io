@@ -2,13 +2,19 @@
 
 對 CSV 文檔執行自動填滿或快速填入操作。
 
-#### \[JavaScript\]
+## 
 
-_nResults_ = document. **AutoFill**( _xSrcCellStart_, _ySrcCellStart_, _xSrcCellEnd_, _ySrcCellEnd_, _xDestCellStart_, _yDestCellStart_, _xDestCellEnd_, _yDestCellEnd_, _nFlags_, _nIncrement_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nResults = document.AutoFill( xSrcCellStart, ySrcCellStart, xSrcCellEnd, ySrcCellEnd, xDestCellStart, yDestCellStart, xDestCellEnd, yDestCellEnd, nFlags, nIncrement );
+```
 
-_nResults_ = document. **AutoFill**( _xSrcCellStart_, _ySrcCellStart_, _xSrcCellEnd_, _ySrcCellEnd_, _xDestCellStart_, _yDestCellStart_, _xDestCellEnd_, _yDestCellEnd_, _nFlags_, _nIncrement_ )
+### \[VBScript\]
+
+```
+nResults = document.AutoFill( xSrcCellStart, ySrcCellStart, xSrcCellEnd, ySrcCellEnd, xDestCellStart, yDestCellStart, xDestCellEnd, yDestCellEnd, nFlags, nIncrement )
+```
 
 ## 參數
 
@@ -46,7 +52,7 @@ _yDestCellEnd_
 
 _nFlags_
 
-指定一個下列值的組合。如果省略，將會自動指定 **eeFillDefault**。
+指定一個下列值的組合。如果省略，將會自動指定eeFillDefault。
 
 |     |     |
 | --- | --- |
@@ -59,7 +65,7 @@ _nFlags_
 
 _nIncrement_
 
-如果源範圍只指定了一個儲存格，並且 **eeFillSeries** 被指定為 _nFlags_ 的參數，那么可以在這指定數列的增量數。如果省略，將指定 1。
+如果源範圍只指定了一個儲存格，並且eeFillSeries 被指定為 _nFlags_ 的參數，那么可以在這指定數列的增量數。如果省略，將指定 1。
 
 ## 返回值
 
@@ -67,25 +73,23 @@ _nIncrement_
 
 ## 範例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries \| eeFillDontOverwrite );
-
 if( nResults == 0 ) {
-
 alert( "Success" );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries \| eeFillDontOverwrite );
-
 If nResults == 0 Then
-
 alert "Success"
-
 End If
+```
 
 ## 版本
 

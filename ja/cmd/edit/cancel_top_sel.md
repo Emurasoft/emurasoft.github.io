@@ -1,14 +1,14 @@
 # \[複数選択から文頭の選択を解除します\] コマンド
 
-### 概要
+## 概要
 
-> 複数選択から文頭の選択をキャンセルします。
+複数選択から文頭の選択をキャンセルします。
 
-### 説明
+## 説明
 
-> 複数選択から文頭の選択をキャンセルします。
+複数選択から文頭の選択をキャンセルします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択範囲の変更\] \- \[複数選択から文頭の選択を解除します\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+Ctrl+Shift+上
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CANCEL\_TOP\_SEL (4030)
+```
+EEID_CANCEL_TOP_SEL (4030)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4030);
+```
+editor.ExecuteCommandByID(4030);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4030
+```
+editor.ExecuteCommandByID 4030
+```

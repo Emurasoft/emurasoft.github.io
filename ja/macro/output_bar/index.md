@@ -19,25 +19,23 @@
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 OutputBar.Clear();
-
 OutputBar.writeln( "Hello!" );
-
 OutputBar.Visible = true;
-
 OutputBar.SetFocus();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 OutputBar.Clear
-
 OutputBar.writeln "Hello!"
-
 OutputBar.Visible = True
-
 OutputBar.SetFocus
+```
 
 ## バージョン
 

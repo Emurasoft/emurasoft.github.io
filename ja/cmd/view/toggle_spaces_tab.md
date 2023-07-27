@@ -1,14 +1,14 @@
 # \[タブの代わりに空白を挿入\] コマンド
 
-### 概要
+## 概要
 
-> タブの代わりに空白を挿入します。
+タブの代わりに空白を挿入します。
 
-### 説明
+## 説明
 
-> タブの代わりに空白を挿入します。
+タブの代わりに空白を挿入します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[タブ/インデント\] \- \[タブの代わりに空白を挿入\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[タブ/インデント\] \- \[タブの代わりに空白を挿入\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_TOGGLE\_SPACES\_TAB  (4541)
+```
+EEID_TOGGLE_SPACES_TAB  (4541)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4541);
+```
+editor.ExecuteCommandByID(4541);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4541
+```
+editor.ExecuteCommandByID 4541
+```

@@ -2,13 +2,19 @@
 
 在两行之间插入一个空行。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **LineOpen**( \[ _bAbove_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.LineOpen( [ bAbove ] );
+```
 
-document.selection. **LineOpen** \[ _bAbove_ \]
+### \[VBScript\]
+
+```
+document.selection.LineOpen [ bAbove ]
+```
 
 ## 参数
 

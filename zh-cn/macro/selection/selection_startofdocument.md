@@ -2,13 +2,19 @@
 
 把光标移动到文档的开始位置。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **StartOfDocument**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.StartOfDocument( [ bExtend ] );
+```
 
-document.selection. **StartOfDocument** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.StartOfDocument [ bExtend ]
+```
 
 ## 参数
 

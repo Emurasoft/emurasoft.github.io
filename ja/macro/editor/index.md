@@ -41,6 +41,7 @@
 | [ReplaceInFiles](editor_replaceinfiles) | 指定したパスの複数のファイルから文字列を置換します。 |
 | [SaveAll](editor_saveall) | すべての EmEditor で開かれているファイルを保存します。 |
 | [SaveCloseAll](editor_savecloseall) | すべての EmEditor で開かれているファイルを保存して閉じます。 |
+| [Stderr](stderr) | 文字列を標準エラー出力に出力します。 |
 | [WriteProfileInt](writeprofileint) | EmEditor の設定に応じて、レジストリまたは INI ファイルに、整数値を設定します。 |
 | [WriteProfileString](writeprofilestring) | EmEditor の設定に応じて、レジストリまたは INI ファイルに、文字列値を設定します。 |
 
@@ -83,6 +84,7 @@ langid
 refresh_common_settings
 regex
 registeredname
+stderr
 writeprofileint
 writeprofilestring
 ```

@@ -1,19 +1,23 @@
 # Kinsoku プロパティ (WrapProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[禁則文字\]** タブ](../../dlg/properties/wrap/index) の
-**\[禁則処理を行う\]** チェック ボックスに相当します。
+設定のプロパティの [\[禁則文字\] タブ](../../dlg/properties/wrap/index) の
+\[禁則処理を行う\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Kinsoku**;
+### \[JavaScript\]
 
-object. **Kinsoku** = _b_;
+```
+b = object.Kinsoku;
+object.Kinsoku = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **Kinsoku**
-
-object. **Kinsoku** = _str_
+```
+str = object.Kinsoku
+object.Kinsoku = str
+```
 
 ## バージョン
 

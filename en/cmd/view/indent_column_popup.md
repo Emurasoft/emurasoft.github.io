@@ -1,32 +1,37 @@
 # Indent Columns command
 
-### Summary
+## Summary
 
-> Displays a popup menu to select indent columns.
+Displays a popup menu to select indent columns.
 
-### Description
+## Description
 
-> Displays a popup menu to select indent columns.
+Displays a popup menu to select indent columns.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Indent Columns**
+- [All Commands](../tools/all_commands):View \>Tab/Indent \>Indent Columns
 - Toolbar:
 ![](../../images/indent_column24x16.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INDENT\_COLUMN\_POPUP (4551)
+```
+EEID_INDENT_COLUMN_POPUP (4551)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4551);
+```
+editor.ExecuteCommandByID(4551);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4551
+```
+editor.ExecuteCommandByID 4551
+```

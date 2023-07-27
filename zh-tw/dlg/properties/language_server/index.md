@@ -1,6 +1,12 @@
 # 「語言伺服器」頁面
 
-**語言伺服器** 讓你能設定與語言伺服器相關的屬性。
+啟用語言伺服器通訊協定可啟用以下功能：
+
+- 停留工具提示
+-搜尋 功能表上的搜尋符號
+- 允許選擇語言伺服器通訊協定 作為語法檢查 的文檔類型
+
+## 
 
 ### 「啟用語言伺服器通訊協定（實驗性）」核取方塊
 
@@ -12,7 +18,7 @@
 
 ### 「重設」按鈕
 
-重設為預設設定。會顯示 [**重設** 對話方塊](../reset/index) 並讓你能從另一個組態複製設定。
+重設為預設設定。會顯示 [重設 對話方塊](../reset/index) 並讓你能從另一個組態複製設定。
 
 ## 語言伺服器安裝
 
@@ -24,11 +30,11 @@
 
 用 pip 安裝 [Python LSP Server](https://github.com/python-lsp/python-lsp-server)。在命令提示字元中使用 `python -m pylsp` 測試安裝。
 
-### HTML，CSS，JavaScript，和 Perl
+### HTML，CSS，JavaScript，JSON 和 Perl
 
 EmEditor 內置了這些服務器。以下清單提供了指向其源儲存機制的連結。
 
-- HTML 和 CSS： [VSCode extensions](https://github.com/microsoft/vscode)
+- HTML，CSS 和 JSON： [VSCode extensions](https://github.com/microsoft/vscode)
 - JavaScript： [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server)
 - Perl： [Perl Navigator Language Server](https://github.com/bscan/PerlNavigator)
 

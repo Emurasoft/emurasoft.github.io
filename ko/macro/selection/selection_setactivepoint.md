@@ -2,14 +2,20 @@
 
 커서 위치를 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SetActivePoint**( _nFlags_, _xPos_, _yPos_, _bExtend_
+### \[JavaScript\]
+
+```
+document.selection.SetActivePoint( nFlags, xPos, yPos, bExtend
 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document.selection. **SetActivePoint** _nFlags_, _xPos_, _yPos_, _bExtend_
+```
+document.selection.SetActivePoint nFlags, xPos, yPos, bExtend
+```
 
 ## 매개 변수
 

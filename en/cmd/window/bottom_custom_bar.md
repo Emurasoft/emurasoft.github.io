@@ -1,32 +1,37 @@
 # Bottom Custom Bar command
 
-### Summary
+## Summary
 
-> Switches to the custom bar on bottom.
+Switches to the custom bar on bottom.
 
-### Description
+## Description
 
-> Switches to the custom bar on bottom if available.
+Switches to the custom bar on bottom if available.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Custom Bar** \> **Bottom**
+- [All Commands](../tools/all_commands):Window
+\>Custom Bar \>Bottom
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FOCUS\_BOTTOM\_BAR (4428)
+```
+EEID_FOCUS_BOTTOM_BAR (4428)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4428);
+```
+editor.ExecuteCommandByID(4428);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4428
+```
+editor.ExecuteCommandByID 4428
+```

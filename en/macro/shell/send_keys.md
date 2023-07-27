@@ -3,13 +3,19 @@
 Sends one or more keystrokes to the active window (as if typed on the keyboard). The Send Keys method can also emulate mouse activities. While this method can send all mouse operation to any windows, it is not recommended to send mouse operations
 to the same EmEditor window where the macro is started.
 
-#### \[JavaScript\]
+## 
 
-shell. **SendKeys**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.SendKeys( str );
+```
 
-shell. **SendKeys** _str_
+### \[VBScript\]
+
+```
+shell.SendKeys str
+```
 
 ## Parameters
 
@@ -19,7 +25,7 @@ Specifies a string indicating the keystrokes you want to send. It can also inclu
 
 |     |     |
 | --- | --- |
-| **Key** | **Parameter** |
+|Key |Parameter |
 | ALT | % |
 | ALT DOWN | {ALT DOWN} |
 | ALT UP | {ALT UP} |
@@ -105,37 +111,29 @@ When the SHIFT is held down while A is pressed, followed by a lone B (with no SH
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.SendKeys( "{CLICK LEFT, 10 , 20}" );  // Click Left Mouse Button at screen coordinate (10,20).
-
 shell.SendKeys( "{MOVETO, 30 , 40}" );      // Move Mouse to screen coordinate (30,40).
-
 shell.SendKeys( "abc~" );                   // Type "abc" and then press Enter.
-
 shell.SendKeys( "%fo" );                    // While ALT is held down, press F, and then press O without ALT.
-
 shell.SendKeys( "{~}~" );                   // Type "~" and then press Enter.
-
-shell.SendKeys( "{VK25}" );                 // Press the KANJI key (VK\_KANJI = 25).
-
+shell.SendKeys( "{VK25}" );                 // Press the KANJI key (VK\KANJI = 25).
 shell.SendKeys( "{VK65 DOWN}" );            // Press the A key, and hold it down (A key = 65).
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.SendKeys "{CLICK LEFT, 10 , 20}"      // Click Left Mouse Button at screen coordinate (10,20).
-
 shell.SendKeys "{MOVETO, 30 , 40}"          // Move Mouse to screen coordinate (30,40).
-
 shell.SendKeys "abc~"                       // Type "abc" and then press Enter.
-
 shell.SendKeys "%fo"                        // While ALT is held down, press F, and then press O without ALT.
-
 shell.SendKeys "{~}~"                       // Type "~" and then press Enter.
-
-shell.SendKeys "{VK25}"                     // Press the KANJI key (VK\_KANJI = 25).
-
+shell.SendKeys "{VK25}"                     // Press the KANJI key (VK\KANJI = 25).
 shell.SendKeys "{VK65 DOWN}"                // Press the A key, and hold it down (A key = 65).
+```
 
 ## Version
 

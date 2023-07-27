@@ -8,16 +8,16 @@ Editor\_GetSelTextW( HWND hwnd, UINT nBufferSize, LPWSTR szBuffer );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _nBufferSize_
 
-> 用单词数指定最大字符数来复制到缓冲区，包括空字符。
+用单词数指定最大字符数来复制到缓冲区，包括空字符。
 
 _szBuffer_
 
-> 指针指向会接收文本的缓冲区。
+指针指向会接收文本的缓冲区。
 
 ## 返回值
 
-> 如果 _nBufferSize_ 为零，那以字节为单位的返回值是一个会接收文本的缓冲区的必需大小。如果 _nBufferSize_ 为非零，不使用返回值。
+如果 _nBufferSize_ 为零，那以字节为单位的返回值是一个会接收文本的缓冲区的必需大小。如果 _nBufferSize_ 为非零，不使用返回值。

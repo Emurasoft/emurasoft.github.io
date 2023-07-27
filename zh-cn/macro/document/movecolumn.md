@@ -2,13 +2,19 @@
 
 在 CSV 模式下移动或复制指定列。
 
-#### \[JavaScript\]
+## 
 
-document. **MoveColumn**( _iColumn_, _iColumn2_, _iColumnTo_ \[ , _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.MoveColumn( iColumn, iColumn2, iColumnTo [ , nFlags ] );
+```
 
-document. **MoveColumn** _iColumn_, _iColumn2_, _iColumnTo_ \[ , _nFlags_ \]
+### \[VBScript\]
+
+```
+document.MoveColumn iColumn, iColumn2, iColumnTo [ , nFlags ]
+```
 
 ## 参数
 
@@ -37,13 +43,17 @@ _nFlags_
 
 以下示例将列 3 移动到最左边。
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.MoveColumn( 3, 3, 1 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.MoveColumn 3, 3, 1
+```
 
 ## 版本
 

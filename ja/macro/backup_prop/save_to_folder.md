@@ -1,18 +1,22 @@
 # SaveToFolder プロパティ (BackupProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の **\[バックアップをバックアップ フォルダに保存\]** に相当します。
+設定のプロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の\[バックアップをバックアップ フォルダに保存\] に相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **SaveToFolder**;
+### \[JavaScript\]
 
-object. **SaveToFolder** = _b_;
+```
+b = object.SaveToFolder;
+object.SaveToFolder = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **SaveToFolder**
-
-object. **SaveToFolder** = _b_
+```
+b = object.SaveToFolder
+object.SaveToFolder = b
+```
 
 ## バージョン
 

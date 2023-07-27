@@ -1,31 +1,36 @@
 # Sort IPv6 Addresses Ascending command
 
-### Summary
+## Summary
 
-> Sorts IPv6 addresses in the current column, in ascending order.
+Sorts IPv6 addresses in the current column, in ascending order.
 
-### Description
+## Description
 
-> Sorts IPv6 addresses in the current column, in ascending order.
+Sorts IPv6 addresses in the current column, in ascending order.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Sort** \> **Sort IPv6 Addresses Ascending**
-- [All Commands](../tools/all_commands): **Sort** \> **Sort IPv6 Addresses Ascending**
+- Default Menu:Edit \>Sort \>Sort IPv6 Addresses Ascending
+- [All Commands](../tools/all_commands):Sort \>Sort IPv6 Addresses Ascending
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SORT\_IPV6\_A (4036)
+```
+EEID_SORT_IPV6_A (4036)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4036);
+```
+editor.ExecuteCommandByID(4036);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4036
+```
+editor.ExecuteCommandByID 4036
+```

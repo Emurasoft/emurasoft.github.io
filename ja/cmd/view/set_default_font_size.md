@@ -1,14 +1,14 @@
 # \[現在のフォント サイズを既定に設定\] コマンド
 
-### 概要
+## 概要
 
-> 表示フォント サイズをリセットします。
+表示フォント サイズをリセットします。
 
-### 説明
+## 説明
 
-> 表示フォント サイズをリセットします。
+表示フォント サイズをリセットします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[フォント\] \- \[現在のフォント サイズを既定に設定\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SET\_DEFAULT\_FONT\_SIZE (3877)
+```
+EEID_SET_DEFAULT_FONT_SIZE (3877)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3877);
+```
+editor.ExecuteCommandByID(3877);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3877
+```
+editor.ExecuteCommandByID 3877
+```

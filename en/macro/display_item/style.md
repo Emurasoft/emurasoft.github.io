@@ -2,17 +2,21 @@
 
 Specifies the style of the object.
 
-#### \[JavaScript\]
+## 
 
-_n_ = item. **Style**;
+### \[JavaScript\]
 
-item. **Style** = _n_;
+```
+n = item.Style;
+item.Style = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = item. **Style**
-
-item. **Style** = _n_
+```
+n = item.Style
+item.Style = n
+```
 
 ## Notes
 

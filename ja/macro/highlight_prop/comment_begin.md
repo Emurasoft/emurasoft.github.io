@@ -1,20 +1,22 @@
 # CommentBegin プロパティ (HighlightProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[開始\] テキスト ボックスに相当します。
+設定のプロパティの [\[強調(2)\] タブ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[開始\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_str_ =
-object. **CommentBegin**;
+### \[JavaScript\]
 
-object. **CommentBegin** = _str_;
+```
+str = object.CommentBegin;
+object.CommentBegin = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ =
-object. **CommentBegin**
-
-object. **CommentBegin** = _str_
+```
+str = object.CommentBegin
+object.CommentBegin = str
+```
 
 ## バージョン
 

@@ -1,14 +1,14 @@
 # \[マーカーに一致する文字列の数をクリアする\] コマンド
 
-### 概要
+## 概要
 
-> 現在の文書でマーカーに一致する文字列の数をクリアします。
+現在の文書でマーカーに一致する文字列の数をクリアします。
 
-### 説明
+## 説明
 
-> 現在の文書でマーカーに一致する文字列の数をクリアします。
+現在の文書でマーカーに一致する文字列の数をクリアします。
 
-### 方法
+## 方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[マーカー\] \- \[一致する文字列の数をクリア\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_MARKER\_CLEAR\_COUNT (4043)
+```
+EEID_MARKER_CLEAR_COUNT (4043)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4043);
+```
+editor.ExecuteCommandByID(4043);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4043
+```
+editor.ExecuteCommandByID 4043
+```

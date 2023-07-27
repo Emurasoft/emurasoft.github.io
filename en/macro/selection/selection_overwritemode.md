@@ -2,17 +2,21 @@
 
 Sets or retrieves a flag indicating the overwrite or insert mode.
 
-#### \[JavaScript\]
+## 
 
-_bOverwrite_ = document.selection. **OverwriteMode**;
+### \[JavaScript\]
 
-document.selection. **OverwriteMode** = _bOverwrite_;
+```
+bOverwrite = document.selection.OverwriteMode;
+document.selection.OverwriteMode = bOverwrite;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bOverwrite_ = document.selection. **OverwriteMode**
-
-document.selection. **OverwriteMode** = _bOverwrite_
+```
+bOverwrite = document.selection.OverwriteMode
+document.selection.OverwriteMode = bOverwrite
+```
 
 ## Version
 

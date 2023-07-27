@@ -1,37 +1,37 @@
 # Combine Lines dialog box
 
 This dialog box appears when the
-[**Combine Lines** command](../../cmd/edit/combine_lines) is selected. This command combines vertical adjacent duplicate cells.
+[Combine Lines command](../../cmd/edit/combine_lines) is selected. This command combines vertical adjacent duplicate cells.
 
-### Columns to inspect duplicates list box
+## Columns to inspect duplicates list box
 
 Displays the list of columns that can be specified to inspect duplicates.
 
-### Ignore Case check box
+## Ignore Case check box
 
 If this box is checked, EmEditor ignores case when comparing vertical adjacent cells.
 
-### Columns to combine list box
+## Columns to combine list box
 
 Displays the list of columns to combine.
 
-### String to Insert list box
+## String to Insert list box
 
 You can specify the string to insert when combining lines.
 
-### Remove empty strings check box
+## Remove empty strings check box
 
 If this is checked, EmEditor removes empty strings when combining lines.
 
-### Remove duplicate strings check box
+## Remove duplicate strings check box
 
 If this is checked, EmEditor removes duplicate strings when combining lines.
 
-### Sort strings check box
+## Sort strings check box
 
 If this is checked, EmEditor sorts strings with the specified sort condition.
 
-### How to Sort list box
+## How to Sort list box
 
 Displays the list of defined sort conditions.
 
@@ -56,7 +56,7 @@ Displays the list of defined sort conditions.
 | Sort Randomly | Sorts strings randomly. |
 | Sort Reverse | Sorts strings in reverse order. |
 
-### String to Insert text box
+## String to Insert text box
 
 Specifies a string to insert when combining vertical adjacent duplicate cells.
 

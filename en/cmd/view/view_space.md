@@ -1,31 +1,36 @@
 # Spaces command
 
-### Summary
+## Summary
 
-> Shows or hides space marks.
+Shows or hides space marks.
 
-### Description
+## Description
 
-> Shows or hides space marks. By default, EmEditor does not display space marks (blue underscores).
+Shows or hides space marks. By default, EmEditor does not display space marks (blue underscores).
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Marks** \> **Spaces**
-- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Spaces**
+- Default Menu:View \>Marks \>Spaces
+- [All Commands](../tools/all_commands):View \>Marks \>Spaces
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_VIEW\_SPACE (4535)
+```
+EEID_VIEW_SPACE (4535)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4535);
+```
+editor.ExecuteCommandByID(4535);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4535
+```
+editor.ExecuteCommandByID 4535
+```

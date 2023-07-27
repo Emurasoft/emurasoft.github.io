@@ -2,13 +2,19 @@
 
 対応するかっこへ移動します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **GoToBrace**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.GoToBrace( [ bExtend ] );
+```
 
-document.selection. **GoToBrace** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.GoToBrace [ bExtend ]
+```
 
 ## 引数
 

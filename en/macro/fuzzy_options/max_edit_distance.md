@@ -2,17 +2,21 @@
 
 Sets or retrieves the maximum edit distance.
 
-#### \[JavaScript\]
+## 
 
-_n_ = obj. **MaxEditDistance**;
+### \[JavaScript\]
 
-obj. **MaxEditDistance** = _n_;
+```
+n = obj.MaxEditDistance;
+obj.MaxEditDistance = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = obj. **MaxEditDistance**;
-
-obj. **MaxEditDistance** = _n_;
+```
+n = obj.MaxEditDistance;
+obj.MaxEditDistance = n;
+```
 
 ## Version
 

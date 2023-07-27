@@ -1,18 +1,22 @@
 # MinDetectDelimiter 屬性 (Csv ��H)
 
-與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **要偵測的最小分隔符號數** 文字方塊對應。
+與在自訂對話方塊中 [CSV 頁面](../../dlg/customize/csv/index) 上的要偵測的最小分隔符號數 文字方塊對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **MinDetectDelimiter**;
+### \[JavaScript\]
 
-object. **MinDetectDelimiter** = _n_;
+```
+n = object.MinDetectDelimiter;
+object.MinDetectDelimiter = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **MinDetectDelimiter**
-
-object. **MinDetectDelimiter** = _n_
+```
+n = object.MinDetectDelimiter
+object.MinDetectDelimiter = n
+```
 
 ## 版本
 

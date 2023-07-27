@@ -2,13 +2,19 @@
 
 把選定內容中的空白轉換為 tab。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Tabify**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Tabify();
+```
 
-document.selection. **Tabify**
+### \[VBScript\]
+
+```
+document.selection.Tabify
+```
 
 ## 版本
 

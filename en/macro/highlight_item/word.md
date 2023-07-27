@@ -1,22 +1,24 @@
 # Word Property (HighlightItem Object)
 
-Corresponds to the **Whole**
-**Word Only** check box in the
-[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to theWhole
+Word Only check box in the
+[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Word**;
+### \[JavaScript\]
 
-item. **Word** = _b_;
+```
+b = item.Word;
+item.Word = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Word**
-
-item. **Word** = _b_
+```
+b = item.Word
+item.Word = b
+```
 
 ## Version
 

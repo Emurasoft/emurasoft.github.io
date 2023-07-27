@@ -1,32 +1,37 @@
 # Move Previous command
 
-### Summary
+## Summary
 
-> Moves the current document to the previous tab position.
+Moves the current document to the previous tab position.
 
-### Description
+## Description
 
-> Moves the current document to the previous tab position. You can use this command to change the document order as it appears in the tab bar. Alternatively, you can drag a tab to the desired position on the tab bar.
+Moves the current document to the previous tab position. You can use this command to change the document order as it appears in the tab bar. Alternatively, you can drag a tab to the desired position on the tab bar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Document Navigation** \> **Move Previous**
+- [All Commands](../tools/all_commands):Window
+\>Document Navigation \>Move Previous
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MOVE\_PREV (4383)
+```
+EEID_MOVE_PREV (4383)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4383);
+```
+editor.ExecuteCommandByID(4383);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4383
+```
+editor.ExecuteCommandByID 4383
+```

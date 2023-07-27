@@ -13,12 +13,12 @@ lParam = 0;
 
 _pInfo_
 
-> Pointer to the [EXTRACT\_FREQUENT\_INFO structure](../structure/extract_frequent_info).
+Pointer to the [EXTRACT\_FREQUENT\_INFO structure](../structure/extract_frequent_info).
 
 ## Return Values
 
-> The return value is negative if an error occurs.
+The return value is negative if an error occurs.
 
 ## Version
 
-> Supported on Version 21.9 or later.
+Supported on Version 21.9 or later.

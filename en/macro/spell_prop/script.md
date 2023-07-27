@@ -1,20 +1,22 @@
 # Script Property (SpellProp Object)
 
-Corresponds to the **Script** check box in the [**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to theScript check box in the [Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Script**;
+### \[JavaScript\]
 
-object. **Script** = _b_;
+```
+b = object.Script;
+object.Script = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Script**
-
-object. **Script** = _b_
+```
+b = object.Script
+object.Script = b
+```
 
 ## Version
 

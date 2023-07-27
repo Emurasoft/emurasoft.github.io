@@ -1,31 +1,36 @@
 # 다음 변경된 줄 명령
 
-### 요약
+## 요약
 
-> 다음으로 변경된 줄로 이동합니다.
+다음으로 변경된 줄로 이동합니다.
 
-### 설명
+## 설명
 
-> 비교 모드일 때 다음으로 변경된 줄로 이동합니다.
+비교 모드일 때 다음으로 변경된 줄로 이동합니다.
 
-### 실행하는 방법
+## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands): **비교** \> **다음 변경된 줄**
+- [모든 명령](../tools/all_commands):비교 \>다음 변경된 줄
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+F7
 
-### 플러그인 명령 ID
+## 플러그인 명령 ID
 
-- EEID\_COMPARE\_NEXT\_LINE (4557)
+```
+EEID_COMPARE_NEXT_LINE (4557)```
 
-### 매크로
+## 매크로
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4557);
+```
+editor.ExecuteCommandByID(4557);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4557
+```
+editor.ExecuteCommandByID 4557
+```

@@ -2,13 +2,19 @@
 
 如果指定文件夹存在则返回 true；如果没有，则为 false。
 
-#### \[JavaScript\]
+## 
 
-b = shell. **FolderExists**( _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = shell.FolderExists( strFolder );
+```
 
-b = shell. **FolderExists**( _strFolder_ )
+### \[VBScript\]
+
+```
+b = shell.FolderExists( strFolder )
+```
 
 ## 参数
 
@@ -18,13 +24,17 @@ _strFolder_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 b = shell.FolderExists( "C:\\\Test\\\folder" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 b = shell.FolderExists( "C:\\Test\\folder" )
+```
 
 ## 版本
 

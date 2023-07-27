@@ -8,29 +8,29 @@ int Editor\_GetUnicodeName( HWND hwnd, LPWSTR pBuf, int cchBuf, LPCWSTR pstrSrc,
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _pBuf_
 
-> Specifies the pointer to the buffer to retrieve the Unicode name.
+Specifies the pointer to the buffer to retrieve the Unicode name.
 
 _cchBuf_
 
-> Specifies the size of the buffer in characters including the terminating NULL.
+Specifies the size of the buffer in characters including the terminating NULL.
 
 _pstrSrc_
 
-> Specifies the source character or string.
+Specifies the source character or string.
 
 _cchSrc_
 
-> Specifies the number of characters specified in _pstrSrc_.
+Specifies the number of characters specified in _pstrSrc_.
 
 ## Return Values
 
-> If _cchBuf_ field of the UNICODE\_NAME\_INFO structure is zero, the return value is the required size, in characters,
-> for a buffer that can receive the text.
+If _cchBuf_ field of the UNICODE\_NAME\_INFO structure is zero, the return value is the required size, in characters,
+for a buffer that can receive the text.
 
 ## Version
 
-> Supported on Version 19.1 or later.
+Supported on Version 19.1 or later.

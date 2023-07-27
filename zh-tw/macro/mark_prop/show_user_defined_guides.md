@@ -1,20 +1,22 @@
 # ShowUserDefinedGuides 屬性 (MarkProp ��H)
 
-與組態屬性中 [**標記** 頁面](../../dlg/properties/marks/index) 上的 **顯示使用者自訂參考線** 核取方塊相對應。
+與組態屬性中 [標記 頁面](../../dlg/properties/marks/index) 上的顯示使用者自訂參考線 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowUserDefinedGuides**;
+### \[JavaScript\]
 
-object. **ShowUserDefinedGuides** = _b_;
+```
+b = object.ShowUserDefinedGuides;
+object.ShowUserDefinedGuides = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowUserDefinedGuides**
-
-object. **ShowUserDefinedGuides** = _b_
+```
+b = object.ShowUserDefinedGuides
+object.ShowUserDefinedGuides = b
+```
 
 ## 版本
 

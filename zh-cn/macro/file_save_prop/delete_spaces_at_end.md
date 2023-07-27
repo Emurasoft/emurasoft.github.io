@@ -1,20 +1,22 @@
 # DeleteSpacesAtEnd 属性 (FileSaveProp ����)
 
-与 [**保存详细信息** 对话框](../../dlg/properties/file/save_details/index) 中的 **删除行末空格** 复选框相对应。
+与 [保存详细信息 对话框](../../dlg/properties/file/save_details/index) 中的删除行末空格 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DeleteSpacesAtEnd**;
+### \[JavaScript\]
 
-object. **DeleteSpacesAtEnd** = _b_;
+```
+b = object.DeleteSpacesAtEnd;
+object.DeleteSpacesAtEnd = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DeleteSpacesAtEnd**
-
-object. **DeleteSpacesAtEnd** = _b_
+```
+b = object.DeleteSpacesAtEnd
+object.DeleteSpacesAtEnd = b
+```
 
 ## 版本
 

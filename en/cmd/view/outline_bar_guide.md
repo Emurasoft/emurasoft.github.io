@@ -1,33 +1,38 @@
 # Toggle Outline Bar and Guide command
 
-### Summary
+## Summary
 
-> Shows or hides the outline bar and the outline guide.
+Shows or hides the outline bar and the outline guide.
 
-### Description
+## Description
 
-> Shows or hides the outline bar and the outline guide.
+Shows or hides the outline bar and the outline guide.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** >
-**Outline** >
-**Outline Bar and Guide**
-- Toolbar: **![Outline](../../images/plugin_outline.gif)**
+- [All Commands](../tools/all_commands):View >
+Outline >
+Outline Bar and Guide
+- Toolbar:![Outline](../../images/plugin_outline.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_OUTLINE\_BAR\_GUIDE (3874)
+```
+EEID_OUTLINE_BAR_GUIDE (3874)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3874);
+```
+editor.ExecuteCommandByID(3874);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3874
+```
+editor.ExecuteCommandByID 3874
+```

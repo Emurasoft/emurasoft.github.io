@@ -2,27 +2,35 @@
 
 EmEditor の実行ファイル emeditor.exe の完全パスとファイル名を取得します。
 
-#### \[JavaScript\]
+## 
 
-_strName_ = editor. **FullName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = editor.FullName;
+```
 
-_strName_ = editor. **FullName**
+### \[VBScript\]
+
+```
+strName = editor.FullName
+```
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-strName = editor. **FullName**;
-
+```
+strName = editor.FullName;
 alert( "EmEditor の完全パスは" + strName + "です。" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-strName = editor. **FullName**
-
+```
+strName = editor.FullName
 alert "EmEditor の完全パスは" & strName & "です。"
+```
 
 ## バージョン
 

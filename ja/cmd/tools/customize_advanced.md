@@ -1,14 +1,14 @@
 # \[高度のカスタマイズ\] コマンド
 
-### 概要
+## 概要
 
-> \[カスタマイズ\] ダイアログ ボックスの \[高度\] ページを開きます。
+\[カスタマイズ\] ダイアログ ボックスの \[高度\] ページを開きます。
 
-### 説明
+## 説明
 
-> [\[カスタマイズ\] ダイアログ ボックス](../../dlg/customize/index) の \[高度\] ページを表示して、アプリケーション共通の設定をできるようにします。
+[\[カスタマイズ\] ダイアログ ボックス](../../dlg/customize/index) の \[高度\] ページを表示して、アプリケーション共通の設定をできるようにします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[カスタマイズ\] \- \[高度\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CUSTOMIZE\_ADVANCED (9046)
+```
+EEID_CUSTOMIZE_ADVANCED (9046)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9046);
+```
+editor.ExecuteCommandByID(9046);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9046
+```
+editor.ExecuteCommandByID 9046
+```

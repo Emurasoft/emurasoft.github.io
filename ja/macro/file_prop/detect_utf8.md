@@ -1,20 +1,22 @@
 # DetectUTF8 プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の **\[UTF-8を自動検出\]** チェック ボックスに相当します。
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[UTF-8を自動検出\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DetectUTF8**;
+### \[JavaScript\]
 
-object. **DetectUTF8** = _b_;
+```
+b = object.DetectUTF8;
+object.DetectUTF8 = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DetectUTF8**
-
-object. **DetectUTF8** = _b_
+```
+b = object.DetectUTF8
+object.DetectUTF8 = b
+```
 
 ## バージョン
 

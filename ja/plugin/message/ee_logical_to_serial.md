@@ -13,8 +13,8 @@ lParam = (LPARAM) (POINT\_PTR\*) pptLogical
 
 _pptLogical_
 
-> 論理座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+論理座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
 
 ## 戻り値
 
-> シリアル位置を返します。
+シリアル位置を返します。

@@ -1,14 +1,14 @@
 # \[ユーザー定義ガイド\] コマンド
 
-### 概要
+## 概要
 
-> ユーザー定義ガイドの表示/非表示を切り替えます。
+ユーザー定義ガイドの表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> ユーザー定義ガイドの表示/非表示を切り替えます。
+ユーザー定義ガイドの表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[記号\] \- \[ユーザー定義ガイド\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[記号\] \- \[ユーザー定義ガイド\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_USER\_DEFINED\_GUIDES (3863)
+```
+EEID_VIEW_USER_DEFINED_GUIDES (3863)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3863);
+```
+editor.ExecuteCommandByID(3863);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3863
+```
+editor.ExecuteCommandByID 3863
+```

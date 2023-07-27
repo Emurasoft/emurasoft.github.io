@@ -2,13 +2,19 @@
 
 Closes the document.
 
-#### \[JavaScript\]
+## 
 
-document. **Close**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Close();
+```
 
-document. **Close**
+### \[VBScript\]
+
+```
+document.Close
+```
 
 ## Version
 

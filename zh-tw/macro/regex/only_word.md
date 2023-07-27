@@ -2,17 +2,21 @@
 
 設置或檢索是否規則運算式僅符合整個單字。
 
-#### \[JavaScript\]
+## 
 
-_b_ = reg. **OnlyWord**;
+### \[JavaScript\]
 
-reg. **OnlyWord** = _b_;
+```
+b = reg.OnlyWord;
+reg.OnlyWord = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = reg. **OnlyWord**;
-
-reg. **OnlyWord** = _b_;
+```
+b = reg.OnlyWord;
+reg.OnlyWord = b;
+```
 
 ## 版本
 

@@ -1,20 +1,22 @@
 # List 属性 (HighlightProp ����)
 
-检索 [**HighlightList** 集合](../highlight_list/index)。
+检索 [HighlightList 集合](../highlight_list/index)。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **List**;
+### \[JavaScript\]
 
-object. **List** = _b_;
+```
+b = object.List;
+object.List = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **List**
-
-object. **List** = _b_
+```
+b = object.List
+object.List = b
+```
 
 ## 版本
 

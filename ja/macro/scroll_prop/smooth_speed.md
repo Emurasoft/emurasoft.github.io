@@ -1,20 +1,22 @@
 # SmoothSpeed プロパティ (ScrollProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の **\[スムーズ スクロール\]** スライダに相当します。
+設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の\[スムーズ スクロール\] スライダに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **SmoothSpeed**;
+### \[JavaScript\]
 
-object. **SmoothSpeed** = _n_;
+```
+n = object.SmoothSpeed;
+object.SmoothSpeed = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **SmoothSpeed**
-
-object. **SmoothSpeed** = _n_
+```
+n = object.SmoothSpeed
+object.SmoothSpeed = n
+```
 
 ## バージョン
 

@@ -2,13 +2,19 @@
 
 指定するパスの複数のファイルから複数の文字列を置換します。ユーザーが途中で処理を中止した場合、エラーを発生します。
 
-#### \[JavaScript\]
+## 
 
-nFound = editor. **ReplaceInFiles**( _filters_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _strBackupPath_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = editor.ReplaceInFiles( filters, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ strBackupPath, [ nExFlags, [ nLimit ] ] ] ] ] );
+```
 
-nFound = editor. **ReplaceInFiles**( _filters_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _strBackupPath_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] \] )
+### \[VBScript\]
+
+```
+nFound = editor.ReplaceInFiles( filters, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ strBackupPath, [ nExFlags, [ nLimit ] ] ] ] ] )
+```
 
 ## パラメータ
 

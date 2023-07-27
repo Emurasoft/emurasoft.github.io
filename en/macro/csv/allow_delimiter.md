@@ -1,18 +1,22 @@
 # AllowDelimiter Property (Csv Object)
 
-Corresponds to the **Allow delimiters in quotes** check box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to theAllow delimiters in quotes check box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **AllowDelimiter**;
+### \[JavaScript\]
 
-object. **AllowDelimiter** = _b_;
+```
+b = object.AllowDelimiter;
+object.AllowDelimiter = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **AllowDelimiter**
-
-object. **AllowDelimiter** = _b_
+```
+b = object.AllowDelimiter
+object.AllowDelimiter = b
+```
 
 ## Version
 

@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> [REARRANGE\_COLUMNS\_INFO 構造体](../structure/rearrange_columns_info) へのポインタを指定します。
+[REARRANGE\_COLUMNS\_INFO 構造体](../structure/rearrange_columns_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると 0 を返します。失敗すると 0 以外を返します。
+成功すると 0 を返します。失敗すると 0 以外を返します。
 
 ## バージョン
 
-> Version 22.1 以上で利用できます。
+Version 22.1 以上で利用できます。

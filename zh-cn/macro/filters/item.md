@@ -2,15 +2,19 @@
 
 为指定的索引检索 [Filter 对象](../filter/index)。
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-list. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = list.Item( Index );
+```
 
-_item_ =
-list. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = list.Item( Index )
+```
 
 ## 参数
 

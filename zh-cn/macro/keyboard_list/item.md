@@ -2,15 +2,19 @@
 
 为指导索引检索 [KeyboardItem 对象](../keyboard_item/index)。
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-list. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = list.Item( Index );
+```
 
-_item_ =
-list. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = list.Item( Index )
+```
 
 ## 参数
 

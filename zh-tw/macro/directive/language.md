@@ -8,49 +8,64 @@
 
 _ScriptName_
 
-> 通過 ProgID 指定指示詞碼語言。這個指示詞碼引擎必須在指示詞碼被使用前安裝。
+通過 ProgID 指定指示詞碼語言。這個指示詞碼引擎必須在指示詞碼被使用前安裝。
 
 ## 示例
 
 用不同的指示詞碼語言，插入 "Hello!" 到游標位置處。
 
-#### \[JavaScript (JScript)\]
+### \[JavaScript (JScript)\]
 
 #language = "JScript"
 
 document.write( "Hello!" );
 
-#### \[JavaScript (V8)\]
+## 
+
+### \[JavaScript (V8)\]
 
 #language = "V8"
 
 document.write( "Hello!" );
 
-#### \[PerlScript\]
+## 
+
+### \[PerlScript\]
 
 #language = "PerlScript"
 
 $Window->document->write( 'Hello!' );
 
-#### \[PHPScript\]
+## 
+
+### \[PHPScript\]
 
 #language = "PHPScript"
 
 $Window->document->write( "Hello!" );
 
-#### \[Python\]
+## 
+
+### \[Python\]
 
 #language = "Python"
 
 Window.document.write( 'Hello' );
 
-#### \[RubyScript\]
+## 
+
+### \[RubyScript\]
 
 #language = "RubyScript"
 
 Window.document.write( "Hello!" );
 
-#### \[VBScript\]
+## 
+
+### \[VBScript\]
+
+```
+```
 
 #language = "VBScript"
 

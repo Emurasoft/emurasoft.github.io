@@ -2,13 +2,19 @@
 
 EmEditor がユーザー登録されている名前を取得します。
 
-#### \[JavaScript\]
+## 
 
-_szName_ = editor. **RegisteredName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+szName = editor.RegisteredName;
+```
 
-_szName_ = editor. **RegisteredName**
+### \[VBScript\]
+
+```
+szName = editor.RegisteredName
+```
 
 ## バージョン
 

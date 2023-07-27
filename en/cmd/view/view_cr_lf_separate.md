@@ -1,31 +1,36 @@
 # CR and LF with Different Marks command
 
-### Summary
+## Summary
 
-> Shows CR and LF with different marks.
+Shows CR and LF with different marks.
 
-### Description
+## Description
 
-> Shows CR and LF with different marks. By default, EmEditor displays CR and LF with the same mark.
+Shows CR and LF with different marks. By default, EmEditor displays CR and LF with the same mark.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Marks** \> **CR and LF with Different Marks**
-- [All Commands](../tools/all_commands): **View** \> **Marks** \> **CR and LF with Different Marks**
+- Default Menu:View \>Marks \>CR and LF with Different Marks
+- [All Commands](../tools/all_commands):View \>Marks \>CR and LF with Different Marks
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_VIEW\_CR\_LF\_SEPARATE (4537)
+```
+EEID_VIEW_CR_LF_SEPARATE (4537)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4537);
+```
+editor.ExecuteCommandByID(4537);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4537
+```
+editor.ExecuteCommandByID 4537
+```

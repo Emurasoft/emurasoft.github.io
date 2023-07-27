@@ -1,14 +1,14 @@
 # \[1列左へ移動\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書の選択列または現在の列を左へ1列移動します。
+CSV文書の選択列または現在の列を左へ1列移動します。
 
-### 説明
+## 説明
 
-> CSV文書の選択列または現在の列を左へ1列移動します。
+CSV文書の選択列または現在の列を左へ1列移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[移動\] \- \[1列左へ移動\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- ID\_MOVE\_COLUMN\_LEFT (3995)
+```
+ID_MOVE_COLUMN_LEFT (3995)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3995);
+```
+editor.ExecuteCommandByID(3995);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3995
+```
+editor.ExecuteCommandByID 3995
+```

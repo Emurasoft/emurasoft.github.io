@@ -2,13 +2,19 @@
 
 [FontPtop オブジェクト](../font_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Font**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Font;
+```
 
-Set _obj_ = object. **Font**
+### \[VBScript\]
+
+```
+Set obj = object.Font
+```
 
 ## バージョン
 

@@ -9,28 +9,28 @@ Editor\_SaveFileW( HWND hwnd, int iDoc, BOOL bReplace, LPWSTR szFileName );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _iDoc_
 
-> Specifies the index of the target document. If -1 is specified, the currently active document will be targeted.
+Specifies the index of the target document. If -1 is specified, the currently active document will be targeted.
 
 _bReplace_
 
-> Specifies TRUE if the text will be saved as by a specified name; the
-> file name EmEditor holds and the title shown on the EmEditor Window will be
-> changed. Specifies FALSE if the copy of the text is saved; the file name
-> EmEditor holds will not be changed.
+Specifies TRUE if the text will be saved as by a specified name; the
+file name EmEditor holds and the title shown on the EmEditor Window will be
+changed. Specifies FALSE if the copy of the text is saved; the file name
+EmEditor holds will not be changed.
 
 _szFileName_
 
-> Specifies a full path file name in bytes.
+Specifies a full path file name in bytes.
 
 ## Return Values
 
-> If it is succeeded, the return value is nonzero. If it isn't succeeded, the
-> return value is zero.
+If it is succeeded, the return value is nonzero. If it isn't succeeded, the
+return value is zero.
 
 ## Version
 
-> Supported on EmEditor Professional Version 5.00 or later.
+Supported on EmEditor Professional Version 5.00 or later.

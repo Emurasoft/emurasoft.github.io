@@ -1,31 +1,36 @@
 # Advanced Sort command
 
-### Summary
+## Summary
 
-> Sorts the document by multiple columns or with advanced options.
+Sorts the document by multiple columns or with advanced options.
 
-### Description
+## Description
 
-> Sorts the document by multiple columns or with advanced options.
+Sorts the document by multiple columns or with advanced options.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Sort** \> **Advanced Sort**
-- [All Commands](../tools/all_commands): **Sort** \> **Advanced Sort**
+- Default Menu:Sort \>Advanced Sort
+- [All Commands](../tools/all_commands):Sort \>Advanced Sort
 - Toolbar: ![](../../images/sortbymultiple.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SORT\_MULTI (3903)
+```
+EEID_SORT_MULTI (3903)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3903);
+```
+editor.ExecuteCommandByID(3903);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3903
+```
+editor.ExecuteCommandByID 3903
+```

@@ -1,20 +1,22 @@
 # DetectUnicodeSignature 屬性 (FileProp ��H)
 
-與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **偵測 Unicode 簽名 (BOM)** 核取方塊相對應。
+與組態屬性中 [檔案 頁面](../../dlg/properties/file/index) 上的偵測 Unicode 簽名 (BOM) 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DetectUnicodeSignature**;
+### \[JavaScript\]
 
-object. **DetectUnicodeSignature** = _b_;
+```
+b = object.DetectUnicodeSignature;
+object.DetectUnicodeSignature = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DetectUnicodeSignature**
-
-object. **DetectUnicodeSignature** = _b_
+```
+b = object.DetectUnicodeSignature
+object.DetectUnicodeSignature = b
+```
 
 ## 版本
 

@@ -1,20 +1,22 @@
 # ShowRuler 屬性 (GeneralProp ��H)
 
-與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **顯示尺規** 核取方塊相對應。
+與組態屬性中 [一般 頁面](../../dlg/properties/general/index) 上的顯示尺規 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowRuler**;
+### \[JavaScript\]
 
-object. **ShowRuler** = _b_;
+```
+b = object.ShowRuler;
+object.ShowRuler = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowRuler**
-
-object. **ShowRuler** = _b_
+```
+b = object.ShowRuler
+object.ShowRuler = b
+```
 
 ## 版本
 

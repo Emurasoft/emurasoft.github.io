@@ -11,7 +11,7 @@ If you have been using a version of EmEditor older than v3.00, or don't want to 
 of EmEditor, we recommend uninstalling the previous version completely and rebooting the computer
 before installing the newer version of EmEditor. The steps are as follows:
 
-1. Click the **Start** button and select Control Panel from the **Start** menu. Select the EmEditor (or EmEditor
-v3) from the **Add or Remove Programs**. Click the **Delete** button.
+1. Click theStart button and select Control Panel from theStart menu. Select the EmEditor (or EmEditor
+v3) from theAdd or Remove Programs. Click theDelete button.
 2. Reboot Windows when uninstalling is complete.
 3. Install the new version.

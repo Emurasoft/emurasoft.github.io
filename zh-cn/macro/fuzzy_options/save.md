@@ -2,13 +2,19 @@
 
 将模糊选项保存到应用数据文件夹。
 
-#### \[JavaScript\]
+## 
 
-obj. **Save**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj.Save();
+```
 
-obj. **Save**
+### \[VBScript\]
+
+```
+obj.Save
+```
 
 ## 版本
 

@@ -1,33 +1,38 @@
 # Split Vertically and Fix Position command
 
-### Summary
+## Summary
 
-> Splits the current window vertically into fixed positions.
+Splits the current window vertically into fixed positions.
 
-### Description
+## Description
 
-> This command splits the current window into two vertical panes, and fixes the split position
-> at the center of the window immediately.
+This command splits the current window into two vertical panes, and fixes the split position
+at the center of the window immediately.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Split** \> **Split Vertically and Fix Position**
+- [All Commands](../tools/all_commands):Window
+\>Split \>Split Vertically and Fix Position
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_SPLIT\_VERT\_FIX (4336)
+```
+EEID_WINDOW_SPLIT_VERT_FIX (4336)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4336);
+```
+editor.ExecuteCommandByID(4336);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4336
+```
+editor.ExecuteCommandByID 4336
+```

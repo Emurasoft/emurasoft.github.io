@@ -1,18 +1,22 @@
 # KinsokuBegin 属性 (WrapProp ����)
 
-与配置属性中 [**换行** 页面](../../dlg/properties/wrap/index) 上的 **行首不允许换行字符** 文本框相对应。
+与配置属性中 [换行 页面](../../dlg/properties/wrap/index) 上的行首不允许换行字符 文本框相对应。
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **KinsokuBegin**;
+### \[JavaScript\]
 
-object. **KinsokuBegin** = _str_;
+```
+str = object.KinsokuBegin;
+object.KinsokuBegin = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **KinsokuBegin**
-
-object. **KinsokuBegin** = _str_
+```
+str = object.KinsokuBegin
+object.KinsokuBegin = str
+```
 
 ## 版本
 

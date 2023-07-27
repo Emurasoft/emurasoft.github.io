@@ -2,17 +2,21 @@
 
 タグを強調表示するかどうかを取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_bHighlightTag_ = document. **HighlightTag**;
+### \[JavaScript\]
 
-document. **HighlightTag** = _bHighlightTag_;
+```
+bHighlightTag = document.HighlightTag;
+document.HighlightTag = bHighlightTag;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bHighlightTag_ = document. **HighlightTag**
-
-document. **HighlightTag** = _bHighlightTag_
+```
+bHighlightTag = document.HighlightTag
+document.HighlightTag = bHighlightTag
+```
 
 ## バージョン
 

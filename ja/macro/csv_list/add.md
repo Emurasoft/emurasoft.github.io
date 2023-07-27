@@ -2,13 +2,19 @@
 
 アイテムを追加します。
 
-#### \[JavaScript\]
+## 
 
-list. **Add**( _strName_, _strDelimiter_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Add( strName, strDelimiter );
+```
 
-list. **Add** _strName_, _strDelimiter_
+### \[VBScript\]
+
+```
+list.Add strName, strDelimiter
+```
 
 ## パラメータ
 

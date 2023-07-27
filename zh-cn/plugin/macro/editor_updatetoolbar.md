@@ -8,12 +8,12 @@ Editor\_UpdateToolbar( HWND hwnd, UINT nCmdID );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _nCmdID_
 
-> 指定插件的实例句柄。
+指定插件的实例句柄。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

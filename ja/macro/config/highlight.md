@@ -2,13 +2,19 @@
 
 [HighlightProp オブジェクト](../highlight_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Highlight**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Highlight;
+```
 
-Set _obj_ = object. **Highlight**
+### \[VBScript\]
+
+```
+Set obj = object.Highlight
+```
 
 ## バージョン
 

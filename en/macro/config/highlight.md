@@ -2,13 +2,19 @@
 
 Retrieves the [HighlightProp object](../highlight_prop/index).
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Highlight**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Highlight;
+```
 
-Set _obj_ = object. **Highlight**
+### \[VBScript\]
+
+```
+Set obj = object.Highlight
+```
 
 ## Version
 

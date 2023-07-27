@@ -1,18 +1,22 @@
 # filters 屬性 (Document ��H)
 
-擷取或設置 [**Filters** 集合](../filters/index)。
+擷取或設置 [Filters 集合](../filters/index)。
 
-#### \[JavaScript\]
+## 
 
-_fs_ = document. **filters**;
+### \[JavaScript\]
 
-document. **filters** = _fs_;
+```
+fs = document.filters;
+document.filters = fs;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Set _fs_ = document. **filters**
-
-document. **filters** = _fs_
+```
+Set fs = document.filters
+document.filters = fs
+```
 
 ## 版本
 

@@ -1,32 +1,37 @@
 # Left Custom Bar command
 
-### Summary
+## Summary
 
-> Switches to the custom bar on left.
+Switches to the custom bar on left.
 
-### Description
+## Description
 
-> Switches to the custom bar on left if available.
+Switches to the custom bar on left if available.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Custom Bar** \> **Left**
+- [All Commands](../tools/all_commands):Window
+\>Custom Bar \>Left
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FOCUS\_LEFT\_BAR (4425)
+```
+EEID_FOCUS_LEFT_BAR (4425)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4425);
+```
+editor.ExecuteCommandByID(4425);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4425
+```
+editor.ExecuteCommandByID 4425
+```

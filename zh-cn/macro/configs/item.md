@@ -1,14 +1,20 @@
 # Item 属性 (Configs ����)
 
-为指定索引的配置检索 [**Config** 对象](../config/index)。
+为指定索引的配置检索 [Config 对象](../config/index)。
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor.Configs. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.Configs.Item( Index );
+```
 
-_doc_ = editor.Configs. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+doc = editor.Configs.Item( Index )
+```
 
 ## 参数
 
@@ -18,13 +24,17 @@ _Index_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Name for the first configuration: " + editor.Configs.Item(1).Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Name for the first configuration: " & editor.Configs.Item(1).Name
+```
 
 ## 版本
 

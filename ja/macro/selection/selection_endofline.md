@@ -2,13 +2,19 @@
 
 現在行の最後に移動します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **EndOfLine**( \[ _bExtend_ \[, _nFlags_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.EndOfLine( [ bExtend [, nFlags ] ] );
+```
 
-document.selection. **EndOfLine** \[ _bExtend_ \[, _nFlags_ \] \]
+### \[VBScript\]
+
+```
+document.selection.EndOfLine [ bExtend [, nFlags ] ]
+```
 
 ## 引数
 

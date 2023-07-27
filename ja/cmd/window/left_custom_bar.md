@@ -1,14 +1,14 @@
 # \[左カスタム バー\] コマンド
 
-### 概要
+## 概要
 
-> 左のカスタム バーに切り替えます。
+左のカスタム バーに切り替えます。
 
-### 説明
+## 説明
 
-> 利用可能なら左のカスタム バーに切り替えます。
+利用可能なら左のカスタム バーに切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[カスタム バー\] \- \[左\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FOCUS\_LEFT\_BAR (4425)
+```
+EEID_FOCUS_LEFT_BAR (4425)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4425);
+```
+editor.ExecuteCommandByID(4425);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID(4425)
+```
+editor.ExecuteCommandByID(4425)
+```

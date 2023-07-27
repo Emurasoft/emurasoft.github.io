@@ -1,31 +1,36 @@
 # Hide Quotes Temporarily command
 
-### Summary
+## Summary
 
-> Temporarily shows the current CSV document without quotation marks or escape characters.
+Temporarily shows the current CSV document without quotation marks or escape characters.
 
-### Description
+## Description
 
-> Temporarily shows the current CSV document without quotation marks or escape characters.
+Temporarily shows the current CSV document without quotation marks or escape characters.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Hide Quotes Temporarily**
-- [All Commands](../tools/all_commands): **CSV** \> **Hide Quotes Temporarily**
+- Default Menu:CSV \>Hide Quotes Temporarily
+- [All Commands](../tools/all_commands):CSV \>Hide Quotes Temporarily
 - Toolbar: ![](../../images/csv_hide_quotes.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CSV\_HIDE\_QUOTES (4067)
+```
+EEID_CSV_HIDE_QUOTES (4067)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.HideQuotes = true;
+```
+document.HideQuotes = true;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.HideQuotes = True
+```
+document.HideQuotes = True
+```

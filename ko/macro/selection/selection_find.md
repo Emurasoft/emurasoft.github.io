@@ -2,13 +2,19 @@
 
 지정된 문자열을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-nFound = document.selection. **Find**( _strFind_, _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = document.selection.Find( strFind, nFlags );
+```
 
-nFound = document.selection. **Find**( _strFind_, _nFlags_ )
+### \[VBScript\]
+
+```
+nFound = document.selection.Find( strFind, nFlags )
+```
 
 ## 매개 변수
 

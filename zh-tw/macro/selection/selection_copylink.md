@@ -2,13 +2,19 @@
 
 複製游標處的超連結到剪貼簿上。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **CopyLink**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.CopyLink();
+```
 
-document.selection. **CopyLink**
+### \[VBScript\]
+
+```
+document.selection.CopyLink
+```
 
 ## 版本
 

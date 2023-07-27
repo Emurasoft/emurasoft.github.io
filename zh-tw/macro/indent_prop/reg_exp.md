@@ -1,18 +1,22 @@
 # RegExp 屬性 (IndentProp ��H)
 
-與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **使用規則運算式** 核取方塊相對應。
+與 [Tab/縮排 對話方塊](../../dlg/properties/general/indent/index) 上的使用規則運算式 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **RegExp**;
+### \[JavaScript\]
 
-object. **RegExp** = _b_;
+```
+b = object.RegExp;
+object.RegExp = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **RegExp**
-
-object. **RegExp** = _b_
+```
+b = object.RegExp
+object.RegExp = b
+```
 
 ## 版本
 

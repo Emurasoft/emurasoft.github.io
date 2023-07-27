@@ -2,13 +2,19 @@
 
 按 EmEditor 设定，设置一个字符串值到注册表或一个 INI 文件中。
 
-#### \[JavaScript\]
+## 
 
-editor. **WriteProfileString**( _nKey_, _strConfig_, _strEntry_, _strData_ \[ , _nType_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.WriteProfileString( nKey, strConfig, strEntry, strData [ , nType ] );
+```
 
-editor. **WriteProfileString** _nKey_, _strConfig_, _strEntry_, _strData_ \[ , _nType_ \]
+### \[VBScript\]
+
+```
+editor.WriteProfileString nKey, strConfig, strEntry, strData [ , nType ]
+```
 
 ## 参数
 

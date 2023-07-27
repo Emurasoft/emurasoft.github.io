@@ -1,14 +1,14 @@
 # \[対応するタグへ\] コマンド
 
-### 概要
+## 概要
 
-> 対応するタグへ移動します。
+対応するタグへ移動します。
 
-### 説明
+## 説明
 
-> カーソル位置に XML または XHTML 文書のタグが存在する場合、それに対応するタグへ移動します。
+カーソル位置に XML または XHTML 文書のタグが存在する場合、それに対応するタグへ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[検索\] \- \[対応するタグを検索\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[水平にカーソル移動\] \- \[対応するタグ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+.
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_NEXT\_TAG (4601)
+```
+EEID_NEXT_TAG (4601)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4601);
+```
+editor.ExecuteCommandByID(4601);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4601
+```
+editor.ExecuteCommandByID 4601
+```

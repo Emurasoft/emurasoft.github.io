@@ -2,13 +2,19 @@
 
 为输出栏设置当前目录。这个信息是必需的如果文本包含只能从当前目录跳至的相对路径。
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **CurrentDirectory** = _szCurrDir_;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.CurrentDirectory = szCurrDir;
+```
 
-OutputBar. **CurrentDirectory** = _szCurrDir_
+### \[VBScript\]
+
+```
+OutputBar.CurrentDirectory = szCurrDir
+```
 
 ## 版本
 

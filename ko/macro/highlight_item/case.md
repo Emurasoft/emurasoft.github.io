@@ -1,20 +1,22 @@
 # Case 속성 (HighlightItem ��ü)
 
-구성 속성 [**강조 표시 (1)** 탭](../../dlg/properties/highlight1/index) 의 **대/소문자 구분** 체크 박스에 해당합니다.
+구성 속성 [강조 표시 (1) 탭](../../dlg/properties/highlight1/index) 의대/소문자 구분 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Case**;
+### \[JavaScript\]
 
-item. **Case** = _b_;
+```
+b = item.Case;
+item.Case = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Case**
-
-item. **Case** = _b_
+```
+b = item.Case
+item.Case = b
+```
 
 ## 버전
 

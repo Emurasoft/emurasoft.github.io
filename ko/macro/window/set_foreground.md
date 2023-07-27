@@ -2,13 +2,19 @@
 
 전경 창을 제공합니다.
 
-#### \[JavaScript\]
+## 
 
-wnd. **SetForeground**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd.SetForeground();
+```
 
-wnd. **SetForeground**
+### \[VBScript\]
+
+```
+wnd.SetForeground
+```
 
 ## 버전
 

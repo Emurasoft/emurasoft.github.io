@@ -2,13 +2,19 @@
 
 EmEditor のコマンドが実行できるかどうか、またチェックされているかどうかを取得します。
 
-#### \[JavaScript\]
+## 
 
-_nStatus_ = editor. **QueryStatusByID**( _nID_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nStatus = editor.QueryStatusByID( nID );
+```
 
-_nStatus_ = editor. **QueryStatusByID**( _nID_ )
+### \[VBScript\]
+
+```
+nStatus = editor.QueryStatusByID( nID )
+```
 
 ## パラメータ
 

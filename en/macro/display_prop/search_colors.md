@@ -1,19 +1,23 @@
 # SearchColors Property (DisplayProp Object)
 
-Corresponds to the **Search**
-**Colors** text box in the [**Display** page](../../dlg/properties/display/index) of Configuration Properties.
+Corresponds to the Search
+Colors text box in the [Display page](../../dlg/properties/display/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **SearchColors**;
+### \[JavaScript\]
 
-object. **SearchColors** = _n_;
+```
+n = object.SearchColors;
+object.SearchColors = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **SearchColors**
-
-object. **SearchColors** = _n_
+```
+n = object.SearchColors
+object.SearchColors = n
+```
 
 ## Version
 

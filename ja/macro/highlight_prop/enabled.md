@@ -1,21 +1,23 @@
 # Enabled プロパティ (HighlightProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[強調(1)\]** タブ](../../dlg/properties/highlight1/index) の
-**\[ここで設定する文字列を強調表示する\]** チェック ボックスに相当します。
+設定のプロパティの [\[強調(1)\] タブ](../../dlg/properties/highlight1/index) の
+\[ここで設定する文字列を強調表示する\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Enabled**;
+### \[JavaScript\]
 
-object. **Enabled** = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Enabled**
-
-object. **Enabled** = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## バージョン
 

@@ -2,13 +2,19 @@
 
 출력 모음에 문자열과 새로운 줄을 추가합니다.
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **writeln**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.writeln( str );
+```
 
-OutputBar. **writeln** _str_
+### \[VBScript\]
+
+```
+OutputBar.writeln str
+```
 
 ## 매개 변수
 

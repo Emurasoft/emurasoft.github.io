@@ -13,12 +13,12 @@ lParam = (LPARAM) (QUERY\_STRING\_INFO\*) pInfo;
 
 _pInfo_
 
-> Specifies a pointer to the [**QUERY\_STRING\_INFO** structure](../structure/query_string_info).
+Specifies a pointer to the [QUERY\_STRING\_INFO structure](../structure/query_string_info).
 
 ## Return Values
 
-> The return value is S\_OK if succeeded. Otherwise, the return value is a negative value.
+The return value is S\_OK if succeeded. Otherwise, the return value is a negative value.
 
 ## Version
 
-> Supported on EmEditor Professional Version 20.6 or later.
+Supported on EmEditor Professional Version 20.6 or later.

@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> Specifies the pointer to the [SPLIT\_COLUMN\_INFO](../structure/split_column_info) structure.
+Specifies the pointer to the [SPLIT\_COLUMN\_INFO](../structure/split_column_info) structure.
 
 ## Return Values
 
-> The return value is a negative value it it fails.
+The return value is a negative value it it fails.
 
 ## Version
 
-> Supported on Version 19.9 or later.
+Supported on Version 19.9 or later.

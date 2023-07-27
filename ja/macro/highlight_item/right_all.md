@@ -1,20 +1,22 @@
 # RightAll プロパティ (HighlightItem �I�u�W�F�N�g)
 
-設定のプロパティの [**\[強調(1)\]** タブ](../../dlg/properties/highlight1/index) の **\[行の右を強調\]** チェック ボックスに相当します。
+設定のプロパティの [\[強調(1)\] タブ](../../dlg/properties/highlight1/index) の\[行の右を強調\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **RightAll**;
+### \[JavaScript\]
 
-item. **RightAll** = _b_;
+```
+b = item.RightAll;
+item.RightAll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **RightAll**
-
-item. **RightAll** = _b_
+```
+b = item.RightAll
+item.RightAll = b
+```
 
 ## バージョン
 

@@ -2,13 +2,19 @@
 
 Returns whether the window is enabled for mouse and keyboard input.
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Enabled**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Enabled;
+```
 
-_b_ = wnd. **Enabled**
+### \[VBScript\]
+
+```
+b = wnd.Enabled
+```
 
 ## Version
 

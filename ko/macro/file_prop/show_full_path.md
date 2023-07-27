@@ -1,20 +1,22 @@
 # ShowFullPath 속성 (FileProp ��ü)
 
-구성 속성 [**파일** 탭](../../dlg/properties/file/index) 의 **전체 경로와 함께 파일 이름 보이기** 체크 박스에 해당합니다.
+구성 속성 [파일 탭](../../dlg/properties/file/index) 의전체 경로와 함께 파일 이름 보이기 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowFullPath**;
+### \[JavaScript\]
 
-object. **ShowFullPath** = _b_;
+```
+b = object.ShowFullPath;
+object.ShowFullPath = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowFullPath**
-
-object. **ShowFullPath** = _b_
+```
+b = object.ShowFullPath
+object.ShowFullPath = b
+```
 
 ## 버전
 

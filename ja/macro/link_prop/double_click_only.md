@@ -1,20 +1,22 @@
 # DoubleClickOnly プロパティ (LinkProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[リンク\]** タブ](../../dlg/properties/link/index) の **\[ダブル クリックのみ有効\]** チェック ボックスに相当します。
+設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の\[ダブル クリックのみ有効\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DoubleClickOnly**;
+### \[JavaScript\]
 
-object. **DoubleClickOnly** = _b_;
+```
+b = object.DoubleClickOnly;
+object.DoubleClickOnly = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DoubleClickOnly**
-
-object. **DoubleClickOnly** = _b_
+```
+b = object.DoubleClickOnly
+object.DoubleClickOnly = b
+```
 
 ## バージョン
 

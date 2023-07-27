@@ -1,14 +1,14 @@
 # \[すべてのマーカーを有効にする\] コマンド
 
-### 概要
+## 概要
 
-> すべてのマーカーを有効にします。
+すべてのマーカーを有効にします。
 
-### 説明
+## 説明
 
-> すべてのマーカーを有効にします。
+すべてのマーカーを有効にします。
 
-### 方法
+## 方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[マーカー\] \- \[すべて有効\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_MARKER\_ENABLE\_ALL (4585)
+```
+EEID_MARKER_ENABLE_ALL (4585)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4585);
+```
+editor.ExecuteCommandByID(4585);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4585
+```
+editor.ExecuteCommandByID 4585
+```

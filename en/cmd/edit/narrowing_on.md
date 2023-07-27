@@ -1,31 +1,36 @@
 # Set Narrowing command
 
-### Summary
+## Summary
 
-> Sets only the selection as editable area and make the rest inaccessible.
+Sets only the selection as editable area and make the rest inaccessible.
 
-### Description
+## Description
 
-> Sets only the selection (whole logical lines including the selection) as editable area and make the rest inaccessible.
+Sets only the selection (whole logical lines including the selection) as editable area and make the rest inaccessible.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Narrowing** \> **Set Narrowing**
+- [All Commands](../tools/all_commands):Edit \>Narrowing \>Set Narrowing
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_NARROWING\_ON (4457)
+```
+EEID_NARROWING_ON (4457)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4457);
+```
+editor.ExecuteCommandByID(4457);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4457
+```
+editor.ExecuteCommandByID 4457
+```

@@ -13,12 +13,12 @@ lParam = (LPARAM)(int)iFilter;
 
 _pFilterInfo_
 
-> [FILTER\_INFO\_EX 構造体](../structure/filter_info_ex) へのポインタを指定します。
+[FILTER\_INFO\_EX 構造体](../structure/filter_info_ex) へのポインタを指定します。
 
 _iFilter_
 
-> 文字列や設定を取得したいフィルターのインデックスを指定するか、またはフィルターの数を取得するには -1 を指定します。
+文字列や設定を取得したいフィルターのインデックスを指定するか、またはフィルターの数を取得するには -1 を指定します。
 
 ## 戻り値
 
-> iFilter が 0 以上でメッセージが成功すると、戻り値は TRUE になります。iFilter が -1 の場合、戻り値はフィルターの数になります。
+iFilter が 0 以上でメッセージが成功すると、戻り値は TRUE になります。iFilter が -1 の場合、戻り値はフィルターの数になります。

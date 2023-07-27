@@ -1,20 +1,22 @@
 # VirtualSpace 屬性 (GeneralProp ��H)
 
-與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **啟用虛空格** 核取方塊相對應。
+與組態屬性中 [一般 頁面](../../dlg/properties/general/index) 上的啟用虛空格 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **VirtualSpace**;
+### \[JavaScript\]
 
-object. **VirtualSpace** = _b_;
+```
+b = object.VirtualSpace;
+object.VirtualSpace = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **VirtualSpace**
-
-object. **VirtualSpace** = _b_
+```
+b = object.VirtualSpace
+object.VirtualSpace = b
+```
 
 ## 版本
 

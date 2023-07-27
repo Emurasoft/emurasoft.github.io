@@ -1,31 +1,36 @@
 # Undo All command
 
-### Summary
+## Summary
 
-> Undo all the previous actions.
+Undo all the previous actions.
 
-### Description
+## Description
 
-> Undo all the previous actions.
+Undo all the previous actions.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Undo** \> **Undo All**
+- [All Commands](../tools/all_commands):Edit \>Undo \>Undo All
 - Toolbar: ![](../../images/editundo.gif) (on the arrow)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_UNDO\_ALL (3980)
+```
+EEID_UNDO_ALL (3980)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3980);
+```
+editor.ExecuteCommandByID(3980);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3980
+```
+editor.ExecuteCommandByID 3980
+```

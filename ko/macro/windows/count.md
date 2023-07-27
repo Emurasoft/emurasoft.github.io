@@ -2,23 +2,33 @@
 
 창의 수를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = shell.windows. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = shell.windows.Count;
+```
 
-_nCount_ = shell.windows. **Count**
+### \[VBScript\]
+
+```
+nCount = shell.windows.Count
+```
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Number of top-level windows: " + shell.windows.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Number of top-level windows: " & shell.windows.Count
+```
 
 ## 버전
 

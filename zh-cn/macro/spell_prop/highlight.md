@@ -1,20 +1,22 @@
 # Highlight 属性 (SpellProp ����)
 
-与配置属性中 [**拼写检查** 页面](../../dlg/properties/spell/index) 上的 **已高亮的文本** 复选框相对应。
+与配置属性中 [拼写检查 页面](../../dlg/properties/spell/index) 上的已高亮的文本 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Highlight**;
+### \[JavaScript\]
 
-object. **Highlight** = _b_;
+```
+b = object.Highlight;
+object.Highlight = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Highlight**
-
-object. **Highlight** = _b_
+```
+b = object.Highlight
+object.Highlight = b
+```
 
 ## 版本
 

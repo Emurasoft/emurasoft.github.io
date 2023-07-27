@@ -2,13 +2,19 @@
 
 指定する文字列から正規表現を検索し、見つかったら [Matches コレクション](../matches/index) を返します。Global プロパティが設定されている場合、このメソッドは同じパラメータを使用して繰り返すことにより、複数のマッチを取得することができます。
 
-#### \[JavaScript\]
+## 
 
-match  = reg. **Find**( _strText_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+match  = reg.Find( strText );
+```
 
-match  = reg. **Find**( _strText_ )
+### \[VBScript\]
+
+```
+match  = reg.Find( strText )
+```
 
 ## パラメータ
 
@@ -22,49 +28,35 @@ _strText_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 re = editor.regex;
-
 re.Engine = eeExFindRegexOnigmo;
-
-re.Pattern = "\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\\.\[A-Z\]{2,}";
-
+re.Pattern = "[A-Z0-9.\%+-]+@[A-Z0-9.-]+\\\.[A-Z]{2,}";
 re.IgnoreCase = true;
-
 re.OnlyWord = false;
-
 matches = re.Find( "The email address is john@test.com." );
-
 if( matches ) {
-
 match = matches.Item(0);
-
 alert( "Found: FirstIndex = " + match.FirstIndex + " , Length = " + match.Length + ", Value = " + match.Value );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set re = editor.regex
-
 re.Engine = eeExFindRegexOnigmo
-
-re.Pattern = "\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\.\[A-Z\]{2,}"
-
+re.Pattern = "[A-Z0-9.\%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}"
 re.IgnoreCase = True
-
 re.OnlyWord = False
-
 Set matches = re.Find( "The email address is john@test.com." )
-
 If Not IsNull( matches ) Then
-
 Set match = matches.Item(0)
-
 alert( "Found: FirstIndex = " & match.FirstIndex & " , Length = " & match.Length & ", Value = " & match.Value )
-
 End If
+```
 
 ## バージョン
 

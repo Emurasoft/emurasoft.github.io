@@ -2,17 +2,21 @@
 
 Returns the flag to indicate whether EmEditor discards undo information to improve the speed of replace, insert or delete.
 
-#### \[JavaScript\]
+## 
 
-_b_ = **DiscardUndo**;
+### \[JavaScript\]
 
-**DiscardUndo** = _b_;
+```
+b =DiscardUndo;
+DiscardUndo = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = **DiscardUndo**
-
-**DiscardUndo** = _b_
+```
+b =DiscardUndo
+DiscardUndo = b
+```
 
 ## Version
 

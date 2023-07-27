@@ -2,13 +2,19 @@
 
 Returns true if a specified file exists; false if it does not.
 
-#### \[JavaScript\]
+## 
 
-b = shell. **FileExists**( _strFile_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = shell.FileExists( strFile );
+```
 
-b = shell. **FileExists**( _strFile_ )
+### \[VBScript\]
+
+```
+b = shell.FileExists( strFile )
+```
 
 ## Parameters
 
@@ -18,13 +24,17 @@ The name of the file whose existance is to be determined.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 b = shell.FileExists( "C:\\\Test\\\file.txt" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 b = shell.FileExists( "C:\\Test\\file.txt" )
+```
 
 ## Version
 

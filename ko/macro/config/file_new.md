@@ -2,13 +2,19 @@
 
 [FileNewProp 개체](../file_new_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **FileNew**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.FileNew;
+```
 
-_obj_ = object. **FileNew**
+### \[VBScript\]
+
+```
+obj = object.FileNew
+```
 
 ## 버전
 

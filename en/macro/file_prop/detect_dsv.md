@@ -1,19 +1,23 @@
 # DetectDSV Property (FileProp Object)
 
-Corresponds to the **Detect DSV (User-Defined Delimiter-Separated)** check box in the
-[**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theDetect DSV (User-Defined Delimiter-Separated) check box in the
+[File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectDSV**;
+### \[JavaScript\]
 
-object. **DetectDSV** = _b_;
+```
+b = object.DetectDSV;
+object.DetectDSV = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectDSV**
-
-object. **DetectDSV** = _b_
+```
+b = object.DetectDSV
+object.DetectDSV = b
+```
 
 ## Version
 

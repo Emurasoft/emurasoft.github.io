@@ -1,31 +1,36 @@
 # Previous Node command
 
-### Summary
+## Summary
 
-> Moves the cursor to the previous node while outlining is displayed.
+Moves the cursor to the previous node while outlining is displayed.
 
-### Description
+## Description
 
-> Moves the cursor to the previous node while outlining is displayed. A plug-in for outlining is necessary to display outlining.
+Moves the cursor to the previous node while outlining is displayed. A plug-in for outlining is necessary to display outlining.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Outlining** \> **Previous Node**
-- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Previous Node**
+- Default Menu:Edit \>Outlining \>Previous Node
+- [All Commands](../tools/all_commands):Edit \>Outlining \>Previous Node
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: Alt+Up
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_OUTLINE\_PREV\_NODE (4416)
+```
+EEID_OUTLINE_PREV_NODE (4416)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4416);
+```
+editor.ExecuteCommandByID(4416);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4416
+```
+editor.ExecuteCommandByID 4416
+```

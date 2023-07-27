@@ -14,10 +14,10 @@ lParam = (LPARAM) (SIZE\_PTR\*) psizePage;
 
 _psizePage_
 
-> Pointer to a [SIZE\_PTR structure](../structure/size_ptr) that will receive a page size. The page size is
-> a pair of a number of lines and a number of columns that can display a page in
-> the current EmEditor Window size.
+Pointer to a [SIZE\_PTR structure](../structure/size_ptr) that will receive a page size. The page size is
+a pair of a number of lines and a number of columns that can display a page in
+the current EmEditor Window size.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

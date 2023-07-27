@@ -1,33 +1,38 @@
 # Define Encodings command
 
-### Summary
+## Summary
 
-> Defines encodings to use when opening/saving files.
+Defines encodings to use when opening/saving files.
 
-### Description
+## Description
 
-> Displays the [**Define Encodings** \
-> dialog box](../../dlg/encodings/index), where you can define encodings to open and save files as.
+Displays the [Define Encodings \
+dialog box](../../dlg/encodings/index), where you can define encodings to open and save files as.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Tools** \> **Define Encodings**
-- [All Commands](all_commands): **Tools** >
-**Define Encodings**
+- Default Menu:Tools \>Define Encodings
+- [All Commands](all_commands):Tools >
+Define Encodings
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DEFINE\_CODE\_PAGE (4264)
+```
+EEID_DEFINE_CODE_PAGE (4264)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4264);
+```
+editor.ExecuteCommandByID(4264);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4264
+```
+editor.ExecuteCommandByID 4264
+```

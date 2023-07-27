@@ -1,36 +1,41 @@
 # Font command
 
-### Summary
+## Summary
 
-> Shows a popup menu to select a font.
+Shows a popup menu to select a font.
 
-### Description
+## Description
 
-> This command displays a popup menu, which includes the
-> [**Recent Font** (multiple menu) command](mru_font1), the
-> **Font**
-> **Category** sub menu, and the [**Font** command](font).
+This command displays a popup menu, which includes the
+[Recent Font (multiple menu) command](mru_font1), the
+Font
+Category sub menu, and the [Font command](font).
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Font** >
-**Font** (Popup Menu)
+- [All Commands](../tools/all_commands):View \>Font >
+Font (Popup Menu)
 - Toolbar: ![](../../images/fontpopup.gif) (on
 the arrow)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FONT\_POPUP (4282)
+```
+EEID_FONT_POPUP (4282)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4282);
+```
+editor.ExecuteCommandByID(4282);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4282
+```
+editor.ExecuteCommandByID 4282
+```

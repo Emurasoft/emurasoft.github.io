@@ -1,32 +1,37 @@
 # Write a Review command
 
-### Summary
+## Summary
 
-> Writes a review about EmEditor.
+Writes a review about EmEditor.
 
-### Description
+## Description
 
-> Writes a review about EmEditor.
+Writes a review about EmEditor.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Help** \> **Write a Review**
-- [All Commands](../tools/all_commands): **Help** >
-**Write a Review**
+- Default Menu:Help \>Write a Review
+- [All Commands](../tools/all_commands):Help >
+Write a Review
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WRITE\_REVIEW (4059)
+```
+EEID_WRITE_REVIEW (4059)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4059);
+```
+editor.ExecuteCommandByID(4059);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4059
+```
+editor.ExecuteCommandByID 4059
+```

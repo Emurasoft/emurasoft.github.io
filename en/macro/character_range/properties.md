@@ -2,19 +2,21 @@
 
 Specifies a string representing Unicode Script and/or Unicode General Category properties of the object.
 
-#### \[JavaScript\]
+## 
 
-_s_ =
-item. **Properties**;
+### \[JavaScript\]
 
-item. **Properties** = _s_;
+```
+s = item.Properties;
+item.Properties = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ =
-item. **Properties**
-
-item. **Properties** = _s_
+```
+s = item.Properties
+item.Properties = s
+```
 
 ## Version
 

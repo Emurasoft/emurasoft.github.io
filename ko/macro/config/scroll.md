@@ -2,13 +2,19 @@
 
 [ScrollProp 개체](../scroll_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Scroll**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Scroll;
+```
 
-_obj_ = object. **Scroll**
+### \[VBScript\]
+
+```
+obj = object.Scroll
+```
 
 ## 버전
 

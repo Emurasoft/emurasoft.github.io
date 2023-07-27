@@ -12,16 +12,16 @@ lParam = (LPARAM) (FIND\_REPLACE\_INFO\*) pFindReplaceInfo;
 
 _pBatchInfo_
 
-> 指针指向 [BATCH\_INFO 结构](../structure/batch_info)。此参数可以是 NULL 如果没有指定批次搜索。
+指针指向 [BATCH\_INFO 结构](../structure/batch_info)。此参数可以是 NULL 如果没有指定批次搜索。
 
 _pFindReplaceInfo_
 
-> 指针指向 [FIND\_REPLACE\_INFO 结构](../structure/find_replace_info)。如果 pBatchInfo 不是 NULL，此参数能指定 FIND\_REPLACE\_INFO 结构的数组。
+指针指向 [FIND\_REPLACE\_INFO 结构](../structure/find_replace_info)。如果 pBatchInfo 不是 NULL，此参数能指定 FIND\_REPLACE\_INFO 结构的数组。
 
 ## 返回值
 
-> 如果找到搜索字符串，返回 S\_OK。如果找不到则返回 S\_FALSE。如果发生错误，返回值是负数。如果一个用户取消搜索，负数值包含 E\_ABORT，如果发生严重错误，返回 E\_FAIL。
+如果找到搜索字符串，返回 S\_OK。如果找不到则返回 S\_FALSE。如果发生错误，返回值是负数。如果一个用户取消搜索，负数值包含 E\_ABORT，如果发生严重错误，返回 E\_FAIL。
 
 ## 版本
 
-> 支持 Version 15.7 或之后的版本。
+支持 Version 15.7 或之后的版本。

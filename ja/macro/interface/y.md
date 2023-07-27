@@ -2,13 +2,19 @@
 
 サポートされたプラグインから渡された垂直カーソル位置を返します。
 
-#### \[JavaScript\]
+## 
 
-_y_ = Interface. **y**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+y = Interface.y;
+```
 
-_y_ = Interface. **y**
+### \[VBScript\]
+
+```
+y = Interface.y
+```
 
 ## バージョン
 

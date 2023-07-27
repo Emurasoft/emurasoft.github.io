@@ -2,17 +2,21 @@
 
 檢索或設置標志來表示 EmEditor 是否應添加 Unicode 簽名 (BOM) 當下次保存該文檔時。
 
-#### \[JavaScript\]
+## 
 
-_bUnicodeSignature_ = document. **UnicodeSignature**;
+### \[JavaScript\]
 
-document. **UnicodeSignature** = _bUnicodeSignature_;
+```
+bUnicodeSignature = document.UnicodeSignature;
+document.UnicodeSignature = bUnicodeSignature;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bUnicodeSignature_ = document. **UnicodeSignature**
-
-document. **UnicodeSignature** = _bUnicodeSignature_
+```
+bUnicodeSignature = document.UnicodeSignature
+document.UnicodeSignature = bUnicodeSignature
+```
 
 ## 版本
 

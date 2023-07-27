@@ -2,13 +2,19 @@
 
 지원되는 플러그 인에 의해 전달된 커서의 수평 위치를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_x_ = Interface. **x**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+x = Interface.x;
+```
 
-_x_ = Interface. **x**
+### \[VBScript\]
+
+```
+x = Interface.x
+```
 
 ## 버전
 

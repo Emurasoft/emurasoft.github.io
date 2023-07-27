@@ -2,13 +2,19 @@
 
 [DroppedFiles コレクション](../dropped_files/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = **DroppedFiles**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj =DroppedFiles;
+```
 
-Set _obj_ = **DroppedFiles**
+### \[VBScript\]
+
+```
+Set obj =DroppedFiles
+```
 
 ## バージョン
 

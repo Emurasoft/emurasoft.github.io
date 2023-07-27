@@ -1,21 +1,23 @@
 # SetInitialFolder å±žæ€§ (FileNewProp ¶ÔÏó)
 
-Corresponds to the **Set Initial Folder** check box in the
-[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
+Corresponds to theSet Initial Folder check box in the
+[New File Details dialog box](../../dlg/properties/file/new_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SetInitialFolder**;
+### \[JavaScript\]
 
-object. **SetInitialFolder** = _b_;
+```
+b = object.SetInitialFolder;
+object.SetInitialFolder = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SetInitialFolder**
-
-object. **SetInitialFolder** = _b_
+```
+b = object.SetInitialFolder
+object.SetInitialFolder = b
+```
 
 ## ç‰ˆæœ¬
 

@@ -2,13 +2,19 @@
 
 把一個字串傳遞到一個支持的外掛程式中。
 
-#### \[JavaScript\]
+## 
 
-Interface. **write**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Interface.write( str );
+```
 
-Interface. **write** _str_
+### \[VBScript\]
+
+```
+Interface.write str
+```
 
 ## 參數
 
@@ -18,13 +24,17 @@ _str_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-Interface. **write**( "Hello" );
+```
+Interface.write( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Interface. **write** "Hello"
+```
+Interface.write "Hello"
+```
 
 ## 版本
 

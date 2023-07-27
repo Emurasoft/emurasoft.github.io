@@ -2,13 +2,19 @@
 
 把游標移到文檔末尾。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **EndOfDocument**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.EndOfDocument( [ bExtend ] );
+```
 
-document.selection. **EndOfDocument** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.EndOfDocument [ bExtend ]
+```
 
 ## 參數
 

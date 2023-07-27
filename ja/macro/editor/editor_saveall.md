@@ -2,13 +2,19 @@
 
 すべての EmEditor で開かれているファイルを保存します。
 
-#### \[JavaScript\]
+## 
 
-editor. **SaveAll**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.SaveAll();
+```
 
-editor. **SaveAll**
+### \[VBScript\]
+
+```
+editor.SaveAll
+```
 
 ## バージョン
 

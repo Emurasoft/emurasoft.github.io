@@ -1,21 +1,23 @@
 # NameUntitled 속성 (FileSaveProp ��ü)
 
-[**세부 정보 저장** 대화 상자](../../dlg/properties/file/save_details/index) 의
-**제목없음 문서 자동 이름 지정** 체크 박스에 해당합니다.
+[세부 정보 저장 대화 상자](../../dlg/properties/file/save_details/index) 의
+제목없음 문서 자동 이름 지정 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **NameUntitled**;
+### \[JavaScript\]
 
-object. **NameUntitled** = _b_;
+```
+b = object.NameUntitled;
+object.NameUntitled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **NameUntitled**
-
-object. **NameUntitled** = _b_
+```
+b = object.NameUntitled
+object.NameUntitled = b
+```
 
 ## 버전
 

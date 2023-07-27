@@ -2,13 +2,19 @@
 
 해당하는 대괄호/중괄호로 커서를 이동합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **GoToBrace**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.GoToBrace( [ bExtend ] );
+```
 
-document.selection. **GoToBrace** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.GoToBrace [ bExtend ]
+```
 
 ## 매개 변수
 

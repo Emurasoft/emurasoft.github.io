@@ -1,14 +1,14 @@
 # \[HTML/XML文字参照をUnicodeに変換\] コマンド
 
-### 概要
+## 概要
 
-> 選択テキストをHTML/XML文字参照からUnicodeに変換します。
+選択テキストをHTML/XML文字参照からUnicodeに変換します。
 
-### 説明
+## 説明
 
-> 選択テキストをHTML/XML文字参照からUnicodeに変換します。
+選択テキストをHTML/XML文字参照からUnicodeに変換します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[変換\] \- \[選択範囲のエンコード/デコード\] \- \[HTML/XML文字参照をUnicodeに変換\]
 - [すべてのコマンド](../../glossary/allcommands): \[変換\] \- \[選択範囲のエンコード/デコード\] \- \[HTML/XML文字参照をUnicodeに変換\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DECODE\_HTML\_CHAR\_REF (4526)
+```
+EEID_DECODE_HTML_CHAR_REF (4526)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4526);
+```
+editor.ExecuteCommandByID(4526);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4526
+```
+editor.ExecuteCommandByID 4526
+```

@@ -2,17 +2,21 @@
 
 正規表現が CR と LF を区別するかどうかを設定または取得します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = reg. **SeparateCrLf**;
+### \[JavaScript\]
 
-reg. **SeparateCrLf** = _b_;
+```
+b = reg.SeparateCrLf;
+reg.SeparateCrLf = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = reg. **SeparateCrLf**;
-
-reg. **SeparateCrLf** = _b_;
+```
+b = reg.SeparateCrLf;
+reg.SeparateCrLf = b;
+```
 
 ## バージョン
 

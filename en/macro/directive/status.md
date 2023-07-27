@@ -8,19 +8,27 @@ Specifies the status (whether the macro is enabled and whether it is checked) of
 
 _id_
 
-> Specifies the integer value of the command ID that is used to query the status. This value is equivalent to the _nID_ parameter of the [**QueryStatusByID** method](../editor/editor_querystatusbyid).
+Specifies the integer value of the command ID that is used to query the status. This value is equivalent to the _nID_ parameter of the [QueryStatusByID method](../editor/editor_querystatusbyid).
 
 ## Examples
 
 This macro mimics the Auto Copy command (ID = 3979). The macro menu and toolbar button is checked when the Auto Copy feature is on. The macro menu and toolbar button is not checked when the Auto Copy feature is off.
 
-#### \[JavaScript\]
+### \[JavaScript\]
+
+```
+```
 
 #status = 3979
 
 editor.ExecuteCommandByID(3979);   // 3979 = EEID\_AUTO\_COPY
 
-#### \[VBScript\]
+## 
+
+### \[VBScript\]
+
+```
+```
 
 #status = 3979
 

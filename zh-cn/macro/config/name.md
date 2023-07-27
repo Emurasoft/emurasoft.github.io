@@ -2,13 +2,19 @@
 
 为当前配置对象检索名称。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Name**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+s = object.Name;
+```
 
-_s_ = object. **Name**
+### \[VBScript\]
+
+```
+s = object.Name
+```
 
 ## 版本
 

@@ -2,13 +2,19 @@
 
 Returns the horizontal position of the cursor passed by a supported plug-in.
 
-#### \[JavaScript\]
+## 
 
-_x_ = Interface. **x**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+x = Interface.x;
+```
 
-_x_ = Interface. **x**
+### \[VBScript\]
+
+```
+x = Interface.x
+```
 
 ## Version
 

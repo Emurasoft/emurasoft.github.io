@@ -10,8 +10,8 @@ Editor\_EmptyUndoBuffer( HWND hwnd );
 
 _hwnd_
 
-> 보기의 창 핸들 또는 EmEditor의 프레임을 지정합니다.
+보기의 창 핸들 또는 EmEditor의 프레임을 지정합니다.
 
 ## 반환 값
 
-> 반환 값이 사용되지 않습니다.
+반환 값이 사용되지 않습니다.

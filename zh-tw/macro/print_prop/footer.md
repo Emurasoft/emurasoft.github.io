@@ -1,18 +1,22 @@
 # Footer 屬性 (PrintProp ��H)
 
-與組態屬性中 [**列印** 頁面](../../dlg/properties/print/index) 上的 **頁腳** 文字方塊相對應。
+與組態屬性中 [列印 頁面](../../dlg/properties/print/index) 上的頁腳 文字方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Footer**;
+### \[JavaScript\]
 
-object. **Footer** = _s_;
+```
+s = object.Footer;
+object.Footer = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Footer**
-
-object. **Footer** = _s_
+```
+s = object.Footer
+object.Footer = s
+```
 
 ## 版本
 

@@ -1,20 +1,22 @@
 # MoveCursorScroll 屬性 (ScrollProp ��H)
 
-與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **通過捲動位置移動游標** 核取方塊相對應。
+與組態屬性中 [捲動 頁面](../../dlg/properties/scroll/index) 上的通過捲動位置移動游標 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **MoveCursorScroll**;
+### \[JavaScript\]
 
-object. **MoveCursorScroll** = _b_;
+```
+b = object.MoveCursorScroll;
+object.MoveCursorScroll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **MoveCursorScroll**
-
-object. **MoveCursorScroll** = _b_
+```
+b = object.MoveCursorScroll
+object.MoveCursorScroll = b
+```
 
 ## 版本
 

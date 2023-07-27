@@ -8,49 +8,64 @@ Specifies the scripting language to use. By specifying this, ActiveScript langua
 
 _ScriptName_
 
-> Specifies the scripting language by its ProgID. The script engine must be installed before the script can be used.
+Specifies the scripting language by its ProgID. The script engine must be installed before the script can be used.
 
 ## Examples
 
 Inserts "Hello!" at the cursor position by using various script languages.
 
-#### \[JavaScript (JScript)\]
+### \[JavaScript (JScript)\]
 
 #language = "JScript"
 
 document.write( "Hello!" );
 
-#### \[JavaScript (V8)\]
+## 
+
+### \[JavaScript (V8)\]
 
 #language = "V8"
 
 document.write( "Hello!" );
 
-#### \[PerlScript\]
+## 
+
+### \[PerlScript\]
 
 #language = "PerlScript"
 
 $Window->document->write( 'Hello!' );
 
-#### \[PHPScript\]
+## 
+
+### \[PHPScript\]
 
 #language = "PHPScript"
 
 $Window->document->write( "Hello!" );
 
-#### \[Python\]
+## 
+
+### \[Python\]
 
 #language = "Python"
 
 Window.document.write( 'Hello' );
 
-#### \[RubyScript\]
+## 
+
+### \[RubyScript\]
 
 #language = "RubyScript"
 
 Window.document.write( "Hello!" );
 
-#### \[VBScript\]
+## 
+
+### \[VBScript\]
+
+```
+```
 
 #language = "VBScript"
 

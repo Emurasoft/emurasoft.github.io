@@ -13,17 +13,21 @@
 | eeFuzzyIgnoreVS | 異字体セレクタは無視されます。 |
 | eeFuzzyIgnoreWidth | 半角文字と全角文字の違いは無視されます。 |
 
-#### \[JavaScript\]
+## 
 
-_n_ = obj. **Flags**;
+### \[JavaScript\]
 
-obj. **Flags** = _n_;
+```
+n = obj.Flags;
+obj.Flags = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = obj. **Flags**;
-
-obj. **Flags** = _n_;
+```
+n = obj.Flags;
+obj.Flags = n;
+```
 
 ## バージョン
 

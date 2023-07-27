@@ -13,18 +13,18 @@ lParam = (LPARAM) (RUN\_MACRO\_INFO\*) pRMI;
 
 _pRMI_
 
-> Pointer to the [RUN\_MACRO\_INFO](../structure/run_macro_info) 結構。
+Pointer to the [RUN\_MACRO\_INFO](../structure/run_macro_info) 結構。
 
 ## 返回值
 
-> 返回值是下列值之一。
->
-> |     |     |
-> | --- | --- |
-> | S\_OK | 成功。 |
-> | S\_FALSE | 存在一個巨集錯誤，如語法錯誤。 |
-> | S\_EDIT\_TEMP | 存在一個巨集錯誤，但無法打開源代碼來編輯因為源代碼不是一個文本檔案。調用方應當用被按照 ptErrorPos 參數提供的信息設置的光標位置來打開源檔案。 |
-> | E\_FAIL | 存在一個嚴重錯誤。 |
+返回值是下列值之一。
+
+|     |     |
+| --- | --- |
+| S\_OK | 成功。 |
+| S\_FALSE | 存在一個巨集錯誤，如語法錯誤。 |
+| S\_EDIT\_TEMP | 存在一個巨集錯誤，但無法打開源代碼來編輯因為源代碼不是一個文本檔案。調用方應當用被按照 ptErrorPos 參數提供的信息設置的光標位置來打開源檔案。 |
+| E\_FAIL | 存在一個嚴重錯誤。 |
 
 ## 支持版本
 

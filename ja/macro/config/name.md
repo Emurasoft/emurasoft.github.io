@@ -2,13 +2,19 @@
 
 現在の設定のオブジェクトの名前を取得します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Name**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+s = object.Name;
+```
 
-_s_ = object. **Name**
+### \[VBScript\]
+
+```
+s = object.Name
+```
 
 ## バージョン
 

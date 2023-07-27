@@ -2,13 +2,19 @@
 
 指定する ID に対するテキストを取得します。
 
-#### \[JavaScript\]
+## 
 
-_strText_ = popupmenu. **GetText**( _id_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strText = popupmenu.GetText( id );
+```
 
-_strText_ = popupmenu. **GetText**( _id_ )
+### \[VBScript\]
+
+```
+strText = popupmenu.GetText( id )
+```
 
 ## パラメータ
 

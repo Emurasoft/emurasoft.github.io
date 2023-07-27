@@ -1,14 +1,14 @@
 # \[IPv4アドレス降順に並べ替え\] コマンド
 
-### 概要
+## 概要
 
-> 現在の列のIPv4アドレスを降順で並べ替えます。
+現在の列のIPv4アドレスを降順で並べ替えます。
 
-### 説明
+## 説明
 
-> 現在の列のIPv4アドレスを降順で並べ替えます。
+現在の列のIPv4アドレスを降順で並べ替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[並べ替え\] \- \[IPv4アドレス降順に並べ替え\]
 - [すべてのコマンド](../../glossary/allcommands): \[並べ替え\] \- \[IPv4アドレス降順に並べ替え\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SORT\_IPV4\_D (4035)
+```
+EEID_SORT_IPV4_D (4035)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4035);
+```
+editor.ExecuteCommandByID(4035);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4035
+```
+editor.ExecuteCommandByID 4035
+```

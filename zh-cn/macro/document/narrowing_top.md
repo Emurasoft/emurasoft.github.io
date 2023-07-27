@@ -2,17 +2,21 @@
 
 检索或设置仅编辑区域的顶部 ( y 轴)。-1 代表没有设置仅编辑选区。
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **NarrowingTop;**
+### \[JavaScript\]
 
-document. **NarrowingTop** = _n_;
+```
+n = document.NarrowingTop;
+document.NarrowingTop = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = document. **NarrowingTop**
-
-document. **NarrowingTop** = _n_
+```
+n = document.NarrowingTop
+document.NarrowingTop = n
+```
 
 ## 版本
 

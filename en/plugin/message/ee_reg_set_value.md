@@ -13,13 +13,13 @@ wParam = 0;
 
 _pRegSetValueInfo_
 
-> Pointer to the [REG\_SET\_VALUE\_INFO structure](../structure/reg_set_value_info).
+Pointer to the [REG\_SET\_VALUE\_INFO structure](../structure/reg_set_value_info).
 
 ## Return Values
 
-> If the message succeeds, the return value is ERROR\_SUCCESS.
->
-> If the message fails, the return value is a nonzero error code defined in Winerror.h.
+If the message succeeds, the return value is ERROR\_SUCCESS.
+
+If the message fails, the return value is a nonzero error code defined in Winerror.h.
 
 ## Version
 

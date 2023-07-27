@@ -1,37 +1,42 @@
 # Display in Cyrillic font command
 
-### Summary
+## Summary
 
-> Displays text in a Cyrillic font.
+Displays text in a Cyrillic font.
 
-### Description
+## Description
 
-> Selects the Cyrillic font from the font category. The fonts in each font
-> category can be set on the [**Customize Font** dialog box](../../dlg/properties/font/index).
-> Changing the font category will not change the encoding to use to open a
-> file. If you want to change the encoding and reload the file, select the
-> [**Reload with Encoding** (multiple menu) command](../file/file_reload_defined).
+Selects the Cyrillic font from the font category. The fonts in each font
+category can be set on the [Customize Font dialog box](../../dlg/properties/font/index).
+Changing the font category will not change the encoding to use to open a
+file. If you want to change the encoding and reload the file, select the
+[Reload with Encoding (multiple menu) command](../file/file_reload_defined).
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Font Category** > **Cyrillic**
-- [All Commands](../tools/all_commands): **View** \> **Font** >
-**Font Category** > **Cyrillic**
+- Default Menu:View \>Font Category >Cyrillic
+- [All Commands](../tools/all_commands):View \>Font >
+Font Category >Cyrillic
 - Toolbar: ![](../../images/fontpopup.gif)
-(on the arrow) > **Font Category** \> **Cyrillic**
+(on the arrow) >Font Category \>Cyrillic
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CHARSET\_CYRILLIC (8710)
+```
+EEID_CHARSET_CYRILLIC (8710)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8710);
+```
+editor.ExecuteCommandByID(8710);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8710
+```
+editor.ExecuteCommandByID 8710
+```

@@ -1,31 +1,36 @@
 # 忽略換行符命令
 
-### 摘要
+## 摘要
 
-> 比較文檔時忽略換行符。
+比較文檔時忽略換行符。
 
-### 說明
+## 說明
 
-> 比較文檔時忽略換行符。
+比較文檔時忽略換行符。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **比較** \> **忽略換行符**
-- [全部命令](../tools/all_commands): **比較** \> **忽略換行符**
+- 預設功能表:比較 \>忽略換行符
+- [全部命令](../tools/all_commands):比較 \>忽略換行符
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_IGNORE\_RETURNS (4502)
+```
+EEID_IGNORE_RETURNS (4502)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4502);
+```
+editor.ExecuteCommandByID(4502);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4502
+```
+editor.ExecuteCommandByID 4502
+```

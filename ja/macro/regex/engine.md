@@ -10,17 +10,21 @@
 | eeExFindRegexBoost | Boost.Regex を正規表現エンジンとして使用します。 |
 | eeExFindRegexOnigmo | Onigmo を正規表現エンジンとして使用します。 |
 
-#### \[JavaScript\]
+## 
 
-_n_ = reg. **Engine**;
+### \[JavaScript\]
 
-reg. **Engine** = _n_;
+```
+n = reg.Engine;
+reg.Engine = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = reg. **Engine**;
-
-reg. **Engine** = _n_;
+```
+n = reg.Engine;
+reg.Engine = n;
+```
 
 ## バージョン
 

@@ -2,13 +2,19 @@
 
 行と行の間に改行コードを挿入して空けます。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **LineOpen**( \[ _bAbove_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.LineOpen( [ bAbove ] );
+```
 
-document.selection. **LineOpen** \[ _bAbove_ \]
+### \[VBScript\]
+
+```
+document.selection.LineOpen [ bAbove ]
+```
 
 ## 引数
 

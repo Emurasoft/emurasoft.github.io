@@ -2,13 +2,19 @@
 
 コレクションのすべてのアイテムを削除します。
 
-#### \[JavaScript\]
+## 
 
-list. **Clear**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Clear;
+```
 
-list. **Clear**
+### \[VBScript\]
+
+```
+list.Clear
+```
 
 ## バージョン
 

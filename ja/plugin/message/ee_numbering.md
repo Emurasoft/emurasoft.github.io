@@ -13,12 +13,12 @@ lParam = 0;
 
 _pUNI_
 
-> [NUMBERING\_INFO 構造体](../structure/numbering_info) へのポインタを指定します。
+[NUMBERING\_INFO 構造体](../structure/numbering_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると 0 を返します。
+成功すると 0 を返します。
 
 ## バージョン
 
-> Version 19.1 以上で利用できます。
+Version 19.1 以上で利用できます。

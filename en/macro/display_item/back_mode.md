@@ -2,17 +2,21 @@
 
 Specifies the background color mode.
 
-#### \[JavaScript\]
+## 
 
-_nMode_ = item. **BackMode**;
+### \[JavaScript\]
 
-item. **BackMode** = _nMode_;
+```
+nMode = item.BackMode;
+item.BackMode = nMode;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nMode_ = item. **BackMode**
-
-item. **BackMode** = _nMode_
+```
+nMode = item.BackMode
+item.BackMode = nMode
+```
 
 ## Notes
 

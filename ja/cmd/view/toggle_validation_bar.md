@@ -1,14 +1,14 @@
 # \[構文チェック バー\] コマンド
 
-### 概要
+## 概要
 
-> 構文チェック バーの表示/非表示を切り替えます。
+構文チェック バーの表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> 構文チェック バーの表示/非表示を切り替えます。
+構文チェック バーの表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[構文チェック バー\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[構文チェック バー\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_TOGGLE\_VALIDATION\_BAR (4038)
+```
+EEID_TOGGLE_VALIDATION_BAR (4038)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4038);
+```
+editor.ExecuteCommandByID(4038);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4038
+```
+editor.ExecuteCommandByID 4038
+```

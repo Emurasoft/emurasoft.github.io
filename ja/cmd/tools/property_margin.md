@@ -1,15 +1,15 @@
 # \[基本のプロパティ\] コマンド
 
-### 概要
+## 概要
 
-> 現在の設定の基本のプロパティを変更します。
+現在の設定の基本のプロパティを変更します。
 
-### 説明
+## 説明
 
-> このコマンドを実行すると、現在選択されている設定のプロパティの
-> [\[基本\] ページ](../../dlg/properties/general/index) を表示します。
+このコマンドを実行すると、現在選択されている設定のプロパティの
+[\[基本\] ページ](../../dlg/properties/general/index) を表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[現在の設定のプロパティ\] \- \[基本\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_PROPERTY\_MARGIN (8960)
+```
+EEID_PROPERTY_MARGIN (8960)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8960);
+```
+editor.ExecuteCommandByID(8960);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8960
+```
+editor.ExecuteCommandByID 8960
+```

@@ -1,20 +1,22 @@
 # NameUntitled 属性 (FileSaveProp ����)
 
-与 [**保存详细信息** 对话框](../../dlg/properties/file/save_details/index) 中的 **自动为无标题文档命名** 复选框相对应。
+与 [保存详细信息 对话框](../../dlg/properties/file/save_details/index) 中的自动为无标题文档命名 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **NameUntitled**;
+### \[JavaScript\]
 
-object. **NameUntitled** = _b_;
+```
+b = object.NameUntitled;
+object.NameUntitled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **NameUntitled**
-
-object. **NameUntitled** = _b_
+```
+b = object.NameUntitled
+object.NameUntitled = b
+```
 
 ## 版本
 

@@ -2,13 +2,19 @@
 
 清除输出栏的内容。
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **Clear**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.Clear();
+```
 
-OutputBar. **Clear**
+### \[VBScript\]
+
+```
+OutputBar.Clear
+```
 
 ## 版本
 

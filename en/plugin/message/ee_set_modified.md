@@ -13,9 +13,9 @@ lParam = 0;
 
 _bModified_
 
-> TRUE to change the state as modified, or FALSE to change the state as
-> unmodified.
+TRUE to change the state as modified, or FALSE to change the state as
+unmodified.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

@@ -2,13 +2,19 @@
 
 [ScrollProp オブジェクト](../scroll_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Scroll**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Scroll;
+```
 
-Set _obj_ = object. **Scroll**
+### \[VBScript\]
+
+```
+Set obj = object.Scroll
+```
 
 ## バージョン
 

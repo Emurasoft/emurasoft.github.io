@@ -1,18 +1,22 @@
 # Heading Property (Csv Object)
 
-Corresponds to the **Lines of headings** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to theLines of headings text box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Heading**;
+### \[JavaScript\]
 
-object. **Heading** = _n_;
+```
+n = object.Heading;
+object.Heading = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Heading**
-
-object. **Heading** = _n_
+```
+n = object.Heading
+object.Heading = n
+```
 
 ## Version
 

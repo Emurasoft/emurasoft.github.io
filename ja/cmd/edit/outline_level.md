@@ -1,14 +1,14 @@
 # \[レベル2-16\] コマンド
 
-### 概要
+## 概要
 
-> アウトライン表示時、文書全体を縮小または展開してレベル 2 - 16 まで表示します。
+アウトライン表示時、文書全体を縮小または展開してレベル 2 - 16 まで表示します。
 
-### 説明
+## 説明
 
-> アウトライン表示時、文書全体を縮小または展開してレベル 2 - 16 まで表示します。アウトラインを表示するには、アウトライン用のプラグインを実行する必要があります。
+アウトライン表示時、文書全体を縮小または展開してレベル 2 - 16 まで表示します。アウトラインを表示するには、アウトライン用のプラグインを実行する必要があります。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[アウトライン\] \- \[レベル2 - 5\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[アウトライン\] \- \[レベル\]
@@ -17,24 +17,25 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_OUTLINE\_LEVEL\_2 (8832) - ID\_OUTLINE\_LEVEL\_16 (8846)
+```
+EEID_OUTLINE_LEVEL_2 (8832) - ID_OUTLINE_LEVEL_16 (8846)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(8832);
->
-> \-
->
-> editor.ExecuteCommandByID(8846);
+```
+editor.ExecuteCommandByID(8832);
+\-
+editor.ExecuteCommandByID(8846);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 8832
->
-> \-
->
-> editor.ExecuteCommandByID 8846
+```
+editor.ExecuteCommandByID 8832
+\-
+editor.ExecuteCommandByID 8846
+```

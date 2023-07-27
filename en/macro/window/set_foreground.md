@@ -2,13 +2,19 @@
 
 Brings the window to foreground.
 
-#### \[JavaScript\]
+## 
 
-wnd. **SetForeground**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd.SetForeground();
+```
 
-wnd. **SetForeground**
+### \[VBScript\]
+
+```
+wnd.SetForeground
+```
 
 ## Version
 

@@ -1,31 +1,36 @@
 # Indent Guides command
 
-### Summary
+## Summary
 
-> Shows or hides indent guides.
+Shows or hides indent guides.
 
-### Description
+## Description
 
-> Shows or hides indent guides.
+Shows or hides indent guides.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Marks** \> **Indent Guides**
-- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Indent Guides**
+- Default Menu:View \>Marks \>Indent Guides
+- [All Commands](../tools/all_commands):View \>Marks \>Indent Guides
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_VIEW\_INDENT\_GUIDES (4539)
+```
+EEID_VIEW_INDENT_GUIDES (4539)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4539);
+```
+editor.ExecuteCommandByID(4539);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4539
+```
+editor.ExecuteCommandByID 4539
+```

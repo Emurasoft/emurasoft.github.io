@@ -2,13 +2,19 @@
 
 在以毫秒为单位的指定时间内暂停执行宏。
 
-#### \[JavaScript\]
+## 
 
-**Sleep**( _nMilliseconds_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Sleep( nMilliseconds);
+```
 
-**Sleep** _nMilliseconds_
+### \[VBScript\]
+
+```
+Sleep nMilliseconds
+```
 
 ## 参数
 

@@ -1,32 +1,37 @@
 # Extract All Lines (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Extracts all filtered lines into a new document.
+Extracts all filtered lines into a new document.
 
-### Description
+## Description
 
-> Extracts all filtered lines into a new document.
+Extracts all filtered lines into a new document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Extract All Lines**
-- Toolbar: ![](../../images/extract_all.png) (Filter toolbar) > **Extract All Lines**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Extract All Lines
+- Toolbar: ![](../../images/extract_all.png) (Filter toolbar) >Extract All Lines
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_EXTRACT (3928)
+```
+EEID_FILTERBAR_EXTRACT (3928)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3928);
+```
+editor.ExecuteCommandByID(3928);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3928
+```
+editor.ExecuteCommandByID 3928
+```

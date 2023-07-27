@@ -1,20 +1,22 @@
 # AllowControlCharacter 속성 (GeneralProp ��ü)
 
-구성 속성 [**일반** 탭](../../dlg/properties/general/index) 의 **컨트롤 문자 삽입 허용** 체크 박스에 해당합니다.
+구성 속성 [일반 탭](../../dlg/properties/general/index) 의컨트롤 문자 삽입 허용 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **AllowControlCharacter**;
+### \[JavaScript\]
 
-object. **AllowControlCharacter** = _b_;
+```
+b = object.AllowControlCharacter;
+object.AllowControlCharacter = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **AllowControlCharacter**
-
-object. **AllowControlCharacter** = _b_
+```
+b = object.AllowControlCharacter
+object.AllowControlCharacter = b
+```
 
 ## 버전
 

@@ -2,13 +2,19 @@
 
 마지막 동작을 실행 취소합니다.
 
-#### \[JavaScript\]
+## 
 
-document. **Undo**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Undo();
+```
 
-document. **Undo**
+### \[VBScript\]
+
+```
+document.Undo
+```
 
 ## 버전
 

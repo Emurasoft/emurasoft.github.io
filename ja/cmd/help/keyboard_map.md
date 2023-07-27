@@ -1,14 +1,14 @@
 # \[キーボード マップ\] コマンド
 
-### 概要
+## 概要
 
-> キーボード コマンド一覧を表示します。
+キーボード コマンド一覧を表示します。
 
-### 説明
+## 説明
 
-> キーボード コマンド一覧を表示します。
+キーボード コマンド一覧を表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ヘルプ\] \- \[キーボード マップ\]
 - [すべてのコマンド](../../glossary/allcommands): \[ヘルプ\] \- \[キーボード マップ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_KEYBOARD\_MAP (4298)
+```
+EEID_KEYBOARD_MAP (4298)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4298);
+```
+editor.ExecuteCommandByID(4298);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4298
+```
+editor.ExecuteCommandByID 4298
+```

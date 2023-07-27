@@ -1,21 +1,23 @@
 # NameUntitled Property (FileSaveProp Object)
 
-Corresponds to the **Automatically Name Untitled Document** check box in the
-[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to theAutomatically Name Untitled Document check box in the
+[Save Details dialog box](../../dlg/properties/file/save_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **NameUntitled**;
+### \[JavaScript\]
 
-object. **NameUntitled** = _b_;
+```
+b = object.NameUntitled;
+object.NameUntitled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **NameUntitled**
-
-object. **NameUntitled** = _b_
+```
+b = object.NameUntitled
+object.NameUntitled = b
+```
 
 ## Version
 

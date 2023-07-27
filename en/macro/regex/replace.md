@@ -1,14 +1,20 @@
 # Replace Method (Regex Object)
 
-Searches the specified string for the regular expression and replace with the specified string. If the **Global** property is set, this method replaces all possible matches in the string.
+Searches the specified string for the regular expression and replace with the specified string. If theGlobal property is set, this method replaces all possible matches in the string.
 
-#### \[JavaScript\]
+## 
 
-_strResult_ = reg. **Replace**( _strText_, _strReplace_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strResult = reg.Replace( strText, strReplace );
+```
 
-_strResult_ = reg. **Replace**( _strText_, _strReplace_ )
+### \[VBScript\]
+
+```
+strResult = reg.Replace( strText, strReplace )
+```
 
 ## Parameters
 
@@ -26,49 +32,35 @@ Returns the new string.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 re = editor.regex;
-
 re.Engine = eeExFindRegexOnigmo;
-
-re.Pattern = "(\[A-Z0-9.\_%+-\]+)@(\[A-Z0-9.-\]+\\\.\[A-Z\]{2,})";
-
+re.Pattern = "([A-Z0-9.\%+-]+)@([A-Z0-9.-]+\\\.[A-Z]{2,})";
 re.IgnoreCase = true;
-
 re.OnlyWord = false;
-
 strOrg = "The email address is john@test.com."
-
 strNew = re.Replace( strOrg, "\\\1 at \\\2" );
-
 if( strOrg != strNew ) {
-
 alert( strNew );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set re = editor.regex
-
 re.Engine = eeExFindRegexOnigmo
-
-re.Pattern = "(\[A-Z0-9.\_%+-\]+)@(\[A-Z0-9.-\]+\\.\[A-Z\]{2,})"
-
+re.Pattern = "([A-Z0-9.\%+-]+)@([A-Z0-9.-]+\\.[A-Z]{2,})"
 re.IgnoreCase = True
-
 re.OnlyWord = False
-
 strOrg = "The email address is john@test.com."
-
 strNew = re.Replace( strOrg, "\\1 at \\2" )
-
 If strOrg <> strNew Then
-
 alert( strNew )
-
 End If
+```
 
 ## Version
 

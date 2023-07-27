@@ -1,14 +1,20 @@
 # Redo Method (Document Object)
 
-Redo the last action undone with the [**Undo** command](../../cmd/edit/edit_undo).
+Redo the last action undone with the [Undo command](../../cmd/edit/edit_undo).
 
-#### \[JavaScript\]
+## 
 
-document. **Redo**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Redo();
+```
 
-document. **Redo**
+### \[VBScript\]
+
+```
+document.Redo
+```
 
 ## Version
 

@@ -1,14 +1,14 @@
 # \[左の端にスクロール\] コマンド
 
-### 概要
+## 概要
 
-> 左の端にスクロールします。
+左の端にスクロールします。
 
-### 説明
+## 説明
 
-> 左の端にスクロールします。
+左の端にスクロールします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[スクロール\] \- \[左の端\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SCROLL\_LEFT\_EDGE (3870)
+```
+EEID_SCROLL_LEFT_EDGE (3870)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3870);
+```
+editor.ExecuteCommandByID(3870);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3870
+```
+editor.ExecuteCommandByID 3870
+```

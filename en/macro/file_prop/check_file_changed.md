@@ -1,20 +1,24 @@
 # CheckFileChanged Property (FileProp Object)
 
-Corresponds to the **Changed**
-**by Another Program drop-down** list box in the
-[**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theChanged
+by Another Program drop-down list box in the
+[File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **CheckFileChanged**;
+### \[JavaScript\]
 
-object. **CheckFileChanged** = _n_;
+```
+n = object.CheckFileChanged;
+object.CheckFileChanged = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **CheckFileChanged**
-
-object. **CheckFileChanged** = _n_
+```
+n = object.CheckFileChanged
+object.CheckFileChanged = n
+```
 
 ## Version
 

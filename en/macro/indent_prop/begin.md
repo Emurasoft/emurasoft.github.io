@@ -1,18 +1,22 @@
 # Begin Property (IndentProp Object)
 
-Corresponds to the **Begin Indent** text box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
+Corresponds to theBegin Indent text box in the [Tab/Index dialog box](../../dlg/properties/general/indent/index).
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Begin**;
+### \[JavaScript\]
 
-object. **Begin** = _s_;
+```
+s = object.Begin;
+object.Begin = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Begin**
-
-object. **Begin** = _s_
+```
+s = object.Begin
+object.Begin = s
+```
 
 ## Version
 

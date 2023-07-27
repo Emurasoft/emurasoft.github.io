@@ -21,6 +21,10 @@ div#top_nav nav p#toggle_sidebar a {
     color: #333333;
 }
 
+div#top_nav nav div.searchbox_wrapper div#searchbox p.highlight-link a:hover {
+    color: #333333;
+}
+
 .languageDropdown {
     position: relative;
 }
@@ -46,6 +50,7 @@ div#top_nav nav p#toggle_sidebar a {
 div#searchbox form.search input[type="text"] {
     background-color: #ffffff;
     color: #333333;
+    border: 1px solid #eaeaea;
 }
 
 div.document form input[type="submit"] {

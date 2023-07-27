@@ -1,31 +1,36 @@
 # Scroll Left command
 
-### Summary
+## Summary
 
-> Scrolls the document left by one character.
+Scrolls the document left by one character.
 
-### Description
+## Description
 
-> Scrolls the document left by one character.
+Scrolls the document left by one character.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Left**
+- [All Commands](../tools/all_commands):Window \>Scroll \>Left
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_SCROLL\_LEFT (4474)
+```
+EEID_WINDOW_SCROLL_LEFT (4474)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4474);
+```
+editor.ExecuteCommandByID(4474);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4474
+```
+editor.ExecuteCommandByID 4474
+```

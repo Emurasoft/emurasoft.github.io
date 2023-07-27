@@ -1,31 +1,36 @@
 # Insert/Overwrite command
 
-### Summary
+## Summary
 
-> Toggles insert/overwrite mode.
+Toggles insert/overwrite mode.
 
-### Description
+## Description
 
-> Toggles insert/overwrite mode. EmEditor usually starts with the insert mode. When EmEditor is in insert mode, the cursor is a vertical bar, and inserting a character will not delete any existing characters. When EmEditor is in overwrite mode, the cursor becomes a solid rectangle, and inserting a character will overwrite existing characters at the cursor position.
+Toggles insert/overwrite mode. EmEditor usually starts with the insert mode. When EmEditor is in insert mode, the cursor is a vertical bar, and inserting a character will not delete any existing characters. When EmEditor is in overwrite mode, the cursor becomes a solid rectangle, and inserting a character will overwrite existing characters at the cursor position.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Insert** \> **Toggle Insert/Overwrite**
+- [All Commands](../tools/all_commands):Insert \>Toggle Insert/Overwrite
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: Insert
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT (4142)
+```
+EEID_INSERT (4142)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.OverwriteMode = !document.selection.OverwriteMode;
+```
+document.selection.OverwriteMode = !document.selection.OverwriteMode;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.OverwriteMode = NOT document.selection.OverwriteMode
+```
+document.selection.OverwriteMode = NOT document.selection.OverwriteMode
+```

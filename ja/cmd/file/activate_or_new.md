@@ -1,14 +1,14 @@
 # \[アクティブにするか新規作成\] コマンド
 
-### 概要
+## 概要
 
-> EmEditorをアクティブにするか、または新規にファイルを作成します。(トレイ アイコンのみで利用可能です)
+EmEditorをアクティブにするか、または新規にファイルを作成します。(トレイ アイコンのみで利用可能です)
 
-### 説明
+## 説明
 
-> EmEditorをアクティブにするか、または新規にファイルを作成します。(トレイ アイコンのみで利用可能です)
+EmEditorをアクティブにするか、または新規にファイルを作成します。(トレイ アイコンのみで利用可能です)
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[閉じる\] \- \[ワークスペースを保存してすべて閉じる\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SAVE\_WORKSPACE\_QUIT\_ALL（4332）
+```
+EEID_SAVE_WORKSPACE_QUIT_ALL（4332）```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4332);
+```
+editor.ExecuteCommandByID(4332);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4332
+```
+editor.ExecuteCommandByID 4332
+```

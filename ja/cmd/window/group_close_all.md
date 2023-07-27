@@ -1,14 +1,14 @@
 # \[グループを閉じる\] コマンド
 
-### 概要
+## 概要
 
-> 現在のグループのすべての文書を閉じます。
+現在のグループのすべての文書を閉じます。
 
-### 説明
+## 説明
 
-> 現在のグループのすべての文書を閉じます。
+現在のグループのすべての文書を閉じます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[グループ\] \- \[グループを閉じる\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_GROUP\_CLOSE\_ALL (4387)
+```
+EEID_GROUP_CLOSE_ALL (4387)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4387);
+```
+editor.ExecuteCommandByID(4387);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4387
+```
+editor.ExecuteCommandByID 4387
+```

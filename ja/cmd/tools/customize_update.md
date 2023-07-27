@@ -1,14 +1,14 @@
 # \[更新のカスタマイズ\] コマンド
 
-### 概要
+## 概要
 
-> \[カスタマイズ\] ダイアログ ボックスの \[更新\] ページを開きます。
+\[カスタマイズ\] ダイアログ ボックスの \[更新\] ページを開きます。
 
-### 説明
+## 説明
 
-> [\[カスタマイズ\] ダイアログ ボックス](../../dlg/customize/index) の [\[更新\] ページ](../../dlg/customize/update/index) を表示して、アプリケーション共通の設定をできるようにします。
+[\[カスタマイズ\] ダイアログ ボックス](../../dlg/customize/index) の [\[更新\] ページ](../../dlg/customize/update/index) を表示して、アプリケーション共通の設定をできるようにします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[カスタマイズ\] \- \[更新\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CUSTOMIZE\_UPDATE (9064)
+```
+EEID_CUSTOMIZE_UPDATE (9064)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9064);
+```
+editor.ExecuteCommandByID(9064);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9064
+```
+editor.ExecuteCommandByID 9064
+```

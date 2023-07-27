@@ -2,13 +2,19 @@
 
 Returns the column number of the origin point of the selection.
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetAnchorPointX**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetAnchorPointX( nFlags );
+```
 
-xPos = document.selection. **GetAnchorPointX**( _nFlags_ )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetAnchorPointX( nFlags )
+```
 
 ## Parameters
 

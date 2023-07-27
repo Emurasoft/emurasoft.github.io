@@ -1,20 +1,22 @@
 # VerticalBar Property (ScrollProp Object)
 
-Corresponds to the **Vertical Scroll Bar drop-down** list box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to theVertical Scroll Bar drop-down list box in the [Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **VerticalBar**;
+### \[JavaScript\]
 
-object. **VerticalBar**  = _n_;
+```
+n = object.VerticalBar;
+object.VerticalBar  = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **VerticalBar**
-
-object. **VerticalBar**  = _n_
+```
+n = object.VerticalBar
+object.VerticalBar  = n
+```
 
 ## Version
 

@@ -1,31 +1,36 @@
 # Split View command
 
-### Summary
+## Summary
 
-> Displays two most recently viewed documents in a split window.
+Displays two most recently viewed documents in a split window.
 
-### Description
+## Description
 
-> Displays two most recently viewed documents in a split window.
+Displays two most recently viewed documents in a split window.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Split View**
-- [All Commands](../tools/all_commands): **Compare** \> **Split View**
+- Default Menu:Compare \>Split View
+- [All Commands](../tools/all_commands):Compare \>Split View
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SPLIT\_VIEW\_DIRECT (4085)
+```
+EEID_SPLIT_VIEW_DIRECT (4085)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4085);
+```
+editor.ExecuteCommandByID(4085);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4085
+```
+editor.ExecuteCommandByID 4085
+```

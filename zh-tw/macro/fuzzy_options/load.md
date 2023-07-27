@@ -2,13 +2,19 @@
 
 從應用數據資料夾加載模糊選項。
 
-#### \[JavaScript\]
+## 
 
-obj. **Load**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj.Load();
+```
 
-obj. **Load**
+### \[VBScript\]
+
+```
+obj.Load
+```
 
 ## 版本
 

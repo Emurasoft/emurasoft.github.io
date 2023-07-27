@@ -2,17 +2,21 @@
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[ツール バー ボタンのタイトル\] テキスト ボックス に相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Title**;
+### \[JavaScript\]
 
-object. **Title** = _s_;
+```
+s = object.Title;
+object.Title = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Title**
-
-object. **Title** = _s_
+```
+s = object.Title
+object.Title = s
+```
 
 ## バージョン
 

@@ -1,18 +1,22 @@
 # WordWrapAfterMarks 屬性 (WrapProp ��H)
 
-與組態屬性中 [**換行** 頁面](../../dlg/properties/wrap/index) 上的 **啟用標記后自動換行** 核取方塊相對應。
+與組態屬性中 [換行 頁面](../../dlg/properties/wrap/index) 上的啟用標記后自動換行 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **WordWrapAfterMarks**;
+### \[JavaScript\]
 
-object. **WordWrapAfterMarks** = _str_;
+```
+str = object.WordWrapAfterMarks;
+object.WordWrapAfterMarks = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **WordWrapAfterMarks**
-
-object. **WordWrapAfterMarks** = _str_
+```
+str = object.WordWrapAfterMarks
+object.WordWrapAfterMarks = str
+```
 
 ## 版本
 

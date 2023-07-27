@@ -1,20 +1,22 @@
 # VerticalBar 속성 (ScrollProp ��ü)
 
-구성 속성 [**스크롤** 탭](../../dlg/properties/scroll/index) 의 **세로 스크롤 바 드롭 다운** 리스트 박스에 해당합니다.
+구성 속성 [스크롤 탭](../../dlg/properties/scroll/index) 의세로 스크롤 바 드롭 다운 리스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **VerticalBar**;
+### \[JavaScript\]
 
-object. **VerticalBar**  = _n_;
+```
+n = object.VerticalBar;
+object.VerticalBar  = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **VerticalBar**
-
-object. **VerticalBar**  = _n_
+```
+n = object.VerticalBar
+object.VerticalBar  = n
+```
 
 ## 버전
 

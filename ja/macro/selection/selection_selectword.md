@@ -2,13 +2,19 @@
 
 カーソル位置にある単語を選択します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectWord**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectWord();
+```
 
-document.selection. **SelectWord**
+### \[VBScript\]
+
+```
+document.selection.SelectWord
+```
 
 ## バージョン
 

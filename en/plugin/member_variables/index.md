@@ -4,7 +4,7 @@ These member variables inside CETLFrame provide EmEditor with information about 
 
 |     |     |
 | --- | --- |
-| **Identifier** | **Description** |
+|Identifier |Description |
 | \_IDS\_NAME | Displayed as the Name inside the Customize Plug-ins window. |
 | \_IDS\_MENU | Displayed in the Tools > Plug-ins menu. |
 | \_IDS\_STATUS | Displayed in the tooltip in the Plug-ins toolbar and the status bar. |

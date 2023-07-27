@@ -4,9 +4,9 @@
 
 |     |     |
 | --- | --- |
-| **[clearData](cleardata)** | 从剪贴板上删除一个或多个数据格式。 |
-| **[getData](getdata)** | 从剪贴板上用指定的格式检索数据。 |
-| **[setData](setdata)** | 用指定的格式把数据分配到剪贴板上。 |
+|[clearData](cleardata) | 从剪贴板上删除一个或多个数据格式。 |
+|[getData](getdata) | 从剪贴板上用指定的格式检索数据。 |
+|[setData](setdata) | 用指定的格式把数据分配到剪贴板上。 |
 
 ## 版本
 

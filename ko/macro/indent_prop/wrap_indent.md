@@ -1,20 +1,22 @@
 # WrapIndent 속성 (IndentProp ��ü)
 
-[**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 의 **줄 바꿔서 들여쓰기** 체크 박스에 해당합니다.
+[탭/들여쓰기 대화 상자](../../dlg/properties/general/indent/index) 의줄 바꿔서 들여쓰기 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **WrapIndent**;
+### \[JavaScript\]
 
-object. **WrapIndent** = _b_;
+```
+b = object.WrapIndent;
+object.WrapIndent = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **WrapIndent**
-
-object. **WrapIndent** = _b_
+```
+b = object.WrapIndent
+object.WrapIndent = b
+```
 
 ## 버전
 

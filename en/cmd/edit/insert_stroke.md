@@ -1,32 +1,37 @@
 # Insert Stroke command
 
-### Summary
+## Summary
 
-> Inserts a character with a stroke.
+Inserts a character with a stroke.
 
-### Description
+## Description
 
-> After selecting this command, Insert a character with a stroke (ø or Ø) at the cursor by typing o or
-> O, or a cent symbol (¢) by typing c.
+After selecting this command, Insert a character with a stroke (ø or Ø) at the cursor by typing o or
+O, or a cent symbol (¢) by typing c.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Diacritics** \> **Stroke**
-- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Stroke**
+- Default Menu:Insert \>Diacritics \>Stroke
+- [All Commands](../tools/all_commands):Insert \>Diacritics \>Stroke
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+/
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT\_STROKE (4311)
+```
+EEID_INSERT_STROKE (4311)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4311);
+```
+editor.ExecuteCommandByID(4311);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4311
+```
+editor.ExecuteCommandByID 4311
+```

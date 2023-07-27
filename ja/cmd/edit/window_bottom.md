@@ -1,14 +1,14 @@
 # \[ウィンドウの下へ\] コマンド
 
-### 概要
+## 概要
 
-> カーソルをウィンドウの一番下へ移動します。
+カーソルをウィンドウの一番下へ移動します。
 
-### 説明
+## 説明
 
-> カーソルをウィンドウの一番下へ移動します。垂直スクロール バーの位置は移動しません。
+カーソルをウィンドウの一番下へ移動します。垂直スクロール バーの位置は移動しません。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[垂直にカーソル移動\] \- \[ウィンドウ下\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+Page Down
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_WINDOW\_BOTTOM (4293)
+```
+EEID_WINDOW_BOTTOM (4293)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4293);
+```
+editor.ExecuteCommandByID(4293);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4293
+```
+editor.ExecuteCommandByID 4293
+```

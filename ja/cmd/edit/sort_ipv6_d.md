@@ -1,14 +1,14 @@
 # \[IPv6アドレス降順に並べ替え\] コマンド
 
-### 概要
+## 概要
 
-> 現在の列のIPv6アドレスを降順で並べ替えます。
+現在の列のIPv6アドレスを降順で並べ替えます。
 
-### 説明
+## 説明
 
-> 現在の列のIPv6アドレスを降順で並べ替えます。
+現在の列のIPv6アドレスを降順で並べ替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[並べ替え\] \- \[IPv6アドレス降順に並べ替え\]
 - [すべてのコマンド](../../glossary/allcommands): \[並べ替え\] \- \[IPv6アドレス降順に並べ替え\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SORT\_IPV6\_D (4037)
+```
+EEID_SORT_IPV6_D (4037)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4037);
+```
+editor.ExecuteCommandByID(4037);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4037
+```
+editor.ExecuteCommandByID 4037
+```

@@ -1,39 +1,39 @@
 # Print page
 
-The **Print** page allows you to set properties related to print
+ThePrint page allows you to set properties related to print
 operations.
 
-### Print Line Numbers check box
+## Print Line Numbers check box
 
 Print line numbers down the left side of the page.
 
-### Ignore Color and Underlines check box
+## Ignore Color and Underlines check box
 
 Ignore color and underlines when printing.
 
-### Draw Separating Lines check box
+## Draw Separating Lines check box
 
 Insert horizontal lines between the header and the text and between the text
 and the footer.
 
-### Wrap by Page when Printing check box
+## Wrap by Page when Printing check box
 
 Wrap according to page width when printing.
 
-### Space Between Lines text box
+## Space Between Lines text box
 
 Specify the amount of space between lines when printing. This value
 corresponds to 1/10 of the height of a single line.
 
-### Header check box
+## Header check box
 
 Enables the specified header.
 
-### Header text box
+## Header text box
 
 Print document information at the top of the page using the following marks.
 
-### \> button
+## \> button
 
 Use this button to select from a list of predefined marks.
 
@@ -50,16 +50,16 @@ Use this button to select from a list of predefined marks.
 | &e | last modified date |
 | &u | last modified time |
 
-### Footer check box
+## Footer check box
 
 Enables the specified footer.
 
-### Footer text box
+## Footer text box
 
 Print document information at the bottom of the page using the following
 marks.
 
-### \> button
+## \> button
 
 Use this button to select from a list of predefined marks.
 
@@ -74,17 +74,17 @@ Use this button to select from a list of predefined marks.
 | &c | center aligned |
 | &r | right aligned |
 
-### Page Setup button
+## Page Setup button
 
 Use this button to specify page settings.
 
-### Font button
+## Font button
 
 Specify the font to use for printing.
 
-### Reset button
+## Reset button
 
 Resets to default settings. The
-[**Reset** dialog box](../reset/index) will be displayed
+[Reset dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

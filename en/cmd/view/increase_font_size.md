@@ -1,33 +1,38 @@
 # Increase Font Size command
 
-### Summary
+## Summary
 
-> Increases the display font size.
+Increases the display font size.
 
-### Description
+## Description
 
-> Increases the display font size. The font name and the exact size can be
-> specified on the [**Customize Font** dialog box](../../dlg/properties/font/index).
+Increases the display font size. The font name and the exact size can be
+specified on the [Customize Font dialog box](../../dlg/properties/font/index).
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Font** >
-**Increase Font Size**
+- [All Commands](../tools/all_commands):View \>Font >
+Increase Font Size
 - Toolbar: ![](../../images/increasefontsize.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INCREASE\_FONT\_SIZE (4373)
+```
+EEID_INCREASE_FONT_SIZE (4373)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4373);
+```
+editor.ExecuteCommandByID(4373);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4373
+```
+editor.ExecuteCommandByID 4373
+```

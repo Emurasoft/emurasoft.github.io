@@ -1,32 +1,37 @@
 # Replace >> (Find toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Replace >> button on the Find toolbar.
+Toggles the Replace >> button on the Find toolbar.
 
-### Description
+## Description
 
-> Toggles the Replace >> button on the Find toolbar. This will display the **Replace** dialog box.
+Toggles the Replace >> button on the Find toolbar. This will display theReplace dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Toolbar** \> **Replace >>**
+- [All Commands](../tools/all_commands):Search
+\>Find Toolbar \>Replace >>
 - Toolbar: ![](../../images/find_replace_dlg.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FINDBAR\_REPLACE\_DLG (4579)
+```
+EEID_FINDBAR_REPLACE_DLG (4579)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4579);
+```
+editor.ExecuteCommandByID(4579);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4579
+```
+editor.ExecuteCommandByID 4579
+```

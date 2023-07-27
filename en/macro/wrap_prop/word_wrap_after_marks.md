@@ -1,20 +1,24 @@
 # WordWrapAfterMarks Property (WrapProp Object)
 
-Corresponds to the **Enable**
-**Word Wrap After Marks** check box in the
-[**Wrap** page](../../dlg/properties/wrap/index) of Configuration Properties.
+Corresponds to theEnable
+Word Wrap After Marks check box in the
+[Wrap page](../../dlg/properties/wrap/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **WordWrapAfterMarks**;
+### \[JavaScript\]
 
-object. **WordWrapAfterMarks** = _str_;
+```
+str = object.WordWrapAfterMarks;
+object.WordWrapAfterMarks = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **WordWrapAfterMarks**
-
-object. **WordWrapAfterMarks** = _str_
+```
+str = object.WordWrapAfterMarks
+object.WordWrapAfterMarks = str
+```
 
 ## Version
 

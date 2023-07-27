@@ -2,17 +2,21 @@
 
 親の Window オブジェクトを返します。
 
-#### \[JavaScript\]
+## 
 
-_w_ = wnd. **Parent**;
+### \[JavaScript\]
 
-wnd. **Parent** = _w_;
+```
+w = wnd.Parent;
+wnd.Parent = w;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_w_ = wnd. **Parent**
-
-wnd. **Parent** = _w_
+```
+w = wnd.Parent
+wnd.Parent = w
+```
 
 ## バージョン
 

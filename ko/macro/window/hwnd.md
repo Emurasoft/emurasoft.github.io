@@ -2,17 +2,21 @@
 
 창의 핸들 값을 검색하거나 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-_h_ = wnd. **hWnd**;
+### \[JavaScript\]
 
-wnd. **hWnd** = _h_;
+```
+h = wnd.hWnd;
+wnd.hWnd = h;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_h_ = wnd. **hWnd**
-
-wnd. **hWnd** = _h_
+```
+h = wnd.hWnd
+wnd.hWnd = h
+```
 
 ## 버전
 

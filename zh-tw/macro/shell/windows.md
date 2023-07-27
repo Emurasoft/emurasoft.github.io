@@ -2,13 +2,19 @@
 
 返回頂層視窗集合。
 
-#### \[JavaScript\]
+## 
 
-wnds = shell. **windows**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnds = shell.windows;
+```
 
-wnds = shell. **windows**
+### \[VBScript\]
+
+```
+wnds = shell.windows
+```
 
 ## 版本
 

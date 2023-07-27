@@ -2,13 +2,19 @@
 
 Converts spaces to tabs in the selection.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Tabify**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Tabify();
+```
 
-document.selection. **Tabify**
+### \[VBScript\]
+
+```
+document.selection.Tabify
+```
 
 ## Version
 

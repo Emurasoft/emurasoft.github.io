@@ -1,32 +1,37 @@
 # Plain Text to Base64 (Current Encoding) command
 
-### Summary
+## Summary
 
-> Encodes the selected plain text to the Base64 encoding using the current encoding.
+Encodes the selected plain text to the Base64 encoding using the current encoding.
 
-### Description
+## Description
 
-> Encodes the selected plain text to the Base64 encoding using the current encoding.
+Encodes the selected plain text to the Base64 encoding using the current encoding.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Encode/Decode** \> **Plain Text to Base64 (Current Encoding)**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Plain Text to Base64 (Current Encoding)**
+- Default Menu:Convert \>Encode/Decode \>Plain Text to Base64 (Current Encoding)
+- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Plain Text to Base64 (Current Encoding)
 - Toolbar:
 None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ENCODE\_BASE64 (3940)
+```
+EEID_ENCODE_BASE64 (3940)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3940);
+```
+editor.ExecuteCommandByID(3940);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3940
+```
+editor.ExecuteCommandByID 3940
+```

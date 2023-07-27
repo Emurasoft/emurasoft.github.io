@@ -1,21 +1,23 @@
 # VirtualSpace Property (GeneralProp Object)
 
-Corresponds to the **Enable Virtual Space** check box in the
-[**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to theEnable Virtual Space check box in the
+[General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **VirtualSpace**;
+### \[JavaScript\]
 
-object. **VirtualSpace** = _b_;
+```
+b = object.VirtualSpace;
+object.VirtualSpace = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **VirtualSpace**
-
-object. **VirtualSpace** = _b_
+```
+b = object.VirtualSpace
+object.VirtualSpace = b
+```
 
 ## Version
 

@@ -1,18 +1,22 @@
 # Kinsoku 屬性 (WrapProp ��H)
 
-與組態屬性中 [**換行** 頁面](../../dlg/properties/wrap/index) 上的 **將指定字元換行** 核取方塊相對應。
+與組態屬性中 [換行 頁面](../../dlg/properties/wrap/index) 上的將指定字元換行 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Kinsoku**;
+### \[JavaScript\]
 
-object. **Kinsoku** = _b_;
+```
+b = object.Kinsoku;
+object.Kinsoku = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Kinsoku**
-
-**object.Kinsoku** = _b_
+```
+b = object.Kinsoku
+object.Kinsoku = b
+```
 
 ## 版本
 

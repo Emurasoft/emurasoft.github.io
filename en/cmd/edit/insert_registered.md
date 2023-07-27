@@ -1,31 +1,36 @@
 # Insert Registered command
 
-### Summary
+## Summary
 
-> Inserts a registered symbol.
+Inserts a registered symbol.
 
-### Description
+## Description
 
-> Inserts a registered symbol (®) at the cursor.
+Inserts a registered symbol (®) at the cursor.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Marks** \> **Registered**
-- [All Commands](../tools/all_commands): **Insert** \> **Marks** \> **Registered**
+- Default Menu:Insert \>Marks \>Registered
+- [All Commands](../tools/all_commands):Insert \>Marks \>Registered
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+R
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT\_REGISTERED (4315)
+```
+EEID_INSERT_REGISTERED (4315)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Text="®";
+```
+document.selection.Text="®";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Text="®"
+```
+document.selection.Text="®"
+```

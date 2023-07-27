@@ -2,13 +2,19 @@
 
 Adds a new submenu to the end of the menu.
 
-#### \[JavaScript\]
+## 
 
-popupmenu. **AddPopup**( _strText_, _submenu_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu.AddPopup( strText, submenu);
+```
 
-popupmenu. **AddPopup** _strText_, _submenu_
+### \[VBScript\]
+
+```
+popupmenu.AddPopup strText, submenu
+```
 
 ## Parameters
 

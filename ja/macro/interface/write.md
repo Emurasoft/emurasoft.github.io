@@ -2,13 +2,19 @@
 
 文字列をサポートされたプラグインに渡します。
 
-#### \[JavaScript\]
+## 
 
-Interface. **write**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Interface.write( str );
+```
 
-Interface. **write** _str_
+### \[VBScript\]
+
+```
+Interface.write str
+```
 
 ## パラメーター
 
@@ -18,13 +24,17 @@ _str_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-Interface. **write**( "Hello" );
+```
+Interface.write( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Interface. **write** "Hello"
+```
+Interface.write "Hello"
+```
 
 ## バージョン
 

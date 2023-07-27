@@ -1,34 +1,39 @@
 # Customize Sort command
 
-### Summary
+## Summary
 
-> Opens the Sort page of the Customize dialog box.
+Opens the Sort page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the Sort page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the Sort page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Sort** \> **Sort Options**
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**Sort**
+- Default Menu:Sort \>Sort Options
+- [All Commands](all_commands):Tools >
+Customize >
+Sort
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_SORT (9053)
+```
+EEID_CUSTOMIZE_SORT (9053)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9053);
+```
+editor.ExecuteCommandByID(9053);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9053
+```
+editor.ExecuteCommandByID 9053
+```

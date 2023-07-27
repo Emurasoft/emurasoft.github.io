@@ -2,17 +2,21 @@
 
 Retrieves or sets the name for the current Csv object.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Name**;
+### \[JavaScript\]
 
-object. **Name** = _s_;
+```
+s = object.Name;
+object.Name = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Name**
-
-object. **Name** = _s_
+```
+s = object.Name
+object.Name = s
+```
 
 ## Version
 

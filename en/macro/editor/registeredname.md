@@ -2,13 +2,19 @@
 
 Retrieves the registered name.
 
-#### \[JavaScript\]
+## 
 
-_szName_ = editor. **RegisteredName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+szName = editor.RegisteredName;
+```
 
-Set _szName_ = editor. **RegisteredName**
+### \[VBScript\]
+
+```
+Set szName = editor.RegisteredName
+```
 
 ## Version
 

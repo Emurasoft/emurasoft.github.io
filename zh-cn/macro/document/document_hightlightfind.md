@@ -2,17 +2,21 @@
 
 决定是否要高亮搜索字符串。
 
-#### \[JavaScript\]
+## 
 
-_bHighlightFind_ = document. **HighlightFind**;
+### \[JavaScript\]
 
-document. **HighlightFind** = _bHighlightFind_;
+```
+bHighlightFind = document.HighlightFind;
+document.HighlightFind = bHighlightFind;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bHighlightFind_ = document. **HighlightFind**
-
-document. **HighlightFind** = _bHighlightFind_
+```
+bHighlightFind = document.HighlightFind
+document.HighlightFind = bHighlightFind
+```
 
 ## 版本
 

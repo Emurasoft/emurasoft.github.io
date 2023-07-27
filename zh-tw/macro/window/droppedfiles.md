@@ -1,14 +1,20 @@
 # DroppedFiles 屬性 (Window ��H)
 
-返回 [**DroppedFiles** 對象](../dropped_files/index)。
+返回 [DroppedFiles 對象](../dropped_files/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = **DroppedFiles**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj =DroppedFiles;
+```
 
-Set _obj_ = **DroppedFiles**
+### \[VBScript\]
+
+```
+Set obj =DroppedFiles
+```
 
 ## 版本
 

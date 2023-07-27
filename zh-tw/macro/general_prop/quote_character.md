@@ -1,20 +1,22 @@
 # QuoteCharacter 屬性 (GeneralProp ��H)
 
-與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **引用字元** 文字方塊相對應。
+與組態屬性中 [一般 頁面](../../dlg/properties/general/index) 上的引用字元 文字方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_str_ =
-object. **QuoteCharacter**;
+### \[JavaScript\]
 
-object. **QuoteCharacter** = _str_;
+```
+str = object.QuoteCharacter;
+object.QuoteCharacter = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ =
-object. **QuoteCharacter**
-
-object. **QuoteCharacter** = _str_
+```
+str = object.QuoteCharacter
+object.QuoteCharacter = str
+```
 
 ## 版本
 

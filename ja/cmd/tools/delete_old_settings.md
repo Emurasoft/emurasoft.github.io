@@ -1,14 +1,14 @@
 # \[古い設定を削除\] コマンド
 
-### 概要
+## 概要
 
-> 使われていない古い設定を削除します。
+使われていない古い設定を削除します。
 
-### 説明
+## 説明
 
-> 使われていない古い設定を削除します。
+使われていない古い設定を削除します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[古い設定を削除\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DELETE\_OLD\_SETTINGS (3984)
+```
+EEID_DELETE_OLD_SETTINGS (3984)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3984);
+```
+editor.ExecuteCommandByID(3984);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3984
+```
+editor.ExecuteCommandByID 3984
+```

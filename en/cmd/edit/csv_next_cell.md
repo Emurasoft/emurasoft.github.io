@@ -1,31 +1,36 @@
 # Next Cell (Cell Selection Mode Only) command
 
-### Summary
+## Summary
 
-> Jumps to the next cell in the CSV document.
+Jumps to the next cell in the CSV document.
 
-### Description
+## Description
 
-> Jumps to the next cell in the CSV document.
+Jumps to the next cell in the CSV document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode Only** \> **Next Cell**
+- [All Commands](../tools/all_commands):CSV \>Cell Selection Mode Only \>Next Cell
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CSV\_NEXT\_CELL (4077)
+```
+EEID_CSV_NEXT_CELL (4077)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4077);
+```
+editor.ExecuteCommandByID(4077);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4077
+```
+editor.ExecuteCommandByID 4077
+```

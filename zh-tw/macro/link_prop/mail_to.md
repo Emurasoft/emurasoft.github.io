@@ -1,20 +1,22 @@
 # MailTo 屬性 (LinkProp ��H)
 
-與組態屬性中 [**連結** 頁面](../../dlg/properties/link/index) 上的 **點擊郵件地址時發送郵件** 核取方塊相對應。
+與組態屬性中 [連結 頁面](../../dlg/properties/link/index) 上的點擊郵件地址時發送郵件 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **MailTo**;
+### \[JavaScript\]
 
-object. **MailTo** = _b_;
+```
+b = object.MailTo;
+object.MailTo = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **MailTo**
-
-object. **MailTo** = _b_
+```
+b = object.MailTo
+object.MailTo = b
+```
 
 ## 版本
 

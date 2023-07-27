@@ -1,21 +1,23 @@
 # DoubleLineScroll Property (ScrollProp Object)
 
-Corresponds to the **Double Line Scroll** check box in the
-[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to theDouble Line Scroll check box in the
+[Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DoubleLineScroll**;
+### \[JavaScript\]
 
-object. **DoubleLineScroll** = _b_;
+```
+b = object.DoubleLineScroll;
+object.DoubleLineScroll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DoubleLineScroll**
-
-object. **DoubleLineScroll** = _b_
+```
+b = object.DoubleLineScroll
+object.DoubleLineScroll = b
+```
 
 ## Version
 

@@ -1,18 +1,22 @@
 # Escape Property (Csv Object)
 
-Corresponds to the **Use Escape Character** check box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to theUse Escape Character check box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Escape**;
+### \[JavaScript\]
 
-object. **Escape** = _b_;
+```
+b = object.Escape;
+object.Escape = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Escape**
-
-object. **Escape** = _b_
+```
+b = object.Escape
+object.Escape = b
+```
 
 ## Version
 

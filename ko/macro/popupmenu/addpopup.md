@@ -2,13 +2,19 @@
 
 메뉴의 마지막에 새로운 하위 메뉴를 추가합니다.
 
-#### \[JavaScript\]
+## 
 
-popupmenu. **AddPopup**( _strText_, _submenu_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu.AddPopup( strText, submenu);
+```
 
-popupmenu. **AddPopup** _strText_, _submenu_
+### \[VBScript\]
+
+```
+popupmenu.AddPopup strText, submenu
+```
 
 ## 매개 변수
 

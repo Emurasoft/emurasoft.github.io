@@ -9,16 +9,16 @@ Editor\_RotateClip( HWND hwnd, int iDirection );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _iDirection_
 
-> Specifies the direction you want to rotate the current position in the Clipboard history.
+Specifies the direction you want to rotate the current position in the Clipboard history.
 
 ## Return Values
 
-> The return value is 1 is succeeded. If the message fails, the return value is -1.
+The return value is 1 is succeeded. If the message fails, the return value is -1.
 
 ## Version
 
-> Supported on EmEditor Version 9.00 or later.
+Supported on EmEditor Version 9.00 or later.

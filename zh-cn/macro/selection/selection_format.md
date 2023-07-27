@@ -2,13 +2,19 @@
 
 插入或删除选定内容中的换行符。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Format**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Format( nFlags );
+```
 
-document.selection. **Format** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Format nFlags
+```
 
 ## 参数
 

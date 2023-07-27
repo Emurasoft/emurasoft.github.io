@@ -1,20 +1,22 @@
 # ShowTabs 속성 (MarkProp ��ü)
 
-구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의 **탭 보이기** 체크 박스에 해당합니다.
+구성 속성 [표시 탭](../../dlg/properties/marks/index) 의탭 보이기 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowTabs**;
+### \[JavaScript\]
 
-object. **ShowTabs** = _b_;
+```
+b = object.ShowTabs;
+object.ShowTabs = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowTabs**
-
-object. **ShowTabs** = _b_
+```
+b = object.ShowTabs
+object.ShowTabs = b
+```
 
 ## 버전
 

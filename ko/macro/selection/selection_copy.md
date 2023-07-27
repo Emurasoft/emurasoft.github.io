@@ -2,13 +2,19 @@
 
 클립보드에 선택 영역을 복사합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Copy**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Copy( nFlags );
+```
 
-document.selection. **Copy** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Copy nFlags
+```
 
 ## 매개 변수
 

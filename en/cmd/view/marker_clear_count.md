@@ -1,32 +1,37 @@
 # Clear Marker Match Count command
 
-### Summary
+## Summary
 
-> Clears match counts of all markers in the current document.
+Clears match counts of all markers in the current document.
 
-### Description
+## Description
 
-> Clears match counts of all markers in the current document.
+Clears match counts of all markers in the current document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Markers**
-\> **Clear Match Count**
+- [All Commands](../tools/all_commands):View \>Markers
+\>Clear Match Count
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MARKER\_CLEAR\_COUNT (4043)
+```
+EEID_MARKER_CLEAR_COUNT (4043)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4043);
+```
+editor.ExecuteCommandByID(4043);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4043
+```
+editor.ExecuteCommandByID 4043
+```

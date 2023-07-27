@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> Specifies the pointer to the [UNPIVOT\_INFO](../structure/unpivot_info) structure.
+Specifies the pointer to the [UNPIVOT\_INFO](../structure/unpivot_info) structure.
 
 ## Return Values
 
-> The return value is a negative value if it fails.
+The return value is a negative value if it fails.
 
 ## Version
 
-> Supported on Version 21.4 or later.
+Supported on Version 21.4 or later.

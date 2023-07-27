@@ -1,32 +1,37 @@
 # Unicode to Percent-encoding (Current Encoding) command
 
-### Summary
+## Summary
 
-> Encodes the selected text to the percent-encoding using the current encoding.
+Encodes the selected text to the percent-encoding using the current encoding.
 
-### Description
+## Description
 
-> Encodes the selected text to the percent-encoding using the current encoding.
+Encodes the selected text to the percent-encoding using the current encoding.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Encode/Decode** \> **Unicode to Percent-encoding (Current Encoding)**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode to Percent-encoding (Current Encoding)**
+- Default Menu:Convert \>Encode/Decode \>Unicode to Percent-encoding (Current Encoding)
+- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Unicode to Percent-encoding (Current Encoding)
 - Toolbar:
 None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ENCODE\_PERCENT (3855)
+```
+EEID_ENCODE_PERCENT (3855)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3855);
+```
+editor.ExecuteCommandByID(3855);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3855
+```
+editor.ExecuteCommandByID 3855
+```

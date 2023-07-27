@@ -1,19 +1,23 @@
 # WrapPage プロパティ (PrintProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[印刷\]** タブ](../../dlg/properties/print/index) の
-**\[印刷時ページの右端で折り返す\]** チェック ボックスに相当します。
+設定のプロパティの [\[印刷\] タブ](../../dlg/properties/print/index) の
+\[印刷時ページの右端で折り返す\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **WrapPage**;
+### \[JavaScript\]
 
-object. **WrapPage** = _b_;
+```
+b = object.WrapPage;
+object.WrapPage = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **WrapPage**
-
-object. **WrapPage** = _b_
+```
+b = object.WrapPage
+object.WrapPage = b
+```
 
 ## バージョン
 

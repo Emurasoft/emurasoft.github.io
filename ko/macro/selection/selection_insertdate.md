@@ -2,13 +2,19 @@
 
 현재 시간과 날짜를 삽입합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **InsertDate**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.InsertDate( nFlags );
+```
 
-document.selection. **InsertDate** \[ _nFlags_ \]
+### \[VBScript\]
+
+```
+document.selection.InsertDate [ nFlags ]
+```
 
 ## 매개 변수
 
@@ -24,7 +30,7 @@ _nFlags_
 ## 주의
 
 시간과 날짜에 사용되는 형식은 Windows에서
-**제어판** 의 **국가 & 언어 옵션** 을 선택한 뒤 **날짜 & 시간** 을
+제어판 의국가 & 언어 옵션 을 선택한 뒤날짜 & 시간 을
 선택하여 구성 가능합니다.
 
 ## 버전

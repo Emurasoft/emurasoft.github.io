@@ -1,14 +1,20 @@
 # DroppedFiles Property (Window Object)
 
-Returns the [**DroppedFiles** Object](../dropped_files/index).
+Returns the [DroppedFiles Object](../dropped_files/index).
 
-#### \[JavaScript\]
+## 
 
-_obj_ = **DroppedFiles**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj =DroppedFiles;
+```
 
-Set _obj_ = **DroppedFiles**
+### \[VBScript\]
+
+```
+Set obj =DroppedFiles
+```
 
 ## Version
 

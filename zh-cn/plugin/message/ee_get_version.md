@@ -13,13 +13,13 @@ lParam = 0;
 
 _pnProductType_
 
-> 指定一个指针指向整数值。这个消息返回下列值之一。
->
-> |     |     |
-> | --- | --- |
-> | VERSION\_PRO | EmEditor Professional |
-> | VERSION\_STD | EmEditor Standard |
+指定一个指针指向整数值。这个消息返回下列值之一。
+
+|     |     |
+| --- | --- |
+| VERSION\_PRO | EmEditor Professional |
+| VERSION\_STD | EmEditor Standard |
 
 ## 返回值
 
-> 返回被乘以 1000 的版本号。
+返回被乘以 1000 的版本号。

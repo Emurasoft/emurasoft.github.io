@@ -2,19 +2,21 @@
 
 指定对象的按键。
 
-#### \[JavaScript\]
+## 
 
-_key_ =
-item. **Key**;
+### \[JavaScript\]
 
-item. **Key** = _key_;
+```
+key = item.Key;
+item.Key = key;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_key_ =
-item. **Key**
-
-item. **Key** = _key_
+```
+key = item.Key
+item.Key = key
+```
 
 ## 版本
 

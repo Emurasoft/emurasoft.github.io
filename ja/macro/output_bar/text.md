@@ -2,13 +2,19 @@
 
 アウトプット バー内のすべてのテキストを取得します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = OutputBar. **Text**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = OutputBar.Text;
+```
 
-_str_ = OutputBar. **Text**
+### \[VBScript\]
+
+```
+str = OutputBar.Text
+```
 
 ## バージョン
 

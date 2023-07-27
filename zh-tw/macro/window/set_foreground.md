@@ -2,13 +2,19 @@
 
 將視窗置前。
 
-#### \[JavaScript\]
+## 
 
-wnd. **SetForeground**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd.SetForeground();
+```
 
-wnd. **SetForeground**
+### \[VBScript\]
+
+```
+wnd.SetForeground
+```
 
 ## 版本
 

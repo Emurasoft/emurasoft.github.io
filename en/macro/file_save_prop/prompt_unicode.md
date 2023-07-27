@@ -1,21 +1,23 @@
 # PromptUnicode Property (FileSaveProp Object)
 
-Corresponds to the **Prompt**
-**when Saving Unicode as ANSI** check box in the [**Save Details** dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to thePrompt
+when Saving Unicode as ANSI check box in the [Save Details dialog box](../../dlg/properties/file/save_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptUnicode**;
+### \[JavaScript\]
 
-object. **PromptUnicode** = _b_;
+```
+b = object.PromptUnicode;
+object.PromptUnicode = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptUnicode**
-
-object. **PromptUnicode** = _b_
+```
+b = object.PromptUnicode
+object.PromptUnicode = b
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 [Selection 개체](../selection/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_sel_ = document. **selection**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+sel = document.selection;
+```
 
-Set _sel_ = document. **selection**
+### \[VBScript\]
+
+```
+Set sel = document.selection
+```
 
 ## 버전
 

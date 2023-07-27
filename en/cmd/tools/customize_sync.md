@@ -1,34 +1,39 @@
 # Customize Sync command
 
-### Summary
+## Summary
 
-> Opens the Sync page of the Customize dialog box.
+Opens the Sync page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the Sync page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the Sync page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**Sync**
+- [All Commands](all_commands):Tools >
+Customize >
+Sync
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_SYNC (9060)
+```
+EEID_CUSTOMIZE_SYNC (9060)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9060);
+```
+editor.ExecuteCommandByID(9060);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9060
+```
+editor.ExecuteCommandByID 9060
+```

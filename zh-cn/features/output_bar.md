@@ -4,4 +4,4 @@
 
 ## 请参考
 
-- [**使用输出栏** 复选框](../dlg/tools/properties/index)
+- [使用输出栏 复选框](../dlg/tools/properties/index)

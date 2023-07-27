@@ -2,13 +2,19 @@
 
 指定した文字列を検索します。
 
-#### \[JavaScript\]
+## 
 
-nFound = document.selection. **Find**( _strFind_, _nFlags_\[, _nExFlags_\] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = document.selection.Find( strFind, nFlags[, nExFlags] );
+```
 
-nFound = document.selection. **Find**( _strFind_, _nFlags_\[, _nExFlags_\] )
+### \[VBScript\]
+
+```
+nFound = document.selection.Find( strFind, nFlags[, nExFlags] )
+```
 
 ## 引数
 

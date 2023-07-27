@@ -1,33 +1,38 @@
 # Find Next Word command
 
-### Summary
+## Summary
 
-> Finds the next occurrence of the current word.
+Finds the next occurrence of the current word.
 
-### Description
+## Description
 
-> Finds the next occurrence of the specified string, if a string is selected.
-> Otherwise, finds the next occurrence of the word at the cursor position.
+Finds the next occurrence of the specified string, if a string is selected.
+Otherwise, finds the next occurrence of the word at the cursor position.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Search** \> **Find Next Word**
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Next Word**
+- Default Menu:Search \>Find Next Word
+- [All Commands](../tools/all_commands):Search
+\>Find Next Word
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: Ctrl+F3
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FIND\_NEXT\_WORD (4204)
+```
+EEID_FIND_NEXT_WORD (4204)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.FindRepeat(eeFindRepeatNext \| eeFindRepeatWord);
+```
+document.selection.FindRepeat(eeFindRepeatNext \| eeFindRepeatWord);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.FindRepeat eeFindRepeatNext Or eeFindRepeatWord
+```
+document.selection.FindRepeat eeFindRepeatNext Or eeFindRepeatWord
+```

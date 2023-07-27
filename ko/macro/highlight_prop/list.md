@@ -1,20 +1,22 @@
 # List 속성 (HighlightProp ��ü)
 
-[**HighlightList** 컬렉션](../highlight_list/index) 을 검색합니다.
+[HighlightList 컬렉션](../highlight_list/index) 을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **List**;
+### \[JavaScript\]
 
-object. **List** = _b_;
+```
+b = object.List;
+object.List = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **List**
-
-object. **List** = _b_
+```
+b = object.List
+object.List = b
+```
 
 ## 버전
 

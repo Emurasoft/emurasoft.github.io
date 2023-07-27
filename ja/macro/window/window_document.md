@@ -2,13 +2,19 @@
 
 現在開いている [Document オブジェクト](../document/index) を返します。
 
-#### \[JavaScript\]
+## 
 
-_doc_ = **document**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc =document;
+```
 
-Set _doc_ = **document**
+### \[VBScript\]
+
+```
+Set doc =document
+```
 
 ## バージョン
 

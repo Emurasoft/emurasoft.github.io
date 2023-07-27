@@ -13,15 +13,15 @@ lParam = (LPARAM) (LPSTR) szString;
 
 _pGetLineInfo_
 
-> Specifies the pointer to
-> [GET\_LINE\_INFO](../structure/get_line_info)
-> structure.
+Specifies the pointer to
+[GET\_LINE\_INFO](../structure/get_line_info)
+structure.
 
 _szString_
 
-> Pointer to the buffer that will receive the text.
+Pointer to the buffer that will receive the text.
 
 ## Return Values
 
-> If _pGetLineInfo->cch_ is zero, the return value is the
-> required size, in bytes, for a buffer that can receive the text. If _pGetLineInfo->cch_ is not zero, the return value is not used.
+If _pGetLineInfo->cch_ is zero, the return value is the
+required size, in bytes, for a buffer that can receive the text. If _pGetLineInfo->cch_ is not zero, the return value is not used.

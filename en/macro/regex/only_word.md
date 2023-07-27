@@ -2,17 +2,21 @@
 
 Sets or retrieves whether the regular expression matches only whole words.
 
-#### \[JavaScript\]
+## 
 
-_b_ = reg. **OnlyWord**;
+### \[JavaScript\]
 
-reg. **OnlyWord** = _b_;
+```
+b = reg.OnlyWord;
+reg.OnlyWord = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = reg. **OnlyWord**;
-
-reg. **OnlyWord** = _b_;
+```
+b = reg.OnlyWord;
+reg.OnlyWord = b;
+```
 
 ## Version
 

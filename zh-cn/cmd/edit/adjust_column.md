@@ -1,31 +1,36 @@
 # 调整分隔符位置 (整个文档) 命令
 
-### 摘要
+## 摘要
 
-> 调整 CSV 文档中所有分隔符的位置。
+调整 CSV 文档中所有分隔符的位置。
 
-### 说明
+## 说明
 
-> 调整 CSV 文档中所有分隔符的位置。
+调整 CSV 文档中所有分隔符的位置。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **CSV** \> **调整分隔符位置 (整个文档)**
-- [所有命令](../tools/all_commands): **CSV** \> **调整分隔符位置 (整个文档)**
+- 默认菜单:CSV \>调整分隔符位置 (整个文档)
+- [所有命令](../tools/all_commands):CSV \>调整分隔符位置 (整个文档)
 - 工具栏: ![](../../images/columns_separators.gif) \+ 调整分隔符位置 (整个文档)
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_ADJUST\_COLUMN (4460)
+```
+EEID_ADJUST_COLUMN (4460)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4460);
+```
+editor.ExecuteCommandByID(4460);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4460
+```
+editor.ExecuteCommandByID 4460
+```

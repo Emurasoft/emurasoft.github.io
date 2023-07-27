@@ -1,34 +1,39 @@
 # Find command
 
-### Summary
+## Summary
 
-> Finds a string.
+Finds a string.
 
-### Description
+## Description
 
-> Finds a specified string. This command displays the
-> [Find dialog box](../../dlg/find/index). Specifying a string
-> and other options will start finding the specified string.
+Finds a specified string. This command displays the
+[Find dialog box](../../dlg/find/index). Specifying a string
+and other options will start finding the specified string.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Search** \> **Find**
-- [All Commands](../tools/all_commands): **Search**
-\> **Find**
+- Default Menu:Search \>Find
+- [All Commands](../tools/all_commands):Search
+\>Find
 - Toolbar: ![](../../images/editfind.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+F
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EDIT\_FIND (4200)
+```
+EEID_EDIT_FIND (4200)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4200);
+```
+editor.ExecuteCommandByID(4200);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4200
+```
+editor.ExecuteCommandByID 4200
+```

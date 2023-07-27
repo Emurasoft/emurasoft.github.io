@@ -2,13 +2,19 @@
 
 항목을 추가합니다.
 
-#### \[JavaScript\]
+## 
 
-list. **Add**( _nKey_, _nFlags_, _nCommand_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Add( nKey, nFlags, nCommand );
+```
 
-list. **Add** _nKey_, _nFlags_, _nCommand_
+### \[VBScript\]
+
+```
+list.Add nKey, nFlags, nCommand
+```
 
 ## 매개 변수
 

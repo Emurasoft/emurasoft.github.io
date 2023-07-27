@@ -2,13 +2,19 @@
 
 EmEditor の設定に応じて、レジストリまたは INI ファイルから、指定する整数値を取得します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _nDefault_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = editor.GetProfileInt( nKey, strConfig, strEntry, nDefault );
+```
 
-_n_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _nDefault_ )
+### \[VBScript\]
+
+```
+n = editor.GetProfileInt( nKey, strConfig, strEntry, nDefault )
+```
 
 ## パラメータ
 
@@ -49,21 +55,17 @@ _nDefault_
 
 この例は、64 ビット整数を取得する方法を説明します。
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nHigh = 0;
-
 nLow = 0;
-
 s = editor.GetProfileString( eeRegCommon, "", "FindFlag", "0" );
-
 if( s.length == 18 && s.substr( 0, 2 ) == "0x" ) {
-
 nHigh = parseInt( s.substr( 2, 8 ), 16 );
-
 nLow = parseInt( s.substr( 10, 8 ), 16 );
-
 }
+```
 
 ## バージョン
 

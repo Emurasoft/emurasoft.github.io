@@ -2,23 +2,33 @@
 
 文書の数を取得します。
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = editor.Documents. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = editor.Documents.Count;
+```
 
-_nCount_ = editor.Documents. **Count**
+### \[VBScript\]
+
+```
+nCount = editor.Documents.Count
+```
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "文書の数: " + editor.Documents.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "文書の数: " & editor.Documents.Count
+```
 
 ## バージョン
 

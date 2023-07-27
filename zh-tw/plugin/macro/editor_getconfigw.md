@@ -8,12 +8,12 @@ Editor\_GetConfigW( HWND hwnd, LPWSTR szConfigName );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _szConfigName_
 
-> 指定會接收組態名稱的一個緩沖區。緩沖區大小必須至少是 MAX\_CONFIG\_NAME 所標示的單字數。
+指定會接收組態名稱的一個緩沖區。緩沖區大小必須至少是 MAX\_CONFIG\_NAME 所標示的單字數。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

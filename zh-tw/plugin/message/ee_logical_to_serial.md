@@ -15,8 +15,8 @@ lParam = (LPARAM) (POINT\_PTR\*) pptLogical
 
 _pptLogical_
 
-> 指針指向一個指定要被轉換的邏輯坐標的 [POINT\_PTR 結構](../structure/point_ptr)。
+指針指向一個指定要被轉換的邏輯坐標的 [POINT\_PTR 結構](../structure/point_ptr)。
 
 ## 返回值
 
-> 返回序列位置。
+返回序列位置。

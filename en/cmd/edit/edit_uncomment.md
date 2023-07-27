@@ -1,31 +1,36 @@
 # Uncomment command
 
-### Summary
+## Summary
 
-> Removes comment marks in the selection or current line.
+Removes comment marks in the selection or current line.
 
-### Description
+## Description
 
-> Removes comment marks at the beginning of each line at the selected area. If there is no selection, this command removes comment marks at the current line.
+Removes comment marks at the beginning of each line at the selected area. If there is no selection, this command removes comment marks at the current line.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Uncomment**
-- [All Commands](../tools/all_commands): **Convert** \> **Uncomment**
+- Default Menu:Convert \>Uncomment
+- [All Commands](../tools/all_commands):Convert \>Uncomment
 - Toolbar: ![](../../images/edituncomment.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EDIT\_UNCOMMENT (4372)
+```
+EEID_EDIT_UNCOMMENT (4372)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4372);
+```
+editor.ExecuteCommandByID(4372);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4372
+```
+editor.ExecuteCommandByID 4372
+```

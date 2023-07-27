@@ -39,6 +39,6 @@ msiexec /?
 
 を実行すると、コマンドの一覧が表示されます。
 
-### 注意
+## 注意
 
 EmEditor v20.9 以降を全ユーザーにインストールしたい場合は、MSIINSTALLPERUSER="" を指定する必要があります。EmEditor v20.8 以前を現在のユーザーのみにインストールしたい場合は、MSIINSTALLPERUSER=1 を指定する必要があります。

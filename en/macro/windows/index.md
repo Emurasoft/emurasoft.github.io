@@ -6,42 +6,34 @@ Windows collection provides a collection of window objects.
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | Retrieves the number of windows. |
-| **[Item](item)** | Retrieves the window object for the window of the specified index. |
+|[Count](count) | Retrieves the number of windows. |
+|[Item](item) | Retrieves the window object for the window of the specified index. |
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnds = new Enumerator( shell.windows );
-
 for( ; !wnds .atEnd(); wnds.moveNext() ){
-
 wnd = wnds.item();
-
 if( wnd.Caption == "Calculator" ){
-
 alert( "Found Calculator window" );
-
 break;
-
 }
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each wnd In shell.windows
-
 If wnd.Caption = "Calculator" Then
-
 alert "Found Calculator window"
-
 Exit For
-
 End If
-
 Next
+```
 
 ## Version
 

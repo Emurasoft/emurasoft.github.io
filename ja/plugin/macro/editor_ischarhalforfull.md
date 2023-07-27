@@ -13,28 +13,28 @@
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _ch_
 
-> (1) The Unicode character to be queried expressed as a UTF-16 character value.
+(1) The Unicode character to be queried expressed as a UTF-16 character value.
 
 _nScaler_
 
-> (2) The Unicode character to be queried expressed as a scaler value.
+(2) The Unicode character to be queried expressed as a scaler value.
 
 _pStr_
 
-> (3) The UTF-16 string to be queried.
+(3) The UTF-16 string to be queried.
 
 _cchStr_
 
-> (3) The length of the string in UTF-16 characters to be queried.
+(3) The length of the string in UTF-16 characters to be queried.
 
 ## 戻り値
 
-> (1) 全角の場合、または上位または下位サロゲート文字の場合は 2、半角の場合は 1、位置を移動しない文字の場合は 0 を返します。
->
-> (2) 全角の場合は 2、半角の場合は 1、位置を移動しない文字の場合は 0 を返します。
->
-> (3) 指定した文字列の幅の合計を返します。
+(1) 全角の場合、または上位または下位サロゲート文字の場合は 2、半角の場合は 1、位置を移動しない文字の場合は 0 を返します。
+
+(2) 全角の場合は 2、半角の場合は 1、位置を移動しない文字の場合は 0 を返します。
+
+(3) 指定した文字列の幅の合計を返します。

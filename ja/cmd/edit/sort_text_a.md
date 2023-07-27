@@ -1,14 +1,14 @@
 # \[AからZへ並べ替え\] コマンド
 
-### 概要
+## 概要
 
-> 現在の列のテキストを昇順で並べ替えます。
+現在の列のテキストを昇順で並べ替えます。
 
-### 説明
+## 説明
 
-> 現在の列のテキストを昇順で並べ替えます。
+現在の列のテキストを昇順で並べ替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[並べ替え\] \- \[AからZへ並べ替え\]
 - [すべてのコマンド](../../glossary/allcommands): \[並べ替え\] \- \[AからZへ並べ替え\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SORT\_TEXT\_A (4477)
+```
+EEID_SORT_TEXT_A (4477)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4477);
+```
+editor.ExecuteCommandByID(4477);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4477
+```
+editor.ExecuteCommandByID 4477
+```

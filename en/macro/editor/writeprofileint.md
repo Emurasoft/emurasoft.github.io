@@ -3,13 +3,19 @@
 Sets an integer value into the Registry or an INI file depending on the EmEditor
 settings.
 
-#### \[JavaScript\]
+## 
 
-editor. **WriteProfileInt**( _nKey_, _strConfig_, _strEntry_, _nData_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.WriteProfileInt( nKey, strConfig, strEntry, nData );
+```
 
-editor. **WriteProfileInt** _nKey_, _strConfig_, _strEntry_, _nData_
+### \[VBScript\]
+
+```
+editor.WriteProfileInt nKey, strConfig, strEntry, nData
+```
 
 ## Parameters
 

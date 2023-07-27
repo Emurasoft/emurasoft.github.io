@@ -1,32 +1,37 @@
 # Least Accessed Document command
 
-### Summary
+## Summary
 
-> Switches to the least accessed document.
+Switches to the least accessed document.
 
-### Description
+## Description
 
-> Switches to the least accessed document.
+Switches to the least accessed document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Document Navigation** \> **Least Accessed Document**
+- [All Commands](../tools/all_commands):Window
+\>Document Navigation \>Least Accessed Document
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PREV\_ZORDER\_DOC (4545)
+```
+EEID_PREV_ZORDER_DOC (4545)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4545);
+```
+editor.ExecuteCommandByID(4545);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4545
+```
+editor.ExecuteCommandByID 4545
+```

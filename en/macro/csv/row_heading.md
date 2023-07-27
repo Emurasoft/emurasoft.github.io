@@ -1,18 +1,22 @@
 # RowHeading Property (Csv Object)
 
-Corresponds to the **Row headings** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to theRow headings text box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **RowHeading**;
+### \[JavaScript\]
 
-object. **RowHeading** = _n_;
+```
+n = object.RowHeading;
+object.RowHeading = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **RowHeading**
-
-object. **RowHeading** = _n_
+```
+n = object.RowHeading
+object.RowHeading = n
+```
 
 ## Version
 

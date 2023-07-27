@@ -14,13 +14,13 @@ lParam = (LPARAM) (OUTLINE\_ARRAY\_INFO\*) pOutlineArrayInfo;
 
 _pOutlineArrayInfo_
 
-> Pointer to an [OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) structure.
+Pointer to an [OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) structure.
 
 ## Return Values
 
-> The return value is FALSE if there was no change. Otherwise, the return
-> value is TRUE.
+The return value is FALSE if there was no change. Otherwise, the return
+value is TRUE.
 
 ## Version
 
-> Supported in EmEditor Professional Version 13 or later.
+Supported in EmEditor Professional Version 13 or later.

@@ -1,14 +1,14 @@
 # \[すべて最小化\] コマンド
 
-### 概要
+## 概要
 
-> ウィンドウをすべて最小化します。
+ウィンドウをすべて最小化します。
 
-### 説明
+## 説明
 
-> ウィンドウをすべて最小化します。
+ウィンドウをすべて最小化します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ウィンドウ\] \- \[すべて最小化\]
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[すべて最小化\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_WINDOW\_MINIMIZE\_ALL (4244)
+```
+EEID_WINDOW_MINIMIZE_ALL (4244)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4244);
+```
+editor.ExecuteCommandByID(4244);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4244
+```
+editor.ExecuteCommandByID 4244
+```

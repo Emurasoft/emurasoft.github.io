@@ -1,18 +1,22 @@
 # UseRecycleBin 屬性 (BackupProp ��H)
 
-與組態屬性中 [**備份** 頁面](../../dlg/properties/backup/index) 上的 **使用回收站進行備份** 核取方塊對應。
+與組態屬性中 [備份 頁面](../../dlg/properties/backup/index) 上的使用回收站進行備份 核取方塊對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **UseRecycleBin**;
+### \[JavaScript\]
 
-object. **UseRecycleBin** = _b_;
+```
+b = object.UseRecycleBin;
+object.UseRecycleBin = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **UseRecycleBin**
-
-object. **UseRecycleBin** = _b_
+```
+b = object.UseRecycleBin
+object.UseRecycleBin = b
+```
 
 ## 版本
 

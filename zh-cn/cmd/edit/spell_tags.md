@@ -1,31 +1,36 @@
 # 对标记进行拼写检查命令
 
-### 摘要
+## 摘要
 
-> 对标记进行拼写检查。
+对标记进行拼写检查。
 
-### 说明
+## 说明
 
-> 对标记进行拼写检查。错误拼写的字词会以红色下划线显示。
+对标记进行拼写检查。错误拼写的字词会以红色下划线显示。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **编辑** \> **拼写检查** \> **检查拼写于** \> **标记**
-- [所有命令](../tools/all_commands): **编辑** \> **拼写检查** \> **检查拼写于** \> **标记**
+- 默认菜单:编辑 \>拼写检查 \>检查拼写于 \>标记
+- [所有命令](../tools/all_commands):编辑 \>拼写检查 \>检查拼写于 \>标记
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_SPELL\_TAGS (4518)
+```
+EEID_SPELL_TAGS (4518)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4518);
+```
+editor.ExecuteCommandByID(4518);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4518
+```
+editor.ExecuteCommandByID 4518
+```

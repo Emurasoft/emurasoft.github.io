@@ -2,17 +2,21 @@
 
 Retrieves or sets the number of lines for headings (non-scrollable area).
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **HeadingLines**;
+### \[JavaScript\]
 
-document. **HeadingLines** = _n_;
+```
+n = document.HeadingLines;
+document.HeadingLines = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = document. **HeadingLines**
-
-document. **HeadingLines** = _n_
+```
+n = document.HeadingLines
+document.HeadingLines = n
+```
 
 ## Version
 

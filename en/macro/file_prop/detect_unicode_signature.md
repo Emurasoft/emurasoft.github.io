@@ -1,20 +1,22 @@
 # DetectUnicodeSignature Property (FileProp Object)
 
-Corresponds to the **Detect Unicode Signature (BOM)** check box in the [**File** tab](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theDetect Unicode Signature (BOM) check box in the [File tab](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DetectUnicodeSignature**;
+### \[JavaScript\]
 
-object. **DetectUnicodeSignature** = _b_;
+```
+b = object.DetectUnicodeSignature;
+object.DetectUnicodeSignature = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DetectUnicodeSignature**
-
-object. **DetectUnicodeSignature** = _b_
+```
+b = object.DetectUnicodeSignature
+object.DetectUnicodeSignature = b
+```
 
 ## Version
 

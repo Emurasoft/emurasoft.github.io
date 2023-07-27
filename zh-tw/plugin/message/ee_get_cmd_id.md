@@ -13,8 +13,8 @@ lParam = (LPARAM) (HINSTANCE) hInstance
 
 _hInstance_
 
-> 指定外掛程式的實例句柄。
+指定外掛程式的實例句柄。
 
 ## 返回值
 
-> 返回命令 ID 來運行該外掛程式。
+返回命令 ID 來運行該外掛程式。

@@ -1,20 +1,22 @@
 # PromptUnicode 屬性 (FileSaveProp ��H)
 
-與 [**儲存詳細信息** 對話方塊](../../dlg/properties/file/save_details/index) 中的 **當儲存 Unicode 為 ANSI 時進行提示** 核取方塊相對應。
+與 [儲存詳細信息 對話方塊](../../dlg/properties/file/save_details/index) 中的當儲存 Unicode 為 ANSI 時進行提示 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptUnicode**;
+### \[JavaScript\]
 
-object. **PromptUnicode** = _b_;
+```
+b = object.PromptUnicode;
+object.PromptUnicode = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptUnicode**
-
-object. **PromptUnicode** = _b_
+```
+b = object.PromptUnicode
+object.PromptUnicode = b
+```
 
 ## 版本
 

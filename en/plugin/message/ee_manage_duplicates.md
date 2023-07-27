@@ -13,12 +13,12 @@ lParam = (LPARAM) (MANAGE\_DUPLICATES\_INFO\*) pManageDuplicatesInfo;
 
 _pManageDuplicatesInfo_
 
-> Pointer to the [MANAGE\_DUPLICATES\_INFO](../structure/manage_duplicates_info) structure.
+Pointer to the [MANAGE\_DUPLICATES\_INFO](../structure/manage_duplicates_info) structure.
 
 ## Return Value
 
-> Returns the HRESULT value. A zero or positive value means success while a negative value means failure.
+Returns the HRESULT value. A zero or positive value means success while a negative value means failure.
 
 ## Version
 
-> Supported on EmEditor Professional Version 16.4 or later.
+Supported on EmEditor Professional Version 16.4 or later.

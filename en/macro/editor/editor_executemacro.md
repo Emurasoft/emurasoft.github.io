@@ -2,13 +2,19 @@
 
 Executes a specified macro.
 
-#### \[JavaScript\]
+## 
 
-_nResult_ = editor. **ExecuteMacro**( _strMacroFileName_, _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nResult = editor.ExecuteMacro( strMacroFileName, nFlags );
+```
 
-_nResult_ = editor. **ExecuteMacro**( _strMacroFileName_, _nFlags_ )
+### \[VBScript\]
+
+```
+nResult = editor.ExecuteMacro( strMacroFileName, nFlags )
+```
 
 ## Parameters
 
@@ -35,17 +41,19 @@ The return value is not used.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 editor.ExecuteMacro( "E:\\\Macros\\\Macro.jsee", eeRunFile \| eeMacroLangJScript );
-
 editor.ExecuteMacro( "alert('Hello')", eeRunText \| eeMacroLangJScript );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 editor.ExecuteMacro "E:\\Macros\\Macro.jsee", eeRunFile Or eeMacroLangJScript
-
 editor.ExecuteMacro "alert('Hello')", eeRunText Or eeMacroLangJScript
+```
 
 ## Version
 

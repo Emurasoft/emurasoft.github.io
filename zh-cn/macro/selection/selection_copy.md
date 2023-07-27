@@ -2,13 +2,19 @@
 
 复制选定内容到剪贴板上。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Copy**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Copy( nFlags );
+```
 
-document.selection. **Copy** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Copy nFlags
+```
 
 ## 参数
 

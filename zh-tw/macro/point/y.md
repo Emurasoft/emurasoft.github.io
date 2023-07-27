@@ -2,17 +2,21 @@
 
 代表 Point 對象的垂直（或行）位置。
 
-#### \[JavaScript\]
+## 
 
-_y_ = point. **y**;
+### \[JavaScript\]
 
-point. **y** = _y_;
+```
+y = point.y;
+point.y = y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_y_ = point. **y**
-
-point. **y** = _y_
+```
+y = point.y
+point.y = y
+```
 
 ## 版本
 

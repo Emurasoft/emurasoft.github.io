@@ -1,31 +1,36 @@
 # Previous Change command
 
-### Summary
+## Summary
 
-> Jumps to the previous change.
+Jumps to the previous change.
 
-### Description
+## Description
 
-> Jumps to the previous difference when in comparison mode.
+Jumps to the previous difference when in comparison mode.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Previous Change**
-- [All Commands](../tools/all_commands): **Compare** \> **Previous Change**
+- Default Menu:Compare \>Previous Change
+- [All Commands](../tools/all_commands):Compare \>Previous Change
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+F7
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMPARE\_PREV (4509)
+```
+EEID_COMPARE_PREV (4509)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4509);
+```
+editor.ExecuteCommandByID(4509);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4509
+```
+editor.ExecuteCommandByID 4509
+```

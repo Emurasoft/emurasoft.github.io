@@ -1,14 +1,14 @@
 # \[Tabを挿入\] コマンド
 
-### 概要
+## 概要
 
-> カーソル位置に Tab を挿入します。
+カーソル位置に Tab を挿入します。
 
-### 説明
+## 説明
 
-> カーソル位置に Tab を挿入します。
+カーソル位置に Tab を挿入します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[挿入\] \- \[Tab\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[Tab\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_INSERT\_TAB (3878)
+```
+EEID_INSERT_TAB (3878)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3878);
+```
+editor.ExecuteCommandByID(3878);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3878
+```
+editor.ExecuteCommandByID 3878
+```

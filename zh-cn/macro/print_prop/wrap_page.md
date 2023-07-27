@@ -1,18 +1,22 @@
 # WrapPage 属性 (PrintProp ����)
 
-与配置属性中 [**打印** 页面](../../dlg/properties/print/index) 上的 **打印时按页面换行** 复选框相对应。
+与配置属性中 [打印 页面](../../dlg/properties/print/index) 上的打印时按页面换行 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **WrapPage**;
+### \[JavaScript\]
 
-object. **WrapPage** = _b_;
+```
+b = object.WrapPage;
+object.WrapPage = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **WrapPage**
-
-object. **WrapPage** = _b_
+```
+b = object.WrapPage
+object.WrapPage = b
+```
 
 ## 版本
 

@@ -1,31 +1,36 @@
 # Show Minimap while Hovered command
 
-### Summary
+## Summary
 
-> Shows the minimap while the mouse is hovered on the vertical scroll bar.
+Shows the minimap while the mouse is hovered on the vertical scroll bar.
 
-### Description
+## Description
 
-> Shows the minimap while the mouse is hovered on the vertical scroll bar.
+Shows the minimap while the mouse is hovered on the vertical scroll bar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Show Minimap while Hovered**
+- [All Commands](../tools/all_commands):Window \>Scroll \>Show Minimap while Hovered
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MINIMAP\_HOVER (4044)
+```
+EEID_MINIMAP_HOVER (4044)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4044);
+```
+editor.ExecuteCommandByID(4044);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4044
+```
+editor.ExecuteCommandByID 4044
+```

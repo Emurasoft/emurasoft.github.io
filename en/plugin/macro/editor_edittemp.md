@@ -9,40 +9,40 @@ Editor\_EditTemp( HWND hwnd, LPCWSTR pszTempText, LPCWSTR pszTitle, LPCWSTR pszI
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _pszTempText_
 
-> Specifies temporary text on memory that you want to open as a new document.
+Specifies temporary text on memory that you want to open as a new document.
 
 _pszTitle_
 
-> Specifies the title of the new document.
+Specifies the title of the new document.
 
 _pszIconPath_
 
-> Specifies the path and file name of the icon that you want to use as a new document.
+Specifies the path and file name of the icon that you want to use as a new document.
 
 _pszConfig_
 
-> Specifies the name of the configuration that the new document should use.
+Specifies the name of the configuration that the new document should use.
 
 _nEncoding_
 
-> Specifies the encoding of the file. The encoding constants are listed in ["EmEditor Macro Reference: Encoding Constants".](http://www.emeditor.org/en/macro_const_const_encoding.html)
+Specifies the encoding of the file. The encoding constants are listed in ["EmEditor Macro Reference: Encoding Constants".](http://www.emeditor.org/en/macro_const_const_encoding.html)
 
 _pptInitialCaret_
 
-> Specifies the initial cursor position.
+Specifies the initial cursor position.
 
 _nFlags_
 
-> This value must be zero.
+This value must be zero.
 
 ## Return Values
 
-> The return value is the ID of the new document.
+The return value is the ID of the new document.
 
 ## Version
 
-> Supported on EmEditor Version 9.00 or later.
+Supported on EmEditor Version 9.00 or later.

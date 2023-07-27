@@ -2,13 +2,19 @@
 
 Selects specified columns in a CSV mode.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectColumn**( _iColumn_, \[ \[ _iColumn2_ \], _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectColumn( iColumn, [ [ iColumn2 ], nFlags ] );
+```
 
-document.selection. **SelectColumn** _iColumn_, \[ \[ _iColumn2_ \], _nFlags_ \]
+### \[VBScript\]
+
+```
+document.selection.SelectColumn iColumn, [ [ iColumn2 ], nFlags ]
+```
 
 ## Parameters
 

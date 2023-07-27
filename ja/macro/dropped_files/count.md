@@ -2,13 +2,19 @@
 
 ドロップされたファイルの数を取得します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = DroppedFiles. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = DroppedFiles.Count;
+```
 
-_n_ = DroppedFiles. **Count**
+### \[VBScript\]
+
+```
+n = DroppedFiles.Count
+```
 
 ## バージョン
 

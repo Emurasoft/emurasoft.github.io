@@ -1,20 +1,22 @@
 # PromptRename 属性 (FileSaveProp ����)
 
-与 [**保存详细信息** 对话框](../../dlg/properties/file/save_details/index) 中的 **更名时在删除旧文件前提示** 复选框相对应。
+与 [保存详细信息 对话框](../../dlg/properties/file/save_details/index) 中的更名时在删除旧文件前提示 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptRename**;
+### \[JavaScript\]
 
-object. **PromptRename** = _b_;
+```
+b = object.PromptRename;
+object.PromptRename = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptRename**
-
-object. **PromptRename** = _b_
+```
+b = object.PromptRename
+object.PromptRename = b
+```
 
 ## 版本
 

@@ -9,20 +9,20 @@ Editor\_DocInfoEx( HWND hwnd, int iDoc, int nCmd, LPARAM lParam );
 
 _nCmd_
 
-> 指定要检索或设置的参数。命令条目请参考 [EE\_INFO](../message/ee_info) 消息。
+指定要检索或设置的参数。命令条目请参考 [EE\_INFO](../message/ee_info) 消息。
 
 _hDoc_
 
-> 指定目标文档的句柄。如果指定 NULL，则当前的活动文档将成为目标。根据 nCmd，也有可能不使用此参数。
+指定目标文档的句柄。如果指定 NULL，则当前的活动文档将成为目标。根据 nCmd，也有可能不使用此参数。
 
 _lParam_
 
-> 取决于指定的参数。
+取决于指定的参数。
 
 ## 返回值
 
-> 取决于指定的参数。
+取决于指定的参数。
 
 ## 支持版本
 
-> 支持 EmEditor Professional v21.8 或之后的版本。
+支持 EmEditor Professional v21.8 或之后的版本。

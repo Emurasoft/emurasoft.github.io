@@ -2,17 +2,21 @@
 
 Retrieves or sets the delimiter for the current Csv object.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Delimiter**;
+### \[JavaScript\]
 
-object. **Delimiter** = _s_;
+```
+s = object.Delimiter;
+object.Delimiter = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Delimiter**
-
-object. **Delimiter** = _s_
+```
+s = object.Delimiter
+object.Delimiter = s
+```
 
 ## Version
 

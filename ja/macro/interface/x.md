@@ -2,13 +2,19 @@
 
 サポートされたプラグインから渡された水平カーソル位置を返します。
 
-#### \[JavaScript\]
+## 
 
-_x_ = Interface. **x**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+x = Interface.x;
+```
 
-_x_ = Interface. **x**
+### \[VBScript\]
+
+```
+x = Interface.x
+```
 
 ## バージョン
 

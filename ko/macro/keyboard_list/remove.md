@@ -2,13 +2,19 @@
 
 항목을 제거합니다.
 
-#### \[JavaScript\]
+## 
 
-list. **Remove**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Remove( Index );
+```
 
-list. **Remove** _Index_
+### \[VBScript\]
+
+```
+list.Remove Index
+```
 
 ## 매개 변수
 

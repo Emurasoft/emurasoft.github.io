@@ -1,22 +1,24 @@
 # ShowIndentGuides 屬性 (MarkProp ��H)
 
-與組態屬性中 [**標記** 頁面](../../dlg/properties/marks/index) 上的 **顯示縮排線** 核取方塊相對應。
+與組態屬性中 [標記 頁面](../../dlg/properties/marks/index) 上的顯示縮排線 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowIndentGuides**;
+### \[JavaScript\]
 
-object. **ShowIndentGuides**
-= _b_;
+```
+b = object.ShowIndentGuides;
+object.ShowIndentGuides
+= b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowIndentGuides**
-
-object. **ShowIndentGuides**
-= _b_
+```
+b = object.ShowIndentGuides
+object.ShowIndentGuides
+= b
+```
 
 ## 版本
 

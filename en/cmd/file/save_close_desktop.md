@@ -1,32 +1,37 @@
 # Save and Close All (Current Desktop Only) command
 
-### Summary
+## Summary
 
-> Saves and closes all open files in the current virtual desktop.
+Saves and closes all open files in the current virtual desktop.
 
-### Description
+## Description
 
-> Saves and closes all open files in the current virtual desktop.
+Saves and closes all open files in the current virtual desktop.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Close**
-\> **Save and Close All (Current Desktop Only)**
+- [All Commands](../tools/all_commands):File \>Close
+\>Save and Close All (Current Desktop Only)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SAVE\_CLOSE\_DESKTOP (3934)
+```
+EEID_SAVE_CLOSE_DESKTOP (3934)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3934);
+```
+editor.ExecuteCommandByID(3934);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3934
+```
+editor.ExecuteCommandByID 3934
+```

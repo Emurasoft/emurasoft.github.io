@@ -23,42 +23,42 @@ LPCWSTR pszIgnore;
 
 _cbSize_
 
-> Specifies sizeof( EXTRACT\_FREQUENT\_INFO ).
+Specifies sizeof( EXTRACT\_FREQUENT\_INFO ).
 
 _nType_
 
-> Specifies one of the following values.
+Specifies one of the following values.
 
-> | Value | Meaning |
-> | --- | --- |
-> | FREQ\_TYPE\_LINES | Creates a list of frequent lines. |
-> | FREQ\_TYPE\_WORDS | Creates a list of frequent words. A word is a string surrounded by non-alphanumeric characters, which can be customized by the **Treat the following characters as alphanumeric** text box in the [**Edit** page](../../dlg/customize/edit/index) of the **Customize** dialog box. |
-> | FREQ\_TYPE\_CELLS | Creates a list of frequent cells. |
-> | FREQ\_TYPE\_IPV4 | Creates a list of frequent IPv4 addresses. |
-> | FREQ\_TYPE\_IPV6 | Creates a list of frequent IPv6 addresses. |
+| Value | Meaning |
+| --- | --- |
+| FREQ\_TYPE\_LINES | Creates a list of frequent lines. |
+| FREQ\_TYPE\_WORDS | Creates a list of frequent words. A word is a string surrounded by non-alphanumeric characters, which can be customized by theTreat the following characters as alphanumeric text box in the [Edit page](../../dlg/customize/edit/index) of theCustomize dialog box. |
+| FREQ\_TYPE\_CELLS | Creates a list of frequent cells. |
+| FREQ\_TYPE\_IPV4 | Creates a list of frequent IPv4 addresses. |
+| FREQ\_TYPE\_IPV6 | Creates a list of frequent IPv6 addresses. |
 
 _nNumOfLines_
 
-> Specifies the maximum number of strings to be extracted. The actual output may exceed this number in order to include all multiple strings detected for the same frequency.
+Specifies the maximum number of strings to be extracted. The actual output may exceed this number in order to include all multiple strings detected for the same frequency.
 
 _iCsvFormat_
 
-> Specifies the CSV format to display as.
+Specifies the CSV format to display as.
 
 _nFlags_
 
-> Specifies a combination of the following values.
->
-> | Value | Meaning |
-> | --- | --- |
-> | FLAG\_FIND\_CASE | Matches cases. |
-> | FLAG\_FIND\_OPEN\_DOC | Searches all open documents in the same frame window. |
-> | FLAG\_FIND\_SEL\_ONLY | Searches only in the selection. |
+Specifies a combination of the following values.
+
+| Value | Meaning |
+| --- | --- |
+| FLAG\_FIND\_CASE | Matches cases. |
+| FLAG\_FIND\_OPEN\_DOC | Searches all open documents in the same frame window. |
+| FLAG\_FIND\_SEL\_ONLY | Searches only in the selection. |
 
 _pszIgnore_
 
-> Specifies strings to be ignored while counting frequent strings. Multiple strings must be separated by a line-feed (\\n).
+Specifies strings to be ignored while counting frequent strings. Multiple strings must be separated by a line-feed (\\n).
 
 ## Version
 
-> Supported on Version 21.9 or later.
+Supported on Version 21.9 or later.

@@ -1,34 +1,39 @@
 # Synchronize Outline Bar and Outline Guide
 
-### Summary
+## Summary
 
-> Synchronizes the expanded or collapsed status in the Outline Bar and the
-> Outline Guide.
+Synchronizes the expanded or collapsed status in the Outline Bar and the
+Outline Guide.
 
-### Description
+## Description
 
-> While outlining is displayed, this command
-> synchronizes the expanded or collapsed status in the Outline Bar and the
-> Outline Guide.
+While outlining is displayed, this command
+synchronizes the expanded or collapsed status in the Outline Bar and the
+Outline Guide.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Outlining** \> **Synchronize Outline Bar and Outline Guide**
-- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Synchronize Outline Bar and Outline Guide**
+- Default Menu:Edit \>Outlining \>Synchronize Outline Bar and Outline Guide
+- [All Commands](../tools/all_commands):Edit \>Outlining \>Synchronize Outline Bar and Outline Guide
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_OUTLINE\_SYNC\_BAR\_TO\_GUIDE (3879)
+```
+EEID_OUTLINE_SYNC_BAR_TO_GUIDE (3879)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3879);
+```
+editor.ExecuteCommandByID(3879);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3879
+```
+editor.ExecuteCommandByID 3879
+```

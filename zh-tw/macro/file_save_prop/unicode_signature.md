@@ -1,20 +1,22 @@
 # UnicodeSignature 屬性 (FileSaveProp ��H)
 
-與 [**添加一個 Unicode 簽名 (BOM)** 核取方塊](../../dlg/properties/file/save_details/index) 相對應。
+與 [添加一個 Unicode 簽名 (BOM) 核取方塊](../../dlg/properties/file/save_details/index) 相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **UnicodeSignature**;
+### \[JavaScript\]
 
-object. **UnicodeSignature** = _b_;
+```
+b = object.UnicodeSignature;
+object.UnicodeSignature = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **UnicodeSignature**
-
-object. **UnicodeSignature** = _b_
+```
+b = object.UnicodeSignature
+object.UnicodeSignature = b
+```
 
 ## 版本
 

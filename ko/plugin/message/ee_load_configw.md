@@ -14,8 +14,8 @@ lParam = (LPARAM) (LPCWSTR) szConfigName;
 
 _szConfigName_
 
-> 다시로드할 구성의 이름을 지정합니다.
+다시로드할 구성의 이름을 지정합니다.
 
 ## 반환 값
 
-> 반환 값이 사용되지 않습니다.
+반환 값이 사용되지 않습니다.

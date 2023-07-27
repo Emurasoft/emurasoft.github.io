@@ -12,12 +12,12 @@ lParam = 0;
 
 _pUNI_
 
-> Specifies the pointer to the [NUMBERING\_INFO structure](../structure/numbering_info).
+Specifies the pointer to the [NUMBERING\_INFO structure](../structure/numbering_info).
 
 ## Return Values
 
-> The return value is 0 if succeeds.
+The return value is 0 if succeeds.
 
 ## Version
 
-> Supported on Version 19.1 or later.
+Supported on Version 19.1 or later.

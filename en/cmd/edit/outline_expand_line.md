@@ -1,32 +1,37 @@
 # Expand Line command
 
-### Summary
+## Summary
 
-> Expands the current line while outlining is displayed.
+Expands the current line while outlining is displayed.
 
-### Description
+## Description
 
-> While outlining is displayed, this command expands the current line. It is the same effect as clicking the "+" button at the
-> left side of a text line. A plug-in for outlining is necessary to display the outlining.
+While outlining is displayed, this command expands the current line. It is the same effect as clicking the "+" button at the
+left side of a text line. A plug-in for outlining is necessary to display the outlining.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Outlining** \> **Expand Line**
-- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Expand Line**
+- Default Menu:Edit \>Outlining \>Expand Line
+- [All Commands](../tools/all_commands):Edit \>Outlining \>Expand Line
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_OUTLINE\_EXPAND\_LINE (4414)
+```
+EEID_OUTLINE_EXPAND_LINE (4414)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4414);
+```
+editor.ExecuteCommandByID(4414);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4414
+```
+editor.ExecuteCommandByID 4414
+```

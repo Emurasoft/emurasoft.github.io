@@ -2,13 +2,19 @@
 
 Copies the selection to the Clipboard.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Copy**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Copy( nFlags );
+```
 
-document.selection. **Copy** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Copy nFlags
+```
 
 ## Parameters
 

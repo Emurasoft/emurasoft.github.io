@@ -9,12 +9,12 @@ Editor\_GetCmdID( HWND hwnd, HINSTANCE hInstance );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _hInstance_
 
-> 指定插件的实例句柄。
+指定插件的实例句柄。
 
 ## 返回值
 
-> 返回命令 ID 来运行该插件。
+返回命令 ID 来运行该插件。

@@ -1,20 +1,22 @@
 # VirtualSpace プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の **\[フリー カーソル モード\]** チェック ボックスに相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[フリー カーソル モード\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **VirtualSpace**;
+### \[JavaScript\]
 
-object. **VirtualSpace** = _b_;
+```
+b = object.VirtualSpace;
+object.VirtualSpace = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **VirtualSpace**
-
-object. **VirtualSpace** = _b_
+```
+b = object.VirtualSpace
+object.VirtualSpace = b
+```
 
 ## バージョン
 

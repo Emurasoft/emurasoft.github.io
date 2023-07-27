@@ -1,14 +1,14 @@
 # \[合字を挿入\] コマンド
 
-### 概要
+## 概要
 
-> a, o, s, A, O を続けて合字を挿入します。
+a, o, s, A, O を続けて合字を挿入します。
 
-### 説明
+## 説明
 
-> カーソル位置に a, o, s, A, O を続けて合字 æ œ Æ Œ を、s を続けて鋭s ß を挿入します。
+カーソル位置に a, o, s, A, O を続けて合字 æ œ Æ Œ を、s を続けて鋭s ß を挿入します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[挿入\] \- \[発音区別符号\] \- \[合字\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[発音区別符号\] \- \[合字\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+7
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_INSERT\_LIGATURE (4309)
+```
+EEID_INSERT_LIGATURE (4309)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4309);
+```
+editor.ExecuteCommandByID(4309);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4309
+```
+editor.ExecuteCommandByID 4309
+```

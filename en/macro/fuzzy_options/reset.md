@@ -2,13 +2,19 @@
 
 Resets the fuzzy options to default values.
 
-#### \[JavaScript\]
+## 
 
-obj. **Reset**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj.Reset();
+```
 
-obj. **Reset**
+### \[VBScript\]
+
+```
+obj.Reset
+```
 
 ## Version
 

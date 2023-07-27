@@ -2,13 +2,19 @@
 
 Retrieves the text on the specified cell in a CSV mode.
 
-#### \[JavaScript\]
+## 
 
-_str_ = document. **GetCell**( _yLine_, _iColumn_, _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = document.GetCell( yLine, iColumn, flags );
+```
 
-_str_ = document. **GetCell**( _yLine_, _iColumn_, _flags_ )
+### \[VBScript\]
+
+```
+str = document.GetCell( yLine, iColumn, flags )
+```
 
 ## Parameters
 
@@ -22,13 +28,13 @@ Specifies the index of the column of the text you want to retrieve.
 
 _flags_
 
-> Specifies one of the following values.
->
-> |     |     |
-> | --- | --- |
-> | eeCellIncludeNone | The returned text may not include surrounded double-quotes or delimiters. |
-> | eeCellIncludeQuotes | The returned text may include surrounded double-quotes but no delimiters. |
-> | eeCellIncludeQuotesAndDelimiter | The returned text may include surrounded double-quotes and delimiters. |
+Specifies one of the following values.
+
+|     |     |
+| --- | --- |
+| eeCellIncludeNone | The returned text may not include surrounded double-quotes or delimiters. |
+| eeCellIncludeQuotes | The returned text may include surrounded double-quotes but no delimiters. |
+| eeCellIncludeQuotesAndDelimiter | The returned text may include surrounded double-quotes and delimiters. |
 
 ## Version
 

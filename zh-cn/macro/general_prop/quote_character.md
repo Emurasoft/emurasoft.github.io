@@ -1,20 +1,22 @@
 # QuoteCharacter 属性 (GeneralProp ����)
 
-与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **引用字符** 文本框相对应。
+与配置属性中 [常规 页面](../../dlg/properties/general/index) 上的引用字符 文本框相对应。
 
-#### \[JavaScript\]
+## 
 
-_str_ =
-object. **QuoteCharacter**;
+### \[JavaScript\]
 
-object. **QuoteCharacter** = _str_;
+```
+str = object.QuoteCharacter;
+object.QuoteCharacter = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ =
-object. **QuoteCharacter**
-
-object. **QuoteCharacter** = _str_
+```
+str = object.QuoteCharacter
+object.QuoteCharacter = str
+```
 
 ## 版本
 

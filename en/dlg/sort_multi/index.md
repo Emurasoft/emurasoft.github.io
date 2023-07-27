@@ -1,22 +1,22 @@
 # Advanced Sort dialog box
 
 This dialog box appears when the
-[**Advanced Sort** command](../../cmd/edit/sort_multi) or the
-**Advanced Sort** button is selected in a toolbar.
+[Advanced Sort command](../../cmd/edit/sort_multi) or the
+Advanced Sort button is selected in a toolbar.
 
-### Columns list box
+## Columns list box
 
 Shows the list of available columns. Higher checked items on the list are sorted first.
 
-### Add button
+## Add button
 
 Adds an item to the list.
 
-### Delete button
+## Delete button
 
 Click this button to delete the selected item from the list.
 
-### How to Sort list box
+## How to Sort list box
 
 Displays the list of defined sort conditions.
 
@@ -40,27 +40,27 @@ Displays the list of defined sort conditions.
 | Sort IPv6 Addresses Descending | Sorts IPv6 addresses in the current column, in descending order. |
 | Sort Randomly | Sorts randomly in the current column. |
 
-### Enable/Disable ALL check box
+## Enable/Disable ALL check box
 
 This check box allows you to enable or disable all items in the list.
 
-### Apply to all documents in the group check box
+## Apply to all documents in the group check box
 
 Sorts all the documents in the group.
 
-### In the Selection Only check box
+## In the Selection Only check box
 
 Sorts only the selected lines.
 
-### Advanced Options button
+## Advanced Options button
 
-Click this button to display the [**Sort** page](../customize/sort/index) of the **Customize** dialog box.
+Click this button to display the [Sort page](../customize/sort/index) of theCustomize dialog box.
 
-### Sort Now button
+## Sort Now button
 
 Starts sorting the document(s) with the specified settings.
 
-### Sort Opposite button
+## Sort Opposite button
 
 Starts sorting the documents(s) with the specified settings in the opposite direction.
 

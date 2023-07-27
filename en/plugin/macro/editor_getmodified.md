@@ -8,9 +8,9 @@ Editor\_GetModified( HWND hwnd );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 ## Return Values
 
-> If the text is modified, the return value is TRUE. If the text is not
-> modified, the return value is FALSE.
+If the text is modified, the return value is TRUE. If the text is not
+modified, the return value is FALSE.

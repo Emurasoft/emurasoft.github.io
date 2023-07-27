@@ -2,13 +2,19 @@
 
 現在の設定を保存します。
 
-#### \[JavaScript\]
+## 
 
-object. **Save**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Save( [ strName ] );
+```
 
-object. **Save** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Save [ strName ]
+```
 
 ## パラメータ
 

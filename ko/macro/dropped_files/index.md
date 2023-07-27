@@ -6,28 +6,27 @@ DroppedFiles 컬렉션은 프레임 창에 삭제된 파일의 이름 컬렉션�
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 삭제된 파일의 이름을 검색합니다. |
-| **[Item](item)** | 지정된 인덱스의 삭제된 파일을 위해 파일 이름을 검색합니다. |
+|[Count](count) | 삭제된 파일의 이름을 검색합니다. |
+|[Item](item) | 지정된 인덱스의 삭제된 파일을 위해 파일 이름을 검색합니다. |
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 files = new Enumerator( DroppedFiles );
-
 for( ; !files.atEnd(); files.moveNext() ){
-
 alert( files.item() );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each str In DroppedFiles
-
 alert str
-
 Next
+```
 
 ## 버전
 

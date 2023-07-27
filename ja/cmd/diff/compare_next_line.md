@@ -1,14 +1,14 @@
 # \[次の変更行\] コマンド
 
-### 概要
+## 概要
 
-> 次の変更行にジャンプします。
+次の変更行にジャンプします。
 
-### 説明
+## 説明
 
-> 次の変更行にジャンプします。
+次の変更行にジャンプします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[比較\] \- \[次の変更行\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_COMPARE\_NEXT\_LINE (4557)
+```
+EEID_COMPARE_NEXT_LINE (4557)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4557);
+```
+editor.ExecuteCommandByID(4557);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4557
+```
+editor.ExecuteCommandByID 4557
+```

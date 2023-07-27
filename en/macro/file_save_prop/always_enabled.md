@@ -1,21 +1,23 @@
 # AlwaysEnabled Property (FileSaveProp Object)
 
-Corresponds to the **Always Enable Saving** check box in the
-[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to theAlways Enable Saving check box in the
+[Save Details dialog box](../../dlg/properties/file/save_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **AlwaysEnabled**;
+### \[JavaScript\]
 
-object. **AlwaysEnabled** = _b_;
+```
+b = object.AlwaysEnabled;
+object.AlwaysEnabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **AlwaysEnabled**
-
-object. **AlwaysEnabled** = _b_
+```
+b = object.AlwaysEnabled
+object.AlwaysEnabled = b
+```
 
 ## Version
 

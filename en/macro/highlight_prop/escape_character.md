@@ -1,20 +1,24 @@
 # EscapeCharacter Property (HighlightProp Object)
 
-Corresponds to the **String**
-**Enclosed by Quotation Marks group box - Escape Character** text box in the
-[**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to theString
+Enclosed by Quotation Marks group box - Escape Character text box in the
+[Highlight (2) page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **EscapeCharacter**;
+### \[JavaScript\]
 
-object. **EscapeCharacter** = _str_;
+```
+str = object.EscapeCharacter;
+object.EscapeCharacter = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **EscapeCharacter**
-
-object. **EscapeCharacter** = _str_
+```
+str = object.EscapeCharacter
+object.EscapeCharacter = str
+```
 
 ## Version
 

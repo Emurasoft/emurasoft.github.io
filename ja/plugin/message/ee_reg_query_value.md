@@ -12,11 +12,11 @@ wParam = 0;
 
 _pRegSetValueInfo_
 
-> [REG\_QUERY\_VALUE\_INFO 構造体](../structure/reg_query_value_info) へのポインタ。
+[REG\_QUERY\_VALUE\_INFO 構造体](../structure/reg_query_value_info) へのポインタ。
 
 ## 戻り値
 
-> 成功すると ERROR\_SUCCESS を返します。失敗すると Winerror.h で定義された 0 でないエラーコードを返します。
+成功すると ERROR\_SUCCESS を返します。失敗すると Winerror.h で定義された 0 でないエラーコードを返します。
 
 ## バージョン
 

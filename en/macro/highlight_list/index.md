@@ -6,37 +6,35 @@ HighlightList collection provides a collection of [HighlightItem objects](../hig
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | Retrieves the number of items. |
-| **[Item](item)** | Retrieves the [HighlightItem object](../highlight_item/index) for the specified index. |
+|[Count](count) | Retrieves the number of items. |
+|[Item](item) | Retrieves the [HighlightItem object](../highlight_item/index) for the specified index. |
 
 ## Methods
 
 |     |     |
 | --- | --- |
-| **[Add](add)** | Adds an item. |
-| **[Remove](remove)** | Removes an item. |
+|[Add](add) | Adds an item. |
+|[Remove](remove) | Removes an item. |
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Highlight.List );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Highlight.List
-
 alert item.Name
-
 Next
+```
 
 ## Version
 

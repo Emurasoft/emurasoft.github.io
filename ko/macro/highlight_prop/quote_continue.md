@@ -1,20 +1,22 @@
 # QuoteContinue 속성 (HighlightProp ��ü)
 
-구성 속성 [**강조 표시 (2)** 탭](../../dlg/properties/highlight2/index) 의 **따옴표로 닫힌 문자열 그룹 박스 \- 다음 줄로 계속하기** 체크 박스에 해당합니다.
+구성 속성 [강조 표시 (2) 탭](../../dlg/properties/highlight2/index) 의따옴표로 닫힌 문자열 그룹 박스 \- 다음 줄로 계속하기 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **QuoteContinue**;
+### \[JavaScript\]
 
-object. **QuoteContinue** = _b_;
+```
+b = object.QuoteContinue;
+object.QuoteContinue = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **QuoteContinue**
-
-object. **QuoteContinue** = _b_
+```
+b = object.QuoteContinue
+object.QuoteContinue = b
+```
 
 ## 버전
 

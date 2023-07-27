@@ -13,11 +13,11 @@ lParam = (LPARAM) (TEMP\_INFO) pTI;
 
 _pTI_
 
-> 指针指向 [TEMP\_INFO](../structure/temp_info) 结构。
+指针指向 [TEMP\_INFO](../structure/temp_info) 结构。
 
 ## 返回值
 
-> 返回值是新文档的 ID。然而，当关闭一个临时文本时，不使用返回值。
+返回值是新文档的 ID。然而，当关闭一个临时文本时，不使用返回值。
 
 ## 支持版本
 

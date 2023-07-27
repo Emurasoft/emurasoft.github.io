@@ -1,33 +1,38 @@
 # About EmEditor command
 
-### Summary
+## Summary
 
-> Displays version information.
+Displays version information.
 
-### Description
+## Description
 
-> Displays the [**About EmEditor** dialog box](../../dlg/about/index),
-> where you can confirm the version information about EmEditor.
+Displays the [About EmEditor dialog box](../../dlg/about/index),
+where you can confirm the version information about EmEditor.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Help** \> **About EmEditor**
-- [All Commands](../tools/all_commands): **Help** >
-**About EmEditor**
+- Default Menu:Help \>About EmEditor
+- [All Commands](../tools/all_commands):Help >
+About EmEditor
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_APP\_ABOUT (4250)
+```
+EEID_APP_ABOUT (4250)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4250);
+```
+editor.ExecuteCommandByID(4250);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4250
+```
+editor.ExecuteCommandByID 4250
+```

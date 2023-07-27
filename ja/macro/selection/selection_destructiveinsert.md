@@ -2,13 +2,19 @@
 
 既に存在するテキストを上書きしてテキストを挿入します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **DestructiveInsert**( str );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.DestructiveInsert( str );
+```
 
-document.selection. **DestructiveInsert** str
+### \[VBScript\]
+
+```
+document.selection.DestructiveInsert str
+```
 
 ## 引数
 

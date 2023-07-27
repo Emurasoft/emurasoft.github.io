@@ -1,20 +1,22 @@
 # IgnoreColor 속성 (PrintProp ��ü)
 
-구성 속성 [**인쇄** 탭](../../dlg/properties/print/index) 의 **색과 밑줄 무시하기** 체크 박스에 해당합니다.
+구성 속성 [인쇄 탭](../../dlg/properties/print/index) 의색과 밑줄 무시하기 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **IgnoreColor**;
+### \[JavaScript\]
 
-object. **IgnoreColor** = _b_;
+```
+b = object.IgnoreColor;
+object.IgnoreColor = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **IgnoreColor**
-
-object. **IgnoreColor** = _b_
+```
+b = object.IgnoreColor
+object.IgnoreColor = b
+```
 
 ## 버전
 

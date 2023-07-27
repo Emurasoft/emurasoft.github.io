@@ -1,31 +1,36 @@
 # Zoom Out Minimap command
 
-### Summary
+## Summary
 
-> Zooms out the minimap.
+Zooms out the minimap.
 
-### Description
+## Description
 
-> Zooms out the minimap.
+Zooms out the minimap.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Zoom Out**
+- [All Commands](../tools/all_commands):Window \>Scroll \>Zoom Out
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MINIMAP\_ZOOM\_OUT (3977)
+```
+EEID_MINIMAP_ZOOM_OUT (3977)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3977);
+```
+editor.ExecuteCommandByID(3977);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3977
+```
+editor.ExecuteCommandByID 3977
+```

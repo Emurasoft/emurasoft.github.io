@@ -2,17 +2,21 @@
 
 上書き状態、または挿入状態かどうかを取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_bOverwrite_ = document.selection. **OverwriteMode**;
+### \[JavaScript\]
 
-document.selection. **OverwriteMode** = _bOverwrite_;
+```
+bOverwrite = document.selection.OverwriteMode;
+document.selection.OverwriteMode = bOverwrite;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bOverwrite_ = document.selection. **OverwriteMode**
-
-document.selection. **OverwriteMode** = _bOverwrite_
+```
+bOverwrite = document.selection.OverwriteMode
+document.selection.OverwriteMode = bOverwrite
+```
 
 ## バージョン
 

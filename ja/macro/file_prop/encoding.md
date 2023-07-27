@@ -1,18 +1,22 @@
 # Encoding プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の **\[開く時のエンコード\]** ドロップダウン リスト ボックスに相当します。
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[開く時のエンコード\] ドロップダウン リスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Encoding**;
+### \[JavaScript\]
 
-object. **Encoding** = _n_;
+```
+n = object.Encoding;
+object.Encoding = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Encoding**
-
-object. **Encoding** = _n_
+```
+n = object.Encoding
+object.Encoding = n
+```
 
 ## バージョン
 

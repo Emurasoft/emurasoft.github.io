@@ -1,32 +1,37 @@
 # Uppercase command
 
-### Summary
+## Summary
 
-> Converts the selection to all uppercase characters.
+Converts the selection to all uppercase characters.
 
-### Description
+## Description
 
-> Converts the selection to all uppercase letters. For instance, a will become A, ä will
-> become Ä, and λ will become Λ.
+Converts the selection to all uppercase letters. For instance, a will become A, ä will
+become Ä, and λ will become Λ.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Uppercase**
-- [All Commands](../tools/all_commands): **Convert** \> **Uppercase**
+- Default Menu:Convert \>Uppercase
+- [All Commands](../tools/all_commands):Convert \>Uppercase
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+U
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MAKE\_UPPER (4149)
+```
+EEID_MAKE_UPPER (4149)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.ChangeCase(eeCaseUpperCase);
+```
+document.selection.ChangeCase(eeCaseUpperCase);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.ChangeCase eeCaseUpperCase
+```
+document.selection.ChangeCase eeCaseUpperCase
+```

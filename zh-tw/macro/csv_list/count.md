@@ -2,23 +2,33 @@
 
 檢索 Csv 對象的數目。
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = editor.CsvList. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = editor.CsvList.Count;
+```
 
-_nCount_ = editor.CsvList. **Count**
+### \[VBScript\]
+
+```
+nCount = editor.CsvList.Count
+```
 
 ## 範例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Csv 對象數： " + editor.CsvList.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Csv 對象數： " & editor.CsvList.Count
+```
 
 ## 版本
 

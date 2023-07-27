@@ -13,8 +13,8 @@ lParam = (LPARAM) (HINSTANCE) hInstance
 
 _hInstance_
 
-> 指定插件的实例句柄。
+指定插件的实例句柄。
 
 ## 返回值
 
-> 返回命令 ID 来运行该插件。
+返回命令 ID 来运行该插件。

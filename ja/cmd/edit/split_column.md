@@ -1,14 +1,14 @@
 # \[列を分割\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書の選択列を分割します。
+CSV文書の選択列を分割します。
 
-### 説明
+## 説明
 
-> このコマンドを実行すると、 [\[列を分割\] ダイアログ ボックス](../../dlg/split_column/index) が表示され、CSV文書の選択列を分割します。
+このコマンドを実行すると、 [\[列を分割\] ダイアログ ボックス](../../dlg/split_column/index) が表示され、CSV文書の選択列を分割します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[列\] - \[列を分割\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[列\] - \[列を分割\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SPLIT\_COLUMN (4057)
+```
+EEID_SPLIT_COLUMN (4057)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4057);
+```
+editor.ExecuteCommandByID(4057);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4057
+```
+editor.ExecuteCommandByID 4057
+```

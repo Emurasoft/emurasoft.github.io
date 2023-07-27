@@ -6,42 +6,34 @@ Windows 集合提供了窗口对象的集合。
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 检索窗口数目。 |
-| **[Item](item)** | 为指定索引的窗口检索窗口对象。 |
+|[Count](count) | 检索窗口数目。 |
+|[Item](item) | 为指定索引的窗口检索窗口对象。 |
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnds = new Enumerator( shell.windows );
-
 for( ; !wnds .atEnd(); wnds.moveNext() ){
-
 wnd = wnds.item();
-
 if( wnd.Caption == "Calculator" ){
-
 alert( "Found Calculator window" );
-
 break;
-
 }
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each wnd In shell.windows
-
 If wnd.Caption = "Calculator" Then
-
 alert "Found Calculator window"
-
 Exit For
-
 End If
-
 Next
+```
 
 ## 版本
 

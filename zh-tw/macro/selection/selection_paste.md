@@ -2,13 +2,19 @@
 
 在游標處插入剪貼簿內容。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Paste**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Paste( nFlags );
+```
 
-document.selection. **Paste** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Paste nFlags
+```
 
 ## 參數
 

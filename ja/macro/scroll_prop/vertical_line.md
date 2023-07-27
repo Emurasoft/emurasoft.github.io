@@ -1,20 +1,22 @@
 # VerticalLine プロパティ (ScrollProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の **\[垂直罫線\]** チェック ボックスに相当します。
+設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の\[垂直罫線\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **VerticalLine** ;
+### \[JavaScript\]
 
-object. **VerticalLine**  = _b_;
+```
+b = object.VerticalLine ;
+object.VerticalLine  = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **VerticalLine**
-
-object. **VerticalLine**  = _b_
+```
+b = object.VerticalLine
+object.VerticalLine  = b
+```
 
 ## バージョン
 

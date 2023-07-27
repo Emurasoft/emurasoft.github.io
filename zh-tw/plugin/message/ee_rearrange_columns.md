@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> 指定指針指向 [REARRANGE\_COLUMNS\_INFO](../structure/rearrange_columns_info) 結構。
+指定指針指向 [REARRANGE\_COLUMNS\_INFO](../structure/rearrange_columns_info) 結構。
 
 ## 返回值
 
-> 如果消息成功，則返回值為零。如果消息失敗，則返回值非零。
+如果消息成功，則返回值為零。如果消息失敗，則返回值非零。
 
 ## 版本
 
-> 支持 EmEditor Professional v22.1 或之後的版本。
+支持 EmEditor Professional v22.1 或之後的版本。

@@ -2,13 +2,19 @@
 
 指定したインデックスの [Csv オブジェクト](../csv/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor.CsvList. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.CsvList.Item( Index );
+```
 
-_doc_ = editor.CsvList. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+doc = editor.CsvList.Item( Index )
+```
 
 ## パラメータ
 
@@ -18,13 +24,17 @@ Csv オブジェクトのインデックスを 1 から始まる整数として�
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Name for the first Csv object: " + editor.CsvList.Item(1).Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Name for the first Csv object: " & editor.CsvList.Item(1).Name
+```
 
 ## バージョン
 

@@ -2,13 +2,19 @@
 
 Displays a dialog box to enter a string.
 
-#### \[JavaScript\]
+## 
 
-_strAnswer_ = **prompt**( _strMessage, strDefault, flags_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strAnswer =prompt( strMessage, strDefault, flags);
+```
 
-_strAnswer_ = **prompt**( _strMessage, strDefault, flags_ )
+### \[VBScript\]
+
+```
+strAnswer =prompt( strMessage, strDefault, flags )
+```
 
 ## Parameters
 

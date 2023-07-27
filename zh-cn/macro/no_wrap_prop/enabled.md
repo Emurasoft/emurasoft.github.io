@@ -1,20 +1,22 @@
 # Enabled 属性 (NoWrapProp ����)
 
-与配置属性中 [**不换行** 页面](../../dlg/properties/no_wrap/index) 上的 **启用不换行单词** 复选框相对应。
+与配置属性中 [不换行 页面](../../dlg/properties/no_wrap/index) 上的启用不换行单词 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object.Enabled;
+### \[JavaScript\]
 
-object.Enabled = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object.Enabled
-
-object.Enabled = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## 版本
 

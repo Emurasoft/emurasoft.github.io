@@ -2,23 +2,33 @@
 
 구성의 수를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = editor.Configs. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = editor.Configs.Count;
+```
 
-_nCount_ = editor.Configs. **Count**
+### \[VBScript\]
+
+```
+nCount = editor.Configs.Count
+```
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Number of Configurations: " + editor.Configs.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Number of Configurations: " & editor.Configs.Count
+```
 
 ## 버전
 

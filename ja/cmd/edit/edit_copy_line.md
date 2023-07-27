@@ -1,16 +1,16 @@
 # \[行コピー\] コマンド
 
-### 概要
+## 概要
 
-> 選択行または現在行をクリップボードにコピーします。
+選択行または現在行をクリップボードにコピーします。
 
-### 説明
+## 説明
 
-> 選択行またはカーソル位置の論理行 1 行をコピーして、その内容をクリップボードに保存します。この操作の後、別の場所にカーソルを移動して
-> [\[貼り付け\] コマンド](edit_paste) を実行することにより、コピーした 1
-> 行のテキストを他の場所にコピーすることができます。
+選択行またはカーソル位置の論理行 1 行をコピーして、その内容をクリップボードに保存します。この操作の後、別の場所にカーソルを移動して
+[\[貼り付け\] コマンド](edit_paste) を実行することにより、コピーした 1
+行のテキストを他の場所にコピーすることができます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[コピー\] \- \[行コピー\]
@@ -18,22 +18,23 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_EDIT\_COPY\_LINE (4192)
+```
+EEID_EDIT_COPY_LINE (4192)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.SelectLine();
->
->
-> document.selection.Copy(eeCopyUnicode);
+```
+document.selection.SelectLine();
+document.selection.Copy(eeCopyUnicode);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.SelectLine
->
->
-> document.selection.Copy eeCopyUnicode
+```
+document.selection.SelectLine
+document.selection.Copy eeCopyUnicode
+```

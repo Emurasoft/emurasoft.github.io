@@ -5,12 +5,16 @@
 
 この例では、HTMLファイルの <H3> ... </H3> を <H4> ... </H4> に置換します。
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
+```
 editor.ReplaceInFiles( "<H3>(.\*?)</H3>", "<H4>\\\1<H4>", "C:\\\web\\\\*.htm", eeFindReplaceRegExp
 \| eeReplaceBackup, eeEncodingSystemDefault, "\*.bak", "C:\\\Backup" );
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
+```
 editor.ReplaceInFiles "<H3>(.\*?)</H3>", "<H4>\\1<H4>", "C:\\web\\\*.htm", eeFindReplaceRegExp
 Or eeReplaceBackup, eeEncodingSystemDefault, "\*.bak", "C:\\Backup"
+```

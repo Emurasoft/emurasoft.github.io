@@ -1,14 +1,14 @@
 # \[コメントのスペル チェック\] コマンド
 
-### 概要
+## 概要
 
-> コメントのスペル チェックを行います。
+コメントのスペル チェックを行います。
 
-### 説明
+## 説明
 
-> コメントのスペル チェックを行います。
+コメントのスペル チェックを行います。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[スペル チェック\] \- \[スペル チェックを行う場所\] \- \[コメント\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[スペル チェック\] \-
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SPELL\_COMMENTS (4516)
+```
+EEID_SPELL_COMMENTS (4516)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4516);
+```
+editor.ExecuteCommandByID(4516);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4516
+```
+editor.ExecuteCommandByID 4516
+```

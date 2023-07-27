@@ -1,14 +1,14 @@
 # \[フィルター ツール バーを閉じる\] コマンド
 
-### 概要
+## 概要
 
-> フィルター ツール バーを閉じます。
+フィルター ツール バーを閉じます。
 
-### 説明
+## 説明
 
-> フィルター ツール バーを閉じます。
+フィルター ツール バーを閉じます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[フィルター ツール バー\] \- \[フィルター ツール バーを閉じます\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CLOSE\_FILTER\_BAR (3913)
+```
+EEID_CLOSE_FILTER_BAR (3913)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3913);
+```
+editor.ExecuteCommandByID(3913);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3913
+```
+editor.ExecuteCommandByID 3913
+```

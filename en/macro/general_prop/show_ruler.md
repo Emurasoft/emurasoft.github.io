@@ -1,21 +1,23 @@
 # ShowRuler Property (GeneralProp Object)
 
-Corresponds to the **Show Ruler** check box in the
-[**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to theShow Ruler check box in the
+[General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowRuler**;
+### \[JavaScript\]
 
-object. **ShowRuler** = _b_;
+```
+b = object.ShowRuler;
+object.ShowRuler = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowRuler**
-
-object. **ShowRuler** = _b_
+```
+b = object.ShowRuler
+object.ShowRuler = b
+```
 
 ## Version
 

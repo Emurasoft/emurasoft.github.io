@@ -2,13 +2,19 @@
 
 Inserts a empty line between two lines.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **LineOpen**( \[ _bAbove_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.LineOpen( [ bAbove ] );
+```
 
-document.selection. **LineOpen** \[ _bAbove_ \]
+### \[VBScript\]
+
+```
+document.selection.LineOpen [ bAbove ]
+```
 
 ## Parameters
 

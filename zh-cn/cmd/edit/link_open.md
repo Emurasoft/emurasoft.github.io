@@ -1,32 +1,37 @@
 # 打开链接命令
 
-### 摘要
+## 摘要
 
-> 打开一个超链接。
+打开一个超链接。
 
-### 说明
+## 说明
 
-> 在光标处打开一个超链接。
+在光标处打开一个超链接。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **编辑** \> **打开链接**
-- [所有命令](../tools/all_commands): **编辑** \> **高级**
-\> **打开链接**
+- 默认菜单:编辑 \>打开链接
+- [所有命令](../tools/all_commands):编辑 \>高级
+\>打开链接
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_LINK\_OPEN (4141)
+```
+EEID_LINK_OPEN (4141)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.OpenLink();
+```
+document.selection.OpenLink();
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.OpenLink
+```
+document.selection.OpenLink
+```

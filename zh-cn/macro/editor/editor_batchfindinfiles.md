@@ -2,19 +2,25 @@
 
 在多个文件中搜索多个字符串。搜索文件的结果列表将显示在当前窗口中。 如果未保存文档，该方法将显示是否保存文件的提示信息。
 
-#### \[JavaScript\]
+## 
 
-nFound = editor. **BatchFindInFiles**( _filters_, _strPath, nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = editor.BatchFindInFiles( filters, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ nExFlags, [ nLimit ] ] ] ] );
+```
 
-nFound = editor. **BatchFindInFiles**( _filters_, _strPath, nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] )
+### \[VBScript\]
+
+```
+nFound = editor.BatchFindInFiles( filters, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ nExFlags, [ nLimit ] ] ] ] )
+```
 
 ## 参数
 
 _filters_
 
-指定包含搜索字符串和标志的 [**Filters** 集合](../filters/index)。
+指定包含搜索字符串和标志的 [Filters 集合](../filters/index)。
 
 _strPath_
 
@@ -48,7 +54,7 @@ _nFlags_
 
 _nEncoding_
 
-从 **[编码常数](../const/const_encoding)** 中选择或指定任何用于 Windows 操作系统的代码页。如果指定 0 或省略，将使用与搜索的文件名关联的配置属性中指定的编码。
+从[编码常数](../const/const_encoding) 中选择或指定任何用于 Windows 操作系统的代码页。如果指定 0 或省略，将使用与搜索的文件名关联的配置属性中指定的编码。
 
 _strFilesToIgnore_
 
@@ -61,7 +67,7 @@ _nExFlags_
 |     |     |
 | --- | --- |
 | eeExFindCountFrequency | 从提取结果中创建常用字符串列表。必须与 eeFindLineOnly 或 eeFindMatchedOnly 合用。 |
-| eeExFindMulti | 执行 **多项查找**。如果未指定，则执行 **批处理查找**。 |
+| eeExFindMulti | 执行多项查找。如果未指定，则执行批处理查找。 |
 | eeExFindOutputEncoding | 将编码名称附加到文件名。 |
 | eeExFindRegexBoost | 使用 Boost.Regex 作为正则表达式引擎。 |
 | eeExFindRegexOnigmo | 使用 Onigmo 作为正则表达式引擎。 |

@@ -1,33 +1,38 @@
 # Tools Toolbar command
 
-### Summary
+## Summary
 
-> Shows or hides the Tools toolbar.
+Shows or hides the Tools toolbar.
 
-### Description
+## Description
 
-> Shows or hides the Tools toolbar. The Tools toolbar displays all external tools defined by the user.
+Shows or hides the Tools toolbar. The Tools toolbar displays all external tools defined by the user.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **Tools Toolbar**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Tools Toolbar**
+- Default Menu:View >
+Toolbars \>Tools Toolbar
+- [All Commands](../tools/all_commands):View >
+Toolbars \>Tools Toolbar
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHOW\_TOOLS\_BAR (4319)
+```
+EEID_SHOW_TOOLS_BAR (4319)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4319);
+```
+editor.ExecuteCommandByID(4319);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4319
+```
+editor.ExecuteCommandByID 4319
+```

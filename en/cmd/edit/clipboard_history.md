@@ -1,32 +1,37 @@
 # Show Clipboard History command
 
-### Summary
+## Summary
 
-> Shows the Clipboard history.
+Shows the Clipboard history.
 
-### Description
+## Description
 
-> Shows the Clipboard history.
+Shows the Clipboard history.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Show Clipboard History**
-- [All Commands](../tools/all_commands): **Edit** \> **Paste**
-\> **Show Clipboard History**
+- Default Menu:Edit \>Show Clipboard History
+- [All Commands](../tools/all_commands):Edit \>Paste
+\>Show Clipboard History
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+V, CTRL+SHIFT+INSERT
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CLIPBOARD\_HISTORY (4045)
+```
+EEID_CLIPBOARD_HISTORY (4045)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4045);
+```
+editor.ExecuteCommandByID(4045);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4045
+```
+editor.ExecuteCommandByID 4045
+```

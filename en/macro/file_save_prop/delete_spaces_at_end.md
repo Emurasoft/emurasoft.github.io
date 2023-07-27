@@ -1,21 +1,23 @@
 # DeleteSpacesAtEnd Property (FileSaveProp Object)
 
-Corresponds to the **Delete**
-**Spaces at End of Lines** check box in the [**Save Details** dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to theDelete
+Spaces at End of Lines check box in the [Save Details dialog box](../../dlg/properties/file/save_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DeleteSpacesAtEnd**;
+### \[JavaScript\]
 
-object. **DeleteSpacesAtEnd** = _b_;
+```
+b = object.DeleteSpacesAtEnd;
+object.DeleteSpacesAtEnd = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DeleteSpacesAtEnd**
-
-object. **DeleteSpacesAtEnd** = _b_
+```
+b = object.DeleteSpacesAtEnd
+object.DeleteSpacesAtEnd = b
+```
 
 ## Version
 

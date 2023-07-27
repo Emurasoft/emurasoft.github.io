@@ -1,20 +1,24 @@
 # ReturnMethod Property (FileSaveProp Object)
 
-Corresponds to the **Return**
-**Method** drop-down list box in the
-[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to theReturn
+Method drop-down list box in the
+[Save Details dialog box](../../dlg/properties/file/save_details/index).
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **ReturnMethod**;
+### \[JavaScript\]
 
-object. **ReturnMethod** = _n_;
+```
+n = object.ReturnMethod;
+object.ReturnMethod = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **ReturnMethod**
-
-object. **ReturnMethod** = _n_
+```
+n = object.ReturnMethod
+object.ReturnMethod = n
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 현재 구성을 저장합니다.
 
-#### \[JavaScript\]
+## 
 
-object. **Save**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Save( [ strName ] );
+```
 
-object. **Save** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Save [ strName ]
+```
 
 ## 매개 변수
 

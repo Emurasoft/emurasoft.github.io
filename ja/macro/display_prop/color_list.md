@@ -2,15 +2,19 @@
 
 色のリストの [DisplayList コレクション](../display_list/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_list_ =
-object. **ColorList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.ColorList;
+```
 
-_list_ =
-object. **ColorList**
+### \[VBScript\]
+
+```
+list = object.ColorList
+```
 
 ## バージョン
 

@@ -2,13 +2,19 @@
 
 删除集合中的所有项目。
 
-#### \[JavaScript\]
+## 
 
-list. **Clear**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Clear();
+```
 
-list. **Clear**
+### \[VBScript\]
+
+```
+list.Clear
+```
 
 ## 版本
 

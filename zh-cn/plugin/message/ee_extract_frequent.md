@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> 指针指向 [EXTRACT\_FREQUENT\_INFO 结构](../structure/extract_frequent_info)。
+指针指向 [EXTRACT\_FREQUENT\_INFO 结构](../structure/extract_frequent_info)。
 
 ## 返回值
 
-> 如果发生错误，则返回值为负。
+如果发生错误，则返回值为负。
 
 ## 版本
 
-> 支持 EmEditor Professional Version 21.9 或之后的版本。
+支持 EmEditor Professional Version 21.9 或之后的版本。

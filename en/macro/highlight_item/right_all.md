@@ -1,22 +1,24 @@
 # RightAll Property (HighlightItem Object)
 
-Corresponds to the **Highlight**
-**Right All** check box in the
-[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to theHighlight
+Right All check box in the
+[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **RightAll**;
+### \[JavaScript\]
 
-item. **RightAll** = _b_;
+```
+b = item.RightAll;
+item.RightAll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **RightAll**
-
-item. **RightAll** = _b_
+```
+b = item.RightAll
+item.RightAll = b
+```
 
 ## Version
 

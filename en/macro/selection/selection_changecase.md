@@ -2,13 +2,19 @@
 
 Changes the case of the selected text.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ChangeCase**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ChangeCase( nFlags );
+```
 
-document.selection. **ChangeCase** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.ChangeCase nFlags
+```
 
 ## Parameters
 

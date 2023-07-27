@@ -97,11 +97,11 @@
 | ![Explorer](../../images/plugin_explorer.gif)[익스플로러](../plugin/plugin_explorer) | 익스플로러 플러그인 |
 | ![](../../images/findbar.gif)[찾기 바](../plugin/plugin_findbar) | 찾기 바 플러그인 |
 | ![](../../images/htmlbar.gif)[HTMLBar](../plugin/plugin_htmlbar) | HTMLBar 플러그인 |
-| **![Open Documents](../../images/plugin_opendocuments.gif)**[문서 열기](../plugin/plugin_opendocuments) | 문서 열기 플러그인 |
-| **![Outline](../../images/plugin_outline.gif)**[윤곽](../plugin/plugin_outlinetext) | 윤곽 플러그 인 |
-| **![](../../images/projects.gif)**[프로젝트](../plugin/plugin_projects) | 프로젝트 플러그인 |
-| **![Search](../../images/plugin_search.gif)**[찾기](../plugin/plugin_search) | 찾기 플러그인 |
-| **![Snippets](../../images/plugin_snippets.gif)**[코드 조각](../plugin/plugin_snippets) | 코드 조각 플러그인 |
+|![Open Documents](../../images/plugin_opendocuments.gif)[문서 열기](../plugin/plugin_opendocuments) | 문서 열기 플러그인 |
+|![Outline](../../images/plugin_outline.gif)[윤곽](../plugin/plugin_outlinetext) | 윤곽 플러그 인 |
+|![](../../images/projects.gif)[프로젝트](../plugin/plugin_projects) | 프로젝트 플러그인 |
+|![Search](../../images/plugin_search.gif)[찾기](../plugin/plugin_search) | 찾기 플러그인 |
+|![Snippets](../../images/plugin_snippets.gif)[코드 조각](../plugin/plugin_snippets) | 코드 조각 플러그인 |
 | ![Web Preview](../../images/plugin_webpreview.gif)[웹 미리보기](../plugin/plugin_webpreview) | 웹 미리보기 플러그인 |
 | ![](../../images/wordcomplete.gif)[워드 완성](../plugin/plugin_wordcomplete) | 워드 완성 플러그인 |
-| **![Word Count](../../images/plugin_wordcount.gif)**[워드 개수](../plugin/plugin_wordcount) | 워드 개수 플러그인 |
+|![Word Count](../../images/plugin_wordcount.gif)[워드 개수](../plugin/plugin_wordcount) | 워드 개수 플러그인 |

@@ -2,13 +2,19 @@
 
 把光标移到当前行的尾端。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **EndOfLine**( \[ _bExtend_ \[, _nFlags_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.EndOfLine( [ bExtend [, nFlags ] ] );
+```
 
-document.selection. **EndOfLine** \[ _bExtend_ \[, _nFlags_ \] \]
+### \[VBScript\]
+
+```
+document.selection.EndOfLine [ bExtend [, nFlags ] ]
+```
 
 ## 参数
 

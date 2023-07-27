@@ -1,5 +1,3 @@
-#### [EmEditor ホーム](../macro/editor_setoutlinelevel) - [EmEditor ヘルプ](../../index) \- [プラグイン リファレンス](../index)  \- [メッセージ](index)
-
 # EE\_SET\_OUTLINE\_ARRAY
 
 指定する複数行のアウトラインのレベルを設定します。このメッセージを直接送るか、または
@@ -15,12 +13,12 @@ lParam = (LPARAM) (OUTLINE\_ARRAY\_INFO\*) pOutlineArrayInfo;
 
 _pOutlineArrayInfo_
 
-> [OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) 構造体へのポインタを指定します。
+[OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) 構造体へのポインタを指定します。
 
 ## 戻り値
 
-> 変更が無い場合には FALSE が返されます。それ以外では TRUE が返されます。
+変更が無い場合には FALSE が返されます。それ以外では TRUE が返されます。
 
 ## バージョン
 
-> Version 13 以上で利用できます。
+Version 13 以上で利用できます。

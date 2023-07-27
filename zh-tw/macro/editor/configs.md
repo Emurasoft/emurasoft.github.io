@@ -1,14 +1,20 @@
 # Configs 屬性 (Editor ��H)
 
-檢索 [**Configs** 集合](../configs/index)。
+檢索 [Configs 集合](../configs/index)。
 
-#### \[JavaScript\]
+## 
 
-_cfgs_ = editor. **Configs**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+cfgs = editor.Configs;
+```
 
-Set _cfgs_ = editor. **Configs**
+### \[VBScript\]
+
+```
+Set cfgs = editor.Configs
+```
 
 ## 版本
 

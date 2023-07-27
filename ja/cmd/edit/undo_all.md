@@ -1,14 +1,14 @@
 # \[すべて元に戻す\] コマンド
 
-### 概要
+## 概要
 
-> 以前のすべての操作を元に戻します。
+以前のすべての操作を元に戻します。
 
-### 説明
+## 説明
 
-> 以前のすべての操作を元に戻します。
+以前のすべての操作を元に戻します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[元に戻す\] \- \[すべて元に戻す\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_UNDO\_ALL (3980)
+```
+EEID_UNDO_ALL (3980)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3980);
+```
+editor.ExecuteCommandByID(3980);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3980
+```
+editor.ExecuteCommandByID 3980
+```

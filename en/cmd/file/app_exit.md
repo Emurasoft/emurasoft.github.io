@@ -1,33 +1,38 @@
 # Close command
 
-### Summary
+## Summary
 
-> Closes the current file.
+Closes the current file.
 
-### Description
+## Description
 
-> Closes the current window. If the document has been modified, the prompt
-> message appears to select whether you want to save the changes or not.
+Closes the current window. If the document has been modified, the prompt
+message appears to select whether you want to save the changes or not.
 
-### How to Run
+## How to Run
 
-- Default Menu: **File** \> **Close**
-- [All Commands](../tools/all_commands): **File** \> **Close**
-\> **Close**
+- Default Menu:File \>Close
+- [All Commands](../tools/all_commands):File \>Close
+\>Close
 - Toolbar: ![](../../images/appexit.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+F4 or CTRL+W
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_APP\_EXIT (4117)
+```
+EEID_APP_EXIT (4117)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.close();
+```
+document.close();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.close
+```
+document.close
+```

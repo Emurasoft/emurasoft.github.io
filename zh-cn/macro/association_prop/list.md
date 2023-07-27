@@ -2,15 +2,19 @@
 
 检索 [AssociationList 对象](../association_list/index)。
 
-#### \[JavaScript\]
+## 
 
-_list_ =
-object. **List**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.List;
+```
 
-_list_ =
-object. **List**
+### \[VBScript\]
+
+```
+list = object.List
+```
 
 ## 版本
 

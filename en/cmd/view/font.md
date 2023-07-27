@@ -1,34 +1,39 @@
 # Customize Font command
 
-### Summary
+## Summary
 
-> Change font settings.
+Change font settings.
 
-### Description
+## Description
 
-> This command displays the [**Customize Font** dialog box](../../dlg/properties/font/index),
-> where you can set the display font and the print font.
+This command displays the [Customize Font dialog box](../../dlg/properties/font/index),
+where you can set the display font and the print font.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Font**
-- [All Commands](../tools/all_commands): **View** >
-**Font** \> **Font**
+- Default Menu:View \>Font
+- [All Commands](../tools/all_commands):View >
+Font \>Font
 - Toolbar: ![](../../images/fontpopup.gif) (not
 on the arrow)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FONT (4218)
+```
+EEID_FONT (4218)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4218);
+```
+editor.ExecuteCommandByID(4218);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4218
+```
+editor.ExecuteCommandByID 4218
+```

@@ -1,32 +1,37 @@
 # Close Filter Toolbar command
 
-### Summary
+## Summary
 
-> Closes the Filter Toolbar.
+Closes the Filter Toolbar.
 
-### Description
+## Description
 
-> Closes the Filter Toolbar.
+Closes the Filter Toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Close Filter Toolbar**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Close Filter Toolbar
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CLOSE\_FILTER\_BAR (3913)
+```
+EEID_CLOSE_FILTER_BAR (3913)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3913);
+```
+editor.ExecuteCommandByID(3913);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3913
+```
+editor.ExecuteCommandByID 3913
+```

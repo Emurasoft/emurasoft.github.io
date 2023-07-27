@@ -1,20 +1,22 @@
 # Folder 属性 (AutoSaveProp ����)
 
-与配置属性中 [**自动保存** 页面](../../dlg/properties/autosave/index) 上的 **自动保存文件夹** 文本框对应。
+与配置属性中 [自动保存 页面](../../dlg/properties/autosave/index) 上的自动保存文件夹 文本框对应。
 
-#### \[JavaScript\]
+## 
 
-_s_ =
-object. **Folder**;
+### \[JavaScript\]
 
-object. **Folder** = _s_;
+```
+s = object.Folder;
+object.Folder = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ =
-object. **Folder**
-
-object. **Folder** = _s_
+```
+s = object.Folder
+object.Folder = s
+```
 
 ## 版本
 

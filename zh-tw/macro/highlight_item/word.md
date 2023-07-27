@@ -1,20 +1,22 @@
 # Word 屬性 (HighlightItem ��H)
 
-與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **全詞符合時亮顯** 核取方塊相對應。
+與組態屬性中 [亮顯 (1) 頁面](../../dlg/properties/highlight1/index) 上的全詞符合時亮顯 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Word**;
+### \[JavaScript\]
 
-item. **Word** = _b_;
+```
+b = item.Word;
+item.Word = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Word**
-
-item. **Word** = _b_
+```
+b = item.Word
+item.Word = b
+```
 
 ## 版本
 

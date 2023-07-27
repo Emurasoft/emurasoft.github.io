@@ -14,12 +14,12 @@ lParam = 0;
 
 _hwndView_
 
-> EmEditor 查看的窗口句柄。
+EmEditor 查看的窗口句柄。
 
 ## 返回值
 
-> 如果返回值是 TRUE，EmEditor 不会打开被删除的文件。
+如果返回值是 TRUE，EmEditor 不会打开被删除的文件。
 
 ## 支持版本
 
-> 支持 EmEditor 8.00 或之后的版本。
+支持 EmEditor 8.00 或之后的版本。

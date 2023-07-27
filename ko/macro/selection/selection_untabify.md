@@ -2,13 +2,19 @@
 
 선택 영역에서 탭을 공백으로 변환합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Untabify**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Untabify();
+```
 
-document.selection. **Untabify**
+### \[VBScript\]
+
+```
+document.selection.Untabify
+```
 
 ## 버전
 

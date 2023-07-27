@@ -2,13 +2,19 @@
 
 指定された文字または文字列のUnicode名を取得します。
 
-#### \[JavaScript\]
+## 
 
-_strName_ = editor. **GetUnicodeName**( _strChar_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = editor.GetUnicodeName( strChar );
+```
 
-_strName_ = editor. **GetUnicodeName**( _strChar_ )
+### \[VBScript\]
+
+```
+strName = editor.GetUnicodeName( strChar )
+```
 
 ## パラメータ
 

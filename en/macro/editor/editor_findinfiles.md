@@ -4,13 +4,19 @@ Searches multiple files for matching string. The resultant list of the
 searched files will be displayed on the current window. If the document is not
 saved, this method will display the prompt message whether to save the file.
 
-#### \[JavaScript\]
+## 
 
-nFound = editor. **FindInFiles**( _strFind_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = editor.FindInFiles( strFind, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ nExFlags, [ nLimit ] ] ] ] );
+```
 
-nFound = editor. **FindInFiles** _strFind_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \]
+### \[VBScript\]
+
+```
+nFound = editor.FindInFiles strFind, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ nExFlags, [ nLimit ] ] ] ]
+```
 
 ## Parameters
 
@@ -54,7 +60,7 @@ Additionally, you may specify one of the following values.
 
 _nEncoding_
 
-Selects from the **[Encoding Constants](../const/const_encoding)**,
+Selects from the[Encoding Constants](../const/const_encoding),
 or specify any code page used in the Windows Operating System. If 0 is specified or omitted, the encoding specified in the configuration properties associated with the searched file name will be used.
 
 _strFilesToIgnore_

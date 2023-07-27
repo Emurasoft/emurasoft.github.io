@@ -2,13 +2,19 @@
 
 Retrieves the FontList object.
 
-#### \[JavaScript\]
+## 
 
-_list_ = object. **DisplayList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.DisplayList;
+```
 
-_list_ = object. **DisplayList**
+### \[VBScript\]
+
+```
+list = object.DisplayList
+```
 
 ## Version
 

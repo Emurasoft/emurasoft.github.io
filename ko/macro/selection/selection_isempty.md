@@ -2,13 +2,19 @@
 
 활성화 지점이 기준 위치와 동일한 지 여부를 나타냅니다.
 
-#### \[JavaScript\]
+## 
 
-_bEmpty_ = document.selection. **IsEmpty**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bEmpty = document.selection.IsEmpty;
+```
 
-_bEmpty_ = document.selection. **IsEmpty**
+### \[VBScript\]
+
+```
+bEmpty = document.selection.IsEmpty
+```
 
 ## 버전
 

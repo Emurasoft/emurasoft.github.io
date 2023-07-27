@@ -1,18 +1,22 @@
 # DetectCharset 属性 (FileProp ����)
 
-与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **检测 HTML/XML 字符集** 复选框相对应。
+与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的检测 HTML/XML 字符集 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectCharset**;
+### \[JavaScript\]
 
-object. **DetectCharset** = _b_;
+```
+b = object.DetectCharset;
+object.DetectCharset = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectCharset**
-
-object. **DetectCharset** = _b_
+```
+b = object.DetectCharset
+object.DetectCharset = b
+```
 
 ## 版本
 

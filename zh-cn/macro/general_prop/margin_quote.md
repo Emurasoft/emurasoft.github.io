@@ -1,20 +1,22 @@
 # MarginQuote 属性 (GeneralProp ����)
 
-与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **引用行边距** 文本框相对应。
+与配置属性中 [常规 页面](../../dlg/properties/general/index) 上的引用行边距 文本框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **MarginQuote**;
+### \[JavaScript\]
 
-object. **MarginQuote** = _b_;
+```
+b = object.MarginQuote;
+object.MarginQuote = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **MarginQuote**
-
-object. **MarginQuote** = _b_
+```
+b = object.MarginQuote
+object.MarginQuote = b
+```
 
 ## 版本
 

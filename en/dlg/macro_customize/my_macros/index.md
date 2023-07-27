@@ -1,55 +1,55 @@
 # My Macros tab
 
-The **My Macros** tab allows you to set options related to **My Macros**.
+TheMy Macros tab allows you to set options related toMy Macros.
 
-### My Macros list box
+## My Macros list box
 
-Displays the list of **My Macros**.
+Displays the list ofMy Macros.
 
-### Add button
+## Add button
 
 Click this button to add a new item to the list.
 
-### Delete button
+## Delete button
 
 Click this button to delete the selected item from the list.
 
-### Delete All button
+## Delete All button
 
 Click this button to delete all items from the list.
 
-### Up button
+## Up button
 
 Move the selected item up on the list.
 
-### Down button
+## Down button
 
 Move the selected item down on the list.
 
-### Edit button
+## Edit button
 
 Opens the selected macro file with EmEditor so that you can edit the macro.
 
-### Events button
+## Events button
 
-Displays the [**Select Events** dialog box](select_events/index) so you can select events which the selected macro can be associated with.
+Displays the [Select Events dialog box](select_events/index) so you can select events which the selected macro can be associated with.
 
-### Runs at Events check box
+## Runs at Events check box
 
 Runs the selected macro at the specified events.
 
-### Events text box
+## Events text box
 
 Displays the events at which the macro runs.
 
-### Path text box
+## Path text box
 
 Displays the full path of the selected macro.
 
 The following dialog box is also available through this dialog box.
 
-(Select
-**Events** button)
+ (Select
+Events button)
 
 
 ```{toctree}

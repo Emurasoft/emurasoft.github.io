@@ -2,13 +2,19 @@
 
 EmEditor の設定に応じて、レジストリまたは INI ファイルに、整数値を設定します。
 
-#### \[JavaScript\]
+## 
 
-editor. **WriteProfileInt**( _nKey_, _strConfig_, _strEntry_, _nData_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.WriteProfileInt( nKey, strConfig, strEntry, nData );
+```
 
-editor. **WriteProfileInt** _nKey_, _strConfig_, _strEntry_, _nData_
+### \[VBScript\]
+
+```
+editor.WriteProfileInt nKey, strConfig, strEntry, nData
+```
 
 ## パラメータ
 

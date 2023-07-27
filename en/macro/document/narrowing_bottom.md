@@ -2,17 +2,21 @@
 
 Retrieves or sets the bottom position (y-axis) of the narrowing (editable area). Setting this variable to -1 disables narrowing.
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **NarrowingBottom;**
+### \[JavaScript\]
 
-document. **NarrowingBottom** = _n_;
+```
+n = document.NarrowingBottom;
+document.NarrowingBottom = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = document. **NarrowingBottom**
-
-document. **NarrowingBottom** = _n_
+```
+n = document.NarrowingBottom
+document.NarrowingBottom = n
+```
 
 ## Version
 

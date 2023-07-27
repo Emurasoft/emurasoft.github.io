@@ -1,31 +1,36 @@
 # CSV (popup menu) command
 
-### Summary
+## Summary
 
-> Shows a popup menu to select a CSV mode.
+Shows a popup menu to select a CSV mode.
 
-### Description
+## Description
 
-> Shows a popup menu to select a CSV mode.
+Shows a popup menu to select a CSV mode.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **CSV (Popup Menu)**
+- [All Commands](../tools/all_commands):CSV \>CSV (Popup Menu)
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SV\_POPUP (3899)
+```
+EEID_SV_POPUP (3899)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3899);
+```
+editor.ExecuteCommandByID(3899);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> >editor.ExecuteCommandByID 3899
+```
+>editor.ExecuteCommandByID 3899
+```

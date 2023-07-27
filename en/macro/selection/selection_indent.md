@@ -3,20 +3,26 @@
 Indents the selected lines by the specified number of indentation
 levels.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Indent**( \[ _nCount_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Indent( [ nCount ] );
+```
 
-document.selection. **Indent** \[ _nCount_ \]
+### \[VBScript\]
+
+```
+document.selection.Indent [ nCount ]
+```
 
 ## Parameters
 
 _nCount_
 
 Optional. Specifies the number of indentation levels. The default is 1. If
-negative, the method acts like the [**UnIndent** \
+negative, the method acts like the [UnIndent \
 Method](selection_unindent). If 0, the method acts like 1.
 
 ## Version

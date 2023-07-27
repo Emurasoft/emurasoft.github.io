@@ -1,14 +1,14 @@
 # \[通知\] コマンド
 
-### 概要
+## 概要
 
-> 通知の表示/非表示を切り替えます。
+通知の表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> 通知の表示/非表示を切り替えます。
+通知の表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[通知\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[通知\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_TOGGLE\_NOTIFICATIONS (4061)
+```
+EEID_TOGGLE_NOTIFICATIONS (4061)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4061);
+```
+editor.ExecuteCommandByID(4061);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4061
+```
+editor.ExecuteCommandByID 4061
+```

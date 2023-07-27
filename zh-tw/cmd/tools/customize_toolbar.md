@@ -1,32 +1,37 @@
 # 自訂工具列命令
 
-### 摘要
+## 摘要
 
-> 自訂工具列設置。
+自訂工具列設置。
 
-### 說明
+## 說明
 
-> 顯示 [**工具列** 對話方塊](../../dlg/toolbars/index)，讓您能自訂工具列。
+顯示 [工具列 對話方塊](../../dlg/toolbars/index)，讓您能自訂工具列。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **工具** \> **自訂工具列**
-- [所有命令](all_commands): **工具** >
-**自訂工具列**
+- 預設功能表:工具 \>自訂工具列
+- [所有命令](all_commands):工具 >
+自訂工具列
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_CUSTOMIZE\_TOOLBAR (4224)
+```
+EEID_CUSTOMIZE_TOOLBAR (4224)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4224);
+```
+editor.ExecuteCommandByID(4224);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4224
+```
+editor.ExecuteCommandByID 4224
+```

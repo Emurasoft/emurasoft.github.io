@@ -1,14 +1,14 @@
 # \[前のスペル ミス\] コマンド
 
-### 概要
+## 概要
 
-> この文書内で前のスペル ミスにジャンプします。
+この文書内で前のスペル ミスにジャンプします。
 
-### 説明
+## 説明
 
-> この文書内で前のスペル ミスにジャンプします。
+この文書内で前のスペル ミスにジャンプします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[スペル チェック\] \- \[前のスペル ミス\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[スペル チェック\] \- \[前のスペル ミス\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+M
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SPELL\_PREV (4555)
+```
+EEID_SPELL_PREV (4555)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4555);
+```
+editor.ExecuteCommandByID(4555);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4555
+```
+editor.ExecuteCommandByID 4555
+```

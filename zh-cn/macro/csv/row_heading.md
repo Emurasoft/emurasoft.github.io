@@ -1,18 +1,22 @@
 # RowHeading 属性 (Csv ����)
 
-与在自定义对话框中 [**CSV 格式** 页面](../../dlg/customize/csv/index) 上的 **行标题** 文本框对应。
+与在自定义对话框中 [CSV 格式 页面](../../dlg/customize/csv/index) 上的行标题 文本框对应。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **RowHeading**;
+### \[JavaScript\]
 
-object. **RowHeading** = _n_;
+```
+n = object.RowHeading;
+object.RowHeading = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **RowHeading**
-
-object. **RowHeading** = _n_
+```
+n = object.RowHeading
+object.RowHeading = n
+```
 
 ## 版本
 

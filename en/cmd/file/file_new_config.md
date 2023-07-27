@@ -1,37 +1,42 @@
 # List of New Configurations command
 
-### Summary
+## Summary
 
-> Creates a new file with a specified configuration (multiple items).
+Creates a new file with a specified configuration (multiple items).
 
-### Description
+## Description
 
-> This command consists of multiple menu items. You can select from the predefined
-> configurations. This command creates a new file with the specified
-> configuration. You can edit, delete, or add configurations in the
-> [**Define Configurations** dialog box](../../dlg/configurations/index).
+This command consists of multiple menu items. You can select from the predefined
+configurations. This command creates a new file with the specified
+configuration. You can edit, delete, or add configurations in the
+[Define Configurations dialog box](../../dlg/configurations/index).
 
-### How to Run
+## How to Run
 
-- Default Menu: **File** \> **New** \> **(configuration name)**
-- [All Commands](../tools/all_commands): **File** \> **New > (configuration name)**
+- Default Menu:File \>New \>(configuration name)
+- [All Commands](../tools/all_commands):File \>New > (configuration name)
 - Toolbar: ![](../../images/filenew.gif) (on
 the arrow) + (configuration name)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- From EEID\_FILE\_NEW\_CONFIG through ID\_FILE\_NEW\_CONFIG + 255 (from 7168
+```
+From EEID_FILE_NEW_CONFIG through ID_FILE_NEW_CONFIG + 255 (from 7168```
 through 7168 + 255)
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(7168 + i);  // i is an integer from 0
-> through 255
+```
+editor.ExecuteCommandByID(7168 + i);  // i is an integer from 0
+through 255
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 7168 + i  ' i is an integer from 0 through 255
+```
+editor.ExecuteCommandByID 7168 + i  ' i is an integer from 0 through 255
+```

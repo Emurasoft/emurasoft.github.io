@@ -2,13 +2,19 @@
 
 在光标处插入指定的新行数。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **NewLine**( \[ _nCount_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.NewLine( [ nCount ] );
+```
 
-document.selection. **NewLine** \[ _nCount_ \]
+### \[VBScript\]
+
+```
+document.selection.NewLine [ nCount ]
+```
 
 ## 参数
 

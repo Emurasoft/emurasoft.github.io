@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> [INFO\_EX\_DATA 構造体](../structure/info_ex_data) へのポインタを指定します。
+[INFO\_EX\_DATA 構造体](../structure/info_ex_data) へのポインタを指定します。
 
 ## 戻り値
 
-> 指定するパラメータに依存します。
+指定するパラメータに依存します。
 
 ## バージョン
 
-> Version 21.8 以上で利用できます。
+Version 21.8 以上で利用できます。

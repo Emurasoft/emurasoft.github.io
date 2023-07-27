@@ -1,14 +1,14 @@
 # \[EmEditorホームぺージを表示\] コマンド
 
-### 概要
+## 概要
 
-> EmEditorホームぺージを表示します。
+EmEditorホームぺージを表示します。
 
-### 説明
+## 説明
 
-> EmEditor ホームぺージを表示します。
+EmEditor ホームぺージを表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ヘルプ\] \- \[EmEditorホームページを表示\]
 - [すべてのコマンド](../../glossary/allcommands): \[ヘルプ\] \- \[EmEditorホームページを表示\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_WEB\_HOME (4249)
+```
+EEID_WEB_HOME (4249)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4249);
+```
+editor.ExecuteCommandByID(4249);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4249
+```
+editor.ExecuteCommandByID 4249
+```

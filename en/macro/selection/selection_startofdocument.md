@@ -2,13 +2,19 @@
 
 Moves the cursor to the start of the document.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **StartOfDocument**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.StartOfDocument( [ bExtend ] );
+```
 
-document.selection. **StartOfDocument** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.StartOfDocument [ bExtend ]
+```
 
 ## Parameters
 

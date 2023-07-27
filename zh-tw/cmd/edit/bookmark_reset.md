@@ -1,14 +1,14 @@
 # 重設書籤命令
 
-### 摘要
+## 摘要
 
-> 清除目前的行的書籤。
+清除目前的行的書籤。
 
-### 說明
+## 說明
 
-> 清除目前的行的書籤。
+清除目前的行的書籤。
 
-### 運行方法
+## 運行方法
 
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): 無
@@ -16,16 +16,21 @@
 - 狀態列: 無
 - 預設鍵盤快速鍵: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_BOOKMARK\_RESET (4354)
+```
+EEID_BOOKMARK_RESET (4354)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.ClearBookmark();
+```
+document.selection.ClearBookmark();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.ClearBookmark
+```
+document.selection.ClearBookmark
+```

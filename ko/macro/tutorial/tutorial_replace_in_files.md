@@ -6,12 +6,16 @@
 다음의 예문은 HTML 파일 내에서 <H3> ... </H3>을
 <H4> ... </H4>로 대체하는 법을 나타냅니다.
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
+```
 editor.ReplaceInFiles( "<H3>(.\*?)</H3>", "<H4>\\\1<H4>", "C:\\\web\\\\*.htm", eeFindReplaceRegExp
 \| eeReplaceBackup, eeEncodingSystemDefault, "\*.bak", "C:\\\Backup" );
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
+```
 editor.ReplaceInFiles "<H3>(.\*?)</H3>", "<H4>\\1<H4>", "C:\\web\\\*.htm", eeFindReplaceRegExp
 Or eeReplaceBackup, eeEncodingSystemDefault, "\*.bak", "C:\\Backup"
+```

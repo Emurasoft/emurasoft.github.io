@@ -2,13 +2,19 @@
 
 执行一个指定的插件。
 
-#### \[JavaScript\]
+## 
 
-_nResult_ = editor. **ExecutePlugin**( _strPluginFileName_, _nFlags_, _nParam_, _strParam_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nResult = editor.ExecutePlugin( strPluginFileName, nFlags, nParam, strParam );
+```
 
-_nResult_ = editor. **ExecutePlugin**( _strPluginFileName_, _nFlags_, _nParam_, _strParam_ )
+### \[VBScript\]
+
+```
+nResult = editor.ExecutePlugin( strPluginFileName, nFlags, nParam, strParam )
+```
 
 ## 参数
 
@@ -46,21 +52,21 @@ _strParam_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 editor.ExecutePlugin( "Snippets.dll", eePluginUserMessage, 0, "<${1:p}>${2:${SelText}}</$1>$0" );
-
 editor.ExecutePlugin( "Snippets.dll", eePluginUserMessage, 1, "General\\\Date");
-
 editor.ExecutePlugin( "Snippets.dll", eePluginUserMessage, 2, "/General/Date" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 editor.ExecutePlugin "Snippets.dll", eePluginUserMessage, 0, "<${1:p}>${2:${SelText}}</$1>$0"
-
 editor.ExecutePlugin "Snippets.dll", eePluginUserMessage, 1, "General" & Chr(92) & "Date"
-
 editor.ExecutePlugin "Snippets.dll", eePluginUserMessage, 2, "/General/Date"
+```
 
 ## 版本
 

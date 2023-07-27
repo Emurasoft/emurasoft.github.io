@@ -1,32 +1,37 @@
 # Syntax Checker command
 
-### Summary
+## Summary
 
-> Shows the syntax checker bar and check syntax, or hides the syntax checker bar.
+Shows the syntax checker bar and check syntax, or hides the syntax checker bar.
 
-### Description
+## Description
 
-> Shows the syntax checker bar and check syntax, or hides the syntax checker bar.
+Shows the syntax checker bar and check syntax, or hides the syntax checker bar.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Syntax Checker**
-- [All Commands](../tools/all_commands): **View** >
-**Syntax Checker**
+- Default Menu:View \>Syntax Checker
+- [All Commands](../tools/all_commands):View >
+Syntax Checker
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_TOGGLE\_VALIDATION\_BAR (4038)
+```
+EEID_TOGGLE_VALIDATION_BAR (4038)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4038);
+```
+editor.ExecuteCommandByID(4038);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4038
+```
+editor.ExecuteCommandByID 4038
+```

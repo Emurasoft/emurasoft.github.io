@@ -1,20 +1,22 @@
 # SelectInQuotes 属性 (LinkProp ����)
 
-与配置属性中 [**链接** 页面](../../dlg/properties/link/index) 上的 **点击引号内的文本选择整个字符串** 复选框相对应。
+与配置属性中 [链接 页面](../../dlg/properties/link/index) 上的点击引号内的文本选择整个字符串 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SelectInQuotes**;
+### \[JavaScript\]
 
-object. **SelectInQuotes** = _b_;
+```
+b = object.SelectInQuotes;
+object.SelectInQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SelectInQuotes**
-
-object. **SelectInQuotes** = _b_
+```
+b = object.SelectInQuotes
+object.SelectInQuotes = b
+```
 
 ## 版本
 

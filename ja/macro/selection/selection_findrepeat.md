@@ -2,13 +2,19 @@
 
 前回検索した文字列を再度検索します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **FindRepeat**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.FindRepeat( nFlags );
+```
 
-document.selection. **FindRepeat** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.FindRepeat nFlags
+```
 
 ## 引数
 

@@ -2,13 +2,19 @@
 
 指定するファイルを削除します。
 
-#### \[JavaScript\]
+## 
 
-shell. **DeleteFile**( _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.DeleteFile( strFolder );
+```
 
-shell. **DeleteFile** _strFolder_
+### \[VBScript\]
+
+```
+shell.DeleteFile strFolder
+```
 
 ## パラメータ
 
@@ -18,13 +24,17 @@ _strFile_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.DeleteFile( "C:\\\Test\\\\*.txt" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.DeleteFile "C:\\Test\\\*.txt"
+```
 
 ## バージョン
 

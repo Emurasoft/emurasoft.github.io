@@ -2,13 +2,19 @@
 
 文字範囲を追加します。
 
-#### \[JavaScript\]
+## 
 
-list. **AddCharacterRange**( _nMin_, _nMax_, _sProperties_, _sTreatAs_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.AddCharacterRange( nMin, nMax, sProperties, sTreatAs );
+```
 
-list. **AddCharacterRange** _nMin_, _nMax_, _sProperties_, _sTreatAs_
+### \[VBScript\]
+
+```
+list.AddCharacterRange nMin, nMax, sProperties, sTreatAs
+```
 
 ## パラメータ
 

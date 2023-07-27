@@ -2,13 +2,19 @@
 
 複数の文字列を置き換えます。
 
-#### \[JavaScript\]
+## 
 
-nFound = document.selection. **BatchReplace**( _filters_, _nFlags_, _nExFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = document.selection.BatchReplace( filters, nFlags, nExFlags );
+```
 
-nFound = document.selection. **BatchReplace**( _filters_, _nFlags_, _nExFlags_ )
+### \[VBScript\]
+
+```
+nFound = document.selection.BatchReplace( filters, nFlags, nExFlags )
+```
 
 ## 引数
 

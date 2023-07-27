@@ -14,10 +14,10 @@ lParam = (LPARAM)(ATOM)atom;
 
 _atom_
 
-> Specifies the atom of a specified plug-in file name.
+Specifies the atom of a specified plug-in file name.
 
 ## Return Values
 
-> The return value is the reference number of a specified plug-in. If the
-> return value is zero, the specified plug-in can be safely unloaded from
-> EmEditor.
+The return value is the reference number of a specified plug-in. If the
+return value is zero, the specified plug-in can be safely unloaded from
+EmEditor.

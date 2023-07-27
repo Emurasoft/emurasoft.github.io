@@ -2,19 +2,25 @@
 
 在游標位置或垂直選擇處，插入編號。
 
-#### \[JavaScript\]
+## 
 
-editor.Numbering( _strFirst_, _strInc_, _nMaxLines_ \[, _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.Numbering( strFirst, strInc, nMaxLines [, nFlags ] );
+```
 
-editor.Numbering _strFirst_, _strInc_, _nMaxLines_ \[, _nFlags_ \]
+### \[VBScript\]
+
+```
+editor.Numbering strFirst, strInc, nMaxLines [, nFlags ]
+```
 
 ## 參數
 
 _strFirst_
 
-指定要在第一行插入的初始值或字元。除非為 _nFlags_ 參數指定了 **eeNumOther**，否則此文字可包含非數字首碼和/或尾碼。
+指定要在第一行插入的初始值或字元。除非為 _nFlags_ 參數指定了eeNumOther，否則此文字可包含非數字首碼和/或尾碼。
 
 _strInc_
 

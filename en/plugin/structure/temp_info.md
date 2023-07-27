@@ -28,46 +28,46 @@ UINT nFlags;
 
 _cbSize_
 
-> Size of this data structure, in bytes. Set this member to sizeof( TEMP\_INFO ) before sending the [EE\_EDIT\_TEMP](../message/ee_edit_temp) message.
+Size of this data structure, in bytes. Set this member to sizeof( TEMP\_INFO ) before sending the [EE\_EDIT\_TEMP](../message/ee_edit_temp) message.
 
 _pszTempText_
 
-> Specifies temporary text on memory that you want to open as a new document.
+Specifies temporary text on memory that you want to open as a new document.
 
 _pszTitle_
 
-> Specifies the title of the new document.
+Specifies the title of the new document.
 
 _pszIconPath_
 
-> Specifies the path and file name of the icon that you want to use as a new document.
+Specifies the path and file name of the icon that you want to use as a new document.
 
 _pszConfig_
 
-> Specifies the name of the configuration that the new document should use.
+Specifies the name of the configuration that the new document should use.
 
 _ptInitialCaret_
 
-> Specifies the initial cursor position.
+Specifies the initial cursor position.
 
 _nID_
 
-> Specifies an ID when you want to activate or close the temporary text.
+Specifies an ID when you want to activate or close the temporary text.
 
 _nEncoding_
 
-> Specifies the encoding of the file.
+Specifies the encoding of the file.
 
 _nFlags_
 
-> Specifies one of the following values.
->
-> |     |     |
-> | --- | --- |
-> | TEMP\_INFO\_OPEN | Opens the temporary text if nID is zero. Activates the existing temporary text if nID is not zero. |
-> | TEMP\_INFO\_CLOSE | Closes the temporary text specified by nID. |
-> | TEMP\_INFO\_SAVE | Saves the temporary text specified by nID. |
+Specifies one of the following values.
+
+|     |     |
+| --- | --- |
+| TEMP\_INFO\_OPEN | Opens the temporary text if nID is zero. Activates the existing temporary text if nID is not zero. |
+| TEMP\_INFO\_CLOSE | Closes the temporary text specified by nID. |
+| TEMP\_INFO\_SAVE | Saves the temporary text specified by nID. |
 
 ## Version
 
-> Supported on Version 9.00 or later.
+Supported on Version 9.00 or later.

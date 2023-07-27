@@ -1,33 +1,38 @@
 # Char Right Extend command
 
-### Summary
+## Summary
 
-> Extends the selection one character to the right.
+Extends the selection one character to the right.
 
-### Description
+## Description
 
-> Extends the selection one character to the right. If the cursor is at the end
-> of a line, this command moves the selection to the start of the next line.
+Extends the selection one character to the right. If the cursor is at the end
+of a line, this command moves the selection to the start of the next line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Char Right Extend**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Char Right Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+RIGHT ARROW
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_RIGHT (4172)
+```
+EEID_SHIFT_RIGHT (4172)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.CharRight(true,1);
+```
+document.selection.CharRight(true,1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.CharRight true,1
+```
+document.selection.CharRight true,1
+```

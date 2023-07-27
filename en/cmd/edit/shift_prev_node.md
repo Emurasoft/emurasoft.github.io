@@ -1,31 +1,36 @@
 # Previous Node Extend command
 
-### Summary
+## Summary
 
-> Extends the selection to the previous node while outlining is displayed.
+Extends the selection to the previous node while outlining is displayed.
 
-### Description
+## Description
 
-> Extends the selection to the previous node while outlining is displayed. A plug-in for outlining is necessary to display outlining.
+Extends the selection to the previous node while outlining is displayed. A plug-in for outlining is necessary to display outlining.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Previous Node Extend**
+- [All Commands](../tools/all_commands):Edit \>Outlining \>Previous Node Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: Alt+Shift+Up
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_PREV\_NODE (4418)
+```
+EEID_SHIFT_PREV_NODE (4418)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4418);
+```
+editor.ExecuteCommandByID(4418);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4418
+```
+editor.ExecuteCommandByID 4418
+```

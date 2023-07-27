@@ -2,13 +2,19 @@
 
 ウィンドウを閉じます。
 
-#### \[JavaScript\]
+## 
 
-**close**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+close();
+```
 
-**close**
+### \[VBScript\]
+
+```
+close
+```
 
 ## バージョン
 

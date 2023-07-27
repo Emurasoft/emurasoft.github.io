@@ -2,13 +2,19 @@
 
 OK 버튼을 가진 간단한 대화 상자에 메시지를 표시합니다.
 
-#### \[JavaScript\]
+## 
 
-**alert**( _strMessage_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+alert( strMessage );
+```
 
-**alert** _strMessage_
+### \[VBScript\]
+
+```
+alert strMessage
+```
 
 ## 매개 변수
 

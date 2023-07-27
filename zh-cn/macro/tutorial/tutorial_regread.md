@@ -4,7 +4,9 @@
 
 下面的示例代码会从注册表上读取一个运行的宏的文件名称，并显示它。
 
-#### \[JavaScript (JScript)\]
+## 
+
+### \[JavaScript (JScript)\]
 
 WshShell = new ActiveXObject( "WScript.Shell" );
 
@@ -13,13 +15,13 @@ str = WshShell.RegRead( "HKCU\\\Software\\\EmSoft\\\EmEditor v3\\\Common\\\Macro
 
 alert( str );
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set WshShell = CreateObject( "WScript.Shell" )
-
 str = WshShell.RegRead( "HKCU\\Software\\EmSoft\\EmEditor v3\\Common\\MacroFile" )
-
 alert str
+```
 
 ## 提示:
 

@@ -1,33 +1,38 @@
 # Print Preview command
 
-### Summary
+## Summary
 
-> Displays preview of how the current document will be printed.
+Displays preview of how the current document will be printed.
 
-### Description
+## Description
 
-> Displays the **Print Preview** window to show how this document will be printed.
-> From the **Print Preview** window, you can print or set options for printing.
+Displays thePrint Preview window to show how this document will be printed.
+From thePrint Preview window, you can print or set options for printing.
 
-### How to Run
+## How to Run
 
-- Default Menu: **File** \> **Print Preview**
-- [All Commands](../tools/all_commands): **File** \> **Print**
-\> **Print Preview**
+- Default Menu:File \>Print Preview
+- [All Commands](../tools/all_commands):File \>Print
+\>Print Preview
 - Toolbar: ![](../../images/printpreview.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PRINT\_PREVIEW (4286)
+```
+EEID_PRINT_PREVIEW (4286)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4286);
+```
+editor.ExecuteCommandByID(4286);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4286
+```
+editor.ExecuteCommandByID 4286
+```

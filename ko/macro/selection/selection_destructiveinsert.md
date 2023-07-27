@@ -2,13 +2,19 @@
 
 기존의 텍스트에 덮어쓰기하여 텍스트를 삽입합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **DestructiveInsert**( str );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.DestructiveInsert( str );
+```
 
-document.selection. **DestructiveInsert** str
+### \[VBScript\]
+
+```
+document.selection.DestructiveInsert str
+```
 
 ## 매개 변수
 

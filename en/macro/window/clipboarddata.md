@@ -1,14 +1,20 @@
 # clipboardData Property (Window Object)
 
-Returns the [**clipboardData** Object](../clipboarddata/index).
+Returns the [clipboardData Object](../clipboarddata/index).
 
-#### \[JavaScript\]
+## 
 
-_clip_ = **clipboardData**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+clip =clipboardData;
+```
 
-Set _clip_ = **clipboardData**
+### \[VBScript\]
+
+```
+Set clip =clipboardData
+```
 
 ## Version
 

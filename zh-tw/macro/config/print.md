@@ -2,13 +2,19 @@
 
 檢索 [PrintProp 對象](../print_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Print**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Print;
+```
 
-Set _obj_ = object. **Print**
+### \[VBScript\]
+
+```
+Set obj = object.Print
+```
 
 ## 版本
 

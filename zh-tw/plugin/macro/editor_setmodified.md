@@ -8,12 +8,12 @@ Editor\_SetModified( HWND hwnd, BOOL bModified );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _bModified_
 
-> TRUE，把狀態變更為修改過，或 FALSE，把狀態變更為未經修改。
+TRUE，把狀態變更為修改過，或 FALSE，把狀態變更為未經修改。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

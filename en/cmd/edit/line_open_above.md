@@ -1,31 +1,36 @@
 # Insert Line Above command
 
-### Summary
+## Summary
 
-> Inserts a new line above the current cursor position.
+Inserts a new line above the current cursor position.
 
-### Description
+## Description
 
-> Inserts a new line above the line the cursor is currently located in.
+Inserts a new line above the line the cursor is currently located in.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Empty Line Above**
-- [All Commands](../tools/all_commands): **Insert** \> **Empty Line Above**
+- Default Menu:Insert \>Empty Line Above
+- [All Commands](../tools/all_commands):Insert \>Empty Line Above
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+ENTER
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_LINE\_OPEN\_ABOVE (4195)
+```
+EEID_LINE_OPEN_ABOVE (4195)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.LineOpen(true);
+```
+document.selection.LineOpen(true);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.LineOpen true
+```
+document.selection.LineOpen true
+```

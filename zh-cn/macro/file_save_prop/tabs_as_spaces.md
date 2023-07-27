@@ -1,20 +1,22 @@
 # TabsAsSpaces 属性 (FileSaveProp ����)
 
-与 [**把 Tab 保存为空格** 复选框](../../dlg/properties/file/save_details/index) 相对应。
+与 [把 Tab 保存为空格 复选框](../../dlg/properties/file/save_details/index) 相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **TabsAsSpaces**;
+### \[JavaScript\]
 
-object. **TabsAsSpaces** = _b_;
+```
+b = object.TabsAsSpaces;
+object.TabsAsSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **TabsAsSpaces**
-
-object. **TabsAsSpaces** = _b_
+```
+b = object.TabsAsSpaces
+object.TabsAsSpaces = b
+```
 
 ## 版本
 

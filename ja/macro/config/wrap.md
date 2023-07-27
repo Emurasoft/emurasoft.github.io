@@ -2,13 +2,19 @@
 
 [WrapProp オブジェクト](../wrap_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Wrap**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Wrap;
+```
 
-Set _obj_ = object. **Wrap**
+### \[VBScript\]
+
+```
+Set obj = object.Wrap
+```
 
 ## バージョン
 

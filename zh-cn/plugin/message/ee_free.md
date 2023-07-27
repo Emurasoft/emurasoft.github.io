@@ -12,8 +12,8 @@ lParam = (LPARAM)(ATOM)atom;
 
 _atom_
 
-> 指定一个指定插件文件名的 atom。
+指定一个指定插件文件名的 atom。
 
 ## 返回值
 
-> 如果插件被释放，返回值是 TRUE。如果插件没有被释放，返回值是 FALSE。
+如果插件被释放，返回值是 TRUE。如果插件没有被释放，返回值是 FALSE。

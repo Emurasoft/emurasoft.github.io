@@ -4,7 +4,9 @@
 
 下面的示例代碼會從注冊表上讀取一個運行的巨集的檔案名稱，并顯示它。
 
-#### \[JavaScript (JScript)\]
+## 
+
+### \[JavaScript (JScript)\]
 
 WshShell = new ActiveXObject( "WScript.Shell" );
 
@@ -13,13 +15,13 @@ str = WshShell.RegRead( "HKCU\\\Software\\\EmSoft\\\EmEditor v3\\\Common\\\Macro
 
 alert( str );
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set WshShell = CreateObject( "WScript.Shell" )
-
 str = WshShell.RegRead( "HKCU\\Software\\EmSoft\\EmEditor v3\\Common\\MacroFile" )
-
 alert str
+```
 
 ## 提示:
 

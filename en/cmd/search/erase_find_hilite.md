@@ -1,34 +1,39 @@
 # Erase Find Highlight command
 
-### Summary
+## Summary
 
-> Erases highlights from search terms.
+Erases highlights from search terms.
 
-### Description
+## Description
 
-> Erases all highlights for previously run search strings present on the current
-> document.
+Erases all highlights for previously run search strings present on the current
+document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Search** \> **Erase Find Highlight**
-- [All Commands](../tools/all_commands): **Search**
-\> **Erase Find Highlight**
+- Default Menu:Search \>Erase Find Highlight
+- [All Commands](../tools/all_commands):Search
+\>Erase Find Highlight
 - Toolbar:
 ![](../../images/erasefindhilite.gif)
 - Status Bar: None
 - Default Shortcut Key: ALT+F3
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ERASE\_FIND\_HILITE (4206)
+```
+EEID_ERASE_FIND_HILITE (4206)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.HighlightFind=false;
+```
+document.HighlightFind=false;
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.HighlightFind=false
+```
+document.HighlightFind=false
+```

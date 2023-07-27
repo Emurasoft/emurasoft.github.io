@@ -1,35 +1,40 @@
 # Documents List command
 
-### Summary
+## Summary
 
-> Switches to the specified document (multiple items).
+Switches to the specified document (multiple items).
 
-### Description
+## Description
 
-> Switches to the specified EmEditor document. If the specified document is minimized, it will restore its
-> normal size. This command consists of multiple menu items.
+Switches to the specified EmEditor document. If the specified document is minimized, it will restore its
+normal size. This command consists of multiple menu items.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Window** \> ( **document name**)
-- [All Commands](../tools/all_commands): **Window**
-\> ( **document name**)
+- Default Menu:Window \> (document name)
+- [All Commands](../tools/all_commands):Window
+\> (document name)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- From EEID\_WINDOW\_MENU through EEID\_WINDOW\_MENU + 255 (from 5376 through 5376 + 255)
+```
+From EEID_WINDOW_MENU through EEID_WINDOW_MENU + 255 (from 5376 through 5376 + 255)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(5376 + i);  // i is an integer from 0
-> through 255
+```
+editor.ExecuteCommandByID(5376 + i);  // i is an integer from 0
+through 255
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 5376 + i   ' i is an integer from 0
-> through 255
+```
+editor.ExecuteCommandByID 5376 + i   ' i is an integer from 0
+through 255
+```

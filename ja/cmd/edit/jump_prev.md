@@ -1,14 +1,14 @@
 # \[前へジャンプ\] コマンド
 
-### 概要
+## 概要
 
-> アウトプット バーの前の場所にジャンプします。
+アウトプット バーの前の場所にジャンプします。
 
-### 説明
+## 説明
 
-> アウトプット バーの前の場所にジャンプします。
+アウトプット バーの前の場所にジャンプします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[高度な操作\] \- \[前へジャンプ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: SHIFT+F4
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_JUMP\_PREV (4443)
+```
+EEID_JUMP_PREV (4443)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4443);
+```
+editor.ExecuteCommandByID(4443);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4443
+```
+editor.ExecuteCommandByID 4443
+```

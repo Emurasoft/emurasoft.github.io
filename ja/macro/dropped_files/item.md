@@ -2,15 +2,19 @@
 
 指定したインデックスのファイル名を取得します。
 
-#### \[JavaScript\]
+## 
 
-_str_ =
-DroppedFiles. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = DroppedFiles.Item( Index );
+```
 
-_str_ =
-DroppedFiles. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+str = DroppedFiles.Item( Index )
+```
 
 ## パラメータ
 

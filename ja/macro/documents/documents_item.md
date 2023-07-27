@@ -2,13 +2,19 @@
 
 指定するインデックスの文書の Document オブジェクトを取得します。
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor.Documents. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.Documents.Item( Index );
+```
 
-_doc_ = editor.Documents. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+doc = editor.Documents.Item( Index )
+```
 
 ## パラメータ
 
@@ -18,13 +24,17 @@ _Index_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "最初の文書のフルパス: " + editor.Documents.Item(1).FullName );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "最初の文書のフルパス: " & editor.Documents.Item(1).FullName
+```
 
 ## バージョン
 

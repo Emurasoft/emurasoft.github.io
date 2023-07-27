@@ -2,15 +2,19 @@
 
 検索色のリストの [DisplayList コレクション](../display_list/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_list_ =
-object. **SearchList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.SearchList;
+```
 
-_list_ =
-object. **SearchList**
+### \[VBScript\]
+
+```
+list = object.SearchList
+```
 
 ## バージョン
 

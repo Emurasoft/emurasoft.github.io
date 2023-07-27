@@ -2,13 +2,19 @@
 
 返回是否視窗啟用了游標和鍵盤輸入。
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Enabled**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Enabled;
+```
 
-_b_ = wnd. **Enabled**
+### \[VBScript\]
+
+```
+b = wnd.Enabled
+```
 
 ## 版本
 

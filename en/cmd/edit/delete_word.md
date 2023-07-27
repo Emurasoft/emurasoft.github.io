@@ -1,36 +1,39 @@
 # Delete Word command
 
-### Summary
+## Summary
 
-> Deletes the word at the current cursor position.
+Deletes the word at the current cursor position.
 
-### Description
+## Description
 
-> Deletes any text at the cursor position between two white space characters. This command deletes white space if there is no text present at the cursor position.
+Deletes any text at the cursor position between two white space characters. This command deletes white space if there is no text present at the cursor position.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Delete**
-\> **Delete Word**
+- [All Commands](../tools/all_commands):Edit \>Delete
+\>Delete Word
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+DELETE
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DELETE\_WORD (4194)
+```
+EEID_DELETE_WORD (4194)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.SelectWord();
->
-> document.selection.Delete(1);
+```
+document.selection.SelectWord();
+document.selection.Delete(1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.SelectWord
->
-> document.selection.Delete 1
+```
+document.selection.SelectWord
+document.selection.Delete 1
+```

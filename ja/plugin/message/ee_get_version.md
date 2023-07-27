@@ -12,13 +12,13 @@ lParam = 0;
 
 _pnProductType_
 
-> 製品タイプを取得する int 変数へのポインタを指定します。次のうちいずれかの値になります。
->
-> |     |     |
-> | --- | --- |
-> | VERSION\_PRO | EmEditor Professional |
-> | VERSION\_STD | EmEditor Standard |
+製品タイプを取得する int 変数へのポインタを指定します。次のうちいずれかの値になります。
+
+|     |     |
+| --- | --- |
+| VERSION\_PRO | EmEditor Professional |
+| VERSION\_STD | EmEditor Standard |
 
 ## 戻り値
 
-> バージョン番号に 1000 を乗じた値を返します。
+バージョン番号に 1000 を乗じた値を返します。

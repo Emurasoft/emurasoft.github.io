@@ -1,32 +1,37 @@
 # Universal Character Names to Unicode command
 
-### Summary
+## Summary
 
-> Decodes the selected text from Universal Character Names.
+Decodes the selected text from Universal Character Names.
 
-### Description
+## Description
 
-> Decodes the selected text from Universal Character Names into the equivalent Unicode.
+Decodes the selected text from Universal Character Names into the equivalent Unicode.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Encode/Decode** \> **Universal Character Names to Unicode**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Universal Character Names to Unicode**
+- Default Menu:Convert \>Encode/Decode \>Universal Character Names to Unicode
+- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Universal Character Names to Unicode
 - Toolbar:
 ![](../../images/ucs2uni24x16.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DECODE\_UCN (4528)
+```
+EEID_DECODE_UCN (4528)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4528);
+```
+editor.ExecuteCommandByID(4528);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4528
+```
+editor.ExecuteCommandByID 4528
+```

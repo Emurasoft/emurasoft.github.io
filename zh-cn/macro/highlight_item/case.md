@@ -1,20 +1,22 @@
 # Case 属性 (HighlightItem ����)
 
-与配置属性中 [**高亮 (1)** 页面](../../dlg/properties/highlight1/index) 上的 **区分大小写** 复选框相对应。
+与配置属性中 [高亮 (1) 页面](../../dlg/properties/highlight1/index) 上的区分大小写 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Case**;
+### \[JavaScript\]
 
-item. **Case** = _b_;
+```
+b = item.Case;
+item.Case = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Case**
-
-item. **Case** = _b_
+```
+b = item.Case
+item.Case = b
+```
 
 ## 版本
 

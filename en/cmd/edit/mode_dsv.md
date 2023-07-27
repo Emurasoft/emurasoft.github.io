@@ -1,14 +1,14 @@
 # User Defined DSV Mode command
 
-### Summary
+## Summary
 
-> Selects the user-defined DSV (Delimiter-separated) mode.
+Selects the user-defined DSV (Delimiter-separated) mode.
 
-### Description
+## Description
 
-> Selects the user-defined DSV (Delimiter-separated) mode.
+Selects the user-defined DSV (Delimiter-separated) mode.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): None
@@ -16,16 +16,21 @@
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MODE\_DSV (4476)
+```
+EEID_MODE_DSV (4476)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4476);
+```
+editor.ExecuteCommandByID(4476);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4476
+```
+editor.ExecuteCommandByID 4476
+```

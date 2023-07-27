@@ -1,14 +1,14 @@
 # \[ティルデを挿入\] コマンド
 
-### 概要
+## 概要
 
-> a, n, o, A, N, O を続けてティルデ付文字を挿入します。
+a, n, o, A, N, O を続けてティルデ付文字を挿入します。
 
-### 説明
+## 説明
 
-> カーソル位置に a, n, o, e, u, A, N, O, E, U を続けてティルデ付文字 ã, ñ, õ, ẽ, ũ, Ã, Ñ, Õ, Ẽ, Ũ を挿入します。
+カーソル位置に a, n, o, e, u, A, N, O, E, U を続けてティルデ付文字 ã, ñ, õ, ẽ, ũ, Ã, Ñ, Õ, Ẽ, Ũ を挿入します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[挿入\] \- \[発音区別符号\] \- \[ティルデ\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[発音区別符号\] \- \[ティルデ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: CTRL+SHIFT+\`
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_INSERT\_TILDE (4306)
+```
+EEID_INSERT_TILDE (4306)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4306);
+```
+editor.ExecuteCommandByID(4306);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4306
+```
+editor.ExecuteCommandByID 4306
+```

@@ -13,12 +13,12 @@ lParam = (LPARAM) (POINT\_PTR\*) pptDev;
 
 _pptView_
 
-> 변환 될 표시 좌표를 지정하는 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터 입니다.
+변환 될 표시 좌표를 지정하는 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터 입니다.
 
 _pptDev_
 
-> 변환 된 장치 좌표를 수신 할 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터 입니다.
+변환 된 장치 좌표를 수신 할 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터 입니다.
 
 ## 반환 값
 
-> 반환 값이 사용되지 않습니다.
+반환 값이 사용되지 않습니다.

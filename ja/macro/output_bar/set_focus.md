@@ -2,13 +2,19 @@
 
 アウトプット バーにキーボード フォーカスを設定します。
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **SetFocus**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.SetFocus();
+```
 
-OutputBar. **SetFocus**
+### \[VBScript\]
+
+```
+OutputBar.SetFocus
+```
 
 ## バージョン
 

@@ -2,19 +2,21 @@
 
 글꼴의 크기를 포인트로 지정합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-item. **Size**;
+### \[JavaScript\]
 
-item. **Size** = _n_;
+```
+n = item.Size;
+item.Size = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Size**
-
-item. **Size** = _n_
+```
+n = item.Size
+item.Size = n
+```
 
 ## 버전
 

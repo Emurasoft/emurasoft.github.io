@@ -1,14 +1,20 @@
 # Config Property (Document Object)
 
-Retrieves the [**Config** Object](../config/index).
+Retrieves the [Config Object](../config/index).
 
-#### \[JavaScript\]
+## 
 
-_cfg_ = document. **Config;**
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+cfg = document.Config;
+```
 
-Set _cfg_ = document. **Config**
+### \[VBScript\]
+
+```
+Set cfg = document.Config
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 창 핸들이 유효한지 여부를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Valid**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Valid;
+```
 
-_b_ = wnd. **Valid**
+### \[VBScript\]
+
+```
+b = wnd.Valid
+```
 
 ## 버전
 

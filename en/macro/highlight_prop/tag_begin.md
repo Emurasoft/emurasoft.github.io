@@ -1,20 +1,24 @@
 # TagBegin Property (HighlightProp Object)
 
-Corresponds to the **Begin**
-**Tag** text box in the
-[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to theBegin
+Tag text box in the
+[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **TagBegin**;
+### \[JavaScript\]
 
-object. **TagBegin** = _str_;
+```
+str = object.TagBegin;
+object.TagBegin = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **TagBegin**
-
-object. **TagBegin** = _str_
+```
+str = object.TagBegin
+object.TagBegin = str
+```
 
 ## Version
 

@@ -12,11 +12,11 @@ lParam = 0;
 
 ## Parameters
 
-> None.
+None.
 
 ## Return Values
 
-> Returns the currently selected margin size. If the normal line margin size
-> and the quoted line margin size are different, the larger margin will be
-> returned. If lines are wrapped by the window size, the return value will
-> depend on the current window size.
+Returns the currently selected margin size. If the normal line margin size
+and the quoted line margin size are different, the larger margin will be
+returned. If lines are wrapped by the window size, the return value will
+depend on the current window size.

@@ -1,14 +1,14 @@
 # \[ツール バーを最新の情報に更新\] コマンド
 
-### 概要
+## 概要
 
-> ツール バーを最新の情報に更新します。
+ツール バーを最新の情報に更新します。
 
-### 説明
+## 説明
 
-> ツール バーを最新の情報に更新します。
+ツール バーを最新の情報に更新します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[ツール バー\] \- \[最新の情報に更新\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_REFRESH\_TOOLBARS (4422)
+```
+EEID_REFRESH_TOOLBARS (4422)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4422);
+```
+editor.ExecuteCommandByID(4422);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4422
+```
+editor.ExecuteCommandByID 4422
+```

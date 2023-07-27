@@ -1,18 +1,22 @@
 # Folder 속성 (BackupProp ��ü)
 
-구성 속성 [**백업** 탭](../../dlg/properties/backup/index) 의 **백업 폴더** 텍스트 박스에 해당합니다.
+구성 속성 [백업 탭](../../dlg/properties/backup/index) 의백업 폴더 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Folder**;
+### \[JavaScript\]
 
-object. **Folder** = _s_;
+```
+s = object.Folder;
+object.Folder = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Folder**
-
-object. **Folder** = _s_
+```
+s = object.Folder
+object.Folder = s
+```
 
 ## 버전
 

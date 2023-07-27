@@ -1,18 +1,22 @@
 # Enabled 屬性 (AutoSaveProp ��H)
 
-與組態屬性中 [**自動儲存** 頁面](../../dlg/properties/autosave/index) 上的 **自動儲存** 核取方塊對應。
+與組態屬性中 [自動儲存 頁面](../../dlg/properties/autosave/index) 上的自動儲存 核取方塊對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Enabled**;
+### \[JavaScript\]
 
-object. **Enabled** = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Enabled**
-
-object. **Enabled** = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## 版本
 

@@ -2,17 +2,21 @@
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[セル内の最大改行数\] テキスト ボックス に相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **LinesCell**;
+### \[JavaScript\]
 
-object. **LinesCell** = _n_;
+```
+n = object.LinesCell;
+object.LinesCell = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **LinesCell**
-
-object. **LinesCell** = _n_
+```
+n = object.LinesCell
+object.LinesCell = n
+```
 
 ## バージョン
 

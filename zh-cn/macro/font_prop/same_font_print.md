@@ -1,20 +1,22 @@
 # SameFontPrint 属性 (FontProp ����)
 
-与自定义字体对话框中的 [**将显示字体作为打印机字体** 复选框](../../dlg/properties/font/index) 相对应。
+与自定义字体对话框中的 [将显示字体作为打印机字体 复选框](../../dlg/properties/font/index) 相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SameFontPrint**;
+### \[JavaScript\]
 
-object. **SameFontPrint** = _b_;
+```
+b = object.SameFontPrint;
+object.SameFontPrint = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SameFontPrint**
-
-object. **SameFontPrint** = _b_
+```
+b = object.SameFontPrint
+object.SameFontPrint = b
+```
 
 ## 版本
 

@@ -2,13 +2,19 @@
 
 折叠所选的部分到活动点。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Collapse**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Collapse();
+```
 
-document.selection. **Collapse**
+### \[VBScript\]
+
+```
+document.selection.Collapse
+```
 
 ## 版本
 

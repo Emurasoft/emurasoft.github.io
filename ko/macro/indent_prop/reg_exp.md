@@ -1,18 +1,22 @@
 # RegExp 속성 (IndentProp ��ü)
 
-[**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 의 **정규식 사용** 체크 박스에 해당합니다.
+[탭/들여쓰기 대화 상자](../../dlg/properties/general/indent/index) 의정규식 사용 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **RegExp**;
+### \[JavaScript\]
 
-object. **RegExp** = _b_;
+```
+b = object.RegExp;
+object.RegExp = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **RegExp**
-
-object. **RegExp** = _b_
+```
+b = object.RegExp
+object.RegExp = b
+```
 
 ## 버전
 

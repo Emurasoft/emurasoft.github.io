@@ -2,13 +2,19 @@
 
 重設目前的組態。
 
-#### \[JavaScript\]
+## 
 
-object. **Reset**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Reset( [ strName ] );
+```
 
-object. **Reset** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Reset [ strName ]
+```
 
 ## 參數
 

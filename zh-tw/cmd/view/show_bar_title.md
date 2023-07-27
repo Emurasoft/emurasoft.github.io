@@ -1,33 +1,38 @@
 # 顯示工具列標題命令
 
-### 摘要
+## 摘要
 
-> 顯示工具列標題。
+顯示工具列標題。
 
-### 說明
+## 說明
 
-> 顯示或隱藏工具列標題。工具列標題包括 **外掛程式**， **工具** 還有 **視窗**。
+顯示或隱藏工具列標題。工具列標題包括外掛程式，工具 還有視窗。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **檢視** >
-**工具列** \> **工具列標題**
-- [全部命令](../tools/all_commands): **檢視** >
-**工具列** \> **工具列標題**
+- 預設功能表:檢視 >
+工具列 \>工具列標題
+- [全部命令](../tools/all_commands):檢視 >
+工具列 \>工具列標題
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_SHOW\_BAR\_TITLE (4340)
+```
+EEID_SHOW_BAR_TITLE (4340)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4340);
+```
+editor.ExecuteCommandByID(4340);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4340
+```
+editor.ExecuteCommandByID 4340
+```

@@ -1,31 +1,36 @@
 # 同步大綱顯示條和大綱導引命令
 
-### 摘要
+## 摘要
 
-> 同步大綱顯示條和大綱導引的展開或折疊狀態。
+同步大綱顯示條和大綱導引的展開或折疊狀態。
 
-### 說明
+## 說明
 
-> 當顯示大綱時，這個命令會同步大綱顯示條和大綱導引中的展開或折疊狀態。
+當顯示大綱時，這個命令會同步大綱顯示條和大綱導引中的展開或折疊狀態。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **編輯** \> **大綱** \> **同步大綱顯示條和大綱導引**
-- [全部命令](../tools/all_commands): **編輯** \> **大綱** \> **同步大綱顯示條和大綱導引**
+- 預設功能表:編輯 \>大綱 \>同步大綱顯示條和大綱導引
+- [全部命令](../tools/all_commands):編輯 \>大綱 \>同步大綱顯示條和大綱導引
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_OUTLINE\_SYNC\_BAR\_TO\_GUIDE (3879)
+```
+EEID_OUTLINE_SYNC_BAR_TO_GUIDE (3879)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3879);
+```
+editor.ExecuteCommandByID(3879);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3879
+```
+editor.ExecuteCommandByID 3879
+```

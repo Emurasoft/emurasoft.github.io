@@ -9,24 +9,24 @@ Editor\_SetOutlineArray( HWND hwnd, INT\_PTR nStartLine, INT\_PTR nCount, BYTE\*
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _nStartLine_
 
-> 指定多行的首行。
+指定多行的首行。
 
 _nCount_
 
-> 指定多行的行數。
+指定多行的行數。
 
 _pLevelData_
 
-> 指定決定大綱級別的位元數組。
+指定決定大綱級別的位元數組。
 
 ## 返回值
 
-> 返回值是 FALSE 如果沒有變更。否則，返回值是 TRUE。
+返回值是 FALSE 如果沒有變更。否則，返回值是 TRUE。
 
 ## 支持版本
 
-> 支持 EmEditor 13 或之後的版本。
+支持 EmEditor 13 或之後的版本。

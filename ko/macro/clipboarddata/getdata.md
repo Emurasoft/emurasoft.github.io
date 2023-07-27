@@ -2,13 +2,19 @@
 
 클립보드로부터 지정된 형식 내에서 데이터를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_sData_ = clipboardData. **getData**( _sDataFormat_, _iPos_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+sData = clipboardData.getData( sDataFormat, iPos );
+```
 
-_sData_ = clipboardData. **getData**( _sDataFormat_, _iPos_ )
+### \[VBScript\]
+
+```
+sData = clipboardData.getData( sDataFormat, iPos )
+```
 
 ## 매개 변수
 
@@ -30,53 +36,45 @@ _iPos_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 str = clipboardData.getData("Text");
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 str = clipboardData.getData("Text")
-
 다음의 매크로는 클립보드 기록을 표시하며 텍스트에 삽입될 항목을 선택합니다.
+```
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 menu = CreatePopupMenu();
-
 i = 0;
-
 do {
-
 str = clipboardData.getData("text", i);
-
 if( str.length == 0 ) break;
-
 str = str.substr( 0, 40 )
-
 menu.Add( str, i + 100 );
-
 i++;
-
 } while( 1 );
-
 result = menu.Track( 0 );
-
 if( result != 0 ) {
-
 s = clipboardData.getData("text", result - 100);
-
 document.write( s );
-
 }
-
 다음의 매크로는 HTML 형식으로 클립보드 내용을 붙여 넣습니다.
+```
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 str = clipboardData.getData("html");
-
 document.selection.Text = str;
+```
 
 ## 버전
 

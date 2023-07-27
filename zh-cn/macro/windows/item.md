@@ -2,13 +2,19 @@
 
 为指定索引的窗口检索窗口对象。
 
-#### \[JavaScript\]
+## 
 
-_wnd_ = shell.windows. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd = shell.windows.Item( Index );
+```
 
-_wnd_ = shell.windows. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+wnd = shell.windows.Item( Index )
+```
 
 ## 参数
 
@@ -18,13 +24,17 @@ _Index_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Name of the first window: " + shell.windows.Item(1).Caption );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Name of the first window: " + shell.windows.Item(1).Caption
+```
 
 ## 版本
 

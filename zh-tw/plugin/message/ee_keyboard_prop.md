@@ -13,12 +13,12 @@ lParam = (LPARAM)(LPCWSTR)pszConfigName;
 
 _nCmdID_
 
-> 給鍵盤屬性上的初始選區指定命令 ID。
+給鍵盤屬性上的初始選區指定命令 ID。
 
 _pszConfigName_
 
-> 指定 EmEditor 顯示鍵盤屬性的配置。
+指定 EmEditor 顯示鍵盤屬性的配置。
 
 ## 返回值
 
-> 如果用戶在配置屬性上選擇 OK，返回值是 TRUE。如果用戶選擇 Cancel，返回值是 FALSE。
+如果用戶在配置屬性上選擇 OK，返回值是 TRUE。如果用戶選擇 Cancel，返回值是 FALSE。

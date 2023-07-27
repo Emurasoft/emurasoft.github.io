@@ -1,14 +1,20 @@
 # ViewToLogical 方法 (Document ��H)
 
-將指定位置的顯示坐標轉換為邏輯坐標，并檢索 [**Point** 對象](../point/index) 中的位置。
+將指定位置的顯示坐標轉換為邏輯坐標，并檢索 [Point 對象](../point/index) 中的位置。
 
-#### \[JavaScript\]
+## 
 
-_point_ = document. **ViewToLogical**( _x_, _y_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+point = document.ViewToLogical( x, y );
+```
 
-_point_ = document. **ViewToLogical**( _x_, _y_ )
+### \[VBScript\]
+
+```
+point = document.ViewToLogical( x, y )
+```
 
 ## Parameters
 
@@ -22,21 +28,21 @@ _y_
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 point = document.ViewToLogical( 10, 1 );
-
 x = point.x;
-
 y = point.y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 point = document.ViewToLogical( 10, 1 )
-
 x = point.x
-
 y = point.y
+```
 
 ## 版本
 

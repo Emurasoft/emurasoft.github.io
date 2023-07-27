@@ -1,26 +1,27 @@
 # Edit Macro command
 
-### Summary
+## Summary
 
-> Edits currently selected macro.
+Edits currently selected macro.
 
-### Description
+## Description
 
-> This command opens the last executed or recorded macro.
+This command opens the last executed or recorded macro.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Macros** \> **Edit**
-- [All Commands](../tools/all_commands): **Macros**
-\> **Edit**
+- Default Menu:Macros \>Edit
+- [All Commands](../tools/all_commands):Macros
+\>Edit
 - Toolbar: ![](../../images/macroedit.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MACRO\_EDIT (4348)
+```
+EEID_MACRO_EDIT (4348)```
 
-### Macros
+## Macros
 
-> Not available.
+Not available.

@@ -1,18 +1,22 @@
 # URLCharactersNotEnd プロパティ (LinkProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[リンク\]** タブ](../../dlg/properties/link/index) の **\[最後に認識されない文字\]** テキスト ボックスに相当します。
+設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の\[最後に認識されない文字\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **URLCharactersNotEnd**;
+### \[JavaScript\]
 
-object. **URLCharactersNotEnd** = _s_;
+```
+s = object.URLCharactersNotEnd;
+object.URLCharactersNotEnd = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **URLCharacters**
-
-object. **URLCharacters** = _s_
+```
+s = object.URLCharacters
+object.URLCharacters = s
+```
 
 ## バージョン
 

@@ -2,17 +2,21 @@
 
 检索或设置当前 Csv 对象的引号标记。
 
-#### \[JavaScript\]
+## 
 
-_ch_ = object. **QuotationMark**;
+### \[JavaScript\]
 
-object. **QuotationMark** = _ch_;
+```
+ch = object.QuotationMark;
+object.QuotationMark = ch;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_ch_ = object. **QuotationMark**
-
-object. **QuotationMark** = _ch_
+```
+ch = object.QuotationMark
+object.QuotationMark = ch
+```
 
 ## 版本
 

@@ -1,14 +1,20 @@
 # shell 属性 (Window ����)
 
-返回 [**Shell** 对象](../shell/index)。
+返回 [Shell 对象](../shell/index)。
 
-#### \[JavaScript\]
+## 
 
-_shl_ = **shell**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shl =shell;
+```
 
-Set _shl_ = **shell**
+### \[VBScript\]
+
+```
+Set shl =shell
+```
 
 ## 版本
 

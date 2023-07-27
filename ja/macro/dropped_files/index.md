@@ -6,28 +6,27 @@ DroppedFiles コレクションはフレーム ウィンドウにドロップさ
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | ドロップされたファイルの数を取得します。 |
-| **[Item](item)** | 指定したインデックスのドロップされたファイル名を取得します。 |
+|[Count](count) | ドロップされたファイルの数を取得します。 |
+|[Item](item) | 指定したインデックスのドロップされたファイル名を取得します。 |
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 files = new Enumerator( DroppedFiles );
-
 for( ; !files.atEnd(); files.moveNext() ){
-
 alert( files.item() );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each str In DroppedFiles
-
 alert str
-
 Next
+```
 
 ## バージョン
 

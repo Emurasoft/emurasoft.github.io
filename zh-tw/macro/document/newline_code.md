@@ -2,13 +2,19 @@
 
 檢索文檔的目前的新行字元碼。
 
-#### \[JavaScript\]
+## 
 
-_nNewlineCode_ = document. **NewlineCode**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nNewlineCode = document.NewlineCode;
+```
 
-_nNewlineCode_ = document. **NewlineCode**
+### \[VBScript\]
+
+```
+nNewlineCode = document.NewlineCode
+```
 
 ## 參數
 

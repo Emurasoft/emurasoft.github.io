@@ -2,13 +2,19 @@
 
 如果指定檔案存在則返回 true；如果沒有，則為 false。
 
-#### \[JavaScript\]
+## 
 
-b = shell. **FileExists**( _strFile_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = shell.FileExists( strFile );
+```
 
-b = shell. **FileExists**( _strFile_ )
+### \[VBScript\]
+
+```
+b = shell.FileExists( strFile )
+```
 
 ## 參數
 
@@ -18,13 +24,17 @@ _strFile_
 
 ## 範例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 b = shell.FileExists( "C:\\\Test\\\file.txt" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 b = shell.FileExists( "C:\\Test\\file.txt" )
+```
 
 ## 版本
 

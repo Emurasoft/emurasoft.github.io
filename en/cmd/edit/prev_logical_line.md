@@ -1,32 +1,37 @@
 # Previous Logical Line command
 
-### Summary
+## Summary
 
-> Moves the cursor to the start of the previous logical line.
+Moves the cursor to the start of the previous logical line.
 
-### Description
+## Description
 
-> Moves the cursor to the start of the previous logical line.
+Moves the cursor to the start of the previous logical line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
-\> **Previous Logical Line**
+- [All Commands](../tools/all_commands):Edit \>Move Cursor Vertically
+\>Previous Logical Line
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+PAGE UP
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PREV\_LOGICAL\_LINE (4269)
+```
+EEID_PREV_LOGICAL_LINE (4269)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4269);
+```
+editor.ExecuteCommandByID(4269);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4269
+```
+editor.ExecuteCommandByID 4269
+```

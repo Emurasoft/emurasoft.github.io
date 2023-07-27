@@ -2,13 +2,19 @@
 
 Retrieves the window object for the window of the specified index.
 
-#### \[JavaScript\]
+## 
 
-_wnd_ = shell.windows. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd = shell.windows.Item( Index );
+```
 
-_wnd_ = shell.windows. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+wnd = shell.windows.Item( Index )
+```
 
 ## Parameters
 
@@ -18,13 +24,17 @@ Specifies the index of the window as a one-based integer.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Name of the first window: " + shell.windows.Item(1).Caption );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Name of the first window: " + shell.windows.Item(1).Caption
+```
 
 ## Version
 

@@ -1,33 +1,38 @@
 # Replace Next command
 
-### Summary
+## Summary
 
-> Replaces the next occurrence.
+Replaces the next occurrence.
 
-### Description
+## Description
 
-> Replaces the next occurrence of the previously searched string, with the same
-> options.
+Replaces the next occurrence of the previously searched string, with the same
+options.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Replace Next**
+- [All Commands](../tools/all_commands):Search
+\>Replace Next
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_REPLACE\_NEXT (4447)
+```
+EEID_REPLACE_NEXT (4447)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4447);
+```
+editor.ExecuteCommandByID(4447);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4447
+```
+editor.ExecuteCommandByID 4447
+```

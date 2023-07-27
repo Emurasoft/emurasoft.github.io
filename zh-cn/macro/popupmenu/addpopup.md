@@ -2,13 +2,19 @@
 
 添加一个新的子菜单到菜单末尾。
 
-#### \[JavaScript\]
+## 
 
-popupmenu. **AddPopup**( _strText_, _submenu_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu.AddPopup( strText, submenu);
+```
 
-popupmenu. **AddPopup** _strText_, _submenu_
+### \[VBScript\]
+
+```
+popupmenu.AddPopup strText, submenu
+```
 
 ## 参数
 

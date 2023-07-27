@@ -1,22 +1,24 @@
 # TabColumns Property (IndentProp Object)
 
-Corresponds to the **Tab**
-**Columns** text box in the
-[**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
+Corresponds to theTab
+Columns text box in the
+[Tab/Index dialog box](../../dlg/properties/general/indent/index).
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **TabColumns**;
+### \[JavaScript\]
 
-object. **TabColumns** = _n_;
+```
+n = object.TabColumns;
+object.TabColumns = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **TabColumns**
-
-object. **TabColumns** = _n_
+```
+n = object.TabColumns
+object.TabColumns = n
+```
 
 ## Version
 

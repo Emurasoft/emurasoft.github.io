@@ -1,20 +1,22 @@
 # DetectUTF8 属性 (FileProp ����)
 
-与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **检测 UTF-8** 复选框相对应。
+与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的检测 UTF-8 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DetectUTF8**;
+### \[JavaScript\]
 
-object. **DetectUTF8** = _b_;
+```
+b = object.DetectUTF8;
+object.DetectUTF8 = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DetectUTF8**
-
-object. **DetectUTF8** = _b_
+```
+b = object.DetectUTF8
+object.DetectUTF8 = b
+```
 
 ## 版本
 

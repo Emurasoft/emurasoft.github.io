@@ -2,13 +2,19 @@
 
 활설화 지점에 선택 영역을 축소합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Collapse**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Collapse();
+```
 
-document.selection. **Collapse**
+### \[VBScript\]
+
+```
+document.selection.Collapse
+```
 
 ## 버전
 

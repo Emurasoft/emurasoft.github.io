@@ -1,14 +1,14 @@
 # \[選択範囲を行末へ\] コマンド
 
-### 概要
+## 概要
 
-> 選択範囲を行末へ移動します。
+選択範囲を行末へ移動します。
 
-### 説明
+## 説明
 
-> 選択範囲を表示行の行末へ移動します。
+選択範囲を表示行の行末へ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択範囲の変更\] \- \[選択範囲を行末へ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Shift+End
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SHIFT\_END (4182)
+```
+EEID_SHIFT_END (4182)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.EndOfLine(true,eeLineView);
+```
+document.selection.EndOfLine(true,eeLineView);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.EndOfLine(true,eeLineView);
+```
+document.selection.EndOfLine(true,eeLineView);
+```

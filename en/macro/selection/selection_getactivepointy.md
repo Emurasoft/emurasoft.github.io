@@ -2,13 +2,19 @@
 
 Returns the line number of the cursor position.
 
-#### \[JavaScript\]
+## 
 
-yPos = document.selection. **GetActivePointY**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos = document.selection.GetActivePointY( nFlags [, iSel ] );
+```
 
-yPos = document.selection. **GetActivePointY**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+yPos = document.selection.GetActivePointY( nFlags [, iSel ] )
+```
 
 ## Parameters
 

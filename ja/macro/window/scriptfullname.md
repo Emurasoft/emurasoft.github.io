@@ -2,13 +2,19 @@
 
 現在実行しているマクロの完全パスと名前を取得します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = **ScriptFullName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str =ScriptFullName;
+```
 
-_str_ = **ScriptFullName**
+### \[VBScript\]
+
+```
+str =ScriptFullName
+```
 
 ## バージョン
 

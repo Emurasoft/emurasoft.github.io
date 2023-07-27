@@ -1,22 +1,24 @@
 # DrawSeparatingLines Property (PrintProp Object)
 
-Corresponds to the **Draw**
-**Separating Lines** check box in the
-[**Print** page](../../dlg/properties/print/index) of Configuration Properties.
+Corresponds to the Draw
+Separating Lines check box in the
+[Print page](../../dlg/properties/print/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DrawSeparatingLines**;
+### \[JavaScript\]
 
-object. **DrawSeparatingLines** = _b_;
+```
+b = object.DrawSeparatingLines;
+object.DrawSeparatingLines = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DrawSeparatingLines**
-
-object. **DrawSeparatingLines** = _b_
+```
+b = object.DrawSeparatingLines
+object.DrawSeparatingLines = b
+```
 
 ## Version
 

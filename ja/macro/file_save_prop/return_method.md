@@ -1,18 +1,22 @@
 # ReturnMethod プロパティ (FileSaveProp �I�u�W�F�N�g)
 
-**\[保存時の詳細\]** ダイアログ ボックスの **\[改行コード\]** ドロップダウン リスト ボックスに相当します。
+\[保存時の詳細\] ダイアログ ボックスの\[改行コード\] ドロップダウン リスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **ReturnMethod**;
+### \[JavaScript\]
 
-object. **ReturnMethod** = _n_;
+```
+n = object.ReturnMethod;
+object.ReturnMethod = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **ReturnMethod**
-
-object. **ReturnMethod** = _n_
+```
+n = object.ReturnMethod
+object.ReturnMethod = n
+```
 
 ## バージョン
 

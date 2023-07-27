@@ -2,17 +2,21 @@
 
 次に保存する時に使用されるエンコードを取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_nEncoding_ = document. **Encoding**;
+### \[JavaScript\]
 
-document. **Encoding** = _nEncoding_;
+```
+nEncoding = document.Encoding;
+document.Encoding = nEncoding;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nEncoding_ = document. **Encoding**
-
-document. **Encoding** = _nEncoding_
+```
+nEncoding = document.Encoding
+document.Encoding = nEncoding
+```
 
 ## パラメータ
 

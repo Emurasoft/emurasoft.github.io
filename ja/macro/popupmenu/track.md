@@ -2,13 +2,19 @@
 
 ポップアップ メニューを表示して、選択されたメニュー項目の ID を返します。
 
-#### \[JavaScript\]
+## 
 
-popupmenu. **Track**( _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu.Track( flags );
+```
 
-popupmenu. **Track** _flags_
+### \[VBScript\]
+
+```
+popupmenu.Track flags
+```
 
 ## パラメータ
 

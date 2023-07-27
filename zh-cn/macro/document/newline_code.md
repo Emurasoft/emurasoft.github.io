@@ -2,13 +2,19 @@
 
 检索文档的当前换行字符码。
 
-#### \[JavaScript\]
+## 
 
-_nNewlineCode_ = document. **NewlineCode**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nNewlineCode = document.NewlineCode;
+```
 
-_nNewlineCode_ = document. **NewlineCode**
+### \[VBScript\]
+
+```
+nNewlineCode = document.NewlineCode
+```
 
 ## 参数
 

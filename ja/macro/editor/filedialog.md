@@ -2,13 +2,19 @@
 
 ファイルを開く、または名前を付けて保存ダイアログ ボックスを表示して、開くファイルのドライブ、ディレクトリ、名前を指定します。
 
-#### \[JavaScript\]
+## 
 
-_strFileName_ = editor. **FileDialog**( _nType_ \[, _nFlags_ \[, _strTitle_ \[, _strFilter_ \[, _nDefFilterIndex_ \[, _strDefPath_ \[, _strDefFolder_ \[, _strDefExt_ \]\]\]\]\]\]\] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strFileName = editor.FileDialog( nType [, nFlags [, strTitle [, strFilter [, nDefFilterIndex [, strDefPath [, strDefFolder [, strDefExt ]]]]]]] );
+```
 
-_strFileName_ = editor. **FileDialog**( _nType_ \[, _nFlags_ \[, _strTitle_ \[, _strFilter_ \[, _nDefFilterIndex_ \[, _strDefPath_ \[, _strDefFolder_ \[, _strDefExt_ \]\]\]\]\]\]\] )
+### \[VBScript\]
+
+```
+strFileName = editor.FileDialog( nType [, nFlags [, strTitle [, strFilter [, nDefFilterIndex [, strDefPath [, strDefFolder [, strDefExt ]]]]]]] )
+```
 
 ## パラメータ
 

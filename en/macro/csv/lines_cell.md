@@ -1,18 +1,22 @@
 # LinesCell Property (Csv Object)
 
-Corresponds to the **Max newlines in a cell** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to theMax newlines in a cell text box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **LinesCell**;
+### \[JavaScript\]
 
-object. **LinesCell** = _n_;
+```
+n = object.LinesCell;
+object.LinesCell = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **LinesCell**
-
-object. **LinesCell** = _n_
+```
+n = object.LinesCell
+object.LinesCell = n
+```
 
 ## Version
 

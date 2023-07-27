@@ -8,12 +8,12 @@ Editor\_GetColumn( HWND hwnd, COLUMN\_STRUCT\* pColumnStruct );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _pColumnStruct_
 
-> [COLUMN\_STRUCT](../structure/column_struct) 構造体へのポインタを指定します。
+[COLUMN\_STRUCT](../structure/column_struct) 構造体へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると、テキストを取得するのに必要なバッファのサイズを終端 Null 文字を含めて文字単位で返します。失敗すると負の値になります。戻り値は、テキストを取得するのに必要な正確な値より大きくなることがあります。
+成功すると、テキストを取得するのに必要なバッファのサイズを終端 Null 文字を含めて文字単位で返します。失敗すると負の値になります。戻り値は、テキストを取得するのに必要な正確な値より大きくなることがあります。

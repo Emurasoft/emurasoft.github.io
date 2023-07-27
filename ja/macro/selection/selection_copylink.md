@@ -2,13 +2,19 @@
 
 カーソル位置のハイパーリンクをクリップボードにコピーします。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **CopyLink**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.CopyLink();
+```
 
-document.selection. **CopyLink**
+### \[VBScript\]
+
+```
+document.selection.CopyLink
+```
 
 ## バージョン
 

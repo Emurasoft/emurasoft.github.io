@@ -1,31 +1,36 @@
 # Check Spelling in Hyperlinks command
 
-### Summary
+## Summary
 
-> Checks spelling in hyperlinks.
+Checks spelling in hyperlinks.
 
-### Description
+## Description
 
-> Checks spelling in hyperlinks. Misspelled words will be underlined in red.
+Checks spelling in hyperlinks. Misspelled words will be underlined in red.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Hyperlinks**
-- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **Hyperlinks**
+- Default Menu:Edit \>Spelling \>Check Spelling in \>Hyperlinks
+- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling in \>Hyperlinks
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SPELL\_HYPERLINK (4520)
+```
+EEID_SPELL_HYPERLINK (4520)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4520);
+```
+editor.ExecuteCommandByID(4520);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4520
+```
+editor.ExecuteCommandByID 4520
+```

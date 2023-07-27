@@ -11,19 +11,19 @@ Editor\_LoadFileA( HWND hwnd, LOAD\_FILE\_INFO\_EX\* pLoadFileInfo, LPCSTR szFil
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _pLoadFileInfo_
 
-> Pointer to a [LOAD\_FILE\_INFO\_EX](../structure/load_file_info) structure. If this parameter is NULL, Editor\_LoadFileA will
-> open a file by a method predefined by the properties.
+Pointer to a [LOAD\_FILE\_INFO\_EX](../structure/load_file_info) structure. If this parameter is NULL, Editor\_LoadFileA will
+open a file by a method predefined by the properties.
 
 _szFileName_
 
-> Specifies a full path file name in bytes. If a non-existing file is
-> specified, Editor\_LoadFileA will fail.
+Specifies a full path file name in bytes. If a non-existing file is
+specified, Editor\_LoadFileA will fail.
 
 ## Return Values
 
-> If the command is enable, the return value is nonzero. If the command it
-> not enable, the return value is zero.
+If the command is enable, the return value is nonzero. If the command it
+not enable, the return value is zero.

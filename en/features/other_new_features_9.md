@@ -14,4 +14,4 @@ Other features introduced on Version 9 include:
 - Cursor size and color can be customized now.
 - Text color and background color of custom bars can be specified now.
 
-### See also
+## See also

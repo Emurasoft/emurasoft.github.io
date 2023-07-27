@@ -3,13 +3,19 @@
 Displays a message in a simple dialog box with the OK button and the Cancel
 button.
 
-#### \[JavaScript\]
+## 
 
-_bAnswer_ = **confirm**( _strQuestion, strMessage2_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bAnswer =confirm( strQuestion, strMessage2);
+```
 
-_bAnswer_ = **confirm**( _strQuestion, strMessage2_ )
+### \[VBScript\]
+
+```
+bAnswer =confirm( strQuestion, strMessage2 )
+```
 
 ## Parameters
 

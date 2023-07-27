@@ -2,23 +2,33 @@
 
 检索不带路径的文档的文件名，或重命名文档的文件名。如果文档没有标题，则重命名文档标题而不保存文件。
 
-#### \[JavaScript\]
+## 
 
-_strName_ = document. **Name**;document. **Name** = _strName_;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = document.Name;document.Name = strName;
+```
 
-_strName_ = document. **Name** document. **Name** = _strName_
+### \[VBScript\]
+
+```
+strName = document.Name document.Name = strName
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( document.Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert document.Name
+```
 
 ## 版本
 

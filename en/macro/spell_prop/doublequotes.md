@@ -1,21 +1,23 @@
 # DoubleQuotes Property (SpellProp Object)
 
-Corresponds to the **String Enclosed by Double Quotation Marks** check box in the
-[**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to theString Enclosed by Double Quotation Marks check box in the
+[Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DoubleQuotes**;
+### \[JavaScript\]
 
-object. **DoubleQuotes** = _b_;
+```
+b = object.DoubleQuotes;
+object.DoubleQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DoubleQuotes**
-
-object. **DoubleQuotes** = _b_
+```
+b = object.DoubleQuotes
+object.DoubleQuotes = b
+```
 
 ## Version
 

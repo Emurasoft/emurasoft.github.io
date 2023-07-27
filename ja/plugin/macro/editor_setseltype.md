@@ -8,21 +8,21 @@ Editor\_SetSelType( hwnd, nSelType );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _nSelType_
 
-> 次の値の組み合わせになります。SEL\_TYPE\_NONE、SEL\_TYPE\_CHAR、SEL\_TYPE\_LINE および SEL\_TYPE\_BOX
-> は同時に指定することはできません。SEL\_TYPE\_KEYBOARD のみ、他の値と組み合わせて指定できます。
->
-> | 値 | 説明 |
-> | --- | --- |
-> | SEL\_TYPE\_NONE | 選択されていません |
-> | SEL\_TYPE\_CHAR | 文字単位で通常に選択されています |
-> | SEL\_TYPE\_LINE | 行単位で選択されています |
-> | SEL\_TYPE\_BOX | 箱型選択されています |
-> | SEL\_TYPE\_KEYBOARD | キーボードで選択されています |
+次の値の組み合わせになります。SEL\_TYPE\_NONE、SEL\_TYPE\_CHAR、SEL\_TYPE\_LINE および SEL\_TYPE\_BOX
+は同時に指定することはできません。SEL\_TYPE\_KEYBOARD のみ、他の値と組み合わせて指定できます。
+
+| 値 | 説明 |
+| --- | --- |
+| SEL\_TYPE\_NONE | 選択されていません |
+| SEL\_TYPE\_CHAR | 文字単位で通常に選択されています |
+| SEL\_TYPE\_LINE | 行単位で選択されています |
+| SEL\_TYPE\_BOX | 箱型選択されています |
+| SEL\_TYPE\_KEYBOARD | キーボードで選択されています |
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。

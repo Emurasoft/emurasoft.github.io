@@ -1,14 +1,14 @@
 # \[マーカーに一致する文字列を数える\] コマンド
 
-### 概要
+## 概要
 
-> 現在の文書でマーカーに一致する文字列を数えます。
+現在の文書でマーカーに一致する文字列を数えます。
 
-### 説明
+## 説明
 
-> 現在の文書でマーカーに一致する文字列を数えます。
+現在の文書でマーカーに一致する文字列を数えます。
 
-### 方法
+## 方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[マーカー\] \- \[一致する文字列を数える\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_MARKER\_COUNT\_MATCHES (4042)
+```
+EEID_MARKER_COUNT_MATCHES (4042)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4042);
+```
+editor.ExecuteCommandByID(4042);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4042
+```
+editor.ExecuteCommandByID 4042
+```

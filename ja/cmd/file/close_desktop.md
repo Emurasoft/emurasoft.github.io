@@ -1,14 +1,14 @@
 # \[すべて閉じる(現在のデスクトップのみ)\] コマンド
 
-### 概要
+## 概要
 
-> 現在の仮想デスクトップのすべての文書を閉じます。
+現在の仮想デスクトップのすべての文書を閉じます。
 
-### 説明
+## 説明
 
-> 現在の仮想デスクトップのすべての文書を閉じます。
+現在の仮想デスクトップのすべての文書を閉じます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[閉じる\] \- \[すべて閉じる(現在のデスクトップのみ)\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SAVE\_CLOSE\_DESKTOP (3935)
+```
+EEID_SAVE_CLOSE_DESKTOP (3935)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3935);
+```
+editor.ExecuteCommandByID(3935);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3935
+```
+editor.ExecuteCommandByID 3935
+```

@@ -2,13 +2,19 @@
 
 프로세스 식별자를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_id_ = wnd. **ProcessID**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+id = wnd.ProcessID;
+```
 
-_id_ = wnd. **ProcessID**
+### \[VBScript\]
+
+```
+id = wnd.ProcessID
+```
 
 ## 버전
 

@@ -2,13 +2,19 @@
 
 [DisplayProp 개체](../display_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Display**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Display;
+```
 
-_obj_ = object. **Display**
+### \[VBScript\]
+
+```
+obj = object.Display
+```
 
 ## 버전
 

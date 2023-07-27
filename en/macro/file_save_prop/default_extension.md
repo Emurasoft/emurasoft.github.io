@@ -1,19 +1,23 @@
 # DefaultExtension Property (FileSaveProp Object)
 
-Corresponds to the **Default**
-**Extension** text box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theDefault
+Extension text box in the [File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **DefaultExtension**;
+### \[JavaScript\]
 
-object. **DefaultExtension** = _s_;
+```
+s = object.DefaultExtension;
+object.DefaultExtension = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **DefaultExtension**
-
-object. **DefaultExtension** = _s_
+```
+s = object.DefaultExtension
+object.DefaultExtension = s
+```
 
 ## Version
 

@@ -1,31 +1,36 @@
 # 插入欧元符命令
 
-### 摘要
+## 摘要
 
-> 插入一个欧元符号。
+插入一个欧元符号。
 
-### 说明
+## 说明
 
-> 在光标处插入一个欧元符号(€)。
+在光标处插入一个欧元符号(€)。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **插入** \> **标记** \> **欧元符**
-- [所有命令](../tools/all_commands): **插入** \> **标记** \> **欧元符**
+- 默认菜单:插入 \>标记 \>欧元符
+- [所有命令](../tools/all_commands):插入 \>标记 \>欧元符
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: ALT+CTRL+E
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_INSERT\_EURO (4317)
+```
+EEID_INSERT_EURO (4317)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Text="€";
+```
+document.selection.Text="€";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Text="€"
+```
+document.selection.Text="€"
+```

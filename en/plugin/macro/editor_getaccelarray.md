@@ -9,20 +9,20 @@ Editor\_GetAccelArray( HWND hwnd, ACCEL\* pAccel, UINT nBufSize );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nBufSize_
 
-> Specifies the size of the buffer, in ACCEL, that will receive the shortcut key arrays.
+Specifies the size of the buffer, in ACCEL, that will receive the shortcut key arrays.
 
 _pAccel_
 
-> Specifies the pointer to the buffer that receives the array of the ACCEL structures.
+Specifies the pointer to the buffer that receives the array of the ACCEL structures.
 
 ## Return Values
 
-> The return value is the size of the buffer, in ACCEL, that is needed to  receive the shortcut key arrays.
+The return value is the size of the buffer, in ACCEL, that is needed to  receive the shortcut key arrays.
 
 ## Version
 
-> Supported on EmEditor Version 7.00 or later.
+Supported on EmEditor Version 7.00 or later.

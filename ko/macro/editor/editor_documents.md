@@ -2,13 +2,19 @@
 
 현재 열려있는 문서를 위한 [Documents 컬렉션](../documents/index) 을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_docs_ = editor. **Documents**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+docs = editor.Documents;
+```
 
-Set _docs_ = editor. **Documents**
+### \[VBScript\]
+
+```
+Set docs = editor.Documents
+```
 
 ## 버전
 

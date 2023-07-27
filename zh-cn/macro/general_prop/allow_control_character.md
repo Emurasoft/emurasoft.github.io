@@ -1,20 +1,22 @@
 # AllowControlCharacter 属性 (GeneralProp ����)
 
-与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **允许插入控制字符** 复选框相对应。
+与配置属性中 [常规 页面](../../dlg/properties/general/index) 上的允许插入控制字符 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **AllowControlCharacter**;
+### \[JavaScript\]
 
-object. **AllowControlCharacter** = _b_;
+```
+b = object.AllowControlCharacter;
+object.AllowControlCharacter = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **AllowControlCharacter**
-
-object. **AllowControlCharacter** = _b_
+```
+b = object.AllowControlCharacter
+object.AllowControlCharacter = b
+```
 
 ## 版本
 

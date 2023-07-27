@@ -5,16 +5,19 @@ To use Objects, use the ActiveXObject Object in JavaScript (JScript) or CreateOb
 
 The following example uses WScript.Shell Object to display the current directory.
 
-#### \[JavaScript (JScript)\]
+## 
+
+### \[JavaScript (JScript)\]
 
 WshShell = new ActiveXObject( "WScript.Shell" );
 
 alert( WshShell.CurrentDirectory );
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set WshShell = CreateObject( "WScript.Shell" )
-
 alert WshShell.CurrentDirectory
+```
 
 ## References

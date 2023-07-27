@@ -6,28 +6,27 @@ DroppedFiles collection provides a collection of the names of dropped files in a
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | Retrieves the number of dropped files. |
-| **[Item](item)** | Retrieves the file names for the dropped file of the specified index. |
+|[Count](count) | Retrieves the number of dropped files. |
+|[Item](item) | Retrieves the file names for the dropped file of the specified index. |
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 files = new Enumerator( DroppedFiles );
-
 for( ; !files.atEnd(); files.moveNext() ){
-
 alert( files.item() );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each str In DroppedFiles
-
 alert str
-
 Next
+```
 
 ## Version
 

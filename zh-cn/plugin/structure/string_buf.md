@@ -14,12 +14,12 @@ UINT cchBuf;
 
 _pBuf_
 
-> 指定用于检索字符串的缓冲区。
+指定用于检索字符串的缓冲区。
 
 _cchBuf_
 
-> 指定以字符为单位的缓冲区大小。
+指定以字符为单位的缓冲区大小。
 
 ## 支持版本
 
-> 支持 EmEditor Professional Version 20.6 或之后的版本。
+支持 EmEditor Professional Version 20.6 或之后的版本。

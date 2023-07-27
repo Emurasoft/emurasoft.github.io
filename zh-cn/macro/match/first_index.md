@@ -2,13 +2,19 @@
 
 一个只读值，它包含在匹配发生时的原始字符串中以零为基的位置。
 
-#### \[JavaScript\]
+## 
 
-_i_ = m. **FirstIndex**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+i = m.FirstIndex;
+```
 
-_i_ = m. **FirstIndex**;
+### \[VBScript\]
+
+```
+i = m.FirstIndex;
+```
 
 ## 版本
 

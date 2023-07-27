@@ -2,13 +2,19 @@
 
 在一個簡單的對話方塊內顯示一條消息以及「OK」和「Cancel」按鈕。
 
-#### \[JavaScript\]
+## 
 
-_bAnswer_ = **confirm**( _strQuestion, strMessage2_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bAnswer =confirm( strQuestion, strMessage2);
+```
 
-_bAnswer_ = **confirm**( _strQuestion, strMessage2_ )
+### \[VBScript\]
+
+```
+bAnswer =confirm( strQuestion, strMessage2 )
+```
 
 ## 參數
 

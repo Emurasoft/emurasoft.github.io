@@ -2,17 +2,21 @@
 
 设置或检索是否正则表达式忽略大小写。
 
-#### \[JavaScript\]
+## 
 
-_b_ = reg. **IgnoreCase**;
+### \[JavaScript\]
 
-reg. **IgnoreCase** = _b_;
+```
+b = reg.IgnoreCase;
+reg.IgnoreCase = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = reg. **IgnoreCase**;
-
-reg. **IgnoreCase** = _b_;
+```
+b = reg.IgnoreCase;
+reg.IgnoreCase = b;
+```
 
 ## 版本
 

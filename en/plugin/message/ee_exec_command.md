@@ -13,9 +13,9 @@ lParam = 0;
 
 _nCmdID_
 
-> The identifier of the command to be executed. See
-> [Command IDs](../cmdid/index).
+The identifier of the command to be executed. See
+[Command IDs](../cmdid/index).
 
 ## Return Value
 
-> The return value is not used.
+The return value is not used.

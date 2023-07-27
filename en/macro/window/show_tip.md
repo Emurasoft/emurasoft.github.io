@@ -2,13 +2,19 @@
 
 Displays a tooltip.
 
-#### \[JavaScript\]
+## 
 
-**ShowTip**( _strTip_, _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+ShowTip( strTip, flags );
+```
 
-**ShowTip** _strTip_, _flags_
+### \[VBScript\]
+
+```
+ShowTip strTip, flags
+```
 
 ## Parameters
 

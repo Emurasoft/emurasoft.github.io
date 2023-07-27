@@ -2,13 +2,19 @@
 
 カーソル位置を右に指定した文字数だけ移動します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **CharRight**( \[ bExtend \[, nCount \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.CharRight( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **CharRight** \[ bExtend \[, nCount \] \]
+### \[VBScript\]
+
+```
+document.selection.CharRight [ bExtend [, nCount ] ]
+```
 
 ## 引数
 

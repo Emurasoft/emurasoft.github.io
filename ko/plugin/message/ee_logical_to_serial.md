@@ -16,8 +16,8 @@ lParam = (LPARAM) (POINT\_PTR\*) pptLogical
 
 _pptLogical_
 
-> 변환될 논리 좌표를 지정하는 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터입니다.
+변환될 논리 좌표를 지정하는 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터입니다.
 
 ## 반환 값
 
-> 일련 위치를 반환합니다.
+일련 위치를 반환합니다.

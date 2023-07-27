@@ -1,31 +1,36 @@
 # Ignore Trailing Spaces command
 
-### Summary
+## Summary
 
-> Ignores trailing spaces at each line when comparing documents.
+Ignores trailing spaces at each line when comparing documents.
 
-### Description
+## Description
 
-> Ignores trailing spaces at each line when comparing documents.
+Ignores trailing spaces at each line when comparing documents.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Ignore Trailing Spaces**
-- [All Commands](../tools/all_commands): **Compare** \> **Ignore Trailing Spaces**
+- Default Menu:Compare \>Ignore Trailing Spaces
+- [All Commands](../tools/all_commands):Compare \>Ignore Trailing Spaces
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_IGNORE\_TRAIL\_SPACE (4499)
+```
+EEID_IGNORE_TRAIL_SPACE (4499)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4499);
+```
+editor.ExecuteCommandByID(4499);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4499
+```
+editor.ExecuteCommandByID 4499
+```

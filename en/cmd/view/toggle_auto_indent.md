@@ -1,32 +1,37 @@
 # Auto Indent command
 
-### Summary
+## Summary
 
-> Enables or disables the auto indent.
+Enables or disables the auto indent.
 
-### Description
+## Description
 
-> Enables or disables the auto indent. When auto indent is enabled, EmEditor will automatically indent newline characters to match the indent of the line immediately preceding the newline character.
+Enables or disables the auto indent. When auto indent is enabled, EmEditor will automatically indent newline characters to match the indent of the line immediately preceding the newline character.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Tab/Indent** \> **Auto Indent**
-- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Auto Indent**
+- Default Menu:View \>Tab/Indent \>Auto Indent
+- [All Commands](../tools/all_commands):View \>Tab/Indent \>Auto Indent
 - Toolbar:
 ![](../../images/auto_indent24x16.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_TOGGLE\_AUTO\_INDENT (4540)
+```
+EEID_TOGGLE_AUTO_INDENT (4540)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4540);
+```
+editor.ExecuteCommandByID(4540);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4540
+```
+editor.ExecuteCommandByID 4540
+```

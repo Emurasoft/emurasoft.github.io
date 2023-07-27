@@ -2,17 +2,21 @@
 
 창의 높이를 설정하거나 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_height_ = wnd. **Height**;
+### \[JavaScript\]
 
-wnd. **Height** = _height_;
+```
+height = wnd.Height;
+wnd.Height = height;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_height_ = wnd. **Height**
-
-wnd. **Height** = _height_
+```
+height = wnd.Height
+wnd.Height = height
+```
 
 ## 버전
 

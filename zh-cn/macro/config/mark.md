@@ -2,13 +2,19 @@
 
 检索 [MarkProp 对象](../mark_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Mark**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Mark;
+```
 
-Set _obj_ = object. **Mark**
+### \[VBScript\]
+
+```
+Set obj = object.Mark
+```
 
 ## 版本
 

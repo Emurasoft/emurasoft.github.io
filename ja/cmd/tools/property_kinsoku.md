@@ -1,15 +1,15 @@
 # \[禁則文字のプロパティ\] コマンド
 
-### 概要
+## 概要
 
-> 現在の設定の禁則文字のプロパティを変更します。
+現在の設定の禁則文字のプロパティを変更します。
 
-### 説明
+## 説明
 
-> このコマンドを実行すると、現在選択されている設定のプロパティの
-> [\[禁則文字\] ページ](../../dlg/properties/wrap/index) を表示します。
+このコマンドを実行すると、現在選択されている設定のプロパティの
+[\[禁則文字\] ページ](../../dlg/properties/wrap/index) を表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[現在の設定のプロパティ\] \- \[禁則文字\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_PROPERTY\_KINSOKU (8966)
+```
+EEID_PROPERTY_KINSOKU (8966)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8966);
+```
+editor.ExecuteCommandByID(8966);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8966
+```
+editor.ExecuteCommandByID 8966
+```

@@ -1,18 +1,22 @@
 # QuoteMarks 属性 (DisplayProp ����)
 
-与配置属性中的 [**显示** 页面](../../dlg/properties/display/index) 上的 **引号标记** 文本框相对应。
+与配置属性中的 [显示 页面](../../dlg/properties/display/index) 上的引号标记 文本框相对应。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **QuoteMarks**;
+### \[JavaScript\]
 
-object. **QuoteMarks** = _s_;
+```
+s = object.QuoteMarks;
+object.QuoteMarks = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **QuoteMarks**
-
-object. **QuoteMarks** = _s_
+```
+s = object.QuoteMarks
+object.QuoteMarks = s
+```
 
 ## 版本
 

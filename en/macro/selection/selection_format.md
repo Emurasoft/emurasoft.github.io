@@ -2,13 +2,19 @@
 
 Inserts or deletes newline characters in the selection.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Format**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Format( nFlags );
+```
 
-document.selection. **Format** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Format nFlags
+```
 
 ## Parameters
 

@@ -2,13 +2,19 @@
 
 通过一个类名和/或窗口标题查找顶层 [Window 对象](../window/index)。
 
-#### \[JavaScript\]
+## 
 
-wnd = shell. **FindWindow**( _strClass_, _strCaption_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd = shell.FindWindow( strClass, strCaption );
+```
 
-wnd = shell. **FindWindow**( _strClass_, _strCaption_ )
+### \[VBScript\]
+
+```
+wnd = shell.FindWindow( strClass, strCaption )
+```
 
 ## 参数
 
@@ -22,17 +28,19 @@ _strCaption_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnd = shell.FindWindow( "", "Calculator" );
-
 wnd.SetForeground();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd = shell.FindWindow( "", "Calculator" )
-
 wnd.SetForeground
+```
 
 ## 版本
 

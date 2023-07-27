@@ -2,13 +2,19 @@
 
 カーソル位置にブックマークを設定します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SetBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SetBookmark();
+```
 
-document.selection. **SetBookmark**
+### \[VBScript\]
+
+```
+document.selection.SetBookmark
+```
 
 ## バージョン
 

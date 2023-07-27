@@ -2,13 +2,19 @@
 
 [SpellProp オブジェクト](../spell_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Spell**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Spell;
+```
 
-Set _obj_ = object. **Spell**
+### \[VBScript\]
+
+```
+Set obj = object.Spell
+```
 
 ## バージョン
 

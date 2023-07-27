@@ -2,13 +2,19 @@
 
 [OutputBar オブジェクト](../output_bar/index) を返します。
 
-#### \[JavaScript\]
+## 
 
-_outbar_ = **OutputBar**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+outbar =OutputBar;
+```
 
-Set _outbar_ = **OutputBar**
+### \[VBScript\]
+
+```
+Set outbar =OutputBar
+```
 
 ## バージョン
 

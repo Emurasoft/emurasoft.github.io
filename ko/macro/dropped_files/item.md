@@ -2,13 +2,19 @@
 
 지정된 인덱스의 삭제된 파일을 위해 파일 이름을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_str_ = DroppedFiles. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = DroppedFiles.Item( Index );
+```
 
-_str_ = DroppedFiles. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+str = DroppedFiles.Item( Index )
+```
 
 ## 매개 변수
 

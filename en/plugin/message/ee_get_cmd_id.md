@@ -14,8 +14,8 @@ lParam = (LPARAM) (HINSTANCE) hInstance
 
 _hInstance_
 
-> Specifies the Plug-in instance handle.
+Specifies the Plug-in instance handle.
 
 ## Return Values
 
-> Returns command ID to run this Plug-in.
+Returns command ID to run this Plug-in.

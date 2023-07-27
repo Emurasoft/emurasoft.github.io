@@ -1,20 +1,22 @@
 # InsertReturns 屬性 (FileSaveProp ��H)
 
-與 [**儲存詳細信息** 對話方塊](../../dlg/properties/file/save_details/index) 中的 **儲存時自動換行** 核取方塊相對應。
+與 [儲存詳細信息 對話方塊](../../dlg/properties/file/save_details/index) 中的儲存時自動換行 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **InsertReturns**;
+### \[JavaScript\]
 
-object. **InsertReturns** = _b_ ;
+```
+b = object.InsertReturns;
+object.InsertReturns = b ;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **InsertReturns**
-
-object. **InsertReturns** = _b_
+```
+b = object.InsertReturns
+object.InsertReturns = b
+```
 
 ## 版本
 

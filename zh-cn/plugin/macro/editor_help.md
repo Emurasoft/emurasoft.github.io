@@ -9,16 +9,16 @@ Editor\_Help( HWND hwnd, LPCTSTR szPageURL );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _szPageURL_
 
-> 指定要显示的帮助页面的 URL。
+指定要显示的帮助页面的 URL。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。
 
 ## 支持版本
 
-> 支持 EmEditor 7.00 或之后的版本。
+支持 EmEditor 7.00 或之后的版本。

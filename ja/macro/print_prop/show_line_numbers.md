@@ -1,19 +1,23 @@
 # ShowLineNumbers プロパティ (PrintProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[印刷\]** タブ](../../dlg/properties/print/index) の
-**\[行番号を印刷\]** チェック ボックスに相当します。
+設定のプロパティの [\[印刷\] タブ](../../dlg/properties/print/index) の
+\[行番号を印刷\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **ShowLineNumbers**;
+### \[JavaScript\]
 
-object. **ShowLineNumbers** = _b_;
+```
+b = object.ShowLineNumbers;
+object.ShowLineNumbers = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **ShowLineNumbers**
-
-object. **ShowLineNumbers** = _b_
+```
+b = object.ShowLineNumbers
+object.ShowLineNumbers = b
+```
 
 ## バージョン
 

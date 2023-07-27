@@ -1,32 +1,37 @@
 # << Find (Find toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the << Find button on the Find toolbar.
+Toggles the << Find button on the Find toolbar.
 
-### Description
+## Description
 
-> Toggles the << Find button on the Find toolbar.
+Toggles the << Find button on the Find toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Toolbar** \> **<< Find**
+- [All Commands](../tools/all_commands):Search
+\>Find Toolbar \><< Find
 - Toolbar: ![](../../images/findbar_find_dlg.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FINDBAR\_FIND\_DLG (4070)
+```
+EEID_FINDBAR_FIND_DLG (4070)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4070);
+```
+editor.ExecuteCommandByID(4070);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4070
+```
+editor.ExecuteCommandByID 4070
+```

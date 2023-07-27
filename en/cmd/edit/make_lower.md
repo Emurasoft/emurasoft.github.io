@@ -1,32 +1,37 @@
 # Lowercase command
 
-### Summary
+## Summary
 
-> Converts the selection to all lowercase letters.
+Converts the selection to all lowercase letters.
 
-### Description
+## Description
 
-> Converts the selection to all lowercase letters. For instance, A will become a, Ä
-> will become ä, and Λ will become λ.
+Converts the selection to all lowercase letters. For instance, A will become a, Ä
+will become ä, and Λ will become λ.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Lowercase**
-- [All Commands](../tools/all_commands): **Convert** \> **Lowercase**
+- Default Menu:Convert \>Lowercase
+- [All Commands](../tools/all_commands):Convert \>Lowercase
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+U
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MAKE\_LOWER (4150)
+```
+EEID_MAKE_LOWER (4150)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.ChangeCase(eeCaseLowerCase);
+```
+document.selection.ChangeCase(eeCaseLowerCase);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.ChangeCase eeCaseLowerCase
+```
+document.selection.ChangeCase eeCaseLowerCase
+```

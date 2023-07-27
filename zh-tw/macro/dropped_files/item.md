@@ -2,13 +2,19 @@
 
 檢索指定索引下的被拖放的檔案名稱。
 
-#### \[JavaScript\]
+## 
 
-_str_ = DroppedFiles. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = DroppedFiles.Item( Index );
+```
 
-_str_ = DroppedFiles. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+str = DroppedFiles.Item( Index )
+```
 
 ## 參數
 

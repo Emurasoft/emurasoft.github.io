@@ -2,17 +2,21 @@
 
 指定匹配行以下可见行的行数。
 
-#### \[JavaScript\]
+## 
 
-_n_ = list. **VisibleLinesBelow**;
+### \[JavaScript\]
 
-list. **VisibleLinesBelow** = _n_;
+```
+n = list.VisibleLinesBelow;
+list.VisibleLinesBelow = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = list. **VisibleLinesBelow**
-
-list. **VisibleLinesBelow** = _n_
+```
+n = list.VisibleLinesBelow
+list.VisibleLinesBelow = n
+```
 
 ## 版本
 

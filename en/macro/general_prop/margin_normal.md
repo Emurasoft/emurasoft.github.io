@@ -1,21 +1,23 @@
 # MarginNormal Property (GeneralProp Object)
 
-Corresponds to the **Normal Line Margin** text box in the
-[**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to theNormal Line Margin text box in the
+[General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **MarginNormal**;
+### \[JavaScript\]
 
-object. **MarginNormal** = _b_;
+```
+b = object.MarginNormal;
+object.MarginNormal = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **MarginNormal**
-
-object. **MarginNormal** = _b_
+```
+b = object.MarginNormal
+object.MarginNormal = b
+```
 
 ## Version
 

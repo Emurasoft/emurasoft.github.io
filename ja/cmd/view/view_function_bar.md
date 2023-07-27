@@ -1,14 +1,14 @@
 # \[ファンクション バー\] コマンド
 
-### 概要
+## 概要
 
-> ファンクション バーの表示/非表示を切り替えます。
+ファンクション バーの表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> ファンクション バーの表示/非表示を切り替えます。
+ファンクション バーの表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[ファンクション バー\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[ファンクション バー\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_STATUS\_BAR (4448)
+```
+EEID_VIEW_STATUS_BAR (4448)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4448);
+```
+editor.ExecuteCommandByID(4448);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4448
+```
+editor.ExecuteCommandByID 4448
+```

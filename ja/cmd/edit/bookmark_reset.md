@@ -1,14 +1,14 @@
 # \[ブックマークを解除\] コマンド
 
-### 概要
+## 概要
 
-> 現在行のブックマークを解除します。
+現在行のブックマークを解除します。
 
-### 説明
+## 説明
 
-> 現在行にブックマークが設定されていれば解除します。
+現在行にブックマークが設定されていれば解除します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): なし
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_BOOKMARK\_RESET (4354)
+```
+EEID_BOOKMARK_RESET (4354)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.ClearBookmark();
+```
+document.selection.ClearBookmark();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.ClearBookmark
+```
+document.selection.ClearBookmark
+```

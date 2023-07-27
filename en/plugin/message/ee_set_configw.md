@@ -15,8 +15,8 @@ lParam = (LPARAM) (LPCWSTR) szConfigName;
 
 _szConfigName_
 
-> Specifies a configuration by a Unicode string.
+Specifies a configuration by a Unicode string.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

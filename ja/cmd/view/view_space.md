@@ -1,14 +1,14 @@
 # \[半角空白\] コマンド
 
-### 概要
+## 概要
 
-> 半角空白の表示/非表示を切り替えます。
+半角空白の表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> 半角空白の表示/非表示を切り替えます。
+半角空白の表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[記号\] \- \[半角空白\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[記号\] \- \[半角空白\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_SPACE (4535)
+```
+EEID_VIEW_SPACE (4535)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4535);
+```
+editor.ExecuteCommandByID(4535);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4535
+```
+editor.ExecuteCommandByID 4535
+```

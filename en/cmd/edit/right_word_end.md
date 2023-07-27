@@ -1,32 +1,37 @@
 # Word End Right command
 
-### Summary
+## Summary
 
-> Moves the cursor right to the end of the word.
+Moves the cursor right to the end of the word.
 
-### Description
+## Description
 
-> Moves the cursor right to the end of the word.
+Moves the cursor right to the end of the word.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
-\> **Word End Right**
+- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
+\>Word End Right
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+RIGHT ARROW
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_RIGHT\_WORD\_END (4030)
+```
+EEID_RIGHT_WORD_END (4030)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4030);
+```
+editor.ExecuteCommandByID(4030);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4030
+```
+editor.ExecuteCommandByID 4030
+```

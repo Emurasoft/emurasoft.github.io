@@ -1,20 +1,22 @@
 # PreserveReturnsClipboard プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の **\[クリップボードで改行コードを保持\]** チェック ボックスに相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[クリップボードで改行コードを保持\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PreserveReturnsClipboard**;
+### \[JavaScript\]
 
-object. **PreserveReturnsClipboard** = _b_;
+```
+b = object.PreserveReturnsClipboard;
+object.PreserveReturnsClipboard = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PreserveReturnsClipboard**
-
-object. **PreserveReturnsClipboard** = _b_
+```
+b = object.PreserveReturnsClipboard
+object.PreserveReturnsClipboard = b
+```
 
 ## バージョン
 

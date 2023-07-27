@@ -1,14 +1,14 @@
 # \[ブックマークを設定\] コマンド
 
-### 概要
+## 概要
 
-> 現在行にブックマークを設定します。
+現在行にブックマークを設定します。
 
-### 説明
+## 説明
 
-> 現在行にブックマークが設定されていなければ設定します。
+現在行にブックマークが設定されていなければ設定します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): なし
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_BOOKMARK\_SET (4353)
+```
+EEID_BOOKMARK_SET (4353)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.SetBookmark();
+```
+document.selection.SetBookmark();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.SetBookmark
+```
+document.selection.SetBookmark
+```

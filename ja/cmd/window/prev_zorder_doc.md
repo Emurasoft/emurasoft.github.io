@@ -1,14 +1,14 @@
 # \[最もアクセスしていない文書\] コマンド
 
-### 概要
+## 概要
 
-> 最もアクセスしていない文書に切り替えます。
+最もアクセスしていない文書に切り替えます。
 
-### 説明
+## 説明
 
-> 最もアクセスしていない文書に切り替えます。
+最もアクセスしていない文書に切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[文書ナビゲーション\] \- \[最もアクセスしていない文書\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_PREV\_ZORDER\_DOC (4545)
+```
+EEID_PREV_ZORDER_DOC (4545)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4545);
+```
+editor.ExecuteCommandByID(4545);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4545
+```
+editor.ExecuteCommandByID 4545
+```

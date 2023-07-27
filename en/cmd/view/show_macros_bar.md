@@ -1,33 +1,38 @@
 # Macros Toolbar command
 
-### Summary
+## Summary
 
-> Shows or hides the macros toolbar.
+Shows or hides the macros toolbar.
 
-### Description
+## Description
 
-> Shows or hides the macros toolbar. The macros toolbar displays all defined My Macros.
+Shows or hides the macros toolbar. The macros toolbar displays all defined My Macros.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **Macros Toolbar**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Macros Toolbar**
+- Default Menu:View >
+Toolbars \>Macros Toolbar
+- [All Commands](../tools/all_commands):View >
+Toolbars \>Macros Toolbar
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHOW\_MACROS\_BAR (4421)
+```
+EEID_SHOW_MACROS_BAR (4421)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4421);
+```
+editor.ExecuteCommandByID(4421);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4421
+```
+editor.ExecuteCommandByID 4421
+```

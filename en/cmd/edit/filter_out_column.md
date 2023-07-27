@@ -1,32 +1,37 @@
 # Filter Out in Column command
 
-### Summary
+## Summary
 
-> Filters the document in the current column without the selected text or the word at cursor.
+Filters the document in the current column without the selected text or the word at cursor.
 
-### Description
+## Description
 
-> Filters the document in the current column without the selected text or the word at cursor.
+Filters the document in the current column without the selected text or the word at cursor.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
-\> **Filter Out in Column**
+- [All Commands](../tools/all_commands):Edit \>Advanced
+\>Filter Out in Column
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTER\_OUT\_COLUMN (4012)
+```
+EEID_FILTER_OUT_COLUMN (4012)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4012);
+```
+editor.ExecuteCommandByID(4012);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4012
+```
+editor.ExecuteCommandByID 4012
+```

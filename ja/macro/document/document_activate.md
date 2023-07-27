@@ -2,13 +2,19 @@
 
 文書をアクティブにします。
 
-#### \[JavaScript\]
+## 
 
-document. **Activate**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Activate();
+```
 
-document. **Activate**
+### \[VBScript\]
+
+```
+document.Activate
+```
 
 ## バージョン
 

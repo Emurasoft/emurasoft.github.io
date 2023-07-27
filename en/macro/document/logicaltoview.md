@@ -1,14 +1,20 @@
 # LogicalToView Method (Document Object)
 
-Converts the logical coordinates of a specified position to the display coordinates, and retrieves the position in the [**Point** object](../point/index).
+Converts the logical coordinates of a specified position to the display coordinates, and retrieves the position in the [Point object](../point/index).
 
-#### \[JavaScript\]
+## 
 
-_point_ = document. **LogicalView**( _x_, _y_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+point = document.LogicalView( x, y );
+```
 
-_point_ = document. **LogicalView**( _x_, _y_ )
+### \[VBScript\]
+
+```
+point = document.LogicalView( x, y )
+```
 
 ## Parameters
 
@@ -22,21 +28,21 @@ Specifies the one-based vertical (line) position.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 point = document.LogicalToView( 10, 1 );
-
 x = point.x;
-
 y = point.y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 point = document.LogicalToView( 10, 1 )
-
 x = point.x
-
 y = point.y
+```
 
 ## Version
 

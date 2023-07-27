@@ -2,13 +2,19 @@
 
 Saves the configuration.
 
-#### \[JavaScript\]
+## 
 
-object. **Save**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Save( [ strName ] );
+```
 
-object. **Save** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Save [ strName ]
+```
 
 ## Parameters
 

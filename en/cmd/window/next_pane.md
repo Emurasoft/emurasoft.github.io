@@ -1,33 +1,38 @@
 # Next Pane command
 
-### Summary
+## Summary
 
-> Switches to the next pane.
+Switches to the next pane.
 
-### Description
+## Description
 
-> Moves the cursor to the next pane, if the window is split into multiple panes.
+Moves the cursor to the next pane, if the window is split into multiple panes.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Panes**
-\> **Next Pane**
+- [All Commands](../tools/all_commands):Window
+\>Panes
+\>Next Pane
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: F6
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_NEXT\_PANE (4214)
+```
+EEID_NEXT_PANE (4214)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4214);
+```
+editor.ExecuteCommandByID(4214);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4214
+```
+editor.ExecuteCommandByID 4214
+```

@@ -1,31 +1,36 @@
 # Set Focus to Filter Toolbar command
 
-### Summary
+## Summary
 
-> Sets the focus to the Filter toolbar.
+Sets the focus to the Filter toolbar.
 
-### Description
+## Description
 
-> Sets the focus to the Filter toolbar.
+Sets the focus to the Filter toolbar.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Search** \> **Filter**
-- [All Commands](../tools/all_commands): **Search** \> **Filter Toolbar** \> **Set Focus to Filter Toolbar**
+- Default Menu:Search \>Filter
+- [All Commands](../tools/all_commands):Search \>Filter Toolbar \>Set Focus to Filter Toolbar
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: Ctrl+Shift+D
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FOCUS\_FILTER\_BAR (3912)
+```
+EEID_FOCUS_FILTER_BAR (3912)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3912);
+```
+editor.ExecuteCommandByID(3912);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3912
+```
+editor.ExecuteCommandByID 3912
+```

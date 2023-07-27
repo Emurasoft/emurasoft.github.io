@@ -14,12 +14,12 @@ lParam = (LPARAM) (GET\_COLOR\_INFO\*) pGetColorInfo;
 
 _pGetColorInfo_
 
-> Pointer to the [GET\_COLOR\_INFO](../structure/get_color_info) structure..
+Pointer to the [GET\_COLOR\_INFO](../structure/get_color_info) structure..
 
 ## Return Values
 
-> The return value is TRUE if succeeded, or FALSE if failed.
+The return value is TRUE if succeeded, or FALSE if failed.
 
 ## Version
 
-> Supported on Version 14.4 or later.
+Supported on Version 14.4 or later.

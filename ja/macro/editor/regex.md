@@ -2,13 +2,19 @@
 
 [Regex オブジェクト](../regex/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_reg_ = editor. **regex**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+reg = editor.regex;
+```
 
-Set _reg_ = editor. **regex**
+### \[VBScript\]
+
+```
+Set reg = editor.regex
+```
 
 ## バージョン
 

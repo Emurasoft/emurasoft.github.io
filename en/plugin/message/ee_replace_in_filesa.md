@@ -16,13 +16,13 @@ lParam = (LPARAM) (GREP\_INFOA) pGrepInfo;
 
 _pGrepInfo_
 
-> Specifies a pointer to the [GREP\_INFOW \
-> Structure](../structure/grep_infow).
+Specifies a pointer to the [GREP\_INFOW \
+Structure](../structure/grep_infow).
 
 ## Return Value
 
-> Returns FALSE if the user aborts, or TRUE if not.
+Returns FALSE if the user aborts, or TRUE if not.
 
 ## Version
 
-> Supported on EmEditor Professional Version 4.02 or later.
+Supported on EmEditor Professional Version 4.02 or later.

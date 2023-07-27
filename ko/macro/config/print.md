@@ -2,13 +2,19 @@
 
 [PrintProp 개체](../print_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Print**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Print;
+```
 
-_obj_ = object. **Print**
+### \[VBScript\]
+
+```
+obj = object.Print
+```
 
 ## 버전
 

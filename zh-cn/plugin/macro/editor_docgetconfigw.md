@@ -8,20 +8,20 @@ Editor\_DocGetConfigW( HWND hwnd, int iDoc, LPWSTR szConfigName );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _iDoc_
 
-> 指定目标文档的索引。如果指定值为 -1，当前活动文档会被设为目标文档。
+指定目标文档的索引。如果指定值为 -1，当前活动文档会被设为目标文档。
 
 _szConfigName_
 
-> 指定会接收配置名称的一个缓冲区。缓冲区大小必须至少是MAX\_CONFIG\_NAME 字节。
+指定会接收配置名称的一个缓冲区。缓冲区大小必须至少是MAX\_CONFIG\_NAME 字节。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。
 
 ## 支持版本
 
-> 支持 EmEditor 5.00 或之后的版本。
+支持 EmEditor 5.00 或之后的版本。

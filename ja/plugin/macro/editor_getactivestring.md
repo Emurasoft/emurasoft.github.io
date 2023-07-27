@@ -8,12 +8,12 @@ Editor\_GetActiveString(... );
 
 _..._
 
-> [ACTIVE\_STRING\_INFO 構造体](../structure/active_string_info) へポインタします。
+[ACTIVE\_STRING\_INFO 構造体](../structure/active_string_info) へポインタします。
 
 ## 戻り値
 
-> ...
+...
 
 ## バージョン
 
-> Version 16.9 以上で利用できます。
+Version 16.9 以上で利用できます。

@@ -1,27 +1,28 @@
 # Customize Macros - Options command
 
-### Summary
+## Summary
 
-> Displays the Customizes Macros dialog box and selects the Options tab.
+Displays the Customizes Macros dialog box and selects the Options tab.
 
-### Description
+## Description
 
-> Displays the [**Customize Macros** \
-> dialog box](../../dlg/macro_customize/index), and selects the **Options** tab.
+Displays the [Customize Macros \
+dialog box](../../dlg/macro_customize/index), and selects theOptions tab.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Macros**
-\> **Customize Macros - Options**
+- [All Commands](../tools/all_commands):Macros
+\>Customize Macros - Options
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_MACRO\_OPTIONS (3955)
+```
+EEID_CUSTOMIZE_MACRO_OPTIONS (3955)```
 
-### Macros
+## Macros
 
-> Not available.
+Not available.

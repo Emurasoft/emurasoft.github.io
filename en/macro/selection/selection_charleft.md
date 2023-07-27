@@ -2,13 +2,19 @@
 
 Moves the cursor the specified number of characters to the left.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **CharLeft**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.CharLeft( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **CharLeft** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.CharLeft [ bExtend [, nCount ] ]
+```
 
 ## Parameters
 
@@ -20,7 +26,7 @@ is false and the moved text is collapsed.
 _nCount_
 
 Optional. Specifies the number of characters to move to the left. The default
-is 1. If negative, the method acts like the [**CharRight** \
+is 1. If negative, the method acts like the [CharRight \
 Method](selection_charright). If 0, the method acts like 1.
 
 ## Version

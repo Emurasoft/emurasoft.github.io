@@ -1,20 +1,24 @@
 # TemplateFile Property (FileNewProp Object)
 
-Corresponds to the **Template**
-**File** text box in the
-[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
+Corresponds to theTemplate
+File text box in the
+[New File Details dialog box](../../dlg/properties/file/new_details/index).
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **TemplateFile**;
+### \[JavaScript\]
 
-object. **TemplateFile** = _s_;
+```
+s = object.TemplateFile;
+object.TemplateFile = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **TemplateFile**
-
-object. **TemplateFile** = _s_
+```
+s = object.TemplateFile
+object.TemplateFile = s
+```
 
 ## Version
 

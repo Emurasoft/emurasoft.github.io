@@ -1,34 +1,39 @@
 # Customize View command
 
-### Summary
+## Summary
 
-> Opens the View page of the Customize dialog box.
+Opens the View page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the View page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the View page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**View**
+- [All Commands](all_commands):Tools >
+Customize >
+View
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_VIEW (9051)
+```
+EEID_CUSTOMIZE_VIEW (9051)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9051);
+```
+editor.ExecuteCommandByID(9051);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9051
+```
+editor.ExecuteCommandByID 9051
+```

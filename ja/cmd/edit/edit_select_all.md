@@ -1,14 +1,14 @@
 # \[すべて選択\] コマンド
 
-### 概要
+## 概要
 
-> ファイル全体を選択します。
+ファイル全体を選択します。
 
-### 説明
+## 説明
 
-> 開いている文書全体を選択します。
+開いている文書全体を選択します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[すべて選択\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択範囲の変更\] \- \[すべて選択\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+A
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_EDIT\_SELECT\_ALL (4136)
+```
+EEID_EDIT_SELECT_ALL (4136)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.SelectAll();
+```
+document.selection.SelectAll();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.SelectAll
+```
+document.selection.SelectAll
+```

@@ -2,13 +2,19 @@
 
 [LinkProp オブジェクト](../link_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Link**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Link;
+```
 
-Set _obj_ = object. **Link**
+### \[VBScript\]
+
+```
+Set obj = object.Link
+```
 
 ## バージョン
 

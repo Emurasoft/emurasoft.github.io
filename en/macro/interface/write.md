@@ -2,13 +2,19 @@
 
 Passes a string to a supported plug-in.
 
-#### \[JavaScript\]
+## 
 
-Interface. **write**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Interface.write( str );
+```
 
-Interface. **write** _str_
+### \[VBScript\]
+
+```
+Interface.write str
+```
 
 ## Parameters
 
@@ -18,13 +24,17 @@ Specifies the string to be passed.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-Interface. **write**( "Hello" );
+```
+Interface.write( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Interface. **write** "Hello"
+```
+Interface.write "Hello"
+```
 
 ## Version
 

@@ -1,32 +1,37 @@
 # Find Longest Line/Cell command
 
-### Summary
+## Summary
 
-> Finds the longest line in a non-CSV document or longest cell in the current column of a CSV document.
+Finds the longest line in a non-CSV document or longest cell in the current column of a CSV document.
 
-### Description
+## Description
 
-> Finds the longest line in a non-CSV document or longest cell in the current column of a CSV document.
+Finds the longest line in a non-CSV document or longest cell in the current column of a CSV document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Search** \> **Find Longest Line/Cell**
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Longest Line/Cell**
+- Default Menu:Search \>Find Longest Line/Cell
+- [All Commands](../tools/all_commands):Search
+\>Find Longest Line/Cell
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FIND\_LONGEST (4049)
+```
+EEID_FIND_LONGEST (4049)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4049);
+```
+editor.ExecuteCommandByID(4049);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4049
+```
+editor.ExecuteCommandByID 4049
+```

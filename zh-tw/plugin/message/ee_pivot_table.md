@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> 指定指向 [PIVOT\_TABLE\_INFO](../structure/pivot_table_info) 結構的指針。
+指定指向 [PIVOT\_TABLE\_INFO](../structure/pivot_table_info) 結構的指針。
 
 ## 返回值
 
-> 如果失敗，則返回值為負值。
+如果失敗，則返回值為負值。
 
 ## 支持版本
 
-> 支持 EmEditor Professional 21.4 或之後的版本。
+支持 EmEditor Professional 21.4 或之後的版本。

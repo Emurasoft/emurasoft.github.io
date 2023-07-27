@@ -1,14 +1,14 @@
 # \[論理行の行頭へ\] コマンド
 
-### 概要
+## 概要
 
-> 論理行の行頭へ移動します。
+論理行の行頭へ移動します。
 
-### 説明
+## 説明
 
-> カーソル位置を論理行の行頭へ移動します。
+カーソル位置を論理行の行頭へ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[水平にカーソル移動\] \- \[論理行の行頭へ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+Home
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_LOGICAL\_HOME (4165)
+```
+EEID_LOGICAL_HOME (4165)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.StartOfLine(false,eeLineLogical);
+```
+document.selection.StartOfLine(false,eeLineLogical);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.StartOfLine false,eeLineLogical
+```
+document.selection.StartOfLine false,eeLineLogical
+```

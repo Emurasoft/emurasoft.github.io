@@ -1,10 +1,12 @@
 # Enter Number Range dialog box
 
-This dialog box helps you to create a [number range expression](../../howto/search/number_range_syntax). This dialog box appears when you select the **Number Range** radio button in the **Find**, **Replace**, **Find in Files**, **Replace in Files**, or **Advanced Filter** dialog box.
+This dialog box helps you to create a [number range expression](../../howto/search/number_range_syntax). This dialog box appears when you select theNumber Range radio button in theFind,Replace,Find in Files,Replace in Files, orAdvanced Filter dialog box.
+
+## 
 
 ### Minimum number text box
 
-Specifies the minimum value of a number range. This value should not include the decimal point if the **Integers Only** check box is set.
+Specifies the minimum value of a number range. This value should not include the decimal point if theIntegers Only check box is set.
 
 ### Include Minimum check box
 
@@ -12,7 +14,7 @@ Specifies that the minimum value should be included in a number range.
 
 ### Maximum text box
 
-Specifies the maximum value of a number range. This value should not include the decimal point if the **Integers Only** check box is set.
+Specifies the maximum value of a number range. This value should not include the decimal point if theIntegers Only check box is set.
 
 ### Include Maximum check box
 
@@ -24,7 +26,7 @@ Specifies that only multiples of the specified integers added by the minimum num
 
 ### Multiples of text box
 
-Specifies a factor if the **Multiples + Minimum numbers Only** check box is set.
+Specifies a factor if theMultiples + Minimum numbers Only check box is set.
 
 ### Integers radio button
 
@@ -68,7 +70,7 @@ Specifies a string text that should match after the matched value. This field ca
 
 ### Skip this dialog box next time check box
 
-Specifies that this dialog box should be skipped and go to the **Find** or **Filter** drop-down list box directly next time.
+Specifies that this dialog box should be skipped and go to theFind orFilter drop-down list box directly next time.
 
 ## See Also
 

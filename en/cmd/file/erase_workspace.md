@@ -1,33 +1,38 @@
 # Erase Default Workspace command
 
-### Summary
+## Summary
 
-> Erases the default saved workspace state.
+Erases the default saved workspace state.
 
-### Description
+## Description
 
-> This command erases the previously saved
-> state set by the [**Save Default Workspace** command](save_workspace).
+This command erases the previously saved
+state set by the [Save Default Workspace command](save_workspace).
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Workspace**
-\> **Erase Default Workspace**
+- [All Commands](../tools/all_commands):File \>Workspace
+\>Erase Default Workspace
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ERASE\_WORKSPACE (4450)
+```
+EEID_ERASE_WORKSPACE (4450)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4450);
+```
+editor.ExecuteCommandByID(4450);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4450
+```
+editor.ExecuteCommandByID 4450
+```

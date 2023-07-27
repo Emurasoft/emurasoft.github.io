@@ -1,21 +1,23 @@
 # RegExp Property (HighlightItem Object)
 
-Corresponds to the **Regular**
-**Expression** check box in the [**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to theRegular
+Expression check box in the [Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **RegExp**;
+### \[JavaScript\]
 
-item. **RegExp** = _b_;
+```
+b = item.RegExp;
+item.RegExp = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **RegExp**
-
-item. **RegExp** = _b_
+```
+b = item.RegExp
+item.RegExp = b
+```
 
 ## Version
 

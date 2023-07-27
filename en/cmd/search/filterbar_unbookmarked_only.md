@@ -1,32 +1,37 @@
 # Unbookmarked Lines Only (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Unbookmarked Lines Only button on the Filter toolbar.
+Toggles the Unbookmarked Lines Only button on the Filter toolbar.
 
-### Description
+## Description
 
-> Toggles the Unbookmarked Lines Only button on the Filter toolbar.
+Toggles the Unbookmarked Lines Only button on the Filter toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Unbookmarked Lines Only**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Unbookmarked Lines Only
 - Toolbar: ![](../../images/unbookmarked_lines_only.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_UNBOOKMARKED\_ONLY (4005)
+```
+EEID_FILTERBAR_UNBOOKMARKED_ONLY (4005)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4005);
+```
+editor.ExecuteCommandByID(4005);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4005
+```
+editor.ExecuteCommandByID 4005
+```

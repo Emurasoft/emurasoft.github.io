@@ -1,14 +1,14 @@
 # \[フォント サイズをリセット\] コマンド
 
-### 概要
+## 概要
 
-> 表示フォント サイズをリセットします。
+表示フォント サイズをリセットします。
 
-### 説明
+## 説明
 
-> 表示フォント サイズをリセットします。
+表示フォント サイズをリセットします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[フォント\]  \- \[フォント サイズをリセット\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+0
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_RESET\_FONT\_SIZE (3876)
+```
+EEID_RESET_FONT_SIZE (3876)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3876);
+```
+editor.ExecuteCommandByID(3876);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3876
+```
+editor.ExecuteCommandByID 3876
+```

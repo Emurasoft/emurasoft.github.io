@@ -2,13 +2,19 @@
 
 Sets a bookmark at the cursor position.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SetBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SetBookmark();
+```
 
-document.selection. **SetBookmark**
+### \[VBScript\]
+
+```
+document.selection.SetBookmark
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 返回指定檔案或資料夾的屬性。
 
-#### \[JavaScript\]
+## 
 
-nAttr = shell. **GetFileAttributes**( _strFile_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nAttr = shell.GetFileAttributes( strFile );
+```
 
-nAttr = shell. **GetFileAttributes**( _strFile_ )
+### \[VBScript\]
+
+```
+nAttr = shell.GetFileAttributes( strFile )
+```
 
 ## 參數
 
@@ -18,13 +24,17 @@ _strFile_
 
 ## 範例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nAttr = shell.GetFileAttributes( "C:\\\Test\\\file.txt" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 nAttr = shell.GetFileAttributes( "C:\\Test\\file.txt" )
+```
 
 ## 返回值
 

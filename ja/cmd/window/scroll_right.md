@@ -1,14 +1,14 @@
 # \[右へスクロール\] コマンド
 
-### 概要
+## 概要
 
-> 文書を一文字ずつ右へスクロールします。
+文書を一文字ずつ右へスクロールします。
 
-### 説明
+## 説明
 
-> 文書を一文字ずつ右へスクロールします。
+文書を一文字ずつ右へスクロールします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[スクロール\] \- \[右\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_WINDOW\_SCROLL\_RIGHT (4475)
+```
+EEID_WINDOW_SCROLL_RIGHT (4475)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4475);
+```
+editor.ExecuteCommandByID(4475);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4475
+```
+editor.ExecuteCommandByID 4475
+```

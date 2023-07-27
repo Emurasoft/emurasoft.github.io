@@ -1,15 +1,15 @@
 # \[コンテキスト メニュー\] コマンド
 
-### 概要
+## 概要
 
-> コンテキスト メニューを表示します。
+コンテキスト メニューを表示します。
 
-### 説明
+## 説明
 
-> EmEditor ウィンドウ内にコンテキスト メニューを表示します。コンテキスト メニューの中に表示されるコマンドは、 [\[メニューの変更\] \
-> コマンド](customize_menu) で変更できます。
+EmEditor ウィンドウ内にコンテキスト メニューを表示します。コンテキスト メニューの中に表示されるコマンドは、 [\[メニューの変更\] \
+コマンド](customize_menu) で変更できます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[コンテキスト メニュー\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CONTEXT\_MENU (4301)
+```
+EEID_CONTEXT_MENU (4301)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4301);
+```
+editor.ExecuteCommandByID(4301);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4301
+```
+editor.ExecuteCommandByID 4301
+```

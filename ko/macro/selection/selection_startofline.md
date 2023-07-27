@@ -2,14 +2,20 @@
 
 줄의 시작점으로 커서를 이동합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **StartOfLine**( \[ _bExtend_ \[, _nFlags_ \] \]
+### \[JavaScript\]
+
+```
+document.selection.StartOfLine( [ bExtend [, nFlags ] ]
 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document.selection. **StartOfLine** \[ _bExtend_ \[, _nFlags_ \] \]
+```
+document.selection.StartOfLine [ bExtend [, nFlags ] ]
+```
 
 ## 매개 변수
 

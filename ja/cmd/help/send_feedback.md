@@ -1,14 +1,14 @@
 # \[フィードバックを送信\] コマンド
 
-### 概要
+## 概要
 
-> EmEditor開発チームにフィードバックを送信します。
+EmEditor開発チームにフィードバックを送信します。
 
-### 説明
+## 説明
 
-> EmEditor開発チームにフィードバックを送信します。
+EmEditor開発チームにフィードバックを送信します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ヘルプ\] \- \[フィードバックを送信\]
 - [すべてのコマンド](../../glossary/allcommands): \[ヘルプ\] \- \[フィードバックを送信\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SEND\_FEEDBACK (4058)
+```
+EEID_SEND_FEEDBACK (4058)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4058);
+```
+editor.ExecuteCommandByID(4058);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4058
+```
+editor.ExecuteCommandByID 4058
+```

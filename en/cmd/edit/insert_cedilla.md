@@ -1,31 +1,36 @@
 # Insert Cedilla command
 
-### Summary
+## Summary
 
-> Inserts a c/C character with a cedilla accent mark.
+Inserts a c/C character with a cedilla accent mark.
 
-### Description
+## Description
 
-> After selecting this command, Insert a cedilla (ç or Ç) at the cursor by typing c or C.
+After selecting this command, Insert a cedilla (ç or Ç) at the cursor by typing c or C.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Diacritics** \> **Cedilla**
-- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Cedilla**
+- Default Menu:Insert \>Diacritics \>Cedilla
+- [All Commands](../tools/all_commands):Insert \>Diacritics \>Cedilla
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL + ,
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT\_CEDILLA (4310)
+```
+EEID_INSERT_CEDILLA (4310)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4310);
+```
+editor.ExecuteCommandByID(4310);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4310
+```
+editor.ExecuteCommandByID 4310
+```

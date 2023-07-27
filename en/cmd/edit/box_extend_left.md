@@ -1,32 +1,37 @@
 # Char Left Extend (Vertical Mode) command
 
-### Summary
+## Summary
 
-> Extends the vertical selection one character to the left.
+Extends the vertical selection one character to the left.
 
-### Description
+## Description
 
-> Extends the vertical selection one character to the left.
+Extends the vertical selection one character to the left.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Char Left Extend (Vertical Mode)**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Char Left Extend (Vertical Mode)
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+LEFT ARROW
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOX\_EXTEND\_LEFT (4026)
+```
+EEID_BOX_EXTEND_LEFT (4026)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4026);
+```
+editor.ExecuteCommandByID(4026);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4026
+```
+editor.ExecuteCommandByID 4026
+```

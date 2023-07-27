@@ -2,13 +2,19 @@
 
 Returns the column number of the cursor position.
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetActivePointX**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetActivePointX( nFlags [, iSel ] );
+```
 
-xPos = document.selection. **GetActivePointX**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetActivePointX( nFlags [, iSel ] )
+```
 
 ## Parameters
 

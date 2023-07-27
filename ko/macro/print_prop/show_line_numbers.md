@@ -1,18 +1,22 @@
 # ShowLineNumbers 속성 (PrintProp ��ü)
 
-구성 속성 [**인쇄** 탭](../../dlg/properties/print/index) 의 **줄 번호 인쇄** 체크 박스에 해당합니다.
+구성 속성 [인쇄 탭](../../dlg/properties/print/index) 의줄 번호 인쇄 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **ShowLineNumbers**;
+### \[JavaScript\]
 
-object. **ShowLineNumbers** = _b_;
+```
+b = object.ShowLineNumbers;
+object.ShowLineNumbers = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **ShowLineNumbers**
-
-object. **ShowLineNumbers** = _b_
+```
+b = object.ShowLineNumbers
+object.ShowLineNumbers = b
+```
 
 ## 버전
 

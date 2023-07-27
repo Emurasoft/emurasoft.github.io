@@ -1,14 +1,14 @@
 # \[コピーライトを挿入\] コマンド
 
-### 概要
+## 概要
 
-> コピーライトを挿入します。
+コピーライトを挿入します。
 
-### 説明
+## 説明
 
-> カーソル位置にコピーライト文字 © を挿入します。
+カーソル位置にコピーライト文字 © を挿入します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[挿入\] \- \[記号\] \- \[コピーライト\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[記号\] \- \[コピーライト\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+Ctrl+C
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_INSERT\_COPYRIGHT (4314)
+```
+EEID_INSERT_COPYRIGHT (4314)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.Text="©";
+```
+document.selection.Text="©";
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.Text="©"
+```
+document.selection.Text="©"
+```

@@ -4,19 +4,103 @@ EmEditor is a robust, easy-to-use, multi-feature text editor. EmEditor features 
 
 ## New Features in Version 14
 
+
+
+
+
+
+
 ## New Features in Version 13
+
+
+
+
+
+
+
+
 
 ## New Features in Version 12
 
+
+
+
+
+
+
+
+
 ## New Features in Version 11
+
+
+
+
+
+
+
+
 
 ## New Features in Version 10
 
+
+
+
+
 ## New Features in Version 9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## New Features in Version 8
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## New Features in Version 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## New Features in Version 6
 
@@ -26,9 +110,17 @@ EmEditor is a robust, easy-to-use, multi-feature text editor. EmEditor features 
 
 \*
 
+
+
 \*
 
 ## New Features in Version 5
+
+
+
+
+
+
 
 ## Basic Features
 

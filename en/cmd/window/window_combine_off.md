@@ -1,32 +1,37 @@
 # Enable Tabs - Off command
 
-### Summary
+## Summary
 
-> Disables tabs to separate all windows.
+Disables tabs to separate all windows.
 
-### Description
+## Description
 
-> Disables the tabs to separate all windows. When the tabs are disabled, each open document is displayed in its own window.
+Disables the tabs to separate all windows. When the tabs are disabled, each open document is displayed in its own window.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Enable Tabs** \> **Enable Tabs - Off**
+- [All Commands](../tools/all_commands):Window
+\>Enable Tabs \>Enable Tabs - Off
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_COMBINE\_OFF (4408)
+```
+EEID_WINDOW_COMBINE_OFF (4408)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.EnableTab = false;
+```
+editor.EnableTab = false;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.EnableTab = False
+```
+editor.EnableTab = False
+```

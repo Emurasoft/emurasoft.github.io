@@ -1,18 +1,22 @@
 # TagEnd 属性 (HighlightProp ����)
 
-与配置属性中 [**高亮（1）** 页面](../../dlg/properties/highlight1/index) 上的 **结束标记** 文本框相对应。
+与配置属性中 [高亮（1） 页面](../../dlg/properties/highlight1/index) 上的结束标记 文本框相对应。
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **TagEnd**;
+### \[JavaScript\]
 
-object. **TagEnd** = _str_;
+```
+str = object.TagEnd;
+object.TagEnd = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **TagEnd**
-
-object. **TagEnd** = _str_
+```
+str = object.TagEnd
+object.TagEnd = str
+```
 
 ## 版本
 

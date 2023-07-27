@@ -1,31 +1,36 @@
 # 上一更改的字符命令
 
-### 摘要
+## 摘要
 
-> 跳转到上一更改的字符处。
+跳转到上一更改的字符处。
 
-### 说明
+## 说明
 
-> 在比较模式下，跳转到上一更改的字符处。
+在比较模式下，跳转到上一更改的字符处。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands): **比较** \> **上一更改的字符**
+- [所有命令](../tools/all_commands):比较 \>上一更改的字符
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+F7
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_COMPARE\_PREV\_CHAR (4089)
+```
+EEID_COMPARE_PREV_CHAR (4089)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4089);
+```
+editor.ExecuteCommandByID(4089);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4089
+```
+editor.ExecuteCommandByID 4089
+```

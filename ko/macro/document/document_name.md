@@ -2,23 +2,33 @@
 
 현재 문서의 파일 이름만을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_strName_ = document. **Name**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = document.Name;
+```
 
-_strName_ = document. **Name**
+### \[VBScript\]
+
+```
+strName = document.Name
+```
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( document.Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert document.Name
+```
 
 ## 버전
 

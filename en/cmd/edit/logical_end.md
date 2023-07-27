@@ -1,32 +1,37 @@
 # Logical End command
 
-### Summary
+## Summary
 
-> Moves the cursor to the end of the current logical line.
+Moves the cursor to the end of the current logical line.
 
-### Description
+## Description
 
-> Moves the cursor to the end of the current logical line.
+Moves the cursor to the end of the current logical line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
-\> **Logical End**
+- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
+\>Logical End
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+END
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_LOGICAL\_END (4167)
+```
+EEID_LOGICAL_END (4167)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.EndOfLine(false,eeLineLogical);
+```
+document.selection.EndOfLine(false,eeLineLogical);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.EndOfLine false,eeLineLogical
+```
+document.selection.EndOfLine false,eeLineLogical
+```

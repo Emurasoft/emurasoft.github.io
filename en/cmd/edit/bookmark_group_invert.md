@@ -1,31 +1,36 @@
 # Invert Bookmarks in This Group command
 
-### Summary
+## Summary
 
-> Inverts all bookmarks in this group.
+Inverts all bookmarks in this group.
 
-### Description
+## Description
 
-> Inverts all bookmarks in this group, bookmarking lines that were not bookmarked, and unbookmarking lines that were already bookmarked.
+Inverts all bookmarks in this group, bookmarking lines that were not bookmarked, and unbookmarking lines that were already bookmarked.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **This Group** \> **Invert Bookmarks**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **This Group** \> **Invert Bookmarks**
+- Default Menu:Bookmarks \>This Group \>Invert Bookmarks
+- [All Commands](../tools/all_commands):Bookmarks \>This Group \>Invert Bookmarks
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_GROUP\_INVERT (4595)
+```
+EEID_BOOKMARK_GROUP_INVERT (4595)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4595);
+```
+editor.ExecuteCommandByID(4595);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4595
+```
+editor.ExecuteCommandByID 4595
+```

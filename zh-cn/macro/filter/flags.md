@@ -11,19 +11,21 @@
 | eeFindReplaceOnlyWord | 整个单词需匹配。 |
 | eeFindReplaceRegExp | 使用正则表达式搜索字符串。不能与 eeFindReplaceEscSeq 合用。 |
 
-#### \[JavaScript\]
+## 
 
-_flag_ =
-item. **Flags**;
+### \[JavaScript\]
 
-item. **Flags** = flags;
+```
+flag = item.Flags;
+item.Flags = flags;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Flags**
-
-item. **Flags** = _n_
+```
+n = item.Flags
+item.Flags = n
+```
 
 ## 版本
 

@@ -1,20 +1,22 @@
 # QuoteDouble 속성 (HighlightProp ��ü)
 
-구성 속성 [**강조 표시 (2)** 탭](../../dlg/properties/highlight2/index) 의 **따옴표로 닫힌 문자열 그룹 박스 \- 큰 따옴표 "..."** 체크 박스에 해당합니다.
+구성 속성 [강조 표시 (2) 탭](../../dlg/properties/highlight2/index) 의따옴표로 닫힌 문자열 그룹 박스 \- 큰 따옴표 "..." 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **QuoteDouble**;
+### \[JavaScript\]
 
-object. **QuoteDouble** = _b_;
+```
+b = object.QuoteDouble;
+object.QuoteDouble = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **QuoteDouble**
-
-object. **QuoteDouble** = _b_
+```
+b = object.QuoteDouble
+object.QuoteDouble = b
+```
 
 ## 버전
 

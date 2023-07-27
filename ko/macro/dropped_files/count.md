@@ -2,13 +2,19 @@
 
 삭제된 파일의 이름을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = DroppedFiles. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = DroppedFiles.Count;
+```
 
-_nCount_ = DroppedFiles. **Count**
+### \[VBScript\]
+
+```
+nCount = DroppedFiles.Count
+```
 
 ## 버전
 

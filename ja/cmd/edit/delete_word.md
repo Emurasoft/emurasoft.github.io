@@ -1,14 +1,14 @@
 # \[単語の削除\] コマンド
 
-### 概要
+## 概要
 
-> カーソル位置の単語を削除します。
+カーソル位置の単語を削除します。
 
-### 説明
+## 説明
 
-> カーソル位置に存在する単語を削除します。単語の右側に空白が存在する場合、空白は削除しません。
+カーソル位置に存在する単語を削除します。単語の右側に空白が存在する場合、空白は削除しません。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[削除\] \- \[単語の削除\]
@@ -16,20 +16,23 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+Delete
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DELETE\_WORD (4194)
+```
+EEID_DELETE_WORD (4194)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.SelectWord();
->
-> document.selection.Delete(1);
+```
+document.selection.SelectWord();
+document.selection.Delete(1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.SelectWord
->
-> document.selection.Delete 1
+```
+document.selection.SelectWord
+document.selection.Delete 1
+```

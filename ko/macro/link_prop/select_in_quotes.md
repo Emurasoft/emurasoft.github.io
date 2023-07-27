@@ -1,20 +1,22 @@
 # SelectInQuotes 속성 (LinkProp ��ü)
 
-구성 속성 [**링크** 탭](../../dlg/properties/link/index) 의 **인용문을 클릭하여 전체 문자열을 선택** 체크 박스에 해당합니다.
+구성 속성 [링크 탭](../../dlg/properties/link/index) 의인용문을 클릭하여 전체 문자열을 선택 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SelectInQuotes**;
+### \[JavaScript\]
 
-object. **SelectInQuotes** = _b_;
+```
+b = object.SelectInQuotes;
+object.SelectInQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SelectInQuotes**
-
-object. **SelectInQuotes** = _b_
+```
+b = object.SelectInQuotes
+object.SelectInQuotes = b
+```
 
 ## 버전
 

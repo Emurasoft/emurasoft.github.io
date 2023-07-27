@@ -8,12 +8,12 @@ button.
 - The currently selected configuration.
 - The current line and column at the cursor.
 - Encoding method used to open.
-- Overwrite mode **(OVR)**
-- Read only mode **(READ)**
+- Overwrite mode(OVR)
+- Read only mode(READ)
 
-### Tips
+## Tips
 
 - You can double-click on most items to change their settings.
 - Information displayed on the Status Bar can be customized in the
-[**Status** page](../../dlg/customize/status/index) of the
+[Status page](../../dlg/customize/status/index) of the
 Customize dialog box.

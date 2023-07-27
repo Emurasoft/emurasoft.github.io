@@ -1,24 +1,24 @@
 # URI Schemes page
 
-The **URI Schemes** page allows you to customize URI schemes.
+TheURI Schemes page allows you to customize URI schemes.
 
-### URI Schemes list box
+## URI Schemes list box
 
 Shows the list of available URI schemes.
 
-### Enable/Disable ALL check box
+## Enable/Disable ALL check box
 
 This check box allows you to enable or disable all items in the list.
 
-### Add button
+## Add button
 
 Adds an item to the list.
 
-### Delete button
+## Delete button
 
 Deletes the selected item(s) from the list.
 
-### Reset button
+## Reset button
 
 Resets to default settings.
 

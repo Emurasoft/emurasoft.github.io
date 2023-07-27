@@ -1,31 +1,36 @@
 # Sort by Occurrence Descending command
 
-### Summary
+## Summary
 
-> Sorts by occurrence in the current column, in descending order.
+Sorts by occurrence in the current column, in descending order.
 
-### Description
+## Description
 
-> Sorts by occurrence in the current column, in descending order.
+Sorts by occurrence in the current column, in descending order.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Sort** \> **Sort by Occurrence Descending**
-- [All Commands](../tools/all_commands): **Sort** \> **Sort by Occurrence Descending**
+- Default Menu:Sort \>Sort by Occurrence Descending
+- [All Commands](../tools/all_commands):Sort \>Sort by Occurrence Descending
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SORT\_OCCURRENCE\_D (4002)
+```
+EEID_SORT_OCCURRENCE_D (4002)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4002);
+```
+editor.ExecuteCommandByID(4002);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4002
+```
+editor.ExecuteCommandByID 4002
+```

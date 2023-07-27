@@ -1,33 +1,38 @@
 # 自定义高级命令
 
-### 摘要
+## 摘要
 
-> 打开自定义对话框中的高级页面。
+打开自定义对话框中的高级页面。
 
-### 说明
+## 说明
 
-> 显示让你能定义通用应用设置的 [**自定义** 对话框](../../dlg/customize/index) 中的高级页面。
+显示让你能定义通用应用设置的 [自定义 对话框](../../dlg/customize/index) 中的高级页面。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](all_commands): **工具** >
-**自定义** >
-**高级**
+- [所有命令](all_commands):工具 >
+自定义 >
+高级
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_CUSTOMIZE\_ADVANCED (9046)
+```
+EEID_CUSTOMIZE_ADVANCED (9046)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(9046);
+```
+editor.ExecuteCommandByID(9046);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 9046
+```
+editor.ExecuteCommandByID 9046
+```

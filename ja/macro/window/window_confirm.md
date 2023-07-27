@@ -2,13 +2,19 @@
 
 \[OK\] ボタンと \[キャンセル\] ボタンが付いたダイアログ ボックス内にメッセージを表示します。
 
-#### \[JavaScript\]
+## 
 
-_bAnswer_ = **confirm**( _strQuestion, strMessage2_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bAnswer =confirm( strQuestion, strMessage2);
+```
 
-_bAnswer_ = **confirm**( _strQuestion, strMessage2_ )
+### \[VBScript\]
+
+```
+bAnswer =confirm( strQuestion, strMessage2 )
+```
 
 ## パラメータ
 

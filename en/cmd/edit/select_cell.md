@@ -1,31 +1,36 @@
 # Select Cell command
 
-### Summary
+## Summary
 
-> Selects the cell of the current cursor position in CSV mode.
+Selects the cell of the current cursor position in CSV mode.
 
-### Description
+## Description
 
-> Selects the cell of the current cursor position in CSV mode.
+Selects the cell of the current cursor position in CSV mode.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **Select Cell**
+- [All Commands](../tools/all_commands):CSV \>Select Cell
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SELECT\_CELL (4489)
+```
+EEID_SELECT_CELL (4489)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4489);
+```
+editor.ExecuteCommandByID(4489);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4489
+```
+editor.ExecuteCommandByID 4489
+```

@@ -2,13 +2,19 @@
 
 엠에디터 설정에 따라 레지스트리 또는 INI 파일에 문자열 값을 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-editor. **WriteProfileString**( _nKey_, _strConfig_, _strEntry_, _strData_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.WriteProfileString( nKey, strConfig, strEntry, strData );
+```
 
-editor. **WriteProfileString** _nKey_, _strConfig_, _strEntry_, _strData_
+### \[VBScript\]
+
+```
+editor.WriteProfileString nKey, strConfig, strEntry, strData
+```
 
 ## 매개 변수
 

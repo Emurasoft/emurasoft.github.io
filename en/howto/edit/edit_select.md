@@ -4,7 +4,7 @@ Click at the beginning of the selection, move the mouse to the end of the
 selection while holding the left mouse button down, and then release the mouse
 button.
 
-### Tips
+## Tips
 
 - Alternatively, press arrow keys while pressing the SHIFTkey.
 - Alternatively, press the F8 key, and then press arrow keys.

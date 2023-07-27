@@ -1,14 +1,14 @@
 # \[固定幅列に変換\] コマンド
 
-### 概要
+## 概要
 
-> 現在のセパレーター位置を使用して現在のCSV文書を固定幅列に変換します。
+現在のセパレーター位置を使用して現在のCSV文書を固定幅列に変換します。
 
-### 説明
+## 説明
 
-> 現在のセパレーター位置を使用して現在のCSV文書を固定幅列に変換します。
+現在のセパレーター位置を使用して現在のCSV文書を固定幅列に変換します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[次のCSVに変換\] - \[固定幅列に変換\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CONVERT\_TO\_FIXED\_WIDTH (3883)
+```
+EEID_CONVERT_TO_FIXED_WIDTH (3883)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3883);
+```
+editor.ExecuteCommandByID(3883);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3883
+```
+editor.ExecuteCommandByID 3883
+```

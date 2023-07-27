@@ -1,32 +1,37 @@
 # Add to Markers command
 
-### Summary
+## Summary
 
-> Adds the selected text to the Markers list.
+Adds the selected text to the Markers list.
 
-### Description
+## Description
 
-> Adds the selected text to the Markers list.
+Adds the selected text to the Markers list.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
-\> **Add to Markers**
+- [All Commands](../tools/all_commands):Edit \>Advanced
+\>Add to Markers
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ADD\_TO\_MARKERS (4560)
+```
+EEID_ADD_TO_MARKERS (4560)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4560);
+```
+editor.ExecuteCommandByID(4560);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4560
+```
+editor.ExecuteCommandByID 4560
+```

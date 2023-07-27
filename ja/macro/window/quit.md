@@ -2,13 +2,19 @@
 
 マクロの実行を停止します。
 
-#### \[JavaScript\]
+## 
 
-**Quit**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Quit();
+```
 
-**Quit**
+### \[VBScript\]
+
+```
+Quit
+```
 
 ## バージョン
 

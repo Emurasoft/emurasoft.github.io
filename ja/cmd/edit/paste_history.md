@@ -1,14 +1,14 @@
 # \[クリップボード リングの回転\] コマンド
 
-### 概要
+## 概要
 
-> クリップボードの履歴の中から内容を貼り付けます。
+クリップボードの履歴の中から内容を貼り付けます。
 
-### 説明
+## 説明
 
-> クリップボードの履歴の中から内容を貼り付けます。
+クリップボードの履歴の中から内容を貼り付けます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[貼り付け\] \- \[クリップボード リングの回転\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_PASTE\_HISTORY (4454)
+```
+EEID_PASTE_HISTORY (4454)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4454);
+```
+editor.ExecuteCommandByID(4454);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4454
+```
+editor.ExecuteCommandByID 4454
+```

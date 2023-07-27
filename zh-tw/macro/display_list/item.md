@@ -2,15 +2,19 @@
 
 為指定索引檢索 [DisplayItem 對象](../display_item/index)。
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-list. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = list.Item( Index );
+```
 
-_item_ =
-list. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = list.Item( Index )
+```
 
 ## 參數
 

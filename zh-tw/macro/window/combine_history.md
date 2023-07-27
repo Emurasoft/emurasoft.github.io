@@ -2,39 +2,41 @@
 
 指定要不要合併復原/重做記錄。
 
-#### \[JavaScript\]
+## 
 
-_b_ = **CombineHistory**;
+### \[JavaScript\]
 
-**CombineHistory** = _b_;
+```
+b =CombineHistory;
+CombineHistory = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = **CombineHistory**
-
-**CombineHistory** = _b_;
+```
+b =CombineHistory
+CombineHistory = b;
+```
 
 ## 範例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 CombineHistory = true;
-
 document.writeln( "ABC" );
-
 document.writeln( "DEF" );
-
 CombineHistory = false;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 CombineHistory = True
-
 document.writeln "ABC"
-
 document.writeln "DEF"
-
 CombineHistory = False
+```
 
 ## 版本
 

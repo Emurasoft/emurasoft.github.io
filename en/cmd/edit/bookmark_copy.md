@@ -1,31 +1,36 @@
 # Copy Bookmarked Lines in This Document Command
 
-### Summary
+## Summary
 
-> Copies all bookmarked lines in the current document and pastes them to the Clipboard.
+Copies all bookmarked lines in the current document and pastes them to the Clipboard.
 
-### Description
+## Description
 
-> Copies all bookmarked lines in the current document and pastes them to the Clipboard.
+Copies all bookmarked lines in the current document and pastes them to the Clipboard.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **Copy Bookmarked Lines**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **Copy Bookmarked Lines**
+- Default Menu:Bookmarks \>Copy Bookmarked Lines
+- [All Commands](../tools/all_commands):Bookmarks \>Copy Bookmarked Lines
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_COPY (3853)
+```
+EEID_BOOKMARK_COPY (3853)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3853);
+```
+editor.ExecuteCommandByID(3853);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3853
+```
+editor.ExecuteCommandByID 3853
+```

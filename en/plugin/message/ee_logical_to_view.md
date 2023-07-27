@@ -15,13 +15,13 @@ lParam = (LPARAM) (POINT\_PTR\*) pptView;
 
 _pptLogical_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the logical coordinates to be
-> converted.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the logical coordinates to be
+converted.
 
 _pptView_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) to receive the converted display coordinates.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) to receive the converted display coordinates.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

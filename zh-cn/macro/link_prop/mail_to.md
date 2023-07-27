@@ -1,20 +1,22 @@
 # MailTo 属性 (LinkProp ����)
 
-与配置属性中 [**链接** 页面](../../dlg/properties/link/index) 上的 **点击邮件地址时发送邮件** 复选框相对应。
+与配置属性中 [链接 页面](../../dlg/properties/link/index) 上的点击邮件地址时发送邮件 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **MailTo**;
+### \[JavaScript\]
 
-object. **MailTo** = _b_;
+```
+b = object.MailTo;
+object.MailTo = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **MailTo**
-
-object. **MailTo** = _b_
+```
+b = object.MailTo
+object.MailTo = b
+```
 
 ## 版本
 

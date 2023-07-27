@@ -2,13 +2,19 @@
 
 指定するパスの複数のファイルから文字列を検索します。検索したファイルの一覧は現在のウィンドウに表示されます。ファイルを保存していない場合は、ファイルを保存するかどうかを選択するメッセージ ボックスが表示されます。ユーザーが途中で処理を中止した場合、エラーを発生します。
 
-#### \[JavaScript\]
+## 
 
-nFound = editor. **FindInFiles**( _strFind_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = editor.FindInFiles( strFind, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ nExFlags, [ nLimit ] ] ] ] );
+```
 
-nFound = editor. **FindInFiles** _strFind_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \]
+### \[VBScript\]
+
+```
+nFound = editor.FindInFiles strFind, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ nExFlags, [ nLimit ] ] ] ]
+```
 
 ## パラメータ
 

@@ -1,20 +1,24 @@
 # KinsokuEnd Property (WrapProp Object)
 
-Corresponds to the **Not**
-**Allowed at Line End** text box in the
-[**Wrap** tab](../../dlg/properties/wrap/index) of Configuration Properties.
+Corresponds to theNot
+Allowed at Line End text box in the
+[Wrap tab](../../dlg/properties/wrap/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_str_ = **status**;
+### \[JavaScript\]
 
-**status** = _str_;
+```
+str =status;
+status = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = **status**
-
-**status** = _str_
+```
+str =status
+status = str
+```
 
 ## Version
 

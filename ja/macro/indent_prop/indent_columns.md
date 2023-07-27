@@ -1,20 +1,22 @@
 # IndentColumns プロパティ (IndentProp �I�u�W�F�N�g)
 
-[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の **\[インデントの桁数\]** テキスト ボックスに相当します。
+[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の\[インデントの桁数\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **IndentColumns**;
+### \[JavaScript\]
 
-object. **IndentColumns** = _n_;
+```
+n = object.IndentColumns;
+object.IndentColumns = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **IndentColumns**
-
-object. **IndentColumns** = _n_
+```
+n = object.IndentColumns
+object.IndentColumns = n
+```
 
 ## バージョン
 

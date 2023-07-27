@@ -2,13 +2,19 @@
 
 Moves the cursor the specified number of characters to the right.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **CharRight**( \[ bExtend \[, nCount \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.CharRight( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **CharRight** \[ bExtend \[, nCount \] \]
+### \[VBScript\]
+
+```
+document.selection.CharRight [ bExtend [, nCount ] ]
+```
 
 ## Parameters
 
@@ -20,7 +26,7 @@ is false and the moved text is collapsed.
 _nCount_
 
 Optional. Specifies the number of characters to move to the right. The
-default is 1. If negative, the method acts like the [**CharLeft** \
+default is 1. If negative, the method acts like the [CharLeft \
 Method](selection_charleft). If 0, the method acts like 1.
 
 ## Version

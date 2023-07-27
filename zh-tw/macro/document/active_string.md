@@ -2,13 +2,19 @@
 
 在游標懸停處檢索主動字串。
 
-#### \[JavaScript\]
+## 
 
-document. **ActiveString**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.ActiveString;
+```
 
-document. **ActiveString**
+### \[VBScript\]
+
+```
+document.ActiveString
+```
 
 ## 版本
 

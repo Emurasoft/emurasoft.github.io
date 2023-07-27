@@ -1,20 +1,22 @@
 # RegExp 속성 (HighlightItem ��ü)
 
-구성 속성 [**강조 표시 (1)** 탭](../../dlg/properties/highlight1/index) 의 **정규식** 체크 박스에 해당합니다.
+구성 속성 [강조 표시 (1) 탭](../../dlg/properties/highlight1/index) 의정규식 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **RegExp**;
+### \[JavaScript\]
 
-item. **RegExp** = _b_;
+```
+b = item.RegExp;
+item.RegExp = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **RegExp**
-
-item. **RegExp** = _b_
+```
+b = item.RegExp
+item.RegExp = b
+```
 
 ## 버전
 

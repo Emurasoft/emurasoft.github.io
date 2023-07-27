@@ -1,41 +1,46 @@
 # Reload Detect All command
 
-### Summary
+## Summary
 
-> Reloads the current file using the best-fit encoding.
+Reloads the current file using the best-fit encoding.
 
-### Description
+## Description
 
-> This command reloads the current file from the disk with an
-> encoding statistically detected from all encodings available on the Windows
-> Operating System. The detection may fail, especially when the file is small.
-> This command is available only when Internet Explorer 5.0 or later is
-> installed. If the document is changed within EmEditor, the prompt message
-> "Are you sure you want to abandon changes?" appears. Selecting **Yes**
-> will discard the changes without saving, and will reload the new contents.
-> Selecting **No** will abort reloading and will allow you to continue
-> editing the document.
+This command reloads the current file from the disk with an
+encoding statistically detected from all encodings available on the Windows
+Operating System. The detection may fail, especially when the file is small.
+This command is available only when Internet Explorer 5.0 or later is
+installed. If the document is changed within EmEditor, the prompt message
+"Are you sure you want to abandon changes?" appears. SelectingYes
+will discard the changes without saving, and will reload the new contents.
+SelectingNo will abort reloading and will allow you to continue
+editing the document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **File** \> **Reload** \> **Detect All**
-- [All Commands](../tools/all_commands): **File** \> **Reload**
-\> **Detect All**
+- Default Menu:File \>Reload \>Detect All
+- [All Commands](../tools/all_commands):File \>Reload
+\>Detect All
 - Toolbar: ![](../../images/reload.gif) (on
-the arrow) > **Detect All**
-- Status Bar: (double-click on **Encoding**) \> **Detect All**
+the arrow) >Detect All
+- Status Bar: (double-click onEncoding) \>Detect All
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_RELOAD\_DETECT\_ALL (4279)
+```
+EEID_FILE_RELOAD_DETECT_ALL (4279)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4279);
+```
+editor.ExecuteCommandByID(4279);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4279
+```
+editor.ExecuteCommandByID 4279
+```

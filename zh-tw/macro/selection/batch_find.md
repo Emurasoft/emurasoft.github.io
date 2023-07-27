@@ -2,19 +2,25 @@
 
 搜索多個字串。
 
-#### \[JavaScript\]
+## 
 
-nFound = document.selection. **BatchFind**( _filters_, _nFlags_, _nExFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = document.selection.BatchFind( filters, nFlags, nExFlags );
+```
 
-nFound = document.selection. **BatchFind**( _filters_, _nFlags_, _nExFlags_ )
+### \[VBScript\]
+
+```
+nFound = document.selection.BatchFind( filters, nFlags, nExFlags )
+```
 
 ## 參數
 
 _filters_
 
-指定包含搜索字串和標志的 [**Filters** 集合](../filters/index)。
+指定包含搜索字串和標志的 [Filters 集合](../filters/index)。
 
 _nFlags_
 

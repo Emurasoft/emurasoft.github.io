@@ -2,17 +2,21 @@
 
 Specifies the text color mode.
 
-#### \[JavaScript\]
+## 
 
-_nMode_ = item. **TextMode**;
+### \[JavaScript\]
 
-item. **TextMode** = _nMode_;
+```
+nMode = item.TextMode;
+item.TextMode = nMode;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nMode_ = item. **TextMode**
-
-item. **TextMode** = _nMode_
+```
+nMode = item.TextMode
+item.TextMode = nMode
+```
 
 ## Notes
 

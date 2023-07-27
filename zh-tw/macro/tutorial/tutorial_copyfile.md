@@ -4,7 +4,9 @@
 
 下面的示例代碼會創建一個打開檔案的備份。
 
-#### \[JavaScript (JScript)\]
+## 
+
+### \[JavaScript (JScript)\]
 
 if( document.FullName == '' ){
 
@@ -21,19 +23,16 @@ fso.CopyFile( document.FullName, document.FullName + ".bak"
 
 }
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 If document.FullName = "" Then
-
 alert "The file is untitled."
-
 Else
-
 Set fso = CreateObject( "Scripting.FileSystemObject" )
-
 fso.CopyFile document.FullName, document.FullName + ".bak"
-
 End If
+```
 
 ## 參考
 

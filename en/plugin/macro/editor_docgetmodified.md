@@ -10,21 +10,21 @@ Editor\_DocGetModified( HWND hwnd, HEEDOC hDoc );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _iDoc_
 
-> Specifies the index of the target document. If -1 is specified, the currently active document will be targeted.
+Specifies the index of the target document. If -1 is specified, the currently active document will be targeted.
 
 _hDoc_
 
-> Specifies the handle to the target document. If NULL is specified, the currently active document will be targeted.
+Specifies the handle to the target document. If NULL is specified, the currently active document will be targeted.
 
 ## Return Values
 
-> If the text is modified, the return value is TRUE. If the text is not
-> modified, the return value is FALSE.
+If the text is modified, the return value is TRUE. If the text is not
+modified, the return value is FALSE.
 
 ## Version
 
-> Supported on EmEditor Professional Version 5.00 or later.
+Supported on EmEditor Professional Version 5.00 or later.

@@ -1,39 +1,40 @@
 # Cut Line(s) command
 
-### Summary
+## Summary
 
-> Cuts the selected lines or current line and moves it to the Clipboard.
+Cuts the selected lines or current line and moves it to the Clipboard.
 
-### Description
+## Description
 
-> Cuts the selected lines or one logical line at the cursor, and puts it on the Clipboard. After
-> this command, you can place the line by moving the cursor to a
-> different location and running the [**Paste** command](edit_paste).
+Cuts the selected lines or one logical line at the cursor, and puts it on the Clipboard. After
+this command, you can place the line by moving the cursor to a
+different location and running the [Paste command](edit_paste).
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Advanced** \> **Cut Line(s)**
-- [All Commands](../tools/all_commands): **Edit** \> **Cut** \> **Cut Line(s)**
+- Default Menu:Edit \>Advanced \>Cut Line(s)
+- [All Commands](../tools/all_commands):Edit \>Cut \>Cut Line(s)
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+L
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EDIT\_CUT\_LINE (4193)
+```
+EEID_EDIT_CUT_LINE (4193)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.SelectLine()
->
->
-> document.selection.Cut();
+```
+document.selection.SelectLine()
+document.selection.Cut();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.SelectLine
->
->
-> document.selection.Cut
+```
+document.selection.SelectLine
+document.selection.Cut
+```

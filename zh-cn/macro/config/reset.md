@@ -2,13 +2,19 @@
 
 重设当前配置。
 
-#### \[JavaScript\]
+## 
 
-object. **Reset**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Reset( [ strName ] );
+```
 
-object. **Reset** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Reset [ strName ]
+```
 
 ## 参数
 

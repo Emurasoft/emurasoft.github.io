@@ -2,17 +2,21 @@
 
 ヘディング (非スクロール領域) の行数を取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **HeadingLines**;
+### \[JavaScript\]
 
-document. **HeadingLines** = _n_;
+```
+n = document.HeadingLines;
+document.HeadingLines = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = document. **HeadingLines**
-
-document. **HeadingLines** = _n_
+```
+n = document.HeadingLines
+document.HeadingLines = n
+```
 
 ## バージョン
 

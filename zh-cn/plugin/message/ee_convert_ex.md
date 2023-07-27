@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> 指定指针指向 [CONVERT\_INFO](../structure/convert_info) 结构。
+指定指针指向 [CONVERT\_INFO](../structure/convert_info) 结构。
 
 ## 返回值
 
-> 如果消息成功，返回值为非零。如果消息失败，返回值为零。
+如果消息成功，返回值为非零。如果消息失败，返回值为零。
 
 ## 版本
 
-> 支持 EmEditor Professional v22.1 或之后的版本。
+支持 EmEditor Professional v22.1 或之后的版本。

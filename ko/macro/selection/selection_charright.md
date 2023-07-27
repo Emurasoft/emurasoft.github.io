@@ -2,13 +2,19 @@
 
 커서를 지정된 숫자의 문자만큼 오른쪽으로 이동합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **CharRight**( \[ bExtend \[, nCount \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.CharRight( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **CharRight** \[ bExtend \[, nCount \] \]
+### \[VBScript\]
+
+```
+document.selection.CharRight [ bExtend [, nCount ] ]
+```
 
 ## 매개 변수
 
@@ -20,7 +26,7 @@ _bExtend_
 _nCount_
 
 선택 사항입니다. 오른쪽으로 이동할 문자의 수를 지정합니다.
-기본값은 1 입니다. 음수인 경우, 이 메서드는 [**CharLeft** 메서드](selection_charleft) 와 같이 작용합니다. 0인경우, 메서드는 1과 같이 작용합니다.
+기본값은 1 입니다. 음수인 경우, 이 메서드는 [CharLeft 메서드](selection_charleft) 와 같이 작용합니다. 0인경우, 메서드는 1과 같이 작용합니다.
 
 ## 버전
 

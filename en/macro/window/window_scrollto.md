@@ -2,13 +2,19 @@
 
 Scrolls the window to the specified position.
 
-#### \[JavaScript\]
+## 
 
-**scrollTo**( _x_, _y_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+scrollTo( x, y);
+```
 
-**scrollTo** _x_, _y_
+### \[VBScript\]
+
+```
+scrollTo x, y
+```
 
 ## Parameters
 

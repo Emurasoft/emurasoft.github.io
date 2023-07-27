@@ -1,33 +1,38 @@
 # Delete command
 
-### Summary
+## Summary
 
-> Deletes the selection, or deletes one character to the right of the cursor.
+Deletes the selection, or deletes one character to the right of the cursor.
 
-### Description
+## Description
 
-> Deletes the selected text (if any), or deletes one character to the
-> right of the cursor if no text is selected.
+Deletes the selected text (if any), or deletes one character to the
+right of the cursor if no text is selected.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Delete**
-- [All Commands](../tools/all_commands): **Edit** \> **Delete**
-\> **Delete Right Character**
+- Default Menu:Edit \>Delete
+- [All Commands](../tools/all_commands):Edit \>Delete
+\>Delete Right Character
 - Toolbar: ![](../../images/delete.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+BACKSPACE or DELETE
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DELETE (4135)
+```
+EEID_DELETE (4135)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Delete(1);
+```
+document.selection.Delete(1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Delete 1
+```
+document.selection.Delete 1
+```

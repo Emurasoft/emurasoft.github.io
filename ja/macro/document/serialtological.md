@@ -2,13 +2,19 @@
 
 シリアル位置を論理座標に変換します。
 
-#### \[JavaScript\]
+## 
 
-_point_ = document. **SerialToLogical**( _nSerialPos_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+point = document.SerialToLogical( nSerialPos );
+```
 
-_point_ = document. **SerialToLogical**( _nSerialPos_ )
+### \[VBScript\]
+
+```
+point = document.SerialToLogical( nSerialPos )
+```
 
 ## パラメータ
 
@@ -18,21 +24,21 @@ _nSerialPos_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 point = document.SerialToLogical( 10 );
-
 x = point.x;
-
 y = point.y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 point = document.SerialToLogical( 10 )
-
 x = point.x
-
 y = point.y
+```
 
 ## バージョン
 

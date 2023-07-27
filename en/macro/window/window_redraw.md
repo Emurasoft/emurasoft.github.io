@@ -2,17 +2,21 @@
 
 Allows changes in EmEditor to be redrawn or prevents changes in EmEditor from being redrawn.
 
-#### \[JavaScript\]
+## 
 
-_b_ = **Redraw**;
+### \[JavaScript\]
 
-**Redraw** = _b_;
+```
+b =Redraw;
+Redraw = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = **Redraw**
-
-**Redraw** = _b_;
+```
+b =Redraw
+Redraw = b;
+```
 
 ## Version
 

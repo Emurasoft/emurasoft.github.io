@@ -1,33 +1,38 @@
 # Block Multiline Changes (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Block Multiline Changes button on the Filter toolbar.
+Toggles the Block Multiline Changes button on the Filter toolbar.
 
-### Description
+## Description
 
-> Toggles the Block Multiline Changes button on the Filter toolbar.
+Toggles the Block Multiline Changes button on the Filter toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Block Multiline Changes**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Block Multiline Changes
 - Toolbar:
 ![](../../images/blockmultilinechanges.gif) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_LIMIT(3915)
+```
+EEID_FILTERBAR_LIMIT(3915)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3915);
+```
+editor.ExecuteCommandByID(3915);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3915
+```
+editor.ExecuteCommandByID 3915
+```

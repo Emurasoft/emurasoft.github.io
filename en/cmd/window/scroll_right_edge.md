@@ -1,31 +1,36 @@
 # Scroll Right Edge command
 
-### Summary
+## Summary
 
-> Scrolls the document to the right edge of the document.
+Scrolls the document to the right edge of the document.
 
-### Description
+## Description
 
-> Scrolls the document to the right edge of the document.
+Scrolls the document to the right edge of the document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Right Edge**
+- [All Commands](../tools/all_commands):Window \>Scroll \>Right Edge
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SCROLL\_RIGHT\_EDGE (3871)
+```
+EEID_SCROLL_RIGHT_EDGE (3871)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3871);
+```
+editor.ExecuteCommandByID(3871);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3871
+```
+editor.ExecuteCommandByID 3871
+```

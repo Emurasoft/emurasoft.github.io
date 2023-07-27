@@ -12,8 +12,8 @@ lParam = 0;
 
 _pInfo_
 
-> [CONVERT\_INFO 構造体](../structure/convert_info) へのポインタを指定します。
+[CONVERT\_INFO 構造体](../structure/convert_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると 0 以外を返します。失敗すると 0 を返します。
+成功すると 0 以外を返します。失敗すると 0 を返します。

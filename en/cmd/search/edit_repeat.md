@@ -1,33 +1,38 @@
 # Find Next command
 
-### Summary
+## Summary
 
-> Finds next occurrence.
+Finds next occurrence.
 
-### Description
+## Description
 
-> Finds the next occurrence of the previously searched string, with the same
-> options.
+Finds the next occurrence of the previously searched string, with the same
+options.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Search** \> **Next**
-- [All Commands](../tools/all_commands): **Search**
-\> **Next**
+- Default Menu:Search \>Next
+- [All Commands](../tools/all_commands):Search
+\>Next
 - Toolbar: ![](../../images/editrepeat.gif)
 - Status Bar: None
 - Default Shortcut Key: F3
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EDIT\_REPEAT (4202)
+```
+EEID_EDIT_REPEAT (4202)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.FindRepeat(eeFindRepeatNext);
+```
+document.selection.FindRepeat(eeFindRepeatNext);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.FindRepeat eeFindRepeatNext
+```
+document.selection.FindRepeat eeFindRepeatNext
+```

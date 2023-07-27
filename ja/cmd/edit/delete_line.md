@@ -1,14 +1,14 @@
 # \[行削除\] コマンド
 
-### 概要
+## 概要
 
-> 選択行または現在行を削除します。
+選択行または現在行を削除します。
 
-### 説明
+## 説明
 
-> 選択行またはカーソルを含む論理行 1 行を削除します。
+選択行またはカーソルを含む論理行 1 行を削除します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[削除\] \- \[行削除\]
@@ -16,20 +16,23 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+L
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DELETE\_LINE (4190)
+```
+EEID_DELETE_LINE (4190)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.SelectLine();
->
-> document.selection.Delete(1);
+```
+document.selection.SelectLine();
+document.selection.Delete(1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.SelectLine
->
-> document.selection.Delete 1
+```
+document.selection.SelectLine
+document.selection.Delete 1
+```

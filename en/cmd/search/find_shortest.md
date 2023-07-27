@@ -1,32 +1,37 @@
 # Find Non-empty Shortest Line/Cell command
 
-### Summary
+## Summary
 
-> Finds the non-empty shortest line in a non-CSV document or non-empty shortest cell in the current column of a CSV document.
+Finds the non-empty shortest line in a non-CSV document or non-empty shortest cell in the current column of a CSV document.
 
-### Description
+## Description
 
-> Finds the non-empty shortest line in a non-CSV document or non-empty shortest cell in the current column of a CSV document.
+Finds the non-empty shortest line in a non-CSV document or non-empty shortest cell in the current column of a CSV document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Search** \> **Find Non-empty Shortest Line/Cell**
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Non-empty Shortest Line/Cell**
+- Default Menu:Search \>Find Non-empty Shortest Line/Cell
+- [All Commands](../tools/all_commands):Search
+\>Find Non-empty Shortest Line/Cell
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FIND\_SHORTEST (4050)
+```
+EEID_FIND_SHORTEST (4050)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4050);
+```
+editor.ExecuteCommandByID(4050);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4050
+```
+editor.ExecuteCommandByID 4050
+```

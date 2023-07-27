@@ -2,37 +2,40 @@
 
 Sets or retrieves a flag indicating whether the Hide Quotes Temporarily mode is enabled in the CSV cell selection mode.
 
-#### \[JavaScript\]
+## 
 
-_b_ = document. **HideQuotes**;
+### \[JavaScript\]
 
-document. **HideQuotes** = _b_;
+```
+b = document.HideQuotes;
+document.HideQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = document. **HideQuotes**
-
-document. **HideQuotes** = _b_
+```
+b = document.HideQuotes
+document.HideQuotes = b
+```
 
 ## Sample
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 if( document.HideQuotes )  alert( "Hide Quotes Temporarily enabled." );
-
 else  alert( "Hide Quotes Temporarily disabled." );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 If document.HideQuotes Then
-
 alert( "Hide Quotes Temporarily enabled." )
-
 Else
-
 alert( "Hide Quotes Temporarily disabled." )
-
 End If
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 指定するフォルダとその中身を削除します。指定したフォルダが空でなくも削除されます。
 
-#### \[JavaScript\]
+## 
 
-shell. **DeleteFolder**( _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.DeleteFolder( strFolder );
+```
 
-shell. **DeleteFolder** _strFolder_
+### \[VBScript\]
+
+```
+shell.DeleteFolder strFolder
+```
 
 ## パラメータ
 
@@ -18,13 +24,17 @@ _strFolder_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.DeleteFolder( "C:\\\Test\\\folder" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.DeleteFolder "C:\\Test\\folder"
+```
 
 ## バージョン
 

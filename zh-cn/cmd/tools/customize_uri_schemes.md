@@ -1,33 +1,38 @@
 # 自定义 URI 方案命令
 
-### 摘要
+## 摘要
 
-> 打开自定义对话框中的 URI 方案页面。
+打开自定义对话框中的 URI 方案页面。
 
-### 说明
+## 说明
 
-> 显示让你能定义通用应用设置的 [**自定义** 对话框](../../dlg/customize/index) 中的 URI 方案页面。
+显示让你能定义通用应用设置的 [自定义 对话框](../../dlg/customize/index) 中的 URI 方案页面。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](all_commands): **工具** >
-**自定义** >
-**URI 方案**
+- [所有命令](all_commands):工具 >
+自定义 >
+URI 方案
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_CUSTOMIZE\_URI\_SCHEMES (9065)
+```
+EEID_CUSTOMIZE_URI_SCHEMES (9065)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9065);
+```
+editor.ExecuteCommandByID(9065);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9065
+```
+editor.ExecuteCommandByID 9065
+```

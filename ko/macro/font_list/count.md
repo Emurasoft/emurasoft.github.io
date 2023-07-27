@@ -2,15 +2,19 @@
 
 항목의 수를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-List. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = List.Count;
+```
 
-_n_ =
-List. **Count**
+### \[VBScript\]
+
+```
+n = List.Count
+```
 
 ## 버전
 

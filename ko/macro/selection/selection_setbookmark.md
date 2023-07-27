@@ -2,13 +2,19 @@
 
 커서 위치에 책갈피를 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SetBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SetBookmark();
+```
 
-document.selection. **SetBookmark**
+### \[VBScript\]
+
+```
+document.selection.SetBookmark
+```
 
 ## 버전
 

@@ -2,5 +2,5 @@
 
 1. Click ![Properties for Current Configuration](../../images/properties.gif)
 to display the File page.
-2. Select **Japanese (Auto-Detect)** from the **Opening Encoding**
+2. SelectJapanese (Auto-Detect) from theOpening Encoding
 combo box.

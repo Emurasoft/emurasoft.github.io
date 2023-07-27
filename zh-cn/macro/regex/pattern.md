@@ -2,17 +2,21 @@
 
 设置或检索正则表达式模式。
 
-#### \[JavaScript\]
+## 
 
-_s_ = reg. **Pattern**;
+### \[JavaScript\]
 
-reg. **Pattern** = s;
+```
+s = reg.Pattern;
+reg.Pattern = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-s = reg. **Pattern**
-
-reg. **Pattern** = _s_
+```
+s = reg.Pattern
+reg.Pattern = s
+```
 
 ## 版本
 

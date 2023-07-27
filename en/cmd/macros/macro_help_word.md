@@ -1,32 +1,37 @@
 # Find Macro Keyword command
 
-### Summary
+## Summary
 
-> Finds Help topics for selected macro keyword.
+Finds Help topics for selected macro keyword.
 
-### Description
+## Description
 
-> Finds Help topics for the selected macro keyword in EmEditor Help.
+Finds Help topics for the selected macro keyword in EmEditor Help.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Macros** \> **Find Keyword**
-- [All Commands](../tools/all_commands): **Macros**
-\> **Find Keyword**
+- Default Menu:Macros \>Find Keyword
+- [All Commands](../tools/all_commands):Macros
+\>Find Keyword
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: F1
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MACRO\_HELP\_WORD (4361)
+```
+EEID_MACRO_HELP_WORD (4361)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4361);
+```
+editor.ExecuteCommandByID(4361);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4361
+```
+editor.ExecuteCommandByID 4361
+```

@@ -1,32 +1,37 @@
 # Cycle Clipboard Ring command
 
-### Summary
+## Summary
 
-> Inserts one of the contents from the Clipboard history at the cursor position.
+Inserts one of the contents from the Clipboard history at the cursor position.
 
-### Description
+## Description
 
-> Inserts one of the contents from the Clipboard history (recently copied items) at the cursor position. Repeatedly selecting this command will cycle through the items in the Clipboard history.
+Inserts one of the contents from the Clipboard history (recently copied items) at the cursor position. Repeatedly selecting this command will cycle through the items in the Clipboard history.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Paste**
-\> **Cycle Clipboard Ring**
+- [All Commands](../tools/all_commands):Edit \>Paste
+\>Cycle Clipboard Ring
 - Toolbar: ![](../../images/cycle_clipboard_ring.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PASTE\_HISTORY (4454)
+```
+EEID_PASTE_HISTORY (4454)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4454);
+```
+editor.ExecuteCommandByID(4454);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4454
+```
+editor.ExecuteCommandByID 4454
+```

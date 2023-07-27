@@ -8,16 +8,16 @@ Editor\_KeyboardProp( HWND hwnd, UINT nCmdID, LPCWSTR pszConfigName );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _nCmdID_
 
-> 给键盘属性上的初始选区指定命令 ID。
+给键盘属性上的初始选区指定命令 ID。
 
 _pszConfigName_
 
-> 指定 EmEditor 显示键盘属性的配置。
+指定 EmEditor 显示键盘属性的配置。
 
 ## 返回值
 
-> 如果用户在配置属性上选择 OK，返回值是 TRUE。如果用户选择 Cancel，返回值是 FALSE。
+如果用户在配置属性上选择 OK，返回值是 TRUE。如果用户选择 Cancel，返回值是 FALSE。

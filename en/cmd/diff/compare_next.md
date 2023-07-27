@@ -1,31 +1,36 @@
 # Next Change command
 
-### Summary
+## Summary
 
-> Jumps to the next change.
+Jumps to the next change.
 
-### Description
+## Description
 
-> Jumps to the next difference when in comparison mode.
+Jumps to the next difference when in comparison mode.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Next Change**
-- [All Commands](../tools/all_commands): **Compare** \> **Next Change**
+- Default Menu:Compare \>Next Change
+- [All Commands](../tools/all_commands):Compare \>Next Change
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: F7
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMPARE\_NEXT (4510)
+```
+EEID_COMPARE_NEXT (4510)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4510);
+```
+editor.ExecuteCommandByID(4510);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4510
+```
+editor.ExecuteCommandByID 4510
+```

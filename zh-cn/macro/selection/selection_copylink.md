@@ -2,13 +2,19 @@
 
 复制光标处的超链接到剪贴板上。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **CopyLink**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.CopyLink();
+```
 
-document.selection. **CopyLink**
+### \[VBScript\]
+
+```
+document.selection.CopyLink
+```
 
 ## 版本
 

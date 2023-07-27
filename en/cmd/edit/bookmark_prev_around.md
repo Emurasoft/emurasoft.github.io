@@ -1,31 +1,36 @@
 # Previous Bookmark in This Document (Around) command
 
-### Summary
+## Summary
 
-> Goes to the previous bookmark in this document, or goes to the last bookmark in this document if not found.
+Goes to the previous bookmark in this document, or goes to the last bookmark in this document if not found.
 
-### Description
+## Description
 
-> Goes to the previous bookmark in this document, or goes to the last bookmark in this document if not found.
+Goes to the previous bookmark in this document, or goes to the last bookmark in this document if not found.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **Previous Bookmark (Around)**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **Previous Bookmark (Around)**
+- Default Menu:Bookmarks \>Previous Bookmark (Around)
+- [All Commands](../tools/all_commands):Bookmarks \>Previous Bookmark (Around)
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_PREV\_AROUND (4000)
+```
+EEID_BOOKMARK_PREV_AROUND (4000)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4000);
+```
+editor.ExecuteCommandByID(4000);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4000
+```
+editor.ExecuteCommandByID 4000
+```

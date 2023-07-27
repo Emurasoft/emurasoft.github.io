@@ -1,14 +1,20 @@
 # Children Property (Window Object)
 
-Returns the [**Windows** collection](../windows/index) that represents child windows.
+Returns the [Windows collection](../windows/index) that represents child windows.
 
-#### \[JavaScript\]
+## 
 
-_wnds_ = wnd. **Children**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnds = wnd.Children;
+```
 
-_wnds_ = wnd. **Children**
+### \[VBScript\]
+
+```
+wnds = wnd.Children
+```
 
 ## Version
 

@@ -1,14 +1,14 @@
 # \[列を抽出\] コマンド
 
-### 概要
+## 概要
 
-> 現在のCSV文書から指定する列を抽出します。
+現在のCSV文書から指定する列を抽出します。
 
-### 説明
+## 説明
 
-> 現在のCSV文書から指定する列を抽出します。
+現在のCSV文書から指定する列を抽出します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[高度\] - \[抽出\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[高度\] - \[抽出\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_EXTRACT\_COLUMNS (3930)
+```
+EEID_EXTRACT_COLUMNS (3930)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3930);
+```
+editor.ExecuteCommandByID(3930);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3930
+```
+editor.ExecuteCommandByID 3930
+```

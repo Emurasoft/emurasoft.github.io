@@ -1,35 +1,40 @@
 # Page Up Extend command
 
-### Summary
+## Summary
 
-> Extends the selection up one page.
+Extends the selection up one page.
 
-### Description
+## Description
 
-> Extends the selection up one page. The cursor moves a half page
-> if the **Scroll**
-> **Half Page** check box is checked on the
-> [**Scroll** page](../../dlg/properties/scroll/index) of the Configuration Properties dialog box.
+Extends the selection up one page. The cursor moves a half page
+if theScroll
+Half Page check box is checked on the
+[Scroll page](../../dlg/properties/scroll/index) of the Configuration Properties dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Page Up Extend**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Page Up Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+PAGE UP
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_PAGEUP (4178)
+```
+EEID_SHIFT_PAGEUP (4178)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.PageUp(true,1);
+```
+document.selection.PageUp(true,1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.PageUp true,1
+```
+document.selection.PageUp true,1
+```

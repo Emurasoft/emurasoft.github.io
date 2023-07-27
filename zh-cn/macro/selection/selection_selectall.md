@@ -2,13 +2,19 @@
 
 选择整个文档。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectAll**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectAll();
+```
 
-document.selection. **SelectAll**
+### \[VBScript\]
+
+```
+document.selection.SelectAll
+```
 
 ## 版本
 

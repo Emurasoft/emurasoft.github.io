@@ -1,15 +1,15 @@
 # \[行カット\] コマンド
 
-### 概要
+## 概要
 
-> 選択行または現在行を切り取ってクリップボードに保存します。
+選択行または現在行を切り取ってクリップボードに保存します。
 
-### 説明
+## 説明
 
-> 選択行またはカーソル位置の 1 行 (論理行) を切り取って、その内容をクリップボードに保存します。この操作の後、別の場所にカーソルを移動して
-> [\[貼り付け\] コマンド](edit_paste) を実行することにより、切り取った 1 行移動することができます。
+選択行またはカーソル位置の 1 行 (論理行) を切り取って、その内容をクリップボードに保存します。この操作の後、別の場所にカーソルを移動して
+[\[貼り付け\] コマンド](edit_paste) を実行することにより、切り取った 1 行移動することができます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[高度な操作\] \- \[行カット\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[切り取り\] \- \[行カット\]
@@ -17,22 +17,23 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+L
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_EDIT\_CUT\_LINE (4193)
+```
+EEID_EDIT_CUT_LINE (4193)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.SelectLine()
->
->
-> document.selection.Cut();
+```
+document.selection.SelectLine()
+document.selection.Cut();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.SelectLine
->
->
-> document.selection.Cut
+```
+document.selection.SelectLine
+document.selection.Cut
+```

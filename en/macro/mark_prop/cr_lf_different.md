@@ -1,20 +1,24 @@
 # CrLfDifferent Property (MarkProp Object)
 
-Corresponds to the **Show**
-**CR and LF with Different Marks** check box in the
-[**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
+Corresponds to theShow
+CR and LF with Different Marks check box in the
+[Marks page](../../dlg/properties/marks/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **CrLfDifferent**;
+### \[JavaScript\]
 
-object. **CrLfDifferent** = _b_;
+```
+b = object.CrLfDifferent;
+object.CrLfDifferent = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **CrLfDifferent**
-
-object. **CrLfDifferent** = _b_
+```
+b = object.CrLfDifferent
+object.CrLfDifferent = b
+```
 
 ## Version
 

@@ -1,22 +1,24 @@
 # UsePrinterFont Property (FontProp Object)
 
-Corresponds to the **Include**
-**Default Printer Fonts in Lists Below** check box in the
-[**Customize Font** dialog box](../../dlg/properties/font/index).
+Corresponds to theInclude
+Default Printer Fonts in Lists Below check box in the
+[Customize Font dialog box](../../dlg/properties/font/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **UsePrinterFont**;
+### \[JavaScript\]
 
-object. **UsePrinterFont** = _b_;
+```
+b = object.UsePrinterFont;
+object.UsePrinterFont = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **UsePrinterFont**
-
-object. **UsePrinterFont** = _b_
+```
+b = object.UsePrinterFont
+object.UsePrinterFont = b
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 通過指定的相對數量捲動視窗。
 
-#### \[JavaScript\]
+## 
 
-**scrollBy**( _dx_, _dy_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+scrollBy( dx, dy);
+```
 
-**scrollBy** _dx_, _dy_
+### \[VBScript\]
+
+```
+scrollBy dx, dy
+```
 
 ## 參數
 

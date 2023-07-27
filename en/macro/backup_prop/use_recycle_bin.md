@@ -1,20 +1,24 @@
 # UseRecycleBin Property (BackupProp Object)
 
-Corresponds to the **Use**
-**Recycle Bin to Backup** check box in the
-[**Backup** page](../../dlg/properties/backup/index) of Configuration Properties.
+Corresponds to theUse
+Recycle Bin to Backup check box in the
+[Backup page](../../dlg/properties/backup/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **UseRecycleBin**;
+### \[JavaScript\]
 
-object. **UseRecycleBin** = _b_;
+```
+b = object.UseRecycleBin;
+object.UseRecycleBin = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **UseRecycleBin**
-
-object. **UseRecycleBin** = _b_
+```
+b = object.UseRecycleBin
+object.UseRecycleBin = b
+```
 
 ## Version
 

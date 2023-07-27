@@ -1,14 +1,14 @@
 # \[すべてのマーカーを削除する\] コマンド
 
-### 概要
+## 概要
 
-> すべてのマーカーを削除します。
+すべてのマーカーを削除します。
 
-### 説明
+## 説明
 
-> すべてのマーカーを削除します。
+すべてのマーカーを削除します。
 
-### 方法
+## 方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[マーカー\] \- \[すべて削除\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_MARKER\_DELETE\_ALL (4587)
+```
+EEID_MARKER_DELETE_ALL (4587)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4587);
+```
+editor.ExecuteCommandByID(4587);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4587
+```
+editor.ExecuteCommandByID 4587
+```

@@ -9,16 +9,16 @@ Editor\_SetCell( HWND hwnd, GET\_CELL\_INFO\* pGetCellInfo, LPCWSTR szString );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或方塊架的視窗控制代碼。
+指定 EmEditor 視圖或方塊架的視窗控制代碼。
 
 _pGetCellInfo_
 
-> 指針指向 [GET\_CELL\_INFO](../structure/get_cell_info) 結構。
+指針指向 [GET\_CELL\_INFO](../structure/get_cell_info) 結構。
 
 _szString_
 
-> 指定要設置的字串。
+指定要設置的字串。
 
 ## 返回值
 
-> 如果成功，返回值為零或正數值，如果失敗，返回負數值。
+如果成功，返回值為零或正數值，如果失敗，返回負數值。

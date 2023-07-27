@@ -2,23 +2,27 @@
 
 檢索或設置打開的檔案的當前編碼。
 
-#### \[JavaScript\]
+## 
 
-_nEncoding_ = document. **Encoding**;
+### \[JavaScript\]
 
-document. **Encoding** = _nEncoding_;
+```
+nEncoding = document.Encoding;
+document.Encoding = nEncoding;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nEncoding_ = document. **Encoding**
-
-document. **Encoding** = _nEncoding_
+```
+nEncoding = document.Encoding
+document.Encoding = nEncoding
+```
 
 ## 參數
 
 _nEncoding_
 
-從 **[編碼常數](../const/const_encoding)** 中選擇或指定任何用於 Windows 操作系統的代碼頁。
+從[編碼常數](../const/const_encoding) 中選擇或指定任何用於 Windows 操作系統的代碼頁。
 
 ## 版本
 

@@ -9,16 +9,16 @@ Editor\_CloseTemp( HWND hwnd, UINT nEditID );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nEditID_
 
-> Specifies the ID of the temporary text that you want to close.
+Specifies the ID of the temporary text that you want to close.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.
 
 ## Version
 
-> Supported on EmEditor Version 9.00 or later.
+Supported on EmEditor Version 9.00 or later.

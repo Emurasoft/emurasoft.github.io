@@ -1,32 +1,37 @@
 # Extract Columns command
 
-### Summary
+## Summary
 
-> Extracts specified columns from the current CSV document.
+Extracts specified columns from the current CSV document.
 
-### Description
+## Description
 
-> Extracts specified columns from the current CSV document. The [**Extract Columns** dialog box](../../dlg/extract_columns/index)
-> will be displayed upon executing this command, where you can set options.
+Extracts specified columns from the current CSV document. The [Extract Columns dialog box](../../dlg/extract_columns/index)
+will be displayed upon executing this command, where you can set options.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Advanced** \> **Extract Columns**
-- [All Commands](../tools/all_commands): **CSV** \> **Advanced** \> **Extract Columns**
+- Default Menu:CSV \>Advanced \>Extract Columns
+- [All Commands](../tools/all_commands):CSV \>Advanced \>Extract Columns
 - Toolbar: ![](../../images/extract_columns.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EXTRACT\_COLUMNS (3930)
+```
+EEID_EXTRACT_COLUMNS (3930)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3930);
+```
+editor.ExecuteCommandByID(3930);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3930
+```
+editor.ExecuteCommandByID 3930
+```

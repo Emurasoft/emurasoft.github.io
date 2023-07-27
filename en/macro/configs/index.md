@@ -1,35 +1,33 @@
 # Configs Collection
 
-Configs collection provides a collection of [**Config** objects](../config/index).
+Configs collection provides a collection of [Config objects](../config/index).
 
 ## Properties
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | Retrieves the number of configurations. |
-| **[Item](item)** | Retrieves the [**Config** object](../config/index) for the configuration of the specified index. |
+|[Count](count) | Retrieves the number of configurations. |
+|[Item](item) | Retrieves the [Config object](../config/index) for the configuration of the specified index. |
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 cfgs = new Enumerator( editor.Configs );
-
 for( ; !cfgs.atEnd(); cfgs.moveNext() ){
-
 cfg = cfgs.item();
-
 alert( cfg.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each cfg In editor.Configs
-
 alert cfg.Name
-
 Next
+```
 
 ## Version
 

@@ -9,12 +9,12 @@ Editor\_GetAttr( HWND hwnd, ATTR\_INFO\* pAI );
 
 _pAI_
 
-> 指针指向 [ATTR\_INFO](../structure/attr_info) 结构。
+指针指向 [ATTR\_INFO](../structure/attr_info) 结构。
 
 ## 返回值
 
-> 返回值是 TRUE 如果成功，或 FALSE 如果不成功。
+返回值是 TRUE 如果成功，或 FALSE 如果不成功。
 
 ## 支持版本
 
-> 支持 EmEditor 9.00 或之后的版本。
+支持 EmEditor 9.00 或之后的版本。

@@ -2,13 +2,19 @@
 
 選択を解除します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Collapse**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Collapse();
+```
 
-document.selection. **Collapse**
+### \[VBScript\]
+
+```
+document.selection.Collapse
+```
 
 ## バージョン
 

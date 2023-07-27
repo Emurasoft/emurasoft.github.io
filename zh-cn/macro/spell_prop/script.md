@@ -1,20 +1,22 @@
 # Script 属性 (SpellProp ����)
 
-与配置属性中 [**拼写检查** 页面](../../dlg/properties/spell/index) 上的 **脚本** 复选框相对应。
+与配置属性中 [拼写检查 页面](../../dlg/properties/spell/index) 上的脚本 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Script**;
+### \[JavaScript\]
 
-object. **Script** = _b_;
+```
+b = object.Script;
+object.Script = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Script**
-
-object. **Script** = _b_
+```
+b = object.Script
+object.Script = b
+```
 
 ## 版本
 

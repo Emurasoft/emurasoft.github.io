@@ -1,18 +1,22 @@
 # URL プロパティ (LinkProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[リンク\]** タブ](../../dlg/properties/link/index) の **\[URLをクリックするとそのURLを表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の\[URLをクリックするとそのURLを表示\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **URL**;
+### \[JavaScript\]
 
-object. **URL** = _b_;
+```
+b = object.URL;
+object.URL = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **URL**
-
-object. **URL** = _b_
+```
+b = object.URL
+object.URL = b
+```
 
 ## バージョン
 

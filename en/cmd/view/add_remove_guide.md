@@ -1,32 +1,37 @@
 # Add/Remove User-Defined Guide command
 
-### Summary
+## Summary
 
-> Add or remove user-defined guide at the cursor position (or at the pointed position on the ruler).
+Add or remove user-defined guide at the cursor position (or at the pointed position on the ruler).
 
-### Description
+## Description
 
-> Add or remove user-defined guide at the cursor position (or at the pointed position on the ruler).
+Add or remove user-defined guide at the cursor position (or at the pointed position on the ruler).
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Marks** \> **Add/Remove User-Defined Guide**
-- [All Commands](../tools/all_commands): **View** >
-**Marks > Add/Remove User-Defined Guide**
+- Default Menu:View \>Marks \>Add/Remove User-Defined Guide
+- [All Commands](../tools/all_commands):View >
+Marks > Add/Remove User-Defined Guide
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ADD\_REMOVE\_GUIDE (3862)
+```
+EEID_ADD_REMOVE_GUIDE (3862)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3862);
+```
+editor.ExecuteCommandByID(3862);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3862
+```
+editor.ExecuteCommandByID 3862
+```

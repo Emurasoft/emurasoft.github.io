@@ -2,19 +2,21 @@
 
 Retrieves the [HighlightList Collection](../highlight_list/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **List**;
+### \[JavaScript\]
 
-object. **List** = _b_;
+```
+b = object.List;
+object.List = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **List**
-
-object. **List** = _b_
+```
+b = object.List
+object.List = b
+```
 
 ## Version
 

@@ -1,14 +1,14 @@
 # \[元に戻す/やり直しの履歴をすべてクリア\] コマンド
 
-### 概要
+## 概要
 
-> 元に戻す/やり直しの履歴をすべてクリアします。
+元に戻す/やり直しの履歴をすべてクリアします。
 
-### 説明
+## 説明
 
-> 元に戻す/やり直しの履歴をすべてクリアします。
+元に戻す/やり直しの履歴をすべてクリアします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[元に戻す\] \- \[元に戻す/やり直しの履歴をすべてクリア\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CLEAR\_UNDO\_REDO\_HISTORY (4063)
+```
+EEID_CLEAR_UNDO_REDO_HISTORY (4063)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4063);
+```
+editor.ExecuteCommandByID(4063);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4063
+```
+editor.ExecuteCommandByID 4063
+```

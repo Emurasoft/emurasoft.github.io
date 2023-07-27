@@ -2,13 +2,19 @@
 
 カーソル位置を文書の最初に移動します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **StartOfDocument**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.StartOfDocument( [ bExtend ] );
+```
 
-document.selection. **StartOfDocument** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.StartOfDocument [ bExtend ]
+```
 
 ## 引数
 

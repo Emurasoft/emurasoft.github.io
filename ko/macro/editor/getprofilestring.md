@@ -2,13 +2,19 @@
 
 엠에디터 설정에 따라 레지스트리 또는 INI 파일로부터 지정된 항목의 문자열 값을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_str_ = editor. **GetProfileString**( _nKey_, _strConfig_, _strEntry_, _strDefault_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = editor.GetProfileString( nKey, strConfig, strEntry, strDefault );
+```
 
-_str_ = editor. **GetProfileString**( _nKey_, _strConfig_, _strEntry_, _strDefault_ )
+### \[VBScript\]
+
+```
+str = editor.GetProfileString( nKey, strConfig, strEntry, strDefault )
+```
 
 ## 매개 변수
 

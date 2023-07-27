@@ -1,18 +1,22 @@
 # SearchColors プロパティ (DisplayProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[表示\]** タブ](../../dlg/properties/display/index) の **\[検索色\]** テキスト ボックスに相当します。
+設定のプロパティの [\[表示\] タブ](../../dlg/properties/display/index) の\[検索色\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **SearchColors**;
+### \[JavaScript\]
 
-object. **SearchColors** = _n_;
+```
+n = object.SearchColors;
+object.SearchColors = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **SearchColors**
-
-object. **SearchColors** = _n_
+```
+n = object.SearchColors
+object.SearchColors = n
+```
 
 ## バージョン
 

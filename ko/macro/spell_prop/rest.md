@@ -1,20 +1,22 @@
 # Rest 속성 (SpellProp ��ü)
 
-구성 속성의 [**맞춤법** 탭](../../dlg/properties/spell/index) 의 **지정되지 않은 텍스트** 체크 박스에 해당합니다.
+구성 속성의 [맞춤법 탭](../../dlg/properties/spell/index) 의지정되지 않은 텍스트 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Rest**;
+### \[JavaScript\]
 
-object. **Rest** = _b_;
+```
+b = object.Rest;
+object.Rest = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Rest**
-
-object. **Rest** = _b_
+```
+b = object.Rest
+object.Rest = b
+```
 
 ## 버전
 

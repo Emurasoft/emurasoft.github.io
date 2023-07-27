@@ -1,18 +1,22 @@
 # URLCharactersNotEnd 속성 (LinkProp ��ü)
 
-구성 속성 [**링크** 탭](../../dlg/properties/link/index) 의 **끝에서 문자 허용 안됨** 텍스트 박스에 해당합니다.
+구성 속성 [링크 탭](../../dlg/properties/link/index) 의끝에서 문자 허용 안됨 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **URLCharactersNotEnd**;
+### \[JavaScript\]
 
-object. **URLCharactersNotEnd** = _s_;
+```
+s = object.URLCharactersNotEnd;
+object.URLCharactersNotEnd = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **URLCharactersNotEnd**
-
-object. **URLCharactersNotEnd** = _s_
+```
+s = object.URLCharactersNotEnd
+object.URLCharactersNotEnd = s
+```
 
 ## 버전
 

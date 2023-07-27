@@ -1,19 +1,23 @@
 # LineComment2 Property (HighlightProp Object)
 
-Corresponds to the **Comments**
-**group box - Line Comment** text box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to theComments
+group box - Line Comment text box in the [Highlight (2) page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **LineComment2**;
+### \[JavaScript\]
 
-object. **LineComment2** = _str_;
+```
+str = object.LineComment2;
+object.LineComment2 = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **LineComment2**
-
-object. **LineComment2** = _str_
+```
+str = object.LineComment2
+object.LineComment2 = str
+```
 
 ## Version
 

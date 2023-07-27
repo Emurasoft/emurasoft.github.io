@@ -2,13 +2,19 @@
 
 返回窗口的描述文字。
 
-#### \[JavaScript\]
+## 
 
-_str_ = wnd. **Caption**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = wnd.Caption;
+```
 
-_str_ = wnd. **Caption**
+### \[VBScript\]
+
+```
+str = wnd.Caption
+```
 
 ## 版本
 

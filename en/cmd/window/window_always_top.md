@@ -1,32 +1,37 @@
 # Always on Top command
 
-### Summary
+## Summary
 
-> Toggles always on top status.
+Toggles always on top status.
 
-### Description
+## Description
 
-> Toggles always on top status. When always on top is enabled, the EmEditor window will stay visible when focus is lost.
+Toggles always on top status. When always on top is enabled, the EmEditor window will stay visible when focus is lost.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Window** \> **Always on Top**
-- [All Commands](../tools/all_commands): **Window**
-\> **Always on Top** \> **Always on Top**
+- Default Menu:Window \>Always on Top
+- [All Commands](../tools/all_commands):Window
+\>Always on Top \>Always on Top
 - Toolbar: ![](../../images/windowalwaystop.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_ALWAYS\_TOP (4239)
+```
+EEID_WINDOW_ALWAYS_TOP (4239)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4239);
+```
+editor.ExecuteCommandByID(4239);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4239
+```
+editor.ExecuteCommandByID 4239
+```

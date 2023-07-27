@@ -8,16 +8,16 @@ Editor\_GetOutlineLevel( HWND hwnd, INT\_PTR nLogicalLine );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _nLogicalLine_
 
-> 指定邏輯行。
+指定邏輯行。
 
 ## 返回值
 
-> 返回值是指定邏輯行的大綱級別。如果發生錯誤，返回值是 -1。
+返回值是指定邏輯行的大綱級別。如果發生錯誤，返回值是 -1。
 
 ## 支持版本
 
-> 支持 EmEditor 6.00 或之後的版本。
+支持 EmEditor 6.00 或之後的版本。

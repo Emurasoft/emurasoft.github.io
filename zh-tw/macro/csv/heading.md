@@ -1,18 +1,22 @@
 # Heading 屬性 (Csv ��H)
 
-與在自訂對話方塊中 [**CSV 格式** 頁面](../../dlg/customize/csv/index) 上的 **欄標題** 文字方塊對應。
+與在自訂對話方塊中 [CSV 格式 頁面](../../dlg/customize/csv/index) 上的欄標題 文字方塊對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Heading**;
+### \[JavaScript\]
 
-object. **Heading** = _n_;
+```
+n = object.Heading;
+object.Heading = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Heading**
-
-object. **Heading** = _n_
+```
+n = object.Heading
+object.Heading = n
+```
 
 ## 版本
 

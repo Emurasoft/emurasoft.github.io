@@ -1,34 +1,39 @@
 # Customize Active String command
 
-### Summary
+## Summary
 
-> Opens the Active String page of the Customize dialog box.
+Opens the Active String page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the **Active String** page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays theActive String page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**Active String**
+- [All Commands](all_commands):Tools >
+Customize >
+Active String
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_ACTIVE\_STRING (9057)
+```
+EEID_CUSTOMIZE_ACTIVE_STRING (9057)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9057);
+```
+editor.ExecuteCommandByID(9057);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9057
+```
+editor.ExecuteCommandByID 9057
+```

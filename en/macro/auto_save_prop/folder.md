@@ -1,22 +1,24 @@
 # Folder Property (AutoSaveProp Object)
 
-Corresponds to the **Auto**
-**Save Folder** text box in the
-[**Auto Save** page](../../dlg/properties/autosave/index) of Configuration Properties.
+Corresponds to theAuto
+Save Folder text box in the
+[Auto Save page](../../dlg/properties/autosave/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_s_ =
-object. **Folder**;
+### \[JavaScript\]
 
-object. **Folder** = _s_;
+```
+s = object.Folder;
+object.Folder = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ =
-object. **Folder**
-
-object. **Folder** = _s_
+```
+s = object.Folder
+object.Folder = s
+```
 
 ## Version
 

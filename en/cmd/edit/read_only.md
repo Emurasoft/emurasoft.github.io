@@ -1,40 +1,41 @@
 # Read Only command
 
-### Summary
+## Summary
 
-> Toggles Read Only status for the current file.
+Toggles Read Only status for the current file.
 
-### Description
+## Description
 
-> Enables or disables the ability to save changes to the file.
+Enables or disables the ability to save changes to the file.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Read Only**
-- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
-\> **Read Only**
+- Default Menu:Edit \>Read Only
+- [All Commands](../tools/all_commands):Edit \>Advanced
+\>Read Only
 - Toolbar: None
-- Status Bar: Double-click on **READ**
+- Status Bar: Double-click onREAD
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_READ\_ONLY (4113)
+```
+EEID_READ_ONLY (4113)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.ReadOnly=true;
-
+```
+document.ReadOnly=true;
 or
+document.ReadOnly=false;
+```
 
-> document.ReadOnly=false;
+### \[VBScript\]
 
-#### \[VBScript\]
-
-> document.ReadOnly=true
-
+```
+document.ReadOnly=true
 or
-
-> document.ReadOnly=false
+document.ReadOnly=false
+```

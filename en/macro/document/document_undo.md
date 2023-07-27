@@ -2,13 +2,19 @@
 
 Undo the last action.
 
-#### \[JavaScript\]
+## 
 
-document. **Undo**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Undo();
+```
 
-document. **Undo**
+### \[VBScript\]
+
+```
+document.Undo
+```
 
 ## Version
 

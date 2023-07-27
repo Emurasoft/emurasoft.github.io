@@ -1,18 +1,22 @@
 # DetectCSV 속성 (FileProp ��ü)
 
-구성 속성 [**파일** 탭](../../dlg/properties/file/index) 의 **CSV 검색 (쉼표 구분)** 체크 박스에 해당합니다.
+구성 속성 [파일 탭](../../dlg/properties/file/index) 의CSV 검색 (쉼표 구분) 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectCSV**;
+### \[JavaScript\]
 
-object. **DetectCSV** = _b_;
+```
+b = object.DetectCSV;
+object.DetectCSV = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectCSV**
-
-object. **DetectCSV** = _b_
+```
+b = object.DetectCSV
+object.DetectCSV = b
+```
 
 ## 버전
 

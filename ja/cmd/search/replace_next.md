@@ -1,14 +1,14 @@
 # \[次を置換\] コマンド
 
-### 概要
+## 概要
 
-> 次を置換します。
+次を置換します。
 
-### 説明
+## 説明
 
-> 前回検索した文字列を再び同一条件で下の方向に置換します。
+前回検索した文字列を再び同一条件で下の方向に置換します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[検索\] \- \[次を置換\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[次を置換\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_REPLACE\_NEXT (4447)
+```
+EEID_REPLACE_NEXT (4447)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4447);
+```
+editor.ExecuteCommandByID(4447);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4447
+```
+editor.ExecuteCommandByID 4447
+```

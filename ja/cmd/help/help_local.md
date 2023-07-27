@@ -1,14 +1,14 @@
 # \[ローカル ヘルプ\] コマンド
 
-### 概要
+## 概要
 
-> ローカル ヘルプを表示します。
+ローカル ヘルプを表示します。
 
-### 説明
+## 説明
 
-> ローカル ヘルプを表示します。
+ローカル ヘルプを表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ヘルプ\] \- \[ローカル ヘルプ\]
 - [すべてのコマンド](../../glossary/allcommands): \[ヘルプ\] \- \[ローカル ヘルプ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_HELP\_LOCAL (3933)
+```
+EEID_HELP_LOCAL (3933)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3933);
+```
+editor.ExecuteCommandByID(3933);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3933
+```
+editor.ExecuteCommandByID 3933
+```

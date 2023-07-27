@@ -2,13 +2,19 @@
 
 CSV文書の正当性を確認してエラーを出力し、オプションにより区切り位置を調節します。
 
-#### \[JavaScript\]
+## 
 
-_nResults_ = document. **ValidateCsv**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nResults = document.ValidateCsv( nFlags );
+```
 
-_nResults_ = document. **ValidateCsv**( _nFlags_ )
+### \[VBScript\]
+
+```
+nResults = document.ValidateCsv( nFlags )
+```
 
 ## パラメータ
 
@@ -41,103 +47,62 @@ _nFlags_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nResults = document.ValidateCsv( eeValidateQuiet );
-
 if( nResults != 0 ) {
-
 if( nResults & eeCsvAbort ) {
-
 alert( "操作はユーザーにより中止されました。" );
-
 }
-
 if( nResults & eeCsvAdjusted ) {
-
 alert( "区切り位置は調節されました。" );
-
 }
-
 if( nResults & eeCsvInconsistentColumns ) {
-
 alert( "一致しない列数を検出しました。" );
-
 }
-
 if( nResults & eeCsvInvalidQuotes ) {
-
 alert( "不正な2重引用符を検出しました。" );
-
 }
-
 if( nResults & eeCsvNLEmbedded ) {
-
 alert( "改行コードがセルに埋め込まれました。" );
-
 }
-
 if( nResults & eeCsvNotCsv ) {
-
 alert( "CSVモードが選択されていません。" );
-
 }
-
 }
-
 else {
-
 alert( "エラーが見つかりませんでした。" );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 nResults = document.ValidateCsv( eeValidateQuiet )
-
 If nResults <> 0 Then
-
 If nResults And eeCsvAbort Then
-
 alert( "操作はユーザーにより中止されました。" )
-
 End If
-
 If nResults And eeCsvAdjusted Then
-
 alert( "区切り位置は調節されました。" )
-
 End If
-
 If nResults And eeCsvInconsistentColumns Then
-
 alert( "一致しない列数を検出しました。" )
-
 End If
-
 If nResults And eeCsvInvalidQuotes Then
-
 alert( "不正な2重引用符を検出しました。" )
-
 End If
-
 If nResults & eeCsvNLEmbedded Then
-
 alert( "改行コードがセルに埋め込まれました。" )
-
 End If
-
 If nResults & eeCsvNotCsv Then
-
 alert( "CSVモードが選択されていません。" )
-
 End If
-
 Else
-
 alert( "エラーが見つかりませんでした。" )
-
 End If
+```
 
 ## バージョン
 

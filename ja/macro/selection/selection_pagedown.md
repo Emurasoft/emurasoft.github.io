@@ -2,13 +2,19 @@
 
 1 ページ下へ移動します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **PageDown**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.PageDown( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **PageDown** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.PageDown [ bExtend [, nCount ] ]
+```
 
 ## 引数
 

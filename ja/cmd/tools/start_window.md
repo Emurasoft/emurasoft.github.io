@@ -1,14 +1,14 @@
 # \[スタート ウィンドウ\] コマンド
 
-### 概要
+## 概要
 
-> スタート ウィンドウを表示します。
+スタート ウィンドウを表示します。
 
-### 説明
+## 説明
 
-> スタート ウィンドウを表示します。
+スタート ウィンドウを表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[スタート ウィンドウ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_START\_WINDOW (3948)
+```
+EEID_START_WINDOW (3948)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3948);
+```
+editor.ExecuteCommandByID(3948);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3948
+```
+editor.ExecuteCommandByID 3948
+```

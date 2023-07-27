@@ -1,14 +1,14 @@
 # \[次の次の文字列を選択に追加\] コマンド
 
-### 概要
+## 概要
 
-> 指定するテキストの次の次の文字列を選択に追加します。
+指定するテキストの次の次の文字列を選択に追加します。
 
-### 説明
+## 説明
 
-> 指定するテキストの次の次の文字列を選択に追加します。
+指定するテキストの次の次の文字列を選択に追加します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[検索\] \- \[次の次の文字列を選択に追加\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[次の次の文字列を選択に追加\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_ADD\_NEXT2\_OCCURRENCE (4605)
+```
+EEID_ADD_NEXT2_OCCURRENCE (4605)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4605);
+```
+editor.ExecuteCommandByID(4605);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4605
+```
+editor.ExecuteCommandByID 4605
+```

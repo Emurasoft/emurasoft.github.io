@@ -2,13 +2,19 @@
 
 Copies the complete path and the file name of the document to the Clipboard.
 
-#### \[JavaScript\]
+## 
 
-document. **CopyFullName**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.CopyFullName();
+```
 
-document. **CopyFullName**
+### \[VBScript\]
+
+```
+document.CopyFullName
+```
 
 ## Version
 

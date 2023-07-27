@@ -2,13 +2,19 @@
 
 인쇄 대화 상자를 표시합니다.
 
-#### \[JavaScript\]
+## 
 
-**print**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+print();
+```
 
-**print**
+### \[VBScript\]
+
+```
+print
+```
 
 ## 버전
 

@@ -1,20 +1,22 @@
 # SaveToSameFolder 属性 (BackupProp ����)
 
-与配置属性中 [**备份** 页面](../../dlg/properties/backup/index) 上的 **保存备份文件到源文件所在文件夹** 复选框对应。
+与配置属性中 [备份 页面](../../dlg/properties/backup/index) 上的保存备份文件到源文件所在文件夹 复选框对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SaveToSameFolder**;
+### \[JavaScript\]
 
-object. **SaveToSameFolder** = _b_;
+```
+b = object.SaveToSameFolder;
+object.SaveToSameFolder = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SaveToSameFolder**
-
-object. **SaveToSameFolder** = _b_
+```
+b = object.SaveToSameFolder
+object.SaveToSameFolder = b
+```
 
 ## 版本
 

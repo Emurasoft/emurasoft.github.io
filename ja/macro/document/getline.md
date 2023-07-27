@@ -2,13 +2,19 @@
 
 指定する行のテキストを取得します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = document. **GetLine**( _yLine_ \[, _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = document.GetLine( yLine [, nFlags ] );
+```
 
-_str_ = document. **GetLine**( _yLine_ \[, _nFlags_ \] )
+### \[VBScript\]
+
+```
+str = document.GetLine( yLine [, nFlags ] )
+```
 
 ## パラメータ
 

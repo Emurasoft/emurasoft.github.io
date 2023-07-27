@@ -1,31 +1,36 @@
 # Align Right command
 
-### Summary
+## Summary
 
-> Align text in the selected columns or current column right.
+Align text in the selected columns or current column right.
 
-### Description
+## Description
 
-> Align text in the selected columns or current column right.
+Align text in the selected columns or current column right.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Columns** \> **Align Right**
-- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Align Right**
+- Default Menu:CSV \>Columns \>Align Right
+- [All Commands](../tools/all_commands):CSV \>Columns \>Align Right
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ALIGN\_RIGHT (23234)
+```
+EEID_ALIGN_RIGHT (23234)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(23234);
+```
+editor.ExecuteCommandByID(23234);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 23234
+```
+editor.ExecuteCommandByID 23234
+```

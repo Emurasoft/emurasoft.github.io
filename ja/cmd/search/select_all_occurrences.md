@@ -1,14 +1,14 @@
 # \[すべての文字列を選択\] コマンド
 
-### 概要
+## 概要
 
-> 指定するテキストをすべて選択します。
+指定するテキストをすべて選択します。
 
-### 説明
+## 説明
 
-> 現在の文書から、指定するテキストをすべて選択します。
+現在の文書から、指定するテキストをすべて選択します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[検索\] \- \[すべての文字列を選択\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[すべての文字列を選択\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: CTRL+Shift+A
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SELECT\_ALL\_OCCURRENCES (4603)
+```
+EEID_SELECT_ALL_OCCURRENCES (4603)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4603);
+```
+editor.ExecuteCommandByID(4603);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4603
+```
+editor.ExecuteCommandByID 4603
+```

@@ -1,20 +1,22 @@
 # PromptNull 속성 (FileProp ��ü)
 
-구성 속성 [**파일** 탭](../../dlg/properties/file/index) 의 **NULL 문자 발견시 확인** 체크 박스에 해당합니다.
+구성 속성 [파일 탭](../../dlg/properties/file/index) 의NULL 문자 발견시 확인 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptNull**;
+### \[JavaScript\]
 
-object. **PromptNull** = _b_;
+```
+b = object.PromptNull;
+object.PromptNull = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptNull**
-
-object. **PromptNull** = _b_
+```
+b = object.PromptNull
+object.PromptNull = b
+```
 
 ## 버전
 

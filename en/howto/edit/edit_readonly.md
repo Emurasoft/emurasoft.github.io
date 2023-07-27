@@ -1,9 +1,9 @@
 # To Set Read-Only Mode
 
-Select **Read Only** under the **Edit** menu.
+SelectRead Only under theEdit menu.
 
-### Notes
+## Notes
 
-- If the document has been modified, the warning message **Are you sure to**
-**want to abandon the change and continue?** will appear. Selecting **Yes**
+- If the document has been modified, the warning messageAre you sure to
+want to abandon the change and continue? will appear. SelectingYes
 will abandon the changes.

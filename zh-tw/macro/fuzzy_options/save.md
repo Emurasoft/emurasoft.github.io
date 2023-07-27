@@ -2,13 +2,19 @@
 
 將模糊選項儲存到應用數據資料夾。
 
-#### \[JavaScript\]
+## 
 
-obj. **Save**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj.Save();
+```
 
-obj. **Save**
+### \[VBScript\]
+
+```
+obj.Save
+```
 
 ## 版本
 

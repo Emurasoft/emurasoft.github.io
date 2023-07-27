@@ -2,13 +2,19 @@
 
 Retrieves the PrintList object.
 
-#### \[JavaScript\]
+## 
 
-_list_ = object. **PrintList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.PrintList;
+```
 
-_list_ = object. **PrintList**
+### \[VBScript\]
+
+```
+list = object.PrintList
+```
 
 ## Version
 

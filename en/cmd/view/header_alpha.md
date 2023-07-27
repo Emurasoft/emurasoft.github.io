@@ -1,31 +1,36 @@
 # Use Alphabetical Characters for Column Header command
 
-### Summary
+## Summary
 
-> Uses alphabetical characters for the column header.
+Uses alphabetical characters for the column header.
 
-### Description
+## Description
 
-> Uses alphabetical characters for the column header. This command is equivalent to the status where the **Use Alphabetical Characters for Column Header** check box is set in the **CSV** page of the **Customize** dialog box.
+Uses alphabetical characters for the column header. This command is equivalent to the status where theUse Alphabetical Characters for Column Header check box is set in theCSV page of theCustomize dialog box.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Column Header Type** \> **A, B, C, ...**
-- [All Commands](../tools/all_commands): **CSV** \> **Column Header Type** \> **A, B, C, ...**
+- Default Menu:CSV \>Column Header Type \>A, B, C, ...
+- [All Commands](../tools/all_commands):CSV \>Column Header Type \>A, B, C, ...
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_HEADER\_ALPHA (3987)
+```
+EEID_HEADER_ALPHA (3987)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3987);
+```
+editor.ExecuteCommandByID(3987);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3987
+```
+editor.ExecuteCommandByID 3987
+```

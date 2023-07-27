@@ -1,20 +1,22 @@
 # QuoteDouble プロパティ (HighlightProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の \[引用符に囲まれた文字列\] グループ \- \[2重引用符\] チェック ボックスに相当します。
+設定のプロパティの [\[強調(2)\] タブ](../../dlg/properties/highlight2/index) の \[引用符に囲まれた文字列\] グループ \- \[2重引用符\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **QuoteDouble**;
+### \[JavaScript\]
 
-object. **QuoteDouble** = _b_;
+```
+b = object.QuoteDouble;
+object.QuoteDouble = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **QuoteDouble**
-
-object. **QuoteDouble** = _b_
+```
+b = object.QuoteDouble
+object.QuoteDouble = b
+```
 
 ## バージョン
 

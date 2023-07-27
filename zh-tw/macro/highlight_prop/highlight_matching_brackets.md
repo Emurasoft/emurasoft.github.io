@@ -1,20 +1,22 @@
 # HighlightMatchingBrackets 屬性 (HighlightProp ��H)
 
-與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **亮顯配對括號** 核取方塊相對應。
+與組態屬性中 [亮顯 (2) 頁面](../../dlg/properties/highlight2/index) 上的亮顯配對括號 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HighlightMatchingBrackets**;
+### \[JavaScript\]
 
-object. **HighlightMatchingBrackets** = _b_;
+```
+b = object.HighlightMatchingBrackets;
+object.HighlightMatchingBrackets = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HighlightMatchingBrackets**
-
-object. **HighlightMatchingBrackets** = _b_
+```
+b = object.HighlightMatchingBrackets
+object.HighlightMatchingBrackets = b
+```
 
 ## 版本
 

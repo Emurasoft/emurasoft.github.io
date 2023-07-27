@@ -1,14 +1,14 @@
 # \[行の最後を選択\] コマンド
 
-### 概要
+## 概要
 
-> 現在選択されている範囲の行の最後のみを選択します。
+現在選択されている範囲の行の最後のみを選択します。
 
-### 説明
+## 説明
 
-> 現在選択されている範囲の行の最後のみを選択します。
+現在選択されている範囲の行の最後のみを選択します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[選択モード\] \- \[行の最後を選択\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択モード\] \-
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SELECT\_END\_LINES (3849)
+```
+EEID_SELECT_END_LINES (3849)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3849);
+```
+editor.ExecuteCommandByID(3849);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3849
+```
+editor.ExecuteCommandByID 3849
+```

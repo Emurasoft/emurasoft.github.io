@@ -2,13 +2,19 @@
 
 팝업 메뉴를 표시합니다.
 
-#### \[JavaScript\]
+## 
 
-popupmenu. **Track**( _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu.Track( flags );
+```
 
-popupmenu. **Track** _flags_
+### \[VBScript\]
+
+```
+popupmenu.Track flags
+```
 
 ## 매개 변수
 

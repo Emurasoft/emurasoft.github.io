@@ -1,14 +1,14 @@
 # \[自動インデント\] コマンド
 
-### 概要
+## 概要
 
-> 自動インデントを有効にします。
+自動インデントを有効にします。
 
-### 説明
+## 説明
 
-> 自動インデントを有効にします。
+自動インデントを有効にします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[タブ/インデント\] \- \[自動インデント\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[タブ/インデント\] \- \[自動インデント\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_TOGGLE\_AUTO\_INDENT (4540)
+```
+EEID_TOGGLE_AUTO_INDENT (4540)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4540);
+```
+editor.ExecuteCommandByID(4540);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4540
+```
+editor.ExecuteCommandByID 4540
+```

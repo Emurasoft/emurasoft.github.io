@@ -1,31 +1,36 @@
 # 對注釋進行拼字檢查命令
 
-### 摘要
+## 摘要
 
-> 對注釋進行拼字檢查。
+對注釋進行拼字檢查。
 
-### 說明
+## 說明
 
-> 對注釋進行拼字檢查。錯誤拼字的字詞會以紅色下劃線顯示。
+對注釋進行拼字檢查。錯誤拼字的字詞會以紅色下劃線顯示。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **編輯** \> **拼字檢查** \> **檢查拼字于** \> **注釋**
-- [全部命令](../tools/all_commands): **編輯** \> **拼字檢查** \> **檢查拼字于** \> **注釋**
+- 預設功能表:編輯 \>拼字檢查 \>檢查拼字于 \>注釋
+- [全部命令](../tools/all_commands):編輯 \>拼字檢查 \>檢查拼字于 \>注釋
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_SPELL\_COMMENTS (4516)
+```
+EEID_SPELL_COMMENTS (4516)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4516);
+```
+editor.ExecuteCommandByID(4516);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4516
+```
+editor.ExecuteCommandByID 4516
+```

@@ -2,13 +2,19 @@
 
 クラス名またはウィンドウ タイトルでトップ レベルの [Window オブジェクト](../window/index) を検索します。
 
-#### \[JavaScript\]
+## 
 
-wnd = shell. **FindWindow**( _strClass_, _strCaption_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd = shell.FindWindow( strClass, strCaption );
+```
 
-wnd = shell. **FindWindow**( _strClass_, _strCaption_ )
+### \[VBScript\]
+
+```
+wnd = shell.FindWindow( strClass, strCaption )
+```
 
 ## パラメータ
 
@@ -22,17 +28,19 @@ _strCaption_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnd = shell.FindWindow( "", "Calculator" );
-
 wnd.SetForeground();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd = shell.FindWindow( "", "Calculator" )
-
 wnd.SetForeground
+```
 
 ## バージョン
 

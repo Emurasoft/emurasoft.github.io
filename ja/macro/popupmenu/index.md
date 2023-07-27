@@ -12,57 +12,39 @@
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 menu = CreatePopupMenu();
-
 submenu = CreatePopupMenu();
-
 menu.Add( "menu 1", 1 );
-
 menu.Add( "menu 2", 2, eeMenuGrayed );
-
 menu.Add( "", 0, eeMenuSeparator );
-
 submenu.Add( "menu 11", 11 );
-
 submenu.Add( "menu 12", 12 );
-
 menu.AddPopup( "more", submenu );
-
 result = menu.Track( 0 );
-
 if( result != 0 ) {
-
 alert( menu.GetText( result ) );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set menu = CreatePopupMenu
-
 Set submenu = CreatePopupMenu
-
 menu.Add "menu 1", 1
-
 menu.Add "menu 2", 2, eeMenuGrayed
-
 menu.Add "", 0, eeMenuSeparator
-
 submenu.Add "menu 11", 11
-
 submenu.Add "menu 12", 12
-
 menu.AddPopup "more", submenu
-
 result = menu.Track( 0 )
-
 If result <> 0 Then
-
 alert menu.GetText( result )
-
 End If
+```
 
 ## バージョン
 

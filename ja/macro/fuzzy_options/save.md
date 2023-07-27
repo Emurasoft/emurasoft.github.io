@@ -2,13 +2,19 @@
 
 あいまい一致のオプションをアプリのデータ フォルダに保存します。
 
-#### \[JavaScript\]
+## 
 
-obj. **Save**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj.Save();
+```
 
-obj. **Save**
+### \[VBScript\]
+
+```
+obj.Save
+```
 
 ## バージョン
 

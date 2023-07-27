@@ -2,13 +2,19 @@
 
 為當前打開的文檔，檢索 [Documents 集合](../documents/index)。
 
-#### \[JavaScript\]
+## 
 
-_docs_ = editor. **Documents**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+docs = editor.Documents;
+```
 
-Set _docs_ = editor. **Documents**
+### \[VBScript\]
+
+```
+Set docs = editor.Documents
+```
 
 ## 版本
 

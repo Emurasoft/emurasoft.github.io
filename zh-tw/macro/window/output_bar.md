@@ -2,13 +2,19 @@
 
 返回 [OutputBar 對象](../output_bar/index)。
 
-#### \[JavaScript\]
+## 
 
-_outbar_ = **OutputBar**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+outbar =OutputBar;
+```
 
-Set _outbar_ = **OutputBar**
+### \[VBScript\]
+
+```
+Set outbar =OutputBar
+```
 
 ## 版本
 

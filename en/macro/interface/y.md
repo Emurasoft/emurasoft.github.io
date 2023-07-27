@@ -2,13 +2,19 @@
 
 Returns the vertical position of the cursor passed by a supported plug-in.
 
-#### \[JavaScript\]
+## 
 
-_y_ = Interface. **y**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+y = Interface.y;
+```
 
-_y_ = Interface. **y**
+### \[VBScript\]
+
+```
+y = Interface.y
+```
 
 ## Version
 

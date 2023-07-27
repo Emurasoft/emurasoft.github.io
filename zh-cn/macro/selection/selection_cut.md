@@ -2,13 +2,19 @@
 
 复制选取的文本到剪贴板上并在原先的位置处删除该文本。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Cut**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Cut();
+```
 
-document.selection. **Cut**
+### \[VBScript\]
+
+```
+document.selection.Cut
+```
 
 ## 版本
 

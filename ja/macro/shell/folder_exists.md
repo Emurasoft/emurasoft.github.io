@@ -2,13 +2,19 @@
 
 指定するフォルダが存在すれば true を、存在しなければ false を返します。
 
-#### \[JavaScript\]
+## 
 
-shell. **FolderExists**( _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.FolderExists( strFolder );
+```
 
-shell. **FolderExists** _strFolder_
+### \[VBScript\]
+
+```
+shell.FolderExists strFolder
+```
 
 ## パラメータ
 
@@ -18,13 +24,17 @@ _strFolder_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 b = shell.FolderExists( "C:\\\Test\\\folder" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 b = shell.FolderExists( "C:\\Test\\folder" )
+```
 
 ## バージョン
 

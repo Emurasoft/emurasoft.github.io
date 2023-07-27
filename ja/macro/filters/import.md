@@ -2,13 +2,19 @@
 
 TSV ファイルをコレクションにインポートします。
 
-#### \[JavaScript\]
+## 
 
-list. **Import**( _strFileName_\[, _bAppend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Import( strFileName[, bAppend ] );
+```
 
-list. **Import** _strFileName_\[, _bAppend_ \]
+### \[VBScript\]
+
+```
+list.Import strFileName[, bAppend ]
+```
 
 ## パラメータ
 
@@ -22,21 +28,21 @@ _bAppend_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 var filters = document.filters;
-
 filters.Import( "E:\\\Test\\\filter.tsv" );
-
 document.filters = filters;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set filters = document.filters
-
 filters.Import "E:\\Test\\filter.tsv"
-
 document.filters = filters
+```
 
 ## バージョン
 

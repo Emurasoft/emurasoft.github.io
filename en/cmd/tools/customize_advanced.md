@@ -1,34 +1,39 @@
 # Customize Advanced command
 
-### Summary
+## Summary
 
-> Opens the Advanced page of the Customize dialog box.
+Opens the Advanced page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the Advanced page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define advanced application settings.
+Displays the Advanced page of the [Customize dialog box](../../dlg/customize/index),
+where you can define advanced application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**Advanced**
+- [All Commands](all_commands):Tools >
+Customize >
+Advanced
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_ADVANCED (9046)
+```
+EEID_CUSTOMIZE_ADVANCED (9046)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(9046);
+```
+editor.ExecuteCommandByID(9046);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 9046
+```
+editor.ExecuteCommandByID 9046
+```

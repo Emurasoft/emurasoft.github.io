@@ -9,16 +9,16 @@ Editor\_InsertStringA( HWND hwnd, LPCSTR szString, bool bKeepDestReturnType = fa
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _szString_
 
-> Specifies the string to be inserted.
+Specifies the string to be inserted.
 
 _bKeepDestReturnType_
 
-> Specifies that the destination return type (CR only, LF only or both CR and LF) should be kept. When this parameter is omitted, EmEditor keeps the return type specified in the szString parameter.
+Specifies that the destination return type (CR only, LF only or both CR and LF) should be kept. When this parameter is omitted, EmEditor keeps the return type specified in the szString parameter.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

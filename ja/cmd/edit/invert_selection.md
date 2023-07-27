@@ -1,14 +1,14 @@
 # \[選択範囲を反転\] コマンド
 
-### 概要
+## 概要
 
-> 選択範囲を反転します。
+選択範囲を反転します。
 
-### 説明
+## 説明
 
-> 選択範囲を反転します。
+選択範囲を反転します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[高度\] \- \[選択範囲を反転\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択範囲の変更\] \- \[選択範囲を反転\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_INVERT\_SELECTION (4065)
+```
+EEID_INVERT_SELECTION (4065)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4065);
+```
+editor.ExecuteCommandByID(4065);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4065
+```
+editor.ExecuteCommandByID 4065
+```

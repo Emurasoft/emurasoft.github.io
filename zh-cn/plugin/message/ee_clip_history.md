@@ -13,11 +13,11 @@ lParam = (LPARAM) (CLIP\_INFO) pCI;
 
 _pTI_
 
-> 指针指向 [CLIP\_INFO](../structure/clip_info) 结构。
+指针指向 [CLIP\_INFO](../structure/clip_info) 结构。
 
 ## 返回值
 
-> 如果消息没有成功发送，那么返回值是 -1。如果消息发送成功，那么返回值取决于 CLIP\_INFO 结构的 nAction 参数所指定的值。如果 nAction 参数是 CI\_GET\_CLIP，那么返回值则是以字节数表示的 pszBuf 缓冲区大小，这个缓冲区被用来需要包括终止空字符的文本。如果 nAction 参数是 CI\_INSERT\_CLIP，那返回值是剪贴板记录中新文本被插入的位置。如果 nAction 参数是 CI\_REMOVE\_CLIP，那返回值便是剪贴板记录中文本被删除的位置。如果 nAction 参数是 CI\_GET\_CLIP\_POS，那返回值是剪贴板记录中的当前位置。如果 nAction 参数是 CI\_SET\_CLIP\_POS，那返回值是剪贴板记录中的旧位置。如果 nAction 参数是 CI\_ROTATE\_CLIP，那返回值是 1。
+如果消息没有成功发送，那么返回值是 -1。如果消息发送成功，那么返回值取决于 CLIP\_INFO 结构的 nAction 参数所指定的值。如果 nAction 参数是 CI\_GET\_CLIP，那么返回值则是以字节数表示的 pszBuf 缓冲区大小，这个缓冲区被用来需要包括终止空字符的文本。如果 nAction 参数是 CI\_INSERT\_CLIP，那返回值是剪贴板记录中新文本被插入的位置。如果 nAction 参数是 CI\_REMOVE\_CLIP，那返回值便是剪贴板记录中文本被删除的位置。如果 nAction 参数是 CI\_GET\_CLIP\_POS，那返回值是剪贴板记录中的当前位置。如果 nAction 参数是 CI\_SET\_CLIP\_POS，那返回值是剪贴板记录中的旧位置。如果 nAction 参数是 CI\_ROTATE\_CLIP，那返回值是 1。
 
 ## 支持版本
 

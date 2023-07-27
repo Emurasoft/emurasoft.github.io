@@ -2,13 +2,19 @@
 
 [FileProp オブジェクト](../file_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **File**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.File;
+```
 
-Set _obj_ = object. **File**
+### \[VBScript\]
+
+```
+Set obj = object.File
+```
 
 ## バージョン
 

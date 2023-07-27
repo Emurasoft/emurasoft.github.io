@@ -1,33 +1,38 @@
 # Cell Toolbar command
 
-### Summary
+## Summary
 
-> Shows or hides the cell toolbar.
+Shows or hides the cell toolbar.
 
-### Description
+## Description
 
-> Shows or hides the cell toolbar. The cell toolbar allows you to edit the selected cell(s) in a CSV document.
+Shows or hides the cell toolbar. The cell toolbar allows you to edit the selected cell(s) in a CSV document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **Cell Toolbar**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Cell Toolbar**
+- Default Menu:View >
+Toolbars \>Cell Toolbar
+- [All Commands](../tools/all_commands):View >
+Toolbars \>Cell Toolbar
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHOW\_CELL\_BAR (3967)
+```
+EEID_SHOW_CELL_BAR (3967)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3967);
+```
+editor.ExecuteCommandByID(3967);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3967
+```
+editor.ExecuteCommandByID 3967
+```

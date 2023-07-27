@@ -2,17 +2,21 @@
 
 最大編集距離を設定または取得します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = obj. **MaxEditDistance**;
+### \[JavaScript\]
 
-obj. **MaxEditDistance** = _n_;
+```
+n = obj.MaxEditDistance;
+obj.MaxEditDistance = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = obj. **MaxEditDistance**;
-
-obj. **MaxEditDistance** = _n_;
+```
+n = obj.MaxEditDistance;
+obj.MaxEditDistance = n;
+```
 
 ## バージョン
 

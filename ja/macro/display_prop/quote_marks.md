@@ -1,18 +1,22 @@
 # QuoteMarks プロパティ (DisplayProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[表示\]** タブ](../../dlg/properties/display/index) の **\[引用マーク\]** テキスト ボックスに相当します。
+設定のプロパティの [\[表示\] タブ](../../dlg/properties/display/index) の\[引用マーク\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **QuoteMarks**;
+### \[JavaScript\]
 
-object. **QuoteMarks** = _s_;
+```
+s = object.QuoteMarks;
+object.QuoteMarks = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **QuoteMarks**
-
-object. **QuoteMarks** = _s_
+```
+s = object.QuoteMarks
+object.QuoteMarks = s
+```
 
 ## バージョン
 

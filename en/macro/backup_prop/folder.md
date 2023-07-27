@@ -1,19 +1,23 @@
 # Folder Property (BackupProp Object)
 
-Corresponds to the **Backup Folder** text box in the
-[**Backup** page](../../dlg/properties/backup/index) of Configuration Properties.
+Corresponds to theBackup Folder text box in the
+[Backup page](../../dlg/properties/backup/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Folder**;
+### \[JavaScript\]
 
-object. **Folder** = _s_;
+```
+s = object.Folder;
+object.Folder = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Folder**
-
-object. **Folder** = _s_
+```
+s = object.Folder
+object.Folder = s
+```
 
 ## Version
 

@@ -1,20 +1,22 @@
 # UsePrinterFont 속성 (FontProp ��ü)
 
-[**글꼴 사용자 지정** 대화 상자의](../../dlg/properties/font/index) 아래 목록에 기본 프린터 글꼴 포함 체크 박스에 해당합니다.
+[글꼴 사용자 지정 대화 상자의](../../dlg/properties/font/index) 아래 목록에 기본 프린터 글꼴 포함 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **UsePrinterFont**;
+### \[JavaScript\]
 
-object. **UsePrinterFont** = _b_;
+```
+b = object.UsePrinterFont;
+object.UsePrinterFont = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **UsePrinterFont**
-
-object. **UsePrinterFont** = _b_
+```
+b = object.UsePrinterFont
+object.UsePrinterFont = b
+```
 
 ## 버전
 

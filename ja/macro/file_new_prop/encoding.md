@@ -1,19 +1,23 @@
 # Encoding プロパティ (FileNewProp �I�u�W�F�N�g)
 
-[**\[新規作成時の詳細\]** のダイアログ ボックス](../../dlg/properties/file/new_details/index) の
-**\[エンコード\]** ドロップダウン リスト ボックスに相当します。
+[\[新規作成時の詳細\] のダイアログ ボックス](../../dlg/properties/file/new_details/index) の
+\[エンコード\] ドロップダウン リスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Encoding**;
+### \[JavaScript\]
 
-object. **Encoding** = _n_;
+```
+n = object.Encoding;
+object.Encoding = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Encoding**
-
-object. **Encoding** = _n_
+```
+n = object.Encoding
+object.Encoding = n
+```
 
 ## バージョン
 

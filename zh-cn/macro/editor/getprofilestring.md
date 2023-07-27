@@ -2,13 +2,19 @@
 
 按 EmEidtor 的设定，从注册表或一个 INI 文件上检索指定项目的字符串值。
 
-#### \[JavaScript\]
+## 
 
-_str_ = editor. **GetProfileString**( _nKey_, _strConfig_, _strEntry_, _strDefault_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = editor.GetProfileString( nKey, strConfig, strEntry, strDefault );
+```
 
-_str_ = editor. **GetProfileString**( _nKey_, _strConfig_, _strEntry_, _strDefault_ )
+### \[VBScript\]
+
+```
+str = editor.GetProfileString( nKey, strConfig, strEntry, strDefault )
+```
 
 ## 参数
 

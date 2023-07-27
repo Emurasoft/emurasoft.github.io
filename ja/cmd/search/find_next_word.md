@@ -1,14 +1,14 @@
 # \[次の文字列を検索\] コマンド
 
-### 概要
+## 概要
 
-> 次のカーソル位置の文字列を検索します。
+次のカーソル位置の文字列を検索します。
 
-### 説明
+## 説明
 
-> 文字列が選択されている場合、その文字列を下方向に検索します。文字列が選択されていない場合、カーソル位置の単語を下方向に検索します。
+文字列が選択されている場合、その文字列を下方向に検索します。文字列が選択されていない場合、カーソル位置の単語を下方向に検索します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[検索\] \- \[次の文字列を検索\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[次の文字列を検索\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+F3
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FIND\_NEXT\_WORD (4204)
+```
+EEID_FIND_NEXT_WORD (4204)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.FindRepeat(eeFindRepeatNext \| eeFindRepeatWord);
+```
+document.selection.FindRepeat(eeFindRepeatNext \| eeFindRepeatWord);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.FindRepeat eeFindRepeatNext Or eeFindRepeatWord
+```
+document.selection.FindRepeat eeFindRepeatNext Or eeFindRepeatWord
+```

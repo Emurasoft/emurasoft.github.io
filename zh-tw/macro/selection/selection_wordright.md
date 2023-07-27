@@ -2,13 +2,19 @@
 
 把游標向右移指定的單字數。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **WordRight**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.WordRight( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **WordRight** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.WordRight [ bExtend [, nCount ] ]
+```
 
 ## 參數
 
@@ -19,7 +25,7 @@ _bExtend_
 _nCount_
 
 可選項。指定向右移的單字數。預設值是 1。如果指定的是負數，該方法與
-[**WordLeft** \
+[WordLeft \
 方法](selection_wordleft) 的行為相同。如果指定值為 0，該方法的行為與指定值為 1 時的行為相同。
 
 ## 版本

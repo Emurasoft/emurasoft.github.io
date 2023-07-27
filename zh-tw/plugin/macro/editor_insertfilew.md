@@ -10,16 +10,16 @@ szFileName );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _pLoadFileInfo_
 
-> 指標至一個 [LOAD\_FILE\_INFO](../structure/load_file_info) 結構。如果該參數為空，Editor\_InsertFileW 會通過屬性中預設的方式打開一個檔案。
+指標至一個 [LOAD\_FILE\_INFO](../structure/load_file_info) 結構。如果該參數為空，Editor\_InsertFileW 會通過屬性中預設的方式打開一個檔案。
 
 _szFileName_
 
-> 指定一個完整路徑的檔案名稱。如果指定了一個不存在的檔案，Editor\_InsertFileW 會失敗。
+指定一個完整路徑的檔案名稱。如果指定了一個不存在的檔案，Editor\_InsertFileW 會失敗。
 
 ## 返回值
 
-> 如果命令成功，返回值就不是零。如果命令不成功，返回值是零。
+如果命令成功，返回值就不是零。如果命令不成功，返回值是零。

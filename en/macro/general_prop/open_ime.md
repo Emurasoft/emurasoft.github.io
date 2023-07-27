@@ -1,21 +1,23 @@
 # OpenIME Property (GeneralProp Object)
 
-Corresponds to the **Run Input Method Editor** check box in the
-[**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to theRun Input Method Editor check box in the
+[General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **OpenIME**;
+### \[JavaScript\]
 
-object. **OpenIME** = _b_;
+```
+b = object.OpenIME;
+object.OpenIME = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **OpenIME**
-
-object. **OpenIME** = _b_
+```
+b = object.OpenIME
+object.OpenIME = b
+```
 
 ## Version
 

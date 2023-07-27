@@ -2,17 +2,21 @@
 
 决定是否要高亮标签。
 
-#### \[JavaScript\]
+## 
 
-_bHighlightTag_ = document. **HighlightTag**;
+### \[JavaScript\]
 
-document. **HighlightTag** = _bHighlightTag_;
+```
+bHighlightTag = document.HighlightTag;
+document.HighlightTag = bHighlightTag;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bHighlightTag_ = document. **HighlightTag**
-
-document. **HighlightTag** = _bHighlightTag_
+```
+bHighlightTag = document.HighlightTag
+document.HighlightTag = bHighlightTag
+```
 
 ## 版本
 

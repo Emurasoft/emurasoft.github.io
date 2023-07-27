@@ -2,13 +2,19 @@
 
 マウス ポインターがポイントしているアクティブな文字列を取得します。
 
-#### \[JavaScript\]
+## 
 
-document. **ActiveString**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.ActiveString;
+```
 
-document. **ActiveString**
+### \[VBScript\]
+
+```
+document.ActiveString
+```
 
 ## バージョン
 

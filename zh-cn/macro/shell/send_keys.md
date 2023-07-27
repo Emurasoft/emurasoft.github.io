@@ -2,13 +2,19 @@
 
 发送一个或多个键击到活动窗口中（就如同在键盘上输入一样）。 这个 Send Keys 方法还能模拟鼠标活动。当这个方法发送所有鼠标操作到任何窗口中时，我们不推荐再发送鼠标操作到已经开始运行宏的 EmEditor 窗口中。
 
-#### \[JavaScript\]
+## 
 
-shell. **SendKeys**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.SendKeys( str );
+```
 
-shell. **SendKeys** _str_
+### \[VBScript\]
+
+```
+shell.SendKeys str
+```
 
 ## 参数
 
@@ -18,7 +24,7 @@ _str_
 
 |     |     |
 | --- | --- |
-| **键** | **参数** |
+|键 |参数 |
 | ALT | % |
 | ALT DOWN | {ALT DOWN} |
 | ALT UP | {ALT UP} |
@@ -104,37 +110,29 @@ y: Y 屏幕坐标值
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.SendKeys( "{CLICK LEFT, 10 , 20}" );  // 在屏幕坐标 (10,20) 处点击鼠标左键。
-
 shell.SendKeys( "{MOVETO, 30 , 40}" );      // 把鼠标移到屏幕坐标 (30,40) 处。
-
 shell.SendKeys( "abc~" );                   // 输入 "abc" 并按 Enter。
-
 shell.SendKeys( "%fo" );                    // 按住 ALT 不放的同时，按下 F，然后放开 ALT，按下 O。
-
 shell.SendKeys( "{~}~" );                   // 输入 "~" 然后按 Enter。
-
-shell.SendKeys( "{VK25}" );                 // 按下 KANJI 键 (VK\_KANJI = 25)。
-
+shell.SendKeys( "{VK25}" );                 // 按下 KANJI 键 (VK\KANJI = 25)。
 shell.SendKeys( "{VK65 DOWN}" );            // 按下 A 键，并按住不放 （A 键 = 65）。
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.SendKeys "{CLICK LEFT, 10 , 20}"      // 在屏幕坐标 (10,20) 处点击鼠标左键。
-
 shell.SendKeys "{MOVETO, 30 , 40}"          // 把鼠标移到屏幕坐标 (30,40) 处。
-
 shell.SendKeys "abc~"                       // 输入 "abc" 并按 Enter。
-
 shell.SendKeys "%fo"                        // 按住 ALT 不放的同时，按下 F，然后放开 ALT，按下 O。
-
 shell.SendKeys "{~}~"                       // 输入 "~" 然后按 Enter。
-
-shell.SendKeys "{VK25}"                     // 按下 KANJI 键 (VK\_KANJI = 25)。
-
+shell.SendKeys "{VK25}"                     // 按下 KANJI 键 (VK\KANJI = 25)。
 shell.SendKeys "{VK65 DOWN}"                // 按下 A 键，并按住不放 （A 键 = 65）。
+```
 
 ## 版本
 

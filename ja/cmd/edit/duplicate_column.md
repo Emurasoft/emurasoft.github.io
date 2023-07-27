@@ -1,14 +1,14 @@
 # \[列の2重化\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書の選択列を2重化します。
+CSV文書の選択列を2重化します。
 
-### 説明
+## 説明
 
-> CSV文書の選択列を2重化します。
+CSV文書の選択列を2重化します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[列\] - \[列の2重化\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[列\] - \[列の2重化\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DUPLICATE\_COLUMN (3998)
+```
+EEID_DUPLICATE_COLUMN (3998)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3998);
+```
+editor.ExecuteCommandByID(3998);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3998
+```
+editor.ExecuteCommandByID 3998
+```

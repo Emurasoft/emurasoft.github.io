@@ -2,13 +2,19 @@
 
 Moves to the previous bookmark in the document.
 
-#### \[JavaScript\]
+## 
 
-_bFound_ = document.selection. **PreviousBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bFound = document.selection.PreviousBookmark();
+```
 
-_bFound_ = document.selection. **PreviousBookmark**
+### \[VBScript\]
+
+```
+bFound = document.selection.PreviousBookmark
+```
 
 ## Return Values
 

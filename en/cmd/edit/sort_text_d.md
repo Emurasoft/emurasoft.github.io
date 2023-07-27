@@ -1,31 +1,36 @@
 # Sort Z to A command
 
-### Summary
+## Summary
 
-> Sort text at the current column in descending order.
+Sort text at the current column in descending order.
 
-### Description
+## Description
 
-> Sort text at the current column in descending order. If the text does not contain alphabetical characters (A-Z and a-z), the command will attempt to sort via numerical value.
+Sort text at the current column in descending order. If the text does not contain alphabetical characters (A-Z and a-z), the command will attempt to sort via numerical value.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Sort** \> **Sort Z to A**
-- [All Commands](../tools/all_commands): **Sort** \> **Sort Z to A**
+- Default Menu:Sort \>Sort Z to A
+- [All Commands](../tools/all_commands):Sort \>Sort Z to A
 - Toolbar: ![](../../images/sortingz-a.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SORT\_TEXT\_D (4478)
+```
+EEID_SORT_TEXT_D (4478)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4478);
+```
+editor.ExecuteCommandByID(4478);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4478
+```
+editor.ExecuteCommandByID 4478
+```

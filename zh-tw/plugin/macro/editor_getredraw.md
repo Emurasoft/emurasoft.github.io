@@ -9,12 +9,12 @@ Editor\_GetRedraw( HWND hwnd );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。
 
 ## 支持版本
 
-> 支持 EmEditor 5.00 或之後的版本。
+支持 EmEditor 5.00 或之後的版本。

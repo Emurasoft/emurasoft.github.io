@@ -2,13 +2,19 @@
 
 창에 키보드 포커스를 설정합니다.
 
-#### \[JavaScript\]
+## 
 
+### \[JavaScript\]
+
+```
 wnd.SetFocus();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd.SetFocus
+```
 
 ## 버전
 

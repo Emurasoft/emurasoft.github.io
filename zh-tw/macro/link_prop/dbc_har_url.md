@@ -1,20 +1,22 @@
 # DBCharURL 屬性 (LinkProp ��H)
 
-與組態屬性中 [**連結** 頁面](../../dlg/properties/link/index) 上的 **識別雙字節字元為 URL** 核取方塊相對應。
+與組態屬性中 [連結 頁面](../../dlg/properties/link/index) 上的識別雙字節字元為 URL 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DBCharURL**;
+### \[JavaScript\]
 
-object. **DBCharURL** = _b_;
+```
+b = object.DBCharURL;
+object.DBCharURL = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DBCharURL**
-
-object. **DBCharURL** = _b_
+```
+b = object.DBCharURL
+object.DBCharURL = b
+```
 
 ## 版本
 

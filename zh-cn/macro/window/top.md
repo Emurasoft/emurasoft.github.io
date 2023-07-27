@@ -2,17 +2,21 @@
 
 以像素为单位返回或设置指定窗口的垂直位置。
 
-#### \[JavaScript\]
+## 
 
-_y_ = wnd. **Top**;
+### \[JavaScript\]
 
-wnd. **Top** = _y_;
+```
+y = wnd.Top;
+wnd.Top = y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_y_ = wnd. **Top**
-
-wnd. **Top** = _y_
+```
+y = wnd.Top
+wnd.Top = y
+```
 
 ## 版本
 

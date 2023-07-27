@@ -2,15 +2,21 @@
 
 문서 내 문자열을 대체합니다.
 
-#### \[JavaScript\]
+## 
 
-nFound = document.selection. **Replace**( _strFind_, _strReplace_,
-_nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = document.selection.Replace( strFind, strReplace,
+nFlags );
+```
 
-nFound = document.selection. **Replace**( _strFind_, _strReplace_,
-_nFlags_ )
+### \[VBScript\]
+
+```
+nFound = document.selection.Replace( strFind, strReplace,
+nFlags )
+```
 
 ## 매개 변수
 

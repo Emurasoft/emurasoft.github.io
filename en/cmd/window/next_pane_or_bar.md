@@ -1,33 +1,38 @@
 # Next Pane or Custom Bar command
 
-### Summary
+## Summary
 
-> Switches to the next pane or the custom bar.
+Switches to the next pane or the custom bar.
 
-### Description
+## Description
 
-> Moves the cursor to the next pane, if the window is split into multiple panes, or the next custom bar if it is not.
+Moves the cursor to the next pane, if the window is split into multiple panes, or the next custom bar if it is not.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Panes**
-\> **Next Pane or Custom Bar**
+- [All Commands](../tools/all_commands):Window
+\>Panes
+\>Next Pane or Custom Bar
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_NEXT\_PANE\_OR\_BAR (4553)
+```
+EEID_NEXT_PANE_OR_BAR (4553)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4553);
+```
+editor.ExecuteCommandByID(4553);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4553
+```
+editor.ExecuteCommandByID 4553
+```

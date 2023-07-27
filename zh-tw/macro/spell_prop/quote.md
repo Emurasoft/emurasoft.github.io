@@ -1,20 +1,22 @@
 # Quote 屬性 (SpellProp ��H)
 
-與組態屬性中 [**拼字檢查** 頁面](../../dlg/properties/spell/index) 上的 **引用行** 核取方塊相對應。
+與組態屬性中 [拼字檢查 頁面](../../dlg/properties/spell/index) 上的引用行 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Quote**;
+### \[JavaScript\]
 
-object. **Quote** = _b_;
+```
+b = object.Quote;
+object.Quote = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Quote**
-
-object. **Quote** = _b_
+```
+b = object.Quote
+object.Quote = b
+```
 
 ## 版本
 

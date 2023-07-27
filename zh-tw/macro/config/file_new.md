@@ -2,13 +2,19 @@
 
 檢索 [FileNewProp 對象](../file_new_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **FileNew**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.FileNew;
+```
 
-Set _obj_ = object. **FileNew**
+### \[VBScript\]
+
+```
+Set obj = object.FileNew
+```
 
 ## 版本
 

@@ -1,31 +1,36 @@
 # Insert Line Below command
 
-### Summary
+## Summary
 
-> Inserts a new line below the current cursor position.
+Inserts a new line below the current cursor position.
 
-### Description
+## Description
 
-> Inserts a new line below the line the cursor is currently located in.
+Inserts a new line below the line the cursor is currently located in.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Empty Line Below**
-- [All Commands](../tools/all_commands): **Insert** \> **Empty Line Below**
+- Default Menu:Insert \>Empty Line Below
+- [All Commands](../tools/all_commands):Insert \>Empty Line Below
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+ENTER
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_LINE\_OPEN\_BELOW (4196)
+```
+EEID_LINE_OPEN_BELOW (4196)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.LineOpen(false);
+```
+document.selection.LineOpen(false);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.LineOpen false
+```
+document.selection.LineOpen false
+```

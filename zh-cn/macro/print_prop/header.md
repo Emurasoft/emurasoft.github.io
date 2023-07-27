@@ -1,18 +1,22 @@
 # Header 属性 (PrintProp ����)
 
-与配置属性中 [**打印** 页面](../../dlg/properties/print/index) 上的 **页眉** 文本框相对应。
+与配置属性中 [打印 页面](../../dlg/properties/print/index) 上的页眉 文本框相对应。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Header**;
+### \[JavaScript\]
 
-object. **Header** = _s_;
+```
+s = object.Header;
+object.Header = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Header**
-
-object. **Header** = _s_
+```
+s = object.Header
+object.Header = s
+```
 
 ## 版本
 

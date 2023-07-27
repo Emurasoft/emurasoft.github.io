@@ -1,14 +1,14 @@
 # \[抽出オプション (フィルター ツール バー)\] コマンド
 
-### 概要
+## 概要
 
-> \[一致した文字列を抽出\] コマンドのオプションを指定します。
+\[一致した文字列を抽出\] コマンドのオプションを指定します。
 
-### 説明
+## 説明
 
-> \[一致した文字列を抽出\] コマンドのオプションを指定します。
+\[一致した文字列を抽出\] コマンドのオプションを指定します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[フィルター ツール バー\] \- \[抽出オプション\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FILTERBAR\_EXTRACT\_OPTIONS (4086)
+```
+EEID_FILTERBAR_EXTRACT_OPTIONS (4086)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4086);
+```
+editor.ExecuteCommandByID(4086);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4086
+```
+editor.ExecuteCommandByID 4086
+```

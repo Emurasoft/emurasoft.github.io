@@ -1,14 +1,14 @@
 # \[最上部にスクロール\] コマンド
 
-### 概要
+## 概要
 
-> 最上部にスクロールします。
+最上部にスクロールします。
 
-### 説明
+## 説明
 
-> 最上部にスクロールします。
+最上部にスクロールします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[スクロール\] \- \[最上部\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SCROLL\_TOP (3864)
+```
+EEID_SCROLL_TOP (3864)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3864);
+```
+editor.ExecuteCommandByID(3864);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3864
+```
+editor.ExecuteCommandByID 3864
+```

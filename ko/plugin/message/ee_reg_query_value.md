@@ -13,13 +13,13 @@ wParam = 0;
 
 _pRegSetValueInfo_
 
-> Pointer to the [REG\_QUERY\_VALUE\_INFO 구조](../structure/reg_query_value_info).
+Pointer to the [REG\_QUERY\_VALUE\_INFO 구조](../structure/reg_query_value_info).
 
 ## 반환 값
 
-> 메시지가 성공한 경우, 반환 값은 ERROR\_SUCCESS입니다.
->
-> 메시지가 실패한 경우, 반환 값은 Winerror.h에서 정의된 0이 아닌 오류 코드입니다.
+메시지가 성공한 경우, 반환 값은 ERROR\_SUCCESS입니다.
+
+메시지가 실패한 경우, 반환 값은 Winerror.h에서 정의된 0이 아닌 오류 코드입니다.
 
 ## 버전
 

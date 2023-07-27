@@ -1,20 +1,22 @@
 # LineSpace 속성 (DisplayProp ��ü)
 
-구성 속성 [**디스플레이** 탭](../../dlg/properties/display/index) 의 **줄 공백** 텍스트 박스에 해당합니다.
+구성 속성 [디스플레이 탭](../../dlg/properties/display/index) 의줄 공백 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **LineSpace**;
+### \[JavaScript\]
 
-object. **LineSpace** = _n_;
+```
+n = object.LineSpace;
+object.LineSpace = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **LineSpace**
-
-object. **LineSpace** = _n_
+```
+n = object.LineSpace
+object.LineSpace = n
+```
 
 ## 버전
 

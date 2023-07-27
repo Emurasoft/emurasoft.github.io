@@ -1,14 +1,14 @@
 # \[この文書のブックマークを反転\] コマンド
 
-### 概要
+## 概要
 
-> この文書のすべてのブックマークを反転します。
+この文書のすべてのブックマークを反転します。
 
-### 説明
+## 説明
 
-> この文書のすべてのブックマークを反転します。
+この文書のすべてのブックマークを反転します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ブックマーク\] \- \[ブックマークを反転\]
 - [すべてのコマンド](../../glossary/allcommands): \[ブックマーク\] \- \[ブックマークを反転\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_BOOKMARK\_INVERT (4588)
+```
+EEID_BOOKMARK_INVERT (4588)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4588);
+```
+editor.ExecuteCommandByID(4588);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4588
+```
+editor.ExecuteCommandByID 4588
+```

@@ -1,32 +1,37 @@
 # Use Regular Expressions (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Use Regular Expressions button on the Filter toolbar.
+Toggles the Use Regular Expressions button on the Filter toolbar.
 
-### Description
+## Description
 
-> Toggles the Use Regular Expressions button on the Filter toolbar.
+Toggles the Use Regular Expressions button on the Filter toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Use Regular Expressions**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Use Regular Expressions
 - Toolbar: ![](../../images/find_reg_exp.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_REG\_EXP(3908)
+```
+EEID_FILTERBAR_REG_EXP(3908)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3908);
+```
+editor.ExecuteCommandByID(3908);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3908
+```
+editor.ExecuteCommandByID 3908
+```

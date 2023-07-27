@@ -2,13 +2,19 @@
 
 開いている文書の次のブックマークに移動します。
 
-#### \[JavaScript\]
+## 
 
-_bFound_ = document.selection. **NextBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bFound = document.selection.NextBookmark();
+```
 
-_bFound_ = document.selection. **NextBookmark**
+### \[VBScript\]
+
+```
+bFound = document.selection.NextBookmark
+```
 
 ## 戻り値
 

@@ -1,18 +1,22 @@
 # DetectTSV 属性 (FileProp ����)
 
-与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **检测 TSV (Tab 分隔)** 复选框相对应。
+与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的检测 TSV (Tab 分隔) 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectTSV**;
+### \[JavaScript\]
 
-object. **DetectTSV** = _b_;
+```
+b = object.DetectTSV;
+object.DetectTSV = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectTSV**
-
-object. **DetectTSV** = _b_
+```
+b = object.DetectTSV
+object.DetectTSV = b
+```
 
 ## 版本
 

@@ -2,13 +2,19 @@
 
 對同一個字串重複上一次搜尋。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **FindRepeat**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.FindRepeat( nFlags );
+```
 
-document.selection. **FindRepeat** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.FindRepeat nFlags
+```
 
 ## 參數
 

@@ -2,13 +2,19 @@
 
 跳轉到游標所在的標籤。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **TagJump**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.TagJump();
+```
 
-document.selection. **TagJump**
+### \[VBScript\]
+
+```
+document.selection.TagJump
+```
 
 ## 版本
 

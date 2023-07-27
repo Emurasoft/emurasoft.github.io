@@ -14,12 +14,12 @@ lParam = (LPARAM) (POINT\_PTR\*) pptView;
 
 _pptLogical_
 
-> 指針指向一個指定要被轉換的邏輯坐標的 [POINT\_PTR 結構](../structure/point_ptr)。
+指針指向一個指定要被轉換的邏輯坐標的 [POINT\_PTR 結構](../structure/point_ptr)。
 
 _pptView_
 
-> 指針指向一個 [POINT\_PTR 結構](../structure/point_ptr) 來接收一個轉換后的顯示坐標。
+指針指向一個 [POINT\_PTR 結構](../structure/point_ptr) 來接收一個轉換后的顯示坐標。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

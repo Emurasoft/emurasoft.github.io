@@ -1,31 +1,36 @@
 # Remove Unnecessary Quotes command
 
-### Summary
+## Summary
 
-> Removes unnecessary double-quotes in CSV documents.
+Removes unnecessary double-quotes in CSV documents.
 
-### Description
+## Description
 
-> Removes unnecessary double-quotes in CSV documents.
+Removes unnecessary double-quotes in CSV documents.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Advanced** \> **Remove Unnecessary Quotes**
-- [All Commands](../tools/all_commands): **CSV** \> **Advanced** \> **Remove Unnecessary Quotes**
+- Default Menu:CSV \>Advanced \>Remove Unnecessary Quotes
+- [All Commands](../tools/all_commands):CSV \>Advanced \>Remove Unnecessary Quotes
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_REMOVE\_UNNECESSARY\_QUOTES (3902)
+```
+EEID_REMOVE_UNNECESSARY_QUOTES (3902)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3902);
+```
+editor.ExecuteCommandByID(3902);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3902
+```
+editor.ExecuteCommandByID 3902
+```

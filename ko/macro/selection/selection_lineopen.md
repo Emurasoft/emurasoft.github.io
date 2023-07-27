@@ -2,13 +2,19 @@
 
 두 줄 사이에 빈 줄을 삽입합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **LineOpen**( \[ _bAbove_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.LineOpen( [ bAbove ] );
+```
 
-document.selection. **LineOpen** \[ _bAbove_ \]
+### \[VBScript\]
+
+```
+document.selection.LineOpen [ bAbove ]
+```
 
 ## 매개 변수
 

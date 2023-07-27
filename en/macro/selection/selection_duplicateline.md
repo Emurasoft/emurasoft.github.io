@@ -2,13 +2,19 @@
 
 Duplicates the current line.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **DuplicateLine**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.DuplicateLine();
+```
 
-document.selection. **DuplicateLine**
+### \[VBScript\]
+
+```
+document.selection.DuplicateLine
+```
 
 ## Version
 

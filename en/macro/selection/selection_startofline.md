@@ -2,14 +2,20 @@
 
 Moves the cursor to the start of the line.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **StartOfLine**( \[ _bExtend_ \[, _nFlags_ \] \]
+### \[JavaScript\]
+
+```
+document.selection.StartOfLine( [ bExtend [, nFlags ] ]
 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document.selection. **StartOfLine** \[ _bExtend_ \[, _nFlags_ \] \]
+```
+document.selection.StartOfLine [ bExtend [, nFlags ] ]
+```
 
 ## Parameters
 

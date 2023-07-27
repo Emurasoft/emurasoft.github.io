@@ -1,20 +1,24 @@
 # ShowLineNumbers Property (PrintProp Object)
 
-Corresponds to the **Print**
-**Line Numbers** check box in the
-[**Print** page](../../dlg/properties/print/index) of Configuration Properties.
+Corresponds to the Print
+Line Numbers check box in the
+[Print page](../../dlg/properties/print/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **ShowLineNumbers**;
+### \[JavaScript\]
 
-object. **ShowLineNumbers** = _b_;
+```
+b = object.ShowLineNumbers;
+object.ShowLineNumbers = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **ShowLineNumbers**
-
-object. **ShowLineNumbers** = _b_
+```
+b = object.ShowLineNumbers
+object.ShowLineNumbers = b
+```
 
 ## Version
 

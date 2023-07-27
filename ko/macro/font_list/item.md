@@ -2,15 +2,19 @@
 
 지정된 인덱스를 위한 [FontItem 개체](../font_item/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-List. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = List.Item( Index );
+```
 
-_item_ =
-List. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = List.Item( Index )
+```
 
 ## 매개 변수
 

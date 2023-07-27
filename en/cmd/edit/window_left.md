@@ -1,33 +1,38 @@
 # Window Left command
 
-### Summary
+## Summary
 
-> Moves the cursor to the left edge of the current window.
+Moves the cursor to the left edge of the current window.
 
-### Description
+## Description
 
-> Moves the cursor to the left edge of the current window. This command does not move
-> the horizontal scroll position.
+Moves the cursor to the left edge of the current window. This command does not move
+the horizontal scroll position.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
-\> **Window Left**
+- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
+\>Window Left
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_LEFT (4295)
+```
+EEID_WINDOW_LEFT (4295)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4295);
+```
+editor.ExecuteCommandByID(4295);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4295
+```
+editor.ExecuteCommandByID 4295
+```

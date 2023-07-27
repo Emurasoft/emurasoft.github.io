@@ -1,22 +1,24 @@
 # InsertReturns Property (FileSaveProp Object)
 
-Corresponds to the **Insert**
-**Returns when Saving** check box in the
-[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to theInsert
+Returns when Saving check box in the
+[Save Details dialog box](../../dlg/properties/file/save_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **InsertReturns**;
+### \[JavaScript\]
 
-object. **InsertReturns** = _b_ ;
+```
+b = object.InsertReturns;
+object.InsertReturns = b ;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **InsertReturns**
-
-object. **InsertReturns** = _b_
+```
+b = object.InsertReturns
+object.InsertReturns = b
+```
 
 ## Version
 

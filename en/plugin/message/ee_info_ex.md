@@ -14,12 +14,12 @@ lParam = 0;
 
 _pInfo_
 
-> Pointer to a [**INFO\_EX\_DATA** structure](../structure/info_ex_data).
+Pointer to a [INFO\_EX\_DATA structure](../structure/info_ex_data).
 
 ## Return Values
 
-> Depends on the parameter specified.
+Depends on the parameter specified.
 
 ## Version
 
-> Supported in EmEditor Professional Version 21.8 or later.
+Supported in EmEditor Professional Version 21.8 or later.

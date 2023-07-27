@@ -2,13 +2,19 @@
 
 檢索 [FontProp 對象](../font_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Font**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Font;
+```
 
-Set _obj_ = object. **Font**
+### \[VBScript\]
+
+```
+Set obj = object.Font
+```
 
 ## 版本
 

@@ -2,13 +2,19 @@
 
 直前の操作を元に戻します。
 
-#### \[JavaScript\]
+## 
 
-document. **Undo**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Undo();
+```
 
-document. **Undo**
+### \[VBScript\]
+
+```
+document.Undo
+```
 
 ## バージョン
 

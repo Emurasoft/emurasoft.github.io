@@ -1,32 +1,37 @@
 # Local Help command
 
-### Summary
+## Summary
 
-> Displays Local Help.
+Displays Local Help.
 
-### Description
+## Description
 
-> Displays Local Help.
+Displays Local Help.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Help** \> **Local Help**
-- [All Commands](../tools/all_commands): **Help** >
-**Local Help**
+- Default Menu:Help \>Local Help
+- [All Commands](../tools/all_commands):Help >
+Local Help
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_HELP\_LOCAL (3933)
+```
+EEID_HELP_LOCAL (3933)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3933);
+```
+editor.ExecuteCommandByID(3933);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3933
+```
+editor.ExecuteCommandByID 3933
+```

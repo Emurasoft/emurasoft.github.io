@@ -8,16 +8,16 @@ Editor\_KeyboardProp( HWND hwnd, UINT nCmdID, LPCWSTR pszConfigName );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nCmdID_
 
-> Specifies the command ID for the initial selection on the Keyboard Properties.
+Specifies the command ID for the initial selection on the Keyboard Properties.
 
 _pszConfigName_
 
-> Specifies the configuration for which EmEditor displays the Keyboard Properties.
+Specifies the configuration for which EmEditor displays the Keyboard Properties.
 
 ## Return Values
 
-> If the user selects OK on the Configuration Properties, the return value is TRUE. If the user selects Cancel, the return value is FALSE.
+If the user selects OK on the Configuration Properties, the return value is TRUE. If the user selects Cancel, the return value is FALSE.

@@ -1,14 +1,14 @@
 # \[アップグレード\] コマンド
 
-### 概要
+## 概要
 
-> この製品を EmEditor Professional にアップグレードします。
+この製品を EmEditor Professional にアップグレードします。
 
-### 説明
+## 説明
 
-> この製品を EmEditor Professional にアップグレードします。
+この製品を EmEditor Professional にアップグレードします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ヘルプ\] \- \[アップグレード\]
 - [すべてのコマンド](../../glossary/allcommands): \[ヘルプ\] \- \[アップグレード\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_HELP\_UPGRADE (3845)
+```
+EEID_HELP_UPGRADE (3845)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3845);
+```
+editor.ExecuteCommandByID(3845);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3845
+```
+editor.ExecuteCommandByID 3845
+```

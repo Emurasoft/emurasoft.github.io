@@ -1,20 +1,22 @@
 # WrapIndent 屬性 (IndentProp ��H)
 
-與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **換行縮排** 核取方塊相對應。
+與 [Tab/縮排 對話方塊](../../dlg/properties/general/indent/index) 上的換行縮排 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **WrapIndent**;
+### \[JavaScript\]
 
-object. **WrapIndent** = _b_;
+```
+b = object.WrapIndent;
+object.WrapIndent = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **WrapIndent**
-
-object. **WrapIndent** = _b_
+```
+b = object.WrapIndent
+object.WrapIndent = b
+```
 
 ## 版本
 

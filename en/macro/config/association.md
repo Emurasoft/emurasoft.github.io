@@ -2,13 +2,19 @@
 
 Retrieves the [AssociationProp object](../association_prop/index).
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Association**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Association;
+```
 
-Set _obj_ = object. **Association**
+### \[VBScript\]
+
+```
+Set obj = object.Association
+```
 
 ## Version
 

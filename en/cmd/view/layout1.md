@@ -1,31 +1,36 @@
 # Layout command
 
-### Summary
+## Summary
 
-> Toggles this layout (multiple items).
+Toggles this layout (multiple items).
 
-### Description
+## Description
 
-> Toggles this layout (multiple items).
+Toggles this layout (multiple items).
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Layouts** \> ( **Layout**)
-- [All Commands](../tools/all_commands): **View** \> **Layouts** \> ( **Layout**)
+- Default Menu:View \>Layouts \> (Layout)
+- [All Commands](../tools/all_commands):View \>Layouts \> (Layout)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_LAYOUT1 (22592)
+```
+EEID_LAYOUT1 (22592)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(22592);
+```
+editor.ExecuteCommandByID(22592);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 22592
+```
+editor.ExecuteCommandByID 22592
+```

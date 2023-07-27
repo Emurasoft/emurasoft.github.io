@@ -1,14 +1,14 @@
 # \[カスタマイズ\] コマンド
 
-### 概要
+## 概要
 
-> アプリケーション共通の設定を行います。
+アプリケーション共通の設定を行います。
 
-### 説明
+## 説明
 
-> [\[カスタマイズ\] ダイアログ ボックス](../../dlg/customize/index) を表示して、アプリケーション共通の設定をできるようにします。
+[\[カスタマイズ\] ダイアログ ボックス](../../dlg/customize/index) を表示して、アプリケーション共通の設定をできるようにします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ツール\] \- \[カスタマイズ\]
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[カスタマイズ\] \- \[カスタマイズ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_COMMON\_SETTINGS (4222)
+```
+EEID_COMMON_SETTINGS (4222)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4222);
+```
+editor.ExecuteCommandByID(4222);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4222
+```
+editor.ExecuteCommandByID 4222
+```

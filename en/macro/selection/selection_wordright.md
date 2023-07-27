@@ -2,13 +2,19 @@
 
 Moves the cursor the specified number of words to the right.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **WordRight**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.WordRight( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **WordRight** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.WordRight [ bExtend [, nCount ] ]
+```
 
 ## Parameters
 
@@ -21,7 +27,7 @@ _nCount_
 
 Optional. Specifies the number of characters to move to the right. The
 default is 1. If negative, the method acts like the
-[**WordLeft** \
+[WordLeft \
 Method](selection_wordleft). If 0, the method acts like 1.
 
 ## Version

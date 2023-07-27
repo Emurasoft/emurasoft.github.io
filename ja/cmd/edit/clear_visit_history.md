@@ -1,14 +1,14 @@
 # \[表示済みリンクの履歴をクリア\] コマンド
 
-### 概要
+## 概要
 
-> 表示済みURL、メール アドレス、タグの履歴をクリアします。
+表示済みURL、メール アドレス、タグの履歴をクリアします。
 
-### 説明
+## 説明
 
-> 表示済みURL、メール アドレス、タグの履歴をクリアします。
+表示済みURL、メール アドレス、タグの履歴をクリアします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[高度な操作\] \- \[表示済みリンクの履歴をクリア\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CLEAR\_VISIT\_HISTORY (3947)
+```
+EEID_CLEAR_VISIT_HISTORY (3947)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3947);
+```
+editor.ExecuteCommandByID(3947);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3947
+```
+editor.ExecuteCommandByID 3947
+```

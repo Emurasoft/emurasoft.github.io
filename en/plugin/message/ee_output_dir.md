@@ -13,12 +13,12 @@ lParam = (LPARAM) (LPCWSTR) szCurrDir;
 
 _szCurrDir_
 
-> Specifies the current directory. This information is necessary if the text contains a clickable relative path that can be jumped only from the current directory.
+Specifies the current directory. This information is necessary if the text contains a clickable relative path that can be jumped only from the current directory.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.
 
 ## Version
 
-> Supported on EmEditor Version 7.00 or later.
+Supported on EmEditor Version 7.00 or later.

@@ -25,25 +25,23 @@ Filters コレクションは、 [Filter オブジェクト](../filter/index) �
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.filters );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Value );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.filters
-
 alert item.Value
-
 Next
+```
 
 ## バージョン
 

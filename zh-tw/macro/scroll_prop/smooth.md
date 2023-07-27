@@ -1,20 +1,22 @@
 # Smooth 屬性 (ScrollProp ��H)
 
-與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **平滑捲動** 核取方塊相對應。
+與組態屬性中 [捲動 頁面](../../dlg/properties/scroll/index) 上的平滑捲動 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Smooth**;
+### \[JavaScript\]
 
-object. **Smooth** = _b_;
+```
+b = object.Smooth;
+object.Smooth = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Smooth**
-
-object. **Smooth** = _b_
+```
+b = object.Smooth
+object.Smooth = b
+```
 
 ## 版本
 

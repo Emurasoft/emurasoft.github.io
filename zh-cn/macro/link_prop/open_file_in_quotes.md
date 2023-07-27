@@ -1,20 +1,22 @@
 # OpenFileInQuotes 属性 (LinkProp ����)
 
-与配置属性中 [**链接** 页面](../../dlg/properties/link/index) 上的 **点击引号内的文件名打开文件** 复选框相对应。
+与配置属性中 [链接 页面](../../dlg/properties/link/index) 上的点击引号内的文件名打开文件 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **OpenFileInQuotes**;
+### \[JavaScript\]
 
-object. **OpenFileInQuotes** = _b_;
+```
+b = object.OpenFileInQuotes;
+object.OpenFileInQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **OpenFileInQuotes**
-
-object. **OpenFileInQuotes** = _b_
+```
+b = object.OpenFileInQuotes
+object.OpenFileInQuotes = b
+```
 
 ## 版本
 

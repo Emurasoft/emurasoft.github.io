@@ -12,12 +12,12 @@ lParam = (LPARAM) (ATTR\_INFO) pAI;
 
 _pAI_
 
-> [ATTR\_INFO 構造体](../structure/attr_info) へのポインタを指定します。
+[ATTR\_INFO 構造体](../structure/attr_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると TRUE を返します。失敗すると FALSE を返します。
+成功すると TRUE を返します。失敗すると FALSE を返します。
 
 ## バージョン
 
-> Version 9.00 以上で利用できます。
+Version 9.00 以上で利用できます。

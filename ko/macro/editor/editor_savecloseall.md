@@ -2,13 +2,19 @@
 
 열려있는 모든 파일을 저장하고 닫습니다.
 
-#### \[JavaScript\]
+## 
 
-editor. **SaveCloseAll**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.SaveCloseAll();
+```
 
-editor. **SaveCloseAll**
+### \[VBScript\]
+
+```
+editor.SaveCloseAll
+```
 
 ## 버전
 

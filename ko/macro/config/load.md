@@ -2,13 +2,19 @@
 
 구성을 로드합니다.
 
-#### \[JavaScript\]
+## 
 
-object. **Load**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Load( [ strName ] );
+```
 
-object. **Load** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Load [ strName ]
+```
 
 ## 매개 변수
 

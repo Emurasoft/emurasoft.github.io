@@ -2,17 +2,21 @@
 
 現在の Csv オブジェクトの引用符文字を取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_ch_ = object. **QuotationMark**;
+### \[JavaScript\]
 
-object. **QuotationMark** = _ch_;
+```
+ch = object.QuotationMark;
+object.QuotationMark = ch;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_ch_ = object. **QuotationMark**
-
-object. **QuotationMark** = _ch_
+```
+ch = object.QuotationMark
+object.QuotationMark = ch
+```
 
 ## バージョン
 

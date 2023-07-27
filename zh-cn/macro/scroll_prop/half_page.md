@@ -1,20 +1,22 @@
 # HalfPage 属性 (ScrollProp ����)
 
-与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **滚动半页** 复选框相对应。
+与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的滚动半页 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HalfPage**;
+### \[JavaScript\]
 
-object. **HalfPage** = _b_;
+```
+b = object.HalfPage;
+object.HalfPage = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HalfPage**
-
-object. **HalfPage** = _b_
+```
+b = object.HalfPage
+object.HalfPage = b
+```
 
 ## 版本
 

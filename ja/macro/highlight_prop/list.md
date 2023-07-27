@@ -2,19 +2,21 @@
 
 [HighlightList コレクション](../highlight_list/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **List**;
+### \[JavaScript\]
 
-object. **List** = _b_;
+```
+b = object.List;
+object.List = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **List**
-
-object. **List** = _b_
+```
+b = object.List
+object.List = b
+```
 
 ## バージョン
 

@@ -1,21 +1,23 @@
 # HighlightMatchingTag 속성 (HighlightProp ��ü)
 
-Corresponds to the **Highlight**
-**Matching Tag** 체크 박스 in the [**Highlight (2)** 탭](../../dlg/properties/highlight2/index) of 구성 속성.
+Corresponds to theHighlight
+Matching Tag 체크 박스 in the [Highlight (2) 탭](../../dlg/properties/highlight2/index) of 구성 속성.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HighlightMatchingTag**;
+### \[JavaScript\]
 
-object. **HighlightMatchingTag** = _b_;
+```
+b = object.HighlightMatchingTag;
+object.HighlightMatchingTag = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HighlightMatchingTag**
-
-object. **HighlightMatchingTag** = _b_
+```
+b = object.HighlightMatchingTag
+object.HighlightMatchingTag = b
+```
 
 ## 버전
 

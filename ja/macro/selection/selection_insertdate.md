@@ -2,13 +2,19 @@
 
 時刻と日付を挿入します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **InsertDate**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.InsertDate( nFlags );
+```
 
-document.selection. **InsertDate** \[ _nFlags_ \]
+### \[VBScript\]
+
+```
+document.selection.InsertDate [ nFlags ]
+```
 
 ## 引数
 

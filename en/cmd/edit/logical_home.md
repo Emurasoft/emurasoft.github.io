@@ -1,32 +1,37 @@
 # Logical Home command
 
-### Summary
+## Summary
 
-> Moves the cursor to the start of the current logical line.
+Moves the cursor to the start of the current logical line.
 
-### Description
+## Description
 
-> Moves the cursor to the start of the current logical line.
+Moves the cursor to the start of the current logical line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
-\> **Logical Home**
+- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
+\>Logical Home
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+HOME
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_LOGICAL\_HOME (4165)
+```
+EEID_LOGICAL_HOME (4165)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.StartOfLine(false,eeLineLogical);
+```
+document.selection.StartOfLine(false,eeLineLogical);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.StartOfLine false,eeLineLogical
+```
+document.selection.StartOfLine false,eeLineLogical
+```

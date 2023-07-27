@@ -1,31 +1,36 @@
 # Cell Below (Cell Selection Mode Only) command
 
-### Summary
+## Summary
 
-> Jumps to the cell below in the CSV document.
+Jumps to the cell below in the CSV document.
 
-### Description
+## Description
 
-> Jumps to the cell below in the CSV document.
+Jumps to the cell below in the CSV document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode Only** \> **Cell Below**
+- [All Commands](../tools/all_commands):CSV \>Cell Selection Mode Only \>Cell Below
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CSV\_DOWN (4080)
+```
+EEID_CSV_DOWN (4080)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4080);
+```
+editor.ExecuteCommandByID(4080);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4080
+```
+editor.ExecuteCommandByID 4080
+```

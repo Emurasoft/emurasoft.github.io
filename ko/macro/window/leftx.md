@@ -2,17 +2,21 @@
 
 픽셀로 지정된 창의 수평 위치를 설정하거나 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_x_ = wnd. **LeftX**;
+### \[JavaScript\]
 
-wnd. **LeftX** = _x_;
+```
+x = wnd.LeftX;
+wnd.LeftX = x;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_x_ = wnd. **LeftX**
-
-wnd. **LeftX** = x
+```
+x = wnd.LeftX
+wnd.LeftX = x
+```
 
 ## 버전
 

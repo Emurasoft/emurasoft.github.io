@@ -1,34 +1,39 @@
 # Backup Properties command
 
-### Summary
+## Summary
 
-> Displays Backup properties.
+Displays Backup properties.
 
-### Description
+## Description
 
-> Displays the [**Backup** \
-> page](../../dlg/properties/backup/index) of the **[Configuration Properties](../../dlg/properties/index)**
-> dialog box.
+Displays the [Backup \
+page](../../dlg/properties/backup/index) of the[Configuration Properties](../../dlg/properties/index)
+dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Properties for Current Configuration** \> **Backup**
+- [All Commands](all_commands):Tools >
+Properties for Current Configuration \>Backup
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PROPERTY\_BACKUP (8963)
+```
+EEID_PROPERTY_BACKUP (8963)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8963);
+```
+editor.ExecuteCommandByID(8963);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8963
+```
+editor.ExecuteCommandByID 8963
+```

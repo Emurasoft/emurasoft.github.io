@@ -6,4 +6,4 @@ that include scripts beginning with the % mark. This is usually the case for
 VBScript, Javascript, PerlScript, CSS, etc. HTML-Embedded is appropriate when
 working with script languages such as PHP or JSP and the characters that
 normally mark the beginning of scripts in such languages, which are specified in the
-**Script Begin** box.
+Script Begin box.

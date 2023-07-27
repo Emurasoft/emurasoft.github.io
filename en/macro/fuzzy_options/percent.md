@@ -2,17 +2,21 @@
 
 Sets or retrieves the percent value of similarity.
 
-#### \[JavaScript\]
+## 
 
-_n_ = obj. **Percent**;
+### \[JavaScript\]
 
-obj. **Percent** = _n_;
+```
+n = obj.Percent;
+obj.Percent = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = obj. **Percent**;
-
-obj. **Percent** = _n_;
+```
+n = obj.Percent;
+obj.Percent = n;
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 출력 모음에 문자열을 추가합니다.
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **write**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.write( str );
+```
 
-OutputBar. **write** _str_
+### \[VBScript\]
+
+```
+OutputBar.write str
+```
 
 ## 매개 변수
 

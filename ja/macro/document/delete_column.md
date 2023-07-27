@@ -2,13 +2,19 @@
 
 CSV モードで指定された列を削除します。
 
-#### \[JavaScript\]
+## 
 
-document. **DeleteColumn**( _iColumn_, \[ _iColumn2_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.DeleteColumn( iColumn, [ iColumn2 ] );
+```
 
-document. **DeleteColumn** _iColumn_, \[ _iColumn2_ \]
+### \[VBScript\]
+
+```
+document.DeleteColumn iColumn, [ iColumn2 ]
+```
 
 ## パラメータ
 
@@ -24,13 +30,17 @@ _iColumn2_
 
 次の例は、3列目から5列目を削除します。
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.DeleteColumn( 3, 5 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.DeleteColumn 3, 5
+```
 
 ## バージョン
 

@@ -1,19 +1,23 @@
 # Encoding プロパティ (FileSaveProp �I�u�W�F�N�g)
 
-[**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
-**\[エンコード\]** ドロップダウン リスト ボックスに相当します。
+[\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
+\[エンコード\] ドロップダウン リスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Encoding**;
+### \[JavaScript\]
 
-object. **Encoding** = _n_;
+```
+n = object.Encoding;
+object.Encoding = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Encoding**
-
-object. **Encoding** = _n_
+```
+n = object.Encoding
+object.Encoding = n
+```
 
 ## バージョン
 

@@ -1,18 +1,22 @@
 # EscapeCharacter プロパティ (HighlightProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の \[引用符に囲まれた文字列\] グループ \- \[エスケープ文字\] テキスト ボックスに相当します。
+設定のプロパティの [\[強調(2)\] タブ](../../dlg/properties/highlight2/index) の \[引用符に囲まれた文字列\] グループ \- \[エスケープ文字\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **EscapeCharacter**;
+### \[JavaScript\]
 
-object. **EscapeCharacter** = _str_;
+```
+str = object.EscapeCharacter;
+object.EscapeCharacter = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **EscapeCharacter**
-
-object. **EscapeCharacter** = _str_
+```
+str = object.EscapeCharacter
+object.EscapeCharacter = str
+```
 
 ## バージョン
 

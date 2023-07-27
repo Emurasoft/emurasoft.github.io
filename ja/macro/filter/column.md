@@ -2,19 +2,21 @@
 
 取得するテキストの列の 1 から始まるインデックスを指定します。0 を指定すると行全体から検索します。-1 を指定すると Begin と End パラメータによってテキストの開始位置と終了位置を指定します。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-item. **Column**;
+### \[JavaScript\]
 
-item. **Column** = _n_;
+```
+n = item.Column;
+item.Column = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Column**
-
-item. **Column** = _n_
+```
+n = item.Column
+item.Column = n
+```
 
 ## バージョン
 

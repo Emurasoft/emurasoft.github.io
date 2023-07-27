@@ -14,12 +14,12 @@ lParam = (LPARAM) (POINT\_PTR\*) pptSelEnd;
 
 _pptSelStart_
 
-> 선택 영역의 시작 위치를 지정하는 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터입니다.
+선택 영역의 시작 위치를 지정하는 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터입니다.
 
 _pptSelEnd_
 
-> 선택 영역의 끝 위치를 지정하는 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터입니다.
+선택 영역의 끝 위치를 지정하는 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터입니다.
 
 ## 반환 값
 
-> 반환 값이 사용되지 않습니다.
+반환 값이 사용되지 않습니다.

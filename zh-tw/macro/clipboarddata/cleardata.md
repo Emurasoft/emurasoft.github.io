@@ -2,13 +2,19 @@
 
 從剪貼簿上刪除一個或多個數據格式。
 
-#### \[JavaScript\]
+## 
 
-clipboardData. **clearData**( \[ _sDataFormat_, \[ _iPos_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+clipboardData.clearData( [ sDataFormat, [ iPos ] ] );
+```
 
-clipboardData. **clearData** \[ _sDataFormat_, \[ _iPos_ \] \]
+### \[VBScript\]
+
+```
+clipboardData.clearData [ sDataFormat, [ iPos ] ]
+```
 
 ## 參數
 
@@ -28,13 +34,17 @@ _iPos_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 clipboardData.clearData();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 clipboardData.clearData
+```
 
 ## 版本
 

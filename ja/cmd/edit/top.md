@@ -1,14 +1,14 @@
 # \[文頭へ\] コマンド
 
-### 概要
+## 概要
 
-> 文頭へ移動します。
+文頭へ移動します。
 
-### 説明
+## 説明
 
-> カーソル位置を文頭へ移動します。
+カーソル位置を文頭へ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[垂直にカーソル移動\] \- \[文頭へ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Home
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_TOP (4168)
+```
+EEID_TOP (4168)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.StartOfDocument(false);
+```
+document.selection.StartOfDocument(false);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.StartOfDocument false
+```
+document.selection.StartOfDocument false
+```

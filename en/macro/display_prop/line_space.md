@@ -1,22 +1,24 @@
 # LineSpace Property (DisplayProp Object)
 
-Corresponds to the **Line**
-**Space** text box in the
-[**Display** page](../../dlg/properties/display/index) of Configuration Properties.
+Corresponds to the Line
+Space text box in the
+[Display page](../../dlg/properties/display/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **LineSpace**;
+### \[JavaScript\]
 
-object. **LineSpace** = _n_;
+```
+n = object.LineSpace;
+object.LineSpace = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **LineSpace**
-
-object. **LineSpace** = _n_
+```
+n = object.LineSpace
+object.LineSpace = n
+```
 
 ## Version
 

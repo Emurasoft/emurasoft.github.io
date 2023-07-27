@@ -2,13 +2,19 @@
 
 매크로 실행을 종료합니다.
 
-#### \[JavaScript\]
+## 
 
-**Quit**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Quit();
+```
 
-**Quit**
+### \[VBScript\]
+
+```
+Quit
+```
 
 ## 버전
 

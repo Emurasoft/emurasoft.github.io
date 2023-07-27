@@ -1,35 +1,40 @@
 # Syntax Check Properties command
 
-### Summary
+## Summary
 
-> Displays Syntax Check properties.
+Displays Syntax Check properties.
 
-### Description
+## Description
 
-> Displays the [**Syntax Check** \
-> page](../../dlg/properties/validation/index)
-> of the **[Configuration Properties](../../dlg/properties/index)**
-> dialog box.
+Displays the [Syntax Check \
+page](../../dlg/properties/validation/index)
+of the[Configuration Properties](../../dlg/properties/index)
+dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Properties for Current Configuration** \> **Syntax Check**
+- [All Commands](all_commands):Tools >
+Properties for Current Configuration \>Syntax Check
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PROPERTY\_VALIDATION (8980)
+```
+EEID_PROPERTY_VALIDATION (8980)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8980);
+```
+editor.ExecuteCommandByID(8980);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8980
+```
+editor.ExecuteCommandByID 8980
+```

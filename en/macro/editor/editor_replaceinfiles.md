@@ -2,13 +2,19 @@
 
 Replaces text in multiple files.
 
-#### \[JavaScript\]
+## 
 
-nFound = editor. **ReplaceInFiles**( _strFind_, _strReplace_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _strBackupPath_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = editor.ReplaceInFiles( strFind, strReplace, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ strBackupPath, [ nExFlags, [ nLimit ] ] ] ] ] );
+```
 
-nFound = editor. **ReplaceInFiles** _strFind_, _strReplace_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _strBackupPath_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] \]
+### \[VBScript\]
+
+```
+nFound = editor.ReplaceInFiles strFind, strReplace, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ strBackupPath, [ nExFlags, [ nLimit ] ] ] ] ]
+```
 
 ## Parameters
 
@@ -45,7 +51,7 @@ Specifies a combination of the following values.
 
 _nEncoding_
 
-Selects from the **[Encoding Constants](../const/const_encoding)**,
+Selects from the[Encoding Constants](../const/const_encoding),
 or specify any code page used in the Windows Operating System. If 0 is specified or omitted, the encoding specified in the configuration properties associated with the searched file name will be used.
 
 _strFilesToIgnore_

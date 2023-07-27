@@ -1,20 +1,22 @@
 # VerticalPage Property (ScrollProp Object)
 
-Corresponds to the **Always Enable 1 Page Vertical Scroll** check box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to theAlways Enable 1 Page Vertical Scroll check box in the [Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **VerticalPage** ;
+### \[JavaScript\]
 
-object. **VerticalPage**  = _b_;
+```
+b = object.VerticalPage ;
+object.VerticalPage  = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **VerticalPage**
-
-object. **VerticalPage**  = _b_
+```
+b = object.VerticalPage
+object.VerticalPage  = b
+```
 
 ## Version
 

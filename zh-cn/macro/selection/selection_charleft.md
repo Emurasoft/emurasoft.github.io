@@ -2,13 +2,19 @@
 
 把光标向左移动指定的字符数。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **CharLeft**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.CharLeft( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **CharLeft** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.CharLeft [ bExtend [, nCount ] ]
+```
 
 ## 参数
 
@@ -18,7 +24,7 @@ _bExtend_
 
 _nCount_
 
-可选项。指定向左移动的字符数。默认值是 1。如果指定的是负数，该方法与 [**CharRight** \
+可选项。指定向左移动的字符数。默认值是 1。如果指定的是负数，该方法与 [CharRight \
 方法](selection_charright) 的行为相同。如果指定的是 0，会向左移动 1 个字符。
 
 ## 版本

@@ -13,12 +13,12 @@ lParam = (LPCTSTR) (LPCTSTR) pCustomBarInfo;
 
 _pCustomBarInfo_
 
-> Pointer to the [CUSTOM\_BAR\_INFO structure](../structure/custom_bar_info).
+Pointer to the [CUSTOM\_BAR\_INFO structure](../structure/custom_bar_info).
 
 ## Return Values
 
-> The return value is a custom bar ID, which is necessary when the custom bar is closed with the EE\_CUSTOM\_BAR\_CLOSE message. If the message fails, the return value is zero.
+The return value is a custom bar ID, which is necessary when the custom bar is closed with the EE\_CUSTOM\_BAR\_CLOSE message. If the message fails, the return value is zero.
 
 ## Version
 
-> Supported on EmEditor Professional Version 6.00 or later.
+Supported on EmEditor Professional Version 6.00 or later.

@@ -1,33 +1,38 @@
 # Clear Output Bar command
 
-### Summary
+## Summary
 
-> Clears the contents of the Output Bar.
+Clears the contents of the Output Bar.
 
-### Description
+## Description
 
-> Clears the contents of the Output Bar.
+Clears the contents of the Output Bar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** >
-**Output Bar** >
-**Clear Output**
+- [All Commands](../tools/all_commands):View >
+Output Bar >
+Clear Output
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_OUTPUT\_CLEAR (4452)
+```
+EEID_OUTPUT_CLEAR (4452)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4452);
+```
+editor.ExecuteCommandByID(4452);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4452
+```
+editor.ExecuteCommandByID 4452
+```

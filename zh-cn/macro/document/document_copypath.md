@@ -2,13 +2,19 @@
 
 仅复制文档的路径到剪贴板上。
 
-#### \[JavaScript\]
+## 
 
-document. **CopyPath**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.CopyPath();
+```
 
-document. **CopyPath**
+### \[VBScript\]
+
+```
+document.CopyPath
+```
 
 ## 版本
 

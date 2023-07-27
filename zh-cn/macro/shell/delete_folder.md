@@ -2,13 +2,19 @@
 
 删除一个或多个指定的文件夹及其内容。指定的文件夹即使不为空也会被删除。
 
-#### \[JavaScript\]
+## 
 
-shell. **DeleteFolder**( _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.DeleteFolder( strFolder );
+```
 
-shell. **DeleteFolder** _strFolder_
+### \[VBScript\]
+
+```
+shell.DeleteFolder strFolder
+```
 
 ## 参数
 
@@ -18,13 +24,17 @@ _strFolder_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.DeleteFolder( "C:\\\Test\\\folder" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.DeleteFolder "C:\\Test\\folder"
+```
 
 ## 版本
 

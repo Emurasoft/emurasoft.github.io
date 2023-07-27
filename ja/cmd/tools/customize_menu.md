@@ -1,14 +1,14 @@
 # \[メニューの変更\] コマンド
 
-### 概要
+## 概要
 
-> メニューの設定を行います。
+メニューの設定を行います。
 
-### 説明
+## 説明
 
-> [\[メニューの変更\] ダイアログ ボックス](../../dlg/menus/index) を表示して、メニューに関する設定を行います。
+[\[メニューの変更\] ダイアログ ボックス](../../dlg/menus/index) を表示して、メニューに関する設定を行います。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ツール\] \- \[メニューの変更\]
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[メニューの変更\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CUSTOMIZE\_MENU (4266)
+```
+EEID_CUSTOMIZE_MENU (4266)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4266);
+```
+editor.ExecuteCommandByID(4266);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4266
+```
+editor.ExecuteCommandByID 4266
+```

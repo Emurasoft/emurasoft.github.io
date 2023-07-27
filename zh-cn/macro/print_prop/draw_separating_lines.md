@@ -1,20 +1,22 @@
 # DrawSeparatingLines 属性 (PrintProp ����)
 
-与配置属性中 [**打印** 页面](../../dlg/properties/print/index) 上的 **插入分隔线** 复选框相对应。
+与配置属性中 [打印 页面](../../dlg/properties/print/index) 上的插入分隔线 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DrawSeparatingLines**;
+### \[JavaScript\]
 
-object. **DrawSeparatingLines** = _b_;
+```
+b = object.DrawSeparatingLines;
+object.DrawSeparatingLines = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DrawSeparatingLines**
-
-object. **DrawSeparatingLines** = _b_
+```
+b = object.DrawSeparatingLines
+object.DrawSeparatingLines = b
+```
 
 ## 版本
 

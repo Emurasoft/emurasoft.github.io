@@ -1,14 +1,14 @@
 # \[最後にアクセスした文書\] コマンド
 
-### 概要
+## 概要
 
-> 最後にアクセスした文書に切り替えます。
+最後にアクセスした文書に切り替えます。
 
-### 説明
+## 説明
 
-> 最後にアクセスした文書に切り替えます。
+最後にアクセスした文書に切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[文書ナビゲーション\] \- \[最後にアクセスした文書\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_NEXT\_ZORDER\_DOC (4544)
+```
+EEID_NEXT_ZORDER_DOC (4544)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4544);
+```
+editor.ExecuteCommandByID(4544);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4544
+```
+editor.ExecuteCommandByID 4544
+```

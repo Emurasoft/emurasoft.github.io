@@ -1,32 +1,37 @@
 # Enable All Markers command
 
-### Summary
+## Summary
 
-> Enables all markers.
+Enables all markers.
 
-### Description
+## Description
 
-> Enables all markers.
+Enables all markers.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Markers**
-\> **Enable All**
+- [All Commands](../tools/all_commands):View \>Markers
+\>Enable All
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MARKER\_ENABLE\_ALL (4585)
+```
+EEID_MARKER_ENABLE_ALL (4585)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4585);
+```
+editor.ExecuteCommandByID(4585);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4585
+```
+editor.ExecuteCommandByID 4585
+```

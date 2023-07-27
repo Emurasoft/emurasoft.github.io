@@ -1,32 +1,37 @@
 # Move Line Down command
 
-### Summary
+## Summary
 
-> Moves the selected lines or the current line down one line.
+Moves the selected lines or the current line down one line.
 
-### Description
+## Description
 
-> Moves the selected lines or the current line down one line.
+Moves the selected lines or the current line down one line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move**
-\> **Move Line Down**
+- [All Commands](../tools/all_commands):Edit \>Move
+\>Move Line Down
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL + SHIFT + DOWN
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MOVE\_LINE\_DOWN (3859)
+```
+EEID_MOVE_LINE_DOWN (3859)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3859);
+```
+editor.ExecuteCommandByID(3859);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3859
+```
+editor.ExecuteCommandByID 3859
+```

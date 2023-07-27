@@ -1,18 +1,22 @@
 # Interval 屬性 (AutoSaveProp ��H)
 
-與組態屬與組態屬性中 [**自動儲存** 頁面](../../dlg/properties/autosave/index) 上的 **間隔分鐘** 文字方塊對應。
+與組態屬與組態屬性中 [自動儲存 頁面](../../dlg/properties/autosave/index) 上的間隔分鐘 文字方塊對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Interval**;
+### \[JavaScript\]
 
-object. **Interval** = _n_;
+```
+n = object.Interval;
+object.Interval = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Interval**
-
-object. **Interval** = _n_
+```
+n = object.Interval
+object.Interval = n
+```
 
 ## 版本
 

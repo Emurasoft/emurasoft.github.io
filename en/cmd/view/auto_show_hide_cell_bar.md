@@ -1,32 +1,37 @@
 # Automatically Show/Hide Cell Toolbar command
 
-### Summary
+## Summary
 
-> Automatically shows or hides the cell toolbar.
+Automatically shows or hides the cell toolbar.
 
-### Description
+## Description
 
-> Automatically shows or hides the cell toolbar.
+Automatically shows or hides the cell toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Cell Toolbar Options** \> **Automatically Show/Hide Cell Toolbar**
+- [All Commands](../tools/all_commands):View >
+Toolbars \>Cell Toolbar Options \>Automatically Show/Hide Cell Toolbar
 - Toolbar: ![](../../images/commonsettings.gif) (Cell toolbar) + Automatically Show/Hide Cell Toolbar
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CELL\_BAR\_AUTO\_SHOW (3969)
+```
+EEID_CELL_BAR_AUTO_SHOW (3969)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3969);
+```
+editor.ExecuteCommandByID(3969);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3969
+```
+editor.ExecuteCommandByID 3969
+```

@@ -2,13 +2,19 @@
 
 Retrieves the sum of the numbers contained in the selection.
 
-#### \[JavaScript\]
+## 
 
-_v_ = document.selection. **Sum**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+v = document.selection.Sum;
+```
 
-_v_ = document.selection. **Sum**
+### \[VBScript\]
+
+```
+v = document.selection.Sum
+```
 
 ## Version
 

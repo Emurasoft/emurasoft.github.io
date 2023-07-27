@@ -84,7 +84,7 @@
 | ![](../../images/reset24x16.gif)[重設](../../cmd/diff/compare_reset) | 重設比較或同步捲動模式并清除比較結果。 |
 | ![](../../images/line_number24x16.gif)[行號](../../cmd/view/view_line_numbers) | 顯示或隱藏行號。 |
 | ![](../../images/ruler24x16.gif)[尺規](../../cmd/view/view_ruler) | 顯示或隱藏尺規。 |
-| **![Outline](../../images/plugin_outline.gif)**[大綱顯示](../../cmd/view/outline_bar_guide) | 顯示或隱藏大綱顯示條和大綱導引。 |
+|![Outline](../../images/plugin_outline.gif)[大綱顯示](../../cmd/view/outline_bar_guide) | 顯示或隱藏大綱顯示條和大綱導引。 |
 | ![](../../images/auto_indent24x16.gif)[自動縮排](../../cmd/view/toggle_auto_indent) | 啟用或停用自動縮排。 |
 | ![](../../images/space_tab24x16.gif)[將 Tab轉換為空白](../../cmd/view/toggle_spaces_tab) | 將 Tab轉換為空白。 |
 | ![](../../images/wrap_indent24x16.gif)[換行縮排](../../cmd/view/toggle_wrap_indent) | 啟用或停用換行縮排。 |
@@ -101,10 +101,10 @@
 | ![CommitList](../../images/plugin_commit_list.gif)[提交清單](../plugin/plugin_commit_list) | 提交清單外掛程式。 |
 | ![Explorer](../../images/plugin_explorer.gif)[檔案總管](../plugin/plugin_explorer) | 檔案總管外掛程式。 |
 | ![](../../images/htmlbar.gif)[HTMLBar](../plugin/plugin_htmlbar) | HTMLBar 外掛程式。 |
-| **![Open Documents](../../images/plugin_opendocuments.gif)**[打開的文檔](../plugin/plugin_opendocuments) | 打開的文檔外掛程式。 |
-| **![](../../images/projects.gif)**[項目](../plugin/plugin_projects) | 專案外掛程式。 |
-| **![Search](../../images/plugin_search.gif)**[搜尋](../plugin/plugin_search) | 搜尋外掛程式。 |
-| **![Snippets](../../images/plugin_snippets.gif)**[程式碼片段](../plugin/plugin_snippets) | 程式碼片段外掛程式。 |
+|![Open Documents](../../images/plugin_opendocuments.gif)[打開的文檔](../plugin/plugin_opendocuments) | 打開的文檔外掛程式。 |
+|![](../../images/projects.gif)[項目](../plugin/plugin_projects) | 專案外掛程式。 |
+|![Search](../../images/plugin_search.gif)[搜尋](../plugin/plugin_search) | 搜尋外掛程式。 |
+|![Snippets](../../images/plugin_snippets.gif)[程式碼片段](../plugin/plugin_snippets) | 程式碼片段外掛程式。 |
 | ![Web Preview](../../images/plugin_webpreview.gif)[網頁預覽](../plugin/plugin_webpreview) | 網頁預覽外掛程式。 |
 | ![](../../images/wordcomplete.gif)[字詞自動完成](../plugin/plugin_wordcomplete) | 字詞自動完成外掛程式。 |
-| **![Word Count](../../images/plugin_wordcount.gif)**[字數統計](../plugin/plugin_wordcount) | 字數統計外掛程式。 |
+|![Word Count](../../images/plugin_wordcount.gif)[字數統計](../plugin/plugin_wordcount) | 字數統計外掛程式。 |

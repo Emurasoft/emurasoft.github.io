@@ -1,31 +1,36 @@
 # Duplicate Line command
 
-### Summary
+## Summary
 
-> Duplicates the current logical line.
+Duplicates the current logical line.
 
-### Description
+## Description
 
-> Inserts a copy of the current logical line below the current cursor position.
+Inserts a copy of the current logical line below the current cursor position.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Duplicate Line**
-- [All Commands](../tools/all_commands): **Insert** \> **Duplicate Line**
+- Default Menu:Insert \>Duplicate Line
+- [All Commands](../tools/all_commands):Insert \>Duplicate Line
 - Toolbar: ![](../../images/duplicateline.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+Y
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DUPLICATE\_LINE (4328)
+```
+EEID_DUPLICATE_LINE (4328)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.DuplicateLine();
+```
+document.selection.DuplicateLine();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.DuplicateLine
+```
+document.selection.DuplicateLine
+```

@@ -14,16 +14,16 @@ lParam = (LPARAM) (MSG\*) pMsg;
 
 _hwndView_
 
-> The window handle to the EmEditor view.
+The window handle to the EmEditor view.
 
 _pMsg_
 
-> The pointer to the window message before translated.
+The pointer to the window message before translated.
 
 ## Return Values
 
-> If the return value is TRUE, the message is not be continued to be translated or dispatched. If the return value is FALSE, the message is continued to be translated or dispatched.
+If the return value is TRUE, the message is not be continued to be translated or dispatched. If the return value is FALSE, the message is continued to be translated or dispatched.
 
 ## Version
 
-> Supported on Version 6.00 or later.
+Supported on Version 6.00 or later.

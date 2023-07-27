@@ -1,15 +1,15 @@
 # \[バージョン情報\] コマンド
 
-### 概要
+## 概要
 
-> バージョン情報を表示します。
+バージョン情報を表示します。
 
-### 説明
+## 説明
 
-> このコマンドを実行すると、 [\[EmEditor のバージョン情報\] ダイアログ \
-> ボックス](../../dlg/about/index) が表示され、EmEditor のバージョン情報などを確認することができます。
+このコマンドを実行すると、 [\[EmEditor のバージョン情報\] ダイアログ \
+ボックス](../../dlg/about/index) が表示され、EmEditor のバージョン情報などを確認することができます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ヘルプ\] \- \[バージョン情報\]
 - [すべてのコマンド](../../glossary/allcommands): \[ヘルプ\] \- \[バージョン情報\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_APP\_ABOUT (4250)
+```
+EEID_APP_ABOUT (4250)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4250);
+```
+editor.ExecuteCommandByID(4250);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4250
+```
+editor.ExecuteCommandByID 4250
+```

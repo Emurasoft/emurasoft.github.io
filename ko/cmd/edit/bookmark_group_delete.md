@@ -1,31 +1,36 @@
 # 이 그룹의 책갈피된 줄 삭제 명령
 
-### 요약
+## 요약
 
-> 이 그룹의 모든 책갈피된 줄을 지웁니다.
+이 그룹의 모든 책갈피된 줄을 지웁니다.
 
-### 설명
+## 설명
 
-> 이 그룹의 모든 책갈피된 줄을 지웁니다.
+이 그룹의 모든 책갈피된 줄을 지웁니다.
 
-### 실행하는 방법
+## 실행하는 방법
 
-- 기본 메뉴: **편집** \> **책갈피** \> **이 그룹** \> **책갈피된 줄 삭제**
-- [모든 명령](../tools/all_commands): **편집** \> **책갈피** \> **이 그룹** \> **책갈피된 줄 삭제**
+- 기본 메뉴:편집 \>책갈피 \>이 그룹 \>책갈피된 줄 삭제
+- [모든 명령](../tools/all_commands):편집 \>책갈피 \>이 그룹 \>책갈피된 줄 삭제
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
-### 플러그인 명령 ID
+## 플러그인 명령 ID
 
-- EEID\_BOOKMARK\_GROUP\_DELETE (4596)
+```
+EEID_BOOKMARK_GROUP_DELETE (4596)```
 
-### 매크로
+## 매크로
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4596);
+```
+editor.ExecuteCommandByID(4596);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4596
+```
+editor.ExecuteCommandByID 4596
+```

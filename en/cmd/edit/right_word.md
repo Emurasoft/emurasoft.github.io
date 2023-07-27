@@ -1,34 +1,39 @@
 # Word Right command
 
-### Summary
+## Summary
 
-> Moves the cursor one word to the right.
+Moves the cursor one word to the right.
 
-### Description
+## Description
 
-> Moves the cursor one word to the right. This command ignores white space,
-> and moves the cursor to the start of
-> the next word in the current line.
+Moves the cursor one word to the right. This command ignores white space,
+and moves the cursor to the start of
+the next word in the current line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
-\> **Word Right**
+- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
+\>Word Right
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+RIGHT ARROW
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_RIGHT\_WORD (4158)
+```
+EEID_RIGHT_WORD (4158)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.WordRight(false,1);
+```
+document.selection.WordRight(false,1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.WordRight false,1
+```
+document.selection.WordRight false,1
+```

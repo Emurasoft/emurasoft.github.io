@@ -1,16 +1,20 @@
 # Item 属性 (CharacterRanges ����)
 
-为指定索引检索 [**CharacterRange** 对象](../character_range/index)。
+为指定索引检索 [CharacterRange 对象](../character_range/index)。
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-list. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = list.Item( Index );
+```
 
-_item_ =
-list. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = list.Item( Index )
+```
 
 ## 参数
 

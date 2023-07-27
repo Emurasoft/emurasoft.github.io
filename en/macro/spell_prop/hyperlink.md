@@ -1,20 +1,22 @@
 # Hyperlink Property (SpellProp Object)
 
-Corresponds to the **Hyperlinks** check box in the [**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to theHyperlinks check box in the [Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Hyperlink**;
+### \[JavaScript\]
 
-object. **Hyperlink** = _b_;
+```
+b = object.Hyperlink;
+object.Hyperlink = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Hyperlink**
-
-object. **Hyperlink** = _b_
+```
+b = object.Hyperlink
+object.Hyperlink = b
+```
 
 ## Version
 

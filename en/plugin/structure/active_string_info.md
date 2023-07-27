@@ -18,20 +18,20 @@ UINT nFlags;
 
 _cbSize_
 
-> Size of this data structure, in bytes. Set this member to sizeof( ACTIVE\_STRING\_INFO ) before sending the [EE\_GET\_ACTIVE\_STRING](../message/ee_get_active_string) message.
+Size of this data structure, in bytes. Set this member to sizeof( ACTIVE\_STRING\_INFO ) before sending the [EE\_GET\_ACTIVE\_STRING](../message/ee_get_active_string) message.
 
 _pBuf_
 
-> Specifies the buffer to receive the active string.
+Specifies the buffer to receive the active string.
 
 _cchBuf_
 
-> Specifies the size of the buffer in characters.
+Specifies the size of the buffer in characters.
 
 _nFlags_
 
-> Currently not used.
+Currently not used.
 
 ## Version
 
-> Supported on Version 16.9 or later.
+Supported on Version 16.9 or later.

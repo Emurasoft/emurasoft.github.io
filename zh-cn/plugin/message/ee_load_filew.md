@@ -13,12 +13,12 @@ lParam = (LPARAM) (LPCWSTR) szFileName;
 
 _pLoadFileInfo_
 
-> 指针指向一个 [LOAD\_FILE\_INFO](../structure/load_file_info) 结构。如果该参数为空 (NULL)，EE\_LOAD\_FILEW 会通过属性中预设的方式打开一个文件。
+指针指向一个 [LOAD\_FILE\_INFO](../structure/load_file_info) 结构。如果该参数为空 (NULL)，EE\_LOAD\_FILEW 会通过属性中预设的方式打开一个文件。
 
 _szFileName_
 
-> 用字节指定一个完整路径文件名称。如果指定了一个不存在的文件，EE\_LOAD\_FILEW 会失败。
+用字节指定一个完整路径文件名称。如果指定了一个不存在的文件，EE\_LOAD\_FILEW 会失败。
 
 ## 返回值
 
-> 如果命令被启用，返回值就不是零。如果命令没有被启用，返回值是零。
+如果命令被启用，返回值就不是零。如果命令没有被启用，返回值是零。

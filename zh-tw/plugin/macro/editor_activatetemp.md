@@ -8,20 +8,20 @@ Editor\_ActivateTemp( HWND hwnd, UINT nEditID, POINT\_PTR\* pptInitialCaret = NU
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _nEditID_
 
-> 指定您想要激活的臨時文字的 ID。S
+指定您想要激活的臨時文字的 ID。S
 
 _pptInitialCaret_
 
-> 指定初始游標位置。
+指定初始游標位置。
 
 ## 返回值
 
-> 返回值是新文檔的 ID。
+返回值是新文檔的 ID。
 
 ## 支持版本
 
-> 支持 EmEditor 9.00 或之後的版本。
+支持 EmEditor 9.00 或之後的版本。

@@ -2,13 +2,19 @@
 
 CSV 文書から指定する列を抽出して新規文書を作成します。
 
-#### \[JavaScript\]
+## 
 
-document. **ExtractColumns**( _strColumns_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.ExtractColumns( strColumns );
+```
 
-document. **ExtractColumns** _strColumns_
+### \[VBScript\]
+
+```
+document.ExtractColumns strColumns
+```
 
 ## パラメータ
 

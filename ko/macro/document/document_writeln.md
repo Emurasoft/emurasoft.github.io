@@ -2,13 +2,19 @@
 
 현재 커서 위치에 문자열과 새 줄을 삽입하거나 덮어쓰기합니다.
 
-#### \[JavaScript\]
+## 
 
-document. **writeln**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.writeln( str );
+```
 
-document. **writeln** _str_
+### \[VBScript\]
+
+```
+document.writeln str
+```
 
 ## 매개 변수
 
@@ -18,13 +24,17 @@ _str_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-document. **writeln**( "Hello" );
+```
+document.writeln( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document. **writeln** "Hello"
+```
+document.writeln "Hello"
+```
 
 ## 버전
 

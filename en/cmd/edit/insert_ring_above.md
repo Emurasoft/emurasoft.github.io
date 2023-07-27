@@ -1,31 +1,36 @@
 # Insert Ring command
 
-### Summary
+## Summary
 
-> Inserts a character with a ring accent mark.
+Inserts a character with a ring accent mark.
 
-### Description
+## Description
 
-> After selecting this command, insert a character with a ring (å or Å) at the cursor by typing a or A, or the degree symbol (°) by typing a space.
+After selecting this command, insert a character with a ring (å or Å) at the cursor by typing a or A, or the degree symbol (°) by typing a space.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Diacritics** \> **Ring Above**
-- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Ring Above**
+- Default Menu:Insert \>Diacritics \>Ring Above
+- [All Commands](../tools/all_commands):Insert \>Diacritics \>Ring Above
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+2
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT\_RING\_ABOVE (4308)
+```
+EEID_INSERT_RING_ABOVE (4308)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4308);
+```
+editor.ExecuteCommandByID(4308);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4308
+```
+editor.ExecuteCommandByID 4308
+```

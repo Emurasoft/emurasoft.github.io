@@ -2,13 +2,19 @@
 
 문서의 시작점으로 커서를 이동합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **StartOfDocument**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.StartOfDocument( [ bExtend ] );
+```
 
-document.selection. **StartOfDocument** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.StartOfDocument [ bExtend ]
+```
 
 ## 매개 변수
 

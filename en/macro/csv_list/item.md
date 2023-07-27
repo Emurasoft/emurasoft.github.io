@@ -1,14 +1,20 @@
 # Item Property (CsvList Collection)
 
-Retrieves the [**Csv** object](../csv/index) of the specified index.
+Retrieves the [Csv object](../csv/index) of the specified index.
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor.CsvList. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.CsvList.Item( Index );
+```
 
-_doc_ = editor.CsvList. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+doc = editor.CsvList.Item( Index )
+```
 
 ## Parameters
 
@@ -18,13 +24,17 @@ Specifies the index of the Csv object as a one-based integer.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Name for the first Csv object: " + editor.CsvList.Item(1).Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Name for the first Csv object: " & editor.CsvList.Item(1).Name
+```
 
 ## Version
 

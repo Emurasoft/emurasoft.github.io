@@ -1,14 +1,20 @@
 # document Property (Window Object)
 
-Returns the [**Document** Object](../document/index).
+Returns the [Document Object](../document/index).
 
-#### \[JavaScript\]
+## 
 
-_doc_ = **document**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc =document;
+```
 
-Set _doc_ = **document**
+### \[VBScript\]
+
+```
+Set doc =document
+```
 
 ## Version
 

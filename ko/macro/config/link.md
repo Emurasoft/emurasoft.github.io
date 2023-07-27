@@ -2,13 +2,19 @@
 
 [LinkProp 개체](../link_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Link**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Link;
+```
 
-_obj_ = object. **Link**
+### \[VBScript\]
+
+```
+obj = object.Link
+```
 
 ## 버전
 

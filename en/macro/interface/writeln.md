@@ -2,13 +2,19 @@
 
 Passes a string and a newline character to a supported plug-in.
 
-#### \[JavaScript\]
+## 
 
-Interface. **writeln**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Interface.writeln( str );
+```
 
-Interface. **writeln** _str_
+### \[VBScript\]
+
+```
+Interface.writeln str
+```
 
 ## Parameters
 
@@ -18,13 +24,17 @@ Specifies the string to be passed.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-Interface. **writeln**( "Hello" );
+```
+Interface.writeln( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Interface. **writeln** "Hello"
+```
+Interface.writeln "Hello"
+```
 
 ## Version
 

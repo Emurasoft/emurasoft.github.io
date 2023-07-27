@@ -1,20 +1,22 @@
 # AlwaysEnabled 属性 (FileSaveProp ����)
 
-与 [**保存详细信息** 对话框](../../dlg/properties/file/save_details/index) 中的 **总是启用保存** 复选框相对应。
+与 [保存详细信息 对话框](../../dlg/properties/file/save_details/index) 中的总是启用保存 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **AlwaysEnabled**;
+### \[JavaScript\]
 
-object. **AlwaysEnabled** = _b_;
+```
+b = object.AlwaysEnabled;
+object.AlwaysEnabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **AlwaysEnabled**
-
-object. **AlwaysEnabled** = _b_
+```
+b = object.AlwaysEnabled
+object.AlwaysEnabled = b
+```
 
 ## 版本
 

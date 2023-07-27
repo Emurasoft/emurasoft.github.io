@@ -2,23 +2,33 @@
 
 文書のファイル名をパスを付けないで取得するか、または文書のファイル名をリネームします。文書が無題の場合、ファイルを保存しないで文書のタイトルを変更します。
 
-#### \[JavaScript\]
+## 
 
-_strName_ = document. **Name**;document. **Name** = _strName_;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = document.Name;document.Name = strName;
+```
 
-_strName_ = document. **Name** document. **Name** = _strName_
+### \[VBScript\]
+
+```
+strName = document.Name document.Name = strName
+```
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( document.Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert document.Name
+```
 
 ## バージョン
 

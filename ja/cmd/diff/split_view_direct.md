@@ -1,14 +1,14 @@
 # \[分割表示\] コマンド
 
-### 概要
+## 概要
 
-> 最近表示した 2 個の文書を分割表示します。
+最近表示した 2 個の文書を分割表示します。
 
-### 説明
+## 説明
 
-> 最近表示した 2 個の文書を分割表示します。
+最近表示した 2 個の文書を分割表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[比較\] \- \[分割表示\]
 - [すべてのコマンド](../../glossary/allcommands): \[比較\] \- \[分割表示\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SPLIT\_VIEW\_DIRECT (4085)
+```
+EEID_SPLIT_VIEW_DIRECT (4085)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4085);
+```
+editor.ExecuteCommandByID(4085);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4085
+```
+editor.ExecuteCommandByID 4085
+```

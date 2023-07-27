@@ -1,32 +1,37 @@
 # Invert Selection command
 
-### Summary
+## Summary
 
-> Inverts the selection.
+Inverts the selection.
 
-### Description
+## Description
 
-> Inverts the selection.
+Inverts the selection.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Advanced** \> **Invert Selection**
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Invert Selection**
+- Default Menu:Edit \>Advanced \>Invert Selection
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Invert Selection
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INVERT\_SELECTION (4065)
+```
+EEID_INVERT_SELECTION (4065)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4065);
+```
+editor.ExecuteCommandByID(4065);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4065
+```
+editor.ExecuteCommandByID 4065
+```

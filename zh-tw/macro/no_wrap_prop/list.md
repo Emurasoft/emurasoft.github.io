@@ -2,19 +2,21 @@
 
 檢索 [NoWrapList 集合](../no_wrap_list/index)。
 
-#### \[JavaScript\]
+## 
 
-_list_ =
-object.List;
+### \[JavaScript\]
 
-object.List = _list_;
+```
+list = object.List;
+object.List = list;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_list_ =
-object.List
-
-object.List = _list_
+```
+list = object.List
+object.List = list
+```
 
 ## 版本
 

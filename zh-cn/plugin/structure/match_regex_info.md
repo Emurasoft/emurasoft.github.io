@@ -18,24 +18,24 @@ LPCWSTR pszText;
 
 _cbSize_
 
-> \[in\] 以字节为单位的数据结构大小。在发送 EE\_FIND\_REGEX 消息之前，把该成员设为sizeof( FIND\_REGEX\_INFO )。
+\[in\] 以字节为单位的数据结构大小。在发送 EE\_FIND\_REGEX 消息之前，把该成员设为sizeof( FIND\_REGEX\_INFO )。
 
 _nFlags_
 
-> \[in\] 指定一个下列值得组合。
->
-> |     |     |
-> | --- | --- |
-> | FLAG\_FIND\_CASE | 区分大小写。 |
+\[in\] 指定一个下列值得组合。
+
+|     |     |
+| --- | --- |
+| FLAG\_FIND\_CASE | 区分大小写。 |
 
 _pszRegex_
 
-> \[in\] 指定一个要搜索的正则表达式。
+\[in\] 指定一个要搜索的正则表达式。
 
 _pszText_
 
-> \[in\] 指定一个要搜索的字符串。
+\[in\] 指定一个要搜索的字符串。
 
 ## 版本
 
-> 支持 EmEditor 6.00 或之后的版本。
+支持 EmEditor 6.00 或之后的版本。

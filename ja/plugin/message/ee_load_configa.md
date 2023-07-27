@@ -13,8 +13,8 @@ lParam = (LPARAM) (LPCSTR) szConfigName;
 
 _szConfigName_
 
-> 設定の名前を指定します。
+設定の名前を指定します。
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。

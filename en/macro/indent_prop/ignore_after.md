@@ -1,18 +1,22 @@
 # IgnoreAfter Property (IndentProp Object)
 
-Corresponds to the **Ignore After (Regular Expression)** text box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
+Corresponds to theIgnore After (Regular Expression) text box in the [Tab/Index dialog box](../../dlg/properties/general/indent/index).
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **IgnoreAfter**;
+### \[JavaScript\]
 
-object. **IgnoreAfter** = _s_;
+```
+s = object.IgnoreAfter;
+object.IgnoreAfter = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **IgnoreAfter**
-
-object. **IgnoreAfter** = _s_
+```
+s = object.IgnoreAfter
+object.IgnoreAfter = s
+```
 
 ## Version
 

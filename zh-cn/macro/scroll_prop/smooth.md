@@ -1,20 +1,22 @@
 # Smooth 属性 (ScrollProp ����)
 
-与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **平滑滚动** 复选框相对应。
+与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的平滑滚动 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Smooth**;
+### \[JavaScript\]
 
-object. **Smooth** = _b_;
+```
+b = object.Smooth;
+object.Smooth = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Smooth**
-
-object. **Smooth** = _b_
+```
+b = object.Smooth
+object.Smooth = b
+```
 
 ## 版本
 

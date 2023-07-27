@@ -17,16 +17,16 @@ const INT\* piColumn;
 
 _cbSize_
 
-> Specifies sizeof( REARRANGE\_COLUMNS\_INFO ).
+Specifies sizeof( REARRANGE\_COLUMNS\_INFO ).
 
 _nSize_
 
-> Specifies the number of columns specified in the _piColumn_ field.
+Specifies the number of columns specified in the _piColumn_ field.
 
 _piColumn_
 
-> Specifies an array of integers, indicating the order of columns to be rearranged. For instance, "0, 2, 4" indicates the result will include the first, third, and fifth columns of the original CSV document.
+Specifies an array of integers, indicating the order of columns to be rearranged. For instance, "0, 2, 4" indicates the result will include the first, third, and fifth columns of the original CSV document.
 
 ## Version
 
-> Supported on Version 22.1 or later.
+Supported on Version 22.1 or later.

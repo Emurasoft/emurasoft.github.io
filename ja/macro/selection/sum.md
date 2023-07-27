@@ -2,13 +2,19 @@
 
 選択範囲に含まれる数の合計を取得します。
 
-#### \[JavaScript\]
+## 
 
-_v_ = document.selection. **Sum**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+v = document.selection.Sum;
+```
 
-_v_ = document.selection. **Sum**
+### \[VBScript\]
+
+```
+v = document.selection.Sum
+```
 
 ## バージョン
 

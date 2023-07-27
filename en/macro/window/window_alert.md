@@ -2,13 +2,19 @@
 
 Displays a message in a simple dialog box with the OK button.
 
-#### \[JavaScript\]
+## 
 
-**alert**( _strMessage_, _strMessage2_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+alert( strMessage, strMessage2 );
+```
 
-**alert** _strMessage_, _strMessage2_
+### \[VBScript\]
+
+```
+alert strMessage, strMessage2
+```
 
 ## Parameters
 

@@ -1,14 +1,20 @@
 # Interface プロパティ ()
 
-[**Interface** オブジェクト](../interface/index) を返します。
+[Interface オブジェクト](../interface/index) を返します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = **Interface**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj =Interface;
+```
 
-Set _obj_ = **Interface**
+### \[VBScript\]
+
+```
+Set obj =Interface
+```
 
 ## バージョン
 

@@ -1,34 +1,39 @@
 # Plug-ins Toolbar command
 
-### Summary
+## Summary
 
-> Shows or hides the plug-ins toolbar.
+Shows or hides the plug-ins toolbar.
 
-### Description
+## Description
 
-> Shows or hides the Plug-ins toolbar. The Plug-ins toolbar displays all installed
-> plug-in icons.
+Shows or hides the Plug-ins toolbar. The Plug-ins toolbar displays all installed
+plug-in icons.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **Plug-ins Toolbar**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Plug-ins Toolbar**
+- Default Menu:View >
+Toolbars \>Plug-ins Toolbar
+- [All Commands](../tools/all_commands):View >
+Toolbars \>Plug-ins Toolbar
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHOW\_PLUGINS\_BAR (4285)
+```
+EEID_SHOW_PLUGINS_BAR (4285)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4285);
+```
+editor.ExecuteCommandByID(4285);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4285
+```
+editor.ExecuteCommandByID 4285
+```

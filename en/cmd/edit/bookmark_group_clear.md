@@ -1,31 +1,36 @@
 # Clear All Bookmarks in This Group command
 
-### Summary
+## Summary
 
-> Clears all bookmarks in this group.
+Clears all bookmarks in this group.
 
-### Description
+## Description
 
-> Clears all bookmarks in this group.
+Clears all bookmarks in this group.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **This Group** \> **Clear All Bookmarks**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **This Group** \> **Clear All Bookmarks**
+- Default Menu:Bookmarks \>This Group \>Clear All Bookmarks
+- [All Commands](../tools/all_commands):Bookmarks \>This Group \>Clear All Bookmarks
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_GROUP\_CLEAR (4594)
+```
+EEID_BOOKMARK_GROUP_CLEAR (4594)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4594);
+```
+editor.ExecuteCommandByID(4594);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4594
+```
+editor.ExecuteCommandByID 4594
+```

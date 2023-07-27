@@ -8,12 +8,12 @@ Editor\_SetStatusA( HWND hwnd, LPCSTR szStatus );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _szStatus_
 
-> 指定要显示在状态栏上的消息文本。
+指定要显示在状态栏上的消息文本。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

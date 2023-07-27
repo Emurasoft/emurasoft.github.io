@@ -1,14 +1,14 @@
 # \[行を結合\] コマンド
 
-### 概要
+## 概要
 
-> 上下隣の重複したセルを結合します。
+上下隣の重複したセルを結合します。
 
-### 説明
+## 説明
 
-> このコマンドを実行すると、 [\[行を結合\] ダイアログ ボックス](../../dlg/combine_lines/index) が表示され、上下隣の重複したセルを結合します。
+このコマンドを実行すると、 [\[行を結合\] ダイアログ ボックス](../../dlg/combine_lines/index) が表示され、上下隣の重複したセルを結合します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[高度\] - \[行を結合\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[高度\] - \[行を結合\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_COMBINE\_LINES (4060)
+```
+EEID_COMBINE_LINES (4060)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4060);
+```
+editor.ExecuteCommandByID(4060);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4060
+```
+editor.ExecuteCommandByID 4060
+```

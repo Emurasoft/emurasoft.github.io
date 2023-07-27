@@ -1,21 +1,23 @@
 # HighlightCharRef Property (HighlightProp Object)
 
-Corresponds to the **Highlight HTML/XML Character Reference and UCN** check box in the
-[**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to theHighlight HTML/XML Character Reference and UCN check box in the
+[Highlight (2) page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HighlightCharRef**;
+### \[JavaScript\]
 
-object. **HighlightCharRef** = _b_;
+```
+b = object.HighlightCharRef;
+object.HighlightCharRef = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HighlightCharRef**
-
-object. **HighlightCharRef** = _b_
+```
+b = object.HighlightCharRef
+object.HighlightCharRef = b
+```
 
 ## Version
 

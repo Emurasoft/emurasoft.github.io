@@ -1,14 +1,14 @@
 # \[CR+LF (フィルター ツール バー)\] コマンド
 
-### 概要
+## 概要
 
-> フィルター ツール バーの \[CR+LF\] コマンドのオン/オフを切り替えます。
+フィルター ツール バーの \[CR+LF\] コマンドのオン/オフを切り替えます。
 
-### 説明
+## 説明
 
-> フィルター ツール バーの \[CR+LF\] コマンドのオン/オフを切り替えます。
+フィルター ツール バーの \[CR+LF\] コマンドのオン/オフを切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[フィルター ツール バー\] \- \[改行コードが一致する\] \- \[CR+LF\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FILTERBAR\_CR\_LF (4009)
+```
+EEID_FILTERBAR_CR_LF (4009)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4009);
+```
+editor.ExecuteCommandByID(4009);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4009
+```
+editor.ExecuteCommandByID 4009
+```

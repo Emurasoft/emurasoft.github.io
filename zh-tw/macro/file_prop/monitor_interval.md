@@ -1,18 +1,22 @@
 # MonitorInterval 屬性 (FileProp ��H)
 
-與組態屬性中 [**檔案** 頁面](../../dlg/properties/file/index) 上的 **監控時間間隔** 文字方塊相對應。
+與組態屬性中 [檔案 頁面](../../dlg/properties/file/index) 上的監控時間間隔 文字方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **MonitorInterval**;
+### \[JavaScript\]
 
-object. **MonitorInterval** = _n_;
+```
+n = object.MonitorInterval;
+object.MonitorInterval = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **MonitorInterval**
-
-object. **MonitorInterval** = _n_
+```
+n = object.MonitorInterval
+object.MonitorInterval = n
+```
 
 ## 版本
 

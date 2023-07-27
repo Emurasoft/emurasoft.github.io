@@ -2,13 +2,19 @@
 
 論理座標を表示座標に変換します。
 
-#### \[JavaScript\]
+## 
 
-_point_ = document. **LogicalView**( _x_, _y_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+point = document.LogicalView( x, y );
+```
 
-_point_ = document. **LogicalView**( _x_, _y_ )
+### \[VBScript\]
+
+```
+point = document.LogicalView( x, y )
+```
 
 ## パラメータ
 
@@ -22,21 +28,21 @@ _y_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 point = document.LogicalToView( 10, 1 );
-
 x = point.x;
-
 y = point.y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 point = document.LogicalToView( 10, 1 )
-
 x = point.x
-
 y = point.y
+```
 
 ## バージョン
 

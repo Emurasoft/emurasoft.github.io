@@ -1,20 +1,22 @@
 # IndentColumns 属性 (IndentProp ����)
 
-与 [**制表符/缩进** 对话框](../../dlg/properties/general/indent/index) 上的 **缩进列** 文本框相对应。
+与 [制表符/缩进 对话框](../../dlg/properties/general/indent/index) 上的缩进列 文本框相对应。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **IndentColumns**;
+### \[JavaScript\]
 
-object. **IndentColumns** = _n_;
+```
+n = object.IndentColumns;
+object.IndentColumns = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **IndentColumns**
-
-object. **IndentColumns** = _n_
+```
+n = object.IndentColumns
+object.IndentColumns = n
+```
 
 ## 版本
 

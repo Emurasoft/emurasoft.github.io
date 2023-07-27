@@ -2,13 +2,19 @@
 
 문서 내에서 이전 책갈피로 이동합니다.
 
-#### \[JavaScript\]
+## 
 
-_bFound_ = document.selection. **PreviousBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bFound = document.selection.PreviousBookmark();
+```
 
-_bFound_ = document.selection. **PreviousBookmark**
+### \[VBScript\]
+
+```
+bFound = document.selection.PreviousBookmark
+```
 
 ## 반환 값
 

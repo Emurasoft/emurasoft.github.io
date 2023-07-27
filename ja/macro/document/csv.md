@@ -2,13 +2,19 @@
 
 [Csv オブジェクト](../csv/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_mycsv_ = document. **Csv;**
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+mycsv = document.Csv;
+```
 
-Set _mycsv_ = document. **Csv**
+### \[VBScript\]
+
+```
+Set mycsv = document.Csv
+```
 
 ## バージョン
 

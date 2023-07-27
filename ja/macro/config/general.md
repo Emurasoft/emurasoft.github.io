@@ -2,13 +2,19 @@
 
 [GeneralProp オブジェクト](../general_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **General**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.General;
+```
 
-Set _obj_ = object. **General**
+### \[VBScript\]
+
+```
+Set obj = object.General
+```
 
 ## バージョン
 

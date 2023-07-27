@@ -1,33 +1,38 @@
 # Select Ending of Lines command
 
-### Summary
+## Summary
 
-> Selects the ending of lines in the selection.
+Selects the ending of lines in the selection.
 
-### Description
+## Description
 
-> Selects the ending of lines in the selection for vertical selection editing. These lines can then be edited simultaneously.
+Selects the ending of lines in the selection for vertical selection editing. These lines can then be edited simultaneously.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Selection Mode**
-\> **Select Ending of Lines**
-- [All Commands](../tools/all_commands): **Edit** \> **Selection Mode**
-\> **Select Ending of Lines**
+- Default Menu:Edit \>Selection Mode
+\>Select Ending of Lines
+- [All Commands](../tools/all_commands):Edit \>Selection Mode
+\>Select Ending of Lines
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SELECT\_END\_LINES (3849)
+```
+EEID_SELECT_END_LINES (3849)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3849);
+```
+editor.ExecuteCommandByID(3849);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3849
+```
+editor.ExecuteCommandByID 3849
+```

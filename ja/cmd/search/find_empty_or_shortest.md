@@ -1,14 +1,14 @@
 # \[最短行/セルを検索\] コマンド
 
-### 概要
+## 概要
 
-> 非CSV文書の最短行またはCSV文書の現在の列の最短セルを検索します。
+非CSV文書の最短行またはCSV文書の現在の列の最短セルを検索します。
 
-### 説明
+## 説明
 
-> 非CSV文書の最短行またはCSV文書の現在の列の最短セルを検索します。本コマンドは最後の空の行を検索しません。
+非CSV文書の最短行またはCSV文書の現在の列の最短セルを検索します。本コマンドは最後の空の行を検索しません。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[検索\] \- \[最短行/セルを検索\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[最短行/セルを検索\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FIND\_EMPTY\_OR\_SHORTEST (4064)
+```
+EEID_FIND_EMPTY_OR_SHORTEST (4064)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4064);
+```
+editor.ExecuteCommandByID(4064);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4064
+```
+editor.ExecuteCommandByID 4064
+```

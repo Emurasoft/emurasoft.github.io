@@ -2,13 +2,19 @@
 
 文字列を追加します。
 
-#### \[JavaScript\]
+## 
 
-list. **AddString**( _sFind_, _sTreatAs_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.AddString( sFind, sTreatAs );
+```
 
-list. **AddString** _sFind_, _sTreatAs_
+### \[VBScript\]
+
+```
+list.AddString sFind, sTreatAs
+```
 
 ## パラメータ
 

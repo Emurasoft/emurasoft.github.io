@@ -2,13 +2,19 @@
 
 根據對象提供的信息顯示對話方塊，並檢索所選按鈕、選項按鈕或命令連結的識別項。此方法忽略分隔項和子功能表。
 
-#### \[JavaScript\]
+## 
 
-id = popupmenu. **MsgBox**( _message_, _message2_, _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+id = popupmenu.MsgBox( message, message2, flags );
+```
 
-id = popupmenu. **MsgBox**( _message_, _message2_, _flags_ )
+### \[VBScript\]
+
+```
+id = popupmenu.MsgBox( message, message2, flags )
+```
 
 ## 參數
 
@@ -35,45 +41,33 @@ _flags_
 
 ## 範例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 menu = CreatePopupMenu();
-
 menu.Add( "Button 1", 1, eeMenuChecked );
-
 menu.Add( "Button 2", 2 );
-
 result = menu.MsgBox( "Header", "Body", eeIconInformation );
-
 if( result != 0 ) alert( menu.GetText( result ) );
-
 result = menu.MsgBox( "Header", "Body", eeCommandLinks \| eeIconExclamation );
-
 if( result != 0 ) alert( menu.GetText( result ) );
-
 result = menu.MsgBox( "Header", "Body", eeRadioButtons \| eeIconStop \| eeHideStopMacro );
-
 if( result != 0 ) alert( menu.GetText( result ) );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set menu = CreatePopupMenu()
-
 menu.Add "Button 1", 1, eeMenuChecked
-
 menu.Add "Button 2", 2
-
 result = menu.MsgBox( "Header", "Body", eeIconInformation )
-
 If result <> 0 Then alert( menu.GetText( result ) )
-
 result = menu.MsgBox( "Header", "Body", eeCommandLinks Or eeIconExclamation )
-
 If result <> 0 Then alert( menu.GetText( result ) )
-
 result = menu.MsgBox( "Header", "Body", eeRadioButtons Or eeIconStop Or eeHideStopMacro )
-
 If result <> 0 Then alert( menu.GetText( result ) )
+```
 
 ## 版本
 

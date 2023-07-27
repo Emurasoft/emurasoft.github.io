@@ -1,31 +1,35 @@
 # 向左滚动命令
 
-### 摘要
+## 摘要
 
-> 将文档向左滚动一个字符。
+将文档向左滚动一个字符。
 
-### 说明
+## 说明
 
-> 将文档向左滚动一个字符。
+将文档向左滚动一个字符。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands): **窗口** \> **滚动** \> **向左**
+- [所有命令](../tools/all_commands):窗口 \>滚动 \>向左
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令 ID
+## 插件命令 ID
 
 - EEID\_WINDOW\_SCROLL\_LEFT (4474)
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4474);
+```
+editor.ExecuteCommandByID(4474);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4474
+```
+editor.ExecuteCommandByID 4474
+```

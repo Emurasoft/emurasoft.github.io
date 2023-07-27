@@ -1,14 +1,14 @@
 # \[1行上へスクロール\] コマンド
 
-### 概要
+## 概要
 
-> 1行上へスクロールします。
+1行上へスクロールします。
 
-### 説明
+## 説明
 
-> 1 行上へスクロールします。ただし、プロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) で **\[2行スクロール\]** チェック ボックスがチェックされている場合、2 行上へスクロールします。
+1 行上へスクロールします。ただし、プロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) で\[2行スクロール\] チェック ボックスがチェックされている場合、2 行上へスクロールします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[スクロール\] \- \[1行上\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Up
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SCROLL\_UP (4170)
+```
+EEID_SCROLL_UP (4170)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4170);
+```
+editor.ExecuteCommandByID(4170);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4170
+```
+editor.ExecuteCommandByID 4170
+```

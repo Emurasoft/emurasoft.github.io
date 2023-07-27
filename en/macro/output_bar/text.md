@@ -2,13 +2,19 @@
 
 Retrieves the entire text in the output bar.
 
-#### \[JavaScript\]
+## 
 
-_str_ = OutputBar. **Text**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = OutputBar.Text;
+```
 
-_str_ = OutputBar. **Text**
+### \[VBScript\]
+
+```
+str = OutputBar.Text
+```
 
 ## Version
 

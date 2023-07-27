@@ -8,16 +8,16 @@ Editor\_CustomBarClose( HWND hwnd, UINT nCustomBarID );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nCustomBarID_
 
-> Specifies the custom bar to close. This is the return value from the Editor\_CustomBarOpen inline function.
+Specifies the custom bar to close. This is the return value from the Editor\_CustomBarOpen inline function.
 
 ## Return Values
 
-> If the message succeeds, the return value is TRUE. If the message fails, the return value is FALSE.
+If the message succeeds, the return value is TRUE. If the message fails, the return value is FALSE.
 
 ## Version
 
-> Supported on EmEditor Professional Version 6.00 or later.
+Supported on EmEditor Professional Version 6.00 or later.

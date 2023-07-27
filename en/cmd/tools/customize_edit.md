@@ -1,34 +1,39 @@
 # Customize Edit command
 
-### Summary
+## Summary
 
-> Opens the Edit page of the Customize dialog box.
+Opens the Edit page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the Edit page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the Edit page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**Edit**
+- [All Commands](all_commands):Tools >
+Customize >
+Edit
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_EDIT (9049)
+```
+EEID_CUSTOMIZE_EDIT (9049)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9049);
+```
+editor.ExecuteCommandByID(9049);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9049
+```
+editor.ExecuteCommandByID 9049
+```

@@ -1,18 +1,22 @@
 # IgnoreAfter 属性 (IndentProp ����)
 
-与 [**制表符/缩进** 对话框](../../dlg/properties/general/indent/index) 上的 **忽略正则表达式之后的内容** 文本框相对应。
+与 [制表符/缩进 对话框](../../dlg/properties/general/indent/index) 上的忽略正则表达式之后的内容 文本框相对应。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **IgnoreAfter**;
+### \[JavaScript\]
 
-object. **IgnoreAfter** = _s_;
+```
+s = object.IgnoreAfter;
+object.IgnoreAfter = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **IgnoreAfter**
-
-object. **IgnoreAfter** = _s_
+```
+s = object.IgnoreAfter
+object.IgnoreAfter = s
+```
 
 ## 版本
 

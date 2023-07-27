@@ -1,31 +1,36 @@
 # Top Edge Extend (Cell Selection Mode Only) command
 
-### Summary
+## Summary
 
-> Extends the selection to the top edge of the current data region.
+Extends the selection to the top edge of the current data region.
 
-### Description
+## Description
 
-> Extends the selection to the top edge of the current data region.
+Extends the selection to the top edge of the current data region.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode Only** \> **Top Edge Extend**
+- [All Commands](../tools/all_commands):CSV \>Cell Selection Mode Only \>Top Edge Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+UP ARROW (Cell Selection Mode Only)
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_TOP\_EDGE (4023)
+```
+EEID_SHIFT_TOP_EDGE (4023)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4023);
+```
+editor.ExecuteCommandByID(4023);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4023
+```
+editor.ExecuteCommandByID 4023
+```

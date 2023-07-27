@@ -1,32 +1,37 @@
 # Save and Close command
 
-### Summary
+## Summary
 
-> Saves and Close the current file.
+Saves and Close the current file.
 
-### Description
+## Description
 
-> Saves the changes to, and closes the current document.
+Saves the changes to, and closes the current document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **File** \> **Save and Close**
-- [All Commands](../tools/all_commands): **File** \> **Close**
-\> **Save and Close**
+- Default Menu:File \>Save and Close
+- [All Commands](../tools/all_commands):File \>Close
+\>Save and Close
 - Toolbar: ![](../../images/filesaveexit.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+E
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_SAVE\_EXIT (4116)
+```
+EEID_FILE_SAVE_EXIT (4116)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4116);
+```
+editor.ExecuteCommandByID(4116);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4116
+```
+editor.ExecuteCommandByID 4116
+```

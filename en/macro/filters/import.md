@@ -2,13 +2,19 @@
 
 Imports a TSV file to the collection.
 
-#### \[JavaScript\]
+## 
 
-list. **Import**( _strFileName_\[, _bAppend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Import( strFileName[, bAppend ] );
+```
 
-list. **Import** _strFileName_\[, _bAppend_ \]
+### \[VBScript\]
+
+```
+list.Import strFileName[, bAppend ]
+```
 
 ## Parameters
 
@@ -22,21 +28,21 @@ Specifies whether the method imports a file and appends the filters to the exist
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 var filters = document.filters;
-
 filters.Import( "E:\\\Test\\\filter.tsv" );
-
 document.filters = filters;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set filters = document.filters
-
 filters.Import "E:\\Test\\filter.tsv"
-
 document.filters = filters
+```
 
 ## Version
 

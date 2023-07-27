@@ -1,20 +1,24 @@
 # EndOfStatement Property (IndentProp Object)
 
-Corresponds to the **End**
-**of Statement** text box in the
-[**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
+Corresponds to theEnd
+of Statement text box in the
+[Tab/Index dialog box](../../dlg/properties/general/indent/index).
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **EndOfStatement**;
+### \[JavaScript\]
 
-object. **EndOfStatement** = _s_;
+```
+s = object.EndOfStatement;
+object.EndOfStatement = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **EndOfStatement**
-
-object. **EndOfStatement** = _s_
+```
+s = object.EndOfStatement
+object.EndOfStatement = s
+```
 
 ## Version
 

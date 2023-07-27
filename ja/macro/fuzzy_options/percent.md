@@ -2,17 +2,21 @@
 
 類似性をパーセントで設定または取得します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = obj. **Percent**;
+### \[JavaScript\]
 
-obj. **Percent** = _n_;
+```
+n = obj.Percent;
+obj.Percent = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = obj. **Percent**;
-
-obj. **Percent** = _n_;
+```
+n = obj.Percent;
+obj.Percent = n;
+```
 
 ## バージョン
 

@@ -2,17 +2,21 @@
 
 指定したウィンドウの水平方向の位置をピクセル単位で返すか、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_x_ = wnd. **LeftX**;
+### \[JavaScript\]
 
-wnd. **LeftX** = _x_;
+```
+x = wnd.LeftX;
+wnd.LeftX = x;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_x_ = wnd. **LeftX**
-
-wnd. **LeftX** = _x_
+```
+x = wnd.LeftX
+wnd.LeftX = x
+```
 
 ## バージョン
 

@@ -1,21 +1,23 @@
 # FastCursorMove プロパティ (ScrollProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の
-**\[カーソル移動の高速化\]** チェック ボックスに相当します。
+設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
+\[カーソル移動の高速化\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **FastCursorMove**;
+### \[JavaScript\]
 
-object. **FastCursorMove** = _b_;
+```
+b = object.FastCursorMove;
+object.FastCursorMove = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **FastCursorMove**
-
-object. **FastCursorMove** = _b_
+```
+b = object.FastCursorMove
+object.FastCursorMove = b
+```
 
 ## バージョン
 

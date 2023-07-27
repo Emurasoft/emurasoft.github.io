@@ -1,13 +1,13 @@
 # CharacterRanges 集合
 
-CharacterRanges 集合提供 [**CharacterRange** 對象](../character_range/index) 的集合。
+CharacterRanges 集合提供 [CharacterRange 對象](../character_range/index) 的集合。
 
 ## 屬性
 
 |     |     |
 | --- | --- |
 | [Count](count) | 檢索項目的數目。 |
-| [Item](item) | 為指定索引檢索 [**CharacterRange** 對象](../character_range/index)。 |
+| [Item](item) | 為指定索引檢索 [CharacterRange 對象](../character_range/index)。 |
 
 ## 方法
 

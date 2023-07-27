@@ -1,16 +1,24 @@
+## 
+
 #### [Editor Home](https://www.emeditor.com/) - [EmEditor Help](../../index) \- [EmEditor Macro Reference](../index) \- [Document Object](index) (Document Object)
 
 # BookmarkCount Property
 
 Retrieves the number of bookmarks in the document.
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **BookmarkCount**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = document.BookmarkCount;
+```
 
-_n_ = document. **BookmarkCount**
+### \[VBScript\]
+
+```
+n = document.BookmarkCount
+```
 
 ## Version
 

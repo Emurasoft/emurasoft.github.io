@@ -12,13 +12,13 @@ lParam = (LPARAM) (SEL\_INFO\*) pSelInfo;
 
 _iSel_
 
-> 要檢索信息的選區的索引。如果數值是 -1，那么選區的數目會被返回。
+要檢索信息的選區的索引。如果數值是 -1，那么選區的數目會被返回。
 
 _pSelInfo_
 
-> 指針指向
-> [SEL\_INFO](../../plugin/structure/sel_info) 結構。
+指針指向
+[SEL\_INFO](../../plugin/structure/sel_info) 結構。
 
 ## 返回值
 
-> 如果 _iSel_ 是 -1，返回值是選區的數目。否則，返回值是 TRUE 如果指定選區的信息被檢索。返回值是 FALSE 如果選區不是多個選區或者函數發生錯誤。
+如果 _iSel_ 是 -1，返回值是選區的數目。否則，返回值是 TRUE 如果指定選區的信息被檢索。返回值是 FALSE 如果選區不是多個選區或者函數發生錯誤。

@@ -1,16 +1,20 @@
 # SearchList 속성 (DisplayProp ��ü)
 
-색 검색 목록을 위해 [**HighlightList** 개체](../highlight_item/index) 를 검색합니다.
+색 검색 목록을 위해 [HighlightList 개체](../highlight_item/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_list_ =
-object. **SearchList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.SearchList;
+```
 
-_list_ =
-object. **SearchList**
+### \[VBScript\]
+
+```
+list = object.SearchList
+```
 
 ## 버전
 

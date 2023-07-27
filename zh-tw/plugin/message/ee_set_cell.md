@@ -12,12 +12,12 @@ lParam = (LPARAM) (LPWSTR) szString;
 
 _pGetCellInfo_
 
-> 指針指向 [GET\_CELL\_INFO](../structure/get_cell_info) 結構。
+指針指向 [GET\_CELL\_INFO](../structure/get_cell_info) 結構。
 
 _szString_
 
-> 指針指向要接收文字的緩沖區。
+指針指向要接收文字的緩沖區。
 
 ## 返回值
 
-> 如果成功，返回值為零或正數值，如果失敗，返回負數值。
+如果成功，返回值為零或正數值，如果失敗，返回負數值。

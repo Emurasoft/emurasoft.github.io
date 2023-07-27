@@ -1,20 +1,22 @@
 # KanaURL 屬性 (LinkProp ��H)
 
-與組態屬性中 [**連結** 頁面](../../dlg/properties/link/index) 上的 **識別單字節假名與假名符合為 URL** 核取方塊相對應。
+與組態屬性中 [連結 頁面](../../dlg/properties/link/index) 上的識別單字節假名與假名符合為 URL 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **KanaURL**;
+### \[JavaScript\]
 
-object. **KanaURL** = _b_;
+```
+b = object.KanaURL;
+object.KanaURL = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **KanaURL**
-
-object. **KanaURL** = _b_
+```
+b = object.KanaURL
+object.KanaURL = b
+```
 
 ## 版本
 

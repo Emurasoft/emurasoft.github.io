@@ -1,20 +1,22 @@
 # SelectInQuotes プロパティ (LinkProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[リンク\]** タブ](../../dlg/properties/link/index) の **\[引用符の内側をクリックするとその文字列を選択する\]** チェック ボックスに相当します。
+設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の\[引用符の内側をクリックするとその文字列を選択する\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SelectInQuotes**;
+### \[JavaScript\]
 
-object. **SelectInQuotes** = _b_;
+```
+b = object.SelectInQuotes;
+object.SelectInQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SelectInQuotes**
-
-object. **SelectInQuotes** = _b_
+```
+b = object.SelectInQuotes
+object.SelectInQuotes = b
+```
 
 ## バージョン
 

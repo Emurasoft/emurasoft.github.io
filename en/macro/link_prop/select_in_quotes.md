@@ -1,21 +1,23 @@
 # SelectInQuotes Property (LinkProp Object)
 
-Corresponds to the **Clicking**
-**in Quotes Selects the Whole String** check box in the [**Link** tab](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to theClicking
+in Quotes Selects the Whole String check box in the [Link tab](../../dlg/properties/link/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SelectInQuotes**;
+### \[JavaScript\]
 
-object. **SelectInQuotes** = _b_;
+```
+b = object.SelectInQuotes;
+object.SelectInQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SelectInQuotes**
-
-object. **SelectInQuotes** = _b_
+```
+b = object.SelectInQuotes
+object.SelectInQuotes = b
+```
 
 ## Version
 

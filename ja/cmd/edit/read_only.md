@@ -1,14 +1,14 @@
 # \[書き換え禁止\] コマンド
 
-### 概要
+## 概要
 
-> ファイルの保存の有効/無効を切り替えます。
+ファイルの保存の有効/無効を切り替えます。
 
-### 説明
+## 説明
 
-> ファイルの保存の有効/無効を切り替えます。
+ファイルの保存の有効/無効を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[書き換え禁止\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[高度な操作\] \- \[書き換え禁止\]
@@ -16,24 +16,25 @@
 - ステータス バー: \[書禁\] の項目をダブルクリック
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_READ\_ONLY (4113)
+```
+EEID_READ_ONLY (4113)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.ReadOnly=true;
-
+```
+document.ReadOnly=true;
 または
+document.ReadOnly=false;
+```
 
-> document.ReadOnly=false;
+### \[VBScript\]
 
-#### \[VBScript\]
-
-> document.ReadOnly=true
-
+```
+document.ReadOnly=true
 または
-
-> document.ReadOnly=false
+document.ReadOnly=false
+```

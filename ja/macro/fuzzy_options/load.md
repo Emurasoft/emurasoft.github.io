@@ -2,13 +2,19 @@
 
 あいまい一致のオプションをアプリのデータ フォルダーからロードします。
 
-#### \[JavaScript\]
+## 
 
-obj. **Load**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj.Load();
+```
 
-obj. **Load**
+### \[VBScript\]
+
+```
+obj.Load
+```
 
 ## バージョン
 

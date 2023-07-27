@@ -2,13 +2,19 @@
 
 在游標位置處設一個書籤。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SetBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SetBookmark();
+```
 
-document.selection. **SetBookmark**
+### \[VBScript\]
+
+```
+document.selection.SetBookmark
+```
 
 ## 版本
 

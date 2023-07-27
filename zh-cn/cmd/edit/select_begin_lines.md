@@ -1,33 +1,38 @@
 # 选择行首命令
 
-### 摘要
+## 摘要
 
-> 选择选区中的行首。
+选择选区中的行首。
 
-### 说明
+## 说明
 
-> 选择选区中的行首来进行垂直选取编辑。这些行能够被同时编辑。
+选择选区中的行首来进行垂直选取编辑。这些行能够被同时编辑。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **编辑** \> **选择模式**
-\> **选择行首**
-- [所有命令](../tools/all_commands): **编辑** \> **选择模式**
-\> **选择行首**
+- 默认菜单:编辑 \>选择模式
+\>选择行首
+- [所有命令](../tools/all_commands):编辑 \>选择模式
+\>选择行首
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_SELECT\_BEGIN\_LINES
+```
+EEID_SELECT_BEGIN_LINES```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3848);
+```
+editor.ExecuteCommandByID(3848);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3848
+```
+editor.ExecuteCommandByID 3848
+```

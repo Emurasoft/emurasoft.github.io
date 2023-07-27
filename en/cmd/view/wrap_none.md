@@ -1,36 +1,41 @@
 # No Wrap command
 
-### Summary
+## Summary
 
-> Displays each line without wrapping.
+Displays each line without wrapping.
 
-### Description
+## Description
 
-> Displays each line without wrapping. This command is equivalent to
-> selecting **No Wrap** from the
-> **Wrap by drop-down** list box
-> on the [**General** page](../../dlg/properties/general/index)
-> of **[Configuration Properties](../../dlg/properties/index)** dialog box.
+Displays each line without wrapping. This command is equivalent to
+selectingNo Wrap from the
+Wrap by drop-down list box
+on the [General page](../../dlg/properties/general/index)
+of[Configuration Properties](../../dlg/properties/index) dialog box.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **No Wrap**
-- [All Commands](../tools/all_commands): **View** >
-**No Wrap**
+- Default Menu:View \>No Wrap
+- [All Commands](../tools/all_commands):View >
+No Wrap
 - Toolbar: ![](../../images/wrapnone.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+1
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WRAP\_NONE (4208)
+```
+EEID_WRAP_NONE (4208)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4208);
+```
+editor.ExecuteCommandByID(4208);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4208
+```
+editor.ExecuteCommandByID 4208
+```

@@ -2,17 +2,21 @@
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[列ヘディング\] テキスト ボックス に相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Heading**;
+### \[JavaScript\]
 
-object. **Heading** = _n_;
+```
+n = object.Heading;
+object.Heading = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Heading**
-
-object. **Heading** = _n_
+```
+n = object.Heading
+object.Heading = n
+```
 
 ## バージョン
 

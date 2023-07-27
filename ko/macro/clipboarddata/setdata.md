@@ -2,13 +2,19 @@
 
 클립보드에 지정된 형식 내 데이터를 할당합니다.
 
-#### \[JavaScript\]
+## 
 
-_bSuccess_ = clipboardData. **setData**( _sDataFormat_, _sData_, _iPos_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bSuccess = clipboardData.setData( sDataFormat, sData, iPos );
+```
 
-_bSuccess_ = clipboardData. **setData**( _sDataFormat_, _sData, iPos_ )
+### \[VBScript\]
+
+```
+bSuccess = clipboardData.setData( sDataFormat, sData, iPos )
+```
 
 ## 매개 변수
 
@@ -33,13 +39,17 @@ _iPos_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 clipboardData.setData("Text", "Hello!");
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 clipboardData.setData "Text", "Hello!"
+```
 
 ## 버전
 

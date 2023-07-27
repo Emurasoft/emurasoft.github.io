@@ -1,14 +1,14 @@
 # \[元に戻す/やり直しの履歴\] コマンド
 
-### 概要
+## 概要
 
-> [\[元に戻す/やり直しの履歴\] ダイアログ ボックス](../../dlg/undo_history/index) を表示します。
+[\[元に戻す/やり直しの履歴\] ダイアログ ボックス](../../dlg/undo_history/index) を表示します。
 
-### 説明
+## 説明
 
-> [\[元に戻す/やり直しの履歴\] ダイアログ ボックス](../../dlg/undo_history/index) を表示します。
+[\[元に戻す/やり直しの履歴\] ダイアログ ボックス](../../dlg/undo_history/index) を表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[元に戻す\] \- \[元に戻す/やり直しの履歴\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_UNDO\_HISTORY (3982)
+```
+EEID_UNDO_HISTORY (3982)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3982);
+```
+editor.ExecuteCommandByID(3982);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3982
+```
+editor.ExecuteCommandByID 3982
+```

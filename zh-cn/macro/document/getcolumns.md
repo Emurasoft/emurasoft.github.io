@@ -2,13 +2,19 @@
 
 在 CSV 模式中检索列数。如果文档不是 CSV 模式，那么该方法会返回 0。
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **GetColumns**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = document.GetColumns();
+```
 
-_n_ = document. **GetColumns**()
+### \[VBScript\]
+
+```
+n = document.GetColumns()
+```
 
 ## 版本
 

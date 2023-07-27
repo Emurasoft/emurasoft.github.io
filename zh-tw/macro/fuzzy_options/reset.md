@@ -2,13 +2,19 @@
 
 將模糊選項重設為預設值。
 
-#### \[JavaScript\]
+## 
 
-obj. **Reset**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj.Reset();
+```
 
-obj. **Reset**
+### \[VBScript\]
+
+```
+obj.Reset
+```
 
 ## 版本
 

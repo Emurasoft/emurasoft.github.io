@@ -2,13 +2,19 @@
 
 为当前文档，检索 [Document 对象](../document/index)。
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor. **ActiveDocument**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.ActiveDocument;
+```
 
-Set _doc_ = editor. **ActiveDocument**
+### \[VBScript\]
+
+```
+Set doc = editor.ActiveDocument
+```
 
 ## 版本
 

@@ -1,31 +1,36 @@
 # Syntax Check command
 
-### Summary
+## Summary
 
-> Check syntax of the current document and shows the results.
+Check syntax of the current document and shows the results.
 
-### Description
+## Description
 
-> Check syntax of the current document and shows the results.
+Check syntax of the current document and shows the results.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Syntax Check**
+- [All Commands](../tools/all_commands):Edit \>Syntax Check
 - Toolbar: ![](../../images/csv_validate.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CSV\_VALIDATE (3990)
+```
+EEID_CSV_VALIDATE (3990)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3990);
+```
+editor.ExecuteCommandByID(3990);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3990
+```
+editor.ExecuteCommandByID 3990
+```

@@ -2,13 +2,19 @@
 
 複数の文字列を検索します。
 
-#### \[JavaScript\]
+## 
 
-nFound = document.selection. **BatchFind**( _filters_, _nFlags_, _nExFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = document.selection.BatchFind( filters, nFlags, nExFlags );
+```
 
-nFound = document.selection. **BatchFind**( _filters_, _nFlags_, _nExFlags_ )
+### \[VBScript\]
+
+```
+nFound = document.selection.BatchFind( filters, nFlags, nExFlags )
+```
 
 ## 引数
 

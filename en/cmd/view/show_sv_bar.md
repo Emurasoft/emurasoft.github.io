@@ -1,33 +1,38 @@
 # CSV Toolbar command
 
-### Summary
+## Summary
 
-> Shows or hides the CSV toolbar.
+Shows or hides the CSV toolbar.
 
-### Description
+## Description
 
-> Shows or hides the CSV toolbar.
+Shows or hides the CSV toolbar.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **CSV Toolbar**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **CSV Toolbar**
+- Default Menu:View >
+Toolbars \>CSV Toolbar
+- [All Commands](../tools/all_commands):View >
+Toolbars \>CSV Toolbar
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHOW\_SV\_BAR (3890)
+```
+EEID_SHOW_SV_BAR (3890)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3890);
+```
+editor.ExecuteCommandByID(3890);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3890
+```
+editor.ExecuteCommandByID 3890
+```

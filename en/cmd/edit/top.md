@@ -1,32 +1,37 @@
 # Top command
 
-### Summary
+## Summary
 
-> Moves the cursor to the top of the document.
+Moves the cursor to the top of the document.
 
-### Description
+## Description
 
-> Moves the cursor to the beginning/top of the document.
+Moves the cursor to the beginning/top of the document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
-\> **Top**
+- [All Commands](../tools/all_commands):Edit \>Move Cursor Vertically
+\>Top
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+HOME
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_TOP (4168)
+```
+EEID_TOP (4168)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.StartOfDocument(false);
+```
+document.selection.StartOfDocument(false);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.StartOfDocument false
+```
+document.selection.StartOfDocument false
+```

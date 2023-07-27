@@ -2,13 +2,19 @@
 
 [MarkProp 개체](../mark_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Mark**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Mark;
+```
 
-_obj_ = object. **Mark**
+### \[VBScript\]
+
+```
+obj = object.Mark
+```
 
 ## 버전
 

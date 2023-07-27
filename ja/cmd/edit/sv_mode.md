@@ -1,14 +1,14 @@
 # \[CSV (複数項目)\] コマンド
 
-### 概要
+## 概要
 
-> 文書を指定するCSVとして表示します (複数項目)。
+文書を指定するCSVとして表示します (複数項目)。
 
-### 説明
+## 説明
 
-> 文書を指定するCSVとして表示します。
+文書を指定するCSVとして表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - (CSV)
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - (CSV)
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SV\_MODE から EEID\_SV\_MODE + 63 まで (22528 から 22528 + 63 まで)
+```
+EEID_SV_MODE から EEID_SV_MODE + 63 まで (22528 から 22528 + 63 まで)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(22528 + i);  // i は 0 から 63 までの整数
+```
+editor.ExecuteCommandByID(22528 + i);  // i は 0 から 63 までの整数
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 22528 + i  ' i は 0 から 63 までの整数
+```
+editor.ExecuteCommandByID 22528 + i  ' i は 0 から 63 までの整数
+```

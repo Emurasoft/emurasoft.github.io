@@ -2,13 +2,19 @@
 
 表示用フォントの [FontList コレクション](../font_list/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_list_ = object. **DisplayList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.DisplayList;
+```
 
-_list_ = object. **DisplayList**
+### \[VBScript\]
+
+```
+list = object.DisplayList
+```
 
 ## バージョン
 

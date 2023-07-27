@@ -1,32 +1,37 @@
 # 視窗底部命令
 
-### 摘要
+## 摘要
 
-> 移動游標到視窗底部。
+移動游標到視窗底部。
 
-### 說明
+## 說明
 
-> 移動游標到視窗底部。這個命令不會移動垂直捲軸的位置。
+移動游標到視窗底部。這個命令不會移動垂直捲軸的位置。
 
-### 運行方法
+## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **垂直移動游標**
-\> **視窗底部**
+- [全部命令](../tools/all_commands):編輯 \>垂直移動游標
+\>視窗底部
 - 工具列: 無
 - 狀態列: 無
 - 預設鍵盤快速鍵: ALT+PAGE DOWN
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_WINDOW\_BOTTOM (4293)
+```
+EEID_WINDOW_BOTTOM (4293)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4293);
+```
+editor.ExecuteCommandByID(4293);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4293
+```
+editor.ExecuteCommandByID 4293
+```

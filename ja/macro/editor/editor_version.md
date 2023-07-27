@@ -2,13 +2,19 @@
 
 現在実行している EmEditor のバージョンを表す文字列を取得します。
 
-#### \[JavaScript\]
+## 
 
-_strVersion_ = editor. **Version**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strVersion = editor.Version;
+```
 
-_strVersion_ = editor. **Version**
+### \[VBScript\]
+
+```
+strVersion = editor.Version
+```
 
 ## バージョン
 

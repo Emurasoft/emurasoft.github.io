@@ -1,14 +1,14 @@
 # \[トピックの検索\] コマンド
 
-### 概要
+## 概要
 
-> ヘルプ トピックを検索します。
+ヘルプ トピックを検索します。
 
-### 説明
+## 説明
 
-> EmEditor のヘルプ トピックを表示します。
+EmEditor のヘルプ トピックを表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ヘルプ\] \- \[トピックの検索\]
 - [すべてのコマンド](../../glossary/allcommands): \[ヘルプ\] \- \[トピックの検索\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+F1
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_HELP\_FINDER (4247)
+```
+EEID_HELP_FINDER (4247)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4247);
+```
+editor.ExecuteCommandByID(4247);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4247
+```
+editor.ExecuteCommandByID 4247
+```

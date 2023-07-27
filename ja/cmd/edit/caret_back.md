@@ -1,14 +1,14 @@
 # \[戻る\] コマンド
 
-### 概要
+## 概要
 
-> カーソルを以前の位置に移動します。
+カーソルを以前の位置に移動します。
 
-### 説明
+## 説明
 
-> カーソルを以前の位置に移動します。
+カーソルを以前の位置に移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[高度な操作\] \- \[戻る\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[高度な操作\] \- \[戻る\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+←
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CARET\_BACK (4597)
+```
+EEID_CARET_BACK (4597)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4597);
+```
+editor.ExecuteCommandByID(4597);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4597
+```
+editor.ExecuteCommandByID 4597
+```

@@ -1,19 +1,23 @@
 # KinsokuEnd プロパティ (WrapProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[禁則文字\]** タブ](../../dlg/properties/wrap/index) の
-**\[行末禁則文字\]** テキスト ボックスに相当します。
+設定のプロパティの [\[禁則文字\] タブ](../../dlg/properties/wrap/index) の
+\[行末禁則文字\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **KinsokuEnd**;
+### \[JavaScript\]
 
-object. **KinsokuEnd** = _str_;
+```
+str = object.KinsokuEnd;
+object.KinsokuEnd = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **KinsokuEnd**
-
-object. **KinsokuEnd** = _str_
+```
+str = object.KinsokuEnd
+object.KinsokuEnd = str
+```
 
 ## バージョン
 

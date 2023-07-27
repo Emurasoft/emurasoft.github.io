@@ -2,27 +2,35 @@
 
 檢索 EmEditor 可執行檔案 (emeditor.exe) 的完整規格，包括路徑。
 
-#### \[JavaScript\]
+## 
 
-_strName_ = editor. **FullName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = editor.FullName;
+```
 
-_strName_ = editor. **FullName**
+### \[VBScript\]
+
+```
+strName = editor.FullName
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-strName = editor. **FullName**;
-
+```
+strName = editor.FullName;
 alert( "The full name of EmEditor is " + strName + "." );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-strName = editor. **FullName**
-
+```
+strName = editor.FullName
 alert "The full name of EmEditor is" & strName & "."
+```
 
 ## 版本
 

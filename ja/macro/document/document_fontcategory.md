@@ -2,17 +2,21 @@
 
 フォント分類を取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_nCategory_ = document. **FontCategory**;
+### \[JavaScript\]
 
-document. **FontCategory** = _nCategory_;
+```
+nCategory = document.FontCategory;
+document.FontCategory = nCategory;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nCategory_ = document. **FontCategory**
-
-document. **FontCategory** = _nCategory_
+```
+nCategory = document.FontCategory
+document.FontCategory = nCategory
+```
 
 ## パラメータ
 

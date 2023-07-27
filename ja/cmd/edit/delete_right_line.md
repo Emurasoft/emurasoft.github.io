@@ -1,14 +1,14 @@
 # \[行右削除\] コマンド
 
-### 概要
+## 概要
 
-> 1 行のカーソルから右を削除します。
+1 行のカーソルから右を削除します。
 
-### 説明
+## 説明
 
-> 論理行 1 行のカーソル位置から右側を行末まで削除します。
+論理行 1 行のカーソル位置から右側を行末まで削除します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[高度な操作\] \- \[行右削除\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[削除\] \- \[行右削除\]
@@ -16,20 +16,23 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+D
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DELETE\_RIGHT\_LINE (4191)
+```
+EEID_DELETE_RIGHT_LINE (4191)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.EndOfLine(true,eeLineLogical);
->
-> document.selection.Delete(1);
+```
+document.selection.EndOfLine(true,eeLineLogical);
+document.selection.Delete(1);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.EndOfLine true,eeLineLogical
->
-> document.selection.Delete 1
+```
+document.selection.EndOfLine true,eeLineLogical
+document.selection.Delete 1
+```

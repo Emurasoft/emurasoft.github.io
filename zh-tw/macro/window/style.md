@@ -2,13 +2,19 @@
 
 返回指定視窗的樣式。
 
-#### \[JavaScript\]
+## 
 
-_n_ = wnd. **Style**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = wnd.Style;
+```
 
-_n_ = wnd. **Style**
+### \[VBScript\]
+
+```
+n = wnd.Style
+```
 
 ## 版本
 

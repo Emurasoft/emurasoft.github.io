@@ -8,7 +8,7 @@ Specifies the file to include. This directive must be specified at the first lin
 
 _filename_
 
-> Specifies the file to include with the relative paths from the current macro file or the complete paths. If the paths are omitted, specify the title of the file in which the current macro file exists.
+Specifies the file to include with the relative paths from the current macro file or the complete paths. If the paths are omitted, specify the title of the file in which the current macro file exists.
 
 ## Examples
 

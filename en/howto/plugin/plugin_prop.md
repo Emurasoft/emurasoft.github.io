@@ -1,8 +1,8 @@
 # To Change Plug-in Properties
 
-1. With advanced plug-ins that have properties, select **Customize**
-**Plug-ins...** under the **Tools** menu.
-2. Select the plug-in that you want to change and click **Properties**.
+1. With advanced plug-ins that have properties, selectCustomize
+Plug-ins... under theTools menu.
+2. Select the plug-in that you want to change and clickProperties.
 
 ## Tips
 

@@ -2,37 +2,40 @@
 
 CSV セル選択モードで、一時的に引用符を非表示にするかどうかを示すフラグを取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = document. **HideQuotes**;
+### \[JavaScript\]
 
-document. **HideQuotes** = _b_;
+```
+b = document.HideQuotes;
+document.HideQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = document. **HideQuotes**
-
-document. **HideQuotes** = _b_
+```
+b = document.HideQuotes
+document.HideQuotes = b
+```
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 if( document.HideQuotes )  alert( "一時的に引用符を非表示しています" );
-
 else  alert( "一時的に引用符を非表示していません" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 If document.HideQuotes Then
-
 alert( "一時的に引用符を非表示しています" )
-
 Else
-
 alert( "一時的に引用符を非表示していません" )
-
 End If
+```
 
 ## バージョン
 

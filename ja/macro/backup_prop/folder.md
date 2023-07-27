@@ -1,19 +1,23 @@
 # Folder プロパティ (BackupProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の
-**\[バックアップ フォルダ\]** テキスト ボックスに相当します。
+設定のプロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の
+\[バックアップ フォルダ\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Folder**;
+### \[JavaScript\]
 
-object. **Folder** = _s_;
+```
+s = object.Folder;
+object.Folder = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Folder**
-
-object. **Folder** = _s_
+```
+s = object.Folder
+object.Folder = s
+```
 
 ## バージョン
 

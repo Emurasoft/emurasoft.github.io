@@ -1,20 +1,22 @@
 # Quote プロパティ ()
 
-設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の **\[引用マークで始まる行\]** チェック ボックスに相当します。
+設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の\[引用マークで始まる行\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Quote**;
+### \[JavaScript\]
 
-object. **Quote** = _b_;
+```
+b = object.Quote;
+object.Quote = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Quote**
-
-object. **Quote** = _b_
+```
+b = object.Quote
+object.Quote = b
+```
 
 ## バージョン
 

@@ -2,15 +2,21 @@
 
 在文档中替换一个字符串。
 
-#### \[JavaScript\]
+## 
 
-nFound = document.selection. **Replace**( _strFind_, _strReplace_,
-_nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = document.selection.Replace( strFind, strReplace,
+nFlags );
+```
 
-nFound = document.selection. **Replace**( _strFind_, _strReplace_,
-_nFlags_ )
+### \[VBScript\]
+
+```
+nFound = document.selection.Replace( strFind, strReplace,
+nFlags )
+```
 
 ## 参数
 

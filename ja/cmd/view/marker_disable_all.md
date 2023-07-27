@@ -1,14 +1,14 @@
 # \[すべてのマーカーを無効にする\] コマンド
 
-### 概要
+## 概要
 
-> すべてのマーカーを無効にします。
+すべてのマーカーを無効にします。
 
-### 説明
+## 説明
 
-> すべてのマーカーを無効にします。
+すべてのマーカーを無効にします。
 
-### 方法
+## 方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[マーカー\] \- \[すべて無効\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_MARKER\_DISABLE\_ALL (4586)
+```
+EEID_MARKER_DISABLE_ALL (4586)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4586);
+```
+editor.ExecuteCommandByID(4586);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4586
+```
+editor.ExecuteCommandByID 4586
+```

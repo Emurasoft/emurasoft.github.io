@@ -1,18 +1,22 @@
 # AllowNL Property (Csv Object)
 
-Corresponds to the **Allow newlines in quotes** check box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to theAllow newlines in quotes check box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **AllowNL**;
+### \[JavaScript\]
 
-object. **AllowNL** = _b_;
+```
+b = object.AllowNL;
+object.AllowNL = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **AllowNL**
-
-object. **AllowNL** = _b_
+```
+b = object.AllowNL
+object.AllowNL = b
+```
 
 ## Version
 

@@ -1,31 +1,36 @@
 # 用字母字符作为列标题命令
 
-### 摘要
+## 摘要
 
-> 使用字母字符作为列标题。
+使用字母字符作为列标题。
 
-### 说明
+## 说明
 
-> 使用字母字符作为列标题。
+使用字母字符作为列标题。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **CSV** \> **列标题类型** \> **A, B, C, ...**
-- [所有命令](../tools/all_commands): **CSV** \> **列标题类型** \> **A, B, C, ...**
+- 默认菜单:CSV \>列标题类型 \>A, B, C, ...
+- [所有命令](../tools/all_commands):CSV \>列标题类型 \>A, B, C, ...
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_HEADER\_ALPHA (3987)
+```
+EEID_HEADER_ALPHA (3987)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3987);
+```
+editor.ExecuteCommandByID(3987);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3987
+```
+editor.ExecuteCommandByID 3987
+```

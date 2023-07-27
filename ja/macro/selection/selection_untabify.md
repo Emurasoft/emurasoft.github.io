@@ -2,13 +2,19 @@
 
 選択範囲の Tab を空白に変換します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Untabify**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Untabify();
+```
 
-document.selection. **Untabify**
+### \[VBScript\]
+
+```
+document.selection.Untabify
+```
 
 ## バージョン
 

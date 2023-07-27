@@ -1,14 +1,14 @@
 # \[下に行挿入\] コマンド
 
-### 概要
+## 概要
 
-> カーソル位置の下に行を挿入します。
+カーソル位置の下に行を挿入します。
 
-### 説明
+## 説明
 
-> カーソル位置の下に空の 1 行を挿入します。
+カーソル位置の下に空の 1 行を挿入します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[挿入\] \- \[下に空行\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[下に空行\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+Enter
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_LINE\_OPEN\_BELOW (4196)
+```
+EEID_LINE_OPEN_BELOW (4196)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.LineOpen(false);
+```
+document.selection.LineOpen(false);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.LineOpen false
+```
+document.selection.LineOpen false
+```

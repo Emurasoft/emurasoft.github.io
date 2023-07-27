@@ -1,20 +1,24 @@
 # URLCharactersNotEnd Property (LinkProp Object)
 
-Corresponds to the **Characters**
-**Not Allowed at End** text box in the
-[**Link** page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to theCharacters
+Not Allowed at End text box in the
+[Link page](../../dlg/properties/link/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **URLCharactersNotEnd**;
+### \[JavaScript\]
 
-object. **URLCharactersNotEnd** = _s_;
+```
+s = object.URLCharactersNotEnd;
+object.URLCharactersNotEnd = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **URLCharactersNotEnd**
-
-object. **URLCharactersNotEnd** = _s_
+```
+s = object.URLCharactersNotEnd
+object.URLCharactersNotEnd = s
+```
 
 ## Version
 

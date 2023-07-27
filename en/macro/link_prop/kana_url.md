@@ -1,21 +1,23 @@
 # KanaURL Property (LinkProp Object)
 
-Corresponds to the **Recognize**
-**Single-Byte Kana and Kana Marks as URLs** check box in the [**Link** page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to theRecognize
+Single-Byte Kana and Kana Marks as URLs check box in the [Link page](../../dlg/properties/link/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **KanaURL**;
+### \[JavaScript\]
 
-object. **KanaURL** = _b_;
+```
+b = object.KanaURL;
+object.KanaURL = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **KanaURL**
-
-object. **KanaURL** = _b_
+```
+b = object.KanaURL
+object.KanaURL = b
+```
 
 ## Version
 

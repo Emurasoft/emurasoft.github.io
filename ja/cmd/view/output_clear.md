@@ -1,14 +1,14 @@
 # \[アウトプットのクリア\] コマンド
 
-### 概要
+## 概要
 
-> アウトプット バーの中身を消去します。
+アウトプット バーの中身を消去します。
 
-### 説明
+## 説明
 
-> アウトプット バーの中身を消去します。
+アウトプット バーの中身を消去します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\]\- \[アウトプットバー\]  \- \[アウトプットのクリア\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_OUTPUT\_BAR (4452)
+```
+EEID_OUTPUT_BAR (4452)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4452);
+```
+editor.ExecuteCommandByID(4452);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4452
+```
+editor.ExecuteCommandByID 4452
+```

@@ -2,13 +2,19 @@
 
 為目前的組態對象檢索名稱。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Name**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+s = object.Name;
+```
 
-_s_ = object. **Name**
+### \[VBScript\]
+
+```
+s = object.Name
+```
 
 ## 版本
 

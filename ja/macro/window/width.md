@@ -2,17 +2,21 @@
 
 ウィンドウの幅を取得するか、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_width_ = wnd. **Width**;
+### \[JavaScript\]
 
-wnd. **Width** = _width_;
+```
+width = wnd.Width;
+wnd.Width = width;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_width_ = wnd. **Width**
-
-wnd. **Width** = _width_
+```
+width = wnd.Width
+wnd.Width = width
+```
 
 ## バージョン
 

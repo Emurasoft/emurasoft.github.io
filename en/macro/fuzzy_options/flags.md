@@ -13,17 +13,21 @@ The value must be zero or a combination of the following values.
 | eeFuzzyIgnoreVS | Variation Selectors are ignored. |
 | eeFuzzyIgnoreWidth | the difference between half-width and full-width characters is ignored. The full-width form is a formatting distinction used in Chinese and Japanese scripts. |
 
-#### \[JavaScript\]
+## 
 
-_n_ = obj. **Flags**;
+### \[JavaScript\]
 
-obj. **Flags** = _n_;
+```
+n = obj.Flags;
+obj.Flags = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = obj. **Flags**;
-
-obj. **Flags** = _n_;
+```
+n = obj.Flags;
+obj.Flags = n;
+```
 
 ## Version
 

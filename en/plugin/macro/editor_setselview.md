@@ -8,18 +8,18 @@ Editor\_SetSelView( HWND hwnd, POINT\_PTR\* pptSelStart, POINT\_PTR\* pptSelEnd 
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _pptSelStart_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the starting position of the
-> selection. The position is by display coordinates.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the starting position of the
+selection. The position is by display coordinates.
 
 _pptSelEnd_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the ending position of the
-> selection. The position is by display coordinates.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the ending position of the
+selection. The position is by display coordinates.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

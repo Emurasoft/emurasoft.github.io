@@ -1,32 +1,37 @@
 # Extract Frequent Strings command
 
-### Summary
+## Summary
 
-> Extracts frequently used strings into a new document.
+Extracts frequently used strings into a new document.
 
-### Description
+## Description
 
-> Extracts frequently used strings into a new document. This command displays the [**Extract Frequent Strings** dialog box](../../dlg/extract_frequent/index).
+Extracts frequently used strings into a new document. This command displays the [Extract Frequent Strings dialog box](../../dlg/extract_frequent/index).
 
-### How to Run
+## How to Run
 
-- Default Menu: **Search** \> **Extract Frequent Strings**
-- [All Commands](../tools/all_commands): **Search**
-\> **Extract Frequent Strings**
+- Default Menu:Search \>Extract Frequent Strings
+- [All Commands](../tools/all_commands):Search
+\>Extract Frequent Strings
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EXTRACT\_FREQUENT (4041)
+```
+EEID_EXTRACT_FREQUENT (4041)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4041);
+```
+editor.ExecuteCommandByID(4041);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4041
+```
+editor.ExecuteCommandByID 4041
+```

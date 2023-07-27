@@ -2,13 +2,19 @@
 
 カーソル位置を単語の右に移動します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **WordRight**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.WordRight( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **WordRight** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.WordRight [ bExtend [, nCount ] ]
+```
 
 ## 引数
 

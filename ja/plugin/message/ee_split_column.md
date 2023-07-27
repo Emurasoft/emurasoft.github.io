@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> [SPLIT\_COLUMN\_INFO 構造体](../structure/split_column_info) へのポインタを指定します。
+[SPLIT\_COLUMN\_INFO 構造体](../structure/split_column_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 失敗すると負の値を返します。
+失敗すると負の値を返します。
 
 ## バージョン
 
-> Version 19.9 以上で利用できます。
+Version 19.9 以上で利用できます。

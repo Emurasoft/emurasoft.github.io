@@ -1,32 +1,37 @@
 # Automatically Set Focus (Cell Toolbar) command
 
-### Summary
+## Summary
 
-> Automatically sets focus to the cell toolbar.
+Automatically sets focus to the cell toolbar.
 
-### Description
+## Description
 
-> Automatically sets focus to the cell toolbar.
+Automatically sets focus to the cell toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Cell Toolbar Options** \> **Automatically Set Focus**
+- [All Commands](../tools/all_commands):View >
+Toolbars \>Cell Toolbar Options \>Automatically Set Focus
 - Toolbar: ![](../../images/commonsettings.gif) (Cell toolbar) + Automatically Set Focus
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CELL\_BAR\_AUTO\_FOCUS (3970)
+```
+EEID_CELL_BAR_AUTO_FOCUS (3970)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3970);
+```
+editor.ExecuteCommandByID(3970);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3970
+```
+editor.ExecuteCommandByID 3970
+```

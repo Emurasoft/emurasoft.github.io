@@ -1,18 +1,22 @@
 # Header 屬性 (PrintProp ��H)
 
-與組態屬性中 [**列印** 頁面](../../dlg/properties/print/index) 上的 **頁眉** 文字方塊相對應。
+與組態屬性中 [列印 頁面](../../dlg/properties/print/index) 上的頁眉 文字方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Header**;
+### \[JavaScript\]
 
-object. **Header** = _s_;
+```
+s = object.Header;
+object.Header = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Header**
-
-object. **Header** = _s_
+```
+s = object.Header
+object.Header = s
+```
 
 ## 版本
 

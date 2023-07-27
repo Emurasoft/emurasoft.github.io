@@ -2,13 +2,19 @@
 
 커서 위치에 하이퍼링크를 엽니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **OpenLink**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.OpenLink();
+```
 
-document.selection. **OpenLink**
+### \[VBScript\]
+
+```
+document.selection.OpenLink
+```
 
 ## 버전
 

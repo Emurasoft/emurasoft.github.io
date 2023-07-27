@@ -2,13 +2,19 @@
 
 移动到文档中的下一个书签处。
 
-#### \[JavaScript\]
+## 
 
-_bFound_ = document.selection. **NextBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bFound = document.selection.NextBookmark();
+```
 
-_bFound_ = document.selection. **NextBookmark**
+### \[VBScript\]
+
+```
+bFound = document.selection.NextBookmark
+```
 
 ## 返回值
 

@@ -1,21 +1,23 @@
 # PromptUnicode 속성 (FileSaveProp ��ü)
 
-[**세부 정보 저장** 대화 상자](../../dlg/properties/file/save_details/index) 의
-**유니코드를 ANSI로 저장할 때 확인** 체크 박스에 해당합니다.
+[세부 정보 저장 대화 상자](../../dlg/properties/file/save_details/index) 의
+유니코드를 ANSI로 저장할 때 확인 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptUnicode**;
+### \[JavaScript\]
 
-object. **PromptUnicode** = _b_;
+```
+b = object.PromptUnicode;
+object.PromptUnicode = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptUnicode**
-
-object. **PromptUnicode** = _b_
+```
+b = object.PromptUnicode
+object.PromptUnicode = b
+```
 
 ## 버전
 

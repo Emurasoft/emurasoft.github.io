@@ -2,13 +2,19 @@
 
 检索被标识符指定的菜单项目的文本字符串。
 
-#### \[JavaScript\]
+## 
 
-_strText_ = popupmenu. **GetText**( _id_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strText = popupmenu.GetText( id );
+```
 
-_strText_ = popupmenu. **GetText**( _id_ )
+### \[VBScript\]
+
+```
+strText = popupmenu.GetText( id )
+```
 
 ## 参数
 

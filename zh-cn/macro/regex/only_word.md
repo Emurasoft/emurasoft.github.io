@@ -2,17 +2,21 @@
 
 设置或检索是否正则表达式仅匹配整个单词。
 
-#### \[JavaScript\]
+## 
 
-_b_ = reg. **OnlyWord**;
+### \[JavaScript\]
 
-reg. **OnlyWord** = _b_;
+```
+b = reg.OnlyWord;
+reg.OnlyWord = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = reg. **OnlyWord**;
-
-reg. **OnlyWord** = _b_;
+```
+b = reg.OnlyWord;
+reg.OnlyWord = b;
+```
 
 ## 版本
 

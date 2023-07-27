@@ -13,12 +13,12 @@ lParam = (LPARAM) (POINT\_PTR\*) pptSelEnd;
 
 _pptSelStart_
 
-> 選択テキストの開始位置を表す [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。位置は表示座標になります。
+選択テキストの開始位置を表す [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。位置は表示座標になります。
 
 _pptSelEnd_
 
-> 選択テキストの終了位置を表す [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。位置は表示座標になります。
+選択テキストの終了位置を表す [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。位置は表示座標になります。
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。

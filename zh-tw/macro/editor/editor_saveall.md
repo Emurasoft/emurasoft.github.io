@@ -2,13 +2,19 @@
 
 儲存所有目前的打開的檔案。
 
-#### \[JavaScript\]
+## 
 
-editor. **SaveAll**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.SaveAll();
+```
 
-editor. **SaveAll**
+### \[VBScript\]
+
+```
+editor.SaveAll
+```
 
 ## 版本
 

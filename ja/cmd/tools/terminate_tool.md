@@ -1,14 +1,14 @@
 # \[ツール ジョブの中止\] コマンド
 
-### 概要
+## 概要
 
-> 現在実行されているツール ジョブを中止します。
+現在実行されているツール ジョブを中止します。
 
-### 説明
+## 説明
 
-> 現在実行されているツール ジョブを中止します。
+現在実行されているツール ジョブを中止します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ツール\] \- \[外部ツール\] \- \[ツール ジョブの中止\]
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[ツール ジョブの中止\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Break
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_TERMINATE\_TOOL (4451)
+```
+EEID_TERMINATE_TOOL (4451)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4451);
+```
+editor.ExecuteCommandByID(4451);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4451
+```
+editor.ExecuteCommandByID 4451
+```

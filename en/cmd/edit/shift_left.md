@@ -1,34 +1,39 @@
 # Char Left Extend command
 
-### Summary
+## Summary
 
-> Extends the selection one character to the left.
+Extends the selection one character to the left.
 
-### Description
+## Description
 
-> Extends the selection one character to the left. If the cursor is at the
-> beginning of a line, this command moves the cursor to the end of the
-> previous line.
+Extends the selection one character to the left. If the cursor is at the
+beginning of a line, this command moves the cursor to the end of the
+previous line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Char Left Extend**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Char Left Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+LEFT ARROW
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_LEFT (4173)
+```
+EEID_SHIFT_LEFT (4173)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.CharLeft(true,1);
+```
+document.selection.CharLeft(true,1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.CharLeft true,1
+```
+document.selection.CharLeft true,1
+```

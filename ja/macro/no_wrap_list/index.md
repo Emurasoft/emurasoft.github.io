@@ -6,37 +6,35 @@ NoWrapList コレクションは [NoWrapItem オブジェクト](../no_wrap_item
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | アイテムの数を取得します。 |
-| **[Item](item)** | 指定したインデックスの [NoWrapItem オブジェクト](../no_wrap_item/index) を取得します。 |
+|[Count](count) | アイテムの数を取得します。 |
+|[Item](item) | 指定したインデックスの [NoWrapItem オブジェクト](../no_wrap_item/index) を取得します。 |
 
 ## メソッド
 
 |     |     |
 | --- | --- |
-| **[Add](add)** | アイテムを追加します。 |
-| **[Remove](remove)** | アイテムを削除します。 |
+|[Add](add) | アイテムを追加します。 |
+|[Remove](remove) | アイテムを削除します。 |
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.NoWrap.List );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.NoWrap.List
-
 alert item.Name
-
 Next
+```
 
 ## バージョン
 

@@ -1,31 +1,36 @@
 # Cut Bookmarked Lines in This Document Command
 
-### Summary
+## Summary
 
-> Cuts all bookmarked lines in the current document and moves them to the Clipboard.
+Cuts all bookmarked lines in the current document and moves them to the Clipboard.
 
-### Description
+## Description
 
-> Cuts all bookmarked lines in the current document and moves them to the Clipboard.
+Cuts all bookmarked lines in the current document and moves them to the Clipboard.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **Cut Bookmarked Lines**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **Cut Bookmarked Lines**
+- Default Menu:Bookmarks \>Cut Bookmarked Lines
+- [All Commands](../tools/all_commands):Bookmarks \>Cut Bookmarked Lines
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_CUT (3852)
+```
+EEID_BOOKMARK_CUT (3852)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3852);
+```
+editor.ExecuteCommandByID(3852);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3852
+```
+editor.ExecuteCommandByID 3852
+```

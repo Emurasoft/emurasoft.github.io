@@ -2,13 +2,19 @@
 
 Converts the CSV format.
 
-#### \[JavaScript\]
+## 
 
-document. **ConvertCsv**( _iDestMode_, _nFlags_, _strSepPos_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.ConvertCsv( iDestMode, nFlags, strSepPos );
+```
 
-document. **ConvertCsv**( _iDestMode_, _nFlags_, _strSepPos_ );
+### \[VBScript\]
+
+```
+document.ConvertCsv( iDestMode, nFlags, strSepPos );
+```
 
 ## Parameters
 
@@ -18,16 +24,16 @@ Specifies the index of the CSV format you want to convert the current document t
 
 _nFlags_
 
-> You can specify a combination of the following values.
->
-> | Value | Meaning |
-> | --- | --- |
-> | eeCsvHalfWidth | Assumes all half-width characters to improve the speed. |
-> | eeCsvDiscardUndo | Discards undo information to improve the speed. |
+You can specify a combination of the following values.
+
+| Value | Meaning |
+| --- | --- |
+| eeCsvHalfWidth | Assumes all half-width characters to improve the speed. |
+| eeCsvDiscardUndo | Discards undo information to improve the speed. |
 
 _strSepCount_
 
-> If the current document is a non-CSV document, and if you want to convert the current document of fixed-width columns to a CSV document, this string specifies the widths between separators, separated by commas. For instance, "10, 8" means 2 separators separated by 10 and 8 half-width characters. This parameter is ignored if the current document is a CSV document.
+If the current document is a non-CSV document, and if you want to convert the current document of fixed-width columns to a CSV document, this string specifies the widths between separators, separated by commas. For instance, "10, 8" means 2 separators separated by 10 and 8 half-width characters. This parameter is ignored if the current document is a CSV document.
 
 ## Examples
 
@@ -43,13 +49,17 @@ Madrid,Spain,100
 
 Paris,France,101
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.ConvertCsv( 1, 0, "7,8" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.ConvertCsv 1, 0, "7,8"
+```
 
 ## Version
 

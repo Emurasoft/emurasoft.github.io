@@ -2,13 +2,19 @@
 
 在以毫秒為單位的指定時間內暫停執行巨集。
 
-#### \[JavaScript\]
+## 
 
-**Sleep**( _nMilliseconds_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Sleep( nMilliseconds);
+```
 
-**Sleep** _nMilliseconds_
+### \[VBScript\]
+
+```
+Sleep nMilliseconds
+```
 
 ## 參數
 

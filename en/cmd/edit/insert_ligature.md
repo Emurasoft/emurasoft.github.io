@@ -1,32 +1,37 @@
 # Insert Ligature command
 
-### Summary
+## Summary
 
-> Inserts a ligature character.
+Inserts a ligature character.
 
-### Description
+## Description
 
-> After selecting this command, Insert a ligature (æ, œ, Æ or Œ) at the cursor by typing a, o, A or O,
-> or a sharp s (ß) by typing s.
+After selecting this command, Insert a ligature (æ, œ, Æ or Œ) at the cursor by typing a, o, A or O,
+or a sharp s (ß) by typing s.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Diacritics** \> **Ligature**
-- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Ligature**
+- Default Menu:Insert \>Diacritics \>Ligature
+- [All Commands](../tools/all_commands):Insert \>Diacritics \>Ligature
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+7
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT\_LIGATURE (4309)
+```
+EEID_INSERT_LIGATURE (4309)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4309);
+```
+editor.ExecuteCommandByID(4309);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4309
+```
+editor.ExecuteCommandByID 4309
+```

@@ -2,23 +2,33 @@
 
 檢索文檔的完整路徑以及檔案名稱。
 
-#### \[JavaScript\]
+## 
 
-_strName_ = document. **FullName;**
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = document.FullName;
+```
 
-_strName_ = document. **FullName**
+### \[VBScript\]
+
+```
+strName = document.FullName
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( document.FullName );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert document.FullName
+```
 
 ## 版本
 

@@ -1,14 +1,14 @@
 # \[変更をブックマーク\] コマンド
 
-### 概要
+## 概要
 
-> 変更行すべてにブックマークを設定します。
+変更行すべてにブックマークを設定します。
 
-### 説明
+## 説明
 
-> 変更行すべてにブックマークを設定します。
+変更行すべてにブックマークを設定します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[比較\] \- \[変更をブックマーク\]
 - [すべてのコマンド](../../glossary/allcommands): \[比較\] \- \[変更をブックマーク\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_COMPARE\_BOOKMARK (4593)
+```
+EEID_COMPARE_BOOKMARK (4593)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4593);
+```
+editor.ExecuteCommandByID(4593);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4593
+```
+editor.ExecuteCommandByID 4593
+```

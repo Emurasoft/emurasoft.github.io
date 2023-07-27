@@ -1,14 +1,14 @@
 # \[列ヘッダーにアルファベットを使用\] コマンド
 
-### 概要
+## 概要
 
-> 列ヘッダーにアルファベットを使用します。
+列ヘッダーにアルファベットを使用します。
 
-### 説明
+## 説明
 
-> 列ヘッダーにアルファベットを使用します。
+列ヘッダーにアルファベットを使用します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[列ヘッダーのタイプ\] - \[A, B, C, ...\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[列ヘッダーのタイプ\] - \[A, B, C, ...\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_HEADER\_ALPHA (3987)
+```
+EEID_HEADER_ALPHA (3987)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3987);
+```
+editor.ExecuteCommandByID(3987);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3987
+```
+editor.ExecuteCommandByID 3987
+```

@@ -2,13 +2,19 @@
 
 [AssociationProp 개체](../association_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Association**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Association;
+```
 
-_obj_ = object. **Association**
+### \[VBScript\]
+
+```
+obj = object.Association
+```
 
 ## 버전
 

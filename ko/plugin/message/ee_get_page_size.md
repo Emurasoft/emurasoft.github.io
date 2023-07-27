@@ -13,9 +13,9 @@ lParam = (LPARAM) (SIZE\_PTR\*) psizePage;
 
 _psizePage_
 
-> 페이지 크기를 수신하는 [SIZE\_PTR 구조](../structure/size_ptr) 에 대한 포인터입니다.
-> 페이지 크기는 현재 EmEditor 창 크기에 한 페이지에 표시할 수 있는 줄의 수와 열의 수의 쌍입니다.
+페이지 크기를 수신하는 [SIZE\_PTR 구조](../structure/size_ptr) 에 대한 포인터입니다.
+페이지 크기는 현재 EmEditor 창 크기에 한 페이지에 표시할 수 있는 줄의 수와 열의 수의 쌍입니다.
 
 ## 반환 값
 
-> 반환 값이 사용되지 않습니다.
+반환 값이 사용되지 않습니다.

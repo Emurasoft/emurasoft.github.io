@@ -1,22 +1,24 @@
 # CharacterSpace Property (DisplayProp Object)
 
-Corresponds to the **Character**
-**Space** text box in the
-[**Display** page](../../dlg/properties/display/index) of Configuration Properties.
+Corresponds to the Character
+Space text box in the
+[Display page](../../dlg/properties/display/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **CharacterSpace**;
+### \[JavaScript\]
 
-object. **CharacterSpace** = _n_;
+```
+n = object.CharacterSpace;
+object.CharacterSpace = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **CharacterSpace**
-
-object. **CharacterSpace** = _n_
+```
+n = object.CharacterSpace
+object.CharacterSpace = n
+```
 
 ## Version
 

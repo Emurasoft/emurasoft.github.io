@@ -2,23 +2,33 @@
 
 檢索組態的數目。
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = editor.Configs. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = editor.Configs.Count;
+```
 
-_nCount_ = editor.Configs. **Count**
+### \[VBScript\]
+
+```
+nCount = editor.Configs.Count
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Number of Configurations: " + editor.Configs.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Number of Configurations: " & editor.Configs.Count
+```
 
 ## 版本
 

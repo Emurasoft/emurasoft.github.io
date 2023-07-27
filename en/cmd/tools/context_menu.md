@@ -1,34 +1,39 @@
 # Context Menu command
 
-### Summary
+## Summary
 
-> Shows Context Menu.
+Shows Context Menu.
 
-### Description
+## Description
 
-> Displays a context menu within the EmEditor window. Menu commands displayed
-> in the context menu can be customized by the [**Customize Menus** command](customize_menu). This menu also appears when the right
-> mouse button is clicked.
+Displays a context menu within the EmEditor window. Menu commands displayed
+in the context menu can be customized by the [Customize Menus command](customize_menu). This menu also appears when the right
+mouse button is clicked.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Context Menu**
+- [All Commands](all_commands):Tools >
+Context Menu
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CONTEXT\_MENU (4301)
+```
+EEID_CONTEXT_MENU (4301)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4301);
+```
+editor.ExecuteCommandByID(4301);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4301
+```
+editor.ExecuteCommandByID 4301
+```

@@ -1,18 +1,22 @@
 # Footer Property (PrintProp Object)
 
-Corresponds to the **Footer** text box in the [**Print** page](../../dlg/properties/print/index) of Configuration Properties.
+Corresponds to the Footer text box in the [Print page](../../dlg/properties/print/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Footer**;
+### \[JavaScript\]
 
-object. **Footer** = _s_;
+```
+s = object.Footer;
+object.Footer = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Footer**
-
-object. **Footer** = _s_
+```
+s = object.Footer
+object.Footer = s
+```
 
 ## Version
 

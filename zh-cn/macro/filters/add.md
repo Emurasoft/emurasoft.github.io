@@ -2,13 +2,19 @@
 
 添加一个项目。
 
-#### \[JavaScript\]
+## 
 
-list. **Add**( _strFilter_, _bEnabled_, _iColumn_, _nFlags_, _xBegin_, _xEnd_, _strReplace_, _nExFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Add( strFilter, bEnabled, iColumn, nFlags, xBegin, xEnd, strReplace, nExFlags );
+```
 
-list. **Add** _strFilter_, _bEnabled_, _iColumn_, _nFlags_, _xBegin_, _xEnd, strReplace, nExFlags_
+### \[VBScript\]
+
+```
+list.Add strFilter, bEnabled, iColumn, nFlags, xBegin, xEnd, strReplace, nExFlags
+```
 
 ## 参数
 
@@ -26,25 +32,25 @@ _iColumn_
 
 _nFlags_
 
-> 指定一个下列值的组合。
->
-> |     |     |
-> | --- | --- |
-> | eeFindLogicalOr | 指定一个逻辑或运算 (logical OR) 到之前的层级上在多层级筛选的情况下。 |
-> | eeFindNegative | 显示筛选工具栏并排除与指定字符串匹配的行。 |
-> | eeFindReplaceCase | 大小写需符合。 |
-> | eeFindReplaceEscSeq | 使用转义序列。不能与 eeFindReplaceRegExp 合用。 |
-> | eeFindReplaceOnlyWord | 整个单词需匹配。 |
-> | eeFindReplaceRegExp | 使用正则表达式搜索字符串。不能与 eeFindReplaceEscSeq 合用。 |
-> | eeFindWholeString | 匹配整个字符串。 |
+指定一个下列值的组合。
+
+|     |     |
+| --- | --- |
+| eeFindLogicalOr | 指定一个逻辑或运算 (logical OR) 到之前的层级上在多层级筛选的情况下。 |
+| eeFindNegative | 显示筛选工具栏并排除与指定字符串匹配的行。 |
+| eeFindReplaceCase | 大小写需符合。 |
+| eeFindReplaceEscSeq | 使用转义序列。不能与 eeFindReplaceRegExp 合用。 |
+| eeFindReplaceOnlyWord | 整个单词需匹配。 |
+| eeFindReplaceRegExp | 使用正则表达式搜索字符串。不能与 eeFindReplaceEscSeq 合用。 |
+| eeFindWholeString | 匹配整个字符串。 |
 
 _xBegin_
 
-> 指定你要搜索的文本的起始列的索引（逻辑字符数）；指定 0 如果你想要把文本的最后一部分作为 _xEnd_。要启用这个字段， _iColumn_ 值必须是 -1。
+指定你要搜索的文本的起始列的索引（逻辑字符数）；指定 0 如果你想要把文本的最后一部分作为 _xEnd_。要启用这个字段， _iColumn_ 值必须是 -1。
 
 _xEnd_
 
-> 指定你要搜索的文本的末尾列的索引（逻辑字符数）；指定 0 如果你想要搜索所有剩下的文本。要启用这个字段， _iColumn_ 值必须是 -1。
+指定你要搜索的文本的末尾列的索引（逻辑字符数）；指定 0 如果你想要搜索所有剩下的文本。要启用这个字段， _iColumn_ 值必须是 -1。
 
 _strFilter_
 
@@ -52,13 +58,13 @@ _strFilter_
 
 _nExFlags_
 
-> 指定一个下列值的组合:
->
-> |     |     |
-> | --- | --- |
-> | eeExFindLinkFile | 指定 _strFilter_ 是链接文件的文件路径，该链接文件包含多个用换行符分隔的搜索字符串。如果一行中包含制表符，则搜索字符串是第一个不包含制表符的字符串。 _strFilter_ 可以是 EmEditor 安装路径的相对路径。它可以包含环境变量，例如 %USERPROFILE%。要指定正在运行的宏文件夹中的文件，请使用以下形式：<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\" ) + 1 ) + "LinkFile.txt" |
-> | eeExFindNumberRange | 匹配 [数字范围表达式](../../howto/search/number_range_syntax)。此标志不能与 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
-> | eeExFindFuzzy | 使用模糊匹配。 |
+指定一个下列值的组合:
+
+|     |     |
+| --- | --- |
+| eeExFindLinkFile | 指定 _strFilter_ 是链接文件的文件路径，该链接文件包含多个用换行符分隔的搜索字符串。如果一行中包含制表符，则搜索字符串是第一个不包含制表符的字符串。 _strFilter_ 可以是 EmEditor 安装路径的相对路径。它可以包含环境变量，例如 %USERPROFILE%。要指定正在运行的宏文件夹中的文件，请使用以下形式：<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\" ) + 1 ) + "LinkFile.txt" |
+| eeExFindNumberRange | 匹配 [数字范围表达式](../../howto/search/number_range_syntax)。此标志不能与 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
+| eeExFindFuzzy | 使用模糊匹配。 |
 
 ## 版本
 

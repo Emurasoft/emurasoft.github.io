@@ -8,8 +8,8 @@ Editor\_GetModified( HWND hwnd );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 ## 返回值
 
-> 如果文本被修改，返回值是 TRUE。如果文本没有被修改，返回值是 FALSE。
+如果文本被修改，返回值是 TRUE。如果文本没有被修改，返回值是 FALSE。

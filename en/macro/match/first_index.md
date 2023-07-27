@@ -2,13 +2,19 @@
 
 A read-only value that contains the zero-based position within the original string where the match occurred.
 
-#### \[JavaScript\]
+## 
 
-_i_ = m. **FirstIndex**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+i = m.FirstIndex;
+```
 
-_i_ = m. **FirstIndex**;
+### \[VBScript\]
+
+```
+i = m.FirstIndex;
+```
 
 ## Version
 

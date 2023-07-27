@@ -1,22 +1,24 @@
 # ShowDBSpaces Property (MarkProp Object)
 
-Corresponds to the **Show**
-**Double-Byte Spaces** check box in the
-[**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
+Corresponds to theShow
+Double-Byte Spaces check box in the
+[Marks page](../../dlg/properties/marks/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowDBSpaces**;
+### \[JavaScript\]
 
-object. **ShowDBSpaces** = _b_;
+```
+b = object.ShowDBSpaces;
+object.ShowDBSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowDBSpaces**
-
-object. **ShowDBSpaces** = _b_
+```
+b = object.ShowDBSpaces
+object.ShowDBSpaces = b
+```
 
 ## Version
 

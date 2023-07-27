@@ -1,21 +1,23 @@
 # DoubleClickOnly Property (LinkProp Object)
 
-Corresponds to the **Enable**
-**Double-Clicking Only** check box in the [**Link** page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to theEnable
+Double-Clicking Only check box in the [Link page](../../dlg/properties/link/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DoubleClickOnly**;
+### \[JavaScript\]
 
-object. **DoubleClickOnly** = _b_;
+```
+b = object.DoubleClickOnly;
+object.DoubleClickOnly = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DoubleClickOnly**
-
-object. **DoubleClickOnly** = _b_
+```
+b = object.DoubleClickOnly
+object.DoubleClickOnly = b
+```
 
 ## Version
 

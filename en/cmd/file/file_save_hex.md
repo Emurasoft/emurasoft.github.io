@@ -1,34 +1,39 @@
 # Save as Binary (Hex View) command
 
-### Summary
+## Summary
 
-> Saves the current file using Binary (Hex View) encoding.
+Saves the current file using Binary (Hex View) encoding.
 
-### Description
+## Description
 
-> This command saves the current file using the Binary (Hex View) encoding, unless the
-> document is untitled. If the document is untitled, the **Save As** dialog box appears,
-> which allows you to enter a file name to save the file as.
+This command saves the current file using the Binary (Hex View) encoding, unless the
+document is untitled. If the document is untitled, theSave As dialog box appears,
+which allows you to enter a file name to save the file as.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Save**
-\> **Save with Encoding** \> **Save as Binary (Hex View)**
+- [All Commands](../tools/all_commands):File \>Save
+\>Save with Encoding \>Save as Binary (Hex View)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_SAVE\_HEX (4441)
+```
+EEID_FILE_SAVE_HEX (4441)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4441);
+```
+editor.ExecuteCommandByID(4441);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4441
+```
+editor.ExecuteCommandByID 4441
+```

@@ -1,18 +1,22 @@
 # CharacterRanges Property (FuzzyOptions Object)
 
-Retrieves or sets the [**CharacterRanges** collection](../character_ranges/index).
+Retrieves or sets the [CharacterRanges collection](../character_ranges/index).
 
-#### \[JavaScript\]
+## 
 
-_ranges_ = obj. **CharacterRanges**;
+### \[JavaScript\]
 
-obj. **CharacterRanges** = _ranges_;
+```
+ranges = obj.CharacterRanges;
+obj.CharacterRanges = ranges;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_ranges_ = obj. **CharacterRanges**
-
-obj. **CharacterRanges** = _ranges_
+```
+ranges = obj.CharacterRanges
+obj.CharacterRanges = ranges
+```
 
 ## Version
 

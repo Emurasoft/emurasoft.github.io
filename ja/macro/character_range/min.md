@@ -2,17 +2,21 @@
 
 オブジェクトの文字の最小値を指定します。
 
-#### \[JavaScript\]
+## 
 
-_c_ = obj. **Min**;
+### \[JavaScript\]
 
-obj. **Min** = _c_;
+```
+c = obj.Min;
+obj.Min = c;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_c_ = obj. **Min**;
-
-obj. **Min** = _c_;
+```
+c = obj.Min;
+obj.Min = c;
+```
 
 ## バージョン
 

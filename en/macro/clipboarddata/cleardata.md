@@ -2,13 +2,19 @@
 
 Removes one or more data formats from the Clipboard.
 
-#### \[JavaScript\]
+## 
 
-clipboardData. **clearData**( \[ _sDataFormat_, \[ _iPos_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+clipboardData.clearData( [ sDataFormat, [ iPos ] ] );
+```
 
-clipboardData. **clearData** \[ _sDataFormat_, \[ _iPos_ \] \]
+### \[VBScript\]
+
+```
+clipboardData.clearData [ sDataFormat, [ iPos ] ]
+```
 
 ## Parameters
 
@@ -28,13 +34,17 @@ Optional. Specifies the position in the Clipboard history if you want to remove 
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 clipboardData.clearData();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 clipboardData.clearData
+```
 
 ## Version
 

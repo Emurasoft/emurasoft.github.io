@@ -2,13 +2,19 @@
 
 クリップボードを空にします。
 
-#### \[JavaScript\]
+## 
 
-clipboardData. **clearData**( \[ _sDataFormat_, \[ _iPos_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+clipboardData.clearData( [ sDataFormat, [ iPos ] ] );
+```
 
-clipboardData. **clearData** \[ _sDataFormat_, \[ _iPos_ \] \]
+### \[VBScript\]
+
+```
+clipboardData.clearData [ sDataFormat, [ iPos ] ]
+```
 
 ## パラメータ
 
@@ -28,13 +34,17 @@ _iPos_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 clipboardData.clearData();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 clipboardData.clearData
+```
 
 ## バージョン
 

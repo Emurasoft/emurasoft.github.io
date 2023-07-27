@@ -14,12 +14,12 @@ lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
 
 _nSerial_
 
-> 변환될 일련 위치를 지정합니다.
+변환될 일련 위치를 지정합니다.
 
 _pptLogical_
 
-> 변환된 논리 좌표를 수신 할 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터입니다.
+변환된 논리 좌표를 수신 할 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터입니다.
 
 ## 반환 값
 
-> 일련 위치를 반환합니다.
+일련 위치를 반환합니다.

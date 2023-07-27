@@ -2,13 +2,19 @@
 
 커서 위치에 줄을 선택합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectLine**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectLine();
+```
 
-document.selection. **SelectLine**
+### \[VBScript\]
+
+```
+document.selection.SelectLine
+```
 
 ## 버전
 

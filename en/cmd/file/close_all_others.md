@@ -1,32 +1,37 @@
 # Close All Others command
 
-### Summary
+## Summary
 
-> Closes all open files except the currently working file.
+Closes all open files except the currently working file.
 
-### Description
+## Description
 
-> This command closes all opened files except the currently working file. If a modified file exists, a prompt message appears to select whether you want to save the changes.
+This command closes all opened files except the currently working file. If a modified file exists, a prompt message appears to select whether you want to save the changes.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Close**
-\> **Close All Others**
+- [All Commands](../tools/all_commands):File \>Close
+\>Close All Others
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CLOSE\_ALL\_OTHERS (4384)
+```
+EEID_CLOSE_ALL_OTHERS (4384)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4384);
+```
+editor.ExecuteCommandByID(4384);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4384
+```
+editor.ExecuteCommandByID 4384
+```

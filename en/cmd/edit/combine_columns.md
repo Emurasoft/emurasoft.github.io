@@ -1,31 +1,36 @@
 # Combine Columns command
 
-### Summary
+## Summary
 
-> Combines selected columns of the CSV document.
+Combines selected columns of the CSV document.
 
-### Description
+## Description
 
-> This command displays the [**Combine Columns** dialog box](../../dlg/combine_columns/index), and combines selected columns of the CSV document.
+This command displays the [Combine Columns dialog box](../../dlg/combine_columns/index), and combines selected columns of the CSV document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Columns** \> **Combine Columns**
-- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Combine Columns**
+- Default Menu:CSV \>Columns \>Combine Columns
+- [All Commands](../tools/all_commands):CSV \>Columns \>Combine Columns
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMBINE\_COLUMNS (4047)
+```
+EEID_COMBINE_COLUMNS (4047)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4047);
+```
+editor.ExecuteCommandByID(4047);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4047
+```
+editor.ExecuteCommandByID 4047
+```

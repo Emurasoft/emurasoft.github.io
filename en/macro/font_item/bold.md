@@ -2,19 +2,21 @@
 
 True if the font is formatted as Bold.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Bold**;
+### \[JavaScript\]
 
-item. **Bold** = _b_;
+```
+b = item.Bold;
+item.Bold = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Bold**
-
-item. **Bold** = _b_
+```
+b = item.Bold
+item.Bold = b
+```
 
 ## Version
 

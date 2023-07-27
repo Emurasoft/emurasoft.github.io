@@ -1,32 +1,37 @@
 # Close All without Save command
 
-### Summary
+## Summary
 
-> Closes all open files without saving.
+Closes all open files without saving.
 
-### Description
+## Description
 
-> This command closes all opened windows without saving. All changes will be discarded.
+This command closes all opened windows without saving. All changes will be discarded.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Close**
-\> **Close All without Save**
+- [All Commands](../tools/all_commands):File \>Close
+\>Close All without Save
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_QUIT\_ALL (4363)
+```
+EEID_QUIT_ALL (4363)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4363);
+```
+editor.ExecuteCommandByID(4363);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4363
+```
+editor.ExecuteCommandByID 4363
+```

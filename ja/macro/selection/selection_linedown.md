@@ -2,13 +2,19 @@
 
 カーソル位置を下に指定した行数だけ移動します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **LineDown**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.LineDown( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **LineDown** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.LineDown [ bExtend [, nCount ] ]
+```
 
 ## 引数
 

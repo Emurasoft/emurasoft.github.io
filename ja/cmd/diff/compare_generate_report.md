@@ -1,14 +1,14 @@
 # \[レポートを作成\] コマンド
 
-### 概要
+## 概要
 
-> 現在の比較の結果に基づいてレポート ファイルを作成します。
+現在の比較の結果に基づいてレポート ファイルを作成します。
 
-### 説明
+## 説明
 
-> 現在の比較の結果に基づいてレポート ファイルを作成します。
+現在の比較の結果に基づいてレポート ファイルを作成します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[比較\] \- \[レポートを作成\]
 - [すべてのコマンド](../../glossary/allcommands): \[比較\] \- \[レポートを作成\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_COMPARE\_BOOKMARK (3996)
+```
+EEID_COMPARE_BOOKMARK (3996)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3996);
+```
+editor.ExecuteCommandByID(3996);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3996
+```
+editor.ExecuteCommandByID 3996
+```

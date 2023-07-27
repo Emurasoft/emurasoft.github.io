@@ -1,21 +1,23 @@
 # PreserveReturnsClipboard Property (GeneralProp Object)
 
-Corresponds to the **Preserve (CR/LF) returns on Clipboard** check box in the
-[**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to thePreserve (CR/LF) returns on Clipboard check box in the
+[General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PreserveReturnsClipboard**;
+### \[JavaScript\]
 
-object. **PreserveReturnsClipboard** = _b_;
+```
+b = object.PreserveReturnsClipboard;
+object.PreserveReturnsClipboard = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PreserveReturnsClipboard**
-
-object. **PreserveReturnsClipboard** = _b_
+```
+b = object.PreserveReturnsClipboard
+object.PreserveReturnsClipboard = b
+```
 
 ## Version
 

@@ -1,14 +1,14 @@
 # \[次を置換 (検索ツール バー)\] コマンド
 
-### 概要
+## 概要
 
-> 検索ツール バーを使用して次の一致した文字列を置換します。
+検索ツール バーを使用して次の一致した文字列を置換します。
 
-### 説明
+## 説明
 
-> 検索ツール バーを使用して次の一致した文字列を置換します。
+検索ツール バーを使用して次の一致した文字列を置換します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[検索ツール バー\] \- \[次を置換\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FINDBAR\_REPLACE\_NEXT (4581)
+```
+EEID_FINDBAR_REPLACE_NEXT (4581)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4581);
+```
+editor.ExecuteCommandByID(4581);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4581
+```
+editor.ExecuteCommandByID 4581
+```

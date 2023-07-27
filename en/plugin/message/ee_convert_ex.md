@@ -13,13 +13,13 @@ lParam = 0;
 
 _pInfo_
 
-> Specifies the pointer to the [CONVERT\_INFO](../structure/convert_info) structure.
+Specifies the pointer to the [CONVERT\_INFO](../structure/convert_info) structure.
 
 ## Return Values
 
-> If the message succeeds, the return value is nonzero. If the message fails,
-> the return value is zero.
+If the message succeeds, the return value is nonzero. If the message fails,
+the return value is zero.
 
 ## Version
 
-> Supported on Version 22.1 or later.
+Supported on Version 22.1 or later.

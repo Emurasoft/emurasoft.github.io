@@ -1,14 +1,14 @@
 # \[1行下へスクロール\] コマンド
 
-### 概要
+## 概要
 
-> 1行下へスクロールします。
+1行下へスクロールします。
 
-### 説明
+## 説明
 
-> 1 行下へスクロールします。ただし、プロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) で **\[2行スクロール\]** チェック ボックスがチェックされている場合、2 行下へスクロールします。
+1 行下へスクロールします。ただし、プロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) で\[2行スクロール\] チェック ボックスがチェックされている場合、2 行下へスクロールします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[スクロール\] \- \[1行下\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Down
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SCROLL\_DOWN (4171)
+```
+EEID_SCROLL_DOWN (4171)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4171);
+```
+editor.ExecuteCommandByID(4171);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4171
+```
+editor.ExecuteCommandByID 4171
+```

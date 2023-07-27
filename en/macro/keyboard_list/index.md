@@ -6,37 +6,35 @@ KeyboardList collection provides a collection of [KeyboardItem objects](../keybo
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | Retrieves the number of items. |
-| **[Item](item)** | Retrieves the [KeyboardItem object](../keyboard_item/index) for the specified index. |
+|[Count](count) | Retrieves the number of items. |
+|[Item](item) | Retrieves the [KeyboardItem object](../keyboard_item/index) for the specified index. |
 
 ## Methods
 
 |     |     |
 | --- | --- |
-| **[Add](add)** | Adds an item. |
-| **[Remove](remove)** | Removes an item. |
+|[Add](add) | Adds an item. |
+|[Remove](remove) | Removes an item. |
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Keyboard.List );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Key );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Keyboard.List
-
 alert item.Key
-
 Next
+```
 
 ## Version
 

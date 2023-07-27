@@ -6,37 +6,35 @@ AssociationList 컬렉션은 [AssociationItem 개체](../association_item/index)
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 항목의 수를 검사합니다. |
-| **[Item](item)** | 지정된 인덱스의 [AssociationItem 개체](../association_item/index) 를 검사합니다. |
+|[Count](count) | 항목의 수를 검사합니다. |
+|[Item](item) | 지정된 인덱스의 [AssociationItem 개체](../association_item/index) 를 검사합니다. |
 
 ## 메서드
 
 |     |     |
 | --- | --- |
-| **[Add](add)** | 항목을 추가합니다. |
-| **[Remove](remove)** | 항목을 제거합니다. |
+|[Add](add) | 항목을 추가합니다. |
+|[Remove](remove) | 항목을 제거합니다. |
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Association.List );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Association.List
-
 alert item.Name
-
 Next
+```
 
 ## 버전
 

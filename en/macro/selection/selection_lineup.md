@@ -2,13 +2,19 @@
 
 Moves the cursor up a specified number of lines.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **LineUp**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.LineUp( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **LineUp** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.LineUp [ bExtend [, nCount ] ]
+```
 
 ## Parameters
 
@@ -20,7 +26,7 @@ is false and the moved text is collapsed.
 _nCount_
 
 Optional. Specifies the number of lines to move up. The default is 1. If
-negative, the method acts like the [**LineDown** \
+negative, the method acts like the [LineDown \
 Method](selection_linedown). If 0, the method acts like 1.
 
 ## Version

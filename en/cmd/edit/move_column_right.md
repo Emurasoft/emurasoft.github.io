@@ -1,32 +1,37 @@
 # Move Column Right command
 
-### Summary
+## Summary
 
-> Moves the selected columns or the current column of the CSV document right one column.
+Moves the selected columns or the current column of the CSV document right one column.
 
-### Description
+## Description
 
-> Moves the selected columns or the current column of the CSV document right one column.
+Moves the selected columns or the current column of the CSV document right one column.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move**
-\> **Move Column Right**
+- [All Commands](../tools/all_commands):Edit \>Move
+\>Move Column Right
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MOVE\_COLUMN\_RIGHT (3994)
+```
+EEID_MOVE_COLUMN_RIGHT (3994)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3994);
+```
+editor.ExecuteCommandByID(3994);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3994
+```
+editor.ExecuteCommandByID 3994
+```

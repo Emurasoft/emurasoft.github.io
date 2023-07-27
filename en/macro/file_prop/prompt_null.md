@@ -1,22 +1,24 @@
 # PromptNull Property (FileProp Object)
 
-Corresponds to the **Prompt**
-**if Null Character Found** check box in the
-[**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to thePrompt
+if Null Character Found check box in the
+[File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptNull**;
+### \[JavaScript\]
 
-object. **PromptNull** = _b_;
+```
+b = object.PromptNull;
+object.PromptNull = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptNull**
-
-object. **PromptNull** = _b_
+```
+b = object.PromptNull
+object.PromptNull = b
+```
 
 ## Version
 

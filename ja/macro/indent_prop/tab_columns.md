@@ -1,21 +1,23 @@
 # TabColumns プロパティ (IndentProp �I�u�W�F�N�g)
 
-[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の
-**\[タブの桁数\]** テキスト ボックスに相当します。
+[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の
+\[タブの桁数\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **TabColumns**;
+### \[JavaScript\]
 
-object. **TabColumns** = _n_;
+```
+n = object.TabColumns;
+object.TabColumns = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **TabColumns**
-
-object. **TabColumns** = _n_
+```
+n = object.TabColumns
+object.TabColumns = n
+```
 
 ## バージョン
 

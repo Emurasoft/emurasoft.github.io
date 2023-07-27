@@ -2,13 +2,19 @@
 
 清除当前行上的书签。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ClearBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ClearBookmark();
+```
 
-document.selection. **ClearBookmark**
+### \[VBScript\]
+
+```
+document.selection.ClearBookmark
+```
 
 ## 版本
 

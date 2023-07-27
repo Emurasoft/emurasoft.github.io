@@ -1,20 +1,22 @@
 # ShowTabs プロパティ (MarkProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[記号\]** タブ](../../dlg/properties/marks/index) の **\[タブ表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[記号\] タブ](../../dlg/properties/marks/index) の\[タブ表示\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowTabs**;
+### \[JavaScript\]
 
-object. **ShowTabs** = _b_;
+```
+b = object.ShowTabs;
+object.ShowTabs = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowTabs**
-
-object. **ShowTabs** = _b_
+```
+b = object.ShowTabs
+object.ShowTabs = b
+```
 
 ## バージョン
 

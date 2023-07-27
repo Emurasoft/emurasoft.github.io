@@ -1,36 +1,41 @@
 # Save As command
 
-### Summary
+## Summary
 
-> Saves the current file with a new name.
+Saves the current file with a new name.
 
-### Description
+## Description
 
-> This command displays the **Save As** dialog box, which allows you to enter a file name to save the currently opened file, and specify a file type, encoding, newline characters, and destination
-> folder.
->
-> If you want to save a titled file under the same name immediately, use the
-> [**Save** command](file_save) instead.
+This command displays theSave As dialog box, which allows you to enter a file name to save the currently opened file, and specify a file type, encoding, newline characters, and destination
+folder.
 
-### How to Run
+If you want to save a titled file under the same name immediately, use the
+[Save command](file_save) instead.
 
-- Default Menu: **File** \> **Save As**
-- [All Commands](../tools/all_commands): **File** \> **Save**
-\> **Save As**
+## How to Run
+
+- Default Menu:File \>Save As
+- [All Commands](../tools/all_commands):File \>Save
+\>Save As
 - Toolbar: ![](../../images/save_as.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_SAVE\_AS (4100)
+```
+EEID_FILE_SAVE_AS (4100)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4100);
+```
+editor.ExecuteCommandByID(4100);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4100
+```
+editor.ExecuteCommandByID 4100
+```

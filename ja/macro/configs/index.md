@@ -11,25 +11,23 @@ Configs コレクションは、設定 ( [Config オブジェクト](../config/i
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 cfgs = new Enumerator( editor.Configs );
-
 for( ; !cfgs.atEnd(); cfgs.moveNext() ){
-
 cfg = cfgs.item();
-
 alert( cfg.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each cfg In editor.Configs
-
 alert cfg.Name
-
 Next
+```
 
 ## バージョン
 

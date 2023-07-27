@@ -2,13 +2,19 @@
 
 檢索 [GeneralProp 對象](../general_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **General**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.General;
+```
 
-Set _obj_ = object. **General**
+### \[VBScript\]
+
+```
+Set obj = object.General
+```
 
 ## 版本
 

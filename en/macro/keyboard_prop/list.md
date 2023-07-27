@@ -1,14 +1,20 @@
 # List Property (Keyboard Object)
 
-Retrieves the [**KeyboardList** collection](../keyboard_list/index).
+Retrieves the [KeyboardList collection](../keyboard_list/index).
 
-#### \[JavaScript\]
+## 
 
-_list_ = object. **List**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.List;
+```
 
-_list_ = object. **List**
+### \[VBScript\]
+
+```
+list = object.List
+```
 
 ## Version
 

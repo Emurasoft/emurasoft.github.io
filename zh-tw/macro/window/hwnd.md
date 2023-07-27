@@ -2,17 +2,21 @@
 
 檢索或設置視窗的句柄值。
 
-#### \[JavaScript\]
+## 
 
-_h_ = wnd. **hWnd**;
+### \[JavaScript\]
 
-wnd. **hWnd** = _h_;
+```
+h = wnd.hWnd;
+wnd.hWnd = h;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_h_ = wnd. **hWnd**
-
-wnd. **hWnd** = _h_
+```
+h = wnd.hWnd
+wnd.hWnd = h
+```
 
 ## 版本
 

@@ -1,20 +1,22 @@
 # Enabled 속성 (HighlightProp ��ü)
 
-구성 속성 [**강조 표시 (1)** 탭](../../dlg/properties/highlight1/index) 의 **이 단어들을 강조 표시** 체크 박스에 해당합니다.
+구성 속성 [강조 표시 (1) 탭](../../dlg/properties/highlight1/index) 의이 단어들을 강조 표시 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Enabled**;
+### \[JavaScript\]
 
-object. **Enabled** = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Enabled**
-
-object. **Enabled** = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## 버전
 

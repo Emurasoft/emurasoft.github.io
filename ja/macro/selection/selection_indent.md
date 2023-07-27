@@ -2,13 +2,19 @@
 
 選択範囲をインデントします。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Indent**( \[ _nCount_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Indent( [ nCount ] );
+```
 
-document.selection. **Indent** \[ _nCount_ \]
+### \[VBScript\]
+
+```
+document.selection.Indent [ nCount ]
+```
 
 ## 引数
 

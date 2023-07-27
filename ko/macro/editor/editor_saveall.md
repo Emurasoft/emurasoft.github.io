@@ -2,13 +2,19 @@
 
 현재 열려있는 파일들을 모두 저장합니다.
 
-#### \[JavaScript\]
+## 
 
-editor. **SaveAll**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.SaveAll();
+```
 
-editor. **SaveAll**
+### \[VBScript\]
+
+```
+editor.SaveAll
+```
 
 ## 버전
 

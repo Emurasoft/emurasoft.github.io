@@ -1,18 +1,22 @@
 # DetectAll 属性 (FileProp ����)
 
-与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **全部检测** 复选框相对应。
+与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的全部检测 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectAll**;
+### \[JavaScript\]
 
-object. **DetectAll** = _b_;
+```
+b = object.DetectAll;
+object.DetectAll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectAll**
-
-object. **DetectAll** = _b_
+```
+b = object.DetectAll
+object.DetectAll = b
+```
 
 ## 版本
 

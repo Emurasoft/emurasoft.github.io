@@ -2,19 +2,21 @@
 
 指定對象的名稱。
 
-#### \[JavaScript\]
+## 
 
-_s_ =
-item. **Name**;
+### \[JavaScript\]
 
-item. **Name** = _s_;
+```
+s = item.Name;
+item.Name = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ =
-item. **Name**
-
-item. **Name** = _s_
+```
+s = item.Name
+item.Name = s
+```
 
 ## 版本
 

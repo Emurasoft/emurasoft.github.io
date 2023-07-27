@@ -1,32 +1,37 @@
 # 全部关闭不保存 (仅当前桌面) 命令
 
-### 摘要
+## 摘要
 
-> 在当前虚拟桌面上，关闭所有打开的文件并不保存。
+在当前虚拟桌面上，关闭所有打开的文件并不保存。
 
-### 说明
+## 说明
 
-> 在当前虚拟桌面上，关闭所有打开的文件并不保存。
+在当前虚拟桌面上，关闭所有打开的文件并不保存。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands): **文件** \> **关闭**
-\> **全部关闭不保存 (仅当前桌面)**
+- [所有命令](../tools/all_commands):文件 \>关闭
+\>全部关闭不保存 (仅当前桌面)
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_QUIT\_DESKTOP (3936)
+```
+EEID_QUIT_DESKTOP (3936)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3936);
+```
+editor.ExecuteCommandByID(3936);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3936
+```
+editor.ExecuteCommandByID 3936
+```

@@ -2,13 +2,19 @@
 
 Returns the class name for the window.
 
-#### \[JavaScript\]
+## 
 
-_str_ = wnd. **ClassName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = wnd.ClassName;
+```
 
-_str_ = wnd. **ClassName**
+### \[VBScript\]
+
+```
+str = wnd.ClassName
+```
 
 ## Version
 

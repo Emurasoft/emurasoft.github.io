@@ -9,12 +9,12 @@ Editor\_GetClipPos( HWND hwnd );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 ## Return Values
 
-> Retrieves the current position in the Clipboard history. If the message fails, the return value is -1.
+Retrieves the current position in the Clipboard history. If the message fails, the return value is -1.
 
 ## Version
 
-> Supported on EmEditor Version 9.00 or later.
+Supported on EmEditor Version 9.00 or later.

@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> [PIVOT\_TABLE\_INFO 構造体](../structure/pivot_table_info) へのポインタを指定します。
+[PIVOT\_TABLE\_INFO 構造体](../structure/pivot_table_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 失敗すると負の値を返します。
+失敗すると負の値を返します。
 
 ## バージョン
 
-> Version 21.4 以上で利用できます。
+Version 21.4 以上で利用できます。

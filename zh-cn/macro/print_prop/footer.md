@@ -1,18 +1,22 @@
 # Footer 属性 (PrintProp ����)
 
-与配置属性中 [**打印** 页面](../../dlg/properties/print/index) 上的 **页脚** 文本框相对应。
+与配置属性中 [打印 页面](../../dlg/properties/print/index) 上的页脚 文本框相对应。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Footer**;
+### \[JavaScript\]
 
-object. **Footer** = _s_;
+```
+s = object.Footer;
+object.Footer = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Footer**
-
-object. **Footer** = _s_
+```
+s = object.Footer
+object.Footer = s
+```
 
 ## 版本
 

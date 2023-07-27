@@ -2,13 +2,19 @@
 
 선택된 텍스트의 대,소문자를 변경합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ChangeCase**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ChangeCase( nFlags );
+```
 
-document.selection. **ChangeCase** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.ChangeCase nFlags
+```
 
 ## 매개 변수
 

@@ -2,13 +2,19 @@
 
 返回選定內容原點的列號。
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetAnchorPointX**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetAnchorPointX( nFlags );
+```
 
-xPos = document.selection. **GetAnchorPointX**( _nFlags_ )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetAnchorPointX( nFlags )
+```
 
 ## 參數
 

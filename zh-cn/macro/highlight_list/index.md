@@ -6,37 +6,35 @@ HighlightList 集合提供 [HighlightItem 对象](../highlight_item/index) 的�
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 检索项目总数。 |
-| **[Item](item)** | 为指定索引检索 [HighlightItem 对象](../highlight_item/index)。 |
+|[Count](count) | 检索项目总数。 |
+|[Item](item) | 为指定索引检索 [HighlightItem 对象](../highlight_item/index)。 |
 
 ## 方法
 
 |     |     |
 | --- | --- |
-| **[Add](add)** | 添加一个项目。 |
-| **[Remove](remove)** | 删除一个项目。 |
+|[Add](add) | 添加一个项目。 |
+|[Remove](remove) | 删除一个项目。 |
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Highlight.List );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Highlight.List
-
 alert item.Name
-
 Next
+```
 
 ## 版本
 

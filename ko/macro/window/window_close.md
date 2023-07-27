@@ -2,13 +2,19 @@
 
 창을 닫습니다.
 
-#### \[JavaScript\]
+## 
 
-**close**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+close();
+```
 
-**close**
+### \[VBScript\]
+
+```
+close
+```
 
 ## 버전
 

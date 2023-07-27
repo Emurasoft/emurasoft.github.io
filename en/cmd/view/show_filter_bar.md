@@ -1,33 +1,38 @@
 # Filter Toolbar command
 
-### Summary
+## Summary
 
-> Shows or hides the filter toolbar.
+Shows or hides the filter toolbar.
 
-### Description
+## Description
 
-> Shows or hides the filter toolbar.
+Shows or hides the filter toolbar.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **Filter Toolbar**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Filter Toolbar**
+- Default Menu:View >
+Toolbars \>Filter Toolbar
+- [All Commands](../tools/all_commands):View >
+Toolbars \>Filter Toolbar
 - Toolbar: ![](../../images/togglefilterbar.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHOW\_FILTER\_BAR (3911)
+```
+EEID_SHOW_FILTER_BAR (3911)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3911);
+```
+editor.ExecuteCommandByID(3911);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3911
+```
+editor.ExecuteCommandByID 3911
+```

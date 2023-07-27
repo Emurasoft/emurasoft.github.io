@@ -9,12 +9,12 @@ Editor\_GetRedraw( HWND hwnd );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。
 
 ## 支持版本
 
-> 支持 EmEditor 5.00 或之后的版本。
+支持 EmEditor 5.00 或之后的版本。

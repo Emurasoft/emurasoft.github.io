@@ -1,15 +1,15 @@
 # \[分割禁止単語のプロパティ\] コマンド
 
-### 概要
+## 概要
 
-> 現在の設定の分割禁止単語のプロパティを変更します。
+現在の設定の分割禁止単語のプロパティを変更します。
 
-### 説明
+## 説明
 
-> このコマンドを実行すると、現在選択されている設定のプロパティの
-> [\[分割禁止単語\] ページ](../../dlg/properties/no_wrap/index) を表示します。
+このコマンドを実行すると、現在選択されている設定のプロパティの
+[\[分割禁止単語\] ページ](../../dlg/properties/no_wrap/index) を表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[現在の設定のプロパティ\] \- \[分割禁止単語\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_PROPERTY\_FACE (8967)
+```
+EEID_PROPERTY_FACE (8967)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8967);
+```
+editor.ExecuteCommandByID(8967);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8967
+```
+editor.ExecuteCommandByID 8967
+```

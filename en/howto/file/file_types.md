@@ -5,12 +5,12 @@ Chinese Traditional, Cyrillic, Greek, Japanese (Shift-JIS), Japanese (JIS), Japa
 Vietnamese, Western European, or any other encodings available on Windows.
 
 In Windows 2000/XP/2003/Vista, more encodings are available by checking additional
-languages under **Supplemental language support** on the **Languages** tab
-of **Regional and Language Options** in the Control Panel. You can also check
-encoding you want to use under **code page conversion tables** on the **Advanced** tab.
+languages underSupplemental language support on theLanguages tab
+ofRegional and Language Options in the Control Panel. You can also check
+encoding you want to use undercode page conversion tables on theAdvanced tab.
 
 Encodings you want to use can be added on the
-[**Define Encodings** dialog box](../../dlg/encodings/index).
+[Define Encodings dialog box](../../dlg/encodings/index).
 
 Newline Characters can be CRs only, LFs
 only, or CR and LF pairs.

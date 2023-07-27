@@ -1,18 +1,22 @@
 # MinDetectDelimiter Property (Csv Object)
 
-Corresponds to the **Min delimiters to detect** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to theMin delimiters to detect text box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **MinDetectDelimiter**;
+### \[JavaScript\]
 
-object. **MinDetectDelimiter** = _n_;
+```
+n = object.MinDetectDelimiter;
+object.MinDetectDelimiter = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **MinDetectDelimiter**
-
-object. **MinDetectDelimiter** = _n_
+```
+n = object.MinDetectDelimiter
+object.MinDetectDelimiter = n
+```
 
 ## Version
 

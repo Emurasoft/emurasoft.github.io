@@ -13,17 +13,21 @@
 | eeFuzzyIgnoreVS | 忽略 Variation Selector。 |
 | eeFuzzyIgnoreWidth | 忽略忽略半形和全形字元的區別。全形形式是中文和日文腳本中使用的獨特格式。 |
 
-#### \[JavaScript\]
+## 
 
-_n_ = obj. **Flags**;
+### \[JavaScript\]
 
-obj. **Flags** = _n_;
+```
+n = obj.Flags;
+obj.Flags = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = obj. **Flags**;
-
-obj. **Flags** = _n_;
+```
+n = obj.Flags;
+obj.Flags = n;
+```
 
 ## 版本
 

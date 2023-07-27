@@ -2,13 +2,19 @@
 
 ウィンドウにキーボード フォーカスを設定します。
 
-#### \[JavaScript\]
+## 
 
+### \[JavaScript\]
+
+```
 wnd.SetFocus();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd.SetFocus
+```
 
 ## バージョン
 

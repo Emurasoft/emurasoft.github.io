@@ -2,13 +2,19 @@
 
 指定するインデックスの設定の [Config オブジェクト](../config/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_cfg_ = editor.Configs. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+cfg = editor.Configs.Item( Index );
+```
 
-_cfg_ = editor.Configs. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+cfg = editor.Configs.Item( Index )
+```
 
 ## パラメータ
 
@@ -18,13 +24,17 @@ _Index_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "最初の設定の名前: " + editor.Configs.Item(1).Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "最初の設定の名前: " & editor.Configs.Item(1).Name
+```
 
 ## バージョン
 

@@ -1,14 +1,20 @@
 # Csv Property (Document Object)
 
-Retrieves the [**Csv** Object](../csv/index).
+Retrieves the [Csv Object](../csv/index).
 
-#### \[JavaScript\]
+## 
 
-_mycsv_ = document. **Csv;**
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+mycsv = document.Csv;
+```
 
-Set _mycsv_ = document. **Csv**
+### \[VBScript\]
+
+```
+Set mycsv = document.Csv
+```
 
 ## Version
 

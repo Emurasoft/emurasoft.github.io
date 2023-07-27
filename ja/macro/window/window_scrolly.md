@@ -2,13 +2,19 @@
 
 スクロール バーの垂直方向の位置を 1 から始まる整数で返します。
 
-#### \[JavaScript\]
+## 
 
-_yPos_ = **scrollY**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos =scrollY;
+```
 
-_yPos_ = **scrollY**
+### \[VBScript\]
+
+```
+yPos =scrollY
+```
 
 ## バージョン
 

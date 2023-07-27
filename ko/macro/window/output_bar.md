@@ -2,13 +2,19 @@
 
 [OutputBar 개체](../output_bar/index) 를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_outbar_ = **OutputBar**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+outbar =OutputBar;
+```
 
-Set _outbar_ = **OutputBar**
+### \[VBScript\]
+
+```
+Set outbar =OutputBar
+```
 
 ## 버전
 

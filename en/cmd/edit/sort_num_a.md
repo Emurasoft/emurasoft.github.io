@@ -1,31 +1,36 @@
 # Sort Smallest to Largest command
 
-### Summary
+## Summary
 
-> Sort numbers at the current column in ascending order.
+Sort numbers at the current column in ascending order.
 
-### Description
+## Description
 
-> Sort numbers at the current column in ascending order. This command will not function for non-numerical characters.
+Sort numbers at the current column in ascending order. This command will not function for non-numerical characters.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Sort** \> **Sort Smallest to Largest**
-- [All Commands](../tools/all_commands): **Sort** \> **Sort Smallest to Largest**
+- Default Menu:Sort \>Sort Smallest to Largest
+- [All Commands](../tools/all_commands):Sort \>Sort Smallest to Largest
 - Toolbar: ![](../../images/sorting0-9.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SORT\_NUM\_A (4479)
+```
+EEID_SORT_NUM_A (4479)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4479);
+```
+editor.ExecuteCommandByID(4479);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4479
+```
+editor.ExecuteCommandByID 4479
+```

@@ -2,13 +2,19 @@
 
 Indicates whether the active point is equal to the bottom point.
 
-#### \[JavaScript\]
+## 
 
-_bGreater_ = document.selection. **IsActiveEndGreater**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bGreater = document.selection.IsActiveEndGreater;
+```
 
-_bGreater_ = document.selection. **IsActiveEndGreater**
+### \[VBScript\]
+
+```
+bGreater = document.selection.IsActiveEndGreater
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 [KeyboardProp オブジェクト](../keyboard_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Keyboard**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Keyboard;
+```
 
-Set _obj_ = object. **Keyboard**
+### \[VBScript\]
+
+```
+Set obj = object.Keyboard
+```
 
 ## バージョン
 

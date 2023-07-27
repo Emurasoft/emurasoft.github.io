@@ -1,21 +1,23 @@
 # Command 속성 (KeyboardItem ��ü)
 
-명령 ID를 지정합니다. 가능한 명령의 목록을 위해 [**명령 참조**](../../cmd/index) 를 참고하십시오.
+명령 ID를 지정합니다. 가능한 명령의 목록을 위해 [명령 참조](../../cmd/index) 를 참고하십시오.
 모든 명령이 사용 가능하거나 지원되지는 않습니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-item. **Command**;
+### \[JavaScript\]
 
-item. **Command** = _n_;
+```
+n = item.Command;
+item.Command = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Command**
-
-item. **Command** = _n_
+```
+n = item.Command
+item.Command = n
+```
 
 ## 버전
 

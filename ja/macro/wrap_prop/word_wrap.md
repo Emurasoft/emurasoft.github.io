@@ -1,19 +1,23 @@
 # WordWrap プロパティ (WrapProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[禁則文字\]** タブ](../../dlg/properties/wrap/index) の
-**\[欧文ワード ラップを行う\]** チェック ボックスに相当します。
+設定のプロパティの [\[禁則文字\] タブ](../../dlg/properties/wrap/index) の
+\[欧文ワード ラップを行う\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **WordWrap**;
+### \[JavaScript\]
 
-object. **WordWrap** = _b_;
+```
+b = object.WordWrap;
+object.WordWrap = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **WordWrap**
-
-object. **WordWrap** = _b_
+```
+b = object.WordWrap
+object.WordWrap = b
+```
 
 ## バージョン
 

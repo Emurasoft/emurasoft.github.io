@@ -1,32 +1,37 @@
 # Use Number Range (Filter toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Use Number Range button on the Filter toolbar.
+Toggles the Use Number Range button on the Filter toolbar.
 
-### Description
+## Description
 
-> Toggles the Use Number Range button on the Filter toolbar.
+Toggles the Use Number Range button on the Filter toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Filter Toolbar**
-\> **Use Number Range**
+- [All Commands](../tools/all_commands):Edit \>Filter Toolbar
+\>Use Number Range
 - Toolbar: ![](../../images/use_number_range.png) (Filter toolbar)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_NUMBER\_RANGE (4013)
+```
+EEID_FILTERBAR_NUMBER_RANGE (4013)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4013);
+```
+editor.ExecuteCommandByID(4013);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4013
+```
+editor.ExecuteCommandByID 4013
+```

@@ -2,13 +2,19 @@
 
 执行一个指定的宏。
 
-#### \[JavaScript\]
+## 
 
-_nResult_ = editor. **ExecuteMacro**( _strMacroFileName_, _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nResult = editor.ExecuteMacro( strMacroFileName, nFlags );
+```
 
-_nResult_ = editor. **ExecuteMacro**( _strMacroFileName_, _nFlags_ )
+### \[VBScript\]
+
+```
+nResult = editor.ExecuteMacro( strMacroFileName, nFlags )
+```
 
 ## 参数
 

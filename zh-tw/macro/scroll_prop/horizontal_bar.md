@@ -1,20 +1,22 @@
 # HorizontalBar 屬性 (ScrollProp ��H)
 
-與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **水平捲軸** 下拉清單方塊相對應。
+與組態屬性中 [捲動 頁面](../../dlg/properties/scroll/index) 上的水平捲軸 下拉清單方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **HorizontalBar**;
+### \[JavaScript\]
 
-object. **HorizontalBar** = _n_;
+```
+n = object.HorizontalBar;
+object.HorizontalBar = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **HorizontalBar**
-
-object. **HorizontalBar** = _n_
+```
+n = object.HorizontalBar
+object.HorizontalBar = n
+```
 
 ## 版本
 

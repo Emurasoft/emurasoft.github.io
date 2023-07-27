@@ -2,13 +2,19 @@
 
 檢索 [SpellProp 對象](../spell_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Spell**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Spell;
+```
 
-Set _obj_ = object. **Spell**
+### \[VBScript\]
+
+```
+Set obj = object.Spell
+```
 
 ## 版本
 

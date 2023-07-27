@@ -2,17 +2,21 @@
 
 상태 표시줄에 표시되는 문자열을 검색하거나 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-_str_ = **status**;
+### \[JavaScript\]
 
-**status** = _str_;
+```
+str =status;
+status = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = **status**
-
-**status** = _str_
+```
+str =status
+status = str
+```
 
 ## 버전
 

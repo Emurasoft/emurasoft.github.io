@@ -1,19 +1,23 @@
 # RenameIfSameNameExists Property (BackupProp Object)
 
-Corresponds to the **Rename if the Same File Name Exists** check box in the
-[**Backup** page](../../dlg/properties/backup/index) of Configuration Properties.
+Corresponds to theRename if the Same File Name Exists check box in the
+[Backup page](../../dlg/properties/backup/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **RenameIfSameNameExists**;
+### \[JavaScript\]
 
-object. **RenameIfSameNameExists** = _b_;
+```
+b = object.RenameIfSameNameExists;
+object.RenameIfSameNameExists = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **RenameIfSameNameExists**
-
-object. **RenameIfSameNameExists** = _b_
+```
+b = object.RenameIfSameNameExists
+object.RenameIfSameNameExists = b
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 지정된 인덱스의 창을 위한 window 개체를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_wnd_ = shell.windows. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd = shell.windows.Item( Index );
+```
 
-_wnd_ = shell.windows. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+wnd = shell.windows.Item( Index )
+```
 
 ## 매개 변수
 
@@ -18,13 +24,17 @@ _Index_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Name of the first window: " + shell.windows.Item(1).Caption );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Name of the first window: " + shell.windows.Item(1).Caption
+```
 
 ## 버전
 

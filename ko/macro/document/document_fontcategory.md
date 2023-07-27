@@ -2,17 +2,21 @@
 
 현재 글꼴 범주를 검색하거나 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-_nCategory_ = document. **FontCategory**;
+### \[JavaScript\]
 
-document. **FontCategory** = _nCategory_;
+```
+nCategory = document.FontCategory;
+document.FontCategory = nCategory;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nCategory_ = document. **FontCategory**
-
-document. **FontCategory** = _nCategory_
+```
+nCategory = document.FontCategory
+document.FontCategory = nCategory
+```
 
 ## 매개 변수
 

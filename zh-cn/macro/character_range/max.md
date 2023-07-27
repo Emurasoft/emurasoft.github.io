@@ -2,19 +2,21 @@
 
 指定对象的最大字符。
 
-#### \[JavaScript\]
+## 
 
-_c_ =
-item. **Max**;
+### \[JavaScript\]
 
-item. **Max** = _c_;
+```
+c = item.Max;
+item.Max = c;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_c_ =
-item. **Max**
-
-item. **Max** = _c_
+```
+c = item.Max
+item.Max = c
+```
 
 ## 版本
 

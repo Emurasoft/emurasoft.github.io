@@ -1,21 +1,23 @@
 # FastCursorMove Property (ScrollProp Object)
 
-Corresponds to the **Faster Cursor Movement** check box in the
-[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to theFaster Cursor Movement check box in the
+[Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **FastCursorMove**;
+### \[JavaScript\]
 
-object. **FastCursorMove** = _b_;
+```
+b = object.FastCursorMove;
+object.FastCursorMove = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **FastCursorMove**
-
-object. **FastCursorMove** = _b_
+```
+b = object.FastCursorMove
+object.FastCursorMove = b
+```
 
 ## Version
 

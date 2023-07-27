@@ -1,27 +1,28 @@
 # Select Macro command
 
-### Summary
+## Summary
 
-> Selects a macro.
+Selects a macro.
 
-### Description
+## Description
 
-> Selects a macro file to run.  This command is used in conjunction with
-> the [**Edit Macro** command](macro_edit), and the [**Run Macro** command](quick_macro_run).
+Selects a macro file to run.  This command is used in conjunction with
+the [Edit Macro command](macro_edit), and the [Run Macro command](quick_macro_run).
 
-### How to Run
+## How to Run
 
-- Default Menu: **Macros** \> **Select**
-- [All Commands](../tools/all_commands): **Macros**
-\> **Select**
+- Default Menu:Macros \>Select
+- [All Commands](../tools/all_commands):Macros
+\>Select
 - Toolbar: ![](../../images/macroselect.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MACRO\_SELECT (4347)
+```
+EEID_MACRO_SELECT (4347)```
 
-### Macros
+## Macros
 
-> Not available.
+Not available.

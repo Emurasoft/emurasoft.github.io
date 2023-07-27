@@ -13,8 +13,8 @@ lParam = (LPARAM) (COLUMN\_STRUCT\*) pColumnStruct;
 
 _pColumnStruct_
 
-> Pointer to the [COLUMN\_STRUCT](../structure/column_struct) structure.
+Pointer to the [COLUMN\_STRUCT](../structure/column_struct) structure.
 
 ## Return Values
 
-> The return value is 0 or positive if succeeded, or negative if failed.
+The return value is 0 or positive if succeeded, or negative if failed.

@@ -1,20 +1,22 @@
 # PreserveReturnsClipboard 속성 (GeneralProp ��ü)
 
-구성 속성 [**일반** 탭](../../dlg/properties/general/index) 의 **(CR/LF) 클립보드 반환 유지** 체크 박스에 해당합니다.
+구성 속성 [일반 탭](../../dlg/properties/general/index) 의(CR/LF) 클립보드 반환 유지 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PreserveReturnsClipboard**;
+### \[JavaScript\]
 
-object. **PreserveReturnsClipboard** = _b_;
+```
+b = object.PreserveReturnsClipboard;
+object.PreserveReturnsClipboard = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PreserveReturnsClipboard**
-
-object. **PreserveReturnsClipboard** = _b_
+```
+b = object.PreserveReturnsClipboard
+object.PreserveReturnsClipboard = b
+```
 
 ## 버전
 

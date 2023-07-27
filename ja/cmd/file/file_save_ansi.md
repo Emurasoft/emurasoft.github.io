@@ -1,15 +1,15 @@
 # \[システム既定エンコードで保存\] コマンド
 
-### 概要
+## 概要
 
-> [システム既定エンコード](../../glossary/systemdefaultencoding) で保存します。
+[システム既定エンコード](../../glossary/systemdefaultencoding) で保存します。
 
-### 説明
+## 説明
 
-> このコマンドを実行すると、現在の文書が無題でなければ、現在のファイル名のままで [システム既定エンコード](../../glossary/systemdefaultencoding) を使用して文書の変更を保存します。無題のファイルが存在する場合は、\[名前を付けて保存\]
-> ダイアログ ボックスが表示され、保存したいファイル名などを選択することができます。
+このコマンドを実行すると、現在の文書が無題でなければ、現在のファイル名のままで [システム既定エンコード](../../glossary/systemdefaultencoding) を使用して文書の変更を保存します。無題のファイルが存在する場合は、\[名前を付けて保存\]
+ダイアログ ボックスが表示され、保存したいファイル名などを選択することができます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[保存\] \- \[エンコードを指定して保存\] \- \[システム既定で保存\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FILE\_SAVE\_ANSI (4102)
+```
+EEID_FILE_SAVE_ANSI (4102)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4102);
+```
+editor.ExecuteCommandByID(4102);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4102
+```
+editor.ExecuteCommandByID 4102
+```

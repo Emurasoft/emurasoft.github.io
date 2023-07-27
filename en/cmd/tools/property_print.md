@@ -1,35 +1,40 @@
 # Print Properties command
 
-### Summary
+## Summary
 
-> Displays Print properties.
+Displays Print properties.
 
-### Description
+## Description
 
-> Displays the [**Print** \
-> page](../../dlg/properties/print/index)
-> of the **[Configuration Properties](../../dlg/properties/index)**
-> dialog box.
+Displays the [Print \
+page](../../dlg/properties/print/index)
+of the[Configuration Properties](../../dlg/properties/index)
+dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Properties for Current Configuration** \> **Print**
+- [All Commands](all_commands):Tools >
+Properties for Current Configuration \>Print
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PROPERTY\_PRINT (8972)
+```
+EEID_PROPERTY_PRINT (8972)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(8972);
+```
+editor.ExecuteCommandByID(8972);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 8972
+```
+editor.ExecuteCommandByID 8972
+```

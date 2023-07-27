@@ -1,19 +1,23 @@
 # RegExp Property (IndentProp Object)
 
-Corresponds to the **Use Regular Expressions** check box in the
-[**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
+Corresponds to theUse Regular Expressions check box in the
+[Tab/Index dialog box](../../dlg/properties/general/indent/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **RegExp**;
+### \[JavaScript\]
 
-object. **RegExp** = _b_;
+```
+b = object.RegExp;
+object.RegExp = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **RegExp**
-
-object. **RegExp** = _b_
+```
+b = object.RegExp
+object.RegExp = b
+```
 
 ## Version
 

@@ -1,32 +1,37 @@
 # Go to EmEditor Home page command
 
-### Summary
+## Summary
 
-> Opens the EmEditor web site.
+Opens the EmEditor web site.
 
-### Description
+## Description
 
-> Opens the EmEditor web site in your default internet browser.
+Opens the EmEditor web site in your default internet browser.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Help** \> **Go to EmEditor Home Page**
-- [All Commands](../tools/all_commands): **Help** >
-**Go to EmEditor Home Page**
+- Default Menu:Help \>Go to EmEditor Home Page
+- [All Commands](../tools/all_commands):Help >
+Go to EmEditor Home Page
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WEB\_HOME (4249)
+```
+EEID_WEB_HOME (4249)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4249);
+```
+editor.ExecuteCommandByID(4249);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4249
+```
+editor.ExecuteCommandByID 4249
+```

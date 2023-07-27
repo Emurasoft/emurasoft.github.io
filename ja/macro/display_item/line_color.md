@@ -2,17 +2,21 @@
 
 オブジェクトの下線の色を指定します。
 
-#### \[JavaScript\]
+## 
 
-_rgb_ = item. **LineColor**;
+### \[JavaScript\]
 
-item. **LineColor** = _rgb_;
+```
+rgb = item.LineColor;
+item.LineColor = rgb;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_rgb_ = item. **LineColor**;
-
-item. **LineColor** = _rgb_;
+```
+rgb = item.LineColor;
+item.LineColor = rgb;
+```
 
 ## バージョン
 

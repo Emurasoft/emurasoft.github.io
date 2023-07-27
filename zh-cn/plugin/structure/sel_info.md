@@ -20,20 +20,20 @@ POINT\_PTR ptCaret;
 
 _cbSize_
 
-> 必须指定 sizeof( SEL\_INFO )。
+必须指定 sizeof( SEL\_INFO )。
 
 _ptStart_
 
-> 指定所选内容的开始位置。
+指定所选内容的开始位置。
 
 _ptEnd_
 
-> 指定所选内容的结束位置。
+指定所选内容的结束位置。
 
 _ptCaret_
 
-> 指定所选内容的光标位置。
+指定所选内容的光标位置。
 
 ## 支持版本
 
-> 支持 EmEditor 13 或之后的版本。
+支持 EmEditor 13 或之后的版本。

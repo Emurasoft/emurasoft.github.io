@@ -1,18 +1,22 @@
 # Kinsoku 属性 (WrapProp ����)
 
-与配置属性中 [**换行** 页面](../../dlg/properties/wrap/index) 上的 **将指定字符换行** 复选框相对应。
+与配置属性中 [换行 页面](../../dlg/properties/wrap/index) 上的将指定字符换行 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Kinsoku**;
+### \[JavaScript\]
 
-object. **Kinsoku** = _b_;
+```
+b = object.Kinsoku;
+object.Kinsoku = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Kinsoku**
-
-**object.Kinsoku** = _b_
+```
+b = object.Kinsoku
+object.Kinsoku = b
+```
 
 ## 版本
 

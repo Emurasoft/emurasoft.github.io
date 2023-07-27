@@ -1,18 +1,22 @@
 # LineComment2 속성 (HighlightProp ��ü)
 
-구성 속성 [**강조 표시 (2)** 탭](../../dlg/properties/highlight2/index) 의 **설명 그룹 박스 \- 줄 설명** 텍스트 박스에 해당합니다.
+구성 속성 [강조 표시 (2) 탭](../../dlg/properties/highlight2/index) 의설명 그룹 박스 \- 줄 설명 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **LineComment2**;
+### \[JavaScript\]
 
-object. **LineComment2** = _str_;
+```
+str = object.LineComment2;
+object.LineComment2 = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **LineComment2**
-
-object. **LineComment2** = _str_
+```
+str = object.LineComment2
+object.LineComment2 = str
+```
 
 ## 버전
 

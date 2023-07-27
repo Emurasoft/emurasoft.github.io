@@ -3,13 +3,19 @@
 Sets a string value into the Registry or an INI file
 depending on the EmEditor settings.
 
-#### \[JavaScript\]
+## 
 
-editor. **WriteProfileString**( _nKey_, _strConfig_, _strEntry_, _strData_ \[ , _nType_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.WriteProfileString( nKey, strConfig, strEntry, strData [ , nType ] );
+```
 
-editor. **WriteProfileString** _nKey_, _strConfig_, _strEntry_, _strData_ \[ , _nType_ \]
+### \[VBScript\]
+
+```
+editor.WriteProfileString nKey, strConfig, strEntry, strData [ , nType ]
+```
 
 ## Parameters
 
@@ -59,15 +65,14 @@ Specifies the data type. This can be zero of the following value. If this is zer
 
 This example explains how to write a 64-bit integer value.
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nLow = 0x02000183;
-
 nHigh = 0x00000004;
-
 s64 = "0x" + nHigh.toString(16) + ("00000000" + nLow.toString(16)).slice(-8);
-
 editor.WriteProfileString( eeRegCommon, "", "FindFlag", s64, eeRegQWord );
+```
 
 ## Version
 

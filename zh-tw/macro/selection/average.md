@@ -2,13 +2,19 @@
 
 檢索所選內容中包含的數字的平均值。
 
-#### \[JavaScript\]
+## 
 
-_v_ = document.selection. **Average**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+v = document.selection.Average;
+```
 
-_v_ = document.selection. **Average**
+### \[VBScript\]
+
+```
+v = document.selection.Average
+```
 
 ## 版本
 

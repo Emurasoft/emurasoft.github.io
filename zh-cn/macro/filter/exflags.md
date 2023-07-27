@@ -6,19 +6,21 @@
 | --- | --- |
 | eeExFindNumberRange | 匹配 [数字范围表达式](../../howto/search/number_range_syntax)。此标志不能与 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
 
-#### \[JavaScript\]
+## 
 
-_flag_ =
-item. **ExFlags**;
+### \[JavaScript\]
 
-item. **ExFlags** = flags;
+```
+flag = item.ExFlags;
+item.ExFlags = flags;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **ExFlags**
-
-item. **ExFlags** = _n_
+```
+n = item.ExFlags
+item.ExFlags = n
+```
 
 ## 版本
 

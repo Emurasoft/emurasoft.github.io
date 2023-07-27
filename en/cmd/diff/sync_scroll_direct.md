@@ -1,32 +1,37 @@
 # Synchronize Scrolling command
 
-### Summary
+## Summary
 
-> Synchronizes scrolling of two recently viewed documents without specifying options.
+Synchronizes scrolling of two recently viewed documents without specifying options.
 
-### Description
+## Description
 
-> Synchronizes scrolling of the two most recently viewed documents without specifying options.
+Synchronizes scrolling of the two most recently viewed documents without specifying options.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Synchronize Scrolling Direct**
-- [All Commands](../tools/all_commands): **Compare** \> **Synchronize Scrolling**
-**Direct**
+- Default Menu:Compare \>Synchronize Scrolling Direct
+- [All Commands](../tools/all_commands):Compare \>Synchronize Scrolling
+Direct
 - Toolbar: ![](../../images/sync24x16.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SYNC\_SCROLL\_DIRECT (4495)
+```
+EEID_SYNC_SCROLL_DIRECT (4495)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4495);
+```
+editor.ExecuteCommandByID(4495);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4495
+```
+editor.ExecuteCommandByID 4495
+```

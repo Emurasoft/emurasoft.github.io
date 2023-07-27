@@ -1,14 +1,20 @@
 # FuzzyOptions Property (Editor Object)
 
-Retrieves the [**FuzzyOptions** Object](../fuzzy_options/index).
+Retrieves the [FuzzyOptions Object](../fuzzy_options/index).
 
-#### \[JavaScript\]
+## 
 
-_reg_ = editor. **FuzzyOptions**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+reg = editor.FuzzyOptions;
+```
 
-Set _reg_ = editor. **FuzzyOptions**
+### \[VBScript\]
+
+```
+Set reg = editor.FuzzyOptions
+```
 
 ## Version
 

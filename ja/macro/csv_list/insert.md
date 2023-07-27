@@ -2,13 +2,19 @@
 
 アイテムを挿入します。
 
-#### \[JavaScript\]
+## 
 
-list. **Insert**( _Index_, _obj_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Insert( Index, obj );
+```
 
-list. **Insert** _Index_, _obj_
+### \[VBScript\]
+
+```
+list.Insert Index, obj
+```
 
 ## パラメータ
 

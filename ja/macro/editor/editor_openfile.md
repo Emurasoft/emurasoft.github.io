@@ -2,15 +2,21 @@
 
 既存のファイルを開きます。
 
-#### \[JavaScript\]
+## 
 
-editor. **OpenFile**( _strFileName_, \[ _nEncoding_, \[ _nFlags_
-\] \]
+### \[JavaScript\]
+
+```
+editor.OpenFile( strFileName, [ nEncoding, [ nFlags
+] ]
 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-editor. **OpenFile** _strFileName_, \[ _nEncoding_, \[ _nFlags_ \] \]
+```
+editor.OpenFile strFileName, [ nEncoding, [ nFlags ] ]
+```
 
 ## パラメータ
 

@@ -2,13 +2,19 @@
 
 返回選定內容頂部的列號。
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetTopPointX**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetTopPointX( nFlags [, iSel ] );
+```
 
-xPos = document.selection. **GetTopPointX**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetTopPointX( nFlags [, iSel ] )
+```
 
 ## 參數
 

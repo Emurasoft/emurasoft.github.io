@@ -2,14 +2,20 @@
 
 선택 영역의 원점을 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SetAnchorPoint**( _nFlags_, _xPos_, _yPos_
+### \[JavaScript\]
+
+```
+document.selection.SetAnchorPoint( nFlags, xPos, yPos
 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document.selection. **SetAnchorPoint** _nFlags_, _xPos_, _yPos_
+```
+document.selection.SetAnchorPoint nFlags, xPos, yPos
+```
 
 ## 매개 변수
 

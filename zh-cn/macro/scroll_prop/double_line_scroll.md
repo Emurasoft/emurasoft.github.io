@@ -1,20 +1,22 @@
 # DoubleLineScroll 属性 (ScrollProp ����)
 
-与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **每次滚动两行** 复选框相对应。
+与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的每次滚动两行 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DoubleLineScroll**;
+### \[JavaScript\]
 
-object. **DoubleLineScroll** = _b_;
+```
+b = object.DoubleLineScroll;
+object.DoubleLineScroll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DoubleLineScroll**
-
-object. **DoubleLineScroll** = _b_
+```
+b = object.DoubleLineScroll
+object.DoubleLineScroll = b
+```
 
 ## 版本
 

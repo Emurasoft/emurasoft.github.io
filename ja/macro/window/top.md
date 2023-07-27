@@ -2,17 +2,21 @@
 
 指定したウィンドウの垂直方向をピクセル単位で返すか、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_y_ = wnd. **Top**;
+### \[JavaScript\]
 
-wnd. **Top** = _y_;
+```
+y = wnd.Top;
+wnd.Top = y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_y_ = wnd. **Top**
-
-wnd. **Top** = _y_
+```
+y = wnd.Top
+wnd.Top = y
+```
 
 ## バージョン
 

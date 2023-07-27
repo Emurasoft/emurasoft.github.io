@@ -1,14 +1,14 @@
 # \[行/列の入れ替え\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書の行と列を入れ替えます。
+CSV文書の行と列を入れ替えます。
 
-### 説明
+## 説明
 
-> CSV文書の行と列を入れ替えます。
+CSV文書の行と列を入れ替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[高度\] - \[行/列の入れ替え\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[高度\] - \[行/列の入れ替え\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_TRANSPOSE (4082)
+```
+EEID_TRANSPOSE (4082)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4082);
+```
+editor.ExecuteCommandByID(4082);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4082
+```
+editor.ExecuteCommandByID 4082
+```

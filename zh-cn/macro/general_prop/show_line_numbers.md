@@ -1,20 +1,22 @@
 # ShowLineNumbers 属性 (GeneralProp ����)
 
-与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **显示行号** 复选框相对应。
+与配置属性中 [常规 页面](../../dlg/properties/general/index) 上的显示行号 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowLineNumbers**;
+### \[JavaScript\]
 
-object. **ShowLineNumbers** = _b_;
+```
+b = object.ShowLineNumbers;
+object.ShowLineNumbers = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowLineNumbers**
-
-object. **ShowLineNumbers** = _b_
+```
+b = object.ShowLineNumbers
+object.ShowLineNumbers = b
+```
 
 ## 版本
 

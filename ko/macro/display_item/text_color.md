@@ -2,17 +2,21 @@
 
 개체의 텍스트 색상을 지정합니다.
 
-#### \[JavaScript\]
+## 
 
-_rgb_ = item. **TextColor**;
+### \[JavaScript\]
 
-item. **TextColor** = _rgb_;
+```
+rgb = item.TextColor;
+item.TextColor = rgb;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_rgb_ = item. **TextColor**;
-
-item. **TextColor** = _rgb_;
+```
+rgb = item.TextColor;
+item.TextColor = rgb;
+```
 
 ## 버전
 

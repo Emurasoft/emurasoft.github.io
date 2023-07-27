@@ -2,13 +2,19 @@
 
 返回是否視窗句柄還有效。
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Valid**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Valid;
+```
 
-_b_ = wnd. **Valid**
+### \[VBScript\]
+
+```
+b = wnd.Valid
+```
 
 ## 版本
 

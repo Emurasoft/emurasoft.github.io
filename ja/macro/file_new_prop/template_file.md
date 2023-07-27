@@ -1,18 +1,22 @@
 # TemplateFile プロパティ (FileNewProp �I�u�W�F�N�g)
 
-[**\[新規作成時の詳細\]** のダイアログ ボックス](../../dlg/properties/file/new_details/index) の **\[テンプレート ファイル\]** テキスト ボックスに相当します。
+[\[新規作成時の詳細\] のダイアログ ボックス](../../dlg/properties/file/new_details/index) の\[テンプレート ファイル\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **TemplateFile**;
+### \[JavaScript\]
 
-object. **TemplateFile** = _s_;
+```
+s = object.TemplateFile;
+object.TemplateFile = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **TemplateFile**
-
-object. **TemplateFile** = _s_
+```
+s = object.TemplateFile
+object.TemplateFile = s
+```
 
 ## バージョン
 

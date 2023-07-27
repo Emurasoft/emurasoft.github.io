@@ -2,13 +2,19 @@
 
 FontList 개체를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_list_ = object. **DisplayList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.DisplayList;
+```
 
-_list_ = object. **DisplayList**
+### \[VBScript\]
+
+```
+list = object.DisplayList
+```
 
 ## 버전
 

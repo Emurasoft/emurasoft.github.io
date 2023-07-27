@@ -2,13 +2,19 @@
 
 すべての EmEditor で開かれているファイルを保存して閉じます。
 
-#### \[JavaScript\]
+## 
 
-editor. **SaveCloseAll**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.SaveCloseAll();
+```
 
-editor. **SaveCloseAll**
+### \[VBScript\]
+
+```
+editor.SaveCloseAll
+```
 
 ## バージョン
 

@@ -2,13 +2,19 @@
 
 Loads the fuzzy options from the app data folder.
 
-#### \[JavaScript\]
+## 
 
-obj. **Load**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj.Load();
+```
 
-obj. **Load**
+### \[VBScript\]
+
+```
+obj.Load
+```
 
 ## Version
 

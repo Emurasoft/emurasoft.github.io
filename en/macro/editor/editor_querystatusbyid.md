@@ -3,20 +3,26 @@
 Retrieves the current status of the specified command, whether it is enabled
 and checked.
 
-#### \[JavaScript\]
+## 
 
-_nStatus_ = editor. **QueryStatusByID**( _nID_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nStatus = editor.QueryStatusByID( nID );
+```
 
-_nStatus_ = editor. **QueryStatusByID**( _nID_ )
+### \[VBScript\]
+
+```
+nStatus = editor.QueryStatusByID( nID )
+```
 
 ## Parameters
 
 _nID_
 
 Specifies an integer indicating the Command ID to execute. See the
-**[Command Reference](../../cmd/index)** for the list of available
+[Command Reference](../../cmd/index) for the list of available
 commands. Not all commands may be available or supported.
 
 ## Return Values

@@ -2,13 +2,19 @@
 
 현재 구성 개체의 이름을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Name**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+s = object.Name;
+```
 
-_s_ = object. **Name**
+### \[VBScript\]
+
+```
+s = object.Name
+```
 
 ## 버전
 

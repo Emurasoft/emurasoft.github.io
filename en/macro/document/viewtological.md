@@ -1,14 +1,20 @@
 # ViewToLogical Method (Document Object)
 
-Convert the display coordinates of a specified position to the logical coordinates, and retrieves the position in the [**Point** object](../point/index).
+Convert the display coordinates of a specified position to the logical coordinates, and retrieves the position in the [Point object](../point/index).
 
-#### \[JavaScript\]
+## 
 
-_point_ = document. **ViewToLogical**( _x_, _y_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+point = document.ViewToLogical( x, y );
+```
 
-_point_ = document. **ViewToLogical**( _x_, _y_ )
+### \[VBScript\]
+
+```
+point = document.ViewToLogical( x, y )
+```
 
 ## Parameters
 
@@ -22,21 +28,21 @@ Specifies the one-based vertical (line) position.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 point = document.ViewToLogical( 10, 1 );
-
 x = point.x;
-
 y = point.y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 point = document.ViewToLogical( 10, 1 )
-
 x = point.x
-
 y = point.y
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 把游標移動到相對應的括號處。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **GoToBrace**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.GoToBrace( [ bExtend ] );
+```
 
-document.selection. **GoToBrace** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.GoToBrace [ bExtend ]
+```
 
 ## 參數
 

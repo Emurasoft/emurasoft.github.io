@@ -2,19 +2,21 @@
 
 フォントがイタリック体に設定されていたらTrueです。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Italic**;
+### \[JavaScript\]
 
-item. **Italic** = _b_;
+```
+b = item.Italic;
+item.Italic = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Italic**
-
-item. **Italic** = _b_
+```
+b = item.Italic
+item.Italic = b
+```
 
 ## バージョン
 

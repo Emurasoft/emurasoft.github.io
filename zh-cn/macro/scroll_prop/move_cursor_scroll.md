@@ -1,20 +1,22 @@
 # MoveCursorScroll 属性 (ScrollProp ����)
 
-与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **通过滚动位置移动光标** 复选框相对应。
+与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的通过滚动位置移动光标 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **MoveCursorScroll**;
+### \[JavaScript\]
 
-object. **MoveCursorScroll** = _b_;
+```
+b = object.MoveCursorScroll;
+object.MoveCursorScroll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **MoveCursorScroll**
-
-object. **MoveCursorScroll** = _b_
+```
+b = object.MoveCursorScroll
+object.MoveCursorScroll = b
+```
 
 ## 版本
 

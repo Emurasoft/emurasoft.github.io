@@ -2,13 +2,19 @@
 
 Sets the attributes of a specified file or folder.
 
-#### \[JavaScript\]
+## 
 
-shell. **SetFileAttributes**( _strFile_, _nAttr_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.SetFileAttributes( strFile, nAttr );
+```
 
-shell. **SetFileAttributes** _strFile_, _nAttr_
+### \[VBScript\]
+
+```
+shell.SetFileAttributes strFile, nAttr
+```
 
 ## Parameters
 
@@ -31,13 +37,17 @@ A combination of the following values.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.SetFileAttributes( "C:\\\Test\\\file.txt", 1 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.SetFileAttributes "C:\\Test\\file.txt", 1
+```
 
 ## Version
 

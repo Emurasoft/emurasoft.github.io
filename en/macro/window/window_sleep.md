@@ -2,13 +2,19 @@
 
 Pauses the macro execution for the specified time in milliseconds.
 
-#### \[JavaScript\]
+## 
 
-**Sleep**( _nMilliseconds_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Sleep( nMilliseconds);
+```
 
-**Sleep** _nMilliseconds_
+### \[VBScript\]
+
+```
+Sleep nMilliseconds
+```
 
 ## Parameters
 

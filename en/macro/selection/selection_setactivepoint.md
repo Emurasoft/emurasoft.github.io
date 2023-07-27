@@ -2,13 +2,19 @@
 
 Sets the cursor position.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SetActivePoint**( _nFlags_, _xPos_, _yPos_ \[ \[, _bExtend_ \] , iSel \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SetActivePoint( nFlags, xPos, yPos [ [, bExtend ] , iSel ] );
+```
 
-document.selection. **SetActivePoint** _nFlags_, _xPos_, _yPos_ \[ \[, _bExtend_ \] , iSel \]
+### \[VBScript\]
+
+```
+document.selection.SetActivePoint nFlags, xPos, yPos [ [, bExtend ] , iSel ]
+```
 
 ## Parameters
 

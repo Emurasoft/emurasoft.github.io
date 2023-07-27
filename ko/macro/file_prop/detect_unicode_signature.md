@@ -1,20 +1,22 @@
 # DetectUnicodeSignature 속성 (FileProp ��ü)
 
-구성 속성 [**파일** 탭](../../dlg/properties/file/index) 의 **유니코드 서명 검색 (BOM)** 체크 박스에 해당합니다.
+구성 속성 [파일 탭](../../dlg/properties/file/index) 의유니코드 서명 검색 (BOM) 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DetectUnicodeSignature**;
+### \[JavaScript\]
 
-object. **DetectUnicodeSignature** = _b_;
+```
+b = object.DetectUnicodeSignature;
+object.DetectUnicodeSignature = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DetectUnicodeSignature**
-
-object. **DetectUnicodeSignature** = _b_
+```
+b = object.DetectUnicodeSignature
+object.DetectUnicodeSignature = b
+```
 
 ## 버전
 

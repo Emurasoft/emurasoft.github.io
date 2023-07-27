@@ -2,25 +2,34 @@
 
 文書のタイトルを取得、または設定します。タイトルには長いタイトルと短いタイトルを LF で区切って指定することができます (\\n または Chr(10))。
 
-#### \[JavaScript\]
+## 
 
-_strTitle_ = document. **Title**;document. **Title** = _strTitle_;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strTitle = document.Title;document.Title = strTitle;
+```
 
-_strTitle = document. **Title**_
+### \[VBScript\]
 
-_document. **Title** = strTitle_
+```
+strTitle = document.Title
+document.Title = strTitle
+```
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.Title = "This is a long title.\\nShort title";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.Title = "This is a long title." & Chr(10) & "Short title"
+```
 
 ## バージョン
 

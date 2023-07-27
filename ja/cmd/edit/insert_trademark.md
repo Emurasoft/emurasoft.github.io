@@ -1,14 +1,14 @@
 # \[商標を挿入\] コマンド
 
-### 概要
+## 概要
 
-> 商標を挿入します。
+商標を挿入します。
 
-### 説明
+## 説明
 
-> カーソル位置に商標文字 ™ を挿入します。
+カーソル位置に商標文字 ™ を挿入します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[挿入\] \- \[記号\] \- \[商標\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[記号\] \- \[商標\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+Ctrl+T
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_INSERT\_TRADEMARK (4316)
+```
+EEID_INSERT_TRADEMARK (4316)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Text="™";
+```
+document.selection.Text="™";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Text="™"
+```
+document.selection.Text="™"
+```

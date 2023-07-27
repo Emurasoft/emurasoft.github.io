@@ -1,18 +1,22 @@
 # QuoteMarks 屬性 (DisplayProp ��H)
 
-與組態屬性中的 [**顯示** 頁面](../../dlg/properties/display/index) 上的 **引號標記** 文字方塊相對應。
+與組態屬性中的 [顯示 頁面](../../dlg/properties/display/index) 上的引號標記 文字方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **QuoteMarks**;
+### \[JavaScript\]
 
-object. **QuoteMarks** = _s_;
+```
+s = object.QuoteMarks;
+object.QuoteMarks = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **QuoteMarks**
-
-object. **QuoteMarks** = _s_
+```
+s = object.QuoteMarks
+object.QuoteMarks = s
+```
 
 ## 版本
 

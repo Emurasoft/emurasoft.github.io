@@ -2,13 +2,19 @@
 
 Repeats the previous search for the same string.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **FindRepeat**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.FindRepeat( nFlags );
+```
 
-document.selection. **FindRepeat** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.FindRepeat nFlags
+```
 
 ## Parameters
 

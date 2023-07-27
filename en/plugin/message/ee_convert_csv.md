@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> Specifies the pointer to the [CONVERT\_CSV\_INFO](../structure/convert_csv_info) structure.
+Specifies the pointer to the [CONVERT\_CSV\_INFO](../structure/convert_csv_info) structure.
 
 ## Return Values
 
-> The return value is S\_OK if succeeds.
+The return value is S\_OK if succeeds.
 
 ## Version
 
-> Supported on Version 19.8 or later.
+Supported on Version 19.8 or later.

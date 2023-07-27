@@ -1,21 +1,23 @@
 # ShowPage Property (GeneralProp Object)
 
-Corresponds to the **Show Page Numbers** check box in the
-[**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to theShow Page Numbers check box in the
+[General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowPage**;
+### \[JavaScript\]
 
-object. **ShowPage** = _b_;
+```
+b = object.ShowPage;
+object.ShowPage = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowPage**
-
-object. **ShowPage** = _b_
+```
+b = object.ShowPage
+object.ShowPage = b
+```
 
 ## Version
 

@@ -14,8 +14,8 @@ lParam = (LPARAM) (POINT\_PTR\*) pptPos;
 
 _pptPos_
 
-> 指针指向一个会接收滚动条位置的 [POINT\_PTR 结构](../structure/point_ptr)。
+指针指向一个会接收滚动条位置的 [POINT\_PTR 结构](../structure/point_ptr)。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

@@ -2,13 +2,19 @@
 
 移動到文檔中的上一個書籤處。
 
-#### \[JavaScript\]
+## 
 
-_bFound_ = document.selection. **PreviousBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bFound = document.selection.PreviousBookmark();
+```
 
-_bFound_ = document.selection. **PreviousBookmark**
+### \[VBScript\]
+
+```
+bFound = document.selection.PreviousBookmark
+```
 
 ## 返回值
 

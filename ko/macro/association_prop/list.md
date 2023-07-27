@@ -2,15 +2,19 @@
 
 [AssociationList 개체](../association_list/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_list_ =
-object. **List**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.List;
+```
 
-_list_ =
-object. **List**
+### \[VBScript\]
+
+```
+list = object.List
+```
 
 ## 버전
 

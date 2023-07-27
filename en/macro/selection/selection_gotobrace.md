@@ -2,13 +2,19 @@
 
 Moves the cursor to the corresponding bracket / brace.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **GoToBrace**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.GoToBrace( [ bExtend ] );
+```
 
-document.selection. **GoToBrace** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.GoToBrace [ bExtend ]
+```
 
 ## Parameters
 

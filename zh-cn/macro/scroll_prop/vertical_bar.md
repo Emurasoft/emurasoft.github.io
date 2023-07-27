@@ -1,20 +1,22 @@
 # VerticalBar 属性 (ScrollProp ����)
 
-与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **垂直滚动条** 下拉列表框相对应。
+与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的垂直滚动条 下拉列表框相对应。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **VerticalBar**;
+### \[JavaScript\]
 
-object. **VerticalBar**  = _n_;
+```
+n = object.VerticalBar;
+object.VerticalBar  = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **VerticalBar**
-
-object. **VerticalBar**  = _n_
+```
+n = object.VerticalBar
+object.VerticalBar  = n
+```
 
 ## 版本
 

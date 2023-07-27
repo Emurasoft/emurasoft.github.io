@@ -2,17 +2,21 @@
 
 Determines whether to highlight tags.
 
-#### \[JavaScript\]
+## 
 
-_bHighlightTag_ = document. **HighlightTag**;
+### \[JavaScript\]
 
-document. **HighlightTag** = _bHighlightTag_;
+```
+bHighlightTag = document.HighlightTag;
+document.HighlightTag = bHighlightTag;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bHighlightTag_ = document. **HighlightTag**
-
-document. **HighlightTag** = _bHighlightTag_
+```
+bHighlightTag = document.HighlightTag
+document.HighlightTag = bHighlightTag
+```
 
 ## Version
 

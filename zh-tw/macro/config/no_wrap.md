@@ -2,13 +2,19 @@
 
 檢索 [NoWrapProp 對象](../no_wrap_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **NoWrap**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.NoWrap;
+```
 
-Set _obj_ = object. **NoWrap**
+### \[VBScript\]
+
+```
+Set obj = object.NoWrap
+```
 
 ## 版本
 

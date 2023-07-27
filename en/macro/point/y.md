@@ -2,17 +2,21 @@
 
 Represents the vertical (or line) position of the Point object.
 
-#### \[JavaScript\]
+## 
 
-_y_ = point. **y**;
+### \[JavaScript\]
 
-point. **y** = _y_;
+```
+y = point.y;
+point.y = y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_y_ = point. **y**
-
-point. **y** = _y_
+```
+y = point.y
+point.y = y
+```
 
 ## Version
 

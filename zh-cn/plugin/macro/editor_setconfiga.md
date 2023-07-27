@@ -8,12 +8,12 @@ Editor\_SetConfigA( HWND hwnd, LPCSTR szConfigName );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _szConfigName_
 
-> 用 ANSI 字符串指定一个配置。
+用 ANSI 字符串指定一个配置。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

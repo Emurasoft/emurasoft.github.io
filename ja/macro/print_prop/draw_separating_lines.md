@@ -1,21 +1,23 @@
 # DrawSeparatingLines プロパティ (PrintProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[印刷\]** タブ](../../dlg/properties/print/index) の
-**\[区切り線を引く\]** チェック ボックスに相当します。
+設定のプロパティの [\[印刷\] タブ](../../dlg/properties/print/index) の
+\[区切り線を引く\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DrawSeparatingLines**;
+### \[JavaScript\]
 
-object. **DrawSeparatingLines** = _b_;
+```
+b = object.DrawSeparatingLines;
+object.DrawSeparatingLines = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DrawSeparatingLines**
-
-object. **DrawSeparatingLines** = _b_
+```
+b = object.DrawSeparatingLines
+object.DrawSeparatingLines = b
+```
 
 ## バージョン
 

@@ -1,14 +1,14 @@
 # \[制御文字\] コマンド
 
-### 概要
+## 概要
 
-> 制御文字の表示/非表示を切り替えます。
+制御文字の表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> 制御文字の表示/非表示を切り替えます。
+制御文字の表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[記号\] \- \[制御文字\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[記号\] \- \[制御文字\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_CONTROL (4538)
+```
+EEID_VIEW_CONTROL (4538)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4538);
+```
+editor.ExecuteCommandByID(4538);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4538
+```
+editor.ExecuteCommandByID 4538
+```

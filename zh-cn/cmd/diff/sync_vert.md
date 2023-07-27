@@ -1,31 +1,36 @@
 # 同步垂直滚动命令
 
-### 摘要
+## 摘要
 
-> 同步垂直滚动。
+同步垂直滚动。
 
-### 说明
+## 说明
 
-> 在两个文档被比较时，同步垂直滚动。
+在两个文档被比较时，同步垂直滚动。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **比较** \> **同步垂直滚动**
-- [所有命令](../tools/all_commands): **比较** \> **同步垂直滚动**
+- 默认菜单:比较 \>同步垂直滚动
+- [所有命令](../tools/all_commands):比较 \>同步垂直滚动
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_SYNC\_VERT (4505)
+```
+EEID_SYNC_VERT (4505)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4505);
+```
+editor.ExecuteCommandByID(4505);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4505
+```
+editor.ExecuteCommandByID 4505
+```

@@ -12,18 +12,18 @@ Editor\_LineIndex( HWND hwnd, BOOL bLogical, int yLine );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _bLogical_
 
-> Specifies TRUE if the line number is by the logical coordinates. Specifies
-> FALSE if the line number is by the display coordinates.
+Specifies TRUE if the line number is by the logical coordinates. Specifies
+FALSE if the line number is by the display coordinates.
 
 _yLine_
 
-> Specifies the zero-based line number. A value of -1 specifies the current
-> line number (the line that contains the cursor).
+Specifies the zero-based line number. A value of -1 specifies the current
+line number (the line that contains the cursor).
 
 ## Return Values
 
-> The return value is the character index of the line specified in the _yLine_ parameter.
+The return value is the character index of the line specified in the _yLine_ parameter.

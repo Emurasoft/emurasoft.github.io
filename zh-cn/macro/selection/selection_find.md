@@ -2,13 +2,19 @@
 
 搜索指定的字符串。
 
-#### \[JavaScript\]
+## 
 
-nFound = document.selection. **Find**( _strFind_, _nFlags_\[, _nExFlags_\] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = document.selection.Find( strFind, nFlags[, nExFlags] );
+```
 
-nFound = document.selection. **Find**( _strFind_, _nFlags_\[, _nExFlags_\] )
+### \[VBScript\]
+
+```
+nFound = document.selection.Find( strFind, nFlags[, nExFlags] )
+```
 
 ## 参数
 

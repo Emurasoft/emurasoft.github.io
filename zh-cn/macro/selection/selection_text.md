@@ -2,35 +2,39 @@
 
 检索被选取的文本，或在光标位置处插入一个字符串。
 
-#### \[JavaScript\]
+## 
 
-_str_ = document.selection. **Text**;
+### \[JavaScript\]
 
-document.selection. **Text** = _str_;
+```
+str = document.selection.Text;
+document.selection.Text = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = document.selection. **Text**
-
-document.selection. **Text** = _str_
+```
+str = document.selection.Text
+document.selection.Text = str
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 str = document.selection.Text;
-
 alert( "The selected text is " + str );
-
 document.selection.Text = "Hello";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 str = document.selection.Text
-
 alert "The selected text is " & str
-
 document.selection.Text = "Hello"
+```
 
 ## 版本
 

@@ -1,31 +1,36 @@
 # Ignore Leading Spaces command
 
-### Summary
+## Summary
 
-> Ignores leading spaces at each line when comparing documents.
+Ignores leading spaces at each line when comparing documents.
 
-### Description
+## Description
 
-> Ignores leading spaces at each line when comparing documents.
+Ignores leading spaces at each line when comparing documents.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Ignore Leading Spaces**
-- [All Commands](../tools/all_commands): **Compare** \> **Ignore Leading Spaces**
+- Default Menu:Compare \>Ignore Leading Spaces
+- [All Commands](../tools/all_commands):Compare \>Ignore Leading Spaces
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_IGNORE\_LEAD\_SPACE (4498)
+```
+EEID_IGNORE_LEAD_SPACE (4498)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4498);
+```
+editor.ExecuteCommandByID(4498);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4498
+```
+editor.ExecuteCommandByID 4498
+```

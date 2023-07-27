@@ -1,14 +1,14 @@
 # \[DSVモード\] コマンド
 
-### 概要
+## 概要
 
-> DSV (ユーザー定義区切り) モードを選択します。
+DSV (ユーザー定義区切り) モードを選択します。
 
-### 説明
+## 説明
 
-> DSV (ユーザー定義区切り) モードを選択します。
+DSV (ユーザー定義区切り) モードを選択します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): なし
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_MODE\_DSV (4476)
+```
+EEID_MODE_DSV (4476)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4476);
+```
+editor.ExecuteCommandByID(4476);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4476
+```
+editor.ExecuteCommandByID 4476
+```

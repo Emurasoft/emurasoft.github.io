@@ -2,13 +2,19 @@
 
 Retrieves the [FileNewProp object](../file_new_prop/index).
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **FileNew**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.FileNew;
+```
 
-Set _obj_ = object. **FileNew**
+### \[VBScript\]
+
+```
+Set obj = object.FileNew
+```
 
 ## Version
 

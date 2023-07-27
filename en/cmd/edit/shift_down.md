@@ -1,32 +1,37 @@
 # Line Down Extend command
 
-### Summary
+## Summary
 
-> Extends the selection down one line.
+Extends the selection down one line.
 
-### Description
+## Description
 
-> Extends the selection down one line. If no text is selected, this command will select the line directly below the cursor.
+Extends the selection down one line. If no text is selected, this command will select the line directly below the cursor.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Line Down Extend**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Line Down Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+DOWN ARROW
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_DOWN (4177)
+```
+EEID_SHIFT_DOWN (4177)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.LineDown(true,1);
+```
+document.selection.LineDown(true,1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.LineDown true,1
+```
+document.selection.LineDown true,1
+```

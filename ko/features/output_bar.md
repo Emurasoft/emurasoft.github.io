@@ -5,4 +5,4 @@
 
 ## 이곳을 참조해 주시기 바랍니다.
 
-- [**출력 바 이용하기** 체크 박스](../dlg/tools/properties/index)
+- [출력 바 이용하기 체크 박스](../dlg/tools/properties/index)

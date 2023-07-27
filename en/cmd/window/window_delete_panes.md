@@ -1,32 +1,37 @@
 # Remove Split command
 
-### Summary
+## Summary
 
-> Removes the split.
+Removes the split.
 
-### Description
+## Description
 
-> Removes all window splits from the current document.
+Removes all window splits from the current document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Window** \> **Remove Split**
-- [All Commands](../tools/all_commands): **Window**  \>
-**Split** \> **Remove Split**
+- Default Menu:Window \>Remove Split
+- [All Commands](../tools/all_commands):Window  \>
+Split \>Remove Split
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: SHIFT+F12
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DELETE\_PANES (4284)
+```
+EEID_DELETE_PANES (4284)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4284);
+```
+editor.ExecuteCommandByID(4284);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4284
+```
+editor.ExecuteCommandByID 4284
+```

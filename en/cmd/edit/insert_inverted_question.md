@@ -1,31 +1,36 @@
 # Insert Inverted Question Mark command
 
-### Summary
+## Summary
 
-> Inserts an inverted question mark.
+Inserts an inverted question mark.
 
-### Description
+## Description
 
-> Inserts an inverted question mark (¿) at the cursor.
+Inserts an inverted question mark (¿) at the cursor.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Marks** \> **Inverted Question Mark**
-- [All Commands](../tools/all_commands): **Insert** \> **Marks** \> **Inverted Question Mark**
+- Default Menu:Insert \>Marks \>Inverted Question Mark
+- [All Commands](../tools/all_commands):Insert \>Marks \>Inverted Question Mark
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+SHIFT+/
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT\_INVERTED\_QUESTION (4312)
+```
+EEID_INSERT_INVERTED_QUESTION (4312)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Text="¿";
+```
+document.selection.Text="¿";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Text="¿"
+```
+document.selection.Text="¿"
+```

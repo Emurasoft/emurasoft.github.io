@@ -2,13 +2,19 @@
 
 선택 영역의 원점의 열 번호를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetAnchorPointX**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetAnchorPointX( nFlags );
+```
 
-xPos = document.selection. **GetAnchorPointX**( _nFlags_ )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetAnchorPointX( nFlags )
+```
 
 ## 매개 변수
 

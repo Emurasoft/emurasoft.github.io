@@ -1,21 +1,23 @@
 # SetInitialFolder プロパティ (FileNewProp �I�u�W�F�N�g)
 
-[**\[新規作成時の詳細\]** のダイアログ ボックス](../../dlg/properties/file/new_details/index) の
-**\[初期フォルダを設定\]** チェック ボックスに相当します。
+[\[新規作成時の詳細\] のダイアログ ボックス](../../dlg/properties/file/new_details/index) の
+\[初期フォルダを設定\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SetInitialFolder**;
+### \[JavaScript\]
 
-object. **SetInitialFolder** = _b_;
+```
+b = object.SetInitialFolder;
+object.SetInitialFolder = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SetInitialFolder**
-
-object. **SetInitialFolder** = _b_
+```
+b = object.SetInitialFolder
+object.SetInitialFolder = b
+```
 
 ## バージョン
 

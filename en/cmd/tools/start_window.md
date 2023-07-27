@@ -1,32 +1,37 @@
 # Start Window command
 
-### Summary
+## Summary
 
-> Displays the Start window.
+Displays the Start window.
 
-### Description
+## Description
 
-> Displays the Start window.
+Displays the Start window.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools**
-> **Start Window**
+- [All Commands](all_commands):Tools
+>Start Window
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_START\_WINDOW (3948)
+```
+EEID_START_WINDOW (3948)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3948);
+```
+editor.ExecuteCommandByID(3948);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3948
+```
+editor.ExecuteCommandByID 3948
+```

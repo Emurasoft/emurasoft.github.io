@@ -1,20 +1,22 @@
 # InsertSpaces 屬性 (IndentProp ��H)
 
-與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **將 Tab轉換為空格** 核取方塊相對應。
+與 [Tab/縮排 對話方塊](../../dlg/properties/general/indent/index) 上的將 Tab轉換為空格 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **InsertSpaces**;
+### \[JavaScript\]
 
-object. **InsertSpaces** = _b_;
+```
+b = object.InsertSpaces;
+object.InsertSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **InsertSpaces**
-
-object. **InsertSpaces** = _b_
+```
+b = object.InsertSpaces
+object.InsertSpaces = b
+```
 
 ## 版本
 

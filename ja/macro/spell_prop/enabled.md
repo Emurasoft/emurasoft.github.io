@@ -1,21 +1,23 @@
 # Enabled プロパティ ()
 
-設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の
-**\[スペル チェックを行う\]** チェック ボックスに相当します。
+設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の
+\[スペル チェックを行う\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Enabled**;
+### \[JavaScript\]
 
-object. **Enabled** = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Enabled**
-
-object. **Enabled** = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## バージョン
 

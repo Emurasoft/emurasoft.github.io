@@ -10,16 +10,16 @@ Editor\_Help( HWND hwnd, LPCTSTR szPageURL );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _szPageURL_
 
-> Specifies the URL of the Help page to display.
+Specifies the URL of the Help page to display.
 
 ## Return Values
 
-> Return value is not used.
+Return value is not used.
 
 ## Version
 
-> Supported on EmEditor Version 7.00 or later.
+Supported on EmEditor Version 7.00 or later.

@@ -1,20 +1,22 @@
 # Smooth Property (ScrollProp Object)
 
-Corresponds to the **Smooth Scroll** check box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to theSmooth Scroll check box in the [Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Smooth**;
+### \[JavaScript\]
 
-object. **Smooth** = _b_;
+```
+b = object.Smooth;
+object.Smooth = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Smooth**
-
-object. **Smooth** = _b_
+```
+b = object.Smooth
+object.Smooth = b
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 ウィンドウが表示されている状態かどうかを返します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Visible**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Visible;
+```
 
-_b_ = wnd. **Visible**
+### \[VBScript\]
+
+```
+b = wnd.Visible
+```
 
 ## バージョン
 

@@ -12,17 +12,17 @@ Editor\_FindInFiles( HWND hwnd, GREP\_INFO\_EX\* pGrepInfo );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _pGrepInfo_
 
-> Specifies a pointer to the [GREP\_INFO\_EX \
-> Structure](../structure/grep_info_ex).
+Specifies a pointer to the [GREP\_INFO\_EX \
+Structure](../structure/grep_info_ex).
 
 ## Return Value
 
-> Returns FALSE if the user aborts, or TRUE if not.
+Returns FALSE if the user aborts, or TRUE if not.
 
 ## Version
 
-> Supported on EmEditor Professional Version 15.7 or later.
+Supported on EmEditor Professional Version 15.7 or later.

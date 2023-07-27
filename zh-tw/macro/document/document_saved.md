@@ -2,37 +2,40 @@
 
 檢索或設置表示自從上次被保存或打開后文檔是否已被修改的標志。
 
-#### \[JavaScript\]
+## 
 
-_bSaved_ = document. **Saved**;
+### \[JavaScript\]
 
-document. **Saved** = _bSaved_;
+```
+bSaved = document.Saved;
+document.Saved = bSaved;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bSaved_ = document. **Saved**
-
-document. **Saved** = _bSaved_
+```
+bSaved = document.Saved
+document.Saved = bSaved
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 if( document.Saved )  alert( "The document is not changed." );
-
 else  alert( "The document is changed." );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 If document.Saved Then
-
 alert( "The document is not changed." )
-
 Else
-
 alert( "The document is changed." )
-
 End If
+```
 
 ## 版本
 

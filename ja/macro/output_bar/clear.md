@@ -2,13 +2,19 @@
 
 アウトプット バーの中身をクリアします。
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **Clear**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.Clear();
+```
 
-OutputBar. **Clear**
+### \[VBScript\]
+
+```
+OutputBar.Clear
+```
 
 ## バージョン
 

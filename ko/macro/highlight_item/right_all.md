@@ -1,20 +1,22 @@
 # RightAll 속성 (HighlightItem ��ü)
 
-구성 속성 [**강조 표시 (1)** 탭](../../dlg/properties/highlight1/index) 의 **오른쪽 모두 강조 표시** 체크 박스에 해당합니다.
+구성 속성 [강조 표시 (1) 탭](../../dlg/properties/highlight1/index) 의오른쪽 모두 강조 표시 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **RightAll**;
+### \[JavaScript\]
 
-item. **RightAll** = _b_;
+```
+b = item.RightAll;
+item.RightAll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **RightAll**
-
-item. **RightAll** = _b_
+```
+b = item.RightAll
+item.RightAll = b
+```
 
 ## 버전
 

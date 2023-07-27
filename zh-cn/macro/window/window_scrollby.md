@@ -2,13 +2,19 @@
 
 通过指定的相对数量滚动窗口。
 
-#### \[JavaScript\]
+## 
 
-**scrollBy**( _dx_, _dy_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+scrollBy( dx, dy);
+```
 
-**scrollBy** _dx_, _dy_
+### \[VBScript\]
+
+```
+scrollBy dx, dy
+```
 
 ## 参数
 

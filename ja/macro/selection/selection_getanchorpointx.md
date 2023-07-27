@@ -2,13 +2,19 @@
 
 選択範囲の開始位置の現在桁を 1 で始まる整数で返します。
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetAnchorPointX**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetAnchorPointX( nFlags );
+```
 
-xPos = document.selection. **GetAnchorPointX**( _nFlags_ )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetAnchorPointX( nFlags )
+```
 
 ## 引数
 

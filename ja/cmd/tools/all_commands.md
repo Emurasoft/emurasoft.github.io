@@ -1,14 +1,14 @@
 # \[すべてのコマンド\] コマンド
 
-### 概要
+## 概要
 
-> すべてのコマンドから選択して実行します。
+すべてのコマンドから選択して実行します。
 
-### 説明
+## 説明
 
-> ポップアップ メニューを表示して、すべてのコマンドから選択して実行します。
+ポップアップ メニューを表示して、すべてのコマンドから選択して実行します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ツール\] \- \[すべてのコマンド\]
 - [すべてのコマンド](../../glossary/allcommands): なし
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_ALL\_COMMANDS (4267)
+```
+EEID_ALL_COMMANDS (4267)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4267);
+```
+editor.ExecuteCommandByID(4267);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4267
+```
+editor.ExecuteCommandByID 4267
+```

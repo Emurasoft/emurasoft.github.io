@@ -1,31 +1,36 @@
 # Next Bookmark in This Document (Around) command
 
-### Summary
+## Summary
 
-> Goes to the next bookmark in this document, or goes to the first bookmark in this document if not found.
+Goes to the next bookmark in this document, or goes to the first bookmark in this document if not found.
 
-### Description
+## Description
 
-> Goes to the next bookmark in this document, or goes to the first bookmark in this document if not found.
+Goes to the next bookmark in this document, or goes to the first bookmark in this document if not found.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **Next Bookmark (Around)**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **Next Bookmark (Around)**
+- Default Menu:Bookmarks \>Next Bookmark (Around)
+- [All Commands](../tools/all_commands):Bookmarks \>Next Bookmark (Around)
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_NEXT\_AROUND (3999)
+```
+EEID_BOOKMARK_NEXT_AROUND (3999)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3999);
+```
+editor.ExecuteCommandByID(3999);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3999
+```
+editor.ExecuteCommandByID 3999
+```

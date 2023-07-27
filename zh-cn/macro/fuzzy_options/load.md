@@ -2,13 +2,19 @@
 
 从应用数据文件夹加载模糊选项。
 
-#### \[JavaScript\]
+## 
 
-obj. **Load**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj.Load();
+```
 
-obj. **Load**
+### \[VBScript\]
+
+```
+obj.Load
+```
 
 ## 版本
 

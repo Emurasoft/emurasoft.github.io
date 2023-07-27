@@ -2,13 +2,19 @@
 
 在一个简单的对话框中显示一条消息和「OK」按钮。
 
-#### \[JavaScript\]
+## 
 
-**alert**( _strMessage_, _strMessage2_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+alert( strMessage, strMessage2 );
+```
 
-**alert** _strMessage_, _strMessage2_
+### \[VBScript\]
+
+```
+alert strMessage, strMessage2
+```
 
 ## 参数
 

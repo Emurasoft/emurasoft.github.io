@@ -2,13 +2,19 @@
 
 ミリ秒で指定する時間だけマクロの実行を停止します。
 
-#### \[JavaScript\]
+## 
 
-**Sleep**( _nMilliseconds_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Sleep( nMilliseconds);
+```
 
-**Sleep** _nMilliseconds_
+### \[VBScript\]
+
+```
+Sleep nMilliseconds
+```
 
 ## パラメータ
 

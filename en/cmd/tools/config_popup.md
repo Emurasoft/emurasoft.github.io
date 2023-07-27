@@ -1,36 +1,41 @@
 # Select Configuration (popup menu) command
 
-### Summary
+## Summary
 
-> Selects a configuration.
+Selects a configuration.
 
-### Description
+## Description
 
-> Shows a popup menu showing the [**Select**\
-> **Specified Configuration** command](select_config) (multiple-menu) and the [**Define Configurations** command](config).
+Shows a popup menu showing the [Select\
+Specified Configuration command](select_config) (multiple-menu) and the [Define Configurations command](config).
 
-### How to Run
+## How to Run
 
-- Default Menu: **Tools** >
-**Select Configuration** \> **Select Configuration (Popup Menu)**
-- [All Commands](all_commands): **Tools** >
-**Select Configuration** \> **Select Configuration (Popup**
-**Menu)**
+- Default Menu:Tools >
+Select Configuration \>Select Configuration (Popup Menu)
+- [All Commands](all_commands):Tools >
+Select Configuration \>Select Configuration (Popup
+Menu)
 - Toolbar: ![](../../images/configpopup.gif) (on
 the arrow)
 - Status Bar: (double-click on configuration name)
 - Default Shortcut Key: SHIFT + F11
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CONFIG\_POPUP (4220)
+```
+EEID_CONFIG_POPUP (4220)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4220);
+```
+editor.ExecuteCommandByID(4220);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4220
+```
+editor.ExecuteCommandByID 4220
+```

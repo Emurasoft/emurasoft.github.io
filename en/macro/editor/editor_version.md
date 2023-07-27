@@ -2,13 +2,19 @@
 
 Retrieves the string indicating the current version of EmEditor.
 
-#### \[JavaScript\]
+## 
 
-_strVersion_ = editor. **Version**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strVersion = editor.Version;
+```
 
-_strVersion_ = editor. **Version**
+### \[VBScript\]
+
+```
+strVersion = editor.Version
+```
 
 ## Version
 

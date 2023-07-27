@@ -1,14 +1,14 @@
 # \[前のペイン\] コマンド
 
-### 概要
+## 概要
 
-> 前の分割されたペインに切り替えます。
+前の分割されたペインに切り替えます。
 
-### 説明
+## 説明
 
-> ウィンドウが分割されている場合、前の分割されたペインに切り替えます。
+ウィンドウが分割されている場合、前の分割されたペインに切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[ペイン\] \- \[前のペイン\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Shift+F6
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_PREV\_PANE (4215)
+```
+EEID_PREV_PANE (4215)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4215);
+```
+editor.ExecuteCommandByID(4215);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4215
+```
+editor.ExecuteCommandByID 4215
+```

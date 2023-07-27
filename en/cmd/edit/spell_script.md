@@ -1,31 +1,36 @@
 # Check Spelling in Script command
 
-### Summary
+## Summary
 
-> Checks spelling in script.
+Checks spelling in script.
 
-### Description
+## Description
 
-> Checks spelling in script. Misspelled words will be underlined in red.
+Checks spelling in script. Misspelled words will be underlined in red.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Script**
-- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **Script**
+- Default Menu:Edit \>Spelling \>Check Spelling in \>Script
+- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling in \>Script
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SPELL\_SCRIPT (4517)
+```
+EEID_SPELL_SCRIPT (4517)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4517);
+```
+editor.ExecuteCommandByID(4517);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4517
+```
+editor.ExecuteCommandByID 4517
+```

@@ -1,19 +1,23 @@
 # Encoding 속성 (FileNewProp ��ü)
 
-[**새 파일 상세 정보** 대화 상자](../../dlg/properties/file/new_details/index) 의
-**인코딩 드롭 다운** 리스트 박스에 해당합니다.
+[새 파일 상세 정보 대화 상자](../../dlg/properties/file/new_details/index) 의
+인코딩 드롭 다운 리스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Encoding**;
+### \[JavaScript\]
 
-object. **Encoding** = _n_;
+```
+n = object.Encoding;
+object.Encoding = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Encoding**
-
-object. **Encoding** = _n_
+```
+n = object.Encoding
+object.Encoding = n
+```
 
 ## 버전
 

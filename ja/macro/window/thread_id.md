@@ -2,13 +2,19 @@
 
 ウィンドウを作成したスレッド ID を返します。
 
-#### \[JavaScript\]
+## 
 
-_id_ = wnd. **ThreadID**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+id = wnd.ThreadID;
+```
 
-_id_ = wnd. **ThreadID**
+### \[VBScript\]
+
+```
+id = wnd.ThreadID
+```
 
 ## バージョン
 

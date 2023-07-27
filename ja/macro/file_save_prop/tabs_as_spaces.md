@@ -1,21 +1,23 @@
 # TabsAsSpaces プロパティ (FileSaveProp �I�u�W�F�N�g)
 
-[**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
-**\[保存時、タブをスペースに変換\]** チェック ボックスに相当します。
+[\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
+\[保存時、タブをスペースに変換\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **TabsAsSpaces**;
+### \[JavaScript\]
 
-object. **TabsAsSpaces** = _b_;
+```
+b = object.TabsAsSpaces;
+object.TabsAsSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **TabsAsSpaces**
-
-object. **TabsAsSpaces** = _b_
+```
+b = object.TabsAsSpaces
+object.TabsAsSpaces = b
+```
 
 ## バージョン
 

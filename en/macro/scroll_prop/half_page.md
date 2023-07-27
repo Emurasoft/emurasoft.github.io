@@ -1,21 +1,23 @@
 # HalfPage Property (ScrollProp Object)
 
-Corresponds to the **Scroll Half Page** check box in the
-[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to theScroll Half Page check box in the
+[Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HalfPage**;
+### \[JavaScript\]
 
-object. **HalfPage** = _b_;
+```
+b = object.HalfPage;
+object.HalfPage = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HalfPage**
-
-object. **HalfPage** = _b_
+```
+b = object.HalfPage
+object.HalfPage = b
+```
 
 ## Version
 

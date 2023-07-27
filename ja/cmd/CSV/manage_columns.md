@@ -1,14 +1,14 @@
 # \[列の管理\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書の列の移動、コピー、削除、並べ替えを行います。
+CSV文書の列の移動、コピー、削除、並べ替えを行います。
 
-### 説明
+## 説明
 
-> CSV文書の列の移動、コピー、削除、並べ替えを行います。このコマンドを選択すると、 [\[列の管理\] ダイアログ ボックス](../../dlg/manage_columns/index) が表示されます。
+CSV文書の列の移動、コピー、削除、並べ替えを行います。このコマンドを選択すると、 [\[列の管理\] ダイアログ ボックス](../../dlg/manage_columns/index) が表示されます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[列\] - \[列の管理\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[列\] - \[列の管理\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_MANAGE\_COLUMNS (23239)
+```
+EEID_MANAGE_COLUMNS (23239)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(23239);
+```
+editor.ExecuteCommandByID(23239);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 23239
+```
+editor.ExecuteCommandByID 23239
+```

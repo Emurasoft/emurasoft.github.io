@@ -2,13 +2,19 @@
 
 現在の文書中にある選択の個数を返します。複数選択モードでない場合には、通常選択が存在していても、常に 0 を返します。
 
-#### \[JavaScript\]
+## 
 
-_NumOfSelections_ = document.selection. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+NumOfSelections = document.selection.Count;
+```
 
-_NumOfSelections_ = document.selection. **Count**
+### \[VBScript\]
+
+```
+NumOfSelections = document.selection.Count
+```
 
 ## バージョン
 

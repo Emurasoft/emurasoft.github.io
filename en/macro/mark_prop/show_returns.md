@@ -1,22 +1,24 @@
 # ShowReturns Property (MarkProp Object)
 
-Corresponds to the **Show**
-**Returns** check box in the
-[**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
+Corresponds to theShow
+Returns check box in the
+[Marks page](../../dlg/properties/marks/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowReturns**;
+### \[JavaScript\]
 
-object. **ShowReturns** = _b_;
+```
+b = object.ShowReturns;
+object.ShowReturns = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowReturns**
-
-object. **ShowReturns** = _b_
+```
+b = object.ShowReturns
+object.ShowReturns = b
+```
 
 ## Version
 

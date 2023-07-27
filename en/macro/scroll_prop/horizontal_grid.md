@@ -1,21 +1,23 @@
 # HorizontalGrid Property (ScrollProp Object)
 
-Corresponds to the **Horizontal Grid** check box in the
-[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to theHorizontal Grid check box in the
+[Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HorizontalGrid**;
+### \[JavaScript\]
 
-object. **HorizontalGrid** = _b_;
+```
+b = object.HorizontalGrid;
+object.HorizontalGrid = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HorizontalGrid**
-
-object. **HorizontalGrid** = _b_
+```
+b = object.HorizontalGrid
+object.HorizontalGrid = b
+```
 
 ## Version
 

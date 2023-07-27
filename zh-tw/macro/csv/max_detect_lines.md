@@ -1,18 +1,22 @@
 # MaxDetectLines 屬性 (Csv ��H)
 
-與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **要偵測的最大行數** 文字方塊對應。
+與在自訂對話方塊中 [CSV 頁面](../../dlg/customize/csv/index) 上的要偵測的最大行數 文字方塊對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **MaxDetectLines**;
+### \[JavaScript\]
 
-object. **MaxDetectLines** = _n_;
+```
+n = object.MaxDetectLines;
+object.MaxDetectLines = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **MaxDetectLines**
-
-object. **MaxDetectLines** = _n_
+```
+n = object.MaxDetectLines
+object.MaxDetectLines = n
+```
 
 ## 版本
 

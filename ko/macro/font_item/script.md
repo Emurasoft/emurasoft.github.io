@@ -2,17 +2,21 @@
 
 글꼴의 스크립트를 지정합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ = item. **Script**;
+### \[JavaScript\]
 
-item. **Script** = _n_;
+```
+n = item.Script;
+item.Script = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = item. **Script**
-
-item. **Script** = _n_
+```
+n = item.Script
+item.Script = n
+```
 
 ## 버전
 

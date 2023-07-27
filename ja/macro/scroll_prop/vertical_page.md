@@ -1,21 +1,23 @@
 # VerticalPage プロパティ (ScrollProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の
-**\[1頁の垂直スクロールを常に有効\]** チェック ボックスに相当します。
+設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
+\[1頁の垂直スクロールを常に有効\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **VerticalPage** ;
+### \[JavaScript\]
 
-object. **VerticalPage**  = _b_;
+```
+b = object.VerticalPage ;
+object.VerticalPage  = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **VerticalPage**
-
-object. **VerticalPage**  = _b_
+```
+b = object.VerticalPage
+object.VerticalPage  = b
+```
 
 ## バージョン
 

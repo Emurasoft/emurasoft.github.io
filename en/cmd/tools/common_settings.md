@@ -1,33 +1,38 @@
 # Customize command
 
-### Summary
+## Summary
 
-> Customizes common application settings.
+Customizes common application settings.
 
-### Description
+## Description
 
-> Displays the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Tools** \> **Customize**
-- [All Commands](all_commands): **Tools** >
-**Customize** \> **Customize**
+- Default Menu:Tools \>Customize
+- [All Commands](all_commands):Tools >
+Customize \>Customize
 - Toolbar: ![](../../images/commonsettings.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMMON\_SETTINGS (4222)
+```
+EEID_COMMON_SETTINGS (4222)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4222);
+```
+editor.ExecuteCommandByID(4222);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4222
+```
+editor.ExecuteCommandByID 4222
+```

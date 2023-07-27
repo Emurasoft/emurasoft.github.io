@@ -1,20 +1,22 @@
 # ShowEOF プロパティ (MarkProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[記号\]** タブ](../../dlg/properties/marks/index) の **\[EOF表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[記号\] タブ](../../dlg/properties/marks/index) の\[EOF表示\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowEOF**;
+### \[JavaScript\]
 
-object. **ShowEOF** = _b_;
+```
+b = object.ShowEOF;
+object.ShowEOF = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowEOF**
-
-object. **ShowEOF** = _b_
+```
+b = object.ShowEOF
+object.ShowEOF = b
+```
 
 ## バージョン
 

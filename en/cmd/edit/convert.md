@@ -1,35 +1,40 @@
 # Half-Width/Full-Width Conversion command
 
-### Summary
+## Summary
 
-> Converts the selection between half-width and full-width characters.
+Converts the selection between half-width and full-width characters.
 
-### Description
+## Description
 
-> This command converts half-width characters to full-width characters, or
-> converts full-width characters to half-width characters.  The
-> [**Half-Width/Full-Width Conversion** dialog box](../../dlg/convert/index)
-> will be displayed upon executing this command, where you can set types of
-> characters and the selection.
+This command converts half-width characters to full-width characters, or
+converts full-width characters to half-width characters.  The
+[Half-Width/Full-Width Conversion dialog box](../../dlg/convert/index)
+will be displayed upon executing this command, where you can set types of
+characters and the selection.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Half-Width/Full-Width Conversion**
-- [All Commands](../tools/all_commands): **Convert** \> **Half-Width/Full-Width Conversion**
+- Default Menu:Convert \>Half-Width/Full-Width Conversion
+- [All Commands](../tools/all_commands):Convert \>Half-Width/Full-Width Conversion
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+T
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CONVERT (4148)
+```
+EEID_CONVERT (4148)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4148);
+```
+editor.ExecuteCommandByID(4148);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4148
+```
+editor.ExecuteCommandByID 4148
+```

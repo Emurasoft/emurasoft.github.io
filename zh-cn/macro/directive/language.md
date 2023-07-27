@@ -8,49 +8,64 @@
 
 _ScriptName_
 
-> 通过 ProgID 指定脚本语言。这个脚本引擎必须在脚本被使用前安装。
+通过 ProgID 指定脚本语言。这个脚本引擎必须在脚本被使用前安装。
 
 ## 示例
 
 用不同的脚本语言，插入 "Hello!" 到光标位置处。
 
-#### \[JavaScript (JScript)\]
+### \[JavaScript (JScript)\]
 
 #language = "JScript"
 
 document.write( "Hello!" );
 
-#### \[JavaScript (V8)\]
+## 
+
+### \[JavaScript (V8)\]
 
 #language = "V8"
 
 document.write( "Hello!" );
 
-#### \[PerlScript\]
+## 
+
+### \[PerlScript\]
 
 #language = "PerlScript"
 
 $Window->document->write( 'Hello!' );
 
-#### \[PHPScript\]
+## 
+
+### \[PHPScript\]
 
 #language = "PHPScript"
 
 $Window->document->write( "Hello!" );
 
-#### \[Python\]
+## 
+
+### \[Python\]
 
 #language = "Python"
 
 Window.document.write( 'Hello' );
 
-#### \[RubyScript\]
+## 
+
+### \[RubyScript\]
 
 #language = "RubyScript"
 
 Window.document.write( "Hello!" );
 
-#### \[VBScript\]
+## 
+
+### \[VBScript\]
+
+```
+```
 
 #language = "VBScript"
 

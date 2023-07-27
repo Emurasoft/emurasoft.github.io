@@ -13,12 +13,12 @@ lParam = (LPARAM) (TIP\_INFO\*) pTipInfo;
 
 _pTipInfo_
 
-> Pointer to the [TIP\_INFO](../structure/tip_info) structure.
+Pointer to the [TIP\_INFO](../structure/tip_info) structure.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.
 
 ## Version
 
-> Supported on EmEditor Professional Version 16.9 or later.
+Supported on EmEditor Professional Version 16.9 or later.

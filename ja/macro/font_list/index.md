@@ -6,30 +6,28 @@ FontList コレクションは [FontItem オブジェクト](../font_item/index)
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | アイテムの数を取得します。 |
-| **[Item](item)** | 指定したインデックスの [FontItem オブジェクト](../font_item/index) を取得します。 |
+|[Count](count) | アイテムの数を取得します。 |
+|[Item](item) | 指定したインデックスの [FontItem オブジェクト](../font_item/index) を取得します。 |
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Font.DisplayList );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Font.DisplayList
-
 alert item.Name
-
 Next
+```
 
 ## バージョン
 

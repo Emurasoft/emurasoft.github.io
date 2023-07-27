@@ -1,21 +1,23 @@
 # AutoIndent Property (IndentProp Object)
 
-Corresponds to the **Enable**
-**Auto Indent** check box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
+Corresponds to theEnable
+Auto Indent check box in the [Tab/Index dialog box](../../dlg/properties/general/indent/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **AutoIndent**;
+### \[JavaScript\]
 
-object. **AutoIndent** = _b_;
+```
+b = object.AutoIndent;
+object.AutoIndent = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **AutoIndent**
-
-object. **AutoIndent** = _b_
+```
+b = object.AutoIndent
+object.AutoIndent = b
+```
 
 ## Version
 

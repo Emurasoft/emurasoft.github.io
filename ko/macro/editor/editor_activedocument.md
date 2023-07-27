@@ -2,13 +2,19 @@
 
 현재 문서의 [Document 개체](../document/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor. **ActiveDocument**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.ActiveDocument;
+```
 
-Set _doc_ = editor. **ActiveDocument**
+### \[VBScript\]
+
+```
+Set doc = editor.ActiveDocument
+```
 
 ## 버전
 

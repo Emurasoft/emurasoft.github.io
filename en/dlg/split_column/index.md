@@ -1,41 +1,41 @@
 # Split Columns dialog box
 
 This dialog box appears when the
-[**Split Columns** command](../../cmd/edit/split_column) is selected.
+[Split Columns command](../../cmd/edit/split_column) is selected.
 
-### Columns list box
+## Columns list box
 
 Displays the list of columns that can be specified.
 
-### Enable/Disable All check box
+## Enable/Disable All check box
 
 This check box allows you to enable or disable all items in the list.
 
-### Split the selected columns into - Columns radio button
+## Split the selected columns into - Columns radio button
 
 If this button is checked, EmEditor splits the selected columns by the separator and put them into the right columns.
 
-### Split the selected columns into - Lines radio button
+## Split the selected columns into - Lines radio button
 
 If this button is checked, EmEditor splits the selected columns by the separator and put them into the lines beneath.
 
-### Split the selected columns into - (None) radio button
+## Split the selected columns into - (None) radio button
 
 If this button is checked, EmEditor does not split the selected columns, but sort or remove duplicate split strings only.
 
-### Separator text box
+## Separator text box
 
 Specifies a string as a separator when splitting columns.
 
-### Remove duplicate split strings check box
+## Remove duplicate split strings check box
 
 If this is checked, EmEditor removes duplicate split strings when splitting columns.
 
-### Sort split strings check box
+## Sort split strings check box
 
 If this is checked, EmEditor sorts split strings with the specified sort condition.
 
-### How to Sort list box
+## How to Sort list box
 
 Displays the list of defined sort conditions.
 
@@ -60,11 +60,11 @@ Displays the list of defined sort conditions.
 | Sort Randomly | Sorts split strings randomly. |
 | Sort Reverse | Sorts split strings in reverse order. |
 
-### Limit the number of splits check box and text box
+## Limit the number of splits check box and text box
 
 Specifies the maximum number of splits per cell.
 
-### Discard extra strings check box
+## Discard extra strings check box
 
 Discards extra strings.
 

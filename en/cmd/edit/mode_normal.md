@@ -1,31 +1,36 @@
 # Normal Mode command
 
-### Summary
+## Summary
 
-> Clears the separated value view mode.
+Clears the separated value view mode.
 
-### Description
+## Description
 
-> Clears the separated value view mode.
+Clears the separated value view mode.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Normal Mode**
-- [All Commands](../tools/all_commands): **CSV** \> **Normal Mode**
+- Default Menu:CSV \>Normal Mode
+- [All Commands](../tools/all_commands):CSV \>Normal Mode
 - Toolbar: ![](../../images/default_mode.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MODE\_NORMAL (4472)
+```
+EEID_MODE_NORMAL (4472)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4472);
+```
+editor.ExecuteCommandByID(4472);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4472
+```
+editor.ExecuteCommandByID 4472
+```

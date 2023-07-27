@@ -1,20 +1,22 @@
 # LineColumnMode 屬性 (GeneralProp ��H)
 
-與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **行列顯示** 下拉清單方塊相對應。
+與組態屬性中 [一般 頁面](../../dlg/properties/general/index) 上的行列顯示 下拉清單方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ _Mode_ =
-object. **LineColumnMode**;
+### \[JavaScript\]
 
-object. **LineColumnMode** = _nMode_;
+```
+n Mode = object.LineColumnMode;
+object.LineColumnMode = nMode;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nMode_ =
-object. **LineColumnMode**
-
-object. **LineColumnMode** = _nMode_
+```
+nMode = object.LineColumnMode
+object.LineColumnMode = nMode
+```
 
 ## 參數
 

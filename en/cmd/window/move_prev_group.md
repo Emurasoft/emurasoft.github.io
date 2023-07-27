@@ -1,32 +1,37 @@
 # Move to Previous Group command
 
-### Summary
+## Summary
 
-> Moves the current document to the previous group.
+Moves the current document to the previous group.
 
-### Description
+## Description
 
-> Moves the current document to the previous group (recombines into one window).
+Moves the current document to the previous group (recombines into one window).
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Group** \> **Move to Previous Group**
+- [All Commands](../tools/all_commands):Window
+\>Group \>Move to Previous Group
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MOVE\_PREV\_GROUP (4396)
+```
+EEID_MOVE_PREV_GROUP (4396)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4396);
+```
+editor.ExecuteCommandByID(4396);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4396
+```
+editor.ExecuteCommandByID 4396
+```

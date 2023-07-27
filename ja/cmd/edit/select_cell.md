@@ -1,14 +1,14 @@
 # \[セルを選択\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書で現在のセルを選択します。
+CSV文書で現在のセルを選択します。
 
-### 説明
+## 説明
 
-> CSV文書で現在のセルを選択します。
+CSV文書で現在のセルを選択します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セルを選択\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SELECT\_CELL (4489)
+```
+EEID_SELECT_CELL (4489)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4489);
+```
+editor.ExecuteCommandByID(4489);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4489
+```
+editor.ExecuteCommandByID 4489
+```

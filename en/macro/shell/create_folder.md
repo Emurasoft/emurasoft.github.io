@@ -2,13 +2,19 @@
 
 Creates a folder.
 
-#### \[JavaScript\]
+## 
 
-shell. **CreateFolder**( _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.CreateFolder( strFolder );
+```
 
-shell. **CreateFolder** _strFolder_
+### \[VBScript\]
+
+```
+shell.CreateFolder strFolder
+```
 
 ## Parameters
 
@@ -18,13 +24,17 @@ Specifies a folder to create.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.CreateFolder( "C:\\\Test" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.CreateFolder "C:\\Test"
+```
 
 ## Version
 

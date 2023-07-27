@@ -1,22 +1,24 @@
 # AutoCompleteBrackets Property (HighlightProp Object)
 
-Corresponds to the **Highlight**
-**These Words check box** in the
-[**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to theHighlight
+These Words check box in the
+[Highlight (2) page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **AutoCompleteBrackets**;
+### \[JavaScript\]
 
-object. **AutoCompleteBrackets** = _b_;
+```
+b = object.AutoCompleteBrackets;
+object.AutoCompleteBrackets = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **AutoCompleteBrackets**
-
-object. **AutoCompleteBrackets** = _b_
+```
+b = object.AutoCompleteBrackets
+object.AutoCompleteBrackets = b
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 スクロール バーの水平方向の位置を 1 から始まる整数で返します。
 
-#### \[JavaScript\]
+## 
 
-_xPos_ = **scrollX**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos =scrollX;
+```
 
-_xPos_ = **scrollX**
+### \[VBScript\]
+
+```
+xPos =scrollX
+```
 
 ## バージョン
 

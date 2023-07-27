@@ -1,19 +1,23 @@
 # DetectAll Property (FileProp Object)
 
-Corresponds to the **Detect**
-**All** check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theDetect
+All check box in the [File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectAll**;
+### \[JavaScript\]
 
-object. **DetectAll** = _b_;
+```
+b = object.DetectAll;
+object.DetectAll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectAll**
-
-object. **DetectAll** = _b_
+```
+b = object.DetectAll
+object.DetectAll = b
+```
 
 ## Version
 

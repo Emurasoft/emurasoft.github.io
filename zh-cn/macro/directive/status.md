@@ -8,19 +8,27 @@
 
 _id_
 
-> 指定用于查询状态的命令 ID 的整数值。 此值等同于 QueryStatusByID 方法的 _nID_ 参数。
+指定用于查询状态的命令 ID 的整数值。 此值等同于 QueryStatusByID 方法的 _nID_ 参数。
 
 ## 示例
 
 该宏模拟自动复制命令 (ID = 3979)。当启用自动复制功能时，会选中宏菜单和工具栏上的按钮。当关闭自动复制功能时，不会选中宏菜单和工具栏上的按钮。
 
-#### \[JavaScript\]
+### \[JavaScript\]
+
+```
+```
 
 #status = 3979
 
 editor.ExecuteCommandByID(3979);   // 3979 = EEID\_AUTO\_COPY
 
-#### \[VBScript\]
+## 
+
+### \[VBScript\]
+
+```
+```
 
 #status = 3979
 

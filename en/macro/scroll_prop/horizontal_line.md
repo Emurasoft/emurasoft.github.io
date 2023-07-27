@@ -1,20 +1,22 @@
 # HorizontalLine Property (ScrollProp Object)
 
-Corresponds to the **Horizontal Line** check box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to theHorizontal Line check box in the [Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HorizontalLine**;
+### \[JavaScript\]
 
-object. **HorizontalLine** = _b_;
+```
+b = object.HorizontalLine;
+object.HorizontalLine = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HorizontalLine**
-
-object. **HorizontalLine** = _b_
+```
+b = object.HorizontalLine
+object.HorizontalLine = b
+```
 
 ## Version
 

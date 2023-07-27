@@ -2,13 +2,19 @@
 
 현재 실행되고 있는 매크로 파일의 파일 이름만을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_str_ = **ScriptName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str =ScriptName;
+```
 
-_str_ = **ScriptName**
+### \[VBScript\]
+
+```
+str =ScriptName
+```
 
 ## 버전
 

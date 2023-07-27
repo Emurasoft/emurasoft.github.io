@@ -1,20 +1,22 @@
 # DrawSeparatingLines 屬性 (PrintProp ��H)
 
-與組態屬性中 [**列印** 頁面](../../dlg/properties/print/index) 上的 **插入分隔線** 核取方塊相對應。
+與組態屬性中 [列印 頁面](../../dlg/properties/print/index) 上的插入分隔線 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DrawSeparatingLines**;
+### \[JavaScript\]
 
-object. **DrawSeparatingLines** = _b_;
+```
+b = object.DrawSeparatingLines;
+object.DrawSeparatingLines = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DrawSeparatingLines**
-
-object. **DrawSeparatingLines** = _b_
+```
+b = object.DrawSeparatingLines
+object.DrawSeparatingLines = b
+```
 
 ## 版本
 

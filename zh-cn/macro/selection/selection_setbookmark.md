@@ -2,13 +2,19 @@
 
 在光标位置处设一个书签。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SetBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SetBookmark();
+```
 
-document.selection. **SetBookmark**
+### \[VBScript\]
+
+```
+document.selection.SetBookmark
+```
 
 ## 版本
 

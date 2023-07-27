@@ -1,14 +1,14 @@
 # \[次へジャンプ\] コマンド
 
-### 概要
+## 概要
 
-> アウトプット バーの次の場所にジャンプします。
+アウトプット バーの次の場所にジャンプします。
 
-### 説明
+## 説明
 
-> アウトプット バーの次の場所にジャンプします。
+アウトプット バーの次の場所にジャンプします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[高度な操作\] \- \[次へジャンプ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: F4
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_JUMP\_NEXT (4442)
+```
+EEID_JUMP_NEXT (4442)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4442);
+```
+editor.ExecuteCommandByID(4442);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4442
+```
+editor.ExecuteCommandByID 4442
+```

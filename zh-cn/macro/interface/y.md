@@ -2,13 +2,19 @@
 
 返回被一个支持的插件所传递的光标的垂直位置。
 
-#### \[JavaScript\]
+## 
 
-_y_ = Interface. **y**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+y = Interface.y;
+```
 
-_y_ = Interface. **y**
+### \[VBScript\]
+
+```
+y = Interface.y
+```
 
 ## 版本
 

@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> [CONVERT\_CSV\_INFO 構造体](../structure/convert_csv_info) へのポインタを指定します。
+[CONVERT\_CSV\_INFO 構造体](../structure/convert_csv_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると S\_OK を返します。
+成功すると S\_OK を返します。
 
 ## バージョン
 
-> EmEditor Professional Version 19.8 以上で利用できます。
+EmEditor Professional Version 19.8 以上で利用できます。

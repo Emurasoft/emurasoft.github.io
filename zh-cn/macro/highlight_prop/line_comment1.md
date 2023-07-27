@@ -1,18 +1,22 @@
 # LineComment1 属性 (HighlightProp ����)
 
-与配置属性中 [**高亮（2）** 页面](../../dlg/properties/highlight2/index) 上的 **“注释”群组框 \- “行注释”** 文本框相对应。
+与配置属性中 [高亮（2） 页面](../../dlg/properties/highlight2/index) 上的“注释”群组框 \- “行注释” 文本框相对应。
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **LineComment1**;
+### \[JavaScript\]
 
-object. **LineComment1** = _str_;
+```
+str = object.LineComment1;
+object.LineComment1 = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **LineComment1**
-
-object. **LineComment1** = _str_
+```
+str = object.LineComment1
+object.LineComment1 = str
+```
 
 ## 版本
 

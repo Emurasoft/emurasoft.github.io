@@ -14,12 +14,12 @@ lParam = 0;
 
 _hwndView_
 
-> EmEditor 보기를 위한 창 핸들입니다.
+EmEditor 보기를 위한 창 핸들입니다.
 
 ## 반환 값
 
-> 반환 값이 TRUE면 EmEditor는 삭제된 파일을 열지 않습니다.
+반환 값이 TRUE면 EmEditor는 삭제된 파일을 열지 않습니다.
 
 ## 버전
 
-> EmEditor 버전 8 이상에서만 지원됩니다.
+EmEditor 버전 8 이상에서만 지원됩니다.

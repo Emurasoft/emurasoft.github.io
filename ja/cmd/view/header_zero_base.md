@@ -1,14 +1,14 @@
 # \[列ヘッダーに0から始まる数字を使用\] コマンド
 
-### 概要
+## 概要
 
-> 列ヘッダーに0から始まる数字を使用します。
+列ヘッダーに0から始まる数字を使用します。
 
-### 説明
+## 説明
 
-> 列ヘッダーに0から始まる数字を使用します。
+列ヘッダーに0から始まる数字を使用します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[列ヘッダーのタイプ\] - \[0, 1, 2, ...\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[列ヘッダーのタイプ\] - \[0, 1, 2, ...\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_HEADER\_ZERO\_BASE (3988)
+```
+EEID_HEADER_ZERO_BASE (3988)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3988);
+```
+editor.ExecuteCommandByID(3988);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3988
+```
+editor.ExecuteCommandByID 3988
+```

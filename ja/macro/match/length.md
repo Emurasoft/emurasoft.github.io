@@ -2,14 +2,18 @@
 
 マッチした文字列の長さを返します。
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-_l_ = m. **Length**;
+```
+l = m.Length;
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-_l_ = m. **Length**;
+```
+l = m.Length;
+```
 
-#### バージョン
+## バージョン
 
 EmEditor Professional Version 15.9 以上で利用できます。

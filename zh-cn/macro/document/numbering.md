@@ -2,19 +2,25 @@
 
 在鼠标位置或垂直选择处，插入编号。
 
-#### \[JavaScript\]
+## 
 
-editor.Numbering( _strFirst_, _strInc_, _nMaxLines_ \[, _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.Numbering( strFirst, strInc, nMaxLines [, nFlags ] );
+```
 
-editor.Numbering _strFirst_, _strInc_, _nMaxLines_ \[, _nFlags_ \]
+### \[VBScript\]
+
+```
+editor.Numbering strFirst, strInc, nMaxLines [, nFlags ]
+```
 
 ## 参数
 
 _strFirst_
 
-指定要在第一行插入的初始值或字符。除非为 _nFlags_ 参数指定了 **eeNumOther**，否则此文本可能包含非数字前缀和/或后缀。
+指定要在第一行插入的初始值或字符。除非为 _nFlags_ 参数指定了eeNumOther，否则此文本可能包含非数字前缀和/或后缀。
 
 _strInc_
 

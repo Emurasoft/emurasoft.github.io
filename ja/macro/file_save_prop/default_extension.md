@@ -1,18 +1,22 @@
 # DefaultExtension プロパティ (FileSaveProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の **\[既定の拡張子\]** テキスト ボックスに相当します。
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[既定の拡張子\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **DefaultExtension**;
+### \[JavaScript\]
 
-object. **DefaultExtension** = _s_;
+```
+s = object.DefaultExtension;
+object.DefaultExtension = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **DefaultExtension**
-
-object. **DefaultExtension** = _s_
+```
+s = object.DefaultExtension
+object.DefaultExtension = s
+```
 
 ## バージョン
 

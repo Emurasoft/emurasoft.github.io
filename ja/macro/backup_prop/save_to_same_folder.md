@@ -1,21 +1,23 @@
 # SaveToSameFolder プロパティ (BackupProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の
-**\[バックアップをバックアップ フォルダに保存\]** チェック ボックスに相当します。
+設定のプロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の
+\[バックアップをバックアップ フォルダに保存\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SaveToSameFolder**;
+### \[JavaScript\]
 
-object. **SaveToSameFolder** = _b_;
+```
+b = object.SaveToSameFolder;
+object.SaveToSameFolder = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SaveToSameFolder**
-
-object. **SaveToSameFolder** = _b_
+```
+b = object.SaveToSameFolder
+object.SaveToSameFolder = b
+```
 
 ## バージョン
 

@@ -1,14 +1,20 @@
 # shell 屬性 (Window ��H)
 
-返回 [**Shell** 對象](../shell/index)。
+返回 [Shell 對象](../shell/index)。
 
-#### \[JavaScript\]
+## 
 
-_shl_ = **shell**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shl =shell;
+```
 
-Set _shl_ = **shell**
+### \[VBScript\]
+
+```
+Set shl =shell
+```
 
 ## 版本
 

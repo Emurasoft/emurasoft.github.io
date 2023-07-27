@@ -1,14 +1,14 @@
 # \[CSVオプションのカスタマイズ\] コマンド
 
-### 概要
+## 概要
 
-> \[カスタマイズ\] ダイアログ ボックスの \[CSVオプション\] ページを開きます。
+\[カスタマイズ\] ダイアログ ボックスの \[CSVオプション\] ページを開きます。
 
-### 説明
+## 説明
 
-> [\[カスタマイズ\] ダイアログ ボックス](../../dlg/customize/index) の \[CSVオプション\] ページを表示して、アプリケーション共通の設定をできるようにします。
+[\[カスタマイズ\] ダイアログ ボックス](../../dlg/customize/index) の \[CSVオプション\] ページを表示して、アプリケーション共通の設定をできるようにします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[カスタマイズ\] \- \[CSVオプション\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CUSTOMIZE\_CSV\_OPTIONS (9068)
+```
+EEID_CUSTOMIZE_CSV_OPTIONS (9068)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(9068);
+```
+editor.ExecuteCommandByID(9068);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 9068
+```
+editor.ExecuteCommandByID 9068
+```

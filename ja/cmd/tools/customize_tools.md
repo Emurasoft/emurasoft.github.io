@@ -1,14 +1,14 @@
 # \[外部ツールの設定\] コマンド
 
-### 概要
+## 概要
 
-> 外部ツールを設定します。
+外部ツールを設定します。
 
-### 説明
+## 説明
 
-> [\[外部ツール\] ダイアログ ボックス](../../dlg/tools/index) を表示して、外部ツールの設定を行います。
+[\[外部ツール\] ダイアログ ボックス](../../dlg/tools/index) を表示して、外部ツールの設定を行います。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ツール\] \- \[外部ツール\] \- \[外部ツールの設定\]
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[外部ツールの設定\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CUSTOMIZE\_TOOLS (4324)
+```
+EEID_CUSTOMIZE_TOOLS (4324)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4324);
+```
+editor.ExecuteCommandByID(4324);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4324
+```
+editor.ExecuteCommandByID 4324
+```

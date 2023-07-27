@@ -14,14 +14,14 @@ lParam = (LPARAM) (POINT\_PTR\*) pptDev;
 
 _pptView_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the display coordinates to be
-> converted.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the display coordinates to be
+converted.
 
 _pptDev_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) to receive the converted device coordinates. The x or y value of this structure might become LONG\_PTR\_MIN or LONG\_PTR\_MAX
-> the specified position is invalid or the specified position is far from the screen rectangle.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) to receive the converted device coordinates. The x or y value of this structure might become LONG\_PTR\_MIN or LONG\_PTR\_MAX
+the specified position is invalid or the specified position is far from the screen rectangle.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

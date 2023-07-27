@@ -1,14 +1,14 @@
 # \[区切り位置を調節 (文書全体)\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書にある全ての区切り位置を調節します。
+CSV文書にある全ての区切り位置を調節します。
 
-### 説明
+## 説明
 
-> CSV文書にある全ての区切り位置を調節します。
+CSV文書にある全ての区切り位置を調節します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[区切り位置を調節 (文書全体)\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[区切り位置を調節 (文書全体)\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_ADJUST\_COLUMN (4460)
+```
+EEID_ADJUST_COLUMN (4460)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4460);
+```
+editor.ExecuteCommandByID(4460);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4460
+```
+editor.ExecuteCommandByID 4460
+```

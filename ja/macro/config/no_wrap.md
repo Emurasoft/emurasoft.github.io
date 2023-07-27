@@ -2,13 +2,19 @@
 
 [NoWrapProp オブジェクト](../no_wrap_prop/index) 取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **NoWrap**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.NoWrap;
+```
 
-Set _obj_ = object. **NoWrap**
+### \[VBScript\]
+
+```
+Set obj = object.NoWrap
+```
 
 ## バージョン
 

@@ -1,32 +1,37 @@
 # 缩进栏命令
 
-### 摘要
+## 摘要
 
-> 显示一个弹出菜单来选择缩进栏。
+显示一个弹出菜单来选择缩进栏。
 
-### 说明
+## 说明
 
-> 显示一个弹出菜单来选择缩进栏。
+显示一个弹出菜单来选择缩进栏。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands): **查看** \> **制表符/缩进** \> **缩进栏**
+- [所有命令](../tools/all_commands):查看 \>制表符/缩进 \>缩进栏
 - Toolbar:
 ![](../../images/indent_column24x16.gif)
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_INDENT\_COLUMN\_POPUP (4551)
+```
+EEID_INDENT_COLUMN_POPUP (4551)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4551);
+```
+editor.ExecuteCommandByID(4551);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4551
+```
+editor.ExecuteCommandByID 4551
+```

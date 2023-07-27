@@ -10,21 +10,21 @@ Editor\_GetStatusA( HWND hwnd, LPSTR szStatus, UINT nBufSize );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nBufSize_
 
-> Specifies the size of buffer in characters to retrieve the string, including
-> the terminating null character. You can specify 0 if _szStatus_ is
-> NULL. If the buffer size is not enough, _szStatus_ will retrieve no
-> string.
+Specifies the size of buffer in characters to retrieve the string, including
+the terminating null character. You can specify 0 if _szStatus_ is
+NULL. If the buffer size is not enough, _szStatus_ will retrieve no
+string.
 
 _szStatus_
 
-> Specifies the buffer to retrieve the string. If NULL is specified, returns
-> the size of the buffer enough to retrieve the string.
+Specifies the buffer to retrieve the string. If NULL is specified, returns
+the size of the buffer enough to retrieve the string.
 
 ## Return Values
 
-> Returns the size of the buffer in characters enough to retrieve the string
-> including the terminating null character.
+Returns the size of the buffer in characters enough to retrieve the string
+including the terminating null character.

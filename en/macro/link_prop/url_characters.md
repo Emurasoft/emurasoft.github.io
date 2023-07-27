@@ -1,20 +1,24 @@
 # URLCharacters Property (LinkProp Object)
 
-Corresponds to the **Recognize**
-**These Characters** text box in the
-[**Link** page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to theRecognize
+These Characters text box in the
+[Link page](../../dlg/properties/link/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **URLCharacters**;
+### \[JavaScript\]
 
-object. **URLCharacters** = _s_;
+```
+s = object.URLCharacters;
+object.URLCharacters = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **URLCharacters**
-
-object. **URLCharacters** = _s_
+```
+s = object.URLCharacters
+object.URLCharacters = s
+```
 
 ## Version
 

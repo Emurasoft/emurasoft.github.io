@@ -1,22 +1,24 @@
 # NumericEntity Property (FileSaveProp Object)
 
-Corresponds to the **Save**
-**Unicode as HTML/XML Character Reference** check box in the
-[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to theSave
+Unicode as HTML/XML Character Reference check box in the
+[Save Details dialog box](../../dlg/properties/file/save_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **NumericEntity**;
+### \[JavaScript\]
 
-object. **NumericEntity** = _b_;
+```
+b = object.NumericEntity;
+object.NumericEntity = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **NumericEntity**
-
-object. **NumericEntity** = _b_
+```
+b = object.NumericEntity
+object.NumericEntity = b
+```
 
 ## Version
 

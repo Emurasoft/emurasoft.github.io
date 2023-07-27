@@ -2,13 +2,19 @@
 
 現在開いている文書のコレクションを示す [Documents コレクション](../documents/index) を返します。
 
-#### \[JavaScript\]
+## 
 
-_docs_ = editor. **Documents**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+docs = editor.Documents;
+```
 
-Set _docs_ = editor. **Documents**
+### \[VBScript\]
+
+```
+Set docs = editor.Documents
+```
 
 ## バージョン
 

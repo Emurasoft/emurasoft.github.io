@@ -2,13 +2,19 @@
 
 返回选定内容原点的行号。
 
-#### \[JavaScript\]
+## 
 
-yPos = document.selection. **GetAnchorPointY**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos = document.selection.GetAnchorPointY( nFlags );
+```
 
-yPos = document.selection. **GetAnchorPointY**( _nFlags_ )
+### \[VBScript\]
+
+```
+yPos = document.selection.GetAnchorPointY( nFlags )
+```
 
 ## 参数
 

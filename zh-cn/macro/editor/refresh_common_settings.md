@@ -2,13 +2,19 @@
 
 加载常用设置并刷新 EmEditor 窗口。
 
-#### \[JavaScript\]
+## 
 
-editor. **RefreshCommonSettings**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.RefreshCommonSettings();
+```
 
-editor. **RefreshCommonSettings**
+### \[VBScript\]
+
+```
+editor.RefreshCommonSettings
+```
 
 ## 版本
 

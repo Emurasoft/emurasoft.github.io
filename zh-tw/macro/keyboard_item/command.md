@@ -2,19 +2,21 @@
 
 指定命令 ID。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-item. **Command**;
+### \[JavaScript\]
 
-item. **Command** = _n_;
+```
+n = item.Command;
+item.Command = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Command**
-
-item. **Command** = _n_
+```
+n = item.Command
+item.Command = n
+```
 
 ## 版本
 

@@ -1,31 +1,36 @@
 # Insert Trademark command
 
-### Summary
+## Summary
 
-> Inserts a trademark symbol.
+Inserts a trademark symbol.
 
-### Description
+## Description
 
-> Inserts a trademark symbol (™) at the cursor.
+Inserts a trademark symbol (™) at the cursor.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Marks** \> **Trademark**
-- [All Commands](../tools/all_commands): **Insert** \> **Marks** \> **Trademark**
+- Default Menu:Insert \>Marks \>Trademark
+- [All Commands](../tools/all_commands):Insert \>Marks \>Trademark
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+T
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT\_TRADEMARK (4316)
+```
+EEID_INSERT_TRADEMARK (4316)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Text="™";
+```
+document.selection.Text="™";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Text="™"
+```
+document.selection.Text="™"
+```

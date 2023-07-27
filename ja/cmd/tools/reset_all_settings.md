@@ -1,14 +1,14 @@
 # \[すべての設定をリセット\] コマンド
 
-### 概要
+## 概要
 
-> EmEditor のすべての設定をリセットして EmEditor を再起動します。
+EmEditor のすべての設定をリセットして EmEditor を再起動します。
 
-### 説明
+## 説明
 
-> EmEditor のすべての設定をリセットして EmEditor を再起動します。
+EmEditor のすべての設定をリセットして EmEditor を再起動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ツール\] \- \[すべての設定をリセット\]
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[すべての設定をリセット\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_RESET\_ALL (3860)
+```
+EEID_RESET_ALL (3860)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3860);
+```
+editor.ExecuteCommandByID(3860);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3860
+```
+editor.ExecuteCommandByID 3860
+```

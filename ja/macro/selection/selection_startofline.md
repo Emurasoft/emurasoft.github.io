@@ -2,14 +2,20 @@
 
 カーソル位置を行の最初に移動します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **StartOfLine**( \[ _bExtend_ \[, _nFlags_ \] \]
+### \[JavaScript\]
+
+```
+document.selection.StartOfLine( [ bExtend [, nFlags ] ]
 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document.selection. **StartOfLine** \[ _bExtend_ \[, _nFlags_ \] \]
+```
+document.selection.StartOfLine [ bExtend [, nFlags ] ]
+```
 
 ## 引数
 

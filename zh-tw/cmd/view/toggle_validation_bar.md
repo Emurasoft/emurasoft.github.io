@@ -1,32 +1,37 @@
 # 語法檢查器命令
 
-### 摘要
+## 摘要
 
-> 顯示語法檢查器欄並檢查語法，或隱藏語法檢查器欄。
+顯示語法檢查器欄並檢查語法，或隱藏語法檢查器欄。
 
-### 說明
+## 說明
 
-> 顯示語法檢查器欄並檢查語法，或隱藏語法檢查器欄。
+顯示語法檢查器欄並檢查語法，或隱藏語法檢查器欄。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **檢視** \> **語法檢查器**
-- [全部命令](../tools/all_commands): **檢視** >
-**語法檢查器**
+- 預設功能表:檢視 \>語法檢查器
+- [全部命令](../tools/all_commands):檢視 >
+語法檢查器
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_TOGGLE\_VALIDATION\_BAR (4038)
+```
+EEID_TOGGLE_VALIDATION_BAR (4038)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4038);
+```
+editor.ExecuteCommandByID(4038);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4038
+```
+editor.ExecuteCommandByID 4038
+```

@@ -1,18 +1,22 @@
 # FontCategory プロパティ (FileNewProp �I�u�W�F�N�g)
 
-[**\[新規作成時の詳細\]** のダイアログ ボックス](../../dlg/properties/file/new_details/index) の **\[フォント分類\]** ドロップダウン リスト ボックスに相当します。
+[\[新規作成時の詳細\] のダイアログ ボックス](../../dlg/properties/file/new_details/index) の\[フォント分類\] ドロップダウン リスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **FontCategory**;
+### \[JavaScript\]
 
-object. **FontCategory** = _n_;
+```
+n = object.FontCategory;
+object.FontCategory = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **FontCategory**
-
-object. **FontCategory** = _n_
+```
+n = object.FontCategory
+object.FontCategory = n
+```
 
 ## バージョン
 

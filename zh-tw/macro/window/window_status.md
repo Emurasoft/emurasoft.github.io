@@ -2,17 +2,21 @@
 
 檢索或設置在狀態列上顯示的一個字串。
 
-#### \[JavaScript\]
+## 
 
-_str_ = **status**;
+### \[JavaScript\]
 
-**status** = _str_;
+```
+str =status;
+status = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = **status**
-
-**status** = _str_
+```
+str =status
+status = str
+```
 
 ## 版本
 

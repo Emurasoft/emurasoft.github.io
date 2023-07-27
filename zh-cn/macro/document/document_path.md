@@ -2,23 +2,33 @@
 
 仅检索当前文档的路径，不检索路径。
 
-#### \[JavaScript\]
+## 
 
-_strPath_ = document. **Path**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strPath = document.Path;
+```
 
-_strPath_ = document. **Path**
+### \[VBScript\]
+
+```
+strPath = document.Path
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( document.Path );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert document.Path
+```
 
 ## 版本
 

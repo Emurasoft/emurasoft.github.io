@@ -1,18 +1,22 @@
 # EndOfStatement プロパティ (IndentProp �I�u�W�F�N�g)
 
-[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の **\[ステートメント終了\]** テキスト ボックスに相当します。
+[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の\[ステートメント終了\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **EndOfStatement**;
+### \[JavaScript\]
 
-object. **EndOfStatement** = _s_;
+```
+s = object.EndOfStatement;
+object.EndOfStatement = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **EndOfStatement**
-
-object. **EndOfStatement** = _s_
+```
+s = object.EndOfStatement
+object.EndOfStatement = s
+```
 
 ## バージョン
 

@@ -2,20 +2,26 @@
 
 執行由一個表示命令 ID 整數標識的命令。
 
-#### \[JavaScript\]
+## 
 
-editor. **ExecuteCommandByID**( _nID_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.ExecuteCommandByID( nID );
+```
 
-_strName_ = editor. **ExecuteCommandByID** _nID_
+### \[VBScript\]
+
+```
+strName = editor.ExecuteCommandByID nID
+```
 
 ## 參數
 
 _nID_
 
 指定一個表示要執行的命令 ID 的整數。詳見
-**[命令參考](../../cmd/index)** 來檢視可用命令列表。不是所有的命令都可用或被支持。
+[命令參考](../../cmd/index) 來檢視可用命令列表。不是所有的命令都可用或被支持。
 
 ## 版本
 

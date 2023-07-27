@@ -1,18 +1,22 @@
 # FirstDetectLine 屬性 (Csv ��H)
 
-與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **要偵測的第一行** 文字方塊對應。
+與在自訂對話方塊中 [CSV 頁面](../../dlg/customize/csv/index) 上的要偵測的第一行 文字方塊對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **FirstDetectLine**;
+### \[JavaScript\]
 
-object. **FirstDetectLine** = _n_;
+```
+n = object.FirstDetectLine;
+object.FirstDetectLine = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **FirstDetectLine**
-
-object. **FirstDetectLine** = _n_
+```
+n = object.FirstDetectLine
+object.FirstDetectLine = n
+```
 
 ## 版本
 

@@ -1,31 +1,36 @@
 # Next Node command
 
-### Summary
+## Summary
 
-> Moves the cursor to the next node while outlining is displayed.
+Moves the cursor to the next node while outlining is displayed.
 
-### Description
+## Description
 
-> Moves the cursor to the next node while outlining is displayed. A plug-in for outlining is necessary to display outlining.
+Moves the cursor to the next node while outlining is displayed. A plug-in for outlining is necessary to display outlining.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Outlining** \> **Next Node**
-- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Next Node**
+- Default Menu:Edit \>Outlining \>Next Node
+- [All Commands](../tools/all_commands):Edit \>Outlining \>Next Node
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: Alt+Down
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_OUTLINE\_NEXT\_NODE (4415)
+```
+EEID_OUTLINE_NEXT_NODE (4415)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4415);
+```
+editor.ExecuteCommandByID(4415);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4415
+```
+editor.ExecuteCommandByID 4415
+```

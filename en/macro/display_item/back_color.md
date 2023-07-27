@@ -2,17 +2,21 @@
 
 Specifies the background color of the object.
 
-#### \[JavaScript\]
+## 
 
-_rgb_ = item. **BackColor**;
+### \[JavaScript\]
 
-item. **BackColor** = _rgb_;
+```
+rgb = item.BackColor;
+item.BackColor = rgb;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_rgb_ = item. **BackColor**;
-
-item. **BackColor** = _rgb_;
+```
+rgb = item.BackColor;
+item.BackColor = rgb;
+```
 
 ## Version
 

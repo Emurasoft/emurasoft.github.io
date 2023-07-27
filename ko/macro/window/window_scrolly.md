@@ -2,13 +2,19 @@
 
 스크롤 바의 수직 위치를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_yPos_ = **scrollY**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos =scrollY;
+```
 
-_yPos_ = **scrollY**
+### \[VBScript\]
+
+```
+yPos =scrollY
+```
 
 ## 버전
 

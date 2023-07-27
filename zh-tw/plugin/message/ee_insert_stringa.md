@@ -14,24 +14,24 @@ lParam = (LPARAM) (LPCSTR) szString;
 
 _nInsertType_
 
-> 從如下值中指定一個組合。
->
-> |     |     |
-> | --- | --- |
-> | OVERWRITE\_PER\_PROP | 插入或改寫取決于當前「插入/改寫」狀態。 |
-> | OVERWRITE\_INSERT | 總是插入，不改寫已存在的字符串。 |
-> | OVERWRITE\_OVERWRITE | 總是改寫已存在的字符串。 |
-> | KEEP\_SOURCE\_RETURN\_TYPE | 保持在 szString 指定的換行方式 (僅 CR，僅 LF，或 CR 和 LF) 。 |
-> | KEEP\_DEST\_RETURN\_TYPE | 保持目標的換行方式 (僅 CR，僅 LF，或 CR 和 LF) 。 |
+從如下值中指定一個組合。
+
+|     |     |
+| --- | --- |
+| OVERWRITE\_PER\_PROP | 插入或改寫取決于當前「插入/改寫」狀態。 |
+| OVERWRITE\_INSERT | 總是插入，不改寫已存在的字符串。 |
+| OVERWRITE\_OVERWRITE | 總是改寫已存在的字符串。 |
+| KEEP\_SOURCE\_RETURN\_TYPE | 保持在 szString 指定的換行方式 (僅 CR，僅 LF，或 CR 和 LF) 。 |
+| KEEP\_DEST\_RETURN\_TYPE | 保持目標的換行方式 (僅 CR，僅 LF，或 CR 和 LF) 。 |
 
 _szString_
 
-> 指定要被插入的字符串。
+指定要被插入的字符串。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。
 
 ## 支持版本
 
-> KEEP\_SOURCE\_RETURN\_TYPE 和 KEEP\_DEST\_RETURN\_TYPE 標志都在 EmEditor 7.00 或之後的版本上支持。
+KEEP\_SOURCE\_RETURN\_TYPE 和 KEEP\_DEST\_RETURN\_TYPE 標志都在 EmEditor 7.00 或之後的版本上支持。

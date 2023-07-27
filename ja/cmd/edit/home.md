@@ -1,14 +1,14 @@
 # \[行頭へ\] コマンド
 
-### 概要
+## 概要
 
-> 行頭へ移動します。
+行頭へ移動します。
 
-### 説明
+## 説明
 
-> カーソル位置を表示行の行頭へ移動します。
+カーソル位置を表示行の行頭へ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[水平にカーソル移動\] \- \[行頭へ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+Ctrl+Home
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_HOME (4164)
+```
+EEID_HOME (4164)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.StartOfLine(false,eeLineView);
+```
+document.selection.StartOfLine(false,eeLineView);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.StartOfLine false,eeLineView
+```
+document.selection.StartOfLine false,eeLineView
+```

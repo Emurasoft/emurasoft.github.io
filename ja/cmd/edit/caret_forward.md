@@ -1,14 +1,14 @@
 # \[進む\] コマンド
 
-### 概要
+## 概要
 
-> カーソルを次の位置に移動します。
+カーソルを次の位置に移動します。
 
-### 説明
+## 説明
 
-> カーソルを次の位置に移動します。
+カーソルを次の位置に移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[高度な操作\] \- \[進む\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[高度な操作\] \- \[進む\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+→
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CARET\_FORWARD (4598)
+```
+EEID_CARET_FORWARD (4598)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4598);
+```
+editor.ExecuteCommandByID(4598);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4598
+```
+editor.ExecuteCommandByID 4598
+```

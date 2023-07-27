@@ -2,13 +2,19 @@
 
 把集合匯出到 TSV 檔案中。
 
-#### \[JavaScript\]
+## 
 
-list. **Export**( _strFileName_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Export( strFileName );
+```
 
-list. **Export** _strFileName_
+### \[VBScript\]
+
+```
+list.Export strFileName
+```
 
 ## 參數
 
@@ -18,25 +24,23 @@ _strFileName_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 var filters = document.filters;
-
 if( filters.Count > 0 ) {
-
 filters.Export( "E:\\\Test\\\filter.tsv" );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set filters = document.filters
-
 If filters.Count > 0 Then
-
 filters.Export "E:\\Test\\filter.tsv"
-
 End If
+```
 
 ## 版本
 

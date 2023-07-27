@@ -2,13 +2,19 @@
 
 [FileNewProp オブジェクト](../file_new_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **FileNew**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.FileNew;
+```
 
-Set _obj_ = object. **FileNew**
+### \[VBScript\]
+
+```
+Set obj = object.FileNew
+```
 
 ## バージョン
 

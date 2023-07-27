@@ -2,13 +2,19 @@
 
 Retrieves the name for the current configuration object.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Name**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+s = object.Name;
+```
 
-_s_ = object. **Name**
+### \[VBScript\]
+
+```
+s = object.Name
+```
 
 ## Version
 

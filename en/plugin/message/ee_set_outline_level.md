@@ -13,17 +13,17 @@ lParam = (LPARAM) (int) nLevel;
 
 _nLogicalLine_
 
-> Specifies a logical line.
+Specifies a logical line.
 
 _nLevel_
 
-> Specifies an outline level.
+Specifies an outline level.
 
 ## Return Values
 
-> The return value is the old outline level for the specified logical line.
-> If an error occurs, the return value will be -1.
+The return value is the old outline level for the specified logical line.
+If an error occurs, the return value will be -1.
 
 ## Version
 
-> Supported on EmEditor Professional Version 6.00 or later.
+Supported on EmEditor Professional Version 6.00 or later.

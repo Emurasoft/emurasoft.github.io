@@ -2,13 +2,19 @@
 
 把键盘焦点设置到输出栏上。
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **SetFocus**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.SetFocus();
+```
 
-OutputBar. **SetFocus**
+### \[VBScript\]
+
+```
+OutputBar.SetFocus
+```
 
 ## 版本
 

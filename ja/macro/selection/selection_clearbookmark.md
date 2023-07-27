@@ -2,13 +2,19 @@
 
 現在行のブックマークを解除します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ClearBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ClearBookmark();
+```
 
-document.selection. **ClearBookmark**
+### \[VBScript\]
+
+```
+document.selection.ClearBookmark
+```
 
 ## バージョン
 

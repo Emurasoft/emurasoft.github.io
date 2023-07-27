@@ -2,13 +2,19 @@
 
 新規プロセスでプログラムを実行します。
 
-#### \[JavaScript\]
+## 
 
-nReturnCode = shell. **Run**( _strCommand_, _nWindowStyle_, _bWaitOnReturn_, _strParameter_, _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nReturnCode = shell.Run( strCommand, nWindowStyle, bWaitOnReturn, strParameter, strFolder );
+```
 
-nReturnCode = shell. **Run**( _strCommand_, _nWindowStyle_, _bWaitOnReturn_, _strParameter_, _strFolder_ )
+### \[VBScript\]
+
+```
+nReturnCode = shell.Run( strCommand, nWindowStyle, bWaitOnReturn, strParameter, strFolder )
+```
 
 ## パラメータ
 
@@ -42,13 +48,17 @@ _strFolder_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nAttr = shell.Run( "C:\\\Windows\\\calc.exe", 1 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 nAttr = shell.Run( "C:\\Test\\file.txt" )
+```
 
 ## バージョン
 

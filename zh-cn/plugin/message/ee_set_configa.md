@@ -14,8 +14,8 @@ lParam = (LPARAM) (LPCSTR) szConfigName;
 
 _szConfigName_
 
-> 用 ANSI 字符串指定一个配置。
+用 ANSI 字符串指定一个配置。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

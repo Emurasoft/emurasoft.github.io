@@ -1,18 +1,22 @@
 # ScriptBegin プロパティ (HighlightProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の \[スクリプト\] グループ \- \[開始\] テキスト ボックスに相当します。
+設定のプロパティの [\[強調(2)\] タブ](../../dlg/properties/highlight2/index) の \[スクリプト\] グループ \- \[開始\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **ScriptBegin**;
+### \[JavaScript\]
 
-object. **ScriptBegin** = _str_;
+```
+str = object.ScriptBegin;
+object.ScriptBegin = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **ScriptBegin**
-
-object. **ScriptBegin** = _str_
+```
+str = object.ScriptBegin
+object.ScriptBegin = str
+```
 
 ## バージョン
 

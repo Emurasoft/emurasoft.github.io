@@ -2,13 +2,19 @@
 
 Performs the AutoFill or Flash Fill action on the CSV document.
 
-#### \[JavaScript\]
+## 
 
-_nResults_ = document. **AutoFill**( _xSrcCellStart_, _ySrcCellStart_, _xSrcCellEnd_, _ySrcCellEnd_, _xDestCellStart_, _yDestCellStart_, _xDestCellEnd_, _yDestCellEnd_, _nFlags_, _nIncrement_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nResults = document.AutoFill( xSrcCellStart, ySrcCellStart, xSrcCellEnd, ySrcCellEnd, xDestCellStart, yDestCellStart, xDestCellEnd, yDestCellEnd, nFlags, nIncrement );
+```
 
-_nResults_ = document. **AutoFill**( _xSrcCellStart_, _ySrcCellStart_, _xSrcCellEnd_, _ySrcCellEnd_, _xDestCellStart_, _yDestCellStart_, _xDestCellEnd_, _yDestCellEnd_, _nFlags_, _nIncrement_ )
+### \[VBScript\]
+
+```
+nResults = document.AutoFill( xSrcCellStart, ySrcCellStart, xSrcCellEnd, ySrcCellEnd, xDestCellStart, yDestCellStart, xDestCellEnd, yDestCellEnd, nFlags, nIncrement )
+```
 
 ## Parameters
 
@@ -46,7 +52,7 @@ Specifies the line number of the ending position of the destination cells.
 
 _nFlags_
 
-Specifies a combination of the following values. If omitted, **eeFillDefault** will be specified.
+Specifies a combination of the following values. If omitted,eeFillDefault will be specified.
 
 |     |     |
 | --- | --- |
@@ -59,7 +65,7 @@ Specifies a combination of the following values. If omitted, **eeFillDefault** w
 
 _nIncrement_
 
-Specifies the number of increment for a series if only one cell is specified for the source range and if **eeFillSeries** is specified for the _nFlags_ parameter. If omitted, 1 will be specified.
+Specifies the number of increment for a series if only one cell is specified for the source range and ifeeFillSeries is specified for the _nFlags_ parameter. If omitted, 1 will be specified.
 
 ## Return Values
 
@@ -73,25 +79,23 @@ The return value can be a combination of the following values if the method succ
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries \| eeFillDontOverwrite );
-
 if( nResults >= 0 ) {
-
 alert( "Success" );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries \| eeFillDontOverwrite );
-
 If nResults >= 0 Then
-
 alert "Success"
-
 End If
+```
 
 ## Version
 

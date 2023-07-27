@@ -2,13 +2,19 @@
 
 檢索所選內容中包含的數字的總和。
 
-#### \[JavaScript\]
+## 
 
-_v_ = document.selection. **Sum**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+v = document.selection.Sum;
+```
 
-_v_ = document.selection. **Sum**
+### \[VBScript\]
+
+```
+v = document.selection.Sum
+```
 
 ## 版本
 

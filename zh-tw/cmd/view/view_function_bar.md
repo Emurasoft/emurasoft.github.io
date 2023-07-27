@@ -1,32 +1,37 @@
 # 切換快捷功能條命令
 
-### 摘要
+## 摘要
 
-> 顯示或隱藏快捷功能條。
+顯示或隱藏快捷功能條。
 
-### 說明
+## 說明
 
-> 在 EmEditor 視窗低端，顯示或隱藏快捷功能條。
+在 EmEditor 視窗低端，顯示或隱藏快捷功能條。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **檢視** \> **快捷功能條**
-- [全部命令](../tools/all_commands): **檢視** >
-**快捷功能條**
+- 預設功能表:檢視 \>快捷功能條
+- [全部命令](../tools/all_commands):檢視 >
+快捷功能條
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_VIEW\_FUNCTION\_BAR (4448)
+```
+EEID_VIEW_FUNCTION_BAR (4448)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4448);
+```
+editor.ExecuteCommandByID(4448);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4448
+```
+editor.ExecuteCommandByID 4448
+```

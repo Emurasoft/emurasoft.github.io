@@ -1,21 +1,23 @@
 # AllowControlCharacter プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の
-**\[制御文字の入力を許可\]** チェック ボックスに相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の
+\[制御文字の入力を許可\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **AllowControlCharacter**;
+### \[JavaScript\]
 
-object. **AllowControlCharacter** = _b_;
+```
+b = object.AllowControlCharacter;
+object.AllowControlCharacter = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **AllowControlCharacter**
-
-object. **AllowControlCharacter** = _b_
+```
+b = object.AllowControlCharacter
+object.AllowControlCharacter = b
+```
 
 ## バージョン
 

@@ -8,12 +8,12 @@ Editor\_SetConfigW( HWND hwnd, LPCWSTR szConfigName );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _szConfigName_
 
-> Specifies a configuration by a Unicode string.
+Specifies a configuration by a Unicode string.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

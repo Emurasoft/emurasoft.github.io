@@ -2,13 +2,19 @@
 
 창의 클래스 이름을 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_str_ = wnd. **ClassName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = wnd.ClassName;
+```
 
-_str_ = wnd. **ClassName**
+### \[VBScript\]
+
+```
+str = wnd.ClassName
+```
 
 ## 버전
 

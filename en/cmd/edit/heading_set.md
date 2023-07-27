@@ -1,31 +1,36 @@
 # Set Headings (Freeze Panes) command
 
-### Summary
+## Summary
 
-> Sets lines above and columns left of the current cell non-scrollable.
+Sets lines above and columns left of the current cell non-scrollable.
 
-### Description
+## Description
 
-> Sets lines above and columns left of the current cell non-scrollable.
+Sets lines above and columns left of the current cell non-scrollable.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Set Heading (Freeze Panes)**
+- [All Commands](../tools/all_commands):CSV \>Headings (Freeze Panes) \>Set Heading (Freeze Panes)
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_HEADING\_SET (3881)
+```
+EEID_HEADING_SET (3881)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3881);
+```
+editor.ExecuteCommandByID(3881);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3881
+```
+editor.ExecuteCommandByID 3881
+```

@@ -2,21 +2,23 @@
 
 Corresponds to the Show Indent Guides check box in the Mark tab of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowIndentGuides**;
+### \[JavaScript\]
 
-object. **ShowIndentGuides**
-= _b_;
+```
+b = object.ShowIndentGuides;
+object.ShowIndentGuides
+= b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowIndentGuides**
-
-object. **ShowIndentGuides**
-= _b_
+```
+b = object.ShowIndentGuides
+object.ShowIndentGuides
+= b
+```
 
 ## Version
 

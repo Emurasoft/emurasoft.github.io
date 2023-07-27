@@ -1,19 +1,23 @@
 # SaveToFolder Property (BackupProp Object)
 
-Corresponds to the **Save Backups to the Same Folder** check box in the
-[**Backup** page](../../dlg/properties/backup/index) of Configuration Properties.
+Corresponds to theSave Backups to the Same Folder check box in the
+[Backup page](../../dlg/properties/backup/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **SaveToFolder**;
+### \[JavaScript\]
 
-object. **SaveToFolder** = _b_;
+```
+b = object.SaveToFolder;
+object.SaveToFolder = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **SaveToFolder**
-
-object. **SaveToFolder** = _b_
+```
+b = object.SaveToFolder
+object.SaveToFolder = b
+```
 
 ## Version
 

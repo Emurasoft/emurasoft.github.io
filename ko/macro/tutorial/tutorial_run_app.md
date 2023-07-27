@@ -4,56 +4,40 @@
 
 다음의 예제 코드는 Windows 계산기를 실행하고 1+2=의 간단한 계산을 실행하는 키 입력을 전송합니다.
 
-#### \[JavaScript\]
+## 
 
+### \[JavaScript\]
+
+```
 WshShell = new ActiveXObject( "WScript.Shell" );
-
 WshShell.Run( "calc.exe" );
-
 Sleep( 1000 );
-
 wnd = shell.FindWindow( "", "Calculator" );
-
 wnd.SetForeground();
-
 shell.SendKeys( "1" );
-
 Sleep( 100 );
-
 shell.SendKeys( "{+}" );
-
 Sleep( 100 );
-
 shell.SendKeys( "2" );
-
 Sleep( 100 );
-
 shell.SendKeys( "=" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set WshShell = CreateObject( "WScript.Shell" )
-
 WshShell.Run "calc.exe"
-
 Sleep 1000
-
 wnd = shell.FindWindow( "", "Calculator" )
-
 wnd.SetForeground
-
 shell.SendKeys "1"
-
 Sleep 100
-
 shell.SendKeys "{+}"
-
 Sleep 100
-
 shell.SendKeys "2"
-
 Sleep 100
-
 shell.SendKeys "="
+```
 
 ## 참조:

@@ -1,20 +1,24 @@
 # NotepadDiary Property (FileProp Object)
 
-Corresponds to the **Notepad-Compatible**
-**Diary** check box in the
-[**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theNotepad-Compatible
+Diary check box in the
+[File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **NotepadDiary**;
+### \[JavaScript\]
 
-object. **NotepadDiary** = _b_;
+```
+b = object.NotepadDiary;
+object.NotepadDiary = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **NotepadDiary**
-
-object. **NotepadDiary** = _b_
+```
+b = object.NotepadDiary
+object.NotepadDiary = b
+```
 
 ## Version
 

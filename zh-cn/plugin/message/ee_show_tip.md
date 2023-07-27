@@ -12,12 +12,12 @@ lParam = (LPARAM) (TIP\_INFO\*) pTipInfo;
 
 _pTipInfo_
 
-> 指针指向 [TIP\_INFO](../structure/tip_info) 结构。
+指针指向 [TIP\_INFO](../structure/tip_info) 结构。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。
 
 ## 版本
 
-> 支持 EmEditor 16.9 或之后的版本。
+支持 EmEditor 16.9 或之后的版本。

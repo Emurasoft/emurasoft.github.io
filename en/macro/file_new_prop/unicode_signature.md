@@ -1,20 +1,24 @@
 # UnicodeSignature Property (FileNewProp Object)
 
-Corresponds to the **Add**
-**a Unicode Signature (BOM)** check box in the
-[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
+Corresponds to theAdd
+a Unicode Signature (BOM) check box in the
+[New File Details dialog box](../../dlg/properties/file/new_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **UnicodeSignature**;
+### \[JavaScript\]
 
-object. **UnicodeSignature** = _b_;
+```
+b = object.UnicodeSignature;
+object.UnicodeSignature = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **UnicodeSignature**
-
-object. **UnicodeSignature** = _b_
+```
+b = object.UnicodeSignature
+object.UnicodeSignature = b
+```
 
 ## Version
 

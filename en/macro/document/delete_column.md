@@ -2,13 +2,19 @@
 
 Deletes specified columns in a CSV mode.
 
-#### \[JavaScript\]
+## 
 
-document. **DeleteColumn**( _iColumn_, \[ _iColumn2_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.DeleteColumn( iColumn, [ iColumn2 ] );
+```
 
-document. **DeleteColumn** _iColumn_, \[ _iColumn2_ \]
+### \[VBScript\]
+
+```
+document.DeleteColumn iColumn, [ iColumn2 ]
+```
 
 ## Parameters
 
@@ -24,13 +30,17 @@ Specifies the last column to delete. If omitted, only one column specified by _i
 
 The following example deletes columns 3 through 5.
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.DeleteColumn( 3, 5 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.DeleteColumn 3, 5
+```
 
 ## Version
 

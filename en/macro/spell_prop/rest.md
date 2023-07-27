@@ -1,21 +1,23 @@
 # Rest Property (SpellProp Object)
 
-Corresponds to the **Unspecified Text** check box in the
-[**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to theUnspecified Text check box in the
+[Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Rest**;
+### \[JavaScript\]
 
-object. **Rest** = _b_;
+```
+b = object.Rest;
+object.Rest = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Rest**
-
-object. **Rest** = _b_
+```
+b = object.Rest
+object.Rest = b
+```
 
 ## Version
 

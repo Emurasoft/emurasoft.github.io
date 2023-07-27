@@ -12,17 +12,17 @@ Editor\_SerialToLogical( HWND hwnd, UINT nSerial, POINT\_PTR\* pptLogical );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nSerial_
 
-> Specifies a serial position to be converted.
+Specifies a serial position to be converted.
 
 _pptLogical_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the converted logical
-> coordinates.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the converted logical
+coordinates.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

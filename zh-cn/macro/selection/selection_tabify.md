@@ -2,13 +2,19 @@
 
 把选定内容中的空格转换为 tab。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Tabify**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Tabify();
+```
 
-document.selection. **Tabify**
+### \[VBScript\]
+
+```
+document.selection.Tabify
+```
 
 ## 版本
 

@@ -1,32 +1,37 @@
 # Terminate Tool Job command
 
-### Summary
+## Summary
 
-> Terminates the currently running tool job.
+Terminates the currently running tool job.
 
-### Description
+## Description
 
-> Terminates the currently running tool job. This command terminates all processes spawned by an external tool using the Output Bar.
+Terminates the currently running tool job. This command terminates all processes spawned by an external tool using the Output Bar.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Tools** \> **External Tools** \> **Terminate Tool Job**
-- [All Commands](all_commands): **Tools** >
-**Terminate Tool Job**
+- Default Menu:Tools \>External Tools \>Terminate Tool Job
+- [All Commands](all_commands):Tools >
+Terminate Tool Job
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+BREAK
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_TERMINATE\_TOOL (4451)
+```
+EEID_TERMINATE_TOOL (4451)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4451);
+```
+editor.ExecuteCommandByID(4451);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4451
+```
+editor.ExecuteCommandByID 4451
+```

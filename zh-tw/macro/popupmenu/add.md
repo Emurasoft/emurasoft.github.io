@@ -2,13 +2,19 @@
 
 添加一個新的項目到功能表末尾。
 
-#### \[JavaScript\]
+## 
 
-popupmenu. **Add**( _strText_, _id_, _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu.Add( strText, id, flags );
+```
 
-popupmenu. **Add** _strText_, _id_, _flags_
+### \[VBScript\]
+
+```
+popupmenu.Add strText, id, flags
+```
 
 ## 參數
 

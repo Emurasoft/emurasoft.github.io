@@ -1,14 +1,14 @@
 # \[前の論理行\] コマンド
 
-### 概要
+## 概要
 
-> 前の論理行へ移動します。
+前の論理行へ移動します。
 
-### 説明
+## 説明
 
-> 前の論理行の行頭へ移動します。
+前の論理行の行頭へ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[垂直にカーソル移動\] \- \[前の論理行\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Page Up
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_PREV\_LOGICAL\_LINE (4269)
+```
+EEID_PREV_LOGICAL_LINE (4269)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4269);
+```
+editor.ExecuteCommandByID(4269);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4269
+```
+editor.ExecuteCommandByID 4269
+```

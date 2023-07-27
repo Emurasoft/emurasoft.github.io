@@ -6,30 +6,28 @@ DisplayList コレクションは [DisplayItem オブジェクト](../display_it
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | アイテムの数を取得します。 |
-| **[Item](item)** | 指定のインデックスの [DisplayItem オブジェクト](../display_item/index) を取得します。 |
+|[Count](count) | アイテムの数を取得します。 |
+|[Item](item) | 指定のインデックスの [DisplayItem オブジェクト](../display_item/index) を取得します。 |
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Display.ColorList );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.TextColor );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Display.ColorList
-
 alert item.TextColor
-
 Next
+```
 
 ## バージョン
 

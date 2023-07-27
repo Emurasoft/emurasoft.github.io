@@ -1,35 +1,40 @@
 # Save All command
 
-### Summary
+## Summary
 
-> Saves all currently open files.
+Saves all currently open files.
 
-### Description
+## Description
 
-> This command selects the [**Save** \
-> command](file_save) for all opened EmEditor windows. If an untitled file exists,
-> the **Save As** dialog box appears, which allows you to enter a file name to save the file as.
+This command selects the [Save \
+command](file_save) for all opened EmEditor windows. If an untitled file exists,
+theSave As dialog box appears, which allows you to enter a file name to save the file as.
 
-### How to Run
+## How to Run
 
-- Default Menu: **File** \> **Save All**
-- [All Commands](../tools/all_commands): **File** \> **Save**
-\> **Save All**
+- Default Menu:File \>Save All
+- [All Commands](../tools/all_commands):File \>Save
+\>Save All
 - Toolbar:
 ![](../../images/filesaveall.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_SAVE\_ALL (4101)
+```
+EEID_FILE_SAVE_ALL (4101)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4101);
+```
+editor.ExecuteCommandByID(4101);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4101
+```
+editor.ExecuteCommandByID 4101
+```

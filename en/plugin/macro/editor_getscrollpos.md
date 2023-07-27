@@ -10,12 +10,12 @@ Editor\_GetScrollPos( HWND hwnd, POINT\_PTR\* pptPos );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _pptPos_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the scroll bar positions.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the scroll bar positions.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

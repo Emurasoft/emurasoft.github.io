@@ -2,17 +2,21 @@
 
 返回或設置視窗高度。
 
-#### \[JavaScript\]
+## 
 
-_height_ = wnd. **Height**;
+### \[JavaScript\]
 
-wnd. **Height** = _height_;
+```
+height = wnd.Height;
+wnd.Height = height;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_height_ = wnd. **Height**
-
-wnd. **Height** = _height_
+```
+height = wnd.Height
+wnd.Height = height
+```
 
 ## 版本
 

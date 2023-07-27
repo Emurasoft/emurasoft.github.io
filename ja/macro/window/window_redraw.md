@@ -2,17 +2,21 @@
 
 ウィンドウの再描画を行うかどうかを指定します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = **Redraw**;
+### \[JavaScript\]
 
-**Redraw** = _b_;
+```
+b =Redraw;
+Redraw = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = **Redraw**
-
-**Redraw** = _b_
+```
+b =Redraw
+Redraw = b
+```
 
 ## バージョン
 

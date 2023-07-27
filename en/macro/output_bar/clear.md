@@ -2,13 +2,19 @@
 
 Clears the contents of the output bar.
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **Clear**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.Clear();
+```
 
-OutputBar. **Clear**
+### \[VBScript\]
+
+```
+OutputBar.Clear
+```
 
 ## Version
 

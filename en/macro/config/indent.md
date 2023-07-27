@@ -2,13 +2,19 @@
 
 Retrieves the [IndentProp object](../indent_prop/index).
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Indent**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Indent;
+```
 
-Set _obj_ = object. **Indent**
+### \[VBScript\]
+
+```
+Set obj = object.Indent
+```
 
 ## Version
 

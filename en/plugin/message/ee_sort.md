@@ -13,12 +13,12 @@ lParam = (LPARAM) (SORT\_INFO\*) pSortInfo;
 
 _pSortInfo_
 
-> Pointer to the [SORT\_INFO](../structure/sort_info) structure.
+Pointer to the [SORT\_INFO](../structure/sort_info) structure.
 
 ## Return Value
 
-> Returns the HRESULT value. A zero or positive value means success while a negative value means failure.
+Returns the HRESULT value. A zero or positive value means success while a negative value means failure.
 
 ## Version
 
-> Supported on EmEditor Professional Version 16.4 or later.
+Supported on EmEditor Professional Version 16.4 or later.

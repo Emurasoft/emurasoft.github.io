@@ -1,20 +1,22 @@
 # UsePrinterFont プロパティ (FontProp �I�u�W�F�N�g)
 
-[**\[カスタマイズ フォント\]** ダイアログ ボックス](../../dlg/properties/font/index) の **\[通常のプリンタ用フォントも含める\]** チェック ボックスに相当します。
+[\[カスタマイズ フォント\] ダイアログ ボックス](../../dlg/properties/font/index) の\[通常のプリンタ用フォントも含める\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **UsePrinterFont**;
+### \[JavaScript\]
 
-object. **UsePrinterFont** = _b_;
+```
+b = object.UsePrinterFont;
+object.UsePrinterFont = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **UsePrinterFont**
-
-object. **UsePrinterFont** = _b_
+```
+b = object.UsePrinterFont
+object.UsePrinterFont = b
+```
 
 ## バージョン
 

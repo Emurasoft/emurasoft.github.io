@@ -1,31 +1,36 @@
 # Undo/Redo History command
 
-### Summary
+## Summary
 
-> Displays the [**Undo/Redo History** dialog box](../../dlg/undo_history/index).
+Displays the [Undo/Redo History dialog box](../../dlg/undo_history/index).
 
-### Description
+## Description
 
-> Displays the [**Undo/Redo History** dialog box](../../dlg/undo_history/index).
+Displays the [Undo/Redo History dialog box](../../dlg/undo_history/index).
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Undo** \> **Undo/Redo History**
+- [All Commands](../tools/all_commands):Edit \>Undo \>Undo/Redo History
 - Toolbar: ![](../../images/editundo.gif) (on the arrow)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_UNDO\_HISTORY (3982)
+```
+EEID_UNDO_HISTORY (3982)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3982);
+```
+editor.ExecuteCommandByID(3982);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3982
+```
+editor.ExecuteCommandByID 3982
+```

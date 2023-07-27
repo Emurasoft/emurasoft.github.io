@@ -1,14 +1,14 @@
 # \[最近を元に戻す (複数項目)\] コマンド
 
-### 概要
+## 概要
 
-> 指定する動作まで元に戻します。
+指定する動作まで元に戻します。
 
-### 説明
+## 説明
 
-> 指定する動作まで元に戻します。
+指定する動作まで元に戻します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[元に戻す\] \- \[最近を元に戻す (複数項目)\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_UNDO\_RECENT から EEID\_UNDO\_RECENT + 63 まで (22848 から 22848 + 63 まで)
+```
+EEID_UNDO_RECENT から EEID_UNDO_RECENT + 63 まで (22848 から 22848 + 63 まで)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(22848 + i);  // i は 0 から 63 までの整数
+```
+editor.ExecuteCommandByID(22848 + i);  // i は 0 から 63 までの整数
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 22848  ' i は 0 から 63 までの整数
+```
+editor.ExecuteCommandByID 22848  ' i は 0 から 63 までの整数
+```

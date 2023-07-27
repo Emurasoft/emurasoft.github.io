@@ -1,31 +1,36 @@
 # Expand All command
 
-### Summary
+## Summary
 
-> Expands the entire document while outlining is displayed.
+Expands the entire document while outlining is displayed.
 
-### Description
+## Description
 
-> While outlining is displayed, this command expands the entire document. A plug-in for outlining is necessary to display outlining.
+While outlining is displayed, this command expands the entire document. A plug-in for outlining is necessary to display outlining.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Outlining** \> **Expand All**
-- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Expand All**
+- Default Menu:Edit \>Outlining \>Expand All
+- [All Commands](../tools/all_commands):Edit \>Outlining \>Expand All
 - Toolbar: ![](../../images/outline_exp.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_OUTLINE\_EXPAND\_ALL (4411)
+```
+EEID_OUTLINE_EXPAND_ALL (4411)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4411);
+```
+editor.ExecuteCommandByID(4411);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4411
+```
+editor.ExecuteCommandByID 4411
+```

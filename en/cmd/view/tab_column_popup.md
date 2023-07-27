@@ -1,32 +1,37 @@
 # Tab Columns command
 
-### Summary
+## Summary
 
-> Displays a popup menu to select tab columns.
+Displays a popup menu to select tab columns.
 
-### Description
+## Description
 
-> Displays a popup menu to select tab columns.
+Displays a popup menu to select tab columns.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Tab Columns**
+- [All Commands](../tools/all_commands):View \>Tab/Indent \>Tab Columns
 - Toolbar:
 ![](../../images/tab_column24x16.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_TAB\_COLUMN\_POPUP (4550)
+```
+EEID_TAB_COLUMN_POPUP (4550)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4550);
+```
+editor.ExecuteCommandByID(4550);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4550
+```
+editor.ExecuteCommandByID 4550
+```

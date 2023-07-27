@@ -1,14 +1,14 @@
 # \[マーカーのカスタマイズ\] コマンド
 
-### 概要
+## 概要
 
-> マーカーの設定をカスタマイズします。
+マーカーの設定をカスタマイズします。
 
-### 説明
+## 説明
 
-> マーカーの設定をカスタマイズします。
+マーカーの設定をカスタマイズします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ツール\] \- \[マーカーのカスタマイズ\]
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[マーカーのカスタマイズ\] \- \[マーカーのカスタマイズ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CUSTOMIZE\_MARKERS (4562)
+```
+EEID_CUSTOMIZE_MARKERS (4562)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4562);
+```
+editor.ExecuteCommandByID(4562);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4562
+```
+editor.ExecuteCommandByID 4562
+```

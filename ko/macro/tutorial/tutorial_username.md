@@ -4,17 +4,21 @@
 
 다음의 예제는 현재 컴퓨터 사용자의 이름을 얻는 방법을 보여줍니다:
 
-#### \[JavaScript\]
+## 
 
+### \[JavaScript\]
+
+```
 WshNetwork = new ActiveXObject( "WScript.Network" );
-
 alert( "User Name = " + WshNetwork.UserName );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set WshNetwork = CreateObject( "WScript.Network" )
-
 alert "User Name = " & WshNetwork.UserName
+```
 
 ## 참조:
 

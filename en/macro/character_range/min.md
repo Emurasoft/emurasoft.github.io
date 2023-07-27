@@ -2,19 +2,21 @@
 
 Specifies the minimum character of the object.
 
-#### \[JavaScript\]
+## 
 
-_c_ =
-item. **Min**;
+### \[JavaScript\]
 
-item. **Min** = _c_;
+```
+c = item.Min;
+item.Min = c;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_c_ =
-item. **Min**
-
-item. **Min** = _c_
+```
+c = item.Min
+item.Min = c
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 Tests the regular expression is successfully matched against the specified string.
 
-#### \[JavaScript\]
+## 
 
-_b_  = reg. **Test**( _strText_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b  = reg.Test( strText );
+```
 
-_b_  = reg. **Test**( _strText_ )
+### \[VBScript\]
+
+```
+b  = reg.Test( strText )
+```
 
 ## Parameters
 
@@ -22,33 +28,27 @@ Returns True if the regular expression is successfully matched against the speci
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 re = editor.regex;
-
 re.Engine = eeExFindRegexOnigmo;
-
-re.Pattern = "^\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\\.\[A-Z\]{2,}$";
-
+re.Pattern = "^[A-Z0-9.\%+-]+@[A-Z0-9.-]+\\\.[A-Z]{2,}$";
 re.IgnoreCase = true;
-
 b = re.Test( "john@test.com" );
-
 if( b ) alert( "the regular expression matched" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set re = editor.regex
-
 re.Engine = eeExFindRegexOnigmo
-
-re.Pattern = "^\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\.\[A-Z\]{2,}$"
-
+re.Pattern = "^[A-Z0-9.\%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}$"
 re.IgnoreCase = True
-
 b = re.Test( "john@test.com" )
-
 If b Then alert( "the regular expression matched" )
+```
 
 ## Version
 

@@ -1,14 +1,14 @@
 # \[次のグループに移動\] コマンド
 
-### 概要
+## 概要
 
-> 現在の文書を次のグループに移動して結合します。
+現在の文書を次のグループに移動して結合します。
 
-### 説明
+## 説明
 
-> 現在の文書を次のグループに移動して結合します。
+現在の文書を次のグループに移動して結合します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[グループ\] \- \[次のグループに移動\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_MOVE\_NEXT\_GROUP (4397)
+```
+EEID_MOVE_NEXT_GROUP (4397)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4397);
+```
+editor.ExecuteCommandByID(4397);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4397
+```
+editor.ExecuteCommandByID 4397
+```

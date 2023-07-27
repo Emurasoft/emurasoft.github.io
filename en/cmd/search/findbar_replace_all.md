@@ -1,32 +1,37 @@
 # Replace All (Find toolbar) command
 
-### Summary
+## Summary
 
-> Replaces all the matched strings using the Find toolbar.
+Replaces all the matched strings using the Find toolbar.
 
-### Description
+## Description
 
-> Replaces all the matched strings using the Find toolbar.
+Replaces all the matched strings using the Find toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Toolbar** \> **Replace All**
+- [All Commands](../tools/all_commands):Search
+\>Find Toolbar \>Replace All
 - Toolbar: ![](../../images/find_replace_all.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FINDBAR\_REPLACE\_ALL (4582)
+```
+EEID_FINDBAR_REPLACE_ALL (4582)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4582);
+```
+editor.ExecuteCommandByID(4582);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4582
+```
+editor.ExecuteCommandByID 4582
+```

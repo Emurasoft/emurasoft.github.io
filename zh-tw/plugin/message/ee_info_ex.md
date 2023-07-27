@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> 指針指向 [**INFO\_EX\_DATA** 結構](../structure/info_ex_data)。
+指針指向 [INFO\_EX\_DATA 結構](../structure/info_ex_data)。
 
 ## 返回值
 
-> 取決於指定的參數。
+取決於指定的參數。
 
 ## 支持版本
 
-> 支持 EmEditor Professional v21.8 或之後的版本。
+支持 EmEditor Professional v21.8 或之後的版本。

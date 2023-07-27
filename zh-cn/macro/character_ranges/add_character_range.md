@@ -2,13 +2,19 @@
 
 添加字符范围。
 
-#### \[JavaScript\]
+## 
 
-list. **AddCharacterRange**( _nMin_, _nMax_, _sProperties_, _sTreatAs_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.AddCharacterRange( nMin, nMax, sProperties, sTreatAs );
+```
 
-list. **AddCharacterRange** _nMin_, _nMax_, _sProperties_, _sTreatAs_
+### \[VBScript\]
+
+```
+list.AddCharacterRange nMin, nMax, sProperties, sTreatAs
+```
 
 ## 参数
 

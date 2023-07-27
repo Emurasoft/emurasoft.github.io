@@ -2,13 +2,19 @@
 
 子ウィンドウを表現する [Windows コレクション](../windows/index) を返します。
 
-#### \[JavaScript\]
+## 
 
-_wnds_ = wnd. **Children**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnds = wnd.Children;
+```
 
-_wnds_ = wnd. **Children**
+### \[VBScript\]
+
+```
+wnds = wnd.Children
+```
 
 ## バージョン
 

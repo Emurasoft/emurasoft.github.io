@@ -1,15 +1,15 @@
 # \[時刻と日付\] コマンド
 
-### 概要
+## 概要
 
-> 現在の時刻と日付を挿入します。
+現在の時刻と日付を挿入します。
 
-### 説明
+## 説明
 
-> カーソル位置に現在の時刻と日付を挿入します。時刻、空白、日付の順に挿入します。時刻と日付のフォーマットは、コントロール パネルの
-> \[地域と言語のオプション\] の \[地域オプション\] タブの \[時刻\] と \[短い形式\] で設定できます。
+カーソル位置に現在の時刻と日付を挿入します。時刻、空白、日付の順に挿入します。時刻と日付のフォーマットは、コントロール パネルの
+\[地域と言語のオプション\] の \[地域オプション\] タブの \[時刻\] と \[短い形式\] で設定できます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[挿入\] \- \[時刻と日付\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[時刻と日付\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_INSERT\_DATE (4137)
+```
+EEID_INSERT_DATE (4137)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.InsertDate(eeDateTimeDate);
+```
+document.selection.InsertDate(eeDateTimeDate);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.InsertDate eeDateTimeDate
+```
+document.selection.InsertDate eeDateTimeDate
+```

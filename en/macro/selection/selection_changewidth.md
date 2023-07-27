@@ -2,13 +2,19 @@
 
 Changes the width of the selected text.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ChangeWidth**( _nFlags_ \[, _szChars_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ChangeWidth( nFlags [, szChars ] );
+```
 
-document.selection. **ChangeWidth** _nFlags_ \[, _szChars_ \]
+### \[VBScript\]
+
+```
+document.selection.ChangeWidth nFlags [, szChars ]
+```
 
 ## Parameters
 

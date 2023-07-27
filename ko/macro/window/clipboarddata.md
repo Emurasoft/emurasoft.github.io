@@ -1,14 +1,20 @@
 # clipboardData 속성 (Window ��ü)
 
-[**clipboardData** 개체](../clipboarddata/index) 를 반환합니다.
+[clipboardData 개체](../clipboarddata/index) 를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_clip_ = **clipboardData**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+clip =clipboardData;
+```
 
-Set _clip_ = **clipboardData**
+### \[VBScript\]
+
+```
+Set clip =clipboardData
+```
 
 ## 버전
 

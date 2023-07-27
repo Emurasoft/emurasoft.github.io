@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> 指定指针指向 [SPLIT\_COLUMN\_INFO](../structure/split_column_info) 结构。
+指定指针指向 [SPLIT\_COLUMN\_INFO](../structure/split_column_info) 结构。
 
 ## 返回值
 
-> 如果失败，返回值为负。
+如果失败，返回值为负。
 
 ## 版本
 
-> 支持 EmEditor Professional 19.9 或之后的版本。
+支持 EmEditor Professional 19.9 或之后的版本。

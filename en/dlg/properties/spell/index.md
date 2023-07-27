@@ -1,59 +1,59 @@
 # Spelling page
 
-The **Spelling** page allows you to set properties related to spelling.
+TheSpelling page allows you to set properties related to spelling.
 
-### Check Spelling check box
+## Check Spelling check box
 
 If this is checked, EmEditor checks spelling in documents.
 
-### Support Camel Case check box
+## Support Camel Case check box
 
 If this is checked, EmEditor supports camel case while checking spelling in documents.
 
-### All check box
+## All check box
 
 Click this check box to toggle all check boxes below.
 
-### Quoted Lines check box
+## Quoted Lines check box
 
 If this is checked, EmEditor checks spelling in quoted lines.
 
-### String Enclosed by Single Quotation Marks check box
+## String Enclosed by Single Quotation Marks check box
 
 If this is checked, EmEditor checks spelling in strings enclosed by single quotation marks.
 
-### String Enclosed by Double Quotation Marks check box
+## String Enclosed by Double Quotation Marks check box
 
 If this is checked, EmEditor checks spelling in strings enclosed by double quotation marks.
 
-### Comments check box
+## Comments check box
 
 If this is checked, EmEditor checks spelling in comments.
 
-### Script check box
+## Script check box
 
 If this is checked, EmEditor checks spelling in script.
 
-### Tags check box
+## Tags check box
 
 If this is checked, EmEditor checks spelling in tags.
 
-### Highlighted Text check box
+## Highlighted Text check box
 
 If this is checked, EmEditor checks spelling in highlighted text.
 
-### Hyperlinks check box
+## Hyperlinks check box
 
 If this is checked, EmEditor checks spelling in hyperlinks.
 
-### Unspecified Text check box
+## Unspecified Text check box
 
 If this is checked, EmEditor checks spelling in unspecified text that is not
 covered by previous controls.
 
-### Reset button
+## Reset button
 
 Resets to default settings. The
-[**Reset** dialog box](../reset/index) will be displayed
+[Reset dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

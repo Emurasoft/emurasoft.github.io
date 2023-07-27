@@ -1,33 +1,38 @@
 # Move Next command
 
-### Summary
+## Summary
 
-> Moves the current document to the next tab position.
+Moves the current document to the next tab position.
 
-### Description
+## Description
 
-> Moves the current document to the next tab position. You can use this command to change the document order as it appears in the tab bar. Alternatively, you can drag a tab to the desired
-> position on the tab bar.
+Moves the current document to the next tab position. You can use this command to change the document order as it appears in the tab bar. Alternatively, you can drag a tab to the desired
+position on the tab bar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Document Navigation** \> **Move Next**
+- [All Commands](../tools/all_commands):Window
+\>Document Navigation \>Move Next
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MOVE\_NEXT (4382)
+```
+EEID_MOVE_NEXT (4382)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4382);
+```
+editor.ExecuteCommandByID(4382);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4382
+```
+editor.ExecuteCommandByID 4382
+```

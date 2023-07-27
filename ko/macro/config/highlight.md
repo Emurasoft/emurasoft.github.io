@@ -2,13 +2,19 @@
 
 [HighlightProp 개체](../highlight_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Highlight**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Highlight;
+```
 
-_obj_ = object. **Highlight**
+### \[VBScript\]
+
+```
+obj = object.Highlight
+```
 
 ## 버전
 

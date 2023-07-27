@@ -1,14 +1,20 @@
 # Interface 屬性 (Window ��H)
 
-返回 [**Interface** 對象](../interface/index)。
+返回 [Interface 對象](../interface/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = **Interface**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj =Interface;
+```
 
-Set _obj_ = **Interface**
+### \[VBScript\]
+
+```
+Set obj =Interface
+```
 
 ## 版本
 

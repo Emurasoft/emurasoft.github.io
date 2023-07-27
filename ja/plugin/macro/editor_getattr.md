@@ -8,12 +8,12 @@ Editor\_GetAttr( HWND hwnd, ATTR\_INFO\* pAI );
 
 _pAI_
 
-> [ATTR\_INFO](../structure/attr_info) 構造体へポインタします。
+[ATTR\_INFO](../structure/attr_info) 構造体へポインタします。
 
 ## 戻り値
 
-> 成功すると TRUEを、失敗すると FALSEを返します。
+成功すると TRUEを、失敗すると FALSEを返します。
 
 ## バージョン
 
-> Version 9.00 以上で利用できます。
+Version 9.00 以上で利用できます。

@@ -2,17 +2,21 @@
 
 [Filters コレクション](../filters/index) を取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_fs_ = document. **filters**;
+### \[JavaScript\]
 
-document. **filters** = _fs_;
+```
+fs = document.filters;
+document.filters = fs;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Set _fs_ = document. **filters**
-
-document. **filters** = _fs_
+```
+Set fs = document.filters
+document.filters = fs
+```
 
 ## バージョン
 

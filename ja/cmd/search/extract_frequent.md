@@ -1,14 +1,14 @@
 # \[頻出文字列を抽出\] コマンド
 
-### 概要
+## 概要
 
-> 頻出文字列を抽出して新規文書を作成します。
+頻出文字列を抽出して新規文書を作成します。
 
-### 説明
+## 説明
 
-> 頻出文字列を抽出して新規文書を作成します。このコマンドを実行すると、 [\[頻出文字列を抽出\] ダイアログ ボックス](../../dlg/extract_frequent/index) を表示します。
+頻出文字列を抽出して新規文書を作成します。このコマンドを実行すると、 [\[頻出文字列を抽出\] ダイアログ ボックス](../../dlg/extract_frequent/index) を表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[検索\] \- \[頻出文字列を抽出\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[頻出文字列を抽出\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_EXTRACT\_FREQUENT (4041)
+```
+EEID_EXTRACT_FREQUENT (4041)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4041);
+```
+editor.ExecuteCommandByID(4041);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4041
+```
+editor.ExecuteCommandByID 4041
+```

@@ -2,15 +2,19 @@
 
 為搜索顏色清單檢索 [DisplayList 集合](../display_list/index)。
 
-#### \[JavaScript\]
+## 
 
-_list_ =
-object. **SearchList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.SearchList;
+```
 
-_list_ =
-object. **SearchList**
+### \[VBScript\]
+
+```
+list = object.SearchList
+```
 
 ## 版本
 

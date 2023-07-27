@@ -2,17 +2,21 @@
 
 在 EmEditor 中允許或禁止重繪變更。
 
-#### \[JavaScript\]
+## 
 
-_b_ = **Redraw**;
+### \[JavaScript\]
 
-**Redraw** = _b_;
+```
+b =Redraw;
+Redraw = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = **Redraw**
-
-**Redraw** = _b_;
+```
+b =Redraw
+Redraw = b;
+```
 
 ## 版本
 

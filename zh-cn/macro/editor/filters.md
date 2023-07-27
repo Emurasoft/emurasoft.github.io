@@ -2,13 +2,19 @@
 
 检索 [Filters 集合](../filters/index)。
 
-#### \[JavaScript\]
+## 
 
-_f_ = editor. **filters**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+f = editor.filters;
+```
 
-Set _f_ = editor. **filters**
+### \[VBScript\]
+
+```
+Set f = editor.filters
+```
 
 ## 版本
 

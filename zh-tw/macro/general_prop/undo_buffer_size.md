@@ -1,20 +1,22 @@
 # UndoBufferSize 屬性 (GeneralProp ��H)
 
-與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **最大復原次數** 文字方塊相對應。
+與組態屬性中 [一般 頁面](../../dlg/properties/general/index) 上的最大復原次數 文字方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **UndoBufferSize**;
+### \[JavaScript\]
 
-object. **UndoBufferSize** = _b_;
+```
+b = object.UndoBufferSize;
+object.UndoBufferSize = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **UndoBufferSize**
-
-object. **UndoBufferSize** = _b_
+```
+b = object.UndoBufferSize
+object.UndoBufferSize = b
+```
 
 ## 版本
 

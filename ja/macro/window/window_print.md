@@ -2,13 +2,19 @@
 
 印刷ダイアログを表示します。
 
-#### \[JavaScript\]
+## 
 
-**print**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+print();
+```
 
-**print**
+### \[VBScript\]
+
+```
+print
+```
 
 ## バージョン
 

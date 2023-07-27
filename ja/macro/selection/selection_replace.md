@@ -2,13 +2,19 @@
 
 指定した文字列を指定した文字列に置き換えます。
 
-#### \[JavaScript\]
+## 
 
-nFound = document.selection. **Replace**( _strFind_, _strReplace_, _nFlags_\[, _nExFlags_\] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = document.selection.Replace( strFind, strReplace, nFlags[, nExFlags] );
+```
 
-nFound = document.selection. **Replace**( _strFind_, _strReplace_, _nFlags_\[, _nExFlags_\] )
+### \[VBScript\]
+
+```
+nFound = document.selection.Replace( strFind, strReplace, nFlags[, nExFlags] )
+```
 
 ## 引数
 

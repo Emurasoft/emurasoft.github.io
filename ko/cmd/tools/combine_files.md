@@ -1,32 +1,37 @@
 # 여러 문서를 한 파일로 결합 명령
 
-### 요약
+## 요약
 
-> 여러 문서를 한 파일로 결합합니다.
+여러 문서를 한 파일로 결합합니다.
 
-### 설명
+## 설명
 
-> 여러 문서를 한 파일로 결합하도록 하는
-> **[여러 문서를 한 파일로 결합 마법사](../../dlg/combine_files/index)** 를 엽니다.
+여러 문서를 한 파일로 결합하도록 하는
+[여러 문서를 한 파일로 결합 마법사](../../dlg/combine_files/index) 를 엽니다.
 
-### 실행하는 방법
+## 실행하는 방법
 
-- 기본 메뉴: **도구** \> **분할/결합** \> **여러 문서를 한 파일로 결합**
-- [모든 명령](all_commands): **도구** > **분할/결합** \> **여러 문서를 한 파일로 결합**
+- 기본 메뉴:도구 \>분할/결합 \>여러 문서를 한 파일로 결합
+- [모든 명령](all_commands):도구 >분할/결합 \>여러 문서를 한 파일로 결합
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
-### 플러그인 명령 ID
+## 플러그인 명령 ID
 
-- EEID\_COMBINE\_FILES (4607)
+```
+EEID_COMBINE_FILES (4607)```
 
-### 매크로
+## 매크로
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4607);
+```
+editor.ExecuteCommandByID(4607);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4607
+```
+editor.ExecuteCommandByID 4607
+```

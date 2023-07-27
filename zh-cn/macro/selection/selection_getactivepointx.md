@@ -2,13 +2,19 @@
 
 返回光标位置处的列号。
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetActivePointX**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetActivePointX( nFlags [, iSel ] );
+```
 
-xPos = document.selection. **GetActivePointX**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetActivePointX( nFlags [, iSel ] )
+```
 
 ## 参数
 

@@ -1,20 +1,22 @@
 # Hyperlink プロパティ ()
 
-設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の **\[ハイパーリンク\]** チェック ボックスに相当します。
+設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の\[ハイパーリンク\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Hyperlink**;
+### \[JavaScript\]
 
-object. **Hyperlink** = _b_;
+```
+b = object.Hyperlink;
+object.Hyperlink = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Hyperlink**
-
-object. **Hyperlink** = _b_
+```
+b = object.Hyperlink
+object.Hyperlink = b
+```
 
 ## バージョン
 

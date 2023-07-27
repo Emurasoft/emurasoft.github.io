@@ -1,32 +1,37 @@
 # Others (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Others command on the Filter toolbar.
+Toggles the Others command on the Filter toolbar.
 
-### Description
+## Description
 
-> Toggles the Others command on the Filter toolbar.
+Toggles the Others command on the Filter toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Match Newline Characters** \> **Others**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Match Newline Characters \>Others
 - Toolbar: ![](../../images/match_newline_characters.png) \+ Others (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_NL\_OTHERS (4010)
+```
+EEID_FILTERBAR_NL_OTHERS (4010)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4010);
+```
+editor.ExecuteCommandByID(4010);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4010
+```
+editor.ExecuteCommandByID 4010
+```

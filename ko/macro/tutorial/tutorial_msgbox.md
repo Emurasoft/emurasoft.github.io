@@ -8,16 +8,20 @@
 다음의 예제 코드는 Continue? 텍스트를 표시한 후 YES, NO, 및 CANCEL 버튼을 표시합니다.
 변수 n은 YES 버튼이 선택되면 6으로, NO 버튼이 선택된 경우 7로, CANCEL 버튼이 선택된 경우 2로 할당됩니다.
 
-#### \[JavaScript\]
+## 
 
+### \[JavaScript\]
+
+```
 WshShell = new ActiveXObject( "WScript.Shell" );
-
 n = WshShell.Popup( "Continue?", 0, "EmEditor", 3 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set WshShell = CreateObject( "WScript.Shell" )
-
 n = WshShell.Popup( "Continue?", 0, "EmEditor", 3 )
+```
 
 ## 참조:

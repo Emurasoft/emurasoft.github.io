@@ -1,31 +1,36 @@
 # Ignore Embedded Spaces command
 
-### Summary
+## Summary
 
-> Ignores embedded spaces in each line when comparing documents.
+Ignores embedded spaces in each line when comparing documents.
 
-### Description
+## Description
 
-> Ignores embedded spaces in each line when comparing documents.
+Ignores embedded spaces in each line when comparing documents.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Ignore Embedded Spaces**
-- [All Commands](../tools/all_commands): **Compare** \> **Ignore Embedded Spaces**
+- Default Menu:Compare \>Ignore Embedded Spaces
+- [All Commands](../tools/all_commands):Compare \>Ignore Embedded Spaces
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_IGNORE\_EMBEDDED\_SPACE (4500)
+```
+EEID_IGNORE_EMBEDDED_SPACE (4500)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4500);
+```
+editor.ExecuteCommandByID(4500);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4500
+```
+editor.ExecuteCommandByID 4500
+```

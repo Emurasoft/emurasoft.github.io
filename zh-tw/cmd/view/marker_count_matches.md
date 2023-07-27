@@ -1,32 +1,37 @@
 # 計算標記相符項目命令
 
-### 摘要
+## 摘要
 
-> 計算目前的文檔中所有與標記相符的項目數。
+計算目前的文檔中所有與標記相符的項目數。
 
-### 說明
+## 說明
 
-> 計算目前的文檔中所有與標記相符的項目數。
+計算目前的文檔中所有與標記相符的項目數。
 
-### 運行方法
+## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands): **檢視** \> **標記**
-\> **計算相符項目**
+- [全部命令](../tools/all_commands):檢視 \>標記
+\>計算相符項目
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_MARKER\_COUNT\_MATCHES (4042)
+```
+EEID_MARKER_COUNT_MATCHES (4042)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4042);
+```
+editor.ExecuteCommandByID(4042);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4042
+```
+editor.ExecuteCommandByID 4042
+```

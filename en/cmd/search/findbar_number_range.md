@@ -1,32 +1,37 @@
 # Use Number Range (Find toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Use Number Range button on the Find toolbar.
+Toggles the Use Number Range button on the Find toolbar.
 
-### Description
+## Description
 
-> Toggles the Use Number Range button on the Find toolbar.
+Toggles the Use Number Range button on the Find toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Toolbar** \> **Use Number Range**
+- [All Commands](../tools/all_commands):Search
+\>Find Toolbar \>Use Number Range
 - Toolbar: ![](../../images/use_number_range.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FINDBAR\_NUMBER\_RANGE (4014)
+```
+EEID_FINDBAR_NUMBER_RANGE (4014)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4014);
+```
+editor.ExecuteCommandByID(4014);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4014
+```
+editor.ExecuteCommandByID 4014
+```

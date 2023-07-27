@@ -1,32 +1,37 @@
 # Incremental Search (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Incremental Search button on the Filter toolbar.
+Toggles the Incremental Search button on the Filter toolbar.
 
-### Description
+## Description
 
-> Toggles the Incremental Search button on the Filter toolbar.
+Toggles the Incremental Search button on the Filter toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Incremental Search**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Incremental Search
 - Toolbar: ![](../../images/find_incremental.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_INCREMENTAL (3906)
+```
+EEID_FILTERBAR_INCREMENTAL (3906)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3906);
+```
+editor.ExecuteCommandByID(3906);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3906
+```
+editor.ExecuteCommandByID 3906
+```

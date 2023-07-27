@@ -1,20 +1,22 @@
 # HighlightMatchingBrackets プロパティ (HighlightProp �I�u�W�F�N�g)
 
-設定のプロパティの **[\[強調(2)\]](../../dlg/properties/highlight2/index)** [タブ](../../dlg/properties/highlight2/index) の **\[対応するかっこを強調する\]** チェック ボックスに相当します。
+設定のプロパティの[\[強調(2)\]](../../dlg/properties/highlight2/index) [タブ](../../dlg/properties/highlight2/index) の\[対応するかっこを強調する\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HighlightMatchingBrackets**;
+### \[JavaScript\]
 
-object. **HighlightMatchingBrackets** = _b_;
+```
+b = object.HighlightMatchingBrackets;
+object.HighlightMatchingBrackets = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HighlightMatchingBrackets**
-
-object. **HighlightMatchingBrackets** = _b_
+```
+b = object.HighlightMatchingBrackets
+object.HighlightMatchingBrackets = b
+```
 
 ## バージョン
 

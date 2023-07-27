@@ -2,13 +2,19 @@
 
 按 EmEidtor 的設定，從注冊表或一個 INI 檔案上檢索指定項目的整數值。
 
-#### \[JavaScript\]
+## 
 
-_n_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _nDefault_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = editor.GetProfileInt( nKey, strConfig, strEntry, nDefault );
+```
 
-_n_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _nDefault_ )
+### \[VBScript\]
+
+```
+n = editor.GetProfileInt( nKey, strConfig, strEntry, nDefault )
+```
 
 ## 參數
 

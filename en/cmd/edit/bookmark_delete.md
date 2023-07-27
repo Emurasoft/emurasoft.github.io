@@ -1,31 +1,36 @@
 # Delete Bookmarked Lines in this Document command
 
-### Summary
+## Summary
 
-> Deletes all bookmarked lines in the current document.
+Deletes all bookmarked lines in the current document.
 
-### Description
+## Description
 
-> Deletes all bookmarked lines in the current document.
+Deletes all bookmarked lines in the current document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **Delete Bookmarked Lines**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **Delete Bookmarked Lines**
+- Default Menu:Bookmarks \>Delete Bookmarked Lines
+- [All Commands](../tools/all_commands):Bookmarks \>Delete Bookmarked Lines
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_DELETE (4589)
+```
+EEID_BOOKMARK_DELETE (4589)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4589);
+```
+editor.ExecuteCommandByID(4589);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4589
+```
+editor.ExecuteCommandByID 4589
+```

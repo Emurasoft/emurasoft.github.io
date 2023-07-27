@@ -2,13 +2,19 @@
 
 커서에 클립보드 내용을 삽입합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Paste**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Paste( nFlags );
+```
 
-document.selection. **Paste** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Paste nFlags
+```
 
 ## 매개 변수
 

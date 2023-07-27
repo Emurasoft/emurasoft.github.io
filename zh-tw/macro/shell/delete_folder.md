@@ -2,13 +2,19 @@
 
 刪除一個或多個指定的資料夾及其內容。指定的資料夾即使不為空也會被刪除。
 
-#### \[JavaScript\]
+## 
 
-shell. **DeleteFolder**( _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.DeleteFolder( strFolder );
+```
 
-shell. **DeleteFolder** _strFolder_
+### \[VBScript\]
+
+```
+shell.DeleteFolder strFolder
+```
 
 ## 參數
 
@@ -18,13 +24,17 @@ _strFolder_
 
 ## 範例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.DeleteFolder( "C:\\\Test\\\folder" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.DeleteFolder "C:\\Test\\folder"
+```
 
 ## 版本
 

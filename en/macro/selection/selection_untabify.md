@@ -2,13 +2,19 @@
 
 Converts tabs to spaces in the selection.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Untabify**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Untabify();
+```
 
-document.selection. **Untabify**
+### \[VBScript\]
+
+```
+document.selection.Untabify
+```
 
 ## Version
 

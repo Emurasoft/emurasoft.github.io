@@ -1,31 +1,36 @@
 # Select Bookmarked Lines in This Document command
 
-### Summary
+## Summary
 
-> Selects all bookmarked lines in the current document.
+Selects all bookmarked lines in the current document.
 
-### Description
+## Description
 
-> Selects all bookmarked lines in the current document.
+Selects all bookmarked lines in the current document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **Select Bookmarked Lines**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **Select Bookmarked Lines**
+- Default Menu:Bookmarks \>Select Bookmarked Lines
+- [All Commands](../tools/all_commands):Bookmarks \>Select Bookmarked Lines
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_SELECT (3851)
+```
+EEID_BOOKMARK_SELECT (3851)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3851);
+```
+editor.ExecuteCommandByID(3851);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3851
+```
+editor.ExecuteCommandByID 3851
+```

@@ -1,14 +1,20 @@
 # Configs Property (Editor Object)
 
-Retrieves the [**Configs** Collection](../configs/index).
+Retrieves the [Configs Collection](../configs/index).
 
-#### \[JavaScript\]
+## 
 
-_cfgs_ = editor. **Configs**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+cfgs = editor.Configs;
+```
 
-Set _cfgs_ = editor. **Configs**
+### \[VBScript\]
+
+```
+Set cfgs = editor.Configs
+```
 
 ## Version
 

@@ -1,20 +1,22 @@
 # InsideTag 属性 (HighlightItem ����)
 
-与配置属性中 [**高亮 (1)** 页面](../../dlg/properties/highlight1/index) 上的 **仅在标记内** 复选框相对应。
+与配置属性中 [高亮 (1) 页面](../../dlg/properties/highlight1/index) 上的仅在标记内 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **InsideTag**;
+### \[JavaScript\]
 
-item. **InsideTag** = _b_;
+```
+b = item.InsideTag;
+item.InsideTag = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **InsideTag**
-
-item. **InsideTag** = _b_
+```
+b = item.InsideTag
+item.InsideTag = b
+```
 
 ## 版本
 

@@ -2,13 +2,19 @@
 
 선택 영역의 공백을 탭으로 변환합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Tabify**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Tabify();
+```
 
-document.selection. **Tabify**
+### \[VBScript\]
+
+```
+document.selection.Tabify
+```
 
 ## 버전
 

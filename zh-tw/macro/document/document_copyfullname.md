@@ -2,13 +2,19 @@
 
 複製文檔的完整路徑以及檔案名稱到剪貼簿上。
 
-#### \[JavaScript\]
+## 
 
-document. **CopyFullName**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.CopyFullName();
+```
 
-document. **CopyFullName**
+### \[VBScript\]
+
+```
+document.CopyFullName
+```
 
 ## 版本
 

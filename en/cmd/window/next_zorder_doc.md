@@ -1,32 +1,37 @@
 # Last Accessed Document command
 
-### Summary
+## Summary
 
-> Switches to the last accessed document.
+Switches to the last accessed document.
 
-### Description
+## Description
 
-> Switches to the last accessed document.
+Switches to the last accessed document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Last Accessed Document**
+- [All Commands](../tools/all_commands):Window
+\>Last Accessed Document
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_NEXT\_ZORDER\_DOC (4544)
+```
+EEID_NEXT_ZORDER_DOC (4544)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4544);
+```
+editor.ExecuteCommandByID(4544);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4544
+```
+editor.ExecuteCommandByID 4544
+```

@@ -1,14 +1,14 @@
 # \[ピボット テーブル\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書でピボット テーブルを作成します。
+CSV文書でピボット テーブルを作成します。
 
-### 説明
+## 説明
 
-> このコマンドを実行すると、 [\[ピボット テーブル\] ダイアログ ボックス](../../dlg/pivot_table/index) が表示され、CSV文書でピボット テーブルを作成します。
+このコマンドを実行すると、 [\[ピボット テーブル\] ダイアログ ボックス](../../dlg/pivot_table/index) が表示され、CSV文書でピボット テーブルを作成します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[高度\] - \[ピボット テーブル\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[高度\] - \[ピボット テーブル\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_PIVOT\_TABLE (4081)
+```
+EEID_PIVOT_TABLE (4081)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4081);
+```
+editor.ExecuteCommandByID(4081);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4081
+```
+editor.ExecuteCommandByID 4081
+```

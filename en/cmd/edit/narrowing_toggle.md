@@ -1,32 +1,37 @@
 # Toggle Narrowing command
 
-### Summary
+## Summary
 
-> Sets or resets only the selection as editable area and makes the rest inaccessible.
+Sets or resets only the selection as editable area and makes the rest inaccessible.
 
-### Description
+## Description
 
-> Sets or resets only the selection (whole logical lines including the
-> selection) as editable area and make the rest inaccessible.
+Sets or resets only the selection (whole logical lines including the
+selection) as editable area and make the rest inaccessible.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Narrowing**
-- [All Commands](../tools/all_commands): **Edit** \> **Narrowing** \> **Toggle Narrowing**
+- Default Menu:Edit \>Narrowing
+- [All Commands](../tools/all_commands):Edit \>Narrowing \>Toggle Narrowing
 - Toolbar: ![](../../images/narrowing.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_NARROWING\_TOGGLE (4456)
+```
+EEID_NARROWING_TOGGLE (4456)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4456);
+```
+editor.ExecuteCommandByID(4456);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4456
+```
+editor.ExecuteCommandByID 4456
+```

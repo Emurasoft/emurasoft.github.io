@@ -11,16 +11,16 @@ Editor\_SerialToLogical( HWND hwnd, UINT nSerial, POINT\_PTR\* pptLogical );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _nSerial_
 
-> 指定一個要被轉換的序列位置。
+指定一個要被轉換的序列位置。
 
 _pptLogical_
 
-> 指標至一個將接收轉換后的邏輯坐標的 [POINT\_PTR 結構](../structure/point_ptr)。
+指標至一個將接收轉換后的邏輯坐標的 [POINT\_PTR 結構](../structure/point_ptr)。
 
 ## 返回值
 
-> 返回序列位置。
+返回序列位置。

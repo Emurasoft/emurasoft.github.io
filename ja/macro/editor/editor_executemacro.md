@@ -2,13 +2,19 @@
 
 指定するマクロを実行します。
 
-#### \[JavaScript\]
+## 
 
-editor. **ExecuteMacro**( _strMacroFileName_ \[, _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.ExecuteMacro( strMacroFileName [, nFlags ] );
+```
 
-editor. **ExecuteMacro** _strMacroFileName_ \[, _nFlags_ \]
+### \[VBScript\]
+
+```
+editor.ExecuteMacro strMacroFileName [, nFlags ]
+```
 
 ## パラメータ
 
@@ -35,17 +41,19 @@ _nFlags_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 editor.ExecuteMacro( "E:\\\Macros\\\Macro.jsee", eeRunFile \| eeMacroLangJScript );
-
 editor.ExecuteMacro( "alert('Hello')", eeRunText \| eeMacroLangJScript );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 editor.ExecuteMacro "E:\\Macros\\Macro.jsee", eeRunFile Or eeMacroLangJScript
-
 editor.ExecuteMacro "alert('Hello')", eeRunText Or eeMacroLangJScript
+```
 
 ## バージョン
 

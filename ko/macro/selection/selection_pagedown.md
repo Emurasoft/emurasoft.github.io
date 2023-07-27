@@ -2,13 +2,19 @@
 
 문서 내에서 지정한 페이지 수만큼 아래로 커서를 이동합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **PageDown**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.PageDown( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **PageDown** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.PageDown [ bExtend [, nCount ] ]
+```
 
 ## 매개 변수
 
@@ -20,7 +26,7 @@ _nCount_
 
 선택 사항입니다.
 아래로 이동할 페이지의 수를 지정합니다. 기본 값은 1 입니다.
-음수인 경우, 이 메서드는 [**PageUp** \
+음수인 경우, 이 메서드는 [PageUp \
 메서드](selection_pageup) 과 동일하게 작용합니다. 0인 경우, 메서드는 1과 동일하게 작용합니다.
 
 ## 버전

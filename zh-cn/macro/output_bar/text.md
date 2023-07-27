@@ -2,13 +2,19 @@
 
 在输出栏中检索整个文本。
 
-#### \[JavaScript\]
+## 
 
-_str_ = OutputBar. **Text**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = OutputBar.Text;
+```
 
-_str_ = OutputBar. **Text**
+### \[VBScript\]
+
+```
+str = OutputBar.Text
+```
 
 ## 版本
 

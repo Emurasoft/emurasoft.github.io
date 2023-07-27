@@ -1,12 +1,14 @@
 # External Tool Properties dialog box
 
 This dialog box appears when the
-**Properties** button on the **External Tools** dialog box is selected.
+Properties button on theExternal Tools dialog box is selected.
+
+## 
 
 ### Title text box
 
-The name of the tool or command that will appear on the **External Tools**
-submenu of the **Tools** menu.
+The name of the tool or command that will appear on theExternal Tools
+submenu of theTools menu.
 
 ### Command text box
 
@@ -16,14 +18,14 @@ intend to launch.
 ### Arguments text box
 
 Specifies the arguments that are passed to the tool when the tool is
-launched. Use the **Arrow** ( **>**) button to select from a
+launched. Use theArrow (>) button to select from a
 list of predefined arguments. You can also specify environment variables, such as
 %WinDir%.
 
 ### Initial Directory text box
 
 Specifies the working directory of the tool. Use the
-**Arrow** ( **>**) button to select a directory. You
+Arrow (>) button to select a directory. You
 can also specify environment variables, such as %WinDir%.
 
 ### Icon Path text box
@@ -64,15 +66,15 @@ Select the standard input for the external tool.
 | None | No standard input is used. |
 | Selection | The selected text is used as the standard input. |
 | Document | The entire document is used as the standard input. |
-| Custom | Specifies the standard input in customized format. If this is selected, the **Custom** text box and the **Add EOF** check box must also be specified. |
+| Custom | Specifies the standard input in customized format. If this is selected, theCustom text box and theAdd EOF check box must also be specified. |
 
 ### Custom text box
 
-Specifies the customized standard input. This text box is enabled only if **Custom** is selected in the **Input** drop-down list box.
+Specifies the customized standard input. This text box is enabled only ifCustom is selected in theInput drop-down list box.
 
 ### Add EOF (Ctrl+Z, U+001A or 1AH) check box
 
-If this is checked, the **End of File** character (U+001A or 1AH) will be added to the end of the customized standard input. The EOF character is generally not necessary, but some old applications might need the EOF character.
+If this is checked, theEnd of File character (U+001A or 1AH) will be added to the end of the customized standard input. The EOF character is generally not necessary, but some old applications might need the EOF character.
 
 ### Output drop-down list box
 

@@ -1,29 +1,29 @@
 # Combine Columns dialog box
 
 This dialog box appears when the
-[**Combine Columns** command](../../cmd/edit/combine_columns) is selected.
+[Combine Columns command](../../cmd/edit/combine_columns) is selected.
 
-### Concatenate radio button
+## Concatenate radio button
 
 If this button is checked, EmEditor concatenates the selected columns.
 
-### String to Insert (optional) list box
+## String to Insert (optional) list box
 
 You can specify the string to insert when concatenating the selected columns.
 
-### Remove empty strings check box
+## Remove empty strings check box
 
 If this is checked, EmEditor removes empty strings when combining columns.
 
-### Remove duplicate strings check box
+## Remove duplicate strings check box
 
 If this is checked, EmEditor removes duplicate strings when combining columns.
 
-### Sort strings check box
+## Sort strings check box
 
 If this is checked, EmEditor sorts strings with the specified sort condition.
 
-### How to Sort list box
+## How to Sort list box
 
 Displays the list of defined sort conditions.
 
@@ -48,7 +48,7 @@ Displays the list of defined sort conditions.
 | Sort Randomly | Sorts strings randomly. |
 | Sort Reverse | Sorts strings in reverse order. |
 
-### Use first non-empty value radio button
+## Use first non-empty value radio button
 
 If this button is checked, EmEditor uses the first non-empty value to combine the selected columns.
 

@@ -1,20 +1,22 @@
 # DrawSeparatingLines 속성 (PrintProp ��ü)
 
-구성 속성 [**인쇄** 탭](../../dlg/properties/print/index) 의 **구분 선 그리기** 체크 박스에 해당합니다.
+구성 속성 [인쇄 탭](../../dlg/properties/print/index) 의구분 선 그리기 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DrawSeparatingLines**;
+### \[JavaScript\]
 
-object. **DrawSeparatingLines** = _b_;
+```
+b = object.DrawSeparatingLines;
+object.DrawSeparatingLines = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DrawSeparatingLines**
-
-object. **DrawSeparatingLines** = _b_
+```
+b = object.DrawSeparatingLines
+object.DrawSeparatingLines = b
+```
 
 ## 버전
 

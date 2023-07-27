@@ -13,8 +13,8 @@ lParam = (LPARAM) (HINSTANCE) hInstance
 
 _hInstance_
 
-> 플러그 인 인스턴스 핸들을 지정합니다.
+플러그 인 인스턴스 핸들을 지정합니다.
 
 ## 반환 값
 
-> 이 플러그 인을 실행할 command ID를 반환합니다.
+이 플러그 인을 실행할 command ID를 반환합니다.

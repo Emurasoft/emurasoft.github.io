@@ -2,17 +2,21 @@
 
 设置或检索相似度的百分比值。
 
-#### \[JavaScript\]
+## 
 
-_n_ = obj. **Percent**;
+### \[JavaScript\]
 
-obj. **Percent** = _n_;
+```
+n = obj.Percent;
+obj.Percent = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = obj. **Percent**;
-
-obj. **Percent** = _n_;
+```
+n = obj.Percent;
+obj.Percent = n;
+```
 
 ## 版本
 

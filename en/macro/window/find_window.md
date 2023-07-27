@@ -2,13 +2,19 @@
 
 Finds the child [Window object](../window/index) by a class name and/or by a window title.
 
-#### \[JavaScript\]
+## 
 
-wndChild = wnd. **FindWindow**( _strClass_, _strCaption_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wndChild = wnd.FindWindow( strClass, strCaption );
+```
 
-wndChild = wnd. **FindWindow**( _strClass_, _strCaption_ )
+### \[VBScript\]
+
+```
+wndChild = wnd.FindWindow( strClass, strCaption )
+```
 
 ## Parameters
 
@@ -22,17 +28,19 @@ Specifies the window name (title). If this parameter is empty, all window names 
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnd = FindWindow( "EmEditorView", "" );
-
 alert( wnd.Caption );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd = FindWindow( "EmEditorView", "" )
-
 alert wnd.Caption
+```
 
 ## Version
 

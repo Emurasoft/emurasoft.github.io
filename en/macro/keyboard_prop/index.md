@@ -4,7 +4,7 @@
 
 |     |     |
 | --- | --- |
-| [List](list) | Retrieves the [**KeyboardList** collection](../keyboard_list/index). |
+| [List](list) | Retrieves the [KeyboardList collection](../keyboard_list/index). |
 
 ## Version
 

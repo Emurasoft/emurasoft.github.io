@@ -1,21 +1,23 @@
 # ShowOnlyActive Property (ScrollProp Object)
 
-Corresponds to the **Show Scroll Bars Only in Active Pane** check box in the
-[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to theShow Scroll Bars Only in Active Pane check box in the
+[Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowOnlyActive**;
+### \[JavaScript\]
 
-object. **ShowOnlyActive** = _b_;
+```
+b = object.ShowOnlyActive;
+object.ShowOnlyActive = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowOnlyActive**
-
-object. **ShowOnlyActive** = _b_
+```
+b = object.ShowOnlyActive
+object.ShowOnlyActive = b
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 印刷用フォントの [FontList コレクション](../font_list/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_list_ = object. **PrintList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.PrintList;
+```
 
-_list_ = object. **PrintList**
+### \[VBScript\]
+
+```
+list = object.PrintList
+```
 
 ## バージョン
 

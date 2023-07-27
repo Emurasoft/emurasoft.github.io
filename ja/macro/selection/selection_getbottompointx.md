@@ -2,13 +2,19 @@
 
 選択範囲の最後の現在桁を 1 で始まる整数で返します。
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetBottomPointX**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetBottomPointX( nFlags [, iSel ] );
+```
 
-xPos = document.selection. **GetBottomPointX**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetBottomPointX( nFlags [, iSel ] )
+```
 
 ## 引数
 

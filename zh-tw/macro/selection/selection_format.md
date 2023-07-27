@@ -2,13 +2,19 @@
 
 插入或刪除選定內容中的新行。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Format**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Format( nFlags );
+```
 
-document.selection. **Format** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Format nFlags
+```
 
 ## 參數
 

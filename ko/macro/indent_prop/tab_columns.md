@@ -1,20 +1,22 @@
 # TabColumns 속성 (IndentProp ��ü)
 
-[**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 의 **탭 열** 텍스트 박스에 해당합니다.
+[탭/들여쓰기 대화 상자](../../dlg/properties/general/indent/index) 의탭 열 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **TabColumns**;
+### \[JavaScript\]
 
-object. **TabColumns** = _n_;
+```
+n = object.TabColumns;
+object.TabColumns = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **TabColumns**
-
-object. **TabColumns** = _n_
+```
+n = object.TabColumns
+object.TabColumns = n
+```
 
 ## 버전
 

@@ -2,13 +2,19 @@
 
 CSV モードで指定する列位置に新しい列を挿入します。
 
-#### \[JavaScript\]
+## 
 
-document. **InsertColumn**( _iColumn_, _strInsert_, _strDelimiter_, _flags_, _yTop_, _yLines_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.InsertColumn( iColumn, strInsert, strDelimiter, flags, yTop, yLines );
+```
 
-document. **InsertColumn**( _iColumn_, _strInsert_, _strDelimiter_, _flags_, _yTop_, _yLines_ )
+### \[VBScript\]
+
+```
+document.InsertColumn( iColumn, strInsert, strDelimiter, flags, yTop, yLines )
+```
 
 ## パラメータ
 
@@ -26,13 +32,13 @@ strInsert で指定された文字列を区切る区切り文字列を指定し�
 
 _flags_
 
-> 次のいずれかの値を指定します。
->
-> |     |     |
-> | --- | --- |
-> | eeAutoQuote | 文字列に区切り文字、改行、引用符が含まれていないかを確認し、必要なら自動的にエスケープを行い、引用符を追加します。 |
-> | eeDontQuote | 上の処理を行いません。 |
-> | eeAlwaysQuote | 常に引用符を追加します。 |
+次のいずれかの値を指定します。
+
+|     |     |
+| --- | --- |
+| eeAutoQuote | 文字列に区切り文字、改行、引用符が含まれていないかを確認し、必要なら自動的にエスケープを行い、引用符を追加します。 |
+| eeDontQuote | 上の処理を行いません。 |
+| eeAlwaysQuote | 常に引用符を追加します。 |
 
 _yTop_
 
@@ -46,41 +52,31 @@ _yLines_
 
 次の例は、CSV文書の3列目の左側に空の列を挿入し、各行毎に、1列目と2列目を結合して3列目として設定します。このマクロを実行する前に、CSV文書がアクティブになっている必要があります。区切り文字として、改行文字 \\n, Chr(10) を使用しているため、各セルに改行文字が含まれていないと仮定しています。
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nLines = document.GetLines() - 1;
-
 s3 = "";
-
 for( y = 1; y <= nLines; y++ ) {
-
 s1 = document.GetCell( y, 1, eeCellIncludeNone );
-
 s2 = document.GetCell( y, 2, eeCellIncludeNone );
-
 s3 += s1 + " " + s2 + "\\n";
-
 }
-
 document.InsertColumn( 3, s3, "\\n", eeAutoQuote );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 nLines = document.GetLines() - 1
-
 s3 = ""
-
 For y = 1 To nLines
-
 s1 = document.GetCell( y, 1, eeCellIncludeNone )
-
 s2 = document.GetCell( y, 2, eeCellIncludeNone )
-
 s3 = s3 + s1 + " " + s2 + Chr(10)
-
 Next
-
 document.InsertColumn 3, s3, Chr(10), eeAutoQuote
+```
 
 ## バージョン
 

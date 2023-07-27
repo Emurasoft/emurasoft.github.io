@@ -1,18 +1,22 @@
 # DetectCSV プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の **\[CSV（カンマ区切り）を検出\]** チェック ボックスに相当します。
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[CSV（カンマ区切り）を検出\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectCSV**;
+### \[JavaScript\]
 
-object. **DetectCSV** = _b_;
+```
+b = object.DetectCSV;
+object.DetectCSV = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectCSV**
-
-object. **DetectCSV** = _b_
+```
+b = object.DetectCSV
+object.DetectCSV = b
+```
 
 ## バージョン
 

@@ -2,13 +2,19 @@
 
 [WrapProp 개체](../wrap_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Wrap**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Wrap;
+```
 
-_obj_ = object. **Wrap**
+### \[VBScript\]
+
+```
+obj = object.Wrap
+```
 
 ## 버전
 

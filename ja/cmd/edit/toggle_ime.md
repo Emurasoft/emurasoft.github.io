@@ -1,14 +1,14 @@
 # \[IMEを開く\] コマンド
 
-### 概要
+## 概要
 
-> IME オン/オフを切り替えます。
+IME オン/オフを切り替えます。
 
-### 説明
+## 説明
 
-> IME のオン/オフを切り替えます。
+IME のオン/オフを切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[高度な操作\] \- \[IMEを開く\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+F11
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_TOGGLE\_IME (4198)
+```
+EEID_TOGGLE_IME (4198)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4198);
+```
+editor.ExecuteCommandByID(4198);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4198
+```
+editor.ExecuteCommandByID 4198
+```

@@ -2,13 +2,19 @@
 
 把光标上移指定的行数。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **LineUp**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.LineUp( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **LineUp** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.LineUp [ bExtend [, nCount ] ]
+```
 
 ## 参数
 
@@ -18,7 +24,7 @@ _bExtend_
 
 _nCount_
 
-可选项。指定上移的行数。默认值是 1。如果指定的是负数，该方法与 [**LineDown** \
+可选项。指定上移的行数。默认值是 1。如果指定的是负数，该方法与 [LineDown \
 Method](selection_linedown)。如果指定值为 0，该方法的行为与指定值为 1 时的行为相同。
 
 ## 版本

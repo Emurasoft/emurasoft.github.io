@@ -1,20 +1,22 @@
 # RightAll 属性 (HighlightItem ����)
 
-与配置属性中 [**高亮 (1)** 页面](../../dlg/properties/highlight1/index) 上的 **高亮单词与其右侧区域** 复选框相对应。
+与配置属性中 [高亮 (1) 页面](../../dlg/properties/highlight1/index) 上的高亮单词与其右侧区域 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **RightAll**;
+### \[JavaScript\]
 
-item. **RightAll** = _b_;
+```
+b = item.RightAll;
+item.RightAll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **RightAll**
-
-item. **RightAll** = _b_
+```
+b = item.RightAll
+item.RightAll = b
+```
 
 ## 版本
 

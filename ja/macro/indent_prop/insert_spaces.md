@@ -1,20 +1,22 @@
 # InsertSpaces プロパティ (IndentProp �I�u�W�F�N�g)
 
-[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の **\[タブの代わりに空白を挿入\]** チェック ボックスに相当します。
+[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の\[タブの代わりに空白を挿入\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **InsertSpaces**;
+### \[JavaScript\]
 
-object. **InsertSpaces** = _b_;
+```
+b = object.InsertSpaces;
+object.InsertSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **InsertSpaces**
-
-object. **InsertSpaces** = _b_
+```
+b = object.InsertSpaces
+object.InsertSpaces = b
+```
 
 ## バージョン
 

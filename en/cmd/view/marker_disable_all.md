@@ -1,32 +1,37 @@
 # Disable All Markers command
 
-### Summary
+## Summary
 
-> Disables all markers.
+Disables all markers.
 
-### Description
+## Description
 
-> Disables all markers.
+Disables all markers.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Markers**
-\> **Disable All**
+- [All Commands](../tools/all_commands):View \>Markers
+\>Disable All
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MARKER\_DISABLE\_ALL (4586)
+```
+EEID_MARKER_DISABLE_ALL (4586)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4586);
+```
+editor.ExecuteCommandByID(4586);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4586
+```
+editor.ExecuteCommandByID 4586
+```

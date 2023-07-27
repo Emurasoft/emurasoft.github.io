@@ -2,13 +2,19 @@
 
 Resets the configuration.
 
-#### \[JavaScript\]
+## 
 
-object. **Reset**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Reset( [ strName ] );
+```
 
-object. **Reset** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Reset [ strName ]
+```
 
 ## Parameters
 

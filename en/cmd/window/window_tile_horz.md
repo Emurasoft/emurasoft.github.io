@@ -1,32 +1,37 @@
 # Tile Windows Horizontally command
 
-### Summary
+## Summary
 
-> Arranges windows horizontally as non-overlapping tiles.
+Arranges windows horizontally as non-overlapping tiles.
 
-### Description
+## Description
 
-> Arranges non-combined EmEditor windows horizontally as non-overlapping tiles.
+Arranges non-combined EmEditor windows horizontally as non-overlapping tiles.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Window** \> **Tile Horizontally**
-- [All Commands](../tools/all_commands): **Window**
-\> **Tile Horizontally**
+- Default Menu:Window \>Tile Horizontally
+- [All Commands](../tools/all_commands):Window
+\>Tile Horizontally
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_TILE\_HORZ (4242)
+```
+EEID_WINDOW_TILE_HORZ (4242)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4242);
+```
+editor.ExecuteCommandByID(4242);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4242
+```
+editor.ExecuteCommandByID 4242
+```

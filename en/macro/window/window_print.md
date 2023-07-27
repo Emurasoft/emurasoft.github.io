@@ -2,13 +2,19 @@
 
 Displays the Print dialog box.
 
-#### \[JavaScript\]
+## 
 
-**print**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+print();
+```
 
-**print**
+### \[VBScript\]
+
+```
+print
+```
 
 ## Version
 

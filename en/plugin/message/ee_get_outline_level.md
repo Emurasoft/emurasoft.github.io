@@ -13,13 +13,13 @@ lParam = 0;
 
 _nLogicalLine_
 
-> Specifies a logical line.
+Specifies a logical line.
 
 ## Return Values
 
-> The return value is the outline level for the specified logical line. If an
-> error occurs, the return value will be -1.
+The return value is the outline level for the specified logical line. If an
+error occurs, the return value will be -1.
 
 ## Version
 
-> Supported on EmEditor Professional Version 6.00 or later.
+Supported on EmEditor Professional Version 6.00 or later.

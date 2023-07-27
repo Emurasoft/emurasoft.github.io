@@ -1,32 +1,37 @@
 # Customize Update Checker command
 
-### Summary
+## Summary
 
-> Customizes the Update Checker.
+Customizes the Update Checker.
 
-### Description
+## Description
 
-> Opens the **Update Options** dialog box, where you can specify how often EmEditor checks for updates, and where updates are downloaded and saved.
+Opens theUpdate Options dialog box, where you can specify how often EmEditor checks for updates, and where updates are downloaded and saved.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Help** \> **Customize Update Checker**
-- [All Commands](../tools/all_commands): **Help** >
-**Customize Update Checker**
+- Default Menu:Help \>Customize Update Checker
+- [All Commands](../tools/all_commands):Help >
+Customize Update Checker
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_UPDATE\_CHECKER (4482)
+```
+EEID_CUSTOMIZE_UPDATE_CHECKER (4482)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4482);
+```
+editor.ExecuteCommandByID(4482);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4482
+```
+editor.ExecuteCommandByID 4482
+```

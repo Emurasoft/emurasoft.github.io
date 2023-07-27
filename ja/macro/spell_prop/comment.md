@@ -1,20 +1,22 @@
 # Comment プロパティ ()
 
-設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の **\[コメント\]** チェック ボックスに相当します。
+設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の\[コメント\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Comment**;
+### \[JavaScript\]
 
-object. **Comment** = _b_;
+```
+b = object.Comment;
+object.Comment = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Comment**
-
-object. **Comment** = _b_
+```
+b = object.Comment
+object.Comment = b
+```
 
 ## バージョン
 

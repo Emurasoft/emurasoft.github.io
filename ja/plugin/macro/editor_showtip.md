@@ -8,16 +8,16 @@ Editor\_ShowTip( HWND hwnd, TIP\_INFO\* pTipInfo );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _pFilterInfo_
 
-> [TIP\_INFO 構造体](../structure/tip_info) へのポインタを指定します。
+[TIP\_INFO 構造体](../structure/tip_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。
 
 ## バージョン
 
-> EmEditor Professional Version 16.9 以上で利用できます。
+EmEditor Professional Version 16.9 以上で利用できます。

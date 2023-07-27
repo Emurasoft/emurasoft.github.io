@@ -2,17 +2,21 @@
 
 EmEditor が置換、挿入、削除の速度を改善するために元に戻す情報を破棄するかどうかを示すフラグを取得します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = **DiscardUndo**;
+### \[JavaScript\]
 
-**DiscardUndo** = _b_;
+```
+b =DiscardUndo;
+DiscardUndo = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = **DiscardUndo**
-
-**DiscardUndo** = _b_
+```
+b =DiscardUndo
+DiscardUndo = b
+```
 
 ## バージョン
 

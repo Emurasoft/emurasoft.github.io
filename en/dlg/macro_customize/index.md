@@ -1,7 +1,7 @@
 # Customize Macros dialog box
 
 This dialog box appears when the
-[**Customize Macros** \
+[Customize Macros \
 Command](../../cmd/macros/customize_macro) is selected.
 
 

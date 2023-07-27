@@ -1,21 +1,23 @@
 # IgnoreColor プロパティ (PrintProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[印刷\]** タブ](../../dlg/properties/print/index) の
-**\[色と下線を無効にする\]** チェック ボックスに相当します。
+設定のプロパティの [\[印刷\] タブ](../../dlg/properties/print/index) の
+\[色と下線を無効にする\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **IgnoreColor**;
+### \[JavaScript\]
 
-object. **IgnoreColor** = _b_;
+```
+b = object.IgnoreColor;
+object.IgnoreColor = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **IgnoreColor**
-
-object. **IgnoreColor** = _b_
+```
+b = object.IgnoreColor
+object.IgnoreColor = b
+```
 
 ## バージョン
 

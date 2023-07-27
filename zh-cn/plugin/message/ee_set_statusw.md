@@ -12,20 +12,20 @@ lParam = (LPARAM) (LPCWSTR) szStatus;
 
 _szStatus_
 
-> 指定要显示在状态栏上的消息文本。
+指定要显示在状态栏上的消息文本。
 
 _nFlags_
 
-> 指定以下值的组合。
->
-> | 值 | 含义 |
-> | --- | --- |
-> | STATUS\_FLAG\_NONE | 用正常颜色显示消息。 |
-> | STATUS\_FLAG\_MESSAGE | 用默认高亮颜色显示消息。 |
-> | STATUS\_FLAG\_WARNING | 用黄色显示消息。 |
-> | STATUS\_FLAG\_ERROR | 用红色显示消息。 |
-> | STATUS\_FLAG\_ERASE\_SHORTLY | 几秒钟后显示一条消息，然后将其删除。 |
+指定以下值的组合。
+
+| 值 | 含义 |
+| --- | --- |
+| STATUS\_FLAG\_NONE | 用正常颜色显示消息。 |
+| STATUS\_FLAG\_MESSAGE | 用默认高亮颜色显示消息。 |
+| STATUS\_FLAG\_WARNING | 用黄色显示消息。 |
+| STATUS\_FLAG\_ERROR | 用红色显示消息。 |
+| STATUS\_FLAG\_ERASE\_SHORTLY | 几秒钟后显示一条消息，然后将其删除。 |
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> [EXTRACT\_FREQUENT\_INFO 構造体](../structure/extract_frequent_info) へのポインタを指定します。
+[EXTRACT\_FREQUENT\_INFO 構造体](../structure/extract_frequent_info) へのポインタを指定します。
 
 ## 戻り値
 
-> エラーが発生すると、負の値を返します。
+エラーが発生すると、負の値を返します。
 
 ## バージョン
 
-> Version 21.9 以上で利用できます。
+Version 21.9 以上で利用できます。

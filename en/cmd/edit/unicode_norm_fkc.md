@@ -1,32 +1,37 @@
 # Unicode Normalization Form KC (Compatibility Composition) command
 
-### Summary
+## Summary
 
-> Apply Unicode Normalization Form KC (Compatibility Composition) to the selected string.
+Apply Unicode Normalization Form KC (Compatibility Composition) to the selected string.
 
-### Description
+## Description
 
-> Apply Unicode Normalization Form KC (Compatibility Composition) defined in " [Unicode Standard Annex #15 Unicode Normalization Forms](http://unicode.org/reports/tr15/)" to the selected string.
+Apply Unicode Normalization Form KC (Compatibility Composition) defined in " [Unicode Standard Annex #15 Unicode Normalization Forms](http://unicode.org/reports/tr15/)" to the selected string.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Encode/Decode** \> **Unicode Normalization Form KC (Compatibility Composition)**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode Normalization Form KC (Compatibility Composition)**
+- Default Menu:Convert \>Encode/Decode \>Unicode Normalization Form KC (Compatibility Composition)
+- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Unicode Normalization Form KC (Compatibility Composition)
 - Toolbar:
 None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_UNICODE\_NORM\_FKC (4055)
+```
+EEID_UNICODE_NORM_FKC (4055)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4055);
+```
+editor.ExecuteCommandByID(4055);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4055
+```
+editor.ExecuteCommandByID 4055
+```

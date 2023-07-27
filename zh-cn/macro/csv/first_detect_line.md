@@ -1,18 +1,22 @@
 # FirstDetectLine 属性 (Csv ����)
 
-与在自定义对话框中 [**CSV** 页面](../../dlg/customize/csv/index) 上的 **要检测的首行** 文本框对应。
+与在自定义对话框中 [CSV 页面](../../dlg/customize/csv/index) 上的要检测的首行 文本框对应。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **FirstDetectLine**;
+### \[JavaScript\]
 
-object. **FirstDetectLine** = _n_;
+```
+n = object.FirstDetectLine;
+object.FirstDetectLine = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **FirstDetectLine**
-
-object. **FirstDetectLine** = _n_
+```
+n = object.FirstDetectLine
+object.FirstDetectLine = n
+```
 
 ## 版本
 

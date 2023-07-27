@@ -2,13 +2,19 @@
 
 메뉴의 마지막에 새로운 항목을 추가합니다.
 
-#### \[JavaScript\]
+## 
 
-popupmenu. **Add**( _strText_, _id_, _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu.Add( strText, id, flags );
+```
 
-popupmenu. **Add** _strText_, _is_, _flags_
+### \[VBScript\]
+
+```
+popupmenu.Add strText, is, flags
+```
 
 ## 매개 변수
 

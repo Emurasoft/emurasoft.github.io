@@ -1,20 +1,24 @@
 # DetectCharset プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の
-**\[HTML/XMLのCharsetを検出\]**
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の
+\[HTML/XMLのCharsetを検出\]
 チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectCharset**;
+### \[JavaScript\]
 
-object. **DetectCharset** = _b_;
+```
+b = object.DetectCharset;
+object.DetectCharset = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectCharset**
-
-object. **DetectCharset** = _b_
+```
+b = object.DetectCharset
+object.DetectCharset = b
+```
 
 ## バージョン
 

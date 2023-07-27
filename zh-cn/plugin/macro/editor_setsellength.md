@@ -10,12 +10,12 @@ Editor\_SetSelLength( HWND hwnd, UINT nLen );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _nLen_
 
-> 指定选区的字符长度。换行总是计为两个字符长度 (CR+LF)。
+指定选区的字符长度。换行总是计为两个字符长度 (CR+LF)。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

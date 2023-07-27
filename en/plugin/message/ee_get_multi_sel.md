@@ -14,17 +14,17 @@ lParam = (LPARAM) (SEL\_INFO\*) pSelInfo;
 
 _iSel_
 
-> Index of the selection of which the information will be retrieved. If -1 is
-> specified, the number of selections will be returned.
+Index of the selection of which the information will be retrieved. If -1 is
+specified, the number of selections will be returned.
 
 _pSelInfo_
 
-> Pointer to the
-> [SEL\_INFO](../../plugin/structure/sel_info) structure.
+Pointer to the
+[SEL\_INFO](../../plugin/structure/sel_info) structure.
 
 ## Return Values
 
-> If _iSel_ is -1, the return value is the number of selection.
-> Otherwise, TRUE if the specified selection information is retrieved. The
-> return value is FALSE if the selection is not multiple selection mode or an
-> error occurs in the function.
+If _iSel_ is -1, the return value is the number of selection.
+Otherwise, TRUE if the specified selection information is retrieved. The
+return value is FALSE if the selection is not multiple selection mode or an
+error occurs in the function.

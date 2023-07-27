@@ -15,8 +15,8 @@ lParam = (LPARAM) (POINT\_PTR\*) pptPos;
 
 _pptPos_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the scroll bar positions.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the scroll bar positions.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

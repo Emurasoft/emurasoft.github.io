@@ -1,31 +1,36 @@
 # Set Bookmark command
 
-### Summary
+## Summary
 
-> Sets a bookmark on the current line.
+Sets a bookmark on the current line.
 
-### Description
+## Description
 
-> Sets a bookmark on the current line.
+Sets a bookmark on the current line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Bookmarks** \> **Set Bookmark**
+- [All Commands](../tools/all_commands):Bookmarks \>Set Bookmark
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_SET (4353)
+```
+EEID_BOOKMARK_SET (4353)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.SetBookmark();
+```
+document.selection.SetBookmark();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.SetBookmark
+```
+document.selection.SetBookmark
+```

@@ -1,21 +1,23 @@
 # DBCharURL Property (LinkProp Object)
 
-Corresponds to the **Recognize**
-**Double-Byte Characters as URLs** check box in the [**Link** page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to theRecognize
+Double-Byte Characters as URLs check box in the [Link page](../../dlg/properties/link/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DBCharURL**;
+### \[JavaScript\]
 
-object. **DBCharURL** = _b_;
+```
+b = object.DBCharURL;
+object.DBCharURL = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DBCharURL**
-
-object. **DBCharURL** = _b_
+```
+b = object.DBCharURL
+object.DBCharURL = b
+```
 
 ## Version
 

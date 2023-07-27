@@ -15,8 +15,8 @@ lParam = (LPARAM) (LPCSTR) szConfigName;
 
 _szConfigName_
 
-> Specifies a configuration by an ANSI string.
+Specifies a configuration by an ANSI string.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

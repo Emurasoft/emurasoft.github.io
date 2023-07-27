@@ -1,19 +1,23 @@
 # DetectCharset Property (FileProp Object)
 
-Corresponds to the **Detect HTML/XML Charset**
-check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theDetect HTML/XML Charset
+check box in the [File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectCharset**;
+### \[JavaScript\]
 
-object. **DetectCharset** = _b_;
+```
+b = object.DetectCharset;
+object.DetectCharset = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectCharset**
-
-object. **DetectCharset** = _b_
+```
+b = object.DetectCharset
+object.DetectCharset = b
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 カーソル位置のハイパーリンクを開きます。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **OpenLink**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.OpenLink();
+```
 
-document.selection. **OpenLink**
+### \[VBScript\]
+
+```
+document.selection.OpenLink
+```
 
 ## バージョン
 

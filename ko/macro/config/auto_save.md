@@ -2,13 +2,19 @@
 
 [AutoSaveProp 개체](../auto_save_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **AutoSave**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.AutoSave;
+```
 
-_obj_ = object. **AutoSave**
+### \[VBScript\]
+
+```
+obj = object.AutoSave
+```
 
 ## 버전
 

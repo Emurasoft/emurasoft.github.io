@@ -1,19 +1,23 @@
 # UnicodeSignature 속성 (FileNewProp ��ü)
 
-[**새 파일 상세 정보** 대화 상자](../../dlg/properties/file/new_details/index) 의
-**유니코드 서명 추가 (BOM)** 체크 박스에 해당합니다.
+[새 파일 상세 정보 대화 상자](../../dlg/properties/file/new_details/index) 의
+유니코드 서명 추가 (BOM) 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **UnicodeSignature**;
+### \[JavaScript\]
 
-object. **UnicodeSignature** = _b_;
+```
+b = object.UnicodeSignature;
+object.UnicodeSignature = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **UnicodeSignature**
-
-object. **UnicodeSignature** = _b_
+```
+b = object.UnicodeSignature
+object.UnicodeSignature = b
+```
 
 ## 버전
 

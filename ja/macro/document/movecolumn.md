@@ -2,13 +2,19 @@
 
 CSV モードで指定された列を移動またはコピーします。
 
-#### \[JavaScript\]
+## 
 
-document. **MoveColumn**( _iColumn_, _iColumn2_, _iColumnTo_ \[ , _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.MoveColumn( iColumn, iColumn2, iColumnTo [ , nFlags ] );
+```
 
-document. **MoveColumn** _iColumn_, _iColumn2_, _iColumnTo_ \[ , _nFlags_ \]
+### \[VBScript\]
+
+```
+document.MoveColumn iColumn, iColumn2, iColumnTo [ , nFlags ]
+```
 
 ## パラメータ
 
@@ -37,13 +43,17 @@ _nFlags_
 
 次の例は、3列目を左端に移動します。
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.MoveColumn( 3, 3, 1 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.MoveColumn 3, 3, 1
+```
 
 ## バージョン
 

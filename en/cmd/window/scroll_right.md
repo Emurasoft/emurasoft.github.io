@@ -1,32 +1,37 @@
 # Scroll Right command
 
-### Summary
+## Summary
 
-> Scrolls the document right by one character.
+Scrolls the document right by one character.
 
-### Description
+## Description
 
-> Scrolls the document right by one character.
+Scrolls the document right by one character.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window** \>
-**Scroll** \> **Right**
+- [All Commands](../tools/all_commands):Window \>
+Scroll \>Right
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_SCROLL\_RIGHT (4475)
+```
+EEID_WINDOW_SCROLL_RIGHT (4475)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4475);
+```
+editor.ExecuteCommandByID(4475);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4475
+```
+editor.ExecuteCommandByID 4475
+```

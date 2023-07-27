@@ -1,22 +1,24 @@
 # DetectUTF8 Property (FileProp Object)
 
-Corresponds to the **Detect**
-**UTF-8** check box in the
-[**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theDetect
+UTF-8 check box in the
+[File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DetectUTF8**;
+### \[JavaScript\]
 
-object. **DetectUTF8** = _b_;
+```
+b = object.DetectUTF8;
+object.DetectUTF8 = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DetectUTF8**
-
-object. **DetectUTF8** = _b_
+```
+b = object.DetectUTF8
+object.DetectUTF8 = b
+```
 
 ## Version
 

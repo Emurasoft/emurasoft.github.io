@@ -2,37 +2,40 @@
 
 检索或设置文档是否为只读。
 
-#### \[JavaScript\]
+## 
 
-_bReadOnly_ = document. **ReadOnly**;
+### \[JavaScript\]
 
-document. **ReadOnly** = _bReadOnly_;
+```
+bReadOnly = document.ReadOnly;
+document.ReadOnly = bReadOnly;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bReadOnly_ = document. **ReadOnly**
-
-document. **ReadOnly** = _bReadOnly_
+```
+bReadOnly = document.ReadOnly
+document.ReadOnly = bReadOnly
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 if( document.ReadOnly )  alert( "The document is read-only" );
-
 else  alert( "The document is not read-only." );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 If document.ReadOnly Then
-
 alert( "The document is read-only" )
-
 Else
-
 alert( "The document is not read-only." )
-
 End If
+```
 
 ## 版本
 

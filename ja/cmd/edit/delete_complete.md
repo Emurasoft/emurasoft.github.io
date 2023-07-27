@@ -1,14 +1,14 @@
 # \[完全に削除\] コマンド
 
-### 概要
+## 概要
 
-> 選択範囲を完全に削除します。
+選択範囲を完全に削除します。
 
-### 説明
+## 説明
 
-> 選択範囲を完全に削除します。
+選択範囲を完全に削除します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[削除\] \- \[完全に削除\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DELETE\_COMPLETE (3961)
+```
+EEID_DELETE_COMPLETE (3961)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3961);
+```
+editor.ExecuteCommandByID(3961);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3961
+```
+editor.ExecuteCommandByID 3961
+```

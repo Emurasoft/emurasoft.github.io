@@ -2,13 +2,19 @@
 
 창이 마우스와 키보드 입력이 가능한지 여부를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Enabled**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Enabled;
+```
 
-_b_ = wnd. **Enabled**
+### \[VBScript\]
+
+```
+b = wnd.Enabled
+```
 
 ## 버전
 

@@ -2,13 +2,19 @@
 
 Adds a new item to the end of the menu.
 
-#### \[JavaScript\]
+## 
 
-popupmenu. **Add**( _strText_, _id_, _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu.Add( strText, id, flags );
+```
 
-popupmenu. **Add** _strText_, _id_, _flags_
+### \[VBScript\]
+
+```
+popupmenu.Add strText, id, flags
+```
 
 ## Parameters
 

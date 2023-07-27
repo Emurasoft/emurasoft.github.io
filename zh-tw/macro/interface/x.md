@@ -2,13 +2,19 @@
 
 返回被一個支持的外掛程式所傳遞的游標的水平位置。
 
-#### \[JavaScript\]
+## 
 
-_x_ = Interface. **x**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+x = Interface.x;
+```
 
-_x_ = Interface. **x**
+### \[VBScript\]
+
+```
+x = Interface.x
+```
 
 ## 版本
 

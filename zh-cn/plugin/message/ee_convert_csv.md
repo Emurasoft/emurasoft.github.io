@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> 指定指针指向 [CONVERT\_CSV\_INFO](../structure/convert_csv_info) 结构。
+指定指针指向 [CONVERT\_CSV\_INFO](../structure/convert_csv_info) 结构。
 
 ## 返回值
 
-> 如果成功，返回值为 S\_OK。
+如果成功，返回值为 S\_OK。
 
 ## 版本
 
-> 支持 EmEditor Professional 19.8 或之后的版本。
+支持 EmEditor Professional 19.8 或之后的版本。

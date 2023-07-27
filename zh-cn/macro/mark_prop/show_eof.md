@@ -1,20 +1,22 @@
 # ShowEOF 属性 (MarkProp ����)
 
-与配置属性中 [**标记** 页面](../../dlg/properties/marks/index) 上的 **显示文件结束标记** 复选框相对应。
+与配置属性中 [标记 页面](../../dlg/properties/marks/index) 上的显示文件结束标记 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowEOF**;
+### \[JavaScript\]
 
-object. **ShowEOF** = _b_;
+```
+b = object.ShowEOF;
+object.ShowEOF = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowEOF**
-
-object. **ShowEOF** = _b_
+```
+b = object.ShowEOF
+object.ShowEOF = b
+```
 
 ## 版本
 

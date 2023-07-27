@@ -2,13 +2,19 @@
 
 Removes all items in the collection.
 
-#### \[JavaScript\]
+## 
 
-list. **Clear**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Clear();
+```
 
-list. **Clear**
+### \[VBScript\]
+
+```
+list.Clear
+```
 
 ## Version
 

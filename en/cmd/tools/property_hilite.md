@@ -1,34 +1,39 @@
 # Highlight (1) Properties command
 
-### Summary
+## Summary
 
-> Displays Highlight (1) properties.
+Displays Highlight (1) properties.
 
-### Description
+## Description
 
-> Displays the [**Highlight (1)** page](../../dlg/properties/highlight1/index)
-> of the **[Configuration Properties](../../dlg/properties/index)**
-> dialog box.
+Displays the [Highlight (1) page](../../dlg/properties/highlight1/index)
+of the[Configuration Properties](../../dlg/properties/index)
+dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Properties for Current Configuration** \> **Highlight (1)**
+- [All Commands](all_commands):Tools >
+Properties for Current Configuration \>Highlight (1)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PROPERTY\_HILITE (8968)
+```
+EEID_PROPERTY_HILITE (8968)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8968);
+```
+editor.ExecuteCommandByID(8968);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8968
+```
+editor.ExecuteCommandByID 8968
+```

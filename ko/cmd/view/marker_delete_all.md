@@ -1,31 +1,36 @@
 # 모든 마커 삭제 명령
 
-### 요약
+## 요약
 
-> 모든 마커를 삭제합니다.
+모든 마커를 삭제합니다.
 
-### 설명
+## 설명
 
-> 모든 마커를 삭제합니다.
+모든 마커를 삭제합니다.
 
-### 실행하는 방법
+## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands): **보기** \> **마커** \> **모두 삭제**
+- [모든 명령](../tools/all_commands):보기 \>마커 \>모두 삭제
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
-### 플러그인 명령 ID
+## 플러그인 명령 ID
 
-- EEID\_MARKER\_DELETE\_ALL (4587)
+```
+EEID_MARKER_DELETE_ALL (4587)```
 
-### 매크로
+## 매크로
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4587);
+```
+editor.ExecuteCommandByID(4587);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4587
+```
+editor.ExecuteCommandByID 4587
+```

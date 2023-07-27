@@ -2,13 +2,19 @@
 
 添加一个项目。
 
-#### \[JavaScript\]
+## 
 
-list. **Add**( _sName_, _bEnabled_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Add( sName, bEnabled );
+```
 
-list. **Add** _sName_, _bEnabled_
+### \[VBScript\]
+
+```
+list.Add sName, bEnabled
+```
 
 ## 参数
 

@@ -8,20 +8,20 @@ Editor\_BatchFindInFiles( HWND hwnd, FIND\_REPLACE\_INFO\* pBatchArray, BATCH\_G
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控點。
+指定 EmEditor 視圖或框架的視窗控點。
 
 _pBatchArray_
 
-> 指針指向 [FIND\_REPLACE\_INFO 結構](../structure/find_replace_info) 的陣列。
+指針指向 [FIND\_REPLACE\_INFO 結構](../structure/find_replace_info) 的陣列。
 
 _pBatchGrepInfo_
 
-> 指定指針指向 [BATCH\_GREP\_INFO 結構](../structure/batch_grep_info)。
+指定指針指向 [BATCH\_GREP\_INFO 結構](../structure/batch_grep_info)。
 
 ## 返回值
 
-> 如果使用者中止，返回 FALSE，否則返回 TRUE。
+如果使用者中止，返回 FALSE，否則返回 TRUE。
 
 ## 版本
 
-> 指定 EmEditor Professional 20.0 或之後的版本。
+指定 EmEditor Professional 20.0 或之後的版本。

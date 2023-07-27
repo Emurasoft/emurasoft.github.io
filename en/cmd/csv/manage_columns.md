@@ -1,31 +1,36 @@
 # Manage Columns command
 
-### Summary
+## Summary
 
-> Moves, copies, deletes, or sorts columns of the CSV document.
+Moves, copies, deletes, or sorts columns of the CSV document.
 
-### Description
+## Description
 
-> Moves, copies, deletes, or sorts columns of the CSV document. The [**Manage Columns** dialog box](../../dlg/manage_columns/index) will appear when this command is selected.
+Moves, copies, deletes, or sorts columns of the CSV document. The [Manage Columns dialog box](../../dlg/manage_columns/index) will appear when this command is selected.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Columns** \> **Manage Columns**
-- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Manage Columns**
+- Default Menu:CSV \>Columns \>Manage Columns
+- [All Commands](../tools/all_commands):CSV \>Columns \>Manage Columns
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MANAGE\_COLUMNS (23239)
+```
+EEID_MANAGE_COLUMNS (23239)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(23239);
+```
+editor.ExecuteCommandByID(23239);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 23239
+```
+editor.ExecuteCommandByID 23239
+```

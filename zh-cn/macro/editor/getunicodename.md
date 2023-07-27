@@ -2,13 +2,19 @@
 
 检索指定字符或字符串的 Unicode 名。
 
-#### \[JavaScript\]
+## 
 
-_strName_ = editor. **GetUnicodeName**( _strChar_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = editor.GetUnicodeName( strChar );
+```
 
-_strName_ = editor. **GetUnicodeName**( _strChar_ )
+### \[VBScript\]
+
+```
+strName = editor.GetUnicodeName( strChar )
+```
 
 ## 参数
 

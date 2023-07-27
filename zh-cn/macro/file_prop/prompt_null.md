@@ -1,20 +1,22 @@
 # PromptNull 属性 (FileProp ����)
 
-与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **如果发现空字符时进行提示** 复选框相对应。
+与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的如果发现空字符时进行提示 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptNull**;
+### \[JavaScript\]
 
-object. **PromptNull** = _b_;
+```
+b = object.PromptNull;
+object.PromptNull = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptNull**
-
-object. **PromptNull** = _b_
+```
+b = object.PromptNull
+object.PromptNull = b
+```
 
 ## 版本
 

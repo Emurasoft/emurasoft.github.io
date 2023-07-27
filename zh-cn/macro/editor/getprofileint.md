@@ -2,13 +2,19 @@
 
 按 EmEidtor 的设定，从注册表或一个 INI 文件上检索指定项目的整数值。
 
-#### \[JavaScript\]
+## 
 
-_n_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _nDefault_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = editor.GetProfileInt( nKey, strConfig, strEntry, nDefault );
+```
 
-_n_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _nDefault_ )
+### \[VBScript\]
+
+```
+n = editor.GetProfileInt( nKey, strConfig, strEntry, nDefault )
+```
 
 ## 参数
 

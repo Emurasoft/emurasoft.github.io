@@ -1,31 +1,36 @@
 # 按日期和时间从新到旧排序命令
 
-### 摘要
+## 摘要
 
-> 把当前列中的日期和时间按降序排序。
+把当前列中的日期和时间按降序排序。
 
-### 说明
+## 说明
 
-> 把当前列中的日期和时间按降序排序。
+把当前列中的日期和时间按降序排序。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **排序** \> **按日期和时间从新到旧排序**
-- [所有命令](../tools/all_commands): **排序** \> **按日期和时间从新到旧排序**
+- 默认菜单:排序 \>按日期和时间从新到旧排序
+- [所有命令](../tools/all_commands):排序 \>按日期和时间从新到旧排序
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_SORT\_DATE\_A (3973)
+```
+EEID_SORT_DATE_A (3973)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3973);
+```
+editor.ExecuteCommandByID(3973);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3973
+```
+editor.ExecuteCommandByID 3973
+```

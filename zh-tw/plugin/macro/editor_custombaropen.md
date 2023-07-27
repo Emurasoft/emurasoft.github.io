@@ -8,12 +8,12 @@ Editor\_CustomBarOpen( HWND hwnd, CUSTOM\_BAR\_INFO\* pCustomBarInfo );
 
 _pCustomBarInfo_
 
-> 指標至 [CUSTOM\_BAR\_INFO 結構](../structure/custom_bar_info)。
+指標至 [CUSTOM\_BAR\_INFO 結構](../structure/custom_bar_info)。
 
 ## 返回值
 
-> 返回值是一個自訂顯示條 ID。這個 ID 是必要的當用 Editor\_CustomBarClose 內嵌函式來關閉該自訂顯示條時。如果消息不成功，返回值則是零。
+返回值是一個自訂顯示條 ID。這個 ID 是必要的當用 Editor\_CustomBarClose 內嵌函式來關閉該自訂顯示條時。如果消息不成功，返回值則是零。
 
 ## 支持版本
 
-> 支持 EmEditor 6.00 或之後的版本。
+支持 EmEditor 6.00 或之後的版本。

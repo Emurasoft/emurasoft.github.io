@@ -1,35 +1,33 @@
 # Configs 集合
 
-Configs 集合提供 [**Config** 对象](../config/index) 的集合。
+Configs 集合提供 [Config 对象](../config/index) 的集合。
 
 ## 属性
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 检索配置的数目。 |
-| **[Item](item)** | 为指定索引的配置检索 [**Config** 对象](../config/index)。 |
+|[Count](count) | 检索配置的数目。 |
+|[Item](item) | 为指定索引的配置检索 [Config 对象](../config/index)。 |
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 cfgs = new Enumerator( editor.Configs );
-
 for( ; !cfgs.atEnd(); cfgs.moveNext() ){
-
 cfg = cfgs.item();
-
 alert( cfg.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each cfg In editor.Configs
-
 alert cfg.Name
-
 Next
+```
 
 ## 版本
 

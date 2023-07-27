@@ -2,19 +2,25 @@
 
 保存文檔。
 
-#### \[JavaScript\]
+## 
 
-document. **Save**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Save( [ strName ] );
+```
 
-document. **Save** \[ _strName_ \]
+### \[VBScript\]
+
+```
+document.Save [ strName ]
+```
 
 ## 參數
 
 _strName_
 
-可選項。指定要保存的檔案的完整路徑名稱。如果被省略，會顯示 **另存為** 對話方塊。
+可選項。指定要保存的檔案的完整路徑名稱。如果被省略，會顯示另存為 對話方塊。
 
 ## 版本
 

@@ -2,13 +2,19 @@
 
 문서 전체를 선택합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectAll**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectAll();
+```
 
-document.selection. **SelectAll**
+### \[VBScript\]
+
+```
+document.selection.SelectAll
+```
 
 ## 버전
 

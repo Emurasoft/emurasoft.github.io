@@ -1,14 +1,14 @@
 # \[前のセル (セル選択モードのみ)\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書で前のセルにジャンプします。
+CSV文書で前のセルにジャンプします。
 
-### 説明
+## 説明
 
-> CSV文書で前のセルにジャンプします。
+CSV文書で前のセルにジャンプします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セル選択モードのみ\] - \[前のセル\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CSV\_PREV\_CELL (4078)
+```
+EEID_CSV_PREV_CELL (4078)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4078);
+```
+editor.ExecuteCommandByID(4078);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4078
+```
+editor.ExecuteCommandByID 4078
+```

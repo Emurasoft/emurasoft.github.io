@@ -2,13 +2,19 @@
 
 在 CSV 模式中指定的单元格中检索文本。
 
-#### \[JavaScript\]
+## 
 
-_str_ = document. **GetCell**( _yLine_, _iColumn_, _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = document.GetCell( yLine, iColumn, flags );
+```
 
-_str_ = document. **GetCell**( _yLine_, _iColumn_, _flags_ )
+### \[VBScript\]
+
+```
+str = document.GetCell( yLine, iColumn, flags )
+```
 
 ## 参数
 
@@ -22,13 +28,13 @@ _iColumn_
 
 _flags_
 
-> 指定下列值之一。
->
-> |     |     |
-> | --- | --- |
-> | eeCellIncludeNone | 返回的文本不包括加在文本上的双引号或分隔符。 |
-> | eeCellIncludeQuotes | 返回的文本可以包括加在文本上的双引号，但不包括分隔符。 |
-> | eeCellIncludeQuotesAndDelimiter | 返回的文本可以包括加在文本上的双引号以及分隔符。 |
+指定下列值之一。
+
+|     |     |
+| --- | --- |
+| eeCellIncludeNone | 返回的文本不包括加在文本上的双引号或分隔符。 |
+| eeCellIncludeQuotes | 返回的文本可以包括加在文本上的双引号，但不包括分隔符。 |
+| eeCellIncludeQuotesAndDelimiter | 返回的文本可以包括加在文本上的双引号以及分隔符。 |
 
 ## 版本
 

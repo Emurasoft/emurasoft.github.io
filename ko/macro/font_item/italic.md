@@ -2,19 +2,21 @@
 
 글꼴이 기울게 포맷된 경우 트루입니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Italic**;
+### \[JavaScript\]
 
-item. **Italic** = _b_;
+```
+b = item.Italic;
+item.Italic = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Italic**
-
-item. **Italic** = _b_
+```
+b = item.Italic
+item.Italic = b
+```
 
 ## 버전
 

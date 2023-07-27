@@ -2,13 +2,19 @@
 
 指定するコマンドに関連する文字列を取得します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = editor. **QueryStringByID**( _nID_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = editor.QueryStringByID( nID );
+```
 
-_str_ = editor. **QueryStringByID**( _nID_ )
+### \[VBScript\]
+
+```
+str = editor.QueryStringByID( nID )
+```
 
 ## パラメータ
 

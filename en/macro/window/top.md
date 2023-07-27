@@ -2,17 +2,21 @@
 
 Returns or sets the vertical position of the specified window, in pixels.
 
-#### \[JavaScript\]
+## 
 
-_y_ = wnd. **Top**;
+### \[JavaScript\]
 
-wnd. **Top** = _y_;
+```
+y = wnd.Top;
+wnd.Top = y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_y_ = wnd. **Top**
-
-wnd. **Top** = _y_
+```
+y = wnd.Top
+wnd.Top = y
+```
 
 ## Version
 

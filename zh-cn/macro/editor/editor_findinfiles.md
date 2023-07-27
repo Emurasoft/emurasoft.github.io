@@ -2,13 +2,19 @@
 
 在多个文件中搜索匹配的字符串。搜索到的文件的结果列表将被显示在当前窗口上。如果文档没有保存，这个方法会显示是否保存文件的提示消息。
 
-#### \[JavaScript\]
+## 
 
-nFound = editor. **FindInFiles**( _strFind_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = editor.FindInFiles( strFind, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ nExFlags, [ nLimit ] ] ] ] );
+```
 
-nFound = editor. **FindInFiles** _strFind_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \]
+### \[VBScript\]
+
+```
+nFound = editor.FindInFiles strFind, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ nExFlags, [ nLimit ] ] ] ]
+```
 
 ## 参数
 
@@ -52,7 +58,7 @@ _nFlags_
 
 _nEncoding_
 
-从 **[编码常数](../const/const_encoding)** 中选择或指定任何用于 Windows 操作系统的代码页。
+从[编码常数](../const/const_encoding) 中选择或指定任何用于 Windows 操作系统的代码页。
 
 _strFilesToIgnore_
 

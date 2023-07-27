@@ -2,7 +2,7 @@
 
 |     |     |
 | --- | --- |
-| **메시지** | **설명** |
+|메시지 |설명 |
 | [Editor\_ActivateTemp](editor_activatetemp) | 임시 텍스트를 활성화합니다. |
 | [Editor\_AddRef](editor_addref) | 플러그 인의 참조 번호를 증가합니다. |
 | [Editor\_CloseTemp](editor_closetemp) | 임시 텍스트를 닫습니다. |

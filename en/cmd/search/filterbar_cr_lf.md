@@ -1,32 +1,37 @@
 # CR+LF (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the CR and LF command on the Filter toolbar.
+Toggles the CR and LF command on the Filter toolbar.
 
-### Description
+## Description
 
-> Toggles the CR and LF command on the Filter toolbar.
+Toggles the CR and LF command on the Filter toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Match Newline Characters** \> **CR+LF**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Match Newline Characters \>CR+LF
 - Toolbar: ![](../../images/match_newline_characters.png) \+ CR+LF (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_CR\_LF (4009)
+```
+EEID_FILTERBAR_CR_LF (4009)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4009);
+```
+editor.ExecuteCommandByID(4009);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4009
+```
+editor.ExecuteCommandByID 4009
+```

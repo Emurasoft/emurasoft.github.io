@@ -1,18 +1,22 @@
 # ShowLineNumbers 屬性 (PrintProp ��H)
 
-與組態屬性中 [**列印** 頁面](../../dlg/properties/print/index) 上的 **列印行號** 核取方塊相對應。
+與組態屬性中 [列印 頁面](../../dlg/properties/print/index) 上的列印行號 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **ShowLineNumbers**;
+### \[JavaScript\]
 
-object. **ShowLineNumbers** = _b_;
+```
+b = object.ShowLineNumbers;
+object.ShowLineNumbers = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **ShowLineNumbers**
-
-object. **ShowLineNumbers** = _b_
+```
+b = object.ShowLineNumbers
+object.ShowLineNumbers = b
+```
 
 ## 版本
 

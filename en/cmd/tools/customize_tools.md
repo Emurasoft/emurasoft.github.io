@@ -1,33 +1,38 @@
 # Customize Tools command
 
-### Summary
+## Summary
 
-> Customizes external tools.
+Customizes external tools.
 
-### Description
+## Description
 
-> Displays the [**External Tools** dialog box](../../dlg/tools/index),
-> where you can customize external tools.
+Displays the [External Tools dialog box](../../dlg/tools/index),
+where you can customize external tools.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Tools** \> **External Tools** \> **Customize Tools**
-- [All Commands](all_commands): **Tools** >
-**Customize Tools**
+- Default Menu:Tools \>External Tools \>Customize Tools
+- [All Commands](all_commands):Tools >
+Customize Tools
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_TOOLS (4324)
+```
+EEID_CUSTOMIZE_TOOLS (4324)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4324);
+```
+editor.ExecuteCommandByID(4324);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4324
+```
+editor.ExecuteCommandByID 4324
+```

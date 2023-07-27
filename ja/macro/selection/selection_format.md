@@ -2,13 +2,19 @@
 
 選択範囲の折り返し位置に改行コードの挿入したり、改行コードを削除したりします。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Format**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Format( nFlags );
+```
 
-document.selection. **Format** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Format nFlags
+```
 
 ## 引数
 

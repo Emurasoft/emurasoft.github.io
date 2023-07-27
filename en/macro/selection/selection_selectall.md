@@ -2,13 +2,19 @@
 
 Selects the entire document.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectAll**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectAll();
+```
 
-document.selection. **SelectAll**
+### \[VBScript\]
+
+```
+document.selection.SelectAll
+```
 
 ## Version
 

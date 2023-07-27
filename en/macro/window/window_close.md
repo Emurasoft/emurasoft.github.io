@@ -2,13 +2,19 @@
 
 Closes the window.
 
-#### \[JavaScript\]
+## 
 
-**close**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+close();
+```
 
-**close**
+### \[VBScript\]
+
+```
+close
+```
 
 ## Version
 

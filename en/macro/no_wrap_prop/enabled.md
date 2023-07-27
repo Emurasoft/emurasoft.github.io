@@ -1,22 +1,24 @@
 # Enabled Property (NoWrapProp Object)
 
-Corresponds to the **Enable**
-**Non-Wrap Words** check box in the
-[**No Wrap** page](../../dlg/properties/no_wrap/index) of Configuration Properties.
+Corresponds to theEnable
+Non-Wrap Words check box in the
+[No Wrap page](../../dlg/properties/no_wrap/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object.Enabled;
+### \[JavaScript\]
 
-object.Enabled = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object.Enabled
-
-object.Enabled = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## Version
 

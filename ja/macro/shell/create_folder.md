@@ -2,13 +2,19 @@
 
 フォルダを作成します。
 
-#### \[JavaScript\]
+## 
 
-shell. **CreateFolder**( _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.CreateFolder( strFolder );
+```
 
-shell. **CreateFolder** _strFolder_
+### \[VBScript\]
+
+```
+shell.CreateFolder strFolder
+```
 
 ## パラメータ
 
@@ -18,13 +24,17 @@ _strFolder_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.CreateFolder( "C:\\\Test" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.CreateFolder "C:\\Test"
+```
 
 ## バージョン
 

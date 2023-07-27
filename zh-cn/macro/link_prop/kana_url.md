@@ -1,20 +1,22 @@
 # KanaURL 属性 (LinkProp ����)
 
-与配置属性中 [**链接** 页面](../../dlg/properties/link/index) 上的 **识别单字节假名与假名符合为 URL** 复选框相对应。
+与配置属性中 [链接 页面](../../dlg/properties/link/index) 上的识别单字节假名与假名符合为 URL 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **KanaURL**;
+### \[JavaScript\]
 
-object. **KanaURL** = _b_;
+```
+b = object.KanaURL;
+object.KanaURL = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **KanaURL**
-
-object. **KanaURL** = _b_
+```
+b = object.KanaURL
+object.KanaURL = b
+```
 
 ## 版本
 

@@ -2,13 +2,19 @@
 
 檢索 表示當前 EmEditor 版本的字符串。
 
-#### \[JavaScript\]
+## 
 
-_strVersion_ = editor. **Version**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strVersion = editor.Version;
+```
 
-_strVersion_ = editor. **Version**
+### \[VBScript\]
+
+```
+strVersion = editor.Version
+```
 
 ## 版本
 

@@ -2,13 +2,19 @@
 
 選擇游標處的整個單字。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectWord**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectWord();
+```
 
-document.selection. **SelectWord**
+### \[VBScript\]
+
+```
+document.selection.SelectWord
+```
 
 ## 版本
 

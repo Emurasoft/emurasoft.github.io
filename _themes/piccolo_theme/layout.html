@@ -2,6 +2,8 @@
 
 {%- block scripts %}
     {{- script() }}
+    <meta name="EmEditor documentation">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" referrerpolicy="no-referrer">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" referrerpolicy="no-referrer">
@@ -136,7 +138,7 @@
                     <div class="searchformwrapper">
                         <form class="search" action="{{ pathto('search') }}" method="get">
                             <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="{% if language == "en" %}Search{% elif language == "ja" %}検索{% elif language == "ko" %}이동{% elif language == "zh_CN" %}提交{% elif language == "zh_TW" %}前往{% endif %}" />
-                            <button class="material-symbols-outlined" style="font-size:smaller;">
+                            <button class="material-symbols-outlined" style="font-size:1.2em;">
                                 search
                             </button>
                         </form>
@@ -198,7 +200,7 @@
         <p>
             {% if parents|length > 0 %}
                 {%- for doc in parents %}
-                    <a href="{{ doc.link|e }}">{{ doc.title }}</a> &lt;
+                    <a href="{{ doc.link|e }}">{{ doc.title }}</a> —&nbsp;
                 {%- endfor %}
                 {{ title }}
             {% endif %}

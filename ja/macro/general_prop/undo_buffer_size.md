@@ -1,20 +1,22 @@
 # UndoBufferSize プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の **\[\[元に戻す\] 最大回数\]** テキスト ボックスに相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[\[元に戻す\] 最大回数\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **UndoBufferSize**;
+### \[JavaScript\]
 
-object. **UndoBufferSize** = _b_;
+```
+b = object.UndoBufferSize;
+object.UndoBufferSize = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **UndoBufferSize**
-
-object. **UndoBufferSize** = _b_
+```
+b = object.UndoBufferSize
+object.UndoBufferSize = b
+```
 
 ## バージョン
 

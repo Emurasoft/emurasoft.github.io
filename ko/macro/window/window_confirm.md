@@ -2,13 +2,19 @@
 
 OK 버튼과 취소 버튼을 가진 간단한 대화 상자에 메시지를 표시합니다.
 
-#### \[JavaScript\]
+## 
 
-_bAnswer_ = **confirm**( _strQuestion_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bAnswer =confirm( strQuestion);
+```
 
-_bAnswer_ = **confirm**( _strQuestion_ )
+### \[VBScript\]
+
+```
+bAnswer =confirm( strQuestion )
+```
 
 ## 매개 변수
 

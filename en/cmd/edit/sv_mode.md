@@ -1,31 +1,36 @@
 # CSV (multiple items) command
 
-### Summary
+## Summary
 
-> Shows the document as the specified separated value mode (multiple items).
+Shows the document as the specified separated value mode (multiple items).
 
-### Description
+## Description
 
-> Shows the document as the specified separated value mode.
+Shows the document as the specified separated value mode.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **(CSV)**
-- [All Commands](../tools/all_commands): **CSV** \> **(CSV)**
+- Default Menu:CSV \>(CSV)
+- [All Commands](../tools/all_commands):CSV \>(CSV)
 - Toolbar: ![](../../images/csv_mode.gif) (CSV)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- From EEID\_SV\_MODE through EEID\_SV\_MODE + 63 (from 22528 through 22528 + 63)
+```
+From EEID_SV_MODE through EEID_SV_MODE + 63 (from 22528 through 22528 + 63)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(22528 + i); //i is an integer from 0 through 63
+```
+editor.ExecuteCommandByID(22528 + i); //i is an integer from 0 through 63
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 22528 + i 'i is an integer from 0 through 63
+```
+editor.ExecuteCommandByID 22528 + i 'i is an integer from 0 through 63
+```

@@ -1,14 +1,14 @@
 # \[プレーン テキストをBase64に変換(UTF-8)\] コマンド
 
-### 概要
+## 概要
 
-> 選択テキストをUTF-8を用いて Base64 エンコーディングにデコードします。
+選択テキストをUTF-8を用いて Base64 エンコーディングにデコードします。
 
-### 説明
+## 説明
 
-> 選択テキストをUTF-8を用いて Base64 エンコーディングにデコードします。
+選択テキストをUTF-8を用いて Base64 エンコーディングにデコードします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[変換\] \- \[選択範囲のエンコード/デコード\] \- \[プレーン テキストをBase64に変換(UTF-8)\]
 - [すべてのコマンド](../../glossary/allcommands): \[変換\] \- \[選択範囲のエンコード/デコード\] \- \[プレーン テキストをBase64に変換(UTF-8)\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_ENCODE\_BASE64\_UTF8 (3942)
+```
+EEID_ENCODE_BASE64_UTF8 (3942)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3942);
+```
+editor.ExecuteCommandByID(3942);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3942
+```
+editor.ExecuteCommandByID 3942
+```

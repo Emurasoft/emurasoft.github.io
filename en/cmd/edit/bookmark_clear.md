@@ -1,31 +1,36 @@
 # Clear All Bookmarks in This Document command
 
-### Summary
+## Summary
 
-> Clears all bookmarks in the current document.
+Clears all bookmarks in the current document.
 
-### Description
+## Description
 
-> Clears all bookmarks in the current document.
+Clears all bookmarks in the current document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **Clear All Bookmarks**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **Clear All Bookmarks**
+- Default Menu:Bookmarks \>Clear All Bookmarks
+- [All Commands](../tools/all_commands):Bookmarks \>Clear All Bookmarks
 - Toolbar: ![](../../images/bookmarkclear.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+F2
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_CLEAR (4323)
+```
+EEID_BOOKMARK_CLEAR (4323)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4323);
+```
+editor.ExecuteCommandByID(4323);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4323
+```
+editor.ExecuteCommandByID 4323
+```

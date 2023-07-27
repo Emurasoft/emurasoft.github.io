@@ -2,19 +2,21 @@
 
 用點數(pt)指定字型大小。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-item. **Size**;
+### \[JavaScript\]
 
-item. **Size** = _n_;
+```
+n = item.Size;
+item.Size = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Size**
-
-item. **Size** = _n_
+```
+n = item.Size
+item.Size = n
+```
 
 ## 版本
 

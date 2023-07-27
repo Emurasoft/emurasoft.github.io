@@ -12,12 +12,12 @@ lParam = (LPARAM) (MANAGE\_DUPLICATES\_INFO\*) pManageDuplicatesInfo;
 
 _pManageDuplicatesInfo_
 
-> 指向 [MANAGE\_DUPLICATES\_INFO](../structure/manage_duplicates_info) 结构。
+指向 [MANAGE\_DUPLICATES\_INFO](../structure/manage_duplicates_info) 结构。
 
 ## 返回值
 
-> 返回 HRESULT 值。0 或正值表示成功，负值表示失败。
+返回 HRESULT 值。0 或正值表示成功，负值表示失败。
 
 ## 版本
 
-> 支持 EmEditor Professional Version 16.4 或之后的版本。
+支持 EmEditor Professional Version 16.4 或之后的版本。

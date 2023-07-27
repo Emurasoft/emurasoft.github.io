@@ -16,13 +16,13 @@ lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
 
 _nSerial_
 
-> Specifies a serial position to be converted.
+Specifies a serial position to be converted.
 
 _pptLogical_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the converted logical
-> coordinates.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) that will receive the converted logical
+coordinates.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

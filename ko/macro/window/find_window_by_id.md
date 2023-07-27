@@ -2,13 +2,19 @@
 
 창 식별자로 하위 Window 개체를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-wndChild = wnd. **FindWindowByID**( id );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wndChild = wnd.FindWindowByID( id );
+```
 
-wndChild = wnd. **FindWindowByID**( id )
+### \[VBScript\]
+
+```
+wndChild = wnd.FindWindowByID( id )
+```
 
 ## 매개 변수
 

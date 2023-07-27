@@ -2,13 +2,19 @@
 
 식별자에 의해 지정된 메뉴 항목의 텍스트 문자열을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_strText_ = popupmenu. **GetText**( _id_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strText = popupmenu.GetText( id );
+```
 
-_strText_ = popupmenu. **GetText**( _id_ )
+### \[VBScript\]
+
+```
+strText = popupmenu.GetText( id )
+```
 
 ## 매개 변수
 

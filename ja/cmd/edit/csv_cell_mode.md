@@ -1,14 +1,14 @@
 # \[セル選択モード\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書でセル選択モードのオン/オフを切り替えます。
+CSV文書でセル選択モードのオン/オフを切り替えます。
 
-### 説明
+## 説明
 
-> CSV文書でセル選択モードのオン/オフを切り替えます。
+CSV文書でセル選択モードのオン/オフを切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[セル選択モード\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セル選択モード\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CSV\_CELL\_MODE (3959)
+```
+EEID_CSV_CELL_MODE (3959)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3959);
+```
+editor.ExecuteCommandByID(3959);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3959
+```
+editor.ExecuteCommandByID 3959
+```

@@ -1,32 +1,37 @@
 # Next Bookmark in This Document command
 
-### Summary
+## Summary
 
-> Goes to the next bookmark in this document.
+Goes to the next bookmark in this document.
 
-### Description
+## Description
 
-> Moves the cursor to the next bookmark in the current document. If no bookmark exists on the current
-> document, this command will not move the cursor.
+Moves the cursor to the next bookmark in the current document. If no bookmark exists on the current
+document, this command will not move the cursor.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **Next Bookmark**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **Next Bookmark**
+- Default Menu:Bookmarks \>Next Bookmark
+- [All Commands](../tools/all_commands):Bookmarks \>Next Bookmark
 - Toolbar: ![](../../images/bookmarknextwithin.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_NEXT\_WITHIN (4351)
+```
+EEID_BOOKMARK_NEXT_WITHIN (4351)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.NextBookmark();
+```
+document.selection.NextBookmark();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.NextBookmark
+```
+document.selection.NextBookmark
+```

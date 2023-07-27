@@ -13,12 +13,12 @@ lParam = (LPARAM) (OUTLINE\_ARRAY\_INFO\*) pOutlineArrayInfo;
 
 _pOutlineArrayInfo_
 
-> 指针指向一个 [OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) 结构。
+指针指向一个 [OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) 结构。
 
 ## 返回值
 
-> 返回值是 FALSE 如果没有变更。否则，返回值是 TRUE。
+返回值是 FALSE 如果没有变更。否则，返回值是 TRUE。
 
 ## 支持版本
 
-> 支持 EmEditor 13 或之后的版本。
+支持 EmEditor 13 或之后的版本。

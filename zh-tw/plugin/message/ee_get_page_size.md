@@ -14,8 +14,8 @@ lParam = (LPARAM) (SIZE\_PTR\*) psizePage;
 
 _psizePage_
 
-> 指針指向一個會接收頁面大小的 [SIZE\_PTR 結構](../structure/size_ptr)。頁面大小是一組由在當前 EmEditor 視窗大小中可以顯示的行數以及列數構成的數字。
+指針指向一個會接收頁面大小的 [SIZE\_PTR 結構](../structure/size_ptr)。頁面大小是一組由在當前 EmEditor 視窗大小中可以顯示的行數以及列數構成的數字。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

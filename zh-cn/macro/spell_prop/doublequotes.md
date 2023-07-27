@@ -1,20 +1,22 @@
 # DoubleQuotes 属性 (SpellProp ����)
 
-与配置属性中 [**拼写检查** 页面](../../dlg/properties/spell/index) 上的 **双引号内的字符串** 复选框相对应。
+与配置属性中 [拼写检查 页面](../../dlg/properties/spell/index) 上的双引号内的字符串 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DoubleQuotes**;
+### \[JavaScript\]
 
-object. **DoubleQuotes** = _b_;
+```
+b = object.DoubleQuotes;
+object.DoubleQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DoubleQuotes**
-
-object. **DoubleQuotes** = _b_
+```
+b = object.DoubleQuotes
+object.DoubleQuotes = b
+```
 
 ## 版本
 

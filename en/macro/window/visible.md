@@ -2,13 +2,19 @@
 
 Returns whether the window is visible.
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Visible**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Visible;
+```
 
-_b_ = wnd. **Visible**
+### \[VBScript\]
+
+```
+b = wnd.Visible
+```
 
 ## Version
 

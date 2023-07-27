@@ -2,13 +2,19 @@
 
 在光标处插入剪贴板内容。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Paste**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Paste( nFlags );
+```
 
-document.selection. **Paste** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Paste nFlags
+```
 
 ## 参数
 

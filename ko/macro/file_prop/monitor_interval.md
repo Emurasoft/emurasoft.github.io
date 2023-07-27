@@ -1,18 +1,22 @@
 # MonitorInterval 속성 (FileProp ��ü)
 
-구성 속성 [**파일** 탭](../../dlg/properties/file/index) 의 **모니터 간격** 텍스트 박스에 해당합니다.
+구성 속성 [파일 탭](../../dlg/properties/file/index) 의모니터 간격 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **MonitorInterval**;
+### \[JavaScript\]
 
-object. **MonitorInterval** = _n_;
+```
+n = object.MonitorInterval;
+object.MonitorInterval = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **MonitorInterval**
-
-object. **MonitorInterval** = _n_
+```
+n = object.MonitorInterval
+object.MonitorInterval = n
+```
 
 ## 버전
 

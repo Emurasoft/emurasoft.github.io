@@ -1,33 +1,38 @@
 # 自定义查看命令
 
-### 摘要
+## 摘要
 
-> 打开自定义对话框的查看页面。
+打开自定义对话框的查看页面。
 
-### 说明
+## 说明
 
-> 显示让你能定义通用应用设置的 [**自定义** 对话框](../../dlg/customize/index) 中的查看页面。
+显示让你能定义通用应用设置的 [自定义 对话框](../../dlg/customize/index) 中的查看页面。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](all_commands): **工具** >
-**自定义** >
-**查看**
+- [所有命令](all_commands):工具 >
+自定义 >
+查看
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_CUSTOMIZE\_VIEW (9051)
+```
+EEID_CUSTOMIZE_VIEW (9051)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9051);
+```
+editor.ExecuteCommandByID(9051);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9051
+```
+editor.ExecuteCommandByID 9051
+```

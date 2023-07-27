@@ -2,13 +2,19 @@
 
 지정된 줄의 수 만큼 커서를 위로 이동합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **LineUp**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.LineUp( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **LineUp** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.LineUp [ bExtend [, nCount ] ]
+```
 
 ## 매개 변수
 
@@ -20,7 +26,7 @@ _nCount_
 
 선택 사항입니다.
 위로 이동할 줄의 수를 지정합니다. 기본 값은 1 입니다.
-음수인 경우, 이 메서드는 [**LineDown** \
+음수인 경우, 이 메서드는 [LineDown \
 메서드](selection_linedown) 와 동일하게 작용합니다. 0인 경우, 메서드는 1과 동일하게 작용합니다.
 
 ## 버전

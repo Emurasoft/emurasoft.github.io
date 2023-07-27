@@ -1,15 +1,15 @@
 # \[キャロンを挿入\] コマンド
 
-### 概要
+## 概要
 
-> a, i, o, u, A, I, O, U を続けてキャロン付文字を挿入します。
+a, i, o, u, A, I, O, U を続けてキャロン付文字を挿入します。
 
-### 説明
+## 説明
 
-> カーソル位置に a, i, o, u, A, I, O, U を続けてキャロン付文字 ǎ, ǐ, ǒ, ǔ, Ǎ, Ǐ, Ǒ, Ǔ
-> を挿入します。
+カーソル位置に a, i, o, u, A, I, O, U を続けてキャロン付文字 ǎ, ǐ, ǒ, ǔ, Ǎ, Ǐ, Ǒ, Ǔ
+を挿入します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[挿入\] \- \[発音区別符号\] \- \[キャロン\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[発音区別符号\] \- \[キャロン\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: ALT+SHIFT+6
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_INSERT\_CARON (4369)
+```
+EEID_INSERT_CARON (4369)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4369);
+```
+editor.ExecuteCommandByID(4369);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4369
+```
+editor.ExecuteCommandByID 4369
+```

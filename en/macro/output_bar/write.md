@@ -2,13 +2,19 @@
 
 Appends a string to the output bar.
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **write**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.write( str );
+```
 
-OutputBar. **write** _str_
+### \[VBScript\]
+
+```
+OutputBar.write str
+```
 
 ## Parameters
 

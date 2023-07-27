@@ -1,20 +1,22 @@
 # InsertSpaces 属性 (IndentProp ����)
 
-与 [**制表符/缩进** 对话框](../../dlg/properties/general/indent/index) 上的 **将制表符转换为空格** 复选框相对应。
+与 [制表符/缩进 对话框](../../dlg/properties/general/indent/index) 上的将制表符转换为空格 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **InsertSpaces**;
+### \[JavaScript\]
 
-object. **InsertSpaces** = _b_;
+```
+b = object.InsertSpaces;
+object.InsertSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **InsertSpaces**
-
-object. **InsertSpaces** = _b_
+```
+b = object.InsertSpaces
+object.InsertSpaces = b
+```
 
 ## 版本
 

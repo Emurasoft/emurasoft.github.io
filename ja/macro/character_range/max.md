@@ -2,17 +2,21 @@
 
 オブジェクトの文字の最大値を指定します。
 
-#### \[JavaScript\]
+## 
 
-_c_ = obj. **Max**;
+### \[JavaScript\]
 
-obj. **Max** = _c_;
+```
+c = obj.Max;
+obj.Max = c;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_c_ = obj. **Max**;
-
-obj. **Max** = _c_;
+```
+c = obj.Max;
+obj.Max = c;
+```
 
 ## バージョン
 

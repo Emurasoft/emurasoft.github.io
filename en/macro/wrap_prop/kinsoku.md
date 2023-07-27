@@ -1,20 +1,24 @@
 # Kinsoku Property (WrapProp Object)
 
-Corresponds to the **Wrap**
-**These Characters** check box in the
-[**Wrap** page](../../dlg/properties/wrap/index) of Configuration Properties.
+Corresponds to theWrap
+These Characters check box in the
+[Wrap page](../../dlg/properties/wrap/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Kinsoku**;
+### \[JavaScript\]
 
-object. **Kinsoku** = _b_;
+```
+b = object.Kinsoku;
+object.Kinsoku = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Kinsoku**
-
-**object.Kinsoku** = _b_
+```
+b = object.Kinsoku
+object.Kinsoku = b
+```
 
 ## Version
 

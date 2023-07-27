@@ -9,12 +9,12 @@ Editor\_SetColumn( HWND hwnd, COLUMN\_STRUCT\* pColumnStruct );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _pSetLineInfo_
 
-> Pointer to the [COLUMN\_STRUCT](../structure/column_struct) structure.
+Pointer to the [COLUMN\_STRUCT](../structure/column_struct) structure.
 
 ## Return Values
 
-> The return value is 0 or positive if succeeded, or negative if failed.
+The return value is 0 or positive if succeeded, or negative if failed.

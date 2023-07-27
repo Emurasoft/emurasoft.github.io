@@ -2,13 +2,19 @@
 
 返回捲軸的垂直位置。
 
-#### \[JavaScript\]
+## 
 
-_yPos_ = **scrollY**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos =scrollY;
+```
 
-_yPos_ = **scrollY**
+### \[VBScript\]
+
+```
+yPos =scrollY
+```
 
 ## 版本
 

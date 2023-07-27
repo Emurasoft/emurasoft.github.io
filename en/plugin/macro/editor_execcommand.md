@@ -9,13 +9,13 @@ Editor\_ExecCommand( HWND hwnd, UINT nCmdID );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nCmdID_
 
-> The identifier of the command to be executed. See
-> [Command IDs](../cmdid/index).
+The identifier of the command to be executed. See
+[Command IDs](../cmdid/index).
 
 ## Return Value
 
-> The return value is not used.
+The return value is not used.

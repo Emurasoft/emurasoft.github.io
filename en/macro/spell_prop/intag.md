@@ -1,21 +1,23 @@
 # InTag Property (SpellProp Object)
 
-Corresponds to the **Tags** check box in the
-[**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to theTags check box in the
+[Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **InTag**;
+### \[JavaScript\]
 
-object. **InTag** = _b_;
+```
+b = object.InTag;
+object.InTag = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **InTag**
-
-object. **InTag** = _b_
+```
+b = object.InTag
+object.InTag = b
+```
 
 ## Version
 

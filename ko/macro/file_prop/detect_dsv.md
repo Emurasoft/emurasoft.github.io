@@ -1,18 +1,22 @@
 # DetectDSV 속성 (FileProp ��ü)
 
-구성 속성 [**파일** 탭](../../dlg/properties/file/index) 의 **DSV 검색 (사용자 정의된 구분 기호 구분)** 체크 박스에 해당합니다.
+구성 속성 [파일 탭](../../dlg/properties/file/index) 의DSV 검색 (사용자 정의된 구분 기호 구분) 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectDSV**;
+### \[JavaScript\]
 
-object. **DetectDSV** = _b_;
+```
+b = object.DetectDSV;
+object.DetectDSV = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectDSV**
-
-object. **DetectDSV** = _b_
+```
+b = object.DetectDSV
+object.DetectDSV = b
+```
 
 ## 버전
 

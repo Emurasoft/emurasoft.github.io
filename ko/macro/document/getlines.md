@@ -2,13 +2,19 @@
 
 문서의 줄 수를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_nLines_ = document. **GetLines**( \[ _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nLines = document.GetLines( [ nFlags ] );
+```
 
-_nLines_ = document. **GetLines**( \[ _nFlags_ \] )
+### \[VBScript\]
+
+```
+nLines = document.GetLines( [ nFlags ] )
+```
 
 ## 매개 변수
 

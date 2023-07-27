@@ -9,16 +9,16 @@ Editor\_Help( HWND hwnd, LPCTSTR szPageURL );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _szString_
 
-> 表示するヘルプのページのURLを指定します。
+表示するヘルプのページのURLを指定します。
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。
 
 ## バージョン
 
-> EmEditor Version 7.00 以上で利用できます。
+EmEditor Version 7.00 以上で利用できます。

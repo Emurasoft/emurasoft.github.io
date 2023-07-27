@@ -10,21 +10,21 @@ Editor\_InsertA( HWND hwnd, LPCSTR szString, bool bKeepDestReturnType = false );
 
 _hwnd_
 
-> 보기의 창 핸들 또는 EmEditor의 프레임을 지정합니다.
+보기의 창 핸들 또는 EmEditor의 프레임을 지정합니다.
 
 _szString_
 
-> 삽입할 문자열을 지정합니다.
+삽입할 문자열을 지정합니다.
 
 _bKeepDestReturnType_
 
-> 대상 반환 유형 (CR 만, LF 만 또는 CR과 LF)이 유지되도록 지정합니다.
-> 이 매개 변수가 생략된경우, EmEditor는 szString 매개 변수에서 지정된 반환 유형을 유지합니다.
+대상 반환 유형 (CR 만, LF 만 또는 CR과 LF)이 유지되도록 지정합니다.
+이 매개 변수가 생략된경우, EmEditor는 szString 매개 변수에서 지정된 반환 유형을 유지합니다.
 
 ## 반환 값
 
-> 반환 값이 사용되지 않습니다.
+반환 값이 사용되지 않습니다.
 
 ## 버전
 
-> bKeepDestReturnType flag는 EmEditor 버전 7 이상에서만 지원됩니다.
+bKeepDestReturnType flag는 EmEditor 버전 7 이상에서만 지원됩니다.

@@ -1,20 +1,22 @@
 # UnicodeSignature 属性 (FileSaveProp ����)
 
-与 [**添加一个 Unicode 签名 (BOM)** 复选框](../../dlg/properties/file/save_details/index) 相对应。
+与 [添加一个 Unicode 签名 (BOM) 复选框](../../dlg/properties/file/save_details/index) 相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **UnicodeSignature**;
+### \[JavaScript\]
 
-object. **UnicodeSignature** = _b_;
+```
+b = object.UnicodeSignature;
+object.UnicodeSignature = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **UnicodeSignature**
-
-object. **UnicodeSignature** = _b_
+```
+b = object.UnicodeSignature
+object.UnicodeSignature = b
+```
 
 ## 版本
 

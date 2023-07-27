@@ -2,13 +2,19 @@
 
 [clipboardData オブジェクト](../clipboarddata/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_clip_ = **clipboardData**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+clip =clipboardData;
+```
 
-Set _clip_ = **clipboardData**
+### \[VBScript\]
+
+```
+Set clip =clipboardData
+```
 
 ## バージョン
 

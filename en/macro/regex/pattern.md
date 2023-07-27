@@ -2,17 +2,21 @@
 
 Sets or retrieves the regular expression pattern.
 
-#### \[JavaScript\]
+## 
 
-_s_ = reg. **Pattern**;
+### \[JavaScript\]
 
-reg. **Pattern** = s;
+```
+s = reg.Pattern;
+reg.Pattern = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-s = reg. **Pattern**
-
-reg. **Pattern** = _s_
+```
+s = reg.Pattern
+reg.Pattern = s
+```
 
 ## Version
 

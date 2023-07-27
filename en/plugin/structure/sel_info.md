@@ -20,20 +20,20 @@ POINT\_PTR ptCaret;
 
 _cbSize_
 
-> Must specify sizeof( SEL\_INFO ).
+Must specify sizeof( SEL\_INFO ).
 
 _ptStart_
 
-> Specifies the starting position of the selection.
+Specifies the starting position of the selection.
 
 _ptEnd_
 
-> Specifies the ending position of the selection.
+Specifies the ending position of the selection.
 
 _ptCaret_
 
-> Specifies the cursor position of the selection.
+Specifies the cursor position of the selection.
 
 ## Version
 
-> Supported on Version 13 or later.
+Supported on Version 13 or later.

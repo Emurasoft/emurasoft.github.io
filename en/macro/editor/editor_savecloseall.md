@@ -2,13 +2,19 @@
 
 Saves and Closes all open files.
 
-#### \[JavaScript\]
+## 
 
-editor. **SaveCloseAll**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.SaveCloseAll();
+```
 
-editor. **SaveCloseAll**
+### \[VBScript\]
+
+```
+editor.SaveCloseAll
+```
 
 ## Version
 

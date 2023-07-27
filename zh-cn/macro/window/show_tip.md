@@ -2,13 +2,19 @@
 
 显示工具提示。
 
-#### \[JavaScript\]
+## 
 
-**ShowTip**( _strTip_, _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+ShowTip( strTip, flags );
+```
 
-**ShowTip** _strTip_, _flags_
+### \[VBScript\]
+
+```
+ShowTip strTip, flags
+```
 
 ## 参数
 

@@ -8,12 +8,12 @@ Editor\_UpdateToolbar( HWND hwnd, UINT nCmdID );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nCmdID_
 
-> Specifies the Plug-in instance handle.
+Specifies the Plug-in instance handle.
 
 ## Return Values
 
-> Return value is not used.
+Return value is not used.

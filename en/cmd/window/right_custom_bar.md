@@ -1,32 +1,37 @@
 # Right Custom Bar command
 
-### Summary
+## Summary
 
-> Switches to the custom bar on right.
+Switches to the custom bar on right.
 
-### Description
+## Description
 
-> Switches to the custom bar on right if available.
+Switches to the custom bar on right if available.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Custom Bar** \> **Right**
+- [All Commands](../tools/all_commands):Window
+\>Custom Bar \>Right
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FOCUS\_RIGHT\_BAR (4427)
+```
+EEID_FOCUS_RIGHT_BAR (4427)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4427);
+```
+editor.ExecuteCommandByID(4427);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4427
+```
+editor.ExecuteCommandByID 4427
+```

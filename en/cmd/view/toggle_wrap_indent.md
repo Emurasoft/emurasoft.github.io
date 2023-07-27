@@ -1,32 +1,37 @@
 # Wrap Indent command
 
-### Summary
+## Summary
 
-> Enables or disables Wrap Indent.
+Enables or disables Wrap Indent.
 
-### Description
+## Description
 
-> Enables or disables Wrap Indent. When this command is enabled, indents will be carried over when lines are wrapped.
+Enables or disables Wrap Indent. When this command is enabled, indents will be carried over when lines are wrapped.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Tab/Indent** \> **Wrap Indent**
-- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Wrap Indent**
+- Default Menu:View \>Tab/Indent \>Wrap Indent
+- [All Commands](../tools/all_commands):View \>Tab/Indent \>Wrap Indent
 - Toolbar:
 ![](../../images/wrap_indent24x16.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_TOGGLE\_WRAP\_INDENT (4542)
+```
+EEID_TOGGLE_WRAP_INDENT (4542)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4542);
+```
+editor.ExecuteCommandByID(4542);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4542
+```
+editor.ExecuteCommandByID 4542
+```

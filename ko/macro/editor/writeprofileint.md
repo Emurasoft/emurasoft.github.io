@@ -2,13 +2,19 @@
 
 엠에디터 설정에 따라 레지스트리 또는 INI 파일에 정수 값을 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-editor. **WriteProfileInt**( _nKey_, _strConfig_, _strEntry_, _nData_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.WriteProfileInt( nKey, strConfig, strEntry, nData );
+```
 
-editor. **WriteProfileInt** _nKey_, _strConfig_, _strEntry_, _nData_
+### \[VBScript\]
+
+```
+editor.WriteProfileInt nKey, strConfig, strEntry, nData
+```
 
 ## 매개 변수
 

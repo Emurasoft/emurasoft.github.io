@@ -12,12 +12,12 @@ lParam = 0;
 
 _pUNI_
 
-> 指定指針指向 [NUMBERING\_INFO 結構](../structure/numbering_info)。
+指定指針指向 [NUMBERING\_INFO 結構](../structure/numbering_info)。
 
 ## 返回值
 
-> 如果成功的話，返回值為 0。
+如果成功的話，返回值為 0。
 
 ## 版本
 
-> 支持 EmEditor Professional 19.1 或之後的版本。
+支持 EmEditor Professional 19.1 或之後的版本。

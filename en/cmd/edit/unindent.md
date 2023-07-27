@@ -1,33 +1,38 @@
 # Decrease Line Indent command
 
-### Summary
+## Summary
 
-> Decreases line indent at the selected area.
+Decreases line indent at the selected area.
 
-### Description
+## Description
 
-> Decreases line indent by removing one tab character at the beginning of each line
-> at the selected area. If multiple lines are selected, this command is equivalent
-> to the [**Tab Left or Decrease Line Indent** command](shift_tab).
+Decreases line indent by removing one tab character at the beginning of each line
+at the selected area. If multiple lines are selected, this command is equivalent
+to the [Tab Left or Decrease Line Indent command](shift_tab).
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Decrease Line Indent**
-- [All Commands](../tools/all_commands): **Convert** \> **Decrease Line Indent**
+- Default Menu:Convert \>Decrease Line Indent
+- [All Commands](../tools/all_commands):Convert \>Decrease Line Indent
 - Toolbar: ![](../../images/unindent.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT + TAB
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_UNINDENT (4359)
+```
+EEID_UNINDENT (4359)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.UnIndent();
+```
+document.selection.UnIndent();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.UnIndent
+```
+document.selection.UnIndent
+```

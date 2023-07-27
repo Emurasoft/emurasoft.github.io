@@ -2,13 +2,19 @@
 
 撤消上一次的動作。
 
-#### \[JavaScript\]
+## 
 
-document. **Undo**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Undo();
+```
 
-document. **Undo**
+### \[VBScript\]
+
+```
+document.Undo
+```
 
 ## 版本
 

@@ -6,30 +6,28 @@ DisplayList collection provides a collection of [DisplayItem objects](../display
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | Retrieves the number of items. |
-| **[Item](item)** | Retrieves the [DisplayItem object](../display_item/index) for the specified index. |
+|[Count](count) | Retrieves the number of items. |
+|[Item](item) | Retrieves the [DisplayItem object](../display_item/index) for the specified index. |
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Display.ColorList );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.TextColor );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Display.ColorList
-
 alert item.TextColor
-
 Next
+```
 
 ## Version
 

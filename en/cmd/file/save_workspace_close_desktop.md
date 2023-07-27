@@ -1,32 +1,37 @@
 # Save Workspace, Save, and Close All (Current Desktop Only) command
 
-### Summary
+## Summary
 
-> Saves the workspace, saves and closes all open files in the current virtual desktop.
+Saves the workspace, saves and closes all open files in the current virtual desktop.
 
-### Description
+## Description
 
-> Saves the workspace, saves and closes all open files in the current virtual desktop.
+Saves the workspace, saves and closes all open files in the current virtual desktop.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Close**
-\> **Save Workspace, Save, and Close All (Current Desktop Only)**
+- [All Commands](../tools/all_commands):File \>Close
+\>Save Workspace, Save, and Close All (Current Desktop Only)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SAVE\_WORKSPACE\_CLOSE\_DESKTOP (3937)
+```
+EEID_SAVE_WORKSPACE_CLOSE_DESKTOP (3937)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3937);
+```
+editor.ExecuteCommandByID(3937);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3937
+```
+editor.ExecuteCommandByID 3937
+```

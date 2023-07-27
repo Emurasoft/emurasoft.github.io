@@ -2,13 +2,19 @@
 
 Returns the caption text for the window.
 
-#### \[JavaScript\]
+## 
 
-_str_ = wnd. **Caption**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = wnd.Caption;
+```
 
-_str_ = wnd. **Caption**
+### \[VBScript\]
+
+```
+str = wnd.Caption
+```
 
 ## Version
 

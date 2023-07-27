@@ -2,13 +2,19 @@
 
 지정된 창의 스타일을 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ = wnd. **Style**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = wnd.Style;
+```
 
-_n_ = wnd. **Style**
+### \[VBScript\]
+
+```
+n = wnd.Style
+```
 
 ## 버전
 

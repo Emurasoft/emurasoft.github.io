@@ -2,13 +2,19 @@
 
 EmEditor の設定に応じて、レジストリまたは INI ファイルに、文字列値を設定します。
 
-#### \[JavaScript\]
+## 
 
-editor. **WriteProfileString**( _nKey_, _strConfig_, _strEntry_, _strData_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.WriteProfileString( nKey, strConfig, strEntry, strData );
+```
 
-editor. **WriteProfileString** _nKey_, _strConfig_, _strEntry_, _strData_
+### \[VBScript\]
+
+```
+editor.WriteProfileString nKey, strConfig, strEntry, strData
+```
 
 ## パラメータ
 
@@ -57,15 +63,14 @@ _nType_
 
 この例は、64 ビット整数を書き込む方法を説明します。
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nLow = 0x02000183;
-
 nHigh = 0x00000004;
-
 s64 = "0x" + nHigh.toString(16) + ("00000000" + nLow.toString(16)).slice(-8);
-
 editor.WriteProfileString( eeRegCommon, "", "FindFlag", s64, eeRegQWord );
+```
 
 ## バージョン
 

@@ -1,20 +1,22 @@
 # VerticalPage 属性 (ScrollProp ����)
 
-与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **总是启用 1 页垂直滚动** 复选框相对应。
+与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的总是启用 1 页垂直滚动 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **VerticalPage** ;
+### \[JavaScript\]
 
-object. **VerticalPage**  = _b_;
+```
+b = object.VerticalPage ;
+object.VerticalPage  = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **VerticalPage**
-
-object. **VerticalPage**  = _b_
+```
+b = object.VerticalPage
+object.VerticalPage  = b
+```
 
 ## 版本
 

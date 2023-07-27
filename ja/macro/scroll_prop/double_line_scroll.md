@@ -1,21 +1,23 @@
 # DoubleLineScroll プロパティ (ScrollProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の
-**\[2行スクロール\]** チェック ボックスに相当します。
+設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
+\[2行スクロール\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DoubleLineScroll**;
+### \[JavaScript\]
 
-object. **DoubleLineScroll** = _b_;
+```
+b = object.DoubleLineScroll;
+object.DoubleLineScroll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DoubleLineScroll**
-
-object. **DoubleLineScroll** = _b_
+```
+b = object.DoubleLineScroll
+object.DoubleLineScroll = b
+```
 
 ## バージョン
 

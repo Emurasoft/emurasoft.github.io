@@ -2,13 +2,19 @@
 
 Removes an item.
 
-#### \[JavaScript\]
+## 
 
-list. **Remove**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Remove( Index );
+```
 
-list. **Remove** _Index_
+### \[VBScript\]
+
+```
+list.Remove Index
+```
 
 ## Parameters
 

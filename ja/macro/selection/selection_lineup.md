@@ -2,13 +2,19 @@
 
 カーソル位置を上に指定した行数だけ移動します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **LineUp**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.LineUp( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **LineUp** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.LineUp [ bExtend [, nCount ] ]
+```
 
 ## 引数
 

@@ -2,13 +2,19 @@
 
 현재 줄의 끝 지점으로 커서를 이동합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **EndOfLine**( \[ _bExtend_ \[, _nFlags_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.EndOfLine( [ bExtend [, nFlags ] ] );
+```
 
-document.selection. **EndOfLine** \[ _bExtend_ \[, _nFlags_ \] \]
+### \[VBScript\]
+
+```
+document.selection.EndOfLine [ bExtend [, nFlags ] ]
+```
 
 ## 매개 변수
 

@@ -2,13 +2,19 @@
 
 檢索標示文檔是否未命名的標志。
 
-#### \[JavaScript\]
+## 
 
-_b_ = document. **Untitled**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = document.Untitled;
+```
 
-_b_ = document. **Untitled**
+### \[VBScript\]
+
+```
+b = document.Untitled
+```
 
 ## 版本
 

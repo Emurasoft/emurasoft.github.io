@@ -1,14 +1,20 @@
 # List 属性 (Keyboard ����)
 
-检索 [**KeyboardList** 集合](../keyboard_list/index)。
+检索 [KeyboardList 集合](../keyboard_list/index)。
 
-#### \[JavaScript\]
+## 
 
-_list_ = object. **List**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.List;
+```
 
-_list_ = object. **List**
+### \[VBScript\]
+
+```
+list = object.List
+```
 
 ## 版本
 

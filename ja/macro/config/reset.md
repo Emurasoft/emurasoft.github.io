@@ -2,13 +2,19 @@
 
 現在の設定をリセットします。
 
-#### \[JavaScript\]
+## 
 
-object. **Reset**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Reset( [ strName ] );
+```
 
-object. **Reset** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Reset [ strName ]
+```
 
 ## パラメータ
 

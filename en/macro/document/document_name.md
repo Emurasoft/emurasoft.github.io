@@ -2,23 +2,33 @@
 
 Retrieves the file name of the document without its path, or renames the file name of the document. If the document is untitled, renames the document title without saving the file.
 
-#### \[JavaScript\]
+## 
 
-_strName_ = document. **Name**;document. **Name** = _strName_;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = document.Name;document.Name = strName;
+```
 
-_strName_ = document. **Name** document. **Name** = _strName_
+### \[VBScript\]
+
+```
+strName = document.Name document.Name = strName
+```
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( document.Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert document.Name
+```
 
 ## Version
 

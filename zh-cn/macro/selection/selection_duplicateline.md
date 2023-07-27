@@ -2,13 +2,19 @@
 
 复制当前行。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **DuplicateLine**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.DuplicateLine();
+```
 
-document.selection. **DuplicateLine**
+### \[VBScript\]
+
+```
+document.selection.DuplicateLine
+```
 
 ## 版本
 

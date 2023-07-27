@@ -7,17 +7,20 @@
 この例では、「Continue?」というメッセージを表示し、\[はい\]、\[いいえ\]、および \[キャンセル\] の 3 個のボタンを表示します。\[はい\]
 ボタンが選択されると 6 が \[いいえ\] ボタンが選択されると 7 が、\[キャンセル\] ボタンが選択されると 2 が変数 n に代入されます。
 
-#### \[JavaScript (JScript)\]
+## 
+
+### \[JavaScript (JScript)\]
 
 WshShell = new ActiveXObject( "WScript.Shell" );
 
 n = WshShell.Popup( "Continue?", 0, "EmEditor", 3 );
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set WshShell = CreateObject( "WScript.Shell" )
-
 n = WshShell.Popup( "Continue?", 0, "EmEditor", 3 )
+```
 
 ## 参考
 

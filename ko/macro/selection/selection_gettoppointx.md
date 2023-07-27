@@ -2,13 +2,19 @@
 
 선택 영역의 상단의 열 번호를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetTopPointX**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetTopPointX( nFlags [, iSel ] );
+```
 
-xPos = document.selection. **GetTopPointX**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetTopPointX( nFlags [, iSel ] )
+```
 
 ## 매개 변수
 

@@ -2,13 +2,19 @@
 
 1 ページ上へ移動します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **PageUp**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.PageUp( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **PageUp** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.PageUp [ bExtend [, nCount ] ]
+```
 
 ## 引数
 

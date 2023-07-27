@@ -2,13 +2,19 @@
 
 Returns true if a specified folder exists; false if it does not.
 
-#### \[JavaScript\]
+## 
 
-b = shell. **FolderExists**( _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = shell.FolderExists( strFolder );
+```
 
-b = shell. **FolderExists**( _strFolder_ )
+### \[VBScript\]
+
+```
+b = shell.FolderExists( strFolder )
+```
 
 ## Parameters
 
@@ -18,13 +24,17 @@ The name of the folder whose existance is to be determined.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 b = shell.FolderExists( "C:\\\Test\\\folder" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 b = shell.FolderExists( "C:\\Test\\folder" )
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 检索 [FileProp 对象](../file_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **File**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.File;
+```
 
-Set _obj_ = object. **File**
+### \[VBScript\]
+
+```
+Set obj = object.File
+```
 
 ## 版本
 

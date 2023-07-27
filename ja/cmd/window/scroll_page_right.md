@@ -1,14 +1,14 @@
 # \[右のページにスクロール\] コマンド
 
-### 概要
+## 概要
 
-> 右のページにスクロールします。
+右のページにスクロールします。
 
-### 説明
+## 説明
 
-> 右のページにスクロールします。
+右のページにスクロールします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[スクロール\] \- \[右のページ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SCROLL\_PAGE\_RIGHT (3869)
+```
+EEID_SCROLL_PAGE_RIGHT (3869)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3869);
+```
+editor.ExecuteCommandByID(3869);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3869
+```
+editor.ExecuteCommandByID 3869
+```

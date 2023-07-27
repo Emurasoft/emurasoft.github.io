@@ -2,13 +2,19 @@
 
 現在開いている [Shell オブジェクト](../shell/index) を返します。
 
-#### \[JavaScript\]
+## 
 
-_shl_ = **shell**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shl =shell;
+```
 
-Set _shl_ = **shell**
+### \[VBScript\]
+
+```
+Set shl =shell
+```
 
 ## バージョン
 

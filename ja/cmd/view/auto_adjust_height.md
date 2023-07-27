@@ -1,14 +1,14 @@
 # \[自動的に高さを調節する (セル ツール バー)\] コマンド
 
-### 概要
+## 概要
 
-> セル ツール バーの高さを自動的に調節します。
+セル ツール バーの高さを自動的に調節します。
 
-### 説明
+## 説明
 
-> セル ツール バーの高さを自動的に調節します。
+セル ツール バーの高さを自動的に調節します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[ツール バー\] \- \[セル ツール バー\] \- \[自動的に高さを調節する\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CELL\_BAR\_AUTO\_HEIGHT (3971)
+```
+EEID_CELL_BAR_AUTO_HEIGHT (3971)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3971);
+```
+editor.ExecuteCommandByID(3971);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3971
+```
+editor.ExecuteCommandByID 3971
+```

@@ -1,34 +1,39 @@
 # Copy in Quotes command
 
-### Summary
+## Summary
 
-> Copies the selection in quotes and pastes it to the Clipboard.
+Copies the selection in quotes and pastes it to the Clipboard.
 
-### Description
+## Description
 
-> Copies the selected text with the quote mark at the beginning of each line and put it on the Clipboard. After this command, you
-> can place the selection by moving the cursor to a different location
-> and running the [**Paste** command](edit_paste).
+Copies the selected text with the quote mark at the beginning of each line and put it on the Clipboard. After this command, you
+can place the selection by moving the cursor to a different location
+and running the [Paste command](edit_paste).
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Copy in Quotes**
-- [All Commands](../tools/all_commands): **Edit** \> **Copy**
-\> **Copy in Quotes**
+- Default Menu:Edit \>Copy in Quotes
+- [All Commands](../tools/all_commands):Edit \>Copy
+\>Copy in Quotes
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EDIT\_COPY\_PREFIX (4130)
+```
+EEID_EDIT_COPY_PREFIX (4130)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Copy(eeCopyQuotes);
+```
+document.selection.Copy(eeCopyQuotes);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Copy eeCopyQuotes
+```
+document.selection.Copy eeCopyQuotes
+```

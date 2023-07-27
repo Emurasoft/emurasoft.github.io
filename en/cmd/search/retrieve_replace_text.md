@@ -1,36 +1,41 @@
 # Set Word to Replace command
 
-### Summary
+## Summary
 
-> Sets the current word as the replace string.
+Sets the current word as the replace string.
 
-### Description
+## Description
 
-> Sets the word at the cursor position to the replace string for the [**Replace Next** command](replace_next).  After running this command, if you
-> select the [**Replace Next** command](replace_next), it will
-> immediately replace the next query word with the word specified with this command. If the
-> Custom is selected for the **\> button**, the [**Replace** dialog box](../../dlg/replace/index)
-> will display the word specified by this command as default.
+Sets the word at the cursor position to the replace string for the [Replace Next command](replace_next).  After running this command, if you
+select the [Replace Next command](replace_next), it will
+immediately replace the next query word with the word specified with this command. If the
+Custom is selected for the\> button, the [Replace dialog box](../../dlg/replace/index)
+will display the word specified by this command as default.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Set Word to Replace**
+- [All Commands](../tools/all_commands):Search
+\>Set Word to Replace
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_RETRIEVE\_REPLACE\_TEXT (4446)
+```
+EEID_RETRIEVE_REPLACE_TEXT (4446)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4446);
+```
+editor.ExecuteCommandByID(4446);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4446
+```
+editor.ExecuteCommandByID 4446
+```

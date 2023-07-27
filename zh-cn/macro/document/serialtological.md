@@ -1,14 +1,20 @@
 # SerialToLogical 方法 (Document ����)
 
-将串行位置转换为逻辑坐标，并检索在 [**Point** 对象](../point/index) 中的位置。
+将串行位置转换为逻辑坐标，并检索在 [Point 对象](../point/index) 中的位置。
 
-#### \[JavaScript\]
+## 
 
-_point_ = document. **SerialToLogical**( _nSerialPos_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+point = document.SerialToLogical( nSerialPos );
+```
 
-_point_ = document. **SerialToLogical**( _nSerialPos_ )
+### \[VBScript\]
+
+```
+point = document.SerialToLogical( nSerialPos )
+```
 
 ## 参数
 
@@ -18,21 +24,21 @@ _nSerialPos_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 point = document.SerialToLogical( 10 );
-
 x = point.x;
-
 y = point.y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 point = document.SerialToLogical( 10 )
-
 x = point.x
-
 y = point.y
+```
 
 ## 版本
 

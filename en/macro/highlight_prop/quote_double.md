@@ -1,21 +1,23 @@
 # QuoteDouble Property (HighlightProp Object)
 
-Corresponds to the **String**
-**Enclosed by Quotation Marks group box - Double Quotation Marks "..."** check box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to theString
+Enclosed by Quotation Marks group box - Double Quotation Marks "..." check box in the [Highlight (2) page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **QuoteDouble**;
+### \[JavaScript\]
 
-object. **QuoteDouble** = _b_;
+```
+b = object.QuoteDouble;
+object.QuoteDouble = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **QuoteDouble**
-
-object. **QuoteDouble** = _b_
+```
+b = object.QuoteDouble
+object.QuoteDouble = b
+```
 
 ## Version
 

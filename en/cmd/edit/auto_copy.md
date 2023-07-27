@@ -1,32 +1,37 @@
 # Auto Copy command
 
-### Summary
+## Summary
 
-> Toggles the auto copy mode.
+Toggles the auto copy mode.
 
-### Description
+## Description
 
-> Toggles the auto copy mode.
+Toggles the auto copy mode.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Auto Copy**
-- [All Commands](../tools/all_commands): **Edit** \> **Copy**
-\> **Auto Copy**
+- Default Menu:Edit \>Auto Copy
+- [All Commands](../tools/all_commands):Edit \>Copy
+\>Auto Copy
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_AUTO\_COPY (3979)
+```
+EEID_AUTO_COPY (3979)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID (3979);
+```
+editor.ExecuteCommandByID (3979);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3979
+```
+editor.ExecuteCommandByID 3979
+```

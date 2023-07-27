@@ -1,31 +1,36 @@
 # Delete Duplicate Lines command
 
-### Summary
+## Summary
 
-> Deletes duplicate lines in the selection or in the entire document.
+Deletes duplicate lines in the selection or in the entire document.
 
-### Description
+## Description
 
-> Deletes duplicate lines in the selection or in the entire document. The first instance of the duplicate line will be retained.
+Deletes duplicate lines in the selection or in the entire document. The first instance of the duplicate line will be retained.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Sort** \> **Delete Duplicate Lines**
-- [All Commands](../tools/all_commands): **Sort** \> **Delete Duplicate Lines**
+- Default Menu:Sort \>Delete Duplicate Lines
+- [All Commands](../tools/all_commands):Sort \>Delete Duplicate Lines
 - Toolbar: ![](../../images/deleteduplicatelines.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DELETE\_DUPLICATE (4564)
+```
+EEID_DELETE_DUPLICATE (4564)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.DeleteDuplicates("",0);
+```
+document.DeleteDuplicates("",0);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.DeleteDuplicates "",0
+```
+document.DeleteDuplicates "",0
+```

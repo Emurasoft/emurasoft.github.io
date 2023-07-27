@@ -3,19 +3,25 @@
 Deletes the selected text. If the selection is empty, deletes the
 specified number of characters to the right of the cursor.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Delete**( \[\[ _nCount_ \], _bComplete_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Delete( [[ nCount ], bComplete ] );
+```
 
-document.selection. **Delete** \[\[ _nCount_ \], _bComplete_ \]
+### \[VBScript\]
+
+```
+document.selection.Delete [[ nCount ], bComplete ]
+```
 
 ## Parameters
 
 _nCount_
 
-Optional. Specifies the number of characters to delete to the right of the cursor. The default is 1. If negative, the method acts like the [**DeleteLeft** Method](selection_deleteleft). If 0, the method acts like 1.
+Optional. Specifies the number of characters to delete to the right of the cursor. The default is 1. If negative, the method acts like the [DeleteLeft Method](selection_deleteleft). If 0, the method acts like 1.
 
 _bComplete_
 

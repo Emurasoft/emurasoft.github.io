@@ -1,19 +1,23 @@
 # Header Property (PrintProp Object)
 
-Corresponds to the **Header** text box in the
-[**Print** page](../../dlg/properties/print/index) of Configuration Properties.
+Corresponds to the Header text box in the
+[Print page](../../dlg/properties/print/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Header**;
+### \[JavaScript\]
 
-object. **Header** = _s_;
+```
+s = object.Header;
+object.Header = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Header**
-
-object. **Header** = _s_
+```
+s = object.Header
+object.Header = s
+```
 
 ## Version
 

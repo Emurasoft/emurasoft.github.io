@@ -2,23 +2,27 @@
 
 Retrieves or sets the current encoding of the opened file.
 
-#### \[JavaScript\]
+## 
 
-_nEncoding_ = document. **Encoding**;
+### \[JavaScript\]
 
-document. **Encoding** = _nEncoding_;
+```
+nEncoding = document.Encoding;
+document.Encoding = nEncoding;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nEncoding_ = document. **Encoding**
-
-document. **Encoding** = _nEncoding_
+```
+nEncoding = document.Encoding
+document.Encoding = nEncoding
+```
 
 ## Parameters
 
 _nEncoding_
 
-Select from the **[Encoding Constants](../const/const_encoding)**,
+Select from the[Encoding Constants](../const/const_encoding),
 or specify any code page used in the Windows Operating System.
 
 ## Version

@@ -2,13 +2,19 @@
 
 检索 [AssociationProp 对象](../association_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Association**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Association;
+```
 
-Set _obj_ = object. **Association**
+### \[VBScript\]
+
+```
+Set obj = object.Association
+```
 
 ## 版本
 

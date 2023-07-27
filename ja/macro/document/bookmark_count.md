@@ -2,13 +2,19 @@
 
 文書内のブックマークの数を取得します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **BookmarkCount**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = document.BookmarkCount;
+```
 
-_n_ = document. **BookmarkCount**
+### \[VBScript\]
+
+```
+n = document.BookmarkCount
+```
 
 ## バージョン
 

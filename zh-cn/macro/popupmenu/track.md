@@ -2,13 +2,19 @@
 
 显示弹出菜单，检索所选菜单项的标识符。
 
-#### \[JavaScript\]
+## 
 
-id = popupmenu. **Track**( _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+id = popupmenu.Track( flags );
+```
 
-id = popupmenu. **Track**( _flags_ )
+### \[VBScript\]
+
+```
+id = popupmenu.Track( flags )
+```
 
 ## 参数
 

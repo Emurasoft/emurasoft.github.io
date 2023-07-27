@@ -4,10 +4,10 @@
 (if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
 (if you want to change all configurations) to display
-the **Display** tab.
-2. Select **Quoted Line** from the list and click the **Text** button
+theDisplay tab.
+2. SelectQuoted Line from the list and click theText button
 to change the color.
 
 ## Tips
 
-- Set characters in **Quote Marks** to define a line as **Quoted Line**.
+- Set characters inQuote Marks to define a line asQuoted Line.

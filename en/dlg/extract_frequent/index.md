@@ -1,7 +1,9 @@
 # Extract Frequent Strings dialog box
 
 This dialog box appears when the
-[**Extract Frequent Strings** command](../../cmd/search/extract_frequent) is selected. It creates a list of frequently used strings as a CSV document.
+[Extract Frequent Strings command](../../cmd/search/extract_frequent) is selected. It creates a list of frequently used strings as a CSV document.
+
+## 
 
 ### Whole Lines radio button
 
@@ -9,7 +11,7 @@ Creates a list of frequent lines.
 
 ### Words radio button
 
-Creates a list of frequent words. A word is a string surrounded by non-alphanumeric characters, which can be customized by the **Treat the following characters as alphanumeric** text box in the [**Edit** page](../customize/edit/index) of the **Customize** dialog box.
+Creates a list of frequent words. A word is a string surrounded by non-alphanumeric characters, which can be customized by theTreat the following characters as alphanumeric text box in the [Edit page](../customize/edit/index) of theCustomize dialog box.
 
 ### Cells radio button
 
@@ -57,5 +59,5 @@ Deletes the selected item(s) from the list.
 
 ## Tips
 
-To count and extract strings matching a specific pattern, set the **Count Frequent Strings** check box in the [**Extract Options** dialog box](../extract_options/index), use a regular expression to match specific strings, and use the **Extract** button in the [**Find** dialog box](../find/index).
+To count and extract strings matching a specific pattern, set theCount Frequent Strings check box in the [Extract Options dialog box](../extract_options/index), use a regular expression to match specific strings, and use theExtract button in the [Find dialog box](../find/index).
 

@@ -1,19 +1,23 @@
 # SaveToFolderIfRecycleFailed Property (BackupProp Object)
 
-Corresponds to the **Save to Backup Folder if Recycle Bin not Available** check box in the
-[**Backup** page](../../dlg/properties/backup/index) of Configuration Properties.
+Corresponds to theSave to Backup Folder if Recycle Bin not Available check box in the
+[Backup page](../../dlg/properties/backup/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **SaveToFolderIfRecycleFailed**;
+### \[JavaScript\]
 
-object. **SaveToFolderIfRecycleFailed** = _b_;
+```
+b = object.SaveToFolderIfRecycleFailed;
+object.SaveToFolderIfRecycleFailed = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **SaveToFolderIfRecycleFailed**
-
-object. **SaveToFolderIfRecycleFailed** = _b_
+```
+b = object.SaveToFolderIfRecycleFailed
+object.SaveToFolderIfRecycleFailed = b
+```
 
 ## Version
 

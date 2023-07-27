@@ -1,14 +1,14 @@
 # TSV 模式命令
 
-### 摘要
+## 摘要
 
-> 选择 TSV (制表符分隔) 模式。
+选择 TSV (制表符分隔) 模式。
 
-### 说明
+## 说明
 
-> 选择 TSV (制表符分隔) 模式。
+选择 TSV (制表符分隔) 模式。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): 无
@@ -16,16 +16,21 @@
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_MODE\_TSV (4471)
+```
+EEID_MODE_TSV (4471)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4471);
+```
+editor.ExecuteCommandByID(4471);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4471
+```
+editor.ExecuteCommandByID 4471
+```

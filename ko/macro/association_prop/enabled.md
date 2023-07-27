@@ -1,18 +1,22 @@
 # Enabled 속성 (AssociationProp ��ü)
 
-구성 속성 [**연결** 탭](../../dlg/properties/associate/index) 의 **연결 활성화** 체크 박스에 해당합니다.
+구성 속성 [연결 탭](../../dlg/properties/associate/index) 의연결 활성화 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Enabled**;
+### \[JavaScript\]
 
-object. **Enabled** = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Enabled**
-
-object. **Enabled** = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## 버전
 

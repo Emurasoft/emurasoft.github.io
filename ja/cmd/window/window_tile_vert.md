@@ -1,14 +1,14 @@
 # \[左右に並べて表示\] コマンド
 
-### 概要
+## 概要
 
-> ウィンドウを左右に並べて表示します。
+ウィンドウを左右に並べて表示します。
 
-### 説明
+## 説明
 
-> ウィンドウを左右に並べて表示します。
+ウィンドウを左右に並べて表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ウィンドウ\] \- \[左右に並べて表示\]
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[左右に並べて表示\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_WINDOW\_TILE\_VERT (4243)
+```
+EEID_WINDOW_TILE_VERT (4243)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4243);
+```
+editor.ExecuteCommandByID(4243);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4243
+```
+editor.ExecuteCommandByID 4243
+```

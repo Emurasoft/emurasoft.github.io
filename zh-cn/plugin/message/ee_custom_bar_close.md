@@ -13,12 +13,12 @@ lParam = 0;
 
 _nCustomBarID_
 
-> 指定要关闭的自定义分栏。这是从 EE\_CUSTOM\_BAR\_OPEN 消息中得到的返回值。
+指定要关闭的自定义分栏。这是从 EE\_CUSTOM\_BAR\_OPEN 消息中得到的返回值。
 
 ## 返回值
 
-> 如果消息成功，返回值为 TRUE。如果消息不成功，返回值是 FALSE。
+如果消息成功，返回值为 TRUE。如果消息不成功，返回值是 FALSE。
 
 ## 支持版本
 
-> 支持 EmEditor 6.00 或之后的版本。
+支持 EmEditor 6.00 或之后的版本。

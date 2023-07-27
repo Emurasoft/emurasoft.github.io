@@ -2,19 +2,21 @@
 
 指定要取代的字元。 如果指定-1，則在用於模糊比對時將忽略指定的範圍。
 
-#### \[JavaScript\]
+## 
 
-_c_ =
-item. **TreatAs**;
+### \[JavaScript\]
 
-item. **TreatAs** = _c_;
+```
+c = item.TreatAs;
+item.TreatAs = c;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_c_ =
-item. **TreatAs**
-
-item. **TreatAs** = _c_
+```
+c = item.TreatAs
+item.TreatAs = c
+```
 
 ## 版本
 

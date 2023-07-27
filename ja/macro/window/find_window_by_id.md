@@ -2,13 +2,19 @@
 
 ウィンドウ ID で子ウィンドウ オブジェクトを検索します。
 
-#### \[JavaScript\]
+## 
 
-wndChild = wnd. **FindWindowByID**( id );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wndChild = wnd.FindWindowByID( id );
+```
 
-wndChild = wnd. **FindWindowByID**( id )
+### \[VBScript\]
+
+```
+wndChild = wnd.FindWindowByID( id )
+```
 
 ## パラメータ
 

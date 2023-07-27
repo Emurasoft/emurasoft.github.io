@@ -1,14 +1,14 @@
 # \[ランダムに並べ替え\] コマンド
 
-### 概要
+## 概要
 
-> 現在の列をランダムに並べ替えます。
+現在の列をランダムに並べ替えます。
 
-### 説明
+## 説明
 
-> 現在の列をランダムに並べ替えます。
+現在の列をランダムに並べ替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[並べ替え\] \- \[ランダムに並べ替え\]
 - [すべてのコマンド](../../glossary/allcommands): \[並べ替え\] \- \[ランダムに並べ替え\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SORT\_RANDOM (4003)
+```
+EEID_SORT_RANDOM (4003)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4003);
+```
+editor.ExecuteCommandByID(4003);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4003
+```
+editor.ExecuteCommandByID 4003
+```

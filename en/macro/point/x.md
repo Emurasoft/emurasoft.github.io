@@ -2,17 +2,21 @@
 
 Represents the horizontal (or character) position of the Point object.
 
-#### \[JavaScript\]
+## 
 
-_x_ = point. **x**;
+### \[JavaScript\]
 
-point. **x** = _x_;
+```
+x = point.x;
+point.x = x;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_x_ = point. **x**
-
-point. **x** = _x_
+```
+x = point.x
+point.x = x
+```
 
 ## Version
 

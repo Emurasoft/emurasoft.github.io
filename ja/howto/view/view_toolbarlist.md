@@ -113,7 +113,7 @@
 | ![エクスプローラ](../../images/plugin_explorer.gif)[エクスプローラ](../plugin/plugin_explorer) | \[エクスプローラ\] プラグイン。 |
 | ![](../../images/htmlbar.gif)[HTML バー](../plugin/plugin_htmlbar) | \[HTML バー\] プラグイン。 |
 | ![開いている文書](../../images/plugin_opendocuments.gif)[開いている文書](../plugin/plugin_opendocuments) | \[開いている文書\] プラグイン。 |
-| **![](../../images/projects.gif)**[プロジェクト](../plugin/plugin_projects) | \[プロジェクト\] プラグイン。 |
+|![](../../images/projects.gif)[プロジェクト](../plugin/plugin_projects) | \[プロジェクト\] プラグイン。 |
 | ![検索](../../images/plugin_search.gif)[検索](../plugin/plugin_search) | \[検索\] プラグイン。 |
 | ![スニペット](../../images/plugin_snippets.gif)[スニペット](../plugin/plugin_snippets) | \[スニペット\] プラグイン。 |
 | ![Web プレビュー](../../images/plugin_webpreview.gif)[Web プレビュー](../plugin/plugin_webpreview) | \[Web プレビュー\] プラグイン。 |

@@ -1,6 +1,6 @@
 # To Save and Close All
 
-Select **Save and Close** under the **File** menu while pressing the
+SelectSave and Close under theFile menu while pressing the
 SHIFT key.
 
 ## Tips
@@ -8,5 +8,5 @@ SHIFT key.
 Alternatively, you can save and exit all in the following ways.
 
 - Press CTRL + SHIFT + E.
-- Select **Save All and Close** from the **File** menu.
-- Click the tray icon, and select **Save All and Close** from the menu.
+- SelectSave All and Close from theFile menu.
+- Click the tray icon, and selectSave All and Close from the menu.

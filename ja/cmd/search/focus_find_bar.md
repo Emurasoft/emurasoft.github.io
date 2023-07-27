@@ -1,14 +1,14 @@
 # \[検索ツール バーにフォーカスを設定する\] コマンド
 
-### 概要
+## 概要
 
-> 検索ツール バーにフォーカスを設定します。
+検索ツール バーにフォーカスを設定します。
 
-### 説明
+## 説明
 
-> 検索ツール バーにフォーカスを設定します。
+検索ツール バーにフォーカスを設定します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[検索ツール バーにフォーカスを設定する\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+F
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FOCUS\_FIND\_BAR (4565)
+```
+EEID_FOCUS_FIND_BAR (4565)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4565);
+```
+editor.ExecuteCommandByID(4565);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4565
+```
+editor.ExecuteCommandByID 4565
+```

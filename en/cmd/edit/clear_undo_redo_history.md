@@ -1,31 +1,36 @@
 # Clear All Undo/Redo History command
 
-### Summary
+## Summary
 
-> Clears all the undo and redo history.
+Clears all the undo and redo history.
 
-### Description
+## Description
 
-> Clears all the undo and redo history.
+Clears all the undo and redo history.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Undo** \> **Clear All Undo/Redo History**
+- [All Commands](../tools/all_commands):Edit \>Undo \>Clear All Undo/Redo History
 - Toolbar: ![](../../images/editundo.gif) (on the arrow) / ![](../../images/editredo.gif) (on the arrow)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CLEAR\_UNDO\_REDO\_HISTORY (4063)
+```
+EEID_CLEAR_UNDO_REDO_HISTORY (4063)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4063);
+```
+editor.ExecuteCommandByID(4063);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4063
+```
+editor.ExecuteCommandByID 4063
+```

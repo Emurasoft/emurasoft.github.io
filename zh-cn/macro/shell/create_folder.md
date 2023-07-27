@@ -2,13 +2,19 @@
 
 创建一个文件夹。
 
-#### \[JavaScript\]
+## 
 
-shell. **CreateFolder**( _strFolder_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.CreateFolder( strFolder );
+```
 
-shell. **CreateFolder** _strFolder_
+### \[VBScript\]
+
+```
+shell.CreateFolder strFolder
+```
 
 ## 参数
 
@@ -18,13 +24,17 @@ _strFolder_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.CreateFolder( "C:\\\Test" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.CreateFolder "C:\\Test"
+```
 
 ## 版本
 

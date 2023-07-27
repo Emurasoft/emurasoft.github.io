@@ -14,15 +14,15 @@ lParam = (LPARAM) (const SEL\_INFO\*) pSelInfo;
 
 _iSel_
 
-> Index of the selection of which the information will be set.
+Index of the selection of which the information will be set.
 
 _pSelInfo_
 
-> Pointer to the
-> [SEL\_INFO](../../plugin/structure/sel_info) structure.
+Pointer to the
+[SEL\_INFO](../../plugin/structure/sel_info) structure.
 
 ## Return Values
 
-> TRUE if the specified selection information is set. The
-> return value is FALSE if the selection is not multiple selection mode or an
-> error occurs in the function.
+TRUE if the specified selection information is set. The
+return value is FALSE if the selection is not multiple selection mode or an
+error occurs in the function.

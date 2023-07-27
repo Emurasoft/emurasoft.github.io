@@ -14,9 +14,9 @@ lParam = 0;
 
 _hwndParent_
 
-> The window handle of the Plug-ins Settings dialog box.
+The window handle of the Plug-ins Settings dialog box.
 
 ## Return Values
 
-> If the plug-in can be uninstalled, the return value is TRUE. If the plug-in
-> cannot be uninstalled, the return value is FALSE.
+If the plug-in can be uninstalled, the return value is TRUE. If the plug-in
+cannot be uninstalled, the return value is FALSE.

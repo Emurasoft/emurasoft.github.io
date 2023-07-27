@@ -1,31 +1,36 @@
 # Check Spelling in Tags command
 
-### Summary
+## Summary
 
-> Checks spelling in tags.
+Checks spelling in tags.
 
-### Description
+## Description
 
-> Checks spelling in tags. Misspelled words will be underlined in red.
+Checks spelling in tags. Misspelled words will be underlined in red.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Tags**
-- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **Tags**
+- Default Menu:Edit \>Spelling \>Check Spelling in \>Tags
+- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling in \>Tags
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SPELL\_TAGS (4518)
+```
+EEID_SPELL_TAGS (4518)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4518);
+```
+editor.ExecuteCommandByID(4518);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4518
+```
+editor.ExecuteCommandByID 4518
+```

@@ -1,14 +1,14 @@
 # \[再スキャン\] コマンド
 
-### 概要
+## 概要
 
-> 比較した文書を再スキャンして結果を最新情報に更新します。
+比較した文書を再スキャンして結果を最新情報に更新します。
 
-### 説明
+## 説明
 
-> 比較した文書を再スキャンして結果を最新情報に更新します。
+比較した文書を再スキャンして結果を最新情報に更新します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[比較\] \- \[再スキャン\]
 - [すべてのコマンド](../../glossary/allcommands): \[比較\] \- \[再スキャン\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_COMPARE\_RESCAN (4494)
+```
+EEID_COMPARE_RESCAN (4494)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4494);
+```
+editor.ExecuteCommandByID(4494);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4494
+```
+editor.ExecuteCommandByID 4494
+```

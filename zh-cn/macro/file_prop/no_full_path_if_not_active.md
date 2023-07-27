@@ -1,18 +1,22 @@
 # NoFullPathIfNotActive 属性 (FileProp ����)
 
-与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **失去焦点时不显示完整路径** 复选框相对应。
+与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的失去焦点时不显示完整路径 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **NoFullPathIfNotActiveProperty**;
+### \[JavaScript\]
 
-object. **NoFullPathIfNotActiveProperty** = _b_;
+```
+b = object.NoFullPathIfNotActiveProperty;
+object.NoFullPathIfNotActiveProperty = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **NoFullPathIfNotActiveProperty**
-
-object. **NoFullPathIfNotActiveProperty** = _b_
+```
+b = object.NoFullPathIfNotActiveProperty
+object.NoFullPathIfNotActiveProperty = b
+```
 
 ## 版本
 

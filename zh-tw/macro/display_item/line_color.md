@@ -2,17 +2,21 @@
 
 指定對象的下劃線顏色。
 
-#### \[JavaScript\]
+## 
 
-_rgb_ = item. **LineColor**;
+### \[JavaScript\]
 
-item. **LineColor** = _rgb_;
+```
+rgb = item.LineColor;
+item.LineColor = rgb;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_rgb_ = item. **LineColor**;
-
-item. **LineColor** = _rgb_;
+```
+rgb = item.LineColor;
+item.LineColor = rgb;
+```
 
 ## 版本
 

@@ -1,14 +1,14 @@
 # \[スペル チェック\] コマンド
 
-### 概要
+## 概要
 
-> 文書のスペル チェックを行います。
+文書のスペル チェックを行います。
 
-### 説明
+## 説明
 
-> 文書のスペル チェックを行います。
+文書のスペル チェックを行います。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[スペル チェック\] \- \[スペル チェック\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[スペル チェック\] \- \[スペル チェック\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SPELL\_TOGGLE (4512)
+```
+EEID_SPELL_TOGGLE (4512)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4512);
+```
+editor.ExecuteCommandByID(4512);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4512
+```
+editor.ExecuteCommandByID 4512
+```

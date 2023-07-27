@@ -1,14 +1,14 @@
 # \[前のページにスクロール\] コマンド
 
-### 概要
+## 概要
 
-> 前のページにスクロールします。
+前のページにスクロールします。
 
-### 説明
+## 説明
 
-> 前のページにスクロールします。
+前のページにスクロールします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[スクロール\] \- \[前のページ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SCROLL\_PAGE\_UP (3866)
+```
+EEID_SCROLL_PAGE_UP (3866)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3866);
+```
+editor.ExecuteCommandByID(3866);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3866
+```
+editor.ExecuteCommandByID 3866
+```

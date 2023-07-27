@@ -2,7 +2,7 @@
 
 |     |     |
 | --- | --- |
-| **메시지** | **설명** |
+|메시지 |설명 |
 | [EP\_DISABLE\_AUTO\_COMPLETE](ep_disable_auto_complete) | 자동 완성 괄호/따옴표 표시 기능이 비활성화 되어야 하는지 여부를 검색합니다. |
 | [EP\_GET\_BITMAP](ep_get_bitmap) | 도구 모음에 표시되는 플러그 인의 다양한 크기와 색 농도를 위해 비트맵 resource IDs를 검색합니다. |
 | [EP\_GET\_INFO](ep_get_info) | 플러그 인에 관한 정보를 검색합니다. |

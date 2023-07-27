@@ -10,8 +10,8 @@ Editor\_EmptyUndoBuffer( HWND hwnd );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

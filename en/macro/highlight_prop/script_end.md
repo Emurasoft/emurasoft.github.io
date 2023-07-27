@@ -1,20 +1,24 @@
 # ScriptEnd Property (HighlightProp Object)
 
-Corresponds to the **Script**
-**group box - End** text box in the
-[**Highlight (2)** tab](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to theScript
+group box - End text box in the
+[Highlight (2) tab](../../dlg/properties/highlight2/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **ScriptEnd**;
+### \[JavaScript\]
 
-object. **ScriptEnd** = _str_;
+```
+str = object.ScriptEnd;
+object.ScriptEnd = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **ScriptEnd**
-
-object. **ScriptEnd** = _str_
+```
+str = object.ScriptEnd
+object.ScriptEnd = str
+```
 
 ## Version
 

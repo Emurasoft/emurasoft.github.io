@@ -2,13 +2,19 @@
 
 スクロール バーを指定する差分だけ移動します。
 
-#### \[JavaScript\]
+## 
 
-**scrollBy**( _dx_, _dy_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+scrollBy( dx, dy);
+```
 
-**scrollBy** _dx_, _dy_
+### \[VBScript\]
+
+```
+scrollBy dx, dy
+```
 
 ## パラメータ
 

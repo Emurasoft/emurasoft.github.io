@@ -1,31 +1,36 @@
 # 欄標題命令
 
-### 摘要
+## 摘要
 
-> 顯示或隱藏欄標題。
+顯示或隱藏欄標題。
 
-### 說明
+## 說明
 
-> 顯示或隱藏欄標題。在預設設定下，當你打開一個 CSV 檔案時，EmEditor 會顯示欄標題。
+顯示或隱藏欄標題。在預設設定下，當你打開一個 CSV 檔案時，EmEditor 會顯示欄標題。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **CSV** \> **欄標題**
-- [全部命令](../tools/all_commands): **CSV** \> **欄標題**
+- 預設功能表:CSV \>欄標題
+- [全部命令](../tools/all_commands):CSV \>欄標題
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_HEADER\_TOGGLE (3985)
+```
+EEID_HEADER_TOGGLE (3985)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3985);
+```
+editor.ExecuteCommandByID(3985);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3985
+```
+editor.ExecuteCommandByID 3985
+```

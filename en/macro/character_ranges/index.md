@@ -1,13 +1,13 @@
 # CharacterRanges Collection
 
-CharacterRanges collection provides a collection of [**CharacterRange** objects](../character_range/index).
+CharacterRanges collection provides a collection of [CharacterRange objects](../character_range/index).
 
 ## Properties
 
 |     |     |
 | --- | --- |
 | [Count](count) | Retrieves the number of items. |
-| [Item](item) | Retrieves the [**CharacterRange** object](../character_range/index) for the specified index. |
+| [Item](item) | Retrieves the [CharacterRange object](../character_range/index) for the specified index. |
 
 ## Methods
 

@@ -1,14 +1,14 @@
 # \[コマンドを検索\] コマンド
 
-### 概要
+## 概要
 
-> クイック起動ウィンドウを表示して、コマンドを選択します。
+クイック起動ウィンドウを表示して、コマンドを選択します。
 
-### 説明
+## 説明
 
-> クイック起動ウィンドウを表示して、コマンドを選択します。
+クイック起動ウィンドウを表示して、コマンドを選択します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ヘルプ\] \- \[コマンドを検索\]
 - [すべてのコマンド](../../glossary/allcommands): \[ヘルプ\] \- \[コマンドを検索\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: CTRL+SHIFT+C
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_QL\_OPTIONS (3951)
+```
+EEID_QL_OPTIONS (3951)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3951);
+```
+editor.ExecuteCommandByID(3951);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3951
+```
+editor.ExecuteCommandByID 3951
+```

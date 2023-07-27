@@ -2,13 +2,19 @@
 
 新建一個檔案。
 
-#### \[JavaScript\]
+## 
 
-editor. **NewFile**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.NewFile();
+```
 
-editor. **NewFile**
+### \[VBScript\]
+
+```
+editor.NewFile
+```
 
 ## 版本
 

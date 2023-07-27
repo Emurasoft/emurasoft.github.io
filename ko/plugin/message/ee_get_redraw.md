@@ -12,13 +12,13 @@ lParam = (LPARAM) 0;
 
 ## 매개 변수
 
-> 없습니다.
+없습니다.
 
 ## 반환 값
 
-> 현재 flag가 다시 그리려는 EmEditor의 변경을 허락하거나 다시 그리려는 EmEditor의 변경을 막는 경우
-> TRUE를 반환합니다. 그렇지 않은 경우, FALSE를 반환합니다.
+현재 flag가 다시 그리려는 EmEditor의 변경을 허락하거나 다시 그리려는 EmEditor의 변경을 막는 경우
+TRUE를 반환합니다. 그렇지 않은 경우, FALSE를 반환합니다.
 
 ## 버전
 
-> EmEditor 버전 5 이상에서만 지원됩니다.
+EmEditor 버전 5 이상에서만 지원됩니다.

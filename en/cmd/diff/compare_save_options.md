@@ -1,31 +1,36 @@
 # Save Options command
 
-### Summary
+## Summary
 
-> Saves options to compare or to synchronize scrolling.
+Saves options to compare or to synchronize scrolling.
 
-### Description
+## Description
 
-> Saves the set of options specified for the current comparison or synchronization session.
+Saves the set of options specified for the current comparison or synchronization session.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Save Options**
-- [All Commands](../tools/all_commands): **Compare** \> **Save Options**
+- Default Menu:Compare \>Save Options
+- [All Commands](../tools/all_commands):Compare \>Save Options
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMPARE\_SAVE\_OPTIONS (4508)
+```
+EEID_COMPARE_SAVE_OPTIONS (4508)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4508);
+```
+editor.ExecuteCommandByID(4508);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4508
+```
+editor.ExecuteCommandByID 4508
+```

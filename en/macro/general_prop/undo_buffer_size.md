@@ -1,21 +1,23 @@
 # UndoBufferSize Property (GeneralProp Object)
 
-Corresponds to the **Undo Max Number** text box in the
-[**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to theUndo Max Number text box in the
+[General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **UndoBufferSize**;
+### \[JavaScript\]
 
-object. **UndoBufferSize** = _b_;
+```
+b = object.UndoBufferSize;
+object.UndoBufferSize = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **UndoBufferSize**
-
-object. **UndoBufferSize** = _b_
+```
+b = object.UndoBufferSize
+object.UndoBufferSize = b
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 クリップボードの中身をカーソル位置に貼り付けます。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Paste**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Paste( nFlags );
+```
 
-document.selection. **Paste** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Paste nFlags
+```
 
 ## 引数
 

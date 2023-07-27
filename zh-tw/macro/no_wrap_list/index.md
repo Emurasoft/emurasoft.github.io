@@ -6,37 +6,35 @@ NoWrapList 集合提供一個集合的 [NoWrapItem 對象](../no_wrap_item/index
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 檢索項目的總數。 |
-| **[Item](item)** | 為指定索引檢索 [NoWrapItem 對象](../no_wrap_item/index)。 |
+|[Count](count) | 檢索項目的總數。 |
+|[Item](item) | 為指定索引檢索 [NoWrapItem 對象](../no_wrap_item/index)。 |
 
 ## 方法
 
 |     |     |
 | --- | --- |
-| **[Add](add)** | 添加一個項目。 |
-| **[Remove](remove)** | 刪除一個項目。 |
+|[Add](add) | 添加一個項目。 |
+|[Remove](remove) | 刪除一個項目。 |
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.NoWrap.List );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.NoWrap.List
-
 alert item.Name
-
 Next
+```
 
 ## 版本
 

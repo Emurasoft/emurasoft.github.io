@@ -2,17 +2,21 @@
 
 픽셀로 지정된 창의 수직 위치를 검색하거나 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-_y_ = wnd. **Top**;
+### \[JavaScript\]
 
-wnd. **Top** = _y_;
+```
+y = wnd.Top;
+wnd.Top = y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_y_ = wnd. **Top**
-
-wnd. **Top** = _y_
+```
+y = wnd.Top
+wnd.Top = y
+```
 
 ## 버전
 

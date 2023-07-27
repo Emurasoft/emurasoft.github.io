@@ -2,13 +2,19 @@
 
 [Config オブジェクト](../config/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_cfg_ = document. **Config;**
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+cfg = document.Config;
+```
 
-Set _cfg_ = document. **Config**
+### \[VBScript\]
+
+```
+Set cfg = document.Config
+```
 
 ## バージョン
 

@@ -2,17 +2,21 @@
 
 現在の Csv オブジェクトの区切り文字を取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Delimiter**;
+### \[JavaScript\]
 
-object. **Delimiter** = _s_;
+```
+s = object.Delimiter;
+object.Delimiter = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Delimiter**
-
-object. **Delimiter** = _s_
+```
+s = object.Delimiter
+object.Delimiter = s
+```
 
 ## バージョン
 

@@ -1,18 +1,22 @@
 # Interval 属性 (AutoSaveProp ����)
 
-与配置属与配置属性中 [**自动保存** 页面](../../dlg/properties/autosave/index) 上的 **间隔分钟** 文本框对应。
+与配置属与配置属性中 [自动保存 页面](../../dlg/properties/autosave/index) 上的间隔分钟 文本框对应。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Interval**;
+### \[JavaScript\]
 
-object. **Interval** = _n_;
+```
+n = object.Interval;
+object.Interval = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Interval**
-
-object. **Interval** = _n_
+```
+n = object.Interval
+object.Interval = n
+```
 
 ## 版本
 

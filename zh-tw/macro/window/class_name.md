@@ -2,13 +2,19 @@
 
 返回視窗的類名。
 
-#### \[JavaScript\]
+## 
 
-_str_ = wnd. **ClassName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = wnd.ClassName;
+```
 
-_str_ = wnd. **ClassName**
+### \[VBScript\]
+
+```
+str = wnd.ClassName
+```
 
 ## 版本
 

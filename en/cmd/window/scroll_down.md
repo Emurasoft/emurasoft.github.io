@@ -1,33 +1,38 @@
 # Scroll Line Down command
 
-### Summary
+## Summary
 
-> Scrolls the document down by one line.
+Scrolls the document down by one line.
 
-### Description
+## Description
 
-> Scrolls the document down by one line. However, the window scrolls two lines if the
-> **Double Line Scroll** check box is checked on the
-> [**Scroll** page](../../dlg/properties/scroll/index) in the Configuration Properties dialog box.
+Scrolls the document down by one line. However, the window scrolls two lines if the
+Double Line Scroll check box is checked on the
+[Scroll page](../../dlg/properties/scroll/index) in the Configuration Properties dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Line Down**
+- [All Commands](../tools/all_commands):Window \>Scroll \>Line Down
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+DOWN ARROW
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SCROLL\_DOWN (4171)
+```
+EEID_SCROLL_DOWN (4171)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4171);
+```
+editor.ExecuteCommandByID(4171);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4171
+```
+editor.ExecuteCommandByID 4171
+```

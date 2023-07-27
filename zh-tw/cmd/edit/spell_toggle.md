@@ -1,32 +1,37 @@
 # 拼字檢查命令
 
-### 摘要
+## 摘要
 
-> 對文檔進行拼字檢查。
+對文檔進行拼字檢查。
 
-### 說明
+## 說明
 
-> 對文檔進行拼字檢查。錯誤拼字的字詞會以紅色下劃線顯示。
+對文檔進行拼字檢查。錯誤拼字的字詞會以紅色下劃線顯示。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **編輯** \> **拼字檢查** \> **進行拼字檢查**
-- [全部命令](../tools/all_commands): **編輯** \> **拼字檢查** \> **進行拼字檢查**
+- 預設功能表:編輯 \>拼字檢查 \>進行拼字檢查
+- [全部命令](../tools/all_commands):編輯 \>拼字檢查 \>進行拼字檢查
 - 工具列:
 ![](../../images/spelling24x16.gif)
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_SPELL\_TOGGLE (4512)
+```
+EEID_SPELL_TOGGLE (4512)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4512);
+```
+editor.ExecuteCommandByID(4512);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4512
+```
+editor.ExecuteCommandByID 4512
+```

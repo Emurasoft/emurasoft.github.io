@@ -1,20 +1,22 @@
 # DBCharURL プロパティ (LinkProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[リンク\]** タブ](../../dlg/properties/link/index) の **\[全角文字をURLとして認識する\]** チェック ボックスに相当します。
+設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の\[全角文字をURLとして認識する\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DBCharURL**;
+### \[JavaScript\]
 
-object. **DBCharURL** = _b_;
+```
+b = object.DBCharURL;
+object.DBCharURL = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DBCharURL**
-
-object. **DBCharURL** = _b_
+```
+b = object.DBCharURL
+object.DBCharURL = b
+```
 
 ## バージョン
 

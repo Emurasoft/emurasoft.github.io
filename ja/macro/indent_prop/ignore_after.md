@@ -1,19 +1,23 @@
 # IgnoreAfter プロパティ (IndentProp �I�u�W�F�N�g)
 
-[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の
-**\[次の行の後は無視 (正規表現)\]** テキスト ボックスに相当します。
+[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の
+\[次の行の後は無視 (正規表現)\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **IgnoreAfter**;
+### \[JavaScript\]
 
-object. **IgnoreAfter** = _s_;
+```
+s = object.IgnoreAfter;
+object.IgnoreAfter = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **IgnoreAfter**
-
-object. **IgnoreAfter** = _s_
+```
+s = object.IgnoreAfter
+object.IgnoreAfter = s
+```
 
 ## バージョン
 

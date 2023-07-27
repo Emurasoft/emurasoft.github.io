@@ -1,21 +1,23 @@
 # PromptInvalid プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の
-**\[変換できない不正な文字で警告\]** チェック ボックスに相当します。
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の
+\[変換できない不正な文字で警告\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptInvalid**;
+### \[JavaScript\]
 
-object. **PromptInvalid** = _b_;
+```
+b = object.PromptInvalid;
+object.PromptInvalid = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptInvalid**
-
-object. **PromptInvalid** = _b_
+```
+b = object.PromptInvalid
+object.PromptInvalid = b
+```
 
 ## バージョン
 

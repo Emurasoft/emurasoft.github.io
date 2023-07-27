@@ -2,17 +2,21 @@
 
 一致した行の上に表示する行数を指定します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = list. **VisibleLinesAbove**;
+### \[JavaScript\]
 
-list. **VisibleLinesAbove** = _n_;
+```
+n = list.VisibleLinesAbove;
+list.VisibleLinesAbove = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = list. **VisibleLinesAbove**
-
-list. **VisibleLinesAbove** = _n_
+```
+n = list.VisibleLinesAbove
+list.VisibleLinesAbove = n
+```
 
 ## バージョン
 

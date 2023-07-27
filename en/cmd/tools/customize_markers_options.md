@@ -1,32 +1,37 @@
 # Customize Markers - Options command
 
-### Summary
+## Summary
 
-> Displays the Customize Markers dialog box, and selects the Options tab.
+Displays the Customize Markers dialog box, and selects the Options tab.
 
-### Description
+## Description
 
-> Displays the [**Customize Markers** dialog box](../../dlg/customize_markers/index), and selects the Options tab.
+Displays the [Customize Markers dialog box](../../dlg/customize_markers/index), and selects the Options tab.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize Markers** \> **Options**
+- [All Commands](all_commands):Tools >
+Customize Markers \>Options
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_MARKERS\_OPTIONS (3958)
+```
+EEID_CUSTOMIZE_MARKERS_OPTIONS (3958)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3958);
+```
+editor.ExecuteCommandByID(3958);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3958
+```
+editor.ExecuteCommandByID 3958
+```

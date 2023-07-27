@@ -9,32 +9,38 @@ ActiveScript 언어가 사용됩니다. 이 지침서는 메인 기본 코드 �
 
 _ScriptName_
 
-> ProgID를 사용하여 스크립트 언어를 지정합니다. 이 스크립트가 사용되기 이전에
-> 스크립트 엔진이 설치되어야 합니다.
+ProgID를 사용하여 스크립트 언어를 지정합니다. 이 스크립트가 사용되기 이전에
+스크립트 엔진이 설치되어야 합니다.
 
 ## 예시
 
 다양한 스크립트 언어를 사용하여 커서 위치에 "Hello!"를 삽입합니다.
 
-#### \[PerlScript\]
+### \[PerlScript\]
 
 #language = "PerlScript"
 
 $Window->document->write( 'Hello!' );
 
-#### \[PHPScript\]
+## 
+
+### \[PHPScript\]
 
 #language = "PHPScript"
 
 $Window->document->write( "Hello!" );
 
-#### \[Python\]
+## 
+
+### \[Python\]
 
 #language = "Python"
 
 Window.document.write( 'Hello' );
 
-#### \[RubyScript\]
+## 
+
+### \[RubyScript\]
 
 #language = "RubyScript"
 

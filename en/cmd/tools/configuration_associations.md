@@ -1,32 +1,37 @@
 # Associate Configurations command
 
-### Summary
+## Summary
 
-> Associates configurations with files types.
+Associates configurations with files types.
 
-### Description
+## Description
 
-> Displays the
-> [**Configurations Associations** dialog box](../../dlg/configuration_associations/index), where you can select which EmEditor configurations to associate with specific file types.
+Displays the
+[Configurations Associations dialog box](../../dlg/configuration_associations/index), where you can select which EmEditor configurations to associate with specific file types.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Tools** \> **Associate Configurations**
-- [All Commands](all_commands): **Tools** \> **Associate Configurations**
+- Default Menu:Tools \>Associate Configurations
+- [All Commands](all_commands):Tools \>Associate Configurations
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CONFIG\_ASSOCIATE (3847)
+```
+EEID_CONFIG_ASSOCIATE (3847)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3847);
+```
+editor.ExecuteCommandByID(3847);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3847
+```
+editor.ExecuteCommandByID 3847
+```

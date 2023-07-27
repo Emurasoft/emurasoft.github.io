@@ -2,13 +2,19 @@
 
 [FontProp 개체](../font_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Font**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Font;
+```
 
-_obj_ = object. **Font**
+### \[VBScript\]
+
+```
+obj = object.Font
+```
 
 ## 버전
 

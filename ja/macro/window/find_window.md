@@ -2,13 +2,19 @@
 
 クラス名またはウィンドウ タイトルで子の [Window オブジェクト](index) を検索します。
 
-#### \[JavaScript\]
+## 
 
-wndChild = wnd. **FindWindow**( _strClass_, _strCaption_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wndChild = wnd.FindWindow( strClass, strCaption );
+```
 
-wndChild = wnd. **FindWindow**( _strClass_, _strCaption_ )
+### \[VBScript\]
+
+```
+wndChild = wnd.FindWindow( strClass, strCaption )
+```
 
 ## パラメータ
 
@@ -22,17 +28,19 @@ _strCaption_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnd = FindWindow( "EmEditorView", "" );
-
 alert( wnd.Caption );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd = FindWindow( "EmEditorView", "" )
-
 alert wnd.Caption
+```
 
 ## バージョン
 

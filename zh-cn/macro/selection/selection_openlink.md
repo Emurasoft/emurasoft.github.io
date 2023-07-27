@@ -2,13 +2,19 @@
 
 打开光标处的超链接。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **OpenLink**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.OpenLink();
+```
 
-document.selection. **OpenLink**
+### \[VBScript\]
+
+```
+document.selection.OpenLink
+```
 
 ## 版本
 

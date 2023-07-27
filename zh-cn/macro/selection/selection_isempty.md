@@ -2,13 +2,19 @@
 
 表示活动点是否与锚点相同。
 
-#### \[JavaScript\]
+## 
 
-_bEmpty_ = document.selection. **IsEmpty**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bEmpty = document.selection.IsEmpty;
+```
 
-_bEmpty_ = document.selection. **IsEmpty**
+### \[VBScript\]
+
+```
+bEmpty = document.selection.IsEmpty
+```
 
 ## 版本
 

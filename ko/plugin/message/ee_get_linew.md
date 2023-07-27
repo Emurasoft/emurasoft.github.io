@@ -13,13 +13,13 @@ lParam = (LPARAM) (LPWSTR) szString;
 
 _pGetLineInfo_
 
-> [GET\_LINE\_INFO](../structure/get_line_info) 구조에 대한 포인터를 지정합니다.
+[GET\_LINE\_INFO](../structure/get_line_info) 구조에 대한 포인터를 지정합니다.
 
 _szString_
 
-> 텍스트를 수신 할 버퍼에 대한 포인터입니다.
+텍스트를 수신 할 버퍼에 대한 포인터입니다.
 
 ## 반환 값
 
-> _pGetLineInfo->cch_ 이 0인 경우, 반환 값은 텍스트를 수신할 수 있는 버퍼의 필요한 크기(단어)입니다.
-> _pGetLineInfo->cch_ 이 0이 아닌 경우, 반환 값이 사용되지 않습니다.
+_pGetLineInfo->cch_ 이 0인 경우, 반환 값은 텍스트를 수신할 수 있는 버퍼의 필요한 크기(단어)입니다.
+_pGetLineInfo->cch_ 이 0이 아닌 경우, 반환 값이 사용되지 않습니다.

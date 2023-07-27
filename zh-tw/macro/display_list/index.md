@@ -6,30 +6,28 @@ DisplayList 集合提供 [DisplayItem 對象](../display_item/index) 的集合�
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 檢索項目的總數。 |
-| **[Item](item)** | 為指定索引檢索 [DisplayItem 對象](../display_item/index)。 |
+|[Count](count) | 檢索項目的總數。 |
+|[Item](item) | 為指定索引檢索 [DisplayItem 對象](../display_item/index)。 |
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Display.ColorList );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.TextColor );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Display.ColorList
-
 alert item.TextColor
-
 Next
+```
 
 ## 版本
 

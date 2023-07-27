@@ -1,31 +1,36 @@
 # Next Changed Character command
 
-### Summary
+## Summary
 
-> Jumps to the next changed character.
+Jumps to the next changed character.
 
-### Description
+## Description
 
-> Jumps to the next changed character when in comparison mode.
+Jumps to the next changed character when in comparison mode.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Compare** \> **Next Changed Character**
+- [All Commands](../tools/all_commands):Compare \>Next Changed Character
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+F7
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMPARE\_NEXT\_CHAR (4090)
+```
+EEID_COMPARE_NEXT_CHAR (4090)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4090);
+```
+editor.ExecuteCommandByID(4090);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4090
+```
+editor.ExecuteCommandByID 4090
+```

@@ -1,14 +1,14 @@
 # \[EOF\] コマンド
 
-### 概要
+## 概要
 
-> EOFの表示/非表示を切り替えます。
+EOFの表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> EOFの表示/非表示を切り替えます。
+EOFの表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[記号\] \- \[EOF\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[記号\] \- \[EOF\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_EOF (4533)
+```
+EEID_VIEW_EOF (4533)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4533);
+```
+editor.ExecuteCommandByID(4533);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4533
+```
+editor.ExecuteCommandByID 4533
+```

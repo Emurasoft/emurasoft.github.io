@@ -1,14 +1,20 @@
 # Item 屬性 (Configs ���X)
 
-為指定索引的組態檢索 [**Config** 對象](../config/index)。
+為指定索引的組態檢索 [Config 對象](../config/index)。
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor.Configs. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.Configs.Item( Index );
+```
 
-_doc_ = editor.Configs. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+doc = editor.Configs.Item( Index )
+```
 
 ## 參數
 
@@ -18,13 +24,17 @@ _Index_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Name for the first configuration: " + editor.Configs.Item(1).Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Name for the first configuration: " & editor.Configs.Item(1).Name
+```
 
 ## 版本
 

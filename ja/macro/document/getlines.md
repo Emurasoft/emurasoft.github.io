@@ -2,13 +2,19 @@
 
 文書全体の行数を取得します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = document. **GetLines**( \[ _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = document.GetLines( [ nFlags ] );
+```
 
-_str_ = document. **GetLines**( \[ _nFlags_\] )
+### \[VBScript\]
+
+```
+str = document.GetLines( [ nFlags] )
+```
 
 ## パラメータ
 

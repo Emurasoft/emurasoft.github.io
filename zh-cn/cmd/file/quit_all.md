@@ -1,32 +1,37 @@
 # 全部关闭不保存命令
 
-### 摘要
+## 摘要
 
-> 不保存就全部关闭当前文件。
+不保存就全部关闭当前文件。
 
-### 说明
+## 说明
 
-> 这个命令直接关闭所有打开的窗口。该操作将放弃所有更改。
+这个命令直接关闭所有打开的窗口。该操作将放弃所有更改。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands): **文件** \> **关闭**
-\> **直接关闭 (不保存)**
+- [所有命令](../tools/all_commands):文件 \>关闭
+\>直接关闭 (不保存)
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_QUIT\_ALL (4363)
+```
+EEID_QUIT_ALL (4363)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4363);
+```
+editor.ExecuteCommandByID(4363);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4363
+```
+editor.ExecuteCommandByID 4363
+```

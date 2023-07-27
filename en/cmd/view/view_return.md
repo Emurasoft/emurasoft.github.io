@@ -1,31 +1,36 @@
 # Newline Characters command
 
-### Summary
+## Summary
 
-> Shows or hides newline characters.
+Shows or hides newline characters.
 
-### Description
+## Description
 
-> Shows or hides newline characters. By default, EmEditor displays newline character marks (blue, downward-facing arrow).
+Shows or hides newline characters. By default, EmEditor displays newline character marks (blue, downward-facing arrow).
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Marks** \> **Newline Characters**
-- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Newline Characters**
+- Default Menu:View \>Marks \>Newline Characters
+- [All Commands](../tools/all_commands):View \>Marks \>Newline Characters
 - Toolbar:
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_VIEW\_RETURN (4532)
+```
+EEID_VIEW_RETURN (4532)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4532);
+```
+editor.ExecuteCommandByID(4532);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4532
+```
+editor.ExecuteCommandByID 4532
+```

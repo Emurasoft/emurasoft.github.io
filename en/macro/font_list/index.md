@@ -6,30 +6,28 @@ FontList collection provides a collection of [FontItem objects](../font_item/ind
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | Retrieves the number of items. |
-| **[Item](item)** | Retrieves the [FontItem object](../font_item/index) for the specified index. |
+|[Count](count) | Retrieves the number of items. |
+|[Item](item) | Retrieves the [FontItem object](../font_item/index) for the specified index. |
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Font.DisplayList );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Font.DisplayList
-
 alert item.Name
-
 Next
+```
 
 ## Version
 

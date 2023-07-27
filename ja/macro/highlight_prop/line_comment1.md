@@ -1,18 +1,22 @@
 # LineComment1 プロパティ (HighlightProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[行コメント\] テキスト ボックスに相当します。
+設定のプロパティの [\[強調(2)\] タブ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[行コメント\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **LineComment1**;
+### \[JavaScript\]
 
-object. **LineComment1** = _str_;
+```
+str = object.LineComment1;
+object.LineComment1 = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **LineComment1**
-
-object. **LineComment1** = _str_
+```
+str = object.LineComment1
+object.LineComment1 = str
+```
 
 ## バージョン
 

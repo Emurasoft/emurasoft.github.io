@@ -2,27 +2,35 @@
 
 경로를 포함한 엠에디터 실행 파일 (emeditor.exe)의 전체 사양을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_strName_ = editor. **FullName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = editor.FullName;
+```
 
-_strName_ = editor. **FullName**
+### \[VBScript\]
+
+```
+strName = editor.FullName
+```
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-strName = editor. **FullName**;
-
+```
+strName = editor.FullName;
 alert( "The full name of EmEditor is " + strName + "." );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-strName = editor. **FullName**
-
+```
+strName = editor.FullName
 alert "The full name of EmEditor is" & strName & "."
+```
 
 ## 버전
 

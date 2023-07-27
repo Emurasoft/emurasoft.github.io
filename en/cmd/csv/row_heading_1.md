@@ -1,31 +1,36 @@
 # Row Heading 1 command
 
-### Summary
+## Summary
 
-> Sets the first one column heading and non-scrollable.
+Sets the first one column heading and non-scrollable.
 
-### Description
+## Description
 
-> Sets the first one column heading and non-scrollable.
+Sets the first one column heading and non-scrollable.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Headings (Freeze Panes)** \> **Row Heading 1**
-- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Row Heading 1**
+- Default Menu:CSV \>Headings (Freeze Panes) \>Row Heading 1
+- [All Commands](../tools/all_commands):CSV \>Headings (Freeze Panes) \>Row Heading 1
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ROW\_HEADING\_1 (4092)
+```
+EEID_ROW_HEADING_1 (4092)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4092);
+```
+editor.ExecuteCommandByID(4092);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4092
+```
+editor.ExecuteCommandByID 4092
+```

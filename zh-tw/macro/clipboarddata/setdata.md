@@ -2,13 +2,19 @@
 
 以指定格式分配數據到剪貼簿上。
 
-#### \[JavaScript\]
+## 
 
-_bSuccess_ = clipboardData. **setData**( _sDataFormat_, _sData_, _iPos_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bSuccess = clipboardData.setData( sDataFormat, sData, iPos );
+```
 
-_bSuccess_ = clipboardData. **setData**( _sDataFormat_, _sData, iPos_ )
+### \[VBScript\]
+
+```
+bSuccess = clipboardData.setData( sDataFormat, sData, iPos )
+```
 
 ## 參數
 
@@ -32,13 +38,17 @@ _iPos_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 clipboardData.setData("Text", "Hello!");
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 clipboardData.setData "Text", "Hello!"
+```
 
 ## 版本
 

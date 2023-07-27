@@ -8,20 +8,20 @@ Editor\_ActivateTemp( HWND hwnd, UINT nEditID, POINT\_PTR\* pptInitialCaret = NU
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _nEditID_
 
-> アクティブ化したい一時テキストの ID を指定します。
+アクティブ化したい一時テキストの ID を指定します。
 
 _pptInitialCaret_
 
-> 初期のカーソル位置を指定します。
+初期のカーソル位置を指定します。
 
 ## 戻り値
 
-> 戻り値は新規文書の ID です。
+戻り値は新規文書の ID です。
 
 ## バージョン
 
-> Version 9.00 以上で利用できます。
+Version 9.00 以上で利用できます。

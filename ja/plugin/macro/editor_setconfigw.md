@@ -9,16 +9,16 @@ Editor\_SetConfigW( HWND hwnd, LPCWSTR szConfigName );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _szConfigName_
 
-> 設定の名前を指定します。
+設定の名前を指定します。
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。
 
 ## バージョン
 
-> Version 3.00 以上で利用できます。
+Version 3.00 以上で利用できます。

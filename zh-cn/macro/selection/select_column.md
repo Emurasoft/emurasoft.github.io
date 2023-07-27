@@ -2,13 +2,19 @@
 
 在 CSV 模式中选择指定的列。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectColumn**( _iColumn_, \[ \[ _iColumn2_ \], _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectColumn( iColumn, [ [ iColumn2 ], nFlags ] );
+```
 
-document.selection. **SelectColumn** _iColumn_, \[ \[ _iColumn2_ \], _nFlags_ \]
+### \[VBScript\]
+
+```
+document.selection.SelectColumn iColumn, [ [ iColumn2 ], nFlags ]
+```
 
 ## 参数
 

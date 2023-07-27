@@ -1,32 +1,37 @@
 # Combine Files command
 
-### Summary
+## Summary
 
-> Combines open documents or existing files into a single file.
+Combines open documents or existing files into a single file.
 
-### Description
+## Description
 
-> Opens the **[Combine Files Wizard](../../dlg/combine_files/index)**, which allows you to combine open documents or existing files into a single file.
+Opens the[Combine Files Wizard](../../dlg/combine_files/index), which allows you to combine open documents or existing files into a single file.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Tools** \> **Combine Files**
-- [All Commands](all_commands): **Tools**
-> **Split/Combine** \> **Combine Files**
+- Default Menu:Tools \>Combine Files
+- [All Commands](all_commands):Tools
+>Split/Combine \>Combine Files
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMBINE\_FILES (4607)
+```
+EEID_COMBINE_FILES (4607)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4607);
+```
+editor.ExecuteCommandByID(4607);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4607
+```
+editor.ExecuteCommandByID 4607
+```

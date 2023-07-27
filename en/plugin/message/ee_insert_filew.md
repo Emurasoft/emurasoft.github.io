@@ -14,15 +14,15 @@ lParam = (LPARAM) (LPCWSTR) szFileName;
 
 _pLoadFileInfo_
 
-> Pointer to a [LOAD\_FILE\_INFO](../structure/load_file_info) structure. If this parameter is NULL, EE\_INSERT\_FILEW will
-> open a file by a method predefined by the properties.
+Pointer to a [LOAD\_FILE\_INFO](../structure/load_file_info) structure. If this parameter is NULL, EE\_INSERT\_FILEW will
+open a file by a method predefined by the properties.
 
 _szFileName_
 
-> Specifies a full path file name. If a non-existing file is specified, EE\_INSERT\_FILEW
-> will fail.
+Specifies a full path file name. If a non-existing file is specified, EE\_INSERT\_FILEW
+will fail.
 
 ## Return Values
 
-> If the command is successful, the return value is nonzero. If the command
-> it not successful, the return value is zero.
+If the command is successful, the return value is nonzero. If the command
+it not successful, the return value is zero.

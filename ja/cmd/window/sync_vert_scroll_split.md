@@ -1,14 +1,14 @@
 # \[分割ウィンドウの垂直同期スクロール\] コマンド
 
-### 概要
+## 概要
 
-> 分割ウィンドウの垂直スクロールを同期します。
+分割ウィンドウの垂直スクロールを同期します。
 
-### 説明
+## 説明
 
-> 分割ウィンドウの垂直スクロールを同期します。
+分割ウィンドウの垂直スクロールを同期します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ウィンドウ\] \- \[分割ウィンドウの垂直同期スクロール\]
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[分割\] \- \[分割ウィンドウの垂直同期スクロール\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SYNC\_VERT\_SCROLL\_SPLIT (4524)
+```
+EEID_SYNC_VERT_SCROLL_SPLIT (4524)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4524);
+```
+editor.ExecuteCommandByID(4524);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4524
+```
+editor.ExecuteCommandByID 4524
+```

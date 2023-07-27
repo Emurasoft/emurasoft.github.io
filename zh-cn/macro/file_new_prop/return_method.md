@@ -1,18 +1,22 @@
 # ReturnMethod 属性 (FileNewProp ����)
 
-与 [**新建文件详细信息** 对话框](../../dlg/properties/file/new_details/index) 中的 **换行方式** 下拉列表框相对应。
+与 [新建文件详细信息 对话框](../../dlg/properties/file/new_details/index) 中的换行方式 下拉列表框相对应。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **ReturnMethod**;
+### \[JavaScript\]
 
-object. **ReturnMethod** = _n_;
+```
+n = object.ReturnMethod;
+object.ReturnMethod = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **ReturnMethod**
-
-object. **ReturnMethod** = _n_
+```
+n = object.ReturnMethod
+object.ReturnMethod = n
+```
 
 ## 版本
 

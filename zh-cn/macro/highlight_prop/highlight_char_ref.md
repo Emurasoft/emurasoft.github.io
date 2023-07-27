@@ -1,20 +1,22 @@
 # HighlightCharRef 属性 (HighlightProp ����)
 
-与配置属性中 [**高亮（2）** 页面](../../dlg/properties/highlight2/index) 上的 **高亮 HTML/XML 中的字符引用及通用字符名称** 复选框相对应。
+与配置属性中 [高亮（2） 页面](../../dlg/properties/highlight2/index) 上的高亮 HTML/XML 中的字符引用及通用字符名称 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HighlightCharRef**;
+### \[JavaScript\]
 
-object. **HighlightCharRef** = _b_;
+```
+b = object.HighlightCharRef;
+object.HighlightCharRef = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HighlightCharRef**
-
-object. **HighlightCharRef** = _b_
+```
+b = object.HighlightCharRef
+object.HighlightCharRef = b
+```
 
 ## 版本
 

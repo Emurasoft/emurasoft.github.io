@@ -1,32 +1,37 @@
 # Paste as HTML command
 
-### Summary
+## Summary
 
-> Pastes Clipboard contents as the HTML format.
+Pastes Clipboard contents as the HTML format.
 
-### Description
+## Description
 
-> Pastes Clipboard contents as the HTML format.
+Pastes Clipboard contents as the HTML format.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Paste**
-\> **Paste as HTML**
+- [All Commands](../tools/all_commands):Edit \>Paste
+\>Paste as HTML
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EDIT\_PASTE\_HTML (4071)
+```
+EEID_EDIT_PASTE_HTML (4071)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Paste(eeCopyHTML);
+```
+document.selection.Paste(eeCopyHTML);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Paste eeCopyHTML
+```
+document.selection.Paste eeCopyHTML
+```

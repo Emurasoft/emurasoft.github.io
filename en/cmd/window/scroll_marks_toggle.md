@@ -1,31 +1,36 @@
 # Toggle Markers on Vertical Scroll Bar command
 
-### Summary
+## Summary
 
-> Toggles the markers on the vertical scroll bar.
+Toggles the markers on the vertical scroll bar.
 
-### Description
+## Description
 
-> Toggles the markers on the vertical scroll bar.
+Toggles the markers on the vertical scroll bar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Show Markers**
+- [All Commands](../tools/all_commands):Window \>Scroll \>Show Markers
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SCROLL\_MARKS\_TOGGLE (3989)
+```
+EEID_SCROLL_MARKS_TOGGLE (3989)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3989);
+```
+editor.ExecuteCommandByID(3989);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3989
+```
+editor.ExecuteCommandByID 3989
+```

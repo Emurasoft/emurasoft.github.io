@@ -12,12 +12,12 @@ lParam = (LPARAM) 0;
 
 ## Parameters
 
-> None.
+None.
 
 ## Return Values
 
-> Returns TRUE if the current flag allows changes in EmEditor to be redrawn or prevents changes in EmEditor to be redrawn. Otherwise, returns FALSE.
+Returns TRUE if the current flag allows changes in EmEditor to be redrawn or prevents changes in EmEditor to be redrawn. Otherwise, returns FALSE.
 
 ## Version
 
-> Supported on Version 5.00 or later.
+Supported on Version 5.00 or later.

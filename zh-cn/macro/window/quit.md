@@ -2,13 +2,19 @@
 
 终止执行宏。
 
-#### \[JavaScript\]
+## 
 
-**Quit**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Quit();
+```
 
-**Quit**
+### \[VBScript\]
+
+```
+Quit
+```
 
 ## 版本
 

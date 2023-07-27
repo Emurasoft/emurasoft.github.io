@@ -1,15 +1,15 @@
 # \[大きいフォント サイズ\] コマンド
 
-### 概要
+## 概要
 
-> 表示フォントのサイズを大きくします。
+表示フォントのサイズを大きくします。
 
-### 説明
+## 説明
 
-> 表示フォントのサイズを大きくします。フォントの種類と正確なサイズは、 [\[フォントの設定\] \
-> ダイアログ ボックス](../../dlg/properties/font/index) で設定することができます。
+表示フォントのサイズを大きくします。フォントの種類と正確なサイズは、 [\[フォントの設定\] \
+ダイアログ ボックス](../../dlg/properties/font/index) で設定することができます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[フォント\]  \- \[大きいフォント サイズ\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_INCREASE\_FONT\_SIZE (4373)
+```
+EEID_INCREASE_FONT_SIZE (4373)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4373);
+```
+editor.ExecuteCommandByID(4373);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4373
+```
+editor.ExecuteCommandByID 4373
+```

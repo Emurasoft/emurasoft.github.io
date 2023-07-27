@@ -11,12 +11,12 @@ Editor\_LogicalToSerial( HWND hwnd, POINT\_PTR\* pptLogical );
 
 _hwnd_
 
-> 보기의 창 핸들 또는 EmEditor의 프레임을 지정합니다.
+보기의 창 핸들 또는 EmEditor의 프레임을 지정합니다.
 
 _pptLogical_
 
-> 변환될 논리 좌표를 지정하는 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터입니다.
+변환될 논리 좌표를 지정하는 [POINT\_PTR 구조](../structure/point_ptr) 에 대한 포인터입니다.
 
 ## 반환 값
 
-> 일련 위치를 반환합니다.
+일련 위치를 반환합니다.

@@ -1,21 +1,23 @@
 # HorizontalPage Property (ScrollProp Object)
 
-Corresponds to the **Always Enable 1 Page Horizontal Scroll** check box in the
-[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to theAlways Enable 1 Page Horizontal Scroll check box in the
+[Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HorizontalPage**;
+### \[JavaScript\]
 
-object. **HorizontalPage** = _b_;
+```
+b = object.HorizontalPage;
+object.HorizontalPage = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HorizontalPage**
-
-object. **HorizontalPage** = _b_
+```
+b = object.HorizontalPage
+object.HorizontalPage = b
+```
 
 ## Version
 

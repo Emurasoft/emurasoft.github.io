@@ -2,17 +2,21 @@
 
 検索した文字列を強調表示するかどうかを取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_bHighlightFind_ = document. **HighlightFind**;
+### \[JavaScript\]
 
-document. **HighlightFind** = _bHighlightFind_;
+```
+bHighlightFind = document.HighlightFind;
+document.HighlightFind = bHighlightFind;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bHighlightFind_ = document. **HighlightFind**
-
-document. **HighlightFind** = _bHighlightFind_
+```
+bHighlightFind = document.HighlightFind
+document.HighlightFind = bHighlightFind
+```
 
 ## バージョン
 

@@ -1,15 +1,15 @@
 # \[新規作成して引用付き貼り付け\] コマンド
 
-### 概要
+## 概要
 
-> 新規にファイルを作成して引用マークを付けて貼り付けます。
+新規にファイルを作成して引用マークを付けて貼り付けます。
 
-### 説明
+## 説明
 
-> このコマンドは、 [\[Textを新規作成\] コマンド](file_new) の実行後に
-> [\[引用付き貼り付け\] コマンド](../edit/paste_prefix) を実行した場合と同等です。
+このコマンドは、 [\[Textを新規作成\] コマンド](file_new) の実行後に
+[\[引用付き貼り付け\] コマンド](../edit/paste_prefix) を実行した場合と同等です。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[新規作成\] \- \[新規作成して引用付き貼り付け\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_NEW\_PASTE\_PREFIX (4271)
+```
+EEID_NEW_PASTE_PREFIX (4271)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4271);
+```
+editor.ExecuteCommandByID(4271);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4271
+```
+editor.ExecuteCommandByID 4271
+```

@@ -1,34 +1,39 @@
 # Print command
 
-### Summary
+## Summary
 
-> Prints the current file.
+Prints the current file.
 
-### Description
+## Description
 
-> This command displays the **Print** dialog box, where you can specify
-> the number of copies and the print range for the document you wish to print.
-> Click **OK** to
-> start the printing.
+This command displays thePrint dialog box, where you can specify
+the number of copies and the print range for the document you wish to print.
+ClickOK to
+start the printing.
 
-### How to Run
+## How to Run
 
-- Default Menu: **File** \> **Print**
-- [All Commands](../tools/all_commands): **File** \> **Print** \> **Print**
+- Default Menu:File \>Print
+- [All Commands](../tools/all_commands):File \>Print \>Print
 - Toolbar: ![](../../images/fileprint.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+P
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_PRINT (4114)
+```
+EEID_FILE_PRINT (4114)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> window.print();
+```
+window.print();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> window.print
+```
+window.print
+```

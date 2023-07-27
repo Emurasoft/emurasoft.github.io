@@ -8,12 +8,12 @@ Editor\_SetStatusA( HWND hwnd, LPCSTR szStatus );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _szStatus_
 
-> Specifies a massage text to be displayed on the status bar.
+Specifies a massage text to be displayed on the status bar.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

@@ -1,31 +1,36 @@
 # Generate Report command
 
-### Summary
+## Summary
 
-> Generates a report file based on the current comparison result.
+Generates a report file based on the current comparison result.
 
-### Description
+## Description
 
-> Generates a report file based on the current comparison result.
+Generates a report file based on the current comparison result.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Generate Report**
-- [All Commands](../tools/all_commands): **Compare** \> **Generate Report**
+- Default Menu:Compare \>Generate Report
+- [All Commands](../tools/all_commands):Compare \>Generate Report
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMPARE\_BOOKMARK (3996)
+```
+EEID_COMPARE_BOOKMARK (3996)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3996);
+```
+editor.ExecuteCommandByID(3996);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3996
+```
+editor.ExecuteCommandByID 3996
+```

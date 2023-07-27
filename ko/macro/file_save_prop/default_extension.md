@@ -1,18 +1,22 @@
 # DefaultExtension 속성 (FileSaveProp ��ü)
 
-구성 속성 [**파일** 탭](../../dlg/properties/file/index) 의 **기본 확장자** 텍스트 박스에 해당합니다.
+구성 속성 [파일 탭](../../dlg/properties/file/index) 의기본 확장자 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **DefaultExtension**;
+### \[JavaScript\]
 
-object. **DefaultExtension** = _s_;
+```
+s = object.DefaultExtension;
+object.DefaultExtension = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **DefaultExtension**
-
-object. **DefaultExtension** = _s_
+```
+s = object.DefaultExtension
+object.DefaultExtension = s
+```
 
 ## 버전
 

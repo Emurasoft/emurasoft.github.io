@@ -1,20 +1,22 @@
 # QuoteSingle 属性 (HighlightProp ����)
 
-与配置属性中 [**高亮（2）** 页面](../../dlg/properties/highlight2/index) 上的 **“引号内的字符串”群组框 \- 单引号 \['...'\]** 复选框相对应。
+与配置属性中 [高亮（2） 页面](../../dlg/properties/highlight2/index) 上的“引号内的字符串”群组框 \- 单引号 \['...'\] 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **QuoteSingle**;
+### \[JavaScript\]
 
-object. **QuoteSingle** = _b_;
+```
+b = object.QuoteSingle;
+object.QuoteSingle = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **QuoteSingle**
-
-object. **QuoteSingle** = _b_
+```
+b = object.QuoteSingle
+object.QuoteSingle = b
+```
 
 ## 版本
 

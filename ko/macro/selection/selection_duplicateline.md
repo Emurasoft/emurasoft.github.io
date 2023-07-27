@@ -2,13 +2,19 @@
 
 현재의 줄을 중복되게 합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **DuplicateLine**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.DuplicateLine();
+```
 
-document.selection. **DuplicateLine**
+### \[VBScript\]
+
+```
+document.selection.DuplicateLine
+```
 
 ## 버전
 

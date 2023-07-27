@@ -1,19 +1,23 @@
 # Header プロパティ (PrintProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[印刷\]** タブ](../../dlg/properties/print/index) の
-**\[ヘッダ\]** テキスト ボックスに相当します。
+設定のプロパティの [\[印刷\] タブ](../../dlg/properties/print/index) の
+\[ヘッダ\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Header**;
+### \[JavaScript\]
 
-object. **Header** = _s_;
+```
+s = object.Header;
+object.Header = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Header**
-
-object. **Header** = _s_
+```
+s = object.Header
+object.Header = s
+```
 
 ## バージョン
 

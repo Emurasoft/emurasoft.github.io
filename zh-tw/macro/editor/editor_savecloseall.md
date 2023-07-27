@@ -2,13 +2,19 @@
 
 儲存并關閉所有打開的檔案。
 
-#### \[JavaScript\]
+## 
 
-editor. **SaveCloseAll**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.SaveCloseAll();
+```
 
-editor. **SaveCloseAll**
+### \[VBScript\]
+
+```
+editor.SaveCloseAll
+```
 
 ## 版本
 

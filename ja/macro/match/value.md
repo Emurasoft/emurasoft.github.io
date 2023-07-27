@@ -2,14 +2,18 @@
 
 マッチした値である文字列を返します。
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-_s_ = m. **Value**;
+```
+s = m.Value;
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-_s_ = m. **Value**;
+```
+s = m.Value;
+```
 
-#### バージョン
+## バージョン
 
 EmEditor Professional Version 15.9 以上で利用できます。

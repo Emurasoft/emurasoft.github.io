@@ -1,32 +1,37 @@
 # Reconvert command
 
-### Summary
+## Summary
 
-> Reconverts the selection using an IME capable of re-conversion.
+Reconverts the selection using an IME capable of re-conversion.
 
-### Description
+## Description
 
-> Reconverts the already converted text by using an Input Method Editor (IME)
-> capable of re-conversion, typically found in Japanese IME.
+Reconverts the already converted text by using an Input Method Editor (IME)
+capable of re-conversion, typically found in Japanese IME.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Reconvert**
-- [All Commands](../tools/all_commands): **Convert** \> **Reconvert**
+- Default Menu:Convert \>Reconvert
+- [All Commands](../tools/all_commands):Convert \>Reconvert
 - Toolbar: None
 - Status Bar: None
-- Default Keyboard Shortcut: None (Typically, IME settings allow using the **Convert** key on Japanese keyboards.)
+- Default Keyboard Shortcut: None (Typically, IME settings allow using theConvert key on Japanese keyboards.)
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_RECONVERT (4199)
+```
+EEID_RECONVERT (4199)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4199);
+```
+editor.ExecuteCommandByID(4199);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4199
+```
+editor.ExecuteCommandByID 4199
+```

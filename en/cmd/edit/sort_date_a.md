@@ -1,31 +1,36 @@
 # Sort Date and Time Oldest to Newest command
 
-### Summary
+## Summary
 
-> Sorts date and time at the current column in ascending order.
+Sorts date and time at the current column in ascending order.
 
-### Description
+## Description
 
-> Sorts date and time at the current column in ascending order.
+Sorts date and time at the current column in ascending order.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Sort** \> **Sort Date and Time Oldest to Newest**
-- [All Commands](../tools/all_commands): **Sort** \> **Sort Date and Time Oldest to Newest**
+- Default Menu:Sort \>Sort Date and Time Oldest to Newest
+- [All Commands](../tools/all_commands):Sort \>Sort Date and Time Oldest to Newest
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SORT\_DATE\_A (3972)
+```
+EEID_SORT_DATE_A (3972)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3972);
+```
+editor.ExecuteCommandByID(3972);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3972
+```
+editor.ExecuteCommandByID 3972
+```

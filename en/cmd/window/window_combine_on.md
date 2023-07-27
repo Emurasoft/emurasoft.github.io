@@ -1,33 +1,38 @@
 # Enable Tabs - On command
 
-### Summary
+## Summary
 
-> Enables tabs to combine all windows.
+Enables tabs to combine all windows.
 
-### Description
+## Description
 
-> Enables the tabs to combine all windows. If the tab is already displayed but documents are grouped, this command will combine all groups. When the tabs are enabled, all currently open documents are displayed on a tab menu at the top of the window. Only one EmEditor
-> icon will be displayed on the Windows Task Bar.
+Enables the tabs to combine all windows. If the tab is already displayed but documents are grouped, this command will combine all groups. When the tabs are enabled, all currently open documents are displayed on a tab menu at the top of the window. Only one EmEditor
+icon will be displayed on the Windows Task Bar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Enable Tabs** \> **Enable Tabs - On**
+- [All Commands](../tools/all_commands):Window
+\>Enable Tabs \>Enable Tabs - On
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_COMBINE\_ON (4407)
+```
+EEID_WINDOW_COMBINE_ON (4407)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.EnableTab = true;
+```
+editor.EnableTab = true;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.EnableTab = True
+```
+editor.EnableTab = True
+```

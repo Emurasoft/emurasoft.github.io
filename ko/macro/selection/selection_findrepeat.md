@@ -2,13 +2,19 @@
 
 같은 문자열로 이전 검색을 반복합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **FindRepeat**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.FindRepeat( nFlags );
+```
 
-document.selection. **FindRepeat** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.FindRepeat nFlags
+```
 
 ## 매개 변수
 

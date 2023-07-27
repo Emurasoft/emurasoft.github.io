@@ -1,32 +1,37 @@
 # Toggle Bookmark command
 
-### Summary
+## Summary
 
-> Toggles a bookmark on the current line.
+Toggles a bookmark on the current line.
 
-### Description
+## Description
 
-> Sets a bookmark on the current line if not already set, or resets the bookmark if
-> set.
+Sets a bookmark on the current line if not already set, or resets the bookmark if
+set.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **Toggle Bookmark**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **Toggle Bookmark**
+- Default Menu:Bookmarks \>Toggle Bookmark
+- [All Commands](../tools/all_commands):Bookmarks \>Toggle Bookmark
 - Toolbar: ![](../../images/bookmarktoggle.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+F2
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_TOGGLE (4320)
+```
+EEID_BOOKMARK_TOGGLE (4320)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4320);
+```
+editor.ExecuteCommandByID(4320);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4320
+```
+editor.ExecuteCommandByID 4320
+```

@@ -1,19 +1,23 @@
 # Enabled プロパティ (AssociationProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[関連付け\]** タブ](../../dlg/properties/associate/index) の
-**\[ここで設定する関連付けを有効にする\]** チェック ボックス に相当します。
+設定のプロパティの [\[関連付け\] タブ](../../dlg/properties/associate/index) の
+\[ここで設定する関連付けを有効にする\] チェック ボックス に相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Enabled**;
+### \[JavaScript\]
 
-object. **Enabled** = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Enabled**
-
-object. **Enabled** = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## バージョン
 

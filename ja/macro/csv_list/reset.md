@@ -2,13 +2,19 @@
 
 コレクションをリセットします。
 
-#### \[JavaScript\]
+## 
 
-list. **Reset**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Reset();
+```
 
-list. **Reset**
+### \[VBScript\]
+
+```
+list.Reset
+```
 
 ## バージョン
 

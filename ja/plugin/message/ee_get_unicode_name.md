@@ -13,12 +13,12 @@ lParam = 0;
 
 _pUNI_
 
-> [UNICODE\_NAME\_INFO 構造体](../structure/unicode_name_info) へのポインタを指定します。
+[UNICODE\_NAME\_INFO 構造体](../structure/unicode_name_info) へのポインタを指定します。
 
 ## 戻り値
 
-> UNICODE\_NAME\_INFO 構造体の _cchBuf_ に 0 を指定した場合、バッファに必要なサイズを文字単位で返します。
+UNICODE\_NAME\_INFO 構造体の _cchBuf_ に 0 を指定した場合、バッファに必要なサイズを文字単位で返します。
 
 ## バージョン
 
-> Version 19.1 以上で利用できます。
+Version 19.1 以上で利用できます。

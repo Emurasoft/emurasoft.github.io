@@ -1,14 +1,14 @@
 # \[高度なフィルター (フィルター ツール バー)\] コマンド
 
-### 概要
+## 概要
 
-> \[高度なフィルター\] ダイアログ ボックスを表示します。
+\[高度なフィルター\] ダイアログ ボックスを表示します。
 
-### 説明
+## 説明
 
-> \[高度なフィルター\] ダイアログ ボックスを表示します。
+\[高度なフィルター\] ダイアログ ボックスを表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[フィルター ツール バー\] \- \[高度なフィルター\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FILTERBAR\_ADVANCED (3919)
+```
+EEID_FILTERBAR_ADVANCED (3919)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3919);
+```
+editor.ExecuteCommandByID(3919);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3919
+```
+editor.ExecuteCommandByID 3919
+```

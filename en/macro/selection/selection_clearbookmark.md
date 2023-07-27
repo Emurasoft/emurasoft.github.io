@@ -2,13 +2,19 @@
 
 Clears a bookmark on the current line.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ClearBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ClearBookmark();
+```
 
-document.selection. **ClearBookmark**
+### \[VBScript\]
+
+```
+document.selection.ClearBookmark
+```
 
 ## Version
 

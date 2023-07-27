@@ -1,14 +1,14 @@
 # \[更新チャネルの選択\] コマンド
 
-### 概要
+## 概要
 
-> 更新チェッカーをカスタマイズします。
+更新チェッカーをカスタマイズします。
 
-### 説明
+## 説明
 
-> 更新チェッカーをカスタマイズします。
+更新チェッカーをカスタマイズします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ヘルプ\] \- \[更新チャネルの選択\]
 - [すべてのコマンド](../../glossary/allcommands): \[ヘルプ\] \- \[更新チャネルの選択\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_UPDATE\_CHANNEL (3950)
+```
+EEID_UPDATE_CHANNEL (3950)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3950);
+```
+editor.ExecuteCommandByID(3950);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3950
+```
+editor.ExecuteCommandByID 3950
+```

@@ -2,17 +2,21 @@
 
 Returns or sets the horizontal position of the specified window, in pixels.
 
-#### \[JavaScript\]
+## 
 
-_x_ = wnd. **LeftX**;
+### \[JavaScript\]
 
-wnd. **LeftX** = _x_;
+```
+x = wnd.LeftX;
+wnd.LeftX = x;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_x_ = wnd. **LeftX**
-
-wnd. **LeftX** = x
+```
+x = wnd.LeftX
+wnd.LeftX = x
+```
 
 ## Version
 

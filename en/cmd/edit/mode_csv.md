@@ -1,14 +1,14 @@
 # CSV Mode command
 
-### Summary
+## Summary
 
-> Selects the CSV (Comma-separated) mode.
+Selects the CSV (Comma-separated) mode.
 
-### Description
+## Description
 
-> Selects the CSV (Comma-separated) mode.
+Selects the CSV (Comma-separated) mode.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): None
@@ -16,16 +16,21 @@
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MODE\_CSV (4459)
+```
+EEID_MODE_CSV (4459)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4459);
+```
+editor.ExecuteCommandByID(4459);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4459
+```
+editor.ExecuteCommandByID 4459
+```

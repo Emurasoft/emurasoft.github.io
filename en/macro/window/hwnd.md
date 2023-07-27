@@ -2,17 +2,21 @@
 
 Retrieves or sets the handle value of the window.
 
-#### \[JavaScript\]
+## 
 
-_h_ = wnd. **hWnd**;
+### \[JavaScript\]
 
-wnd. **hWnd** = _h_;
+```
+h = wnd.hWnd;
+wnd.hWnd = h;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_h_ = wnd. **hWnd**
-
-wnd. **hWnd** = _h_
+```
+h = wnd.hWnd
+wnd.hWnd = h
+```
 
 ## Version
 

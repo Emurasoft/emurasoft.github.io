@@ -1,20 +1,22 @@
 # FastCursorMove 屬性 (ScrollProp ��H)
 
-與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **快速移動游標** 核取方塊相對應。
+與組態屬性中 [捲動 頁面](../../dlg/properties/scroll/index) 上的快速移動游標 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **FastCursorMove**;
+### \[JavaScript\]
 
-object. **FastCursorMove** = _b_;
+```
+b = object.FastCursorMove;
+object.FastCursorMove = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **FastCursorMove**
-
-object. **FastCursorMove** = _b_
+```
+b = object.FastCursorMove
+object.FastCursorMove = b
+```
 
 ## 版本
 

@@ -1,20 +1,22 @@
 # VerticalLine 属性 (ScrollProp ����)
 
-与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **垂直线** 复选框相对应。
+与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的垂直线 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **VerticalLine** ;
+### \[JavaScript\]
 
-object. **VerticalLine**  = _b_;
+```
+b = object.VerticalLine ;
+object.VerticalLine  = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **VerticalLine**
-
-object. **VerticalLine**  = _b_
+```
+b = object.VerticalLine
+object.VerticalLine  = b
+```
 
 ## 版本
 

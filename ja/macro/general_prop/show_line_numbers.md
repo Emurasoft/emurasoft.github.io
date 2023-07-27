@@ -1,20 +1,22 @@
 # ShowLineNumbers プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の **\[行番号を表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[行番号を表示\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowLineNumbers**;
+### \[JavaScript\]
 
-object. **ShowLineNumbers** = _b_;
+```
+b = object.ShowLineNumbers;
+object.ShowLineNumbers = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowLineNumbers**
-
-object. **ShowLineNumbers** = _b_
+```
+b = object.ShowLineNumbers
+object.ShowLineNumbers = b
+```
 
 ## バージョン
 

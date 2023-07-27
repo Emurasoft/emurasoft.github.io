@@ -2,15 +2,19 @@
 
 지정된 인덱스를 위한 [DisplayItem 개체](../display_item/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-list. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = list.Item( Index );
+```
 
-_item_ =
-list. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = list.Item( Index )
+```
 
 ## 매개 변수
 

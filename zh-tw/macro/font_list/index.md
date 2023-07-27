@@ -6,30 +6,28 @@ FontList 集合提供 [FontItem 對象](../font_item/index) 的集合。
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 檢索項目數量。 |
-| **[Item](item)** | 為指定的索引檢索 [FontItem 對象](../font_item/index)。 |
+|[Count](count) | 檢索項目數量。 |
+|[Item](item) | 為指定的索引檢索 [FontItem 對象](../font_item/index)。 |
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Font.DisplayList );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Font.DisplayList
-
 alert item.Name
-
 Next
+```
 
 ## 版本
 

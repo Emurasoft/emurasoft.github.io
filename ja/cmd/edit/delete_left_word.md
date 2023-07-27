@@ -1,14 +1,14 @@
 # \[単語左削除\] コマンド
 
-### 概要
+## 概要
 
-> 単語のカーソルから左を削除します。
+単語のカーソルから左を削除します。
 
-### 説明
+## 説明
 
-> カーソル位置に存在する単語のカーソルから左側を削除します。単語の左側に空白が存在する場合、その空白は削除しません。
+カーソル位置に存在する単語のカーソルから左側を削除します。単語の左側に空白が存在する場合、その空白は削除しません。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[削除\] \- \[単語左削除\]
@@ -16,20 +16,23 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Backspace
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DELETE\_LEFT\_WORD (4280)
+```
+EEID_DELETE_LEFT_WORD (4280)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.WordLeft(true,1);
->
-> document.selection.Delete(1);
+```
+document.selection.WordLeft(true,1);
+document.selection.Delete(1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.WordLeft true,1
->
-> document.selection.Delete 1
+```
+document.selection.WordLeft true,1
+document.selection.Delete 1
+```

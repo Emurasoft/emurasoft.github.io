@@ -14,13 +14,13 @@ lParam = 0;
 
 _hwndView_
 
-> The window handle to the EmEditor view.
+The window handle to the EmEditor view.
 
 ## Return Values
 
-> If the return value is TRUE, EmEditor will not open dropped
-> files.
+If the return value is TRUE, EmEditor will not open dropped
+files.
 
 ## Version
 
-> Supported on Version 8.00 or later.
+Supported on Version 8.00 or later.

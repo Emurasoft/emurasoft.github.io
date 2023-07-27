@@ -1,20 +1,22 @@
 # PasteAnsi Property (GeneralProp Object)
 
-Corresponds to the **Always Paste as ANSI** check box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to theAlways Paste as ANSI check box in the [General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PasteAnsi**;
+### \[JavaScript\]
 
-object. **PasteAnsi** = _b_;
+```
+b = object.PasteAnsi;
+object.PasteAnsi = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PasteAnsi**
-
-object. **PasteAnsi** = _b_
+```
+b = object.PasteAnsi
+object.PasteAnsi = b
+```
 
 ## Version
 

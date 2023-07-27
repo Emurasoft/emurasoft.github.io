@@ -1,20 +1,22 @@
 # NoSpaceEdge 属性 (GeneralProp ����)
 
-与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **窗口左边缘无可用空间** 复选框相对应。
+与配置属性中 [常规 页面](../../dlg/properties/general/index) 上的窗口左边缘无可用空间 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **NoSpaceEdge**;
+### \[JavaScript\]
 
-object. **NoSpaceEdge** = _b_;
+```
+b = object.NoSpaceEdge;
+object.NoSpaceEdge = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **NoSpaceEdge**
-
-object. **NoSpaceEdge** = _b_
+```
+b = object.NoSpaceEdge
+object.NoSpaceEdge = b
+```
 
 ## 版本
 

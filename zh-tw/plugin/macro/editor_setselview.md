@@ -8,16 +8,16 @@ Editor\_SetSelView( HWND hwnd, POINT\_PTR\* pptSelStart, POINT\_PTR\* pptSelEnd 
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _pptSelStart_
 
-> 指標至一個指定選區開始位置的 [POINT\_PTR 結構](../structure/point_ptr)。該位置由顯示坐標標示。
+指標至一個指定選區開始位置的 [POINT\_PTR 結構](../structure/point_ptr)。該位置由顯示坐標標示。
 
 _pptSelEnd_
 
-> 指標至一個指定選區結束位置的 [POINT\_PTR 結構](../structure/point_ptr)。該位置由顯示坐標標示。
+指標至一個指定選區結束位置的 [POINT\_PTR 結構](../structure/point_ptr)。該位置由顯示坐標標示。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

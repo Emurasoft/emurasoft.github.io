@@ -2,13 +2,19 @@
 
 檢索 PrintList 對象。
 
-#### \[JavaScript\]
+## 
 
-_list_ = object. **PrintList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.PrintList;
+```
 
-_list_ = object. **PrintList**
+### \[VBScript\]
+
+```
+list = object.PrintList
+```
 
 ## 版本
 

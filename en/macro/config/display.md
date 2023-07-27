@@ -3,13 +3,19 @@
 Retrieves the
 [DisplayProp object](../display_prop/index).
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Display**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Display;
+```
 
-Set _obj_ = object. **Display**
+### \[VBScript\]
+
+```
+Set obj = object.Display
+```
 
 ## Version
 

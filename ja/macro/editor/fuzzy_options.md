@@ -2,13 +2,19 @@
 
 [FuzzyOptions オブジェクト](../fuzzy_options/index) を返します。
 
-#### \[JavaScript\]
+## 
 
-_f_ = editor. **FuzzyOptions**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+f = editor.FuzzyOptions;
+```
 
-Set _f_ = editor. **FuzzyOptions**
+### \[VBScript\]
+
+```
+Set f = editor.FuzzyOptions
+```
 
 ## バージョン
 

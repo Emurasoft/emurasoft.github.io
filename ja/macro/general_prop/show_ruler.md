@@ -1,21 +1,23 @@
 # ShowRuler プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の
-**\[ルーラを表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の
+\[ルーラを表示\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowRuler**;
+### \[JavaScript\]
 
-object. **ShowRuler** = _b_;
+```
+b = object.ShowRuler;
+object.ShowRuler = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowRuler**
-
-object. **ShowRuler** = _b_
+```
+b = object.ShowRuler
+object.ShowRuler = b
+```
 
 ## バージョン
 

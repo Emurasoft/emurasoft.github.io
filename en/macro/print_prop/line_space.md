@@ -1,20 +1,24 @@
 # LineSpace Property (PrintProp Object)
 
-Corresponds to the **Space**
-**Between Lines** text box in the
-[**Print** page](../../dlg/properties/print/index) of Configuration Properties.
+Corresponds to the Space
+Between Lines text box in the
+[Print page](../../dlg/properties/print/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **LineSpace**;
+### \[JavaScript\]
 
-object. **LineSpace** = _n_;
+```
+n = object.LineSpace;
+object.LineSpace = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **LineSpace**
-
-object. **LineSpace** = _n_
+```
+n = object.LineSpace
+object.LineSpace = n
+```
 
 ## Version
 

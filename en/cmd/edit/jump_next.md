@@ -1,32 +1,37 @@
 # Jump Next command
 
-### Summary
+## Summary
 
-> Jumps to the next location in the Output Bar.
+Jumps to the next location in the Output Bar.
 
-### Description
+## Description
 
-> Jumps to the next location in the Output Bar.
+Jumps to the next location in the Output Bar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
-\> **Jump Next**
+- [All Commands](../tools/all_commands):Edit \>Advanced
+\>Jump Next
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: F4
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_JUMP\_NEXT (4442)
+```
+EEID_JUMP_NEXT (4442)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4442);
+```
+editor.ExecuteCommandByID(4442);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4442
+```
+editor.ExecuteCommandByID 4442
+```

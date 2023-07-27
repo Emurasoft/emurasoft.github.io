@@ -2,13 +2,19 @@
 
 Saves the fuzzy options to the app data folder.
 
-#### \[JavaScript\]
+## 
 
-obj. **Save**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj.Save();
+```
 
-obj. **Save**
+### \[VBScript\]
+
+```
+obj.Save
+```
 
 ## Version
 

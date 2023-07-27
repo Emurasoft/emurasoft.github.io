@@ -1,33 +1,38 @@
 # Reset All Setting command
 
-### Summary
+## Summary
 
-> Resets all EmEditor settings and restarts EmEditor.
+Resets all EmEditor settings and restarts EmEditor.
 
-### Description
+## Description
 
-> Resets all EmEditor settings and restarts EmEditor.
+Resets all EmEditor settings and restarts EmEditor.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Tools**
-\> **Reset All Settings**
-- [All Commands](all_commands): **Tools**
-\> **Reset All Settings**
+- Default Menu:Tools
+\>Reset All Settings
+- [All Commands](all_commands):Tools
+\>Reset All Settings
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_RESET\_ALL (3860)
+```
+EEID_RESET_ALL (3860)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3860);
+```
+editor.ExecuteCommandByID(3860);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3860
+```
+editor.ExecuteCommandByID 3860
+```

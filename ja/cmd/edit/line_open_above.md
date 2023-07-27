@@ -1,14 +1,14 @@
 # \[上に行挿入\] コマンド
 
-### 概要
+## 概要
 
-> カーソル位置の上に行を挿入します。
+カーソル位置の上に行を挿入します。
 
-### 説明
+## 説明
 
-> カーソル位置の上に空の 1 行を挿入します。
+カーソル位置の上に空の 1 行を挿入します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[挿入\] \- \[上に空行\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[上に空行\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Shift+Enter
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_LINE\_OPEN\_ABOVE (4195)
+```
+EEID_LINE_OPEN_ABOVE (4195)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.LineOpen(true);
+```
+document.selection.LineOpen(true);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.LineOpen true
+```
+document.selection.LineOpen true
+```

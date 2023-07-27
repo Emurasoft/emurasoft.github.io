@@ -2,17 +2,21 @@
 
 オブジェクトが有効かどうかを示すフラグを指定します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = obj. **Enabled**;
+### \[JavaScript\]
 
-obj. **Enabled** = _n_;
+```
+n = obj.Enabled;
+obj.Enabled = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = obj. **Enabled**;
-
-obj. **Enabled** = _n_;
+```
+n = obj.Enabled;
+obj.Enabled = n;
+```
 
 ## バージョン
 

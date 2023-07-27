@@ -1,14 +1,14 @@
 # \[マーカーへ追加\] コマンド
 
-### 概要
+## 概要
 
-> 選択されたテキストをマーカー一覧に追加します。
+選択されたテキストをマーカー一覧に追加します。
 
-### 説明
+## 説明
 
-> 選択されたテキストをマーカー一覧に追加します。
+選択されたテキストをマーカー一覧に追加します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[高度な操作\] \- \[マーカーへ追加\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_ADD\_TO\_MARKERS (4560)
+```
+EEID_ADD_TO_MARKERS (4560)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4560);
+```
+editor.ExecuteCommandByID(4560);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4560
+```
+editor.ExecuteCommandByID 4560
+```

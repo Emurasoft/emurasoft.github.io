@@ -1,10 +1,16 @@
 # \[言語サーバー\] ページ
 
-**\[言語サーバー\]** ページでは、EmEditor の言語サーバーに関するプロパティを設定できます。
+\[言語サーバー\] ページでは、EmEditor の言語サーバーに関するプロパティを設定できます。
+
+## 
 
 ### \[言語サーバー プロトコルを有効にする (試験的)\] チェック ボックス
 
-これがチェックされていると、言語サーバー プロトコルを有効にします。
+これがチェックされていると、次の機能を有効にします。
+
+- マウス ポイントした際のツール チップ
+- \[検索\] メニューの \[シンボルを検索\]
+- \[構文チェック\] の \[文書タイプ\] で、\[言語サーバー プロトコル\] を選択可能
 
 ### \[文書タイプ\] ドロップダウン リスト ボックス
 
@@ -24,11 +30,11 @@
 
 pip を使用して [Python LSP Server](https://github.com/python-lsp/python-lsp-server) をインストールします。コマンド プロンプトで `python -m pylsp` を実行してインストールをテストします。
 
-### HTML, CSS, JavaScript, and Perl
+### HTML, CSS, JavaScript, Perl, JSON
 
 これらのサーバーは EmEditor に標準でインストールされています。次の一覧は、それらのソース リポジトリへのリンクです。
 
-- HTML と CSS: [VSCode extensions](https://github.com/microsoft/vscode)
+- HTML, CSS, JSON: [VSCode extensions](https://github.com/microsoft/vscode)
 - JavaScript: [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server)
 - Perl: [Perl Navigator Language Server](https://github.com/bscan/PerlNavigator)
 

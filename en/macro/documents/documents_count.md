@@ -2,23 +2,33 @@
 
 Retrieves the number of documents.
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = editor.Documents. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = editor.Documents.Count;
+```
 
-_nCount_ = editor.Documents. **Count**
+### \[VBScript\]
+
+```
+nCount = editor.Documents.Count
+```
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Number of Documents: " + editor.Documents.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Number of Documents: " & editor.Documents.Count
+```
 
 ## Version
 

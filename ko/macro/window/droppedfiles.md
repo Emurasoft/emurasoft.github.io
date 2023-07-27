@@ -1,14 +1,20 @@
 # DroppedFiles 속성 (Window ��ü)
 
-[**DroppedFiles** 개체](../dropped_files/index) 를 반환합니다.
+[DroppedFiles 개체](../dropped_files/index) 를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = **DroppedFiles**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj =DroppedFiles;
+```
 
-Set _obj_ = **DroppedFiles**
+### \[VBScript\]
+
+```
+Set obj =DroppedFiles
+```
 
 ## 버전
 

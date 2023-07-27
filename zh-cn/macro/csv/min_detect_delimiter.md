@@ -1,18 +1,22 @@
 # MinDetectDelimiter 属性 (Csv ����)
 
-与在自定义对话框中 [**CSV** 页面](../../dlg/customize/csv/index) 上的 **要检测的最少分隔符数** 文本框对应。
+与在自定义对话框中 [CSV 页面](../../dlg/customize/csv/index) 上的要检测的最少分隔符数 文本框对应。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **MinDetectDelimiter**;
+### \[JavaScript\]
 
-object. **MinDetectDelimiter** = _n_;
+```
+n = object.MinDetectDelimiter;
+object.MinDetectDelimiter = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **MinDetectDelimiter**
-
-object. **MinDetectDelimiter** = _n_
+```
+n = object.MinDetectDelimiter
+object.MinDetectDelimiter = n
+```
 
 ## 版本
 

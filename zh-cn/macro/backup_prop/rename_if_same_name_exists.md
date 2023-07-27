@@ -1,18 +1,22 @@
 # RenameIfSameNameExists 属性 (BackupProp ����)
 
-与配置属性中 [**备份** 页面](../../dlg/properties/backup/index) 上的 **重命名文件，文件名已存在** 复选框对应。
+与配置属性中 [备份 页面](../../dlg/properties/backup/index) 上的重命名文件，文件名已存在 复选框对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **RenameIfSameNameExists**;
+### \[JavaScript\]
 
-object. **RenameIfSameNameExists** = _b_;
+```
+b = object.RenameIfSameNameExists;
+object.RenameIfSameNameExists = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **RenameIfSameNameExists**
-
-object. **RenameIfSameNameExists** = _b_
+```
+b = object.RenameIfSameNameExists
+object.RenameIfSameNameExists = b
+```
 
 ## 版本
 

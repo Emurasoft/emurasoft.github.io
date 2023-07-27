@@ -10,17 +10,21 @@
 | eeExFindRegexBoost | 把 Boost.Regex 作為規則運算式引擎。 |
 | eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎。 |
 
-#### \[JavaScript\]
+## 
 
-_n_ = reg. **Engine**;
+### \[JavaScript\]
 
-reg. **Engine** = _n_;
+```
+n = reg.Engine;
+reg.Engine = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = reg. **Engine**;
-
-reg. **Engine** = _n_;
+```
+n = reg.Engine;
+reg.Engine = n;
+```
 
 ## 版本
 

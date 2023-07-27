@@ -2,13 +2,19 @@
 
 檢索 [WrapProp 對象](../wrap_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Wrap**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Wrap;
+```
 
-Set _obj_ = object. **Wrap**
+### \[VBScript\]
+
+```
+Set obj = object.Wrap
+```
 
 ## 版本
 

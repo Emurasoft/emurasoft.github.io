@@ -1,20 +1,22 @@
 # Quote 속성 (SpellProp ��ü)
 
-구성 속성의 [**맞춤법** 탭](../../dlg/properties/spell/index) 의 **인용줄** 체크 박스에 해당합니다.
+구성 속성의 [맞춤법 탭](../../dlg/properties/spell/index) 의인용줄 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Quote**;
+### \[JavaScript\]
 
-object. **Quote** = _b_;
+```
+b = object.Quote;
+object.Quote = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Quote**
-
-object. **Quote** = _b_
+```
+b = object.Quote
+object.Quote = b
+```
 
 ## 버전
 

@@ -11,17 +11,17 @@ Editor\_GetVersionEx( HWND hwnd, int\* pnProductType );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _pnProductType_
 
-> 指定一個指標至整數值。這個消息返回下列值之一。
->
-> |     |     |
-> | --- | --- |
-> | VERSION\_PRO | EmEditor Professional |
-> | VERSION\_STD | EmEditor Standard |
+指定一個指標至整數值。這個消息返回下列值之一。
+
+|     |     |
+| --- | --- |
+| VERSION\_PRO | EmEditor Professional |
+| VERSION\_STD | EmEditor Standard |
 
 ## 返回值
 
-> 返回被乘以 1000 的版本號。
+返回被乘以 1000 的版本號。

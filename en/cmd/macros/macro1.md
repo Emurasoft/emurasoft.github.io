@@ -1,27 +1,28 @@
 # Macros List command
 
-### Summary
+## Summary
 
-> Runs a specified macro in My Macros list (multiple items).
+Runs a specified macro in My Macros list (multiple items).
 
-### Description
+## Description
 
-> This command consists of multiple menu items. This command runs a
-> specified macro registered in the My Macros directory. You may set your Macro file to use in My Macro at the [Customize Macros command](customize_macro).
+This command consists of multiple menu items. This command runs a
+specified macro registered in the My Macros directory. You may set your Macro file to use in My Macro at the [Customize Macros command](customize_macro).
 
-### How to Run
+## How to Run
 
-- Default Menu: **Macros** \> ( **select macro name**)
-- [All Commands](../tools/all_commands): **Macros**
-\> ( **select macro name**)
+- Default Menu:Macros \> (select macro name)
+- [All Commands](../tools/all_commands):Macros
+\> (select macro name)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- From EEID\_MACRO1 through EEID\_MACRO1 + 1023 (From 9216 through 9216 + 1023)
+```
+From EEID_MACRO1 through EEID_MACRO1 + 1023 (From 9216 through 9216 + 1023)```
 
-### Macros
+## Macros
 
-> Not available.
+Not available.

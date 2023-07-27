@@ -2,13 +2,19 @@
 
 현재 줄에 책갈피를 지웁니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ClearBookmark**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ClearBookmark();
+```
 
-document.selection. **ClearBookmark**
+### \[VBScript\]
+
+```
+document.selection.ClearBookmark
+```
 
 ## 버전
 

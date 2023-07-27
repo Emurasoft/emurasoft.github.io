@@ -1,31 +1,36 @@
 # EOF command
 
-### Summary
+## Summary
 
-> Shows or hides the end of file mark.
+Shows or hides the end of file mark.
 
-### Description
+## Description
 
-> Shows or hides the end of file mark. By default, EmEditor displays the EOF mark (blue, left-facing arrow).
+Shows or hides the end of file mark. By default, EmEditor displays the EOF mark (blue, left-facing arrow).
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Marks** \> **End of File**
-- [All Commands](../tools/all_commands): **View** \> **Marks** \> **End of File**
+- Default Menu:View \>Marks \>End of File
+- [All Commands](../tools/all_commands):View \>Marks \>End of File
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_VIEW\_EOF (4533)
+```
+EEID_VIEW_EOF (4533)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4533);
+```
+editor.ExecuteCommandByID(4533);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4533
+```
+editor.ExecuteCommandByID 4533
+```

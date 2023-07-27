@@ -12,12 +12,12 @@ lParam = (LPARAM) (ACTIVE\_STRING\_INFO\*) pInfo;
 
 _pInfo_
 
-> [ACTIVE\_STRING\_INFO 構造体](../structure/active_string_info) へのポインタを指定します。
+[ACTIVE\_STRING\_INFO 構造体](../structure/active_string_info) へのポインタを指定します。
 
 ## 戻り値
 
-> アクティブな文字列を終端NULL文字を含めて取得するのに必要なバッファのサイズを文字単位で指定します。
+アクティブな文字列を終端NULL文字を含めて取得するのに必要なバッファのサイズを文字単位で指定します。
 
 ## バージョン
 
-> Version 16.9 以上で利用できます。
+Version 16.9 以上で利用できます。

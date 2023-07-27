@@ -1,32 +1,37 @@
 # Fuzzy Matching (Find toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Fuzzy Matching button on the Find toolbar.
+Toggles the Fuzzy Matching button on the Find toolbar.
 
-### Description
+## Description
 
-> Toggles the Fuzzy Matching button on the Find toolbar.
+Toggles the Fuzzy Matching button on the Find toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Toolbar** \> **Fuzzy Matching**
+- [All Commands](../tools/all_commands):Search
+\>Find Toolbar \>Fuzzy Matching
 - Toolbar:  (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FINDBAR\_FUZZY (23236)
+```
+EEID_FINDBAR_FUZZY (23236)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(23236);
+```
+editor.ExecuteCommandByID(23236);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 23236
+```
+editor.ExecuteCommandByID 23236
+```

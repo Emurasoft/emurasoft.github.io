@@ -1,14 +1,14 @@
 # \[カーソル位置の同期\] コマンド
 
-### 概要
+## 概要
 
-> カーソル位置を同期します。
+カーソル位置を同期します。
 
-### 説明
+## 説明
 
-> カーソル位置を同期します。
+カーソル位置を同期します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[比較\] \- \[カーソル位置の同期\]
 - [すべてのコマンド](../../glossary/allcommands): \[比較\] \- \[カーソル位置の同期\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SYNC\_CARET (4507)
+```
+EEID_SYNC_CARET (4507)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4507);
+```
+editor.ExecuteCommandByID(4507);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4507
+```
+editor.ExecuteCommandByID 4507
+```

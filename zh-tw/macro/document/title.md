@@ -2,23 +2,33 @@
 
 檢索或設定文檔標題。標題可以包含由換行符符號分隔的長標題和短標題（\\n 或 Chr(10)）。
 
-#### \[JavaScript\]
+## 
 
-_strTitle_ = document. **Title**;document. **Title** = _strTitle_;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strTitle = document.Title;document.Title = strTitle;
+```
 
-_strTitle_ = document. **Title** document. **Title** = _strTitle_
+### \[VBScript\]
+
+```
+strTitle = document.Title document.Title = strTitle
+```
 
 ## 範例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.Title = "This is a long title.\\nShort title";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.Title = "This is a long title." & Chr(10) & "Short title"
+```
 
 ## 版本
 

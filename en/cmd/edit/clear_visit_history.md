@@ -1,32 +1,37 @@
 # Clear Visited Link History command
 
-### Summary
+## Summary
 
-> Clears the visited URLs, Email addresses, and tag history.
+Clears the visited URLs, Email addresses, and tag history.
 
-### Description
+## Description
 
-> Clears the visited URLs, Email addresses, and tag history.
+Clears the visited URLs, Email addresses, and tag history.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
-\> **Clear Visited Link History**
+- [All Commands](../tools/all_commands):Edit \>Advanced
+\>Clear Visited Link History
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: F10
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CLEAR\_VISIT\_HISTORY (3947)
+```
+EEID_CLEAR_VISIT_HISTORY (3947)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3947);
+```
+editor.ExecuteCommandByID(3947);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3947
+```
+editor.ExecuteCommandByID 3947
+```

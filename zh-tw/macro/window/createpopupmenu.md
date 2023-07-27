@@ -2,13 +2,19 @@
 
 創建一個彈出菜單。
 
-#### \[JavaScript\]
+## 
 
-_popupmenu_ = **CreatePopupMenu**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu =CreatePopupMenu();
+```
 
-Set _popupmenu_ = **CreatePopupMenu**
+### \[VBScript\]
+
+```
+Set popupmenu =CreatePopupMenu
+```
 
 ## 返回值
 

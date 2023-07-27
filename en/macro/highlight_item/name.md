@@ -2,19 +2,21 @@
 
 Specifies the name of the object.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Name**;
+### \[JavaScript\]
 
-item. **Name** = _b_;
+```
+b = item.Name;
+item.Name = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Name**
-
-item. **Name** = _b_
+```
+b = item.Name
+item.Name = b
+```
 
 ## Version
 

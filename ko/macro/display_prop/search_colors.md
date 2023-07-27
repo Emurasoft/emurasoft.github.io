@@ -1,18 +1,22 @@
 # SearchColors 속성 (DisplayProp ��ü)
 
-구성 속성 [**디스플레이** 탭](../../dlg/properties/display/index) 의 **색 검색** 텍스트 박스에 해당합니다.
+구성 속성 [디스플레이 탭](../../dlg/properties/display/index) 의색 검색 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **SearchColors**;
+### \[JavaScript\]
 
-object. **SearchColors** = _n_;
+```
+n = object.SearchColors;
+object.SearchColors = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **SearchColors**
-
-object. **SearchColors** = _n_
+```
+n = object.SearchColors
+object.SearchColors = n
+```
 
 ## 버전
 

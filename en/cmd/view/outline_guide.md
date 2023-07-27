@@ -1,33 +1,38 @@
 # Toggle Outline Guide command
 
-### Summary
+## Summary
 
-> Shows or hides the outline guide.
+Shows or hides the outline guide.
 
-### Description
+## Description
 
-> Shows or hides the outline guide.
+Shows or hides the outline guide.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Outline Guide**
-- [All Commands](../tools/all_commands): **View** >
-**Outline** >
-**Outline Guide**
+- Default Menu:View \>Outline Guide
+- [All Commands](../tools/all_commands):View >
+Outline >
+Outline Guide
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_OUTLINE\_GUIDE (3873)
+```
+EEID_OUTLINE_GUIDE (3873)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3873);
+```
+editor.ExecuteCommandByID(3873);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3873
+```
+editor.ExecuteCommandByID 3873
+```

@@ -1,22 +1,24 @@
 # PromptInconsistentReturns Property (FileProp Object)
 
-Corresponds to the **Prompt**
-**at Inconsistent Returns** check box in the
-[**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to thePrompt
+at Inconsistent Returns check box in the
+[File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptInconsistentReturns**;
+### \[JavaScript\]
 
-object. **PromptInconsistentReturns** = _b_;
+```
+b = object.PromptInconsistentReturns;
+object.PromptInconsistentReturns = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptInconsistentReturns**
-
-object. **PromptInconsistentReturns** = _b_
+```
+b = object.PromptInconsistentReturns
+object.PromptInconsistentReturns = b
+```
 
 ## Version
 

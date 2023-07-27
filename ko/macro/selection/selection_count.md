@@ -2,13 +2,19 @@
 
 현재 문서에서 선택된 영역의 수를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_NumOfLines_ = document.selection. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+NumOfLines = document.selection.Count;
+```
 
-_NumOfLines_ = document.selection. **Count**
+### \[VBScript\]
+
+```
+NumOfLines = document.selection.Count
+```
 
 ## 버전
 

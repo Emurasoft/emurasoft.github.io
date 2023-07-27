@@ -2,13 +2,19 @@
 
 Sets the keyboard focus to the output bar.
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **SetFocus**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.SetFocus();
+```
 
-OutputBar. **SetFocus**
+### \[VBScript\]
+
+```
+OutputBar.SetFocus
+```
 
 ## Version
 

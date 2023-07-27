@@ -13,12 +13,12 @@ lParam = 0;
 
 _pFilterInfo_
 
-> [FILTER\_INFO\_EX 構造体](../structure/filter_info_ex) へのポインタを指定します。
+[FILTER\_INFO\_EX 構造体](../structure/filter_info_ex) へのポインタを指定します。
 
 ## 戻り値
 
-> 戻り値は、指定する文字列に一致する行数になります。指定文字列が空で、かつ FLAG\_FIND\_BOOKMARKED\_ONLY、FLAG\_FIND\_UNBOOKMARKED\_ONLY、FLAG\_FIND\_MATCH\_NL のいずれも指定されていない場合、戻り値は -1 になります。eeFindContinue が指定されている場合、戻り値は 0 になります。
+戻り値は、指定する文字列に一致する行数になります。指定文字列が空で、かつ FLAG\_FIND\_BOOKMARKED\_ONLY、FLAG\_FIND\_UNBOOKMARKED\_ONLY、FLAG\_FIND\_MATCH\_NL のいずれも指定されていない場合、戻り値は -1 になります。eeFindContinue が指定されている場合、戻り値は 0 になります。
 
 ## バージョン
 
-> Version 14.7 以上で利用できます。
+Version 14.7 以上で利用できます。

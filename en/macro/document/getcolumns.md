@@ -2,13 +2,19 @@
 
 Retrieves the number of columns in a CSV mode. If the document is not a CSV mode, this method returns 0.
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **GetColumns**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = document.GetColumns();
+```
 
-_n_ = document. **GetColumns**()
+### \[VBScript\]
+
+```
+n = document.GetColumns()
+```
 
 ## Version
 

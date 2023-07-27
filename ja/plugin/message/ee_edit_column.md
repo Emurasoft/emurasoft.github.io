@@ -13,12 +13,12 @@ lParam = 0;
 
 _pInfo_
 
-> [EDIT\_COLUMN\_INFO 構造体](../structure/edit_column_info) へのポインタを指定します。
+[EDIT\_COLUMN\_INFO 構造体](../structure/edit_column_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると S\_OK を返します。
+成功すると S\_OK を返します。
 
 ## バージョン
 
-> Version 19.7 以上で利用できます。
+Version 19.7 以上で利用できます。

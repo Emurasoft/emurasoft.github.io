@@ -1,20 +1,22 @@
 # PromptNull プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の **\[Null文字を含むファイルで警告\]** チェック ボックスに相当します。
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[Null文字を含むファイルで警告\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptNull**;
+### \[JavaScript\]
 
-object. **PromptNull** = _b_;
+```
+b = object.PromptNull;
+object.PromptNull = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptNull**
-
-object. **PromptNull** = _b_
+```
+b = object.PromptNull
+object.PromptNull = b
+```
 
 ## バージョン
 

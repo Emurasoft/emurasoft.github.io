@@ -2,13 +2,19 @@
 
 添加一個字串。
 
-#### \[JavaScript\]
+## 
 
-list. **AddString**( _sFind_, _sTreatAs_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.AddString( sFind, sTreatAs );
+```
 
-list. **AddString** _sFind_, _sTreatAs_
+### \[VBScript\]
+
+```
+list.AddString sFind, sTreatAs
+```
 
 ## 參數
 

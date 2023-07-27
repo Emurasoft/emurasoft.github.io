@@ -2,13 +2,19 @@
 
 스크롤 바의 수평 위치를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_xPos_ = **scrollX**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos =scrollX;
+```
 
-_xPos_ = **scrollX**
+### \[VBScript\]
+
+```
+xPos =scrollX
+```
 
 ## 버전
 

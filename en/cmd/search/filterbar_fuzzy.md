@@ -1,32 +1,37 @@
 # Fuzzy Matching (Filter toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Fuzzy Matching button on the Filter toolbar.
+Toggles the Fuzzy Matching button on the Filter toolbar.
 
-### Description
+## Description
 
-> Toggles the Fuzzy Matching button on the Filter toolbar.
+Toggles the Fuzzy Matching button on the Filter toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Filter Toolbar**
-\> **Fuzzy Matching**
+- [All Commands](../tools/all_commands):Edit \>Filter Toolbar
+\>Fuzzy Matching
 - Toolbar: ![](../../images/fuzzy.gif) (Filter toolbar)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_FUZZY (23235)
+```
+EEID_FILTERBAR_FUZZY (23235)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(23235);
+```
+editor.ExecuteCommandByID(23235);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 23235
+```
+editor.ExecuteCommandByID 23235
+```

@@ -1,31 +1,36 @@
 # Zoom In Minimap command
 
-### Summary
+## Summary
 
-> Zooms in the minimap.
+Zooms in the minimap.
 
-### Description
+## Description
 
-> Zooms in the minimap.
+Zooms in the minimap.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Zoom In**
+- [All Commands](../tools/all_commands):Window \>Scroll \>Zoom In
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MINIMAP\_ZOOM\_IN (3976)
+```
+EEID_MINIMAP_ZOOM_IN (3976)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3976);
+```
+editor.ExecuteCommandByID(3976);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3976
+```
+editor.ExecuteCommandByID 3976
+```

@@ -2,19 +2,25 @@
 
 Replaces multiple strings in multiple files.
 
-#### \[JavaScript\]
+## 
 
-nFound = editor. **BatchReplaceInFiles**( _filters_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _strBackupPath_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = editor.BatchReplaceInFiles( filters, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ strBackupPath, [ nExFlags, [ nLimit ] ] ] ] ] );
+```
 
-nFound = editor. **BatchReplaceInFiles**( _filters_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _strBackupPath_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] \] )
+### \[VBScript\]
+
+```
+nFound = editor.BatchReplaceInFiles( filters, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ strBackupPath, [ nExFlags, [ nLimit ] ] ] ] ] )
+```
 
 ## Parameters
 
 _filters_
 
-Specifies a [**Filters** Collection](../filters/index) which contains search strings and flags.
+Specifies a [Filters Collection](../filters/index) which contains search strings and flags.
 
 _strPath_
 
@@ -37,7 +43,7 @@ Specifies a combination of the following values.
 
 _nEncoding_
 
-Selects from the **[Encoding Constants](../const/const_encoding)**,
+Selects from the[Encoding Constants](../const/const_encoding),
 or specify any code page used in the Windows Operating System. If 0 is specified or omitted, the encoding specified in the configuration properties associated with the searched file name will be used.
 
 _strFilesToIgnore_
@@ -56,7 +62,7 @@ Specifies a combination of the following values. However, only one of eeExFindRe
 
 |     |     |
 | --- | --- |
-| eeExFindMulti | Performs **Bulk Replace All**. If this is not specified, performs **Batch Replace All**. See [**Difference between Batch Replace All and Bulk Replace All**](../../howto/search/batch_vs_bulk) for more information. |
+| eeExFindMulti | PerformsBulk Replace All. If this is not specified, performsBatch Replace All. See [Difference between Batch Replace All and Bulk Replace All](../../howto/search/batch_vs_bulk) for more information. |
 | eeExFindRegexBoost | Uses Boost.Regex as the regular expression engine. |
 | eeExFindRegexOnigmo | Uses Onigmo as the regular expression engine. |
 

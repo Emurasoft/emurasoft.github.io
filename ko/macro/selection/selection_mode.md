@@ -2,17 +2,21 @@
 
 선택 모드를 나타내는 플래그를 설정하거나 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_nMode_ = document.selection. **Mode**;
+### \[JavaScript\]
 
-document.selection. **Mode** = _nMode_;
+```
+nMode = document.selection.Mode;
+document.selection.Mode = nMode;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nMode_ = document.selection. **Mode**
-
-document.selection. **Mode** = _nMode_
+```
+nMode = document.selection.Mode
+document.selection.Mode = nMode
+```
 
 ## 매개 변수
 
@@ -33,60 +37,41 @@ _nMode_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nMode = document.selection.Mode;
-
 switch( nMode & eeModeMask ) {
-
 case eeModeStream:
-
 alert( "Stream selection mode.");
-
 break;
-
 case eeModeLine:
-
 alert( "Line selection mode." );
-
 break;
-
 case eeModeBox:
-
 alert( "Vertical selection mode.");
-
 break;
-
 }
-
 if( nMode & eeModeKeyboard )  alert( "And also the keyboard
 selection mode." );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 nMode = document.selection.Mode
-
 Select Case nMode And eeModeMask
-
 Case eeModeStream
-
 alert "Stream selection mode."
-
 Case eeModeLine
-
 alert "Line selection mode."
-
 Case eeModeBox
-
 alert "Vertical selection mode."
-
 End Select
-
 If nMode And eeModeKeyboard Then
-
 alert "And also the keyboard selection mode."
-
 End If
+```
 
 ## 버전
 

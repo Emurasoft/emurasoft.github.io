@@ -1,20 +1,22 @@
 # InsertReturns 属性 (FileSaveProp ����)
 
-与 [**保存详细信息** 对话框](../../dlg/properties/file/save_details/index) 中的 **保存时自动换行** 复选框相对应。
+与 [保存详细信息 对话框](../../dlg/properties/file/save_details/index) 中的保存时自动换行 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **InsertReturns**;
+### \[JavaScript\]
 
-object. **InsertReturns** = _b_ ;
+```
+b = object.InsertReturns;
+object.InsertReturns = b ;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **InsertReturns**
-
-object. **InsertReturns** = _b_
+```
+b = object.InsertReturns
+object.InsertReturns = b
+```
 
 ## 版本
 

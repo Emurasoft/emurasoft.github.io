@@ -1,20 +1,22 @@
 # ShowUserDefinedGuides Property (MarkProp Object)
 
-Corresponds to the **Show User-Defined Guides** check box in the [**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
+Corresponds to theShow User-Defined Guides check box in the [Marks page](../../dlg/properties/marks/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowUserDefinedGuides**;
+### \[JavaScript\]
 
-object. **ShowUserDefinedGuides** = _b_;
+```
+b = object.ShowUserDefinedGuides;
+object.ShowUserDefinedGuides = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowUserDefinedGuides**
-
-object. **ShowUserDefinedGuides** = _b_
+```
+b = object.ShowUserDefinedGuides
+object.ShowUserDefinedGuides = b
+```
 
 ## Version
 

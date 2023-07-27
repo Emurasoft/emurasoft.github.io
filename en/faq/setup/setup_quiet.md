@@ -40,6 +40,6 @@ msiexec /?
 
 to display the list of available commands.
 
-### Notes:
+## Notes:
 
-To install EmEditor v20.9 or later for all users, you must specify **MSIINSTALLPERUSER=""**. To install EmEditor v20.8 or earlier only for the current user, you must specify **MSIINSTALLPERUSER=1**.
+To install EmEditor v20.9 or later for all users, you must specifyMSIINSTALLPERUSER="". To install EmEditor v20.8 or earlier only for the current user, you must specifyMSIINSTALLPERUSER=1.

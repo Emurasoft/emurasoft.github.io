@@ -2,13 +2,19 @@
 
 창의 위치와 크기를 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-wnd. **SetPosition**( _x_, _y_, _width_, _height_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd.SetPosition( x, y, width, height );
+```
 
-wnd. **SetPosition** _x_, _y_, _width_, _height_
+### \[VBScript\]
+
+```
+wnd.SetPosition x, y, width, height
+```
 
 ## 매개 변수
 

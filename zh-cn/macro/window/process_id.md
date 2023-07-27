@@ -2,13 +2,19 @@
 
 返回进程标识符。
 
-#### \[JavaScript\]
+## 
 
-_id_ = wnd. **ProcessID**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+id = wnd.ProcessID;
+```
 
-_id_ = wnd. **ProcessID**
+### \[VBScript\]
+
+```
+id = wnd.ProcessID
+```
 
 ## 版本
 

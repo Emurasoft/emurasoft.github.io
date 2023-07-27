@@ -4,16 +4,19 @@
 
 下面的例子用 WScript.Shell 对象来显示当前目录。
 
-#### \[JavaScript (JScript)\]
+## 
+
+### \[JavaScript (JScript)\]
 
 WshShell = new ActiveXObject( "WScript.Shell" );
 
 alert( WshShell.CurrentDirectory );
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set WshShell = CreateObject( "WScript.Shell" )
-
 alert WshShell.CurrentDirectory
+```
 
 ## 参考

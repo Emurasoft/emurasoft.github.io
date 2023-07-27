@@ -2,13 +2,19 @@
 
 Moves or copies specified columns in a CSV mode.
 
-#### \[JavaScript\]
+## 
 
-document. **MoveColumn**( _iColumn_, _iColumn2_, _iColumnTo_ \[ , _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.MoveColumn( iColumn, iColumn2, iColumnTo [ , nFlags ] );
+```
 
-document. **MoveColumn** _iColumn_, _iColumn2_, _iColumnTo_ \[ , _nFlags_ \]
+### \[VBScript\]
+
+```
+document.MoveColumn iColumn, iColumn2, iColumnTo [ , nFlags ]
+```
 
 ## Parameters
 
@@ -37,13 +43,17 @@ You can specify one the following values. If omitted, eeColumnMove is used.
 
 The following example moves column 3 to the left edge.
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.MoveColumn( 3, 3, 1 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.MoveColumn 3, 3, 1
+```
 
 ## Version
 

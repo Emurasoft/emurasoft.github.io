@@ -2,13 +2,19 @@
 
 删除 CSV 模式中指定的列。
 
-#### \[JavaScript\]
+## 
 
-document. **DeleteColumn**( _iColumn_, \[ _iColumn2_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.DeleteColumn( iColumn, [ iColumn2 ] );
+```
 
-document. **DeleteColumn** _iColumn_, \[ _iColumn2_ \]
+### \[VBScript\]
+
+```
+document.DeleteColumn iColumn, [ iColumn2 ]
+```
 
 ## 参数
 
@@ -24,13 +30,17 @@ _iColumn2_
 
 以下示例会删除第 3 到 5 列。
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.DeleteColumn( 3, 5 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.DeleteColumn 3, 5
+```
 
 ## 版本
 

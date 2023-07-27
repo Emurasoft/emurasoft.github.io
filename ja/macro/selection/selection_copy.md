@@ -2,13 +2,19 @@
 
 選択範囲のテキストをクリップボードにコピーします。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Copy**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Copy( nFlags );
+```
 
-document.selection. **Copy** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Copy nFlags
+```
 
 ## 引数
 

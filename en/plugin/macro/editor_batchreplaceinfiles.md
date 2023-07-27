@@ -10,20 +10,20 @@ Editor\_BatchReplaceInFiles( HWND hwnd, FIND\_REPLACE\_INFO\* pBatchArray, BATCH
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _pBatchArray_
 
-> Specifies a pointer to the array of [FIND\_REPLACE\_INFO structures](../structure/find_replace_info).
+Specifies a pointer to the array of [FIND\_REPLACE\_INFO structures](../structure/find_replace_info).
 
 _pBatchGrepInfo_
 
-> Specifies a pointer to the [BATCH\_GREP\_INFO structure](../structure/batch_grep_info).
+Specifies a pointer to the [BATCH\_GREP\_INFO structure](../structure/batch_grep_info).
 
 ## Return Value
 
-> Returns FALSE if the user aborts, or TRUE if not.
+Returns FALSE if the user aborts, or TRUE if not.
 
 ## Version
 
-> Supported on EmEditor Professional Version 15.7 or later.
+Supported on EmEditor Professional Version 15.7 or later.

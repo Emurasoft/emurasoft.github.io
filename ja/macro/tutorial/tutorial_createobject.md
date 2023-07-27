@@ -6,16 +6,19 @@
 
 この例では、WScript.Shell というオブジェクトを利用し、カレント ディレクトリを表示します。
 
-#### \[JavaScript (JScript)\]
+## 
+
+### \[JavaScript (JScript)\]
 
 WshShell = new ActiveXObject( "WScript.Shell" );
 
 alert( WshShell.CurrentDirectory );
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set WshShell = CreateObject( "WScript.Shell" )
-
 alert WshShell.CurrentDirectory
+```
 
 ## 参考

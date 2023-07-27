@@ -2,13 +2,19 @@
 
 檢索項目的數目。
 
-#### \[JavaScript\]
+## 
 
-_n_ = list. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = list.Count;
+```
 
-_n_ = list. **Count**
+### \[VBScript\]
+
+```
+n = list.Count
+```
 
 ## 版本
 

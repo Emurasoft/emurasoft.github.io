@@ -12,11 +12,11 @@ lParam = (LPARAM) (TOOLBAR\_INFO\*) pToolbarInfo;
 
 _pToolbarInfo_
 
-> [TOOLBAR\_INFO構造体](../structure/toolbar_info) に指示します。
+[TOOLBAR\_INFO構造体](../structure/toolbar_info) に指示します。
 
 ## 戻り値
 
-> 成功すると、カスタム ツール バー ID を返します。失敗すると 0 を返します。
+成功すると、カスタム ツール バー ID を返します。失敗すると 0 を返します。
 
 ## バージョン
 

@@ -2,23 +2,33 @@
 
 Csv オブジェクトの数を取得します。
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = editor.CsvList. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = editor.CsvList.Count;
+```
 
-_nCount_ = editor.CsvList. **Count**
+### \[VBScript\]
+
+```
+nCount = editor.CsvList.Count
+```
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Number of Csv objects: " + editor.CsvList.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Number of Csv objects: " & editor.CsvList.Count
+```
 
 ## バージョン
 

@@ -2,19 +2,21 @@
 
 指定要替换为的字符串。
 
-#### \[JavaScript\]
+## 
 
-_s_ =
-item. **Replace**;
+### \[JavaScript\]
 
-item. **Replace** = _s_;
+```
+s = item.Replace;
+item.Replace = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ =
-item. **Replace**
-
-item. **Replace** = _s_
+```
+s = item.Replace
+item.Replace = s
+```
 
 ## 版本
 

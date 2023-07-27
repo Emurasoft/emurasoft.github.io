@@ -15,12 +15,12 @@ lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
 
 _nSerial_
 
-> 指定一个要被转换的序列位置。
+指定一个要被转换的序列位置。
 
 _pptLogical_
 
-> 指针指向一个将接收转换后的逻辑坐标的 [POINT\_PTR 结构](../structure/point_ptr)。
+指针指向一个将接收转换后的逻辑坐标的 [POINT\_PTR 结构](../structure/point_ptr)。
 
 ## 返回值
 
-> 返回序列位置。
+返回序列位置。

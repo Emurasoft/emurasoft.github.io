@@ -1,31 +1,36 @@
 # Clear Contents (Cell Selection Mode Only) command
 
-### Summary
+## Summary
 
-> Clear the contents of the selection in the CSV document.
+Clear the contents of the selection in the CSV document.
 
-### Description
+## Description
 
-> Clear the contents of the selection in the CSV document.
+Clear the contents of the selection in the CSV document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Clear Contents**
-- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode Only** \> **Clear Contents**
+- Default Menu:CSV \>Clear Contents
+- [All Commands](../tools/all_commands):CSV \>Cell Selection Mode Only \>Clear Contents
 - Toolbar: None
 - Status Bar: None
-- Default Keyboard Shortcut: **DELETE** (Cell Selection mode only)
+- Default Keyboard Shortcut:DELETE (Cell Selection mode only)
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CLEAR\_CONTENTS (4033)
+```
+EEID_CLEAR_CONTENTS (4033)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4033);
+```
+editor.ExecuteCommandByID(4033);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4033
+```
+editor.ExecuteCommandByID 4033
+```

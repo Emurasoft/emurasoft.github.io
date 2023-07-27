@@ -2,13 +2,19 @@
 
 Deletes one or more specified files.
 
-#### \[JavaScript\]
+## 
 
-shell. **DeleteFile**( _strFile_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.DeleteFile( strFile );
+```
 
-shell. **DeleteFile** _strFile_
+### \[VBScript\]
+
+```
+shell.DeleteFile strFile
+```
 
 ## Parameters
 
@@ -18,13 +24,17 @@ The name of the file to delete. It can contain wildard characters in the last pa
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.DeleteFile( "C:\\\Test\\\\*.txt" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.DeleteFile "C:\\Test\\\*.txt"
+```
 
 ## Version
 

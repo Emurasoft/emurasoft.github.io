@@ -1,20 +1,22 @@
 # DoubleClickOnly 속성 (LinkProp ��ü)
 
-구성 속성 [**링크** 탭](../../dlg/properties/link/index) 의 **더블 클릭 만을 활성화** 체크 박스에 해당합니다.
+구성 속성 [링크 탭](../../dlg/properties/link/index) 의더블 클릭 만을 활성화 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DoubleClickOnly**;
+### \[JavaScript\]
 
-object. **DoubleClickOnly** = _b_;
+```
+b = object.DoubleClickOnly;
+object.DoubleClickOnly = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DoubleClickOnly**
-
-object. **DoubleClickOnly** = _b_
+```
+b = object.DoubleClickOnly
+object.DoubleClickOnly = b
+```
 
 ## 버전
 

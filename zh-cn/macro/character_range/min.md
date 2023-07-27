@@ -2,19 +2,21 @@
 
 指定对象的最小字符。
 
-#### \[JavaScript\]
+## 
 
-_c_ =
-item. **Min**;
+### \[JavaScript\]
 
-item. **Min** = _c_;
+```
+c = item.Min;
+item.Min = c;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_c_ =
-item. **Min**
-
-item. **Min** = _c_
+```
+c = item.Min
+item.Min = c
+```
 
 ## 版本
 

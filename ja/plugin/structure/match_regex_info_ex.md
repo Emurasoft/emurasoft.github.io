@@ -24,40 +24,40 @@ UINT cchResult;
 
 _cbSize_
 
-> sizeof( MATCH\_REGEX\_INFO\_EX ) を指定します。
+sizeof( MATCH\_REGEX\_INFO\_EX ) を指定します。
 
 _nFlags_
 
-> 次の値の組み合わせを指定します。
->
-> |     |     |
-> | --- | --- |
-> | FLAG\_FIND\_CASE | 大文字と小文字を区別して検索します。 |
-> | FLAG\_FIND\_FUZZY | この特別なフラグは、あいまい一致を使用し、正規表現を無効にします。正規表現とあいまい一致と組み合わせることはできません。FLAG\_FIND\_REGEX\_BOOST、FLAG\_FIND\_REGEX\_ONIGMO、FLAG\_FIND\_SEPARATE\_CRLF と組み合わせることはできません。 |
-> | FLAG\_FIND\_REGEX\_BOOST | 正規表現エンジンとして Boost.Regex を使用します。 |
-> | FLAG\_FIND\_REGEX\_ONIGMO | 正規表現エンジンとして Onigmo を使用します。 |
-> | FLAG\_FIND\_SEPARATE\_CRLF | CR と LF を区別します。 |
+次の値の組み合わせを指定します。
+
+|     |     |
+| --- | --- |
+| FLAG\_FIND\_CASE | 大文字と小文字を区別して検索します。 |
+| FLAG\_FIND\_FUZZY | この特別なフラグは、あいまい一致を使用し、正規表現を無効にします。正規表現とあいまい一致と組み合わせることはできません。FLAG\_FIND\_REGEX\_BOOST、FLAG\_FIND\_REGEX\_ONIGMO、FLAG\_FIND\_SEPARATE\_CRLF と組み合わせることはできません。 |
+| FLAG\_FIND\_REGEX\_BOOST | 正規表現エンジンとして Boost.Regex を使用します。 |
+| FLAG\_FIND\_REGEX\_ONIGMO | 正規表現エンジンとして Onigmo を使用します。 |
+| FLAG\_FIND\_SEPARATE\_CRLF | CR と LF を区別します。 |
 
 _pszRegex_
 
-> 検索する正規表現文字列を指定します。
+検索する正規表現文字列を指定します。
 
 _pszText_
 
-> 検索する対象の文字列を指定します。
+検索する対象の文字列を指定します。
 
 _pszReplace_
 
-> \[in\] 置換表現を指定します。
+\[in\] 置換表現を指定します。
 
 _pszResult_
 
-> \[out\] 置換後の文字列を受け取るバッファへのポインタを指定します。
+\[out\] 置換後の文字列を受け取るバッファへのポインタを指定します。
 
 _cchResult_
 
-> \[in\] バッファのサイズを文字数で指定します。
+\[in\] バッファのサイズを文字数で指定します。
 
 ## バージョン
 
-> Version 15.7 以上で利用できます。
+Version 15.7 以上で利用できます。

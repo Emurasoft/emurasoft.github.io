@@ -1,20 +1,22 @@
 # PromptInvalid 属性 (FileProp ����)
 
-与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **如果发现无效字符时进行提示** 复选框相对应。
+与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的如果发现无效字符时进行提示 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptInvalid**;
+### \[JavaScript\]
 
-object. **PromptInvalid** = _b_;
+```
+b = object.PromptInvalid;
+object.PromptInvalid = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptInvalid**
-
-object. **PromptInvalid** = _b_
+```
+b = object.PromptInvalid
+object.PromptInvalid = b
+```
 
 ## 版本
 

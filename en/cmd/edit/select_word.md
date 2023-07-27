@@ -1,34 +1,39 @@
 # Select Word command
 
-### Summary
+## Summary
 
-> Selects the word right of the current cursor position.
+Selects the word right of the current cursor position.
 
-### Description
+## Description
 
-> Selects the word right of the current cursor position. This command selects
-> all text characters between two white space characters.  White space is
-> only selected if the cursor is placed before the white space.
+Selects the word right of the current cursor position. This command selects
+all text characters between two white space characters.  White space is
+only selected if the cursor is placed before the white space.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Select Word**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Select Word
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+F8
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SELECT\_WORD (4251)
+```
+EEID_SELECT_WORD (4251)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.SelectWord();
+```
+document.selection.SelectWord();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.SelectWord
+```
+document.selection.SelectWord
+```

@@ -14,14 +14,14 @@ lParam = 0;
 
 _pnProductType_
 
-> Specifies a pointer to an integer value. This message returns one of the
-> following values.
->
-> |     |     |
-> | --- | --- |
-> | VERSION\_PRO | EmEditor Professional |
-> | VERSION\_STD | EmEditor Standard |
+Specifies a pointer to an integer value. This message returns one of the
+following values.
+
+|     |     |
+| --- | --- |
+| VERSION\_PRO | EmEditor Professional |
+| VERSION\_STD | EmEditor Standard |
 
 ## Return Values
 
-> Returns the version number multiplied by 1000.
+Returns the version number multiplied by 1000.

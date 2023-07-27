@@ -1,35 +1,40 @@
 # Save Newline Characters as LF Only command
 
-### Summary
+## Summary
 
-> Saves newline characters as LF only.
+Saves newline characters as LF only.
 
-### Description
+## Description
 
-> This command saves the document after converting all newline characters into LF only
-> (Unix). If the document is untitled, the **Save As** dialog box appears,
-> which allows you to enter a file name to save the file as.
+This command saves the document after converting all newline characters into LF only
+(Unix). If the document is untitled, theSave As dialog box appears,
+which allows you to enter a file name to save the file as.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Save**
-\> **Save in Different Newline Characters** \> **Save as LF**
-**only**
+- [All Commands](../tools/all_commands):File \>Save
+\>Save in Different Newline Characters \>Save as LF
+only
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SAVE\_AS\_LF (4107)
+```
+EEID_SAVE_AS_LF (4107)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4107);
+```
+editor.ExecuteCommandByID(4107);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4107
+```
+editor.ExecuteCommandByID 4107
+```

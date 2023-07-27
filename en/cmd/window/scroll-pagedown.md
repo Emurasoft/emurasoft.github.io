@@ -1,31 +1,36 @@
 # Scroll Page Down command
 
-### Summary
+## Summary
 
-> Scrolls the document down by one page.
+Scrolls the document down by one page.
 
-### Description
+## Description
 
-> Scrolls the document down by one page.
+Scrolls the document down by one page.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Page Down**
+- [All Commands](../tools/all_commands):Window \>Scroll \>Page Down
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SCROLL\_PAGE\_DOWN (3867)
+```
+EEID_SCROLL_PAGE_DOWN (3867)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3867);
+```
+editor.ExecuteCommandByID(3867);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3867
+```
+editor.ExecuteCommandByID 3867
+```

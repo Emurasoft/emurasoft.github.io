@@ -12,8 +12,8 @@ lParam = (LPARAM) (SIZE\_PTR\*) psizePage;
 
 _psizePage_
 
-> 1ページに表示できる行数と桁数を表す [SIZE\_PTR 構造体](../structure/size_ptr) へのポインタを指定します。
+1ページに表示できる行数と桁数を表す [SIZE\_PTR 構造体](../structure/size_ptr) へのポインタを指定します。
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。

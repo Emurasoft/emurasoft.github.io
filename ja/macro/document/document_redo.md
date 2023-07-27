@@ -2,13 +2,19 @@
 
 \[元に戻す\] コマンドのやり直しを行います。
 
-#### \[JavaScript\]
+## 
 
-document. **Redo**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Redo();
+```
 
-document. **Redo**
+### \[VBScript\]
+
+```
+document.Redo
+```
 
 ## バージョン
 

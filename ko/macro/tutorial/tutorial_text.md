@@ -4,14 +4,16 @@
 
 다음의 예문은 선택된 문자열을 얻어 표시하는 방법을 나타냅니다.
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
+```
 str = document.selection.Text;
-
 alert( str );
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
+```
 str = document.selection.Text
-
 alert str
+```

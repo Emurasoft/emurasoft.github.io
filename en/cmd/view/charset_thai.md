@@ -1,37 +1,42 @@
 # Display in Thai font command
 
-### Summary
+## Summary
 
-> Displays text in a Thai font.
+Displays text in a Thai font.
 
-### Description
+## Description
 
-> Selects the Thai font from the font category. The fonts in each font
-> category can be set on the [**Customize Font** dialog box](../../dlg/properties/font/index).
-> Changing the font category will not change the encoding to use to open a
-> file. If you want to change the encoding and reload the file, select the
-> [**Reload with Encoding** (multiple menu) command](../file/file_reload_defined).
+Selects the Thai font from the font category. The fonts in each font
+category can be set on the [Customize Font dialog box](../../dlg/properties/font/index).
+Changing the font category will not change the encoding to use to open a
+file. If you want to change the encoding and reload the file, select the
+[Reload with Encoding (multiple menu) command](../file/file_reload_defined).
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Font Category** > **Thai**
-- [All Commands](../tools/all_commands): **View** \> **Font** >
-**Font Category** > **Thai**
+- Default Menu:View \>Font Category >Thai
+- [All Commands](../tools/all_commands):View \>Font >
+Font Category >Thai
 - Toolbar: ![](../../images/fontpopup.gif)
-(on the arrow) > **Font Category** \> **Thai**
+(on the arrow) >Font Category \>Thai
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CHARSET\_THAI (8715)
+```
+EEID_CHARSET_THAI (8715)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8715);
+```
+editor.ExecuteCommandByID(8715);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8715
+```
+editor.ExecuteCommandByID 8715
+```

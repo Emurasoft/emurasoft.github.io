@@ -2,19 +2,25 @@
 
 检索指定命令的当前状态，是否已被勾选和启用。
 
-#### \[JavaScript\]
+## 
 
-_nStatus_ = editor. **QueryStatusByID**( _nID_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nStatus = editor.QueryStatusByID( nID );
+```
 
-_nStatus_ = editor. **QueryStatusByID**( _nID_ )
+### \[VBScript\]
+
+```
+nStatus = editor.QueryStatusByID( nID )
+```
 
 ## 参数
 
 _nID_
 
-指定表示要执行的命令 ID 的一个整数。详见 **[命令参考](../../cmd/index)** 来查看可用命令列表。不是所有命令都可以或被支持。
+指定表示要执行的命令 ID 的一个整数。详见[命令参考](../../cmd/index) 来查看可用命令列表。不是所有命令都可以或被支持。
 
 ## 返回值
 

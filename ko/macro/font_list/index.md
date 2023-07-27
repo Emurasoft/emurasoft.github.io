@@ -6,30 +6,28 @@ FontList 컬렉션은 [FontItem 개체](../font_item/index) 의 컬렉션을 제
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 항목의 수를 검색합니다. |
-| **[Item](item)** | 지정된 인덱스를 위한 [FontItem 개체](../font_item/index) 를 검색합니다. |
+|[Count](count) | 항목의 수를 검색합니다. |
+|[Item](item) | 지정된 인덱스를 위한 [FontItem 개체](../font_item/index) 를 검색합니다. |
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Font.DisplayList );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Font.DisplayList
-
 alert item.Name
-
 Next
+```
 
 ## 버전
 

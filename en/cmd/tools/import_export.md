@@ -1,33 +1,38 @@
 # Import and Export command
 
-### Summary
+## Summary
 
-> Displays a Wizard to import settings from a file or to export current settings into a file.
+Displays a Wizard to import settings from a file or to export current settings into a file.
 
-### Description
+## Description
 
-> This command displays the **[Import and Export Wizard](../../dlg/import_export/index)**, in which you can select to import settings from a file or to export current settings into a file.
+This command displays the[Import and Export Wizard](../../dlg/import_export/index), in which you can select to import settings from a file or to export current settings into a file.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Tools** >
-**Import and Export**
-- [All Commands](all_commands): **Tools** >
-**Import and Export**
+- Default Menu:Tools >
+Import and Export
+- [All Commands](all_commands):Tools >
+Import and Export
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_IMPORT\_EXPORT (4380)
+```
+EEID_IMPORT_EXPORT (4380)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4380);
+```
+editor.ExecuteCommandByID(4380);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4380
+```
+editor.ExecuteCommandByID 4380
+```

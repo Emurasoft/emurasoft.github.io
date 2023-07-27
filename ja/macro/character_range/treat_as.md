@@ -2,17 +2,21 @@
 
 代替文字を指定します。-1 を指定すると、指定した範囲はあいまい一致で使用すると無視されます。
 
-#### \[JavaScript\]
+## 
 
-_c_ = obj. **TreatAs**;
+### \[JavaScript\]
 
-obj. **TreatAs** = _c_;
+```
+c = obj.TreatAs;
+obj.TreatAs = c;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_c_ = obj. **TreatAs**;
-
-obj. **TreatAs** = _c_;
+```
+c = obj.TreatAs;
+obj.TreatAs = c;
+```
 
 ## バージョン
 

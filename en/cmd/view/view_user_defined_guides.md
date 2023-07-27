@@ -1,31 +1,36 @@
 # User-Defined Guides command
 
-### Summary
+## Summary
 
-> Shows or hides user-defined guides.
+Shows or hides user-defined guides.
 
-### Description
+## Description
 
-> Shows or hides user-defined guides.
+Shows or hides user-defined guides.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Marks** \> **User-Defined Guides**
-- [All Commands](../tools/all_commands): **View** \> **Marks** \> **User-Defined Guides**
+- Default Menu:View \>Marks \>User-Defined Guides
+- [All Commands](../tools/all_commands):View \>Marks \>User-Defined Guides
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_VIEW\_USER\_DEFINED\_GUIDES (3863)
+```
+EEID_VIEW_USER_DEFINED_GUIDES (3863)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3863);
+```
+editor.ExecuteCommandByID(3863);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3863
+```
+editor.ExecuteCommandByID 3863
+```

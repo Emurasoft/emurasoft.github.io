@@ -8,12 +8,12 @@ Editor\_SetModified( HWND hwnd, BOOL bModified );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _bModified_
 
-> TRUE，把状态变更为修改过，或 FALSE，把状态变更为未经修改。
+TRUE，把状态变更为修改过，或 FALSE，把状态变更为未经修改。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

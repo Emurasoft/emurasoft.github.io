@@ -2,13 +2,19 @@
 
 現在のカーソル位置に文字列を挿入、または上書きします。
 
-#### \[JavaScript\]
+## 
 
-document. **write**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.write( str );
+```
 
-document. **write** _str_
+### \[VBScript\]
+
+```
+document.write str
+```
 
 ## 引数
 
@@ -18,13 +24,17 @@ _str_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-document. **write**( "こんにちは" );
+```
+document.write( "こんにちは" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document. **write** "こんにちは"
+```
+document.write "こんにちは"
+```
 
 ## バージョン
 

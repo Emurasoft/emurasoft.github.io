@@ -2,13 +2,19 @@
 
 文字列を入力するためのダイアログ ボックスを表示します。
 
-#### \[JavaScript\]
+## 
 
-_strAnswer_ = **prompt**( _strMessage, strDefault, flags_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strAnswer =prompt( strMessage, strDefault, flags);
+```
 
-_strAnswer_ = **prompt**( _strMessage, strDefault, flags_ )
+### \[VBScript\]
+
+```
+strAnswer =prompt( strMessage, strDefault, flags )
+```
 
 ## パラメータ
 

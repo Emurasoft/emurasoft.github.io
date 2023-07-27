@@ -1,31 +1,36 @@
 # Right Edge Extend (Cell Selection Mode Only) command
 
-### Summary
+## Summary
 
-> Extends the selection to the right edge of the current data region.
+Extends the selection to the right edge of the current data region.
 
-### Description
+## Description
 
-> Extends the selection to the right edge of the current data region.
+Extends the selection to the right edge of the current data region.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode Only** \> **Right Edge Extend**
+- [All Commands](../tools/all_commands):CSV \>Cell Selection Mode Only \>Right Edge Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+RIGHT ARROW (Cell Selection Mode Only)
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_RIGHT\_EDGE (4021)
+```
+EEID_SHIFT_RIGHT_EDGE (4021)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4021);
+```
+editor.ExecuteCommandByID(4021);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4021
+```
+editor.ExecuteCommandByID 4021
+```

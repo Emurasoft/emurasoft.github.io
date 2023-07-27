@@ -2,13 +2,19 @@
 
 把一個字串和新行傳遞到一個支持的外掛程式中。
 
-#### \[JavaScript\]
+## 
 
-Interface. **writeln**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Interface.writeln( str );
+```
 
-Interface. **writeln** _str_
+### \[VBScript\]
+
+```
+Interface.writeln str
+```
 
 ## 參數
 
@@ -18,13 +24,17 @@ _str_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-Interface. **writeln**( "Hello" );
+```
+Interface.writeln( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Interface. **writeln** "Hello"
+```
+Interface.writeln "Hello"
+```
 
 ## 版本
 

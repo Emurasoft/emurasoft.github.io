@@ -2,17 +2,21 @@
 
 設置或檢索規則運算式是否分開處理 CR 以及 LF。
 
-#### \[JavaScript\]
+## 
 
-_b_ = reg. **SeparateCrLf**;
+### \[JavaScript\]
 
-reg. **SeparateCrLf** = _b_;
+```
+b = reg.SeparateCrLf;
+reg.SeparateCrLf = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = reg. **SeparateCrLf**;
-
-reg. **SeparateCrLf** = _b_;
+```
+b = reg.SeparateCrLf;
+reg.SeparateCrLf = b;
+```
 
 ## 版本
 

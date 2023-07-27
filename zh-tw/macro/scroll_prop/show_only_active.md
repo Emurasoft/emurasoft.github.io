@@ -1,20 +1,22 @@
 # ShowOnlyActive 屬性 (ScrollProp ��H)
 
-與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **只在活動窗格中顯示捲軸** 核取方塊相對應。
+與組態屬性中 [捲動 頁面](../../dlg/properties/scroll/index) 上的只在活動窗格中顯示捲軸 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowOnlyActive**;
+### \[JavaScript\]
 
-object. **ShowOnlyActive** = _b_;
+```
+b = object.ShowOnlyActive;
+object.ShowOnlyActive = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowOnlyActive**
-
-object. **ShowOnlyActive** = _b_
+```
+b = object.ShowOnlyActive
+object.ShowOnlyActive = b
+```
 
 ## 版本
 

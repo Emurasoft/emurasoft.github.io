@@ -1,31 +1,36 @@
 # Adjust Separator Positions (Whole Document) command
 
-### Summary
+## Summary
 
-> Adjusts all separator positions in the CSV document.
+Adjusts all separator positions in the CSV document.
 
-### Description
+## Description
 
-> Adjusts all separator positions in the CSV document.
+Adjusts all separator positions in the CSV document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Adjust Separator Positions (Whole Document)**
-- [All Commands](../tools/all_commands): **CSV** \> **Adjust Separator Positions (Whole Document)**
+- Default Menu:CSV \>Adjust Separator Positions (Whole Document)
+- [All Commands](../tools/all_commands):CSV \>Adjust Separator Positions (Whole Document)
 - Toolbar: ![](../../images/columns_separators.gif) \+ Adjust Separator Positions (Whole Document)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ADJUST\_COLUMN (4460)
+```
+EEID_ADJUST_COLUMN (4460)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4460);
+```
+editor.ExecuteCommandByID(4460);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4460
+```
+editor.ExecuteCommandByID 4460
+```

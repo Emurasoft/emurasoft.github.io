@@ -1,14 +1,14 @@
 # \[中止 (フィルター ツール バー)\] コマンド
 
-### 概要
+## 概要
 
-> フィルターを中止して、フィルター文字列を空にします。
+フィルターを中止して、フィルター文字列を空にします。
 
-### 説明
+## 説明
 
-> フィルターを中止して、フィルター文字列を空にします。
+フィルターを中止して、フィルター文字列を空にします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[フィルター ツール バー\] \- \[中止\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FILTERBAR\_ABORT (3914)
+```
+EEID_FILTERBAR_ABORT (3914)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3914);
+```
+editor.ExecuteCommandByID(3914);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3914
+```
+editor.ExecuteCommandByID 3914
+```

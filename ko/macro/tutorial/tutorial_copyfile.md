@@ -4,35 +4,30 @@
 
 다음의 예제 코드는 열린 파일의 백업을 생성합니다.
 
-#### \[JavaScript\]
+## 
 
+### \[JavaScript\]
+
+```
 if( document.FullName == '' ){
-
 alert( "The file is untitled." );
-
 }
-
 else {
-
 fso = new ActiveXObject( "Scripting.FileSystemObject" );
-
 fso.CopyFile( document.FullName, document.FullName + ".bak"
 );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 If document.FullName = "" Then
-
 alert "The file is untitled."
-
 Else
-
 Set fso = CreateObject( "Scripting.FileSystemObject" )
-
 fso.CopyFile document.FullName, document.FullName + ".bak"
-
 End If
+```
 
 ## 참조:

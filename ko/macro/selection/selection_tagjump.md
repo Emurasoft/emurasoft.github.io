@@ -2,13 +2,19 @@
 
 커서 위치에 태크로 점프합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **TagJump**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.TagJump();
+```
 
-document.selection. **TagJump**
+### \[VBScript\]
+
+```
+document.selection.TagJump
+```
 
 ## 버전
 

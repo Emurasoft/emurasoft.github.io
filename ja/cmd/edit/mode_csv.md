@@ -1,14 +1,14 @@
 # \[CSVモード\] コマンド
 
-### 概要
+## 概要
 
-> CSV (カンマ区切り) モードを選択します。
+CSV (カンマ区切り) モードを選択します。
 
-### 説明
+## 説明
 
-> CSV (カンマ区切り) モードを選択します。
+CSV (カンマ区切り) モードを選択します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): なし
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_MODE\_CSV (4459)
+```
+EEID_MODE_CSV (4459)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4459);
+```
+editor.ExecuteCommandByID(4459);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4459
+```
+editor.ExecuteCommandByID 4459
+```

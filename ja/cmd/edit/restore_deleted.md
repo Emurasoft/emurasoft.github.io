@@ -1,14 +1,14 @@
 # \[削除した文字列を復元\] コマンド
 
-### 概要
+## 概要
 
-> 以前削除した文字列をカーソル位置に復元します。
+以前削除した文字列をカーソル位置に復元します。
 
-### 説明
+## 説明
 
-> 以前削除した文字列をカーソル位置に復元します。
+以前削除した文字列をカーソル位置に復元します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[貼り付け\] \- \[削除した文字列を復元\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_RESTORE\_DELETED (4419)
+```
+EEID_RESTORE_DELETED (4419)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID (4419);
+```
+editor.ExecuteCommandByID (4419);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4419
+```
+editor.ExecuteCommandByID 4419
+```

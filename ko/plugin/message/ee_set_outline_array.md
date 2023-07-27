@@ -14,12 +14,12 @@ lParam = (LPARAM) (OUTLINE\_ARRAY\_INFO\*) pOutlineArrayInfo;
 
 _pOutlineArrayInfo_
 
-> [OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) 구조에 대한 포인터입니다.
+[OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) 구조에 대한 포인터입니다.
 
 ## 반환 값
 
-> 변경 사항이 없는 경우 반환 값은 FALSE 입니다. 그렇지 않으면, 반환 값은 TRUE 입니다.
+변경 사항이 없는 경우 반환 값은 FALSE 입니다. 그렇지 않으면, 반환 값은 TRUE 입니다.
 
 ## 버전
 
-> EmEditor 버전 13 이상에서만 지원됩니다.
+EmEditor 버전 13 이상에서만 지원됩니다.

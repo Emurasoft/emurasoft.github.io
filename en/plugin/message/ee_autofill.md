@@ -12,17 +12,17 @@ lParam = (LPARAM) (AUTOFILL\_INFO\*) pInfo;
 
 _pInfo_
 
-> Pointer to the [AUTOFILL\_INFO](../structure/autofill_info) structure.
+Pointer to the [AUTOFILL\_INFO](../structure/autofill_info) structure.
 
 ## Return Values
 
-> The return value can be a combination of the following values if the message succeeds. The return value of 0 means the message couldn't detect the pattern to complete the AutoFill or Flash Fill action. A negative value means the message failed.
->
-> |     |     |
-> | --- | --- |
-> | S\_FILL\_COPY | Copies the values from the source range to the target range, repeating if necessary. |
-> | S\_FILL\_SERIES | Extends the values in the source range into the target range as a series. |
-> | S\_FILL\_FLASH | Performs the Flash Fill action, i.e. extends the values from the source range into the target range based on the detected pattern. This flag is valid only for the vertical direction. |
+The return value can be a combination of the following values if the message succeeds. The return value of 0 means the message couldn't detect the pattern to complete the AutoFill or Flash Fill action. A negative value means the message failed.
+
+|     |     |
+| --- | --- |
+| S\_FILL\_COPY | Copies the values from the source range to the target range, repeating if necessary. |
+| S\_FILL\_SERIES | Extends the values in the source range into the target range as a series. |
+| S\_FILL\_FLASH | Performs the Flash Fill action, i.e. extends the values from the source range into the target range based on the detected pattern. This flag is valid only for the vertical direction. |
 
 ## Version
 

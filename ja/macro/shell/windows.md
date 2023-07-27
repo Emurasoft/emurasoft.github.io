@@ -2,13 +2,19 @@
 
 トップ レベルの Windows コレクションを返します。
 
-#### \[JavaScript\]
+## 
 
-wnds = shell. **windows**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnds = shell.windows;
+```
 
-wnds = shell. **windows**
+### \[VBScript\]
+
+```
+wnds = shell.windows
+```
 
 ## バージョン
 

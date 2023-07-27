@@ -2,17 +2,21 @@
 
 以像素為單位返回或設置指定視窗的水平位置。
 
-#### \[JavaScript\]
+## 
 
-_x_ = wnd. **LeftX**;
+### \[JavaScript\]
 
-wnd. **LeftX** = _x_;
+```
+x = wnd.LeftX;
+wnd.LeftX = x;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_x_ = wnd. **LeftX**
-
-wnd. **LeftX** = x
+```
+x = wnd.LeftX
+wnd.LeftX = x
+```
 
 ## 版本
 

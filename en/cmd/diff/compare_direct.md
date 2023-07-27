@@ -1,31 +1,36 @@
 # Compare command
 
-### Summary
+## Summary
 
-> Compares the two most recently viewed documents without specifying options.
+Compares the two most recently viewed documents without specifying options.
 
-### Description
+## Description
 
-> Compares the two most recently viewed documents without specifying options. EmEditor will prompt if the encodings of the two files are not the same, but will proceed with the comparison.
+Compares the two most recently viewed documents without specifying options. EmEditor will prompt if the encodings of the two files are not the same, but will proceed with the comparison.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Compare Direct**
-- [All Commands](../tools/all_commands): **Compare** \> **Compare Direct**
+- Default Menu:Compare \>Compare Direct
+- [All Commands](../tools/all_commands):Compare \>Compare Direct
 - Toolbar: ![](../../images/compare24x16.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMPARE\_DIRECT (4492)
+```
+EEID_COMPARE_DIRECT (4492)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4492);
+```
+editor.ExecuteCommandByID(4492);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4492
+```
+editor.ExecuteCommandByID 4492
+```

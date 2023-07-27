@@ -1,32 +1,37 @@
 # Forward command
 
-### Summary
+## Summary
 
-> Moves the cursor to the next position.
+Moves the cursor to the next position.
 
-### Description
+## Description
 
-> Moves the cursor to the next position.
+Moves the cursor to the next position.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Advanced** \> **Forward**
-- [All Commands](../tools/all_commands): **Edit** \> **Advanced** \> **Forward**
+- Default Menu:Edit \>Advanced \>Forward
+- [All Commands](../tools/all_commands):Edit \>Advanced \>Forward
 - Toolbar:
 ![](../../images/emeditor12_forward_button.png)
 - Status Bar: None
 - Default Keyboard Shortcut: ALT + RIGHT
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CARET\_FORWARD (4598)
+```
+EEID_CARET_FORWARD (4598)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4598);
+```
+editor.ExecuteCommandByID(4598);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4598
+```
+editor.ExecuteCommandByID 4598
+```

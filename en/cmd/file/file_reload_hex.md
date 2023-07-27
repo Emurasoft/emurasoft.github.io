@@ -1,38 +1,43 @@
 # Reload as Binary (Hex View)
 
-### Summary
+## Summary
 
-> Reloads the current file using Binary (Hex View) encoding.
+Reloads the current file using Binary (Hex View) encoding.
 
-### Description
+## Description
 
-> This command reloads the current file from the disk using the Binary (Hex View)
-> encoding. If the document is changed within EmEditor, the prompt message
-> "Are you sure you want to abandon changes?" appears. Selecting **Yes**
-> will discard the changes without saving, and will reload the new contents.
-> Selecting **No** will abort reloading and will allow you to continue
-> editing the document.
+This command reloads the current file from the disk using the Binary (Hex View)
+encoding. If the document is changed within EmEditor, the prompt message
+"Are you sure you want to abandon changes?" appears. SelectingYes
+will discard the changes without saving, and will reload the new contents.
+SelectingNo will abort reloading and will allow you to continue
+editing the document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **File** \> **Reload** \> **Binary (Hex View)**
-- [All Commands](../tools/all_commands): **File** \> **Reload**
-\> **Binary (Hex View)**
+- Default Menu:File \>Reload \>Binary (Hex View)
+- [All Commands](../tools/all_commands):File \>Reload
+\>Binary (Hex View)
 - Toolbar: ![](../../images/reload.gif) (on
-the arrow) > **System Default**
-- Status Bar: (double-click on **Encodings**) \> **Binary (Hex View)**
+the arrow) >System Default
+- Status Bar: (double-click onEncodings) \>Binary (Hex View)
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_RELOAD\_HEX (4439)
+```
+EEID_FILE_RELOAD_HEX (4439)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4439);
+```
+editor.ExecuteCommandByID(4439);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4439
+```
+editor.ExecuteCommandByID 4439
+```

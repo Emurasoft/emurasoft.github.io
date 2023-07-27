@@ -1,32 +1,37 @@
 # 延伸選區到上一頁命令
 
-### 摘要
+## 摘要
 
-> 把選區向上延伸一頁。
+把選區向上延伸一頁。
 
-### 說明
+## 說明
 
-> 把選區向上延伸一頁。如果組態屬性對話方塊中的 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **捲動半頁** 核取方塊被勾選的話，游標只會移動半頁。
+把選區向上延伸一頁。如果組態屬性對話方塊中的 [捲動 頁面](../../dlg/properties/scroll/index) 上的捲動半頁 核取方塊被勾選的話，游標只會移動半頁。
 
-### 運行方法
+## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands): **編輯** \> **延伸選區**
-\> **延伸選區到上一頁**
+- [全部命令](../tools/all_commands):編輯 \>延伸選區
+\>延伸選區到上一頁
 - 工具列: 無
 - 狀態列: 無
 - 預設鍵盤快速鍵: SHIFT+PAGE UP
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_SHIFT\_PAGEUP (4178)
+```
+EEID_SHIFT_PAGEUP (4178)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.PageUp(true,1);
+```
+document.selection.PageUp(true,1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.PageUp true,1
+```
+document.selection.PageUp true,1
+```

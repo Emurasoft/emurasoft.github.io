@@ -2,17 +2,21 @@
 
 檢索或設定目前的 Csv 對象的名稱。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Name**;
+### \[JavaScript\]
 
-object. **Name** = _s_;
+```
+s = object.Name;
+object.Name = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Name**
-
-object. **Name** = _s_
+```
+s = object.Name
+object.Name = s
+```
 
 ## 版本
 

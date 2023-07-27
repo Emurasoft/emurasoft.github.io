@@ -2,31 +2,37 @@
 
 检索当前置前窗口。
 
-#### \[JavaScript\]
+## 
 
-wnd = shell. **ForegroundWindow**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd = shell.ForegroundWindow;
+```
 
-wnd = shell. **ForegroundWindow**
+### \[VBScript\]
+
+```
+wnd = shell.ForegroundWindow
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnd = shell.FouregroundWindow;
-
 str = wnd.Caption;
-
 alert( str );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd = shell.FouregroundWindow
-
 str = wnd.Caption
-
 alert str
+```
 
 ## 版本
 

@@ -1,14 +1,20 @@
 # Item 属性 (CsvList ����)
 
-检索指定索引的 [**Csv** 对象](../csv/index)。
+检索指定索引的 [Csv 对象](../csv/index)。
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor.CsvList. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.CsvList.Item( Index );
+```
 
-_doc_ = editor.CsvList. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+doc = editor.CsvList.Item( Index )
+```
 
 ## 示例
 
@@ -18,13 +24,17 @@ _Index_
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "第一个 Csv 对象的名称：" + editor.CsvList.Item(1).Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "第一个 Csv 对象的名称：" & editor.CsvList.Item(1).Name
+```
 
 ## 版本
 

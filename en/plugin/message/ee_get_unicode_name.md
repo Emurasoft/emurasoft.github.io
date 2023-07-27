@@ -12,13 +12,13 @@ lParam = 0;
 
 _pUNI_
 
-> Specifies the pointer to the [UNICODE\_NAME\_INFO structure](../structure/unicode_name_info).
+Specifies the pointer to the [UNICODE\_NAME\_INFO structure](../structure/unicode_name_info).
 
 ## Return Values
 
-> If _cchBuf_ field of the UNICODE\_NAME\_INFO structure is zero, the return value is the required size, in characters,
-> for a buffer that can receive the text.
+If _cchBuf_ field of the UNICODE\_NAME\_INFO structure is zero, the return value is the required size, in characters,
+for a buffer that can receive the text.
 
 ## Version
 
-> Supported on Version 19.1 or later.
+Supported on Version 19.1 or later.

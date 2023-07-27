@@ -13,11 +13,11 @@ lParam = (LPARAM) (TEMP\_INFO) pTI;
 
 _pTI_
 
-> Pointer to the [TEMP\_INFO](../structure/temp_info) structure.
+Pointer to the [TEMP\_INFO](../structure/temp_info) structure.
 
 ## Return Values
 
-> The return value is the ID of the new document. However, it is not used when closing a temporary text.
+The return value is the ID of the new document. However, it is not used when closing a temporary text.
 
 ## Version
 

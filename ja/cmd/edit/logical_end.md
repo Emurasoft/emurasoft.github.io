@@ -1,14 +1,14 @@
 # \[論理行の行末へ\] コマンド
 
-### 概要
+## 概要
 
-> 論理行の行末へ移動します。
+論理行の行末へ移動します。
 
-### 説明
+## 説明
 
-> カーソル位置を論理行の行末へ移動します。
+カーソル位置を論理行の行末へ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[水平にカーソル移動\] \- \[論理行の行末へ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+End
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_LOGICAL\_END (4167)
+```
+EEID_LOGICAL_END (4167)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.EndOfLine(false,eeLineLogical);
+```
+document.selection.EndOfLine(false,eeLineLogical);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.EndOfLine false,eeLineLogical
+```
+document.selection.EndOfLine false,eeLineLogical
+```

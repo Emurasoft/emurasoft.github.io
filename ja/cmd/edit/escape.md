@@ -1,14 +1,14 @@
 # \[選択のキャンセル\] コマンド
 
-### 概要
+## 概要
 
-> 選択状態をキャンセルします。
+選択状態をキャンセルします。
 
-### 説明
+## 説明
 
-> 選択状態を解除し、選択されていない状態にします。
+選択状態を解除し、選択されていない状態にします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択範囲の変更\] \- \[選択のキャンセル\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Esc
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_ESCAPE (4187)
+```
+EEID_ESCAPE (4187)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Collapse();
+```
+document.selection.Collapse();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Collapse
+```
+document.selection.Collapse
+```

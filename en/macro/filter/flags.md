@@ -11,19 +11,21 @@ Specifies a combination of the following values.
 | eeFindReplaceOnlyWord | Matches only whole words. |
 | eeFindReplaceRegExp | Uses a regular expression for the searched string. Cannot be combined <br> with eeFindReplaceEscSeq. |
 
-#### \[JavaScript\]
+## 
 
-_flag_ =
-item. **Flags**;
+### \[JavaScript\]
 
-item. **Flags** = flags;
+```
+flag = item.Flags;
+item.Flags = flags;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Flags**
-
-item. **Flags** = _n_
+```
+n = item.Flags
+item.Flags = n
+```
 
 ## Version
 

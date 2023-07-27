@@ -2,17 +2,21 @@
 
 개체의 플래그를 지정합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ = item. **Flags**;
+### \[JavaScript\]
 
-item. **Flags** = _n_;
+```
+n = item.Flags;
+item.Flags = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = item. **Flags**
-
-item. **Flags** = _n_
+```
+n = item.Flags
+item.Flags = n
+```
 
 ## 매개 변수
 

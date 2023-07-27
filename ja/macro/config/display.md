@@ -2,13 +2,19 @@
 
 [DisplayProp オブジェクト](../display_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Display**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Display;
+```
 
-Set _obj_ = object. **Display**
+### \[VBScript\]
+
+```
+Set obj = object.Display
+```
 
 ## バージョン
 

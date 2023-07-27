@@ -12,8 +12,8 @@ lParam = 0;
 
 _pFilterInfo_
 
-> 指针指向 [FILTER\_INFO](../structure/filter_info) 结构。
+指针指向 [FILTER\_INFO](../structure/filter_info) 结构。
 
 ## 返回值
 
-> 返回值是与指定字符串相匹配的行数。如果指定字符串是一个空字符串，那么返回值是 -1。如果指定的是 FLAG\_FIND\_CONTINUE，那返回值是 0。
+返回值是与指定字符串相匹配的行数。如果指定字符串是一个空字符串，那么返回值是 -1。如果指定的是 FLAG\_FIND\_CONTINUE，那返回值是 0。

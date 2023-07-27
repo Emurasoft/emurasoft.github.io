@@ -1,18 +1,22 @@
 # End 속성 (IndentProp ��ü)
 
-[**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 의 **들여쓰기 끝** 텍스트 박스에 해당합니다.
+[탭/들여쓰기 대화 상자](../../dlg/properties/general/indent/index) 의들여쓰기 끝 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **End**;
+### \[JavaScript\]
 
-object. **End** = _s_;
+```
+s = object.End;
+object.End = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **End**
-
-object. **End** = _s_
+```
+s = object.End
+object.End = s
+```
 
 ## 버전
 

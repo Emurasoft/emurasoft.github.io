@@ -1,14 +1,14 @@
 # \[不要な2重引用符を削除\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書の不要な2重引用符を削除します。
+CSV文書の不要な2重引用符を削除します。
 
-### 説明
+## 説明
 
-> CSV文書の不要な2重引用符を削除します。
+CSV文書の不要な2重引用符を削除します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[高度\] - \[不要な2重引用符を削除\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[高度\] - \[不要な2重引用符を削除\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_REMOVE\_UNNECESSARY\_QUOTES (3902)
+```
+EEID_REMOVE_UNNECESSARY_QUOTES (3902)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3902);
+```
+editor.ExecuteCommandByID(3902);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3902
+```
+editor.ExecuteCommandByID 3902
+```

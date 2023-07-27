@@ -1,20 +1,24 @@
 # FontCategory å±žæ€§ (FileNewProp ¶ÔÏó)
 
-Corresponds to the **Font**
-**Category drop-down** list box in the
-[**New File Details** dialog box.](../../dlg/properties/file/new_details/index)
+Corresponds to theFont
+Category drop-down list box in the
+[New File Details dialog box.](../../dlg/properties/file/new_details/index)
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **FontCategory**;
+### \[JavaScript\]
 
-object. **FontCategory** = _n_;
+```
+n = object.FontCategory;
+object.FontCategory = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **FontCategory**
-
-object. **FontCategory** = _n_
+```
+n = object.FontCategory
+object.FontCategory = n
+```
 
 ## ç‰ˆæœ¬
 

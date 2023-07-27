@@ -1,31 +1,36 @@
 # Insert Macron command
 
-### Summary
+## Summary
 
-> Inserts a character with a macron accent mark.
+Inserts a character with a macron accent mark.
 
-### Description
+## Description
 
-> After selecting this command, Insert a character with a macron (ā, ē, ī, ō, ū, Ā, Ē, Ī, Ō or Ū) at the cursor by typing a, e, i, o, u, A, E, I, O or U.
+After selecting this command, Insert a character with a macron (ā, ē, ī, ō, ū, Ā, Ē, Ī, Ō or Ū) at the cursor by typing a, e, i, o, u, A, E, I, O or U.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Diacritics** \> **Macron**
-- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Macron**
+- Default Menu:Insert \>Diacritics \>Macron
+- [All Commands](../tools/all_commands):Insert \>Diacritics \>Macron
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT + -
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT\_MACRON (3861)
+```
+EEID_INSERT_MACRON (3861)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3861);
+```
+editor.ExecuteCommandByID(3861);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3861
+```
+editor.ExecuteCommandByID 3861
+```

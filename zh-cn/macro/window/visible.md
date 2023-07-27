@@ -2,13 +2,19 @@
 
 返回是否窗口可见。
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Visible**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Visible;
+```
 
-_b_ = wnd. **Visible**
+### \[VBScript\]
+
+```
+b = wnd.Visible
+```
 
 ## 版本
 

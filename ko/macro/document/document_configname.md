@@ -2,17 +2,21 @@
 
 현재 구성 이름을 검색하거나 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-_strName_ = document. **ConfigName;**
+### \[JavaScript\]
 
-document. **ConfigName** = _strName_;
+```
+strName = document.ConfigName;
+document.ConfigName = strName;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_strName_ = document. **ConfigName**
-
-document. **ConfigName** = _strName_
+```
+strName = document.ConfigName
+document.ConfigName = strName
+```
 
 ## 버전
 

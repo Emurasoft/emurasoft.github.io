@@ -1,14 +1,20 @@
 # FuzzyOptions 属性 (Editor ����)
 
-检索 [**FuzzyOptions** 对象](../fuzzy_options/index)。
+检索 [FuzzyOptions 对象](../fuzzy_options/index)。
 
-#### \[JavaScript\]
+## 
 
-_reg_ = editor. **FuzzyOptions**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+reg = editor.FuzzyOptions;
+```
 
-Set _reg_ = editor. **FuzzyOptions**
+### \[VBScript\]
+
+```
+Set reg = editor.FuzzyOptions
+```
 
 ## 版本
 

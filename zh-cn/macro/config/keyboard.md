@@ -2,13 +2,19 @@
 
 检索 [KeyboardProp 对象](../keyboard_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Keyboard**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Keyboard;
+```
 
-Set _obj_ = object. **Keyboard**
+### \[VBScript\]
+
+```
+Set obj = object.Keyboard
+```
 
 ## 版本
 

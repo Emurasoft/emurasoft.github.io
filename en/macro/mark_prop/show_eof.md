@@ -1,22 +1,24 @@
 # ShowEOF Property (MarkProp Object)
 
-Corresponds to the **Show**
-**End of File** check box in the
-[**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
+Corresponds to theShow
+End of File check box in the
+[Marks page](../../dlg/properties/marks/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowEOF**;
+### \[JavaScript\]
 
-object. **ShowEOF** = _b_;
+```
+b = object.ShowEOF;
+object.ShowEOF = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowEOF**
-
-object. **ShowEOF** = _b_
+```
+b = object.ShowEOF
+object.ShowEOF = b
+```
 
 ## Version
 

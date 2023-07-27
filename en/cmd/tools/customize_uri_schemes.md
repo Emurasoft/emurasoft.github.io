@@ -1,34 +1,39 @@
 # Customize URI Schemes command
 
-### Summary
+## Summary
 
-> Opens the URI Schemes page of the Customize dialog box.
+Opens the URI Schemes page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the URI Schemes page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the URI Schemes page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**URI Schemes**
+- [All Commands](all_commands):Tools >
+Customize >
+URI Schemes
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_URI\_SCHEMES (9065)
+```
+EEID_CUSTOMIZE_URI_SCHEMES (9065)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9065);
+```
+editor.ExecuteCommandByID(9065);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9065
+```
+editor.ExecuteCommandByID 9065
+```

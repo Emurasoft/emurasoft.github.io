@@ -2,13 +2,19 @@
 
 현재 커서 위치에 문자열을 삽입하거나 덮어쓰기합니다.
 
-#### \[JavaScript\]
+## 
 
-document. **write**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.write( str );
+```
 
-document. **write** _str_
+### \[VBScript\]
+
+```
+document.write str
+```
 
 ## 매개 변수
 
@@ -18,13 +24,17 @@ _str_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-document. **write**( "Hello" );
+```
+document.write( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document. **write** "Hello"
+```
+document.write "Hello"
+```
 
 ## 버전
 

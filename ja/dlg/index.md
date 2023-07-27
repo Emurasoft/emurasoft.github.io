@@ -74,6 +74,8 @@ EmEditor には以下のダイアログ ボックスが存在します。
 
 ![](../images/b.gif)[\[文字コード値\] ダイアログ ボックス](character_code_value_dialog/index)
 
+
+
 ![](../images/b.gif)[\[設定の定義\] ダイアログ ボックス](configurations/index)
 
 ![](../images/b.gif)[\[設定の関連付け\] ダイアログ ボックス](configuration_associations/index)
@@ -84,6 +86,8 @@ EmEditor には以下のダイアログ ボックスが存在します。
 
 ![](../images/b.gif)[\[EmEditorと関連付け\] ダイアログ ボックス](file_associate/index)
 
+
+
 ![](../images/b.gif)[\[ツール バー\] ダイアログ ボックス](toolbars/index)
 
 ![](../images/b.gif)[\[メニューの変更\] ダイアログ ボックス](menus/index)
@@ -93,6 +97,8 @@ EmEditor には以下のダイアログ ボックスが存在します。
 ![](../images/b.gif)[\[エンコードの定義\] ダイアログ ボックス](encodings/index)
 
 ![](../images/b.gif)[\[トレイ アイコンの設定\] ダイアログ ボックス](tray/index)
+
+
 
 ![](../images/b.gif)[\[プラグインの設定\] ダイアログ ボックス](plugins/index)
 

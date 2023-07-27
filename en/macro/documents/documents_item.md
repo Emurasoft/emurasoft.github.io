@@ -2,13 +2,19 @@
 
 Retrieves the document object for the document of the specified index.
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor.Documents. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.Documents.Item( Index );
+```
 
-_doc_ = editor.Documents. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+doc = editor.Documents.Item( Index )
+```
 
 ## Parameters
 
@@ -18,13 +24,17 @@ Specifies the index of the document as a one-based integer.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Full Name for the first document: " + editor.Documents.Item(1).FullName );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Full Name for the first document: " & editor.Documents.Item(1).FullName
+```
 
 ## Version
 

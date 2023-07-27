@@ -2,19 +2,21 @@
 
 指定表示對象是否啟用的標志。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Enabled**;
+### \[JavaScript\]
 
-item. **Enabled** = _b_;
+```
+b = item.Enabled;
+item.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Enabled**
-
-item. **Enabled** = _b_
+```
+b = item.Enabled
+item.Enabled = b
+```
 
 ## 版本
 

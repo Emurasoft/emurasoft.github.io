@@ -1,20 +1,22 @@
 # PreserveReturnsClipboard 属性 (GeneralProp ����)
 
-与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **在剪贴板保留换行方式 (CR/LF)** 复选框相对应。
+与配置属性中 [常规 页面](../../dlg/properties/general/index) 上的在剪贴板保留换行方式 (CR/LF) 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PreserveReturnsClipboard**;
+### \[JavaScript\]
 
-object. **PreserveReturnsClipboard** = _b_;
+```
+b = object.PreserveReturnsClipboard;
+object.PreserveReturnsClipboard = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PreserveReturnsClipboard**
-
-object. **PreserveReturnsClipboard** = _b_
+```
+b = object.PreserveReturnsClipboard
+object.PreserveReturnsClipboard = b
+```
 
 ## 版本
 

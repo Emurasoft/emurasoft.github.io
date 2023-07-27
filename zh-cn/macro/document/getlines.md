@@ -2,13 +2,19 @@
 
 检索文档中的行数。
 
-#### \[JavaScript\]
+## 
 
-_nLines_ = document. **GetLines**( \[ _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nLines = document.GetLines( [ nFlags ] );
+```
 
-_nLines_ = document. **GetLines**( \[ _nFlags_ \] )
+### \[VBScript\]
+
+```
+nLines = document.GetLines( [ nFlags ] )
+```
 
 ## 参数
 

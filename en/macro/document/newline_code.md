@@ -2,13 +2,19 @@
 
 Retrieves the current newline character code of the document.
 
-#### \[JavaScript\]
+## 
 
-_nNewlineCode_ = document. **NewlineCode**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nNewlineCode = document.NewlineCode;
+```
 
-_nNewlineCode_ = document. **NewlineCode**
+### \[VBScript\]
+
+```
+nNewlineCode = document.NewlineCode
+```
 
 ## Parameters
 

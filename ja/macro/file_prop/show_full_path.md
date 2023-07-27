@@ -1,20 +1,22 @@
 # ShowFullPath プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の **\[ファイル名をフルパスで表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[ファイル名をフルパスで表示\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowFullPath**;
+### \[JavaScript\]
 
-object. **ShowFullPath** = _b_;
+```
+b = object.ShowFullPath;
+object.ShowFullPath = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowFullPath**
-
-object. **ShowFullPath** = _b_
+```
+b = object.ShowFullPath
+object.ShowFullPath = b
+```
 
 ## バージョン
 

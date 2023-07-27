@@ -2,23 +2,33 @@
 
 Retrieves the path of the document without the file name.
 
-#### \[JavaScript\]
+## 
 
-_strPath_ = document. **Path**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strPath = document.Path;
+```
 
-_strPath_ = document. **Path**
+### \[VBScript\]
+
+```
+strPath = document.Path
+```
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( document.Path );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert document.Path
+```
 
 ## Version
 

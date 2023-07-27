@@ -2,13 +2,19 @@
 
 Retrieves the file names for the dropped file of the specified index.
 
-#### \[JavaScript\]
+## 
 
-_str_ = DroppedFiles. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = DroppedFiles.Item( Index );
+```
 
-_str_ = DroppedFiles. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+str = DroppedFiles.Item( Index )
+```
 
 ## Parameters
 

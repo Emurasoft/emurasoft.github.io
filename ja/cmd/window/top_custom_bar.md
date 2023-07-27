@@ -1,14 +1,14 @@
 # \[上カスタム バー\] コマンド
 
-### 概要
+## 概要
 
-> 上のカスタム バーに切り替えます。
+上のカスタム バーに切り替えます。
 
-### 説明
+## 説明
 
-> 利用可能なら上のカスタム バーに切り替えます。
+利用可能なら上のカスタム バーに切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[カスタム バー\] \- \[上\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FOCUS\_TOP\_BAR (4426)
+```
+EEID_FOCUS_TOP_BAR (4426)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4426);
+```
+editor.ExecuteCommandByID(4426);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID(4426)
+```
+editor.ExecuteCommandByID(4426)
+```

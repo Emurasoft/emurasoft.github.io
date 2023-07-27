@@ -1,31 +1,36 @@
 # 对注释进行拼写检查命令
 
-### 摘要
+## 摘要
 
-> 对注释进行拼写检查。
+对注释进行拼写检查。
 
-### 说明
+## 说明
 
-> 对注释进行拼写检查。错误拼写的字词会以红色下划线显示。
+对注释进行拼写检查。错误拼写的字词会以红色下划线显示。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **编辑** \> **拼写检查** \> **检查拼写于** \> **注释**
-- [所有命令](../tools/all_commands): **编辑** \> **拼写检查** \> **检查拼写于** \> **注释**
+- 默认菜单:编辑 \>拼写检查 \>检查拼写于 \>注释
+- [所有命令](../tools/all_commands):编辑 \>拼写检查 \>检查拼写于 \>注释
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_SPELL\_COMMENTS (4516)
+```
+EEID_SPELL_COMMENTS (4516)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4516);
+```
+editor.ExecuteCommandByID(4516);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4516
+```
+editor.ExecuteCommandByID 4516
+```

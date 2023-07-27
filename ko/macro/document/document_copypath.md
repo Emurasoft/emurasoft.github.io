@@ -2,13 +2,19 @@
 
 클립보드에 문서의 경로만을 복사합니다.
 
-#### \[JavaScript\]
+## 
 
-document. **CopyPath**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.CopyPath();
+```
 
-document. **CopyPath**
+### \[VBScript\]
+
+```
+document.CopyPath
+```
 
 ## 버전
 

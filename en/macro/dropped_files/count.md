@@ -2,13 +2,19 @@
 
 Retrieves the number of dropped files.
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = DroppedFiles. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = DroppedFiles.Count;
+```
 
-_nCount_ = DroppedFiles. **Count**
+### \[VBScript\]
+
+```
+nCount = DroppedFiles.Count
+```
 
 ## Version
 

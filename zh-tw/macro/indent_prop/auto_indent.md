@@ -1,20 +1,22 @@
 # AutoIndent 屬性 (IndentProp ��H)
 
-與 [**Tab/縮排** 對話方塊](../../dlg/properties/general/indent/index) 上的 **啟用自動縮排** 核取方塊相對應。
+與 [Tab/縮排 對話方塊](../../dlg/properties/general/indent/index) 上的啟用自動縮排 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **AutoIndent**;
+### \[JavaScript\]
 
-object. **AutoIndent** = _b_;
+```
+b = object.AutoIndent;
+object.AutoIndent = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **AutoIndent**
-
-object. **AutoIndent** = _b_
+```
+b = object.AutoIndent
+object.AutoIndent = b
+```
 
 ## 版本
 

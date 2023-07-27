@@ -2,13 +2,19 @@
 
 返回指定窗口的扩展样式。
 
-#### \[JavaScript\]
+## 
 
-_n_ = wnd. **ExStyle**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = wnd.ExStyle;
+```
 
-_n_ = wnd. **ExStyle**
+### \[VBScript\]
+
+```
+n = wnd.ExStyle
+```
 
 ## 版本
 

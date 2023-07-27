@@ -2,13 +2,19 @@
 
 追加一个字符串到输出栏上。
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **write**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.write( str );
+```
 
-OutputBar. **write** _str_
+### \[VBScript\]
+
+```
+OutputBar.write str
+```
 
 ## 参数
 

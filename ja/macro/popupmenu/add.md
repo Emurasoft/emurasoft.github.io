@@ -2,13 +2,19 @@
 
 メニューの項目を追加します。
 
-#### \[JavaScript\]
+## 
 
-popupmenu. **Add**( _strText_, _id,_ \[ _flags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu.Add( strText, id, [ flags ] );
+```
 
-popupmenu. **Add** _strText_, _id,_ \[ _flags_ \]
+### \[VBScript\]
+
+```
+popupmenu.Add strText, id, [ flags ]
+```
 
 ## パラメータ
 

@@ -1,22 +1,24 @@
 # DeleteEmpty Property (FileSaveProp Object)
 
-Corresponds to the **Delete**
-**Empty Files when Saving** check box in the
-[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to theDelete
+Empty Files when Saving check box in the
+[Save Details dialog box](../../dlg/properties/file/save_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DeleteEmpty**;
+### \[JavaScript\]
 
-object. **DeleteEmpty** = _b_;
+```
+b = object.DeleteEmpty;
+object.DeleteEmpty = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DeleteEmpty**
-
-object. **DeleteEmpty** = _b_
+```
+b = object.DeleteEmpty
+object.DeleteEmpty = b
+```
 
 ## Version
 

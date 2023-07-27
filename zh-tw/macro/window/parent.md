@@ -2,17 +2,21 @@
 
 返回父視窗對象。
 
-#### \[JavaScript\]
+## 
 
-_wnd_ = wnd. **Parent**;
+### \[JavaScript\]
 
-wnd. **Parent** = _wnd_;
+```
+wnd = wnd.Parent;
+wnd.Parent = wnd;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_wnd_ = wnd. **Parent**
-
-wnd. **Parent** = _wnd_
+```
+wnd = wnd.Parent
+wnd.Parent = wnd
+```
 
 ## 版本
 

@@ -2,17 +2,21 @@
 
 指定字体的脚本。
 
-#### \[JavaScript\]
+## 
 
-_n_ = item. **Script**;
+### \[JavaScript\]
 
-item. **Script** = _n_;
+```
+n = item.Script;
+item.Script = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = item. **Script**
-
-item. **Script** = _n_
+```
+n = item.Script
+item.Script = n
+```
 
 ## 版本
 

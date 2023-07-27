@@ -2,13 +2,19 @@
 
 返回选定内容顶部的行号。
 
-#### \[JavaScript\]
+## 
 
-yPos = document.selection. **GetTopPointY**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos = document.selection.GetTopPointY( nFlags [, iSel ] );
+```
 
-yPos = document.selection. **GetTopPointY**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+yPos = document.selection.GetTopPointY( nFlags [, iSel ] )
+```
 
 ## 参数
 

@@ -2,13 +2,19 @@
 
 新規にファイルを作成します。
 
-#### \[JavaScript\]
+## 
 
-editor. **NewFile**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.NewFile();
+```
 
-editor. **NewFile**
+### \[VBScript\]
+
+```
+editor.NewFile
+```
 
 ## バージョン
 

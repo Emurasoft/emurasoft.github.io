@@ -1,32 +1,37 @@
 # 保存工作区并全部关闭 (仅当前桌面) 命令
 
-### 摘要
+## 摘要
 
-> 在当前虚拟桌面上，保存工作区并关闭所有打开的文件。
+在当前虚拟桌面上，保存工作区并关闭所有打开的文件。
 
-### 说明
+## 说明
 
-> 在当前虚拟桌面上，保存工作区并关闭所有打开的文件。
+在当前虚拟桌面上，保存工作区并关闭所有打开的文件。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands): **文件** \> **关闭**
-\> **保存工作区并全部关闭 (仅当前桌面)**
+- [所有命令](../tools/all_commands):文件 \>关闭
+\>保存工作区并全部关闭 (仅当前桌面)
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_SAVE\_WORKSPACE\_QUIT\_DESKTOP (3938)
+```
+EEID_SAVE_WORKSPACE_QUIT_DESKTOP (3938)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3938);
+```
+editor.ExecuteCommandByID(3938);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3938
+```
+editor.ExecuteCommandByID 3938
+```

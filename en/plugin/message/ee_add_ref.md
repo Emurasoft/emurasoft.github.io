@@ -13,10 +13,10 @@ lParam = (LPARAM)(HINSTANCE)hInstance;
 
 _hInstance_
 
-> Specifies the instance handle for the plug-in.
+Specifies the instance handle for the plug-in.
 
 ## Return Values
 
-> The return value is the reference number of the plug-in after incremented.
-> If the return value is less than or equal to zero, the specified plug-in can
-> be safely unloaded from EmEditor.
+The return value is the reference number of the plug-in after incremented.
+If the return value is less than or equal to zero, the specified plug-in can
+be safely unloaded from EmEditor.

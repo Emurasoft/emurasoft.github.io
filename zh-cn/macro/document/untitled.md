@@ -2,13 +2,19 @@
 
 检索标示文档是否无标题的标志。
 
-#### \[JavaScript\]
+## 
 
-_b_ = document. **Untitled**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = document.Untitled;
+```
 
-_b_ = document. **Untitled**
+### \[VBScript\]
+
+```
+b = document.Untitled
+```
 
 ## 版本
 

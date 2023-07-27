@@ -15,13 +15,13 @@ lParam = (LPARAM) (GREP\_INFOA) pGrepInfo;
 
 _pGrepInfo_
 
-> [GREP\_INFOA \
-> 구조](../structure/grep_infoa) 에 대한 포인터를 지정합니다.
+[GREP\_INFOA \
+구조](../structure/grep_infoa) 에 대한 포인터를 지정합니다.
 
 ## 반환 값
 
-> 사용자가 중단하는 경우 FALSE를 반환하고, 그렇지 않는 경우 TRUE를 반환합니다.
+사용자가 중단하는 경우 FALSE를 반환하고, 그렇지 않는 경우 TRUE를 반환합니다.
 
 ## 버전
 
-> EmEditor 버전 4.02 이상에서만 지원됩니다.
+EmEditor 버전 4.02 이상에서만 지원됩니다.

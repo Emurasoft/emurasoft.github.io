@@ -2,13 +2,19 @@
 
 文書の改行コードを取得します。
 
-#### \[JavaScript\]
+## 
 
-_nNewlineCode_ = document. **NewlineCode**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nNewlineCode = document.NewlineCode;
+```
 
-_nNewlineCode_ = document. **NewlineCode**
+### \[VBScript\]
+
+```
+nNewlineCode = document.NewlineCode
+```
 
 ## Parameters
 
@@ -23,6 +29,6 @@ _nNewlineCode_
 | eeLfOnly | LF only |
 | eeNewlineMixed | Mixed |
 
-#### バージョン
+### バージョン
 
 EmEditor Professional Version 14.6 以上で利用できます。

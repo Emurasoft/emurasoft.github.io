@@ -1,15 +1,15 @@
 # \[記号\] コマンド
 
-### 概要
+## 概要
 
-> 改行コード/EOF/タブ記号の表示/非表示を切り替えます。
+改行コード/EOF/タブ記号の表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> 改行コード/EOF/タブ記号の表示/非表示を切り替えます。これらの記号は、\[プロパティ\] の
-> [\[記号\] タブ](../../dlg/properties/marks/index) で個別に設定することもできます。
+改行コード/EOF/タブ記号の表示/非表示を切り替えます。これらの記号は、\[プロパティ\] の
+[\[記号\] タブ](../../dlg/properties/marks/index) で個別に設定することもできます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[記号\] \- \[記号(改行コード、EOF、タブ)\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_MARKS (4370)
+```
+EEID_VIEW_MARKS (4370)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4370);
+```
+editor.ExecuteCommandByID(4370);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4370
+```
+editor.ExecuteCommandByID 4370
+```

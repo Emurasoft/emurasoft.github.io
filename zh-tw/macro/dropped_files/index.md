@@ -6,28 +6,27 @@ DroppedFiles 集合在一個框架視窗中提供拖放的檔案名稱的集合�
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | 檢索被拖放的檔案的數目。 |
-| **[Item](item)** | 檢索指定索引下的被拖放的檔案名稱。 |
+|[Count](count) | 檢索被拖放的檔案的數目。 |
+|[Item](item) | 檢索指定索引下的被拖放的檔案名稱。 |
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 files = new Enumerator( DroppedFiles );
-
 for( ; !files.atEnd(); files.moveNext() ){
-
 alert( files.item() );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each str In DroppedFiles
-
 alert str
-
 Next
+```
 
 ## 版本
 

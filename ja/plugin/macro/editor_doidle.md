@@ -8,16 +8,16 @@ void Editor\_DoIdle( HWND hwnd, BOOL bResetTab );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウハンドルを指定します。
 
 _bReset_
 
-> タブをリセットします。
+タブをリセットします。
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。
 
 ## バージョン
 
-> Version 5.00 以上で利用できます。
+Version 5.00 以上で利用できます。

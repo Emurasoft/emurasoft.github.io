@@ -9,16 +9,16 @@ Editor\_SaveTemp( HWND hwnd, UINT nEditID );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nEditID_
 
-> Specifies the ID of the temporary text that you want to save.
+Specifies the ID of the temporary text that you want to save.
 
 ## Return Values
 
-> The return value is the ID of the new document.
+The return value is the ID of the new document.
 
 ## Version
 
-> Supported on EmEditor Version 9.00 or later.
+Supported on EmEditor Version 9.00 or later.

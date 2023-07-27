@@ -2,19 +2,21 @@
 
 指定對象的顏色。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-item. **Color**;
+### \[JavaScript\]
 
-item. **Color** = _n_;
+```
+n = item.Color;
+item.Color = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Color**
-
-item. **Color** = _n_
+```
+n = item.Color
+item.Color = n
+```
 
 ## 版本
 

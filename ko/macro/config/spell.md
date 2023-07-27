@@ -2,13 +2,19 @@
 
 [SpellProp 개체](../spell_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Spell**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Spell;
+```
 
-_obj_ = object. **Spell**
+### \[VBScript\]
+
+```
+obj = object.Spell
+```
 
 ## 버전
 

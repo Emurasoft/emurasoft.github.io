@@ -1,8 +1,8 @@
 # To Paste in Quotes
 
-1. Select **All Commands...** under the **Tools** menu.
-2. Select **Edit**, **Paste** and then **Paste in Quotes**.
+1. SelectAll Commands... under theTools menu.
+2. SelectEdit,Paste and thenPaste in Quotes.
 
-**Tips**
+Tips
 
 By default, you can press CTRL + B to paste in quotes.

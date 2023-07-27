@@ -2,14 +2,20 @@
 
 Sets the origin point of the selection.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SetAnchorPoint**( _nFlags_, _xPos_, _yPos_
+### \[JavaScript\]
+
+```
+document.selection.SetAnchorPoint( nFlags, xPos, yPos
 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document.selection. **SetAnchorPoint** _nFlags_, _xPos_, _yPos_
+```
+document.selection.SetAnchorPoint nFlags, xPos, yPos
+```
 
 ## Parameters
 

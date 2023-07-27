@@ -2,13 +2,19 @@
 
 检索当前运行的宏文件的完整路径以及文件名称。
 
-#### \[JavaScript\]
+## 
 
-_str_ = **ScriptFullName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str =ScriptFullName;
+```
 
-_str_ = **ScriptFullName**
+### \[VBScript\]
+
+```
+str =ScriptFullName
+```
 
 ## 版本
 

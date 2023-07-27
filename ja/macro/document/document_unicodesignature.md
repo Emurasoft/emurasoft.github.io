@@ -2,17 +2,21 @@
 
 次に保存する時に Unicode サイン (BOM) を付けるかどうかを取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_bUnicodeSignature_ = document. **UnicodeSignature**;
+### \[JavaScript\]
 
-document. **UnicodeSignature** = _bUnicodeSignature_;
+```
+bUnicodeSignature = document.UnicodeSignature;
+document.UnicodeSignature = bUnicodeSignature;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bUnicodeSignature_ = document. **UnicodeSignature**
-
-document. **UnicodeSignature** = _bUnicodeSignature_
+```
+bUnicodeSignature = document.UnicodeSignature
+document.UnicodeSignature = bUnicodeSignature
+```
 
 ## バージョン
 

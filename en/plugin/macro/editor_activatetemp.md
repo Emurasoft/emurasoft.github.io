@@ -9,20 +9,20 @@ Editor\_ActivateTemp( HWND hwnd, UINT nEditID, POINT\_PTR\* pptInitialCaret = NU
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nEditID_
 
-> Specifies the ID of the temporary text that you want to activate.
+Specifies the ID of the temporary text that you want to activate.
 
 _pptInitialCaret_
 
-> Specifies the initial cursor position.
+Specifies the initial cursor position.
 
 ## Return Values
 
-> The return value is the ID of the new document.
+The return value is the ID of the new document.
 
 ## Version
 
-> Supported on EmEditor Version 9.00 or later.
+Supported on EmEditor Version 9.00 or later.

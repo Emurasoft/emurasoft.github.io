@@ -1,22 +1,24 @@
 # InsideTag Property (HighlightItem Object)
 
-Corresponds to the **Inside**
-**Tag Only** check box in the
-[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to theInside
+Tag Only check box in the
+[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **InsideTag**;
+### \[JavaScript\]
 
-item. **InsideTag** = _b_;
+```
+b = item.InsideTag;
+item.InsideTag = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **InsideTag**
-
-item. **InsideTag** = _b_
+```
+b = item.InsideTag
+item.InsideTag = b
+```
 
 ## Version
 

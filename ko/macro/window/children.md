@@ -1,14 +1,20 @@
 # Children 속성 (Window ��ü)
 
-하위 창을 나타내는 [**Windows** 컬렉션](../windows/index) 을 반환합니다.
+하위 창을 나타내는 [Windows 컬렉션](../windows/index) 을 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_wnds_ = wnd. **Children**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnds = wnd.Children;
+```
 
-_wnds_ = wnd. **Children**
+### \[VBScript\]
+
+```
+wnds = wnd.Children
+```
 
 ## 버전
 

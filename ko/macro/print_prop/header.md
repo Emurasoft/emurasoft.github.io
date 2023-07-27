@@ -1,18 +1,22 @@
 # Header 속성 (PrintProp ��ü)
 
-구성 속성 [**인쇄** 탭](../../dlg/properties/print/index) 의 **머리글** 텍스트 박스에 해당합니다.
+구성 속성 [인쇄 탭](../../dlg/properties/print/index) 의머리글 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Header**;
+### \[JavaScript\]
 
-object. **Header** = _s_;
+```
+s = object.Header;
+object.Header = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Header**
-
-object. **Header** = _s_
+```
+s = object.Header
+object.Header = s
+```
 
 ## 버전
 

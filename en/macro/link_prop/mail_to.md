@@ -1,21 +1,23 @@
 # MailTo Property (LinkProp Object)
 
-Corresponds to the **Clicking**
-**Mail Address Sends Mail** check box in the [**Link** page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to theClicking
+Mail Address Sends Mail check box in the [Link page](../../dlg/properties/link/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **MailTo**;
+### \[JavaScript\]
 
-object. **MailTo** = _b_;
+```
+b = object.MailTo;
+object.MailTo = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **MailTo**
-
-object. **MailTo** = _b_
+```
+b = object.MailTo
+object.MailTo = b
+```
 
 ## Version
 

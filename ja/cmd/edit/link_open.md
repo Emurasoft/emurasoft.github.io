@@ -1,14 +1,14 @@
 # \[リンクを開く\] コマンド
 
-### 概要
+## 概要
 
-> カーソル位置のハイパーリンクを開きます。
+カーソル位置のハイパーリンクを開きます。
 
-### 説明
+## 説明
 
-> カーソル位置に存在するハイパーリンクを開きます。
+カーソル位置に存在するハイパーリンクを開きます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[リンクを開く\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[高度な操作\] \- \[リンクを開く\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_LINK\_OPEN (4141)
+```
+EEID_LINK_OPEN (4141)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.OpenLink();
+```
+document.selection.OpenLink();
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.OpenLink
+```
+document.selection.OpenLink
+```

@@ -1,7 +1,7 @@
 # 매크로 도구 모음
 
-**매크로 도구 모음** 이 디스플레이 됩니다.
+매크로 도구 모음 이 디스플레이 됩니다.
 매크로 도구 모음은 모든 정의된 나의 매크로를 디스플레이 합니다. 이 뿐만 아니라,
-[**#아이콘** 지시문](../macro/directive/icon), [**#제목** 지시문](../macro/directive/title),
-그리고 [**#툴팁** 지시문](../macro/directive/tooltip) 들을 각각 이용해서
+[#아이콘 지시문](../macro/directive/icon), [#제목 지시문](../macro/directive/title),
+그리고 [#툴팁 지시문](../macro/directive/tooltip) 들을 각각 이용해서
 매크로 버튼의 아이콘, 제목, 툴팁을 변경할 수 있습니다.

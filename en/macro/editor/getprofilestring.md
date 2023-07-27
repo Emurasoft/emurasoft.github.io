@@ -3,13 +3,19 @@
 Retrieves the string value for the specified entry from the Registry or an INI file depending on the EmEditor
 settings.
 
-#### \[JavaScript\]
+## 
 
-_str_ = editor. **GetProfileString**( _nKey_, _strConfig_, _strEntry_, _strDefault_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = editor.GetProfileString( nKey, strConfig, strEntry, strDefault );
+```
 
-_str_ = editor. **GetProfileString**( _nKey_, _strConfig_, _strEntry_, _strDefault_ )
+### \[VBScript\]
+
+```
+str = editor.GetProfileString( nKey, strConfig, strEntry, strDefault )
+```
 
 ## Parameters
 
@@ -52,21 +58,17 @@ cannot be retrieved.
 
 This example explains how to retrieve a 64-bit integer value.
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nHigh = 0;
-
 nLow = 0;
-
 s = editor.GetProfileString( eeRegCommon, "", "FindFlag", "0" );
-
 if( s.length == 18 && s.substr( 0, 2 ) == "0x" ) {
-
 nHigh = parseInt( s.substr( 2, 8 ), 16 );
-
 nLow = parseInt( s.substr( 10, 8 ), 16 );
-
 }
+```
 
 ## Version
 

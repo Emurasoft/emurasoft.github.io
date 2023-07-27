@@ -1,18 +1,22 @@
 # MonitorInterval 属性 (FileProp ����)
 
-与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **监控时间间隔** 文本框相对应。
+与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的监控时间间隔 文本框相对应。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **MonitorInterval**;
+### \[JavaScript\]
 
-object. **MonitorInterval** = _n_;
+```
+n = object.MonitorInterval;
+object.MonitorInterval = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **MonitorInterval**
-
-object. **MonitorInterval** = _n_
+```
+n = object.MonitorInterval
+object.MonitorInterval = n
+```
 
 ## 版本
 

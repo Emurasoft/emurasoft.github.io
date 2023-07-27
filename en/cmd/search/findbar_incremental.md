@@ -1,32 +1,37 @@
 # Incremental Search (Find toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Incremental Search button on the Find toolbar.
+Toggles the Incremental Search button on the Find toolbar.
 
-### Description
+## Description
 
-> Toggles the Incremental Search button on the Find toolbar. When Incremental Search is activated, EmEditor will search and highlight results as the user types.
+Toggles the Incremental Search button on the Find toolbar. When Incremental Search is activated, EmEditor will search and highlight results as the user types.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Toolbar** \> **Incremental Search**
+- [All Commands](../tools/all_commands):Search
+\>Find Toolbar \>Incremental Search
 - Toolbar: ![](../../images/find_incremental.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FINDBAR\_INCREMENTAL (4571)
+```
+EEID_FINDBAR_INCREMENTAL (4571)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4571);
+```
+editor.ExecuteCommandByID(4571);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4571
+```
+editor.ExecuteCommandByID 4571
+```

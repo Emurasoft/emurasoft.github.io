@@ -1,19 +1,23 @@
 # Begin プロパティ (IndentProp �I�u�W�F�N�g)
 
-[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の
-**\[インデント開始\]** テキスト ボックスに相当します。
+[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の
+\[インデント開始\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Begin**;
+### \[JavaScript\]
 
-object. **Begin** = _s_;
+```
+s = object.Begin;
+object.Begin = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Begin**
-
-object. **Begin** = _s_
+```
+s = object.Begin
+object.Begin = s
+```
 
 ## バージョン
 

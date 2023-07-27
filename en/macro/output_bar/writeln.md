@@ -2,13 +2,19 @@
 
 Appends a string and a newline character to the output bar.
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **writeln**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.writeln( str );
+```
 
-OutputBar. **writeln** _str_
+### \[VBScript\]
+
+```
+OutputBar.writeln str
+```
 
 ## Parameters
 

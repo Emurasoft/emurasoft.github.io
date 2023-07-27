@@ -16,9 +16,9 @@ lParam = (LPARAM) (POINT\_PTR\*) pptLogical
 
 _pptLogical_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the logical coordinates to be
-> converted.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the logical coordinates to be
+converted.
 
 ## Return Values
 
-> Return the serial position.
+Return the serial position.

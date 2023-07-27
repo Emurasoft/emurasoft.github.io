@@ -2,17 +2,21 @@
 
 部分編集の最下部の位置 (Y 座標) を取得、または設定します。-1 は、部分編集が設定されていないことを意味します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **NarrowingBottom**;
+### \[JavaScript\]
 
-document. **NarrowingBottom** = _n_;
+```
+n = document.NarrowingBottom;
+document.NarrowingBottom = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = document. **NarrowingBottom**
-
-document. **NarrowingBottom** = _n_
+```
+n = document.NarrowingBottom
+document.NarrowingBottom = n
+```
 
 ## バージョン
 

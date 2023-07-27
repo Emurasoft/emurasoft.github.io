@@ -2,17 +2,21 @@
 
 指定文本颜色模式。
 
-#### \[JavaScript\]
+## 
 
-_nMode_ = item. **TextMode**;
+### \[JavaScript\]
 
-item. **TextMode** = _nMode_;
+```
+nMode = item.TextMode;
+item.TextMode = nMode;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nMode_ = item. **TextMode**
-
-item. **TextMode** = _nMode_
+```
+nMode = item.TextMode
+item.TextMode = nMode
+```
 
 ## 备注
 

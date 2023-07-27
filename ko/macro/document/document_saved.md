@@ -2,37 +2,40 @@
 
 마지막으로 저장되거나 열린 후로 문서가 수정되었는지 여부를 나타내는 플래그를 검색하거나 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-_bSaved_ = document. **Saved**;
+### \[JavaScript\]
 
-document. **Saved** = _bSaved_;
+```
+bSaved = document.Saved;
+document.Saved = bSaved;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bSaved_ = document. **Saved**
-
-document. **Saved** = _bSaved_
+```
+bSaved = document.Saved
+document.Saved = bSaved
+```
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 if( document.Saved )  alert( "The document is not changed." );
-
 else  alert( "The document is changed." );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 If document.Saved Then
-
 alert( "The document is not changed." )
-
 Else
-
 alert( "The document is changed." )
-
 End If
+```
 
 ## 버전
 

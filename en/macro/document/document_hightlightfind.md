@@ -2,17 +2,21 @@
 
 Determines whether to highlight the searched strings.
 
-#### \[JavaScript\]
+## 
 
-_bHighlightFind_ = document. **HighlightFind**;
+### \[JavaScript\]
 
-document. **HighlightFind** = _bHighlightFind_;
+```
+bHighlightFind = document.HighlightFind;
+document.HighlightFind = bHighlightFind;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bHighlightFind_ = document. **HighlightFind**
-
-document. **HighlightFind** = _bHighlightFind_
+```
+bHighlightFind = document.HighlightFind
+document.HighlightFind = bHighlightFind
+```
 
 ## Version
 

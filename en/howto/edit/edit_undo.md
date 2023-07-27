@@ -4,7 +4,7 @@ Click
 ![Undo](../../images/editundo.gif) on
 the Toolbar.
 
-### Tips
+## Tips
 
 - Alternatively, click CTRL + Z to undo the last edit.
 - To redo the last undone edit, click

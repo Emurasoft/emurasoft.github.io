@@ -2,13 +2,19 @@
 
 按指定索引鍵資料欄，用一個與 JOIN 操作類似的方法合併兩個 CSV 文檔，并創建一個新文檔。
 
-#### \[JavaScript\]
+## 
 
-_n_ = editor. **Join**( _nFlags_, _strDocument1_, _strColumn1_, _strDocument2_, _strColumn2_, _strSelect_, _strSeparator_, _nLimit_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = editor.Join( nFlags, strDocument1, strColumn1, strDocument2, strColumn2, strSelect, strSeparator, nLimit );
+```
 
-_n_ = editor. **Join**( _nFlags_, _strDocument1_, _strColumn1_, _strDocument2_, _strColumn2_, _strSelect, strSeparator, nLimit_)
+### \[VBScript\]
+
+```
+n = editor.Join( nFlags, strDocument1, strColumn1, strDocument2, strColumn2, strSelect, strSeparator, nLimit)
+```
 
 ## 參數
 

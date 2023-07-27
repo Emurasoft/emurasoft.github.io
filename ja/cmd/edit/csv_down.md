@@ -1,14 +1,14 @@
 # \[下のセル (セル選択モードのみ)\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書で下のセルにジャンプします。
+CSV文書で下のセルにジャンプします。
 
-### 説明
+## 説明
 
-> CSV文書で下のセルにジャンプします。
+CSV文書で下のセルにジャンプします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セル選択モードのみ\] - \[下のセル\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CSV\_DOWN (4080)
+```
+EEID_CSV_DOWN (4080)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4080);
+```
+editor.ExecuteCommandByID(4080);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4080
+```
+editor.ExecuteCommandByID 4080
+```

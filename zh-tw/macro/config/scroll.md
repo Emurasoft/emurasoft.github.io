@@ -2,13 +2,19 @@
 
 檢索 [ScrollProp 對象](../scroll_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Scroll**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Scroll;
+```
 
-Set _obj_ = object. **Scroll**
+### \[VBScript\]
+
+```
+Set obj = object.Scroll
+```
 
 ## 版本
 

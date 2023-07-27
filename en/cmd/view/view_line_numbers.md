@@ -1,33 +1,38 @@
 # Line Numbers command
 
-### Summary
+## Summary
 
-> Shows or hides line numbers.
+Shows or hides line numbers.
 
-### Description
+## Description
 
-> Shows or hides line numbers. By default, EmEditor does not display line numbers.
+Shows or hides line numbers. By default, EmEditor does not display line numbers.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Line Numbers**
-- [All Commands](../tools/all_commands): **View** >
-**Line Numbers**
+- Default Menu:View \>Line Numbers
+- [All Commands](../tools/all_commands):View >
+Line Numbers
 - Toolbar:
 ![](../../images/line_number24x16.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_VIEW\_LINE\_NUMBERS (4530)
+```
+EEID_VIEW_LINE_NUMBERS (4530)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4530);
+```
+editor.ExecuteCommandByID(4530);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4530
+```
+editor.ExecuteCommandByID 4530
+```

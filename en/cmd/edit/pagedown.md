@@ -1,34 +1,39 @@
 # Page Down command
 
-### Summary
+## Summary
 
-> Moves the cursor down one page.
+Moves the cursor down one page.
 
-### Description
+## Description
 
-> Moves the cursor down one page at a time. The cursor will move down half of a
-> page if the **Scroll Half Page** check box is checked on the
-> [**Scroll** page](../../dlg/properties/scroll/index) in the Configuration Properties dialog box.
+Moves the cursor down one page at a time. The cursor will move down half of a
+page if theScroll Half Page check box is checked on the
+[Scroll page](../../dlg/properties/scroll/index) in the Configuration Properties dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
-\> **Page Down**
+- [All Commands](../tools/all_commands):Edit \>Move Cursor Vertically
+\>Page Down
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: PAGE DOWN
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PAGEDOWN (4163)
+```
+EEID_PAGEDOWN (4163)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.PageDown(false,1);
+```
+document.selection.PageDown(false,1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.PageDown false,1
+```
+document.selection.PageDown false,1
+```

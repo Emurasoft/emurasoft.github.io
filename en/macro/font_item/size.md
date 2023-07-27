@@ -2,19 +2,21 @@
 
 Specifies the font size in points.
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-item. **Size**;
+### \[JavaScript\]
 
-item. **Size** = _n_;
+```
+n = item.Size;
+item.Size = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Size**
-
-item. **Size** = _n_
+```
+n = item.Size
+item.Size = n
+```
 
 ## Version
 

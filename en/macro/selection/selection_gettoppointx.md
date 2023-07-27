@@ -2,13 +2,19 @@
 
 Returns the column number of the top of the selection.
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetTopPointX**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetTopPointX( nFlags [, iSel ] );
+```
 
-xPos = document.selection. **GetTopPointX**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetTopPointX( nFlags [, iSel ] )
+```
 
 ## Parameters
 

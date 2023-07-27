@@ -2,13 +2,19 @@
 
 [KeyboardProp 개체](../keyboard_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Keyboard**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Keyboard;
+```
 
-_obj_ = object. **Keyboard**
+### \[VBScript\]
+
+```
+obj = object.Keyboard
+```
 
 ## 버전
 

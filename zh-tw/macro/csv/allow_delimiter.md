@@ -1,18 +1,22 @@
 # AllowDelimiter 屬性 (Csv ��H)
 
-與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **允許分隔符號在引號內** 核取方塊對應。
+與在自訂對話方塊中 [CSV 頁面](../../dlg/customize/csv/index) 上的允許分隔符號在引號內 核取方塊對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **AllowDelimiter**;
+### \[JavaScript\]
 
-object. **AllowDelimiter** = _b_;
+```
+b = object.AllowDelimiter;
+object.AllowDelimiter = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **AllowDelimiter**
-
-object. **AllowDelimiter** = _b_
+```
+b = object.AllowDelimiter
+object.AllowDelimiter = b
+```
 
 ## 版本
 

@@ -2,13 +2,19 @@
 
 文書を閉じます。
 
-#### \[JavaScript\]
+## 
 
-document. **close**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.close();
+```
 
-document. **close**
+### \[VBScript\]
+
+```
+document.close
+```
 
 ## バージョン
 

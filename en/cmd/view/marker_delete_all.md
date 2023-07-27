@@ -1,32 +1,37 @@
 # Delete All Markers command
 
-### Summary
+## Summary
 
-> Deletes all markers.
+Deletes all markers.
 
-### Description
+## Description
 
-> Deletes all markers.
+Deletes all markers.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Markers**
-\> **Delete All**
+- [All Commands](../tools/all_commands):View \>Markers
+\>Delete All
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MARKER\_DELETE\_ALL (4587)
+```
+EEID_MARKER_DELETE_ALL (4587)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4587);
+```
+editor.ExecuteCommandByID(4587);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4587
+```
+editor.ExecuteCommandByID 4587
+```

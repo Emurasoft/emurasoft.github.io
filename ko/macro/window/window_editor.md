@@ -2,13 +2,19 @@
 
 [Editor 개체](../editor/index) 를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_app_ = **editor**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+app =editor;
+```
 
-Set _app_ = **editor**
+### \[VBScript\]
+
+```
+Set app =editor
+```
 
 ## 버전
 

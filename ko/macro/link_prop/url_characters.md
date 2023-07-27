@@ -1,18 +1,22 @@
 # URLCharacters 속성 (LinkProp ��ü)
 
-구성 속성 [**링크** 탭](../../dlg/properties/link/index) 의 **이 문자들을 인식** 텍스트 박스에 해당합니다.
+구성 속성 [링크 탭](../../dlg/properties/link/index) 의이 문자들을 인식 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **URLCharacters**;
+### \[JavaScript\]
 
-object. **URLCharacters** = _s_;
+```
+s = object.URLCharacters;
+object.URLCharacters = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **URLCharacters**
-
-object. **URLCharacters** = _s_
+```
+s = object.URLCharacters
+object.URLCharacters = s
+```
 
 ## 버전
 

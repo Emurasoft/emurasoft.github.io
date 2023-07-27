@@ -13,12 +13,12 @@ lParam = (LPARAM) (GREP\_INFOW) pGrepInfo;
 
 _pGrepInfo_
 
-> [GREP\_INFOW 構造体](../structure/grep_infow) へのポインタを指定します。
+[GREP\_INFOW 構造体](../structure/grep_infow) へのポインタを指定します。
 
 ## 戻り値
 
-> ユーザーが処理を中止した場合 FALSE を返します。そうでなければ 0 以外の値を返します。
+ユーザーが処理を中止した場合 FALSE を返します。そうでなければ 0 以外の値を返します。
 
 ## バージョン
 
-> EmEditor Professional Version 4.02 以上で利用できます。
+EmEditor Professional Version 4.02 以上で利用できます。

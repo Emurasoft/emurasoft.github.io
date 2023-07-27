@@ -2,19 +2,21 @@
 
 指定要搜索的字串。
 
-#### \[JavaScript\]
+## 
 
-_s_ =
-item. **Value**;
+### \[JavaScript\]
 
-item. **Value** = _s_;
+```
+s = item.Value;
+item.Value = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ =
-item. **Value**
-
-item. **Value** = _s_
+```
+s = item.Value
+item.Value = s
+```
 
 ## 版本
 

@@ -1,38 +1,43 @@
 # Save command
 
-### Summary
+## Summary
 
-> Saves the current file.
+Saves the current file.
 
-### Description
+## Description
 
-> This command saves the document with the current file name unless the document
-> is untitled. If you want to change the encoding or the return
-> method, select the [**Save As** command](file_save_as) or
-> the [**Save with Encoding (multiple menu)** \
-> command](file_save_defined).
->
-> If the file is untitled, the **Save As** dialog box will be displayed, which allows you to enter a file name.
+This command saves the document with the current file name unless the document
+is untitled. If you want to change the encoding or the return
+method, select the [Save As command](file_save_as) or
+the [Save with Encoding (multiple menu) \
+command](file_save_defined).
 
-### How to Run
+If the file is untitled, theSave As dialog box will be displayed, which allows you to enter a file name.
 
-- Default Menu: **File** \> **Save**
-- [All Commands](../tools/all_commands): **File** \> **Save**
-\> **Save**
+## How to Run
+
+- Default Menu:File \>Save
+- [All Commands](../tools/all_commands):File \>Save
+\>Save
 - Toolbar: ![](../../images/filesave.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+S
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_SAVE (4099)
+```
+EEID_FILE_SAVE (4099)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4099);
+```
+editor.ExecuteCommandByID(4099);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4099
+```
+editor.ExecuteCommandByID 4099
+```

@@ -1,34 +1,39 @@
 # Deselect Bottom Selection from Multiple Selections command
 
-### Summary
+## Summary
 
-> Deselects the bottom selection from multiple selections.
+Deselects the bottom selection from multiple selections.
 
-### Description
+## Description
 
-> Deselects the bottom selection from multiple selections.
+Deselects the bottom selection from multiple selections.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Deselect Bottom Selection from Multiple Selections**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Deselect Bottom Selection from Multiple Selections
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+SHIFT+DOWN
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CANCEL\_BOTTOM\_SEL (4031)
+```
+EEID_CANCEL_BOTTOM_SEL (4031)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4031);
+```
+editor.ExecuteCommandByID(4031);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4031
+```
+editor.ExecuteCommandByID 4031
+```
 
-##### CopyDown © 2003-2023 by Emurasoft, Inc.
+#### CopyDown © 2003-2023 by Emurasoft, Inc.

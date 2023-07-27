@@ -2,13 +2,19 @@
 
 文書を含むディレクトリのパスをファイル名を付けないでクリップボードにコピーします。
 
-#### \[JavaScript\]
+## 
 
-document. **CopyPath**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.CopyPath();
+```
 
-document. **CopyPath**
+### \[VBScript\]
+
+```
+document.CopyPath
+```
 
 ## バージョン
 

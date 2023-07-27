@@ -1,14 +1,14 @@
 # \[TSVモード\] コマンド
 
-### 概要
+## 概要
 
-> TSV (タブ区切り) モードを選択します。
+TSV (タブ区切り) モードを選択します。
 
-### 説明
+## 説明
 
-> TSV (タブ区切り) モードを選択します。
+TSV (タブ区切り) モードを選択します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): なし
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_MODE\_TSV (4471)
+```
+EEID_MODE_TSV (4471)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4471);
+```
+editor.ExecuteCommandByID(4471);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4471
+```
+editor.ExecuteCommandByID 4471
+```

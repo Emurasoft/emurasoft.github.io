@@ -1,31 +1,36 @@
 # Check Spelling in Quoted Lines command
 
-### Summary
+## Summary
 
-> Checks spelling in quoted lines.
+Checks spelling in quoted lines.
 
-### Description
+## Description
 
-> Checks spelling in quoted lines. Misspelled words will be underlined in red.
+Checks spelling in quoted lines. Misspelled words will be underlined in red.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Quoted Lines**
-- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **Quoted Lines**
+- Default Menu:Edit \>Spelling \>Check Spelling in \>Quoted Lines
+- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling in \>Quoted Lines
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SPELL\_QUOTE (4513)
+```
+EEID_SPELL_QUOTE (4513)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4513);
+```
+editor.ExecuteCommandByID(4513);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4513
+```
+editor.ExecuteCommandByID 4513
+```

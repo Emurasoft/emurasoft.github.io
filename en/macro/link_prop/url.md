@@ -1,19 +1,23 @@
 # URL Property (LinkProp Object)
 
-Corresponds to the **Link**
-**to URLs** check box in the [**Link** page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to theLink
+to URLs check box in the [Link page](../../dlg/properties/link/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **URL**;
+### \[JavaScript\]
 
-object. **URL** = _b_;
+```
+b = object.URL;
+object.URL = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **URL**
-
-object. **URL** = _b_
+```
+b = object.URL
+object.URL = b
+```
 
 ## Version
 

@@ -1,14 +1,14 @@
 # \[オプションの保存\] コマンド
 
-### 概要
+## 概要
 
-> 比較または同期スクロールのオプションを保存します。
+比較または同期スクロールのオプションを保存します。
 
-### 説明
+## 説明
 
-> 比較または同期スクロールのオプションを保存します。
+比較または同期スクロールのオプションを保存します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[比較\] \- \[オプションの保存\]
 - [すべてのコマンド](../../glossary/allcommands): \[比較\] \- \[オプションの保存\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_COMPARE\_SAVE\_OPTIONS (4508)
+```
+EEID_COMPARE_SAVE_OPTIONS (4508)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4508);
+```
+editor.ExecuteCommandByID(4508);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4508
+```
+editor.ExecuteCommandByID 4508
+```

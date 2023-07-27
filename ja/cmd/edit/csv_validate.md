@@ -1,14 +1,14 @@
 # \[構文チェック\] コマンド
 
-### 概要
+## 概要
 
-> 現在の文書の構文チェックを行いエラーを表示します。
+現在の文書の構文チェックを行いエラーを表示します。
 
-### 説明
+## 説明
 
-> 現在の文書の構文チェックを行いエラーを表示します。
+現在の文書の構文チェックを行いエラーを表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[構文チェック\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CSV\_VALIDATE (3990)
+```
+EEID_CSV_VALIDATE (3990)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3990);
+```
+editor.ExecuteCommandByID(3990);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3990
+```
+editor.ExecuteCommandByID 3990
+```

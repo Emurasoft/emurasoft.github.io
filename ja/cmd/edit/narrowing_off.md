@@ -1,14 +1,14 @@
 # \[部分編集の解除\] コマンド
 
-### 概要
+## 概要
 
-> 文書全体を編集可能にします。
+文書全体を編集可能にします。
 
-### 説明
+## 説明
 
-> 文書全体を編集可能にします。
+文書全体を編集可能にします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[部分編集\] \- \[部分編集の解除\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_NARROWING\_OFF (4458)
+```
+EEID_NARROWING_OFF (4458)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4458);
+```
+editor.ExecuteCommandByID(4458);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4458
+```
+editor.ExecuteCommandByID 4458
+```

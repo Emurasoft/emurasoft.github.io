@@ -12,16 +12,16 @@ lParam = (LPARAM)(int)iFilter;
 
 _pFilterInfo_
 
-> 指針指向 [FILTER\_INFO\_EX](../structure/filter_info_ex) 結構。
+指針指向 [FILTER\_INFO\_EX](../structure/filter_info_ex) 結構。
 
 _iFilter_
 
-> 指定你要檢索的字串及其設定的篩選器的索引，或指定 -1 來獲取篩選器的數目。
+指定你要檢索的字串及其設定的篩選器的索引，或指定 -1 來獲取篩選器的數目。
 
 ## 返回值
 
-> 如果 iFilter 是 0 或更大的數字并且消息成功，返回值為 TRUE。如果 iFilter 是 -1，返回值是篩選器的數目。
+如果 iFilter 是 0 或更大的數字并且消息成功，返回值為 TRUE。如果 iFilter 是 -1，返回值是篩選器的數目。
 
 ## 版本
 
-> 支持 EmEditor Professional Version 16.0 或之後的版本。
+支持 EmEditor Professional Version 16.0 或之後的版本。

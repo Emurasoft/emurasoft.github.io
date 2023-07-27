@@ -1,19 +1,23 @@
 # NotepadDiary プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の
-**\[メモ帳互換の日誌作成\]** チェック ボックス に相当します。
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の
+\[メモ帳互換の日誌作成\] チェック ボックス に相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **NotepadDiary**;
+### \[JavaScript\]
 
-object. **NotepadDiary** = _b_;
+```
+b = object.NotepadDiary;
+object.NotepadDiary = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **NotepadDiary**
-
-object. **NotepadDiary** = _b_
+```
+b = object.NotepadDiary
+object.NotepadDiary = b
+```
 
 ## バージョン
 

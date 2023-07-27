@@ -2,13 +2,19 @@
 
 Extracts the specified columns of the CSV document.
 
-#### \[JavaScript\]
+## 
 
-document. **ExtractColumns**( _strColumns_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.ExtractColumns( strColumns );
+```
 
-document. **ExtractColumns** _strColumns_
+### \[VBScript\]
+
+```
+document.ExtractColumns strColumns
+```
 
 ## Parameters
 

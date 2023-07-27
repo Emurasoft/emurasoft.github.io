@@ -2,13 +2,19 @@
 
 EmEditor のコマンドを整数の ID で指定して実行します。
 
-#### \[JavaScript\]
+## 
 
-editor. **ExecuteCommandByID**( _nID_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.ExecuteCommandByID( nID );
+```
 
-editor. **ExecuteCommandByID** _nID_
+### \[VBScript\]
+
+```
+editor.ExecuteCommandByID nID
+```
 
 ## パラメータ
 

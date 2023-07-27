@@ -10,13 +10,13 @@ Editor\_SetSelLength( HWND hwnd, UINT nLen );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nLen_
 
-> Specifies the character length of the selection. Returns are always two
-> character length (CR+LF).
+Specifies the character length of the selection. Returns are always two
+character length (CR+LF).
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

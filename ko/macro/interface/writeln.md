@@ -2,13 +2,19 @@
 
 지원되는 플러그 인에 문자열과 새로운 줄을 전달합니다.
 
-#### \[JavaScript\]
+## 
 
-Interface. **writeln**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Interface.writeln( str );
+```
 
-Interface. **writeln** _str_
+### \[VBScript\]
+
+```
+Interface.writeln str
+```
 
 ## 매개 변수
 
@@ -18,13 +24,17 @@ _str_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-Interface. **writeln**( "Hello" );
+```
+Interface.writeln( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Interface. **writeln** "Hello"
+```
+Interface.writeln "Hello"
+```
 
 ## 버전
 

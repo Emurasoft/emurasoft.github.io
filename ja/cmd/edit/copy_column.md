@@ -1,14 +1,14 @@
 # \[列のコピー\] コマンド
 
-### 概要
+## 概要
 
-> 選択列または現在列をクリップボードにコピーします。
+選択列または現在列をクリップボードにコピーします。
 
-### 説明
+## 説明
 
-> 選択列または現在列をクリップボードにコピーします。
+選択列または現在列をクリップボードにコピーします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[コピー\] \- \[列のコピー\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_COPY\_COLULMN (3964)
+```
+EEID_COPY_COLULMN (3964)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3964);
+```
+editor.ExecuteCommandByID(3964);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3964
+```
+editor.ExecuteCommandByID 3964
+```

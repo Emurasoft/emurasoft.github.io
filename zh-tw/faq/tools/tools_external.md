@@ -1,96 +1,96 @@
 # Q. 外部工具組態的例子有哪些？
 
-- 打開 **IE瀏覽器**
+- 打開IE瀏覽器
 
-**命令**: C:\\Program Files\\Internet Explorer\\iexplore.exe
+命令: C:\\Program Files\\Internet Explorer\\iexplore.exe
 
-**參數**: $(Path)
+參數: $(Path)
 
-**初始目錄**: $(Dir)
+初始目錄: $(Dir)
 
-**圖示路徑**: C:\\Program Files\\Internet Explorer\\iexplore.exe
+圖示路徑: C:\\Program Files\\Internet Explorer\\iexplore.exe
 
-Check **Save File**
+CheckSave File
 
-- 打開 **檔案總管**
+- 打開檔案總管
 
-**命令**: %WinDir%\\explorer.exe
+命令: %WinDir%\\explorer.exe
 
-**參數**: $(Dir)
+參數: $(Dir)
 
-**初始目錄**: $(Dir)
+初始目錄: $(Dir)
 
-**圖示路徑**: %WinDir%\\explorer.exe
+圖示路徑: %WinDir%\\explorer.exe
 
-- 打開 **命令提示符**
+- 打開命令提示符
 
-**命令**: %WinDir%\\system32\\cmd.exe
+命令: %WinDir%\\system32\\cmd.exe
 
-**參數**: $(Dir)
+參數: $(Dir)
 
-**初始目錄**: $(Dir)
+初始目錄: $(Dir)
 
-**圖示路徑**: %WinDir%\\system32\\cmd.exe
+圖示路徑: %WinDir%\\system32\\cmd.exe
 
-- 通過 **Visual C++** 編譯
+- 通過Visual C++ 編譯
 
-**命令**: %WinDir%\\system32\\cmd.exe
+命令: %WinDir%\\system32\\cmd.exe
 
-**參數**: /k "C:\\Program Files\\Visual Studio\\Vc7\\bin\\vcvars32.bat"&&cl $(Path)
+參數: /k "C:\\Program Files\\Visual Studio\\Vc7\\bin\\vcvars32.bat"&&cl $(Path)
 
-**初始目錄**: $(Dir)
+初始目錄: $(Dir)
 
-**圖示路徑**: C:\\Program Files\\Visual Studio\\Common7\\IDE\\devenv.exe
+圖示路徑: C:\\Program Files\\Visual Studio\\Common7\\IDE\\devenv.exe
 
-檢查 **儲存檔案**
+檢查儲存檔案
 
 - 運行相關程式
 
-**命令**: $(Path)
+命令: $(Path)
 
-**參數**:
+參數:
 
-**初始目錄**: $(Dir)
+初始目錄: $(Dir)
 
-**圖示路徑**:
+圖示路徑:
 
-檢查 **儲存檔案**
+檢查儲存檔案
 
-- 用 **Google** 搜尋在游標處的單字或一段選取的文字。
+- 用Google 搜尋在游標處的單字或一段選取的文字。
 
-**命令**: http://google.com/search?q=$(CurText)
+命令: http://google.com/search?q=$(CurText)
 
-**參數**:
+參數:
 
-**初始目錄**:
+初始目錄:
 
-**圖示路徑**:
+圖示路徑:
 
-- 從 **Microsoft Visual SourceSafe** 簽出
+- 從Microsoft Visual SourceSafe 簽出
 
-**命令**: %WinDir%\\system32\\cmd.exe
+命令: %WinDir%\\system32\\cmd.exe
 
-**參數**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkout
+參數: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkout
 $/(path)/$(Filename).$(Ext) -y(user name)
 
-**初始目錄**: $(Dir)
+初始目錄: $(Dir)
 
-**圖示路徑**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
+圖示路徑: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
 
-- 簽入到 **Microsoft Visual SourceSafe** 中
+- 簽入到Microsoft Visual SourceSafe 中
 
-**命令**: %WinDir%\\system32\\cmd.exe
+命令: %WinDir%\\system32\\cmd.exe
 
-**參數**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkin
+參數: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkin
 $/(path)/$(Filename).$(Ext) -y(user name)
 
-**初始目錄**: $(Dir)
+初始目錄: $(Dir)
 
-**圖示路徑**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
+圖示路徑: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
 
-檢查 **儲存檔案**
+檢查儲存檔案
 
-您能在 **命令**， **參數**， **初始目錄**，and **圖示路徑** 中使用下面預先定義的參數。
+您能在命令，參數，初始目錄，and圖示路徑 中使用下面預先定義的參數。
 
 $(Path) 檔案的完整路徑名稱。
 

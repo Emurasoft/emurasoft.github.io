@@ -2,13 +2,19 @@
 
 선택 영역의 하단의 열 번호를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetBottomPointX**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetBottomPointX( nFlags [, iSel ] );
+```
 
-xPos = document.selection. **GetBottomPointX**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetBottomPointX( nFlags [, iSel ] )
+```
 
 ## 매개 변수
 

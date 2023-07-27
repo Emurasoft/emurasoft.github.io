@@ -2,13 +2,19 @@
 
 Resets the collection to default.
 
-#### \[JavaScript\]
+## 
 
-list. **Reset**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Reset();
+```
 
-list. **Reset**
+### \[VBScript\]
+
+```
+list.Reset
+```
 
 ## Version
 

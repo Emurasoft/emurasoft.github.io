@@ -1,31 +1,36 @@
 # Insert Inverted Exclamation Mark command
 
-### Summary
+## Summary
 
-> Inserts an inverted exclamation mark.
+Inserts an inverted exclamation mark.
 
-### Description
+## Description
 
-> Inserts an inverted exclamation mark (¡) at the cursor.
+Inserts an inverted exclamation mark (¡) at the cursor.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Marks** \> **Inverted Exclamation Mark**
-- [All Commands](../tools/all_commands): **Insert** \> **Marks** \> **Inverted Exclamation Mark**
+- Default Menu:Insert \>Marks \>Inverted Exclamation Mark
+- [All Commands](../tools/all_commands):Insert \>Marks \>Inverted Exclamation Mark
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+SHIFT+1
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT\_INVERTED\_EXCLAMATION (4313)
+```
+EEID_INSERT_INVERTED_EXCLAMATION (4313)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Text="¡";
+```
+document.selection.Text="¡";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Text="¡"
+```
+document.selection.Text="¡"
+```

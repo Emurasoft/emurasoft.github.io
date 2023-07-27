@@ -8,12 +8,12 @@ Editor\_LoadConfigW( HWND hwnd, LPCWSTR szConfigName );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _szConfigName_
 
-> Specifies the name of a configuration to be reloaded.
+Specifies the name of a configuration to be reloaded.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

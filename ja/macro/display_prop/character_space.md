@@ -1,20 +1,22 @@
 # CharacterSpace プロパティ (DisplayProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[表示\]** タブ](../../dlg/properties/display/index) の **\[文字間\]** テキスト ボックスに相当します。
+設定のプロパティの [\[表示\] タブ](../../dlg/properties/display/index) の\[文字間\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **CharacterSpace**;
+### \[JavaScript\]
 
-object. **CharacterSpace** = _n_;
+```
+n = object.CharacterSpace;
+object.CharacterSpace = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **CharacterSpace**
-
-object. **CharacterSpace** = _n_
+```
+n = object.CharacterSpace
+object.CharacterSpace = n
+```
 
 ## バージョン
 

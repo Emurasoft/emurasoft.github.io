@@ -1,18 +1,22 @@
 # ReturnMethod 屬性 (FileSaveProp ��H)
 
-與 [**換行方式** 下拉清單方塊](../../dlg/properties/file/save_details/index) 相對應。
+與 [換行方式 下拉清單方塊](../../dlg/properties/file/save_details/index) 相對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **ReturnMethod**;
+### \[JavaScript\]
 
-object. **ReturnMethod** = _n_;
+```
+n = object.ReturnMethod;
+object.ReturnMethod = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **ReturnMethod**
-
-object. **ReturnMethod** = _n_
+```
+n = object.ReturnMethod
+object.ReturnMethod = n
+```
 
 ## 版本
 

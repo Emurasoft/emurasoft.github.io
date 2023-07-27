@@ -2,13 +2,19 @@
 
 現在開いている Document オブジェクトを返します。
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor. **ActiveDocument**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.ActiveDocument;
+```
 
-Set _doc_ = editor. **ActiveDocument**
+### \[VBScript\]
+
+```
+Set doc = editor.ActiveDocument
+```
 
 ## バージョン
 

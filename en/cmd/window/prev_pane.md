@@ -1,32 +1,37 @@
 # Previous Pane command
 
-### Summary
+## Summary
 
-> Switches to the previous pane.
+Switches to the previous pane.
 
-### Description
+## Description
 
-> Moves the cursor to the previous pane, if the window is split into multiple panes.
+Moves the cursor to the previous pane, if the window is split into multiple panes.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-> **Panes** \> **Previous Pane**
+- [All Commands](../tools/all_commands):Window
+>Panes \>Previous Pane
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: SHIFT+F6
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PREV\_PANE (4215)
+```
+EEID_PREV_PANE (4215)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4215);
+```
+editor.ExecuteCommandByID(4215);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4215
+```
+editor.ExecuteCommandByID 4215
+```

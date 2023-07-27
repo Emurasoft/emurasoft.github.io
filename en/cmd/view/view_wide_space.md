@@ -1,32 +1,37 @@
 # Wide Spaces command
 
-### Summary
+## Summary
 
-> Shows or hides wide space marks.
+Shows or hides wide space marks.
 
-### Description
+## Description
 
-> Shows or hides wide space marks. By default, EmEditor does not display wide space marks
-> (blue rectangles).
+Shows or hides wide space marks. By default, EmEditor does not display wide space marks
+(blue rectangles).
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Marks** \> **Wide Spaces**
-- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Wide Spaces**
+- Default Menu:View \>Marks \>Wide Spaces
+- [All Commands](../tools/all_commands):View \>Marks \>Wide Spaces
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_VIEW\_WIDE\_SPACE (4536)
+```
+EEID_VIEW_WIDE_SPACE (4536)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4536);
+```
+editor.ExecuteCommandByID(4536);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4536
+```
+editor.ExecuteCommandByID 4536
+```

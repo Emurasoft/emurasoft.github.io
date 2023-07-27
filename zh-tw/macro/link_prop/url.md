@@ -1,18 +1,22 @@
 # URL 屬性 (LinkProp ��H)
 
-與組態屬性中 [**連結** 頁面](../../dlg/properties/link/index) 上的 **連結到 URL** 核取方塊相對應。
+與組態屬性中 [連結 頁面](../../dlg/properties/link/index) 上的連結到 URL 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **URL**;
+### \[JavaScript\]
 
-object. **URL** = _b_;
+```
+b = object.URL;
+object.URL = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **URL**
-
-object. **URL** = _b_
+```
+b = object.URL
+object.URL = b
+```
 
 ## 版本
 

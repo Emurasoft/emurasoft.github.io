@@ -2,13 +2,19 @@
 
 Retrieves the text string of the menu item specified by the identifier.
 
-#### \[JavaScript\]
+## 
 
-_strText_ = popupmenu. **GetText**( _id_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strText = popupmenu.GetText( id );
+```
 
-_strText_ = popupmenu. **GetText**( _id_ )
+### \[VBScript\]
+
+```
+strText = popupmenu.GetText( id )
+```
 
 ## Parameters
 

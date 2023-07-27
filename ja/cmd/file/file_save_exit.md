@@ -1,14 +1,14 @@
 # \[保存して閉じる\] コマンド
 
-### 概要
+## 概要
 
-> ファイルを保存して閉じます。
+ファイルを保存して閉じます。
 
-### 説明
+## 説明
 
-> 作業中の文書の変更を保存して閉じます。
+作業中の文書の変更を保存して閉じます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ファイル\] \- \[保存して閉じる\]
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[閉じる\] \- \[保存して閉じる\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+E
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FILE\_SAVE\_EXIT (4116)
+```
+EEID_FILE_SAVE_EXIT (4116)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4116);
+```
+editor.ExecuteCommandByID(4116);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4116
+```
+editor.ExecuteCommandByID 4116
+```

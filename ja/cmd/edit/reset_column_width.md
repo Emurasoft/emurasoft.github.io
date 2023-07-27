@@ -1,14 +1,14 @@
 # \[列幅をリセット\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書の選択列の幅をリセットします。
+CSV文書の選択列の幅をリセットします。
 
-### 説明
+## 説明
 
-> CSV文書の選択列の幅をリセットします。
+CSV文書の選択列の幅をリセットします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[列\] - \[列幅をリセット\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[列\] - \[列幅をリセット\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_RESET\_COLUMN\_WIDTH (4052)
+```
+EEID_RESET_COLUMN_WIDTH (4052)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4052);
+```
+editor.ExecuteCommandByID(4052);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4052
+```
+editor.ExecuteCommandByID 4052
+```

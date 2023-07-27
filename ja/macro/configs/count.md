@@ -2,23 +2,33 @@
 
 設定の数を取得します。
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = editor.Configs. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = editor.Configs.Count;
+```
 
-_nCount_ = editor.Configs. **Count**
+### \[VBScript\]
+
+```
+nCount = editor.Configs.Count
+```
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "設定の数: " + editor.Configs.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "設定の数: " & editor.Configs.Count
+```
 
 ## バージョン
 

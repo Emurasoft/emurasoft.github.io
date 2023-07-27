@@ -1,32 +1,37 @@
 # Word End Right Extend command
 
-### Summary
+## Summary
 
-> Extends the selection right to the end of the word.
+Extends the selection right to the end of the word.
 
-### Description
+## Description
 
-> Extends the selection right to the end of the word.
+Extends the selection right to the end of the word.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Word End Right Extend**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Word End Right Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+RIGHT ARROW
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_RIGHT\_WORD\_END (4031)
+```
+EEID_SHIFT_RIGHT_WORD_END (4031)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4031);
+```
+editor.ExecuteCommandByID(4031);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4031
+```
+editor.ExecuteCommandByID 4031
+```

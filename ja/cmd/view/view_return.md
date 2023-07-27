@@ -1,14 +1,14 @@
 # \[改行コード\] コマンド
 
-### 概要
+## 概要
 
-> 改行コードの表示/非表示を切り替えます。
+改行コードの表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> 改行コードの表示/非表示を切り替えます。
+改行コードの表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[記号\] \- \[改行コード\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[記号\] \- \[改行コード\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_RETURN (4532)
+```
+EEID_VIEW_RETURN (4532)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4532);
+```
+editor.ExecuteCommandByID(4532);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4532
+```
+editor.ExecuteCommandByID 4532
+```

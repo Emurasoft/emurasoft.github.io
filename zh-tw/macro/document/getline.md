@@ -2,13 +2,19 @@
 
 檢索指定行上的文字。
 
-#### \[JavaScript\]
+## 
 
-_str_ = document. **GetLine**( _yLine_ \[, _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = document.GetLine( yLine [, nFlags ] );
+```
 
-_str_ = document. **GetLine**( _yLine_ \[, _nFlags_ \] )
+### \[VBScript\]
+
+```
+str = document.GetLine( yLine [, nFlags ] )
+```
 
 ## 參數
 

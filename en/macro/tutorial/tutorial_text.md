@@ -4,14 +4,16 @@ To get a selected string, use [Text Property](../selection/selection_text).
 
 The following example demonstrates how to get a selected string and display it.
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
+```
 str = document.selection.Text;
-
 alert( str );
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
+```
 str = document.selection.Text
-
 alert str
+```

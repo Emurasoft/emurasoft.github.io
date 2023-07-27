@@ -1,34 +1,39 @@
 # Customize History command
 
-### Summary
+## Summary
 
-> Opens the History page of the Customize dialog box.
+Opens the History page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the History page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the History page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**History**
+- [All Commands](all_commands):Tools >
+Customize >
+History
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_HISTORY (9042)
+```
+EEID_CUSTOMIZE_HISTORY (9042)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9042);
+```
+editor.ExecuteCommandByID(9042);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9042
+```
+editor.ExecuteCommandByID 9042
+```

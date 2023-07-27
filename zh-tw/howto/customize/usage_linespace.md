@@ -3,8 +3,8 @@
 1. 點擊 ![Properties for Current Configuration](../../images/properties.gif)
 (如果您只想更改目前的組態) 或
 ![Properties for All Configuration](../../images/allproperties.gif)
-(如果您想要更改所有組態) 并到 **顯示** 頁面上。
-2. 更改 **行距** 來調整行與行之間的距離。
+(如果您想要更改所有組態) 并到顯示 頁面上。
+2. 更改行距 來調整行與行之間的距離。
 
 ## 提示
 

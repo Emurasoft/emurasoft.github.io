@@ -14,9 +14,9 @@ lParam = 0;
 
 _hwndParent_
 
-> The window handle of the Plug-ins Settings dialog box.
+The window handle of the Plug-ins Settings dialog box.
 
 ## Return Values
 
-> You must return TRUE if the properties have been displayed, or FALSE if the
-> properties have not been displayed.
+You must return TRUE if the properties have been displayed, or FALSE if the
+properties have not been displayed.

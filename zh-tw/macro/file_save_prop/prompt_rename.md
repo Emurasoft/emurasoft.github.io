@@ -1,20 +1,22 @@
 # PromptRename 屬性 (FileSaveProp ��H)
 
-與 [**儲存詳細信息** 對話方塊](../../dlg/properties/file/save_details/index) 中的 **更名時在刪除舊檔案前提示** 核取方塊相對應。
+與 [儲存詳細信息 對話方塊](../../dlg/properties/file/save_details/index) 中的更名時在刪除舊檔案前提示 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptRename**;
+### \[JavaScript\]
 
-object. **PromptRename** = _b_;
+```
+b = object.PromptRename;
+object.PromptRename = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptRename**
-
-object. **PromptRename** = _b_
+```
+b = object.PromptRename
+object.PromptRename = b
+```
 
 ## 版本
 

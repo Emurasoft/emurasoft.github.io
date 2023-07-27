@@ -2,13 +2,19 @@
 
 檢索文檔中的書籤數。
 
-#### \[JavaScript\]
+## 
 
-_n_ = document. **BookmarkCount**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = document.BookmarkCount;
+```
 
-_n_ = document. **BookmarkCount**
+### \[VBScript\]
+
+```
+n = document.BookmarkCount
+```
 
 ## 版本
 

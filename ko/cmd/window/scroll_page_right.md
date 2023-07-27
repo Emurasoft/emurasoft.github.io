@@ -1,31 +1,36 @@
 # 페이지 오른쪽으로 스크롤 명령
 
-### 요약
+## 요약
 
-> 문서를 한 페이지 오른쪽으로 스크롤 합니다.
+문서를 한 페이지 오른쪽으로 스크롤 합니다.
 
-### 설명
+## 설명
 
-> 문서를 한 페이지 오른쪽으로 스크롤 합니다.
+문서를 한 페이지 오른쪽으로 스크롤 합니다.
 
-### 실행하는 방법
+## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands): **창** \> **스크롤** \> **페이지 오른쪽으로**
+- [모든 명령](../tools/all_commands):창 \>스크롤 \>페이지 오른쪽으로
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
-### 플러그인 명령 ID
+## 플러그인 명령 ID
 
-- EEID\_SCROLL\_PAGE\_RIGHT (3869)
+```
+EEID_SCROLL_PAGE_RIGHT (3869)```
 
-### 매크로
+## 매크로
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3869);
+```
+editor.ExecuteCommandByID(3869);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3869
+```
+editor.ExecuteCommandByID 3869
+```

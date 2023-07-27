@@ -3,13 +3,19 @@
 Retrieves the integer value for the specified entry from the Registry or an INI file depending on the EmEditor
 settings.
 
-#### \[JavaScript\]
+## 
 
-_n_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _nDefault_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = editor.GetProfileInt( nKey, strConfig, strEntry, nDefault );
+```
 
-_n_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _nDefault_ )
+### \[VBScript\]
+
+```
+n = editor.GetProfileInt( nKey, strConfig, strEntry, nDefault )
+```
 
 ## Parameters
 

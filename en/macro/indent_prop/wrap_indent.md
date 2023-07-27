@@ -1,20 +1,22 @@
 # WrapIndent Property (IndentProp Object)
 
-Corresponds to the **Wrap Indent** check box in the **[Tab/Index](../../dlg/properties/general/indent/index)** [dialog box](../../dlg/properties/general/indent/index).
+Corresponds to theWrap Indent check box in the[Tab/Index](../../dlg/properties/general/indent/index) [dialog box](../../dlg/properties/general/indent/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **WrapIndent**;
+### \[JavaScript\]
 
-object. **WrapIndent** = _b_;
+```
+b = object.WrapIndent;
+object.WrapIndent = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **WrapIndent**
-
-object. **WrapIndent** = _b_
+```
+b = object.WrapIndent
+object.WrapIndent = b
+```
 
 ## Version
 

@@ -1,14 +1,14 @@
 # \[最新の情報に更新 (フィルター ツール バー)\] コマンド
 
-### 概要
+## 概要
 
-> 文書を現在のフィルターの設定で最新の情報に更新します。
+文書を現在のフィルターの設定で最新の情報に更新します。
 
-### 説明
+## 説明
 
-> 文書を現在のフィルターの設定で最新の情報に更新します。
+文書を現在のフィルターの設定で最新の情報に更新します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[フィルター ツール バー\] \- \[最新の情報に更新\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FILTERBAR\_REFRESH (3905)
+```
+EEID_FILTERBAR_REFRESH (3905)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3905);
+```
+editor.ExecuteCommandByID(3905);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3905
+```
+editor.ExecuteCommandByID 3905
+```

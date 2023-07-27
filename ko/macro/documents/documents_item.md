@@ -2,13 +2,19 @@
 
 지정된 인덱스의 문서를 위한 document 개체를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor.Documents. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.Documents.Item( Index );
+```
 
-_doc_ = editor.Documents. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+doc = editor.Documents.Item( Index )
+```
 
 ## 매개 변수
 
@@ -18,13 +24,17 @@ _Index_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Full Name for the first document: " + editor.Documents.Item(1).FullName );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Full Name for the first document: " & editor.Documents.Item(1).FullName
+```
 
 ## 버전
 

@@ -1,14 +1,20 @@
 # Replace 方法 (Regex ����)
 
-用正则表达式搜索指定的字符串，并用指定的字符串替换。如果设定的是 **Global** 属性，这个方法会替换字符串中所有可能的匹配。
+用正则表达式搜索指定的字符串，并用指定的字符串替换。如果设定的是Global 属性，这个方法会替换字符串中所有可能的匹配。
 
-#### \[JavaScript\]
+## 
 
-_strResult_ = reg. **Replace**( _strText_, _strReplace_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strResult = reg.Replace( strText, strReplace );
+```
 
-_strResult_ = reg. **Replace**( _strText_, _strReplace_ )
+### \[VBScript\]
+
+```
+strResult = reg.Replace( strText, strReplace )
+```
 
 ## 参数
 
@@ -26,49 +32,35 @@ _strReplace_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 re = editor.regex;
-
 re.Engine = eeExFindRegexOnigmo;
-
-re.Pattern = "(\[A-Z0-9.\_%+-\]+)@(\[A-Z0-9.-\]+\\\.\[A-Z\]{2,})";
-
+re.Pattern = "([A-Z0-9.\%+-]+)@([A-Z0-9.-]+\\\.[A-Z]{2,})";
 re.IgnoreCase = true;
-
 re.OnlyWord = false;
-
 strOrg = "The email address is john@test.com."
-
 strNew = re.Replace( strOrg, "\\\1 at \\\2" );
-
 if( strOrg != strNew ) {
-
 alert( strNew );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set re = editor.regex
-
 re.Engine = eeExFindRegexOnigmo
-
-re.Pattern = "(\[A-Z0-9.\_%+-\]+)@(\[A-Z0-9.-\]+\\.\[A-Z\]{2,})"
-
+re.Pattern = "([A-Z0-9.\%+-]+)@([A-Z0-9.-]+\\.[A-Z]{2,})"
 re.IgnoreCase = True
-
 re.OnlyWord = False
-
 strOrg = "The email address is john@test.com."
-
 strNew = re.Replace( strOrg, "\\1 at \\2" )
-
 If strOrg <> strNew Then
-
 alert( strNew )
-
 End If
+```
 
 ## 版本
 

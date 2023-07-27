@@ -9,16 +9,16 @@ Editor\_GetActiveString( HWND hwnd, ACTIVE\_STRING\_INFO\* pInfo );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _pTipInfo_
 
-> Pointer to the [ACTIVE\_STRING\_INFO](../structure/active_string_info) structure.
+Pointer to the [ACTIVE\_STRING\_INFO](../structure/active_string_info) structure.
 
 ## Return Values
 
-> Returns the size of the buffer in characters needed to retrieve the active string including the terminating NULL character.
+Returns the size of the buffer in characters needed to retrieve the active string including the terminating NULL character.
 
 ## Version
 
-> Supported on Version 16.9 or later.
+Supported on Version 16.9 or later.

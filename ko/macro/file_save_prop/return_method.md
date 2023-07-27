@@ -1,19 +1,23 @@
 # ReturnMethod 속성 (FileSaveProp ��ü)
 
-[**세부 정보 저장** 대화 상자](../../dlg/properties/file/save_details/index) 의
-**반환 방법 드롭 다운** 리스트 박스에 해당합니다.
+[세부 정보 저장 대화 상자](../../dlg/properties/file/save_details/index) 의
+반환 방법 드롭 다운 리스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **ReturnMethod**;
+### \[JavaScript\]
 
-object. **ReturnMethod** = _n_;
+```
+n = object.ReturnMethod;
+object.ReturnMethod = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **ReturnMethod**
-
-object. **ReturnMethod** = _n_
+```
+n = object.ReturnMethod
+object.ReturnMethod = n
+```
 
 ## 버전
 

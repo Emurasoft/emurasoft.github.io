@@ -4,14 +4,16 @@
 
 下面的例子演示了如何獲得并顯示一個被選取的字串。
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
+```
 str = document.selection.Text;
-
 alert( str );
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
+```
 str = document.selection.Text
-
 alert str
+```

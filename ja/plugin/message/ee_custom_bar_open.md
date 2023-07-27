@@ -12,12 +12,12 @@ lParam = (LPCTSTR) (LPCTSTR) pCustomBarInfo;
 
 _pCustomBarInfo_
 
-> [CUSTOM\_BAR\_INFO 構造体](../structure/custom_bar_info) へのポインタを指定します。
+[CUSTOM\_BAR\_INFO 構造体](../structure/custom_bar_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると、カスタム バー ID を返します。この ID は、EE\_CUSTOM\_BAR\_CLOSE メッセージで閉じるときに必要です。失敗すると 0 を返します。
+成功すると、カスタム バー ID を返します。この ID は、EE\_CUSTOM\_BAR\_CLOSE メッセージで閉じるときに必要です。失敗すると 0 を返します。
 
 ## バージョン
 
-> Version 6.00 以上で利用できます。
+Version 6.00 以上で利用できます。

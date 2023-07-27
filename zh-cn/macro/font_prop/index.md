@@ -6,8 +6,8 @@
 | --- | --- |
 | [DisplayList](display_list) | 检索 FontList 对象。 |
 | [PrintList](print_list) | 检索 PrintList 对象。 |
-| [SameFontPrint](same_font_print) | 与自定义字体对话框中的 [**将显示字体作为打印机字体** 复选框](../../dlg/properties/font/index) 相对应。 |
-| [UsePrinterFont](use_printer_font) | 与自定义字体对话框中的 [**在下方的列表中包含默认的打印机字体** 复选框](../../dlg/properties/font/index) 相对应。 |
+| [SameFontPrint](same_font_print) | 与自定义字体对话框中的 [将显示字体作为打印机字体 复选框](../../dlg/properties/font/index) 相对应。 |
+| [UsePrinterFont](use_printer_font) | 与自定义字体对话框中的 [在下方的列表中包含默认的打印机字体 复选框](../../dlg/properties/font/index) 相对应。 |
 
 ## 版本
 

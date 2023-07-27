@@ -1,34 +1,39 @@
 # Line Up Extend (Vertical Mode) command
 
-### Summary
+## Summary
 
-> Extends the vertical selection up one line.
+Extends the vertical selection up one line.
 
-### Description
+## Description
 
-> Extends the vertical selection up one line.
+Extends the vertical selection up one line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Line Up Extend (Vertical Mode)**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Line Up Extend (Vertical Mode)
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+UP ARROW
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOX\_EXTEND\_UP (4027)
+```
+EEID_BOX_EXTEND_UP (4027)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4027);
+```
+editor.ExecuteCommandByID(4027);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4027
+```
+editor.ExecuteCommandByID 4027
+```
 
-##### CopyUp © 2003-2023 by Emurasoft, Inc.
+#### CopyUp © 2003-2023 by Emurasoft, Inc.

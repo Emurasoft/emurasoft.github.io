@@ -2,13 +2,19 @@
 
 Inserts the Clipboard contents at the cursor.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Paste**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Paste( nFlags );
+```
 
-document.selection. **Paste** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.Paste nFlags
+```
 
 ## Parameters
 

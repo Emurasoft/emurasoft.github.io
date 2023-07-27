@@ -1,20 +1,22 @@
 # AlwaysEnabled プロパティ (FileSaveProp �I�u�W�F�N�g)
 
-[**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の **\[変更がなくても保存を有効\]** チェック ボックスに相当します。
+[\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の\[変更がなくても保存を有効\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **AlwaysEnabled**;
+### \[JavaScript\]
 
-object. **AlwaysEnabled** = _b_;
+```
+b = object.AlwaysEnabled;
+object.AlwaysEnabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **AlwaysEnabled**
-
-object. **AlwaysEnabled** = _b_
+```
+b = object.AlwaysEnabled
+object.AlwaysEnabled = b
+```
 
 ## バージョン
 

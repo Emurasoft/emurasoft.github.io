@@ -1,16 +1,20 @@
 # SearchList Property (DisplayProp Object)
 
-Retrieves [**DisplayList** collection](../display_list/index) for the search color list.
+Retrieves [DisplayList collection](../display_list/index) for the search color list.
 
-#### \[JavaScript\]
+## 
 
-_list_ =
-object. **SearchList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.SearchList;
+```
 
-_list_ =
-object. **SearchList**
+### \[VBScript\]
+
+```
+list = object.SearchList
+```
 
 ## Version
 

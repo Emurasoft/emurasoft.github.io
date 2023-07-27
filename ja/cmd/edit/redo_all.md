@@ -1,14 +1,14 @@
 # \[すべてやり直し\] コマンド
 
-### 概要
+## 概要
 
-> 以前のすべての操作をやり直します。
+以前のすべての操作をやり直します。
 
-### 説明
+## 説明
 
-> 以前のすべての操作をやり直します。
+以前のすべての操作をやり直します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[やり直し\] \- \[すべてやり直し\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_REDO\_ALL (3981)
+```
+EEID_REDO_ALL (3981)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3981);
+```
+editor.ExecuteCommandByID(3981);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3981
+```
+editor.ExecuteCommandByID 3981
+```

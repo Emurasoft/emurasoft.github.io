@@ -1,21 +1,23 @@
 # HorizontalPage プロパティ (ScrollProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の
-**\[1頁の水平スクロールを常に有効\]** チェック ボックスに相当します。
+設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
+\[1頁の水平スクロールを常に有効\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HorizontalPage**;
+### \[JavaScript\]
 
-object. **HorizontalPage** = _b_;
+```
+b = object.HorizontalPage;
+object.HorizontalPage = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HorizontalPage**
-
-object. **HorizontalPage** = _b_
+```
+b = object.HorizontalPage
+object.HorizontalPage = b
+```
 
 ## バージョン
 

@@ -1,34 +1,39 @@
 # Find Previous command
 
-### Summary
+## Summary
 
-> Finds previous occurrence.
+Finds previous occurrence.
 
-### Description
+## Description
 
-> Finds the previous occurrence of the previously searched string, with the
-> same options.
+Finds the previous occurrence of the previously searched string, with the
+same options.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Search** \> **Previous**
-- [All Commands](../tools/all_commands): **Search**
-\> **Previous**
+- Default Menu:Search \>Previous
+- [All Commands](../tools/all_commands):Search
+\>Previous
 - Toolbar:
 ![](../../images/editrepeatback.gif)
 - Status Bar: None
 - Default Shortcut Key: SHIFT+F3
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EDIT\_REPEAT\_BACK (4203)
+```
+EEID_EDIT_REPEAT_BACK (4203)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.FindRepeat(eeFindRepeatPrevious);
+```
+document.selection.FindRepeat(eeFindRepeatPrevious);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.FindRepeat eeFindRepeatPrevious
+```
+document.selection.FindRepeat eeFindRepeatPrevious
+```

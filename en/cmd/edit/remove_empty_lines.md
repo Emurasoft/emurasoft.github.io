@@ -1,31 +1,36 @@
 # Remove Empty Lines command
 
-### Summary
+## Summary
 
-> Removes empty lines in the selection or the whole document.
+Removes empty lines in the selection or the whole document.
 
-### Description
+## Description
 
-> Removes empty lines in the selection or the whole document.
+Removes empty lines in the selection or the whole document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Convert** \> **Remove Empty Lines**
+- [All Commands](../tools/all_commands):Convert \>Remove Empty Lines
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_REMOVE\_EMPTY\_LINES (4029)
+```
+EEID_REMOVE_EMPTY_LINES (4029)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4029);
+```
+editor.ExecuteCommandByID(4029);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4029
+```
+editor.ExecuteCommandByID 4029
+```

@@ -2,13 +2,19 @@
 
 附加一個字串和一個新行到輸出列上。
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **writeln**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.writeln( str );
+```
 
-OutputBar. **writeln** _str_
+### \[VBScript\]
+
+```
+OutputBar.writeln str
+```
 
 ## 參數
 

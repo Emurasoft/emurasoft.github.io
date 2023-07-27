@@ -1,31 +1,36 @@
 # Column Heading 3 command
 
-### Summary
+## Summary
 
-> Sets the first three lines headings and non-scrollable.
+Sets the first three lines headings and non-scrollable.
 
-### Description
+## Description
 
-> Sets the first three lines headings and non-scrollable.
+Sets the first three lines headings and non-scrollable.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Headings (Freeze Panes)** \> **Column Heading 3**
-- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Column Heading 3**
+- Default Menu:CSV \>Headings (Freeze Panes) \>Column Heading 3
+- [All Commands](../tools/all_commands):CSV \>Headings (Freeze Panes) \>Column Heading 3
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_HEADING\_3 (3896)
+```
+EEID_HEADING_3 (3896)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3896);
+```
+editor.ExecuteCommandByID(3896);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3896
+```
+editor.ExecuteCommandByID 3896
+```

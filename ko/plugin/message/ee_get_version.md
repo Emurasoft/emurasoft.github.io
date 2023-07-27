@@ -13,13 +13,13 @@ lParam = 0;
 
 _pnProductType_
 
-> 정수 값에 대한 포인터를 지정합니다. 이 메시지는 다음의 값 중 하나를 반환합니다.
->
-> |     |     |
-> | --- | --- |
-> | VERSION\_PRO | EmEditor Professional |
-> | VERSION\_STD | EmEditor Standard |
+정수 값에 대한 포인터를 지정합니다. 이 메시지는 다음의 값 중 하나를 반환합니다.
+
+|     |     |
+| --- | --- |
+| VERSION\_PRO | EmEditor Professional |
+| VERSION\_STD | EmEditor Standard |
 
 ## 반환 값
 
-> 1000을 곱한 버전 번호를 반환합니다.
+1000을 곱한 버전 번호를 반환합니다.

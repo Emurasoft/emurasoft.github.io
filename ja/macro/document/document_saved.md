@@ -2,37 +2,40 @@
 
 文書を前回保存または開いた後に変更されているかどうかを示すフラグを取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_bSaved_ = document. **Saved**;
+### \[JavaScript\]
 
-document. **Saved** = _bSaved_;
+```
+bSaved = document.Saved;
+document.Saved = bSaved;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bSaved_ = document. **Saved**
-
-document. **Saved** = _bSaved_
+```
+bSaved = document.Saved
+document.Saved = bSaved
+```
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 if( document.Saved )  alert( "文書は変更されていません" );
-
 else  alert( "文書は変更されています" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 If document.Saved Then
-
 alert( "文書は変更されていません" )
-
 Else
-
 alert( "文書は変更されています" )
-
 End If
+```
 
 ## バージョン
 

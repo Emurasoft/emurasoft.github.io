@@ -2,13 +2,19 @@
 
 終止執行巨集。
 
-#### \[JavaScript\]
+## 
 
-**Quit**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Quit();
+```
 
-**Quit**
+### \[VBScript\]
+
+```
+Quit
+```
 
 ## 版本
 

@@ -1,20 +1,22 @@
 # HorizontalGrid 속성 (ScrollProp ��ü)
 
-구성 속성 [**스크롤** 탭](../../dlg/properties/scroll/index) 의 **가로 눈금** 체크 박스에 해당합니다.
+구성 속성 [스크롤 탭](../../dlg/properties/scroll/index) 의가로 눈금 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HorizontalGrid**;
+### \[JavaScript\]
 
-object. **HorizontalGrid** = _b_;
+```
+b = object.HorizontalGrid;
+object.HorizontalGrid = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HorizontalGrid**
-
-object. **HorizontalGrid** = _b_
+```
+b = object.HorizontalGrid
+object.HorizontalGrid = b
+```
 
 ## 버전
 

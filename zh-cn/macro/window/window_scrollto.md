@@ -2,13 +2,19 @@
 
 把窗口滚动至指定的位置。
 
-#### \[JavaScript\]
+## 
 
-**scrollTo**( _x_, _y_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+scrollTo( x, y);
+```
 
-**scrollTo** _x_, _y_
+### \[VBScript\]
+
+```
+scrollTo x, y
+```
 
 ## 参数
 

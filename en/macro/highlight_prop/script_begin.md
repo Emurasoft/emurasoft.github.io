@@ -1,20 +1,24 @@
 # ScriptBegin Property (HighlightProp Object)
 
-Corresponds to the **Script**
-**group box - Begin** text box in the
-[**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to theScript
+group box - Begin text box in the
+[Highlight (2) page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **ScriptBegin**;
+### \[JavaScript\]
 
-object. **ScriptBegin** = _str_;
+```
+str = object.ScriptBegin;
+object.ScriptBegin = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **ScriptBegin**
-
-object. **ScriptBegin** = _str_
+```
+str = object.ScriptBegin
+object.ScriptBegin = str
+```
 
 ## Version
 

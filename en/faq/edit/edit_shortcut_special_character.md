@@ -8,5 +8,5 @@ Any character can be assigned to your favorite shortcut key using a macro. For e
 
 document.selection.Text="ä";
 
-and save this file as a file, for example, **InsertA.jsee**. Click **Select**... on the **Macros**, and select this file. Running this macro will insert this character. To assign a shortcut key to this macro, go to Configuration Properties, select
+and save this file as a file, for example,InsertA.jsee. ClickSelect... on theMacros, and select this file. Running this macro will insert this character. To assign a shortcut key to this macro, go to Configuration Properties, select
 the Keyboard page, and then select My Macros from the Category drop-down list, and assign your favorite key to the macro.

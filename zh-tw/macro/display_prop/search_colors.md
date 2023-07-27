@@ -1,18 +1,22 @@
 # SearchColors 屬性 (DisplayProp ��H)
 
-與組態屬性中的 [**顯示** 頁面](../../dlg/properties/display/index) 上的 **搜尋顏色** 文字方塊相對應。
+與組態屬性中的 [顯示 頁面](../../dlg/properties/display/index) 上的搜尋顏色 文字方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **SearchColors**;
+### \[JavaScript\]
 
-object. **SearchColors** = _n_;
+```
+n = object.SearchColors;
+object.SearchColors = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **SearchColors**
-
-object. **SearchColors** = _n_
+```
+n = object.SearchColors
+object.SearchColors = n
+```
 
 ## 版本
 

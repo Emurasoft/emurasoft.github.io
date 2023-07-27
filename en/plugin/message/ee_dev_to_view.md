@@ -14,13 +14,13 @@ lParam = (LPARAM) (POINT\_PTR\*) pptView;
 
 _pptDev_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the device coordinates to be
-> converted.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) that specifies the device coordinates to be
+converted.
 
 _pptView_
 
-> Pointer to a [POINT\_PTR structure](../structure/point_ptr) to receive the converted display coordinates.
+Pointer to a [POINT\_PTR structure](../structure/point_ptr) to receive the converted display coordinates.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

@@ -1,20 +1,22 @@
 # ShowControlCharacters プロパティ (MarkProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[記号\]** タブ](../../dlg/properties/marks/index) の **\[制御文字を表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[記号\] タブ](../../dlg/properties/marks/index) の\[制御文字を表示\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowControlCharacters**;
+### \[JavaScript\]
 
-object. **ShowControlCharacters** = _b_;
+```
+b = object.ShowControlCharacters;
+object.ShowControlCharacters = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowControlCharacters**
-
-object. **ShowControlCharacters** = _b_
+```
+b = object.ShowControlCharacters
+object.ShowControlCharacters = b
+```
 
 ## バージョン
 

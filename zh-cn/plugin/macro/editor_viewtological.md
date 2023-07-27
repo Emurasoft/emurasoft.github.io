@@ -10,16 +10,16 @@ Editor\_ViewToLogical( HWND hwnd, POINT\_PTR\* pptView, POINT\_PTR\* pptLogical 
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _pptView_
 
-> 指针指向一个用来指定要转换的显示坐标的 [POINT\_PTR 结构](../structure/point_ptr)。
+指针指向一个用来指定要转换的显示坐标的 [POINT\_PTR 结构](../structure/point_ptr)。
 
 _pptLogical_
 
-> 指针指向一个要接收转换后的逻辑坐标的 [POINT\_PTR 结构](../structure/point_ptr)。
+指针指向一个要接收转换后的逻辑坐标的 [POINT\_PTR 结构](../structure/point_ptr)。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

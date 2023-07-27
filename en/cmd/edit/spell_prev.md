@@ -1,31 +1,36 @@
 # Previous Misspelling command
 
-### Summary
+## Summary
 
-> Jumps to previous misspelling in this document.
+Jumps to previous misspelling in this document.
 
-### Description
+## Description
 
-> Jumps to previous misspelling in this document.
+Jumps to previous misspelling in this document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Spelling** \> **Previous Misspelling**
-- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Previous Misspelling**
+- Default Menu:Edit \>Spelling \>Previous Misspelling
+- [All Commands](../tools/all_commands):Edit \>Spelling \>Previous Misspelling
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+M
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SPELL\_PREV (4555)
+```
+EEID_SPELL_PREV (4555)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4555);
+```
+editor.ExecuteCommandByID(4555);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4555
+```
+editor.ExecuteCommandByID 4555
+```

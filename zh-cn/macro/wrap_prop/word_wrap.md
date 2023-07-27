@@ -1,18 +1,22 @@
 # WordWrap 属性 (WrapProp ����)
 
-与配置属性中 [**换行** 页面](../../dlg/properties/wrap/index) 上的 **自动换行** 复选框相对应。
+与配置属性中 [换行 页面](../../dlg/properties/wrap/index) 上的自动换行 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **WordWrap**;
+### \[JavaScript\]
 
-object. **WordWrap** = _b_;
+```
+b = object.WordWrap;
+object.WordWrap = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **WordWrap**
-
-object. **WordWrap** = _str_
+```
+str = object.WordWrap
+object.WordWrap = str
+```
 
 ## 版本
 

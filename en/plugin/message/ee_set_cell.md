@@ -13,12 +13,12 @@ lParam = (LPARAM) (LPWSTR) szString;
 
 _pGetCellInfo_
 
-> Pointer to the [GET\_CELL\_INFO](../structure/get_cell_info) structure.
+Pointer to the [GET\_CELL\_INFO](../structure/get_cell_info) structure.
 
 _szString_
 
-> Specifies a string to set.
+Specifies a string to set.
 
 ## Return Values
 
-> The return value is 0 or positive if succeeded, or negative if failed.
+The return value is 0 or positive if succeeded, or negative if failed.

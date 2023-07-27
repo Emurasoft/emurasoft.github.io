@@ -2,19 +2,21 @@
 
 検索したいテキストの開始位置のインデックスを論理文字単位で指定します。テキストの最後から数えて End で指定する場合には 0 を指定します。このフィールドを有効にするには Column パラメータに -1 を指定する必要があります。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-item. **Begin**;
+### \[JavaScript\]
 
-item. **Begin** = _n_;
+```
+n = item.Begin;
+item.Begin = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Begin**
-
-item. **Begin** = _n_
+```
+n = item.Begin
+item.Begin = n
+```
 
 ## バージョン
 

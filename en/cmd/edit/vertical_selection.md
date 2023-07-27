@@ -1,32 +1,37 @@
 # Vertical Selection command
 
-### Summary
+## Summary
 
-> Inserts the vertical selection at the cursor position (or at the pointed position on the ruler).
+Inserts the vertical selection at the cursor position (or at the pointed position on the ruler).
 
-### Description
+## Description
 
-> Inserts the vertical selection at the cursor position (or at the pointed position on the ruler).
+Inserts the vertical selection at the cursor position (or at the pointed position on the ruler).
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Vertical Selection**
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Vertical Selection**
+- Default Menu:Edit \>Vertical Selection
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Vertical Selection
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_VERTICAL\_SELECTION (3889)
+```
+EEID_VERTICAL_SELECTION (3889)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3889);
+```
+editor.ExecuteCommandByID(3889);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3889
+```
+editor.ExecuteCommandByID 3889
+```

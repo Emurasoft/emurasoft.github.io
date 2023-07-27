@@ -1,20 +1,22 @@
 # HorizontalBar 属性 (ScrollProp ����)
 
-与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **水平滚动条** 下拉列表框相对应。
+与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的水平滚动条 下拉列表框相对应。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **HorizontalBar**;
+### \[JavaScript\]
 
-object. **HorizontalBar** = _n_;
+```
+n = object.HorizontalBar;
+object.HorizontalBar = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **HorizontalBar**
-
-object. **HorizontalBar** = _n_
+```
+n = object.HorizontalBar
+object.HorizontalBar = n
+```
 
 ## 版本
 

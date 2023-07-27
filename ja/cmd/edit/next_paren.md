@@ -1,14 +1,14 @@
 # \[対応するかっこへ\] コマンド
 
-### 概要
+## 概要
 
-> 対応するかっこへ移動します。
+対応するかっこへ移動します。
 
-### 説明
+## 説明
 
-> カーソル位置にかっこが存在する場合、それに対応するかっこへ移動します。
+カーソル位置にかっこが存在する場合、それに対応するかっこへ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[水平にカーソル移動\] \- \[対応するかっこ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+\]
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_NEXT\_PAREN (4276)
+```
+EEID_NEXT_PAREN (4276)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.GoToBrace(false);
+```
+document.selection.GoToBrace(false);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.GoToBrace false
+```
+document.selection.GoToBrace false
+```

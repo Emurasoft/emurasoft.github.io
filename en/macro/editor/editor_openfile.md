@@ -2,13 +2,19 @@
 
 Opens an existing file.
 
-#### \[JavaScript\]
+## 
 
-editor. **OpenFile**( _strFileName_\[, _nEncoding_\[, _nFlags_\]\] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.OpenFile( strFileName[, nEncoding[, nFlags]] );
+```
 
-editor. **OpenFile** _strFileName_\[, _nEncoding_\[, _nFlags_\]\]
+### \[VBScript\]
+
+```
+editor.OpenFile strFileName[, nEncoding[, nFlags]]
+```
 
 ## Parameters
 
@@ -18,7 +24,7 @@ Specifies the full path and name of the file to be opened.
 
 _nEncoding_
 
-Selects from the **[Encoding Constants](../const/const_encoding)**,
+Selects from the[Encoding Constants](../const/const_encoding),
 or specify any encoding used in the Windows Operating System. If 0 is specified or omitted, this method will
 open a file by an encoding predefined by the properties.
 

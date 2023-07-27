@@ -2,23 +2,33 @@
 
 檢索文檔的數目。
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = editor.Documents. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = editor.Documents.Count;
+```
 
-_nCount_ = editor.Documents. **Count**
+### \[VBScript\]
+
+```
+nCount = editor.Documents.Count
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Number of Documents: " + editor.Documents.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Number of Documents: " & editor.Documents.Count
+```
 
 ## 版本
 

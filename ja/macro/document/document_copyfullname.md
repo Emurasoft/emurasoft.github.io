@@ -2,13 +2,19 @@
 
 文書ファイルの完全パスをクリップボードにコピーします。
 
-#### \[JavaScript\]
+## 
 
-document. **CopyFullName**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.CopyFullName();
+```
 
-document. **CopyFullName**
+### \[VBScript\]
+
+```
+document.CopyFullName
+```
 
 ## バージョン
 

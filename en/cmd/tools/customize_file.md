@@ -1,34 +1,39 @@
 # Customize File command
 
-### Summary
+## Summary
 
-> Opens the File page of the Customize dialog box.
+Opens the File page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the File page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the File page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**File**
+- [All Commands](all_commands):Tools >
+Customize >
+File
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_FILE (9040)
+```
+EEID_CUSTOMIZE_FILE (9040)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9040);
+```
+editor.ExecuteCommandByID(9040);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9040
+```
+editor.ExecuteCommandByID 9040
+```

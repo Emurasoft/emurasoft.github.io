@@ -2,13 +2,19 @@
 
 把一个字符串和新行传递到一个支持的插件中。
 
-#### \[JavaScript\]
+## 
 
-Interface. **writeln**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Interface.writeln( str );
+```
 
-Interface. **writeln** _str_
+### \[VBScript\]
+
+```
+Interface.writeln str
+```
 
 ## 参数
 
@@ -18,13 +24,17 @@ _str_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-Interface. **writeln**( "Hello" );
+```
+Interface.writeln( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Interface. **writeln** "Hello"
+```
+Interface.writeln "Hello"
+```
 
 ## 版本
 

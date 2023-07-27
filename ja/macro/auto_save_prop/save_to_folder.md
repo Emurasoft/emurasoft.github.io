@@ -1,19 +1,23 @@
 # SaveToFolder プロパティ (AutoSaveProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[自動保存\]** タブ](../../dlg/properties/autosave/index) の
-**\[自動保存フォルダに保存\]** チェック ボックスに相当します。
+設定のプロパティの [\[自動保存\] タブ](../../dlg/properties/autosave/index) の
+\[自動保存フォルダに保存\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **SaveToFolder**;
+### \[JavaScript\]
 
-object. **SaveToFolder** = _b_;
+```
+b = object.SaveToFolder;
+object.SaveToFolder = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **SaveToFolder**
-
-object. **SaveToFolder** = _b_
+```
+b = object.SaveToFolder
+object.SaveToFolder = b
+```
 
 ## バージョン
 

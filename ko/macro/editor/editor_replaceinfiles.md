@@ -2,13 +2,19 @@
 
 여러 파일 내에서 텍스트를 대체합니다.
 
-#### \[JavaScript\]
+## 
 
-editor. **ReplaceInFiles**( _strFind_, _strReplace_, _strPath_, _nFlags_, _nEncoding_, _strFilesToIgnore_, _strBackupPath_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.ReplaceInFiles( strFind, strReplace, strPath, nFlags, nEncoding, strFilesToIgnore, strBackupPath );
+```
 
-editor. **ReplaceInFiles** _strFind_, _strReplace_, _strPath_, _nFlags_, _nEncoding_, _strFilesToIgnore_, _strBackupPath_
+### \[VBScript\]
+
+```
+editor.ReplaceInFiles strFind, strReplace, strPath, nFlags, nEncoding, strFilesToIgnore, strBackupPath
+```
 
 ## 매개 변수
 
@@ -46,7 +52,7 @@ _nFlags_
 
 _nEncoding_
 
-**[인코딩 상수](../const/const_encoding)** 에서 선택하거나 Windows 운영 체제에서 사용되는 코드 페이지를 지정합니다.
+[인코딩 상수](../const/const_encoding) 에서 선택하거나 Windows 운영 체제에서 사용되는 코드 페이지를 지정합니다.
 
 _strFilesToIgnore_
 

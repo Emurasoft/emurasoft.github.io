@@ -1,31 +1,36 @@
 # Reset Bookmark command
 
-### Summary
+## Summary
 
-> Clears bookmarks on the current line.
+Clears bookmarks on the current line.
 
-### Description
+## Description
 
-> Clears bookmarks on the current line.
+Clears bookmarks on the current line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Bookmarks** \> **Reset Bookmark**
+- [All Commands](../tools/all_commands):Bookmarks \>Reset Bookmark
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_RESET (4354)
+```
+EEID_BOOKMARK_RESET (4354)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.ClearBookmark();
+```
+document.selection.ClearBookmark();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.ClearBookmark
+```
+document.selection.ClearBookmark
+```

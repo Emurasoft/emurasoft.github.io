@@ -1,18 +1,22 @@
 # NoFullPathIfNotActive プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の **\[非アクティブ時フルパスにしない\]** チェック ボックスに相当します。
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[非アクティブ時フルパスにしない\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **NoFullPathIfNotActiveProperty**;
+### \[JavaScript\]
 
-object. **NoFullPathIfNotActiveProperty** = _b_;
+```
+b = object.NoFullPathIfNotActiveProperty;
+object.NoFullPathIfNotActiveProperty = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **NoFullPathIfNotActiveProperty**
-
-object. **NoFullPathIfNotActiveProperty** = _b_
+```
+b = object.NoFullPathIfNotActiveProperty
+object.NoFullPathIfNotActiveProperty = b
+```
 
 ## バージョン
 

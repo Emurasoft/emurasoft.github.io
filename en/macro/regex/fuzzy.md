@@ -1,18 +1,22 @@
 # Fuzzy Property (Regex Object)
 
-Sets or retrieves the fuzzy matching flag. This special flag uses fuzzy matching, and disables regular expressions. You cannot combine fuzzy matching with regular expressions. If this property is set, **[Engine](engine)** and **[SeparateCrLf](separate_cr_lf)** properties are ignored.
+Sets or retrieves the fuzzy matching flag. This special flag uses fuzzy matching, and disables regular expressions. You cannot combine fuzzy matching with regular expressions. If this property is set,[Engine](engine) and[SeparateCrLf](separate_cr_lf) properties are ignored.
 
-#### \[JavaScript\]
+## 
 
-_b_ = reg. **Fuzzy**;
+### \[JavaScript\]
 
-reg. **Fuzzy** = _b_;
+```
+b = reg.Fuzzy;
+reg.Fuzzy = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = reg. **Fuzzy**;
-
-reg. **Fuzzy** = _b_;
+```
+b = reg.Fuzzy;
+reg.Fuzzy = b;
+```
 
 ## Version
 

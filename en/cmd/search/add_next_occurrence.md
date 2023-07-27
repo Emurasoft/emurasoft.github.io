@@ -1,32 +1,37 @@
 # Add Next Occurrence command
 
-### Summary
+## Summary
 
-> Adds the next occurrence of the specified text to the selection.
+Adds the next occurrence of the specified text to the selection.
 
-### Description
+## Description
 
-> Adds the next occurrence of the specified text to the selection.
+Adds the next occurrence of the specified text to the selection.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Search** \> **Add Next Occurrence**
-- [All Commands](../tools/all_commands): **Search**
-\> **Add Next Occurrence**
+- Default Menu:Search \>Add Next Occurrence
+- [All Commands](../tools/all_commands):Search
+\>Add Next Occurrence
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+R
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ADD\_NEXT\_OCCURRENCE (4604)
+```
+EEID_ADD_NEXT_OCCURRENCE (4604)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4604);
+```
+editor.ExecuteCommandByID(4604);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4604
+```
+editor.ExecuteCommandByID 4604
+```

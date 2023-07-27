@@ -1,14 +1,20 @@
 # Configs 속성 (Editor ��ü)
 
-[**Configs** 컬렉션](../configs/index) 을 검색합니다.
+[Configs 컬렉션](../configs/index) 을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_cfgs_ = editor. **Configs**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+cfgs = editor.Configs;
+```
 
-Set _cfgs_ = editor. **Configs**
+### \[VBScript\]
+
+```
+Set cfgs = editor.Configs
+```
 
 ## 버전
 

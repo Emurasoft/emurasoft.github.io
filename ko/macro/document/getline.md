@@ -2,13 +2,19 @@
 
 지정된 줄의 텍스트를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_str_ = document. **GetLine**( _yLine_ \[, _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = document.GetLine( yLine [, nFlags ] );
+```
 
-_str_ = document. **GetLine**( _yLine_ \[, _nFlags_ \] )
+### \[VBScript\]
+
+```
+str = document.GetLine( yLine [, nFlags ] )
+```
 
 ## 매개 변수
 

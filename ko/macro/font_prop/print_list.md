@@ -2,13 +2,19 @@
 
 PrintList 개체를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_list_ = object. **PrintList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.PrintList;
+```
 
-_list_ = object. **PrintList**
+### \[VBScript\]
+
+```
+list = object.PrintList
+```
 
 ## 버전
 

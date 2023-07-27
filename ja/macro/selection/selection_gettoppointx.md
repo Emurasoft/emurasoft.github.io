@@ -2,13 +2,19 @@
 
 選択範囲の最初の現在桁を 1 で始まる整数で返します。
 
-#### \[JavaScript\]
+## 
 
-xPos = document.selection. **GetTopPointX**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+xPos = document.selection.GetTopPointX( nFlags [, iSel ] );
+```
 
-xPos = document.selection. **GetTopPointX**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+xPos = document.selection.GetTopPointX( nFlags [, iSel ] )
+```
 
 ## 引数
 

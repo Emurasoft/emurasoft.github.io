@@ -1,34 +1,39 @@
 # Word Right Extend command
 
-### Summary
+## Summary
 
-> Extends the selection one word to the right.
+Extends the selection one word to the right.
 
-### Description
+## Description
 
-> Extends the selection one word to the right. If there are white space
-> characters
-> after the word, this command extends the selection to the start of the next word.
+Extends the selection one word to the right. If there are white space
+characters
+after the word, this command extends the selection to the start of the next word.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Word Right Extend**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Word Right Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+RIGHT ARROW
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_RIGHT\_WORD (4174)
+```
+EEID_SHIFT_RIGHT_WORD (4174)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.WordRight(true,1);
+```
+document.selection.WordRight(true,1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.WordRight true,1
+```
+document.selection.WordRight true,1
+```

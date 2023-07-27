@@ -1,32 +1,37 @@
 # Cancel command
 
-### Summary
+## Summary
 
-> Cancels the current selection.
+Cancels the current selection.
 
-### Description
+## Description
 
-> Unselects any selection on the current document.
+Unselects any selection on the current document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Collapse**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Collapse
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ESC
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ESCAPE (4187)
+```
+EEID_ESCAPE (4187)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Collapse();
+```
+document.selection.Collapse();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Collapse
+```
+document.selection.Collapse
+```

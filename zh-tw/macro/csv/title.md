@@ -1,18 +1,22 @@
 # Title 屬性 (Csv ��H)
 
-與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **工具列按鈕標題** 文字方塊對應。
+與在自訂對話方塊中 [CSV 頁面](../../dlg/customize/csv/index) 上的工具列按鈕標題 文字方塊對應。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Title**;
+### \[JavaScript\]
 
-object. **Title** = _s_;
+```
+s = object.Title;
+object.Title = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Title**
-
-object. **Title** = _s_
+```
+s = object.Title
+object.Title = s
+```
 
 ## 版本
 

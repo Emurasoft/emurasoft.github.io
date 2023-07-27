@@ -4,22 +4,24 @@
 
 다음의 예제 코드는 레지스트리로부터 실행되는 매크로의 파일 이름을 읽고, 그것을 표시합니다.
 
-#### \[JavaScript\]
+## 
 
+### \[JavaScript\]
+
+```
 WshShell = new ActiveXObject( "WScript.Shell" );
-
 str = WshShell.RegRead( "HKCU\\\Software\\\EmSoft\\\EmEditor v3\\\Common\\\MacroFile"
 );
-
 alert( str );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set WshShell = CreateObject( "WScript.Shell" )
-
 str = WshShell.RegRead( "HKCU\\Software\\EmSoft\\EmEditor v3\\Common\\MacroFile" )
-
 alert str
+```
 
 ## 팁:
 

@@ -2,17 +2,21 @@
 
 检索或设置在状态栏上显示的一个字符串。
 
-#### \[JavaScript\]
+## 
 
-_str_ = **status**;
+### \[JavaScript\]
 
-**status** = _str_;
+```
+str =status;
+status = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = **status**
-
-**status** = _str_
+```
+str =status
+status = str
+```
 
 ## 版本
 

@@ -14,8 +14,8 @@ lParam = (LPARAM) (LPCWSTR) szConfigName;
 
 _szConfigName_
 
-> 用 Unicode 字符串指定一個配置。
+用 Unicode 字符串指定一個配置。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

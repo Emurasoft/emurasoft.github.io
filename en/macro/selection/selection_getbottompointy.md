@@ -2,13 +2,19 @@
 
 Returns the line number of the bottom of the selection.
 
-#### \[JavaScript\]
+## 
 
-yPos = document.selection. **GetBottomPointY**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos = document.selection.GetBottomPointY( nFlags [, iSel ] );
+```
 
-yPos = document.selection. **GetBottomPointY**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+yPos = document.selection.GetBottomPointY( nFlags [, iSel ] )
+```
 
 ## Parameters
 

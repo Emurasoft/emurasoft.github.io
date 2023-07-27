@@ -1,18 +1,22 @@
 # WrapPage 속성 (PrintProp ��ü)
 
-구성 속성 [**인쇄** 탭](../../dlg/properties/print/index) 의 **인쇄 시 페이지에 따라 줄 바꾸기** 체크 박스에 해당합니다.
+구성 속성 [인쇄 탭](../../dlg/properties/print/index) 의인쇄 시 페이지에 따라 줄 바꾸기 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **WrapPage**;
+### \[JavaScript\]
 
-object. **WrapPage** = _b_;
+```
+b = object.WrapPage;
+object.WrapPage = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **WrapPage**
-
-object. **WrapPage** = _b_
+```
+b = object.WrapPage
+object.WrapPage = b
+```
 
 ## 버전
 

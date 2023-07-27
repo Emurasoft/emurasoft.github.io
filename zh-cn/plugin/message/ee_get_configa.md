@@ -13,8 +13,8 @@ lParam = (LPARAM) (LPSTR) szConfigName;
 
 _szConfigName_
 
-> 指定会接收配置名称的一个缓冲区。缓冲区大小必须至少是 MAX\_CONFIG\_NAME 所标示的字节数。
+指定会接收配置名称的一个缓冲区。缓冲区大小必须至少是 MAX\_CONFIG\_NAME 所标示的字节数。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

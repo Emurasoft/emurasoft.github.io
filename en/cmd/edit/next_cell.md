@@ -1,31 +1,36 @@
 # Next Cell command
 
-### Summary
+## Summary
 
-> Jumps to the next cell in CSV mode.
+Jumps to the next cell in CSV mode.
 
-### Description
+## Description
 
-> Jumps to the next cell in CSV mode.
+Jumps to the next cell in CSV mode.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **Next Cell**
+- [All Commands](../tools/all_commands):CSV \>Next Cell
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_NEXT\_CELL (4490)
+```
+EEID_NEXT_CELL (4490)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4490);
+```
+editor.ExecuteCommandByID(4490);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4490
+```
+editor.ExecuteCommandByID 4490
+```

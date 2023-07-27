@@ -2,13 +2,19 @@
 
 [FileSave オブジェクト](../file_save_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **FileSave**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.FileSave;
+```
 
-Set _obj_ = object. **FileSave**
+### \[VBScript\]
+
+```
+Set obj = object.FileSave
+```
 
 ## バージョン
 

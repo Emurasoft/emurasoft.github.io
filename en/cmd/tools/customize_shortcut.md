@@ -1,34 +1,39 @@
 # Customize Shortcut command
 
-### Summary
+## Summary
 
-> Opens the Shortcut page of the Customize dialog box.
+Opens the Shortcut page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the Shortcut page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the Shortcut page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**Shortcut**
+- [All Commands](all_commands):Tools >
+Customize >
+Shortcut
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_SHORTCUT (9048)
+```
+EEID_CUSTOMIZE_SHORTCUT (9048)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9048);
+```
+editor.ExecuteCommandByID(9048);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9048
+```
+editor.ExecuteCommandByID 9048
+```

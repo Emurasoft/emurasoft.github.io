@@ -1,33 +1,38 @@
 # Customize Tray Icon command
 
-### Summary
+## Summary
 
-> Customizes Tray Icon.
+Customizes Tray Icon.
 
-### Description
+## Description
 
-> Displays the [**Customize Tray Icon** \
-> dialog box](../../dlg/tray/index), where you can customize the System Tray icon settings.
+Displays the [Customize Tray Icon \
+dialog box](../../dlg/tray/index), where you can customize the System Tray icon settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize Tray Icon**
+- [All Commands](all_commands):Tools >
+Customize Tray Icon
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_TRAY (4273)
+```
+EEID_CUSTOMIZE_TRAY (4273)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4273);
+```
+editor.ExecuteCommandByID(4273);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4273
+```
+editor.ExecuteCommandByID 4273
+```

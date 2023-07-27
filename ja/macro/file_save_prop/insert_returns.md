@@ -1,20 +1,22 @@
 # InsertReturns プロパティ (FileSaveProp �I�u�W�F�N�g)
 
-[**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の **\[保存時、改行コードを挿入\]** チェック ボックスに相当します。
+[\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の\[保存時、改行コードを挿入\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **InsertReturns**;
+### \[JavaScript\]
 
-object. **InsertReturns** = _b_ ;
+```
+b = object.InsertReturns;
+object.InsertReturns = b ;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **InsertReturns**
-
-object. **InsertReturns** = _b_
+```
+b = object.InsertReturns
+object.InsertReturns = b
+```
 
 ## バージョン
 

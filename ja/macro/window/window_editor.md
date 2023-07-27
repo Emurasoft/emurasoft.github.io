@@ -2,13 +2,19 @@
 
 [Editor オブジェクト](../editor/index) を返します。
 
-#### \[JavaScript\]
+## 
 
-_app_ = **editor**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+app =editor;
+```
 
-Set _app_ = **editor**
+### \[VBScript\]
+
+```
+Set app =editor
+```
 
 ## バージョン
 

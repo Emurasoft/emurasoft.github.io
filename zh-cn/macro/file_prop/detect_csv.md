@@ -1,18 +1,22 @@
 # DetectCSV 属性 (FileProp ����)
 
-与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **检测 CSV (逗号分隔)** 的复选框相对应。
+与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的检测 CSV (逗号分隔) 的复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectCSV**;
+### \[JavaScript\]
 
-object. **DetectCSV** = _b_;
+```
+b = object.DetectCSV;
+object.DetectCSV = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectCSV**
-
-object. **DetectCSV** = _b_
+```
+b = object.DetectCSV
+object.DetectCSV = b
+```
 
 ## 版本
 

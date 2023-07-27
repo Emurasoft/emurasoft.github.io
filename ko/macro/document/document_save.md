@@ -2,20 +2,26 @@
 
 문서를 저장합니다.
 
-#### \[JavaScript\]
+## 
 
-document. **Save**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Save( [ strName ] );
+```
 
-document. **Save** \[ _strName_ \]
+### \[VBScript\]
+
+```
+document.Save [ strName ]
+```
 
 ## 매개 변수
 
 _strName_
 
 선택 사항입니다. 저장할 파일의 전체 경로 이름을 지정합니다.
-생략된 경우 **다른 이름으로 저장** 대화 상자가 나타납니다.
+생략된 경우다른 이름으로 저장 대화 상자가 나타납니다.
 
 ## 버전
 

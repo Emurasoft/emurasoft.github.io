@@ -1,21 +1,23 @@
 # WrapIndent プロパティ (IndentProp �I�u�W�F�N�g)
 
-[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の
-**\[折り返しインデント\]** チェック ボックスに相当します。
+[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の
+\[折り返しインデント\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **WrapIndent**;
+### \[JavaScript\]
 
-object. **WrapIndent** = _b_;
+```
+b = object.WrapIndent;
+object.WrapIndent = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **WrapIndent**
-
-object. **WrapIndent** = _b_
+```
+b = object.WrapIndent
+object.WrapIndent = b
+```
 
 ## バージョン
 

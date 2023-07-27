@@ -8,12 +8,12 @@ Editor\_GetConfigA( HWND hwnd, LPSTR szConfigName );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _szConfigName_
 
-> 指定会接收配置名称的一个缓冲区。缓冲区大小必须至少是 MAX\_CONFIG\_NAME 所标示的以字节为单位的值。
+指定会接收配置名称的一个缓冲区。缓冲区大小必须至少是 MAX\_CONFIG\_NAME 所标示的以字节为单位的值。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

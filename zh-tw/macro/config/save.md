@@ -2,13 +2,19 @@
 
 儲存目前的組態。
 
-#### \[JavaScript\]
+## 
 
-object. **Save**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Save( [ strName ] );
+```
 
-object. **Save** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Save [ strName ]
+```
 
 ## 參數
 

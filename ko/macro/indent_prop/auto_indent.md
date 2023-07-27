@@ -1,20 +1,22 @@
 # AutoIndent 속성 (IndentProp ��ü)
 
-[**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 의 **자동 들여쓰기 활성화** 체크 박스에 해당합니다.
+[탭/들여쓰기 대화 상자](../../dlg/properties/general/indent/index) 의자동 들여쓰기 활성화 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **AutoIndent**;
+### \[JavaScript\]
 
-object. **AutoIndent** = _b_;
+```
+b = object.AutoIndent;
+object.AutoIndent = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **AutoIndent**
-
-object. **AutoIndent** = _b_
+```
+b = object.AutoIndent
+object.AutoIndent = b
+```
 
 ## 버전
 

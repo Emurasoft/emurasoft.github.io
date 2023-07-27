@@ -1,14 +1,14 @@
 # \[すべての設定のプロパティ\] コマンド
 
-### 概要
+## 概要
 
-> すべての設定のプロパティを変更します。
+すべての設定のプロパティを変更します。
 
-### 説明
+## 説明
 
-> このコマンドを実行すると、すべての設定で [設定のプロパティ](../../dlg/properties/index) を表示します。
+このコマンドを実行すると、すべての設定で [設定のプロパティ](../../dlg/properties/index) を表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ツール\] \- \[すべての設定のプロパティ\]
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[すべての設定のプロパティ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_ALL\_PROP (4270)
+```
+EEID_ALL_PROP (4270)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4270);
+```
+editor.ExecuteCommandByID(4270);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4270
+```
+editor.ExecuteCommandByID 4270
+```

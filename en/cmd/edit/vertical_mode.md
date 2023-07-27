@@ -1,33 +1,38 @@
 # Sticky Vertical Mode command
 
-### Summary
+## Summary
 
-> Toggles the sticky vertical mode.
+Toggles the sticky vertical mode.
 
-### Description
+## Description
 
-> Toggles the sticky vertical mode. When Sticky Vertical Mode is active, dragging the mouse to select text will automatically result in vertical selection, rather than standard selection.
+Toggles the sticky vertical mode. When Sticky Vertical Mode is active, dragging the mouse to select text will automatically result in vertical selection, rather than standard selection.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Selection Mode**
-\> **Sticky Vertical Mode**
-- [All Commands](../tools/all_commands): **Edit** \> **Selection Mode**
-\> **Sticky Vertical Mode**
+- Default Menu:Edit \>Selection Mode
+\>Sticky Vertical Mode
+- [All Commands](../tools/all_commands):Edit \>Selection Mode
+\>Sticky Vertical Mode
 - Toolbar: ![](../../images/sticky.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_VERTICAL\_MODE (4473)
+```
+EEID_VERTICAL_MODE (4473)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4473);
+```
+editor.ExecuteCommandByID(4473);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4473
+```
+editor.ExecuteCommandByID 4473
+```

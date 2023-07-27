@@ -2,13 +2,19 @@
 
 あいまい一致のオプションを既定値にリセットします。
 
-#### \[JavaScript\]
+## 
 
-obj. **Reset**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj.Reset();
+```
 
-obj. **Reset**
+### \[VBScript\]
+
+```
+obj.Reset
+```
 
 ## バージョン
 

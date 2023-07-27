@@ -2,19 +2,21 @@
 
 글꼴이 진하게 포맷된 경우 트루입니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Bold**;
+### \[JavaScript\]
 
-item. **Bold** = _b_;
+```
+b = item.Bold;
+item.Bold = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Bold**
-
-item. **Bold** = _b_
+```
+b = item.Bold
+item.Bold = b
+```
 
 ## 버전
 

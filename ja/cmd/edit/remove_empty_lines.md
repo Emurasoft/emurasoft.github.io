@@ -1,14 +1,14 @@
 # \[空行を削除\] コマンド
 
-### 概要
+## 概要
 
-> 選択範囲または文書全体の空行を削除します。
+選択範囲または文書全体の空行を削除します。
 
-### 説明
+## 説明
 
-> 選択範囲または文書全体の空行を削除します。
+選択範囲または文書全体の空行を削除します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): なし
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_REMOVE\_EMPTY\_LINES (4029)
+```
+EEID_REMOVE_EMPTY_LINES (4029)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4029);
+```
+editor.ExecuteCommandByID(4029);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4029
+```
+editor.ExecuteCommandByID 4029
+```

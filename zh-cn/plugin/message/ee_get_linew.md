@@ -13,12 +13,12 @@ lParam = (LPARAM) (LPWSTR) szString;
 
 _pGetLineInfo_
 
-> 指针指向 [GET\_LINE\_INFO](../structure/get_line_info) 结构。
+指针指向 [GET\_LINE\_INFO](../structure/get_line_info) 结构。
 
 _szString_
 
-> 指针指向会接收文本的缓冲区。
+指针指向会接收文本的缓冲区。
 
 ## 返回值
 
-> 如果 _pGetLineInfo->cch_ 为零，必须要有返回值字节数来表示接收文本的缓冲区。如果 _pGetLineInfo->cch_ 非零，不使用返回值。
+如果 _pGetLineInfo->cch_ 为零，必须要有返回值字节数来表示接收文本的缓冲区。如果 _pGetLineInfo->cch_ 非零，不使用返回值。

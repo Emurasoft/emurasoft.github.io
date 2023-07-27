@@ -2,13 +2,19 @@
 
 将指定位置的逻辑坐标转换为基于单个的串行位置。
 
-#### \[JavaScript\]
+## 
 
-_nSerialPos_ = document. **LogicalToSerial**( _x_, _y_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nSerialPos = document.LogicalToSerial( x, y );
+```
 
-_nSerialPos_ = document. **LogicalToSerial**( _x_, _y_ )
+### \[VBScript\]
+
+```
+nSerialPos = document.LogicalToSerial( x, y )
+```
 
 ## 参数
 
@@ -22,13 +28,17 @@ _y_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 n = document.LogicalToSerial( 5, 1 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 n = document.LogicalToSerial( 5, 1 )
+```
 
 ## 版本
 

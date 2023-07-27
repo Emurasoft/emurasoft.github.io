@@ -18,4 +18,4 @@ click
 (if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
 (if you want to change all configurations) to
-show the **General** tab and change the **Normal Line Margin** and **Quoted Line Margin.**
+show theGeneral tab and change theNormal Line Margin andQuoted Line Margin.

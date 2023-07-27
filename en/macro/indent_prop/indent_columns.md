@@ -1,22 +1,24 @@
 # IndentColumns Property (IndentProp Object)
 
-Corresponds to the **Indent**
-**Columns** text box in the
-[**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
+Corresponds to theIndent
+Columns text box in the
+[Tab/Index dialog box](../../dlg/properties/general/indent/index).
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **IndentColumns**;
+### \[JavaScript\]
 
-object. **IndentColumns** = _n_;
+```
+n = object.IndentColumns;
+object.IndentColumns = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **IndentColumns**
-
-object. **IndentColumns** = _n_
+```
+n = object.IndentColumns
+object.IndentColumns = n
+```
 
 ## Version
 

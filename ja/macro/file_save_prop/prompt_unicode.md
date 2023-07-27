@@ -1,21 +1,23 @@
 # PromptUnicode プロパティ (FileSaveProp �I�u�W�F�N�g)
 
-[**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
-**\[Unicode文字をシステム既定エンコード保存で警告\]** チェック ボックスに相当します。
+[\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
+\[Unicode文字をシステム既定エンコード保存で警告\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PromptUnicode**;
+### \[JavaScript\]
 
-object. **PromptUnicode** = _b_;
+```
+b = object.PromptUnicode;
+object.PromptUnicode = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PromptUnicode**
-
-object. **PromptUnicode** = _b_
+```
+b = object.PromptUnicode
+object.PromptUnicode = b
+```
 
 ## バージョン
 

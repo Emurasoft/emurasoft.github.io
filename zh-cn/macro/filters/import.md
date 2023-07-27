@@ -2,13 +2,19 @@
 
 把 TSV 文件导入到集合中。
 
-#### \[JavaScript\]
+## 
 
-list. **Import**( _strFileName_\[, _bAppend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Import( strFileName[, bAppend ] );
+```
 
-list. **Import** _strFileName_\[, _bAppend_ \]
+### \[VBScript\]
+
+```
+list.Import strFileName[, bAppend ]
+```
 
 ## 参数
 
@@ -22,21 +28,21 @@ _bAppend_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 var filters = document.filters;
-
 filters.Import( "E:\\\Test\\\filter.tsv" );
-
 document.filters = filters;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set filters = document.filters
-
 filters.Import "E:\\Test\\filter.tsv"
-
 document.filters = filters
+```
 
 ## 版本
 

@@ -1,14 +1,14 @@
 # \[ルーラ\] コマンド
 
-### 概要
+## 概要
 
-> ルーラの表示/非表示を切り替えます。
+ルーラの表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> ルーラの表示/非表示を切り替えます。
+ルーラの表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[ルーラ\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[ルーラ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_RULER (4531)
+```
+EEID_VIEW_RULER (4531)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4531);
+```
+editor.ExecuteCommandByID(4531);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4531
+```
+editor.ExecuteCommandByID 4531
+```

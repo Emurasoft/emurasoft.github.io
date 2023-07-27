@@ -14,16 +14,16 @@ lParam = (LPARAM) (MSG\*) pMsg;
 
 _hwndView_
 
-> EmEditor 查看的窗口句柄。
+EmEditor 查看的窗口句柄。
 
 _pMsg_
 
-> 指针指向窗口消息在被翻译之前。
+指针指向窗口消息在被翻译之前。
 
 ## 返回值
 
-> 如果返回值是 TRUE，消息不会被继续翻译或发送。如果返回值是 FALSE，消息会被继续翻译或发送。
+如果返回值是 TRUE，消息不会被继续翻译或发送。如果返回值是 FALSE，消息会被继续翻译或发送。
 
 ## 支持版本
 
-> Supported on Version 6.00 或之后的版本。
+Supported on Version 6.00 或之后的版本。

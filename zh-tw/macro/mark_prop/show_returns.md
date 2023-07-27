@@ -1,20 +1,22 @@
 # ShowReturns 屬性 (MarkProp ��H)
 
-與組態屬性中 [**標記** 頁面](../../dlg/properties/marks/index) 上的 **顯示換行標記** 核取方塊相對應。
+與組態屬性中 [標記 頁面](../../dlg/properties/marks/index) 上的顯示換行標記 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowReturns**;
+### \[JavaScript\]
 
-object. **ShowReturns** = _b_;
+```
+b = object.ShowReturns;
+object.ShowReturns = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowReturns**
-
-object. **ShowReturns** = _b_
+```
+b = object.ShowReturns
+object.ShowReturns = b
+```
 
 ## 版本
 

@@ -1,20 +1,24 @@
 # NoFullPathIfNotActive Property (FileProp Object)
 
-Corresponds to the **Without**
-**Full Path if Not Active** check box in the
-[**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theWithout
+Full Path if Not Active check box in the
+[File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **NoFullPathIfNotActiveProperty**;
+### \[JavaScript\]
 
-object. **NoFullPathIfNotActiveProperty** = _b_;
+```
+b = object.NoFullPathIfNotActiveProperty;
+object.NoFullPathIfNotActiveProperty = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **NoFullPathIfNotActiveProperty**
-
-object. **NoFullPathIfNotActiveProperty** = _b_
+```
+b = object.NoFullPathIfNotActiveProperty
+object.NoFullPathIfNotActiveProperty = b
+```
 
 ## Version
 

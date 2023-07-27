@@ -1,31 +1,36 @@
 # Convert to Fixed Width Columns command
 
-### Summary
+## Summary
 
-> Converts the current separated value document to the fixed width columns using the current separator positions.
+Converts the current separated value document to the fixed width columns using the current separator positions.
 
-### Description
+## Description
 
-> Converts the current separated value document to the fixed width columns using the current separator positions.
+Converts the current separated value document to the fixed width columns using the current separator positions.
 
-### How to Run
+## How to Run
 
 - Default Menu: (None)
-- [All Commands](../tools/all_commands): **CSV** \> **Convert to** \> **Convert to Fixed Width Columns**
+- [All Commands](../tools/all_commands):CSV \>Convert to \>Convert to Fixed Width Columns
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CONVERT\_TO\_FIXED\_WIDTH (3883)
+```
+EEID_CONVERT_TO_FIXED_WIDTH (3883)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3883);
+```
+editor.ExecuteCommandByID(3883);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3883
+```
+editor.ExecuteCommandByID 3883
+```

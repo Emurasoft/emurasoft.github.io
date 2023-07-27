@@ -2,13 +2,19 @@
 
 显示“打印”对话框。
 
-#### \[JavaScript\]
+## 
 
-**print**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+print();
+```
 
-**print**
+### \[VBScript\]
+
+```
+print
+```
 
 ## 版本
 

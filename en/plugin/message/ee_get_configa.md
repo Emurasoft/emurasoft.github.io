@@ -14,9 +14,9 @@ lParam = (LPARAM) (LPSTR) szConfigName;
 
 _szConfigName_
 
-> Specifies a buffer that will receive the configuration name. The buffer
-> size must be at least MAX\_CONFIG\_NAME bytes.
+Specifies a buffer that will receive the configuration name. The buffer
+size must be at least MAX\_CONFIG\_NAME bytes.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

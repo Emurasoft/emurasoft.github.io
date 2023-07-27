@@ -8,15 +8,15 @@ Editor\_ToolbarOpen( HWND hwnd, TOOLBAR\_INFO\* pToolbarInfo);
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _nCmdID_
 
-> [TOOLBAR\_INFO 構造体](../structure/toolbar_info) へのポインタを指定します。
+[TOOLBAR\_INFO 構造体](../structure/toolbar_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると、カスタム ツール バー ID を返します。失敗すると 0 を返します。
+成功すると、カスタム ツール バー ID を返します。失敗すると 0 を返します。
 
 ## バージョン
 

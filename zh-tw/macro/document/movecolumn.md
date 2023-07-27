@@ -2,13 +2,19 @@
 
 在 CSV 模式下移動或複製指定欄。
 
-#### \[JavaScript\]
+## 
 
-document. **MoveColumn**( _iColumn_, _iColumn2_, _iColumnTo_ \[ , _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.MoveColumn( iColumn, iColumn2, iColumnTo [ , nFlags ] );
+```
 
-document. **MoveColumn** _iColumn_, _iColumn2_, _iColumnTo_ \[ , _nFlags_ \]
+### \[VBScript\]
+
+```
+document.MoveColumn iColumn, iColumn2, iColumnTo [ , nFlags ]
+```
 
 ## 參數
 
@@ -37,13 +43,17 @@ _nFlags_
 
 以下示例將欄 3 移動到最左邊。
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.MoveColumn( 3, 3, 1 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.MoveColumn 3, 3, 1
+```
 
 ## 版本
 

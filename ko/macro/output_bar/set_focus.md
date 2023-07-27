@@ -2,13 +2,19 @@
 
 출력 모음에 키보드 포커스를 설정합니다.
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **SetFocus**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.SetFocus();
+```
 
-OutputBar. **SetFocus**
+### \[VBScript\]
+
+```
+OutputBar.SetFocus
+```
 
 ## 버전
 

@@ -1,14 +1,14 @@
 # \[タブ ウィンドウを元の位置に戻す\] コマンド
 
-### 概要
+## 概要
 
-> このタブ ウィンドウを以前保存した位置に戻します。
+このタブ ウィンドウを以前保存した位置に戻します。
 
-### 説明
+## 説明
 
-> このタブ ウィンドウを以前保存した位置に戻します。
+このタブ ウィンドウを以前保存した位置に戻します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[元に戻す\] \- \[タブ ウィンドウを元の位置に戻す\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_RESTORE\_COMBINED\_POS (4543)
+```
+EEID_RESTORE_COMBINED_POS (4543)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4543);
+```
+editor.ExecuteCommandByID(4543);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4543
+```
+editor.ExecuteCommandByID 4543
+```

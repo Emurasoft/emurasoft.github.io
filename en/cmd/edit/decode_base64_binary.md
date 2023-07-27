@@ -1,32 +1,37 @@
 # Base64 to Binary File command
 
-### Summary
+## Summary
 
-> Decodes the selected Base64 encoded text to a binary file.
+Decodes the selected Base64 encoded text to a binary file.
 
-### Description
+## Description
 
-> Decodes the selected Base64 encoded text to a binary file.
+Decodes the selected Base64 encoded text to a binary file.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Encode/Decode** \> **Base64 to Binary File**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Base64 to Binary File**
+- Default Menu:Convert \>Encode/Decode \>Base64 to Binary File
+- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Base64 to Binary File
 - Toolbar:
 None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DECODE\_BASE64\_BINARY (3943)
+```
+EEID_DECODE_BASE64_BINARY (3943)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3943);
+```
+editor.ExecuteCommandByID(3943);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3943
+```
+editor.ExecuteCommandByID 3943
+```

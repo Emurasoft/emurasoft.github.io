@@ -1,15 +1,15 @@
 # \[ツール バーの変更\] コマンド
 
-### 概要
+## 概要
 
-> ツール バーの設定を行います。
+ツール バーの設定を行います。
 
-### 説明
+## 説明
 
-> [\[ツール バー\] ダイアログ ボックス](../../dlg/toolbars/index) を表示して、ツール
-> バーに関する設定を行います。
+[\[ツール バー\] ダイアログ ボックス](../../dlg/toolbars/index) を表示して、ツール
+バーに関する設定を行います。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ツール\] \- \[ツール バーの変更\]
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[ツール バーの変更\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CUSTOMIZE\_TOOLBAR (4224)
+```
+EEID_CUSTOMIZE_TOOLBAR (4224)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4224);
+```
+editor.ExecuteCommandByID(4224);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4224
+```
+editor.ExecuteCommandByID 4224
+```

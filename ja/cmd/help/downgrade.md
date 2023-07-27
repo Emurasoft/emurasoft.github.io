@@ -1,14 +1,14 @@
 # \[ダウングレード\] コマンド
 
-### 概要
+## 概要
 
-> この製品を EmEditor Free にダウングレードします。
+この製品を EmEditor Free にダウングレードします。
 
-### 説明
+## 説明
 
-> この製品を EmEditor Free にダウングレードします。
+この製品を EmEditor Free にダウングレードします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ヘルプ\] \- \[ダウングレード\]
 - [すべてのコマンド](../../glossary/allcommands): \[ヘルプ\] \- \[ダウングレード\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_HELP\_DOWNGRADE (3844)
+```
+EEID_HELP_DOWNGRADE (3844)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3844);
+```
+editor.ExecuteCommandByID(3844);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3844
+```
+editor.ExecuteCommandByID 3844
+```

@@ -1,20 +1,22 @@
 # Word 属性 (HighlightItem ����)
 
-与配置属性中 [**高亮 (1)** 页面](../../dlg/properties/highlight1/index) 上的 **全词匹配时高亮** 复选框相对应。
+与配置属性中 [高亮 (1) 页面](../../dlg/properties/highlight1/index) 上的全词匹配时高亮 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Word**;
+### \[JavaScript\]
 
-item. **Word** = _b_;
+```
+b = item.Word;
+item.Word = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Word**
-
-item. **Word** = _b_
+```
+b = item.Word
+item.Word = b
+```
 
 ## 版本
 

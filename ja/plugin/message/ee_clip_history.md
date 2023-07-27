@@ -13,14 +13,14 @@ lParam = (LPARAM)(HINSTANCE)hInstance;
 
 _pTI_
 
-> [CLIP\_INFO 構造体](../structure/clip_info) へのポインタを指定します。
+[CLIP\_INFO 構造体](../structure/clip_info) へのポインタを指定します。
 
 ## 戻り値
 
-> メッセージが失敗すると、戻り値は -1 になります。メッセージが成功すると、戻り値はCLIP\_INFO 構造体の nAction パラメータとして指定した値に依存します。nAction パラメータが CI\_GET\_CLIP の場合、戻り値は、テキストを受信するために必要な pszBuf バッファの終端 NULL 文字を含めた文字単位のサイズになります。nAction パラメータが
-> CI\_INSERT\_CLIP の場合、戻り値は、新しいテキストが入力されたクリップボード履歴の位置なります。nAction パラメーターが CI\_REMOVE\_CLIP の場合、戻り値は、テキストが削除されたクリップボード履歴の位置になります。nAction パラメータが CI\_GET\_CLIP\_POS の場合、戻り値はクリップボード履歴の現在の位置になります。もし nAction パラメータが CI\_SET\_CLIP\_POS の場合、戻り値はクリップボード履歴の古い位置になります。もし
-> nAction パラメーターが CI\_ROTATE\_CLIP の場合、戻り値は 1 になります。
+メッセージが失敗すると、戻り値は -1 になります。メッセージが成功すると、戻り値はCLIP\_INFO 構造体の nAction パラメータとして指定した値に依存します。nAction パラメータが CI\_GET\_CLIP の場合、戻り値は、テキストを受信するために必要な pszBuf バッファの終端 NULL 文字を含めた文字単位のサイズになります。nAction パラメータが
+CI\_INSERT\_CLIP の場合、戻り値は、新しいテキストが入力されたクリップボード履歴の位置なります。nAction パラメーターが CI\_REMOVE\_CLIP の場合、戻り値は、テキストが削除されたクリップボード履歴の位置になります。nAction パラメータが CI\_GET\_CLIP\_POS の場合、戻り値はクリップボード履歴の現在の位置になります。もし nAction パラメータが CI\_SET\_CLIP\_POS の場合、戻り値はクリップボード履歴の古い位置になります。もし
+nAction パラメーターが CI\_ROTATE\_CLIP の場合、戻り値は 1 になります。
 
 ## バージョン
 
-> Version 9.00 以上で利用できます。
+Version 9.00 以上で利用できます。

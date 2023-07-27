@@ -1,14 +1,20 @@
 # regex Property (Editor Object)
 
-Retrieves the [**Regex** Object](../regex/index).
+Retrieves the [Regex Object](../regex/index).
 
-#### \[JavaScript\]
+## 
 
-_reg_ = editor. **regex**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+reg = editor.regex;
+```
 
-Set _reg_ = editor. **regex**
+### \[VBScript\]
+
+```
+Set reg = editor.regex
+```
 
 ## Version
 

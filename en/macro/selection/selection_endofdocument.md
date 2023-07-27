@@ -2,13 +2,19 @@
 
 Moves the cursor to the end of the document.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **EndOfDocument**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.EndOfDocument( [ bExtend ] );
+```
 
-document.selection. **EndOfDocument** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.EndOfDocument [ bExtend ]
+```
 
 ## Parameters
 

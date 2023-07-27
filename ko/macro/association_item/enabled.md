@@ -2,19 +2,21 @@
 
 개체를 사용할 수 있는지 여부를 나타내는 플래그를 지정합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Enabled**;
+### \[JavaScript\]
 
-item. **Enabled** = _b_;
+```
+b = item.Enabled;
+item.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Enabled**
-
-item. **Enabled** = _b_
+```
+b = item.Enabled
+item.Enabled = b
+```
 
 ## 버전
 

@@ -13,12 +13,12 @@ lParam = (LPARAM) (MANAGE\_DUPLICATES\_INFO\*) pManageDuplicatesInfo;
 
 _pManageDuplicatesInfo_
 
-> [MANAGE\_DUPLICATES\_INFO 構造体](../structure/manage_duplicates_info) へのポインタを指定します。
+[MANAGE\_DUPLICATES\_INFO 構造体](../structure/manage_duplicates_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 戻り値は HRESULT 値になります。0 以上の整数は成功を意味し、0 未満の整数は失敗を意味します。
+戻り値は HRESULT 値になります。0 以上の整数は成功を意味し、0 未満の整数は失敗を意味します。
 
 ## バージョン
 
-> Version 16.4 以上で利用できます。
+Version 16.4 以上で利用できます。

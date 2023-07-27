@@ -1,19 +1,23 @@
 # InitialFolder Property (FileNewProp Object)
 
-Corresponds to the **Initial Folder** text box in the
-[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
+Corresponds to theInitial Folder text box in the
+[New File Details dialog box](../../dlg/properties/file/new_details/index).
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **InitialFolder**;
+### \[JavaScript\]
 
-object. **InitialFolder** = _s_;
+```
+s = object.InitialFolder;
+object.InitialFolder = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **InitialFolder**
-
-object. **InitialFolder** = _s_
+```
+s = object.InitialFolder
+object.InitialFolder = s
+```
 
 ## Version
 

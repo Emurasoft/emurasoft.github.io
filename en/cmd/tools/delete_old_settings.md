@@ -1,32 +1,37 @@
 # Delete Old Settings command
 
-### Summary
+## Summary
 
-> Delete old settings that are not used anymore.
+Delete old settings that are not used anymore.
 
-### Description
+## Description
 
-> Delete old settings that are not used anymore.
+Delete old settings that are not used anymore.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools**
-\> **Delete Old Settings**
+- [All Commands](all_commands):Tools
+\>Delete Old Settings
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DELETE\_OLD\_SETTINGS (3984)
+```
+EEID_DELETE_OLD_SETTINGS (3984)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3984);
+```
+editor.ExecuteCommandByID(3984);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3984
+```
+editor.ExecuteCommandByID 3984
+```

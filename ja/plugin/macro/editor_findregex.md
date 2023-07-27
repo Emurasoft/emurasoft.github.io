@@ -9,16 +9,16 @@ Editor\_FindRegex( HWND hwnd, FIND\_REGEX\_INFO\_EX\* pFindRegexInfo );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _pFindRegexInfo_
 
-> [FIND\_REGEX\_INFO\_EX 構造体](../structure/find_regex_info_ex)、または [FIND\_REGEX\_INFO 構造体](../structure/find_regex_info) へのポインタを指定します。
+[FIND\_REGEX\_INFO\_EX 構造体](../structure/find_regex_info_ex)、または [FIND\_REGEX\_INFO 構造体](../structure/find_regex_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 指定した正規表現に一致する文字列が見つかると TRUE を返します。見つからないときは FALSE を返します。正規表現の構文に問題がある場合やその他の致命的なエラーの場合は、 -1 を返します。
+指定した正規表現に一致する文字列が見つかると TRUE を返します。見つからないときは FALSE を返します。正規表現の構文に問題がある場合やその他の致命的なエラーの場合は、 -1 を返します。
 
 ## バージョン
 
-> Version 6.00 以上で利用できます。
+Version 6.00 以上で利用できます。

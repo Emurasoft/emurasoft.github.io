@@ -2,13 +2,19 @@
 
 Finds the top-level [Window object](../window/index) by a class name and/or by a window title.
 
-#### \[JavaScript\]
+## 
 
-wnd = shell. **FindWindow**( _strClass_, _strCaption_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd = shell.FindWindow( strClass, strCaption );
+```
 
-wnd = shell. **FindWindow**( _strClass_, _strCaption_ )
+### \[VBScript\]
+
+```
+wnd = shell.FindWindow( strClass, strCaption )
+```
 
 ## Parameters
 
@@ -22,17 +28,19 @@ Specifies the window name (title). If this parameter is empty, all window names 
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnd = shell.FindWindow( "", "Calculator" );
-
 wnd.SetForeground();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd = shell.FindWindow( "", "Calculator" )
-
 wnd.SetForeground
+```
 
 ## Version
 

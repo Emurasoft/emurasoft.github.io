@@ -1,35 +1,40 @@
 # Replace command
 
-### Summary
+## Summary
 
-> Replaces a string.
+Replaces a string.
 
-### Description
+## Description
 
-> Replaces a specified string with another specified string. This command
-> displays the [**Replace** dialog box](../../dlg/replace/index).
-> Specifying a string to find, a string to replace with, and other options
-> will start replacing the specified string.
+Replaces a specified string with another specified string. This command
+displays the [Replace dialog box](../../dlg/replace/index).
+Specifying a string to find, a string to replace with, and other options
+will start replacing the specified string.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Search** \> **Replace**
-- [All Commands](../tools/all_commands): **Search**
-\> **Replace**
+- Default Menu:Search \>Replace
+- [All Commands](../tools/all_commands):Search
+\>Replace
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+H
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EDIT\_REPLACE (4201)
+```
+EEID_EDIT_REPLACE (4201)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4201);
+```
+editor.ExecuteCommandByID(4201);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4201
+```
+editor.ExecuteCommandByID 4201
+```

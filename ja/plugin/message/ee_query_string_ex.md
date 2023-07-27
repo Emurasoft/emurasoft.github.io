@@ -13,11 +13,11 @@ lParam = (LPARAM) (QUERY\_STRING\_INFO\*) pInfo;
 
 _pInfo_
 
-> [QUERY\_STRING\_INFO 構造体](../structure/query_string_info) へのポインタを指定します。
+[QUERY\_STRING\_INFO 構造体](../structure/query_string_info) へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると S\_OK を返します。それ以外の場合は負の値を返します。
+成功すると S\_OK を返します。それ以外の場合は負の値を返します。
 
 ## バージョン
 

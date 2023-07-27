@@ -2,17 +2,21 @@
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[検出最小区切り数\] テキスト ボックス に相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **MinDetectDelimiter**;
+### \[JavaScript\]
 
-object. **MinDetectDelimiter** = _n_;
+```
+n = object.MinDetectDelimiter;
+object.MinDetectDelimiter = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **MinDetectDelimiter**
-
-object. **MinDetectDelimiter** = _n_
+```
+n = object.MinDetectDelimiter
+object.MinDetectDelimiter = n
+```
 
 ## バージョン
 

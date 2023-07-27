@@ -14,8 +14,8 @@ lParam = (LPARAM) (LPCWSTR) szConfigName;
 
 _szConfigName_
 
-> 指定要重新载入的配置名称。
+指定要重新载入的配置名称。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

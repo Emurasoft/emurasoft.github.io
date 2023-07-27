@@ -1,31 +1,36 @@
 # Notifications command
 
-### Summary
+## Summary
 
-> Shows or hides Notifications.
+Shows or hides Notifications.
 
-### Description
+## Description
 
-> Shows or hides Notifications.
+Shows or hides Notifications.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Notifications**
-- [All Commands](../tools/all_commands): **View** \> **Notifications**
+- Default Menu:View \>Notifications
+- [All Commands](../tools/all_commands):View \>Notifications
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_TOGGLE\_NOTIFICATIONS (4061)
+```
+EEID_TOGGLE_NOTIFICATIONS (4061)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4061);
+```
+editor.ExecuteCommandByID(4061);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4061
+```
+editor.ExecuteCommandByID 4061
+```

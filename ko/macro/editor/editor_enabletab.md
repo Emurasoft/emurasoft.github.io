@@ -4,17 +4,21 @@
 모든 문서는 탭을 활성화 하거나 비활성화 한 후 즉시 사용할 수는 없습니다.
 탭을 활성화 하거나 비활성화 한 후 매크로를 종료하고 다시 실행해야 합니다.
 
-#### \[JavaScript\]
+## 
 
-_bEnableTab_ = editor. **EnableTab**;
+### \[JavaScript\]
 
-editor. **EnableTab** = _bEnableTab_;
+```
+bEnableTab = editor.EnableTab;
+editor.EnableTab = bEnableTab;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bEnableTab_ = editor. **EnableTab**
-
-editor. **EnableTab** = _bEnableTab_
+```
+bEnableTab = editor.EnableTab
+editor.EnableTab = bEnableTab
+```
 
 ## 버전
 

@@ -2,13 +2,19 @@
 
 表示活動點是否與底部點相同。
 
-#### \[JavaScript\]
+## 
 
-_bGreater_ = document.selection. **IsActiveEndGreater**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bGreater = document.selection.IsActiveEndGreater;
+```
 
-_bGreater_ = document.selection. **IsActiveEndGreater**
+### \[VBScript\]
+
+```
+bGreater = document.selection.IsActiveEndGreater
+```
 
 ## 版本
 

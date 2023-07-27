@@ -2,13 +2,19 @@
 
 論理座標をシリアル位置に変換します。
 
-#### \[JavaScript\]
+## 
 
-_nSerialPos_ = document. **LogicalToSerial**( _x_, _y_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nSerialPos = document.LogicalToSerial( x, y );
+```
 
-_nSerialPos_ = document. **LogicalToSerial**( _x_, _y_ )
+### \[VBScript\]
+
+```
+nSerialPos = document.LogicalToSerial( x, y )
+```
 
 ## パラメータ
 
@@ -22,13 +28,17 @@ _y_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 n = document.LogicalToSerial( 5, 1 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 n = document.LogicalToSerial( 5, 1 )
+```
 
 ## バージョン
 

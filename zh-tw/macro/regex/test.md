@@ -2,13 +2,19 @@
 
 測試規則運算式是否與指定字串成功符合。
 
-#### \[JavaScript\]
+## 
 
-_b_  = reg. **Test**( _strText_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b  = reg.Test( strText );
+```
 
-_b_  = reg. **Test**( _strText_ )
+### \[VBScript\]
+
+```
+b  = reg.Test( strText )
+```
 
 ## 參數
 
@@ -22,33 +28,27 @@ _strText_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 re = editor.regex;
-
 re.Engine = eeExFindRegexOnigmo;
-
-re.Pattern = "^\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\\.\[A-Z\]{2,}$";
-
+re.Pattern = "^[A-Z0-9.\%+-]+@[A-Z0-9.-]+\\\.[A-Z]{2,}$";
 re.IgnoreCase = true;
-
 b = re.Test( "john@test.com" );
-
 if( b ) alert( "規則運算式符合" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set re = editor.regex
-
 re.Engine = eeExFindRegexOnigmo
-
-re.Pattern = "^\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\.\[A-Z\]{2,}$"
-
+re.Pattern = "^[A-Z0-9.\%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}$"
 re.IgnoreCase = True
-
 b = re.Test( "john@test.com" )
-
 If b Then alert( "規則運算式符合" )
+```
 
 ## 版本
 

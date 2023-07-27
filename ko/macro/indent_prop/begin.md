@@ -1,18 +1,22 @@
 # Begin 속성 (IndentProp ��ü)
 
-[**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 의 **들여쓰기 시작** 텍스트 박스에 해당합니다.
+[탭/들여쓰기 대화 상자](../../dlg/properties/general/indent/index) 의들여쓰기 시작 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Begin**;
+### \[JavaScript\]
 
-object. **Begin** = _s_;
+```
+s = object.Begin;
+object.Begin = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Begin**
-
-object. **Begin** = _s_
+```
+s = object.Begin
+object.Begin = s
+```
 
 ## 버전
 

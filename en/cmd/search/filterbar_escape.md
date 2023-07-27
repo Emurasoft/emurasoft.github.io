@@ -1,32 +1,37 @@
 # Use Escape Sequence (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Use Escape Sequence button on the Filter toolbar.
+Toggles the Use Escape Sequence button on the Filter toolbar.
 
-### Description
+## Description
 
-> Toggles the Use Escape Sequence button on the Filter toolbar.
+Toggles the Use Escape Sequence button on the Filter toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Use Escape Sequence**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Use Escape Sequence
 - Toolbar: ![](../../images/find_escape.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_REG\_EXP(3909)
+```
+EEID_FILTERBAR_REG_EXP(3909)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3909);
+```
+editor.ExecuteCommandByID(3909);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3909
+```
+editor.ExecuteCommandByID 3909
+```

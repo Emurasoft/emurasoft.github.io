@@ -1,14 +1,14 @@
 # \[次のページにスクロール\] コマンド
 
-### 概要
+## 概要
 
-> 次のページにスクロールします。
+次のページにスクロールします。
 
-### 説明
+## 説明
 
-> 次のページにスクロールします。
+次のページにスクロールします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[スクロール\] \- \[次のページ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SCROLL\_PAGE\_DOWN (3867)
+```
+EEID_SCROLL_PAGE_DOWN (3867)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3867);
+```
+editor.ExecuteCommandByID(3867);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3867
+```
+editor.ExecuteCommandByID 3867
+```

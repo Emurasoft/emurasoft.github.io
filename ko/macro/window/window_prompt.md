@@ -2,13 +2,19 @@
 
 문자열을 입력하는 대화 상자를 표시합니다.
 
-#### \[JavaScript\]
+## 
 
-_strAnswer_ = **prompt**( _strMessage, strDefault_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strAnswer =prompt( strMessage, strDefault);
+```
 
-_strAnswer_ = **prompt**( _strMessage, strDefault_ )
+### \[VBScript\]
+
+```
+strAnswer =prompt( strMessage, strDefault )
+```
 
 ## 매개 변수
 

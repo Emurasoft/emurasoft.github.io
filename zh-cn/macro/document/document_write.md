@@ -2,13 +2,19 @@
 
 在当前光标位置处插入或改写一个字符串。
 
-#### \[JavaScript\]
+## 
 
-document. **write**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.write( str );
+```
 
-document. **write** _str_
+### \[VBScript\]
+
+```
+document.write str
+```
 
 ## 参数
 
@@ -18,13 +24,17 @@ _str_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-document. **write**( "Hello" );
+```
+document.write( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document. **write** "Hello"
+```
+document.write "Hello"
+```
 
 ## 版本
 

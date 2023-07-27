@@ -1,20 +1,22 @@
 # FastCursorMove 属性 (ScrollProp ����)
 
-与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **快速移动光标** 复选框相对应。
+与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的快速移动光标 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **FastCursorMove**;
+### \[JavaScript\]
 
-object. **FastCursorMove** = _b_;
+```
+b = object.FastCursorMove;
+object.FastCursorMove = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **FastCursorMove**
-
-object. **FastCursorMove** = _b_
+```
+b = object.FastCursorMove
+object.FastCursorMove = b
+```
 
 ## 版本
 

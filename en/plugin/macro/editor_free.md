@@ -17,5 +17,5 @@ Specifies the atom of an specified plug-in file name.
 
 ## Return Values
 
-> If the plug-in is freed, the return value is TRUE. If the plug-in is not
-> freed, the return value is FALSE.
+If the plug-in is freed, the return value is TRUE. If the plug-in is not
+freed, the return value is FALSE.

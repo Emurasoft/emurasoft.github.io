@@ -1,14 +1,14 @@
 # \[次を検索 (検索ツール バー)\] コマンド
 
-### 概要
+## 概要
 
-> 検索ツール バーを使用して下方向へ文字列を検索します。
+検索ツール バーを使用して下方向へ文字列を検索します。
 
-### 説明
+## 説明
 
-> 検索ツール バーを使用して下方向へ文字列を検索します。
+検索ツール バーを使用して下方向へ文字列を検索します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[検索ツール バー\] \- \[次を検索\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FINDBAR\_FIND\_NEXT (4570)
+```
+EEID_FINDBAR_FIND_NEXT (4570)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4570);
+```
+editor.ExecuteCommandByID(4570);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4570
+```
+editor.ExecuteCommandByID 4570
+```

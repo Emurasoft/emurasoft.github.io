@@ -2,13 +2,19 @@
 
 Assigns data in a specified format to the Clipboard.
 
-#### \[JavaScript\]
+## 
 
-_bSuccess_ = clipboardData. **setData**( _sDataFormat_, _sData_, _iPos_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bSuccess = clipboardData.setData( sDataFormat, sData, iPos );
+```
 
-_bSuccess_ = clipboardData. **setData**( _sDataFormat_, _sData, iPos_ )
+### \[VBScript\]
+
+```
+bSuccess = clipboardData.setData( sDataFormat, sData, iPos )
+```
 
 ## Parameters
 
@@ -32,13 +38,17 @@ Optional. Specifies the position in the Clipboard history if you want to set old
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 clipboardData.setData("Text", "Hello!");
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 clipboardData.setData "Text", "Hello!"
+```
 
 ## Version
 

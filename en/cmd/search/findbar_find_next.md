@@ -1,32 +1,37 @@
 # Find Next (Find toolbar) command
 
-### Summary
+## Summary
 
-> Finds the next occurrence using the Find toolbar.
+Finds the next occurrence using the Find toolbar.
 
-### Description
+## Description
 
-> Finds the next occurrence using the Find toolbar.
+Finds the next occurrence using the Find toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Toolbar** \> **Find Next**
+- [All Commands](../tools/all_commands):Search
+\>Find Toolbar \>Find Next
 - Toolbar: ![](../../images/editrepeat.gif) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FINDBAR\_FIND\_NEXT (4570)
+```
+EEID_FINDBAR_FIND_NEXT (4570)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4570);
+```
+editor.ExecuteCommandByID(4570);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4570
+```
+editor.ExecuteCommandByID 4570
+```

@@ -2,13 +2,19 @@
 
 把選定內容中的 tab 轉換為空白。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Untabify**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Untabify();
+```
 
-document.selection. **Untabify**
+### \[VBScript\]
+
+```
+document.selection.Untabify
+```
 
 ## 版本
 

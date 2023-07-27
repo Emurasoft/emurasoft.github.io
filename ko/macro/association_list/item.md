@@ -2,15 +2,19 @@
 
 지정된 인덱스의 [AssociationItem 개체](../association_item/index) 를 검사합니다.
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-list. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = list.Item( Index );
+```
 
-_item_ =
-list. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = list.Item( Index )
+```
 
 ## 매개 변수
 

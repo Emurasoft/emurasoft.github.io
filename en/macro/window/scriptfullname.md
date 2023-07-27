@@ -2,13 +2,19 @@
 
 Retrieves the complete path and file name of the currently running macro file.
 
-#### \[JavaScript\]
+## 
 
-_str_ = **ScriptFullName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str =ScriptFullName;
+```
 
-_str_ = **ScriptFullName**
+### \[VBScript\]
+
+```
+str =ScriptFullName
+```
 
 ## Version
 

@@ -1,19 +1,23 @@
 # WordWrap Property (WrapProp Object)
 
-Corresponds to the **Word**
-**Wrap** check box in the [**Wrap** page](../../dlg/properties/wrap/index) of Configuration Properties.
+Corresponds to theWord
+Wrap check box in the [Wrap page](../../dlg/properties/wrap/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **WordWrap**;
+### \[JavaScript\]
 
-object. **WordWrap** = _b_;
+```
+b = object.WordWrap;
+object.WordWrap = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **WordWrap**
-
-object. **WordWrap** = _str_
+```
+str = object.WordWrap
+object.WordWrap = str
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 Returns the identifier of the thread that created the window.
 
-#### \[JavaScript\]
+## 
 
-_id_ = wnd. **ThreadID**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+id = wnd.ThreadID;
+```
 
-_id_ = wnd. **ThreadID**
+### \[VBScript\]
+
+```
+id = wnd.ThreadID
+```
 
 ## Version
 

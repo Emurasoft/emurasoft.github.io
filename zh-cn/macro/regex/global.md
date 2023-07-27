@@ -2,17 +2,21 @@
 
 设置或检索全局标志。
 
-#### \[JavaScript\]
+## 
 
-_b_ = reg. **Global**;
+### \[JavaScript\]
 
-reg. **Global** = _b_;
+```
+b = reg.Global;
+reg.Global = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = reg. **Global**;
-
-reg. **Global** = _b_;
+```
+b = reg.Global;
+reg.Global = b;
+```
 
 ## 版本
 

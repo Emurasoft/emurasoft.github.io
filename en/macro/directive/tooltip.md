@@ -8,7 +8,7 @@ Specifies the tooltip string displayed when a mouse is placed on the toolbar but
 
 _tooltip_
 
-> Specifies the tooltip string displayed when a mouse is placed on the toolbar button. The tooltip would not be displayed if an empty string was specified.
+Specifies the tooltip string displayed when a mouse is placed on the toolbar button. The tooltip would not be displayed if an empty string was specified.
 
 ## Examples
 

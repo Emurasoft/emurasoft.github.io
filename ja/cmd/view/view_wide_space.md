@@ -1,14 +1,14 @@
 # \[全角空白\] コマンド
 
-### 概要
+## 概要
 
-> 全角空白の表示/非表示を切り替えます。
+全角空白の表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> 全角空白の表示/非表示を切り替えます。
+全角空白の表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[記号\] \- \[全角空白\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[記号\] \- \[全角空白\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_WIDE\_SPACE (4536)
+```
+EEID_VIEW_WIDE_SPACE (4536)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4536);
+```
+editor.ExecuteCommandByID(4536);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4536
+```
+editor.ExecuteCommandByID 4536
+```

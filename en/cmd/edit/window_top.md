@@ -1,33 +1,38 @@
 # Window Top command
 
-### Summary
+## Summary
 
-> Moves the cursor to the top of the current window.
+Moves the cursor to the top of the current window.
 
-### Description
+## Description
 
-> Moves the cursor to the top of the window. This command does not move the
-> vertical scroll position.
+Moves the cursor to the top of the window. This command does not move the
+vertical scroll position.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
-\> **Window Top**
+- [All Commands](../tools/all_commands):Edit \>Move Cursor Vertically
+\>Window Top
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+PAGE UP
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_TOP (4292)
+```
+EEID_WINDOW_TOP (4292)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4292);
+```
+editor.ExecuteCommandByID(4292);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4292
+```
+editor.ExecuteCommandByID 4292
+```

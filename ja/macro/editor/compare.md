@@ -2,13 +2,19 @@
 
 2個の文書を比較します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = editor. **Compare**( _nFlags_, _strDocument1_, _strDocument2_, _strResultFileName_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = editor.Compare( nFlags, strDocument1, strDocument2, strResultFileName );
+```
 
-_n_ = editor. **Compare**( _nFlags_, _strDocument1_, _strDocument2_, _strResultFileName_ )
+### \[VBScript\]
+
+```
+n = editor.Compare( nFlags, strDocument1, strDocument2, strResultFileName )
+```
 
 ## パラメータ
 

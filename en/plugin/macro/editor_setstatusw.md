@@ -8,24 +8,24 @@ Editor\_SetStatusW( HWND hwnd, LPCWSTR szStatus, UINT nFlags = 0 );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _szStatus_
 
-> Specifies a massage text to be displayed on the status bar.
+Specifies a massage text to be displayed on the status bar.
 
 _nFlags_
 
-> Specifies a combination of the following values.
->
-> | Value | Meaning |
-> | --- | --- |
-> | STATUS\_FLAG\_NONE | Displays a message in a normal color. |
-> | STATUS\_FLAG\_MESSAGE | Displays a message in the default highlight color. |
-> | STATUS\_FLAG\_WARNING | Displays a message in yellow . |
-> | STATUS\_FLAG\_ERROR | Displays a message in red. |
-> | STATUS\_FLAG\_ERASE\_SHORTLY | Displays a message in a few seconds, and then erases it. |
+Specifies a combination of the following values.
+
+| Value | Meaning |
+| --- | --- |
+| STATUS\_FLAG\_NONE | Displays a message in a normal color. |
+| STATUS\_FLAG\_MESSAGE | Displays a message in the default highlight color. |
+| STATUS\_FLAG\_WARNING | Displays a message in yellow . |
+| STATUS\_FLAG\_ERROR | Displays a message in red. |
+| STATUS\_FLAG\_ERASE\_SHORTLY | Displays a message in a few seconds, and then erases it. |
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

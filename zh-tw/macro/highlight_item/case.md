@@ -1,20 +1,22 @@
 # Case 屬性 (HighlightItem ��H)
 
-與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **區分大小寫** 核取方塊相對應。
+與組態屬性中 [亮顯 (1) 頁面](../../dlg/properties/highlight1/index) 上的區分大小寫 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Case**;
+### \[JavaScript\]
 
-item. **Case** = _b_;
+```
+b = item.Case;
+item.Case = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Case**
-
-item. **Case** = _b_
+```
+b = item.Case
+item.Case = b
+```
 
 ## 版本
 

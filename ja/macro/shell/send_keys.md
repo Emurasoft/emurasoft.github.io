@@ -2,13 +2,19 @@
 
 アクティブなウィンドウに （キーボードをタイプしているかのように） にキー ストロークを送ります。また、Send Keys メソッドはマウス アクティブティも模倣することができます。このメソッドは、どのウィンドウにもマウス操作を送ることができますが、マクロを開始した EmEditor ウィンドウにマウス操作を送ることは推奨しません。
 
-#### \[JavaScript\]
+## 
 
-shell. **SendKeys**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.SendKeys( str );
+```
 
-shell. **SendKeys** _str_
+### \[VBScript\]
+
+```
+shell.SendKeys str
+```
 
 ## パラメータ
 
@@ -18,7 +24,7 @@ _str_
 
 |     |     |
 | --- | --- |
-| **Key** | **Parameter** |
+|Key |Parameter |
 | ALT | % |
 | ALT 下 | {ALT DOWN} |
 | ALT 上 | {ALT UP} |
@@ -104,37 +110,29 @@ Shift を押しながら A を押して、そのあと Shift を押さないで 
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.SendKeys( "{CLICK LEFT, 10 , 20}" );  // スクリーン座標 (10,20) で、マウスの左ボタンｎをクリックします。
-
 shell.SendKeys( "{MOVETO, 30 , 40}" );      // マウスをスクリーン座標 (30,40) に移動します。
-
 shell.SendKeys( "abc~" );                   // "abc" と入力して Enter を押します。
-
 shell.SendKeys( "%fo" );                    // Alt を押しながら F を押し、その後 Alt を押さないで O を押します 。
-
 shell.SendKeys( "{~}~" );                   // "~" と入力して Enter を押します。
-
-shell.SendKeys( "{VK25}" );                 // 漢字キーを押します (VK\_KANJI = 25)。
-
+shell.SendKeys( "{VK25}" );                 // 漢字キーを押します (VK\KANJI = 25)。
 shell.SendKeys( "{VK65 DOWN}" );            // A キーを押し続けます (A キー = 65)。
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.SendKeys "{CLICK LEFT, 10 , 20}"      // スクリーン座標 (10,20) で、マウスの左ボタンｎをクリックします。
-
 shell.SendKeys "{MOVETO, 30 , 40}"          // マウスをスクリーン座標 (30,40) に移動します。
-
 shell.SendKeys "abc~"                       // "abc" と入力して Enter を押します。
-
 shell.SendKeys "%fo"                        // Alt を押しながら F を押し、その後 Alt を押さないで O を押します 。
-
 shell.SendKeys "{~}~"                       // "~" と入力して Enter を押します。
-
-shell.SendKeys "{VK25}"                     // 漢字キーを押します (VK\_KANJI = 25)。
-
+shell.SendKeys "{VK25}"                     // 漢字キーを押します (VK\KANJI = 25)。
 shell.SendKeys "{VK65 DOWN}"                // A キーを押し続けます (A キー = 65)。
+```
 
 ## バージョン
 

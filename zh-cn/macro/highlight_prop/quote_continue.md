@@ -1,20 +1,22 @@
 # QuoteContinue 属性 (HighlightProp ����)
 
-与配置属性中 [**高亮（2）** 页面](../../dlg/properties/highlight2/index) 上的 **“引号内的字符串”群组框 \- “转到下一行”** 复选框相对应。
+与配置属性中 [高亮（2） 页面](../../dlg/properties/highlight2/index) 上的“引号内的字符串”群组框 \- “转到下一行” 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **QuoteContinue**;
+### \[JavaScript\]
 
-object. **QuoteContinue** = _b_;
+```
+b = object.QuoteContinue;
+object.QuoteContinue = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **QuoteContinue**
-
-object. **QuoteContinue** = _b_
+```
+b = object.QuoteContinue
+object.QuoteContinue = b
+```
 
 ## 版本
 

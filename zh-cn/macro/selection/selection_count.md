@@ -2,13 +2,19 @@
 
 检索在当前文档中所选取的数目。
 
-#### \[JavaScript\]
+## 
 
-_NumOfLines_ = document.selection. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+NumOfLines = document.selection.Count;
+```
 
-_NumOfLines_ = document.selection. **Count**
+### \[VBScript\]
+
+```
+NumOfLines = document.selection.Count
+```
 
 ## 版本
 

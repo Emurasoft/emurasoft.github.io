@@ -21,24 +21,24 @@ int cchSrc;
 
 _cbSize_
 
-> Specifies sizeof( UNICODE\_NAME\_INFO ).
+Specifies sizeof( UNICODE\_NAME\_INFO ).
 
 _cchBuf_
 
-> Specifies the size of the buffer in characters including the terminating NULL.
+Specifies the size of the buffer in characters including the terminating NULL.
 
 _pBuf_
 
-> Specifies the pointer to the buffer to retrieve the Unicode name.
+Specifies the pointer to the buffer to retrieve the Unicode name.
 
 _pstrSrc_
 
-> Specifies the source character or string.
+Specifies the source character or string.
 
 _cchSrc_
 
-> Specifies the number of characters specified in _pstrSrc_.
+Specifies the number of characters specified in _pstrSrc_.
 
 ## Version
 
-> Supported on Version 19.1 or later.
+Supported on Version 19.1 or later.

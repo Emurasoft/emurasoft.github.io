@@ -2,17 +2,21 @@
 
 ステータス バーに表示する文字列を取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = **status**;
+### \[JavaScript\]
 
-**status** = _str_;
+```
+str =status;
+status = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = **status**
-
-**status** = _str_
+```
+str =status
+status = str
+```
 
 ## バージョン
 

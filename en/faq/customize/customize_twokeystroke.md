@@ -20,40 +20,40 @@ In this list, the second key can be activated with or without CTRL key. For inst
 
 To add new two-keystroke shortcuts:
 
-1\. On the Help menu select **Keyboard Map**.
+1\. On the Help menu selectKeyboard Map.
 
-2\. Click to select the **All Configurations** button on the Toolbar, if you want all of the configurations to use the same shortcuts (or deselect it to not use the same shortcuts).
+2\. Click to select theAll Configurations button on the Toolbar, if you want all of the configurations to use the same shortcuts (or deselect it to not use the same shortcuts).
 
 3\. Scroll down the list to User Menu (2) and double-click.
 
-4\. In the **Configuration Properties**, type a shortcut in the text box, **Press a New Shortcut Key**. For instance, CTRL+;.
+4\. In theConfiguration Properties, type a shortcut in the text box,Press a New Shortcut Key. For instance, CTRL+;.
 
-5\. Click the **Assign** button, and click OK.
+5\. Click theAssign button, and click OK.
 
 6\. Close the Keyboard Map window.
 
-7\. Next, on the **Tools** menu select **Customize Menus**.
+7\. Next, on theTools menu selectCustomize Menus.
 
 8\. Select User Menu (2) on the Menu to Customize list.
 
-9\. Click the **Insert Right** button.
+9\. Click theInsert Right button.
 
-10\. In the **Menu Properties**, select a new command to assign a shortcut to.
+10\. In theMenu Properties, select a new command to assign a shortcut to.
 
-11\. On the **Name** text box, use & to specify a new shortcut key.
+11\. On theName text box, use & to specify a new shortcut key.
 
 12\. The character to the right of & specifies the second character.
 
-For instance, if you want to add **New and Paste** command and set "N" as the second shortcut key:
+For instance, if you want to addNew and Paste command and set "N" as the second shortcut key:
 
-1\. Select **File** in the Category list.
+1\. SelectFile in the Category list.
 
-2\. Select **New and Paste** in the Command list.
+2\. SelectNew and Paste in the Command list.
 
-3\. Type **&New and Paste** in the **Name** text box.
+3\. Type&New and Paste in theName text box.
 
 4\. Click OK.
 
 Repeat this procedure to define as many commands as you prefer.
 
-By default, the user menu will appear 1 second after the first key is pressed. Second shortcut keys work before the user menu appears. You can change the delay time for each user menu by adjusting the **Delay Time** slider on the bottom of the **Customize Menus** dialog box.
+By default, the user menu will appear 1 second after the first key is pressed. Second shortcut keys work before the user menu appears. You can change the delay time for each user menu by adjusting theDelay Time slider on the bottom of theCustomize Menus dialog box.

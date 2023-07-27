@@ -1,96 +1,96 @@
 # Q. What are examples of External Tools configuration?
 
-- Open **Internet Explorer**
+- OpenInternet Explorer
 
-**Command**: C:\\Program Files\\Internet Explorer\\iexplore.exe
+Command: C:\\Program Files\\Internet Explorer\\iexplore.exe
 
-**Arguments**: $(Path)
+Arguments: $(Path)
 
-**Initial Directory**: $(Dir)
+Initial Directory: $(Dir)
 
-**Icon Path**: C:\\Program Files\\Internet Explorer\\iexplore.exe
+Icon Path: C:\\Program Files\\Internet Explorer\\iexplore.exe
 
-Check **Save File**
+CheckSave File
 
-- Open **Explorer**
+- OpenExplorer
 
-**Command**: %WinDir%\\explorer.exe
+Command: %WinDir%\\explorer.exe
 
-**Arguments**: $(Dir)
+Arguments: $(Dir)
 
-**Initial Directory**: $(Dir)
+Initial Directory: $(Dir)
 
-**Icon Path**: %WinDir%\\explorer.exe
+Icon Path: %WinDir%\\explorer.exe
 
-- Open **Command Prompt**
+- OpenCommand Prompt
 
-**Command**: %WinDir%\\system32\\cmd.exe
+Command: %WinDir%\\system32\\cmd.exe
 
-**Arguments**: $(Dir)
+Arguments: $(Dir)
 
-**Initial Directory**: $(Dir)
+Initial Directory: $(Dir)
 
-**Icon Path**: %WinDir%\\system32\\cmd.exe
+Icon Path: %WinDir%\\system32\\cmd.exe
 
-- Compile by **Visual C++**
+- Compile byVisual C++
 
-**Command**: %WinDir%\\system32\\cmd.exe
+Command: %WinDir%\\system32\\cmd.exe
 
-**Arguments**: /k "C:\\Program Files\\Visual Studio\\Vc7\\bin\\vcvars32.bat"&&cl $(Path)
+Arguments: /k "C:\\Program Files\\Visual Studio\\Vc7\\bin\\vcvars32.bat"&&cl $(Path)
 
-**Initial Directory**: $(Dir)
+Initial Directory: $(Dir)
 
-**Icon Path**: C:\\Program Files\\Visual Studio\\Common7\\IDE\\devenv.exe
+Icon Path: C:\\Program Files\\Visual Studio\\Common7\\IDE\\devenv.exe
 
-Check **Save File**
+CheckSave File
 
 - Run associated program
 
-**Command**: $(Path)
+Command: $(Path)
 
-**Arguments**:
+Arguments:
 
-**Initial Directory**: $(Dir)
+Initial Directory: $(Dir)
 
-**Icon Path**:
+Icon Path:
 
-Check **Save File**
+CheckSave File
 
-- Search **Google** for a word at cursor or a selected text.
+- SearchGoogle for a word at cursor or a selected text.
 
-**Command**: http://google.com/search?q=$(CurText)
+Command: http://google.com/search?q=$(CurText)
 
-**Arguments**:
+Arguments:
 
-**Initial Directory**:
+Initial Directory:
 
-**Icon Path**:
+Icon Path:
 
-- Check out from **Microsoft Visual SourceSafe**
+- Check out fromMicrosoft Visual SourceSafe
 
-**Command**: %WinDir%\\system32\\cmd.exe
+Command: %WinDir%\\system32\\cmd.exe
 
-**Arguments**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkout
+Arguments: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkout
 $/(path)/$(Filename).$(Ext) -y(user name)
 
-**Initial Directory**: $(Dir)
+Initial Directory: $(Dir)
 
-**Icon Path**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
+Icon Path: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
 
-- Check in to **Microsoft Visual SourceSafe**
+- Check in toMicrosoft Visual SourceSafe
 
-**Command**: %WinDir%\\system32\\cmd.exe
+Command: %WinDir%\\system32\\cmd.exe
 
-**Arguments**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkin
+Arguments: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkin
 $/(path)/$(Filename).$(Ext) -y(user name)
 
-**Initial Directory**: $(Dir)
+Initial Directory: $(Dir)
 
-**Icon Path**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
+Icon Path: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
 
-Check **Save File**
+CheckSave File
 
-You can use the following predefined arguments in **Command**, **Arguments**, **Initial Directory**, and **Icon Path**.
+You can use the following predefined arguments inCommand,Arguments,Initial Directory, andIcon Path.
 
 $(Path) The full path name of the file.
 

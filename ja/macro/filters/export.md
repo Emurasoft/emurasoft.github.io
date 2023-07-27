@@ -2,13 +2,19 @@
 
 コレクションを TSV ファイルにエクスポートします。
 
-#### \[JavaScript\]
+## 
 
-list. **Export**( _strFileName_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Export( strFileName );
+```
 
-list. **Export** _strFileName_
+### \[VBScript\]
+
+```
+list.Export strFileName
+```
 
 ## パラメータ
 
@@ -18,25 +24,23 @@ TSV ファイルの完全パスを含むファイル名を指定します。
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 var filters = document.filters;
-
 if( filters.Count > 0 ) {
-
 filters.Export( "E:\\\Test\\\filter.tsv" );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set filters = document.filters
-
 If filters.Count > 0 Then
-
 filters.Export "E:\\Test\\filter.tsv"
-
 End If
+```
 
 ## バージョン
 

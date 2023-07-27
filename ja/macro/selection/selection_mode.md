@@ -2,17 +2,21 @@
 
 選択の種類 (箱型選択、行選択など) を取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_nMode_ = document.selection. **Mode**;
+### \[JavaScript\]
 
-document.selection. **Mode** = _nMode_;
+```
+nMode = document.selection.Mode;
+document.selection.Mode = nMode;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nMode_ = document.selection. **Mode**
-
-document.selection. **Mode** = _nMode_
+```
+nMode = document.selection.Mode
+document.selection.Mode = nMode
+```
 
 ## パラメータ
 
@@ -32,59 +36,40 @@ _nMode_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nMode = document.selection.Mode;
-
 switch( nMode & eeModeMask ) {
-
 case eeModeStream:
-
 alert( "線形選択です。" );
-
 break;
-
 case eeModeLine:
-
 alert( "行選択です。" );
-
 break;
-
 case eeModeBox:
-
 alert( "箱型選択です。");
-
 break;
-
 }
-
 if( nMode & eeModeKeyboard )  alert( "しかも、キーボード選択の状態です。" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 nMode = document.selection.Mode
-
 Select Case nMode And eeModeMask
-
 Case eeModeStream
-
 alert "線形選択です。"
-
 Case eeModeLine
-
 alert "行選択です。"
-
 Case eeModeBox
-
 alert "箱型選択です。"
-
 End Select
-
 If nMode And eeModeKeyboard Then
-
 alert "しかも、キーボード選択の状態です。"
-
 End If
+```
 
 ## バージョン
 

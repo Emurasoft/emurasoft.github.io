@@ -2,13 +2,19 @@
 
 检索拖放的文件的数目。
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = DroppedFiles. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = DroppedFiles.Count;
+```
 
-_nCount_ = DroppedFiles. **Count**
+### \[VBScript\]
+
+```
+nCount = DroppedFiles.Count
+```
 
 ## 版本
 

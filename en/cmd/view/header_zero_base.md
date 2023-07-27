@@ -1,31 +1,36 @@
 # Use Zero-Based Numerical Characters for Column Header command
 
-### Summary
+## Summary
 
-> Uses zero-based numerical characters for the column header.
+Uses zero-based numerical characters for the column header.
 
-### Description
+## Description
 
-> Uses zero-based numerical characters for the column header. This command is equivalent to the status where the **Use Alphabetical Characters for Column Header** check box is cleared but the **Use Zero-Based Numerical Characters for Column Header** check box is set in the **CSV** page of the **Customize** dialog box.
+Uses zero-based numerical characters for the column header. This command is equivalent to the status where theUse Alphabetical Characters for Column Header check box is cleared but theUse Zero-Based Numerical Characters for Column Header check box is set in theCSV page of theCustomize dialog box.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Column Header Type** \> **0, 1, 2, ...**
-- [All Commands](../tools/all_commands): **CSV** \> **Column Header Type** \> **0, 1, 2, ...**
+- Default Menu:CSV \>Column Header Type \>0, 1, 2, ...
+- [All Commands](../tools/all_commands):CSV \>Column Header Type \>0, 1, 2, ...
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_HEADER\_ZERO\_BASE (3988)
+```
+EEID_HEADER_ZERO_BASE (3988)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3988);
+```
+editor.ExecuteCommandByID(3988);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3988
+```
+editor.ExecuteCommandByID 3988
+```

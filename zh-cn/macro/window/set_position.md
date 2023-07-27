@@ -2,13 +2,19 @@
 
 设置窗口的大小和位置。
 
-#### \[JavaScript\]
+## 
 
-wnd. **SetPosition**( _x_, _y_, _width_, _height_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd.SetPosition( x, y, width, height );
+```
 
-wnd. **SetPosition** _x_, _y_, _width_, _height_
+### \[VBScript\]
+
+```
+wnd.SetPosition x, y, width, height
+```
 
 ## 参数
 

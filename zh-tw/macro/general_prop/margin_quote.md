@@ -1,20 +1,22 @@
 # MarginQuote 屬性 (GeneralProp ��H)
 
-與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **引用行邊距** 文字方塊相對應。
+與組態屬性中 [一般 頁面](../../dlg/properties/general/index) 上的引用行邊距 文字方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **MarginQuote**;
+### \[JavaScript\]
 
-object. **MarginQuote** = _b_;
+```
+b = object.MarginQuote;
+object.MarginQuote = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **MarginQuote**
-
-object. **MarginQuote** = _b_
+```
+b = object.MarginQuote
+object.MarginQuote = b
+```
 
 ## 版本
 

@@ -1,31 +1,36 @@
 # Unpivot command
 
-### Summary
+## Summary
 
-> Converts columns into rows by flattening the CSV data.
+Converts columns into rows by flattening the CSV data.
 
-### Description
+## Description
 
-> This command displays the [**Unpivot** dialog box](../../dlg/unpivot/index), and converts columns into rows by flattening the CSV data.
+This command displays the [Unpivot dialog box](../../dlg/unpivot/index), and converts columns into rows by flattening the CSV data.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Advanced** \> **Unpivot**
-- [All Commands](../tools/all_commands): **CSV** \> **Advanced** \> **Unpivot**
+- Default Menu:CSV \>Advanced \>Unpivot
+- [All Commands](../tools/all_commands):CSV \>Advanced \>Unpivot
 - Toolbar: ![](../../images/unpivot.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_UNPIVOT (4083)
+```
+EEID_UNPIVOT (4083)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4083);
+```
+editor.ExecuteCommandByID(4083);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4083
+```
+editor.ExecuteCommandByID 4083
+```

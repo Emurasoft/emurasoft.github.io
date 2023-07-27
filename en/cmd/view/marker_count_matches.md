@@ -1,32 +1,37 @@
 # Count Marker Matches command
 
-### Summary
+## Summary
 
-> Counts matches of all markers in the current document.
+Counts matches of all markers in the current document.
 
-### Description
+## Description
 
-> Counts matches of all markers in the current document.
+Counts matches of all markers in the current document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Markers**
-\> **Count Matches**
+- [All Commands](../tools/all_commands):View \>Markers
+\>Count Matches
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MARKER\_COUNT\_MATCHES (4042)
+```
+EEID_MARKER_COUNT_MATCHES (4042)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4042);
+```
+editor.ExecuteCommandByID(4042);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4042
+```
+editor.ExecuteCommandByID 4042
+```

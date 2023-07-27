@@ -2,13 +2,19 @@
 
 從剪貼簿上用指定的格式檢索數據。
 
-#### \[JavaScript\]
+## 
 
-_sData_ = clipboardData. **getData**( _sDataFormat_, _iPos_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+sData = clipboardData.getData( sDataFormat, iPos );
+```
 
-_sData_ = clipboardData. **getData**( _sDataFormat_, _iPos_ )
+### \[VBScript\]
+
+```
+sData = clipboardData.getData( sDataFormat, iPos )
+```
 
 ## 參數
 
@@ -29,53 +35,45 @@ _iPos_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 str = clipboardData.getData("Text");
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 str = clipboardData.getData("Text")
-
 下列巨集顯示剪貼簿記錄，并且選擇一個項目會插入該文本內容。
+```
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 menu = CreatePopupMenu();
-
 i = 0;
-
 do {
-
 str = clipboardData.getData("text", i);
-
 if( str.length == 0 ) break;
-
 str = str.substr( 0, 40 )
-
 menu.Add( str, i + 100 );
-
 i++;
-
 } while( 1 );
-
 result = menu.Track( 0 );
-
 if( result != 0 ) {
-
 s = clipboardData.getData("text", result - 100);
-
 document.write( s );
-
 }
-
 下列巨集把剪貼簿內容粘貼為 HTML 格式。
+```
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 str = clipboardData.getData("html");
-
 document.selection.Text = str;
+```
 
 ## 版本
 

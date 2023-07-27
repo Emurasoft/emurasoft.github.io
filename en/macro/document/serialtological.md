@@ -1,14 +1,20 @@
 # SerialToLogical Method (Document Object)
 
-Converts a serial position to the logical coordinates, and retrieves the position in the [**Point** object](../point/index).
+Converts a serial position to the logical coordinates, and retrieves the position in the [Point object](../point/index).
 
-#### \[JavaScript\]
+## 
 
-_point_ = document. **SerialToLogical**( _nSerialPos_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+point = document.SerialToLogical( nSerialPos );
+```
 
-_point_ = document. **SerialToLogical**( _nSerialPos_ )
+### \[VBScript\]
+
+```
+point = document.SerialToLogical( nSerialPos )
+```
 
 ## Parameters
 
@@ -18,21 +24,21 @@ Specifies the serial position, which is one-based index of the character from th
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 point = document.SerialToLogical( 10 );
-
 x = point.x;
-
 y = point.y;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 point = document.SerialToLogical( 10 )
-
 x = point.x
-
 y = point.y
+```
 
 ## Version
 

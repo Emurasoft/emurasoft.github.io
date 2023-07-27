@@ -1,31 +1,36 @@
 # Sort/Remove Duplicate Split Strings in Selection command
 
-### Summary
+## Summary
 
-> Sorts or removes duplicate split strings in the selection.
+Sorts or removes duplicate split strings in the selection.
 
-### Description
+## Description
 
-> Sorts or removes duplicate split strings in the selection. The [**Sort Selection** dialog box](../../dlg/sort_sel/index) will appear when this command is selected.
+Sorts or removes duplicate split strings in the selection. The [Sort Selection dialog box](../../dlg/sort_sel/index) will appear when this command is selected.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Sort** \> **Sort/Remove Duplicate Split Strings in Selection**
-- [All Commands](../tools/all_commands): **Sort** \> **Sort/Remove Duplicate Split Strings in Selection**
+- Default Menu:Sort \>Sort/Remove Duplicate Split Strings in Selection
+- [All Commands](../tools/all_commands):Sort \>Sort/Remove Duplicate Split Strings in Selection
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SORT\_SEL (23237)
+```
+EEID_SORT_SEL (23237)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(23237);
+```
+editor.ExecuteCommandByID(23237);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 23237
+```
+editor.ExecuteCommandByID 23237
+```

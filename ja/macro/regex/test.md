@@ -2,15 +2,21 @@
 
 正規表現が指定する文字列にマッチするかどうかをテストします。
 
-#### \[JavaScript\]
+## 
 
-_b_  = reg. **Test**( _strText_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b  = reg.Test( strText );
+```
 
-_b_  = reg. **Test**( _strText_ )
+### \[VBScript\]
 
-#### パラメータ
+```
+b  = reg.Test( strText )
+```
+
+### パラメータ
 
 _strText_
 
@@ -22,34 +28,28 @@ _strText_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 re = editor.regex;
-
 re.Engine = eeExFindRegexOnigmo;
-
-re.Pattern = "^\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\\.\[A-Z\]{2,}$";
-
+re.Pattern = "^[A-Z0-9.\%+-]+@[A-Z0-9.-]+\\\.[A-Z]{2,}$";
 re.IgnoreCase = true;
-
 b = re.Test( "john@test.com" );
-
 if( b ) alert( "the regular expression matched" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set re = editor.regex
-
 re.Engine = eeExFindRegexOnigmo
-
-re.Pattern = "^\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\.\[A-Z\]{2,}$"
-
+re.Pattern = "^[A-Z0-9.\%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}$"
 re.IgnoreCase = True
-
 b = re.Test( "john@test.com" )
-
 If b Then alert( "the regular expression matched" )
+```
 
-#### バージョン
+### バージョン
 
 EmEditor Professional Version 15.9 以上で利用できます。

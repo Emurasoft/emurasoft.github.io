@@ -1,20 +1,22 @@
 # NoSpaceEdge プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の **\[ウィンドウ左端に空白を入れない\]** チェック ボックスに相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[ウィンドウ左端に空白を入れない\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **NoSpaceEdge**;
+### \[JavaScript\]
 
-object. **NoSpaceEdge** = _b_;
+```
+b = object.NoSpaceEdge;
+object.NoSpaceEdge = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **NoSpaceEdge**
-
-object. **NoSpaceEdge** = _b_
+```
+b = object.NoSpaceEdge
+object.NoSpaceEdge = b
+```
 
 ## バージョン
 

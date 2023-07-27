@@ -1,31 +1,36 @@
 # 目前文檔中的上一個書籤（周圍）命令
 
-### 摘要
+## 摘要
 
-> 轉到目前的文檔前一書籤處，如果找不到，就轉到目前的文檔最後一個書籤處。
+轉到目前的文檔前一書籤處，如果找不到，就轉到目前的文檔最後一個書籤處。
 
-### 說明
+## 說明
 
-> 轉到目前的文檔前一書籤處，如果找不到，就轉到目前的文檔最後一個書籤處。
+轉到目前的文檔前一書籤處，如果找不到，就轉到目前的文檔最後一個書籤處。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **書籤** \> **上一個書籤（周圍）**
-- [全部命令](../tools/all_commands): **書籤** \> **上一個書籤（周圍）**
+- 預設功能表:書籤 \>上一個書籤（周圍）
+- [全部命令](../tools/all_commands):書籤 \>上一個書籤（周圍）
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_BOOKMARK\_PREV\_AROUND (4000)
+```
+EEID_BOOKMARK_PREV_AROUND (4000)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4000);
+```
+editor.ExecuteCommandByID(4000);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4000
+```
+editor.ExecuteCommandByID 4000
+```

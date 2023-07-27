@@ -1,20 +1,24 @@
 # Enabled Property (AssociationProp Object)
 
-Corresponds to the **Enable**
-**Association** check box in the
-[**Association** page](../../dlg/properties/associate/index) of Configuration Properties.
+Corresponds to theEnable
+Association check box in the
+[Association page](../../dlg/properties/associate/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Enabled**;
+### \[JavaScript\]
 
-object. **Enabled** = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Enabled**
-
-object. **Enabled** = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## Version
 

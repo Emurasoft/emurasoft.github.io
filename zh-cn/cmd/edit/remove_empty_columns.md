@@ -1,14 +1,14 @@
 # 删除空列命令
 
-### 摘要
+## 摘要
 
-> 删除 CSV 文档中的空列。
+删除 CSV 文档中的空列。
 
-### 说明
+## 说明
 
-> 删除 CSV 文档中的空列。
+删除 CSV 文档中的空列。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): 无
@@ -16,16 +16,21 @@
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_REMOVE\_EMPTY\_COLUMNS (4062)
+```
+EEID_REMOVE_EMPTY_COLUMNS (4062)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4062);
+```
+editor.ExecuteCommandByID(4062);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4062
+```
+editor.ExecuteCommandByID 4062
+```

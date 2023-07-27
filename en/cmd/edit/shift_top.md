@@ -1,32 +1,37 @@
 # Top Extend command
 
-### Summary
+## Summary
 
-> Extends the selection to the top of the document.
+Extends the selection to the top of the document.
 
-### Description
+## Description
 
-> Extends the selection to the top of the document.
+Extends the selection to the top of the document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-> **Top Extend**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+>Top Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+HOME
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_TOP (4184)
+```
+EEID_SHIFT_TOP (4184)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.StartOfDocument(true);
+```
+document.selection.StartOfDocument(true);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.StartOfDocument true
+```
+document.selection.StartOfDocument true
+```

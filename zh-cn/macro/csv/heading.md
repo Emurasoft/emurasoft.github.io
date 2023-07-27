@@ -1,18 +1,22 @@
 # Heading 属性 (Csv ����)
 
-与在自定义对话框中 [**CSV 格式** 页面](../../dlg/customize/csv/index) 上的 **列标题** 文本框对应。
+与在自定义对话框中 [CSV 格式 页面](../../dlg/customize/csv/index) 上的列标题 文本框对应。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Heading**;
+### \[JavaScript\]
 
-object. **Heading** = _n_;
+```
+n = object.Heading;
+object.Heading = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Heading**
-
-object. **Heading** = _n_
+```
+n = object.Heading
+object.Heading = n
+```
 
 ## 版本
 

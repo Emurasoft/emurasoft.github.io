@@ -1,14 +1,20 @@
 # Config 屬性 (Document ��H)
 
-檢索 [**Config** 對象](../config/index)。
+檢索 [Config 對象](../config/index)。
 
-#### \[JavaScript\]
+## 
 
-_cfg_ = document. **Config;**
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+cfg = document.Config;
+```
 
-Set _cfg_ = document. **Config**
+### \[VBScript\]
+
+```
+Set cfg = document.Config
+```
 
 ## 版本
 

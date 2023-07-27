@@ -2,13 +2,19 @@
 
 アイテムを追加します。
 
-#### \[JavaScript\]
+## 
 
-list. **Add**( _nKey_, _nFlags_, _nCommand_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Add( nKey, nFlags, nCommand );
+```
 
-list. **Add** _nKey_, _nFlags_, _nCommand_
+### \[VBScript\]
+
+```
+list.Add nKey, nFlags, nCommand
+```
 
 ## パラメータ
 

@@ -1,14 +1,14 @@
 # \[列の削除\] コマンド
 
-### 概要
+## 概要
 
-> 選択列または現在列を削除します。
+選択列または現在列を削除します。
 
-### 説明
+## 説明
 
-> 選択列または現在列を削除します。
+選択列または現在列を削除します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[削除\] \- \[列の削除\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DELETE\_COLULMN (3962)
+```
+EEID_DELETE_COLULMN (3962)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3962);
+```
+editor.ExecuteCommandByID(3962);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3962
+```
+editor.ExecuteCommandByID 3962
+```

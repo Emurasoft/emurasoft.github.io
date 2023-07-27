@@ -2,13 +2,19 @@
 
 Creates a popup menu.
 
-#### \[JavaScript\]
+## 
 
-_popupmenu_ = **CreatePopupMenu**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu =CreatePopupMenu();
+```
 
-Set _popupmenu_ = **CreatePopupMenu**
+### \[VBScript\]
+
+```
+Set popupmenu =CreatePopupMenu
+```
 
 ## Return Values
 

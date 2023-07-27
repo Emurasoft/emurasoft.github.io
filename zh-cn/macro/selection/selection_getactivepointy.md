@@ -2,13 +2,19 @@
 
 返回光标位置处的行号。
 
-#### \[JavaScript\]
+## 
 
-yPos = document.selection. **GetActivePointY**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos = document.selection.GetActivePointY( nFlags [, iSel ] );
+```
 
-yPos = document.selection. **GetActivePointY**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+yPos = document.selection.GetActivePointY( nFlags [, iSel ] )
+```
 
 ## 参数
 

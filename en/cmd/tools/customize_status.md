@@ -1,34 +1,39 @@
 # Customize Status command
 
-### Summary
+## Summary
 
-> Opens the Status page of the Customize dialog box.
+Opens the Status page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the Status page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the Status page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**Status**
+- [All Commands](all_commands):Tools >
+Customize >
+Status
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_STATUS (9045)
+```
+EEID_CUSTOMIZE_STATUS (9045)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9045);
+```
+editor.ExecuteCommandByID(9045);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9045
+```
+editor.ExecuteCommandByID 9045
+```

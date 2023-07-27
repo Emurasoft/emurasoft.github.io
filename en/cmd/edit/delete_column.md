@@ -1,32 +1,37 @@
 # Delete Columns command
 
-### Summary
+## Summary
 
-> Deletes the selected columns or the current column.
+Deletes the selected columns or the current column.
 
-### Description
+## Description
 
-> Deletes the selected columns or the current column.
+Deletes the selected columns or the current column.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Delete**
-\> **Delete Columns**
+- [All Commands](../tools/all_commands):Edit \>Delete
+\>Delete Columns
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DELETE\_COLUMN (3962)
+```
+EEID_DELETE_COLUMN (3962)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3962);
+```
+editor.ExecuteCommandByID(3962);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3962
+```
+editor.ExecuteCommandByID 3962
+```

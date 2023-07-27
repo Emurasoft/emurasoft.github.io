@@ -2,13 +2,19 @@
 
 現在行のタグにジャンプします。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **TagJump**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.TagJump();
+```
 
-document.selection. **TagJump**
+### \[VBScript\]
+
+```
+document.selection.TagJump
+```
 
 ## バージョン
 

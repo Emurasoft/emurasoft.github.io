@@ -1,32 +1,37 @@
 # Customize Plug-ins command
 
-### Summary
+## Summary
 
-> Customizes Plug-ins.
+Customizes Plug-ins.
 
-### Description
+## Description
 
-> Displays the [**Customize Plug-ins** \
-> dialog box](../../dlg/plugins/index), where you can customize the plug-ins settings.
+Displays the [Customize Plug-ins \
+dialog box](../../dlg/plugins/index), where you can customize the plug-ins settings.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Plug-ins** \> **Customize Plug-ins**
-- [All Commands](all_commands): **Plug-ins** \> **Customize Plug-ins**
+- Default Menu:Plug-ins \>Customize Plug-ins
+- [All Commands](all_commands):Plug-ins \>Customize Plug-ins
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_PLUG\_INS (4238)
+```
+EEID_CUSTOMIZE_PLUG_INS (4238)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4238);
+```
+editor.ExecuteCommandByID(4238);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4238
+```
+editor.ExecuteCommandByID 4238
+```

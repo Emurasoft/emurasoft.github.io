@@ -8,16 +8,16 @@ Editor\_CustomBarClose( HWND hwnd, UINT nCustomBarID );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _nCustomBarID_
 
-> 指定要關閉的自訂顯示條。這會是 Editor\_CustomBarOpen 內嵌函式的返回值。
+指定要關閉的自訂顯示條。這會是 Editor\_CustomBarOpen 內嵌函式的返回值。
 
 ## 返回值
 
-> 如果消息成功，返回值為非零值。如果該消息不成功，返回值為零。
+如果消息成功，返回值為非零值。如果該消息不成功，返回值為零。
 
 ## 支持版本
 
-> 支持 EmEditor 6.00 或之後的版本。
+支持 EmEditor 6.00 或之後的版本。

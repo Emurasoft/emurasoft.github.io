@@ -1,34 +1,39 @@
 # Save and Close All command
 
-### Summary
+## Summary
 
-> Saves and Close all open files.
+Saves and Close all open files.
 
-### Description
+## Description
 
-> Saves and closes all open files. This command is equivalent to the
-> [**Save All** command](file_save_all) followed by the
-> [**Close All** command](exit_all).
+Saves and closes all open files. This command is equivalent to the
+[Save All command](file_save_all) followed by the
+[Close All command](exit_all).
 
-### How to Run
+## How to Run
 
-- Default Menu: **File** \> **Save and Close All**
-- [All Commands](../tools/all_commands): **File** \> **Close**
-\> **Save and Close All**
+- Default Menu:File \>Save and Close All
+- [All Commands](../tools/all_commands):File \>Close
+\>Save and Close All
 - Toolbar: ![](../../images/saveexitall.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+E
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SAVE\_EXIT\_ALL (4118)
+```
+EEID_SAVE_EXIT_ALL (4118)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4118);
+```
+editor.ExecuteCommandByID(4118);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4118
+```
+editor.ExecuteCommandByID 4118
+```

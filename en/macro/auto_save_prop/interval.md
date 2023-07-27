@@ -2,17 +2,21 @@
 
 Corresponds to the Minutes text box in the Auto Save page of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Interval**;
+### \[JavaScript\]
 
-object. **Interval** = _n_;
+```
+n = object.Interval;
+object.Interval = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Interval**
-
-object. **Interval** = _n_
+```
+n = object.Interval
+object.Interval = n
+```
 
 ## Version
 

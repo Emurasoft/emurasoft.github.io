@@ -3,17 +3,21 @@
 Retrieves or sets the flag to indicate whether EmEditor adds the Unicode
 signature (BOM) next time it saves the document.
 
-#### \[JavaScript\]
+## 
 
-_bUnicodeSignature_ = document. **UnicodeSignature**;
+### \[JavaScript\]
 
-document. **UnicodeSignature** = _bUnicodeSignature_;
+```
+bUnicodeSignature = document.UnicodeSignature;
+document.UnicodeSignature = bUnicodeSignature;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bUnicodeSignature_ = document. **UnicodeSignature**
-
-document. **UnicodeSignature** = _bUnicodeSignature_
+```
+bUnicodeSignature = document.UnicodeSignature
+document.UnicodeSignature = bUnicodeSignature
+```
 
 ## Version
 

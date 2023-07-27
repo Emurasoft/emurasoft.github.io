@@ -1,20 +1,22 @@
 # ShowOnlyActive 속성 (ScrollProp ��ü)
 
-구성 속성 [**스크롤** 탭](../../dlg/properties/scroll/index) 의 **활성 창에서만 스크롤 바 보이기** 체크 박스에 해당합니다.
+구성 속성 [스크롤 탭](../../dlg/properties/scroll/index) 의활성 창에서만 스크롤 바 보이기 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowOnlyActive**;
+### \[JavaScript\]
 
-object. **ShowOnlyActive** = _b_;
+```
+b = object.ShowOnlyActive;
+object.ShowOnlyActive = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowOnlyActive**
-
-object. **ShowOnlyActive** = _b_
+```
+b = object.ShowOnlyActive
+object.ShowOnlyActive = b
+```
 
 ## 버전
 

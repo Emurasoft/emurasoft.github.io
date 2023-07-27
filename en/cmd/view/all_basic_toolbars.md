@@ -1,32 +1,37 @@
 # Toggle All Basic Toolbars command
 
-### Summary
+## Summary
 
-> Shows or hides all basic toolbars.
+Shows or hides all basic toolbars.
 
-### Description
+## Description
 
-> Shows or hides all basic toolbars.
+Shows or hides all basic toolbars.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Toolbars** \> **All Basic Toolbars**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **All Basic Toolbars**
+- Default Menu:View \>Toolbars \>All Basic Toolbars
+- [All Commands](../tools/all_commands):View >
+Toolbars \>All Basic Toolbars
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ALL\_BASIC\_TOOLBARS (4068)
+```
+EEID_ALL_BASIC_TOOLBARS (4068)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4068);
+```
+editor.ExecuteCommandByID(4068);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4068
+```
+editor.ExecuteCommandByID 4068
+```

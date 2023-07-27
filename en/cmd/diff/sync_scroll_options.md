@@ -1,32 +1,37 @@
 # Synchronize Scrolling with Options command
 
-### Summary
+## Summary
 
-> Starts Synchronize Scrolling Wizard to synchronize scrolling between the
-> two most recently viewed documents.
+Starts Synchronize Scrolling Wizard to synchronize scrolling between the
+two most recently viewed documents.
 
-### Description
+## Description
 
-> Starts Synchronize Scrolling Wizard to synchronize scrolling between the two most recently viewed documents with the ability to specify options.
+Starts Synchronize Scrolling Wizard to synchronize scrolling between the two most recently viewed documents with the ability to specify options.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Synchronize Scrolling with Options**
-- [All Commands](../tools/all_commands): **Compare** \> **Synchronize Scrolling with Options**
+- Default Menu:Compare \>Synchronize Scrolling with Options
+- [All Commands](../tools/all_commands):Compare \>Synchronize Scrolling with Options
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SYNC\_SCROLL\_OPTIONS (4496)
+```
+EEID_SYNC_SCROLL_OPTIONS (4496)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4496);
+```
+editor.ExecuteCommandByID(4496);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4496
+```
+editor.ExecuteCommandByID 4496
+```

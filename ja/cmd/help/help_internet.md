@@ -1,14 +1,14 @@
 # \[Web ヘルプ\] コマンド
 
-### 概要
+## 概要
 
-> Web ヘルプを表示します。
+Web ヘルプを表示します。
 
-### 説明
+## 説明
 
-> Web ヘルプを表示します。
+Web ヘルプを表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ヘルプ\] \- \[Web ヘルプ\]
 - [すべてのコマンド](../../glossary/allcommands): \[ヘルプ\] \- \[Web ヘルプ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_HELP\_INTERNET (3932)
+```
+EEID_HELP_INTERNET (3932)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3932);
+```
+editor.ExecuteCommandByID(3932);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3932
+```
+editor.ExecuteCommandByID 3932
+```

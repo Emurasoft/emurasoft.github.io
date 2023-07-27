@@ -1,31 +1,36 @@
 # Search Commands command
 
-### Summary
+## Summary
 
-> Opens the **Quick Launch** window and selects the **Commands** mode.
+Opens theQuick Launch window and selects theCommands mode.
 
-### Description
+## Description
 
-> Opens the **Quick Launch** window and selects the **Commands** mode.
+Opens theQuick Launch window and selects theCommands mode.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Help** \> **Search Commands**
-- [All Commands](all_commands): **Help** \> **Search Commands**
+- Default Menu:Help \>Search Commands
+- [All Commands](all_commands):Help \>Search Commands
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+C
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_QL\_COMMANDS (3951)
+```
+EEID_QL_COMMANDS (3951)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3951);
+```
+editor.ExecuteCommandByID(3951);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3951
+```
+editor.ExecuteCommandByID 3951
+```

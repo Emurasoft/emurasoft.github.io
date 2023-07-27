@@ -2,17 +2,21 @@
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[検出最大行数\] テキスト ボックス に相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **MaxDetectLines**;
+### \[JavaScript\]
 
-object. **MaxDetectLines** = _n_;
+```
+n = object.MaxDetectLines;
+object.MaxDetectLines = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **MaxDetectLines**
-
-object. **MaxDetectLines** = _n_
+```
+n = object.MaxDetectLines
+object.MaxDetectLines = n
+```
 
 ## バージョン
 

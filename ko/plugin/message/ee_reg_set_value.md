@@ -13,13 +13,13 @@ wParam = 0;
 
 _pRegSetValueInfo_
 
-> [REG\_SET\_VALUE\_INFO 구조](../structure/reg_set_value_info) 에 대한 포인터입니다.
+[REG\_SET\_VALUE\_INFO 구조](../structure/reg_set_value_info) 에 대한 포인터입니다.
 
 ## 반환 값
 
-> 메시지가 성공한 경우, 반환 값은 ERROR\_SUCCESS입니다.
->
-> 메시지가 실패한 경우, 반환 값은 Winerror.h에서 정의된 0이아닌 오류 코드입니다.
+메시지가 성공한 경우, 반환 값은 ERROR\_SUCCESS입니다.
+
+메시지가 실패한 경우, 반환 값은 Winerror.h에서 정의된 0이아닌 오류 코드입니다.
 
 ## 버전
 

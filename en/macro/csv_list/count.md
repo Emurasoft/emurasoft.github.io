@@ -2,23 +2,33 @@
 
 Retrieves the number of Csv objects.
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = editor.CsvList. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = editor.CsvList.Count;
+```
 
-_nCount_ = editor.CsvList. **Count**
+### \[VBScript\]
+
+```
+nCount = editor.CsvList.Count
+```
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Number of Csv objects: " + editor.CsvList.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Number of Csv objects: " & editor.CsvList.Count
+```
 
 ## Version
 

@@ -2,17 +2,21 @@
 
 Specifies the script of the font.
 
-#### \[JavaScript\]
+## 
 
-_n_ = item. **Script**;
+### \[JavaScript\]
 
-item. **Script** = _n_;
+```
+n = item.Script;
+item.Script = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = item. **Script**
-
-item. **Script** = _n_
+```
+n = item.Script
+item.Script = n
+```
 
 ## Version
 

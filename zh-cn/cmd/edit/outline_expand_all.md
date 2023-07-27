@@ -1,31 +1,36 @@
 # 全部展开命令
 
-### 摘要
+## 摘要
 
-> 当显示大纲视图时展开整个文档。
+当显示大纲视图时展开整个文档。
 
-### 说明
+## 说明
 
-> 当显示大纲视图时，这个命令会展开整个文档。要使用该功能，先要启用大纲来显示大纲视图。
+当显示大纲视图时，这个命令会展开整个文档。要使用该功能，先要启用大纲来显示大纲视图。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **编辑** \> **大纲** \> **全部展开**
-- [所有命令](../tools/all_commands): **编辑** \> **大纲** \> **全部展开**
+- 默认菜单:编辑 \>大纲 \>全部展开
+- [所有命令](../tools/all_commands):编辑 \>大纲 \>全部展开
 - 工具栏: ![](../../images/outline_exp.gif)
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_OUTLINE\_EXPAND\_ALL (4411)
+```
+EEID_OUTLINE_EXPAND_ALL (4411)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4411);
+```
+editor.ExecuteCommandByID(4411);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4411
+```
+editor.ExecuteCommandByID 4411
+```

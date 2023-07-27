@@ -2,13 +2,19 @@
 
 Retrieves the active string where the mouse pointer is hovered.
 
-#### \[JavaScript\]
+## 
 
-document. **ActiveString**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.ActiveString;
+```
 
-document. **ActiveString**
+### \[VBScript\]
+
+```
+document.ActiveString
+```
 
 ## Version
 

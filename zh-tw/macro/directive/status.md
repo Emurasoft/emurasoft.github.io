@@ -8,19 +8,27 @@
 
 _id_
 
-> 指定用於查詢狀態的命令 ID 的整數值。 此值等同于 QueryStatusByID 方法的 _nID_ 參數。
+指定用於查詢狀態的命令 ID 的整數值。 此值等同于 QueryStatusByID 方法的 _nID_ 參數。
 
 ## 示例
 
 該巨集模擬自動復制命令 (ID = 3979)。當啟用自動復制功能時，會選中巨集功能表和工具列上的按鈕。當關閉自動復制功能時，不會選中巨集功能表和工具列上的按鈕。
 
-#### \[JavaScript\]
+### \[JavaScript\]
+
+```
+```
 
 #status = 3979
 
 editor.ExecuteCommandByID(3979);   // 3979 = EEID\_AUTO\_COPY
 
-#### \[VBScript\]
+## 
+
+### \[VBScript\]
+
+```
+```
 
 #status = 3979
 

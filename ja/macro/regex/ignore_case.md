@@ -2,17 +2,21 @@
 
 正規表現が大文字小文字の区別を無視するかどうかを設定または取得します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = reg. **IgnoreCase**;
+### \[JavaScript\]
 
-reg. **IgnoreCase** = _b_;
+```
+b = reg.IgnoreCase;
+reg.IgnoreCase = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = reg. **IgnoreCase**;
-
-reg. **IgnoreCase** = _b_;
+```
+b = reg.IgnoreCase;
+reg.IgnoreCase = b;
+```
 
 ## バージョン
 

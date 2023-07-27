@@ -1,14 +1,20 @@
 # document 属性 (Window ����)
 
-返回 [**Document** 对象](../document/index)。
+返回 [Document 对象](../document/index)。
 
-#### \[JavaScript\]
+## 
 
-_doc_ = **document**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc =document;
+```
 
-Set _doc_ = **document**
+### \[VBScript\]
+
+```
+Set doc =document
+```
 
 ## 版本
 

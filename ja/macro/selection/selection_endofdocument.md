@@ -2,13 +2,19 @@
 
 カーソル位置を文書の最後に移動します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **EndOfDocument**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.EndOfDocument( [ bExtend ] );
+```
 
-document.selection. **EndOfDocument** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.EndOfDocument [ bExtend ]
+```
 
 ## 引数
 

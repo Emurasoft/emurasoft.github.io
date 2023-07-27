@@ -2,13 +2,19 @@
 
 關閉文檔。
 
-#### \[JavaScript\]
+## 
 
-document. **Close**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Close();
+```
 
-document. **Close**
+### \[VBScript\]
+
+```
+document.Close
+```
 
 ## 版本
 

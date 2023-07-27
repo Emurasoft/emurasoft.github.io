@@ -4,14 +4,16 @@
 
 この例では、選択した文字列を取得して表示します。
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
+```
 str = document.selection.Text;
-
 alert( str );
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
+```
 str = document.selection.Text
-
 alert str
+```

@@ -2,13 +2,19 @@
 
 指定するファイルが存在すれば true を、存在しなければ false を返します。
 
-#### \[JavaScript\]
+## 
 
-shell. **FileExists**( _strFile_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.FileExists( strFile );
+```
 
-shell. **FileExists** _strFile_
+### \[VBScript\]
+
+```
+shell.FileExists strFile
+```
 
 ## パラメータ
 
@@ -18,13 +24,17 @@ _strFile_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 b = shell.FileExists( "C:\\\Test\\\file.txt" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 b = shell.FileExists( "C:\\Test\\file.txt" )
+```
 
 ## バージョン
 

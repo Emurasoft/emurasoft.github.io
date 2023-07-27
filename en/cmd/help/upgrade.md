@@ -1,33 +1,38 @@
 # Upgrade command
 
-### Summary
+## Summary
 
-> Upgrades this product to EmEditor Professional.
+Upgrades this product to EmEditor Professional.
 
-### Description
+## Description
 
-> Upgrades this product to EmEditor Professional. This command is not available in EmEditor Professional.
+Upgrades this product to EmEditor Professional. This command is not available in EmEditor Professional.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Help** >
-**Upgrade**
-- [All Commands](../tools/all_commands): **Help** >
-**Upgrade**
+- Default Menu:Help >
+Upgrade
+- [All Commands](../tools/all_commands):Help >
+Upgrade
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_HELP\_UPGRADE (3845)
+```
+EEID_HELP_UPGRADE (3845)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3845);
+```
+editor.ExecuteCommandByID(3845);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3845
+```
+editor.ExecuteCommandByID 3845
+```

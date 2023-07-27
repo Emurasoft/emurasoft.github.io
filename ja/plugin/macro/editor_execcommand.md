@@ -8,12 +8,12 @@ Editor\_ExecCommand( HWND hwnd, UINT nCmdID );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _nCmdID_
 
-> 実行するIDの [コマンドID](../cmdid/index) を指定します。
+実行するIDの [コマンドID](../cmdid/index) を指定します。
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。

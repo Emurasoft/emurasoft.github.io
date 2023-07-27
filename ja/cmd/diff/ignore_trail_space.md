@@ -1,14 +1,14 @@
 # \[行末の空白を無視\] コマンド
 
-### 概要
+## 概要
 
-> 文書比較時、行末の空白を無視します。
+文書比較時、行末の空白を無視します。
 
-### 説明
+## 説明
 
-> 文書比較時、行末の空白を無視します。
+文書比較時、行末の空白を無視します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[比較\] \- \[行末の空白を無視\]
 - [すべてのコマンド](../../glossary/allcommands): \[比較\] \- \[行末の空白を無視\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_IGNORE\_TRAIL\_SPACE (4499)
+```
+EEID_IGNORE_TRAIL_SPACE (4499)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4499);
+```
+editor.ExecuteCommandByID(4499);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4499
+```
+editor.ExecuteCommandByID 4499
+```

@@ -1,20 +1,22 @@
 # CamelCase 속성 (SpellProp ��ü)
 
-구성 속성의 [**맞춤법** 탭](../../dlg/properties/spell/index) 의 **CamelCase 지원** 체크 박스에 해당합니다.
+구성 속성의 [맞춤법 탭](../../dlg/properties/spell/index) 의CamelCase 지원 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **CamelCase**;
+### \[JavaScript\]
 
-object. **CamelCase** = _b_;
+```
+b = object.CamelCase;
+object.CamelCase = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **CamelCase**
-
-object. **CamelCase** = _b_
+```
+b = object.CamelCase
+object.CamelCase = b
+```
 
 ## 버전
 

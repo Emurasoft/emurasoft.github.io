@@ -1,32 +1,37 @@
 # 自定义标记 \- 自动标记 命令
 
-### 摘要
+## 摘要
 
-> 显示 **自定义标记** 对话框并选择 **自动标记** 页面。
+显示自定义标记 对话框并选择自动标记 页面。
 
-### 说明
+## 说明
 
-> 显示 [**自定义标记** 对话框](../../dlg/customize_markers/index)，并选择 **自动标记** 页面。
+显示 [自定义标记 对话框](../../dlg/customize_markers/index)，并选择自动标记 页面。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](all_commands): **工具**
-\> **自定义标记** \> **自动标记**
+- [所有命令](all_commands):工具
+\>自定义标记 \>自动标记
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_CUSTOMIZE\_MARKERS\_AUTO (3957)
+```
+EEID_CUSTOMIZE_MARKERS_AUTO (3957)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3957);
+```
+editor.ExecuteCommandByID(3957);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3957
+```
+editor.ExecuteCommandByID 3957
+```

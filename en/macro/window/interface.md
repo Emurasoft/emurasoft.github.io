@@ -1,14 +1,20 @@
 # Interface Property (Window Object)
 
-Returns the [**Interface** Object](../interface/index).
+Returns the [Interface Object](../interface/index).
 
-#### \[JavaScript\]
+## 
 
-_obj_ = **Interface**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj =Interface;
+```
 
-Set _obj_ = **Interface**
+### \[VBScript\]
+
+```
+Set obj =Interface
+```
 
 ## Version
 

@@ -1,18 +1,22 @@
 # Footer 속성 (PrintProp ��ü)
 
-구성 속성 [**인쇄** 탭](../../dlg/properties/print/index) 의 **바닥글** 텍스트 박스에 해당합니다.
+구성 속성 [인쇄 탭](../../dlg/properties/print/index) 의바닥글 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Footer**;
+### \[JavaScript\]
 
-object. **Footer** = _s_;
+```
+s = object.Footer;
+object.Footer = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Footer**
-
-object. **Footer** = _s_
+```
+s = object.Footer
+object.Footer = s
+```
 
 ## 버전
 

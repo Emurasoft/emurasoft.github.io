@@ -1,32 +1,37 @@
 # Insert Spaces for Tabs command
 
-### Summary
+## Summary
 
-> Inserts spaces for tabs.
+Inserts spaces for tabs.
 
-### Description
+## Description
 
-> Inserts spaces instead of a tab character to indent when the Tab key is pressed.
+Inserts spaces instead of a tab character to indent when the Tab key is pressed.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Tab/Indent** \> **Insert Spaces for Tabs**
-- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Insert Spaces for Tabs**
+- Default Menu:View \>Tab/Indent \>Insert Spaces for Tabs
+- [All Commands](../tools/all_commands):View \>Tab/Indent \>Insert Spaces for Tabs
 - Toolbar:
 ![](../../images/space_tab24x16.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_TOGGLE\_SPACES\_TAB (4541)
+```
+EEID_TOGGLE_SPACES_TAB (4541)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4541);
+```
+editor.ExecuteCommandByID(4541);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4541
+```
+editor.ExecuteCommandByID 4541
+```

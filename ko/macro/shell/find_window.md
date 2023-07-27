@@ -2,13 +2,19 @@
 
 클래스 이름 및/또는 창 제목으로 최상위 [Window 개체](../window/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-wnd = shell. **FindWindow**( _strClass_, _strCaption_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd = shell.FindWindow( strClass, strCaption );
+```
 
-wnd = shell. **FindWindow**( _strClass_, _strCaption_ )
+### \[VBScript\]
+
+```
+wnd = shell.FindWindow( strClass, strCaption )
+```
 
 ## 매개 변수
 
@@ -22,17 +28,19 @@ _strCaption_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnd = shell.FindWindow( "", "Calculator" );
-
 wnd.SetForeground();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd = shell.FindWindow( "", "Calculator" )
-
 wnd.SetForeground
+```
 
 ## 버전
 

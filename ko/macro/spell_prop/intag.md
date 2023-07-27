@@ -1,20 +1,22 @@
 # InTag 속성 (SpellProp ��ü)
 
-구성 속성의 [**맞춤법** 탭](../../dlg/properties/spell/index) 의 **태그** 체크 박스에 해당합니다.
+구성 속성의 [맞춤법 탭](../../dlg/properties/spell/index) 의태그 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **InTag**;
+### \[JavaScript\]
 
-object. **InTag** = _b_;
+```
+b = object.InTag;
+object.InTag = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **InTag**
-
-object. **InTag** = _b_
+```
+b = object.InTag
+object.InTag = b
+```
 
 ## 버전
 

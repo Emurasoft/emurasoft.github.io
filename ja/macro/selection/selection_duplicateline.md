@@ -2,13 +2,19 @@
 
 現在行を 2 重化します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **DuplicateLine**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.DuplicateLine();
+```
 
-document.selection. **DuplicateLine**
+### \[VBScript\]
+
+```
+document.selection.DuplicateLine
+```
 
 ## バージョン
 

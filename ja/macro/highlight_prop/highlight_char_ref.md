@@ -1,19 +1,23 @@
 # HighlightCharRef プロパティ (HighlightProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の
-**\[HTML/XML文字参照とUCNを強調する\]** チェック ボックスに相当します。
+設定のプロパティの [\[強調(2)\] タブ](../../dlg/properties/highlight2/index) の
+\[HTML/XML文字参照とUCNを強調する\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **HighlightCharRef**;
+### \[JavaScript\]
 
-object. **HighlightCharRef** = _b_;
+```
+b = object.HighlightCharRef;
+object.HighlightCharRef = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **HighlightCharRef**
-
-object. **HighlightCharRef** = _b_
+```
+b = object.HighlightCharRef
+object.HighlightCharRef = b
+```
 
 ## バージョン
 

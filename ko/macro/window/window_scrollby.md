@@ -2,13 +2,19 @@
 
 지정된 상대적인 양만큼 창을 스크롤합니다.
 
-#### \[JavaScript\]
+## 
 
-**scrollBy**( _dx_, _dy_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+scrollBy( dx, dy);
+```
 
-**scrollBy** _dx_, _dy_
+### \[VBScript\]
+
+```
+scrollBy dx, dy
+```
 
 ## 매개 변수
 

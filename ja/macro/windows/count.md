@@ -2,23 +2,33 @@
 
 ウィンドウの数を取得します。
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = shell.windows. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = shell.windows.Count;
+```
 
-_nCount_ = shell.windows. **Count**
+### \[VBScript\]
+
+```
+nCount = shell.windows.Count
+```
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "ウィンドウの数: " + shell.windows.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "ウィンドウの数: " & shell.windows.Count
+```
 
 ## バージョン
 

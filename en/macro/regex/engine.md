@@ -10,17 +10,21 @@ The value must be one of the following values.
 | eeExFindRegexBoost | Uses Boost.Regex as the regular expression engine. |
 | eeExFindRegexOnigmo | Uses Onigmo as the regular expression engine. |
 
-#### \[JavaScript\]
+## 
 
-_n_ = reg. **Engine**;
+### \[JavaScript\]
 
-reg. **Engine** = _n_;
+```
+n = reg.Engine;
+reg.Engine = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = reg. **Engine**;
-
-reg. **Engine** = _n_;
+```
+n = reg.Engine;
+reg.Engine = n;
+```
 
 ## Version
 

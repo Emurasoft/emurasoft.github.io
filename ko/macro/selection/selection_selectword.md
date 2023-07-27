@@ -2,13 +2,19 @@
 
 커서 위치에 단어 전체를 선택합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectWord**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectWord();
+```
 
-document.selection. **SelectWord**
+### \[VBScript\]
+
+```
+document.selection.SelectWord
+```
 
 ## 버전
 

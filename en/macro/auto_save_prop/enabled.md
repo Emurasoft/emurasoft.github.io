@@ -1,19 +1,23 @@
 # Enabled Property (AutoSaveProp Object)
 
-Corresponds to the **Auto**
-**Save** check box in the [**Auto Save** page](../../dlg/properties/autosave/index) of Configuration Properties.
+Corresponds to theAuto
+Save check box in the [Auto Save page](../../dlg/properties/autosave/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Enabled**;
+### \[JavaScript\]
 
-object. **Enabled** = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Enabled**
-
-object. **Enabled** = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## Version
 

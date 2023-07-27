@@ -1,14 +1,14 @@
 # \[この文書の次のブックマーク\] コマンド
 
-### 概要
+## 概要
 
-> この文書の次のブックマークに移動します。
+この文書の次のブックマークに移動します。
 
-### 説明
+## 説明
 
-> この文書の次のブックマークに移動します。同じ文書に次のブックマークが存在しない場合は、カーソル位置は移動しません。
+この文書の次のブックマークに移動します。同じ文書に次のブックマークが存在しない場合は、カーソル位置は移動しません。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ブックマーク\] \- \[この文書の次のブックマーク\]
 - [すべてのコマンド](../../glossary/allcommands): \[ブックマーク\] \- \[この文書の次のブックマーク\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_BOOKMARK\_NEXT\_WITHIN (4351)
+```
+EEID_BOOKMARK_NEXT_WITHIN (4351)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.NextBookmark();
+```
+document.selection.NextBookmark();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.NextBookmark
+```
+document.selection.NextBookmark
+```

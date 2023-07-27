@@ -2,13 +2,19 @@
 
 EmEditor の設定に応じて、レジストリまたは INI ファイルから、指定する文字列値を取得します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _strDefault_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = editor.GetProfileInt( nKey, strConfig, strEntry, strDefault );
+```
 
-_str_ = editor. **GetProfileInt**( _nKey_, _strConfig_, _strEntry_, _strDefault_ )
+### \[VBScript\]
+
+```
+str = editor.GetProfileInt( nKey, strConfig, strEntry, strDefault )
+```
 
 ## パラメータ
 

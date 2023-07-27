@@ -3,13 +3,19 @@
 일치하는 문자열을 위해 여러 파일을 검색합니다. 검색된 파일의 결과 목록은 현재 창에 표시됩니다.
 문서가 저장되지 않은 경우, 이 메서드는 파일을 저장할지 여부를 확인하는 메시지를 나타냅니다.
 
-#### \[JavaScript\]
+## 
 
-editor. **FindInFiles**( _strFind_, _strPath_, _nFlags_, _nEncoding_, _strFilesToIgnore_  );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.FindInFiles( strFind, strPath, nFlags, nEncoding, strFilesToIgnore  );
+```
 
-editor. **FindInFiles** _strFind_, _strPath_, _nFlags_, _nEncoding_, _strFilesToIgnore_
+### \[VBScript\]
+
+```
+editor.FindInFiles strFind, strPath, nFlags, nEncoding, strFilesToIgnore
+```
 
 ## 매개 변수
 
@@ -43,7 +49,7 @@ _nFlags_
 
 _nEncoding_
 
-**[인코딩 상수](../const/const_encoding)** 에서 선택하거나 Windows 운영 체제에서 사용되는 코드 페이지를 지정합니다.
+[인코딩 상수](../const/const_encoding) 에서 선택하거나 Windows 운영 체제에서 사용되는 코드 페이지를 지정합니다.
 
 _strFilesToIgnore_
 

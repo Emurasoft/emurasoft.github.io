@@ -2,13 +2,19 @@
 
 Selects an entire word at the cursor.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectWord**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectWord();
+```
 
-document.selection. **SelectWord**
+### \[VBScript\]
+
+```
+document.selection.SelectWord
+```
 
 ## Version
 

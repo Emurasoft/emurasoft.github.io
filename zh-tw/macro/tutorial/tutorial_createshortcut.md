@@ -4,7 +4,9 @@
 
 下面的示例代碼在桌面上創建一個已打開的檔案的捷徑。
 
-#### \[JavaScript (JScript)\]
+## 
+
+### \[JavaScript (JScript)\]
 
 if( document.FullName == "" ) {
 
@@ -33,32 +35,23 @@ oShellLink.Save();
 
 }
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 If document.FullName = "" Then
-
 alert "The file is untitled."
-
 Else
-
 Set WshShell = CreateObject( "WScript.Shell" )
-
 strDesktop = WshShell.SpecialFolders("Desktop")
-
 set oShellLink = WshShell.CreateShortcut(strDesktop &
 "\\Shortcut to My File.lnk")
-
 oShellLink.TargetPath = document.FullName
-
 oShellLink.WindowStyle = 1
-
 oShellLink.Description = "Shortcut to My File"
-
 oShellLink.WorkingDirectory = strDesktop
-
 oShellLink.Save
-
 End If
+```
 
 ## 參考
 

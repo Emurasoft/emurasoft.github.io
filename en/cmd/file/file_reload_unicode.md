@@ -1,36 +1,41 @@
 # Reload as UTF-16LE command
 
-### Summary
+## Summary
 
-> Reloads the current file using Unicode (UTF-16LE) encoding.
+Reloads the current file using Unicode (UTF-16LE) encoding.
 
-### Description
+## Description
 
-> This command reloads the current file from the disk using Unicode (UTF-16LE) encoding. If the document is changed within EmEditor, the prompt message
-> "Are you sure you want to abandon changes?" appears. Selecting **Yes**
-> will abandon the changes without saving, and will reload the new contents.
-> Selecting **No** will abort reloading and will allow you to continue
-> editing the document.
+This command reloads the current file from the disk using Unicode (UTF-16LE) encoding. If the document is changed within EmEditor, the prompt message
+"Are you sure you want to abandon changes?" appears. SelectingYes
+will abandon the changes without saving, and will reload the new contents.
+SelectingNo will abort reloading and will allow you to continue
+editing the document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **File** \> **Reload** \> **UTF-16LE**
-- [All Commands](../tools/all_commands): **File** \> **Reload UTF-16LE**
+- Default Menu:File \>Reload \>UTF-16LE
+- [All Commands](../tools/all_commands):File \>Reload UTF-16LE
 - Toolbar: ![](../../images/reload.gif) (on
-the arrow) > **UTF-16LE**
-- Status Bar: (double-click on the **Encoding**) \> **UTF-16LE**
+the arrow) >UTF-16LE
+- Status Bar: (double-click on theEncoding) \>UTF-16LE
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_RELOAD\_UNICODE (4257)
+```
+EEID_FILE_RELOAD_UNICODE (4257)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4257);
+```
+editor.ExecuteCommandByID(4257);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4257
+```
+editor.ExecuteCommandByID 4257
+```

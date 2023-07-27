@@ -1,20 +1,22 @@
 # LineColumnMode 속성 (GeneralProp ��ü)
 
-구성 속성 [**일반** 탭](../../dlg/properties/general/index) 의 **선과 열을 다음으로 나타냅니다 드롭 다운** 리스트 박스에 해당합니다.
+구성 속성 [일반 탭](../../dlg/properties/general/index) 의선과 열을 다음으로 나타냅니다 드롭 다운 리스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ _Mode_ =
-object. **LineColumnMode**;
+### \[JavaScript\]
 
-object. **LineColumnMode** = _nMode_;
+```
+n Mode = object.LineColumnMode;
+object.LineColumnMode = nMode;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nMode_ =
-object. **LineColumnMode**
-
-object. **LineColumnMode** = _nMode_
+```
+nMode = object.LineColumnMode
+object.LineColumnMode = nMode
+```
 
 ## 매개 변수
 

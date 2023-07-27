@@ -1,14 +1,14 @@
 # \[選択開始位置と終了位置を切り替える\] コマンド
 
-### 概要
+## 概要
 
-> 選択開始位置と終了位置を切り替えます。
+選択開始位置と終了位置を切り替えます。
 
-### 説明
+## 説明
 
-> 選択開始位置と終了位置を切り替えます。
+選択開始位置と終了位置を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択モード\] \-
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Shift + F8
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SWITCH\_START\_END\_SELECT (3850)
+```
+EEID_SWITCH_START_END_SELECT (3850)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3850);
+```
+editor.ExecuteCommandByID(3850);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3850
+```
+editor.ExecuteCommandByID 3850
+```

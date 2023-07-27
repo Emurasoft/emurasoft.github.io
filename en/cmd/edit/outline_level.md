@@ -1,44 +1,45 @@
 # Level 2 - 16 commands
 
-### Summary
+## Summary
 
-> Collapses or expands to the specified level (2 - 16) in the entire document while outlining is displayed.
+Collapses or expands to the specified level (2 - 16) in the entire document while outlining is displayed.
 
-### Description
+## Description
 
-> Collapses or expands to the specified level (2 - 16) in the entire document while outlining is displayed. A plug-in for outlining is necessary to display outlining.
+Collapses or expands to the specified level (2 - 16) in the entire document while outlining is displayed. A plug-in for outlining is necessary to display outlining.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit**
-\> **Outlining**
-\> **Level 2 - 5**
-- [All Commands](../tools/all_commands): **Edit**
-\> **Outlining**
-\> **Level**
-\> **Level 2 - 16**
+- Default Menu:Edit
+\>Outlining
+\>Level 2 - 5
+- [All Commands](../tools/all_commands):Edit
+\>Outlining
+\>Level
+\>Level 2 - 16
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_OUTLINE\_LEVEL\_2 (8832) - ID\_OUTLINE\_LEVEL\_16 (8846)
+```
+EEID_OUTLINE_LEVEL_2 (8832) - ID_OUTLINE_LEVEL_16 (8846)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8832);
->
-> \-
->
-> editor.ExecuteCommandByID(8846);
+```
+editor.ExecuteCommandByID(8832);
+\-
+editor.ExecuteCommandByID(8846);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8832
->
-> \-
->
-> editor.ExecuteCommandByID 8846
+```
+editor.ExecuteCommandByID 8832
+\-
+editor.ExecuteCommandByID 8846
+```

@@ -1,31 +1,36 @@
 # Ignore Encodings command
 
-### Summary
+## Summary
 
-> Ignores encodings when comparing documents.
+Ignores encodings when comparing documents.
 
-### Description
+## Description
 
-> Ignores encodings when comparing documents.
+Ignores encodings when comparing documents.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Ignore Encodings**
-- [All Commands](../tools/all_commands): **Compare** \> **Ignore Encodings**
+- Default Menu:Compare \>Ignore Encodings
+- [All Commands](../tools/all_commands):Compare \>Ignore Encodings
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_IGNORE\_ENCODING (4504)
+```
+EEID_IGNORE_ENCODING (4504)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4504);
+```
+editor.ExecuteCommandByID(4504);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4504
+```
+editor.ExecuteCommandByID 4504
+```

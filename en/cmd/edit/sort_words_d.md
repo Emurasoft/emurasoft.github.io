@@ -1,31 +1,36 @@
 # Sort Most to Fewest Words command
 
-### Summary
+## Summary
 
-> Sorts text at the current column by the number of words in descending order.
+Sorts text at the current column by the number of words in descending order.
 
-### Description
+## Description
 
-> Sorts text at the current column by the number of words in descending order.
+Sorts text at the current column by the number of words in descending order.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Sort** \> **Sort Most to Fewest Words**
-- [All Commands](../tools/all_commands): **Sort** \> **Sort Most to Fewest Words**
+- Default Menu:Sort \>Sort Most to Fewest Words
+- [All Commands](../tools/all_commands):Sort \>Sort Most to Fewest Words
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SORT\_WORDS\_D (3946)
+```
+EEID_SORT_WORDS_D (3946)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3946);
+```
+editor.ExecuteCommandByID(3946);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3946
+```
+editor.ExecuteCommandByID 3946
+```

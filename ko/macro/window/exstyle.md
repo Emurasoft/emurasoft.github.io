@@ -2,13 +2,19 @@
 
 지정된 창의 확장 스타일을 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ = wnd. **ExStyle**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = wnd.ExStyle;
+```
 
-_n_ = wnd. **ExStyle**
+### \[VBScript\]
+
+```
+n = wnd.ExStyle
+```
 
 ## 버전
 

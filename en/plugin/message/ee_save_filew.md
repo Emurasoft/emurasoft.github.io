@@ -14,16 +14,16 @@ lParam = (LPARAM) (LPWSTR) szFileName;
 
 _bReplace_
 
-> Specifies TRUE if the text will be saved as by a specified name, and the
-> file name EmEditor holds and the title shown on the EmEditor Window will be
-> changed. Specifies FALSE if the copy of the text is saved, and the file name
-> EmEditor holds will not be changed.
+Specifies TRUE if the text will be saved as by a specified name, and the
+file name EmEditor holds and the title shown on the EmEditor Window will be
+changed. Specifies FALSE if the copy of the text is saved, and the file name
+EmEditor holds will not be changed.
 
 _szFileName_
 
-> Specifies a full path file name in bytes.
+Specifies a full path file name in bytes.
 
 ## Return Values
 
-> If it is succeeded, the return value is nonzero. If it isn't succeeded, the
-> return value is zero.
+If it is succeeded, the return value is nonzero. If it isn't succeeded, the
+return value is zero.

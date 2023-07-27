@@ -1,27 +1,28 @@
 # Customize Macros command
 
-### Summary
+## Summary
 
-> Customizes macros.
+Customizes macros.
 
-### Description
+## Description
 
-> Displays the [**Customize Macros** \
-> dialog box](../../dlg/macro_customize/index), where you can customize macro settings.
+Displays the [Customize Macros \
+dialog box](../../dlg/macro_customize/index), where you can customize macro settings.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Macros** \> **Customize**
-- [All Commands](../tools/all_commands): **Macros**
-\> **Customize**
+- Default Menu:Macros \>Customize
+- [All Commands](../tools/all_commands):Macros
+\>Customize
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_MACRO (4350)
+```
+EEID_CUSTOMIZE_MACRO (4350)```
 
-### Macros
+## Macros
 
-> Not available.
+Not available.

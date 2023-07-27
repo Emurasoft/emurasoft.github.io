@@ -2,13 +2,19 @@
 
 添加一個新的子功能表到功能表末尾。
 
-#### \[JavaScript\]
+## 
 
-popupmenu. **AddPopup**( _strText_, _submenu_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu.AddPopup( strText, submenu);
+```
 
-popupmenu. **AddPopup** _strText_, _submenu_
+### \[VBScript\]
+
+```
+popupmenu.AddPopup strText, submenu
+```
 
 ## 參數
 

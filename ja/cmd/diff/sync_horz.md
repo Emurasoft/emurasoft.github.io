@@ -1,14 +1,14 @@
 # \[水平同期スクロール\] コマンド
 
-### 概要
+## 概要
 
-> 水平同期スクロールを同期します。
+水平同期スクロールを同期します。
 
-### 説明
+## 説明
 
-> 水平同期スクロールを同期します。
+水平同期スクロールを同期します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[比較\] \- \[水平同期スクロール\]
 - [すべてのコマンド](../../glossary/allcommands): \[比較\] \- \[水平同期スクロール\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SYNC\_HORZ (4506)
+```
+EEID_SYNC_HORZ (4506)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4506);
+```
+editor.ExecuteCommandByID(4506);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4506
+```
+editor.ExecuteCommandByID 4506
+```

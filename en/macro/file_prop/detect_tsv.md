@@ -1,19 +1,23 @@
 # DetectTSV Property (FileProp Object)
 
-Corresponds to the **Detect TSV (Tab-Separated)** check box in the
-[**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theDetect TSV (Tab-Separated) check box in the
+[File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectTSV**;
+### \[JavaScript\]
 
-object. **DetectTSV** = _b_;
+```
+b = object.DetectTSV;
+object.DetectTSV = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectTSV**
-
-object. **DetectTSV** = _b_
+```
+b = object.DetectTSV
+object.DetectTSV = b
+```
 
 ## Version
 

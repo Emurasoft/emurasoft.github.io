@@ -2,17 +2,21 @@
 
 設置或檢索全域標幟。
 
-#### \[JavaScript\]
+## 
 
-_b_ = reg. **Global**;
+### \[JavaScript\]
 
-reg. **Global** = _b_;
+```
+b = reg.Global;
+reg.Global = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = reg. **Global**;
-
-reg. **Global** = _b_;
+```
+b = reg.Global;
+reg.Global = b;
+```
 
 ## 版本
 

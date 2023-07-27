@@ -9,16 +9,16 @@ Editor\_DevToView( HWND hwnd, POINT\_PTR\* pptDev, POINT\_PTR\* pptView );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _pptDev_
 
-> 指针指向一个指定要被转换的设备坐标的 [POINT\_PTR 结构](../structure/point_ptr)。
+指针指向一个指定要被转换的设备坐标的 [POINT\_PTR 结构](../structure/point_ptr)。
 
 _pptView_
 
-> 指针指向一个 [POINT\_PTR 结构](../structure/point_ptr) 来接收转换后的显示坐标。
+指针指向一个 [POINT\_PTR 结构](../structure/point_ptr) 来接收转换后的显示坐标。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

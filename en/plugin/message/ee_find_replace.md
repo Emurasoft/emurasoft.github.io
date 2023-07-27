@@ -13,16 +13,16 @@ lParam = (LPARAM) (FIND\_REPLACE\_INFO\*) pFindReplaceInfo;
 
 _pBatchInfo_
 
-> Pointer to the [BATCH\_INFO structure](../structure/batch_info). This parameter can be NULL if no batch search is specified.
+Pointer to the [BATCH\_INFO structure](../structure/batch_info). This parameter can be NULL if no batch search is specified.
 
 _pFindReplaceInfo_
 
-> Pointer to the [FIND\_REPLACE\_INFO structure](../structure/find_replace_info). If pBatchInfo is not NULL, this parameter can specify the array of FIND\_REPLACE\_INFO structures.
+Pointer to the [FIND\_REPLACE\_INFO structure](../structure/find_replace_info). If pBatchInfo is not NULL, this parameter can specify the array of FIND\_REPLACE\_INFO structures.
 
 ## Return Values
 
-> Returns S\_OK if the searched string is found, S\_FALSE if not found. The return value is a negative value if an error occurs. The negative value includes E\_ABORT if a user cancels the search, and E\_FAIL if a fatal error occurs.
+Returns S\_OK if the searched string is found, S\_FALSE if not found. The return value is a negative value if an error occurs. The negative value includes E\_ABORT if a user cancels the search, and E\_FAIL if a fatal error occurs.
 
 ## Version
 
-> Supported on Version 15.7 or later.
+Supported on Version 15.7 or later.

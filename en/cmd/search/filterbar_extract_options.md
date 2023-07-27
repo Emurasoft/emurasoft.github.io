@@ -1,32 +1,37 @@
 # Extract Options (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Specifies options for the Extract Matched Strings command.
+Specifies options for the Extract Matched Strings command.
 
-### Description
+## Description
 
-> Specifies options for the Extract Matched Strings command.
+Specifies options for the Extract Matched Strings command.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Extract Options**
-- Toolbar: ![](../../images/extract_all.png) (Filter toolbar) >  **Extract Options**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Extract Options
+- Toolbar: ![](../../images/extract_all.png) (Filter toolbar) > Extract Options
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_EXTRACT\_OPTIONS (4086)
+```
+EEID_FILTERBAR_EXTRACT_OPTIONS (4086)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4086);
+```
+editor.ExecuteCommandByID(4086);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4086
+```
+editor.ExecuteCommandByID 4086
+```

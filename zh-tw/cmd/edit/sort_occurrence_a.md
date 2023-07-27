@@ -1,31 +1,36 @@
 # 按出現次數升序排序命令
 
-### 摘要
+## 摘要
 
-> 把目前的欄中的出現次數按升序排序。
+把目前的欄中的出現次數按升序排序。
 
-### 說明
+## 說明
 
-> 把目前的欄中的出現次數按升序排序。
+把目前的欄中的出現次數按升序排序。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **排序** \> **按出現次數升序排序**
-- [全部命令](../tools/all_commands): **排序** \> **按出現次數升序排序**
+- 預設功能表:排序 \>按出現次數升序排序
+- [全部命令](../tools/all_commands):排序 \>按出現次數升序排序
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_SORT\_OCCURRENCE\_A (4001)
+```
+EEID_SORT_OCCURRENCE_A (4001)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4001);
+```
+editor.ExecuteCommandByID(4001);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4001
+```
+editor.ExecuteCommandByID 4001
+```

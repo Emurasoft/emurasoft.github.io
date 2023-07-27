@@ -1,14 +1,14 @@
 # \[文末へ\] コマンド
 
-### 概要
+## 概要
 
-> 文末へ移動します。
+文末へ移動します。
 
-### 説明
+## 説明
 
-> カーソル位置を文末へ移動します。
+カーソル位置を文末へ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[垂直にカーソル移動\] \- \[文末へ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+End
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_BOTTOM (4169)
+```
+EEID_BOTTOM (4169)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.EndOfDocument(false);
+```
+document.selection.EndOfDocument(false);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.EndOfDocument false
+```
+document.selection.EndOfDocument false
+```

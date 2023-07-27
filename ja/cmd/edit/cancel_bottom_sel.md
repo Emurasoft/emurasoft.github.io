@@ -1,14 +1,14 @@
 # \[複数選択から文末の選択を解除します\] コマンド
 
-### 概要
+## 概要
 
-> 複数選択から文末の選択をキャンセルします。
+複数選択から文末の選択をキャンセルします。
 
-### 説明
+## 説明
 
-> 複数選択から文末の選択をキャンセルします。
+複数選択から文末の選択をキャンセルします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択範囲の変更\] \- \[複数選択から文末の選択を解除します\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+Ctrl+Shift+下
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CANCEL\_BOTTOM\_SEL (4031)
+```
+EEID_CANCEL_BOTTOM_SEL (4031)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4031);
+```
+editor.ExecuteCommandByID(4031);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4031
+```
+editor.ExecuteCommandByID 4031
+```

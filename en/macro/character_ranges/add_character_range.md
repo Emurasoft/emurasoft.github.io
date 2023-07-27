@@ -2,13 +2,19 @@
 
 Adds a character range.
 
-#### \[JavaScript\]
+## 
 
-list. **AddCharacterRange**( _nMin_, _nMax_, _sProperties_, _sTreatAs_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.AddCharacterRange( nMin, nMax, sProperties, sTreatAs );
+```
 
-list. **AddCharacterRange** _nMin_, _nMax_, _sProperties_, _sTreatAs_
+### \[VBScript\]
+
+```
+list.AddCharacterRange nMin, nMax, sProperties, sTreatAs
+```
 
 ## Parameters
 

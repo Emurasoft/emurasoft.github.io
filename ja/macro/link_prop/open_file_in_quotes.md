@@ -1,20 +1,22 @@
 # OpenFileInQuotes 繝励Ο繝代ユ繧｣ (LinkProp オブジェクト)
 
-Corresponds to the **Clicking a File Name in Quotes Opens the File** check box in the [**Link** tab](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to theClicking a File Name in Quotes Opens the File check box in the [Link tab](../../dlg/properties/link/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **OpenFileInQuotes**;
+### \[JavaScript\]
 
-object. **OpenFileInQuotes** = _b_;
+```
+b = object.OpenFileInQuotes;
+object.OpenFileInQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **OpenFileInQuotes**
-
-object. **OpenFileInQuotes** = _b_
+```
+b = object.OpenFileInQuotes
+object.OpenFileInQuotes = b
+```
 
 ## Version
 

@@ -2,13 +2,19 @@
 
 選択範囲に含まれる数の平均を取得します。
 
-#### \[JavaScript\]
+## 
 
-_v_ = document.selection. **Average**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+v = document.selection.Average;
+```
 
-_v_ = document.selection. **Average**
+### \[VBScript\]
+
+```
+v = document.selection.Average
+```
 
 ## バージョン
 

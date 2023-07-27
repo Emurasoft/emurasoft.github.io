@@ -1,32 +1,37 @@
 # 文档底部命令
 
-### 摘要
+## 摘要
 
-> 移动光标到当前文档的底部。
+移动光标到当前文档的底部。
 
-### 说明
+## 说明
 
-> 移动光标到当前文档的末尾。
+移动光标到当前文档的末尾。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands): **编辑** \> **垂直移动光标**
-\> **文档底部**
+- [所有命令](../tools/all_commands):编辑 \>垂直移动光标
+\>文档底部
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: CTRL+END
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_BOTTOM (4169)
+```
+EEID_BOTTOM (4169)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.EndOfDocument(false);
+```
+document.selection.EndOfDocument(false);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.EndOfDocument false
+```
+document.selection.EndOfDocument false
+```

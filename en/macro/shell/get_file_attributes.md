@@ -2,13 +2,19 @@
 
 Returns the attributes of a specified file or folder.
 
-#### \[JavaScript\]
+## 
 
-nAttr = shell. **GetFileAttributes**( _strFile_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nAttr = shell.GetFileAttributes( strFile );
+```
 
-nAttr = shell. **GetFileAttributes**( _strFile_ )
+### \[VBScript\]
+
+```
+nAttr = shell.GetFileAttributes( strFile )
+```
 
 ## Parameters
 
@@ -18,13 +24,17 @@ The full path and name of a file or folder to retrieve the attributes.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nAttr = shell.GetFileAttributes( "C:\\\Test\\\file.txt" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 nAttr = shell.GetFileAttributes( "C:\\Test\\file.txt" )
+```
 
 ## Return Value
 

@@ -2,13 +2,19 @@
 
 設置關閉位置。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SetActivePoint**( _nFlags_, _xPos_, _yPos_\[, _bExtend_ \[ \[, _bExtend_ \] , iSel \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SetActivePoint( nFlags, xPos, yPos[, bExtend [ [, bExtend ] , iSel ] );
+```
 
-document.selection. **SetActivePoint** _nFlags_, _xPos_, _yPos_\[, _bExtend_ \[ \[, _bExtend_ \] , iSel \]
+### \[VBScript\]
+
+```
+document.selection.SetActivePoint nFlags, xPos, yPos[, bExtend [ [, bExtend ] , iSel ]
+```
 
 ## 參數
 

@@ -2,13 +2,19 @@
 
 スクロール バーを指定する位置に移動します。
 
-#### \[JavaScript\]
+## 
 
-**scrollTo**( _x_, _y_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+scrollTo( x, y);
+```
 
-**scrollTo** _x_, _y_
+### \[VBScript\]
+
+```
+scrollTo x, y
+```
 
 ## パラメータ
 

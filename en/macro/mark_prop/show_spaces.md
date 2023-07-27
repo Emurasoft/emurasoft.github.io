@@ -1,22 +1,24 @@
 # ShowSpaces Property (MarkProp Object)
 
-Corresponds to the **Show**
-**Spaces** check box in the
-[**Marks** tab](../../dlg/properties/marks/index) of Configuration Properties.
+Corresponds to theShow
+Spaces check box in the
+[Marks tab](../../dlg/properties/marks/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowSpaces**;
+### \[JavaScript\]
 
-object. **ShowSpaces** = _b_;
+```
+b = object.ShowSpaces;
+object.ShowSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowSpaces**
-
-object. **ShowSpaces** = _b_
+```
+b = object.ShowSpaces
+object.ShowSpaces = b
+```
 
 ## Version
 

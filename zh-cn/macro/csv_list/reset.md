@@ -2,13 +2,19 @@
 
 将集合重置为默认值。
 
-#### \[JavaScript\]
+## 
 
-list. **Reset**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Reset();
+```
 
-list. **Reset**
+### \[VBScript\]
+
+```
+list.Reset
+```
 
 ## 版本
 

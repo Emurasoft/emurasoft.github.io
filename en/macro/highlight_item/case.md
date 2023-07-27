@@ -1,22 +1,24 @@
 # Case Property (HighlightItem Object)
 
-Corresponds to the **Match**
-**Case** check box in the
-[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to theMatch
+Case check box in the
+[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Case**;
+### \[JavaScript\]
 
-item. **Case** = _b_;
+```
+b = item.Case;
+item.Case = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Case**
-
-item. **Case** = _b_
+```
+b = item.Case
+item.Case = b
+```
 
 ## Version
 

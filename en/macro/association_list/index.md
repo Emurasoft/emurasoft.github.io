@@ -6,37 +6,35 @@ AssociationList collection provides a collection of [AssociationItem objects](..
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | Retrieves the number of items. |
-| **[Item](item)** | Retrieves the [AssociationItem object](../association_item/index) for the specified index. |
+|[Count](count) | Retrieves the number of items. |
+|[Item](item) | Retrieves the [AssociationItem object](../association_item/index) for the specified index. |
 
 ## Methods
 
 |     |     |
 | --- | --- |
-| **[Add](add)** | Adds an item. |
-| **[Remove](remove)** | Removes an item. |
+|[Add](add) | Adds an item. |
+|[Remove](remove) | Removes an item. |
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Association.List );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Association.List
-
 alert item.Name
-
 Next
+```
 
 ## Version
 

@@ -1,33 +1,38 @@
 # 尋找上一個命令
 
-### 摘要
+## 摘要
 
-> 尋找上一個符合。
+尋找上一個符合。
 
-### 說明
+## 說明
 
-> 用同樣的參數尋找與之前搜尋過的字串相同的上一個符合。
+用同樣的參數尋找與之前搜尋過的字串相同的上一個符合。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **搜尋** \> **上一個**
-- [全部命令](../tools/all_commands): **搜尋**
-\> **上一個**
+- 預設功能表:搜尋 \>上一個
+- [全部命令](../tools/all_commands):搜尋
+\>上一個
 - Toolbar:
 ![](../../images/editrepeatback.gif)
 - 狀態列: 無
 - 預設捷徑: SHIFT+F3
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_EDIT\_REPEAT\_BACK (4203)
+```
+EEID_EDIT_REPEAT_BACK (4203)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.FindRepeat(eeFindRepeatPrevious);
+```
+document.selection.FindRepeat(eeFindRepeatPrevious);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.FindRepeat eeFindRepeatPrevious
+```
+document.selection.FindRepeat eeFindRepeatPrevious
+```

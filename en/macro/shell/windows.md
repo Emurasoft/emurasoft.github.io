@@ -2,13 +2,19 @@
 
 Returns the top-level [Windows collection](../windows/index).
 
-#### \[JavaScript\]
+## 
 
-wnds = shell. **windows**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnds = shell.windows;
+```
 
-wnds = shell. **windows**
+### \[VBScript\]
+
+```
+wnds = shell.windows
+```
 
 ## Version
 

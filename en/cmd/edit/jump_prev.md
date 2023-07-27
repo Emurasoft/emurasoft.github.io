@@ -1,32 +1,37 @@
 # Jump Previous command
 
-### Summary
+## Summary
 
-> Jumps to the previous location in the Output Bar.
+Jumps to the previous location in the Output Bar.
 
-### Description
+## Description
 
-> Jumps to the previous location in the Output Bar.
+Jumps to the previous location in the Output Bar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
-\> **Jump Previous**
+- [All Commands](../tools/all_commands):Edit \>Advanced
+\>Jump Previous
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+F4
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_JUMP\_PREV (4443)
+```
+EEID_JUMP_PREV (4443)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4443);
+```
+editor.ExecuteCommandByID(4443);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4443
+```
+editor.ExecuteCommandByID 4443
+```

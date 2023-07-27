@@ -1,14 +1,14 @@
 # \[1行下へ移動\] コマンド
 
-### 概要
+## 概要
 
-> 選択行または現在の行を下へ1行移動します。
+選択行または現在の行を下へ1行移動します。
 
-### 説明
+## 説明
 
-> 選択行または現在の行を下へ1行移動します。
+選択行または現在の行を下へ1行移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[移動\] \- \[1行下へ移動\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+Down
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- ID\_MOVE\_LINE\_DOWN (3859)
+```
+ID_MOVE_LINE_DOWN (3859)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(3859);
+```
+editor.ExecuteCommandByID(3859);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 3859
+```
+editor.ExecuteCommandByID 3859
+```

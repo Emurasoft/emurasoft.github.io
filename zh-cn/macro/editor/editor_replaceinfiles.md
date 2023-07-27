@@ -2,13 +2,19 @@
 
 在多个文件中替换文本。
 
-#### \[JavaScript\]
+## 
 
-nFound = editor. **ReplaceInFiles**( _strFind_, _strReplace_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _strBackupPath_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = editor.ReplaceInFiles( strFind, strReplace, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ strBackupPath, [ nExFlags, [ nLimit ] ] ] ] ] );
+```
 
-nFound = editor. **ReplaceInFiles** _strFind_, _strReplace_, _strPath_, _nFlags_, \[ _nEncoding_, \[ _strFilesToIgnore_, \[ _strBackupPath_, \[ _nExFlags_, \[ _nLimit_ \] \] \] \] \]
+### \[VBScript\]
+
+```
+nFound = editor.ReplaceInFiles strFind, strReplace, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ strBackupPath, [ nExFlags, [ nLimit ] ] ] ] ]
+```
 
 ## 参数
 
@@ -46,7 +52,7 @@ _nFlags_
 
 _nEncoding_
 
-从 **[编码常数](../const/const_encoding)** 中选择或指定任何用于 Windows 操作系统的代码页。
+从[编码常数](../const/const_encoding) 中选择或指定任何用于 Windows 操作系统的代码页。
 
 _strFilesToIgnore_
 

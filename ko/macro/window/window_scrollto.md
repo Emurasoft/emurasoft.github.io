@@ -2,13 +2,19 @@
 
 지정된 위치로 창을 스크롤합니다.
 
-#### \[JavaScript\]
+## 
 
-**scrollTo**( _x_, _y_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+scrollTo( x, y);
+```
 
-**scrollTo** _x_, _y_
+### \[VBScript\]
+
+```
+scrollTo x, y
+```
 
 ## 매개 변수
 

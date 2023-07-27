@@ -2,13 +2,19 @@
 
 SQL においての JOIN 操作と同様な方法を使って、2個の CSV 文書を結合して新規文書を作成します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = editor. **Join**( _nFlags_, _strDocument1_, _strColumn1_, _strDocument2_, _strColumn2_, _strSelect_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = editor.Join( nFlags, strDocument1, strColumn1, strDocument2, strColumn2, strSelect );
+```
 
-_n_ = editor. **Join**( _nFlags_, _strDocument1_, _strColumn1_, _strDocument2_, _strColumn2_, _strSelect_ )
+### \[VBScript\]
+
+```
+n = editor.Join( nFlags, strDocument1, strColumn1, strDocument2, strColumn2, strSelect )
+```
 
 ## パラメータ
 

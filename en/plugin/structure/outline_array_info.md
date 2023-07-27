@@ -22,20 +22,20 @@ BYTE\* pLevelData;
 
 _nVersion_
 
-> Reserved. Must be 1.
+Reserved. Must be 1.
 
 _nFlags_
 
-> Reserved. Must be 0.
+Reserved. Must be 0.
 
 _nCount_
 
-> Specifies the number of multiple lines.
+Specifies the number of multiple lines.
 
 _pLevelData_
 
-> Specifies an array of BYTE that specifies the outline levels.
+Specifies an array of BYTE that specifies the outline levels.
 
 ## Version
 
-> Supported in Version 13 or later.
+Supported in Version 13 or later.

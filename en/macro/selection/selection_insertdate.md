@@ -2,13 +2,19 @@
 
 Inserts the current time and date.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **InsertDate**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.InsertDate( nFlags );
+```
 
-document.selection. **InsertDate** \[ _nFlags_ \]
+### \[VBScript\]
+
+```
+document.selection.InsertDate [ nFlags ]
+```
 
 ## Parameters
 
@@ -24,8 +30,8 @@ Specifies a combination of the following values:
 ## Remarks
 
 The formats used for the time and date can be configured in Windows by
-selecting the **Regional & Language Options** in **Control Panel**, then
-selecting **Date & Time**.
+selecting theRegional & Language Options inControl Panel, then
+selectingDate & Time.
 
 ## Version
 

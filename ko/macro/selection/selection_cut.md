@@ -2,13 +2,19 @@
 
 선택된 텍스트를 클립보드로 복사하고 기존의 위치에서 삭제합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Cut**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Cut();
+```
 
-document.selection. **Cut**
+### \[VBScript\]
+
+```
+document.selection.Cut
+```
 
 ## 버전
 

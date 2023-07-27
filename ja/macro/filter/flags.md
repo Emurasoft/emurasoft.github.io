@@ -11,19 +11,21 @@
 | eeFindReplaceOnlyWord | 単語のみを検索します。 |
 | eeFindReplaceRegExp | 文字列を正規表現で指定します。eeFindReplaceEscSeq と組み合わせて指定できません。 |
 
-#### \[JavaScript\]
+## 
 
-_flag_ =
-item. **Flags**;
+### \[JavaScript\]
 
-item. **Flags** = flags;
+```
+flag = item.Flags;
+item.Flags = flags;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Flags**
-
-item. **Flags** = _n_
+```
+n = item.Flags
+item.Flags = n
+```
 
 ## バージョン
 

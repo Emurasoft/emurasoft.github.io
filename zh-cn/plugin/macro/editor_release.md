@@ -8,12 +8,12 @@ Editor\_Release( HWND hwnd, HINSTANCE hInstance );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _hInstance_
 
-> 指定插件的实例句柄。
+指定插件的实例句柄。
 
 ## 返回值
 
-> 递减之后的返回值是插件的引用号。如果返回值小于或等于零，指定的插件可以安全地从 EmEditor 上被卸载。
+递减之后的返回值是插件的引用号。如果返回值小于或等于零，指定的插件可以安全地从 EmEditor 上被卸载。

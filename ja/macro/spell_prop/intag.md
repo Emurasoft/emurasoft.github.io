@@ -1,20 +1,22 @@
 # InTag プロパティ ()
 
-設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の **\[タグ\]** チェック ボックスに相当します。
+設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の\[タグ\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **InTag**;
+### \[JavaScript\]
 
-object. **InTag** = _b_;
+```
+b = object.InTag;
+object.InTag = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **InTag**
-
-object. **InTag** = _b_
+```
+b = object.InTag
+object.InTag = b
+```
 
 ## バージョン
 

@@ -1,34 +1,39 @@
 # Scroll Properties command
 
-### Summary
+## Summary
 
-> Scroll properties for current configuration.
+Scroll properties for current configuration.
 
-### Description
+## Description
 
-> Displays the [**Scroll** \
-> page](../../dlg/properties/scroll/index) of the **[Configuration Properties](../../dlg/properties/index)**
-> dialog box.
+Displays the [Scroll \
+page](../../dlg/properties/scroll/index) of the[Configuration Properties](../../dlg/properties/index)
+dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Properties for Current Configuration** \> **Scroll**
+- [All Commands](all_commands):Tools >
+Properties for Current Configuration \>Scroll
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PROPERTY\_SCROLL (8961)
+```
+EEID_PROPERTY_SCROLL (8961)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8961);
+```
+editor.ExecuteCommandByID(8961);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8961
+```
+editor.ExecuteCommandByID 8961
+```

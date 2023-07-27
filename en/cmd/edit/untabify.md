@@ -1,33 +1,38 @@
 # Untabify command
 
-### Summary
+## Summary
 
-> Converts tabs to equivalent spaces.
+Converts tabs to equivalent spaces.
 
-### Description
+## Description
 
-> Converts selected tabs at the start of each line to spaces. The
-> number of spaces set for a tab
-> can be set in the [**Tab/Indent** dialog box](../../dlg/properties/general/indent/index).
+Converts selected tabs at the start of each line to spaces. The
+number of spaces set for a tab
+can be set in the [Tab/Indent dialog box](../../dlg/properties/general/indent/index).
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Untabify**
-- [All Commands](../tools/all_commands): **Convert** \> **Untabify**
+- Default Menu:Convert \>Untabify
+- [All Commands](../tools/all_commands):Convert \>Untabify
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_UNTABIFY (4357)
+```
+EEID_UNTABIFY (4357)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Untabify();
+```
+document.selection.Untabify();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Untabify
+```
+document.selection.Untabify
+```

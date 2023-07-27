@@ -1,18 +1,22 @@
 # CsvList プロパティ ()
 
-[**CsvList** コレクション](../csv_list/index) を取得、または設定します。
+[CsvList コレクション](../csv_list/index) を取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_csvs_ = editor. **CsvList**;
+### \[JavaScript\]
 
-editor. **CsvList** = _csvs_;
+```
+csvs = editor.CsvList;
+editor.CsvList = csvs;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Set _csvs_ = editor. **CsvList**
-
-editor. **CsvList** = _csvs_
+```
+Set csvs = editor.CsvList
+editor.CsvList = csvs
+```
 
 ## バージョン
 

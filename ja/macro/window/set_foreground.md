@@ -2,13 +2,19 @@
 
 ウィンドウをフォアグランドに設定します。
 
-#### \[JavaScript\]
+## 
 
-wnd. **SetForeground**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd.SetForeground();
+```
 
-wnd. **SetForeground**
+### \[VBScript\]
+
+```
+wnd.SetForeground
+```
 
 ## バージョン
 

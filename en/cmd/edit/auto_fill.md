@@ -1,31 +1,36 @@
 # AutoFill/AutoRepeat command
 
-### Summary
+## Summary
 
-> Continues a series or pattern into neighboring cells.
+Continues a series or pattern into neighboring cells.
 
-### Description
+## Description
 
-> Continues a series or pattern into neighboring cells.
+Continues a series or pattern into neighboring cells.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **AutoFill/AutoRepeat**
-- [All Commands](../tools/all_commands): **Insert** \> **AutoFill/AutoRepeat**
+- Default Menu:Insert \>AutoFill/AutoRepeat
+- [All Commands](../tools/all_commands):Insert \>AutoFill/AutoRepeat
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_AUTO\_FILL (3992)
+```
+EEID_AUTO_FILL (3992)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3992);
+```
+editor.ExecuteCommandByID(3992);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3992
+```
+editor.ExecuteCommandByID 3992
+```

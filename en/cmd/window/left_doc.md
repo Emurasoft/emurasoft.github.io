@@ -1,33 +1,38 @@
 # Left Document command
 
-### Summary
+## Summary
 
-> Switches to the document at the left side on the tab bar.
+Switches to the document at the left side on the tab bar.
 
-### Description
+## Description
 
-> Switches to the document to the left of the current open document on the tab bar.
+Switches to the document to the left of the current open document on the tab bar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Document Navigation**
-\> **Left Document**
+- [All Commands](../tools/all_commands):Window
+\>Document Navigation
+\>Left Document
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL + SHIFT + F6
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_LEFT\_DOC (4548)
+```
+EEID_LEFT_DOC (4548)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4548);
+```
+editor.ExecuteCommandByID(4548);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4548
+```
+editor.ExecuteCommandByID 4548
+```

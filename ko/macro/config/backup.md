@@ -2,13 +2,19 @@
 
 [BackupProp 개체](../backup_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Backup**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Backup;
+```
 
-_obj_ = object. **Backup**
+### \[VBScript\]
+
+```
+obj = object.Backup
+```
 
 ## 버전
 

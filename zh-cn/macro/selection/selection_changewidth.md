@@ -2,13 +2,19 @@
 
 变更所选取的文本的宽度。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ChangeWidth**( _nFlags_ \[, _szChars_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ChangeWidth( nFlags [, szChars ] );
+```
 
-document.selection. **ChangeWidth** _nFlags_ \[, _szChars_ \]
+### \[VBScript\]
+
+```
+document.selection.ChangeWidth nFlags [, szChars ]
+```
 
 ## 参数
 

@@ -1,32 +1,37 @@
 # 高亮(2)属性命令
 
-### 摘要
+## 摘要
 
-> 当前配置的高亮(2)属性。
+当前配置的高亮(2)属性。
 
-### 说明
+## 说明
 
-> 显示 **[配置属性](../../dlg/properties/index)** 对话框中的 [**高亮(2)** 页面](../../dlg/properties/highlight2/index)。
+显示[配置属性](../../dlg/properties/index) 对话框中的 [高亮(2) 页面](../../dlg/properties/highlight2/index)。
 
-### 运行方法
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](all_commands): **工具** >
-**当前配置属性** \> **高亮(2)**
+- [所有命令](all_commands):工具 >
+当前配置属性 \>高亮(2)
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_PROPERTY\_COMMENT (8969)
+```
+EEID_PROPERTY_COMMENT (8969)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8969);
+```
+editor.ExecuteCommandByID(8969);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8969
+```
+editor.ExecuteCommandByID 8969
+```

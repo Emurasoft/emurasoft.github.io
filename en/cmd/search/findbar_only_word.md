@@ -1,33 +1,38 @@
 # Match Whole Word (Find toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the Match Whole Word button on the Find toolbar.
+Toggles the Match Whole Word button on the Find toolbar.
 
-### Description
+## Description
 
-> Toggles the Match Whole Word button on the Find toolbar. When this command is toggled, searching will return results only when the whole word at the matched location matches the search term.
-> (e.g., "searches" will not be returned as a match for "search")
+Toggles the Match Whole Word button on the Find toolbar. When this command is toggled, searching will return results only when the whole word at the matched location matches the search term.
+(e.g., "searches" will not be returned as a match for "search")
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Toolbar** \> **Search Only Word**
+- [All Commands](../tools/all_commands):Search
+\>Find Toolbar \>Search Only Word
 - Toolbar: ![](../../images/find_only_word.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FINDBAR\_ONLY\_WORD (4576)
+```
+EEID_FINDBAR_ONLY_WORD (4576)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4576);
+```
+editor.ExecuteCommandByID(4576);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4576
+```
+editor.ExecuteCommandByID 4576
+```

@@ -1,15 +1,15 @@
 # \[小さいフォント サイズ\] コマンド
 
-### 概要
+## 概要
 
-> 表示フォントのサイズを小さくします。
+表示フォントのサイズを小さくします。
 
-### 説明
+## 説明
 
-> 表示フォントのサイズを小さくします。フォントの種類と正確なサイズは、 [\[フォントの設定\] \
-> ダイアログ ボックス](../../dlg/properties/font/index) で設定することができます。
+表示フォントのサイズを小さくします。フォントの種類と正確なサイズは、 [\[フォントの設定\] \
+ダイアログ ボックス](../../dlg/properties/font/index) で設定することができます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[フォント\]  \- \[小さいフォント サイズ\]
@@ -17,16 +17,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DECREASE\_FONT\_SIZE (4374)
+```
+EEID_DECREASE_FONT_SIZE (4374)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4374);
+```
+editor.ExecuteCommandByID(4374);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4374
+```
+editor.ExecuteCommandByID 4374
+```

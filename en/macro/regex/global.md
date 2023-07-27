@@ -2,17 +2,21 @@
 
 Sets or retrieves the global flag.
 
-#### \[JavaScript\]
+## 
 
-_b_ = reg. **Global**;
+### \[JavaScript\]
 
-reg. **Global** = _b_;
+```
+b = reg.Global;
+reg.Global = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = reg. **Global**;
-
-reg. **Global** = _b_;
+```
+b = reg.Global;
+reg.Global = b;
+```
 
 ## Version
 

@@ -11,25 +11,23 @@ Documents コレクションは、フレーム ウィンドウに表示されて
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 docs = new Enumerator( editor.Documents );
-
 for( ; !docs.atEnd(); docs.moveNext() ){
-
 doc = docs.item();
-
 alert( doc.Name );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each doc In editor.Documents
-
 alert doc.FullName
-
 Next
+```
 
 ## バージョン
 

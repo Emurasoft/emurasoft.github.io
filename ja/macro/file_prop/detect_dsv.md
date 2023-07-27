@@ -1,18 +1,22 @@
 # DetectDSV プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の **\[DSV (ユーザー定義区切り) を検出\]** チェック ボックスに相当します。
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[DSV (ユーザー定義区切り) を検出\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectDSV**;
+### \[JavaScript\]
 
-object. **DetectDSV** = _b_;
+```
+b = object.DetectDSV;
+object.DetectDSV = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectDSV**
-
-object. **DetectDSV** = _b_
+```
+b = object.DetectDSV
+object.DetectDSV = b
+```
 
 ## バージョン
 

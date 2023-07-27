@@ -1,14 +1,14 @@
 # \[左の文書\] コマンド
 
-### 概要
+## 概要
 
-> 左の文書を表示します。
+左の文書を表示します。
 
-### 説明
+## 説明
 
-> 左の文書を表示します。
+左の文書を表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[文書ナビゲーション\] \- \[左の文書\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+F6
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_LEFT\_DOC (4548)
+```
+EEID_LEFT_DOC (4548)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4548);
+```
+editor.ExecuteCommandByID(4548);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4548
+```
+editor.ExecuteCommandByID 4548
+```

@@ -1,18 +1,22 @@
 # TagEnd 속성 (HighlightProp ��ü)
 
-구성 속성 [**강조 표시 (1)** 탭](../../dlg/properties/highlight1/index) 의 **태그 종료** 텍스트 박스에 해당합니다.
+구성 속성 [강조 표시 (1) 탭](../../dlg/properties/highlight1/index) 의태그 종료 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_str_ = object. **TagEnd**;
+### \[JavaScript\]
 
-object. **TagEnd** = _str_;
+```
+str = object.TagEnd;
+object.TagEnd = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = object. **TagEnd**
-
-object. **TagEnd** = _str_
+```
+str = object.TagEnd
+object.TagEnd = str
+```
 
 ## 버전
 

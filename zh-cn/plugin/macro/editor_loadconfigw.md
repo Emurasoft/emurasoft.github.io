@@ -8,12 +8,12 @@ Editor\_LoadConfigW( HWND hwnd, LPCWSTR szConfigName );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 _szConfigName_
 
-> 指定要重新载入的配置名称。
+指定要重新载入的配置名称。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

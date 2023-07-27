@@ -1,20 +1,22 @@
 # OpenIME プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の **\[かな漢字変換を起動\]** チェック ボックスに相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[かな漢字変換を起動\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **OpenIME**;
+### \[JavaScript\]
 
-object. **OpenIME** = _b_;
+```
+b = object.OpenIME;
+object.OpenIME = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **OpenIME**
-
-object. **OpenIME** = _b_
+```
+b = object.OpenIME
+object.OpenIME = b
+```
 
 ## バージョン
 

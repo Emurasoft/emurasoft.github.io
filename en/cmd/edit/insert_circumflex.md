@@ -1,32 +1,37 @@
 # Insert Circumflex command
 
-### Summary
+## Summary
 
-> Inserts a character with a circumflex accent mark.
+Inserts a character with a circumflex accent mark.
 
-### Description
+## Description
 
-> After selecting this commands, insert a character with a circumflex accent mark (â, ê, î, ô, û, Â, Ê, Î,
-> Ô or Û) at the cursor by typing  a, e, i, o, u, A, E, I, O or U.
+After selecting this commands, insert a character with a circumflex accent mark (â, ê, î, ô, û, Â, Ê, Î,
+Ô or Û) at the cursor by typing  a, e, i, o, u, A, E, I, O or U.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Diacritics** \> **Circumflex**
-- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Circumflex**
+- Default Menu:Insert \>Diacritics \>Circumflex
+- [All Commands](../tools/all_commands):Insert \>Diacritics \>Circumflex
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+6
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT\_CIRCUMFLEX (4305)
+```
+EEID_INSERT_CIRCUMFLEX (4305)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID (4305);
+```
+editor.ExecuteCommandByID (4305);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4305
+```
+editor.ExecuteCommandByID 4305
+```

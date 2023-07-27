@@ -1,34 +1,39 @@
 # Toggle Output Bar command
 
-### Summary
+## Summary
 
-> Shows or hides the output bar.
+Shows or hides the output bar.
 
-### Description
+## Description
 
-> Shows or hides the output bar. The output bar is displayed when an external tool is launched while the
-> [**Use Output Bar** check box](../../dlg/tools/properties/index) is checked.
+Shows or hides the output bar. The output bar is displayed when an external tool is launched while the
+[Use Output Bar check box](../../dlg/tools/properties/index) is checked.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Output**
-- [All Commands](../tools/all_commands): **View** >
-**Output Bar** >
-**Output**
+- Default Menu:View \>Output
+- [All Commands](../tools/all_commands):View >
+Output Bar >
+Output
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: ALT+2
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_VIEW\_OUTPUT (4420)
+```
+EEID_VIEW_OUTPUT (4420)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4420);
+```
+editor.ExecuteCommandByID(4420);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4420
+```
+editor.ExecuteCommandByID 4420
+```

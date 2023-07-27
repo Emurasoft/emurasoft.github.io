@@ -1,20 +1,24 @@
 # QuoteMarks Property (DisplayProp Object)
 
-Corresponds to the **Quote**
-**Marks** text box in the
-[**Display** page](../../dlg/properties/display/index) of Configuration Properties.
+Corresponds to the Quote
+Marks text box in the
+[Display page](../../dlg/properties/display/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **QuoteMarks**;
+### \[JavaScript\]
 
-object. **QuoteMarks** = _s_;
+```
+s = object.QuoteMarks;
+object.QuoteMarks = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **QuoteMarks**
-
-object. **QuoteMarks** = _s_
+```
+s = object.QuoteMarks
+object.QuoteMarks = s
+```
 
 ## Version
 

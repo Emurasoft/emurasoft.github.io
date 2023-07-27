@@ -1,14 +1,14 @@
 # \[タブの自動整列\] コマンド
 
-### 概要
+## 概要
 
-> タブを自動的に整列します。
+タブを自動的に整列します。
 
-### 説明
+## 説明
 
-> このコマンドがチェックされていると、タブを自動的に整列します。
+このコマンドがチェックされていると、タブを自動的に整列します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[タブの整列\] \- \[タブの自動整列\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_AUTO\_SORT (4404)
+```
+EEID_AUTO_SORT (4404)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4404);
+```
+editor.ExecuteCommandByID(4404);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4404
+```
+editor.ExecuteCommandByID 4404
+```

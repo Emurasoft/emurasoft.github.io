@@ -2,13 +2,19 @@
 
 활성화 지점이 하단의 지점과 동일한 지 여부를 나타냅니다.
 
-#### \[JavaScript\]
+## 
 
-_bGreater_ = document.selection. **IsActiveEndGreater**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bGreater = document.selection.IsActiveEndGreater;
+```
 
-_bGreater_ = document.selection. **IsActiveEndGreater**
+### \[VBScript\]
+
+```
+bGreater = document.selection.IsActiveEndGreater
+```
 
 ## 버전
 

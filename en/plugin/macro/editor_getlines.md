@@ -8,19 +8,19 @@ Editor\_GetLines( HWND hwnd, int nLogical );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nLogical_
 
-> Specifies one of the following Values.
->
-> | Value | Meaning |
-> | --- | --- |
-> | POS\_VIEW | Display Coordinates |
-> | POS\_LOGICAL\_A | Logical Coordinates (Count double-byte characters as two) |
-> | POS\_LOGICAL\_W | Logical Coordinates (Count double-byte characters as one) |
+Specifies one of the following Values.
+
+| Value | Meaning |
+| --- | --- |
+| POS\_VIEW | Display Coordinates |
+| POS\_LOGICAL\_A | Logical Coordinates (Count double-byte characters as two) |
+| POS\_LOGICAL\_W | Logical Coordinates (Count double-byte characters as one) |
 
 ## Return Values
 
-> Returns the number of the lines in EmEditor. If the last line is ends with
-> a return, the line will be counted. If the text is empty, returns one.
+Returns the number of the lines in EmEditor. If the last line is ends with
+a return, the line will be counted. If the text is empty, returns one.

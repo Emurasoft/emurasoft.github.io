@@ -2,13 +2,19 @@
 
 返回創建視窗的線程的標識符。
 
-#### \[JavaScript\]
+## 
 
-_id_ = wnd. **ThreadID**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+id = wnd.ThreadID;
+```
 
-_id_ = wnd. **ThreadID**
+### \[VBScript\]
+
+```
+id = wnd.ThreadID
+```
 
 ## 版本
 

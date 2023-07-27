@@ -2,13 +2,19 @@
 
 선택 영역의 원점의 줄 번호를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-yPos = document.selection. **GetAnchorPointY**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos = document.selection.GetAnchorPointY( nFlags );
+```
 
-yPos = document.selection. **GetAnchorPointY**( _nFlags_ )
+### \[VBScript\]
+
+```
+yPos = document.selection.GetAnchorPointY( nFlags )
+```
 
 ## 매개 변수
 

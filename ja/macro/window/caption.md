@@ -2,13 +2,19 @@
 
 ウィンドウのキャプション テキストを返します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = wnd. **Caption**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = wnd.Caption;
+```
 
-_str_ = wnd. **Caption**
+### \[VBScript\]
+
+```
+str = wnd.Caption
+```
 
 ## バージョン
 

@@ -8,16 +8,16 @@ Editor\_DoIdle( HWND hwnd, BOOL bResetTab );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _bResetTab_
 
-> Resets the tab.
+Resets the tab.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.
 
 ## Version
 
-> Supported on EmEditor Professional Version 5.00 or later.
+Supported on EmEditor Professional Version 5.00 or later.

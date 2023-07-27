@@ -9,12 +9,12 @@ Editor\_SetColumn( HWND hwnd, SET\_COLUMN\_INFO\* pSetColumnInfo );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _pSetLineInfo_
 
-> 指針指向 [COLUMN\_STRUCT](../structure/column_struct) 結構。
+指針指向 [COLUMN\_STRUCT](../structure/column_struct) 結構。
 
 ## 返回值
 
-> 如果成功，返回值為零或正數值，如果失敗，返回負數值。
+如果成功，返回值為零或正數值，如果失敗，返回負數值。

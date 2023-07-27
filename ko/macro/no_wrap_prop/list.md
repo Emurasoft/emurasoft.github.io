@@ -2,19 +2,21 @@
 
 [NoWrapList 컬렉션](../no_wrap_list/index) 을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_list_ =
-object.List;
+### \[JavaScript\]
 
-object.List = _list_;
+```
+list = object.List;
+object.List = list;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_list_ =
-object.List
-
-object.List = _list_
+```
+list = object.List
+object.List = list
+```
 
 ## 버전
 

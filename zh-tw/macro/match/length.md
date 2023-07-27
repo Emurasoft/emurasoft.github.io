@@ -2,13 +2,19 @@
 
 一個包含符合字串總長度的唯讀值。
 
-#### \[JavaScript\]
+## 
 
-_l_ = m. **Length**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+l = m.Length;
+```
 
-_l_ = m. **Length**;
+### \[VBScript\]
+
+```
+l = m.Length;
+```
 
 ## 版本
 

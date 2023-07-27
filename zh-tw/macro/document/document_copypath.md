@@ -2,13 +2,19 @@
 
 僅複製文檔的路徑到剪貼簿上。
 
-#### \[JavaScript\]
+## 
 
-document. **CopyPath**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.CopyPath();
+```
 
-document. **CopyPath**
+### \[VBScript\]
+
+```
+document.CopyPath
+```
 
 ## 版本
 

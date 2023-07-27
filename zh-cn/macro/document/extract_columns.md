@@ -2,13 +2,19 @@
 
 提取 CSV 文档中的指定列。
 
-#### \[JavaScript\]
+## 
 
-document. **ExtractColumns**( _strColumns_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.ExtractColumns( strColumns );
+```
 
-document. **ExtractColumns** _strColumns_
+### \[VBScript\]
+
+```
+document.ExtractColumns strColumns
+```
 
 ## 参数
 

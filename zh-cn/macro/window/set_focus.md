@@ -2,13 +2,19 @@
 
 把键盘焦点设置到该窗口中。
 
-#### \[JavaScript\]
+## 
 
+### \[JavaScript\]
+
+```
 wnd.SetFocus();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd.SetFocus
+```
 
 ## 版本
 

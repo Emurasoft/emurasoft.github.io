@@ -1,33 +1,38 @@
 # Active Pane command
 
-### Summary
+## Summary
 
-> Switches to the active pane.
+Switches to the active pane.
 
-### Description
+## Description
 
-> Switches to the active pane when a custom bar is displayed.
+Switches to the active pane when a custom bar is displayed.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Panes**
-\> **Active Pane**
+- [All Commands](../tools/all_commands):Window
+\>Panes
+\>Active Pane
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ACTIVE\_PANE (4409)
+```
+EEID_ACTIVE_PANE (4409)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4409);
+```
+editor.ExecuteCommandByID(4409);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4409
+```
+editor.ExecuteCommandByID 4409
+```

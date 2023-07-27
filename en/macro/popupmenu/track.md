@@ -2,13 +2,19 @@
 
 Displays the popup menu, and retrieves the identifier of the selected menu item.
 
-#### \[JavaScript\]
+## 
 
-id = popupmenu. **Track**( _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+id = popupmenu.Track( flags );
+```
 
-id = popupmenu. **Track**( _flags_ )
+### \[VBScript\]
+
+```
+id = popupmenu.Track( flags )
+```
 
 ## Parameters
 

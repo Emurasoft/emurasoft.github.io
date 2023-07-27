@@ -1,14 +1,14 @@
 # \[選択範囲を論理行の行頭へ\] コマンド
 
-### 概要
+## 概要
 
-> 選択範囲を論理行の行頭へ移動します。
+選択範囲を論理行の行頭へ移動します。
 
-### 説明
+## 説明
 
-> 選択範囲を論理行の行頭へ移動します。
+選択範囲を論理行の行頭へ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択範囲の変更\] \- \[選択範囲を論理行の行頭へ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+Shift+Home
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SHIFT\_LOGICAL\_HOME (4181)
+```
+EEID_SHIFT_LOGICAL_HOME (4181)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.StartOfLine(true,eeLineLogical);
+```
+document.selection.StartOfLine(true,eeLineLogical);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.StartOfLine true,eeLineLogical
+```
+document.selection.StartOfLine true,eeLineLogical
+```

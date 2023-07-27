@@ -4,12 +4,12 @@
 
 |     |     |
 | --- | --- |
-| [**Folder**](folder) | 設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の <br> **\[バックアップ フォルダ\]** テキスト ボックスに相当します。 |
-| [**RenameIfSameNameExists**](rename_if_same_name_exists) | 設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の <br> **\[同名のファイルが存在する場合はファイル名を変更する\]** チェック ボックスに相当します。 |
-| [**SaveToFolder**](save_to_folder) | 設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の <br> **\[バックアップをバックアップ フォルダに保存\]** チェック ボックスに相当します。 |
-| [**SaveToFolderIfRecycleFailed**](save_to_folder_if_recycle_failed) | 設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の **\[ごみ箱に保存できない場合、バックアップ フォルダに保存\]** チェック <br> ボックスに相当します。 |
-| [**SaveToSameFolder**](save_to_same_folder) | 設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の **\[バックアップを保存するファイルと同じフォルダに保存\]** チェック ボックスに相当します。 |
-| [**UseRecycleBin**](use_recycle_bin) | 設定プロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の **\[バックアップをごみ箱に保存\]** チェック ボックスに相当します。 |
+| [Folder](folder) | 設定のプロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の <br>\[バックアップ フォルダ\] テキスト ボックスに相当します。 |
+| [RenameIfSameNameExists](rename_if_same_name_exists) | 設定のプロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の <br>\[同名のファイルが存在する場合はファイル名を変更する\] チェック ボックスに相当します。 |
+| [SaveToFolder](save_to_folder) | 設定のプロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の <br>\[バックアップをバックアップ フォルダに保存\] チェック ボックスに相当します。 |
+| [SaveToFolderIfRecycleFailed](save_to_folder_if_recycle_failed) | 設定のプロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の\[ごみ箱に保存できない場合、バックアップ フォルダに保存\] チェック <br> ボックスに相当します。 |
+| [SaveToSameFolder](save_to_same_folder) | 設定のプロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の\[バックアップを保存するファイルと同じフォルダに保存\] チェック ボックスに相当します。 |
+| [UseRecycleBin](use_recycle_bin) | 設定プロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の\[バックアップをごみ箱に保存\] チェック ボックスに相当します。 |
 
 ## バージョン
 

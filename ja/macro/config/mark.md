@@ -2,13 +2,19 @@
 
 [MarkProp オブジェクト](../mark_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Mark**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Mark;
+```
 
-Set _obj_ = object. **Mark**
+### \[VBScript\]
+
+```
+Set obj = object.Mark
+```
 
 ## バージョン
 

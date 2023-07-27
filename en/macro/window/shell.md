@@ -1,14 +1,20 @@
 # shell Property (Window Object)
 
-Returns the [**Shell** Object](../shell/index).
+Returns the [Shell Object](../shell/index).
 
-#### \[JavaScript\]
+## 
 
-_shl_ = **shell**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shl =shell;
+```
 
-Set _shl_ = **shell**
+### \[VBScript\]
+
+```
+Set shl =shell
+```
 
 ## Version
 

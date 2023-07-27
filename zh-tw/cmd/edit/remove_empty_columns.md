@@ -1,14 +1,14 @@
 # 刪除空欄命令
 
-### 摘要
+## 摘要
 
-> 刪除 CSV 文檔中的空欄。
+刪除 CSV 文檔中的空欄。
 
-### 說明
+## 說明
 
-> 刪除 CSV 文檔中的空欄。
+刪除 CSV 文檔中的空欄。
 
-### 運行方法
+## 運行方法
 
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): 無
@@ -16,16 +16,21 @@
 - 狀態列: 無
 - 預設快速鍵: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_REMOVE\_EMPTY\_COLUMNS (4062)
+```
+EEID_REMOVE_EMPTY_COLUMNS (4062)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4062);
+```
+editor.ExecuteCommandByID(4062);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4062
+```
+editor.ExecuteCommandByID 4062
+```

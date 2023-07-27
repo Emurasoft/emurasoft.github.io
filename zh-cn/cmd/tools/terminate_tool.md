@@ -1,32 +1,37 @@
 # 终止工具任务命令
 
-### 摘要
+## 摘要
 
-> 终止当前正在运行的工具任务。
+终止当前正在运行的工具任务。
 
-### 说明
+## 说明
 
-> 终止当前正在运行的工具任务。这个命令会终止一个外部工具用输出栏所产生的所有进程。
+终止当前正在运行的工具任务。这个命令会终止一个外部工具用输出栏所产生的所有进程。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **工具** \> **外部工具** \> **终止工具任务**
-- [所有命令](all_commands): **工具** >
-**终止工具任务**
+- 默认菜单:工具 \>外部工具 \>终止工具任务
+- [所有命令](all_commands):工具 >
+终止工具任务
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: CTRL+BREAK
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_TERMINATE\_TOOL (4451)
+```
+EEID_TERMINATE_TOOL (4451)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4451);
+```
+editor.ExecuteCommandByID(4451);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4451
+```
+editor.ExecuteCommandByID 4451
+```

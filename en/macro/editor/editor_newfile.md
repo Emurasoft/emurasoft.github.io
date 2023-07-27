@@ -2,13 +2,19 @@
 
 Creates a new file.
 
-#### \[JavaScript\]
+## 
 
-editor. **NewFile**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.NewFile();
+```
 
-editor. **NewFile**
+### \[VBScript\]
+
+```
+editor.NewFile
+```
 
 ## Version
 

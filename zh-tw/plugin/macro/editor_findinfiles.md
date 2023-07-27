@@ -9,16 +9,16 @@ Editor\_FindInFiles( HWND hwnd, GREP\_INFO\_EX\* pGrepInfo );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _pGrepInfo_
 
-> 指定一個指針指向 [GREP\_INFO\_EX 結構](../structure/grep_info_ex)。
+指定一個指針指向 [GREP\_INFO\_EX 結構](../structure/grep_info_ex)。
 
 ## 返回值
 
-> 返回 FALSE 如果使用者終止，或 TRUE 如果沒有終止。
+返回 FALSE 如果使用者終止，或 TRUE 如果沒有終止。
 
 ## 版本
 
-> 支持 Version 15.7 或之後的版本。
+支持 Version 15.7 或之後的版本。

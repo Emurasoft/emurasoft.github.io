@@ -1,32 +1,37 @@
 # Customize Markers - Marker List command
 
-### Summary
+## Summary
 
-> Displays the Customize Markers dialog box, and selects the Marker List tab.
+Displays the Customize Markers dialog box, and selects the Marker List tab.
 
-### Description
+## Description
 
-> Displays the [**Customize Markers** dialog box](../../dlg/customize_markers/index), and selects the **Marker List** tab.
+Displays the [Customize Markers dialog box](../../dlg/customize_markers/index), and selects theMarker List tab.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize Markers** \> **Marker List**
+- [All Commands](all_commands):Tools >
+Customize Markers \>Marker List
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_MARKERS\_LIST (3956)
+```
+EEID_CUSTOMIZE_MARKERS_LIST (3956)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3956);
+```
+editor.ExecuteCommandByID(3956);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3956
+```
+editor.ExecuteCommandByID 3956
+```

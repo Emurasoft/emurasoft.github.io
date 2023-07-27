@@ -1,33 +1,38 @@
 # Insert Special Character command
 
-### Summary
+## Summary
 
-> Inserts a special character.
+Inserts a special character.
 
-### Description
+## Description
 
-> Inserts a special character at the cursor. This command will display the
-> [**Insert Special Character** dialog \
-> box](../../dlg/insert_special/index), where you can specify a character.
+Inserts a special character at the cursor. This command will display the
+[Insert Special Character dialog \
+box](../../dlg/insert_special/index), where you can specify a character.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Insert** \> **Special Character**
-- [All Commands](../tools/all_commands): **Insert** \> **Special Character**
+- Default Menu:Insert \>Special Character
+- [All Commands](../tools/all_commands):Insert \>Special Character
 - Toolbar: ![](../../images/insertcontrol.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL + SHIFT + I
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_INSERT\_CONTROL (4197)
+```
+EEID_INSERT_CONTROL (4197)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4197);
+```
+editor.ExecuteCommandByID(4197);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4197
+```
+editor.ExecuteCommandByID 4197
+```

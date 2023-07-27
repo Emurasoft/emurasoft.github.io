@@ -9,12 +9,12 @@ Editor\_GetCmdID( HWND hwnd, HINSTANCE hInstance );
 
 _hwnd_
 
-> 보기의 창 핸들 또는 EmEditor의 프레임을 지정합니다.
+보기의 창 핸들 또는 EmEditor의 프레임을 지정합니다.
 
 _hInstance_
 
-> 플러그 인 인스턴스 핸들을 지정합니다.
+플러그 인 인스턴스 핸들을 지정합니다.
 
 ## 반환 값
 
-> 이 플러그 인을 실행할 command ID를 반환합니다.
+이 플러그 인을 실행할 command ID를 반환합니다.

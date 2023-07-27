@@ -1,33 +1,38 @@
 # Copy File Directory Name command
 
-### Summary
+## Summary
 
-> Copies the full path of the directory of the current file to the Clipboard.
+Copies the full path of the directory of the current file to the Clipboard.
 
-### Description
+## Description
 
-> Copies the directory name of the file and put it on the Clipboard. This
-> command cannot be selected if the document is untitled.
+Copies the directory name of the file and put it on the Clipboard. This
+command cannot be selected if the document is untitled.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Copy**
-\> **File Directory Name**
+- [All Commands](../tools/all_commands):File \>Copy
+\>File Directory Name
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COPY\_FILE\_DIR (4327)
+```
+EEID_COPY_FILE_DIR (4327)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.CopyPath();
+```
+document.CopyPath();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.CopyPath
+```
+document.CopyPath
+```

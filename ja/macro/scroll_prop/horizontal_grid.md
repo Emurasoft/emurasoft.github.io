@@ -1,21 +1,23 @@
 # HorizontalGrid プロパティ (ScrollProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の
-**\[水平グリッド\]** チェック ボックスに相当します。
+設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
+\[水平グリッド\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HorizontalGrid**;
+### \[JavaScript\]
 
-object. **HorizontalGrid** = _b_;
+```
+b = object.HorizontalGrid;
+object.HorizontalGrid = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HorizontalGrid**
-
-object. **HorizontalGrid** = _b_
+```
+b = object.HorizontalGrid
+object.HorizontalGrid = b
+```
 
 ## バージョン
 

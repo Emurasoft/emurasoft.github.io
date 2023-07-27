@@ -2,39 +2,41 @@
 
 Specifies the undo/redo history to be combined or not combined.
 
-#### \[JavaScript\]
+## 
 
-_b_ = **CombineHistory**;
+### \[JavaScript\]
 
-**CombineHistory** = _b_;
+```
+b =CombineHistory;
+CombineHistory = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = **CombineHistory**
-
-**CombineHistory** = _b_;
+```
+b =CombineHistory
+CombineHistory = b;
+```
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 CombineHistory = true;
-
 document.writeln( "ABC" );
-
 document.writeln( "DEF" );
-
 CombineHistory = false;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 CombineHistory = True
-
 document.writeln "ABC"
-
 document.writeln "DEF"
-
 CombineHistory = False
+```
 
 ## Version
 

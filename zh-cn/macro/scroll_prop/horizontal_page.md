@@ -1,20 +1,22 @@
 # HorizontalPage 属性 (ScrollProp ����)
 
-Corresponds to the **总是启用 1 页水平滚动** 复选框相对应。
+Corresponds to the总是启用 1 页水平滚动 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HorizontalPage**;
+### \[JavaScript\]
 
-object. **HorizontalPage** = _b_;
+```
+b = object.HorizontalPage;
+object.HorizontalPage = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HorizontalPage**
-
-object. **HorizontalPage** = _b_
+```
+b = object.HorizontalPage
+object.HorizontalPage = b
+```
 
 ## 版本
 

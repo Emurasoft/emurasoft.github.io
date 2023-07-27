@@ -2,17 +2,21 @@
 
 Point オブジェクトの水平方向の (または文字) 位置を表現します。
 
-#### \[JavaScript\]
+## 
 
-_x_ = point. **x**;
+### \[JavaScript\]
 
-point. **x** = _x_;
+```
+x = point.x;
+point.x = x;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_x_ = point. **x**
-
-point. **x** = _x_
+```
+x = point.x
+point.x = x
+```
 
 ## バージョン
 

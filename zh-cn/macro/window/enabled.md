@@ -2,13 +2,19 @@
 
 返回是否窗口启用了鼠标和键盘输入。
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Enabled**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Enabled;
+```
 
-_b_ = wnd. **Enabled**
+### \[VBScript\]
+
+```
+b = wnd.Enabled
+```
 
 ## 版本
 

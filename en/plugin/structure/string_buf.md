@@ -14,12 +14,12 @@ UINT cchBuf;
 
 _pBuf_
 
-> Specifies a buffer to retrieve a string.
+Specifies a buffer to retrieve a string.
 
 _cchBuf_
 
-> Specifies the size of the buffer in characters.
+Specifies the size of the buffer in characters.
 
 ## Version
 
-> Supported on Version 20.6 or later.
+Supported on Version 20.6 or later.

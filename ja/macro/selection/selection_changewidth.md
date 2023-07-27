@@ -2,13 +2,19 @@
 
 半角文字と全角文字を変換します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ChangeWidth**( _nFlags_ \[, _szChars_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ChangeWidth( nFlags [, szChars ] );
+```
 
-document.selection. **ChangeWidth** _nFlags_ \[, _szChars_ \]
+### \[VBScript\]
+
+```
+document.selection.ChangeWidth nFlags [, szChars ]
+```
 
 ## パラメータ
 

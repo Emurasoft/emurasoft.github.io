@@ -1,35 +1,40 @@
 # No Wrap Properties command
 
-### Summary
+## Summary
 
-> Displays No Wrap properties.
+Displays No Wrap properties.
 
-### Description
+## Description
 
-> Displays the [**No Wrap** \
-> page](../../dlg/properties/no_wrap/index)
-> of the **[Configuration Properties](../../dlg/properties/index)**
-> dialog box.
+Displays the [No Wrap \
+page](../../dlg/properties/no_wrap/index)
+of the[Configuration Properties](../../dlg/properties/index)
+dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Properties for Current Configuration** \> **No Wrap**
+- [All Commands](all_commands):Tools >
+Properties for Current Configuration \>No Wrap
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PROPERTY\_FACE (8967)
+```
+EEID_PROPERTY_FACE (8967)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8967);
+```
+editor.ExecuteCommandByID(8967);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8967
+```
+editor.ExecuteCommandByID 8967
+```

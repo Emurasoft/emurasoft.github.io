@@ -1,20 +1,22 @@
 # NoSpaceEdge Property (GeneralProp Object)
 
-Corresponds to the **No Space at Left Edge of Window** check box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to theNo Space at Left Edge of Window check box in the [General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **NoSpaceEdge**;
+### \[JavaScript\]
 
-object. **NoSpaceEdge** = _b_;
+```
+b = object.NoSpaceEdge;
+object.NoSpaceEdge = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **NoSpaceEdge**
-
-object. **NoSpaceEdge** = _b_
+```
+b = object.NoSpaceEdge
+object.NoSpaceEdge = b
+```
 
 ## Version
 

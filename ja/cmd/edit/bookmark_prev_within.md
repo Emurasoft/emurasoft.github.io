@@ -1,14 +1,14 @@
 # \[この文書の前のブックマーク\] コマンド
 
-### 概要
+## 概要
 
-> この文書の前のブックマークに移動します。
+この文書の前のブックマークに移動します。
 
-### 説明
+## 説明
 
-> この文書の前のブックマークに移動します。同じ文書に前のブックマークが存在しない場合は、カーソル位置は移動しません。
+この文書の前のブックマークに移動します。同じ文書に前のブックマークが存在しない場合は、カーソル位置は移動しません。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[ブックマーク\] \- \[前のブックマーク\]
 - [すべてのコマンド](../../glossary/allcommands): \[ブックマーク\] \- \[前のブックマーク\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_BOOKMARK\_PREV\_WITHIN (4352)
+```
+EEID_BOOKMARK_PREV_WITHIN (4352)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.PreviousBookmark();
+```
+document.selection.PreviousBookmark();
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.PreviousBookmark
+```
+document.selection.PreviousBookmark
+```

@@ -8,12 +8,12 @@ Editor\_LoadConfigA( HWND hwnd, LPCSTR szConfigName );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _szConfigName_
 
-> 指定要重新載入的組態名稱。
+指定要重新載入的組態名稱。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

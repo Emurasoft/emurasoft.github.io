@@ -1,14 +1,14 @@
 # \[最長行/セルを検索\] コマンド
 
-### 概要
+## 概要
 
-> 非CSV文書の最長行またはCSV文書の現在の列の最長セルを検索します。
+非CSV文書の最長行またはCSV文書の現在の列の最長セルを検索します。
 
-### 説明
+## 説明
 
-> 非CSV文書の最長行またはCSV文書の現在の列の最長セルを検索します。
+非CSV文書の最長行またはCSV文書の現在の列の最長セルを検索します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[検索\] \- \[最長行/セルを検索\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[最長行/セルを検索\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_FIND\_LONGEST (4049)
+```
+EEID_FIND_LONGEST (4049)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4049);
+```
+editor.ExecuteCommandByID(4049);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4049
+```
+editor.ExecuteCommandByID 4049
+```

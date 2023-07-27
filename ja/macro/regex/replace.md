@@ -2,15 +2,21 @@
 
 指定する文字列から正規表現を検索し、指定する文字列で置換します。Global プロパティが設定されている場合、このメソッドは文字列中のすべての可能なマッチを置換します。
 
-#### \[JavaScript\]
+## 
 
-_strResult_ = reg. **Replace**( _strText_, _strReplace_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strResult = reg.Replace( strText, strReplace );
+```
 
-_strResult_ = reg. **Replace**( _strText_, _strReplace_ )
+### \[VBScript\]
 
-#### パラメータ
+```
+strResult = reg.Replace( strText, strReplace )
+```
+
+### パラメータ
 
 _strText_
 
@@ -26,50 +32,36 @@ _strReplace_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 re = editor.regex;
-
 re.Engine = eeExFindRegexOnigmo;
-
-re.Pattern = "(\[A-Z0-9.\_%+-\]+)@(\[A-Z0-9.-\]+\\\.\[A-Z\]{2,})";
-
+re.Pattern = "([A-Z0-9.\%+-]+)@([A-Z0-9.-]+\\\.[A-Z]{2,})";
 re.IgnoreCase = true;
-
 re.OnlyWord = false;
-
 strOrg = "The email address is john@test.com."
-
 strNew = re.Replace( strOrg, "\\\1 at \\\2" );
-
 if( strOrg != strNew ) {
-
 alert( strNew );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set re = editor.regex
-
 re.Engine = eeExFindRegexOnigmo
-
-re.Pattern = "(\[A-Z0-9.\_%+-\]+)@(\[A-Z0-9.-\]+\\.\[A-Z\]{2,})"
-
+re.Pattern = "([A-Z0-9.\%+-]+)@([A-Z0-9.-]+\\.[A-Z]{2,})"
 re.IgnoreCase = True
-
 re.OnlyWord = False
-
 strOrg = "The email address is john@test.com."
-
 strNew = re.Replace( strOrg, "\\1 at \\2" )
-
 If strOrg <> strNew Then
-
 alert( strNew )
-
 End If
+```
 
-#### バージョン
+### バージョン
 
 EmEditor Professional Version 15.9 以上で利用できます。

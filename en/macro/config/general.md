@@ -2,13 +2,19 @@
 
 Retrieves the [GeneralProp object](../general_prop/index).
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **General**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.General;
+```
 
-Set _obj_ = object. **General**
+### \[VBScript\]
+
+```
+Set obj = object.General
+```
 
 ## Version
 

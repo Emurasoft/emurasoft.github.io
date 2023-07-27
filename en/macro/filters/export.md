@@ -2,13 +2,19 @@
 
 Exports the collection to a TSV file.
 
-#### \[JavaScript\]
+## 
 
-list. **Export**( _strFileName_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Export( strFileName );
+```
 
-list. **Export** _strFileName_
+### \[VBScript\]
+
+```
+list.Export strFileName
+```
 
 ## Parameters
 
@@ -18,25 +24,23 @@ Specifies the file name including the full path of the TSV file.
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 var filters = document.filters;
-
 if( filters.Count > 0 ) {
-
 filters.Export( "E:\\\Test\\\filter.tsv" );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set filters = document.filters
-
 If filters.Count > 0 Then
-
 filters.Export "E:\\Test\\filter.tsv"
-
 End If
+```
 
 ## Version
 

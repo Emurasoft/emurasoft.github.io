@@ -1,14 +1,14 @@
 # \[選択範囲を対応するかっこへ\] コマンド
 
-### 概要
+## 概要
 
-> 選択範囲を対応するかっこへ移動します。
+選択範囲を対応するかっこへ移動します。
 
-### 説明
+## 説明
 
-> カーソル位置にかっこが存在する場合、選択範囲をそれに対応するかっこへ移動します。
+カーソル位置にかっこが存在する場合、選択範囲をそれに対応するかっこへ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[選択範囲の変更\] \- \[選択範囲を対応するかっこへ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+\]
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SHIFT\_NEXT\_PAREN (4277)
+```
+EEID_SHIFT_NEXT_PAREN (4277)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.GoToBrace(true);
+```
+document.selection.GoToBrace(true);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.GoToBrace true
+```
+document.selection.GoToBrace true
+```

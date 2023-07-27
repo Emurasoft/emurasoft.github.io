@@ -1,14 +1,14 @@
 # \[行番号\] コマンド
 
-### 概要
+## 概要
 
-> 行番号の表示/非表示を切り替えます。
+行番号の表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> 行番号の表示/非表示を切り替えます。
+行番号の表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[行番号\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[行番号\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_LINE\_NUMBERS (4530)
+```
+EEID_VIEW_LINE_NUMBERS (4530)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4530);
+```
+editor.ExecuteCommandByID(4530);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4530
+```
+editor.ExecuteCommandByID 4530
+```

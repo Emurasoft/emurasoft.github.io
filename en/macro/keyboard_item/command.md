@@ -1,22 +1,24 @@
 # Command Property (KeyboardItem Object)
 
 Specifies the command ID. See the
-**[Command Reference](../../cmd/index)** for the list of available
+[Command Reference](../../cmd/index) for the list of available
 commands. Not all commands may be available or supported.
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-item. **Command**;
+### \[JavaScript\]
 
-item. **Command** = _n_;
+```
+n = item.Command;
+item.Command = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-item. **Command**
-
-item. **Command** = _n_
+```
+n = item.Command
+item.Command = n
+```
 
 ## Version
 

@@ -3,17 +3,21 @@
 Sets or retrieves whether the tab is enabled. All documents may not be available immediately after the tab is enabled or disabled. Exiting from the macro and running the macro may be necessary
 after the tab is enabled or disabled.
 
-#### \[JavaScript\]
+## 
 
-_bEnableTab_ = editor. **EnableTab**;
+### \[JavaScript\]
 
-editor. **EnableTab** = _bEnableTab_;
+```
+bEnableTab = editor.EnableTab;
+editor.EnableTab = bEnableTab;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bEnableTab_ = editor. **EnableTab**
-
-editor. **EnableTab** = _bEnableTab_
+```
+bEnableTab = editor.EnableTab
+editor.EnableTab = bEnableTab
+```
 
 ## Version
 

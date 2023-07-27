@@ -2,13 +2,19 @@
 
 팝업 메뉴를 생성합니다.
 
-#### \[JavaScript\]
+## 
 
-_popupmenu_ = **CreatePopupMenu**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu =CreatePopupMenu();
+```
 
-Set _popupmenu_ = **CreatePopupMenu**
+### \[VBScript\]
+
+```
+Set popupmenu =CreatePopupMenu
+```
 
 ## 반환 값
 

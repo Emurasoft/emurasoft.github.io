@@ -2,23 +2,33 @@
 
 Retrieves or sets the title of the document. The title may contain long and short titles separated by a linefeed (\\n or Chr(10)).
 
-#### \[JavaScript\]
+## 
 
-_strTitle_ = document. **Title**;document. **Title** = _strTitle_;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strTitle = document.Title;document.Title = strTitle;
+```
 
-_strTitle_ = document. **Title** document. **Title** = _strTitle_
+### \[VBScript\]
+
+```
+strTitle = document.Title document.Title = strTitle
+```
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.Title = "This is a long title.\\nShort title";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.Title = "This is a long title." & Chr(10) & "Short title"
+```
 
 ## Version
 

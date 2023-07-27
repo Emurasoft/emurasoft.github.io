@@ -1,35 +1,40 @@
 # Marks Properties command
 
-### Summary
+## Summary
 
-> Displays Marks properties.
+Displays Marks properties.
 
-### Description
+## Description
 
-> Displays the [**Marks** \
-> page](../../dlg/properties/marks/index)
-> of the **[Configuration Properties](../../dlg/properties/index)**
-> dialog box.
+Displays the [Marks \
+page](../../dlg/properties/marks/index)
+of the[Configuration Properties](../../dlg/properties/index)
+dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Properties for Current Configuration** \> **Marks**
+- [All Commands](all_commands):Tools >
+Properties for Current Configuration \>Marks
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PROPERTY\_MARK (8971)
+```
+EEID_PROPERTY_MARK (8971)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8971);
+```
+editor.ExecuteCommandByID(8971);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8971
+```
+editor.ExecuteCommandByID 8971
+```

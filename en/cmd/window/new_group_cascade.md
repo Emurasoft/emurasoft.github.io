@@ -1,32 +1,37 @@
 # New Cascade Group command
 
-### Summary
+## Summary
 
-> Detaches the current document from combined windows as a new group, and arrange windows so they overlap.
+Detaches the current document from combined windows as a new group, and arrange windows so they overlap.
 
-### Description
+## Description
 
-> Detaches the current document from combined windows as a new group, and arrange windows so that they overlap.
+Detaches the current document from combined windows as a new group, and arrange windows so that they overlap.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Group** \> **New Cascade Group**
+- [All Commands](../tools/all_commands):Window
+\>Group \>New Cascade Group
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_NEW\_GROUP\_CASCADE (4393)
+```
+EEID_NEW_GROUP_CASCADE (4393)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4393);
+```
+editor.ExecuteCommandByID(4393);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4393
+```
+editor.ExecuteCommandByID 4393
+```

@@ -1,31 +1,36 @@
 # CSV Converter command
 
-### Summary
+## Summary
 
-> Shows or hides the CSV Converter.
+Shows or hides the CSV Converter.
 
-### Description
+## Description
 
-> Shows or hides the CSV Converter.
+Shows or hides the CSV Converter.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **CSV Converter**
-- [All Commands](../tools/all_commands): **CSV** \> **CSV Converter**
+- Default Menu:CSV \>CSV Converter
+- [All Commands](../tools/all_commands):CSV \>CSV Converter
 - Toolbar: ![](../../images/convert_to.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CSV\_CONVERTER (3891)
+```
+EEID_CSV_CONVERTER (3891)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3891);
+```
+editor.ExecuteCommandByID(3891);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3891
+```
+editor.ExecuteCommandByID 3891
+```

@@ -2,23 +2,33 @@
 
 Retrieves the complete path and the file name of the document.
 
-#### \[JavaScript\]
+## 
 
-_strName_ = document. **FullName;**
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = document.FullName;
+```
 
-_strName_ = document. **FullName**
+### \[VBScript\]
+
+```
+strName = document.FullName
+```
 
 ## Examples
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( document.FullName );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert document.FullName
+```
 
 ## Version
 

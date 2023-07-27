@@ -13,8 +13,8 @@ lParam = 0;
 
 ## Parameters
 
-> None.
+None.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

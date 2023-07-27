@@ -1,31 +1,36 @@
 # 日期和时间命令
 
-### 摘要
+## 摘要
 
-> 插入日期与时间。
+插入日期与时间。
 
-### 说明
+## 说明
 
-> 在光标位置处插入当前日期和时间。这个命令会先插入日期，接着一个空格，跟着是时间。插入的日期与时间的格式可以在 Windows 系统上配置。在 **控制面板** 中选择 **区域和语言选项**，然后选择 **日期和时间**。
+在光标位置处插入当前日期和时间。这个命令会先插入日期，接着一个空格，跟着是时间。插入的日期与时间的格式可以在 Windows 系统上配置。在控制面板 中选择区域和语言选项，然后选择日期和时间。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **插入** \> **日期和时间**
-- [所有命令](../tools/all_commands): **插入** \> **日期和时间**
+- 默认菜单:插入 \>日期和时间
+- [所有命令](../tools/all_commands):插入 \>日期和时间
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: SHIFT+F5
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_INSERT\_DATE\_TIME (4138)
+```
+EEID_INSERT_DATE_TIME (4138)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.InsertDate(eeDateDateTime);
+```
+document.selection.InsertDate(eeDateDateTime);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.InsertDate eeDateDateTime
+```
+document.selection.InsertDate eeDateDateTime
+```

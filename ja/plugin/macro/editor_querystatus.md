@@ -9,16 +9,16 @@ Editor\_QueryStatus( HWND hwnd, UINT nCmdID, BOOL\* pbChecked );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _nCmdID_
 
-> 実行するIDの [コマンドID](../cmdid/index) を指定します。
+実行するIDの [コマンドID](../cmdid/index) を指定します。
 
 _pbChecked_
 
-> チェックされた状態かを示します。
+チェックされた状態かを示します。
 
 ## 戻り値
 
-> 実行可能な状態なら 0 以外を返します。実行可能でなければ 0 を返します。
+実行可能な状態なら 0 以外を返します。実行可能でなければ 0 を返します。

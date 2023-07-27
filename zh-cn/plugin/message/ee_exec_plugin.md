@@ -12,17 +12,17 @@ lParam = 0;
 
 _pPluginInfo_
 
-> 指向 [**EXEC\_PLUGIN\_INFO** 结构](../structure/exec_plugin_info)。
+指向 [EXEC\_PLUGIN\_INFO 结构](../structure/exec_plugin_info)。
 
 ## 返回值
 
-> 如果发生错误，返回值是负值。如果指定的是 PLUGIN\_FLAG\_EXEC\_COMMAND，返回值为 0。如果指定 PLUGIN\_FLAG\_USER\_MSG，返回值的含义取决于插件。如果指定 PLUGIN\_FLAG\_QUERY\_STATUS，返回值则会是下列值的组合。
->
-> |     |     |
-> | --- | --- |
-> | STATUS\_ENABLED | 启用插件。 |
-> | STATUS\_LATCHED | 勾选插件。 |
+如果发生错误，返回值是负值。如果指定的是 PLUGIN\_FLAG\_EXEC\_COMMAND，返回值为 0。如果指定 PLUGIN\_FLAG\_USER\_MSG，返回值的含义取决于插件。如果指定 PLUGIN\_FLAG\_QUERY\_STATUS，返回值则会是下列值的组合。
+
+|     |     |
+| --- | --- |
+| STATUS\_ENABLED | 启用插件。 |
+| STATUS\_LATCHED | 勾选插件。 |
 
 ## 版本
 
-> 支持 EmEditor Professional Version 15.5 或之后的版本。
+支持 EmEditor Professional Version 15.5 或之后的版本。

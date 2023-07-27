@@ -1,33 +1,38 @@
 # Markers Toolbar command
 
-### Summary
+## Summary
 
-> Shows or hides the markers toolbar.
+Shows or hides the markers toolbar.
 
-### Description
+## Description
 
-> Shows or hides the markers toolbar. The markers toolbar displays all defined markers.
+Shows or hides the markers toolbar. The markers toolbar displays all defined markers.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **Markers Toolbar**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Markers Toolbar**
+- Default Menu:View >
+Toolbars \>Markers Toolbar
+- [All Commands](../tools/all_commands):View >
+Toolbars \>Markers Toolbar
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHOW\_MARKERS\_BAR (4561)
+```
+EEID_SHOW_MARKERS_BAR (4561)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4561);
+```
+editor.ExecuteCommandByID(4561);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4561
+```
+editor.ExecuteCommandByID 4561
+```

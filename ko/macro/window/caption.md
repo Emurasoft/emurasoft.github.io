@@ -2,13 +2,19 @@
 
 창의 캡션 텍스트를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_str_ = wnd. **Caption**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = wnd.Caption;
+```
 
-_str_ = wnd. **Caption**
+### \[VBScript\]
+
+```
+str = wnd.Caption
+```
 
 ## 버전
 

@@ -1,33 +1,38 @@
 # Associate with EmEditor command
 
-### Summary
+## Summary
 
-> Associates file extensions with EmEditor.
+Associates file extensions with EmEditor.
 
-### Description
+## Description
 
-> Displays the [**Associate with EmEditor** dialog box](../../dlg/file_associate/index),
-> where the user can specify which file extensions to associate with EmEditor.
+Displays the [Associate with EmEditor dialog box](../../dlg/file_associate/index),
+where the user can specify which file extensions to associate with EmEditor.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Associate with EmEditor**
+- [All Commands](all_commands):Tools >
+Associate with EmEditor
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_ASSOCIATE (4223)
+```
+EEID_FILE_ASSOCIATE (4223)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4223);
+```
+editor.ExecuteCommandByID(4223);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4223
+```
+editor.ExecuteCommandByID 4223
+```

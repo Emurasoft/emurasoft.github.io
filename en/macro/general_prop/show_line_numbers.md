@@ -1,21 +1,23 @@
 # ShowLineNumbers Property (GeneralProp Object)
 
-Corresponds to the **Show Line Numbers** check box in the
-[**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to theShow Line Numbers check box in the
+[General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowLineNumbers**;
+### \[JavaScript\]
 
-object. **ShowLineNumbers** = _b_;
+```
+b = object.ShowLineNumbers;
+object.ShowLineNumbers = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowLineNumbers**
-
-object. **ShowLineNumbers** = _b_
+```
+b = object.ShowLineNumbers
+object.ShowLineNumbers = b
+```
 
 ## Version
 

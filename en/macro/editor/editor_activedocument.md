@@ -2,13 +2,19 @@
 
 Retrieves the [Document Object](../document/index) for the current document.
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor. **ActiveDocument**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.ActiveDocument;
+```
 
-Set _doc_ = editor. **ActiveDocument**
+### \[VBScript\]
+
+```
+Set doc = editor.ActiveDocument
+```
 
 ## Version
 

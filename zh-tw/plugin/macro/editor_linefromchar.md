@@ -10,23 +10,23 @@ Editor\_LineFromChar( HWND hwnd, int nLogical, UINT nSerialIndex );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _nLogical_
 
-> 指定下列值之一。
->
-> | 值 | 含義 |
-> | --- | --- |
-> | POS\_VIEW | 顯示坐標 |
-> | POS\_LOGICAL\_A | 邏輯坐標 (把雙位元字元計為兩個) |
-> | POS\_LOGICAL\_W | 邏輯坐標 (把雙位元字元計為一個) |
+指定下列值之一。
+
+| 值 | 含義 |
+| --- | --- |
+| POS\_VIEW | 顯示坐標 |
+| POS\_LOGICAL\_A | 邏輯坐標 (把雙位元字元計為兩個) |
+| POS\_LOGICAL\_W | 邏輯坐標 (把雙位元字元計為一個) |
 
 _nSerialIndex_
 
-> 指定被包含在要被檢索的行號中的字元的字元索引。如果參數是 -1，EE\_LINE\_FROM\_CHAR
-> 檢索目前的行 (游標所在行) 的行號。
+指定被包含在要被檢索的行號中的字元的字元索引。如果參數是 -1，EE\_LINE\_FROM\_CHAR
+檢索目前的行 (游標所在行) 的行號。
 
 ## 返回值
 
-> 返回值是從零開始的、包含由 _nSerialIndex_ 指定的字元索引的行號。
+返回值是從零開始的、包含由 _nSerialIndex_ 指定的字元索引的行號。

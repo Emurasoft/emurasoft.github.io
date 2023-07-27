@@ -2,13 +2,19 @@
 
 Sets the current directory for the output bar. This information is necessary if the text contains a relative path that can be jumped only from the current directory.
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **CurrentDirectory** = _szCurrDir_;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.CurrentDirectory = szCurrDir;
+```
 
-OutputBar. **CurrentDirectory** = _szCurrDir_
+### \[VBScript\]
+
+```
+OutputBar.CurrentDirectory = szCurrDir
+```
 
 ## Version
 

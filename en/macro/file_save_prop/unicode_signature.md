@@ -1,20 +1,22 @@
 # UnicodeSignature Property (FileSaveProp Object)
 
-Corresponds to the **Add a Unicode Signature (BOM)** check box in the [**Save Details** dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to theAdd a Unicode Signature (BOM) check box in the [Save Details dialog box](../../dlg/properties/file/save_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **UnicodeSignature**;
+### \[JavaScript\]
 
-object. **UnicodeSignature** = _b_;
+```
+b = object.UnicodeSignature;
+object.UnicodeSignature = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **UnicodeSignature**
-
-object. **UnicodeSignature** = _b_
+```
+b = object.UnicodeSignature
+object.UnicodeSignature = b
+```
 
 ## Version
 

@@ -1,34 +1,39 @@
 # Customize Layouts command
 
-### Summary
+## Summary
 
-> Opens the Layouts page of the Customize dialog box.
+Opens the Layouts page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the Layouts page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the Layouts page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**Layouts**
+- [All Commands](all_commands):Tools >
+Customize >
+Layouts
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_LAYOUTS (9067)
+```
+EEID_CUSTOMIZE_LAYOUTS (9067)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9067);
+```
+editor.ExecuteCommandByID(9067);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9067
+```
+editor.ExecuteCommandByID 9067
+```

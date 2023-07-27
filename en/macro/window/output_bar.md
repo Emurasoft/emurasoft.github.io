@@ -2,13 +2,19 @@
 
 Returns the [OutputBar Object](../output_bar/index).
 
-#### \[JavaScript\]
+## 
 
-_outbar_ = **OutputBar**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+outbar =OutputBar;
+```
 
-Set _outbar_ = **OutputBar**
+### \[VBScript\]
+
+```
+Set outbar =OutputBar
+```
 
 ## Version
 

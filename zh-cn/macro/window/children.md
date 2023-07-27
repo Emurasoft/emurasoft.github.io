@@ -1,14 +1,20 @@
 # Children 属性 (Window ����)
 
-返回代表子窗口的 [**Windows** 集合](../windows/index)。
+返回代表子窗口的 [Windows 集合](../windows/index)。
 
-#### \[JavaScript\]
+## 
 
-_wnds_ = wnd. **Children**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnds = wnd.Children;
+```
 
-_wnds_ = wnd. **Children**
+### \[VBScript\]
+
+```
+wnds = wnd.Children
+```
 
 ## 版本
 

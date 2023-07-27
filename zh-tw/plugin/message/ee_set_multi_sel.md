@@ -13,13 +13,13 @@ lParam = (LPARAM) (const SEL\_INFO\*) pSelInfo;
 
 _iSel_
 
-> 將設定其信息的選取內容的索引。
+將設定其信息的選取內容的索引。
 
 _pSelInfo_
 
-> 指針指向
-> [SEL\_INFO](../structure/sel_info) 結構。
+指針指向
+[SEL\_INFO](../structure/sel_info) 結構。
 
 ## 返回值
 
-> 如果檢索到指定的選取內容信息，則為 TRUE。如果選取內容不是多選模式或函數中發生錯誤，則返回值為 FALSE。
+如果檢索到指定的選取內容信息，則為 TRUE。如果選取內容不是多選模式或函數中發生錯誤，則返回值為 FALSE。

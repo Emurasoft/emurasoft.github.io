@@ -1,32 +1,37 @@
 # 儲存并全部關閉命令
 
-### 摘要
+## 摘要
 
-> 儲存并關閉所有打開的檔案。
+儲存并關閉所有打開的檔案。
 
-### 說明
+## 說明
 
-> 儲存并關閉所有打開的檔案。這個命令等同于 [**全部儲存** 命令](file_save_all) 加 [**全部關閉** 命令](exit_all)。
+儲存并關閉所有打開的檔案。這個命令等同于 [全部儲存 命令](file_save_all) 加 [全部關閉 命令](exit_all)。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **檔案** \> **儲存并全部關閉**
-- [全部命令](../tools/all_commands): **檔案** \> **關閉**
-\> **儲存并全部關閉**
+- 預設功能表:檔案 \>儲存并全部關閉
+- [全部命令](../tools/all_commands):檔案 \>關閉
+\>儲存并全部關閉
 - 工具列: ![](../../images/saveexitall.gif)
 - 狀態列: 無
 - 預設捷徑: CTRL+SHIFT+E
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_SAVE\_EXIT\_ALL (4118)
+```
+EEID_SAVE_EXIT_ALL (4118)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4118);
+```
+editor.ExecuteCommandByID(4118);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4118
+```
+editor.ExecuteCommandByID 4118
+```

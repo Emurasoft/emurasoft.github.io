@@ -1,18 +1,22 @@
 # UseRecycleBin 属性 (BackupProp ����)
 
-与配置属性中 [**备份** 页面](../../dlg/properties/backup/index) 上的 **使用回收站进行备份** 复选框对应。
+与配置属性中 [备份 页面](../../dlg/properties/backup/index) 上的使用回收站进行备份 复选框对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **UseRecycleBin**;
+### \[JavaScript\]
 
-object. **UseRecycleBin** = _b_;
+```
+b = object.UseRecycleBin;
+object.UseRecycleBin = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **UseRecycleBin**
-
-object. **UseRecycleBin** = _b_
+```
+b = object.UseRecycleBin
+object.UseRecycleBin = b
+```
 
 ## 版本
 

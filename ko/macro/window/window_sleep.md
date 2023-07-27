@@ -2,13 +2,19 @@
 
 밀리 초 단위로 지정 된 시간만큼 매크로 실행을 일시 정지합니다.
 
-#### \[JavaScript\]
+## 
 
-**Sleep**( _nMilliseconds_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Sleep( nMilliseconds);
+```
 
-**Sleep** _nMilliseconds_
+### \[VBScript\]
+
+```
+Sleep nMilliseconds
+```
 
 ## 매개 변수
 

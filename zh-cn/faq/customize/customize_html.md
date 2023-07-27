@@ -1,4 +1,4 @@
 # Q. 关于配置属性中“高亮(2)”页面上的“特殊语法”的选项，什么时候适合选择“HTML”，什么时候要选择“HTML-嵌入”？
 
 当指定脚本语言的HTML标签(<SCRIPT
-type=...>)出现在HTML文档中时，您可以选择“HTML”。“HTML”的选项同时也适合ASP文件，包括以%符号开始的脚本，诸如 VBScript, Javascript, PerlScript, CSS等等。当您使用的脚本语言是像PHP或JSP这类的，并且标示这些脚本的开头的几个字符在 **“脚本开始”** 文本框中被指定时，“HTML-嵌入”的特殊语法会比较适合。
+type=...>)出现在HTML文档中时，您可以选择“HTML”。“HTML”的选项同时也适合ASP文件，包括以%符号开始的脚本，诸如 VBScript, Javascript, PerlScript, CSS等等。当您使用的脚本语言是像PHP或JSP这类的，并且标示这些脚本的开头的几个字符在“脚本开始” 文本框中被指定时，“HTML-嵌入”的特殊语法会比较适合。

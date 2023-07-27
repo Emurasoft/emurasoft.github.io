@@ -2,13 +2,19 @@
 
 Retrieves the average of the numbers contained in the selection.
 
-#### \[JavaScript\]
+## 
 
-_v_ = document.selection. **Average**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+v = document.selection.Average;
+```
 
-_v_ = document.selection. **Average**
+### \[VBScript\]
+
+```
+v = document.selection.Average
+```
 
 ## Version
 

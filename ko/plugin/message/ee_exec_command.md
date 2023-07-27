@@ -13,8 +13,8 @@ lParam = 0;
 
 _nCmdID_
 
-> 실행될 명령의 식별자입니다. [Command IDs](../cmdid/index) 를 참고하십시오.
+실행될 명령의 식별자입니다. [Command IDs](../cmdid/index) 를 참고하십시오.
 
 ## 반환 값
 
-> 반환 값이 사용되지 않습니다.
+반환 값이 사용되지 않습니다.

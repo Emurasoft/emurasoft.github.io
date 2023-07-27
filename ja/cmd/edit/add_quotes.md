@@ -1,14 +1,14 @@
 # \[すべてのセルを引用符で囲む\] コマンド
 
-### 概要
+## 概要
 
-> CSV 文書のすべてのセルを2重引用符で囲みます。
+CSV 文書のすべてのセルを2重引用符で囲みます。
 
-### 説明
+## 説明
 
-> CSV 文書のすべてのセルを2重引用符で囲みます。
+CSV 文書のすべてのセルを2重引用符で囲みます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[高度\] - \[すべてのセルを引用符で囲む\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[高度\] - \[すべてのセルを引用符で囲む\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_ADD\_QUOTES (3966)
+```
+EEID_ADD_QUOTES (3966)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3966);
+```
+editor.ExecuteCommandByID(3966);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3966
+```
+editor.ExecuteCommandByID 3966
+```

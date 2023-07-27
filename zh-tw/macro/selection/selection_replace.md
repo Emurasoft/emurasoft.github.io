@@ -2,13 +2,19 @@
 
 在文檔中取代一個字串。
 
-#### \[JavaScript\]
+## 
 
-nFound = document.selection. **Replace**( _strFind_, _strReplace_, _nFlags_\[, _nExFlags_\] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nFound = document.selection.Replace( strFind, strReplace, nFlags[, nExFlags] );
+```
 
-nFound = document.selection. **Replace**( _strFind_, _strReplace_, _nFlags_\[, _nExFlags_\] )
+### \[VBScript\]
+
+```
+nFound = document.selection.Replace( strFind, strReplace, nFlags[, nExFlags] )
+```
 
 ## 參數
 

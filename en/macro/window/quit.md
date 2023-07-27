@@ -2,13 +2,19 @@
 
 Terminates the macro execution.
 
-#### \[JavaScript\]
+## 
 
-**Quit**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Quit();
+```
 
-**Quit**
+### \[VBScript\]
+
+```
+Quit
+```
 
 ## Version
 

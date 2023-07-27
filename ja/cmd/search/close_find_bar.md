@@ -1,14 +1,14 @@
 # \[検索ツール バーを閉じる\] コマンド
 
-### 概要
+## 概要
 
-> 検索ツール バーを閉じます。
+検索ツール バーを閉じます。
 
-### 説明
+## 説明
 
-> 検索ツール バーを閉じます。
+検索ツール バーを閉じます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[検索ツール バーを閉じる\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CLOSE\_FIND\_BAR (4584)
+```
+EEID_CLOSE_FIND_BAR (4584)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4584);
+```
+editor.ExecuteCommandByID(4584);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4584
+```
+editor.ExecuteCommandByID 4584
+```

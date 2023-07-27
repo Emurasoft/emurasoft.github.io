@@ -2,13 +2,19 @@
 
 選択範囲を削除してクリップボードにコピーします。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Cut**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Cut();
+```
 
-document.selection. **Cut**
+### \[VBScript\]
+
+```
+document.selection.Cut
+```
 
 ## バージョン
 

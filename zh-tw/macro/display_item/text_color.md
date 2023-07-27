@@ -2,17 +2,21 @@
 
 指定對象的背景顏色。
 
-#### \[JavaScript\]
+## 
 
-_rgb_ = item. **TextColor**;
+### \[JavaScript\]
 
-item. **TextColor** = _rgb_;
+```
+rgb = item.TextColor;
+item.TextColor = rgb;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_rgb_ = item. **TextColor**;
-
-item. **TextColor** = _rgb_;
+```
+rgb = item.TextColor;
+item.TextColor = rgb;
+```
 
 ## 版本
 

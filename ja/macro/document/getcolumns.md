@@ -2,13 +2,19 @@
 
 CSV モードで列の数を取得します。文書が CSV モードでない場合は、0 を返します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = document. **GetColumns**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = document.GetColumns();
+```
 
-_str_ = document. **GetColumns**()
+### \[VBScript\]
+
+```
+str = document.GetColumns()
+```
 
 ## バージョン
 

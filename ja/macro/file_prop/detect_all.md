@@ -1,19 +1,23 @@
 # DetectAll プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの **[\[ファイル\]](../../dlg/properties/file/index)** [タブ](../../dlg/properties/file/index) の
-**\[すべて自動検出\]** チェック ボックスに相当します。
+設定のプロパティの[\[ファイル\]](../../dlg/properties/file/index) [タブ](../../dlg/properties/file/index) の
+\[すべて自動検出\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectAll**;
+### \[JavaScript\]
 
-object. **DetectAll** = _b_;
+```
+b = object.DetectAll;
+object.DetectAll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectAll**
-
-object. **DetectAll** = _b_
+```
+b = object.DetectAll
+object.DetectAll = b
+```
 
 ## バージョン
 

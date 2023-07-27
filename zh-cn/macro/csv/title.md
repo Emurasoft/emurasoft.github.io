@@ -1,18 +1,22 @@
 # Title 属性 (Csv ����)
 
-与在自定义对话框中 [**CSV** 页面](../../dlg/customize/csv/index) 上的 **工具栏按钮标题** 文本框对应。
+与在自定义对话框中 [CSV 页面](../../dlg/customize/csv/index) 上的工具栏按钮标题 文本框对应。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Title**;
+### \[JavaScript\]
 
-object. **Title** = _s_;
+```
+s = object.Title;
+object.Title = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Title**
-
-object. **Title** = _s_
+```
+s = object.Title
+object.Title = s
+```
 
 ## 版本
 

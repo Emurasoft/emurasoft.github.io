@@ -1,31 +1,36 @@
 # Extract Bookmarked Lines in this Group to New File command
 
-### Summary
+## Summary
 
-> Extracts all bookmarked lines in this group and copies to a new document.
+Extracts all bookmarked lines in this group and copies to a new document.
 
-### Description
+## Description
 
-> Extracts all bookmarked lines in this group and copies to a new document. This command does not remove the bookmarked lines from the original documents.
+Extracts all bookmarked lines in this group and copies to a new document. This command does not remove the bookmarked lines from the original documents.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Bookmarks** \> **This Group** \> **Extract Bookmarked Lines to New File**
-- [All Commands](../tools/all_commands): **Bookmarks** \> **This Group** \> **Extract Bookmarked Lines to New File**
+- Default Menu:Bookmarks \>This Group \>Extract Bookmarked Lines to New File
+- [All Commands](../tools/all_commands):Bookmarks \>This Group \>Extract Bookmarked Lines to New File
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_BOOKMARK\_GROUP\_EXTRACT (4592)
+```
+EEID_BOOKMARK_GROUP_EXTRACT (4592)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4592);
+```
+editor.ExecuteCommandByID(4592);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4592
+```
+editor.ExecuteCommandByID 4592
+```

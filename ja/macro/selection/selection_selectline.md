@@ -2,13 +2,19 @@
 
 カーソル位置の論理行を選択します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectLine**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectLine();
+```
 
-document.selection. **SelectLine**
+### \[VBScript\]
+
+```
+document.selection.SelectLine
+```
 
 ## バージョン
 

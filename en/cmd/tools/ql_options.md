@@ -1,31 +1,36 @@
 # Search Options command
 
-### Summary
+## Summary
 
-> Opens the **Quick Launch** window and selects the **Options** mode.
+Opens theQuick Launch window and selects theOptions mode.
 
-### Description
+## Description
 
-> Opens the **Quick Launch** window and selects the **Options** mode.
+Opens theQuick Launch window and selects theOptions mode.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Help** \> **Search Options**
-- [All Commands](all_commands): **Help** \> **Search Options**
+- Default Menu:Help \>Search Options
+- [All Commands](all_commands):Help \>Search Options
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+O
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_QL\_OPTIONS (3952)
+```
+EEID_QL_OPTIONS (3952)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3952);
+```
+editor.ExecuteCommandByID(3952);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3952
+```
+editor.ExecuteCommandByID 3952
+```

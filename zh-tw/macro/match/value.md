@@ -2,13 +2,19 @@
 
 一個包含符合值或文字的唯讀值。
 
-#### \[JavaScript\]
+## 
 
-_s_ = m. **Value**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+s = m.Value;
+```
 
-_s_ = m. **Value**;
+### \[VBScript\]
+
+```
+s = m.Value;
+```
 
 ## 版本
 

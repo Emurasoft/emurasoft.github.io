@@ -1,16 +1,20 @@
 # Item Property (CharacterRanges Collection)
 
-Retrieves the [**CharacterRange** object](../character_range/index) for the specified index.
+Retrieves the [CharacterRange object](../character_range/index) for the specified index.
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-list. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = list.Item( Index );
+```
 
-_item_ =
-list. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = list.Item( Index )
+```
 
 ## Parameters
 

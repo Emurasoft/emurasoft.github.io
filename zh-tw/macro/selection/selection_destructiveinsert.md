@@ -2,13 +2,19 @@
 
 插入文字，覆蓋已存在的文字。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **DestructiveInsert**( str );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.DestructiveInsert( str );
+```
 
-document.selection. **DestructiveInsert** str
+### \[VBScript\]
+
+```
+document.selection.DestructiveInsert str
+```
 
 ## 參數
 

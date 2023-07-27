@@ -1,19 +1,23 @@
 # MonitorInterval Property (FileProp Object)
 
-Corresponds to the **Monitor Interval** text box in the
-[**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theMonitor Interval text box in the
+[File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **MonitorInterval**;
+### \[JavaScript\]
 
-object. **MonitorInterval** = _n_;
+```
+n = object.MonitorInterval;
+object.MonitorInterval = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **MonitorInterval**
-
-object. **MonitorInterval** = _n_
+```
+n = object.MonitorInterval
+object.MonitorInterval = n
+```
 
 ## Version
 

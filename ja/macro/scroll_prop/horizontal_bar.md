@@ -1,21 +1,23 @@
 # HorizontalBar プロパティ (ScrollProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の
-**\[水平スクロール バー\]** ドロップダウン リスト ボックスに相当します。
+設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
+\[水平スクロール バー\] ドロップダウン リスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ =
-object. **HorizontalBar**;
+### \[JavaScript\]
 
-object. **HorizontalBar** = _n_;
+```
+n = object.HorizontalBar;
+object.HorizontalBar = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ =
-object. **HorizontalBar**
-
-object. **HorizontalBar** = _n_
+```
+n = object.HorizontalBar
+object.HorizontalBar = n
+```
 
 ## バージョン
 

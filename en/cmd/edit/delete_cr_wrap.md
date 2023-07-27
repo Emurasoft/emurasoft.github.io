@@ -1,32 +1,37 @@
 # Remove Newline Characters command
 
-### Summary
+## Summary
 
-> Removes newline characters at wrap points in the selection.
+Removes newline characters at wrap points in the selection.
 
-### Description
+## Description
 
-> Removes newline characters at wrap points in the selection. Similar to [**Join Lines** command](join_lines), but this command does not
-> insert a space at each line at wrap points.
+Removes newline characters at wrap points in the selection. Similar to [Join Lines command](join_lines), but this command does not
+insert a space at each line at wrap points.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Remove Newline Characters**
-- [All Commands](../tools/all_commands): **Convert** \> **Remove Newline Characters**
+- Default Menu:Convert \>Remove Newline Characters
+- [All Commands](../tools/all_commands):Convert \>Remove Newline Characters
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DELETE\_CR\_WRAP (4144)
+```
+EEID_DELETE_CR_WRAP (4144)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Format(eeFormatDeleteNL);
+```
+document.selection.Format(eeFormatDeleteNL);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Format eeFormatDeleteNL
+```
+document.selection.Format eeFormatDeleteNL
+```

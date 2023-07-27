@@ -1,19 +1,23 @@
 # Footer プロパティ (PrintProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[印刷\]** タブ](../../dlg/properties/print/index) の
-**\[フッタ\]** テキスト ボックスに相当します。
+設定のプロパティの [\[印刷\] タブ](../../dlg/properties/print/index) の
+\[フッタ\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Footer**;
+### \[JavaScript\]
 
-object. **Footer** = _s_;
+```
+s = object.Footer;
+object.Footer = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Footer**
-
-object. **Footer** = _s_
+```
+s = object.Footer
+object.Footer = s
+```
 
 ## バージョン
 

@@ -1,10 +1,16 @@
 # “语言服务器”页面
 
-**语言服务器** 让你能设置与语言服务器相关的属性。
+语言服务器 让你能设置与语言服务器相关的属性。
+
+## 
 
 ### “启用语言服务器协议（实验性）”复选框
 
-用语言服务器协议启用悬停工具提示。
+启用语言服务器协议可启用以下功能：
+
+- 悬停工具提示
+-搜索 菜单上的搜索符号
+- 允许选择语言服务器协议 作为语法检查 的文档类型
 
 ### “文档类型”下拉列表框
 
@@ -12,7 +18,7 @@
 
 ### 「重置」按钮
 
-重置为默认设定。会显示 [**重置** 对话框](../reset/index) 并让你能从另一个配置复制设定。
+重置为默认设定。会显示 [重置 对话框](../reset/index) 并让你能从另一个配置复制设定。
 
 ## 语言服务器安装
 
@@ -24,11 +30,11 @@
 
 用 pip 安装 [Python LSP Server](https://github.com/python-lsp/python-lsp-server)。在命令提示符中使用 `python -m pylsp` 测试安装。
 
-### HTML，CSS，JavaScript，和 Perl
+### HTML，CSS，JavaScript，JSON 和 Perl
 
 EmEditor 内置了这些服务器。以下列表提供了指向其源存储库的链接。
 
-- HTML 和 CSS： [VSCode extensions](https://github.com/microsoft/vscode)
+- HTML，CSS 和 JSON： [VSCode extensions](https://github.com/microsoft/vscode)
 - JavaScript： [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server)
 - Perl： [Perl Navigator Language Server](https://github.com/bscan/PerlNavigator)
 

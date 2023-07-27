@@ -1,32 +1,37 @@
 # Reset Font Size command
 
-### Summary
+## Summary
 
-> Resets the display font size.
+Resets the display font size.
 
-### Description
+## Description
 
-> Resets the display font size.
+Resets the display font size.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Font** >
-**Reset Font Size**
+- [All Commands](../tools/all_commands):View \>Font >
+Reset Font Size
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+0
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_RESET\_FONT\_SIZE (3876)
+```
+EEID_RESET_FONT_SIZE (3876)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3876);
+```
+editor.ExecuteCommandByID(3876);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3876
+```
+editor.ExecuteCommandByID 3876
+```

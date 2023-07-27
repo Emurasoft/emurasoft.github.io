@@ -1,32 +1,37 @@
 # Auto Arrange command
 
-### Summary
+## Summary
 
-> Arranges tabs automatically.
+Arranges tabs automatically.
 
-### Description
+## Description
 
-> If this command is checked, EmEditor arranges tabs automatically.
+If this command is checked, EmEditor arranges tabs automatically.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Arrange Tabs by**
-\> **Auto Arrange**
+- [All Commands](../tools/all_commands):View \>Arrange Tabs by
+\>Auto Arrange
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_AUTO\_SORT (4404)
+```
+EEID_AUTO_SORT (4404)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4404);
+```
+editor.ExecuteCommandByID(4404);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4404
+```
+editor.ExecuteCommandByID 4404
+```

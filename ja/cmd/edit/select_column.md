@@ -1,14 +1,14 @@
 # \[CSV列を選択 (ヘディング無し)\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書で現在の列をヘディング無しで箱型選択モードで選択します。
+CSV文書で現在の列をヘディング無しで箱型選択モードで選択します。
 
-### 説明
+## 説明
 
-> CSV文書で現在の列をヘディング無しで箱型選択モードで選択します。
+CSV文書で現在の列をヘディング無しで箱型選択モードで選択します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[列\] - \[列を選択 (ヘディング無し)\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[列\] - \[列を選択 (ヘディング無し)\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SELECT\_COLUMN (4461)
+```
+EEID_SELECT_COLUMN (4461)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4461);
+```
+editor.ExecuteCommandByID(4461);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4461
+```
+editor.ExecuteCommandByID 4461
+```

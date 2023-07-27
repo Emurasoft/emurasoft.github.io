@@ -1,21 +1,23 @@
 # PasteAnsi プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の
-**\[常にANSIで貼り付け\]** チェック ボックスに相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の
+\[常にANSIで貼り付け\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **PasteAnsi**;
+### \[JavaScript\]
 
-object. **PasteAnsi** = _b_;
+```
+b = object.PasteAnsi;
+object.PasteAnsi = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **PasteAnsi**
-
-object. **PasteAnsi** = _b_
+```
+b = object.PasteAnsi
+object.PasteAnsi = b
+```
 
 ## バージョン
 

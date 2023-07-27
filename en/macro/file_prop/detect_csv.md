@@ -1,19 +1,23 @@
 # DetectCSV Property (FileProp Object)
 
-Corresponds to the **Detect CSV (Comma-Separated)** check box in the
-[**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theDetect CSV (Comma-Separated) check box in the
+[File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **DetectCSV**;
+### \[JavaScript\]
 
-object. **DetectCSV** = _b_;
+```
+b = object.DetectCSV;
+object.DetectCSV = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **DetectCSV**
-
-object. **DetectCSV** = _b_
+```
+b = object.DetectCSV
+object.DetectCSV = b
+```
 
 ## Version
 

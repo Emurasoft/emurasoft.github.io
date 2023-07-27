@@ -2,13 +2,19 @@
 
 關閉視窗。
 
-#### \[JavaScript\]
+## 
 
-**close**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+close();
+```
 
-**close**
+### \[VBScript\]
+
+```
+close
+```
 
 ## 版本
 

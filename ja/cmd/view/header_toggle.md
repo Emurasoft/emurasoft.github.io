@@ -1,14 +1,14 @@
 # \[列ヘッダー\] コマンド
 
-### 概要
+## 概要
 
-> CSV用の列ヘッダーの表示/非表示を切り替えます。
+CSV用の列ヘッダーの表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> CSV用の列ヘッダーの表示/非表示を切り替えます。
+CSV用の列ヘッダーの表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[列ヘッダー\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[列ヘッダー\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_HEADER\_TOGGLE (3985)
+```
+EEID_HEADER_TOGGLE (3985)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3985);
+```
+editor.ExecuteCommandByID(3985);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3985
+```
+editor.ExecuteCommandByID 3985
+```

@@ -1,31 +1,36 @@
 # Layout 1 (Focus Mode) command
 
-### Summary
+## Summary
 
-> Toggles Layout 1 (Focus Mode by default).
+Toggles Layout 1 (Focus Mode by default).
 
-### Description
+## Description
 
-> Toggles Layout 1 (Focus Mode by default).
+Toggles Layout 1 (Focus Mode by default).
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Layouts** \> **Full Screen**
-- [All Commands](../tools/all_commands): **View** \> **Layouts** \> **Full Screen**
+- Default Menu:View \>Layouts \>Full Screen
+- [All Commands](../tools/all_commands):View \>Layouts \>Full Screen
 - Toolbar: ![](../../images/full_screen.gif)
 - Status Bar: None
 - Default Shortcut Key: F11
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FULL\_SCREEN (4453)
+```
+EEID_FULL_SCREEN (4453)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4453);
+```
+editor.ExecuteCommandByID(4453);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4453
+```
+editor.ExecuteCommandByID 4453
+```

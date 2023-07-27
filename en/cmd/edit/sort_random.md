@@ -1,31 +1,36 @@
 # Sort Randomly command
 
-### Summary
+## Summary
 
-> Sorts randomly in the current column.
+Sorts randomly in the current column.
 
-### Description
+## Description
 
-> Sorts randomly in the current column.
+Sorts randomly in the current column.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Sort** \> **Sort Randomly**
-- [All Commands](../tools/all_commands): **Sort** \> **Sort Randomly**
+- Default Menu:Sort \>Sort Randomly
+- [All Commands](../tools/all_commands):Sort \>Sort Randomly
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SORT\_RANDOM (4003)
+```
+EEID_SORT_RANDOM (4003)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4003);
+```
+editor.ExecuteCommandByID(4003);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4003
+```
+editor.ExecuteCommandByID 4003
+```

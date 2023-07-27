@@ -1,31 +1,36 @@
 # 生成報告命令
 
-### 摘要
+## 摘要
 
-> 根據目前的比較結果生成報告檔案。
+根據目前的比較結果生成報告檔案。
 
-### 說明
+## 說明
 
-> 根據目前的比較結果生成報告檔案。
+根據目前的比較結果生成報告檔案。
 
-### 運行方法
+## 運行方法
 
-- 預設功能表: **比較** \> **生成報告**
-- [全部命令](../tools/all_commands): **比較** \> **生成報告**
+- 預設功能表:比較 \>生成報告
+- [全部命令](../tools/all_commands):比較 \>生成報告
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_COMPARE\_BOOKMARK (3996)
+```
+EEID_COMPARE_BOOKMARK (3996)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3996);
+```
+editor.ExecuteCommandByID(3996);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3996
+```
+editor.ExecuteCommandByID 3996
+```

@@ -2,19 +2,21 @@
 
 指定表示對象的 Unicode 腳本和/或 Unicode 常規類別屬性的字串。
 
-#### \[JavaScript\]
+## 
 
-_s_ =
-item. **Properties**;
+### \[JavaScript\]
 
-item. **Properties** = _s_;
+```
+s = item.Properties;
+item.Properties = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ =
-item. **Properties**
-
-item. **Properties** = _s_
+```
+s = item.Properties
+item.Properties = s
+```
 
 ## 版本
 

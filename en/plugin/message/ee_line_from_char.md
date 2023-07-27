@@ -17,22 +17,22 @@ lParam = (LPARAM) (UINT) nSerialIndex;
 
 _nLogical_
 
-> Specify one of the following values.
->
-> | Value | Meaning |
-> | --- | --- |
-> | POS\_VIEW | Display Coordinates |
-> | POS\_LOGICAL\_A | Logical Coordinates (Count double-byte characters as two) |
-> | POS\_LOGICAL\_W | Logical Coordinates (Count double-byte characters as one) |
+Specify one of the following values.
+
+| Value | Meaning |
+| --- | --- |
+| POS\_VIEW | Display Coordinates |
+| POS\_LOGICAL\_A | Logical Coordinates (Count double-byte characters as two) |
+| POS\_LOGICAL\_W | Logical Coordinates (Count double-byte characters as one) |
 
 _nSerialIndex_
 
-> Specifies the character index of the character contained in the line whose
-> number is to be retrieved. If this parameter is -1, EE\_LINE\_FROM\_CHAR
-> retrieves the line number of the current line (the line containing the
-> cursor).
+Specifies the character index of the character contained in the line whose
+number is to be retrieved. If this parameter is -1, EE\_LINE\_FROM\_CHAR
+retrieves the line number of the current line (the line containing the
+cursor).
 
 ## Return Values
 
-> The return value is the zero-based line number of the line containing the
-> character index specified by _nSerialIndex_.
+The return value is the zero-based line number of the line containing the
+character index specified by _nSerialIndex_.

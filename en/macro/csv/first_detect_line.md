@@ -1,18 +1,22 @@
 # FirstDetectLine Property (Csv Object)
 
-Corresponds to the **First line to detect** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to theFirst line to detect text box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **FirstDetectLine**;
+### \[JavaScript\]
 
-object. **FirstDetectLine** = _n_;
+```
+n = object.FirstDetectLine;
+object.FirstDetectLine = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **FirstDetectLine**
-
-object. **FirstDetectLine** = _n_
+```
+n = object.FirstDetectLine
+object.FirstDetectLine = n
+```
 
 ## Version
 

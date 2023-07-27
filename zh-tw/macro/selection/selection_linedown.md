@@ -2,13 +2,19 @@
 
 把游標下移指定的行數。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **LineDown**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.LineDown( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **LineDown** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.LineDown [ bExtend [, nCount ] ]
+```
 
 ## 參數
 
@@ -18,7 +24,7 @@ _bExtend_
 
 _nCount_
 
-可選項。指定下移的行數。預設值是 1。如果指定的是負數，該方法與 [**LineUp** \
+可選項。指定下移的行數。預設值是 1。如果指定的是負數，該方法與 [LineUp \
 方法](selection_lineup) 的行為相同。如果指定值為 0，該方法的行為與指定值為 1 時的行為相同。
 
 ## 版本

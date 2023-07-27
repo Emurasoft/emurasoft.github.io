@@ -1,20 +1,22 @@
 # QuoteCharacter 속성 (GeneralProp ��ü)
 
-구성 속성 [**일반** 탭](../../dlg/properties/general/index) 의 **따옴표 문자** 텍스트 박스에 해당합니다.
+구성 속성 [일반 탭](../../dlg/properties/general/index) 의따옴표 문자 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_str_ =
-object. **QuoteCharacter**;
+### \[JavaScript\]
 
-object. **QuoteCharacter** = _str_;
+```
+str = object.QuoteCharacter;
+object.QuoteCharacter = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ =
-object. **QuoteCharacter**
-
-object. **QuoteCharacter** = _str_
+```
+str = object.QuoteCharacter
+object.QuoteCharacter = str
+```
 
 ## 버전
 

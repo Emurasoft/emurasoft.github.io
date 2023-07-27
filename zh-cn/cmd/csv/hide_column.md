@@ -1,31 +1,36 @@
 # 隐藏列命令
 
-### 摘要
+## 摘要
 
-> 隐藏选取的列或当前列。
+隐藏选取的列或当前列。
 
-### 说明
+## 说明
 
-> 隐藏选取的列或当前列。
+隐藏选取的列或当前列。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **CSV** \> **列** \> **隐藏列**
-- [所有命令](../tools/all_commands): **CSV** \> **列** \> **隐藏列**
+- 默认菜单:CSV \>列 \>隐藏列
+- [所有命令](../tools/all_commands):CSV \>列 \>隐藏列
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_HIDE\_COLUMN (4087)
+```
+EEID_HIDE_COLUMN (4087)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4087);
+```
+editor.ExecuteCommandByID(4087);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4087
+```
+editor.ExecuteCommandByID 4087
+```

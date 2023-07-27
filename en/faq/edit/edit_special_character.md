@@ -1,11 +1,11 @@
 # Q. How do I insert special characters?
 
-Select **Advanced** under the **Edit** menu, and then select **Insert Special**
-**Character**. To inspect a Unicode character code you want to insert, refer to
+SelectAdvanced under theEdit menu, and then selectInsert Special
+Character. To inspect a Unicode character code you want to insert, refer to
 the
 [Latin Extended Characters \
 Reference](../../howto/edit/special_char_sample).
-You can also inspect a character by using the **Character Map** ( Start menu > All Programs >
+You can also inspect a character by using theCharacter Map ( Start menu > All Programs >
 Accessories > System Tools > Character Map) if installed in your Windows Operating System. You
 might need to adjust the font to display special characters properly.
 

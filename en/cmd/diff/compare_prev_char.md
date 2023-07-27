@@ -1,31 +1,36 @@
 # Previous Changed Character command
 
-### Summary
+## Summary
 
-> Jumps to the previous changed character.
+Jumps to the previous changed character.
 
-### Description
+## Description
 
-> Jumps to the previous changed character when in comparison mode.
+Jumps to the previous changed character when in comparison mode.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Compare** \> **Previous Changed Character**
+- [All Commands](../tools/all_commands):Compare \>Previous Changed Character
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+F7
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMPARE\_PREV\_CHAR (4089)
+```
+EEID_COMPARE_PREV_CHAR (4089)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4089);
+```
+editor.ExecuteCommandByID(4089);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4089
+```
+editor.ExecuteCommandByID 4089
+```

@@ -8,20 +8,20 @@ Editor\_GetAccelArray( HWND hwnd, ACCEL\* pAccel, UINT nBufSize );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _nBufSize_
 
-> 在會檢索快速鍵數列的 ACCEL 中，指定緩沖區的大小。
+在會檢索快速鍵數列的 ACCEL 中，指定緩沖區的大小。
 
 _pAccel_
 
-> 指定指標至檢索 ACCEL 結構數列的緩沖區。
+指定指標至檢索 ACCEL 結構數列的緩沖區。
 
 ## 返回值
 
-> 返回值是在用來接收快速鍵數列的 ACCEL 中的緩沖區大小。
+返回值是在用來接收快速鍵數列的 ACCEL 中的緩沖區大小。
 
 ## 支持版本
 
-> 支持 EmEditor 7.00 或之後的版本。
+支持 EmEditor 7.00 或之後的版本。

@@ -5,17 +5,20 @@
 
 下面的示例代碼顯示文字 Continue? 以及 YES，NO 和 CANCEL 按鈕。變量 n 的數值是 6 如果選擇了 YES 按鈕，變為 7 如果選擇了 NO 按鈕，或 2 如果選擇了 CANCEL 按鈕。
 
-#### \[JavaScript (JScript)\]
+## 
+
+### \[JavaScript (JScript)\]
 
 WshShell = new ActiveXObject( "WScript.Shell" );
 
 n = WshShell.Popup( "Continue?", 0, "EmEditor", 3 );
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set WshShell = CreateObject( "WScript.Shell" )
-
 n = WshShell.Popup( "Continue?", 0, "EmEditor", 3 )
+```
 
 ## References
 

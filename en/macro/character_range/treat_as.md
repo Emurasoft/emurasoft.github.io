@@ -2,19 +2,21 @@
 
 Specifies the character to be substituted for. If -1 is specified, the specified range will be ignored when used for fuzzy matching.
 
-#### \[JavaScript\]
+## 
 
-_c_ =
-item. **TreatAs**;
+### \[JavaScript\]
 
-item. **TreatAs** = _c_;
+```
+c = item.TreatAs;
+item.TreatAs = c;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_c_ =
-item. **TreatAs**
-
-item. **TreatAs** = _c_
+```
+c = item.TreatAs
+item.TreatAs = c
+```
 
 ## Version
 

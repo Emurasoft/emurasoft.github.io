@@ -1,20 +1,22 @@
 # ShowReturns 속성 (MarkProp ��ü)
 
-구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의 **반환 보이기** 체크 박스에 해당합니다.
+구성 속성 [표시 탭](../../dlg/properties/marks/index) 의반환 보이기 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowReturns**;
+### \[JavaScript\]
 
-object. **ShowReturns** = _b_;
+```
+b = object.ShowReturns;
+object.ShowReturns = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowReturns**
-
-object. **ShowReturns** = _b_
+```
+b = object.ShowReturns
+object.ShowReturns = b
+```
 
 ## 버전
 

@@ -2,13 +2,19 @@
 
 커서 위치에 줄 번호를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-yPos = document.selection. **GetActivePointY**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos = document.selection.GetActivePointY( nFlags );
+```
 
-yPos = document.selection. **GetActivePointY**( _nFlags_ )
+### \[VBScript\]
+
+```
+yPos = document.selection.GetActivePointY( nFlags )
+```
 
 ## 매개 변수
 

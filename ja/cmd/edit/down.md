@@ -1,14 +1,14 @@
 # \[1行下へ\] コマンド
 
-### 概要
+## 概要
 
-> 1 行下へ移動します。
+1 行下へ移動します。
 
-### 説明
+## 説明
 
-> カーソル位置を 1 行下へ移動します。
+カーソル位置を 1 行下へ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[垂直にカーソル移動\] \- \[1行下へ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Down
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DOWN (4161)
+```
+EEID_DOWN (4161)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.LineDown(false,1);
+```
+document.selection.LineDown(false,1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.LineDown false,1
+```
+document.selection.LineDown false,1
+```

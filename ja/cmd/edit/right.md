@@ -1,14 +1,14 @@
 # \[1文字右へ\] コマンド
 
-### 概要
+## 概要
 
-> 1 文字右へ移動します。
+1 文字右へ移動します。
 
-### 説明
+## 説明
 
-> カーソル位置を 1 文字右へ移動します。カーソル位置が行末の場合、次の行の先頭に移動します。
+カーソル位置を 1 文字右へ移動します。カーソル位置が行末の場合、次の行の先頭に移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[水平にカーソル移動\] \- \[1文字右へ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Right
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_RIGHT (4156)
+```
+EEID_RIGHT (4156)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.CharRight(false,1);
+```
+document.selection.CharRight(false,1);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.CharRight false,1
+```
+document.selection.CharRight false,1
+```

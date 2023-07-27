@@ -13,18 +13,18 @@ lParam = (LPARAM) (RUN\_MACRO\_INFO\*) pRMI;
 
 _pRMI_
 
-> Pointer to the [RUN\_MACRO\_INFO](../structure/run_macro_info) structure.
+Pointer to the [RUN\_MACRO\_INFO](../structure/run_macro_info) structure.
 
 ## Return Values
 
-> The return value is one of the following values.
->
-> |     |     |
-> | --- | --- |
-> | S\_OK | Success. |
-> | S\_FALSE | A macro error like a syntax error occurred. |
-> | S\_EDIT\_TEMP | A macro error occurred but could not open the source code to edit because the source code is not in a text file. The caller should open the source file with the cursor position set according to the information provided by the ptErrorPos parameter. |
-> | E\_FAIL | A fatal error occurred. |
+The return value is one of the following values.
+
+|     |     |
+| --- | --- |
+| S\_OK | Success. |
+| S\_FALSE | A macro error like a syntax error occurred. |
+| S\_EDIT\_TEMP | A macro error occurred but could not open the source code to edit because the source code is not in a text file. The caller should open the source file with the cursor position set according to the information provided by the ptErrorPos parameter. |
+| E\_FAIL | A fatal error occurred. |
 
 ## Version
 

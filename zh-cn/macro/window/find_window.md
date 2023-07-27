@@ -2,13 +2,19 @@
 
 通过类名和/或一个窗口标题查找子 [Window 对象](../window/index)。
 
-#### \[JavaScript\]
+## 
 
-wndChild = wnd. **FindWindow**( _strClass_, _strCaption_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wndChild = wnd.FindWindow( strClass, strCaption );
+```
 
-wndChild = wnd. **FindWindow**( _strClass_, _strCaption_ )
+### \[VBScript\]
+
+```
+wndChild = wnd.FindWindow( strClass, strCaption )
+```
 
 ## 参数
 
@@ -22,17 +28,19 @@ _strCaption_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 wnd = FindWindow( "EmEditorView", "" );
-
 alert( wnd.Caption );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd = FindWindow( "EmEditorView", "" )
-
 alert wnd.Caption
+```
 
 ## 版本
 

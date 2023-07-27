@@ -1,31 +1,36 @@
 # Unicode Normalization Form D (Canonical Decomposition) command
 
-### Summary
+## Summary
 
-> Apply Unicode Normalization Form D (Canonical Decomposition) to the selected string.
+Apply Unicode Normalization Form D (Canonical Decomposition) to the selected string.
 
-### Description
+## Description
 
-> Apply Unicode Normalization Form D (Canonical Decomposition) defined in " [Unicode Standard Annex #15 Unicode Normalization Forms](http://unicode.org/reports/tr15/)" to the selected string.
+Apply Unicode Normalization Form D (Canonical Decomposition) defined in " [Unicode Standard Annex #15 Unicode Normalization Forms](http://unicode.org/reports/tr15/)" to the selected string.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Encode/Decode** \> **Unicode Normalization Form D (Canonical Decomposition)**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode Normalization Form D (Canonical Decomposition)**
+- Default Menu:Convert \>Encode/Decode \>Unicode Normalization Form D (Canonical Decomposition)
+- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Unicode Normalization Form D (Canonical Decomposition)
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_UNICODE\_NORM\_FD (4054)
+```
+EEID_UNICODE_NORM_FD (4054)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4054);
+```
+editor.ExecuteCommandByID(4054);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4054
+```
+editor.ExecuteCommandByID 4054
+```

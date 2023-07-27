@@ -13,8 +13,8 @@ lParam = (LPARAM) (COLUMN\_STRUCT\*) pColumnStruct;
 
 _pColumnStruct_
 
-> Pointer to the [COLUMN\_STRUCT](../structure/column_struct) structure.
+Pointer to the [COLUMN\_STRUCT](../structure/column_struct) structure.
 
 ## Return Values
 
-> The return value is the size of the buffer including the terminating NULL in characters needed to retrieve the text if succeeded, or negative if failed. The return value can be larger than the exact size to retrieve the text.
+The return value is the size of the buffer including the terminating NULL in characters needed to retrieve the text if succeeded, or negative if failed. The return value can be larger than the exact size to retrieve the text.

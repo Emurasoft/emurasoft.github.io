@@ -1,20 +1,24 @@
 # Encoding Property (FileProp Object)
 
-Corresponds to the **Opening**
-**Encoding** drop-down list box in the
-[**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theOpening
+Encoding drop-down list box in the
+[File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Encoding**;
+### \[JavaScript\]
 
-object. **Encoding** = _n_;
+```
+n = object.Encoding;
+object.Encoding = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Encoding**
-
-object. **Encoding** = _n_
+```
+n = object.Encoding
+object.Encoding = n
+```
 
 ## Version
 

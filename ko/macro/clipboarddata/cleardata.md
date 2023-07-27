@@ -2,13 +2,19 @@
 
 클립보드로부터 하나 이상의 데이터 형식을 삭제합니다.
 
-#### \[JavaScript\]
+## 
 
-clipboardData. **clearData**( \[ _sDataFormat_, \[ _iPos_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+clipboardData.clearData( [ sDataFormat, [ iPos ] ] );
+```
 
-clipboardData. **clearData** \[ _sDataFormat_, \[ _iPos_ \] \]
+### \[VBScript\]
+
+```
+clipboardData.clearData [ sDataFormat, [ iPos ] ]
+```
 
 ## 매개 변수
 
@@ -30,13 +36,17 @@ _iPos_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 clipboardData.clearData();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 clipboardData.clearData
+```
 
 ## 버전
 

@@ -2,13 +2,19 @@
 
 선택된 텍스트의 너비를 변경합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ChangeWidth**( nFlags );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ChangeWidth( nFlags );
+```
 
-document.selection. **ChangeWidth** nFlags
+### \[VBScript\]
+
+```
+document.selection.ChangeWidth nFlags
+```
 
 ## 매개 변수
 

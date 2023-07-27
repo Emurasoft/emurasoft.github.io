@@ -1,14 +1,20 @@
 # clipboardData 属性 (Window ����)
 
-返回 [**clipboardData** 对象](../clipboarddata/index)。
+返回 [clipboardData 对象](../clipboarddata/index)。
 
-#### \[JavaScript\]
+## 
 
-_clip_ = **clipboardData**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+clip =clipboardData;
+```
 
-Set _clip_ = **clipboardData**
+### \[VBScript\]
+
+```
+Set clip =clipboardData
+```
 
 ## 版本
 

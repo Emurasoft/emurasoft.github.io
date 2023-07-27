@@ -1,14 +1,20 @@
 # Interface 속성 (Window ��ü)
 
-[**Interface** 개체](../interface/index) 를 반환합니다.
+[Interface 개체](../interface/index) 를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = **Interface**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj =Interface;
+```
 
-Set _obj_ = **Interface**
+### \[VBScript\]
+
+```
+Set obj =Interface
+```
 
 ## 버전
 

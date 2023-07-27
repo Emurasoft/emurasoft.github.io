@@ -2,7 +2,7 @@
 
 |     |     |
 | --- | --- |
-| **메시지** | **설명** |
+|메시지 |설명 |
 | [EE\_ADD\_REF](ee_add_ref) | 플러그 인의 참조 번호가 증가합니다. |
 | [EE\_CLIP\_HISTORY](ee_clip_history) | 클립보드 기록을 조작합니다. |
 | [EE\_CONVERT](ee_convert) | 문자를 변환합니다. |

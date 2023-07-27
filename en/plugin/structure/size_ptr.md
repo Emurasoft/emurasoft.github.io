@@ -16,8 +16,8 @@ LONG\_PTR cy;
 
 _x_
 
-> Specifies an x-axis value.
+Specifies an x-axis value.
 
 y
 
-> Specifies a y-axis value.
+Specifies a y-axis value.

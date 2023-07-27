@@ -1,14 +1,14 @@
 # \[クリップボードの履歴を表示\] コマンド
 
-### 概要
+## 概要
 
-> クリップボードの履歴を表示します。
+クリップボードの履歴を表示します。
 
-### 説明
+## 説明
 
-> クリップボードの履歴を表示します。
+クリップボードの履歴を表示します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[編集\] \- \[クリップボードの履歴を表示\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[貼り付け\] \- \[クリップボードの履歴を表示\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+V, Ctrl+Shift+Insert
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CLIPBOARD\_HISTORY (4045)
+```
+EEID_CLIPBOARD_HISTORY (4045)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4045);
+```
+editor.ExecuteCommandByID(4045);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4045
+```
+editor.ExecuteCommandByID 4045
+```

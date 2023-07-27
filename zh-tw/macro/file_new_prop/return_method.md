@@ -1,18 +1,22 @@
 # ReturnMethod 屬性 (FileNewProp ��H)
 
-與 [**新增檔案詳細信息** 對話方塊](../../dlg/properties/file/new_details/index) 中的 **換行方式** 下拉清單方塊相對應。
+與 [新增檔案詳細信息 對話方塊](../../dlg/properties/file/new_details/index) 中的換行方式 下拉清單方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **ReturnMethod**;
+### \[JavaScript\]
 
-object. **ReturnMethod** = _n_;
+```
+n = object.ReturnMethod;
+object.ReturnMethod = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **ReturnMethod**
-
-object. **ReturnMethod** = _n_
+```
+n = object.ReturnMethod
+object.ReturnMethod = n
+```
 
 ## 版本
 

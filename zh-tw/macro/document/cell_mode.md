@@ -2,37 +2,40 @@
 
 設置或檢索一個標志來顯示選擇模式是否是儲存格選擇模式。
 
-#### \[JavaScript\]
+## 
 
-_b_ = document. **CellMode**;
+### \[JavaScript\]
 
-document. **CellMode** = _b_;
+```
+b = document.CellMode;
+document.CellMode = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = document. **CellMode**
-
-document. **CellMode** = _b_
+```
+b = document.CellMode
+document.CellMode = b
+```
 
 ## 范例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 if( document.CellMode )  alert( "儲存格選擇模式." );
-
 else  alert( "不是儲存格選擇模式." );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 If document.CellMode Then
-
 alert( "儲存格選擇模式." )
-
 Else
-
 alert( "不是儲存格選擇模式." )
-
 End If
+```
 
 ## 版本
 

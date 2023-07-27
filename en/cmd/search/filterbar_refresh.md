@@ -1,32 +1,37 @@
 # Refresh (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Refreshes the document with the current filter settings.
+Refreshes the document with the current filter settings.
 
-### Description
+## Description
 
-> Refreshes the document with the current filter settings.
+Refreshes the document with the current filter settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Refresh**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Refresh
 - Toolbar: ![](../../images/refresh.gif) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_REFRESH (3905)
+```
+EEID_FILTERBAR_REFRESH (3905)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3905);
+```
+editor.ExecuteCommandByID(3905);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3905
+```
+editor.ExecuteCommandByID 3905
+```

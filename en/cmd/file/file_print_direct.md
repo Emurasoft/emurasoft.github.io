@@ -1,32 +1,37 @@
 # Print Now command
 
-### Summary
+## Summary
 
-> Prints the current file on the default printer without previewing.
+Prints the current file on the default printer without previewing.
 
-### Description
+## Description
 
-> This command immediately prints the document without displaying the **Print** dialog box. The printer to use for printing is the default printer
-> set in **Devices and Printers (Windows 8, 7, and Vista), Printers and Faxes (WinXP)** or **Printers (Win98 / ME)** in the Control Panel.
+This command immediately prints the document without displaying thePrint dialog box. The printer to use for printing is the default printer
+set inDevices and Printers (Windows 8, 7, and Vista), Printers and Faxes (WinXP) orPrinters (Win98 / ME) in the Control Panel.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Print** \> **Print Now**
+- [All Commands](../tools/all_commands):File \>Print \>Print Now
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_PRINT\_DIRECT (4115)
+```
+EEID_FILE_PRINT_DIRECT (4115)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4115);
+```
+editor.ExecuteCommandByID(4115);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4115
+```
+editor.ExecuteCommandByID 4115
+```

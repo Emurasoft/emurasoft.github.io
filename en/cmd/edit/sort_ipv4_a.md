@@ -1,31 +1,36 @@
 # Sort IPv4 Addresses Ascending command
 
-### Summary
+## Summary
 
-> Sorts IPv4 addresses in the current column, in ascending order.
+Sorts IPv4 addresses in the current column, in ascending order.
 
-### Description
+## Description
 
-> Sorts IPv4 addresses in the current column, in ascending order.
+Sorts IPv4 addresses in the current column, in ascending order.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Sort** \> **Sort IPv4 Addresses Ascending**
-- [All Commands](../tools/all_commands): **Sort** \> **Sort IPv4 Addresses Ascending**
+- Default Menu:Edit \>Sort \>Sort IPv4 Addresses Ascending
+- [All Commands](../tools/all_commands):Sort \>Sort IPv4 Addresses Ascending
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SORT\_IPV4\_A (4034)
+```
+EEID_SORT_IPV4_A (4034)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4034);
+```
+editor.ExecuteCommandByID(4034);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4034
+```
+editor.ExecuteCommandByID 4034
+```

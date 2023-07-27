@@ -1,31 +1,36 @@
 # 重置命令
 
-### 摘要
+## 摘要
 
-> 重置比较或同步滚动模式并清除比较结果。
+重置比较或同步滚动模式并清除比较结果。
 
-### 说明
+## 说明
 
-> 重置比较或同步滚动模式并清除比较结果。（文件还原成标签模式）。
+重置比较或同步滚动模式并清除比较结果。（文件还原成标签模式）。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **比较** \> **重置为普通模式**
-- [所有命令](../tools/all_commands): **比较** \> **重置为普通模式**
+- 默认菜单:比较 \>重置为普通模式
+- [所有命令](../tools/all_commands):比较 \>重置为普通模式
 - 工具栏: ![](../../images/reset24x16.gif)
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_COMPARE\_RESET (4497)
+```
+EEID_COMPARE_RESET (4497)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4497);
+```
+editor.ExecuteCommandByID(4497);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4497
+```
+editor.ExecuteCommandByID 4497
+```

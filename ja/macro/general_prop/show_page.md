@@ -1,20 +1,22 @@
 # ShowPage プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の **\[ページ番号を表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[ページ番号を表示\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowPage**;
+### \[JavaScript\]
 
-object. **ShowPage** = _b_;
+```
+b = object.ShowPage;
+object.ShowPage = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowPage**
-
-object. **ShowPage** = _b_
+```
+b = object.ShowPage
+object.ShowPage = b
+```
 
 ## バージョン
 

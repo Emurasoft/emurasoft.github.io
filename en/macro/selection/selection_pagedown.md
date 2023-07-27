@@ -2,13 +2,19 @@
 
 Moves the cursor the specified number of pages down in the document.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **PageDown**( \[ _bExtend_ \[, _nCount_ \] \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.PageDown( [ bExtend [, nCount ] ] );
+```
 
-document.selection. **PageDown** \[ _bExtend_ \[, _nCount_ \] \]
+### \[VBScript\]
+
+```
+document.selection.PageDown [ bExtend [, nCount ] ]
+```
 
 ## Parameters
 
@@ -20,7 +26,7 @@ is false and the moved text is collapsed.
 _nCount_
 
 Optional. Specifies the number of pages to move down. The default is 1. If
-negative, the method acts like the [**PageUp** \
+negative, the method acts like the [PageUp \
 Method](selection_pageup). If 0, the method acts like 1.
 
 ## Version

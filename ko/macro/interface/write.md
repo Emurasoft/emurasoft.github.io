@@ -2,13 +2,19 @@
 
 지원되는 플러그 인에 문자열을 전달합니다.
 
-#### \[JavaScript\]
+## 
 
-Interface. **write**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+Interface.write( str );
+```
 
-Interface. **write** _str_
+### \[VBScript\]
+
+```
+Interface.write str
+```
 
 ## 매개 변수
 
@@ -18,13 +24,17 @@ _str_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-Interface. **write**( "Hello" );
+```
+Interface.write( "Hello" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Interface. **write** "Hello"
+```
+Interface.write "Hello"
+```
 
 ## 버전
 

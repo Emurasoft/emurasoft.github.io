@@ -14,18 +14,18 @@ lParam = szName;
 
 _hwndParent_
 
-> The window handle of the Plug-ins Settings dialog box.
+The window handle of the Plug-ins Settings dialog box.
 
 _cb_
 
-> Specifies the maximum number of characters to copy to the buffer, including
-> the NULL character.
+Specifies the maximum number of characters to copy to the buffer, including
+the NULL character.
 
 _szName_
 
-> Pointer to the buffer that will receive the text.
+Pointer to the buffer that will receive the text.
 
 ## Return Values
 
-> The return value is the required size for a buffer that can receive the
-> text.
+The return value is the required size for a buffer that can receive the
+text.

@@ -13,9 +13,9 @@ lParam = (LPARAM)(ATOM)atom;
 
 _atom_
 
-> Specifies the atom of a specified plug-in file name.
+Specifies the atom of a specified plug-in file name.
 
 ## Return Values
 
-> If the plug-in is freed, the return value is TRUE. If the plug-in is not
-> freed, the return value is FALSE.
+If the plug-in is freed, the return value is TRUE. If the plug-in is not
+freed, the return value is FALSE.

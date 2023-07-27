@@ -1,20 +1,22 @@
 # ShowEOF 속성 (MarkProp ��ü)
 
-구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의 **파일의 끝 보이기** 체크 박스에 해당합니다.
+구성 속성 [표시 탭](../../dlg/properties/marks/index) 의파일의 끝 보이기 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowEOF**;
+### \[JavaScript\]
 
-object. **ShowEOF** = _b_;
+```
+b = object.ShowEOF;
+object.ShowEOF = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowEOF**
-
-object. **ShowEOF** = _b_
+```
+b = object.ShowEOF
+object.ShowEOF = b
+```
 
 ## 버전
 

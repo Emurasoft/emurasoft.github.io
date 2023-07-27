@@ -13,8 +13,8 @@ lParam = (LPARAM)(SET\_COLUMN\_INFO\*) pColumnStruct;
 
 _pColumnStruct_
 
-> [COLUMN\_STRUCT](../structure/column_struct) 構造体へのポインタを指定します。
+[COLUMN\_STRUCT](../structure/column_struct) 構造体へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると 0 または正の値を返します。失敗すると負の値を返します。
+成功すると 0 または正の値を返します。失敗すると負の値を返します。

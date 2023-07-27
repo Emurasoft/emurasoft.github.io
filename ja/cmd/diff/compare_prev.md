@@ -1,14 +1,14 @@
 # \[前の変更\] コマンド
 
-### 概要
+## 概要
 
-> 前の変更にジャンプします。
+前の変更にジャンプします。
 
-### 説明
+## 説明
 
-> 前の変更にジャンプします。
+前の変更にジャンプします。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[比較\] \- \[前の変更\]
 - [すべてのコマンド](../../glossary/allcommands): \[比較\] \- \[前の変更\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Shift+F7
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_COMPARE\_PREV (4509)
+```
+EEID_COMPARE_PREV (4509)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4509);
+```
+editor.ExecuteCommandByID(4509);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4509
+```
+editor.ExecuteCommandByID 4509
+```

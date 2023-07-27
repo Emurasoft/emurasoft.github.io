@@ -1,19 +1,23 @@
 # SaveToFolderIfRecycleFailed プロパティ (BackupProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の **\[ごみ箱に保存できない場合、バックアップ フォルダに保存\]** チェック
+設定のプロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の\[ごみ箱に保存できない場合、バックアップ フォルダに保存\] チェック
 ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **SaveToFolderIfRecycleFailed**;
+### \[JavaScript\]
 
-object. **SaveToFolderIfRecycleFailed** = _b_;
+```
+b = object.SaveToFolderIfRecycleFailed;
+object.SaveToFolderIfRecycleFailed = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **SaveToFolderIfRecycleFailed**
-
-object. **SaveToFolderIfRecycleFailed** = _b_
+```
+b = object.SaveToFolderIfRecycleFailed
+object.SaveToFolderIfRecycleFailed = b
+```
 
 ## バージョン
 

@@ -1,33 +1,38 @@
 # Always on Top - Off command
 
-### Summary
+## Summary
 
-> Disables always on top.
+Disables always on top.
 
-### Description
+## Description
 
-> Disables always on top.
+Disables always on top.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window** \>
-**Always on Top** \>
-**Always on Top - Off**
+- [All Commands](../tools/all_commands):Window \>
+Always on Top \>
+Always on Top - Off
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_ALWAYS\_TOP\_OFF (4344)
+```
+EEID_WINDOW_ALWAYS_TOP_OFF (4344)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4344);
+```
+editor.ExecuteCommandByID(4344);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4344
+```
+editor.ExecuteCommandByID 4344
+```

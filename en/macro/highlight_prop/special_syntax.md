@@ -1,19 +1,23 @@
 # SpecialSyntax Property (HighlightProp Object)
 
-Corresponds to the **Special**
-**Syntax drop-down** list box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to theSpecial
+Syntax drop-down list box in the [Highlight (2) page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **SpecialSyntax**;
+### \[JavaScript\]
 
-object. **SpecialSyntax** = _n_;
+```
+n = object.SpecialSyntax;
+object.SpecialSyntax = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **SpecialSyntax**
-
-object. **SpecialSyntax** = _n_
+```
+n = object.SpecialSyntax
+object.SpecialSyntax = n
+```
 
 ## Version
 

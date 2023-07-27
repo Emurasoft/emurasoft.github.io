@@ -13,12 +13,12 @@ lParam = (LPARAM) 0;
 
 _bResetTab_
 
-> Resets the tab.
+Resets the tab.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.
 
 ## Version
 
-> Supported on EmEditor Professional Version 6.00 or later.
+Supported on EmEditor Professional Version 6.00 or later.

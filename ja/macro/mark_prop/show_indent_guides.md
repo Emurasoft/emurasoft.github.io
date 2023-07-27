@@ -2,19 +2,21 @@
 
 設定のプロパティの \[記号\] タブの \[インデント ガイドを表示\] に相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowIndentGuides**;
+### \[JavaScript\]
 
-object. **ShowIndentGuides** = _b_;
+```
+b = object.ShowIndentGuides;
+object.ShowIndentGuides = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowIndentGuides**;
-
-object. **ShowIndentGuides** = _b_;
+```
+b = object.ShowIndentGuides;
+object.ShowIndentGuides = b;
+```
 
 ## バージョン
 

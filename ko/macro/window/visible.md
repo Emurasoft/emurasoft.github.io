@@ -2,13 +2,19 @@
 
 창이 보이는지 여부를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Visible**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Visible;
+```
 
-_b_ = wnd. **Visible**
+### \[VBScript\]
+
+```
+b = wnd.Visible
+```
 
 ## 버전
 

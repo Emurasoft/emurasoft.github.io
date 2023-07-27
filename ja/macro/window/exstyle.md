@@ -2,13 +2,19 @@
 
 指定したウィンドウの拡張スタイルを返します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = wnd. **ExStyle**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = wnd.ExStyle;
+```
 
-_n_ = wnd. **ExStyle**
+### \[VBScript\]
+
+```
+n = wnd.ExStyle
+```
 
 ## バージョン
 

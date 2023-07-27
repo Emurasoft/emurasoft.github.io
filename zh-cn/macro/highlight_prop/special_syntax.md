@@ -1,18 +1,22 @@
 # SpecialSyntax 属性 (HighlightProp ����)
 
-与配置属性中 [**高亮（2）** 页面](../../dlg/properties/highlight2/index) 上的 **特殊语法** 下拉列表框相对应。
+与配置属性中 [高亮（2） 页面](../../dlg/properties/highlight2/index) 上的特殊语法 下拉列表框相对应。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **SpecialSyntax**;
+### \[JavaScript\]
 
-object. **SpecialSyntax** = _n_;
+```
+n = object.SpecialSyntax;
+object.SpecialSyntax = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **SpecialSyntax**
-
-object. **SpecialSyntax** = _n_
+```
+n = object.SpecialSyntax
+object.SpecialSyntax = n
+```
 
 ## 版本
 

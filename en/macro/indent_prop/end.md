@@ -1,20 +1,24 @@
 # End Property (IndentProp Object)
 
-Corresponds to the **End**
-**Indent** text box in the
-[**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
+Corresponds to theEnd
+Indent text box in the
+[Tab/Index dialog box](../../dlg/properties/general/indent/index).
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **End**;
+### \[JavaScript\]
 
-object. **End** = _s_;
+```
+s = object.End;
+object.End = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **End**
-
-object. **End** = _s_
+```
+s = object.End
+object.End = s
+```
 
 ## Version
 

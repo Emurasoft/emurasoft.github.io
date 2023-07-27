@@ -9,16 +9,16 @@ Editor\_GetCell( HWND hwnd, GET\_CELL\_INFO\* pGetCellInfo, LPWSTR szString );
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _pGetCellInfo_
 
-> 指針指向 [GET\_CELL\_INFO](../structure/get_cell_info) 結構。
+指針指向 [GET\_CELL\_INFO](../structure/get_cell_info) 結構。
 
 _szString_
 
-> 指針指向要接收文字的緩衝區。
+指針指向要接收文字的緩衝區。
 
 ## 返回值
 
-> 如果 _pGetCellInfo->cch_ 是零，返回值是一個緩衝區能接收文字的必需的大小，以字元為單位。如果 _pGetLineInfo->cch_ 不是零，則不使用返回值。如果 _pGetCellInfo->iColumn_ 是 -1，返回值,是列數。
+如果 _pGetCellInfo->cch_ 是零，返回值是一個緩衝區能接收文字的必需的大小，以字元為單位。如果 _pGetLineInfo->cch_ 不是零，則不使用返回值。如果 _pGetCellInfo->iColumn_ 是 -1，返回值,是列數。

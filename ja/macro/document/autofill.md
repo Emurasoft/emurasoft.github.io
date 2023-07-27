@@ -2,13 +2,19 @@
 
 CSV 文書に対してオートフィル、またはフラッシュ フィルを実行します。
 
-#### \[JavaScript\]
+## 
 
-_nResults_ = document. **AutoFill**( _xSrcCellStart_, _ySrcCellStart_, _xSrcCellEnd_, _ySrcCellEnd_, _xDestCellStart_, _yDestCellStart_, _xDestCellEnd_, _yDestCellEnd_, _nFlags_, _nIncrement_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nResults = document.AutoFill( xSrcCellStart, ySrcCellStart, xSrcCellEnd, ySrcCellEnd, xDestCellStart, yDestCellStart, xDestCellEnd, yDestCellEnd, nFlags, nIncrement );
+```
 
-_nResults_ = document. **AutoFill**( _xSrcCellStart_, _ySrcCellStart_, _xSrcCellEnd_, _ySrcCellEnd_, _xDestCellStart_, _yDestCellStart_, _xDestCellEnd_, _yDestCellEnd_, _nFlags_, _nIncrement_ )
+### \[VBScript\]
+
+```
+nResults = document.AutoFill( xSrcCellStart, ySrcCellStart, xSrcCellEnd, ySrcCellEnd, xDestCellStart, yDestCellStart, xDestCellEnd, yDestCellEnd, nFlags, nIncrement )
+```
 
 ## Parameters
 
@@ -73,25 +79,23 @@ _nIncrement_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries \| eeFillDontOverwrite );
-
 if( nResults >= 0 ) {
-
 alert( "Success" );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries \| eeFillDontOverwrite );
-
 If nResults >= 0 Then
-
 alert "Success"
-
 End If
+```
 
 ## バージョン
 

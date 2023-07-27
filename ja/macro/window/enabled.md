@@ -2,13 +2,19 @@
 
 ウィンドウでマウスとキーボードの入力が有効かどうかを返します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Enabled**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Enabled;
+```
 
-_b_ = wnd. **Enabled**
+### \[VBScript\]
+
+```
+b = wnd.Enabled
+```
 
 ## バージョン
 

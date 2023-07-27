@@ -2,13 +2,19 @@
 
 显示一个对话框来输入字符串。
 
-#### \[JavaScript\]
+## 
 
-_strAnswer_ = **prompt**( _strMessage, strDefault, flags_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strAnswer =prompt( strMessage, strDefault, flags);
+```
 
-_strAnswer_ = **prompt**( _strMessage, strDefault, flags_ )
+### \[VBScript\]
+
+```
+strAnswer =prompt( strMessage, strDefault, flags )
+```
 
 ## 参数
 

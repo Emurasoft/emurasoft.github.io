@@ -1,18 +1,22 @@
 # QuoteMarks 속성 (DisplayProp ��ü)
 
-구성 속성 [**디스플레이** 탭](../../dlg/properties/display/index) 의 **따옴표** 텍스트 박스에 해당합니다.
+구성 속성 [디스플레이 탭](../../dlg/properties/display/index) 의따옴표 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **QuoteMarks**;
+### \[JavaScript\]
 
-object. **QuoteMarks** = _s_;
+```
+s = object.QuoteMarks;
+object.QuoteMarks = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **QuoteMarks**
-
-object. **QuoteMarks** = _s_
+```
+s = object.QuoteMarks
+object.QuoteMarks = s
+```
 
 ## 버전
 

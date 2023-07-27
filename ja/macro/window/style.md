@@ -2,13 +2,19 @@
 
 指定したウィンドウのスタイルを返します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = wnd. **Style**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = wnd.Style;
+```
 
-_n_ = wnd. **Style**
+### \[VBScript\]
+
+```
+n = wnd.Style
+```
 
 ## バージョン
 

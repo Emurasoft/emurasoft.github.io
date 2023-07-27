@@ -2,13 +2,19 @@
 
 指定するファイルまたはフォルダの属性を設定します。
 
-#### \[JavaScript\]
+## 
 
-shell. **SetFileAttributes**( _strFile_, _nAttr_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.SetFileAttributes( strFile, nAttr );
+```
 
-shell. **SetFileAttributes** _strFile_, _nAttr_
+### \[VBScript\]
+
+```
+shell.SetFileAttributes strFile, nAttr
+```
 
 ## パラメータ
 
@@ -31,13 +37,17 @@ _nAttr_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.SetFileAttributes( "C:\\\Test\\\file.txt" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.SetFileAttributes "C:\\Test\\file.txt"
+```
 
 ## バージョン
 

@@ -2,13 +2,19 @@
 
 檢索 FontList 對象。
 
-#### \[JavaScript\]
+## 
 
-_list_ = object. **DisplayList**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list = object.DisplayList;
+```
 
-_list_ = object. **DisplayList**
+### \[VBScript\]
+
+```
+list = object.DisplayList
+```
 
 ## 版本
 

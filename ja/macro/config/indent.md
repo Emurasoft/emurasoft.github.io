@@ -2,13 +2,19 @@
 
 [IndentProp オブジェクト](../indent_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Indent**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Indent;
+```
 
-Set _obj_ = object. **Indent**
+### \[VBScript\]
+
+```
+Set obj = object.Indent
+```
 
 ## バージョン
 

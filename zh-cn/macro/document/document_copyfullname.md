@@ -2,13 +2,19 @@
 
 复制文档的完整路径以及文件名称到剪贴板上。
 
-#### \[JavaScript\]
+## 
 
-document. **CopyFullName**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.CopyFullName();
+```
 
-document. **CopyFullName**
+### \[VBScript\]
+
+```
+document.CopyFullName
+```
 
 ## 版本
 

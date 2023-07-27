@@ -2,17 +2,21 @@
 
 배경 색상 모드를 지정합니다.
 
-#### \[JavaScript\]
+## 
 
-_nMode_ = item. **BackMode**;
+### \[JavaScript\]
 
-item. **BackMode** = _nMode_;
+```
+nMode = item.BackMode;
+item.BackMode = nMode;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nMode_ = item. **BackMode**
-
-item. **BackMode** = _nMode_
+```
+nMode = item.BackMode
+item.BackMode = nMode
+```
 
 ## 참고
 

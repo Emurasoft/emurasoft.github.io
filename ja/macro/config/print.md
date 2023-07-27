@@ -2,13 +2,19 @@
 
 [PrintProp オブジェクト](../print_prop/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Print**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Print;
+```
 
-Set _obj_ = object. **Print**
+### \[VBScript\]
+
+```
+Set obj = object.Print
+```
 
 ## バージョン
 

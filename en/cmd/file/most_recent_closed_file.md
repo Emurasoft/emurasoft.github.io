@@ -1,33 +1,38 @@
 # Most Recently Closed File command
 
-### Summary
+## Summary
 
-> Opens the most recently closed document.
+Opens the most recently closed document.
 
-### Description
+## Description
 
-> Opens the most recently closed document. This command does not recover unsaved changes to the document.
+Opens the most recently closed document. This command does not recover unsaved changes to the document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Open**
-\> **Most Recently Closed File**
+- [All Commands](../tools/all_commands):File \>Open
+\>Most Recently Closed File
 - Toolbar:
 None
 - Status Bar: None
 - Default Shortcut Key: CTRL + SHIFT + T
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_MOST\_RECENT\_CLOSED\_FILE (4583)
+```
+EEID_MOST_RECENT_CLOSED_FILE (4583)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4583);
+```
+editor.ExecuteCommandByID(4583);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4583
+```
+editor.ExecuteCommandByID 4583
+```

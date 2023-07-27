@@ -2,13 +2,19 @@
 
 檢索當前運行的巨集檔案的完整路徑以及檔案名稱。
 
-#### \[JavaScript\]
+## 
 
-_str_ = **ScriptFullName**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str =ScriptFullName;
+```
 
-_str_ = **ScriptFullName**
+### \[VBScript\]
+
+```
+str =ScriptFullName
+```
 
 ## 版本
 

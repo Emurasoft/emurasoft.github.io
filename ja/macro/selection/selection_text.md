@@ -2,35 +2,39 @@
 
 選択されたテキストを取得、またはテキストを挿入します。
 
-#### \[JavaScript\]
+## 
 
-_str_ = document.selection. **Text**;
+### \[JavaScript\]
 
-document.selection. **Text** = _str_;
+```
+str = document.selection.Text;
+document.selection.Text = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ = document.selection. **Text**
-
-document.selection. **Text** = _str_
+```
+str = document.selection.Text
+document.selection.Text = str
+```
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 str = document.selection.Text;
-
 alert( "選択されていたテキストは " + str );
-
 document.selection.Text = "こんにちは";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 str = document.selection.Text
-
 alert "選択されていたテキストは " & str
-
 document.selection.Text = "こんにちは"
+```
 
 ## バージョン
 

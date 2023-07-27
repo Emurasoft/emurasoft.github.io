@@ -1,20 +1,22 @@
 # ShowDBSpaces 속성 (MarkProp ��ü)
 
-구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의 **넓은 공백 보이기** 체크 박스에 해당합니다.
+구성 속성 [표시 탭](../../dlg/properties/marks/index) 의넓은 공백 보이기 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowDBSpaces**;
+### \[JavaScript\]
 
-object. **ShowDBSpaces** = _b_;
+```
+b = object.ShowDBSpaces;
+object.ShowDBSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowDBSpaces**
-
-object. **ShowDBSpaces** = _b_
+```
+b = object.ShowDBSpaces
+object.ShowDBSpaces = b
+```
 
 ## 버전
 

@@ -2,7 +2,7 @@
 
 |     |     |
 | --- | --- |
-| **함수** | **설명** |
+|함수 |설명 |
 | OnCommand( HWND hwnd ) | 메뉴 또는 도구 모음으로부터 플러그 인이 선택되었습니다. |
 | QueryStatus( HWND hwnd, LPBOOL pbChecked ) | 명령이 활성화되었는지 여부와 플러그 인이 체크된 상태 인지<br> 여부에 대한 플러그 인의 상태를 조회합니다. |
 | OnEvents( HWND hwnd, UINT nEvent, LPARAM lParam ) | 상태가 변경되면, 이 기능은 [Events](../event/index) 매개 변수로<br> 불려집니다. |

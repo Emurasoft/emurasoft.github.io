@@ -1,21 +1,23 @@
 # NumericEntity プロパティ (FileSaveProp �I�u�W�F�N�g)
 
-[**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
-**\[Unicode文字をHTML/XMLの文字参照として保存\]** チェック ボックスに相当します。
+[\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
+\[Unicode文字をHTML/XMLの文字参照として保存\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **NumericEntity**;
+### \[JavaScript\]
 
-object. **NumericEntity** = _b_;
+```
+b = object.NumericEntity;
+object.NumericEntity = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **NumericEntity**
-
-object. **NumericEntity** = _b_
+```
+b = object.NumericEntity
+object.NumericEntity = b
+```
 
 ## バージョン
 

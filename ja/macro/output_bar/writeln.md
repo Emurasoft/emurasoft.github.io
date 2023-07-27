@@ -2,13 +2,19 @@
 
 アウトプット バーに文字列と改行コードを追加します。
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **writeln**( _str_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.writeln( str );
+```
 
-OutputBar. **writeln** _str_
+### \[VBScript\]
+
+```
+OutputBar.writeln str
+```
 
 ## バージョン
 

@@ -1,31 +1,36 @@
 # Sort Columns command
 
-### Summary
+## Summary
 
-> Sorts columns of the CSV document.
+Sorts columns of the CSV document.
 
-### Description
+## Description
 
-> Sorts columns of the CSV document. The [**Sort Columns** dialog box](../../dlg/sort_columns/index) will appear when this command is selected.
+Sorts columns of the CSV document. The [Sort Columns dialog box](../../dlg/sort_columns/index) will appear when this command is selected.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Sort** \> **Sort Columns**
-- [All Commands](../tools/all_commands): **Sort** \> **Sort Columns**
+- Default Menu:Sort \>Sort Columns
+- [All Commands](../tools/all_commands):Sort \>Sort Columns
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SORT\_COLUMNS (23238)
+```
+EEID_SORT_COLUMNS (23238)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(23238);
+```
+editor.ExecuteCommandByID(23238);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 23238
+```
+editor.ExecuteCommandByID 23238
+```

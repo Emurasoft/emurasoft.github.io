@@ -2,13 +2,19 @@
 
 창을 생성한 스레드의 식별자를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-_id_ = wnd. **ThreadID**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+id = wnd.ThreadID;
+```
 
-_id_ = wnd. **ThreadID**
+### \[VBScript\]
+
+```
+id = wnd.ThreadID
+```
 
 ## 버전
 

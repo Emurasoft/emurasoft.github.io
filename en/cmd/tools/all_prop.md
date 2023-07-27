@@ -1,33 +1,38 @@
 # Properties for All Configurations command
 
-### Summary
+## Summary
 
-> Changes properties for all configurations.
+Changes properties for all configurations.
 
-### Description
+## Description
 
-> Displays the **[Configuration \**
-> **Properties](../../dlg/properties/index)** dialog box for all configurations.
+Displays the[Configuration \
+Properties](../../dlg/properties/index) dialog box for all configurations.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Tools** \> **Properties for All Configurations**
-- [All Commands](all_commands): **Tools** >
-**Properties for All Configurations**
+- Default Menu:Tools \>Properties for All Configurations
+- [All Commands](all_commands):Tools >
+Properties for All Configurations
 - Toolbar: ![](../../images/allproperties.gif)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ALL\_PROP (4270)
+```
+EEID_ALL_PROP (4270)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4270);
+```
+editor.ExecuteCommandByID(4270);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4270
+```
+editor.ExecuteCommandByID 4270
+```

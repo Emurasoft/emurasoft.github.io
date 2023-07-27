@@ -1,14 +1,14 @@
 # \[インデントの桁数\] コマンド
 
-### 概要
+## 概要
 
-> ポップアップ メニューを表示してインデントの桁数を選択します。
+ポップアップ メニューを表示してインデントの桁数を選択します。
 
-### 説明
+## 説明
 
-> ポップアップ メニューを表示してインデントの桁数を選択します。
+ポップアップ メニューを表示してインデントの桁数を選択します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[タブ/インデント\] \- \[インデントの桁数\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_INDENT\_COLUMN\_POPUP (4551)
+```
+EEID_INDENT_COLUMN_POPUP (4551)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4551);
+```
+editor.ExecuteCommandByID(4551);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4551
+```
+editor.ExecuteCommandByID 4551
+```

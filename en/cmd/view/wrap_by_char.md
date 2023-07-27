@@ -1,36 +1,41 @@
 # Wrap by Characters command
 
-### Summary
+## Summary
 
-> Wraps lines by specified number of characters.
+Wraps lines by specified number of characters.
 
-### Description
+## Description
 
-> Wraps each line after a specified length of characters (in bytes). This
-> command is equivalent to selecting **Specified Characters** from the
-> **Wrap by** drop-down list box
-> on the [**General** page](../../dlg/properties/general/index)
-> of the **[Configuration Properties](../../dlg/properties/index)** dialog box.
+Wraps each line after a specified length of characters (in bytes). This
+command is equivalent to selectingSpecified Characters from the
+Wrap by drop-down list box
+on the [General page](../../dlg/properties/general/index)
+of the[Configuration Properties](../../dlg/properties/index) dialog box.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Wrap by Characters**
-- [All Commands](../tools/all_commands): **View** >
-**Wrap by Characters**
+- Default Menu:View \>Wrap by Characters
+- [All Commands](../tools/all_commands):View >
+Wrap by Characters
 - Toolbar: ![](../../images/wrapbychar.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+2
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WRAP\_BY\_CHAR (4209)
+```
+EEID_WRAP_BY_CHAR (4209)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4209);
+```
+editor.ExecuteCommandByID(4209);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4209
+```
+editor.ExecuteCommandByID 4209
+```

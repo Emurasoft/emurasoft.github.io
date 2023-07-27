@@ -2,13 +2,19 @@
 
 문서의 끝 지점으로 커서를 이동합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **EndOfDocument**( \[ _bExtend_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.EndOfDocument( [ bExtend ] );
+```
 
-document.selection. **EndOfDocument** \[ _bExtend_ \]
+### \[VBScript\]
+
+```
+document.selection.EndOfDocument [ bExtend ]
+```
 
 ## 매개 변수
 

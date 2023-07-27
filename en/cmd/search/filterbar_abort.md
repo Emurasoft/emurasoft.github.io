@@ -1,32 +1,37 @@
 # Abort (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Aborts filtering and empties the filter string.
+Aborts filtering and empties the filter string.
 
-### Description
+## Description
 
-> Aborts filtering and empties the filter string.
+Aborts filtering and empties the filter string.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Abort**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Abort
 - Toolbar: ![](../../images/abort.gif) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_ABORT (3914)
+```
+EEID_FILTERBAR_ABORT (3914)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3914);
+```
+editor.ExecuteCommandByID(3914);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3914
+```
+editor.ExecuteCommandByID 3914
+```

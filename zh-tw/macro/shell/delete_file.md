@@ -2,13 +2,19 @@
 
 刪除一個或多個指定的檔案。
 
-#### \[JavaScript\]
+## 
 
-shell. **DeleteFile**( _strFile_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.DeleteFile( strFile );
+```
 
-shell. **DeleteFile** _strFile_
+### \[VBScript\]
+
+```
+shell.DeleteFile strFile
+```
 
 ## 參數
 
@@ -18,13 +24,17 @@ _strFile_
 
 ## 範例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.DeleteFile( "C:\\\Test\\\\*.txt" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.DeleteFile "C:\\Test\\\*.txt"
+```
 
 ## 版本
 

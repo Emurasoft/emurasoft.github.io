@@ -13,12 +13,12 @@ wParam = 0
 
 _szPageURL_
 
-> Specifies the URL of the Help page to display.
+Specifies the URL of the Help page to display.
 
 ## Return Values
 
-> Return value is not used.
+Return value is not used.
 
 ## Version
 
-> Supported on EmEditor Version 7.00 or later.
+Supported on EmEditor Version 7.00 or later.

@@ -1,21 +1,23 @@
 # RightSide Property (HighlightItem Object)
 
-Corresponds to the **Highlight**
-**Right All** check box in the [**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to theHighlight
+Right All check box in the [Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **RightSide**;
+### \[JavaScript\]
 
-item. **RightSide** = _b_;
+```
+b = item.RightSide;
+item.RightSide = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **RightSide**
-
-item. **RightSide** = _b_
+```
+b = item.RightSide
+item.RightSide = b
+```
 
 ## Version
 

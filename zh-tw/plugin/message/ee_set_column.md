@@ -12,8 +12,8 @@ lParam = (LPARAM) (COLUMN\_STRUCT\*) pColumnStruct;
 
 _pColumnStruct_
 
-> 指針指向 [COLUMN\_STRUCT](../structure/column_struct) 結構。
+指針指向 [COLUMN\_STRUCT](../structure/column_struct) 結構。
 
 ## 返回值
 
-> 如果成功，返回值為零或正數值，如果失敗，返回負數值。
+如果成功，返回值為零或正數值，如果失敗，返回負數值。

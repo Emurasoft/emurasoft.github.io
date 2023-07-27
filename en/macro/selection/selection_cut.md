@@ -3,13 +3,19 @@
 Copies the selected text to the Clipboard and deletes it from its
 original location.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Cut**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Cut();
+```
 
-document.selection. **Cut**
+### \[VBScript\]
+
+```
+document.selection.Cut
+```
 
 ## Version
 

@@ -3,13 +3,19 @@
 检索
 [BackupProp 对象](../backup_prop/index)。
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Backup**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Backup;
+```
 
-Set _obj_ = object. **Backup**
+### \[VBScript\]
+
+```
+Set obj = object.Backup
+```
 
 ## 版本
 

@@ -2,13 +2,19 @@
 
 插入目前的時間和日期。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **InsertDate**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.InsertDate( nFlags );
+```
 
-document.selection. **InsertDate** \[ _nFlags_ \]
+### \[VBScript\]
+
+```
+document.selection.InsertDate [ nFlags ]
+```
 
 ## 參數
 
@@ -23,7 +29,7 @@ _nFlags_
 
 ## 備注
 
-用於時間與日期的格式能在 Windows 上被組態，通過到 **控制面板** 中的 **區域語言選項** 上，然后選擇 **日期與時間**。
+用於時間與日期的格式能在 Windows 上被組態，通過到控制面板 中的區域語言選項 上，然后選擇日期與時間。
 
 ## 版本
 

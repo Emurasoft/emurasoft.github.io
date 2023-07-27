@@ -8,16 +8,16 @@ Editor\_ShowTip( HWND hwnd, TIP\_INFO\* pTipInfo );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _pTipInfo_
 
-> Pointer to the [TIP\_INFO](../structure/tip_info) structure.
+Pointer to the [TIP\_INFO](../structure/tip_info) structure.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.
 
 ## Version
 
-> Supported on EmEditor Professional Version 16.9 or later.
+Supported on EmEditor Professional Version 16.9 or later.

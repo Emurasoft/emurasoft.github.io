@@ -1,18 +1,22 @@
 # CheckFileChanged プロパティ (FileProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の **\[外部で変更された時\]** ドロップダウン リスト ボックスに相当します。
+設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[外部で変更された時\] ドロップダウン リスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **CheckFileChanged**;
+### \[JavaScript\]
 
-object. **CheckFileChanged** = _n_;
+```
+n = object.CheckFileChanged;
+object.CheckFileChanged = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **CheckFileChanged**
-
-object. **CheckFileChanged** = _n_
+```
+n = object.CheckFileChanged
+object.CheckFileChanged = n
+```
 
 ## バージョン
 

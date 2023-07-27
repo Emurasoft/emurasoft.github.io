@@ -4,7 +4,7 @@
 
 |     |     |
 | --- | --- |
-| [List](list) | [**KeyboardList** 컬렉션](../keyboard_list/index) 을 검색합니다. |
+| [List](list) | [KeyboardList 컬렉션](../keyboard_list/index) 을 검색합니다. |
 
 ## 버전
 

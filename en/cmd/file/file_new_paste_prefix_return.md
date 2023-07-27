@@ -1,32 +1,37 @@
 # New File, Paste in Quotes and Newline Characters command
 
-### Summary
+## Summary
 
-> Creates a file, pastes the current selection in quotes and newline characters.
+Creates a file, pastes the current selection in quotes and newline characters.
 
-### Description
+## Description
 
-> This command is equivalent to the [**New Text** \
-> command](file_new) followed by the [**Paste in Quotes and Newline Characters** command](../edit/paste_prefix_return).
+This command is equivalent to the [New Text \
+command](file_new) followed by the [Paste in Quotes and Newline Characters command](../edit/paste_prefix_return).
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **New** \> **New File, Paste in Quotes and Newline Characters**
+- [All Commands](../tools/all_commands):File \>New \>New File, Paste in Quotes and Newline Characters
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_NEW\_PASTE\_PREFIX\_RETURN (4272)
+```
+EEID_NEW_PASTE_PREFIX_RETURN (4272)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4272);
+```
+editor.ExecuteCommandByID(4272);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4272
+```
+editor.ExecuteCommandByID 4272
+```

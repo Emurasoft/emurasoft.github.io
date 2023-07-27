@@ -15,14 +15,14 @@ lParam = (LPARAM) (LPWSTR) szConfigName;
 
 _iDoc_
 
-> Specifies the index of the target document. A one-based index should be specified at the higher word of wParam. If 0 is specified at the higher word of wParam, the currently active document will
-> be targeted.
+Specifies the index of the target document. A one-based index should be specified at the higher word of wParam. If 0 is specified at the higher word of wParam, the currently active document will
+be targeted.
 
 _szConfigName_
 
-> Specifies a buffer that will receive the configuration name. The buffer
-> size must be at least MAX\_CONFIG\_NAME in words.
+Specifies a buffer that will receive the configuration name. The buffer
+size must be at least MAX\_CONFIG\_NAME in words.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

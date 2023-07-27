@@ -2,13 +2,19 @@
 
 Jumps to a tag at the cursor.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **TagJump**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.TagJump();
+```
 
-document.selection. **TagJump**
+### \[VBScript\]
+
+```
+document.selection.TagJump
+```
 
 ## Version
 

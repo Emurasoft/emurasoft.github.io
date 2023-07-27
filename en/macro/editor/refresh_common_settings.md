@@ -2,13 +2,19 @@
 
 Loads common settings and refreshes the EmEditor window.
 
-#### \[JavaScript\]
+## 
 
-editor. **RefreshCommonSettings**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.RefreshCommonSettings();
+```
 
-editor. **RefreshCommonSettings**
+### \[VBScript\]
+
+```
+editor.RefreshCommonSettings
+```
 
 ## Version
 

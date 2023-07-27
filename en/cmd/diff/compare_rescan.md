@@ -1,31 +1,36 @@
 # Rescan command
 
-### Summary
+## Summary
 
-> Rescans the compared documents and refreshes the results.
+Rescans the compared documents and refreshes the results.
 
-### Description
+## Description
 
-> Rescans the compared documents and refreshes the results.
+Rescans the compared documents and refreshes the results.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Rescan**
-- [All Commands](../tools/all_commands): **Compare** \> **Rescan**
+- Default Menu:Compare \>Rescan
+- [All Commands](../tools/all_commands):Compare \>Rescan
 - Toolbar: ![](../../images/rescan24x16.gif)
 - Status Bar: None
-- Default Keyboard Shortcut: **F5**
+- Default Keyboard Shortcut:F5
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMPARE\_RESCAN (4494)
+```
+EEID_COMPARE_RESCAN (4494)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4494);
+```
+editor.ExecuteCommandByID(4494);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4494
+```
+editor.ExecuteCommandByID 4494
+```

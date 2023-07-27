@@ -13,8 +13,8 @@ lParam = (LPARAM) (LPSTR) szConfigName;
 
 _szConfigName_
 
-> 指定會接收配置名稱的一個緩沖區。緩沖區大小必須至少是 MAX\_CONFIG\_NAME 所標示的位元數。
+指定會接收配置名稱的一個緩沖區。緩沖區大小必須至少是 MAX\_CONFIG\_NAME 所標示的位元數。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

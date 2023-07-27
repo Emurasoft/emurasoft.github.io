@@ -16,11 +16,11 @@ lParam = (LPARAM) (TEMP\_INFO) pTI;
 
 _pTI_
 
-> [TEMP\_INFO](../structure/temp_info) 구조에 대한 포인터 입니다.
+[TEMP\_INFO](../structure/temp_info) 구조에 대한 포인터 입니다.
 
 ## 반환 값
 
-> 반환 값은 새로운 문서의 ID입니다. 하지만, 임시 텍스트를 닫으면 사용되지 않습니다.
+반환 값은 새로운 문서의 ID입니다. 하지만, 임시 텍스트를 닫으면 사용되지 않습니다.
 
 ## 버전
 

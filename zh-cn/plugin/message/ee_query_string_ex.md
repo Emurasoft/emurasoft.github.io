@@ -12,12 +12,12 @@ lParam = (LPARAM) (QUERY\_STRING\_INFO\*) pInfo;
 
 _pInfo_
 
-> 指定一个指针指向 [**QUERY\_STRING\_INFO** 结构](../structure/query_string_info)。
+指定一个指针指向 [QUERY\_STRING\_INFO 结构](../structure/query_string_info)。
 
 ## 返回值
 
-> 如果成功，则返回值为 S\_OK。否则，返回值为负值。
+如果成功，则返回值为 S\_OK。否则，返回值为负值。
 
 ## 支持版本
 
-> 支持 EmEditor Professional Version 20.6 或之后的版本。
+支持 EmEditor Professional Version 20.6 或之后的版本。

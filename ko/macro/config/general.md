@@ -2,13 +2,19 @@
 
 [GeneralProp 개체](../general_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **General**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.General;
+```
 
-_obj_ = object. **General**
+### \[VBScript\]
+
+```
+obj = object.General
+```
 
 ## 버전
 

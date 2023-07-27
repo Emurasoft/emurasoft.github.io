@@ -2,13 +2,19 @@
 
 選択されたテキストの大文字と小文字を変換します。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **ChangeCase**( _nFlags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.ChangeCase( nFlags );
+```
 
-document.selection. **ChangeCase** _nFlags_
+### \[VBScript\]
+
+```
+document.selection.ChangeCase nFlags
+```
 
 ## パラメータ
 

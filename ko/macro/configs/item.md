@@ -1,14 +1,20 @@
 # Item 속성 (Configs �÷���)
 
-지정된 인덱스의 구성을 위한 [**Config** 개체](../config/index) 를 검색합니다.
+지정된 인덱스의 구성을 위한 [Config 개체](../config/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor.Configs. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.Configs.Item( Index );
+```
 
-_doc_ = editor.Configs. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+doc = editor.Configs.Item( Index )
+```
 
 ## 매개 변수
 
@@ -18,13 +24,17 @@ _Index_
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Name for the first configuration: " + editor.Configs.Item(1).Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Name for the first configuration: " & editor.Configs.Item(1).Name
+```
 
 ## 버전
 

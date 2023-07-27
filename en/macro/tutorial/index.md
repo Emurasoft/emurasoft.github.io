@@ -4,7 +4,35 @@ This section demonstrates how to use macros in a simple and step-by-step manner.
 
 ## Create macros
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Manipulate String
+
+
+
+
 
 ## Use Object
 

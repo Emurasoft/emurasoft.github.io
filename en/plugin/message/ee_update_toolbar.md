@@ -13,9 +13,9 @@ lParam = 0;
 
 _nCmdID_
 
-> The identifier of the command on which the status is queried. See
-> [Command IDs](../cmdid/index).
+The identifier of the command on which the status is queried. See
+[Command IDs](../cmdid/index).
 
 ## Return Values
 
-> Return value is not used.
+Return value is not used.

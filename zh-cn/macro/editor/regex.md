@@ -1,14 +1,20 @@
 # regex 属性 (Editor ����)
 
-检索 [**Regex** 对象](../regex/index)。
+检索 [Regex 对象](../regex/index)。
 
-#### \[JavaScript\]
+## 
 
-_reg_ = editor. **regex**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+reg = editor.regex;
+```
 
-Set _reg_ = editor. **regex**
+### \[VBScript\]
+
+```
+Set reg = editor.regex
+```
 
 ## 版本
 

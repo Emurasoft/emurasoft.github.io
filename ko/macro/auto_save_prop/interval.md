@@ -1,18 +1,22 @@
 # Interval 속성 (AutoSaveProp ��ü)
 
-구성 속성 [**자동 저장** 탭](../../dlg/properties/autosave/index) 의 **시간(분)** 텍스트 박스에 해당합니다.
+구성 속성 [자동 저장 탭](../../dlg/properties/autosave/index) 의시간(분) 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Interval**;
+### \[JavaScript\]
 
-object. **Interval** = _n_;
+```
+n = object.Interval;
+object.Interval = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Interval**
-
-object. **Interval** = _n_
+```
+n = object.Interval
+object.Interval = n
+```
 
 ## 버전
 

@@ -2,13 +2,19 @@
 
 Retrieves the [PrintProp object](../print_prop/index).
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Print**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Print;
+```
 
-Set _obj_ = object. **Print**
+### \[VBScript\]
+
+```
+Set obj = object.Print
+```
 
 ## Version
 

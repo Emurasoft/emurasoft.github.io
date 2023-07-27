@@ -1,41 +1,46 @@
 # Reload as Japanese JIS command
 
-### Summary
+## Summary
 
-> Reloads the current file using Japanese JIS encoding.
+Reloads the current file using Japanese JIS encoding.
 
-### Description
+## Description
 
-> This command reloads the current file from the disk using the Japanese JIS
-> encoding. If the document is changed within EmEditor, the prompt message
-> "Are you sure you want to abandon changes?" appears. Selecting **Yes**
-> will discard the changes without saving, and will reload the new contents.
-> Selecting **No** will abort reloading and will allow you to continue
-> editing the document.
->
-> This command remains for compatibility with the older versions of
-> EmEditor. You can use the [**Reload with**\
-> **Encoding (multiple menu)** command](file_reload_defined) instead and specify Japanese JIS.
+This command reloads the current file from the disk using the Japanese JIS
+encoding. If the document is changed within EmEditor, the prompt message
+"Are you sure you want to abandon changes?" appears. SelectingYes
+will discard the changes without saving, and will reload the new contents.
+SelectingNo will abort reloading and will allow you to continue
+editing the document.
 
-### How to Run
+This command remains for compatibility with the older versions of
+EmEditor. You can use the [Reload with\
+Encoding (multiple menu) command](file_reload_defined) instead and specify Japanese JIS.
+
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Reload**
-\> **Japanese JIS**
+- [All Commands](../tools/all_commands):File \>Reload
+\>Japanese JIS
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILE\_RELOAD\_JIS (4111)
+```
+EEID_FILE_RELOAD_JIS (4111)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4111);
+```
+editor.ExecuteCommandByID(4111);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4111
+```
+editor.ExecuteCommandByID 4111
+```

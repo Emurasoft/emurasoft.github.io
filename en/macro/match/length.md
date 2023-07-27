@@ -2,13 +2,19 @@
 
 A read-only value that contains the total length of the matched string.
 
-#### \[JavaScript\]
+## 
 
-_l_ = m. **Length**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+l = m.Length;
+```
 
-_l_ = m. **Length**;
+### \[VBScript\]
+
+```
+l = m.Length;
+```
 
 ## Version
 

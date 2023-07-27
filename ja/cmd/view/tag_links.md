@@ -1,14 +1,14 @@
 # \[タグ リンク\] コマンド
 
-### 概要
+## 概要
 
-> タグにハイパーリンクを表示します。
+タグにハイパーリンクを表示します。
 
-### 説明
+## 説明
 
-> タグにハイパーリンクを表示します。\[ファイルから検索\] を実行して結果ファイルを保存し、後でまたそのファイルを開くと、ファイルにあったハイパーリンクは消えてしまいます。本コマンドにより、ハイパーリンクを再表示できます。
+タグにハイパーリンクを表示します。\[ファイルから検索\] を実行して結果ファイルを保存し、後でまたそのファイルを開くと、ファイルにあったハイパーリンクは消えてしまいます。本コマンドにより、ハイパーリンクを再表示できます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[タグ リンク\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[タグ リンク\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_TAG\_LINKS (23241)
+```
+EEID_TAG_LINKS (23241)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.HighlightTag = !document.HighlightTag;
+```
+document.HighlightTag = !document.HighlightTag;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.HighlightTag = Not document.HighlightTag
+```
+document.HighlightTag = Not document.HighlightTag
+```

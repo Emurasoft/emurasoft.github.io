@@ -1,20 +1,22 @@
 # DoubleLineScroll 屬性 (ScrollProp ��H)
 
-與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **每次捲動兩行** 核取方塊相對應。
+與組態屬性中 [捲動 頁面](../../dlg/properties/scroll/index) 上的每次捲動兩行 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DoubleLineScroll**;
+### \[JavaScript\]
 
-object. **DoubleLineScroll** = _b_;
+```
+b = object.DoubleLineScroll;
+object.DoubleLineScroll = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DoubleLineScroll**
-
-object. **DoubleLineScroll** = _b_
+```
+b = object.DoubleLineScroll
+object.DoubleLineScroll = b
+```
 
 ## 版本
 

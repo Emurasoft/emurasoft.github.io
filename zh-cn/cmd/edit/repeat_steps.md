@@ -1,31 +1,36 @@
 # 重复步骤命令
 
-### 摘要
+## 摘要
 
-> 将指定的步骤重复指定次数。
+将指定的步骤重复指定次数。
 
-### 说明
+## 说明
 
-> 显示 [**重复** 对话框](../../dlg/repeat_count/index) 来指定重复的步骤以及次数。
+显示 [重复 对话框](../../dlg/repeat_count/index) 来指定重复的步骤以及次数。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **编辑** \> **重复步骤**
-- [所有命令](../tools/all_commands): **编辑** \> **重做** \> **重复步骤**
+- 默认菜单:编辑 \>重复步骤
+- [所有命令](../tools/all_commands):编辑 \>重做 \>重复步骤
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_REPEAT\_STEPS (4075)
+```
+EEID_REPEAT_STEPS (4075)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4075);
+```
+editor.ExecuteCommandByID(4075);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4075
+```
+editor.ExecuteCommandByID 4075
+```

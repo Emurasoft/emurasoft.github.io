@@ -1,31 +1,36 @@
 # Toggle Outline Bar command
 
-### Summary
+## Summary
 
-> Shows or hides the outline bar.
+Shows or hides the outline bar.
 
-### Description
+## Description
 
-> Shows or hides the outline bar.
+Shows or hides the outline bar.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Outline Bar**
-- [All Commands](../tools/all_commands): **View** \> **Outline** \> **Outline Bar**
+- Default Menu:View \>Outline Bar
+- [All Commands](../tools/all_commands):View \>Outline \>Outline Bar
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_OUTLINE\_BAR (3872)
+```
+EEID_OUTLINE_BAR (3872)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3872);
+```
+editor.ExecuteCommandByID(3872);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3872
+```
+editor.ExecuteCommandByID 3872
+```

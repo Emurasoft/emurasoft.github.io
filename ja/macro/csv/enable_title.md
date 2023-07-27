@@ -2,17 +2,21 @@
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[ツール バー ボタンのタイトル\] チェック ボックス に相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **EnableTitle**;
+### \[JavaScript\]
 
-object. **EnableTitle** = _b_;
+```
+b = object.EnableTitle;
+object.EnableTitle = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **EnableTitle**
-
-object. **EnableTitle** = _b_
+```
+b = object.EnableTitle
+object.EnableTitle = b
+```
 
 ## バージョン
 

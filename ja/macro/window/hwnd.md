@@ -2,17 +2,21 @@
 
 ウィンドウのハンドル値を取得するか、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_h_ = wnd. **hWnd**;
+### \[JavaScript\]
 
-wnd. **hWnd** = _h_;
+```
+h = wnd.hWnd;
+wnd.hWnd = h;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_h_ = wnd. **hWnd**
-
-wnd. **hWnd** = _h_
+```
+h = wnd.hWnd
+wnd.hWnd = h
+```
 
 ## バージョン
 

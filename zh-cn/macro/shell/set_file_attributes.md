@@ -2,13 +2,19 @@
 
 设置指定文件或文件夹的属性。
 
-#### \[JavaScript\]
+## 
 
-shell. **SetFileAttributes**( _strFile_, _nAttr_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+shell.SetFileAttributes( strFile, nAttr );
+```
 
-shell. **SetFileAttributes** _strFile_, _nAttr_
+### \[VBScript\]
+
+```
+shell.SetFileAttributes strFile, nAttr
+```
 
 ## 参数
 
@@ -31,13 +37,17 @@ _nAttr_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 shell.SetFileAttributes( "C:\\\Test\\\file.txt", 1 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 shell.SetFileAttributes "C:\\Test\\file.txt", 1
+```
 
 ## 版本
 

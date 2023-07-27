@@ -2,13 +2,19 @@
 
 選択範囲が空かどうかを示します。
 
-#### \[JavaScript\]
+## 
 
-_bEmpty_ = document.selection. **IsEmpty**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bEmpty = document.selection.IsEmpty;
+```
 
-_bEmpty_ = document.selection. **IsEmpty**
+### \[VBScript\]
+
+```
+bEmpty = document.selection.IsEmpty
+```
 
 ## バージョン
 

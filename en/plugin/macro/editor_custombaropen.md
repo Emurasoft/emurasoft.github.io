@@ -8,12 +8,12 @@ Editor\_CustomBarOpen( HWND hwnd, CUSTOM\_BAR\_INFO\* pCustomBarInfo );
 
 _pCustomBarInfo_
 
-> Pointer to the [CUSTOM\_BAR\_INFO structure](../structure/custom_bar_info).
+Pointer to the [CUSTOM\_BAR\_INFO structure](../structure/custom_bar_info).
 
 ## Return Values
 
-> The return value is a custom bar ID, which is necessary when the custom bar is closed with the Editor\_CustomBarClose inline function. If the message fails, the return value is zero.
+The return value is a custom bar ID, which is necessary when the custom bar is closed with the Editor\_CustomBarClose inline function. If the message fails, the return value is zero.
 
 ## Version
 
-> Supported on EmEditor Professional Version 6.00 or later.
+Supported on EmEditor Professional Version 6.00 or later.

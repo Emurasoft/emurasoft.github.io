@@ -1,31 +1,36 @@
 # Heading (Popup) command
 
-### Summary
+## Summary
 
-> Shows a popup menu to set headings.
+Shows a popup menu to set headings.
 
-### Description
+## Description
 
-> Shows a popup menu to set headings.
+Shows a popup menu to set headings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Heading (Popup)**
+- [All Commands](../tools/all_commands):CSV \>Headings (Freeze Panes) \>Heading (Popup)
 - Toolbar: ![](../../images/heading.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_HEADING\_POPUP (3898)
+```
+EEID_HEADING_POPUP (3898)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3898);
+```
+editor.ExecuteCommandByID(3898);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3898
+```
+editor.ExecuteCommandByID 3898
+```

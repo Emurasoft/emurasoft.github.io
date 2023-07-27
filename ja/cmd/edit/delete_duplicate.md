@@ -1,14 +1,14 @@
 # \[重複行の削除\] コマンド
 
-### 概要
+## 概要
 
-> 選択範囲または文書全体から重複行を削除します。
+選択範囲または文書全体から重複行を削除します。
 
-### 説明
+## 説明
 
-> 選択範囲または文書全体から重複行を削除します。
+選択範囲または文書全体から重複行を削除します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[並べ替え\] \- \[重複行の削除\]
 - [すべてのコマンド](../../glossary/allcommands): \[並べ替え\] \- \[重複行の削除\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_DELETE\_DUPLICATE (4564)
+```
+EEID_DELETE_DUPLICATE (4564)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.DeleteDuplicates("",0);
+```
+document.DeleteDuplicates("",0);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.DeleteDuplicates "",0
+```
+document.DeleteDuplicates "",0
+```

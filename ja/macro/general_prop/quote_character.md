@@ -1,20 +1,22 @@
 # QuoteCharacter プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の **\[引用マーク\]** テキスト ボックス相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[引用マーク\] テキスト ボックス相当します。
 
-#### \[JavaScript\]
+## 
 
-_str_ =
-object. **QuoteCharacter**;
+### \[JavaScript\]
 
-object. **QuoteCharacter** = _str_;
+```
+str = object.QuoteCharacter;
+object.QuoteCharacter = str;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_str_ =
-object. **QuoteCharacter**
-
-object. **QuoteCharacter** = _str_
+```
+str = object.QuoteCharacter
+object.QuoteCharacter = str
+```
 
 ## バージョン
 

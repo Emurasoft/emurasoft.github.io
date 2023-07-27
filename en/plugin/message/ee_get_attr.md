@@ -12,12 +12,12 @@ lParam = (LPARAM) (ATTR\_INFO) pAI;
 
 _pAI_
 
-> Pointer to the [ATTR\_INFO](../structure/attr_info) structure.
+Pointer to the [ATTR\_INFO](../structure/attr_info) structure.
 
 ## Return Values
 
-> The return value is TRUE if succeeded, or FALSE if failed.
+The return value is TRUE if succeeded, or FALSE if failed.
 
 ## Version
 
-> Supported on EmEditor Version 9.00 or later.
+Supported on EmEditor Version 9.00 or later.

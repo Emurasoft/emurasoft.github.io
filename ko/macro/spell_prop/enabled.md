@@ -1,20 +1,22 @@
 # Enabled 속성 (SpellProp ��ü)
 
-구성 속성의 [**맞춤법** 탭](../../dlg/properties/spell/index) 의 **맞춤법 확인** 체크 박스에 해당합니다.
+구성 속성의 [맞춤법 탭](../../dlg/properties/spell/index) 의맞춤법 확인 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **Enabled**;
+### \[JavaScript\]
 
-object. **Enabled** = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **Enabled**
-
-object. **Enabled** = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## 버전
 

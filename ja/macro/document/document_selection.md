@@ -2,13 +2,19 @@
 
 [Selection オブジェクト](../selection/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_sel_ = document. **selection**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+sel = document.selection;
+```
 
-Set _sel_ = document. **selection**
+### \[VBScript\]
+
+```
+Set sel = document.selection
+```
 
 ## バージョン
 

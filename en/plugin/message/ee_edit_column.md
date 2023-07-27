@@ -12,12 +12,12 @@ lParam = 0;
 
 _pInfo_
 
-> Specifies the pointer to the [EDIT\_COLUMN\_INFO](../structure/edit_column_info) structure.
+Specifies the pointer to the [EDIT\_COLUMN\_INFO](../structure/edit_column_info) structure.
 
 ## Return Values
 
-> The return value is S\_OK if succeeds.
+The return value is S\_OK if succeeds.
 
 ## Version
 
-> Supported on Version 19.7 or later.
+Supported on Version 19.7 or later.

@@ -1,31 +1,36 @@
 # Bookmark Changes command
 
-### Summary
+## Summary
 
-> Bookmark all changed lines.
+Bookmark all changed lines.
 
-### Description
+## Description
 
-> Bookmark all changed lines in comparison mode.
+Bookmark all changed lines in comparison mode.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Compare** \> **Bookmark Changes**
-- [All Commands](../tools/all_commands): **Compare** \> **Bookmark Changes**
+- Default Menu:Compare \>Bookmark Changes
+- [All Commands](../tools/all_commands):Compare \>Bookmark Changes
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_COMPARE\_BOOKMARK (4593)
+```
+EEID_COMPARE_BOOKMARK (4593)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4593);
+```
+editor.ExecuteCommandByID(4593);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4593
+```
+editor.ExecuteCommandByID 4593
+```

@@ -1,36 +1,39 @@
 # Delete Line(s) command
 
-### Summary
+## Summary
 
-> Deletes the selected lines or the current line.
+Deletes the selected lines or the current line.
 
-### Description
+## Description
 
-> Deletes the selected lines or one logical line at the cursor.
+Deletes the selected lines or one logical line at the cursor.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Delete**
-\> **Delete Line(s)**
+- [All Commands](../tools/all_commands):Edit \>Delete
+\>Delete Line(s)
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+L
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_DELETE\_LINE (4190)
+```
+EEID_DELETE_LINE (4190)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.SelectLine();
->
-> document.selection.Delete(1);
+```
+document.selection.SelectLine();
+document.selection.Delete(1);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.SelectLine
->
-> document.selection.Delete 1
+```
+document.selection.SelectLine
+document.selection.Delete 1
+```

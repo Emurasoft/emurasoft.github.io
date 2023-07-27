@@ -2,14 +2,18 @@
 
 元の文字列内でマッチした位置を 0 から始まる整数で返します。
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-_i_ = m. **FirstIndex**;
+```
+i = m.FirstIndex;
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-_i_ = m. **FirstIndex**;
+```
+i = m.FirstIndex;
+```
 
-#### バージョン
+## バージョン
 
 EmEditor Professional Version 15.9 以上で利用できます。

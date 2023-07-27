@@ -1,32 +1,37 @@
 # LF Only (Filter Toolbar) command
 
-### Summary
+## Summary
 
-> Toggles the LF Only command on the Filter toolbar.
+Toggles the LF Only command on the Filter toolbar.
 
-### Description
+## Description
 
-> Toggles the LF Only command on the Filter toolbar.
+Toggles the LF Only command on the Filter toolbar.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Match Newline Characters** \> **LF Only**
+- [All Commands](../tools/all_commands):Search
+\>Filter Toolbar \>Match Newline Characters \>LF Only
 - Toolbar: ![](../../images/match_newline_characters.png) \+ LF Only (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_FILTERBAR\_LF\_ONLY (4008)
+```
+EEID_FILTERBAR_LF_ONLY (4008)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4008);
+```
+editor.ExecuteCommandByID(4008);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4008
+```
+editor.ExecuteCommandByID 4008
+```

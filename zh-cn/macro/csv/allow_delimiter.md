@@ -1,18 +1,22 @@
 # AllowDelimiter 属性 (Csv ����)
 
-与在自定义对话框中 [**CSV** 页面](../../dlg/customize/csv/index) 上的 **允许分隔符在引号内** 复选框对应。
+与在自定义对话框中 [CSV 页面](../../dlg/customize/csv/index) 上的允许分隔符在引号内 复选框对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **AllowDelimiter**;
+### \[JavaScript\]
 
-object. **AllowDelimiter** = _b_;
+```
+b = object.AllowDelimiter;
+object.AllowDelimiter = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **AllowDelimiter**
-
-object. **AllowDelimiter** = _b_
+```
+b = object.AllowDelimiter
+object.AllowDelimiter = b
+```
 
 ## 版本
 

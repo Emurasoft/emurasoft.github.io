@@ -10,20 +10,20 @@ Editor\_OverwriteA( HWND hwnd, LPCSTR szString, bool bKeepDestReturnType = false
 
 _hwnd_
 
-> 指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制代碼。
 
 _szString_
 
-> 指定要插入的字串。
+指定要插入的字串。
 
 _bKeepDestReturnType_
 
-> 指定保持目標換行方式 (僅　CR，僅　LF，或　CR 和 LF) 。當該參數被省略時，EmEditor　會保持在　szString 參數中指定的換行方式。
+指定保持目標換行方式 (僅　CR，僅　LF，或　CR 和 LF) 。當該參數被省略時，EmEditor　會保持在　szString 參數中指定的換行方式。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。
 
 ## 支持版本
 
-> bKeepDestReturnType 標志支持 EmEditor 7.00 或之後的版本。
+bKeepDestReturnType 標志支持 EmEditor 7.00 或之後的版本。

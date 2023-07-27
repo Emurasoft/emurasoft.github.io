@@ -10,8 +10,8 @@ Editor\_EmptyUndoBuffer( HWND hwnd );
 
 _hwnd_
 
-> 指定 EmEditor 视图或框架的窗口句柄。
+指定 EmEditor 视图或框架的窗口句柄。
 
 ## 返回值
 
-> 不使用返回值。
+不使用返回值。

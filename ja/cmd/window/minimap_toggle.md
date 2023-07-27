@@ -1,14 +1,14 @@
 # \[ミニマップの表示/非表示を切り替え\] コマンド
 
-### 概要
+## 概要
 
-> ミニマップの表示/非表示を切り替えます。
+ミニマップの表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> ミニマップの表示/非表示を切り替えます。
+ミニマップの表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[スクロール\] \- \[ミニマップを表示\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_MINIMAP\_TOGGLE (3975)
+```
+EEID_MINIMAP_TOGGLE (3975)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3975);
+```
+editor.ExecuteCommandByID(3975);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3975
+```
+editor.ExecuteCommandByID 3975
+```

@@ -2,17 +2,21 @@
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[検出する最初の行\] テキスト ボックス に相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **FirstDetectLine**;
+### \[JavaScript\]
 
-object. **FirstDetectLine** = _n_;
+```
+n = object.FirstDetectLine;
+object.FirstDetectLine = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **FirstDetectLine**
-
-object. **FirstDetectLine** = _n_
+```
+n = object.FirstDetectLine
+object.FirstDetectLine = n
+```
 
 ## バージョン
 

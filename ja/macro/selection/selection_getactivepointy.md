@@ -2,13 +2,19 @@
 
 カーソル位置の現在行を 1 で始まる整数で返します。
 
-#### \[JavaScript\]
+## 
 
-yPos = document.selection. **GetActivePointY**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos = document.selection.GetActivePointY( nFlags [, iSel ] );
+```
 
-yPos = document.selection. **GetActivePointY**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+yPos = document.selection.GetActivePointY( nFlags [, iSel ] )
+```
 
 ## 引数
 

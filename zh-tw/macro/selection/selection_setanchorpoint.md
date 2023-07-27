@@ -2,14 +2,20 @@
 
 設置選定內容的原點。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SetAnchorPoint**( _nFlags_, _xPos_, _yPos_
+### \[JavaScript\]
+
+```
+document.selection.SetAnchorPoint( nFlags, xPos, yPos
 );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-document.selection. **SetAnchorPoint** _nFlags_, _xPos_, _yPos_
+```
+document.selection.SetAnchorPoint nFlags, xPos, yPos
+```
 
 ## 參數
 

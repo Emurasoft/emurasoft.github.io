@@ -1,40 +1,41 @@
 # 只读命令
 
-### 摘要
+## 摘要
 
-> 切换当前文件的只读状态。
+切换当前文件的只读状态。
 
-### 说明
+## 说明
 
-> 启用或禁用文件的只读状态。
+启用或禁用文件的只读状态。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **编辑** \> **只读**
-- [所有命令](../tools/all_commands): **编辑** \> **高级**
-\> **只读**
+- 默认菜单:编辑 \>只读
+- [所有命令](../tools/all_commands):编辑 \>高级
+\>只读
 - 工具栏: 无
-- 状态栏: 双击 **“只读”**
+- 状态栏: 双击“只读”
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_READ\_ONLY (4113)
+```
+EEID_READ_ONLY (4113)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.ReadOnly=true;
-
+```
+document.ReadOnly=true;
 或
+document.ReadOnly=false;
+```
 
-> document.ReadOnly=false;
+### \[VBScript\]
 
-#### \[VBScript\]
-
-> document.ReadOnly=true
-
+```
+document.ReadOnly=true
 或
-
-> document.ReadOnly=false
+document.ReadOnly=false
+```

@@ -13,12 +13,12 @@ lParam = (LPARAM) (TOOLBAR\_INFO\*) pToolbarInfo;
 
 _pToolbarInfo_
 
-> Pointer to the [TOOLBAR\_INFO structure](../structure/toolbar_info).
+Pointer to the [TOOLBAR\_INFO structure](../structure/toolbar_info).
 
 ## Return Values
 
-> The return value is a custom toolbar ID. If the message fails, the return value is zero.
+The return value is a custom toolbar ID. If the message fails, the return value is zero.
 
 ## Version
 
-> Supported on EmEditor Professional Version 7.00 or later.
+Supported on EmEditor Professional Version 7.00 or later.

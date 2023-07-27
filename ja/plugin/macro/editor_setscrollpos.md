@@ -8,12 +8,12 @@ Editor\_SetScrollPos( HWND hwnd, POINT\_PTR\* pptPos );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _pptPos_
 
-> スクロールバーの位置を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。カーソル位置は変更しません。
+スクロールバーの位置を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。カーソル位置は変更しません。
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。

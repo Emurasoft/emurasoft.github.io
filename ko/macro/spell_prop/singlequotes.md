@@ -1,20 +1,22 @@
 # SingleQuotes 속성 (SpellProp ��ü)
 
-구성 속성의 [**맞춤법** 탭](../../dlg/properties/spell/index) 의 **작은 따옴표로 닫힌 문자열** 체크 박스에 해당합니다.
+구성 속성의 [맞춤법 탭](../../dlg/properties/spell/index) 의작은 따옴표로 닫힌 문자열 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SingleQuotes**;
+### \[JavaScript\]
 
-object. **SingleQuotes** = _b_;
+```
+b = object.SingleQuotes;
+object.SingleQuotes = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SingleQuotes**
-
-object. **SingleQuotes** = _b_
+```
+b = object.SingleQuotes
+object.SingleQuotes = b
+```
 
 ## 버전
 

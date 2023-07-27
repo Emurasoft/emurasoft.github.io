@@ -1,22 +1,24 @@
 # LineColumnMode Property (GeneralProp Object)
 
-Corresponds to the **Line**
-**and Column Display as drop-down** list box in the
-[**General** page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to theLine
+and Column Display as drop-down list box in the
+[General page](../../dlg/properties/general/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_n_ _Mode_ =
-object. **LineColumnMode**;
+### \[JavaScript\]
 
-object. **LineColumnMode** = _nMode_;
+```
+n Mode = object.LineColumnMode;
+object.LineColumnMode = nMode;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_nMode_ =
-object. **LineColumnMode**
-
-object. **LineColumnMode** = _nMode_
+```
+nMode = object.LineColumnMode
+object.LineColumnMode = nMode
+```
 
 ## Parameters
 

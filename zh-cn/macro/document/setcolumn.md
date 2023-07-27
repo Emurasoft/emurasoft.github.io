@@ -2,13 +2,19 @@
 
 在 CSV 模式下设置文本列。
 
-#### \[JavaScript\]
+## 
 
-document. **SetColumn**( _iColumn_, _strInsert_, _strDelimiter_, _flags_, _yTop_, _yLines_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.SetColumn( iColumn, strInsert, strDelimiter, flags, yTop, yLines );
+```
 
-document. **SetColumn**( _iColumn_, _strInsert_, _strDelimiter_, _flags_, _yTop_, _yLines_ )
+### \[VBScript\]
+
+```
+document.SetColumn( iColumn, strInsert, strDelimiter, flags, yTop, yLines )
+```
 
 ## 参数
 
@@ -26,13 +32,13 @@ _strDelimiter_
 
 _flags_
 
-> 指定下列值之一。
->
-> |     |     |
-> | --- | --- |
-> | eeAutoQuote | 查看字符串是否包含分隔符，换行符，或引号，跳过这些字符，必要时添加引号。 |
-> | eeDontQuote | 不做上述过程。 |
-> | eeAlwaysQuote | 总是添加引号。 |
+指定下列值之一。
+
+|     |     |
+| --- | --- |
+| eeAutoQuote | 查看字符串是否包含分隔符，换行符，或引号，跳过这些字符，必要时添加引号。 |
+| eeDontQuote | 不做上述过程。 |
+| eeAlwaysQuote | 总是添加引号。 |
 
 _yTop_
 
@@ -46,45 +52,33 @@ _yLines_
 
 下面的示例会在第三列的左边插入一个空列，并合并第一列和第二列的内容作为插入的这个列的内容。在运行这个宏之前，CSV文档必须处于活动状态。由于换行符 (\\n, Chr(10)) 被当作分隔符，我们假设每个单元格不包含换行符。
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.InsertColumn( 3 );
-
 nLines = document.GetLines() - 1;
-
 s3 = "";
-
 for( y = 1; y <= nLines; y++ ) {
-
 s1 = document.GetCell( y, 1, eeCellIncludeNone );
-
 s2 = document.GetCell( y, 2, eeCellIncludeNone );
-
 s3 += s1 + " " + s2 + "\\n";
-
 }
-
 document.SetColumn( 3, s3, "\\n", eeAutoQuote );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.InsertColumn 3
-
 nLines = document.GetLines() - 1
-
 s3 = ""
-
 For y = 1 To nLines
-
 s1 = document.GetCell( y, 1, eeCellIncludeNone )
-
 s2 = document.GetCell( y, 2, eeCellIncludeNone )
-
 s3 = s3 + s1 + " " + s2 + Chr(10)
-
 Next
-
 document.SetColumn 3, s3, Chr(10), eeAutoQuote
+```
 
 ## 版本
 

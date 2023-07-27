@@ -8,16 +8,16 @@ Editor\_SerialToLogical( HWND hwnd, UINT nSerial, POINT\_PTR\* pptLogical );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _nSerial_
 
-> シリアル位置を指定します。
+シリアル位置を指定します。
 
 _pptLogical_
 
-> 論理座標を格納するための [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+論理座標を格納するための [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。

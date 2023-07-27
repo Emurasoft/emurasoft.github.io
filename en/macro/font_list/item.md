@@ -2,15 +2,19 @@
 
 Retrieves the [FontItem object](../font_item/index) for the specified index.
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-List. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = List.Item( Index );
+```
 
-_item_ =
-List. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = List.Item( Index )
+```
 
 ## Parameters
 

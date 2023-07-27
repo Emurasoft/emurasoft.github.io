@@ -1,21 +1,23 @@
 # HalfPage プロパティ (ScrollProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の
-**\[半ページ スクロール\]** チェック ボックスに相当します。
+設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
+\[半ページ スクロール\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HalfPage**;
+### \[JavaScript\]
 
-object. **HalfPage** = _b_;
+```
+b = object.HalfPage;
+object.HalfPage = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HalfPage**
-
-object. **HalfPage** = _b_
+```
+b = object.HalfPage
+object.HalfPage = b
+```
 
 ## バージョン
 

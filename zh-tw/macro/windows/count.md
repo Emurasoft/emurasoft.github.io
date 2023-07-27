@@ -2,23 +2,33 @@
 
 檢索視窗數目。
 
-#### \[JavaScript\]
+## 
 
-_nCount_ = shell.windows. **Count**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+nCount = shell.windows.Count;
+```
 
-_nCount_ = shell.windows. **Count**
+### \[VBScript\]
+
+```
+nCount = shell.windows.Count
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Number of top-level windows: " + shell.windows.Count );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Number of top-level windows: " & shell.windows.Count
+```
 
 ## 版本
 

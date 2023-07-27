@@ -2,13 +2,19 @@
 
 在游標處插入指定的新行數。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **NewLine**( \[ _nCount_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.NewLine( [ nCount ] );
+```
 
-document.selection. **NewLine** \[ _nCount_ \]
+### \[VBScript\]
+
+```
+document.selection.NewLine [ nCount ]
+```
 
 ## 參數
 

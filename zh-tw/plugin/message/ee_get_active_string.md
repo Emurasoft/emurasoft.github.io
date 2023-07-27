@@ -12,12 +12,12 @@ lParam = (LPARAM) (ACTIVE\_STRING\_INFO\*) pInfo;
 
 _pInfo_
 
-> 指針指向 [ACTIVE\_STRING\_INFO](../structure/active_string_info) 結構。
+指針指向 [ACTIVE\_STRING\_INFO](../structure/active_string_info) 結構。
 
 ## 返回值
 
-> 返回要檢索包含終止 NULL 字元的主動字串所需的緩衝區字元數。
+返回要檢索包含終止 NULL 字元的主動字串所需的緩衝區字元數。
 
 ## 版本
 
-> 支持 EmEditor Professional Version 16.9 或之後的版本。
+支持 EmEditor Professional Version 16.9 或之後的版本。

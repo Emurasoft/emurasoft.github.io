@@ -2,13 +2,19 @@
 
 文書を保存します。
 
-#### \[JavaScript\]
+## 
 
-document. **Save**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.Save( [ strName ] );
+```
 
-document. **Save** \[ _strName_ \]
+### \[VBScript\]
+
+```
+document.Save [ strName ]
+```
 
 ## パラメータ
 

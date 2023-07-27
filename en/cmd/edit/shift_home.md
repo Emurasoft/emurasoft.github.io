@@ -1,32 +1,37 @@
 # Home Extend command
 
-### Summary
+## Summary
 
-> Extends the selection to the beginning of the current line.
+Extends the selection to the beginning of the current line.
 
-### Description
+## Description
 
-> Extends the selection to the beginning of the current line.
+Extends the selection to the beginning of the current line.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Home Extend**
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Home Extend
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_SHIFT\_HOME (4180)
+```
+EEID_SHIFT_HOME (4180)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> document.selection.StartOfLine(true,eeLineView);
+```
+document.selection.StartOfLine(true,eeLineView);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> document.selection.StartOfLine true,eeLineView
+```
+document.selection.StartOfLine true,eeLineView
+```

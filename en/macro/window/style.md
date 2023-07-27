@@ -2,13 +2,19 @@
 
 Returns the styles of the specified window.
 
-#### \[JavaScript\]
+## 
 
-_n_ = wnd. **Style**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = wnd.Style;
+```
 
-_n_ = wnd. **Style**
+### \[VBScript\]
+
+```
+n = wnd.Style
+```
 
 ## Version
 

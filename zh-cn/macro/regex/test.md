@@ -2,13 +2,19 @@
 
 测试正则表达式是否与指定字符串成功匹配。
 
-#### \[JavaScript\]
+## 
 
-_b_  = reg. **Test**( _strText_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b  = reg.Test( strText );
+```
 
-_b_  = reg. **Test**( _strText_ )
+### \[VBScript\]
+
+```
+b  = reg.Test( strText )
+```
 
 ## 参数
 
@@ -22,33 +28,27 @@ _strText_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 re = editor.regex;
-
 re.Engine = eeExFindRegexOnigmo;
-
-re.Pattern = "^\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\\.\[A-Z\]{2,}$";
-
+re.Pattern = "^[A-Z0-9.\%+-]+@[A-Z0-9.-]+\\\.[A-Z]{2,}$";
 re.IgnoreCase = true;
-
 b = re.Test( "john@test.com" );
-
 if( b ) alert( "正则表达式匹配" );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 Set re = editor.regex
-
 re.Engine = eeExFindRegexOnigmo
-
-re.Pattern = "^\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\.\[A-Z\]{2,}$"
-
+re.Pattern = "^[A-Z0-9.\%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}$"
 re.IgnoreCase = True
-
 b = re.Test( "john@test.com" )
-
 If b Then alert( "正则表达式匹配" )
+```
 
 ## 版本
 

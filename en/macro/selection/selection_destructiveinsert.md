@@ -2,13 +2,19 @@
 
 Inserts text, overwriting the existing text.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **DestructiveInsert**( str );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.DestructiveInsert( str );
+```
 
-document.selection. **DestructiveInsert** str
+### \[VBScript\]
+
+```
+document.selection.DestructiveInsert str
+```
 
 ## Parameters
 

@@ -2,13 +2,19 @@
 
 在游標處選擇一行。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **SelectLine**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.SelectLine();
+```
 
-document.selection. **SelectLine**
+### \[VBScript\]
+
+```
+document.selection.SelectLine
+```
 
 ## 版本
 

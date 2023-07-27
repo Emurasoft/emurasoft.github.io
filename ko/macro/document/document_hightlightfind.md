@@ -2,17 +2,21 @@
 
 검색된 문자열을 강조 표시 할지의 여부를 결정합니다.
 
-#### \[JavaScript\]
+## 
 
-_bHighlightFind_ = document. **HighlightFind**;
+### \[JavaScript\]
 
-document. **HighlightFind** = _bHighlightFind_;
+```
+bHighlightFind = document.HighlightFind;
+document.HighlightFind = bHighlightFind;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bHighlightFind_ = document. **HighlightFind**
-
-document. **HighlightFind** = _bHighlightFind_
+```
+bHighlightFind = document.HighlightFind
+document.HighlightFind = bHighlightFind
+```
 
 ## 버전
 

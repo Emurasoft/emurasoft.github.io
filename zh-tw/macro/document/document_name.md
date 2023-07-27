@@ -2,23 +2,33 @@
 
 檢索不帶路徑的文檔的檔案名，或重新命名文檔的檔案名。如果文檔沒有標題，則重新命名文檔標題而不儲存檔案。
 
-#### \[JavaScript\]
+## 
 
-_strName_ = document. **Name**;document. **Name** = _strName_;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = document.Name;document.Name = strName;
+```
 
-_strName_ = document. **Name** document. **Name** = _strName_
+### \[VBScript\]
+
+```
+strName = document.Name document.Name = strName
+```
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( document.Name );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert document.Name
+```
 
 ## 版本
 

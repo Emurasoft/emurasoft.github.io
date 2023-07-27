@@ -2,13 +2,19 @@
 
 Collapses the selection to the active point.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **Collapse**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.Collapse();
+```
 
-document.selection. **Collapse**
+### \[VBScript\]
+
+```
+document.selection.Collapse
+```
 
 ## Version
 

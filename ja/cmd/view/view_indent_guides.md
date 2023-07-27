@@ -1,14 +1,14 @@
 # \[インデント ガイド\] コマンド
 
-### 概要
+## 概要
 
-> インデント ガイドの表示/非表示を切り替えます。
+インデント ガイドの表示/非表示を切り替えます。
 
-### 説明
+## 説明
 
-> インデント ガイドの表示/非表示を切り替えます。
+インデント ガイドの表示/非表示を切り替えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[表示\] \- \[記号\] \- \[インデント ガイド\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[記号\] \- \[インデント ガイド\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_VIEW\_INDENT\_GUIDES (4539)
+```
+EEID_VIEW_INDENT_GUIDES (4539)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-> editor.ExecuteCommandByID(4539);
+```
+editor.ExecuteCommandByID(4539);
+```
 
-#### \[VBScript\]
+## \[VBScript\]
 
-> editor.ExecuteCommandByID 4539
+```
+editor.ExecuteCommandByID 4539
+```

@@ -1,18 +1,22 @@
 # MaxDetectLines Property (Csv Object)
 
-Corresponds to the **Max lines to detect** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to theMax lines to detect text box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **MaxDetectLines**;
+### \[JavaScript\]
 
-object. **MaxDetectLines** = _n_;
+```
+n = object.MaxDetectLines;
+object.MaxDetectLines = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **MaxDetectLines**
-
-object. **MaxDetectLines** = _n_
+```
+n = object.MaxDetectLines
+object.MaxDetectLines = n
+```
 
 ## Version
 

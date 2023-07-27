@@ -2,13 +2,19 @@
 
 按指定键列，用一个与 JOIN 操作类似的方法合并两个 CSV 文档，并创建一个新文档。
 
-#### \[JavaScript\]
+## 
 
-_n_ = editor. **Join**( _nFlags_, _strDocument1_, _strColumn1_, _strDocument2_, _strColumn2_, _strSelect_, _strSeparator_, _nLimit_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+n = editor.Join( nFlags, strDocument1, strColumn1, strDocument2, strColumn2, strSelect, strSeparator, nLimit );
+```
 
-_n_ = editor. **Join**( _nFlags_, _strDocument1_, _strColumn1_, _strDocument2_, _strColumn2_, _strSelect, strSeparator, nLimit_)
+### \[VBScript\]
+
+```
+n = editor.Join( nFlags, strDocument1, strColumn1, strDocument2, strColumn2, strSelect, strSeparator, nLimit)
+```
 
 ## 参数
 

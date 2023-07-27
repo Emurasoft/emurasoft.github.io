@@ -2,15 +2,19 @@
 
 為指定的索引檢索 [FontItem 對象](../font_item/index)。
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-List. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = List.Item( Index );
+```
 
-_item_ =
-List. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = List.Item( Index )
+```
 
 ## 參數
 

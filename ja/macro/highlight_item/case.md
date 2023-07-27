@@ -1,21 +1,23 @@
 # Case プロパティ (HighlightItem �I�u�W�F�N�g)
 
-設定のプロパティの [**\[強調(1)\]** タブ](../../dlg/properties/highlight1/index) の
-**\[大文字小文字を区別\]** チェック ボックスに相当します。
+設定のプロパティの [\[強調(1)\] タブ](../../dlg/properties/highlight1/index) の
+\[大文字小文字を区別\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-item. **Case**;
+### \[JavaScript\]
 
-item. **Case** = _b_;
+```
+b = item.Case;
+item.Case = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-item. **Case**
-
-item. **Case** = _b_
+```
+b = item.Case
+item.Case = b
+```
 
 ## バージョン
 

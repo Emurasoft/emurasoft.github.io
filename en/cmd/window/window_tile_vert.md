@@ -1,32 +1,37 @@
 # Tile Windows Vertically command
 
-### Summary
+## Summary
 
-> Arranges windows vertically as non-overlapping tiles.
+Arranges windows vertically as non-overlapping tiles.
 
-### Description
+## Description
 
-> Arranges non-combined EmEditor windows vertically as non-overlapping tiles.
+Arranges non-combined EmEditor windows vertically as non-overlapping tiles.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Window** \> **Tile Vertically**
-- [All Commands](../tools/all_commands): **Window**
-\> **Tile Vertically**
+- Default Menu:Window \>Tile Vertically
+- [All Commands](../tools/all_commands):Window
+\>Tile Vertically
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_TILE\_VERT (4243)
+```
+EEID_WINDOW_TILE_VERT (4243)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4243);
+```
+editor.ExecuteCommandByID(4243);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4243
+```
+editor.ExecuteCommandByID 4243
+```

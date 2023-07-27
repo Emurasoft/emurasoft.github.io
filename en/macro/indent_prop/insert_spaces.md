@@ -1,21 +1,23 @@
 # InsertSpaces Property (IndentProp Object)
 
-Corresponds to the **Insert**
-**Spaces for Tabs** check box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
+Corresponds to theInsert
+Spaces for Tabs check box in the [Tab/Index dialog box](../../dlg/properties/general/indent/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **InsertSpaces**;
+### \[JavaScript\]
 
-object. **InsertSpaces** = _b_;
+```
+b = object.InsertSpaces;
+object.InsertSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **InsertSpaces**
-
-object. **InsertSpaces** = _b_
+```
+b = object.InsertSpaces
+object.InsertSpaces = b
+```
 
 ## Version
 

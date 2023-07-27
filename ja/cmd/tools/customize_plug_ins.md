@@ -1,14 +1,14 @@
 # \[プラグインの設定\] コマンド
 
-### 概要
+## 概要
 
-> プラグインの設定を行います。
+プラグインの設定を行います。
 
-### 説明
+## 説明
 
-> [\[プラグインの設定\] ダイアログ ボックス](../../dlg/plugins/index) を表示して、プラグインの設定を行います。
+[\[プラグインの設定\] ダイアログ ボックス](../../dlg/plugins/index) を表示して、プラグインの設定を行います。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[プラグイン\] \- \[プラグインの設定\]
 - [すべてのコマンド](../../glossary/allcommands): \[プラグイン\] \- \[プラグインの設定\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_CUSTOMIZE\_PLUG\_INS (4238)
+```
+EEID_CUSTOMIZE_PLUG_INS (4238)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4238);
+```
+editor.ExecuteCommandByID(4238);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4238
+```
+editor.ExecuteCommandByID 4238
+```

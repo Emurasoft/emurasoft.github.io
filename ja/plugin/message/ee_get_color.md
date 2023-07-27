@@ -12,12 +12,12 @@ lParam = (LPARAM) (GET\_COLOR\_INFO\*) pGetColorInfo;
 
 _pGetColorInfo_
 
-> GET\_COLOR\_INFO 構造体へのポインタを指定します。
+GET\_COLOR\_INFO 構造体へのポインタを指定します。
 
 ## 戻り値
 
-> 成功すると TRUE を、失敗すると FALSE を返します。
+成功すると TRUE を、失敗すると FALSE を返します。
 
 ## バージョン
 
-> Version 14.4 以上で利用できます。
+Version 14.4 以上で利用できます。

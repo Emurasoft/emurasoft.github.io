@@ -1,20 +1,22 @@
 # DetectUnicodeSignature 属性 (FileProp ����)
 
-与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **检测 Unicode 签名 (BOM)** 复选框相对应。
+与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的检测 Unicode 签名 (BOM) 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **DetectUnicodeSignature**;
+### \[JavaScript\]
 
-object. **DetectUnicodeSignature** = _b_;
+```
+b = object.DetectUnicodeSignature;
+object.DetectUnicodeSignature = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **DetectUnicodeSignature**
-
-object. **DetectUnicodeSignature** = _b_
+```
+b = object.DetectUnicodeSignature
+object.DetectUnicodeSignature = b
+```
 
 ## 版本
 

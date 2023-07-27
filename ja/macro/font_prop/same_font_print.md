@@ -1,21 +1,23 @@
 # SameFontPrint プロパティ (FontProp �I�u�W�F�N�g)
 
-[**\[カスタマイズ フォント\]** ダイアログ ボックス](../../dlg/properties/font/index) の
-**\[印刷フォントに表示フォントを使用\]** チェック ボックスに相当します。
+[\[カスタマイズ フォント\] ダイアログ ボックス](../../dlg/properties/font/index) の
+\[印刷フォントに表示フォントを使用\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SameFontPrint**;
+### \[JavaScript\]
 
-object. **SameFontPrint** = _b_;
+```
+b = object.SameFontPrint;
+object.SameFontPrint = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SameFontPrint**
-
-object. **SameFontPrint** = _b_
+```
+b = object.SameFontPrint
+object.SameFontPrint = b
+```
 
 ## バージョン
 

@@ -2,13 +2,19 @@
 
 선택 영역의 상단의 줄 번호를 반환합니다.
 
-#### \[JavaScript\]
+## 
 
-yPos = document.selection. **GetTopPointY**( _nFlags_ \[, _iSel_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+yPos = document.selection.GetTopPointY( nFlags [, iSel ] );
+```
 
-yPos = document.selection. **GetTopPointY**( _nFlags_ \[, _iSel_ \] )
+### \[VBScript\]
+
+```
+yPos = document.selection.GetTopPointY( nFlags [, iSel ] )
+```
 
 ## 매개 변수
 

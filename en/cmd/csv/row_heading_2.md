@@ -1,31 +1,36 @@
 # Row Heading 2 command
 
-### Summary
+## Summary
 
-> Sets the first two columns headings and non-scrollable.
+Sets the first two columns headings and non-scrollable.
 
-### Description
+## Description
 
-> Sets the first two columns headings and non-scrollable.
+Sets the first two columns headings and non-scrollable.
 
-### How to Run
+## How to Run
 
-- Default Menu: **CSV** \> **Headings (Freeze Panes)** \> **Row Heading 2**
-- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Row Heading 2**
+- Default Menu:CSV \>Headings (Freeze Panes) \>Row Heading 2
+- [All Commands](../tools/all_commands):CSV \>Headings (Freeze Panes) \>Row Heading 2
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ROW\_HEADING\_2 (4093)
+```
+EEID_ROW_HEADING_2 (4093)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4093);
+```
+editor.ExecuteCommandByID(4093);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4093
+```
+editor.ExecuteCommandByID 4093
+```

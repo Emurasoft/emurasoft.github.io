@@ -2,13 +2,19 @@
 
 カーソル位置または垂直選択に番号を挿入します。
 
-#### \[JavaScript\]
+## 
 
-editor.Numbering( _strFirst_, _strInc_, _nMaxLines_ \[, _nFlags_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.Numbering( strFirst, strInc, nMaxLines [, nFlags ] );
+```
 
-editor.Numbering _strFirst_, _strInc_, _nMaxLines_ \[, _nFlags_ \]
+### \[VBScript\]
+
+```
+editor.Numbering strFirst, strInc, nMaxLines [, nFlags ]
+```
 
 ## パラメータ
 

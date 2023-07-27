@@ -1,21 +1,23 @@
 # HighlightMatchingBrackets Property (HighlightProp Object)
 
-Corresponds to the **Highlight**
-**Matching Parentheses/Brackets** check box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to theHighlight
+Matching Parentheses/Brackets check box in the [Highlight (2) page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HighlightMatchingBrackets**;
+### \[JavaScript\]
 
-object. **HighlightMatchingBrackets** = _b_;
+```
+b = object.HighlightMatchingBrackets;
+object.HighlightMatchingBrackets = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HighlightMatchingBrackets**
-
-object. **HighlightMatchingBrackets** = _b_
+```
+b = object.HighlightMatchingBrackets
+object.HighlightMatchingBrackets = b
+```
 
 ## Version
 

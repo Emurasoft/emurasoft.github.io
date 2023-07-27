@@ -12,12 +12,12 @@ lParam = (LPARAM) (GET\_COLOR\_INFO\*) pGetColorInfo;
 
 _pGetColorInfo_
 
-> 指针指向 [GET\_COLOR\_INFO](../structure/get_color_info) 结构。
+指针指向 [GET\_COLOR\_INFO](../structure/get_color_info) 结构。
 
 ## 返回值
 
-> 返回值是 TRUE 如果通过的话，或 FALSE 如果未通过的话。
+返回值是 TRUE 如果通过的话，或 FALSE 如果未通过的话。
 
 ## 支持版本
 
-> 支持 Version 14.4 以及之后的版本。
+支持 Version 14.4 以及之后的版本。

@@ -6,37 +6,35 @@ KeyboardList コレクションは [KeyboardItem オブジェクト](../keyboard
 
 |     |     |
 | --- | --- |
-| **[Count](count)** | アイテムの数を取得します。 |
-| **[Item](item)** | 指定したインデックスの [KeyboardItem オブジェクト](../keyboard_item/index) を取得します。 |
+|[Count](count) | アイテムの数を取得します。 |
+|[Item](item) | 指定したインデックスの [KeyboardItem オブジェクト](../keyboard_item/index) を取得します。 |
 
 ## メソッド
 
 |     |     |
 | --- | --- |
-| **[Add](add)** | アイテムを追加します。 |
-| **[Remove](remove)** | アイテムを削除します。 |
+|[Add](add) | アイテムを追加します。 |
+|[Remove](remove) | アイテムを削除します。 |
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 list = new Enumerator( document.Config.Keyboard.List );
-
 for( ; !list.atEnd(); list.moveNext() ){
-
 item = list.item();
-
 alert( item.Key );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 For Each item In document.Config.Keyboard.List
-
 alert item.Key
-
 Next
+```
 
 ## バージョン
 

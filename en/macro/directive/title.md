@@ -8,7 +8,7 @@ Specifies the title string displayed on the toolbar button. This directive must 
 
 _title_
 
-> Specifies the title string displayed on the toolbar button. Only icon would be displayed on the button if an empty string was specified.
+Specifies the title string displayed on the toolbar button. Only icon would be displayed on the button if an empty string was specified.
 
 ## Examples
 

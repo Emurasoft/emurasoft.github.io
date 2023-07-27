@@ -12,13 +12,13 @@ wParam = 0;
 
 _pRegSetValueInfo_
 
-> 指針指向 [REG\_QUERY\_VALUE\_INFO 結構](../structure/reg_query_value_info)。
+指針指向 [REG\_QUERY\_VALUE\_INFO 結構](../structure/reg_query_value_info)。
 
 ## 返回值
 
-> 如果消息成功，返回值是 ERROR\_SUCCESS。
->
-> 如果消息不成功，返回值是一個在 Winerror.h 中被定義的非零的錯誤代碼。
+如果消息成功，返回值是 ERROR\_SUCCESS。
+
+如果消息不成功，返回值是一個在 Winerror.h 中被定義的非零的錯誤代碼。
 
 ## 支持版本
 

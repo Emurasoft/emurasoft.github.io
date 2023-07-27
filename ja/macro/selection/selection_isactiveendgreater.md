@@ -2,13 +2,19 @@
 
 アクティブ ポイントが選択範囲の下部と一致しているかどうかを示します。
 
-#### \[JavaScript\]
+## 
 
-_bGreater_ = document.selection. **IsActiveEndGreater**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+bGreater = document.selection.IsActiveEndGreater;
+```
 
-_bGreater_ = document.selection. **IsActiveEndGreater**
+### \[VBScript\]
+
+```
+bGreater = document.selection.IsActiveEndGreater
+```
 
 ## バージョン
 

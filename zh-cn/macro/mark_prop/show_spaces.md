@@ -1,20 +1,22 @@
 # ShowSpaces 属性 (MarkProp ����)
 
-与配置属性中 [**标记** 页面](../../dlg/properties/marks/index) 上的 **显示空格** 复选框相对应。
+与配置属性中 [标记 页面](../../dlg/properties/marks/index) 上的显示空格 复选框相对应。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowSpaces**;
+### \[JavaScript\]
 
-object. **ShowSpaces** = _b_;
+```
+b = object.ShowSpaces;
+object.ShowSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowSpaces**
-
-object. **ShowSpaces** = _b_
+```
+b = object.ShowSpaces
+object.ShowSpaces = b
+```
 
 ## 版本
 

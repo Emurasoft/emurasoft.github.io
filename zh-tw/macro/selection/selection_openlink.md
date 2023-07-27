@@ -2,13 +2,19 @@
 
 打開游標處的超連結。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **OpenLink**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.OpenLink();
+```
 
-document.selection. **OpenLink**
+### \[VBScript\]
+
+```
+document.selection.OpenLink
+```
 
 ## 版本
 

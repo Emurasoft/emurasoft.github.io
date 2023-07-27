@@ -1,33 +1,38 @@
 # 自訂大綱命令
 
-### 摘要
+## 摘要
 
-> 打開自訂對話方塊中的大綱頁面。
+打開自訂對話方塊中的大綱頁面。
 
-### 說明
+## 說明
 
-> 顯示讓您能定義一般應用程式設定的 [**自訂** 對話方塊](../../dlg/customize/index) 中的大綱頁面。
+顯示讓您能定義一般應用程式設定的 [自訂 對話方塊](../../dlg/customize/index) 中的大綱頁面。
 
-### 運行方法
+## 運行方法
 
 - 預設功能表: 無
-- [所有命令](all_commands): **工具** >
-**自訂** >
-**大綱**
+- [所有命令](all_commands):工具 >
+自訂 >
+大綱
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
-### 外掛程式命令ID
+## 外掛程式命令ID
 
-- EEID\_CUSTOMIZE\_OUTLINE (9054)
+```
+EEID_CUSTOMIZE_OUTLINE (9054)```
 
-### 巨集
+## 巨集
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9054);
+```
+editor.ExecuteCommandByID(9054);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9054
+```
+editor.ExecuteCommandByID 9054
+```

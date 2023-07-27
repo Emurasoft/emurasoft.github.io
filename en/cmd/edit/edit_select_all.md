@@ -1,32 +1,37 @@
 # Select All command
 
-### Summary
+## Summary
 
-> Selects all.
+Selects all.
 
-### Description
+## Description
 
-> Selects all characters in the current document.
+Selects all characters in the current document.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Edit** \> **Select All**
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Select All**
+- Default Menu:Edit \>Select All
+- [All Commands](../tools/all_commands):Edit \>Extend Selection
+\>Select All
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+A
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_EDIT\_SELECT\_ALL (4136)
+```
+EEID_EDIT_SELECT_ALL (4136)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.SelectAll();
+```
+document.selection.SelectAll();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.SelectAll
+```
+document.selection.SelectAll
+```

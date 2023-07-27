@@ -1,14 +1,14 @@
 # \[左揃え\] コマンド
 
-### 概要
+## 概要
 
-> 選択列または現在列を左に揃えます。
+選択列または現在列を左に揃えます。
 
-### 説明
+## 説明
 
-> 選択列または現在列を左に揃えます。
+選択列または現在列を左に揃えます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[CSV\] - \[列\] - \[左揃え\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[列\] - \[左揃え\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_ALIGN\_LEFT (23232)
+```
+EEID_ALIGN_LEFT (23232)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(23232);
+```
+editor.ExecuteCommandByID(23232);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 23232
+```
+editor.ExecuteCommandByID 23232
+```

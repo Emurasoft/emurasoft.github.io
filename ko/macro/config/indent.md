@@ -2,13 +2,19 @@
 
 [IndentProp 개체](../indent_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Indent**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Indent;
+```
 
-_obj_ = object. **Indent**
+### \[VBScript\]
+
+```
+obj = object.Indent
+```
 
 ## 버전
 

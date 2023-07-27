@@ -1,35 +1,40 @@
 # Keyboard Properties command
 
-### Summary
+## Summary
 
-> Displays Keyboard properties.
+Displays Keyboard properties.
 
-### Description
+## Description
 
-> Displays the [**Keyboard** \
-> page](../../dlg/properties/keyboard/index)
-> of the **[Configuration Properties](../../dlg/properties/index)**
-> dialog box.
+Displays the [Keyboard \
+page](../../dlg/properties/keyboard/index)
+of the[Configuration Properties](../../dlg/properties/index)
+dialog box.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Properties for Current Configuration** \> **Keyboard**
+- [All Commands](all_commands):Tools >
+Properties for Current Configuration \>Keyboard
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_PROPERTY\_KEYBOARD (8974)
+```
+EEID_PROPERTY_KEYBOARD (8974)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(8974);
+```
+editor.ExecuteCommandByID(8974);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 8974
+```
+editor.ExecuteCommandByID 8974
+```

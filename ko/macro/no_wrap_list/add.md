@@ -2,13 +2,19 @@
 
 항목을 추가합니다.
 
-#### \[JavaScript\]
+## 
 
-list. **Add**( _sName_, _bEnabled_);
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+list.Add( sName, bEnabled);
+```
 
-list. **Add** _sName_, _bEnabled_
+### \[VBScript\]
+
+```
+list.Add sName, bEnabled
+```
 
 ## 매개 변수
 

@@ -2,13 +2,19 @@
 
 Sets the text on the specified cell in a CSV mode.
 
-#### \[JavaScript\]
+## 
 
-document. **SetCell**( _yLine_, _iColumn_, _str_, _flags_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.SetCell( yLine, iColumn, str, flags );
+```
 
-document. **SetCell**( _yLine_, _iColumn_, _str_, _flags_ )
+### \[VBScript\]
+
+```
+document.SetCell( yLine, iColumn, str, flags )
+```
 
 ## Parameters
 
@@ -26,53 +32,43 @@ Specifies the string to set.
 
 _flags_
 
-> Specifies one of the following values.
->
-> |     |     |
-> | --- | --- |
-> | eeAutoQuote | Checks whether the string contains delimiters, newlines, or quotes, and escape those characters and add quotes if necessary. |
-> | eeDontQuote | Don't do the above process. |
-> | eeAlwaysQuote | Always add quotes. |
+Specifies one of the following values.
+
+|     |     |
+| --- | --- |
+| eeAutoQuote | Checks whether the string contains delimiters, newlines, or quotes, and escape those characters and add quotes if necessary. |
+| eeDontQuote | Don't do the above process. |
+| eeAlwaysQuote | Always add quotes. |
 
 ## Examples
 
 The following example inserts an empty column on the left side of the third column, and combines the first and second columns and set as third column. A CSV document must be active before this macro is run.
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 document.InsertColumn( 3 );
-
 nLines = document.GetLines() - 1;
-
 for( y = 1; y <= nLines; y++ ) {
-
 s1 = document.GetCell( y, 1, eeCellIncludeNone );
-
 s2 = document.GetCell( y, 2, eeCellIncludeNone );
-
 s3 = s1 + " " + s2;
-
 document.SetCell( y, 3, s3, eeAutoQuote );
-
 }
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 document.InsertColumn 3
-
 nLines = document.GetLines() - 1
-
 For y = 1 To nLines
-
 s1 = document.GetCell( y, 1, eeCellIncludeNone )
-
 s2 = document.GetCell( y, 2, eeCellIncludeNone )
-
 s3 = s1 + " " + s2
-
 document.SetCell y, 3, s3, eeAutoQuote
-
 Next
+```
 
 ## Version
 

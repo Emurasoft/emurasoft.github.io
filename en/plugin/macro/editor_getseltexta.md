@@ -8,19 +8,19 @@ Editor\_GetSelTextA( HWND hwnd, UINT nBufferSize, LPSTR szBuffer );
 
 _hwnd_
 
-> Specifies the window handle of the view or frame of EmEditor.
+Specifies the window handle of the view or frame of EmEditor.
 
 _nBufferSize_
 
-> Specifies the maximum number of characters in bytes to copy to the buffer,
-> including the NULL character.
+Specifies the maximum number of characters in bytes to copy to the buffer,
+including the NULL character.
 
 _szBuffer_
 
-> Pointer to the buffer that will receive the text.
+Pointer to the buffer that will receive the text.
 
 ## Return Values
 
-> If _nBufferSize_. is zero, the return value is the required size, in
-> bytes, for a buffer that can receive the text. If _nBufferSize_ is not
-> zero, the return value is not used.
+If _nBufferSize_. is zero, the return value is the required size, in
+bytes, for a buffer that can receive the text. If _nBufferSize_ is not
+zero, the return value is not used.

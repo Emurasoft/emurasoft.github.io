@@ -1,22 +1,24 @@
 # TabsAsSpaces Property (FileSaveProp Object)
 
-Corresponds to the **Save**
-**Tabs as Spaces** check box in the
-[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to theSave
+Tabs as Spaces check box in the
+[Save Details dialog box](../../dlg/properties/file/save_details/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **TabsAsSpaces**;
+### \[JavaScript\]
 
-object. **TabsAsSpaces** = _b_;
+```
+b = object.TabsAsSpaces;
+object.TabsAsSpaces = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **TabsAsSpaces**
-
-object. **TabsAsSpaces** = _b_
+```
+b = object.TabsAsSpaces
+object.TabsAsSpaces = b
+```
 
 ## Version
 

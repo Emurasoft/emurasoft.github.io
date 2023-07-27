@@ -1,18 +1,22 @@
 # CsvList 属性 (Editor ����)
 
-检索或设置 [**CsvList** 集合](../csv_list/index)。
+检索或设置 [CsvList 集合](../csv_list/index)。
 
-#### \[JavaScript\]
+## 
 
-_csvs_ = editor. **CsvList**;
+### \[JavaScript\]
 
-editor. **CsvList** = _csvs_;
+```
+csvs = editor.CsvList;
+editor.CsvList = csvs;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-Set _csvs_ = editor. **CsvList**
-
-editor. **CsvList** = _csvs_
+```
+Set csvs = editor.CsvList
+editor.CsvList = csvs
+```
 
 ## 版本
 

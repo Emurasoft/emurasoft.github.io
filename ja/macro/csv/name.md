@@ -2,17 +2,21 @@
 
 現在の Csv オブジェクトの名前を取得、または設定します。
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **Name**;
+### \[JavaScript\]
 
-object. **Name** = _s_;
+```
+s = object.Name;
+object.Name = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **Name**
-
-object. **Name** = _s_
+```
+s = object.Name
+object.Name = s
+```
 
 ## バージョン
 

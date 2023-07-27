@@ -2,17 +2,21 @@
 
 Returns or sets the height of the window.
 
-#### \[JavaScript\]
+## 
 
-_height_ = wnd. **Height**;
+### \[JavaScript\]
 
-wnd. **Height** = _height_;
+```
+height = wnd.Height;
+wnd.Height = height;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_height_ = wnd. **Height**
-
-wnd. **Height** = _height_
+```
+height = wnd.Height
+wnd.Height = height
+```
 
 ## Version
 

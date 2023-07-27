@@ -2,13 +2,19 @@
 
 [Configs コレクション](configs) を返します。
 
-#### \[JavaScript\]
+## 
 
-_cfgs_ = editor. **Configs**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+cfgs = editor.Configs;
+```
 
-Set _cfgs_ = editor. **Configs**
+### \[VBScript\]
+
+```
+Set cfgs = editor.Configs
+```
 
 ## バージョン
 

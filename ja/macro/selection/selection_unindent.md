@@ -2,13 +2,19 @@
 
 選択範囲の逆インデントを行います。
 
-#### \[JavaScript\]
+## 
 
-document.selection. **UnIndent**( \[ _nCount_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.UnIndent( [ nCount ] );
+```
 
-document.selection. **UnIndent** \[ _nCount_ \]
+### \[VBScript\]
+
+```
+document.selection.UnIndent [ nCount ]
+```
 
 ## 引数
 

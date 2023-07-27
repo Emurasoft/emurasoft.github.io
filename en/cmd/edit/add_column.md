@@ -1,31 +1,36 @@
 # Add Column command
 
-### Summary
+## Summary
 
-> Adds a new column at the right side of the last column in the separated value document.
+Adds a new column at the right side of the last column in the separated value document.
 
-### Description
+## Description
 
-> Adds a new column at the right side of the last column in the separated value document.
+Adds a new column at the right side of the last column in the separated value document.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Add Column**
-- Toolbar: ![](../../images/columns_separators.gif) \+ **Add Column**
+- [All Commands](../tools/all_commands):CSV \>Columns \>Add Column
+- Toolbar: ![](../../images/columns_separators.gif) \+Add Column
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ADD\_COLUMN (3888)
+```
+EEID_ADD_COLUMN (3888)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3888);
+```
+editor.ExecuteCommandByID(3888);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3888
+```
+editor.ExecuteCommandByID 3888
+```

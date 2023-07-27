@@ -1,36 +1,41 @@
 # Toggle Vertical Split command
 
-### Summary
+## Summary
 
-> Toggles the vertical window split.
+Toggles the vertical window split.
 
-### Description
+## Description
 
-> If the current window is split horizontally or not split at all, this command
-> will split the current window into vertical panes, and will fix the split position
-> at the center of the window immediately. If the current window is already
-> split vertically, this command will remove the vertical split from the
-> current window.
+If the current window is split horizontally or not split at all, this command
+will split the current window into vertical panes, and will fix the split position
+at the center of the window immediately. If the current window is already
+split vertically, this command will remove the vertical split from the
+current window.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Split** \> **Toggle Vertical Split**
+- [All Commands](../tools/all_commands):Window
+\>Split \>Toggle Vertical Split
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_WINDOW\_SPLIT\_VERT\_TOGGLE (4386)
+```
+EEID_WINDOW_SPLIT_VERT_TOGGLE (4386)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4386);
+```
+editor.ExecuteCommandByID(4386);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4386
+```
+editor.ExecuteCommandByID 4386
+```

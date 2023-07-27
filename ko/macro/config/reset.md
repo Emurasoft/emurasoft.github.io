@@ -2,13 +2,19 @@
 
 현재 구성을 초기화합니다.
 
-#### \[JavaScript\]
+## 
 
-object. **Reset**( \[ _strName_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+object.Reset( [ strName ] );
+```
 
-object. **Reset** \[ _strName_ \]
+### \[VBScript\]
+
+```
+object.Reset [ strName ]
+```
 
 ## 매개 변수
 

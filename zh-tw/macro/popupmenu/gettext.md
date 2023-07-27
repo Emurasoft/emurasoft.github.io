@@ -2,13 +2,19 @@
 
 檢索被識別項指定的功能表項目的文字字串。
 
-#### \[JavaScript\]
+## 
 
-_strText_ = popupmenu. **GetText**( _id_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strText = popupmenu.GetText( id );
+```
 
-_strText_ = popupmenu. **GetText**( _id_ )
+### \[VBScript\]
+
+```
+strText = popupmenu.GetText( id )
+```
 
 ## 參數
 

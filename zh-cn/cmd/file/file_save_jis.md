@@ -1,34 +1,39 @@
 # 保存为日文 JIS 命令
 
-### 摘要
+## 摘要
 
-> 用日文 JIS 编码保存当前文件。
+用日文 JIS 编码保存当前文件。
 
-### 说明
+## 说明
 
-> 这个命令会用日文 JIS 编码保存当前文件，除非文档未被命名。如果文档没有标题，会出现一个 **另存为** 对话框，让你能输入一个文件名来保存文件。
->
-> 这个命令与旧版本的 EmEditor 兼容。你还可以使用 [**以指定编码保存（多个项目）** 命令](file_save_defined) 来指定日文 JIS。
+这个命令会用日文 JIS 编码保存当前文件，除非文档未被命名。如果文档没有标题，会出现一个另存为 对话框，让你能输入一个文件名来保存文件。
 
-### 运行方法
+这个命令与旧版本的 EmEditor 兼容。你还可以使用 [以指定编码保存（多个项目） 命令](file_save_defined) 来指定日文 JIS。
+
+## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands): **文件** \> **保存**
-\> **以指定编码保存** \> **保存为日文 JIS**
+- [所有命令](../tools/all_commands):文件 \>保存
+\>以指定编码保存 \>保存为日文 JIS
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_FILE\_SAVE\_JIS (4103)
+```
+EEID_FILE_SAVE_JIS (4103)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4103);
+```
+editor.ExecuteCommandByID(4103);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4103
+```
+editor.ExecuteCommandByID 4103
+```

@@ -2,23 +2,33 @@
 
 문서의 전체 경로와 파일 이름을 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_strName_ = document. **FullName;**
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = document.FullName;
+```
 
-_strName_ = document. **FullName**
+### \[VBScript\]
+
+```
+strName = document.FullName
+```
 
 ## 예시
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( document.FullName );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert document.FullName
+```
 
 ## 버전
 

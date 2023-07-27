@@ -2,13 +2,19 @@
 
 無題かどうかを示すフラグを取得します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = document. **Untitled**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = document.Untitled;
+```
 
-_b_ = document. **Untitled**
+### \[VBScript\]
+
+```
+b = document.Untitled
+```
 
 ## バージョン
 

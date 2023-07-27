@@ -1,34 +1,39 @@
 # Customize Text Rendering command
 
-### Summary
+## Summary
 
-> Opens the Text Rendering page of the Customize dialog box.
+Opens the Text Rendering page of the Customize dialog box.
 
-### Description
+## Description
 
-> Displays the Text Rendering page of the [**Customize** dialog box](../../dlg/customize/index),
-> where you can define common application settings.
+Displays the Text Rendering page of the [Customize dialog box](../../dlg/customize/index),
+where you can define common application settings.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Customize** >
-**Text Rendering**
+- [All Commands](all_commands):Tools >
+Customize >
+Text Rendering
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_CUSTOMIZE\_RENDERING (9058)
+```
+EEID_CUSTOMIZE_RENDERING (9058)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(9058);
+```
+editor.ExecuteCommandByID(9058);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 9058
+```
+editor.ExecuteCommandByID 9058
+```

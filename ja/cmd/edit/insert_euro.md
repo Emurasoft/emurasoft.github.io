@@ -1,14 +1,14 @@
 # \[ユーロを挿入\] コマンド
 
-### 概要
+## 概要
 
-> ユーロを挿入します。
+ユーロを挿入します。
 
-### 説明
+## 説明
 
-> カーソル位置にユーロ文字 € を挿入します。
+カーソル位置にユーロ文字 € を挿入します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[挿入\] \- \[記号\] \- \[ユーロ\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[記号\] \- \[ユーロ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Alt+Ctrl+E
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_INSERT\_EURO (4317)
+```
+EEID_INSERT_EURO (4317)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.Text="€";
+```
+document.selection.Text="€";
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.Text="€"
+```
+document.selection.Text="€"
+```

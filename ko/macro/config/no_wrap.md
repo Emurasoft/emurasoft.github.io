@@ -2,13 +2,19 @@
 
 [NoWrapProp 개체](../no_wrap_prop/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **NoWrap**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.NoWrap;
+```
 
-_obj_ = object. **NoWrap**
+### \[VBScript\]
+
+```
+obj = object.NoWrap
+```
 
 ## 버전
 

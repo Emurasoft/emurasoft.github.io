@@ -2,13 +2,19 @@
 
 在匯出欄中檢索整個文字。
 
-#### \[JavaScript\]
+## 
 
-_str_ = OutputBar. **Text**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+str = OutputBar.Text;
+```
 
-_str_ = OutputBar. **Text**
+### \[VBScript\]
+
+```
+str = OutputBar.Text
+```
 
 ## 版本
 

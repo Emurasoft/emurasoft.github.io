@@ -1,31 +1,36 @@
 # Redo All command
 
-### Summary
+## Summary
 
-> Redo all the previous actions.
+Redo all the previous actions.
 
-### Description
+## Description
 
-> Redo all the previous actions.
+Redo all the previous actions.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Redo** \> **Redo All**
+- [All Commands](../tools/all_commands):Edit \>Redo \>Redo All
 - Toolbar: ![](../../images/editredo.gif) (on the arrow)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_REDO\_ALL (3981)
+```
+EEID_REDO_ALL (3981)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(3981);
+```
+editor.ExecuteCommandByID(3981);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 3981
+```
+editor.ExecuteCommandByID 3981
+```

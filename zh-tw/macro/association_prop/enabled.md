@@ -1,18 +1,22 @@
 # Enabled 屬性 (AssociationProp ��H)
 
-與組態屬性中的 [**關聯** 頁面](../../dlg/properties/associate/index) 上的 **啟用關聯** 核取方塊相對應。
+與組態屬性中的 [關聯 頁面](../../dlg/properties/associate/index) 上的啟用關聯 核取方塊相對應。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Enabled**;
+### \[JavaScript\]
 
-object. **Enabled** = _b_;
+```
+b = object.Enabled;
+object.Enabled = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Enabled**
-
-object. **Enabled** = _b_
+```
+b = object.Enabled
+object.Enabled = b
+```
 
 ## 版本
 

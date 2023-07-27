@@ -2,13 +2,19 @@
 
 Inserts the specified number of newline characters at the cursor.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **NewLine**( \[ _nCount_ \] );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.NewLine( [ nCount ] );
+```
 
-document.selection. **NewLine** \[ _nCount_ \]
+### \[VBScript\]
+
+```
+document.selection.NewLine [ nCount ]
+```
 
 ## Parameters
 

@@ -1,31 +1,36 @@
 # 重复行命令
 
-### 摘要
+## 摘要
 
-> 重复当前逻辑行。
+重复当前逻辑行。
 
-### 说明
+## 说明
 
-> 在当前光标位置下方插入当前逻辑行的副本。
+在当前光标位置下方插入当前逻辑行的副本。
 
-### 运行方法
+## 运行方法
 
-- 默认菜单: **插入** \> **重复行**
-- [所有命令](../tools/all_commands): **插入** \> **重复行**
+- 默认菜单:插入 \>重复行
+- [所有命令](../tools/all_commands):插入 \>重复行
 - 工具栏: ![](../../images/duplicateline.gif)
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+Y
 
-### 插件命令ID
+## 插件命令ID
 
-- EEID\_DUPLICATE\_LINE (4328)
+```
+EEID_DUPLICATE_LINE (4328)```
 
-### 宏
+## 宏
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.DuplicateLine();
+```
+document.selection.DuplicateLine();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.DuplicateLine
+```
+document.selection.DuplicateLine
+```

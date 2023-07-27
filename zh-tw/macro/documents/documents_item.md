@@ -2,13 +2,19 @@
 
 為指定索引的文檔檢索文檔對象。
 
-#### \[JavaScript\]
+## 
 
-_doc_ = editor.Documents. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+doc = editor.Documents.Item( Index );
+```
 
-_doc_ = editor.Documents. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+doc = editor.Documents.Item( Index )
+```
 
 ## 參數
 
@@ -18,13 +24,17 @@ _Index_
 
 ## 示例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "Full Name for the first document: " + editor.Documents.Item(1).FullName );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "Full Name for the first document: " & editor.Documents.Item(1).FullName
+```
 
 ## 版本
 

@@ -1,18 +1,22 @@
 # SpecialSyntax プロパティ (HighlightProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の **\[特別な構文\]** ドロップダウン リスト ボックスに相当します。
+設定のプロパティの [\[強調(2)\] タブ](../../dlg/properties/highlight2/index) の\[特別な構文\] ドロップダウン リスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **SpecialSyntax**;
+### \[JavaScript\]
 
-object. **SpecialSyntax** = _n_;
+```
+n = object.SpecialSyntax;
+object.SpecialSyntax = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **SpecialSyntax**
-
-object. **SpecialSyntax** = _n_
+```
+n = object.SpecialSyntax
+object.SpecialSyntax = n
+```
 
 ## バージョン
 

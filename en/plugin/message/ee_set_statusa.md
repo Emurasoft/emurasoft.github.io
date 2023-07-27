@@ -13,8 +13,8 @@ lParam = (LPARAM) (LPCSTR) szStatus;
 
 _szStatus_
 
-> Specifies a message text to be displayed on the status bar.
+Specifies a message text to be displayed on the status bar.
 
 ## Return Values
 
-> The return value is not used.
+The return value is not used.

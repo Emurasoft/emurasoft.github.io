@@ -2,13 +2,19 @@
 
 指定するインデックスのウィンドウの Window オブジェクトを取得します。
 
-#### \[JavaScript\]
+## 
 
-_wnd_ = shell.windows. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+wnd = shell.windows.Item( Index );
+```
 
-_wnd_ = shell.windows. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+wnd = shell.windows.Item( Index )
+```
 
 ## パラメータ
 
@@ -18,13 +24,17 @@ _Index_
 
 ## 例
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
+```
 alert( "最初のウィンドウの名前: " + shell.windows.Item(1).Caption );
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 alert "最初のウィンドウの名前: " & shell.windows.Item(1).Caption
+```
 
 ## バージョン
 

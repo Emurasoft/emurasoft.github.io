@@ -9,12 +9,12 @@ Editor\_SetModified( HWND hwnd, BOOL bModified );
 
 _hwnd_
 
-> EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
+EmEditor ビューまたはフレームのウィンドウ ハンドルを指定します。
 
 _bModified_
 
-> 更新されている状態にするには TRUE を、更新されていない状態にするには FALSE を指定します。
+更新されている状態にするには TRUE を、更新されていない状態にするには FALSE を指定します。
 
 ## 戻り値
 
-> 戻り値は利用されません。
+戻り値は利用されません。

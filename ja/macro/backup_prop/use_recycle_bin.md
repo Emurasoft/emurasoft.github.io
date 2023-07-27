@@ -1,18 +1,22 @@
 # UseRecycleBin プロパティ (BackupProp �I�u�W�F�N�g)
 
-設定プロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の **\[バックアップをごみ箱に保存\]** チェック ボックスに相当します。
+設定プロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の\[バックアップをごみ箱に保存\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **UseRecycleBin**;
+### \[JavaScript\]
 
-object. **UseRecycleBin** = _b_;
+```
+b = object.UseRecycleBin;
+object.UseRecycleBin = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **UseRecycleBin**
-
-object. **UseRecycleBin** = _b_
+```
+b = object.UseRecycleBin
+object.UseRecycleBin = b
+```
 
 ## バージョン
 

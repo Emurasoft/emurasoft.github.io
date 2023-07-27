@@ -2,13 +2,19 @@
 
 サブ メニューを追加します。
 
-#### \[JavaScript\]
+## 
 
-popupmenu. **AddPopup**( _strText_, _submenu_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+popupmenu.AddPopup( strText, submenu );
+```
 
-popupmenu. **AddPopup** _strText_, _submenu_
+### \[VBScript\]
+
+```
+popupmenu.AddPopup strText, submenu
+```
 
 ## パラメータ
 

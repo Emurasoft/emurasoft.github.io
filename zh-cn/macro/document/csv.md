@@ -1,14 +1,20 @@
 # Csv 属性 (Document ����)
 
-检索 [**Csv** 对象](../csv/index)。
+检索 [Csv 对象](../csv/index)。
 
-#### \[JavaScript\]
+## 
 
-_mycsv_ = document. **Csv;**
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+mycsv = document.Csv;
+```
 
-Set _mycsv_ = document. **Csv**
+### \[VBScript\]
+
+```
+Set mycsv = document.Csv
+```
 
 ## 版本
 

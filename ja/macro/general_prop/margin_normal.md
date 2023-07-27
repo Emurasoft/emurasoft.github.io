@@ -1,21 +1,23 @@
 # MarginNormal プロパティ (GeneralProp �I�u�W�F�N�g)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の
-**\[普通行の文字数\]** テキスト ボックスに相当します。
+設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の
+\[普通行の文字数\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **MarginNormal**;
+### \[JavaScript\]
 
-object. **MarginNormal** = _b_;
+```
+b = object.MarginNormal;
+object.MarginNormal = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **MarginNormal**
-
-object. **MarginNormal** = _b_
+```
+b = object.MarginNormal
+object.MarginNormal = b
+```
 
 ## バージョン
 

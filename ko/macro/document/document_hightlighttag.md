@@ -2,17 +2,21 @@
 
 태그를 강조 표시 할자의 여부를 결정합니다.
 
-#### \[JavaScript\]
+## 
 
-_bHighlightTag_ = document. **HighlightTag**;
+### \[JavaScript\]
 
-document. **HighlightTag** = _bHighlightTag_;
+```
+bHighlightTag = document.HighlightTag;
+document.HighlightTag = bHighlightTag;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_bHighlightTag_ = document. **HighlightTag**
-
-document. **HighlightTag** = _bHighlightTag_
+```
+bHighlightTag = document.HighlightTag
+document.HighlightTag = bHighlightTag
+```
 
 ## 버전
 

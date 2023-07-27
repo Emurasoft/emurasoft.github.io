@@ -2,13 +2,19 @@
 
 Returns the process identifier.
 
-#### \[JavaScript\]
+## 
 
-_id_ = wnd. **ProcessID**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+id = wnd.ProcessID;
+```
 
-_id_ = wnd. **ProcessID**
+### \[VBScript\]
+
+```
+id = wnd.ProcessID
+```
 
 ## Version
 

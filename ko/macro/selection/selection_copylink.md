@@ -2,13 +2,19 @@
 
 클립보드에 커서 위치의 하이퍼링크를 복사합니다.
 
-#### \[JavaScript\]
+## 
 
-document.selection. **CopyLink**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+document.selection.CopyLink();
+```
 
-document.selection. **CopyLink**
+### \[VBScript\]
+
+```
+document.selection.CopyLink
+```
 
 ## 버전
 

@@ -2,13 +2,19 @@
 
 Retrieves the Unicode name of the specified character or string.
 
-#### \[JavaScript\]
+## 
 
-_strName_ = editor. **GetUnicodeName**( _strChar_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+strName = editor.GetUnicodeName( strChar );
+```
 
-_strName_ = editor. **GetUnicodeName**( _strChar_ )
+### \[VBScript\]
+
+```
+strName = editor.GetUnicodeName( strChar )
+```
 
 ## Parameters
 

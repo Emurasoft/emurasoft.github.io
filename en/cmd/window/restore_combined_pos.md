@@ -1,32 +1,37 @@
 # Restore Tabbed Window Position command
 
-### Summary
+## Summary
 
-> Restores the tabbed window to the previously saved position.
+Restores the tabbed window to the previously saved position.
 
-### Description
+## Description
 
-> This command restores the tabbed window to the previously saved position.
+This command restores the tabbed window to the previously saved position.
 
-### How to Run
+## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Window**
-\> **Restore** \> **Restore Tabbed Window Position**
+- [All Commands](../tools/all_commands):Window
+\>Restore \>Restore Tabbed Window Position
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_RESTORE\_COMBINED\_POS (4543)
+```
+EEID_RESTORE_COMBINED_POS (4543)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4543);
+```
+editor.ExecuteCommandByID(4543);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4543
+```
+editor.ExecuteCommandByID 4543
+```

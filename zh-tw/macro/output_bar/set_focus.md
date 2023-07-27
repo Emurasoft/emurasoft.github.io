@@ -2,13 +2,19 @@
 
 把鍵盤焦點設置到輸出列上。
 
-#### \[JavaScript\]
+## 
 
-OutputBar. **SetFocus**();
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+OutputBar.SetFocus();
+```
 
-OutputBar. **SetFocus**
+### \[VBScript\]
+
+```
+OutputBar.SetFocus
+```
 
 ## 版本
 

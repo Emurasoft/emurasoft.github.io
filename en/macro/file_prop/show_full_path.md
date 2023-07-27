@@ -1,21 +1,23 @@
 # ShowFullPath Property (FileProp Object)
 
-Corresponds to the **Show**
-**File Name with Full Path** check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to theShow
+File Name with Full Path check box in the [File page](../../dlg/properties/file/index) of Configuration Properties.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **ShowFullPath**;
+### \[JavaScript\]
 
-object. **ShowFullPath** = _b_;
+```
+b = object.ShowFullPath;
+object.ShowFullPath = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **ShowFullPath**
-
-object. **ShowFullPath** = _b_
+```
+b = object.ShowFullPath
+object.ShowFullPath = b
+```
 
 ## Version
 

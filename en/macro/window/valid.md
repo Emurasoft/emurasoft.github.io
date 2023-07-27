@@ -2,13 +2,19 @@
 
 Returns whether the window handle is valid.
 
-#### \[JavaScript\]
+## 
 
-_b_ = wnd. **Valid**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+b = wnd.Valid;
+```
 
-_b_ = wnd. **Valid**
+### \[VBScript\]
+
+```
+b = wnd.Valid
+```
 
 ## Version
 

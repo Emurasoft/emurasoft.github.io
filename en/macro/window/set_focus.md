@@ -2,13 +2,19 @@
 
 Sets the keyboard focus to the window.
 
-#### \[JavaScript\]
+## 
 
+### \[JavaScript\]
+
+```
 wnd.SetFocus();
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
+```
 wnd.SetFocus
+```
 
 ## Version
 

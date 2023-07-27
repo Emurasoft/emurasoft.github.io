@@ -2,15 +2,19 @@
 
 指定したインデックスの [FontItem オブジェクト](../font_item/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_item_ =
-List. **Item**( _Index_ );
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+item = List.Item( Index );
+```
 
-_item_ =
-List. **Item**( _Index_ )
+### \[VBScript\]
+
+```
+item = List.Item( Index )
+```
 
 ## パラメータ
 

@@ -1,20 +1,22 @@
 # HighlightMatchingTag プロパティ (HighlightProp �I�u�W�F�N�g)
 
-設定のプロパティの **[\[強調(2)\]](../../dlg/properties/highlight2/index)** [タブ](../../dlg/properties/highlight2/index) の **\[対応するタグを強調する\]** チェック ボックスに相当します。
+設定のプロパティの[\[強調(2)\]](../../dlg/properties/highlight2/index) [タブ](../../dlg/properties/highlight2/index) の\[対応するタグを強調する\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **HighlightMatchingTag**;
+### \[JavaScript\]
 
-object. **HighlightMatchingTag** = _b_;
+```
+b = object.HighlightMatchingTag;
+object.HighlightMatchingTag = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **HighlightMatchingTag**
-
-object. **HighlightMatchingTag** = _b_
+```
+b = object.HighlightMatchingTag
+object.HighlightMatchingTag = b
+```
 
 ## バージョン
 

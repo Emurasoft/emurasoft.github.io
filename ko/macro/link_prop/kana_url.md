@@ -1,20 +1,22 @@
 # KanaURL 속성 (LinkProp ��ü)
 
-구성 속성 [**링크** 탭](../../dlg/properties/link/index) 의 **싱글 바이트 가나 및 가나 표시를 URL로 인식** 체크 박스에 해당합니다.
+구성 속성 [링크 탭](../../dlg/properties/link/index) 의싱글 바이트 가나 및 가나 표시를 URL로 인식 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **KanaURL**;
+### \[JavaScript\]
 
-object. **KanaURL** = _b_;
+```
+b = object.KanaURL;
+object.KanaURL = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **KanaURL**
-
-object. **KanaURL** = _b_
+```
+b = object.KanaURL
+object.KanaURL = b
+```
 
 ## 버전
 

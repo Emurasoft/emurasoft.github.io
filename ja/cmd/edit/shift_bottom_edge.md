@@ -1,14 +1,14 @@
 # \[選択範囲を下端へ (セル選択モードのみ)\] コマンド
 
-### 概要
+## 概要
 
-> 選択範囲を現在のデータ領域の下端へ移動します。
+選択範囲を現在のデータ領域の下端へ移動します。
 
-### 説明
+## 説明
 
-> 選択範囲を現在のデータ領域の下端へ移動します。
+選択範囲を現在のデータ領域の下端へ移動します。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セル選択モードのみ\] - \[選択範囲を下端へ\]
@@ -16,16 +16,21 @@
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+Down (セル選択モードのみ)
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SHIFT\_BOTTOM\_EDGE (4024)
+```
+EEID_SHIFT_BOTTOM_EDGE (4024)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4024);
+```
+editor.ExecuteCommandByID(4024);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4024
+```
+editor.ExecuteCommandByID 4024
+```

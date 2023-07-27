@@ -1,21 +1,23 @@
 # SameFontPrint Property (FontProp Object)
 
-Corresponds to the **Use Display Font as Printer Font** check box in the
-[**Customize Font** dialog box](../../dlg/properties/font/index).
+Corresponds to theUse Display Font as Printer Font check box in the
+[Customize Font dialog box](../../dlg/properties/font/index).
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **SameFontPrint**;
+### \[JavaScript\]
 
-object. **SameFontPrint** = _b_;
+```
+b = object.SameFontPrint;
+object.SameFontPrint = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **SameFontPrint**
-
-object. **SameFontPrint** = _b_
+```
+b = object.SameFontPrint
+object.SameFontPrint = b
+```
 
 ## Version
 

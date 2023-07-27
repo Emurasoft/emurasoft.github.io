@@ -2,19 +2,21 @@
 
 개체의 이름을 지정합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ =
-item. **Name**;
+### \[JavaScript\]
 
-item. **Name** = _s_;
+```
+s = item.Name;
+item.Name = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ =
-item. **Name**
-
-item. **Name** = _s_
+```
+s = item.Name
+item.Name = s
+```
 
 ## 버전
 

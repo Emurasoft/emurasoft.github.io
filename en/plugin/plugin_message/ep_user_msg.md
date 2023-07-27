@@ -14,20 +14,20 @@ lParam = lParam;
 
 _hwndView_
 
-> The window handle to the EmEditor view.
+The window handle to the EmEditor view.
 
 _wParam_
 
-> The first parameter. The meaning of this parameter depends on the plug-in.
+The first parameter. The meaning of this parameter depends on the plug-in.
 
 _lParam_
 
-> The second parameter. The meaning of this parameter depends on the plug-in.
+The second parameter. The meaning of this parameter depends on the plug-in.
 
 ## Return Values
 
-> The meaning of the return values depends on the plug-in.
+The meaning of the return values depends on the plug-in.
 
 ## Version
 
-> Supported on Version 15.5 or later.
+Supported on Version 15.5 or later.

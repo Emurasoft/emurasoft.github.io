@@ -1,33 +1,38 @@
 # Half-Width command
 
-### Summary
+## Summary
 
-> Converts all selected full-width characters to half-width characters.
+Converts all selected full-width characters to half-width characters.
 
-### Description
+## Description
 
-> Converts all selected full-width characters to half-width characters.
-> Full-width characters are typically included in Eastern Asian language
-> fonts.
+Converts all selected full-width characters to half-width characters.
+Full-width characters are typically included in Eastern Asian language
+fonts.
 
-### How to Run
+## How to Run
 
-- Default Menu: **Convert** \> **Half-Width**
-- [All Commands](../tools/all_commands): **Convert** \> **Half-Width**
+- Default Menu:Convert \>Half-Width
+- [All Commands](../tools/all_commands):Convert \>Half-Width
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_ZEN\_TO\_HAN (4151)
+```
+EEID_ZEN_TO_HAN (4151)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> document.selection.ChangeWidth(eeWidthHalfWidth \| eeWidthAllTypes);
+```
+document.selection.ChangeWidth(eeWidthHalfWidth \| eeWidthAllTypes);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> document.selection.ChangeWidth eeWidthHalfWidth Or eeWidthAllTypes
+```
+document.selection.ChangeWidth eeWidthHalfWidth Or eeWidthAllTypes
+```

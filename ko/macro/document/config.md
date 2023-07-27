@@ -1,14 +1,20 @@
 # Config 속성 (Document ��ü)
 
-[**Config** 개체](../config/index) 를 검색합니다.
+[Config 개체](../config/index) 를 검색합니다.
 
-#### \[JavaScript\]
+## 
 
-_cfg_ = document. **Config;**
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+cfg = document.Config;
+```
 
-_cfg_ = document. **Config**
+### \[VBScript\]
+
+```
+cfg = document.Config
+```
 
 ## 버전
 

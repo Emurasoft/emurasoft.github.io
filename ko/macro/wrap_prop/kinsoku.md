@@ -1,18 +1,22 @@
 # Kinsoku 속성 (WrapProp ��ü)
 
-구성 속성의 [**배치** 탭](../../dlg/properties/wrap/index) 의 **이 문자들 배치** 체크 박스에 해당합니다.
+구성 속성의 [배치 탭](../../dlg/properties/wrap/index) 의이 문자들 배치 체크 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_b_ = object. **Kinsoku**;
+### \[JavaScript\]
 
-object. **Kinsoku** = _b_;
+```
+b = object.Kinsoku;
+object.Kinsoku = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ = object. **Kinsoku**
-
-**object.Kinsoku** = _b_
+```
+b = object.Kinsoku
+object.Kinsoku = b
+```
 
 ## 버전
 

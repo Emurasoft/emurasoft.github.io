@@ -1,14 +1,14 @@
 # \[列の並べ替え\] コマンド
 
-### 概要
+## 概要
 
-> CSV文書の列を並べ替えます。
+CSV文書の列を並べ替えます。
 
-### 説明
+## 説明
 
-> CSV文書の列を並べ替えます。このコマンドを選択すると、 [\[列の並べ替え\] ダイアログ ボックス](../../dlg/sort_columns/index) が表示されます。
+CSV文書の列を並べ替えます。このコマンドを選択すると、 [\[列の並べ替え\] ダイアログ ボックス](../../dlg/sort_columns/index) が表示されます。
 
-### 実行方法
+## 実行方法
 
 - 既定のメニュー: \[並べ替え\] \- \[列の並べ替え\]
 - [すべてのコマンド](../../glossary/allcommands): \[並べ替え\] \- \[列の並べ替え\]
@@ -16,18 +16,26 @@
 - ステータス バー: なし
 - 既定のショートカット: なし
 
-### プラグイン コマンド ID
+## プラグイン コマンド ID
 
-- EEID\_SORT\_COLUMNS (23238)
+```
+EEID_SORT_COLUMNS (23238)```
 
-### マクロ
+## マクロ
 
-#### \[JavaScript\]
+## \[JavaScript\]
 
-#### \[JavaScript\]
+```
+```
 
-> editor.ExecuteCommandByID(23238);
+## \[JavaScript\]
 
-#### \[VBScript\]
+```
+editor.ExecuteCommandByID(23238);
+```
 
-> editor.ExecuteCommandByID 23238
+## \[VBScript\]
+
+```
+editor.ExecuteCommandByID 23238
+```

@@ -1,33 +1,38 @@
 # Toggle Large File Controller command
 
-### Summary
+## Summary
 
-> Shows or hides the large file controller.
+Shows or hides the large file controller.
 
-### Description
+## Description
 
-> Shows or hides the large file controller. The large file controller is displayed when a large file is opened while the
-> **Displays Large File Controller when a large file is opened** check box (in the [File page](../../dlg/customize/file/index) of the Customize dialog box) is checked.
+Shows or hides the large file controller. The large file controller is displayed when a large file is opened while the
+Displays Large File Controller when a large file is opened check box (in the [File page](../../dlg/customize/file/index) of the Customize dialog box) is checked.
 
-### How to Run
+## How to Run
 
-- Default Menu: **View** \> **Large File Controller**
-- [All Commands](../tools/all_commands): **View** >
-**Large File Controller**
+- Default Menu:View \>Large File Controller
+- [All Commands](../tools/all_commands):View >
+Large File Controller
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
 
-### Plug-in Command ID
+## Plug-in Command ID
 
-- EEID\_LARGE\_FILE\_BAR (4449)
+```
+EEID_LARGE_FILE_BAR (4449)```
 
-### Macros
+## Macros
 
-#### \[JavaScript\]
+### \[JavaScript\]
 
-> editor.ExecuteCommandByID(4449);
+```
+editor.ExecuteCommandByID(4449);
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-> editor.ExecuteCommandByID 4449
+```
+editor.ExecuteCommandByID 4449
+```

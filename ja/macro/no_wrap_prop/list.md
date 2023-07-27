@@ -2,19 +2,21 @@
 
 [NoWrapList コレクション](../no_wrap_list/index) を取得します。
 
-#### \[JavaScript\]
+## 
 
-_list_ =
-object.List;
+### \[JavaScript\]
 
-object.List = _list_;
+```
+list = object.List;
+object.List = list;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_list_ =
-object.List
-
-object.List = _list_
+```
+list = object.List
+object.List = list
+```
 
 ## バージョン
 

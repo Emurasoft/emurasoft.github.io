@@ -3,13 +3,19 @@
 Retrieves the
 [BackupProp object](../backup_prop/index).
 
-#### \[JavaScript\]
+## 
 
-_obj_ = object. **Backup**;
+### \[JavaScript\]
 
-#### \[VBScript\]
+```
+obj = object.Backup;
+```
 
-Set _obj_ = object. **Backup**
+### \[VBScript\]
+
+```
+Set obj = object.Backup
+```
 
 ## Version
 

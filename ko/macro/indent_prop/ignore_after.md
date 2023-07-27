@@ -1,18 +1,22 @@
 # IgnoreAfter 속성 (IndentProp ��ü)
 
-[**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 의 **(정규식) 다음 무시** 텍스트 박스에 해당합니다.
+[탭/들여쓰기 대화 상자](../../dlg/properties/general/indent/index) 의(정규식) 다음 무시 텍스트 박스에 해당합니다.
 
-#### \[JavaScript\]
+## 
 
-_s_ = object. **IgnoreAfter**;
+### \[JavaScript\]
 
-object. **IgnoreAfter** = _s_;
+```
+s = object.IgnoreAfter;
+object.IgnoreAfter = s;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_s_ = object. **IgnoreAfter**
-
-object. **IgnoreAfter** = _s_
+```
+s = object.IgnoreAfter
+object.IgnoreAfter = s
+```
 
 ## 버전
 

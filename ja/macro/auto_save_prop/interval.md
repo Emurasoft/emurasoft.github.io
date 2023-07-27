@@ -2,17 +2,21 @@
 
 設定のプロパティの \[自動保存\] タブの \[分毎\] テキスト ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_n_ = object. **Interval**;
+### \[JavaScript\]
 
-object. **Interval** = _n_;
+```
+n = object.Interval;
+object.Interval = n;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_n_ = object. **Interval**
-
-object. **Interval** = _n_
+```
+n = object.Interval
+object.Interval = n
+```
 
 ## バージョン
 

@@ -8,49 +8,64 @@
 
 _ScriptName_
 
-> 使用するスクリプト言語を ProgID で指定します。あらかじめ、使用するスクリプト エンジンがシステムにインストールされている必要があります。
+使用するスクリプト言語を ProgID で指定します。あらかじめ、使用するスクリプト エンジンがシステムにインストールされている必要があります。
 
 ## 例
 
 さまざまなスクリプト言語を使用して、現在のカーソル位置に "Hello!" という文字列を挿入します。
 
-#### \[JavaScript (JScript)\]
+### \[JavaScript (JScript)\]
 
 #language = "JScript"
 
 document.write( "Hello!" );
 
-#### \[JavaScript (V8)\]
+## 
+
+### \[JavaScript (V8)\]
 
 #language = "V8"
 
 document.write( "Hello!" );
 
-#### \[PerlScript\]
+## 
+
+### \[PerlScript\]
 
 #language = "PerlScript"
 
 $Window->document->write( 'Hello!' );
 
-#### \[PHPScript\]
+## 
+
+### \[PHPScript\]
 
 #language = "PHPScript"
 
 $Window->document->write( "Hello!" );
 
-#### \[Python\]
+## 
+
+### \[Python\]
 
 #language = "Python"
 
 Window.document.write( 'Hello' );
 
-#### \[RubyScript\]
+## 
+
+### \[RubyScript\]
 
 #language = "RubyScript"
 
 Window.document.write( "Hello!" );
 
-#### \[VBScript\]
+## 
+
+### \[VBScript\]
+
+```
+```
 
 #language = "VBScript"
 

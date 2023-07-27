@@ -1,20 +1,22 @@
 # CamelCase プロパティ ()
 
-設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の **\[キャメル ケースに対応\]** チェック ボックスに相当します。
+設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の\[キャメル ケースに対応\] チェック ボックスに相当します。
 
-#### \[JavaScript\]
+## 
 
-_b_ =
-object. **CamelCase**;
+### \[JavaScript\]
 
-object. **CamelCase** = _b_;
+```
+b = object.CamelCase;
+object.CamelCase = b;
+```
 
-#### \[VBScript\]
+### \[VBScript\]
 
-_b_ =
-object. **CamelCase**
-
-object. **CamelCase** = _b_
+```
+b = object.CamelCase
+object.CamelCase = b
+```
 
 ## バージョン
 
