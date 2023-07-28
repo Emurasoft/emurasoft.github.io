@@ -20,7 +20,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv']
 html_static_path = ['_static']
 html_css_files = ['custom.css']
 templates_path = ['_templates']
-html_file_suffix = '.htm'
 html_copy_source = False
 html_favicon = '_static/favicon.ico'
 html_baseurl = 'https://emurasoft.github.io/emeditor-help/'

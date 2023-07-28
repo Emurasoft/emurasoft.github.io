@@ -3,4 +3,16 @@
   <sitemap>
     <loc>https://emurasoft.github.io/emeditor-help/en/sitemap.xml</loc>
   </sitemap>
+  <sitemap>
+    <loc>https://emurasoft.github.io/emeditor-help/ja/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://emurasoft.github.io/emeditor-help/ko/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://emurasoft.github.io/emeditor-help/zh-cn/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://emurasoft.github.io/emeditor-help/zt-tw/sitemap.xml</loc>
+  </sitemap>
 </sitemapindex>
