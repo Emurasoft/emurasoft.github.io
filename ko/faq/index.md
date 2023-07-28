@@ -2,7 +2,7 @@
 
 
 ```{toctree}
-:maxdepth: 1
+:maxdepth: 2
 customize/index
 download/index
 edit/index
