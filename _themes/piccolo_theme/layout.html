@@ -56,11 +56,17 @@
                 element.style.cursor = "help";
             }
 
-            // Scroll toctree to current page
-            // Last item in array is current page
+            // Scroll sidebar to current page
+            // Last item in array is current item
             const itemElements = document.querySelectorAll("li.current");
             if (itemElements.length > 0) {
-                itemElements[itemElements.length - 1].scrollIntoView({block: "center"});
+                // Scroll to first child in item
+                let focusElement = itemElements[itemElements.length - 1];
+                if (focusElement.firstChild) {
+                    focusElement = focusElement.firstChild;
+                }
+
+                focusElement.scrollIntoView({block: "center"});
             }
 
             // Hide empty table header
