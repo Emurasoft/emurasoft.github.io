@@ -1,6 +1,6 @@
 # Shortcut page
 
-TheShortcut page allows you to customize settings related to the shortcuts.
+The **Shortcut** page allows you to customize settings related to the shortcuts.
 
 ## Add a shortcut to the "Send To" menu check box
 
@@ -33,7 +33,7 @@ Adds a shortcut to the Context Menu in Explorer. This option is enabled only if 
 
 ## Add an EmEditor icon to the Context menu check box
 
-Adds an EmEditor icon to the context menu. This option is enabled only if theAdd a shortcut to the Context Menu on Explorer check box is set.
+Adds an EmEditor icon to the context menu. This option is enabled only if the **Add a shortcut to the Context Menu on Explorer** check box is set.
 
 ## Add EmEditor to Internet Explorer HTML editor list check box
 
@@ -41,7 +41,7 @@ Adds EmEditor to the HTML editor list used by Internet Explorer. This option is 
 
 ## Customize Tray Icon button
 
-Displays [Customize Tray Icon dialog box](../../tray/index), where you can customize the System Tray icon settings.
+Displays [**Customize Tray Icon** dialog box](../../tray/index), where you can customize the System Tray icon settings.
 
 ## Reset button
 
@@ -50,5 +50,5 @@ Resets to default settings.
 The following dialog box is also available through this dialog box.
 
  (Select
-Customize Tray Icon button)
+**Customize Tray Icon** button)
 

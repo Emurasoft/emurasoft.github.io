@@ -4,11 +4,11 @@
 
 |     |     |
 | --- | --- |
-|[Add](add) | Adds a new item to the end of the menu. |
-|[AddPopup](addpopup) | Adds a new submenu to the end of the menu. |
-|[GetText](gettext) | Retrieves the text string of the menu item specified by the identifier. |
-|[MsgBox](msgbox) | Displays the dialog box based on the information provided by the object, and retrieves the identifier of the selected button, radio button, or command link. |
-|[Track](track) | Displays the popup menu, and retrieves the identifier of the selected menu item. |
+| **[Add](add)** | Adds a new item to the end of the menu. |
+| **[AddPopup](addpopup)** | Adds a new submenu to the end of the menu. |
+| **[GetText](gettext)** | Retrieves the text string of the menu item specified by the identifier. |
+| **[MsgBox](msgbox)** | Displays the dialog box based on the information provided by the object, and retrieves the identifier of the selected button, radio button, or command link. |
+| **[Track](track)** | Displays the popup menu, and retrieves the identifier of the selected menu item. |
 
 ## Examples
 

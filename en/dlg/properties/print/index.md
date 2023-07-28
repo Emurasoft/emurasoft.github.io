@@ -1,6 +1,6 @@
 # Print page
 
-ThePrint page allows you to set properties related to print
+The **Print** page allows you to set properties related to print
 operations.
 
 ## Print Line Numbers check box
@@ -85,6 +85,6 @@ Specify the font to use for printing.
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../reset/index) will be displayed
+[**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

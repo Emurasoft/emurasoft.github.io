@@ -1,7 +1,7 @@
 # Tab/Indent dialog box
 
-This dialog box appears when theTab/Indent button
-on the [General page](../index) of Configuration Properties is selected.
+This dialog box appears when the **Tab/Indent** button
+on the [**General** page](../index) of Configuration Properties is selected.
 
 ## Enable Auto Indent check box
 
@@ -21,7 +21,7 @@ If this is checked, EmEditor will ignore wide spaces.
 
 ## Use Regular Expressions check box
 
-If this is checked, you can specify theBegin Indent text box,End Indent text box, andEnd of Statement text box as regular expressions.
+If this is checked, you can specify the **Begin Indent** text box, **End Indent** text box, and **End of Statement** text box as regular expressions.
 
 ## Indent only at newline characters check box
 
@@ -54,6 +54,6 @@ The auto indent is ignored after the line that matches the regular expression sp
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../../reset/index) will be displayed
+[**Reset** dialog box](../../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

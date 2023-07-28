@@ -4,9 +4,9 @@
 
 |     |     |
 | --- | --- |
-|[clearData](cleardata) | Removes one or more data formats from the Clipboard. |
-|[getData](getdata) | Retrieves the data in the specified format from the Clipboard. |
-|[setData](setdata) | Assigns data in a specified format to the Clipboard. |
+| **[clearData](cleardata)** | Removes one or more data formats from the Clipboard. |
+| **[getData](getdata)** | Retrieves the data in the specified format from the Clipboard. |
+| **[setData](setdata)** | Assigns data in a specified format to the Clipboard. |
 
 ## Version
 

@@ -4,16 +4,16 @@
 
 |     |     |
 | --- | --- |
-| [AutoIndent](auto_indent) | Corresponds to theEnable<br>Auto Indent check box in the <br> [Tab/Index dialog box](../../dlg/properties/general/indent/index). |
-| [Begin](begin) | Corresponds to theBegin<br>Indent text box in the <br> [Tab/Index dialog box](../../dlg/properties/general/indent/index). |
-| [End](end) | Corresponds to theEnd<br>Indent text box in the <br> [Tab/Index dialog box](../../dlg/properties/general/indent/index). |
-| [EndOfStatement](end_of_statement) | Corresponds to theEnd<br>of Statement text box in the [Tab/Index dialog box](../../dlg/properties/general/indent/index). |
-| [IgnoreAfter](ignore_after) | Corresponds to theIgnore After (Regular Expression) text box in the <br> [Tab/Index dialog box](../../dlg/properties/general/indent/index). |
-| [IndentColumns](indent_columns) | Corresponds to theIndent<br>Columns text box in the <br> [Tab/Index dialog box](../../dlg/properties/general/indent/index). |
-| [InsertSpaces](insert_spaces) | Corresponds to theInsert<br>Spaces for Tabs check box in the <br> [Tab/Index dialog box](../../dlg/properties/general/indent/index). |
-| [RegExp](reg_exp) | Corresponds to theUse Regular Expressions check box in the <br> [Tab/Index dialog box](../../dlg/properties/general/indent/index). |
-| [TabColumns](tab_columns) | Corresponds to theTab<br>Columns text box in the [Tab/Index dialog box](../../dlg/properties/general/indent/index). |
-| [WrapIndent](wrap_indent) | Corresponds to theWrap Indent check box in the [Tab/Index dialog box](../../dlg/properties/general/indent/index). |
+| [AutoIndent](auto_indent) | Corresponds to the **Enable**<br>**Auto Indent** check box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [Begin](begin) | Corresponds to the **Begin**<br>**Indent** text box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [End](end) | Corresponds to the **End**<br>**Indent** text box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [EndOfStatement](end_of_statement) | Corresponds to the **End**<br>**of Statement** text box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [IgnoreAfter](ignore_after) | Corresponds to the **Ignore After (Regular Expression)** text box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [IndentColumns](indent_columns) | Corresponds to the **Indent**<br>**Columns** text box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [InsertSpaces](insert_spaces) | Corresponds to the **Insert**<br>**Spaces for Tabs** check box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [RegExp](reg_exp) | Corresponds to the **Use Regular Expressions** check box in the <br> [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [TabColumns](tab_columns) | Corresponds to the **Tab**<br>**Columns** text box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
+| [WrapIndent](wrap_indent) | Corresponds to the **Wrap Indent** check box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index). |
 
 ## Version
 

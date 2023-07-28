@@ -1,6 +1,6 @@
 # Advanced Open dialog box
 
-This dialog box appears when the [Advanced Open command](../../cmd/file/advanced_open) is selected. You can split a file with newlines at every specified number of bytes, and run a macro against each opened document while opening multiple files.
+This dialog box appears when the [**Advanced Open** command](../../cmd/file/advanced_open) is selected. You can split a file with newlines at every specified number of bytes, and run a macro against each opened document while opening multiple files.
 
 ## Insert newlines at every specified number of bytes check box
 
@@ -16,7 +16,7 @@ If this box is checked, you can specify a macro to run against each open documen
 
 ## Select Files to Open button
 
-Click this button to display theOpen dialog box where you can select the file(s) you want to open in EmEditor.
+Click this button to display the **Open** dialog box where you can select the file(s) you want to open in EmEditor.
 
 ## Set this as the default macro check box
 

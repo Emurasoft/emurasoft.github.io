@@ -6,8 +6,8 @@ Matches collection provides a collection of [Match objects](../match/index) for 
 
 |     |     |
 | --- | --- |
-|Count | Retrieves the number of Match objects. |
-|Item | Retrieves the Match object for the specified index. Item(0) returns the whole matched item (backreference 0), Item(1) returns backreference 1. |
+| **Count** | Retrieves the number of Match objects. |
+| **Item** | Retrieves the Match object for the specified index. Item(0) returns the whole matched item (backreference 0), Item(1) returns backreference 1. |
 
 ## Version
 

@@ -1,6 +1,6 @@
 # Outline page
 
-TheOutline page allows you to customize settings related to the outline.
+The **Outline** page allows you to customize settings related to the outline.
 
 ## Outline Bar Position
 

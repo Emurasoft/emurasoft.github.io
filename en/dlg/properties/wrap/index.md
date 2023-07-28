@@ -1,6 +1,6 @@
 # Wrap page
 
-TheWrap page allows you to set properties related to wrap.
+The **Wrap** page allows you to set properties related to wrap.
 
 ## Word Wrap check box
 
@@ -26,6 +26,6 @@ These characters will not be allowed to wrap at the end of lines.
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../reset/index) will be displayed
+[**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

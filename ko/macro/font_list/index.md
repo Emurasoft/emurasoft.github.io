@@ -6,8 +6,8 @@ FontList 컬렉션은 [FontItem 개체](../font_item/index) 의 컬렉션을 제
 
 |     |     |
 | --- | --- |
-|[Count](count) | 항목의 수를 검색합니다. |
-|[Item](item) | 지정된 인덱스를 위한 [FontItem 개체](../font_item/index) 를 검색합니다. |
+| **[Count](count)** | 항목의 수를 검색합니다. |
+| **[Item](item)** | 지정된 인덱스를 위한 [FontItem 개체](../font_item/index) 를 검색합니다. |
 
 ## 예시
 

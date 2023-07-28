@@ -1,11 +1,11 @@
 # Fuzzy Matching Options dialog box
 
 This dialog box appears when the
-... button is clicked in theFind,Replace,Find in Files,Replace in Files,Advanced Filter, orJoin CSV dialog box.
+**...** button is clicked in the **Find**, **Replace**, **Find in Files**, **Replace in Files**, **Advanced Filter**, or **Join CSV** dialog box.
 
 ## Similarity slider
 
-Specifies the similarity in percentage. For instance, if you specify 75%, and if the search string is 4 characters long, 3 out of 4 characters must be equal in order to match. You may set this 100% if any of the following options is set. For instance, if you only want to ignore diacritics, you should set this 100% and set theIgnore nonspacing combining characters, such as diacritics, dakuten, and handakuten check box.
+Specifies the similarity in percentage. For instance, if you specify 75%, and if the search string is 4 characters long, 3 out of 4 characters must be equal in order to match. You may set this 100% if any of the following options is set. For instance, if you only want to ignore diacritics, you should set this 100% and set the **Ignore nonspacing combining characters, such as diacritics, dakuten, and handakuten** check box.
 
 ## Max edit distance
 
@@ -37,7 +37,7 @@ If this is checked, Emoji sequences are ignored except the first code value of t
 
 ## Add button
 
-[String/Character Range dialog box](str_char_range/index) will be displayed and will allow you to add a string or character range to the list.
+[**String/Character Range** dialog box](str_char_range/index) will be displayed and will allow you to add a string or character range to the list.
 
 ## Delete button
 

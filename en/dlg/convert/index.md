@@ -1,6 +1,6 @@
 # Half-Width/Full-Width Conversion dialog box
 
-This dialog box appears when the [Half-Width/Full-Width Conversion command](../../cmd/edit/convert) is selected. You can specify
+This dialog box appears when the [**Half-Width/Full-Width Conversion** command](../../cmd/edit/convert) is selected. You can specify
 types of characters to convert and how to convert them.
 
 ## Katakana check box
@@ -53,5 +53,5 @@ Allows you to set or clear options.
 
 ## Set Options as Default button
 
-Saves these options as default to be used in the[Half-Width](../../cmd/edit/zen_to_han) and[Full-Width](../../cmd/edit/han_to_zen) commands.
+Saves these options as default to be used in the **[Half-Width](../../cmd/edit/zen_to_han)** and **[Full-Width](../../cmd/edit/han_to_zen)** commands.
 

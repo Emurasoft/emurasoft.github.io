@@ -4,17 +4,17 @@
 
 |     |     |
 | --- | --- |
-|[CurrentDirectory](current_directory) | 출력 모음의 현재 디렉토리를 설정합니다. |
-|[Visible](visible) | 출력 모음을 보이거나 숨깁니다. |
+| **[CurrentDirectory](current_directory)** | 출력 모음의 현재 디렉토리를 설정합니다. |
+| **[Visible](visible)** | 출력 모음을 보이거나 숨깁니다. |
 
 ## 메서드
 
 |     |     |
 | --- | --- |
-|[Clear](clear) | 출력 모음의 내용을 지웁니다. |
-|[SetFocus](set_focus) | 출력 모음에 키보드 포커스를 설정합니다. |
-|[write](write) | 출력 모음에 문자열을 추가합니다. |
-|[writeln](writeln) | 출력 모음에 문자열과 새로운 줄을 추가합니다. |
+| **[Clear](clear)** | 출력 모음의 내용을 지웁니다. |
+| **[SetFocus](set_focus)** | 출력 모음에 키보드 포커스를 설정합니다. |
+| **[write](write)** | 출력 모음에 문자열을 추가합니다. |
+| **[writeln](writeln)** | 출력 모음에 문자열과 새로운 줄을 추가합니다. |
 
 ## 예시
 

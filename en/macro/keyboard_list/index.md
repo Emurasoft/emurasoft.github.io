@@ -6,15 +6,15 @@ KeyboardList collection provides a collection of [KeyboardItem objects](../keybo
 
 |     |     |
 | --- | --- |
-|[Count](count) | Retrieves the number of items. |
-|[Item](item) | Retrieves the [KeyboardItem object](../keyboard_item/index) for the specified index. |
+| **[Count](count)** | Retrieves the number of items. |
+| **[Item](item)** | Retrieves the [KeyboardItem object](../keyboard_item/index) for the specified index. |
 
 ## Methods
 
 |     |     |
 | --- | --- |
-|[Add](add) | Adds an item. |
-|[Remove](remove) | Removes an item. |
+| **[Add](add)** | Adds an item. |
+| **[Remove](remove)** | Removes an item. |
 
 ## Examples
 

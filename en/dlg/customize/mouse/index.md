@@ -1,6 +1,6 @@
 # Mouse page
 
-TheMouse page allows you to customize settings related to the mouse.
+The **Mouse** page allows you to customize settings related to the mouse.
 
 ## On Tabs - Middle Mouse Button Click drop-down list box
 

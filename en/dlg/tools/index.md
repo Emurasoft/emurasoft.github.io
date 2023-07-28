@@ -1,7 +1,7 @@
 # External Tools dialog box
 
 This dialog box appears when the
-[Customize Tools command](../../cmd/tools/customize_tools) is selected.
+[**Customize Tools** command](../../cmd/tools/customize_tools) is selected.
 
 ## External Tools list box
 
@@ -37,7 +37,7 @@ Resets to default settings.
 
 The following dialog box is also available through this dialog box.
 
- (SelectProperties
+ (Select **Properties**
 button)
 
 

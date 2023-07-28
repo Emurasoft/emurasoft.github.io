@@ -4,7 +4,7 @@
 
 |     |     |
 | --- | --- |
-| [Enabled](enabled) | 與組態屬性中的 [關聯 頁面](../../dlg/properties/associate/index) 上的啟用關聯 核取方塊相對應。 |
+| [Enabled](enabled) | 與組態屬性中的 [**關聯** 頁面](../../dlg/properties/associate/index) 上的 **啟用關聯** 核取方塊相對應。 |
 | [List](list) | 檢索 [AssociationList 對象](../association_list/index)。 |
 
 ## 版本

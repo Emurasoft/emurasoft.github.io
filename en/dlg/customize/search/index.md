@@ -1,13 +1,13 @@
 # Search page
 
-TheSearch page allows you to customize settings related to search
+The **Search** page allows you to customize settings related to search
 operations.
 
 ## Highlight Strings Replaced After Replace in Files check box
 
 If this box is checked, EmEditor highlights the strings that have been
 replaced with
-the [Replace in Files command](../../../cmd/search/replace_in_files).
+the [**Replace in Files** command](../../../cmd/search/replace_in_files).
 If not checked, EmEditor highlights the searched strings.
 
 ## Disable Shortcuts in the Find/Replace Dialog Boxes check box
@@ -51,7 +51,7 @@ adding Next Occurrence or selecting All Occurrences.
 
 ## Default Regular Expression Engine drop-down list box
 
-Specifies the regular expression engine to use in EmEditor. You can chooseBoost.Regex orOnigmo. Regular expressions can be used inFind,Replace,Find in Files,Replace in Files,Filter,Highlight,Markers, Tag Jump,Auto Indent,Outlining, and plug-ins, and the selection will affect all the regular expression searches in EmEditor. However,Find,Replace,Find in Files, andReplace in Files can be independently configured in the [Advanced dialog box](../../advanced/index).
+Specifies the regular expression engine to use in EmEditor. You can choose **Boost.Regex** or **Onigmo**. Regular expressions can be used in **Find**, **Replace**, **Find in Files**, **Replace in Files**, **Filter**, **Highlight**, **Markers, Tag Jump**, **Auto Indent**, **Outlining**, and plug-ins, and the selection will affect all the regular expression searches in EmEditor. However, **Find**, **Replace**, **Find in Files**, and **Replace in Files** can be independently configured in the [**Advanced** dialog box](../../advanced/index).
 
 ## Reset button
 

@@ -6,8 +6,8 @@ Documents 컬렉션은 프레임 창에 document 개체의 컬렉션을 제공�
 
 |     |     |
 | --- | --- |
-|[Count](documents_count) | 문서의 수를 검색합니다. |
-|[Item](documents_item) | 지정된 인덱스의 문서를 위한 document 개체를 검색합니다. |
+| **[Count](documents_count)** | 문서의 수를 검색합니다. |
+| **[Item](documents_item)** | 지정된 인덱스의 문서를 위한 document 개체를 검색합니다. |
 
 ## 예시
 

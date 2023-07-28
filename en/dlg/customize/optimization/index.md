@@ -1,6 +1,6 @@
 # Optimization page
 
-TheOptimization page allows you to customize Optimization settings.
+The **Optimization** page allows you to customize Optimization settings.
 
 ## Do not highlight if line length exceeds slider
 

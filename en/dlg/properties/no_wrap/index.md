@@ -1,6 +1,6 @@
 # No Wrap page
 
-TheNo Wrap page allows you to set properties related to basic
+The **No Wrap** page allows you to set properties related to basic
 operations.
 
 ## Enable Non-Wrap Words check box
@@ -33,6 +33,6 @@ a string, and whether it is enabled.
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../reset/index) will be displayed
+[**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

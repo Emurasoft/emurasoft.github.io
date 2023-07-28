@@ -1,6 +1,6 @@
 # Highlight (1) page
 
-TheHighlight (1) page allows you to set properties related to highlight
+The **Highlight (1)** page allows you to set properties related to highlight
 (1).
 
 ## Enable Keyword Highlight check box
@@ -13,15 +13,15 @@ Specifies the type of keywords to be highlighted. Select one of the following op
 
 |     |     |
 | --- | --- |
-|Only User-Defined Strings | Only highlights the strings specified in the User-Defined Strings list box. |
-|Only Default Keywords | Only highlights default configuration keywords. |
-|Both User-Defined Strings and Default Keywords | Highlights both user-defined strings and default configuration keywords. |
+| **Only User-Defined Strings** | Only highlights the strings specified in the User-Defined Strings list box. |
+| **Only Default Keywords** | Only highlights default configuration keywords. |
+| **Both User-Defined Strings and Default Keywords** | Highlights both user-defined strings and default configuration keywords. |
 
 ## User-Defined Strings list box
 
 List of highlighted strings. Clicking the check box will change the color.
 These numbers correspond to the highlight colors specified on the
-[Display page](../display/index).
+[**Display** page](../display/index).
 
 ## Add button
 
@@ -78,26 +78,26 @@ if it exists inside the tag.
 ## Import button
 
 Import highlighted strings from CSV or ESY type file. The CSV file contents are organized
-as string,Color,Whole Word Only,Highlight
-Right Side,Match Case, andInside Tag Only. The ESY file syntax can be found at the following page.
+as string, **Color**, **Whole Word Only**, **Highlight**
+**Right Side**, **Match Case**, and **Inside Tag Only**. The ESY file syntax can be found at the following page.
 
-See Also
+**See Also**
 
 - [To Create a New Syntax File](../../../howto/customize/syntax_file)
 
 ## Export button
 
 Export highlighted strings to CSV or ESY type file. The CSV file contents are organized as
-string,Color,Whole Word Only,Highlight
-Right Side,Match Case, andInside Tag Only. The ESY file syntax can be found at the following page.
+string, **Color**, **Whole Word Only**, **Highlight**
+**Right Side**, **Match Case**, and **Inside Tag Only**. The ESY file syntax can be found at the following page.
 
-See Also
+**See Also**
 
 - [To Create a New Syntax File](../../../howto/customize/syntax_file)
 
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../reset/index) will be displayed
+[**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

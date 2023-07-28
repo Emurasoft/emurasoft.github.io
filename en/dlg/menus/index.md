@@ -1,7 +1,7 @@
 # Customize Menus dialog box
 
 This dialog box appears when the
-[Customize Menu command](../../cmd/tools/customize_menu) is selected.
+[**Customize Menu** command](../../cmd/tools/customize_menu) is selected.
 
 ## Menu to Customize list box
 
@@ -50,7 +50,7 @@ Resets to default settings.
 The following dialog box is also available through this dialog box.
 
  (Select
-Properties
+**Properties**
 button)
 
 

@@ -1,6 +1,6 @@
 # URI Schemes page
 
-TheURI Schemes page allows you to customize URI schemes.
+The **URI Schemes** page allows you to customize URI schemes.
 
 ## URI Schemes list box
 

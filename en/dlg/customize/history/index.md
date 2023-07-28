@@ -1,22 +1,22 @@
 # History page
 
-TheHistory page allows you to customize settings related to history.
+The **History** page allows you to customize settings related to history.
 
 ## Number of Recent Files text box
 
-Number of recently used files shown in theFile menu and the tray icon menu. The maximum is 64.
+Number of recently used files shown in the **File** menu and the tray icon menu. The maximum is 64.
 
 ## Number of Recent Fonts text box
 
-Number of recently used fonts shown in theView menu. The maximum is 64.
+Number of recently used fonts shown in the **View** menu. The maximum is 64.
 
 ## Number of Recent Searches text box
 
-Number of recent searches shown in theFind/Replace dialog boxes.
+Number of recent searches shown in the **Find/Replace** dialog boxes.
 
-###Popup if Number of Items Exceeds text box
+## **Popup if Number of Items Exceeds** text box
 
-Number of items first displayed in the menu. The items exceeding this number are displayed inside theMore popup menu.
+Number of items first displayed in the menu. The items exceeding this number are displayed inside the **More** popup menu.
 
 ## Strip Path for Files in Current Folder check box
 
@@ -29,9 +29,9 @@ Specifies keyboard shortcuts when the number of menu items exceeds ten. Select o
 
 |     |     |
 | --- | --- |
-|No Shortcut | Does not add any keyboard shortcuts. |
-|All Zeros | Adds all zeros (0). |
-|Add Alphabets | Adds alphabets (A-Z). If this is selected, depending on the menu configuration, other existing menu item keyboard shortcuts might conflict with these alphabets. |
+| **No Shortcut** | Does not add any keyboard shortcuts. |
+| **All Zeros** | Adds all zeros (0). |
+| **Add Alphabets** | Adds alphabets (A-Z). If this is selected, depending on the menu configuration, other existing menu item keyboard shortcuts might conflict with these alphabets. |
 
 ## Save Cursor Position check box
 
@@ -68,11 +68,11 @@ cache folder.
 
 ## Clear History on Exit button
 
-Displays the [Clear History on Exit dialog box](../../clear_history/index), where you can clear the specified history items on exit.
+Displays the [**Clear History on Exit** dialog box](../../clear_history/index), where you can clear the specified history items on exit.
 
 ## Clear History Now button
 
-Displays the [Clear History Now dialog box](../../clear_history/index), where you can clear the specified history items now.
+Displays the [**Clear History Now** dialog box](../../clear_history/index), where you can clear the specified history items now.
 
 ## Reset button
 

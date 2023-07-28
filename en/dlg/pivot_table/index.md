@@ -1,7 +1,7 @@
 # Pivot Table dialog box
 
 This dialog box appears when the
-[Pivot Table command](../../cmd/edit/pivot_table) is selected.
+[**Pivot Table** command](../../cmd/edit/pivot_table) is selected.
 
 ## Type drop-down list box
 
@@ -17,7 +17,7 @@ Selects the type of a pivot table to be created.
 
 ## Decimal places text box
 
-Specifies the decimal places ifSum,Average,Max orMin is selected in theType drop-down list box. If 0 is specified, all values are treated as integers, and any digits right of the decimal point are ignored.
+Specifies the decimal places if **Sum**, **Average**, **Max** or **Min** is selected in the **Type** drop-down list box. If 0 is specified, all values are treated as integers, and any digits right of the decimal point are ignored.
 
 ## Rows drop-down list box
 

@@ -12,7 +12,7 @@
 
 ## “注册密钥”文本框
 
-请把当前版本的 EmEditor Professional 的注册密钥复制到剪贴板中，选择该文本框，然后按CTRL + V，或者右击显示上下文菜单，并选择粘贴。在购买 EmEditor Professional 之后，您通常可以在发送给您的电子邮件中找到密钥。如果您在购买之后没有收到含有密钥的邮件，请查看您的垃圾邮件箱。如果还是没有，请联系我们（shared@emurasoft.com）。如果你的授权是永久授权，请到 Emurasoft 客户中心获取最新版本的注册密钥。(https://support.emeditor.com/zh-hans/sendkeys).
+请把当前版本的 EmEditor Professional 的注册密钥复制到剪贴板中，选择该文本框，然后按 **CTRL + V**，或者右击显示上下文菜单，并选择 **粘贴**。在购买 EmEditor Professional 之后，您通常可以在发送给您的电子邮件中找到密钥。如果您在购买之后没有收到含有密钥的邮件，请查看您的垃圾邮件箱。如果还是没有，请联系我们（shared@emurasoft.com）。如果你的授权是永久授权，请到 Emurasoft 客户中心获取最新版本的注册密钥。(https://support.emeditor.com/zh-hans/sendkeys).
 
 ## “如何注册 \- 登录（推荐给订阅用户）”单选按钮
 

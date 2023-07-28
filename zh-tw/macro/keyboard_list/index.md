@@ -6,15 +6,15 @@ KeyboardList 集合提供了 [KeyboardItem 對象](../keyboard_item/index) 的�
 
 |     |     |
 | --- | --- |
-|[Count](count) | 檢索項目總數。 |
-|[Item](item) | 為指導索引檢索 [KeyboardItem 對象](../keyboard_item/index)。 |
+| **[Count](count)** | 檢索項目總數。 |
+| **[Item](item)** | 為指導索引檢索 [KeyboardItem 對象](../keyboard_item/index)。 |
 
 ## 方法
 
 |     |     |
 | --- | --- |
-|[Add](add) | 添加一個項目。 |
-|[Remove](remove) | 刪除一個項目。 |
+| **[Add](add)** | 添加一個項目。 |
+| **[Remove](remove)** | 刪除一個項目。 |
 
 ## 示例
 

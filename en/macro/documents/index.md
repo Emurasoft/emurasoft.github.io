@@ -6,8 +6,8 @@ Documents collection provides a collection of document objects in a frame window
 
 |     |     |
 | --- | --- |
-|[Count](documents_count) | Retrieves the number of documents. |
-|[Item](documents_item) | Retrieves the document object for the document of the specified index. |
+| **[Count](documents_count)** | Retrieves the number of documents. |
+| **[Item](documents_item)** | Retrieves the document object for the document of the specified index. |
 
 ## Examples
 

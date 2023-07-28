@@ -1,7 +1,7 @@
 # Split Columns dialog box
 
 This dialog box appears when the
-[Split Columns command](../../cmd/edit/split_column) is selected.
+[**Split Columns** command](../../cmd/edit/split_column) is selected.
 
 ## Columns list box
 

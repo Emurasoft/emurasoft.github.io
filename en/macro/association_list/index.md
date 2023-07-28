@@ -6,15 +6,15 @@ AssociationList collection provides a collection of [AssociationItem objects](..
 
 |     |     |
 | --- | --- |
-|[Count](count) | Retrieves the number of items. |
-|[Item](item) | Retrieves the [AssociationItem object](../association_item/index) for the specified index. |
+| **[Count](count)** | Retrieves the number of items. |
+| **[Item](item)** | Retrieves the [AssociationItem object](../association_item/index) for the specified index. |
 
 ## Methods
 
 |     |     |
 | --- | --- |
-|[Add](add) | Adds an item. |
-|[Remove](remove) | Removes an item. |
+| **[Add](add)** | Adds an item. |
+| **[Remove](remove)** | Removes an item. |
 
 ## Examples
 

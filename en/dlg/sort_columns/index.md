@@ -1,7 +1,7 @@
 # Sort Columns dialog box
 
 This dialog box appears when the
-[Sort Columns command](../../cmd/sort/sort_columns) is selected.
+[**Sort Columns** command](../../cmd/sort/sort_columns) is selected.
 
 ## Sort at current line radio button
 

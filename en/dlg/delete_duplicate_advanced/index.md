@@ -1,7 +1,7 @@
 # Delete/Bookmark Duplicate Lines dialog box
 
 This dialog box appears when the
-[Delete/Bookmark Duplicate Lines (Advanced) command](../../cmd/edit/delete_duplicate_advanced) or theDelete/Bookmark Duplicate Lines (Advanced) button is selected in a toolbar.
+[**Delete/Bookmark Duplicate Lines (Advanced)** command](../../cmd/edit/delete_duplicate_advanced) or the **Delete/Bookmark Duplicate Lines (Advanced)** button is selected in a toolbar.
 
 ## Inspect Whole Lines radio button
 

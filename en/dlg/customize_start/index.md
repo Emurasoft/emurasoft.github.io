@@ -1,6 +1,6 @@
 # Customize Start Window dialog box
 
-This dialog box appears when theCustomize button in theStart window is selected.
+This dialog box appears when the **Customize** button in the **Start** window is selected.
 
 ## Always show the Start window when EmEditor launches without opening files check box
 
@@ -12,7 +12,7 @@ If this is checked, the Start window appears when the Down key is pressed on a n
 
 ## Prompt if the automatic workspace is not set when restoring previous workspace check box
 
-If this is checked, EmEditor shows the prompt message if the automatic workspace is not set when theRestore Previous Workspace button is clicked in theStart window.
+If this is checked, EmEditor shows the prompt message if the automatic workspace is not set when the **Restore Previous Workspace** button is clicked in the **Start** window.
 
 ## Show the Recent Workspaces check box
 
@@ -24,7 +24,7 @@ If this is checked, the Start window includes new options. Even if you clear thi
 
 ## Oldest Version drop-down list box
 
-Specifies the oldest version displayed in theNew Options list box. If a future version (newer than the current version) is specified, only the new options available in future versions will be displayed.
+Specifies the oldest version displayed in the **New Options** list box. If a future version (newer than the current version) is specified, only the new options available in future versions will be displayed.
 
 ## Show Additional Buttons check box
 
@@ -60,5 +60,5 @@ If this is checked, the Start window includes Update Checker. This option will n
 
 ## Only when new versions available check box
 
-If this is checked, the Start window includes Update Checker only when new versions become available for updates even if theShow Update Checker check box is set.
+If this is checked, the Start window includes Update Checker only when new versions become available for updates even if the **Show Update Checker** check box is set.
 

@@ -6,15 +6,15 @@ NoWrapList 集合提供一个集合的 [NoWrapItem 对象](../no_wrap_item/index
 
 |     |     |
 | --- | --- |
-|[Count](count) | 检索项目的总数。 |
-|[Item](item) | 为指定索引检索 [NoWrapItem 对象](../no_wrap_item/index)。 |
+| **[Count](count)** | 检索项目的总数。 |
+| **[Item](item)** | 为指定索引检索 [NoWrapItem 对象](../no_wrap_item/index)。 |
 
 ## 方法
 
 |     |     |
 | --- | --- |
-|[Add](add) | 添加一个项目。 |
-|[Remove](remove) | 删除一个项目。 |
+| **[Add](add)** | 添加一个项目。 |
+| **[Remove](remove)** | 删除一个项目。 |
 
 ## 示例
 

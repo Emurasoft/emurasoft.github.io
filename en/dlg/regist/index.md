@@ -12,7 +12,7 @@ Please enter your name.
 
 ## Registration Key text box
 
-Please copy the registration key for the current version of EmEditor Professional to the Clipboard, select this text box, and pressCTRL + V, or right-click to display the context menu, and selectPaste. The key will be displayed or sent by email when you
+Please copy the registration key for the current version of EmEditor Professional to the Clipboard, select this text box, and press **CTRL + V**, or right-click to display the context menu, and select **Paste**. The key will be displayed or sent by email when you
 have purchased EmEditor Professional. If you upgrade from the previous version of EmEditor, you may request a key for
 the current version at Emurasoft Customer Center
 (https://support.emeditor.com/en/).

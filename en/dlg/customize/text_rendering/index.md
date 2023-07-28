@@ -1,6 +1,6 @@
 # Text Rendering page
 
-TheText Rendering page customizes how text is rendered in the editor view. Changes are applied instantly, so that they can be previewed in the editor.
+The **Text Rendering** page customizes how text is rendered in the editor view. Changes are applied instantly, so that they can be previewed in the editor.
 
 ## Use DirectWrite check box
 
@@ -13,11 +13,11 @@ separate settings for different monitors. The DirectWrite options below are igno
 
 ## Anti-Aliasing Mode drop-down list box
 
-Sets the anti-aliasing mode for text display.ClearType is an anti-aliasing method that adds sub-pixel detail to text.Grayscale is a more simple antialiasing method. SelectingNone will turn off anti-aliasing.
+Sets the anti-aliasing mode for text display. **ClearType** is an anti-aliasing method that adds sub-pixel detail to text. **Grayscale** is a more simple antialiasing method. Selecting **None** will turn off anti-aliasing.
 
 ## Rendering Mode drop-down list box
 
-Sets the rendering mode for text display. Different rendering modes add subtle changes to text appearance due to how anti-aliasing is rendered. By selectingDefault, the rendering mode is automatically selected. If anti-aliasing mode is "None", rendering mode is ignored. ClearType and the rendering mode "Outline" cannot be used simultaneously. See ["DWRITE\_RENDERING\_MODE (Windows 8 and later) enumeration" on MSDN](https://docs.microsoft.com/en-us/windows/win32/api/dwrite/ne-dwrite-dwrite_rendering_mode) for detailed information on each rendering mode.
+Sets the rendering mode for text display. Different rendering modes add subtle changes to text appearance due to how anti-aliasing is rendered. By selecting **Default**, the rendering mode is automatically selected. If anti-aliasing mode is "None", rendering mode is ignored. ClearType and the rendering mode "Outline" cannot be used simultaneously. See ["DWRITE\_RENDERING\_MODE (Windows 8 and later) enumeration" on MSDN](https://docs.microsoft.com/en-us/windows/win32/api/dwrite/ne-dwrite-dwrite_rendering_mode) for detailed information on each rendering mode.
 
 ## Gamma slider
 
@@ -42,7 +42,7 @@ is slow, please clear this check box. This checkbox is disabled if DirectWrite i
 
 ## Fallback Fonts list box
 
-Defines fallback fonts that can be used for characters that are not supported in the current font. The current display font is specified in the [Customize Font dialog box](../../properties/font/index). The top-most font in the Fallback Fonts list has the highest priority in selecting a fallback font. Right-clicking on the list will show additional commands, and drag and dropping an item will change ordering.
+Defines fallback fonts that can be used for characters that are not supported in the current font. The current display font is specified in the [**Customize Font** dialog box](../../properties/font/index). The top-most font in the Fallback Fonts list has the highest priority in selecting a fallback font. Right-clicking on the list will show additional commands, and drag and dropping an item will change ordering.
 
 ## Display Hangul Jamo Composed check box
 

@@ -4,7 +4,7 @@
 
 |     |     |
 | --- | --- |
-| [CharacterRanges](character_ranges) | 检索或设置 [CharacterRanges 集合](../character_ranges/index)。 |
+| [CharacterRanges](character_ranges) | 检索或设置 [**CharacterRanges** 集合](../character_ranges/index)。 |
 | [Flags](flags) | 设置或检索标志。 |
 | [MaxEditDistance](max_edit_distance) | 检索或设置最大编辑距离。 |
 | [Percent](percent) | 设置或检索相似度的百分比值。 |

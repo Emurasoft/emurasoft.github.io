@@ -1,7 +1,7 @@
 # Define Encodings dialog box
 
 This dialog box appears when the
-[Define Encodings command](../../cmd/tools/define_code_page) is selected.
+[**Define Encodings** command](../../cmd/tools/define_code_page) is selected.
 
 ## Encoding list box
 

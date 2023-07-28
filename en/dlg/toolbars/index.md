@@ -1,7 +1,7 @@
 # Toolbars dialog box
 
 This dialog box appears when the
-[Customize Toolbars \
+[**Customize Toolbars** \
 command](../../cmd/tools/customize_toolbar) is selected.
 
 ## Basic Toolbars list box
@@ -14,8 +14,8 @@ List of special toolbars.
 
 ## Display Toolbar Titles check box
 
-Display toolbar titles forPlug-in Toolbar,Tools Toolbar, and
-Tab Bar when the button style is selected.
+Display toolbar titles for **Plug-in Toolbar**, **Tools Toolbar**, and
+**Tab Bar** when the button style is selected.
 
 ## Lock Toolbars check box
 

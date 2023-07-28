@@ -1,6 +1,6 @@
 # Jump dialog box
 
-This dialog box appears when the [Jump \
+This dialog box appears when the [**Jump** \
 command](../../cmd/edit/jump) is selected. You can specify a line number to which you would like to
 jump.
 
@@ -23,5 +23,5 @@ CSV Column number to which you would like to jump in case of a CSV document.
 
 ## File Position text box
 
-Specify the file position to which you would like to jump. Changing theFile Position will update theLine andColumn in the dialog box before you confirm the jump, and vice versa.
+Specify the file position to which you would like to jump. Changing the **File Position** will update the **Line** and **Column** in the dialog box before you confirm the jump, and vice versa.
 

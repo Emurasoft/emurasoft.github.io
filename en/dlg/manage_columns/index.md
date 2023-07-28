@@ -1,11 +1,11 @@
 # Manage Columns dialog box
 
 This dialog box appears when the
-[Manage Columns command](../../cmd/csv/manage_columns) is selected.
+[**Manage Columns** command](../../cmd/csv/manage_columns) is selected.
 
 ## Column list box
 
-Displays the list of columns. You can select one or multiple items in the list, and drag and drop to rearrange the items. You can also right-click on the list, and selectCopy andPaste to duplicate columns.
+Displays the list of columns. You can select one or multiple items in the list, and drag and drop to rearrange the items. You can also right-click on the list, and select **Copy** and **Paste** to duplicate columns.
 
 ## Up button
 

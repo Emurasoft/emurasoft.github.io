@@ -4,7 +4,7 @@
 
 |     |     |
 | --- | --- |
-| [CharacterRanges](character_ranges) | Retrieves or sets the [CharacterRanges collection](../character_ranges/index). |
+| [CharacterRanges](character_ranges) | Retrieves or sets the [**CharacterRanges** collection](../character_ranges/index). |
 | [Flags](flags) | Sets or retrieves flags. |
 | [MaxEditDistance](max_edit_distance) | Sets or retrieves the maximum edit distance. |
 | [Percent](percent) | Sets or retrieves the percent value of similarity. |

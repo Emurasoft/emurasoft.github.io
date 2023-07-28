@@ -1,13 +1,13 @@
 # Configs Collection
 
-Configs collection provides a collection of [Config objects](../config/index).
+Configs collection provides a collection of [**Config** objects](../config/index).
 
 ## Properties
 
 |     |     |
 | --- | --- |
-|[Count](count) | Retrieves the number of configurations. |
-|[Item](item) | Retrieves the [Config object](../config/index) for the configuration of the specified index. |
+| **[Count](count)** | Retrieves the number of configurations. |
+| **[Item](item)** | Retrieves the [**Config** object](../config/index) for the configuration of the specified index. |
 
 ## Examples
 

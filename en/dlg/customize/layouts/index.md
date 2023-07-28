@@ -1,6 +1,6 @@
 # Layouts page
 
-TheLayouts page allows you to define layouts and customize options for each layout.
+The **Layouts** page allows you to define layouts and customize options for each layout.
 
 ## Layouts list box
 

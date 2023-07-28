@@ -4,18 +4,18 @@
 
 |     |     |
 | --- | --- |
-|[CurrentDirectory](current_directory) | 为输出栏设置当前目录。 |
-|[Visible](visible) | 显示或隐藏输出栏。 |
-|[Text](text) | 在输出栏中检索整个文本。 |
+| **[CurrentDirectory](current_directory)** | 为输出栏设置当前目录。 |
+| **[Visible](visible)** | 显示或隐藏输出栏。 |
+| **[Text](text)** | 在输出栏中检索整个文本。 |
 
 ## 方法
 
 |     |     |
 | --- | --- |
-|[Clear](clear) | 清除输出栏的内容。 |
-|[SetFocus](set_focus) | 把键盘焦点设置到输出栏上。 |
-|[write](write) | 追加一个字符串到输出栏上。 |
-|[writeln](writeln) | 追加一个字符串和一个新行到输出栏上。 |
+| **[Clear](clear)** | 清除输出栏的内容。 |
+| **[SetFocus](set_focus)** | 把键盘焦点设置到输出栏上。 |
+| **[write](write)** | 追加一个字符串到输出栏上。 |
+| **[writeln](writeln)** | 追加一个字符串和一个新行到输出栏上。 |
 
 ## 示例
 

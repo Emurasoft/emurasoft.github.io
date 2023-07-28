@@ -6,8 +6,8 @@ DisplayList コレクションは [DisplayItem オブジェクト](../display_it
 
 |     |     |
 | --- | --- |
-|[Count](count) | アイテムの数を取得します。 |
-|[Item](item) | 指定のインデックスの [DisplayItem オブジェクト](../display_item/index) を取得します。 |
+| **[Count](count)** | アイテムの数を取得します。 |
+| **[Item](item)** | 指定のインデックスの [DisplayItem オブジェクト](../display_item/index) を取得します。 |
 
 ## 例
 

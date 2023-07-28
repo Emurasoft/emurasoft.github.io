@@ -6,8 +6,8 @@ FontList collection provides a collection of [FontItem objects](../font_item/ind
 
 |     |     |
 | --- | --- |
-|[Count](count) | Retrieves the number of items. |
-|[Item](item) | Retrieves the [FontItem object](../font_item/index) for the specified index. |
+| **[Count](count)** | Retrieves the number of items. |
+| **[Item](item)** | Retrieves the [FontItem object](../font_item/index) for the specified index. |
 
 ## Examples
 

@@ -4,23 +4,23 @@
 
 |     |     |
 | --- | --- |
-|[ForegroundWindow](foreground_window) | Retrieves the current foreground window. |
-|[windows](windows) | Returns the top-level Windows collection. |
+| **[ForegroundWindow](foreground_window)** | Retrieves the current foreground window. |
+| **[windows](windows)** | Returns the top-level Windows collection. |
 
 ## Methods
 
 |     |     |
 | --- | --- |
-| [CreateFolder](create_folder) | Creates a folder. |
-| [DeleteFile](delete_file) | Deletes one or more specified files. |
-| [DeleteFolder](delete_folder) | Deletes one or more specified folders and their contents.. |
-| [FileExists](file_exists) | Returns true if a specified file exists; false if it does not. |
-|[FindWindow](find_window) | Finds the top-level Window object by a class name and/or by a window title. |
-| [FolderExists](folder_exists) | Returns true if a specified folder exists; false if it does not. |
-| [GetFileAttributes](get_file_attributes) | Returns the attributes of a specified file or folder. |
-| [Run](run) | Runs a program in a new process. |
-|[SendKeys](send_keys) | Sends one or more keystrokes (or mouse activities) to the active window. |
-| [SetFileAttributes](set_file_attributes) | Sets the attributes of a specified file or folder. |
+| [**CreateFolder**](create_folder) | Creates a folder. |
+| [**DeleteFile**](delete_file) | Deletes one or more specified files. |
+| [**DeleteFolder**](delete_folder) | Deletes one or more specified folders and their contents.. |
+| [**FileExists**](file_exists) | Returns true if a specified file exists; false if it does not. |
+| **[FindWindow](find_window)** | Finds the top-level Window object by a class name and/or by a window title. |
+| [**FolderExists**](folder_exists) | Returns true if a specified folder exists; false if it does not. |
+| [**GetFileAttributes**](get_file_attributes) | Returns the attributes of a specified file or folder. |
+| [**Run**](run) | Runs a program in a new process. |
+| **[SendKeys](send_keys)** | Sends one or more keystrokes (or mouse activities) to the active window. |
+| [**SetFileAttributes**](set_file_attributes) | Sets the attributes of a specified file or folder. |
 
 ## Version
 

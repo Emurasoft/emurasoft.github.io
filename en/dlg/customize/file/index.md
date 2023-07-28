@@ -1,11 +1,11 @@
 # File page
 
-TheFile page allows you to customize settings related to file
+The **File** page allows you to customize settings related to file
 operations.
 
 ## Remember Last Folder check box
 
-In theOpen andSave As dialogs, show the most recently used folder.
+In the **Open** and **Save As** dialogs, show the most recently used folder.
 
 ## Prompt when Opening a New File check box
 
@@ -17,12 +17,12 @@ Shows an additional warning message if trying to open non-existent files in a ne
 
 ## Always Add to Recent Documents Folder check box
 
-Save the shortcuts to the WindowsMy Recent Documents folder when you
+Save the shortcuts to the Windows **My Recent Documents** folder when you
 open or save files. This check box must be on in order for the recent category in the Windows 7 jump list to include the recently used items.
 
 ## Use uchardet to detect file encodings when the Detect All option is set check box
 
-When theDetect All option is used to open files, EmEditor will use[uchardet](https://github.com/BYVoid/uchardet) (C++ fork of Mozilla Charset Detectors) to detect file encoding.
+When the **Detect All** option is used to open files, EmEditor will use **[uchardet](https://github.com/BYVoid/uchardet)** (C++ fork of Mozilla Charset Detectors) to detect file encoding.
 
 ## Open US-ASCII as System Default Encoding check box
 
@@ -31,27 +31,27 @@ If the detected file encoding was US-ASCII, EmEditor will open the file as the s
 ## Always Show Detect All Result check box
 
 Always displays the
-[Detect All Result dialog box](../../detect_result/index) when theDetect
-All check box is selected when opening a file, or when the[Reload Detect All](../../../cmd/file/file_reload_detect_all) command is selected. However, if UTF-16 with
+[**Detect All Result** dialog box](../../detect_result/index) when the **Detect**
+**All** check box is selected when opening a file, or when the **[Reload Detect All](../../../cmd/file/file_reload_detect_all)** command is selected. However, if UTF-16 with
 signature, UTF-16 without signature or UTF-8 with signature is detected, the file will be loaded immediately without displaying the dialog box.
 
 ## Show only when Multiple Encodings Detected check box
 
 Displays the
-[Detect All Result dialog box](../../detect_result/index) only if multiple encodings are detected when theDetect
-All check box is selected when opening a file, or when the[Reload Detect All](../../../cmd/file/file_reload_detect_all) command is selected.
+[**Detect All Result** dialog box](../../detect_result/index) only if multiple encodings are detected when the **Detect**
+**All** check box is selected when opening a file, or when the **[Reload Detect All](../../../cmd/file/file_reload_detect_all)** command is selected.
 
 ## Show Detect All Result also during Find in Files check box
 
 Displays the
-[Detect All Result dialog box](../../detect_result/index) during Find in Files when theDetect
-All check box is selected.
+[**Detect All Result** dialog box](../../detect_result/index) during Find in Files when the **Detect**
+**All** check box is selected.
 
 ## Avoid Printer Access check box
 
 Avoids access to a printer. If this is checked, when EmEditor is launched, even if the
-Show Page Numbers check box is checked, page numbers will not be displayed until the
-[Print command](../../../cmd/file/file_print) or the [Print Preview command](../../../cmd/file/print_preview) is selected. This option is recommended if the printer access is slow.
+**Show Page Numbers** check box is checked, page numbers will not be displayed until the
+[**Print** command](../../../cmd/file/file_print) or the [**Print Preview** command](../../../cmd/file/print_preview) is selected. This option is recommended if the printer access is slow.
 
 ## Displays Large File Controller when a large file is opened check box
 
@@ -60,11 +60,11 @@ If this is checked, EmEditor automatically displays the Large File Controller wh
 
 ## Prompt when only a specified portion of file is opened check box
 
-If this is checked, EmEditor will display a prompt dialog box if EmEditor loads only a portion of a file specified in theFrom (default) andTo (default) text boxes.
+If this is checked, EmEditor will display a prompt dialog box if EmEditor loads only a portion of a file specified in the **From (default)** and **To (default)** text boxes.
 
 ## Prompt when default Open Filter exists check box
 
-If this is checked, EmEditor will display a prompt dialog box if theOpen Filter exists. TheOpen Filter can be set in theLarge File Controller.
+If this is checked, EmEditor will display a prompt dialog box if the **Open Filter** exists. The **Open Filter** can be set in the **Large File Controller**.
 
 ## Prompt if a Unicode (UTF-16) file size is an odd number in bytes check box
 
@@ -88,8 +88,8 @@ Specifies the place where EmEditor ends loading a file. A blank means unlimited.
 
 ## Custom File Filter text box
 
-Set the custom file filter shown in theFile Type combo box in theOpen
-dialog box and theSave As dialog box.
+Set the custom file filter shown in the **File Type** combo box in the **Open**
+dialog box and the **Save As** dialog box.
 
 ## Maximum bytes to detect UTF-8 text box
 
@@ -101,7 +101,7 @@ Set the timeout period in seconds when accessing files. This option becomes impo
 
 ## Associate with EmEditor button
 
-Displays the [Associate with EmEditor dialog box](../../file_associate/index),
+Displays the [**Associate with EmEditor** dialog box](../../file_associate/index),
 where the user can specify which file extensions to associate with EmEditor.
 
 ## Reset button
@@ -111,5 +111,5 @@ Resets to default settings.
 The following dialog box is also available through this dialog box.
 
  (Select
-Associate with EmEditor button)
+**Associate with EmEditor** button)
 

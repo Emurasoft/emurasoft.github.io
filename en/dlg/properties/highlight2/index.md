@@ -1,6 +1,6 @@
 # Highlight (2) page
 
-TheHighlight (2) page allows you to set properties related to
+The **Highlight (2)** page allows you to set properties related to
 highlight (2).
 
 ## Comments group box - Begin text box
@@ -51,9 +51,9 @@ Select from the following.
 
 |     |     |
 | --- | --- |
-|(None) | Uses a file unrelated to HTML. |
-|HTML | Uses an HTML or ASP file. It uses the HTML, CSS, JavaScript, VBScript, <br> and Script configurations. |
-|HTML-Embedded | Uses script languages such as JSP or PHP, HTML embedded language. It <br> uses the HTML, CSS, JavaScript, VBScript, and Script configurations. |
+| **(None)** | Uses a file unrelated to HTML. |
+| **HTML** | Uses an HTML or ASP file. It uses the HTML, CSS, JavaScript, VBScript, <br> and Script configurations. |
+| **HTML-Embedded** | Uses script languages such as JSP or PHP, HTML embedded language. It <br> uses the HTML, CSS, JavaScript, VBScript, and Script configurations. |
 
 ## Highlight Matching Tag check box
 
@@ -75,6 +75,6 @@ The list of bracket pairs that can be auto-completed. Checked items are auto-com
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../reset/index) will be displayed
+[**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

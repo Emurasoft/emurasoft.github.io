@@ -1,7 +1,7 @@
 # Combine Lines dialog box
 
 This dialog box appears when the
-[Combine Lines command](../../cmd/edit/combine_lines) is selected. This command combines vertical adjacent duplicate cells.
+[**Combine Lines** command](../../cmd/edit/combine_lines) is selected. This command combines vertical adjacent duplicate cells.
 
 ## Columns to inspect duplicates list box
 

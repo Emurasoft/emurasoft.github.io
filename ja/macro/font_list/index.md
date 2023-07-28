@@ -6,8 +6,8 @@ FontList コレクションは [FontItem オブジェクト](../font_item/index)
 
 |     |     |
 | --- | --- |
-|[Count](count) | アイテムの数を取得します。 |
-|[Item](item) | 指定したインデックスの [FontItem オブジェクト](../font_item/index) を取得します。 |
+| **[Count](count)** | アイテムの数を取得します。 |
+| **[Item](item)** | 指定したインデックスの [FontItem オブジェクト](../font_item/index) を取得します。 |
 
 ## 例
 

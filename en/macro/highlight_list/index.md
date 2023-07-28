@@ -6,15 +6,15 @@ HighlightList collection provides a collection of [HighlightItem objects](../hig
 
 |     |     |
 | --- | --- |
-|[Count](count) | Retrieves the number of items. |
-|[Item](item) | Retrieves the [HighlightItem object](../highlight_item/index) for the specified index. |
+| **[Count](count)** | Retrieves the number of items. |
+| **[Item](item)** | Retrieves the [HighlightItem object](../highlight_item/index) for the specified index. |
 
 ## Methods
 
 |     |     |
 | --- | --- |
-|[Add](add) | Adds an item. |
-|[Remove](remove) | Removes an item. |
+| **[Add](add)** | Adds an item. |
+| **[Remove](remove)** | Removes an item. |
 
 ## Examples
 

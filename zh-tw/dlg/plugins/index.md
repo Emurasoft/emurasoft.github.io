@@ -1,7 +1,7 @@
 # 「自訂外掛程式」對話方塊
 
 這個對話方塊會顯示當
-[自訂外掛程式 命令](../../cmd/tools/customize_plug_ins) 被選取。
+[**自訂外掛程式** 命令](../../cmd/tools/customize_plug_ins) 被選取。
 
 ## 自訂外掛程式清單方塊
 

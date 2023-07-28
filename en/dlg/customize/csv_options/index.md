@@ -1,6 +1,6 @@
 # CSV Options page
 
-TheCSV Options page allows you to customize settings related to the CSV options.
+The **CSV Options** page allows you to customize settings related to the CSV options.
 
 ## Drag separators only in headings and the ruler with the mouse check box
 
@@ -52,7 +52,7 @@ Uses zero-based numerical characters for the column header.
 
 ## Enable AutoFill in Cell Selection Mode check box
 
-If this is checked,AutoFill handle will be displayed at the bottom right corner of the selected cell border under the CSV selection mode. You can drag the handle to continue a series or pattern into neighboring cells. Double-clicking the AutoFill handle while the selected cell is at the top of the CSV document, the above behavior can be applied to the entire column of the document.
+If this is checked, **AutoFill handle** will be displayed at the bottom right corner of the selected cell border under the CSV selection mode. You can drag the handle to continue a series or pattern into neighboring cells. Double-clicking the AutoFill handle while the selected cell is at the top of the CSV document, the above behavior can be applied to the entire column of the document.
 
 ## Enable Drag and Drop to Move or Copy Cells in Cell Selection Mode check box
 

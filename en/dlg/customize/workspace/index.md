@@ -1,6 +1,6 @@
 # Workspace page
 
-TheWorkspace page allows you to customize settings related to EmEditor
+The **Workspace** page allows you to customize settings related to EmEditor
 workspaces.
 
 ## Automatic Workspace drop-down list box
@@ -9,12 +9,12 @@ Specifies the save and load behavior. Select one of the following options:
 
 |     |     |
 | --- | --- |
-|None | Does not save or restore the workspace. |
-|Save Only | The workspace will be saved automatically when the last group is about to close, but will not restore the workspace automatically when EmEditor is launched. |
-|Load Only | The workspace will be restored automatically when EmEditor is launched, but will not save the workspace automatically when the last group is about to close. |
-|Save and Restore | The workspace will be saved automatically when the last group is about to close, and restored automatically when EmEditor is launched. |
-|Save, Restore and Keep Undo Information | The workspace will be saved automatically when the last group is about to close, and restored automatically when EmEditor is launched. The undo and redo information is also saved and restored. |
-|Save, Restore and Keep Undo Information, and No Prompt to Save Files | The workspace will be saved automatically when the last group is about to close, and restored automatically when EmEditor is launched. The undo and redo information is also saved and restored, and no prompt to save files is displayed when you close the last group. |
+| **None** | Does not save or restore the workspace. |
+| **Save Only** | The workspace will be saved automatically when the last group is about to close, but will not restore the workspace automatically when EmEditor is launched. |
+| **Load Only** | The workspace will be restored automatically when EmEditor is launched, but will not save the workspace automatically when the last group is about to close. |
+| **Save and Restore** | The workspace will be saved automatically when the last group is about to close, and restored automatically when EmEditor is launched. |
+| **Save, Restore and Keep Undo Information** | The workspace will be saved automatically when the last group is about to close, and restored automatically when EmEditor is launched. The undo and redo information is also saved and restored. |
+| **Save, Restore and Keep Undo Information, and No Prompt to Save Files** | The workspace will be saved automatically when the last group is about to close, and restored automatically when EmEditor is launched. The undo and redo information is also saved and restored, and no prompt to save files is displayed when you close the last group. |
 
 ## Do not ask before exiting check box
 

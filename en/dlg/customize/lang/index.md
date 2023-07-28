@@ -1,6 +1,6 @@
 # Language page
 
-TheLanguage page allows you to customize the language used for menus and dialog boxes.
+The **Language** page allows you to customize the language used for menus and dialog boxes.
 
 ## Use System Language radio button
 

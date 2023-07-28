@@ -1,6 +1,6 @@
 # Character Code Value dialog box
 
-TheCharacter Code Value dialog box displays various information about the current character sequence at the cursor position. This dialog box can be accessed by selecting the [Character Code Value command](../../cmd/view/watch_char_code).
+The **Character Code Value** dialog box displays various information about the current character sequence at the cursor position. This dialog box can be accessed by selecting the [**Character Code Value** command](../../cmd/view/watch_char_code).
 
 Character Code Value displays the following information in order.
 
@@ -12,5 +12,5 @@ Character Code Value displays the following information in order.
 6. General category
 7. Byte position in file
 
-The displayed information can be copied by pressingCopy and Close.
+The displayed information can be copied by pressing **Copy and Close**.
 

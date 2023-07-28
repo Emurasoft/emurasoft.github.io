@@ -6,8 +6,8 @@ DisplayList 集合提供 [DisplayItem 对象](../display_item/index) 的集合�
 
 |     |     |
 | --- | --- |
-|[Count](count) | 检索项目的总数。 |
-|[Item](item) | 为指定索引检索 [DisplayItem 对象](../display_item/index)。 |
+| **[Count](count)** | 检索项目的总数。 |
+| **[Item](item)** | 为指定索引检索 [DisplayItem 对象](../display_item/index)。 |
 
 ## 示例
 

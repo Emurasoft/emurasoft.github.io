@@ -6,15 +6,15 @@ AssociationList 集合提供 [AssociationItem 對象](../association_item/index)
 
 |     |     |
 | --- | --- |
-|[Count](count) | 檢索項目的數目。 |
-|[Item](item) | 為指定索引檢索 [AssociationItem 對象](../association_item/index)。 |
+| **[Count](count)** | 檢索項目的數目。 |
+| **[Item](item)** | 為指定索引檢索 [AssociationItem 對象](../association_item/index)。 |
 
 ## 方法
 
 |     |     |
 | --- | --- |
-|[Add](add) | 添加一個項目。 |
-|[Remove](remove) | 刪除一個項目。 |
+| **[Add](add)** | 添加一個項目。 |
+| **[Remove](remove)** | 刪除一個項目。 |
 
 ## 示例
 

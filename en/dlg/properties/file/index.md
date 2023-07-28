@@ -1,6 +1,6 @@
 # File page
 
-TheFile tab allows you to set properties related to file
+The **File** tab allows you to set properties related to file
 operations.
 
 ## Prompt if Null Character Found check box
@@ -22,7 +22,7 @@ instance, if you try to open a Japanese EUC file with the Japanese Shift-JIS
 encoding, and if the file contains a character code value not in the range of
 the Japanese Shift JIS encoding, the warning message will be displayed.
 
-Notice
+**Notice**
 
 Even if this check box is checked, some encodings will not display the
 warning message. For instance, trying to open a Japanese Shift-JIS file with the
@@ -35,7 +35,7 @@ opening a file.
 
 ## Except for Binary Files check box
 
-Disables thePrompt at Inconsistent Newline Characters option if Binary (ASCII View) is selected for the encoding.
+Disables the **Prompt at Inconsistent Newline Characters** option if Binary (ASCII View) is selected for the encoding.
 
 ## Show File Name with Full Path check box
 
@@ -76,7 +76,7 @@ opens an empty file as UTF-8 if this is checked.
 
 ## CSV files to Detect list box
 
-CSV formats checker here are detected when EmEditor opens a file. CSV formats can be defined in the [CSV page](../../customize/csv/index) of theCustomize dialog box.
+CSV formats checker here are detected when EmEditor opens a file. CSV formats can be defined in the [**CSV** page](../../customize/csv/index) of the **Customize** dialog box.
 
 In order to be detected, the CSV file must be at least two lines long, and the same number of delimiters must be used at each line of the file.
 
@@ -97,35 +97,35 @@ Select what to do if the file you are editing is changed by another program.
 
 ## Default Extension text box
 
-If you save a file as a different name, withAll Files (\*.\*) selected in
-theFile Type combo box, and do not specify the file extension, the
+If you save a file as a different name, with **All Files (\*.\*)** selected in
+the **File Type** combo box, and do not specify the file extension, the
 file extension will be the one you selected in this text box.
 
 ## New Files button
 
-Click this button to display the [New File\
-Details dialog box](new_details/index), which allows you to configure the encodings and other
+Click this button to display the [**New File**\
+**Details** dialog box](new_details/index), which allows you to configure the encodings and other
 settings when you create a new file.
 
 ## Saving button
 
-Click this button to display the [Save\
-Details dialog box](save_details/index), which allows you to configure the encodings and other
+Click this button to display the [**Save**\
+**Details** dialog box](save_details/index), which allows you to configure the encodings and other
 settings when you save files.
 
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../reset/index) will be displayed
+[**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 
 You can also move to the following dialog box from this page.
 
- (SelectNew Files
+ (Select **New Files**
 button)
 
 
-(SelectSavings
+(Select **Savings**
 button)
 
 

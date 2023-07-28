@@ -6,15 +6,15 @@ HighlightList 集合提供 [HighlightItem 對象](../highlight_item/index) 的�
 
 |     |     |
 | --- | --- |
-|[Count](count) | 檢索項目總數。 |
-|[Item](item) | 為指定索引檢索 [HighlightItem 對象](../highlight_item/index)。 |
+| **[Count](count)** | 檢索項目總數。 |
+| **[Item](item)** | 為指定索引檢索 [HighlightItem 對象](../highlight_item/index)。 |
 
 ## 方法
 
 |     |     |
 | --- | --- |
-|[Add](add) | 添加一個項目。 |
-|[Remove](remove) | 刪除一個項目。 |
+| **[Add](add)** | 添加一個項目。 |
+| **[Remove](remove)** | 刪除一個項目。 |
 
 ## 示例
 

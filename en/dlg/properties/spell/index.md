@@ -1,6 +1,6 @@
 # Spelling page
 
-TheSpelling page allows you to set properties related to spelling.
+The **Spelling** page allows you to set properties related to spelling.
 
 ## Check Spelling check box
 
@@ -54,6 +54,6 @@ covered by previous controls.
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../reset/index) will be displayed
+[**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

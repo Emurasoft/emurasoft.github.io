@@ -4,7 +4,7 @@
 
 |     |     |
 | --- | --- |
-| [Enabled](enabled) | Corresponds to theEnable<br>Association check box in the <br> [Association page](../../dlg/properties/associate/index) of Configuration Properties. |
+| [Enabled](enabled) | Corresponds to the **Enable**<br>**Association** check box in the <br> [**Association** page](../../dlg/properties/associate/index) of Configuration Properties. |
 | [List](list) | Retrieves the [AssociationList object](../association_list/index). |
 
 ## Version

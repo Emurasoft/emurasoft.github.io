@@ -1,6 +1,6 @@
 # 「亮顯 (2) 」頁面
 
-亮顯 (2) 頁面讓您能設置與亮顯 (2) 相關的屬性。
+**亮顯 (2)** 頁面讓您能設置與亮顯 (2) 相關的屬性。
 
 ## 「註解」群組方塊 \- 「開始」文字方塊
 
@@ -48,9 +48,9 @@
 
 |     |     |
 | --- | --- |
-|(無) | 使用一個與 HTML 無關的檔案。 |
-|HTML | 使用一個 HTML 或 ASP 檔案。這個語法使用 HTML，CSS，JavaScript，VBScript，還有 Script 組態。 |
-|HTML-內嵌 | 使用如同 JSP 或 PHP，HTML 內嵌語言的指令碼語言。這個語法使用 HTML，CSS，JavaScript，VBScript，還有 Script 組態。 |
+| **(無)** | 使用一個與 HTML 無關的檔案。 |
+| **HTML** | 使用一個 HTML 或 ASP 檔案。這個語法使用 HTML，CSS，JavaScript，VBScript，還有 Script 組態。 |
+| **HTML-內嵌** | 使用如同 JSP 或 PHP，HTML 內嵌語言的指令碼語言。這個語法使用 HTML，CSS，JavaScript，VBScript，還有 Script 組態。 |
 
 ## 「亮顯配對標籤」核取方塊
 
@@ -71,5 +71,5 @@
 ## 「重設」按鈕
 
 重設為預設的設定。
-[重設 對話方塊](../reset/index) 會被顯示并讓您能從另一個組態複製設定。
+[**重設** 對話方塊](../reset/index) 會被顯示并讓您能從另一個組態複製設定。
 

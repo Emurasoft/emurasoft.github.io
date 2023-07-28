@@ -4,11 +4,11 @@
 
 |     |     |
 | --- | --- |
-| [Enabled](enabled) | 与配置属性中 [自动保存 页面](../../dlg/properties/autosave/index) 上的自动保存 复选框对应。 |
-| [Folder](folder) | 与配置属性中 [自动保存 页面](../../dlg/properties/autosave/index) 上的自动保存文件夹 文本框对应。 |
-| [Interval](interval) | 与配置属性中 [自动保存 页面](../../dlg/properties/autosave/index) 上的间隔分钟 文本框对应。 |
-| [RenameIfSameNameExists](rename_if_same_name_exists) | 与配置属性中 [自动保存 页面](../../dlg/properties/autosave/index) 上的重命名文件，文件名已存在 复选框对应。 |
-| [SaveToFolder](save_to_folder) | 与配置属性中 [自动保存 页面](../../dlg/properties/autosave/index) 上的保存到自动保存文件夹 复选框对应。 |
+| [Enabled](enabled) | 与配置属性中 [**自动保存** 页面](../../dlg/properties/autosave/index) 上的 **自动保存** 复选框对应。 |
+| [Folder](folder) | 与配置属性中 [**自动保存** 页面](../../dlg/properties/autosave/index) 上的 **自动保存文件夹** 文本框对应。 |
+| [Interval](interval) | 与配置属性中 [**自动保存** 页面](../../dlg/properties/autosave/index) 上的 **间隔分钟** 文本框对应。 |
+| [RenameIfSameNameExists](rename_if_same_name_exists) | 与配置属性中 [**自动保存** 页面](../../dlg/properties/autosave/index) 上的 **重命名文件，文件名已存在** 复选框对应。 |
+| [SaveToFolder](save_to_folder) | 与配置属性中 [**自动保存** 页面](../../dlg/properties/autosave/index) 上的 **保存到自动保存文件夹** 复选框对应。 |
 
 ## 版本
 

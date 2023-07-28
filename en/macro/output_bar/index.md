@@ -4,18 +4,18 @@
 
 |     |     |
 | --- | --- |
-|[CurrentDirectory](current_directory) | Sets the current directory for the output bar. |
-|[Visible](visible) | Shows or hides the output bar. |
-|[Text](text) | Retrieves the entire text in the output bar. |
+| **[CurrentDirectory](current_directory)** | Sets the current directory for the output bar. |
+| **[Visible](visible)** | Shows or hides the output bar. |
+| **[Text](text)** | Retrieves the entire text in the output bar. |
 
 ## Methods
 
 |     |     |
 | --- | --- |
-|[Clear](clear) | Clears the contents of the output bar. |
-|[SetFocus](set_focus) | Sets the keyboard focus to the output bar. |
-|[write](write) | Appends a string to the output bar. |
-|[writeln](writeln) | Appends a string and a newline character to the output bar. |
+| **[Clear](clear)** | Clears the contents of the output bar. |
+| **[SetFocus](set_focus)** | Sets the keyboard focus to the output bar. |
+| **[write](write)** | Appends a string to the output bar. |
+| **[writeln](writeln)** | Appends a string and a newline character to the output bar. |
 
 ## Examples
 

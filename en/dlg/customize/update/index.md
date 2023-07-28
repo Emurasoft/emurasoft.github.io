@@ -1,6 +1,6 @@
 # Update page
 
-TheUpdate page allows you to customize settings related to the notifications.
+The **Update** page allows you to customize settings related to the notifications.
 
 ## Automatically check for updates check box
 

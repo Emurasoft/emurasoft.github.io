@@ -1,7 +1,7 @@
 # “定义编码”对话框
 
 这个对话框会显示当
-[定义编码 命令](../../cmd/tools/define_code_page) 被选择时。
+[**定义编码** 命令](../../cmd/tools/define_code_page) 被选择时。
 
 ## “编码”列表框
 

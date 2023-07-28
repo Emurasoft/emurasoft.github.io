@@ -1,6 +1,6 @@
 # Notifications page
 
-TheNotifications page allows you to customize settings related to the notifications.
+The **Notifications** page allows you to customize settings related to the notifications.
 
 ## Enable/Disable All check box
 

@@ -6,8 +6,8 @@ Documents 集合在一个框架窗口中提供文档对象的集合。
 
 |     |     |
 | --- | --- |
-|[Count](documents_count) | 检索文档的数目。 |
-|[Item](documents_item) | 为指定索引的文档检索文档对象。 |
+| **[Count](documents_count)** | 检索文档的数目。 |
+| **[Item](documents_item)** | 为指定索引的文档检索文档对象。 |
 
 ## 示例
 

@@ -1,6 +1,6 @@
 # View page
 
-TheView page allows you to customize settings related to view.
+The **View** page allows you to customize settings related to view.
 
 ## Custom Bar Colors - Use System Color check box
 
@@ -44,7 +44,7 @@ Synchronizes the wrap mode through out all the documents with the same configura
 
 ## App Theme drop-down list box
 
-IfSystem is selected, EmEditor will use dark colors when Dark mode is used in Windows 10. IfLight is selected, EmEditor will use light colors. However, editor colors can be specified in the [Display page](../../properties/display/index) of configuration properties.
+If **System** is selected, EmEditor will use dark colors when Dark mode is used in Windows 10. If **Light** is selected, EmEditor will use light colors. However, editor colors can be specified in the [**Display** page](../../properties/display/index) of configuration properties.
 
 ## Very Dark (beta) check box
 

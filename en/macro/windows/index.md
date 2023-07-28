@@ -6,8 +6,8 @@ Windows collection provides a collection of window objects.
 
 |     |     |
 | --- | --- |
-|[Count](count) | Retrieves the number of windows. |
-|[Item](item) | Retrieves the window object for the window of the specified index. |
+| **[Count](count)** | Retrieves the number of windows. |
+| **[Item](item)** | Retrieves the window object for the window of the specified index. |
 
 ## Examples
 

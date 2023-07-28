@@ -6,15 +6,15 @@ NoWrapList collection provides a collection of [NoWrapItem objects](../no_wrap_i
 
 |     |     |
 | --- | --- |
-|[Count](count) | Retrieves the number of items. |
-|[Item](item) | Retrieves the [NoWrapItem object](../no_wrap_item/index) for the specified index. |
+| **[Count](count)** | Retrieves the number of items. |
+| **[Item](item)** | Retrieves the [NoWrapItem object](../no_wrap_item/index) for the specified index. |
 
 ## Methods
 
 |     |     |
 | --- | --- |
-|[Add](add) | Adds an item. |
-|[Remove](remove) | Removes an item. |
+| **[Add](add)** | Adds an item. |
+| **[Remove](remove)** | Removes an item. |
 
 ## Examples
 

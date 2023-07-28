@@ -1,8 +1,8 @@
 # Advanced Filter dialog box
 
 This dialog box appears when the
-Advanced Filter command or the
-Advanced Filter button is selected in theFilter toolbar.
+**Advanced Filter** command or the
+**Advanced Filter** button is selected in the **Filter** toolbar.
 
 ## Find \| Columns \| Conditions list box
 
@@ -48,7 +48,7 @@ This matches the whole item in the selected column, character positions, or the 
 
 ## Negative check box
 
-This negates the match condition. Therefore, the lines matched to the specified string will be hidden from the document when displayed. This option does not affect theBookmarked Lines Only,Unbookmarked Lines Only, orMatch Newline Characters options.
+This negates the match condition. Therefore, the lines matched to the specified string will be hidden from the document when displayed. This option does not affect the **Bookmarked Lines Only**, **Unbookmarked Lines Only**, or **Match Newline Characters** options.
 
 ## Bookmarked Lines Only check box
 
@@ -62,52 +62,52 @@ Matches unbookmarked lines only.
 
 Specifies that the string should match literally.
 
-###Regular Expressions radio button
+## **Regular Expressions** radio button
 
 Enables [regular expressions](../../howto/search/search_regexp).
 
-###Escape Sequence radio button
+## **Escape Sequence** radio button
 
 Enables escape sequences. You can use the following characters as escape
 sequences.
 
 |     |     |
 | --- | --- |
-|\\a | Warning (Bell) |
-|\\b | Backspace |
-|\\f | Form feed |
-|\\n | Newline character |
-|\\t | Horizontal tab |
-|\\v | Vertical tab |
-|\\\ | Backslash |
-|\\oooooo | Unicode character in octal notation |
-|\\xhhhh | Unicode character in hexadecimal notation |
+| **\\a** | Warning (Bell) |
+| **\\b** | Backspace |
+| **\\f** | Form feed |
+| **\\n** | Newline character |
+| **\\t** | Horizontal tab |
+| **\\v** | Vertical tab |
+| **\\\** | Backslash |
+| **\\oooooo** | Unicode character in octal notation |
+| **\\xhhhh** | Unicode character in hexadecimal notation |
 
 A null character (\\0) may not be used. \\n must be used instead of \\r.
 
-###Number Range radio button
+## **Number Range** radio button
 
 Enables [number range expressions](../../howto/search/number_range_syntax).
 
 ## Match Newline Characters check box
 
-Matches specified newline characters. This option should be combined withCR Only,LF Only,CR+LF Only, and/orOthers check boxes.
+Matches specified newline characters. This option should be combined with **CR Only**, **LF Only**, **CR+LF Only**, and/or **Others** check boxes.
 
 ## CR Only check box
 
-Matches lines of which the newline character is CR only. This option should be combined with theMatch Newline Characters option.
+Matches lines of which the newline character is CR only. This option should be combined with the **Match Newline Characters** option.
 
 ## LF Only check box
 
-Matches lines of which the newline character is LF only. This option should be combined with theMatch Newline Characters option.
+Matches lines of which the newline character is LF only. This option should be combined with the **Match Newline Characters** option.
 
 ## CR+LF check box
 
-Matches lines of which the newline character is CR and LF. This option should be combined with theMatch Newline Characters option.
+Matches lines of which the newline character is CR and LF. This option should be combined with the **Match Newline Characters** option.
 
 ## Others check box
 
-Matches lines without a newline character. These lines includes the last line of the file and very long lines that continue to the next line without a newline character. This option should be combined with theMatch Newline Characters option.
+Matches lines without a newline character. These lines includes the last line of the file and very long lines that continue to the next line without a newline character. This option should be combined with the **Match Newline Characters** option.
 
 ## Begin Filter check box
 

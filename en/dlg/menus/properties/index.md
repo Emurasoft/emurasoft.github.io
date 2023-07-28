@@ -1,7 +1,7 @@
 # Menu Properties dialog box
 
 This dialog box appears when the
-Properties button is selected on the [Customize Menus dialog box](../index).
+**Properties** button is selected on the [**Customize Menus** dialog box](../index).
 
 ## Command radio button
 

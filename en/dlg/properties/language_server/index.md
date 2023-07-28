@@ -1,6 +1,6 @@
 # Language Server page
 
-TheLanguage Server page allows you to set properties related to language server.
+The **Language Server** page allows you to set properties related to language server.
 
 ## 
 
@@ -9,8 +9,8 @@ TheLanguage Server page allows you to set properties related to language server.
 Enabling Language Server Protocol turns on the following features:
 
 - Hover tooltips
--Search Symbols in theSearch menu
-- Allows selectingLanguage Server Protocol as theDocument Type forSyntax Check
+- **Search Symbols** in the **Search** menu
+- Allows selecting **Language Server Protocol** as the **Document Type** for **Syntax Check**
 
 ### Document Type drop-down list box
 
@@ -18,7 +18,7 @@ Specifies the language server to use. The HTML, CSS, JavaScript, and Perl server
 
 ### Reset button
 
-Resets to default settings. The [Reset dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
+Resets to default settings. The [**Reset** dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
 
 ## Language Server installation
 

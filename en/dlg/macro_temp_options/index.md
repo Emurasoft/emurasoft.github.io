@@ -1,7 +1,7 @@
 # Macro Temporary Options dialog box
 
 This dialog box appears when the
-[Run with Temporary Options \
+[**Run with Temporary Options** \
 command](../../cmd/macros/macro_run_options) is selected.
 
 ## Macro text box
@@ -10,11 +10,11 @@ Specifies the macro file name to run. If the current macro has been recorded and
 
 ## ... button
 
-Click this button to display theOpen dialog box where you can select a macro file to run.
+Click this button to display the **Open** dialog box where you can select a macro file to run.
 
 ## ▼ button
 
-Click this button to display the default macro, the (Clipboard) option and the list ofMy Macros.
+Click this button to display the default macro, the (Clipboard) option and the list of **My Macros**.
 
 ## Set this as the default macro check box
 
@@ -36,11 +36,11 @@ If this box is checked, the macro starts with "Redraw = false". EmEditor will su
 
 ## Run the macro against each opened document check box
 
-If this box is checked, you can specify files to open before running the macro. The macro will be run immediately after each specified file is opened. If theRepeat Count is specified, the macro will be repeated for each opened file.
+If this box is checked, you can specify files to open before running the macro. The macro will be run immediately after each specified file is opened. If the **Repeat Count** is specified, the macro will be repeated for each opened file.
 
 ## Name list box
 
-Specifies the files to open if theRun the macro against each opened document check box is set.
+Specifies the files to open if the **Run the macro against each opened document** check box is set.
 
 ## Add button
 

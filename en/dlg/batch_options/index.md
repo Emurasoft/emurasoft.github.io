@@ -1,7 +1,7 @@
 # Batch Options dialog box
 
 This dialog box appears when the
-Batch Options is selected in the Batch Find/Replace dialog box.
+**Batch Options** is selected in the Batch Find/Replace dialog box.
 
 ## Enable Separator check box
 

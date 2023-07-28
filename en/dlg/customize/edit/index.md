@@ -1,6 +1,6 @@
 # Edit page
 
-TheEdit page allows you to customize settings related to edit
+The **Edit** page allows you to customize settings related to edit
 operations.
 
 ## Specify Tag Format using Regular Expressions check box
@@ -25,8 +25,8 @@ Specifies a regular expression to match a column number.
 
 ## Save Insert/Overwrite Mode check box
 
-If this box is checked,Insert/Overwrite mode will be saved, and the next time
-you start a new EmEditor window, theInsert/Overwrite mode will restored. If
+If this box is checked, **Insert/Overwrite** mode will be saved, and the next time
+you start a new EmEditor window, the **Insert/Overwrite** mode will restored. If
 this box is not checked, EmEditor always starts with the insert mode.
 
 ## Enable Multiple Selections check box
@@ -47,13 +47,13 @@ After inserting a string and moving the cursor up or down, returns the cursor po
 
 ## Undo Character by Character (need to restart EmEditor) check box
 
-If this box is checked, the [Undo command](../../../cmd/edit/edit_undo) will undo the word, character by character.
+If this box is checked, the [**Undo** command](../../../cmd/edit/edit_undo) will undo the word, character by character.
 This action will also affect macros which record an insert command, character by character. To activate the new settings, you need to restart EmEditor.
 
 ## Always Discard Lengthy Undo Information to Accelerate check box
 
 Always discards lengthy undo information. EmEditor determines that Undo information is
-lengthy enough to discard if one of the following conditions is met: (1) the number of lines is greater than 3,000,000 lines. (2) the number of characters is greater than 100,000,000. (3) the percentage of the system physical memory in use is greater than theMaximum Memory Size specified in theAdvanced page of theCustomize dialog box.
+lengthy enough to discard if one of the following conditions is met: (1) the number of lines is greater than 3,000,000 lines. (2) the number of characters is greater than 100,000,000. (3) the percentage of the system physical memory in use is greater than the **Maximum Memory Size** specified in the **Advanced** page of the **Customize** dialog box.
 
 ## Prompt when No Undo Information is Available check box
 
@@ -61,7 +61,7 @@ Displays a dialog box to prompt users when no Undo information is available.
 
 ## Auto Copy check box
 
-This option allows you to copy the selection automatically to the Clipboard without selecting the Copy command (CTRL + C). While theAuto Copy mode is on, the selection will be copied to the Clipboard immediately before the selection is deselected or deleted, immediately before the active document is switched, or the editor loses the keyboard focus. However, it does not work during the CSV cell mode.
+This option allows you to copy the selection automatically to the Clipboard without selecting the Copy command (CTRL + C). While the **Auto Copy** mode is on, the selection will be copied to the Clipboard immediately before the selection is deselected or deleted, immediately before the active document is switched, or the editor loses the keyboard focus. However, it does not work during the CSV cell mode.
 
 ## Prompt when Very Long Lines Exist check box
 
@@ -85,11 +85,11 @@ If this is checked, EmEditor will keep selections while typing in multiple selec
 
 ## Alternative behavior of the Word Right command check box
 
-If this is checked, EmEditor will use an alternative behavior of the [Word Right](../../../cmd/edit/right_word) command.
+If this is checked, EmEditor will use an alternative behavior of the [**Word Right**](../../../cmd/edit/right_word) command.
 
 ## Alternative behavior of the Word Left command check box
 
-If this is checked, EmEditor will use an alternative behavior of the [Word Left](../../../cmd/edit/left_word) command.
+If this is checked, EmEditor will use an alternative behavior of the [**Word Left**](../../../cmd/edit/left_word) command.
 
 ## Ignore the last character in the selection on the Insert/Remove Newline Characters commands check box
 
@@ -105,7 +105,7 @@ If this is checked, EmEditor will extend selection when you run Duplicate Lines/
 
 ## Locale-dependent Uppercase/Lowercase check box
 
-If this is checked, theUppercase,Lowercase, andCapitalize commands will depend on the locale specified in theSort page of theCustomize dialog box.
+If this is checked, the **Uppercase**, **Lowercase**, and **Capitalize** commands will depend on the locale specified in the **Sort** page of the **Customize** dialog box.
 
 ## Treat the following characters as alphanumeric text box
 

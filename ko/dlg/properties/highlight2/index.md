@@ -1,6 +1,6 @@
 # 강조 표시 (2) 탭
 
-강조 표시 (2) 탭은 강조 표시 (2)와 관련된 속성을 설정하도록 합니다.
+**강조 표시 (2)** 탭은 강조 표시 (2)와 관련된 속성을 설정하도록 합니다.
 
 ## 설명 그룹 박스 \- 시작 텍스트 박스
 
@@ -48,9 +48,9 @@
 
 |     |     |
 | --- | --- |
-|(없음) | HTML와 관련이 없는 파일을 사용합니다. |
-|HTML | HTML 또는 ASP 파일을 사용합니다. HTML, CSS, JavaScript, VBScript, 및 Script configurations을 사용합니다. |
-|HTML-포함 | JSP 또는 PHP, HTML 포함 언어와 같은 스크립트 언어를 사용합니다.<br> HTML, CSS, JavaScript, VBScript, 및 Script configurations을 사용합니다. |
+| **(없음)** | HTML와 관련이 없는 파일을 사용합니다. |
+| **HTML** | HTML 또는 ASP 파일을 사용합니다. HTML, CSS, JavaScript, VBScript, 및 Script configurations을 사용합니다. |
+| **HTML-포함** | JSP 또는 PHP, HTML 포함 언어와 같은 스크립트 언어를 사용합니다.<br> HTML, CSS, JavaScript, VBScript, 및 Script configurations을 사용합니다. |
 
 ## 대응 태그 강조하기 체크 박스
 
@@ -80,5 +80,5 @@ XHTML과 XML 문서 내 커서 위치에 내부 태그와 대응 태그를 강�
 ## 초기화 버튼
 
 기본값으로 초기화합니다.
-[초기화 대화 상자](../reset/index) 가 나타나고 기타 구성에서 복사할 수 있도록 합니다.
+[**초기화** 대화 상자](../reset/index) 가 나타나고 기타 구성에서 복사할 수 있도록 합니다.
 

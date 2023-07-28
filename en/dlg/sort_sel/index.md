@@ -1,7 +1,7 @@
 # Sort Selection dialog box
 
 This dialog box appears when the
-[Sort/Remove Duplicate split strings in Selection command](../../cmd/sort/sort_sel) is selected.
+[**Sort/Remove Duplicate split strings in Selection** command](../../cmd/sort/sort_sel) is selected.
 
 ## Separator text box
 
@@ -9,7 +9,7 @@ Specifies a string as a separator when sorting a selection.
 
 ## Detect separator automatically check box
 
-If this is checked, this dialog box detects the separator, and updates theSeparator text box.
+If this is checked, this dialog box detects the separator, and updates the **Separator** text box.
 
 ## Remove duplicate split strings check box
 

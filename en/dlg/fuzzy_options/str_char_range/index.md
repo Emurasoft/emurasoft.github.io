@@ -1,7 +1,7 @@
 # String/Character Range dialog box
 
-This dialog box appears when the [Add button](../../properties/char_check/index)
-on the [Fuzzy Matching Options dialog box](../index) is selected.
+This dialog box appears when the [**Add** button](../../properties/char_check/index)
+on the [**Fuzzy Matching Options** dialog box](../index) is selected.
 
 ## String radio button/text box
 
@@ -25,7 +25,7 @@ Enter the minimum character of a range. You may enter at least 4-digit character
 
 ## Maximum character text box
 
-Enter the maximum character of a range as the same format as theMinimum character text box.
+Enter the maximum character of a range as the same format as the **Minimum character** text box.
 
 ## Treat as - Ignore radio button
 

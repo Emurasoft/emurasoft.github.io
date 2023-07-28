@@ -1,11 +1,11 @@
 # Clipboard page
 
-TheClipboard page allows you to customize settings related to clipboard
+The **Clipboard** page allows you to customize settings related to clipboard
 operations.
 
 ## Show Clipboard History on Paste check box
 
-If this is checked, EmEditor will showShow Clipboard History button when the[Paste](../../../cmd/edit/edit_paste) command was selected. Clicking this button or selecting theShow Clipboard History (default shortcut: Ctrl+Shift+V) command displays theClipboard History listbox, which allows you to quickly select a previously used Clipboard text.
+If this is checked, EmEditor will show **Show Clipboard History** button when the **[Paste](../../../cmd/edit/edit_paste)** command was selected. Clicking this button or selecting the **Show Clipboard History** (default shortcut: Ctrl+Shift+V) command displays the **Clipboard History** listbox, which allows you to quickly select a previously used Clipboard text.
 
 ## Monitor the Clipboard copied on External Applications check box
 

@@ -1,6 +1,6 @@
 # Syntax Check page
 
-TheSyntax Check page allows you to customize the syntax checker.
+The **Syntax Check** page allows you to customize the syntax checker.
 
 ## Syntax Checker Engine drop-down list box
 
@@ -16,7 +16,7 @@ Syntax check for HTML/CSS/JSON documents will be disabled if any line length per
 
 ## Translation URL text box
 
-Specifies the URL to use for the Translate Online command on a HTML/CSS/JSON syntax check result. "%1" is a placeholder for the destination language identifier (for instance, "ja" for Japanese), and "%2" is a placeholder for the UTF-8 percent-encoded source text. Note that the translation feature is available only when non-English is selected in theLanguage page of the Customize dialog box.
+Specifies the URL to use for the Translate Online command on a HTML/CSS/JSON syntax check result. "%1" is a placeholder for the destination language identifier (for instance, "ja" for Japanese), and "%2" is a placeholder for the UTF-8 percent-encoded source text. Note that the translation feature is available only when non-English is selected in the **Language** page of the Customize dialog box.
 
 ## Validate XML documents (XML) check box
 

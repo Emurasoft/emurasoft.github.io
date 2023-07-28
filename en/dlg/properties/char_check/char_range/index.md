@@ -1,7 +1,7 @@
 # Character Range dialog box
 
-This dialog box appears when the [Add button](../index)
-on the [Character Check page](../index) is selected.
+This dialog box appears when the [**Add** button](../index)
+on the [**Character Check** page](../index) is selected.
 
 ## Unicode Script list box
 
@@ -17,5 +17,5 @@ Enter the minimum character of a range. You may enter at least 4-digit character
 
 ## Maximum character text box
 
-Enter the maximum character of a range as the same format as theMinimum character text box.
+Enter the maximum character of a range as the same format as the **Minimum character** text box.
 

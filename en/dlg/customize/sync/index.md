@@ -1,6 +1,6 @@
 # Sync page
 
-TheSync page allows you to customize sync settings.
+The **Sync** page allows you to customize sync settings.
 
 ## Sync Settings checkbox
 

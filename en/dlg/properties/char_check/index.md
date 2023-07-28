@@ -1,6 +1,6 @@
 # Character Check page
 
-TheCharacter Check page allows you to set properties related to character check.
+The **Character Check** page allows you to set properties related to character check.
 
 ## Check before savings check box
 
@@ -32,7 +32,7 @@ Click this check box to warn characters outside of specified ranges.
 
 ## Add button
 
-[Character Range dialog box](char_range/index) will be displayed and will allow you to add specified range to the list.
+[**Character Range** dialog box](char_range/index) will be displayed and will allow you to add specified range to the list.
 
 ## Delete button
 
@@ -45,12 +45,12 @@ Lists the user-defined character ranges. Double-clicking on an item in the list 
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../reset/index) will be displayed
+[**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 
 You can also move to the following dialog box from this page.
 
- (SelectAdd
+ (Select **Add**
 button)
 
 

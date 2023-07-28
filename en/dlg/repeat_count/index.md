@@ -1,6 +1,6 @@
 # Repeat dialog box
 
-This dialog box appears when the [Repeat Steps command](../../cmd/edit/repeat_steps) is selected. You can specify a count to repeat the specified last steps.
+This dialog box appears when the [**Repeat Steps** command](../../cmd/edit/repeat_steps) is selected. You can specify a count to repeat the specified last steps.
 
 ## Select steps to repeat list
 

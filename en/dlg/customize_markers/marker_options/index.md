@@ -1,6 +1,6 @@
 # Options tab
 
-TheOptions tab allows you to customize the marker options.
+The **Options** tab allows you to customize the marker options.
 
 ## Default Color drop-down list box
 
@@ -8,7 +8,7 @@ Specifies which color should be used for the next marker when you add to the mar
 
 ## Prompt to remove one marker from the list check box
 
-When this check box is checked, EmEditor displays a prompt message box for confirmation when a user selects theDelete command from the right-click menu on the Marker toolbar.
+When this check box is checked, EmEditor displays a prompt message box for confirmation when a user selects the **Delete** command from the right-click menu on the Marker toolbar.
 
 ## Show or hide the markers toolbar automatically check box
 

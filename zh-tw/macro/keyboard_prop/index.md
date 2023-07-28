@@ -4,7 +4,7 @@
 
 |     |     |
 | --- | --- |
-| [List](list) | 檢索 [KeyboardList 集合](../keyboard_list/index)。 |
+| [List](list) | 檢索 [**KeyboardList** 集合](../keyboard_list/index)。 |
 
 ## 版本
 

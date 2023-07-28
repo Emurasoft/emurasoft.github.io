@@ -1,13 +1,13 @@
 # Configs 컬렉션
 
-Configs 컬렉션은 [Config 개체](../config/index) 의 컬렉션을 제공합니다.
+Configs 컬렉션은 [**Config** 개체](../config/index) 의 컬렉션을 제공합니다.
 
 ## 속성
 
 |     |     |
 | --- | --- |
-|[Count](count) | 구성의 수를 검색합니다. |
-|[Item](item) | 지정된 인덱스의 구성을 위한 [Config 개체](../config/index) 를 검색합니다. |
+| **[Count](count)** | 구성의 수를 검색합니다. |
+| **[Item](item)** | 지정된 인덱스의 구성을 위한 [**Config** 개체](../config/index) 를 검색합니다. |
 
 ## 예시
 

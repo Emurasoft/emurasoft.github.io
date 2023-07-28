@@ -6,8 +6,8 @@ FontList 集合提供 [FontItem 對象](../font_item/index) 的集合。
 
 |     |     |
 | --- | --- |
-|[Count](count) | 檢索項目數量。 |
-|[Item](item) | 為指定的索引檢索 [FontItem 對象](../font_item/index)。 |
+| **[Count](count)** | 檢索項目數量。 |
+| **[Item](item)** | 為指定的索引檢索 [FontItem 對象](../font_item/index)。 |
 
 ## 示例
 

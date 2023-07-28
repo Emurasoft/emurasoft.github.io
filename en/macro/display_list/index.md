@@ -6,8 +6,8 @@ DisplayList collection provides a collection of [DisplayItem objects](../display
 
 |     |     |
 | --- | --- |
-|[Count](count) | Retrieves the number of items. |
-|[Item](item) | Retrieves the [DisplayItem object](../display_item/index) for the specified index. |
+| **[Count](count)** | Retrieves the number of items. |
+| **[Item](item)** | Retrieves the [DisplayItem object](../display_item/index) for the specified index. |
 
 ## Examples
 

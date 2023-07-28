@@ -1,8 +1,8 @@
 # How to Purchase dialog box
 
 This dialog box appears when EmEditor launches without entering the
-registration key or when theHow to Purchase
-button on the [About EmEditor dialog box](../about/index) is
+registration key or when the **How to Purchase**
+button on the [**About EmEditor** dialog box](../about/index) is
 selected.
 
 ## (URL) text

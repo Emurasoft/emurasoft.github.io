@@ -1,7 +1,7 @@
 # 「定義編碼」對話方塊
 
 這個對話方塊會顯示當
-[定義編碼 命令](../../cmd/tools/define_code_page) 被選擇時。
+[**定義編碼** 命令](../../cmd/tools/define_code_page) 被選擇時。
 
 ## 「編碼」清單方塊
 

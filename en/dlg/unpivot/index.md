@@ -1,7 +1,7 @@
 # Unpivot dialog box
 
 This dialog box appears when the
-[Unpivot command](../../cmd/edit/unpivot) is selected.
+[**Unpivot** command](../../cmd/edit/unpivot) is selected.
 
 ## Attribute name text box
 

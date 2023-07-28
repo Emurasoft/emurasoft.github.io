@@ -1,9 +1,9 @@
 # (Extension) Properties dialog box
 
 This dialog box appears when the
-Properties
+**Properties**
 button is selected on the
-[Associate with EmEditor dialog box](../index). You can set properties for the
+[**Associate with EmEditor** dialog box](../index). You can set properties for the
 specified extension.
 
 ## Extension text box

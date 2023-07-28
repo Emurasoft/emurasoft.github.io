@@ -1,7 +1,7 @@
 # “自定义插件”对话框
 
 这个对话框会显示当
-[自定义插件 命令](../../cmd/tools/customize_plug_ins) 被选取。
+[**自定义插件** 命令](../../cmd/tools/customize_plug_ins) 被选取。
 
 ## “自定义插件”列表框
 

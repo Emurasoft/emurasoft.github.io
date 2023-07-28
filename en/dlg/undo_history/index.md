@@ -1,6 +1,6 @@
 # Undo/Redo History dialog box
 
-This dialog box appears when the [Undo/Redo History command](../../cmd/edit/undo_history) is selected. You can jump to a particular action in the history, or export and import the undo/redo history.
+This dialog box appears when the [**Undo/Redo History** command](../../cmd/edit/undo_history) is selected. You can jump to a particular action in the history, or export and import the undo/redo history.
 
 ## List
 
@@ -28,7 +28,7 @@ Imports a previously exported CSV file containing the Undo/Redo history. The cur
 
 ## Export button
 
-Exports the Undo/Redo history into a CSV file. When you import the file next time, the document must be identical to the current document. If you would like to redo the same actions in the future by importing the history, you shouldUndo All before you export the history.
+Exports the Undo/Redo history into a CSV file. When you import the file next time, the document must be identical to the current document. If you would like to redo the same actions in the future by importing the history, you should **Undo All** before you export the history.
 
 ## Clear All button
 

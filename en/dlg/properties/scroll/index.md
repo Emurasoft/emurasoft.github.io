@@ -1,6 +1,6 @@
 # Scroll page
 
-TheScroll page allows you to set properties related to scroll
+The **Scroll** page allows you to set properties related to scroll
 operations.
 
 ## Horizontal Scroll Bar drop-down list box
@@ -9,9 +9,9 @@ Specifies how to display the horizontal scroll bar.
 
 |     |     |
 | --- | --- |
-|Nothing | Does not display the horizontal scroll bar. |
-|Display Only when Necessary | Displays the horizontal scroll bar only when the length of a line is <br> longer than the window width. |
-|Always Display | Always displays the horizontal scroll bar. |
+| **Nothing** | Does not display the horizontal scroll bar. |
+| **Display Only when Necessary** | Displays the horizontal scroll bar only when the length of a line is <br> longer than the window width. |
+| **Always Display** | Always displays the horizontal scroll bar. |
 
 ## Vertical Scroll Bar drop-down list box
 
@@ -19,9 +19,9 @@ Specifies how to display the vertical scroll bar.
 
 |     |     |
 | --- | --- |
-|Nothing | Does not display the vertical scroll bar. |
-|Display Only when Necessary | Displays the vertical scroll bar only when the number of total lines is <br> larger than one that the current window can display. |
-|Always Display | Always displays the vertical scroll bar. |
+| **Nothing** | Does not display the vertical scroll bar. |
+| **Display Only when Necessary** | Displays the vertical scroll bar only when the number of total lines is <br> larger than one that the current window can display. |
+| **Always Display** | Always displays the vertical scroll bar. |
 
 ## Smooth Scroll check box
 
@@ -60,9 +60,7 @@ Scroll 2 lines at a time. Check this box if you want to scroll the window faster
 Make cursor movement faster. If this box is checked, the cursor moves double at a time when one
 of the arrow keys is repeated by being pressed.
 
-### 
-
-####Tips: You can also adjust the keyboard repeat rate on theSpeed tab ofKeyboard Properties on theControl Panel.
+### **Tips:** You can also adjust the keyboard repeat rate on the **Speed** tab of **Keyboard** Properties on the **Control Panel**.
 
 ## Move Cursor by Scrolling check box
 
@@ -136,6 +134,6 @@ If this is checked, the UP arrow button will appear at the top of the minimap an
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../reset/index) will be displayed
+[**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

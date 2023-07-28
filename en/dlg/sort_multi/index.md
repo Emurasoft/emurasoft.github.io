@@ -1,8 +1,8 @@
 # Advanced Sort dialog box
 
 This dialog box appears when the
-[Advanced Sort command](../../cmd/edit/sort_multi) or the
-Advanced Sort button is selected in a toolbar.
+[**Advanced Sort** command](../../cmd/edit/sort_multi) or the
+**Advanced Sort** button is selected in a toolbar.
 
 ## Columns list box
 
@@ -54,7 +54,7 @@ Sorts only the selected lines.
 
 ## Advanced Options button
 
-Click this button to display the [Sort page](../customize/sort/index) of theCustomize dialog box.
+Click this button to display the [**Sort** page](../customize/sort/index) of the **Customize** dialog box.
 
 ## Sort Now button
 

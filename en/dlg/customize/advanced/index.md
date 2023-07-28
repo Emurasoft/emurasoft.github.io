@@ -1,6 +1,6 @@
 # Advanced page
 
-TheAdvanced page allows you to customize advanced settings. You will need to restart EmEditor if you change these options.
+The **Advanced** page allows you to customize advanced settings. You will need to restart EmEditor if you change these options.
 
 ## Do not share process between documents (disables tabs) check box
 
@@ -16,7 +16,7 @@ running speed, EmEditor uses a temporary file only when the file size is larger 
 
 ## Auto check box
 
-If this box is checked, EmEditor automatically determines whether a temporary file should be used to open a file depending on the available memory size. When this option is enabled, EmEditor will use a temporary file if the file size to be opened is more than approximately 1/4 of the available memory. Setting this option allows EmEditor to optimize the speed both for read and write. However, if you mainly read large files and don't edit them, disabling this option and entering a smaller number in theMinimum File Size to use Temporary File text box makes EmEditor to read large files faster.
+If this box is checked, EmEditor automatically determines whether a temporary file should be used to open a file depending on the available memory size. When this option is enabled, EmEditor will use a temporary file if the file size to be opened is more than approximately 1/4 of the available memory. Setting this option allows EmEditor to optimize the speed both for read and write. However, if you mainly read large files and don't edit them, disabling this option and entering a smaller number in the **Minimum File Size to use Temporary File** text box makes EmEditor to read large files faster.
 
 ## Minimum File Size to use Temporary File text box
 

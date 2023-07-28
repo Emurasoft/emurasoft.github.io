@@ -18,8 +18,8 @@ Specifies which configuration is associated with the selected file type.
 
 ## Use in Find in Files Filter check box
 
-Specifies whether the selected file type is used for theCurrent File
-Type in theFind in Files dialog box.
+Specifies whether the selected file type is used for the **Current File**
+**Type** in the **Find in Files** dialog box.
 
 ## New button
 
@@ -52,9 +52,9 @@ Applies the settings now without closing the dialog box.
 ## Associate with EmEditor button
 
 Displays the
-[Associate with EmEditor dialog box](../../dlg/file_associate/index), where the user can specify which file extensions to associate with EmEditor.
+[**Associate with EmEditor** dialog box](../../dlg/file_associate/index), where the user can specify which file extensions to associate with EmEditor.
 
 The following dialog box is also available through this dialog box.
 
- (SelectAssociate with EmEditor button)
+ (Select **Associate with EmEditor** button)
 

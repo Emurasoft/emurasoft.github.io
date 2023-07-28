@@ -6,15 +6,15 @@ HighlightList コレクションは [HighlightItem オブジェクトのコレ�
 
 |     |     |
 | --- | --- |
-|[Count](count) | アイテムの数を取得します。 |
-|[Item](item) | 指定したインデックスの [HighlightItem オブジェクト](../highlight_item/index) を取得します。 |
+| **[Count](count)** | アイテムの数を取得します。 |
+| **[Item](item)** | 指定したインデックスの [HighlightItem オブジェクト](../highlight_item/index) を取得します。 |
 
 ## メソッド
 
 |     |     |
 | --- | --- |
-|[Add](add) | アイテムを追加します。 |
-|[Remove](remove) | アイテムを削除します。 |
+| **[Add](add)** | アイテムを追加します。 |
+| **[Remove](remove)** | アイテムを削除します。 |
 
 ## 例
 

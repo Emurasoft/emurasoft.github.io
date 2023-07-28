@@ -1,6 +1,6 @@
 # “高亮（2）”页面
 
-高亮（2） 页面让你能设置与高亮（2）相关的属性。
+**高亮（2）** 页面让你能设置与高亮（2）相关的属性。
 
 ## “注释”群组框 \- “开始”文本框
 
@@ -48,9 +48,9 @@
 
 |     |     |
 | --- | --- |
-|（无） | 使用一个与 HTML 无关的文件。 |
-|HTML | 使用一个 HTML 或 ASP 文件。这个语法使用 HTML，CSS，JavaScript，VBScript，还有 Script 配置。 |
-|HTML-内嵌 | 使用如同 JSP 或 PHP，HTML 内嵌语言的脚本语言。这个语法使用 HTML，CSS，JavaScript，VBScript，还有 Script 配置。 |
+| **（无）** | 使用一个与 HTML 无关的文件。 |
+| **HTML** | 使用一个 HTML 或 ASP 文件。这个语法使用 HTML，CSS，JavaScript，VBScript，还有 Script 配置。 |
+| **HTML-内嵌** | 使用如同 JSP 或 PHP，HTML 内嵌语言的脚本语言。这个语法使用 HTML，CSS，JavaScript，VBScript，还有 Script 配置。 |
 
 ## “高亮配对标签”复选框
 
@@ -70,5 +70,5 @@
 
 ## 「重置」按钮
 
-重置为默认设定。会显示 [重置 对话框](../reset/index) 并让你能从另一个配置复制设定。
+重置为默认设定。会显示 [**重置** 对话框](../reset/index) 并让你能从另一个配置复制设定。
 

@@ -1,10 +1,10 @@
 # Insert Numbering dialog box
 
-This dialog box appears when the [Numbering command](../../cmd/edit/numbering) is selected. It allows you to insert sequential numbers at the cursor position or vertical selection.
+This dialog box appears when the [**Numbering** command](../../cmd/edit/numbering) is selected. It allows you to insert sequential numbers at the cursor position or vertical selection.
 
 ## First Line text box
 
-Specifies an initial value or character to insert at the first line. This text may include non-number prefix and/or suffix unless theCharacter radio button is selected.
+Specifies an initial value or character to insert at the first line. This text may include non-number prefix and/or suffix unless the **Character** radio button is selected.
 
 ## Increment text box
 

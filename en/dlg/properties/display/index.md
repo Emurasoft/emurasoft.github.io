@@ -1,6 +1,6 @@
 # Display page
 
-TheDisplay page allows you to set properties related to display.
+The **Display** page allows you to set properties related to display.
 
 ## Theme drop-down list box
 
@@ -12,14 +12,14 @@ A menu regarding the themes appears when this button is clicked. Select one of t
 
 |     |     |
 | --- | --- |
-|Save | Saves the settings to the selected theme. |
-|Copy | Copies the selected theme as another name. |
-|Rename | Changes the name of the theme. |
-|Delete | Deletes the selected theme. |
-|Import | Imports a theme from a theme file. |
-|Export | Exports the selected theme into a theme file. |
-|Export All | Exports all themes. |
-|Reset All | Resets all themes. |
+| **Save** | Saves the settings to the selected theme. |
+| **Copy** | Copies the selected theme as another name. |
+| **Rename** | Changes the name of the theme. |
+| **Delete** | Deletes the selected theme. |
+| **Import** | Imports a theme from a theme file. |
+| **Export** | Exports the selected theme into a theme file. |
+| **Export All** | Exports all themes. |
+| **Reset All** | Resets all themes. |
 
 ## Search text box
 
@@ -67,7 +67,7 @@ Select the entire list.
 
 ## Quote Marks text box
 
-List of quote marks to be used when recognizingQuoted Lines.
+List of quote marks to be used when recognizing **Quoted Lines**.
 
 ## Line Space text box
 
@@ -89,6 +89,6 @@ Specify the font to be used to display text.
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../reset/index) will be displayed
+[**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

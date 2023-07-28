@@ -12,7 +12,7 @@
 
 ## 「註冊金鑰」文字方塊
 
-請把目前的版本的 EmEditor Professional 的註冊金鑰複製到剪貼簿中，選擇該文字方塊，然後按CTRL + V，或者右擊顯示內容功能表，並選擇貼上。在購買 EmEditor Professional 之後，您通常可以在發送給您的電子郵件中找到金鑰。如果您在購買之後沒有收到含有金鑰的郵件，請檢視您的垃圾郵件箱。如果還是沒有，請聯繫我們（shared@emurasoft.com）。如果你的授權是永久授權，請到 Emurasoft 客戶中心獲取最新版本的註冊金鑰。(https://support.emeditor.com/zh-Hant/sendkeys).
+請把目前的版本的 EmEditor Professional 的註冊金鑰複製到剪貼簿中，選擇該文字方塊，然後按 **CTRL + V**，或者右擊顯示內容功能表，並選擇 **貼上**。在購買 EmEditor Professional 之後，您通常可以在發送給您的電子郵件中找到金鑰。如果您在購買之後沒有收到含有金鑰的郵件，請檢視您的垃圾郵件箱。如果還是沒有，請聯繫我們（shared@emurasoft.com）。如果你的授權是永久授權，請到 Emurasoft 客戶中心獲取最新版本的註冊金鑰。(https://support.emeditor.com/zh-Hant/sendkeys).
 
 ## 「如何註冊 \- 登入（推薦給訂閱使用者）」選項按鈕
 

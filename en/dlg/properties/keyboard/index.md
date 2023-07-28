@@ -1,6 +1,6 @@
 # Keyboard page
 
-TheKeyboard page allows you to set properties related to basic
+The **Keyboard** page allows you to set properties related to basic
 operations.
 
 ## Category drop-down list box
@@ -46,6 +46,6 @@ Delete the currently selected shortcut key.
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../reset/index) will be displayed
+[**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 

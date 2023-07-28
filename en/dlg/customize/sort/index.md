@@ -36,15 +36,15 @@ Hyphen and apostrophe are treated as normal characters. This is off by default t
 
 ## Treat digits as numbers check box
 
-If this is checked, digits are sorted as numbers even when usingSort A to Z orSort Z to A commands. For example, "2" is sorted before "10".
+If this is checked, digits are sorted as numbers even when using **Sort A to Z** or **Sort Z to A** commands. For example, "2" is sorted before "10".
 
 ## Ignore leading non-numeric characters when sorting numbers check box
 
-If this is checked, leading non-numeric characters are ignored when usingSort Smallest to Largest orSort Largest to Smallest commands.
+If this is checked, leading non-numeric characters are ignored when using **Sort Smallest to Largest** or **Sort Largest to Smallest** commands.
 
 ## Treat full-width characters as 2 characters when sorting by length check box
 
-If this is checked, full width characters are treated as 2 characters when usingSort Shortest to Longest orSort Longest to Shortest commands.
+If this is checked, full width characters are treated as 2 characters when using **Sort Shortest to Longest** or **Sort Longest to Shortest** commands.
 
 ## Compare unquoted strings in cells of CSV documents check box
 

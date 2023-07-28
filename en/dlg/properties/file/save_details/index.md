@@ -1,7 +1,7 @@
 # Save Details dialog box
 
-This dialog box appears when theSaving button
-on the [File page](../index) of Configuration Properties is selected.
+This dialog box appears when the **Saving** button
+on the [**File** page](../index) of Configuration Properties is selected.
 
 ## Prompt when Saving Unicode as ANSI check box
 
@@ -34,7 +34,7 @@ Delete the file if the document is empty.
 
 ## Always Enable Saving check box
 
-Enable the [Save command](../../../../cmd/file/file_save) even
+Enable the [**Save** command](../../../../cmd/file/file_save) even
 if the document is not modified.
 
 ## Delete Spaces at End of Lines check box
@@ -62,14 +62,14 @@ Order Mark (BOM) signature to the file.
 
 ## Newline Character drop-down list box
 
-Specify how to save returns.No Change will not change the return
-styles.CR+LF (Windows) will change all returns to CR plus LF pairs.CR only (Macintosh) will change all returns to CRs.LF only (Unix)
+Specify how to save returns. **No Change** will not change the return
+styles. **CR+LF (Windows)** will change all returns to CR plus LF pairs. **CR only (Macintosh)** will change all returns to CRs. **LF only (Unix)**
 will change returns to LFs. Generally, Windows uses CR+LF for all returns.
 Macintosh uses CRs only, and Unix uses LFs only.
 
 ## Reset button
 
 Resets to default settings. The
-[Reset dialog box](../../reset/index) will be displayed
+[**Reset** dialog box](../../reset/index) will be displayed
 and will allow you to copy from another configuration.
 
