@@ -132,6 +132,7 @@
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 editor_activatetemp
 editor_addref
 editor_closetemp

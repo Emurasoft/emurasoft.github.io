@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 連結
 
 ## EmEditor 官方網站

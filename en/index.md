@@ -18,9 +18,4 @@ support/index
 glossary/index
 ```
 
-```{toctree}
-:hidden:
-link/index
-```
-
 - [Do not use this program illegally.](notice/illegal_usage)

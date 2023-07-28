@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Links
 
 ## Official EmEditor Website
