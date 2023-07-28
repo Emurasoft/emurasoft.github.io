@@ -24,6 +24,7 @@ These constants are defined in the header file (plugin.h).
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 ep_disable_auto_complete
 ep_get_bitmap
 ep_get_info

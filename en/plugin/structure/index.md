@@ -59,6 +59,7 @@
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 active_string_info
 attr_info
 autofill_info

@@ -154,6 +154,7 @@
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 ee_add_ref
 ee_autofill
 ee_clip_history

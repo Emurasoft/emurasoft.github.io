@@ -128,6 +128,7 @@
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 ee_add_ref
 ee_clip_history
 ee_convert

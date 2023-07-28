@@ -26,6 +26,7 @@
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 attr_info
 clip_info
 custom_bar_close_info
