@@ -1,11 +1,3 @@
-癤�
+# 질문. 맞춤법을 어떻게 확인할 수 있나요?
 
-�좎뿉�뷀꽣 FAQ: 留욎땄踰뺤쓣 �대뼸寃� �뺤씤�� �� �덈굹��?
-
-## [�좎뿉�뷀꽣 ��](https://ko.emeditor.com/) - [�좎뿉�뷀꽣 �꾩�留�](../../) \- [�먯＜ 臾삳뒗 吏덈Ц](../)  \- [�몄쭛](index)
-
-# 吏덈Ц. 留욎땄踰뺤쓣 �대뼸寃� �뺤씤�� �� �덈굹��?
-
-EmEditor Professional 踰꾩쟾 10 �뱀� 洹� �댄썑�먯꽌 �대뼡 �뚮윭洹� �몃룄 �ъ슜�섏� �딄퀬 留욎땄踰뺤쓣 �뺤씤�섏떎 �� �덉뒿�덈떎. EmEditor�� �곹솴�� 留욌뒗 硫붾돱(留덉슦�� �ㅻⅨ履� �대┃)�먯꽌혻 **留욎땄踰� �뺤씤** �� �쒖꽦�� �섏떆硫� 留욎땄踰뺤쓣 �뺤씤�섏떎 �� �덉뒿�덈떎. 留뚯빟 �� ��ぉ�� 蹂댁씠吏� �딅뒗�ㅻ㈃, �꾧뎄 硫붾돱�샕� **�ъ슜�� 吏��� 硫붾돱** 瑜� �좏깮�섏떊 �� ��ぉ�� �덈뒗혻 **�곹솴�� 留욌뒗 硫붾돱** 瑜� �좏깮�� 二쇱떊 �꽷� **珥덇린��** 혻踰꾪듉�� �대┃�� 二쇱떗�쒖삤.
-
-珥덇린�ㅼ젙�쇰줈, U.S English �ъ쟾�� �ㅼ튂�섏뼱 �덉뒿�덈떎. 異붽� �ъ쟾��혻 [OpenOffice.org wiki](http://wiki.services.openoffice.org/wiki/Dictionaries) �먯꽌 �ㅼ슫濡쒕뱶 諛쏆쑝�� �� �덉뒿�덈떎. \*.dic �� \*.aff �뚯씪�� EmEditor�� �섏쐞 �대뜑 �ъ쟾�� 蹂듭궗�� 二쇱떗�쒖삤. (蹂댄넻 %LOCALAPPDATA%\\Programs\\EmEditor\\Dictionaries �먮뒗 C:\\Program Files\\EmEditor\\Dictionaries)
+EmEditor Professional 버전 10 혹은 그 이후에서 어떤 플러그 인도 사용하지 않고 맞춤법을 확인하실 수 있습니다. EmEditor의 상황에 맞는 메뉴(마우스 오른쪽 클릭)에서 **맞춤법 확인**을 활성화 하시면 맞춤법을 확인하실 수 있습니다. 만약 이 항목이 보이지 않는다면, 도구 메뉴의 **사용자 지정 메뉴**를 선택하신 후 항목에 있는 **상황에 맞는 메뉴**를 선택해 주신 후 **초기화** 버튼을 클릭해 주십시오. 초기설정으로, U.S English 사전이 설치되어 있습니다. 추가 사전은 [OpenOffice.org wiki](http://wiki.services.openoffice.org/wiki/Dictionaries)에서 다운로드 받으실 수 있습니다. *.dic 와 *.aff 파일을 EmEditor의 하위 폴더 사전에 복사해 주십시오. (보통 %LOCALAPPDATA%\Programs\EmEditor\Dictionaries 또는 C:\Program Files\EmEditor\Dictionaries)

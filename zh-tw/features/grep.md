@@ -1,7 +1,3 @@
-## 
-
-#### ["EmEditor 首頁](https://zh-tw.emeditor.com/) - [EmEditor 說明](../index) \- [功能](index)
-
 # 多檔尋找
 
 **"多檔尋找"** 功能讓您能使用規則運算式，在指定的多個檔案或包含特定檔案類型的資料夾中搜尋一個字符串。EmEditor Professional 讓您能進一步指定搜尋功能，例如編碼，并能夠在搜尋中排除特定的檔案。
