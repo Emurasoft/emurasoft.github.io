@@ -1,4 +1,4 @@
-# SetCell メソッド ()
+# SetCell メソッド (Document オブジェクト)
 
 CSV モードで指定するセルに文字列を設定します。
 

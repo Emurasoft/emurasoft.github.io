@@ -1,4 +1,4 @@
-# AddCharacterRange メソッド ()
+# AddCharacterRange メソッド (CharacterRanges コレクション)
 
 文字範囲を追加します。
 

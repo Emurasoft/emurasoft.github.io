@@ -1,4 +1,4 @@
-# ExecuteCommandByID メソッド ()
+# ExecuteCommandByID メソッド (Editor オブジェクト)
 
 EmEditor のコマンドを整数の ID で指定して実行します。
 

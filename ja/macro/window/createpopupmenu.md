@@ -1,4 +1,4 @@
-# CreatePopupMenu メソッド ()
+# CreatePopupMenu メソッド (Window オブジェクト)
 
 ポップアップ メニューを作成します。
 

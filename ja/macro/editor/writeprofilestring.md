@@ -1,4 +1,4 @@
-# WriteProfileString メソッド ()
+# WriteProfileString メソッド (Editor オブジェクト)
 
 EmEditor の設定に応じて、レジストリまたは INI ファイルに、文字列値を設定します。
 

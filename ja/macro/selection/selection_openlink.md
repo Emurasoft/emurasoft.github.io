@@ -1,4 +1,4 @@
-# OpenLink メソッド ()
+# OpenLink メソッド (Selection オブジェクト)
 
 カーソル位置のハイパーリンクを開きます。
 

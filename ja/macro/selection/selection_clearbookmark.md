@@ -1,4 +1,4 @@
-# ClearBookmark メソッド ()
+# ClearBookmark メソッド (Selection オブジェクト)
 
 現在行のブックマークを解除します。
 

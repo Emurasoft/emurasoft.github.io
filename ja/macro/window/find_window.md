@@ -1,4 +1,4 @@
-# FindWindow メソッド ()
+# FindWindow メソッド (Window オブジェクト)
 
 クラス名またはウィンドウ タイトルで子の [Window オブジェクト](index) を検索します。
 

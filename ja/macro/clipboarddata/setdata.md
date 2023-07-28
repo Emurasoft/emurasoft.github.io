@@ -1,4 +1,4 @@
-# setData メソッド ()
+# setData メソッド (clipboardData オブジェクト)
 
 クリップボードに指定するデータを設定します。
 

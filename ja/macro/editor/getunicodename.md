@@ -1,4 +1,4 @@
-# GetUnicodeName メソッド ()
+# GetUnicodeName メソッド (Editor オブジェクト)
 
 指定された文字または文字列のUnicode名を取得します。
 

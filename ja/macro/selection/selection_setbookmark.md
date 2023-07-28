@@ -1,4 +1,4 @@
-# SetBookmark メソッド ()
+# SetBookmark メソッド (Selection オブジェクト)
 
 カーソル位置にブックマークを設定します。
 

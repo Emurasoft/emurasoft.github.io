@@ -1,4 +1,4 @@
-# Properties プロパティ ()
+# Properties プロパティ (CharacterRange オブジェクト)
 
 オブジェクトの Unicode 用字、Unicode 一般カテゴリを表現する文字列を指定します。
 

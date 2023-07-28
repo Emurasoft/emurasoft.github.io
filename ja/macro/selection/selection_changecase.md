@@ -1,4 +1,4 @@
-# ChangeCase メソッド ()
+# ChangeCase メソッド (Selection オブジェクト)
 
 選択されたテキストの大文字と小文字を変換します。
 

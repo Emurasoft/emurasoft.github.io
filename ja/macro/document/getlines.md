@@ -1,4 +1,4 @@
-# GetLines メソッド ()
+# GetLines メソッド (Document オブジェクト)
 
 文書全体の行数を取得します。
 

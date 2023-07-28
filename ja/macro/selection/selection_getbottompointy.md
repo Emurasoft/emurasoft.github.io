@@ -1,4 +1,4 @@
-# GetBottomPointY メソッド ()
+# GetBottomPointY メソッド (Selection オブジェクト)
 
 選択範囲の最後の現在行を 1 で始まる整数で返します。
 

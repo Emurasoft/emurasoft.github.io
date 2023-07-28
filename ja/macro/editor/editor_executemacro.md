@@ -1,4 +1,4 @@
-# ExecuteMacro メソッド ()
+# ExecuteMacro メソッド (Editor オブジェクト)
 
 指定するマクロを実行します。
 

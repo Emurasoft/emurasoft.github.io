@@ -1,4 +1,4 @@
-# InsertFromFile メソッド ()
+# InsertFromFile メソッド (Selection オブジェクト)
 
 指定したファイルの中身をカーソル位置に挿入します。
 

@@ -1,4 +1,4 @@
-# StartOfLine メソッド ()
+# StartOfLine メソッド (Selection オブジェクト)
 
 カーソル位置を行の最初に移動します。
 

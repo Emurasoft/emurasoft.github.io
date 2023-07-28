@@ -1,4 +1,4 @@
-# NextBookmark メソッド ()
+# NextBookmark メソッド (Selection オブジェクト)
 
 開いている文書の次のブックマークに移動します。
 

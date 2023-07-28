@@ -1,4 +1,4 @@
-# GetAnchorPointX メソッド ()
+# GetAnchorPointX メソッド (Selection オブジェクト)
 
 選択範囲の開始位置の現在桁を 1 で始まる整数で返します。
 

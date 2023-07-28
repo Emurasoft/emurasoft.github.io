@@ -1,4 +1,4 @@
-# clearData メソッド ()
+# clearData メソッド (clipboardData オブジェクト)
 
 クリップボードを空にします。
 

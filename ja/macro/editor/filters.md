@@ -1,4 +1,4 @@
-# filters プロパティ ()
+# filters プロパティ (Editor オブジェクト)
 
 [Filters コレクション](../filters/index) を返します。
 

@@ -1,4 +1,4 @@
-# DeleteDuplicates メソッド ()
+# DeleteDuplicates メソッド (Document オブジェクト)
 
 重複行を削除またはブックマークします。
 

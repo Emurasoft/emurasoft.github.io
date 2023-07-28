@@ -1,4 +1,4 @@
-# ClassName プロパティ ()
+# ClassName プロパティ (Window オブジェクト)
 
 ウィンドウのクラス名を返します。
 

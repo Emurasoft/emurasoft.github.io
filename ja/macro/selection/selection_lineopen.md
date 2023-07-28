@@ -1,4 +1,4 @@
-# LineOpen メソッド ()
+# LineOpen メソッド (Selection オブジェクト)
 
 行と行の間に改行コードを挿入して空けます。
 

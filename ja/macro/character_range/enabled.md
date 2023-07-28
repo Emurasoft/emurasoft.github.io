@@ -1,4 +1,4 @@
-# Enabled プロパティ ()
+# Enabled プロパティ (CharacterRange オブジェクト)
 
 オブジェクトが有効かどうかを示すフラグを指定します。
 

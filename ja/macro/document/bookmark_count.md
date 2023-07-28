@@ -1,4 +1,4 @@
-# BookmarkCount プロパティ ()
+# BookmarkCount プロパティ (Document オブジェクト)
 
 文書内のブックマークの数を取得します。
 

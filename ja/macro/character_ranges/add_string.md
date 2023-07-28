@@ -1,4 +1,4 @@
-# AddString メソッド ()
+# AddString メソッド (CharacterRanges コレクション)
 
 文字列を追加します。
 

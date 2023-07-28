@@ -1,4 +1,4 @@
-# RegisteredName プロパティ ()
+# RegisteredName プロパティ (Editor オブジェクト)
 
 EmEditor がユーザー登録されている名前を取得します。
 

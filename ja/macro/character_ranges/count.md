@@ -1,4 +1,4 @@
-# Count プロパティ ()
+# Count プロパティ (CharacterRanges コレクション)
 
 アイテムの数を取得します。
 

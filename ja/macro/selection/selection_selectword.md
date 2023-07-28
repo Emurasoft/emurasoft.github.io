@@ -1,4 +1,4 @@
-# SelectWord メソッド ()
+# SelectWord メソッド (Selection オブジェクト)
 
 カーソル位置にある単語を選択します。
 

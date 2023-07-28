@@ -1,4 +1,4 @@
-# SetFileAttributes メソッド ()
+# SetFileAttributes メソッド (Shell オブジェクト)
 
 指定するファイルまたはフォルダの属性を設定します。
 

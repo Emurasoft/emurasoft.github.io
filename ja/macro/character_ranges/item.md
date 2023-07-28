@@ -1,4 +1,4 @@
-# Item プロパティ ()
+# Item プロパティ (CharacterRanges コレクション)
 
 指定したインデックスの [CharacterRange オブジェクト](../character_range/index) を取得します。
 

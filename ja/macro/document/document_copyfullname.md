@@ -1,4 +1,4 @@
-# CopyFullName メソッド ()
+# CopyFullName メソッド (Document オブジェクト)
 
 文書ファイルの完全パスをクリップボードにコピーします。
 

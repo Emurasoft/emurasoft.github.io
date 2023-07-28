@@ -1,4 +1,4 @@
-# Enabled プロパティ ()
+# Enabled プロパティ (SpellProp オブジェクト)
 
 設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の
 \[スペル チェックを行う\] チェック ボックスに相当します。

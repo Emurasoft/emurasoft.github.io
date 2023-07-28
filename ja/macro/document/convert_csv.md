@@ -1,4 +1,4 @@
-# ConvertCsv メソッド ()
+# ConvertCsv メソッド (Document オブジェクト)
 
 CSV形式を変換します。
 

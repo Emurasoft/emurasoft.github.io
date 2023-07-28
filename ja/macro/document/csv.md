@@ -1,4 +1,4 @@
-# Csv プロパティ ()
+# Csv プロパティ (Document オブジェクト)
 
 [Csv オブジェクト](../csv/index) を取得します。
 

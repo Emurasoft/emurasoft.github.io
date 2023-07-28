@@ -1,4 +1,4 @@
-# FileExists メソッド ()
+# FileExists メソッド (Shell オブジェクト)
 
 指定するファイルが存在すれば true を、存在しなければ false を返します。
 

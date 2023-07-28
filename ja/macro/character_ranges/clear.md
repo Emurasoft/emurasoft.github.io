@@ -1,4 +1,4 @@
-# Clear メソッド ()
+# Clear メソッド (CharacterRanges コレクション)
 
 コレクションのすべてのアイテムを削除します。
 

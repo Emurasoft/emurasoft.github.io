@@ -1,4 +1,4 @@
-# InTag プロパティ ()
+# InTag プロパティ (SpellProp オブジェクト)
 
 設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の\[タグ\] チェック ボックスに相当します。
 

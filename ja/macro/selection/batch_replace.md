@@ -1,4 +1,4 @@
-# BatchReplace メソッド ()
+# BatchReplace メソッド (Selection オブジェクト)
 
 複数の文字列を置き換えます。
 

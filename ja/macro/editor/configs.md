@@ -1,4 +1,4 @@
-# Configs プロパティ ()
+# Configs プロパティ (Editor オブジェクト)
 
 [Configs コレクション](configs) を返します。
 

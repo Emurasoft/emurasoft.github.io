@@ -1,4 +1,4 @@
-# BatchReplaceInFiles メソッド ()
+# BatchReplaceInFiles メソッド (Editor オブジェクト)
 
 指定するパスの複数のファイルから複数の文字列を置換します。ユーザーが途中で処理を中止した場合、エラーを発生します。
 

@@ -1,4 +1,4 @@
-# HighlightFind プロパティ ()
+# HighlightFind プロパティ (Document オブジェクト)
 
 検索した文字列を強調表示するかどうかを取得、または設定します。
 

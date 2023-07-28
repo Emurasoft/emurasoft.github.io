@@ -1,4 +1,4 @@
-# OpenFile メソッド ()
+# OpenFile メソッド (Editor オブジェクト)
 
 既存のファイルを開きます。
 

@@ -1,4 +1,4 @@
-# CombineHistory プロパティ ()
+# CombineHistory プロパティ (Window オブジェクト)
 
 元に戻す/やり直しの履歴を組み合わせるかどうかを指定します。
 

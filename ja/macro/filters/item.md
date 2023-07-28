@@ -1,4 +1,4 @@
-# Item プロパティ ()
+# Item プロパティ (Filters コレクション)
 
 指定したインデックスの [Filter オブジェクト](../filter/index) を取得します。
 

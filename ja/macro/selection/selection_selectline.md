@@ -1,4 +1,4 @@
-# SelectLine メソッド ()
+# SelectLine メソッド (Selection オブジェクト)
 
 カーソル位置の論理行を選択します。
 

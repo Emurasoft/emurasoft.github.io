@@ -1,4 +1,4 @@
-# WordLeft メソッド ()
+# WordLeft メソッド (Selection オブジェクト)
 
 カーソル位置を単語の左に移動します。
 

@@ -1,4 +1,4 @@
-# TagJump メソッド ()
+# TagJump メソッド (Selection オブジェクト)
 
 現在行のタグにジャンプします。
 

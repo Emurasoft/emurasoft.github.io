@@ -1,4 +1,4 @@
-# ValidateCsv メソッド ()
+# ValidateCsv メソッド (Document オブジェクト)
 
 CSV文書の正当性を確認してエラーを出力し、オプションにより区切り位置を調節します。
 

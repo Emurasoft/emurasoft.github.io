@@ -1,4 +1,4 @@
-# Collapse メソッド ()
+# Collapse メソッド (Selection オブジェクト)
 
 選択を解除します。
 

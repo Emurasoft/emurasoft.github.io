@@ -1,4 +1,4 @@
-# PageDown メソッド ()
+# PageDown メソッド (Selection オブジェクト)
 
 1 ページ下へ移動します。
 

@@ -1,4 +1,4 @@
-# Windows プロパティ ()
+# Windows プロパティ (Shell オブジェクト)
 
 トップ レベルの Windows コレクションを返します。
 

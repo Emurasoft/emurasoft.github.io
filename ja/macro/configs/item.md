@@ -1,4 +1,4 @@
-# Item プロパティ ()
+# Item プロパティ (Configs コレクション)
 
 指定するインデックスの設定の [Config オブジェクト](../config/index) を取得します。
 

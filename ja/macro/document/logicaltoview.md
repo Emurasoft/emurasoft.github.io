@@ -1,4 +1,4 @@
-# LogicalToView メソッド ()
+# LogicalToView メソッド (Document オブジェクト)
 
 論理座標を表示座標に変換します。
 

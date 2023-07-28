@@ -1,4 +1,4 @@
-# Percent プロパティ ()
+# Percent プロパティ (FuzzyOptions オブジェクト)
 
 類似性をパーセントで設定または取得します。
 

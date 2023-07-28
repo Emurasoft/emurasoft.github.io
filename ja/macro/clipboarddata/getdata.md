@@ -1,4 +1,4 @@
-# getData メソッド ()
+# getData メソッド (clipboardData オブジェクト)
 
 クリップボードからデータを取得します。
 

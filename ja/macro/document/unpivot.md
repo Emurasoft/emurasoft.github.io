@@ -1,4 +1,4 @@
-# Unpivot メソッド ()
+# Unpivot メソッド (Document オブジェクト)
 
 CSVデータを平らにして行に変換します。
 

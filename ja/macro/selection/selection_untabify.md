@@ -1,4 +1,4 @@
-# Untabify メソッド ()
+# Untabify メソッド (Selection オブジェクト)
 
 選択範囲の Tab を空白に変換します。
 

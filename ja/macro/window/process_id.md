@@ -1,4 +1,4 @@
-# ProcessID プロパティ ()
+# ProcessID プロパティ (Window オブジェクト)
 
 プロセス ID を返します。
 

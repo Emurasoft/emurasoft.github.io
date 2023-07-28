@@ -1,4 +1,4 @@
-# SetActivePoint メソッド ()
+# SetActivePoint メソッド (Selection オブジェクト)
 
 カーソル位置を設定します。
 

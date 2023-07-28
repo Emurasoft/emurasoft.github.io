@@ -1,4 +1,4 @@
-# GetActivePointX メソッド ()
+# GetActivePointX メソッド (Selection オブジェクト)
 
 カーソル位置の現在桁を 1 で始まる整数で返します。
 

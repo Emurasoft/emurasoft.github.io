@@ -1,4 +1,4 @@
-# QueryStatusByID メソッド ()
+# QueryStatusByID メソッド (Editor オブジェクト)
 
 EmEditor のコマンドが実行できるかどうか、またチェックされているかどうかを取得します。
 

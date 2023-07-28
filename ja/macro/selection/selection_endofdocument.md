@@ -1,4 +1,4 @@
-# EndOfDocument メソッド ()
+# EndOfDocument メソッド (Selection オブジェクト)
 
 カーソル位置を文書の最後に移動します。
 

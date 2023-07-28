@@ -1,4 +1,4 @@
-# ActiveDocument プロパティ ()
+# ActiveDocument プロパティ (Editor オブジェクト)
 
 現在開いている Document オブジェクトを返します。
 

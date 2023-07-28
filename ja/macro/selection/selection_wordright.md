@@ -1,4 +1,4 @@
-# WordRight メソッド ()
+# WordRight メソッド (Selection オブジェクト)
 
 カーソル位置を単語の右に移動します。
 

@@ -1,4 +1,4 @@
-# IsEmpty プロパティ ()
+# IsEmpty プロパティ (Selection オブジェクト)
 
 選択範囲が空かどうかを示します。
 

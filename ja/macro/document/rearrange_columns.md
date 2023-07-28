@@ -1,4 +1,4 @@
-# RearrangeColumns メソッド ()
+# RearrangeColumns メソッド (Document オブジェクト)
 
 CSV 列を再配置します。
 

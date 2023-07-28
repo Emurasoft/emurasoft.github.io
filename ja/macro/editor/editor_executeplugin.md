@@ -1,4 +1,4 @@
-# ExecutePlugin メソッド ()
+# ExecutePlugin メソッド (Editor オブジェクト)
 
 指定するプラグインを実行します。
 

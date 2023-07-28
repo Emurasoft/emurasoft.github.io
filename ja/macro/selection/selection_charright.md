@@ -1,4 +1,4 @@
-# CharRight メソッド ()
+# CharRight メソッド (Selection オブジェクト)
 
 カーソル位置を右に指定した文字数だけ移動します。
 

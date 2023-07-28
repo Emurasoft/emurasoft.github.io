@@ -1,4 +1,4 @@
-# DestructiveInsert メソッド ()
+# DestructiveInsert メソッド (Selection オブジェクト)
 
 既に存在するテキストを上書きしてテキストを挿入します。
 

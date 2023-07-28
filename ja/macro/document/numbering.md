@@ -1,4 +1,4 @@
-# Numbering メソッド ()
+# Numbering メソッド (Document オブジェクト)
 
 カーソル位置または垂直選択に番号を挿入します。
 

@@ -1,4 +1,4 @@
-# EndOfLine メソッド ()
+# EndOfLine メソッド (Selection オブジェクト)
 
 現在行の最後に移動します。
 

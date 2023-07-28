@@ -1,4 +1,4 @@
-# GetText メソッド ()
+# GetText メソッド (PopupMenu オブジェクト)
 
 指定する ID に対するテキストを取得します。
 

@@ -1,4 +1,4 @@
-# UnicodeSignature プロパティ ()
+# UnicodeSignature プロパティ (Document オブジェクト)
 
 次に保存する時に Unicode サイン (BOM) を付けるかどうかを取得、または設定します。
 

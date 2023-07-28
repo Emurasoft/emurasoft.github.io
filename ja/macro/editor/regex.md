@@ -1,4 +1,4 @@
-# regex プロパティ ()
+# regex プロパティ (Editor オブジェクト)
 
 [Regex オブジェクト](../regex/index) を取得します。
 

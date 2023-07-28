@@ -1,4 +1,4 @@
-# CamelCase プロパティ ()
+# CamelCase プロパティ (SpellProp オブジェクト)
 
 設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の\[キャメル ケースに対応\] チェック ボックスに相当します。
 

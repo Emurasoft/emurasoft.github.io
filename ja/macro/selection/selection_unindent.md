@@ -1,4 +1,4 @@
-# UnIndent メソッド ()
+# UnIndent メソッド (Selection オブジェクト)
 
 選択範囲の逆インデントを行います。
 

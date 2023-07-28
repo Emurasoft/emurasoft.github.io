@@ -1,4 +1,4 @@
-# OutputBar プロパティ ()
+# OutputBar プロパティ (Window オブジェクト)
 
 [OutputBar オブジェクト](../output_bar/index) を返します。
 

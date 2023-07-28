@@ -1,4 +1,4 @@
-# SelectAll メソッド ()
+# SelectAll メソッド (Selection オブジェクト)
 
 開いている文書の全体を選択します。
 

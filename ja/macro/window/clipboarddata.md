@@ -1,4 +1,4 @@
-# clipboardData プロパティ ()
+# clipboardData プロパティ (Window オブジェクト)
 
 [clipboardData オブジェクト](../clipboarddata/index) を取得します。
 

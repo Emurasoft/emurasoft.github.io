@@ -1,4 +1,4 @@
-# SetPosition メソッド ()
+# SetPosition メソッド (Window オブジェクト)
 
 ウィンドウのサイズと位置を設定します。
 

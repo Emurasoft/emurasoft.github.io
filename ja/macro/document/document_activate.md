@@ -1,4 +1,4 @@
-# Activate メソッド ()
+# Activate メソッド (Document オブジェクト)
 
 文書をアクティブにします。
 

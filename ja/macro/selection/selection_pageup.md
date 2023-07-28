@@ -1,4 +1,4 @@
-# PageUp メソッド ()
+# PageUp メソッド (Selection オブジェクト)
 
 1 ページ上へ移動します。
 

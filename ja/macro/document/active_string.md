@@ -1,4 +1,4 @@
-# ActiveString プロパティ ()
+# ActiveString プロパティ (Document オブジェクト)
 
 マウス ポインターがポイントしているアクティブな文字列を取得します。
 

@@ -1,4 +1,4 @@
-# CsvList プロパティ ()
+# CsvList プロパティ (Editor オブジェクト)
 
 [CsvList コレクション](../csv_list/index) を取得、または設定します。
 

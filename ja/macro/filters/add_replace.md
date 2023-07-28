@@ -1,4 +1,4 @@
-# AddReplace メソッド ()
+# AddReplace メソッド (Filters コレクション)
 
 置換するアイテムを追加します。
 

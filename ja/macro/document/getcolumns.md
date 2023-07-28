@@ -1,4 +1,4 @@
-# GetColumns メソッド ()
+# GetColumns メソッド (Document オブジェクト)
 
 CSV モードで列の数を取得します。文書が CSV モードでない場合は、0 を返します。
 

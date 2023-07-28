@@ -1,4 +1,4 @@
-# LogicalToSerial メソッド ()
+# LogicalToSerial メソッド (Document オブジェクト)
 
 論理座標をシリアル位置に変換します。
 

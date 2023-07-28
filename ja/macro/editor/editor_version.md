@@ -1,4 +1,4 @@
-# Version プロパティ ()
+# Version プロパティ (Editor オブジェクト)
 
 現在実行している EmEditor のバージョンを表す文字列を取得します。
 

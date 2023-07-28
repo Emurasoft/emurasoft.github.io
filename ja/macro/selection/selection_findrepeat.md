@@ -1,4 +1,4 @@
-# FindRepeat メソッド ()
+# FindRepeat メソッド (Selection オブジェクト)
 
 前回検索した文字列を再度検索します。
 

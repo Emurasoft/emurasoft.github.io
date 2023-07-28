@@ -1,4 +1,4 @@
-# RefreshCommonSettings メソッド ()
+# RefreshCommonSettings メソッド (Editor オブジェクト)
 
 共通の設定をロードし EmEditor ウィンドウを最新の情報に更新します。
 

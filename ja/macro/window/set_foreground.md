@@ -1,4 +1,4 @@
-# SetForeground メソッド ()
+# SetForeground メソッド (Window オブジェクト)
 
 ウィンドウをフォアグランドに設定します。
 

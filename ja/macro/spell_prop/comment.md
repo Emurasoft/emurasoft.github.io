@@ -1,4 +1,4 @@
-# Comment プロパティ ()
+# Comment プロパティ (SpellProp オブジェクト)
 
 設定のプロパティの [\[スペル チェック\] タブ](../../dlg/properties/spell/index) の\[コメント\] チェック ボックスに相当します。
 

@@ -1,4 +1,4 @@
-# Parent プロパティ ()
+# Parent プロパティ (Window オブジェクト)
 
 親の Window オブジェクトを返します。
 

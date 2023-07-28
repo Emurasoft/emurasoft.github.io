@@ -1,4 +1,4 @@
-# PreviousBookmark メソッド ()
+# PreviousBookmark メソッド (Selection オブジェクト)
 
 開いている文書の前のブックマークへ移動します。
 

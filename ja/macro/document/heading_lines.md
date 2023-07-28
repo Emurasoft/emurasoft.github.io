@@ -1,4 +1,4 @@
-# HeadingLines プロパティ ()
+# HeadingLines プロパティ (Document オブジェクト)
 
 ヘディング (非スクロール領域) の行数を取得、または設定します。
 

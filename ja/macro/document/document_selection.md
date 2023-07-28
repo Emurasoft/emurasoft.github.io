@@ -1,4 +1,4 @@
-# selection プロパティ ()
+# selection プロパティ (Document オブジェクト)
 
 [Selection オブジェクト](../selection/index) を取得します。
 

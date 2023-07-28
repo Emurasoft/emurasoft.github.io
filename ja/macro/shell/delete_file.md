@@ -1,4 +1,4 @@
-# DeleteFile メソッド ()
+# DeleteFile メソッド (Shell オブジェクト)
 
 指定するファイルを削除します。
 

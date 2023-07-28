@@ -1,4 +1,4 @@
-# LineDown メソッド ()
+# LineDown メソッド (Selection オブジェクト)
 
 カーソル位置を下に指定した行数だけ移動します。
 

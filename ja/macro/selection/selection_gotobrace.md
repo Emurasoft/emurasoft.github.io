@@ -1,4 +1,4 @@
-# GoToBrace メソッド ()
+# GoToBrace メソッド (Selection オブジェクト)
 
 対応するかっこへ移動します。
 

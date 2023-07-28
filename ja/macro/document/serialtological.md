@@ -1,4 +1,4 @@
-# SerialToLogical メソッド ()
+# SerialToLogical メソッド (Document オブジェクト)
 
 シリアル位置を論理座標に変換します。
 

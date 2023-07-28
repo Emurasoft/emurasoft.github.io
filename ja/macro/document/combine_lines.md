@@ -1,4 +1,4 @@
-# CombineLines メソッド ()
+# CombineLines メソッド (Document オブジェクト)
 
 CSV 文書の上下隣の重複したセルを結合します。
 

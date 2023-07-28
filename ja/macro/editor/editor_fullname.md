@@ -1,4 +1,4 @@
-# FullName プロパティ ()
+# FullName プロパティ (Editor オブジェクト)
 
 EmEditor の実行ファイル emeditor.exe の完全パスとファイル名を取得します。
 

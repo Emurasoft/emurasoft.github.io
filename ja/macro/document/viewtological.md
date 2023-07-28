@@ -1,4 +1,4 @@
-# ViewToLogical メソッド ()
+# ViewToLogical メソッド (Document オブジェクト)
 
 表示座標を論理座標に変換します。
 

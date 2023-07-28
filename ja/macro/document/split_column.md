@@ -1,4 +1,4 @@
-# SplitColumn メソッド ()
+# SplitColumn メソッド (Document オブジェクト)
 
 CSV モードで指定された列を区切り文字で分割して右の列または下の行に置きます。
 

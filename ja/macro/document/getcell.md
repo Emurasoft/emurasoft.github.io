@@ -1,4 +1,4 @@
-# GetCell メソッド ()
+# GetCell メソッド (Document オブジェクト)
 
 CSV モードで指定するセルのテキストを取得します。
 

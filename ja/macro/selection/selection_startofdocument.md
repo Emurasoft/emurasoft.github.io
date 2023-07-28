@@ -1,4 +1,4 @@
-# StartOfDocument メソッド ()
+# StartOfDocument メソッド (Selection オブジェクト)
 
 カーソル位置を文書の最初に移動します。
 

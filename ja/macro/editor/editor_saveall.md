@@ -1,4 +1,4 @@
-# SaveAll メソッド ()
+# SaveAll メソッド (Editor オブジェクト)
 
 すべての EmEditor で開かれているファイルを保存します。
 

@@ -1,4 +1,4 @@
-# GetFileAttributes メソッド ()
+# GetFileAttributes メソッド (Shell オブジェクト)
 
 指定するファイルまたはフォルダの属性を返します。
 

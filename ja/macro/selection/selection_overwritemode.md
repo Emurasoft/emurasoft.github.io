@@ -1,4 +1,4 @@
-# OverwriteMode プロパティ ()
+# OverwriteMode プロパティ (Selection オブジェクト)
 
 上書き状態、または挿入状態かどうかを取得、または設定します。
 

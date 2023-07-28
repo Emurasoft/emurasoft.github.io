@@ -1,4 +1,4 @@
-# VisibleLinesBelow プロパティ ()
+# VisibleLinesBelow プロパティ (Filters コレクション)
 
 一致した行の下に表示する行数を指定します。
 

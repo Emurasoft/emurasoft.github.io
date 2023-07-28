@@ -1,4 +1,4 @@
-# AddPopup メソッド ()
+# AddPopup メソッド (PopupMenu オブジェクト)
 
 サブ メニューを追加します。
 

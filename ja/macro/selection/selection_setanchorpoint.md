@@ -1,4 +1,4 @@
-# SetAnchorPoint メソッド ()
+# SetAnchorPoint メソッド (Selection オブジェクト)
 
 選択範囲の開始位置を設定します。
 

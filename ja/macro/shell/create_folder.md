@@ -1,4 +1,4 @@
-# CreateFolder メソッド ()
+# CreateFolder メソッド (Shell オブジェクト)
 
 フォルダを作成します。
 

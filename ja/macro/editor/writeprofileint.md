@@ -1,4 +1,4 @@
-# WriteProfileInt メソッド ()
+# WriteProfileInt メソッド (Editor オブジェクト)
 
 EmEditor の設定に応じて、レジストリまたは INI ファイルに、整数値を設定します。
 

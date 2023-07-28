@@ -1,4 +1,4 @@
-# SetColumn メソッド ()
+# SetColumn メソッド (Document オブジェクト)
 
 CSV モードで指定する列に文字列を設定します。
 

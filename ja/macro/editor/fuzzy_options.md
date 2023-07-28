@@ -1,4 +1,4 @@
-# FuzzyOptions プロパティ ()
+# FuzzyOptions プロパティ (Editor オブジェクト)
 
 [FuzzyOptions オブジェクト](../fuzzy_options/index) を返します。
 

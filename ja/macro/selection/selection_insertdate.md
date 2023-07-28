@@ -1,4 +1,4 @@
-# InsertDate メソッド ()
+# InsertDate メソッド (Selection オブジェクト)
 
 時刻と日付を挿入します。
 
