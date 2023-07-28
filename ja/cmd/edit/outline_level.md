@@ -24,7 +24,7 @@ EEID_OUTLINE_LEVEL_2 (8832) - ID_OUTLINE_LEVEL_16 (8846)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(8832);
@@ -32,7 +32,7 @@ editor.ExecuteCommandByID(8832);
 editor.ExecuteCommandByID(8846);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 8832

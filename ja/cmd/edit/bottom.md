@@ -23,13 +23,13 @@ EEID_BOTTOM (4169)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.EndOfDocument(false);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.EndOfDocument false

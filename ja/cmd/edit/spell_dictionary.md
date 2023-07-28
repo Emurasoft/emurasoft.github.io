@@ -23,13 +23,13 @@ EEID_SELECT_DICTIONARY から EEID_SELECT_DICTIONARY + 255 まで (22016 から 
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(22016 + i);  // i は 0 から 255 までの整数
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 22016    ' i は 0 から 255 までの整数

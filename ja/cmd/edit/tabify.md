@@ -26,13 +26,13 @@ EEID_TABIFY (4356)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.Tabify();
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.Tabify

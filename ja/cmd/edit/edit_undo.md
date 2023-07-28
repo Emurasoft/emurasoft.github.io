@@ -24,13 +24,13 @@ EEID_EDIT_UNDO (4124)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.Undo();
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.Undo

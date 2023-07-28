@@ -23,13 +23,13 @@ EEID_INSERT_TRADEMARK (4316)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.Text="™";
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.Text="™"

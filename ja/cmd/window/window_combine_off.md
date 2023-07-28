@@ -23,13 +23,13 @@ EEID_WINDOW_COMBINE (4408)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.EnableTab = false;
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.EnableTab = False

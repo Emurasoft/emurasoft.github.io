@@ -23,13 +23,13 @@ EEID_SAVE_WORKSPACE_CLOSE_DESKTOP (3937)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3937);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3937

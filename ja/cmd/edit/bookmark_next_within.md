@@ -23,13 +23,13 @@ EEID_BOOKMARK_NEXT_WITHIN (4351)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.NextBookmark();
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.NextBookmark

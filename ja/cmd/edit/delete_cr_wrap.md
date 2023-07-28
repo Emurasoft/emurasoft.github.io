@@ -23,13 +23,13 @@ EEID_DELETE_CR_WRAP (4144)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.Format(eeFormatDeleteNL);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.Format eeFormatDeleteNL

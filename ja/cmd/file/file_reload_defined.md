@@ -28,13 +28,13 @@ EEID_FILE_RELOAD_DEFINED から EEID_FILE_RELOAD_DEFINED + 255 まで (6656 か�
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(6656 + i);  // i は 0 から 255 までの整数
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 6656 + i  ' i は 0 から 255 までの整数

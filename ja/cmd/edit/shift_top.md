@@ -23,13 +23,13 @@ EEID_SHIFT_TOP (4184)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.StartOfDocument(true);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.StartOfDocument true

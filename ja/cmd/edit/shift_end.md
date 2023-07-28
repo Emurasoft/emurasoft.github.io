@@ -23,13 +23,13 @@ EEID_SHIFT_END (4182)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.EndOfLine(true,eeLineView);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.EndOfLine(true,eeLineView);

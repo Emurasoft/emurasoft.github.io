@@ -23,13 +23,13 @@ EEID_HOME (4164)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.StartOfLine(false,eeLineView);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.StartOfLine false,eeLineView

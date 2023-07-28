@@ -23,13 +23,13 @@ EEID_LINK_OPEN (4141)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.OpenLink();
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.OpenLink

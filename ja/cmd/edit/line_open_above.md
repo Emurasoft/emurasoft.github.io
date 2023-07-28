@@ -23,13 +23,13 @@ EEID_LINE_OPEN_ABOVE (4195)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.LineOpen(true);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.LineOpen true

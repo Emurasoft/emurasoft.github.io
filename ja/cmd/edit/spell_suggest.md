@@ -23,13 +23,13 @@ EEID_SPELL_SUGGEST から EEID_SPELL_SUGGEST + 31 まで (8768 から 8768 + 31 
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(8768 + i);  // i は 0 から 31 までの整数
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 8768    ' i は 0 から 31 までの整数

@@ -23,13 +23,13 @@ EEID_DOWN (4161)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.LineDown(false,1);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.LineDown false,1

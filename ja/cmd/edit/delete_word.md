@@ -23,14 +23,14 @@ EEID_DELETE_WORD (4194)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.SelectWord();
 document.selection.Delete(1);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.SelectWord

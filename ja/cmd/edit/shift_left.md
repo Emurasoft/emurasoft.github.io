@@ -23,13 +23,13 @@ EEID_SHIFT_LEFT (4173)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.CharLeft(true,1);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.CharLeft true,1
