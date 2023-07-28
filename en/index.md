@@ -16,6 +16,10 @@ plugin/index
 purchase/index
 support/index
 glossary/index
+```
+
+```{toctree}
+:hidden:
 link/index
 ```
 
