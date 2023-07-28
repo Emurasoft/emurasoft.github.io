@@ -10,10 +10,10 @@ tutorial/index
 
 ## Frequently Used Objects
 
-- [Document オブジェクト](document/index)
-- [Editor オブジェクト](editor/index)
-- [Selection オブジェクト](selection/index)
-- [Window オブジェクト](window/index)
+- [Document Object](document/index)
+- [Editor Object](editor/index)
+- [Selection Object](selection/index)
+- [Window Object](window/index)
 
 ## All  Objects
 

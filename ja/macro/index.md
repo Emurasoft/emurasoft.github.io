@@ -2,144 +2,20 @@
 
 ## 概要
 
-
-
-
+```{toctree}
+:maxdepth: 1
+features/index
+tutorial/index
+```
 
 ## よく使うオブジェクト
 
-
-
-
-
-
-
-
+- [Document オブジェクト](document/index)
+- [Editor オブジェクト](editor/index)
+- [Selection オブジェクト](selection/index)
+- [Window オブジェクト](window/index)
 
 ## すべてのオブジェクト
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 定数と指示子
-
-
-
-
-
-## バージョン
-
-EmEditor Professional Version 4.00 以上で利用できます。
-
 
 ```{toctree}
 :maxdepth: 1
@@ -153,10 +29,8 @@ character_ranges/index
 clipboarddata/index
 config/index
 configs/index
-const/index
 csv/index
 csv_list/index
-directive/index
 display_item/index
 display_list/index
 display_prop/index
@@ -164,7 +38,6 @@ document/index
 documents/index
 dropped_files/index
 editor/index
-features/index
 file_new_prop/index
 file_prop/index
 file_save_prop/index
@@ -199,8 +72,16 @@ scroll_prop/index
 selection/index
 shell/index
 spell_prop/index
-tutorial/index
 window/index
 windows/index
 wrap_prop/index
+```
+
+
+## 定数と指示子
+
+```{toctree}
+:maxdepth: 1
+const/index
+directive/index
 ```
