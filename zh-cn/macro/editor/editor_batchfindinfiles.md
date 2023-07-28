@@ -1,4 +1,4 @@
-# BatchFindInFiles 方法 (Editor ����)
+# BatchFindInFiles 方法 (Editor 对象)
 
 在多个文件中搜索多个字符串。搜索文件的结果列表将显示在当前窗口中。 如果未保存文档，该方法将显示是否保存文件的提示信息。
 

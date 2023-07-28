@@ -1,4 +1,4 @@
-# LinesCell 属性 (Csv ����)
+# LinesCell 属性 (Csv 对象)
 
 与在自定义对话框中 [CSV 页面](../../dlg/customize/csv/index) 上的一个单元格中的最大换行数 文本框对应。
 

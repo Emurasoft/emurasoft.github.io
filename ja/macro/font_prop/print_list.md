@@ -1,4 +1,4 @@
-# PrintList プロパティ (FontProp �I�u�W�F�N�g)
+# PrintList プロパティ (FontProp オブジェクト)
 
 印刷用フォントの [FontList コレクション](../font_list/index) を取得します。
 

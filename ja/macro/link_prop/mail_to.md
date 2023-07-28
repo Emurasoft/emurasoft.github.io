@@ -1,4 +1,4 @@
-# MailTo プロパティ (LinkProp �I�u�W�F�N�g)
+# MailTo プロパティ (LinkProp オブジェクト)
 
 設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の
 \[メール アドレスをクリックするとメール送信\] チェック ボックスに相当します。

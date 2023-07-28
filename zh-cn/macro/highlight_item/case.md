@@ -1,4 +1,4 @@
-# Case 属性 (HighlightItem ����)
+# Case 属性 (HighlightItem 对象)
 
 与配置属性中 [高亮 (1) 页面](../../dlg/properties/highlight1/index) 上的区分大小写 复选框相对应。
 

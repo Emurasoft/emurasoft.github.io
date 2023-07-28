@@ -1,4 +1,4 @@
-# ExFlags 屬性 (Filter ��H)
+# ExFlags 屬性 (Filter 對象)
 
 指定以下值的組合。
 

@@ -1,4 +1,4 @@
-# Path 속성 (Document ��ü)
+# Path 속성 (Document 개체)
 
 현재 문서의 경로만을 검색합니다.
 

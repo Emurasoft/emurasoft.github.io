@@ -1,4 +1,4 @@
-# Height 属性 (Window ����)
+# Height 属性 (Window 对象)
 
 返回或设置窗口高度。
 

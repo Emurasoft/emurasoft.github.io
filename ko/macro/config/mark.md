@@ -1,4 +1,4 @@
-# Mark 속성 (Config ��ü)
+# Mark 속성 (Config 개체)
 
 [MarkProp 개체](../mark_prop/index) 를 검색합니다.
 

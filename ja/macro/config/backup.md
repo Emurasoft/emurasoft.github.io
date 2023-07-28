@@ -1,4 +1,4 @@
-# Backup プロパティ (Config �I�u�W�F�N�g)
+# Backup プロパティ (Config オブジェクト)
 
 [BackupProp オブジェクト](../backup_prop/index) を取得します。
 

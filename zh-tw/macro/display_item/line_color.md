@@ -1,4 +1,4 @@
-# LineColor 屬性 (DisplayItem ��H)
+# LineColor 屬性 (DisplayItem 對象)
 
 指定對象的下劃線顏色。
 

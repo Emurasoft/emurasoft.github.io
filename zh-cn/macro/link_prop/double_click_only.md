@@ -1,4 +1,4 @@
-# DoubleClickOnly 属性 (LinkProp ����)
+# DoubleClickOnly 属性 (LinkProp 对象)
 
 与配置属性中 [链接 页面](../../dlg/properties/link/index) 上的仅允许双击 复选框相对应。
 

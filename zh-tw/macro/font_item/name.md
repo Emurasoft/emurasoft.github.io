@@ -1,4 +1,4 @@
-# Name 屬性 (FontItem ��H)
+# Name 屬性 (FontItem 對象)
 
 指定對象的名稱。
 

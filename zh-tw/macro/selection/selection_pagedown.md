@@ -1,4 +1,4 @@
-# PageDown 方法 (Selection ��H)
+# PageDown 方法 (Selection 對象)
 
 在文檔中，把游標下移指定的頁數。
 

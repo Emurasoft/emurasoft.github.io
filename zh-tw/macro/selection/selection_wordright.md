@@ -1,4 +1,4 @@
-# WordRight 方法 (Selection ��H)
+# WordRight 方法 (Selection 對象)
 
 把游標向右移指定的單字數。
 

@@ -1,4 +1,4 @@
-# SelectLine 方法 (Selection ��H)
+# SelectLine 方法 (Selection 對象)
 
 在游標處選擇一行。
 

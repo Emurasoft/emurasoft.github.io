@@ -1,4 +1,4 @@
-# MoveColumn 方法 (Document ��H)
+# MoveColumn 方法 (Document 對象)
 
 在 CSV 模式下移動或複製指定欄。
 

@@ -1,4 +1,4 @@
-# Find 方法 (Selection ��H)
+# Find 方法 (Selection 對象)
 
 搜尋指定的字串。
 

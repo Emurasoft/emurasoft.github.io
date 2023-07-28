@@ -1,4 +1,4 @@
-# DeleteSpacesAtEnd 属性 (FileSaveProp ����)
+# DeleteSpacesAtEnd 属性 (FileSaveProp 对象)
 
 与 [保存详细信息 对话框](../../dlg/properties/file/save_details/index) 中的删除行末空格 复选框相对应。
 

@@ -1,4 +1,4 @@
-# Item 屬性 (FontList ���X)
+# Item 屬性 (FontList 集合)
 
 為指定的索引檢索 [FontItem 對象](../font_item/index)。
 

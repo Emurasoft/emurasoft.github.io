@@ -1,4 +1,4 @@
-# SearchColors 속성 (DisplayProp ��ü)
+# SearchColors 속성 (DisplayProp 개체)
 
 구성 속성 [디스플레이 탭](../../dlg/properties/display/index) 의색 검색 텍스트 박스에 해당합니다.
 

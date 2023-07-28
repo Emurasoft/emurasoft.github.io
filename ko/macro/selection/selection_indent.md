@@ -1,4 +1,4 @@
-# Indent 메서드 (Selection ��ü)
+# Indent 메서드 (Selection 개체)
 
 들여쓰기 레벨의 지정된 수 만큼 선택된 줄을 들여쓰기 합니다.
 

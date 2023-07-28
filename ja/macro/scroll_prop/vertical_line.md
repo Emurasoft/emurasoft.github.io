@@ -1,4 +1,4 @@
-# VerticalLine プロパティ (ScrollProp �I�u�W�F�N�g)
+# VerticalLine プロパティ (ScrollProp オブジェクト)
 
 設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の\[垂直罫線\] チェック ボックスに相当します。
 

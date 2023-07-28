@@ -1,4 +1,4 @@
-# Remove 方法 (HighlightList ����)
+# Remove 方法 (HighlightList 集合)
 
 删除一个项目。
 

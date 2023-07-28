@@ -1,4 +1,4 @@
-# Enabled 属性 (AssociationProp ����)
+# Enabled 属性 (AssociationProp 对象)
 
 与配置属性中的 [关联 页面](../../dlg/properties/associate/index) 上的启用关联 复选框相对应。
 

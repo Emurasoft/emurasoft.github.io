@@ -1,4 +1,4 @@
-# File 属性 (Config ����)
+# File 属性 (Config 对象)
 
 检索 [FileProp 对象](../file_prop/index)。
 

@@ -1,4 +1,4 @@
-# filters 屬性 (Editor ��H)
+# filters 屬性 (Editor 對象)
 
 檢索 [Filters 集合](../filters/index)。
 

@@ -1,4 +1,4 @@
-# DisplayList プロパティ (FontProp �I�u�W�F�N�g)
+# DisplayList プロパティ (FontProp オブジェクト)
 
 表示用フォントの [FontList コレクション](../font_list/index) を取得します。
 

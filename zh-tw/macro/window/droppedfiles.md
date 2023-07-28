@@ -1,4 +1,4 @@
-# DroppedFiles 屬性 (Window ��H)
+# DroppedFiles 屬性 (Window 對象)
 
 返回 [DroppedFiles 對象](../dropped_files/index)。
 

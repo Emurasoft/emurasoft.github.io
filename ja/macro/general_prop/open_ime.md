@@ -1,4 +1,4 @@
-# OpenIME プロパティ (GeneralProp �I�u�W�F�N�g)
+# OpenIME プロパティ (GeneralProp オブジェクト)
 
 設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[かな漢字変換を起動\] チェック ボックスに相当します。
 

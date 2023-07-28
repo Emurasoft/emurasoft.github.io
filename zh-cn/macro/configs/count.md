@@ -1,4 +1,4 @@
-# Count 属性 (Configs ����)
+# Count 属性 (Configs 集合)
 
 检索配置的数目。
 

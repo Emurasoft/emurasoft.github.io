@@ -1,4 +1,4 @@
-# print 方法 (Window ����)
+# print 方法 (Window 对象)
 
 显示“打印”对话框。
 

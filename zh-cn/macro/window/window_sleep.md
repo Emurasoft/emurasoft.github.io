@@ -1,4 +1,4 @@
-# Sleep 方法 (Window ����)
+# Sleep 方法 (Window 对象)
 
 在以毫秒为单位的指定时间内暂停执行宏。
 

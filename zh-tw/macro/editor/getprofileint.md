@@ -1,4 +1,4 @@
-# GetProfileInt 方法 (Editor ��H)
+# GetProfileInt 方法 (Editor 對象)
 
 按 EmEidtor 的設定，從注冊表或一個 INI 檔案上檢索指定項目的整數值。
 

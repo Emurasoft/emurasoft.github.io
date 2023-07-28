@@ -1,4 +1,4 @@
-# VirtualSpace プロパティ (GeneralProp �I�u�W�F�N�g)
+# VirtualSpace プロパティ (GeneralProp オブジェクト)
 
 設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[フリー カーソル モード\] チェック ボックスに相当します。
 

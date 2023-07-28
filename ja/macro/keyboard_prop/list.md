@@ -1,4 +1,4 @@
-# List プロパティ (Keyboard �I�u�W�F�N�g)
+# List プロパティ (Keyboard オブジェクト)
 
 [KeyboardList コレクション](../keyboard_list/index) を取得します。
 

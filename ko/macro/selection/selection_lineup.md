@@ -1,4 +1,4 @@
-# LineUp 메서드 (Selection ��ü)
+# LineUp 메서드 (Selection 개체)
 
 지정된 줄의 수 만큼 커서를 위로 이동합니다.
 

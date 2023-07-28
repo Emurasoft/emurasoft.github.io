@@ -1,4 +1,4 @@
-# DBCharURL プロパティ (LinkProp �I�u�W�F�N�g)
+# DBCharURL プロパティ (LinkProp オブジェクト)
 
 設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の\[全角文字をURLとして認識する\] チェック ボックスに相当します。
 

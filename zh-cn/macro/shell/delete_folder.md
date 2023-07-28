@@ -1,4 +1,4 @@
-# DeleteFolder 方法 (Shell ����)
+# DeleteFolder 方法 (Shell 对象)
 
 删除一个或多个指定的文件夹及其内容。指定的文件夹即使不为空也会被删除。
 

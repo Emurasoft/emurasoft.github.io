@@ -1,4 +1,4 @@
-# SetFileAttributes 方法 (Shell ����)
+# SetFileAttributes 方法 (Shell 对象)
 
 设置指定文件或文件夹的属性。
 

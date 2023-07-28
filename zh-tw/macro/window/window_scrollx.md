@@ -1,4 +1,4 @@
-# scrollX 屬性 (Window ��H)
+# scrollX 屬性 (Window 對象)
 
 返回捲軸的水平位置。
 

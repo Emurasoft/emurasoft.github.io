@@ -1,4 +1,4 @@
-# DoubleLineScroll 属性 (ScrollProp ����)
+# DoubleLineScroll 属性 (ScrollProp 对象)
 
 与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的每次滚动两行 复选框相对应。
 

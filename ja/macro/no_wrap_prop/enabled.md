@@ -1,4 +1,4 @@
-# Enabled プロパティ (NoWrapProp �I�u�W�F�N�g)
+# Enabled プロパティ (NoWrapProp オブジェクト)
 
 設定のプロパティの [\[分割禁止単語\] タブ](../../dlg/properties/no_wrap/index) の
 \[分割禁止単語の処理を有効にする\] チェック ボックスに相当します。

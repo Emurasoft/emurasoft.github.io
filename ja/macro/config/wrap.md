@@ -1,4 +1,4 @@
-# Wrap プロパティ (Config �I�u�W�F�N�g)
+# Wrap プロパティ (Config オブジェクト)
 
 [WrapProp オブジェクト](../wrap_prop/index) を取得します。
 

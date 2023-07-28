@@ -1,4 +1,4 @@
-# Redraw 屬性 (Window ��H)
+# Redraw 屬性 (Window 對象)
 
 在 EmEditor 中允許或禁止重繪變更。
 

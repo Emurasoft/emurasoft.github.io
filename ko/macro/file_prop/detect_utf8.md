@@ -1,4 +1,4 @@
-# DetectUTF8 속성 (FileProp ��ü)
+# DetectUTF8 속성 (FileProp 개체)
 
 구성 속성 [파일 탭](../../dlg/properties/file/index) 의UTF-8 검색 체크 박스에 해당합니다.
 

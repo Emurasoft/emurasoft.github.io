@@ -1,4 +1,4 @@
-# Item 屬性 (NoWrapList ���X)
+# Item 屬性 (NoWrapList 集合)
 
 為指定索引檢索 [NoWrapItem 對象](../no_wrap_item/index)。
 

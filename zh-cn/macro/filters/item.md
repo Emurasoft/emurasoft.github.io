@@ -1,4 +1,4 @@
-# Item 属性 (Filters ����)
+# Item 属性 (Filters 集合)
 
 为指定的索引检索 [Filter 对象](../filter/index)。
 

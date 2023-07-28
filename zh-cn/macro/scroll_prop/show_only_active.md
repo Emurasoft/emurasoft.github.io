@@ -1,4 +1,4 @@
-# ShowOnlyActive 属性 (ScrollProp ����)
+# ShowOnlyActive 属性 (ScrollProp 对象)
 
 与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的只在活动窗格中显示滚动条 复选框相对应。
 

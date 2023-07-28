@@ -1,4 +1,4 @@
-# NewLine 메서드 (Selection ��ü)
+# NewLine 메서드 (Selection 개체)
 
 커서에 지정된 수만큼의 새로운 줄을 삽입합니다.
 

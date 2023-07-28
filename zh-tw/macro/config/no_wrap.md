@@ -1,4 +1,4 @@
-# NoWrap 屬性 (Config ��H)
+# NoWrap 屬性 (Config 對象)
 
 檢索 [NoWrapProp 對象](../no_wrap_prop/index)。
 

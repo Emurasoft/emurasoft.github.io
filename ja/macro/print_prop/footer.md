@@ -1,4 +1,4 @@
-# Footer プロパティ (PrintProp �I�u�W�F�N�g)
+# Footer プロパティ (PrintProp オブジェクト)
 
 設定のプロパティの [\[印刷\] タブ](../../dlg/properties/print/index) の
 \[フッタ\] テキスト ボックスに相当します。

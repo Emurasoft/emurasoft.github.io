@@ -23,13 +23,13 @@ EEID_BOOKMARK_PREV_WITHIN (4352)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.PreviousBookmark();
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.PreviousBookmark

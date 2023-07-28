@@ -1,4 +1,4 @@
-# Caption 속성 (Window ��ü)
+# Caption 속성 (Window 개체)
 
 창의 캡션 텍스트를 반환합니다.
 

@@ -1,4 +1,4 @@
-# FuzzyOptions 属性 (Editor ����)
+# FuzzyOptions 属性 (Editor 对象)
 
 检索 [FuzzyOptions 对象](../fuzzy_options/index)。
 

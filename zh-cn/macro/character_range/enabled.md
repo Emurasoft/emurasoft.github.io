@@ -1,4 +1,4 @@
-# Enabled 属性 (CharacterRange ����)
+# Enabled 属性 (CharacterRange 对象)
 
 指定是否启用对象的标志。
 

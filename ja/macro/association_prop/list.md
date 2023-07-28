@@ -1,4 +1,4 @@
-# List プロパティ (AssociationProp �I�u�W�F�N�g)
+# List プロパティ (AssociationProp オブジェクト)
 
 [AssociationList オブジェクト](../association_list/index) を取得します。
 

@@ -1,4 +1,4 @@
-# Italic 속성 (FontItem ��ü)
+# Italic 속성 (FontItem 개체)
 
 글꼴이 기울게 포맷된 경우 트루입니다.
 

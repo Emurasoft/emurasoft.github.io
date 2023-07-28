@@ -1,4 +1,4 @@
-# Scroll プロパティ (Config �I�u�W�F�N�g)
+# Scroll プロパティ (Config オブジェクト)
 
 [ScrollProp オブジェクト](../scroll_prop/index) を取得します。
 

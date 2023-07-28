@@ -1,4 +1,4 @@
-# Min 屬性 (CharacterRange ��H)
+# Min 屬性 (CharacterRange 對象)
 
 指定對象的最小字元。
 

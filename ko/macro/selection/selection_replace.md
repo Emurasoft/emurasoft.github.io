@@ -1,4 +1,4 @@
-# Replace 메서드 (Selection ��ü)
+# Replace 메서드 (Selection 개체)
 
 문서 내 문자열을 대체합니다.
 

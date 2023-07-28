@@ -1,4 +1,4 @@
-# Enabled 属性 (AssociationItem ����)
+# Enabled 属性 (AssociationItem 对象)
 
 指定表示对象是否被启用的标志。
 

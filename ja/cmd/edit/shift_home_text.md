@@ -23,13 +23,13 @@ EEID_SHIFT_HOME_TEXT (4297)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.StartOfLine(true,eeLineView \| eeLineHomeText);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.StartOfLine true,eeLineView Or eeLineHomeText

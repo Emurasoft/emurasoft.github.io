@@ -1,4 +1,4 @@
-# Count 属性 (DroppedFiles ����)
+# Count 属性 (DroppedFiles 集合)
 
 检索拖放的文件的数目。
 

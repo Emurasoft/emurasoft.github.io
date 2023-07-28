@@ -1,4 +1,4 @@
-# RearrangeColumns 方法 (Document ����)
+# RearrangeColumns 方法 (Document 对象)
 
 重排 CSV 列。
 

@@ -1,4 +1,4 @@
-# OverwriteMode 屬性 (Selection ��H)
+# OverwriteMode 屬性 (Selection 對象)
 
 設置或檢索表示覆寫或插入模式的標志。
 

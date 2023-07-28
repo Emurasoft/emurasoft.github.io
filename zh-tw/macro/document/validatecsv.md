@@ -1,4 +1,4 @@
-# ValidateCsv 方法 (Document ��H)
+# ValidateCsv 方法 (Document 對象)
 
 驗證 CSV 文檔和輸出錯誤，并可選擇調整分隔符位置。
 

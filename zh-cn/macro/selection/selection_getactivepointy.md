@@ -1,4 +1,4 @@
-# GetActivePointY 方法 (Selection ����)
+# GetActivePointY 方法 (Selection 对象)
 
 返回光标位置处的行号。
 

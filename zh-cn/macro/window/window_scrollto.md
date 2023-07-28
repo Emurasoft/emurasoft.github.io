@@ -1,4 +1,4 @@
-# scrollTo 方法 (Window ����)
+# scrollTo 方法 (Window 对象)
 
 把窗口滚动至指定的位置。
 

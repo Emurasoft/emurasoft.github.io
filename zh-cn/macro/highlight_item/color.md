@@ -1,4 +1,4 @@
-# Color 属性 (HighlightItem ����)
+# Color 属性 (HighlightItem 对象)
 
 指定对象的颜色。
 

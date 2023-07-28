@@ -1,4 +1,4 @@
-# HighlightFind 속성 (Document ��ü)
+# HighlightFind 속성 (Document 개체)
 
 검색된 문자열을 강조 표시 할지의 여부를 결정합니다.
 

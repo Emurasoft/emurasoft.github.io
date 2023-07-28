@@ -1,4 +1,4 @@
-# GetColumns 方法 (Document ����)
+# GetColumns 方法 (Document 对象)
 
 在 CSV 模式中检索列数。如果文档不是 CSV 模式，那么该方法会返回 0。
 

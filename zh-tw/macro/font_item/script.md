@@ -1,4 +1,4 @@
-# Script 屬性 (FontItem ��H)
+# Script 屬性 (FontItem 對象)
 
 指定字型的腳本。
 

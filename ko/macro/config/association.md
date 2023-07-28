@@ -1,4 +1,4 @@
-# Association 속성 (Config ��ü)
+# Association 속성 (Config 개체)
 
 [AssociationProp 개체](../association_prop/index) 를 검색합니다.
 

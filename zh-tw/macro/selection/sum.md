@@ -1,4 +1,4 @@
-# Sum 屬性 (Selection ��H)
+# Sum 屬性 (Selection 對象)
 
 檢索所選內容中包含的數字的總和。
 

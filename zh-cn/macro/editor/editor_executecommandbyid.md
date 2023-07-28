@@ -1,4 +1,4 @@
-# ExecuteCommandByID 方法 (Editor ����)
+# ExecuteCommandByID 方法 (Editor 对象)
 
 执行由一个表示命令 ID 整数标识的命令。
 

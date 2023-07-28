@@ -1,4 +1,4 @@
-# SaveToSameFolder プロパティ (BackupProp �I�u�W�F�N�g)
+# SaveToSameFolder プロパティ (BackupProp オブジェクト)
 
 設定のプロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の
 \[バックアップをバックアップ フォルダに保存\] チェック ボックスに相当します。

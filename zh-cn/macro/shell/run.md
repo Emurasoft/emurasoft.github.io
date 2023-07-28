@@ -1,4 +1,4 @@
-# Run 方法 (Shell ����)
+# Run 方法 (Shell 对象)
 
 在新进程中运行程序。
 

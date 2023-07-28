@@ -1,4 +1,4 @@
-# Width 속성 (Window ��ü)
+# Width 속성 (Window 개체)
 
 창의 너비를 설정하거나 반환합니다.
 

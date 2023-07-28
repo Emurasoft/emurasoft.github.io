@@ -1,4 +1,4 @@
-# CharacterSpace 속성 (DisplayProp ��ü)
+# CharacterSpace 속성 (DisplayProp 개체)
 
 구성 속성 [디스플레이 탭](../../dlg/properties/display/index) 의문자 공백 텍스트 박스에 해당합니다.
 

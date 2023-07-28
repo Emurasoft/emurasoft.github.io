@@ -1,4 +1,4 @@
-# MarginNormal プロパティ (GeneralProp �I�u�W�F�N�g)
+# MarginNormal プロパティ (GeneralProp オブジェクト)
 
 設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の
 \[普通行の文字数\] テキスト ボックスに相当します。

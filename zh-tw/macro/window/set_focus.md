@@ -1,4 +1,4 @@
-# SetFocus 方法 (Window ��H)
+# SetFocus 方法 (Window 對象)
 
 把鍵盤焦點設置到該視窗中。
 

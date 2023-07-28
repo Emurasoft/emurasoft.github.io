@@ -1,4 +1,4 @@
-# ShowReturns プロパティ (MarkProp �I�u�W�F�N�g)
+# ShowReturns プロパティ (MarkProp オブジェクト)
 
 設定のプロパティの [\[記号\] タブ](../../dlg/properties/marks/index) の\[改行コード表示\] チェック ボックスに相当します。
 

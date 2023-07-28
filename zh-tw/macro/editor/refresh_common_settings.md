@@ -1,4 +1,4 @@
-# RefreshCommonSettings 方法 (Editor ��H)
+# RefreshCommonSettings 方法 (Editor 對象)
 
 加載常用設置並重新整理 EmEditor 視窗。
 

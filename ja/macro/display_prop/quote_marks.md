@@ -1,4 +1,4 @@
-# QuoteMarks プロパティ (DisplayProp �I�u�W�F�N�g)
+# QuoteMarks プロパティ (DisplayProp オブジェクト)
 
 設定のプロパティの [\[表示\] タブ](../../dlg/properties/display/index) の\[引用マーク\] テキスト ボックスに相当します。
 

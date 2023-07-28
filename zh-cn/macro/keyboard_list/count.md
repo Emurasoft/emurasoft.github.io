@@ -1,4 +1,4 @@
-# Count 属性 (KeyboardList ����)
+# Count 属性 (KeyboardList 集合)
 
 检索项目的总数。
 

@@ -1,4 +1,4 @@
-# InsertFromFile 方法 (Selection ����)
+# InsertFromFile 方法 (Selection 对象)
 
 在光标位置处插入指定文件的内容。
 

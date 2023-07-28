@@ -1,4 +1,4 @@
-# FullName 属性 (Editor ����)
+# FullName 属性 (Editor 对象)
 
 检索 EmEditor 可执行文件 (emeditor.exe) 的完整规格，包括路径。
 

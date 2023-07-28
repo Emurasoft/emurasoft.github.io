@@ -1,4 +1,4 @@
-# MonitorInterval プロパティ (FileProp �I�u�W�F�N�g)
+# MonitorInterval プロパティ (FileProp オブジェクト)
 
 設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[監視間隔\] テキスト ボックスに相当します。
 

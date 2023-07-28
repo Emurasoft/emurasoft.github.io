@@ -1,4 +1,4 @@
-# SetBookmark 方法 (Selection ����)
+# SetBookmark 方法 (Selection 对象)
 
 在光标位置处设一个书签。
 

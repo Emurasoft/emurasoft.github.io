@@ -1,4 +1,4 @@
-# DestructiveInsert 方法 (Selection ����)
+# DestructiveInsert 方法 (Selection 对象)
 
 插入文本，覆盖已存在的文本。
 

@@ -1,4 +1,4 @@
-# DetectUnicodeSignature プロパティ (FileProp �I�u�W�F�N�g)
+# DetectUnicodeSignature プロパティ (FileProp オブジェクト)
 
 設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の
 \[Unicodeサイン(BOM)を検出\] チェック

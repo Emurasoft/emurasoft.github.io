@@ -1,4 +1,4 @@
-# 在文件中替换 (�̳�)
+# 在文件中替换 (教程)
 
 要在文件中替换，用 [ReplaceInFiles 方法](../editor/editor_replaceinfiles).
 

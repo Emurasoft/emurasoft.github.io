@@ -1,4 +1,4 @@
-# Count 屬性 (Documents ���X)
+# Count 屬性 (Documents 集合)
 
 檢索文檔的數目。
 

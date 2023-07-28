@@ -1,4 +1,4 @@
-# Visible 속성 (Window ��ü)
+# Visible 속성 (Window 개체)
 
 창이 보이는지 여부를 반환합니다.
 

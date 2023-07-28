@@ -1,4 +1,4 @@
-# Wrap 屬性 (Config ��H)
+# Wrap 屬性 (Config 對象)
 
 檢索 [WrapProp 對象](../wrap_prop/index)。
 

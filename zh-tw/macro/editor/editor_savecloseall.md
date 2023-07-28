@@ -1,4 +1,4 @@
-# SaveCloseAll 方法 (Editor ��H)
+# SaveCloseAll 方法 (Editor 對象)
 
 儲存并關閉所有打開的檔案。
 

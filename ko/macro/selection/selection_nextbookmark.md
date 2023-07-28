@@ -1,4 +1,4 @@
-# NextBookmark 메서드 (Selection ��ü)
+# NextBookmark 메서드 (Selection 개체)
 
 문서 내에서 다음 책갈피로 이동합니다.
 

@@ -1,4 +1,4 @@
-# Style プロパティ (DisplayItem �I�u�W�F�N�g)
+# Style プロパティ (DisplayItem オブジェクト)
 
 オブジェクトの形式を指定します。
 

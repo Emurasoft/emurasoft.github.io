@@ -1,4 +1,4 @@
-# Item 属性 (Windows ����)
+# Item 属性 (Windows 集合)
 
 为指定索引的窗口检索窗口对象。
 

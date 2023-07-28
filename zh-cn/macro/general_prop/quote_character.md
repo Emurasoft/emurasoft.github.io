@@ -1,4 +1,4 @@
-# QuoteCharacter 属性 (GeneralProp ����)
+# QuoteCharacter 属性 (GeneralProp 对象)
 
 与配置属性中 [常规 页面](../../dlg/properties/general/index) 上的引用字符 文本框相对应。
 

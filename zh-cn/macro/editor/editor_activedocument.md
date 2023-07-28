@@ -1,4 +1,4 @@
-# ActiveDocument 属性 (Editor ����)
+# ActiveDocument 属性 (Editor 对象)
 
 为当前文档，检索 [Document 对象](../document/index)。
 

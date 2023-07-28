@@ -1,4 +1,4 @@
-# PivotTable 方法 (Document ����)
+# PivotTable 方法 (Document 对象)
 
 在 CSV 文档中创建数据透视表。
 

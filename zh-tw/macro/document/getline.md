@@ -1,4 +1,4 @@
-# GetLine 方法 (Document ��H)
+# GetLine 方法 (Document 對象)
 
 檢索指定行上的文字。
 

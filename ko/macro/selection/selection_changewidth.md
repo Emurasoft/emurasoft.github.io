@@ -1,4 +1,4 @@
-# ChangeWidth 메서드 (Selection ��ü)
+# ChangeWidth 메서드 (Selection 개체)
 
 선택된 텍스트의 너비를 변경합니다.
 

@@ -1,4 +1,4 @@
-# ExtractColumns 方法 (Document ����)
+# ExtractColumns 方法 (Document 对象)
 
 提取 CSV 文档中的指定列。
 

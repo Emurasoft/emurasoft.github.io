@@ -1,4 +1,4 @@
-# ScriptFullName 属性 (Window ����)
+# ScriptFullName 属性 (Window 对象)
 
 检索当前运行的宏文件的完整路径以及文件名称。
 

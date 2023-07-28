@@ -1,4 +1,4 @@
-# Width 屬性 (Window ��H)
+# Width 屬性 (Window 對象)
 
 返回或設置視窗的寬度。
 

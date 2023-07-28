@@ -1,4 +1,4 @@
-# Header プロパティ (PrintProp �I�u�W�F�N�g)
+# Header プロパティ (PrintProp オブジェクト)
 
 設定のプロパティの [\[印刷\] タブ](../../dlg/properties/print/index) の
 \[ヘッダ\] テキスト ボックスに相当します。

@@ -1,4 +1,4 @@
-# scrollX 属性 (Window ����)
+# scrollX 属性 (Window 对象)
 
 返回滚动栏的水平位置。
 

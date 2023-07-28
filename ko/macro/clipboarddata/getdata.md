@@ -1,4 +1,4 @@
-# getData 메서드 (clipboardData ��ü)
+# getData 메서드 (clipboardData 개체)
 
 클립보드로부터 지정된 형식 내에서 데이터를 검색합니다.
 

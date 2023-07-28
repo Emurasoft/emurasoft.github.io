@@ -1,4 +1,4 @@
-# GetTopPointY 方法 (Selection ����)
+# GetTopPointY 方法 (Selection 对象)
 
 返回选定内容顶部的行号。
 

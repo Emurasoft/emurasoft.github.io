@@ -1,4 +1,4 @@
-# Item 属性 (FontList ����)
+# Item 属性 (FontList 集合)
 
 为指定的索引检索 [FontItem 对象](../font_item/index)。
 

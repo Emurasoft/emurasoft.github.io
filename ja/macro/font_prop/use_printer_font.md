@@ -1,4 +1,4 @@
-# UsePrinterFont プロパティ (FontProp �I�u�W�F�N�g)
+# UsePrinterFont プロパティ (FontProp オブジェクト)
 
 [\[カスタマイズ フォント\] ダイアログ ボックス](../../dlg/properties/font/index) の\[通常のプリンタ用フォントも含める\] チェック ボックスに相当します。
 

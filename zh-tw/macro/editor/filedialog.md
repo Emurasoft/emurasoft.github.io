@@ -1,4 +1,4 @@
-# FileDialog 方法 (Editor ��H)
+# FileDialog 方法 (Editor 對象)
 
 顯示一個「打開」或「另存為」對話方塊，讓用戶指定驅動器、目錄以及要打開的檔案名。
 

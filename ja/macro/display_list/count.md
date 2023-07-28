@@ -1,4 +1,4 @@
-# Count プロパティ (DisplayList �R���N�V����)
+# Count プロパティ (DisplayList コレクション)
 
 アイテムの数を取得します。
 

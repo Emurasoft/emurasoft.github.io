@@ -1,4 +1,4 @@
-# BackMode 속성 (DisplayItem ��ü)
+# BackMode 속성 (DisplayItem 개체)
 
 배경 색상 모드를 지정합니다.
 

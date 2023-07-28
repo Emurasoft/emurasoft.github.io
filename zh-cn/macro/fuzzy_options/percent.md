@@ -1,4 +1,4 @@
-# Percent 属性 (FuzzyOptions ����)
+# Percent 属性 (FuzzyOptions 对象)
 
 设置或检索相似度的百分比值。
 

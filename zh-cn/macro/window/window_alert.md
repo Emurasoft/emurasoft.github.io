@@ -1,4 +1,4 @@
-# alert 方法 (Window ����)
+# alert 方法 (Window 对象)
 
 在一个简单的对话框中显示一条消息和「OK」按钮。
 

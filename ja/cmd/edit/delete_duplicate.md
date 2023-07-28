@@ -23,13 +23,13 @@ EEID_DELETE_DUPLICATE (4564)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.DeleteDuplicates("",0);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.DeleteDuplicates "",0

@@ -1,4 +1,4 @@
-# WrapMode プロパティ (GeneralProp �I�u�W�F�N�g)
+# WrapMode プロパティ (GeneralProp オブジェクト)
 
 設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の
 \[折り返し方法\] ドロップダウン リスト ボックスに相当します。

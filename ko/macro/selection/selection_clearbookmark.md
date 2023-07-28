@@ -1,4 +1,4 @@
-# ClearBookmark 메서드 (Selection ��ü)
+# ClearBookmark 메서드 (Selection 개체)
 
 현재 줄에 책갈피를 지웁니다.
 

@@ -1,4 +1,4 @@
-# Enabled 屬性 (Window ��H)
+# Enabled 屬性 (Window 對象)
 
 返回是否視窗啟用了游標和鍵盤輸入。
 

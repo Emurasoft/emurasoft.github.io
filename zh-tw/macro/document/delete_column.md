@@ -1,4 +1,4 @@
-# DeleteColumn 方法 (Document ��H)
+# DeleteColumn 方法 (Document 對象)
 
 刪除 CSV 模式中指定的欄。
 

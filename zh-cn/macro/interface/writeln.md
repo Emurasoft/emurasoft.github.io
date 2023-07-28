@@ -1,4 +1,4 @@
-# writeln 方法 (Interface ����)
+# writeln 方法 (Interface 对象)
 
 把一个字符串和新行传递到一个支持的插件中。
 

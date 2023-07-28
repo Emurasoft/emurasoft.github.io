@@ -1,4 +1,4 @@
-# Interval 속성 (AutoSaveProp ��ü)
+# Interval 속성 (AutoSaveProp 개체)
 
 구성 속성 [자동 저장 탭](../../dlg/properties/autosave/index) 의시간(분) 텍스트 박스에 해당합니다.
 

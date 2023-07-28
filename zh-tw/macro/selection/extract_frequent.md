@@ -1,4 +1,4 @@
-# ExtractFrequent 方法 (Selection ��H)
+# ExtractFrequent 方法 (Selection 對象)
 
 將常用字串抽出到新文檔中。
 

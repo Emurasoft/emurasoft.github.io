@@ -1,4 +1,4 @@
-# Mode 属性 (Selection ����)
+# Mode 属性 (Selection 对象)
 
 设置或检索表示选取模式的标志。
 

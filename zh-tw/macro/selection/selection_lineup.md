@@ -1,4 +1,4 @@
-# LineUp 方法 (Selection ��H)
+# LineUp 方法 (Selection 對象)
 
 把游標上移指定的行數。
 

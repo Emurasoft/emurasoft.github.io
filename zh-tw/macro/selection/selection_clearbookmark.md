@@ -1,4 +1,4 @@
-# ClearBookmark 方法 (Selection ��H)
+# ClearBookmark 方法 (Selection 對象)
 
 清除目前的行上的書籤。
 

@@ -1,4 +1,4 @@
-# Item 属性 (Configs ����)
+# Item 属性 (Configs 集合)
 
 为指定索引的配置检索 [Config 对象](../config/index)。
 

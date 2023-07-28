@@ -1,4 +1,4 @@
-# List 屬性 (Keyboard ��H)
+# List 屬性 (Keyboard 對象)
 
 檢索 [KeyboardList 集合](../keyboard_list/index)。
 

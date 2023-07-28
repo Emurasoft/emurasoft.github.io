@@ -1,4 +1,4 @@
-# OnlyWord 屬性 (Regex ��H)
+# OnlyWord 屬性 (Regex 對象)
 
 設置或檢索是否規則運算式僅符合整個單字。
 

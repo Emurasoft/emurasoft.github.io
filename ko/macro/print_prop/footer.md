@@ -1,4 +1,4 @@
-# Footer 속성 (PrintProp ��ü)
+# Footer 속성 (PrintProp 개체)
 
 구성 속성 [인쇄 탭](../../dlg/properties/print/index) 의바닥글 텍스트 박스에 해당합니다.
 

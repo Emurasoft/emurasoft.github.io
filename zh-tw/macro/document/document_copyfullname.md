@@ -1,4 +1,4 @@
-# CopyFullName 方法 (Document ��H)
+# CopyFullName 方法 (Document 對象)
 
 複製文檔的完整路徑以及檔案名稱到剪貼簿上。
 

@@ -1,4 +1,4 @@
-# GetAnchorPointY 메서드 (Selection ��ü)
+# GetAnchorPointY 메서드 (Selection 개체)
 
 선택 영역의 원점의 줄 번호를 반환합니다.
 

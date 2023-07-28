@@ -1,4 +1,4 @@
-# ShowSpaces プロパティ (MarkProp �I�u�W�F�N�g)
+# ShowSpaces プロパティ (MarkProp オブジェクト)
 
 設定のプロパティの [\[記号\] タブ](../../dlg/properties/marks/index) の\[半角空白表示\] チェック ボックスに相当します。
 

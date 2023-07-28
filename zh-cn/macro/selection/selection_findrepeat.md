@@ -1,4 +1,4 @@
-# FindRepeat 方法 (Selection ����)
+# FindRepeat 方法 (Selection 对象)
 
 对同一个字符串重复上一次搜索。
 

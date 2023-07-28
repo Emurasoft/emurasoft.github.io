@@ -1,4 +1,4 @@
-# ActiveString 屬性 (Document ��H)
+# ActiveString 屬性 (Document 對象)
 
 在游標懸停處檢索主動字串。
 

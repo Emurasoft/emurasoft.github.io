@@ -1,4 +1,4 @@
-# MonitorInterval 속성 (FileProp ��ü)
+# MonitorInterval 속성 (FileProp 개체)
 
 구성 속성 [파일 탭](../../dlg/properties/file/index) 의모니터 간격 텍스트 박스에 해당합니다.
 

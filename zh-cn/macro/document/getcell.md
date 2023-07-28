@@ -1,4 +1,4 @@
-# GetCell 方法 (Document ����)
+# GetCell 方法 (Document 对象)
 
 在 CSV 模式中指定的单元格中检索文本。
 

@@ -1,4 +1,4 @@
-# RegExp プロパティ (HighlightItem �I�u�W�F�N�g)
+# RegExp プロパティ (HighlightItem オブジェクト)
 
 設定のプロパティの [\[強調(1)\] タブ](../../dlg/properties/highlight1/index) の
 \[正規表現\] チェック ボックスに相当します。

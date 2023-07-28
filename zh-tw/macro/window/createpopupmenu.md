@@ -1,4 +1,4 @@
-# CreatePopupMenu 方法 (Window ��H)
+# CreatePopupMenu 方法 (Window 對象)
 
 創建一個彈出菜單。
 

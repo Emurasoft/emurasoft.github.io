@@ -1,4 +1,4 @@
-# editor 属性 (Window ����)
+# editor 属性 (Window 对象)
 
 返回 [Editor 对象](../editor/index)。
 

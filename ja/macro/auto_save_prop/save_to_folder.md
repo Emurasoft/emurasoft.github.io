@@ -1,4 +1,4 @@
-# SaveToFolder プロパティ (AutoSaveProp �I�u�W�F�N�g)
+# SaveToFolder プロパティ (AutoSaveProp オブジェクト)
 
 設定のプロパティの [\[自動保存\] タブ](../../dlg/properties/autosave/index) の
 \[自動保存フォルダに保存\] チェック ボックスに相当します。

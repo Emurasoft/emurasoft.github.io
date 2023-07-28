@@ -1,4 +1,4 @@
-# Link 属性 (Config ����)
+# Link 属性 (Config 对象)
 
 检索 [LinkProp 对象](../link_prop/index)。
 

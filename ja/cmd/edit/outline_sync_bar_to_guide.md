@@ -23,13 +23,13 @@ EEID_OUTLINE_SYNC_BAR_TO_GUIDE (3879)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3879);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3879

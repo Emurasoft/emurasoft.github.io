@@ -1,4 +1,4 @@
-# DroppedFiles 속성 (Window ��ü)
+# DroppedFiles 속성 (Window 개체)
 
 [DroppedFiles 개체](../dropped_files/index) 를 반환합니다.
 

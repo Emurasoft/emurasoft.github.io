@@ -1,4 +1,4 @@
-# IsEmpty 속성 (Selection ��ü)
+# IsEmpty 속성 (Selection 개체)
 
 활성화 지점이 기준 위치와 동일한 지 여부를 나타냅니다.
 

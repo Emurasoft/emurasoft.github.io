@@ -1,4 +1,4 @@
-# KanaURL プロパティ (LinkProp �I�u�W�F�N�g)
+# KanaURL プロパティ (LinkProp オブジェクト)
 
 設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の\[半角カナとカナ記号をURLとして認識する\] チェック ボックスに相当します。
 

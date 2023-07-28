@@ -1,4 +1,4 @@
-# Item 속성 (KeyboardList �÷���)
+# Item 속성 (KeyboardList 컬렉션)
 
 지정된 인덱스를 위해 KeyboardItem 개체를 검색합니다.
 

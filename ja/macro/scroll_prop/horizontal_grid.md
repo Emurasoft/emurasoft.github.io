@@ -1,4 +1,4 @@
-# HorizontalGrid プロパティ (ScrollProp �I�u�W�F�N�g)
+# HorizontalGrid プロパティ (ScrollProp オブジェクト)
 
 設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
 \[水平グリッド\] チェック ボックスに相当します。

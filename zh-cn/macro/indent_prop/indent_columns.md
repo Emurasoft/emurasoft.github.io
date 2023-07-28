@@ -1,4 +1,4 @@
-# IndentColumns 属性 (IndentProp ����)
+# IndentColumns 属性 (IndentProp 对象)
 
 与 [制表符/缩进 对话框](../../dlg/properties/general/indent/index) 上的缩进列 文本框相对应。
 

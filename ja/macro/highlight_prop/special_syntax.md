@@ -1,4 +1,4 @@
-# SpecialSyntax プロパティ (HighlightProp �I�u�W�F�N�g)
+# SpecialSyntax プロパティ (HighlightProp オブジェクト)
 
 設定のプロパティの [\[強調(2)\] タブ](../../dlg/properties/highlight2/index) の\[特別な構文\] ドロップダウン リスト ボックスに相当します。
 

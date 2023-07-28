@@ -1,4 +1,4 @@
-# Indent プロパティ (Config �I�u�W�F�N�g)
+# Indent プロパティ (Config オブジェクト)
 
 [IndentProp オブジェクト](../indent_prop/index) を取得します。
 

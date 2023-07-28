@@ -1,4 +1,4 @@
-# Count 속성 (AssociationList �÷���)
+# Count 속성 (AssociationList 컬렉션)
 
 항목의 수를 검사합니다.
 

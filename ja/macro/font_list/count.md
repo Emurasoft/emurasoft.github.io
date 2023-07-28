@@ -1,4 +1,4 @@
-# Count プロパティ (FontList �R���N�V����)
+# Count プロパティ (FontList コレクション)
 
 アイテムの数を取得します。
 

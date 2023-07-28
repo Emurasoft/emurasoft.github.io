@@ -1,4 +1,4 @@
-# UseRecycleBin 屬性 (BackupProp ��H)
+# UseRecycleBin 屬性 (BackupProp 對象)
 
 與組態屬性中 [備份 頁面](../../dlg/properties/backup/index) 上的使用回收站進行備份 核取方塊對應。
 

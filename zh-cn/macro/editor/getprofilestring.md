@@ -1,4 +1,4 @@
-# GetProfileString 方法 (Editor ����)
+# GetProfileString 方法 (Editor 对象)
 
 按 EmEidtor 的设定，从注册表或一个 INI 文件上检索指定项目的字符串值。
 

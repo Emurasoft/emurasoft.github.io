@@ -1,4 +1,4 @@
-# SearchList 속성 (DisplayProp ��ü)
+# SearchList 속성 (DisplayProp 개체)
 
 색 검색 목록을 위해 [HighlightList 개체](../highlight_item/index) 를 검색합니다.
 

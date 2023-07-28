@@ -1,4 +1,4 @@
-# Count 屬性 (CsvList ���X)
+# Count 屬性 (CsvList 集合)
 
 檢索 Csv 對象的數目。
 

@@ -1,4 +1,4 @@
-# Key プロパティ (KeyboardItem �I�u�W�F�N�g)
+# Key プロパティ (KeyboardItem オブジェクト)
 
 オブジェクトのキーを指定します。
 

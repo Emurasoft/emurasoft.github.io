@@ -1,4 +1,4 @@
-# Flags 属性 (KeyboardItem ����)
+# Flags 属性 (KeyboardItem 对象)
 
 指定对象的标志。
 

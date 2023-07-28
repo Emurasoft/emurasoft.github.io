@@ -1,4 +1,4 @@
-# Visible 属性 (Window ����)
+# Visible 属性 (Window 对象)
 
 返回是否窗口可见。
 

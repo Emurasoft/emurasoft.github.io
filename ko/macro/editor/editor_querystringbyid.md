@@ -1,4 +1,4 @@
-# QueryStringByID 메서드 (Editor ��ü)
+# QueryStringByID 메서드 (Editor 개체)
 
 지정된 명령과 연관된 문자열을 검색합니다.
 

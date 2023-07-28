@@ -1,4 +1,4 @@
-# Copy 메서드 (Selection ��ü)
+# Copy 메서드 (Selection 개체)
 
 클립보드에 선택 영역을 복사합니다.
 

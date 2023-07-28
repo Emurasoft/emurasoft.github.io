@@ -1,4 +1,4 @@
-# scrollY 属性 (Window ����)
+# scrollY 属性 (Window 对象)
 
 返回滚动栏的垂直位置。
 

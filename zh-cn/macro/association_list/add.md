@@ -1,4 +1,4 @@
-# Add 方法 (AssociationList ����)
+# Add 方法 (AssociationList 集合)
 
 添加一个项目。
 

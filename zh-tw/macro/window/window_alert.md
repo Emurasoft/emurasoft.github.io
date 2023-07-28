@@ -1,4 +1,4 @@
-# alert 方法 (Window ��H)
+# alert 方法 (Window 對象)
 
 在一個簡單的對話方塊中顯示一條消息和「OK」按鈕。
 

@@ -1,4 +1,4 @@
-# Encoding プロパティ (FileProp �I�u�W�F�N�g)
+# Encoding プロパティ (FileProp オブジェクト)
 
 設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[開く時のエンコード\] ドロップダウン リスト ボックスに相当します。
 

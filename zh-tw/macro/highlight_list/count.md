@@ -1,4 +1,4 @@
-# Count 屬性 (HighlightList ���X)
+# Count 屬性 (HighlightList 集合)
 
 檢索項目總數。
 

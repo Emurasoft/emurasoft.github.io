@@ -1,4 +1,4 @@
-# QuoteDouble プロパティ (HighlightProp �I�u�W�F�N�g)
+# QuoteDouble プロパティ (HighlightProp オブジェクト)
 
 設定のプロパティの [\[強調(2)\] タブ](../../dlg/properties/highlight2/index) の \[引用符に囲まれた文字列\] グループ \- \[2重引用符\] チェック ボックスに相当します。
 

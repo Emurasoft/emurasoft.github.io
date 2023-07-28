@@ -1,4 +1,4 @@
-# AddPopup 메서드 (PopupMenu ��ü)
+# AddPopup 메서드 (PopupMenu 개체)
 
 메뉴의 마지막에 새로운 하위 메뉴를 추가합니다.
 

@@ -1,4 +1,4 @@
-# ShowFullPath 属性 (FileProp ����)
+# ShowFullPath 属性 (FileProp 对象)
 
 与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的显示包含完整路径的文件名 复选框相对应。
 

@@ -1,4 +1,4 @@
-# ChangeCase 方法 (Selection ����)
+# ChangeCase 方法 (Selection 对象)
 
 变更所选取的文本的大小写。
 

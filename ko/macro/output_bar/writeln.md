@@ -1,4 +1,4 @@
-# writeln 메서드 (OutputBar ��ü)
+# writeln 메서드 (OutputBar 개체)
 
 출력 모음에 문자열과 새로운 줄을 추가합니다.
 

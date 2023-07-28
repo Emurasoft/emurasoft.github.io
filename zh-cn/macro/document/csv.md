@@ -1,4 +1,4 @@
-# Csv 属性 (Document ����)
+# Csv 属性 (Document 对象)
 
 检索 [Csv 对象](../csv/index)。
 

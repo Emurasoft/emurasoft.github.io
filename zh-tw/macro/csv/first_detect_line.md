@@ -1,4 +1,4 @@
-# FirstDetectLine 屬性 (Csv ��H)
+# FirstDetectLine 屬性 (Csv 對象)
 
 與在自訂對話方塊中 [CSV 頁面](../../dlg/customize/csv/index) 上的要偵測的第一行 文字方塊對應。
 

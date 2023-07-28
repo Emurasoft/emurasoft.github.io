@@ -1,4 +1,4 @@
-# List 속성 (AssociationProp ��ü)
+# List 속성 (AssociationProp 개체)
 
 [AssociationList 개체](../association_list/index) 를 검색합니다.
 

@@ -1,4 +1,4 @@
-# LineDown 方法 (Selection ����)
+# LineDown 方法 (Selection 对象)
 
 把光标下移指定的行数。
 

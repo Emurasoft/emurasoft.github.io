@@ -1,4 +1,4 @@
-# Delete 方法 (Selection ����)
+# Delete 方法 (Selection 对象)
 
 删除所选内容。如果选定内容是空的，删除光标右边的指定字符数。
 

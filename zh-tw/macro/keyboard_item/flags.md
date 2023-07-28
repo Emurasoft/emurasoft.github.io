@@ -1,4 +1,4 @@
-# Flags 屬性 (KeyboardItem ��H)
+# Flags 屬性 (KeyboardItem 對象)
 
 指定對象的標志。
 

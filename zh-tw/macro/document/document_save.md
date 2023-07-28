@@ -1,4 +1,4 @@
-# Save 方法 (Document ��H)
+# Save 方法 (Document 對象)
 
 保存文檔。
 

@@ -1,4 +1,4 @@
-# Enabled 속성 (Window ��ü)
+# Enabled 속성 (Window 개체)
 
 창이 마우스와 키보드 입력이 가능한지 여부를 반환합니다.
 

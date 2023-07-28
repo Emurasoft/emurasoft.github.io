@@ -1,4 +1,4 @@
-# FirstIndex 属性 (Match ����)
+# FirstIndex 属性 (Match 对象)
 
 一个只读值，它包含在匹配发生时的原始字符串中以零为基的位置。
 

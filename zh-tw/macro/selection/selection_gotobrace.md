@@ -1,4 +1,4 @@
-# GoToBrace 方法 (Selection ��H)
+# GoToBrace 方法 (Selection 對象)
 
 把游標移動到相對應的括號處。
 

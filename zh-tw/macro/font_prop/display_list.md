@@ -1,4 +1,4 @@
-# DisplayList 屬性 (FontProp ��H)
+# DisplayList 屬性 (FontProp 對象)
 
 檢索 FontList 對象。
 

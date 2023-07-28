@@ -1,4 +1,4 @@
-# SelectAll 메서드 (Selection ��ü)
+# SelectAll 메서드 (Selection 개체)
 
 문서 전체를 선택합니다.
 

@@ -1,4 +1,4 @@
-# Unpivot 方法 (Document ����)
+# Unpivot 方法 (Document 对象)
 
 通过平展 CSV 数据将列转换为行。
 

@@ -1,4 +1,4 @@
-# NoWrap プロパティ (Config �I�u�W�F�N�g)
+# NoWrap プロパティ (Config オブジェクト)
 
 [NoWrapProp オブジェクト](../no_wrap_prop/index) 取得します。
 

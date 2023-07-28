@@ -1,4 +1,4 @@
-# FindWindow 方法 (Shell ����)
+# FindWindow 方法 (Shell 对象)
 
 通过一个类名和/或窗口标题查找顶层 [Window 对象](../window/index)。
 

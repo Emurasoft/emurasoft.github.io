@@ -1,4 +1,4 @@
-# Save 方法 (FuzzyOptions ��H)
+# Save 方法 (FuzzyOptions 對象)
 
 將模糊選項儲存到應用數據資料夾。
 

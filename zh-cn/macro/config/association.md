@@ -1,4 +1,4 @@
-# Association 属性 (Config ����)
+# Association 属性 (Config 对象)
 
 检索 [AssociationProp 对象](../association_prop/index)。
 

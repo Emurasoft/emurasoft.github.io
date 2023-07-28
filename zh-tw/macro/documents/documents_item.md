@@ -1,4 +1,4 @@
-# Item 屬性 (Documents ���X)
+# Item 屬性 (Documents 集合)
 
 為指定索引的文檔檢索文檔對象。
 

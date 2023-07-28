@@ -1,4 +1,4 @@
-# getData 方法 (clipboardData ����)
+# getData 方法 (clipboardData 对象)
 
 从剪贴板上用指定的格式检索数据。
 

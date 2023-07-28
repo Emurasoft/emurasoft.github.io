@@ -1,4 +1,4 @@
-# OpenFile 方法 (Editor ��H)
+# OpenFile 方法 (Editor 對象)
 
 打開一個已存在的檔案。
 

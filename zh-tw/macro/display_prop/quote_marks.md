@@ -1,4 +1,4 @@
-# QuoteMarks 屬性 (DisplayProp ��H)
+# QuoteMarks 屬性 (DisplayProp 對象)
 
 與組態屬性中的 [顯示 頁面](../../dlg/properties/display/index) 上的引號標記 文字方塊相對應。
 

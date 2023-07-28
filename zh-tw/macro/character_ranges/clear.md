@@ -1,4 +1,4 @@
-# Clear 方法 (CharacterRanges ���X)
+# Clear 方法 (CharacterRanges 集合)
 
 刪除集合中的所有項目。
 

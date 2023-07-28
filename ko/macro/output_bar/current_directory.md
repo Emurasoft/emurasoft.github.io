@@ -1,4 +1,4 @@
-# CurrentDirectory 속성 (OutputBar ��ü)
+# CurrentDirectory 속성 (OutputBar 개체)
 
 출력 모음의 현재 디렉토리를 설정합니다.
 이 정보는 텍스트가 현재 디렉토리로부터만 점프할 수 있는 상대 경로를 포함한 경우에만 필요합니다.

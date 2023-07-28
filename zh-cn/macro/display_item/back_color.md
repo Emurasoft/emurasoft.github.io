@@ -1,4 +1,4 @@
-# BackColor 属性 (DisplayItem ����)
+# BackColor 属性 (DisplayItem 对象)
 
 指定对象的背景颜色。
 

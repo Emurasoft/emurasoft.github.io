@@ -1,4 +1,4 @@
-# Highlight 屬性 (Config ��H)
+# Highlight 屬性 (Config 對象)
 
 檢索 [HighlightProp 對象](../highlight_prop/index)。
 

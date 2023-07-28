@@ -1,4 +1,4 @@
-# Scroll 属性 (Config ����)
+# Scroll 属性 (Config 对象)
 
 检索 [ScrollProp 对象](../scroll_prop/index)。
 

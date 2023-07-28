@@ -1,4 +1,4 @@
-# Saved 属性 (Document ����)
+# Saved 属性 (Document 对象)
 
 检索或设置表示自从上次被保存或打开后文档是否已被修改的标志。
 

@@ -1,4 +1,4 @@
-# ScriptName 属性 (Window ����)
+# ScriptName 属性 (Window 对象)
 
 仅检索当前运行的宏文件的文件名。
 

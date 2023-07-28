@@ -1,4 +1,4 @@
-# SelectInQuotes プロパティ (LinkProp �I�u�W�F�N�g)
+# SelectInQuotes プロパティ (LinkProp オブジェクト)
 
 設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の\[引用符の内側をクリックするとその文字列を選択する\] チェック ボックスに相当します。
 

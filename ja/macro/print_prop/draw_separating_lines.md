@@ -1,4 +1,4 @@
-# DrawSeparatingLines プロパティ (PrintProp �I�u�W�F�N�g)
+# DrawSeparatingLines プロパティ (PrintProp オブジェクト)
 
 設定のプロパティの [\[印刷\] タブ](../../dlg/properties/print/index) の
 \[区切り線を引く\] チェック ボックスに相当します。

@@ -1,4 +1,4 @@
-# DuplicateLine 方法 (Selection ��H)
+# DuplicateLine 方法 (Selection 對象)
 
 複製目前的行。
 

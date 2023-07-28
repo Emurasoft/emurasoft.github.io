@@ -1,4 +1,4 @@
-# Count 屬性 (KeyboardList ���X)
+# Count 屬性 (KeyboardList 集合)
 
 檢索項目總數。
 

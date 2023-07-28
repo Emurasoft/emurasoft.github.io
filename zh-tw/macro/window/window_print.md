@@ -1,4 +1,4 @@
-# print 方法 (Window ��H)
+# print 方法 (Window 對象)
 
 顯示「列印」對話方塊。
 

@@ -1,4 +1,4 @@
-# Remove 方法 (NoWrapList ����)
+# Remove 方法 (NoWrapList 集合)
 
 删除一个项目。
 

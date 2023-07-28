@@ -1,4 +1,4 @@
-# Name 屬性 (NoWrapItem ��H)
+# Name 屬性 (NoWrapItem 對象)
 
 指定對象的名稱。
 

@@ -1,4 +1,4 @@
-# TagEnd 属性 (HighlightProp ����)
+# TagEnd 属性 (HighlightProp 对象)
 
 与配置属性中 [高亮（1） 页面](../../dlg/properties/highlight1/index) 上的结束标记 文本框相对应。
 

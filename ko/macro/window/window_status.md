@@ -1,4 +1,4 @@
-# status 속성 (Window ��ü)
+# status 속성 (Window 개체)
 
 상태 표시줄에 표시되는 문자열을 검색하거나 설정합니다.
 

@@ -1,4 +1,4 @@
-# Text 屬性 (OutputBar ��H)
+# Text 屬性 (OutputBar 對象)
 
 在匯出欄中檢索整個文字。
 

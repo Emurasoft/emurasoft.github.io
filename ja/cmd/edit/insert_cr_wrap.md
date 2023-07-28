@@ -23,13 +23,13 @@ EEID_INSERT_CR_WRAP (4143)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.Format(eeFormatInsertNL);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.Format eeFormatInsertNL

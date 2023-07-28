@@ -1,4 +1,4 @@
-# Version 属性 (Editor ����)
+# Version 属性 (Editor 对象)
 
 检索 表示当前 EmEditor 版本的字符串。
 

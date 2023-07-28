@@ -1,4 +1,4 @@
-# DestructiveInsert 메서드 (Selection ��ü)
+# DestructiveInsert 메서드 (Selection 개체)
 
 기존의 텍스트에 덮어쓰기하여 텍스트를 삽입합니다.
 

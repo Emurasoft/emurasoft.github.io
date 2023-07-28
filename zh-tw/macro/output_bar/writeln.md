@@ -1,4 +1,4 @@
-# writeln 方法 (OutputBar ��H)
+# writeln 方法 (OutputBar 對象)
 
 附加一個字串和一個新行到輸出列上。
 

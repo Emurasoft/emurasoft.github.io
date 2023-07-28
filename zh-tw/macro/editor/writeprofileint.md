@@ -1,4 +1,4 @@
-# WriteProfileInt 方法 (Editor ��H)
+# WriteProfileInt 方法 (Editor 對象)
 
 設一個整數值到注冊表中或一個取決于 EmEditor 設置的 INI 檔案中。
 

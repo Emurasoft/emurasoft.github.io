@@ -1,4 +1,4 @@
-# NextBookmark 方法 (Selection ��H)
+# NextBookmark 方法 (Selection 對象)
 
 移動到文檔中的下一個書籤處。
 

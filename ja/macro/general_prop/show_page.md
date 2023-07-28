@@ -1,4 +1,4 @@
-# ShowPage プロパティ (GeneralProp �I�u�W�F�N�g)
+# ShowPage プロパティ (GeneralProp オブジェクト)
 
 設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[ページ番号を表示\] チェック ボックスに相当します。
 

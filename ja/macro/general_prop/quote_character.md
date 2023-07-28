@@ -1,4 +1,4 @@
-# QuoteCharacter プロパティ (GeneralProp �I�u�W�F�N�g)
+# QuoteCharacter プロパティ (GeneralProp オブジェクト)
 
 設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[引用マーク\] テキスト ボックス相当します。
 

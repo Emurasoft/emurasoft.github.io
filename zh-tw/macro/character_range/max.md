@@ -1,4 +1,4 @@
-# Max 屬性 (CharacterRange ��H)
+# Max 屬性 (CharacterRange 對象)
 
 指定對象的最大字元。
 

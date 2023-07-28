@@ -1,4 +1,4 @@
-# CopyLink 方法 (Selection ����)
+# CopyLink 方法 (Selection 对象)
 
 复制光标处的超链接到剪贴板上。
 

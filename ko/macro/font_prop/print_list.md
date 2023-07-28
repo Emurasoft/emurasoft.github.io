@@ -1,4 +1,4 @@
-# PrintList 속성 (FontProp ��ü)
+# PrintList 속성 (FontProp 개체)
 
 PrintList 개체를 검색합니다.
 

@@ -1,4 +1,4 @@
-# clipboardData 属性 (Window ����)
+# clipboardData 属性 (Window 对象)
 
 返回 [clipboardData 对象](../clipboarddata/index)。
 

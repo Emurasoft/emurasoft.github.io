@@ -1,4 +1,4 @@
-# hWnd 属性 (Window ����)
+# hWnd 属性 (Window 对象)
 
 检索或设置窗口的句柄值。
 

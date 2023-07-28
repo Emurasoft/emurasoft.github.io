@@ -1,4 +1,4 @@
-# Count 属性 (NoWrapList ����)
+# Count 属性 (NoWrapList 集合)
 
 检索项目的总数。
 

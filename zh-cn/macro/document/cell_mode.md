@@ -1,4 +1,4 @@
-# CellMode 属性 (Document ����)
+# CellMode 属性 (Document 对象)
 
 设置或检索一个标志来显示选择模式是否是单元格选择模式。
 

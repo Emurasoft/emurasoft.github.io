@@ -1,4 +1,4 @@
-# Flags 속성 (KeyboardItem ��ü)
+# Flags 속성 (KeyboardItem 개체)
 
 개체의 플래그를 지정합니다.
 

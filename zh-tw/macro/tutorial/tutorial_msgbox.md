@@ -1,4 +1,4 @@
-# 顯示一個消息方塊 (�е{)
+# 顯示一個消息方塊 (教程)
 
 要在一個消息方塊中顯示簡單的文字，您能用 [alert \
 方法](../window/window_alert) 或 [confirm 方法](../window/window_confirm)。然而，這些方法僅能顯示三個按鈕: YES，NO 以及 CANCEL。要在消息方塊中顯示更多復雜的文字，請用 WshShell 對象的 Popup 方法。

@@ -1,4 +1,4 @@
-# DeleteEmpty 属性 (FileSaveProp ����)
+# DeleteEmpty 属性 (FileSaveProp 对象)
 
 与 [保存详细信息 对话框](../../dlg/properties/file/save_details/index) 中的保存时删除空文件 复选框相对应。
 

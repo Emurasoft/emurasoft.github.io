@@ -1,4 +1,4 @@
-# Cut 方法 (Selection ��H)
+# Cut 方法 (Selection 對象)
 
 複製選取的文字到剪貼簿上并在原先的位置處刪除該文字。
 

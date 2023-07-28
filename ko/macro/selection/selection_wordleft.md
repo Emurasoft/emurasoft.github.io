@@ -1,4 +1,4 @@
-# WordLeft 메서드 (Selection ��ü)
+# WordLeft 메서드 (Selection 개체)
 
 지정된 단어의 수만큼 왼쪽으로 커서를 이동합니다.
 

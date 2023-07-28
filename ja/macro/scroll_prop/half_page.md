@@ -1,4 +1,4 @@
-# HalfPage プロパティ (ScrollProp �I�u�W�F�N�g)
+# HalfPage プロパティ (ScrollProp オブジェクト)
 
 設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
 \[半ページ スクロール\] チェック ボックスに相当します。

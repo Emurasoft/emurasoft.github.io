@@ -1,4 +1,4 @@
-# Run 方法 (Shell ��H)
+# Run 方法 (Shell 對象)
 
 在新進程中運行程式。
 

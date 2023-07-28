@@ -1,4 +1,4 @@
-# Max 属性 (CharacterRange ����)
+# Max 属性 (CharacterRange 对象)
 
 指定对象的最大字符。
 

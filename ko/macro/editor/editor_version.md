@@ -1,4 +1,4 @@
-# Version 속성 (Editor ��ü)
+# Version 속성 (Editor 개체)
 
 현재 엠에디터 버전을 나타내는 문자열을 검색합니다.
 

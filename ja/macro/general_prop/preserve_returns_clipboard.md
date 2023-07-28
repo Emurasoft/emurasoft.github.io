@@ -1,4 +1,4 @@
-# PreserveReturnsClipboard プロパティ (GeneralProp �I�u�W�F�N�g)
+# PreserveReturnsClipboard プロパティ (GeneralProp オブジェクト)
 
 設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[クリップボードで改行コードを保持\] チェック ボックスに相当します。
 

@@ -1,4 +1,4 @@
-# FindWindow 메서드 (Window ��ü)
+# FindWindow 메서드 (Window 개체)
 
 클래스 이름 및/또는 창 제목으로 하위 [Window 개체](../window/index) 를 검색합니다.
 

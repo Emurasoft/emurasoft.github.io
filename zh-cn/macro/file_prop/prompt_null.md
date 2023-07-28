@@ -1,4 +1,4 @@
-# PromptNull 属性 (FileProp ����)
+# PromptNull 属性 (FileProp 对象)
 
 与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的如果发现空字符时进行提示 复选框相对应。
 

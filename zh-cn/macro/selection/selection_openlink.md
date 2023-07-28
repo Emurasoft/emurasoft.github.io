@@ -1,4 +1,4 @@
-# OpenLink 方法 (Selection ����)
+# OpenLink 方法 (Selection 对象)
 
 打开光标处的超链接。
 

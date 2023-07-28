@@ -1,4 +1,4 @@
-# Enabled 속성 (AssociationProp ��ü)
+# Enabled 속성 (AssociationProp 개체)
 
 구성 속성 [연결 탭](../../dlg/properties/associate/index) 의연결 활성화 체크 박스에 해당합니다.
 

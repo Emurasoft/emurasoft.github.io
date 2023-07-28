@@ -1,4 +1,4 @@
-# WriteProfileString 方法 (Editor ��H)
+# WriteProfileString 方法 (Editor 對象)
 
 按 EmEditor 設定，設置一個字串值到注冊表或一個 INI 檔案中。
 

@@ -1,4 +1,4 @@
-# Item 屬性 (Windows ���X)
+# Item 屬性 (Windows 集合)
 
 為指定索引的視窗檢索視窗對象。
 

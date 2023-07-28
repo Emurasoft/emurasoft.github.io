@@ -1,4 +1,4 @@
-# NewFile 方法 (Editor ��H)
+# NewFile 方法 (Editor 對象)
 
 新建一個檔案。
 

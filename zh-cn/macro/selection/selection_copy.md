@@ -1,4 +1,4 @@
-# Copy 方法 (Selection ����)
+# Copy 方法 (Selection 对象)
 
 复制选定内容到剪贴板上。
 

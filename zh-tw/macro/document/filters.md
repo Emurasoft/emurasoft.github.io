@@ -1,4 +1,4 @@
-# filters 屬性 (Document ��H)
+# filters 屬性 (Document 對象)
 
 擷取或設置 [Filters 集合](../filters/index)。
 

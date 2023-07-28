@@ -1,4 +1,4 @@
-# FontCategory 扽俶 (FileNewProp ��H)
+# FontCategory 扽俶 (FileNewProp 對象)
 
 Corresponds to theFont
 Category drop-down list box in the

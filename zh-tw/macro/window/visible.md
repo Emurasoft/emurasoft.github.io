@@ -1,4 +1,4 @@
-# Visible 屬性 (Window ��H)
+# Visible 屬性 (Window 對象)
 
 返回是否視窗可見。
 

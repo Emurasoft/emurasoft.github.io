@@ -1,4 +1,4 @@
-# CharacterSpace プロパティ (DisplayProp �I�u�W�F�N�g)
+# CharacterSpace プロパティ (DisplayProp オブジェクト)
 
 設定のプロパティの [\[表示\] タブ](../../dlg/properties/display/index) の\[文字間\] テキスト ボックスに相当します。
 

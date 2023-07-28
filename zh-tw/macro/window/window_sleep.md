@@ -1,4 +1,4 @@
-# Sleep 方法 (Window ��H)
+# Sleep 方法 (Window 對象)
 
 在以毫秒為單位的指定時間內暫停執行巨集。
 

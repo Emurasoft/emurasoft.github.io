@@ -1,4 +1,4 @@
-# QuoteMarks 属性 (DisplayProp ����)
+# QuoteMarks 属性 (DisplayProp 对象)
 
 与配置属性中的 [显示 页面](../../dlg/properties/display/index) 上的引号标记 文本框相对应。
 

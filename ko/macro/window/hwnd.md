@@ -1,4 +1,4 @@
-# hWnd 속성 (Window ��ü)
+# hWnd 속성 (Window 개체)
 
 창의 핸들 값을 검색하거나 설정합니다.
 

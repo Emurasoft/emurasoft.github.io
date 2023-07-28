@@ -1,4 +1,4 @@
-# write 方法 (Document ����)
+# write 方法 (Document 对象)
 
 在当前光标位置处插入或改写一个字符串。
 

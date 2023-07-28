@@ -1,4 +1,4 @@
-# HorizontalBar 속성 (ScrollProp ��ü)
+# HorizontalBar 속성 (ScrollProp 개체)
 
 구성 속성 [스크롤 탭](../../dlg/properties/scroll/index) 의가로 스크롤 바 드롭 다운 리스트 박스에 해당합니다.
 

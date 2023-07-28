@@ -1,4 +1,4 @@
-# Documents 属性 (Editor ����)
+# Documents 属性 (Editor 对象)
 
 为当前打开的文档，检索 [Documents 集合](../documents/index)。
 

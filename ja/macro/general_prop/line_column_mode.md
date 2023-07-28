@@ -1,4 +1,4 @@
-# LineColumnMode プロパティ (GeneralProp �I�u�W�F�N�g)
+# LineColumnMode プロパティ (GeneralProp オブジェクト)
 
 設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の
 \[行、桁の表示方法\] ドロップダウン リスト ボックスに相当します。

@@ -1,4 +1,4 @@
-# Name プロパティ (Config �I�u�W�F�N�g)
+# Name プロパティ (Config オブジェクト)
 
 現在の設定のオブジェクトの名前を取得します。
 

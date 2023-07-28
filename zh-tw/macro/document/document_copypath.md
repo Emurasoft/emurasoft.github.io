@@ -1,4 +1,4 @@
-# CopyPath 方法 (Document ��H)
+# CopyPath 方法 (Document 對象)
 
 僅複製文檔的路徑到剪貼簿上。
 

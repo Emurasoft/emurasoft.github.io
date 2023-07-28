@@ -25,22 +25,22 @@ EEID_SELECT_CONFIG から EEID_SELECT_CONFIG + 255 まで (5120 から 5120 + 25
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(5120 + i);  // i は 0 から 255 までの整数
 ```
 
-## または
+### または
 
 document.ConfigName = "(設定名)";
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 5120 + i   ' i は 0 から 255 までの整数
 ```
 
-## または
+### または
 
 document.ConfigName = "(設定名)"

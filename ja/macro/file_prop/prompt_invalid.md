@@ -1,4 +1,4 @@
-# PromptInvalid プロパティ (FileProp �I�u�W�F�N�g)
+# PromptInvalid プロパティ (FileProp オブジェクト)
 
 設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の
 \[変換できない不正な文字で警告\] チェック ボックスに相当します。

@@ -1,4 +1,4 @@
-# Enabled 屬性 (AutoSaveProp ��H)
+# Enabled 屬性 (AutoSaveProp 對象)
 
 與組態屬性中 [自動儲存 頁面](../../dlg/properties/autosave/index) 上的自動儲存 核取方塊對應。
 

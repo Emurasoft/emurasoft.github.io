@@ -1,4 +1,4 @@
-# ConfigName 속성 (Document ��ü)
+# ConfigName 속성 (Document 개체)
 
 현재 구성 이름을 검색하거나 설정합니다.
 

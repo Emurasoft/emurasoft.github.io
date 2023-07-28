@@ -1,4 +1,4 @@
-# Print 屬性 (Config ��H)
+# Print 屬性 (Config 對象)
 
 檢索 [PrintProp 對象](../print_prop/index)。
 

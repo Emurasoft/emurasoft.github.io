@@ -1,4 +1,4 @@
-# ColorList 屬性 (DisplayProp ��H)
+# ColorList 屬性 (DisplayProp 對象)
 
 為顏色清單檢索 [DisplayList 集合](../display_list/index)。
 

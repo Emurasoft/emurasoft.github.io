@@ -1,4 +1,4 @@
-# WrapMode 속성 (GeneralProp ��ü)
+# WrapMode 속성 (GeneralProp 개체)
 
 구성 속성 [일반 탭](../../dlg/properties/general/index) 의줄 바꿈 드롭 다운 리스트 박스에 해당합니다.
 

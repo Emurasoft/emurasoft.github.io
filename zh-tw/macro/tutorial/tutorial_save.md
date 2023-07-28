@@ -1,4 +1,4 @@
-# 儲存巨集 (�е{)
+# 儲存巨集 (教程)
 
 要儲存一個巨集，請選擇 [儲存巨集 命令](../../cmd/macros/macro_save)，EmEditor 會顯示一個另存新檔 對話方塊。EmEditor 的預設資料夾是我的文檔 資料夾下的我的巨集 資料夾。要更改預設資料夾，請選擇 [自訂巨集 命令](../../cmd/macros/customize_macro)，然后在自訂巨集 對話方塊上的 [選項 頁面](../../dlg/macro_customize/options/index) 上變更資料夾。
 

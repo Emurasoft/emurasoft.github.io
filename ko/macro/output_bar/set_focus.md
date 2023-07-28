@@ -1,4 +1,4 @@
-# SetFocus 메서드 (OutputBar ��ü)
+# SetFocus 메서드 (OutputBar 개체)
 
 출력 모음에 키보드 포커스를 설정합니다.
 

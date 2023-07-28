@@ -1,4 +1,4 @@
-# IgnoreColor プロパティ (PrintProp �I�u�W�F�N�g)
+# IgnoreColor プロパティ (PrintProp オブジェクト)
 
 設定のプロパティの [\[印刷\] タブ](../../dlg/properties/print/index) の
 \[色と下線を無効にする\] チェック ボックスに相当します。

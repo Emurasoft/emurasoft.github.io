@@ -1,4 +1,4 @@
-# Name 屬性 (Config ��H)
+# Name 屬性 (Config 對象)
 
 為目前的組態對象檢索名稱。
 

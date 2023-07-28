@@ -1,4 +1,4 @@
-# IgnoreCase 属性 (Regex ����)
+# IgnoreCase 属性 (Regex 对象)
 
 设置或检索是否正则表达式忽略大小写。
 

@@ -1,4 +1,4 @@
-# Value 屬性 (Match ��H)
+# Value 屬性 (Match 對象)
 
 一個包含符合值或文字的唯讀值。
 

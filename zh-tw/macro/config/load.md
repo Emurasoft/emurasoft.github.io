@@ -1,4 +1,4 @@
-# Load 方法 (Config ��H)
+# Load 方法 (Config 對象)
 
 加載一個組態。
 

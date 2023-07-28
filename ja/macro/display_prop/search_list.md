@@ -1,4 +1,4 @@
-# SearchList プロパティ (DisplayProp �I�u�W�F�N�g)
+# SearchList プロパティ (DisplayProp オブジェクト)
 
 検索色のリストの [DisplayList コレクション](../display_list/index) を取得します。
 

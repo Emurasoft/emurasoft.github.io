@@ -1,4 +1,4 @@
-# RowHeading 属性 (Csv ����)
+# RowHeading 属性 (Csv 对象)
 
 与在自定义对话框中 [CSV 格式 页面](../../dlg/customize/csv/index) 上的行标题 文本框对应。
 

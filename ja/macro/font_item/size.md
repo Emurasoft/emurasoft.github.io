@@ -1,4 +1,4 @@
-# Size プロパティ (FontItem �I�u�W�F�N�g)
+# Size プロパティ (FontItem オブジェクト)
 
 フォントを適当なサイズで指定します。
 

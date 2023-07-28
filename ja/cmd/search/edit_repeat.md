@@ -23,13 +23,13 @@ EEID_EDIT_REPEAT (4202)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.FindRepeat(eeFindRepeatNext);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.FindRepeat eeFindRepeatNext

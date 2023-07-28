@@ -1,4 +1,4 @@
-# Sum 属性 (Selection ����)
+# Sum 属性 (Selection 对象)
 
 检索所选内容中包含的数字的总和。
 

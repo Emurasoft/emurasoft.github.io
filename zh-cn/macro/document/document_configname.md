@@ -1,4 +1,4 @@
-# ConfigName 属性 (Document ����)
+# ConfigName 属性 (Document 对象)
 
 检索或设置当前配置名称。
 

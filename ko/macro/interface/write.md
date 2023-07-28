@@ -1,4 +1,4 @@
-# write 메서드 (Interface ��ü)
+# write 메서드 (Interface 개체)
 
 지원되는 플러그 인에 문자열을 전달합니다.
 

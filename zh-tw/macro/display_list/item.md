@@ -1,4 +1,4 @@
-# Item 屬性 (DisplayList ���X)
+# Item 屬性 (DisplayList 集合)
 
 為指定索引檢索 [DisplayItem 對象](../display_item/index)。
 

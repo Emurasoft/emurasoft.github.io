@@ -1,4 +1,4 @@
-# Add 方法 (NoWrapList ���X)
+# Add 方法 (NoWrapList 集合)
 
 添加一個項目。
 

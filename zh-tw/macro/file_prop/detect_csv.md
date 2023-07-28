@@ -1,4 +1,4 @@
-# DetectCSV 屬性 (FileProp ��H)
+# DetectCSV 屬性 (FileProp 對象)
 
 與組態屬性中 [檔案 頁面](../../dlg/properties/file/index) 上的偵測 CSV (逗號分隔) 的核取方塊相對應。
 

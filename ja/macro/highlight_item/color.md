@@ -1,4 +1,4 @@
-# Color プロパティ (HighlightItem �I�u�W�F�N�g)
+# Color プロパティ (HighlightItem オブジェクト)
 
 オブジェクトの色を指定します。
 

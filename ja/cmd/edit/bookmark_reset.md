@@ -23,13 +23,13 @@ EEID_BOOKMARK_RESET (4354)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.ClearBookmark();
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.ClearBookmark

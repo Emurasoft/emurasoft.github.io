@@ -1,4 +1,4 @@
-# Text 속성 (Selection ��ü)
+# Text 속성 (Selection 개체)
 
 선택된 텍스트를 검색하거나 현재 위치에 문자열을 삽입합니다.
 

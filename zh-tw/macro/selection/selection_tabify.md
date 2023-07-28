@@ -1,4 +1,4 @@
-# Tabify 方法 (Selection ��H)
+# Tabify 方法 (Selection 對象)
 
 把選定內容中的空白轉換為 tab。
 

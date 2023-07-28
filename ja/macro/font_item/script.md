@@ -1,4 +1,4 @@
-# Script プロパティ (FontItem �I�u�W�F�N�g)
+# Script プロパティ (FontItem オブジェクト)
 
 フォントのスクリプトを指定します。
 

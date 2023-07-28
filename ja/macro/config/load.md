@@ -1,4 +1,4 @@
-# Load メソッド (Config �I�u�W�F�N�g)
+# Load メソッド (Config オブジェクト)
 
 設定をロードします。
 

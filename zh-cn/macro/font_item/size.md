@@ -1,4 +1,4 @@
-# Size 属性 (FontItem ����)
+# Size 属性 (FontItem 对象)
 
 用点数(pt)指定字体大小。
 

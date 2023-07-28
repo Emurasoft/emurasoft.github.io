@@ -1,4 +1,4 @@
-# Add 메서드 (PopupMenu ��ü)
+# Add 메서드 (PopupMenu 개체)
 
 메뉴의 마지막에 새로운 항목을 추가합니다.
 

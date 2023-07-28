@@ -1,4 +1,4 @@
-# TextColor 속성 (DisplayItem ��ü)
+# TextColor 속성 (DisplayItem 개체)
 
 개체의 텍스트 색상을 지정합니다.
 

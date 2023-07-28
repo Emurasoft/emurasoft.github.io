@@ -1,4 +1,4 @@
-# Undo 메서드 (Document ��ü)
+# Undo 메서드 (Document 개체)
 
 마지막 동작을 실행 취소합니다.
 

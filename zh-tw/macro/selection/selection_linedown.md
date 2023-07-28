@@ -1,4 +1,4 @@
-# LineDown 方法 (Selection ��H)
+# LineDown 方法 (Selection 對象)
 
 把游標下移指定的行數。
 

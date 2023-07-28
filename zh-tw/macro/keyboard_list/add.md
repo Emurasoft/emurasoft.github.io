@@ -1,4 +1,4 @@
-# Add 方法 (KeyboardList ���X)
+# Add 方法 (KeyboardList 集合)
 
 添加一個項目。
 

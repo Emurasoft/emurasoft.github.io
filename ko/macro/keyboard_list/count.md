@@ -1,4 +1,4 @@
-# Count 속성 (KeyboardList �÷���)
+# Count 속성 (KeyboardList 컬렉션)
 
 항목의 수를 검색합니다.
 

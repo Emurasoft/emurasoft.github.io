@@ -1,4 +1,4 @@
-# Interface 속성 (Window ��ü)
+# Interface 속성 (Window 개체)
 
 [Interface 개체](../interface/index) 를 반환합니다.
 

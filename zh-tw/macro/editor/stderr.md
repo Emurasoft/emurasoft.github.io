@@ -1,4 +1,4 @@
-# Stderr 方法 (Editor ��H)
+# Stderr 方法 (Editor 對象)
 
 將字串寫入標準錯誤。
 

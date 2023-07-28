@@ -1,4 +1,4 @@
-# SmoothSpeed 屬性 (ScrollProp ��H)
+# SmoothSpeed 屬性 (ScrollProp 對象)
 
 與組態屬性中 [捲動 頁面](../../dlg/properties/scroll/index) 上的平滑捲動滑塊 相對應。
 

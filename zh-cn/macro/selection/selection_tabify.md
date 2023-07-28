@@ -1,4 +1,4 @@
-# Tabify 方法 (Selection ����)
+# Tabify 方法 (Selection 对象)
 
 把选定内容中的空格转换为 tab。
 

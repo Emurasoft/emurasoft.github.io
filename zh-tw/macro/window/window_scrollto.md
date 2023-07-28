@@ -1,4 +1,4 @@
-# scrollTo 方法 (Window ��H)
+# scrollTo 方法 (Window 對象)
 
 把視窗捲動至指定的位置。
 

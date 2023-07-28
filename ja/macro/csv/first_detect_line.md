@@ -1,4 +1,4 @@
-# FirstDetectLine プロパティ (Csv �I�u�W�F�N�g)
+# FirstDetectLine プロパティ (Csv オブジェクト)
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[検出する最初の行\] テキスト ボックス に相当します。
 

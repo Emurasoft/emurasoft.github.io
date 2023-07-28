@@ -23,13 +23,13 @@ EEID_SHIFT_BOTTOM (4185)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.EndOfDocument(true);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.EndOfDocument true

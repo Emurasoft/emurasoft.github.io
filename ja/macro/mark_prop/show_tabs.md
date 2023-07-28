@@ -1,4 +1,4 @@
-# ShowTabs プロパティ (MarkProp �I�u�W�F�N�g)
+# ShowTabs プロパティ (MarkProp オブジェクト)
 
 設定のプロパティの [\[記号\] タブ](../../dlg/properties/marks/index) の\[タブ表示\] チェック ボックスに相当します。
 

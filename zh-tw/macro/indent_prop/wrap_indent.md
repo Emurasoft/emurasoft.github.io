@@ -1,4 +1,4 @@
-# WrapIndent 屬性 (IndentProp ��H)
+# WrapIndent 屬性 (IndentProp 對象)
 
 與 [Tab/縮排 對話方塊](../../dlg/properties/general/indent/index) 上的換行縮排 核取方塊相對應。
 

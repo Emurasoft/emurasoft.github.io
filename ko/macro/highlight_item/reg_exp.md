@@ -1,4 +1,4 @@
-# RegExp 속성 (HighlightItem ��ü)
+# RegExp 속성 (HighlightItem 개체)
 
 구성 속성 [강조 표시 (1) 탭](../../dlg/properties/highlight1/index) 의정규식 체크 박스에 해당합니다.
 

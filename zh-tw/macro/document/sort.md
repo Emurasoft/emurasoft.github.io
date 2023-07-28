@@ -1,4 +1,4 @@
-# Sort 方法 (Document ��H)
+# Sort 方法 (Document 對象)
 
 排序文檔。
 

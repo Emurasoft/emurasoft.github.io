@@ -1,4 +1,4 @@
-# KinsokuBegin 属性 (WrapProp ����)
+# KinsokuBegin 属性 (WrapProp 对象)
 
 与配置属性中 [换行 页面](../../dlg/properties/wrap/index) 上的行首不允许换行字符 文本框相对应。
 

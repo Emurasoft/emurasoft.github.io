@@ -1,4 +1,4 @@
-# Replace 方法 (Selection ��H)
+# Replace 方法 (Selection 對象)
 
 在文檔中取代一個字串。
 

@@ -1,4 +1,4 @@
-# Bold プロパティ (FontItem �I�u�W�F�N�g)
+# Bold プロパティ (FontItem オブジェクト)
 
 フォントが太字に設定されていたらTrueです。
 

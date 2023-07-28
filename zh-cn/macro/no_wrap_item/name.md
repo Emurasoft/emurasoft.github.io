@@ -1,4 +1,4 @@
-# Name 属性 (NoWrapItem ����)
+# Name 属性 (NoWrapItem 对象)
 
 指定对象的名称。
 

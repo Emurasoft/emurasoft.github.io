@@ -1,4 +1,4 @@
-# IsActiveEndGreater 属性 (Selection ����)
+# IsActiveEndGreater 属性 (Selection 对象)
 
 表示活动点是否与底部点相同。
 

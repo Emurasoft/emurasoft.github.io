@@ -1,4 +1,4 @@
-# TagJump 方法 (Selection ����)
+# TagJump 方法 (Selection 对象)
 
 跳转到光标所在的标签。
 

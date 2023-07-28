@@ -1,4 +1,4 @@
-# File プロパティ (Config �I�u�W�F�N�g)
+# File プロパティ (Config オブジェクト)
 
 [FileProp オブジェクト](../file_prop/index) を取得します。
 

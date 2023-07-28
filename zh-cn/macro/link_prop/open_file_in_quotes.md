@@ -1,4 +1,4 @@
-# OpenFileInQuotes 属性 (LinkProp ����)
+# OpenFileInQuotes 属性 (LinkProp 对象)
 
 与配置属性中 [链接 页面](../../dlg/properties/link/index) 上的点击引号内的文件名打开文件 复选框相对应。
 

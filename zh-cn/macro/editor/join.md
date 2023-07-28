@@ -1,4 +1,4 @@
-# Join 方法 (Editor ����)
+# Join 方法 (Editor 对象)
 
 按指定键列，用一个与 JOIN 操作类似的方法合并两个 CSV 文档，并创建一个新文档。
 

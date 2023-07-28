@@ -1,4 +1,4 @@
-# KinsokuEnd 속성 (WrapProp ��ü)
+# KinsokuEnd 속성 (WrapProp 개체)
 
 구성 속성의 [배치 탭](../../dlg/properties/wrap/index) 의줄 끝 점에서 불가능 텍스트 박스에 해당합니다.
 

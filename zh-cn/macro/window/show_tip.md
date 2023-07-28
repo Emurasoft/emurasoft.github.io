@@ -1,4 +1,4 @@
-# ShowTip 方法 (Window ����)
+# ShowTip 方法 (Window 对象)
 
 显示工具提示。
 

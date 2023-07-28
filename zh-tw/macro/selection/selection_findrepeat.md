@@ -1,4 +1,4 @@
-# FindRepeat 方法 (Selection ��H)
+# FindRepeat 方法 (Selection 對象)
 
 對同一個字串重複上一次搜尋。
 

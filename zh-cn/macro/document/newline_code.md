@@ -1,4 +1,4 @@
-# NewlineCode 属性 (Document ����)
+# NewlineCode 属性 (Document 对象)
 
 检索文档的当前换行字符码。
 

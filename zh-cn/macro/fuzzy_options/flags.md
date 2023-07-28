@@ -1,4 +1,4 @@
-# Flags 属性 (FuzzyOptions ����)
+# Flags 属性 (FuzzyOptions 对象)
 
 设置或检索标志。
 

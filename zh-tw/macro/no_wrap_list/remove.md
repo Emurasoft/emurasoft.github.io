@@ -1,4 +1,4 @@
-# Remove 方法 (NoWrapList ���X)
+# Remove 方法 (NoWrapList 集合)
 
 刪除一個項目。
 

@@ -1,4 +1,4 @@
-# Sort 方法 (Selection ����)
+# Sort 方法 (Selection 对象)
 
 排序或删除选区内的重复的拆分字符串。
 

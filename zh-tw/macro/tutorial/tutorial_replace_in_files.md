@@ -1,4 +1,4 @@
-# 多檔取代 (�е{)
+# 多檔取代 (教程)
 
 要多檔取代，用 [ReplaceInFiles 方法](../editor/editor_replaceinfiles).
 

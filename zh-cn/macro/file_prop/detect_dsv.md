@@ -1,4 +1,4 @@
-# DetectDSV 属性 (FileProp ����)
+# DetectDSV 属性 (FileProp 对象)
 
 与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的检测 DSV (用户自定义分隔) 复选框相对应。
 

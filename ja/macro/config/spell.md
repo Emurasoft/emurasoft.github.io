@@ -1,4 +1,4 @@
-# Spell プロパティ (Config �I�u�W�F�N�g)
+# Spell プロパティ (Config オブジェクト)
 
 [SpellProp オブジェクト](../spell_prop/index) を取得します。
 

@@ -1,4 +1,4 @@
-# SplitColumn 方法 (Document ����)
+# SplitColumn 方法 (Document 对象)
 
 用指定的分隔符拆分列，并在 CSV 模式下将其放入右边的列或下方的行中。
 

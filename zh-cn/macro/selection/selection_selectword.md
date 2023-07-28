@@ -1,4 +1,4 @@
-# SelectWord 方法 (Selection ����)
+# SelectWord 方法 (Selection 对象)
 
 选择光标处的整个单词。
 

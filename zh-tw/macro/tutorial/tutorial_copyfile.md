@@ -1,4 +1,4 @@
-# 複製一個檔案 (�е{)
+# 複製一個檔案 (教程)
 
 要複製一個檔案，用 FileSystemObject 中的 CopyFile 方法。
 

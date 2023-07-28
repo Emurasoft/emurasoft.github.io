@@ -1,4 +1,4 @@
-# Name 속성 (NoWrapItem ��ü)
+# Name 속성 (NoWrapItem 개체)
 
 개체의 이름을 지정합니다.
 

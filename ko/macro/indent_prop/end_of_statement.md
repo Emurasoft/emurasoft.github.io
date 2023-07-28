@@ -1,4 +1,4 @@
-# EndOfStatement 속성 (IndentProp ��ü)
+# EndOfStatement 속성 (IndentProp 개체)
 
 [탭/들여쓰기 대화 상자](../../dlg/properties/general/indent/index) 의설명문의 끝 텍스트 박스에 해당합니다.
 

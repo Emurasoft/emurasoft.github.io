@@ -1,4 +1,4 @@
-# LeftX 属性 (Window ����)
+# LeftX 属性 (Window 对象)
 
 以像素为单位返回或设置指定窗口的水平位置。
 

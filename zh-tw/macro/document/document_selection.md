@@ -1,4 +1,4 @@
-# selection 屬性 (Document ��H)
+# selection 屬性 (Document 對象)
 
 檢索 [Selection 對象](../selection/index)。
 

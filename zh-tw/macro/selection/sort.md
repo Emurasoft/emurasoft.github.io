@@ -1,4 +1,4 @@
-# Sort 方法 (Selection ��H)
+# Sort 方法 (Selection 對象)
 
 排序或刪除選區內的重複的分割字串。
 

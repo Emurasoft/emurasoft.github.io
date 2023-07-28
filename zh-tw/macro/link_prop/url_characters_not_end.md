@@ -1,4 +1,4 @@
-# URLCharactersNotEnd 屬性 (LinkProp ��H)
+# URLCharactersNotEnd 屬性 (LinkProp 對象)
 
 與組態屬性中 [連結 頁面](../../dlg/properties/link/index) 上的行末不允許的字元 核取方塊相對應。
 

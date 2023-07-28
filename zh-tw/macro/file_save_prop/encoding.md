@@ -1,4 +1,4 @@
-# Encoding 屬性 (FileSaveProp ��H)
+# Encoding 屬性 (FileSaveProp 對象)
 
 與 [儲存詳細信息 對話方塊](../../dlg/properties/file/save_details/index) 中的編碼 下拉清單方塊相對應。
 

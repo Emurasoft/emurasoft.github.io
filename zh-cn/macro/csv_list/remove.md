@@ -1,4 +1,4 @@
-# Remove 方法 (CsvList ����)
+# Remove 方法 (CsvList 集合)
 
 删除一个项目。
 

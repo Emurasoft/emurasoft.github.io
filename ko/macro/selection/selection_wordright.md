@@ -1,4 +1,4 @@
-# WordRight 메서드 (Selection ��ü)
+# WordRight 메서드 (Selection 개체)
 
 지정된 단어의 수만큼 오른쪽으로 커서를 이동합니다.
 

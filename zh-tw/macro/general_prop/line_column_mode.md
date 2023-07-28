@@ -1,4 +1,4 @@
-# LineColumnMode 屬性 (GeneralProp ��H)
+# LineColumnMode 屬性 (GeneralProp 對象)
 
 與組態屬性中 [一般 頁面](../../dlg/properties/general/index) 上的行列顯示 下拉清單方塊相對應。
 

@@ -1,4 +1,4 @@
-# Percent 屬性 (FuzzyOptions ��H)
+# Percent 屬性 (FuzzyOptions 對象)
 
 設定或檢索相似度的百分比值。
 

@@ -1,4 +1,4 @@
-# Configs 属性 (Editor ����)
+# Configs 属性 (Editor 对象)
 
 检索 [Configs 集合](../configs/index)。
 

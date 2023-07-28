@@ -1,4 +1,4 @@
-# FontCategory 屬性 (Document ��H)
+# FontCategory 屬性 (Document 對象)
 
 檢索或設置當前字體類別。
 

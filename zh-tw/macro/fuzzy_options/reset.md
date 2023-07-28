@@ -1,4 +1,4 @@
-# Reset 方法 (FuzzyOptions ��H)
+# Reset 方法 (FuzzyOptions 對象)
 
 將模糊選項重設為預設值。
 

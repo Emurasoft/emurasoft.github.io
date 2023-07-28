@@ -1,4 +1,4 @@
-# Engine 屬性 (Regex ��H)
+# Engine 屬性 (Regex 對象)
 
 設置會檢索規則運算式引擎類型。
 

@@ -1,4 +1,4 @@
-# Remove 方法 (AssociationList ����)
+# Remove 方法 (AssociationList 集合)
 
 删除一个项目。
 

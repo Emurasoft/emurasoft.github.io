@@ -1,4 +1,4 @@
-# SaveToFolder プロパティ (BackupProp �I�u�W�F�N�g)
+# SaveToFolder プロパティ (BackupProp オブジェクト)
 
 設定のプロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の\[バックアップをバックアップ フォルダに保存\] に相当します。
 

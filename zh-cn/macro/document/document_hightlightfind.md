@@ -1,4 +1,4 @@
-# HighlightFind 属性 (Document ����)
+# HighlightFind 属性 (Document 对象)
 
 决定是否要高亮搜索字符串。
 

@@ -23,13 +23,13 @@ EEID_TOGGLE_OUTPUT_SHORTCUTS (4549)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4549);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4549

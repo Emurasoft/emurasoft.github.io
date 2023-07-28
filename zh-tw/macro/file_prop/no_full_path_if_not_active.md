@@ -1,4 +1,4 @@
-# NoFullPathIfNotActive 屬性 (FileProp ��H)
+# NoFullPathIfNotActive 屬性 (FileProp 對象)
 
 與組態屬性中 [檔案 頁面](../../dlg/properties/file/index) 上的失去焦點時不顯示完整路徑 核取方塊相對應。
 

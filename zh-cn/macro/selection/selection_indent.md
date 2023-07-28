@@ -1,4 +1,4 @@
-# Indent 方法 (Selection ����)
+# Indent 方法 (Selection 对象)
 
 按指定的缩进等级数来缩进被选取的行。
 

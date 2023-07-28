@@ -1,4 +1,4 @@
-# DeleteFile 方法 (Shell ��H)
+# DeleteFile 方法 (Shell 對象)
 
 刪除一個或多個指定的檔案。
 

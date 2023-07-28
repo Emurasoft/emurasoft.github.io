@@ -1,4 +1,4 @@
-# GetText 메서드 (PopupMenu ��ü)
+# GetText 메서드 (PopupMenu 개체)
 
 식별자에 의해 지정된 메뉴 항목의 텍스트 문자열을 검색합니다.
 

@@ -1,4 +1,4 @@
-# DetectUnicodeSignature 屬性 (FileProp ��H)
+# DetectUnicodeSignature 屬性 (FileProp 對象)
 
 與組態屬性中 [檔案 頁面](../../dlg/properties/file/index) 上的偵測 Unicode 簽名 (BOM) 核取方塊相對應。
 

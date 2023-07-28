@@ -1,4 +1,4 @@
-# Save 메서드 (Config ��ü)
+# Save 메서드 (Config 개체)
 
 현재 구성을 저장합니다.
 

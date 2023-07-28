@@ -1,4 +1,4 @@
-# RegisteredName 属性 (Editor ����)
+# RegisteredName 属性 (Editor 对象)
 
 检索注册名。
 

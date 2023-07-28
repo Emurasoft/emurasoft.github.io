@@ -1,4 +1,4 @@
-# ColorList 속성 (DisplayProp ��ü)
+# ColorList 속성 (DisplayProp 개체)
 
 색상 목록을 위해 [DisplayList 개체](../display_item/index) 를 검색합니다.
 

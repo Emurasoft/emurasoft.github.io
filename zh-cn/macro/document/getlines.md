@@ -1,4 +1,4 @@
-# GetLines 方法 (Document ����)
+# GetLines 方法 (Document 对象)
 
 检索文档中的行数。
 

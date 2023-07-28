@@ -1,4 +1,4 @@
-# EndOfStatement 屬性 (IndentProp ��H)
+# EndOfStatement 屬性 (IndentProp 對象)
 
 與 [Tab/縮排 對話方塊](../../dlg/properties/general/indent/index) 上的語句結束 文字方塊相對應。
 

@@ -1,4 +1,4 @@
-# Version 屬性 (Editor ��H)
+# Version 屬性 (Editor 對象)
 
 檢索 表示當前 EmEditor 版本的字符串。
 

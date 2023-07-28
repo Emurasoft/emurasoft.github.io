@@ -1,4 +1,4 @@
-# editor 屬性 (Window ��H)
+# editor 屬性 (Window 對象)
 
 返回 [Editor 對象](../editor/index)。
 

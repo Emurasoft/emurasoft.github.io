@@ -1,4 +1,4 @@
-# Print プロパティ (Config �I�u�W�F�N�g)
+# Print プロパティ (Config オブジェクト)
 
 [PrintProp オブジェクト](../print_prop/index) を取得します。
 

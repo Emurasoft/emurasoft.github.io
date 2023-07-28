@@ -1,4 +1,4 @@
-# Encoding 속성 (Document ��ü)
+# Encoding 속성 (Document 개체)
 
 열린 파일의 현재 인코딩을 검색하거나 설정합니다.
 

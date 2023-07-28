@@ -1,4 +1,4 @@
-# clearData 메서드 (clipboardData ��ü)
+# clearData 메서드 (clipboardData 개체)
 
 클립보드로부터 하나 이상의 데이터 형식을 삭제합니다.
 

@@ -1,4 +1,4 @@
-# NamedEntity プロパティ (FileSaveProp �I�u�W�F�N�g)
+# NamedEntity プロパティ (FileSaveProp オブジェクト)
 
 [\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の\[名前による実体参照を使用する\] チェック ボックスに相当します。
 

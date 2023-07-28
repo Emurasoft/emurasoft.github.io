@@ -1,4 +1,4 @@
-# Name 属性 (HighlightItem ����)
+# Name 属性 (HighlightItem 对象)
 
 指定对象的名称。
 

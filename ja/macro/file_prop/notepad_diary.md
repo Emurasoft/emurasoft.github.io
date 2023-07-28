@@ -1,4 +1,4 @@
-# NotepadDiary プロパティ (FileProp �I�u�W�F�N�g)
+# NotepadDiary プロパティ (FileProp オブジェクト)
 
 設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の
 \[メモ帳互換の日誌作成\] チェック ボックス に相当します。

@@ -1,4 +1,4 @@
-# ClassName 属性 (Window ����)
+# ClassName 属性 (Window 对象)
 
 返回窗口的类名。
 

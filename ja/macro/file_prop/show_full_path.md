@@ -1,4 +1,4 @@
-# ShowFullPath プロパティ (FileProp �I�u�W�F�N�g)
+# ShowFullPath プロパティ (FileProp オブジェクト)
 
 設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[ファイル名をフルパスで表示\] チェック ボックスに相当します。
 

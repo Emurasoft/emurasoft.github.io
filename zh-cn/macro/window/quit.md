@@ -1,4 +1,4 @@
-# Quit 方法 (Window ����)
+# Quit 方法 (Window 对象)
 
 终止执行宏。
 

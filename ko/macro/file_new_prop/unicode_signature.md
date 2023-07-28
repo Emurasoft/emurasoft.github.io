@@ -1,4 +1,4 @@
-# UnicodeSignature 속성 (FileNewProp ��ü)
+# UnicodeSignature 속성 (FileNewProp 개체)
 
 [새 파일 상세 정보 대화 상자](../../dlg/properties/file/new_details/index) 의
 유니코드 서명 추가 (BOM) 체크 박스에 해당합니다.

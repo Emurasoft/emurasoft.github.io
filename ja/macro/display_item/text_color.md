@@ -1,4 +1,4 @@
-# TextColor プロパティ (DisplayItem �I�u�W�F�N�g)
+# TextColor プロパティ (DisplayItem オブジェクト)
 
 オブジェクトの文字色を指定します。
 

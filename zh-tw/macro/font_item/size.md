@@ -1,4 +1,4 @@
-# Size 屬性 (FontItem ��H)
+# Size 屬性 (FontItem 對象)
 
 用點數(pt)指定字型大小。
 

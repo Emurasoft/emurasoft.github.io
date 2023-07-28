@@ -1,4 +1,4 @@
-# URL 屬性 (LinkProp ��H)
+# URL 屬性 (LinkProp 對象)
 
 與組態屬性中 [連結 頁面](../../dlg/properties/link/index) 上的連結到 URL 核取方塊相對應。
 

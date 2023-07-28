@@ -1,4 +1,4 @@
-# SetFileAttributes 方法 (Shell ��H)
+# SetFileAttributes 方法 (Shell 對象)
 
 設定指定檔案或資料夾的屬性。
 

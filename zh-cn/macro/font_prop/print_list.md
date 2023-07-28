@@ -1,4 +1,4 @@
-# PrintList 属性 (FontProp ����)
+# PrintList 属性 (FontProp 对象)
 
 检索 PrintList 对象。
 

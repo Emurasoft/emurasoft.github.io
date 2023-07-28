@@ -1,4 +1,4 @@
-# CommentEnd 속성 (HighlightProp ��ü)
+# CommentEnd 속성 (HighlightProp 개체)
 
 구성 속성 [강조 표시 (2) 탭](../../dlg/properties/highlight2/index) 의설명 그룹 박스 \- 종료 텍스트 박스에 해당합니다.
 

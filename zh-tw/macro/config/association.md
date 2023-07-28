@@ -1,4 +1,4 @@
-# Association 屬性 (Config ��H)
+# Association 屬性 (Config 對象)
 
 檢索 [AssociationProp 對象](../association_prop/index)。
 

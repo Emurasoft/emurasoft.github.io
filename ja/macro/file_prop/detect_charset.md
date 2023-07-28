@@ -1,4 +1,4 @@
-# DetectCharset プロパティ (FileProp �I�u�W�F�N�g)
+# DetectCharset プロパティ (FileProp オブジェクト)
 
 設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の
 \[HTML/XMLのCharsetを検出\]

@@ -1,4 +1,4 @@
-# Item プロパティ (CsvList �R���N�V����)
+# Item プロパティ (CsvList コレクション)
 
 指定したインデックスの [Csv オブジェクト](../csv/index) を取得します。
 

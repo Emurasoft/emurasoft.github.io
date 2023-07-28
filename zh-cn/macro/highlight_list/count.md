@@ -1,4 +1,4 @@
-# Count 属性 (HighlightList ����)
+# Count 属性 (HighlightList 集合)
 
 检索项目总数。
 

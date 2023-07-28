@@ -1,4 +1,4 @@
-# ThreadID 속성 (Window ��ü)
+# ThreadID 속성 (Window 개체)
 
 창을 생성한 스레드의 식별자를 반환합니다.
 

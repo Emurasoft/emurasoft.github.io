@@ -1,4 +1,4 @@
-# AllowDelimiter プロパティ (Csv �I�u�W�F�N�g)
+# AllowDelimiter プロパティ (Csv オブジェクト)
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[引用符内の区切り文字を許可\] チェック ボックス に相当します。
 

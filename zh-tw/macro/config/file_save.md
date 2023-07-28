@@ -1,4 +1,4 @@
-# FileSave 屬性 (Config ��H)
+# FileSave 屬性 (Config 對象)
 
 檢索 [FileSaveProp 對象](../file_save_prop/index)。
 

@@ -1,4 +1,4 @@
-# Count 屬性 (AssociationList ���X)
+# Count 屬性 (AssociationList 集合)
 
 檢索項目的數目。
 

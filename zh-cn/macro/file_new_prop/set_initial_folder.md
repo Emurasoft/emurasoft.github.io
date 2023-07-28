@@ -1,4 +1,4 @@
-# SetInitialFolder å±žæ€§ (FileNewProp ¶ÔÏó)
+# SetInitialFolder å±žæ€§ (FileNewProp å¯¹è±¡)
 
 Corresponds to theSet Initial Folder check box in the
 [New File Details dialog box](../../dlg/properties/file/new_details/index).

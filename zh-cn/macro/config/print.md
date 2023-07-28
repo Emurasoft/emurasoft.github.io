@@ -1,4 +1,4 @@
-# Print 属性 (Config ����)
+# Print 属性 (Config 对象)
 
 检索 [PrintProp 对象](../print_prop/index)。
 

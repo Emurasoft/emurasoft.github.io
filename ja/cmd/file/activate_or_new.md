@@ -23,13 +23,13 @@ EEID_SAVE_WORKSPACE_QUIT_ALL（4332）```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4332);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4332

@@ -1,4 +1,4 @@
-# Remove 메서드 (AssociationList �÷���)
+# Remove 메서드 (AssociationList 컬렉션)
 
 항목을 제거합니다.
 

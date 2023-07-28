@@ -1,4 +1,4 @@
-# Item プロパティ (KeyboardList �R���N�V����)
+# Item プロパティ (KeyboardList コレクション)
 
 指定したインデックスの [KeyboardItem オブジェクト](../keyboard_item/index) を取得します。
 

@@ -1,4 +1,4 @@
-# Enabled 屬性 (AssociationItem ��H)
+# Enabled 屬性 (AssociationItem 對象)
 
 指定表示對象是否被啟用的標志。
 

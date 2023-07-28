@@ -1,4 +1,4 @@
-# QuotationMark プロパティ (Csv �I�u�W�F�N�g)
+# QuotationMark プロパティ (Csv オブジェクト)
 
 現在の Csv オブジェクトの引用符文字を取得、または設定します。
 

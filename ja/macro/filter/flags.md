@@ -1,4 +1,4 @@
-# Flags プロパティ (Filter �I�u�W�F�N�g)
+# Flags プロパティ (Filter オブジェクト)
 
 次の値を組み合わせて指定します。
 

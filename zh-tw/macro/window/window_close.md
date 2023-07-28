@@ -1,4 +1,4 @@
-# close 方法 (Window ��H)
+# close 方法 (Window 對象)
 
 關閉視窗。
 

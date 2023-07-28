@@ -1,4 +1,4 @@
-# DetectDSV プロパティ (FileProp �I�u�W�F�N�g)
+# DetectDSV プロパティ (FileProp オブジェクト)
 
 設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[DSV (ユーザー定義区切り) を検出\] チェック ボックスに相当します。
 

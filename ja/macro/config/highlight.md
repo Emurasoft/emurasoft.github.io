@@ -1,4 +1,4 @@
-# Highlight プロパティ (Config �I�u�W�F�N�g)
+# Highlight プロパティ (Config オブジェクト)
 
 [HighlightProp オブジェクト](../highlight_prop/index) を取得します。
 

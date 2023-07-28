@@ -1,4 +1,4 @@
-# Indent 屬性 (Config ��H)
+# Indent 屬性 (Config 對象)
 
 檢索 [IndentProp 對象](../indent_prop/index)。
 

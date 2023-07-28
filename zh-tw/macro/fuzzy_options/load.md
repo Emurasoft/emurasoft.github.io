@@ -1,4 +1,4 @@
-# Load 方法 (FuzzyOptions ��H)
+# Load 方法 (FuzzyOptions 對象)
 
 從應用數據資料夾加載模糊選項。
 

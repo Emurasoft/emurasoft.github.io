@@ -1,4 +1,4 @@
-# Delete 方法 (Selection ��H)
+# Delete 方法 (Selection 對象)
 
 刪除選取內容。如果選定內容是空的，刪除游標右邊的指定字元數。
 

@@ -1,4 +1,4 @@
-# OutputBar 속성 (Window ��ü)
+# OutputBar 속성 (Window 개체)
 
 [OutputBar 개체](../output_bar/index) 를 반환합니다.
 

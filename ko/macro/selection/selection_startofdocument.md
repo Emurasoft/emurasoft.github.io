@@ -1,4 +1,4 @@
-# StartOfDocument 메서드 (Selection ��ü)
+# StartOfDocument 메서드 (Selection 개체)
 
 문서의 시작점으로 커서를 이동합니다.
 

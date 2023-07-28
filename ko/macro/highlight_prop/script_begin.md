@@ -1,4 +1,4 @@
-# ScriptBegin 속성 (HighlightProp ��ü)
+# ScriptBegin 속성 (HighlightProp 개체)
 
 구성 속성 [강조 표시 (2) 탭](../../dlg/properties/highlight2/index) 의스크립트 그룹 박스 \- 시작 텍스트 박스에 해당합니다.
 

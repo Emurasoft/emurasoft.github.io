@@ -1,4 +1,4 @@
-# ExecutePlugin 方法 (Editor ��H)
+# ExecutePlugin 方法 (Editor 對象)
 
 執行一個指定的外掛程式。
 

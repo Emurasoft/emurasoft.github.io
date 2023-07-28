@@ -1,4 +1,4 @@
-# Link プロパティ (Config �I�u�W�F�N�g)
+# Link プロパティ (Config オブジェクト)
 
 [LinkProp オブジェクト](../link_prop/index) を取得します。
 

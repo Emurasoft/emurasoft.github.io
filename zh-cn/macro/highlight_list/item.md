@@ -1,4 +1,4 @@
-# Item 属性 (HighlightList ����)
+# Item 属性 (HighlightList 集合)
 
 为指定索引检索 [HighlightItem 对象](../highlight_item/index)。
 

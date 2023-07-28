@@ -1,4 +1,4 @@
-# Smooth プロパティ (ScrollProp �I�u�W�F�N�g)
+# Smooth プロパティ (ScrollProp オブジェクト)
 
 設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の\[スムーズ スクロール\] チェック ボックスに相当します。
 

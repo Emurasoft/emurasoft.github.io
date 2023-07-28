@@ -1,4 +1,4 @@
-# Command 属性 (KeyboardItem ����)
+# Command 属性 (KeyboardItem 对象)
 
 指定命令 ID。
 

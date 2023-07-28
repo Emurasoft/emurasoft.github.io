@@ -1,4 +1,4 @@
-# WrapPage 屬性 (PrintProp ��H)
+# WrapPage 屬性 (PrintProp 對象)
 
 與組態屬性中 [列印 頁面](../../dlg/properties/print/index) 上的列印時按頁面換行 核取方塊相對應。
 

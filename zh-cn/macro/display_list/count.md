@@ -1,4 +1,4 @@
-# Count 属性 (DisplayList ����)
+# Count 属性 (DisplayList 集合)
 
 检索项目的总数。
 

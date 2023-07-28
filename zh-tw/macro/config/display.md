@@ -1,4 +1,4 @@
-# Display 屬性 (Config ��H)
+# Display 屬性 (Config 對象)
 
 檢索
 [DisplayProp 對象](../display_prop/index)。

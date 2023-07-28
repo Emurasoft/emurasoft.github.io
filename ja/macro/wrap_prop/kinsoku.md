@@ -1,4 +1,4 @@
-# Kinsoku プロパティ (WrapProp �I�u�W�F�N�g)
+# Kinsoku プロパティ (WrapProp オブジェクト)
 
 設定のプロパティの [\[禁則文字\] タブ](../../dlg/properties/wrap/index) の
 \[禁則処理を行う\] チェック ボックスに相当します。

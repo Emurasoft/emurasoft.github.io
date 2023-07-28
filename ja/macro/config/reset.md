@@ -1,4 +1,4 @@
-# Reset メソッド (Config �I�u�W�F�N�g)
+# Reset メソッド (Config オブジェクト)
 
 現在の設定をリセットします。
 

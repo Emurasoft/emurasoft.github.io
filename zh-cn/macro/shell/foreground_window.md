@@ -1,4 +1,4 @@
-# ForegroundWindow 属性 (Shell ����)
+# ForegroundWindow 属性 (Shell 对象)
 
 检索当前置前窗口。
 

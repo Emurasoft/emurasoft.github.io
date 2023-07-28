@@ -1,4 +1,4 @@
-# Text 属性 (Selection ����)
+# Text 属性 (Selection 对象)
 
 检索被选取的文本，或在光标位置处插入一个字符串。
 

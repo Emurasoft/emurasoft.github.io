@@ -1,4 +1,4 @@
-# PageUp 메서드 (Selection ��ü)
+# PageUp 메서드 (Selection 개체)
 
 문서 내에서 지정한 페이지 수만큼 위로 커서를 이동합니다.
 

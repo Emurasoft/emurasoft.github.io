@@ -1,4 +1,4 @@
-# Format 메서드 (Selection ��ü)
+# Format 메서드 (Selection 개체)
 
 선택 영역에 새로운 줄을 삽입하거나 삭제합니다.
 

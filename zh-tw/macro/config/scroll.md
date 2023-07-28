@@ -1,4 +1,4 @@
-# Scroll 屬性 (Config ��H)
+# Scroll 屬性 (Config 對象)
 
 檢索 [ScrollProp 對象](../scroll_prop/index)。
 

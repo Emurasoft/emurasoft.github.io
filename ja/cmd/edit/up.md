@@ -23,13 +23,13 @@ EEID_UP (4160)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.LineUp(false,1);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.LineUp false,1

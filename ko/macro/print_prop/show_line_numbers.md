@@ -1,4 +1,4 @@
-# ShowLineNumbers 속성 (PrintProp ��ü)
+# ShowLineNumbers 속성 (PrintProp 개체)
 
 구성 속성 [인쇄 탭](../../dlg/properties/print/index) 의줄 번호 인쇄 체크 박스에 해당합니다.
 

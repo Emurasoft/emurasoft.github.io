@@ -1,4 +1,4 @@
-# Delimiter プロパティ (Csv �I�u�W�F�N�g)
+# Delimiter プロパティ (Csv オブジェクト)
 
 現在の Csv オブジェクトの区切り文字を取得、または設定します。
 

@@ -1,4 +1,4 @@
-# LineColor プロパティ (DisplayItem �I�u�W�F�N�g)
+# LineColor プロパティ (DisplayItem オブジェクト)
 
 オブジェクトの下線の色を指定します。
 

@@ -1,4 +1,4 @@
-# CheckFileChanged プロパティ (FileProp �I�u�W�F�N�g)
+# CheckFileChanged プロパティ (FileProp オブジェクト)
 
 設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[外部で変更された時\] ドロップダウン リスト ボックスに相当します。
 

@@ -1,4 +1,4 @@
-# Remove 方法 (AssociationList ���X)
+# Remove 方法 (AssociationList 集合)
 
 刪除一個項目。
 

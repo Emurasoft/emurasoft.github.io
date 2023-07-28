@@ -1,4 +1,4 @@
-# editor 속성 (Window ��ü)
+# editor 속성 (Window 개체)
 
 [Editor 개체](../editor/index) 를 반환합니다.
 

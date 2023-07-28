@@ -1,4 +1,4 @@
-# Title 屬性 (Document ��H)
+# Title 屬性 (Document 對象)
 
 檢索或設定文檔標題。標題可以包含由換行符符號分隔的長標題和短標題（\\n 或 Chr(10)）。
 

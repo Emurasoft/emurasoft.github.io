@@ -1,4 +1,4 @@
-# Remove 方法 (KeyboardList ����)
+# Remove 方法 (KeyboardList 集合)
 
 删除一个项目。
 

@@ -1,4 +1,4 @@
-# DetectUTF8 プロパティ (FileProp �I�u�W�F�N�g)
+# DetectUTF8 プロパティ (FileProp オブジェクト)
 
 設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[UTF-8を自動検出\] チェック ボックスに相当します。
 

@@ -1,4 +1,4 @@
-# Font プロパティ (Config �I�u�W�F�N�g)
+# Font プロパティ (Config オブジェクト)
 
 [FontPtop オブジェクト](../font_prop/index) を取得します。
 

@@ -1,4 +1,4 @@
-# Average 属性 (Selection ����)
+# Average 属性 (Selection 对象)
 
 检索所选内容中包含的数字的平均值。
 

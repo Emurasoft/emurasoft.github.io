@@ -1,4 +1,4 @@
-# DeleteSpacesAtEnd プロパティ (FileSaveProp �I�u�W�F�N�g)
+# DeleteSpacesAtEnd プロパティ (FileSaveProp オブジェクト)
 
 [\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
 \[行末の空白を削除\] チェック ボックスに相当します。

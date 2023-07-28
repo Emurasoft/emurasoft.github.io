@@ -25,13 +25,13 @@
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4800 + i);  // i は 0 から 63 までの整数
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4800 + i  ' i は 0 から 63 までの整数

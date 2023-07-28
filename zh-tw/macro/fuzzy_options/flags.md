@@ -1,4 +1,4 @@
-# Flags 屬性 (FuzzyOptions ��H)
+# Flags 屬性 (FuzzyOptions 對象)
 
 設定或檢索旗標。
 

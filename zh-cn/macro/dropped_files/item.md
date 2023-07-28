@@ -1,4 +1,4 @@
-# Item 属性 (DroppedFiles ����)
+# Item 属性 (DroppedFiles 集合)
 
 检索指定索引下的被拖放的文件名。
 

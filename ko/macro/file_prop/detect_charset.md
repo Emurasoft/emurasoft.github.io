@@ -1,4 +1,4 @@
-# DetectCharset 속성 (FileProp ��ü)
+# DetectCharset 속성 (FileProp 개체)
 
 구성 속성 [파일 탭](../../dlg/properties/file/index) 의HTML/XML 문자 집합 검색 체크 박스에 해당합니다.
 

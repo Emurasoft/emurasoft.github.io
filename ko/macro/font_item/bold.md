@@ -1,4 +1,4 @@
-# Bold 속성 (FontItem ��ü)
+# Bold 속성 (FontItem 개체)
 
 글꼴이 진하게 포맷된 경우 트루입니다.
 

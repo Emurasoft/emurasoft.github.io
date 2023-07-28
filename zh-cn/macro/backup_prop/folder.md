@@ -1,4 +1,4 @@
-# Folder 属性 (BackupProp ����)
+# Folder 属性 (BackupProp 对象)
 
 与配置属性中 [备份 页面](../../dlg/properties/backup/index) 上的备份文件夹 文本框对应。
 

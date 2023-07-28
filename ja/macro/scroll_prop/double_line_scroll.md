@@ -1,4 +1,4 @@
-# DoubleLineScroll プロパティ (ScrollProp �I�u�W�F�N�g)
+# DoubleLineScroll プロパティ (ScrollProp オブジェクト)
 
 設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
 \[2行スクロール\] チェック ボックスに相当します。

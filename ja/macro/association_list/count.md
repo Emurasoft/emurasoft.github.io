@@ -1,4 +1,4 @@
-# Count プロパティ (AssociationList �R���N�V����)
+# Count プロパティ (AssociationList コレクション)
 
 アイテムの数を取得します。
 

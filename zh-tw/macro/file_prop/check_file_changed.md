@@ -1,4 +1,4 @@
-# CheckFileChanged 屬性 (FileProp ��H)
+# CheckFileChanged 屬性 (FileProp 對象)
 
 與組態屬性中 [檔案 頁面](../../dlg/properties/file/index) 上的被其他程式更改時 下拉清單方塊相對應。
 

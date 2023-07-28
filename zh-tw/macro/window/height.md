@@ -1,4 +1,4 @@
-# Height 屬性 (Window ��H)
+# Height 屬性 (Window 對象)
 
 返回或設置視窗高度。
 

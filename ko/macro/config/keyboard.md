@@ -1,4 +1,4 @@
-# Keyboard 속성 (Config ��ü)
+# Keyboard 속성 (Config 개체)
 
 [KeyboardProp 개체](../keyboard_prop/index) 를 검색합니다.
 

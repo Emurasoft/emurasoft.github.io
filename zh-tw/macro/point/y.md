@@ -1,4 +1,4 @@
-# y 屬性 (Point ��H)
+# y 屬性 (Point 對象)
 
 代表 Point 對象的垂直（或行）位置。
 

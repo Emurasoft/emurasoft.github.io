@@ -1,4 +1,4 @@
-# SaveToSameFolder 屬性 (BackupProp ��H)
+# SaveToSameFolder 屬性 (BackupProp 對象)
 
 與組態屬性中 [備份 頁面](../../dlg/properties/backup/index) 上的儲存備份檔案到源檔案所在資料夾 核取方塊對應。
 

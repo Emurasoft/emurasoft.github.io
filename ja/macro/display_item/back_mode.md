@@ -1,4 +1,4 @@
-# BackMode プロパティ (DisplayItem �I�u�W�F�N�g)
+# BackMode プロパティ (DisplayItem オブジェクト)
 
 背景色のモードを指定します。
 

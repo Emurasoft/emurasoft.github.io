@@ -1,4 +1,4 @@
-# ShowControlCharacters プロパティ (MarkProp �I�u�W�F�N�g)
+# ShowControlCharacters プロパティ (MarkProp オブジェクト)
 
 設定のプロパティの [\[記号\] タブ](../../dlg/properties/marks/index) の\[制御文字を表示\] チェック ボックスに相当します。
 

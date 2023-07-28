@@ -1,4 +1,4 @@
-# Style 속성 (DisplayItem ��ü)
+# Style 속성 (DisplayItem 개체)
 
 개체의 스타일을 지정합니다.
 

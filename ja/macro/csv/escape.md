@@ -1,4 +1,4 @@
-# Escape プロパティ (Csv �I�u�W�F�N�g)
+# Escape プロパティ (Csv オブジェクト)
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[エスケープ文字を使用\] チェック ボックス に相当します。
 

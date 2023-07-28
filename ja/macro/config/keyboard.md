@@ -1,4 +1,4 @@
-# Keyboard プロパティ (Config �I�u�W�F�N�g)
+# Keyboard プロパティ (Config オブジェクト)
 
 [KeyboardProp オブジェクト](../keyboard_prop/index) を取得します。
 

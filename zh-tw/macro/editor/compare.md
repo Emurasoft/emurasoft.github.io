@@ -1,4 +1,4 @@
-# Compare 方法 (Editor ��H)
+# Compare 方法 (Editor 對象)
 
 比較兩個文檔。
 

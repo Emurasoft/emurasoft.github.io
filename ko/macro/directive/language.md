@@ -1,4 +1,4 @@
-# \#language 지침서 (Script ��ħ��)
+# \#language 지침서 (Script 지침서)
 
 사용할 스크립트 언어를 지정합니다. 이것을 지정함으로 JavaScript 과 VBScript 이외의
 ActiveScript 언어가 사용됩니다. 이 지침서는 메인 기본 코드 위 스크립트의 첫 줄에 지정되어야 합니다.

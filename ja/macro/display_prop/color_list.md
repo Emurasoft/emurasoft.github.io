@@ -1,4 +1,4 @@
-# ColorList プロパティ (DisplayProp �I�u�W�F�N�g)
+# ColorList プロパティ (DisplayProp オブジェクト)
 
 色のリストの [DisplayList コレクション](../display_list/index) を取得します。
 

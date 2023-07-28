@@ -1,4 +1,4 @@
-# TagBegin 屬性 (HighlightProp ��H)
+# TagBegin 屬性 (HighlightProp 對象)
 
 與組態屬性中 [亮顯 (1) 頁面](../../dlg/properties/highlight1/index) 上的開始標記 文字方塊相對應。
 

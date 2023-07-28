@@ -1,4 +1,4 @@
-# Title 属性 (Csv ����)
+# Title 属性 (Csv 对象)
 
 与在自定义对话框中 [CSV 页面](../../dlg/customize/csv/index) 上的工具栏按钮标题 文本框对应。
 

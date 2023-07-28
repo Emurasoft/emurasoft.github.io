@@ -1,4 +1,4 @@
-# scrollX 속성 (Window ��ü)
+# scrollX 속성 (Window 개체)
 
 스크롤 바의 수평 위치를 반환합니다.
 

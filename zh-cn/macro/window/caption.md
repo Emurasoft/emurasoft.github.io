@@ -1,4 +1,4 @@
-# Caption 属性 (Window ����)
+# Caption 属性 (Window 对象)
 
 返回窗口的描述文字。
 

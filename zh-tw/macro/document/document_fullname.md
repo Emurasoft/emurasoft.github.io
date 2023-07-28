@@ -1,4 +1,4 @@
-# FullName 屬性 (Document ��H)
+# FullName 屬性 (Document 對象)
 
 檢索文檔的完整路徑以及檔案名稱。
 

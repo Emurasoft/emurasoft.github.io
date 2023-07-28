@@ -1,4 +1,4 @@
-# RenameIfSameNameExists プロパティ (AutoSaveProp �I�u�W�F�N�g)
+# RenameIfSameNameExists プロパティ (AutoSaveProp オブジェクト)
 
 設定のプロパティの [\[自動保存\] タブ](../../dlg/properties/autosave/index) の
 \[同名のファイルが存在する場合はファイル名を変更する\] チェック ボックス相当します。

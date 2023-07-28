@@ -1,4 +1,4 @@
-# CharLeft 메서드 (Selection ��ü)
+# CharLeft 메서드 (Selection 개체)
 
 커서를 지정된 숫자의 문자만큼 왼쪽으로 이동합니다.
 

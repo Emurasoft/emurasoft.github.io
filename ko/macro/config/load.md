@@ -1,4 +1,4 @@
-# Load 메서드 (Config ��ü)
+# Load 메서드 (Config 개체)
 
 구성을 로드합니다.
 

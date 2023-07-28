@@ -1,4 +1,4 @@
-# ScriptEnd 属性 (HighlightProp ����)
+# ScriptEnd 属性 (HighlightProp 对象)
 
 与配置属性中 [高亮（2） 页面](../../dlg/properties/highlight2/index) 上的“脚本”群组框 \- “结束” 文本框相对应。
 

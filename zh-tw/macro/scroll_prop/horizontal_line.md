@@ -1,4 +1,4 @@
-# HorizontalLine 屬性 (ScrollProp ��H)
+# HorizontalLine 屬性 (ScrollProp 對象)
 
 與組態屬性中 [捲動 頁面](../../dlg/properties/scroll/index) 上的水平線 核取方塊相對應。
 

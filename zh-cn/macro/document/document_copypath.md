@@ -1,4 +1,4 @@
-# CopyPath 方法 (Document ����)
+# CopyPath 方法 (Document 对象)
 
 仅复制文档的路径到剪贴板上。
 

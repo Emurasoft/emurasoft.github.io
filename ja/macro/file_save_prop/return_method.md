@@ -1,4 +1,4 @@
-# ReturnMethod プロパティ (FileSaveProp �I�u�W�F�N�g)
+# ReturnMethod プロパティ (FileSaveProp オブジェクト)
 
 \[保存時の詳細\] ダイアログ ボックスの\[改行コード\] ドロップダウン リスト ボックスに相当します。
 

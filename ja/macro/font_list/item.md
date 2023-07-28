@@ -1,4 +1,4 @@
-# Item プロパティ (FontList �R���N�V����)
+# Item プロパティ (FontList コレクション)
 
 指定したインデックスの [FontItem オブジェクト](../font_item/index) を取得します。
 

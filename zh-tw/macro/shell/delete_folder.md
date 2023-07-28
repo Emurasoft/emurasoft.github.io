@@ -1,4 +1,4 @@
-# DeleteFolder 方法 (Shell ��H)
+# DeleteFolder 方法 (Shell 對象)
 
 刪除一個或多個指定的資料夾及其內容。指定的資料夾即使不為空也會被刪除。
 

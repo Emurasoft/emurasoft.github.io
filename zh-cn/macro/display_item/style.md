@@ -1,4 +1,4 @@
-# Style 属性 (DisplayItem ����)
+# Style 属性 (DisplayItem 对象)
 
 指定对象的样式。
 

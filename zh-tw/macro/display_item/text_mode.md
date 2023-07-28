@@ -1,4 +1,4 @@
-# TextMode 屬性 (DisplayItem ��H)
+# TextMode 屬性 (DisplayItem 對象)
 
 指定文字顏色模式。
 

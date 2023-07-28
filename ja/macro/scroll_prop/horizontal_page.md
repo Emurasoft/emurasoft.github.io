@@ -1,4 +1,4 @@
-# HorizontalPage プロパティ (ScrollProp �I�u�W�F�N�g)
+# HorizontalPage プロパティ (ScrollProp オブジェクト)
 
 設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
 \[1頁の水平スクロールを常に有効\] チェック ボックスに相当します。

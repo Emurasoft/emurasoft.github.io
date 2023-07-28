@@ -1,4 +1,4 @@
-# DroppedFiles 属性 (Window ����)
+# DroppedFiles 属性 (Window 对象)
 
 返回 [DroppedFiles 对象](../dropped_files/index)。
 

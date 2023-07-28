@@ -1,4 +1,4 @@
-# FileSave プロパティ (Config �I�u�W�F�N�g)
+# FileSave プロパティ (Config オブジェクト)
 
 [FileSave オブジェクト](../file_save_prop/index) を取得します。
 

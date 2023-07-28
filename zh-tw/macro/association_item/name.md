@@ -1,4 +1,4 @@
-# Name 屬性 (AssociationItem ��H)
+# Name 屬性 (AssociationItem 對象)
 
 指定對象的名稱。
 

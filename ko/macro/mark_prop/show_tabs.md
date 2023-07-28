@@ -1,4 +1,4 @@
-# ShowTabs 속성 (MarkProp ��ü)
+# ShowTabs 속성 (MarkProp 개체)
 
 구성 속성 [표시 탭](../../dlg/properties/marks/index) 의탭 보이기 체크 박스에 해당합니다.
 

@@ -1,4 +1,4 @@
-# Replace プロパティ (Filter �I�u�W�F�N�g)
+# Replace プロパティ (Filter オブジェクト)
 
 置換後の文字列を指定します。
 

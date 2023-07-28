@@ -26,13 +26,13 @@ EEID_FILE_RELOAD_UTF7 (4259)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 - editor.ExecuteCommandByID(4259);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 - editor.ExecuteCommandByID 4259

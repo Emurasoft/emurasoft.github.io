@@ -1,4 +1,4 @@
-# Engine 属性 (Regex ����)
+# Engine 属性 (Regex 对象)
 
 设置会检索正则表达式引擎类型。
 

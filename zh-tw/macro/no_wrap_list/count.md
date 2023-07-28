@@ -1,4 +1,4 @@
-# Count 屬性 (NoWrapList ���X)
+# Count 屬性 (NoWrapList 集合)
 
 檢索項目的總數。
 

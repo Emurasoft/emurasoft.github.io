@@ -1,4 +1,4 @@
-# SerialToLogical 方法 (Document ��H)
+# SerialToLogical 方法 (Document 對象)
 
 將串行位置轉換為邏輯坐標，并檢索在 [Point 對象](../point/index) 中的位置。
 

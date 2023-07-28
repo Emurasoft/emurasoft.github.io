@@ -1,4 +1,4 @@
-# List プロパティ (HighlightProp �I�u�W�F�N�g)
+# List プロパティ (HighlightProp オブジェクト)
 
 [HighlightList コレクション](../highlight_list/index) を取得します。
 

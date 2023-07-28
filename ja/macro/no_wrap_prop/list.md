@@ -1,4 +1,4 @@
-# List プロパティ (NoWrapProp �I�u�W�F�N�g)
+# List プロパティ (NoWrapProp オブジェクト)
 
 [NoWrapList コレクション](../no_wrap_list/index) を取得します。
 

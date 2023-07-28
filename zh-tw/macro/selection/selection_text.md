@@ -1,4 +1,4 @@
-# Text 屬性 (Selection ��H)
+# Text 屬性 (Selection 對象)
 
 檢索被選取的文字，或在游標位置處插入一個字串。
 

@@ -1,4 +1,4 @@
-# List 属性 (NoWrapProp ����)
+# List 属性 (NoWrapProp 对象)
 
 检索 [NoWrapList 集合](../no_wrap_list/index)。
 

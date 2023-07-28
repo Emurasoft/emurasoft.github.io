@@ -1,4 +1,4 @@
-# Mark プロパティ (Config �I�u�W�F�N�g)
+# Mark プロパティ (Config オブジェクト)
 
 [MarkProp オブジェクト](../mark_prop/index) を取得します。
 

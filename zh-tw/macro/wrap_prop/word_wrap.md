@@ -1,4 +1,4 @@
-# WordWrap 屬性 (WrapProp ��H)
+# WordWrap 屬性 (WrapProp 對象)
 
 與組態屬性中 [換行 頁面](../../dlg/properties/wrap/index) 上的自動換行 核取方塊相對應。
 

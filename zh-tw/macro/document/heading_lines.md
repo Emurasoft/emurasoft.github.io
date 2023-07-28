@@ -1,4 +1,4 @@
-# HeadingLines 屬性 (Document ��H)
+# HeadingLines 屬性 (Document 對象)
 
 檢索或設置標題的行數 (不能捲動的區域)。
 

@@ -1,4 +1,4 @@
-# BatchReplace 方法 (Selection ����)
+# BatchReplace 方法 (Selection 对象)
 
 替换多个字符串。
 

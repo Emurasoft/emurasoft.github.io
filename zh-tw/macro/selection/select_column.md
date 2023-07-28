@@ -1,4 +1,4 @@
-# SelectColumn 方法 (Selection ��H)
+# SelectColumn 方法 (Selection 對象)
 
 在 CSV 模式中選擇指定的欄。
 

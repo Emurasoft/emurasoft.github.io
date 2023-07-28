@@ -1,4 +1,4 @@
-# Name 속성 (FontItem ��ü)
+# Name 속성 (FontItem 개체)
 
 개체의 이름을 지정합니다.
 

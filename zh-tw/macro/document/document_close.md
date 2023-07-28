@@ -1,4 +1,4 @@
-# Close 方法 (Document ��H)
+# Close 方法 (Document 對象)
 
 關閉文檔。
 

@@ -1,4 +1,4 @@
-# RightAll プロパティ (HighlightItem �I�u�W�F�N�g)
+# RightAll プロパティ (HighlightItem オブジェクト)
 
 設定のプロパティの [\[強調(1)\] タブ](../../dlg/properties/highlight1/index) の\[行の右を強調\] チェック ボックスに相当します。
 

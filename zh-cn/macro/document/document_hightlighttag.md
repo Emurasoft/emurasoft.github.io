@@ -1,4 +1,4 @@
-# HighlightTag 属性 (Document ����)
+# HighlightTag 属性 (Document 对象)
 
 决定是否要高亮标签。
 

@@ -1,4 +1,4 @@
-# TextMode プロパティ (DisplayItem �I�u�W�F�N�g)
+# TextMode プロパティ (DisplayItem オブジェクト)
 
 文字色のモードを指定します。
 

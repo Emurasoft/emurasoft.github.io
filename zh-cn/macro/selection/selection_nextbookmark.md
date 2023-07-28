@@ -1,4 +1,4 @@
-# NextBookmark 方法 (Selection ����)
+# NextBookmark 方法 (Selection 对象)
 
 移动到文档中的下一个书签处。
 

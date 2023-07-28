@@ -1,4 +1,4 @@
-# Indent 속성 (Config ��ü)
+# Indent 속성 (Config 개체)
 
 [IndentProp 개체](../indent_prop/index) 를 검색합니다.
 

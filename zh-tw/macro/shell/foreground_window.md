@@ -1,4 +1,4 @@
-# ForegroundWindow 屬性 (Shell ��H)
+# ForegroundWindow 屬性 (Shell 對象)
 
 檢索當前置前視窗。
 

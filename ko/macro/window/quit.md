@@ -1,4 +1,4 @@
-# Quit 메서드 (Window ��ü)
+# Quit 메서드 (Window 개체)
 
 매크로 실행을 종료합니다.
 

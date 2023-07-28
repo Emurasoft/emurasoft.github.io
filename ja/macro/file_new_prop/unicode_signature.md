@@ -1,4 +1,4 @@
-# UnicodeSignature プロパティ (FileNewProp �I�u�W�F�N�g)
+# UnicodeSignature プロパティ (FileNewProp オブジェクト)
 
 [\[新規作成時の詳細\] のダイアログ ボックス](../../dlg/properties/file/new_details/index) の
 \[Unicodeサイン(BOM)を付ける\] チェック ボックスに相当します。

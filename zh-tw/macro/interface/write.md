@@ -1,4 +1,4 @@
-# write 方法 (Interface ��H)
+# write 方法 (Interface 對象)
 
 把一個字串傳遞到一個支持的外掛程式中。
 

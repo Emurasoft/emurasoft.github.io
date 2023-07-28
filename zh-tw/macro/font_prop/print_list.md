@@ -1,4 +1,4 @@
-# PrintList 屬性 (FontProp ��H)
+# PrintList 屬性 (FontProp 對象)
 
 檢索 PrintList 對象。
 

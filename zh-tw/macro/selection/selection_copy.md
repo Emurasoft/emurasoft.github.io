@@ -1,4 +1,4 @@
-# Copy 方法 (Selection ��H)
+# Copy 方法 (Selection 對象)
 
 複製選定內容到剪貼簿上。
 

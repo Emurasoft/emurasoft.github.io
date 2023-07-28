@@ -1,4 +1,4 @@
-# VerticalPage プロパティ (ScrollProp �I�u�W�F�N�g)
+# VerticalPage プロパティ (ScrollProp オブジェクト)
 
 設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
 \[1頁の垂直スクロールを常に有効\] チェック ボックスに相当します。

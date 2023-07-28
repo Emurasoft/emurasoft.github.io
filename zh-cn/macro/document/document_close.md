@@ -1,4 +1,4 @@
-# Close 方法 (Document ����)
+# Close 方法 (Document 对象)
 
 关闭文档。
 

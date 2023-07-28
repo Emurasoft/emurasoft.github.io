@@ -1,4 +1,4 @@
-# Count 属性 (AssociationList ����)
+# Count 属性 (AssociationList 集合)
 
 检索项目的数目。
 

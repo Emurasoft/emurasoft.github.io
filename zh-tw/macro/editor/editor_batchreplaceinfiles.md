@@ -1,4 +1,4 @@
-# BatchReplaceInFiles 方法 (Editor ��H)
+# BatchReplaceInFiles 方法 (Editor 對象)
 
 在多個檔案中取代多個字串。
 

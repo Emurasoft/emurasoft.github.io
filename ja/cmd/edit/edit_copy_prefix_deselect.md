@@ -25,13 +25,13 @@ EEID_EDIT_COPY_PREFIX_DESELECT (4131)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID (4131);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4131

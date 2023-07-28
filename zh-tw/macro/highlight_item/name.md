@@ -1,4 +1,4 @@
-# Name 屬性 (HighlightItem ��H)
+# Name 屬性 (HighlightItem 對象)
 
 指定對象的名稱。
 

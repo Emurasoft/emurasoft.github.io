@@ -1,4 +1,4 @@
-# Begin プロパティ (IndentProp �I�u�W�F�N�g)
+# Begin プロパティ (IndentProp オブジェクト)
 
 [\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の
 \[インデント開始\] テキスト ボックスに相当します。

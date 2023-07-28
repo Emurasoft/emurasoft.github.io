@@ -1,4 +1,4 @@
-# Clear 메서드 (OutputBar ��ü)
+# Clear 메서드 (OutputBar 개체)
 
 출력 모음의 내용을 지웁니다.
 

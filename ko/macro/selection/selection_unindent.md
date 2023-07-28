@@ -1,4 +1,4 @@
-# UnIndent 메서드 (Selection ��ü)
+# UnIndent 메서드 (Selection 개체)
 
 들여쓰기 레벨의 지정된 수 만큼 선택된 텍스트로부터 들여쓰기를 제거합니다.
 

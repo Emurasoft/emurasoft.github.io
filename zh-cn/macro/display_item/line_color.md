@@ -1,4 +1,4 @@
-# LineColor 属性 (DisplayItem ����)
+# LineColor 属性 (DisplayItem 对象)
 
 指定对象的下划线颜色。
 

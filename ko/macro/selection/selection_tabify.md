@@ -1,4 +1,4 @@
-# Tabify 메서드 (Selection ��ü)
+# Tabify 메서드 (Selection 개체)
 
 선택 영역의 공백을 탭으로 변환합니다.
 

@@ -1,4 +1,4 @@
-# LineSpace 屬性 (PrintProp ��H)
+# LineSpace 屬性 (PrintProp 對象)
 
 與組態屬性中 [列印 頁面](../../dlg/properties/print/index) 上的行距 核取方塊相對應。
 

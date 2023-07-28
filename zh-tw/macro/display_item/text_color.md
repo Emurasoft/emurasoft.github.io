@@ -1,4 +1,4 @@
-# TextColor 屬性 (DisplayItem ��H)
+# TextColor 屬性 (DisplayItem 對象)
 
 指定對象的背景顏色。
 

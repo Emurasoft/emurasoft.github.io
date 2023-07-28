@@ -1,4 +1,4 @@
-# Item 属性 (KeyboardList ����)
+# Item 属性 (KeyboardList 集合)
 
 为指导索引检索 [KeyboardItem 对象](../keyboard_item/index)。
 

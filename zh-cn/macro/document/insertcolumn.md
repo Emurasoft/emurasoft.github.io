@@ -1,4 +1,4 @@
-# InsertColumn 方法 (Document ����)
+# InsertColumn 方法 (Document 对象)
 
 在 CSV 模式下插入文本列。
 

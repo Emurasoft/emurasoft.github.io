@@ -1,4 +1,4 @@
-# GetLine 메서드 (Document ��ü)
+# GetLine 메서드 (Document 개체)
 
 지정된 줄의 텍스트를 검색합니다.
 

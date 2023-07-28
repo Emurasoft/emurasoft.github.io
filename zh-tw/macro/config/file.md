@@ -1,4 +1,4 @@
-# File 屬性 (Config ��H)
+# File 屬性 (Config 對象)
 
 檢索 [FileProp 對象](../file_prop/index)。
 

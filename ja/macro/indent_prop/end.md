@@ -1,4 +1,4 @@
-# End プロパティ (IndentProp �I�u�W�F�N�g)
+# End プロパティ (IndentProp オブジェクト)
 
 [\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の
 \[インデント終了\] テキスト ボックスに相当します。

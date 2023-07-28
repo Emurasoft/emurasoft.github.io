@@ -1,4 +1,4 @@
-# Clear 方法 (CharacterRanges ����)
+# Clear 方法 (CharacterRanges 集合)
 
 删除集合中的所有项目。
 

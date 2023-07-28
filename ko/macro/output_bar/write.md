@@ -1,4 +1,4 @@
-# write 메서드 (OutputBar ��ü)
+# write 메서드 (OutputBar 개체)
 
 출력 모음에 문자열을 추가합니다.
 

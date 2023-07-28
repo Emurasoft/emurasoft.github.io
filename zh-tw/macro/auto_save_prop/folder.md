@@ -1,4 +1,4 @@
-# Folder 屬性 (AutoSaveProp ��H)
+# Folder 屬性 (AutoSaveProp 對象)
 
 與組態屬性中 [自動儲存 頁面](../../dlg/properties/autosave/index) 上的自動儲存資料夾 文字方塊對應。
 

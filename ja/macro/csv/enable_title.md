@@ -1,4 +1,4 @@
-# EnableTitle プロパティ (Csv �I�u�W�F�N�g)
+# EnableTitle プロパティ (Csv オブジェクト)
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[ツール バー ボタンのタイトル\] チェック ボックス に相当します。
 

@@ -1,4 +1,4 @@
-# LineColumnMode 속성 (GeneralProp ��ü)
+# LineColumnMode 속성 (GeneralProp 개체)
 
 구성 속성 [일반 탭](../../dlg/properties/general/index) 의선과 열을 다음으로 나타냅니다 드롭 다운 리스트 박스에 해당합니다.
 

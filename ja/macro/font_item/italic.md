@@ -1,4 +1,4 @@
-# Italic プロパティ (FontItem �I�u�W�F�N�g)
+# Italic プロパティ (FontItem オブジェクト)
 
 フォントがイタリック体に設定されていたらTrueです。
 

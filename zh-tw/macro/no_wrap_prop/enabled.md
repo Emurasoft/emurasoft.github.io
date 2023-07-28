@@ -1,4 +1,4 @@
-# Enabled 屬性 (NoWrapProp ��H)
+# Enabled 屬性 (NoWrapProp 對象)
 
 與配置屬性中 [不換行 選項卡](../../dlg/properties/no_wrap/index) 上的啟用不換行單詞 復選框相對應。
 

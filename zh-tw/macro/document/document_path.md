@@ -1,4 +1,4 @@
-# Path 屬性 (Document ��H)
+# Path 屬性 (Document 對象)
 
 僅檢索當前文檔的路徑，不檢索路徑。
 

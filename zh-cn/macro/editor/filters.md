@@ -1,4 +1,4 @@
-# filters 属性 (Editor ����)
+# filters 属性 (Editor 对象)
 
 检索 [Filters 集合](../filters/index)。
 

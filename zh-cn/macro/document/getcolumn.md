@@ -1,4 +1,4 @@
-# GetColumn 方法 (Document ����)
+# GetColumn 方法 (Document 对象)
 
 在 CSV 模式中检索文本列。
 

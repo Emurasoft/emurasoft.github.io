@@ -1,4 +1,4 @@
-# DoubleClickOnly 속성 (LinkProp ��ü)
+# DoubleClickOnly 속성 (LinkProp 개체)
 
 구성 속성 [링크 탭](../../dlg/properties/link/index) 의더블 클릭 만을 활성화 체크 박스에 해당합니다.
 

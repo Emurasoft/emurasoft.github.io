@@ -1,4 +1,4 @@
-# EndOfDocument 메서드 (Selection ��ü)
+# EndOfDocument 메서드 (Selection 개체)
 
 문서의 끝 지점으로 커서를 이동합니다.
 

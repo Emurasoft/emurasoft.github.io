@@ -1,4 +1,4 @@
-# IgnoreColor 속성 (PrintProp ��ü)
+# IgnoreColor 속성 (PrintProp 개체)
 
 구성 속성 [인쇄 탭](../../dlg/properties/print/index) 의색과 밑줄 무시하기 체크 박스에 해당합니다.
 

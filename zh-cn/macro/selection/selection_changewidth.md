@@ -1,4 +1,4 @@
-# ChangeWidth 方法 (Selection ����)
+# ChangeWidth 方法 (Selection 对象)
 
 变更所选取的文本的宽度。
 

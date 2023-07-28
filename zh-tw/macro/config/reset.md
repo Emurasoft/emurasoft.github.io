@@ -1,4 +1,4 @@
-# Reset 方法 (Config ��H)
+# Reset 方法 (Config 對象)
 
 重設目前的組態。
 

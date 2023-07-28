@@ -1,4 +1,4 @@
-# Redraw 属性 (Window ����)
+# Redraw 属性 (Window 对象)
 
 在 EmEditor 中允许或禁止重绘变更。
 

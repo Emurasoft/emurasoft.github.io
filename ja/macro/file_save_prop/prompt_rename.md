@@ -1,4 +1,4 @@
-# PromptRename プロパティ (FileSaveProp �I�u�W�F�N�g)
+# PromptRename プロパティ (FileSaveProp オブジェクト)
 
 [\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
 \[名前を変更時、以前のファイルの削除で警告\] チェック ボックスに相当します。

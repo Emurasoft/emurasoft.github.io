@@ -23,13 +23,13 @@ EEID_SHIFT_DOWN (4177)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.LineDown(true,1);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.LineDown true,1

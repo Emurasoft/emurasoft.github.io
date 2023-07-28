@@ -1,4 +1,4 @@
-# Display 属性 (Config ����)
+# Display 属性 (Config 对象)
 
 检索
 [DisplayProp 对象](../display_prop/index)。

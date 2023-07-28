@@ -1,4 +1,4 @@
-# Paste 메서드 (Selection ��ü)
+# Paste 메서드 (Selection 개체)
 
 커서에 클립보드 내용을 삽입합니다.
 

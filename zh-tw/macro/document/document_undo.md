@@ -1,4 +1,4 @@
-# Undo 方法 (Document ��H)
+# Undo 方法 (Document 對象)
 
 撤消上一次的動作。
 

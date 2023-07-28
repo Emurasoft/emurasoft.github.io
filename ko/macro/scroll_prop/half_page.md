@@ -1,4 +1,4 @@
-# HalfPage 속성 (ScrollProp ��ü)
+# HalfPage 속성 (ScrollProp 개체)
 
 구성 속성 [스크롤 탭](../../dlg/properties/scroll/index) 의1/2 페이지 스크롤 체크 박스에 해당합니다.
 

@@ -1,4 +1,4 @@
-# LineOpen 메서드 (Selection ��ü)
+# LineOpen 메서드 (Selection 개체)
 
 두 줄 사이에 빈 줄을 삽입합니다.
 

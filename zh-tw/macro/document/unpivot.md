@@ -1,4 +1,4 @@
-# Unpivot 方法 (Document ��H)
+# Unpivot 方法 (Document 對象)
 
 通過壓平合併 CSV 數據將欄轉換為列。
 

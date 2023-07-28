@@ -1,4 +1,4 @@
-# RegExp プロパティ (IndentProp �I�u�W�F�N�g)
+# RegExp プロパティ (IndentProp オブジェクト)
 
 [\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の
 \[正規表現を使用する\] チェック ボックスに相当します。

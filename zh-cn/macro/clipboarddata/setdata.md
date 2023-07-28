@@ -1,4 +1,4 @@
-# setData 方法 (clipboardData ����)
+# setData 方法 (clipboardData 对象)
 
 以指定格式分配数据到剪贴板上。
 

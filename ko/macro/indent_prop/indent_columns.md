@@ -1,4 +1,4 @@
-# IndentColumns 속성 (IndentProp ��ü)
+# IndentColumns 속성 (IndentProp 개체)
 
 [탭/들여쓰기 대화 상자](../../dlg/properties/general/indent/index) 의들여쓰기 열 텍스트 박스에 해당합니다.
 

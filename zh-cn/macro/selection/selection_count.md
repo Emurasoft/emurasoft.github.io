@@ -1,4 +1,4 @@
-# Count 属性 (Selection ����)
+# Count 属性 (Selection 对象)
 
 检索在当前文档中所选取的数目。
 

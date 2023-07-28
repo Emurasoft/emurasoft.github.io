@@ -1,4 +1,4 @@
-# UnIndent 方法 (Selection ��H)
+# UnIndent 方法 (Selection 對象)
 
 按指定的縮排等級數從被選取的文字中刪除縮排。
 

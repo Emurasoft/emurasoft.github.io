@@ -1,4 +1,4 @@
-# FindWindow 方法 (Window ��H)
+# FindWindow 方法 (Window 對象)
 
 通過類名和/或一個視窗標題尋找子 [Window 對象](../window/index)。
 

@@ -1,4 +1,4 @@
-# NewLine 方法 (Selection ����)
+# NewLine 方法 (Selection 对象)
 
 在光标处插入指定的新行数。
 

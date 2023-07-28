@@ -1,4 +1,4 @@
-# CamelCase 屬性 (SpellProp ��H)
+# CamelCase 屬性 (SpellProp 對象)
 
 與組態屬性中 [拼字檢查 頁面](../../dlg/properties/spell/index) 上的支持駝峰式大小寫 核取方塊相對應。
 

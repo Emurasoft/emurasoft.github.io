@@ -1,4 +1,4 @@
-# Value プロパティ (Filter �I�u�W�F�N�g)
+# Value プロパティ (Filter オブジェクト)
 
 検索する文字列を指定します。
 

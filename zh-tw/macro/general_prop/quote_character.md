@@ -1,4 +1,4 @@
-# QuoteCharacter 屬性 (GeneralProp ��H)
+# QuoteCharacter 屬性 (GeneralProp 對象)
 
 與組態屬性中 [一般 頁面](../../dlg/properties/general/index) 上的引用字元 文字方塊相對應。
 

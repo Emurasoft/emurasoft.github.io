@@ -1,4 +1,4 @@
-# Item 屬性 (Filters ���X)
+# Item 屬性 (Filters 集合)
 
 為指定的索引檢索 [Filter 對象](../filter/index)。
 

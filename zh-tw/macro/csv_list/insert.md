@@ -1,4 +1,4 @@
-# Insert 方法 (CsvList ���X)
+# Insert 方法 (CsvList 集合)
 
 插入一個項目。
 

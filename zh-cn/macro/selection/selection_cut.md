@@ -1,4 +1,4 @@
-# Cut 方法 (Selection ����)
+# Cut 方法 (Selection 对象)
 
 复制选取的文本到剪贴板上并在原先的位置处删除该文本。
 

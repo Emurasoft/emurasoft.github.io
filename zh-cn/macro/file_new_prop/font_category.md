@@ -1,4 +1,4 @@
-# FontCategory å±žæ€§ (FileNewProp ¶ÔÏó)
+# FontCategory å±žæ€§ (FileNewProp å¯¹è±¡)
 
 Corresponds to theFont
 Category drop-down list box in the

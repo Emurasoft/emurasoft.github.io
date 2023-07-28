@@ -1,4 +1,4 @@
-# SaveAll 方法 (Editor ��H)
+# SaveAll 方法 (Editor 對象)
 
 儲存所有目前的打開的檔案。
 

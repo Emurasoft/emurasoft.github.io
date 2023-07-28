@@ -1,4 +1,4 @@
-# Script 속성 (FontItem ��ü)
+# Script 속성 (FontItem 개체)
 
 글꼴의 스크립트를 지정합니다.
 

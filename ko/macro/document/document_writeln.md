@@ -1,4 +1,4 @@
-# writeln 메서드 (Document ��ü)
+# writeln 메서드 (Document 개체)
 
 현재 커서 위치에 문자열과 새 줄을 삽입하거나 덮어쓰기합니다.
 

@@ -1,4 +1,4 @@
-# Count プロパティ (CsvList �R���N�V����)
+# Count プロパティ (CsvList コレクション)
 
 Csv オブジェクトの数を取得します。
 

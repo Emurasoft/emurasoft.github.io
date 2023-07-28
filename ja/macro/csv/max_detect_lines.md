@@ -1,4 +1,4 @@
-# MaxDetectLines プロパティ (Csv �I�u�W�F�N�g)
+# MaxDetectLines プロパティ (Csv オブジェクト)
 
 \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[検出最大行数\] テキスト ボックス に相当します。
 

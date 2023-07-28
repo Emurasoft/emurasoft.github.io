@@ -1,4 +1,4 @@
-# Export 方法 (Filters ����)
+# Export 方法 (Filters 集合)
 
 把集合导出到 TSV 文件中。
 

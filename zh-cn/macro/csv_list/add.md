@@ -1,4 +1,4 @@
-# Add 方法 (CsvList ����)
+# Add 方法 (CsvList 集合)
 
 添加一个项目。
 

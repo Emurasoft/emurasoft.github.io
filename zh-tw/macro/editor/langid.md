@@ -1,4 +1,4 @@
-# LangID 屬性 (Editor ��H)
+# LangID 屬性 (Editor 對象)
 
 檢索目前選取的語言 ID，即 Microsoft 指定的 [Locale IDs](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c)。
 

@@ -1,4 +1,4 @@
-# close 메서드 (Window ��ü)
+# close 메서드 (Window 개체)
 
 창을 닫습니다.
 

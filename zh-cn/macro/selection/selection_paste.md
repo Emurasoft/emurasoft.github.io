@@ -1,4 +1,4 @@
-# Paste 方法 (Selection ����)
+# Paste 方法 (Selection 对象)
 
 在光标处插入剪贴板内容。
 

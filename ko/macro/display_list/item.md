@@ -1,4 +1,4 @@
-# Item 속성 (DisplayList �÷���)
+# Item 속성 (DisplayList 컬렉션)
 
 지정된 인덱스를 위한 [DisplayItem 개체](../display_item/index) 를 검색합니다.
 

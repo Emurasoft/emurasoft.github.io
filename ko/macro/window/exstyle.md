@@ -1,4 +1,4 @@
-# ExStyle 속성 (Window ��ü)
+# ExStyle 속성 (Window 개체)
 
 지정된 창의 확장 스타일을 반환합니다.
 

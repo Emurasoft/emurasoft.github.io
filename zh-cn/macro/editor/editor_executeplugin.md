@@ -1,4 +1,4 @@
-# ExecutePlugin 方法 (Editor ����)
+# ExecutePlugin 方法 (Editor 对象)
 
 执行一个指定的插件。
 

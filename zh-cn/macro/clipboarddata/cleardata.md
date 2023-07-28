@@ -1,4 +1,4 @@
-# clearData 方法 (clipboardData ����)
+# clearData 方法 (clipboardData 对象)
 
 从剪贴板上删除一个或多个数据格式。
 

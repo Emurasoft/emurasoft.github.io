@@ -1,4 +1,4 @@
-# Count 屬性 (FontList ���X)
+# Count 屬性 (FontList 集合)
 
 檢索項目數量。
 

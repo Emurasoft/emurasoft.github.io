@@ -1,4 +1,4 @@
-# Wrap 属性 (Config ����)
+# Wrap 属性 (Config 对象)
 
 检索 [WrapProp 对象](../wrap_prop/index)。
 

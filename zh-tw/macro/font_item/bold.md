@@ -1,4 +1,4 @@
-# Bold 屬性 (FontItem ��H)
+# Bold 屬性 (FontItem 對象)
 
 True 如果字型的格式被設置為粗體。
 

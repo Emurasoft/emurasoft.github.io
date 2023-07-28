@@ -1,4 +1,4 @@
-# Redo 方法 (Document ��H)
+# Redo 方法 (Document 對象)
 
 用 [Undo 命令](../../cmd/edit/edit_undo) 重做上次撤消的動作。
 

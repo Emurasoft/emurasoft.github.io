@@ -1,4 +1,4 @@
-# Remove 메서드 (KeyboardList �÷���)
+# Remove 메서드 (KeyboardList 컬렉션)
 
 항목을 제거합니다.
 

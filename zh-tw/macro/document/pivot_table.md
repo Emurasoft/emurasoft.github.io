@@ -1,4 +1,4 @@
-# PivotTable 方法 (Document ��H)
+# PivotTable 方法 (Document 對象)
 
 在 CSV 文檔中建立樞紐分析表。
 

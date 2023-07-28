@@ -1,4 +1,4 @@
-# Value 属性 (Match ����)
+# Value 属性 (Match 对象)
 
 一个包含匹配值或文本的只读值。
 

@@ -1,4 +1,4 @@
-# Bold 属性 (FontItem ����)
+# Bold 属性 (FontItem 对象)
 
 True 如果字体的格式被设置为粗体。
 

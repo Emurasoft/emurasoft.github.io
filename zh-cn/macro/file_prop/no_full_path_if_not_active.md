@@ -1,4 +1,4 @@
-# NoFullPathIfNotActive 属性 (FileProp ����)
+# NoFullPathIfNotActive 属性 (FileProp 对象)
 
 与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的失去焦点时不显示完整路径 复选框相对应。
 

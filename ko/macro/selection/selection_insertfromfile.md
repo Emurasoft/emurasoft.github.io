@@ -1,4 +1,4 @@
-# InsertFromFile 메서드 (Selection ��ü)
+# InsertFromFile 메서드 (Selection 개체)
 
 커서 위치에 지정된 파일의 내용을 삽입합니다.
 

@@ -23,13 +23,13 @@ EEID_LOGICAL_HOME (4165)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.StartOfLine(false,eeLineLogical);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.StartOfLine false,eeLineLogical

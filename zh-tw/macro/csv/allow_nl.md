@@ -1,4 +1,4 @@
-# AllowNL 屬性 (Csv ��H)
+# AllowNL 屬性 (Csv 對象)
 
 與在自訂對話方塊中 [CSV 頁面](../../dlg/customize/csv/index) 上的允許在引號內換行 核取方塊對應。
 

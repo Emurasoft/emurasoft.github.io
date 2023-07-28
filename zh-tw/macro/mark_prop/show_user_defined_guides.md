@@ -1,4 +1,4 @@
-# ShowUserDefinedGuides 屬性 (MarkProp ��H)
+# ShowUserDefinedGuides 屬性 (MarkProp 對象)
 
 與組態屬性中 [標記 頁面](../../dlg/properties/marks/index) 上的顯示使用者自訂參考線 核取方塊相對應。
 

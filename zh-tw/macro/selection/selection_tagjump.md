@@ -1,4 +1,4 @@
-# TagJump 方法 (Selection ��H)
+# TagJump 方法 (Selection 對象)
 
 跳轉到游標所在的標籤。
 

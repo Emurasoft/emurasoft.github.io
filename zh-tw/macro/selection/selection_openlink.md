@@ -1,4 +1,4 @@
-# OpenLink 方法 (Selection ��H)
+# OpenLink 方法 (Selection 對象)
 
 打開游標處的超連結。
 

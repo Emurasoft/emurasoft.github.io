@@ -1,4 +1,4 @@
-# alert 메서드 (Window ��ü)
+# alert 메서드 (Window 개체)
 
 OK 버튼을 가진 간단한 대화 상자에 메시지를 표시합니다.
 

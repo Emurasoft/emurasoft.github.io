@@ -1,4 +1,4 @@
-# KinsokuEnd 屬性 (WrapProp ��H)
+# KinsokuEnd 屬性 (WrapProp 對象)
 
 與組態屬性中 [換行 頁面](../../dlg/properties/wrap/index) 上的行末不允許換行字元 文字方塊相對應。
 

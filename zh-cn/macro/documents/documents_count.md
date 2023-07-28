@@ -1,4 +1,4 @@
-# Count 属性 (Documents ����)
+# Count 属性 (Documents 集合)
 
 检索文档的数目。
 

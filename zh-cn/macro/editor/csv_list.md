@@ -1,4 +1,4 @@
-# CsvList 属性 (Editor ����)
+# CsvList 属性 (Editor 对象)
 
 检索或设置 [CsvList 集合](../csv_list/index)。
 

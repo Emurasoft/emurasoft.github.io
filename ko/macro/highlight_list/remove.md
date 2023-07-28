@@ -1,4 +1,4 @@
-# Remove 메서드 (HighlightList �÷���)
+# Remove 메서드 (HighlightList 컬렉션)
 
 항목을 제거합니다.
 

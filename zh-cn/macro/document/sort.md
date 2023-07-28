@@ -1,4 +1,4 @@
-# Sort 方法 (Document ����)
+# Sort 方法 (Document 对象)
 
 排序文档。
 

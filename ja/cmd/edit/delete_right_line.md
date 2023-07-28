@@ -23,14 +23,14 @@ EEID_DELETE_RIGHT_LINE (4191)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.EndOfLine(true,eeLineLogical);
 document.selection.Delete(1);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.EndOfLine true,eeLineLogical

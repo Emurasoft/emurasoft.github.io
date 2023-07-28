@@ -1,4 +1,4 @@
-# CombineLines 方法 (Document ��H)
+# CombineLines 方法 (Document 對象)
 
 合併 CSV 文檔中垂直相鄰的重複儲存格。
 

@@ -1,4 +1,4 @@
-# AddReplace 方法 (Filters ����)
+# AddReplace 方法 (Filters 集合)
 
 添加一个要替换的项目。
 

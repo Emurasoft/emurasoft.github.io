@@ -1,4 +1,4 @@
-# RegExp 屬性 (HighlightItem ��H)
+# RegExp 屬性 (HighlightItem 對象)
 
 與組態屬性中 [亮顯 (1) 頁面](../../dlg/properties/highlight1/index) 上的規則運算式 核取方塊相對應。
 

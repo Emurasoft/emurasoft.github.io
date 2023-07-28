@@ -1,4 +1,4 @@
-# InsertDate 메서드 (Selection ��ü)
+# InsertDate 메서드 (Selection 개체)
 
 현재 시간과 날짜를 삽입합니다.
 

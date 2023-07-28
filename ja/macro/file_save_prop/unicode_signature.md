@@ -1,4 +1,4 @@
-# UnicodeSignature プロパティ (FileSaveProp �I�u�W�F�N�g)
+# UnicodeSignature プロパティ (FileSaveProp オブジェクト)
 
 \[保存時の詳細\] ダイアログ ボックスの\[Unicodeサイン(BOM)を付ける\] チェック ボックスに相当します。
 

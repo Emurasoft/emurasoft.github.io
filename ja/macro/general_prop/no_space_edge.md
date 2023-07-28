@@ -1,4 +1,4 @@
-# NoSpaceEdge プロパティ (GeneralProp �I�u�W�F�N�g)
+# NoSpaceEdge プロパティ (GeneralProp オブジェクト)
 
 設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[ウィンドウ左端に空白を入れない\] チェック ボックスに相当します。
 

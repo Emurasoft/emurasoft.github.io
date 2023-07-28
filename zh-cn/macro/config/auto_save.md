@@ -1,4 +1,4 @@
-# AutoSave 属性 (Config ����)
+# AutoSave 属性 (Config 对象)
 
 检索 [AutoSaveProp 对象](../auto_save_prop/index)。
 

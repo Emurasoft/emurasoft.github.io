@@ -1,4 +1,4 @@
-# HorizontalLine プロパティ (ScrollProp �I�u�W�F�N�g)
+# HorizontalLine プロパティ (ScrollProp オブジェクト)
 
 設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の\[水平罫線\] チェック ボックスに相当します。
 

@@ -1,4 +1,4 @@
-# FileNew プロパティ (Config �I�u�W�F�N�g)
+# FileNew プロパティ (Config オブジェクト)
 
 [FileNewProp オブジェクト](../file_new_prop/index) を取得します。
 

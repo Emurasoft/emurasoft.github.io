@@ -1,4 +1,4 @@
-# AutoSave プロパティ (Config �I�u�W�F�N�g)
+# AutoSave プロパティ (Config オブジェクト)
 
 [AutoSaveProp オブジェクト](../auto_save_prop/index) を取得します。
 

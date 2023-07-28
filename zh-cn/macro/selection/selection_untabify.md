@@ -1,4 +1,4 @@
-# Untabify 方法 (Selection ����)
+# Untabify 方法 (Selection 对象)
 
 把选定内容中的 tab 转换为空格。
 

@@ -1,4 +1,4 @@
-# HighlightMatchingTag 속성 (HighlightProp ��ü)
+# HighlightMatchingTag 속성 (HighlightProp 개체)
 
 Corresponds to theHighlight
 Matching Tag 체크 박스 in the [Highlight (2) 탭](../../dlg/properties/highlight2/index) of 구성 속성.

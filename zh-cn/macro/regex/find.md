@@ -1,4 +1,4 @@
-# Find 方法 (Regex ����)
+# Find 方法 (Regex 对象)
 
 用正则表达式搜索指定的字符串并返回一个 [Matches 集合](../matches/index) 如果发现匹配。如果设定的是Global 属性，这个方法能重复用同样的参数来检索几个匹配。
 

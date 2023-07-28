@@ -1,4 +1,4 @@
-# Enabled 屬性 (CharacterRange ��H)
+# Enabled 屬性 (CharacterRange 對象)
 
 指定是否啟用對象的標志。
 

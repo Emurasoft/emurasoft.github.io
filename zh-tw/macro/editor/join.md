@@ -1,4 +1,4 @@
-# Join 方法 (Editor ��H)
+# Join 方法 (Editor 對象)
 
 按指定索引鍵資料欄，用一個與 JOIN 操作類似的方法合併兩個 CSV 文檔，并創建一個新文檔。
 

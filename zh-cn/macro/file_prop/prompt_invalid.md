@@ -1,4 +1,4 @@
-# PromptInvalid 属性 (FileProp ����)
+# PromptInvalid 属性 (FileProp 对象)
 
 与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的如果发现无效字符时进行提示 复选框相对应。
 

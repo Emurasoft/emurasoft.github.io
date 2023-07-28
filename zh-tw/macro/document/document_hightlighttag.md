@@ -1,4 +1,4 @@
-# HighlightTag 屬性 (Document ��H)
+# HighlightTag 屬性 (Document 對象)
 
 決定是否要高亮標簽。
 

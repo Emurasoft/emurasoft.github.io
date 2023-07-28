@@ -1,4 +1,4 @@
-# ColorList 属性 (DisplayProp ����)
+# ColorList 属性 (DisplayProp 对象)
 
 为颜色列表检索 [DisplayList 集合](../display_list/index)。
 

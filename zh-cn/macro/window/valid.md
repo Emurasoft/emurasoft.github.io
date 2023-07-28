@@ -1,4 +1,4 @@
-# Valid 属性 (Window ����)
+# Valid 属性 (Window 对象)
 
 返回是否窗口句柄还有效。
 

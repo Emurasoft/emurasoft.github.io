@@ -1,4 +1,4 @@
-# Add 方法 (HighlightList ���X)
+# Add 方法 (HighlightList 集合)
 
 添加一個項目。
 

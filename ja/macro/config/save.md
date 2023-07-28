@@ -1,4 +1,4 @@
-# Save メソッド (Config �I�u�W�F�N�g)
+# Save メソッド (Config オブジェクト)
 
 現在の設定を保存します。
 

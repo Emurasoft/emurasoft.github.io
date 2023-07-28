@@ -1,4 +1,4 @@
-# PromptUnicode 属性 (FileSaveProp ����)
+# PromptUnicode 属性 (FileSaveProp 对象)
 
 与 [保存详细信息 对话框](../../dlg/properties/file/save_details/index) 中的当保存 Unicode 为 ANSI 时进行提示 复选框相对应。
 

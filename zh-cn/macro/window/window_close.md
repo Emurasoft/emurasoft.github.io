@@ -1,4 +1,4 @@
-# close 方法 (Window ����)
+# close 方法 (Window 对象)
 
 关闭窗口。
 

@@ -1,4 +1,4 @@
-# SelectWord 方法 (Selection ��H)
+# SelectWord 方法 (Selection 對象)
 
 選擇游標處的整個單字。
 

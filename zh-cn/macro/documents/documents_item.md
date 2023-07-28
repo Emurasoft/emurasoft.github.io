@@ -1,4 +1,4 @@
-# Item 属性 (Documents ����)
+# Item 属性 (Documents 集合)
 
 为指定索引的文档检索文档对象。
 

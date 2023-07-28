@@ -1,4 +1,4 @@
-# FileExists 方法 (Shell ��H)
+# FileExists 方法 (Shell 對象)
 
 如果指定檔案存在則返回 true；如果沒有，則為 false。
 

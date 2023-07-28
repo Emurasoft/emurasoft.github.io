@@ -1,4 +1,4 @@
-# DuplicateLine 메서드 (Selection ��ü)
+# DuplicateLine 메서드 (Selection 개체)
 
 현재의 줄을 중복되게 합니다.
 

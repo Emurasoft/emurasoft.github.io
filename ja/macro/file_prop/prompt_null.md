@@ -1,4 +1,4 @@
-# PromptNull プロパティ (FileProp �I�u�W�F�N�g)
+# PromptNull プロパティ (FileProp オブジェクト)
 
 設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の\[Null文字を含むファイルで警告\] チェック ボックスに相当します。
 

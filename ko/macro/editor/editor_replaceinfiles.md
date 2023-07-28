@@ -1,4 +1,4 @@
-# ReplaceInFiles 메서드 (Editor ��ü)
+# ReplaceInFiles 메서드 (Editor 개체)
 
 여러 파일 내에서 텍스트를 대체합니다.
 

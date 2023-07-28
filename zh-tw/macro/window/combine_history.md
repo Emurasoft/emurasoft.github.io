@@ -1,4 +1,4 @@
-# CombineHistory 屬性 (Window ��H)
+# CombineHistory 屬性 (Window 對象)
 
 指定要不要合併復原/重做記錄。
 

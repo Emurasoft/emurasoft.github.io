@@ -1,4 +1,4 @@
-# Association プロパティ (Config �I�u�W�F�N�g)
+# Association プロパティ (Config オブジェクト)
 
 [AssociationProp オブジェクト](../association_prop/index) を取得します。
 

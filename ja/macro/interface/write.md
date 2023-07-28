@@ -1,4 +1,4 @@
-# write メソッド (Interface �I�u�W�F�N�g)
+# write メソッド (Interface オブジェクト)
 
 文字列をサポートされたプラグインに渡します。
 

@@ -1,4 +1,4 @@
-# NewlineCode 屬性 (Document ��H)
+# NewlineCode 屬性 (Document 對象)
 
 檢索文檔的目前的新行字元碼。
 

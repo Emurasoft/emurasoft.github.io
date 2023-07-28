@@ -1,4 +1,4 @@
-# Highlight 속성 (SpellProp ��ü)
+# Highlight 속성 (SpellProp 개체)
 
 구성 속성의 [맞춤법 탭](../../dlg/properties/spell/index) 의강조 표시된 텍스트 체크 박스에 해당합니다.
 

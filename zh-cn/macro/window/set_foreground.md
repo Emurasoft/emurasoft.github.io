@@ -1,4 +1,4 @@
-# SetForeground 方法 (Window ����)
+# SetForeground 方法 (Window 对象)
 
 将窗口置前。
 

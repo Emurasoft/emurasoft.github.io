@@ -1,4 +1,4 @@
-# IgnoreCase 屬性 (Regex ��H)
+# IgnoreCase 屬性 (Regex 對象)
 
 設置或檢索是否規則運算式忽略大小寫。
 

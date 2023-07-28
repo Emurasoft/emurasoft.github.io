@@ -1,4 +1,4 @@
-# ActiveString 属性 (Document ����)
+# ActiveString 属性 (Document 对象)
 
 在鼠标悬停处检索活动字符串。
 

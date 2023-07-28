@@ -1,4 +1,4 @@
-# print 메서드 (Window ��ü)
+# print 메서드 (Window 개체)
 
 인쇄 대화 상자를 표시합니다.
 

@@ -1,4 +1,4 @@
-# DiscardUndo 屬性 (Window ��H)
+# DiscardUndo 屬性 (Window 對象)
 
 返回標志來表示 EmEditor 要是否丟棄撤銷信息以提高替換、插入或刪除的速度。
 

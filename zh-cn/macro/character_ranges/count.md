@@ -1,4 +1,4 @@
-# Count 属性 (CharacterRanges ����)
+# Count 属性 (CharacterRanges 集合)
 
 检索项目的数目。
 

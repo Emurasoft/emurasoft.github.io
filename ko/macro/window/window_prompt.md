@@ -1,4 +1,4 @@
-# prompt 메서드 (Window ��ü)
+# prompt 메서드 (Window 개체)
 
 문자열을 입력하는 대화 상자를 표시합니다.
 

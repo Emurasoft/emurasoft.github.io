@@ -23,13 +23,13 @@ EEID_INSERT_COPYRIGHT (4314)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.Text="©";
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.Text="©"

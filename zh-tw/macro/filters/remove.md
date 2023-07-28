@@ -1,4 +1,4 @@
-# Remove 方法 (Filters ���X)
+# Remove 方法 (Filters 集合)
 
 刪除一個項目。
 

@@ -1,4 +1,4 @@
-# URL プロパティ (LinkProp �I�u�W�F�N�g)
+# URL プロパティ (LinkProp オブジェクト)
 
 設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の\[URLをクリックするとそのURLを表示\] チェック ボックスに相当します。
 

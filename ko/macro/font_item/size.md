@@ -1,4 +1,4 @@
-# Size 속성 (FontItem ��ü)
+# Size 속성 (FontItem 개체)
 
 글꼴의 크기를 포인트로 지정합니다.
 

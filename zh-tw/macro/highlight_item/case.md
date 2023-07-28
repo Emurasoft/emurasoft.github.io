@@ -1,4 +1,4 @@
-# Case 屬性 (HighlightItem ��H)
+# Case 屬性 (HighlightItem 對象)
 
 與組態屬性中 [亮顯 (1) 頁面](../../dlg/properties/highlight1/index) 上的區分大小寫 核取方塊相對應。
 

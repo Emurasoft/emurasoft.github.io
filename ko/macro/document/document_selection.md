@@ -1,4 +1,4 @@
-# selection 속성 (Document ��ü)
+# selection 속성 (Document 개체)
 
 [Selection 개체](../selection/index) 를 검색합니다.
 

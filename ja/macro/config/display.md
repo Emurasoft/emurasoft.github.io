@@ -1,4 +1,4 @@
-# Display プロパティ (Config �I�u�W�F�N�g)
+# Display プロパティ (Config オブジェクト)
 
 [DisplayProp オブジェクト](../display_prop/index) を取得します。
 

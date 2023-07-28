@@ -1,4 +1,4 @@
-# TextMode 속성 (DisplayItem ��ü)
+# TextMode 속성 (DisplayItem 개체)
 
 텍스트 색상 모드를 지정합니다.
 

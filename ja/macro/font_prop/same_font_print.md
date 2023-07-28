@@ -1,4 +1,4 @@
-# SameFontPrint プロパティ (FontProp �I�u�W�F�N�g)
+# SameFontPrint プロパティ (FontProp オブジェクト)
 
 [\[カスタマイズ フォント\] ダイアログ ボックス](../../dlg/properties/font/index) の
 \[印刷フォントに表示フォントを使用\] チェック ボックスに相当します。

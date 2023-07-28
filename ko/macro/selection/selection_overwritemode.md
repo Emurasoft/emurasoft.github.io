@@ -1,4 +1,4 @@
-# OverwriteMode 속성 (Selection ��ü)
+# OverwriteMode 속성 (Selection 개체)
 
 덮어쓰기 또는 삽입 모드를 나타내는 플래그를 설정하거나 검색합니다.
 

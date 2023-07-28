@@ -1,4 +1,4 @@
-# Format 方法 (Selection ��H)
+# Format 方法 (Selection 對象)
 
 插入或刪除選定內容中的新行。
 

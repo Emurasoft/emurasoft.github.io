@@ -1,4 +1,4 @@
-# BatchFind 方法 (Selection ��H)
+# BatchFind 方法 (Selection 對象)
 
 搜索多個字串。
 

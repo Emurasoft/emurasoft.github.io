@@ -1,4 +1,4 @@
-# InsertDate 方法 (Selection ��H)
+# InsertDate 方法 (Selection 對象)
 
 插入目前的時間和日期。
 

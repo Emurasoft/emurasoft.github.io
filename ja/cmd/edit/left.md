@@ -23,13 +23,13 @@ EEID_LEFT (4157)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.CharLeft(false,1);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.CharLeft false,1

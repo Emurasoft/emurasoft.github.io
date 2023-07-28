@@ -1,4 +1,4 @@
-# LineSpace 屬性 (DisplayProp ��H)
+# LineSpace 屬性 (DisplayProp 對象)
 
 與組態屬性中的 [顯示 頁面](../../dlg/properties/display/index) 上的行距 文字方塊相對應。
 

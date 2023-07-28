@@ -26,13 +26,13 @@ EEID_FILE_RELOAD_BINARY (4438)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 - editor.ExecuteCommandByID(4438);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 - editor.ExecuteCommandByID 4438

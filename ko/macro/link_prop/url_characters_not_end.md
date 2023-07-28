@@ -1,4 +1,4 @@
-# URLCharactersNotEnd 속성 (LinkProp ��ü)
+# URLCharactersNotEnd 속성 (LinkProp 개체)
 
 구성 속성 [링크 탭](../../dlg/properties/link/index) 의끝에서 문자 허용 안됨 텍스트 박스에 해당합니다.
 

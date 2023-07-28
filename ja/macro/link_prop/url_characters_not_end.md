@@ -1,4 +1,4 @@
-# URLCharactersNotEnd プロパティ (LinkProp �I�u�W�F�N�g)
+# URLCharactersNotEnd プロパティ (LinkProp オブジェクト)
 
 設定のプロパティの [\[リンク\] タブ](../../dlg/properties/link/index) の\[最後に認識されない文字\] テキスト ボックスに相当します。
 

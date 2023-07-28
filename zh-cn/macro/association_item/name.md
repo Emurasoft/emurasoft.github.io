@@ -1,4 +1,4 @@
-# Name 属性 (AssociationItem ����)
+# Name 属性 (AssociationItem 对象)
 
 指定对象的名称。
 

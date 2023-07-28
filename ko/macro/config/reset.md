@@ -1,4 +1,4 @@
-# Reset 메서드 (Config ��ü)
+# Reset 메서드 (Config 개체)
 
 현재 구성을 초기화합니다.
 

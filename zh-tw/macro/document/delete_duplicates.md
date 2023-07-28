@@ -1,4 +1,4 @@
-# DeleteDuplicates 方法 (Document ��H)
+# DeleteDuplicates 方法 (Document 對象)
 
 刪除重複行，或把重複行設為書籤。
 

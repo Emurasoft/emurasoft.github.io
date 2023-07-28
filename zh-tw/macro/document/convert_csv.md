@@ -1,4 +1,4 @@
-# ConvertCsv 方法 (Document ��H)
+# ConvertCsv 方法 (Document 對象)
 
 轉換 CSV 格式。
 

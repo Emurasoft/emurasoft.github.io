@@ -1,4 +1,4 @@
-# BackMode 屬性 (DisplayItem ��H)
+# BackMode 屬性 (DisplayItem 對象)
 
 指定背景顏色模式。
 

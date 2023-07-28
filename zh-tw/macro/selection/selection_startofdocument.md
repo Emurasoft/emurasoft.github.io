@@ -1,4 +1,4 @@
-# StartOfDocument 方法 (Selection ��H)
+# StartOfDocument 方法 (Selection 對象)
 
 把游標移動到文檔的開始位置。
 

@@ -1,4 +1,4 @@
-# Add 메서드 (AssociationList �÷���)
+# Add 메서드 (AssociationList 컬렉션)
 
 항목을 추가합니다.
 

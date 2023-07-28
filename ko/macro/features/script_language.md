@@ -1,4 +1,4 @@
-# JavaScript 또는 VBScript 지원 (���)
+# JavaScript 또는 VBScript 지원 (기능)
 
 엠에디터는 매크로 언어로 JavaScript 또는 VBScript를 사용하므로,
 HTML이나 Windows 스크립트에 익숙한 사용자들은 매크로를 기록하는데 있어서 적은 어려움이 있을수 있습니다.

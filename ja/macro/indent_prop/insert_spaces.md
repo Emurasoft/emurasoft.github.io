@@ -1,4 +1,4 @@
-# InsertSpaces プロパティ (IndentProp �I�u�W�F�N�g)
+# InsertSpaces プロパティ (IndentProp オブジェクト)
 
 [\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の\[タブの代わりに空白を挿入\] チェック ボックスに相当します。
 

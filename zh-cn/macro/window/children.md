@@ -1,4 +1,4 @@
-# Children 属性 (Window ����)
+# Children 属性 (Window 对象)
 
 返回代表子窗口的 [Windows 集合](../windows/index)。
 

@@ -1,4 +1,4 @@
-# Reset 方法 (CsvList ���X)
+# Reset 方法 (CsvList 集合)
 
 將集合重設為預設值。
 

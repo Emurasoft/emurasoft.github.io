@@ -1,4 +1,4 @@
-# WordRight 方法 (Selection ����)
+# WordRight 方法 (Selection 对象)
 
 把光标向右移指定的单词数。
 

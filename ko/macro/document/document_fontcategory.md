@@ -1,4 +1,4 @@
-# FontCategory 속성 (Document ��ü)
+# FontCategory 속성 (Document 개체)
 
 현재 글꼴 범주를 검색하거나 설정합니다.
 

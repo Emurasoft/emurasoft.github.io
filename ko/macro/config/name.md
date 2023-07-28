@@ -1,4 +1,4 @@
-# Name 속성 (Config ��ü)
+# Name 속성 (Config 개체)
 
 현재 구성 개체의 이름을 검색합니다.
 

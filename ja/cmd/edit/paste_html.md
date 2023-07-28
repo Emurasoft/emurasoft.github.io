@@ -23,13 +23,13 @@ EEID_EDIT_PASTE_HTML (4071)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.Paste(eeCopyHTML);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.Paste eeCopyHTML

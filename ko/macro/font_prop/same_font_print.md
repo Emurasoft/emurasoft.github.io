@@ -1,4 +1,4 @@
-# SameFontPrint 속성 (FontProp ��ü)
+# SameFontPrint 속성 (FontProp 개체)
 
 [글꼴 사용자 지정](../../dlg/properties/font/index) 대화 상자의글꼴 표시를 프린터 글꼴로 사용 체크 박스에 해당합니다.
 

@@ -1,4 +1,4 @@
-# Count 屬性 (DroppedFiles ���X)
+# Count 屬性 (DroppedFiles 集合)
 
 檢索拖放的檔案的數目。
 

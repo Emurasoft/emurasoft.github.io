@@ -1,4 +1,4 @@
-# Length 属性 (Match ����)
+# Length 属性 (Match 对象)
 
 一个包含匹配字符串总长度的只读值。
 

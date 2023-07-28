@@ -1,4 +1,4 @@
-# Style 속성 (Window ��ü)
+# Style 속성 (Window 개체)
 
 지정된 창의 스타일을 반환합니다.
 

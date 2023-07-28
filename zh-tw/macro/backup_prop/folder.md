@@ -1,4 +1,4 @@
-# Folder 屬性 (BackupProp ��H)
+# Folder 屬性 (BackupProp 對象)
 
 與組態屬性中 [備份 頁面](../../dlg/properties/backup/index) 上的備份資料夾 文字方塊對應。
 

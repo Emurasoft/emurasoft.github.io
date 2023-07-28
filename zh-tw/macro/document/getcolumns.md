@@ -1,4 +1,4 @@
-# GetColumns 方法 (Document ��H)
+# GetColumns 方法 (Document 對象)
 
 在 CSV 模式中檢索欄數。如果文檔不是 CSV 模式，那么該方法會返回 0。
 

@@ -1,4 +1,4 @@
-# General プロパティ (Config �I�u�W�F�N�g)
+# General プロパティ (Config オブジェクト)
 
 [GeneralProp オブジェクト](../general_prop/index) を取得します。
 

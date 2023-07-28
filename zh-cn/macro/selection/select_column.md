@@ -1,4 +1,4 @@
-# SelectColumn 方法 (Selection ����)
+# SelectColumn 方法 (Selection 对象)
 
 在 CSV 模式中选择指定的列。
 

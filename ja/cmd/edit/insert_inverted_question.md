@@ -23,13 +23,13 @@ EEID_INSERT_INVERTED_QUESTION (4312)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.Text="¿";
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.Text="¿"

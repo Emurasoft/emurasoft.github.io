@@ -1,4 +1,4 @@
-# Command 屬性 (KeyboardItem ��H)
+# Command 屬性 (KeyboardItem 對象)
 
 指定命令 ID。
 

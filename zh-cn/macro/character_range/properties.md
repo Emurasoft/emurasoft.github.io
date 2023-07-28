@@ -1,4 +1,4 @@
-# Properties 属性 (CharacterRange ����)
+# Properties 属性 (CharacterRange 对象)
 
 指定表示对象的 Unicode 脚本和/或 Unicode 常规类别属性的字符串。
 

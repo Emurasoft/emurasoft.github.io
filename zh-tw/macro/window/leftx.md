@@ -1,4 +1,4 @@
-# LeftX 屬性 (Window ��H)
+# LeftX 屬性 (Window 對象)
 
 以像素為單位返回或設置指定視窗的水平位置。
 

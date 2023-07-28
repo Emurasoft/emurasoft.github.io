@@ -1,4 +1,4 @@
-# Name 属性 (Config ����)
+# Name 属性 (Config 对象)
 
 为当前配置对象检索名称。
 

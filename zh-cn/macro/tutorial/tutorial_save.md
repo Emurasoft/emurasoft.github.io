@@ -1,4 +1,4 @@
-# 保存宏 (�̳�)
+# 保存宏 (教程)
 
 要保存一个宏，请选择 [保存宏 命令](../../cmd/macros/macro_save)，会出现一个另存为 对话框。EmEditor 的默认宏文件夹是我的文档 文件夹下的我的宏 文件夹。要更改默认文件夹，请选择 [自定义宏 命令](../../cmd/macros/customize_macro)，然后在自定义宏 对话框上的 [选项 页面](../../dlg/macro_customize/options/index) 上更改。
 

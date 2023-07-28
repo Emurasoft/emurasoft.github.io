@@ -1,4 +1,4 @@
-# ProcessID 属性 (Window ����)
+# ProcessID 属性 (Window 对象)
 
 返回进程标识符。
 

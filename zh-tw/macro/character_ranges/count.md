@@ -1,4 +1,4 @@
-# Count 屬性 (CharacterRanges ���X)
+# Count 屬性 (CharacterRanges 集合)
 
 檢索項目的數目。
 

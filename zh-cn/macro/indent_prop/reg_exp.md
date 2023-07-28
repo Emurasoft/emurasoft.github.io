@@ -1,4 +1,4 @@
-# RegExp 属性 (IndentProp ����)
+# RegExp 属性 (IndentProp 对象)
 
 与 [制表符/缩进 对话框](../../dlg/properties/general/indent/index) 上的使用正则表达式 复选框相对应。
 

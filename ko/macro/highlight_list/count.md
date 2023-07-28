@@ -1,4 +1,4 @@
-# Count 속성 (HighlightList �÷���)
+# Count 속성 (HighlightList 컬렉션)
 
 항목의 수를 검색합니다.
 

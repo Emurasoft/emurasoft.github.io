@@ -1,4 +1,4 @@
-# ExecuteCommandByID 메서드 (Editor ��ü)
+# ExecuteCommandByID 메서드 (Editor 개체)
 
 명령 ID를 나타내는 정수로 식별된 명령을 실행합니다.
 

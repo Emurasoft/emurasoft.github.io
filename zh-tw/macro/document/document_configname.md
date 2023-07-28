@@ -1,4 +1,4 @@
-# ConfigName 屬性 (Document ��H)
+# ConfigName 屬性 (Document 對象)
 
 檢索或設置當前配置名稱。
 

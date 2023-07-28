@@ -1,4 +1,4 @@
-# Count 属性 (FontList ����)
+# Count 属性 (FontList 集合)
 
 检索项目数量。
 

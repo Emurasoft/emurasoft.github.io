@@ -1,4 +1,4 @@
-# OpenIME 属性 (GeneralProp ����)
+# OpenIME 属性 (GeneralProp 对象)
 
 与配置属性中 [常规 页面](../../dlg/properties/general/index) 上的运行输入法编辑器 复选框相对应。
 

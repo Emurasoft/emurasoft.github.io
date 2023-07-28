@@ -1,4 +1,4 @@
-# UseRecycleBin プロパティ (BackupProp �I�u�W�F�N�g)
+# UseRecycleBin プロパティ (BackupProp オブジェクト)
 
 設定プロパティの [\[バックアップ\] タブ](../../dlg/properties/backup/index) の\[バックアップをごみ箱に保存\] チェック ボックスに相当します。
 

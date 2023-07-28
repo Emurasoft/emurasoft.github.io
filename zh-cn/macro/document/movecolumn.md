@@ -1,4 +1,4 @@
-# MoveColumn 方法 (Document ����)
+# MoveColumn 方法 (Document 对象)
 
 在 CSV 模式下移动或复制指定列。
 

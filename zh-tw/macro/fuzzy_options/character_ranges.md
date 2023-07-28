@@ -1,4 +1,4 @@
-# CharacterRanges 屬性 (FuzzyOptions ��H)
+# CharacterRanges 屬性 (FuzzyOptions 對象)
 
 檢索或設定 [CharacterRanges 集合](../character_ranges/index)。
 

@@ -23,13 +23,13 @@
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 なし
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 なし

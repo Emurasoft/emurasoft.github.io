@@ -1,4 +1,4 @@
-# NewFile 메서드 (Editor ��ü)
+# NewFile 메서드 (Editor 개체)
 
 새로운 파일을 생성합니다.
 

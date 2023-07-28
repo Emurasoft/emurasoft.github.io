@@ -1,4 +1,4 @@
-# Item プロパティ (NoWrapList �R���N�V����)
+# Item プロパティ (NoWrapList コレクション)
 
 指定したインデックスの [NoWrapItem オブジェクト](../no_wrap_item/index) を取得します。
 

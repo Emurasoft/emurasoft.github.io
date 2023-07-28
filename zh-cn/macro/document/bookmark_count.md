@@ -1,4 +1,4 @@
-# BookmarkCount 属性 (Document ����)
+# BookmarkCount 属性 (Document 对象)
 
 检索文档中的书签数。
 

@@ -1,4 +1,4 @@
-# Min 属性 (CharacterRange ����)
+# Min 属性 (CharacterRange 对象)
 
 指定对象的最小字符。
 

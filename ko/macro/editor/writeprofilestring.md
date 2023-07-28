@@ -1,4 +1,4 @@
-# WriteProfileString 메서드 (Editor ��ü)
+# WriteProfileString 메서드 (Editor 개체)
 
 엠에디터 설정에 따라 레지스트리 또는 INI 파일에 문자열 값을 설정합니다.
 
