@@ -11,7 +11,6 @@ faq/index
 features/index
 history/index
 howto/index
-images/index
 macro/index
 plugin/index
 purchase/index
