@@ -11,8 +11,8 @@ left side of a text line. A plug-in for outlining is necessary to display the ou
 
 ## How to Run
 
-- Default Menu:Edit \>Outlining \>Collapse Line
-- [All Commands](../tools/all_commands):Edit \>Outlining \>Collapse Line
+- Default Menu: **Edit** \> **Outlining** \> **Collapse Line**
+- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Collapse Line**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

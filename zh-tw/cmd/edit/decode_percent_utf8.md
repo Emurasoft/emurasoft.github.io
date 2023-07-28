@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:轉換 \>編碼/解碼 \>將百分號編碼轉換為 Unicode (UTF-8)
-- [全部命令](../tools/all_commands):轉換 \>編碼/解碼 \>將百分號編碼轉換為 Unicode (UTF-8)
+- 預設功能表: **轉換** \> **編碼/解碼** \> **將百分號編碼轉換為 Unicode (UTF-8)**
+- [全部命令](../tools/all_commands): **轉換** \> **編碼/解碼** \> **將百分號編碼轉換為 Unicode (UTF-8)**
 - 工具列: 無e
 - 狀態列: 無
 - 預設捷徑: 無
@@ -23,13 +23,13 @@ EEID_DECODE_PERCENT_UTF8 (3856)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3856);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3856

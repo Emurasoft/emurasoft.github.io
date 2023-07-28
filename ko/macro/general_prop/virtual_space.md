@@ -1,6 +1,6 @@
 # VirtualSpace 속성 (GeneralProp 개체)
 
-구성 속성 [일반 탭](../../dlg/properties/general/index) 의가상 공간 활성화 체크 박스에 해당합니다.
+구성 속성 [**일반** 탭](../../dlg/properties/general/index) 의 **가상 공간 활성화** 체크 박스에 해당합니다.
 
 ## 
 

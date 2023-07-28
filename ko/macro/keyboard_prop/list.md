@@ -1,6 +1,6 @@
 # List 속성 (Keyboard 개체)
 
-[KeyboardList 컬렉션](../keyboard_list/index) 을 검색합니다.
+[**KeyboardList** 컬렉션](../keyboard_list/index) 을 검색합니다.
 
 ## 
 

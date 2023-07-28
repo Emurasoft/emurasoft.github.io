@@ -12,7 +12,7 @@
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):편집 \>선택 확장 \>왼쪽 단어까지 선택
+- [모든 명령](../tools/all_commands): **편집** \> **선택 확장** \> **왼쪽 단어까지 선택**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+SHIFT+LEFT ARROW
@@ -24,13 +24,13 @@ EEID_SHIFT_LEFT_WORD (4175)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.WordLeft(true,1);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.WordLeft true,1

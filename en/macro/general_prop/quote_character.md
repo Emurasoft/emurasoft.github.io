@@ -1,6 +1,6 @@
 # QuoteCharacter Property (GeneralProp Object)
 
-Corresponds to theQuote Character text box in the [General page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to the **Quote Character** text box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties.
 
 ## 
 

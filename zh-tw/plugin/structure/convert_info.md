@@ -30,7 +30,7 @@ _nFlags_
 
 |     |     |
 | --- | --- |
-|值 |含義 |
+| **值** | **含義** |
 | FLAG\_MAKE\_LOWER | 轉換為小寫字元。 |
 | FLAG\_MAKE\_UPPER | 轉換為大寫字元。 |
 | FLAG\_HAN\_TO\_ZEN | 轉換為全形字元。 |

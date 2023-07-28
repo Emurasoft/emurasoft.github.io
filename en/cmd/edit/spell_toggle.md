@@ -10,8 +10,8 @@ Checks spelling of the document. Misspelled words will be underlined in red.
 
 ## How to Run
 
-- Default Menu:Edit \>Spelling \>Check Spelling
-- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling
+- Default Menu: **Edit** \> **Spelling** \> **Check Spelling**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling**
 - Toolbar:
 ![](../../images/spelling24x16.gif)
 - Status Bar: None

@@ -10,10 +10,10 @@ Checks spelling in highlight. Misspelled words will be underlined in red.
 
 ## How to Run
 
-- Default Menu:Edit \>Spelling \>Check Spelling in \>Highlighted
-Text
-- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling in \>Highlight
-Text
+- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Highlighted**
+**Text**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **Highlight**
+**Text**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

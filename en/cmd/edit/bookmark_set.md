@@ -11,7 +11,7 @@ Sets a bookmark on the current line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Bookmarks \>Set Bookmark
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Set Bookmark**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

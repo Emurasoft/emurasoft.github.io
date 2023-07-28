@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:编辑 \>CSV \>自动复制
-- [所有命令](../tools/all_commands):编辑 \>复制 \>自动复制
+- 默认菜单: **编辑** \> **CSV** \> **自动复制**
+- [所有命令](../tools/all_commands): **编辑** \> **复制** \> **自动复制**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -22,13 +22,13 @@
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3979);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3979

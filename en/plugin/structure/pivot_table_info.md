@@ -95,7 +95,7 @@ Specifies a combination of sort flags to be applied to the column. If this is 0,
 
 _pszLocale_
 
-Specifies the locale used for sorting, for example: "en-US". If this is empty or omitted, the locale specified in theSort page of theCustomize dialog box is used.
+Specifies the locale used for sorting, for example: "en-US". If this is empty or omitted, the locale specified in the **Sort** page of the **Customize** dialog box is used.
 
 _pszTotalRowLabel_
 

@@ -25,7 +25,7 @@ _bExtend_
 _nCount_
 
 可选项。指定向右移的单词数。默认值是 1。如果指定的是负数，该方法与
-[WordLeft \
+[**WordLeft** \
 方法](selection_wordleft) 的行为相同。如果指定值为 0，该方法的行为与指定值为 1 时的行为相同。
 
 ## 版本

@@ -11,8 +11,8 @@ Moves the cursor to the beginning/top of the document.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Vertically
-\>Top
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
+\> **Top**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+HOME

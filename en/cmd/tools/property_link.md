@@ -6,15 +6,15 @@ Displays Link properties.
 
 ## Description
 
-Displays the [Link page](../../dlg/properties/link/index)
-of the[Configuration Properties](../../dlg/properties/index)
+Displays the [**Link** page](../../dlg/properties/link/index)
+of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Properties for Current Configuration \>Link
+- [All Commands](all_commands): **Tools** >
+**Properties for Current Configuration** \> **Link**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

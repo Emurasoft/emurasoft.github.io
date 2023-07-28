@@ -1,6 +1,6 @@
 # filters 属性 (Document 对象)
 
-检索或设置 [Filters 集合](../filters/index)。
+检索或设置 [**Filters** 集合](../filters/index)。
 
 ## 
 

@@ -6,20 +6,20 @@ Closes the current file and opens another existing file.
 
 ## Description
 
-This command displays theOpen dialog box, and allows you to select
+This command displays the **Open** dialog box, and allows you to select
 a file you would like to open with EmEditor. After a file is selected, a
 prompt will be displayed asking whether save changes for previous file or not. Selecting either Yes or No will open
 the selected file.
 
 If the current EmEditor window is untitled and no character is inserted,
-this command behaves the same as the [Open \
+this command behaves the same as the [**Open** \
 command](file_open).
 
 ## How to Run
 
-- Default Menu:File \>Close and Open
-- [All Commands](../tools/all_commands):File \>Open
-\>Close and Open
+- Default Menu: **File** \> **Close and Open**
+- [All Commands](../tools/all_commands): **File** \> **Open**
+\> **Close and Open**
 - Toolbar:
 ![](../../images/filecloseopen.gif)
 - Status Bar: None

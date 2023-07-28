@@ -1,7 +1,7 @@
 # HighlightMatchingBrackets Property (HighlightProp Object)
 
-Corresponds to theHighlight
-Matching Parentheses/Brackets check box in the [Highlight (2) page](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to the **Highlight**
+**Matching Parentheses/Brackets** check box in the [**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
 ## 
 

@@ -11,8 +11,8 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):文件 \>关闭
-\>存工作区，保存，并关闭所有打开的文件
+- [所有命令](../tools/all_commands): **文件** \> **关闭**
+\> **存工作区，保存，并关闭所有打开的文件**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -24,13 +24,13 @@ EEID_SAVE_WORKSPACE_EXIT_ALL (4331)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4331);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4331

@@ -9,12 +9,12 @@ Creates a new file with a specified configuration (multiple items).
 This command consists of multiple menu items. You can select from the predefined
 configurations. This command creates a new file with the specified
 configuration. You can edit, delete, or add configurations in the
-[Define Configurations dialog box](../../dlg/configurations/index).
+[**Define Configurations** dialog box](../../dlg/configurations/index).
 
 ## How to Run
 
-- Default Menu:File \>New \>(configuration name)
-- [All Commands](../tools/all_commands):File \>New > (configuration name)
+- Default Menu: **File** \> **New** \> **(configuration name)**
+- [All Commands](../tools/all_commands): **File** \> **New > (configuration name)**
 - Toolbar: ![](../../images/filenew.gif) (on
 the arrow) + (configuration name)
 - Status Bar: None

@@ -1,6 +1,6 @@
 # Replace Method (Regex Object)
 
-Searches the specified string for the regular expression and replace with the specified string. If theGlobal property is set, this method replaces all possible matches in the string.
+Searches the specified string for the regular expression and replace with the specified string. If the **Global** property is set, this method replaces all possible matches in the string.
 
 ## 
 

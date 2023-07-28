@@ -12,9 +12,9 @@ position.
 
 ## How to Run
 
-- Default Menu:Search \>Find Previous Word
-- [All Commands](../tools/all_commands):Search
-\>Find Previous Word
+- Default Menu: **Search** \> **Find Previous Word**
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Previous Word**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+F3

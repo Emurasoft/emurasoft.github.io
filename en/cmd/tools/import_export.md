@@ -6,14 +6,14 @@ Displays a Wizard to import settings from a file or to export current settings i
 
 ## Description
 
-This command displays the[Import and Export Wizard](../../dlg/import_export/index), in which you can select to import settings from a file or to export current settings into a file.
+This command displays the **[Import and Export Wizard](../../dlg/import_export/index)**, in which you can select to import settings from a file or to export current settings into a file.
 
 ## How to Run
 
-- Default Menu:Tools >
-Import and Export
-- [All Commands](all_commands):Tools >
-Import and Export
+- Default Menu: **Tools** >
+**Import and Export**
+- [All Commands](all_commands): **Tools** >
+**Import and Export**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -6,13 +6,13 @@ Customizes marker settings.
 
 ## Description
 
-Displays the [Customize Markers dialog box](../../dlg/customize_markers/index), where you can customize markers.
+Displays the [**Customize Markers** dialog box](../../dlg/customize_markers/index), where you can customize markers.
 
 ## How to Run
 
-- Default Menu:Tools \>Customize Markers
-- [All Commands](all_commands):Tools >
-Customize Markers \>Customize Markers
+- Default Menu: **Tools** \> **Customize Markers**
+- [All Commands](all_commands): **Tools** >
+**Customize Markers** \> **Customize Markers**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -1,9 +1,9 @@
 # Specifications of Macro (Document Object Model) (Tutorial)
 
-In the specifications of the EmEditor macro Document Object Model (DOM),[Window Object](../window/index)
+In the specifications of the EmEditor macro Document Object Model (DOM), **[Window Object](../window/index)**
 is the current scope. In other words, properties and methods without explicit scope refer
-to the current[Window Object](../window/index).
-For example, the first _document_ is the[document Property](../window/window_document) of the Window
+to the current **[Window Object](../window/index)**.
+For example, the first _document_ is the **[document Property](../window/window_document)** of the Window
 Object,
 which applies to scripts used for web browsers. For those who are familiar with web browser scripting,
 the following code might look more familiar:

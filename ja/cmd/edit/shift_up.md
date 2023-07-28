@@ -23,13 +23,13 @@ EEID_SHIFT_UP (4176)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.LineUp(true,1);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.LineUp true,1

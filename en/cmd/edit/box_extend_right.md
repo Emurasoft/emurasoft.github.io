@@ -11,8 +11,8 @@ Extends the vertical selection one character to the right.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Char Right Extend (Vertical Mode)
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Char Right Extend (Vertical Mode)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+RIGHT ARROW

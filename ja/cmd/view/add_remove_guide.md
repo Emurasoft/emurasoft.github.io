@@ -23,13 +23,13 @@ EEID_ADD_REMOVE_GUIDE (3862)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3862);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3862

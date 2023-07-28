@@ -10,8 +10,8 @@ Temporarily shows the current CSV document without quotation marks or escape cha
 
 ## How to Run
 
-- Default Menu:CSV \>Hide Quotes Temporarily
-- [All Commands](../tools/all_commands):CSV \>Hide Quotes Temporarily
+- Default Menu: **CSV** \> **Hide Quotes Temporarily**
+- [All Commands](../tools/all_commands): **CSV** \> **Hide Quotes Temporarily**
 - Toolbar: ![](../../images/csv_hide_quotes.gif)
 - Status Bar: None
 - Default Shortcut Key: None

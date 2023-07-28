@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:編輯 \>CSV \>欄 \>置中對齊
-- [全部命令](../tools/all_commands):編輯 \>CSV \>欄 \>置中對齊
+- 預設功能表: **編輯** \> **CSV** \> **欄** \> **置中對齊**
+- [全部命令](../tools/all_commands): **編輯** \> **CSV** \> **欄** \> **置中對齊**
 - 工具列: 無
 - 狀態列: 無
 - 預設快速鍵: 無
@@ -23,13 +23,13 @@ EEID_ALIGN_CENTER (23233)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(23233);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 23233

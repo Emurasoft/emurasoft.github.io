@@ -10,8 +10,8 @@ Align text in the selected columns or current column right.
 
 ## How to Run
 
-- Default Menu:CSV \>Columns \>Align Right
-- [All Commands](../tools/all_commands):CSV \>Columns \>Align Right
+- Default Menu: **CSV** \> **Columns** \> **Align Right**
+- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Align Right**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -1,8 +1,8 @@
 # EP\_DISABLE\_AUTO\_COMPLETE
 
-Queries whether the auto complete for brackets/quotation marks feature should be disabled. This feature is defined by theHighlight
-Matching Parentheses/Brackets check box in the
-[Highlight (2) page](../../dlg/properties/highlight2/index) of configuration properties.
+Queries whether the auto complete for brackets/quotation marks feature should be disabled. This feature is defined by the **Highlight**
+**Matching Parentheses/Brackets** check box in the
+[**Highlight (2)** page](../../dlg/properties/highlight2/index) of configuration properties.
 
 EP\_DISABLE\_AUTO\_COMPLETE
 

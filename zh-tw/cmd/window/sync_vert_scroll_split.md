@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:視窗 \>當分割時同步垂直捲動
-- [全部命令](../tools/all_commands):視窗 \>分割 \>當分割時同步垂直捲動
+- 預設功能表: **視窗** \> **當分割時同步垂直捲動**
+- [全部命令](../tools/all_commands): **視窗** \> **分割** \> **當分割時同步垂直捲動**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -22,13 +22,13 @@
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4524);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4524

@@ -8,12 +8,12 @@ Cuts the selected lines or current line and moves it to the Clipboard.
 
 Cuts the selected lines or one logical line at the cursor, and puts it on the Clipboard. After
 this command, you can place the line by moving the cursor to a
-different location and running the [Paste command](edit_paste).
+different location and running the [**Paste** command](edit_paste).
 
 ## How to Run
 
-- Default Menu:Edit \>Advanced \>Cut Line(s)
-- [All Commands](../tools/all_commands):Edit \>Cut \>Cut Line(s)
+- Default Menu: **Edit** \> **Advanced** \> **Cut Line(s)**
+- [All Commands](../tools/all_commands): **Edit** \> **Cut** \> **Cut Line(s)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+L

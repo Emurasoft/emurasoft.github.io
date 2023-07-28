@@ -11,9 +11,9 @@ right of the cursor if no text is selected.
 
 ## How to Run
 
-- Default Menu:Edit \>Delete
-- [All Commands](../tools/all_commands):Edit \>Delete
-\>Delete Right Character
+- Default Menu: **Edit** \> **Delete**
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Right Character**
 - Toolbar: ![](../../images/delete.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+BACKSPACE or DELETE

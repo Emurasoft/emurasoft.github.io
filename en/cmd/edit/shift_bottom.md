@@ -11,8 +11,8 @@ Extends the selection to the bottom of the file.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Bottom Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Bottom Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+END
@@ -24,13 +24,13 @@ EEID_SHIFT_BOTTOM (4185)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.EndOfDocument(true);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.EndOfDocument true

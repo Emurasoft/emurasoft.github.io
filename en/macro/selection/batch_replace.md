@@ -20,7 +20,7 @@ nFound = document.selection.BatchReplace( filters, nFlags, nExFlags )
 
 _filters_
 
-Specifies a [Filters Collection](../filters/index) which contains search and replace strings and flags.
+Specifies a [**Filters** Collection](../filters/index) which contains search and replace strings and flags.
 
 _nFlags_
 
@@ -53,7 +53,7 @@ Specifies a combination of the following values. However, only one of eeExFindRe
 | eeExFindEOL | The regular expression ‘$’ can match the end of the selection. |
 | eeExFindInsertColumn | Creates a new CSV column for extracted columns. eeFindExtract must be specified in nFlags. The new column is inserted just to the right of the original. |
 | eeExFindLookaround | Looks around during selection-only regular-expression searches. |
-| eeExFindMulti | Performs Bulk Replacement All. If this is not specified, performsBatch Replace All. See [Difference between Batch and Bulk](../../howto/search/batch_vs_bulk). |
+| eeExFindMulti | Performs Bulk Replacement All. If this is not specified, performs **Batch Replace All**. See [**Difference between Batch and Bulk**](../../howto/search/batch_vs_bulk). |
 | eeExFindRegexBoost | Uses Boost.Regex as the regular expression engine. |
 | eeExFindRegexOnigmo | Uses Onigmo as the regular expression engine. |
 | eeExFindSeparateCRLF | Treats CR and LF separately. |

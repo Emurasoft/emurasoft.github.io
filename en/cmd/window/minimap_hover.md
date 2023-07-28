@@ -11,7 +11,7 @@ Shows the minimap while the mouse is hovered on the vertical scroll bar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window \>Scroll \>Show Minimap while Hovered
+- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Show Minimap while Hovered**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

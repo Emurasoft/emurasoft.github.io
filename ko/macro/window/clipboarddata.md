@@ -1,6 +1,6 @@
 # clipboardData 속성 (Window 개체)
 
-[clipboardData 개체](../clipboarddata/index) 를 반환합니다.
+[**clipboardData** 개체](../clipboarddata/index) 를 반환합니다.
 
 ## 
 

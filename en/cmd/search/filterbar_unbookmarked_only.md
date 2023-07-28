@@ -11,8 +11,8 @@ Toggles the Unbookmarked Lines Only button on the Filter toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Unbookmarked Lines Only
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Unbookmarked Lines Only**
 - Toolbar: ![](../../images/unbookmarked_lines_only.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

@@ -1,6 +1,6 @@
 # Kinsoku 属性 (WrapProp 对象)
 
-与配置属性中 [换行 页面](../../dlg/properties/wrap/index) 上的将指定字符换行 复选框相对应。
+与配置属性中 [**换行** 页面](../../dlg/properties/wrap/index) 上的 **将指定字符换行** 复选框相对应。
 
 ## 
 

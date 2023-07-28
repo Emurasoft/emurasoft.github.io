@@ -1,3 +1,3 @@
 # To Inspect the Character code at the Cursor
 
-SelectCharacter Code... under theView menu.
+Select **Character Code...** under the **View** menu.

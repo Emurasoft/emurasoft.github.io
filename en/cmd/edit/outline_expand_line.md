@@ -11,8 +11,8 @@ left side of a text line. A plug-in for outlining is necessary to display the ou
 
 ## How to Run
 
-- Default Menu:Edit \>Outlining \>Expand Line
-- [All Commands](../tools/all_commands):Edit \>Outlining \>Expand Line
+- Default Menu: **Edit** \> **Outlining** \> **Expand Line**
+- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Expand Line**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

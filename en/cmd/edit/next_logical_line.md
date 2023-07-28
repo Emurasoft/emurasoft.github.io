@@ -11,8 +11,8 @@ Moves the cursor to the start of the next logical line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): Edit >Move Cursor Vertically
-\>Next Logical Line
+- [All Commands](../tools/all_commands): Edit > **Move Cursor Vertically**
+\> **Next Logical Line**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+PAGE DOWN

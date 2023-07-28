@@ -11,8 +11,8 @@ Deletes any whitespace characters between the last non-whitespace character and 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Delete
-\>Delete Spaces at End of Lines
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Spaces at End of Lines**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

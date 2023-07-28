@@ -11,7 +11,7 @@ Selects this suggestion for the correct spelling, and replaces the misspelled wo
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Spelling \>(Spelling Suggestions)
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **(Spelling Suggestions)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

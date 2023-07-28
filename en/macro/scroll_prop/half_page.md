@@ -1,7 +1,7 @@
 # HalfPage Property (ScrollProp Object)
 
-Corresponds to theScroll Half Page check box in the
-[Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to the **Scroll Half Page** check box in the
+[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 
 ## 
 

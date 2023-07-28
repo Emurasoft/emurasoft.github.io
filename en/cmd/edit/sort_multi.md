@@ -10,8 +10,8 @@ Sorts the document by multiple columns or with advanced options.
 
 ## How to Run
 
-- Default Menu:Sort \>Advanced Sort
-- [All Commands](../tools/all_commands):Sort \>Advanced Sort
+- Default Menu: **Sort** \> **Advanced Sort**
+- [All Commands](../tools/all_commands): **Sort** \> **Advanced Sort**
 - Toolbar: ![](../../images/sortbymultiple.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_SORT_MULTI (3903)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3903);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3903

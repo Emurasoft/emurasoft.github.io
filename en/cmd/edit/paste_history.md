@@ -11,8 +11,8 @@ Inserts one of the contents from the Clipboard history (recently copied items) a
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Paste
-\>Cycle Clipboard Ring
+- [All Commands](../tools/all_commands): **Edit** \> **Paste**
+\> **Cycle Clipboard Ring**
 - Toolbar: ![](../../images/cycle_clipboard_ring.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

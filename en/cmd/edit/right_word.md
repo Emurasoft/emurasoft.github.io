@@ -13,8 +13,8 @@ the next word in the current line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-\>Word Right
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Word Right**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+RIGHT ARROW

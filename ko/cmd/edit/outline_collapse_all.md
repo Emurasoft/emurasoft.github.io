@@ -11,8 +11,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:편집 \>윤곽 \>모두 축소
-- [모든 명령](../tools/all_commands):편집 \>윤곽 \>모두 축소
+- 기본 메뉴: **편집** \> **윤곽** \> **모두 축소**
+- [모든 명령](../tools/all_commands): **편집** \> **윤곽** \> **모두 축소**
 - 도구 모음: ![](../../images/outline_min.gif)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -24,13 +24,13 @@ EEID_OUTLINE_COLLAPSE_ALL (4410)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4410);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4410

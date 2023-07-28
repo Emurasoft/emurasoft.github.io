@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:檢視 \>尺規
-- [全部命令](../tools/all_commands):檢視 \>尺規
+- 預設功能表: **檢視** \> **尺規**
+- [全部命令](../tools/all_commands): **檢視** \> **尺規**
 - 工具列:
 ![](../../images/ruler24x16.gif)
 - 狀態列: 無
@@ -24,13 +24,13 @@ EEID_VIEW_LINE_RULER (4531)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4531);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4531

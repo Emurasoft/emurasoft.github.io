@@ -12,8 +12,8 @@ message appears to select whether you want to save the changes or not.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>Close
-\>Close All
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Close All**
 - Toolbar: ![](../../images/exitall.gif)
 - Status Bar: None
 - Default Shortcut Key: ALT+SHIFT+X

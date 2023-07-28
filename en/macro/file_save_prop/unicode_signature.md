@@ -1,6 +1,6 @@
 # UnicodeSignature Property (FileSaveProp Object)
 
-Corresponds to theAdd a Unicode Signature (BOM) check box in the [Save Details dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to the **Add a Unicode Signature (BOM)** check box in the [**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 ## 
 

@@ -1,6 +1,6 @@
 # EP\_DISABLE\_AUTO\_COMPLETE
 
-查询括号/引号自动完成功能是否被禁用。这个功能由在配置属性中的 [高亮 (2) 页面](../../dlg/properties/highlight2/index) 上的自动完成括号/引号标记 复选框定义。
+查询括号/引号自动完成功能是否被禁用。这个功能由在配置属性中的 [**高亮 (2)** 页面](../../dlg/properties/highlight2/index) 上的 **自动完成括号/引号标记** 复选框定义。
 
 EP\_DISABLE\_AUTO\_COMPLETE
 

@@ -11,8 +11,8 @@ Toggles the Count Matches button on the Find toolbar. When this command is toggl
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Count Matches
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Count Matches**
 - Toolbar: ![](../../images/find_count.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

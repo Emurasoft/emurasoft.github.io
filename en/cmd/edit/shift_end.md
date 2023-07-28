@@ -11,8 +11,8 @@ Extends the selection to the end of the current line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>End Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **End Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+END

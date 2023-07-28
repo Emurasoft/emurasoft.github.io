@@ -13,7 +13,7 @@ lParam = (LPARAM) (QUERY\_STRING\_INFO\*) pInfo;
 
 _pInfo_
 
-Specifies a pointer to the [QUERY\_STRING\_INFO structure](../structure/query_string_info).
+Specifies a pointer to the [**QUERY\_STRING\_INFO** structure](../structure/query_string_info).
 
 ## Return Values
 

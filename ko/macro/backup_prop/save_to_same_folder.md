@@ -1,6 +1,6 @@
 # SaveToSameFolder 속성 (BackupProp 개체)
 
-구성 속성 [백업 탭](../../dlg/properties/backup/index) 의같은 폴더에 백업 저장 체크 박스에 해당합니다.
+구성 속성 [**백업** 탭](../../dlg/properties/backup/index) 의 **같은 폴더에 백업 저장** 체크 박스에 해당합니다.
 
 ## 
 

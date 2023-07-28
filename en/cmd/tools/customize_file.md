@@ -6,15 +6,15 @@ Opens the File page of the Customize dialog box.
 
 ## Description
 
-Displays the File page of the [Customize dialog box](../../dlg/customize/index),
+Displays the File page of the [**Customize** dialog box](../../dlg/customize/index),
 where you can define common application settings.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Customize >
-File
+- [All Commands](all_commands): **Tools** >
+**Customize** >
+**File**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -10,8 +10,8 @@ Shows or hides newline characters. By default, EmEditor displays newline charact
 
 ## How to Run
 
-- Default Menu:View \>Marks \>Newline Characters
-- [All Commands](../tools/all_commands):View \>Marks \>Newline Characters
+- Default Menu: **View** \> **Marks** \> **Newline Characters**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Newline Characters**
 - Toolbar:
 - Status Bar: None
 - Default Shortcut Key: None

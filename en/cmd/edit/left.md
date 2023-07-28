@@ -13,8 +13,8 @@ Equivalent to pushing the LEFT ARROW key once.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-\>Char Left
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Char Left**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: LEFT ARROW
@@ -26,13 +26,13 @@ EEID_LEFT (4157)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.CharLeft(false,1);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.CharLeft false,1

@@ -1,8 +1,8 @@
 # UseTemplate Property (FileNewProp Object)
 
-Corresponds to theUse
-Template check box in the
-[New File Details dialog box](../../dlg/properties/file/new_details/index).
+Corresponds to the **Use**
+**Template** check box in the
+[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
 
 ## 
 

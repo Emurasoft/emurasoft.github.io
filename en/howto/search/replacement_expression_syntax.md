@@ -2,15 +2,15 @@
 
 Replacement expressions can be used when using regular expression or number range to replace.
 
-The following expressions are available for theReplace With box in
-theReplace dialog box and in theReplace in Files dialog box.
+The following expressions are available for the **Replace With** box in
+the **Replace** dialog box and in the **Replace in Files** dialog box.
 
 | \\0 | Indicates a back reference to the entire regular expression. |
 | \\1 - \\9 | Indicates a back reference - a back reference is a reference to a <br> previous sub-expression that has already been matched. The reference is <br> to what the sub-expression matched, not to the expression itself. A back <br> reference consists of the escape character "\\" followed by a digit "1" <br> to "9", "\\1" refers to the first sub-expression, "\\2" to the second etc. |
 | $10, $11, $12, ... | Indicates a back reference more than 9. Equivalent to \\k<10>, \\k<11>, \\k<12>, .... |
 | \\k<name> | Indicates a named back reference. A named back reference is a reference to a previously matched named capturing group using this form: (?<name>expression). If "name" is a number, it indicates a numbered back reference, equivalent to \\1, \\2, \\3, ... |
 | \\n | A newline character. |
-| \\r | A carriage return in case ofReplace in Files. See also [To Specify newline characters](search_nl). |
+| \\r | A carriage return in case of **Replace in Files**. See also [To Specify newline characters](search_nl). |
 | \\t | A tab. |
 | \\L | Forces all subsequent substituted characters to be in lowercase. |
 | \\U | Forces all subsequent substituted characters to be in uppercase. |
@@ -21,7 +21,7 @@ theReplace dialog box and in theReplace in Files dialog box.
 | \\NC | Forces all subsequent substituted characters to converted using [Unicode Normalization Form KC (Compatibility Composition)](../../cmd/edit/unicode_norm_fkc). |
 | \\ND | Forces all subsequent substituted characters to be converted using [Unicode Normalization Form KD (Compatibility Decomposition)](../../cmd/edit/unicode_norm_fkd). |
 | \\E | Turns off previous \\L, \\U, \\F, \\H, \\Nc, \\Nd, \\NC, or \\ND. |
-| \\J | Specifies that JavaScript is used as the expression. \\J must be placed at the beginning of the replacement expression. Can be combined with back references. Thecell function can also be used in the script. For instance,
+| \\J | Specifies that JavaScript is used as the expression. \\J must be placed at the beginning of the replacement expression. Can be combined with back references. The **cell** function can also be used in the script. For instance,
 
 | Replacement Expression | Meaning |
 | --- | --- |
@@ -31,15 +31,15 @@ theReplace dialog box and in theReplace in Files dialog box.
 | \\J parseFloat( \\0 ).toFixed(2); | rounds a matched number to 2 decimal places |
 | \\J cell( -1 ) | returns the text in the left neighbor cell, relative to the matched cell. |
 | \\J parseFloat( cell( -1 ) ) + parseFloat( cell( -2 ) ) | returns the sum of the two neighboring cells on the left | |
-| \\V | Same as \\J except that \\V uses theV8 JavaScript engine instead of theChakra engine. |
-| \\D | If the Date/Time type of a [Number Range Expression](number_range_syntax) is used to match a string, this expression specifies a date format. It can be combined with\\T. [See available day, month, and year format pictures.](https://docs.microsoft.com/en-us/windows/win32/intl/day--month--year--and-era-format-pictures) For instance, if the matched date/time is "2022-03-31 21:30":
+| \\V | Same as \\J except that \\V uses the **V8 JavaScript** engine instead of the **Chakra** engine. |
+| \\D | If the Date/Time type of a [**Number Range Expression**](number_range_syntax) is used to match a string, this expression specifies a date format. It can be combined with **\\T**. [See available day, month, and year format pictures.](https://docs.microsoft.com/en-us/windows/win32/intl/day--month--year--and-era-format-pictures) For instance, if the matched date/time is "2022-03-31 21:30":
 
 | Replacement Expression | Result |
 | --- | --- |
 | \\DM/d/yyyy | 3/31/2022 |
 | \\DMMMM, d, yyyy | March 31, 2022 |
 | \\D'month='M 'day='d \\THH:mm | month=3 day=31 21:30 | |
-| \\T | If the Date/Time type of a [Number Range Expression](number_range_syntax) is used to match a string, this expression specifies a time format. It can be combined with\\D. [See available hour, minute, and second format pictures.](https://docs.microsoft.com/en-us/windows/win32/intl/hour--minute--and-second-format-pictures) For instance, if the matched date/time is  "2022-03-31 21:30":
+| \\T | If the Date/Time type of a [**Number Range Expression**](number_range_syntax) is used to match a string, this expression specifies a time format. It can be combined with **\\D**. [See available hour, minute, and second format pictures.](https://docs.microsoft.com/en-us/windows/win32/intl/hour--minute--and-second-format-pictures) For instance, if the matched date/time is  "2022-03-31 21:30":
 
 | Replacement Expression | Result |
 | --- | --- |
@@ -52,12 +52,12 @@ theReplace dialog box and in theReplace in Files dialog box.
 | $(Filename) | File name without extension. |
 | $(FilenameEx) | File name with extension. |
 | $(Ext) | File extension. |
-| $(Lines) | Number of lines (cannot be used inReplace in Files). |
-| $(CsvColumns) | Number of CSV columns (cannot be used inReplace in Files). |
+| $(Lines) | Number of lines (cannot be used in **Replace in Files**). |
+| $(CsvColumns) | Number of CSV columns (cannot be used in **Replace in Files**). |
 
 ## cell function (beta)
 
-Thecell function can be used in JavaScript if\\J is also specified. This function retrieves the text in the specified CSV cell.
+The **cell** function can be used in JavaScript if **\\J** is also specified. This function retrieves the text in the specified CSV cell.
 
 ### 
 

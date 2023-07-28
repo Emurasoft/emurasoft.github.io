@@ -1,6 +1,6 @@
 # filters Property (Document Object)
 
-Retrieves or sets the [Filters Collection](../filters/index).
+Retrieves or sets the [**Filters** Collection](../filters/index).
 
 ## 
 

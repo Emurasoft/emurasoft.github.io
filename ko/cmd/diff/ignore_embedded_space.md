@@ -10,8 +10,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:비교 \>포함 공백 무시
-- [모든 명령](../tools/all_commands):비교 \>포함 공백 무시
+- 기본 메뉴: **비교** \> **포함 공백 무시**
+- [모든 명령](../tools/all_commands): **비교** \> **포함 공백 무시**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -23,13 +23,13 @@ EEID_IGNORE_EMBEDDED_SPACE (4500)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4500);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4500

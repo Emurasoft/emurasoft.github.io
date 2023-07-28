@@ -1,7 +1,7 @@
 # RegExp Property (IndentProp Object)
 
-Corresponds to theUse Regular Expressions check box in the
-[Tab/Index dialog box](../../dlg/properties/general/indent/index).
+Corresponds to the **Use Regular Expressions** check box in the
+[**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
 
 ## 
 

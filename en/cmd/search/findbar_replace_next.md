@@ -11,8 +11,8 @@ Replaces the next matched string using the Find toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Replace Next
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Replace Next**
 - Toolbar: ![](../../images/replace.gif) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

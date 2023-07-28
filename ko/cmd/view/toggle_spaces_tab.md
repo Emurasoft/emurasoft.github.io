@@ -10,8 +10,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:보기 \>탭/들여쓰기 \>탭에 공백 삽입
-- [모든 명령](../tools/all_commands):보기 \>탭/들여쓰기 \>탭에 공백 삽입
+- 기본 메뉴: **보기** \> **탭/들여쓰기** \> **탭에 공백 삽입**
+- [모든 명령](../tools/all_commands): **보기** \> **탭/들여쓰기** \> **탭에 공백 삽입**
 - 도구 모음:
 ![](../../images/space_tab24x16.gif)
 - 상태 표시줄: 없음
@@ -24,13 +24,13 @@ EEID_TOGGLE_SPACES_TAB (4541)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4541);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4541

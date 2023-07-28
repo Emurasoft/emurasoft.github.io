@@ -11,7 +11,7 @@ Scrolls the document to the right edge of the document.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window \>Scroll \>Right Edge
+- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Right Edge**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

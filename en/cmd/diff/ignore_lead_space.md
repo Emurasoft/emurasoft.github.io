@@ -10,8 +10,8 @@ Ignores leading spaces at each line when comparing documents.
 
 ## How to Run
 
-- Default Menu:Compare \>Ignore Leading Spaces
-- [All Commands](../tools/all_commands):Compare \>Ignore Leading Spaces
+- Default Menu: **Compare** \> **Ignore Leading Spaces**
+- [All Commands](../tools/all_commands): **Compare** \> **Ignore Leading Spaces**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

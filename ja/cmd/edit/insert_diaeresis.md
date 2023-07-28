@@ -24,13 +24,13 @@ EEID_INSERT_DIAERESIS (4307)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4307);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4307

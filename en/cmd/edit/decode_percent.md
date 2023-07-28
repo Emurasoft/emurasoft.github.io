@@ -10,8 +10,8 @@ Decodes the selected text from the percent-encoding into the equivalent Unicode 
 
 ## How to Run
 
-- Default Menu:Convert \>Encode/Decode \>Percent-encoding to Unicode (Current Encoding)
-- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Percent-encoding to Unicode (Current Encoding)
+- Default Menu: **Convert** \> **Encode/Decode** \> **Percent-encoding to Unicode (Current Encoding)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Percent-encoding to Unicode (Current Encoding)**
 - Toolbar:
 None
 - Status Bar: None
@@ -24,13 +24,13 @@ EEID_DECODE_PERCENT (3854)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3854);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3854

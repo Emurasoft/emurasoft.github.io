@@ -11,7 +11,7 @@ Removes all the separators while in the normal mode.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV >Separators \>Remove All Separators
+- [All Commands](../tools/all_commands): **CSV** > **Separators** \> **Remove All Separators**
 - Toolbar: ![](../../images/columns_separators.gif) \+ Remove All Separators
 - Status Bar: None
 - Default Keyboard Shortcut: None

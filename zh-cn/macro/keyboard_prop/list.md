@@ -1,6 +1,6 @@
 # List 属性 (Keyboard 对象)
 
-检索 [KeyboardList 集合](../keyboard_list/index)。
+检索 [**KeyboardList** 集合](../keyboard_list/index)。
 
 ## 
 

@@ -9,12 +9,12 @@ Converts equivalent spaces to tabs.
 Converts selected spaces at the start of each line to tabs. The
 converted number of spaces must be equal to the number of spaces set for a tab,
 which
-can be set in the [Tab/Indent dialog box](../../dlg/properties/general/indent/index).
+can be set in the [**Tab/Indent** dialog box](../../dlg/properties/general/indent/index).
 
 ## How to Run
 
-- Default Menu:Convert \>Tabify
-- [All Commands](../tools/all_commands):Convert \>Tabify
+- Default Menu: **Convert** \> **Tabify**
+- [All Commands](../tools/all_commands): **Convert** \> **Tabify**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

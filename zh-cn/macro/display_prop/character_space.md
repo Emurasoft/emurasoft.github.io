@@ -1,6 +1,6 @@
 # CharacterSpace 属性 (DisplayProp 对象)
 
-与配置属性中的 [显示 页面](../../dlg/properties/display/index) 上的字符间距 文本框相对应。
+与配置属性中的 [**显示** 页面](../../dlg/properties/display/index) 上的 **字符间距** 文本框相对应。
 
 ## 
 

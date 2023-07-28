@@ -13,8 +13,8 @@ Close All command](save_exit_all).
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>Close
-\>Save Workspace, Save, and Close All
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Save Workspace, Save, and Close All**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

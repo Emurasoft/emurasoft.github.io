@@ -11,8 +11,8 @@ Moves the selected columns or the current column of the CSV document left one co
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move
-\>Move Column Left
+- [All Commands](../tools/all_commands): **Edit** \> **Move**
+\> **Move Column Left**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

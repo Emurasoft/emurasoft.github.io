@@ -24,7 +24,7 @@ _str_
 
 |     |     |
 | --- | --- |
-|键 |参数 |
+| **键** | **参数** |
 | ALT | % |
 | ALT DOWN | {ALT DOWN} |
 | ALT UP | {ALT UP} |

@@ -10,8 +10,8 @@ Cuts all bookmarked lines in the current document and moves them to the Clipboar
 
 ## How to Run
 
-- Default Menu:Bookmarks \>Cut Bookmarked Lines
-- [All Commands](../tools/all_commands):Bookmarks \>Cut Bookmarked Lines
+- Default Menu: **Bookmarks** \> **Cut Bookmarked Lines**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Cut Bookmarked Lines**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

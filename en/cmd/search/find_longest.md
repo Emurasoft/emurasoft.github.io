@@ -10,9 +10,9 @@ Finds the longest line in a non-CSV document or longest cell in the current colu
 
 ## How to Run
 
-- Default Menu:Search \>Find Longest Line/Cell
-- [All Commands](../tools/all_commands):Search
-\>Find Longest Line/Cell
+- Default Menu: **Search** \> **Find Longest Line/Cell**
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Longest Line/Cell**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

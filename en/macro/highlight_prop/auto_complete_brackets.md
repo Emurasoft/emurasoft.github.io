@@ -1,8 +1,8 @@
 # AutoCompleteBrackets Property (HighlightProp Object)
 
-Corresponds to theHighlight
-These Words check box in the
-[Highlight (2) page](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to the **Highlight**
+**These Words check box** in the
+[**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
 ## 
 

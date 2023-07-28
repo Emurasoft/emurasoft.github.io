@@ -10,9 +10,9 @@ Displays Local Help.
 
 ## How to Run
 
-- Default Menu:Help \>Local Help
-- [All Commands](../tools/all_commands):Help >
-Local Help
+- Default Menu: **Help** \> **Local Help**
+- [All Commands](../tools/all_commands): **Help** >
+**Local Help**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

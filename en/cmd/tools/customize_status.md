@@ -6,15 +6,15 @@ Opens the Status page of the Customize dialog box.
 
 ## Description
 
-Displays the Status page of the [Customize dialog box](../../dlg/customize/index),
+Displays the Status page of the [**Customize** dialog box](../../dlg/customize/index),
 where you can define common application settings.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Customize >
-Status
+- [All Commands](all_commands): **Tools** >
+**Customize** >
+**Status**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

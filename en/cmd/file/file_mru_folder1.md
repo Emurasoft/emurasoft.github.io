@@ -9,18 +9,18 @@ Opens a specified recently accessed folder (multiple items).
 This command consists of multiple menu items. With this command, you can
 choose a folder containing files which have been recently accessed to open. The number of folders to be
 displayed as the recently used folders can be set on the
-Number of Recent
-Files text box on the
-[History page](../../dlg/customize/history/index) of
-the [Customize dialog box](../../dlg/customize/index),
-under theTools Menu (Tools \>Customize \>History).
+**Number of Recent**
+**Files** text box on the
+[**History** page](../../dlg/customize/history/index) of
+the [**Customize** dialog box](../../dlg/customize/index),
+under the **Tools** Menu ( **Tools** \> **Customize** \> **History**).
 
 ## How to Run
 
-- Default Menu:System Tray Icon menu \>Recent Folder \>(select folder
-path)
-- [All Commands](../tools/all_commands):File \>Open
-\>Recent Folder \>(select folder path)
+- Default Menu: **System Tray Icon menu** \> **Recent Folder** \> **(select folder**
+**path)**
+- [All Commands](../tools/all_commands): **File** \> **Open**
+\> **Recent Folder** \> **(select folder path)**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

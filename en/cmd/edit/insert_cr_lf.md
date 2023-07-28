@@ -14,8 +14,8 @@ only or CR+LF. This command always inserts CR+LF no matter what newline characte
 
 ## How to Run
 
-- Default Menu:Insert \>CR and LF
-- [All Commands](../tools/all_commands):Insert \>CR and LF
+- Default Menu: **Insert** \> **CR and LF**
+- [All Commands](../tools/all_commands): **Insert** \> **CR and LF**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

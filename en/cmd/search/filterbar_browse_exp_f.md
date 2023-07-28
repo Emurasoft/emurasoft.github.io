@@ -11,8 +11,8 @@ Browses regular expressions or escape sequences for the Filter string used in th
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Browse Filter Expressions
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Browse Filter Expressions**
 - Toolbar: ![](../../images/find_browse_exp.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

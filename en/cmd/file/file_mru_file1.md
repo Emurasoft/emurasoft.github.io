@@ -10,17 +10,17 @@ This command consists of multiple menu items, displaying a list of recently
 accessed
 files. This command opens a specified file. The number of files to be
 displayed as the recent files can be set on the
-Number of Recent
-Files text box on the
-[History page](../../dlg/customize/history/index) of
-the [Customize dialog box](../../dlg/customize/index),
-under theTools Menu (Tools \>Customize \>History).
+**Number of Recent**
+**Files** text box on the
+[**History** page](../../dlg/customize/history/index) of
+the [**Customize** dialog box](../../dlg/customize/index),
+under the **Tools** Menu ( **Tools** \> **Customize** \> **History**).
 
 ## How to Run
 
-- Default Menu:File >(select file name)
-- [All Commands](../tools/all_commands):File \>Open
-\>Recent File \>(select file name)
+- Default Menu: **File** > **(select file name)**
+- [All Commands](../tools/all_commands): **File** \> **Open**
+\> **Recent File** \> **(select file name)**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

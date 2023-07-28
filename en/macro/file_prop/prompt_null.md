@@ -1,8 +1,8 @@
 # PromptNull Property (FileProp Object)
 
-Corresponds to thePrompt
-if Null Character Found check box in the
-[File page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to the **Prompt**
+**if Null Character Found** check box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 ## 
 

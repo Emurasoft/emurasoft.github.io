@@ -10,8 +10,8 @@ Shows or hides Notifications.
 
 ## How to Run
 
-- Default Menu:View \>Notifications
-- [All Commands](../tools/all_commands):View \>Notifications
+- Default Menu: **View** \> **Notifications**
+- [All Commands](../tools/all_commands): **View** \> **Notifications**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

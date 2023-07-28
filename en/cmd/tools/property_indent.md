@@ -6,16 +6,16 @@ Displays Tab/Indent properties.
 
 ## Description
 
-Displays the [Tab/Indent \
+Displays the [**Tab/Indent** \
 subdialog box](../../dlg/properties/general/indent/index)
-of theGeneral tab of the[Configuration Properties](../../dlg/properties/index)
+of the **General** tab of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Properties for Current Configuration \>Tab/Indent
+- [All Commands](all_commands): **Tools** >
+**Properties for Current Configuration** \> **Tab/Indent**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

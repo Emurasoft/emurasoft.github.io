@@ -1,4 +1,4 @@
 # To Arrange Windows
 
-SelectTile Horizontally orTile Vertically from theWindow
+Select **Tile Horizontally** or **Tile Vertically** from the **Window**
 menu, to arrange the windows as tiles.

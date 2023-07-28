@@ -10,9 +10,9 @@
 
 ## 运行方法
 
-- 默认菜单:搜索 \>筛选
-- [所有命令](../tools/all_commands):搜索
-\>筛选工具栏 \>将焦点设置在筛选工具栏
+- 默认菜单: **搜索** \> **筛选**
+- [所有命令](../tools/all_commands): **搜索**
+\> **筛选工具栏** \> **将焦点设置在筛选工具栏**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+D
@@ -23,13 +23,13 @@
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3912);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3912

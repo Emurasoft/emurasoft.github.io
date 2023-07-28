@@ -10,8 +10,8 @@ Extracts all bookmarked lines in this group and copies to a new document. This c
 
 ## How to Run
 
-- Default Menu:Bookmarks \>This Group \>Extract Bookmarked Lines to New File
-- [All Commands](../tools/all_commands):Bookmarks \>This Group \>Extract Bookmarked Lines to New File
+- Default Menu: **Bookmarks** \> **This Group** \> **Extract Bookmarked Lines to New File**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **This Group** \> **Extract Bookmarked Lines to New File**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -1,6 +1,6 @@
 # HighlightMatchingBrackets 속성 (HighlightProp 개체)
 
-구성 속성 [강조 표시 (2) 탭](../../dlg/properties/highlight2/index) 의표시 일치 괄호 강조하기 체크 박스에 해당합니다.
+구성 속성 [**강조 표시 (2)** 탭](../../dlg/properties/highlight2/index) 의 **표시 일치 괄호 강조하기** 체크 박스에 해당합니다.
 
 ## 
 

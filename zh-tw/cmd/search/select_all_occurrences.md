@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:搜尋 \>選擇所有符合的結果
-- [全部命令](../tools/all_commands):搜尋
-\>選擇所有符合的結果
+- 預設功能表: **搜尋** \> **選擇所有符合的結果**
+- [全部命令](../tools/all_commands): **搜尋**
+\> **選擇所有符合的結果**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: CTRL+Shift+A
@@ -24,13 +24,13 @@ EEID_SELECT_ALL_OCCURRENCES (4603)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4603);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4603

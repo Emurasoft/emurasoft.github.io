@@ -13,8 +13,8 @@ only selected if the cursor is placed before the white space.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Select Word
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Select Word**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+F8

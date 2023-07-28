@@ -10,8 +10,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:창 \>분할 시 세로 스크롤링 동기화
-- [모든 명령](../tools/all_commands):창 \>분할 \>분할 시 세로 스크롤링 동기화
+- 기본 메뉴: **창** \> **분할 시 세로 스크롤링 동기화**
+- [모든 명령](../tools/all_commands): **창** \> **분할** \> **분할 시 세로 스크롤링 동기화**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -23,13 +23,13 @@ EEID_SYNC_VERT_SCROLL_SPLIT (4524)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4524);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4524

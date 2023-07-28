@@ -10,8 +10,8 @@ Inserts a copyright symbol (©) at the cursor.
 
 ## How to Run
 
-- Default Menu:Insert \>Marks \>Copyright
-- [All Commands](../tools/all_commands):Insert \>Marks \>Copyright
+- Default Menu: **Insert** \> **Marks** \> **Copyright**
+- [All Commands](../tools/all_commands): **Insert** \> **Marks** \> **Copyright**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+C

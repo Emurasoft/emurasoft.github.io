@@ -1,6 +1,6 @@
 # DetectUnicodeSignature 속성 (FileProp 개체)
 
-구성 속성 [파일 탭](../../dlg/properties/file/index) 의유니코드 서명 검색 (BOM) 체크 박스에 해당합니다.
+구성 속성 [**파일** 탭](../../dlg/properties/file/index) 의 **유니코드 서명 검색 (BOM)** 체크 박스에 해당합니다.
 
 ## 
 

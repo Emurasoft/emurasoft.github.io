@@ -1,6 +1,6 @@
 # Config 屬性 (Document 對象)
 
-檢索 [Config 對象](../config/index)。
+檢索 [**Config** 對象](../config/index)。
 
 ## 
 

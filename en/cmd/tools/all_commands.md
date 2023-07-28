@@ -10,9 +10,9 @@ Displays a pop-up menu with all available EmEditor commands.
 
 ## How to Run
 
-- Default Menu:Tools \>All Command
-- [All Commands](all_commands):Tools >
-All Command
+- Default Menu: **Tools** \> **All Command**
+- [All Commands](all_commands): **Tools** >
+**All Command**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

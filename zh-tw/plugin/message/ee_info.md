@@ -25,7 +25,7 @@ _nCmd_
 
 |     |     |     |     |
 | --- | --- | --- | --- |
-|nCmd |含義 |lParam |返回值 |
+| **nCmd** | **含義** | **lParam** | **返回值** |
 | EI\_GET\_ENCODE | 檢索要儲存檔案的編碼方式。 | 不使用。 | (int)nCP<br> 編碼方式。 |
 | EI\_SET\_ENCODE | 設置一個儲存檔案的編碼方式。 | (UINT)nCP<br> 指定一個以 CODEPAGE\_ 為開始值的編碼方式。 | 不使用。 |
 | EI\_GET\_SIGNATURE | 檢索是否要給 Unicode/UTF-8 檔案簽名。 | 不使用。 | (BOOL)bSignature<br> TRUE，簽名。 |
@@ -65,7 +65,7 @@ _nCmd_
 | EI\_GET\_SAVE\_AS\_TITLEW | 檢索文檔的完整標題，除了星號 (\*) 所表示的在 Unicode 字串中的修改。 | (LPWSTR)szTitle<br> 指定要檢索字串的緩衝區。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
 | EI\_MOVE\_ORDER | 改變文檔標籤頁順序。 | 指定從零開始的目標標籤頁索引。 | 不使用。 |
 | EI\_CLOSE\_DOC | 關閉文檔。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。 |
-| EI\_SAVE\_DOC | 儲存文檔。如果文檔未命名，會出現另存新檔 對話方塊。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。當文檔未命名時，在另存新檔 對話方塊中選擇「取消」，也會返回 FALSE。 |
+| EI\_SAVE\_DOC | 儲存文檔。如果文檔未命名，會出現 **另存新檔** 對話方塊。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。當文檔未命名時，在 **另存新檔** 對話方塊中選擇「取消」，也會返回 FALSE。 |
 | EI\_GET\_CURRENT\_FOLDER | 檢索目前的運作的資料夾。 | (LPWSTR)szDir<br> 指定要檢索字串的緩衝區。緩衝區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
 | EI\_IS\_LARGE\_DOC | 檢索標志來指出文檔是否很大。 | 不使用。 | (BOOL)bLarge<br> 返回 TRUE 如果文檔很大。否則的話，返回 FALSE。 |
 | EI\_USE\_INI | 檢索是否用 INI 檔案，而不是注冊表。 | 不使用。 | (BOOL)bIni<br> 返回 TRUE 如果用 INI 檔案，或 FALSE 如果用注冊表。 |
@@ -107,8 +107,8 @@ _nCmd_
 | EI\_GET\_CLIENT\_RECT\_NO\_BARS | 檢索編輯器視圖的坐標，不包括捲軸和迷你地圖占用的區域。 | (RECT\*)pRect | 如果成功，返回 TRUE；如果失敗，返回 FALSE。 |
 | EI\_REFRESH\_COMMON\_SETTINGS | 加載常用設置並重新整理 EmEditor 視窗。 | 不使用。 | 不使用。 |
 | EI\_GET\_NEWLINE\_CODE | 檢索文檔中使用的新行字元碼。 | 不使用。 | 返回 FLAG\_CR\_AND\_LF，FLAG\_CR\_ONLY，FLAG\_LF\_ONLY，或 FLAG\_NEWLINE\_MIXED。 |
-| EI\_GET\_MEMORY\_SIZE | 檢索文檔中使用的記憶體大小。可以在自訂 對話方塊的 [進階 頁面](../../dlg/customize/advanced/index) 上的記憶體大小 文字方塊中指定預設值。 | 不使用。 | 返回記憶體大小。 |
-| EI\_SET\_MEMORY\_SIZE | 設置文檔中使用的記憶體大小。可以在自訂 對話方塊的 [進階 頁面](../../dlg/customize/advanced/index) 上的記憶體大小 文字方塊中指定預設值。 | (long)nBits<br>指定所需的記憶體大小。 | 返回新的記憶體大小。如果文檔已經使用大於指定大小的記憶體大小，則此值可能會大於指定的大小。 |
+| EI\_GET\_MEMORY\_SIZE | 檢索文檔中使用的記憶體大小。可以在 **自訂** 對話方塊的 [**進階** 頁面](../../dlg/customize/advanced/index) 上的 **記憶體大小** 文字方塊中指定預設值。 | 不使用。 | 返回記憶體大小。 |
+| EI\_SET\_MEMORY\_SIZE | 設置文檔中使用的記憶體大小。可以在 **自訂** 對話方塊的 [**進階** 頁面](../../dlg/customize/advanced/index) 上的 **記憶體大小** 文字方塊中指定預設值。 | (long)nBits<br>指定所需的記憶體大小。 | 返回新的記憶體大小。如果文檔已經使用大於指定大小的記憶體大小，則此值可能會大於指定的大小。 |
 | EI\_GET\_BOOKMARK\_COUNT | 檢索文檔中的書籤數。 | 不使用。 | 返回文檔中的書籤數。 |
 | EI\_SYNC\_NOW | 觸發 EmEditor 立即同步。 | (UINT)nFlags<br>你可以指定 SYNC\_FLAG\_SEND，SYNC\_FLAG\_RECEIVE，SYNC\_FLAG\_FORCE，和 SYNC\_FLAG\_REFRESH\_UI 的組合。 | 不使用。 |
 | EI\_GET\_CHAR\_TYPE | 檢索字元類型。 | (LPCWSTR)pch | 返回字元類型。它可以是下列類型之一：<br>CHAR\_NULL，CHAR\_SPACE，CHAR\_MARK，CHAR\_ALPHANUMERIC，CHAR\_KANA ，CHAR\_KANA\_MARK ，CHAR\_DB\_SPACE，CHAR\_DB\_MARK，CHAR\_DB\_ALPHANUMERIC，CHAR\_DB\_HIRA，CHAR\_DB\_KATA，CHAR\_DB\_KANJI，CHAR\_DB\_KANA\_MARK，CHAR\_SECOND\_DB，CHAR\_HANGUL，CHAR\_DB\_HANGUL。 |

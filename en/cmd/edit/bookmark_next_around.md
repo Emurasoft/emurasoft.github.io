@@ -10,8 +10,8 @@ Goes to the next bookmark in this document, or goes to the first bookmark in thi
 
 ## How to Run
 
-- Default Menu:Bookmarks \>Next Bookmark (Around)
-- [All Commands](../tools/all_commands):Bookmarks \>Next Bookmark (Around)
+- Default Menu: **Bookmarks** \> **Next Bookmark (Around)**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Next Bookmark (Around)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

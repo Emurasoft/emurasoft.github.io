@@ -10,8 +10,8 @@ Ignores encodings when comparing documents.
 
 ## How to Run
 
-- Default Menu:Compare \>Ignore Encodings
-- [All Commands](../tools/all_commands):Compare \>Ignore Encodings
+- Default Menu: **Compare** \> **Ignore Encodings**
+- [All Commands](../tools/all_commands): **Compare** \> **Ignore Encodings**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

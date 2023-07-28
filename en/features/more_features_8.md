@@ -27,9 +27,9 @@ The Keyboard Map window can be sorted by clicking each column.
 -
 INI files can be imported to the Registry (Import and Export Wizard > Import Personal INI files to the Registry).
 -
-TheCopy command now copies the entire current line when no text is selected. The old behavior can be also selected by using theCopy Selection command.
+The **Copy** command now copies the entire current line when no text is selected. The old behavior can be also selected by using the **Copy Selection** command.
 -
-TheCut command now cuts the entire current line when no text is selected. The old behavior can be also selected by using theCut Selection command.
+The **Cut** command now cuts the entire current line when no text is selected. The old behavior can be also selected by using the **Cut Selection** command.
 -
 A new dialog appears when invalid characters are contained in the opening file.
 -
@@ -37,7 +37,7 @@ A new dialog appears when the document contains characters which will be lost if
 -
 Find in Files results can be redirected in the Output Bar (Find in Files > Use Output Bar).
 -
-The newJump Next andJump Previous commands can be used to jump between results in the Output bar.
+The new **Jump Next** and **Jump Previous** commands can be used to jump between results in the Output bar.
 -
 Mouse wheel with CTRL increases or decreases the font size.
 -

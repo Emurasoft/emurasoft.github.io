@@ -1,7 +1,7 @@
 # Enabled Property (SpellProp Object)
 
-Corresponds to theCheck Spelling check box in the
-[Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to the **Check Spelling** check box in the
+[**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
 
 ## 
 

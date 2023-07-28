@@ -23,13 +23,13 @@ EEID_MODE_DSV (4476)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4476);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4476

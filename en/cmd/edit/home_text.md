@@ -14,8 +14,8 @@ first non-white space character.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-> Home or Start of Text
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+>  **Home or Start of Text**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: HOME

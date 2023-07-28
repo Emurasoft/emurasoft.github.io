@@ -23,13 +23,13 @@ EEID_SCROLL_RIGHT_EDGE (3871)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3871);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3871

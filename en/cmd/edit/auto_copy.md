@@ -10,9 +10,9 @@ Toggles the auto copy mode.
 
 ## How to Run
 
-- Default Menu:Edit \>Auto Copy
-- [All Commands](../tools/all_commands):Edit \>Copy
-\>Auto Copy
+- Default Menu: **Edit** \> **Auto Copy**
+- [All Commands](../tools/all_commands): **Edit** \> **Copy**
+\> **Auto Copy**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

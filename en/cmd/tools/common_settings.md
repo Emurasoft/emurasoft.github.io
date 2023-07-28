@@ -6,14 +6,14 @@ Customizes common application settings.
 
 ## Description
 
-Displays the [Customize dialog box](../../dlg/customize/index),
+Displays the [**Customize** dialog box](../../dlg/customize/index),
 where you can define common application settings.
 
 ## How to Run
 
-- Default Menu:Tools \>Customize
-- [All Commands](all_commands):Tools >
-Customize \>Customize
+- Default Menu: **Tools** \> **Customize**
+- [All Commands](all_commands): **Tools** >
+**Customize** \> **Customize**
 - Toolbar: ![](../../images/commonsettings.gif)
 - Status Bar: None
 - Default Shortcut Key: None

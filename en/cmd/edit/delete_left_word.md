@@ -13,8 +13,8 @@ This command does not delete white space before a word.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Delete
-\>Delete Left Word
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Left Word**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+BACKSPACE

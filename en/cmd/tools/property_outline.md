@@ -6,16 +6,16 @@ Displays Outlining properties.
 
 ## Description
 
-Displays the [Outline \
+Displays the [**Outline** \
 page](../../dlg/properties/outline/index)
-of the[Configuration Properties](../../dlg/properties/index)
+of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Properties for Current Configuration \>Outline
+- [All Commands](all_commands): **Tools** >
+**Properties for Current Configuration** \> **Outline**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

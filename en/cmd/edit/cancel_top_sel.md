@@ -11,8 +11,8 @@ Deselects the top selection from multiple selections.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Deselect Top Selection from Multiple Selections
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Deselect Top Selection from Multiple Selections**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+SHIFT+UP
@@ -36,4 +36,4 @@ editor.ExecuteCommandByID(4030);
 editor.ExecuteCommandByID 4030
 ```
 
-#### CopyDown © 2003-2023 by Emurasoft, Inc.
+### CopyDown © 2003-2023 by Emurasoft, Inc.

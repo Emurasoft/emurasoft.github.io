@@ -11,8 +11,8 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):搜索
-\>查找工具栏 \>使用转义序列
+- [所有命令](../tools/all_commands): **搜索**
+\> **查找工具栏** \> **使用转义序列**
 - 工具栏: ![](../../images/find_escape.png) (查找工具栏)
 - 状态栏: 无
 - 默认快捷键: 无
@@ -24,13 +24,13 @@ EEID_FINDBAR_ESCAPE (4575)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4575);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4575

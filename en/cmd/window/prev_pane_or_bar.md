@@ -11,9 +11,9 @@ Moves the cursor to the previous pane, if the window is split into multiple pane
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Panes
-\>Previous Pane or Custom Bar
+- [All Commands](../tools/all_commands): **Window**
+\> **Panes**
+\> **Previous Pane or Custom Bar**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -20,7 +20,7 @@ document.selection.UnIndent [ nCount ]
 
 _nCount_
 
-可選項。指定縮排等級數。預設值是 1。如果指定的是負數，該方法與 [Indent\
+可選項。指定縮排等級數。預設值是 1。如果指定的是負數，該方法與 [**Indent**\
 方法](selection_indent) 的行為相同。如果指定值為 0，該方法的行為與指定值為 1 時的行為相同。
 
 ## 版本

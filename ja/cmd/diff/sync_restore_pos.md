@@ -23,13 +23,13 @@ EEID_SYNC_RESTORE_POS (4546)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4546);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4546

@@ -1,6 +1,6 @@
 # Item Property (CsvList Collection)
 
-Retrieves the [Csv object](../csv/index) of the specified index.
+Retrieves the [**Csv** object](../csv/index) of the specified index.
 
 ## 
 

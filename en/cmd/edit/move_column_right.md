@@ -11,8 +11,8 @@ Moves the selected columns or the current column of the CSV document right one c
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move
-\>Move Column Right
+- [All Commands](../tools/all_commands): **Edit** \> **Move**
+\> **Move Column Right**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

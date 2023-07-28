@@ -10,8 +10,8 @@ Compares the two most recently viewed documents without specifying options. EmEd
 
 ## How to Run
 
-- Default Menu:Compare \>Compare Direct
-- [All Commands](../tools/all_commands):Compare \>Compare Direct
+- Default Menu: **Compare** \> **Compare Direct**
+- [All Commands](../tools/all_commands): **Compare** \> **Compare Direct**
 - Toolbar: ![](../../images/compare24x16.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

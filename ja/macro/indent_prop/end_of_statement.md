@@ -1,6 +1,6 @@
 # EndOfStatement プロパティ (IndentProp オブジェクト)
 
-[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の\[ステートメント終了\] テキスト ボックスに相当します。
+[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の **\[ステートメント終了\]** テキスト ボックスに相当します。
 
 ## 
 

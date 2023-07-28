@@ -1,6 +1,6 @@
 # MoveCursorScroll 속성 (ScrollProp 개체)
 
-구성 속성 [스크롤 탭](../../dlg/properties/scroll/index) 의스크롤링으로 커서 이동 체크 박스에 해당합니다.
+구성 속성 [**스크롤** 탭](../../dlg/properties/scroll/index) 의 **스크롤링으로 커서 이동** 체크 박스에 해당합니다.
 
 ## 
 

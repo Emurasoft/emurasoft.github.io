@@ -1,8 +1,8 @@
 # NoFullPathIfNotActive Property (FileProp Object)
 
-Corresponds to theWithout
-Full Path if Not Active check box in the
-[File page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to the **Without**
+**Full Path if Not Active** check box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 ## 
 

@@ -23,13 +23,13 @@ EEID_OUTLINE_TOGGLE_LINE (4412)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4412);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4412

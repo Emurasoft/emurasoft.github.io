@@ -11,8 +11,8 @@ Extends the selection down one line. If no text is selected, this command will s
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Line Down Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Line Down Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+DOWN ARROW

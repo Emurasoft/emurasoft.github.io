@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:编辑 \>拼写检查 \>检查拼写于 \>注释
-- [所有命令](../tools/all_commands):编辑 \>拼写检查 \>检查拼写于 \>注释
+- 默认菜单: **编辑** \> **拼写检查** \> **检查拼写于** \> **注释**
+- [所有命令](../tools/all_commands): **编辑** \> **拼写检查** \> **检查拼写于** \> **注释**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_SPELL_COMMENTS (4516)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4516);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4516

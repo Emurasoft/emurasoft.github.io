@@ -10,8 +10,8 @@ Moves the cursor to the next position.
 
 ## How to Run
 
-- Default Menu:Edit \>Advanced \>Forward
-- [All Commands](../tools/all_commands):Edit \>Advanced \>Forward
+- Default Menu: **Edit** \> **Advanced** \> **Forward**
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced** \> **Forward**
 - Toolbar:
 ![](../../images/emeditor12_forward_button.png)
 - Status Bar: None

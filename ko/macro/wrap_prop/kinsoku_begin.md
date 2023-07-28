@@ -1,6 +1,6 @@
 # KinsokuBegin 속성 (WrapProp 개체)
 
-구성 속성의 [배치 탭](../../dlg/properties/wrap/index) 의줄 시작 점에서 불가능 텍스트 박스에 해당합니다.
+구성 속성의 [**배치** 탭](../../dlg/properties/wrap/index) 의 **줄 시작 점에서 불가능** 텍스트 박스에 해당합니다.
 
 ## 
 

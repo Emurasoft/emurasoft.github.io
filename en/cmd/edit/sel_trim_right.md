@@ -10,8 +10,8 @@ Removes trailing spaces, tabs, and full-width spaces in the selection.
 
 ## How to Run
 
-- Default Menu:Convert \>Remove Trailing Spaces
-- [All Commands](../tools/all_commands):Convert \>Remove Trailing Spaces
+- Default Menu: **Convert** \> **Remove Trailing Spaces**
+- [All Commands](../tools/all_commands): **Convert** \> **Remove Trailing Spaces**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

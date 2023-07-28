@@ -10,9 +10,9 @@ Inserts a new column at the right side of the current column in the separated va
 
 ## How to Run
 
-- Default Menu:CSV \>Columns \>Insert Column Right
-- [All Commands](../tools/all_commands):CSV \>Columns \>Insert Column Right
-- Toolbar: ![](../../images/columns_separators.gif) \+Insert Column Right
+- Default Menu: **CSV** \> **Columns** \> **Insert Column Right**
+- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Insert Column Right**
+- Toolbar: ![](../../images/columns_separators.gif) \+ **Insert Column Right**
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
@@ -23,13 +23,13 @@ EEID_INSERT_COLUMN_RIGHT (3965)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3965);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3965

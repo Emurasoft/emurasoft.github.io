@@ -1,7 +1,7 @@
 # Encoding Property (FileSaveProp Object)
 
-Corresponds to theEncoding drop-down list box in the
-[Save Details dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to the **Encoding drop-down** list box in the
+[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 ## 
 

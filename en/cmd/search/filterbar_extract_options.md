@@ -11,9 +11,9 @@ Specifies options for the Extract Matched Strings command.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Extract Options
-- Toolbar: ![](../../images/extract_all.png) (Filter toolbar) > Extract Options
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Extract Options**
+- Toolbar: ![](../../images/extract_all.png) (Filter toolbar) >  **Extract Options**
 - Status Bar: None
 - Default Shortcut Key: None
 

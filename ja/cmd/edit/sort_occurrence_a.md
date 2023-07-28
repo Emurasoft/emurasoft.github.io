@@ -23,13 +23,13 @@ EEID_SORT_OCCURRENCE_A (4001)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4001);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4001

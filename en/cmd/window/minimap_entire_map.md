@@ -11,7 +11,7 @@ Shows the entire minimap.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window \>Scroll \>Show Entire Map
+- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Show Entire Map**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_MINIMAP_ENTIRE_MAP (3978)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3978);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3978

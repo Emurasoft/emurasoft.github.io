@@ -22,7 +22,7 @@ nStatus = editor.QueryStatusByID( nID )
 _nID_
 
 Specifies an integer indicating the Command ID to execute. See the
-[Command Reference](../../cmd/index) for the list of available
+**[Command Reference](../../cmd/index)** for the list of available
 commands. Not all commands may be available or supported.
 
 ## Return Values

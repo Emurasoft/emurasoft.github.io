@@ -10,8 +10,8 @@ Continues a series or pattern into neighboring cells.
 
 ## How to Run
 
-- Default Menu:Insert \>AutoFill/AutoRepeat
-- [All Commands](../tools/all_commands):Insert \>AutoFill/AutoRepeat
+- Default Menu: **Insert** \> **AutoFill/AutoRepeat**
+- [All Commands](../tools/all_commands): **Insert** \> **AutoFill/AutoRepeat**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

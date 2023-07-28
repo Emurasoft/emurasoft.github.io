@@ -11,7 +11,7 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):CSV \>仅限单元格选择模式 \>编辑单元格
+- [所有命令](../tools/all_commands): **CSV** \> **仅限单元格选择模式** \> **编辑单元格**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_CSV_EDIT_CELL (3960)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3960);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3960

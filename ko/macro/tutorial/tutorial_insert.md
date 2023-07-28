@@ -1,6 +1,6 @@
 # 문자 삽입 (튜토리얼)
 
-매크로를 사용하여 문자를 삽입하려면,[Text 속성](../selection/selection_text) 을
+매크로를 사용하여 문자를 삽입하려면, **[Text 속성](../selection/selection_text)** 을
 사용합니다. 튜토리얼 파일을 다음과 같이 변경해 봅니다:
 
 ## 
@@ -72,7 +72,7 @@ document.selection.Text = "\\n";
 윈도우의 줄 끝 규칙이 아닌 캐리지 리턴(LF)만 삽입됩니다.
 엠에디터에서 반환 키를 눌렀을 때, 엠에디터는 그 줄에서 사용되었던 줄 끝 (CR만, LF만, 또는 CR+LF)을 삽입합니다.
 엠에디터에서 반환 키를 누를때마다 같은 작동을 원한다면,
-[NewLine 메서드](../selection/selection_newline) 또는
-[writeln 메서드](../document/document_writeln) 를 사용하는 것이 좋습니다.
+**[NewLine 메서드](../selection/selection_newline)** 또는
+**[writeln 메서드](../document/document_writeln)** 를 사용하는 것이 좋습니다.
 
 ## 다음 항목:

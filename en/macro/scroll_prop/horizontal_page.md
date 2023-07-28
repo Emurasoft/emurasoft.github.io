@@ -1,7 +1,7 @@
 # HorizontalPage Property (ScrollProp Object)
 
-Corresponds to theAlways Enable 1 Page Horizontal Scroll check box in the
-[Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to the **Always Enable 1 Page Horizontal Scroll** check box in the
+[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 
 ## 
 

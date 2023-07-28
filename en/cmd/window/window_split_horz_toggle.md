@@ -15,8 +15,8 @@ current window.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Split \>Toggle Horizontal Split
+- [All Commands](../tools/all_commands): **Window**
+\> **Split** \> **Toggle Horizontal Split**
 - Toolbar: ![](../../images/windowsplithorzfix.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL + -

@@ -2,16 +2,16 @@
 
 ## Summary
 
-Opens theQuick Launch window and selects theOptions mode.
+Opens the **Quick Launch** window and selects the **Options** mode.
 
 ## Description
 
-Opens theQuick Launch window and selects theOptions mode.
+Opens the **Quick Launch** window and selects the **Options** mode.
 
 ## How to Run
 
-- Default Menu:Help \>Search Options
-- [All Commands](all_commands):Help \>Search Options
+- Default Menu: **Help** \> **Search Options**
+- [All Commands](all_commands): **Help** \> **Search Options**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+O

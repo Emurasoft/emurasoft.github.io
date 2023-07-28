@@ -1,6 +1,6 @@
 # FastCursorMove 속성 (ScrollProp 개체)
 
-구성 속성 [스크롤 탭](../../dlg/properties/scroll/index) 의빠른 커서 움직임 체크 박스에 해당합니다.
+구성 속성 [**스크롤** 탭](../../dlg/properties/scroll/index) 의 **빠른 커서 움직임** 체크 박스에 해당합니다.
 
 ## 
 

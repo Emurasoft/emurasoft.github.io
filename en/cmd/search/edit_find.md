@@ -12,9 +12,9 @@ and other options will start finding the specified string.
 
 ## How to Run
 
-- Default Menu:Search \>Find
-- [All Commands](../tools/all_commands):Search
-\>Find
+- Default Menu: **Search** \> **Find**
+- [All Commands](../tools/all_commands): **Search**
+\> **Find**
 - Toolbar: ![](../../images/editfind.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+F

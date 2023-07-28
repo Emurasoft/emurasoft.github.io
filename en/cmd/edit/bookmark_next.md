@@ -13,8 +13,8 @@ the first bookmark of that document.
 
 ## How to Run
 
-- Default Menu:Bookmarks \>This Group \>Next Bookmark
-- [All Commands](../tools/all_commands):Bookmarks \>This Group \>Next Bookmark
+- Default Menu: **Bookmarks** \> **This Group** \> **Next Bookmark**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **This Group** \> **Next Bookmark**
 - Toolbar: ![](../../images/bookmarknext.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: F2

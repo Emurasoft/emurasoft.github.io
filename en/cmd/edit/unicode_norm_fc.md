@@ -10,8 +10,8 @@ Apply Unicode Normalization Form C (Canonical Composition) defined in " [Unicode
 
 ## How to Run
 
-- Default Menu:Convert \>Encode/Decode \>Unicode Normalization Form C (Canonical Composition)
-- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Unicode Normalization Form C (Canonical Composition)
+- Default Menu: **Convert** \> **Encode/Decode** \> **Unicode Normalization Form C (Canonical Composition)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode Normalization Form C (Canonical Composition)**
 - Toolbar:
 None
 - Status Bar: None

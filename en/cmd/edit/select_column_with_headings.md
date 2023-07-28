@@ -10,8 +10,8 @@ Selects the current column with headings as vertical selection mode in the CSV d
 
 ## How to Run
 
-- Default Menu:CSV \>Columns \>Select Column with Headings
-- [All Commands](../tools/all_commands):CSV \>Columns \>Select Column with Headings
+- Default Menu: **CSV** \> **Columns** \> **Select Column with Headings**
+- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Select Column with Headings**
 - Toolbar: ![](../../images/columns_separators.gif) \+ Select Column with Headings
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -1,7 +1,7 @@
 # InsertSpaces Property (IndentProp Object)
 
-Corresponds to theInsert
-Spaces for Tabs check box in the [Tab/Index dialog box](../../dlg/properties/general/indent/index).
+Corresponds to the **Insert**
+**Spaces for Tabs** check box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
 
 ## 
 

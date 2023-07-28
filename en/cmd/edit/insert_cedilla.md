@@ -10,8 +10,8 @@ After selecting this command, Insert a cedilla (ç or Ç) at the cursor by typin
 
 ## How to Run
 
-- Default Menu:Insert \>Diacritics \>Cedilla
-- [All Commands](../tools/all_commands):Insert \>Diacritics \>Cedilla
+- Default Menu: **Insert** \> **Diacritics** \> **Cedilla**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Cedilla**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL + ,

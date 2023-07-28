@@ -10,8 +10,8 @@ Inserts a tab at the current cursor position.
 
 ## How to Run
 
-- Default Menu:Insert \>Tab
-- [All Commands](../tools/all_commands):Insert \>Tab
+- Default Menu: **Insert** \> **Tab**
+- [All Commands](../tools/all_commands): **Insert** \> **Tab**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

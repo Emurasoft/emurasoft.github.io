@@ -10,8 +10,8 @@ Jumps to the other document that the current document is comparing with or scrol
 
 ## How to Run
 
-- Default Menu:Compare \>Jump to Other
-- [All Commands](../tools/all_commands):Compare \>Jump to Other
+- Default Menu: **Compare** \> **Jump to Other**
+- [All Commands](../tools/all_commands): **Compare** \> **Jump to Other**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

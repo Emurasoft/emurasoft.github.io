@@ -1,9 +1,9 @@
 # To Use Snippets Plug-in
 
-TheSnippets plug-in is installed by default with EmEditor Professional. This plug-in allows you to insert words and phrases quickly. A snippet is a piece of text that you insert into your document and may contain plain text, placeholders, shell code, a macro, or regular expressions to
+The **Snippets** plug-in is installed by default with EmEditor Professional. This plug-in allows you to insert words and phrases quickly. A snippet is a piece of text that you insert into your document and may contain plain text, placeholders, shell code, a macro, or regular expressions to
 transform text and various built-in and user-defined parameters. In the Snippets plug-in, you can create two types of items - snippets and macros.
 
-To use theSnippets plug-in, Click![Snippets](../../images/plugin_snippets.gif) on thePlug-ins bar. Or on theTools menu, point toPlug-ins, and then clickSnippets. TheSnippets custom bar will appear.
+To use the **Snippets** plug-in, Click **![Snippets](../../images/plugin_snippets.gif)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Snippets**. The **Snippets** custom bar will appear.
 
 Right-clicking on the Snippets bar shows the following options:
 
@@ -159,9 +159,9 @@ replace\_format: replace format
 
 option:
 
-i : ignore cases
+**i** : ignore cases
 
-g : global option
+**g** : global option
 
 The following example copies characters entered in the first line to the second line, except the first character is capitalized.
 
@@ -307,7 +307,7 @@ cursor position of your text document. For instance the following snippet insert
 ### Macros
 
 You can include a macro in a snippet in the form of \`# \`. The first character # indicates this is a macro, not a shell code. If this is an ActiveScript other than JavaScript, such as VBScript, PerlScript, PHPScript, or RubyScript, you will need to define the language using "#language=". For
-instance, if you wish to use VBScript, you would write \`#language="VBScript"...\`. TheInterface object is used to pass values between the snippets and the EmEditor macro engine. The following sample inserts the contents of the Clipboard to the cursor position.
+instance, if you wish to use VBScript, you would write \`#language="VBScript"...\`. The **Interface** object is used to pass values between the snippets and the EmEditor macro engine. The following sample inserts the contents of the Clipboard to the cursor position.
 
 The clipboard contains \`# Interface.write( clipboardData.getData("") );\`.
 
@@ -344,5 +344,5 @@ example can be rewritten as:
 
 ## Tips
 
-- Press theF6 key orESC key to set the keyboard focus back to the editor.
-- The custom bar position can be set from top, bottom, right or left by right-clicking the plug-in button on thePlug-ins bar, and selecting theProperties.
+- Press the **F6** key or **ESC** key to set the keyboard focus back to the editor.
+- The custom bar position can be set from top, bottom, right or left by right-clicking the plug-in button on the **Plug-ins** bar, and selecting the **Properties**.

@@ -1,6 +1,6 @@
 # List Property (Keyboard Object)
 
-Retrieves the [KeyboardList collection](../keyboard_list/index).
+Retrieves the [**KeyboardList** collection](../keyboard_list/index).
 
 ## 
 

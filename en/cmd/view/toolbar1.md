@@ -10,9 +10,9 @@ Shows or hides a specified toolbar (multiple items).
 
 ## How to Run
 
-- Default Menu:View \>Toolbars
-- [All Commands](../tools/all_commands):View >
-Toolbars
+- Default Menu: **View** \> **Toolbars**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

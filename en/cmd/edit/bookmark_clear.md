@@ -10,8 +10,8 @@ Clears all bookmarks in the current document.
 
 ## How to Run
 
-- Default Menu:Bookmarks \>Clear All Bookmarks
-- [All Commands](../tools/all_commands):Bookmarks \>Clear All Bookmarks
+- Default Menu: **Bookmarks** \> **Clear All Bookmarks**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Clear All Bookmarks**
 - Toolbar: ![](../../images/bookmarkclear.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+F2

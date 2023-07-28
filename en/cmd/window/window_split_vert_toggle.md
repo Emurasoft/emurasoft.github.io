@@ -15,8 +15,8 @@ current window.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Split \>Toggle Vertical Split
+- [All Commands](../tools/all_commands): **Window**
+\> **Split** \> **Toggle Vertical Split**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

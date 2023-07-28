@@ -1,6 +1,6 @@
 # VerticalPage 属性 (ScrollProp 对象)
 
-与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的总是启用 1 页垂直滚动 复选框相对应。
+与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **总是启用 1 页垂直滚动** 复选框相对应。
 
 ## 
 

@@ -20,8 +20,8 @@ Select an encoding method when saving the file.
 
 ## Newline Character drop-down list box
 
-Specify how to save returns.No Change will not change the return
-styles.CR+LF (Windows) will change all returns to CR plus LF pairs.CR only (Macintosh) will change all returns to CRs.LF only (Unix)
+Specify how to save returns. **No Change** will not change the return
+styles. **CR+LF (Windows)** will change all returns to CR plus LF pairs. **CR only (Macintosh)** will change all returns to CRs. **LF only (Unix)**
 will change returns to LFs. Generally, Windows uses CR+LF for all returns.
 Macintosh uses CRs only, and Unix uses LFs only.
 

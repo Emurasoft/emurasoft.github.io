@@ -10,9 +10,9 @@ Moves the cursor back to the position where the most recent editing occurred in 
 
 ## How to Run
 
-- Default Menu:Edit \>Advanced \>Move to Last Edited Position
-- [All Commands](../tools/all_commands):Edit \>Advanced
-\>Move to Last Edited Position
+- Default Menu: **Edit** \> **Advanced** \> **Move to Last Edited Position**
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
+\> **Move to Last Edited Position**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL + SHIFT + Z

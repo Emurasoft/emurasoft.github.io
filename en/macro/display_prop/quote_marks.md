@@ -1,8 +1,8 @@
 # QuoteMarks Property (DisplayProp Object)
 
-Corresponds to the Quote
-Marks text box in the
-[Display page](../../dlg/properties/display/index) of Configuration Properties.
+Corresponds to the **Quote**
+**Marks** text box in the
+[**Display** page](../../dlg/properties/display/index) of Configuration Properties.
 
 ## 
 

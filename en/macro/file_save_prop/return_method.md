@@ -1,8 +1,8 @@
 # ReturnMethod Property (FileSaveProp Object)
 
-Corresponds to theReturn
-Method drop-down list box in the
-[Save Details dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to the **Return**
+**Method** drop-down list box in the
+[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 ## 
 

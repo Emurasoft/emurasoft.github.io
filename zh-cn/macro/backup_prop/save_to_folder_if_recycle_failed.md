@@ -1,6 +1,6 @@
 # SaveToFolderIfRecycleFailed 属性 (BackupProp 对象)
 
-与配置属性中 [备份 页面](../../dlg/properties/backup/index) 上的无法使用回收站，保存到备份文件夹 复选框对应。
+与配置属性中 [**备份** 页面](../../dlg/properties/backup/index) 上的 **无法使用回收站，保存到备份文件夹** 复选框对应。
 
 ## 
 

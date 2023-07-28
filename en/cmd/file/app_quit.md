@@ -12,7 +12,7 @@ discarded.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>Close \>Close without Save
+- [All Commands](../tools/all_commands): **File** \> **Close** \> **Close without Save**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

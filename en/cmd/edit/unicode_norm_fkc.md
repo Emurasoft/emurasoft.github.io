@@ -10,8 +10,8 @@ Apply Unicode Normalization Form KC (Compatibility Composition) defined in " [Un
 
 ## How to Run
 
-- Default Menu:Convert \>Encode/Decode \>Unicode Normalization Form KC (Compatibility Composition)
-- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Unicode Normalization Form KC (Compatibility Composition)
+- Default Menu: **Convert** \> **Encode/Decode** \> **Unicode Normalization Form KC (Compatibility Composition)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode Normalization Form KC (Compatibility Composition)**
 - Toolbar:
 None
 - Status Bar: None
@@ -24,13 +24,13 @@ EEID_UNICODE_NORM_FKC (4055)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4055);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4055

@@ -1,7 +1,7 @@
 # SetInitialFolder 속성 (FileNewProp 개체)
 
-[새 파일 상세 정보 대화 상자](../../dlg/properties/file/new_details/index) 의
-초기 폴더 설정 체크 박스에 해당합니다.
+[**새 파일 상세 정보** 대화 상자](../../dlg/properties/file/new_details/index) 의
+**초기 폴더 설정** 체크 박스에 해당합니다.
 
 ## 
 

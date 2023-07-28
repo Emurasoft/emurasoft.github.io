@@ -10,10 +10,10 @@ Shows or hides the filter toolbar.
 
 ## How to Run
 
-- Default Menu:View >
-Toolbars \>Filter Toolbar
-- [All Commands](../tools/all_commands):View >
-Toolbars \>Filter Toolbar
+- Default Menu: **View** >
+**Toolbars** \> **Filter Toolbar**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Filter Toolbar**
 - Toolbar: ![](../../images/togglefilterbar.gif)
 - Status Bar: None
 - Default Shortcut Key: None

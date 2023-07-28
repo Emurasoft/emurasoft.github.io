@@ -27,7 +27,7 @@ bNeedAlways이 FALSE인 경우, SEL\_TYPE\_SELECTED은 사용되지 않습니다
 
 |     |     |
 | --- | --- |
-|값 |의미 |
+| **값** | **의미** |
 | SEL\_TYPE\_NONE | 선택된 곳이 없습니다. |
 | SEL\_TYPE\_CHAR | 문자가 선택되었습니다. |
 | SEL\_TYPE\_LINE | 줄이 선택되었습니다. |

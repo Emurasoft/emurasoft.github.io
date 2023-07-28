@@ -1,6 +1,6 @@
 # Redo Method (Document Object)
 
-Redo the last action undone with the [Undo command](../../cmd/edit/edit_undo).
+Redo the last action undone with the [**Undo** command](../../cmd/edit/edit_undo).
 
 ## 
 

@@ -24,13 +24,13 @@ EEID_FILE_PRINT (4114)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 window.print();
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 window.print

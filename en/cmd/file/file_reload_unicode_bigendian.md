@@ -8,19 +8,19 @@ Reloads the current file using Unicode (UTF-16BE) encoding.
 
 This command reloads the current file from the disk using Unicode (UTF-16BE)
 encoding. If the document is changed within EmEditor, the prompt message
-"Are you sure you want to abandon changes?" appears. SelectingYes
+"Are you sure you want to abandon changes?" appears. Selecting **Yes**
 will abandon the changes without saving, and will reload the new contents.
-SelectingNo will abort reloading and will allow you to continue
+Selecting **No** will abort reloading and will allow you to continue
 editing the document.
 
 ## How to Run
 
-- Default Menu:File \>Reload \>UTF-16BE
-- [All Commands](../tools/all_commands):File \>Reload
-\>UTF-16BE
+- Default Menu: **File** \> **Reload** \> **UTF-16BE**
+- [All Commands](../tools/all_commands): **File** \> **Reload**
+\> **UTF-16BE**
 - Toolbar: ![](../../images/reload.gif) (on
-the arrow) >UTF-16BE
-- Status Bar: (double-click onEncodings) \>UTF-16BE
+the arrow) > **UTF-16BE**
+- Status Bar: (double-click on **Encodings**) \> **UTF-16BE**
 - Default Shortcut Key: None
 
 ## Plug-in Command ID

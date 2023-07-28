@@ -1,6 +1,6 @@
 # Insert Characters (Tutorial)
 
-To insert characters using a macro, use the[Text Property](../selection/selection_text).
+To insert characters using a macro, use the **[Text Property](../selection/selection_text)**.
 Modify our tutorial file as follows:
 
 ## 
@@ -75,7 +75,7 @@ which is not a line-ending convention in Windows.
 When you press the RETURN key in EmEditor, EmEditor inserts whatever line-ending (CR only, LF only, or CR+LF)
 is used in that line.
 If you want the same behavior upon pressing the RETURN key, as in
-EmEditor, we recommend that you use the[NewLine Method](../selection/selection_newline)
-or the[writeln Method](../document/document_writeln).
+EmEditor, we recommend that you use the **[NewLine Method](../selection/selection_newline)**
+or the **[writeln Method](../document/document_writeln)**.
 
 ## Next Topic:

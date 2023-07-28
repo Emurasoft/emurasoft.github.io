@@ -10,10 +10,10 @@ Shows or hides the markers toolbar. The markers toolbar displays all defined mar
 
 ## How to Run
 
-- Default Menu:View >
-Toolbars \>Markers Toolbar
-- [All Commands](../tools/all_commands):View >
-Toolbars \>Markers Toolbar
+- Default Menu: **View** >
+**Toolbars** \> **Markers Toolbar**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Markers Toolbar**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -25,13 +25,13 @@ EEID_SHOW_MARKERS_BAR (4561)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4561);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4561

@@ -1,6 +1,6 @@
 # WrapIndent 属性 (IndentProp 对象)
 
-与 [制表符/缩进 对话框](../../dlg/properties/general/indent/index) 上的换行缩进 复选框相对应。
+与 [**制表符/缩进** 对话框](../../dlg/properties/general/indent/index) 上的 **换行缩进** 复选框相对应。
 
 ## 
 

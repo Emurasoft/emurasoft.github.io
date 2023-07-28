@@ -12,7 +12,7 @@
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):편집 \>가로로 커서 이동 \>논리 홈 또는 텍스트 시작점
+- [모든 명령](../tools/all_commands): **편집** \> **가로로 커서 이동** \> **논리 홈 또는 텍스트 시작점**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -24,13 +24,13 @@ EEID_LOGICAL_HOME_TEXT (4333)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.StartOfLine(false,eeLineLogical \| eeLineHomeText);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.StartOfLine false,eeLineLogical 또는 eeLineHomeText

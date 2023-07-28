@@ -11,8 +11,8 @@ Jumps to the previous location in the Output Bar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Advanced
-\>Jump Previous
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
+\> **Jump Previous**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+F4

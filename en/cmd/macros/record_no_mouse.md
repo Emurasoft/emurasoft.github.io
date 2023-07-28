@@ -8,14 +8,14 @@ Starts recording a macro except mouse or keyboard activities.
 
 Starts recording a macro while disregarding mouse and keyboard activities. If currently
 recording a macro, this command stops recording the macro. The macro will be recorded as
-a temporary macro, saved in the Registry. The [Run Macro command](quick_macro_run) will start the temporary macro, and the
-[Save Macro command](macro_save) allows you to save the temporary macro to a file.
+a temporary macro, saved in the Registry. The [**Run Macro** command](quick_macro_run) will start the temporary macro, and the
+[**Save Macro** command](macro_save) allows you to save the temporary macro to a file.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Macros
-\>Start Recording
+- [All Commands](../tools/all_commands): **Macros**
+\> **Start Recording**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

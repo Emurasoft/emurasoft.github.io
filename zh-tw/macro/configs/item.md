@@ -1,6 +1,6 @@
 # Item 屬性 (Configs 集合)
 
-為指定索引的組態檢索 [Config 對象](../config/index)。
+為指定索引的組態檢索 [**Config** 對象](../config/index)。
 
 ## 
 

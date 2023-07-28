@@ -25,7 +25,7 @@ _nType_
 | 值 | 含義 |
 | --- | --- |
 | eeFreqTypeLines | 創建一個常用行清單。 |
-| eeFreqTypeWords | 創建一個常用詞清單。單字是由非字母數字字元包圍的字串，可以通過在自訂 對話方塊中的 [編輯 頁面](../../dlg/customize/edit/index) 上的將以下字元識別為英數字元 文字方塊來自訂。 |
+| eeFreqTypeWords | 創建一個常用詞清單。單字是由非字母數字字元包圍的字串，可以通過在 **自訂** 對話方塊中的 [**編輯** 頁面](../../dlg/customize/edit/index) 上的 **將以下字元識別為英數字元** 文字方塊來自訂。 |
 | eeFreqTypeCells | 創建一個常用儲存格清單。 |
 | eeFreqTypeIPv4 | 創建一個常用 IPv4 地址清單。 |
 | eeFreqTypeIPv6 | 創建一個常用 IPv6 地址清單。 |

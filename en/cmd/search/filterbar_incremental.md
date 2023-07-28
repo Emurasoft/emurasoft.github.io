@@ -11,8 +11,8 @@ Toggles the Incremental Search button on the Filter toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Incremental Search
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Incremental Search**
 - Toolbar: ![](../../images/find_incremental.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

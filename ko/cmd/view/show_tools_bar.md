@@ -11,10 +11,10 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:보기 >
-도구 모음 \>도구 도구 모음
-- [모든 명령](../tools/all_commands):보기 >
-도구 모음 \>도구 도구 모음
+- 기본 메뉴: **보기** >
+**도구 모음** \> **도구 도구 모음**
+- [모든 명령](../tools/all_commands): **보기** >
+**도구 모음** \> **도구 도구 모음**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -26,13 +26,13 @@ EEID_SHOW_TOOLS_BAR (4319)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4319);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4319

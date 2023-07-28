@@ -1,6 +1,6 @@
 # Kinsoku 속성 (WrapProp 개체)
 
-구성 속성의 [배치 탭](../../dlg/properties/wrap/index) 의이 문자들 배치 체크 박스에 해당합니다.
+구성 속성의 [**배치** 탭](../../dlg/properties/wrap/index) 의 **이 문자들 배치** 체크 박스에 해당합니다.
 
 ## 
 

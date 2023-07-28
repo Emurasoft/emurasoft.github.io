@@ -11,8 +11,8 @@ Opens the most recently closed document. This command does not recover unsaved c
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>Open
-\>Most Recently Closed File
+- [All Commands](../tools/all_commands): **File** \> **Open**
+\> **Most Recently Closed File**
 - Toolbar:
 None
 - Status Bar: None
@@ -25,13 +25,13 @@ EEID_MOST_RECENT_CLOSED_FILE (4583)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4583);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4583

@@ -20,7 +20,7 @@ document.Numbering strFirst, strInc, nMaxLines [, nFlags ]
 
 _strFirst_
 
-Specifies an initial value or character to insert at the first line. This text may include non-number prefix and/or suffix unless theeeNumOther is specified for the _nFlags_ parameter.
+Specifies an initial value or character to insert at the first line. This text may include non-number prefix and/or suffix unless the **eeNumOther** is specified for the _nFlags_ parameter.
 
 _strInc_
 

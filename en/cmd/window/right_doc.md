@@ -11,8 +11,8 @@ Switches to the document to the right of the current open document on the tab ba
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Document Navigation \>Right Document
+- [All Commands](../tools/all_commands): **Window**
+\> **Document Navigation** \> **Right Document**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL + F6

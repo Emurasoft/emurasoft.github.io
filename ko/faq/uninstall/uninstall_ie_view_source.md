@@ -1,3 +1,3 @@
 # 질문. 엠에디터를 제거한 후에 인터넷 익스플로러에서 상황에 맞는 메뉴의 소스 보기를 선택했을 때 왜 소스 코드를 노트패드에서 볼 수 없습니까?
 
-엠에디터 몇몇의 이전 버전에서 레지스트리 정보가 완전히 제거될 수 없었습니다.시작 버튼을 누른 다음,시작 의실행 을 선택하여 주십시오. "RegEdit.exe"를 입력하시고 확인 버튼을 클릭하시어 레지스트리 편집을 시작해 주십시오. HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Internet Explorer\\View Source Editor를 찾아서 키를 삭제해 주십시오.
+엠에디터 몇몇의 이전 버전에서 레지스트리 정보가 완전히 제거될 수 없었습니다. **시작** 버튼을 누른 다음, **시작** 의 **실행** 을 선택하여 주십시오. "RegEdit.exe"를 입력하시고 확인 버튼을 클릭하시어 레지스트리 편집을 시작해 주십시오. HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Internet Explorer\\View Source Editor를 찾아서 키를 삭제해 주십시오.

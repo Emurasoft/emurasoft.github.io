@@ -1,7 +1,7 @@
 # ShowPage Property (GeneralProp Object)
 
-Corresponds to theShow Page Numbers check box in the
-[General page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to the **Show Page Numbers** check box in the
+[**General** page](../../dlg/properties/general/index) of Configuration Properties.
 
 ## 
 

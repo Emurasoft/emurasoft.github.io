@@ -1,8 +1,8 @@
 # InsertReturns Property (FileSaveProp Object)
 
-Corresponds to theInsert
-Returns when Saving check box in the
-[Save Details dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to the **Insert**
+**Returns when Saving** check box in the
+[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 ## 
 

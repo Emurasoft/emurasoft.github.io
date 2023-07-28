@@ -11,9 +11,9 @@ cursor.
 
 ## How to Run
 
-- Default Menu:Edit \>Advanced \>Delete Right Line
-- [All Commands](../tools/all_commands):Edit \>Delete
-\>Delete Right Line
+- Default Menu: **Edit** \> **Advanced** \> **Delete Right Line**
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Right Line**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

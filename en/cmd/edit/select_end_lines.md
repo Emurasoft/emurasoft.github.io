@@ -10,10 +10,10 @@ Selects the ending of lines in the selection for vertical selection editing. The
 
 ## How to Run
 
-- Default Menu:Edit \>Selection Mode
-\>Select Ending of Lines
-- [All Commands](../tools/all_commands):Edit \>Selection Mode
-\>Select Ending of Lines
+- Default Menu: **Edit** \> **Selection Mode**
+\> **Select Ending of Lines**
+- [All Commands](../tools/all_commands): **Edit** \> **Selection Mode**
+\> **Select Ending of Lines**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

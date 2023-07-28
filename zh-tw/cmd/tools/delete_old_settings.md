@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [所有命令](all_commands):工具
-\>刪除舊的設定
+- [所有命令](all_commands): **工具**
+\> **刪除舊的設定**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -24,13 +24,13 @@ EEID_DELETE_OLD_SETTINGS (3984)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3984);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3984

@@ -11,9 +11,9 @@ message appears to select whether you want to save the changes or not.
 
 ## How to Run
 
-- Default Menu:File \>Close
-- [All Commands](../tools/all_commands):File \>Close
-\>Close
+- Default Menu: **File** \> **Close**
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Close**
 - Toolbar: ![](../../images/appexit.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+F4 or CTRL+W

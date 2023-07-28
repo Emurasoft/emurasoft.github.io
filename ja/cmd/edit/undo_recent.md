@@ -23,13 +23,13 @@ EEID_UNDO_RECENT から EEID_UNDO_RECENT + 63 まで (22848 から 22848 + 63 �
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(22848 + i);  // i は 0 から 63 までの整数
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 22848  ' i は 0 から 63 までの整数

@@ -1,7 +1,7 @@
 # PreserveReturnsClipboard Property (GeneralProp Object)
 
-Corresponds to thePreserve (CR/LF) returns on Clipboard check box in the
-[General page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to the **Preserve (CR/LF) returns on Clipboard** check box in the
+[**General** page](../../dlg/properties/general/index) of Configuration Properties.
 
 ## 
 

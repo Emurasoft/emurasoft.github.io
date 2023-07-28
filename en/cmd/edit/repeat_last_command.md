@@ -11,7 +11,7 @@ Repeats the last run command.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Redo \>Repeat Last Command
+- [All Commands](../tools/all_commands): **Edit** \> **Redo** \> **Repeat Last Command**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+Shift+G

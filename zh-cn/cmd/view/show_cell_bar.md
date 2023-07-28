@@ -10,10 +10,10 @@
 
 ## 运行方法
 
-- 默认菜单:查看 >
-工具栏 \>单元格工具栏
-- [所有命令](../tools/all_commands):查看 >
-工具栏 \>单元格工具栏
+- 默认菜单: **查看** >
+**工具栏** \> **单元格工具栏**
+- [所有命令](../tools/all_commands): **查看** >
+**工具栏** \> **单元格工具栏**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -27,7 +27,7 @@ EEID_SHOW_CELL_BAR (3967)```
 
 editor.ExecuteCommandByID(3967);
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3967

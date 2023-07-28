@@ -10,8 +10,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:편집 \>좁히기
-- [모든 명령](../tools/all_commands):편집 \>좁히기 \>좁히기 설정/해제
+- 기본 메뉴: **편집** \> **좁히기**
+- [모든 명령](../tools/all_commands): **편집** \> **좁히기** \> **좁히기 설정/해제**
 - 도구 모음: ![](../../images/narrowing.gif)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -23,13 +23,13 @@ EEID_NARROWING_TOGGLE (4456)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4456);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4456

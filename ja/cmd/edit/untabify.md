@@ -7,9 +7,9 @@
 ## 説明
 
 選択範囲に存在するタブ文字を空白に変換します。タブの桁数については、プロパティの
-[\[基本\] タブ](../../dlg/properties/general/index) の
+[**\[基本\]** タブ](../../dlg/properties/general/index) の
 
-\[タブ/インデント\] ボタンをクリックし、 [\[タブ/インデント\] \
+**\[タブ/インデント\]** ボタンをクリックし、 [**\[タブ/インデント\]** \
 ダイアログ ボックス](../../dlg/properties/general/indent/index) で設定できます。
 
 ## 実行方法
@@ -27,13 +27,13 @@ EEID_UNTABIFY (4357)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.Untabify();
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.Untabify

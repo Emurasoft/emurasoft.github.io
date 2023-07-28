@@ -10,8 +10,8 @@ Moves the cursor to the next node while outlining is displayed. A plug-in for ou
 
 ## How to Run
 
-- Default Menu:Edit \>Outlining \>Next Node
-- [All Commands](../tools/all_commands):Edit \>Outlining \>Next Node
+- Default Menu: **Edit** \> **Outlining** \> **Next Node**
+- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Next Node**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: Alt+Down
@@ -23,13 +23,13 @@ EEID_OUTLINE_NEXT_NODE (4415)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4415);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4415

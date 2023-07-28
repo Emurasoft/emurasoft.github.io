@@ -1,6 +1,6 @@
 # regex 属性 (Editor 对象)
 
-检索 [Regex 对象](../regex/index)。
+检索 [**Regex** 对象](../regex/index)。
 
 ## 
 

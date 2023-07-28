@@ -11,7 +11,7 @@ Cuts the selected columns or current column and moves it to the Clipboard.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Cut \>Cut Columns
+- [All Commands](../tools/all_commands): **Edit** \> **Cut** \> **Cut Columns**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -11,8 +11,8 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):编辑 \>高级
-\>添加/删除标记
+- [所有命令](../tools/all_commands): **编辑** \> **高级**
+\> **添加/删除标记**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -24,13 +24,13 @@ EEID_ADD_REMOVE_MARKERS (4591)```
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4591);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4591

@@ -10,8 +10,8 @@ Sorts date and time at the current column in ascending order.
 
 ## How to Run
 
-- Default Menu:Sort \>Sort Date and Time Oldest to Newest
-- [All Commands](../tools/all_commands):Sort \>Sort Date and Time Oldest to Newest
+- Default Menu: **Sort** \> **Sort Date and Time Oldest to Newest**
+- [All Commands](../tools/all_commands): **Sort** \> **Sort Date and Time Oldest to Newest**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

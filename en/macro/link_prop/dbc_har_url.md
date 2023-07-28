@@ -1,7 +1,7 @@
 # DBCharURL Property (LinkProp Object)
 
-Corresponds to theRecognize
-Double-Byte Characters as URLs check box in the [Link page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to the **Recognize**
+**Double-Byte Characters as URLs** check box in the [**Link** page](../../dlg/properties/link/index) of Configuration Properties.
 
 ## 
 

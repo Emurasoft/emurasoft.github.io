@@ -11,7 +11,7 @@ Extends the selection to the bottom edge of the current data region.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV \>Cell Selection Mode Only \>Bottom Edge Extend
+- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode Only** \> **Bottom Edge Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+DOWN ARROW (Cell Selection Mode Only)

@@ -11,7 +11,7 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):CSV \>分隔符號 \>欄/分隔符號 (快顯功能表)
+- [全部命令](../tools/all_commands): **CSV** \> **分隔符號** \> **欄/分隔符號 (快顯功能表)**
 - 工具列: ![](../../images/columns_separators.gif)
 - 狀態列: 無
 - 預設快速鍵: 無

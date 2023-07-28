@@ -28,7 +28,7 @@ _str_
 
 |     |     |
 | --- | --- |
-|키 |매개 변수 |
+| **키** | **매개 변수** |
 | BACKSPACE | {BACKSPACE}, {BS}, 또는 {BKSP} |
 | BREAK | {BREAK} |
 | CAPS LOCK | {CAPSLOCK} |

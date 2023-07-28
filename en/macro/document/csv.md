@@ -1,6 +1,6 @@
 # Csv Property (Document Object)
 
-Retrieves the [Csv Object](../csv/index).
+Retrieves the [**Csv** Object](../csv/index).
 
 ## 
 

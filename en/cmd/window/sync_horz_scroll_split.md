@@ -10,8 +10,8 @@ Synchronizes horizontal scrolling of split windows.
 
 ## How to Run
 
-- Default Menu:Window \>Synchronize Horizontal Scrolling when Split
-- [All Commands](../tools/all_commands):Window \>Split \>Synchronize Horizontal Scrolling when Split
+- Default Menu: **Window** \> **Synchronize Horizontal Scrolling when Split**
+- [All Commands](../tools/all_commands): **Window** \> **Split** \> **Synchronize Horizontal Scrolling when Split**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

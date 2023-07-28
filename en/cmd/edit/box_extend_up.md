@@ -11,8 +11,8 @@ Extends the vertical selection up one line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Line Up Extend (Vertical Mode)
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Line Up Extend (Vertical Mode)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+UP ARROW

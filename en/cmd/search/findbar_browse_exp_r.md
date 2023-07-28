@@ -11,8 +11,8 @@ Browses regular expressions or escape sequences for the Replace string.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Browse Replace Expressions
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Browse Replace Expressions**
 - Toolbar: ![](../../images/find_browse_exp.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

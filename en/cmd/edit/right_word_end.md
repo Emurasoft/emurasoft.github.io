@@ -11,8 +11,8 @@ Moves the cursor right to the end of the word.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-\>Word End Right
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Word End Right**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+RIGHT ARROW

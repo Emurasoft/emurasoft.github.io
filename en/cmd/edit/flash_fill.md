@@ -10,8 +10,8 @@ Automatically fills values in the entire column of the CSV document.
 
 ## How to Run
 
-- Default Menu:CSV \>Advanced \>Flash Fill
-- [All Commands](../tools/all_commands):CSV \>Advanced \>Flash Fill
+- Default Menu: **CSV** \> **Advanced** \> **Flash Fill**
+- [All Commands](../tools/all_commands): **CSV** \> **Advanced** \> **Flash Fill**
 - Toolbar: ![](../../images/flash_fill.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

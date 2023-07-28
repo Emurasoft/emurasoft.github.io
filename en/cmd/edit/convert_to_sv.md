@@ -11,7 +11,7 @@ Converts the current separated value document or fixed width column document to 
 ## How to Run
 
 - Default Menu: (None)
-- [All Commands](../tools/all_commands):CSV \>Convert to \>(CSV)
+- [All Commands](../tools/all_commands): **CSV** \> **Convert to** \> **(CSV)**
 - Toolbar: (None)
 - Status Bar: None
 - Default Keyboard Shortcut: None

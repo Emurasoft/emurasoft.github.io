@@ -11,9 +11,9 @@ Clears the contents of the Output Bar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View >
-Output Bar >
-Clear Output
+- [All Commands](../tools/all_commands): **View** >
+**Output Bar** >
+**Clear Output**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

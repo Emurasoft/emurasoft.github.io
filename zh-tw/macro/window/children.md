@@ -1,6 +1,6 @@
 # Children 屬性 (Window 對象)
 
-返回代表子視窗的 [Windows 集合](../windows/index)。
+返回代表子視窗的 [**Windows** 集合](../windows/index)。
 
 ## 
 

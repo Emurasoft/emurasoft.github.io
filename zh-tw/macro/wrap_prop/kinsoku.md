@@ -1,6 +1,6 @@
 # Kinsoku 屬性 (WrapProp 對象)
 
-與組態屬性中 [換行 頁面](../../dlg/properties/wrap/index) 上的將指定字元換行 核取方塊相對應。
+與組態屬性中 [**換行** 頁面](../../dlg/properties/wrap/index) 上的 **將指定字元換行** 核取方塊相對應。
 
 ## 
 

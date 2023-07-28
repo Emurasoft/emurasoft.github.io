@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):搜尋
-\>篩選工具列 \>全部設為書籤
+- [全部命令](../tools/all_commands): **搜尋**
+\> **篩選工具列** \> **全部設為書籤**
 - 工具列:  ![](../../images/bookmark_all.png) (篩選工具列)
 - 狀態列: 無
 - 預設快速鍵: 無
@@ -24,13 +24,13 @@ EEID_FILTERBAR_BOOKMARK (3927)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3927);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3927

@@ -24,13 +24,13 @@ EEID_PROPERTY_COMMENT (8969)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(8969);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 8969

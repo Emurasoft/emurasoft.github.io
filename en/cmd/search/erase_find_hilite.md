@@ -11,9 +11,9 @@ document.
 
 ## How to Run
 
-- Default Menu:Search \>Erase Find Highlight
-- [All Commands](../tools/all_commands):Search
-\>Erase Find Highlight
+- Default Menu: **Search** \> **Erase Find Highlight**
+- [All Commands](../tools/all_commands): **Search**
+\> **Erase Find Highlight**
 - Toolbar:
 ![](../../images/erasefindhilite.gif)
 - Status Bar: None
@@ -26,13 +26,13 @@ EEID_ERASE_FIND_HILITE (4206)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.HighlightFind=false;
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.HighlightFind=false

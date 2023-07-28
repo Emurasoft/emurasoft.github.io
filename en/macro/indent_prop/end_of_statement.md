@@ -1,8 +1,8 @@
 # EndOfStatement Property (IndentProp Object)
 
-Corresponds to theEnd
-of Statement text box in the
-[Tab/Index dialog box](../../dlg/properties/general/indent/index).
+Corresponds to the **End**
+**of Statement** text box in the
+[**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
 
 ## 
 

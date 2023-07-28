@@ -11,8 +11,8 @@ Saves the workspace and closes all open files in the current virtual desktop.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>Close
-\>Save Workspace and Close All (Current Desktop Only)
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Save Workspace and Close All (Current Desktop Only)**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

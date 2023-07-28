@@ -1,6 +1,6 @@
 # AutoIndent プロパティ (IndentProp オブジェクト)
 
-[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の\[自動インデントを有効にする\] チェック ボックスに相当します。
+[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の **\[自動インデントを有効にする\]** チェック ボックスに相当します。
 
 ## 
 

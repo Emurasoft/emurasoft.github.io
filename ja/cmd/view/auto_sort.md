@@ -23,13 +23,13 @@ EEID_AUTO_SORT (4404)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4404);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4404

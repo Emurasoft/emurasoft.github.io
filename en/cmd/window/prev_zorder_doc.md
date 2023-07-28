@@ -11,8 +11,8 @@ Switches to the least accessed document.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Document Navigation \>Least Accessed Document
+- [All Commands](../tools/all_commands): **Window**
+\> **Document Navigation** \> **Least Accessed Document**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_PREV_ZORDER_DOC (4545)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4545);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4545

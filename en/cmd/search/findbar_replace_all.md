@@ -11,8 +11,8 @@ Replaces all the matched strings using the Find toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Replace All
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Replace All**
 - Toolbar: ![](../../images/find_replace_all.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

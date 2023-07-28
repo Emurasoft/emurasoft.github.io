@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:比较 \>保存参数
-- [所有命令](../tools/all_commands):比较 \>保存参数
+- 默认菜单: **比较** \> **保存参数**
+- [所有命令](../tools/all_commands): **比较** \> **保存参数**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_COMPARE_SAVE_OPTIONS (4508)```
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4508);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4508

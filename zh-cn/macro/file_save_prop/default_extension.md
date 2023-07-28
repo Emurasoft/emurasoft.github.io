@@ -1,6 +1,6 @@
 # DefaultExtension 属性 (FileSaveProp 对象)
 
-与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的默认扩展名 文本框相对应。
+与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **默认扩展名** 文本框相对应。
 
 ## 
 

@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:CSV \>列标题
-- [所有命令](../tools/all_commands):CSV \>列标题
+- 默认菜单: **CSV** \> **列标题**
+- [所有命令](../tools/all_commands): **CSV** \> **列标题**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_HEADER_TOGGLE (3985)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3985);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3985

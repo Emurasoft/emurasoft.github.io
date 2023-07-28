@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:排序 \>刪除重複行
-- [全部命令](../tools/all_commands):排序 \>刪除重複行
+- 預設功能表: **排序** \> **刪除重複行**
+- [全部命令](../tools/all_commands): **排序** \> **刪除重複行**
 - 工具列: ![](../../images/deleteduplicatelines.gif)
 - 狀態列: 無
 - 預設捷徑: 無
@@ -23,13 +23,13 @@ EEID_DELETE_DUPLICATE (4564)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.DeleteDuplicates("",0);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.DeleteDuplicates "",0

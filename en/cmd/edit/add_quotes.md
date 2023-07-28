@@ -10,8 +10,8 @@ Quotes all cells in the CSV document with double-quotes.
 
 ## How to Run
 
-- Default Menu:CSV \>Advanced \>Quote All Cells
-- [All Commands](../tools/all_commands):CSV \>Advanced \>Quote All Cells
+- Default Menu: **CSV** \> **Advanced** \> **Quote All Cells**
+- [All Commands](../tools/all_commands): **CSV** \> **Advanced** \> **Quote All Cells**
 - Toolbar: ![](../../images/convert_to.gif) \+ Quote All Cells
 - Status Bar: None
 - Default Keyboard Shortcut: None

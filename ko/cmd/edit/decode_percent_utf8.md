@@ -10,9 +10,9 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:편집 \>인코드/디코드 선택 \>퍼센트 인코딩을 유니코드로 (UTF-8)
-- [모든 명령](../tools/all_commands):편집 \>인코드/디코드 선택
-\>퍼센트 인코딩을 유니코드로 (UTF-8)
+- 기본 메뉴: **편집** \> **인코드/디코드 선택** \> **퍼센트 인코딩을 유니코드로 (UTF-8)**
+- [모든 명령](../tools/all_commands): **편집** \> **인코드/디코드 선택**
+\> **퍼센트 인코딩을 유니코드로 (UTF-8)**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -24,13 +24,13 @@ EEID_DECODE_PERCENT_UTF8 (3856)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3856);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3856

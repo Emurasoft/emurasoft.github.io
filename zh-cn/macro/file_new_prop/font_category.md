@@ -1,8 +1,8 @@
 # FontCategory 属性 (FileNewProp 对象)
 
-Corresponds to theFont
-Category drop-down list box in the
-[New File Details dialog box.](../../dlg/properties/file/new_details/index)
+Corresponds to the **Font**
+**Category drop-down** list box in the
+[**New File Details** dialog box.](../../dlg/properties/file/new_details/index)
 
 ## 
 

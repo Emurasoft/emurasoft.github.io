@@ -10,10 +10,10 @@ Resets all EmEditor settings and restarts EmEditor.
 
 ## How to Run
 
-- Default Menu:Tools
-\>Reset All Settings
-- [All Commands](all_commands):Tools
-\>Reset All Settings
+- Default Menu: **Tools**
+\> **Reset All Settings**
+- [All Commands](all_commands): **Tools**
+\> **Reset All Settings**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

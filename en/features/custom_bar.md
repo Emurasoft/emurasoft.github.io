@@ -1,6 +1,6 @@
 # Custom Bars
 
-Custom Bars can be displayed within the EmEditor window. With this feature, useful plug-ins such asOutlining,Web Preview, andSearch Bar can be developed. Many  features were added to support outlining and custom
+**Custom Bars** can be displayed within the EmEditor window. With this feature, useful plug-ins such as **Outlining**, **Web Preview**, and **Search Bar** can be developed. Many  features were added to support outlining and custom
 bars.
 
 EmEditor Professional includes the following plug-ins by default. (The Word Count plug-in does not utilize the custom bar.)

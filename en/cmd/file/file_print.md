@@ -6,15 +6,15 @@ Prints the current file.
 
 ## Description
 
-This command displays thePrint dialog box, where you can specify
+This command displays the **Print** dialog box, where you can specify
 the number of copies and the print range for the document you wish to print.
-ClickOK to
+Click **OK** to
 start the printing.
 
 ## How to Run
 
-- Default Menu:File \>Print
-- [All Commands](../tools/all_commands):File \>Print \>Print
+- Default Menu: **File** \> **Print**
+- [All Commands](../tools/all_commands): **File** \> **Print** \> **Print**
 - Toolbar: ![](../../images/fileprint.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+P
@@ -26,13 +26,13 @@ EEID_FILE_PRINT (4114)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 window.print();
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 window.print

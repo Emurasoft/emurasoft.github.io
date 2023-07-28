@@ -10,8 +10,8 @@ Shows or hides indent guides.
 
 ## How to Run
 
-- Default Menu:View \>Marks \>Indent Guides
-- [All Commands](../tools/all_commands):View \>Marks \>Indent Guides
+- Default Menu: **View** \> **Marks** \> **Indent Guides**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Indent Guides**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -23,13 +23,13 @@ EEID_VIEW_INDENT_GUIDES (4539)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4539);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4539

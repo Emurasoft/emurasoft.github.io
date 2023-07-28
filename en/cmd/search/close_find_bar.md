@@ -11,8 +11,8 @@ Closes the Find Toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Close Find Toolbar
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Close Find Toolbar**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

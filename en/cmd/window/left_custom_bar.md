@@ -11,8 +11,8 @@ Switches to the custom bar on left if available.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Custom Bar \>Left
+- [All Commands](../tools/all_commands): **Window**
+\> **Custom Bar** \> **Left**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

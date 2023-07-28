@@ -13,8 +13,8 @@ Equivalent to pushing the RIGHT ARROW key once.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-\>Char Right
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Char Right**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: RIGHT ARROW

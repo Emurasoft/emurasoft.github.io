@@ -1,6 +1,6 @@
 # LogicalToView 方法 (Document 對象)
 
-將指定位置的邏輯坐標轉換為顯示坐標，并檢索 [Point 對象](../point/index) 中的位置。
+將指定位置的邏輯坐標轉換為顯示坐標，并檢索 [**Point** 對象](../point/index) 中的位置。
 
 ## 
 

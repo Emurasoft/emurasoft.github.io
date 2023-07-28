@@ -23,13 +23,13 @@ EEID_VERTICAL_SELECTION (3889)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3889);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3889

@@ -1,6 +1,6 @@
 # Interface プロパティ (Window オブジェクト)
 
-[Interface オブジェクト](../interface/index) を返します。
+[**Interface** オブジェクト](../interface/index) を返します。
 
 ## 
 

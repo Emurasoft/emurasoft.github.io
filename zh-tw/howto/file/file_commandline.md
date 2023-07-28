@@ -123,7 +123,7 @@ _encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
 | /di | 指定工作資料夾當創建一個新文檔時。EmEditor 內部使用。 |
 | /eh | 抓取文字塊內容。 |
 | /fc " _FindWhat_" | 多檔尋找 (區分大小寫) 。 |
-| /fd | 顯示 [多檔尋找 對話方塊](../../dlg/find_in_files/index)。 |
+| /fd | 顯示 [**多檔尋找** 對話方塊](../../dlg/find_in_files/index)。 |
 | /ff " _FindWhat_" | 直接在打開的文檔中尋找一個字串。可以與 /mc 或 /x 聯合使用。 |
 | /fi " _FindWhat_" | 多檔尋找 (不區分大小寫) 。 |
 | /fh | 亮顯被搜尋的字串。 |
@@ -153,7 +153,7 @@ _encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
 | /pos left top right bottom | 用四個整數指定視窗位置 (左，頂，右，底) 。 |
 | /r | 唯讀模式。 |
 | /rc " _FindWhat_" | 多檔取代 (區分大小寫) 。 |
-| /rd | 顯示 [多檔取代 對話方塊](../../dlg/replace_in_files/index)。 |
+| /rd | 顯示 [**多檔取代** 對話方塊](../../dlg/replace_in_files/index)。 |
 | /rh | 把 HTML 檔案打開為唯讀。內部使用。 |
 | /ri " _FindWhat_" | 多檔取代 (不區分大小寫) 。 |
 | /rr | 在資料夾中以遞歸方式打開檔案。 |

@@ -12,8 +12,8 @@ move the horizontal scroll position.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-\>Window Right
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Window Right**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

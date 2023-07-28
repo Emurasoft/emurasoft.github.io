@@ -11,7 +11,7 @@ Moves to the left edge of the current data region.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV \>Cell Selection Mode Only \>Left Edge
+- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode Only** \> **Left Edge**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+LEFT ARROW (Cell Selection Mode Only)

@@ -10,9 +10,9 @@
 
 ## 运行方法
 
-- 默认菜单:查看 \>工具栏 \>所有特殊工具栏
-- [所有命令](../tools/all_commands):查看 >
-工具栏 \>所有特殊工具栏
+- 默认菜单: **查看** \> **工具栏** \> **所有特殊工具栏**
+- [所有命令](../tools/all_commands): **查看** >
+**工具栏** \> **所有特殊工具栏**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -24,13 +24,13 @@ EEID_ALL_SPECIAL_TOOLBARS (4069)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4069);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4069

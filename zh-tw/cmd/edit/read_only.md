@@ -10,11 +10,11 @@
 
 ## 運行方法
 
-- 預設功能表:編輯 \>唯讀
-- [全部命令](../tools/all_commands):編輯 \>進階
-\>唯讀
+- 預設功能表: **編輯** \> **唯讀**
+- [全部命令](../tools/all_commands): **編輯** \> **進階**
+\> **唯讀**
 - 工具列: 無
-- 狀態列: 雙擊「唯讀」
+- 狀態列: 雙擊 **「唯讀」**
 - 預設鍵盤快速鍵: 無
 
 ## 外掛程式命令ID
@@ -24,7 +24,7 @@ EEID_READ_ONLY (4113)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.ReadOnly=true;
@@ -32,7 +32,7 @@ document.ReadOnly=true;
 document.ReadOnly=false;
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.ReadOnly=true

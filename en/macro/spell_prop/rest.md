@@ -1,7 +1,7 @@
 # Rest Property (SpellProp Object)
 
-Corresponds to theUnspecified Text check box in the
-[Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to the **Unspecified Text** check box in the
+[**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
 
 ## 
 

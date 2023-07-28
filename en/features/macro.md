@@ -1,7 +1,7 @@
 # Powerful, functionally-rich macros
 
-With EmEditor Professional, you can create functionally-rich
-macros usingJavaScript orVBScript, allowing you to define most
+**With EmEditor Professional**, you can create functionally-rich
+macros using **JavaScript** or **VBScript**, allowing you to define most
 operations. Not only you can define a macro which records keystrokes that you
 use and reference repeatedly, but you can also write your own macros which can
 manipulate other applications, Windows files, or network functionalities. The

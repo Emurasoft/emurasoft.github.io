@@ -1,8 +1,8 @@
 # TemplateFile Property (FileNewProp Object)
 
-Corresponds to theTemplate
-File text box in the
-[New File Details dialog box](../../dlg/properties/file/new_details/index).
+Corresponds to the **Template**
+**File** text box in the
+[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
 
 ## 
 

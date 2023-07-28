@@ -1,6 +1,6 @@
 # List 속성 (HighlightProp 개체)
 
-[HighlightList 컬렉션](../highlight_list/index) 을 검색합니다.
+[**HighlightList** 컬렉션](../highlight_list/index) 을 검색합니다.
 
 ## 
 

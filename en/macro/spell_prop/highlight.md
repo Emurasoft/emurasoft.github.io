@@ -1,7 +1,7 @@
 # Highlight Property (SpellProp Object)
 
-Corresponds to theHighlight check box in the
-[Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to the **Highlight** check box in the
+[**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
 
 ## 
 

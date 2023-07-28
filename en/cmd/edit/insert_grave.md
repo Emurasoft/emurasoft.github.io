@@ -13,8 +13,8 @@ by typing \`; or a double quotation mark (“) by typing ".
 
 ## How to Run
 
-- Default Menu:Insert \>Diacritics \>Grave
-- [All Commands](../tools/all_commands):Insert \>Diacritics \>Grave
+- Default Menu: **Insert** \> **Diacritics** \> **Grave**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Grave**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+\`

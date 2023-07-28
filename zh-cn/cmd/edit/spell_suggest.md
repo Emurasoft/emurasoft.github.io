@@ -11,7 +11,7 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):编辑 \>拼写检查 \>(拼写建议)
+- [所有命令](../tools/all_commands): **编辑** \> **拼写检查** \> **(拼写建议)**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(8768 + i);  // i 是一个从 0 到 31 的整数
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 8768 + i  ' i 是一个从 0 到 31 的整数

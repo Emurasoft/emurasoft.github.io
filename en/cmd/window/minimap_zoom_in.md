@@ -11,7 +11,7 @@ Zooms in the minimap.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window \>Scroll \>Zoom In
+- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Zoom In**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

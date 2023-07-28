@@ -10,9 +10,9 @@ Inserts a new column at the left side of the current column in the separated val
 
 ## How to Run
 
-- Default Menu:CSV \>Columns \>Insert Column Left
-- [All Commands](../tools/all_commands):CSV \>Columns \>Insert Column Left
-- Toolbar: ![](../../images/columns_separators.gif) \+Insert Column Left
+- Default Menu: **CSV** \> **Columns** \> **Insert Column Left**
+- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Insert Column Left**
+- Toolbar: ![](../../images/columns_separators.gif) \+ **Insert Column Left**
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
@@ -23,13 +23,13 @@ EEID_INSERT_COLUMN (3887)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3887);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3887

@@ -12,7 +12,7 @@ already exists.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>New \>Display Tray Icon
+- [All Commands](../tools/all_commands): **File** \> **New** \> **Display Tray Icon**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

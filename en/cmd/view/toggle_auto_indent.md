@@ -10,8 +10,8 @@ Enables or disables the auto indent. When auto indent is enabled, EmEditor will 
 
 ## How to Run
 
-- Default Menu:View \>Tab/Indent \>Auto Indent
-- [All Commands](../tools/all_commands):View \>Tab/Indent \>Auto Indent
+- Default Menu: **View** \> **Tab/Indent** \> **Auto Indent**
+- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Auto Indent**
 - Toolbar:
 ![](../../images/auto_indent24x16.gif)
 - Status Bar: None

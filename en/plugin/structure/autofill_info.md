@@ -57,7 +57,7 @@ Specifies a combination of the following values.
 
 _nIncrement_
 
-Specifies the number of increment for a series if only one cell is specified for the source range and ifFLAG\_FILL\_SERIES is specified for the _dwFlags_ member.
+Specifies the number of increment for a series if only one cell is specified for the source range and if **FLAG\_FILL\_SERIES** is specified for the _dwFlags_ member.
 
 ## Version
 

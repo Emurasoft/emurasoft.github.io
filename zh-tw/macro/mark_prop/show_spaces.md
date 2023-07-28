@@ -1,6 +1,6 @@
 # ShowSpaces 屬性 (MarkProp 對象)
 
-與組態屬性中 [標記 頁面](../../dlg/properties/marks/index) 上的顯示空格 核取方塊相對應。
+與組態屬性中 [**標記** 頁面](../../dlg/properties/marks/index) 上的 **顯示空格** 核取方塊相對應。
 
 ## 
 

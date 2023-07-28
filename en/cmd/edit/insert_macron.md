@@ -10,8 +10,8 @@ After selecting this command, Insert a character with a macron (ā, ē, ī, ō, 
 
 ## How to Run
 
-- Default Menu:Insert \>Diacritics \>Macron
-- [All Commands](../tools/all_commands):Insert \>Diacritics \>Macron
+- Default Menu: **Insert** \> **Diacritics** \> **Macron**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Macron**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT + -
@@ -23,13 +23,13 @@ EEID_INSERT_MACRON (3861)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3861);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3861

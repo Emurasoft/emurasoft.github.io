@@ -1,6 +1,6 @@
 # NoSpaceEdge Property (GeneralProp Object)
 
-Corresponds to theNo Space at Left Edge of Window check box in the [General page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to the **No Space at Left Edge of Window** check box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties.
 
 ## 
 

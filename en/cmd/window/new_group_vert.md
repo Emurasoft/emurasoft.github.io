@@ -10,10 +10,10 @@ Detaches the current document from combined windows as a new group, and arranges
 
 ## How to Run
 
-- Default Menu:Window \>New Vertical Group
-- [All Commands](../tools/all_commands):Window
-\>Group
-\>New Vertical Group
+- Default Menu: **Window** \> **New Vertical Group**
+- [All Commands](../tools/all_commands): **Window**
+\> **Group**
+\> **New Vertical Group**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

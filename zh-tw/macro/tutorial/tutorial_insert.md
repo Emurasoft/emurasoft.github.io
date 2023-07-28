@@ -1,6 +1,6 @@
 # 插入字元 (教程)
 
-要用巨集來插入字元，用[Text 屬性](../selection/selection_text)。您可以按下列步驟修改教程檔案:
+要用巨集來插入字元，用 **[Text 屬性](../selection/selection_text)**。您可以按下列步驟修改教程檔案:
 
 ## 
 
@@ -64,7 +64,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 document.selection.Text = "\\n";
 
 插入的僅僅是歸位符 (LF)，而不是 Windows 行尾端的慣例。當您在 EmEditor 中按歸位鍵時，EmEditor 會插入該行所用的行尾端方式 (僅 CR，僅 LF，或 CR+LF) 。如果您想要在按歸位鍵時與在 EmEditor 中有相同的行為，我們建議您用
-[NewLine 方法](../selection/selection_newline)
-或[writeln 方法](../document/document_writeln)。
+**[NewLine 方法](../selection/selection_newline)**
+或 **[writeln 方法](../document/document_writeln)**。
 
 ## 下一主題:

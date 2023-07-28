@@ -1,6 +1,6 @@
 # CamelCase Property (SpellProp Object)
 
-Corresponds to theSupport Camel Case check box in the [Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to the **Support Camel Case** check box in the [**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
 
 ## 
 

@@ -1,6 +1,6 @@
 # Item 속성 (Configs 컬렉션)
 
-지정된 인덱스의 구성을 위한 [Config 개체](../config/index) 를 검색합니다.
+지정된 인덱스의 구성을 위한 [**Config** 개체](../config/index) 를 검색합니다.
 
 ## 
 

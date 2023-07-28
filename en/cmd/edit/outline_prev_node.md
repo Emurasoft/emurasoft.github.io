@@ -10,8 +10,8 @@ Moves the cursor to the previous node while outlining is displayed. A plug-in fo
 
 ## How to Run
 
-- Default Menu:Edit \>Outlining \>Previous Node
-- [All Commands](../tools/all_commands):Edit \>Outlining \>Previous Node
+- Default Menu: **Edit** \> **Outlining** \> **Previous Node**
+- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Previous Node**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: Alt+Up

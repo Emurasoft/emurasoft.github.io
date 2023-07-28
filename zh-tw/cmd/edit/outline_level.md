@@ -10,13 +10,13 @@
 
 ## 運行方法
 
-- 預設功能表:編輯
-\>大綱
-\>第 2-5 級別
-- [全部命令](../tools/all_commands):編輯
-\>大綱
-\>級別
-\>第 2-16 級別
+- 預設功能表: **編輯**
+\> **大綱**
+\> **第 2-5 級別**
+- [全部命令](../tools/all_commands): **編輯**
+\> **大綱**
+\> **級別**
+\> **第 2-16 級別**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -28,7 +28,7 @@ EEID_OUTLINE_LEVEL_2 (8832) - ID_OUTLINE_LEVEL_16 (8846)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(8832);
@@ -36,7 +36,7 @@ editor.ExecuteCommandByID(8832);
 editor.ExecuteCommandByID(8846);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 8832

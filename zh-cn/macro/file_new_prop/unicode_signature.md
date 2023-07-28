@@ -1,6 +1,6 @@
 # UnicodeSignature 属性 (FileNewProp 对象)
 
-与 [新建文件详细信息 对话框](../../dlg/properties/file/new_details/index) 中的添加一个 Unicode 签名 (BOM) 复选框相对应。
+与 [**新建文件详细信息** 对话框](../../dlg/properties/file/new_details/index) 中的 **添加一个 Unicode 签名 (BOM)** 复选框相对应。
 
 ## 
 

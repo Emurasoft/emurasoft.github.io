@@ -1,7 +1,7 @@
 # DoubleQuotes Property (SpellProp Object)
 
-Corresponds to theString Enclosed by Double Quotation Marks check box in the
-[Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to the **String Enclosed by Double Quotation Marks** check box in the
+[**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
 
 ## 
 

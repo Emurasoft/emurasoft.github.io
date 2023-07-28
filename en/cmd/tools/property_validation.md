@@ -6,16 +6,16 @@ Displays Syntax Check properties.
 
 ## Description
 
-Displays the [Syntax Check \
+Displays the [**Syntax Check** \
 page](../../dlg/properties/validation/index)
-of the[Configuration Properties](../../dlg/properties/index)
+of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Properties for Current Configuration \>Syntax Check
+- [All Commands](all_commands): **Tools** >
+**Properties for Current Configuration** \> **Syntax Check**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

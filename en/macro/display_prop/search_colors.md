@@ -1,7 +1,7 @@
 # SearchColors Property (DisplayProp Object)
 
-Corresponds to the Search
-Colors text box in the [Display page](../../dlg/properties/display/index) of Configuration Properties.
+Corresponds to the **Search**
+**Colors** text box in the [**Display** page](../../dlg/properties/display/index) of Configuration Properties.
 
 ## 
 

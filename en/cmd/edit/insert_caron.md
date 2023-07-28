@@ -10,8 +10,8 @@ After selecting this command, Insert a character with a caron (ǎ, ǐ, ǒ, ǔ, �
 
 ## How to Run
 
-- Default Menu:Insert \>Diacritics \>Caron
-- [All Commands](../tools/all_commands):Insert \>Diacritics \>Caron
+- Default Menu: **Insert** \> **Diacritics** \> **Caron**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Caron**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+SHIFT+6

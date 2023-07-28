@@ -23,13 +23,13 @@ EEID_CUSTOMIZE_ACTIVE_STRING (9057)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(9057);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 9057

@@ -12,7 +12,7 @@ lParam = (LPARAM) (POINT\_PTR\*) pptPos;
 
 _bCanMoveCursor_
 
-如果該參數是 TRUE 并且 [通過滾動位置移動光標 復選框](../../dlg/properties/scroll/index) 被勾選，光標位置也會被移動。如果該參數是 FALSE，光標位置則不會被移動。
+如果該參數是 TRUE 并且 [**通過滾動位置移動光標** 復選框](../../dlg/properties/scroll/index) 被勾選，光標位置也會被移動。如果該參數是 FALSE，光標位置則不會被移動。
 
 _pptPos_
 

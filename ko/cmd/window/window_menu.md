@@ -11,8 +11,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:창 \> (문서 이름)
-- [모든 명령](../tools/all_commands):창 \> (문서 이름)
+- 기본 메뉴: **창** \> ( **문서 이름**)
+- [모든 명령](../tools/all_commands): **창** \> ( **문서 이름**)
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -24,14 +24,14 @@ From EEID_WINDOW_MENU through EEID_WINDOW_MENU + 255 (from 5376 through 5376 + 2
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(5376 + i);  // i is an integer from 0
 through 255
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 5376 + i   ' i is an integer from 0

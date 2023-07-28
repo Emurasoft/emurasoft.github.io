@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:幫助 \>搜尋說明主題
-- [全部命令](../tools/all_commands):幫助 >
-搜尋說明主題
+- 預設功能表: **幫助** \> **搜尋說明主題**
+- [全部命令](../tools/all_commands): **幫助** >
+**搜尋說明主題**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: CTRL+F1
@@ -24,13 +24,13 @@ EEID_HELP_FINDER (4247)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4247);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4247

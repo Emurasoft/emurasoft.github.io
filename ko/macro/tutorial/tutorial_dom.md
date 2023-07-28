@@ -1,10 +1,10 @@
 # 매크로의 사양 (문서 개체 모델) (튜토리얼)
 
-엠에디터 매크로 문서 개체 모델 (DOM)의 사양에서,[Window 개체](../window/index) 는
+엠에디터 매크로 문서 개체 모델 (DOM)의 사양에서, **[Window 개체](../window/index)** 는
 현재 범위입니다. 다시 말해, 명시적 범위에 없는 속성과 메서드는 현재
-[Window 개체](../window/index) 를 참결합니다.
+**[Window 개체](../window/index)** 를 참결합니다.
 예를 들어, 첫번째 문서는 웹 브라우저에 사용되는 스크립에 적용되는
-Window 개체의[document 속성](../window/window_document) 입니다.
+Window 개체의 **[document 속성](../window/window_document)** 입니다.
 웹 브라우서 스크립에 익숙한 사용자들에게는 다음과 같은 코드가 더 친근할 것입니다:
 
 ## 

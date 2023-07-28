@@ -1,6 +1,6 @@
 # DroppedFiles Property (Window Object)
 
-Returns the [DroppedFiles Object](../dropped_files/index).
+Returns the [**DroppedFiles** Object](../dropped_files/index).
 
 ## 
 

@@ -11,8 +11,8 @@ Toggles the Fuzzy Matching button on the Find toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Fuzzy Matching
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Fuzzy Matching**
 - Toolbar:  (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

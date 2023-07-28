@@ -11,9 +11,9 @@ Closes all documents in the current group.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Group
-\>Close Group
+- [All Commands](../tools/all_commands): **Window**
+\> **Group**
+\> **Close Group**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

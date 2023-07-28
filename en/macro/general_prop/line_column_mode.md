@@ -1,8 +1,8 @@
 # LineColumnMode Property (GeneralProp Object)
 
-Corresponds to theLine
-and Column Display as drop-down list box in the
-[General page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to the **Line**
+**and Column Display as drop-down** list box in the
+[**General** page](../../dlg/properties/general/index) of Configuration Properties.
 
 ## 
 

@@ -10,9 +10,9 @@ Shows the Clipboard history.
 
 ## How to Run
 
-- Default Menu:Edit \>Show Clipboard History
-- [All Commands](../tools/all_commands):Edit \>Paste
-\>Show Clipboard History
+- Default Menu: **Edit** \> **Show Clipboard History**
+- [All Commands](../tools/all_commands): **Edit** \> **Paste**
+\> **Show Clipboard History**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+V, CTRL+SHIFT+INSERT

@@ -28,32 +28,32 @@ Specifies the color of the highlighted string.
 
 _bWord_
 
-Corresponds to theWhole
-Word Only check box in the
-[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to the **Whole**
+**Word Only** check box in the
+[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
 _bRightAll_
 
-Corresponds to theHighlight
-Right Side check box in the [Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to the **Highlight**
+**Right Side** check box in the [**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
 _bCase_
 
-Corresponds to theMatch
-Case check box in the
-[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to the **Match**
+**Case** check box in the
+[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
 _bInsideTag_
 
-Corresponds to theInside
-Tag Only check box in the
-[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to the **Inside**
+**Tag Only** check box in the
+[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
 _bRegExp_
 
-Corresponds to theRegular
-Expression check box in the
-[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to the **Regular**
+**Expression** check box in the
+[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
 ## Version
 

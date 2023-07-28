@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):編輯 \>移動
-\>向右移動資料欄
+- [全部命令](../tools/all_commands): **編輯** \> **移動**
+\> **向右移動資料欄**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -24,13 +24,13 @@ EEID_MOVE_COLUMN_RIGHT (3994)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3994);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3994

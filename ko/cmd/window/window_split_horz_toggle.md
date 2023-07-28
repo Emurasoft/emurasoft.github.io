@@ -13,7 +13,7 @@
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):창 \>분할 \>가로 분할 설정/해제
+- [모든 명령](../tools/all_commands): **창** \> **분할** \> **가로 분할 설정/해제**
 - 도구 모음: ![](../../images/windowsplithorzfix.gif)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL + -
@@ -25,13 +25,13 @@ EEID_WINDOW_SPLIT_HORZ_TOGGLE (4385)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4385);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4385

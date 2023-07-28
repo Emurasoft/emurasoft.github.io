@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):編輯 \>延伸選區
-\>延伸選區到行首或文字起始位置
+- [全部命令](../tools/all_commands): **編輯** \> **延伸選區**
+\> **延伸選區到行首或文字起始位置**
 - 工具列: 無
 - 狀態列: 無
 - 預設鍵盤快速鍵: SHIFT+HOME
@@ -24,13 +24,13 @@ EEID_SHIFT_HOME_TEXT (4297)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.StartOfLine(true,eeLineView \| eeLineHomeText);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.StartOfLine true,eeLineView Or eeLineHomeText

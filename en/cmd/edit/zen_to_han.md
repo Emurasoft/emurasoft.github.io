@@ -12,8 +12,8 @@ fonts.
 
 ## How to Run
 
-- Default Menu:Convert \>Half-Width
-- [All Commands](../tools/all_commands):Convert \>Half-Width
+- Default Menu: **Convert** \> **Half-Width**
+- [All Commands](../tools/all_commands): **Convert** \> **Half-Width**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

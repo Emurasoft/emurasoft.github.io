@@ -1,7 +1,7 @@
 # DoubleLineScroll Property (ScrollProp Object)
 
-Corresponds to theDouble Line Scroll check box in the
-[Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to the **Double Line Scroll** check box in the
+[**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 
 ## 
 

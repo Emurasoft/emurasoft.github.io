@@ -12,7 +12,7 @@ lParam = 0;
 
 _pInfo_
 
-指針指向 [INFO\_EX\_DATA 結構](../structure/info_ex_data)。
+指針指向 [**INFO\_EX\_DATA** 結構](../structure/info_ex_data)。
 
 ## 返回值
 

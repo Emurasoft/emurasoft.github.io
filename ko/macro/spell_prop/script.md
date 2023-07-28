@@ -1,6 +1,6 @@
 # Script 속성 (SpellProp 개체)
 
-구성 속성의 [맞춤법 탭](../../dlg/properties/spell/index) 의스크립트 체크 박스에 해당합니다.
+구성 속성의 [**맞춤법** 탭](../../dlg/properties/spell/index) 의 **스크립트** 체크 박스에 해당합니다.
 
 ## 
 

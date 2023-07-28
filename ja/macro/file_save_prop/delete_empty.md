@@ -1,7 +1,7 @@
 # DeleteEmpty プロパティ (FileSaveProp オブジェクト)
 
-[\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
-\[保存時、空のファイルは削除\] チェック ボックスに相当します。
+[**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
+**\[保存時、空のファイルは削除\]** チェック ボックスに相当します。
 
 ## 
 

@@ -1,8 +1,8 @@
 # Encoding Property (FileProp Object)
 
-Corresponds to theOpening
-Encoding drop-down list box in the
-[File page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to the **Opening**
+**Encoding** drop-down list box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 ## 
 

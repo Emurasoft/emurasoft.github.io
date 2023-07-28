@@ -11,9 +11,9 @@ Closes all documents with tabs to the left of the active document in the current
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Group
-\>Close All Left in Group
+- [All Commands](../tools/all_commands): **Window**
+\> **Group**
+\> **Close All Left in Group**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -25,13 +25,13 @@ EEID_GROUP_CLOSE_LEFT (4389)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4389);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4389

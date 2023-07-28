@@ -11,10 +11,10 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):查看 >
-大纲 >
-大纲栏和大纲导航
-- 工具栏:![Outline](../../images/plugin_outline.gif)
+- [所有命令](../tools/all_commands): **查看** >
+**大纲** >
+**大纲栏和大纲导航**
+- 工具栏: **![Outline](../../images/plugin_outline.gif)**
 - 状态栏: 无
 - 默认快捷键: 无
 
@@ -25,13 +25,13 @@ EEID_OUTLINE_BAR_GUIDE (3874)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3874);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3874

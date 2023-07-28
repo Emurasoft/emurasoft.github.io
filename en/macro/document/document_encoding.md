@@ -22,7 +22,7 @@ document.Encoding = nEncoding
 
 _nEncoding_
 
-Select from the[Encoding Constants](../const/const_encoding),
+Select from the **[Encoding Constants](../const/const_encoding)**,
 or specify any code page used in the Windows Operating System.
 
 ## Version

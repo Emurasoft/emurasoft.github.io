@@ -1,8 +1,8 @@
 # Enabled Property (HighlightProp Object)
 
-Corresponds to theHighlight
-These Words check box in the
-[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to the **Highlight**
+**These Words** check box in the
+[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
 ## 
 

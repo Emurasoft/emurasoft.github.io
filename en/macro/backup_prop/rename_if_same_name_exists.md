@@ -1,7 +1,7 @@
 # RenameIfSameNameExists Property (BackupProp Object)
 
-Corresponds to theRename if the Same File Name Exists check box in the
-[Backup page](../../dlg/properties/backup/index) of Configuration Properties.
+Corresponds to the **Rename if the Same File Name Exists** check box in the
+[**Backup** page](../../dlg/properties/backup/index) of Configuration Properties.
 
 ## 
 

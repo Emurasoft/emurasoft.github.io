@@ -10,8 +10,8 @@ Toggles Layout 1 (Focus Mode by default).
 
 ## How to Run
 
-- Default Menu:View \>Layouts \>Full Screen
-- [All Commands](../tools/all_commands):View \>Layouts \>Full Screen
+- Default Menu: **View** \> **Layouts** \> **Full Screen**
+- [All Commands](../tools/all_commands): **View** \> **Layouts** \> **Full Screen**
 - Toolbar: ![](../../images/full_screen.gif)
 - Status Bar: None
 - Default Shortcut Key: F11

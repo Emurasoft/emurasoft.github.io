@@ -6,4 +6,4 @@ Press CTRL + F11 to open or close the Input Method Editor (IME).
 
 - To open the IME automatically when running EmEditor, click
 ![Properties for Current Configuration](../../images/properties.gif) on the
-Toolbar, display theGeneral tab, and checkRun Input Method Editor.
+Toolbar, display the **General** tab, and check **Run Input Method Editor**.

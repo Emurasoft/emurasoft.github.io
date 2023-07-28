@@ -1,6 +1,6 @@
 # To Select the Entire Document
 
-SelectSelect All under theEdit menu.
+Select **Select All** under the **Edit** menu.
 
 ## Tips
 

@@ -10,9 +10,9 @@ When the cursor is placed at an opening/closing tag in an XML or XHTML document,
 
 ## How to Run
 
-- Default Menu:Search \>Select Current Tag
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Matching Tag Extend
+- Default Menu: **Search** \> **Select Current Tag**
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Matching Tag Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+.
@@ -24,13 +24,13 @@ EEID_SHIFT_NEXT_TAG (4602)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4602);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4602

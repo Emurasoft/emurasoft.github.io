@@ -10,8 +10,8 @@ Saves the set of options specified for the current comparison or synchronization
 
 ## How to Run
 
-- Default Menu:Compare \>Save Options
-- [All Commands](../tools/all_commands):Compare \>Save Options
+- Default Menu: **Compare** \> **Save Options**
+- [All Commands](../tools/all_commands): **Compare** \> **Save Options**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -10,9 +10,9 @@ Displays Web Help.
 
 ## How to Run
 
-- Default Menu:Help \>Web Help
-- [All Commands](../tools/all_commands):Help >
-Web Help
+- Default Menu: **Help** \> **Web Help**
+- [All Commands](../tools/all_commands): **Help** >
+**Web Help**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -11,8 +11,8 @@ Moves the cursor to the end of the current logical line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-\>Logical End
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Logical End**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+END

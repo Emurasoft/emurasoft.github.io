@@ -10,10 +10,10 @@ Selects the beginning of lines in the selection for vertical selection editing. 
 
 ## How to Run
 
-- Default Menu:Edit \>Selection Mode
-\>Select Beginning of lines
-- [All Commands](../tools/all_commands):Edit \>Selection Mode
-\>Select Beginning of lines
+- Default Menu: **Edit** \> **Selection Mode**
+\> **Select Beginning of lines**
+- [All Commands](../tools/all_commands): **Edit** \> **Selection Mode**
+\> **Select Beginning of lines**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

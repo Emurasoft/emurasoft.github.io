@@ -11,8 +11,8 @@ set.
 
 ## How to Run
 
-- Default Menu:Bookmarks \>Toggle Bookmark
-- [All Commands](../tools/all_commands):Bookmarks \>Toggle Bookmark
+- Default Menu: **Bookmarks** \> **Toggle Bookmark**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Toggle Bookmark**
 - Toolbar: ![](../../images/bookmarktoggle.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+F2

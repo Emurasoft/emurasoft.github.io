@@ -6,14 +6,14 @@ Displays version information.
 
 ## Description
 
-Displays the [About EmEditor dialog box](../../dlg/about/index),
+Displays the [**About EmEditor** dialog box](../../dlg/about/index),
 where you can confirm the version information about EmEditor.
 
 ## How to Run
 
-- Default Menu:Help \>About EmEditor
-- [All Commands](../tools/all_commands):Help >
-About EmEditor
+- Default Menu: **Help** \> **About EmEditor**
+- [All Commands](../tools/all_commands): **Help** >
+**About EmEditor**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

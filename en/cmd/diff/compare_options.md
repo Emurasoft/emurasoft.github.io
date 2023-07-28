@@ -10,8 +10,8 @@ Compares the two most recently viewed documents with the choice to specify optio
 
 ## How to Run
 
-- Default Menu:Compare \>Compare with Options
-- [All Commands](../tools/all_commands):Compare \>Compare with Options
+- Default Menu: **Compare** \> **Compare with Options**
+- [All Commands](../tools/all_commands): **Compare** \> **Compare with Options**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

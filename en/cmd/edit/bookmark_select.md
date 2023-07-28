@@ -10,8 +10,8 @@ Selects all bookmarked lines in the current document.
 
 ## How to Run
 
-- Default Menu:Bookmarks \>Select Bookmarked Lines
-- [All Commands](../tools/all_commands):Bookmarks \>Select Bookmarked Lines
+- Default Menu: **Bookmarks** \> **Select Bookmarked Lines**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Select Bookmarked Lines**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_BOOKMARK_SELECT (3851)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3851);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3851

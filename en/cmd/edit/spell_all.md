@@ -10,8 +10,8 @@ Checks spelling in the entire document. Misspelled words will be underlined in r
 
 ## How to Run
 
-- Default Menu:Edit \>Spelling \>Check Spelling in \>All
-- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling in \>All
+- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **All**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **All**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

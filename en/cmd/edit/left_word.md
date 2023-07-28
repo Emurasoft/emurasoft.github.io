@@ -12,8 +12,8 @@ and moves the cursor to the beginning of the previous word in the current line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-\>Word Left
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Word Left**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+LEFT ARROW

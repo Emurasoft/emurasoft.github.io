@@ -11,8 +11,8 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):编辑 \>水平移动光标
-\>右移一个单词
+- [所有命令](../tools/all_commands): **编辑** \> **水平移动光标**
+\> **右移一个单词**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: CTRL+向右键
@@ -24,13 +24,13 @@ EEID_RIGHT_WORD (4158)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.WordRight(false,1);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.WordRight false,1

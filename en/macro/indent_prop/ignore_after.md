@@ -1,6 +1,6 @@
 # IgnoreAfter Property (IndentProp Object)
 
-Corresponds to theIgnore After (Regular Expression) text box in the [Tab/Index dialog box](../../dlg/properties/general/indent/index).
+Corresponds to the **Ignore After (Regular Expression)** text box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
 
 ## 
 

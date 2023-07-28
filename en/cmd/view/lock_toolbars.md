@@ -15,10 +15,10 @@ grips on the left-hand edge of each toolbar.
 
 ## How to Run
 
-- Default Menu:View >
-Toolbars \>Lock Toolbars
-- [All Commands](../tools/all_commands):View >
-Toolbars \>Lock Toolbars
+- Default Menu: **View** >
+**Toolbars** \> **Lock Toolbars**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Lock Toolbars**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -30,13 +30,13 @@ EEID_LOCK_TOOLBARS (4341)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4341);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4341

@@ -91,40 +91,40 @@ command](../cmd/edit/bookmark_next_within)
 
 ## Other new features
 
-- The [Find command](../cmd/search/edit_find) can search for newline characters if
-A Regular Expression "." Can Match Newline Characters check box
-in the [Search page](../dlg/customize/search/index)
+- The [**Find** command](../cmd/search/edit_find) can search for newline characters if
+**A Regular Expression "." Can Match Newline Characters** check box
+in the [**Search** page](../dlg/customize/search/index)
 is checked. The number of newline characters to be matched can be customized in the
-Additional Lines to
-Search for Regular Expressions text box.
-- Added theReplace >> button
-on the [Find dialog box](../dlg/find/index) to jump to the
-[Replace dialog box](../dlg/replace/index).
-- Added the\>
-button
+**Additional Lines to**
+**Search for Regular Expressions** text box.
+- Added the **Replace >>** button
+on the [**Find** dialog box](../dlg/find/index) to jump to the
+[**Replace** dialog box](../dlg/replace/index).
+- Added the **\>**
+**button**
 on all the search dialog boxes to browse available regular
 expressions.
-- Added theDisplay File Names Only check box
-in the [Find in Files dialog box](../dlg/find_in_files/index).
-- Added theChange Font for Find/Replace Drop-Down List check box
-and theChange Font only if Character Set of Selected Font is not System Default
-check box in the [Search \
-page](../dlg/customize/search/index) of the [Customize dialog \
+- Added the **Display File Names Only** check box
+in the [**Find in Files** dialog box](../dlg/find_in_files/index).
+- Added the **Change Font for Find/Replace Drop-Down List** check box
+and the **Change Font only if Character Set of Selected Font is not System Default**
+check box in the [**Search** \
+page](../dlg/customize/search/index) of the [**Customize** dialog \
 box](../dlg/customize/index), which allows you to select conditions when the font for the
-Find/Replace drop-down list should be adjusted to the current font.
-- Added a shortcut key to display theTray Icon menu. By default,
+**Find/Replace** drop-down list should be adjusted to the current font.
+- Added a shortcut key to display the **Tray Icon** menu. By default,
 it is ALT + CTRL + N,
-and you can customize it in theShortcut Key to Simulate Left Mouse Button text box
-in the [Customize Tray Icon dialog box](../dlg/tray/index).
+and you can customize it in the **Shortcut Key to Simulate Left Mouse Button** text box
+in the [**Customize Tray Icon** dialog box](../dlg/tray/index).
 - Added a shortcut key to launch an EmEditor window with the contents of
 the focused edit box. The original edit box will be filled with EmEditor contents when the EmEditor
 window closes. By default, it is ALT + CTRL + X, and you can customize it in the
-Shortcut
-Key to Grab Text with EmEditor text box
-in the [Customize Tray Icon dialog box](../dlg/tray/index).
+**Shortcut**
+**Key to Grab Text with EmEditor** text box
+in the [**Customize Tray Icon** dialog box](../dlg/tray/index).
 - When saving a file, and the prompt message "This document contains
 characters in Unicode format ...
-Continue?" appears, pressing theCancel button jumps to characters
+Continue?" appears, pressing the **Cancel** button jumps to characters
 that
 cannot be converted to the encoding for saving, and also highlights the
 Unicode characters.

@@ -11,7 +11,7 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):編輯 \>拼字檢查 \>(拼字建議)
+- [全部命令](../tools/all_commands): **編輯** \> **拼字檢查** \> **(拼字建議)**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -23,13 +23,13 @@
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(8768 + i);  // i 是一個從 0 到 31 的整數
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 8768 + i  ' i 是一個從 0 到 31 的整數

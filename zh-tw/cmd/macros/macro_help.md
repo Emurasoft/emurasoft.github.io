@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:巨集 \>參考手冊
-- [全部命令](../tools/all_commands):巨集
-\>參考手冊
+- 預設功能表: **巨集** \> **參考手冊**
+- [全部命令](../tools/all_commands): **巨集**
+\> **參考手冊**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -24,13 +24,13 @@ EEID_MACRO_HELP (4360)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4360);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4360

@@ -2,16 +2,16 @@
 
 ## Summary
 
-Opens theQuick Launch window and selects theSymbols mode.
+Opens the **Quick Launch** window and selects the **Symbols** mode.
 
 ## Description
 
-Opens theQuick Launch window and selects theSymbols mode.
+Opens the **Quick Launch** window and selects the **Symbols** mode.
 
 ## How to Run
 
-- Default Menu:Search \>Search Symbols
-- [All Commands](all_commands):Search \>Search Symbols
+- Default Menu: **Search** \> **Search Symbols**
+- [All Commands](all_commands): **Search** \> **Search Symbols**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+S

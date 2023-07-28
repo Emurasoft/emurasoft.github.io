@@ -23,13 +23,13 @@ EEID_CAPITALIZE (4381)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.ChangeCase(eeCaseCapitalize);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.ChangeCase eeCaseCapitalize

@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:转换 \>编码/解码所选内容 \>将百分比编码字符转换为Unicode(UTF-8)
-- [所有命令](../tools/all_commands):转换 \>编码/解码所选内容 \>将百分比编码字符转换为Unicode(UTF-8)
+- 默认菜单: **转换** \> **编码/解码所选内容** \> **将百分比编码字符转换为Unicode(UTF-8)**
+- [所有命令](../tools/all_commands): **转换** \> **编码/解码所选内容** \> **将百分比编码字符转换为Unicode(UTF-8)**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_DECODE_PERCENT_UTF8 (3856)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3856);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3856

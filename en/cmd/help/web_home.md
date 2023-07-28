@@ -10,9 +10,9 @@ Opens the EmEditor web site in your default internet browser.
 
 ## How to Run
 
-- Default Menu:Help \>Go to EmEditor Home Page
-- [All Commands](../tools/all_commands):Help >
-Go to EmEditor Home Page
+- Default Menu: **Help** \> **Go to EmEditor Home Page**
+- [All Commands](../tools/all_commands): **Help** >
+**Go to EmEditor Home Page**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

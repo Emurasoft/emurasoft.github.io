@@ -1,7 +1,7 @@
 # InitialFolder Property (FileNewProp Object)
 
-Corresponds to theInitial Folder text box in the
-[New File Details dialog box](../../dlg/properties/file/new_details/index).
+Corresponds to the **Initial Folder** text box in the
+[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
 
 ## 
 

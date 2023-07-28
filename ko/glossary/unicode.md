@@ -3,4 +3,4 @@
 24 지원의 언어 스크립트로부터 파생되는 34,168 고유 코드의 문자를 현재 포함하고 있는
 국제 표준 문자 집합.
 더 자세한 사항을 위해서 다음을 참조해 주시기 바랍니다:
-[유니코드(Big endian)](bigendian) 그리고[유니코드(Little endian)](littleendian).
+**[유니코드(Big endian)](bigendian)** 그리고 **[유니코드(Little endian)](littleendian)**.

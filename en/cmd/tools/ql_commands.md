@@ -2,16 +2,16 @@
 
 ## Summary
 
-Opens theQuick Launch window and selects theCommands mode.
+Opens the **Quick Launch** window and selects the **Commands** mode.
 
 ## Description
 
-Opens theQuick Launch window and selects theCommands mode.
+Opens the **Quick Launch** window and selects the **Commands** mode.
 
 ## How to Run
 
-- Default Menu:Help \>Search Commands
-- [All Commands](all_commands):Help \>Search Commands
+- Default Menu: **Help** \> **Search Commands**
+- [All Commands](all_commands): **Help** \> **Search Commands**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+C

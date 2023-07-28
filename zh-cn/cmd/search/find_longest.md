@@ -10,9 +10,9 @@
 
 ## 运行方法
 
-- 默认菜单:搜索 \>查找最长行/单元格
-- [所有命令](../tools/all_commands):搜索
-\>查找最长行/单元格
+- 默认菜单: **搜索** \> **查找最长行/单元格**
+- [所有命令](../tools/all_commands): **搜索**
+\> **查找最长行/单元格**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -24,13 +24,13 @@ EEID_FIND_LONGEST (4049)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4049);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4049

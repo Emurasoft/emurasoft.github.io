@@ -11,7 +11,7 @@ Scrolls the document right by one page.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window \>Scroll \>Page Right
+- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Page Right**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

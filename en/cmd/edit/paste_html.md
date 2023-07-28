@@ -11,8 +11,8 @@ Pastes Clipboard contents as the HTML format.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Paste
-\>Paste as HTML
+- [All Commands](../tools/all_commands): **Edit** \> **Paste**
+\> **Paste as HTML**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

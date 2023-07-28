@@ -21,7 +21,7 @@ document.selection.Delete [[ nCount ], bComplete ]
 
 _nCount_
 
-Optional. Specifies the number of characters to delete to the right of the cursor. The default is 1. If negative, the method acts like the [DeleteLeft Method](selection_deleteleft). If 0, the method acts like 1.
+Optional. Specifies the number of characters to delete to the right of the cursor. The default is 1. If negative, the method acts like the [**DeleteLeft** Method](selection_deleteleft). If 0, the method acts like 1.
 
 _bComplete_
 

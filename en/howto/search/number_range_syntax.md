@@ -2,12 +2,12 @@
 
 EmEditor allows you to use number range expressions as search expressions.
 
-To use a number range inFind,Replace,Find in Files,Replace in Files, orAdvanced Filter dialog box selectNumber Range from theMode drop-down list box.
+To use a number range in **Find**, **Replace**, **Find in Files**, **Replace in Files**, or **Advanced Filter** dialog box select **Number Range** from the **Mode** drop-down list box.
 
-To use a number range inFind,Replace,FindInFiles,ReplaceInFiles, orFilter methods of macros, include theeeExFindNumberRange flag to theExFlags parameter.
+To use a number range in **Find**, **Replace**, **FindInFiles**, **ReplaceInFiles**, or **Filter** methods of macros, include the **eeExFindNumberRange** flag to the **ExFlags** parameter.
 
 A number range is expressed as an interval notation. A bracket indicates an included endpoint, and a parenthesis indicates an excluded endpoint. If both numbers do not
-include a decimal point, the method matches only integers. Minimum and/or maximum number may be omitted to mean negative and/or positive infinity. The number format depends on the locale specified in theLocale drop-down list box in the [Sort page](../../dlg/customize/sort/index) of theCustomize dialog box. In some locales (such as German), a comma (',') is used to denote a decimal point, and in that case, a space before and after the separator comma is necessary to avoid ambiguity.
+include a decimal point, the method matches only integers. Minimum and/or maximum number may be omitted to mean negative and/or positive infinity. The number format depends on the locale specified in the **Locale** drop-down list box in the [**Sort** page](../../dlg/customize/sort/index) of the **Customize** dialog box. In some locales (such as German), a comma (',') is used to denote a decimal point, and in that case, a space before and after the separator comma is necessary to avoid ambiguity.
 
 As of v19.6, a number range can specify a set of numbers with a specified increment. An increment can be specified as the third parameter "c" in \[a , b , c\] or (a , b , c).
 

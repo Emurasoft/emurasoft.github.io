@@ -10,8 +10,8 @@ Shows or hides the end of file mark. By default, EmEditor displays the EOF mark 
 
 ## How to Run
 
-- Default Menu:View \>Marks \>End of File
-- [All Commands](../tools/all_commands):View \>Marks \>End of File
+- Default Menu: **View** \> **Marks** \> **End of File**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **End of File**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -11,7 +11,7 @@
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):창 \>그룹 \>다음 그룹으로 이동
+- [모든 명령](../tools/all_commands): **창** \> **그룹** \> **다음 그룹으로 이동**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -23,13 +23,13 @@ EEID_MOVE_NEXT_GROUP (4397)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4397);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4397

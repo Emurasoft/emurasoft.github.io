@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:书签 \>当前群组 \>反转书签
-- [所有命令](../tools/all_commands):书签 \>当前群组 \>反转书签
+- 默认菜单: **书签** \> **当前群组** \> **反转书签**
+- [所有命令](../tools/all_commands): **书签** \> **当前群组** \> **反转书签**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_BOOKMARK_GROUP_INVERT (4595)```
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4595);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4595

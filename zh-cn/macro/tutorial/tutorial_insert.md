@@ -1,6 +1,6 @@
 # 插入字符 (教程)
 
-要用宏来插入字符，用[Text 属性](../selection/selection_text)。你可以按下列步骤修改教程文件:
+要用宏来插入字符，用 **[Text 属性](../selection/selection_text)**。你可以按下列步骤修改教程文件:
 
 ## 
 
@@ -64,7 +64,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 document.selection.Text = "\\n";
 
 插入的仅仅是回车符 (LF)，而不是 Windows 行尾端的惯例。当你在 EmEditor 中按回车键时，EmEditor 会插入该行所用的行尾端方式（仅 CR，仅 LF，或 CR+LF）。如果你想要在按回车键时与在 EmEditor 中有相同的行为，我们建议你用
-[NewLine 方法](../selection/selection_newline)
-或[writeln 方法](../document/document_writeln)。
+**[NewLine 方法](../selection/selection_newline)**
+或 **[writeln 方法](../document/document_writeln)**。
 
 ## 下一主题:

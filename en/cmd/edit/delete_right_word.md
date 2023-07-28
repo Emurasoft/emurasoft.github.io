@@ -13,8 +13,8 @@ This command does delete white space.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Delete
-\>Delete Right Word
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Right Word**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+DELETE
@@ -26,14 +26,14 @@ EEID_DELETE_RIGHT_WORD (4275)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.WordRight(true,1);
 document.selection.Delete(1);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.WordRight true,1

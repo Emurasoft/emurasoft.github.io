@@ -10,8 +10,8 @@ Shows or hides space marks. By default, EmEditor does not display space marks (b
 
 ## How to Run
 
-- Default Menu:View \>Marks \>Spaces
-- [All Commands](../tools/all_commands):View \>Marks \>Spaces
+- Default Menu: **View** \> **Marks** \> **Spaces**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Spaces**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

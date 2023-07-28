@@ -1,6 +1,6 @@
 # RenameIfSameNameExists 속성 (AutoSaveProp 개체)
 
-구성 속성 [자동 저장 탭](../../dlg/properties/autosave/index) 의같은 파일 이름이 존재할 경우 이름 변경 체크 박스에 해당합니다.
+구성 속성 [**자동 저장** 탭](../../dlg/properties/autosave/index) 의 **같은 파일 이름이 존재할 경우 이름 변경** 체크 박스에 해당합니다.
 
 ## 
 

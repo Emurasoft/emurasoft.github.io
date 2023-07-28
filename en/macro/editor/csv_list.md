@@ -1,6 +1,6 @@
 # CsvList Property (Editor Object)
 
-Retrieves or sets the [CsvList Collection](../csv_list/index).
+Retrieves or sets the [**CsvList** Collection](../csv_list/index).
 
 ## 
 

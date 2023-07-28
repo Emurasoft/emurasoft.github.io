@@ -25,7 +25,7 @@ _strFileName_
 
 _nEncoding_
 
-[인코딩 상수](../const/const_encoding) 에서 선택하거나,
+**[인코딩 상수](../const/const_encoding)** 에서 선택하거나,
 Windows 운영 체제에서 사용되는 인코딩을 지정합니다.
 0이 지정되거나 생략되면, 이 메서드는 속성에 의해 미리 정의된 인코딩으로 파일을 엽니다.
 

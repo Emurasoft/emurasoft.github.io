@@ -13,9 +13,9 @@ start of each line selected.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-\>Insert Tab/Increase Line
-Indent
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Insert Tab/Increase Line**
+**Indent**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: TAB

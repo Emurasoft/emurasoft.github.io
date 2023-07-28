@@ -11,7 +11,7 @@ Jumps to the previous changed line when in comparison mode.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Compare \>Previous Changed Line
+- [All Commands](../tools/all_commands): **Compare** \> **Previous Changed Line**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_COMPARE_PREV_LINE (4556)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4556);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4556

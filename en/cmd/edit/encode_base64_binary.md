@@ -10,8 +10,8 @@ Encodes a binary file to the Base64 encoding.
 
 ## How to Run
 
-- Default Menu:Convert \>Encode/Decode \>Binary File to Base64
-- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Binary File to Base64
+- Default Menu: **Convert** \> **Encode/Decode** \> **Binary File to Base64**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Binary File to Base64**
 - Toolbar:
 None
 - Status Bar: None

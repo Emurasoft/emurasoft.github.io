@@ -8,12 +8,12 @@ Copies the selection and pastes it to the Clipboard.
 
 Copies the selection and pastes it to the Clipboard. After
 this command, you can place the text by moving the cursor to a
-different location and running the [Paste command](edit_paste).
+different location and running the [**Paste** command](edit_paste).
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Copy \>Copy Selection
+- [All Commands](../tools/all_commands): **Edit** \> **Copy** \> **Copy Selection**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -11,8 +11,8 @@ Refreshes all toolbars.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View >
-Toolbars \>Refresh
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Refresh**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

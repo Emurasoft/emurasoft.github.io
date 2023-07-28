@@ -11,8 +11,8 @@ Deletes text from the cursor position to the beginning of the logical line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Delete
-\>Delete Left Line
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Left Line**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:編輯 \>垂直選擇
-- [全部命令](../tools/all_commands):編輯 \>延伸選區
-\>垂直選擇
+- 預設功能表: **編輯** \> **垂直選擇**
+- [全部命令](../tools/all_commands): **編輯** \> **延伸選區**
+\> **垂直選擇**
 - 工具列: 無
 - 狀態列: 無
 - 預設快速鍵: 無
@@ -23,13 +23,13 @@
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3889);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3889

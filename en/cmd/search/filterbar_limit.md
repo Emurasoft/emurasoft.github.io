@@ -11,8 +11,8 @@ Toggles the Block Multiline Changes button on the Filter toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Block Multiline Changes
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Block Multiline Changes**
 - Toolbar:
 ![](../../images/blockmultilinechanges.gif) (Filter toolbar)
 - Status Bar: None
@@ -25,13 +25,13 @@ EEID_FILTERBAR_LIMIT(3915)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3915);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3915

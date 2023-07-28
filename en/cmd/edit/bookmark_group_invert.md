@@ -10,8 +10,8 @@ Inverts all bookmarks in this group, bookmarking lines that were not bookmarked,
 
 ## How to Run
 
-- Default Menu:Bookmarks \>This Group \>Invert Bookmarks
-- [All Commands](../tools/all_commands):Bookmarks \>This Group \>Invert Bookmarks
+- Default Menu: **Bookmarks** \> **This Group** \> **Invert Bookmarks**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **This Group** \> **Invert Bookmarks**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

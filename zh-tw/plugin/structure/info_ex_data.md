@@ -1,6 +1,6 @@
 # INFO\_EX\_DATA
 
-用於 [EE\_INFO\_EX 消息](../message/ee_info_ex)。
+用於 [**EE\_INFO\_EX** 消息](../message/ee_info_ex)。
 
 typedef struct \_INFO\_EX\_DATA {
 
@@ -22,7 +22,7 @@ _cbSize_
 
 _nCmd_
 
-指定要檢索或設定的參數。請參閱 [EE\_INFO 消息](../message/ee_info) 的命令清單。
+指定要檢索或設定的參數。請參閱 [**EE\_INFO** 消息](../message/ee_info) 的命令清單。
 
 _hDoc_
 

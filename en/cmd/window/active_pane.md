@@ -11,9 +11,9 @@ Switches to the active pane when a custom bar is displayed.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Panes
-\>Active Pane
+- [All Commands](../tools/all_commands): **Window**
+\> **Panes**
+\> **Active Pane**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

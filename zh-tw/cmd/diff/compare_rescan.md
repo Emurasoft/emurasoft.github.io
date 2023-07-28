@@ -10,11 +10,11 @@
 
 ## 運行方法
 
-- 預設功能表:比較 \>重新掃描
-- [全部命令](../tools/all_commands):比較 \>重新掃描
+- 預設功能表: **比較** \> **重新掃描**
+- [全部命令](../tools/all_commands): **比較** \> **重新掃描**
 - 工具列:  ![](../../images/rescan24x16.gif)
 - 狀態列: 無
-- 預設捷徑:F5
+- 預設捷徑: **F5**
 
 ## 外掛程式命令ID
 
@@ -23,13 +23,13 @@ EEID_COMPARE_RESCAN (4494)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4494);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4494

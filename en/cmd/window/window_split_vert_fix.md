@@ -12,8 +12,8 @@ at the center of the window immediately.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Split \>Split Vertically and Fix Position
+- [All Commands](../tools/all_commands): **Window**
+\> **Split** \> **Split Vertically and Fix Position**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -25,13 +25,13 @@ EEID_WINDOW_SPLIT_VERT_FIX (4336)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4336);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4336

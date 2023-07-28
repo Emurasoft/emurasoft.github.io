@@ -11,9 +11,9 @@ Extracts matched strings into a new document. This command will extract only one
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Extract Matched Strings
-- Toolbar: ![](../../images/extract_all.png) (Filter toolbar) > Extract Matched Strings
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Extract Matched Strings**
+- Toolbar: ![](../../images/extract_all.png) (Filter toolbar) >  **Extract Matched Strings**
 - Status Bar: None
 - Default Shortcut Key: None
 

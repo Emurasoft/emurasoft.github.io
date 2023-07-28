@@ -12,7 +12,7 @@ lParam = (LPARAM) (QUERY\_STRING\_INFO\*) pInfo;
 
 _pInfo_
 
-指定一个指针指向 [QUERY\_STRING\_INFO 结构](../structure/query_string_info)。
+指定一个指针指向 [**QUERY\_STRING\_INFO** 结构](../structure/query_string_info)。
 
 ## 返回值
 

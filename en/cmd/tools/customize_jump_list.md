@@ -11,8 +11,8 @@ Customizes the jump list. The jump list is displayed on the Task Bar when you ri
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Customize Jump List
+- [All Commands](all_commands): **Tools** >
+**Customize Jump List**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

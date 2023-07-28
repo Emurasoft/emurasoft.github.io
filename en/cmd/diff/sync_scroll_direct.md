@@ -10,9 +10,9 @@ Synchronizes scrolling of the two most recently viewed documents without specify
 
 ## How to Run
 
-- Default Menu:Compare \>Synchronize Scrolling Direct
-- [All Commands](../tools/all_commands):Compare \>Synchronize Scrolling
-Direct
+- Default Menu: **Compare** \> **Synchronize Scrolling Direct**
+- [All Commands](../tools/all_commands): **Compare** \> **Synchronize Scrolling**
+**Direct**
 - Toolbar: ![](../../images/sync24x16.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

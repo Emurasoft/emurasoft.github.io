@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:CSV \>列 \>左对齐
-- [所有命令](../tools/all_commands):CSV \>列 \>左对齐
+- 默认菜单: **CSV** \> **列** \> **左对齐**
+- [所有命令](../tools/all_commands): **CSV** \> **列** \> **左对齐**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_ALIGN_LEFT (23232)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(23232);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 23232

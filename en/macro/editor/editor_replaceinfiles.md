@@ -51,7 +51,7 @@ Specifies a combination of the following values.
 
 _nEncoding_
 
-Selects from the[Encoding Constants](../const/const_encoding),
+Selects from the **[Encoding Constants](../const/const_encoding)**,
 or specify any code page used in the Windows Operating System. If 0 is specified or omitted, the encoding specified in the configuration properties associated with the searched file name will be used.
 
 _strFilesToIgnore_

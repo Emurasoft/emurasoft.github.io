@@ -1,96 +1,96 @@
 # Q. 外部工具配置的例子有哪些？
 
-- 打开IE浏览器
+- 打开 **IE浏览器**
 
-命令: C:\\Program Files\\Internet Explorer\\iexplore.exe
+**命令**: C:\\Program Files\\Internet Explorer\\iexplore.exe
 
-参数: $(Path)
+**参数**: $(Path)
 
-初始目录: $(Dir)
+**初始目录**: $(Dir)
 
-图标路径: C:\\Program Files\\Internet Explorer\\iexplore.exe
+**图标路径**: C:\\Program Files\\Internet Explorer\\iexplore.exe
 
-CheckSave File
+Check **Save File**
 
-- 打开资源浏览器
+- 打开 **资源浏览器**
 
-命令: %WinDir%\\explorer.exe
+**命令**: %WinDir%\\explorer.exe
 
-参数: $(Dir)
+**参数**: $(Dir)
 
-初始目录: $(Dir)
+**初始目录**: $(Dir)
 
-图标路径: %WinDir%\\explorer.exe
+**图标路径**: %WinDir%\\explorer.exe
 
-- 打开命令提示符
+- 打开 **命令提示符**
 
-命令: %WinDir%\\system32\\cmd.exe
+**命令**: %WinDir%\\system32\\cmd.exe
 
-参数: $(Dir)
+**参数**: $(Dir)
 
-初始目录: $(Dir)
+**初始目录**: $(Dir)
 
-图标路径: %WinDir%\\system32\\cmd.exe
+**图标路径**: %WinDir%\\system32\\cmd.exe
 
-- 通过Visual C++ 编译
+- 通过 **Visual C++** 编译
 
-命令: %WinDir%\\system32\\cmd.exe
+**命令**: %WinDir%\\system32\\cmd.exe
 
-参数: /k "C:\\Program Files\\Visual Studio\\Vc7\\bin\\vcvars32.bat"&&cl $(Path)
+**参数**: /k "C:\\Program Files\\Visual Studio\\Vc7\\bin\\vcvars32.bat"&&cl $(Path)
 
-初始目录: $(Dir)
+**初始目录**: $(Dir)
 
-图标路径: C:\\Program Files\\Visual Studio\\Common7\\IDE\\devenv.exe
+**图标路径**: C:\\Program Files\\Visual Studio\\Common7\\IDE\\devenv.exe
 
-检查保存文件
+检查 **保存文件**
 
 - 运行相关程序
 
-命令: $(Path)
+**命令**: $(Path)
 
-参数:
+**参数**:
 
-初始目录: $(Dir)
+**初始目录**: $(Dir)
 
-图标路径:
+**图标路径**:
 
-检查保存文件
+检查 **保存文件**
 
-- 用Google 搜索在光标处的单字或一段选取的文本。
+- 用 **Google** 搜索在光标处的单字或一段选取的文本。
 
-命令: http://google.com/search?q=$(CurText)
+**命令**: http://google.com/search?q=$(CurText)
 
-参数:
+**参数**:
 
-初始目录:
+**初始目录**:
 
-图标路径:
+**图标路径**:
 
-- 从Microsoft Visual SourceSafe 签出
+- 从 **Microsoft Visual SourceSafe** 签出
 
-命令: %WinDir%\\system32\\cmd.exe
+**命令**: %WinDir%\\system32\\cmd.exe
 
-参数: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkout
+**参数**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkout
 $/(path)/$(Filename).$(Ext) -y(user name)
 
-初始目录: $(Dir)
+**初始目录**: $(Dir)
 
-图标路径: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
+**图标路径**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
 
-- 签入到Microsoft Visual SourceSafe 中
+- 签入到 **Microsoft Visual SourceSafe** 中
 
-命令: %WinDir%\\system32\\cmd.exe
+**命令**: %WinDir%\\system32\\cmd.exe
 
-参数: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkin
+**参数**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkin
 $/(path)/$(Filename).$(Ext) -y(user name)
 
-初始目录: $(Dir)
+**初始目录**: $(Dir)
 
-图标路径: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
+**图标路径**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
 
-检查保存文件
+检查 **保存文件**
 
-您能在命令，参数，初始目录，and图标路径 中使用下面预先定义的参数。
+您能在 **命令**， **参数**， **初始目录**，and **图标路径** 中使用下面预先定义的参数。
 
 $(Path) 文件的完整路径名称。
 

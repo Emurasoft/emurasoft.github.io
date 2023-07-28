@@ -10,8 +10,8 @@ Removes leading spaces, tabs, and full-width spaces in the selection.
 
 ## How to Run
 
-- Default Menu:Convert \>Remove Leading Spaces
-- [All Commands](../tools/all_commands):Convert \>Remove Leading Spaces
+- Default Menu: **Convert** \> **Remove Leading Spaces**
+- [All Commands](../tools/all_commands): **Convert** \> **Remove Leading Spaces**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

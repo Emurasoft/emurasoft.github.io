@@ -1,8 +1,8 @@
 # ShowDBSpaces Property (MarkProp Object)
 
-Corresponds to theShow
-Double-Byte Spaces check box in the
-[Marks page](../../dlg/properties/marks/index) of Configuration Properties.
+Corresponds to the **Show**
+**Double-Byte Spaces** check box in the
+[**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
 
 ## 
 

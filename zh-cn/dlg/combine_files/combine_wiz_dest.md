@@ -20,7 +20,7 @@
 
 ## “换行符”下拉列表框
 
-指定如何保存换行。无更改 不会变更换行方式。CR+LF (Windows) 会把所有换行方式变为 CR+LF 对。仅 CR (Macintosh) 会把所有换行方式变为 CR。仅LF (Unix) 会把所有换行方式变为 LF。一般，Windows 用 CR+LF 的换行方式；Macintosh 仅用 CR，Unix 仅用 LF。
+指定如何保存换行。 **无更改** 不会变更换行方式。 **CR+LF (Windows)** 会把所有换行方式变为 CR+LF 对。 **仅 CR (Macintosh)** 会把所有换行方式变为 CR。 **仅LF (Unix)** 会把所有换行方式变为 LF。一般，Windows 用 CR+LF 的换行方式；Macintosh 仅用 CR，Unix 仅用 LF。
 
 ## “仅已设置书签的行”复选框
 

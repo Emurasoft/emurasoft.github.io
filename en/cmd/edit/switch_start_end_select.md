@@ -11,8 +11,8 @@ Moves the cursor to the opposite end of the selection (i.e., if the cursor is cu
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Selection Mode
-\>Switch Starting Point and Ending Point
+- [All Commands](../tools/all_commands): **Edit** \> **Selection Mode**
+\> **Switch Starting Point and Ending Point**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: Shift + F8

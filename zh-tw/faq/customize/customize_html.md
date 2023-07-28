@@ -1,3 +1,3 @@
 # Q. 關于組態屬性中「亮顯 (2)」頁面上的「特殊語法」的選項，什么時候適合選擇「HTML」，什么時候要選擇「HTML-嵌入」？
 
-當指定指令碼語言的 HTML 標籤 (<SCRIPT type=...>) 出現在 HTML 文檔中時，您可以選擇「HTML」。「HTML」的選項同時也適合 ASP 檔案，包括以 % 符號開始的指令碼，諸如 VBScript，Javascript，PerlScript，CSS 等等。當您使用的指令碼語言是像 PHP 或 JSP 這類的，并且標示這些指令碼的開頭的幾個字元在「指令碼開始」 文字方塊中被指定時，「HTML-嵌入」的特殊語法會比較適合。
+當指定指令碼語言的 HTML 標籤 (<SCRIPT type=...>) 出現在 HTML 文檔中時，您可以選擇「HTML」。「HTML」的選項同時也適合 ASP 檔案，包括以 % 符號開始的指令碼，諸如 VBScript，Javascript，PerlScript，CSS 等等。當您使用的指令碼語言是像 PHP 或 JSP 這類的，并且標示這些指令碼的開頭的幾個字元在 **「指令碼開始」** 文字方塊中被指定時，「HTML-嵌入」的特殊語法會比較適合。

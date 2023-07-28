@@ -23,13 +23,13 @@
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 無
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 無

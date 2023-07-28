@@ -10,8 +10,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:편집 \>책갈피 \>책갈피된 줄 잘라내기
-- [모든 명령](../tools/all_commands):편집 \>책갈피 \>책갈피된 줄 잘라내기
+- 기본 메뉴: **편집** \> **책갈피** \> **책갈피된 줄 잘라내기**
+- [모든 명령](../tools/all_commands): **편집** \> **책갈피** \> **책갈피된 줄 잘라내기**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -23,13 +23,13 @@ EEID_BOOKMARK_CUT (3852)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3852);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3852

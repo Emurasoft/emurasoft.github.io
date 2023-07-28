@@ -1,8 +1,8 @@
 # TagBegin Property (HighlightProp Object)
 
-Corresponds to theBegin
-Tag text box in the
-[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to the **Begin**
+**Tag** text box in the
+[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
 ## 
 

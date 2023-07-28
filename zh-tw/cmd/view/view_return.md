@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:檢視 \>標記 \>換行符
-- [全部命令](../tools/all_commands):檢視 \>標記 >
-換行符
+- 預設功能表: **檢視** \> **標記** \> **換行符**
+- [全部命令](../tools/all_commands): **檢視** \> **標記** >
+**換行符**
 - 工具列:
 - 狀態列: 無
 - 預設捷徑: 無
@@ -24,13 +24,13 @@ EEID_VIEW_RETURN (4532)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4532);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4532

@@ -11,8 +11,8 @@ Deletes any text at the cursor position between two white space characters. This
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Delete
-\>Delete Word
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Word**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+DELETE

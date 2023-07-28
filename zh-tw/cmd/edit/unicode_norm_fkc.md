@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:轉換 \>編碼/解碼 \>Unicode 正規化表單 KC (相容性組合)
-- [全部命令](../tools/all_commands):轉換 \>編碼/解碼 \>Unicode 正規化表單 KC (相容性組合)
+- 預設功能表: **轉換** \> **編碼/解碼** \> **Unicode 正規化表單 KC (相容性組合)**
+- [全部命令](../tools/all_commands): **轉換** \> **編碼/解碼** \> **Unicode 正規化表單 KC (相容性組合)**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -22,13 +22,13 @@
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4055);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4055

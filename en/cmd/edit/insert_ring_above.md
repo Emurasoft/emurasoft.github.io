@@ -10,8 +10,8 @@ After selecting this command, insert a character with a ring (å or Å) at the c
 
 ## How to Run
 
-- Default Menu:Insert \>Diacritics \>Ring Above
-- [All Commands](../tools/all_commands):Insert \>Diacritics \>Ring Above
+- Default Menu: **Insert** \> **Diacritics** \> **Ring Above**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Ring Above**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+2

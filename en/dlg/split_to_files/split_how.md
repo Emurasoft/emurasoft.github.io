@@ -10,7 +10,7 @@ lines.
 
 ## Lines text box
 
-If theEvery specified number of lines radio button is
+If the **Every specified number of lines** radio button is
 selected, specifies how many lines.
 
 ## After every bookmarked line radio button

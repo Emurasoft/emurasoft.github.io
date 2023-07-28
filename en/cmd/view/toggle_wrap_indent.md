@@ -10,8 +10,8 @@ Enables or disables Wrap Indent. When this command is enabled, indents will be c
 
 ## How to Run
 
-- Default Menu:View \>Tab/Indent \>Wrap Indent
-- [All Commands](../tools/all_commands):View \>Tab/Indent \>Wrap Indent
+- Default Menu: **View** \> **Tab/Indent** \> **Wrap Indent**
+- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Wrap Indent**
 - Toolbar:
 ![](../../images/wrap_indent24x16.gif)
 - Status Bar: None

@@ -6,14 +6,14 @@ Customizes menus.
 
 ## Description
 
-Displays the [Customize Menus \
+Displays the [**Customize Menus** \
 dialog box](../../dlg/menus/index), where you can customize EmEditor's menus.
 
 ## How to Run
 
-- Default Menu:Tools \>Customize Menus
-- [All Commands](all_commands):Tools >
-Customize Menus
+- Default Menu: **Tools** \> **Customize Menus**
+- [All Commands](all_commands): **Tools** >
+**Customize Menus**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -25,13 +25,13 @@ EEID_CUSTOMIZE_MENU (4266)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4266);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4266

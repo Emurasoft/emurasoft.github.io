@@ -52,7 +52,7 @@ _nFlags_
 
 _nEncoding_
 
-從[編碼常數](../const/const_encoding) 中選擇或指定任何用於 Windows 操作系統的代碼頁。
+從 **[編碼常數](../const/const_encoding)** 中選擇或指定任何用於 Windows 操作系統的代碼頁。
 
 _strFilesToIgnore_
 

@@ -10,8 +10,8 @@ Deletes duplicate lines in the selection or in the entire document. The first in
 
 ## How to Run
 
-- Default Menu:Sort \>Delete Duplicate Lines
-- [All Commands](../tools/all_commands):Sort \>Delete Duplicate Lines
+- Default Menu: **Sort** \> **Delete Duplicate Lines**
+- [All Commands](../tools/all_commands): **Sort** \> **Delete Duplicate Lines**
 - Toolbar: ![](../../images/deleteduplicatelines.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

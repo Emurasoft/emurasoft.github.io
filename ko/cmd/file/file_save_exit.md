@@ -10,9 +10,9 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:파일 \>저장 후 닫기
-- [모든 명령](../tools/all_commands):파일 \>닫기
-\>저장 후 닫기
+- 기본 메뉴: **파일** \> **저장 후 닫기**
+- [모든 명령](../tools/all_commands): **파일** \> **닫기**
+\> **저장 후 닫기**
 - 도구 모음: ![](../../images/filesaveexit.gif)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+E
@@ -24,13 +24,13 @@ EEID_FILE_SAVE_EXIT (4116)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4116);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4116

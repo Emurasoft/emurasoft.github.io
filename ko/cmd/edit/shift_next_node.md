@@ -11,7 +11,7 @@
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):편집 \>윤곽 \>다음 노드 확장
+- [모든 명령](../tools/all_commands): **편집** \> **윤곽** \> **다음 노드 확장**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: Alt+Shift+Down
@@ -23,13 +23,13 @@ EEID_SHIFT_NEXT_NODE (4417)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4417);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4417

@@ -1,6 +1,6 @@
 # Interface 屬性 (Window 對象)
 
-返回 [Interface 對象](../interface/index)。
+返回 [**Interface** 對象](../interface/index)。
 
 ## 
 

@@ -1,7 +1,7 @@
 # SameFontPrint Property (FontProp Object)
 
-Corresponds to theUse Display Font as Printer Font check box in the
-[Customize Font dialog box](../../dlg/properties/font/index).
+Corresponds to the **Use Display Font as Printer Font** check box in the
+[**Customize Font** dialog box](../../dlg/properties/font/index).
 
 ## 
 

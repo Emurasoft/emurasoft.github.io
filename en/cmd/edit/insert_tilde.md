@@ -10,8 +10,8 @@ After selecting this command, insert a character with a tilde (ã, ñ, õ, ẽ, 
 
 ## How to Run
 
-- Default Menu:Insert \>Diacritics \>Tilde
-- [All Commands](../tools/all_commands):Insert \>Diacritics \>Tilde
+- Default Menu: **Insert** \> **Diacritics** \> **Tilde**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Tilde**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+\`

@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):編輯 \>垂直移動游標
-\>上一行
+- [全部命令](../tools/all_commands): **編輯** \> **垂直移動游標**
+\> **上一行**
 - 工具列: 無
 - 狀態列: 無
 - 預設鍵盤快速鍵: 上移箭頭
@@ -24,13 +24,13 @@ EEID_UP (4160)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.LineUp(false,1);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.LineUp false,1

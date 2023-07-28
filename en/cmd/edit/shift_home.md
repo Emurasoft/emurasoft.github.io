@@ -11,8 +11,8 @@ Extends the selection to the beginning of the current line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Home Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Home Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -24,13 +24,13 @@ EEID_SHIFT_HOME (4180)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.StartOfLine(true,eeLineView);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.StartOfLine true,eeLineView

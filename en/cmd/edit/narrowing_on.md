@@ -11,7 +11,7 @@ Sets only the selection (whole logical lines including the selection) as editabl
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Narrowing \>Set Narrowing
+- [All Commands](../tools/all_commands): **Edit** \> **Narrowing** \> **Set Narrowing**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

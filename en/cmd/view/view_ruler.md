@@ -10,8 +10,8 @@ Shows or hides the ruler. By default, EmEditor does not display the ruler.
 
 ## How to Run
 
-- Default Menu:View \>Ruler
-- [All Commands](../tools/all_commands):View \>Ruler
+- Default Menu: **View** \> **Ruler**
+- [All Commands](../tools/all_commands): **View** \> **Ruler**
 - Toolbar:
 ![](../../images/ruler24x16.gif)
 - Status Bar: None

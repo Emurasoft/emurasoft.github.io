@@ -20,7 +20,7 @@ editor.Numbering strFirst, strInc, nMaxLines [, nFlags ]
 
 _strFirst_
 
-指定要在第一行插入的初始值或字元。除非為 _nFlags_ 參數指定了eeNumOther，否則此文字可包含非數字首碼和/或尾碼。
+指定要在第一行插入的初始值或字元。除非為 _nFlags_ 參數指定了 **eeNumOther**，否則此文字可包含非數字首碼和/或尾碼。
 
 _strInc_
 

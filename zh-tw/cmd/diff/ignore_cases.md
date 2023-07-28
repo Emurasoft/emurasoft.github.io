@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:比較 \>忽略大小寫
-- [全部命令](../tools/all_commands):比較 \>忽略大小寫
+- 預設功能表: **比較** \> **忽略大小寫**
+- [全部命令](../tools/all_commands): **比較** \> **忽略大小寫**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -23,13 +23,13 @@ EEID_IGNORE_CASES (4501)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4501);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4501

@@ -1,8 +1,8 @@
 # PromptInconsistentReturns Property (FileProp Object)
 
-Corresponds to thePrompt
-at Inconsistent Returns check box in the
-[File page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to the **Prompt**
+**at Inconsistent Returns** check box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 ## 
 

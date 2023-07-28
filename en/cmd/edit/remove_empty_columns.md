@@ -11,7 +11,7 @@ Removes empty columns in the CSV document. An empty column means that all the ce
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Convert \>Remove Empty Columns
+- [All Commands](../tools/all_commands): **Convert** \> **Remove Empty Columns**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

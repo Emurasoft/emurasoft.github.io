@@ -11,8 +11,8 @@ Toggles the Negative button on the Filter toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Negative
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Negative**
 - Toolbar: ![](../../images/filterbar_negative.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

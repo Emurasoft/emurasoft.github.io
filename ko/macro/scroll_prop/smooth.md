@@ -1,6 +1,6 @@
 # Smooth 속성 (ScrollProp 개체)
 
-구성 속성 [스크롤 탭](../../dlg/properties/scroll/index) 의부드럽게 스크롤 체크 박스에 해당합니다.
+구성 속성 [**스크롤** 탭](../../dlg/properties/scroll/index) 의 **부드럽게 스크롤** 체크 박스에 해당합니다.
 
 ## 
 

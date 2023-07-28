@@ -1,8 +1,8 @@
 # CheckFileChanged Property (FileProp Object)
 
-Corresponds to theChanged
-by Another Program drop-down list box in the
-[File page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to the **Changed**
+**by Another Program drop-down** list box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 ## 
 

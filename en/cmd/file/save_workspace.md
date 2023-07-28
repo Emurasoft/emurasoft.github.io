@@ -8,14 +8,14 @@ Saves the default workspace.
 
 This command saves the full path names, the cursor positions, and other
 settings of all currently open documents in EmEditor. The
-[Restore Default Workspace command](load_workspace) will
+[**Restore Default Workspace** command](load_workspace) will
 restore the positions and settings saved by this command.
 
 ## How to Run
 
-- Default Menu:System Tray Icon menu \>Save Default Workspace
-- [All Commands](../tools/all_commands):File \>Workspace
-\>Save Default Workspace
+- Default Menu: **System Tray Icon menu** \> **Save Default Workspace**
+- [All Commands](../tools/all_commands): **File** \> **Workspace**
+\> **Save Default Workspace**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+0
@@ -27,13 +27,13 @@ EEID_SAVE_WORKSPACE (4330)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4330);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4330

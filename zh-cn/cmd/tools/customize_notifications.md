@@ -6,14 +6,14 @@
 
 ## 说明
 
-显示让你能定义通用应用设置的 [自定义 对话框](../../dlg/customize/index) 中的通知页面。
+显示让你能定义通用应用设置的 [**自定义** 对话框](../../dlg/customize/index) 中的通知页面。
 
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](all_commands):工具 >
-自定义 >
-通知
+- [所有命令](all_commands): **工具** >
+**自定义** >
+**通知**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -25,13 +25,13 @@ EEID_CUSTOMIZE_NOTIFICATIONS (9063)```
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(9063);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 9063

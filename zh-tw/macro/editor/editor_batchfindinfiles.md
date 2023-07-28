@@ -20,7 +20,7 @@ nFound = editor.BatchFindInFiles( filters, strPath, nFlags, [ nEncoding, [ strFi
 
 _filters_
 
-指定包含搜索字串和標志的 [Filters 集合](../filters/index)。
+指定包含搜索字串和標志的 [**Filters** 集合](../filters/index)。
 
 _strPath_
 
@@ -54,7 +54,7 @@ _nFlags_
 
 _nEncoding_
 
-從[編碼常數](../const/const_encoding) 中選擇或指定任何用於 Windows 操作系統的程式碼頁。如果指定 0 或省略，將使用與搜索的檔案名關聯的組態屬性中指定的編碼。
+從 **[編碼常數](../const/const_encoding)** 中選擇或指定任何用於 Windows 操作系統的程式碼頁。如果指定 0 或省略，將使用與搜索的檔案名關聯的組態屬性中指定的編碼。
 
 _strFilesToIgnore_
 
@@ -67,7 +67,7 @@ _nExFlags_
 |     |     |
 | --- | --- |
 | eeExFindCountFrequency | 從抽出結果中創建常用字串清單。必須與 eeFindLineOnly 或 eeFindMatchedOnly 合用。 |
-| eeExFindMulti | 執行多項尋找。如果未指定，則執行批次尋找。 |
+| eeExFindMulti | 執行 **多項尋找**。如果未指定，則執行 **批次尋找**。 |
 | eeExFindOutputEncoding | 將編碼名稱附加到檔案名。 |
 | eeExFindRegexBoost | 使用 Boost.Regex 作為規則運算式引擎。 |
 | eeExFindRegexOnigmo | 使用 Onigmo 作為規則運算式引擎。 |

@@ -11,8 +11,8 @@ Filters the document in the current column without the selected text or the word
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Advanced
-\>Filter Out in Column
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
+\> **Filter Out in Column**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

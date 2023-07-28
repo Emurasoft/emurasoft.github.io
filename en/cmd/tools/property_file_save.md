@@ -6,16 +6,16 @@ Displays Save File Details Properties.
 
 ## Description
 
-Displays the [Save File Details Properties \
+Displays the [**Save File Details Properties** \
 subdialog box](../../dlg/properties/file/save_details/index)
-of theFile tab of the[Configuration Properties](../../dlg/properties/index)
+of the **File** tab of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Properties for Current Configuration \>Save File Details Properties
+- [All Commands](all_commands): **Tools** >
+**Properties for Current Configuration** \> **Save File Details Properties**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

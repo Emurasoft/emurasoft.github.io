@@ -10,8 +10,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:편집 \>책갈피 \>이 그룹 \>모든 책갈피 지우기
-- [모든 명령](../tools/all_commands):편집 \>책갈피 \>이 그룹 \>모든 책갈피 지우기
+- 기본 메뉴: **편집** \> **책갈피** \> **이 그룹** \> **모든 책갈피 지우기**
+- [모든 명령](../tools/all_commands): **편집** \> **책갈피** \> **이 그룹** \> **모든 책갈피 지우기**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -23,13 +23,13 @@ EEID_BOOKMARK_GROUP_CLEAR (4594)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4594);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4594

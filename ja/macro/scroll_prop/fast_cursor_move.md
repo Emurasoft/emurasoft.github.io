@@ -1,7 +1,7 @@
 # FastCursorMove プロパティ (ScrollProp オブジェクト)
 
-設定のプロパティの [\[スクロール\] タブ](../../dlg/properties/scroll/index) の
-\[カーソル移動の高速化\] チェック ボックスに相当します。
+設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の
+**\[カーソル移動の高速化\]** チェック ボックスに相当します。
 
 ## 
 

@@ -11,7 +11,7 @@ Enables or disables the Input Method Editor for Far East languages.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Advanced \>IME
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced** \> **IME**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+F11

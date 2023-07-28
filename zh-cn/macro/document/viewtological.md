@@ -1,6 +1,6 @@
 # ViewToLogical 方法 (Document 对象)
 
-将指定位置的显示坐标转换为逻辑坐标，并检索 [Point 对象](../point/index) 中的位置。
+将指定位置的显示坐标转换为逻辑坐标，并检索 [**Point** 对象](../point/index) 中的位置。
 
 ## 
 

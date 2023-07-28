@@ -11,8 +11,8 @@ Sets the focus to the Find toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Set Focus to Find Toolbar
+- [All Commands](../tools/all_commands): **Search**
+\> **Set Focus to Find Toolbar**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+D

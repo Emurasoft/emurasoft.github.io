@@ -1,8 +1,8 @@
 # Case Property (HighlightItem Object)
 
-Corresponds to theMatch
-Case check box in the
-[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to the **Match**
+**Case** check box in the
+[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
 ## 
 

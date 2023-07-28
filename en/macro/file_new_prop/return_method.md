@@ -1,8 +1,8 @@
 # ReturnMethod Property (FileNewProp Object)
 
-Corresponds to theReturn
-Method drop-down list box in the
-[New File Details dialog box](../../dlg/properties/file/new_details/index).
+Corresponds to the **Return**
+**Method drop-down** list box in the
+[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
 
 ## 
 

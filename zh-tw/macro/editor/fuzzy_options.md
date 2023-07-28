@@ -1,6 +1,6 @@
 # FuzzyOptions 屬性 (Editor 對象)
 
-檢索 [FuzzyOptions 對象](../fuzzy_options/index)。
+檢索 [**FuzzyOptions** 對象](../fuzzy_options/index)。
 
 ## 
 

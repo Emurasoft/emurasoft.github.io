@@ -12,8 +12,8 @@
 
 ## 運行方法
 
-- 預設功能表:插入 \>讀音符號 \>低音符號
-- [全部命令](../tools/all_commands):插入 \>讀音符號 \>低音符號
+- 預設功能表: **插入** \> **讀音符號** \> **低音符號**
+- [全部命令](../tools/all_commands): **插入** \> **讀音符號** \> **低音符號**
 - 工具列: 無
 - 狀態列: 無
 - 預設鍵盤快速鍵: CTRL+\`
@@ -25,13 +25,13 @@ EEID_INSERT_GRAVE (4303)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4303);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4303

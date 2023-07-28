@@ -10,9 +10,9 @@ Adds the next occurrence of the specified text to the selection.
 
 ## How to Run
 
-- Default Menu:Search \>Add Next Occurrence
-- [All Commands](../tools/all_commands):Search
-\>Add Next Occurrence
+- Default Menu: **Search** \> **Add Next Occurrence**
+- [All Commands](../tools/all_commands): **Search**
+\> **Add Next Occurrence**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+R

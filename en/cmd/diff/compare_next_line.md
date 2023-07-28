@@ -11,7 +11,7 @@ Jumps to the next changed line when in comparison mode.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Compare \>Next Changed Line
+- [All Commands](../tools/all_commands): **Compare** \> **Next Changed Line**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

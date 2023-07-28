@@ -7,13 +7,13 @@ Shows or hides the large file controller.
 ## Description
 
 Shows or hides the large file controller. The large file controller is displayed when a large file is opened while the
-Displays Large File Controller when a large file is opened check box (in the [File page](../../dlg/customize/file/index) of the Customize dialog box) is checked.
+**Displays Large File Controller when a large file is opened** check box (in the [File page](../../dlg/customize/file/index) of the Customize dialog box) is checked.
 
 ## How to Run
 
-- Default Menu:View \>Large File Controller
-- [All Commands](../tools/all_commands):View >
-Large File Controller
+- Default Menu: **View** \> **Large File Controller**
+- [All Commands](../tools/all_commands): **View** >
+**Large File Controller**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

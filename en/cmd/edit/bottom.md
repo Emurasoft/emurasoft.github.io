@@ -11,8 +11,8 @@ Moves the cursor to the end of the document.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Vertically
-\>Bottom
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
+\> **Bottom**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+END
@@ -24,13 +24,13 @@ EEID_BOTTOM (4169)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.EndOfDocument(false);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.EndOfDocument false

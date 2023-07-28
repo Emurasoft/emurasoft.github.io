@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:CSV \>欄 \>在左邊插入一欄
-- [全部命令](../tools/all_commands):CSV \>欄 \>在左邊插入一欄
+- 預設功能表: **CSV** \> **欄** \> **在左邊插入一欄**
+- [全部命令](../tools/all_commands): **CSV** \> **欄** \> **在左邊插入一欄**
 - 工具列: ![](../../images/columns_separators.gif) \+ 在左邊插入一欄
 - 狀態列: 無
 - 預設快速鍵: 無
@@ -22,13 +22,13 @@
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3887);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3887

@@ -11,7 +11,7 @@
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):파일 \>새로 만들기 \>트레이 아이콘 보이기
+- [모든 명령](../tools/all_commands): **파일** \> **새로 만들기** \> **트레이 아이콘 보이기**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -23,13 +23,13 @@ EEID_NEW_TRAY_ICON (4121)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4121);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4121

@@ -1,6 +1,6 @@
 # Csv 屬性 (Document 對象)
 
-檢索 [Csv 對象](../csv/index)。
+檢索 [**Csv** 對象](../csv/index)。
 
 ## 
 

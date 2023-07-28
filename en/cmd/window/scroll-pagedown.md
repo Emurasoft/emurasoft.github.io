@@ -11,7 +11,7 @@ Scrolls the document down by one page.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window \>Scroll \>Page Down
+- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Page Down**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

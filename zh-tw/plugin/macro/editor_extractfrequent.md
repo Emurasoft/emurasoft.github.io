@@ -17,7 +17,7 @@ _nType_
 | 值 | 含義 |
 | --- | --- |
 | FREQ\_TYPE\_LINES | 創建一個常用行清單。 |
-| FREQ\_TYPE\_WORDS | 創建一個常用詞清單。單字是由非字母數字字元包圍的字串，可以通過在自訂 對話方塊中的 [編輯 頁面](../../dlg/customize/edit/index) 上的將下列字元識別為字母數字 文字方塊來自訂。 |
+| FREQ\_TYPE\_WORDS | 創建一個常用詞清單。單字是由非字母數字字元包圍的字串，可以通過在 **自訂** 對話方塊中的 [**編輯** 頁面](../../dlg/customize/edit/index) 上的 **將下列字元識別為字母數字** 文字方塊來自訂。 |
 | FREQ\_TYPE\_CELLS | 創建一個常用儲存格清單。 |
 | FREQ\_TYPE\_IPV4 | 創建一個常用 IPv4 地址清單。 |
 | FREQ\_TYPE\_IPV6 | 創建一個常用 IPv6 地址清單。 |

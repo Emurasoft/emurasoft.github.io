@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:轉換 \>編碼/解碼 \>Base64 轉換為二進位檔案
-- [全部命令](../tools/all_commands):轉換 \>編碼/解碼 \>Base64 轉換為二進位檔案
+- 預設功能表: **轉換** \> **編碼/解碼** \> **Base64 轉換為二進位檔案**
+- [全部命令](../tools/all_commands): **轉換** \> **編碼/解碼** \> **Base64 轉換為二進位檔案**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -22,13 +22,13 @@
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3943);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3943

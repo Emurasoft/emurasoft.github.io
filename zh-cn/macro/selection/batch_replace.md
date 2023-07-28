@@ -20,7 +20,7 @@ nFound = document.selection.BatchReplace( filters, nFlags, nExFlags )
 
 _filters_
 
-指定包含搜索和替换字符串和标志的 [Filters 集合](../filters/index)。
+指定包含搜索和替换字符串和标志的 [**Filters** 集合](../filters/index)。
 
 _nFlags_
 
@@ -53,7 +53,7 @@ _nExFlags_
 | eeExFindEOL | 正则表达式 ‘$’ 可匹配选取部分的末尾。 |
 | eeExFindInsertColumn | 为提取的列创建一个新的 CSV 列。必须在 nFlags 中指定 eeFindExtract。新列将插入到原始列的右侧。 |
 | eeExFindLookaround | 只在选区内进行正则表达式搜索时用前后断言。 |
-| eeExFindMulti | 执行多项替换全部。如果未指定，则执行批处理替换全部。详情请参阅 [批处理和多项之间的区别](../../howto/search/batch_vs_bulk)。 |
+| eeExFindMulti | 执行 **多项替换全部**。如果未指定，则执行 **批处理替换全部**。详情请参阅 [**批处理和多项之间的区别**](../../howto/search/batch_vs_bulk)。 |
 | eeExFindRegexBoost | 把 Boost.Regex 作为正则表达式引擎。 |
 | eeExFindRegexOnigmo | 把 Onigmo 作为正则表达式引擎。 |
 | eeExFindSeparateCRLF | 区分 CR 和 LF。 |

@@ -1,6 +1,6 @@
 # List 屬性 (HighlightProp 對象)
 
-檢索 [HighlightList 集合](../highlight_list/index)。
+檢索 [**HighlightList** 集合](../highlight_list/index)。
 
 ## 
 

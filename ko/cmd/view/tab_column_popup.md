@@ -11,7 +11,7 @@
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):보기 \>탭/들여쓰기 \>탭 열
+- [모든 명령](../tools/all_commands): **보기** \> **탭/들여쓰기** \> **탭 열**
 - 도구 모음:
 ![](../../images/tab_column24x16.gif)
 - 상태 표시줄: 없음
@@ -24,13 +24,13 @@ EEID_TAB_COLUMN_POPUP (4550)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4550);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4550

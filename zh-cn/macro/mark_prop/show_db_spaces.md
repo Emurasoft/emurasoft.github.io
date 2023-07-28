@@ -1,8 +1,8 @@
 # ShowDBSpaces 属性 (MarkProp 对象)
 
-Corresponds to theShow
-Double-Byte Spaces check box in the
-[Marks tab](../../dlg/properties/marks/index) of Configuration Properties.
+Corresponds to the **Show**
+**Double-Byte Spaces** check box in the
+[**Marks** tab](../../dlg/properties/marks/index) of Configuration Properties.
 
 ## 
 

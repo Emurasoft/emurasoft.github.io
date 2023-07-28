@@ -10,8 +10,8 @@ Shows the document as the specified separated value mode.
 
 ## How to Run
 
-- Default Menu:CSV \>(CSV)
-- [All Commands](../tools/all_commands):CSV \>(CSV)
+- Default Menu: **CSV** \> **(CSV)**
+- [All Commands](../tools/all_commands): **CSV** \> **(CSV)**
 - Toolbar: ![](../../images/csv_mode.gif) (CSV)
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ From EEID_SV_MODE through EEID_SV_MODE + 63 (from 22528 through 22528 + 63)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(22528 + i); //i is an integer from 0 through 63
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 22528 + i 'i is an integer from 0 through 63

@@ -11,8 +11,8 @@ Toggles the Bookmarked Lines Only button on the Filter toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Bookmarked Lines Only
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Bookmarked Lines Only**
 - Toolbar: ![](../../images/bookmarked_lines_only.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

@@ -10,8 +10,8 @@ Align text in the selected columns or current column left.
 
 ## How to Run
 
-- Default Menu:CSV \>Columns \>Align Left
-- [All Commands](../tools/all_commands):CSV \>Columns \>Align Left
+- Default Menu: **CSV** \> **Columns** \> **Align Left**
+- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Align Left**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_ALIGN_LEFT (23232)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(23232);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 23232

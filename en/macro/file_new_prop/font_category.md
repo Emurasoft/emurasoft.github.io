@@ -1,8 +1,8 @@
 # FontCategory Property (FileNewProp Object)
 
-Corresponds to theFont
-Category drop-down list box in the
-[New File Details dialog box.](../../dlg/properties/file/new_details/index)
+Corresponds to the **Font**
+**Category drop-down** list box in the
+[**New File Details** dialog box.](../../dlg/properties/file/new_details/index)
 
 ## 
 

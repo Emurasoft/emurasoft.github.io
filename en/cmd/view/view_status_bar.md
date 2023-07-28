@@ -13,9 +13,9 @@ and the read-only mode ("READ").
 
 ## How to Run
 
-- Default Menu:View \>Status Bar
-- [All Commands](../tools/all_commands):View >
-Status Bar
+- Default Menu: **View** \> **Status Bar**
+- [All Commands](../tools/all_commands): **View** >
+**Status Bar**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

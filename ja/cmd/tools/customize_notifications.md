@@ -23,13 +23,13 @@ EEID_CUSTOMIZE_NOTIFICATIONS (9063)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(9063);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 9063

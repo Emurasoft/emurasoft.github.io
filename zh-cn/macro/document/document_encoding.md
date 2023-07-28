@@ -22,7 +22,7 @@ document.Encoding = nEncoding
 
 _nEncoding_
 
-从[编码常数](../const/const_encoding) 中选择或指定任何用于 Windows 操作系统的代码页。
+从 **[编码常数](../const/const_encoding)** 中选择或指定任何用于 Windows 操作系统的代码页。
 
 ## 版本
 

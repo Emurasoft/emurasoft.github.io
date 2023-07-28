@@ -1,6 +1,6 @@
 # UndoBufferSize プロパティ (GeneralProp オブジェクト)
 
-設定のプロパティの [\[基本\] タブ](../../dlg/properties/general/index) の\[\[元に戻す\] 最大回数\] テキスト ボックスに相当します。
+設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の **\[\[元に戻す\] 最大回数\]** テキスト ボックスに相当します。
 
 ## 
 

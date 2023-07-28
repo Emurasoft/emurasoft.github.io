@@ -1,8 +1,8 @@
 # CharacterSpace Property (DisplayProp Object)
 
-Corresponds to the Character
-Space text box in the
-[Display page](../../dlg/properties/display/index) of Configuration Properties.
+Corresponds to the **Character**
+**Space** text box in the
+[**Display** page](../../dlg/properties/display/index) of Configuration Properties.
 
 ## 
 

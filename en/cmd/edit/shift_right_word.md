@@ -13,8 +13,8 @@ after the word, this command extends the selection to the start of the next word
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Word Right Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Word Right Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+RIGHT ARROW

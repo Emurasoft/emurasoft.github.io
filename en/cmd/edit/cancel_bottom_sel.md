@@ -11,8 +11,8 @@ Deselects the bottom selection from multiple selections.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Deselect Bottom Selection from Multiple Selections
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Deselect Bottom Selection from Multiple Selections**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+SHIFT+DOWN

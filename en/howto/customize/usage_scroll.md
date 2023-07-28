@@ -3,5 +3,5 @@
 1. Click ![Properties for Current Configuration](../../images/properties.gif)
 (if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
-(if you want to change all configurations) to display theScroll tab in Properties.
-2. SelectDouble Line Scroll andFaster Cursor Movement.
+(if you want to change all configurations) to display the **Scroll** tab in Properties.
+2. Select **Double Line Scroll** and **Faster Cursor Movement**.

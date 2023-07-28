@@ -10,8 +10,8 @@ Apply Unicode Normalization Form KD (Compatibility Decomposition) defined in " [
 
 ## How to Run
 
-- Default Menu:Convert \>Encode/Decode \>Unicode Normalization Form KD (Compatibility Decomposition)
-- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Unicode Normalization Form KD (Compatibility Decomposition)
+- Default Menu: **Convert** \> **Encode/Decode** \> **Unicode Normalization Form KD (Compatibility Decomposition)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode Normalization Form KD (Compatibility Decomposition)**
 - Toolbar:
 None
 - Status Bar: None

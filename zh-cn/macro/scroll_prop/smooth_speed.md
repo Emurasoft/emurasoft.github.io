@@ -1,6 +1,6 @@
 # SmoothSpeed 属性 (ScrollProp 对象)
 
-与配置属性中 [滚动 页面](../../dlg/properties/scroll/index) 上的平滑滚动滑块 相对应。
+与配置属性中 [**滚动** 页面](../../dlg/properties/scroll/index) 上的 **平滑滚动滑块** 相对应。
 
 ## 
 

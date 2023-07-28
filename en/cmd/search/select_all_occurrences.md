@@ -10,9 +10,9 @@ Selects all the occurrences of the specified text in the current document.
 
 ## How to Run
 
-- Default Menu:Search \>Select All Occurrences
-- [All Commands](../tools/all_commands):Search
-\>Select All Occurrences
+- Default Menu: **Search** \> **Select All Occurrences**
+- [All Commands](../tools/all_commands): **Search**
+\> **Select All Occurrences**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+Shift+A
@@ -24,13 +24,13 @@ EEID_SELECT_ALL_OCCURRENCES (4603)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4603);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4603

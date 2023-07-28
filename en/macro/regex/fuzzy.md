@@ -1,6 +1,6 @@
 # Fuzzy Property (Regex Object)
 
-Sets or retrieves the fuzzy matching flag. This special flag uses fuzzy matching, and disables regular expressions. You cannot combine fuzzy matching with regular expressions. If this property is set,[Engine](engine) and[SeparateCrLf](separate_cr_lf) properties are ignored.
+Sets or retrieves the fuzzy matching flag. This special flag uses fuzzy matching, and disables regular expressions. You cannot combine fuzzy matching with regular expressions. If this property is set, **[Engine](engine)** and **[SeparateCrLf](separate_cr_lf)** properties are ignored.
 
 ## 
 

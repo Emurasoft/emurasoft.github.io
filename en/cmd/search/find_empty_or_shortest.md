@@ -10,9 +10,9 @@ Finds the shortest line in a non-CSV document or shortest cell in the current co
 
 ## How to Run
 
-- Default Menu:Search \>Find Shortest Line/Cell
-- [All Commands](../tools/all_commands):Search
-\>Find Shortest Line/Cell
+- Default Menu: **Search** \> **Find Shortest Line/Cell**
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Shortest Line/Cell**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

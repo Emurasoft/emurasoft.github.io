@@ -25,7 +25,7 @@ Specifies a string indicating the keystrokes you want to send. It can also inclu
 
 |     |     |
 | --- | --- |
-|Key |Parameter |
+| **Key** | **Parameter** |
 | ALT | % |
 | ALT DOWN | {ALT DOWN} |
 | ALT UP | {ALT UP} |

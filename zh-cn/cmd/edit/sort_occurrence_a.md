@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:排序 \>按出现次数升序排序
-- [所有命令](../tools/all_commands):排序 \>按出现次数升序排序
+- 默认菜单: **排序** \> **按出现次数升序排序**
+- [所有命令](../tools/all_commands): **排序** \> **按出现次数升序排序**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_SORT_OCCURRENCE_A (4001)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4001);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4001

@@ -1,8 +1,8 @@
 # URLCharactersNotEnd Property (LinkProp Object)
 
-Corresponds to theCharacters
-Not Allowed at End text box in the
-[Link page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to the **Characters**
+**Not Allowed at End** text box in the
+[**Link** page](../../dlg/properties/link/index) of Configuration Properties.
 
 ## 
 

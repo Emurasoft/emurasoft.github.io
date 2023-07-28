@@ -1,6 +1,6 @@
 # Item 屬性 (CharacterRanges 集合)
 
-為指定索引檢索 [CharacterRange 對象](../character_range/index)。
+為指定索引檢索 [**CharacterRange** 對象](../character_range/index)。
 
 ## 
 

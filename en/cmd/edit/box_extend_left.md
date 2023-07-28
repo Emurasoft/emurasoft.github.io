@@ -11,8 +11,8 @@ Extends the vertical selection one character to the left.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Char Left Extend (Vertical Mode)
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Char Left Extend (Vertical Mode)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+LEFT ARROW
@@ -24,13 +24,13 @@ EEID_BOX_EXTEND_LEFT (4026)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4026);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4026

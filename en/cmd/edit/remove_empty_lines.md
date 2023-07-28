@@ -11,7 +11,7 @@ Removes empty lines in the selection or the whole document.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Convert \>Remove Empty Lines
+- [All Commands](../tools/all_commands): **Convert** \> **Remove Empty Lines**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

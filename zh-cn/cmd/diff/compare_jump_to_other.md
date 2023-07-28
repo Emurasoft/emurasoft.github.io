@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:比较 \>跳转到其他
-- [所有命令](../tools/all_commands):比较 \>跳转到其他
+- 默认菜单: **比较** \> **跳转到其他**
+- [所有命令](../tools/all_commands): **比较** \> **跳转到其他**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_COMPARE_JUMP_TO_OTHER (4048)```
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4048);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4048

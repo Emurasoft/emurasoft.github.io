@@ -1,7 +1,7 @@
 # MonitorInterval Property (FileProp Object)
 
-Corresponds to theMonitor Interval text box in the
-[File page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to the **Monitor Interval** text box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 ## 
 

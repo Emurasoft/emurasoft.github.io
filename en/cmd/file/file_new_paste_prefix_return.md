@@ -6,13 +6,13 @@ Creates a file, pastes the current selection in quotes and newline characters.
 
 ## Description
 
-This command is equivalent to the [New Text \
-command](file_new) followed by the [Paste in Quotes and Newline Characters command](../edit/paste_prefix_return).
+This command is equivalent to the [**New Text** \
+command](file_new) followed by the [**Paste in Quotes and Newline Characters** command](../edit/paste_prefix_return).
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>New \>New File, Paste in Quotes and Newline Characters
+- [All Commands](../tools/all_commands): **File** \> **New** \> **New File, Paste in Quotes and Newline Characters**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

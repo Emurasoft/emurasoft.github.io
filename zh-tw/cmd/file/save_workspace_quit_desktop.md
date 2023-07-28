@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):檔案 \>關閉
-\>儲存工作區并全部關閉 (僅目前的桌面)
+- [全部命令](../tools/all_commands): **檔案** \> **關閉**
+\> **儲存工作區并全部關閉 (僅目前的桌面)**
 - 工具列: 無
 - 狀態列: 無
 - 預設快速鍵: 無
@@ -24,13 +24,13 @@ EEID_SAVE_WORKSPACE_QUIT_DESKTOP (3938)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3938);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3938

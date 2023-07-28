@@ -1,7 +1,7 @@
 # MarginNormal Property (GeneralProp Object)
 
-Corresponds to theNormal Line Margin text box in the
-[General page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to the **Normal Line Margin** text box in the
+[**General** page](../../dlg/properties/general/index) of Configuration Properties.
 
 ## 
 

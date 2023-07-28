@@ -10,9 +10,9 @@ Arranges non-combined EmEditor windows vertically as non-overlapping tiles.
 
 ## How to Run
 
-- Default Menu:Window \>Tile Vertically
-- [All Commands](../tools/all_commands):Window
-\>Tile Vertically
+- Default Menu: **Window** \> **Tile Vertically**
+- [All Commands](../tools/all_commands): **Window**
+\> **Tile Vertically**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

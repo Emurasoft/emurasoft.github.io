@@ -11,9 +11,9 @@ normal size. This command consists of multiple menu items.
 
 ## How to Run
 
-- Default Menu:Window \> (document name)
-- [All Commands](../tools/all_commands):Window
-\> (document name)
+- Default Menu: **Window** \> ( **document name**)
+- [All Commands](../tools/all_commands): **Window**
+\> ( **document name**)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

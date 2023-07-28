@@ -6,13 +6,13 @@ Displays the Customize Markers dialog box, and selects the Marker List tab.
 
 ## Description
 
-Displays the [Customize Markers dialog box](../../dlg/customize_markers/index), and selects theMarker List tab.
+Displays the [**Customize Markers** dialog box](../../dlg/customize_markers/index), and selects the **Marker List** tab.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Customize Markers \>Marker List
+- [All Commands](all_commands): **Tools** >
+**Customize Markers** \> **Marker List**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

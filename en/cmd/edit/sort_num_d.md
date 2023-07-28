@@ -10,8 +10,8 @@ Sort numbers at the current column in descending order. This command will not fu
 
 ## How to Run
 
-- Default Menu:Sort \>Sort Largest to Smallest
-- [All Commands](../tools/all_commands):Sort \>Sort Largest to Smallest
+- Default Menu: **Sort** \> **Sort Largest to Smallest**
+- [All Commands](../tools/all_commands): **Sort** \> **Sort Largest to Smallest**
 - Toolbar: ![](../../images/sorting9-0.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_SORT_NUM_D (4480)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4480);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4480

@@ -1,7 +1,7 @@
 # Folder Property (BackupProp Object)
 
-Corresponds to theBackup Folder text box in the
-[Backup page](../../dlg/properties/backup/index) of Configuration Properties.
+Corresponds to the **Backup Folder** text box in the
+[**Backup** page](../../dlg/properties/backup/index) of Configuration Properties.
 
 ## 
 

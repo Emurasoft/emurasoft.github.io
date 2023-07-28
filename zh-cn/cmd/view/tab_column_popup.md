@@ -11,7 +11,7 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):查看 \>制表符/缩进 \>制表栏
+- [所有命令](../tools/all_commands): **查看** \> **制表符/缩进** \> **制表栏**
 - Toolbar:
 ![](../../images/tab_column24x16.gif)
 - 状态栏: 无

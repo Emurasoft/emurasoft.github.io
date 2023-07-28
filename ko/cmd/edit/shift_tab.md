@@ -12,7 +12,7 @@
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):편집 \>가로로 커서 이동 \>반전 탭/줄 내어쓰기
+- [모든 명령](../tools/all_commands): **편집** \> **가로로 커서 이동** \> **반전 탭/줄 내어쓰기**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: SHIFT+TAB
@@ -24,13 +24,13 @@ EEID_SHIFT_TAB (4189)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4189);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4189

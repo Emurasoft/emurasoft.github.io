@@ -11,8 +11,8 @@ Toggles the Incremental Search button on the Find toolbar. When Incremental Sear
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Incremental Search
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Incremental Search**
 - Toolbar: ![](../../images/find_incremental.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

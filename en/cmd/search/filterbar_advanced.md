@@ -11,8 +11,8 @@ Shows the Advanced Filter dialog box.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Advanced Filter
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Advanced Filter**
 - Toolbar: ![](../../images/filterbar_advanced.png) (filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_FILTERBAR_ADVANCED (3919)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3919);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3919

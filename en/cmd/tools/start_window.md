@@ -11,8 +11,8 @@ Displays the Start window.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools
->Start Window
+- [All Commands](all_commands): **Tools**
+> **Start Window**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_START_WINDOW (3948)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3948);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3948

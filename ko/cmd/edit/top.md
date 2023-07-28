@@ -11,7 +11,7 @@
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):편집 \>세로로 커서 이동 \>위쪽
+- [모든 명령](../tools/all_commands): **편집** \> **세로로 커서 이동** \> **위쪽**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+HOME
@@ -23,13 +23,13 @@ EEID_TOP (4168)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.StartOfDocument(false);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.StartOfDocument false

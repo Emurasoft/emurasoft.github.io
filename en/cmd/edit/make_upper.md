@@ -11,8 +11,8 @@ become Ä, and λ will become Λ.
 
 ## How to Run
 
-- Default Menu:Convert \>Uppercase
-- [All Commands](../tools/all_commands):Convert \>Uppercase
+- Default Menu: **Convert** \> **Uppercase**
+- [All Commands](../tools/all_commands): **Convert** \> **Uppercase**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+U

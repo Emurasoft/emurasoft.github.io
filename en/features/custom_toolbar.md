@@ -1,6 +1,6 @@
 # New Plug-ins
 
-The following plug-ins are new in Version 7. The Projects plug-in and the Word Complete plug-in utilize theCustom Toolbar feature.
+The following plug-ins are new in Version 7. The Projects plug-in and the Word Complete plug-in utilize the **Custom Toolbar** feature.
 
 -
 FindBar Plug-in - allows you to do searches, including incremental search, from within the toolbar.

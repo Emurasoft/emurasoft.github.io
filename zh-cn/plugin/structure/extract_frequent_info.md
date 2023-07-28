@@ -31,7 +31,7 @@ _nType_
 | 值 | 含义 |
 | --- | --- |
 | FREQ\_TYPE\_LINES | 创建一个常用行列表。 |
-| FREQ\_TYPE\_WORDS | 创建一个常用词列表。单词是由非字母数字字符包围的字符串，可以通过在自定义 对话框中的 [编辑 页面](../../dlg/customize/edit/index) 上的将下列字符识别为字母数字 文本框来自定义。 |
+| FREQ\_TYPE\_WORDS | 创建一个常用词列表。单词是由非字母数字字符包围的字符串，可以通过在 **自定义** 对话框中的 [**编辑** 页面](../../dlg/customize/edit/index) 上的 **将下列字符识别为字母数字** 文本框来自定义。 |
 | FREQ\_TYPE\_CELLS | 创建一个常用单元格列表。 |
 | FREQ\_TYPE\_IPV4 | 创建一个常用 IPv4 地址列表。 |
 | FREQ\_TYPE\_IPV6 | 创建一个常用 IPv6 地址列表。 |

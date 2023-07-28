@@ -10,8 +10,8 @@ Adjusts all separator positions in the CSV document.
 
 ## How to Run
 
-- Default Menu:CSV \>Adjust Separator Positions (Whole Document)
-- [All Commands](../tools/all_commands):CSV \>Adjust Separator Positions (Whole Document)
+- Default Menu: **CSV** \> **Adjust Separator Positions (Whole Document)**
+- [All Commands](../tools/all_commands): **CSV** \> **Adjust Separator Positions (Whole Document)**
 - Toolbar: ![](../../images/columns_separators.gif) \+ Adjust Separator Positions (Whole Document)
 - Status Bar: None
 - Default Keyboard Shortcut: None

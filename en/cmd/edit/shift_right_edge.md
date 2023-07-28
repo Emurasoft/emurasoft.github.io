@@ -11,7 +11,7 @@ Extends the selection to the right edge of the current data region.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV \>Cell Selection Mode Only \>Right Edge Extend
+- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode Only** \> **Right Edge Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+RIGHT ARROW (Cell Selection Mode Only)

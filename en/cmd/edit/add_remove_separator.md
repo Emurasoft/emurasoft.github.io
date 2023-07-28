@@ -11,7 +11,7 @@ Adds or removes a separator at the cursor position (or at the pointed position o
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV >Separators \>Add/Remove Separator
+- [All Commands](../tools/all_commands): **CSV** > **Separators** \> **Add/Remove Separator**
 - Toolbar: ![](../../images/columns_separators.gif) \+ Add/Remove Separator
 - Status Bar: None
 - Default Keyboard Shortcut: None

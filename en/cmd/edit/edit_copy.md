@@ -6,13 +6,13 @@ Copies the selection or the current line and pastes it to the Clipboard.
 
 ## Description
 
-Copies the selected text and moves it to the Clipboard. After this command, you can place the selection by moving the cursor to a different location running the [Paste command](edit_paste).
+Copies the selected text and moves it to the Clipboard. After this command, you can place the selection by moving the cursor to a different location running the [**Paste** command](edit_paste).
 
 ## How to Run
 
-- Default Menu:Edit \>Copy
-- [All Commands](../tools/all_commands):Edit \>Copy
-\>Copy
+- Default Menu: **Edit** \> **Copy**
+- [All Commands](../tools/all_commands): **Edit** \> **Copy**
+\> **Copy**
 - Toolbar: ![](../../images/copy.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+C or CTRL+INSERT

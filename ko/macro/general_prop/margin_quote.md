@@ -1,6 +1,6 @@
 # MarginQuote 속성 (GeneralProp 개체)
 
-구성 속성 [일반 탭](../../dlg/properties/general/index) 의따옴표 붙은 줄여백 텍스트 박스에 해당합니다.
+구성 속성 [**일반** 탭](../../dlg/properties/general/index) 의 **따옴표 붙은 줄여백** 텍스트 박스에 해당합니다.
 
 ## 
 

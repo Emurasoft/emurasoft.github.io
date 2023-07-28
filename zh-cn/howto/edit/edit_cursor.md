@@ -8,13 +8,13 @@
 
 另外，你还可以用下列快捷键移动光标。
 
--CTRL+ RIGHT 右移一个单词。
--CTRL+ LEFT 左移一个单词。
--HOME 移至当前行行首。
--ALT+ HOME 移至当前行逻辑行行首。
--END 移至当前行行末。
--ALT+ END 移至当前行逻辑行行首。
--PAGE UP 上移一页。
--PAGE DOWN 下移一页
--CTRL+ HOME 移到文件顶部。
--CTRL+ END 移到文件底部。
+- **CTRL+ RIGHT** 右移一个单词。
+- **CTRL+ LEFT** 左移一个单词。
+- **HOME** 移至当前行行首。
+- **ALT+ HOME** 移至当前行逻辑行行首。
+- **END** 移至当前行行末。
+- **ALT+ END** 移至当前行逻辑行行首。
+- **PAGE UP** 上移一页。
+- **PAGE DOWN** 下移一页
+- **CTRL+ HOME** 移到文件顶部。
+- **CTRL+ END** 移到文件底部。

@@ -6,12 +6,12 @@ Combines selected columns of the CSV document.
 
 ## Description
 
-This command displays the [Combine Columns dialog box](../../dlg/combine_columns/index), and combines selected columns of the CSV document.
+This command displays the [**Combine Columns** dialog box](../../dlg/combine_columns/index), and combines selected columns of the CSV document.
 
 ## How to Run
 
-- Default Menu:CSV \>Columns \>Combine Columns
-- [All Commands](../tools/all_commands):CSV \>Columns \>Combine Columns
+- Default Menu: **CSV** \> **Columns** \> **Combine Columns**
+- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Combine Columns**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_COMBINE_COLUMNS (4047)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4047);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4047

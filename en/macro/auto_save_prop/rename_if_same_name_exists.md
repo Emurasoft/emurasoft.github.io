@@ -1,8 +1,8 @@
 # RenameIfSameNameExists Property (AutoSaveProp Object)
 
-Corresponds to theRename
-if the Same File Name Exists check box in the
-[Auto Save page](../../dlg/properties/autosave/index) of Configuration Properties.
+Corresponds to the **Rename**
+**if the Same File Name Exists** check box in the
+[**Auto Save** page](../../dlg/properties/autosave/index) of Configuration Properties.
 
 ## 
 

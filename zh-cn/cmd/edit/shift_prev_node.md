@@ -11,7 +11,7 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):编辑 \>大纲 \>扩展到上一个节点
+- [所有命令](../tools/all_commands): **编辑** \> **大纲** \> **扩展到上一个节点**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: Alt+Shift+Up
@@ -23,13 +23,13 @@ EEID_SHIFT_PREV_NODE (4418)```
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4418);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4418

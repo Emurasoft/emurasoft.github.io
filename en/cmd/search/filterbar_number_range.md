@@ -11,8 +11,8 @@ Toggles the Use Number Range button on the Filter toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Filter Toolbar
-\>Use Number Range
+- [All Commands](../tools/all_commands): **Edit** \> **Filter Toolbar**
+\> **Use Number Range**
 - Toolbar: ![](../../images/use_number_range.png) (Filter toolbar)
 - Status Bar: None
 - Default Keyboard Shortcut: None

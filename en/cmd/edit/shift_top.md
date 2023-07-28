@@ -11,8 +11,8 @@ Extends the selection to the top of the document.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
->Top Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+> **Top Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+HOME

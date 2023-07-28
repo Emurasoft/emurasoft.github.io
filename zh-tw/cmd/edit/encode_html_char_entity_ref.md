@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:轉換 \>編碼/解碼 \>將 Unicode 轉換為 HTML 字元實體參照
-- [全部命令](../tools/all_commands):轉換 \>編碼/解碼 \>將 Unicode 轉換為 HTML 字元實體參照
+- 預設功能表: **轉換** \> **編碼/解碼** \> **將 Unicode 轉換為 HTML 字元實體參照**
+- [全部命令](../tools/all_commands): **轉換** \> **編碼/解碼** \> **將 Unicode 轉換為 HTML 字元實體參照**
 - 工具列:
 None
 - 狀態列: 無
@@ -24,13 +24,13 @@ EEID_ENCODE_HTML_CHAR_ENTITY_REF (4563)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4563);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4563

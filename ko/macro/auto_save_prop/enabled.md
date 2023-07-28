@@ -1,6 +1,6 @@
 # Enabled 속성 (AutoSaveProp 개체)
 
-구성 속성 [자동 저장 탭](../../dlg/properties/autosave/index) 의자동 저장 체크 박스에 해당합니다.
+구성 속성 [**자동 저장** 탭](../../dlg/properties/autosave/index) 의 **자동 저장** 체크 박스에 해당합니다.
 
 ## 
 

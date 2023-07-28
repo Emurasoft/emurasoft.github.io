@@ -1,6 +1,6 @@
 # VerticalBar Property (ScrollProp Object)
 
-Corresponds to theVertical Scroll Bar drop-down list box in the [Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to the **Vertical Scroll Bar drop-down** list box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 
 ## 
 

@@ -1,7 +1,7 @@
 # UndoBufferSize Property (GeneralProp Object)
 
-Corresponds to theUndo Max Number text box in the
-[General page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to the **Undo Max Number** text box in the
+[**General** page](../../dlg/properties/general/index) of Configuration Properties.
 
 ## 
 

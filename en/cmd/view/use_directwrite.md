@@ -10,10 +10,10 @@ Toggles the Use DirectWrite setting.
 
 ## How to Run
 
-- Default Menu:View \>Use DirectWrite
-- [All Commands](../tools/all_commands):View \>Font \>Use DirectWrite
+- Default Menu: **View** \> **Use DirectWrite**
+- [All Commands](../tools/all_commands): **View** \> **Font** \> **Use DirectWrite**
 - Toolbar: ![](../../images/fontpopup.gif)
-(on the arrow) >Use DirectWrite
+(on the arrow) > **Use DirectWrite**
 - Status Bar: None
 - Default Shortcut Key: None
 

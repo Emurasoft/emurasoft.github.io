@@ -11,7 +11,7 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):編輯 \>進階 \>清除瀏覽過的連結記錄
+- [全部命令](../tools/all_commands): **編輯** \> **進階** \> **清除瀏覽過的連結記錄**
 - 工具列： 無
 - 狀態列: 無
 - 預設捷徑: F10
@@ -23,13 +23,13 @@ EEID_CLEAR_VISIT_HISTORY (3947)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3947);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3947

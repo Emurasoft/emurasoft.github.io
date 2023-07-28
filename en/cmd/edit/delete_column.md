@@ -11,8 +11,8 @@ Deletes the selected columns or the current column.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Delete
-\>Delete Columns
+- [All Commands](../tools/all_commands): **Edit** \> **Delete**
+\> **Delete Columns**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

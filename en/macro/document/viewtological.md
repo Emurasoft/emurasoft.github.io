@@ -1,6 +1,6 @@
 # ViewToLogical Method (Document Object)
 
-Convert the display coordinates of a specified position to the logical coordinates, and retrieves the position in the [Point object](../point/index).
+Convert the display coordinates of a specified position to the logical coordinates, and retrieves the position in the [**Point** object](../point/index).
 
 ## 
 

@@ -12,7 +12,7 @@
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):검색 \>찾기 도구 모음 \>이스케이프 시퀀스 사용
+- [모든 명령](../tools/all_commands): **검색** \> **찾기 도구 모음** \> **이스케이프 시퀀스 사용**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -24,13 +24,13 @@ EEID_FINDBAR_ESCAPE (4575)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4575);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4575

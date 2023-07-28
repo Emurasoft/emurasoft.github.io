@@ -11,8 +11,8 @@ Saves and closes all open files in the current virtual desktop.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>Close
-\>Save and Close All (Current Desktop Only)
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Save and Close All (Current Desktop Only)**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_SAVE_CLOSE_DESKTOP (3934)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3934);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3934

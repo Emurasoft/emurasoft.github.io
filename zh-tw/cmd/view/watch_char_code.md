@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:檢視 \>字元碼值
-- [全部命令](../tools/all_commands):檢視 >
-字元碼值
+- 預設功能表: **檢視** \> **字元碼值**
+- [全部命令](../tools/all_commands): **檢視** >
+**字元碼值**
 - 工具列:
 - 狀態列: 無
 - 預設捷徑: CTRL+I
@@ -24,13 +24,13 @@ EEID_WATCH_CHAR_CODE (4213)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4213);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4213

@@ -1,6 +1,6 @@
 # FirstDetectLine 属性 (Csv 对象)
 
-与在自定义对话框中 [CSV 页面](../../dlg/customize/csv/index) 上的要检测的首行 文本框对应。
+与在自定义对话框中 [**CSV** 页面](../../dlg/customize/csv/index) 上的 **要检测的首行** 文本框对应。
 
 ## 
 

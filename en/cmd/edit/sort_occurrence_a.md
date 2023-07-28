@@ -10,8 +10,8 @@ Sorts by occurrence in the current column, in ascending order.
 
 ## How to Run
 
-- Default Menu:Sort \>Sort by Occurrence Ascending
-- [All Commands](../tools/all_commands):Sort \>Sort by Occurrence Ascending
+- Default Menu: **Sort** \> **Sort by Occurrence Ascending**
+- [All Commands](../tools/all_commands): **Sort** \> **Sort by Occurrence Ascending**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

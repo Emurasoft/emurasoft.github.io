@@ -9,15 +9,15 @@ Toggles line selection mode.
 Toggles line selection mode. This command allows you to highlight multiple
 lines with the keyboard.  Moving the cursor with the arrow keys will
 expand or contract the selection. Selecting the
-[Copy command](edit_copy) or the
-[Cut command](edit_cut) will end character selection
+[**Copy** command](edit_copy) or the
+[**Cut** command](edit_cut) will end character selection
 mode.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Select Line
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Select Line**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+F8

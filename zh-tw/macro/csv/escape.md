@@ -1,6 +1,6 @@
 # Escape 屬性 (Csv 對象)
 
-與在自訂對話方塊中 [CSV 頁面](../../dlg/customize/csv/index) 上的使用逸出字元 核取方塊對應。
+與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **使用逸出字元** 核取方塊對應。
 
 ## 
 

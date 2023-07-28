@@ -10,10 +10,10 @@ Removes embedded newlines in CSV documents.
 
 ## How to Run
 
-- Default Menu:CSV \>Advanced \>
-Remove Embedded Newlines
-- [All Commands](../tools/all_commands):CSV \>Advanced \>
-Remove Embedded Newlines
+- Default Menu: **CSV** \> **Advanced** \>
+**Remove Embedded Newlines**
+- [All Commands](../tools/all_commands): **CSV** \> **Advanced** \>
+**Remove Embedded Newlines**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

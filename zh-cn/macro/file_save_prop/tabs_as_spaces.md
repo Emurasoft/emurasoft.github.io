@@ -1,6 +1,6 @@
 # TabsAsSpaces 属性 (FileSaveProp 对象)
 
-与 [把 Tab 保存为空格 复选框](../../dlg/properties/file/save_details/index) 相对应。
+与 [**把 Tab 保存为空格** 复选框](../../dlg/properties/file/save_details/index) 相对应。
 
 ## 
 

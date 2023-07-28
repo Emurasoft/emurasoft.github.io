@@ -10,10 +10,10 @@ Shows or hides the Find toolbar. The Find toolbar allows you to find or replace 
 
 ## How to Run
 
-- Default Menu:View >
-Toolbars \>Find Toolbar
-- [All Commands](../tools/all_commands):View >
-Toolbars \>Find Toolbar
+- Default Menu: **View** >
+**Toolbars** \> **Find Toolbar**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Find Toolbar**
 - Toolbar:
 ![](../../images/emeditor12_toggle_find_bar_button.png)
 - Status Bar: None
@@ -26,13 +26,13 @@ EEID_SHOW_FIND_BAR (4559)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4559);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4559

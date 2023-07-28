@@ -1,6 +1,6 @@
 # LineSpace プロパティ (PrintProp オブジェクト)
 
-設定のプロパティの [\[印刷\] タブ](../../dlg/properties/print/index) の\[行間隔\] テキスト ボックスに相当します。
+設定のプロパティの [**\[印刷\]** タブ](../../dlg/properties/print/index) の **\[行間隔\]** テキスト ボックスに相当します。
 
 ## 
 

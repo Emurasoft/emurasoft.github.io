@@ -1,8 +1,8 @@
 # CrLfDifferent Property (MarkProp Object)
 
-Corresponds to theShow
-CR and LF with Different Marks check box in the
-[Marks page](../../dlg/properties/marks/index) of Configuration Properties.
+Corresponds to the **Show**
+**CR and LF with Different Marks** check box in the
+[**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
 
 ## 
 

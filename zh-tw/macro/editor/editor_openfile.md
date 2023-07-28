@@ -24,7 +24,7 @@ _strFileName_
 
 _nEncoding_
 
-從[編碼常數](../const/const_encoding) 中選擇或指定任一用於 Windows 操作系統的編碼。如果 0 被指定或省略，這個方法會用屬性預設的編碼打開檔案。
+從 **[編碼常數](../const/const_encoding)** 中選擇或指定任一用於 Windows 操作系統的編碼。如果 0 被指定或省略，這個方法會用屬性預設的編碼打開檔案。
 
 _nFlags_
 

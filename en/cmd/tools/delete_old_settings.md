@@ -11,8 +11,8 @@ Delete old settings that are not used anymore.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools
-\>Delete Old Settings
+- [All Commands](all_commands): **Tools**
+\> **Delete Old Settings**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_DELETE_OLD_SETTINGS (3984)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3984);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3984

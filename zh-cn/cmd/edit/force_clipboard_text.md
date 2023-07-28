@@ -23,13 +23,13 @@
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 无
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 无

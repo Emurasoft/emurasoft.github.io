@@ -23,13 +23,13 @@ EEID_SHIFT_RIGHT_WORD (4174)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.WordRight(true,1);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.WordRight true,1

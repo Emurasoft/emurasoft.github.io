@@ -6,13 +6,13 @@ Displays the Customize Markers dialog box, and selects the Auto Marker tab.
 
 ## Description
 
-Displays the [Customize Markers dialog box](../../dlg/customize_markers/index), and selects the Auto Marker tab.
+Displays the [**Customize Markers** dialog box](../../dlg/customize_markers/index), and selects the Auto Marker tab.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Customize Markers \>Auto Marker
+- [All Commands](all_commands): **Tools** >
+**Customize Markers** \> **Auto Marker**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

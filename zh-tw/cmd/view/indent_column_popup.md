@@ -11,7 +11,7 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):檢視 \>Tab/縮排 \>縮排欄
+- [全部命令](../tools/all_commands): **檢視** \> **Tab/縮排** \> **縮排欄**
 - Toolbar:
 ![](../../images/indent_column24x16.gif)
 - 狀態列: 無

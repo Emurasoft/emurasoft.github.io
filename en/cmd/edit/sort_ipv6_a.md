@@ -10,8 +10,8 @@ Sorts IPv6 addresses in the current column, in ascending order.
 
 ## How to Run
 
-- Default Menu:Edit \>Sort \>Sort IPv6 Addresses Ascending
-- [All Commands](../tools/all_commands):Sort \>Sort IPv6 Addresses Ascending
+- Default Menu: **Edit** \> **Sort** \> **Sort IPv6 Addresses Ascending**
+- [All Commands](../tools/all_commands): **Sort** \> **Sort IPv6 Addresses Ascending**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_SORT_IPV6_A (4036)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4036);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4036

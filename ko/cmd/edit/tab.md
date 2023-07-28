@@ -11,7 +11,7 @@
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):편집 \>가로로 커서 이동 \>탭 삽입/줄 들여쓰기
+- [모든 명령](../tools/all_commands): **편집** \> **가로로 커서 이동** \> **탭 삽입/줄 들여쓰기**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: TAB
@@ -23,13 +23,13 @@ EEID_TAB (4188)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4188);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4188

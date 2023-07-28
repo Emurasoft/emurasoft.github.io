@@ -11,8 +11,8 @@ Extends the selection up one line. If no text is selected, this command will sel
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Line Up Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Line Up Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: Shift+UP ARROW

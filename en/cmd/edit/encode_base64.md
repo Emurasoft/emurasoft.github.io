@@ -10,8 +10,8 @@ Encodes the selected plain text to the Base64 encoding using the current encodin
 
 ## How to Run
 
-- Default Menu:Convert \>Encode/Decode \>Plain Text to Base64 (Current Encoding)
-- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Plain Text to Base64 (Current Encoding)
+- Default Menu: **Convert** \> **Encode/Decode** \> **Plain Text to Base64 (Current Encoding)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Plain Text to Base64 (Current Encoding)**
 - Toolbar:
 None
 - Status Bar: None

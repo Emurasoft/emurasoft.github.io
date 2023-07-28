@@ -11,7 +11,7 @@ Makes the entire document accessible.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Narrowing \>Reset Narrowing
+- [All Commands](../tools/all_commands): **Edit** \> **Narrowing** \> **Reset Narrowing**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -10,10 +10,10 @@ Shows or hides the cell toolbar. The cell toolbar allows you to edit the selecte
 
 ## How to Run
 
-- Default Menu:View >
-Toolbars \>Cell Toolbar
-- [All Commands](../tools/all_commands):View >
-Toolbars \>Cell Toolbar
+- Default Menu: **View** >
+**Toolbars** \> **Cell Toolbar**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Cell Toolbar**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

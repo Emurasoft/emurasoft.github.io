@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:CSV \>暫時隱藏引號
-- [全部命令](../tools/all_commands):CSV \>暫時隱藏引號
+- 預設功能表: **CSV** \> **暫時隱藏引號**
+- [全部命令](../tools/all_commands): **CSV** \> **暫時隱藏引號**
 - 工具列: ![](../../images/csv_hide_quotes.gif)
 - 狀態列: 無
 - 預設快速鍵: 無
@@ -23,13 +23,13 @@ EEID_CSV_HIDE_QUOTES (4067)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.HideQuotes = true;
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.HideQuotes = True

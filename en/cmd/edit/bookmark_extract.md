@@ -10,8 +10,8 @@ Extracts all bookmarked lines in the current document and copies to a new docume
 
 ## How to Run
 
-- Default Menu:Bookmarks \>Extract Bookmarked Lines to New File
-- [All Commands](../tools/all_commands):Bookmarks \>Extract Bookmarked Lines to New File
+- Default Menu: **Bookmarks** \> **Extract Bookmarked Lines to New File**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Extract Bookmarked Lines to New File**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

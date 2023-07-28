@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):編輯 \>垂直移動游標
-\>文檔頂部
+- [全部命令](../tools/all_commands): **編輯** \> **垂直移動游標**
+\> **文檔頂部**
 - 工具列: 無
 - 狀態列: 無
 - 預設鍵盤快速鍵: CTRL+HOME
@@ -24,13 +24,13 @@ EEID_TOP (4168)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.StartOfDocument(false);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.StartOfDocument false

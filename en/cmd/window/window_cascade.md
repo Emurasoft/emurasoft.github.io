@@ -11,9 +11,9 @@ access.
 
 ## How to Run
 
-- Default Menu:Window \>Cascade
-- [All Commands](../tools/all_commands):Window
-\>Cascade
+- Default Menu: **Window** \> **Cascade**
+- [All Commands](../tools/all_commands): **Window**
+\> **Cascade**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

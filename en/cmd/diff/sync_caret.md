@@ -10,8 +10,8 @@ Synchronize Cursor Positions between two documents being compared.
 
 ## How to Run
 
-- Default Menu:Compare \>Synchronize Cursor Positions
-- [All Commands](../tools/all_commands):Compare \>Synchronize Cursor Positions
+- Default Menu: **Compare** \> **Synchronize Cursor Positions**
+- [All Commands](../tools/all_commands): **Compare** \> **Synchronize Cursor Positions**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

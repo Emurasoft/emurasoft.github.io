@@ -1,6 +1,6 @@
 # URLCharacters 屬性 (LinkProp 對象)
 
-與組態屬性中 [連結 頁面](../../dlg/properties/link/index) 上的識別這些字元 核取方塊相對應。
+與組態屬性中 [**連結** 頁面](../../dlg/properties/link/index) 上的 **識別這些字元** 核取方塊相對應。
 
 ## 
 

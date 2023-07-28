@@ -11,8 +11,8 @@ Closes all open files without saving in the current virtual desktop.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>Close
-\>Close All without Save (Current Desktop Only)
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Close All without Save (Current Desktop Only)**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_QUIT_DESKTOP (3936)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3936);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3936

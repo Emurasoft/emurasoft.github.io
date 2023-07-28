@@ -10,8 +10,8 @@ Toggles the cell selection mode in CSV documents.
 
 ## How to Run
 
-- Default Menu:CSV \>Cell Selection Mode
-- [All Commands](../tools/all_commands):CSV \>Cell Selection Mode
+- Default Menu: **CSV** \> **Cell Selection Mode**
+- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode**
 - Toolbar: ![](../../images/cell_selection_mode.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

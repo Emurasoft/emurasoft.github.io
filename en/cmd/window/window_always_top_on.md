@@ -11,9 +11,9 @@ Enables always on top.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window \>
-Always on Top \>
-Always on Top - On
+- [All Commands](../tools/all_commands): **Window** \>
+**Always on Top** \>
+**Always on Top - On**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

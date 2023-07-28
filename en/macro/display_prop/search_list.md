@@ -1,6 +1,6 @@
 # SearchList Property (DisplayProp Object)
 
-Retrieves [DisplayList collection](../display_list/index) for the search color list.
+Retrieves [**DisplayList** collection](../display_list/index) for the search color list.
 
 ## 
 

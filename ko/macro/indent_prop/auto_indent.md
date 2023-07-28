@@ -1,6 +1,6 @@
 # AutoIndent 속성 (IndentProp 개체)
 
-[탭/들여쓰기 대화 상자](../../dlg/properties/general/indent/index) 의자동 들여쓰기 활성화 체크 박스에 해당합니다.
+[**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 의 **자동 들여쓰기 활성화** 체크 박스에 해당합니다.
 
 ## 
 

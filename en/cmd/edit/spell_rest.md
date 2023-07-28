@@ -10,10 +10,10 @@ Checks spelling in the rest of the document. Misspelled words will be underlined
 
 ## How to Run
 
-- Default Menu:Edit \>Spelling \>Check Spelling in \>
-Unspecified
-- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling in \>
-Unspecified Text
+- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \>
+**Unspecified**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \>
+**Unspecified Text**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -25,13 +25,13 @@ EEID_SPELL_REST (4521)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4521);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4521

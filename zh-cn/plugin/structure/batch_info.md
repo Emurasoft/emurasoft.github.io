@@ -39,7 +39,7 @@ _nBatchFlags_
 | FLAG\_FIND\_EOL | 正则表达式 ‘$’ 可匹配选取部分的末尾。 |
 | FLAG\_FIND\_EXTRACT | 把匹配的行提取到一个新的文档中。 |
 | FLAG\_FIND\_LOOKAROUND | 只在选区内进行正则表达式搜索时用前后断言。 |
-| FLAG\_FIND\_MULTI | 执行多项查找/替换全部。如果未指定，则执行批处理查找/替换全部。 |
+| FLAG\_FIND\_MULTI | 执行 **多项查找/替换全部**。如果未指定，则执行 **批处理查找/替换全部**。 |
 | FLAG\_FIND\_NEXT | 从光标处往下搜索字符串。如果没有设置该标志，则往上搜索字符串。 |
 | FLAG\_FIND\_NO\_PROMPT | 禁止显示对话框即使没有找到任何字符串。 |
 | FLAG\_FIND\_OPEN\_DOC | 在同一个框架窗口中，搜索所有打开的文档。 |

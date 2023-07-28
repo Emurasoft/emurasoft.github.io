@@ -6,12 +6,12 @@ Uses alphabetical characters for the column header.
 
 ## Description
 
-Uses alphabetical characters for the column header. This command is equivalent to the status where theUse Alphabetical Characters for Column Header check box is set in theCSV page of theCustomize dialog box.
+Uses alphabetical characters for the column header. This command is equivalent to the status where the **Use Alphabetical Characters for Column Header** check box is set in the **CSV** page of the **Customize** dialog box.
 
 ## How to Run
 
-- Default Menu:CSV \>Column Header Type \>A, B, C, ...
-- [All Commands](../tools/all_commands):CSV \>Column Header Type \>A, B, C, ...
+- Default Menu: **CSV** \> **Column Header Type** \> **A, B, C, ...**
+- [All Commands](../tools/all_commands): **CSV** \> **Column Header Type** \> **A, B, C, ...**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

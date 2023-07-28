@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:书签 \>当前群组 \>提取书签行至新文件中
-- [所有命令](../tools/all_commands):书签 \>当前群组 \>提取书签行至新文件中
+- 默认菜单: **书签** \> **当前群组** \> **提取书签行至新文件中**
+- [所有命令](../tools/all_commands): **书签** \> **当前群组** \> **提取书签行至新文件中**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_BOOKMARK_GROUP_EXTRACT (4592)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4592);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4592

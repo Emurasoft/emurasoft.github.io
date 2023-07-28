@@ -1,7 +1,7 @@
 # PromptUnicode Property (FileSaveProp Object)
 
-Corresponds to thePrompt
-when Saving Unicode as ANSI check box in the [Save Details dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to the **Prompt**
+**when Saving Unicode as ANSI** check box in the [**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 ## 
 

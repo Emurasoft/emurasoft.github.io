@@ -10,9 +10,9 @@ Add or remove user-defined guide at the cursor position (or at the pointed posit
 
 ## How to Run
 
-- Default Menu:View \>Marks \>Add/Remove User-Defined Guide
-- [All Commands](../tools/all_commands):View >
-Marks > Add/Remove User-Defined Guide
+- Default Menu: **View** \> **Marks** \> **Add/Remove User-Defined Guide**
+- [All Commands](../tools/all_commands): **View** >
+**Marks > Add/Remove User-Defined Guide**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

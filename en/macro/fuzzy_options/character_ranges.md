@@ -1,6 +1,6 @@
 # CharacterRanges Property (FuzzyOptions Object)
 
-Retrieves or sets the [CharacterRanges collection](../character_ranges/index).
+Retrieves or sets the [**CharacterRanges** collection](../character_ranges/index).
 
 ## 
 

@@ -1,8 +1,8 @@
 # UnicodeSignature Property (FileNewProp Object)
 
-Corresponds to theAdd
-a Unicode Signature (BOM) check box in the
-[New File Details dialog box](../../dlg/properties/file/new_details/index).
+Corresponds to the **Add**
+**a Unicode Signature (BOM)** check box in the
+[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
 
 ## 
 

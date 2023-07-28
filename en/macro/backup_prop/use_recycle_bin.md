@@ -1,8 +1,8 @@
 # UseRecycleBin Property (BackupProp Object)
 
-Corresponds to theUse
-Recycle Bin to Backup check box in the
-[Backup page](../../dlg/properties/backup/index) of Configuration Properties.
+Corresponds to the **Use**
+**Recycle Bin to Backup** check box in the
+[**Backup** page](../../dlg/properties/backup/index) of Configuration Properties.
 
 ## 
 

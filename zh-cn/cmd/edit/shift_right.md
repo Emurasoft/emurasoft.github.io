@@ -11,8 +11,8 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):编辑 \>扩展选区
-\>往右扩展一个字符
+- [所有命令](../tools/all_commands): **编辑** \> **扩展选区**
+\> **往右扩展一个字符**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: SHIFT+RIGHT ARROW
@@ -24,13 +24,13 @@ EEID_SHIFT_RIGHT (4172)```
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.CharRight(true,1);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.CharRight true,1

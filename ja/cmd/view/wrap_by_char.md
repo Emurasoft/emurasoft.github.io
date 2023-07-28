@@ -7,7 +7,7 @@
 ## 説明
 
 行を指定文字数で折り返します。このコマンドは、現在の設定のプロパティの
-[\[基本\] タブ](../../dlg/properties/general/index) で、\[折り返し方法\]
+[**\[基本\]** タブ](../../dlg/properties/general/index) で、 **\[折り返し方法\]**
 ドロップダウン リスト ボックスから \[指定文字数で折り返し\] を選択することと等価です。
 
 ## 実行方法
@@ -25,13 +25,13 @@ EEID_WRAP_BY_CHAR (4209)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4209);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4209

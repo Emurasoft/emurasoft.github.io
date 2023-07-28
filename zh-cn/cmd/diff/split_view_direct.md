@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:比较 \>拆分视图
-- [所有命令](../tools/all_commands):比较 \>拆分视图
+- 默认菜单: **比较** \> **拆分视图**
+- [所有命令](../tools/all_commands): **比较** \> **拆分视图**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_SPLIT_VIEW_DIRECT (4085)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4085);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4085

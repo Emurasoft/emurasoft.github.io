@@ -10,8 +10,8 @@ Copies all bookmarked lines in the current document and pastes them to the Clipb
 
 ## How to Run
 
-- Default Menu:Bookmarks \>Copy Bookmarked Lines
-- [All Commands](../tools/all_commands):Bookmarks \>Copy Bookmarked Lines
+- Default Menu: **Bookmarks** \> **Copy Bookmarked Lines**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Copy Bookmarked Lines**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

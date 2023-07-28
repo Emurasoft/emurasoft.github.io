@@ -1,6 +1,6 @@
 # Interval 屬性 (AutoSaveProp 對象)
 
-與組態屬與組態屬性中 [自動儲存 頁面](../../dlg/properties/autosave/index) 上的間隔分鐘 文字方塊對應。
+與組態屬與組態屬性中 [**自動儲存** 頁面](../../dlg/properties/autosave/index) 上的 **間隔分鐘** 文字方塊對應。
 
 ## 
 

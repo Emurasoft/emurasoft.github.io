@@ -7,13 +7,13 @@ Saves the current file using a specified encoding (multiple items).
 ## Description
 
 This command consists of multiple menu items, from which you can select predefined
-encodings. If the document is titled, this command saves the current file using the specified encoding. If  the document is untitled, theSave As dialog box appears, which allows you to enter a file name to save the file as.
+encodings. If the document is titled, this command saves the current file using the specified encoding. If  the document is untitled, the **Save As** dialog box appears, which allows you to enter a file name to save the file as.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>Save
-\>Save with Encoding \>(choose encoding)
+- [All Commands](../tools/all_commands): **File** \> **Save**
+\> **Save with Encoding** \> **(choose encoding)**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

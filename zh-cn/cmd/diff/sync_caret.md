@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:比较 \>光标位置
-- [所有命令](../tools/all_commands):比较 \>光标位置
+- 默认菜单: **比较** \> **光标位置**
+- [所有命令](../tools/all_commands): **比较** \> **光标位置**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@ EEID_SYNC_CARET (4507)```
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4507);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4507

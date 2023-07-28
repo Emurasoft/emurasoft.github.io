@@ -11,8 +11,8 @@ selection) as editable area and make the rest inaccessible.
 
 ## How to Run
 
-- Default Menu:Edit \>Narrowing
-- [All Commands](../tools/all_commands):Edit \>Narrowing \>Toggle Narrowing
+- Default Menu: **Edit** \> **Narrowing**
+- [All Commands](../tools/all_commands): **Edit** \> **Narrowing** \> **Toggle Narrowing**
 - Toolbar: ![](../../images/narrowing.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

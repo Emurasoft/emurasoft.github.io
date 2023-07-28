@@ -1,7 +1,7 @@
 # SaveToFolder Property (AutoSaveProp Object)
 
-Corresponds to theSave to Auto Save Folder check box in the
-[Auto Save page](../../dlg/properties/autosave/index) of Configuration Properties.
+Corresponds to the **Save to Auto Save Folder** check box in the
+[**Auto Save** page](../../dlg/properties/autosave/index) of Configuration Properties.
 
 ## 
 

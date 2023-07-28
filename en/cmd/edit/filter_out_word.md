@@ -11,8 +11,8 @@ Filters the document without the selected text or the word at cursor.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Advanced
-\>Filter Out
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
+\> **Filter Out**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

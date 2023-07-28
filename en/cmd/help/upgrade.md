@@ -10,10 +10,10 @@ Upgrades this product to EmEditor Professional. This command is not available in
 
 ## How to Run
 
-- Default Menu:Help >
-Upgrade
-- [All Commands](../tools/all_commands):Help >
-Upgrade
+- Default Menu: **Help** >
+**Upgrade**
+- [All Commands](../tools/all_commands): **Help** >
+**Upgrade**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

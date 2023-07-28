@@ -11,8 +11,8 @@ Counts matches of all markers in the current document.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View \>Markers
-\>Count Matches
+- [All Commands](../tools/all_commands): **View** \> **Markers**
+\> **Count Matches**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

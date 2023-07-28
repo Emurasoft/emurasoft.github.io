@@ -7,15 +7,15 @@
 ## 설명
 
 응용 프로그램 설정을 정의할 수 있는
-[사용자 지정 대화 상자](../../dlg/customize/index) 의 편집 탭을 표시합니다.
+[**사용자 지정 대화 상자**](../../dlg/customize/index) 의 편집 탭을 표시합니다.
 
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](all_commands):도구 >
-사용자 지정 >
+- [모든 명령](all_commands): **도구** >
+**사용자 지정** >
 
-편집
+**편집**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -27,13 +27,13 @@ EEID_CUSTOMIZE_EDIT (9049)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(9049);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 9049

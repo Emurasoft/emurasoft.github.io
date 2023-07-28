@@ -4,4 +4,4 @@
 
 ## 請參考
 
-- [使用輸出欄 復選框](../dlg/tools/properties/index)
+- [**使用輸出欄** 復選框](../dlg/tools/properties/index)

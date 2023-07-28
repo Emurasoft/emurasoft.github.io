@@ -10,10 +10,10 @@ Shows or hides the CSV toolbar.
 
 ## How to Run
 
-- Default Menu:View >
-Toolbars \>CSV Toolbar
-- [All Commands](../tools/all_commands):View >
-Toolbars \>CSV Toolbar
+- Default Menu: **View** >
+**Toolbars** \> **CSV Toolbar**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **CSV Toolbar**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -25,13 +25,13 @@ EEID_SHOW_SV_BAR (3890)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3890);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3890

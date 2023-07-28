@@ -1,7 +1,7 @@
 # PromptUnicode プロパティ (FileSaveProp オブジェクト)
 
-[\[保存時の詳細\] ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
-\[Unicode文字をシステム既定エンコード保存で警告\] チェック ボックスに相当します。
+[**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の
+**\[Unicode文字をシステム既定エンコード保存で警告\]** チェック ボックスに相当します。
 
 ## 
 

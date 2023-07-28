@@ -12,8 +12,8 @@ the horizontal scroll position.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-\>Window Left
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Window Left**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -25,13 +25,13 @@ EEID_WINDOW_LEFT (4295)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4295);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4295

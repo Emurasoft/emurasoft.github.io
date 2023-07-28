@@ -8,13 +8,13 @@ Copies a hyperlink and pastes it to the Clipboard.
 
 Copies a hyperlink string at the cursor and pastes it to the Clipboard. After this
 command, you can place the selection by moving the cursor to a
-different location and running the [Paste command](edit_paste).
+different location and running the [**Paste** command](edit_paste).
 
 ## How to Run
 
-- Default Menu:Edit \>Copy Link
-- [All Commands](../tools/all_commands):Edit \>Copy
-\>Copy Link
+- Default Menu: **Edit** \> **Copy Link**
+- [All Commands](../tools/all_commands): **Edit** \> **Copy**
+\> **Copy Link**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -26,13 +26,13 @@ EEID_EDIT_COPY_LINK (4140)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.CopyLink();
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.CopyLink

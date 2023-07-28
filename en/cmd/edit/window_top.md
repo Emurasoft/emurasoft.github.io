@@ -12,8 +12,8 @@ vertical scroll position.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Vertically
-\>Window Top
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
+\> **Window Top**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+PAGE UP

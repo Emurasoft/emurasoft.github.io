@@ -11,8 +11,8 @@ Shows a popup menu to set options for the cell toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View >
-Toolbars \>Cell Toolbar Options \>Cell Toolbar Options (Popup)
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Cell Toolbar Options** \> **Cell Toolbar Options (Popup)**
 - Toolbar: ![](../../images/commonsettings.gif) (Cell toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

@@ -10,8 +10,8 @@ Inserts a copy of the current logical line below the current cursor position.
 
 ## How to Run
 
-- Default Menu:Insert \>Duplicate Line
-- [All Commands](../tools/all_commands):Insert \>Duplicate Line
+- Default Menu: **Insert** \> **Duplicate Line**
+- [All Commands](../tools/all_commands): **Insert** \> **Duplicate Line**
 - Toolbar: ![](../../images/duplicateline.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+Y

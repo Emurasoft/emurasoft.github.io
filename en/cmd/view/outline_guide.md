@@ -10,10 +10,10 @@ Shows or hides the outline guide.
 
 ## How to Run
 
-- Default Menu:View \>Outline Guide
-- [All Commands](../tools/all_commands):View >
-Outline >
-Outline Guide
+- Default Menu: **View** \> **Outline Guide**
+- [All Commands](../tools/all_commands): **View** >
+**Outline** >
+**Outline Guide**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

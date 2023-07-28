@@ -1,6 +1,6 @@
 # PromptRename Property (FileSaveProp Object)
 
-Corresponds to thePrompt before Deleting an Old File when Renaming check box in the [Save Details dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to the **Prompt before Deleting an Old File when Renaming** check box in the [**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 ## 
 

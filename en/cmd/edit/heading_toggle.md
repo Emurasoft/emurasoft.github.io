@@ -10,8 +10,8 @@ Sets or resets lines above and columns left of the current cell non-scrollable.
 
 ## How to Run
 
-- Default Menu:CSV \>Headings (Freeze Panes) \>Toggle Headings (Freeze or Unfreeze Panes)
-- [All Commands](../tools/all_commands):CSV \>Headings (Freeze Panes) \>Toggle Headings (Freeze or Unfreeze Panes)
+- Default Menu: **CSV** \> **Headings (Freeze Panes)** \> **Toggle Headings (Freeze or Unfreeze Panes)**
+- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Toggle Headings (Freeze or Unfreeze Panes)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_HEADING_TOGGLE (3880)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3880);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3880

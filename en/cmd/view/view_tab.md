@@ -10,8 +10,8 @@ Shows or hides the tab mark. By default, EmEditor does not display tab marks (bl
 
 ## How to Run
 
-- Default Menu:View \>Marks \>Tabs
-- [All Commands](../tools/all_commands):View \>Marks \>Tabs
+- Default Menu: **View** \> **Marks** \> **Tabs**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Tabs**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

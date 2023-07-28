@@ -11,9 +11,9 @@ Shows a popup menu to specify outline settings.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View >
-Outline >
-Outlining (Popup Menu)
+- [All Commands](../tools/all_commands): **View** >
+**Outline** >
+**Outlining (Popup Menu)**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

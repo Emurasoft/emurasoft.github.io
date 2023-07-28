@@ -1,8 +1,8 @@
 # PromptInvalid Property (FileProp Object)
 
-Corresponds to thePrompt
-if Invalid Character Found check box in the
-[File page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to the **Prompt**
+**if Invalid Character Found** check box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 ## 
 

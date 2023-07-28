@@ -13,7 +13,7 @@ lParam = 0;
 
 _pPluginInfo_
 
-Pointer to the [EXEC\_PLUGIN\_INFO structure](../structure/exec_plugin_info).
+Pointer to the [**EXEC\_PLUGIN\_INFO** structure](../structure/exec_plugin_info).
 
 ## Return Value
 

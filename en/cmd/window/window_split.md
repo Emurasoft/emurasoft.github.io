@@ -12,9 +12,9 @@ to control the split position. Click to set the split to a fixed position
 
 ## How to Run
 
-- Default Menu:Window \>Split
-- [All Commands](../tools/all_commands):Window
-\>Split \>Split
+- Default Menu: **Window** \> **Split**
+- [All Commands](../tools/all_commands): **Window**
+\> **Split** \> **Split**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+F12

@@ -15,9 +15,9 @@ selected line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-\>Reverse Tab/Decrease Line
-Indent
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Reverse Tab/Decrease Line**
+**Indent**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

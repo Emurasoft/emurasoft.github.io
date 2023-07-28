@@ -1,7 +1,7 @@
 # WrapIndent プロパティ (IndentProp オブジェクト)
 
-[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の
-\[折り返しインデント\] チェック ボックスに相当します。
+[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の
+**\[折り返しインデント\]** チェック ボックスに相当します。
 
 ## 
 

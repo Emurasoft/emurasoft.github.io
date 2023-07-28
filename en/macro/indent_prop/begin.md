@@ -1,6 +1,6 @@
 # Begin Property (IndentProp Object)
 
-Corresponds to theBegin Indent text box in the [Tab/Index dialog box](../../dlg/properties/general/indent/index).
+Corresponds to the **Begin Indent** text box in the [**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
 
 ## 
 

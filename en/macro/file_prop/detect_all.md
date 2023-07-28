@@ -1,7 +1,7 @@
 # DetectAll Property (FileProp Object)
 
-Corresponds to theDetect
-All check box in the [File page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to the **Detect**
+**All** check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 ## 
 

@@ -1,6 +1,6 @@
 # Item 属性 (CsvList 集合)
 
-检索指定索引的 [Csv 对象](../csv/index)。
+检索指定索引的 [**Csv** 对象](../csv/index)。
 
 ## 
 

@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):搜尋
-\>搜尋工具列 \>漸進式搜尋
+- [全部命令](../tools/all_commands): **搜尋**
+\> **搜尋工具列** \> **漸進式搜尋**
 - 工具列: ![](../../images/find_incremental.png) (搜尋工具列)
 - 狀態列: 無
 - 預設捷徑: 無
@@ -24,13 +24,13 @@ EEID_FINDBAR_INCREMENTAL (4571)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4571);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4571

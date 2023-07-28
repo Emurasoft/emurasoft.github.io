@@ -1,8 +1,8 @@
 # ScriptEnd Property (HighlightProp Object)
 
-Corresponds to theScript
-group box - End text box in the
-[Highlight (2) tab](../../dlg/properties/highlight2/index) of Configuration Properties.
+Corresponds to the **Script**
+**group box - End** text box in the
+[**Highlight (2)** tab](../../dlg/properties/highlight2/index) of Configuration Properties.
 
 ## 
 

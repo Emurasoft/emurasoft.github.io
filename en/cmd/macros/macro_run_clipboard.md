@@ -10,9 +10,9 @@ Runs the clipboard macro.
 
 ## How to Run
 
-- Default Menu:Macros \>Run Clipboard
-- [All Commands](../tools/all_commands):Macros
-\>Run Clipboard
+- Default Menu: **Macros** \> **Run Clipboard**
+- [All Commands](../tools/all_commands): **Macros**
+\> **Run Clipboard**
 - Toolbar: None
 
 - Status Bar: None

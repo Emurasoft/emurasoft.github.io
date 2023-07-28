@@ -1,6 +1,6 @@
 # CharacterRanges 属性 (FuzzyOptions 对象)
 
-检索或设置 [CharacterRanges 集合](../character_ranges/index)。
+检索或设置 [**CharacterRanges** 集合](../character_ranges/index)。
 
 ## 
 

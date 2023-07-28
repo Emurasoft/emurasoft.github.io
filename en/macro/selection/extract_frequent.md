@@ -25,7 +25,7 @@ Specifies one of the following values. If omitted, eeFreqTypeLines is used.
 | Value | Meaning |
 | --- | --- |
 | eeFreqTypeLines | Creates a list of frequent lines. |
-| eeFreqTypeWords | Creates a list of frequent words. A word is a string surrounded by non-alphanumeric characters, which can be customized by theTreat the following characters as alphanumeric text box in the [Edit page](../../dlg/customize/edit/index) of theCustomize dialog box. |
+| eeFreqTypeWords | Creates a list of frequent words. A word is a string surrounded by non-alphanumeric characters, which can be customized by the **Treat the following characters as alphanumeric** text box in the [**Edit** page](../../dlg/customize/edit/index) of the **Customize** dialog box. |
 | eeFreqTypeCells | Creates a list of frequent cells. |
 | eeFreqTypeIPv4 | Creates a list of frequent IPv4 addresses. |
 | eeFreqTypeIPv6 | Creates a list of frequent IPv6 addresses. |

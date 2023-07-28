@@ -1,6 +1,6 @@
 # OpenFileInQuotes 속성 (LinkProp 개체)
 
-구성 속성 [링크 탭](../../dlg/properties/link/index) 의따옴표 안의 파일 이름을 클릭하여 파일 열기 체크 박스에 해당합니다.
+구성 속성 [**링크** 탭](../../dlg/properties/link/index) 의 **따옴표 안의 파일 이름을 클릭하여 파일 열기** 체크 박스에 해당합니다.
 
 ## 
 

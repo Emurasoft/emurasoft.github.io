@@ -11,8 +11,8 @@ After selecting this commands, insert a character with a circumflex accent mark 
 
 ## How to Run
 
-- Default Menu:Insert \>Diacritics \>Circumflex
-- [All Commands](../tools/all_commands):Insert \>Diacritics \>Circumflex
+- Default Menu: **Insert** \> **Diacritics** \> **Circumflex**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Circumflex**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+6

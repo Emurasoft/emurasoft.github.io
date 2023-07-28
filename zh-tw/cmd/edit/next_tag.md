@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:搜尋 \>搜尋符合的標籤
-- [全部命令](../tools/all_commands):編輯 \>水平移動游標
-\>搜尋符合的標籤
+- 預設功能表: **搜尋** \> **搜尋符合的標籤**
+- [全部命令](../tools/all_commands): **編輯** \> **水平移動游標**
+\> **搜尋符合的標籤**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: CTRL+.
@@ -24,13 +24,13 @@ EEID_NEXT_TAG (4601)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4601);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4601

@@ -10,9 +10,9 @@ Toggles always on top status. When always on top is enabled, the EmEditor window
 
 ## How to Run
 
-- Default Menu:Window \>Always on Top
-- [All Commands](../tools/all_commands):Window
-\>Always on Top \>Always on Top
+- Default Menu: **Window** \> **Always on Top**
+- [All Commands](../tools/all_commands): **Window**
+\> **Always on Top** \> **Always on Top**
 - Toolbar: ![](../../images/windowalwaystop.gif)
 - Status Bar: None
 - Default Shortcut Key: None

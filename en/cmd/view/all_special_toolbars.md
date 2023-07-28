@@ -10,9 +10,9 @@ Shows or hides all special toolbars.
 
 ## How to Run
 
-- Default Menu:View \>Toolbars \>All Special Toolbars
-- [All Commands](../tools/all_commands):View >
-Toolbars \>All Special Toolbars
+- Default Menu: **View** \> **Toolbars** \> **All Special Toolbars**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **All Special Toolbars**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

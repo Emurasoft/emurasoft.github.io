@@ -1,7 +1,7 @@
 # PromptInconsistentReturns プロパティ (FileProp オブジェクト)
 
-設定のプロパティの [\[ファイル\] タブ](../../dlg/properties/file/index) の
-\[改行コードが不統一ファイルで警告\] チェック ボックスに相当します。
+設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の
+**\[改行コードが不統一ファイルで警告\]** チェック ボックスに相当します。
 
 ## 
 

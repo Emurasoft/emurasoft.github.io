@@ -25,13 +25,13 @@ EEID_FILE_SAVE_UNICODE_BIGENDIAN (4260)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4260);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4260

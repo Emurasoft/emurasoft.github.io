@@ -112,11 +112,11 @@ Specifies the locale used for sorting, for example: "en-US". If this is empty or
 
 _strTotalRowLabel_
 
-Specifies the heading label for the total row values. This parameter is used only ifeePivotTotalRows is specified in the _nFlags_ parameter.
+Specifies the heading label for the total row values. This parameter is used only if **eePivotTotalRows** is specified in the _nFlags_ parameter.
 
 _strTotalColLabel_
 
-Specifies the heading label for the total column values. This parameter is used only ifeePivotTotalColumns is specified in the _nFlags_ parameter.
+Specifies the heading label for the total column values. This parameter is used only if **eePivotTotalColumns** is specified in the _nFlags_ parameter.
 
 _nDecimalPlaces_
 

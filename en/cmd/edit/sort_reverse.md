@@ -10,8 +10,8 @@ Sorts reverse in the current column.
 
 ## How to Run
 
-- Default Menu:Sort \>Sort Reverse
-- [All Commands](../tools/all_commands):Sort \>Sort Reverse
+- Default Menu: **Sort** \> **Sort Reverse**
+- [All Commands](../tools/all_commands): **Sort** \> **Sort Reverse**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

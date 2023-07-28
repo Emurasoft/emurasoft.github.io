@@ -11,7 +11,7 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):编辑 \>高级 \>清除访问过的链接记录
+- [所有命令](../tools/all_commands): **编辑** \> **高级** \> **清除访问过的链接记录**
 - 工具栏： 无
 - 状态栏: 无
 - 默认快捷键: F10
@@ -23,13 +23,13 @@ EEID_CLEAR_VISIT_HISTORY (3947)```
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3947);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3947

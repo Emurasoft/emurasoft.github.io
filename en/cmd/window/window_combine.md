@@ -11,9 +11,9 @@ icon will be displayed on the Windows Task Bar.
 
 ## How to Run
 
-- Default Menu:Window \>Enable Tabs
-- [All Commands](../tools/all_commands):Window
-\>Enable Tabs \>Enable Tabs
+- Default Menu: **Window** \> **Enable Tabs**
+- [All Commands](../tools/all_commands): **Window**
+\> **Enable Tabs** \> **Enable Tabs**
 - Toolbar: ![](../../images/windowcombine.gif)
 - Status Bar: None
 - Default Shortcut Key: None

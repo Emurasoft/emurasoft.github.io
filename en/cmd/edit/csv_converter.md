@@ -10,8 +10,8 @@ Shows or hides the CSV Converter.
 
 ## How to Run
 
-- Default Menu:CSV \>CSV Converter
-- [All Commands](../tools/all_commands):CSV \>CSV Converter
+- Default Menu: **CSV** \> **CSV Converter**
+- [All Commands](../tools/all_commands): **CSV** \> **CSV Converter**
 - Toolbar: ![](../../images/convert_to.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -10,8 +10,8 @@ Decodes the selected text from the percent-encoding into the equivalent Unicode 
 
 ## How to Run
 
-- Default Menu:Convert \>Encode/Decode \>Percent-encoding to Unicode (UTF-8)
-- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Percent-encoding to Unicode (UTF-8)
+- Default Menu: **Convert** \> **Encode/Decode** \> **Percent-encoding to Unicode (UTF-8)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Percent-encoding to Unicode (UTF-8)**
 - Toolbar:
 None
 - Status Bar: None
@@ -24,13 +24,13 @@ EEID_DECODE_PERCENT_UTF8 (3856)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3856);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3856

@@ -12,7 +12,7 @@ lParam = 0;
 
 _pPluginInfo_
 
-指向 [EXEC\_PLUGIN\_INFO 结构](../structure/exec_plugin_info)。
+指向 [**EXEC\_PLUGIN\_INFO** 结构](../structure/exec_plugin_info)。
 
 ## 返回值
 

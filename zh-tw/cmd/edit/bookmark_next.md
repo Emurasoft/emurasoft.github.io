@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:書籤 \>目前的群組 \>下一個書籤
-- [全部命令](../tools/all_commands):書籤 \>目前的群組 \>下一個書籤
+- 預設功能表: **書籤** \> **目前的群組** \> **下一個書籤**
+- [全部命令](../tools/all_commands): **書籤** \> **目前的群組** \> **下一個書籤**
 - 工具列: ![](../../images/bookmarknext.gif)
 - 狀態列: 無
 - 預設捷徑: F2
@@ -23,13 +23,13 @@ EEID_BOOKMARK_NEXT (4321)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4321);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4321

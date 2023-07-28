@@ -1,7 +1,7 @@
 # KanaURL Property (LinkProp Object)
 
-Corresponds to theRecognize
-Single-Byte Kana and Kana Marks as URLs check box in the [Link page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to the **Recognize**
+**Single-Byte Kana and Kana Marks as URLs** check box in the [**Link** page](../../dlg/properties/link/index) of Configuration Properties.
 
 ## 
 

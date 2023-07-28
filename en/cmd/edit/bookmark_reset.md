@@ -11,7 +11,7 @@ Clears bookmarks on the current line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Bookmarks \>Reset Bookmark
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Reset Bookmark**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_BOOKMARK_RESET (4354)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.ClearBookmark();
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.ClearBookmark

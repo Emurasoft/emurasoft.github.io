@@ -1,6 +1,6 @@
 # HighlightMatchingBrackets 属性 (HighlightProp 对象)
 
-与配置属性中 [高亮（2） 页面](../../dlg/properties/highlight2/index) 上的高亮配对括号 复选框相对应。
+与配置属性中 [**高亮（2）** 页面](../../dlg/properties/highlight2/index) 上的 **高亮配对括号** 复选框相对应。
 
 ## 
 

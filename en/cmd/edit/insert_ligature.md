@@ -11,8 +11,8 @@ or a sharp s (ß) by typing s.
 
 ## How to Run
 
-- Default Menu:Insert \>Diacritics \>Ligature
-- [All Commands](../tools/all_commands):Insert \>Diacritics \>Ligature
+- Default Menu: **Insert** \> **Diacritics** \> **Ligature**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Ligature**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+7

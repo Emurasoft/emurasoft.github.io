@@ -12,10 +12,10 @@ position (you can change the orientation later as necessary).
 
 ## How to Run
 
-- Default Menu:Window
-\>Split Horizontally
-- [All Commands](../tools/all_commands):Window
-\>Split \>Split Horizontally
+- Default Menu: **Window**
+\> **Split Horizontally**
+- [All Commands](../tools/all_commands): **Window**
+\> **Split** \> **Split Horizontally**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

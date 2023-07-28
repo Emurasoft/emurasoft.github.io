@@ -1,7 +1,7 @@
 # IgnoreAfter プロパティ (IndentProp オブジェクト)
 
-[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の
-\[次の行の後は無視 (正規表現)\] テキスト ボックスに相当します。
+[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の
+**\[次の行の後は無視 (正規表現)\]** テキスト ボックスに相当します。
 
 ## 
 

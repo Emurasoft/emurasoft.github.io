@@ -12,8 +12,8 @@ options.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Replace Next
+- [All Commands](../tools/all_commands): **Search**
+\> **Replace Next**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

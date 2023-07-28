@@ -20,7 +20,7 @@ nFound = document.selection.BatchFind( filters, nFlags, nExFlags )
 
 _filters_
 
-指定包含搜索字符串和标志的 [Filters 集合](../filters/index)。
+指定包含搜索字符串和标志的 [**Filters** 集合](../filters/index)。
 
 _nFlags_
 

@@ -52,7 +52,7 @@ Specifies the line number of the ending position of the destination cells.
 
 _nFlags_
 
-Specifies a combination of the following values. If omitted,eeFillDefault will be specified.
+Specifies a combination of the following values. If omitted, **eeFillDefault** will be specified.
 
 |     |     |
 | --- | --- |
@@ -65,7 +65,7 @@ Specifies a combination of the following values. If omitted,eeFillDefault will b
 
 _nIncrement_
 
-Specifies the number of increment for a series if only one cell is specified for the source range and ifeeFillSeries is specified for the _nFlags_ parameter. If omitted, 1 will be specified.
+Specifies the number of increment for a series if only one cell is specified for the source range and if **eeFillSeries** is specified for the _nFlags_ parameter. If omitted, 1 will be specified.
 
 ## Return Values
 

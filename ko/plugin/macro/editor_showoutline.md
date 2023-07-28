@@ -16,7 +16,7 @@ _nFlags_
 
 |     |     |
 | --- | --- |
-|값 |의미 |
+| **값** | **의미** |
 | SHOW\_OUTLINE\_SHOW | 개요를 보입니다. |
 | SHOW\_OUTLINE\_HIDE | 개요를 숨깁니다. |
 

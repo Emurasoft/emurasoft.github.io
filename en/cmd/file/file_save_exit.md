@@ -10,9 +10,9 @@ Saves the changes to, and closes the current document.
 
 ## How to Run
 
-- Default Menu:File \>Save and Close
-- [All Commands](../tools/all_commands):File \>Close
-\>Save and Close
+- Default Menu: **File** \> **Save and Close**
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Save and Close**
 - Toolbar: ![](../../images/filesaveexit.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+E
@@ -24,13 +24,13 @@ EEID_FILE_SAVE_EXIT (4116)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4116);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4116

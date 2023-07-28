@@ -1,8 +1,8 @@
 # NamedEntity Property (FileSaveProp Object)
 
-Corresponds to theUse
-Named Entity Reference check box in the
-[Save Details dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to the **Use**
+**Named Entity Reference** check box in the
+[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 ## 
 

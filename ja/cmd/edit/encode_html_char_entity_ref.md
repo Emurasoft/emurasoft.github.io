@@ -23,13 +23,13 @@ EEID_ENCODE_HTML_CHAR_ENTITY_REF (4563)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4563);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4563

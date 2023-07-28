@@ -11,8 +11,8 @@ Deletes all markers.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View \>Markers
-\>Delete All
+- [All Commands](../tools/all_commands): **View** \> **Markers**
+\> **Delete All**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

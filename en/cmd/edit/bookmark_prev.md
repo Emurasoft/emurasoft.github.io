@@ -13,8 +13,8 @@ straight to the last bookmark of that document.
 
 ## How to Run
 
-- Default Menu:Bookmarks \>This Group \>Previous Bookmark
-- [All Commands](../tools/all_commands):Bookmarks \>This Group \>Previous Bookmark
+- Default Menu: **Bookmarks** \> **This Group** \> **Previous Bookmark**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **This Group** \> **Previous Bookmark**
 - Toolbar: ![](../../images/bookmarkprev.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+F2

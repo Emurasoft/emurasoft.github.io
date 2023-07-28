@@ -14,8 +14,8 @@ Workspace command](save_workspace) followed by the [Close All command](exit_all)
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>Close
-\>Save Workspace and Close All
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Save Workspace and Close All**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -27,13 +27,13 @@ EEID_SAVE_WORKSPACE_QUIT_ALL (4332)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4332);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4332

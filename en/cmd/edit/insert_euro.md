@@ -10,8 +10,8 @@ Inserts an euro symbol (€) at the cursor.
 
 ## How to Run
 
-- Default Menu:Insert \>Marks \>Euro
-- [All Commands](../tools/all_commands):Insert \>Marks \>Euro
+- Default Menu: **Insert** \> **Marks** \> **Euro**
+- [All Commands](../tools/all_commands): **Insert** \> **Marks** \> **Euro**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+E

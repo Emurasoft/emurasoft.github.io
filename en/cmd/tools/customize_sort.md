@@ -6,15 +6,15 @@ Opens the Sort page of the Customize dialog box.
 
 ## Description
 
-Displays the Sort page of the [Customize dialog box](../../dlg/customize/index),
+Displays the Sort page of the [**Customize** dialog box](../../dlg/customize/index),
 where you can define common application settings.
 
 ## How to Run
 
-- Default Menu:Sort \>Sort Options
-- [All Commands](all_commands):Tools >
-Customize >
-Sort
+- Default Menu: **Sort** \> **Sort Options**
+- [All Commands](all_commands): **Tools** >
+**Customize** >
+**Sort**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

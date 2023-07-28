@@ -1,7 +1,7 @@
 # ReturnMethod 속성 (FileSaveProp 개체)
 
-[세부 정보 저장 대화 상자](../../dlg/properties/file/save_details/index) 의
-반환 방법 드롭 다운 리스트 박스에 해당합니다.
+[**세부 정보 저장** 대화 상자](../../dlg/properties/file/save_details/index) 의
+**반환 방법 드롭 다운** 리스트 박스에 해당합니다.
 
 ## 
 

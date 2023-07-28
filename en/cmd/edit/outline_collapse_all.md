@@ -10,8 +10,8 @@ While outlining is displayed, this command collapses the entire document. A plug
 
 ## How to Run
 
-- Default Menu:Edit \>Outlining \>Collapse All
-- [All Commands](../tools/all_commands):Edit \>Outlining \>Collapse All
+- Default Menu: **Edit** \> **Outlining** \> **Collapse All**
+- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Collapse All**
 - Toolbar: ![](../../images/outline_min.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_OUTLINE_COLLAPSE_ALL (4410)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4410);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4410

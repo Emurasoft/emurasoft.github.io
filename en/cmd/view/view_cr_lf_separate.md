@@ -10,8 +10,8 @@ Shows CR and LF with different marks. By default, EmEditor displays CR and LF wi
 
 ## How to Run
 
-- Default Menu:View \>Marks \>CR and LF with Different Marks
-- [All Commands](../tools/all_commands):View \>Marks \>CR and LF with Different Marks
+- Default Menu: **View** \> **Marks** \> **CR and LF with Different Marks**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **CR and LF with Different Marks**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -23,13 +23,13 @@ EEID_VIEW_CR_LF_SEPARATE (4537)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4537);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4537

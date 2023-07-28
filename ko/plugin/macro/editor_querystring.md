@@ -14,19 +14,19 @@ _hwnd_
 _nCmdID_
 
 실행할 명령 ID를 나타내는 정수를 지정합니다. 다음의 명령만 사용될 수 있습니다.
-더 자세한 정보를 위해[명령 참조](../../cmd/index) 을 참조하시기 바랍니다.
+더 자세한 정보를 위해 **[명령 참조](../../cmd/index)** 을 참조하시기 바랍니다.
 
 |     |     |     |
 | --- | --- | --- |
 | nID | 명령 이름 | 반환 값 |
-| 4609 through 4609 + 63 | [최근 파일 리스트 명령](../../cmd/file/file_mru_file1) | 파일 경로와 이름 |
-| 4864 through 4864 + 63 | [최근 파일 삽입 리스트 명령](../../cmd/file/file_mru_insert1) | 파일 경로와 이름 |
-| 4992 through 4992 + 63 | [최근 폴더 리스트 명령](../../cmd/file/file_mru_folder1) | 파일 경로와 이름 |
-| 5376 through 5376 + 255 |[문서 목록 명령](../../cmd/window/window_menu) | 창 제목 |
-| 5632 through 5632 + 255 |[플러그 인 목록 명령](../../cmd/tools/plug_in1) | 플러그 인 파일 이름 |
-| 6656 through 6656 + 255 | [다시로드할 인코딩 리스트 명령](../../cmd/file/file_reload_defined) | 인코딩 이름 |
-| 7680 through 7680 + 255 | [인코딩하여 저장하기 리스트 명령](../../cmd/file/file_save_defined) | 인코딩 이름 |
-| 9216 through 9216 + 1023 |[매크로 리스트 명령](../../cmd/macros/macro1) | 매크로 경로와 이름 |
+| 4609 through 4609 + 63 | [**최근 파일 리스트 명령**](../../cmd/file/file_mru_file1) | 파일 경로와 이름 |
+| 4864 through 4864 + 63 | [**최근 파일 삽입 리스트 명령**](../../cmd/file/file_mru_insert1) | 파일 경로와 이름 |
+| 4992 through 4992 + 63 | [**최근 폴더 리스트 명령**](../../cmd/file/file_mru_folder1) | 파일 경로와 이름 |
+| 5376 through 5376 + 255 | **[문서 목록 명령](../../cmd/window/window_menu)** | 창 제목 |
+| 5632 through 5632 + 255 | **[플러그 인 목록 명령](../../cmd/tools/plug_in1)** | 플러그 인 파일 이름 |
+| 6656 through 6656 + 255 | [**다시로드할 인코딩 리스트 명령**](../../cmd/file/file_reload_defined) | 인코딩 이름 |
+| 7680 through 7680 + 255 | [**인코딩하여 저장하기 리스트 명령**](../../cmd/file/file_save_defined) | 인코딩 이름 |
+| 9216 through 9216 + 1023 | **[매크로 리스트 명령](../../cmd/macros/macro1)** | 매크로 경로와 이름 |
 
 _bShortTitle_
 

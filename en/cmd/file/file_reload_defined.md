@@ -11,14 +11,14 @@ encodings.
 This command reloads the currently opened file from the disk using the
 specified encoding. If the document is changed within
 EmEditor, the prompt message "Are you sure you want to abandon changes?"
-appears. SelectingYes will abandon the changes without saving, and
-will reload the new contents. SelectingNo will abort reloading and
+appears. Selecting **Yes** will abandon the changes without saving, and
+will reload the new contents. Selecting **No** will abort reloading and
 will allow you to continue editing the document.
 
 ## How to Run
 
-- Default Menu:File \>Reload \>(encoding)
-- [All Commands](../tools/all_commands):File \>Reload \>(encoding)
+- Default Menu: **File** \> **Reload** \> **(encoding)**
+- [All Commands](../tools/all_commands): **File** \> **Reload** \> **(encoding)**
 - Toolbar: ![](../../images/reload.gif) (on
 the arrow) -
 (encoding)
@@ -34,14 +34,14 @@ through
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(6656 + i);  // i is an integer from 0
 through 255
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 6656 + i  ' i is an integer from 0

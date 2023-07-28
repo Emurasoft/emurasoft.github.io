@@ -11,8 +11,8 @@ configurations.
 
 ## How to Run
 
-- Default Menu:Convert \>Comment
-- [All Commands](../tools/all_commands):Convert \>Comment
+- Default Menu: **Convert** \> **Comment**
+- [All Commands](../tools/all_commands): **Convert** \> **Comment**
 - Toolbar: ![](../../images/editcomment.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

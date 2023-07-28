@@ -10,9 +10,9 @@ Opens the EmEditor Help module, and allows you to browse or search Help topics.
 
 ## How to Run
 
-- Default Menu:Help \>Search Help Topics
-- [All Commands](../tools/all_commands):Help >
-Search Help Topics
+- Default Menu: **Help** \> **Search Help Topics**
+- [All Commands](../tools/all_commands): **Help** >
+**Search Help Topics**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+F1
@@ -24,13 +24,13 @@ EEID_HELP_FINDER (4247)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4247);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4247

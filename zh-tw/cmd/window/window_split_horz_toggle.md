@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):視窗
-\>分割 \>切換水平分割
+- [全部命令](../tools/all_commands): **視窗**
+\> **分割** \> **切換水平分割**
 - 工具列: ![](../../images/windowsplithorzfix.gif)
 - 狀態列: 無
 - 預設捷徑: CTRL + -

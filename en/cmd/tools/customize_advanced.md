@@ -6,15 +6,15 @@ Opens the Advanced page of the Customize dialog box.
 
 ## Description
 
-Displays the Advanced page of the [Customize dialog box](../../dlg/customize/index),
+Displays the Advanced page of the [**Customize** dialog box](../../dlg/customize/index),
 where you can define advanced application settings.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Customize >
-Advanced
+- [All Commands](all_commands): **Tools** >
+**Customize** >
+**Advanced**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -26,13 +26,13 @@ EEID_CUSTOMIZE_ADVANCED (9046)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(9046);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 9046

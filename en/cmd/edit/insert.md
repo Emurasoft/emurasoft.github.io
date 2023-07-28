@@ -11,7 +11,7 @@ Toggles insert/overwrite mode. EmEditor usually starts with the insert mode. Whe
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Insert \>Toggle Insert/Overwrite
+- [All Commands](../tools/all_commands): **Insert** \> **Toggle Insert/Overwrite**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: Insert

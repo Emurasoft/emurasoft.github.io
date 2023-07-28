@@ -10,8 +10,8 @@ Generates a report file based on the current comparison result.
 
 ## How to Run
 
-- Default Menu:Compare \>Generate Report
-- [All Commands](../tools/all_commands):Compare \>Generate Report
+- Default Menu: **Compare** \> **Generate Report**
+- [All Commands](../tools/all_commands): **Compare** \> **Generate Report**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -10,8 +10,8 @@ Checks spelling in tags. Misspelled words will be underlined in red.
 
 ## How to Run
 
-- Default Menu:Edit \>Spelling \>Check Spelling in \>Tags
-- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling in \>Tags
+- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Tags**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **Tags**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

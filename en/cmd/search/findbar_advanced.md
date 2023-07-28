@@ -11,8 +11,8 @@ Displays the Advanced dialog box for the Find toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Advanced
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Advanced**
 - Toolbar: ![](../../images/commonsettings.gif)
 (Find toolbar)
 - Status Bar: None

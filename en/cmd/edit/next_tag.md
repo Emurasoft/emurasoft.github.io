@@ -12,9 +12,9 @@ tags, it will be placed inside at the corresponding tag.
 
 ## How to Run
 
-- Default Menu:Search \>Find Matching Tag
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Horizontally
-\>Find Matching Tag
+- Default Menu: **Search** \> **Find Matching Tag**
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
+\> **Find Matching Tag**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+.
@@ -26,13 +26,13 @@ EEID_NEXT_TAG (4601)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4601);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4601

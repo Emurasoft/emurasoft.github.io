@@ -1,6 +1,6 @@
 # clipboardData 屬性 (Window 對象)
 
-返回 [clipboardData 對象](../clipboarddata/index)。
+返回 [**clipboardData** 對象](../clipboarddata/index)。
 
 ## 
 

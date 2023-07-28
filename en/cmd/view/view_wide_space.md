@@ -11,8 +11,8 @@ Shows or hides wide space marks. By default, EmEditor does not display wide spac
 
 ## How to Run
 
-- Default Menu:View \>Marks \>Wide Spaces
-- [All Commands](../tools/all_commands):View \>Marks \>Wide Spaces
+- Default Menu: **View** \> **Marks** \> **Wide Spaces**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Wide Spaces**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_VIEW_WIDE_SPACE (4536)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4536);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4536

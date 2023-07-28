@@ -30,8 +30,8 @@ Specifies a combination of the following values:
 ## Remarks
 
 The formats used for the time and date can be configured in Windows by
-selecting theRegional & Language Options inControl Panel, then
-selectingDate & Time.
+selecting the **Regional & Language Options** in **Control Panel**, then
+selecting **Date & Time**.
 
 ## Version
 

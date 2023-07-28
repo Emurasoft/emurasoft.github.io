@@ -11,8 +11,8 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):编辑 \>粘贴
-\>循环粘贴
+- [所有命令](../tools/all_commands): **编辑** \> **粘贴**
+\> **循环粘贴**
 - 工具栏: ![](../../images/cycle_clipboard_ring.gif)
 - 状态栏: 无
 - 默认快捷键: 无

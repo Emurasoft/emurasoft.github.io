@@ -1,6 +1,6 @@
 # shell 속성 (Window 개체)
 
-[Shell 개체](../shell/index) 를 반환합니다.
+[**Shell** 개체](../shell/index) 를 반환합니다.
 
 ## 
 

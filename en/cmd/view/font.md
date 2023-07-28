@@ -6,14 +6,14 @@ Change font settings.
 
 ## Description
 
-This command displays the [Customize Font dialog box](../../dlg/properties/font/index),
+This command displays the [**Customize Font** dialog box](../../dlg/properties/font/index),
 where you can set the display font and the print font.
 
 ## How to Run
 
-- Default Menu:View \>Font
-- [All Commands](../tools/all_commands):View >
-Font \>Font
+- Default Menu: **View** \> **Font**
+- [All Commands](../tools/all_commands): **View** >
+**Font** \> **Font**
 - Toolbar: ![](../../images/fontpopup.gif) (not
 on the arrow)
 - Status Bar: None
@@ -26,13 +26,13 @@ EEID_FONT (4218)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4218);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4218

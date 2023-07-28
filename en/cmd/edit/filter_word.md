@@ -11,8 +11,8 @@ Filters the document with the selected text or the word at cursor.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Advanced
-\>Filter
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
+\> **Filter**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

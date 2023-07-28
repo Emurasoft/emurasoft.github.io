@@ -6,14 +6,14 @@ Customizes Tray Icon.
 
 ## Description
 
-Displays the [Customize Tray Icon \
+Displays the [**Customize Tray Icon** \
 dialog box](../../dlg/tray/index), where you can customize the System Tray icon settings.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Customize Tray Icon
+- [All Commands](all_commands): **Tools** >
+**Customize Tray Icon**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

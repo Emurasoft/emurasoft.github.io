@@ -11,7 +11,7 @@ Shows a popup menu to select a CSV mode.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV \>CSV (Popup Menu)
+- [All Commands](../tools/all_commands): **CSV** \> **CSV (Popup Menu)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_SV_POPUP (3899)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3899);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 >editor.ExecuteCommandByID 3899

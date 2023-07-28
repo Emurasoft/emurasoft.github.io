@@ -1,7 +1,7 @@
 # ShowRuler Property (GeneralProp Object)
 
-Corresponds to theShow Ruler check box in the
-[General page](../../dlg/properties/general/index) of Configuration Properties.
+Corresponds to the **Show Ruler** check box in the
+[**General** page](../../dlg/properties/general/index) of Configuration Properties.
 
 ## 
 

@@ -6,15 +6,15 @@ Saves all currently open files.
 
 ## Description
 
-This command selects the [Save \
+This command selects the [**Save** \
 command](file_save) for all opened EmEditor windows. If an untitled file exists,
-theSave As dialog box appears, which allows you to enter a file name to save the file as.
+the **Save As** dialog box appears, which allows you to enter a file name to save the file as.
 
 ## How to Run
 
-- Default Menu:File \>Save All
-- [All Commands](../tools/all_commands):File \>Save
-\>Save All
+- Default Menu: **File** \> **Save All**
+- [All Commands](../tools/all_commands): **File** \> **Save**
+\> **Save All**
 - Toolbar:
 ![](../../images/filesaveall.gif)
 - Status Bar: None

@@ -1,6 +1,6 @@
 # SerialToLogical Method (Document Object)
 
-Converts a serial position to the logical coordinates, and retrieves the position in the [Point object](../point/index).
+Converts a serial position to the logical coordinates, and retrieves the position in the [**Point** object](../point/index).
 
 ## 
 

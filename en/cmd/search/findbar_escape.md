@@ -11,8 +11,8 @@ Toggles the Use Escape Sequence button on the Find toolbar. When this command is
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Use Escape Sequence
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Use Escape Sequence**
 - Toolbar: ![](../../images/find_escape.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

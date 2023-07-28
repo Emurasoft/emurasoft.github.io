@@ -12,8 +12,8 @@ After selecting this command, insert a character with an acute accent mark (á, 
 
 ## How to Run
 
-- Default Menu:Insert \>Diacritics \>Acute
-- [All Commands](../tools/all_commands):Insert \>Diacritics \>Acute
+- Default Menu: **Insert** \> **Diacritics** \> **Acute**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Acute**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+'

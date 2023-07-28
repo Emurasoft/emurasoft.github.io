@@ -52,7 +52,7 @@ _yDestCellEnd_
 
 _nFlags_
 
-指定一个下列值的组合。如果省略，将会自动指定eeFillDefault。
+指定一个下列值的组合。如果省略，将会自动指定 **eeFillDefault**。
 
 |     |     |
 | --- | --- |
@@ -65,7 +65,7 @@ _nFlags_
 
 _nIncrement_
 
-如果源范围只指定了一个单元格，并且eeFillSeries 被指定为 _nFlags_ 的参数，那么可以在这指定序列的增量数。如果省略，将指定 1。
+如果源范围只指定了一个单元格，并且 **eeFillSeries** 被指定为 _nFlags_ 的参数，那么可以在这指定序列的增量数。如果省略，将指定 1。
 
 ## 返回值
 

@@ -12,7 +12,7 @@ lParam = (LPARAM) (POINT\_PTR\*) pptPos;
 
 _bCanMoveCursor_
 
-TRUE の場合、プロパティで [\[スクロールでカーソルも移動\] チェック ボックス](../../dlg/properties/scroll/index) がチェックされている場合 、カーソル位置も移動します。FALSE の場合、カーソル位置は移動しません。
+TRUE の場合、プロパティで [**\[スクロールでカーソルも移動\]** チェック ボックス](../../dlg/properties/scroll/index) がチェックされている場合 、カーソル位置も移動します。FALSE の場合、カーソル位置は移動しません。
 
 _pptPos_
 

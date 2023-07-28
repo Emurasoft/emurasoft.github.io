@@ -11,8 +11,8 @@ Switches to the custom bar on right if available.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Custom Bar \>Right
+- [All Commands](../tools/all_commands): **Window**
+\> **Custom Bar** \> **Right**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

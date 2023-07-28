@@ -11,8 +11,8 @@ Closes the Filter Toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Close Filter Toolbar
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Close Filter Toolbar**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

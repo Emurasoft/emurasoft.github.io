@@ -1,6 +1,6 @@
 # EP\_DISABLE\_AUTO\_COMPLETE
 
-查詢括號/引號自動完成功能是否被禁用。這個功能由在組態屬性中的 [亮顯 (2) 頁面](../../dlg/properties/highlight2/index) 上的自動完成括號/引號標記 核取方塊定義。
+查詢括號/引號自動完成功能是否被禁用。這個功能由在組態屬性中的 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **自動完成括號/引號標記** 核取方塊定義。
 
 EP\_DISABLE\_AUTO\_COMPLETE
 

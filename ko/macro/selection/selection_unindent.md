@@ -21,7 +21,7 @@ document.selection.UnIndent [ nCount ]
 _nCount_
 
 선택 사항입니다. 들여쓰기 수준의 번호를 지정합니다.
-기본 값은 1 입니다. 음수인 경우, 메서드는 [Indent\
+기본 값은 1 입니다. 음수인 경우, 메서드는 [**Indent**\
 메서드](selection_indent) 와 동일하게 작용합니다. 0인 경우, 메서드는 1과 동일하게 작용합니다.
 
 ## 버전

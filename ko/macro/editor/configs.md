@@ -1,6 +1,6 @@
 # Configs 속성 (Editor 개체)
 
-[Configs 컬렉션](../configs/index) 을 검색합니다.
+[**Configs** 컬렉션](../configs/index) 을 검색합니다.
 
 ## 
 

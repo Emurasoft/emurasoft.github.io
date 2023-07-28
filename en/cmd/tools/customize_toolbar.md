@@ -6,14 +6,14 @@ Customizes toolbar settings.
 
 ## Description
 
-Displays the [Toolbars dialog box](../../dlg/toolbars/index),
+Displays the [**Toolbars** dialog box](../../dlg/toolbars/index),
 where you can customize toolbars.
 
 ## How to Run
 
-- Default Menu:Tools \>Customize Toolbars
-- [All Commands](all_commands):Tools >
-Customize Toolbars
+- Default Menu: **Tools** \> **Customize Toolbars**
+- [All Commands](all_commands): **Tools** >
+**Customize Toolbars**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

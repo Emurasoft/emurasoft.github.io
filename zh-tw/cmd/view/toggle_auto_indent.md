@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:檢視 \>Tab/縮排 \>自動縮排
-- [全部命令](../tools/all_commands):檢視 \>Tab/縮排 \>自動縮排
+- 預設功能表: **檢視** \> **Tab/縮排** \> **自動縮排**
+- [全部命令](../tools/all_commands): **檢視** \> **Tab/縮排** \> **自動縮排**
 - Toolbar:
 ![](../../images/auto_indent24x16.gif)
 - 狀態列: 無
@@ -24,13 +24,13 @@ EEID_TOGGLE_AUTO_INDENT (4540)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4540);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4540

@@ -11,8 +11,8 @@ Switches to the last accessed document.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Last Accessed Document
+- [All Commands](../tools/all_commands): **Window**
+\> **Last Accessed Document**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

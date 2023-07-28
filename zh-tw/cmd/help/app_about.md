@@ -6,13 +6,13 @@
 
 ## 說明
 
-顯示 [關于 EmEditor 對話方塊](../../dlg/about/index)，讓您能確認 EmEditor 的版本信息。
+顯示 [**關于 EmEditor** 對話方塊](../../dlg/about/index)，讓您能確認 EmEditor 的版本信息。
 
 ## 運行方法
 
-- 預設功能表:說明 \>關于 EmEditor
-- [全部命令](../tools/all_commands):說明 >
-關于 EmEditor
+- 預設功能表: **說明** \> **關于 EmEditor**
+- [全部命令](../tools/all_commands): **說明** >
+**關于 EmEditor**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無

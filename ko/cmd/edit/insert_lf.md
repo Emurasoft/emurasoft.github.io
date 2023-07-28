@@ -13,8 +13,8 @@ Enter키를 누르면 현재 행과 같은 새로운 라인 입력 방법 (CR만
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):편집 \>삽입
-\>LF 만
+- [모든 명령](../tools/all_commands): **편집** \> **삽입**
+\> **LF 만**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -26,13 +26,13 @@ EEID_INSERT_LF (4146)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4146);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4146

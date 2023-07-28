@@ -6,15 +6,15 @@
 
 ## 설명
 
-[구성 속성](../../dlg/properties/index) 대화 상자의
-[스크롤\
+**[구성 속성](../../dlg/properties/index)** 대화 상자의
+[**스크롤**\
 탭](../../dlg/properties/scroll/index) 을 표시합니다.
 
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](all_commands):도구 >
-현재 구성 속성 \>스크롤
+- [모든 명령](all_commands): **도구** >
+**현재 구성 속성** \> **스크롤**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -26,13 +26,13 @@ EEID_PROPERTY_SCROLL (8961)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(8961);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 8961

@@ -13,8 +13,8 @@ previous line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Char Left Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Char Left Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+LEFT ARROW

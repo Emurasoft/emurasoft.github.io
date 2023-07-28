@@ -6,14 +6,14 @@
 
 ## 說明
 
-顯示讓您能定義一般應用程式設定的 [自訂 對話方塊](../../dlg/customize/index) 中的段落標記頁面。
+顯示讓您能定義一般應用程式設定的 [**自訂** 對話方塊](../../dlg/customize/index) 中的段落標記頁面。
 
 ## 運行方法
 
 - 預設功能表: 無
-- [所有命令](all_commands):工具 >
-自訂 >
-段落標記
+- [所有命令](all_commands): **工具** >
+**自訂** >
+**段落標記**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -25,13 +25,13 @@ EEID_CUSTOMIZE_MARKS (9050)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(9050);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 9050

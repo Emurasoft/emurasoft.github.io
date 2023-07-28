@@ -11,8 +11,8 @@ Adds a new column at the right side of the last column in the separated value do
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV \>Columns \>Add Column
-- Toolbar: ![](../../images/columns_separators.gif) \+Add Column
+- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Add Column**
+- Toolbar: ![](../../images/columns_separators.gif) \+ **Add Column**
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

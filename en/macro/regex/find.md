@@ -1,6 +1,6 @@
 # Find Method (Regex Object)
 
-Searches the specified string for the regular expression and returns a [Matches collection](../matches/index) if a match is found. If theGlobal property is set, this method can be repeated with the same parameter to retrieve several matches.
+Searches the specified string for the regular expression and returns a [**Matches** collection](../matches/index) if a match is found. If the **Global** property is set, this method can be repeated with the same parameter to retrieve several matches.
 
 ## 
 

@@ -6,12 +6,12 @@
 
 ## 說明
 
-顯示 [自訂外掛程式 對話方塊](../../dlg/plugins/index)，讓您能自訂外掛程式的設定。
+顯示 [**自訂外掛程式** 對話方塊](../../dlg/plugins/index)，讓您能自訂外掛程式的設定。
 
 ## 運行方法
 
-- 預設功能表:外掛程式 \>自訂外掛程式
-- [所有命令](all_commands):外掛程式 \>自訂外掛程式
+- 預設功能表: **外掛程式** \> **自訂外掛程式**
+- [所有命令](all_commands): **外掛程式** \> **自訂外掛程式**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -23,13 +23,13 @@ EEID_CUSTOMIZE_PLUG_INS (4238)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4238);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4238

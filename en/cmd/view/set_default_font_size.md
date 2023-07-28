@@ -11,8 +11,8 @@ Sets the current font size as the default size.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View \>Font >
-Set Current Font Size as Default
+- [All Commands](../tools/all_commands): **View** \> **Font** >
+**Set Current Font Size as Default**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

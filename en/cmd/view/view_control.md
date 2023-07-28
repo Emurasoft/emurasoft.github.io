@@ -10,8 +10,8 @@ Shows or hides control character marks.
 
 ## How to Run
 
-- Default Menu:View \>Marks \>Control Characters
-- [All Commands](../tools/all_commands):View \>Marks \>Control Characters
+- Default Menu: **View** \> **Marks** \> **Control Characters**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Control Characters**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

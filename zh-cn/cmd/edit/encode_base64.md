@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:转换 \>编码/解码所选内容 \>将纯文本转换为 Base64 (当前编码)
-- [所有命令](../tools/all_commands):转换 \>编码/解码所选内容 \>将纯文本转换为 Base64 (当前编码)
+- 默认菜单: **转换** \> **编码/解码所选内容** \> **将纯文本转换为 Base64 (当前编码)**
+- [所有命令](../tools/all_commands): **转换** \> **编码/解码所选内容** \> **将纯文本转换为 Base64 (当前编码)**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无
@@ -22,13 +22,13 @@
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3940);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3940

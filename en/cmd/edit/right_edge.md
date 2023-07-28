@@ -11,7 +11,7 @@ Moves to the right edge of the current data region.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV \>Cell Selection Mode Only \>Right Edge
+- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode Only** \> **Right Edge**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+RIGHT ARROW (Cell Selection Mode Only)
@@ -23,13 +23,13 @@ EEID_RIGHT_EDGE (4017)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4017);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4017

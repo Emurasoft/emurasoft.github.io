@@ -1,7 +1,7 @@
 # DoubleClickOnly Property (LinkProp Object)
 
-Corresponds to theEnable
-Double-Clicking Only check box in the [Link page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to the **Enable**
+**Double-Clicking Only** check box in the [**Link** page](../../dlg/properties/link/index) of Configuration Properties.
 
 ## 
 

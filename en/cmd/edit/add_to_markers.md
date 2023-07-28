@@ -11,8 +11,8 @@ Adds the selected text to the Markers list.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Advanced
-\>Add to Markers
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
+\> **Add to Markers**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

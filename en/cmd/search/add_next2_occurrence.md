@@ -10,9 +10,9 @@ Adds the occurrence after the next occurrence of the specified text to the selec
 
 ## How to Run
 
-- Default Menu:Search \>Add Next Next Occurrence
-- [All Commands](../tools/all_commands):Search
-\>Add Next Next Occurrence
+- Default Menu: **Search** \> **Add Next Next Occurrence**
+- [All Commands](../tools/all_commands): **Search**
+\> **Add Next Next Occurrence**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_ADD_NEXT2_OCCURRENCE (4605)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4605);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4605

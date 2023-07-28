@@ -10,9 +10,9 @@ Writes a review about EmEditor.
 
 ## How to Run
 
-- Default Menu:Help \>Write a Review
-- [All Commands](../tools/all_commands):Help >
-Write a Review
+- Default Menu: **Help** \> **Write a Review**
+- [All Commands](../tools/all_commands): **Help** >
+**Write a Review**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

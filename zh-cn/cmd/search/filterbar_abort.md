@@ -11,8 +11,8 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):搜索
-\>筛选工具栏 \>中止
+- [所有命令](../tools/all_commands): **搜索**
+\> **筛选工具栏** \> **中止**
 - 工具栏: ![](../../images/abort.gif) (筛选工具栏)
 - 状态栏: 无
 - 默认快捷键: 无
@@ -23,13 +23,13 @@
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3914);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3914

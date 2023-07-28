@@ -64,7 +64,7 @@ _nCmd_
 | EI\_GET\_SAVE\_AS\_TITLEW | 检索文档的完整标题，除了星号 (\*) 所表示的在 Unicode 字符串中的修改。 | (LPWSTR)szTitle<br> 指定要检索字符串的缓冲区。缓冲区必须是 MAX\_PATH 字符长度，包括终止空字符。 | 不使用。 |
 | EI\_MOVE\_ORDER | 改变文档标签页顺序。 | 指定从零开始的目标标签页索引。 | 不使用。 |
 | EI\_CLOSE\_DOC | 关闭文档。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。 |
-| EI\_SAVE\_DOC | 保存文档。如果文档未命名，会出现另存为 对话框。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。当文档未命名时，在另存为 对话框中选择“取消”，也会返回 FALSE。 |
+| EI\_SAVE\_DOC | 保存文档。如果文档未命名，会出现 **另存为** 对话框。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。当文档未命名时，在 **另存为** 对话框中选择“取消”，也会返回 FALSE。 |
 | EI\_GET\_CURRENT\_FOLDER | 检索当前运作的文件夹。 | (LPWSTR)szDir<br> 指定要检索字符串的缓冲区。缓冲区必须是 MAX\_PATH 字符长度，包括终止空字符。 | 不使用。 |
 | EI\_IS\_LARGE\_DOC | 检索标志来指出文档是否很大。 | 不使用。 | (BOOL)bLarge<br> 返回 TRUE 如果文档很大。否则的话，返回 FALSE。 |
 | EI\_USE\_INI | 检索是否用 INI 文件，而不是注册表。 | 不使用。 | (BOOL)bIni<br> 返回 TRUE 如果用 INI 文件，或 FALSE 如果用注册表。 |
@@ -106,8 +106,8 @@ _nCmd_
 | EI\_GET\_CLIENT\_RECT\_NO\_BARS | 检索编辑器视图的坐标，不包括滚动条和迷你地图占用的区域。 | (RECT\*)pRect | 如果成功，返回 TRUE；如果失败，返回 FALSE。 |
 | EI\_REFRESH\_COMMON\_SETTINGS | 加载常用设置并刷新 EmEditor 窗口。 | 不使用。 | 不使用。 |
 | EI\_GET\_NEWLINE\_CODE | 检索文档中使用的换行字符码。 | 不使用。 | 返回 FLAG\_CR\_AND\_LF，FLAG\_CR\_ONLY，FLAG\_LF\_ONLY，或 FLAG\_NEWLINE\_MIXED。 |
-| EI\_GET\_MEMORY\_SIZE | 检索文档中使用的内存大小。可以在自定义 对话框的 [高级 页面](../../dlg/customize/advanced/index) 上的内存大小 文本框中指定默认值。 | 不使用。 | 返回内存大小。 |
-| EI\_SET\_MEMORY\_SIZE | 设置文档中使用的内存大小。可以在自定义 对话框的 [高级 页面](../../dlg/customize/advanced/index) 上的内存大小 文本框中指定默认值。 | (long)nBits<br>指定所需的内存大小。 | 返回新的内存大小。如果文档已经使用大于指定大小的内存大小，则此值可能会大于指定的大小。 |
+| EI\_GET\_MEMORY\_SIZE | 检索文档中使用的内存大小。可以在 **自定义** 对话框的 [**高级** 页面](../../dlg/customize/advanced/index) 上的 **内存大小** 文本框中指定默认值。 | 不使用。 | 返回内存大小。 |
+| EI\_SET\_MEMORY\_SIZE | 设置文档中使用的内存大小。可以在 **自定义** 对话框的 [**高级** 页面](../../dlg/customize/advanced/index) 上的 **内存大小** 文本框中指定默认值。 | (long)nBits<br>指定所需的内存大小。 | 返回新的内存大小。如果文档已经使用大于指定大小的内存大小，则此值可能会大于指定的大小。 |
 | EI\_GET\_BOOKMARK\_COUNT | 检索文档中的书签数。 | 不使用。 | 返回文档中的书签数。 |
 | EI\_SYNC\_NOW | 触发 EmEditor 立即同步。 | (UINT)nFlags<br>你可以指定 SYNC\_FLAG\_SEND，SYNC\_FLAG\_RECEIVE，SYNC\_FLAG\_FORCE，和 SYNC\_FLAG\_REFRESH\_UI 的组合。 | 不使用。 |
 | EI\_GET\_CHAR\_TYPE | 检索字符类型。 | (LPCWSTR)pch | 返回字符类型。它可以是下列类型之一：<br>CHAR\_NULL，CHAR\_SPACE，CHAR\_MARK，CHAR\_ALPHANUMERIC，CHAR\_KANA ，CHAR\_KANA\_MARK ，CHAR\_DB\_SPACE，CHAR\_DB\_MARK，CHAR\_DB\_ALPHANUMERIC，CHAR\_DB\_HIRA，CHAR\_DB\_KATA，CHAR\_DB\_KANJI，CHAR\_DB\_KANA\_MARK，CHAR\_SECOND\_DB，CHAR\_HANGUL，CHAR\_DB\_HANGUL。 |

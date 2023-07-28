@@ -23,7 +23,7 @@ _nCount_
 
 Optional. Specifies the number of indentation
 levels. The default is 1. If
-negative, the method acts like the [Indent\
+negative, the method acts like the [**Indent**\
 Method](selection_indent). If 0, the method acts like 1.
 
 ## Version

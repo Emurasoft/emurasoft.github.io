@@ -11,7 +11,7 @@ Clears all the undo and redo history.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Undo \>Clear All Undo/Redo History
+- [All Commands](../tools/all_commands): **Edit** \> **Undo** \> **Clear All Undo/Redo History**
 - Toolbar: ![](../../images/editundo.gif) (on the arrow) / ![](../../images/editredo.gif) (on the arrow)
 - Status Bar: None
 - Default Keyboard Shortcut: None

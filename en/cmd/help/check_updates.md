@@ -11,9 +11,9 @@ will be prompted to begin updates if they are available.
 
 ## How to Run
 
-- Default Menu:Help \>Check for Updates
-- [All Commands](../tools/all_commands):Help >
-Check for Updates
+- Default Menu: **Help** \> **Check for Updates**
+- [All Commands](../tools/all_commands): **Help** >
+**Check for Updates**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

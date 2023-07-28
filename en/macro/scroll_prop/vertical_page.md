@@ -1,6 +1,6 @@
 # VerticalPage Property (ScrollProp Object)
 
-Corresponds to theAlways Enable 1 Page Vertical Scroll check box in the [Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to the **Always Enable 1 Page Vertical Scroll** check box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 
 ## 
 

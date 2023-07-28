@@ -1,6 +1,6 @@
 # ShowLineNumbers 属性 (GeneralProp 对象)
 
-与配置属性中 [常规 页面](../../dlg/properties/general/index) 上的显示行号 复选框相对应。
+与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **显示行号** 复选框相对应。
 
 ## 
 

@@ -1,6 +1,6 @@
 # document Property (Window Object)
 
-Returns the [Document Object](../document/index).
+Returns the [**Document** Object](../document/index).
 
 ## 
 

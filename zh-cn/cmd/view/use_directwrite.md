@@ -10,10 +10,10 @@
 
 ## 运行方法
 
-- 默认菜单:查看 \>使用 DirectWrite
-- [所有命令](../tools/all_commands):查看 \>字体 \>使用 DirectWrite
+- 默认菜单: **查看** \> **使用 DirectWrite**
+- [所有命令](../tools/all_commands): **查看** \> **字体** \> **使用 DirectWrite**
 - 工具栏: ![](../../images/fontpopup.gif)
-（点击箭头） \>使用 DirectWrite
+（点击箭头） \> **使用 DirectWrite**
 - 状态栏: 无
 - 默认快捷键: 无
 

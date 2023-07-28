@@ -20,7 +20,7 @@ nFound = editor.BatchReplaceInFiles( filters, strPath, nFlags, [ nEncoding, [ st
 
 _filters_
 
-指定包含搜索字串和標志的 [Filters 集合](../filters/index)。
+指定包含搜索字串和標志的 [**Filters** 集合](../filters/index)。
 
 _strPath_
 
@@ -43,7 +43,7 @@ _nFlags_
 
 _nEncoding_
 
-從[編碼常數](../const/const_encoding) 中選擇或指定任何用於 Windows 操作系統的程式碼頁。如果指定 0 或省略，將使用與搜索的檔案名關聯的組態屬性中指定的編碼。
+從 **[編碼常數](../const/const_encoding)** 中選擇或指定任何用於 Windows 操作系統的程式碼頁。如果指定 0 或省略，將使用與搜索的檔案名關聯的組態屬性中指定的編碼。
 
 _strFilesToIgnore_
 
@@ -59,7 +59,7 @@ _nExFlags_
 
 |     |     |
 | --- | --- |
-| eeExFindMulti | 執行多項取代全部。如果未指定，則執行批次取代全部。詳情請參閱 [批次取代全部和多項取代全部之間的區別](../../howto/search/batch_vs_bulk)。 |
+| eeExFindMulti | 執行 **多項取代全部**。如果未指定，則執行 **批次取代全部**。詳情請參閱 [**批次取代全部和多項取代全部之間的區別**](../../howto/search/batch_vs_bulk)。 |
 | eeExFindRegexBoost | 使用 Boost.Regex 作為規則運算式引擎。 |
 | eeExFindRegexOnigmo | 使用 Onigmo 作為規則運算式引擎。 |
 

@@ -12,8 +12,8 @@ at the center of the window immediately.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Split \>Split Horizontally and Fix Position
+- [All Commands](../tools/all_commands): **Window**
+\> **Split** \> **Split Horizontally and Fix Position**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

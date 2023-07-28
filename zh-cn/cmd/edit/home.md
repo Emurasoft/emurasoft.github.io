@@ -11,8 +11,8 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):编辑 \>水平移动光标
-\>移至行首
+- [所有命令](../tools/all_commands): **编辑** \> **水平移动光标**
+\> **移至行首**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: CTRL + ALT + HOME
@@ -24,13 +24,13 @@ EEID_HOME (4164)```
 
 ## 宏
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.StartOfLine(false,eeLineView);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.StartOfLine false,eeLineView

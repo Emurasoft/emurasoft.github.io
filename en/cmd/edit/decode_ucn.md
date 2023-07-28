@@ -10,8 +10,8 @@ Decodes the selected text from Universal Character Names into the equivalent Uni
 
 ## How to Run
 
-- Default Menu:Convert \>Encode/Decode \>Universal Character Names to Unicode
-- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Universal Character Names to Unicode
+- Default Menu: **Convert** \> **Encode/Decode** \> **Universal Character Names to Unicode**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Universal Character Names to Unicode**
 - Toolbar:
 ![](../../images/ucs2uni24x16.gif)
 - Status Bar: None
@@ -24,13 +24,13 @@ EEID_DECODE_UCN (4528)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4528);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4528

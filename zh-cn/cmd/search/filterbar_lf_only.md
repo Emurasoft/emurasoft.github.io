@@ -11,8 +11,8 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):搜索
-\>筛选工具栏 \>匹配换行符 \>仅 LF
+- [所有命令](../tools/all_commands): **搜索**
+\> **筛选工具栏** \> **匹配换行符** \> **仅 LF**
 - 工具栏:  ![](../../images/match_newline_characters.png) \+ 仅 LF (筛选工具栏)
 - 状态栏: 无
 - 默认快捷键: 无

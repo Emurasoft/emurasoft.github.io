@@ -1,8 +1,8 @@
 # TabColumns Property (IndentProp Object)
 
-Corresponds to theTab
-Columns text box in the
-[Tab/Index dialog box](../../dlg/properties/general/indent/index).
+Corresponds to the **Tab**
+**Columns** text box in the
+[**Tab/Index** dialog box](../../dlg/properties/general/indent/index).
 
 ## 
 

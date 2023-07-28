@@ -10,10 +10,10 @@ Shows or hides the Tools toolbar. The Tools toolbar displays all external tools 
 
 ## How to Run
 
-- Default Menu:View >
-Toolbars \>Tools Toolbar
-- [All Commands](../tools/all_commands):View >
-Toolbars \>Tools Toolbar
+- Default Menu: **View** >
+**Toolbars** \> **Tools Toolbar**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **Tools Toolbar**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -25,13 +25,13 @@ EEID_SHOW_TOOLS_BAR (4319)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4319);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4319

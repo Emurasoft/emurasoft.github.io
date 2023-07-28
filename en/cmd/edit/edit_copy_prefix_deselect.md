@@ -9,17 +9,17 @@ text.
 
 Copies the selected text with the quote marks to the Clipboard, and
 deselects the text.
-This command is equivalent to the [Copy Text in\
-Quotes command](edit_copy) followed by the [Cancel \
+This command is equivalent to the [**Copy Text in**\
+**Quotes** command](edit_copy) followed by the [**Cancel** \
 command](escape). After this command, you
 can place the selection by moving the cursor to a different location
-and running the [Paste command](edit_paste).
+and running the [**Paste** command](edit_paste).
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Copy
-\>Copy in Quotes and Deselect
+- [All Commands](../tools/all_commands): **Edit** \> **Copy**
+\> **Copy in Quotes and Deselect**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+Q

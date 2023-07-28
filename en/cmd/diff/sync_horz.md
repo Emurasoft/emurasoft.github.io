@@ -10,8 +10,8 @@ Synchronizes horizontal scrolling between two documents being compared.
 
 ## How to Run
 
-- Default Menu:Compare \>Synchronize Horizontal Scrolling
-- [All Commands](../tools/all_commands):Compare \>Synchronize Horizontal Scrolling
+- Default Menu: **Compare** \> **Synchronize Horizontal Scrolling**
+- [All Commands](../tools/all_commands): **Compare** \> **Synchronize Horizontal Scrolling**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

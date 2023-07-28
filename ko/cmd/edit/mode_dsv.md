@@ -10,8 +10,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:편집 \>구분된 값/정렬 \>사용자 정의 DSV 모드
-- [모든 명령](../tools/all_commands):편집 \>구분된 값/정렬 \>사용자 정의 DSV 모드
+- 기본 메뉴: **편집** \> **구분된 값/정렬** \> **사용자 정의 DSV 모드**
+- [모든 명령](../tools/all_commands): **편집** \> **구분된 값/정렬** \> **사용자 정의 DSV 모드**
 - 도구 모음: ![](../../images/dsv.gif)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -23,13 +23,13 @@ EEID_MODE_DSV (4476)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4476);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4476

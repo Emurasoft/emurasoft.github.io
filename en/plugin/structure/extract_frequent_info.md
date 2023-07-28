@@ -32,7 +32,7 @@ Specifies one of the following values.
 | Value | Meaning |
 | --- | --- |
 | FREQ\_TYPE\_LINES | Creates a list of frequent lines. |
-| FREQ\_TYPE\_WORDS | Creates a list of frequent words. A word is a string surrounded by non-alphanumeric characters, which can be customized by theTreat the following characters as alphanumeric text box in the [Edit page](../../dlg/customize/edit/index) of theCustomize dialog box. |
+| FREQ\_TYPE\_WORDS | Creates a list of frequent words. A word is a string surrounded by non-alphanumeric characters, which can be customized by the **Treat the following characters as alphanumeric** text box in the [**Edit** page](../../dlg/customize/edit/index) of the **Customize** dialog box. |
 | FREQ\_TYPE\_CELLS | Creates a list of frequent cells. |
 | FREQ\_TYPE\_IPV4 | Creates a list of frequent IPv4 addresses. |
 | FREQ\_TYPE\_IPV6 | Creates a list of frequent IPv6 addresses. |

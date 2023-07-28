@@ -1,6 +1,6 @@
 # shell 属性 (Window 对象)
 
-返回 [Shell 对象](../shell/index)。
+返回 [**Shell** 对象](../shell/index)。
 
 ## 
 

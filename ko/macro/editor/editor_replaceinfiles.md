@@ -52,7 +52,7 @@ _nFlags_
 
 _nEncoding_
 
-[인코딩 상수](../const/const_encoding) 에서 선택하거나 Windows 운영 체제에서 사용되는 코드 페이지를 지정합니다.
+**[인코딩 상수](../const/const_encoding)** 에서 선택하거나 Windows 운영 체제에서 사용되는 코드 페이지를 지정합니다.
 
 _strFilesToIgnore_
 

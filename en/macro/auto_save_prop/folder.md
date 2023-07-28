@@ -1,8 +1,8 @@
 # Folder Property (AutoSaveProp Object)
 
-Corresponds to theAuto
-Save Folder text box in the
-[Auto Save page](../../dlg/properties/autosave/index) of Configuration Properties.
+Corresponds to the **Auto**
+**Save Folder** text box in the
+[**Auto Save** page](../../dlg/properties/autosave/index) of Configuration Properties.
 
 ## 
 

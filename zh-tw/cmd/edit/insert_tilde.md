@@ -10,10 +10,10 @@
 
 ## 運行方法
 
-- 預設功能表:插入
-\>讀音符號 \>波狀符號
-- [全部命令](../tools/all_commands):插入
-\>讀音符號 \>波狀符號
+- 預設功能表: **插入**
+\> **讀音符號** \> **波狀符號**
+- [全部命令](../tools/all_commands): **插入**
+\> **讀音符號** \> **波狀符號**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: CTRL+SHIFT+\`
@@ -25,13 +25,13 @@ EEID_INSERT_TILDE (4306)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4306);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4306

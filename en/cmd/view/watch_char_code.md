@@ -6,13 +6,13 @@ Displays the Unicode character value.
 
 ## Description
 
-This command displays the [Character Code Value dialog box](../../dlg/character_code_value_dialog/index) which shows the Unicode value, encoding value, and Unicode name of the character at the cursor.
+This command displays the [**Character Code Value** dialog box](../../dlg/character_code_value_dialog/index) which shows the Unicode value, encoding value, and Unicode name of the character at the cursor.
 
 ## How to Run
 
-- Default Menu:View \>Character Code Value
-- [All Commands](../tools/all_commands):View >
-Character Code Value
+- Default Menu: **View** \> **Character Code Value**
+- [All Commands](../tools/all_commands): **View** >
+**Character Code Value**
 - Toolbar:
 - Status Bar: None
 - Default Shortcut Key: CTRL+I

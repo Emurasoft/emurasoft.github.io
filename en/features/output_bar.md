@@ -4,4 +4,4 @@ When a console program is specified as an external tool, its standard output can
 
 ## See also
 
-- [Use Output Bar check box](../dlg/tools/properties/index)
+- [**Use Output Bar** check box](../dlg/tools/properties/index)

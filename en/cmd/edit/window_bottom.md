@@ -12,8 +12,8 @@ the vertical scroll position.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Vertically
-\>Window Bottom
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
+\> **Window Bottom**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+PAGE DOWN

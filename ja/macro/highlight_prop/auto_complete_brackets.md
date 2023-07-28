@@ -1,6 +1,6 @@
 # AutoCompleteBrackets プロパティ (HighlightProp オブジェクト)
 
-設定のプロパティの[\[強調(2)\]](../../dlg/properties/highlight2/index) [タブ](../../dlg/properties/highlight2/index) の \[かっこ/引用符の自動補完\] チェック ボックスに相当します。
+設定のプロパティの **[\[強調(2)\]](../../dlg/properties/highlight2/index)** [タブ](../../dlg/properties/highlight2/index) の \[かっこ/引用符の自動補完\] チェック ボックスに相当します。
 
 ## 
 

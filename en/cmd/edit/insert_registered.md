@@ -10,8 +10,8 @@ Inserts a registered symbol (®) at the cursor.
 
 ## How to Run
 
-- Default Menu:Insert \>Marks \>Registered
-- [All Commands](../tools/all_commands):Insert \>Marks \>Registered
+- Default Menu: **Insert** \> **Marks** \> **Registered**
+- [All Commands](../tools/all_commands): **Insert** \> **Marks** \> **Registered**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+R

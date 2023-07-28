@@ -17,7 +17,7 @@ _pptPos_
 
 _bCanMoveCursor_
 
-매개변수가 TRUE이고 [스크롤링으로 커서 이동 체크 박스](../../dlg/properties/scroll/index) 가
+매개변수가 TRUE이고 [**스크롤링으로 커서 이동** 체크 박스](../../dlg/properties/scroll/index) 가
 선택된 경우, 커서 위치 또한 이동합니다. 매개 변수가 FALSE인 경우, 커서 위치는 이동하지 않습니다.
 
 ## 반환 값

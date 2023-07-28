@@ -11,8 +11,8 @@ Aborts filtering and empties the filter string.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Abort
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Abort**
 - Toolbar: ![](../../images/abort.gif) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

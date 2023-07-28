@@ -23,13 +23,13 @@ EEID_ZEN_TO_HAN (4151)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.ChangeWidth(eeWidthHalfWidth \| eeWidthAllTypes);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.ChangeWidth eeWidthHalfWidth Or eeWidthAllTypes

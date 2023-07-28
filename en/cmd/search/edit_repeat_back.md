@@ -11,9 +11,9 @@ same options.
 
 ## How to Run
 
-- Default Menu:Search \>Previous
-- [All Commands](../tools/all_commands):Search
-\>Previous
+- Default Menu: **Search** \> **Previous**
+- [All Commands](../tools/all_commands): **Search**
+\> **Previous**
 - Toolbar:
 ![](../../images/editrepeatback.gif)
 - Status Bar: None

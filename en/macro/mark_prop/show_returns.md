@@ -1,8 +1,8 @@
 # ShowReturns Property (MarkProp Object)
 
-Corresponds to theShow
-Returns check box in the
-[Marks page](../../dlg/properties/marks/index) of Configuration Properties.
+Corresponds to the **Show**
+**Returns** check box in the
+[**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
 
 ## 
 

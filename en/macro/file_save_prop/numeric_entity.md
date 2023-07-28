@@ -1,8 +1,8 @@
 # NumericEntity Property (FileSaveProp Object)
 
-Corresponds to theSave
-Unicode as HTML/XML Character Reference check box in the
-[Save Details dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to the **Save**
+**Unicode as HTML/XML Character Reference** check box in the
+[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 ## 
 

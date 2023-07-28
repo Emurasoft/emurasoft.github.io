@@ -6,15 +6,15 @@ Opens the CSV Formats page of the Customize dialog box.
 
 ## Description
 
-Displays the CSV Formats page of the [Customize dialog box](../../dlg/customize/index),
+Displays the CSV Formats page of the [**Customize** dialog box](../../dlg/customize/index),
 where you can define CSV Formats settings.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Customize >
-CSV Formats
+- [All Commands](all_commands): **Tools** >
+**Customize** >
+**CSV Formats**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

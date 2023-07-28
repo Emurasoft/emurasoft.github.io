@@ -8,7 +8,7 @@ Specifies the status (whether the macro is enabled and whether it is checked) of
 
 _id_
 
-Specifies the integer value of the command ID that is used to query the status. This value is equivalent to the _nID_ parameter of the [QueryStatusByID method](../editor/editor_querystatusbyid).
+Specifies the integer value of the command ID that is used to query the status. This value is equivalent to the _nID_ parameter of the [**QueryStatusByID** method](../editor/editor_querystatusbyid).
 
 ## Examples
 

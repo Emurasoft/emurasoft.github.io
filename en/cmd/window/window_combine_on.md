@@ -12,8 +12,8 @@ icon will be displayed on the Windows Task Bar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Enable Tabs \>Enable Tabs - On
+- [All Commands](../tools/all_commands): **Window**
+\> **Enable Tabs** \> **Enable Tabs - On**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

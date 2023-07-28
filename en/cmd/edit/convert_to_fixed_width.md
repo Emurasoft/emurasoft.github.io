@@ -11,7 +11,7 @@ Converts the current separated value document to the fixed width columns using t
 ## How to Run
 
 - Default Menu: (None)
-- [All Commands](../tools/all_commands):CSV \>Convert to \>Convert to Fixed Width Columns
+- [All Commands](../tools/all_commands): **CSV** \> **Convert to** \> **Convert to Fixed Width Columns**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_CONVERT_TO_FIXED_WIDTH (3883)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3883);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3883

@@ -10,8 +10,8 @@ Selects the current column without headings as vertical selection mode in the CS
 
 ## How to Run
 
-- Default Menu:CSV \>Columns \>Select Column without Headings
-- [All Commands](../tools/all_commands):CSV \>Columns \>Select Column without Headings
+- Default Menu: **CSV** \> **Columns** \> **Select Column without Headings**
+- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Select Column without Headings**
 - Toolbar: ![](../../images/columns_separators.gif) \+ Select Column without Headings
 - Status Bar: None
 - Default Keyboard Shortcut: None

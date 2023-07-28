@@ -11,7 +11,7 @@ Copies the selected columns or current column and pastes it to the Clipboard.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Copy \>Copy Columns
+- [All Commands](../tools/all_commands): **Edit** \> **Copy** \> **Copy Columns**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_COPY_COLUMN (3964)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3964);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3964

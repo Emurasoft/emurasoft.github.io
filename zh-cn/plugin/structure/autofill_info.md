@@ -57,7 +57,7 @@ _dwFlags_
 
 _nIncrement_
 
-如果源范围只指定了一个单元格，并且FLAG\_FILL\_SERIES 被指定为 _dwFlags_ 的参数，那么可以在这指定序列的增量数。
+如果源范围只指定了一个单元格，并且 **FLAG\_FILL\_SERIES** 被指定为 _dwFlags_ 的参数，那么可以在这指定序列的增量数。
 
 ## 版本
 

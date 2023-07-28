@@ -1,7 +1,7 @@
 # SetInitialFolder 属性 (FileNewProp 对象)
 
-Corresponds to theSet Initial Folder check box in the
-[New File Details dialog box](../../dlg/properties/file/new_details/index).
+Corresponds to the **Set Initial Folder** check box in the
+[**New File Details** dialog box](../../dlg/properties/file/new_details/index).
 
 ## 
 

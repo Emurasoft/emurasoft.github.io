@@ -1,3 +1,3 @@
 # Q. How can I select large icons for toolbars?
 
-SelectCustomize Toolbars on theTools menu, and selectUse Large Icons.
+Select **Customize Toolbars** on the **Tools** menu, and select **Use Large Icons**.

@@ -1,6 +1,6 @@
 # Enabled 属性 (HighlightProp 对象)
 
-与配置属性中 [高亮（1） 页面](../../dlg/properties/highlight1/index) 上的高亮单词 复选框相对应。
+与配置属性中 [**高亮（1）** 页面](../../dlg/properties/highlight1/index) 上的 **高亮单词** 复选框相对应。
 
 ## 
 

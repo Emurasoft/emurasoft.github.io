@@ -21,7 +21,7 @@ strName = editor.ExecuteCommandByID nID
 _nID_
 
 指定一个表示要执行的命令 ID 的整数。详见
-[命令参考](../../cmd/index) 来查看可用命令列表。不是所有的命令都可用或被支持。
+**[命令参考](../../cmd/index)** 来查看可用命令列表。不是所有的命令都可用或被支持。
 
 ## 版本
 

@@ -11,7 +11,7 @@ Automatically detects and adds separators while in the normal mode to prepare fo
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV >Separators \>Automatically Add Separators
+- [All Commands](../tools/all_commands): **CSV** > **Separators** \> **Automatically Add Separators**
 - Toolbar: ![](../../images/columns_separators.gif) \+ Automatically Add Separators
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -10,9 +10,9 @@
 
 ## 运行方法
 
-- 默认菜单:查看 \>行号
-- [所有命令](../tools/all_commands):查看 >
-行号
+- 默认菜单: **查看** \> **行号**
+- [所有命令](../tools/all_commands): **查看** >
+**行号**
 - 工具栏:
 ![](../../images/line_number24x16.gif)
 - 状态栏: 无
@@ -25,13 +25,13 @@ EEID_VIEW_LINE_NUMBERS (4530)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4530);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4530

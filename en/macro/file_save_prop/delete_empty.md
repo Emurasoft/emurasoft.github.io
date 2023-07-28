@@ -1,8 +1,8 @@
 # DeleteEmpty Property (FileSaveProp Object)
 
-Corresponds to theDelete
-Empty Files when Saving check box in the
-[Save Details dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to the **Delete**
+**Empty Files when Saving** check box in the
+[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 ## 
 

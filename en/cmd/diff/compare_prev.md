@@ -10,8 +10,8 @@ Jumps to the previous difference when in comparison mode.
 
 ## How to Run
 
-- Default Menu:Compare \>Previous Change
-- [All Commands](../tools/all_commands):Compare \>Previous Change
+- Default Menu: **Compare** \> **Previous Change**
+- [All Commands](../tools/all_commands): **Compare** \> **Previous Change**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+F7

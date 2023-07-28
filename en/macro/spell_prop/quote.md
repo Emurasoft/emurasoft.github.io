@@ -1,7 +1,7 @@
 # Quote Property (SpellProp Object)
 
-Corresponds to theQuoted Lines check box in the
-[Spelling page](../../dlg/properties/spell/index) of Configuration Properties.
+Corresponds to the **Quoted Lines** check box in the
+[**Spelling** page](../../dlg/properties/spell/index) of Configuration Properties.
 
 ## 
 

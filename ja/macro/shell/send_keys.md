@@ -24,7 +24,7 @@ _str_
 
 |     |     |
 | --- | --- |
-|Key |Parameter |
+| **Key** | **Parameter** |
 | ALT | % |
 | ALT 下 | {ALT DOWN} |
 | ALT 上 | {ALT UP} |

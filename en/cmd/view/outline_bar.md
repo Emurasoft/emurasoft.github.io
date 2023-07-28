@@ -10,8 +10,8 @@ Shows or hides the outline bar.
 
 ## How to Run
 
-- Default Menu:View \>Outline Bar
-- [All Commands](../tools/all_commands):View \>Outline \>Outline Bar
+- Default Menu: **View** \> **Outline Bar**
+- [All Commands](../tools/all_commands): **View** \> **Outline** \> **Outline Bar**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

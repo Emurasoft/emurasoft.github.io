@@ -25,9 +25,9 @@ _nFlags_
 |     |     |
 | --- | --- |
 | eeValidateAdjustColumns | 调整列宽。 |
-| eeValidateAdjustEnlargeOnly | 与eeValidateAdjustColumns 合用时，不能缩小，但只能扩大列宽。 |
+| eeValidateAdjustEnlargeOnly | 与 **eeValidateAdjustColumns** 合用时，不能缩小，但只能扩大列宽。 |
 | eeValidateAdjustVisibleOnly | 与 eeValidateAdjustColumns 合用，仅调整可见行的分隔符位置。 |
-| eeValidateDetectNL | 如果对当前 [CSV 格式](../../dlg/customize/csv/index) 启用允许换行符在双引号内，这个标志会找到两行，每行包含一个不成对的双引号，并将这些双引号之间的任何换行符转换为嵌入的换行符。 |
+| eeValidateDetectNL | 如果对当前 [CSV 格式](../../dlg/customize/csv/index) 启用 **允许换行符在双引号内**，这个标志会找到两行，每行包含一个不成对的双引号，并将这些双引号之间的任何换行符转换为嵌入的换行符。 |
 | eeValidateDontClearOutput | 不使用。 |
 | eeValidateQuiet | 不在输出栏中显示任何信息或错误。 |
 | eeValidateQuietIfNoError | 如果没有错误，不在输出栏中显示任何信息。 |

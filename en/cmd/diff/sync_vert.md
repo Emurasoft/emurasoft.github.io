@@ -10,8 +10,8 @@ Synchronizes vertical scrolling between two documents being compared.
 
 ## How to Run
 
-- Default Menu:Compare \>Synchronize Vertical Scrolling
-- [All Commands](../tools/all_commands):Compare \>Synchronize Vertical Scrolling
+- Default Menu: **Compare** \> **Synchronize Vertical Scrolling**
+- [All Commands](../tools/all_commands): **Compare** \> **Synchronize Vertical Scrolling**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

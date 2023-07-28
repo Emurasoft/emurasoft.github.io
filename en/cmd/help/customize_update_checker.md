@@ -6,13 +6,13 @@ Customizes the Update Checker.
 
 ## Description
 
-Opens theUpdate Options dialog box, where you can specify how often EmEditor checks for updates, and where updates are downloaded and saved.
+Opens the **Update Options** dialog box, where you can specify how often EmEditor checks for updates, and where updates are downloaded and saved.
 
 ## How to Run
 
-- Default Menu:Help \>Customize Update Checker
-- [All Commands](../tools/all_commands):Help >
-Customize Update Checker
+- Default Menu: **Help** \> **Customize Update Checker**
+- [All Commands](../tools/all_commands): **Help** >
+**Customize Update Checker**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

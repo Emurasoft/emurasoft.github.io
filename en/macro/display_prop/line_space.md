@@ -1,8 +1,8 @@
 # LineSpace Property (DisplayProp Object)
 
-Corresponds to the Line
-Space text box in the
-[Display page](../../dlg/properties/display/index) of Configuration Properties.
+Corresponds to the **Line**
+**Space** text box in the
+[**Display** page](../../dlg/properties/display/index) of Configuration Properties.
 
 ## 
 

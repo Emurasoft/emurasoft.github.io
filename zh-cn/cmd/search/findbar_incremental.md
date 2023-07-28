@@ -11,8 +11,8 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):搜索
-\>查找工具栏 \>增量搜索
+- [所有命令](../tools/all_commands): **搜索**
+\> **查找工具栏** \> **增量搜索**
 - 工具栏: ![](../../images/find_incremental.png) (筛选工具栏)
 - 状态栏: 无
 - 默认快捷键: 无
@@ -24,13 +24,13 @@ EEID_FINDBAR_INCREMENTAL (4571)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4571);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4571

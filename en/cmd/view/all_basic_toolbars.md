@@ -10,9 +10,9 @@ Shows or hides all basic toolbars.
 
 ## How to Run
 
-- Default Menu:View \>Toolbars \>All Basic Toolbars
-- [All Commands](../tools/all_commands):View >
-Toolbars \>All Basic Toolbars
+- Default Menu: **View** \> **Toolbars** \> **All Basic Toolbars**
+- [All Commands](../tools/all_commands): **View** >
+**Toolbars** \> **All Basic Toolbars**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

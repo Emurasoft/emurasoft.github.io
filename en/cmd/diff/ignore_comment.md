@@ -10,8 +10,8 @@ Ignores comments when comparing documents.
 
 ## How to Run
 
-- Default Menu:Compare \>Ignore Comments
-- [All Commands](../tools/all_commands):Compare \>Ignore Comments
+- Default Menu: **Compare** \> **Ignore Comments**
+- [All Commands](../tools/all_commands): **Compare** \> **Ignore Comments**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

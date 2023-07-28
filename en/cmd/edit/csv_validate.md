@@ -11,7 +11,7 @@ Check syntax of the current document and shows the results.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Syntax Check
+- [All Commands](../tools/all_commands): **Edit** \> **Syntax Check**
 - Toolbar: ![](../../images/csv_validate.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

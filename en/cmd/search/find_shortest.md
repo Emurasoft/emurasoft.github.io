@@ -10,9 +10,9 @@ Finds the non-empty shortest line in a non-CSV document or non-empty shortest ce
 
 ## How to Run
 
-- Default Menu:Search \>Find Non-empty Shortest Line/Cell
-- [All Commands](../tools/all_commands):Search
-\>Find Non-empty Shortest Line/Cell
+- Default Menu: **Search** \> **Find Non-empty Shortest Line/Cell**
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Non-empty Shortest Line/Cell**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

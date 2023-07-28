@@ -10,9 +10,9 @@ Shows or hides all marks.
 
 ## How to Run
 
-- Default Menu:View \>Marks \>All Marks
-- [All Commands](../tools/all_commands):View >
-Marks \>All Marks
+- Default Menu: **View** \> **Marks** \> **All Marks**
+- [All Commands](../tools/all_commands): **View** >
+**Marks** \> **All Marks**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

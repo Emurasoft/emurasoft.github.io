@@ -11,8 +11,8 @@ Moves the cursor to the start of the previous logical line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Vertically
-\>Previous Logical Line
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
+\> **Previous Logical Line**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+PAGE UP
@@ -24,13 +24,13 @@ EEID_PREV_LOGICAL_LINE (4269)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4269);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4269

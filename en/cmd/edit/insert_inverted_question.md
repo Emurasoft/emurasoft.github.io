@@ -10,8 +10,8 @@ Inserts an inverted question mark (¿) at the cursor.
 
 ## How to Run
 
-- Default Menu:Insert \>Marks \>Inverted Question Mark
-- [All Commands](../tools/all_commands):Insert \>Marks \>Inverted Question Mark
+- Default Menu: **Insert** \> **Marks** \> **Inverted Question Mark**
+- [All Commands](../tools/all_commands): **Insert** \> **Marks** \> **Inverted Question Mark**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: ALT+CTRL+SHIFT+/
@@ -23,13 +23,13 @@ EEID_INSERT_INVERTED_QUESTION (4312)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.Text="¿";
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.Text="¿"

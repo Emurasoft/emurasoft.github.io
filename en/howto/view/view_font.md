@@ -2,6 +2,6 @@
 
 1. Select
 ![Font](../../images/fontpopup.gif)
-under theView menu.
-2. ChooseDisplay Font.
-3. SelectFont,Font style, andSize.
+under the **View** menu.
+2. Choose **Display Font**.
+3. Select **Font**, **Font style**, and **Size**.

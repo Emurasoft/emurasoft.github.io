@@ -11,7 +11,7 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):編輯 \>CSV \>僅限儲存格選擇模式 \>右邊緣
+- [全部命令](../tools/all_commands): **編輯** \> **CSV** \> **僅限儲存格選擇模式** \> **右邊緣**
 - 工具列: ![](../../images/cell_selection_mode.gif)
 - 狀態列: 無
 - 預設捷徑: CTRL+向右鍵 (僅限儲存格選擇模式)
@@ -23,13 +23,13 @@ EEID_RIGHT_EDGE (4017)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4017);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4017

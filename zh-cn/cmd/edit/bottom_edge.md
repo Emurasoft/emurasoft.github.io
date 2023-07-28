@@ -11,7 +11,7 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):CSV \>仅限单元格选择模式 \>下边缘
+- [所有命令](../tools/all_commands): **CSV** \> **仅限单元格选择模式** \> **下边缘**
 - 工具栏: ![](../../images/cell_selection_mode.gif)
 - 状态栏: 无
 - 默认快捷键: CTRL+向下键 (仅限单元格选择模式)

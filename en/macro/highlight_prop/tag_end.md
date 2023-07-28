@@ -1,8 +1,8 @@
 # TagEnd Property (HighlightProp Object)
 
-Corresponds to theEnd
-Tag text box in the
-[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to the **End**
+**Tag** text box in the
+[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
 ## 
 

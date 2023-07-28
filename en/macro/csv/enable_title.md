@@ -1,6 +1,6 @@
 # EnableTitle Property (Csv Object)
 
-Corresponds to theToolbar button title check box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to the **Toolbar button title** check box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 
 ## 
 

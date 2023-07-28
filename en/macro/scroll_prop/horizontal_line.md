@@ -1,6 +1,6 @@
 # HorizontalLine Property (ScrollProp Object)
 
-Corresponds to theHorizontal Line check box in the [Scroll page](../../dlg/properties/scroll/index) of Configuration Properties.
+Corresponds to the **Horizontal Line** check box in the [**Scroll** page](../../dlg/properties/scroll/index) of Configuration Properties.
 
 ## 
 

@@ -10,8 +10,8 @@ Jumps to the next difference when in comparison mode.
 
 ## How to Run
 
-- Default Menu:Compare \>Next Change
-- [All Commands](../tools/all_commands):Compare \>Next Change
+- Default Menu: **Compare** \> **Next Change**
+- [All Commands](../tools/all_commands): **Compare** \> **Next Change**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: F7

@@ -10,8 +10,8 @@ Jumps to previous misspelling in this document.
 
 ## How to Run
 
-- Default Menu:Edit \>Spelling \>Previous Misspelling
-- [All Commands](../tools/all_commands):Edit \>Spelling \>Previous Misspelling
+- Default Menu: **Edit** \> **Spelling** \> **Previous Misspelling**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Previous Misspelling**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+M

@@ -14,4 +14,4 @@
 ![Properties for Current Configuration](../../images/properties.gif)
 (如果您只想更改目前的組態) 或
 ![Properties for All Configuration](../../images/allproperties.gif)
-(如果您想要更改所有組態) 并到一般 頁面上更改標準行邊距 以及引用行邊距。
+(如果您想要更改所有組態) 并到 **一般** 頁面上更改 **標準行邊距** 以及 **引用行邊距。**

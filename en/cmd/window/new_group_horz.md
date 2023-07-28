@@ -10,8 +10,8 @@ Detaches the current document from combined windows as a new group, and arranges
 
 ## How to Run
 
-- Default Menu:Window \>New Horizontal Group
-- [All Commands](../tools/all_commands):Window \>Group \>New Horizontal Group
+- Default Menu: **Window** \> **New Horizontal Group**
+- [All Commands](../tools/all_commands): **Window** \> **Group** \> **New Horizontal Group**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

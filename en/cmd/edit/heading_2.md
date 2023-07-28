@@ -10,8 +10,8 @@ Sets the first two lines headings and non-scrollable.
 
 ## How to Run
 
-- Default Menu:CSV \>Headings (Freeze Panes) \>Column Heading 2
-- [All Commands](../tools/all_commands):CSV \>Headings (Freeze Panes) \>Column Heading 2
+- Default Menu: **CSV** \> **Headings (Freeze Panes)** \> **Column Heading 2**
+- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Column Heading 2**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

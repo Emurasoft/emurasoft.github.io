@@ -11,8 +11,8 @@ Enables all markers.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View \>Markers
-\>Enable All
+- [All Commands](../tools/all_commands): **View** \> **Markers**
+\> **Enable All**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_MARKER_ENABLE_ALL (4585)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4585);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4585

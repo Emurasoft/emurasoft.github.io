@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [所有命令](all_commands):工具
->啟動視窗
+- [所有命令](all_commands): **工具**
+> **啟動視窗**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -24,13 +24,13 @@ EEID_START_WINDOW (3948)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3948);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3948

@@ -11,9 +11,9 @@ Otherwise, finds the next occurrence of the word at the cursor position.
 
 ## How to Run
 
-- Default Menu:Search \>Find Next Word
-- [All Commands](../tools/all_commands):Search
-\>Find Next Word
+- Default Menu: **Search** \> **Find Next Word**
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Next Word**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: Ctrl+F3

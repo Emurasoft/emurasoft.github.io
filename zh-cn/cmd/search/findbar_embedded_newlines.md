@@ -11,8 +11,8 @@
 ## 运行方法
 
 - 默认菜单: 无
-- [所有命令](../tools/all_commands):搜索
-\>查找工具栏 \>匹配 CSV 中的嵌入式换行
+- [所有命令](../tools/all_commands): **搜索**
+\> **查找工具栏** \> **匹配 CSV 中的嵌入式换行**
 - 工具栏: ![](../../images/find_embedded_newlines.gif) (查找工具栏)
 - 状态栏: 无
 - 默认快捷键: 无

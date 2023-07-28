@@ -11,8 +11,8 @@ Toggles the Use Regular Expressions button on the Filter toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Use Regular Expressions
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Use Regular Expressions**
 - Toolbar: ![](../../images/find_reg_exp.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

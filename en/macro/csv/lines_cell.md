@@ -1,6 +1,6 @@
 # LinesCell Property (Csv Object)
 
-Corresponds to theMax newlines in a cell text box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to the **Max newlines in a cell** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 
 ## 
 

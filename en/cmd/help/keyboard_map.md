@@ -10,9 +10,9 @@ Displays the list of available commands with the keyboard shortcuts.
 
 ## How to Run
 
-- Default Menu:Help \>Keyboard Map
-- [All Commands](../tools/all_commands):Help >
-Keyboard Map
+- Default Menu: **Help** \> **Keyboard Map**
+- [All Commands](../tools/all_commands): **Help** >
+**Keyboard Map**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

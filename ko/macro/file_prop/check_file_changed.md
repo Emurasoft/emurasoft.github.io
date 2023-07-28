@@ -1,6 +1,6 @@
 # CheckFileChanged 속성 (FileProp 개체)
 
-구성 속성 [파일 탭](../../dlg/properties/file/index) 의기타 프로그램에 의하여 변경됨 리스트 박스에 해당합니다.
+구성 속성 [**파일** 탭](../../dlg/properties/file/index) 의 **기타 프로그램에 의하여 변경됨** 리스트 박스에 해당합니다.
 
 ## 
 

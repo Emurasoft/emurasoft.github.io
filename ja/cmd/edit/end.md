@@ -23,13 +23,13 @@ EEID_END (4166)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.EndOfLine(false,eeLineView);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.EndOfLine false,eeLineView

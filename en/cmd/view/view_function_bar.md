@@ -10,9 +10,9 @@ Shows or hides the function bar at the bottom of the EmEditor window.
 
 ## How to Run
 
-- Default Menu:View \>Function Bar
-- [All Commands](../tools/all_commands):View >
-Function Bar
+- Default Menu: **View** \> **Function Bar**
+- [All Commands](../tools/all_commands): **View** >
+**Function Bar**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

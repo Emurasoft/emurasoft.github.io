@@ -10,8 +10,8 @@ Inserts a new line below the line the cursor is currently located in.
 
 ## How to Run
 
-- Default Menu:Insert \>Empty Line Below
-- [All Commands](../tools/all_commands):Insert \>Empty Line Below
+- Default Menu: **Insert** \> **Empty Line Below**
+- [All Commands](../tools/all_commands): **Insert** \> **Empty Line Below**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+ENTER

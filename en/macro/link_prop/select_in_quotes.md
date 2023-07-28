@@ -1,7 +1,7 @@
 # SelectInQuotes Property (LinkProp Object)
 
-Corresponds to theClicking
-in Quotes Selects the Whole String check box in the [Link tab](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to the **Clicking**
+**in Quotes Selects the Whole String** check box in the [**Link** tab](../../dlg/properties/link/index) of Configuration Properties.
 
 ## 
 

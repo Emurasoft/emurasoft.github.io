@@ -10,8 +10,8 @@ Resets the width of the selected columns of the CSV document.
 
 ## How to Run
 
-- Default Menu:CSV \>Columns \>Reset Column Width
-- [All Commands](../tools/all_commands):CSV \>Columns \>Reset Column Width
+- Default Menu: **CSV** \> **Columns** \> **Reset Column Width**
+- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Reset Column Width**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

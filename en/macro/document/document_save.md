@@ -20,7 +20,7 @@ document.Save [ strName ]
 
 _strName_
 
-Optional. Specifies the full path name of the files to be saved. If omitted, theSave As dialog box will appear.
+Optional. Specifies the full path name of the files to be saved. If omitted, the **Save As** dialog box will appear.
 
 ## Version
 

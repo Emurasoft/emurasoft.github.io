@@ -11,7 +11,7 @@ Undo all the previous actions.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Undo \>Undo All
+- [All Commands](../tools/all_commands): **Edit** \> **Undo** \> **Undo All**
 - Toolbar: ![](../../images/editundo.gif) (on the arrow)
 - Status Bar: None
 - Default Keyboard Shortcut: None

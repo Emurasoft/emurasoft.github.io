@@ -11,8 +11,8 @@ Refreshes the document with the current filter settings.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Refresh
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Refresh**
 - Toolbar: ![](../../images/refresh.gif) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

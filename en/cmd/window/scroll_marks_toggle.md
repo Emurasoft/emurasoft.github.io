@@ -11,7 +11,7 @@ Toggles the markers on the vertical scroll bar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window \>Scroll \>Show Markers
+- [All Commands](../tools/all_commands): **Window** \> **Scroll** \> **Show Markers**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

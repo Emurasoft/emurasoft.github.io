@@ -1,7 +1,7 @@
 # URL Property (LinkProp Object)
 
-Corresponds to theLink
-to URLs check box in the [Link page](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to the **Link**
+**to URLs** check box in the [**Link** page](../../dlg/properties/link/index) of Configuration Properties.
 
 ## 
 

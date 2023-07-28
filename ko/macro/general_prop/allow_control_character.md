@@ -1,6 +1,6 @@
 # AllowControlCharacter 속성 (GeneralProp 개체)
 
-구성 속성 [일반 탭](../../dlg/properties/general/index) 의컨트롤 문자 삽입 허용 체크 박스에 해당합니다.
+구성 속성 [**일반** 탭](../../dlg/properties/general/index) 의 **컨트롤 문자 삽입 허용** 체크 박스에 해당합니다.
 
 ## 
 

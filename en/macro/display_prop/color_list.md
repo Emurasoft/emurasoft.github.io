@@ -1,6 +1,6 @@
 # ColorList Property (DisplayProp Object)
 
-Retrieves the [DisplayList collection](../display_list/index) for the color list.
+Retrieves the [**DisplayList** collection](../display_list/index) for the color list.
 
 ## 
 

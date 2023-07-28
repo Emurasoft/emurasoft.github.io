@@ -11,8 +11,8 @@ Enables or disables shortcut keys in the Output Bar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View >
-Output Bar \>Enable Shortcut Keys
+- [All Commands](../tools/all_commands): **View** >
+**Output Bar** \> **Enable Shortcut Keys**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

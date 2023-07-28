@@ -57,7 +57,7 @@ _dwFlags_
 
 _nIncrement_
 
-如果源範圍只指定了一個儲存格，並且FLAG\_FILL\_SERIES 被指定為 _dwFlags_ 的參數，那么可以在這指定數列的增量數。
+如果源範圍只指定了一個儲存格，並且 **FLAG\_FILL\_SERIES** 被指定為 _dwFlags_ 的參數，那么可以在這指定數列的增量數。
 
 ## 版本
 

@@ -10,8 +10,8 @@ Checks spelling in quoted lines. Misspelled words will be underlined in red.
 
 ## How to Run
 
-- Default Menu:Edit \>Spelling \>Check Spelling in \>Quoted Lines
-- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling in \>Quoted Lines
+- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Quoted Lines**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **Quoted Lines**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

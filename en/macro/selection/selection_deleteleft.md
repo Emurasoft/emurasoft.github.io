@@ -24,7 +24,7 @@ _nCount_
 Optional. Specifies the number of characters to delete to the left of the
 cursor. The default is 1. If negative, the method acts like
 the
-[Delete \
+[**Delete** \
 Method.](selection_delete) If 0, the method acts like 1.
 
 ## Version

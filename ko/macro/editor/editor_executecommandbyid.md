@@ -21,7 +21,7 @@ strName = editor.ExecuteCommandByID nID
 _nID_
 
 실행할 명령 ID를 나타내는 정수를 지정합니다. 가능한 명령의 목록을 위해
-[명령 참조](../../cmd/index) 를 참고 하십시오.
+**[명령 참조](../../cmd/index)** 를 참고 하십시오.
 모든 명령이 가능하거나 지원되지는 않습니다.
 
 ## 버전

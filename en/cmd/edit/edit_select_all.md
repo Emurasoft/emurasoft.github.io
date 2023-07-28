@@ -10,9 +10,9 @@ Selects all characters in the current document.
 
 ## How to Run
 
-- Default Menu:Edit \>Select All
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Select All
+- Default Menu: **Edit** \> **Select All**
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Select All**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+A

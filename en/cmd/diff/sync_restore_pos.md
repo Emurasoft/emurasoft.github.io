@@ -10,8 +10,8 @@ Restores original window/tab positions when comparison or synchronization is can
 
 ## How to Run
 
-- Default Menu:Compare \>Restore Window Positions when Finished
-- [All Commands](../tools/all_commands):Compare \>Restore Window Positions when Finished
+- Default Menu: **Compare** \> **Restore Window Positions when Finished**
+- [All Commands](../tools/all_commands): **Compare** \> **Restore Window Positions when Finished**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

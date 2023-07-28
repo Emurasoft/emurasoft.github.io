@@ -2,16 +2,16 @@
 
 ## Summary
 
-Displays the [Undo/Redo History dialog box](../../dlg/undo_history/index).
+Displays the [**Undo/Redo History** dialog box](../../dlg/undo_history/index).
 
 ## Description
 
-Displays the [Undo/Redo History dialog box](../../dlg/undo_history/index).
+Displays the [**Undo/Redo History** dialog box](../../dlg/undo_history/index).
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Undo \>Undo/Redo History
+- [All Commands](../tools/all_commands): **Edit** \> **Undo** \> **Undo/Redo History**
 - Toolbar: ![](../../images/editundo.gif) (on the arrow)
 - Status Bar: None
 - Default Keyboard Shortcut: None

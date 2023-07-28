@@ -10,8 +10,8 @@ Checks spelling in string enclosed by single quotation marks. Misspelled words w
 
 ## How to Run
 
-- Default Menu:Edit \>Spelling \>Check Spelling in \>String Enclosed by Single Quotation Marks
-- [All Commands](../tools/all_commands):Edit \>Spelling \>Check Spelling in \>String Enclosed by Single Quotation Marks
+- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **String Enclosed by Single Quotation Marks**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **String Enclosed by Single Quotation Marks**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

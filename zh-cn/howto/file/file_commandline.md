@@ -123,7 +123,7 @@ _encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
 | /di | 指定工作文件夹当创建一个新文档时。EmEditor 内部使用。 |
 | /eh | 抓取文本块内容。 |
 | /fc " _FindWhat_" | 在文件中查找（区分大小写）。 |
-| /fd | 显示 [在文件中查找 对话框](../../dlg/find_in_files/index)。 |
+| /fd | 显示 [**在文件中查找** 对话框](../../dlg/find_in_files/index)。 |
 | /ff " _FindWhat_" | 直接在打开的文档中查找一个字符串。可以与 /mc 或 /x 联合使用。 |
 | /fi " _FindWhat_" | 在文件中查找（不区分大小写）。 |
 | /fh | 高亮被搜索的字符串。 |
@@ -153,7 +153,7 @@ _encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
 | /pos left top right bottom | 用四个整数指定窗口位置（左，顶，右，底）。 |
 | /r | 只读模式。 |
 | /rc " _FindWhat_" | 在文件中替换（区分大小写）。 |
-| /rd | 显示 [在文件中替换 对话框](../../dlg/replace_in_files/index)。 |
+| /rd | 显示 [**在文件中替换** 对话框](../../dlg/replace_in_files/index)。 |
 | /rh | 把 HTML 文件打开为只读。内部使用。 |
 | /ri " _FindWhat_" | 在文件中替换（不区分大小写）。 |
 | /rr | 在文件夹中以递归方式打开文件。 |

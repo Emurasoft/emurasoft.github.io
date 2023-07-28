@@ -1,6 +1,6 @@
 # AllowDelimiter 屬性 (Csv 對象)
 
-與在自訂對話方塊中 [CSV 頁面](../../dlg/customize/csv/index) 上的允許分隔符號在引號內 核取方塊對應。
+與在自訂對話方塊中 [**CSV** 頁面](../../dlg/customize/csv/index) 上的 **允許分隔符號在引號內** 核取方塊對應。
 
 ## 
 

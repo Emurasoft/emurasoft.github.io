@@ -8,13 +8,13 @@
 
 另外，您還可以用下列快速鍵移動游標。
 
--CTRL+ RIGHT 右移一個單字。
--CTRL+ LEFT 左移一個單字。
--HOME 移至目前的行行首。
--ALT+ HOME 移至目前的行邏輯行行首。
--END 移至目前的行行末。
--ALT+ END 移至目前的行邏輯行行首。
--PAGE UP 上移一頁。
--PAGE DOWN 下移一頁
--CTRL+ HOME 移到檔案頂部。
--CTRL+ END 移到檔案底部。
+- **CTRL+ RIGHT** 右移一個單字。
+- **CTRL+ LEFT** 左移一個單字。
+- **HOME** 移至目前的行行首。
+- **ALT+ HOME** 移至目前的行邏輯行行首。
+- **END** 移至目前的行行末。
+- **ALT+ END** 移至目前的行邏輯行行首。
+- **PAGE UP** 上移一頁。
+- **PAGE DOWN** 下移一頁
+- **CTRL+ HOME** 移到檔案頂部。
+- **CTRL+ END** 移到檔案底部。

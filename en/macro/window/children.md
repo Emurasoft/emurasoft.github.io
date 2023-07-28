@@ -1,6 +1,6 @@
 # Children Property (Window Object)
 
-Returns the [Windows collection](../windows/index) that represents child windows.
+Returns the [**Windows** collection](../windows/index) that represents child windows.
 
 ## 
 

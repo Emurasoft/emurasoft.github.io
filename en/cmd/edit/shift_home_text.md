@@ -13,8 +13,8 @@ character at the beginning of the current line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Home or Start of Text Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Home or Start of Text Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+HOME

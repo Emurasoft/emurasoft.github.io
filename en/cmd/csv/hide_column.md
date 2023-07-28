@@ -10,8 +10,8 @@ Hides the selected columns or current column.
 
 ## How to Run
 
-- Default Menu:CSV \>Columns \>Hide Columns
-- [All Commands](../tools/all_commands):CSV \>Columns \>Hide Columns
+- Default Menu: **CSV** \> **Columns** \> **Hide Columns**
+- [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Hide Columns**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

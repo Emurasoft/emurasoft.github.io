@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:檢視 \>工具列
-- [全部命令](../tools/all_commands):檢視 >
-工具列
+- 預設功能表: **檢視** \> **工具列**
+- [全部命令](../tools/all_commands): **檢視** >
+**工具列**
 - 工具列: 無
 - 狀態列: 無
 - 預設快速鍵: 無
@@ -24,13 +24,13 @@
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(22976 + i);  // i 是一個從 0 到 255 的整數
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 22976 + i  ' i 是一個從 0 到 255 的整數

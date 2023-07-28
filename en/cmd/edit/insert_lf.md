@@ -14,8 +14,8 @@ line.
 
 ## How to Run
 
-- Default Menu:Insert \>LF Only
-- [All Commands](../tools/all_commands):Insert \>LF Only
+- Default Menu: **Insert** \> **LF Only**
+- [All Commands](../tools/all_commands): **Insert** \> **LF Only**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

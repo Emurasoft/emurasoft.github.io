@@ -1,8 +1,8 @@
 # Enabled Property (AssociationProp Object)
 
-Corresponds to theEnable
-Association check box in the
-[Association page](../../dlg/properties/associate/index) of Configuration Properties.
+Corresponds to the **Enable**
+**Association** check box in the
+[**Association** page](../../dlg/properties/associate/index) of Configuration Properties.
 
 ## 
 

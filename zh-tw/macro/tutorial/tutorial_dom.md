@@ -1,7 +1,7 @@
 # 巨集的規格 (文檔對象模型) (教程)
 
-在 EmEditor 巨集文檔對象模型 (DOM) 的規格中，In the specifications of the EmEditor macro Document 對象 Model (DOM),[Window 對象](../window/index) 是目前的的範圍。換句話說，沒有明確的範圍的屬性和方法指的都是目前的的[Window 對象](../window/index)。
-例如，第一個 _document_ 是 Window 對象的[document 屬性](../window/window_document)，適用於網頁瀏覽器的指令碼。對于熟悉網頁瀏覽器指令碼的使用者，下面的代碼可能會比較眼熟:
+在 EmEditor 巨集文檔對象模型 (DOM) 的規格中，In the specifications of the EmEditor macro Document 對象 Model (DOM), **[Window 對象](../window/index)** 是目前的的範圍。換句話說，沒有明確的範圍的屬性和方法指的都是目前的的 **[Window 對象](../window/index)**。
+例如，第一個 _document_ 是 Window 對象的 **[document 屬性](../window/window_document)**，適用於網頁瀏覽器的指令碼。對于熟悉網頁瀏覽器指令碼的使用者，下面的代碼可能會比較眼熟:
 
 ## 
 

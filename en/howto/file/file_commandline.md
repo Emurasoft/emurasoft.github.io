@@ -127,7 +127,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | /di | specifies the working folder when creating a new document. Used internally by EmEditor. |
 | /eh | grabs a text box contents. |
 | /fc " _FindWhat_" | find in files (case sensitive). |
-| /fd | displays the [Find in Filesdialog box](../../dlg/find_in_files/index). |
+| /fd | displays the [**Find in Files**dialog box](../../dlg/find_in_files/index). |
 | /ff " _FindWhat_" | find a string directly within the opened document. Can be combined with <br> /mc or /x. |
 | /fi " _FindWhat_" | find in files (ignore case). |
 | /fh | highlights searched strings. |
@@ -157,7 +157,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | /pos left top right bottom | specifies the window position with four integers (left, top, right, bottom). |
 | /r | read-only mode. |
 | /rc " _FindWhat_" | replaces in files (case sensitive). |
-| /rd | displays the [Replace in\<br>Files dialog box](../../dlg/replace_in_files/index). |
+| /rd | displays the [**Replace in**\<br>**Files** dialog box](../../dlg/replace_in_files/index). |
 | /rh | opens HTML files as read-only. Used internally. |
 | /ri " _FindWhat_" | replaces in files (ignore case). |
 | /rr | opens files in folders recursively. |

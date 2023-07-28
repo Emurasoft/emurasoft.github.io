@@ -1,8 +1,8 @@
 # KinsokuEnd Property (WrapProp Object)
 
-Corresponds to theNot
-Allowed at Line End text box in the
-[Wrap tab](../../dlg/properties/wrap/index) of Configuration Properties.
+Corresponds to the **Not**
+**Allowed at Line End** text box in the
+[**Wrap** tab](../../dlg/properties/wrap/index) of Configuration Properties.
 
 ## 
 

@@ -1,8 +1,8 @@
 # InsideTag Property (HighlightItem Object)
 
-Corresponds to theInside
-Tag Only check box in the
-[Highlight (1) page](../../dlg/properties/highlight1/index) of Configuration Properties.
+Corresponds to the **Inside**
+**Tag Only** check box in the
+[**Highlight (1)** page](../../dlg/properties/highlight1/index) of Configuration Properties.
 
 ## 
 

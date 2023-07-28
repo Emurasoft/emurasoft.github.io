@@ -10,8 +10,8 @@ Apply Unicode Normalization Form D (Canonical Decomposition) defined in " [Unico
 
 ## How to Run
 
-- Default Menu:Convert \>Encode/Decode \>Unicode Normalization Form D (Canonical Decomposition)
-- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Unicode Normalization Form D (Canonical Decomposition)
+- Default Menu: **Convert** \> **Encode/Decode** \> **Unicode Normalization Form D (Canonical Decomposition)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode Normalization Form D (Canonical Decomposition)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

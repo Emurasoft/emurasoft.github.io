@@ -1,6 +1,6 @@
 # INFO\_EX\_DATA
 
-Used by [EE\_INFO\_EX message](../message/ee_info_ex).
+Used by [**EE\_INFO\_EX** message](../message/ee_info_ex).
 
 typedef struct \_INFO\_EX\_DATA {
 
@@ -23,7 +23,7 @@ Must be sizeof(INFO\_EX\_DATA).
 _nCmd_
 
 Specifies a parameter to retrieve or set. Please see the
-[EE\_INFO message](../message/ee_info) for the list of commands.
+[**EE\_INFO** message](../message/ee_info) for the list of commands.
 
 _hDoc_
 

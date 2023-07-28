@@ -13,8 +13,8 @@ Outline Guide.
 
 ## How to Run
 
-- Default Menu:Edit \>Outlining \>Synchronize Outline Bar and Outline Guide
-- [All Commands](../tools/all_commands):Edit \>Outlining \>Synchronize Outline Bar and Outline Guide
+- Default Menu: **Edit** \> **Outlining** \> **Synchronize Outline Bar and Outline Guide**
+- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Synchronize Outline Bar and Outline Guide**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:編輯 \>CSV \>(CSV 格式)
-- [全部命令](../tools/all_commands):編輯 \>CSV \>(CSV 格式)
+- 預設功能表: **編輯** \> **CSV** \> **(CSV 格式)**
+- [全部命令](../tools/all_commands): **編輯** \> **CSV** \> **(CSV 格式)**
 - 工具列: ![](../../images/csv_mode.gif) \+ (CSV 格式) (CSV 工具列)
 - 狀態列: 無
 - 預設快速鍵: 無

@@ -11,8 +11,8 @@ Finds the next occurrence using the Find toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Find Next
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Find Next**
 - Toolbar: ![](../../images/editrepeat.gif) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

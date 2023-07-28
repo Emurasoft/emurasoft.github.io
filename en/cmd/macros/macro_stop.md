@@ -10,9 +10,9 @@ Stops macro.
 
 ## How to Run
 
-- Default Menu:Macros \>Stop
-- [All Commands](../tools/all_commands):Macros
-\>Stop
+- Default Menu: **Macros** \> **Stop**
+- [All Commands](../tools/all_commands): **Macros**
+\> **Stop**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

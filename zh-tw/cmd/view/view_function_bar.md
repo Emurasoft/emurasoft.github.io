@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:檢視 \>快捷功能條
-- [全部命令](../tools/all_commands):檢視 >
-快捷功能條
+- 預設功能表: **檢視** \> **快捷功能條**
+- [全部命令](../tools/all_commands): **檢視** >
+**快捷功能條**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -24,13 +24,13 @@ EEID_VIEW_FUNCTION_BAR (4448)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4448);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4448

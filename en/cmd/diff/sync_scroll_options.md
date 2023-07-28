@@ -11,8 +11,8 @@ Starts Synchronize Scrolling Wizard to synchronize scrolling between the two mos
 
 ## How to Run
 
-- Default Menu:Compare \>Synchronize Scrolling with Options
-- [All Commands](../tools/all_commands):Compare \>Synchronize Scrolling with Options
+- Default Menu: **Compare** \> **Synchronize Scrolling with Options**
+- [All Commands](../tools/all_commands): **Compare** \> **Synchronize Scrolling with Options**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

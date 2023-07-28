@@ -10,10 +10,10 @@
 
 ## 運行方法
 
-- 預設功能表:檢視 >
-工具列 \>搜尋工具列
-- [全部命令](../tools/all_commands):檢視 >
-工具列 \>搜尋工具列
+- 預設功能表: **檢視** >
+**工具列** \> **搜尋工具列**
+- [全部命令](../tools/all_commands): **檢視** >
+**工具列** \> **搜尋工具列**
 - Toolbar:
 ![](../../images/emeditor12_toggle_find_bar_button.png)
 - 狀態列: 無
@@ -26,13 +26,13 @@ EEID_SHOW_FIND_BAR (4559)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4559);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4559

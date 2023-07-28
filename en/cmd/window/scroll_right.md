@@ -11,8 +11,8 @@ Scrolls the document right by one character.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window \>
-Scroll \>Right
+- [All Commands](../tools/all_commands): **Window** \>
+**Scroll** \> **Right**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

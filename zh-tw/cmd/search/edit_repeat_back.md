@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:搜尋 \>上一個
-- [全部命令](../tools/all_commands):搜尋
-\>上一個
+- 預設功能表: **搜尋** \> **上一個**
+- [全部命令](../tools/all_commands): **搜尋**
+\> **上一個**
 - Toolbar:
 ![](../../images/editrepeatback.gif)
 - 狀態列: 無

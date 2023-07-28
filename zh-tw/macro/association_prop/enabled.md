@@ -1,6 +1,6 @@
 # Enabled 屬性 (AssociationProp 對象)
 
-與組態屬性中的 [關聯 頁面](../../dlg/properties/associate/index) 上的啟用關聯 核取方塊相對應。
+與組態屬性中的 [**關聯** 頁面](../../dlg/properties/associate/index) 上的 **啟用關聯** 核取方塊相對應。
 
 ## 
 

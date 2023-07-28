@@ -6,16 +6,16 @@ Displays No Wrap properties.
 
 ## Description
 
-Displays the [No Wrap \
+Displays the [**No Wrap** \
 page](../../dlg/properties/no_wrap/index)
-of the[Configuration Properties](../../dlg/properties/index)
+of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Properties for Current Configuration \>No Wrap
+- [All Commands](all_commands): **Tools** >
+**Properties for Current Configuration** \> **No Wrap**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

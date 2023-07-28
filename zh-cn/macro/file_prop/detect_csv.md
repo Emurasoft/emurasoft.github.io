@@ -1,6 +1,6 @@
 # DetectCSV 属性 (FileProp 对象)
 
-与配置属性中 [文件 页面](../../dlg/properties/file/index) 上的检测 CSV (逗号分隔) 的复选框相对应。
+与配置属性中 [**文件** 页面](../../dlg/properties/file/index) 上的 **检测 CSV (逗号分隔)** 的复选框相对应。
 
 ## 
 

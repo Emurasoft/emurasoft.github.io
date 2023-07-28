@@ -10,8 +10,8 @@ Ignores trailing spaces at each line when comparing documents.
 
 ## How to Run
 
-- Default Menu:Compare \>Ignore Trailing Spaces
-- [All Commands](../tools/all_commands):Compare \>Ignore Trailing Spaces
+- Default Menu: **Compare** \> **Ignore Trailing Spaces**
+- [All Commands](../tools/all_commands): **Compare** \> **Ignore Trailing Spaces**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

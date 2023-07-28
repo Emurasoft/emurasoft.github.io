@@ -11,7 +11,7 @@ Shows a popup menu to set headings.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV \>Headings (Freeze Panes) \>Heading (Popup)
+- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Heading (Popup)**
 - Toolbar: ![](../../images/heading.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

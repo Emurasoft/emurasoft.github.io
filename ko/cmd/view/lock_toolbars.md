@@ -12,10 +12,10 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:보기 >
-도구 모음 \>도구 모음 잠금
-- [모든 명령](../tools/all_commands):보기 >
-도구 모음 \>도구 모음 잠금
+- 기본 메뉴: **보기** >
+**도구 모음** \> **도구 모음 잠금**
+- [모든 명령](../tools/all_commands): **보기** >
+**도구 모음** \> **도구 모음 잠금**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -27,13 +27,13 @@ EEID_LOCK_도구 모음S (4341)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4341);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4341

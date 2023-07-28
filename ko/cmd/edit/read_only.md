@@ -10,11 +10,11 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:편집 \>읽기 전용
-- [모든 명령](../tools/all_commands):편집 \>고급
-\>읽기 전용
+- 기본 메뉴: **편집** \> **읽기 전용**
+- [모든 명령](../tools/all_commands): **편집** \> **고급**
+\> **읽기 전용**
 - 도구 모음: 없음
-- 상태 표시줄:읽기 를 두 번 클릭
+- 상태 표시줄: **읽기** 를 두 번 클릭
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
@@ -24,7 +24,7 @@ EEID_READ_ONLY (4113)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.ReadOnly=true;
@@ -32,7 +32,7 @@ or
 document.ReadOnly=false;
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.ReadOnly=true

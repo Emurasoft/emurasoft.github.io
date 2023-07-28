@@ -1,8 +1,8 @@
 # Kinsoku Property (WrapProp Object)
 
-Corresponds to theWrap
-These Characters check box in the
-[Wrap page](../../dlg/properties/wrap/index) of Configuration Properties.
+Corresponds to the **Wrap**
+**These Characters** check box in the
+[**Wrap** page](../../dlg/properties/wrap/index) of Configuration Properties.
 
 ## 
 

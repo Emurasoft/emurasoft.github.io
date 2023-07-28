@@ -1,6 +1,6 @@
 # VerticalLine 屬性 (ScrollProp 對象)
 
-與組態屬性中 [捲動 頁面](../../dlg/properties/scroll/index) 上的垂直線 核取方塊相對應。
+與組態屬性中 [**捲動** 頁面](../../dlg/properties/scroll/index) 上的 **垂直線** 核取方塊相對應。
 
 ## 
 

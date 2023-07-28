@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):編輯 \>延伸選區
-\>往左延伸一個單字
+- [全部命令](../tools/all_commands): **編輯** \> **延伸選區**
+\> **往左延伸一個單字**
 - 工具列: 無
 - 狀態列: 無
 - 預設鍵盤快速鍵: CTRL+SHIFT+LEFT ARROW
@@ -24,13 +24,13 @@ EEID_SHIFT_LEFT_WORD (4175)```
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.WordLeft(true,1);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.WordLeft true,1

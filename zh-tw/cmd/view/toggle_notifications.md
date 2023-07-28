@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:檢視 \>通知
-- [全部命令](../tools/all_commands):檢視 \>通知
+- 預設功能表: **檢視** \> **通知**
+- [全部命令](../tools/all_commands): **檢視** \> **通知**
 - 工具列: 無
 - 狀態列: 無
 - 預設快速鍵: 無
@@ -23,13 +23,13 @@ EEID_TOGGLE_NOTIFICATIONS (4061)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4061);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4061

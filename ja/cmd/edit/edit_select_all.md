@@ -23,13 +23,13 @@ EEID_EDIT_SELECT_ALL (4136)```
 
 ## マクロ
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.SelectAll();
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.SelectAll

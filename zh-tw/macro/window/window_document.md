@@ -1,6 +1,6 @@
 # document 屬性 (Window 對象)
 
-返回 [Document 對象](../document/index)。
+返回 [**Document** 對象](../document/index)。
 
 ## 
 

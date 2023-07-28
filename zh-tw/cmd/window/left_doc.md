@@ -11,9 +11,9 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):視窗
-\>文檔導航
-\>左邊的文檔
+- [全部命令](../tools/all_commands): **視窗**
+\> **文檔導航**
+\> **左邊的文檔**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: CTRL + SHIFT + F6
@@ -24,13 +24,13 @@
 
 ## 巨集
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4548);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4548

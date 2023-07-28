@@ -10,8 +10,8 @@ Bookmark all changed lines in comparison mode.
 
 ## How to Run
 
-- Default Menu:Compare \>Bookmark Changes
-- [All Commands](../tools/all_commands):Compare \>Bookmark Changes
+- Default Menu: **Compare** \> **Bookmark Changes**
+- [All Commands](../tools/all_commands): **Compare** \> **Bookmark Changes**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

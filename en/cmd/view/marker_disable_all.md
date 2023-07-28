@@ -11,8 +11,8 @@ Disables all markers.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View \>Markers
-\>Disable All
+- [All Commands](../tools/all_commands): **View** \> **Markers**
+\> **Disable All**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

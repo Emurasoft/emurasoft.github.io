@@ -8,17 +8,17 @@ Saves the current file.
 
 This command saves the document with the current file name unless the document
 is untitled. If you want to change the encoding or the return
-method, select the [Save As command](file_save_as) or
-the [Save with Encoding (multiple menu) \
+method, select the [**Save As** command](file_save_as) or
+the [**Save with Encoding (multiple menu)** \
 command](file_save_defined).
 
-If the file is untitled, theSave As dialog box will be displayed, which allows you to enter a file name.
+If the file is untitled, the **Save As** dialog box will be displayed, which allows you to enter a file name.
 
 ## How to Run
 
-- Default Menu:File \>Save
-- [All Commands](../tools/all_commands):File \>Save
-\>Save
+- Default Menu: **File** \> **Save**
+- [All Commands](../tools/all_commands): **File** \> **Save**
+\> **Save**
 - Toolbar: ![](../../images/filesave.gif)
 - Status Bar: None
 - Default Shortcut Key: CTRL+S

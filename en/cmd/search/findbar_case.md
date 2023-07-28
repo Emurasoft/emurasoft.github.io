@@ -11,8 +11,8 @@ Toggles the Match Case button on the Find toolbar. When this command is toggled,
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Match Case
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Match Case**
 - Toolbar: ![](../../images/find_case.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

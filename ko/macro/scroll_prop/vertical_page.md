@@ -1,6 +1,6 @@
 # VerticalPage 속성 (ScrollProp 개체)
 
-구성 속성 [스크롤 탭](../../dlg/properties/scroll/index) 의항상 1 페이지 세로 스크롤 활성화 체크 박스에 해당합니다.
+구성 속성 [**스크롤** 탭](../../dlg/properties/scroll/index) 의 **항상 1 페이지 세로 스크롤 활성화** 체크 박스에 해당합니다.
 
 ## 
 

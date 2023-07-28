@@ -11,8 +11,8 @@ Closes all documents with tabs to the left of the active document in the current
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Group \>Close All Right in Group
+- [All Commands](../tools/all_commands): **Window**
+\> **Group** \> **Close All Right in Group**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

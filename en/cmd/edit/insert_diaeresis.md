@@ -11,8 +11,8 @@ I, O, U or Y.
 
 ## How to Run
 
-- Default Menu:Insert \>Diacritics \>Diaeresis
-- [All Commands](../tools/all_commands):Insert \>Diacritics \>Diaeresis
+- Default Menu: **Insert** \> **Diacritics** \> **Diaeresis**
+- [All Commands](../tools/all_commands): **Insert** \> **Diacritics** \> **Diaeresis**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL + SHIFT + ;

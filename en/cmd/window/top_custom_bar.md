@@ -11,8 +11,8 @@ Switches to the custom bar on top if available.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Custom Bar \>Top
+- [All Commands](../tools/all_commands): **Window**
+\> **Custom Bar** \> **Top**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_FOCUS_TOP_BAR (4426)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4426);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4426

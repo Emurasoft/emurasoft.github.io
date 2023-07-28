@@ -10,9 +10,9 @@ Sends feedback to the EmEditor developer team.
 
 ## How to Run
 
-- Default Menu:Help \>Send Feedback
-- [All Commands](../tools/all_commands):Help >
-Send Feedback
+- Default Menu: **Help** \> **Send Feedback**
+- [All Commands](../tools/all_commands): **Help** >
+**Send Feedback**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

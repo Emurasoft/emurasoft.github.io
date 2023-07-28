@@ -10,8 +10,8 @@ Deletes all bookmarked lines in the current document.
 
 ## How to Run
 
-- Default Menu:Bookmarks \>Delete Bookmarked Lines
-- [All Commands](../tools/all_commands):Bookmarks \>Delete Bookmarked Lines
+- Default Menu: **Bookmarks** \> **Delete Bookmarked Lines**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Delete Bookmarked Lines**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_BOOKMARK_DELETE (4589)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4589);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4589

@@ -6,12 +6,12 @@ Uses zero-based numerical characters for the column header.
 
 ## Description
 
-Uses zero-based numerical characters for the column header. This command is equivalent to the status where theUse Alphabetical Characters for Column Header check box is cleared but theUse Zero-Based Numerical Characters for Column Header check box is set in theCSV page of theCustomize dialog box.
+Uses zero-based numerical characters for the column header. This command is equivalent to the status where the **Use Alphabetical Characters for Column Header** check box is cleared but the **Use Zero-Based Numerical Characters for Column Header** check box is set in the **CSV** page of the **Customize** dialog box.
 
 ## How to Run
 
-- Default Menu:CSV \>Column Header Type \>0, 1, 2, ...
-- [All Commands](../tools/all_commands):CSV \>Column Header Type \>0, 1, 2, ...
+- Default Menu: **CSV** \> **Column Header Type** \> **0, 1, 2, ...**
+- [All Commands](../tools/all_commands): **CSV** \> **Column Header Type** \> **0, 1, 2, ...**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -11,8 +11,8 @@ Toggles the Use Number Range button on the Find toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Use Number Range
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Use Number Range**
 - Toolbar: ![](../../images/use_number_range.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_FINDBAR_NUMBER_RANGE (4014)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4014);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4014

@@ -11,8 +11,8 @@ Clears all markers indicating saved lines.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View \>Markers
-\>Clear Markers for Saved Lines
+- [All Commands](../tools/all_commands): **View** \> **Markers**
+\> **Clear Markers for Saved Lines**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_CLEAR_SAVED_MARKERS (4011)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4011);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4011

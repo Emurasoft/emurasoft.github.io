@@ -1,6 +1,6 @@
 # OpenFileInQuotes プロパティ (LinkProp オブジェクト)
 
-Corresponds to theClicking a File Name in Quotes Opens the File check box in the [Link tab](../../dlg/properties/link/index) of Configuration Properties.
+Corresponds to the **Clicking a File Name in Quotes Opens the File** check box in the [**Link** tab](../../dlg/properties/link/index) of Configuration Properties.
 
 ## 
 

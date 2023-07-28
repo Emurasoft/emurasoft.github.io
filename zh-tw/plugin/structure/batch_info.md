@@ -39,7 +39,7 @@ _nBatchFlags_
 | FLAG\_FIND\_EOL | 規則運算式 ‘$’ 可符合選取部分的末尾。 |
 | FLAG\_FIND\_EXTRACT | 把符合的行抽出到一個新的文檔中。 |
 | FLAG\_FIND\_LOOKAROUND | 只在選區內進行規則運算式搜索時用合樣判斷提示。 |
-| FLAG\_FIND\_MULTI | 執行多項尋找/取代全部。如果未指定，則執行批次尋找/取代全部。 |
+| FLAG\_FIND\_MULTI | 執行 **多項尋找/取代全部**。如果未指定，則執行 **批次尋找/取代全部**。 |
 | FLAG\_FIND\_NEXT | 從游標處往下搜索字串。如果沒有設定該標志，則往上搜索字串。 |
 | FLAG\_FIND\_NO\_PROMPT | 禁止顯示對話方塊即使沒有找到任何字串。 |
 | FLAG\_FIND\_OPEN\_DOC | 在同一個框架視窗中，搜索所有打開的文檔。 |

@@ -20,7 +20,7 @@ nFound = document.selection.BatchReplace( filters, nFlags, nExFlags )
 
 _filters_
 
-指定包含搜索和取代字串和標志的 [Filters 集合](../filters/index)。
+指定包含搜索和取代字串和標志的 [**Filters** 集合](../filters/index)。
 
 _nFlags_
 
@@ -53,7 +53,7 @@ _nExFlags_
 | eeExFindEOL | 規則運算式 ‘$’ 可符合選取部分的末尾。 |
 | eeExFindInsertColumn | 為抽出的列創建一個新的 CSV 列。必須在 nFlags 中指定 eeFindExtract。新列將插入到原始列的右側。 |
 | eeExFindLookaround | 只在選區內進行規則運算式搜索時用合樣判斷提示。 |
-| eeExFindMulti | 執行多項取代全部。如果未指定，則執行批次取代全部。詳情請參閱 [批次和多項之間的區別](../../howto/search/batch_vs_bulk)。 |
+| eeExFindMulti | 執行 **多項取代全部**。如果未指定，則執行 **批次取代全部**。詳情請參閱 [**批次和多項之間的區別**](../../howto/search/batch_vs_bulk)。 |
 | eeExFindRegexBoost | 把 Boost.Regex 作為規則運算式引擎。 |
 | eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎。 |
 | eeExFindSeparateCRLF | 區分 CR 和 LF。 |

@@ -6,13 +6,13 @@ Toggles the Replace >> button on the Find toolbar.
 
 ## Description
 
-Toggles the Replace >> button on the Find toolbar. This will display theReplace dialog box.
+Toggles the Replace >> button on the Find toolbar. This will display the **Replace** dialog box.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Replace >>
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Replace >>**
 - Toolbar: ![](../../images/find_replace_dlg.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

@@ -10,8 +10,8 @@ Decodes the selected Base64 encoded text to a binary file.
 
 ## How to Run
 
-- Default Menu:Convert \>Encode/Decode \>Base64 to Binary File
-- [All Commands](../tools/all_commands):Convert \>Encode/Decode \>Base64 to Binary File
+- Default Menu: **Convert** \> **Encode/Decode** \> **Base64 to Binary File**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Base64 to Binary File**
 - Toolbar:
 None
 - Status Bar: None

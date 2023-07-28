@@ -12,8 +12,8 @@ position on the tab bar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Document Navigation \>Move Next
+- [All Commands](../tools/all_commands): **Window**
+\> **Document Navigation** \> **Move Next**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

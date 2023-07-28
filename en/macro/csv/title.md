@@ -1,6 +1,6 @@
 # Title Property (Csv Object)
 
-Corresponds to theToolbar button title text box in the [CSV page](../../dlg/customize/csv/index) of the Customize dialog box.
+Corresponds to the **Toolbar button title** text box in the [**CSV** page](../../dlg/customize/csv/index) of the Customize dialog box.
 
 ## 
 

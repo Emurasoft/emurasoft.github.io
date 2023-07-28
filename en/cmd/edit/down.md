@@ -12,8 +12,8 @@ key once.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move Cursor Vertically
-\>Line Down
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
+\> **Line Down**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: DOWN ARROW

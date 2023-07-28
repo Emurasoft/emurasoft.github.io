@@ -12,8 +12,8 @@ fonts.
 
 ## How to Run
 
-- Default Menu:Convert \>Full-Width
-- [All Commands](../tools/all_commands):Convert \>Full-Width
+- Default Menu: **Convert** \> **Full-Width**
+- [All Commands](../tools/all_commands): **Convert** \> **Full-Width**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

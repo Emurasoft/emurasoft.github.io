@@ -10,8 +10,8 @@ Goes to the previous bookmark in this document, or goes to the last bookmark in 
 
 ## How to Run
 
-- Default Menu:Bookmarks \>Previous Bookmark (Around)
-- [All Commands](../tools/all_commands):Bookmarks \>Previous Bookmark (Around)
+- Default Menu: **Bookmarks** \> **Previous Bookmark (Around)**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Previous Bookmark (Around)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_BOOKMARK_PREV_AROUND (4000)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4000);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4000

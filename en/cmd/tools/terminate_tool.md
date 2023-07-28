@@ -10,9 +10,9 @@ Terminates the currently running tool job. This command terminates all processes
 
 ## How to Run
 
-- Default Menu:Tools \>External Tools \>Terminate Tool Job
-- [All Commands](all_commands):Tools >
-Terminate Tool Job
+- Default Menu: **Tools** \> **External Tools** \> **Terminate Tool Job**
+- [All Commands](all_commands): **Tools** >
+**Terminate Tool Job**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+BREAK

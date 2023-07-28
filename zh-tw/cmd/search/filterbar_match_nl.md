@@ -11,8 +11,8 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands):搜索
-\>篩選工具列 \>符合換行符號
+- [全部命令](../tools/all_commands): **搜索**
+\> **篩選工具列** \> **符合換行符號**
 - 工具列:  ![](../../images/match_newline_characters.png) \+ 符合換行符號 (篩選工具列)
 - 狀態列: 無
 - 預設捷徑: 無
@@ -24,13 +24,13 @@ EEID_FILTERBAR_MATCH_NL (4006)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4006);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4006

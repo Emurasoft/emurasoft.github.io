@@ -1,8 +1,8 @@
 # Enabled Property (NoWrapProp Object)
 
-Corresponds to theEnable
-Non-Wrap Words check box in the
-[No Wrap page](../../dlg/properties/no_wrap/index) of Configuration Properties.
+Corresponds to the **Enable**
+**Non-Wrap Words** check box in the
+[**No Wrap** page](../../dlg/properties/no_wrap/index) of Configuration Properties.
 
 ## 
 

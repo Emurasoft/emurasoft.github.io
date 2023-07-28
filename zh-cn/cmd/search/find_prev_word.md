@@ -10,9 +10,9 @@
 
 ## 运行方法
 
-- 默认菜单:搜索 \>查找上一单词
-- [所有命令](../tools/all_commands):搜索
-\>查找上一单词
+- 默认菜单: **搜索** \> **查找上一单词**
+- [所有命令](../tools/all_commands): **搜索**
+\> **查找上一单词**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+F3
@@ -24,13 +24,13 @@ EEID_FIND_PREV_WORD (4205)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 document.selection.FindRepeat(eeFindRepeatPrevious \| eeFindRepeatWord);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 document.selection.FindRepeat eeFindRepeatPrevious Or eeFindRepeatWord

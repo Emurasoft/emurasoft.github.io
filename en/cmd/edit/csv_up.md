@@ -11,7 +11,7 @@ Jumps to the cell above in the CSV document.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV \>Cell Selection Mode Only \>Cell Above
+- [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode Only** \> **Cell Above**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

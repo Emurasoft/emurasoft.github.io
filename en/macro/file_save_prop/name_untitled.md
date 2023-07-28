@@ -1,7 +1,7 @@
 # NameUntitled Property (FileSaveProp Object)
 
-Corresponds to theAutomatically Name Untitled Document check box in the
-[Save Details dialog box](../../dlg/properties/file/save_details/index).
+Corresponds to the **Automatically Name Untitled Document** check box in the
+[**Save Details** dialog box](../../dlg/properties/file/save_details/index).
 
 ## 
 

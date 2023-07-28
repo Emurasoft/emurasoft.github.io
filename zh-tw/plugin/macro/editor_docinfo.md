@@ -13,7 +13,7 @@ _nCmd_
 
 |     |     |     |     |
 | --- | --- | --- | --- |
-|nCmd |含義 |lParam |返回值 |
+| **nCmd** | **含義** | **lParam** | **返回值** |
 | EI\_GET\_ENCODE | 檢索要儲存檔案的編碼方式。 | 不使用。 | 編碼方式。 |
 | EI\_SET\_ENCODE | 設置一個儲存檔案的編碼方式。 | (UINT)nCP<br> 指定一個以 CODEPAGE\_ 為開始值得編碼方式。 | 不使用。 |
 | EI\_GET\_SIGNATURE | 檢索是否要給 Unicode/UTF-8 檔案簽名。 | 不使用。 | (BOOL)bSignature<br> TRUE to sign. |
@@ -51,7 +51,7 @@ _nCmd_
 | EI\_GET\_SAVE\_AS\_TITLEW | 檢索文檔的完整標題，除了星號 (\*) 所表示的在 Unicode 字串中的修改。 | (LPWSTR)szTitle<br> 指定要檢索字串的緩沖區。緩沖區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
 | EI\_MOVE\_ORDER | 改變文檔標籤頁順序。 | 指定從零開始的目標標籤頁索引。 | 不使用。 |
 | EI\_CLOSE\_DOC | 關閉文檔。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。 |
-| EI\_SAVE\_DOC | 儲存文檔。如果文檔未命名，會出現另存新檔 對話方塊。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。當文檔未命名時，在另存新檔 對話方塊中選擇「取消」，也會返回 FALSE。 |
+| EI\_SAVE\_DOC | 儲存文檔。如果文檔未命名，會出現 **另存新檔** 對話方塊。 | 不使用。 | (BOOL)bSuccess<br> 如果成功，返回 TRUE；如果不成功，返回 FALSE。當文檔未命名時，在 **另存新檔** 對話方塊中選擇「取消」，也會返回 FALSE。 |
 | EI\_GET\_CURRENT\_FOLDER | 檢索目前的運作的資料夾。 | (LPWSTR)szDir<br> 指定要檢索字串的緩沖區。緩沖區必須是 MAX\_PATH 字元長度，包括終止空字元。 | 不使用。 |
 | EI\_IS\_LARGE\_DOC | 檢索標志來指出文檔是否很大。 | 不使用。 | (BOOL)bLarge<br> 返回 TRUE 如果文檔很大。否則的話，返回 FALSE。 |
 | EI\_USE\_INI | 檢索是否用 INI 檔案，而不是注冊表。 | 不使用。 | (BOOL)bIni<br> 返回 TRUE 如果用 INI 檔案，或 FALSE 如果用注冊表。 |

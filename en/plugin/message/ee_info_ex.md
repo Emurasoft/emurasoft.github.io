@@ -14,7 +14,7 @@ lParam = 0;
 
 _pInfo_
 
-Pointer to a [INFO\_EX\_DATA structure](../structure/info_ex_data).
+Pointer to a [**INFO\_EX\_DATA** structure](../structure/info_ex_data).
 
 ## Return Values
 

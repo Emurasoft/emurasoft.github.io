@@ -1,6 +1,6 @@
 # Configs Property (Editor Object)
 
-Retrieves the [Configs Collection](../configs/index).
+Retrieves the [**Configs** Collection](../configs/index).
 
 ## 
 

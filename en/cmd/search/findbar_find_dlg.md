@@ -11,8 +11,8 @@ Toggles the << Find button on the Find toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \><< Find
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **<< Find**
 - Toolbar: ![](../../images/findbar_find_dlg.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

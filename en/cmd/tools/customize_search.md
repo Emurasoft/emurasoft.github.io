@@ -6,15 +6,15 @@ Opens the Search page of the Customize dialog box.
 
 ## Description
 
-Displays the Search page of the [Customize dialog box](../../dlg/customize/index),
+Displays the Search page of the [**Customize** dialog box](../../dlg/customize/index),
 where you can define common application settings.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Customize >
-Search
+- [All Commands](all_commands): **Tools** >
+**Customize** >
+**Search**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -26,13 +26,13 @@ EEID_CUSTOMIZE_SEARCH (9041)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(9041);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 9041

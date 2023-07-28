@@ -1,6 +1,6 @@
 # WordWrap 속성 (WrapProp 개체)
 
-구성 속성의 [배치 탭](../../dlg/properties/wrap/index) 의단어 배치 체크 박스에 해당합니다.
+구성 속성의 [**배치** 탭](../../dlg/properties/wrap/index) 의 **단어 배치** 체크 박스에 해당합니다.
 
 ## 
 

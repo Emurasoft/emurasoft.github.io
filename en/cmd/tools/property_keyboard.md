@@ -6,16 +6,16 @@ Displays Keyboard properties.
 
 ## Description
 
-Displays the [Keyboard \
+Displays the [**Keyboard** \
 page](../../dlg/properties/keyboard/index)
-of the[Configuration Properties](../../dlg/properties/index)
+of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands):Tools >
-Properties for Current Configuration \>Keyboard
+- [All Commands](all_commands): **Tools** >
+**Properties for Current Configuration** \> **Keyboard**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

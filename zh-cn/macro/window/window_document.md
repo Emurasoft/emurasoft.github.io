@@ -1,6 +1,6 @@
 # document 属性 (Window 对象)
 
-返回 [Document 对象](../document/index)。
+返回 [**Document** 对象](../document/index)。
 
 ## 
 

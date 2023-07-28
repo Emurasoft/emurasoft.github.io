@@ -11,8 +11,8 @@ Finds the previous occurrence using the Find toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Find Toolbar \>Find Previous
+- [All Commands](../tools/all_commands): **Search**
+\> **Find Toolbar** \> **Find Previous**
 - Toolbar: ![](../../images/editrepeatback.gif) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

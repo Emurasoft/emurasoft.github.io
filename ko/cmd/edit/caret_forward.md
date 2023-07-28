@@ -10,8 +10,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:편집 \>고급 \>앞으로
-- [모든 명령](../tools/all_commands):편집 \>고급 \>앞으로
+- 기본 메뉴: **편집** \> **고급** \> **앞으로**
+- [모든 명령](../tools/all_commands): **편집** \> **고급** \> **앞으로**
 - 도구 모음:
 ![](../../images/emeditor12_forward_button.png)
 - 상태 표시줄: 없음
@@ -24,13 +24,13 @@ EEID_CARET_FORWARD (4598)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4598);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4598

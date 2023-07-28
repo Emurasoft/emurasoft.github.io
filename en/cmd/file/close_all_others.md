@@ -11,8 +11,8 @@ This command closes all opened files except the currently working file. If a mod
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):File \>Close
-\>Close All Others
+- [All Commands](../tools/all_commands): **File** \> **Close**
+\> **Close All Others**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

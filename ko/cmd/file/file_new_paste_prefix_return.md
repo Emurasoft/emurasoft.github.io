@@ -6,13 +6,13 @@
 
 ## 설명
 
-이 명령은 [새 텍스트 \
-명령](file_new) 후에 [따옴표 내 붙여넣기와 반환 명령](../edit/paste_prefix_return) 작용과 동일시 해당합니다.
+이 명령은 [**새 텍스트** \
+명령](file_new) 후에 [**따옴표 내 붙여넣기와 반환** 명령](../edit/paste_prefix_return) 작용과 동일시 해당합니다.
 
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):파일 \>새로 만들기 \>새 파일, 따옴표 내 붙여넣기와 반환
+- [모든 명령](../tools/all_commands): **파일** \> **새로 만들기** \> **새 파일, 따옴표 내 붙여넣기와 반환**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -24,13 +24,13 @@ EEID_NEW_PASTE_PREFIX_RETURN (4272)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4272);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4272

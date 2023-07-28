@@ -1,8 +1,8 @@
 # NotepadDiary Property (FileProp Object)
 
-Corresponds to theNotepad-Compatible
-Diary check box in the
-[File page](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to the **Notepad-Compatible**
+**Diary** check box in the
+[**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 ## 
 

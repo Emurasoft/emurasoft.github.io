@@ -11,10 +11,10 @@ Shows or hides the outline bar and the outline guide.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View >
-Outline >
-Outline Bar and Guide
-- Toolbar:![Outline](../../images/plugin_outline.gif)
+- [All Commands](../tools/all_commands): **View** >
+**Outline** >
+**Outline Bar and Guide**
+- Toolbar: **![Outline](../../images/plugin_outline.gif)**
 - Status Bar: None
 - Default Shortcut Key: None
 

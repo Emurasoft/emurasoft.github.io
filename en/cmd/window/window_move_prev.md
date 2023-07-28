@@ -11,8 +11,8 @@ Moves the current document to the previous tab position. You can use this comman
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Document Navigation \>Move Previous
+- [All Commands](../tools/all_commands): **Window**
+\> **Document Navigation** \> **Move Previous**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_MOVE_PREV (4383)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4383);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4383

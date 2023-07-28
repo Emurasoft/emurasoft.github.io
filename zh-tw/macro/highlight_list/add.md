@@ -28,23 +28,23 @@ _nColor_
 
 _bWord_
 
-與組態屬性中 [亮顯 (1) 頁面](../../dlg/properties/highlight1/index) 上的全詞符合時亮顯 核取方塊相對應。
+與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **全詞符合時亮顯** 核取方塊相對應。
 
 _bRightAll_
 
-與組態屬性中 [亮顯 (1) 頁面](../../dlg/properties/highlight1/index) 上的亮顯到選定單字右側 核取方塊相對應。
+與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **亮顯到選定單字右側** 核取方塊相對應。
 
 _bCase_
 
-與組態屬性中 [亮顯 (1) 頁面](../../dlg/properties/highlight1/index) 上的區分大小寫 核取方塊相對應。
+與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **區分大小寫** 核取方塊相對應。
 
 _bInsideTag_
 
-與組態屬性中 [亮顯 (1) 頁面](../../dlg/properties/highlight1/index) 上的僅在標記內 核取方塊相對應。
+與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **僅在標記內** 核取方塊相對應。
 
 _bRegExp_
 
-與組態屬性中 [亮顯 (1) 頁面](../../dlg/properties/highlight1/index) 上的規則運算式 核取方塊相對應。
+與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **規則運算式** 核取方塊相對應。
 
 ## 版本
 

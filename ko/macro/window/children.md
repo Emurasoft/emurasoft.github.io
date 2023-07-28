@@ -1,6 +1,6 @@
 # Children 속성 (Window 개체)
 
-하위 창을 나타내는 [Windows 컬렉션](../windows/index) 을 반환합니다.
+하위 창을 나타내는 [**Windows** 컬렉션](../windows/index) 을 반환합니다.
 
 ## 
 

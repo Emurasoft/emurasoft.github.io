@@ -1,6 +1,6 @@
 # shell Property (Window Object)
 
-Returns the [Shell Object](../shell/index).
+Returns the [**Shell** Object](../shell/index).
 
 ## 
 

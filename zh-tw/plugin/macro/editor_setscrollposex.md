@@ -16,7 +16,7 @@ _pptPos_
 
 _bCanMoveCursor_
 
-如果該參數是 TRUE 并且 [通過捲動位置移動游標 核取方塊](../../dlg/properties/scroll/index) 被勾選，游標位置也會被移動。如果該參數是 FALSE，游標位置則不會被移動。
+如果該參數是 TRUE 并且 [**通過捲動位置移動游標** 核取方塊](../../dlg/properties/scroll/index) 被勾選，游標位置也會被移動。如果該參數是 FALSE，游標位置則不會被移動。
 
 ## 返回值
 

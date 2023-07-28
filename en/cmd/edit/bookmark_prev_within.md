@@ -11,8 +11,8 @@ document, this command will not move the cursor.
 
 ## How to Run
 
-- Default Menu:Bookmarks \>Previous Bookmark
-- [All Commands](../tools/all_commands):Bookmarks \>Previous Bookmark
+- Default Menu: **Bookmarks** \> **Previous Bookmark**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **Previous Bookmark**
 - Toolbar: ![](../../images/bookmarkprevwithin.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

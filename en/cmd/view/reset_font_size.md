@@ -11,8 +11,8 @@ Resets the display font size.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):View \>Font >
-Reset Font Size
+- [All Commands](../tools/all_commands): **View** \> **Font** >
+**Reset Font Size**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+0

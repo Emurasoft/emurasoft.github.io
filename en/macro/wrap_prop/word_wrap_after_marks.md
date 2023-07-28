@@ -1,8 +1,8 @@
 # WordWrapAfterMarks Property (WrapProp Object)
 
-Corresponds to theEnable
-Word Wrap After Marks check box in the
-[Wrap page](../../dlg/properties/wrap/index) of Configuration Properties.
+Corresponds to the **Enable**
+**Word Wrap After Marks** check box in the
+[**Wrap** page](../../dlg/properties/wrap/index) of Configuration Properties.
 
 ## 
 

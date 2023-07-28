@@ -6,13 +6,13 @@
 
 ## 說明
 
-顯示 [自訂系統匣圖示 對話方塊](../../dlg/tray/index)，讓您能自訂系統系統匣圖示設定。
+顯示 [**自訂系統匣圖示** 對話方塊](../../dlg/tray/index)，讓您能自訂系統系統匣圖示設定。
 
 ## 運行方法
 
 - 預設功能表: 無
-- [所有命令](all_commands):工具 >
-自訂系統匣圖示
+- [所有命令](all_commands): **工具** >
+**自訂系統匣圖示**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
@@ -24,13 +24,13 @@ EEID_CUSTOMIZE_TRAY (4273)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4273);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4273

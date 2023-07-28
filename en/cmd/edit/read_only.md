@@ -10,11 +10,11 @@ Enables or disables the ability to save changes to the file.
 
 ## How to Run
 
-- Default Menu:Edit \>Read Only
-- [All Commands](../tools/all_commands):Edit \>Advanced
-\>Read Only
+- Default Menu: **Edit** \> **Read Only**
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
+\> **Read Only**
 - Toolbar: None
-- Status Bar: Double-click onREAD
+- Status Bar: Double-click on **READ**
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID

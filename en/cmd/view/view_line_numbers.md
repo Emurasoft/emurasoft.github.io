@@ -10,9 +10,9 @@ Shows or hides line numbers. By default, EmEditor does not display line numbers.
 
 ## How to Run
 
-- Default Menu:View \>Line Numbers
-- [All Commands](../tools/all_commands):View >
-Line Numbers
+- Default Menu: **View** \> **Line Numbers**
+- [All Commands](../tools/all_commands): **View** >
+**Line Numbers**
 - Toolbar:
 ![](../../images/line_number24x16.gif)
 - Status Bar: None

@@ -10,13 +10,13 @@ Collapses or expands to the specified level (2 - 16) in the entire document whil
 
 ## How to Run
 
-- Default Menu:Edit
-\>Outlining
-\>Level 2 - 5
-- [All Commands](../tools/all_commands):Edit
-\>Outlining
-\>Level
-\>Level 2 - 16
+- Default Menu: **Edit**
+\> **Outlining**
+\> **Level 2 - 5**
+- [All Commands](../tools/all_commands): **Edit**
+\> **Outlining**
+\> **Level**
+\> **Level 2 - 16**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -28,7 +28,7 @@ EEID_OUTLINE_LEVEL_2 (8832) - ID_OUTLINE_LEVEL_16 (8846)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(8832);
@@ -36,7 +36,7 @@ editor.ExecuteCommandByID(8832);
 editor.ExecuteCommandByID(8846);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 8832

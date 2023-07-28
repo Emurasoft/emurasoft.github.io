@@ -10,8 +10,8 @@ Inserts spaces instead of a tab character to indent when the Tab key is pressed.
 
 ## How to Run
 
-- Default Menu:View \>Tab/Indent \>Insert Spaces for Tabs
-- [All Commands](../tools/all_commands):View \>Tab/Indent \>Insert Spaces for Tabs
+- Default Menu: **View** \> **Tab/Indent** \> **Insert Spaces for Tabs**
+- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Insert Spaces for Tabs**
 - Toolbar:
 ![](../../images/space_tab24x16.gif)
 - Status Bar: None

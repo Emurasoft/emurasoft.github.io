@@ -11,8 +11,8 @@ will become ä, and Λ will become λ.
 
 ## How to Run
 
-- Default Menu:Convert \>Lowercase
-- [All Commands](../tools/all_commands):Convert \>Lowercase
+- Default Menu: **Convert** \> **Lowercase**
+- [All Commands](../tools/all_commands): **Convert** \> **Lowercase**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+U
@@ -24,13 +24,13 @@ EEID_MAKE_LOWER (4150)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.ChangeCase(eeCaseLowerCase);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.ChangeCase eeCaseLowerCase

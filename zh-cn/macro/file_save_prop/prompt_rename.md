@@ -1,6 +1,6 @@
 # PromptRename 属性 (FileSaveProp 对象)
 
-与 [保存详细信息 对话框](../../dlg/properties/file/save_details/index) 中的更名时在删除旧文件前提示 复选框相对应。
+与 [**保存详细信息** 对话框](../../dlg/properties/file/save_details/index) 中的 **更名时在删除旧文件前提示** 复选框相对应。
 
 ## 
 

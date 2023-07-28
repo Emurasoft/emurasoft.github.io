@@ -22,7 +22,7 @@ document.Encoding = nEncoding
 
 _nEncoding_
 
-[인코딩 상수](../const/const_encoding) 로부터
+**[인코딩 상수](../const/const_encoding)** 로부터
 선택하거나 Windows 운영 체제에서 사용되는 코드 페이지를 지정합니다.
 
 ## 버전

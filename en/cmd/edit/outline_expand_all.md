@@ -10,8 +10,8 @@ While outlining is displayed, this command expands the entire document. A plug-i
 
 ## How to Run
 
-- Default Menu:Edit \>Outlining \>Expand All
-- [All Commands](../tools/all_commands):Edit \>Outlining \>Expand All
+- Default Menu: **Edit** \> **Outlining** \> **Expand All**
+- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Expand All**
 - Toolbar: ![](../../images/outline_exp.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_OUTLINE_EXPAND_ALL (4411)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4411);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4411

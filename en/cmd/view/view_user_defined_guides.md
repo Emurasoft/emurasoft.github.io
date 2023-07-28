@@ -10,8 +10,8 @@ Shows or hides user-defined guides.
 
 ## How to Run
 
-- Default Menu:View \>Marks \>User-Defined Guides
-- [All Commands](../tools/all_commands):View \>Marks \>User-Defined Guides
+- Default Menu: **View** \> **Marks** \> **User-Defined Guides**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **User-Defined Guides**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

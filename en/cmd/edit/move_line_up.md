@@ -11,8 +11,8 @@ Moves the selected lines or the current line up one line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Move
-\>Move Line Up
+- [All Commands](../tools/all_commands): **Edit** \> **Move**
+\> **Move Line Up**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL + SHIFT + UP

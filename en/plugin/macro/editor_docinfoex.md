@@ -11,7 +11,7 @@ Editor\_DocInfoEx( HWND hwnd, HEEDOC hDoc, UINT nCmd, LPARAM lParam );
 _nCmd_
 
 Specifies a parameter to retrieve or set. Please see the
-[EE\_INFO message](../message/ee_info) for the list of commands.
+[**EE\_INFO** message](../message/ee_info) for the list of commands.
 
 _hDoc_
 

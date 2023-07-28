@@ -10,10 +10,10 @@ Downgrades the product to EmEditor Free from EmEditor Professional. User will be
 
 ## How to Run
 
-- Default Menu:Help >
-Downgrade
-- [All Commands](../tools/all_commands):Help >
-Downgrade
+- Default Menu: **Help** >
+**Downgrade**
+- [All Commands](../tools/all_commands): **Help** >
+**Downgrade**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -25,13 +25,13 @@ EEID_HELP_DOWNGRADE (3844)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(3844);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 3844

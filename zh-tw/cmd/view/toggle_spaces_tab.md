@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表:檢視 \>Tab/縮排 \>將 Tab 轉換為空格
-- [全部命令](../tools/all_commands):檢視 \>Tab/縮排 \>將 Tab 轉換為空格
+- 預設功能表: **檢視** \> **Tab/縮排** \> **將 Tab 轉換為空格**
+- [全部命令](../tools/all_commands): **檢視** \> **Tab/縮排** \> **將 Tab 轉換為空格**
 - 工具列:
 ![](../../images/space_tab24x16.gif)
 - 狀態列: 無
@@ -24,13 +24,13 @@ EEID_TOGGLE_SPACES_TAB (4541)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4541);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4541

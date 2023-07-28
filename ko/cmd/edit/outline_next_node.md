@@ -10,8 +10,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴:편집 \>윤곽 \>다음 노드
-- [모든 명령](../tools/all_commands):편집 \>윤곽 \>다음 노드
+- 기본 메뉴: **편집** \> **윤곽** \> **다음 노드**
+- [모든 명령](../tools/all_commands): **편집** \> **윤곽** \> **다음 노드**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: Alt+Down
@@ -23,13 +23,13 @@ EEID_OUTLINE_NEXT_NODE (4415)```
 
 ## 매크로
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4415);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4415

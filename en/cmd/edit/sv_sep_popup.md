@@ -11,7 +11,7 @@ Shows a popup menu to work with columns or separators.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):CSV >Separators \>Columns/Separators (Popup Menu)
+- [All Commands](../tools/all_commands): **CSV** > **Separators** \> **Columns/Separators (Popup Menu)**
 - Toolbar: ![](../../images/columns_separators.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

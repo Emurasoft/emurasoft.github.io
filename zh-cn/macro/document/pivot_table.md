@@ -112,11 +112,11 @@ _strLocale_
 
 _strTotalRowLabel_
 
-指定行的总值的标题标签。只有在 _nFlags_ 参数中指定了eePivotTotalRows 时，才使用此参数。
+指定行的总值的标题标签。只有在 _nFlags_ 参数中指定了 **eePivotTotalRows** 时，才使用此参数。
 
 _strTotalColLabel_
 
-指定列的总值的标题标签。只有在 _nFlags_ 参数中指定了eePivotTotalColumns 时才使用此参数。
+指定列的总值的标题标签。只有在 _nFlags_ 参数中指定了 **eePivotTotalColumns** 时才使用此参数。
 
 _nDecimalPlaces_
 

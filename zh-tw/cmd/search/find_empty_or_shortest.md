@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:搜索 \>尋找最短行/儲存格
-- [全部命令](../tools/all_commands):搜索
-\>尋找最短行/儲存格
+- 預設功能表: **搜索** \> **尋找最短行/儲存格**
+- [全部命令](../tools/all_commands): **搜索**
+\> **尋找最短行/儲存格**
 - 工具列: 無
 - 狀態列: 無
 - 預設快速鍵: 無
@@ -24,13 +24,13 @@ EEID_FIND_EMPTY_OR_SHORTEST (4064)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4064);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4064

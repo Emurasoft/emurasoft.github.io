@@ -11,8 +11,8 @@ Switches to the custom bar on bottom if available.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
-\>Custom Bar \>Bottom
+- [All Commands](../tools/all_commands): **Window**
+\> **Custom Bar** \> **Bottom**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

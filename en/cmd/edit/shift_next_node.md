@@ -11,7 +11,7 @@ Extends the selection to the next node while outlining is displayed. A plug-in f
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Outlining \>Next Node Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Next Node Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: Alt+Shift+Down

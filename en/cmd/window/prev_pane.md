@@ -11,8 +11,8 @@ Moves the cursor to the previous pane, if the window is split into multiple pane
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Window
->Panes \>Previous Pane
+- [All Commands](../tools/all_commands): **Window**
+> **Panes** \> **Previous Pane**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: SHIFT+F6

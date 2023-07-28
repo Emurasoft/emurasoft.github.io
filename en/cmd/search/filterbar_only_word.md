@@ -11,8 +11,8 @@ Toggles the Match Whole Word button on the Filter toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Search
-\>Filter Toolbar \>Match Whole Word
+- [All Commands](../tools/all_commands): **Search**
+\> **Filter Toolbar** \> **Match Whole Word**
 - Toolbar: ![](../../images/find_only_word.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

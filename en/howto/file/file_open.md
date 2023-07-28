@@ -3,11 +3,11 @@
 1. Click
 ![Open](../../images/fileopen.gif) on the
 toolbar.
-2. Select the file you want to open and click on theOpen button.
+2. Select the file you want to open and click on the **Open** button.
 
 ## Tips
 
-- Alternatively, from the Explorer right-click menu, SelectSend To and then
+- Alternatively, from the Explorer right-click menu, Select **Send To** and then
 select EmEditor.
-- Alternatively, click the tray icon and selectOpen.
-- Recently used files can be selected from theFile menu.
+- Alternatively, click the tray icon and select **Open**.
+- Recently used files can be selected from the **File** menu.

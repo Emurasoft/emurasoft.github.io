@@ -11,9 +11,9 @@ options.
 
 ## How to Run
 
-- Default Menu:Search \>Next
-- [All Commands](../tools/all_commands):Search
-\>Next
+- Default Menu: **Search** \> **Next**
+- [All Commands](../tools/all_commands): **Search**
+\> **Next**
 - Toolbar: ![](../../images/editrepeat.gif)
 - Status Bar: None
 - Default Shortcut Key: F3
@@ -25,13 +25,13 @@ EEID_EDIT_REPEAT (4202)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.FindRepeat(eeFindRepeatNext);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.FindRepeat eeFindRepeatNext

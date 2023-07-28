@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单:编辑 \>高级 \>后退
-- [所有命令](../tools/all_commands):编辑 \>高级 \>后退
+- 默认菜单: **编辑** \> **高级** \> **后退**
+- [所有命令](../tools/all_commands): **编辑** \> **高级** \> **后退**
 - 工具栏:
 ![](../../images/emeditor12_back_button.png)
 - 状态栏: 无
@@ -24,13 +24,13 @@ EEID_CARET_BACK (4597)```
 
 ## 宏
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4597);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4597

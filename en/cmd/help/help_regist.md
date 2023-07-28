@@ -10,9 +10,9 @@ Opens the How to Purchase section in EmEditor Help.
 
 ## How to Run
 
-- Default Menu:Help \>How to Purchase
-- [All Commands](../tools/all_commands):Help >
-How to Purchase
+- Default Menu: **Help** \> **How to Purchase**
+- [All Commands](../tools/all_commands): **Help** >
+**How to Purchase**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,13 +24,13 @@ EEID_HELP_REGIST (4248)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4248);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4248

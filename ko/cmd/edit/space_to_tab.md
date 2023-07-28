@@ -7,13 +7,13 @@
 ## 설명
 
 전체 문서의 모든 행의 시작점에 있는 공백들을 탭으로 변환합니다.
-변환된 공백의 수는 [탭/들여쓰기 대화 상자](../../dlg/properties/general/indent/index) 에서 설정 가능한 탭 설정 공백의 수와 일치하여야 합니다.
-이 명령은 전체 문서 선택 후 [탭 지정 명령](tabify) 과 동일하게 작용되지만, 이 명령은 선택 영역을 확장하지 않습니다.
+변환된 공백의 수는 [**탭/들여쓰기** 대화 상자](../../dlg/properties/general/indent/index) 에서 설정 가능한 탭 설정 공백의 수와 일치하여야 합니다.
+이 명령은 전체 문서 선택 후 [**탭 지정** 명령](tabify) 과 동일하게 작용되지만, 이 명령은 선택 영역을 확장하지 않습니다.
 
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):편집 \>고급 \>문서 탭 지정
+- [모든 명령](../tools/all_commands): **편집** \> **고급** \> **문서 탭 지정**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -25,13 +25,13 @@ EEID_SPACE_TO_TAB (4355)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4355);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4355

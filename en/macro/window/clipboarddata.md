@@ -1,6 +1,6 @@
 # clipboardData Property (Window Object)
 
-Returns the [clipboardData Object](../clipboarddata/index).
+Returns the [**clipboardData** Object](../clipboarddata/index).
 
 ## 
 

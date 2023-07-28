@@ -6,14 +6,14 @@ Customizes external tools.
 
 ## Description
 
-Displays the [External Tools dialog box](../../dlg/tools/index),
+Displays the [**External Tools** dialog box](../../dlg/tools/index),
 where you can customize external tools.
 
 ## How to Run
 
-- Default Menu:Tools \>External Tools \>Customize Tools
-- [All Commands](all_commands):Tools >
-Customize Tools
+- Default Menu: **Tools** \> **External Tools** \> **Customize Tools**
+- [All Commands](all_commands): **Tools** >
+**Customize Tools**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

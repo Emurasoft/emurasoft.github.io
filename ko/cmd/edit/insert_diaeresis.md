@@ -13,8 +13,8 @@ I, O, U 또는 Y를 입력하면 커서 위치에 움라우트라고도 불리�
 ## 실행하는 방법
 
 - 기본 메뉴: 없음
-- [모든 명령](../tools/all_commands):편집 \>삽입
-\>강조 표시/ 특수 문자 삽입 \>분음 부호표
+- [모든 명령](../tools/all_commands): **편집** \> **삽입**
+\> **강조 표시/ 특수 문자 삽입** \> **분음 부호표**
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL + SHIFT + ;
@@ -26,13 +26,13 @@ EEID_INSERT_DIAERESIS (4307)```
 
 ## 매크로
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4307);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4307

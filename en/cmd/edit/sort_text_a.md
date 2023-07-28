@@ -10,8 +10,8 @@ Sort text at the current column in ascending order. If the text does not contain
 
 ## How to Run
 
-- Default Menu:Sort \>Sort A to Z
-- [All Commands](../tools/all_commands):Sort \>Sort A to Z
+- Default Menu: **Sort** \> **Sort A to Z**
+- [All Commands](../tools/all_commands): **Sort** \> **Sort A to Z**
 - Toolbar: ![](../../images/sortinga-z.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -40,7 +40,7 @@ _nBatchFlags_
 | FLAG\_FIND\_EOL | The regular expression ‘$’ can match the end of the selection. |
 | FLAG\_FIND\_EXTRACT | Extracts matched lines to a new document. |
 | FLAG\_FIND\_LOOKAROUND | Looks around during selection only regular-expression searches. |
-| FLAG\_FIND\_MULTI | PerformsBulk Find/Replace All. If this is not specified, performsBatch Find/Replace All. |
+| FLAG\_FIND\_MULTI | Performs **Bulk Find/Replace All**. If this is not specified, performs **Batch Find/Replace All**. |
 | FLAG\_FIND\_NEXT | Searches the string downward from the cursor position. If this flag is <br> not set, searches the string upward. |
 | FLAG\_FIND\_NO\_PROMPT | Suppresses displaying a dialog box even if no string is found. |
 | FLAG\_FIND\_OPEN\_DOC | Searches all open documents in the same frame window. |

@@ -10,9 +10,9 @@
 
 ## 運行方法
 
-- 預設功能表:搜尋 \>選擇目前的標籤
-- [全部命令](../tools/all_commands):編輯 \>延伸選取
-\>延伸選取到配對的標籤
+- 預設功能表: **搜尋** \> **選擇目前的標籤**
+- [全部命令](../tools/all_commands): **編輯** \> **延伸選取**
+\> **延伸選取到配對的標籤**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: CTRL+SHIFT+.
@@ -24,13 +24,13 @@ EEID_SHIFT_NEXT_TAG (4602)```
 
 ## 巨集
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4602);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4602

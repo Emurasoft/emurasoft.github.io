@@ -1,6 +1,6 @@
 # Config 속성 (Document 개체)
 
-[Config 개체](../config/index) 를 검색합니다.
+[**Config** 개체](../config/index) 를 검색합니다.
 
 ## 
 

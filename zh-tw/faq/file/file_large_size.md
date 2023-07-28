@@ -2,7 +2,7 @@
 
 一些組態會降低程式運行的速度。請檢查以下幾點:
 
-- 點擊工具 功能表下的[目前的組態屬性](../../dlg/properties/index)，點選 [一般 頁面](../../dlg/properties/general/index)。
+- 點擊 **工具** 功能表下的 **[目前的組態屬性](../../dlg/properties/index)**，點選 [**一般** 頁面](../../dlg/properties/general/index)。
 如果
-「自動換行」下拉
-清單方塊中不是「不換行」，那就可能降低 EmEditor 的運行速度，因為 EmEditor 要計算哪里要換行。所以當您要打開大檔案時，請選擇「不換行」或 [不換行 命令](../../cmd/view/wrap_none).
+**「自動換行」** **下拉**
+清單方塊中不是「不換行」，那就可能降低 EmEditor 的運行速度，因為 EmEditor 要計算哪里要換行。所以當您要打開大檔案時，請選擇「不換行」或 [**不換行** 命令](../../cmd/view/wrap_none).

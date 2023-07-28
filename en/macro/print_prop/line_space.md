@@ -1,8 +1,8 @@
 # LineSpace Property (PrintProp Object)
 
-Corresponds to the Space
-Between Lines text box in the
-[Print page](../../dlg/properties/print/index) of Configuration Properties.
+Corresponds to the **Space**
+**Between Lines** text box in the
+[**Print** page](../../dlg/properties/print/index) of Configuration Properties.
 
 ## 
 

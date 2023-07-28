@@ -11,9 +11,9 @@ specified macro registered in the My Macros directory. You may set your Macro fi
 
 ## How to Run
 
-- Default Menu:Macros \> (select macro name)
-- [All Commands](../tools/all_commands):Macros
-\> (select macro name)
+- Default Menu: **Macros** \> ( **select macro name**)
+- [All Commands](../tools/all_commands): **Macros**
+\> ( **select macro name**)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

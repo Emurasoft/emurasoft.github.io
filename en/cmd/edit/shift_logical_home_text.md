@@ -14,9 +14,9 @@ non-white space character on the current line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Logical Home or Start of Text
-Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Logical Home or Start of Text**
+**Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -28,13 +28,13 @@ EEID_SHIFT_LOGICAL_HOME_TEXT (4334)```
 
 ## Macros
 
-## \[JavaScript\]
+### \[JavaScript\]
 
 ```
 document.selection.StartOfLine(true,eeLineLogical \| eeLineHomeText);
 ```
 
-## \[VBScript\]
+### \[VBScript\]
 
 ```
 document.selection.StartOfLine true,eeLineLogical \| eeLineHomeText

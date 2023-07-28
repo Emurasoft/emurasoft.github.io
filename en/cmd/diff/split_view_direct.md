@@ -10,8 +10,8 @@ Displays two most recently viewed documents in a split window.
 
 ## How to Run
 
-- Default Menu:Compare \>Split View
-- [All Commands](../tools/all_commands):Compare \>Split View
+- Default Menu: **Compare** \> **Split View**
+- [All Commands](../tools/all_commands): **Compare** \> **Split View**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

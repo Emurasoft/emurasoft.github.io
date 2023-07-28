@@ -1,8 +1,8 @@
 # ShowControlCharacters Property (MarkProp Object)
 
-Corresponds to theShow
-Control Characters check box in the
-[Marks page](../../dlg/properties/marks/index) of Configuration Properties.
+Corresponds to the **Show**
+**Control Characters** check box in the
+[**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
 
 ## 
 

@@ -11,7 +11,7 @@ Extends the selection to the previous node while outlining is displayed. A plug-
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Outlining \>Previous Node Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Previous Node Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: Alt+Shift+Up

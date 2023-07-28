@@ -12,8 +12,8 @@ of a line, this command moves the selection to the start of the next line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Char Right Extend
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Char Right Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+RIGHT ARROW

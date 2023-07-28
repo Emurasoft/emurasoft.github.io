@@ -10,9 +10,9 @@ Inserts the vertical selection at the cursor position (or at the pointed positio
 
 ## How to Run
 
-- Default Menu:Edit \>Vertical Selection
-- [All Commands](../tools/all_commands):Edit \>Extend Selection
-\>Vertical Selection
+- Default Menu: **Edit** \> **Vertical Selection**
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
+\> **Vertical Selection**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

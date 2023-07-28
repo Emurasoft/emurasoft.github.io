@@ -10,8 +10,8 @@ Sorts randomly in the current column.
 
 ## How to Run
 
-- Default Menu:Sort \>Sort Randomly
-- [All Commands](../tools/all_commands):Sort \>Sort Randomly
+- Default Menu: **Sort** \> **Sort Randomly**
+- [All Commands](../tools/all_commands): **Sort** \> **Sort Randomly**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -23,13 +23,13 @@ EEID_SORT_RANDOM (4003)```
 
 ## Macros
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
 editor.ExecuteCommandByID(4003);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
 editor.ExecuteCommandByID 4003

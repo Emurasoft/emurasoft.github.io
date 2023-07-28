@@ -10,8 +10,8 @@ Clears all bookmarks in this group.
 
 ## How to Run
 
-- Default Menu:Bookmarks \>This Group \>Clear All Bookmarks
-- [All Commands](../tools/all_commands):Bookmarks \>This Group \>Clear All Bookmarks
+- Default Menu: **Bookmarks** \> **This Group** \> **Clear All Bookmarks**
+- [All Commands](../tools/all_commands): **Bookmarks** \> **This Group** \> **Clear All Bookmarks**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
