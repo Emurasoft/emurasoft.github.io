@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 줄 위로/아래로 이동
 
 [줄 위로 이동](../cmd/edit/move_line_up) 과

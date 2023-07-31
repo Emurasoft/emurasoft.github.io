@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # New Compare and Synchronize Scrolling features
 
 The new version of EmEditor allows you to compare two recently viewed files with ease. The comparison results are colored within the documents, arranged side by side. The **Diff** plug-in has been deprecated. After comparison, the

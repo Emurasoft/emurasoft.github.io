@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Keyword Highlighting
 
 EmEditor includes predefined colored-text configurations for

@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # ウェブ デザイナにも最適
 
 EmEditor は、HTML、PHP、JSP、XML といったファイルの編集にも最適です。外部ツールで Internet Explorer や Netscape

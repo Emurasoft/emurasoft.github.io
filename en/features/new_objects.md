@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # New Objects, Properties, and Methods for Macros
 
 The following objects were added.

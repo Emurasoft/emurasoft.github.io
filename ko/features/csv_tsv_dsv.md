@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # CSV, TSV 그리고 DSV
 
 CSV (콤마로 구분), TSV (탭으로 구분) 혹은 DSV (사용자 정의 구분기호로 구분) 파일이

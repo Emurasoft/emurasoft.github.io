@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Matching Tag Highlight
 
 The new version automatically highlights inside a tag and the matching tag at

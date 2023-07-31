@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # New features for both EmEditor Professional and EmEditor Standard
 
 ## New commands

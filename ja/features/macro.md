@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 強力な高機能マクロの搭載
 
 EmEditor Professional では、JavaScript または VBScript を用いた高機能マクロが利用でき、EmEditor

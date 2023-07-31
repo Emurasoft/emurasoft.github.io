@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Optimized to Open Large Files
 
 EmEditor allows you to easily open huge files - up to 16 TB or 1,099 billion lines - with only a little memory. EmEditor optimizes the speed to open a huge file, so it can open a huge file very quickly, even more so than previous

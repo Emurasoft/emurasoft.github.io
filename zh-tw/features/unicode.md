@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 支持 Unicode
 
 EmEditor 支持 Unicode，一種支持多語言環境的編碼方式。您不僅可以打開 Unicode 檔案，而且還可以用 Unicode，編輯檔案來同時顯示多種語言。

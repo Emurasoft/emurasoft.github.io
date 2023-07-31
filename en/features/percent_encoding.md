@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Percent-encoding (URL Encoding)
 
 Encodes or Decodes the selected text using the Percent encoding (URL Encoding).

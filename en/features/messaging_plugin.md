@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Messaging (Plug-in)
 
 A simple intranet communication feature was added. After selecting short

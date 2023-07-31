@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Powerful Tab Features
 
 Enhanced tab features are stable since all windows run in a single window in a single process unlike previous versions which only combine windows.

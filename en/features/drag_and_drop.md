@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Drag and Drop
 
 EmEditor supports Object Linking & Embedding (OLE) drag and drop, enabling you

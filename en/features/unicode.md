@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Unicode Support
 
 EmEditor supports Unicode, which is the preferred encoding method for

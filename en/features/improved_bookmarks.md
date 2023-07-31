@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Improved Bookmarks
 
 The already existing bookmark features were improved even more. You can now

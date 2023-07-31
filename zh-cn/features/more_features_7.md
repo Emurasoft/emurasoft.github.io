@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 更多新增功能
 
 其他 Version 7 的功能包括:

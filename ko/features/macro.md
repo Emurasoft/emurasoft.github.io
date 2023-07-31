@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 강력하고 기능이 풍부한 매크로
 
 **엠에디터 Professional** 으로, **JavaScript** 혹은 **VBScript** 를 이용해서 기능이 풍부한 매크로를 생성할 수 있으며,

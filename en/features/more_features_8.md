@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # More Features Added (Version 8)
 
 Other features introduced on Version 8 include:

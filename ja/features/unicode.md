@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Unicode 対応
 
 EmEditor

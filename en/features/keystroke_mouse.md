@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Keystroke and Mouse Operation Recording and Playback
 
 EmEditor can record and play keystrokes and mouse operations against other applications. This capability allows you to automate certain tasks on the Desktop, the browser, or your favorite applications. For developers, this ability can also be

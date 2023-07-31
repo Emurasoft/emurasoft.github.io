@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # EmEditor Professional 特有新功能
 
 ## 新增功能

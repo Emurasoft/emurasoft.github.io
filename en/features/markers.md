@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Markers
 
 EmEditor currently allows users to set highlight strings. However, in previous versions, there were several limitations, such as the inconvenience of adding highlight strings temporarily, that have

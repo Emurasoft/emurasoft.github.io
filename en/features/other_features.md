@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Other features
 
 Other EmEditor features:

@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # New Spelling features
 
 The new version of EmEditor allows you to check spelling in various languages

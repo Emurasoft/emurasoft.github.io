@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 新增宏的对象，属性以及方式
 
 EmEditor Version 7 添加了下面的对象（Object）。

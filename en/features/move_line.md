@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Move Line Up/Down
 
 The [Move Line Up](../cmd/edit/move_line_up) and

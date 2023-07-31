@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # New Snippets Plug-in
 
 The Snippets plug-in was greatly improved. With the new plug-in, you can write more text with fewer keystrokes. The new Snippets plug-in features:

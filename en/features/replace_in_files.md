@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Replace in Files
 
 The **Replace in Files** feature is a feature of EmEditor Professional. Just like the **Find in Files** feature, you can use regular expressions to

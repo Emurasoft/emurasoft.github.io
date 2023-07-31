@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Improved Markers
 
 The existing Markers features were also improved. The new **Add**

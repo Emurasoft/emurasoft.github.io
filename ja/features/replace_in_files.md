@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # ファイルから置換
 
 EmEditor Professional

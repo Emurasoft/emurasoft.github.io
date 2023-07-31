@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Highest Quality Features
 
 While EmEditor is a small, fast text editor, its reliability and

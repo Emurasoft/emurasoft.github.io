@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Other New Features
 
 Other features introduced on Version 9 include:

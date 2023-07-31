@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Multiple Selection Editing
 
 The new version of EmEditor allows you to select multiple locations within a document. To make multiple selections, after making one selection, make another selection with the mouse while pressing the CTRL key. Alternatively, you can press the F8 key, move the cursor to extend the selection, press the F8 key again to finish the selection, move the cursor again to go to the next selection position, and repeat this procedure until you make all selections. Moreover, the **[Add Next Occurrence](../cmd/search/add_next_occurrence)** command (CTRL+R) will find the same text as the word at the cursor. The **[Add Next Next Occurrence](../cmd/search/add_next2_occurrence)** command will skip the next occurrence, but add the occurrence after the next one. The **[Select All Occurrences](../cmd/search/select_all_occurrences)** command (CTRL+SHIFT+A) will select all the occurrences.

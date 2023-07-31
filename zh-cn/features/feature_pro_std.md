@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # EmEditor Professional 和 EmEditor Standard 的新功能
 
 ## 新增命令

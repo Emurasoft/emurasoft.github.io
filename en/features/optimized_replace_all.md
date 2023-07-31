@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Optimized Search and Replace
 
 EmEditor always has been optimized for speed. One of the optimizations has been made for the Replace All feature. While Replace All is being executed, a status message box appears and allows you to cancel the Undo information. If you choose to cancel the Undo information, Replace All executes

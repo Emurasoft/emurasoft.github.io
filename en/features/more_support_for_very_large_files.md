@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # More Support for Very Large Files
 
 EmEditor can now open files containing very long lines (longer than 4GB). When EmEditor loads a file containing a very long line, it will split the long line into several lines, but it will recombine them when saving the file.

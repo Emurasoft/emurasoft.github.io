@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # For Web Designers
 
 EmEditor is an ideal tool for editing HTML, PHP, JSP and XML files. By

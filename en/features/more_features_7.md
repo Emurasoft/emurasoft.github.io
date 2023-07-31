@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # More Features Added (Version 7)
 
 Other features introduced in Version 7 include:

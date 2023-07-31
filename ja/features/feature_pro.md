@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # EmEditor Professional の新機能
 
 ## 主な新機能

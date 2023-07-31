@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Enhanced Multiple Selections
 
 When multiple selections are made, cursors appear simultaneously at multiple locations.

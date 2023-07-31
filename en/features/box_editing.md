@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Vertical Selection Editing
 
 The vertical selection editing feature allows you to replace similar lines quickly without using regular expressions.

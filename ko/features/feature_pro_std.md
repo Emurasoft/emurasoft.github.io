@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 엠에디터 Professional과 엠에디터 Standard의 새로운 기능
 
 ## 새로운 명령

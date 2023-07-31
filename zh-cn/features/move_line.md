@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 向上/下移动行
 
 EmEditor v14 有添加 [向上移动行](../cmd/edit/move_line_up) 和

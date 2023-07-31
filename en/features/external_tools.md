@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # External Tools
 
 You can launch your favorite external tools from within EmEditor via toolbar

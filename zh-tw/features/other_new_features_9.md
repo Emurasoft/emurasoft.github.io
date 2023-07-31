@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 其他新增功能
 
 其他 Version 9 的功能包括:

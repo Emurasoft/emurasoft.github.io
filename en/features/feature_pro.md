@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # New Features exclusive to EmEditor Professional
 
 ## New features

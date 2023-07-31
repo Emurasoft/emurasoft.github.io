@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 新增巨集的對象，屬性以及方式
 
 EmEditor Version 7 添加了下面的對象 (Obejct) 。

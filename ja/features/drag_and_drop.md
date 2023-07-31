@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # ドラッグ アンド ドロップ
 
 EmEditor は、OLE ドラッグ&ドロップに対応していますので、ワードパッドや Internet Explorer など、EmEditor 以外の

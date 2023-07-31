@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Workspace Including Undo Information
 
 EmEditor can now save the Undo information with a workspace, and allows you to

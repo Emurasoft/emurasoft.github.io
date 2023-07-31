@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # New Plug-ins
 
 The following plug-ins are new in Version 7. The Projects plug-in and the Word Complete plug-in utilize the **Custom Toolbar** feature.

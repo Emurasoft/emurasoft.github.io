@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Plug-ins
 
 The functionality of EmEditor has been expanded by incorporating

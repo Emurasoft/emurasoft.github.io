@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # EmEditor Professional と EmEditor Standard の両方の新機能 (EmEditor v3.37 からの新機能)
 
 ## 新しいコマンド

@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Find in Files
 
 The **Find in Files** feature allows you to search for a string within

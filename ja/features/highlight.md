@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 見やすい色分け表示
 
 EmEditor は開発当初から色分け表示が可能で、Text の設定以外に、Bat, C#, C++, CSS, HTML, Ini, Java,

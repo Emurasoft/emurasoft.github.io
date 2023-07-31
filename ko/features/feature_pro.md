@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 엠에디터 Professional의 독점적 새로운 기능
 
 ## 새로운 기능

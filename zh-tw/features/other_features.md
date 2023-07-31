@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # 其他功能
 
 其他 EmEditor 功能:

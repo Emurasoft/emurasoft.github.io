@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Powerful, functionally-rich macros
 
 **With EmEditor Professional**, you can create functionally-rich
