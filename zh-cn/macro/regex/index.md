@@ -26,6 +26,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 engine
 find

@@ -20,6 +20,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 find_window
 foreground_window

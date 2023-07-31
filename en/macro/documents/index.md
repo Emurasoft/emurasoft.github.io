@@ -35,6 +35,7 @@ Supported on EmEditor Professional Version 5.00 or later.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 documents_count
 documents_item

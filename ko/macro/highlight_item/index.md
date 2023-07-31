@@ -19,6 +19,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 case
 color

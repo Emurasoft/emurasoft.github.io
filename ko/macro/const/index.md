@@ -8,6 +8,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 const_encoding
 ```

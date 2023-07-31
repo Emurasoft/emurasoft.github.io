@@ -44,6 +44,7 @@ Supported on EmEditor Professional Version 19.4 or later.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add
 count

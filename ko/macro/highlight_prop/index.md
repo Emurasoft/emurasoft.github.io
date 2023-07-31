@@ -28,6 +28,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 comment_begin
 comment_end

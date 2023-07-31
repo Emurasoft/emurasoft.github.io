@@ -34,6 +34,7 @@ EmEditor Professional Version 8.00 以上で利用できます。
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 count
 item

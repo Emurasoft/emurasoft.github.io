@@ -26,6 +26,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 allow_control_character
 line_column_mode

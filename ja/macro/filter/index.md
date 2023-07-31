@@ -19,6 +19,7 @@ EmEditor Professional Version 16.0 以上で利用できます。
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 begin
 column

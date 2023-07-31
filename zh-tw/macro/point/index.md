@@ -13,6 +13,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 x
 y

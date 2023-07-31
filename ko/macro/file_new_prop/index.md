@@ -18,6 +18,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 encoding
 font_category

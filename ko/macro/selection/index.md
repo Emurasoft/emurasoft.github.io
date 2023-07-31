@@ -77,6 +77,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 selection_changecase
 selection_changewidth

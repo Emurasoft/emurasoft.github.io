@@ -15,6 +15,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 display_list
 print_list

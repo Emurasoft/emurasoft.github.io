@@ -60,6 +60,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 caption
 children

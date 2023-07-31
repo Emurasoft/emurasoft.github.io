@@ -20,6 +20,7 @@ EmEditor 中没有当前 JavaScript/ECMAScript 中的许多新方法。EmEditor 
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 can_script_all
 keystroke_mouse

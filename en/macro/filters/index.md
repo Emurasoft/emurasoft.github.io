@@ -49,6 +49,7 @@ Supported on EmEditor Professional Version 16.0 or later.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add
 add_find

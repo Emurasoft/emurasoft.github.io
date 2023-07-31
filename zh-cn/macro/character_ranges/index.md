@@ -23,6 +23,7 @@ CharacterRanges 集合提供 [**CharacterRange** 对象](../character_range/inde
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add_character_range
 add_string

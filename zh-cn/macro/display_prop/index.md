@@ -17,6 +17,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 character_space
 color_list

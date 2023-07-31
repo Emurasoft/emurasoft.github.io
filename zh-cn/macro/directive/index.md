@@ -20,6 +20,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 async
 icon

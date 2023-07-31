@@ -25,6 +25,7 @@ EmEditor Professional Version 15.2 以上で利用できます。
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 allow_delimiter
 allow_nl

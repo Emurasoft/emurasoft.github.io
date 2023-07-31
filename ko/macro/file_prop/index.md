@@ -27,6 +27,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 check_file_changed
 detect_all

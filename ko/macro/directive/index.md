@@ -16,6 +16,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 icon
 include

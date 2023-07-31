@@ -19,6 +19,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 cr_lf_different
 show_control_characters

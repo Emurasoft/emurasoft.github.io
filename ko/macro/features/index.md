@@ -5,6 +5,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 can_script_all
 keystroke_mouse

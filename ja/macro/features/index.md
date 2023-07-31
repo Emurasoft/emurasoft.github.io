@@ -21,6 +21,7 @@ EmEditor では、最近の JavaScript/ECMAScript の新しいメソッドは利
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 can_script_all
 keystroke_mouse

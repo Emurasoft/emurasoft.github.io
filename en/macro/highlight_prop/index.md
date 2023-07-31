@@ -30,6 +30,7 @@ Supported on EmEditor Professional Version 7.00 or later.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 auto_complete_brackets
 comment_begin

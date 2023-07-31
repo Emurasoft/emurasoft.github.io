@@ -13,6 +13,7 @@ EmEditor Professional Version 17.0 以上で利用できます。
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 x
 y

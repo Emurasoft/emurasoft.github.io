@@ -43,6 +43,7 @@ OutputBar.SetFocus
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 clear
 current_directory

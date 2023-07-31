@@ -23,6 +23,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 character_ranges
 flags

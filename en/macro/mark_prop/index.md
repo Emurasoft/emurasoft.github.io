@@ -20,6 +20,7 @@ Supported on EmEditor Professional Version 7.00 or later.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 cr_lf_different
 show_control_characters

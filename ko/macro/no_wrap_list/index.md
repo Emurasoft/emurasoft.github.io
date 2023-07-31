@@ -42,6 +42,7 @@ Next
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add
 count

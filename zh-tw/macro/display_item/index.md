@@ -17,6 +17,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 back_color
 back_mode

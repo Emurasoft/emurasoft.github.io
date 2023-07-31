@@ -13,6 +13,7 @@ Supported on EmEditor Professional Version 17.0 or later.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 x
 y

@@ -42,6 +42,7 @@ EmEditor Professional Version 7.00 以上で利用できます。
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add
 count

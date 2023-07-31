@@ -40,6 +40,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 config
 document_activate

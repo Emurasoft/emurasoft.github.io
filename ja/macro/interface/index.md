@@ -20,6 +20,7 @@ Version 9.00 以上で利用できます。
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 write
 writeln

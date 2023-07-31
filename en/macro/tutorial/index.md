@@ -38,6 +38,7 @@ This section demonstrates how to use macros in a simple and step-by-step manner.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 tutorial_convert
 tutorial_copyfile

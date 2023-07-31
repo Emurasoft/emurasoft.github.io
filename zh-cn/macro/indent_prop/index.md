@@ -21,6 +21,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 auto_indent
 begin

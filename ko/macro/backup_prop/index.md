@@ -17,6 +17,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 folder
 rename_if_same_name_exists

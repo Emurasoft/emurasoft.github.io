@@ -19,6 +19,7 @@ Supported on EmEditor Professional Version 16.0 or later.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 begin
 column

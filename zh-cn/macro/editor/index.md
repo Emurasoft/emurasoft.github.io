@@ -51,6 +51,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 compare
 configs

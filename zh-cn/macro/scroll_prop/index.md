@@ -25,6 +25,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 double_line_scroll
 fast_cursor_move

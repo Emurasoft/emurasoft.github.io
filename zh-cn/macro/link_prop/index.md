@@ -20,6 +20,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 dbc_har_url
 double_click_only

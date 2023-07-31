@@ -14,6 +14,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 first_index
 length

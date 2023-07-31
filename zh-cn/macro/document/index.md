@@ -79,6 +79,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 active_string
 autofill

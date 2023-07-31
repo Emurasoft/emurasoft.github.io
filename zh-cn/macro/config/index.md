@@ -39,6 +39,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 association
 auto_save

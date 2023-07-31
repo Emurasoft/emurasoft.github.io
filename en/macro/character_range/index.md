@@ -16,6 +16,7 @@ Supported on EmEditor Professional Version 22.0 or later.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 enabled
 max

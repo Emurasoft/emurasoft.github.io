@@ -17,6 +17,7 @@ Supported on EmEditor Professional Version 7.00 or later.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 folder
 rename_if_same_name_exists

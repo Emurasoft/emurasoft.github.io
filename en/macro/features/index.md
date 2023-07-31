@@ -21,6 +21,7 @@ Many new methods in modern JavaScript/ECMAScript are not available in EmEditor. 
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 can_script_all
 keystroke_mouse

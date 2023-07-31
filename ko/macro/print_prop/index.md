@@ -18,6 +18,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 draw_separating_lines
 footer

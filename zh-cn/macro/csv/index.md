@@ -25,6 +25,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 allow_delimiter
 allow_nl

@@ -38,6 +38,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 tutorial_convert
 tutorial_copyfile

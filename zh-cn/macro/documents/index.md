@@ -35,6 +35,7 @@ Next
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 documents_count
 documents_item

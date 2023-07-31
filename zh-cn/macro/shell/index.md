@@ -28,6 +28,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 create_folder
 delete_file

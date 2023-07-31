@@ -20,6 +20,7 @@ Supported on EmEditor Professional Version 9.00 or later.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 write
 writeln

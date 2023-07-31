@@ -22,6 +22,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 camelcase
 comment

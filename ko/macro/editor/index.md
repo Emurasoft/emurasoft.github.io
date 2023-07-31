@@ -36,6 +36,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 configs
 editor_activedocument

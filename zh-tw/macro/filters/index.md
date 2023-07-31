@@ -49,6 +49,7 @@ Next
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add
 add_find

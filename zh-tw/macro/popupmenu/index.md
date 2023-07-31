@@ -52,6 +52,7 @@ End If
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add
 addpopup

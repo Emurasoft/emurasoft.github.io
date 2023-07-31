@@ -84,6 +84,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 average
 batch_find

@@ -22,6 +22,7 @@ Supported on EmEditor Professional Version 10.00 or later.
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 camelcase
 comment

@@ -25,6 +25,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 always_enabled
 default_extension

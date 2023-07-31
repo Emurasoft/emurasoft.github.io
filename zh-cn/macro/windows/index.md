@@ -41,6 +41,7 @@ Next
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 count
 item
