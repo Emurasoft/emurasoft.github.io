@@ -14,6 +14,7 @@ plugin/index
 purchase/index
 support/index
 glossary/index
+howto/file/file_commandline.md
 ```
 
 - [本ソフトウェアの不正使用を禁止します。](notice/illegal_usage)
