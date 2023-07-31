@@ -7,7 +7,6 @@
 notice/index
 cmd/index
 dlg/index
-faq/index
 history/index
 howto/index
 macro/index
