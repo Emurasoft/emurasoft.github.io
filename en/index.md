@@ -8,7 +8,6 @@ notice/index
 cmd/index
 dlg/index
 faq/index
-features/index
 history/index
 howto/index
 macro/index
