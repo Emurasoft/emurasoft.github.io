@@ -26,6 +26,7 @@ html_baseurl = 'https://emurasoft.github.io/emeditor-help/'
 sitemap_locales = ['en']
 highlight_language = 'none'
 suppress_warnings = ['image.not_readable']
+navigation_depth = 2
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
