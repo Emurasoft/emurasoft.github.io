@@ -2,7 +2,8 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - '*'
     
 permissions:
   contents: read
@@ -28,10 +29,21 @@ jobs:
         run: ./minify -v -r --sync -o _minified/ _build
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v3
-      - name: Upload artifact
+      - name: Upload pages
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./_minified
+          path: _minified
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: artifact
+          path: |
+            _minified/**
+            !404.html
+            !google97d4e1b665179c67.html
+            !index.html
+            !**/*.xml
+            !**/.doctrees/**
   deploy:
     environment:
       name: github-pages
