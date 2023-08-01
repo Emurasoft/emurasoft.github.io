@@ -34,7 +34,9 @@ jobs:
         with:
           path: _minified
       - name: Create archive
-        run: zip -r archive.zip _minified -x _minified/404.html _minified/google97d4e1b665179c67.html _minified/index.html **/*.xml **/.doctrees/**
+        run: |
+          zip -r archive.zip _minified \
+            -x _minified/404.html _minified/google97d4e1b665179c67.html _minified/index.html **/sitemap.xml **/.doctrees/**
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
