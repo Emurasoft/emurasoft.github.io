@@ -1,1 +1,31 @@
-<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0;url=https://emurasoft.github.io/emeditor-help/en/"></head></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <noscript><meta http-equiv="refresh" content="0;url=https://emurasoft.github.io/emeditor-help/en/"></noscript>
+    <script>
+        /**
+         * @param {string} language
+         * @return {string}
+         */
+        function getURL(language) {
+            switch (language) {
+                case "ja":
+                case "ja-JP":
+                    return "https://emurasoft.github.io/emeditor-help/ja/";
+                case "ko":
+                    return "https://emurasoft.github.io/emeditor-help/ko/";
+                case "zh":
+                case "zh-cn":
+                    return "https://emurasoft.github.io/emeditor-help/zh-cn/";
+                case "zh-tw":
+                    return "https://emurasoft.github.io/emeditor-help/zh-tw/";
+            }
+
+            return "https://emurasoft.github.io/emeditor-help/en/"
+        }
+
+        window.location.replace(getURL(window.navigator.language));
+    </script>
+</head>
+</html>
