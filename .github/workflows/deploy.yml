@@ -25,16 +25,10 @@ jobs:
         run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.12.7/minify_linux_amd64.tar.gz | tar -xz
       - name: Build pages
         run: sh ./buildAll.sh
-      - name: Add to build folder
-        run: mv _add_to_build _build
       - name: Minify
         run: ./minify -v -r --sync -o _minified/ _build
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v3
-      - name: Upload pages
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: _minified
+      - name: Add to build folder
+        run: mv _add_to_build/* _build
       - name: Create archive
         run: |
           zip -r archive.zip _minified \
@@ -44,6 +38,12 @@ jobs:
         with:
           name: artifact
           path: archive.zip
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v3
+      - name: Upload pages
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: _minified
   deploy:
     environment:
       name: github-pages
