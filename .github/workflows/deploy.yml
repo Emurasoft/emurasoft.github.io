@@ -33,17 +33,13 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: _minified
+      - name: Create archive
+        run: zip -r archive.zip _minified -x 404.html google97d4e1b665179c67.html index.html **/*.xml **/.doctrees/**
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: artifact
-          path: |
-            _minified/**
-            !404.html
-            !google97d4e1b665179c67.html
-            !index.html
-            !**/*.xml
-            !**/.doctrees/**
+          path: archive.zip
   deploy:
     environment:
       name: github-pages
