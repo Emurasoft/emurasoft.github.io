@@ -28,7 +28,7 @@ jobs:
       - name: Minify
         run: ./minify -v -r --sync -o _minified/ _build
       - name: Add to build folder
-        run: cp -r _add_to_build/* _build
+        run: cp -r _add_to_build/* _minified
       - name: Create archive
         run: |
           zip -r archive.zip _minified \
