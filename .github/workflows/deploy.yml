@@ -27,12 +27,12 @@ jobs:
         run: sh ./buildAll.sh
       - name: Minify
         run: ./minify -v -r --sync -o _minified/ _build
-      - name: Add to build folder
-        run: rsync -r _add_to_build/ _minified
       - name: Create archive
         run: |
           zip -r archive.zip _minified \
-            -x _minified/404.html _minified/google97d4e1b665179c67.html _minified/index.html **/sitemap.xml **/.doctrees/**
+            -x _minified/404.html _minified/google97d4e1b665179c67.html _minified/index.html _add_to_build/sitemap_index.xml **/sitemap.xml **/.doctrees/**
+      - name: Add to build folder
+        run: cp -r _add_to_build/* _minified
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
