@@ -83,6 +83,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 align_center
 align_left

@@ -75,6 +75,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 active_pane
 bottom_custom_bar

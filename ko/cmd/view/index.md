@@ -75,6 +75,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add_remove_guide
 auto_sort

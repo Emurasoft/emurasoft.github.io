@@ -68,6 +68,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 all_commands
 all_prop

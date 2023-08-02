@@ -24,6 +24,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 sort_columns
 sort_sel

@@ -22,6 +22,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 app_about
 check_updates

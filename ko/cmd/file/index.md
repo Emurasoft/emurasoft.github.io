@@ -77,6 +77,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 activate_or_new
 app_exit
