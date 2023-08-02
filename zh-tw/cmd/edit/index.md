@@ -165,6 +165,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add_column
 add_quotes

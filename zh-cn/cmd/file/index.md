@@ -85,6 +85,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 activate_or_new
 advanced_open

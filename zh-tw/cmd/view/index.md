@@ -102,6 +102,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add_remove_guide
 all_basic_toolbars

@@ -33,6 +33,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 compare_bookmark
 compare_direct

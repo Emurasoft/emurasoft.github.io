@@ -219,6 +219,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add_remove_markers
 add_to_markers

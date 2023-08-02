@@ -77,6 +77,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 add_next2_occurrence
 add_next_occurrence

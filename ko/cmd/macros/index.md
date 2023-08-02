@@ -18,6 +18,7 @@
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 customize_macro
 macro1
