@@ -2,7 +2,8 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - '*'
     
 permissions:
   contents: read
@@ -17,22 +18,34 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11' 
-          cache: 'pip'
+          cache: pip
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Build pages
-        run: sh ./buildAll.sh
       - name: Get minify
         run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.12.7/minify_linux_amd64.tar.gz | tar -xz
+      - name: Build pages
+        run: sh ./buildAll.sh
       - name: Minify
         run: ./minify -v -r --sync -o _minified/ _build
+      - name: Create archive
+        run: |
+          zip -r archive.zip _minified \
+            -x _minified/404.html _minified/google97d4e1b665179c67.html _minified/index.html _add_to_build/sitemap_index.xml **/sitemap.xml **/.doctrees/**
+      - name: Add to build folder
+        run: cp -r _add_to_build/* _minified
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: artifact
+          path: archive.zip
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v3
-      - name: Upload artifact
+      - name: Upload pages
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./_minified
+          path: _minified
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

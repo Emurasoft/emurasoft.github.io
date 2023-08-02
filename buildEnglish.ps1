@@ -1,2 +1,2 @@
 $env:PROJECT='en'
-sphinx-build . _build/en
+sphinx-build --jobs auto . _build/en
