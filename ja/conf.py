@@ -1,0 +1,1 @@
+sitemap_url_scheme = 'ja/{version}{link}'

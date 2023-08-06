@@ -1,0 +1,1 @@
+sitemap_url_scheme = 'zh-cn/{version}{link}'
