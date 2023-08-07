@@ -111,7 +111,7 @@ _encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
 | /cl _ColumnNumber_ | 論理桁番号を指定します。負の数字は行末からの文字数を意味します。 |
 | /clw | ワークスペースを消去します。 |
 | /cmp | 2 個のファイルを比較します。 |
-| /cp _Encoding_ | 開く時のエンコードの指定。 [エンコード定数](../../macro/const/const_encoding) で定義されているエンコードと、以下に示す値の組み合わせが指定できます。
+| /cp _Encoding_ | 開く時のエンコードの指定。 [エンコード定数](../../macro/const/const_encoding) で定義されているエンコードと、以下に示す値の組み合わせが指定できます。|
 
 |     |     |
 | --- | --- |

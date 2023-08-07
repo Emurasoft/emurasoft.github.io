@@ -110,7 +110,7 @@ _encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
 | /cl _ColumnNumber_ | 邏輯欄號。負數表示從行尾開始的字元數。 |
 | /clw | 清除工作去。 |
 | /cmp | 比較兩個檔案。 |
-| /cp _Encoding_ | 設定一個用來打開的編碼。一個編碼可以是 [編碼常數](../../macro/const/const_encoding) 之一。可以指定帶有下列數值的組合。
+| /cp _Encoding_ | 設定一個用來打開的編碼。一個編碼可以是 [編碼常數](../../macro/const/const_encoding) 之一。可以指定帶有下列數值的組合。|
 
 |     |     |
 | --- | --- |

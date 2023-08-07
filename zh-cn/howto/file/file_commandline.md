@@ -110,7 +110,7 @@ _encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
 | /cl _ColumnNumber_ | 逻辑列号。负数表示从行尾开始的字符数。 |
 | /clw | 清除工作去。 |
 | /cmp | 比较两个文件。 |
-| /cp _Encoding_ | 设定一个用来打开的编码。一个编码可以是 [编码常数](../../macro/const/const_encoding) 之一。可以指定带有下列数值的组合。
+| /cp _Encoding_ | 设定一个用来打开的编码。一个编码可以是 [编码常数](../../macro/const/const_encoding) 之一。可以指定带有下列数值的组合。|
 
 |     |     |
 | --- | --- |

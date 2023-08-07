@@ -114,7 +114,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | /cl _ColumnNumber_ | logical column number. A negative number means the number of characters from the end of the line. |
 | /clw | clears the workspace. |
 | /cmp | compares two files. |
-| /cp _Encoding_ | sets an encoding to open as.  An encoding can be one of [Encoding Constants](../../macro/const/const_encoding). A combination with following values can be specified.
+| /cp _Encoding_ | sets an encoding to open as.  An encoding can be one of [Encoding Constants](../../macro/const/const_encoding). A combination with following values can be specified.|
 
 |     |     |
 | --- | --- |
