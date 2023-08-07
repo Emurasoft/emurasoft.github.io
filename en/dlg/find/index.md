@@ -11,18 +11,18 @@ Enter a string to search for. If this is a multi-line text box, you can enter ne
 
 Click this button to show the list of available commands.
 
-|     |     |
-| --- | --- |
-| **Selected Text or Word at Cursor** | When this is checked, the dialog box initializes the Find drop-down list box with the selected text <br> or the word at the cursor. |
-| **Selected Text** | When this is checked, the dialog box initializes the Find drop-down list box with the selected text. |
-| **Word at Cursor** | When this is checked, the dialog box initializes the Find drop-down list box with the word at the cursor. |
-| **Last Used Value** | When this is checked, the dialog box initializes the Find drop-down list box with the last used string. |
-| **Fixed Value** | When this is checked, the dialog box initializes the Find drop-down list box with the string set as the fixed value. |
-| **Auto Save** | Saves the option (Selected Text, Word at Cursor, Last Used Value or Fixed Value) as the default for the next time the dialog box is displayed. |
-| **Multiline** | Toggles between singleline and multiline of the drop-down list box. |
-| **Use editor font** | When this is checked, the **Find** drop-down list box uses the same font as the editor. |
-| **Auto Highlight** | When this is checked, matched strings are highlighted automatically as you type in the **Find** drop-down list box. Hilighting will be disabled when you close this dialog box. This option also affects the **Find** toolbar. |
-| **Select from Batch List** | Selects a string to search for from the batch list. |
+|     |                                                                                                                                                                                                                                  |
+| --- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Selected Text or Word at Cursor** | When this is checked, the dialog box initializes the Find drop-down list box with the selected text <br> or the word at the cursor.                                                                                              |
+| **Selected Text** | When this is checked, the dialog box initializes the Find drop-down list box with the selected text.                                                                                                                             |
+| **Word at Cursor** | When this is checked, the dialog box initializes the Find drop-down list box with the word at the cursor.                                                                                                                        |
+| **Last Used Value** | When this is checked, the dialog box initializes the Find drop-down list box with the last used string.                                                                                                                          |
+| **Fixed Value** | When this is checked, the dialog box initializes the Find drop-down list box with the string set as the fixed value.                                                                                                             |
+| **Auto Save** | Saves the option (Selected Text, Word at Cursor, Last Used Value or Fixed Value) as the default for the next time the dialog box is displayed.                                                                                   |
+| **Multiline** | Toggles between singleline and multiline of the drop-down list box.                                                                                                                                                              |
+| **Use editor font** | When this is checked, the **Find** drop-down list box uses the same font as the editor.                                                                                                                                          |
+| **Auto Highlight** | When this is checked, matched strings are highlighted automatically as you type in the **Find** drop-down list box. Highlighting will be disabled when you close this dialog box. This option also affects the **Find** toolbar. |
+| **Select from Batch List** | Selects a string to search for from the batch list.                                                                                                                                                                              |
 
 The commands also includes the list of available escape sequences or regular expressions. Selecting an item from the list will insert the selected item into the text box next to the button.
 

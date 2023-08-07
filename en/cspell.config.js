@@ -226,5 +226,28 @@ module.exports = {
         "toctree",
         "pageleft",
         "pageright",
+        "clangd",
+        "bazel",
+        "pylsp",
+        "revo",
+        "Hanja",
+        "Consolas",
+        "Takata",
+        "abcdefghij",
+        "Jheng",
+        "Meiryo",
+        "Malgun",
+        "Segoe",
+        "profree",
+        "Recategorized",
+        "Ryzen",
+        "langauge",
+        "Xoshiro",
+        "Unstage",
+        "Autofetch",
+        "writeln",
     ],
+    "ignoreRegExpList": [
+        "^```(.|\\s)+^```"
+    ]
 };

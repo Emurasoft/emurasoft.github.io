@@ -50,7 +50,7 @@ Specifies the number of threads used for some features in EmEditor to improve th
 
 ## Automatically manage all memory sizes check box
 
-If this box is checked, EmEditor automatically calculates optimal memory sizes from the toal physical memory size and the available virtual memory size.
+If this box is checked, EmEditor automatically calculates optimal memory sizes from the total physical memory size and the available virtual memory size.
 
 ## Memory Size text box
 

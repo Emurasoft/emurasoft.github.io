@@ -9,6 +9,7 @@ Specifies the similarity in percentage. For instance, if you specify 75%, and if
 
 ## Max edit distance
 
+<!-- cspell:disable-next-line -->
 Specifies the max [edit distance](https://en.wikipedia.org/wiki/Edit_distance) that a matched string can have. `fuzzx maching` and `fuzzy matching` are 2 edit distance apart.
 
 ## Ignore nonspacing combining characters, such as diacritics, dakuten, and handakuten check box
