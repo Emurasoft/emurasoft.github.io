@@ -58,6 +58,10 @@ div.document form input[type="submit"] {
     background-color: #f2f2f2;
 }
 
+div#top_nav nav p.mobile_search_link a {
+    color: #333333;
+}
+
 h1 {
     font-size: 2rem;
     font-family: "Roboto-bold", "OpenSans", sans-serif;
