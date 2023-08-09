@@ -22,10 +22,6 @@
 {%- block header %}
 
 <div id="top_nav">
-    {% if theme_banner_text and theme_banner_text != 'false' %}
-        {% include "./components/notification_banner.html" %}
-    {% endif %}
-
     <nav>
         {% if logo_url %}
             {% set nav_title = '<img src="' + logo_url + '"/>' %}
