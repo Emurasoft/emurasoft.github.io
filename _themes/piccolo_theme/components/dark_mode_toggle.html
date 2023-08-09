@@ -1,13 +1,13 @@
-<a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+&nbsp;&nbsp;&nbsp;&nbsp;<a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
     <template v-if="mode == 'light'">
-        <img src="{{ pathto('_static/mode_toggle_light.svg', 1) }}" alt="Mode toggle" />
+        <img src="{{ pathto('_static/mode_toggle_light.svg', 1) }}" alt="Mode toggle" style="width:20px">
     </template>
 
     <template v-if="mode == 'dark'">
-        <img src="{{ pathto('_static/mode_toggle_dark.svg', 1) }}" alt="Mode toggle" />
+        <img src="{{ pathto('_static/mode_toggle_dark.svg', 1) }}" alt="Mode toggle" style="width:20px">
     </template>
 
     <template v-if="mode == 'darkest'">
-        <img src="{{ pathto('_static/mode_toggle_darkest.svg', 1) }}" alt="Mode toggle" />
+        <img src="{{ pathto('_static/mode_toggle_darkest.svg', 1) }}" alt="Mode toggle" style="width:20px">
     </template>
 </a>

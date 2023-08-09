@@ -1,29 +1,29 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Replace <pro /> and <profree /> tags
     const proTitle = `
-                {% if language == "en" %}
-                    EmEditor Professional only
-                {% elif language == "ja" %}
-                    EmEditor Professional のみ
-                {% elif language == "ko" %}
-                {% elif language == "zh-CN" %}
-                    仅限 EmEditor 专业版
-                {% elif language == "zh-TW" %}
-                    僅限 EmEditor 專業版
-                {% endif %}
-            `;
+        {% if language == "en" %}
+            EmEditor Professional only
+        {% elif language == "ja" %}
+            EmEditor Professional のみ
+        {% elif language == "ko" %}
+        {% elif language == "zh-CN" %}
+            仅限 EmEditor 专业版
+        {% elif language == "zh-TW" %}
+            僅限 EmEditor 專業版
+        {% endif %}
+    `;
     const proFreeTitle = `
-                {% if language == "en" %}
-                    EmEditor Professional and EmEditor Free
-                {% elif language == "ja" %}
-                    EmEditor Professional と EmEditor Free
-                {% elif language == "ko" %}
-                {% elif language == "zh-CN" %}
-                    仅限 EmEditor 专业版
-                {% elif language == "zh-TW" %}
-                    EmEditor 專業版和 EmEditor 免費版
-                {% endif %}
-            `;
+        {% if language == "en" %}
+            EmEditor Professional and EmEditor Free
+        {% elif language == "ja" %}
+            EmEditor Professional と EmEditor Free
+        {% elif language == "ko" %}
+        {% elif language == "zh-CN" %}
+            仅限 EmEditor 专业版
+        {% elif language == "zh-TW" %}
+            EmEditor 專業版和 EmEditor 免費版
+        {% endif %}
+    `;
 
     for (const element of document.querySelectorAll("pro")) {
         element.textContent = "[P]";
@@ -67,29 +67,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     document.getElementById('searchbox').style.display = "block";
-});
 
-function changeLanguage(lang) {
-    const currentLevel = ('{{ pagename }}'.match(/\//g)||[]).length + 1;
-    const newPath = '../'.repeat(currentLevel) + lang + '/{{ pagename }}.html';
-    window.location.href = newPath;
-}
-
-function toggleLanguageDropdown() {
-    const dropdown = document.querySelector('.languageDropdown');
-    dropdown.classList.toggle('active');
-}
-
-// Closes language dropdown
-window.addEventListener('click', function(event) {
-    const dropdown = document.querySelector('.languageDropdown');
-    if (!dropdown.contains(event.target)) {
-        dropdown.classList.remove('active');
-    }
-});
-
-// Theming
-(function() {
+    // Theming
     const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
 
     var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
@@ -137,4 +116,23 @@ window.addEventListener('click', function(event) {
     if (enableButton) {
         button.mount('#mode_toggle')
     }
-})();
+});
+
+function changeLanguage(lang) {
+    const currentLevel = ('{{ pagename }}'.match(/\//g)||[]).length + 1;
+    const newPath = '../'.repeat(currentLevel) + lang + '/{{ pagename }}.html';
+    window.location.href = newPath;
+}
+
+function toggleLanguageDropdown() {
+    const dropdown = document.querySelector('.languageDropdown');
+    dropdown.classList.toggle('active');
+}
+
+// Closes language dropdown
+window.addEventListener('click', function(event) {
+    const dropdown = document.querySelector('.languageDropdown');
+    if (!dropdown.contains(event.target)) {
+        dropdown.classList.remove('active');
+    }
+});
