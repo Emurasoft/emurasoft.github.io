@@ -2,10 +2,9 @@
 
 {%- block scripts %}
     {{- script() }}
-    <meta name="EmEditor documentation">
+    <meta name="description" content="EmEditor documentation">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" referrerpolicy="no-referrer">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" referrerpolicy="no-referrer">
 
@@ -135,10 +134,8 @@
             {% endif %}
         </p>
     </div>
-	
-	<article>
-    	{{ super() }}
-    </article>
+
+    {{ super() }}
 {% endblock %}
 
 
