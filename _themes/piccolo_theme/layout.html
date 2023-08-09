@@ -13,6 +13,15 @@
     <script src="{{ pathto('_static/js/petite-vue.js', 1) }}"></script>
 
     <script src="{{ pathto('_static/scripts.js', 1) }}"></script>
+
+    <script>
+        function proTitle() {
+            return "{% if language == 'ja' %}EmEditor Professional のみ{% elif language == 'zh-CN' %}仅限 EmEditor 专业版{% elif language == 'zh-TW' %}僅限 EmEditor 專業版{% else %}EmEditor Professional only{% endif %}";
+        }
+        function proFreeTitle() {
+            return "{% if language == 'ja' %}EmEditor Professional と EmEditor Free{% elif language == 'zh-CN' %}仅限 EmEditor 专业版{% elif language == 'zh-TW' %}EmEditor 專業版和 EmEditor 免費版{% else %}EmEditor Professional and EmEditor Free{% endif %}";
+        }
+    </script>
 {% endblock %}
 
 {%- block body_tag %}
@@ -45,6 +54,13 @@
                 <a href="#" onclick="changeLanguage('zh-cn')">简体中文</a>
                 <a href="#" onclick="changeLanguage('zh-tw')">繁體中文</a>
             </div>
+            <script>
+                function changeLanguage(lang) {
+                    const currentLevel = ('{{ pagename }}'.match(/\//g)||[]).length + 1;
+                    const newPath = '../'.repeat(currentLevel) + lang + '/{{ pagename }}.html';
+                    window.location.href = newPath;
+                }
+            </script>
         </div>
 
         {% include "./components/dark_mode_toggle.html" %}
