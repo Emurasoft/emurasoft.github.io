@@ -3,29 +3,20 @@
 [Editor\_FindRegex インライン関数](../macro/editor_findregex) ( [EE\_FIND\_REGEX \
 メッセージ](../message/ee_find_regex)) で使用します。この構造体は使用されなくなります。新しいプラグインは、 [FIND\_REGEX\_INFO\_EX 構造体](find_regex_info_ex) を使用してください。
 
-typedef struct \_FIND\_REGEX\_INFO {
-
-size\_t cbSize; // sizeof( FIND\_REGEX\_INFO )
-
-UINT nFlags;
-
-LPCWSTR pszRegex;
-
-LPCWSTR pszText;
-
-LPCWSTR\* ppszStart;
-
-LPCWSTR\* ppszEnd;
-
-LPCWSTR\* ppszNext;
-
-LPCWSTR pszReplace;
-
-LPWSTR pszResult;
-
-UINT cchResult;
-
-} FIND\_REGEX\_INFO;
+```
+typedef struct _FIND_REGEX_INFO {
+	size_t cbSize; // sizeof( FIND_REGEX_INFO )
+	UINT nFlags;
+	LPCWSTR pszRegex;
+	LPCWSTR pszText;
+	LPCWSTR *ppszStart;
+	LPCWSTR *ppszEnd;
+	LPCWSTR *ppszNext;
+	LPCWSTR pszReplace;
+	LPWSTR pszResult;
+	UINT cchResult;
+} FIND_REGEX_INFO;
+```
 
 ## フィールド
 

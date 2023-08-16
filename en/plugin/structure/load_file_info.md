@@ -5,23 +5,17 @@ and [Editor\_LoadFileW](../macro/editor_loadfilew)
 inline functions ( [EE\_LOAD\_FILEA](../message/ee_load_filea) and
 [EE\_LOAD\_FILEW](../message/ee_load_filew) messages).
 
-typedef struct \_LOAD\_FILE\_INFO\_EX {
-
-UINT cbSize;
-
-UINT nCP;
-
-BOOL bDetectUnicode;
-
-BOOL bDetectAll;
-
-BOOL bDetectCharset;
-
-BOOL bDetectUTF8;
-
-UINT nFlags;
-
-} LOAD\_FILE\_INFO\_EX;
+```
+typedef struct _LOAD_FILE_INFO_EX {
+	UINT cbSize;
+	UINT nCP;
+	BOOL bDetectUnicode;
+	BOOL bDetectAll;
+	BOOL bDetectCharset;
+	BOOL bDetectUTF8;
+	UINT nFlags;
+} LOAD_FILE_INFO_EX;
+```
 
 ## Fields
 

@@ -2,21 +2,16 @@
 
 蚚衾 [EVENT\_HISTORY 奀潔](../event/index) 笢﹝
 
-typedef struct \_HISTORY\_INFO {
-
-size\_t cbSize;
-
-UINT nFlags;
-
-POINT\_PTR ptTop;
-
-POINT\_PTR ptBottom;
-
-UINT nChar;
-
-LPCWSTR pszString;
-
-} HISTORY\_INFO;
+```
+typedef struct _HISTORY_INFO {
+	size_t cbSize;
+	UINT nFlags;
+	POINT_PTR ptTop;
+	POINT_PTR ptBottom;
+	UINT nChar;
+	LPCWSTR pszString;
+} HISTORY_INFO;
+```
 
 ## 凳傖
 

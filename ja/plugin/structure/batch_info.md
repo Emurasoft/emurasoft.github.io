@@ -3,17 +3,14 @@
 [EE\_FIND\_REPLACE \
 メッセージ](../message/ee_find_replace) で使用します。
 
-typedef struct \_BATCH\_INFO {
-
-UINT cbSize;
-
-UINT nBatchCount;
-
-UINT64 nBatchFlags;
-
-UINT64 nTotalCount;
-
-} BATCH\_INFO;
+```
+typedef struct _BATCH_INFO {
+	UINT cbSize;
+	UINT nBatchCount;
+	UINT64 nBatchFlags;
+	UINT64 nTotalCount;
+} BATCH_INFO;
+```
 
 ## フィールド
 

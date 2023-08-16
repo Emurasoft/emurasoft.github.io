@@ -2,17 +2,14 @@
 
 用於 [EE\_FIND\_REPLACE 消息](../message/ee_find_replace)。
 
-typedef struct \_BATCH\_INFO {
-
-UINT cbSize;
-
-UINT nBatchCount;
-
-UINT64 nBatchFlags;
-
-UINT64 nTotalCount;
-
-} BATCH\_INFO;
+```
+typedef struct _BATCH_INFO {
+	UINT cbSize;
+	UINT nBatchCount;
+	UINT64 nBatchFlags;
+	UINT64 nTotalCount;
+} BATCH_INFO;
+```
 
 ## 欄位
 

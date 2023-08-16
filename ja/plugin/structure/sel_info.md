@@ -3,17 +3,14 @@
 [EE\_GET\_MULTI\_SEL](../message/ee_get_attr) メッセージ ( [Editor\_GetMultiSel](../macro/editor_getmultisel)
 インライン関数) で使用します。
 
-typedef struct \_SEL\_INFO {
-
-size\_t cbSize;
-
-POINT\_PTR ptStart;
-
-POINT\_PTR ptEnd;
-
-POINT\_PTR ptCaret;
-
-} SET\_INFO;
+```
+typedef struct _SEL_INFO {
+	size_t cbSize;
+	POINT_PTR ptStart;
+	POINT_PTR ptEnd;
+	POINT_PTR ptCaret;
+} SET_INFO;
+```
 
 ## フィールド
 

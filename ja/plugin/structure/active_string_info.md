@@ -2,17 +2,14 @@
 
 [EE\_GET\_ACTIVE\_STRING](../message/ee_get_active_string) メッセージで使用します。
 
-typedef struct \_ACTIVE\_STRING\_INFO {
-
-UINT cbSize;
-
-LPWSTR pBuf;
-
-UINT cchBuf;
-
-UINT nFlags;
-
-} ACTIVE\_STRING\_INFO;
+```
+typedef struct _ACTIVE_STRING_INFO {
+	UINT cbSize;
+	LPWSTR pBuf;
+	UINT cchBuf;
+	UINT nFlags;
+} ACTIVE_STRING_INFO;
+```
 
 ## フィールド
 

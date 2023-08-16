@@ -2,15 +2,13 @@
 
 [EVENT\_CUSTOM\_BAR\_CLOSED イベント](../event/index) で使用します。
 
-typedef struct \_CUSTOM\_BAR\_CLOSE\_INFO {
-
-UINT nID;
-
-int iPos;
-
-DWORD dwFlags;
-
-} CUSTOM\_BAR\_CLOSE\_INFO;
+```
+typedef struct _CUSTOM_BAR_CLOSE_INFO {
+	UINT nID;
+	int iPos;
+	DWORD dwFlags;
+} CUSTOM_BAR_CLOSE_INFO;
+```
 
 ## フィールド
 

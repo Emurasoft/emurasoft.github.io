@@ -3,21 +3,16 @@
 [EE\_GET\_COLOR \
 メッセージ](../message/ee_get_color) で使用します。
 
-typedef struct \_GET\_COLOR\_INFO {
-
-UINT cbSize;
-
-BOOL bFind;
-
-UINT nIndex;
-
-COLORREF clrText;
-
-COLORREF clrBack;
-
-int nAttr;
-
-} GET\_COLOR\_INFO;
+```
+typedef struct _GET_COLOR_INFO {
+	UINT cbSize;
+	BOOL bFind;
+	UINT nIndex;
+	COLORREF clrText;
+	COLORREF clrBack;
+	int nAttr;
+} GET_COLOR_INFO;
+```
 
 ## フィールド
 

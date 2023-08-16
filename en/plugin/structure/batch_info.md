@@ -3,17 +3,14 @@
 Used by
 [EE\_FIND\_REPLACE](../message/ee_find_replace) message.
 
-typedef struct \_BATCH\_INFO {
-
-UINT cbSize;
-
-UINT nBatchCount;
-
-UINT64 nBatchFlags;
-
-UINT64 nTotalCount;
-
-} BATCH\_INFO;
+```
+typedef struct _BATCH_INFO {
+	UINT cbSize;
+	UINT nBatchCount;
+	UINT64 nBatchFlags;
+	UINT64 nTotalCount;
+} BATCH_INFO;
+```
 
 ## Fields
 

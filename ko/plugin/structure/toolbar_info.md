@@ -4,37 +4,24 @@ Used by [Editor\_ToolbarOpen 인라인 함수](../macro/editor_toolbaropen)
 ( [EE\_TOOLBAR\_OPEN 메시지](../message/ee_toolbar_open))와 사용자 지정 도구 모음에 관련된
 이벤트에 의해 사용됩니다.
 
-typedef struct \_TOOLBAR\_INFO {
-
-size\_t cbSize;
-
-HWND hwndRebar;
-
-HWND hwndClient;
-
-LPCTSTR pszTitle;
-
-UINT nMask;
-
-UINT nID;
-
-UINT nFlags;
-
-UINT fStyle;
-
-UINT cxMinChild;
-
-UINT cyMinChild;
-
-UINT cx;
-
-UINT cxIdeal;
-
-UINT nBand;
-
-WORD wPlugInCmdID;
-
-} TOOLBAR\_INFO;
+```
+typedef struct _TOOLBAR_INFO {
+	size_t cbSize;
+	HWND hwndRebar;
+	HWND hwndClient;
+	LPCTSTR pszTitle;
+	UINT nMask;
+	UINT nID;
+	UINT nFlags;
+	UINT fStyle;
+	UINT cxMinChild;
+	UINT cyMinChild;
+	UINT cx;
+	UINT cxIdeal;
+	UINT nBand;
+	WORD wPlugInCmdID;
+} TOOLBAR_INFO;
+```
 
 ## 멤버
 

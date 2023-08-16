@@ -2,13 +2,12 @@
 
 Used by [EE\_INFO message](../message/ee_info).
 
-typedef struct \_STRING\_BUF {
-
-LPWSTR pBuf;
-
-UINT cchBuf;
-
-} STRING\_BUF;
+```
+typedef struct _STRING_BUF {
+	LPWSTR pBuf;
+	UINT cchBuf;
+} STRING_BUF;
+```
 
 ## Members
 

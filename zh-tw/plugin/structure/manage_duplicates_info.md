@@ -2,29 +2,20 @@
 
 用於 [EE\_MANAGE\_DUPLICATES](../message/ee_manage_duplicates) 消息。
 
-typedef struct \_MANAGE\_DUPLICATES\_INFO {
-
-UINT nVer;
-
-UINT nFlags;
-
-INT\_PTR nFound;
-
-int nNumOfColumns;
-
-int\* anColumns;
-
-int nNumOfColumnsToCombine;
-
-int\* anColumnsToCombine;
-
-LPCWSTR pszInsert;
-
-UINT nCombineFlags;
-
-LPCWSTR pszLocale;
-
-} MANAGE\_DUPLICATES\_INFO;
+```
+typedef struct _MANAGE_DUPLICATES_INFO {
+	UINT nVer;
+	UINT nFlags;
+	INT_PTR nFound;
+	int nNumOfColumns;
+	int *anColumns;
+	int nNumOfColumnsToCombine;
+	int *anColumnsToCombine;
+	LPCWSTR pszInsert;
+	UINT nCombineFlags;
+	LPCWSTR pszLocale;
+} MANAGE_DUPLICATES_INFO;
+```
 
 ## 欄位
 

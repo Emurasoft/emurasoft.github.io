@@ -2,25 +2,18 @@
 
 用於 [EE\_REG\_QUERY\_VALUE 消息](../message/ee_reg_query_value) 中。
 
-typedef struct \_REG\_QUERY\_VALUE\_INFO {
-
-size\_t cbSize;
-
-DWORD dwKey;
-
-LPCWSTR pszConfig;
-
-LPCWSTR pszValue;
-
-DWORD dwType;
-
-BYTE\* lpData;
-
-DWORD\* lpcbData;
-
-DWORD dwFlags;
-
-} REG\_QUERY\_VALUE\_INFO;
+```
+typedef struct _REG_QUERY_VALUE_INFO {
+	size_t cbSize;
+	DWORD dwKey;
+	LPCWSTR pszConfig;
+	LPCWSTR pszValue;
+	DWORD dwType;
+	BYTE *lpData;
+	DWORD *lpcbData;
+	DWORD dwFlags;
+} REG_QUERY_VALUE_INFO;
+```
 
 ## 構成
 

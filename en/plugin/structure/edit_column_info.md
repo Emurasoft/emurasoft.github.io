@@ -3,25 +3,18 @@
 Used by
 [EE\_EDIT\_COLUMN](../message/ee_edit_column) message.
 
-typedef struct \_EDIT\_COLUMN\_INFO {
-
-UINT cbSize;
-
-UINT nFlags;
-
-int iColumn1;
-
-int iColumn2;
-
-int iColumnTo;
-
-LPCWSTR pszInsert;
-
-UINT nCombineFlags;
-
-LPCWSTR pszLocale;
-
-} EDIT\_COLUMN\_INFO;
+```
+typedef struct _EDIT_COLUMN_INFO {
+	UINT cbSize;
+	UINT nFlags;
+	int iColumn1;
+	int iColumn2;
+	int iColumnTo;
+	LPCWSTR pszInsert;
+	UINT nCombineFlags;
+	LPCWSTR pszLocale;
+} EDIT_COLUMN_INFO;
+```
 
 ## Fields
 

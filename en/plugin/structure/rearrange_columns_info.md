@@ -3,15 +3,13 @@
 Used by
 [EE\_REARRANGE\_COLUMNS](../message/ee_rearrange_columns) message.
 
-typedef struct \_REARRANGE\_COLUMNS\_INFO {
-
-UINT cbSize;
-
-UINT nColumnArraySize;
-
-const INT\* piColumn;
-
-} REARRANGE\_COLUMNS\_INFO;
+```
+typedef struct _REARRANGE_COLUMNS_INFO {
+	UINT cbSize;
+	UINT nColumnArraySize;
+	const INT *piColumn;
+} REARRANGE_COLUMNS_INFO;
+```
 
 ## Fields
 

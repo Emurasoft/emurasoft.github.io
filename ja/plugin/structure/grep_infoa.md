@@ -3,25 +3,18 @@
 [Editor\_FindInFilesA インライン関数](../macro/editor_findinfilesa)、 [Editor\_ReplaceInFilesA インライン関数](../macro/editor_replaceinfilesa) ( [EE\_FIND\_IN\_FILESA \
 メッセージ](../message/ee_find_in_filesa)、 [EE\_REPLACE\_IN\_FILESA メッセージ](../message/ee_replace_in_filesa)) で使用します。
 
-typedef struct \_GREP\_INFOA {
-
-size\_t cbSize;
-
-UINT nCP;
-
-UINT nFlags;
-
-LPCSTR pszFind;
-
-LPCSTR pszReplace;
-
-LPCSTR pszPath;
-
-LPCSTR pszBackupPath;
-
-LPCSTR pszFilesToIgnore;
-
-} GREP\_INFOA;
+```
+typedef struct _GREP_INFOA {
+	size_t cbSize;
+	UINT nCP;
+	UINT nFlags;
+	LPCSTR pszFind;
+	LPCSTR pszReplace;
+	LPCSTR pszPath;
+	LPCSTR pszBackupPath;
+	LPCSTR pszFilesToIgnore;
+} GREP_INFOA;
+```
 
 ## フィールド
 

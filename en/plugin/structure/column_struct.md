@@ -4,27 +4,18 @@ Used by [Editor\_GetColumn](../macro/editor_getcolumn)
 inline function ( [EE\_GET\_COLUMN](../message/ee_get_column) message) or [Editor\_SetColumn](../macro/editor_setcolumn)
 inline function ( [EE\_SET\_COLUMN](../message/ee_set_column) message).
 
-typedef struct \_COLUMN\_STRUCT {
-
-UINT cbSize;
-
-int iColumn;
-
-UINT\_PTR yLineTop;
-
-UINT\_PTR yLines;
-
-LPWSTR pBuf
-
-UINT\_PTR cchBuf;
-
-LPCWSTR pszDelimiter;
-
-UINT flags;
-
-HGLOBAL hGlobalData;
-
-} COLUMN\_STRUCT;
+```
+typedef struct _COLUMN_STRUCT {
+	UINT cbSize;
+	int iColumn;
+	UINT_PTR yLineTop;
+	UINT_PTR yLines;
+	LPWSTR pBuf UINT_PTR cchBuf;
+	LPCWSTR pszDelimiter;
+	UINT flags;
+	HGLOBAL hGlobalData;
+} COLUMN_STRUCT;
+```
 
 ## Fields
 

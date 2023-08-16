@@ -5,19 +5,15 @@
 內嵌函式 ( [EE\_GET\_LINEA](../message/ee_get_linea) 和
 [EE\_GET\_LINEW](../message/ee_get_linew) 消息) 中。
 
-typedef struct \_GET\_LINE\_INFO {
-
-UINT cch;
-
-UINT flags;
-
-UINT yLine;
-
-BYTE byteCrLf;
-
-HEEDOC hDoc;
-
-} GET\_LINE\_INFO;
+```
+typedef struct _GET_LINE_INFO {
+	UINT cch;
+	UINT flags;
+	UINT yLine;
+	BYTE byteCrLf;
+	HEEDOC hDoc;
+} GET_LINE_INFO;
+```
 
 ## 欄位
 

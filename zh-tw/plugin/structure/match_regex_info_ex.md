@@ -2,23 +2,17 @@
 
 用於 [Editor\_MatchRegex inline function](../macro/editor_matchregex) ( [EE\_MATCH\_REGEX message](../message/ee_match_regex)) 中。
 
-typedef struct \_MATCH\_REGEX\_INFO\_EX {
-
-size\_t cbSize; // sizeof( MATCH\_REGEX\_INFO\_EX )
-
-UINT64 nFlags;
-
-LPCWSTR pszRegex;
-
-LPCWSTR pszText;
-
-LPCWSTR pszReplace;
-
-LPWSTR pszResult;
-
-UINT cchResult;
-
-} MATCH\_REGEX\_INFO\_EX;
+```
+typedef struct _MATCH_REGEX_INFO_EX {
+	size_t cbSize; // sizeof( MATCH_REGEX_INFO_EX )
+	UINT64 nFlags;
+	LPCWSTR pszRegex;
+	LPCWSTR pszText;
+	LPCWSTR pszReplace;
+	LPWSTR pszResult;
+	UINT cchResult;
+} MATCH_REGEX_INFO_EX;
+```
 
 ## 構成
 

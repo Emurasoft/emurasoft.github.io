@@ -3,17 +3,14 @@
 用于 [Editor\_GetCell](../macro/editor_getcell) 和 [Editor\_SetCell](../macro/editor_setcell)
 内联函数 ( [EE\_GET\_CELL](../message/ee_get_cell) 和 [EE\_SET\_CELL](../message/ee_set_cell) 消息) 中。
 
-typedef struct \_GET\_CELL\_INFO {
-
-UINT\_PTR cch;
-
-UINT     flags;
-
-UINT\_PTR yLine;
-
-int      iColumn;
-
-} GET\_CELL\_INFO;
+```
+typedef struct _GET_CELL_INFO {
+	UINT_PTR cch;
+	UINT flags;
+	UINT_PTR yLine;
+	int iColumn;
+} GET_CELL_INFO;
+```
 
 ## 字段
 

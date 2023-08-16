@@ -2,13 +2,12 @@
 
 Used by the [SORT\_INFO structure](sort_info).
 
-typedef struct \_COLUMN\_INFO {
-
-int iCol;
-
-UINT nFlags;
-
-} COLUMN\_INFO;
+```
+typedef struct _COLUMN_INFO {
+	int iCol;
+	UINT nFlags;
+} COLUMN_INFO;
+```
 
 ## Fields
 

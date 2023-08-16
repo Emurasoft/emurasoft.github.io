@@ -3,27 +3,18 @@
 用于 [Editor\_SetColumn](../macro/editor_setcolumn)
 内联函数 ( [EE\_SET\_COLUMN](../message/ee_set_column) 消息) 中。
 
-typedef struct \_COLUMN\_STRUCT {
-
-UINT cbSize;
-
-int iColumn;
-
-UINT\_PTR yLineTop;
-
-UINT\_PTR yLines;
-
-LPWSTR pBuf
-
-UINT\_PTR cchBuf;
-
-LPCWSTR pszDelimiter;
-
-UINT flags;
-
-HGLOBAL hGlobalData;
-
-} COLUMN\_STRUCT;
+```
+typedef struct _COLUMN_STRUCT {
+	UINT cbSize;
+	int iColumn;
+	UINT_PTR yLineTop;
+	UINT_PTR yLines;
+	LPWSTR pBuf UINT_PTR cchBuf;
+	LPCWSTR pszDelimiter;
+	UINT flags;
+	HGLOBAL hGlobalData;
+} COLUMN_STRUCT;
+```
 
 ## 字段
 
