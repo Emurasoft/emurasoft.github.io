@@ -2,24 +2,37 @@
 
 Used by [Editor\_ToolbarOpen inline function](../macro/editor_toolbaropen) ( [EE\_TOOLBAR\_OPEN message](../message/ee_toolbar_open)) and events related to custom toolbars.
 
-```
-typedef struct _TOOLBAR_INFO {
-	size_t cbSize;
-	HWND hwndRebar;
-	HWND hwndClient;
-	LPCTSTR pszTitle;
-	UINT nMask;
-	UINT nID;
-	UINT nFlags;
-	UINT fStyle;
-	UINT cxMinChild;
-	UINT cyMinChild;
-	UINT cx;
-	UINT cxIdeal;
-	UINT nBand;
-	WORD wPlugInCmdID;
-} TOOLBAR_INFO;
-```
+typedef struct \_TOOLBAR\_INFO {
+
+size\_t cbSize;
+
+HWND hwndRebar;
+
+HWND hwndClient;
+
+LPCTSTR pszTitle;
+
+UINT nMask;
+
+UINT nID;
+
+UINT nFlags;
+
+UINT fStyle;
+
+UINT cxMinChild;
+
+UINT cyMinChild;
+
+UINT cx;
+
+UINT cxIdeal;
+
+UINT nBand;
+
+WORD wPlugInCmdID;
+
+} TOOLBAR\_INFO;
 
 ## Members
 

@@ -2,15 +2,19 @@
 
 用於 [EE\_COMPARE](../message/ee_compare) 消息。
 
-```
-typedef struct _COMPARE_INFO {
-	UINT cbSize;
-	UINT flags;
-	LPCWSTR pszDocument1;
-	LPCWSTR pszDocument2;
-	LPCWSTR pszResultFileName;
-} COMPARE_INFO;
-```
+typedef struct \_COMPARE\_INFO {
+
+UINT cbSize;
+
+UINT flags;
+
+LPCWSTR pszDocument1;
+
+LPCWSTR pszDocument2;
+
+LPCWSTR pszResultFileName;
+
+} COMPARE\_INFO;
 
 ## 欄位
 

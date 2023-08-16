@@ -2,20 +2,29 @@
 
 [EE\_MANAGE\_DUPLICATES](../message/ee_manage_duplicates) メッセージで使用します。
 
-```
-typedef struct _MANAGE_DUPLICATES_INFO {
-	UINT nVer;
-	UINT nFlags;
-	INT_PTR nFound;
-	int nNumOfColumns;
-	int *anColumns;
-	int nNumOfColumnsToCombine;
-	int *anColumnsToCombine;
-	LPCWSTR pszInsert;
-	UINT nCombineFlags;
-	LPCWSTR pszLocale;
-} MANAGE_DUPLICATES_INFO;
-```
+typedef struct \_MANAGE\_DUPLICATES\_INFO {
+
+UINT nVer;
+
+UINT nFlags;
+
+INT\_PTR nFound;
+
+int nNumOfColumns;
+
+int\* anColumns;
+
+int nNumOfColumnsToCombine;
+
+int\* anColumnsToCombine;
+
+LPCWSTR pszInsert;
+
+UINT nCombineFlags;
+
+LPCWSTR pszLocale;
+
+} MANAGE\_DUPLICATES\_INFO;
 
 ## フィールド
 

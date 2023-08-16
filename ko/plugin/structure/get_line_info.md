@@ -3,14 +3,17 @@
 Editor\_GetLineA 와 Editor\_GetLineW 인라인 함수 (EE\_GET\_LINEA,
 EE\_GET\_LINEW 메시지)에 의해 사용됩니다.
 
-```
-typedef struct _GET_LINE_INFO {
-	UINT cch;
-	UINT flags;
-	UINT yLine;
-	BYTE byteCrLf;
-} GET_LINE_INFO;
-```
+typedef struct \_GET\_LINE\_INFO {
+
+UINT cch;
+
+UINT flags;
+
+UINT yLine;
+
+BYTE byteCrLf;
+
+} GET\_LINE\_INFO;
 
 ## 필드
 

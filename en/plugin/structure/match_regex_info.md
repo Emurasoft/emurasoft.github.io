@@ -2,17 +2,23 @@
 
 Used by [Editor\_MatchRegex inline function](../macro/editor_matchregex) ( [EE\_MATCH\_REGEX message](../message/ee_match_regex)). This structure is obsolete. Newer plug-ins should use the [MATCH\_REGEX\_INFO\_EX structure](match_regex_info_ex) instead.
 
-```
-typedef struct _MATCH_REGEX_INFO {
-	size_t cbSize; // sizeof( MATCH_REGEX_INFO )
-	UINT nFlags;
-	LPCWSTR pszRegex;
-	LPCWSTR pszText;
-	LPCWSTR pszReplace;
-	LPWSTR pszResult;
-	UINT cchResult;
-} MATCH_REGEX_INFO;
-```
+typedef struct \_MATCH\_REGEX\_INFO {
+
+size\_t cbSize; // sizeof( MATCH\_REGEX\_INFO )
+
+UINT nFlags;
+
+LPCWSTR pszRegex;
+
+LPCWSTR pszText;
+
+LPCWSTR pszReplace;
+
+LPWSTR pszResult;
+
+UINT cchResult;
+
+} MATCH\_REGEX\_INFO;
 
 ## Members
 

@@ -3,15 +3,19 @@
 [Editor\_SetOutlineArray](../macro/editor_setoutlinearray)
 인라인 함수( [EE\_SET\_OUTLINE\_ARRAY](../message/ee_set_outline_array) 메시지)에 의해 사용됩니다.
 
-```
-typedef struct _OUTLINE_ARRAY_INFO {
-	int nVersion;
-	UINT nFlags;
-	INT_PTR nStartLine;
-	INT_PTR nCount;
-	BYTE *pLevelData;
-} SET_INFO;
-```
+typedef struct \_OUTLINE\_ARRAY\_INFO {
+
+int nVersion;
+
+UINT nFlags;
+
+INT\_PTR nStartLine;
+
+INT\_PTR nCount;
+
+BYTE\* pLevelData;
+
+} SET\_INFO;
 
 ## 필드
 

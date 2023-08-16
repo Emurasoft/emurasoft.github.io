@@ -2,14 +2,17 @@
 
 [Editor\_GetCell](../macro/editor_getcell) インライン関数、 [Editor\_SetCell](../macro/editor_setcell) インライン関数 ( [EE\_GET\_CELL](../message/ee_get_cell) メッセージ、 [EE\_SET\_CELL](../message/ee_set_cell) メッセージ) で使用します。
 
-```
-typedef struct _GET_CELL_INFO {
-	UINT_PTR cch;
-	UINT flags;
-	UINT_PTR yLine;
-	int iColumn;
-} GET_CELL_INFO;
-```
+typedef struct \_GET\_CELL\_INFO {
+
+UINT\_PTR cch;
+
+UINT     flags;
+
+UINT\_PTR yLine;
+
+int      iColumn;
+
+} GET\_CELL\_INFO;
 
 ## フィールド
 

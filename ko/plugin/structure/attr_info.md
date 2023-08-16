@@ -2,16 +2,21 @@
 
 [EE\_GET\_ATTR](../message/ee_get_attr) 메시지에 의해 사용됩니다.
 
-```
-typedef struct _ATTR_INFO {
-	size_t cbSize; // in
-	POINT_PTR ptLogical; // in
-	UINT nFlags; // in
-	UINT nAttr; // out
-	WCHAR szConfigScope[MAX_CONFIG_NAME]; // out
-	WCHAR szConfigDoc[MAX_CONFIG_NAME]; // out
-} ATTR_INFO;
-```
+typedef struct \_ATTR\_INFO {
+
+size\_t cbSize; // in
+
+POINT\_PTR ptLogical; // in
+
+UINT nFlags; // in
+
+UINT nAttr; // out
+
+WCHAR szConfigScope\[MAX\_CONFIG\_NAME\]; // out
+
+WCHAR szConfigDoc\[MAX\_CONFIG\_NAME\]; // out
+
+} ATTR\_INFO;
 
 ## 멤버
 

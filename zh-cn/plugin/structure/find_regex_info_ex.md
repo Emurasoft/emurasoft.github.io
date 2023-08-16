@@ -2,20 +2,29 @@
 
 用于 [Editor\_FindRegex 内联函数](../macro/editor_findregex) ( [EE\_FIND\_REGEX 消息](../message/ee_find_regex))中。
 
-```
-typedef struct _FIND_REGEX_INFO_EX {
-	size_t cbSize; // sizeof( FIND_REGEX_INFO_EX )
-	UINT64 nFlags;
-	LPCWSTR pszRegex;
-	LPCWSTR pszText;
-	LPCWSTR *ppszStart;
-	LPCWSTR *ppszEnd;
-	LPCWSTR *ppszNext;
-	LPCWSTR pszReplace;
-	LPWSTR pszResult;
-	UINT cchResult;
-} FIND_REGEX_INFO_EX;
-```
+typedef struct \_FIND\_REGEX\_INFO\_EX {
+
+size\_t cbSize; // sizeof( FIND\_REGEX\_INFO\_EX )
+
+UINT64 nFlags;
+
+LPCWSTR pszRegex;
+
+LPCWSTR pszText;
+
+LPCWSTR\* ppszStart;
+
+LPCWSTR\* ppszEnd;
+
+LPCWSTR\* ppszNext;
+
+LPCWSTR pszReplace;
+
+LPWSTR pszResult;
+
+UINT cchResult;
+
+} FIND\_REGEX\_INFO\_EX;
 
 ## 成员
 

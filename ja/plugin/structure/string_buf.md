@@ -2,12 +2,13 @@
 
 [EE\_INFO メッセージ](../message/ee_info) で使用します。
 
-```
-typedef struct _STRING_BUF {
-	LPWSTR pBuf;
-	UINT cchBuf;
-} STRING_BUF;
-```
+typedef struct \_STRING\_BUF {
+
+LPWSTR pBuf;
+
+UINT cchBuf;
+
+} STRING\_BUF;
 
 ## フィールド
 

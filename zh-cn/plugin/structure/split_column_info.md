@@ -3,18 +3,25 @@
 用于
 [EE\_SPLIT\_COLUMN](../message/ee_split_column) 消息。
 
-```
-typedef struct _SPLIT_COLUMN_INFO {
-	UINT cbSize;
-	UINT nType;
-	UINT nFlags;
-	int *anColumns;
-	int nNumOfColumns;
-	int nLimit;
-	LPCWSTR pszSeparator;
-	LPCWSTR pszLocale;
-} SPLIT_COLUMN_INFO;
-```
+typedef struct \_SPLIT\_COLUMN\_INFO {
+
+UINT cbSize;
+
+UINT nType;
+
+UINT nFlags;
+
+int\* anColumns;
+
+int nNumOfColumns;
+
+int nLimit;
+
+LPCWSTR pszSeparator;
+
+LPCWSTR pszLocale;
+
+} SPLIT\_COLUMN\_INFO;
 
 ## 字段
 

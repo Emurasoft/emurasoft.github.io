@@ -8,17 +8,23 @@
 [EE\_INSERT\_FILEA](../message/ee_insert_filea),
 [EE\_INSERT\_FILEW](../message/ee_insert_filew) メッセージ) で使用します。
 
-```
-typedef struct _LOAD_FILE_INFO_EX {
-	size_t cbSize;
-	UINT nCP;
-	BOOL bDetectUnicode;
-	BOOL bDetectAll;
-	BOOL bDetectCharset;
-	BOOL bDetectUTF8;
-	UINT nFlags;
-} LOAD_FILE_INFO_EX;
-```
+typedef struct \_LOAD\_FILE\_INFO\_EX {
+
+size\_t cbSize;
+
+UINT nCP;
+
+BOOL bDetectUnicode;
+
+BOOL bDetectAll;
+
+BOOL bDetectCharset;
+
+BOOL bDetectUTF8;
+
+UINT nFlags;
+
+} LOAD\_FILE\_INFO\_EX;
 
 ## フィールド
 

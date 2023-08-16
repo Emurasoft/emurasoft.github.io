@@ -3,15 +3,19 @@
 Used by
 [EE\_GET\_UNICODE\_NAME message](../message/ee_get_unicode_name).
 
-```
-typedef struct _UNICODE_NAME_INFO {
-	UINT cbSize;
-	int cchBuf;
-	LPWSTR pBuf;
-	LPCWSTR pszSrc;
-	int cchSrc;
-} UNICODE_NAME_INFO;
-```
+typedef struct \_UNICODE\_NAME\_INFO {
+
+UINT cbSize;
+
+int cchBuf;
+
+LPWSTR pBuf;
+
+LPCWSTR pszSrc;
+
+int cchSrc;
+
+} UNICODE\_NAME\_INFO;
 
 ## Fields
 

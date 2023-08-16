@@ -2,14 +2,17 @@
 
 用於 [**EE\_INFO\_EX** 消息](../message/ee_info_ex)。
 
-```
-typedef struct _INFO_EX_DATA {
-	UINT cbSize;
-	UINT nCmd;
-	HEEDOC hDoc;
-	LPARAM lParam;
-} INFO_EX_DATA;
-```
+typedef struct \_INFO\_EX\_DATA {
+
+UINT cbSize;
+
+UINT nCmd;
+
+HEEDOC hDoc;
+
+LPARAM lParam;
+
+} INFO\_EX\_DATA;
 
 ## 欄位
 

@@ -2,15 +2,19 @@
 
 Used by [Editor\_CustomBarOpen](../macro/editor_custombaropen) inline function ( [EE\_CUSTOM\_BAR\_OPEN](../message/ee_custom_bar_open) message).
 
-```
-typedef struct _CUSTOM_BAR_INFO {
-	size_t cbSize;
-	HWND hwndCustomBar;
-	HWND hwndClient;
-	LPCTSTR pszTitle;
-	int iPos;
-} CUSTOM_BAR_INFO;
-```
+typedef struct \_CUSTOM\_BAR\_INFO {
+
+size\_t cbSize;
+
+HWND hwndCustomBar;
+
+HWND hwndClient;
+
+LPCTSTR pszTitle;
+
+int iPos;
+
+} CUSTOM\_BAR\_INFO;
 
 ## Members
 

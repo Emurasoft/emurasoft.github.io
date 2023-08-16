@@ -2,17 +2,23 @@
 
 [EE\_AUTOFILL](../message/ee_autofill) メッセージで使用します。
 
-```
-typedef struct _AUTOFILL_INFO {
-	UINT cbSize;
-	POINT_PTR ptSrcCellStart;
-	POINT_PTR ptSrcCellEnd;
-	POINT_PTR ptDestCellStart;
-	POINT_PTR ptDestCellEnd;
-	DWORD dwFlags;
-	INT64 nIncrement;
-} AUTOFILL_INFO;
-```
+typedef struct \_AUTOFILL\_INFO {
+
+UINT cbSize;
+
+POINT\_PTR ptSrcCellStart;
+
+POINT\_PTR ptSrcCellEnd;
+
+POINT\_PTR ptDestCellStart;
+
+POINT\_PTR ptDestCellEnd;
+
+DWORD dwFlags;
+
+INT64 nIncrement;
+
+} AUTOFILL\_INFO;
 
 ## フィールド
 

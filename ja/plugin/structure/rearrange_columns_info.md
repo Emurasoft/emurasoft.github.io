@@ -2,13 +2,15 @@
 
 [EE\_REARRANGE\_COLUMNS メッセージ](../message/ee_rearrange_columns) で使用します。
 
-```
-typedef struct _REARRANGE_COLUMNS_INFO {
-	UINT cbSize;
-	UINT nColumnArraySize;
-	const INT *piColumn;
-} REARRANGE_COLUMNS_INFO;
-```
+typedef struct \_REARRANGE\_COLUMNS\_INFO {
+
+UINT cbSize;
+
+UINT nColumnArraySize;
+
+const INT\* piColumn;
+
+} REARRANGE\_COLUMNS\_INFO;
 
 ## フィールド
 

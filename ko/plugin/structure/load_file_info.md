@@ -5,17 +5,23 @@
 인라인 함수 ( [EE\_LOAD\_FILEA](../message/ee_load_filea) 와
 [EE\_LOAD\_FILEW](../message/ee_load_filew) 메시지)에 의해 사용됩니다.
 
-```
-typedef struct _LOAD_FILE_INFO_EX {
-	UINT cbSize;
-	UINT nCP;
-	BOOL bDetectUnicode;
-	BOOL bDetectAll;
-	BOOL bDetectCharset;
-	BOOL bDetectUTF8;
-	UINT nFlags;
-} LOAD_FILE_INFO_EX;
-```
+typedef struct \_LOAD\_FILE\_INFO\_EX {
+
+UINT cbSize;
+
+UINT nCP;
+
+BOOL bDetectUnicode;
+
+BOOL bDetectAll;
+
+BOOL bDetectCharset;
+
+BOOL bDetectUTF8;
+
+UINT nFlags;
+
+} LOAD\_FILE\_INFO\_EX;
 
 ## 필드
 

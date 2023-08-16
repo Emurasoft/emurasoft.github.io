@@ -2,15 +2,19 @@
 
 用於 [EE\_CONVERT\_CSV](../message/ee_convert_csv) 消息。
 
-```
-typedef struct _CONVERT_CSV_INFO {
-	UINT cbSize;
-	int iDestMode;
-	UINT nFlags;
-	int nSepCount;
-	const int *pcxSepWidths;
-} CONVERT_CSV_INFO;
-```
+typedef struct \_CONVERT\_CSV\_INFO {
+
+UINT cbSize;
+
+int iDestMode;
+
+UINT nFlags;
+
+int nSepCount;
+
+const int\* pcxSepWidths;
+
+} CONVERT\_CSV\_INFO;
 
 ## 欄位
 

@@ -2,16 +2,21 @@
 
 [EE\_CONVERT\_EX メッセージ](../message/ee_convert_ex) で使用します。
 
-```
-typedef struct _CONVERT_INFO {
-	UINT cbSize;
-	UINT nFlags;
-	LPCWSTR pszCustomChars;
-	LPCWSTR pszSeparator;
-	LPCWSTR pszLocale;
-	UINT nSortFlags;
-} CONVERT_INFO;
-```
+typedef struct \_CONVERT\_INFO {
+
+UINT cbSize;
+
+UINT nFlags;
+
+LPCWSTR pszCustomChars;
+
+LPCWSTR pszSeparator;
+
+LPCWSTR pszLocale;
+
+UINT nSortFlags;
+
+} CONVERT\_INFO;
 
 ## フィールド
 

@@ -3,19 +3,27 @@
 [EE\_EDIT\_TEMP](../message/ee_edit_temp) 메시지와
 [EVENT\_TEMP\_SAVING 이벤트](../event/index) 에 의해 사용됩니다.
 
-```
-typedef struct _TEMP_INFO {
-	size_t cbSize;
-	LPCWSTR pszTempText;
-	LPCWSTR pszTitle;
-	LPCWSTR pszIconPath;
-	LPCWSTR pszConfig;
-	POINT_PTR ptInitialCaret;
-	UINT nID;
-	UINT nEncoding;
-	UINT nFlags;
-} TEMP_INFO;
-```
+typedef struct \_TEMP\_INFO {
+
+size\_t cbSize;
+
+LPCWSTR pszTempText;
+
+LPCWSTR pszTitle;
+
+LPCWSTR pszIconPath;
+
+LPCWSTR pszConfig;
+
+POINT\_PTR ptInitialCaret;
+
+UINT nID;
+
+UINT nEncoding;
+
+UINT nFlags;
+
+} TEMP\_INFO;
 
 ## 멤버
 

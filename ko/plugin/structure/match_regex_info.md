@@ -3,14 +3,17 @@
 [Editor\_MatchRegex 인라인 함수](../macro/editor_matchregex)
 ( [EE\_MATCH\_REGEX 메시지](../message/ee_match_regex))에 의해 사용됩니다.
 
-```
-typedef struct _MATCH_REGEX_INFO {
-	size_t cbSize; // sizeof( MATCH_REGEX_INFO )
-	UINT nFlags;
-	LPCWSTR pszRegex;
-	LPCWSTR pszText;
-} MATCH_REGEX_INFO;
-```
+typedef struct \_MATCH\_REGEX\_INFO {
+
+size\_t cbSize; // sizeof( MATCH\_REGEX\_INFO )
+
+UINT nFlags;
+
+LPCWSTR pszRegex;
+
+LPCWSTR pszText;
+
+} MATCH\_REGEX\_INFO;
 
 ## 멤버
 

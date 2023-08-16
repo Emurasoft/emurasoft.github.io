@@ -2,19 +2,27 @@
 
 [EE\_EDIT\_TEMP](../message/ee_edit_temp) メッセージ と [EVENT\_TEMP\_SAVING イベント](../event/index) で使用します。
 
-```
-typedef struct _TEMP_INFO {
-	size_t cbSize;
-	LPCWSTR pszTempText;
-	LPCWSTR pszTitle;
-	LPCWSTR pszIconPath;
-	LPCWSTR pszConfig;
-	POINT_PTR ptInitialCaret;
-	UINT nID;
-	UINT nEncoding;
-	UINT nFlags;
-} TEMP_INFO;
-```
+typedef struct \_TEMP\_INFO {
+
+size\_t cbSize;
+
+LPCWSTR pszTempText;
+
+LPCWSTR pszTitle;
+
+LPCWSTR pszIconPath;
+
+LPCWSTR pszConfig;
+
+POINT\_PTR ptInitialCaret;
+
+UINT nID;
+
+UINT nEncoding;
+
+UINT nFlags;
+
+} TEMP\_INFO;
 
 ## フィールド
 

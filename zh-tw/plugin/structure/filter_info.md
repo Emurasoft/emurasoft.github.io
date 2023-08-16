@@ -2,16 +2,21 @@
 
 用於 [EE\_FILTER](../message/ee_filter) 消息。
 
-```
-typedef struct _FILTER_INFO {
-	UINT cchSize;
-	UINT flags;
-	int iColumn;
-	LPCWSTR pszFilter;
-	INT_PTR xBegin;
-	INT_PTR xEnd;
-} FILTER_INFO;
-```
+typedef struct \_FILTER\_INFO {
+
+UINT     cchSize;
+
+UINT     flags;
+
+int      iColumn;
+
+LPCWSTR  pszFilter;
+
+INT\_PTR  xBegin;
+
+INT\_PTR  xEnd;
+
+} FILTER\_INFO;
 
 ## 欄位
 

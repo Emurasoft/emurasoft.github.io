@@ -3,16 +3,21 @@
 [EE\_FIND\_REPLACE \
 メッセージ](../message/ee_find_replace) で使用します。
 
-```
-typedef struct _FIND_REPLACE_INFO {
-	UINT cbSize;
-	UINT64 nFlags;
-	LPCWSTR pszFind;
-	LPCWSTR pszReplace;
-	UINT64 nCount;
-	UINT64 nMatchedLines;
-} FIND_REPLACE_INFO;
-```
+typedef struct \_FIND\_REPLACE\_INFO {
+
+UINT cbSize;
+
+UINT64 nFlags;
+
+LPCWSTR pszFind;
+
+LPCWSTR pszReplace;
+
+UINT64 nCount;
+
+UINT64 nMatchedLines;
+
+} FIND\_REPLACE\_INFO;
 
 ## フィールド
 

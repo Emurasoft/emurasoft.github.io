@@ -2,21 +2,31 @@
 
 [EE\_PIVOT\_TABLE メッセージ](../message/ee_pivot_table) で使用します。
 
-```
-typedef struct _PIVOT_TABLE_INFO {
-	UINT cbSize;
-	int iRow;
-	int iColumn;
-	int iValue;
-	UINT nFlags;
-	UINT nSortRow;
-	UINT nSortColumn;
-	int nDecimalPlaces;
-	LPCWSTR pszLocale;
-	LPCWSTR pszTotalRowLabel;
-	LPCWSTR pszTotalColLabel;
-} PIVOT_TABLE_INFO;
-```
+typedef struct \_PIVOT\_TABLE\_INFO {
+
+UINT cbSize;
+
+int iRow;
+
+int iColumn;
+
+int iValue;
+
+UINT nFlags;
+
+UINT nSortRow;
+
+UINT nSortColumn;
+
+int nDecimalPlaces;
+
+LPCWSTR pszLocale;
+
+LPCWSTR pszTotalRowLabel;
+
+LPCWSTR pszTotalColLabel;
+
+} PIVOT\_TABLE\_INFO;
 
 ## フィールド
 

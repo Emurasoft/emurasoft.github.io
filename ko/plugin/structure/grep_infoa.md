@@ -6,18 +6,25 @@
 메시지](../message/ee_find_in_filesa), [EE\_REPLACE\_IN\_FILESA \
 메시지](../message/ee_replace_in_filesa))에 의해 사용됩니다.
 
-```
-typedef struct _GREP_INFOA {
-	UINT cbSize;
-	UINT nCP;
-	UINT nFlags;
-	LPCSTR pszFind;
-	LPCSTR pszReplace;
-	LPCSTR pszPath;
-	LPCSTR pszBackupPath;
-	LPCSTR pszFilesToIgnore;
-} GREP_INFOA;
-```
+typedef struct \_GREP\_INFOA {
+
+UINT cbSize;
+
+UINT nCP;
+
+UINT nFlags;
+
+LPCSTR pszFind;
+
+LPCSTR pszReplace;
+
+LPCSTR pszPath;
+
+LPCSTR pszBackupPath;
+
+LPCSTR pszFilesToIgnore;
+
+} GREP\_INFOA;
 
 ## 필드
 

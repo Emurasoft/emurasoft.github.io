@@ -4,20 +4,29 @@
 [Editor\_BatchReplaceInFiles](../macro/editor_batchreplaceinfiles) 內嵌函式 ( [EE\_FIND\_IN\_FILESW](../message/ee_find_in_filesw) 和 [EE\_REPLACE\_IN\_FILESW \
 消息](../message/ee_replace_in_filesw)) 。
 
-```
-typedef struct _BATCH_GREP_INFO {
-	UINT cbSize; // sizeof( BATCH_GREP_INFO )
-	UINT nBatchCount;
-	UINT64 nBatchFlags;
-	UINT64 nTotalCount;
-	LPCWSTR pszPath;
-	LPCWSTR pszBackupPath;
-	LPCWSTR pszFilesToIgnore;
-	UINT nCP;
-	UINT nLimit;
-	HRESULT hr;
-} BATCH_GREP_INFO;
-```
+typedef struct \_BATCH\_GREP\_INFO {
+
+UINT cbSize; // sizeof( BATCH\_GREP\_INFO )
+
+UINT nBatchCount;
+
+UINT64 nBatchFlags;
+
+UINT64 nTotalCount;
+
+LPCWSTR pszPath;
+
+LPCWSTR pszBackupPath;
+
+LPCWSTR pszFilesToIgnore;
+
+UINT nCP;
+
+UINT nLimit;
+
+HRESULT hr;
+
+} BATCH\_GREP\_INFO;
 
 ## 欄位
 

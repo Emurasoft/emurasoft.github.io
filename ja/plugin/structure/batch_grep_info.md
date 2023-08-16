@@ -3,20 +3,29 @@
 [Editor\_BatchFindInFiles インライン関数](../macro/editor_batchfindinfiles)、 [Editor\_BatchReplaceInFiles インライン関数](../macro/editor_batchreplaceinfiles) ( [EE\_FIND\_IN\_FILESW \
 メッセージ](../message/ee_find_in_filesw)、 [EE\_REPLACE\_IN\_FILESW メッセージ](../message/ee_replace_in_filesw)) で使用します。
 
-```
-typedef struct _BATCH_GREP_INFO {
-	UINT cbSize; // sizeof( BATCH_GREP_INFO )
-	UINT nBatchCount;
-	UINT64 nBatchFlags;
-	UINT64 nTotalCount;
-	LPCWSTR pszPath;
-	LPCWSTR pszBackupPath;
-	LPCWSTR pszFilesToIgnore;
-	UINT nCP;
-	UINT nLimit;
-	HRESULT hr;
-} BATCH_GREP_INFO;
-```
+typedef struct \_BATCH\_GREP\_INFO {
+
+UINT cbSize; // sizeof( BATCH\_GREP\_INFO )
+
+UINT nBatchCount;
+
+UINT64 nBatchFlags;
+
+UINT64 nTotalCount;
+
+LPCWSTR pszPath;
+
+LPCWSTR pszBackupPath;
+
+LPCWSTR pszFilesToIgnore;
+
+UINT nCP;
+
+UINT nLimit;
+
+HRESULT hr;
+
+} BATCH\_GREP\_INFO;
 
 ## フィールド
 

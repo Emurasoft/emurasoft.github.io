@@ -2,19 +2,27 @@
 
 用於 [EE\_FILTER](../message/ee_filter) 和 [EE\_GET\_FILTER](../message/ee_get_filter) 消息。
 
-```
-typedef struct _FILTER_INFO_EX {
-	UINT cbSize;
-	UINT64 flags;
-	int iColumn;
-	LPCWSTR pszFilter;
-	INT_PTR xBegin;
-	INT_PTR xEnd;
-	UINT cchFilter;
-	int nVisibleLinesAbove;
-	int nVisibleLinesBelow;
-} FILTER_INFO_EX;
-```
+typedef struct \_FILTER\_INFO\_EX {
+
+UINT     cbSize;
+
+UINT64   flags;
+
+int      iColumn;
+
+LPCWSTR  pszFilter;
+
+INT\_PTR  xBegin;
+
+INT\_PTR  xEnd;
+
+UINT     cchFilter;
+
+int      nVisibleLinesAbove;
+
+int      nVisibleLinesBelow;
+
+} FILTER\_INFO\_EX;
 
 ## 欄位
 

@@ -2,24 +2,37 @@
 
 Used by [Editor\_FindRegex inline function](../macro/editor_findregex) ( [EE\_FIND\_REGEX message](../message/ee_find_regex)).
 
-```
-typedef struct _FIND_REGEX_INFO_EX {
-	size_t cbSize; // sizeof( FIND_REGEX_INFO_EX )
-	UINT64 nFlags;
-	LPCWSTR pszRegex;
-	LPCWSTR pszText;
-	LPCWSTR *ppszStart;
-	LPCWSTR *ppszEnd;
-	LPCWSTR *ppszNext;
-	LPCWSTR pszReplace;
-	LPWSTR pszResult;
-	UINT cchResult;
-	LPCWSTR pszStartAt;
-	UINT nBackRefResult;
-	UINT nBackRefBuf;
-	BACK_REF BackRef[MAX_BACK_REF];
-} FIND_REGEX_INFO_EX;
-```
+typedef struct \_FIND\_REGEX\_INFO\_EX {
+
+size\_t cbSize; // sizeof( FIND\_REGEX\_INFO\_EX )
+
+UINT64 nFlags;
+
+LPCWSTR pszRegex;
+
+LPCWSTR pszText;
+
+LPCWSTR\* ppszStart;
+
+LPCWSTR\* ppszEnd;
+
+LPCWSTR\* ppszNext;
+
+LPCWSTR pszReplace;
+
+LPWSTR pszResult;
+
+UINT cchResult;
+
+LPCWSTR pszStartAt;
+
+UINT nBackRefResult;
+
+UINT nBackRefBuf;
+
+BACK\_REF BackRef\[MAX\_BACK\_REF\];
+
+} FIND\_REGEX\_INFO\_EX;
 
 ## Members
 

@@ -2,15 +2,19 @@
 
 用於 [EE\_NUMBERING 消息](../message/ee_numbering)。
 
-```
-typedef struct _NUMBERING_INFO {
-	UINT cbSize;
-	UINT nFlags;
-	LPCWSTR pszFirst;
-	LPCWSTR pszInc;
-	INT64 nMaxLines;
-} NUMBERING_INFO;
-```
+typedef struct \_NUMBERING\_INFO {
+
+UINT cbSize;
+
+UINT nFlags;
+
+LPCWSTR pszFirst;
+
+LPCWSTR pszInc;
+
+INT64 nMaxLines;
+
+} NUMBERING\_INFO;
 
 ## 欄位
 

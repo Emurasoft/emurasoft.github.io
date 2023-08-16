@@ -2,16 +2,21 @@
 
 用於 [EE\_CLIP\_HISTORY](../message/ee_clip_history) 消息。
 
-```
-typedef struct _CLIP_INFO {
-	size_t cbSize;
-	LPWSTR pszBuf;
-	UINT cchBuf;
-	UINT iPos;
-	UINT nAction;
-	UINT nFlags;
-} CLIP_INFO;
-```
+typedef struct \_CLIP\_INFO {
+
+size\_t cbSize;
+
+LPWSTR pszBuf;
+
+UINT cchBuf;
+
+UINT iPos;
+
+UINT nAction;
+
+UINT nFlags;
+
+} CLIP\_INFO;
 
 ## 構成
 

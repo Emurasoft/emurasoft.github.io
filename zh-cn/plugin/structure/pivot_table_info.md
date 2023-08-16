@@ -2,21 +2,31 @@
 
 用于 [EE\_PIVOT\_TABLE](../message/ee_pivot_table) 消息。
 
-```
-typedef struct _PIVOT_TABLE_INFO {
-	UINT cbSize;
-	int iRow;
-	int iColumn;
-	int iValue;
-	UINT nFlags;
-	UINT nSortRow;
-	UINT nSortColumn;
-	int nDecimalPlaces;
-	LPCWSTR pszLocale;
-	LPCWSTR pszTotalRowLabel;
-	LPCWSTR pszTotalColLabel;
-} PIVOT_TABLE_INFO;
-```
+typedef struct \_PIVOT\_TABLE\_INFO {
+
+UINT cbSize;
+
+int iRow;
+
+int iColumn;
+
+int iValue;
+
+UINT nFlags;
+
+UINT nSortRow;
+
+UINT nSortColumn;
+
+int nDecimalPlaces;
+
+LPCWSTR pszLocale;
+
+LPCWSTR pszTotalRowLabel;
+
+LPCWSTR pszTotalColLabel;
+
+} PIVOT\_TABLE\_INFO;
 
 ## 字段
 

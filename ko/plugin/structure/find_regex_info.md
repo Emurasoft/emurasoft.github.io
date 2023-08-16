@@ -3,20 +3,29 @@
 [Editor\_FindRegex 인라인 함수](../macro/editor_findregex)
 ( [EE\_FIND\_REGEX 메시지](../message/ee_find_regex))에 의해 사용됩니다.
 
-```
-typedef struct _FIND_REGEX_INFO {
-	size_t cbSize; // sizeof( FIND_REGEX_INFO )
-	UINT nFlags;
-	LPCWSTR pszRegex;
-	LPCWSTR pszText;
-	LPCWSTR *ppszStart;
-	LPCWSTR *ppszEnd;
-	LPCWSTR *ppszNext;
-	LPCWSTR pszReplace; // new v9
-	LPWSTR pszResult; // new v9
-	UINT cchResult; // new v9
-} FIND_REGEX_INFO;
-```
+typedef struct \_FIND\_REGEX\_INFO {
+
+size\_t cbSize; // sizeof( FIND\_REGEX\_INFO )
+
+UINT nFlags;
+
+LPCWSTR pszRegex;
+
+LPCWSTR pszText;
+
+LPCWSTR\* ppszStart;
+
+LPCWSTR\* ppszEnd;
+
+LPCWSTR\* ppszNext;
+
+LPCWSTR pszReplace; // new v9
+
+LPWSTR pszResult; // new v9
+
+UINT cchResult; // new v9
+
+} FIND\_REGEX\_INFO;
 
 ## 멤버
 

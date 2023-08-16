@@ -2,13 +2,15 @@
 
 Used by [EVENT\_CUSTOM\_BAR\_CLOSED event](../event/index).
 
-```
-typedef struct _CUSTOM_BAR_CLOSE_INFO {
-	UINT nID;
-	int iPos;
-	DWORD dwFlags;
-} CUSTOM_BAR_CLOSE_INFO;
-```
+typedef struct \_CUSTOM\_BAR\_CLOSE\_INFO {
+
+UINT nID;
+
+int iPos;
+
+DWORD dwFlags;
+
+} CUSTOM\_BAR\_CLOSE\_INFO;
 
 ## Members
 

@@ -3,15 +3,19 @@
 [EE\_SET\_OUTILNE\_ARRAY](../message/ee_set_outline_array) メッセージ ( [Editor\_SetOutlineArray](../macro/editor_setoutlinearray)
 インライン関数) で使用します。
 
-```
-typedef struct _OUTLINE_ARRAY_INFO {
-	int nVersion;
-	UINT nFlags;
-	INT_PTR nStartLine;
-	INT_PTR nCount;
-	BYTE *pLevelData;
-} SET_INFO;
-```
+typedef struct \_OUTLINE\_ARRAY\_INFO {
+
+int nVersion;
+
+UINT nFlags;
+
+INT\_PTR nStartLine;
+
+INT\_PTR nCount;
+
+BYTE\* pLevelData;
+
+} SET\_INFO;
 
 ## フィールド
 

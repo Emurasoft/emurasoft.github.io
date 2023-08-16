@@ -3,16 +3,21 @@
 Used by
 [EE\_UNPIVOT](../message/ee_unpivot) message.
 
-```
-typedef struct _UNPIVOT_INFO {
-	UINT cbSize;
-	UINT nFlags;
-	LPCWSTR pszSelect;
-	LPCWSTR pszAttrLabel;
-	LPCWSTR pszValueLabel;
-	int nFooter;
-} UNPIVOT_INFO;
-```
+typedef struct \_UNPIVOT\_INFO {
+
+UINT cbSize;
+
+UINT nFlags;
+
+LPCWSTR pszSelect;
+
+LPCWSTR pszAttrLabel;
+
+LPCWSTR pszValueLabel;
+
+int nFooter;
+
+} UNPIVOT\_INFO;
 
 ## Fields
 

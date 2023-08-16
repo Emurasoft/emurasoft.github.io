@@ -4,14 +4,17 @@
 [Editor\_GetMultiSel](../macro/editor_getmultisel)
 內嵌函式 ( [EE\_GET\_MULTI\_SEL](../../plugin/message/ee_get_multi_sel) 消息)。
 
-```
-typedef struct _SEL_INFO {
-	size_t cbSize;
-	POINT_PTR ptStart;
-	POINT_PTR ptEnd;
-	POINT_PTR ptCaret;
-} SET_INFO;
-```
+typedef struct \_SEL\_INFO {
+
+size\_t cbSize;
+
+POINT\_PTR ptStart;
+
+POINT\_PTR ptEnd;
+
+POINT\_PTR ptCaret;
+
+} SET\_INFO;
 
 ## 欄位
 

@@ -2,19 +2,27 @@
 
 [EE\_RUN\_MACRO](../message/ee_run_macro) 메시지에 의해 사용됩니다.
 
-```
-typedef struct _RUN_MACRO_INFO {
-	size_t cbSize;
-	LPCWSTR pszMacroFile;
-	LPCWSTR pszText;
-	UINT nFlags;
-	int nDefMacroLang;
-	POINT_PTR ptOrgPos;
-	POINT_PTR ptCodePos;
-	POINT_PTR ptErrorPos;
-	HGLOBAL hstrResult;
-} RUN_MACRO_INFO;
-```
+typedef struct \_RUN\_MACRO\_INFO {
+
+size\_t cbSize;
+
+LPCWSTR pszMacroFile;
+
+LPCWSTR pszText;
+
+UINT nFlags;
+
+int nDefMacroLang;
+
+POINT\_PTR ptOrgPos;
+
+POINT\_PTR ptCodePos;
+
+POINT\_PTR ptErrorPos;
+
+HGLOBAL hstrResult;
+
+} RUN\_MACRO\_INFO;
 
 ## 멤버
 

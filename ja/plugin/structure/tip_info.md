@@ -2,15 +2,19 @@
 
 [EE\_SHOW\_TIP](../message/ee_show_tip) メッセージで使用します。
 
-```
-typedef struct _TIP_INFO {
-	UINT cbSize;
-	LPCWSTR pszTip;
-	POINT_PTR ptCaret;
-	POINT ptDev;
-	UINT nFlags;
-} TIP_INFO;
-```
+typedef struct \_TIP\_INFO {
+
+UINT cbSize;
+
+LPCWSTR pszTip;
+
+POINT\_PTR ptCaret;
+
+POINT ptDev;
+
+UINT nFlags;
+
+} TIP\_INFO;
 
 ## フィールド
 
