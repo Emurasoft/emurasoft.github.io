@@ -43,7 +43,7 @@ func getWalkFunc() fs.WalkDirFunc {
 			"\u00a0", " ",
 		).Replace(codeBlock)
 
-		command := exec.Command("clang-format", "--style={BasedOnStyle: LLVM, UseTab: ForIndentation, IndentWidth: 4, TabWidth: 4, AlignTrailingComments: false}")
+		command := exec.Command("clang-format", "--style={BasedOnStyle: LLVM, UseTab: ForIndentation, IndentWidth: 4, TabWidth: 4, AlignTrailingComments: false, PointerAlignment: Left}")
 		command.Stdin = strings.NewReader(codeBlock)
 		formatted, err := command.Output()
 		if err != nil {
