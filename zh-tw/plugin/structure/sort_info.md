@@ -2,21 +2,16 @@
 
 用於 [EE\_SORT](../message/ee_sort) 消息。
 
-typedef struct \_SORT\_INFO {
-
-UINT nVer;
-
-UINT nFlags;
-
-LPCWSTR pszLocale;
-
-BOOL bModified;
-
-int nNumOfColumns;
-
-COLUMN\_INFO\* anColumns;
-
-} SORT\_INFO;
+```
+typedef struct _SORT_INFO {
+	UINT nVer;
+	UINT nFlags;
+	LPCWSTR pszLocale;
+	BOOL bModified;
+	int nNumOfColumns;
+	COLUMN_INFO* anColumns;
+} SORT_INFO;
+```
 
 ## 欄位
 

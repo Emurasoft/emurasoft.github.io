@@ -2,19 +2,15 @@
 
 [EE\_NUMBERING メッセージ](../message/ee_numbering) で使用します。
 
-typedef struct \_NUMBERING\_INFO {
-
-UINT cbSize;
-
-UINT nFlags;
-
-LPCWSTR pszFirst;
-
-LPCWSTR pszInc;
-
-INT64 nMaxLines;
-
-} NUMBERING\_INFO;
+```
+typedef struct _NUMBERING_INFO {
+	UINT cbSize;
+	UINT nFlags;
+	LPCWSTR pszFirst;
+	LPCWSTR pszInc;
+	INT64 nMaxLines;
+} NUMBERING_INFO;
+```
 
 ## フィールド
 

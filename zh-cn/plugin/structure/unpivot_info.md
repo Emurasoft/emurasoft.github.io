@@ -2,21 +2,16 @@
 
 用于 [EE\_UNPIVOT](../message/ee_unpivot) 消息中。
 
-typedef struct \_UNPIVOT\_INFO {
-
-UINT cbSize;
-
-UINT nFlags;
-
-LPCWSTR pszSelect;
-
-LPCWSTR pszAttrLabel;
-
-LPCWSTR pszValueLabel;
-
-int nFooter;
-
-} UNPIVOT\_INFO;
+```
+typedef struct _UNPIVOT_INFO {
+	UINT cbSize;
+	UINT nFlags;
+	LPCWSTR pszSelect;
+	LPCWSTR pszAttrLabel;
+	LPCWSTR pszValueLabel;
+	int nFooter;
+} UNPIVOT_INFO;
+```
 
 ## 字段
 

@@ -5,25 +5,18 @@ Used by [Editor\_FindInFilesW macro](../macro/editor_findinfilesw),
 message](../message/ee_find_in_filesw), [EE\_REPLACE\_IN\_FILESW \
 message](../message/ee_replace_in_filesw)). This structure is obsolete. Newer plug-ins should use the [GREP\_INFO\_EX structure](grep_info_ex) instead.
 
-typedef struct \_GREP\_INFOW {
-
-UINT cbSize;
-
-UINT nCP;
-
-UINT nFlags;
-
-LPCWSTR pszFind;
-
-LPCWSTR pszReplace;
-
-LPCWSTR pszPath;
-
-LPCWSTR pszBackupPath;
-
-LPCWSTR pszFilesToIgnore;
-
-} GREP\_INFOW;
+```
+typedef struct _GREP_INFOW {
+	UINT cbSize;
+	UINT nCP;
+	UINT nFlags;
+	LPCWSTR pszFind;
+	LPCWSTR pszReplace;
+	LPCWSTR pszPath;
+	LPCWSTR pszBackupPath;
+	LPCWSTR pszFilesToIgnore;
+} GREP_INFOW;
+```
 
 ## Fields
 

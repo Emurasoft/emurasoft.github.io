@@ -2,21 +2,16 @@
 
 用於 [EE\_EXEC\_PLUGIN](../message/ee_exec_plugin) 消息。
 
-typedef struct \_EXEC\_PLUGIN\_INFO {
-
-UINT cbSize;
-
-LONG nFlags;
-
-LPCWSTR pszName;
-
-WPARAM wParam;
-
-LPARAM lParam;
-
-LONG\_PTR nResult;
-
-} EXEC\_PLUGIN\_INFO;
+```
+typedef struct _EXEC_PLUGIN_INFO {
+	UINT cbSize;
+	LONG nFlags;
+	LPCWSTR pszName;
+	WPARAM wParam;
+	LPARAM lParam;
+	LONG_PTR nResult;
+} EXEC_PLUGIN_INFO;
+```
 
 ## 字段
 

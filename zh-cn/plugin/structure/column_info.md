@@ -2,13 +2,12 @@
 
 用于 [SORT\_INFO 结构](sort_info)。
 
-typedef struct \_COLUMN\_INFO {
-
-int iCol;
-
-UINT nFlags;
-
-} COLUMN\_INFO;
+```
+typedef struct _COLUMN_INFO {
+	int iCol;
+	UINT nFlags;
+} COLUMN_INFO;
+```
 
 ## 字段
 

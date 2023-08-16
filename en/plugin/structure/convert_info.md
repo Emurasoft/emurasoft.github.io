@@ -3,21 +3,16 @@
 Used by
 [EE\_CONVERT\_EX](../message/ee_convert_ex) message.
 
-typedef struct \_CONVERT\_INFO {
-
-UINT cbSize;
-
-UINT nFlags;
-
-LPCWSTR pszCustomChars;
-
-LPCWSTR pszSeparator;
-
-LPCWSTR pszLocale;
-
-UINT nSortFlags;
-
-} CONVERT\_INFO;
+```
+typedef struct _CONVERT_INFO {
+	UINT cbSize;
+	UINT nFlags;
+	LPCWSTR pszCustomChars;
+	LPCWSTR pszSeparator;
+	LPCWSTR pszLocale;
+	UINT nSortFlags;
+} CONVERT_INFO;
+```
 
 ## Fields
 

@@ -2,26 +2,19 @@
 
 Used by [EE\_JOIN](../message/ee_join) message.
 
-typedef struct \_JOIN\_INFO {
-
-UINT cbSize;
-
-UINT flags;
-
-LPCWSTR pszDocument1;
-
-LPCWSTR
-pszDocument2;
-
-LPCWSTR pszColumn1;
-
-LPCWSTR pszColumn2;
-
-LPCWSTR pszSelect;
-
-UINT iDocument3;
-
-} JOIN\_INFO;
+```
+typedef struct _JOIN_INFO {
+	UINT cbSize;
+	UINT flags;
+	LPCWSTR pszDocument1;
+	LPCWSTR
+	pszDocument2;
+	LPCWSTR pszColumn1;
+	LPCWSTR pszColumn2;
+	LPCWSTR pszSelect;
+	UINT iDocument3;
+} JOIN_INFO;
+```
 
 ## Fields
 

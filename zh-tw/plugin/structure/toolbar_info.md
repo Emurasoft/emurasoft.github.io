@@ -2,37 +2,24 @@
 
 用於 [Editor\_ToolbarOpen 內嵌函式](../macro/editor_toolbaropen) ( [EE\_TOOLBAR\_OPEN 消息](../message/ee_toolbar_open)) 以及與自訂工具列相關的事件中。
 
-typedef struct \_TOOLBAR\_INFO {
-
-size\_t cbSize;
-
-HWND hwndRebar;
-
-HWND hwndClient;
-
-LPCTSTR pszTitle;
-
-UINT nMask;
-
-UINT nID;
-
-UINT nFlags;
-
-UINT fStyle;
-
-UINT cxMinChild;
-
-UINT cyMinChild;
-
-UINT cx;
-
-UINT cxIdeal;
-
-UINT nBand;
-
-WORD wPlugInCmdID;
-
-} TOOLBAR\_INFO;
+```
+typedef struct _TOOLBAR_INFO {
+	size_t cbSize;
+	HWND hwndRebar;
+	HWND hwndClient;
+	LPCTSTR pszTitle;
+	UINT nMask;
+	UINT nID;
+	UINT nFlags;
+	UINT fStyle;
+	UINT cxMinChild;
+	UINT cyMinChild;
+	UINT cx;
+	UINT cxIdeal;
+	UINT nBand;
+	WORD wPlugInCmdID;
+} TOOLBAR_INFO;
+```
 
 ## 構成
 

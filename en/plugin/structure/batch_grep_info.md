@@ -4,29 +4,20 @@ Used by [Editor\_BatchFindInFiles](../macro/editor_batchfindinfiles) and
 [Editor\_BatchReplaceInFiles](../macro/editor_batchreplaceinfiles) inline functions ( [EE\_FIND\_IN\_FILESW](../message/ee_find_in_filesw) and [EE\_REPLACE\_IN\_FILESW \
 message](../message/ee_replace_in_filesw) s).
 
-typedef struct \_BATCH\_GREP\_INFO {
-
-UINT cbSize; // sizeof( BATCH\_GREP\_INFO )
-
-UINT nBatchCount;
-
-UINT64 nBatchFlags;
-
-UINT64 nTotalCount;
-
-LPCWSTR pszPath;
-
-LPCWSTR pszBackupPath;
-
-LPCWSTR pszFilesToIgnore;
-
-UINT nCP;
-
-UINT nLimit;
-
-HRESULT hr;
-
-} BATCH\_GREP\_INFO;
+```
+typedef struct _BATCH_GREP_INFO {
+	UINT cbSize; // sizeof( BATCH_GREP_INFO )
+	UINT nBatchCount;
+	UINT64 nBatchFlags;
+	UINT64 nTotalCount;
+	LPCWSTR pszPath;
+	LPCWSTR pszBackupPath;
+	LPCWSTR pszFilesToIgnore;
+	UINT nCP;
+	UINT nLimit;
+	HRESULT hr;
+} BATCH_GREP_INFO;
+```
 
 ## Fields
 

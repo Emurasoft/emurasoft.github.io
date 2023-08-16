@@ -2,17 +2,14 @@
 
 用于 [EE\_GET\_ACTIVE\_STRING](../message/ee_get_active_string) 消息。
 
-typedef struct \_ACTIVE\_STRING\_INFO {
-
-UINT cbSize;
-
-LPWSTR pBuf;
-
-UINT cchBuf;
-
-UINT nFlags;
-
-} ACTIVE\_STRING\_INFO;
+```
+typedef struct _ACTIVE_STRING_INFO {
+	UINT cbSize;
+	LPWSTR pBuf;
+	UINT cchBuf;
+	UINT nFlags;
+} ACTIVE_STRING_INFO;
+```
 
 ## 成员
 

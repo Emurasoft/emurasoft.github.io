@@ -2,21 +2,16 @@
 
 Used by [EE\_CLIP\_HISTORY](../message/ee_clip_history) message.
 
-typedef struct \_CLIP\_INFO {
-
-size\_t cbSize;
-
-LPWSTR pszBuf;
-
-UINT cchBuf;
-
-UINT iPos;
-
-UINT nAction;
-
-UINT nFlags;
-
-} CLIP\_INFO;
+```
+typedef struct _CLIP_INFO {
+	size_t cbSize;
+	LPWSTR pszBuf;
+	UINT cchBuf;
+	UINT iPos;
+	UINT nAction;
+	UINT nFlags;
+} CLIP_INFO;
+```
 
 ## Members
 

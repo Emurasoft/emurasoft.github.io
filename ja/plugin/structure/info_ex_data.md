@@ -2,17 +2,14 @@
 
 [EE\_INFO\_EX メッセージ](../message/ee_info_ex) で使用します。
 
-typedef struct \_INFO\_EX\_DATA {
-
-UINT cbSize;
-
-UINT nCmd;
-
-HEEDOC hDoc;
-
-LPARAM lParam;
-
-} INFO\_EX\_DATA;
+```
+typedef struct _INFO_EX_DATA {
+	UINT cbSize;
+	UINT nCmd;
+	HEEDOC hDoc;
+	LPARAM lParam;
+} INFO_EX_DATA;
+```
 
 ## フィールド
 

@@ -2,25 +2,18 @@
 
 [EE\_REG\_SET\_VALUE メッセージ](../message/ee_reg_set_value) で使用します。
 
-typedef struct \_REG\_SET\_VALUE\_INFO {
-
-size\_t cbSize;
-
-DWORD dwKey;
-
-LPCWSTR pszConfig;
-
-LPCWSTR pszValue;
-
-DWORD dwType;
-
-const BYTE\* lpData;
-
-DWORD cbData;
-
-DWORD dwFlags;
-
-} REG\_SET\_VALUE\_INFO;
+```
+typedef struct _REG_SET_VALUE_INFO {
+	size_t cbSize;
+	DWORD dwKey;
+	LPCWSTR pszConfig;
+	LPCWSTR pszValue;
+	DWORD dwType;
+	const BYTE* lpData;
+	DWORD cbData;
+	DWORD dwFlags;
+} REG_SET_VALUE_INFO;
+```
 
 ## フィールド
 

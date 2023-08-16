@@ -3,19 +3,15 @@
 Used by
 [EE\_CONVERT\_CSV](../message/ee_convert_csv) message.
 
-typedef struct \_CONVERT\_CSV\_INFO {
-
-UINT cbSize;
-
-int iDestMode;
-
-UINT nFlags;
-
-int nSepCount;
-
-const int\* pcxSepWidths;
-
-} CONVERT\_CSV\_INFO;
+```
+typedef struct _CONVERT_CSV_INFO {
+	UINT cbSize;
+	int iDestMode;
+	UINT nFlags;
+	int nSepCount;
+	const int* pcxSepWidths;
+} CONVERT_CSV_INFO;
+```
 
 ## Fields
 

@@ -2,27 +2,19 @@
 
 Used by [EE\_FILTER](../message/ee_filter) and [EE\_GET\_FILTER](../message/ee_get_filter) messages.
 
-typedef struct \_FILTER\_INFO\_EX {
-
-UINT     cbSize;
-
-UINT64   flags;
-
-int      iColumn;
-
-LPCWSTR  pszFilter;
-
-INT\_PTR  xBegin;
-
-INT\_PTR  xEnd;
-
-UINT     cchFilter;
-
-int      nVisibleLinesAbove;
-
-int      nVisibleLinesBelow;
-
-} FILTER\_INFO\_EX;
+```
+typedef struct _FILTER_INFO_EX {
+	UINT cbSize;
+	UINT64 flags;
+	int iColumn;
+	LPCWSTR pszFilter;
+	INT_PTR xBegin;
+	INT_PTR xEnd;
+	UINT cchFilter;
+	int nVisibleLinesAbove;
+	int nVisibleLinesBelow;
+} FILTER_INFO_EX;
+```
 
 ## Fields
 

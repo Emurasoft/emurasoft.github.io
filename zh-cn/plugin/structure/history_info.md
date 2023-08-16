@@ -2,21 +2,16 @@
 
 用于 [EVENT\_HISTORY 时间](../event/index) 中。
 
-typedef struct \_HISTORY\_INFO {
-
-size\_t cbSize;
-
-UINT nFlags;
-
-POINT\_PTR ptTop;
-
-POINT\_PTR ptBottom;
-
-UINT nChar;
-
-LPCWSTR pszString;
-
-} HISTORY\_INFO;
+```
+typedef struct _HISTORY_INFO {
+	size_t cbSize;
+	UINT nFlags;
+	POINT_PTR ptTop;
+	POINT_PTR ptBottom;
+	UINT nChar;
+	LPCWSTR pszString;
+} HISTORY_INFO;
+```
 
 ## 成员
 
