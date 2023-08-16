@@ -2,19 +2,15 @@
 
 用于 [EE\_QUERY\_STRING\_EX 消息](../message/ee_query_string_ex) 中。
 
-typedef struct \_QUERY\_STRING\_INFO {
-
-UINT cbSize;
-
-UINT nCmdID;
-
-UINT nFlags;
-
-UINT cchBuf;
-
-LPWSTR pBuf;
-
-} QUERY\_STRING\_INFO;
+```
+typedef struct _QUERY_STRING_INFO {
+	UINT cbSize;
+	UINT nCmdID;
+	UINT nFlags;
+	UINT cchBuf;
+	LPWSTR pBuf;
+} QUERY_STRING_INFO;
+```
 
 ## 成员
 

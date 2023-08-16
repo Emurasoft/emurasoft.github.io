@@ -4,19 +4,15 @@ Used by
 [Editor\_SetOutlineArray](../macro/editor_setoutlinearray)
 inline function ( [EE\_SET\_OUTLINE\_ARRAY](../message/ee_set_outline_array) message).
 
-typedef struct \_OUTLINE\_ARRAY\_INFO {
-
-int nVersion;
-
-UINT nFlags;
-
-INT\_PTR nStartLine;
-
-INT\_PTR nCount;
-
-BYTE\* pLevelData;
-
-} SET\_INFO;
+```
+typedef struct _OUTLINE_ARRAY_INFO {
+	int nVersion;
+	UINT nFlags;
+	INT_PTR nStartLine;
+	INT_PTR nCount;
+	BYTE* pLevelData;
+} SET_INFO;
+```
 
 ## Fields
 

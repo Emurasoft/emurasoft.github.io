@@ -6,25 +6,18 @@
 메시지](../message/ee_find_in_filesw), [EE\_REPLACE\_IN\_FILESW \
 메시지](../message/ee_replace_in_filesw))에 의해 사용됩니다.
 
-typedef struct \_GREP\_INFOW {
-
-UINT cbSize;
-
-UINT nCP;
-
-UINT nFlags;
-
-LPCWSTR pszFind;
-
-LPCWSTR pszReplace;
-
-LPCWSTR pszPath;
-
-LPCWSTR pszBackupPath;
-
-LPCWSTR pszFilesToIgnore;
-
-} GREP\_INFOW;
+```
+typedef struct _GREP_INFOW {
+	UINT cbSize;
+	UINT nCP;
+	UINT nFlags;
+	LPCWSTR pszFind;
+	LPCWSTR pszReplace;
+	LPCWSTR pszPath;
+	LPCWSTR pszBackupPath;
+	LPCWSTR pszFilesToIgnore;
+} GREP_INFOW;
+```
 
 ## 필드
 

@@ -5,25 +5,18 @@
 消息](../message/ee_find_in_filesw)， [EE\_REPLACE\_IN\_FILESW \
 消息](../message/ee_replace_in_filesw))。
 
-typedef struct \_GREP\_INFOW {
-
-UINT cbSize;
-
-UINT nCP;
-
-UINT nFlags;
-
-LPCWSTR pszFind;
-
-LPCWSTR pszReplace;
-
-LPCWSTR pszPath;
-
-LPCWSTR pszBackupPath;
-
-LPCWSTR pszFilesToIgnore;
-
-} GREP\_INFOW;
+```
+typedef struct _GREP_INFOW {
+	UINT cbSize;
+	UINT nCP;
+	UINT nFlags;
+	LPCWSTR pszFind;
+	LPCWSTR pszReplace;
+	LPCWSTR pszPath;
+	LPCWSTR pszBackupPath;
+	LPCWSTR pszFilesToIgnore;
+} GREP_INFOW;
+```
 
 ## Fields
 

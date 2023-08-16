@@ -2,21 +2,16 @@
 
 [EE\_EXTRACT\_FREQUENT メッセージ](../message/ee_extract_frequent) で使用します。
 
-typedef struct \_EXTRACT\_FREQUENT\_INFO {
-
-UINT cbSize;
-
-UINT nType;
-
-UINT nNumOfLines;
-
-UINT iCsvFormat;
-
-UINT64 nFlags;
-
-LPCWSTR pszIgnore;
-
-} EXTRACT\_FREQUENT\_INFO;
+```
+typedef struct _EXTRACT_FREQUENT_INFO {
+	UINT cbSize;
+	UINT nType;
+	UINT nNumOfLines;
+	UINT iCsvFormat;
+	UINT64 nFlags;
+	LPCWSTR pszIgnore;
+} EXTRACT_FREQUENT_INFO;
+```
 
 ## フィールド
 

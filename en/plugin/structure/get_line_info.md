@@ -5,19 +5,15 @@ and [Editor\_GetLineW](../macro/editor_getlinew)
 inline functions ( [EE\_GET\_LINEA](../message/ee_get_linea) and
 [EE\_GET\_LINEW](../message/ee_get_linew) messages).
 
-typedef struct \_GET\_LINE\_INFO {
-
-UINT cch;
-
-UINT flags;
-
-UINT yLine;
-
-BYTE byteCrLf;
-
-HEEDOC hDoc;
-
-} GET\_LINE\_INFO;
+```
+typedef struct _GET_LINE_INFO {
+	UINT cch;
+	UINT flags;
+	UINT yLine;
+	BYTE byteCrLf;
+	HEEDOC hDoc;
+} GET_LINE_INFO;
+```
 
 ## Fields
 

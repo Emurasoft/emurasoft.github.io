@@ -3,31 +3,21 @@
 用于 [Editor\_FindInFiles 宏](../macro/editor_findinfilesw)，
 [Editor\_ReplaceInFiles 宏](../macro/editor_replaceinfilesw) ( [EE\_FIND\_IN\_FILESW 消息](../message/ee_find_in_filesw)， [EE\_REPLACE\_IN\_FILESW 消息](../message/ee_replace_in_filesw)) 中。
 
-typedef struct \_GREP\_INFOW {
-
-size\_t cbSize;
-
-UINT nCP;
-
-UINT64 nFlags;
-
-LPCWSTR pszFind;
-
-LPCWSTR pszReplace;
-
-LPCWSTR pszPath;
-
-LPCWSTR pszBackupPath;
-
-LPCWSTR pszFilesToIgnore;
-
-UINT nLimit;
-
-UINT64 nTotalCount;
-
-HRESULT hr;
-
-} GREP\_INFOW;
+```
+typedef struct _GREP_INFOW {
+	size_t cbSize;
+	UINT nCP;
+	UINT64 nFlags;
+	LPCWSTR pszFind;
+	LPCWSTR pszReplace;
+	LPCWSTR pszPath;
+	LPCWSTR pszBackupPath;
+	LPCWSTR pszFilesToIgnore;
+	UINT nLimit;
+	UINT64 nTotalCount;
+	HRESULT hr;
+} GREP_INFOW;
+```
 
 ## 字段
 

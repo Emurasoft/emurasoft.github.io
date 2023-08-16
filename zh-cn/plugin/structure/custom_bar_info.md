@@ -2,19 +2,15 @@
 
 用于 [Editor\_CustomBarOpen](../macro/editor_custombaropen) 内联函数 ( [EE\_CUSTOM\_BAR\_OPEN](../message/ee_custom_bar_open) 消息) 中。
 
-typedef struct \_CUSTOM\_BAR\_INFO {
-
-size\_t cbSize;
-
-HWND hwndCustomBar;
-
-HWND hwndClient;
-
-LPCTSTR pszTitle;
-
-int iPos;
-
-} CUSTOM\_BAR\_INFO;
+```
+typedef struct _CUSTOM_BAR_INFO {
+	size_t cbSize;
+	HWND hwndCustomBar;
+	HWND hwndClient;
+	LPCTSTR pszTitle;
+	int iPos;
+} CUSTOM_BAR_INFO;
+```
 
 ## 成员
 

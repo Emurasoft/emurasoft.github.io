@@ -2,37 +2,24 @@
 
 [Editor\_ToolbarOpen インライン関数](../macro/editor_toolbaropen) （ [EE\_TOOLBAR\_OPEN メッセージ](../message/ee_toolbar_open)） とカスタム ツール バーに関連したイベントで使用します。
 
-typedef struct \_TOOLBAR\_INFO {
-
-size\_t cbSize;
-
-HWND hwndRebar;
-
-HWND hwndClient;
-
-LPCTSTR pszTitle;
-
-UINT nMask;
-
-UINT nID;
-
-UINT nFlags;
-
-UINT fStyle;
-
-UINT cxMinChild;
-
-UINT cyMinChild;
-
-UINT cx;
-
-UINT cxIdeal;
-
-UINT nBand;
-
-WORD wPlugInCmdID;
-
-} TOOLBAR\_INFO;
+```
+typedef struct _TOOLBAR_INFO {
+	size_t cbSize;
+	HWND hwndRebar;
+	HWND hwndClient;
+	LPCTSTR pszTitle;
+	UINT nMask;
+	UINT nID;
+	UINT nFlags;
+	UINT fStyle;
+	UINT cxMinChild;
+	UINT cyMinChild;
+	UINT cx;
+	UINT cxIdeal;
+	UINT nBand;
+	WORD wPlugInCmdID;
+} TOOLBAR_INFO;
+```
 
 ## フィールド
 

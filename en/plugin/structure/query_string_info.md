@@ -2,19 +2,15 @@
 
 Used by [EE\_QUERY\_STRING\_EX message](../message/ee_query_string_ex).
 
-typedef struct \_QUERY\_STRING\_INFO {
-
-UINT cbSize;
-
-UINT nCmdID;
-
-UINT nFlags;
-
-UINT cchBuf;
-
-LPWSTR pBuf;
-
-} QUERY\_STRING\_INFO;
+```
+typedef struct _QUERY_STRING_INFO {
+	UINT cbSize;
+	UINT nCmdID;
+	UINT nFlags;
+	UINT cchBuf;
+	LPWSTR pBuf;
+} QUERY_STRING_INFO;
+```
 
 ## Members
 

@@ -2,13 +2,12 @@
 
 用於 [EE\_INFO 消息](../message/ee_info) 中。
 
-typedef struct \_STRING\_BUF {
-
-LPWSTR pBuf;
-
-UINT cchBuf;
-
-} STRING\_BUF;
+```
+typedef struct _STRING_BUF {
+	LPWSTR pBuf;
+	UINT cchBuf;
+} STRING_BUF;
+```
 
 ## 成員
 

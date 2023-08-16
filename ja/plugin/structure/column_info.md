@@ -2,13 +2,12 @@
 
 [SORT\_INFO 構造体](sort_info) で使用します。
 
-typedef struct \_COLUMN\_INFO {
-
-int iCol;
-
-UINT nFlags;
-
-} COLUMN\_INFO;
+```
+typedef struct _COLUMN_INFO {
+	int iCol;
+	UINT nFlags;
+} COLUMN_INFO;
+```
 
 ## フィールド
 

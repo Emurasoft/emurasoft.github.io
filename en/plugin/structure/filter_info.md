@@ -3,21 +3,16 @@
 Used by [EE\_FILTER](../message/ee_filter) message. This structure is
 obsolete. New plug-ins should use the [FILTER\_INFO\_EX](filter_info_ex) structure instead.
 
-typedef struct \_FILTER\_INFO {
-
-UINT     cbSize;
-
-UINT     flags;
-
-int      iColumn;
-
-LPCWSTR  pszFilter;
-
-INT\_PTR  xBegin;
-
-INT\_PTR  xEnd;
-
-} FILTER\_INFO;
+```
+typedef struct _FILTER_INFO {
+	UINT cbSize;
+	UINT flags;
+	int iColumn;
+	LPCWSTR pszFilter;
+	INT_PTR xBegin;
+	INT_PTR xEnd;
+} FILTER_INFO;
+```
 
 ## Fields
 

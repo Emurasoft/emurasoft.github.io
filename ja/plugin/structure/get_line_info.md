@@ -4,19 +4,15 @@
 [Editor\_GetLineW](../macro/editor_getlinew) インライン関数 ( [EE\_GET\_LINEA](../message/ee_get_linea),
 [EE\_GET\_LINEW](../message/ee_get_linew) メッセージ) で使用します。
 
-typedef struct \_GET\_LINE\_INFO {
-
-UINT\_PTR cch;
-
-UINT flags;
-
-UINT\_PTR yLine;
-
-BYTE byteCrLf;
-
-HEEDOC hDoc;
-
-} GET\_LINE\_INFO;
+```
+typedef struct _GET_LINE_INFO {
+	UINT_PTR cch;
+	UINT flags;
+	UINT_PTR yLine;
+	BYTE byteCrLf;
+	HEEDOC hDoc;
+} GET_LINE_INFO;
+```
 
 ## フィールド
 

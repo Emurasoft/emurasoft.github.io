@@ -3,13 +3,12 @@
 Editor\_GetMultiSel 인라인 함수
 ( [EE\_GET\_MULTI\_SEL](../../plugin/message/ee_get_multi_sel) 메시지)에 의해 사용됩니다.
 
-typedef struct \_SEL\_INFO {
-
-POINT\_PTR ptStart;
-
-POINT\_PTR ptEnd;
-
-} SET\_INFO;
+```
+typedef struct _SEL_INFO {
+	POINT_PTR ptStart;
+	POINT_PTR ptEnd;
+} SET_INFO;
+```
 
 ## 필드
 

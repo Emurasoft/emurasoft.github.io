@@ -5,25 +5,18 @@
 消息](../message/ee_find_in_filesa)， [EE\_REPLACE\_IN\_FILESA \
 消息](../message/ee_replace_in_filesa) s) 中。
 
-typedef struct \_GREP\_INFOA {
-
-UINT cbSize;
-
-UINT nCP;
-
-UINT nFlags;
-
-LPCSTR pszFind;
-
-LPCSTR pszReplace;
-
-LPCSTR pszPath;
-
-LPCSTR pszBackupPath;
-
-LPCSTR pszFilesToIgnore;
-
-} GREP\_INFOA;
+```
+typedef struct _GREP_INFOA {
+	UINT cbSize;
+	UINT nCP;
+	UINT nFlags;
+	LPCSTR pszFind;
+	LPCSTR pszReplace;
+	LPCSTR pszPath;
+	LPCSTR pszBackupPath;
+	LPCSTR pszFilesToIgnore;
+} GREP_INFOA;
+```
 
 ## Fields
 

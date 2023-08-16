@@ -2,21 +2,16 @@
 
 [EE\_FILTER](../message/ee_filter) メッセージで使用します。この構造体は廃止になりました。新しいプラグインはこの代わりに [FILTER\_INFO\_EX 構造体](filter_info_ex) を使用してください。
 
-typedef struct \_FILTER\_INFO {
-
-UINT     cbSize;
-
-UINT     flags;
-
-int      iColumn;
-
-LPCWSTR  pszFilter;
-
-INT\_PTR  xBegin;
-
-INT\_PTR  xEnd;
-
-} FILTER\_INFO;
+```
+typedef struct _FILTER_INFO {
+	UINT cbSize;
+	UINT flags;
+	int iColumn;
+	LPCWSTR pszFilter;
+	INT_PTR xBegin;
+	INT_PTR xEnd;
+} FILTER_INFO;
+```
 
 ## フィールド
 
