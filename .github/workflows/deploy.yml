@@ -26,13 +26,13 @@ jobs:
       - name: Build pages
         run: sh ./buildAll.sh
       - name: Minify
-        run: ./minify -v -r --sync -o _minified/ _build
+        run: ./minify -v -r --sync -o help_pages/ _build
       - name: Create archive
         run: |
-          zip -r archive.zip _minified \
-            -x _minified/404.html _minified/google97d4e1b665179c67.html _minified/index.html _add_to_build/sitemap_index.xml **/sitemap.xml **/.doctrees/**
+          zip -r archive.zip help_pages \
+            -x help_pages/404.html help_pages/google97d4e1b665179c67.html help_pages/index.html _add_to_build/sitemap_index.xml **/sitemap.xml **/.doctrees/**
       - name: Add to build folder
-        run: cp -r _add_to_build/* _minified
+        run: cp -r _add_to_build/* help_pages
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
@@ -43,7 +43,7 @@ jobs:
       - name: Upload pages
         uses: actions/upload-pages-artifact@v1
         with:
-          path: _minified
+          path: help_pages
   deploy:
     if: github.ref == 'refs/heads/main'
     environment:
