@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - '*'
+    tags:
+      - '*'
     
 permissions:
   contents: read
@@ -39,13 +41,15 @@ jobs:
           name: artifact
           path: archive.zip
       - name: Configure GitHub Pages
+        if: ${{ github.ref_type == 'tag' }}
         uses: actions/configure-pages@v3
       - name: Upload pages
+        if: ${{ github.ref_type == 'tag' }}
         uses: actions/upload-pages-artifact@v1
         with:
           path: help_pages
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref_type == 'tag'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
