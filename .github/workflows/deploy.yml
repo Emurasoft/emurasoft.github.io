@@ -32,7 +32,7 @@ jobs:
       - name: Create archive
         run: |
           zip -r archive.zip help_pages \
-            -x help_pages/404.html help_pages/google97d4e1b665179c67.html help_pages/index.html _add_to_build/sitemap_index.xml **/sitemap.xml **/.doctrees/**
+            -x help_pages/404.html help_pages/google97d4e1b665179c67.html help_pages/index.html _add_to_build/sitemap_index.xml **/sitemap.xml **/.doctrees/** **/objects.inv
       - name: Add to build folder
         run: cp -r _add_to_build/* help_pages
       - name: Upload artifact
