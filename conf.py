@@ -27,7 +27,7 @@ sitemap_locales = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw']
 highlight_language = 'none'
 suppress_warnings = ['image.not_readable']
 navigation_depth = 2
-html_search_scorer = '../_static/searchtools.js'
+html_search_scorer = '_static/searchtools.js'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
