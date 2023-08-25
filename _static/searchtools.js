@@ -9,7 +9,6 @@
  *
  */
 "use strict";
-const modified = true;
 
 /**
  * Simple result scoring code.
@@ -285,7 +284,17 @@ const Search = {
     // console.info("required: ", [...searchTerms]);
     // console.info("excluded: ", [...excludedTerms]);
 
-    // array of [docname, title, anchor, descr, score, filename]
+    /**
+     * @typedef {string} Result0 docname
+     * @typedef {string} Result1 title
+     * @typedef {string} Result2 anchor
+     * @typedef {string | null} Result3 descr
+     * @typedef {number} Result4 score
+     * @typedef {string} Result5 filename
+     */
+    /**
+     * @type {[Result0, Result1, Result2, Result3, Result4, Result5][]}
+     */
     let results = [];
     _removeChildren(document.getElementById("search-progress"));
 
@@ -369,6 +378,14 @@ const Search = {
     // console.info("search results:", Search.lastresults);
 
     // print the results
+
+    // Filter to macros if flag is enabled
+    if (new URLSearchParams(window.location.search).has("macros-only")) {
+      results = results.filter((entry) => {
+        return entry[0].startsWith("macro/");
+      })
+    }
+
     _displayNextItem(results, results.length, searchTerms, highlightTerms);
   },
 
