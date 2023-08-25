@@ -9,6 +9,7 @@
  *
  */
 "use strict";
+const modified = true;
 
 /**
  * Simple result scoring code.
