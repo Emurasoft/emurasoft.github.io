@@ -373,19 +373,14 @@ const Search = {
 
     results = results.reverse();
 
-    // for debugging
-    //Search.lastresults = results.slice();  // a copy
-    // console.info("search results:", Search.lastresults);
-
-    // print the results
-
-    // Filter to macros if flag is enabled
+    // Filter macro pages if flag is enabled
     if (new URLSearchParams(window.location.search).has("macros-only")) {
       results = results.filter((entry) => {
         return entry[0].startsWith("macro/");
       })
     }
 
+    // print the results
     _displayNextItem(results, results.length, searchTerms, highlightTerms);
   },
 
