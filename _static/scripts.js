@@ -43,6 +43,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById('searchbox').style.display = "block";
 
+    // Hide language dropdown in local
+    const isLocal = window.location.protocol !== "file:";
+    if (isLocal) {
+        const dropdown = document.querySelector("#languageDropdown");
+        if (dropdown) {
+            dropdown.setAttribute("display", "hidden");
+        }
+    }
+
     // Theming
     const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
 
@@ -86,9 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })
 
-    const enableButton = window.location.protocol !== "file:";
-
-    if (enableButton) {
+    if (isLocal) {
         button.mount('#mode_toggle')
     }
 });
