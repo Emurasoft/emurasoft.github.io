@@ -42,7 +42,7 @@
         </p>
         <h1><a href="{{ pathto(root_doc)|e }}" title="Go to homepage">{{ nav_title }}</a></h1>
 
-        <div class="languageDropdown">
+        <div id="languageDropdown" class="languageDropdown">
             <a href="#" onclick="toggleLanguageDropdown()">
                 {% if language == "en" %}English{% elif language == "ja" %}日本語{% elif language == "ko" %}한국어{% elif language == "zh-CN" %}简体中文{% elif language == "zh-TW" %}繁體中文{% endif %}
             </a>
@@ -55,8 +55,7 @@
             </div>
             <script>
                 function changeLanguage(lang) {
-                    const currentLevel = ('{{ pagename }}'.match(/\//g)||[]).length + 1;
-                    const newPath = '../'.repeat(currentLevel) + lang + '/{{ pagename }}.html';
+                    const newPath = 'https://emurasoft.github.io/emeditor-help/' + lang + '/{{ pagename }}.html';
                     window.location.href = newPath;
                 }
             </script>
