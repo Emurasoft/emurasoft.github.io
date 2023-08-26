@@ -44,11 +44,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('searchbox').style.display = "block";
 
     // Hide language dropdown in local
-    const isLocal = window.location.protocol !== "file:";
+    const isLocal = window.location.protocol === "file:";
     if (isLocal) {
         const dropdown = document.querySelector("#languageDropdown");
         if (dropdown) {
-            dropdown.setAttribute("display", "hidden");
+            dropdown.style.display = "hidden";
         }
     }
 
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (initialMode) {
         // Make sure the value in local storage is valid
-        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) === -1) {
             initialMode = 'light'
             localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
         }
@@ -80,11 +80,11 @@ document.addEventListener("DOMContentLoaded", () => {
         handleClick() {
             let currentMode = this.mode
 
-            if (currentMode == 'light') {
+            if (currentMode === 'light') {
                 this.mode = 'dark'
-            } else if (currentMode == 'dark') {
+            } else if (currentMode === 'dark') {
                 this.mode = 'darkest'
-            } else if (currentMode == 'darkest') {
+            } else if (currentMode === 'darkest') {
                 this.mode = 'light'
             }
 
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })
 
-    if (isLocal) {
+    if (!isLocal) {
         button.mount('#mode_toggle')
     }
 });
