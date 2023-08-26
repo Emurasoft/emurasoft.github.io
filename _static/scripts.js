@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (isLocal) {
         const dropdown = document.querySelector("#languageDropdown");
         if (dropdown) {
-            dropdown.style.display = "hidden";
+            dropdown.style.display = "none";
         }
     }
 
