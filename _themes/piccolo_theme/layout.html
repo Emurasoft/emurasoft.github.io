@@ -55,8 +55,7 @@
             </div>
             <script>
                 function changeLanguage(lang) {
-                    const currentLevel = ('{{ pagename }}'.match(/\//g)||[]).length + 1;
-                    const newPath = '../'.repeat(currentLevel) + lang + '/{{ pagename }}.html';
+                    const newPath = 'https://emurasoft.github.io/emeditor-help/' + lang + '/{{ pagename }}.html';
                     window.location.href = newPath;
                 }
             </script>
