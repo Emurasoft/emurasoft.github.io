@@ -10,6 +10,8 @@ async function main() {
 }
 
 async function test(language: string) {
+    console.log(`language: ${language}`);
+
     const options = new chrome.Options();
     options.headless()
 
