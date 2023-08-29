@@ -3,6 +3,12 @@ import {resolve} from 'path';
 import {strict as assert} from 'assert';
 
 async function main() {
+    for (const language of ['en', 'ja', 'ko', 'zh-cn', 'zh-tw']) {
+        await test(language);
+    }
+}
+
+async function test(language: string) {
     const logPreferences = new logging.Preferences();
     logPreferences.setLevel(logging.Type.BROWSER, logging.Level.WARNING);
     const driver = await new Builder()
@@ -11,7 +17,7 @@ async function main() {
         .build();
 
     const url = new URL('file:///');
-    url.pathname = resolve('../_build/en/index.html');
+    url.pathname = resolve(`../_build/${language}/index.html`);
 
     await driver.get(url.toString());
 
