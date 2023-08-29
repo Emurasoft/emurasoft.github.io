@@ -1,4 +1,5 @@
 import {Builder, logging} from 'selenium-webdriver';
+import * as chrome from 'selenium-webdriver/chrome'
 import {resolve} from 'path';
 import {strict as assert} from 'assert';
 
@@ -9,11 +10,15 @@ async function main() {
 }
 
 async function test(language: string) {
+    const options = new chrome.Options();
+    options.headless()
+
     const logPreferences = new logging.Preferences();
     logPreferences.setLevel(logging.Type.BROWSER, logging.Level.WARNING);
     const driver = await new Builder()
         .forBrowser('chrome')
         .setLoggingPrefs(logPreferences)
+        .setChromeOptions(options)
         .build();
 
     const url = new URL('file:///');
