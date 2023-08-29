@@ -48,6 +48,16 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: help_pages
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: 'automation-test/package-lock.json'
+      - name: Test
+        run: |
+          npm i
+          npm start
+        working-directory: automation-test
   deploy:
     if: github.ref_type == 'tag'
     environment:
