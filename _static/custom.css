@@ -21,7 +21,8 @@ div#top_nav nav p#toggle_sidebar a {
     color: #333333;
 }
 
-div#top_nav nav div.searchbox_wrapper div#searchbox p.highlight-link a:hover {
+div#top_nav nav div.searchbox_wrapper div#searchbox p.highlight-link a,
+    div#top_nav nav div.searchbox_wrapper div#searchbox p.highlight-link a:hover {
     color: #333333;
 }
 

@@ -55,7 +55,7 @@ jobs:
           cache-dependency-path: 'automation-test/package-lock.json'
       - name: Test
         run: |
-          npm i
+          npm ci
           npm start
         working-directory: automation-test
   deploy:
