@@ -10,7 +10,14 @@ The plug-in will first check if the current document is in a **[Git](https://git
 
 Current changes and staged changes are shown in the sidebar. Staged changes are changes that were added to the index. All other changes to the working directory are shown in the changes list.
 
-Right-clicking on a changed file in the sidebar will show a menu with commands for that changed file. You can **Stage** or **Unstage** the change. You can **Undo Changes** to revert the file to the previous state. You can also **View Changes** and **Open File** in the editor. Clicking on **Refresh** will refresh the changed files list.
+Right-clicking on a changed file in the sidebar will show a menu with commands for that changed file. These are the options in this menu.
+
+- **View Changes** shows a comparision in the editor to show what changed to the file. Specifically, the versions of the file being compared are the last commit and the index version for staged files or the index version and worktree version for unstaged files.
+- **Open File** opens that file in the editor.
+- **Stage** and **Unstage** are equivalent to the commands `git add` and `git reset`.
+- Unstaged files have the option to **Undo Changes** to revert the file to the last commit state.
+- If a submodule is listed, **Update Submodule** will call `git submodule update --init` to update the files in the submodule.
+- **Refresh** will refresh the changed files list.
 
 CommitList monitors the file system so that if a file in the repo directory was modified by an external program, the sidebar is refreshed.
 
@@ -21,24 +28,17 @@ The **Pull** and **Push** buttons may also display a number to indicate the numb
 You can click on the **>** button to access more commands.
 
 - **Refresh** refreshes the changed files list.
-
 - **Command Output** shows the output of previous commands.
-
 - The **Status** command prints the output of `git status`.
-
 - The **Fetch** command updates your remote-tracking branches.
-
 - **Open Repo Folder** opens the repo folder in File Explorer.
-
 - If the current branch has an upstream branch, **Open Repo Website** opens the project's source control and collaboration website, like GitHub, in the web browser.
-
 - If **Autofetch** is enabled, `git fetch` is called every 3 minutes.
-
 - **Help** opens this page.
 
 You can change the current branch with the dropdown menu. Changing the branch is equivalent to the command `git checkout branch`. Conflicting changes will prevent you from checking out a branch.
 
-The edit control below the branch dropdown is where you can write a commit message. Click on **Commit Staged**/ **Commit All** to either commit the staged changes or to stage all changes and commit. The commit will be made to the currently selected branch.
+The edit control below the branch dropdown is where you can write a commit message. Click on **Commit Staged**/**Commit All** to either commit the staged changes or to stage all changes and commit. The commit will be made to the currently selected branch.
 
 ## Commit list
 
