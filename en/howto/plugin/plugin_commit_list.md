@@ -16,7 +16,7 @@ Right-clicking on a changed file in the sidebar will show a menu with commands f
 - **Open File** opens that file in the editor.
 - **Stage** and **Unstage** are equivalent to the commands `git add` and `git reset`.
 - Unstaged files have the option to **Undo Changes** to revert the file to the last commit state.
-- If a submodule is listed, **Update Submodule** will call `git submodule update --init` to update the files in the submodule.
+- If a submodule is listed, **Update Submodule** will call `git submodule update --init` to update the files in the submodule to its current `HEAD`.
 - **Refresh** will refresh the changed files list.
 
 CommitList monitors the file system so that if a file in the repo directory was modified by an external program, the sidebar is refreshed.
