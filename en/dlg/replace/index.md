@@ -25,7 +25,7 @@ Click this button to show the list of available commands.
 | **Fixed Value** | When this is checked, the dialog box initializes the Find drop-down list box with the string set as the fixed value. |
 | **Auto Save** | Saves the option (Selected Text or Word at Cursor, Selected Text, Word at Cursor, Last Used Value or Fixed Value) as the default for the next time the dialog box is displayed. |
 | **Multiline** | Toggles between singleline and multiline of the drop-down list boxes. |
-| **Use editor font** | When this is checked, the **Find**/ **Replace** drop-down list boxes uses the same font as the editor. |
+| **Use editor font** | When this is checked, the **Find**/**Replace** drop-down list boxes uses the same font as the editor. |
 | **Select from Batch List** | Selects a string to search for from the batch list. |
 | **Swap Find and Replace strings** | Swaps Find and Replace strings. |
 | **Synchronize with Find** | Remembers Find and Replace with strings as a pair, and automatically updates the Replace with string when the Find string is changed. |
