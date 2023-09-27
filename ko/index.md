@@ -2,6 +2,8 @@
 
 # 엠에디터 도움말
 
+Version 22.5.2
+
 ```{toctree}
 :maxdepth: 1
 notice/index
