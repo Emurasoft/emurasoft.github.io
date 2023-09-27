@@ -2,6 +2,8 @@
 
 # EmEditor 說明
 
+Version {{ version }}
+
 ```{toctree}
 :maxdepth: 1
 notice/index
