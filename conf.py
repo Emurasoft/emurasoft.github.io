@@ -27,6 +27,10 @@ highlight_language = 'none'
 suppress_warnings = ['image.not_readable']
 navigation_depth = 2
 
+myst_substitutions = {
+  "version": "22.6.0",
+}
+
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 

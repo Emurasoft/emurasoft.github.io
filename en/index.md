@@ -2,7 +2,7 @@
 
 # EmEditor Help
 
-Version 22.5.2
+Version {{ version }}
 
 ```{toctree}
 :maxdepth: 1
