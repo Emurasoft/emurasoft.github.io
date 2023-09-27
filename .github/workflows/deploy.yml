@@ -28,6 +28,7 @@ jobs:
       - name: Set version
         run: |
           echo "myst_substitutions = {'version': '${GITHUB_REF_NAME}'}" >> conf.py
+          cat conf.py
       - name: Build pages
         run: sh ./buildAll.sh
       - name: Minify
