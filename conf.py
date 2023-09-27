@@ -3,17 +3,11 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-
 from multiproject.utils import get_project
 
 project = 'EmEditor'
 copyright = '2023 Emurasoft'
 author = 'Emurasoft'
-
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['multiproject', 'myst_parser', 'sphinx_sitemap']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv']
@@ -27,12 +21,7 @@ highlight_language = 'none'
 suppress_warnings = ['image.not_readable']
 navigation_depth = 2
 
-myst_substitutions = {
-  "version": "22.6.0",
-}
-
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+myst_substitutions = {"version": "undefined"}
 
 html_theme_path = ['_themes']
 html_theme = 'piccolo_theme'
