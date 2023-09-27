@@ -2,7 +2,7 @@
 
 # EmEditor 說明
 
-Version {{ version }}
+Version {{version}}
 
 ```{toctree}
 :maxdepth: 1
