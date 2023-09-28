@@ -9,4 +9,5 @@ del version_file
 myst_substitutions = {
     'version': version,
     'pro': '<sup title="EmEditor Professional only" style="cursor: help;">[P]</sup>',
+    'profree': '<sup title="EmEditor Professional and EmEditor Free" style="cursor: help;">[PF]</sup>',
 }
