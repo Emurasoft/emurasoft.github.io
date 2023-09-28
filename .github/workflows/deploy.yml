@@ -27,7 +27,7 @@ jobs:
         run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.12.7/minify_linux_amd64.tar.gz | tar -xz
       - name: Set version
         run: |
-          echo "myst_substitutions = {'version': '${GITHUB_REF_NAME}'}" >> conf.py
+          echo "${GITHUB_REF_NAME}" > version
           cat conf.py
       - name: Build pages
         run: sh ./buildAll.sh
