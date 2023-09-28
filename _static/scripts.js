@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Replace <pro /> and <profree /> tags
+    // Replace {{pro}} and {{profree}} tags
     for (const element of document.querySelectorAll("pro")) {
         element.textContent = "[P]";
         element.setAttribute("title", proTitle().trim());
