@@ -50,7 +50,7 @@ Optional. Specifies a combination of the following values.
 _strTitle_
 
 Optional. Specifies the title of the dialog box. If this is an empty string, the
-default title ( **Open** or **Save As**) is used.
+default title (**Open** or **Save As**) is used.
 
 _strFilter_
 

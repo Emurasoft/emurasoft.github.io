@@ -11,9 +11,9 @@ specified macro registered in the My Macros directory. You may set your Macro fi
 
 ## How to Run
 
-- Default Menu: **Macros** \> ( **select macro name**)
+- Default Menu: **Macros** \> (**select macro name**)
 - [All Commands](../tools/all_commands): **Macros**
-\> ( **select macro name**)
+\> (**select macro name**)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -21,7 +21,8 @@ specified macro registered in the My Macros directory. You may set your Macro fi
 ## Plug-in Command ID
 
 ```
-From EEID_MACRO1 through EEID_MACRO1 + 1023 (From 9216 through 9216 + 1023)```
+From EEID_MACRO1 through EEID_MACRO1 + 1023 (From 9216 through 9216 + 1023)
+```
 
 ## Macros
 

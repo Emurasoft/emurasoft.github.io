@@ -18,7 +18,7 @@
 | #Escape= | 指定用作引號逸出序列的字元。 |
 | #ScriptBegin= | 指定用來標記指令碼開始的字元。 |
 | #ScriptEnd= | 指定用來標記指令碼開始的字元。 |
-| #SpecialSyntax= | 指定 **HTML**， **HTML-內嵌**，或 **無**，取決于在同一個文檔中是否有 HTML 和其他指令碼語言的混合。<br> <br>- 選擇 **HTML**，當 HTML 標籤指定指令碼語言 ( **<SCRIPT type=...>**) 存在在這個 **HTML** 文檔中。 <br>   HTML 同樣也適用於包含以 <% 標記開始的指令碼的 ASP 檔案，諸如 VBScript，JavaScript，PerlScript，<br>   CSS，等。<br>- **HTML-內嵌** 適用於 PHP 或 JSP 這樣的指令碼語言，并且通常這些指令碼語言以 #ScriptBegin 字元開始。 |
+| #SpecialSyntax= | 指定 **HTML**， **HTML-內嵌**，或 **無**，取決于在同一個文檔中是否有 HTML 和其他指令碼語言的混合。<br> <br>- 選擇 **HTML**，當 HTML 標籤指定指令碼語言 (**<SCRIPT type=...>**) 存在在這個 **HTML** 文檔中。 <br>   HTML 同樣也適用於包含以 <% 標記開始的指令碼的 ASP 檔案，諸如 VBScript，JavaScript，PerlScript，<br>   CSS，等。<br>- **HTML-內嵌** 適用於 PHP 或 JSP 這樣的指令碼語言，并且通常這些指令碼語言以 #ScriptBegin 字元開始。 |
 | #HighlightBraces= | 要么 **on** 或 **off**，取決于您是否想要亮顯括號。 |
 | #Keyword= | #Keyword 選項包括: <br>- **color** = 指定亮顯顏色。讓您能在 **當前組態屬性** 中的 **顯示** 頁面上預覽顏色。捲動頁面上的清單，您會發現亮顯 (1) 到亮顯 (10) 的選項。您可以用這幾個選項設定亮顯顏色。<br>- **word** = 指定 **on** 會亮顯關鍵字，僅當整個單字都符合時。例如，如果關鍵字是「run」，如果您指定了 **word=on**， **runner** 中的 **run** 就不會被亮顯。,<br>- **rightall** = 要么 **on** 或 **off**，取決于您是否想要亮顯除了符合關鍵字之外的右側區域。<br>- **case** = 要么 **on** 或 **off**，取決于您是否想要符合的關鍵字的大小寫也符合。<br>- **insidetag** = 指定 **on** 會亮顯關鍵字僅當它們存在在標籤中時。<br>- **regexp=** 指定 **on** 會用規則運算式亮顯符合的關鍵字。 |
 

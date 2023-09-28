@@ -14,7 +14,7 @@ displayed as the recent files can be set on the
 **Files** text box on the
 [**History** page](../../dlg/customize/history/index) of
 the [**Customize** dialog box](../../dlg/customize/index),
-under the **Tools** Menu ( **Tools** \> **Customize** \> **History**).
+under the **Tools** Menu (**Tools** \> **Customize** \> **History**).
 
 ## How to Run
 
@@ -28,7 +28,8 @@ under the **Tools** Menu ( **Tools** \> **Customize** \> **History**).
 ## Plug-in Command ID
 
 ```
-From EEID_FILE_MRU_FILE1 through EEID_FILE_MRU_FILE1 + 63 (from 4609```
+From EEID_FILE_MRU_FILE1 through EEID_FILE_MRU_FILE1 + 63 (from 4609
+```
 through 4609 + 63)
 
 ## Macros

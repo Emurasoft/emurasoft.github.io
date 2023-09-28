@@ -57,7 +57,7 @@ text box.
 ## Files or Folders to Ignore text box
 
 Specifies the names of files or folders to ignore. To specify multiple names,
-separate them with a semicolon ( **;**).
+separate them with a semicolon (**;**).
 
 ## Ignore Binary Files check box
 

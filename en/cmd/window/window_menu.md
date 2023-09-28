@@ -11,9 +11,9 @@ normal size. This command consists of multiple menu items.
 
 ## How to Run
 
-- Default Menu: **Window** \> ( **document name**)
+- Default Menu: **Window** \> (**document name**)
 - [All Commands](../tools/all_commands): **Window**
-\> ( **document name**)
+\> (**document name**)
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -21,7 +21,8 @@ normal size. This command consists of multiple menu items.
 ## Plug-in Command ID
 
 ```
-From EEID_WINDOW_MENU through EEID_WINDOW_MENU + 255 (from 5376 through 5376 + 255)```
+From EEID_WINDOW_MENU through EEID_WINDOW_MENU + 255 (from 5376 through 5376 + 255)
+```
 
 ## Macros
 

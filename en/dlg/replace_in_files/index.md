@@ -171,7 +171,7 @@ Statistically detect UTF-8.
 
 ## Save Settings check box
 
-Saves the encoding-related options ( **Encoding** drop-down list box, and **Detect All**, **Detect HTML/XML Charset**, and **Detect UTF-8** check boxes) as default so that these options will be restored next time when you open this dialog box.
+Saves the encoding-related options (**Encoding** drop-down list box, and **Detect All**, **Detect HTML/XML Charset**, and **Detect UTF-8** check boxes) as default so that these options will be restored next time when you open this dialog box.
 
 ## Stop if number of matches reaches check box/text box
 

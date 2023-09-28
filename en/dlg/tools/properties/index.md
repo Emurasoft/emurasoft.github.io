@@ -18,14 +18,14 @@ intend to launch.
 ### Arguments text box
 
 Specifies the arguments that are passed to the tool when the tool is
-launched. Use the **Arrow** ( **>**) button to select from a
+launched. Use the **Arrow** (**>**) button to select from a
 list of predefined arguments. You can also specify environment variables, such as
 %WinDir%.
 
 ### Initial Directory text box
 
 Specifies the working directory of the tool. Use the
-**Arrow** ( **>**) button to select a directory. You
+**Arrow** (**>**) button to select a directory. You
 can also specify environment variables, such as %WinDir%.
 
 ### Icon Path text box

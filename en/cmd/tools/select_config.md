@@ -13,19 +13,20 @@ configuration is displayed on the Status Bar. EmEditor defaults to the
 
 ## How to Run
 
-- Default Menu: **Tools** \> **Select Configuration** \> ( **configuration name**)
+- Default Menu: **Tools** \> **Select Configuration** \> (**configuration name**)
 - [All Commands](all_commands): **Tools** >
-**Select Configuration** \> ( **configuration name**)
+**Select Configuration** \> (**configuration name**)
 - Toolbar: ![](../../images/configpopup.gif) (on
 the arrow) >
-( **configuration name**)
-- Status Bar: (double-click on configuration name) > ( **configuration name**)
+(**configuration name**)
+- Status Bar: (double-click on configuration name) > (**configuration name**)
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-From EEID_SELECT_CONFIG through EEID_SELECT_CONFIG + 255 (from 5120```
+From EEID_SELECT_CONFIG through EEID_SELECT_CONFIG + 255 (from 5120
+```
 through 5120 + 255)
 
 ## Macros

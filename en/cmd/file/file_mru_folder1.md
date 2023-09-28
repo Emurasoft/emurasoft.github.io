@@ -13,7 +13,7 @@ displayed as the recently used folders can be set on the
 **Files** text box on the
 [**History** page](../../dlg/customize/history/index) of
 the [**Customize** dialog box](../../dlg/customize/index),
-under the **Tools** Menu ( **Tools** \> **Customize** \> **History**).
+under the **Tools** Menu (**Tools** \> **Customize** \> **History**).
 
 ## How to Run
 
@@ -28,7 +28,8 @@ under the **Tools** Menu ( **Tools** \> **Customize** \> **History**).
 ## Plug-in Command ID
 
 ```
-From EEID_FILE_MRU_FOLDER1 through EEID_FILE_MRU_FOLDER1 + 63 (from 4992```
+From EEID_FILE_MRU_FOLDER1 through EEID_FILE_MRU_FOLDER1 + 63 (from 4992
+```
 through 4992 + 63)
 
 ## Macros

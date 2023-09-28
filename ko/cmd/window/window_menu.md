@@ -11,8 +11,8 @@
 
 ## 실행하는 방법
 
-- 기본 메뉴: **창** \> ( **문서 이름**)
-- [모든 명령](../tools/all_commands): **창** \> ( **문서 이름**)
+- 기본 메뉴: **창** \> (**문서 이름**)
+- [모든 명령](../tools/all_commands): **창** \> (**문서 이름**)
 - 도구 모음: 없음
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -20,7 +20,8 @@
 ## 플러그인 명령 ID
 
 ```
-From EEID_WINDOW_MENU through EEID_WINDOW_MENU + 255 (from 5376 through 5376 + 255)```
+From EEID_WINDOW_MENU through EEID_WINDOW_MENU + 255 (from 5376 through 5376 + 255)
+```
 
 ## 매크로
 
