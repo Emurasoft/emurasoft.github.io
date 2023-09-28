@@ -8,6 +8,6 @@ del version_file
 
 myst_substitutions = {
     'version': version,
-    'pro': '<sup title="EmEditor Professional only" style="cursor: help;">[P]</sup>',
-    'profree': '<sup title="EmEditor Professional and EmEditor Free" style="cursor: help;">[PF]</sup>',
+    'pro': '<sup title="僅限 EmEditor 專業版" style="cursor: help;">[P]</sup>',
+    'profree': '<sup title="EmEditor 專業版和 EmEditor 免費版" style="cursor: help;">[PF]</sup>',
 }
