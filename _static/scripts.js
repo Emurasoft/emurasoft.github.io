@@ -1,21 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Replace <pro /> and <profree /> tags
-    for (const element of document.querySelectorAll("pro")) {
-        element.textContent = "[P]";
-        element.setAttribute("title", proTitle().trim());
-        element.style.verticalAlign = "super";
-        element.style.fontSize = "smaller";
-        element.style.cursor = "help";
-    }
-
-    for (const element of document.querySelectorAll("profree")) {
-        element.textContent = "[PF]";
-        element.setAttribute("title", proFreeTitle().trim());
-        element.style.verticalAlign = "super";
-        element.style.fontSize = "smaller";
-        element.style.cursor = "help";
-    }
-
     // Scroll sidebar to current page
     // Last item in array is current item
     const itemElements = document.querySelectorAll("li.current");

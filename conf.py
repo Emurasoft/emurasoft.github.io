@@ -21,8 +21,6 @@ highlight_language = 'none'
 suppress_warnings = ['image.not_readable']
 navigation_depth = 2
 
-myst_substitutions = {"version": "undefined"}
-
 html_theme_path = ['_themes']
 html_theme = 'piccolo_theme'
 
@@ -57,7 +55,7 @@ myst_enable_extensions = [
 
 match get_project(multiproject_projects):
     case 'en':
-        language = "en"
+        language = 'en'
     case 'ja':
         language = 'ja'
     case 'ko':
