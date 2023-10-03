@@ -18,12 +18,16 @@ if (typeof Scorer === "undefined") {
     // Implement the following function to further tweak the score for each result
     // The function takes a result array [docname, title, anchor, descr, score, filename]
     // and returns the new score.
-    /*
     score: result => {
-      const [docname, title, anchor, descr, score, filename] = result
-      return score
+      const [docname, title, anchor, descr, score, filename] = result;
+
+      // Return higher score for macro pages if flag is enabled
+      if (new URLSearchParams(window.location.search).has("macros-first") && docname.startsWith("macro/")) {
+        return score + 100;
+      }
+      
+      return score;
     },
-    */
 
     // query matches the full name of an object
     objNameMatch: 11,
@@ -372,13 +376,6 @@ const Search = {
     }, []);
 
     results = results.reverse();
-
-    // Filter macro pages if flag is enabled
-    if (new URLSearchParams(window.location.search).has("macros-only")) {
-      results = results.filter((entry) => {
-        return entry[0].startsWith("macro/");
-      })
-    }
 
     // print the results
     _displayNextItem(results, results.length, searchTerms, highlightTerms);
