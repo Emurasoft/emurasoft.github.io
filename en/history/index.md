@@ -2,7 +2,7 @@
 
 ```{toctree}
 :maxdepth: 1
-v22_6
+v23_0
 v22_5
 v22_4
 v22_3

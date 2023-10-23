@@ -3,7 +3,7 @@
 
 ```{toctree}
 :maxdepth: 1
-CSV/index
+csv/index
 bookmarks/index
 convert/index
 diff/index
