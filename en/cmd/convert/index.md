@@ -22,6 +22,8 @@
 | **[Remove Empty Lines](../edit/remove_empty_lines)** | Removes empty lines in the selection or the whole document. |
 | **[Remove Empty Columns](../edit/remove_empty_columns)** | Removes empty columns in the CSV document. |
 | **[Reconvert](../edit/reconvert)** | Reconverts the selection using an IME capable of re-conversion. |
+| **[Format Document](format_document.md)** | Formats the entire document using the Language Server Protocol. |
+| **[Format Selection](format_selection.md)** | Formats the selection using the Language Server Protocol. |
 | **[HTML/XML Character Reference to Unicode](../edit/decode_html_char_ref)** | Decodes the selected text from HTML/XML Character Reference. |
 | **[Unicode to HTML/XML Numeric Character Reference](../edit/encode_html_char_ref)** | Encodes the selected text to HTML/XML Numeric Character Reference. |
 | **[Unicode to HTML Character Entity Reference](../edit/encode_html_char_entity_ref)** | Encodes the selected text to HTML Character Entity Reference. |
