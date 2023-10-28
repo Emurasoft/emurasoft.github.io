@@ -7,17 +7,31 @@ Corresponds to the **Document Type** drop-down list box in the [**Language Serve
 ### \[JavaScript\]
 
 ```
-b = object.Type;
-object.Type = b;
+type = object.Type;
+object.Type = type;
 ```
 
 ### \[VBScript\]
 
 ```
-b = object.Type
-object.Type = b
+type = object.Type
+object.Type = type
 ```
+
+## Notes
+
+The Type property should be one of the following values.
+
+|     |     |
+| --- | --- |
+| eeTypeCSS | CSS |
+| eeTypeCpp | C++ |
+| eeTypeHTML | HTML |
+| eeTypeJS | JavaScript |
+| eeTypeJSON | JSON |
+| eeTypePerl | Perl |
+| eeTypePython | Python |
 
 ## Version
 
-Supported on EmEditor Professional Version 23.00 or later.
+Supported on EmEditor Professional Version 23.0 or later.

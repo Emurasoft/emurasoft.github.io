@@ -16,6 +16,7 @@
 | [Highlight](highlight) | Retrieves the [HighlightProp object](../highlight_prop/index). |
 | [Indent](indent) | Retrieves the [IndentProp object](../indent_prop/index). |
 | [Keyboard](keyboard) | Retrieves the [KeyboardProp object](../keyboard_prop/index). |
+| [LanguageServer](language_server) | Retrieves the [LanguageServerProp object](../language_server_prop/index). |
 | [Link](link) | Retrieves the [LinkProp object](../link_prop/index). |
 | [Mark](mark) | Retrieves the [MarkProp object](../mark_prop/index). |
 | [Name](name) | Retrieves the name for the current configuration object. |
@@ -54,6 +55,7 @@ highlight
 indent
 keyboard
 link
+language_server
 load
 mark
 name

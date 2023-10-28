@@ -135,6 +135,8 @@ Specifies a parameter to retrieve or set. This parameter can be one of the value
 | EI\_DOC\_TO\_INDEX\_REAL | Converts a document handle to a document index. Unlike EI\_INDEX\_TO\_DOC, this command counts unique individual documents in a split window. | Specifies the handle to the document. | (int)nIndex<br>Returns the zero-based index of the document. |
 | EI\_GET\_TITLE | Retrieves the title of the current document. | (STRING\_BUF\*)pStringBuf<br> Specifies a pointer to a [STRING\_BUF](../structure/string_buf) structure that retrieves the title. | Not used. |
 | EI\_SET\_TITLE | Sets the title of the current document. The title may contain long and short titles separated by a linefeed (\\n). | (LPCWSTR)pszTitle<br> Specifies a new title. | (HRESULT)hr<br>Returns a negative value if failed. |
+| EI\_SET\_WEB | Sets the flags of the Web Browser. | (UINT)nFlags<br> Specifies a new flag. | Not used. |
+| EI\_OPEN\_WEB | Opens a website of the specified URL. | (LPCWSTR)pszURL<br> Specifies an URL. | (HRESULT)hWnd<br>Returns the window handle to the web view. |
 
 _iDoc_
 

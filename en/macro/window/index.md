@@ -34,6 +34,7 @@
 | **[Top](top)** | Returns or sets the vertical position of the specified window, in pixels. |
 | **[Valid](valid)** | Returns whether the window handle is valid. |
 | **[Visible](visible)** | Returns whether the window is visible. |
+| **[WebBar](web_bar)** | Returns the WebBar Object. |
 | **[Width](width)** | Returns or sets the width of the window. |
 
 ## Methods
