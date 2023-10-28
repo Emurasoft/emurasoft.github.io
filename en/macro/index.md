@@ -56,6 +56,7 @@ interface/index
 keyboard_item/index
 keyboard_list/index
 keyboard_prop/index
+language_server_prop/index
 link_prop/index
 mark_prop/index
 match/index
