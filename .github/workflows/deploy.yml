@@ -62,6 +62,11 @@ jobs:
           npm ci
           npm start
         working-directory: automation-test
+      - name: Publish asset
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: archive.zip
   deploy:
     if: github.ref_type == 'tag'
     environment:
