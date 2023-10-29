@@ -1,4 +1,4 @@
-# Keyboard Object
+# KeyboardProp Object
 
 ## Properties
 

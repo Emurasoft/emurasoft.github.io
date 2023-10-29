@@ -56,6 +56,7 @@
 | **[Customize Sync](customize_uri_schemes)** | Opens the URI Schemes page of the Customize dialog box. |
 | **[Customize Sync](customize_sync)** | Opens the Sync page of the Customize dialog box. |
 | **[Customize Optimization](customize_optimization)** | Opens the Optimization page of the Customize dialog box. |
+| **[Customize Web Browser](customize_web)** | Opens the Web Browser page of the Customize dialog box. |
 | **[Customize Syntax Check](customize_validation)** | Opens the Syntax Check page of the Customize dialog box. |
 | **[Customize Notifications](customize_notifications)** | Opens the Notifications page of the Customize dialog box. |
 | **[Customize Update](customize_update)** | Opens the Update page of the Customize dialog box. |
@@ -132,6 +133,7 @@ customize_sort
 customize_status
 customize_sv
 customize_sync
+customize_optimization
 customize_tab
 customize_toolbar
 customize_tools

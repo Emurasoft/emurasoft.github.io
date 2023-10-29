@@ -63,6 +63,10 @@ If this box is checked, you can use the AutoRepeat handle in non-Cell Selection 
 
 If this box is checked, the EmEditor window will be activated when text is dropped from another app.
 
+## Click the left edge of a line number to toggle the bookmark check box
+
+If this box is checked, clicking the left edge of a line number toggles the bookmark.
+
 ## Reset button
 
 Resets to default settings.

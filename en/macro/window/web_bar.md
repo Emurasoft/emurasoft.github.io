@@ -18,4 +18,4 @@ Set bar = WebBar
 
 ## Version
 
-Supported on EmEditor Professional Version 7.00 or later.
+Supported on EmEditor Professional Version 23.0 or later.
