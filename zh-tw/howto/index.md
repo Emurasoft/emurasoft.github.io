@@ -3,12 +3,12 @@
 
 ```{toctree}
 :maxdepth: 1
-customize/index
-edit/index
 file/index
-macro/index
-plugin/index
+edit/index
 search/index
 view/index
+customize/index
+macro/index
+plugin/index
 window/index
 ```
