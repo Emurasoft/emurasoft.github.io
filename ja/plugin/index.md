@@ -5,12 +5,12 @@ C++ プログラミング言語を使って、EmEditor の機能を拡張でき�
 
 ```{toctree}
 :maxdepth: 1
+member_variables/index
+exports/index
+message/index
+macro/index
 cmdid/index
 event/index
-exports/index
-macro/index
-member_variables/index
-message/index
-plugin_message/index
 structure/index
+plugin_message/index
 ```

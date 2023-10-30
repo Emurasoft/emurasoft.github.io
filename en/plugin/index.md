@@ -6,12 +6,15 @@ programming language.
 
 ```{toctree}
 :maxdepth: 1
+How To Create Plugins for EmEditor <https://github.com/Emurasoft/tutorial>
+Plug-in library files <https://github.com/Emurasoft/emeditor-plugin-library>
+Sample plug-in source codes <https://github.com/Emurasoft>
+member_variables/index
+exports/index
+message/index
+macro/index
 cmdid/index
 event/index
-exports/index
-macro/index
-member_variables/index
-message/index
-plugin_message/index
 structure/index
+plugin_message/index
 ```
