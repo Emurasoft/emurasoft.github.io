@@ -66,7 +66,6 @@ const _displayItem = (item, searchTerms, highlightTerms) => {
   const docFileSuffix = DOCUMENTATION_OPTIONS.FILE_SUFFIX;
   const docLinkSuffix = DOCUMENTATION_OPTIONS.LINK_SUFFIX;
   const showSearchSummary = DOCUMENTATION_OPTIONS.SHOW_SEARCH_SUMMARY;
-  const contentRoot = document.documentElement.dataset.content_root;
 
   const [docName, title, anchor, descr, score, _filename] = item;
 
@@ -79,11 +78,11 @@ const _displayItem = (item, searchTerms, highlightTerms) => {
     if (dirname.match(/\/index\/$/))
       dirname = dirname.substring(0, dirname.length - 6);
     else if (dirname === "index/") dirname = "";
-    requestUrl = contentRoot + dirname;
+    requestUrl = dirname;
     linkUrl = requestUrl;
   } else {
     // normal html builders
-    requestUrl = contentRoot + docName + docFileSuffix;
+    requestUrl = docName + docFileSuffix;
     linkUrl = docName + docLinkSuffix;
   }
   let linkEl = listItem.appendChild(document.createElement("a"));
