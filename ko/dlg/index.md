@@ -35,4 +35,5 @@ macro_customize/index
 about/index
 regist/index
 enter_maintenance/index
+opening/index
 ```
