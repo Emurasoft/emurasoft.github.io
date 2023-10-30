@@ -5,13 +5,13 @@
 ```{toctree}
 :maxdepth: 1
 notice/index
+howto/index
 cmd/index
 dlg/index
-history/index
-howto/index
 macro/index
 plugin/index
 purchase/index
+history/index
 support/index
 glossary/index
 howto/file/file_commandline.md
