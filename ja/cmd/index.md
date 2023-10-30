@@ -1,22 +1,21 @@
 # コマンド リファレンス
 
-
 ```{toctree}
 :maxdepth: 1
-csv/index
-bookmarks/index
-convert/index
-diff/index
-edit/index
-external_tools/index
 file/index
-help/index
+edit/index
 insert/index
-macros/index
-plugins/index
+convert/index
+bookmarks/index
 search/index
-sort/index
-tools/index
 view/index
+csv/index
+sort/index
+diff/index
+macros/index
+tools/index
+plugins/index
+external_tools/index
 window/index
+help/index
 ```

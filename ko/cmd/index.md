@@ -3,13 +3,13 @@
 
 ```{toctree}
 :maxdepth: 1
-diff/index
-edit/index
 file/index
-help/index
-macros/index
+edit/index
 search/index
-tools/index
 view/index
+diff/index
+macros/index
+tools/index
 window/index
+help/index
 ```
