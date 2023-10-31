@@ -11,8 +11,7 @@ checked, tabs will be disabled and cannot be displayed.
 
 ## Use Temporary File to Reduce Memory Usage check box
 
-If this box is checked, a part of the file contents will be saved as a temporary file while editing; this action reduces the system's memory usage. Since using a temporary file will slow down the
-running speed, EmEditor uses a temporary file only when the file size is larger than the specified size below.
+If this box is checked, a part of the file contents will be saved as a temporary file while editing; this action reduces the system's memory usage. Since using a temporary file will slow down the running speed, EmEditor uses a temporary file only when the file size is larger than the specified size below.
 
 ## Auto check box
 
