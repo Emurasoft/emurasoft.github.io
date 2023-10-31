@@ -9,18 +9,13 @@ that EmEditor minimizes the system's memory usage. However, an application error
 to terminate, even though the EmEditor's error handler can try to save unsaved documents when an application error happens. By checking this option, each window will run in an independent process, and an application error on one document will not cause other documents to terminate. If this is
 checked, tabs will be disabled and cannot be displayed.
 
-## Use Temporary File to Reduce Memory Usage check box
+## Enable Disk-Based check box
 
-If this box is checked, a part of the file contents will be saved as a temporary file while editing; this action reduces the system's memory usage. Since using a temporary file will slow down the running speed, EmEditor uses a temporary file only when the file size is larger than the specified size below.
+If this box is checked, EmEditor uses file-based operations for editing, and reduces the system's memory usage. If the Read Unmodified Lines from the Original File check box is also set, unmodified lines will be read from the original file, which increases the speed to open a file. If not, the file contents will be saved as a temporary file while opening a file, which reduces the file opening speed. Both cases reduce the system's memory usage. Since using a temporary file will slow down the running speed, EmEditor uses a temporary file only when the file size is larger than the specified size below.
 
-## Auto check box
+## Minimum File Size to Enable Disk-Based text box
 
-If this box is checked, EmEditor automatically determines whether a temporary file should be used to open a file depending on the available memory size. When this option is enabled, EmEditor will use a temporary file if the file size to be opened is more than approximately 1/4 of the available memory. Setting this option allows EmEditor to optimize the speed both for read and write. However, if you mainly read large files and don't edit them, disabling this option and entering a smaller number in the **Minimum File Size to use Temporary File** text box makes EmEditor to read large files faster.
-
-## Minimum File Size to use Temporary File text box
-
-Uses a temporary file when the file size is larger than the size specified here and the Use Temporary File to Reduce Memory Usage check box is checked. Specifying zero
-will always use a temporary file.
+Uses a disk-based operations when the file size is larger than the size specified here and the Enable Disk-Based check box is checked. Specifying zero will always enable disk-based operations.
 
 ## Read Unmodified Lines from the Original File check box
 
@@ -28,7 +23,11 @@ If this box is checked, unmodified lines will be read from the original file, wh
 
 ## Lock the Original File check box
 
-If this box is checked, the original file is locked when using a temporary file to open a file.
+If this box is checked, the original file is locked when the disk-based is enabled to open a file.
+
+## Use temporary files while editing check box
+
+If this box is checked, modified file contents will be saved to a temporary file while editing. While this action reduces the system's memory usage, it will slow down the running speed.
 
 ## Minimum File Size to Open Asynchronously text box
 
