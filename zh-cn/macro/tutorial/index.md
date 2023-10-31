@@ -2,43 +2,7 @@
 
 本节将通过简单的方式一步一步地教你如何使用宏。
 
-## 创建宏
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 操作字符串
-
-
-
-
-
-## 使用对象
-
-
 ```{toctree}
-:hidden:
 :maxdepth: 1
 tutorial_convert
 tutorial_copyfile

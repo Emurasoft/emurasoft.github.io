@@ -2,43 +2,7 @@
 
 이 섹션은 간단하게 단계별로 매크로를 사용하는 방법을 보여줍니다.
 
-## 매크로 생성
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 문자열 조작
-
-
-
-
-
-## 개체 사용
-
-
 ```{toctree}
-:hidden:
 :maxdepth: 1
 tutorial_convert
 tutorial_copyfile

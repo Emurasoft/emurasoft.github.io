@@ -2,43 +2,7 @@
 
 本節將通過簡單的方式一步一步地教您如何使用巨集。
 
-## 創建巨集
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 操作字串
-
-
-
-
-
-## 使用對象
-
-
 ```{toctree}
-:hidden:
 :maxdepth: 1
 tutorial_convert
 tutorial_copyfile
