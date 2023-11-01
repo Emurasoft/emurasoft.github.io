@@ -22,6 +22,8 @@
 | **[删除空行](../edit/remove_empty_lines)** | 删除选区内或整个文档中的空行。 |
 | **[删除空列](../edit/remove_empty_columns)** | 删除 CSV 文档中的空列。 |
 | **[重新转换](../edit/reconvert)** | 使用可以进行重新转换的输入法重新转换选定区域。 |
+| **[格式化文档](format_document.md)** | Formats the entire document using the Language Server Protocol. |
+| **[格式化选区](format_selection.md)** | Formats the selection using the Language Server Protocol. |
 | **[将 HTML/XML 字符引用转换为 Unicode](../edit/decode_html_char_ref)** | 解码选中的 HTML/XML 字符引用文本。 |
 | **[将 Unicode 转换为 HTML/XML 数字字符引用](../edit/encode_html_char_ref)** | 把选中的文本编码为 HTML/XML 数字字符引用。 |
 | **[将 Unicode 转换为 HTML 字符实体引用](../edit/encode_html_char_entity_ref)** | 把选中的文本编码为 HTML/XML 数字字符引用。 |
