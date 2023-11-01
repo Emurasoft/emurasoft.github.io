@@ -141,6 +141,7 @@ customize_update
 customize_uri_schemes
 customize_validation
 customize_view
+customize_web
 customize_window
 customize_workspace
 define_code_page

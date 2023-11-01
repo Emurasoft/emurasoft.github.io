@@ -44,3 +44,9 @@
 | **[Unicode Normalization Form KC (Compatibility Composition)](../edit/unicode_norm_fkc)** | Apply Unicode Normalization Form KC (Compatibility Composition) to the selected string. |
 | **[Unicode Normalization Form KD (Compatibility Decomposition)](../edit/unicode_norm_fkd)** | Apply Unicode Normalization Form KD (Compatibility Decomposition) to the selected string. |
 
+```{toctree}
+:maxdepth: 1
+:hidden:
+format_document
+format_selection
+```
