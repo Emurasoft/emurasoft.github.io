@@ -98,6 +98,7 @@ thread_id
 top
 valid
 visible
+web_bar
 width
 window_alert
 window_close
