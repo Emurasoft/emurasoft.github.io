@@ -7,17 +7,32 @@
 ### \[JavaScript\]
 
 ```
-b = object.Type;
-object.Type = b;
+type = object.Type;
+object.Type = type;
 ```
 
 ### \[VBScript\]
 
 ```
-b = object.Type
-object.Type = b
+type = object.Type
+object.Type = type
 ```
+
+## 備註
+
+Type 屬性應該是以下值之一。
+
+|     |     |
+| --- | --- |
+| eeTypeCSS | CSS |
+| eeTypeCpp | C++ |
+| eeTypeHTML | HTML |
+| eeTypeJS | JavaScript |
+| eeTypeJSON | JSON |
+| eeTypePerl | Perl |
+| eeTypePython | Python |
+
 
 ## 版本
 
-支持 EmEditor Professional 版 23.00 或之後的版本。
+支持 EmEditor Professional 版 23.0 或之後的版本。

@@ -134,6 +134,8 @@ _nCmd_
 | EI\_DOC\_TO\_INDEX\_REAL | 将文档索引转换为文档句柄。与 EI\_INDEX\_TO\_DOC 不同，此命令计算在拆分窗口中唯一的单个文档。 | 指定文档的句柄。 | (int)nIndex<br>返回从零开始的文档索引。 |
 | EI\_GET\_TITLE | 检索当前文档的标题。 | (STRING\_BUF\*)pStringBuf<br> 指定指针指向一个检索标题的 [STRING\_BUF](../structure/string_buf) 结构。 | 不使用。 |
 | EI\_SET\_TITLE | 设置当前文档的标题。标题可能包含由换行符 (\\n) 分隔的长标题和短标题。 | (LPCWSTR)pszTitle<br> 指定一个新标题。 | (HRESULT)hr<br>如果失败，则返回负值。 |
+| EI\_SET\_WEB | 设置网页浏览器的标志。 | (UINT)nFlags<br> 指定一个新标志。 | 不使用。 |
+| EI\_OPEN\_WEB | 打开指定 URL 的网站。 | (LPCWSTR)pszURL<br> 指定一个 URL。 | (HRESULT)hWnd<br>返回网页视图的窗口句柄。 |
 
 _iDoc_
 

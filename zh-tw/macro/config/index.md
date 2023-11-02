@@ -16,6 +16,7 @@
 | [Highlight](highlight) | 檢索 [HighlightProp 對象](../highlight_prop/index)。 |
 | [Indent](indent) | 檢索 [IndentProp 對象](../indent_prop/index)。 |
 | [Keyboard](keyboard) | 檢索 [KeyboardProp 對象](../keyboard_prop/index)。 |
+| [LanguageServer](language_server) | 檢索 [LanguageServerProp 對象](../language_server_prop/index)。 |
 | [Link](link) | 檢索 [LinkProp 對象](../link_prop/index)。 |
 | [Mark](mark) | 檢索 [MarkProp 對象](../mark_prop/index)。 |
 | [Name](name) | 為目前的組態對象檢索名稱。 |
@@ -54,6 +55,7 @@ highlight
 indent
 keyboard
 link
+language_server
 load
 mark
 name

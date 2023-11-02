@@ -20,4 +20,4 @@ object.Enabled = b
 
 ## 版本
 
-支持 EmEditor Professional 版 23.00 或之後的版本。
+支持 EmEditor Professional 版 23.0 或之後的版本。
