@@ -18,7 +18,7 @@
 - 状态栏: 无
 - 默认快捷键: 无
 
-## 插件命令ID
+## 插件命令 ID
 
 ```
 EEID_CUSTOMIZE_ACTIVE_STRING (9057)```

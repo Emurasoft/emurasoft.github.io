@@ -1,4 +1,4 @@
-# Keyboard 對象
+# KeyboardProp 對象
 
 ## 屬性
 

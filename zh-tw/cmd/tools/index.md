@@ -33,6 +33,7 @@
 | **[自訂 URI 配置](customize_uri_schemes)** | 打開自訂對話方塊中的 URI 配置頁面。 |
 | **[自訂同步](customize_sync)** | 打開自訂對話方塊中的同步頁面。 |
 | **[自訂優化](customize_optimization)** | 打開自訂對話方塊中的優化頁面。 |
+| **[自訂網頁瀏覽器](customize_web)** | 打開自訂對話方塊中的網頁瀏覽器頁面。 |
 | **[自訂語法檢查](customize_validation)** | 打開自訂對話方塊中的語法檢查頁面。 |
 | **[自訂通知](customize_notifications)** | 打開自訂對話方塊中的通知頁面。 |
 | **[自訂更新](customize_update)** | 打開自訂對話方塊中的更新頁面。 |
@@ -132,6 +133,7 @@ customize_sort
 customize_status
 customize_sv
 customize_sync
+customize_optimization
 customize_tab
 customize_toolbar
 customize_tools
@@ -140,6 +142,7 @@ customize_update
 customize_uri_schemes
 customize_validation
 customize_view
+customize_web
 customize_window
 customize_workspace
 define_code_page

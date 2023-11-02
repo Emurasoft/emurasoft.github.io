@@ -22,6 +22,7 @@
 | [**大纲栏**](outline_bar) | 显示或隐藏大纲栏。 |
 | [**大纲导航**](outline_guide) | 显示或隐藏大纲导航。 |
 | [**大纲显示（弹出菜单）**](outline_popup) | 显示一个弹出菜单来指定大纲设定。 |
+| [**网页浏览器**](view_web) | 显示或隐藏网页浏览器。 |
 | [**通知**](toggle_notifications) | 显示或隐藏通知。 |
 | [**布局 1（焦点模式）**](full_screen) | 切换布局 1（默认为焦点模式）模式。 |
 | [**布局**](layout1) | 切换此布局（多个项目）。 |
@@ -154,6 +155,7 @@ outline_bar
 outline_bar_guide
 outline_guide
 outline_popup
+view_web
 output_clear
 refresh_toolbars
 reset_font_size

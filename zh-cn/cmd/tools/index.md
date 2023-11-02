@@ -33,6 +33,7 @@
 | **[自定义 URI 方案](customize_uri_schemes)** | 打开自定义对话框中的 URI 方案页面。 |
 | **[自定义同步](customize_sync)** | 打开自定义对话框中的同步页面。 |
 | **[自定义优化](customize_optimization)** | 打开自定义对话框中的优化页面。 |
+| **[自定义网页浏览器](customize_web)** | 打开自定义对话框中的网页浏览器页面。 |
 | **[自定义语法检查](customize_validation)** | 打开自定义对话框中的语法检查页面。 |
 | **[自定义通知](customize_notifications)** | 打开自定义对话框中的通知页面。 |
 | **[自定义更新](customize_update)** | 打开自定义对话框中的更新页面。 |
@@ -132,6 +133,7 @@ customize_sort
 customize_status
 customize_sv
 customize_sync
+customize_optimization
 customize_tab
 customize_toolbar
 customize_tools
@@ -140,6 +142,7 @@ customize_update
 customize_uri_schemes
 customize_validation
 customize_view
+customize_web
 customize_window
 customize_workspace
 define_code_page
