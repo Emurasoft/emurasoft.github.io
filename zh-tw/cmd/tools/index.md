@@ -133,7 +133,6 @@ customize_sort
 customize_status
 customize_sv
 customize_sync
-customize_optimization
 customize_tab
 customize_toolbar
 customize_tools
