@@ -73,6 +73,7 @@ scroll_prop/index
 selection/index
 shell/index
 spell_prop/index
+web_bar/index
 window/index
 windows/index
 wrap_prop/index
