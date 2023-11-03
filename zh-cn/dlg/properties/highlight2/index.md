@@ -51,6 +51,7 @@
 | **（无）** | 使用一个与 HTML 无关的文件。 |
 | **HTML** | 使用一个 HTML 或 ASP 文件。这个语法使用 HTML，CSS，JavaScript，VBScript，还有 Script 配置。 |
 | **HTML-内嵌** | 使用如同 JSP 或 PHP，HTML 内嵌语言的脚本语言。这个语法使用 HTML，CSS，JavaScript，VBScript，还有 Script 配置。 |
+| **Markdown** | 使用 Markdown 来强调粗体和斜体。 |
 
 ## “高亮配对标签”复选框
 
