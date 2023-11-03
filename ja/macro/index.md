@@ -56,6 +56,7 @@ interface/index
 keyboard_item/index
 keyboard_list/index
 keyboard_prop/index
+language_server_prop/index
 link_prop/index
 mark_prop/index
 match/index
@@ -72,6 +73,7 @@ scroll_prop/index
 selection/index
 shell/index
 spell_prop/index
+web_bar/index
 window/index
 windows/index
 wrap_prop/index

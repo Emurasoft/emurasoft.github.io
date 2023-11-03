@@ -18,6 +18,6 @@ b = object.OpenFileInQuotes
 object.OpenFileInQuotes = b
 ```
 
-## Version
+## バージョン
 
 Supported on EmEditor Professional Version 13 or later.

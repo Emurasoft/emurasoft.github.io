@@ -132,6 +132,8 @@ _nCmd_
 | EI\_DOC\_TO\_INDEX\_REAL | ドキュメントのハンドルからインデックスに変換します。EI\_INDEX\_TO\_DOC と異なり、このコマンドは分割ウィンドウ内の個々の文書を数えます。 | ドキュメントへのハンドルを指定します。 | (int)nIndex<br>ドキュメントの 0 を基底とするインデックスを返します。 |
 | EI\_GET\_TITLE | 現在の文書のタイトルを取得します。 | (STRING\_BUF\*)pStringBuf<br> タイトルを取得するための [STRING\_BUF 構造体](../structure/string_buf) へのポインタを指定します。 | 使用されません。 |
 | EI\_SET\_TITLE | 現在の文書のタイトルを設定します。タイトルには長いタイトルと短いタイトルを LF (\\n) で区切って指定することができます。 | (LPCWSTR)pszTitle<br>新しいタイトルを指定します。 | (HRESULT)hr<br>失敗すると負の値を返します。 |
+| EI\_SET\_WEB | ウェブ ブラウザのフラグを設定します。 | (UINT)nFlags<br> 新しいフラグを指定します。 | 使用されません。 |
+| EI\_OPEN\_WEB | 指定する URL のウェブ サイトを開きます。 | (LPCWSTR)pszURL<br> URL を指定します。 | (HRESULT)hWnd<br>ウェブ ビューのウィンドウ ハンドルを返します。 |
 
 _iDoc_
 

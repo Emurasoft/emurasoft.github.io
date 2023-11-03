@@ -23,6 +23,7 @@
 | [アウトライン バー](outline_bar) | アウトライン バーの表示/非表示を切り替えます。 |
 | [アウトライン ガイド](outline_guide) | アウトライン ガイドの表示/非表示を切り替えます。 |
 | [アウトライン (ポップアップ メニュー)](outline_popup) | ポップアップ メニューを表示してアウトラインの設定を行います。 |
+| [ウェブ ブラウザ](view_web) | ウェブ ブラウザの表示/非表示を切り替えます。 |
 | [通知](toggle_notifications) | 通知の表示/非表示を切り替えます。 |
 | [レイアウト 1 (集中モード)](full_screen) | レイアウト 1 (既定では集中モード) のオンとオフを切り替えます |
 | [レイアウト](layout1) | このレイアウトのオンとオフを切り替えます (複数項目)。 |
@@ -155,6 +156,7 @@ outline_bar
 outline_bar_guide
 outline_guide
 outline_popup
+view_web
 output_clear
 refresh_toolbars
 reset_font_size

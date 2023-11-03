@@ -16,6 +16,7 @@
 | [Highlight](highlight) | [HighlightProp オブジェクト](../highlight_prop/index) を取得します。 |
 | [Indent](indent) | [IndentProp オブジェクト](../indent_prop/index) を取得します。 |
 | [Keyboard](keyboard) | [KeyboardProp オブジェクト](../keyboard_prop/index) を取得します。 |
+| [LanguageServer](language_server) | [LanguageServerProp オブジェクト](../language_server_prop/index) を取得します。 |
 | [Link](link) | [LinkProp オブジェクト](../link_prop/index) を取得します。 |
 | [Mark](mark) | [MarkProp オブジェクト](../mark_prop/index) を取得します。 |
 | [Name](name) | 現在の設定のオブジェクトの名前を取得します。 |
@@ -54,6 +55,7 @@ highlight
 indent
 keyboard
 link
+language_server
 load
 mark
 name

@@ -22,6 +22,8 @@
 | [空行を削除](../edit/remove_empty_lines) | 選択範囲または文書全体の空行を削除します。 |
 | [空列を削除](../edit/remove_empty_columns) | CSV文書から空列を削除します。 |
 | [再変換](../edit/reconvert) | 再変換対応の IME を使って確定文字列の再変換を行います。 |
+| [文書のフォーマット](format_document.md) | 言語サーバー プロトコルを使用して文書全体をフォーマットします。 |
+| [選択範囲のフォーマット](format_selection.md) | 言語サーバー プロトコルを使用して選択範囲をフォーマットします。 |
 | [HTML/XML文字参照をUnicodeに変換](../edit/decode_html_char_ref) | 選択テキストをHTML/XML文字参照からUnicodeに変換します。 |
 | [UnicodeをHTML/XML数値文字参照に変換](../edit/encode_html_char_ref) | 選択テキストをUnicodeからHTML/XML数値文字参照に変換します。 |
 | [UnicodeをHTML文字実体参照に変換](../edit/encode_html_char_entity_ref) | 選択テキストをUnicodeからHTML文字実体参照に変換します。 |
@@ -42,3 +44,9 @@
 | [Unicode正規化形式KC (互換合成)](../edit/unicode_norm_fkc) | 選択テキストに Unicode正規化形式KC (互換合成) を適用します。 |
 | [Unicode正規化形式KD (互換分解)](../edit/unicode_norm_fkd) | 選択テキストに Unicode正規化形式KD (互換分解) を適用します。 |
 
+```{toctree}
+:maxdepth: 1
+:hidden:
+format_document
+format_selection
+```
