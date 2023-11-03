@@ -22,6 +22,7 @@
 | [**大綱顯示條**](outline_bar) | 顯示或隱藏大綱顯示條。 |
 | [**大綱導引**](outline_guide) | 顯示或隱藏大綱導引。 |
 | [**大綱顯示 (快顯功能表)**](outline_popup) | 顯示一個快顯功能表來指定大綱設定。 |
+| [**網頁瀏覽器**](view_web) | 顯示或隱藏網頁瀏覽器。 |
 | [**通知**](toggle_notifications) | 顯示或隱藏通知。 |
 | [**版面配置 1（焦點模式）**](full_screen) | 切換版面配置 1（預設為焦點模式）模式。 |
 | [**版面配置**](layout1) | 切換此版面配置（多個項目）。 |
@@ -154,6 +155,7 @@ outline_bar
 outline_bar_guide
 outline_guide
 outline_popup
+view_web
 output_clear
 refresh_toolbars
 reset_font_size

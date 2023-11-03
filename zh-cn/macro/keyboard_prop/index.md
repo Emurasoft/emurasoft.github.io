@@ -1,4 +1,4 @@
-# Keyboard 对象
+# KeyboardProp 对象
 
 ## 属性
 

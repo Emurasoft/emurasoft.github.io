@@ -34,6 +34,7 @@
 | **[Top](top)** | 以像素為單位返回或設置指定視窗的垂直位置。 |
 | **[Valid](valid)** | 返回是否視窗句柄還有效。 |
 | **[Visible](visible)** | 返回是否視窗可見。 |
+| **[WebBar](web_bar)** | 返回 WebBar 對象。 |
 | **[Width](width)** | 返回或設置視窗的寬度。 |
 
 ## 方法
@@ -97,6 +98,7 @@ thread_id
 top
 valid
 visible
+web_bar
 width
 window_alert
 window_close

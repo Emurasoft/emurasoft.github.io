@@ -51,6 +51,7 @@
 | **(無)** | 使用一個與 HTML 無關的檔案。 |
 | **HTML** | 使用一個 HTML 或 ASP 檔案。這個語法使用 HTML，CSS，JavaScript，VBScript，還有 Script 組態。 |
 | **HTML-內嵌** | 使用如同 JSP 或 PHP，HTML 內嵌語言的指令碼語言。這個語法使用 HTML，CSS，JavaScript，VBScript，還有 Script 組態。 |
+| **Markdown** | 使用 Markdown 來強調粗體和斜體。 |
 
 ## 「亮顯配對標籤」核取方塊
 

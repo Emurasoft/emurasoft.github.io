@@ -22,7 +22,7 @@
 | [**Toggle Outline Bar**](outline_bar) | Shows or hides the outline bar |
 | [**Toggle Outline Guide**](outline_guide) | Shows or hides the outline guide. |
 | [**Outlining (Popup Menu)**](outline_popup) | Shows a popup menu to specify outline settings. |
-| [**Web Browser**](view_web) | Shows or hides the Web Browser |
+| [**Web Browser**](view_web) | Shows or hides the Web Browser. |
 | [**Notifications**](toggle_notifications) | Show or hides Notifications. |
 | [**Layout 1 (Focus Mode)**](full_screen) | Toggles Layout 1 (Focus Mode by default). |
 | [**Layout**](layout1) | Toggles this layout (multiple items). |

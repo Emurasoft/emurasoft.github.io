@@ -1,37 +1,39 @@
 # 「自訂」對話方塊
 
-當您選擇 [**自訂** 命令](../../cmd/tools/common_settings) 時，會顯示這個對話方塊。您可以設置應用程式的全局選項。
+當您選擇[**自訂** 命令](../../cmd/tools/common_settings)時，會顯示這個對話方塊。
+您可以在此設置應用程式的全局選項。
 
 
 ```{toctree}
 :maxdepth: 1
-active_string/index
-advanced/index
-clipboard/index
-csv/index
-csv_options/index
-edit/index
 file/index
-format/index
-history/index
-lang/index
-layouts/index
-marks/index
-mouse/index
-notifications/index
-optimization/index
-outline/index
-search/index
-shortcut/index
+edit/index
+clipboard/index
 sort/index
-status/index
-sync/index
-tab/index
-text_rendering/index
-update/index
-uri_schemes/index
-validation/index
+search/index
+history/index
 view/index
+layouts/index
+text_rendering/index
 window/index
 workspace/index
+tab/index
+mouse/index
+status/index
+shortcut/index
+marks/index
+format/index
+outline/index
+advanced/index
+csv/index
+csv_options/index
+active_string/index
+uri_schemes/index
+sync/index
+optimization/index
+validation/index
+web/index
+notifications/index
+update/index
+lang/index
 ```

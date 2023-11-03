@@ -135,6 +135,8 @@ _nCmd_
 | EI\_DOC\_TO\_INDEX\_REAL | 將文件索引轉換為文件控點。與 EI\_INDEX\_TO\_DOC 不同，此命令計算在分割視窗中唯一的單個文件。 | 指定文件的控點。 | (int)nIndex<br>返回從零開始的文件索引。 |
 | EI\_GET\_TITLE | 檢索目前的文檔的標題。 | (STRING\_BUF\*)pStringBuf<br> 指定指針指向一個檢索標題的 [STRING\_BUF](../structure/string_buf) 結構。 | 不使用。 |
 | EI\_SET\_TITLE | 設定目前的文檔的標題。標題可能包含由換行符 (\\n) 分隔的長標題和短標題。 | (LPCWSTR)pszTitle<br> 指定一個新標題。 | (HRESULT)hr<br>如果失敗，則返回負值。 |
+| EI\_SET\_WEB | 設定網頁瀏覽器的旗標。 | (UINT)nFlags<br> 指定一個新旗標。 | 不使用。 |
+| EI\_OPEN\_WEB | 打開指定 URL 的網站。 | (LPCWSTR)pszURL<br> 指定一個 URL。 | (HRESULT)hWnd<br>返回網頁視圖的視窗控點。 |
 
 _iDoc_
 

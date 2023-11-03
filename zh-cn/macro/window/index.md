@@ -34,6 +34,7 @@
 | **[Top](top)** | 以像素为单位返回或设置指定窗口的垂直位置。 |
 | **[Valid](valid)** | 返回是否窗口句柄还有效。 |
 | **[Visible](visible)** | 返回是否窗口可见。 |
+| **[WebBar](web_bar)** | 返回 WebBar 对象。 |
 | **[Width](width)** | 返回或设置窗口的宽度。 |
 
 ## 方法
@@ -97,6 +98,7 @@ thread_id
 top
 valid
 visible
+web_bar
 width
 window_alert
 window_close
