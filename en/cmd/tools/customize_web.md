@@ -22,7 +22,7 @@ where you can define common application settings.
 ## Plug-in Command ID
 
 ```
-EEID_CUSTOMIZE_OPTIMIZATION (9069)```
+EEID_CUSTOMIZE_WEB (9069)```
 
 ## Macros
 
