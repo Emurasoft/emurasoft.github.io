@@ -1,4 +1,4 @@
-# EE\_LINE\_EROM\_CHAR
+# EE\_LINE\_FROM\_CHAR
 
 檢索包含指定字符索引 (序列位置) 的行的索引。一個字符索引是以零為初始值的整個文本起始處的字符的索引。您能明確地發送該消息或用
 [Editor\_LineFromChar](../macro/editor_linefromchar)
