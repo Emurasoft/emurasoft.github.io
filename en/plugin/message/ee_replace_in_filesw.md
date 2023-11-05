@@ -8,7 +8,11 @@ send this message explicitly or use the
 EE_REPLACE_IN_FILESW
 wParam = 0;
 lParam = (LPARAM) (GREP_INFO_EX*) pGrepInfo;
-or
+```
+
+Or
+
+```
 EE_REPLACE_IN_FILESW
 wParam = (WPARAM) (BATCH_GREP_INFO*) pBatchGrepInfo;
 lParam = (LPARAM) (FIND_REPLACE_INFO*) pBatchArray;
