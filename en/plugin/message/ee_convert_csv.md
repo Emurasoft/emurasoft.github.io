@@ -2,7 +2,7 @@
 
 Converts the CSV format of the current document. You can send this message explicitly or use the [Editor\_ConvertCsv](../macro/editor_convertcsv) inline function.
 
-EE\_EDIT\_COLUMN
+EE\_CONVERT\_CSV
 
 wParam = (WPARAM)(CONVERT\_CSV\_INFO\*)pInfo;
 

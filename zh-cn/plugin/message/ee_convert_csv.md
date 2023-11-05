@@ -2,7 +2,7 @@
 
 转换当前文档的 CSV 格式。你能明确地发送该消息或用 [Editor\_ConvertCsv](../macro/editor_convertcsv) 内联函数。
 
-EE\_EDIT\_COLUMN
+EE\_CONVERT\_CSV
 
 wParam = (WPARAM)(CONVERT\_CSV\_INFO\*)pInfo;
 
