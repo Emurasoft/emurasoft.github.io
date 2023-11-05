@@ -24,7 +24,7 @@ func walkFunc(path string, d fs.DirEntry, err error) error {
 		return err
 	}
 
-	if d.Type().IsDir() {
+	if d.Type().IsDir() || d.Name() == "index.md" {
 		return nil
 	}
 
