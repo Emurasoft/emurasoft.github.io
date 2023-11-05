@@ -3,7 +3,7 @@
 Retrieves the number of the lines for the specified document. You can send this message
 explicitly or use the [Editor\_DocGetLines](../macro/editor_docgetlines) inline function or the [Editor\_GetLines](../macro/editor_getlines) inline function.
 
-EE\_QUERY\_STATUS
+EE\_GET\_LINES
 
 wParam = (WPARAM) MAKEWPARAM(nLogical, iDoc+1);
 
