@@ -3,7 +3,7 @@
 Converts characters. You can send this message explicitly or use the
 [Editor\_Convert](../macro/editor_convert) inline function.
 
-EE\_CONVERT
+EE\_CONVERT\_EX
 
 wParam = (WPARAM) (CONVERT\_INFO\*)pInfo;
 

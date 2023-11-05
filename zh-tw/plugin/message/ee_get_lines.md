@@ -2,7 +2,7 @@
 
 檢索在 EmEditor 中的行數。您能明確地發送該消息或用 [Editor\_DocGetLines](../macro/editor_docgetlines) 內嵌函式或 [Editor\_GetLines](../macro/editor_getlines) 內嵌函式。
 
-EE\_QUERY\_STATUS
+EE\_GET\_LINES
 
 wParam = (WPARAM) MAKEWPARAM(nLogical, iDoc+1);
 

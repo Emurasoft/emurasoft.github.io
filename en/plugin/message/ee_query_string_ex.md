@@ -3,7 +3,7 @@
 Queries the string associated with the specified command. This message supports long file paths exceeding MAX\_PATH characters. You can send this message explicitly or by
 using the [Editor\_QueryStringEx](../macro/editor_querystringex) inline function.
 
-EE\_QUERY\_STRING
+EE\_QUERY\_STRING\_EX
 
 wParam = 0;
 

@@ -2,7 +2,7 @@
 
 查询与指定的命令相关联的字符串。此消息支持超过 MAX\_PATH 字符的长文件路径。你能明确地发送该消息或用 [Editor\_QueryStringEx](../macro/editor_querystringex) 内联函数。
 
-EE\_QUERY\_STRING
+EE\_QUERY\_STRING\_EX
 
 wParam = 0;
 

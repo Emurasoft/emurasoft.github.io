@@ -3,7 +3,7 @@
 クリップボードの履歴を操作します。このメッセージを直接送るか、または [Editor\_GetClip](../macro/editor_getclip)、 [Editor\_GetClipPos](../macro/editor_getclippos)、 [Editor\_InsertClip](../macro/editor_insertclip)、 [Editor\_RemoveClip](../macro/editor_removeclip)、 [Editor\_RotateClip](../macro/editor_rotateclip)、または
 [Editor\_SetClipPos](../macro/editor_setclippos) インライン関数を使うことができます。
 
-EE\_ADD\_REF
+EE\_CLIP\_HISTORY
 
 wParam = 0;
 
