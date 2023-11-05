@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io"
 	"io/fs"
 	"log"
@@ -10,12 +11,16 @@ import (
 )
 
 func main() {
-	err := filepath.WalkDir(
-		`C:\Users\MakotoEmura\Documents\emeditor-help\en\plugin\message`,
-		walkFunc,
-	)
-	if err != nil {
-		log.Panic(err)
+	langIDs := []string{"en", "ja", "ko", "zh-cn", "zh-tw"}
+
+	for _, langID := range langIDs {
+		err := filepath.WalkDir(
+			fmt.Sprintf(`C:\Users\MakotoEmura\Documents\emeditor-help\%s\plugin\message`, langID),
+			walkFunc,
+		)
+		if err != nil {
+			log.Panic(err)
+		}
 	}
 }
 
