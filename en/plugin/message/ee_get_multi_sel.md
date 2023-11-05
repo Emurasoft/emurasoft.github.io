@@ -4,11 +4,11 @@ Retrieves the information of a specified selection when multiple selections
 are available. You can send this message
 explicitly or use the [Editor\_GetMultiSel](../macro/editor_getmultisel) inline function.
 
-EE\_GET\_MULTI\_SEL
-
-wParam = (WPARAM) (UINT\_PTR) iSel;
-
-lParam = (LPARAM) (SEL\_INFO\*) pSelInfo;
+```
+EE_GET_MULTI_SEL
+wParam = (WPARAM) (UINT_PTR) iSel;
+lParam = (LPARAM) (SEL_INFO*) pSelInfo;
+```
 
 ## Parameters
 

@@ -2,11 +2,11 @@
 
 사용자 지정 도구 모음을 엽니다. 이 메시지를 명시적으로 또는 [Editor\_ToolbarOpen](../macro/editor_toolbaropen) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_TOOLBAR\_OPEN
-
+```
+EE_TOOLBAR_OPEN
 wParam = 0;
-
-lParam = (LPARAM) (TOOLBAR\_INFO\*) pToolbarInfo;
+lParam = (LPARAM) (TOOLBAR_INFO*) pToolbarInfo;
+```
 
 ## 매개 변수
 

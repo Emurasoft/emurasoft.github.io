@@ -2,11 +2,11 @@
 
 当多个选区都可用时，检索一个指定选区的信息。你能明确地发送该消息或用 [Editor\_GetMultiSel](../macro/editor_getmultisel) 内联函数。
 
-EE\_GET\_MULTI\_SEL
-
-wParam = (WPARAM) (UINT\_PTR) iSel;
-
-lParam = (LPARAM) (SEL\_INFO\*) pSelInfo;
+```
+EE_GET_MULTI_SEL
+wParam = (WPARAM) (UINT_PTR) iSel;
+lParam = (LPARAM) (SEL_INFO*) pSelInfo;
+```
 
 ## 参数
 

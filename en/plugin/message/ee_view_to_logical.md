@@ -5,11 +5,11 @@ coordinates. You can send this message explicitly or use the
 [Editor\_ViewToLogical](../macro/editor_viewtological)
 inline function.
 
-EE\_VIEW\_TO\_LOGICAL
-
-wParam = (WPARAM) (POINT\_PTR\*) pptView;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
+```
+EE_VIEW_TO_LOGICAL
+wParam = (WPARAM) (POINT_PTR*) pptView;
+lParam = (LPARAM) (POINT_PTR*) pptLogical;
+```
 
 ## Parameters
 

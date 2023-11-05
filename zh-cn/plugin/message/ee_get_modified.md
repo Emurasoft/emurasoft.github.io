@@ -2,11 +2,11 @@
 
 检索文本的修改状态。你能明确地发送该消息或用 [Editor\_GetModified](../macro/editor_getmodified) 或 [Editor\_DocGetModified](../macro/editor_docgetmodified) 内联函数。
 
-EE\_GET\_MODIFIED
-
+```
+EE_GET_MODIFIED
 wParam = (WPARAM) MAKEWPARAM(0, iDoc+1);
-
 lParam = hDoc;
+```
 
 ## 参数
 

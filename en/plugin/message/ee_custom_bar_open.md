@@ -3,11 +3,11 @@
 Opens a custom bar. If a custom bar is already opened before sending this message, EmEditor closes the custom bar, and opens a new custom bar. You can send this message
 explicitly or use the [Editor\_CustomBarOpen](../macro/editor_custombaropen) inline function.
 
-EE\_CUSTOM\_BAR\_OPEN
-
+```
+EE_CUSTOM_BAR_OPEN
 wParam = 0;
-
 lParam = (LPCTSTR) (LPCTSTR) pCustomBarInfo;
+```
 
 ## Parameters
 

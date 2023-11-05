@@ -4,11 +4,11 @@ Retrieves the most recently dropped file. You can send
 this message explicitly or use the
 [Editor\_GetDroppedFile](../macro/editor_getdroppedfile) inline function.
 
-EE\_GET\_DROPPED\_FILE
-
+```
+EE_GET_DROPPED_FILE
 wParam = (WPARAM) (int) nIndex;
-
 lParam = (LPARAM) (LPWSTR) pszBuf;
+```
 
 ## Parameters
 

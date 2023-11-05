@@ -3,11 +3,11 @@
 유니코드 문자열을 대체합니다. 이 메시지를 명시적으로 또는 [Editor\_ReplaceW](../macro/editor_replacew) 인라인 함수를
 사용하여 보낼 수 있습니다.
 
-EE\_REPLACEW
-
+```
+EE_REPLACEW
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szFindReplace;
+```
 
 ## 매개 변수
 

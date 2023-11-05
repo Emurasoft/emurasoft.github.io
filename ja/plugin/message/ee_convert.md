@@ -2,11 +2,11 @@
 
 文字変換を行います。このメッセージを直接送るか、または [Editor\_Convert インライン関数](../macro/editor_convert) を使うことができます。
 
-EE\_CONVERT
-
+```
+EE_CONVERT
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szChars;
+```
 
 ## パラメータ
 

@@ -2,11 +2,11 @@
 
 重排 CSV 列。你能明确地发送该消息或用 [Editor\_RearrangeColumns](../macro/editor_rearrangecolumns) 内联函数。
 
-EE\_REARRANGE\_COLUMNS
-
-wParam = (WPARAM) (REARRANGE\_COLULMNS\_INFO\*)pInfo;
-
+```
+EE_REARRANGE_COLUMNS
+wParam = (WPARAM) (REARRANGE_COLULMNS_INFO*)pInfo;
 lParam = 0;
+```
 
 ## 参数
 

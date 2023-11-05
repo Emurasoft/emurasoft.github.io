@@ -3,11 +3,11 @@
 Displays the Keyboard Properties for the specified command ID and configuration. You can send this message explicitly or use the
 [Editor\_KeyboardProp](../macro/editor_keyboardprop) inline function.
 
-EE\_KEYBOARD\_PROP
-
+```
+EE_KEYBOARD_PROP
 wParam = (WPARAM)(UINT)nCmdID;
-
 lParam = (LPARAM)(LPCWSTR)pszConfigName;
+```
 
 ## Parameters
 

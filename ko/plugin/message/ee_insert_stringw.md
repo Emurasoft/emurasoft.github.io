@@ -6,11 +6,11 @@
 [Editor\_OverwriteW](../macro/editor_overwritew) 인라인 함수를 사용할 수
 있습니다..
 
-EE\_INSERT\_STRINGW
-
+```
+EE_INSERT_STRINGW
 wParam = nInsertType;
-
 lParam = (LPARAM) (LPCWSTR) szString;
+```
 
 ## 매개 변수
 

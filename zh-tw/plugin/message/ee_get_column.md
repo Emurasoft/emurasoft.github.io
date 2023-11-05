@@ -2,11 +2,11 @@
 
 在 CSV 模式中檢索一欄文字。你能明確地發送這條消息或用 [Editor\_GetColumn](../macro/editor_getcolumn) 內嵌函式。
 
-EE\_GET\_COLUMN
-
+```
+EE_GET_COLUMN
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (COLUMN\_STRUCT\*) pColumnStruct;
+lParam = (LPARAM) (COLUMN_STRUCT*) pColumnStruct;
+```
 
 ## 參數
 

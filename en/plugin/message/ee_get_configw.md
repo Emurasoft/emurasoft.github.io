@@ -5,11 +5,11 @@ this message explicitly or use the [Editor\_DocGetConfigW](../macro/editor_docge
 [Editor\_GetConfigW](../macro/editor_getconfigw)
 inline function.
 
-EE\_GET\_CONFIGW
-
+```
+EE_GET_CONFIGW
 wParam = MAKEWPARAM(0, (iDoc)+1);
-
 lParam = (LPARAM) (LPWSTR) szConfigName;
+```
 
 ## Parameters
 

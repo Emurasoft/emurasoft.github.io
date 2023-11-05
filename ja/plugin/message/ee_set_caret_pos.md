@@ -2,11 +2,11 @@
 
 カーソル位置を移動し、選択範囲を伸縮することもできます。このメッセージを直接送るか、または [Editor\_SetCaretPos インライン関数](../macro/editor_setcaretpos)、または [Editor\_SetCaretPosEx インライン関数](../macro/editor_setcaretposex) を使うことができます。
 
-EE\_SET\_CARET\_POS
-
+```
+EE_SET_CARET_POS
 wParam = MAKEWPARAM( nLogical, bExtend );
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## パラメータ
 

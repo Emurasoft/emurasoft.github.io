@@ -3,11 +3,11 @@
 Closes a custom bar. You can send this message
 explicitly or use the [Editor\_CustomBarClose](../macro/editor_custombarclose) inline function.
 
-EE\_CUSTOM\_BAR\_CLOSE
-
+```
+EE_CUSTOM_BAR_CLOSE
 wParam = nCustomBarID;
-
 lParam = 0;
+```
 
 ## Parameters
 

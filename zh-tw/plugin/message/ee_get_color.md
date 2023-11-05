@@ -2,11 +2,11 @@
 
 檢索指定部分的文本、背景顏色以及樣式。您能明確地送出該信息或用 [Editor\_GetColor](../macro/editor_getcolor) 內嵌函式。
 
-EE\_GET\_COLOR
-
+```
+EE_GET_COLOR
 wParam = 0;
-
-lParam = (LPARAM) (GET\_COLOR\_INFO\*) pGetColorInfo;
+lParam = (LPARAM) (GET_COLOR_INFO*) pGetColorInfo;
+```
 
 ## 參數
 

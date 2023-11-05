@@ -3,11 +3,11 @@
 選択されているANSIテキストを取得します。このメッセージを直接送るか、または
 [Editor\_GetSelTextA インライン関数](../macro/editor_getseltexta) を使うことができます。
 
-EE\_GET\_SEL\_TEXTA
-
-wParam = (WPARAM) (UINT\_PTR) nBufferSize;
-
+```
+EE_GET_SEL_TEXTA
+wParam = (WPARAM) (UINT_PTR) nBufferSize;
 lParam = (LPARAM) (LPSTR) szBuffer;
+```
 
 ## パラメータ
 

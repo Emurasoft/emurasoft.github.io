@@ -3,11 +3,11 @@
 선택된 ANSI 텍스트를 검색합니다. 이 메시지를 명시적으로 또는
 [Editor\_GetSelTextA](../macro/editor_getseltexta) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_GET\_SEL\_TEXTA
-
+```
+EE_GET_SEL_TEXTA
 wParam = (WPARAM) (UINT) nBufferSize;
-
 lParam = (LPARAM) (LPSTR) szBuffer;
+```
 
 ## 매개 변수
 

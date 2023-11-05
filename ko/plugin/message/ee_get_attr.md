@@ -3,11 +3,11 @@
 지정된 위치에 구성과 특성을 검색합니다. 이 메시지를 명시적으로 또는
 [Editor\_GetAttr](../macro/editor_getattr) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_GET\_ATTR
-
+```
+EE_GET_ATTR
 wParam = 0;
-
-lParam = (LPARAM) (ATTR\_INFO) pAI;
+lParam = (LPARAM) (ATTR_INFO) pAI;
+```
 
 ## 매개 변수
 

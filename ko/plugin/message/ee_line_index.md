@@ -5,11 +5,11 @@ EmEditor에서 지정된 줄의 첫 문자의 문자 인덱스를 검색합니�
 이 메시지를 명시적으로 또는 [Editor\_LineIndex](../macro/editor_lineindex) 인라인 함수
 를 사용하여 보낼 수 있습니다.
 
-EE\_LINE\_INDEX
-
+```
+EE_LINE_INDEX
 wParam = (WPARAM) (BOOL) bLogical;
-
 lParam = (LPARAM) (int) yLine;
+```
 
 ## 매개 변수
 

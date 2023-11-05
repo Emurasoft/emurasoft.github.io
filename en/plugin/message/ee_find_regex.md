@@ -3,11 +3,11 @@
 Searches a string for a regular expression. You can send this message
 explicitly or use the [Editor\_FindRegex](../macro/editor_findregex) inline function.
 
-EE\_FIND\_REGEX
-
+```
+EE_FIND_REGEX
 wParam = 0;
-
-lParam = (LPARAM) (FIND\_REGEX\_INFO\_EX\*) pFindRegexInfo;
+lParam = (LPARAM) (FIND_REGEX_INFO_EX*) pFindRegexInfo;
+```
 
 ## Parameters
 

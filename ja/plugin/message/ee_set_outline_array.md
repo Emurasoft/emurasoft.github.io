@@ -3,11 +3,11 @@
 指定する複数行のアウトラインのレベルを設定します。このメッセージを直接送るか、または
 [Editor\_SetOutlineArray インライン関数](../macro/editor_setoutlinearray) を使うことができます。
 
-EE\_SET\_OUTLINE\_ARRAY
-
+```
+EE_SET_OUTLINE_ARRAY
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (OUTLINE\_ARRAY\_INFO\*) pOutlineArrayInfo;
+lParam = (LPARAM) (OUTLINE_ARRAY_INFO*) pOutlineArrayInfo;
+```
 
 ## パラメータ
 

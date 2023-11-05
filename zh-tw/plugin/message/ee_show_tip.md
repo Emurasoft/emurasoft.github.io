@@ -2,11 +2,11 @@
 
 顯示或隱藏工具提示。你能明確地發送該消息或用 [Editor\_ShowTip](../macro/editor_showtip) 內嵌函式。
 
-EE\_SHOW\_TIP
-
+```
+EE_SHOW_TIP
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (TIP\_INFO\*) pTipInfo;
+lParam = (LPARAM) (TIP_INFO*) pTipInfo;
+```
 
 ## 參數
 

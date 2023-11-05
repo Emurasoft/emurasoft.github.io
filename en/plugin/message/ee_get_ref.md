@@ -4,11 +4,11 @@ Retrieves the reference number of a specified plug-in. You can send this
 message explicitly or use the
 [Editor\_GetRef](../macro/editor_getref) inline function.
 
-EE\_GET\_REF
-
+```
+EE_GET_REF
 wParam = 0;
-
 lParam = (LPARAM)(ATOM)atom;
+```
 
 ## Parameters
 

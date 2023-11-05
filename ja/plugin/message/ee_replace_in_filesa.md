@@ -3,11 +3,11 @@
 指定するパスの複数のファイルから ANSI 文字列を置換します。このメッセージを直接送るか、または
 [Editor\_ReplaceInFilesA インライン関数](../macro/editor_replaceinfilesa) を使うことができます。
 
-EE\_REPLACE\_IN\_FILESA
-
+```
+EE_REPLACE_IN_FILESA
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFOA) pGrepInfo;
+lParam = (LPARAM) (GREP_INFOA) pGrepInfo;
+```
 
 ## パラメータ
 

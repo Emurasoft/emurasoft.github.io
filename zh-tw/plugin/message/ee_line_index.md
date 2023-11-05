@@ -2,11 +2,11 @@
 
 檢索在 EmEditor 中一個指定行的第一個字符的字符索引。一個字符索引是以零為初始值的編輯控件起始處的字符的索引。您能明確地發送該消息或用 [Editor\_LineIndex](../macro/editor_lineindex) 內嵌函式。
 
-EE\_LINE\_INDEX
-
+```
+EE_LINE_INDEX
 wParam = (WPARAM) (BOOL) bLogical;
-
 lParam = (LPARAM) (int) yLine;
+```
 
 ## 參數
 

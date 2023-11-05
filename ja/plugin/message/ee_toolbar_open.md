@@ -2,11 +2,11 @@
 
 カスタム ツール バーを開きます。このメッセージを直接送るか、または [Editor\_ToolbarOpen インライン関数](../macro/editor_toolbaropen) を使うことができます。
 
-EE\_TOOLBAR\_OPEN
-
+```
+EE_TOOLBAR_OPEN
 wParam = 0;
-
-lParam = (LPARAM) (TOOLBAR\_INFO\*) pToolbarInfo;
+lParam = (LPARAM) (TOOLBAR_INFO*) pToolbarInfo;
+```
 
 ## パラメータ
 

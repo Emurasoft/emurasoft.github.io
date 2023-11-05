@@ -6,19 +6,15 @@ document is modified, displays the prompt message box whether to save the
 changes to the current file. You can send this message explicitly or use the
 [Editor\_FindInFilesW](../macro/editor_findinfilesw) or [Editor\_BatchFindInFiles](../macro/editor_batchfindinfiles) inline function.
 
-EE\_FIND\_IN\_FILESW
-
+```
+EE_FIND_IN_FILESW
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFO\_EX\*) pGrepInfo;
-
+lParam = (LPARAM) (GREP_INFO_EX*) pGrepInfo;
 or
-
-EE\_FIND\_IN\_FILESW
-
-wParam = (WPARAM) (BATCH\_GREP\_INFO\*) pBatchGrepInfo;
-
-lParam = (LPARAM) (FIND\_REPLACE\_INFO\*) pBatchArray;
+EE_FIND_IN_FILESW
+wParam = (WPARAM) (BATCH_GREP_INFO*) pBatchGrepInfo;
+lParam = (LPARAM) (FIND_REPLACE_INFO*) pBatchArray;
+```
 
 ## Parameters
 

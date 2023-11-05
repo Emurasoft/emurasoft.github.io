@@ -3,11 +3,11 @@
 Retrieves the ANSI text displayed on the status bar. You can send this
 message explicitly or use the [Editor\_GetStatusA inline function](../macro/editor_getstatusa).
 
-EE\_GET\_STATUSA
-
+```
+EE_GET_STATUSA
 wParam = nBufLen;
-
 lParam = (LPARAM) (LPSTR) szMessage;
+```
 
 ## Parameters
 

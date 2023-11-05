@@ -3,11 +3,11 @@
 检索选区的结尾字符位置。你能明确地发送该消息或用
 [Editor\_GetSelEnd](../macro/editor_getselend) 内联函数。
 
-EE\_GET\_SEL\_END
-
+```
+EE_GET_SEL_END
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 参数
 

@@ -5,11 +5,11 @@ can send this message explicitly or use the
 [Editor\_LoadConfigW](../macro/editor_loadconfigw)
 inline function.
 
-EE\_LOAD\_CONFIGW
-
+```
+EE_LOAD_CONFIGW
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szConfigName;
+```
 
 ## Parameters
 

@@ -4,11 +4,11 @@
 [Editor\_DocGetConfigW](../macro/editor_docgetconfigw) 인라인 함수 또는
 [Editor\_GetConfigW](../macro/editor_getconfigw) 인라인 함수를 사용 할 수 있습니다.
 
-EE\_GET\_CONFIGW
-
+```
+EE_GET_CONFIGW
 wParam = MAKEWPARAM(0, (iDoc)+1);
-
 lParam = (LPARAM) (LPWSTR) szConfigName;
+```
 
 ## 매개 변수
 

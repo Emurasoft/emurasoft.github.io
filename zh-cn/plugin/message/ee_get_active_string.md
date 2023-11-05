@@ -2,11 +2,11 @@
 
 检索活动字符串。你能明确地发送该消息或用 [Editor\_GetActiveString](../macro/editor_getactivestring) 内联函数。
 
-EE\_GET\_ACTIVE\_STRING
-
+```
+EE_GET_ACTIVE_STRING
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (ACTIVE\_STRING\_INFO\*) pInfo;
+lParam = (LPARAM) (ACTIVE_STRING_INFO*) pInfo;
+```
 
 ## 参数
 

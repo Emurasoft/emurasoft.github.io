@@ -3,11 +3,11 @@
 文書が更新されているかどうかのフラグを設定します。このメッセージを直接送るか、または
 [Editor\_SetModified インライン関数](../macro/editor_setmodified) を使うことができます。
 
-EE\_SET\_MODIFIED
-
+```
+EE_SET_MODIFIED
 wParam = (WPARAM) (BOOL) bModified;
-
 lParam = 0;
+```
 
 ## パラメータ
 

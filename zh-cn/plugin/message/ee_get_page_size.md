@@ -4,11 +4,11 @@
 [Editor\_GetPageSize](../macro/editor_getpagesize)
 内联函数。
 
-EE\_GET\_PAGE\_SIZE
-
+```
+EE_GET_PAGE_SIZE
 wParam = 0;
-
-lParam = (LPARAM) (SIZE\_PTR\*) psizePage;
+lParam = (LPARAM) (SIZE_PTR*) psizePage;
+```
 
 ## 参数
 

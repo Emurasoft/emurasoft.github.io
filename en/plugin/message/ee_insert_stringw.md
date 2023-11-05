@@ -5,11 +5,11 @@ message explicitly or use the
 [Editor\_InsertStringW inline function](../macro/editor_insertstringw), [Editor\_InsertW inline function](../macro/editor_insertw), or
 [Editor\_OverwriteW](../macro/editor_overwritew) inline function.
 
-EE\_INSERT\_STRINGW
-
+```
+EE_INSERT_STRINGW
 wParam = nInsertType;
-
 lParam = (LPARAM) (LPCWSTR) szString;
+```
 
 ## Parameters
 

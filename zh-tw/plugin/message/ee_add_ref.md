@@ -2,11 +2,11 @@
 
 遞增外掛程式的引用號。您可以明確地發送該消息或用 [Editor\_AddRef](../macro/editor_addref) 內嵌函式。
 
-EE\_ADD\_REF
-
+```
+EE_ADD_REF
 wParam = 0;
-
 lParam = (LPARAM)(HINSTANCE)hInstance;
+```
 
 ## 參數
 

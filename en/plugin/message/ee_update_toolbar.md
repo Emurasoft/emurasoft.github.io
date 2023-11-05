@@ -3,11 +3,11 @@
 Updates a button status in a toolbar. You can send this message explicitly or
 by using the [Editor\_UpdateToolbar](../macro/editor_updatetoolbar) inline function.
 
-EE\_UPDATE\_TOOLBAR
-
+```
+EE_UPDATE_TOOLBAR
 wParam = (WPARAM) (UINT) nCmdID;
-
 lParam = 0;
+```
 
 ## Parameters
 

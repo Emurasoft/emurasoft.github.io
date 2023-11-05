@@ -4,11 +4,11 @@ Retrieves or sets the value of one of the information parameters used by
 EmEditor. You can send this message explicitly or use the
 [Editor\_DocInfoEx](../macro/editor_docinfoex) inline function.
 
-EE\_INFO\_EX
-
-wParam = (WPARAM)(INFO\_EX\_DATA\*)pInfo;
-
+```
+EE_INFO_EX
+wParam = (WPARAM)(INFO_EX_DATA*)pInfo;
 lParam = 0;
+```
 
 ## Parameters
 

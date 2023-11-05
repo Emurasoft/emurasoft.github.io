@@ -3,11 +3,11 @@
 檢索所選取的配置名稱為 ANSI 字符串。您能明確地發送該消息或用
 [Editor\_GetConfigA](../macro/editor_getconfiga) 內嵌函式。
 
-EE\_GET\_CONFIGA
-
+```
+EE_GET_CONFIGA
 wParam = 0;
-
 lParam = (LPARAM) (LPSTR) szConfigName;
+```
 
 ## 參數
 

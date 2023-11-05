@@ -2,11 +2,11 @@
 
 1ページのサイズを取得します。このメッセージを直接送るか、または [Editor\_GetPageSize インライン関数](../macro/editor_getpagesize) を使うことができます。
 
-EE\_GET\_PAGE\_SIZE
-
+```
+EE_GET_PAGE_SIZE
 wParam = 0;
-
-lParam = (LPARAM) (SIZE\_PTR\*) psizePage;
+lParam = (LPARAM) (SIZE_PTR*) psizePage;
+```
 
 ## パラメータ
 

@@ -3,11 +3,11 @@
 アウトプット バーにあるテキストを取得します。このメッセージを直接送るか、または
 [Editor\_GetOutputString インライン関数](../macro/editor_getoutputstring) を使うことができます。
 
-EE\_GET\_OUTPUT\_STRING
-
+```
+EE_GET_OUTPUT_STRING
 wParam = (WPARAM) (UINT) cchBuf;
-
 lParam = (LPARAM) (LPWSTR) pBuf;
+```
 
 ## パラメータ
 

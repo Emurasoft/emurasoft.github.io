@@ -2,11 +2,11 @@
 
 移動游標位置并且選擇性地延伸選區。您能明確地發送該消息或用 [Editor\_SetCaretPos](../macro/editor_setcaretpos) 內嵌函式或 [Editor\_SetCaretPosEx](../macro/editor_setcaretposex) 內嵌函式。
 
-EE\_SET\_CARET\_POS
-
+```
+EE_SET_CARET_POS
 wParam = MAKEWPARAM( nLogical, bExtend );
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 參數
 

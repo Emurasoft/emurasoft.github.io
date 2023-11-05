@@ -3,11 +3,11 @@
 ステータスメッセージにUnicode文字列を設定します。このメッセージを直接送るか、または [Editor\_SetStatusW \
 インライン関数](../macro/editor_setstatusw) を使うことができます。
 
-EE\_SET\_STATUSW
-
+```
+EE_SET_STATUSW
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szStatus;
+```
 
 ## パラメータ
 

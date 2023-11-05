@@ -3,11 +3,11 @@
 Retrieves the filter strings and settings for the current document. You can send this message explicitly or use
 the [Editor\_GetFilter](../macro/editor_filter) inline function.
 
-EE\_GET\_FILTER
-
-wParam = (WPARAM) (FILTER\_INFO\_EX\*) pFilterInfo;
-
+```
+EE_GET_FILTER
+wParam = (WPARAM) (FILTER_INFO_EX*) pFilterInfo;
 lParam = (LPARAM)(int)iFilter;
+```
 
 ## Parameters
 

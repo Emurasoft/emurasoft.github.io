@@ -2,11 +2,11 @@
 
 指定する行のANSIテキストを取得します。このメッセージを直接送るか、または [Editor\_GetLineA インライン関数](../macro/editor_getlinea) を使うことができます。
 
-EE\_GET\_LINEA
-
-wParam = (WPARAM) (GET\_LINE\_INFO\*) pGetLineInfo;
-
+```
+EE_GET_LINEA
+wParam = (WPARAM) (GET_LINE_INFO*) pGetLineInfo;
 lParam = (LPARAM) (LPSTR) szString;
+```
 
 ## パラメータ
 

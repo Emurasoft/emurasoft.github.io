@@ -3,11 +3,11 @@
 Retrieves the origin point of the selection. You can send this message explicitly
 or by using the [Editor\_GetAnchorPos](../macro/editor_getanchorpos) inline function.
 
-EE\_GET\_ANCHOR\_POS
-
+```
+EE_GET_ANCHOR_POS
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## Parameters
 

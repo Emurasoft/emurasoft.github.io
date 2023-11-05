@@ -4,11 +4,11 @@ Converts the display coordinates of a specified position to the device
 (client) coordinates. You can send this message explicitly or use the
 [Editor\_ViewToDev](../macro/editor_viewtodev) inline function.
 
-EE\_VIEW\_TO\_DEV
-
-wParam = (WPARAM) (POINT\_PTR\*) pptView;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptDev;
+```
+EE_VIEW_TO_DEV
+wParam = (WPARAM) (POINT_PTR*) pptView;
+lParam = (LPARAM) (POINT_PTR*) pptDev;
+```
 
 ## Parameters
 

@@ -4,11 +4,11 @@ Queries the status of the command, whether the command is enable and whether
 the command is a checked status. You can send this message explicitly or by
 using the [Editor\_QueryStatus](../macro/editor_querystatus) inline function.
 
-EE\_QUERY\_STATUS
-
+```
+EE_QUERY_STATUS
 wParam = (WPARAM) (UINT) nCmdID;
-
-lParam = (LPARAM) (BOOL\*) pbChecked;
+lParam = (LPARAM) (BOOL*) pbChecked;
+```
 
 ## Parameters
 

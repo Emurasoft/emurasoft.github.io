@@ -3,11 +3,11 @@
 Sets a value into the Registry or an INI file depending on the EmEditor settings. You can send this message explicitly or
 by using the [Editor\_RegSetValue](../macro/editor_regsetvalue) inline function.
 
-EE\_REG\_SET\_VALUE
-
+```
+EE_REG_SET_VALUE
 wParam = 0;
-
-(REG\_SET\_VALUE\_INFO\*)lParam = pRegSetValueInfo;
+(REG_SET_VALUE_INFO*)lParam = pRegSetValueInfo;
+```
 
 ## Parameters
 

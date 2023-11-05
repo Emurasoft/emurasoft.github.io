@@ -2,11 +2,11 @@
 
 ANSI文字列を置換します。このメッセージは使用されなくなります。新しいプラグインは、 [EE\_FIND\_REPLACE メッセージ](ee_find_replace) を使用してください。このメッセージを直接送るか、または [Editor\_ReplaceA インライン関数](../macro/editor_replacea) を使うことができます。
 
-EE\_REPLACEA
-
+```
+EE_REPLACEA
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCSTR) szFindReplace;
+```
 
 ## パラメータ
 

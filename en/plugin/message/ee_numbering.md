@@ -2,11 +2,11 @@
 
 Inserts numbering at the cursor position or vertical selection. You can send this message explicitly or use the [Editor\_Numbering inline function](../macro/editor_numbering).
 
-EE\_NUMBERING
-
-wParam = (WPARAM)(NUMBERING\_INFO\*)pNI;
-
+```
+EE_NUMBERING
+wParam = (WPARAM)(NUMBERING_INFO*)pNI;
 lParam = 0;
+```
 
 ## Parameters
 

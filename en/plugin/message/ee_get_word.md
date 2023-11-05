@@ -3,11 +3,11 @@
 Retrieves a word at the cursor position. You can send this message explicitly or
 by using the [Editor\_GetWord](../macro/editor_getword) inline function.
 
-EE\_GET\_WORD
-
+```
+EE_GET_WORD
 wParam = (WPARAM) (UINT) nBufferSize;
-
 lParam = (LPARAM) (LPWSTR) szBuffer;
+```
 
 ## Parameters
 

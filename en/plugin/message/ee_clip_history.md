@@ -3,11 +3,11 @@
 Manipulates the Clipboard history. You can send this message explicitly or by using the [Editor\_GetClip](../macro/editor_getclip), [Editor\_GetClipPos](../macro/editor_getclippos), [Editor\_InsertClip](../macro/editor_insertclip),
 [Editor\_RemoveClip](../macro/editor_removeclip), [Editor\_RotateClip](../macro/editor_rotateclip), or [Editor\_SetClipPos](../macro/editor_setclippos) inline function.
 
-EE\_CLIP\_HISTORY
-
+```
+EE_CLIP_HISTORY
 wParam = 0;
-
-lParam = (LPARAM) (CLIP\_INFO) pCI;
+lParam = (LPARAM) (CLIP_INFO) pCI;
+```
 
 ## Parameters
 

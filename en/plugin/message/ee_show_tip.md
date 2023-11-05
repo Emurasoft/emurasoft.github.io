@@ -3,11 +3,11 @@
 Shows or hides the tooltip. You can send this message
 explicitly or use the [Editor\_ShowTip](../macro/editor_showtip) inline function.
 
-EE\_SHOW\_TIP
-
+```
+EE_SHOW_TIP
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (TIP\_INFO\*) pTipInfo;
+lParam = (LPARAM) (TIP_INFO*) pTipInfo;
+```
 
 ## Parameters
 

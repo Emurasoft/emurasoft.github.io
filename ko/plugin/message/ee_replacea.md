@@ -3,11 +3,11 @@
 ANSI 문자열을 대체합니다. 이 메시지를 명시적으로 보내거나 [Editor\_ReplaceA](../macro/editor_replacea) 인라인 함수를
 사용할 수 있습니다.
 
-EE\_REPLACEA
-
+```
+EE_REPLACEA
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCSTR) szFindReplace;
+```
 
 ## 매개 변수
 

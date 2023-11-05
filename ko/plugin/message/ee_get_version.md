@@ -3,11 +3,11 @@
 버젼 번호를 반환합니다. 이 메시지를 명시적으로 또는
 [Editor\_GetVersion](../macro/editor_getversion) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_GET\_VERSION
-
+```
+EE_GET_VERSION
 wParam = pnProductType;
-
 lParam = 0;
+```
 
 ## 매개 변수
 

@@ -2,11 +2,11 @@
 
 Retrieves the configurations and attributes at the specified position. You can send this message explicitly or by using the [Editor\_GetAttr](../macro/editor_getattr) inline function.
 
-EE\_GET\_ATTR
-
+```
+EE_GET_ATTR
 wParam = 0;
-
-lParam = (LPARAM) (ATTR\_INFO) pAI;
+lParam = (LPARAM) (ATTR_INFO) pAI;
+```
 
 ## Parameters
 

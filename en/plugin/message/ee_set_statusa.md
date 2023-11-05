@@ -3,11 +3,11 @@
 Displays an ANSI message on the status bar. You can send this message
 explicitly or use the [Editor\_SetStatusA](../macro/editor_setstatusa) inline function.
 
-EE\_SET\_STATUSA
-
+```
+EE_SET_STATUSA
 wParam = 0;
-
 lParam = (LPARAM) (LPCSTR) szStatus;
+```
 
 ## Parameters
 

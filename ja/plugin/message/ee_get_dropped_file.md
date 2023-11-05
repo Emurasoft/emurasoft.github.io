@@ -2,11 +2,11 @@
 
 最近ドロップされたファイルを取得します。このメッセージを直接送るか、 [Editor\_GetDroppedFile インライン関数](../macro/editor_getdroppedfile) を使うことができます。
 
-EE\_GET\_DROPPED\_FILE
-
+```
+EE_GET_DROPPED_FILE
 wParam = (WPARAM) (int) nIndex;
-
 lParam = (LPARAM) (LPWSTR) pszBuf;
+```
 
 ## パラメータ
 

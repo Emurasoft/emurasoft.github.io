@@ -3,11 +3,11 @@
 Refreshes the toolbar, the window title, the tab, and others. You can send this message explicitly or use the
 [Editor\_DoIdle](../macro/editor_doidle) inline function.
 
-EE\_DO\_IDLE
-
+```
+EE_DO_IDLE
 wParam = (WPARAM) (BOOL) bResetTab;
-
 lParam = (LPARAM) 0;
+```
 
 ## Parameters
 

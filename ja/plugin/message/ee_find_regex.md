@@ -2,11 +2,11 @@
 
 正規表現を指定して文字列から検索します。このメッセージを直接送るか、または [Editor\_FindRegex インライン関数](../macro/editor_findregex) を使うことができます。
 
-EE\_FIND\_REGEX
-
+```
+EE_FIND_REGEX
 wParam = 0;
-
-lParam = (LPARAM) (FIND\_REGEX\_INFO\_EX\*) pFindRegexInfo;
+lParam = (LPARAM) (FIND_REGEX_INFO_EX*) pFindRegexInfo;
+```
 
 ## パラメータ
 

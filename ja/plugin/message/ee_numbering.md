@@ -3,11 +3,11 @@
 カーソル位置または垂直選択に番号を挿入します。このメッセージを直接送るか、または
 [Editor\_Numbering インライン関数](../macro/editor_numbering) を使うことができます。
 
-EE\_NUMBERING
-
-wParam = (WPARAM)(NUMBERING\_INFO\*)pNI;
-
+```
+EE_NUMBERING
+wParam = (WPARAM)(NUMBERING_INFO*)pNI;
 lParam = 0;
+```
 
 ## パラメータ
 

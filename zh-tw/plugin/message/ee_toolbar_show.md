@@ -2,11 +2,11 @@
 
 顯示或隱藏一個自訂工具列。您能明確地發送該消息或用 [Editor\_ToolbarShow](../macro/editor_toolbarshow) 內嵌函式。
 
-EE\_TOOLBAR\_SHOW
-
+```
+EE_TOOLBAR_SHOW
 (UINT)wParam = nToolbarID
-
 (BOOL)lParam = bVisible
+```
 
 ## 參數
 

@@ -4,11 +4,11 @@
 일련 위치는 전체 텍스트의 시작에서부터 0으로 시작하는 문자 인덱스입니다.
 이 메시지를 명시적으로 보내거나 [Editor\_SerialToLogical](../macro/editor_serialtological) 인라인 함수를 사용할 수 있습니다.
 
-EE\_SERIAL\_TO\_LOGICAL
-
+```
+EE_SERIAL_TO_LOGICAL
 wParam = (WPARAM) (UINT) nSerial;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
+lParam = (LPARAM) (POINT_PTR*) pptLogical;
+```
 
 ## 매개 변수
 

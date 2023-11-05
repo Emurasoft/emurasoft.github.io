@@ -3,11 +3,11 @@
 Retrieves a column of text in CSV mode. You can send this message explicitly or use the
 [Editor\_GetColumn](../macro/editor_getcolumn) inline function.
 
-EE\_GET\_COLUMN
-
+```
+EE_GET_COLUMN
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (COLUMN\_STRUCT\*) pColumnStruct;
+lParam = (LPARAM) (COLUMN_STRUCT*) pColumnStruct;
+```
 
 ## Parameters
 

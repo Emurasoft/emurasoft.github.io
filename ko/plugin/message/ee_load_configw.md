@@ -4,11 +4,11 @@
 [Editor\_LoadConfigW](../macro/editor_loadconfigw) 인라인 함수를 사용할 수
 있습니다.
 
-EE\_LOAD\_CONFIGW
-
+```
+EE_LOAD_CONFIGW
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szConfigName;
+```
 
 ## 매개 변수
 

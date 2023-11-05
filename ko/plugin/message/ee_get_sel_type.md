@@ -4,11 +4,11 @@
 [Editor\_GetSelType](../macro/editor_getseltype) 인라인 함수
 또는 [Editor\_GetSelTypeEx](../macro/editor_getseltypeex) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_GET\_SEL\_TYPE
-
+```
+EE_GET_SEL_TYPE
 wParam = (WPARAM) (BOOL) bNeedAlways;
-
 lParam = (LPARAM)0;
+```
 
 ## 매개 변수
 

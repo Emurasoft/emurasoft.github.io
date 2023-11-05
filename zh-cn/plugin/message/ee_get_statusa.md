@@ -2,11 +2,11 @@
 
 检索显示在状态栏上的 ANSI 文本。你能明确地发送该消息或用 [Editor\_GetStatusA 内联函数](../macro/editor_getstatusa)。
 
-EE\_GET\_STATUSA
-
+```
+EE_GET_STATUSA
 wParam = nBufLen;
-
 lParam = (LPARAM) (LPSTR) szMessage;
+```
 
 ## 参数
 

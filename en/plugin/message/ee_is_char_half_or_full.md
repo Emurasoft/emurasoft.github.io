@@ -3,23 +3,17 @@
 Determines whether a specified character expressed as a (1) UTF-16 character value or (2) scaler value is a half-width or full-width
 character. (3) It can also count the total widths of the specified string. You can send this message explicitly or use the [Editor\_IsCharHalfOrFull](../macro/editor_ischarhalforfull) inline function.
 
-(1) EE\_IS\_CHAR\_HALF\_OR\_FULL
-
+(1) ```
+EE_IS_CHAR_HALF_OR_FULL
 (WCHAR)wParam = ch
-
 (int)lParam = 0
-
-(2) EE\_IS\_CHAR\_HALF\_OR\_FULL
-
+(2) EE_IS_CHAR_HALF_OR_FULL
 (UINT)wParam = nScaler
-
 (int)lParam = -1
-
-(3) EE\_IS\_CHAR\_HALF\_OR\_FULL
-
-(INT\_PTR)wParam = cchStr
-
+(3) EE_IS_CHAR_HALF_OR_FULL
+(INT_PTR)wParam = cchStr
 (LPCWSTR)lParam = pStr
+```
 
 ## Parameters
 

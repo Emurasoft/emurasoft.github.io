@@ -3,11 +3,11 @@
 매크로를 실행합니다. 이 메시지를 명시적으로 또는 [Editor\_RunMacro](../macro/editor_runmacro) 인라인 함수를
 사용하여 보낼 수 있습니다.
 
-EE\_RUN\_MACRO
-
+```
+EE_RUN_MACRO
 wParam = 0;
-
-lParam = (LPARAM) (RUN\_MACRO\_INFO\*) pRMI;
+lParam = (LPARAM) (RUN_MACRO_INFO*) pRMI;
+```
 
 ## 매개 변수
 

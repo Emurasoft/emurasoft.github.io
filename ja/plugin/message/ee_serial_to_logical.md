@@ -3,11 +3,11 @@
 シリアル位置を論理座標に変換します。このメッセージを直接送るか、または
 [Editor\_SerialToLogical  インライン関数](../macro/editor_serialtological) を使うことができます。
 
-EE\_SERIAL\_TO\_LOGICAL
-
-wParam = (WPARAM) (UINT\_PTR) nSerial;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
+```
+EE_SERIAL_TO_LOGICAL
+wParam = (WPARAM) (UINT_PTR) nSerial;
+lParam = (LPARAM) (POINT_PTR*) pptLogical;
+```
 
 ## パラメータ
 

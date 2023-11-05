@@ -3,11 +3,11 @@
 Queries the string associated with the specified command. You can send this message explicitly or by
 using the [Editor\_QueryString](../macro/editor_querystring) inline function.
 
-EE\_QUERY\_STRING
-
+```
+EE_QUERY_STRING
 wParam = (WPARAM) MAKEWPARAM( nCmdID, bShortTitle );
-
 lParam = (LPARAM) (LPWSTR) psz;
+```
 
 ## Parameters
 

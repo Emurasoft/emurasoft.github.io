@@ -2,11 +2,11 @@
 
 通过平展 CSV 数据将列转换为行。你能明确地发送该消息或用 [Editor\_Unpivot](../macro/editor_unpivot) 内联函数。
 
-EE\_UNPIVOT
-
-wParam = (WPARAM)(UNPIVOT\*)pInfo;
-
+```
+EE_UNPIVOT
+wParam = (WPARAM)(UNPIVOT*)pInfo;
 lParam = 0;
+```
 
 ## 参数
 

@@ -2,11 +2,11 @@
 
 スクロールバーの位置を設定します。このメッセージを直接送るか、または [Editor\_SetScrollPos インライン関数](../macro/editor_setscrollpos)、または [Editor\_SetScrollPosEx インライン関数](../macro/editor_setscrollposex) を使うことができます。
 
-EE\_SET\_SCROLL\_POS
-
+```
+EE_SET_SCROLL_POS
 wParam = (WPARAM) (BOOL) bCanMoveCursor;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## パラメータ
 

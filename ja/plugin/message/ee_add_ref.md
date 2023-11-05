@@ -2,11 +2,11 @@
 
 プラグインの参照数1つ増加させます。このメッセージを直接送るか、または [Editor\_AddRef インライン関数](../macro/editor_addref) を使うことができます。
 
-EE\_ADD\_REF
-
+```
+EE_ADD_REF
 wParam = 0;
-
 lParam = (LPARAM)(HINSTANCE)hInstance;
+```
 
 ## パラメータ
 

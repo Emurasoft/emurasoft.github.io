@@ -3,11 +3,11 @@
 設置選區的原點。您能明確地發送該消息或用 [Editor\_SetAnchorPos](../macro/editor_setanchorpos)
 內嵌函式。
 
-EE\_SET\_ANCHOR\_POS
-
+```
+EE_SET_ANCHOR_POS
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 參數
 

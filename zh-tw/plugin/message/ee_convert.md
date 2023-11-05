@@ -3,11 +3,11 @@
 轉換字符。您能明確地發送該消息或用
 [Editor\_Convert](../macro/editor_convert) 內嵌函式。
 
-EE\_CONVERT
-
+```
+EE_CONVERT
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szChars;
+```
 
 ## 參數
 

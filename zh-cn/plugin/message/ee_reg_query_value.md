@@ -2,11 +2,11 @@
 
 根据 EmEditor 的设定，从注册表或一个 INI 文件中检索数据的特定值。你能明确地发送该消息或用 [Editor\_RegQueryValue](../macro/editor_regqueryvalue) 内联函数。
 
-EE\_REG\_QUERY\_VALUE
-
+```
+EE_REG_QUERY_VALUE
 wParam = 0;
-
-(REG\_QUERY\_VALUE\_INFO\*)lParam = pRegQueryValueInfo;
+(REG_QUERY_VALUE_INFO*)lParam = pRegQueryValueInfo;
+```
 
 ## 参数
 

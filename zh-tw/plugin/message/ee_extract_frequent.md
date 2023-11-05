@@ -2,11 +2,11 @@
 
 將常用字串抽出到新文檔中。你可以明確地發送該消息或用 [Editor\_ExtractFrequent](../macro/editor_extractfrequent) 內嵌函式。
 
-EE\_EXTRACT\_FREQUENT
-
-wParam = (WPARAM) (EXTRACT\_FREQUENT\_INFO\*) pInfo;
-
+```
+EE_EXTRACT_FREQUENT
+wParam = (WPARAM) (EXTRACT_FREQUENT_INFO*) pInfo;
 lParam = 0;
+```
 
 ## 參數s
 

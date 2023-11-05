@@ -2,11 +2,11 @@
 
 用正则表达式搜索一个字符串。你能明确地发送该消息或用 [Editor\_FindRegex](../macro/editor_findregex) 内联函数。
 
-EE\_FIND\_REGEX
-
+```
+EE_FIND_REGEX
 wParam = 0;
-
-lParam = (LPARAM) (FIND\_REGEX\_INFO\*) pFindRegexInfo;
+lParam = (LPARAM) (FIND_REGEX_INFO*) pFindRegexInfo;
+```
 
 ## 参数
 

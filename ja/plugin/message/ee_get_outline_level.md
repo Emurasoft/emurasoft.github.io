@@ -3,11 +3,11 @@
 指定する論理行のアウトラインのレベルを取得します。このメッセージを直接送るか、または
 [Editor\_GetOutlineLevel インライン関数](../macro/editor_getoutlinelevel) を使うことができます。
 
-EE\_GET\_OUTLINE\_LEVEL
-
-wParam = (WPARAM) (INT\_PTR) nLogicalLine;
-
+```
+EE_GET_OUTLINE_LEVEL
+wParam = (WPARAM) (INT_PTR) nLogicalLine;
 lParam = 0;
+```
 
 ## パラメータ
 

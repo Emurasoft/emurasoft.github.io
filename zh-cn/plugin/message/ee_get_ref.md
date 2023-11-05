@@ -3,11 +3,11 @@
 检索一个指定插件的引用号。你能明确地发送该消息或用
 [Editor\_GetRef](../macro/editor_getref) 内联函数。
 
-EE\_GET\_REF
-
+```
+EE_GET_REF
 wParam = 0;
-
 lParam = (LPARAM)(ATOM)atom;
+```
 
 ## 参数
 

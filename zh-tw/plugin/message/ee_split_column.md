@@ -2,11 +2,11 @@
 
 分割目前的 CSV 文檔的指定欄。你能明確地發送該消息或用 [Editor\_SplitColumn](../macro/editor_splitcolumn) 內嵌函式。
 
-EE\_SPLIT\_COLUMN
-
-wParam = (WPARAM)(SPLIT\_COLUMN\_INFO\*)pInfo;
-
+```
+EE_SPLIT_COLUMN
+wParam = (WPARAM)(SPLIT_COLUMN_INFO*)pInfo;
 lParam = 0;
+```
 
 ## 參數
 

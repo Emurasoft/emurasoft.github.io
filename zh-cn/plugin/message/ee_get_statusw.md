@@ -2,11 +2,11 @@
 
 检索显示在状态栏上的 Unicode 文本。你能明确地发送该消息或用 [Editor\_GetStatusW](../macro/editor_getstatusw) 内联函数。
 
-EE\_GET\_STATUSW
-
+```
+EE_GET_STATUSW
 wParam = nBufSize;
-
 lParam = (LPARAM) (LPWSTR) szStatus;
+```
 
 ## 参数
 

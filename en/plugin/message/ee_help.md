@@ -3,11 +3,11 @@
 Displays the specified page of the Help. You can send this message explicitly or
 by using the [Editor\_Help](../macro/editor_help) inline function.
 
-EE\_HELP
-
+```
+EE_HELP
 wParam = 0
-
 (LPCTSTR)lParam = szPageURL
+```
 
 ## Parameters
 

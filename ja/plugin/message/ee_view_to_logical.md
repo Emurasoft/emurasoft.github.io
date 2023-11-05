@@ -2,11 +2,11 @@
 
 表示座標を論理座標に変換します。このメッセージを直接送るか、または [Editor\_ViewToLogical インライン関数](../macro/editor_viewtological) を使うことができます。
 
-EE\_VIEW\_TO\_LOGICAL
-
-wParam = (WPARAM) (POINT\_PTR\*) pptView;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
+```
+EE_VIEW_TO_LOGICAL
+wParam = (WPARAM) (POINT_PTR*) pptView;
+lParam = (LPARAM) (POINT_PTR*) pptLogical;
+```
 
 ## パラメータ
 

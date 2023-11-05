@@ -3,11 +3,11 @@
 为指定的多行设置大纲级别。你能明确地发送该消息或用
 [Editor\_SetOutlineArray](../macro/editor_setoutlinearray) 内联函数。
 
-EE\_SET\_OUTLINE\_ARRAY
-
+```
+EE_SET_OUTLINE_ARRAY
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (OUTLINE\_ARRAY\_INFO\*) pOutlineArrayInfo;
+lParam = (LPARAM) (OUTLINE_ARRAY_INFO*) pOutlineArrayInfo;
+```
 
 ## 参数
 

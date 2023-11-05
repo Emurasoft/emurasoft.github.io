@@ -3,19 +3,15 @@
 選択されている設定の名前をANSI文字列で設定しますこのメッセージを直接送るか、 [Editor\_DocSetConfigA インライン関数](../macro/editor_docsetconfiga)、または
 [Editor\_SetConfigA インライン関数](../macro/editor_setconfiga) を使うことができます。
 
-EE\_SET\_CONFIGA
-
+```
+EE_SET_CONFIGA
 wParam = (WPARAM) MAKEWPARAM(0, (iDoc)+1);
-
 lParam = (LPARAM) (LPCSTR) szConfigName;
-
 または
-
-EE\_SET\_CONFIGA
-
+EE_SET_CONFIGA
 wParam = 0;
-
 lParam = (LPARAM) (LPCSTR) szConfigName;
+```
 
 ## パラメータ
 

@@ -2,11 +2,11 @@
 
 현재 커서 위치를 검색합니다. 이 메시지를 명시적으로 또는 [Editor\_GetCaretPos](../macro/editor_getcaretpos) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_GET\_CARET\_POS
-
+```
+EE_GET_CARET_POS
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 매개 변수
 

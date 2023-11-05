@@ -2,11 +2,11 @@
 
 檢索指定字元或字串的 Unicode 名。你能明確地發送該消息或用 [Editor\_GetUnicodeName 內嵌函式](../macro/editor_getunicodename)。
 
-EE\_GET\_UNICODE\_NAME
-
-wParam = (WPARAM)(UNICODE\_NAME\_INFO\*)pUNI;
-
+```
+EE_GET_UNICODE_NAME
+wParam = (WPARAM)(UNICODE_NAME_INFO*)pUNI;
 lParam = 0;
+```
 
 ## 參數
 

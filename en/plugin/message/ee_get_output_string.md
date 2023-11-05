@@ -2,11 +2,11 @@
 
 Retrieves the text in the output bar. You can send this message explicitly or by using the [Editor\_GetOutputString](../macro/editor_getoutputstring) inline function.
 
-EE\_GET\_OUTPUT\_STRING
-
+```
+EE_GET_OUTPUT_STRING
 wParam = (WPARAM) (UINT) cchBuf;
-
 lParam = (LPARAM) (LPWSTR) pBuf;
+```
 
 ## Parameters
 

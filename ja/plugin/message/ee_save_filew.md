@@ -3,19 +3,15 @@
 文書を指定するファイルに保存します。ファイル名は、Unicode文字列で指定します。このメッセージを直接送るか、 [Editor\_DocSaveFileW インライン関数](../macro/editor_docsavefilew)、または
 [Editor\_SaveFileW インライン関数](../macro/editor_savefilew) を使うことができます。
 
-EE\_SAVE\_FILEW
-
+```
+EE_SAVE_FILEW
 wParam = (WPARAM) MAKEWPARAM((bReplace), (iDoc)+1);
-
 lParam = (LPARAM) (LPWSTR) szFileName;
-
 または
-
-EE\_SAVE\_FILEW
-
+EE_SAVE_FILEW
 wParam = (WPARAM) (BOOL) bReplace;
-
 lParam = (LPARAM) (LPWSTR) szFileName;
+```
 
 ## パラメータ
 

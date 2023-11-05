@@ -4,11 +4,11 @@
 [Editor\_InsertStringA インライン関数](../macro/editor_insertstringa)、 [Editor\_InsertA \
 インライン関数](../macro/editor_inserta)、または [Editor\_OverwriteA インライン関数](../macro/editor_overwritea) を使うことができます。
 
-EE\_INSERT\_STRINGA
-
+```
+EE_INSERT_STRINGA
 wParam = nInsertType;
-
 lParam = (LPARAM) (LPCSTR) szString;
+```
 
 ## パラメータ
 

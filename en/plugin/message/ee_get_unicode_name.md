@@ -2,11 +2,11 @@
 
 Retrieves the Unicode name of the specified character or string. You can send this message explicitly or use the [Editor\_GetUnicodeName inline function](../macro/editor_getunicodename).
 
-EE\_GET\_UNICODE\_NAME
-
-wParam = (WPARAM)(UNICODE\_NAME\_INFO\*)pUNI;
-
+```
+EE_GET_UNICODE_NAME
+wParam = (WPARAM)(UNICODE_NAME_INFO*)pUNI;
 lParam = 0;
+```
 
 ## Parameters
 

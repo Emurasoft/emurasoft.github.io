@@ -6,11 +6,11 @@
 이 메시지를 명시적으로 보내거나 [Editor\_FindInFilesW](../macro/editor_findinfilesw) 인라인 함수를
 사용 할 수 있습니다.
 
-EE\_FIND\_IN\_FILESW
-
+```
+EE_FIND_IN_FILESW
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFOW) pGrepInfo;
+lParam = (LPARAM) (GREP_INFOW) pGrepInfo;
+```
 
 ## 매개 변수
 

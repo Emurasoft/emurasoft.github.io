@@ -6,11 +6,11 @@ message explicitly or use the
 macro](../macro/editor_insertstringa), [Editor\_InsertA macro](../macro/editor_inserta), or
 [Editor\_OverwriteA](../macro/editor_overwritea) inline function.
 
-EE\_INSERT\_STRINGA
-
+```
+EE_INSERT_STRINGA
 wParam = nInsertType;
-
 lParam = (LPARAM) (LPCSTR) szString;
+```
 
 ## Parameters
 

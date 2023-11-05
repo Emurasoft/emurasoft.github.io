@@ -2,11 +2,11 @@
 
 檢索指定邏輯行的大綱級別。您能明確地發送該消息或用 [Editor\_GetOutlineLevel](../macro/editor_getoutlinelevel) 內嵌函式。
 
-EE\_GET\_OUTLINE\_LEVEL
-
-wParam = (WPARAM) (INT\_PTR) nLogicalLine;
-
+```
+EE_GET_OUTLINE_LEVEL
+wParam = (WPARAM) (INT_PTR) nLogicalLine;
 lParam = 0;
+```
 
 ## 參數
 

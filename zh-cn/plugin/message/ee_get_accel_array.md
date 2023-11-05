@@ -2,11 +2,11 @@
 
 检索快捷键的数组。你能明确地发送该消息或用 [Editor\_GetAccelArray](../macro/editor_getaccelarray) 内联函数。
 
-EE\_GET\_ACCEL\_ARRAY
-
+```
+EE_GET_ACCEL_ARRAY
 wParam = (UINT) nBufSize;
-
-lParam = (ACCEL\*) pAccel;
+lParam = (ACCEL*) pAccel;
+```
 
 ## 参数
 

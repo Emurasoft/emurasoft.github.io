@@ -4,11 +4,11 @@
 [Editor\_GetSelStart](../macro/editor_getselstart)
 內嵌函式。
 
-EE\_GET\_SEL\_START
-
+```
+EE_GET_SEL_START
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 參數
 

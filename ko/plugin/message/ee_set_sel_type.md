@@ -3,11 +3,11 @@
 선택 영역 상태의 유형을 설정합니다. 이 메시지를 명시적으로 보내거나 [Editor\_SetSelType](../macro/editor_setseltype) 인라인 함수나 [Editor\_SetSelTypeEx](../macro/editor_setseltypeex) 인라인 함수를
 사용할 수 있습니다.
 
-EE\_SET\_SEL\_TYPE
-
+```
+EE_SET_SEL_TYPE
 wParam = (WPARAM) (BOOL) bNeedAlways;
-
 lParam = (LPARAM) nSelType;
+```
 
 ## 매개 변수
 

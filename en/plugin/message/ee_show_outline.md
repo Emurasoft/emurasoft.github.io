@@ -3,11 +3,11 @@
 Shows or hides the outline. You can send this message
 explicitly or use the [Editor\_ShowOutline](../macro/editor_showoutline) inline function.
 
-EE\_SHOW\_OUTLINE
-
-wParam = (WPARAM) (INT\_PTR) nFlags;
-
+```
+EE_SHOW_OUTLINE
+wParam = (WPARAM) (INT_PTR) nFlags;
 lParam = 0;
+```
 
 ## Parameters
 

@@ -2,11 +2,11 @@
 
 在鼠标位置或垂直选择处，插入编号。你能明确地发送该消息或用 [Editor\_Numbering 内联函数](../macro/editor_numbering)。
 
-EE\_NUMBERING
-
-wParam = (WPARAM)(NUMBERING\_INFO\*)pNI;
-
+```
+EE_NUMBERING
+wParam = (WPARAM)(NUMBERING_INFO*)pNI;
 lParam = 0;
+```
 
 ## 参数
 

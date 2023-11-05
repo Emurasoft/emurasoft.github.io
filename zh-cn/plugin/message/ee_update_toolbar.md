@@ -2,11 +2,11 @@
 
 在工具栏中更新一个按钮的状态。你能明确地发送该消息或用 [Editor\_UpdateToolbar](../macro/editor_updatetoolbar) 内联函数。
 
-EE\_UPDATE\_TOOLBAR
-
+```
+EE_UPDATE_TOOLBAR
 wParam = (WPARAM) (UINT) nCmdID;
-
 lParam = 0;
+```
 
 ## 参数
 

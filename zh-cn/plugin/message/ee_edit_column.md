@@ -2,11 +2,11 @@
 
 移动，复制，删除，或合并当前 CSV 文档中的指定列。你能明确地发送该消息或用 [Editor\_EditColumn](../macro/editor_editcolumn) 内联函数。
 
-EE\_EDIT\_COLUMN
-
-wParam = (WPARAM)(EDIT\_COLUMN\_INFO\*)pInfo;
-
+```
+EE_EDIT_COLUMN
+wParam = (WPARAM)(EDIT_COLUMN_INFO*)pInfo;
 lParam = 0;
+```
 
 ## 参数
 

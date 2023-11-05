@@ -3,11 +3,11 @@
 文書を並べ替えます。このメッセージを直接送るか、または
 [Editor\_Sort インライン関数](../macro/editor_sort) を使うことができます。
 
-EE\_SORT
-
+```
+EE_SORT
 wParam = 0;
-
-lParam = (LPARAM) (SORT\_INFO\*) pSortInfo;
+lParam = (LPARAM) (SORT_INFO*) pSortInfo;
+```
 
 ## パラメータ
 

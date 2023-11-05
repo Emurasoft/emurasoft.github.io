@@ -2,11 +2,11 @@
 
 检索在 EmEditor 中允许或禁止重绘变更的标志。你能明确地发送该消息或用 [Editor\_GetRedraw inline function](../macro/editor_getredraw).
 
-EE\_GET\_REDRAW
-
+```
+EE_GET_REDRAW
 wParam = (WPARAM) 0;
-
 lParam = (LPARAM) 0;
+```
 
 ## 参数
 

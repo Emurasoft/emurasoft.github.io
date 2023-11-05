@@ -3,11 +3,11 @@
 여백 크기를 검색합니다. 이 메시지를 명시적으로 또는
 [Editor\_GetMargin](../macro/editor_getmargin) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_GET\_MARGIN
-
+```
+EE_GET_MARGIN
 wParam = 0;
-
 lParam = 0;
+```
 
 ## 매개 변수
 

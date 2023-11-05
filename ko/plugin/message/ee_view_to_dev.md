@@ -3,11 +3,11 @@
 지정된 위치의 표시 좌표를 장치 (클라이언트) 좌표로 변환합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_ViewToDev](../macro/editor_viewtodev) 인라인 함수를 사용할 수 있습니다.
 
-EE\_VIEW\_TO\_DEV
-
-wParam = (WPARAM) (POINT\_PTR\*) pptView;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptDev;
+```
+EE_VIEW_TO_DEV
+wParam = (WPARAM) (POINT_PTR*) pptView;
+lParam = (LPARAM) (POINT_PTR*) pptDev;
+```
 
 ## 매개 변수
 

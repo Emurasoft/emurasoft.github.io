@@ -3,11 +3,11 @@
 操控剪貼簿記錄。您能明確地發送該消息或通過用 [Editor\_GetClip](../macro/editor_getclip)， [Editor\_GetClipPos](../macro/editor_getclippos)， [Editor\_InsertClip](../macro/editor_insertclip)，
 [Editor\_RemoveClip](../macro/editor_removeclip)， [Editor\_RotateClip](../macro/editor_rotateclip)，或 [Editor\_SetClipPos](../macro/editor_setclippos) 內嵌函式。
 
-EE\_CLIP\_HISTORY
-
+```
+EE_CLIP_HISTORY
 wParam = 0;
-
-lParam = (LPARAM) (CLIP\_INFO) pCI;
+lParam = (LPARAM) (CLIP_INFO) pCI;
+```
 
 ## 參數
 

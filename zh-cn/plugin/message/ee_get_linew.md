@@ -3,11 +3,11 @@
 检索指定行的 Unicode 文本。你能明确地发送该消息或用
 [Editor\_GetLineW](../macro/editor_getlinew) 内联函数。
 
-EE\_GET\_LINEW
-
-wParam = (WPARAM) (GET\_LINE\_INFO\*) pGetLineInfo;
-
+```
+EE_GET_LINEW
+wParam = (WPARAM) (GET_LINE_INFO*) pGetLineInfo;
 lParam = (LPARAM) (LPWSTR) szString;
+```
 
 ## 参数
 

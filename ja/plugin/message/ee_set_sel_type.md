@@ -2,11 +2,11 @@
 
 選択状態の種類を設定します。このメッセージを直接送るか、または [Editor\_SetSelType インライン関数](../macro/editor_setseltype) または [Editor\_SetSelTypeEx インライン関数](../macro/editor_setseltypeex) を使うことができます。
 
-EE\_SET\_SEL\_TYPE
-
+```
+EE_SET_SEL_TYPE
 wParam = (WPARAM) (BOOL) bNeedAlways;
-
 lParam = (LPARAM) nSelType;
+```
 
 ## パラメータ
 

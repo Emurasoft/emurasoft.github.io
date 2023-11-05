@@ -3,11 +3,11 @@
 重複行を削除またはブックマークします。このメッセージを直接送るか、または
 [Editor\_ManageDuplicates インライン関数](../macro/editor_manageduplicates) を使うことができます。
 
-EE\_MANAGE\_DUPLICATES
-
+```
+EE_MANAGE_DUPLICATES
 wParam = 0;
-
-lParam = (LPARAM) (MANAGE\_DUPLICATES\_INFO\*) pManageDuplicatesInfo;
+lParam = (LPARAM) (MANAGE_DUPLICATES_INFO*) pManageDuplicatesInfo;
+```
 
 ## パラメータ
 

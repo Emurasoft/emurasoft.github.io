@@ -2,11 +2,11 @@
 
 在指定位置检索配置与属性。你能明确地发送该消息或用 [Editor\_GetAttr](../macro/editor_getattr) 内联函数。
 
-EE\_GET\_ATTR
-
+```
+EE_GET_ATTR
 wParam = 0;
-
-lParam = (LPARAM) (ATTR\_INFO) pAI;
+lParam = (LPARAM) (ATTR_INFO) pAI;
+```
 
 ## 参数
 

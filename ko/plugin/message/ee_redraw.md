@@ -3,11 +3,11 @@
 다시 그리려는 EmEditor의 변경을 허락하거나 다시 그리려는 EmEditor의 변경을 막습니다. 이 메시지를 명시적으로 보내거나
 [Editor\_Redraw](../macro/editor_redraw) 인라인 함수를 사용할 수 있습니다.
 
-EE\_REDRAW
-
+```
+EE_REDRAW
 wParam = (WPARAM)bRedraw;
-
 lParam = (LPARAM)0;
+```
 
 ## 매개 변수
 

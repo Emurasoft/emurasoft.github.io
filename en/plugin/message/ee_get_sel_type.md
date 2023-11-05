@@ -3,11 +3,11 @@
 Obtains the type of selection status. You can send this message explicitly or
 by using the [Editor\_GetSelType](../macro/editor_getseltype) inline function or [Editor\_GetSelTypeEx](../macro/editor_getseltypeex) inline function.
 
-EE\_GET\_SEL\_TYPE
-
+```
+EE_GET_SEL_TYPE
 wParam = (WPARAM) (BOOL) bNeedAlways;
-
 lParam = (LPARAM)0;
+```
 
 ## Parameters
 

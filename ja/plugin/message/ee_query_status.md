@@ -3,11 +3,11 @@
 指定するコマンドIDが実行可能か、またはチェックされた状態かを調べます。このメッセージを直接送るか、または
 [Editor\_QueryStatus インライン関数](../macro/editor_querystatus) を使うことができます。
 
-EE\_QUERY\_STATUS
-
+```
+EE_QUERY_STATUS
 wParam = (WPARAM) (UINT) nCmdID;
-
-lParam = (LPARAM) (BOOL\*) pbChecked;
+lParam = (LPARAM) (BOOL*) pbChecked;
+```
 
 ## パラメータ
 

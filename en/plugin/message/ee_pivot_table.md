@@ -2,11 +2,11 @@
 
 Creates a pivot table in the CSV document. You can send this message explicitly or use the [Editor\_PivotTable](../macro/editor_pivottable) inline function.
 
-EE\_PIVOT\_TABLE
-
-wParam = (WPARAM)(PIVOT\_TABLE\_INFO\*)pInfo;
-
+```
+EE_PIVOT_TABLE
+wParam = (WPARAM)(PIVOT_TABLE_INFO*)pInfo;
 lParam = 0;
+```
 
 ## Parameters
 

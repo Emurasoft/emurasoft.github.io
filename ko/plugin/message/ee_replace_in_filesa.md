@@ -5,11 +5,11 @@
 현재 파일에 변경 사항을 저장할 지 여부를 묻는 확인 메시지 박스가 나타납니다.
 이 메시지를 명시적으로 보내거나 [Editor\_ReplaceInFilesA](../macro/editor_replaceinfilesa) 인라인 함수를 보낼 수 있습니다.
 
-EE\_REPLACE\_IN\_FILESA
-
+```
+EE_REPLACE_IN_FILESA
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFOA) pGrepInfo;
+lParam = (LPARAM) (GREP_INFOA) pGrepInfo;
+```
 
 ## 매개 변수
 

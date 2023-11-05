@@ -2,11 +2,11 @@
 
 用指定字串和設定篩選文檔。您能明確地發送這條消息或用 [Editor\_Filter](../macro/editor_filter) 內嵌函式。
 
-EE\_FILTER
-
-wParam = (WPARAM) (FILTER\_INFO\*) pFilterInfo;
-
+```
+EE_FILTER
+wParam = (WPARAM) (FILTER_INFO*) pFilterInfo;
 lParam = 0;
+```
 
 ## 參數
 

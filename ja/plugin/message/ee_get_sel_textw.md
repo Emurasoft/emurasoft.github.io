@@ -3,11 +3,11 @@
 選択されているUnicodeテキストを取得します。このメッセージを直接送るか、または
 [Editor\_GetSelTextW インライン関数](../macro/editor_getseltextw) を使うことができます。
 
-EE\_GET\_SEL\_TEXTW
-
-wParam = (WPARAM) (UINT\_PTR) nBufferSize;
-
+```
+EE_GET_SEL_TEXTW
+wParam = (WPARAM) (UINT_PTR) nBufferSize;
 lParam = (LPARAM) (LPWSTR) szBuffer;
+```
 
 ## パラメータ
 

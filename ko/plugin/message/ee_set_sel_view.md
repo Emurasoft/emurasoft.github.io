@@ -4,11 +4,11 @@
 [Editor\_SetSelView](../macro/editor_setselview) 인라인 함수를 사용할 수
 있습니다.
 
-EE\_SET\_SEL\_VIEW
-
-wParam = (WPARAM) (POINT\_PTR\*) pptSelStart;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptSelEnd;
+```
+EE_SET_SEL_VIEW
+wParam = (WPARAM) (POINT_PTR*) pptSelStart;
+lParam = (LPARAM) (POINT_PTR*) pptSelEnd;
+```
 
 ## 매개 변수
 

@@ -3,11 +3,11 @@
 선택 영역의 원점을 설정합니다. 이 메시지를 명시적으로 또는 [Editor\_SetAnchorPos](../macro/editor_setanchorpos) 인라인 함수를
 사용하여 보낼 수 있습니다.
 
-EE\_SET\_ANCHOR\_POS
-
+```
+EE_SET_ANCHOR_POS
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 매개 변수
 

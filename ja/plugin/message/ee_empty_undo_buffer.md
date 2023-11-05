@@ -3,11 +3,11 @@
 元に戻す、やり直しのバッファを空にします。このメッセージを直接送るか、または
 [Editor\_EmptyUndoBuffer インライン関数](../macro/editor_emptyundobuffer) を使うことができます。
 
-EE\_EMPTY\_UNDO\_BUFFER
-
+```
+EE_EMPTY_UNDO_BUFFER
 wParam = 0;
-
 lParam = 0;
+```
 
 ## パラメータ
 

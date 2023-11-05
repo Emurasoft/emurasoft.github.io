@@ -2,11 +2,11 @@
 
 执行一个指定的命令。你能明确地发送该消息或用 [Editor\_ExecCommand](../macro/editor_execcommand) 内联函数。
 
-EE\_EXEC\_COMMAND
-
+```
+EE_EXEC_COMMAND
 wParam = (WPARAM) (UINT) nCmdID;
-
 lParam = 0;
+```
 
 ## 参数
 

@@ -3,11 +3,11 @@
 Sets the current directory for the output bar. You can send this
 message explicitly or use the [Editor\_OutputDir](../macro/editor_outputdir) inline function.
 
-EE\_OUTPUT\_DIR
-
+```
+EE_OUTPUT_DIR
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szCurrDir;
+```
 
 ## Parameters
 

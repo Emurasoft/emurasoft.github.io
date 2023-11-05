@@ -2,11 +2,11 @@
 
 構成を取得して、指定した位置に返します。このメッセージを直接送るか、または [Editor\_GetAttrインライン関数](../macro/editor_getattr) を使うことができます。
 
-EE\_GET\_ATTR
-
+```
+EE_GET_ATTR
 wParam = 0;
-
-lParam = (LPARAM) (ATTR\_INFO) pAI;
+lParam = (LPARAM) (ATTR_INFO) pAI;
+```
 
 ## パラメータ
 

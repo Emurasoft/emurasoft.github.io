@@ -4,11 +4,11 @@ Retrieves the Unicode text on the specified line. You can send this message
 explicitly or use the
 [Editor\_GetLineW](../macro/editor_getlinew) inline function.
 
-EE\_GET\_LINEW
-
-wParam = (WPARAM) (GET\_LINE\_INFO\*) pGetLineInfo;
-
+```
+EE_GET_LINEW
+wParam = (WPARAM) (GET_LINE_INFO*) pGetLineInfo;
 lParam = (LPARAM) (LPWSTR) szString;
+```
 
 ## Parameters
 

@@ -3,11 +3,11 @@
 指定するパスの複数のファイルから ANSI 文字列を検索します。検索したファイルの一覧は現在のウィンドウに表示されます。ファイルを保存していない場合は、ファイルを保存するかどうかを選択するメッセージ ボックスが表示されます。このメッセージを直接送るか、または
 [Editor\_FindInFilesA インライン関数](../macro/editor_findinfilesa) を使うことができます。
 
-EE\_FIND\_IN\_FILESA
-
+```
+EE_FIND_IN_FILESA
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFOA) pGrepInfo;
+lParam = (LPARAM) (GREP_INFOA) pGrepInfo;
+```
 
 ## パラメータ
 

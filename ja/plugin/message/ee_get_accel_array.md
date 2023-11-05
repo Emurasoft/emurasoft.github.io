@@ -2,11 +2,11 @@
 
 ショートカット キーの配列を取得します。このメッセージを直接送るか、または [Editor\_GetAccelArray インライン関数](../macro/editor_getaccelarray) を使うことができます。
 
-EE\_GET\_ACCEL\_ARRAY
-
+```
+EE_GET_ACCEL_ARRAY
 wParam = (WPARAM) (int) nBufSize;
-
-lParam = (LPARAM) (ACCEL\*) pAccel;
+lParam = (LPARAM) (ACCEL*) pAccel;
+```
 
 ## パラメータ
 

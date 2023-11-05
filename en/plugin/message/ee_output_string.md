@@ -3,11 +3,11 @@
 Appends a string to the output bar. You can send this
 message explicitly or use the [Editor\_OutputString](../macro/editor_outputstring) inline function.
 
-EE\_OUTPUT\_STRING
-
+```
+EE_OUTPUT_STRING
 wParam = nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szString;
+```
 
 ## Parameters
 

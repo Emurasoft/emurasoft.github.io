@@ -4,11 +4,11 @@
 [Editor\_SetConfigA](../macro/editor_setconfiga)
 内联函数。
 
-EE\_SET\_CONFIGA
-
+```
+EE_SET_CONFIGA
 wParam = 0;
-
 lParam = (LPARAM) (LPCSTR) szConfigName;
+```
 
 ## 参数
 

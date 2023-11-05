@@ -2,11 +2,11 @@
 
 檢索被選取的 ANSI 文本。您能明確地發送該消息或用 [Editor\_GetSelTextA](../macro/editor_getseltexta) 內嵌函式。
 
-EE\_GET\_SEL\_TEXTA
-
+```
+EE_GET_SEL_TEXTA
 wParam = (WPARAM) (UINT) nBufferSize;
-
 lParam = (LPARAM) (LPSTR) szBuffer;
+```
 
 ## 參數
 

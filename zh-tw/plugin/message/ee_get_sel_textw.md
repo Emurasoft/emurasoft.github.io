@@ -2,11 +2,11 @@
 
 檢索被選取的 Unicode 文本。您能明確地發送該消息或用 [Editor\_GetSelTextW](../macro/editor_getseltextw) 內嵌函式。
 
-EE\_GET\_SEL\_TEXTW
-
+```
+EE_GET_SEL_TEXTW
 wParam = (WPARAM) (UINT) nBufferSize;
-
 lParam = (LPARAM) (LPWSTR) szBuffer;
+```
 
 ## 參數
 

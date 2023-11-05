@@ -3,11 +3,11 @@
 檢索一個指定外掛程式的引用號。您能明確地發送該消息或用
 [Editor\_GetRef](../macro/editor_getref) 內嵌函式。
 
-EE\_GET\_REF
-
+```
+EE_GET_REF
 wParam = 0;
-
 lParam = (LPARAM)(ATOM)atom;
+```
 
 ## 參數
 

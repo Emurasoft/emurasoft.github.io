@@ -3,11 +3,11 @@
 Retrieves the ANSI text on the specified line. You can send this message
 explicitly or use the [Editor\_GetLineA](../macro/editor_getlinea) inline function.
 
-EE\_GET\_LINEA
-
-wParam = (WPARAM) (GET\_LINE\_INFO\*) pGetLineInfo;
-
+```
+EE_GET_LINEA
+wParam = (WPARAM) (GET_LINE_INFO*) pGetLineInfo;
 lParam = (LPARAM) (LPSTR) szString;
+```
 
 ## Parameters
 

@@ -3,11 +3,11 @@
 運行一個巨集。您能明確地發送該消息或用 [Editor\_RunMacro](../macro/editor_runmacro)
 內嵌函式。
 
-EE\_RUN\_MACRO
-
+```
+EE_RUN_MACRO
 wParam = 0;
-
-lParam = (LPARAM) (RUN\_MACRO\_INFO\*) pRMI;
+lParam = (LPARAM) (RUN_MACRO_INFO*) pRMI;
+```
 
 ## 參數
 

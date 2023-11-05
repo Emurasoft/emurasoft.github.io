@@ -5,11 +5,11 @@ send this message explicitly or use the
 [Editor\_LoadConfigA](../macro/editor_loadconfiga)
 inline function.
 
-EE\_LOAD\_CONFIGA
-
+```
+EE_LOAD_CONFIGA
 wParam = 0;
-
 lParam = (LPARAM) (LPCSTR) szConfigName;
+```
 
 ## Parameters
 

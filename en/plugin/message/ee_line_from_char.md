@@ -7,11 +7,11 @@ explicitly or use the
 [Editor\_LineFromChar](../macro/editor_linefromchar)
 inline function.
 
-EE\_LINE\_FROM\_CHAR
-
+```
+EE_LINE_FROM_CHAR
 wParam = (WPARAM) (int) nLogical;
-
 lParam = (LPARAM) (UINT) nSerialIndex;
+```
 
 ## Parameters
 

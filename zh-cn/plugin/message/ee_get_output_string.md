@@ -2,11 +2,11 @@
 
 检索输出栏中的文本。你能明确地发送该消息或用 [Editor\_GetOutputString](../macro/editor_getoutputstring) 内联函数。
 
-EE\_GET\_OUTPUT\_STRING
-
+```
+EE_GET_OUTPUT_STRING
 wParam = (WPARAM) (UINT) cchBuf;
-
 lParam = (LPARAM) (LPWSTR) pBuf;
+```
 
 ## 参数
 

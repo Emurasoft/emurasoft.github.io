@@ -3,11 +3,11 @@
 Sets the type of selection status. You can send this message explicitly or
 use the [Editor\_SetSelType](../macro/editor_setseltype) inline function or [Editor\_SetSelTypeEx](../macro/editor_setseltypeex) inline function.
 
-EE\_SET\_SEL\_TYPE
-
+```
+EE_SET_SEL_TYPE
 wParam = (WPARAM) (BOOL) bNeedAlways;
-
 lParam = (LPARAM) nSelType;
+```
 
 ## Parameters
 

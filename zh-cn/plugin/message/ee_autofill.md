@@ -2,11 +2,11 @@
 
 对 CSV 文档执行自动填充或快速填充操作。你可以明确地发送该消息或用 [Editor\_AutoFill](../macro/editor_autofill) 内联函数。
 
-EE\_AUTOFILL
-
+```
+EE_AUTOFILL
 wParam = 0;
-
-lParam = (LPARAM) (AUTOFILL\_INFO\*) pInfo;
+lParam = (LPARAM) (AUTOFILL_INFO*) pInfo;
+```
 
 ## 参数
 

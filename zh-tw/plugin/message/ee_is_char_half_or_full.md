@@ -2,23 +2,17 @@
 
 決定以（1）UTF-16字元值或（2）縮放器值表示的指定字元是半形還是全形字元。（3）它也可以計算指定字串的總寬度。你可以明確地發送該消息或使用 [Editor\_IsCharHalfOrFull](../macro/editor_ischarhalforfull) 內嵌函式。
 
-(1) EE\_IS\_CHAR\_HALF\_OR\_FULL
-
+(1) ```
+EE_IS_CHAR_HALF_OR_FULL
 (WCHAR)wParam = ch
-
 (int)lParam = 0
-
-(2) EE\_IS\_CHAR\_HALF\_OR\_FULL
-
+(2) EE_IS_CHAR_HALF_OR_FULL
 (UINT)wParam = nScaler
-
 (int)lParam = -1
-
-(3) EE\_IS\_CHAR\_HALF\_OR\_FULL
-
-(INT\_PTR)wParam = cchStr
-
+(3) EE_IS_CHAR_HALF_OR_FULL
+(INT_PTR)wParam = cchStr
 (LPCWSTR)lParam = pStr
+```
 
 ## 參數
 

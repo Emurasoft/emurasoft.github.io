@@ -3,11 +3,11 @@
 替换一个 ANSI 字符串。你能明确地发送该消息或用
 [Editor\_ReplaceA](../macro/editor_replacea) 内联函数。
 
-EE\_REPLACEA
-
+```
+EE_REPLACEA
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCSTR) szFindReplace;
+```
 
 ## 参数
 

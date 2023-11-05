@@ -2,11 +2,11 @@
 
 为输出栏设置当前目录。你能明确地发送该消息或用 [Editor\_OutputDir](../macro/editor_outputdir) 内联函数。
 
-EE\_OUTPUT\_DIR
-
+```
+EE_OUTPUT_DIR
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szCurrDir;
+```
 
 ## 参数
 

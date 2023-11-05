@@ -2,11 +2,11 @@
 
 在 CSV 文檔中建立樞紐分析表。你能明確地發送該消息或用 [Editor\_PivotTable](../macro/editor_pivottable) 內嵌函式。
 
-EE\_PIVOT\_TABLE
-
-wParam = (WPARAM)(PIVOT\_TABLE\_INFO\*)pInfo;
-
+```
+EE_PIVOT_TABLE
+wParam = (WPARAM)(PIVOT_TABLE_INFO*)pInfo;
 lParam = 0;
+```
 
 ## 參數
 

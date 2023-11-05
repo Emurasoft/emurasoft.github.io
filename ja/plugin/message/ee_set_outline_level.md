@@ -3,11 +3,11 @@
 指定する論理行のアウトラインのレベルを設定します。このメッセージを直接送るか、または
 [Editor\_SetOutlineLevel インライン関数](../macro/editor_setoutlinelevel) を使うことができます。
 
-EE\_SET\_OUTLINE\_LEVEL
-
-wParam = (WPARAM) (INT\_PTR) nLogicalLine;
-
+```
+EE_SET_OUTLINE_LEVEL
+wParam = (WPARAM) (INT_PTR) nLogicalLine;
 lParam = (LPARAM) (int) nLevel;
+```
 
 ## パラメータ
 

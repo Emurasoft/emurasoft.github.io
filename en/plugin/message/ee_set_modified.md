@@ -3,11 +3,11 @@
 Changes the modified state of the text. You can send this message explicitly
 or by using the [Editor\_SetModified](../macro/editor_setmodified) inline function.
 
-EE\_SET\_MODIFIED
-
+```
+EE_SET_MODIFIED
 wParam = (WPARAM) (BOOL) bModified;
-
 lParam = 0;
+```
 
 ## Parameters
 

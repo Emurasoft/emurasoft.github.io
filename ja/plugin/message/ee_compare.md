@@ -3,11 +3,11 @@
 2個の文書を比較します。このメッセージを直接送るか、または
 [Editor\_Compare インライン関数](../macro/editor_compare) を使うことができます。
 
-EE\_COMPARE
-
-wParam = (WPARAM) (COMPARE\_INFO\*) pCompareInfo;
-
+```
+EE_COMPARE
+wParam = (WPARAM) (COMPARE_INFO*) pCompareInfo;
 lParam = 0;
+```
 
 ## パラメータ
 

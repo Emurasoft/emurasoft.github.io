@@ -3,11 +3,11 @@
 指定するコマンドに関連する文字列を取得します。このメッセージを直接送るか、または
 [Editor\_QueryString インライン関数](../macro/editor_querystring) を使うことができます。
 
-EE\_QUERY\_STRING
-
+```
+EE_QUERY_STRING
 wParam = (WPARAM) MAKEWPARAM( nCmdID, bShortTitle );
-
 lParam = (LPARAM) (LPWSTR) psz;
+```
 
 ## パラメータ
 

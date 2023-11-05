@@ -2,11 +2,11 @@
 
 プラグインのコマンドIDを取得します。このメッセージを直接送るか、または [Editor\_GetCmdID インライン関数](../macro/editor_getcmdid) を使うことができます。
 
-EE\_GET\_CMD\_ID
-
+```
+EE_GET_CMD_ID
 wParam = 0;
-
 lParam = (LPARAM) (HINSTANCE) hInstance
+```
 
 ## パラメータ
 

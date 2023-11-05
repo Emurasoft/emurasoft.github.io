@@ -4,11 +4,11 @@
 [Editor\_SetConfigW](../macro/editor_setconfigw)
 內嵌函式。
 
-EE\_SET\_CONFIGW
-
+```
+EE_SET_CONFIGW
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szConfigName;
+```
 
 ## 參數
 

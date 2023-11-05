@@ -2,11 +2,11 @@
 
 排序文檔。你可以明確地發送該消息或用 [Editor\_Sort](../macro/editor_sort) 內嵌函式。
 
-EE\_SORT
-
+```
+EE_SORT
 wParam = 0;
-
-lParam = (LPARAM) (SORT\_INFO\*) pSortInfo;
+lParam = (LPARAM) (SORT_INFO*) pSortInfo;
+```
 
 ## 參數
 

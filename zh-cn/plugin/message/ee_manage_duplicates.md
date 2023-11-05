@@ -2,11 +2,11 @@
 
 删除或把重复行设为书签。你可以明确地发送该消息或用 [Editor\_ManageDuplicates](../macro/editor_manageduplicates) 内联函数。
 
-EE\_MANAGE\_DUPLICATES
-
+```
+EE_MANAGE_DUPLICATES
 wParam = 0;
-
-lParam = (LPARAM) (MANAGE\_DUPLICATES\_INFO\*) pManageDuplicatesInfo;
+lParam = (LPARAM) (MANAGE_DUPLICATES_INFO*) pManageDuplicatesInfo;
+```
 
 ## 参数
 

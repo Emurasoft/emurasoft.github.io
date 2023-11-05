@@ -4,11 +4,11 @@ Retrieves a page size. You can send this message explicitly or use the
 [Editor\_GetPageSize](../macro/editor_getpagesize)
 inline function.
 
-EE\_GET\_PAGE\_SIZE
-
+```
+EE_GET_PAGE_SIZE
 wParam = 0;
-
-lParam = (LPARAM) (SIZE\_PTR\*) psizePage;
+lParam = (LPARAM) (SIZE_PTR*) psizePage;
+```
 
 ## Parameters
 

@@ -2,11 +2,11 @@
 
 選択テキストの終了位置を取得します。このメッセージを直接送るか、または [Editor\_GetSelEnd インライン関数](../macro/editor_getselend) を使うことができます。
 
-EE\_GET\_SEL\_END
-
+```
+EE_GET_SEL_END
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## パラメータ
 

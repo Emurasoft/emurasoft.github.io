@@ -2,11 +2,11 @@
 
 转换字符。你能明确地发送该消息或用 [Editor\_Convert](../macro/editor_convert) 内联函数。
 
-EE\_CONVERT\_EX
-
-wParam = (WPARAM) (CONVERT\_INFO\*)pInfo;
-
+```
+EE_CONVERT_EX
+wParam = (WPARAM) (CONVERT_INFO*)pInfo;
 lParam = 0;
+```
 
 ## 参数
 

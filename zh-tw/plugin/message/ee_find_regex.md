@@ -2,11 +2,11 @@
 
 用規則運算式搜尋一個字符串。您能明確地發送該消息或用 [Editor\_FindRegex](../macro/editor_findregex) 內嵌函式。
 
-EE\_FIND\_REGEX
-
+```
+EE_FIND_REGEX
 wParam = 0;
-
-lParam = (LPARAM) (FIND\_REGEX\_INFO\*) pFindRegexInfo;
+lParam = (LPARAM) (FIND_REGEX_INFO*) pFindRegexInfo;
+```
 
 ## 參數
 

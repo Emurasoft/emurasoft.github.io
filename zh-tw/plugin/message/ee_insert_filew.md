@@ -3,11 +3,11 @@
 在光標處插入指定檔案內容。檔案名用一個 Unicode 字符串指定。您能明確地發送該消息或用
 [Editor\_InsertFileW](../macro/editor_insertfilew) 內嵌函式。
 
-EE\_INSERT\_FILEW
-
-wParam = (WPARAM) (LOAD\_FILE\_INFO\*) pLoadFileInfo;
-
+```
+EE_INSERT_FILEW
+wParam = (WPARAM) (LOAD_FILE_INFO*) pLoadFileInfo;
 lParam = (LPARAM) (LPCWSTR) szFileName;
+```
 
 ## 參數
 

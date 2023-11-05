@@ -3,11 +3,11 @@
 스크롤 바의 현재 위치를 검색합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_GetScrollPos](../macro/editor_getscrollpos) 인라인 함수를 사용할 수 있습니다.
 
-EE\_GET\_SCROLL\_POS
-
+```
+EE_GET_SCROLL_POS
 wParam = 0;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 매개 변수
 

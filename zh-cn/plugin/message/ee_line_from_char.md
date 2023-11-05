@@ -4,11 +4,11 @@
 [Editor\_LineFromChar](../macro/editor_linefromchar)
 内联函数。
 
-EE\_LINE\_FROM\_CHAR
-
+```
+EE_LINE_FROM_CHAR
 wParam = (WPARAM) (int) nLogical;
-
 lParam = (LPARAM) (UINT) nSerialIndex;
+```
 
 ## 参数
 

@@ -2,11 +2,11 @@
 
 打開自訂工具列。您能明確地發送該消息或用 [Editor\_ToolbarOpen](../macro/editor_toolbaropen) 內嵌函式。
 
-EE\_TOOLBAR\_OPEN
-
+```
+EE_TOOLBAR_OPEN
 wParam = 0;
-
-lParam = (LPARAM) (TOOLBAR\_INFO\*) pToolbarInfo;
+lParam = (LPARAM) (TOOLBAR_INFO*) pToolbarInfo;
+```
 
 ## 參數
 

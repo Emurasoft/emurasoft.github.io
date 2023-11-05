@@ -3,11 +3,11 @@
 ステータス バーに表示されている文字列をANSIで取得します。このメッセージを直接送るか、または
 [Editor\_GetStatusA インライン関数](../macro/editor_getstatusa) を使うことができます。
 
-EE\_GET\_STATUSA
-
-wParam = (UINT\_PTR) nBufSize;
-
+```
+EE_GET_STATUSA
+wParam = (UINT_PTR) nBufSize;
 lParam = (LPARAM) (LPSTR) szStatus;
+```
 
 ## パラメータ
 

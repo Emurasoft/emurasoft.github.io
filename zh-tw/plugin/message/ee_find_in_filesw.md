@@ -3,19 +3,15 @@
 在指定路徑的多個檔案中搜尋一個 Unicode 字符串。被搜尋的檔案列表會顯示在當前視窗內。如果當前文檔被修改，EmEditor 會顯示是否將更改保存到當前檔案的提示消息框。您能明確地發送該消息或用
 [Editor\_FindInFilesW](../macro/editor_findinfilesw) 或 [Editor\_BatchFindInFiles](../macro/editor_batchfindinfiles) 內嵌函式。
 
-EE\_FIND\_IN\_FILESW
-
+```
+EE_FIND_IN_FILESW
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFO\_EX\*) pGrepInfo;
-
+lParam = (LPARAM) (GREP_INFO_EX*) pGrepInfo;
 或
-
-EE\_FIND\_IN\_FILESW
-
-wParam = (WPARAM) (BATCH\_GREP\_INFO\*) pBatchGrepInfo;
-
-lParam = (LPARAM) (FIND\_REPLACE\_INFO\*) pBatchArray;
+EE_FIND_IN_FILESW
+wParam = (WPARAM) (BATCH_GREP_INFO*) pBatchGrepInfo;
+lParam = (LPARAM) (FIND_REPLACE_INFO*) pBatchArray;
+```
 
 ## 參數
 

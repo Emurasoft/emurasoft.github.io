@@ -2,11 +2,11 @@
 
 選択テキストの開始位置を取得します。このメッセージを直接送るか、または [Editor\_GetSelStart インライン関数](../macro/editor_getselstart) を使うことができます。
 
-EE\_GET\_SEL\_START
-
+```
+EE_GET_SEL_START
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## パラメータ
 

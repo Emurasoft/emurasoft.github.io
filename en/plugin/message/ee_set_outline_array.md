@@ -4,11 +4,11 @@ Sets the outline levels for the specified multiple lines. You can send this mess
 explicitly or use the
 [Editor\_SetOutlineArray](../macro/editor_setoutlinearray) inline function.
 
-EE\_SET\_OUTLINE\_ARRAY
-
+```
+EE_SET_OUTLINE_ARRAY
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (OUTLINE\_ARRAY\_INFO\*) pOutlineArrayInfo;
+lParam = (LPARAM) (OUTLINE_ARRAY_INFO*) pOutlineArrayInfo;
+```
 
 ## Parameters
 

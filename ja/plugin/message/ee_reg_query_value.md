@@ -2,11 +2,11 @@
 
 EmEditor の設定に応じて、レジストリまたは INI ファイルから、指定する値を取得します。このメッセージを直接送るか、または [Editor\_RegQueryValue インライン関数](../macro/editor_regqueryvalue) を使うことができます。
 
-EE\_REG\_QUERY\_VALUE
-
+```
+EE_REG_QUERY_VALUE
 wParam = 0;
-
-(REG\_QUERY\_VALUE\_INFO\*)lParam = pRegQueryValueInfo;
+(REG_QUERY_VALUE_INFO*)lParam = pRegQueryValueInfo;
+```
 
 ## パラメータ
 

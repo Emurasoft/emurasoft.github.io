@@ -2,11 +2,11 @@
 
 文字列を検索または置換します。このメッセージを直接送るか、または [Editor\_FindReplace](../macro/editor_findreplace) または [Editor\_BatchFindReplace](../macro/editor_batchfindreplace) インライン関数を使うことができます。
 
-EE\_FIND\_REPLACE
-
-wParam = (WPARAM) (BATCH\_INFO\*) pBatchInfo;
-
-lParam = (LPARAM) (FIND\_REPLACE\_INFO\*) pFindReplaceInfo;
+```
+EE_FIND_REPLACE
+wParam = (WPARAM) (BATCH_INFO*) pBatchInfo;
+lParam = (LPARAM) (FIND_REPLACE_INFO*) pFindReplaceInfo;
+```
 
 ## パラメータ
 

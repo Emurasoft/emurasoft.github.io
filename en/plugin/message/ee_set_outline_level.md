@@ -3,11 +3,11 @@
 Sets the outline level for the specified logical line. You can send this message
 explicitly or use the [Editor\_SetOutlineLevel](../macro/editor_setoutlinelevel) inline function.
 
-EE\_SET\_OUTLINE\_LEVEL
-
-wParam = (WPARAM) (INT\_PTR) nLogicalLine;
-
+```
+EE_SET_OUTLINE_LEVEL
+wParam = (WPARAM) (INT_PTR) nLogicalLine;
 lParam = (LPARAM) (int) nLevel;
+```
 
 ## Parameters
 

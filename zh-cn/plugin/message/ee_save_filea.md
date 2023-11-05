@@ -3,11 +3,11 @@
 保存文本到一个指定的文件中。文件名称被指定为一个 ANSI 字符串。你能明确地发送该消息或用
 [Editor\_SaveFileA](../macro/editor_savefilea) 内联函数。
 
-EE\_SAVE\_FILEA
-
+```
+EE_SAVE_FILEA
 wParam = (WPARAM) (BOOL) bReplace;
-
 lParam = (LPARAM) (LPSTR) szFileName;
+```
 
 ## 参数
 

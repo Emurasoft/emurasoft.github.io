@@ -2,11 +2,11 @@
 
 追加一個字符串到輸出列中。您能明確地發送該消息或用 [Editor\_OutputString](../macro/editor_outputstring) 內嵌函式。
 
-EE\_OUTPUT\_STRING
-
+```
+EE_OUTPUT_STRING
 wParam = nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szString;
+```
 
 ## 參數
 

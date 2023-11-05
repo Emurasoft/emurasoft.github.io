@@ -3,11 +3,11 @@
 ツールチップの表示/非表示を切り替えます。このメッセージを直接送るか、または
 [Editor\_ShowTip インライン関数](../macro/editor_showtip) を使うことができます。
 
-EE\_SHOW\_TIP
-
+```
+EE_SHOW_TIP
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (TIP\_INFO\*) pTipInfo;
+lParam = (LPARAM) (TIP_INFO*) pTipInfo;
+```
 
 ## パラメータ
 

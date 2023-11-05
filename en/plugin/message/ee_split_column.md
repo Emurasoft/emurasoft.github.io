@@ -2,11 +2,11 @@
 
 Splits specified columns of the current CSV document. You can send this message explicitly or use the [Editor\_SplitColumn](../macro/editor_splitcolumn) inline function.
 
-EE\_SPLIT\_COLUMN
-
-wParam = (WPARAM)(SPLIT\_COLUMN\_INFO\*)pInfo;
-
+```
+EE_SPLIT_COLUMN
+wParam = (WPARAM)(SPLIT_COLUMN_INFO*)pInfo;
 lParam = 0;
+```
 
 ## Parameters
 

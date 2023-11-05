@@ -3,11 +3,11 @@
 複数選択が利用可能な場合、指定する選択の情報を設定します。このメッセージを直接送るか、または
 [Editor\_SetMultiSel インライン関数](../macro/editor_setmultisel) を使うことができます。
 
-EE\_SET\_MULTI\_SEL
-
-wParam = (WPARAM) (UINT\_PTR) iSel;
-
-lParam = (LPARAM) (const SEL\_INFO\*) pSelInfo;
+```
+EE_SET_MULTI_SEL
+wParam = (WPARAM) (UINT_PTR) iSel;
+lParam = (LPARAM) (const SEL_INFO*) pSelInfo;
+```
 
 ## パラメータ
 

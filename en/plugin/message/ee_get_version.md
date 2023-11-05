@@ -4,11 +4,11 @@ Returns the version number. You can send this message explicitly or by using
 the [Editor\_GetVersion](../macro/editor_getversion)
 inline function.
 
-EE\_GET\_VERSION
-
+```
+EE_GET_VERSION
 wParam = pnProductType;
-
 lParam = 0;
+```
 
 ## Parameters
 

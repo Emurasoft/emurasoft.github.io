@@ -3,11 +3,11 @@
 現在の文書にかけられているフィルターの文字列と設定を取得します。このメッセージを直接送るか、または
 [Editor\_GetFilter インライン関数](../macro/editor_getfilter) を使うことができます。
 
-EE\_GET\_FILTER
-
-wParam = (WPARAM) (FILTER\_INFO\_EX\*) pFilterInfo;
-
+```
+EE_GET_FILTER
+wParam = (WPARAM) (FILTER_INFO_EX*) pFilterInfo;
 lParam = (LPARAM)(int)iFilter;
+```
 
 ## パラメータ
 

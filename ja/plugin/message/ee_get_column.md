@@ -3,11 +3,11 @@
 CSV モードで指定する列に文字列を取得します。このメッセージを直接送るか、または
 [Editor\_GetColumn](../macro/editor_getcolumn) インライン関数を使うことができます。
 
-EE\_GET\_COLUMN
-
+```
+EE_GET_COLUMN
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (COLUMN\_STRUCT\*) pColumnStruct;
+lParam = (LPARAM) (COLUMN_STRUCT*) pColumnStruct;
+```
 
 ## パラメータ
 

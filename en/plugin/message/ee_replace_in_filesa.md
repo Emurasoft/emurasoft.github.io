@@ -6,11 +6,11 @@ document is modified, displays the prompt message box whether to save the
 changes to the current file. You can send this message explicitly or use the
 [Editor\_ReplaceInFilesA](../macro/editor_replaceinfilesa) inline function.
 
-EE\_REPLACE\_IN\_FILESA
-
+```
+EE_REPLACE_IN_FILESA
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFOA) pGrepInfo;
+lParam = (LPARAM) (GREP_INFOA) pGrepInfo;
+```
 
 ## Parameters
 

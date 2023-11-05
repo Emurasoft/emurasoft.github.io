@@ -2,11 +2,11 @@
 
 選択範囲の開始位置を取得します。このメッセージを直接送るか、または [Editor\_GetAnchorPos インライン関数](../macro/editor_getanchorpos) を使うことができます。
 
-EE\_GET\_ANCHOR\_POS
-
+```
+EE_GET_ANCHOR_POS
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## パラメータ
 

@@ -2,11 +2,11 @@
 
 執行一個指定的外掛程式。你可以明確地發送該消息或用 [Editor\_ExecPlugin](../macro/editor_execplugin) 內嵌函式。.
 
-EE\_EXEC\_PLUGIN
-
-wParam = (WPARAM) (EXEC\_PLUGIN\_INFO\*) pPluginInfo;
-
+```
+EE_EXEC_PLUGIN
+wParam = (WPARAM) (EXEC_PLUGIN_INFO*) pPluginInfo;
 lParam = 0;
+```
 
 ## 參數
 

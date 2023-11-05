@@ -2,11 +2,11 @@
 
 搜索或取代一個字串。你能明確地發送該消息或用 [Editor\_FindReplace](../macro/editor_findreplace) 或 [Editor\_BatchFindReplace](../macro/editor_batchfindreplace) 內嵌函式。
 
-EE\_FIND\_REPLACE
-
-wParam = (WPARAM) (BATCH\_INFO\*) pBatchInfo;
-
-lParam = (LPARAM) (FIND\_REPLACE\_INFO\*) pFindReplaceInfo;
+```
+EE_FIND_REPLACE
+wParam = (WPARAM) (BATCH_INFO*) pBatchInfo;
+lParam = (LPARAM) (FIND_REPLACE_INFO*) pFindReplaceInfo;
+```
 
 ## 參數
 

@@ -3,11 +3,11 @@
 Opens a custom toolbar. You can send this message explicitly or
 by using the [Editor\_ToolbarOpen](../macro/editor_toolbaropen) inline function.
 
-EE\_TOOLBAR\_OPEN
-
+```
+EE_TOOLBAR_OPEN
 wParam = 0;
-
-lParam = (LPARAM) (TOOLBAR\_INFO\*) pToolbarInfo;
+lParam = (LPARAM) (TOOLBAR_INFO*) pToolbarInfo;
+```
 
 ## Parameters
 

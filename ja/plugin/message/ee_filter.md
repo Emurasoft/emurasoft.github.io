@@ -3,11 +3,11 @@
 指定する文字列と設定で文書にフィルターをかけます。このメッセージを直接送るか、または
 [Editor\_Filter インライン関数](../macro/editor_filter) を使うことができます。
 
-EE\_FILTER
-
-wParam = (WPARAM) (FILTER\_INFO\_EX\*) pFilterInfo;
-
+```
+EE_FILTER
+wParam = (WPARAM) (FILTER_INFO_EX*) pFilterInfo;
 lParam = 0;
+```
 
 ## パラメータ
 

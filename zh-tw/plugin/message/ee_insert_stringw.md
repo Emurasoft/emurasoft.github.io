@@ -4,11 +4,11 @@
 [Editor\_InsertStringW 內嵌函式](../macro/editor_insertstringw)， [Editor\_InsertW 內嵌函式](../macro/editor_insertw)，或
 [Editor\_OverwriteW](../macro/editor_overwritew) 內嵌函式。
 
-EE\_INSERT\_STRINGW
-
+```
+EE_INSERT_STRINGW
 wParam = nInsertType;
-
 lParam = (LPARAM) (LPCWSTR) szString;
+```
 
 ## 參數
 

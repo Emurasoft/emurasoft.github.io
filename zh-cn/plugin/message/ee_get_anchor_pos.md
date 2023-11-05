@@ -2,11 +2,11 @@
 
 检索选区的原点。你能明确地发送该消息或用 [Editor\_GetAnchorPos](../macro/editor_getanchorpos) 内联函数。
 
-EE\_GET\_ANCHOR\_POS
-
+```
+EE_GET_ANCHOR_POS
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 参数
 

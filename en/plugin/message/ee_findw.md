@@ -3,11 +3,11 @@
 Searches a Unicode string. This message is obsolete. The newer plug-in should use the EE\_FIND\_REPLACE message instead. You can send this message explicitly or by using
 the [Editor\_FindW](../macro/editor_findw) inline function.
 
-EE\_FINDW
-
+```
+EE_FINDW
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szFind;
+```
 
 ## Parameters
 

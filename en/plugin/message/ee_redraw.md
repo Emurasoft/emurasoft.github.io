@@ -4,11 +4,11 @@ Allows changes in EmEditor to be redrawn or prevents changes in EmEditor to
 be redrawn. You can send this message explicitly or use the
 [Editor\_Redraw](../macro/editor_redraw) inline function.
 
-EE\_REDRAW
-
+```
+EE_REDRAW
 wParam = (WPARAM)bRedraw;
-
 lParam = (LPARAM)0;
+```
 
 ## Parameters
 

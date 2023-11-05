@@ -2,11 +2,11 @@
 
 释放一个指定的插件。你能明确地发送该消息或用 [Editor\_Free](../macro/editor_free) 内联函数。
 
-EE\_FREE
-
+```
+EE_FREE
 wParam = 0;
-
 lParam = (LPARAM)(ATOM)atom;
+```
 
 ## 参数
 

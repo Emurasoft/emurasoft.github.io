@@ -2,11 +2,11 @@
 
 显示帮助中的指定页面。你能明确地发送该消息或用 [Editor\_Help](../macro/editor_help) 内联函数。
 
-EE\_HELP
-
+```
+EE_HELP
 wParam = 0
-
 (LPCTSTR)lParam = szPageURL
+```
 
 ## 参数
 

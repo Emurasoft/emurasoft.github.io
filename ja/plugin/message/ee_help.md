@@ -2,11 +2,11 @@
 
 指定するヘルプのページを表示します。このメッセージを直接送るか、または [Editor\_Help インライン関数](../macro/editor_help) を使うことができます。
 
-EE\_HELP
-
+```
+EE_HELP
 wParam = 0
-
 (LPCTSTR)lParam = szPageURL
+```
 
 ## パラメータ
 

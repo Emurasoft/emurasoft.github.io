@@ -3,19 +3,15 @@
 文書が更新されているかどうかのフラグを取得します。このメッセージを直接送るか、 [Editor\_DocGetModified インライン関数](../macro/editor_docgetmodified)、または
 [Editor\_GetModified インライン関数](../macro/editor_getmodified) を使うことができます。
 
-EE\_GET\_MODIFIED
-
+```
+EE_GET_MODIFIED
 wParam = (WPARAM) MAKEWPARAM(0, (iDoc)+1);
-
 lParam = hDoc;
-
 または
-
-EE\_GET\_MODIFIED
-
+EE_GET_MODIFIED
 wParam = 0;
-
 lParam = 0;
+```
 
 ## パラメータ
 

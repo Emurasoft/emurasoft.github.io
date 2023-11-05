@@ -2,11 +2,11 @@
 
 指定滚动栏位置。你能明确地发送该消息或用 [Editor\_SetScrollPos](../macro/editor_setscrollpos) 内联函数或 [Editor\_SetScrollPosEx](../macro/editor_setscrollposex) 内联函数。
 
-EE\_SET\_SCROLL\_POS
-
+```
+EE_SET_SCROLL_POS
 wParam = (WPARAM) (BOOL) bCanMoveCursor;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 参数
 

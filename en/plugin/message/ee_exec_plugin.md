@@ -3,11 +3,11 @@
 Executes a specified plug-in. You can send this message explicitly or use
 the [Editor\_ExecPlugin](../macro/editor_execplugin) inline function.
 
-EE\_EXEC\_PLUGIN
-
-wParam = (WPARAM) (EXEC\_PLUGIN\_INFO\*) pPluginInfo;
-
+```
+EE_EXEC_PLUGIN
+wParam = (WPARAM) (EXEC_PLUGIN_INFO*) pPluginInfo;
 lParam = 0;
+```
 
 ## Parameters
 

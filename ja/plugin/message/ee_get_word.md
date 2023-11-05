@@ -2,11 +2,11 @@
 
 カーソル位置の単語を返します。このメッセージを直接送るか、または [Editor\_GetWord インライン関数](../macro/editor_getword) を使うことができます。
 
-EE\_GET\_WORD
-
+```
+EE_GET_WORD
 wParam = (WPARAM) (UINT) nBufferSize;
-
 lParam = (LPARAM) (LPWSTR) szBuffer;
+```
 
 ## パラメータ
 

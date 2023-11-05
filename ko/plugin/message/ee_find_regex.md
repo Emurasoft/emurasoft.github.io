@@ -3,11 +3,11 @@
 정규식에 대한 문자열을 검색합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_FindRegex](../macro/editor_findregex) 인라인 함수를 사용할 수 있습니다.
 
-EE\_FIND\_REGEX
-
+```
+EE_FIND_REGEX
 wParam = 0;
-
-lParam = (LPARAM) (FIND\_REGEX\_INFO\*) pFindRegexInfo;
+lParam = (LPARAM) (FIND_REGEX_INFO*) pFindRegexInfo;
+```
 
 ## 매개 변수
 

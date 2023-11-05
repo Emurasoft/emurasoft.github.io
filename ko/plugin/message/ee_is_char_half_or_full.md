@@ -3,11 +3,11 @@
 지정된 문자가 반자인지 전자인지 여부를 검색합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_IsCharHalfOrFull](../macro/editor_ischarhalforfull) 인라인 함수를 사용할 수 있습니다.
 
-EE\_IS\_CHAR\_HALF\_OR\_FULL
-
+```
+EE_IS_CHAR_HALF_OR_FULL
 wParam = (WPARAM)(WCHAR)ch;
-
 lParam = (LPARAM)0;
+```
 
 ## 매개 변수
 

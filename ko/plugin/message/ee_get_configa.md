@@ -3,11 +3,11 @@
 ANSI 문자열로 선택된 구성의 이름을 검색합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_GetConfigA](../macro/editor_getconfiga) 인라인 함수를 사용할 수 있습니다.
 
-EE\_GET\_CONFIGA
-
+```
+EE_GET_CONFIGA
 wParam = 0;
-
 lParam = (LPARAM) (LPSTR) szConfigName;
+```
 
 ## 매개 변수
 

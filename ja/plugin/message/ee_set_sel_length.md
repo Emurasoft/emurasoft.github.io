@@ -2,11 +2,11 @@
 
 選択テキストの長さを設定します。このメッセージを直接送るか、または [Editor\_SetSelLength インライン関数](../macro/editor_setsellength) を使うことができます。
 
-EE\_SET\_SEL\_LENGTH
-
-wParam = (WPARAM) (UINT\_PTR) nLen;
-
+```
+EE_SET_SEL_LENGTH
+wParam = (WPARAM) (UINT_PTR) nLen;
 lParam = 0;
+```
 
 ## パラメータ
 

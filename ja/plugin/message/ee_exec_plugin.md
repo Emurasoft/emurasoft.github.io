@@ -3,11 +3,11 @@
 指定するプラグインを実行します。このメッセージを直接送るか、または
 [Editor\_ExecPlugin インライン関数](../macro/editor_execplugin) を使うことができます。
 
-EE\_EXEC\_PLUGIN
-
-wParam = (WPARAM) (EXEC\_PLUGIN\_INFO\*) pPluginInfo;
-
+```
+EE_EXEC_PLUGIN
+wParam = (WPARAM) (EXEC_PLUGIN_INFO*) pPluginInfo;
 lParam = 0;
+```
 
 ## パラメータ
 

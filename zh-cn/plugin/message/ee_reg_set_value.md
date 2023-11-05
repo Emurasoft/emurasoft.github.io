@@ -2,11 +2,11 @@
 
 根据 EmEditor 的设定，设一个值到注册表或一个 INI 文件中。你能明确地发送该消息或用 [Editor\_RegSetValue](../macro/editor_regsetvalue) 内联函数。
 
-EE\_REG\_SET\_VALUE
-
+```
+EE_REG_SET_VALUE
 wParam = 0;
-
-(REG\_SET\_VALUE\_INFO\*)lParam = pRegSetValueInfo;
+(REG_SET_VALUE_INFO*)lParam = pRegSetValueInfo;
+```
 
 ## 参数
 

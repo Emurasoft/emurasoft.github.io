@@ -3,11 +3,11 @@
 커서 위치를 이동하고 필요에 따라 선택 영역을 확장합니다. 이 메시지를 명시적으로 또는
 [Editor\_SetCaretPos](../macro/editor_setcaretpos) 인라인 함수나 [Editor\_SetCaretPosEx](../macro/editor_setcaretposex) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_SET\_CARET\_POS
-
+```
+EE_SET_CARET_POS
 wParam = MAKEWPARAM( nLogical, bExtend );
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 매개 변수
 

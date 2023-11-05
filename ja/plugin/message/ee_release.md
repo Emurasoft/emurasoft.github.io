@@ -2,11 +2,11 @@
 
 プラグインの参照数1つ減少させます。このメッセージを直接送るか、または [Editor\_Release インライン関数](../macro/editor_release) を使うことができます。
 
-EE\_RELEASE
-
+```
+EE_RELEASE
 wParam = 0;
-
 lParam = (LPARAM)(HINSTANCE)hInstance;
+```
 
 ## パラメータ
 

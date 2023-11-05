@@ -4,19 +4,15 @@ EmEditor에서 사용되는 정보 매개 변수 중 하나의 값을 설정하�
 [Editor\_Info](../macro/editor_info) 인라인 함수 또는
 [Editor\_DocInfo](../macro/editor_docinfo) 인라인 함수를 사용할 수 있습니다.
 
-EE\_INFO
-
+```
+EE_INFO
 wParam = (WPARAM)(int)nCmd;
-
 lParam = (LPARAM)lParam;
-
 or
-
-EE\_INFO
-
+EE_INFO
 wParam = MAKEWPARAM(nCmd, iDoc+1);
-
 lParam = (LPARAM)lParam;
+```
 
 ## 매개 변수
 

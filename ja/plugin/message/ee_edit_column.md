@@ -3,11 +3,11 @@
 現在の CSV 文書の指定された列を移動、コピー、削除、または結合します。このメッセージを直接送るか、または
 [Editor\_EditColumn インライン関数](../macro/editor_editcolumn) を使うことができます。
 
-EE\_EDIT\_COLUMN
-
-wParam = (WPARAM)(EDIT\_COLUMN\_INFO\*)pInfo;
-
+```
+EE_EDIT_COLUMN
+wParam = (WPARAM)(EDIT_COLUMN_INFO*)pInfo;
 lParam = 0;
+```
 
 ## パラメータ
 

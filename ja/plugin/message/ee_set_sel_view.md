@@ -3,11 +3,11 @@
 選択テキストの開始位置と終了位置を設定します。このメッセージを直接送るか、または
 [Editor\_SetSelView インライン関数](../macro/editor_setselview) を使うことができます。
 
-EE\_SET\_SEL\_VIEW
-
-wParam = (WPARAM) (POINT\_PTR\*) pptSelStart;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptSelEnd;
+```
+EE_SET_SEL_VIEW
+wParam = (WPARAM) (POINT_PTR*) pptSelStart;
+lParam = (LPARAM) (POINT_PTR*) pptSelEnd;
+```
 
 ## パラメータ
 

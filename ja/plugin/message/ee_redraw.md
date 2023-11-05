@@ -2,11 +2,11 @@
 
 ウィンドウの再描画を行うかどうかを指定します。このメッセージを直接送るか、または [Editor\_Redraw インライン関数](../macro/editor_redraw) を使うことができます。
 
-EE\_REDRAW
-
+```
+EE_REDRAW
 wParam = (WPARAM)bRedraw;
-
 lParam = (LPARAM)0;
+```
 
 ## パラメータ
 

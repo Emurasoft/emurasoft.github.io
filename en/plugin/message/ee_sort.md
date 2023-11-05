@@ -3,11 +3,11 @@
 Sorts the document. You can send this message explicitly or use
 the [Editor\_Sort](../macro/editor_sort) inline function.
 
-EE\_SORT
-
+```
+EE_SORT
 wParam = 0;
-
-lParam = (LPARAM) (SORT\_INFO\*) pSortInfo;
+lParam = (LPARAM) (SORT_INFO*) pSortInfo;
+```
 
 ## Parameters
 

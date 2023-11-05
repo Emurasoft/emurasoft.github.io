@@ -3,11 +3,11 @@
 檢索邊距大小。您能明確地發送該消息或用 [Editor\_GetMargin](../macro/editor_getmargin)
 內嵌函式。
 
-EE\_GET\_MARGIN
-
+```
+EE_GET_MARGIN
 wParam = 0;
-
 lParam = 0;
+```
 
 ## 參數
 

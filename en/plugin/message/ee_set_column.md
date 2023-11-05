@@ -3,11 +3,11 @@
 Sets a column of text in CSV mode. You can send this message explicitly or use the
 [Editor\_SetColumn](../macro/editor_setcolumn) inline function.
 
-EE\_SET\_COLUMN
-
+```
+EE_SET_COLUMN
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (COLUMN\_STRUCT\*) pColumnStruct;
+lParam = (LPARAM) (COLUMN_STRUCT*) pColumnStruct;
+```
 
 ## Parameters
 

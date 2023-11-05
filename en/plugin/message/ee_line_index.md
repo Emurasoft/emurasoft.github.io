@@ -6,11 +6,11 @@ beginning of the edit control. You can send this message explicitly or by using
 the [Editor\_LineIndex](../macro/editor_lineindex)
 inline function.
 
-EE\_LINE\_INDEX
-
+```
+EE_LINE_INDEX
 wParam = (WPARAM) (BOOL) bLogical;
-
 lParam = (LPARAM) (int) yLine;
+```
 
 ## Parameters
 

@@ -2,11 +2,11 @@
 
 マウス ポインターがポイントしているアクティブな文字列を取得します。このメッセージを直接送るか、または [Editor\_GetActiveStringインライン関数](../macro/editor_getactivestring) を使うことができます。
 
-EE\_GET\_ACTIVE\_STRING
-
+```
+EE_GET_ACTIVE_STRING
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (ACTIVE\_STRING\_INFO\*) pInfo;
+lParam = (LPARAM) (ACTIVE_STRING_INFO*) pInfo;
+```
 
 ## パラメータ
 

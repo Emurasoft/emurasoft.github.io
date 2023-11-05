@@ -3,11 +3,11 @@
 Extracts frequently used strings into a new document. You can send this message
 explicitly or use the [Editor\_ExtractFrequent](../macro/editor_extractfrequent) inline function.
 
-EE\_EXTRACT\_FREQUENT
-
-wParam = (WPARAM) (EXTRACT\_FREQUENT\_INFO\*) pInfo;
-
+```
+EE_EXTRACT_FREQUENT
+wParam = (WPARAM) (EXTRACT_FREQUENT_INFO*) pInfo;
 lParam = 0;
+```
 
 ## Parameters
 

@@ -3,11 +3,11 @@
 ツール バー、タイトル、タブなどの表示更新を行います。このメッセージを直接送るか、または
 [Editor\_DoIdle インライン関数](../macro/editor_doidle) を使うことができます。
 
-EE\_DO\_IDLE
-
+```
+EE_DO_IDLE
 wParam = (WPARAM) (BOOL) bResetTab;
-
 lParam = (LPARAM) 0;
+```
 
 ## パラメータ
 

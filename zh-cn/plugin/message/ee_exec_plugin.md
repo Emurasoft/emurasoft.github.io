@@ -2,11 +2,11 @@
 
 执行一个指定的插件。你可以明确地发送该消息或用 [Editor\_ExecPlugin](../macro/editor_execplugin) 内联函数。.
 
-EE\_EXEC\_PLUGIN
-
-wParam = (WPARAM) (EXEC\_PLUGIN\_INFO\*) pPluginInfo;
-
+```
+EE_EXEC_PLUGIN
+wParam = (WPARAM) (EXEC_PLUGIN_INFO*) pPluginInfo;
 lParam = 0;
+```
 
 ## 参数
 
