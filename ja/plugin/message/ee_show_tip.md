@@ -9,7 +9,7 @@ wParam = (WPARAM) 0;
 
 lParam = (LPARAM) (TIP\_INFO\*) pTipInfo;
 
-## Parameters
+## パラメータ
 
 _nFlags_
 
