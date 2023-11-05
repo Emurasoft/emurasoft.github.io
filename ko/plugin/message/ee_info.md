@@ -8,7 +8,11 @@ EmEditor에서 사용되는 정보 매개 변수 중 하나의 값을 설정하�
 EE_INFO
 wParam = (WPARAM)(int)nCmd;
 lParam = (LPARAM)lParam;
+```
+
 or
+
+```
 EE_INFO
 wParam = MAKEWPARAM(nCmd, iDoc+1);
 lParam = (LPARAM)lParam;

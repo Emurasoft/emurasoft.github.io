@@ -7,7 +7,11 @@
 EE_INFO
 wParam = (WPARAM)(int)nCmd;
 lParam = (LPARAM)lParam;
+```
+
 or
+
+```
 EE_INFO
 wParam = MAKEWPARAM(nCmd, iDoc+1);
 lParam = (LPARAM)lParam;
