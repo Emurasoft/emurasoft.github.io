@@ -3,7 +3,7 @@
 指定するコマンドに関連する文字列を取得します。このメッセージは MAX\_PATH 文字を超える長いファイル パスをサポートしています。このメッセージを直接送るか、または
 [Editor\_QueryStringEx インライン関数](../macro/editor_querystringex) を使うことができます。
 
-EE\_QUERY\_STRING
+EE\_QUERY\_STRING\_EX
 
 wParam = 0;
 

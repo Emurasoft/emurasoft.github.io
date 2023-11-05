@@ -2,7 +2,7 @@
 
 查詢與指定的命令相關聯的字串。此消息支持超過 MAX\_PATH 字元的長檔案路徑。你能明確地發送該消息或用 [Editor\_QueryStringEx](../macro/editor_querystringex) 內嵌函式。
 
-EE\_QUERY\_STRING
+EE\_QUERY\_STRING\_EX
 
 wParam = 0;
 
