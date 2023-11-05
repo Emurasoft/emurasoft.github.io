@@ -67,7 +67,7 @@ func walkFunc(parameters string) fs.WalkDirFunc {
 			`\`, ``,
 		).Replace(split.Codeblock)
 
-		resultText := split.Head + "```\r\n" + split.Codeblock + "```\r\n" + split.End
+		resultText := fmt.Sprintf("%s```\r\n%s```\r\n%s", split.Head, split.Codeblock, split.End)
 
 		file, err := os.OpenFile(path, os.O_WRONLY|os.O_TRUNC, 0666)
 		if err != nil {
