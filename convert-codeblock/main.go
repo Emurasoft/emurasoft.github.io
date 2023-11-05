@@ -45,8 +45,12 @@ func walkFunc(path string, d fs.DirEntry, err error) error {
 
 	split := splitText(text)
 
-	// Replace double newline
-	split.Codeblock = strings.ReplaceAll(split.Codeblock, "\r\n\r\n", "\r\n")
+	split.Codeblock = strings.NewReplacer(
+		// Double newline
+		"\r\n\r\n", "\r\n",
+		// Unneeded escape character
+		`\`, ``,
+	).Replace(split.Codeblock)
 
 	resultText := split.Head + "```\r\n" + split.Codeblock + "```\r\n" + split.End
 
