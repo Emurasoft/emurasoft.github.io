@@ -2,7 +2,7 @@
 
 選択範囲の開始位置を取得します。このメッセージを直接送るか、または [Editor\_GetAnchorPos インライン関数](../macro/editor_getanchorpos) を使うことができます。
 
-EE\_GET\_CARET\_POS
+EE\_GET\_ANCHOR\_POS
 
 wParam = (WPARAM) (int) nLogical;
 
