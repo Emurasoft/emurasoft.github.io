@@ -2,11 +2,11 @@
 
 設置一列文字。你能明確地發送這條消息或用 [Editor\_SetColumn](../macro/editor_setcolumn) 內嵌函式。
 
-EE\_SET\_COLUMN
-
+```
+EE_SET_COLUMN
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (COLUMN\_STRUCT\*) pColumnStruct;
+lParam = (LPARAM) (COLUMN_STRUCT*) pColumnStruct;
+```
 
 ## 參數
 

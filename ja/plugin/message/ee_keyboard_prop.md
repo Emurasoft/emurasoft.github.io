@@ -2,11 +2,11 @@
 
 指定したコマンド ID と設定のキーボード プロパティを表示します。このメッセージを直接送るか、または [Editor\_keyboadProp インライン関数](../macro/editor_keyboardprop) を使うことができます。
 
-EE\_KEYBOARD\_PROP
-
+```
+EE_KEYBOARD_PROP
 wParam = (WPARAM)(UINT)nCmdID;
-
 lParam = (LPARAM)(LPCWSTR)pszConfigName;
+```
 
 ## パラメータ
 

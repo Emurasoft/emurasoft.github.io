@@ -3,11 +3,11 @@
 Retrieves the outline level for the specified logical line. You can send this message
 explicitly or use the [Editor\_GetOutlineLevel](../macro/editor_getoutlinelevel) inline function.
 
-EE\_GET\_OUTLINE\_LEVEL
-
-wParam = (WPARAM) (INT\_PTR) nLogicalLine;
-
+```
+EE_GET_OUTLINE_LEVEL
+wParam = (WPARAM) (INT_PTR) nLogicalLine;
 lParam = 0;
+```
 
 ## Parameters
 

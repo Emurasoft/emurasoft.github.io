@@ -3,11 +3,11 @@
 Moves the cursor position and optionally extends the selection. You can send this message explicitly or by
 using the [Editor\_SetCaretPos](../macro/editor_setcaretpos) inline function or the [Editor\_SetCaretPosEx](../macro/editor_setcaretposex) inline function.
 
-EE\_SET\_CARET\_POS
-
+```
+EE_SET_CARET_POS
 wParam = MAKEWPARAM( nLogical, bExtend );
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## Parameters
 

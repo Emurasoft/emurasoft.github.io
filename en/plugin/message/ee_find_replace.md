@@ -3,11 +3,11 @@
 Searches or replaces a string. You can send this message
 explicitly or use the [Editor\_FindReplace](../macro/editor_findreplace) or [Editor\_BatchFindReplace](../macro/editor_batchfindreplace) inline function.
 
-EE\_FIND\_REPLACE
-
-wParam = (WPARAM) (BATCH\_INFO\*) pBatchInfo;
-
-lParam = (LPARAM) (FIND\_REPLACE\_INFO\*) pFindReplaceInfo;
+```
+EE_FIND_REPLACE
+wParam = (WPARAM) (BATCH_INFO*) pBatchInfo;
+lParam = (LPARAM) (FIND_REPLACE_INFO*) pFindReplaceInfo;
+```
 
 ## Parameters
 

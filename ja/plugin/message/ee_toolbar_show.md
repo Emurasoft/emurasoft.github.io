@@ -2,11 +2,11 @@
 
 カスタム ツール バーの表示/非表示を切り替えます。このメッセージを直接送るか、または [Editor\_ToolbarShow インライン関数](../macro/editor_toolbarshow) を使うことができます。
 
-EE\_TOOLBAR\_SHOW
-
+```
+EE_TOOLBAR_SHOW
 (UINT)wParam = nToolbarID
-
 (BOOL)lParam = bVisible
+```
 
 ## パラメータ
 

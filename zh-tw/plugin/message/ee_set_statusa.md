@@ -2,11 +2,11 @@
 
 在狀態列上顯示一條 ANSI 消息。您能明確地發送該消息或用 [Editor\_SetStatusA](../macro/editor_setstatusa) 內嵌函式。
 
-EE\_SET\_STATUSA
-
+```
+EE_SET_STATUSA
 wParam = 0;
-
 lParam = (LPARAM) (LPCSTR) szStatus;
+```
 
 ## 參數
 

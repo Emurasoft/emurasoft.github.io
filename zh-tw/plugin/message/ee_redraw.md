@@ -3,11 +3,11 @@
 在 EmEditor 中允許或禁止重繪變更。您能明確地發送該消息或用
 [Editor\_Redraw](../macro/editor_redraw) 內嵌函式。
 
-EE\_REDRAW
-
+```
+EE_REDRAW
 wParam = (WPARAM)bRedraw;
-
 lParam = (LPARAM)0;
+```
 
 ## 參數
 

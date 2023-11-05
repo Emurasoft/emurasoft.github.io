@@ -4,11 +4,11 @@
 현재 창에 검색된 파일의 목록이 나타납니다. 현재 문서가 수정된 경우, 현재 파일의 변경을 저장할 지 여부를 묻는 확인
 메시지 박스가 나타납니다. 이 메시지를 명시적으로 보내거나 [Editor\_FindInFilesA](../macro/editor_findinfilesa) 인라인 함수를 사용할 수 있습니다.
 
-EE\_FIND\_IN\_FILESA
-
+```
+EE_FIND_IN_FILESA
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFOA) pGrepInfo;
+lParam = (LPARAM) (GREP_INFOA) pGrepInfo;
+```
 
 ## 매개 변수
 

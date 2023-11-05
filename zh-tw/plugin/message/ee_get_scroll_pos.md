@@ -4,11 +4,11 @@
 [Editor\_GetScrollPos](../macro/editor_getscrollpos)
 內嵌函式。
 
-EE\_GET\_SCROLL\_POS
-
+```
+EE_GET_SCROLL_POS
 wParam = 0;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 參數
 

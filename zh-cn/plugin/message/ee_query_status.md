@@ -2,11 +2,11 @@
 
 查询命令的状态，无论命令是否被启用，也不管命令是否处于被选中的状态。你能明确地发送该消息或用 [Editor\_QueryStatus](../macro/editor_querystatus) 内联函数。
 
-EE\_QUERY\_STATUS
-
+```
+EE_QUERY_STATUS
 wParam = (WPARAM) (UINT) nCmdID;
-
-lParam = (LPARAM) (BOOL\*) pbChecked;
+lParam = (LPARAM) (BOOL*) pbChecked;
+```
 
 ## 参数
 

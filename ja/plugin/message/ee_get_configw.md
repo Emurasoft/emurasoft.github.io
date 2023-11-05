@@ -3,11 +3,11 @@
 選択されている設定の名前をUnicode文字列で取得します。このメッセージを直接送るか、 [Editor\_DocGetConfigW インライン関数](../macro/editor_docgetconfigw)、または
 [Editor\_GetConfigW インライン関数](../macro/editor_getconfigw) を使うことができます。
 
-EE\_GET\_CONFIGW
-
+```
+EE_GET_CONFIGW
 wParam = MAKEWPARAM(0, (iDoc)+1);
-
 lParam = (LPARAM) (LPWSTR) szConfigName;
+```
 
 ## パラメータ
 

@@ -2,11 +2,11 @@
 
 ANSI文字列を検索します。このメッセージは使用されなくなります。新しいプラグインは、 [EE\_FIND\_REPLACE メッセージ](ee_find_replace) を使用してください。このメッセージを直接送るか、または [Editor\_FindA インライン関数](../macro/editor_finda) を使うことができます。
 
-EE\_FINDA
-
+```
+EE_FINDA
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCSTR) szFind;
+```
 
 ## パラメータ
 

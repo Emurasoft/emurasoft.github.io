@@ -3,11 +3,11 @@
 유니코드 문자열을 검색합니다. 이 메시지를 명시적으로나 [Editor\_FindW](../macro/editor_findw) 인라인 함수를
 사용하여 보낼 수 있습니다.
 
-EE\_FINDW
-
+```
+EE_FINDW
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szFind;
+```
 
 ## 매개 변수
 

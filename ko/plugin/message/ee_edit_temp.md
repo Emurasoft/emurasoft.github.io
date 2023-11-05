@@ -6,11 +6,11 @@
 [Editor\_EditTemp](../macro/editor_edittemp), 및 [Editor\_SaveTemp](../macro/editor_savetemp) 인라인 함수를
 사용하여 보낼 수 있습니다.
 
-EE\_EDIT\_TEMP
-
+```
+EE_EDIT_TEMP
 wParam = 0;
-
-lParam = (LPARAM) (TEMP\_INFO) pTI;
+lParam = (LPARAM) (TEMP_INFO) pTI;
+```
 
 ## 매개 변수
 

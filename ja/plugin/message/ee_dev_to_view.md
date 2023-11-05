@@ -3,11 +3,11 @@
 デバイス座標 (クライアント座標) を表示座標に変換します。このメッセージを直接送るか、または
 [Editor\_DevToView インライン関数](../macro/editor_devtoview) を使うことができます。
 
-EE\_DEV\_TO\_VIEW
-
-wParam = (WPARAM) (POINT\_PTR\*) pptDev;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptView;
+```
+EE_DEV_TO_VIEW
+wParam = (WPARAM) (POINT_PTR*) pptDev;
+lParam = (LPARAM) (POINT_PTR*) pptView;
+```
 
 ## パラメータ
 

@@ -3,19 +3,15 @@
 文書を指定するファイルに保存します。ファイル名は、ANSI文字列で指定します。このメッセージを直接送るか、 [Editor\_DocSaveFileA インライン関数](../macro/editor_docsavefilea)、または
 [Editor\_SaveFileA インライン関数](../macro/editor_savefilea) を使うことができます。
 
-EE\_SAVE\_FILEA
-
+```
+EE_SAVE_FILEA
 wParam = (WPARAM) MAKEWPARAM((bReplace), (iDoc)+1);
-
 lParam = (LPARAM) (LPSTR) szFileName;
-
 または
-
-EE\_SAVE\_FILEA
-
+EE_SAVE_FILEA
 wParam = (WPARAM) (BOOL) bReplace;
-
 lParam = (LPARAM) (LPSTR) szFileName;
+```
 
 ## パラメータ
 

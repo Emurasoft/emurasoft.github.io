@@ -3,9 +3,10 @@
 カスタム ツール バーを閉じます。このメッセージを直接送るか、または
 [Editor\_ToolbarClose インライン関数](../macro/editor_toolbarclose) を使うことができます。
 
-EE\_TOOLBAR\_CLOSE
-
+```
+EE_TOOLBAR_CLOSE
 (UINT)wParam = nToolbarID
+```
 
 ## パラメータ
 

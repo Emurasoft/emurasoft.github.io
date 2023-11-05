@@ -3,11 +3,11 @@
 指定するコマンドIDのツールバーの状態を更新します。このメッセージを直接送るか、または
 [Editor\_UpdateToolbar インライン関数](../macro/editor_updatetoolbar) を使うことができます。
 
-EE\_UPDATE\_TOOLBAR
-
+```
+EE_UPDATE_TOOLBAR
 wParam = (WPARAM) (UINT) nCmdID;
-
 lParam = 0;
+```
 
 ## パラメータ
 

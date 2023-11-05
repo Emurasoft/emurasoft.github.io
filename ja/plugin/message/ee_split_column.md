@@ -2,11 +2,11 @@
 
 現在の CSV 文書の指定された列を分割します。このメッセージを直接送るか、または [Editor\_SplitColumn インライン関数](../macro/editor_splitcolumn) を使うことができます。
 
-EE\_SPLIT\_COLUMN
-
-wParam = (WPARAM)(SPLIT\_COLUMN\_INFO\*)pInfo;
-
+```
+EE_SPLIT_COLUMN
+wParam = (WPARAM)(SPLIT_COLUMN_INFO*)pInfo;
 lParam = 0;
+```
 
 ## パラメータ
 

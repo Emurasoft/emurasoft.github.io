@@ -4,11 +4,11 @@ Saves the text to a specified file. The file name is specified by an ANSI
 string. You can send this message explicitly or use the
 [Editor\_SaveFileW](../macro/editor_savefilew) inline function.
 
-EE\_SAVE\_FILEW
-
+```
+EE_SAVE_FILEW
 wParam = (WPARAM) (BOOL) bReplace;
-
 lParam = (LPARAM) (LPWSTR) szFileName;
+```
 
 ## Parameters
 

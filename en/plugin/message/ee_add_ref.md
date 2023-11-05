@@ -3,11 +3,11 @@
 Increments the reference number of the plug-in. You can send this message
 explicitly or use the [Editor\_AddRef](../macro/editor_addref) inline function.
 
-EE\_ADD\_REF
-
+```
+EE_ADD_REF
 wParam = 0;
-
 lParam = (LPARAM)(HINSTANCE)hInstance;
+```
 
 ## Parameters
 

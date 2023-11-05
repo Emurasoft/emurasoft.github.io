@@ -3,11 +3,11 @@
 다중 선택이 가능할 때 지정된 선택 영역의 정보를 검색합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_GetMultiSel](../macro/editor_getmultisel) 인라인 함수를 사용할 수 있습니다.
 
-EE\_GET\_MULTI\_SEL
-
-wParam = (WPARAM) (UINT\_PTR) iSel;
-
-lParam = (LPARAM) (SEL\_INFO\*) pSelInfo;
+```
+EE_GET_MULTI_SEL
+wParam = (WPARAM) (UINT_PTR) iSel;
+lParam = (LPARAM) (SEL_INFO*) pSelInfo;
+```
 
 ## 매개 변수
 

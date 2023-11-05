@@ -2,11 +2,11 @@
 
 在指定行檢索 ANSI 文本。您能明確地發送該消息或用 [Editor\_GetLineA](../macro/editor_getlinea) 內嵌函式。
 
-EE\_GET\_LINEA
-
-wParam = (WPARAM) (GET\_LINE\_INFO\*) pGetLineInfo;
-
+```
+EE_GET_LINEA
+wParam = (WPARAM) (GET_LINE_INFO*) pGetLineInfo;
 lParam = (LPARAM) (LPSTR) szString;
+```
 
 ## 參數
 

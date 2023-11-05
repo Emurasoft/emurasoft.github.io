@@ -3,11 +3,11 @@
 Retrieves the selected Unicode text. You can send this message explicitly or
 by using the [Editor\_GetSelTextW](../macro/editor_getseltextw) inline function.
 
-EE\_GET\_SEL\_TEXTW
-
+```
+EE_GET_SEL_TEXTW
 wParam = (WPARAM) (UINT) nBufferSize;
-
 lParam = (LPARAM) (LPWSTR) szBuffer;
+```
 
 ## Parameters
 

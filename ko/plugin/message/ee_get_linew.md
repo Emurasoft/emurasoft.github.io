@@ -3,11 +3,11 @@
 지정된 줄에 유니코드 텍스트를 검색합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_GetLineW](../macro/editor_getlinew) 인라인 함수를 사용 할 수 있습니다.
 
-EE\_GET\_LINEW
-
-wParam = (WPARAM) (GET\_LINE\_INFO\*) pGetLineInfo;
-
+```
+EE_GET_LINEW
+wParam = (WPARAM) (GET_LINE_INFO*) pGetLineInfo;
 lParam = (LPARAM) (LPWSTR) szString;
+```
 
 ## 매개 변수
 

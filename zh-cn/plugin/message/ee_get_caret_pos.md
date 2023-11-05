@@ -2,11 +2,11 @@
 
 检索当前光标位置。你能明确地发送该消息或用 [Editor\_GetCaretPos](../macro/editor_getcaretpos) 内联函数。
 
-EE\_GET\_CARET\_POS
-
+```
+EE_GET_CARET_POS
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 参数
 

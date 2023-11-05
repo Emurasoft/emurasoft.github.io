@@ -2,11 +2,11 @@
 
 顯示或隱藏大綱。您能明確地發送該消息或用 [Editor\_ShowOutline](../macro/editor_showoutline) 內嵌函式。
 
-EE\_SHOW\_OUTLINE
-
-wParam = (WPARAM) (INT\_PTR) nFlags;
-
+```
+EE_SHOW_OUTLINE
+wParam = (WPARAM) (INT_PTR) nFlags;
 lParam = 0;
+```
 
 ## 參數
 

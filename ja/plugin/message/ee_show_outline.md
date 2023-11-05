@@ -3,11 +3,11 @@
 アウトラインを表示または非表示に設定します。このメッセージを直接送るか、または
 [Editor\_ShowOutline インライン関数](../macro/editor_showoutline) を使うことができます。
 
-EE\_SHOW\_OUTLINE
-
+```
+EE_SHOW_OUTLINE
 wParam = (WPARAM) nFlags;
-
 lParam = 0;
+```
 
 ## パラメータ
 

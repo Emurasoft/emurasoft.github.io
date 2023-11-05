@@ -3,11 +3,11 @@
 ANSI 문자열을 검색합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_FindA](../macro/editor_finda) 인라인 함수를 사용할 수 있습니다.
 
-EE\_FINDA
-
+```
+EE_FINDA
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCSTR) szFind;
+```
 
 ## 매개 변수
 

@@ -3,11 +3,11 @@
 상태 표시줄에 표시된 ANSI 텍스트를 검색합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_GetStatusA 인라인 함수](../macro/editor_getstatusa) 를 사용할 수 있습니다.
 
-EE\_GET\_STATUSA
-
+```
+EE_GET_STATUSA
 wParam = nBufLen;
-
 lParam = (LPARAM) (LPSTR) szMessage;
+```
 
 ## 매개 변수
 

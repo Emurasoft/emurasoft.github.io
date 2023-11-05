@@ -4,11 +4,11 @@ Loads a specified file into EmEditor. The file name is specified by an ANSI
 string. You can send this message explicitly or use the
 [Editor\_LoadFileA](../macro/editor_loadfilea) inline function.
 
-EE\_LOAD\_FILEA
-
-wParam = (WPARAM) (LOAD\_FILE\_INFO\_EX\*) pLoadFileInfo;
-
+```
+EE_LOAD_FILEA
+wParam = (WPARAM) (LOAD_FILE_INFO_EX*) pLoadFileInfo;
 lParam = (LPARAM) (LPCSTR) szFileName;
+```
 
 ## Parameters
 

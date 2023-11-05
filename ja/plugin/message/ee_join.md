@@ -3,11 +3,11 @@
 SQL においての JOIN 操作と同様な方法を使って、2個の CSV 文書を結合して新規文書を作成します。このメッセージを直接送るか、または
 [Editor\_Join インライン関数](../macro/editor_join) を使うことができます。
 
-EE\_JOIN
-
-wParam = (WPARAM) (JOIN\_INFO\*) pJoinInfo;
-
+```
+EE_JOIN
+wParam = (WPARAM) (JOIN_INFO*) pJoinInfo;
 lParam = 0;
+```
 
 ## パラメータ
 

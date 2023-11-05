@@ -3,11 +3,11 @@
 Replaces an ANSI string. This message is obsolete. The newer plug-in should use the EE\_FIND\_REPLACE message instead. You can send this message explicitly or use the
 [Editor\_ReplaceA](../macro/editor_replacea) inline function.
 
-EE\_REPLACEA
-
+```
+EE_REPLACEA
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCSTR) szFindReplace;
+```
 
 ## Parameters
 

@@ -2,11 +2,11 @@
 
 檢索目前的游標位置。您能明確地發送該消息或用 [Editor\_GetCaretPos](../macro/editor_getcaretpos) 內嵌函式。
 
-EE\_GET\_CARET\_POS
-
+```
+EE_GET_CARET_POS
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 參數
 

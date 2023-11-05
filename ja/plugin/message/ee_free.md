@@ -2,11 +2,11 @@
 
 指定するプラグインを開放します。このメッセージを直接送るか、または [Editor\_Free インライン関数](../macro/editor_free) を使うことができます。通常、EmEditorのプラグイン設定ダイアログで使用されます。
 
-EE\_FREE
-
+```
+EE_FREE
 wParam = 0;
-
 lParam = (LPARAM)(ATOM)atom;
+```
 
 ## パラメータ
 

@@ -3,11 +3,11 @@
 Shows or hides a custom toolbar. You can send this message explicitly or
 by using the [Editor\_ToolbarShow](../macro/editor_toolbarshow) inline function.
 
-EE\_TOOLBAR\_SHOW
-
+```
+EE_TOOLBAR_SHOW
 (UINT)wParam = nToolbarID
-
 (BOOL)lParam = bVisible
+```
 
 ## Parameters
 

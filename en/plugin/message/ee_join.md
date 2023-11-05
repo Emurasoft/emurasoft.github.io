@@ -3,11 +3,11 @@
 Combines two CSV documents specifying key columns, using a method similar to JOIN operations, and creates a new document. You can send this message explicitly or use
 the [Editor\_Join](../macro/editor_join) inline function.
 
-EE\_JOIN
-
-wParam = (WPARAM) (JOIN\_INFO\*) pJoinInfo;
-
+```
+EE_JOIN
+wParam = (WPARAM) (JOIN_INFO*) pJoinInfo;
 lParam = 0;
+```
 
 ## Parameters
 

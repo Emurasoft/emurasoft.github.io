@@ -2,11 +2,11 @@
 
 递增插件的引用号。你可以明确地发送该消息或用 [Editor\_AddRef](../macro/editor_addref) 内联函数。
 
-EE\_ADD\_REF
-
+```
+EE_ADD_REF
 wParam = 0;
-
 lParam = (LPARAM)(HINSTANCE)hInstance;
+```
 
 ## 参数
 

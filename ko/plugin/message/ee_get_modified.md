@@ -3,11 +3,11 @@
 텍스트의 수정된 상태를 검색합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_GetModified](../macro/editor_getmodified) 인라인 함수를 사용 할 수 있습니다.
 
-EE\_GET\_MODIFIED
-
+```
+EE_GET_MODIFIED
 wParam = 0;
-
 lParam = 0;
+```
 
 ## 매개 변수
 

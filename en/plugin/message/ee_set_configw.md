@@ -5,11 +5,11 @@ message explicitly or use the
 [Editor\_SetConfigW](../macro/editor_setconfigw)
 inline function.
 
-EE\_SET\_CONFIGW
-
+```
+EE_SET_CONFIGW
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szConfigName;
+```
 
 ## Parameters
 

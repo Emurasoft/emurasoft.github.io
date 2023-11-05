@@ -4,11 +4,11 @@
 [Editor\_SetConfigW](../macro/editor_setconfigw) 인라인 함수를 사용할 수
 있습니다.
 
-EE\_SET\_CONFIGW
-
+```
+EE_SET_CONFIGW
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szConfigName;
+```
 
 ## 매개 변수
 

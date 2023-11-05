@@ -3,11 +3,11 @@
 變更文本的修改狀態。您能明確地發送該消息或用
 [Editor\_SetModified](../macro/editor_setmodified) 內嵌函式。
 
-EE\_SET\_MODIFIED
-
+```
+EE_SET_MODIFIED
 wParam = (WPARAM) (BOOL) bModified;
-
 lParam = 0;
+```
 
 ## 參數
 

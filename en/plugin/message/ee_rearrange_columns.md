@@ -2,11 +2,11 @@
 
 Rearranges CSV columns. You can send this message explicitly or use the [Editor\_RearrangeColumns](../macro/editor_rearrangecolumns) inline function.
 
-EE\_REARRANGE\_COLUMNS
-
-wParam = (WPARAM) (REARRANGE\_COLULMNS\_INFO\*)pInfo;
-
+```
+EE_REARRANGE_COLUMNS
+wParam = (WPARAM) (REARRANGE_COLULMNS_INFO*)pInfo;
 lParam = 0;
+```
 
 ## Parameters
 

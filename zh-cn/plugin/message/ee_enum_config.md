@@ -2,11 +2,11 @@
 
 列举可用的配置。你能明确地发送该消息或用 [Editor\_EnumConfig](../macro/editor_enumconfig) 内联函数。
 
-EE\_ENUM\_CONFIG
-
-wParam = (WPARAM) (size\_t) cchBuf;
-
+```
+EE_ENUM_CONFIG
+wParam = (WPARAM) (size_t) cchBuf;
 lParam = (LPARAM) (LPWSTR) pBuf;
+```
 
 ## 参数
 

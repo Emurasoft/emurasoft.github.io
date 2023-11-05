@@ -4,11 +4,11 @@ Replaces a Unicode string. This message is obsolete. The newer plug-in should us
 the [Editor\_ReplaceW](../macro/editor_replacew)
 inline function.
 
-EE\_REPLACEW
-
+```
+EE_REPLACEW
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szFindReplace;
+```
 
 ## Parameters
 

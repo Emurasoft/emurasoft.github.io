@@ -3,11 +3,11 @@
 Displays a Unicode message on the status bar. You can send this message
 explicitly or use the [Editor\_SetStatusW](../macro/editor_setstatusw) inline function.
 
-EE\_SET\_STATUSW
-
+```
+EE_SET_STATUSW
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szStatus;
+```
 
 ## Parameters
 

@@ -4,11 +4,11 @@
 [Editor\_GetConfigW](../macro/editor_getconfigw)
 内联函数。
 
-EE\_GET\_CONFIGW
-
+```
+EE_GET_CONFIGW
 wParam = MAKEWPARAM(0, (iDoc)+1);
-
 lParam = (LPARAM) (LPWSTR) szConfigName;
+```
 
 ## 参数
 

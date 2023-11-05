@@ -2,11 +2,11 @@
 
 強調文字列の一覧を取得します。このメッセージを直接送るか、または [Editor\_EnumHighlight インライン関数](../macro/editor_enumhighlight) を使うことができます。
 
-EE\_ENUM\_HIGHLIGHT
-
-wParam = (WPARAM) (size\_t) cchBuf;
-
+```
+EE_ENUM_HIGHLIGHT
+wParam = (WPARAM) (size_t) cchBuf;
 lParam = (LPARAM) (LPWSTR) pBuf;
+```
 
 ## パラメータ
 

@@ -3,11 +3,11 @@
 把一個指定檔案載入到 EmEditor 中。檔案名稱由一個 ANSI 字符串指定。您能明確地發送該消息或用
 [Editor\_LoadFileA](../macro/editor_loadfilea) 內嵌函式。
 
-EE\_LOAD\_FILEA
-
-wParam = (WPARAM) (LOAD\_FILE\_INFO\*) pLoadFileInfo;
-
+```
+EE_LOAD_FILEA
+wParam = (WPARAM) (LOAD_FILE_INFO*) pLoadFileInfo;
 lParam = (LPARAM) (LPCSTR) szFileName;
+```
 
 ## 參數
 

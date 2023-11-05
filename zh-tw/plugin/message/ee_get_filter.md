@@ -2,11 +2,11 @@
 
 檢索目前的文檔的篩選字串及設定。你能明確地發送該消息或用 [Editor\_GetFilter](../macro/editor_filter) 內嵌函式。
 
-EE\_GET\_FILTER
-
-wParam = (WPARAM) (FILTER\_INFO\_EX\*) pFilterInfo;
-
+```
+EE_GET_FILTER
+wParam = (WPARAM) (FILTER_INFO_EX*) pFilterInfo;
 lParam = (LPARAM)(int)iFilter;
+```
 
 ## 參數
 

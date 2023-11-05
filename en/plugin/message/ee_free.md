@@ -3,11 +3,11 @@
 Frees a specified plug-in. You can send this message explicitly or by using
 the [Editor\_Free](../macro/editor_free) inline function.
 
-EE\_FREE
-
+```
+EE_FREE
 wParam = 0;
-
 lParam = (LPARAM)(ATOM)atom;
+```
 
 ## Parameters
 

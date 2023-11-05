@@ -2,11 +2,11 @@
 
 選択状態の種類を取得します。このメッセージを直接送るか、または [Editor\_GetSelType インライン関数](../macro/editor_getseltype)、または [Editor\_GetSelTypeEx インライン関数](../macro/editor_getseltypeex) を使うことができます。
 
-EE\_GET\_SEL\_TYPE
-
+```
+EE_GET_SEL_TYPE
 wParam = (WPARAM) (BOOL) bNeedAlways;
-
 lParam = (LPARAM)0;
+```
 
 ## パラメータ
 

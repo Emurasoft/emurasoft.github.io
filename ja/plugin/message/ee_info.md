@@ -2,19 +2,15 @@
 
 実行中の EmEditor または指定するドキュメントに関する情報を取得または設定を行います。このメッセージを直接送るか、 [Editor\_Info](../macro/editor_info)、 [Editor\_DocInfo](../macro/editor_docinfo)、または [Editor\_DocInfoEx](../macro/editor_docinfoex) インライン関数を使うことができます。
 
-EE\_INFO
-
+```
+EE_INFO
 wParam = (WPARAM)nCmd;
-
 lParam = (LPARAM)lParam;
-
 または
-
-EE\_INFO
-
+EE_INFO
 wParam = MAKEWPARAM(nCmd, iDoc+1);
-
 lParam = (LPARAM)lParam;
+```
 
 ## パラメータ
 

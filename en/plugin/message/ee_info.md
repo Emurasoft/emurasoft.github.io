@@ -4,19 +4,15 @@ Retrieves or sets the value of one of the information parameters used by
 EmEditor. You can send this message explicitly or use the
 [Editor\_Info](../macro/editor_info), [Editor\_DocInfo](../macro/editor_docinfo), or [Editor\_DocInfoEx](../macro/editor_docinfoex) inline functions.
 
-EE\_INFO
-
+```
+EE_INFO
 wParam = (WPARAM)(int)nCmd;
-
 lParam = (LPARAM)lParam;
-
 or
-
-EE\_INFO
-
+EE_INFO
 wParam = MAKEWPARAM(nCmd, iDoc+1);
-
 lParam = (LPARAM)lParam;
+```
 
 ## Parameters
 

@@ -3,11 +3,11 @@
 CSV モードで指定するセルに文字列を設定します。このメッセージを直接送るか、または
 [Editor\_SetCell インライン関数](../macro/editor_setcell) を使うことができます。
 
-EE\_SET\_CELL
-
-wParam = (WPARAM) (GET\_CELL\_INFO\*) pGetCellInfo;
-
+```
+EE_SET_CELL
+wParam = (WPARAM) (GET_CELL_INFO*) pGetCellInfo;
 lParam = (LPARAM) (LPWSTR) szString;
+```
 
 ## パラメータ
 

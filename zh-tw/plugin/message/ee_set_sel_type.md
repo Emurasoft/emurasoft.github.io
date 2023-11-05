@@ -2,11 +2,11 @@
 
 設置選區狀態的類型。您能明確地發送該消息或用 [Editor\_SetSelType](../macro/editor_setseltype) 內嵌函式或 [Editor\_SetSelTypeEx](../macro/editor_setseltypeex) 內嵌函式。
 
-EE\_SET\_SEL\_TYPE
-
+```
+EE_SET_SEL_TYPE
 wParam = (WPARAM) (BOOL) bNeedAlways;
-
 lParam = (LPARAM) nSelType;
+```
 
 ## 參數
 

@@ -3,11 +3,11 @@
 指定する行のUnicodeテキストを取得します。このメッセージを直接送るか、または
 [Editor\_GetLineW インライン関数](../macro/editor_getlinew) を使うことができます。
 
-EE\_GET\_LINEW
-
-wParam = (WPARAM) (GET\_LINE\_INFO\*) pGetLineInfo;
-
+```
+EE_GET_LINEW
+wParam = (WPARAM) (GET_LINE_INFO*) pGetLineInfo;
 lParam = (LPARAM) (LPWSTR) szString;
+```
 
 ## パラメータ
 

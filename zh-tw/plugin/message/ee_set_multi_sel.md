@@ -3,11 +3,11 @@
 當多個選取內容可用時，設定指定的選取內容的信息。你能明確地發送該消息或用
 [Editor\_SetMultiSel](../macro/editor_setmultisel) 內嵌函式。
 
-EE\_SET\_MULTI\_SEL
-
-wParam = (WPARAM) (UINT\_PTR) iSel;
-
-lParam = (LPARAM) (const SEL\_INFO\*) pSelInfo;
+```
+EE_SET_MULTI_SEL
+wParam = (WPARAM) (UINT_PTR) iSel;
+lParam = (LPARAM) (const SEL_INFO*) pSelInfo;
+```
 
 ## 參數
 

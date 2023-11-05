@@ -3,11 +3,11 @@
 Retrieves the current cursor position. You can send this message explicitly
 or by using the [Editor\_GetCaretPos](../macro/editor_getcaretpos) inline function.
 
-EE\_GET\_CARET\_POS
-
+```
+EE_GET_CARET_POS
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## Parameters
 

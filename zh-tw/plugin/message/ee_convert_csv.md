@@ -2,11 +2,11 @@
 
 轉換目前的文檔的 CSV 格式。你能明確地發送該消息或用 [Editor\_ConvertCsv](../macro/editor_convertcsv) 內嵌函式。
 
-EE\_CONVERT\_CSV
-
-wParam = (WPARAM)(CONVERT\_CSV\_INFO\*)pInfo;
-
+```
+EE_CONVERT_CSV
+wParam = (WPARAM)(CONVERT_CSV_INFO*)pInfo;
 lParam = 0;
+```
 
 ## 參數
 

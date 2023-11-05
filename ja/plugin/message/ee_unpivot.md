@@ -2,11 +2,11 @@
 
 CSV データを平らにして行に変換します。このメッセージを直接送るか、または [Editor\_Unpivot インライン関数](../macro/editor_unpivot) を使うことができます。
 
-EE\_UNPIVOT
-
-wParam = (WPARAM)(UNPIVOT\*)pInfo;
-
+```
+EE_UNPIVOT
+wParam = (WPARAM)(UNPIVOT*)pInfo;
 lParam = 0;
+```
 
 ## パラメータ
 

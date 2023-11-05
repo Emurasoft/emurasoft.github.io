@@ -2,11 +2,11 @@
 
 カスタム バーを開きます。このメッセージを送る前に、既に、別のカスタム バーが開いている場合は、そのカスタム バーを閉じて、新しいカスタム バーを開きます。このメッセージを直接送るか、または [Editor\_CustomBarOpen インライン関数](../macro/editor_custombaropen) を使うことができます。
 
-EE\_CUSTOM\_BAR\_OPEN
-
+```
+EE_CUSTOM_BAR_OPEN
 wParam = 0;
-
 lParam = (LPCTSTR) (LPCTSTR) pCustomBarInfo;
+```
 
 ## パラメータ
 

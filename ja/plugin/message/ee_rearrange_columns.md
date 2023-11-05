@@ -2,11 +2,11 @@
 
 CSV 列を再配置します。このメッセージを直接送るか、または [Editor\_RearrangeColumns インライン関数](../macro/editor_rearrangecolumns) を使うことができます。
 
-EE\_REARRANGE\_COLUMNS
-
-wParam = (WPARAM) (REARRANGE\_COLULMNS\_INFO\*)pInfo;
-
+```
+EE_REARRANGE_COLUMNS
+wParam = (WPARAM) (REARRANGE_COLULMNS_INFO*)pInfo;
 lParam = 0;
+```
 
 ## パラメータ
 

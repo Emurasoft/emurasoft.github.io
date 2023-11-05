@@ -4,11 +4,11 @@
 [Editor\_ViewToLogical](../macro/editor_viewtological)
 內嵌函式。
 
-EE\_VIEW\_TO\_LOGICAL
-
-wParam = (WPARAM) (POINT\_PTR\*) pptView;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
+```
+EE_VIEW_TO_LOGICAL
+wParam = (WPARAM) (POINT_PTR*) pptView;
+lParam = (LPARAM) (POINT_PTR*) pptLogical;
+```
 
 ## 參數
 

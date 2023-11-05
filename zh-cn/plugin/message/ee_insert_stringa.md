@@ -4,11 +4,11 @@
 [Editor\_InsertStringA 宏](../macro/editor_insertstringa)， [Editor\_InsertA 宏](../macro/editor_inserta)，或
 [Editor\_OverwriteA](../macro/editor_overwritea) 内联函数。
 
-EE\_INSERT\_STRINGA
-
+```
+EE_INSERT_STRINGA
 wParam = nInsertType;
-
 lParam = (LPARAM) (LPCSTR) szString;
+```
 
 ## 参数
 

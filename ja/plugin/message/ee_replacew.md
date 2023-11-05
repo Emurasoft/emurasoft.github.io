@@ -2,11 +2,11 @@
 
 Unicode文字列を置換します。このメッセージは使用されなくなります。新しいプラグインは、 [EE\_FIND\_REPLACE メッセージ](ee_find_replace) を使用してください。このメッセージを直接送るか、または [Editor\_ReplaceW インライン関数](../macro/editor_replacew) を使うことができます。
 
-EE\_REPLACEW
-
+```
+EE_REPLACEW
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szFindReplace;
+```
 
 ## パラメータ
 

@@ -3,11 +3,11 @@
 Compares two files. You can send this message explicitly or use
 the [Editor\_Compare](../macro/editor_compare) inline function.
 
-EE\_COMPARE
-
-wParam = (WPARAM) (COMPARE\_INFO\*) pCompareInfo;
-
+```
+EE_COMPARE
+wParam = (WPARAM) (COMPARE_INFO*) pCompareInfo;
 lParam = 0;
+```
 
 ## Parameters
 

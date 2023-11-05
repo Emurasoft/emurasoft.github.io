@@ -4,11 +4,11 @@ Retrieves the text and background colors and style for the specified part. You c
 this message explicitly or use the
 [Editor\_GetColor](../macro/editor_getcolor) inline function.
 
-EE\_GET\_COLOR
-
+```
+EE_GET_COLOR
 wParam = 0;
-
-lParam = (LPARAM) (GET\_COLOR\_INFO\*) pGetColorInfo;
+lParam = (LPARAM) (GET_COLOR_INFO*) pGetColorInfo;
+```
 
 ## Parameters
 

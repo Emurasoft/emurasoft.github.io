@@ -3,11 +3,11 @@
 文書を指定するファイルから読みこんで表示します。ファイル名は、Unicode文字列で指定します。このメッセージを直接送るか、または
 [Editor\_LoadFileW インライン関数](../macro/editor_loadfilew) を使うことができます。
 
-EE\_LOAD\_FILEW
-
-wParam = (WPARAM) (LOAD\_FILE\_INFO\_EX\*) pLoadFileInfoEx;
-
+```
+EE_LOAD_FILEW
+wParam = (WPARAM) (LOAD_FILE_INFO_EX*) pLoadFileInfoEx;
 lParam = (LPARAM) (LPCWSTR) szFileName;
+```
 
 ## パラメータ
 

@@ -4,11 +4,11 @@
 [Editor\_SetSelLength](../macro/editor_setsellength) 인라인 함수를 사용할 수
 있습니다.
 
-EE\_SET\_SEL\_LENGTH
-
+```
+EE_SET_SEL_LENGTH
 wParam = (WPARAM) (UINT) nLen;
-
 lParam = 0;
+```
 
 ## 매개 변수
 

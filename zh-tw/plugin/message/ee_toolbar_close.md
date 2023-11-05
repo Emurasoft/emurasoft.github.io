@@ -2,9 +2,10 @@
 
 關閉一個自訂工具列。您能明確地發送該消息或用 [Editor\_ToolbarClose](../macro/editor_toolbarclose) 內嵌函式。
 
-EE\_TOOLBAR\_CLOSE
-
+```
+EE_TOOLBAR_CLOSE
 (UINT)wParam = nToolbarID
+```
 
 ## 參數
 

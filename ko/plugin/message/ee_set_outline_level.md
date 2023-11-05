@@ -3,11 +3,11 @@
 지정된 논리 줄에 대한 개요 수준을 설정합니다. 이 메시지를 명시적으로 보내거나 [Editor\_SetOutlineLevel](../macro/editor_setoutlinelevel) 인라인 함수를
 사용할 수 있습니다.
 
-EE\_SET\_OUTLINE\_LEVEL
-
-wParam = (WPARAM) (INT\_PTR) nLogicalLine;
-
+```
+EE_SET_OUTLINE_LEVEL
+wParam = (WPARAM) (INT_PTR) nLogicalLine;
 lParam = (LPARAM) (int) nLevel;
+```
 
 ## 매개 변수
 

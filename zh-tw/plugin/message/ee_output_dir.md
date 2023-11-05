@@ -2,11 +2,11 @@
 
 為輸出列設置當前目錄。您能明確地發送該消息或用 [Editor\_OutputDir](../macro/editor_outputdir) 內嵌函式。
 
-EE\_OUTPUT\_DIR
-
+```
+EE_OUTPUT_DIR
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szCurrDir;
+```
 
 ## 參數
 

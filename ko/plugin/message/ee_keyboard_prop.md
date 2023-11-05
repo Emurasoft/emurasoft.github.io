@@ -4,11 +4,11 @@
 [Editor\_KeyboardProp](../macro/editor_keyboardprop) 인라인 함수를 사용할 수
 있습니다.
 
-EE\_KEYBOARD\_PROP
-
+```
+EE_KEYBOARD_PROP
 wParam = (WPARAM)(UINT)nCmdID;
-
 lParam = (LPARAM)(LPCWSTR)pszConfigName;
+```
 
 ## 매개 변수
 

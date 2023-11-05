@@ -2,11 +2,11 @@
 
 決定一個字符串是否與一個指定的規則運算式相匹配。您能明確地發送該消息或用 [Editor\_MatchRegex](../macro/editor_matchregex) 內嵌函式。
 
-EE\_MATCH\_REGEX
-
+```
+EE_MATCH_REGEX
 wParam = 0;
-
-lParam = (LPARAM) (MATCH\_REGEX\_INFO\*) pMatchRegexInfo;
+lParam = (LPARAM) (MATCH_REGEX_INFO*) pMatchRegexInfo;
+```
 
 ## 參數
 

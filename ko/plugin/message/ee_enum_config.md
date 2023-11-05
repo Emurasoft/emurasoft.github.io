@@ -3,11 +3,11 @@
 사용 가능한 구성들을 열거합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_EnumConfig](../macro/editor_enumconfig) 인라인 함수를 사용할 수 있습니다.
 
-EE\_ENUM\_CONFIG
-
-wParam = (WPARAM) (size\_t) cchBuf;
-
+```
+EE_ENUM_CONFIG
+wParam = (WPARAM) (size_t) cchBuf;
 lParam = (LPARAM) (LPWSTR) pBuf;
+```
 
 ## 매개 변수
 

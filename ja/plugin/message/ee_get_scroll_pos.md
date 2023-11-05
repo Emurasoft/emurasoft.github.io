@@ -2,11 +2,11 @@
 
 スクロールバーの位置を取得します。このメッセージを直接送るか、または [Editor\_GetScrollPos インライン関数](../macro/editor_getscrollpos) を使うことができます。
 
-EE\_GET\_SCROLL\_POS
-
+```
+EE_GET_SCROLL_POS
 wParam = 0;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## パラメータ
 

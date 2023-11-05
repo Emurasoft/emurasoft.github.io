@@ -3,11 +3,11 @@
 指定するファイルの中身をカーソル位置に挿入または上書きします。ファイル名は、ANSI文字列で指定します。このメッセージを直接送るか、または
 [Editor\_InsertFileA インライン関数](../macro/editor_insertfilea) を使うことができます。
 
-EE\_INSERT\_FILEA
-
-wParam = (WPARAM) (LOAD\_FILE\_INFO\_EX\*) pLoadFileInfoEx;
-
+```
+EE_INSERT_FILEA
+wParam = (WPARAM) (LOAD_FILE_INFO_EX*) pLoadFileInfoEx;
 lParam = (LPARAM) (LPCSTR) szFileName;
+```
 
 ## パラメータ
 

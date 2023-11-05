@@ -2,11 +2,11 @@
 
 显示或隐藏大纲。你能明确地发送该消息或用 [Editor\_ShowOutline](../macro/editor_showoutline) 内联函数。
 
-EE\_SHOW\_OUTLINE
-
-wParam = (WPARAM) (INT\_PTR) nFlags;
-
+```
+EE_SHOW_OUTLINE
+wParam = (WPARAM) (INT_PTR) nFlags;
 lParam = 0;
+```
 
 ## 参数
 

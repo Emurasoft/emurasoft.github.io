@@ -4,11 +4,11 @@ ANSI 문자열로 지정된 이름의 구성을 다시로드합니다. 이 메�
 [Editor\_LoadConfigA](../macro/editor_loadconfiga) 인라인 함수를 사용할 수
 있습니다.
 
-EE\_LOAD\_CONFIGA
-
+```
+EE_LOAD_CONFIGA
 wParam = 0;
-
 lParam = (LPARAM) (LPCSTR) szConfigName;
+```
 
 ## 매개 변수
 

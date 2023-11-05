@@ -3,11 +3,11 @@
 플러그 인 command ID를 가져옵니다. 이 메시지를 명시적으로 또는
 [Editor\_GetCmdID](../macro/editor_getcmdid) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_GET\_CMD\_ID
-
+```
+EE_GET_CMD_ID
 wParam = 0;
-
 lParam = (LPARAM) (HINSTANCE) hInstance
+```
 
 ## 매개 변수
 

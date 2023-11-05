@@ -3,11 +3,11 @@
 顯示指定命令 ID 和配置的鍵盤屬性。您能明確地發送該消息或用
 [Editor\_KeyboardProp](../macro/editor_keyboardprop) 內嵌函式。
 
-EE\_KEYBOARD\_PROP
-
+```
+EE_KEYBOARD_PROP
 wParam = (WPARAM)(UINT)nCmdID;
-
 lParam = (LPARAM)(LPCWSTR)pszConfigName;
+```
 
 ## 參數
 

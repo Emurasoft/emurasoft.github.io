@@ -2,11 +2,11 @@
 
 获得选区状态的类型。你能明确地发送该消息或用 [Editor\_GetSelType](../macro/editor_getseltype) 内联函数或 [Editor\_GetSelTypeEx](../macro/editor_getseltypeex) 内联函数。
 
-EE\_GET\_SEL\_TYPE
-
+```
+EE_GET_SEL_TYPE
 wParam = (WPARAM) (BOOL) bNeedAlways;
-
 lParam = (LPARAM)0;
+```
 
 ## 参数
 

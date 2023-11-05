@@ -6,11 +6,11 @@ macro](../macro/editor_insertstringa), [Editor\_InsertA macro](../macro/editor_i
 [Editor\_OverwriteA](../macro/editor_overwritea) 인라인 함수를 사용할 수
 있습니다.
 
-EE\_INSERT\_STRINGA
-
+```
+EE_INSERT_STRINGA
 wParam = nInsertType;
-
 lParam = (LPARAM) (LPCSTR) szString;
+```
 
 ## 매개 변수
 

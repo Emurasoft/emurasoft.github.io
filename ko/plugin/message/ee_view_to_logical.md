@@ -4,11 +4,11 @@
 [Editor\_ViewToLogical](../macro/editor_viewtological) 인라인 함수를 사용할
 수 있습니다.
 
-EE\_VIEW\_TO\_LOGICAL
-
-wParam = (WPARAM) (POINT\_PTR\*) pptView;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
+```
+EE_VIEW_TO_LOGICAL
+wParam = (WPARAM) (POINT_PTR*) pptView;
+lParam = (LPARAM) (POINT_PTR*) pptLogical;
+```
 
 ## 매개 변수
 

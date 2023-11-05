@@ -3,11 +3,11 @@
 アウトプット バーにカレント ディレクトリを設定します。このメッセージを直接送るか、または
 [Editor\_OutputDir インライン関数](../macro/editor_outputdir) を使うことができます。
 
-EE\_OUTPUT\_DIR
-
+```
+EE_OUTPUT_DIR
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szCurrDir;
+```
 
 ## パラメータ
 

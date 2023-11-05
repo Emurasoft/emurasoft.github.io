@@ -2,11 +2,11 @@
 
 决定一个字符串是否与一个指定的正则表达式相匹配。你能明确地发送该消息或用 [Editor\_MatchRegex](../macro/editor_matchregex) 内联函数。
 
-EE\_MATCH\_REGEX
-
+```
+EE_MATCH_REGEX
 wParam = 0;
-
-lParam = (LPARAM) (MATCH\_REGEX\_INFO\*) pMatchRegexInfo;
+lParam = (LPARAM) (MATCH_REGEX_INFO*) pMatchRegexInfo;
+```
 
 ## 参数
 

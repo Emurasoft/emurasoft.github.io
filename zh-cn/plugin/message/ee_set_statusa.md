@@ -2,11 +2,11 @@
 
 在状态栏上显示一条 ANSI 消息。你能明确地发送该消息或用 [Editor\_SetStatusA](../macro/editor_setstatusa) 内联函数。
 
-EE\_SET\_STATUSA
-
+```
+EE_SET_STATUSA
 wParam = 0;
-
 lParam = (LPARAM) (LPCSTR) szStatus;
+```
 
 ## 参数
 

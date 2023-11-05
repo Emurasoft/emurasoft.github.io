@@ -3,11 +3,11 @@
 指定するパスの複数のファイルから Unicode 文字列を検索します。検索したファイルの一覧は現在のウィンドウに表示されます。ファイルを保存していない場合は、ファイルを保存するかどうかを選択するメッセージ ボックスが表示されます。このメッセージを直接送るか、または
 [Editor\_FindInFilesW インライン関数](../macro/editor_findinfilesw) を使うことができます。
 
-EE\_FIND\_IN\_FILESW
-
+```
+EE_FIND_IN_FILESW
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFOW) pGrepInfo;
+lParam = (LPARAM) (GREP_INFOW) pGrepInfo;
+```
 
 ## パラメータ
 

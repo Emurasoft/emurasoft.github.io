@@ -5,11 +5,11 @@ this message explicitly or use the
 [Editor\_SetSelView](../macro/editor_setselview)
 inline function.
 
-EE\_SET\_SEL\_VIEW
-
-wParam = (WPARAM) (POINT\_PTR\*) pptSelStart;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptSelEnd;
+```
+EE_SET_SEL_VIEW
+wParam = (WPARAM) (POINT_PTR*) pptSelStart;
+lParam = (LPARAM) (POINT_PTR*) pptSelEnd;
+```
 
 ## Parameters
 

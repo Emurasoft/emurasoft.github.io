@@ -2,11 +2,11 @@
 
 比較兩個檔案。你能明確地發送該消息或用 [Editor\_Compare](../macro/editor_compare) 內嵌函式。
 
-EE\_COMPARE
-
-wParam = (WPARAM) (COMPARE\_INFO\*) pCompareInfo;
-
+```
+EE_COMPARE
+wParam = (WPARAM) (COMPARE_INFO*) pCompareInfo;
 lParam = 0;
+```
 
 ## 參數
 

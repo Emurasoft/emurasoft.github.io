@@ -2,11 +2,11 @@
 
 指定滾動欄位置。您能明確地發送該消息或用 [Editor\_SetScrollPos](../macro/editor_setscrollpos) 內嵌函式或 [Editor\_SetScrollPosEx](../macro/editor_setscrollposex) 內嵌函式。
 
-EE\_SET\_SCROLL\_POS
-
+```
+EE_SET_SCROLL_POS
 wParam = (WPARAM) (BOOL) bCanMoveCursor;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 參數
 

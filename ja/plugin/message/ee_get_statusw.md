@@ -3,11 +3,11 @@
 ステータス バーに表示されている文字列をUnicodeで取得します。このメッセージを直接送るか、または
 [Editor\_GetStatusW インライン関数](../macro/editor_getstatusw) を使うことができます。
 
-EE\_GET\_STATUSW
-
-wParam = (UINT\_PTR) nBufSize;
-
+```
+EE_GET_STATUSW
+wParam = (UINT_PTR) nBufSize;
 lParam = (LPARAM) (LPWSTR) szStatus;
+```
 
 ## パラメータ
 

@@ -4,11 +4,11 @@
 [Editor\_EmptyUndoBuffer](../macro/editor_emptyundobuffer)
 內嵌函式。
 
-EE\_EMPTY\_UNDO\_BUFFER
-
+```
+EE_EMPTY_UNDO_BUFFER
 wParam = 0;
-
 lParam = 0;
+```
 
 ## 參數
 

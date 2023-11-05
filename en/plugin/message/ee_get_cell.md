@@ -4,11 +4,11 @@ Retrieves the Unicode text on the specified cell. You can send this message
 explicitly or use the
 [Editor\_GetCell](../macro/editor_getcell) inline function.
 
-EE\_GET\_CELL
-
-wParam = (WPARAM) (GET\_CELL\_INFO\*) pGetCellInfo;
-
+```
+EE_GET_CELL
+wParam = (WPARAM) (GET_CELL_INFO*) pGetCellInfo;
 lParam = (LPARAM) (LPWSTR) szString;
+```
 
 ## Parameters
 

@@ -4,11 +4,11 @@ Sets the information of a specified selection when multiple selections
 are available. You can send this message
 explicitly or use the [Editor\_SetMultiSel](../macro/editor_setmultisel) inline function.
 
-EE\_SET\_MULTI\_SEL
-
-wParam = (WPARAM) (UINT\_PTR) iSel;
-
-lParam = (LPARAM) (const SEL\_INFO\*) pSelInfo;
+```
+EE_SET_MULTI_SEL
+wParam = (WPARAM) (UINT_PTR) iSel;
+lParam = (LPARAM) (const SEL_INFO*) pSelInfo;
+```
 
 ## Parameters
 

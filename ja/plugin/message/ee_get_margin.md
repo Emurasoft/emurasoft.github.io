@@ -2,11 +2,11 @@
 
 折り返し桁数を返します。このメッセージを直接送るか、または [Editor\_GetMargin インライン関数](../macro/editor_getmargin) を使うことができます。
 
-EE\_GET\_MARGIN
-
+```
+EE_GET_MARGIN
 wParam = 0;
-
 lParam = 0;
+```
 
 ## パラメータ
 

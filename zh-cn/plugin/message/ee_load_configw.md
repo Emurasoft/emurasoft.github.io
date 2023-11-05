@@ -4,11 +4,11 @@
 [Editor\_LoadConfigW](../macro/editor_loadconfigw)
 内联函数。
 
-EE\_LOAD\_CONFIGW
-
+```
+EE_LOAD_CONFIGW
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szConfigName;
+```
 
 ## 参数
 

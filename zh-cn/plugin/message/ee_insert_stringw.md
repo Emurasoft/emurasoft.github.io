@@ -4,11 +4,11 @@
 [Editor\_InsertStringW 内联函数](../macro/editor_insertstringw)， [Editor\_InsertW 内联函数](../macro/editor_insertw)，或
 [Editor\_OverwriteW](../macro/editor_overwritew) 内联函数。
 
-EE\_INSERT\_STRINGW
-
+```
+EE_INSERT_STRINGW
 wParam = nInsertType;
-
 lParam = (LPARAM) (LPCWSTR) szString;
+```
 
 ## 参数
 

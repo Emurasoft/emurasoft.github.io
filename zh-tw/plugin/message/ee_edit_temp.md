@@ -3,11 +3,11 @@
 把臨時文本作為一個新文檔打開，或激活、保存或關閉已存在的臨時文本。您能明確地發送該消息或用 [Editor\_ActivateTemp](../macro/editor_activatetemp)， [Editor\_CloseTemp](../macro/editor_closetemp)，
 [Editor\_EditTemp](../macro/editor_edittemp)，或 [Editor\_SaveTemp](../macro/editor_savetemp) 內嵌函式。
 
-EE\_EDIT\_TEMP
-
+```
+EE_EDIT_TEMP
 wParam = 0;
-
-lParam = (LPARAM) (TEMP\_INFO) pTI;
+lParam = (LPARAM) (TEMP_INFO) pTI;
+```
 
 ## 參數
 

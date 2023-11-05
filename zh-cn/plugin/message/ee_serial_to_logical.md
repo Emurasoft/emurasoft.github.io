@@ -5,11 +5,11 @@
 [Editor\_SerialToLogical](../macro/editor_serialtological)
 内联函数。
 
-EE\_SERIAL\_TO\_LOGICAL
-
+```
+EE_SERIAL_TO_LOGICAL
 wParam = (WPARAM) (UINT) nSerial;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
+lParam = (LPARAM) (POINT_PTR*) pptLogical;
+```
 
 ## 参数
 

@@ -3,11 +3,11 @@
 刷新工具列，視窗標題，標簽頁及其他。您能明確地發送該消息或用
 [Editor\_DoIdle](../macro/editor_doidle) 內嵌函式。
 
-EE\_DO\_IDLE
-
+```
+EE_DO_IDLE
 wParam = (WPARAM) (BOOL) bResetTab;
-
 lParam = (LPARAM) 0;
+```
 
 ## 參數
 

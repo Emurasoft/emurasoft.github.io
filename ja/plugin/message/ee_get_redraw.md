@@ -2,11 +2,11 @@
 
 ウィンドウの再描画を行うかどうかのフラグを取得します。このメッセージを直接送るか、または [Editor\_GetRedraw インライン関数](../macro/editor_getredraw) を使うことができます。
 
-EE\_GET\_REDRAW
-
+```
+EE_GET_REDRAW
 wParam = (WPARAM)0;
-
 lParam = (LPARAM)0;
+```
 
 ## パラメータ
 

@@ -3,11 +3,11 @@
 指定するパスの複数のファイルから Unicode 文字列を検索します。このメッセージを直接送るか、または
 [Editor\_ReplaceInFilesW インライン関数](../macro/editor_replaceinfilesw) を使うことができます。
 
-EE\_REPLACE\_IN\_FILESW
-
+```
+EE_REPLACE_IN_FILESW
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFOW) pGrepInfo;
+lParam = (LPARAM) (GREP_INFOW) pGrepInfo;
+```
 
 ## パラメータ
 

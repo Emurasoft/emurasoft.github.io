@@ -2,11 +2,11 @@
 
 检索光标位置处的一个单词。你能明确地发送该消息或用 [Editor\_GetWord](../macro/editor_getword) 内联函数。
 
-EE\_GET\_WORD
-
+```
+EE_GET_WORD
 wParam = (WPARAM) (UINT) nBufferSize;
-
 lParam = (LPARAM) (LPWSTR) szBuffer;
+```
 
 ## 参数
 

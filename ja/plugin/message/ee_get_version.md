@@ -2,11 +2,11 @@
 
 バージョン番号を返します。このメッセージを直接送るか、または [Editor\_GetVersion インライン関数](../macro/editor_getversion) を使うことができます。
 
-EE\_GET\_VERSION
-
+```
+EE_GET_VERSION
 wParam = pnProductType;
-
 lParam = 0;
+```
 
 ## パラメータ
 

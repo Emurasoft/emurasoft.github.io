@@ -3,9 +3,10 @@
 Closes a custom toolbar. You can send this message explicitly or
 by using the [Editor\_ToolbarClose](../macro/editor_toolbarclose) inline function.
 
-EE\_TOOLBAR\_CLOSE
-
+```
+EE_TOOLBAR_CLOSE
 (UINT)wParam = nToolbarID
+```
 
 ## Parameters
 

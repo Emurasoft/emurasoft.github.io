@@ -3,11 +3,11 @@
 一時テキストを新規文書として開くか、アクティブにするか、保存するか、または閉じます。このメッセージを直接送るか、または  [Editor\_ActivateTemp](../macro/editor_activatetemp)、 [Editor\_CloseTemp](../macro/editor_closetemp)、 [Editor\_EditTemp](../macro/editor_edittemp)、または
 [Editor\_SaveTemp](../macro/editor_savetemp) インライン関数を使うことができます。
 
-EE\_EDIT\_TEMP
-
+```
+EE_EDIT_TEMP
 wParam = 0;
-
-lParam = (LPARAM) (TEMP\_INFO) pTI;
+lParam = (LPARAM) (TEMP_INFO) pTI;
+```
 
 ## パラメータ
 

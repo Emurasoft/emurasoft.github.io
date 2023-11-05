@@ -4,11 +4,11 @@ Retrieves the ending character position of the selection. You can send this
 message explicitly or use the
 [Editor\_GetSelEnd](../macro/editor_getselend) inline function.
 
-EE\_GET\_SEL\_END
-
+```
+EE_GET_SEL_END
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## Parameters
 

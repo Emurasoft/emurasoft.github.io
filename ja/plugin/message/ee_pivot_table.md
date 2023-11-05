@@ -2,11 +2,11 @@
 
 CSV 文書のピボット テーブルを作成します。このメッセージを直接送るか、または [Editor\_PivotTable インライン関数](../macro/editor_pivottable) を使うことができます。
 
-EE\_PIVOT\_TABLE
-
-wParam = (WPARAM)(PIVOT\_TABLE\_INFO\*)pInfo;
-
+```
+EE_PIVOT_TABLE
+wParam = (WPARAM)(PIVOT_TABLE_INFO*)pInfo;
 lParam = 0;
+```
 
 ## パラメータ
 

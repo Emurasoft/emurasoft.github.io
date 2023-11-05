@@ -2,11 +2,11 @@
 
 頻出文字列を抽出して新規文書を作成します。このメッセージを直接送るか、または [Editor\_ExtractFrequent インライン関数](../macro/editor_extractfrequent) 使うことができます。
 
-EE\_EXTRACT\_FREQUENT
-
-wParam = (WPARAM)(EXTRACT\_FREQUENT\_INFO\*)pInfo;
-
+```
+EE_EXTRACT_FREQUENT
+wParam = (WPARAM)(EXTRACT_FREQUENT_INFO*)pInfo;
 lParam = 0;
+```
 
 ## パラメータ
 

@@ -4,19 +4,15 @@ Replaces a Unicode string in multiple files in the specified path. You can
 send this message explicitly or use the
 [Editor\_ReplaceInFilesW](../macro/editor_replaceinfilesw) or [Editor\_BatchReplaceInFiles](../macro/editor_batchreplaceinfiles) inline function.
 
-EE\_REPLACE\_IN\_FILESW
-
+```
+EE_REPLACE_IN_FILESW
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFO\_EX\*) pGrepInfo;
-
+lParam = (LPARAM) (GREP_INFO_EX*) pGrepInfo;
 or
-
-EE\_REPLACE\_IN\_FILESW
-
-wParam = (WPARAM) (BATCH\_GREP\_INFO\*) pBatchGrepInfo;
-
-lParam = (LPARAM) (FIND\_REPLACE\_INFO\*) pBatchArray;
+EE_REPLACE_IN_FILESW
+wParam = (WPARAM) (BATCH_GREP_INFO*) pBatchGrepInfo;
+lParam = (LPARAM) (FIND_REPLACE_INFO*) pBatchArray;
+```
 
 ## Parameters
 

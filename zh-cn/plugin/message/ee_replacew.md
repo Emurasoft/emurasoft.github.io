@@ -3,11 +3,11 @@
 替换一个 Unicode 字符串。你能明确地发送该消息或用 [Editor\_ReplaceW](../macro/editor_replacew)
 内联函数。
 
-EE\_REPLACEW
-
+```
+EE_REPLACEW
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szFindReplace;
+```
 
 ## 参数
 

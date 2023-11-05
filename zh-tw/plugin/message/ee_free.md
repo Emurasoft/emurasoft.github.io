@@ -2,11 +2,11 @@
 
 釋放一個指定的外掛程式。您能明確地發送該消息或用 [Editor\_Free](../macro/editor_free) 內嵌函式。
 
-EE\_FREE
-
+```
+EE_FREE
 wParam = 0;
-
 lParam = (LPARAM)(ATOM)atom;
+```
 
 ## 參數
 

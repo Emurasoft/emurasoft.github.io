@@ -2,11 +2,11 @@
 
 为指定的逻辑行设置大纲级别。你能明确地发送该消息或用 [Editor\_SetOutlineLevel](../macro/editor_setoutlinelevel) 内联函数。
 
-EE\_SET\_OUTLINE\_LEVEL
-
-wParam = (WPARAM) (INT\_PTR) nLogicalLine;
-
+```
+EE_SET_OUTLINE_LEVEL
+wParam = (WPARAM) (INT_PTR) nLogicalLine;
 lParam = (LPARAM) (int) nLevel;
+```
 
 ## 参数
 

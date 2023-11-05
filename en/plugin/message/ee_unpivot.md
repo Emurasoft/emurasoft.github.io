@@ -2,11 +2,11 @@
 
 Converts columns into rows by flattening the CSV data. You can send this message explicitly or use the [Editor\_Unpivot](../macro/editor_unpivot) inline function.
 
-EE\_UNPIVOT
-
-wParam = (WPARAM)(UNPIVOT\*)pInfo;
-
+```
+EE_UNPIVOT
+wParam = (WPARAM)(UNPIVOT*)pInfo;
 lParam = 0;
+```
 
 ## Parameters
 

@@ -2,11 +2,11 @@
 
 指定する部分の文字色、背景色、スタイルを取得します。このメッセージを直接送るか、または [Editor\_GetColor インライン関数](../macro/editor_getcolor) を使うことができます。
 
-EE\_GET\_COLOR
-
+```
+EE_GET_COLOR
 wParam = 0;
-
-lParam = (LPARAM) (GET\_COLOR\_INFO\*) pGetColorInfo;
+lParam = (LPARAM) (GET_COLOR_INFO*) pGetColorInfo;
+```
 
 ## パラメータ
 

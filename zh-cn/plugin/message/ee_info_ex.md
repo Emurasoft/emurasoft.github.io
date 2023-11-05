@@ -2,11 +2,11 @@
 
 检索或设置用于 EmEditor 的信息参数之一的值。你能明确地发送该消息或用 [Editor\_DocInfoEx](../macro/editor_docinfoex) 内联函数。
 
-EE\_INFO\_EX
-
-wParam = (WPARAM)(INFO\_EX\_DATA\*)pInfo;
-
+```
+EE_INFO_EX
+wParam = (WPARAM)(INFO_EX_DATA*)pInfo;
 lParam = 0;
+```
 
 ## 参数
 

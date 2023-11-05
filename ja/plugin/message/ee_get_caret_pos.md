@@ -2,11 +2,11 @@
 
 カーソル位置を取得します。このメッセージを直接送るか、または [Editor\_GetCaretPos インライン関数](../macro/editor_getcaretpos) を使うことができます。
 
-EE\_GET\_CARET\_POS
-
+```
+EE_GET_CARET_POS
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## パラメータ
 

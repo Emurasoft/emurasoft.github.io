@@ -4,11 +4,11 @@
 [Editor\_LoadConfigA](../macro/editor_loadconfiga)
 內嵌函式。
 
-EE\_LOAD\_CONFIGA
-
+```
+EE_LOAD_CONFIGA
 wParam = 0;
-
 lParam = (LPARAM) (LPCSTR) szConfigName;
+```
 
 ## 參數
 

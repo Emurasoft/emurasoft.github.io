@@ -3,11 +3,11 @@
 지정된 논리 줄의 개요 수준을 검색합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_GetOutlineLevel](../macro/editor_getoutlinelevel) 인라인 함수를 사용할 수 있습니다.
 
-EE\_GET\_OUTLINE\_LEVEL
-
-wParam = (WPARAM) (INT\_PTR) nLogicalLine;
-
+```
+EE_GET_OUTLINE_LEVEL
+wParam = (WPARAM) (INT_PTR) nLogicalLine;
 lParam = 0;
+```
 
 ## 매개 변수
 

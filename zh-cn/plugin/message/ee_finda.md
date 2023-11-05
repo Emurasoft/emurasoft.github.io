@@ -3,11 +3,11 @@
 搜索一个 ANSI 字符串。你能明确地发送该消息或用
 [Editor\_FindA](../macro/editor_finda) 内联函数。
 
-EE\_FINDA
-
+```
+EE_FINDA
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCSTR) szFind;
+```
 
 ## 参数
 

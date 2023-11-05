@@ -4,11 +4,11 @@
 [Editor\_SetSelLength](../macro/editor_setsellength)
 内联函数。
 
-EE\_SET\_SEL\_LENGTH
-
+```
+EE_SET_SEL_LENGTH
 wParam = (WPARAM) (UINT) nLen;
-
 lParam = 0;
+```
 
 ## 参数
 

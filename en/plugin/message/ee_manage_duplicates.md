@@ -3,11 +3,11 @@
 Deletes or bookmarks duplicate lines. You can send this message explicitly or use
 the [Editor\_ManageDuplicates](../macro/editor_manageduplicates) inline function.
 
-EE\_MANAGE\_DUPLICATES
-
+```
+EE_MANAGE_DUPLICATES
 wParam = 0;
-
-lParam = (LPARAM) (MANAGE\_DUPLICATES\_INFO\*) pManageDuplicatesInfo;
+lParam = (LPARAM) (MANAGE_DUPLICATES_INFO*) pManageDuplicatesInfo;
+```
 
 ## Parameters
 

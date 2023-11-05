@@ -2,11 +2,11 @@
 
 Performs the AutoFill or Flash Fill action on the CSV document. You can send this message explicitly or by using the [Editor\_AutoFill](../macro/editor_autofill) inline function.
 
-EE\_AUTOFILL
-
+```
+EE_AUTOFILL
 wParam = 0;
-
-lParam = (LPARAM) (AUTOFILL\_INFO\*) pInfo;
+lParam = (LPARAM) (AUTOFILL_INFO*) pInfo;
+```
 
 ## Parameters
 

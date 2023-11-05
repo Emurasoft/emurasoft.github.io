@@ -2,11 +2,11 @@
 
 在狀態列上顯示一條 Unicode 消息。您能明確地發送該消息或用 [Editor\_SetStatusW](../macro/editor_setstatusw) 內嵌函式。
 
-EE\_SET\_STATUSW
-
+```
+EE_SET_STATUSW
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szStatus;
+```
 
 ## 參數
 

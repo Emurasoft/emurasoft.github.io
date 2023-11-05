@@ -2,11 +2,11 @@
 
 在指定單元格內檢索 Unicode 文字。您能明確地發送這條消息或用 [Editor\_GetCell](../macro/editor_getlinew) 內嵌函式。
 
-EE\_GET\_CELL
-
-wParam = (WPARAM) (GET\_CELL\_INFO\*) pGetCellInfo;
-
+```
+EE_GET_CELL
+wParam = (WPARAM) (GET_CELL_INFO*) pGetCellInfo;
 lParam = (LPARAM) (LPWSTR) szString;
+```
 
 ## 參數
 

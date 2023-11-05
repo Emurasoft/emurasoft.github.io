@@ -3,11 +3,11 @@
 指定したシリアル位置の行番号を返します。このメッセージを直接送るか、または
 [Editor\_LineFromChar インライン関数](../macro/editor_linefromchar) を使うことができます。
 
-EE\_LINE\_FROM\_CHAR
-
+```
+EE_LINE_FROM_CHAR
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (UINT\_PTR) nSerialIndex;
+lParam = (LPARAM) (UINT_PTR) nSerialIndex;
+```
 
 ## パラメータ
 

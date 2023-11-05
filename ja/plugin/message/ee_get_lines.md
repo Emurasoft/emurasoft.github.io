@@ -2,11 +2,11 @@
 
 テキスト全体の行数を取得します。このメッセージを直接送るか、または [Editor\_DocGetLines インライン関数](../macro/editor_docgetlines) または [Editor\_GetLines インライン関数](../macro/editor_getlines) を使うことができます。
 
-EE\_GET\_LINES
-
+```
+EE_GET_LINES
 wParam = (WPARAM) MAKEWPARAM(nLogical, iDoc+1);
-
 lParam = hDoc;
+```
 
 ## パラメータ
 

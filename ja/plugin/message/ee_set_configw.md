@@ -3,19 +3,15 @@
 選択されている設定の名前をUnicode文字列で取得します。このメッセージを直接送るか、または
 [Editor\_SetConfigW インライン関数](../macro/editor_setconfigw) を使うことができます。
 
-EE\_SET\_CONFIGW
-
+```
+EE_SET_CONFIGW
 wParam = MAKEWPARAM(0, (iDoc)+1);
-
 lParam = (LPARAM) (LPCWSTR) szConfigName;
-
 または
-
-EE\_SET\_CONFIGW
-
+EE_SET_CONFIGW
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szConfigName;
+```
 
 ## パラメータ
 

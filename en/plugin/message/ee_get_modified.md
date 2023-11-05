@@ -3,11 +3,11 @@
 Retrieves the modified state of the text. You can send this message
 explicitly or use the [Editor\_GetModified](../macro/editor_getmodified) inline function or [Editor\_DocGetModified](../macro/editor_docgetmodified) inline function..
 
-EE\_GET\_MODIFIED
-
+```
+EE_GET_MODIFIED
 wParam = (WPARAM) MAKEWPARAM(0, iDoc+1);
-
 lParam = hDoc;
+```
 
 ## Parameters
 

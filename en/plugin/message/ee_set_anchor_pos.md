@@ -4,11 +4,11 @@ Sets the origin point of the selection. You can send this message explicitly or 
 using the [Editor\_SetAnchorPos](../macro/editor_setanchorpos)
 inline function.
 
-EE\_SET\_ANCHOR\_POS
-
+```
+EE_SET_ANCHOR_POS
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## Parameters
 

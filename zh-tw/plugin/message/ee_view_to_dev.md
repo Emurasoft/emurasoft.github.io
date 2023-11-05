@@ -3,11 +3,11 @@
 把顯示指定位置的顯示坐標轉換為設備 (客戶端) 坐標。您能明確地發送該消息或用
 [Editor\_ViewToDev](../macro/editor_viewtodev) 內嵌函式。
 
-EE\_VIEW\_TO\_DEV
-
-wParam = (WPARAM) (POINT\_PTR\*) pptView;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptDev;
+```
+EE_VIEW_TO_DEV
+wParam = (WPARAM) (POINT_PTR*) pptView;
+lParam = (LPARAM) (POINT_PTR*) pptDev;
+```
 
 ## 參數
 

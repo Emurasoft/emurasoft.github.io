@@ -3,11 +3,11 @@
 ANSI文字列で指定する設定を読み直します。このメッセージを直接送るか、または [Editor\_LoadConfigA \
 インライン関数](../macro/editor_loadconfiga) を使うことができます。
 
-EE\_LOAD\_CONFIGA
-
+```
+EE_LOAD_CONFIGA
 wParam = 0;
-
 lParam = (LPARAM) (LPCSTR) szConfigName;
+```
 
 ## パラメータ
 

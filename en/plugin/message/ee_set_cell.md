@@ -3,11 +3,11 @@
 Sets the text on the specified cell. You can send this message explicitly or use the
 [Editor\_SetCell](../macro/editor_setcell) inline function.
 
-EE\_SET\_CELL
-
-wParam = (WPARAM) (GET\_CELL\_INFO\*) pGetCellInfo;
-
+```
+EE_SET_CELL
+wParam = (WPARAM) (GET_CELL_INFO*) pGetCellInfo;
 lParam = (LPARAM) (LPWSTR) szString;
+```
 
 ## Parameters
 

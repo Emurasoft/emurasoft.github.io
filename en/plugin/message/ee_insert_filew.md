@@ -4,11 +4,11 @@ Inserts the specified file contents at the cursor. The file name is specified
 as a Unicode string. You can send this message explicitly or use the
 [Editor\_InsertFileW](../macro/editor_insertfilew) inline function.
 
-EE\_INSERT\_FILEW
-
-wParam = (WPARAM) (LOAD\_FILE\_INFO\*) pLoadFileInfo;
-
+```
+EE_INSERT_FILEW
+wParam = (WPARAM) (LOAD_FILE_INFO*) pLoadFileInfo;
 lParam = (LPARAM) (LPCWSTR) szFileName;
+```
 
 ## Parameters
 

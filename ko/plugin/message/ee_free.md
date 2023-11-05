@@ -3,11 +3,11 @@
 지정된 플러그 인을 해제합니다. 이 메시지를 명시적으로 또는
 [Editor\_Free](../macro/editor_free) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_FREE
-
+```
+EE_FREE
 wParam = 0;
-
 lParam = (LPARAM)(ATOM)atom;
+```
 
 ## 매개 변수
 

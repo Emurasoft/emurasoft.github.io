@@ -2,11 +2,11 @@
 
 遞減外掛程式的引用號。您能明確地發送該消息或用 [Editor\_Release](../macro/editor_release) 內嵌函式。
 
-EE\_RELEASE
-
+```
+EE_RELEASE
 wParam = 0;
-
 lParam = (LPARAM)(HINSTANCE)hInstance;
+```
 
 ## 參數
 

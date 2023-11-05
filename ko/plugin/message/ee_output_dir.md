@@ -3,11 +3,11 @@
 출력 표시줄을 위해 현재 디렉토리를 설정합니다. 이 메시지를 명시적으로 보내거나 [Editor\_OutputDir](../macro/editor_outputdir) 인라인 함수를
 사용할 수 있습니다.
 
-EE\_OUTPUT\_DIR
-
+```
+EE_OUTPUT_DIR
 wParam = 0;
-
 lParam = (LPARAM) (LPCWSTR) szCurrDir;
+```
 
 ## 매개 변수
 

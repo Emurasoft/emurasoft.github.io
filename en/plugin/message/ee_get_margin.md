@@ -4,11 +4,11 @@ Retrieves the margin size. You can send this message explicitly or by using
 the [Editor\_GetMargin](../macro/editor_getmargin)
 inline function.
 
-EE\_GET\_MARGIN
-
+```
+EE_GET_MARGIN
 wParam = 0;
-
 lParam = 0;
+```
 
 ## Parameters
 

@@ -3,11 +3,11 @@
 Specifies the scroll bars position. You can send this message explicitly or
 by using the [Editor\_SetScrollPos](../macro/editor_setscrollpos) inline function or [Editor\_SetScrollPosEx](../macro/editor_setscrollposex) inline function.
 
-EE\_SET\_SCROLL\_POS
-
+```
+EE_SET_SCROLL_POS
 wParam = (WPARAM) (BOOL) bCanMoveCursor;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## Parameters
 

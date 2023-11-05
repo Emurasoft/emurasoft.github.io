@@ -2,11 +2,11 @@
 
 EmEditor の設定に応じて、レジストリまたは INI ファイルに、値を設定します。このメッセージを直接送るか、または [Editor\_RegSetValue インライン関数](../macro/editor_regsetvalue) を使うことができます。
 
-EE\_REG\_SET\_VALUE
-
+```
+EE_REG_SET_VALUE
 wParam = 0;
-
-(REG\_SET\_VALUE\_INFO\*)lParam = pRegSetValueInfo;
+(REG_SET_VALUE_INFO*)lParam = pRegSetValueInfo;
+```
 
 ## パラメータ
 

@@ -3,11 +3,11 @@
 사용자 지정 도구 모음을 보이거나 숨깁니다. 이 메시지를 명시적으로 또는
 [Editor\_ToolbarShow](../macro/editor_toolbarshow) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_TOOLBAR\_SHOW
-
+```
+EE_TOOLBAR_SHOW
 (UINT)wParam = nToolbarID
-
 (BOOL)lParam = bVisible
+```
 
 ## 매개 변수
 

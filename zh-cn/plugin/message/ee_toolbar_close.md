@@ -2,9 +2,10 @@
 
 关闭一个自定义工具栏。你能明确地发送该消息或用 [Editor\_ToolbarClose](../macro/editor_toolbarclose) 内联函数。
 
-EE\_TOOLBAR\_CLOSE
-
+```
+EE_TOOLBAR_CLOSE
 (UINT)wParam = nToolbarID
+```
 
 ## 参数
 

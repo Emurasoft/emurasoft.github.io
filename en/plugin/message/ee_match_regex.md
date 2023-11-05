@@ -3,11 +3,11 @@
 Determines whether a string matches a specified regular expression. You can send this message
 explicitly or use the [Editor\_MatchRegex](../macro/editor_matchregex) inline function.
 
-EE\_MATCH\_REGEX
-
+```
+EE_MATCH_REGEX
 wParam = 0;
-
-lParam = (LPARAM) (MATCH\_REGEX\_INFO\_EX\*) pMatchRegexInfo;
+lParam = (LPARAM) (MATCH_REGEX_INFO_EX*) pMatchRegexInfo;
+```
 
 ## Parameters
 

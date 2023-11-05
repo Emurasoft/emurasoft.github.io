@@ -5,11 +5,11 @@ explicitly or use the
 [Editor\_EmptyUndoBuffer](../macro/editor_emptyundobuffer)
 inline function.
 
-EE\_EMPTY\_UNDO\_BUFFER
-
+```
+EE_EMPTY_UNDO_BUFFER
 wParam = 0;
-
 lParam = 0;
+```
 
 ## Parameters
 

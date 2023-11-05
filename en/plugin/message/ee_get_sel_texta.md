@@ -3,11 +3,11 @@
 Retrieves the selected ANSI text. You can send this message explicitly or by
 using the [Editor\_GetSelTextA](../macro/editor_getseltexta) inline function.
 
-EE\_GET\_SEL\_TEXTA
-
+```
+EE_GET_SEL_TEXTA
 wParam = (WPARAM) (UINT) nBufferSize;
-
 lParam = (LPARAM) (LPSTR) szBuffer;
+```
 
 ## Parameters
 

@@ -2,11 +2,11 @@
 
 Converts the CSV format of the current document. You can send this message explicitly or use the [Editor\_ConvertCsv](../macro/editor_convertcsv) inline function.
 
-EE\_CONVERT\_CSV
-
-wParam = (WPARAM)(CONVERT\_CSV\_INFO\*)pInfo;
-
+```
+EE_CONVERT_CSV
+wParam = (WPARAM)(CONVERT_CSV_INFO*)pInfo;
 lParam = 0;
+```
 
 ## Parameters
 

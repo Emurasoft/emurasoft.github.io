@@ -2,11 +2,11 @@
 
 マクロを起動します。このメッセージを直接送るか、または [Editor\_RunMacro](../macro/editor_runmacro) インライン関数を使うことができます。
 
-EE\_RUN\_MACRO
-
+```
+EE_RUN_MACRO
 wParam = 0;
-
-lParam = (LPARAM) (RUN\_MACRO\_INFO\*) pRMI;
+lParam = (LPARAM) (RUN_MACRO_INFO*) pRMI;
+```
 
 ## パラメータ
 

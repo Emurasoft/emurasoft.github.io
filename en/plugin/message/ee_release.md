@@ -3,11 +3,11 @@
 Decrements the reference number of the plug-in. You can send this message
 explicitly or use the [Editor\_Release](../macro/editor_release) inline function.
 
-EE\_RELEASE
-
+```
+EE_RELEASE
 wParam = 0;
-
 lParam = (LPARAM)(HINSTANCE)hInstance;
+```
 
 ## Parameters
 

@@ -3,11 +3,11 @@
 Retrieves the active string. You can send this message
 explicitly or use the [Editor\_GetActiveString](../macro/editor_getactivestring) inline function.
 
-EE\_GET\_ACTIVE\_STRING
-
+```
+EE_GET_ACTIVE_STRING
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (ACTIVE\_STRING\_INFO\*) pInfo;
+lParam = (LPARAM) (ACTIVE_STRING_INFO*) pInfo;
+```
 
 ## Parameters
 

@@ -2,11 +2,11 @@
 
 通過壓平合併 CSV 數據將欄轉換為列。你能明確地發送該消息或用 [Editor\_Unpivot](../macro/editor_unpivot) 內嵌函式。
 
-EE\_UNPIVOT
-
-wParam = (WPARAM)(UNPIVOT\*)pInfo;
-
+```
+EE_UNPIVOT
+wParam = (WPARAM)(UNPIVOT*)pInfo;
 lParam = 0;
+```
 
 ## 參數
 

@@ -2,11 +2,11 @@
 
 実行中の EmEditor または指定するドキュメントに関する情報を取得または設定を行います。このメッセージを直接送るか、または [Editor\_DocInfoEx インライン関数](../macro/editor_docinfoex) 使うことができます。
 
-EE\_INFO\_EX
-
-wParam = (WPARAM)(INFO\_EX\_DATA\*)pInfo;
-
+```
+EE_INFO_EX
+wParam = (WPARAM)(INFO_EX_DATA*)pInfo;
 lParam = 0;
+```
 
 ## パラメータ
 

@@ -3,11 +3,11 @@
 複数選択が利用可能な場合、指定する選択の情報を取得します。このメッセージを直接送るか、または
 [Editor\_GetMultiSel インライン関数](../macro/editor_getmultisel) を使うことができます。
 
-EE\_GET\_MULTI\_SEL
-
-wParam = (WPARAM) (UINT\_PTR) iSel;
-
-lParam = (LPARAM) (SEL\_INFO\*) pSelInfo;
+```
+EE_GET_MULTI_SEL
+wParam = (WPARAM) (UINT_PTR) iSel;
+lParam = (LPARAM) (SEL_INFO*) pSelInfo;
+```
 
 ## パラメータ
 

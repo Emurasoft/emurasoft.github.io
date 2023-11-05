@@ -2,11 +2,11 @@
 
 查詢與指定的命令相關聯的字串。您能明確地發送該消息或用 [Editor\_QueryString](../macro/editor_querystring) 內嵌函式。
 
-EE\_QUERY\_STRING
-
+```
+EE_QUERY_STRING
 wParam = (WPARAM) MAKEWPARAM( nCmdID, bShortTitle );
-
 lParam = (LPARAM) (LPWSTR) psz;
+```
 
 ## 參數
 

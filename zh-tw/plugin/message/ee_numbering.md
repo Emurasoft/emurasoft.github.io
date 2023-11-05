@@ -2,11 +2,11 @@
 
 在游標位置或垂直選擇處，插入編號。你能明確地發送該消息或用 [Editor\_Numbering 內嵌函式](../macro/editor_numbering)。
 
-EE\_NUMBERING
-
-wParam = (WPARAM)(NUMBERING\_INFO\*)pNI;
-
+```
+EE_NUMBERING
+wParam = (WPARAM)(NUMBERING_INFO*)pNI;
 lParam = 0;
+```
 
 ## 參數
 

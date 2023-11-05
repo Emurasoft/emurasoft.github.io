@@ -2,11 +2,11 @@
 
 Moves, copies, deletes, or combines specified columns of the current CSV document. You can send this message explicitly or use the [Editor\_EditColumn](../macro/editor_editcolumn) inline function.
 
-EE\_EDIT\_COLUMN
-
-wParam = (WPARAM)(EDIT\_COLUMN\_INFO\*)pInfo;
-
+```
+EE_EDIT_COLUMN
+wParam = (WPARAM)(EDIT_COLUMN_INFO*)pInfo;
 lParam = 0;
+```
 
 ## Parameters
 

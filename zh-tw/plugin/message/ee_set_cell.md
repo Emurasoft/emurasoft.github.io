@@ -2,11 +2,11 @@
 
 在指定儲存格內設置文字。你能明確地發送這條消息或用 [Editor\_SetCell](../macro/editor_setcell) 內嵌函式。
 
-EE\_SET\_CELL
-
-wParam = (WPARAM) (GET\_CELL\_INFO\*) pGetCellInfo;
-
+```
+EE_SET_CELL
+wParam = (WPARAM) (GET_CELL_INFO*) pGetCellInfo;
 lParam = (LPARAM) (LPWSTR) szString;
+```
 
 ## 參數
 

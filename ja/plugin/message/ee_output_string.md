@@ -3,11 +3,11 @@
 アウトプット バーに文字列を追加します。このメッセージを直接送るか、または
 [Editor\_OutputString インライン関数](../macro/editor_outputstring) を使うことができます。
 
-EE\_OUTPUT\_STRING
-
+```
+EE_OUTPUT_STRING
 wParam = nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szString;
+```
 
 ## パラメータ
 

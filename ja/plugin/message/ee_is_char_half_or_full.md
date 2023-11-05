@@ -3,23 +3,17 @@
 指定する (1) UTF-16 で表現された、または (2) スカラ値で表現された文字が半角か全角かを調べます。(3) また、指定した文字列の幅の合計を数えることもできます。このメッセージを直接送るか、または
 [Editor\_IsCharHalfOrFull インライン関数](../macro/editor_ischarhalforfull) を使うことができます。
 
-(1) EE\_IS\_CHAR\_HALF\_OR\_FULL
-
+(1) ```
+EE_IS_CHAR_HALF_OR_FULL
 (WCHAR)wParam = ch
-
 (int)lParam = 0
-
-(2) EE\_IS\_CHAR\_HALF\_OR\_FULL
-
+(2) EE_IS_CHAR_HALF_OR_FULL
 (UINT)wParam = nScaler
-
 (int)lParam = -1
-
-(3) EE\_IS\_CHAR\_HALF\_OR\_FULL
-
-(INT\_PTR)wParam = cchStr
-
+(3) EE_IS_CHAR_HALF_OR_FULL
+(INT_PTR)wParam = cchStr
 (LPCWSTR)lParam = pStr
+```
 
 ## パラメータ
 

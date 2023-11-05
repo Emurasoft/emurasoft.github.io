@@ -3,11 +3,11 @@
 Filters the document with the specified string and settings. You can send this message explicitly or use
 the [Editor\_Filter](../macro/editor_filter) inline function.
 
-EE\_FILTER
-
-wParam = (WPARAM) (FILTER\_INFO\_EX\*) pFilterInfo;
-
+```
+EE_FILTER
+wParam = (WPARAM) (FILTER_INFO_EX*) pFilterInfo;
 lParam = 0;
+```
 
 ## Parameters
 

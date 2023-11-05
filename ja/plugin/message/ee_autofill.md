@@ -2,11 +2,11 @@
 
 CSV 文書に対してオートフィル、またはフラッシュ フィルを実行します。このメッセージを直接送るか、または [Editor\_AutoFill](../macro/editor_autofill) インライン関数を使うことができます。
 
-EE\_AUTOFILL
-
+```
+EE_AUTOFILL
 wParam = 0;
-
-lParam = (LPARAM) (AUTOFILL\_INFO\*) pInfo;
+lParam = (LPARAM) (AUTOFILL_INFO*) pInfo;
+```
 
 ## パラメータ
 

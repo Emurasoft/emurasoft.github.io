@@ -3,11 +3,11 @@
 转换指定位置的设备（客户端）坐标来显示坐标。你能明确地发送该消息或用
 [Editor\_DevToView](../macro/editor_devtoview) 内联函数。
 
-EE\_DEV\_TO\_VIEW
-
-wParam = (WPARAM) (POINT\_PTR\*) pptDev;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptView;
+```
+EE_DEV_TO_VIEW
+wParam = (WPARAM) (POINT_PTR*) pptDev;
+lParam = (LPARAM) (POINT_PTR*) pptView;
+```
 
 ## 参数
 

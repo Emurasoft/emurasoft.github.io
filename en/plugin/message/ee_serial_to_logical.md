@@ -6,11 +6,11 @@ You can send this message explicitly or use the
 [Editor\_SerialToLogical](../macro/editor_serialtological)
 inline function.
 
-EE\_SERIAL\_TO\_LOGICAL
-
+```
+EE_SERIAL_TO_LOGICAL
 wParam = (WPARAM) (UINT) nSerial;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptLogical;
+lParam = (LPARAM) (POINT_PTR*) pptLogical;
+```
 
 ## Parameters
 

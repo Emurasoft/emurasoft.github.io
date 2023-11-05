@@ -2,11 +2,11 @@
 
 打开自定义分栏。如果在发送该消息前已经打开了一个自定义分栏，EmEditor 会关闭该自定义分栏并打开一个新的自定义分栏。你能明确地发送该消息或用 [Editor\_CustomBarOpen](../macro/editor_custombaropen) 内联函数。
 
-EE\_CUSTOM\_BAR\_OPEN
-
+```
+EE_CUSTOM_BAR_OPEN
 wParam = 0;
-
 lParam = (LPCTSTR) (LPCTSTR) pCustomBarInfo;
+```
 
 ## 参数
 

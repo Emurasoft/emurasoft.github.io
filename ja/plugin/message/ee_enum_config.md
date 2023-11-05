@@ -2,11 +2,11 @@
 
 利用可能な設定の一覧を取得します。このメッセージを直接送るか、または [Editor\_EnumConfig インライン関数](../macro/editor_enumconfig) を使うことができます。
 
-EE\_ENUM\_CONFIG
-
-wParam = (WPARAM) (size\_t) cchBuf;
-
+```
+EE_ENUM_CONFIG
+wParam = (WPARAM) (size_t) cchBuf;
 lParam = (LPARAM) (LPWSTR) pBuf;
+```
 
 ## パラメータ
 

@@ -3,11 +3,11 @@
 선택 영역의 시작 문자 위치를 검색합니다. 이 메시지를 명시적으로 보내거나
 [Editor\_GetSelStart](../macro/editor_getselstart) 인라인 함수를 사용할 수 있습니다.
 
-EE\_GET\_SEL\_START
-
+```
+EE_GET_SEL_START
 wParam = (WPARAM) (int) nLogical;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptPos;
+lParam = (LPARAM) (POINT_PTR*) pptPos;
+```
 
 ## 매개 변수
 

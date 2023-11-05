@@ -3,11 +3,11 @@
 指定された文字または文字列のUnicode名を取得します。このメッセージを直接送るか、または
 [Editor\_GetUnicodeName インライン関数](../macro/editor_getunicodename) を使うことができます。
 
-EE\_GET\_UNICODE\_NAME
-
-wParam = (WPARAM)(UNICODE\_NAME\_INFO\*)pUNI;
-
+```
+EE_GET_UNICODE_NAME
+wParam = (WPARAM)(UNICODE_NAME_INFO*)pUNI;
 lParam = 0;
+```
 
 ## パラメータ
 

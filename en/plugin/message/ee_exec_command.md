@@ -3,11 +3,11 @@
 Executes a specified command. You can send this message explicitly or use
 the [Editor\_ExecCommand](../macro/editor_execcommand) inline function.
 
-EE\_EXEC\_COMMAND
-
+```
+EE_EXEC_COMMAND
 wParam = (WPARAM) (UINT) nCmdID;
-
 lParam = 0;
+```
 
 ## Parameters
 

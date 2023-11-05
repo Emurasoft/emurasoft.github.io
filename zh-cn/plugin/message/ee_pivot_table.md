@@ -2,11 +2,11 @@
 
 在 CSV 文档中创建数据透视表。你能明确地发送该消息或用 [Editor\_PivotTable](../macro/editor_pivottable) 内联函数。
 
-EE\_PIVOT\_TABLE
-
-wParam = (WPARAM)(PIVOT\_TABLE\_INFO\*)pInfo;
-
+```
+EE_PIVOT_TABLE
+wParam = (WPARAM)(PIVOT_TABLE_INFO*)pInfo;
 lParam = 0;
+```
 
 ## 参数
 

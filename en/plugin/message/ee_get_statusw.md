@@ -3,11 +3,11 @@
 Retrieves the Unicode text displayed on the status bar. You can send this
 message explicitly or use the [Editor\_GetStatusW](../macro/editor_getstatusw) inline function.
 
-EE\_GET\_STATUSW
-
+```
+EE_GET_STATUSW
 wParam = nBufSize;
-
 lParam = (LPARAM) (LPWSTR) szStatus;
+```
 
 ## Parameters
 

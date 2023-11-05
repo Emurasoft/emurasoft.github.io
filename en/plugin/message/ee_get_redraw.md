@@ -4,11 +4,11 @@ Retrieves the flag that allows changes in EmEditor to be redrawn or prevents cha
 to be redrawn. You can send this
 message explicitly or use the [Editor\_GetRedraw inline function](../macro/editor_getredraw).
 
-EE\_GET\_REDRAW
-
+```
+EE_GET_REDRAW
 wParam = (WPARAM) 0;
-
 lParam = (LPARAM) 0;
+```
 
 ## Parameters
 

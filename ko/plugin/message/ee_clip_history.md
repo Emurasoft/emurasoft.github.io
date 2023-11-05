@@ -4,11 +4,11 @@
 [Editor\_RemoveClip](../macro/editor_removeclip), [Editor\_RotateClip](../macro/editor_rotateclip),
 및 [Editor\_SetClipPos](../macro/editor_setclippos) 인라인 함수를 사용하여 보낼 수 있습니다.
 
-EE\_CLIP\_HISTORY
-
+```
+EE_CLIP_HISTORY
 wParam = 0;
-
-lParam = (LPARAM) (CLIP\_INFO) pCI;
+lParam = (LPARAM) (CLIP_INFO) pCI;
+```
 
 ## 매개 변수
 

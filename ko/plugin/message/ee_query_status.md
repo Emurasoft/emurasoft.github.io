@@ -3,11 +3,11 @@
 명령이 활성화 되어있는지 여부와 명령이 체크 상태인지 여부에 대한 명령의 상태를 검색합니다. 이 메시지를 명시적으로 또는
 [Editor\_QueryStatus](../macro/editor_querystatus) 인라인 함수을 사용하여 보낼 수 있습니다.
 
-EE\_QUERY\_STATUS
-
+```
+EE_QUERY_STATUS
 wParam = (WPARAM) (UINT) nCmdID;
-
-lParam = (LPARAM) (BOOL\*) pbChecked;
+lParam = (LPARAM) (BOOL*) pbChecked;
+```
 
 ## 매개 변수
 

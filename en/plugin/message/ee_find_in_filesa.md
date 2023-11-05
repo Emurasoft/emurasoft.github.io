@@ -6,11 +6,11 @@ document is modified, displays the prompt message box whether to save the
 changes to the current file. You can send this message explicitly or use the
 [Editor\_FindInFilesA](../macro/editor_findinfilesa) inline function.
 
-EE\_FIND\_IN\_FILESA
-
+```
+EE_FIND_IN_FILESA
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFOA) pGrepInfo;
+lParam = (LPARAM) (GREP_INFOA) pGrepInfo;
+```
 
 ## Parameters
 

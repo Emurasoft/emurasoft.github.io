@@ -3,11 +3,11 @@
 Searches an ANSI string. This message is obsolete. The newer plug-in should use the EE\_FIND\_REPLACE message instead. You can send this message explicitly or use the
 [Editor\_FindA](../macro/editor_finda) inline function.
 
-EE\_FINDA
-
+```
+EE_FINDA
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCSTR) szFind;
+```
 
 ## Parameters
 

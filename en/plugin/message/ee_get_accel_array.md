@@ -2,11 +2,11 @@
 
 Retrieves the array of the shortcut keys. You can send this message explicitly or by using the [Editor\_GetAccelArray](../macro/editor_getaccelarray) inline function.
 
-EE\_GET\_ACCEL\_ARRAY
-
+```
+EE_GET_ACCEL_ARRAY
 wParam = (UINT) nBufSize;
-
-lParam = (ACCEL\*) pAccel;
+lParam = (ACCEL*) pAccel;
+```
 
 ## Parameters
 

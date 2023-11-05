@@ -2,11 +2,11 @@
 
 列舉高亮的字符串。您能明確地發送該消息或用 [Editor\_EnumHighlight](../macro/editor_enumhighlight) 內嵌函式。
 
-EE\_ENUM\_HIGHLIGHT
-
-wParam = (WPARAM) (size\_t) cchBuf;
-
+```
+EE_ENUM_HIGHLIGHT
+wParam = (WPARAM) (size_t) cchBuf;
 lParam = (LPARAM) (LPWSTR) pBuf;
+```
 
 ## 參數
 

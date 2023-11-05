@@ -3,19 +3,15 @@
 檢索或設定用於 EmEditor 的信息參數之一的值。您能明確地發送該消息或用
 [Editor\_Info](../macro/editor_info)， [Editor\_DocInfo](../macro/editor_docinfo)，或 [Editor\_DocInfoEx](../macro/editor_docinfoex) 內嵌函式。
 
-EE\_INFO
-
+```
+EE_INFO
 wParam = (WPARAM)(int)nCmd;
-
 lParam = (LPARAM)lParam;
-
 or
-
-EE\_INFO
-
+EE_INFO
 wParam = MAKEWPARAM(nCmd, iDoc+1);
-
 lParam = (LPARAM)lParam;
+```
 
 ## 參數
 

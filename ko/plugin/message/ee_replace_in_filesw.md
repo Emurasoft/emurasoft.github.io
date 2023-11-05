@@ -4,11 +4,11 @@
 [Editor\_ReplaceInFilesW](../macro/editor_replaceinfilesw) 인라인 함수를
 사용할 수 있습니다.
 
-EE\_REPLACE\_IN\_FILESW
-
+```
+EE_REPLACE_IN_FILESW
 wParam = 0;
-
-lParam = (LPARAM) (GREP\_INFOW) pGrepInfo;
+lParam = (LPARAM) (GREP_INFOW) pGrepInfo;
+```
 
 ## 매개 변수
 

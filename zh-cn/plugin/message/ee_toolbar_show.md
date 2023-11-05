@@ -2,11 +2,11 @@
 
 显示或隐藏一个自定义工具栏。你能明确地发送该消息或用 [Editor\_ToolbarShow](../macro/editor_toolbarshow) 内联函数。
 
-EE\_TOOLBAR\_SHOW
-
+```
+EE_TOOLBAR_SHOW
 (UINT)wParam = nToolbarID
-
 (BOOL)lParam = bVisible
+```
 
 ## 参数
 

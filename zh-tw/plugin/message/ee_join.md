@@ -2,11 +2,11 @@
 
 按指定索引鍵資料欄,用一個與 JOIN 操作類似的方法合併兩個 CSV 文檔,并創建一個新文檔。您可以明確地發送該消息或用 [Editor\_Join](../macro/editor_join) 內嵌函式。
 
-EE\_JOIN
-
-wParam = (WPARAM) (JOIN\_INFO\*) pJoinInfo;
-
+```
+EE_JOIN
+wParam = (WPARAM) (JOIN_INFO*) pJoinInfo;
 lParam = 0;
+```
 
 ## 參數
 

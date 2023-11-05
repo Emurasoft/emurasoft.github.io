@@ -3,11 +3,11 @@
 關閉自訂分欄。您能明確地發送該消息或用
 [Editor\_CustomBarClose](../macro/editor_custombarclose) 內嵌函式。
 
-EE\_CUSTOM\_BAR\_CLOSE
-
+```
+EE_CUSTOM_BAR_CLOSE
 wParam = nCustomBarID;
-
 lParam = 0;
+```
 
 ## 參數
 

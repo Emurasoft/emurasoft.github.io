@@ -2,11 +2,11 @@
 
 檢索主動字串。你能明確地發送該消息或用 [Editor\_GetActiveString](../macro/editor_getactivestring) 內嵌函式。
 
-EE\_GET\_ACTIVE\_STRING
-
+```
+EE_GET_ACTIVE_STRING
 wParam = (WPARAM) 0;
-
-lParam = (LPARAM) (ACTIVE\_STRING\_INFO\*) pInfo;
+lParam = (LPARAM) (ACTIVE_STRING_INFO*) pInfo;
+```
 
 ## 參數
 

@@ -3,11 +3,11 @@
 运行一个宏。你能明确地发送该消息或用 [Editor\_RunMacro](../macro/editor_runmacro)
 内联函数。
 
-EE\_RUN\_MACRO
-
+```
+EE_RUN_MACRO
 wParam = 0;
-
-lParam = (LPARAM) (RUN\_MACRO\_INFO\*) pRMI;
+lParam = (LPARAM) (RUN_MACRO_INFO*) pRMI;
+```
 
 ## 参数
 

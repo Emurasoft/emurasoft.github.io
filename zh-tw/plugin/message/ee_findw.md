@@ -3,11 +3,11 @@
 搜尋一個 Unicode 字符串。您能明確地發送該消息或用
 the [Editor\_FindW](../macro/editor_findw) 內嵌函式。
 
-EE\_FINDW
-
+```
+EE_FINDW
 wParam = (WPARAM) (UINT) nFlags;
-
 lParam = (LPARAM) (LPCWSTR) szFind;
+```
 
 ## 參數
 

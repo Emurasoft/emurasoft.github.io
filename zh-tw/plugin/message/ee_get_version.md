@@ -3,11 +3,11 @@
 返回版本號。您能明確地發送該消息或用 [Editor\_GetVersion](../macro/editor_getversion)
 內嵌函式。
 
-EE\_GET\_VERSION
-
+```
+EE_GET_VERSION
 wParam = pnProductType;
-
 lParam = 0;
+```
 
 ## 參數
 

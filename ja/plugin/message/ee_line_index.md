@@ -2,11 +2,11 @@
 
 指定した行番号のシリアル位置を返します。このメッセージを直接送るか、または [Editor\_LineIndex インライン関数](../macro/editor_lineindex) を使うことができます。
 
-EE\_LINE\_INDEX
-
+```
+EE_LINE_INDEX
 wParam = (WPARAM) (BOOL) bLogical;
-
-lParam = (LPARAM) (UINT\_PTR) yLine;
+lParam = (LPARAM) (UINT_PTR) yLine;
+```
 
 ## パラメータ
 

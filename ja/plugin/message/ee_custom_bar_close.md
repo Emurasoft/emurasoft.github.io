@@ -2,11 +2,11 @@
 
 カスタム バーを閉じます。このメッセージを直接送るか、または [Editor\_CustomBar\_Close インライン関数](../macro/editor_custombarclose) を使うことができます。
 
-EE\_CUSTOM\_BAR\_CLOSE
-
+```
+EE_CUSTOM_BAR_CLOSE
 wParam = nCustomBarID;
-
 lParam = 0;
+```
 
 ## パラメータ
 

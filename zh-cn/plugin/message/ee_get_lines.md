@@ -2,11 +2,11 @@
 
 检索在 EmEditor 中的行数。你能明确地发送该消息或用 [Editor\_DocGetLines](../macro/editor_docgetlines) 内联函数或 [Editor\_GetLines](../macro/editor_getlines) 内联函数。
 
-EE\_GET\_LINES
-
+```
+EE_GET_LINES
 wParam = (WPARAM) MAKEWPARAM(nLogical, iDoc+1);
-
 lParam = hDoc;
+```
 
 ## 参数
 

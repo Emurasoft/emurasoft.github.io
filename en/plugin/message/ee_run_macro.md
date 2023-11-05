@@ -3,11 +3,11 @@
 Runs a macro. You can send this message explicitly or by using the [Editor\_RunMacro](../macro/editor_runmacro)
 inline function.
 
-EE\_RUN\_MACRO
-
+```
+EE_RUN_MACRO
 wParam = 0;
-
-lParam = (LPARAM) (RUN\_MACRO\_INFO\*) pRMI;
+lParam = (LPARAM) (RUN_MACRO_INFO*) pRMI;
+```
 
 ## Parameters
 

@@ -3,11 +3,11 @@
 指定するファイルの中身をカーソル位置に挿入します。ファイル名は、Unicode文字列で指定します。このメッセージを直接送るか、または
 [Editor\_InsertFileW インライン関数](../macro/editor_insertfilew) を使うことができます。
 
-EE\_INSERT\_FILEW
-
-wParam = (WPARAM) (LOAD\_FILE\_INFO\_EX\*) pLoadFileInfoEx;
-
+```
+EE_INSERT_FILEW
+wParam = (WPARAM) (LOAD_FILE_INFO_EX*) pLoadFileInfoEx;
 lParam = (LPARAM) (LPCWSTR) szFileName;
+```
 
 ## パラメータ
 

@@ -2,11 +2,11 @@
 
 正規表現で指定する文字列が一致するかどうかを調べます。このメッセージを直接送るか、または [Editor\_MatchRegex インライン関数](../macro/editor_matchregex) を使うことができます。
 
-EE\_MATCH\_REGEX
-
+```
+EE_MATCH_REGEX
 wParam = 0;
-
-lParam = (LPARAM) (MATCH\_REGEX\_INFO\_EX\*) pMatchRegexInfo;
+lParam = (LPARAM) (MATCH_REGEX_INFO_EX*) pMatchRegexInfo;
+```
 
 ## パラメータ
 

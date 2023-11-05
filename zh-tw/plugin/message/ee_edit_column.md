@@ -2,11 +2,11 @@
 
 移動，復制，刪除，或合併目前的 CSV 文檔中的指定欄。你能明確地發送該消息或用 [Editor\_EditColumn](../macro/editor_editcolumn) 內嵌函式。
 
-EE\_EDIT\_COLUMN
-
-wParam = (WPARAM)(EDIT\_COLUMN\_INFO\*)pInfo;
-
+```
+EE_EDIT_COLUMN
+wParam = (WPARAM)(EDIT_COLUMN_INFO*)pInfo;
 lParam = 0;
+```
 
 ## 參數
 

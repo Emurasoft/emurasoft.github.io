@@ -2,11 +2,11 @@
 
 按指定键列,用一个与 JOIN 操作类似的方法合并两个 CSV 文档,并创建一个新文档。你可以明确地发送该消息或用 [Editor\_Join](../macro/editor_join) 内联函数｡
 
-EE\_JOIN
-
-wParam = (WPARAM) (JOIN\_INFO\*) pJoinInfo;
-
+```
+EE_JOIN
+wParam = (WPARAM) (JOIN_INFO*) pJoinInfo;
 lParam = 0;
+```
 
 ## 参数
 

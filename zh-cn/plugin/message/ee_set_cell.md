@@ -2,11 +2,11 @@
 
 在指定单元格内设置文本。你能明确地发送这条消息或用 [Editor\_SetCell](../macro/editor_setcell) 内联函数。
 
-EE\_SET\_CELL
-
-wParam = (WPARAM) (GET\_CELL\_INFO\*) pGetCellInfo;
-
+```
+EE_SET_CELL
+wParam = (WPARAM) (GET_CELL_INFO*) pGetCellInfo;
 lParam = (LPARAM) (LPWSTR) szString;
+```
 
 ## 参数
 

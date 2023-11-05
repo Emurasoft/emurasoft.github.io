@@ -6,11 +6,11 @@
 [Editor\_LogicalToSerial](../macro/editor_logicaltoserial) 인라인 함수를
 사용할 수 있습니다.
 
-EE\_LOGICAL\_TO\_SERIAL
-
+```
+EE_LOGICAL_TO_SERIAL
 wParam = 0;
-
-lParam = (LPARAM) (POINT\_PTR\*) pptLogical
+lParam = (LPARAM) (POINT_PTR*) pptLogical
+```
 
 ## 매개 변수
 

@@ -3,19 +3,15 @@
 選択されている設定の名前をANSI文字列で取得します。このメッセージを直接送るか、 [Editor\_DocGetConfigA インライン関数](../macro/editor_docgetconfiga)、または
 [Editor\_GetConfigA インライン関数](../macro/editor_getconfiga) を使うことができます。
 
-EE\_GET\_CONFIGA
-
+```
+EE_GET_CONFIGA
 wParam = MAKEWPARAM(0, (iDoc)+1);
-
 lParam = (LPARAM) (LPSTR) szConfigName;
-
 または
-
-EE\_GET\_CONFIGA
-
+EE_GET_CONFIGA
 wParam = 0;
-
 lParam = (LPARAM) (LPSTR) szConfigName;
+```
 
 ## パラメータ
 
