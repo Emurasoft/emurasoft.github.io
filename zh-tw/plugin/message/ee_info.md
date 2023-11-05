@@ -9,7 +9,7 @@ wParam = (WPARAM)(int)nCmd;
 lParam = (LPARAM)lParam;
 ```
 
-or
+Or
 
 ```
 EE_INFO
