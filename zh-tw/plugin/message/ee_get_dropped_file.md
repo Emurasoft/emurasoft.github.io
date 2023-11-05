@@ -3,7 +3,7 @@
 檢索最近拖放的檔案。您能明確地發送該消息或用
 [Editor\_GetDroppedFile](../macro/editor_getdroppedfile) 內嵌函式。
 
-EE\_GET\_CONFIGW
+EE\_GET\_DROPPED\_FILE
 
 wParam = (WPARAM) (int) nIndex;
 
