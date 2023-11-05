@@ -7,7 +7,11 @@
 EE_REPLACE_IN_FILESW
 wParam = 0;
 lParam = (LPARAM) (GREP_INFO_EX*) pGrepInfo;
+```
+
 或
+
+```
 EE_REPLACE_IN_FILESW
 wParam = (WPARAM) (BATCH_GREP_INFO*) pBatchGrepInfo;
 lParam = (LPARAM) (FIND_REPLACE_INFO*) pBatchArray;

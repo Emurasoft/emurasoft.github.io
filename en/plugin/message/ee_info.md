@@ -8,7 +8,11 @@ EmEditor. You can send this message explicitly or use the
 EE_INFO
 wParam = (WPARAM)(int)nCmd;
 lParam = (LPARAM)lParam;
-or
+```
+
+Or
+
+```
 EE_INFO
 wParam = MAKEWPARAM(nCmd, iDoc+1);
 lParam = (LPARAM)lParam;
