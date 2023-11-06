@@ -15,7 +15,7 @@ Right-clicking on a changed file in the sidebar will show a menu with commands f
 - **View Changes** shows a comparision in the editor to show what changed to the file. Specifically, the versions of the file being compared are the last commit and the index version for staged files or the index version and worktree version for unstaged files.
 - **Open File** opens that file in the editor.
 - **Stage** and **Unstage** are equivalent to the commands `git add` and `git reset`.
-- Unstaged files have the option to **Undo Changes** to revert the file to the last commit state.
+- **Undo Changes** can be selected on unstaged files. It calls `git checkout` to overwrite the file with the contents in the index. Untracked files are deleted.
 - If a submodule is listed, **Update Submodule** will call [`git submodule update --init`](https://git-scm.com/docs/git-submodule#Documentation/git-submodule.txt-update--init--remote-N--no-fetch--no-recommend-shallow-f--force--checkout--rebase--merge--referenceltrepositorygt--depthltdepthgt--recursive--jobsltngt--no-single-branch--filterltfilterspecgt--ltpathgt82308203) to update the files in the submodule to its current `HEAD`.
 - **Refresh** will refresh the changed files list.
 
