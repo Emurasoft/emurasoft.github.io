@@ -11,7 +11,7 @@ checked, tabs will be disabled and cannot be displayed.
 
 ## Enable Disk-Based check box
 
-If this box is checked, EmEditor uses file-based operations for editing, and reduces the system's memory usage. If the Read Unmodified Lines from the Original File check box is also set, unmodified lines will be read from the original file, which increases the speed to open a file. If not, the file contents will be saved as a temporary file while opening a file, which reduces the file opening speed. Both cases reduce the system's memory usage. Since using a temporary file will slow down the running speed, EmEditor uses a temporary file only when the file size is larger than the specified size below.
+If this box is checked, EmEditor uses file-based operations for editing, and reduces the system's memory usage. If the Read Unmodified Lines from the Original File check box is also set, unmodified lines will be read from the original file, which increases the speed to open a file. If not, the file contents will be saved as a temporary file while opening a file, which reduces the file opening speed. Both cases reduce the system's memory usage.
 
 ## Minimum File Size to Enable Disk-Based text box
 

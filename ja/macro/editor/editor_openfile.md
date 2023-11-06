@@ -40,8 +40,8 @@ _nFlags_
 | eeOpenDetectUTF8 | UTF-8 を自動検出します。 |
 | eeOpenDetectCharset | HTML/XML の Charset を検出します。 |
 | eeOpenDetectAll | すべて自動検出します。 |
-| eeUseDiskMode | ファイルを開く際、一時ファイルを使用します。 |
-| eeDontUseDiskMode | ファイルを開く際、一時ファイルを使用しません。eeUseDiskMode も eeDontUseDiskMode も指定されていない場合、EmEditor は開こうとするファイルのサイズによって自動的に一時ファイルを使用するかどうかを選択します。 |
+| eeUseDiskMode | ファイルを開く際、ディスク モードを使用します。 |
+| eeDontUseDiskMode | ファイルを開く際、ディスク モードを使用しません。eeUseDiskMode も eeDontUseDiskMode も指定されていない場合、EmEditor は開こうとするファイルのサイズによって自動的にディスク モードを使用するかどうかを選択します。 |
 
 ## バージョン
 

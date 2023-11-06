@@ -66,6 +66,6 @@ Specifies a combination of the following values.
 | --- | --- |
 | LFI\_ALLOW\_ASYNC\_OPEN | Allows a file to be opened asynchronously. |
 | LFI\_ALLOW\_NEW\_WINDOW | Opens a file in a new window. |
-| LFI\_USE\_DISK\_MODE | Uses temporary files when opening a file. |
-| LFI\_DONT\_USE\_DISK\_MODE | Doesn't use temporary files when opening a file. If neither LFI\_USE\_DISK\_MODE nor LFI\_DONT\_USE\_DISK\_MODE is specified, EmEditor automatically selects to use temporary files depending on the size of the file that is about to be opened. |
+| LFI\_USE\_DISK\_MODE | Uses the disk-based mode when opening a file. |
+| LFI\_DONT\_USE\_DISK\_MODE | Doesn't use the disk-based mode when opening a file. If neither LFI\_USE\_DISK\_MODE nor LFI\_DONT\_USE\_DISK\_MODE is specified, EmEditor automatically selects to use the disk-based mode depending on the size of the file that is about to be opened. |
 | LFI\_DONT\_ADD\_RECENT | Doesn't add the file path to the recent file list. |
