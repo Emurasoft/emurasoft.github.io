@@ -16,7 +16,7 @@
 - **打开文件**会打开编辑器中的文件。
 - **暂存**和**取消暂存**相当于 `git add` 和 `git reset` 命令。
 - 未暂存的文件可以选择**撤消更改**以将文件恢复到上次提交状态。
-- 如果列出了子模块，**更新子模块**将调用 `git submodule update --init` 来将子模块中的文件更新到其当前的 `HEAD`。
+- 如果列出了子模块，**更新子模块**将调用 [`git submodule update --init`](https://git-scm.com/docs/git-submodule#Documentation/git-submodule.txt-update--init--remote-N--no-fetch--no-recommend-shallow-f--force--checkout--rebase--merge--referenceltrepositorygt--depthltdepthgt--recursive--jobsltngt--no-single-branch--filterltfilterspecgt--ltpathgt82308203) 来将子模块中的文件更新到其当前的 `HEAD`。
 - **刷新**将刷新更改的文件列表。
 
 提交列表插件会监视文件系统，如果仓库目录中的文件被外部程序修改，则会刷新侧边栏。

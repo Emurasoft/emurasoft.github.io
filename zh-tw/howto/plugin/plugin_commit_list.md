@@ -16,7 +16,7 @@
 - **打開檔案**會打開編輯器中的檔案。
 - **暫存**和**取消暫存**相當於 `git add` 和 `git reset` 命令。
 - 未暫存的檔案可以選擇**復原變更**以將檔案恢復到上次提交狀態。
-- 如果列出了子模塊，**更新子模塊**將調用 `git submodule update --init` 來將子模塊中的檔案更新到其目前的 `HEAD`。
+- 如果列出了子模塊，**更新子模塊**將調用 [`git submodule update --init`](https://git-scm.com/docs/git-submodule#Documentation/git-submodule.txt-update--init--remote-N--no-fetch--no-recommend-shallow-f--force--checkout--rebase--merge--referenceltrepositorygt--depthltdepthgt--recursive--jobsltngt--no-single-branch--filterltfilterspecgt--ltpathgt82308203) 來將子模塊中的檔案更新到其目前的 `HEAD`。
 - **重新整理**將重新整理變更的檔案清單。
 
 提交清單外掛程式會監視檔案系統，如果倉儲目錄中的檔案被外部程式修改，則會重新整理側邊欄。
