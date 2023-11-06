@@ -37,8 +37,8 @@ _nFlags_
 | eeOpenDetectUTF8 | 检测 UTF-8。 |
 | eeOpenDetectCharset | 检测 HTML/XML 字符集。 |
 | eeOpenDetectAll | 检测所有编码。 |
-| eeUseTempFile | 打开文件时使用临时文件。 |
-| eeDontUseTempFile | 打开文件时不使用临时文件。如果既没有指定 eeUseTempFile 也没有指定 eeDontUseTempFile，EmEditor 会根据将要打开的文件大小自动选择使用临时文件。 |
+| eeUseDiskMode | 打开文件时使用临时文件。 |
+| eeDontUseDiskMode | 打开文件时不使用临时文件。如果既没有指定 eeUseDiskMode 也没有指定 eeDontUseDiskMode，EmEditor 会根据将要打开的文件大小自动选择使用临时文件。 |
 
 ## 版本
 

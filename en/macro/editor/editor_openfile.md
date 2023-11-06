@@ -39,8 +39,8 @@ Specifies a combination of the following values. If nEncoding is 0 or omitted, a
 | eeOpenDetectUTF8 | Detects UTF-8. |
 | eeOpenDetectCharset | Detects HTML/XML Charset. |
 | eeOpenDetectAll | Detects all encodings. |
-| eeUseTempFile | Uses temporary files when opening a file. |
-| eeDontUseTempFile | Doesn't use temporary files when opening a file. If neither eeUseTempFile nor eeDontUseTempFile is specified, EmEditor automatically selects to use temporary files depending on the size of the file that is about to be opened. |
+| eeUseDiskMode | Uses temporary files when opening a file. |
+| eeDontUseDiskMode | Doesn't use temporary files when opening a file. If neither eeUseDiskMode nor eeDontUseDiskMode is specified, EmEditor automatically selects to use temporary files depending on the size of the file that is about to be opened. |
 
 ## Version
 

@@ -65,6 +65,6 @@ _nFlags_
 | --- | --- |
 | LFI\_ALLOW\_ASYNC\_OPEN | 允許異步打開一個檔案。 |
 | LFI\_ALLOW\_NEW\_WINDOW | 在新視窗中打開一個檔案。 |
-| LFI\_USE\_TEMP\_FILE | 打開檔案時使用臨時檔案。 |
-| LFI\_DONT\_USE\_TEMP\_FILE | 打開檔案時不使用臨時檔案。如果既沒有指定 LFI\_USE\_TEMP\_FILE 也沒有指定 LFI\_DONT\_USE\_TEMP\_FILE，EmEditor 會根據將要打開的檔案大小自動選擇使用臨時檔案。 |
+| LFI\_USE\_DISK\_MODE | 打開檔案時使用臨時檔案。 |
+| LFI\_DONT\_USE\_DISK\_MODE | 打開檔案時不使用臨時檔案。如果既沒有指定 LFI\_USE\_DISK\_MODE 也沒有指定 LFI\_DONT\_USE\_DISK\_MODE，EmEditor 會根據將要打開的檔案大小自動選擇使用臨時檔案。 |
 | LFI\_DONT\_ADD\_RECENT | 不將檔案路徑添加到最近的檔案清單中。 |

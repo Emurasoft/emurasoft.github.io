@@ -69,6 +69,6 @@ _nFlags_
 | --- | --- |
 | LFI\_ALLOW\_ASYNC\_OPEN | ファイルが非同期に開くことを許します。 |
 | LFI\_ALLOW\_NEW\_WINDOW | ファイルを新しいウィンドウで開きます。 |
-| LFI\_USE\_TEMP\_FILE | ファイルを開く際、一時ファイルを使用します。 |
-| LFI\_DONT\_USE\_TEMP\_FILE | ファイルを開く際、一時ファイルを使用しません。LFI\_USE\_TEMP\_FILE も LFI\_DONT\_USE\_TEMP\_FILE も指定されていない場合、EmEditor は開こうとするファイルのサイズによって自動的に一時ファイルを使用するかどうかを選択します。 |
+| LFI\_USE\_DISK\_MODE | ファイルを開く際、一時ファイルを使用します。 |
+| LFI\_DONT\_USE\_DISK\_MODE | ファイルを開く際、一時ファイルを使用しません。LFI\_USE\_DISK\_MODE も LFI\_DONT\_USE\_DISK\_MODE も指定されていない場合、EmEditor は開こうとするファイルのサイズによって自動的に一時ファイルを使用するかどうかを選択します。 |
 | LFI\_DONT\_ADD\_RECENT | 最近使ったファイルにファイル パスを追加しません。 |
