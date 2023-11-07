@@ -1,4 +1,4 @@
-[<img src="_static/logo-minified.svg" width="300">](https://www.emeditor.com/)
+[<img src="_static/logo-minified.svg" width="300" height="109">](https://www.emeditor.com/)
 
 # EmEditor Help
 

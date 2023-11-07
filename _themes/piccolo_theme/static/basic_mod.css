@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto:wght@700&family=Roboto+Mono&family=Noto+Sans+JP&display=swap');
+
 /*****************************************************************************/
 /* Typography */
 :root {
@@ -39,7 +41,7 @@
 }
 
 body {
-  font-family: Roboto, "OpenSans", sans-serif;
+  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
   background-color: var(--mainBackgroundColor);
   color: var(--fontColor);
 }
@@ -289,7 +291,7 @@ div.document code {
   padding: 2px 4px;
   background-color: var(--inlineCodeBackgroundColor);
   border-radius: 0.2rem;
-  font-family: "Roboto Mono", monospace, Monaco, Consolas, Andale Mono;
+  font-family: "Roboto Mono", monospace;
   font-size: 0.9em;
 }
 div.document div.documentwrapper {

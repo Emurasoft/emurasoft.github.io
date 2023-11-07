@@ -65,5 +65,6 @@ div#top_nav nav p.mobile_search_link a {
 
 h1 {
     font-size: 2rem;
-    font-family: "Roboto-bold", "OpenSans", sans-serif;
+    font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+    font-weight: 700;
 }
