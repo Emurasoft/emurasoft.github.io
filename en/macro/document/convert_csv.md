@@ -30,6 +30,8 @@ You can specify a combination of the following values.
 | --- | --- |
 | eeCsvHalfWidth | Assumes all half-width characters to improve the speed. |
 | eeCsvDiscardUndo | Discards undo information to improve the speed. |
+| eeCsvTruncateUnfit | Truncates strings if the string length exceeds the column width. |
+| eeCsvPromptInvalid | Warns if the string length exceeds column width. |
 
 _strSepCount_
 
@@ -39,15 +41,17 @@ If the current document is a non-CSV document, and if you want to convert the cu
 
 The following example converts a fixed-width columns to a comma-separated CSV format. The original fixed-width format is:
 
+```
 Madrid Spain   100
-
 Paris  France  101
+```
 
 The destination CSV document will be:
 
+```
 Madrid,Spain,100
-
 Paris,France,101
+```
 
 ### \[JavaScript\]
 

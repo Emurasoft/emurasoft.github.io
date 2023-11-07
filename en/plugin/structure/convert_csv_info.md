@@ -21,7 +21,7 @@ Specifies sizeof( CONVERT\_CSV\_INFO ).
 
 _iDestMode_
 
-Specifies the index of the CSV format you want to convert the current document to. 0 means fixed-width columns format (non-CSV). 1 means the first defined format in the CSV tab of the Customize dialog box (Comma separated by default).
+Specifies the index of the CSV format you want to convert the current document to. 0 means fixed-width columns format (non-CSV). 1 means the first defined format in the **CSV Formats** page of the **Customize** dialog box (Comma separated by default).
 
 _nFlags_
 
@@ -31,6 +31,8 @@ You can specify a combination of the following values.
 | --- | --- |
 | CSV\_HALF\_WIDTH | Assumes all half-width characters to improve the speed. |
 | CSV\_DISCARD\_UNDO | Discards undo information to improve the speed. |
+| CSV_TRUNCATE_UNFIT | Truncates strings if the string length exceeds the column width. |
+| CSV_PROMPT_INVALID | Warns if the string length exceeds column width. |
 
 _nSepCount_
 

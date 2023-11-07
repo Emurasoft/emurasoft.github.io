@@ -20,7 +20,7 @@ document.ConvertCsv( iDestMode, nFlags, strSepPos );
 
 _iDestMode_
 
-Specifies the index of the CSV format you want to convert the current document to. 0 means fixed-width columns format (non-CSV). 1 means the first defined format in the CSV tab of the Customize dialog box (Comma separeted by default).
+変換先の CSV フォーマットのインデックスを指定します。0 は CSV でなく固定幅列のフォーマットを意味します。1 は [カスタマイズ] ダイアログの [CSVフォーマット] ページで定義された最初のフォーマットを意味します (既定では、カンマ区切り)。
 
 _nFlags_
 
@@ -28,26 +28,30 @@ _nFlags_
 
 | 値 | 意味 |
 | --- | --- |
-| eeCsvHalfWidth | Assumes all half-width characters to improve the speed. |
-| eeCsvDiscardUndo | Discards undo information to improve the speed. |
+| eeCsvHalfWidth | すべて半角文字とみなします |
+| eeCsvDiscardUndo | 元に戻す情報を破棄します |
+| eeCsvTruncateUnfit | 列の幅よりも長い文字列は切り詰めます |
+| eeCsvPromptInvalid | 文字列の長さが列の幅を超えると警告します |
 
 _strSepCount_
 
-If the current document is a non-CSV document, and if you want to convert the current document of fixed-width columns to a CSV document, this string specifies the widths between separators, separated by commas. For instance, "10, 8" means 2 separators separated by 10 and 8 half-width characters. This parameter is ignored if the current document is a CSV document.
+現在の文書が CSV フォーマットでない場合で、固定幅列のフォーマットを CSV 文書に変換したい場合、この文字列は列幅の配列をカンマで区切って指定します。例えば、「10, 8」は、2 本のセパレーターが 10 と 8 の半角文字幅で区切られていることを示します。現在の文書が CSV 文書の場合、このパラメータは無視されます。
 
 ## 例
 
-The following example converts a fixed-width columns to a comma-separated CSV format. The original fixed-width format is:
+次の例は、固定幅列フォーマットをカンマ区切り CSV フォーマットに変換します。元の固定幅列フォーマット:
 
+```
 Madrid Spain   100
-
 Paris  France  101
+```
 
-The destination CSV document will be:
+変換先の CSV 文書:
 
+```
 Madrid,Spain,100
-
 Paris,France,101
+```
 
 ### \[JavaScript\]
 

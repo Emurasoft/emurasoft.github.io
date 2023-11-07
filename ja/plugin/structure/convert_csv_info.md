@@ -20,7 +20,7 @@ sizeof( CONVERT\_CSV\_INFO ) を指定します。
 
 _iDestMode_
 
-Specifies the index of the CSV format you want to convert the current document to. 0 means fixed-width columns format (non-CSV). 1 means the first defined format in the CSV tab of the Customize dialog box (Comma separeted by default).
+変換先の CSV フォーマットのインデックスを指定します。0 は CSV でなく固定幅列のフォーマットを意味します。1 は [カスタマイズ] ダイアログの [CSVフォーマット] ページで定義された最初のフォーマットを意味します (既定では、カンマ区切り)。
 
 _nFlags_
 
@@ -28,16 +28,18 @@ _nFlags_
 
 | 値 | 意味 |
 | --- | --- |
-| CSV\_HALF\_WIDTH | Assumes all half-width characters to improve the speed. |
-| CSV\_DISCARD\_UNDO | Discards undo information to improve the speed. |
+| CSV\_HALF\_WIDTH | すべて半角文字とみなします |
+| CSV\_DISCARD\_UNDO | 元に戻す情報を破棄します |
+| CSV\_DISCARD\_UNDO | 列の幅よりも長い文字列は切り詰めます |
+| CSV\_DISCARD\_UNDO | 文字列の長さが列の幅を超えると警告します |
 
 _nSepCount_
 
-If the current document is a non-CSV document, and if you want to convert the current document of fixed-width columns to a CSV document, this parameter specifies the number of separators, and it must be equal to the size of the array specified in the _pcxSepWidths_ parameter. This parameter is ignored if the current document is a CSV document.
+現在の文書が CSV フォーマットでない場合で、固定幅列のフォーマットを CSV 文書に変換したい場合、このパラメータは区切りの数を指定します。この数は、_pcxSepWidths_ パラメータで指定された配列のサイズと等しい必要があります。現在の文書が CSV 文書の場合、このパラメータは無視されます。
 
 _pcxSepWidths_
 
-Specifies the array of integers representing the widths between separators if the _nSepCount_ parameter is non-zero.
+_nSepCount_ パラメータが 0 でない場合、列幅を表現する整数の配列を指定します。
 
 ## バージョン
 
