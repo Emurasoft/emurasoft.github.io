@@ -11,6 +11,3 @@ Sphinx project for [https://www.emeditor.org/](https://www.emeditor.org/).
 $env:PROJECT='en'
 sphinx-build . _build/en
 ```
-
-# TODO
-- Update html_baseurl for all languages
