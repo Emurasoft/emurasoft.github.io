@@ -1,5 +1,5 @@
 sitemap_url_scheme = 'ja/{version}{link}'
-html_baseurl = 'https://emurasoft.github.io/emeditor-help/ja/'
+html_baseurl = 'https://www.emeditor.org/ja'
 
 with open('../version') as version_file:
     version = str(version_file.read())
