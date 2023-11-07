@@ -15,7 +15,7 @@
 - **檢視變更**會在編輯器中顯示與之前版本的檔案所做的比較結果，以顯示檔案做了哪些修改。具體來說，所比較的檔案版本是暫存檔案的最後一次提交和索引版本，或未暫存檔案的索引版本和工作樹版本。
 - **打開檔案**會打開編輯器中的檔案。
 - **暫存**和**取消暫存**相當於 `git add` 和 `git reset` 命令。
-- 未暫存的檔案可以選擇**復原變更**以將檔案恢復到上次提交狀態。
+- **復原變更**可以應用在未暫存的檔案上。它調用 `git checkout` 以用索引中的內容來覆寫檔案。未追蹤的檔案會被刪除。
 - 如果列出了子模塊，**更新子模塊**將調用 [`git submodule update --init`](https://git-scm.com/docs/git-submodule#Documentation/git-submodule.txt-update--init--remote-N--no-fetch--no-recommend-shallow-f--force--checkout--rebase--merge--referenceltrepositorygt--depthltdepthgt--recursive--jobsltngt--no-single-branch--filterltfilterspecgt--ltpathgt82308203) 來將子模塊中的檔案更新到其目前的 `HEAD`。
 - **重新整理**將重新整理變更的檔案清單。
 

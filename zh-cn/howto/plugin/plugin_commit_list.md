@@ -15,7 +15,7 @@
 - **查看更改**会在编辑器中显示与之前版本的文件所做的比较结果，以显示文件做了哪些修改。具体来说，所比较的文件版本是暂存文件的最后一次提交和索引版本，或未暂存文件的索引版本和工作树版本。
 - **打开文件**会打开编辑器中的文件。
 - **暂存**和**取消暂存**相当于 `git add` 和 `git reset` 命令。
-- 未暂存的文件可以选择**撤消更改**以将文件恢复到上次提交状态。
+- **撤消更改**可以应用在未暂存的文件上。它调用 `git checkout` 以用索引中的内容来覆写文件。未追踪的文件会被删除。
 - 如果列出了子模块，**更新子模块**将调用 [`git submodule update --init`](https://git-scm.com/docs/git-submodule#Documentation/git-submodule.txt-update--init--remote-N--no-fetch--no-recommend-shallow-f--force--checkout--rebase--merge--referenceltrepositorygt--depthltdepthgt--recursive--jobsltngt--no-single-branch--filterltfilterspecgt--ltpathgt82308203) 来将子模块中的文件更新到其当前的 `HEAD`。
 - **刷新**将刷新更改的文件列表。
 

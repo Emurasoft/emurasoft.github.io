@@ -37,8 +37,8 @@ _nFlags_
 | eeOpenDetectUTF8 | 偵測 UTF-8。 |
 | eeOpenDetectCharset | 偵測 HTML/XML 字符集。 |
 | eeOpenDetectAll | 偵測所有編碼。 |
-| eeUseDiskMode | 打開檔案時使用臨時檔案。 |
-| eeDontUseDiskMode | 打開檔案時不使用臨時檔案。如果既沒有指定 eeUseDiskMode 也沒有指定 eeDontUseDiskMode，EmEditor 會根據將要打開的檔案大小自動選擇使用臨時檔案。 |
+| eeUseDiskMode | 打開檔案時用啟用磁碟的模式。 |
+| eeDontUseDiskMode | 打開檔案時不使用啟用磁碟的模式。如果既沒有指定 eeUseDiskMode 也沒有指定 eeDontUseDiskMode，EmEditor 會根據要打開的檔案大小自動選擇使用啟用磁碟的模式。 |
 
 ## 版本
 

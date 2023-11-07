@@ -65,6 +65,6 @@ _nFlags_
 | --- | --- |
 | LFI\_ALLOW\_ASYNC\_OPEN | 允许异步打开一个文件。 |
 | LFI\_ALLOW\_NEW\_WINDOW | 在新窗口中打开一个文件。 |
-| LFI\_USE\_DISK\_MODE | 打开文件时使用临时文件。 |
-| LFI\_DONT\_USE\_DISK\_MODE | 打开文件时不使用临时文件。如果既没有指定 LFI\_USE\_DISK\_MODE 也没有指定 LFI\_DONT\_USE\_DISK\_MODE，EmEditor 会根据将要打开的文件大小自动选择使用临时文件。 |
+| LFI\_USE\_DISK\_MODE | 打开文件时使用启用硬盘模式。 |
+| LFI\_DONT\_USE\_DISK\_MODE | 打开文件时不使用启用硬盘模式。如果既没有指定 LFI\_USE\_DISK\_MODE 也没有指定 LFI\_DONT\_USE\_DISK\_MODE，EmEditor 会根据要打开的文件大小自动选择使用启用硬盘模式。 |
 | LFI\_DONT\_ADD\_RECENT | 不将文件路径添加到最近的文件列表中。 |
