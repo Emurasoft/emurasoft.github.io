@@ -13,19 +13,19 @@ orphan: true
 ## New commands
 
 - [Close All without Save command](../cmd/file/quit_all)
-- [Tabify command](../cmd/edit/tabify)
-- [Untabify command](../cmd/edit/untabify)
-- [Increase Line Indent command](../cmd/edit/indent)
-- [Decrease Line Indent command](../cmd/edit/unindent)
-- [Comment command](../cmd/edit/edit_comment)
-- [Uncomment command](../cmd/edit/edit_uncomment)
-- [Insert Caron command](../cmd/edit/insert_caron)
+- [Tabify command](../cmd/convert/tabify)
+- [Untabify command](../cmd/convert/untabify)
+- [Increase Line Indent command](../cmd/convert/indent)
+- [Decrease Line Indent command](../cmd/convert/unindent)
+- [Comment command](../cmd/convert/edit_comment)
+- [Uncomment command](../cmd/convert/edit_uncomment)
+- [Insert Caron command](../cmd/insert/insert_caron)
 - [Tabify All command](../cmd/edit/space_to_tab)
 - [Move to Last Edited Position command](../cmd/edit/move_last_edit)
 - [Next Bookmark in This \
-Window command](../cmd/edit/bookmark_next_within)
+Window command](../cmd/bookmarks/bookmark_next_within)
 - [Previous Bookmark in This \
-Window command](../cmd/edit/bookmark_prev_within)
+Window command](../cmd/bookmarks/bookmark_prev_within)
 - [Replace in Files command](../cmd/search/replace_in_files)
 - [Marks command](../cmd/view/view_marks)
 - [Increase Font Size command](../cmd/view/increase_font_size)
@@ -47,8 +47,8 @@ Options command](../cmd/macros/macro_run_options)
 
 ## Existing commands with new features
 
-- [Insert Acute command](../cmd/edit/insert_acute)
-- [Insert Tilde command](../cmd/edit/insert_tilde)
+- [Insert Acute command](../cmd/insert/insert_acute)
+- [Insert Tilde command](../cmd/insert/insert_tilde)
 
 ## New dialog boxes
 
@@ -71,14 +71,14 @@ dialog box](../dlg/macro_customize/index)
 - ![](../images/filesaveexit.gif)[Save and Close command](../cmd/file/file_save_exit)
 - ![](../images/saveexitall.gif)[Save and Close All command](../cmd/file/save_exit_all)
 - ![](../images/nextparen.gif)[Find Matching Parenthesis/Bracket command](../cmd/edit/next_paren)
-- ![](../images/duplicateline.gif)[Duplicate Line command](../cmd/edit/duplicate_line)
+- ![](../images/duplicateline.gif)[Duplicate Line command](../cmd/insert/duplicate_line)
 - ![](../images/insertcontrol.gif)[Insert Special Character \
-command](../cmd/edit/insert_control)
+command](../cmd/insert/insert_control)
 - ![](../images/marks.gif)[Marks command](../cmd/view/view_marks)
-- ![](../images/editcomment.gif)[Comment command](../cmd/edit/edit_comment)
-- ![](../images/edituncomment.gif)[Uncomment command](../cmd/edit/edit_uncomment)
-- ![](../images/indent.gif)[Increase Line Indent command](../cmd/edit/indent)
-- ![](../images/unindent.gif)[Decrease Line Indent command](../cmd/edit/unindent)
+- ![](../images/editcomment.gif)[Comment command](../cmd/convert/edit_comment)
+- ![](../images/edituncomment.gif)[Uncomment command](../cmd/convert/edit_uncomment)
+- ![](../images/indent.gif)[Increase Line Indent command](../cmd/convert/indent)
+- ![](../images/unindent.gif)[Decrease Line Indent command](../cmd/convert/unindent)
 - ![](../images/macrosave.gif)[Save Macro command](../cmd/macros/macro_save)
 - ![](../images/macroedit.gif)[Edit Macro command](../cmd/macros/macro_edit)
 - ![](../images/macroselect.gif)[Select Macro command](../cmd/macros/macro_select)
@@ -88,9 +88,9 @@ command](../cmd/edit/insert_control)
 - ![](../images/decreasefontsize.gif)[Decrease Font Size command](../cmd/view/decrease_font_size)
 - ![](../images/replaceinfiles.gif)[Replace in Files command](../cmd/search/replace_in_files)
 - ![](../images/bookmarkprevwithin.gif)[Previous Bookmark in This \
-Window command](../cmd/edit/bookmark_prev_within)
+Window command](../cmd/bookmarks/bookmark_prev_within)
 - ![](../images/bookmarknextwithin.gif)[Next Bookmark in This Window \
-command](../cmd/edit/bookmark_next_within)
+command](../cmd/bookmarks/bookmark_next_within)
 
 ## Other new features
 

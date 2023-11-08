@@ -1,7 +1,7 @@
 # Combine Columns dialog box
 
 This dialog box appears when the
-[**Combine Columns** command](../../cmd/edit/combine_columns) is selected.
+[**Combine Columns** command](../../cmd/csv/combine_columns) is selected.
 
 ## Concatenate radio button
 

@@ -2,9 +2,9 @@
 
 Select the text within which to insert or delete returns, select **Convert Selection** under the **Edit** menu, and then select the
 [**Insert newline characters** \
-command](../../cmd/edit/insert_cr_wrap)
+command](../../cmd/convert/insert_cr_wrap)
 or the [**Remove newline characters** \
-command](../../cmd/edit/delete_cr_wrap).
+command](../../cmd/convert/delete_cr_wrap).
 
 ## Tips
 

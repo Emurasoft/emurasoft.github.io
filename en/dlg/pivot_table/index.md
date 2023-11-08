@@ -1,7 +1,7 @@
 # Pivot Table dialog box
 
 This dialog box appears when the
-[**Pivot Table** command](../../cmd/edit/pivot_table) is selected.
+[**Pivot Table** command](../../cmd/csv/pivot_table) is selected.
 
 ## Type drop-down list box
 

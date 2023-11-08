@@ -1,7 +1,7 @@
 # Join CSV dialog box
 
 This dialog box appears when the
-[**Join CSV** command](../../cmd/edit/join_csv) or the Join CSV button is selected in a toolbar.
+[**Join CSV** command](../../cmd/csv/join_csv) or the Join CSV button is selected in a toolbar.
 
 ## CSV Document 1 drop-down list box
 

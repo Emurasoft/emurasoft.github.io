@@ -73,7 +73,7 @@
 | **[Find Longest Line/Cell](find_longest)** | Finds the longest line in a non-CSV document or longest cell in the current column of a CSV document. |
 | **[Find Non-empty Shortest Line/Cell](find_shortest)** | Finds the non-empty shortest line in a non-CSV document or non-empty shortest cell in the current column of a CSV document. |
 | **[Find Shortest Line/Cell](find_empty_or_shortest)** | Finds the shortest line in a non-CSV document or shortest cell in the current column of a CSV document. |
-| **[Search Symbols](../tools/ql_symbols)** | Opens the Quick Launch window and selects symbols. |
+| **[Search Symbols](ql_symbols)** | Opens the Quick Launch window and selects symbols. |
 
 
 ```{toctree}
@@ -145,6 +145,7 @@ findbar_sel_only
 focus_filter_bar
 focus_find_bar
 grep
+ql_symbols
 replace_in_files
 replace_next
 retrieve_find_text

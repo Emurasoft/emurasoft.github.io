@@ -38,20 +38,20 @@
 | ![](../../images/macrorecord.gif)[Record or Finish Quick Macro](../../cmd/macros/quick_macro_record) | Record or Finish Quick Macro. |
 | ![](../../images/macrorun.gif)[Run Quick Macro](../../cmd/macros/quick_macro_run) | Run Quick Macro. |
 | ![](../../images/windowalwaystop.gif)[Always on Top](../../cmd/window/window_always_top) | Toggle to show this window always on top. |
-| ![](../../images/bookmarktoggle.gif)[Toggle Bookmark](../../cmd/edit/bookmark_toggle) | Toggle bookmark on the current line. |
-| ![](../../images/bookmarkprev.gif)[Previous Bookmark](../../cmd/edit/bookmark_prev) | Go to the previous bookmark. |
-| ![](../../images/bookmarknext.gif)[Next Bookmark](../../cmd/edit/bookmark_next) | Go to the next bookmark. |
-| ![](../../images/bookmarkclear.gif)[Clear bookmarks](../../cmd/edit/bookmark_clear) | Clear all bookmarks. |
+| ![](../../images/bookmarktoggle.gif)[Toggle Bookmark](../../cmd/bookmarks/bookmark_toggle) | Toggle bookmark on the current line. |
+| ![](../../images/bookmarkprev.gif)[Previous Bookmark](../../cmd/bookmarks/bookmark_prev) | Go to the previous bookmark. |
+| ![](../../images/bookmarknext.gif)[Next Bookmark](../../cmd/bookmarks/bookmark_next) | Go to the next bookmark. |
+| ![](../../images/bookmarkclear.gif)[Clear bookmarks](../../cmd/bookmarks/bookmark_clear) | Clear all bookmarks. |
 | ![](../../images/filesaveexit.gif)[Save and Close](../../cmd/file/file_save_exit) | Save and Close the current file. |
 | ![](../../images/saveexitall.gif)[Save and Close All](../../cmd/file/save_exit_all) | Save and Close all open files. |
 | ![](../../images/nextparen.gif)[Find Matching Parenthesis/Bracket](../../cmd/edit/next_paren) | Moves the cursor to the corresponding parenthesis/bracket. |
-| ![](../../images/duplicateline.gif)[Duplicate Line](../../cmd/edit/duplicate_line) | Duplicates the current logical line. |
-| ![](../../images/insertcontrol.gif)[Insert Special Character](../../cmd/edit/insert_control) | Insert special character. |
+| ![](../../images/duplicateline.gif)[Duplicate Line](../../cmd/insert/duplicate_line) | Duplicates the current logical line. |
+| ![](../../images/insertcontrol.gif)[Insert Special Character](../../cmd/insert/insert_control) | Insert special character. |
 | ![](../../images/marks.gif)[Marks](../../cmd/view/view_marks) | Toggle newline characters, EOF and tab marks. |
-| ![](../../images/editcomment.gif)[Comment](../../cmd/edit/edit_comment) | Comment out the selection. |
-| ![](../../images/edituncomment.gif)[Uncomment](../../cmd/edit/edit_uncomment) | Removes comment marks in the selection. |
-| ![](../../images/indent.gif)[Increase Line Indent](../../cmd/edit/indent) | Increase line indent in the selection. |
-| ![](../../images/unindent.gif)[Decrease Line Indent](../../cmd/edit/unindent) | Decrease line indent in the selection. |
+| ![](../../images/editcomment.gif)[Comment](../../cmd/convert/edit_comment) | Comment out the selection. |
+| ![](../../images/edituncomment.gif)[Uncomment](../../cmd/convert/edit_uncomment) | Removes comment marks in the selection. |
+| ![](../../images/indent.gif)[Increase Line Indent](../../cmd/convert/indent) | Increase line indent in the selection. |
+| ![](../../images/unindent.gif)[Decrease Line Indent](../../cmd/convert/unindent) | Decrease line indent in the selection. |
 | ![](../../images/macrosave.gif)[Save Macro](../../cmd/macros/macro_save) | Save the temporary macro. |
 | ![](../../images/macroedit.gif)[Edit Macro](../../cmd/macros/macro_edit) | Edit the selected macro. |
 | ![](../../images/macroselect.gif)[Select Macro](../../cmd/macros/macro_select) | Select a macro. |
@@ -60,8 +60,8 @@
 | ![](../../images/increasefontsize.gif)[Increase Font Size](../../cmd/view/increase_font_size) | Increase the display font size. |
 | ![](../../images/decreasefontsize.gif)[Decrease Font Size](../../cmd/view/decrease_font_size) | Decrease the display font size. |
 | ![](../../images/replaceinfiles.gif)[Replace in Files](../../cmd/search/replace_in_files) | Replace text in multiple files. |
-| ![](../../images/bookmarkprevwithin.gif)[Previous Bookmark in This Window](../../cmd/edit/bookmark_prev_within) | Go to the previous bookmark in this window. |
-| ![](../../images/bookmarknextwithin.gif)[Next Bookmark in This Window](../../cmd/edit/bookmark_next_within) | Go to the next bookmark in this window. |
+| ![](../../images/bookmarkprevwithin.gif)[Previous Bookmark in This Window](../../cmd/bookmarks/bookmark_prev_within) | Go to the previous bookmark in this window. |
+| ![](../../images/bookmarknextwithin.gif)[Next Bookmark in This Window](../../cmd/bookmarks/bookmark_next_within) | Go to the next bookmark in this window. |
 | ![](../../images/delete.gif)[Delete](../../cmd/edit/delete) | Deletes the selection, or deletes one character at the right of the cursor. |
 | ![](../../images/full_screen.gif)[Full Screen](../../cmd/view/full_screen) | Toggles the full screen mode. |
 | ![](../../images/sticky.gif)[Sticky Vertical Mode](../../cmd/edit/vertical_mode) | Toggles the sticky vertical mode. |
@@ -69,10 +69,10 @@
 | ![](../../images/outline_exp.gif)[Expand All](../../cmd/edit/outline_expand_all) | Expands the entire document while the outlining is displayed. |
 | ![](../../images/save_as.gif)[Save As](../../cmd/file/file_save_as) | Saves the current file with a new name. |
 | ![](../../images/cycle_clipboard_ring.gif)[Cycle Clipboard Ring](../../cmd/edit/paste_history) | Inserts one of the contents from the Clipboard history at the cursor position. |
-| ![](../../images/default_mode.gif)[Normal Mode](../../cmd/edit/mode_normal) | Clears the CSV (Comma-separated), TSV (Tab-separated), and DSV (User-defined Delimiter-separated) modes. |
-| ![](../../images/csv.gif)[CSV Mode](../../cmd/edit/mode_csv) | Selects the CSV (Comma-separated) mode. |
-| ![](../../images/tsv.gif)[TSV Mode](../../cmd/edit/mode_tsv) | Selects the TSV (Tab-separated) mode. |
-| ![](../../images/dsv.gif)[DSV Mode](../../cmd/edit/mode_dsv) | Selects the user-defined DSV (Delimiter-separated) mode. |
+| ![](../../images/default_mode.gif)[Normal Mode](../../cmd/csv/mode_normal) | Clears the CSV (Comma-separated), TSV (Tab-separated), and DSV (User-defined Delimiter-separated) modes. |
+| ![](../../images/csv.gif)[CSV Mode](../../cmd/csv/mode_csv) | Selects the CSV (Comma-separated) mode. |
+| ![](../../images/tsv.gif)[TSV Mode](../../cmd/csv/mode_tsv) | Selects the TSV (Tab-separated) mode. |
+| ![](../../images/dsv.gif)[DSV Mode](../../cmd/csv/mode_dsv) | Selects the user-defined DSV (Delimiter-separated) mode. |
 | ![](../../images/narrowing.gif)[Toggle Narrowing](../../cmd/edit/narrowing_toggle) | Sets or resets only the selection as editable area and make the rest inaccessible. |
 | ![](../../images/sortinga-z.gif)[Sort A to Z](../../cmd/edit/sort_text_a) | Sort text at the current column in ascending order. |
 | ![](../../images/sortingz-a.gif)[Sort Z to A](../../cmd/edit/sort_text_d) | Sort text at the current column in descending order. |
@@ -90,25 +90,25 @@
 | ![](../../images/wrap_indent24x16.gif)[Wrap Indent](../../cmd/view/toggle_wrap_indent) | Enables or disables the wrap indent. |
 | ![](../../images/tab_column24x16.gif)[Tab Columns](../../cmd/view/tab_column_popup) | Displays a popup menu to select tab columns. |
 | ![](../../images/indent_column24x16.gif)[Indent Columns](../../cmd/view/indent_column_popup) | Displays a popup menu to select indent columns. |
-| ![](../../images/html2uni24x16.gif)[HTML/XML Character Reference to Unicode](../../cmd/edit/decode_html_char_ref) | Decodes the selected text from HTML/XML Character Reference. |
-| ![](../../images/uni2html24x16.gif)[Unicode to HTML/XML Character Reference](../../cmd/edit/encode_html_char_ref) | Encodes the selected text to HTML/XML Character Reference. |
-| ![](../../images/ucs2uni24x16.gif)[Universal Character Names to Unicode](../../cmd/edit/decode_ucn) | Decodes the selected text from Universal Character Names. |
-| ![](../../images/uni2ucs24x16.gif)[Unicode to Universal Character Names](../../cmd/edit/encode_ucn) | Encodes the selected text to Universal Character Names. |
+| ![](../../images/html2uni24x16.gif)[HTML/XML Character Reference to Unicode](../../cmd/convert/decode_html_char_ref) | Decodes the selected text from HTML/XML Character Reference. |
+| ![](../../images/uni2html24x16.gif)[Unicode to HTML/XML Character Reference](../../cmd/convert/encode_html_char_ref) | Encodes the selected text to HTML/XML Character Reference. |
+| ![](../../images/ucs2uni24x16.gif)[Universal Character Names to Unicode](../../cmd/convert/decode_ucn) | Decodes the selected text from Universal Character Names. |
+| ![](../../images/uni2ucs24x16.gif)[Unicode to Universal Character Names](../../cmd/convert/encode_ucn) | Encodes the selected text to Universal Character Names. |
 | ![](../../images/spelling24x16.gif)[Check Spelling](../../cmd/edit/spell_toggle) | Checks spelling of the document. |
 | ![](../../images/emeditor12_toggle_find_bar_button.png)[Find Toolbar](../../cmd/view/show_find_bar) | Shows or hides the find toolbar. |
 | ![](../../images/emeditor12_back_button.png)[Back](../../cmd/edit/caret_back) | Moves the cursor to the previous position. |
 | ![](../../images/emeditor12_forward_button.png)[Forward](../../cmd/edit/caret_forward) | Moves the cursor to the next position. |
-| ![](../../images/convert_to.gif)[CSV Converter](../../cmd/edit/csv_converter) | Shows or hides the CSV Converter. |
-| ![](../../images/columns_separators.gif)[Columns/Separators](../../cmd/edit/sv_sep_popup) | Shows a popup menu to work with columns or separators. |
-| ![](../../images/heading.gif)[Heading](../../cmd/edit/heading_popup) | Shows a popup menu to set headings. |
+| ![](../../images/convert_to.gif)[CSV Converter](../../cmd/csv/csv_converter) | Shows or hides the CSV Converter. |
+| ![](../../images/columns_separators.gif)[Columns/Separators](../../cmd/csv/sv_sep_popup) | Shows a popup menu to work with columns or separators. |
+| ![](../../images/heading.gif)[Heading](../../cmd/csv/heading_popup) | Shows a popup menu to set headings. |
 | ![](../../images/deleteduplicatelines.gif)[Delete Duplicate Lines](../../cmd/edit/delete_duplicate) | Deletes duplicate lines in the selection or in the entire document. |
 | ![](../../images/sortbymultiple.gif)[Sort by Multiple Columns](../../cmd/edit/sort_multi) | Sorts the document by multiple columns. |
 | ![](../../images/togglefilterbar.gif)[Filter Toolbar](../../cmd/view/show_filter_bar) | Shows or hides the filter toolbar. |
 | ![](../../images/sort_length_a.png)[Sort Shortest to Longest](../../cmd/edit/sort_length_a) | Sorts text at the current column by length in ascending order. |
 | ![](../../images/sort_length_d.png)[Sort Longest to Shortest](../../cmd/edit/sort_length_d) | Sorts text at the current column by length in descending order. |
 | ![](../../images/deleteduplicatelines_advanced.png)[Delete Duplicate Lines (Advanced)](../../cmd/edit/delete_duplicate_advanced) | Displays a dialog box to specify settings and deletes duplicate lines in the selection or in the entire document. |
-| ![](../../images/join_csv.png)[Join CSV](../../cmd/edit/join_csv) | Joins two CSV documents. |
-| ![](../../images/extract_columns.png)[Extract Columns](../../cmd/edit/extract_columns) | Extracts specified columns from the current CSV document. |
+| ![](../../images/join_csv.png)[Join CSV](../../cmd/csv/join_csv) | Joins two CSV documents. |
+| ![](../../images/extract_columns.png)[Extract Columns](../../cmd/csv/extract_columns) | Extracts specified columns from the current CSV document. |
 | ![CommitList](../../images/plugin_commit_list.gif)[CommitList](../plugin/plugin_commit_list) | CommitList Plug-in. |
 | ![Explorer](../../images/plugin_explorer.gif)[Explorer](../plugin/plugin_explorer) | Explorer Plug-in. |
 | ![](../../images/htmlbar.gif)[HTMLBar](../plugin/plugin_htmlbar) | HTMLBar Plug-in. |

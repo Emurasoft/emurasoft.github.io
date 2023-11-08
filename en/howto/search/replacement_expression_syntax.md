@@ -16,10 +16,10 @@ the **Replace** dialog box and in the **Replace in Files** dialog box.
 | \\U | Forces all subsequent substituted characters to be in uppercase. |
 | \\H | Forces all subsequent substituted characters to be in half-width <br> characters. |
 | \\F | Forces all subsequent substituted characters to be in full-width <br> characters. |
-| \\Nc | Forces all subsequent substituted characters to be converted using [Unicode Normalization Form C (Canonical Composition)](../../cmd/edit/unicode_norm_fc). |
-| \\Nd | Forces all subsequent substituted characters to be converted using [Unicode Normalization Form D (Canonical Decomposition)](../../cmd/edit/unicode_norm_fd). |
-| \\NC | Forces all subsequent substituted characters to converted using [Unicode Normalization Form KC (Compatibility Composition)](../../cmd/edit/unicode_norm_fkc). |
-| \\ND | Forces all subsequent substituted characters to be converted using [Unicode Normalization Form KD (Compatibility Decomposition)](../../cmd/edit/unicode_norm_fkd). |
+| \\Nc | Forces all subsequent substituted characters to be converted using [Unicode Normalization Form C (Canonical Composition)](../../cmd/convert/unicode_norm_fc). |
+| \\Nd | Forces all subsequent substituted characters to be converted using [Unicode Normalization Form D (Canonical Decomposition)](../../cmd/convert/unicode_norm_fd). |
+| \\NC | Forces all subsequent substituted characters to converted using [Unicode Normalization Form KC (Compatibility Composition)](../../cmd/convert/unicode_norm_fkc). |
+| \\ND | Forces all subsequent substituted characters to be converted using [Unicode Normalization Form KD (Compatibility Decomposition)](../../cmd/convert/unicode_norm_fkd). |
 | \\E | Turns off previous \\L, \\U, \\F, \\H, \\Nc, \\Nd, \\NC, or \\ND. |
 | \\J | Specifies that JavaScript is used as the expression. \\J must be placed at the beginning of the replacement expression. Can be combined with back references. The **cell** function can also be used in the script. For instance,
 

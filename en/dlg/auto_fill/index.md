@@ -1,6 +1,6 @@
 # AutoFill dialog box
 
-This dialog box appears when the [**AutoFill** command](../../cmd/edit/auto_fill) is selected. It allows you to quickly fill a series or pattern into neighboring cells.
+This dialog box appears when the [**AutoFill** command](../../cmd/insert/auto_fill) is selected. It allows you to quickly fill a series or pattern into neighboring cells.
 
 ## Right radio button
 

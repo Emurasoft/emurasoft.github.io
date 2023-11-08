@@ -29,7 +29,7 @@ Specifies an integer indicating the Command ID to execute. Only following comman
 | 4609 through 4609 + 63 | [**List of Recent Documents**](../../cmd/file/file_mru_file1) | file path and name |
 | 4736 through 4736 + 63 | [**Fonts List**](../../cmd/view/mru_font1) | font name and size |
 | 4800 through 4800 + 63 | [**Recently Closed Files**](../../cmd/file/recent_closed_file1) | file path and name |
-| 4864 through 4864 + 63 | [**List of Recent Files to Insert**](../../cmd/file/file_mru_insert1) | file path and name |
+| 4864 through 4864 + 63 | [**List of Recent Files to Insert**](../../cmd/insert/file_mru_insert1) | file path and name |
 | 4992 through 4992 + 63 | [**List of Recent Folders**](../../cmd/file/file_mru_folder1) | folder path |
 | 5120 through 5120 + 255 | [**Configurations List**](../../cmd/tools/select_config) | name of configuration |
 | 5376 through 5376 + 255 | **[Documents List](../../cmd/window/window_menu)** | window title |
@@ -45,7 +45,7 @@ Specifies an integer indicating the Command ID to execute. Only following comman
 | 21888 through 21888 + 127 | **List of Pinned Folders** | folder path |
 | 22016 through 22016 + 255 | **[Dictionary](../../cmd/edit/spell_dictionary)** | name of dictionary |
 | 22272 through 22272 + 255 | **List of Markers** | marker string |
-| 22528 through 22528 + 7 | **[CSV (multiple items)](../../cmd/edit/sv_mode)** | name of CSV mode |
+| 22528 through 22528 + 7 | **[CSV (multiple items)](../../cmd/csv/sv_mode)** | name of CSV mode |
 | 22784 through 22784 + 63 | **[Recent Workspace List](../../cmd/file/workspace_recent_file1)** | workspace path and name |
 
 ## Return Values

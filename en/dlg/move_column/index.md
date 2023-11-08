@@ -1,7 +1,7 @@
 # Move/Copy Columns dialog box
 
 This dialog box appears when the
-[**Move/Copy Columns** command](../../cmd/edit/move_column) is selected.
+[**Move/Copy Columns** command](../../cmd/csv/move_column) is selected.
 
 ## Move or copy the selected columns - Move radio button
 

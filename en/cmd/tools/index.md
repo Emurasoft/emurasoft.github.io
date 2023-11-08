@@ -173,7 +173,6 @@ property_spell
 property_validation
 ql_commands
 ql_options
-ql_symbols
 reset_all_settings
 search_all_commands
 select_config

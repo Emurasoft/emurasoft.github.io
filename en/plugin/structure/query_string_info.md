@@ -27,7 +27,7 @@ Specifies an integer indicating the Command ID to execute. Only following comman
 | --- | --- | --- |
 | nID | Command Name | Return Value |
 | 4609 through 4609 + 63 | [**List of Recent Documents**](../../cmd/file/file_mru_file1) | file path and name |
-| 4864 through 4864 + 63 | [**List of Recent Files to Insert**](../../cmd/file/file_mru_insert1) | file path and name |
+| 4864 through 4864 + 63 | [**List of Recent Files to Insert**](../../cmd/insert/file_mru_insert1) | file path and name |
 | 4992 through 4992 + 63 | [**List of Recent Folders**](../../cmd/file/file_mru_folder1) | file path and name |
 | 5376 through 5376 + 255 | **[Documents List command](../../cmd/window/window_menu)** | window title |
 | 5632 through 5632 + 255 | **[Plug-ins List command](../../cmd/tools/plug_in1)** | plug-in file name |

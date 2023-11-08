@@ -1,6 +1,6 @@
 # Insert Numbering dialog box
 
-This dialog box appears when the [**Numbering** command](../../cmd/edit/numbering) is selected. It allows you to insert sequential numbers at the cursor position or vertical selection.
+This dialog box appears when the [**Numbering** command](../../cmd/insert/numbering) is selected. It allows you to insert sequential numbers at the cursor position or vertical selection.
 
 ## First Line text box
 
