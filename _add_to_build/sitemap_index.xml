@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://emeditor.org/en/sitemap.xml</loc>
+    <loc>https://www.emeditor.org/en/sitemap.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://emeditor.org/ja/sitemap.xml</loc>
+    <loc>https://www.emeditor.org/ja/sitemap.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://emeditor.org/ko/sitemap.xml</loc>
+    <loc>https://www.emeditor.org/ko/sitemap.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://emeditor.org/zh-cn/sitemap.xml</loc>
+    <loc>https://www.emeditor.org/zh-cn/sitemap.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://emeditor.org/zh-tw/sitemap.xml</loc>
+    <loc>https://www.emeditor.org/zh-tw/sitemap.xml</loc>
   </sitemap>
 </sitemapindex>
