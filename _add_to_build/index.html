@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title></title>
-    <noscript><meta http-equiv="refresh" content="0;url=https://emeditor.org/en/"></noscript>
+    <noscript><meta http-equiv="refresh" content="0;url=https://www.emeditor.org/en/"></noscript>
     <script>
         /**
          * @param {string} language
@@ -12,19 +12,19 @@
             switch (language) {
                 case "ja":
                 case "ja-JP":
-                    return "https://emeditor.org/ja/";
+                    return "https://www.emeditor.org/ja/";
                 case "ko":
-                    return "https://emeditor.org/ko/";
+                    return "https://www.emeditor.org/ko/";
                 case "zh":
                 case "zh-cn":
                 case "zh-hans":
-                    return "https://emeditor.org/zh-cn/";
+                    return "https://www.emeditor.org/zh-cn/";
                 case "zh-tw":
                 case "zh-hant":
-                    return "https://emeditor.org/zh-tw/";
+                    return "https://www.emeditor.org/zh-tw/";
             }
 
-            return "https://emeditor.org/en/"
+            return "https://www.emeditor.org/en/"
         }
 
         window.location.replace(getURL(window.navigator.language));
