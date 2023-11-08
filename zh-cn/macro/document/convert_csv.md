@@ -30,6 +30,8 @@ _nFlags_
 | --- | --- |
 | eeCsvHalfWidth | 假定所有字符为半角字符以提高速度。 |
 | eeCsvDiscardUndo | 丢弃撤消信息以提高速度。 |
+| eeCsvTruncateUnfit | 截断字符串如果字符串长于列宽。 |
+| eeCsvPromptInvalid | 发出警告如果检测到无效格式。 |
 
 _strSepCount_
 
@@ -39,15 +41,17 @@ _strSepCount_
 
 以下示例将固定宽度的列转换为逗号分隔的 CSV 格式。原始的固定列宽格式为：
 
+```
 Madrid Spain   100
-
 Paris  France  101
+```
 
 目标 CSV 文档会变为：
 
+```
 Madrid,Spain,100
-
 Paris,France,101
+```
 
 ### \[JavaScript\]
 

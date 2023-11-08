@@ -30,6 +30,8 @@ _nFlags_
 | --- | --- |
 | eeCsvHalfWidth | 假定所有字元為半形字元以提高速度。 |
 | eeCsvDiscardUndo | 丟棄復原信息以提高速度。 |
+| eeCsvTruncateUnfit | 截斷字串如果字串長於欄寬。 |
+| eeCsvPromptInvalid | 發出警告如果偵測到無效格式。 |
 
 _strSepCount_
 
@@ -39,15 +41,17 @@ _strSepCount_
 
 以下範例將固定寬度的欄轉換為逗號分隔的 CSV 格式。原始的固定欄寬格式為：
 
+```
 Madrid Spain   100
-
 Paris  France  101
+```
 
 目標 CSV 文檔會變為：
 
+```
 Madrid,Spain,100
-
 Paris,France,101
+```
 
 ### \[JavaScript\]
 
