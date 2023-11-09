@@ -110,7 +110,7 @@ csv_next_cell
 csv_prev_cell
 csv_up
 duplicate_column
-extract_columns 
+extract_columns
 flash_fill
 header_alpha
 header_num
@@ -122,12 +122,12 @@ heading_3
 heading_4
 heading_popup
 heading_reset
-heading_set 
+heading_set
 heading_toggle
 hide_column
 insert_column
 insert_column_right
-join_csv 
+join_csv
 left_edge
 make_columns_same
 manage_columns
