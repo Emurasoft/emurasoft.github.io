@@ -234,6 +234,8 @@ logical_end
 logical_home
 logical_home_text
 move_last_edit
+move_column_left
+move_column_right
 move_line_down
 move_line_up
 narrowing_off

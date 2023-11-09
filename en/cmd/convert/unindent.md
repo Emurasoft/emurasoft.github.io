@@ -8,7 +8,7 @@ Decreases line indent at the selected area.
 
 Decreases line indent by removing one tab character at the beginning of each line
 at the selected area. If multiple lines are selected, this command is equivalent
-to the [**Tab Left or Decrease Line Indent** command](shift_tab).
+to the [**Tab Left or Decrease Line Indent** command](../edit/shift_tab).
 
 ## How to Run
 

@@ -8,7 +8,7 @@ Increases line indent at the selected area.
 
 Inserts a tab character at the beginning of each line at the selected area. If
 multiple lines are selected, this command is equivalent to the
-[**Tab or Increase Line Indent** command](tab).
+[**Tab or Increase Line Indent** command](../edit/tab).
 
 ## How to Run
 

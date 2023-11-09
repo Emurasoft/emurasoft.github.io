@@ -11,7 +11,7 @@ Opens the **Quick Launch** window and selects the **Symbols** mode.
 ## How to Run
 
 - Default Menu: **Search** \> **Search Symbols**
-- [All Commands](all_commands): **Search** \> **Search Symbols**
+- [All Commands](../tools/all_commands): **Search** \> **Search Symbols**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+S

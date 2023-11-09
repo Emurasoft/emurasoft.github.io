@@ -9,7 +9,7 @@ Converts equivalent spaces to tabs throughout the entire document.
 Converts spaces at the start of all lines throughout the entire document into tabs.
 The converted number of spaces must be equal to the number of spaces set for
 a tab, which can be set in the [**Tab/Indent** dialog box](../../dlg/properties/general/indent/index). This is equivalent to the
-[**Tabify** command](tabify) after selecting the entire document, but this command does not extend the selection.
+[**Tabify** command](../convert/tabify) after selecting the entire document, but this command does not extend the selection.
 
 ## How to Run
 
