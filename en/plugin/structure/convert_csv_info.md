@@ -32,7 +32,7 @@ You can specify a combination of the following values.
 | CSV\_HALF\_WIDTH | Assumes all half-width characters to improve the speed. |
 | CSV\_DISCARD\_UNDO | Discards undo information to improve the speed. |
 | CSV_TRUNCATE_UNFIT | Truncates strings if the string length exceeds the column width. |
-| CSV_PROMPT_INVALID | Warns if the string length exceeds column width. |
+| CSV_PROMPT_INVALID | Warns if invalid format detected. |
 
 _nSepCount_
 

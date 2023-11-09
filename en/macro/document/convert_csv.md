@@ -31,7 +31,7 @@ You can specify a combination of the following values.
 | eeCsvHalfWidth | Assumes all half-width characters to improve the speed. |
 | eeCsvDiscardUndo | Discards undo information to improve the speed. |
 | eeCsvTruncateUnfit | Truncates strings if the string length exceeds the column width. |
-| eeCsvPromptInvalid | Warns if the string length exceeds column width. |
+| eeCsvPromptInvalid | Warns if invalid format detected. |
 
 _strSepCount_
 
