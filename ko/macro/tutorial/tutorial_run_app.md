@@ -41,3 +41,5 @@ shell.SendKeys "="
 ```
 
 ## 참조:
+
+[Microsoft MSDN Library: Run Method](https://docs.microsoft.com/en-us/previous-versions//d5fk67ky(v=vs.85))
