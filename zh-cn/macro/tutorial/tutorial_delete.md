@@ -22,6 +22,7 @@ document.selection.NewLine
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
 document.selection.CharLeft False, 12
 document.selection.DeleteLeft 15
+```
 保存该宏并在一个新的 EmEditor 窗口中运行它。注意，从文本编辑器左边数过来的 15 个字符（即，"(tab)EmEditor is a "）被删除了。EmEditor 会显示如下的文本:
 "EmEditor supports macros ."
 "text editor."
@@ -32,11 +33,9 @@ DeleteLeft方法 删除一个字符串左边的指定的字符数。如果被选
 |[Delete](../selection/selectiondelete) | 删除被选取的文本。如果没有选取文本，它会删除一个字符串右边的指定的字符数。等同于 Delete 键。 |
 | [DeleteLeft](../selection/selectiondeleteleft) | 删除被选取的文本。如果没有选取文本，它会删除一个字符串左边的指定的字符数。等同与后退键。 |
 你能通过合并方法来删除单词或行:
-```
 
 ### \[JavaScript\]
 
-```
 |     |     |
 | --- | --- |
 | 删除一个单词。 | document.selection.SelectWord();<br> document.selection.Delete(); |
@@ -46,11 +45,9 @@ DeleteLeft方法 删除一个字符串左边的指定的字符数。如果被选
 | 删除光标左边的行。 | document.selection.StartOfLine(true, eeLineLogical);<br> document.selection.Delete(); |
 | 删除光标右边的行。 | document.selection.EndOfLine(true, eeLineLogical);<br> document.selection.Delete(); |
 | 删除整个文档。 | document.selection.SelectAll();<br> document.selection.Delete(); |
-```
 
 ### \[VBScript\]
 
-```
 |     |     |
 | --- | --- |
 | 删除一个单词。 | document.selection.SelectWord<br> document.selection.Delete |
@@ -60,6 +57,3 @@ DeleteLeft方法 删除一个字符串左边的指定的字符数。如果被选
 | 删除光标左边的行。 | document.selection.StartOfLine True, eeLineLogical<br> document.selection.Delete |
 | 删除光标右边的行。 | document.selection.EndOfLine True, eeLineLogical<br> document.selection.Delete |
 | 删除整个文档。 | document.selection.SelectAll<br> document.selection.Delete |
-```
-
-## 下一主题:
