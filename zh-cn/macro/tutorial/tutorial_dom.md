@@ -21,11 +21,11 @@ document.write "EmEditor supports macros."
 你能在 EmEditor 宏中用下列的对象:
 -[Window 对象](../window/index) \-
 变为默认范围，这样，不需要指定对象名称。它会提供 Windows 用户界面的方法与属性。比如， [document\
-属性](../window/windowdocument) 让你能把[Document 对象](../document/index) 的属性与方法用于当前文档。同样，[editor \
-属性](../window/windoweditor) 让你能访问[Editor 对象](../editor/index)。
+属性](../window/window_document) 让你能把[Document 对象](../document/index) 的属性与方法用于当前文档。同样，[editor \
+属性](../window/window_editor) 让你能访问[Editor 对象](../editor/index)。
 -[Document 对象](../document/index) \-
 为打开的文档提供方法和属性，应用于整个文档中的所有元素，包括文件中的细节部分，例如文档的文件名，安装名，还有只读状态。而且，[selection \
-属性](../document/documentselection) 让你能把[Selection \
+属性](../document/document_selection) 让你能把[Selection \
 对象](../selection/index) 用于当前选区范围 (Selection Range) 以及光标位置。
 -[Selection 对象](../selection/index) \-
 为当前选区范围 (Selection Range) 以及光标位置提供方法和属性。它提供许多方法和属性。例如在选区范围内的选取变更 (Selection Change)，字符转换，光标移动，搜索以及替换。

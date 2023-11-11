@@ -21,11 +21,11 @@ document.write "EmEditor supports macros."
 您能在 EmEditor 巨集中用下列的對象:
 -[Window 對象](../window/index) \-
 變為預設範圍，這樣，不需要指定對象名稱。它會提供 Windows 使用者界面的方法與屬性。比如， [document\
-屬性](../window/windowdocument) 讓您能把[Document 對象](../document/index) 的屬性與方法用於目前的文檔。同樣，[editor \
-屬性](../window/windoweditor) 讓您能訪問[Editor 對象](../editor/index)。
+屬性](../window/window_document) 讓您能把[Document 對象](../document/index) 的屬性與方法用於目前的文檔。同樣，[editor \
+屬性](../window/window_editor) 讓您能訪問[Editor 對象](../editor/index)。
 -[Document 對象](../document/index) \-
 為打開的文檔提供方法和屬性，應用於整個文檔中的所有元素，包括檔案中的細節部分，例如文檔的檔案名，安裝名，還有唯讀狀態。而且，[selection \
-屬性](../document/documentselection) 讓您能把[Selection \
+屬性](../document/document_selection) 讓您能把[Selection \
 對象](../selection/index) 用於目前的選區範圍 (Selection Range) 以及游標位置。
 -[Selection 對象](../selection/index) \-
 為目前的選區範圍 (Selection Range) 以及游標位置提供方法和屬性。它提供許多方法和屬性。例如在選區範圍內的選取變更 (Selection Change)，字元轉換，游標移動，搜尋以及取代。

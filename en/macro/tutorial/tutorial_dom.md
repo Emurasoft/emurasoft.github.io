@@ -30,14 +30,14 @@ You can use the following objects in EmEditor macros:
 -[Window Object](../window/index) \-
 becomes the default scope, and thus, there is no need to specify object names.
 It provides methods and properties of Windows user interfaces. The[document \
-Property](../window/windowdocument) allows you to use properties and methods of[Document Object](../document/index)
+Property](../window/window_document) allows you to use properties and methods of[Document Object](../document/index)
 for the current document. Also, the[editor \
-Property](../window/windoweditor) allows you to access[Editor Object](../editor/index).
+Property](../window/window_editor) allows you to access[Editor Object](../editor/index).
 -[Document Object](../document/index) \-
 provides methods and properties for opened documents,
 which applies to elements of the overall document and includes details about a file, such as the file name of the document,
 the setup name, and the read-only status. Furthermore, the[selection \
-Property](../document/documentselection) allows you to use[Selection \
+Property](../document/document_selection) allows you to use[Selection \
 Object](../selection/index) for the current Selection Range and cursor location.
 -[Selection Object](../selection/index) \-
 provides methods and properties for the current Selection Range and cursor location.

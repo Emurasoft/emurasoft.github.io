@@ -25,11 +25,11 @@ EmEditor
 EmEditor のマクロでは、次のオブジェクトが使用できます。
 - [Window オブジェクト](../window/index) \-
 これが、既定のスコープになり、オブジェクト名を指定する必要がありません。ウィンドウのユーザー インターフェースに関するメソッドやプロパティを提供しています。 [document \
-プロパティ](../window/windowdocument) によって、現在の文書に対する [Document オブジェクト](../document/index) のプロパティとメソッドを利用することができます。また、 [editor \
-プロパティ](../window/windoweditor) によって、 [Editor オブジェクト](../editor/index) にアクセスすることができます。
+プロパティ](../window/window_document) によって、現在の文書に対する [Document オブジェクト](../document/index) のプロパティとメソッドを利用することができます。また、 [editor \
+プロパティ](../window/window_editor) によって、 [Editor オブジェクト](../editor/index) にアクセスすることができます。
 - [Document オブジェクト](../document/index) \-
 開いている文書に対するメソッドとプロパティを提供します。ここで提供されるメソッドとプロパティは、文書全体に対するもので、文書のファイル名、設定名、書き換え禁止状態などが含まれます。さらに、 [selection \
-プロパティ](../document/documentselection) によって、現在の選択範囲やカーソル位置に対する [Selection \
+プロパティ](../document/document_selection) によって、現在の選択範囲やカーソル位置に対する [Selection \
 オブジェクト](../selection/index) を利用することができます。
 - [Selection オブジェクト](../selection/index) \-
 現在の選択範囲やカーソル位置に対するメソッドとプロパティを提供します。選択範囲の変更、文字の変換、カーソル移動、検索や置換など、多くのプロパティとメソッドを提供しています。

@@ -31,14 +31,14 @@ document.write "EmEditor supports macros."
 -[Window 개체](../window/index) \-
 기본 범위가 되며, 따라서 개체 이름을 지정할 필요가 없습니다.
 Windows 사용자 인터페이스에 메서드와 속성을 제공합니다.
-[document 속성](../window/windowdocument) 은
+[document 속성](../window/window_document) 은
 현재 문서에[Document 개체](../document/index) 의 속성과 메서드를 사용하도록 합니다.
-또한,[editor 속성](../window/windoweditor) 은
+또한,[editor 속성](../window/window_editor) 은
 [Editor 개체](../editor/index) 에 접근할 수 있도록 합니다.
 -[Document 개체](../document/index) \-
 전체 문서의 요소에 적용하고 문서의 파일이름, 설정 이름, 및 읽기 전용 상태와 같은
 파일에 대한 세부 내용을 포함한 열린 문서의 메서드와 속성을 제공합니다.
-더 나아가,[selection 속성](../document/documentselection) 은 현재 선택된 범위와 커서
+더 나아가,[selection 속성](../document/document_selection) 은 현재 선택된 범위와 커서
 위치에[Selection 개체](../selection/index) 를 사용하도록 합니다.
 -[Selection 개체](../selection/index) \-
 현재 선택된 범위와 커서 위치에 메서드와 속성을 제공합니다.
