@@ -49,5 +49,3 @@
 명령](../../cmd/tools/all_prop) 또는 [**현재 구성 속성**\
 명령](../../cmd/tools/customize) 에서 [**키보드** 탭](../../dlg/properties/keyboard/index) 을 선택하여
 바로가기 키를 지정할 수 있습니다.
-
-## 다음 항목:

@@ -53,5 +53,3 @@ the [**Properties for All Configurations**\
 command](../../cmd/tools/all_prop) or the [**Properties for**\
 **Current Configuration**\
 command](../../cmd/tools/customize).
-
-## Next Topic:
