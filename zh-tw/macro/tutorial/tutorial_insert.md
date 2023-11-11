@@ -18,13 +18,12 @@ document.selection.Text = "\\tEmEditor is a text editor.";
 document.selection.Text = "EmEditor supports macros."
 document.selection.NewLine
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
-被添加到第二行的[NewLine 方法](../selection/selectionnewline) 會在游標位置插入一個新的行。在第三行的代碼會在字串起始位置插入一個 tab 字元。一個 tab 字元在 JavaScript 中由 "\\t" 表示，在 VBScript 中由 Chr(9) 表示。您同樣能用 VBScript 常數，vbTab，作為一個 tab 字元。
-下清單格列出了在 JavaScript 和 VBScript 常用的逸出序列。
 ```
+被添加到第二行的[NewLine 方法](../selection/selection_newline) 會在游標位置插入一個新的行。在第三行的代碼會在字串起始位置插入一個 tab 字元。一個 tab 字元在 JavaScript 中由 "\\t" 表示，在 VBScript 中由 Chr(9) 表示。您同樣能用 VBScript 常數，vbTab，作為一個 tab 字元。
+下清單格列出了在 JavaScript 和 VBScript 常用的逸出序列。
 
 ### \[JavaScript\]
 
-```
 |     |     |     |
 | --- | --- | --- |
 | \\b | \\u0008 | 后退鍵。 |
@@ -37,13 +36,11 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 | \\\ | \\u005c | 反斜杠。 |
 | \\xXX |  | 由兩個十六進位數指定的含編碼的 Latin-1 字元。 |
 | \\uXXXX |  | 由四個十六進位數指定的含編碼的 Unicode 字元。 |
-```
 
 ### ![](../../images/g.gif) 參考:  [JScript \ 特殊字元 (Microsoft MSDN Library)](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Lexical_grammar\#%E5%AD%97%E4%B8%B2)
 
 ### \[VBScript\]
 
-```
 |     |     |     |
 | --- | --- | --- |
 | vbCr | Chr(13) | 歸位。 |
@@ -53,7 +50,6 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 | vbNewLine | Chr(13) & Chr(10) or Chr(10) | 特定平臺的新行字元。相當于 Windows 中的 vbCrLf。 |
 | vbTab | Chr(9) | 水平 tab。 |
 | vbVerticalTab | Chr(11) | 垂直 tab。 |
-```
 
 ### ![](../../images/g.gif) 參考:  [VBScript \ 字串常數 (Microsoft MSDN Library)](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/hh277t8e(v=vs.84))
 
@@ -66,5 +62,3 @@ document.selection.Text = "\\n";
 插入的僅僅是歸位符 (LF)，而不是 Windows 行尾端的慣例。當您在 EmEditor 中按歸位鍵時，EmEditor 會插入該行所用的行尾端方式 (僅 CR，僅 LF，或 CR+LF) 。如果您想要在按歸位鍵時與在 EmEditor 中有相同的行為，我們建議您用
 **[NewLine 方法](../selection/selection_newline)**
 或 **[writeln 方法](../document/document_writeln)**。
-
-## 下一主題:

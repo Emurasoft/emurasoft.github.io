@@ -21,4 +21,4 @@ alert "User Name = " & WshNetwork.UserName
 
 ## 參考
 
-)
+[Microsoft MSDN Library: UserName Property](https://docs.microsoft.com/en-us/previous-versions/3fxhka75(v=vs.71))

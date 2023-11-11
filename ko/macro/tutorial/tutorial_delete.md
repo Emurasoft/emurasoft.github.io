@@ -36,6 +36,7 @@ DeleteLeft메서드 는 문자열의 왼쪽으로 지정된 숫자의 문자 만
 | --- | --- |
 |[Delete](../selection/selection_delete) | 선택된 텍스트를 삭제합니다. 선택된 텍스트가 없는 경우, 문자열의 오른쪽으로 지정된 숫자만큼의<br> 문자를 삭제합니다. Delete에 해당합니다. |
 | [DeleteLeft](../selection/selection_deleteleft) | 선택된 텍스트를 삭제합니다. 선택된 텍스트가 없는 경우, 문자열의 왼쪽으로 지정된 숫자만큼의 문자를<br> 삭제합니다. 백 스페이스 키에 해당합니다. |
+
 메서드들을 결합하여 단어나 줄을 삭제할 수 있습니다:
 
 ### \[JavaScript\]

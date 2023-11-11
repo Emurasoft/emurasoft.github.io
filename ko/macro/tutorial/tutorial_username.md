@@ -22,4 +22,4 @@ alert "User Name = " & WshNetwork.UserName
 
 ## 참조:
 
-.aspx)
+[Microsoft MSDN Library: UserName Property](https://docs.microsoft.com/en-us/previous-versions/3fxhka75(v=vs.71))

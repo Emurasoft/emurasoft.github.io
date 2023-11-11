@@ -39,6 +39,6 @@ End If
 
 ## 參考
 
+[Microsoft MSDN Library: Regular Expression Object (JavaScript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 
-
-)
+[Microsoft MSDN Library: RegExp Object (VBScript)](https://docs.microsoft.com/en-us/previous-versions//yab2dx62(v=vs.85))

@@ -29,4 +29,4 @@ alert str
 
 ## 参考
 
-)
+[Microsoft MSDN Library: RegRead Method](https://docs.microsoft.com/en-us/previous-versions//x05fawxd(v=vs.85))

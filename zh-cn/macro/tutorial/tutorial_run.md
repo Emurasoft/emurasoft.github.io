@@ -20,5 +20,3 @@ In the resulting **打开文件** 对话框中，选择一个你想要运行的�
 同样，如果你想要删除一个宏文件，从 [**自定义宏** 对话框](../../dlg/macro_customize/index) 中 [**我的宏** 页面](../../dlg/macro_customize/my_macros/index) 上选择你想要删除的宏文件的名称。然后点击 **「删除」** 按钮。另外，该页面还能让你变更宏文件在 **宏** 下拉菜单中显示的顺序。
 
 如果你想要用键盘上的一个快捷键运行宏，你可以通过 [**所有配置属性** 命令](../../cmd/tools/all_prop) 或 [**当前配置属性** 命令](../../cmd/tools/customize) 中的 [**键盘** 页面](../../dlg/properties/keyboard/index) 给宏分配一个快捷键。
-
-## 下一主题:

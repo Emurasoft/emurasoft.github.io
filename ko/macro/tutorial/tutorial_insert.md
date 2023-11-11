@@ -19,16 +19,15 @@ document.selection.Text = "\\tEmEditor is a text editor.";
 document.selection.Text = "EmEditor supports macros."
 document.selection.NewLine
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
-두번째 라인에 추가된[NewLine 메서드](../selection/selectionnewline) 는
+```
+두번째 라인에 추가된[NewLine 메서드](../selection/selection_newline) 는
 커서 위치에 새로운 라인을 삽입합니다. 세번째 라인의 코드는 문자열의 시작에 탭 문자를 삽입합니다.
 탭 문자는 JavaScript에서는 "\\t" 으로, VBScript에서는 Chr(9)로 표시됩니다.
 VBScript 상수 vbTab을 탭 문자로 사용할 수도 있습니다.
 아래의 테이블은 두 스크립트 언어에 모두 일반적으로 사용되는 이스케이프 시퀀스를 나열합니다.
-```
 
 ### \[JavaScript\]
 
-```
 |     |     |     |
 | --- | --- | --- |
 | \\b | \\u0008 | 백 스페이스 |
@@ -41,13 +40,11 @@ VBScript 상수 vbTab을 탭 문자로 사용할 수도 있습니다.
 | \\\ | \\u005c | 백 슬래시 |
 | \\xXX |  | 두 16진수로 지정된 인코딩을 사용한 Latin-1 문자. |
 | \\uXXXX |  | 네개의 16진수로 지정된 인코딩을 사용한 유니코드 문자. |
-```
 
 ### ![](../../images/g.gif) 참조: [JScript 특수 문자 (Microsoft MSDN Library)](http://msdn.microsoft.com/ko-kr/library/ie/2yfce773(v=vs.94).aspx)
 
 ### \[VBScript\]
 
-```
 |     |     |     |
 | --- | --- | --- |
 | vbCr | Chr(13) | 캐리지 리턴. |
@@ -57,7 +54,6 @@ VBScript 상수 vbTab을 탭 문자로 사용할 수도 있습니다.
 | vbNewLine | Chr(13) & Chr(10) 또는 Chr(10) | 플랫폼 관련 새로운 라인 문자. 윈도우의 vbCrLf에 해당. |
 | vbTab | Chr(9) | 수평 탭. |
 | vbVerticalTab | Chr(11) | 수직 탭. |
-```
 
 ### ![](../../images/g.gif) 참조: [VBScript \ 문자열 상수 (Microsoft MSDN Library)](http://msdn.microsoft.com/ko-kr/library/hh277t8e(v=vs.84).aspx)
 
@@ -74,5 +70,3 @@ document.selection.Text = "\\n";
 엠에디터에서 반환 키를 누를때마다 같은 작동을 원한다면,
 **[NewLine 메서드](../selection/selection_newline)** 또는
 **[writeln 메서드](../document/document_writeln)** 를 사용하는 것이 좋습니다.
-
-## 다음 항목:

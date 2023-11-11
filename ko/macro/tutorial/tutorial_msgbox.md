@@ -25,3 +25,5 @@ n = WshShell.Popup( "Continue?", 0, "EmEditor", 3 )
 ```
 
 ## 참조:
+
+[Microsoft MSDN Library: Popup Method](https://docs.microsoft.com/en-us/previous-versions//x83z1d9f(v=vs.85))

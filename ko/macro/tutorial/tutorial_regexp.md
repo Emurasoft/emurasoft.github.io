@@ -36,5 +36,3 @@ Else
 alert "The email address is invalid."
 End If
 ```
-
-## 참조:

@@ -26,5 +26,3 @@ If you want to record and execute multiple macros, however, you need to save the
 ## Tips
 
 EmEditor can record most operations involving keystrokes and mouse pointer movements.
-
-## Next Topic:
