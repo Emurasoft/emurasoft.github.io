@@ -36,6 +36,7 @@ Backspace キーを押すのと同じ動作になります。
 | --- | --- |
 | [Delete](../selection/selection_delete) | 選択範囲を削除します。選択が空の場合は、右側の指定した文字数だけ削除します。Delete キーに相当。 |
 | [DeleteLeft](../selection/selection_deleteleft) | 選択範囲を削除します。選択が空の場合は、左側の指定した文字数だけ削除します。Backspace キーに相当。 |
+
 また、単語や行単位で削除したい場合は、次のようにメソッドを組み合わせて実現することができます。
 
 ### \[JavaScript\]

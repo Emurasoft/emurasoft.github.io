@@ -32,6 +32,7 @@ DeleteLeft方法 刪除一個字串左邊的指定的字元數。如果被選取
 | --- | --- |
 |[Delete](../selection/selection_delete) | 刪除被選取的文字。如果沒有選取文字，它會刪除一個字串右邊的指定的字元數。等同于 Delete 鍵。 |
 | [DeleteLeft](../selection/selection_deleteleft) | 刪除被選取的文字。如果沒有選取文字，它會刪除一個字串左邊的指定的字元數。等同與后退鍵。 |
+
 您能通過合併方法來刪除單字或行:
 
 ### \[JavaScript\]
