@@ -2,8 +2,6 @@
 
 # EmEditor Help
 
-Version {{version}}
-
 ```{toctree}
 :maxdepth: 1
 notice/index
@@ -17,6 +15,7 @@ history/index
 support/index
 glossary/index
 howto/file/file_commandline.md
+about/index
 ```
 
 - [Do not use this program illegally.](notice/illegal_usage)
