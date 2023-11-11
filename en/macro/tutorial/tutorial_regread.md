@@ -30,4 +30,4 @@ it must be preceded by another backslash "\\\".
 
 ## References
 
-)
+[Microsoft MSDN Library: RegRead Method](https://docs.microsoft.com/en-us/previous-versions//x05fawxd(v=vs.85))

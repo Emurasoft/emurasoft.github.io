@@ -28,3 +28,5 @@ alert str
 JavaScript에서 문자열 내에 백 슬래시 "\\"를 포함하기 원하는 경우 또다른 하나의 백 슬래시 "\\"가 이전에 배치되어야만 합니다 ("\\\").
 
 ## 참조:
+
+[Microsoft MSDN Library: RegRead Method](https://docs.microsoft.com/en-us/previous-versions//x05fawxd(v=vs.85))
