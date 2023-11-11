@@ -18,15 +18,14 @@ document.selection.Text = "\\tEmEditor is a text editor.";
 document.selection.Text = "EmEditor supports macros."
 document.selection.NewLine
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
+```
 2行目に追加された [NewLine メソッド](../selection/selectionnewline) は、カーソル位置に改行コードを挿入するというものです。また、3行目には、文字列の最初にタブ文字を挿入しています。タブ文字は、JavaScript
 では、"\\t" で表現することができ、VBScript では Chr(9) と表記することができます。Chr(9) の代わりに vbTab
 という定数を利用することもできます。
 以下に、両者のスクリプト言語で利用できる主な定数 (表記) の一覧を説明します。
-```
 
 ### \[JavaScript\]
 
-```
 |     |     |     |
 | --- | --- | --- |
 | \\b | \\u0008 | バックスペース。 |
@@ -39,13 +38,11 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 | \\\ | \\u005c | バックスラッシュ |
 | \\xXX |  | 2 桁の 16 進数で表記された Latin-1 文字 |
 | \\uXXXX |  | 4 桁の 16 進数で表記された Unicode 文字 |
-```
 
 ### ![](../../images/g.gif) 参考： [JScript \ 特殊文字 (Microsoft MSDN ライブラリ)](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Lexical_grammar\#String_literals)
 
 ### \[VBScript\]
 
-```
 |     |     |     |
 | --- | --- | --- |
 | vbCr | Chr(13) | 復帰。 |
@@ -55,7 +52,6 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 | vbNewLine | Chr(13) & Chr(10) または Chr(10) | プラットフォーム固有の改行コード。Windowsでは vbCrLfと同じです。 |
 | vbTab | Chr(9) | 水平タブ |
 | vbVerticalTab | Chr(11) | 垂直タブ |
-```
 
 ### ![](../../images/g.gif) 参考： [VBScript \ 文字列の定数 (Microsoft MSDN ライブラリ)](https://docs.microsoft.com/ja-jp/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/hh277t8e(v=vs.84))
 
