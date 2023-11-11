@@ -40,7 +40,7 @@ alert n & " strings found!"
 플래그 결합을 지정합니다. 메서드는 대체된 문자열의 숫자를 반환합니다.
 세번째 인수에 eeReplaceAll을 지정한 경우, 메서드는 문자열을 한 번에 대체하고 1보다 많은 수를 반환할 것입니다.
 세번째 인수의 플래그에 관한 더 자세한 설명은 [Replace 메서드](../selection/selectionreplace) 의 인수 설명을 참조하십시오.
-기본적으로 [Find 메서드](../selection/selectionfind) 와 같이
+기본적으로 [Find 메서드](../selection/selection_find) 와 같이
 [Replace 메서드](../selection/selectionreplace) 에서는 검색 문자열이 발견되지 않을 시
 매크로 실행이 중단되지 않습니다.
 하지만, 예외가 있습니다.

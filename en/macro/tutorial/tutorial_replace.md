@@ -42,7 +42,7 @@ If you specify eeReplaceAll in the third argument, the method will replace the s
 and thus might return a number more than 1.
 See the argument explanations of the [Replace Method](../selection/selectionreplace) for more details on flags for the third argument.
 Normally in the [Replace Method](../selection/selectionreplace),
-similar to the [Find Method](../selection/selectionfind),
+similar to the [Find Method](../selection/selection_find),
 the execution of a macro is not terminated when the search string is not found. There is an exception, however.
 If you execute a macro with the
 Stop if Search Fails check box

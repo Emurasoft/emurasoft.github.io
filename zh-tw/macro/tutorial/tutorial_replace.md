@@ -34,4 +34,4 @@ alert n & " strings found!"
 ```
 儲存該巨集并在一個新的 EmEditor 視窗中運行它。注意兩個"editor" 字串已經被不區分大小寫地搜尋了，并且被 "######" 所取代，還有一個消息方塊會顯示 " Two strings found!" 。
 [Replace 方法](../selection/selectionreplace) 的第一個參數指定要搜尋的字串，第二個參數指定要取代為的字串，第三個參數指定標志的組合。該方法返回字串被取代的次數。如果您指定 eeReplaceAll 在第三個參數中，該方法會立即取代字串并且可能會返回大于 1 的一個數字。有關第三個參數的標志，詳見 [Replace 方法](../selection/selectionreplace) 的參數說明。
-通常在 [Replace 方法](../selection/selectionreplace)，與 [Find 方法](../selection/selectionfind) 相同，不會終止執行一個巨集當沒有找到搜尋字串。但是，有一個例外。如果您用巨集 功能表下的 [使用臨時選項運行 命令](../../cmd/macros/macrorunoptions)，并在快顯的 [巨集臨時選項 對話方塊](../../dlg/macrotempoptions/index) 中勾選了搜尋失敗即停止 核取方塊，那么巨集就會被終止當沒有找到搜尋字串時。詳見教程中的 [尋找一個字串](tutorialfind)。
+通常在 [Replace 方法](../selection/selectionreplace)，與 [Find 方法](../selection/selection_find) 相同，不會終止執行一個巨集當沒有找到搜尋字串。但是，有一個例外。如果您用巨集 功能表下的 [使用臨時選項運行 命令](../../cmd/macros/macrorunoptions)，并在快顯的 [巨集臨時選項 對話方塊](../../dlg/macrotempoptions/index) 中勾選了搜尋失敗即停止 核取方塊，那么巨集就會被終止當沒有找到搜尋字串時。詳見教程中的 [尋找一個字串](tutorialfind)。

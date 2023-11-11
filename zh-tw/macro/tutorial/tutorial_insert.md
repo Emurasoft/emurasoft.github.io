@@ -19,7 +19,7 @@ document.selection.Text = "EmEditor supports macros."
 document.selection.NewLine
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
 ```
-被添加到第二行的[NewLine 方法](../selection/selectionnewline) 會在游標位置插入一個新的行。在第三行的代碼會在字串起始位置插入一個 tab 字元。一個 tab 字元在 JavaScript 中由 "\\t" 表示，在 VBScript 中由 Chr(9) 表示。您同樣能用 VBScript 常數，vbTab，作為一個 tab 字元。
+被添加到第二行的[NewLine 方法](../selection/selection_newline) 會在游標位置插入一個新的行。在第三行的代碼會在字串起始位置插入一個 tab 字元。一個 tab 字元在 JavaScript 中由 "\\t" 表示，在 VBScript 中由 Chr(9) 表示。您同樣能用 VBScript 常數，vbTab，作為一個 tab 字元。
 下清單格列出了在 JavaScript 和 VBScript 常用的逸出序列。
 
 ### \[JavaScript\]

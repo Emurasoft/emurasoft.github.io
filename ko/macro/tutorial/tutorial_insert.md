@@ -20,7 +20,7 @@ document.selection.Text = "EmEditor supports macros."
 document.selection.NewLine
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
 ```
-두번째 라인에 추가된[NewLine 메서드](../selection/selectionnewline) 는
+두번째 라인에 추가된[NewLine 메서드](../selection/selection_newline) 는
 커서 위치에 새로운 라인을 삽입합니다. 세번째 라인의 코드는 문자열의 시작에 탭 문자를 삽입합니다.
 탭 문자는 JavaScript에서는 "\\t" 으로, VBScript에서는 Chr(9)로 표시됩니다.
 VBScript 상수 vbTab을 탭 문자로 사용할 수도 있습니다.

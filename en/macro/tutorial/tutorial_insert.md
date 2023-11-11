@@ -20,7 +20,7 @@ document.selection.Text = "EmEditor supports macros."
 document.selection.NewLine
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
 ```
-The[NewLine Method](../selection/selectionnewline) added in the second line
+The[NewLine Method](../selection/selection_newline) added in the second line
 inserts a newline character at the cursor position.
 The code in the third line inserts a tab character at the beginning of the string.
 A tab character is represented by "\\t" in JavaScript, and Chr(9) in VBScript.

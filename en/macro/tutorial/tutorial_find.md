@@ -32,18 +32,18 @@ If document.selection.Find( "Em", eeFindPrevious ) Then alert "Found!"
 ```
 Save the above macro and run it in a new EmEditor Window. Now "Em" is searched and
 a message box with the text "Found!" is displayed.
-The first argument of the [Find Method](../selection/selectionfind) specifies
+The first argument of the [Find Method](../selection/selection_find) specifies
 a string to search for and the second argument specifies a flag to tell it how to search.
 In this example, the second argument takes eeFindPrevious and searches backward from the current cursor position
 to the top of the file.
-The [Find Method](../selection/selectionfind) returns 1 if the search string is found. Otherwise, 0 is returned.
+The [Find Method](../selection/selection_find) returns 1 if the search string is found. Otherwise, 0 is returned.
 In this example, the search string is found and 1 is returned, so the Then clause,
-that is [alert Method](../window/windowalert), is executed.
-The [alert Method](../window/windowalert) displays a simple message box with a OK button and the string of
+that is [alert Method](../window/window_alert), is executed.
+The [alert Method](../window/window_alert) displays a simple message box with a OK button and the string of
 the argument. In our tutorial, it displays the text "Found!".
-The second argument of the [Find Method](../selection/selectionfind)
+The second argument of the [Find Method](../selection/selection_find)
 allows you to specify a variety of flags. See the argument explanations of the
-[Find Method](../selection/selectionfind) for more details.
+[Find Method](../selection/selection_find) for more details.
 Normally, the execution of a macro is not terminated when the search string is not found. There is an exception, however.
 If you execute a macro with theStop if Search Fails check box selected in theRun with Temporary Options command
 under theMacro menu, the execution of the macro is terminated when the search string is not found.
@@ -53,7 +53,7 @@ you can have the search terminate upon the failure of the search, without modify
 by specifying the number of operations to repeat in greater numbers than you think you need.
 If you want to terminate the execution of a macro upon the failure of the search
 without using theRun with Temporary Options command, then you need to modify the macro.
-That is, when the [Find Method](../selection/selectionfind) return 0, you terminate the macro.
+That is, when the [Find Method](../selection/selection_find) return 0, you terminate the macro.
 The following code will do it:
 
 ### \[JavaScript\]
@@ -69,10 +69,10 @@ Error("Cannot find xx");
 If Not document.selection.Find( "xx", eeFindPrevious )  Then Err.Raise
 vbObjectError + 1, "Find Error", "Cannot find xx"
 ```
-Also, if you use [FindRepeat Method](../selection/selectionfindrepeat),
+Also, if you use [FindRepeat Method](../selection/selection_findrepeat),
 you can search again for the string that you have previously searched for, and you can search for the word
 where the cursor is positioned on.
-If you specify the flags of [FindRepeat Method](../selection/selectionfindrepeat) as follows,
+If you specify the flags of [FindRepeat Method](../selection/selection_findrepeat) as follows,
 it performs searches, which has the corresponding keyboard commands shortcuts.
 |     |     |
 | --- | --- |
