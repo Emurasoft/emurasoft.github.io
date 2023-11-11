@@ -26,6 +26,8 @@ document.selection.CharLeft False, 12
 document.selection.DeleteLeft 15
 document.selection.CharRight True, 9
 document.selection.ChangeCase eeCaseUpperCase
+```
+
 Save the above macro and run it in a new EmEditor window. Notice that the
 characters of the selected text have converted to upper case:
 TEXT EDITor.
@@ -44,6 +46,3 @@ method.
 |[Tabify](../selection/selectiontabify) | Convert spaces to tabs in the selection range. |
 |[UnIndent](../selection/selectionunindent) | Unindent the section specified by the selection range. |
 |[Untabify](../selection/selectionuntabify) | Convert tabs to spaces in the selection range. |
-```
-
-## Next Topic:

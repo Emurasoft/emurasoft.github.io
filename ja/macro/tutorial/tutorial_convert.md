@@ -26,6 +26,8 @@ document.selection.CharLeft False, 12
 document.selection.DeleteLeft 15
 document.selection.CharRight True, 9
 document.selection.ChangeCase eeCaseUpperCase
+```
+
 上記のマクロを保存して別の EmEditor ウィンドウで実行すると、選択されたテキストが大文字に変換され、
 TEXT EDITor.
 と表示されます。 [ChangeCase メソッド](../selection/selectionchangecase) には、1
@@ -40,6 +42,3 @@ TEXT EDITor.
 | [Tabify](../selection/selectiontabify) | 選択範囲の空白を Tab に変換します。 |
 | [UnIndent](../selection/selectionunindent) | 選択範囲の逆インデントを行います。 |
 | [Untabify](../selection/selectionuntabify) | 選択範囲の Tab を空白に移動します。 |
-```
-
-## 次のトピック

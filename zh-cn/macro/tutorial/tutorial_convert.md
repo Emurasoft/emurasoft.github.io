@@ -26,6 +26,8 @@ document.selection.CharLeft False, 12
 document.selection.DeleteLeft 15
 document.selection.CharRight True, 9
 document.selection.ChangeCase eeCaseUpperCase
+```
+
 保存该宏并在一个新的 EmEditor 窗口中运行它。注意，所选取的文本的字符已被转换为大写:
 TEXT EDITor.
 [ChangeCase 方法](../selection/selectionchangecase) 接受一个参数，这个参数指定
@@ -40,6 +42,3 @@ TEXT EDITor.
 |[Tabify](../selection/selectiontabify) | 在选取范围内把空格转换为 tab。 |
 |[UnIndent](../selection/selectionunindent) | 取消缩进由选取范围指定的部分。 |
 |[Untabify](../selection/selectionuntabify) | 在选取范围内把 tab 转换为空格。 |
-```
-
-## 下一主题:

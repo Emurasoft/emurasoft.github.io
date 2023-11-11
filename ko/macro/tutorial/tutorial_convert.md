@@ -26,6 +26,8 @@ document.selection.CharLeft False, 12
 document.selection.DeleteLeft 15
 document.selection.CharRight True, 9
 document.selection.ChangeCase eeCaseUpperCase
+```
+
 위의 매크로를 저장하고 새로운 엠에디터 창에 매크로를 실행합니다.
 선택된 텍스트의 문자들이 대문자로 변경된 것을 알 수 있습니다:
 TEXT EDITor.
@@ -42,6 +44,3 @@ TEXT EDITor.
 |[Tabify](../selection/selectiontabify) | 선택 범위의 공백을 탭으로 변환합니다. |
 |[UnIndent](../selection/selectionunindent) | 선택 범위에 의해 지정된 구역을 내어쓰기 합니다. |
 |[Untabify](../selection/selectionuntabify) | 선택 범위의 탭을 공백으로 변환합니다. |
-```
-
-## 다음 항목:
