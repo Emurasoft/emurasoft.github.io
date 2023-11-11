@@ -31,6 +31,7 @@ document.selection.ChangeCase eeCaseLowerCase
 If document.selection.Find( "Em", eeFindPrevious ) Then alert "Found!"
 n = document.selection.Replace( "editor", "######", eeReplaceAll )
 alert n & " strings found!"
+```
 Save the above macro and run it in a new EmEditor Window. Notice that two of the string "editor" has been
 searched case-insensitively and replaced with the string "######", and then a message box with the text
 " Two strings found!" is displayed.
@@ -49,4 +50,3 @@ selected by selecting the [Run with Temporary Options command](../../cmd/macros/
 and bringing up the [Macro Temporary Options dialog box](../../dlg/macrotempoptions/index),
 the execution of the macro is terminated when the search string is not found.
 See [Find a String](tutorialfind) in our tutorial for more details.
-```

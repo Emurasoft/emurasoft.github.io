@@ -31,6 +31,7 @@ document.selection.ChangeCase eeCaseLowerCase
 If document.selection.Find( "Em", eeFindPrevious ) Then alert "見つかりました！"
 n = document.selection.Replace( "editor", "######", eeReplaceAll )
 alert n & " 個の文字列が見つかりました！"
+```
 上記のマクロを保存して別の EmEditor ウィンドウで実行すると、大文字と小文字を区別せずに 2 個の "editor" という文字列が
 "######" に置き換わり、最後に「2個の文字列が見つかりました！」というメッセージ ボックスが表示されるはずです。
 [Replace メソッド](../selection/selectionreplace) は、第 1
@@ -41,4 +42,3 @@ alert n & " 個の文字列が見つかりました！"
 メソッド](../selection/selectionreplace) の場合も、通常、検索した文字列が見つからなくても、マクロの実行が停止することはありませんが、例外として、[マクロ] メニューの
 [[一時オプションを設定して実行] コマンド](../../cmd/macros/macrorunoptions) を選択して、 [[マクロ一時オプション] \
 ダイアログ ボックス](../../dlg/macrotempoptions/index) を表示し、[検索に失敗したら中止] チェック ボックスをチェックして実行すると、検索した文字列が見つからなかった場合に、マクロの実行が停止されます。詳しくは、チュートリアルの [文字列を検索する](tutorialfind) を参照してください。
-```
