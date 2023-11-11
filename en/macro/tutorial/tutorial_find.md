@@ -29,6 +29,7 @@ document.selection.DeleteLeft 15
 document.selection.CharRight True, 9
 document.selection.ChangeCase eeCaseLowerCase
 If document.selection.Find( "Em", eeFindPrevious ) Then alert "Found!"
+```
 Save the above macro and run it in a new EmEditor Window. Now "Em" is searched and
 a message box with the text "Found!" is displayed.
 The first argument of the [Find Method](../selection/selectionfind) specifies
@@ -54,7 +55,6 @@ If you want to terminate the execution of a macro upon the failure of the search
 without using theRun with Temporary Options command, then you need to modify the macro.
 That is, when the [Find Method](../selection/selectionfind) return 0, you terminate the macro.
 The following code will do it:
-```
 
 ### \[JavaScript\]
 
@@ -68,6 +68,7 @@ Error("Cannot find xx");
 ```
 If Not document.selection.Find( "xx", eeFindPrevious )  Then Err.Raise
 vbObjectError + 1, "Find Error", "Cannot find xx"
+```
 Also, if you use [FindRepeat Method](../selection/selectionfindrepeat),
 you can search again for the string that you have previously searched for, and you can search for the word
 where the cursor is positioned on.
@@ -79,6 +80,3 @@ it performs searches, which has the corresponding keyboard commands shortcuts.
 | eeFindRepeatPrevious | Search again backward from the current cursor position for the string that you have previously searched for. Equivalent to Shift + F3. |
 | eeFindRepeatNext + eeFindRepeatWord | Search forward from the current cursor position for the selected string <br> or the word at the cursor. Equivalent to CTRL + F3. |
 | eeFindRepeatPrevious + eeFindRepeatWord | Search backward from the current cursor position for the selected string <br> or the word at the cursor. Equivalent to CTRL + SHIFT + F3. |
-```
-
-## Next Topic:

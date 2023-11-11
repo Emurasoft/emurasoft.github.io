@@ -29,6 +29,7 @@ document.selection.DeleteLeft 15
 document.selection.CharRight True, 9
 document.selection.ChangeCase eeCaseLowerCase
 If document.selection.Find( "Em", eeFindPrevious ) Then alert "Found!"
+```
 위의 매크로를 저장하고 새로운 엠에디터 창에 매크로를 실행합니다.
 이제, "Em"이 검색되고 "Found!"를 나타내는 텍스트 메시지 박스가 표시됩니다.
 [Find 메서드](../selection/selectionfind) 의 첫번째 인수는
@@ -58,7 +59,6 @@ If document.selection.Find( "Em", eeFindPrevious ) Then alert "Found!"
 매크로의 실행을 중단하고 싶은 경우에는 매크로를 수정해야 합니다.
 즉, [Find 메서드](../selection/selectionfind) 가 0으로 반환되었을 때, 매크로를 중단합니다.
 다음의 코드가 그 작업을 할 것입니다:
-```
 
 ### \[JavaScript\]
 
@@ -72,6 +72,7 @@ Error("Cannot find xx");
 ```
 If Not document.selection.Find( "xx", eeFindPrevious )  Then Err.Raise
 vbObjectError + 1, "Find Error", "Cannot find xx"
+```
 또한, [FindRepeat 메서드](../selection/selectionfindrepeat) 를 사용하는 경우,
 이전에 검색에 사용했던 문자열을 다시 검색할 수 있고, 커서가 위치한 곳의 단어를 검색할 수 있습니다.
 [FindRepeat 메서드](../selection/selectionfindrepeat) 의 플래그를 다음과 같이
@@ -82,6 +83,3 @@ vbObjectError + 1, "Find Error", "Cannot find xx"
 | eeFindRepeatPrevious | 앞서서 검색에 사용했던 문자열을 현재 커서 위치로부터 뒤로 다시 검색합니다.<br> Shift + F3에 해당합니다. |
 | eeFindRepeatNext + eeFindRepeatWord | 선택된 문자열이나 커서가 위치한 단어를 현재 커서 위치로부터 앞으로 검색합니다.<br> CTRL + F3에 해당합니다. |
 | eeFindRepeatPrevious + eeFindRepeatWord | 선택된 문자열이나 커서가 위치한 단어를 현재 커서 위치로부터 뒤로 검색합니다.<br> CTRL + SHIFT + F3에 해당합니다. |
-```
-
-## 다음 항목:
