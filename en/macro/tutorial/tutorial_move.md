@@ -20,6 +20,7 @@ document.selection.Text = "EmEditor supports macros."
 document.selection.NewLine
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
 document.selection.CharLeft False, 12
+```
 Save the macro and run it in a new EmEditor window. Notice that the cursor is positioned
 at 12 characters left from the end of the line, or at the position where the first 't' character of "text editor" is.
 [CharLeft Method](../selection/selectioncharleft) moves
@@ -44,10 +45,8 @@ The following methods are provided to manipulate cursor movements.
 |[StartOfDocument](../selection/selectionstartofdocument) | Move the cursor to the start of a document. Equivalent to CTRL+ HOME. |
 |[EndOfDocument](../selection/selectionendofdocument) | Move the cursor to the end of a document. Equivalent to CTRL+ END. |
 |[GoToBrace](../selection/selectiongotobrace) | Move the cursor to the matching brace. |
+
 The following method moves the cursor to the specified line or digit position.
 |     |     |
 | --- | --- |
 |[SetActivePoint](../selection/selectionsetactivepoint) | Set the cursor position. |
-```
-
-## Next Topic:

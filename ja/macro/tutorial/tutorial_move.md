@@ -20,6 +20,7 @@ document.selection.Text = "EmEditor supports macros."
 document.selection.NewLine
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
 document.selection.CharLeft False, 12
+```
 上記のマクロを保存して別の EmEditor ウィンドウで実行すると、マクロの終了後に、カーソル位置は、最後の行末から 12 個文字左、つまり、"text
 editor" の最初の t の文字の位置に来るはずです。
 [CharLeft メソッド](../selection/selectioncharleft) は、カーソル位置を左に指定した文字数だけ移動することを示しています。 [CharLeft \
@@ -41,10 +42,8 @@ editor" の最初の t の文字の位置に来るはずです。
 | [StartOfDocument](../selection/selectionstartofdocument) | カーソル位置を文書の最初に移動します。Ctrl + Home キーに相当。 |
 | [EndOfDocument](../selection/selectionendofdocument) | カーソル位置を文書の最後に移動します。Ctrl + End キーに相当。 |
 | [GoToBrace](../selection/selectiongotobrace) | 対応するかっこへ移動します。 |
+
 また、次のメソッドは、カーソル位置を指定した行、桁位置に移動します。
 |     |     |
 | --- | --- |
 | [SetActivePoint](../selection/selectionsetactivepoint) | カーソル位置を設定します。 |
-```
-
-## 次のトピック

@@ -20,6 +20,7 @@ document.selection.Text = "EmEditor supports macros."
 document.selection.NewLine
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
 document.selection.CharLeft False, 12
+```
 매크로를 저장하고 새로운 엠에디터 창에서 실행합니다.
 커서가 줄의 끝에서 왼쪽으로 12자 옆으로 옮겨졌거나,
 "text editor"의 첫번째 't'문자로 옮겨진 것을 알 수 있습니다.
@@ -44,10 +45,8 @@ document.selection.CharLeft False, 12
 |[StartOfDocument](../selection/selectionstartofdocument) | 문서의 처음으로 커서를 이동합니다. CTRL+ HOME에 해당합니다. |
 |[EndOfDocument](../selection/selectionendofdocument) | 문서의 마지막으로 커서를 이동합니다. CTRL+ END에 해당합니다. |
 |[GoToBrace](../selection/selectiongotobrace) | 일치하는 괄호로 커서를 이동합니다. |
+
 다음의 메서드는 커서를 지정된 라인이나 자리 위치로 이동합니다.
 |     |     |
 | --- | --- |
 |[SetActivePoint](../selection/selectionsetactivepoint) | 커서 위치를 설정합니다. |
-```
-
-## 다음 항목:

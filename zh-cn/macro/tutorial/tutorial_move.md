@@ -20,6 +20,7 @@ document.selection.Text = "EmEditor supports macros."
 document.selection.NewLine
 document.selection.Text = Chr(9) & "EmEditor is a text editor."
 document.selection.CharLeft False, 12
+```
 保存该宏并在一个新的 EmEditor 窗口中运行它。注意，光标会被放置在从行尾端向左 12 个字符的地方，也就是 "text editor" 的第一个 't' 字符所在处。
 [CharLeft 方法](../selection/selectioncharleft) 能把光标往左移指定的字符数。[CharLeft \
 方法](../selection/selectioncharleft) 的第一个参数 (false) 指定是否选择范围会变更。换句话说，它指定你是否想要用 SHIFT 键当你在键盘上按下左箭头键时。
@@ -39,10 +40,8 @@ document.selection.CharLeft False, 12
 |[StartOfDocument](../selection/selectionstartofdocument) | 把光标移到文档的开始。等同于 CTRL+ HOME。 |
 |[EndOfDocument](../selection/selectionendofdocument) | 把光标移到文档的结尾。等同于 CTRL+ END。 |
 |[GoToBrace](../selection/selectiongotobrace) | 把光标移到匹配的括号处。 |
+
 下列方法移动光标到到指定的行或数位。
 |     |     |
 | --- | --- |
 |[SetActivePoint](../selection/selectionsetactivepoint) | 设置光标位置。 |
-```
-
-## 下一主题:
