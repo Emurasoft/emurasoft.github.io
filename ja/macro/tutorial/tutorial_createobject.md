@@ -10,9 +10,10 @@
 
 ### \[JavaScript (JScript)\]
 
+```
 WshShell = new ActiveXObject( "WScript.Shell" );
-
 alert( WshShell.CurrentDirectory );
+```
 
 ### \[VBScript\]
 
@@ -22,3 +23,7 @@ alert WshShell.CurrentDirectory
 ```
 
 ## 参考
+
+[ActiveXObject Object (JavaScript)](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/7sw4ddf8%28v=vs.84%29)
+
+[Microsoft MSDN Library: CreateObject Function (VBScript)](https://docs.microsoft.com/en-us/previous-versions//dcw63t7z%28v=vs.85%29)

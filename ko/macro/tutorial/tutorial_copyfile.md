@@ -10,12 +10,11 @@
 
 ```
 if( document.FullName == '' ){
-alert( "The file is untitled." );
+    alert( "The file is untitled." );
 }
 else {
-fso = new ActiveXObject( "Scripting.FileSystemObject" );
-fso.CopyFile( document.FullName, document.FullName + ".bak"
-);
+    fso = new ActiveXObject( "Scripting.FileSystemObject" );
+    fso.CopyFile( document.FullName, document.FullName + ".bak" );
 }
 ```
 
@@ -31,3 +30,5 @@ End If
 ```
 
 ## 참조:
+
+[Microsoft MSDN Library: CopyFile Method](https://docs.microsoft.com/en-us/previous-versions//e1wf9e7w(v=vs.85))

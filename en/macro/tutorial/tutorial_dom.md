@@ -20,7 +20,8 @@ document.write("EmEditor supports macros.");
 
 ```
 document.write "EmEditor supports macros."
-Either of the above examples produces the same result; the behaviors of[Text Property](../selection/selectiontext) and that of[write Method](../document/documentwrite) are identical.
+```
+Either of the above examples produces the same result; the behaviors of[Text Property](../selection/selection_text) and that of[write Method](../document/document_write) are identical.
 You can use multiple objects in EmEditor macros. We designed the macros this way to achieve Object-Oriented Programming
 (OOP)
 as well as to allow extensibility and to accommodate future enhancements of the macros,
@@ -29,14 +30,14 @@ You can use the following objects in EmEditor macros:
 -[Window Object](../window/index) \-
 becomes the default scope, and thus, there is no need to specify object names.
 It provides methods and properties of Windows user interfaces. The[document \
-Property](../window/windowdocument) allows you to use properties and methods of[Document Object](../document/index)
+Property](../window/window_document) allows you to use properties and methods of[Document Object](../document/index)
 for the current document. Also, the[editor \
-Property](../window/windoweditor) allows you to access[Editor Object](../editor/index).
+Property](../window/window_editor) allows you to access[Editor Object](../editor/index).
 -[Document Object](../document/index) \-
 provides methods and properties for opened documents,
 which applies to elements of the overall document and includes details about a file, such as the file name of the document,
 the setup name, and the read-only status. Furthermore, the[selection \
-Property](../document/documentselection) allows you to use[Selection \
+Property](../document/document_selection) allows you to use[Selection \
 Object](../selection/index) for the current Selection Range and cursor location.
 -[Selection Object](../selection/index) \-
 provides methods and properties for the current Selection Range and cursor location.
@@ -46,6 +47,3 @@ character conversion, cursor movement, search, and replace.
 provides methods and properties for overall EmEditor application. For example,
 it provides the path and version of EmEditor executables, and methods and properties used in opening new or
 specified files.
-```
-
-## Next Topic:

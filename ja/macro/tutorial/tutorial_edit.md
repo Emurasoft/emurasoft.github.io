@@ -18,8 +18,6 @@ document.selection.Text="EmEditor supports macros.";
 
 ```
 document.selection.Text="EmEditor supports macros."
-これは、現在の文書のカーソル位置に "EmEditor supports macros." という文字列を挿入しなさい、という意味になり、 [Text \
-プロパティ](../selection/selectiontext) を利用しています。
 ```
-
-## 次のトピック
+これは、現在の文書のカーソル位置に "EmEditor supports macros." という文字列を挿入しなさい、という意味になり、 [Text \
+プロパティ](../selection/selection_text) を利用しています。
