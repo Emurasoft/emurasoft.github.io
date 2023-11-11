@@ -4,9 +4,10 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 from multiproject.utils import get_project
+from datetime import datetime
 
 project = 'EmEditor'
-copyright = '2023 Emurasoft'
+copyright = '{} Emurasoft'.format(datetime.now().year)
 author = 'Emurasoft'
 
 extensions = ['multiproject', 'myst_parser', 'sphinx_sitemap']
@@ -20,9 +21,9 @@ sitemap_locales = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw']
 highlight_language = 'none'
 suppress_warnings = ['image.not_readable']
 navigation_depth = 2
-
 html_theme_path = ['_themes']
 html_theme = 'piccolo_theme'
+html_show_sphinx = False
 
 html_sidebars = {
    '**': ['globaltoc.html'],
