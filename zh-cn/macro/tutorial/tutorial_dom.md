@@ -15,6 +15,7 @@ document.write("EmEditor supports macros.");
 
 ```
 document.write "EmEditor supports macros."
+```
 上面任一脚本都会产生同样的结果；[Text 属性](../selection/selectiontext) 以及[write 方法](../document/documentwrite) 的行为是一致的。
 在 EmEditor 宏中，你能用多个对象。我们这样设计宏是为了达到面向对象的编程 (OOP) 以及允许程序的扩展性并能适应增强的宏，例如在一个宏中操纵多个窗口和文档。
 你能在 EmEditor 宏中用下列的对象:
@@ -30,6 +31,3 @@ document.write "EmEditor supports macros."
 为当前选区范围 (Selection Range) 以及光标位置提供方法和属性。它提供许多方法和属性。例如在选区范围内的选取变更 (Selection Change)，字符转换，光标移动，搜索以及替换。
 -[Editor 对象](../editor/index) \- EmEditor
 EmEditor 为整个应用程序所提供的方法和属性。例如，它提供 EmEditor 可执行的文件的路径和版本，以及用于打开新或指定文件的方法和属性。
-```
-
-## 下一主题:

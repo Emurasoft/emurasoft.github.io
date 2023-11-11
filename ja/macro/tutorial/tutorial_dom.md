@@ -17,6 +17,7 @@ document.write("EmEditor supports macros.");
 
 ```
 document.write "EmEditor supports macros."
+```
 上記でもまったく同じ動作になります。つまり、 [Text プロパティ](../selection/selectiontext) の設定の動作は、 [write \
 メソッド](../document/documentwrite) の動作とまったく同じです。
 EmEditor
@@ -35,6 +36,3 @@ EmEditor のマクロでは、次のオブジェクトが使用できます。
 - [Editor オブジェクト](../editor/index) \- EmEditor
 アプリケーション全体に対するメソッドとプロパティを提供します。例えば、EmEditor
 の実行ファイルのパスやバージョン、新規にファイルを作成したり、指定したファイルを開くときに利用するメソッドやプロパティを提供しています。
-```
-
-## 次のトピック

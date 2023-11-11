@@ -19,6 +19,7 @@ document.write("EmEditor supports macros.");
 
 ```
 document.write "EmEditor supports macros."
+```
 위의 예제들은 같은 결과를 생성합니다;
 [Text 속성](../selection/selectiontext) 과
 [write 메서드](../document/documentwrite) 의 동작은 동일합니다.
@@ -46,6 +47,3 @@ Windows 사용자 인터페이스에 메서드와 속성을 제공합니다.
 전체적인 엠에디터 응용 프로그램에 메서드와 속성을 제공합니다.
 예를 들어, 엠에디터 실행 파일의 버전과 경로를 제공하고, 새로운 파일이나 지정된 파일을 여는데 사용되는
 메서드와 속성을 제공합니다.
-```
-
-## 다음 항목:

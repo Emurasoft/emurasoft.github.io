@@ -20,6 +20,7 @@ document.write("EmEditor supports macros.");
 
 ```
 document.write "EmEditor supports macros."
+```
 Either of the above examples produces the same result; the behaviors of[Text Property](../selection/selectiontext) and that of[write Method](../document/documentwrite) are identical.
 You can use multiple objects in EmEditor macros. We designed the macros this way to achieve Object-Oriented Programming
 (OOP)
@@ -46,6 +47,3 @@ character conversion, cursor movement, search, and replace.
 provides methods and properties for overall EmEditor application. For example,
 it provides the path and version of EmEditor executables, and methods and properties used in opening new or
 specified files.
-```
-
-## Next Topic:

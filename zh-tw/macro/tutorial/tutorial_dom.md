@@ -15,6 +15,7 @@ document.write("EmEditor supports macros.");
 
 ```
 document.write "EmEditor supports macros."
+```
 上面任一指令碼都會產生同樣的結果；[Text 屬性](../selection/selectiontext) 以及[write 方法](../document/documentwrite) 的行為是一致的。
 在 EmEditor 巨集中，您能用多個對象。我們這樣設計巨集是為了達到面向對象的編程 (OOP) 以及允許程式的延伸性并能適應增強的巨集，例如在一個巨集中操縱多個視窗和文檔。
 您能在 EmEditor 巨集中用下列的對象:
@@ -30,6 +31,3 @@ document.write "EmEditor supports macros."
 為目前的選區範圍 (Selection Range) 以及游標位置提供方法和屬性。它提供許多方法和屬性。例如在選區範圍內的選取變更 (Selection Change)，字元轉換，游標移動，搜尋以及取代。
 -[Editor 對象](../editor/index) \- EmEditor
 EmEditor 為整個應用程式所提供的方法和屬性。例如，它提供 EmEditor 可執行的檔案的路徑和版本，以及用於打開新或指定檔案的方法和屬性。
-```
-
-## 下一主題:
