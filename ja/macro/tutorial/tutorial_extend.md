@@ -24,6 +24,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 document.selection.CharLeft False, 12
 document.selection.DeleteLeft 15
 document.selection.CharRight True, 9
+```
 上記のマクロを保存して別の EmEditor ウィンドウで実行すると、
 text editor.
 のように、text edit の部分が選択されて表示されます。
@@ -38,12 +39,10 @@ CharRight メソッドの第 1 引数に true
 | [SelectLine](../selection/selectionselectline) | カーソル位置の行を選択します。 |
 | [SelectWord](../selection/selectionselectword) | カーソル位置の単語を選択します。 |
 | [Collapse](../selection/selectioncollapse) | 選択を解除します。Esc キーに相当。 |
+
 また、次のプロパティで、選択範囲の状態を調べたり設定することができます。
 |     |     |
 | --- | --- |
 | [IsActiveEndGreater](../selection/selectionisactiveendgreater) | アクティブ ポイントが選択範囲の下部と一致しているかどうかを示します。 |
 | [IsEmpty](../selection/selectionisempty) | 選択範囲が空かどうかを示します。 |
 | [Mode](../selection/selectionmode) | 選択の種類 (箱型選択、行選択など) を取得、または設定します。 |
-```
-
-## 次のトピック

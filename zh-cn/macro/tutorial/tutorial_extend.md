@@ -24,6 +24,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 document.selection.CharLeft False, 12
 document.selection.DeleteLeft 15
 document.selection.CharRight True, 9
+```
 保存该宏并在一个新的 EmEditor 窗口中运行它。注意，"text edit" 部分会如下图所示被高亮显示:
 text editor.
 我们把 true 传递到CharRight 方法 的第一个参数中，这样就变更了光标位置并且改变了选取范围；你也可以当按住 SHIFT 键的同时按右箭头键来进行相同的操作。
@@ -35,12 +36,10 @@ text editor.
 |[SelectLine](../selection/selectionselectline) | 选择光标所在处的行。 |
 |[SelectWord](../selection/selectionselectword) | 选择光标位置处的整个单词。 |
 |[Collapse](../selection/selectioncollapse) | 关闭当前选项。等同于 ESC 键。 |
+
 你能用下列属性安装或检查选取范围的状态:
 |     |     |
 | --- | --- |
 |[IsActiveEndGreater](../selection/selectionisactiveendgreater) | 显示活动点是否与选取范围的结尾部分匹配。 |
 |[IsEmpty](../selection/selectionisempty) | 显示是否选取范围为空。 |
 |[Mode](../selection/selectionmode) | 获取或安装选择类型（垂直选择，行选择等等）。 |
-```
-
-## 下一主题:
