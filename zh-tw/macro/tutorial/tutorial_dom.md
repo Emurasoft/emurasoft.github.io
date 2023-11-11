@@ -16,7 +16,7 @@ document.write("EmEditor supports macros.");
 ```
 document.write "EmEditor supports macros."
 ```
-上面任一指令碼都會產生同樣的結果；[Text 屬性](../selection/selectiontext) 以及[write 方法](../document/documentwrite) 的行為是一致的。
+上面任一指令碼都會產生同樣的結果；[Text 屬性](../selection/selection_text) 以及[write 方法](../document/document_write) 的行為是一致的。
 在 EmEditor 巨集中，您能用多個對象。我們這樣設計巨集是為了達到面向對象的編程 (OOP) 以及允許程式的延伸性并能適應增強的巨集，例如在一個巨集中操縱多個視窗和文檔。
 您能在 EmEditor 巨集中用下列的對象:
 -[Window 對象](../window/index) \-

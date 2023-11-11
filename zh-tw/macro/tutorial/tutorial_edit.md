@@ -15,4 +15,4 @@ document.selection.Text="EmEditor supports macros.";
 ```
 document.selection.Text="EmEditor supports macros."
 ```
-上面的代碼用[Text 屬性](../selection/selectiontext) 告訴 EmEditor 在目前的游標位置處插入 "EmEditor supports macros." 文字。
+上面的代碼用[Text 屬性](../selection/selection_text) 告訴 EmEditor 在目前的游標位置處插入 "EmEditor supports macros." 文字。

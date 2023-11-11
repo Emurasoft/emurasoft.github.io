@@ -25,5 +25,5 @@ document.selection.Text="EmEditor supports macros.";
 document.selection.Text="EmEditor supports macros."
 ```
 The above code uses the[Text \
-Property](../selection/selectiontext) and tells EmEditor to insert the text "EmEditor supports macros ."
+Property](../selection/selection_text) and tells EmEditor to insert the text "EmEditor supports macros ."
 at the current cursor location.

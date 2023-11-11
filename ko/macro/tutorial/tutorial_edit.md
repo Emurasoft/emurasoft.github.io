@@ -23,5 +23,5 @@ document.selection.Text="EmEditor supports macros.";
 ```
 document.selection.Text="EmEditor supports macros."
 ```
-위의 코드는[Text 속성](../selection/selectiontext) 을 사용하고 엠에디터의
+위의 코드는[Text 속성](../selection/selection_text) 을 사용하고 엠에디터의
 현재 커서 위치에 "엠에디터는 매크로를 지원합니다 ." 라는 텍스트를 삽입하도록 합니다.

@@ -21,8 +21,8 @@ document.write("EmEditor supports macros.");
 document.write "EmEditor supports macros."
 ```
 위의 예제들은 같은 결과를 생성합니다;
-[Text 속성](../selection/selectiontext) 과
-[write 메서드](../document/documentwrite) 의 동작은 동일합니다.
+[Text 속성](../selection/selection_text) 과
+[write 메서드](../document/document_write) 의 동작은 동일합니다.
 엠에디터 매크로에서 여러개의 개체를 사용할 수 있습니다.
 개체 지향 프로그래밍(OOP)을 얻는것 뿐만 아니라 확장성을 허용하고
 단일 매크로에서 여러 창과 문서를 조작하는 것과 같은 미래의 향상된 매크로를 조정하기 위해

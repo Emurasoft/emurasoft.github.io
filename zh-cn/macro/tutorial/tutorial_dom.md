@@ -16,7 +16,7 @@ document.write("EmEditor supports macros.");
 ```
 document.write "EmEditor supports macros."
 ```
-上面任一脚本都会产生同样的结果；[Text 属性](../selection/selectiontext) 以及[write 方法](../document/documentwrite) 的行为是一致的。
+上面任一脚本都会产生同样的结果；[Text 属性](../selection/selection_text) 以及[write 方法](../document/document_write) 的行为是一致的。
 在 EmEditor 宏中，你能用多个对象。我们这样设计宏是为了达到面向对象的编程 (OOP) 以及允许程序的扩展性并能适应增强的宏，例如在一个宏中操纵多个窗口和文档。
 你能在 EmEditor 宏中用下列的对象:
 -[Window 对象](../window/index) \-

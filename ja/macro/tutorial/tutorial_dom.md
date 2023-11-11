@@ -18,8 +18,8 @@ document.write("EmEditor supports macros.");
 ```
 document.write "EmEditor supports macros."
 ```
-上記でもまったく同じ動作になります。つまり、 [Text プロパティ](../selection/selectiontext) の設定の動作は、 [write \
-メソッド](../document/documentwrite) の動作とまったく同じです。
+上記でもまったく同じ動作になります。つまり、 [Text プロパティ](../selection/selection_text) の設定の動作は、 [write \
+メソッド](../document/document_write) の動作とまったく同じです。
 EmEditor
 のマクロでは、複数のオブジェクトが使用できます。これは、オブジェクト指向によるプログラミングを実現することと同時に、将来、複数のウィンドウや文書を同一マクロで操作できるようにするなど、マクロの拡張の可能性を視野に入れているためです。
 EmEditor のマクロでは、次のオブジェクトが使用できます。

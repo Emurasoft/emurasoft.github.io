@@ -35,8 +35,8 @@ the same effect.
 Similarly, the following methods are provided to delete characters:
 |     |     |
 | --- | --- |
-|[Delete](../selection/selectiondelete) | Delete the selected text. If no text is selected, it deletes the specified number of characters from the right side<br> of a string. Equivalent to the Delete key. |
-| [DeleteLeft](../selection/selectiondeleteleft) | Delete the selected text. If no text is selected, <br> it deletes the specified number of characters from the left side of a string. Equivalent to the Backspace key. |
+|[Delete](../selection/selection_delete) | Delete the selected text. If no text is selected, it deletes the specified number of characters from the right side<br> of a string. Equivalent to the Delete key. |
+| [DeleteLeft](../selection/selection_deleteleft) | Delete the selected text. If no text is selected, <br> it deletes the specified number of characters from the left side of a string. Equivalent to the Backspace key. |
 You can delete words or lines by combining methods:
 
 ### \[JavaScript\]
