@@ -18,5 +18,3 @@ appropriate file extension will be appended automatically depending on what
 scripting language the file was saved as.
 
 Click **Save** to save the macro under the name we've specified.
-
-## Next Topic:
