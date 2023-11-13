@@ -8,12 +8,11 @@ The following example code reads the file name of a running macro from the regis
 
 ### \[JavaScript (JScript)\]
 
+```
 WshShell = new ActiveXObject( "WScript.Shell" );
-
-str = WshShell.RegRead( "HKCU\\\Software\\\EmSoft\\\EmEditor v3\\\Common\\\MacroFile"
-);
-
+str = WshShell.RegRead( "HKCU\\\Software\\\EmSoft\\\EmEditor v3\\\Common\\\MacroFile");
 alert( str );
+```
 
 ### \[VBScript\]
 
