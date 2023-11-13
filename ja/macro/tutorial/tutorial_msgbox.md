@@ -11,9 +11,10 @@
 
 ### \[JavaScript (JScript)\]
 
+```
 WshShell = new ActiveXObject( "WScript.Shell" );
-
 n = WshShell.Popup( "Continue?", 0, "EmEditor", 3 );
+```
 
 ### \[VBScript\]
 

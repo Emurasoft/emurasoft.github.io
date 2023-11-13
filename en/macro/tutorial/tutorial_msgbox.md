@@ -12,9 +12,10 @@ The variable n is assigned the value 6 if YES button is selected, 7 if NO button
 
 ### \[JavaScript (JScript)\]
 
+```
 WshShell = new ActiveXObject( "WScript.Shell" );
-
 n = WshShell.Popup( "Continue?", 0, "EmEditor", 3 );
+```
 
 ### \[VBScript\]
 
