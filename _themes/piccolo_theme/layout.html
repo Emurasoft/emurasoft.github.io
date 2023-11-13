@@ -12,6 +12,11 @@
     <script src="{{ pathto('_static/js/petite-vue.js', 1) }}"></script>
 
     <script src="{{ pathto('_static/scripts.js', 1) }}"></script>
+
+    <meta
+        http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' ajax.cloudflare.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com 'unsafe-inline';"
+    />
 {% endblock %}
 
 {%- block body_tag %}
