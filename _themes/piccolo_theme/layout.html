@@ -114,6 +114,13 @@
     </div>
 
     {{ super() }}
+
+    {%- if prev and next and ('macro/features' in pagename or 'macro/tutorial' in pagename) and '/index' not in pagename -%}
+        <div class="nextprevious">
+            <p><a href="{{ prev.link|e }}">{{ _('Previous topic') }}: {{ prev.title }}</a></p>
+            <p><a href="{{ next.link|e }}">{{ _('Next topic') }}: {{ next.title }}</a></p>
+        </div>
+    {%- endif -%}
 {% endblock %}
 
 
