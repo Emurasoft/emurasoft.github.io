@@ -8,9 +8,10 @@ The following example demonstrates how to get the name of a current computer use
 
 ### \[JavaScript (JScript)\]
 
+```
 WshNetwork = new ActiveXObject( "WScript.Network" );
-
 alert( "User Name = " + WshNetwork.UserName );
+```
 
 ### \[VBScript\]
 

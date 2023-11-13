@@ -8,9 +8,10 @@
 
 ### \[JavaScript (JScript)\]
 
+```
 WshNetwork = new ActiveXObject( "WScript.Network" );
-
 alert( "User Name = " + WshNetwork.UserName );
+```
 
 ### \[VBScript\]
 
