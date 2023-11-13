@@ -68,3 +68,12 @@ h1 {
     font-family: 'Roboto', 'Noto Sans JP', sans-serif;
     font-weight: 700;
 }
+
+.nextprevious {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nextprevious p {
+    margin: 0 20px
+}
