@@ -8,45 +8,32 @@
 
 ### \[JavaScript (JScript)\]
 
+```
 WshShell = new ActiveXObject( "WScript.Shell" );
-
 WshShell.Run( "calc.exe" );
-
 Sleep( 1000 );
-
 WshShell.SendKeys( "1" );
-
 Sleep( 100 );
-
 WshShell.SendKeys( "{+}" );
-
 Sleep( 100 );
-
 WshShell.SendKeys( "2" );
-
 Sleep( 100 );
-
 WshShell.SendKeys( "=" );
+```
 
 ### \[JavaScript (V8)\]
 
+```
 shell.Run( "calc.exe" );
-
 Sleep( 1000 );
-
 WshShell.SendKeys( "1" );
-
 Sleep( 100 );
-
 WshShell.SendKeys( "{+}" );
-
 Sleep( 100 );
-
 WshShell.SendKeys( "2" );
-
 Sleep( 100 );
-
 WshShell.SendKeys( "=" );
+```
 
 ### \[VBScript\]
 
