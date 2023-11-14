@@ -2,7 +2,7 @@
 
 把临时文本作为一个新文档打开。你能直接用该内联函数或明确地发送 [EE\_EDIT\_TEMP](../message/ee_edit_temp) 消息。
 
-Editor\_ActivateTemp( HWND hwnd, UINT nEditID, POINT\_PTR\* pptInitialCaret = NULL );
+Editor\_ActivateTemp( HWND hwnd, UINT nEditID, const POINT\_PTR\* pptInitialCaret = NULL );
 
 ## 参数
 

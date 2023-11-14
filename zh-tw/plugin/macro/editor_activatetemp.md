@@ -2,7 +2,7 @@
 
 把臨時文字作為一個新文檔打開。您能直接用該內嵌函式或明確地發送 [EE\_EDIT\_TEMP](../message/ee_edit_temp) 消息。
 
-Editor\_ActivateTemp( HWND hwnd, UINT nEditID, POINT\_PTR\* pptInitialCaret = NULL );
+Editor\_ActivateTemp( HWND hwnd, UINT nEditID, const POINT\_PTR\* pptInitialCaret = NULL );
 
 ## 參數
 
