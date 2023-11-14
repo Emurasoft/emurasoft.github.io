@@ -2,7 +2,7 @@
 
 新規文書として一時テキストを開きます。このインライン関数を使うか、または [EE\_EDIT\_TEMP](../message/ee_edit_temp) メッセージを直接送ることができます。
 
-Editor\_ActivateTemp( HWND hwnd, UINT nEditID, POINT\_PTR\* pptInitialCaret = NULL );
+Editor\_ActivateTemp( HWND hwnd, UINT nEditID, const POINT\_PTR\* pptInitialCaret = NULL );
 
 ## パラメータ
 

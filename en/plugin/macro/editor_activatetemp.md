@@ -3,7 +3,7 @@
 Opens existing temporary text as a new document. You can use this inline function or explicitly send the [EE\_EDIT\_TEMP](../message/ee_edit_temp)
 message.
 
-Editor\_ActivateTemp( HWND hwnd, UINT nEditID, POINT\_PTR\* pptInitialCaret = NULL );
+Editor\_ActivateTemp( HWND hwnd, UINT nEditID, const POINT\_PTR\* pptInitialCaret = NULL );
 
 ## Parameters
 

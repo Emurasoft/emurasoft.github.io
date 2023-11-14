@@ -7,7 +7,7 @@ typedef struct _FILTER_INFO_EX {
 	UINT cbSize;
 	UINT64 flags;
 	int iColumn;
-	LPCWSTR pszFilter;
+	LPWSTR pszFilter;
 	INT_PTR xBegin;
 	INT_PTR xEnd;
 	UINT cchFilter;

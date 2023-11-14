@@ -2,7 +2,7 @@
 
 重複行を削除またはブックマークします。このインライン関数を使うか、または [EE\_MANAGE\_DUPLICATES](../message/ee_manage_duplicates) メッセージを直接送ることができます。
 
-Editor\_ManageDuplicates( HWND hwnd, UINT nFlags, int nNumOfColumns, int\* anColumns, INT\_PTR\* pnFound, int nNumOfColumnsToCombine = 0, int\* anColumnsToCombine = NULL, LPCWSTR pszInsert = NULL, UINT nCombineFlags = 0, LPWSTR pszLocale = NULL );
+Editor\_ManageDuplicates( HWND hwnd, UINT nFlags, int nNumOfColumns, int\* anColumns, INT\_PTR\* pnFound, int nNumOfColumnsToCombine = 0, int\* anColumnsToCombine = NULL, LPCWSTR pszInsert = NULL, UINT nCombineFlags = 0, LPCWSTR pszLocale = NULL );
 
 ## パラメータ
 
