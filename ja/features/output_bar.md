@@ -7,4 +7,4 @@ orphan: true
 
 ## 参照
 
-- [**\[アウトプット バーを使用する\]** チェック ボックス](../dlg/tools/properties/index)
+- [\[アウトプット バーを使用する\] チェック ボックス](../dlg/tools/properties/index)

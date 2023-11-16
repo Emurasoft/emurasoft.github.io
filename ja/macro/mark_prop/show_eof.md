@@ -1,6 +1,6 @@
 # ShowEOF プロパティ (MarkProp オブジェクト)
 
-設定のプロパティの [**\[記号\]** ページ](../../dlg/properties/marks/index) の **\[EOF表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[記号\] ページ](../../dlg/properties/marks/index) の \[EOF表示\] チェック ボックスに相当します。
 
 ## 
 

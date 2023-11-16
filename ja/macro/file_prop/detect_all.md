@@ -1,7 +1,7 @@
 # DetectAll プロパティ (FileProp オブジェクト)
 
 設定のプロパティの **[\[ファイル\]](../../dlg/properties/file/index)** [タブ](../../dlg/properties/file/index) の
-**\[すべて自動検出\]** チェック ボックスに相当します。
+\[すべて自動検出\] チェック ボックスに相当します。
 
 ## 
 

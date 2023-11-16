@@ -1,20 +1,6 @@
 # 各種設定
 
 
-
-
-
-
-
-
-
-
-
-
-
-![](../../images/q.gif)[\[ファイルを開く\] ダイアログでファイルの種類を変更するには](usage_filefilter)
-
-
 ```{toctree}
 :maxdepth: 1
 config_new

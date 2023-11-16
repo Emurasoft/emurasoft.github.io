@@ -1,6 +1,6 @@
 # HorizontalLine プロパティ (ScrollProp オブジェクト)
 
-設定のプロパティの [**\[スクロール\]** ページ](../../dlg/properties/scroll/index) の **\[水平罫線\]** チェック ボックスに相当します。
+設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の \[水平罫線\] チェック ボックスに相当します。
 
 ## 
 

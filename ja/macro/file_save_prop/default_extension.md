@@ -1,6 +1,6 @@
 # DefaultExtension プロパティ (FileSaveProp オブジェクト)
 
-設定のプロパティの [**\[ファイル\]** ページ](../../dlg/properties/file/index) の **\[既定の拡張子\]** テキスト ボックスに相当します。
+設定のプロパティの [\[ファイル\] ページ](../../dlg/properties/file/index) の \[既定の拡張子\] テキスト ボックスに相当します。
 
 ## 
 

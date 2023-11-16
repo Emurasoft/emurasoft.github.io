@@ -1,6 +1,6 @@
 # PreserveReturnsClipboard プロパティ (GeneralProp オブジェクト)
 
-設定のプロパティの [**\[基本\]** ページ](../../dlg/properties/general/index) の **\[クリップボードで改行コードを保持\]** チェック ボックスに相当します。
+設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[クリップボードで改行コードを保持\] チェック ボックスに相当します。
 
 ## 
 

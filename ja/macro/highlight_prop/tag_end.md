@@ -1,6 +1,6 @@
 # TagEnd プロパティ (HighlightProp オブジェクト)
 
-設定のプロパティの [**\[強調(1)\]** ページ](../../dlg/properties/highlight1/index) の **\[タグ終了\]** テキスト ボックスに相当します。
+設定のプロパティの [\[強調(1)\] ページ](../../dlg/properties/highlight1/index) の \[タグ終了\] テキスト ボックスに相当します。
 
 ## 
 

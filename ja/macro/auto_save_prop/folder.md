@@ -1,7 +1,7 @@
 # Folder プロパティ (AutoSaveProp オブジェクト)
 
-設定のプロパティの [**\[自動保存\]** ページ](../../dlg/properties/autosave/index) の
-**\[自動保存フォルダ\]** テキスト ボックスに相当します。
+設定のプロパティの [\[自動保存\] ページ](../../dlg/properties/autosave/index) の
+\[自動保存フォルダ\] テキスト ボックスに相当します。
 
 ## 
 
