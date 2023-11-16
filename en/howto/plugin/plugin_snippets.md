@@ -41,7 +41,7 @@ Right-clicking on the Snippets bar shows the following options:
 
 To adjust the properties of the Snippets plug-in, right-click the Snippets Plug-in button on the Plug-ins bar and select Properties.
 
-### General tab
+### General page
 
 |     |     |
 | --- | --- |
@@ -51,7 +51,7 @@ To adjust the properties of the Snippets plug-in, right-click the Snippets Plug-
 | Verbosity | adjusts the frequency of tips. |
 | Delay Time | adjusts the delay time before a tip appears. |
 
-### Global Parameters tab
+### Global Parameters page
 
 |     |     |
 | --- | --- |
@@ -73,13 +73,13 @@ To adjust the properties of the Snippets plug-in, right-click the Snippets Plug-
 
 To adjust the properties of each of the snippets folders, right-click on a folder in the Snippets custom bar, and select Properties.
 
-### General tab
+### General page
 
 |     |     |
 | --- | --- |
 | Name | specifies the name of the snippets folder. |
 
-### Configurations tab
+### Configurations page
 
 |     |     |
 | --- | --- |
@@ -91,7 +91,7 @@ To adjust the properties of each of the snippets folders, right-click on a folde
 
 To adjust the properties of each of the snippets, right-click on a snippet in the Snippets custom bar, and select Properties.
 
-### General tab
+### General page
 
 |     |     |
 | --- | --- |
@@ -103,7 +103,7 @@ To adjust the properties of each of the snippets, right-click on a snippet in th
 | Text | specifies the text of the snippet. |
 | Edit | allows a user to edit the snippet in the EmEditor window. |
 
-### Configurations tab
+### Configurations page
 
 |     |     |
 | --- | --- |
@@ -255,7 +255,7 @@ ${PickColor} The RGB value of the selected color.
 
 ${DefColor} The RGB value of the recently selected color.
 
-You can also create your own parameter in this form ${parameter\_name} where parameter\_name is not predefined in the above list. When a new user parameter is used, a dialog box appears where you can insert a new value, unless the value of a parameter can be saved in the Global Parameter tab of the
+You can also create your own parameter in this form ${parameter\_name} where parameter\_name is not predefined in the above list. When a new user parameter is used, a dialog box appears where you can insert a new value, unless the value of a parameter can be saved in the Global Parameter page of the
 Plug-in properties.
 
 ### Shell Codes

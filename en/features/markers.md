@@ -14,7 +14,7 @@ Right clicking on each marker in the **Markers** toolbar displays a context menu
 (case sensitivity, only word, regular expressions, etc.).
 
 Each marker can be dragged and dropped to change the order of markers and to insert the marker text into the editor. Selecting the **Customize Markers** from the menu allows you to change
-the details about the markers. In the **Marker List** tab, you can change the marker colors, change the marker text, and delete unnecessary markers.
+the details about the markers. In the **Marker List** page, you can change the marker colors, change the marker text, and delete unnecessary markers.
 
-The auto marker is a new feature to automatically select text that is the same as the selected text. The **Auto Marker** tab of the **Customize Marker** dialog allows you to
+The auto marker is a new feature to automatically select text that is the same as the selected text. The **Auto Marker** page of the **Customize Marker** dialog allows you to
 specify details about the auto marker, such as retrieving the word at the cursor position, matching the word only, or case sensitivity.

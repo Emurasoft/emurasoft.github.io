@@ -1,6 +1,6 @@
 # File page
 
-The **File** tab allows you to set properties related to file
+The **File** page allows you to set properties related to file
 operations.
 
 ## Prompt if Null Character Found check box

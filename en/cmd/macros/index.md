@@ -13,8 +13,8 @@
 | **[Select Macro](macro_select)** | Selects a macro. |
 | **[Select This Macro](macro_select_this)** | Sets the opened file as the current macro. |
 | **[Customize Macros](customize_macro)** | Customizes macros. |
-| **[Customize Macros - My Macros](customize_macro_my_macros)** | Opens the Customizes Macros dialog box and selects the My Macros tab. |
-| **[Customize Macros - Options](customize_macro_options)** | Opens the Customizes Macros dialog box and selects the Options tab. |
+| **[Customize Macros - My Macros](customize_macro_my_macros)** | Opens the Customizes Macros dialog box and selects the My Macros page. |
+| **[Customize Macros - Options](customize_macro_options)** | Opens the Customizes Macros dialog box and selects the Options page. |
 | **[Macro Reference](macro_help)** | Displays EmEditor Macro reference. |
 | **[Find Macro Keyword](macro_help_word)** | Finds Help topics for selected macro keyword. |
 | **[Macros List](macro1)** | Runs a specified macro in My Macros list (multiple items). |

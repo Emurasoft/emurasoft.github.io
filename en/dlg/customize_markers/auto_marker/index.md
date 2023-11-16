@@ -1,6 +1,6 @@
-# Auto Marker tab
+# Auto Marker page
 
-The **Auto Marker** tab allows you to customize the Auto Marker.
+The **Auto Marker** page allows you to customize the Auto Marker.
 
 ## Enable Auto Marker check box
 

@@ -1,6 +1,6 @@
-# My Macros tab
+# My Macros page
 
-The **My Macros** tab allows you to set options related to **My Macros**.
+The **My Macros** page allows you to set options related to **My Macros**.
 
 ## My Macros list box
 

@@ -6,7 +6,7 @@ Displays EmEditor Macro Reference.
 
 ## Description
 
-Displays the Macro Reference tab of EmEditor Help.
+Displays the Macro Reference page of EmEditor Help.
 
 ## How to Run
 

@@ -2,11 +2,11 @@
 
 ## Summary
 
-Displays the Customize Markers dialog box, and selects the Options tab.
+Displays the Customize Markers dialog box, and selects the Options page.
 
 ## Description
 
-Displays the [**Customize Markers** dialog box](../../dlg/customize_markers/index), and selects the Options tab.
+Displays the [**Customize Markers** dialog box](../../dlg/customize_markers/index), and selects the Options page.
 
 ## How to Run
 

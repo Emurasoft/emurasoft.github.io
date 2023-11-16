@@ -6,7 +6,7 @@ Sorts text at the current column by length in ascending order.
 
 ## Description
 
-Sorts text at the current column by length in ascending order. The **Treat full-width characters as 2 characters when sorting by length** check box in the **Sort** tab
+Sorts text at the current column by length in ascending order. The **Treat full-width characters as 2 characters when sorting by length** check box in the **Sort** page
 of the **Customize** dialog box defines how full-width characters are counted.
 
 ## How to Run

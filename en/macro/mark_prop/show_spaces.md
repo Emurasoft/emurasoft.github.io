@@ -2,7 +2,7 @@
 
 Corresponds to the **Show**
 **Spaces** check box in the
-[**Marks** tab](../../dlg/properties/marks/index) of Configuration Properties.
+[**Marks** page](../../dlg/properties/marks/index) of Configuration Properties.
 
 ## 
 

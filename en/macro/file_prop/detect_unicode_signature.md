@@ -1,6 +1,6 @@
 # DetectUnicodeSignature Property (FileProp Object)
 
-Corresponds to the **Detect Unicode Signature (BOM)** check box in the [**File** tab](../../dlg/properties/file/index) of Configuration Properties.
+Corresponds to the **Detect Unicode Signature (BOM)** check box in the [**File** page](../../dlg/properties/file/index) of Configuration Properties.
 
 ## 
 

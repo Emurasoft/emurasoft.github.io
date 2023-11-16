@@ -1,6 +1,6 @@
-# Options tab
+# Options page
 
-The **Options** tab allows you to customize the marker options.
+The **Options** page allows you to customize the marker options.
 
 ## Default Color drop-down list box
 

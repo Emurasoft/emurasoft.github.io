@@ -1,6 +1,6 @@
-# Options tab
+# Options page
 
-The **Options** tab allows you to set options related to the **Macros** menu.
+The **Options** page allows you to set options related to the **Macros** menu.
 
 ## Add to My Macros when New Macro is Saved or   Selected check box
 

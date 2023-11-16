@@ -7,7 +7,7 @@ Displays Save File Details Properties.
 ## Description
 
 Displays the [**Save File Details Properties** subdialog box](../../dlg/properties/file/save_details/index)
-of the **File** tab of the **[Configuration Properties](../../dlg/properties/index)**
+of the **File** page of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run
