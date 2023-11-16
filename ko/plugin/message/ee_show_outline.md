@@ -1,7 +1,6 @@
 # EE\_SHOW\_OUTLINE
 
-개요를 보이거나 숨깁니다. 이 메시지를 명시적으로 보내거나 [Editor\_ShowOutline 인라인 함수를 \
-사용할 수 있습니다.](../macro/editor_showoutline)
+개요를 보이거나 숨깁니다. 이 메시지를 명시적으로 보내거나 [Editor\_ShowOutline 인라인 함수를 사용할 수 있습니다.](../macro/editor_showoutline)
 
 ```
 EE_SHOW_OUTLINE

@@ -7,8 +7,7 @@
 ## 설명
 
 **[구성 속성](../../dlg/properties/index)** 대화 상자의
-[**백업** \
-탭](../../dlg/properties/backup/index) 을 표시합니다.
+[**백업** 탭](../../dlg/properties/backup/index) 을 표시합니다.
 
 ## 실행하는 방법
 

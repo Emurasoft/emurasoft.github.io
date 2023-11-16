@@ -7,8 +7,7 @@
 ## 설명
 
 **[구성 속성](../../dlg/properties/index)** 대화 상자의
-[**배치**\
-탭](../../dlg/properties/wrap/index) 을 표시합니다.
+[**배치**탭](../../dlg/properties/wrap/index) 을 표시합니다.
 
 ## 실행하는 방법
 

@@ -1,8 +1,7 @@
 # EE\_INSERT\_STRINGA
 
 현재 커서 위치에 ANSI 문자열을 삽입합니다. 이 메시지를 명시적으로 보내거나
-[Editor\_InsertStringA \
-macro](../macro/editor_insertstringa), [Editor\_InsertA macro](../macro/editor_inserta), 또는
+[Editor\_InsertStringA macro](../macro/editor_insertstringa), [Editor\_InsertA macro](../macro/editor_inserta), 또는
 [Editor\_OverwriteA](../macro/editor_overwritea) 인라인 함수를 사용할 수
 있습니다.
 

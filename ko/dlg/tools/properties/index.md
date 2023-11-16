@@ -108,6 +108,5 @@
 
 ## 참조
 
-[Q. \
-외부 도구 구성에는 예를 들어 무엇이 있습니까?](../../../faq/tools/tools_external)
+[Q. 외부 도구 구성에는 예를 들어 무엇이 있습니까?](../../../faq/tools/tools_external)
 

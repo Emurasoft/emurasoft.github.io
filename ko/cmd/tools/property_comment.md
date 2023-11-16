@@ -7,8 +7,7 @@
 ## 설명
 
 **[구성 속성](../../dlg/properties/index)** 대화 상자의
-[**강조 표시 (2)**\
-탭](../../dlg/properties/highlight2/index) 을 표시합니다.
+[**강조 표시 (2)**탭](../../dlg/properties/highlight2/index) 을 표시합니다.
 
 ## 실행하는 방법
 

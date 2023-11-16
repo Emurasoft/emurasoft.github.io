@@ -15,8 +15,7 @@ lParam = (LPARAM) (GREP_INFOA) pGrepInfo;
 
 _pGrepInfo_
 
-[GREP\_INFOA \
-구조](../structure/grep_infoa) 에 대한 포인터를 지정합니다.
+[GREP\_INFOA 구조](../structure/grep_infoa) 에 대한 포인터를 지정합니다.
 
 ## 반환 값
 

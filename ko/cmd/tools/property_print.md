@@ -7,8 +7,7 @@
 ## 설명
 
 **[구성 속성](../../dlg/properties/index)** 대화 상자의
-[**인쇄**\
-탭](../../dlg/properties/print/index) 을 표시합니다.
+[**인쇄**탭](../../dlg/properties/print/index) 을 표시합니다.
 
 ## 실행하는 방법
 
