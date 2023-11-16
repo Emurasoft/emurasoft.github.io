@@ -1,8 +1,7 @@
 # EE\_INSERT\_STRINGW
 
 カーソル位置にUnicode文字列を挿入します。このメッセージを直接送るか、または
-[Editor\_InsertStringW インライン関数](../macro/editor_insertstringw)、 [Editor\_InsertW \
-インライン関数](../macro/editor_insertw)、 [Editor\_OverwriteW インライン関数](../macro/editor_overwritew) を使うことができます。
+[Editor\_InsertStringW インライン関数](../macro/editor_insertstringw)、 [Editor\_InsertW インライン関数](../macro/editor_insertw)、 [Editor\_OverwriteW インライン関数](../macro/editor_overwritew) を使うことができます。
 
 ```
 EE_INSERT_STRINGW

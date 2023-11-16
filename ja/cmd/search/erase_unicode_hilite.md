@@ -6,8 +6,7 @@
 
 ## 説明
 
-保存用エンコードに変換できないUnicode文字の強調表示を解除します。また、 [\[次のUnicode文字を検索\] \
-コマンド](find_next_unicode)、 [\[前のUnicode文字を検索\] コマンド](find_prev_unicode) で検索に使用する保存用エンコードをリセットします。
+保存用エンコードに変換できないUnicode文字の強調表示を解除します。また、 [\[次のUnicode文字を検索\] コマンド](find_next_unicode)、 [\[前のUnicode文字を検索\] コマンド](find_prev_unicode) で検索に使用する保存用エンコードをリセットします。
 
 ## 実行方法
 

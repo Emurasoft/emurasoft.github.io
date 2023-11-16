@@ -1,7 +1,6 @@
 # Editor\_MatchRegex
 
-正規表現で指定する文字列が一致するかどうかを調べます。このインライン関数を使うか、または [EE\_MATCH\_REGEX \
-メッセージ](../message/ee_match_regex) を直接送ることができます。
+正規表現で指定する文字列が一致するかどうかを調べます。このインライン関数を使うか、または [EE\_MATCH\_REGEX メッセージ](../message/ee_match_regex) を直接送ることができます。
 
 Editor\_MatchRegex( HWND hwnd, MATCH\_REGEX\_INFO\_EX\* pMatchRegexInfo );
 

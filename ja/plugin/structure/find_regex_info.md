@@ -1,7 +1,6 @@
 # FIND\_REGEX\_INFO
 
-[Editor\_FindRegex インライン関数](../macro/editor_findregex) ( [EE\_FIND\_REGEX \
-メッセージ](../message/ee_find_regex)) で使用します。この構造体は使用されなくなります。新しいプラグインは、 [FIND\_REGEX\_INFO\_EX 構造体](find_regex_info_ex) を使用してください。
+[Editor\_FindRegex インライン関数](../macro/editor_findregex) ( [EE\_FIND\_REGEX メッセージ](../message/ee_find_regex)) で使用します。この構造体は使用されなくなります。新しいプラグインは、 [FIND\_REGEX\_INFO\_EX 構造体](find_regex_info_ex) を使用してください。
 
 ```
 typedef struct _FIND_REGEX_INFO {

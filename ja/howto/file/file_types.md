@@ -17,5 +17,4 @@ Windows 2000/XP/2003 の場合、コントロール パネルの \[地域と言�
 
 - Unicode が利用できますが、アラビア語、ヘブライ語のような右から左へ書く言語は正しく編集できません。また、Unicode の制御文字はすべてに対応していません。
 - Unicode が利用できますが、フォントによって表示できる文字に制限があります。使用する言語により適切なフォントを選択する必要があります。
-- [Null 文字](../../glossary/nullcharacter) を含むファイルを開くと、 [Null \
-文字](../../glossary/nullcharacter) がスペースに置き換わります。
+- [Null 文字](../../glossary/nullcharacter) を含むファイルを開くと、 [Null 文字](../../glossary/nullcharacter) がスペースに置き換わります。

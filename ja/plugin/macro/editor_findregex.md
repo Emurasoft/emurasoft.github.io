@@ -1,7 +1,6 @@
 # Editor\_FindRegex
 
-正規表現を指定した文字列から検索します。このインライン関数を使うか、または [EE\_FIND\_REGEX \
-メッセージ](../message/ee_find_regex) を直接送ることができます。
+正規表現を指定した文字列から検索します。このインライン関数を使うか、または [EE\_FIND\_REGEX メッセージ](../message/ee_find_regex) を直接送ることができます。
 
 Editor\_FindRegex( HWND hwnd, FIND\_REGEX\_INFO\_EX\* pFindRegexInfo );
 

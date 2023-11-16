@@ -23,8 +23,7 @@ document.selection.CharLeft False, 12
 ```
 上記のマクロを保存して別の EmEditor ウィンドウで実行すると、マクロの終了後に、カーソル位置は、最後の行末から 12 個文字左、つまり、"text
 editor" の最初の t の文字の位置に来るはずです。
-[CharLeft メソッド](../selection/selection_charleft) は、カーソル位置を左に指定した文字数だけ移動することを示しています。 [CharLeft \
-メソッド](../selection/selection_charleft) の第 1 引数 (false) は、選択範囲の変更を意味するかどうかを指定しています。つまり、キーボードで、左向き矢印キーを押す時に、Shift
+[CharLeft メソッド](../selection/selection_charleft) は、カーソル位置を左に指定した文字数だけ移動することを示しています。 [CharLeft メソッド](../selection/selection_charleft) の第 1 引数 (false) は、選択範囲の変更を意味するかどうかを指定しています。つまり、キーボードで、左向き矢印キーを押す時に、Shift
 キーを押しながら操作するかどうかを示します。
 同様にカーソル位置を移動するために、次のメソッドが用意されています。
 |     |     |

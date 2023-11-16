@@ -1,7 +1,6 @@
 # GREP\_INFOW
 
-[Editor\_FindInFilesW インライン関数](../macro/editor_findinfilesw)、 [Editor\_ReplaceInFilesW インライン関数](../macro/editor_replaceinfilesw) ( [EE\_FIND\_IN\_FILESW \
-メッセージ](../message/ee_find_in_filesw)、 [EE\_REPLACE\_IN\_FILESW メッセージ](../message/ee_replace_in_filesw)) で使用します。この構造体は使用されなくなります。新しいプラグインは、 [GREP\_INFO\_EX 構造体](grep_info_ex) を使用してください。
+[Editor\_FindInFilesW インライン関数](../macro/editor_findinfilesw)、 [Editor\_ReplaceInFilesW インライン関数](../macro/editor_replaceinfilesw) ( [EE\_FIND\_IN\_FILESW メッセージ](../message/ee_find_in_filesw)、 [EE\_REPLACE\_IN\_FILESW メッセージ](../message/ee_replace_in_filesw)) で使用します。この構造体は使用されなくなります。新しいプラグインは、 [GREP\_INFO\_EX 構造体](grep_info_ex) を使用してください。
 
 ```
 typedef struct _GREP_INFOW {

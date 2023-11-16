@@ -1,7 +1,6 @@
 # Editor\_BatchFindReplace
 
-複数の文字列を検索または置換します。このインライン関数を使うか、または [EE\_FIND\_REPLACE \
-メッセージ](../message/ee_find_replace) を直接送ることができます。
+複数の文字列を検索または置換します。このインライン関数を使うか、または [EE\_FIND\_REPLACE メッセージ](../message/ee_find_replace) を直接送ることができます。
 
 HRESULT Editor\_BatchFindReplace( HWND hwnd, FIND\_REPLACE\_INFO\* pBatchArray, UINT nBatchCount, UINT64 nBatchFlags, UINT64\* pnTotalCount );
 
