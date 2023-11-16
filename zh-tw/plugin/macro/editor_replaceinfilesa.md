@@ -12,8 +12,7 @@ _hwnd_
 
 _pGrepInfo_
 
-指定一個指標至 [GREP\_INFOW \
-結構](../structure/grep_infow)。
+指定一個指標至 [GREP\_INFOW 結構](../structure/grep_infow)。
 
 ## 返回值
 

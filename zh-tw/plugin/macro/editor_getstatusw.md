@@ -1,7 +1,6 @@
 # Editor\_GetStatusW
 
-檢索顯示在狀態列上的 Unicode 文字。您能直接用該內嵌函式或明確地發送 [EE\_GET\_STATUSW \
-message](../message/ee_get_statusw).
+檢索顯示在狀態列上的 Unicode 文字。您能直接用該內嵌函式或明確地發送 [EE\_GET\_STATUSW message](../message/ee_get_statusw).
 
 Editor\_GetStatusW( HWND hwnd, LPWSTR szStatus, UINT nBufSize );
 

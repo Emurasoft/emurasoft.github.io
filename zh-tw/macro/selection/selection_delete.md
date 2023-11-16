@@ -20,8 +20,7 @@ document.selection.Delete [[ nCount ], bComplete ]
 
 _nCount_
 
-可選項。指定游標右邊要刪除的字元數。預設值為 1。如果指定的是負數，那這個方法與 [**DeleteLeft** \
-方法](selection_deleteleft) 的行為相同。如果指定的是 0，會刪除游標往右的 1 個字元數。
+可選項。指定游標右邊要刪除的字元數。預設值為 1。如果指定的是負數，那這個方法與 [**DeleteLeft** 方法](selection_deleteleft) 的行為相同。如果指定的是 0，會刪除游標往右的 1 個字元數。
 
 _bComplete_
 
