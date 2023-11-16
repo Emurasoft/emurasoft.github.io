@@ -1,6 +1,6 @@
 # SaveToFolderIfRecycleFailed プロパティ (BackupProp オブジェクト)
 
-設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の **\[ごみ箱に保存できない場合、バックアップ フォルダに保存\]** チェック
+設定のプロパティの [**\[バックアップ\]** ページ](../../dlg/properties/backup/index) の **\[ごみ箱に保存できない場合、バックアップ フォルダに保存\]** チェック
 ボックスに相当します。
 
 ## 

@@ -1,6 +1,6 @@
 # CommentBegin プロパティ (HighlightProp オブジェクト)
 
-設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[開始\] テキスト ボックスに相当します。
+設定のプロパティの [**\[強調(2)\]** ページ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[開始\] テキスト ボックスに相当します。
 
 ## 
 

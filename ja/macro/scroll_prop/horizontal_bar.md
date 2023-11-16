@@ -1,6 +1,6 @@
 # HorizontalBar プロパティ (ScrollProp オブジェクト)
 
-設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の
+設定のプロパティの [**\[スクロール\]** ページ](../../dlg/properties/scroll/index) の
 **\[水平スクロール バー\]** ドロップダウン リスト ボックスに相当します。
 
 ## 

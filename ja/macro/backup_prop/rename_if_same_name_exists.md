@@ -1,6 +1,6 @@
 # RenameIfSameNameExists プロパティ (BackupProp オブジェクト)
 
-設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の
+設定のプロパティの [**\[バックアップ\]** ページ](../../dlg/properties/backup/index) の
 **\[同名のファイルが存在する場合はファイル名を変更する\]** チェック ボックスに相当します。
 
 ## 

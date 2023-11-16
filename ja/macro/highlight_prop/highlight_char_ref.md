@@ -1,6 +1,6 @@
 # HighlightCharRef プロパティ (HighlightProp オブジェクト)
 
-設定のプロパティの [**\[強調(2)\]** タブ](../../dlg/properties/highlight2/index) の
+設定のプロパティの [**\[強調(2)\]** ページ](../../dlg/properties/highlight2/index) の
 **\[HTML/XML文字参照とUCNを強調する\]** チェック ボックスに相当します。
 
 ## 

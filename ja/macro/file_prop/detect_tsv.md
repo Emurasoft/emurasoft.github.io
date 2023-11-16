@@ -1,6 +1,6 @@
 # DetectTSV プロパティ (FileProp オブジェクト)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の
+設定のプロパティの [**\[ファイル\]** ページ](../../dlg/properties/file/index) の
 **\[TSV（タブ区切り）を検出\]** チェック ボックスに相当します。
 
 ## 

@@ -1,6 +1,6 @@
 # AllowControlCharacter プロパティ (GeneralProp オブジェクト)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の
+設定のプロパティの [**\[基本\]** ページ](../../dlg/properties/general/index) の
 **\[制御文字の入力を許可\]** チェック ボックスに相当します。
 
 ## 

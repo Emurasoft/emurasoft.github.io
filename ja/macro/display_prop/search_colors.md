@@ -1,6 +1,6 @@
 # SearchColors プロパティ (DisplayProp オブジェクト)
 
-設定のプロパティの [**\[表示\]** タブ](../../dlg/properties/display/index) の **\[検索色\]** テキスト ボックスに相当します。
+設定のプロパティの [**\[表示\]** ページ](../../dlg/properties/display/index) の **\[検索色\]** テキスト ボックスに相当します。
 
 ## 
 

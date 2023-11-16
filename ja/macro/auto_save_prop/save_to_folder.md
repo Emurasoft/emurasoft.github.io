@@ -1,6 +1,6 @@
 # SaveToFolder プロパティ (AutoSaveProp オブジェクト)
 
-設定のプロパティの [**\[自動保存\]** タブ](../../dlg/properties/autosave/index) の
+設定のプロパティの [**\[自動保存\]** ページ](../../dlg/properties/autosave/index) の
 **\[自動保存フォルダに保存\]** チェック ボックスに相当します。
 
 ## 

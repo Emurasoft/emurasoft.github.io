@@ -1,6 +1,6 @@
 # URLCharacters プロパティ (LinkProp オブジェクト)
 
-設定のプロパティの [**\[リンク\]** タブ](../../dlg/properties/link/index) の
+設定のプロパティの [**\[リンク\]** ページ](../../dlg/properties/link/index) の
 **\[認識する文字\]** テキスト ボックスに相当します。
 
 ## 

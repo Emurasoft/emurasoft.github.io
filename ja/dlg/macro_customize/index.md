@@ -5,9 +5,9 @@
 
 設定のプロパティには、次のページが存在します。
 
-![](../../images/b.gif)[\[マイ マクロ\] タブ](my_macros/index)
+![](../../images/b.gif)[\[マイ マクロ\] ページ](my_macros/index)
 
-![](../../images/b.gif)[\[オプション\] タブ](options/index)
+![](../../images/b.gif)[\[オプション\] ページ](options/index)
 
 
 ```{toctree}

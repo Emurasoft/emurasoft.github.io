@@ -5,7 +5,7 @@
 |     |     |
 | --- | --- |
 | [AlwaysEnabled](always_enabled) | [**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の **\[変更がなくても保存を有効\]** チェック ボックスに相当します。 |
-| [DefaultExtension](default_extension) | 設定のプロパティの [**\[ファイル\]**](../../dlg/properties/file/index) タブの **\[既定の拡張子\]** テキスト ボックスに相当します。 |
+| [DefaultExtension](default_extension) | 設定のプロパティの [**\[ファイル\]**](../../dlg/properties/file/index) ページの **\[既定の拡張子\]** テキスト ボックスに相当します。 |
 | [DeleteEmpty](delete_empty) | [**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の **\[保存時、空のファイルは削除\]** チェック ボックスに相当します。 |
 | [DeleteSpacesAtEnd](delete_spaces_at_end) | [**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の <br> **\[行末の空白を削除\]** チェック ボックスに相当します。 |
 | [Encoding](encoding) | [**\[保存時の詳細\]** ダイアログ ボックス](../../dlg/properties/file/save_details/index) の <br> **\[エンコード\]** ドロップダウン リスト ボックスに相当します。 |

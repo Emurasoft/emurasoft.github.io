@@ -1,6 +1,6 @@
 # Script プロパティ (SpellProp オブジェクト)
 
-設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の
+設定のプロパティの [**\[スペル チェック\]** ページ](../../dlg/properties/spell/index) の
 **\[スクリプト\]** チェック ボックスに相当します。
 
 ## 

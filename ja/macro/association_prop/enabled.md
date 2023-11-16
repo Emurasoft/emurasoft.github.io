@@ -1,6 +1,6 @@
 # Enabled プロパティ (AssociationProp オブジェクト)
 
-設定のプロパティの [**\[関連付け\]** タブ](../../dlg/properties/associate/index) の
+設定のプロパティの [**\[関連付け\]** ページ](../../dlg/properties/associate/index) の
 **\[ここで設定する関連付けを有効にする\]** チェック ボックス に相当します。
 
 ## 

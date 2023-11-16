@@ -1,6 +1,6 @@
 # DetectCharset プロパティ (FileProp オブジェクト)
 
-設定のプロパティの [**\[ファイル\]** タブ](../../dlg/properties/file/index) の
+設定のプロパティの [**\[ファイル\]** ページ](../../dlg/properties/file/index) の
 **\[HTML/XMLのCharsetを検出\]**
 チェック ボックスに相当します。
 

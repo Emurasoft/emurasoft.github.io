@@ -1,6 +1,6 @@
 # Folder プロパティ (BackupProp オブジェクト)
 
-設定のプロパティの [**\[バックアップ\]** タブ](../../dlg/properties/backup/index) の
+設定のプロパティの [**\[バックアップ\]** ページ](../../dlg/properties/backup/index) の
 **\[バックアップ フォルダ\]** テキスト ボックスに相当します。
 
 ## 

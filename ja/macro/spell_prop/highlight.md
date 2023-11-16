@@ -1,6 +1,6 @@
 # Highlight プロパティ (SpellProp オブジェクト)
 
-設定のプロパティの [**\[スペル チェック\]** タブ](../../dlg/properties/spell/index) の
+設定のプロパティの [**\[スペル チェック\]** ページ](../../dlg/properties/spell/index) の
 **\[強調文字列\]** チェック ボックスに相当します。
 
 ## 
