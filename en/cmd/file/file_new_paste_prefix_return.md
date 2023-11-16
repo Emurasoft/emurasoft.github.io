@@ -6,8 +6,7 @@ Creates a file, pastes the current selection in quotes and newline characters.
 
 ## Description
 
-This command is equivalent to the [**New Text** \
-command](file_new) followed by the [**Paste in Quotes and Newline Characters** command](../edit/paste_prefix_return).
+This command is equivalent to the [**New Text** command](file_new) followed by the [**Paste in Quotes and Newline Characters** command](../edit/paste_prefix_return).
 
 ## How to Run
 

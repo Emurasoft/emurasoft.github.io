@@ -40,8 +40,7 @@ The length of lines in bytes that begins with quote characters when **Wrapped by
 
 Quote character that EmEditor uses for the **Quoted Line**
 **Margin** text box. It is also used by the
-[**Quote**\
-**Copy** command](../../../cmd/edit/edit_copy_prefix).
+[**Quote****Copy** command](../../../cmd/edit/edit_copy_prefix).
 
 ## Show Line Numbers check box
 
@@ -90,8 +89,7 @@ with LF only returns.
 ## Always Paste as ANSI check box
 
 If this box is checked, text is pasted from the Clipboard not as Unicode, but
-always as the [system \
-default encoding](../../../glossary/systemdefaultencoding). This option is sometimes useful when you want to copy text from
+always as the [system default encoding](../../../glossary/systemdefaultencoding). This option is sometimes useful when you want to copy text from
 other applications that have a problem converting text from the
 [system default encoding](../../../glossary/systemdefaultencoding)
 to Unicode.
@@ -102,8 +100,7 @@ When this is checked, the cursor can move beyond the end of each line, and space
 
 ## Tab/Indent button
 
-Press this button to display the [**Tab/Indent** dialog \
-box](indent/index) to specify **Auto Indent** settings.
+Press this button to display the [**Tab/Indent** dialog box](indent/index) to specify **Auto Indent** settings.
 
 ## Reset button
 

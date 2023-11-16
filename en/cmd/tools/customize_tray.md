@@ -6,8 +6,7 @@ Customizes Tray Icon.
 
 ## Description
 
-Displays the [**Customize Tray Icon** \
-dialog box](../../dlg/tray/index), where you can customize the System Tray icon settings.
+Displays the [**Customize Tray Icon** dialog box](../../dlg/tray/index), where you can customize the System Tray icon settings.
 
 ## How to Run
 

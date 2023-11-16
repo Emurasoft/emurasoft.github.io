@@ -1,8 +1,7 @@
 # Toolbars dialog box
 
 This dialog box appears when the
-[**Customize Toolbars** \
-command](../../cmd/tools/customize_toolbar) is selected.
+[**Customize Toolbars** command](../../cmd/tools/customize_toolbar) is selected.
 
 ## Basic Toolbars list box
 

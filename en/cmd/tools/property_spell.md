@@ -6,8 +6,7 @@ Displays Spelling properties.
 
 ## Description
 
-Displays the [**Spelling** \
-page](../../dlg/properties/spell/index)
+Displays the [**Spelling** page](../../dlg/properties/spell/index)
 of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 

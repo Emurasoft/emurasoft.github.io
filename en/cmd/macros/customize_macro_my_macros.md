@@ -6,8 +6,7 @@ Displays the Customizes Macros dialog box and selects the My Macros tab.
 
 ## Description
 
-Displays the [**Customize Macros** \
-dialog box](../../dlg/macro_customize/index), and selects the **My Macros** tab.
+Displays the [**Customize Macros** dialog box](../../dlg/macro_customize/index), and selects the **My Macros** tab.
 
 ## How to Run
 

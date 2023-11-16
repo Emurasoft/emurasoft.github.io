@@ -22,16 +22,13 @@ orphan: true
 - [Insert Caron command](../cmd/insert/insert_caron)
 - [Tabify All command](../cmd/edit/space_to_tab)
 - [Move to Last Edited Position command](../cmd/edit/move_last_edit)
-- [Next Bookmark in This \
-Window command](../cmd/bookmarks/bookmark_next_within)
-- [Previous Bookmark in This \
-Window command](../cmd/bookmarks/bookmark_prev_within)
+- [Next Bookmark in This Window command](../cmd/bookmarks/bookmark_next_within)
+- [Previous Bookmark in This Window command](../cmd/bookmarks/bookmark_prev_within)
 - [Replace in Files command](../cmd/search/replace_in_files)
 - [Marks command](../cmd/view/view_marks)
 - [Increase Font Size command](../cmd/view/increase_font_size)
 - [Decrease Font Size command](../cmd/view/decrease_font_size)
-- [Run Macro with Temporary \
-Options command](../cmd/macros/macro_run_options)
+- [Run Macro with Temporary Options command](../cmd/macros/macro_run_options)
 - [Save Macro command](../cmd/macros/macro_save)
 - [Edit Macro command](../cmd/macros/macro_edit)
 - [Select Macro command](../cmd/macros/macro_select)
@@ -53,10 +50,8 @@ Options command](../cmd/macros/macro_run_options)
 ## New dialog boxes
 
 - [Replace in Files dialog box](../dlg/replace_in_files/index)
-- [Macro Temporary Options dialog \
-box](../dlg/macro_temp_options/index)
-- [Customize Macros dialog box \
-dialog box](../dlg/macro_customize/index)
+- [Macro Temporary Options dialog box](../dlg/macro_temp_options/index)
+- [Customize Macros dialog box dialog box](../dlg/macro_customize/index)
 
 ## Existing dialog boxes with new options
 
@@ -72,8 +67,7 @@ dialog box](../dlg/macro_customize/index)
 - ![](../images/saveexitall.gif)[Save and Close All command](../cmd/file/save_exit_all)
 - ![](../images/nextparen.gif)[Find Matching Parenthesis/Bracket command](../cmd/edit/next_paren)
 - ![](../images/duplicateline.gif)[Duplicate Line command](../cmd/insert/duplicate_line)
-- ![](../images/insertcontrol.gif)[Insert Special Character \
-command](../cmd/insert/insert_control)
+- ![](../images/insertcontrol.gif)[Insert Special Character command](../cmd/insert/insert_control)
 - ![](../images/marks.gif)[Marks command](../cmd/view/view_marks)
 - ![](../images/editcomment.gif)[Comment command](../cmd/convert/edit_comment)
 - ![](../images/edituncomment.gif)[Uncomment command](../cmd/convert/edit_uncomment)
@@ -87,10 +81,8 @@ command](../cmd/insert/insert_control)
 - ![](../images/increasefontsize.gif)[Increase Font Size command](../cmd/view/increase_font_size)
 - ![](../images/decreasefontsize.gif)[Decrease Font Size command](../cmd/view/decrease_font_size)
 - ![](../images/replaceinfiles.gif)[Replace in Files command](../cmd/search/replace_in_files)
-- ![](../images/bookmarkprevwithin.gif)[Previous Bookmark in This \
-Window command](../cmd/bookmarks/bookmark_prev_within)
-- ![](../images/bookmarknextwithin.gif)[Next Bookmark in This Window \
-command](../cmd/bookmarks/bookmark_next_within)
+- ![](../images/bookmarkprevwithin.gif)[Previous Bookmark in This Window command](../cmd/bookmarks/bookmark_prev_within)
+- ![](../images/bookmarknextwithin.gif)[Next Bookmark in This Window command](../cmd/bookmarks/bookmark_next_within)
 
 ## Other new features
 
@@ -111,9 +103,7 @@ expressions.
 in the [**Find in Files** dialog box](../dlg/find_in_files/index).
 - Added the **Change Font for Find/Replace Drop-Down List** check box
 and the **Change Font only if Character Set of Selected Font is not System Default**
-check box in the [**Search** \
-page](../dlg/customize/search/index) of the [**Customize** dialog \
-box](../dlg/customize/index), which allows you to select conditions when the font for the
+check box in the [**Search** page](../dlg/customize/search/index) of the [**Customize** dialog box](../dlg/customize/index), which allows you to select conditions when the font for the
 **Find/Replace** drop-down list should be adjusted to the current font.
 - Added a shortcut key to display the **Tray Icon** menu. By default,
 it is ALT + CTRL + N,

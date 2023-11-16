@@ -1,7 +1,6 @@
 # Select Events dialog box
 
-This dialog box appears when the Events button on the [**My Macros** \
-page](../index) of the [**Customize Macros** dialog box](../../index) is selected.
+This dialog box appears when the Events button on the [**My Macros** page](../index) of the [**Customize Macros** dialog box](../../index) is selected.
 
 This dialog box is available only when logged on with the Administrative privileges.
 

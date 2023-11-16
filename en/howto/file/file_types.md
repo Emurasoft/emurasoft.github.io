@@ -23,6 +23,4 @@ Unicode control characters are supported.
 - You can edit Unicode text files but it depends on the font. Some display
 characters are not supported. You need to choose an appropriate font for the
 language you wish to use.
-- When a file contains [null \
-characters](../../glossary/index), the [null \
-characters](../../glossary/index) will be converted into spaces.
+- When a file contains [null characters](../../glossary/index), the [null characters](../../glossary/index) will be converted into spaces.

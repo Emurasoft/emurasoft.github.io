@@ -6,9 +6,7 @@ Saves the workspace, saves and closes all open files.
 
 ## Description
 
-This command saves the workspace and all open documents, then closes all open documents. This command is equivalent to the [Save \
-Workspace command](save_workspace) followed by the [Save and \
-Close All command](save_exit_all).
+This command saves the workspace and all open documents, then closes all open documents. This command is equivalent to the [Save Workspace command](save_workspace) followed by the [Save and Close All command](save_exit_all).
 
 ## How to Run
 

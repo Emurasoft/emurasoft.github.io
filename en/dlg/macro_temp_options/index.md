@@ -1,8 +1,7 @@
 # Macro Temporary Options dialog box
 
 This dialog box appears when the
-[**Run with Temporary Options** \
-command](../../cmd/macros/macro_run_options) is selected.
+[**Run with Temporary Options** command](../../cmd/macros/macro_run_options) is selected.
 
 ## Macro text box
 

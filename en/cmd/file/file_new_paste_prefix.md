@@ -6,9 +6,7 @@ Creates a new file and inserts the contents of the Clipboard in quotes.
 
 ## Description
 
-This command is equivalent to the [**New Text** \
-command](file_new) followed by the [**Paste in**\
-**Quotes** command](../edit/paste_prefix). By default, the new file will use the Text configuration. You can change the default configuration at the
+This command is equivalent to the [**New Text** command](file_new) followed by the [**Paste in****Quotes** command](../edit/paste_prefix). By default, the new file will use the Text configuration. You can change the default configuration at the
 [**Define Configurations** dialog box](../../dlg/configurations/index).
 
 ## How to Run

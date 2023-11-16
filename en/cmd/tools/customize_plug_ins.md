@@ -6,8 +6,7 @@ Customizes Plug-ins.
 
 ## Description
 
-Displays the [**Customize Plug-ins** \
-dialog box](../../dlg/plugins/index), where you can customize the plug-ins settings.
+Displays the [**Customize Plug-ins** dialog box](../../dlg/plugins/index), where you can customize the plug-ins settings.
 
 ## How to Run
 

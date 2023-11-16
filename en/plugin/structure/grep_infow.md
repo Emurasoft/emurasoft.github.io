@@ -1,9 +1,7 @@
 # GREP\_INFOW
 
 Used by [Editor\_FindInFilesW macro](../macro/editor_findinfilesw),
-[Editor\_ReplaceInFilesW macro](../macro/editor_replaceinfilesw) ( [EE\_FIND\_IN\_FILESW \
-message](../message/ee_find_in_filesw), [EE\_REPLACE\_IN\_FILESW \
-message](../message/ee_replace_in_filesw)). This structure is obsolete. Newer plug-ins should use the [GREP\_INFO\_EX structure](grep_info_ex) instead.
+[Editor\_ReplaceInFilesW macro](../macro/editor_replaceinfilesw) ( [EE\_FIND\_IN\_FILESW message](../message/ee_find_in_filesw), [EE\_REPLACE\_IN\_FILESW message](../message/ee_replace_in_filesw)). This structure is obsolete. Newer plug-ins should use the [GREP\_INFO\_EX structure](grep_info_ex) instead.
 
 ```
 typedef struct _GREP_INFOW {

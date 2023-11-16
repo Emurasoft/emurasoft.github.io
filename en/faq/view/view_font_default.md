@@ -8,5 +8,4 @@ the file to the
 [system default encoding](../../glossary/systemdefaultencoding).
 In order to open a file with a different encoding, you need to select the
 desired encoding when you open the file. You can later change the encoding by
-choosing the [**Reload** \
-command](../../cmd/file/file_reload_defined) under the **File** menu and selecting a different encoding option.
+choosing the [**Reload** command](../../cmd/file/file_reload_defined) under the **File** menu and selecting a different encoding option.

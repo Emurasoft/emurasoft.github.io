@@ -2,8 +2,7 @@
 
 Inserts an ANSI string into the current cursor position. You can send this
 message explicitly or use the
-[Editor\_InsertStringA \
-macro](../macro/editor_insertstringa), [Editor\_InsertA macro](../macro/editor_inserta), or
+[Editor\_InsertStringA macro](../macro/editor_insertstringa), [Editor\_InsertA macro](../macro/editor_inserta), or
 [Editor\_OverwriteA](../macro/editor_overwritea) inline function.
 
 ```

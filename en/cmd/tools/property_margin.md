@@ -6,8 +6,7 @@ General properties for current configuration.
 
 ## Description
 
-Displays the [**General** \
-page](../../dlg/properties/general/index) of the **[Configuration Properties](../../dlg/properties/index)**
+Displays the [**General** page](../../dlg/properties/general/index) of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run

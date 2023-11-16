@@ -6,8 +6,7 @@ Displays Print properties.
 
 ## Description
 
-Displays the [**Print** \
-page](../../dlg/properties/print/index)
+Displays the [**Print** page](../../dlg/properties/print/index)
 of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 

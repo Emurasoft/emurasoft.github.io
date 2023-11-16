@@ -11,5 +11,4 @@ the **Tools** menu, and click the **Reset** button.
 
 Encoding availability depends on which language system files you install in your copy of Windows. If you cannot find a particular encoding from within EmEditor, you can install additional language
 files from Control Panel - Regional and Language Options. After language system files are installed in your copy of Windows,
-select the [**Define Encoding** \
-command](../../cmd/tools/define_code_page) from the **Tools** menu, and click the **Reset** button.
+select the [**Define Encoding** command](../../cmd/tools/define_code_page) from the **Tools** menu, and click the **Reset** button.

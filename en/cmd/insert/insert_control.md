@@ -7,8 +7,7 @@ Inserts a special character.
 ## Description
 
 Inserts a special character at the cursor. This command will display the
-[**Insert Special Character** dialog \
-box](../../dlg/insert_special/index), where you can specify a character.
+[**Insert Special Character** dialog box](../../dlg/insert_special/index), where you can specify a character.
 
 ## How to Run
 

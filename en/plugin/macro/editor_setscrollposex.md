@@ -18,8 +18,7 @@ cursor position will not be changed.
 _bCanMoveCursor_
 
 If this parameter is TRUE and if the
-[**Move**\
-**Cursor by Scrolling** check box](../../dlg/properties/scroll/index) is selected, the cursor position will also move. If this parameter is FALSE, the cursor position will not move.
+[**Move****Cursor by Scrolling** check box](../../dlg/properties/scroll/index) is selected, the cursor position will also move. If this parameter is FALSE, the cursor position will not move.
 
 ## Return Values
 

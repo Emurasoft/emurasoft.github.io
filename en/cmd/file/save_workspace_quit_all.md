@@ -8,8 +8,7 @@ Saves the workspace and closes all open files.
 
 This command saves the full path names, the cursor positions, and other
 settings of all currently open documents in EmEditor, then closes all open
-documents. This command is equivalent to the [Save \
-Workspace command](save_workspace) followed by the [Close All command](exit_all).
+documents. This command is equivalent to the [Save Workspace command](save_workspace) followed by the [Close All command](exit_all).
 
 ## How to Run
 

@@ -16,8 +16,7 @@ delete the previous name, but save the file as the new name, equivalent to
 the behavior of the [**Save As** command](file_save_as). If the document has never been saved into a file, the **Rename** dialog box appears instead, where you can change the document title without saving it into a file.
 
 If you want to save the file as a different name but do not want to
-delete the previous file, use the [**Save As** \
-command](file_save_as) instead.
+delete the previous file, use the [**Save As** command](file_save_as) instead.
 
 ## How to Run
 

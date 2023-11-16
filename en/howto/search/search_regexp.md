@@ -20,5 +20,4 @@ also be used - see below).
 ## **See Also**
 
 - [Regular Expression Syntax](search_regexp_syntax)
-- [Q. What are examples of \
-regular expressions?](../../faq/search/search_reg_exp_ex)
+- [Q. What are examples of regular expressions?](../../faq/search/search_reg_exp_ex)

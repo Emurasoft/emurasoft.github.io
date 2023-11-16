@@ -6,8 +6,7 @@ Displays New File Details Properties.
 
 ## Description
 
-Displays the [**New File Details Properties** \
-subdialog box](../../dlg/properties/file/new_details/index)
+Displays the [**New File Details Properties** subdialog box](../../dlg/properties/file/new_details/index)
 of the **File** tab of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 

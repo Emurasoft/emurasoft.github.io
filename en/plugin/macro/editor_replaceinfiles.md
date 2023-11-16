@@ -14,8 +14,7 @@ Specifies the window handle of the view or frame of EmEditor.
 
 _pGrepInfo_
 
-Specifies a pointer to the [GREP\_INFO\_EX \
-Structure](../structure/grep_info_ex).
+Specifies a pointer to the [GREP\_INFO\_EX Structure](../structure/grep_info_ex).
 
 ## Return Value
 

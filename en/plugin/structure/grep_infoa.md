@@ -1,9 +1,7 @@
 # GREP\_INFOA
 
 Used by [Editor\_FindInFilesA macro](../macro/editor_findinfilesa),
-[Editor\_ReplaceInFilesA inline functions](../macro/editor_replaceinfilesa) ( [EE\_FIND\_IN\_FILESA \
-message](../message/ee_find_in_filesa), [EE\_REPLACE\_IN\_FILESA \
-message](../message/ee_replace_in_filesa) s).
+[Editor\_ReplaceInFilesA inline functions](../macro/editor_replaceinfilesa) ( [EE\_FIND\_IN\_FILESA message](../message/ee_find_in_filesa), [EE\_REPLACE\_IN\_FILESA message](../message/ee_replace_in_filesa) s).
 
 ```
 typedef struct _GREP_INFOA {

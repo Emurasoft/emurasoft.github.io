@@ -6,8 +6,7 @@ Displays No Wrap properties.
 
 ## Description
 
-Displays the [**No Wrap** \
-page](../../dlg/properties/no_wrap/index)
+Displays the [**No Wrap** page](../../dlg/properties/no_wrap/index)
 of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 

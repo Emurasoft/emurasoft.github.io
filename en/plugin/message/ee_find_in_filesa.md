@@ -16,8 +16,7 @@ lParam = (LPARAM) (GREP_INFOA) pGrepInfo;
 
 _pGrepInfo_
 
-Specifies a pointer to the [GREP\_INFOA \
-Structure](../structure/grep_infoa).
+Specifies a pointer to the [GREP\_INFOA Structure](../structure/grep_infoa).
 
 ## Return Value
 

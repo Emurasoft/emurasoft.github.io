@@ -9,8 +9,7 @@ Saves the current file.
 This command saves the document with the current file name unless the document
 is untitled. If you want to change the encoding or the return
 method, select the [**Save As** command](file_save_as) or
-the [**Save with Encoding (multiple menu)** \
-command](file_save_defined).
+the [**Save with Encoding (multiple menu)** command](file_save_defined).
 
 If the file is untitled, the **Save As** dialog box will be displayed, which allows you to enter a file name.
 

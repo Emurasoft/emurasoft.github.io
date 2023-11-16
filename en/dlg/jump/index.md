@@ -1,7 +1,6 @@
 # Jump dialog box
 
-This dialog box appears when the [**Jump** \
-command](../../cmd/edit/jump) is selected. You can specify a line number to which you would like to
+This dialog box appears when the [**Jump** command](../../cmd/edit/jump) is selected. You can specify a line number to which you would like to
 jump.
 
 ## Line text box
@@ -14,8 +13,7 @@ Column number to which you would like to jump. In case of a CSV document, this n
 
 ## Logical Coordinates check box
 
-Count line numbers as [logical \
-coordinates](../../glossary/logicalcoordinates).
+Count line numbers as [logical coordinates](../../glossary/logicalcoordinates).
 
 ## CSV Column drop-down list box
 

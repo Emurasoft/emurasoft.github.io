@@ -1,7 +1,6 @@
 # Display a Message Box (Tutorial)
 
-To display simple text in a message box, you can use [alert \
-Method](../window/window_alert) or [confirm Method](../window/window_confirm).
+To display simple text in a message box, you can use [alert Method](../window/window_alert) or [confirm Method](../window/window_confirm).
 However, these methods can only display three buttons: YES, NO, and CANCEL.
 To display more complex text in a message box, use Popup Method of WshShell Object.
 

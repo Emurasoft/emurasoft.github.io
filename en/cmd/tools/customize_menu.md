@@ -6,8 +6,7 @@ Customizes menus.
 
 ## Description
 
-Displays the [**Customize Menus** \
-dialog box](../../dlg/menus/index), where you can customize EmEditor's menus.
+Displays the [**Customize Menus** dialog box](../../dlg/menus/index), where you can customize EmEditor's menus.
 
 ## How to Run
 

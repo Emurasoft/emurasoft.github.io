@@ -6,8 +6,7 @@ Displays Syntax Check properties.
 
 ## Description
 
-Displays the [**Syntax Check** \
-page](../../dlg/properties/validation/index)
+Displays the [**Syntax Check** page](../../dlg/properties/validation/index)
 of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 

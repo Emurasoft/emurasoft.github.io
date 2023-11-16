@@ -14,8 +14,7 @@ Selecting **No** will abort reloading and will allow you to continue
 editing the document.
 
 This command remains for compatibility with the older versions of
-EmEditor. You can use the [**Reload with**\
-**Encoding (multiple menu)** command](file_reload_defined) instead and specify Japanese Shift
+EmEditor. You can use the [**Reload with****Encoding (multiple menu)** command](file_reload_defined) instead and specify Japanese Shift
 JIS.
 
 ## How to Run

@@ -6,8 +6,7 @@ Displays Marks properties.
 
 ## Description
 
-Displays the [**Marks** \
-page](../../dlg/properties/marks/index)
+Displays the [**Marks** page](../../dlg/properties/marks/index)
 of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 

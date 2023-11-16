@@ -6,8 +6,7 @@ Displays Character Check properties.
 
 ## Description
 
-Displays the [**Character Check** \
-page](../../dlg/properties/char_check/index)
+Displays the [**Character Check** page](../../dlg/properties/char_check/index)
 of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 

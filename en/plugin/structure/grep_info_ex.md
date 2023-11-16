@@ -1,9 +1,7 @@
 # GREP\_INFO\_EX
 
 Used by [Editor\_FindInFiles macro](../macro/editor_findinfilesw),
-[Editor\_ReplaceInFiles macro](../macro/editor_replaceinfilesw) ( [EE\_FIND\_IN\_FILESW \
-message](../message/ee_find_in_filesw), [EE\_REPLACE\_IN\_FILESW \
-message](../message/ee_replace_in_filesw)).
+[Editor\_ReplaceInFiles macro](../macro/editor_replaceinfilesw) ( [EE\_FIND\_IN\_FILESW message](../message/ee_find_in_filesw), [EE\_REPLACE\_IN\_FILESW message](../message/ee_replace_in_filesw)).
 
 ```
 typedef struct _GREP_INFOW {

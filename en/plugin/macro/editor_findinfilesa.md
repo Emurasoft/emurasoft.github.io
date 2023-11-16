@@ -16,8 +16,7 @@ Specifies the window handle of the view or frame of EmEditor.
 
 _pGrepInfo_
 
-Specifies a pointer to the [GREP\_INFOA \
-Structure](../structure/grep_infoa).
+Specifies a pointer to the [GREP\_INFOA Structure](../structure/grep_infoa).
 
 ## Return Value
 

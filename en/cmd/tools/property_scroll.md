@@ -6,8 +6,7 @@ Scroll properties for current configuration.
 
 ## Description
 
-Displays the [**Scroll** \
-page](../../dlg/properties/scroll/index) of the **[Configuration Properties](../../dlg/properties/index)**
+Displays the [**Scroll** page](../../dlg/properties/scroll/index) of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run
