@@ -20,8 +20,7 @@ document.selection.Indent [ nCount ]
 
 _nCount_
 
-可选项。指定缩进等级数。默认值是 1。如果指定的是负数，该方法与 [**UnIndent** \
-方法](selection_unindent) 的行为相同。如果指定值为 0，该方法的行为与指定值为 1 时的行为相同。
+可选项。指定缩进等级数。默认值是 1。如果指定的是负数，该方法与 [**UnIndent** 方法](selection_unindent) 的行为相同。如果指定值为 0，该方法的行为与指定值为 1 时的行为相同。
 
 ## 版本
 

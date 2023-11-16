@@ -1,8 +1,7 @@
 # “工具栏”对话框
 
 这个对话框会出现当选择了
-[**自定义工具栏** \
-命令](../../cmd/tools/customize_toolbar)。
+[**自定义工具栏** 命令](../../cmd/tools/customize_toolbar)。
 
 ## “基本工具栏”列表框
 

@@ -13,8 +13,7 @@ lParam = (LPARAM) (GREP_INFOA) pGrepInfo;
 
 _pGrepInfo_
 
-指定一个指针指向 [GREP\_INFOA \
-结构](../structure/grep_infoa)。
+指定一个指针指向 [GREP\_INFOA 结构](../structure/grep_infoa)。
 
 ## Return Value
 
