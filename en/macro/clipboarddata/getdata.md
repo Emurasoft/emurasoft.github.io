@@ -45,8 +45,10 @@ str = clipboardData.getData("Text");
 
 ```
 str = clipboardData.getData("Text")
-The following macro displays the clipboard history, and selecting an item will insert that text.
 ```
+
+The following macro displays the clipboard history, and selecting an item will insert that text.
+
 
 ### \[JavaScript\]
 
@@ -65,8 +67,9 @@ if( result != 0 ) {
 s = clipboardData.getData("text", result - 100);
 document.write( s );
 }
-The following macro pastes the clipboard contents as HTML format.
 ```
+
+The following macro pastes the clipboard contents as HTML format.
 
 ### \[JavaScript\]
 

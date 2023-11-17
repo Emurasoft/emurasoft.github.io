@@ -45,8 +45,9 @@ str = clipboardData.getData("Text");
 
 ```
 str = clipboardData.getData("Text")
-下列宏显示剪贴板记录；选择一个项目会插入该文本内容。
 ```
+
+下列宏显示剪贴板记录；选择一个项目会插入该文本内容。
 
 ### \[JavaScript\]
 
@@ -65,8 +66,9 @@ if( result != 0 ) {
 s = clipboardData.getData("text", result - 100);
 document.write( s );
 }
-下列宏把剪贴板内容粘贴为 HTML 格式。
 ```
+
+下列宏把剪贴板内容粘贴为 HTML 格式。
 
 ### \[JavaScript\]
 

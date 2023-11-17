@@ -45,8 +45,9 @@ str = clipboardData.getData("Text");
 
 ```
 str = clipboardData.getData("Text")
-下列巨集顯示剪貼簿記錄，并且選擇一個項目會插入該文本內容。
 ```
+
+下列巨集顯示剪貼簿記錄，并且選擇一個項目會插入該文本內容。
 
 ### \[JavaScript\]
 
@@ -65,8 +66,9 @@ if( result != 0 ) {
 s = clipboardData.getData("text", result - 100);
 document.write( s );
 }
-下列巨集把剪貼簿內容粘貼為 HTML 格式。
 ```
+
+下列巨集把剪貼簿內容粘貼為 HTML 格式。
 
 ### \[JavaScript\]
 

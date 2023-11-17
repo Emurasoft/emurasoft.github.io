@@ -51,10 +51,11 @@ Error("Cannot find xx");
 ```
 If Not document.selection.Find( "xx", eeFindPrevious )  Then Err.Raise
 vbObjectError + 1, "Find Error", "Cannot find xx"
+```
+
 另外，如果您用 [FindRepeat 方法](../selection/selection_findrepeat)，
 您能再次搜尋您之前搜尋過的字串，并且您能搜尋游標所在位置的單字。
 如果您如下指定了 [FindRepeat 方法](../selection/selection_findrepeat) 的標志，它會執行搜尋，并有相對應的鍵盤快速鍵。
-```
 |     |     |
 | --- | --- |
 | eeFindRepeatNext | 從游標位置向下再次搜尋您之前搜尋過的字串。等同于 F3。 |

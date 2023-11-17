@@ -45,8 +45,9 @@ str = clipboardData.getData("Text");
 
 ```
 str = clipboardData.getData("Text")
-次のマクロはクリップボード履歴を表示し、項目を選択するとそのテキストを挿入します。
 ```
+
+次のマクロはクリップボード履歴を表示し、項目を選択するとそのテキストを挿入します。
 
 ### \[JavaScript\]
 
@@ -65,8 +66,9 @@ if( result != 0 ) {
 s = clipboardData.getData("text", result - 100);
 document.write( s );
 }
-次のマクロはクリップボードの中身を HTML フォーマットとして貼り付けます。
 ```
+
+次のマクロはクリップボードの中身を HTML フォーマットとして貼り付けます。
 
 ### \[JavaScript\]
 
