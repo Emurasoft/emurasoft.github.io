@@ -55,8 +55,9 @@ Error("Cannot find xx");
 ```
 If Not document.selection.Find( "xx", eeFindPrevious )  Then Err.Raise
 vbObjectError + 1, "Find Error", "Cannot find xx"
-さらに、 [FindRepeat メソッド](../selection/selection_findrepeat) を使うと、前回検索した文字列を再度検索したり、カーソル位置の単語を検索することができます。次のようにフラグを指定して実行すると、該当するキーボードのコマンドに相当する検索を行います。
 ```
+
+さらに、 [FindRepeat メソッド](../selection/selection_findrepeat) を使うと、前回検索した文字列を再度検索したり、カーソル位置の単語を検索することができます。次のようにフラグを指定して実行すると、該当するキーボードのコマンドに相当する検索を行います。
 |     |     |
 | --- | --- |
 | eeFindRepeatNext | カーソル位置から下方向に前回検索した文字列を再度検索します。F3 に相当。 |
