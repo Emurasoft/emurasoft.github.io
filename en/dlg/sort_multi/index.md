@@ -1,7 +1,7 @@
 # Advanced Sort dialog box
 
 This dialog box appears when the
-[**Advanced Sort** command](../../cmd/edit/sort_multi) or the
+[**Advanced Sort** command](../../cmd/sort/sort_multi) or the
 **Advanced Sort** button is selected in a toolbar.
 
 ## Columns list box

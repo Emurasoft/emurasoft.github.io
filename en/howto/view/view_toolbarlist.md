@@ -74,10 +74,10 @@
 | ![](../../images/tsv.gif)[TSV Mode](../../cmd/csv/mode_tsv) | Selects the TSV (Tab-separated) mode. |
 | ![](../../images/dsv.gif)[DSV Mode](../../cmd/csv/mode_dsv) | Selects the user-defined DSV (Delimiter-separated) mode. |
 | ![](../../images/narrowing.gif)[Toggle Narrowing](../../cmd/edit/narrowing_toggle) | Sets or resets only the selection as editable area and make the rest inaccessible. |
-| ![](../../images/sortinga-z.gif)[Sort A to Z](../../cmd/edit/sort_text_a) | Sort text at the current column in ascending order. |
-| ![](../../images/sortingz-a.gif)[Sort Z to A](../../cmd/edit/sort_text_d) | Sort text at the current column in descending order. |
-| ![](../../images/sorting0-9.gif)[Sort Smallest to Largest](../../cmd/edit/sort_num_a) | Sort numbers at the current column in ascending order. |
-| ![](../../images/sorting9-0.gif)[Sort Largest to Smallest](../../cmd/edit/sort_num_d) | Sort numbers at the current column in descending order. |
+| ![](../../images/sortinga-z.gif)[Sort A to Z](../../cmd/sort/sort_text_a) | Sort text at the current column in ascending order. |
+| ![](../../images/sortingz-a.gif)[Sort Z to A](../../cmd/sort/sort_text_d) | Sort text at the current column in descending order. |
+| ![](../../images/sorting0-9.gif)[Sort Smallest to Largest](../../cmd/sort/sort_num_a) | Sort numbers at the current column in ascending order. |
+| ![](../../images/sorting9-0.gif)[Sort Largest to Smallest](../../cmd/sort/sort_num_d) | Sort numbers at the current column in descending order. |
 | ![](../../images/compare24x16.gif)[Compare](../../cmd/diff/compare_direct) | Compares two recently viewed documents without specifying options. |
 | ![](../../images/rescan24x16.gif)[Rescan](../../cmd/diff/compare_rescan) | Rescans the compared documents and refresh the results. |
 | ![](../../images/sync24x16.gif)[Synchronize Scrolling](../../cmd/diff/sync_scroll_direct) | Synchronizes scrolling of two recently viewed documents without specifying options. |
@@ -101,12 +101,12 @@
 | ![](../../images/convert_to.gif)[CSV Converter](../../cmd/csv/csv_converter) | Shows or hides the CSV Converter. |
 | ![](../../images/columns_separators.gif)[Columns/Separators](../../cmd/csv/sv_sep_popup) | Shows a popup menu to work with columns or separators. |
 | ![](../../images/heading.gif)[Heading](../../cmd/csv/heading_popup) | Shows a popup menu to set headings. |
-| ![](../../images/deleteduplicatelines.gif)[Delete Duplicate Lines](../../cmd/edit/delete_duplicate) | Deletes duplicate lines in the selection or in the entire document. |
-| ![](../../images/sortbymultiple.gif)[Sort by Multiple Columns](../../cmd/edit/sort_multi) | Sorts the document by multiple columns. |
+| ![](../../images/deleteduplicatelines.gif)[Delete Duplicate Lines](../../cmd/sort/delete_duplicate) | Deletes duplicate lines in the selection or in the entire document. |
+| ![](../../images/sortbymultiple.gif)[Sort by Multiple Columns](../../cmd/sort/sort_multi) | Sorts the document by multiple columns. |
 | ![](../../images/togglefilterbar.gif)[Filter Toolbar](../../cmd/view/show_filter_bar) | Shows or hides the filter toolbar. |
-| ![](../../images/sort_length_a.png)[Sort Shortest to Longest](../../cmd/edit/sort_length_a) | Sorts text at the current column by length in ascending order. |
-| ![](../../images/sort_length_d.png)[Sort Longest to Shortest](../../cmd/edit/sort_length_d) | Sorts text at the current column by length in descending order. |
-| ![](../../images/deleteduplicatelines_advanced.png)[Delete Duplicate Lines (Advanced)](../../cmd/edit/delete_duplicate_advanced) | Displays a dialog box to specify settings and deletes duplicate lines in the selection or in the entire document. |
+| ![](../../images/sort_length_a.png)[Sort Shortest to Longest](../../cmd/sort/sort_length_a) | Sorts text at the current column by length in ascending order. |
+| ![](../../images/sort_length_d.png)[Sort Longest to Shortest](../../cmd/sort/sort_length_d) | Sorts text at the current column by length in descending order. |
+| ![](../../images/deleteduplicatelines_advanced.png)[Delete Duplicate Lines (Advanced)](../../cmd/sort/delete_duplicate_advanced) | Displays a dialog box to specify settings and deletes duplicate lines in the selection or in the entire document. |
 | ![](../../images/join_csv.png)[Join CSV](../../cmd/csv/join_csv) | Joins two CSV documents. |
 | ![](../../images/extract_columns.png)[Extract Columns](../../cmd/csv/extract_columns) | Extracts specified columns from the current CSV document. |
 | ![CommitList](../../images/plugin_commit_list.gif)[CommitList](../plugin/plugin_commit_list) | CommitList Plug-in. |
