@@ -24,6 +24,8 @@ navigation_depth = 2
 html_theme_path = ['_themes']
 html_theme = 'piccolo_theme'
 html_show_sphinx = False
+html_baseurl = 'https://www.emeditor.org/'
+sitemap_url_scheme = '{lang}{link}'
 
 html_sidebars = {
    '**': ['globaltoc.html'],
