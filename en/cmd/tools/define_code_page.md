@@ -6,8 +6,7 @@ Defines encodings to use when opening/saving files.
 
 ## Description
 
-Displays the [**Define Encodings** \
-dialog box](../../dlg/encodings/index), where you can define encodings to open and save files as.
+Displays the [**Define Encodings** dialog box](../../dlg/encodings/index), where you can define encodings to open and save files as.
 
 ## How to Run
 

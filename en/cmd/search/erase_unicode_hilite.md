@@ -9,9 +9,7 @@ encoding for saving.
 
 Resets highlighting for searched Unicode characters that cannot be converted
 to the encoding for saving. This command also resets the encoding for saving
-that is set by the [**Find Next Unicode** \
-command](find_next_unicode) or [**Find Previous Unicode** \
-command](find_prev_unicode).
+that is set by the [**Find Next Unicode** command](find_next_unicode) or [**Find Previous Unicode** command](find_prev_unicode).
 
 ## How to Run
 

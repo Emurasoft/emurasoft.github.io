@@ -67,9 +67,9 @@
 | **[Customize Jump List](customize_jump_list)** | Customizes the jump list. |
 | **[Define Encodings](define_code_page)** | Defines encodings to use when opening/saving files. |
 | **[Customize Markers](customize_markers)** | Customizes marker settings. |
-| **[Customize Markers - Marker List](customize_markers_list)** | Opens the Customize Markers dialog box, and selects the Marker List tab. |
-| **[Customize Markers - Auto Marker](customize_markers_auto)** | Opens the Customize Markers dialog box, and selects the Auto Marker tab. |
-| **[Customize Markers - Options](customize_markers_options)** | Opens the Customize Markers dialog box, and selects the Options tab. |
+| **[Customize Markers - Marker List](customize_markers_list)** | Opens the Customize Markers dialog box, and selects the Marker List page. |
+| **[Customize Markers - Auto Marker](customize_markers_auto)** | Opens the Customize Markers dialog box, and selects the Auto Marker page. |
+| **[Customize Markers - Options](customize_markers_options)** | Opens the Customize Markers dialog box, and selects the Options page. |
 | **[All Commands](all_commands)** | Displays all commands. |
 | **[Context Menu](context_menu)** | Shows Context Menu. |
 | **[Customize Tray Icon](customize_tray)** | Customizes Tray Icon. |

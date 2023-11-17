@@ -18,9 +18,4 @@ howto/file/file_commandline.md
 about/index
 ```
 
-```{toctree}
-:hidden:
-404
-```
-
 - [Do not use this program illegally.](notice/illegal_usage)

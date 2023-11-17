@@ -2,7 +2,7 @@
 
 Corresponds to the **Script**
 **group box - End** text box in the
-[**Highlight (2)** tab](../../dlg/properties/highlight2/index) of Configuration Properties.
+[**Highlight (2)** page](../../dlg/properties/highlight2/index) of Configuration Properties.
 
 ## 
 

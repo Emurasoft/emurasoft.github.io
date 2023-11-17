@@ -6,8 +6,7 @@ Displays Keyboard properties.
 
 ## Description
 
-Displays the [**Keyboard** \
-page](../../dlg/properties/keyboard/index)
+Displays the [**Keyboard** page](../../dlg/properties/keyboard/index)
 of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 

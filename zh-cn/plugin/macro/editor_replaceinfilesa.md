@@ -12,8 +12,7 @@ _hwnd_
 
 _pGrepInfo_
 
-指定一个指针指向 [GREP\_INFOW \
-结构](../structure/grep_infow)。
+指定一个指针指向 [GREP\_INFOW 结构](../structure/grep_infow)。
 
 ## 返回值
 

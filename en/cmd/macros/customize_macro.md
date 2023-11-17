@@ -6,8 +6,7 @@ Customizes macros.
 
 ## Description
 
-Displays the [**Customize Macros** \
-dialog box](../../dlg/macro_customize/index), where you can customize macro settings.
+Displays the [**Customize Macros** dialog box](../../dlg/macro_customize/index), where you can customize macro settings.
 
 ## How to Run
 

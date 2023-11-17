@@ -45,7 +45,5 @@
 이 페이지는 또한 **매크로** 메뉴에 보여지는 매크로 파일의 순서를 변경할 수 있도록 합니다.
 
 키보드의 바로가기 키로 매크로를 실행하기 원하는 경우,
-[**모든 구성 속성**\
-명령](../../cmd/tools/all_prop) 또는 [**현재 구성 속성**\
-명령](../../cmd/tools/customize) 에서 [**키보드** 탭](../../dlg/properties/keyboard/index) 을 선택하여
+[**모든 구성 속성**명령](../../cmd/tools/all_prop) 또는 [**현재 구성 속성**명령](../../cmd/tools/customize) 에서 [**키보드** 탭](../../dlg/properties/keyboard/index) 을 선택하여
 바로가기 키를 지정할 수 있습니다.

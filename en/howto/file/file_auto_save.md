@@ -5,7 +5,7 @@
 (if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
 (if you want to change all configurations) on the
-Toolbar to display the **Auto Save** tab.
+Toolbar to display the **Auto Save** page.
 2. Check **Auto Save**, and specify how often you want to automatically
 save open files.
 3. Specify the location of the folder where you would like open files to be

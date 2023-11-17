@@ -2,11 +2,11 @@
 
 ## Summary
 
-Displays the Customize Markers dialog box, and selects the Auto Marker tab.
+Displays the Customize Markers dialog box, and selects the Auto Marker page.
 
 ## Description
 
-Displays the [**Customize Markers** dialog box](../../dlg/customize_markers/index), and selects the Auto Marker tab.
+Displays the [**Customize Markers** dialog box](../../dlg/customize_markers/index), and selects the Auto Marker page.
 
 ## How to Run
 

@@ -8,5 +8,4 @@ Some configurations could slow down performance. Check the following points:
 If an item other than "No Wrap" is selected in the
 **Wrap by** **drop-down**
 list box, it might slow down EmEditor since it needs to compute where to wrap lines.
-When you open a large file, select "No Wrap", or select the [**No Wrap** \
-command](../../cmd/view/wrap_none).
+When you open a large file, select "No Wrap", or select the [**No Wrap** command](../../cmd/view/wrap_none).

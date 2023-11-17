@@ -1,6 +1,6 @@
 # File page
 
-The **File** tab allows you to set properties related to file
+The **File** page allows you to set properties related to file
 operations.
 
 ## Prompt if Null Character Found check box
@@ -103,14 +103,12 @@ file extension will be the one you selected in this text box.
 
 ## New Files button
 
-Click this button to display the [**New File**\
-**Details** dialog box](new_details/index), which allows you to configure the encodings and other
+Click this button to display the [**New File****Details** dialog box](new_details/index), which allows you to configure the encodings and other
 settings when you create a new file.
 
 ## Saving button
 
-Click this button to display the [**Save**\
-**Details** dialog box](save_details/index), which allows you to configure the encodings and other
+Click this button to display the [**Save****Details** dialog box](save_details/index), which allows you to configure the encodings and other
 settings when you save files.
 
 ## Reset button

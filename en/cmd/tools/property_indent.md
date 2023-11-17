@@ -6,9 +6,8 @@ Displays Tab/Indent properties.
 
 ## Description
 
-Displays the [**Tab/Indent** \
-subdialog box](../../dlg/properties/general/indent/index)
-of the **General** tab of the **[Configuration Properties](../../dlg/properties/index)**
+Displays the [**Tab/Indent** subdialog box](../../dlg/properties/general/indent/index)
+of the **General** page of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run

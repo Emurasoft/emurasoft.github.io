@@ -7,8 +7,7 @@ Switches to the next document.
 ## Description
 
 Switches to the next open EmEditor document. The behavior of this command depends on whether the
-[**Switch to last used document for Next**\
-**Document command** check box](../../dlg/customize/window/index) is checked. If it is checked, this command will switch to the last used document. If not checked, this command will switch to the next document displayed on the
+[**Switch to last used document for Next****Document command** check box](../../dlg/customize/window/index) is checked. If it is checked, this command will switch to the last used document. If not checked, this command will switch to the next document displayed on the
 tab bar.
 
 ## How to Run

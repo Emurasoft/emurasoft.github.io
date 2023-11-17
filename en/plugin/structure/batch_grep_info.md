@@ -1,8 +1,7 @@
 # BATCH\_GREP\_INFO
 
 Used by [Editor\_BatchFindInFiles](../macro/editor_batchfindinfiles) and
-[Editor\_BatchReplaceInFiles](../macro/editor_batchreplaceinfiles) inline functions ( [EE\_FIND\_IN\_FILESW](../message/ee_find_in_filesw) and [EE\_REPLACE\_IN\_FILESW \
-message](../message/ee_replace_in_filesw) s).
+[Editor\_BatchReplaceInFiles](../macro/editor_batchreplaceinfiles) inline functions ( [EE\_FIND\_IN\_FILESW](../message/ee_find_in_filesw) and [EE\_REPLACE\_IN\_FILESW message](../message/ee_replace_in_filesw) s).
 
 ```
 typedef struct _BATCH_GREP_INFO {

@@ -1,7 +1,6 @@
 # GREP\_INFO\_EX
 
-[Editor\_FindInFiles インライン関数](../macro/editor_findinfiles)、 [Editor\_ReplaceInFiles インライン関数](../macro/editor_replaceinfiles) ( [EE\_FIND\_IN\_FILESW \
-メッセージ](../message/ee_find_in_filesw)、 [EE\_REPLACE\_IN\_FILESW メッセージ](../message/ee_replace_in_filesw)) で使用します。
+[Editor\_FindInFiles インライン関数](../macro/editor_findinfiles)、 [Editor\_ReplaceInFiles インライン関数](../macro/editor_replaceinfiles) ( [EE\_FIND\_IN\_FILESW メッセージ](../message/ee_find_in_filesw)、 [EE\_REPLACE\_IN\_FILESW メッセージ](../message/ee_replace_in_filesw)) で使用します。
 
 ```
 typedef struct _GREP_INFO_EX {

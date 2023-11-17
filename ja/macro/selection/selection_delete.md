@@ -20,8 +20,7 @@ document.selection.Delete [[ nCount ], bComplete ]
 
 _nCount_
 
-省略可能。右側に削除する文字数を指定します。省略すると、1 を指定することになります。0 より小さい数を指定すると、 [DeleteLeft \
-メソッド](selection_deleteleft) のように動作します。0 を指定すると、1 を指定したように動作します。
+省略可能。右側に削除する文字数を指定します。省略すると、1 を指定することになります。0 より小さい数を指定すると、 [DeleteLeft メソッド](selection_deleteleft) のように動作します。0 を指定すると、1 を指定したように動作します。
 
 _bComplete_
 

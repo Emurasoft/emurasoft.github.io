@@ -4,20 +4,20 @@
 
 |     |     |
 | --- | --- |
-| [**DoubleLineScroll**](double_line_scroll) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[2行スクロール\]** チェック ボックスに相当します。 |
-| [**FastCursorMove**](fast_cursor_move) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[カーソル移動の高速化\]** チェック ボックスに相当します。 |
-| [**HalfPage**](half_page) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[半ページ スクロール\]** チェック ボックスに相当します。 |
-| [**HorizontalBar**](horizontal_bar) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[水平スクロール バー\]** ドロップダウン リスト ボックスに相当します。 |
-| [**HorizontalGrid**](horizontal_grid) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[水平グリッド\]** チェック ボックスに相当します。 |
-| [**HorizontalLine**](horizontal_line) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[水平罫線\]** チェック ボックスに相当します。 |
-| [**HorizontalPage**](horizontal_page) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[1頁の水平スクロールを常に有効\]** チェック ボックスに相当します。 |
-| [**MoveCursorScroll**](move_cursor_scroll) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[スクロールでカーソルも移動\]** チェック ボックスに相当します。 |
-| [**ShowOnlyActive**](show_only_active) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[アクティブ ペインの中だけバーを表示\]** チェック ボックスに相当します。 |
-| [**Smooth**](smooth) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[スムーズ スクロール\]** チェック ボックスに相当します。 |
-| [**SmoothSpeed**](smooth_speed) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[スムーズ スクロール\]** スライダに相当します。 |
-| [**VerticalBar**](vertical_bar) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の <br> **\[垂直スクロール バー\]** ドロップダウン リスト ボックスに相当します。 |
-| [**VerticalLine**](vertical_line) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の **\[垂直罫線\]** チェック ボックスに相当します。 |
-| [**VerticalPage**](vertical_page) | 設定のプロパティの [**\[スクロール\]** タブ](../../dlg/properties/scroll/index) の **\[1頁の垂直スクロールを常に有効\]** チェック ボックスに相当します。 |
+| [**DoubleLineScroll**](double_line_scroll) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[2行スクロール\] チェック ボックスに相当します。 |
+| [**FastCursorMove**](fast_cursor_move) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[カーソル移動の高速化\] チェック ボックスに相当します。 |
+| [**HalfPage**](half_page) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[半ページ スクロール\] チェック ボックスに相当します。 |
+| [**HorizontalBar**](horizontal_bar) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[水平スクロール バー\] ドロップダウン リスト ボックスに相当します。 |
+| [**HorizontalGrid**](horizontal_grid) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[水平グリッド\] チェック ボックスに相当します。 |
+| [**HorizontalLine**](horizontal_line) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[水平罫線\] チェック ボックスに相当します。 |
+| [**HorizontalPage**](horizontal_page) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[1頁の水平スクロールを常に有効\] チェック ボックスに相当します。 |
+| [**MoveCursorScroll**](move_cursor_scroll) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[スクロールでカーソルも移動\] チェック ボックスに相当します。 |
+| [**ShowOnlyActive**](show_only_active) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[アクティブ ペインの中だけバーを表示\] チェック ボックスに相当します。 |
+| [**Smooth**](smooth) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[スムーズ スクロール\] チェック ボックスに相当します。 |
+| [**SmoothSpeed**](smooth_speed) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[スムーズ スクロール\] スライダに相当します。 |
+| [**VerticalBar**](vertical_bar) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の <br> \[垂直スクロール バー\] ドロップダウン リスト ボックスに相当します。 |
+| [**VerticalLine**](vertical_line) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の \[垂直罫線\] チェック ボックスに相当します。 |
+| [**VerticalPage**](vertical_page) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の \[1頁の垂直スクロールを常に有効\] チェック ボックスに相当します。 |
 
 ## バージョン
 

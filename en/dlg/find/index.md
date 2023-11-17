@@ -116,8 +116,7 @@ Extract the lines that match the specified string by creating a new document. Cl
 
 ## Replace >> button
 
-Click this button to display the [**Replace** \
-dialog box](../replace/index) for the specified string with selected options.
+Click this button to display the [**Replace** dialog box](../replace/index) for the specified string with selected options.
 
 ## Close button
 

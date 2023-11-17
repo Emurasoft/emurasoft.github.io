@@ -6,8 +6,7 @@ Jumps to a specified line.
 
 ## Description
 
-This command displays the [**Jump** dialog \
-box](../../dlg/jump/index). Specify a line number in the dialog box, and the document will jump to the line
+This command displays the [**Jump** dialog box](../../dlg/jump/index). Specify a line number in the dialog box, and the document will jump to the line
 specified.
 
 ## How to Run

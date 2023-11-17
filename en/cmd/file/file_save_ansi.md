@@ -3,8 +3,7 @@
 ## Summary
 
 Saves the current file using the
-[system default \
-encoding.](../../glossary/index)
+[system default encoding.](../../glossary/index)
 
 ## Description
 

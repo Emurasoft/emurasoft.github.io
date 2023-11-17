@@ -25,8 +25,7 @@ Save the macro and run it in a new EmEditor window. Notice that the cursor is po
 at 12 characters left from the end of the line, or at the position where the first 't' character of "text editor" is.
 [CharLeft Method](../selection/selection_charleft) moves
 the cursor the specified number of characters to the left.
-The first argument (false) of the[CharLeft \
-Method](../selection/selection_charleft) specifies whether the selection range is to be changed. That is,
+The first argument (false) of the[CharLeft Method](../selection/selection_charleft) specifies whether the selection range is to be changed. That is,
 it specifies whether you want to use the SHIFT key when you
 use the LEFT ARROW key on your keyboard.
 The following methods are provided to manipulate cursor movements.

@@ -26,8 +26,7 @@ is false and the moved text is collapsed.
 _nCount_
 
 Optional. Specifies the number of characters to move to the left. The default
-is 1. If negative, the method acts like the [**CharRight** \
-Method](selection_charright). If 0, the method acts like 1.
+is 1. If negative, the method acts like the [**CharRight** Method](selection_charright). If 0, the method acts like 1.
 
 ## Version
 

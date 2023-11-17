@@ -3,9 +3,7 @@
 매크로를 저장하려면, [**매크로 저장** 명령](../../cmd/macros/macro_save) 을 선택합니다. **다른 이름으로 저장** 대화 상자가 나타납니다.
 엠에디터는 내 문서 폴더 아래의 **내 매크로** 폴더를 기본 폴더로 사용합니다.
 기본 폴더를 변경하려면, [**매크로 사용자 지정** 명령](../../cmd/macros/customize_macro)
-을 선택하고, [**매크로 사용자 지정**\
-대화 상자](../../dlg/macro_customize/index) 의 [**옵션**\
-탭](../../dlg/macro_customize/options/index) 으로 이동합니다.
+을 선택하고, [**매크로 사용자 지정**대화 상자](../../dlg/macro_customize/index) 의 [**옵션**탭](../../dlg/macro_customize/options/index) 으로 이동합니다.
 
 대화 상자의 하단 부분에 위치한 **저장할 유형** 드롭 박스에서 JavaScript 또는 VBScript를
 선택할 수 있습니다.

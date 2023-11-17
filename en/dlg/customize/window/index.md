@@ -28,8 +28,7 @@ Play extra sounds for alerts, such as when the cursor can't move anymore when pr
 
 ## Switch to last used document for Next Document command check box
 
-If this is checked, the [**Next Document** command](../../../cmd/window/next_window) will switch to the last used document. If not checked, the [**Next**\
-**Document** command](../../../cmd/window/next_window) will switch to the next
+If this is checked, the [**Next Document** command](../../../cmd/window/next_window) will switch to the last used document. If not checked, the [**Next****Document** command](../../../cmd/window/next_window) will switch to the next
 document displayed on the tab bar.
 
 ## Close group by closing window when Tabs are enabled check box

@@ -80,7 +80,7 @@ This dialog box appears when you click the ![](../../images/solutiontemplates.gi
 
 ### Solution Template Properties
 
-**General tab**
+**General page**
 
 |     |     |
 | --- | --- |
@@ -91,7 +91,7 @@ This dialog box appears when you click the ![](../../images/solutiontemplates.gi
 | **Files to Exclude** | specifies file types that are excluded when you drag and drop files <br> to a project tree. For example, you would specify "\*.com;\*.exe" if <br> you would like to exclude both .com and .exe files. |
 | **Folder to Exclude** | specifies folder names that are excluded when you drag and drop <br> files to a project tree. For example, you would specify <br> "\*folder1;folder2" if you would like to exclude both "folder1" and <br> "folder2" folders. |
 
-**Configurations tab**
+**Configurations page**
 
 |     |     |
 | --- | --- |
@@ -102,14 +102,14 @@ This dialog box appears when you click the ![](../../images/solutiontemplates.gi
 | **Delete** | deletes a selected macro. |
 | **Rename** | renames a selected macro. |
 
-**Symbols tab**
+**Symbols page**
 
 |     |     |
 | --- | --- |
 | **Refresh All Symbol Lists Automatically** | specifies whether to update the symbol list when a new file is added. |
 | **Additional Parameters to Ctags (advanced option)** | specifies additional parameters to Ctags. This is an advanced option, and setting wrong parameters may prevent the symbol list from working properly. |
 
-**Tools tab**
+**Tools page**
 
 |     |     |
 | --- | --- |

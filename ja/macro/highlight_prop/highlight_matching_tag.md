@@ -1,6 +1,6 @@
 # HighlightMatchingTag プロパティ (HighlightProp オブジェクト)
 
-設定のプロパティの **[\[強調(2)\]](../../dlg/properties/highlight2/index)** [タブ](../../dlg/properties/highlight2/index) の **\[対応するタグを強調する\]** チェック ボックスに相当します。
+設定のプロパティの **[\[強調(2)\]](../../dlg/properties/highlight2/index)** [タブ](../../dlg/properties/highlight2/index) の \[対応するタグを強調する\] チェック ボックスに相当します。
 
 ## 
 

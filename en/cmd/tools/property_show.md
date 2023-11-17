@@ -6,8 +6,7 @@ Displays Display properties.
 
 ## Description
 
-Displays the [**Display** \
-page](../../dlg/properties/display/index)
+Displays the [**Display** page](../../dlg/properties/display/index)
 of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 

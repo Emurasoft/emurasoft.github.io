@@ -1,7 +1,6 @@
 # Plug-in Reference
 
-You can develop plug-ins that extend EmEditor functions by using the C++
-programming language.
+You can develop plug-ins that extend EmEditor functions by using the C++ programming language.
 
 
 ```{toctree}

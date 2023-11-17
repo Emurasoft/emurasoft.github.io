@@ -1,8 +1,7 @@
 # Customize Plug-ins dialog box
 
 This dialog box appears when the
-[**Customize plug-ins** \
-command](../../cmd/tools/customize_plug_ins) is selected.
+[**Customize plug-ins** command](../../cmd/tools/customize_plug_ins) is selected.
 
 ## Customize Plug-ins list box
 

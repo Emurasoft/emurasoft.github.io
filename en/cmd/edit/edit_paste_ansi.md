@@ -2,8 +2,7 @@
 
 ## Summary
 
-Pastes Clipboard contents using the [system default \
-encoding](../../glossary/index).
+Pastes Clipboard contents using the [system default encoding](../../glossary/index).
 
 ## Description
 
@@ -11,8 +10,7 @@ Pastes the Clipboard contents at the cursor position using the
 [**system default encoding**](../../glossary/systemdefaultencoding). Before this command, use the
 [**Copy** command](edit_copy) or the
 [**Cut** command](edit_cut) to put text on the Clipboard.
-This command is equivalent to the [**Paste** \
-command](edit_paste) if the
+This command is equivalent to the [**Paste** command](edit_paste) if the
 **Always Paste as ANSI** check box
 is checked on the [**General** page](../../dlg/properties/general/index) of the Properties dialog box.
 

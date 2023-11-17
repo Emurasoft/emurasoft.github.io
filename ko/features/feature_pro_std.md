@@ -44,5 +44,4 @@ orphan: true
 [EE\_INFO](../plugin/message/ee_info),
 [EE\_SET\_CARET\_POS](../plugin/message/ee_set_caret_pos)
 - **확인**, **자동 다시 로드**, 혹은 **잠금 유지** 옵션으로
-[**다른 프로그램으로 바꾸기** \
-드롭다운 리스트 상자](../dlg/properties/file/index) 로 파일이 읽기전용 속성이 바뀌었을 때 엠에디터를 읽기 전용 상태로 바꿀 수 있습니다.
+[**다른 프로그램으로 바꾸기** 드롭다운 리스트 상자](../dlg/properties/file/index) 로 파일이 읽기전용 속성이 바뀌었을 때 엠에디터를 읽기 전용 상태로 바꿀 수 있습니다.

@@ -1,9 +1,7 @@
 # GREP\_INFOA
 
 用于 [Editor\_FindInFilesA 宏](../macro/editor_findinfilesa)，
-[Editor\_ReplaceInFilesA 内联函数](../macro/editor_replaceinfilesa) ( [EE\_FIND\_IN\_FILESA \
-消息](../message/ee_find_in_filesa)， [EE\_REPLACE\_IN\_FILESA \
-消息](../message/ee_replace_in_filesa) s) 中。
+[Editor\_ReplaceInFilesA 内联函数](../macro/editor_replaceinfilesa) ( [EE\_FIND\_IN\_FILESA 消息](../message/ee_find_in_filesa)， [EE\_REPLACE\_IN\_FILESA 消息](../message/ee_replace_in_filesa) s) 中。
 
 ```
 typedef struct _GREP_INFOA {

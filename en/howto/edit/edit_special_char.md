@@ -139,4 +139,4 @@ CTRL + ' (apostrophe), "
 **Note**
 
 If these shortcut keys do not work, you may need to reset your properties.
-Display the **Keyboard** tab in **Properties**, and press the **Reset** button.
+Display the **Keyboard** page in **Properties**, and press the **Reset** button.

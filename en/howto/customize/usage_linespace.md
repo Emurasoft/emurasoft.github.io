@@ -4,7 +4,7 @@
 (if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
 (if you want to change all configurations) to
-display the **Display** tab.
+display the **Display** page.
 2. Change **Line Space** to adjust the space between lines.
 
 ## Tips

@@ -116,8 +116,7 @@ Find and extract all occurrences of the search term. The exact behavior depends 
 
 ## << Find button
 
-Click this button to display the [**Find** \
-dialog box](../find/index) for the specified string with selected options.
+Click this button to display the [**Find** dialog box](../find/index) for the specified string with selected options.
 
 ## Advanced button
 

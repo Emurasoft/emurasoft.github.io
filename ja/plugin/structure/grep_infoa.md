@@ -1,7 +1,6 @@
 # GREP\_INFOA
 
-[Editor\_FindInFilesA インライン関数](../macro/editor_findinfilesa)、 [Editor\_ReplaceInFilesA インライン関数](../macro/editor_replaceinfilesa) ( [EE\_FIND\_IN\_FILESA \
-メッセージ](../message/ee_find_in_filesa)、 [EE\_REPLACE\_IN\_FILESA メッセージ](../message/ee_replace_in_filesa)) で使用します。
+[Editor\_FindInFilesA インライン関数](../macro/editor_findinfilesa)、 [Editor\_ReplaceInFilesA インライン関数](../macro/editor_replaceinfilesa) ( [EE\_FIND\_IN\_FILESA メッセージ](../message/ee_find_in_filesa)、 [EE\_REPLACE\_IN\_FILESA メッセージ](../message/ee_replace_in_filesa)) で使用します。
 
 ```
 typedef struct _GREP_INFOA {

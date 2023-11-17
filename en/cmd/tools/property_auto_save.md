@@ -6,8 +6,7 @@ Displays Auto Save properties.
 
 ## Description
 
-Displays the [**Auto Save** \
-page](../../dlg/properties/autosave/index) of the **[Configuration Properties](../../dlg/properties/index)**
+Displays the [**Auto Save** page](../../dlg/properties/autosave/index) of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run

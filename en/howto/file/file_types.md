@@ -5,9 +5,9 @@ Chinese Traditional, Cyrillic, Greek, Japanese (Shift-JIS), Japanese (JIS), Japa
 Vietnamese, Western European, or any other encodings available on Windows.
 
 In Windows 2000/XP/2003/Vista, more encodings are available by checking additional
-languages under **Supplemental language support** on the **Languages** tab
+languages under **Supplemental language support** on the **Languages** page
 of **Regional and Language Options** in the Control Panel. You can also check
-encoding you want to use under **code page conversion tables** on the **Advanced** tab.
+encoding you want to use under **code page conversion tables** on the **Advanced** page.
 
 Encodings you want to use can be added on the
 [**Define Encodings** dialog box](../../dlg/encodings/index).
@@ -23,6 +23,4 @@ Unicode control characters are supported.
 - You can edit Unicode text files but it depends on the font. Some display
 characters are not supported. You need to choose an appropriate font for the
 language you wish to use.
-- When a file contains [null \
-characters](../../glossary/index), the [null \
-characters](../../glossary/index) will be converted into spaces.
+- When a file contains [null characters](../../glossary/index), the [null characters](../../glossary/index) will be converted into spaces.

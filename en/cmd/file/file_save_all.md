@@ -6,8 +6,7 @@ Saves all currently open files.
 
 ## Description
 
-This command selects the [**Save** \
-command](file_save) for all opened EmEditor windows. If an untitled file exists,
+This command selects the [**Save** command](file_save) for all opened EmEditor windows. If an untitled file exists,
 the **Save As** dialog box appears, which allows you to enter a file name to save the file as.
 
 ## How to Run

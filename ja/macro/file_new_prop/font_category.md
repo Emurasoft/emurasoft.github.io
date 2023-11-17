@@ -1,6 +1,6 @@
 # FontCategory プロパティ (FileNewProp オブジェクト)
 
-[**\[新規作成時の詳細\]** のダイアログ ボックス](../../dlg/properties/file/new_details/index) の **\[フォント分類\]** ドロップダウン リスト ボックスに相当します。
+[\[新規作成時の詳細\] のダイアログ ボックス](../../dlg/properties/file/new_details/index) の \[フォント分類\] ドロップダウン リスト ボックスに相当します。
 
 ## 
 

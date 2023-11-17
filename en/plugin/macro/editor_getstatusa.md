@@ -1,8 +1,7 @@
 # Editor\_GetStatusA
 
 Retrieves the ANSI text displayed on the status bar. You can use this inline function
-or explicitly send the [EE\_GET\_STATUSA \
-message](../message/ee_get_statusa).
+or explicitly send the [EE\_GET\_STATUSA message](../message/ee_get_statusa).
 
 Editor\_GetStatusA( HWND hwnd, LPSTR szStatus, UINT nBufSize );
 

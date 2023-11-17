@@ -1,9 +1,7 @@
 # To Replace in Files
 
-1. Select the [**Replace in**\
-**Files** command](../../cmd/search/replace_in_files) under the Search menu to display the
-[**Replace in Files** \
-dialog box](../../dlg/replace_in_files/index).
+1. Select the [**Replace in****Files** command](../../cmd/search/replace_in_files) under the Search menu to display the
+[**Replace in Files** dialog box](../../dlg/replace_in_files/index).
 2. Enter the text string to search for, the text string to replace with, the file type(s) (separated with a semicolon if more than one) and the folder(s) to search, then press the
 **Replace All**
 button.
@@ -25,6 +23,5 @@ and select **File** \> **Close** \> [**Close All without Save** command](../../c
 changes to files will be made immediately. If this is checked, the number of files replaced will be limited to the
 **Maximum Number of Files to Replace if**
 **Kept Open** text box on the
-[**Search** \
-page](../../dlg/customize/search/index) of the
+[**Search** page](../../dlg/customize/search/index) of the
 [**Customize** dialog box](../../dlg/customize/index).

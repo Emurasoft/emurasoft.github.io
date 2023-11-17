@@ -1,7 +1,6 @@
 # Editor\_FindReplace
 
-文字列を検索または置換します。このインライン関数を使うか、または [EE\_FIND\_REPLACE \
-メッセージ](../message/ee_find_replace) を直接送ることができます。
+文字列を検索または置換します。このインライン関数を使うか、または [EE\_FIND\_REPLACE メッセージ](../message/ee_find_replace) を直接送ることができます。
 
 HRESULT Editor\_FindReplace( HWND hwnd, UINT64 nFlags, LPCWSTR pszFind, LPCWSTR pszReplace, UINT64\* pnCount, UINT64\* pnMatchedLines );
 

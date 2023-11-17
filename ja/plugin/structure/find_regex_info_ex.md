@@ -1,7 +1,6 @@
 # FIND\_REGEX\_INFO\_EX
 
-[Editor\_FindRegex インライン関数](../macro/editor_findregex) ( [EE\_FIND\_REGEX \
-メッセージ](../message/ee_find_regex)) で使用します。
+[Editor\_FindRegex インライン関数](../macro/editor_findregex) ( [EE\_FIND\_REGEX メッセージ](../message/ee_find_regex)) で使用します。
 
 ```
 typedef struct _FIND_REGEX_INFO_EX {

@@ -1,9 +1,7 @@
 # Advanced dialog box
 
 This dialog box appears when the
-**Advanced** button is selected in the [**Find** dialog box](../find/index), [**Replace** dialog box](../replace/index), [**Find**\
-**in Files** dialog box](../find_in_files/index) or the [**Replace**\
-**in Files** dialog box](../replace_in_files/index).
+**Advanced** button is selected in the [**Find** dialog box](../find/index), [**Replace** dialog box](../replace/index), [**Find****in Files** dialog box](../find_in_files/index) or the [**Replace****in Files** dialog box](../replace_in_files/index).
 
 ## Match Only Embedded Newlines in CSV check box
 
@@ -43,8 +41,7 @@ Specifies the number of additional lines to search for a string when using a reg
 function. By this method, however, the regular expression <td>.\*?</td> would not be able to match a string between <td> and </td> if the string contains a newline character. Specifying a number greater than zero in this text
 box and checking the **Regular Expressions “.” Can Match Newline Characters** check box
 will enable searching for the string with up to the specified number of new
-lines. On the other hand, the [**Find in**\
-**Files** command](../../cmd/search/grep) always searches from the whole file independent of this option.
+lines. On the other hand, the [**Find in****Files** command](../../cmd/search/grep) always searches from the whole file independent of this option.
 
 The following options only appear in the **Find in Files** dialog box and **Replace in Files** dialog box.
 

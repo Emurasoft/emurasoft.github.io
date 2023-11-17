@@ -22,8 +22,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 document.selection.CharLeft False, 12
 ```
 儲存該巨集并在一個新的 EmEditor 視窗中運行它。注意，游標會被放置在從行尾端向左 12 個字元的地方，也就是 "text editor" 的第一個 't' 字元所在處。
-[CharLeft 方法](../selection/selection_charleft) 能把游標往左移指定的字元數。[CharLeft \
-方法](../selection/selection_charleft) 的第一個參數 (false) 指定是否選擇範圍會變更。換句話說，它指定您是否想要用 SHIFT 鍵當您在鍵盤上按下左箭頭鍵時。
+[CharLeft 方法](../selection/selection_charleft) 能把游標往左移指定的字元數。[CharLeft 方法](../selection/selection_charleft) 的第一個參數 (false) 指定是否選擇範圍會變更。換句話說，它指定您是否想要用 SHIFT 鍵當您在鍵盤上按下左箭頭鍵時。
 下列方法可以操縱游標移動。
 |     |     |
 | --- | --- |

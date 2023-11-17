@@ -13,4 +13,4 @@ orphan: true
 
 ## 参照
 
-- [**\[実行したい項目を選択してください\]** リスト ボックス](../dlg/import_export/index)
+- [\[実行したい項目を選択してください\] リスト ボックス](../dlg/import_export/index)

@@ -1,8 +1,7 @@
 # EE\_INSERT\_STRINGA
 
 カーソル位置にANSI文字列を挿入します。このメッセージを直接送るか、または
-[Editor\_InsertStringA インライン関数](../macro/editor_insertstringa)、 [Editor\_InsertA \
-インライン関数](../macro/editor_inserta)、または [Editor\_OverwriteA インライン関数](../macro/editor_overwritea) を使うことができます。
+[Editor\_InsertStringA インライン関数](../macro/editor_insertstringa)、 [Editor\_InsertA インライン関数](../macro/editor_inserta)、または [Editor\_OverwriteA インライン関数](../macro/editor_overwritea) を使うことができます。
 
 ```
 EE_INSERT_STRINGA

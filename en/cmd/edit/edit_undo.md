@@ -11,9 +11,7 @@ previous consecutive
 actions. If the
 **Undo**
 **Character by Character** check box is
-checked on the [**Edit** \
-page](../../dlg/customize/edit/index) of the [**Customize** dialog \
-box](../../dlg/customize/index), a string insert will be undone character by character.
+checked on the [**Edit** page](../../dlg/customize/edit/index) of the [**Customize** dialog box](../../dlg/customize/index), a string insert will be undone character by character.
 
 ## How to Run
 

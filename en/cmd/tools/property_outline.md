@@ -6,8 +6,7 @@ Displays Outlining properties.
 
 ## Description
 
-Displays the [**Outline** \
-page](../../dlg/properties/outline/index)
+Displays the [**Outline** page](../../dlg/properties/outline/index)
 of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 

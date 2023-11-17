@@ -26,8 +26,7 @@ is false and the moved text is collapsed.
 _nCount_
 
 Optional. Specifies the number of pages to move down. The default is 1. If
-negative, the method acts like the [**PageUp** \
-Method](selection_pageup). If 0, the method acts like 1.
+negative, the method acts like the [**PageUp** Method](selection_pageup). If 0, the method acts like 1.
 
 ## Version
 

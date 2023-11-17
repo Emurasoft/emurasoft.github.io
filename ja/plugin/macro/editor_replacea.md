@@ -1,7 +1,6 @@
 # Editor\_ReplaceA
 
-ANSI文字列を置換します。このインライン関数を使うか、または [EE\_REPLACEA \
-メッセージ](../message/ee_replacea) を直接送ることができます。
+ANSI文字列を置換します。このインライン関数を使うか、または [EE\_REPLACEA メッセージ](../message/ee_replacea) を直接送ることができます。
 
 Editor\_ReplaceA( HWND hwnd, UINT nFlags, LPCSTR szFindReplace );
 

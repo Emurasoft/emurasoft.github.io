@@ -6,9 +6,7 @@ Creates a new file and inserts the contents of the Clipboard.
 
 ## Description
 
-This command is equivalent to the [**New Text** \
-command](file_new) followed by the [**Paste** \
-command](../edit/edit_paste). By default, the new file will use the Text configuration. You can change the default configuration in the
+This command is equivalent to the [**New Text** command](file_new) followed by the [**Paste** command](../edit/edit_paste). By default, the new file will use the Text configuration. You can change the default configuration in the
 [**Define Configurations** dialog box](../../dlg/configurations/index).
 
 ## How to Run

@@ -1,7 +1,6 @@
 # BATCH\_GREP\_INFO
 
-[Editor\_BatchFindInFiles インライン関数](../macro/editor_batchfindinfiles)、 [Editor\_BatchReplaceInFiles インライン関数](../macro/editor_batchreplaceinfiles) ( [EE\_FIND\_IN\_FILESW \
-メッセージ](../message/ee_find_in_filesw)、 [EE\_REPLACE\_IN\_FILESW メッセージ](../message/ee_replace_in_filesw)) で使用します。
+[Editor\_BatchFindInFiles インライン関数](../macro/editor_batchfindinfiles)、 [Editor\_BatchReplaceInFiles インライン関数](../macro/editor_batchreplaceinfiles) ( [EE\_FIND\_IN\_FILESW メッセージ](../message/ee_find_in_filesw)、 [EE\_REPLACE\_IN\_FILESW メッセージ](../message/ee_replace_in_filesw)) で使用します。
 
 ```
 typedef struct _BATCH_GREP_INFO {

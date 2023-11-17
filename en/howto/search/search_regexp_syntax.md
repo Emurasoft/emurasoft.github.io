@@ -162,8 +162,7 @@ See [Replacement Expression Syntax](replacement_expression_syntax).
 ## Notes
 
 - In **Find in Files** and in **Replace in Files**, the carriage return (\\r) and the
-line feed (\\n) must be specified carefully. See [To \
-Specify newline characters](search_nl) for details.
+line feed (\\n) must be specified carefully. See [To Specify newline characters](search_nl) for details.
 - In order for some escape sequences to work in EmEditor, like "\\l", "\\u" and
 their complements, the Match Case option has to be selected.
 
@@ -177,8 +176,7 @@ Copyright (C) K. Takata, based on Oniguruma Copyright (C) by K. Kosako.
 
 ## See Also
 
-- [Q. What are examples of \
-regular expressions?](../../faq/search/search_reg_exp_ex)
+- [Q. What are examples of regular expressions?](../../faq/search/search_reg_exp_ex)
 - [To Specify newline characters](search_nl)
 - 
 - 

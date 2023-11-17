@@ -1,7 +1,6 @@
 # Editor\_GetStatusW
 
-检索显示在状态栏上的 Unicode 文本。你能直接用该内联函数或明确地发送 [EE\_GET\_STATUSW \
-message](../message/ee_get_statusw).
+检索显示在状态栏上的 Unicode 文本。你能直接用该内联函数或明确地发送 [EE\_GET\_STATUSW message](../message/ee_get_statusw).
 
 Editor\_GetStatusW( HWND hwnd, LPWSTR szStatus, UINT nBufSize );
 

@@ -1,7 +1,6 @@
 # FIND\_REPLACE\_INFO
 
-[EE\_FIND\_REPLACE \
-メッセージ](../message/ee_find_replace) で使用します。
+[EE\_FIND\_REPLACE メッセージ](../message/ee_find_replace) で使用します。
 
 ```
 typedef struct _FIND_REPLACE_INFO {

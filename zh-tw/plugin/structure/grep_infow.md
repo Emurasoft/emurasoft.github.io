@@ -1,9 +1,7 @@
 # GREP\_INFOW
 
 用於 [Editor\_FindInFilesW 巨集](../macro/editor_findinfilesw)，
-[Editor\_ReplaceInFilesW 巨集](../macro/editor_replaceinfilesw) ( [EE\_FIND\_IN\_FILESW \
-消息](../message/ee_find_in_filesw)， [EE\_REPLACE\_IN\_FILESW \
-消息](../message/ee_replace_in_filesw))。
+[Editor\_ReplaceInFilesW 巨集](../macro/editor_replaceinfilesw) ( [EE\_FIND\_IN\_FILESW 消息](../message/ee_find_in_filesw)， [EE\_REPLACE\_IN\_FILESW 消息](../message/ee_replace_in_filesw))。
 
 ```
 typedef struct _GREP_INFOW {

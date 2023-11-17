@@ -6,8 +6,7 @@ Selects a configuration.
 
 ## Description
 
-Shows a popup menu showing the [**Select**\
-**Specified Configuration** command](select_config) (multiple-menu) and the [**Define Configurations** command](config).
+Shows a popup menu showing the [**Select****Specified Configuration** command](select_config) (multiple-menu) and the [**Define Configurations** command](config).
 
 ## How to Run
 

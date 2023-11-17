@@ -7,8 +7,7 @@
 ## 설명
 
 **[구성 속성](../../dlg/properties/index)** 대화 상자의
-[**줄 바꾸기 없음**\
-탭](../../dlg/properties/no_wrap/index) 을 표시합니다.
+[**줄 바꾸기 없음**탭](../../dlg/properties/no_wrap/index) 을 표시합니다.
 
 ## 실행하는 방법
 

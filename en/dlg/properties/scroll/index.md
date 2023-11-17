@@ -60,7 +60,7 @@ Scroll 2 lines at a time. Check this box if you want to scroll the window faster
 Make cursor movement faster. If this box is checked, the cursor moves double at a time when one
 of the arrow keys is repeated by being pressed.
 
-### **Tips:** You can also adjust the keyboard repeat rate on the **Speed** tab of **Keyboard** Properties on the **Control Panel**.
+### **Tips:** You can also adjust the keyboard repeat rate on the **Speed** page of **Keyboard** Properties on the **Control Panel**.
 
 ## Move Cursor by Scrolling check box
 

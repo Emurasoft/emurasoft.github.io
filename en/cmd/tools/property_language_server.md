@@ -6,8 +6,7 @@ Displays Language Server properties.
 
 ## Description
 
-Displays the [**Language Server** \
-page](../../dlg/properties/language_server/index)
+Displays the [**Language Server** page](../../dlg/properties/language_server/index)
 of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 

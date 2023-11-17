@@ -4,7 +4,7 @@
 (if you want to change only the current configuration) or
 ![Properties for All Configuration](../../images/allproperties.gif)
 (if you want to change all configurations) to display
-the **Display** tab.
+the **Display** page.
 2. Select **Quoted Line** from the list and click the **Text** button
 to change the color.
 

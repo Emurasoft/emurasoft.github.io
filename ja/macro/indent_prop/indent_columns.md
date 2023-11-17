@@ -1,6 +1,6 @@
 # IndentColumns プロパティ (IndentProp オブジェクト)
 
-[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の **\[インデントの桁数\]** テキスト ボックスに相当します。
+[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の \[インデントの桁数\] テキスト ボックスに相当します。
 
 ## 
 

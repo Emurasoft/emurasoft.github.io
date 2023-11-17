@@ -6,8 +6,7 @@ Jumps to a tag.
 
 ## Description
 
-This command is used after running the [**Find**\
-**in Files** command](../search/grep), or for parsing an error log to locate a string or an error. If
+This command is used after running the [**Find****in Files** command](../search/grep), or for parsing an error log to locate a string or an error. If
 a file's path and a line number are displayed at the start of a line, this command will open the file and jump to the line
 number in question.
 

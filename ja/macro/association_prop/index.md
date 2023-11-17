@@ -4,7 +4,7 @@
 
 |     |     |
 | --- | --- |
-| [Enabled](enabled) | 設定のプロパティの [**\[関連付け\]** タブ](../../dlg/properties/associate/index) の <br> **\[ここで設定する関連付けを有効にする\]** チェック ボックス に相当します。 |
+| [Enabled](enabled) | 設定のプロパティの [\[関連付け\] ページ](../../dlg/properties/associate/index) の <br> \[ここで設定する関連付けを有効にする\] チェック ボックス に相当します。 |
 | [List](list) | [AssociationList オブジェクト](../association_list/index) を取得します。 |
 
 ## バージョン

@@ -1,7 +1,7 @@
 # Begin プロパティ (IndentProp オブジェクト)
 
-[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の
-**\[インデント開始\]** テキスト ボックスに相当します。
+[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の
+\[インデント開始\] テキスト ボックスに相当します。
 
 ## 
 

@@ -12,8 +12,7 @@ _hwnd_
 
 _pGrepInfo_
 
-[GREP\_INFOW \
-구조](../structure/grep_infow) 에 대한 포인터를 지정합니다.
+[GREP\_INFOW 구조](../structure/grep_infow) 에 대한 포인터를 지정합니다.
 
 ## 반환 값
 

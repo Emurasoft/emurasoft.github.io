@@ -13,8 +13,7 @@ _hwnd_
 
 _pGrepInfo_
 
-指定一個指標至 [GREP\_INFOA \
-結構](../structure/grep_infoa)。
+指定一個指標至 [GREP\_INFOA 結構](../structure/grep_infoa)。
 
 ## 返回值
 

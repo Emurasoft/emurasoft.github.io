@@ -1,6 +1,6 @@
-# Association tab
+# Association page
 
-The **Association** tab allows you to set properties related to
+The **Association** page allows you to set properties related to
 association. Association editing in the configuration properties has been deprecated. Associations are now available as global setting.
 
 ## Associations button

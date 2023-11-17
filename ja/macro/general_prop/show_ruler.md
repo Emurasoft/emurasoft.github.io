@@ -1,7 +1,7 @@
 # ShowRuler プロパティ (GeneralProp オブジェクト)
 
-設定のプロパティの [**\[基本\]** タブ](../../dlg/properties/general/index) の
-**\[ルーラを表示\]** チェック ボックスに相当します。
+設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の
+\[ルーラを表示\] チェック ボックスに相当します。
 
 ## 
 

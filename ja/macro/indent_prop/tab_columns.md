@@ -1,7 +1,7 @@
 # TabColumns プロパティ (IndentProp オブジェクト)
 
-[**\[タブ/インデント\]** ダイアログ ボックス](../../dlg/properties/general/indent/index) の
-**\[タブの桁数\]** テキスト ボックスに相当します。
+[\[タブ/インデント\] ダイアログ ボックス](../../dlg/properties/general/indent/index) の
+\[タブの桁数\] テキスト ボックスに相当します。
 
 ## 
 

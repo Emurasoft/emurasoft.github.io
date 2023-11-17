@@ -1,7 +1,6 @@
 # GET\_COLOR\_INFO
 
-[EE\_GET\_COLOR \
-メッセージ](../message/ee_get_color) で使用します。
+[EE\_GET\_COLOR メッセージ](../message/ee_get_color) で使用します。
 
 ```
 typedef struct _GET_COLOR_INFO {

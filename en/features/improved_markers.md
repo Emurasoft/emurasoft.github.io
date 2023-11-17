@@ -10,5 +10,5 @@ added to the right-click menu, which allows you to quickly replace the marked
 text.
 
 The Auto Marker now optionally works only in alphabets and numbers. Moreover,
-a few more options were added to the Options tab of the **Customize**
+a few more options were added to the Options page of the **Customize**
 **Markers** dialog box.

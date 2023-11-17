@@ -1,6 +1,6 @@
-# Marker List tab
+# Marker List page
 
-The **Marker List** tab allows you to customize the marker list.
+The **Marker List** page allows you to customize the marker list.
 
 ## Marker List list box
 

@@ -1,8 +1,7 @@
 # Editor\_GetStatusW
 
 Retrieves the Unicode text displayed on the status bar. You can use this
-inline function or explicitly send the [EE\_GET\_STATUSW \
-message](../message/ee_get_statusw).
+inline function or explicitly send the [EE\_GET\_STATUSW message](../message/ee_get_statusw).
 
 Editor\_GetStatusW( HWND hwnd, LPWSTR szStatus, UINT nBufSize );
 

@@ -5,10 +5,8 @@ orphan: true
 
 ## New commands
 
-- [Always on Top - On \
-command](../cmd/window/window_always_top_on)
-- [Always on Top - Off \
-command](../cmd/window/window_always_top_off)
+- [Always on Top - On command](../cmd/window/window_always_top_on)
+- [Always on Top - Off command](../cmd/window/window_always_top_off)
 
 ## Existing dialog boxes with new options
 
@@ -19,8 +17,7 @@ command](../cmd/window/window_always_top_off)
 
 ## Other new features
 
-- You can cancel during the [**Find in**\
-**Files** command](../cmd/search/grep).
+- You can cancel during the [**Find in****Files** command](../cmd/search/grep).
 - You can use multi-byte characters using regular expressions for the
 [**Find in Files** command](../cmd/search/grep).
 - Searching using a regular expression has become faster.

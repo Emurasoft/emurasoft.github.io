@@ -18,9 +18,7 @@ typedef struct _GET_LINE_INFO {
 
 _cch_
 
-[Editor\_GetLineA マクロ](../macro/editor_getlinea)、 [Editor\_GetLineW \
-マクロ](../macro/editor_getlinew) の _szString_ パラメータ、または [EE\_GET\_LINEA メッセージ](../message/ee_get_linea)、 [EE\_GET\_LINEW \
-メッセージ](../message/ee_get_linew) の _lParam_ パラメータで、テキストを取得するバッファに格納することができる文字列の文字数を終端 Null
+[Editor\_GetLineA マクロ](../macro/editor_getlinea)、 [Editor\_GetLineW マクロ](../macro/editor_getlinew) の _szString_ パラメータ、または [EE\_GET\_LINEA メッセージ](../message/ee_get_linea)、 [EE\_GET\_LINEW メッセージ](../message/ee_get_linew) の _lParam_ パラメータで、テキストを取得するバッファに格納することができる文字列の文字数を終端 Null
 文字を含めて指定します。 0 を指定すると、バッファに必要な文字数を返すように指定することになります。
 
 _flags_

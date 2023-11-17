@@ -3,5 +3,5 @@
 Some other applications, particularly Netscape Navigator, have problems translating text from ANSI to Unicode. Instead of using the regular
 **Paste** command, select **All Commands** under the **Tools** menu, then
 **Edit > Paste > ANSI Paste**. Alternatively, check **Always Paste as ANSI** on the
-**General** tab
+**General** page
 of the **Current Configuration Properties** dialog box.

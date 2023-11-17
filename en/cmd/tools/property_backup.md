@@ -6,8 +6,7 @@ Displays Backup properties.
 
 ## Description
 
-Displays the [**Backup** \
-page](../../dlg/properties/backup/index) of the **[Configuration Properties](../../dlg/properties/index)**
+Displays the [**Backup** page](../../dlg/properties/backup/index) of the **[Configuration Properties](../../dlg/properties/index)**
 dialog box.
 
 ## How to Run

@@ -12,8 +12,7 @@ prompt will be displayed asking whether save changes for previous file or not. S
 the selected file.
 
 If the current EmEditor window is untitled and no character is inserted,
-this command behaves the same as the [**Open** \
-command](file_open).
+this command behaves the same as the [**Open** command](file_open).
 
 ## How to Run
 
