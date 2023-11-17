@@ -19,7 +19,7 @@ orphan: true
 - [\[逆インデント\] コマンド](../cmd/edit/unindent)
 - [\[コメント挿入\] コマンド](../cmd/edit/edit_comment)
 - [\[コメント削除\] コマンド](../cmd/edit/edit_uncomment)
-- [\[キャロンを挿入\] コマンド](../cmd/edit/insert_caron)
+- [\[キャロンを挿入\] コマンド](../cmd/insert/insert_caron)
 - [\[文書全体の空白をタブに変換\] コマンド](../cmd/edit/space_to_tab)
 - [\[最後に編集した位置へ移動\] コマンド](../cmd/edit/move_last_edit)
 - [\[このウィンドウの次のブックマーク\] コマンド](../cmd/edit/bookmark_next_within)
@@ -44,8 +44,8 @@ orphan: true
 
 ## 新機能が追加された既存のコマンド
 
-- [\[鋭アクセントを挿入\] コマンド](../cmd/edit/insert_acute)
-- [\[ティルデを挿入\] コマンド](../cmd/edit/insert_tilde)
+- [\[鋭アクセントを挿入\] コマンド](../cmd/insert/insert_acute)
+- [\[ティルデを挿入\] コマンド](../cmd/insert/insert_tilde)
 
 ## 新しいダイアログ ボックス
 
@@ -66,8 +66,8 @@ orphan: true
 - ![](../images/filesaveexit.gif)[保存して閉じる](../cmd/file/file_save_exit)
 - ![](../images/saveexitall.gif)[すべて保存して閉じる](../cmd/file/save_exit_all)
 - ![](../images/nextparen.gif)[対応するかっこへ](../cmd/edit/next_paren)
-- ![](../images/duplicateline.gif)[行の2重化](../cmd/edit/duplicate_line)
-- ![](../images/insertcontrol.gif)[特殊文字を入力](../cmd/edit/insert_control)
+- ![](../images/duplicateline.gif)[行の2重化](../cmd/insert/duplicate_line)
+- ![](../images/insertcontrol.gif)[特殊文字を入力](../cmd/insert/insert_control)
 - ![](../images/marks.gif)[記号](../cmd/view/view_marks)
 - ![](../images/editcomment.gif)[コメント挿入](../cmd/edit/edit_comment)
 - ![](../images/edituncomment.gif)[コメント削除](../cmd/edit/edit_uncomment)

@@ -45,8 +45,8 @@
 | ![](../../images/filesaveexit.gif)[保存して閉じる](../../cmd/file/file_save_exit) | ファイルを保存して閉じます。 |
 | ![](../../images/saveexitall.gif)[すべて保存して閉じる](../../cmd/file/save_exit_all) | ファイルをすべて保存して閉じます。 |
 | ![](../../images/nextparen.gif)[対応するかっこへ](../../cmd/edit/next_paren) | 対応するかっこへ移動します。 |
-| ![](../../images/duplicateline.gif)[行の2重化](../../cmd/edit/duplicate_line) | カーソルのある論理行全体を 2 重化します。 |
-| ![](../../images/insertcontrol.gif)[特殊文字を入力](../../cmd/edit/insert_control) | 特殊文字を入力します。 |
+| ![](../../images/duplicateline.gif)[行の2重化](../../cmd/insert/duplicate_line) | カーソルのある論理行全体を 2 重化します。 |
+| ![](../../images/insertcontrol.gif)[特殊文字を入力](../../cmd/insert/insert_control) | 特殊文字を入力します。 |
 | ![](../../images/marks.gif)[記号](../../cmd/view/view_marks) | 改行コード/EOF/タブ記号の表示/非表示を切り替えます。 |
 | ![](../../images/editcomment.gif)[コメント挿入](../../cmd/edit/edit_comment) | 選択範囲をコメントにします。 |
 | ![](../../images/edituncomment.gif)[コメント削除](../../cmd/edit/edit_uncomment) | 選択範囲のコメント記号を削除します。 |

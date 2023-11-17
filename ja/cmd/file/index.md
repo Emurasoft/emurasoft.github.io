@@ -99,10 +99,8 @@ copy_file_path
 erase_workspace
 exit_all
 file_close_open
-file_insert
 file_mru_file1
 file_mru_folder1
-file_mru_insert1
 file_new
 file_new_config
 file_new_paste
