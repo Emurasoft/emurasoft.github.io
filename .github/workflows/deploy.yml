@@ -37,19 +37,23 @@ jobs:
         run: |
           zip -r archive.zip Help \
             -x Help/404.html Help\en\404.html Help/index.html **/sitemap.xml **/.doctrees/** **/objects.inv
-      - name: Create archive (en)
+      - name: Create language archives
         run: |
-          zip -r en.zip Help/en -x **/sitemap.xml **/.doctrees/** **/objects.inv
+          languages=('en' 'ja' 'ko' 'zh-cn' 'zh-tw')
+          for language in "${languages[@]}"
+          do
+            zip -r "${language}.zip" "Help/${language}" -x **/sitemap.xml **/.doctrees/** **/objects.inv
+          done
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: artifact
           path: archive.zip
-      - name: Upload artifact (en)
+      - name: Test
         uses: actions/upload-artifact@v3
         with:
-          name: English
-          path: en.zip
+          name: ja
+          path: ja.zip
       - name: Rename directory
         run: mv Help help_pages
       - name: Add to build folder
