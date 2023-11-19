@@ -32,18 +32,21 @@ jobs:
       - name: Build pages
         run: sh ./buildAll.sh
       - name: Minify
-        run: ./minify -v -r --sync -o help_pages/ _build
+        run: ./minify -v -r --sync -o Help/ _build
       - name: Create archive
         run: |
-          zip -r archive.zip help_pages \
-            -x help_pages/404.html help_pages/google97d4e1b665179c67.html help_pages/index.html _add_to_build/sitemap_index.xml **/sitemap.xml **/.doctrees/** **/objects.inv
-      - name: Add to build folder
-        run: cp -r _add_to_build/* help_pages
+          zip -r archive.zip Help \
+            -x Help/404.html Help\en\404.html Help/index.html **/sitemap.xml **/.doctrees/** **/objects.inv
+      - name: Create archive
+        run: |
+          zip -r en.zip Help/en -x **/sitemap.xml **/.doctrees/** **/objects.inv
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: artifact
           path: archive.zip
+      - name: Add to build folder
+        run: cp -r _add_to_build/* Help
       - name: Configure GitHub Pages
         if: ${{ github.ref_type == 'tag' }}
         uses: actions/configure-pages@v3
@@ -51,7 +54,7 @@ jobs:
         if: ${{ github.ref_type == 'tag' }}
         uses: actions/upload-pages-artifact@v1
         with:
-          path: help_pages
+          path: Help
       - uses: actions/setup-node@v3
         with:
           node-version: 20
