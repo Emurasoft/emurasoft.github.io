@@ -28,10 +28,3 @@ def setup(app: 'Sphinx'):
         if isinstance(html_theme_options, dict):
             source_url = html_theme_options.get('source_url')
             source_icon = html_theme_options.get('source_icon')
-            if isinstance(source_url, str) and not source_icon:
-                if 'github.com' in source_url:
-                    html_theme_options['source_icon'] = 'github'
-                elif 'gitlab.com' in source_url:
-                    html_theme_options['source_icon'] = 'gitlab'
-                else:
-                    html_theme_options['source_icon'] = 'git'
