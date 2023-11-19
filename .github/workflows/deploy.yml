@@ -37,7 +37,7 @@ jobs:
         run: |
           zip -r archive.zip Help \
             -x Help/404.html Help\en\404.html Help/index.html **/sitemap.xml **/.doctrees/** **/objects.inv
-      - name: Create archive
+      - name: Create archive (en)
         run: |
           zip -r en.zip Help/en -x **/sitemap.xml **/.doctrees/** **/objects.inv
       - name: Upload artifact
@@ -45,6 +45,11 @@ jobs:
         with:
           name: artifact
           path: archive.zip
+      - name: Upload artifact (en)
+        uses: actions/upload-artifact@v3
+        with:
+          name: artifact
+          path: en.zip
       - name: Rename directory
         run: mv Help help_pages
       - name: Add to build folder
