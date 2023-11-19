@@ -49,11 +49,6 @@ jobs:
         with:
           name: artifact
           path: archive.zip
-      - name: Test
-        uses: actions/upload-artifact@v3
-        with:
-          name: ja
-          path: ja.zip
       - name: Rename directory
         run: mv Help help_pages
       - name: Add to build folder
