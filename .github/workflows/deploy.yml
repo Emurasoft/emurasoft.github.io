@@ -81,6 +81,31 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: archive.zip
+      - name: Publish English
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: en.zip
+      - name: Publish Japanese
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ja.zip
+      - name: Publish Korean
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ko.zip
+      - name: Publish Chinese Simplified
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: zh-cn.zip
+      - name: Publish Chinese Traditional
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: zh-tw.zip
   deploy:
     if: github.ref_type == 'tag'
     environment:
