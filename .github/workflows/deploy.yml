@@ -48,7 +48,7 @@ jobs:
       - name: Upload artifact (en)
         uses: actions/upload-artifact@v3
         with:
-          name: artifact
+          name: English
           path: en.zip
       - name: Rename directory
         run: mv Help help_pages
