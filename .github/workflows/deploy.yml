@@ -45,8 +45,10 @@ jobs:
         with:
           name: artifact
           path: archive.zip
+      - name: Rename directory
+        run: mv Help help_pages
       - name: Add to build folder
-        run: cp -r _add_to_build/* Help
+        run: cp -r _add_to_build/* help_pages
       - name: Configure GitHub Pages
         if: ${{ github.ref_type == 'tag' }}
         uses: actions/configure-pages@v3
