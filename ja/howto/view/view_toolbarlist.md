@@ -48,10 +48,10 @@
 | ![](../../images/duplicateline.gif)[行の2重化](../../cmd/insert/duplicate_line) | カーソルのある論理行全体を 2 重化します。 |
 | ![](../../images/insertcontrol.gif)[特殊文字を入力](../../cmd/insert/insert_control) | 特殊文字を入力します。 |
 | ![](../../images/marks.gif)[記号](../../cmd/view/view_marks) | 改行コード/EOF/タブ記号の表示/非表示を切り替えます。 |
-| ![](../../images/editcomment.gif)[コメント挿入](../../cmd/edit/edit_comment) | 選択範囲をコメントにします。 |
-| ![](../../images/edituncomment.gif)[コメント削除](../../cmd/edit/edit_uncomment) | 選択範囲のコメント記号を削除します。 |
-| ![](../../images/indent.gif)[インデント](../../cmd/edit/indent) | 選択範囲の行インデントを増やします。 |
-| ![](../../images/unindent.gif)[逆インデント](../../cmd/edit/unindent) | 選択範囲の行インデントを少なくします。 |
+| ![](../../images/editcomment.gif)[コメント挿入](../../cmd/convert/edit_comment) | 選択範囲をコメントにします。 |
+| ![](../../images/edituncomment.gif)[コメント削除](../../cmd/convert/edit_uncomment) | 選択範囲のコメント記号を削除します。 |
+| ![](../../images/indent.gif)[インデント](../../cmd/convert/indent) | 選択範囲の行インデントを増やします。 |
+| ![](../../images/unindent.gif)[逆インデント](../../cmd/convert/unindent) | 選択範囲の行インデントを少なくします。 |
 | ![](../../images/macrosave.gif)[マクロを保存](../../cmd/macros/macro_save) | 一時マクロを保存します。 |
 | ![](../../images/macroedit.gif)[マクロを編集](../../cmd/macros/macro_edit) | 選択したマクロを編集します。 |
 | ![](../../images/macroselect.gif)[マクロを選択](../../cmd/macros/macro_select) | 選択したマクロを選択します。 |
@@ -90,10 +90,10 @@
 | ![](../../images/wrap_indent24x16.gif)[折り返しインデント](../../cmd/view/toggle_wrap_indent) | 折り返しインデントを有効にします。 |
 | ![](../../images/tab_column24x16.gif)[タブの桁数](../../cmd/view/tab_column_popup) | ポップアップ メニューを表示してタブの桁数を選択します。 |
 | ![](../../images/indent_column24x16.gif)[インデントの桁数](../../cmd/view/indent_column_popup) | ポップアップ メニューを表示してインデントの桁数を選択します。 |
-| ![](../../images/html2uni24x16.gif)[HTML/XML文字参照をUnicodeに変換](../../cmd/edit/decode_html_char_ref) | 選択テキストをHTML/XML文字参照からUnicodeに変換します。 |
-| ![](../../images/uni2html24x16.gif)[UnicodeをHTML/XML文字参照に変換](../../cmd/edit/encode_html_char_ref) | 選択テキストをUnicodeからHTML/XML文字参照に変換します。 |
-| ![](../../images/ucs2uni24x16.gif)[Universal Character NamesをUnicodeに変換](../../cmd/edit/decode_ucn) | 選択テキストをUniversal Character NamesからUnicodeに変換します。 |
-| ![](../../images/uni2ucs24x16.gif)[UnicodeをUniversal Character Namesに変換](../../cmd/edit/encode_ucn) | 選択テキストをUnicodeからUniversal Character Namesに変換します。 |
+| ![](../../images/html2uni24x16.gif)[HTML/XML文字参照をUnicodeに変換](../../cmd/convert/decode_html_char_ref) | 選択テキストをHTML/XML文字参照からUnicodeに変換します。 |
+| ![](../../images/uni2html24x16.gif)[UnicodeをHTML/XML文字参照に変換](../../cmd/convert/encode_html_char_ref) | 選択テキストをUnicodeからHTML/XML文字参照に変換します。 |
+| ![](../../images/ucs2uni24x16.gif)[Universal Character NamesをUnicodeに変換](../../cmd/convert/decode_ucn) | 選択テキストをUniversal Character NamesからUnicodeに変換します。 |
+| ![](../../images/uni2ucs24x16.gif)[UnicodeをUniversal Character Namesに変換](../../cmd/convert/encode_ucn) | 選択テキストをUnicodeからUniversal Character Namesに変換します。 |
 | ![](../../images/spelling24x16.gif)[スペル チェック](../../cmd/edit/spell_toggle) | 文書のスペル チェックを行います。 |
 | ![](../../images/emeditor12_toggle_find_bar_button.png)[検索ツール バー](../../cmd/view/show_find_bar) | 検索ツール バーの表示/非表示を切り替えます。 |
 | ![](../../images/emeditor12_back_button.png)[戻る](../../cmd/edit/caret_back) | カーソルを以前の位置に移動します。 |

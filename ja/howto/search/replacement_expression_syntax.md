@@ -16,10 +16,10 @@
 | \\U | 次に続く文字列を大文字に変換します。 |
 | \\H | 次に続く文字列を半角に変換します。 |
 | \\F | 次に続く文字列を全角に変換します。 |
-| \\Nc | 次に続く文字列を [Unicode正規化形式C (正準合成)](../../cmd/edit/unicode_norm_fc) を使用して変換します。 |
-| \\Nd | 次に続く文字列を [Unicode正規化形式D (正準分解)](../../cmd/edit/unicode_norm_fd) を使用して変換します。 |
-| \\NC | 次に続く文字列を [Unicode正規化形式KC (互換合成)](../../cmd/edit/unicode_norm_fkc) を使用して変換します。 |
-| \\ND | 次に続く文字列を [Unicode正規化形式KD (互換分解)](../../cmd/edit/unicode_norm_fkd) を使用して変換します。 |
+| \\Nc | 次に続く文字列を [Unicode正規化形式C (正準合成)](../../cmd/convert/unicode_norm_fc) を使用して変換します。 |
+| \\Nd | 次に続く文字列を [Unicode正規化形式D (正準分解)](../../cmd/convert/unicode_norm_fd) を使用して変換します。 |
+| \\NC | 次に続く文字列を [Unicode正規化形式KC (互換合成)](../../cmd/convert/unicode_norm_fkc) を使用して変換します。 |
+| \\ND | 次に続く文字列を [Unicode正規化形式KD (互換分解)](../../cmd/convert/unicode_norm_fkd) を使用して変換します。 |
 | \\E | 以前の \\L、\\U、\\F、\\H、\\Nc、\\Nd、\\NC、または \\ND による変換を終了します。 |
 | \\J | 文字列全体が JavaScript の表現であることを指定します。\\J は置換表現の最初に位置している必要があり、\\E で終了することはできません。後方参照と一緒に指定することができます。例えば、
 
