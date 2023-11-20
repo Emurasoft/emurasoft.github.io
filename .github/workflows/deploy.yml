@@ -60,7 +60,7 @@ jobs:
         if: ${{ github.ref_type == 'tag' }}
         uses: actions/upload-pages-artifact@v1
         with:
-          path: Help
+          path: help_pages
       - uses: actions/setup-node@v3
         with:
           node-version: 20
