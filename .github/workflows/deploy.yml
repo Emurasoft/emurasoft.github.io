@@ -32,18 +32,27 @@ jobs:
       - name: Build pages
         run: sh ./buildAll.sh
       - name: Minify
-        run: ./minify -v -r --sync -o help_pages/ _build
+        run: ./minify -v -r --sync -o Help/ _build
       - name: Create archive
         run: |
-          zip -r archive.zip help_pages \
-            -x help_pages/404.html help_pages/google97d4e1b665179c67.html help_pages/index.html _add_to_build/sitemap_index.xml **/sitemap.xml **/.doctrees/** **/objects.inv
-      - name: Add to build folder
-        run: cp -r _add_to_build/* help_pages
+          zip -r archive.zip Help \
+            -x Help/404.html Help\en\404.html Help/index.html **/sitemap.xml **/.doctrees/** **/objects.inv
+      - name: Create language archives
+        run: |
+          languages=('en' 'ja' 'ko' 'zh-cn' 'zh-tw')
+          for language in "${languages[@]}"
+          do
+            zip -r "${language}.zip" "Help/${language}" -x **/sitemap.xml **/.doctrees/** **/objects.inv
+          done
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: artifact
           path: archive.zip
+      - name: Rename directory
+        run: mv Help help_pages
+      - name: Add to build folder
+        run: cp -r _add_to_build/* help_pages
       - name: Configure GitHub Pages
         if: ${{ github.ref_type == 'tag' }}
         uses: actions/configure-pages@v3
@@ -67,8 +76,33 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: archive.zip
+      - name: Publish English
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: en.zip
+      - name: Publish Japanese
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ja.zip
+      - name: Publish Korean
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ko.zip
+      - name: Publish Chinese Simplified
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: zh-cn.zip
+      - name: Publish Chinese Traditional
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: zh-tw.zip
   deploy:
-    if: github.ref_type == 'tag'
+    if: ${{ github.ref_type == 'tag' && github.ref_name != '0.0.0'}}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
