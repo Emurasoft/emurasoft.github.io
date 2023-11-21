@@ -2,7 +2,7 @@
 
 To replace a string within specified files in a path, use [ReplaceInFiles Method](../editor/editor_replaceinfiles).
 
-The following example demonstrates how to replace <H3> ... </H3> in a HTML file with <H4> ... </H4>.
+The following example demonstrates how to replace `<H3> ... </H3>` in a HTML file with `<H4> ... </H4>`.
 
 ## \[JavaScript\]
 

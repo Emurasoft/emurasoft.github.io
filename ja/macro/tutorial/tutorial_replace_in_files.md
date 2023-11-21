@@ -2,7 +2,7 @@
 
 指定するパスの複数のファイルから文字列を置換するには、 [ReplaceInFiles メソッド](../editor/editor_replaceinfiles) を利用します。
 
-この例では、HTMLファイルの <H3> ... </H3> を <H4> ... </H4> に置換します。
+この例では、HTMLファイルの `<H3> ... </H3>` を `<H4> ... </H4>` に置換します。
 
 ## \[JavaScript\]
 
