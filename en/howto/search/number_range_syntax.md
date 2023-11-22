@@ -41,8 +41,7 @@ The following formats can be used to make date and/or time formats.
 | M | Month as digits without leading zeros for single-digit months. |
 | MM | Month as digits with leading zeros for single-digit months. |
 | MMM | Abbreviated month name, for example, "Nov" in English. This format may not be available if the current locale does not provide month names. |
-<!-- cspell:disable-next-line -->
-| MMMM | Month name, for example, "November" for English, and "Noviembre" for Spanish. This format may not be available if the current locale does not provide month names. |
+| MMMM | Month name, for example, "November" for English, and "Noviembre" for Spanish. This format may not be available if the current locale does not provide month names. | <!-- cspell:disable-line -->
 | d | Day of the month as digits without leading zeros for single-digit days. |
 | dd | Day of the month as digits with leading zeros for single-digit days. |
 | HH:mm | Hours and minutes separated by a colon; 24-hour clock. |

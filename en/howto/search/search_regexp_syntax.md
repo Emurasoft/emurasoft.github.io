@@ -178,7 +178,6 @@ Copyright (C) K. Takata, based on Oniguruma Copyright (C) by K. Kosako.
 
 - [Q. What are examples of regular expressions?](../../faq/search/search_reg_exp_ex)
 - [To Specify newline characters](search_nl)
-- 
-- 
-(Notes: **\\nnn** and **\\xHH** are unsupported)
--
+- [Boost.Regex: Regular Expression Syntax](https://www.boost.org/doc/libs/1_76_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html)
+- [Onigmo: Regular Expression Syntax](https://github.com/k-takata/Onigmo/blob/master/doc/RE) (Notes: **\\nnn** and **\\xHH** are unsupported)
+- [Onigmo: Unicode Properties](https://github.com/k-takata/Onigmo/blob/master/doc/UnicodeProps.txt)

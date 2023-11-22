@@ -129,7 +129,6 @@ Copyright (c) 1998-2001 Dr John Maddock
 
 - [Q. 正则表达式的例子有哪些？](../../faq/search/search_reg_exp_ex)
 - [指定换行](search_nl)
-- 
-- 
-（备注：不支持 **\\nnn** 和 **\\xHH** ）
--
+- [Boost.Regex: Regular Expression Syntax](https://www.boost.org/doc/libs/1_76_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html)
+- [Onigmo: Regular Expression Syntax](https://github.com/k-takata/Onigmo/blob/master/doc/RE)（备注：不支持 **\\nnn** 和 **\\xHH** ）
+- [Onigmo: Unicode Properties](https://github.com/k-takata/Onigmo/blob/master/doc/UnicodeProps.txt)
