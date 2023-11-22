@@ -22,31 +22,10 @@
 | \\NC | 強制使用 [Unicode 正規化表單 KC（相容性組合）](../../cmd/edit/unicode_norm_fkc) 轉換所有後續取代字元。 |
 | \\ND | 強制使用 [Unicode 正規化表單 KD（相容性分解）](../../cmd/edit/unicode_norm_fkd) 轉換所有後續取代字元。 |
 | \\E | 關閉之前的 \\L，\\U，\\F，\\H，\\Nc，\\Nd，\\NC，或 \\ND。 |
-| \\J | 指定運算式使用 JavaScript。\\J 必須放在取代運算式的開頭。可以與反向參考結合使用。還可以在指令碼中使用 **cell** 函數。例如，
-
-| 取代運算式 | 含義 |
-| --- | --- |
-| \\J "\\0" + "abc" | 合併符合字串與 "abc" |
-| \\J "\\0".substr( 0, 5 ); | 返回符合字串的前 5 個字元 |
-| \\J \\0 \* 100; | 將符合的數字乘以 100 |
-| \\J parseFloat( \\0 ).toFixed(2); | 將符合的數字四舍五入到小數點後 2 位 |
-| \\J cell( -1 ) | 返回位於符合儲存格左側相鄰儲存格中的文字 |
-| \\J parseFloat( cell( -1 ) ) + parseFloat( cell( -2 ) ) | 返回左側兩個相鄰儲存格的總和 | |
+| \\J | 指定運算式使用 JavaScript。\\J 必須放在取代運算式的開頭。可以與反向參考結合使用。還可以在指令碼中使用 **cell** 函數。例如，<table><tbody><tr><th>取代運算式</th><th>含義</th></tr><tr><td>\J&quot;\0&quot;+&quot;abc&quot;</td><td>合併符合字串與&quot;abc&quot;</td></tr><tr><td>\J&quot;\0&quot;.substr(0,5);</td><td>返回符合字串的前5個字元</td></tr><tr><td>\J\0*100;</td><td>將符合的數字乘以100</td></tr><tr><td>\JparseFloat(\0).toFixed(2);</td><td>將符合的數字四舍五入到小數點後2位</td></tr><tr><td>\Jcell(-1)</td><td>返回位於符合儲存格左側相鄰儲存格中的文字</td></tr><tr><td>\JparseFloat(cell(-1))+parseFloat(cell(-2))</td><td>返回左側兩個相鄰儲存格的總和</td></tr></tbody></table>
 | \\V | 與 \\J 相同，只是 \\V 使用 **V8 JavaScript** 引擎而不是 **Chakra** 引擎。 |
-| \\D | 如果 [**數字範圍運算式**](number_range_syntax) 的日期/時間類型用於符合字串，則此運算式可以指定日期格式。它可以與 **\\T** 結合使用。 [檢視可用的日、月、年格式圖片。](https://docs.microsoft.com/en-us/windows/win32/intl/day--month--year--and-era-format-pictures) 例如，如果符合的日期/時間是 "2022-03-31 21:30":（範例的語言環境是英語（美國））
-
-| 取代運算式 | 結果 |
-| --- | --- |
-| \\DM/d/yyyy | 3/31/2022 |
-| \\DMMMM, d, yyyy | March 31, 2022 |
-| \\D'month='M 'day='d \\THH:mm | month=3 day=31 21:30 | |
-| \\T | 如果 [**數字範圍運算式**](number_range_syntax) 的日期/時間類型用於符合字串，則此運算式可以指定時間格式。它可以與 **\\D** 結合使用。 [檢視可用小時、分鐘 , 和第二種格式的圖片。](https://docs.microsoft.com/en-us/windows/win32/intl/hour--minute--and-second-format-pictures) 例如，如果符合的日期/時間是   "2022-03-31 21:30":（範例的語言環境是英語（美國））
-
-| 取代運算式 | 結果 |
-| --- | --- |
-| \\THH:mm | 21:30 |
-| \\Th:mm tt | 9:30 PM |
-| \\THH:mm\\D-yyyy-MM-dd | 21:30-2022-03-31 | |
+| \\D | 如果 [**數字範圍運算式**](number_range_syntax) 的日期/時間類型用於符合字串，則此運算式可以指定日期格式。它可以與 **\\T** 結合使用。 [檢視可用的日、月、年格式圖片。](https://docs.microsoft.com/en-us/windows/win32/intl/day--month--year--and-era-format-pictures) 例如，如果符合的日期/時間是 "2022-03-31 21:30":（範例的語言環境是英語（美國））<table><tbody><tr><th>取代運算式</th><th>結果</th></tr><tr><td>\DM/d/yyyy</td><td>3/31/2022</td></tr><tr><td>\DMMMM,d,yyyy</td><td>March31,2022</td></tr><tr><td>\D'month='M'day='d\THH:mm</td><td>month=3day=3121:30</td></tr></tbody></table>
+| \\T | 如果 [**數字範圍運算式**](number_range_syntax) 的日期/時間類型用於符合字串，則此運算式可以指定時間格式。它可以與 **\\D** 結合使用。 [檢視可用小時、分鐘 , 和第二種格式的圖片。](https://docs.microsoft.com/en-us/windows/win32/intl/hour--minute--and-second-format-pictures) 例如，如果符合的日期/時間是   "2022-03-31 21:30":（範例的語言環境是英語（美國））<table><tbody><tr><th>取代運算式</th><th>結果</th></tr><tr><td>\THH:mm</td><td>21:30</td></tr><tr><td>\Th:mmtt</td><td>9:30PM</td></tr><tr><td>\THH:mm\D-yyyy-MM-dd</td><td>21:30-2022-03-31</td></tr></tbody></table>
 | (?n:true\_expression:false\_expression) | 如果符合子運算式 N，則評估 true\_expression 並將其發送到匯出，否則評估 false\_expression 並將其發送到匯出。例如，(?1foo:bar)，如果符合子運算式 \\1，會用 foo取代每個符合，反之則用 bar。另外，您也可以用這種方式寫該運算式：(?{1}foo:bar) |
 | $(Path) | 檔案路徑。 |
 | $(Dir) | 檔案目錄。 |
