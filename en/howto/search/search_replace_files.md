@@ -1,6 +1,6 @@
 # To Replace in Files
 
-1. Select the [**Replace in****Files** command](../../cmd/search/replace_in_files) under the Search menu to display the
+1. Select the [**Replace in Files** command](../../cmd/search/replace_in_files) under the Search menu to display the
 [**Replace in Files** dialog box](../../dlg/replace_in_files/index).
 2. Enter the text string to search for, the text string to replace with, the file type(s) (separated with a semicolon if more than one) and the folder(s) to search, then press the
 **Replace All**
