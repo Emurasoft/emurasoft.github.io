@@ -33,10 +33,6 @@ jobs:
         run: sh ./buildAll.sh
       - name: Minify
         run: ./minify -v -r --sync -o Help/ _build
-      - name: Create archive
-        run: |
-          zip -r archive.zip Help \
-            -x Help/404.html Help\en\404.html Help/index.html **/sitemap.xml **/.doctrees/** **/objects.inv
       - name: Create language archives
         run: |
           languages=('en' 'ja' 'ko' 'zh-cn' 'zh-tw')
@@ -44,13 +40,17 @@ jobs:
           do
             zip -r "${language}.zip" "Help/${language}" -x **/sitemap.xml **/.doctrees/** **/objects.inv
           done
+      - name: Rename directory
+        run: mv Help help_pages
+      - name: Create archive
+        run: |
+          zip -r archive.zip help_pages \
+            -x Help/404.html Help\en\404.html Help/index.html **/sitemap.xml **/.doctrees/** **/objects.inv
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: artifact
           path: archive.zip
-      - name: Rename directory
-        run: mv Help help_pages
       - name: Add to build folder
         run: cp -r _add_to_build/* help_pages
       - name: Configure GitHub Pages
