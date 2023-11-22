@@ -23,31 +23,10 @@
 | \\NC | 次に続く文字列を [Unicode正規化形式KC (互換合成)](../../cmd/convert/unicode_norm_fkc) を使用して変換します。 |
 | \\ND | 次に続く文字列を [Unicode正規化形式KD (互換分解)](../../cmd/convert/unicode_norm_fkd) を使用して変換します。 |
 | \\E | 以前の \\L、\\U、\\F、\\H、\\Nc、\\Nd、\\NC、または \\ND による変換を終了します。 |
-| \\J | 文字列全体が JavaScript の表現であることを指定します。\\J は置換表現の最初に位置している必要があり、\\E で終了することはできません。後方参照と一緒に指定することができます。例えば、
-
-| 置換表現 | 意味 |
-| --- | --- |
-| \\J "\\0" + "abc" | 一致した文字列の最後に "abc" を追加します。 |
-| \\J "\\0".substr( 0, 5 ); | 一致した文字列の最初の 5 桁を返します。 |
-| \\J \\0 \* 100; | 一致した数字に 100 を掛けます。 |
-| \\J parseFloat( \\0 ).toFixed(2); | 一致した数字の小数点以下第2位に四捨五入します。 |
-| \\J cell( -1 ) | 左隣のセル内のテキストを返します。 |
-| \\J parseFloat( cell( -1 ) ) + parseFloat( cell( -2 ) ) | 左隣の2個の小数の合計を返します。 | |
+| \\J | 文字列全体が JavaScript の表現であることを指定します。\\J は置換表現の最初に位置している必要があり、\\E で終了することはできません。後方参照と一緒に指定することができます。例えば、<table><tbody><tr><th>置換表現</th><th>意味</th></tr><tr><td>\J&quot;\0&quot;+&quot;abc&quot;</td><td>一致した文字列の最後に&quot;abc&quot;を追加します。</td></tr><tr><td>\J&quot;\0&quot;.substr(0,5);</td><td>一致した文字列の最初の5桁を返します。</td></tr><tr><td>\J\0*100;</td><td>一致した数字に100を掛けます。</td></tr><tr><td>\JparseFloat(\0).toFixed(2);</td><td>一致した数字の小数点以下第2位に四捨五入します。</td></tr><tr><td>\Jcell(-1)</td><td>左隣のセル内のテキストを返します。</td></tr><tr><td>\JparseFloat(cell(-1))<br>+parseFloat(cell(-2))</td><td>左隣の2個の小数の合計を返します。</td></tr></tbody></table>
 | \\V | \\J と同じですが、\\V は Chakra エンジンの代わりに V8 JavaScript エンジンを使用します。 |
-| \\D | [数値範囲表現](number_range_syntax) の日付/時刻タイプが使用された一致の場合、この表現は日付フォーマットを指定します。\\Tと組み合わせて使用することもできます。 [利用可能な日、月、年形式のフォーマットを参照](https://docs.microsoft.com/ja-jp/windows/win32/intl/day--month--year--and-era-format-pictures)。例えば、一致した日付/時刻が「2022-03-31 21:30」の場合:
-
-| 置換表現 | 結果 |
-| --- | --- |
-| \\DM/d/yyyy | 3/31/2022 |
-| \\Dyyyy年M月d日 | 2022年3月31日 |
-| \\D'month='M 'day='d \\THH:mm | month=3 day=31 21:30 | |
-| \\T | [数値範囲表現](number_range_syntax) の日付/時刻タイプが使用された一致の場合、この表現は時刻フォーマットを指定します。\\Dと組み合わせて使用することもできます。 [利用可能な時刻、分、秒形式のフォーマットを参照](https://docs.microsoft.com/ja-jp/windows/win32/intl/day--month--year--and-era-format-pictures)。例えば、一致した日付/時刻が「2022-03-31 21:30」の場合:
-
-| 置換表現 | 結果 |
-| --- | --- |
-| \\THH:mm | 21:30 |
-| \\Th:mm tt | 9:30 PM |
-| \\THH:mm\\D-yyyy-MM-dd | 21:30-2022-03-31 | |
+| \\D | [数値範囲表現](number_range_syntax) の日付/時刻タイプが使用された一致の場合、この表現は日付フォーマットを指定します。\\Tと組み合わせて使用することもできます。 [利用可能な日、月、年形式のフォーマットを参照](https://docs.microsoft.com/ja-jp/windows/win32/intl/day--month--year--and-era-format-pictures)。例えば、一致した日付/時刻が「2022-03-31 21:30」の場合:<table><tbody><tr><th>置換表現</th><th>結果</th></tr><tr><td>\DM/d/yyyy</td><td>3/31/2022</td></tr><tr><td>\Dyyyy年M月d日</td><td>&nbsp;2022年3月31日</td></tr><tr><td>\D'month='M'day='d\THH:mm</td><td>month=3day=3121:30</td></tr></tbody></table>
+| \\T | [数値範囲表現](number_range_syntax) の日付/時刻タイプが使用された一致の場合、この表現は時刻フォーマットを指定します。\\Dと組み合わせて使用することもできます。 [利用可能な時刻、分、秒形式のフォーマットを参照](https://docs.microsoft.com/ja-jp/windows/win32/intl/day--month--year--and-era-format-pictures)。例えば、一致した日付/時刻が「2022-03-31 21:30」の場合:<table><tbody><tr><th>置換表現</th><th>結果</th></tr><tr><td>\THH:mm</td><td>21:30</td></tr><tr><td>\Th:mmtt</td><td>9:30PM</td></tr><tr><td>\THH:mm\D-yyyy-MM-dd</td><td>21:30-2022-03-31</td></tr></tbody></table>
 | (?Ntrue\_expression:false\_expression) | 部分式 N が一致した場合、true\_expression に変換されます。一致しない場合は false\_expression <br> に変換されます。例えば、(?1foo:bar) は部分式 \\1 が一致すると foo と置換され、一致しないと  bar と置換されます。(?{1}foo:bar) と書くこともできます。 |
 | $(Path) | ファイル パス |
 | $(Dir) | ファイル ディレクトリ |
