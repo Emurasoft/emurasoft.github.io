@@ -38,10 +38,10 @@
 | ![](../../images/macrorecord.gif)[マクロの記録/停止](../../cmd/macros/quick_macro_record) | マクロの記録を開始または終了します。 |
 | ![](../../images/macrorun.gif)[マクロの実行](../../cmd/macros/quick_macro_run) | マクロを実行します。 |
 | ![](../../images/windowalwaystop.gif)[常に最上位](../../cmd/window/window_always_top) | このウィンドウを常に手前に表示または解除します。 |
-| ![](../../images/bookmarktoggle.gif)[ブックマークを設定/解除](../../cmd/edit/bookmark_toggle) | 現在行のブックマークのオン/オフを切り替えます。 |
-| ![](../../images/bookmarkprev.gif)[すべてのウィンドウの前のブックマーク](../../cmd/edit/bookmark_prev) | すべてのウィンドウで前のブックマークへ移動します。 |
-| ![](../../images/bookmarknext.gif)[すべてのウィンドウの次のブックマーク](../../cmd/edit/bookmark_next) | すべてのウィンドウで次のブックマークへ移動します。 |
-| ![](../../images/bookmarkclear.gif)[このウィンドウのブックマークをクリア](../../cmd/edit/bookmark_clear) | このウィンドウのすべてのブックマークをクリアします。 |
+| ![](../../images/bookmarktoggle.gif)[ブックマークを設定/解除](../../cmd/bookmarks/bookmark_toggle) | 現在行のブックマークのオン/オフを切り替えます。 |
+| ![](../../images/bookmarkprev.gif)[すべてのウィンドウの前のブックマーク](../../cmd/bookmarks/bookmark_prev) | すべてのウィンドウで前のブックマークへ移動します。 |
+| ![](../../images/bookmarknext.gif)[すべてのウィンドウの次のブックマーク](../../cmd/bookmarks/bookmark_next) | すべてのウィンドウで次のブックマークへ移動します。 |
+| ![](../../images/bookmarkclear.gif)[このウィンドウのブックマークをクリア](../../cmd/bookmarks/bookmark_clear) | このウィンドウのすべてのブックマークをクリアします。 |
 | ![](../../images/filesaveexit.gif)[保存して閉じる](../../cmd/file/file_save_exit) | ファイルを保存して閉じます。 |
 | ![](../../images/saveexitall.gif)[すべて保存して閉じる](../../cmd/file/save_exit_all) | ファイルをすべて保存して閉じます。 |
 | ![](../../images/nextparen.gif)[対応するかっこへ](../../cmd/edit/next_paren) | 対応するかっこへ移動します。 |
@@ -60,8 +60,8 @@
 | ![](../../images/increasefontsize.gif)[大きいフォント サイズ](../../cmd/view/increase_font_size) | 表示フォントのサイズを大きくします。 |
 | ![](../../images/decreasefontsize.gif)[小さいフォント サイズ](../../cmd/view/decrease_font_size) | 表示フォントのサイズを小さくします。 |
 | ![](../../images/replaceinfiles.gif)[ファイルから置換](../../cmd/search/replace_in_files) | 複数のファイルから文字列の置換を行います。 |
-| ![](../../images/bookmarkprevwithin.gif)[このウィンドウの前のブックマーク](../../cmd/edit/bookmark_prev_within) | このウィンドウの前のブックマークに移動します。 |
-| ![](../../images/bookmarknextwithin.gif)[このウィンドウの次のブックマーク](../../cmd/edit/bookmark_next_within) | このウィンドウの次のブックマークに移動します。 |
+| ![](../../images/bookmarkprevwithin.gif)[このウィンドウの前のブックマーク](../../cmd/bookmarks/bookmark_prev_within) | このウィンドウの前のブックマークに移動します。 |
+| ![](../../images/bookmarknextwithin.gif)[このウィンドウの次のブックマーク](../../cmd/bookmarks/bookmark_next_within) | このウィンドウの次のブックマークに移動します。 |
 | ![](../../images/delete.gif)[削除](../../cmd/edit/delete) | 選択範囲またはカーソル上の文字を 1 文字削除します。 |
 | ![](../../images/full_screen.gif)[全画面表示](../../cmd/view/full_screen) | 全画面表示を切り替えます。 |
 | ![](../../images/sticky.gif)[固定箱型選択モード](../../cmd/edit/vertical_mode) | 固定箱型選択モードに切り替えます。 |

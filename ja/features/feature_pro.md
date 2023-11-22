@@ -22,8 +22,8 @@ orphan: true
 - [\[キャロンを挿入\] コマンド](../cmd/insert/insert_caron)
 - [\[文書全体の空白をタブに変換\] コマンド](../cmd/edit/space_to_tab)
 - [\[最後に編集した位置へ移動\] コマンド](../cmd/edit/move_last_edit)
-- [\[このウィンドウの次のブックマーク\] コマンド](../cmd/edit/bookmark_next_within)
-- [\[このウィンドウの前のブックマーク\] コマンド](../cmd/edit/bookmark_prev_within)
+- [\[このウィンドウの次のブックマーク\] コマンド](../cmd/bookmarks/bookmark_next_within)
+- [\[このウィンドウの前のブックマーク\] コマンド](../cmd/bookmarks/bookmark_prev_within)
 - [\[ファイルから置換\] コマンド](../cmd/search/replace_in_files)
 - [\[記号\] コマンド](../cmd/view/view_marks)
 - [\[大きいフォント サイズ\] コマンド](../cmd/view/increase_font_size)
@@ -81,8 +81,8 @@ orphan: true
 - ![](../images/increasefontsize.gif)[大きいフォント サイズ](../cmd/view/increase_font_size)
 - ![](../images/decreasefontsize.gif)[小さいフォント サイズ](../cmd/view/decrease_font_size)
 - ![](../images/replaceinfiles.gif)[ファイルから置換](../cmd/search/replace_in_files)
-- ![](../images/bookmarkprevwithin.gif)[このウィンドウの前のブックマーク](../cmd/edit/bookmark_prev_within)
-- ![](../images/bookmarknextwithin.gif)[このウィンドウの次のブックマーク](../cmd/edit/bookmark_next_within)
+- ![](../images/bookmarkprevwithin.gif)[このウィンドウの前のブックマーク](../cmd/bookmarks/bookmark_prev_within)
+- ![](../images/bookmarknextwithin.gif)[このウィンドウの次のブックマーク](../cmd/bookmarks/bookmark_next_within)
 
 ## その他の新機能
 
