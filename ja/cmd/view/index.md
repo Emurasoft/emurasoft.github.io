@@ -131,15 +131,10 @@ charset_turkish
 charset_vietnamese
 charset_western_europe
 clear_saved_markers
-csv_hide_quotes
 decrease_font_size
 font
 font_popup
 full_screen
-header_alpha
-header_num
-header_toggle
-header_zero_base
 increase_font_size
 indent_column_popup
 large_file_bar

@@ -74,7 +74,7 @@
 | [<< 検索 (検索ツール バー)](findbar_find_dlg) | 検索ツール バーの \[<< 検索\] ボタンのオン/オフを切り替えます。 |
 | [次を置換 (検索ツール バー)](findbar_replace_next) | 検索ツール バーを使用して次の一致した文字列を置換します。 |
 | [すべて置換 (検索ツール バー)](findbar_replace_all) | 検索ツール バーを使用してすべての一致した文字列を置換します。 |
-| [シンボルを検索](../tools/ql_symbols) | クイック起動ウィンドウを表示して、シンボルを選択します。 |
+| [シンボルを検索](../search/ql_symbols) | クイック起動ウィンドウを表示して、シンボルを選択します。 |
 
 
 ```{toctree}
@@ -146,6 +146,7 @@ findbar_sel_only
 focus_filter_bar
 focus_find_bar
 grep
+ql_symbols
 replace_in_files
 replace_next
 retrieve_find_text

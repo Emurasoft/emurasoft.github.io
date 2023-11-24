@@ -69,15 +69,15 @@
 | ![](../../images/outline_exp.gif)[アウトラインをすべて展開](../../cmd/edit/outline_expand_all) | アウトライン表示時、文書全体を展開して表示します。 |
 | ![](../../images/save_as.gif)[名前を付けて保存](../../cmd/file/file_save_as) | ファイルに名前を付けて保存します。 |
 | ![](../../images/cycle_clipboard_ring.gif)[クリップボード リングの回転](../../cmd/edit/paste_history) | クリップボードの履歴の中から内容を貼り付けます。 |
-| ![](../../images/default_mode.gif)[通常モード](../../cmd/edit/mode_normal) | 区切り表示モードを解除します。 |
-| ![](../../images/csv.gif)[CSVモード](../../cmd/edit/mode_csv) | CSV (カンマ区切り) モードを選択します。 |
-| ![](../../images/tsv.gif)[TSVモード](../../cmd/edit/mode_tsv) | TSV (タブ区切り) モードを選択します。 |
-| ![](../../images/dsv.gif)[DSVモード](../../cmd/edit/mode_dsv) | DSV (ユーザー定義区切り) モードを選択します。 |
+| ![](../../images/default_mode.gif)[通常モード](../../cmd/csv/mode_normal) | 区切り表示モードを解除します。 |
+| ![](../../images/csv.gif)[CSVモード](../../cmd/csv/mode_csv) | CSV (カンマ区切り) モードを選択します。 |
+| ![](../../images/tsv.gif)[TSVモード](../../cmd/csv/mode_tsv) | TSV (タブ区切り) モードを選択します。 |
+| ![](../../images/dsv.gif)[DSVモード](../../cmd/csv/mode_dsv) | DSV (ユーザー定義区切り) モードを選択します。 |
 | ![](../../images/narrowing.gif)[部分編集の設定/解除](../../cmd/edit/narrowing_toggle) | 選択範囲のみを編集可能な領域として設定または解除します。 |
-| ![](../../images/sortinga-z.gif)[AからZへ並べ替え](../../cmd/edit/sort_text_a) | 現在の列のテキストを昇順で並べ替えます。 |
-| ![](../../images/sortingz-a.gif)[ZからAへ並べ替え](../../cmd/edit/sort_text_d) | 現在の列のテキストを降順で並べ替えます。 |
-| ![](../../images/sorting0-9.gif)[小さい値から大きい値へ並べ替え](../../cmd/edit/sort_num_a) | 現在の列の数値を昇順で並べ替えます。 |
-| ![](../../images/sorting9-0.gif)[大きい値から小さい値へ並べ替え](../../cmd/edit/sort_num_d) | 現在の列の数値を降順で並べ替えます。 |
+| ![](../../images/sortinga-z.gif)[AからZへ並べ替え](../../cmd/sort/sort_text_a) | 現在の列のテキストを昇順で並べ替えます。 |
+| ![](../../images/sortingz-a.gif)[ZからAへ並べ替え](../../cmd/sort/sort_text_d) | 現在の列のテキストを降順で並べ替えます。 |
+| ![](../../images/sorting0-9.gif)[小さい値から大きい値へ並べ替え](../../cmd/sort/sort_num_a) | 現在の列の数値を昇順で並べ替えます。 |
+| ![](../../images/sorting9-0.gif)[大きい値から小さい値へ並べ替え](../../cmd/sort/sort_num_d) | 現在の列の数値を降順で並べ替えます。 |
 | ![](../../images/compare24x16.gif)[比較](../../cmd/diff/compare_direct) | 最近表示した 2 個の文書をオプションを指定せずに比較します。 |
 | ![](../../images/rescan24x16.gif)[再スキャン](../../cmd/diff/compare_rescan) | 比較した文書を再スキャンして結果を最新情報に更新します。 |
 | ![](../../images/sync24x16.gif)[同期スクロール](../../cmd/diff/sync_scroll_direct) | 比較した文書を再スキャンして結果を最新情報に更新します。 |
@@ -98,17 +98,17 @@
 | ![](../../images/emeditor12_toggle_find_bar_button.png)[検索ツール バー](../../cmd/view/show_find_bar) | 検索ツール バーの表示/非表示を切り替えます。 |
 | ![](../../images/emeditor12_back_button.png)[戻る](../../cmd/edit/caret_back) | カーソルを以前の位置に移動します。 |
 | ![](../../images/emeditor12_forward_button.png)[進む](../../cmd/edit/caret_forward) | カーソルを次の位置に移動します。 |
-| ![](../../images/convert_to.gif)[次のCSVに変換](../../cmd/edit/csv_converter) | ポップアップ メニューを表示して、現在のCSV文書または固定幅列文書を指定するCSV文書に変換します。 |
-| ![](../../images/columns_separators.gif)[列/セパレーター](../../cmd/edit/sv_sep_popup) | ポップアップ メニューを表示して、列またはセパレーターに関する作業を行います。 |
-| ![](../../images/heading.gif)[ヘディング](../../cmd/edit/heading_popup) | ポップアップ メニューを表示して、ヘディングを設定します。 |
-| ![](../../images/deleteduplicatelines.gif)[重複行の削除](../../cmd/edit/delete_duplicate) | 選択範囲または文書全体から重複行を削除します。 |
-| ![](../../images/sortbymultiple.gif)[複数列で並べ替え](../../cmd/edit/sort_multi) | 文書を複数列で並べ替えます。 |
+| ![](../../images/convert_to.gif)[次のCSVに変換](../../cmd/csv/csv_converter) | ポップアップ メニューを表示して、現在のCSV文書または固定幅列文書を指定するCSV文書に変換します。 |
+| ![](../../images/columns_separators.gif)[列/セパレーター](../../cmd/csv/sv_sep_popup) | ポップアップ メニューを表示して、列またはセパレーターに関する作業を行います。 |
+| ![](../../images/heading.gif)[ヘディング](../../cmd/csv/heading_popup) | ポップアップ メニューを表示して、ヘディングを設定します。 |
+| ![](../../images/deleteduplicatelines.gif)[重複行の削除](../../cmd/sort/delete_duplicate) | 選択範囲または文書全体から重複行を削除します。 |
+| ![](../../images/sortbymultiple.gif)[複数列で並べ替え](../../cmd/sort/sort_multi) | 文書を複数列で並べ替えます。 |
 | ![](../../images/togglefilterbar.gif)[フィルター ツール バー](../../cmd/view/show_filter_bar) | フィルター ツール バーの表示/非表示を切り替えます。 |
-| ![](../../images/sort_length_a.png)[短い文字列から長い文字列へ並べ替え](../../cmd/edit/sort_length_a) | 現在の列の文字列を長さで昇順で並べ替えます。 |
-| ![](../../images/sort_length_d.png)[長い文字列から短い文字列へ並べ替え](../../cmd/edit/sort_length_d) | 現在の列の文字列を長さで降順で並べ替えます。 |
-| ![](../../images/deleteduplicatelines_advanced.png)[重複行の削除(高度)](../../cmd/edit/delete_duplicate_advanced) | ダイアログ ボックスを表示して設定を指定し、選択範囲または文書全体から重複行を削除します。 |
-| ![](../../images/join_csv.png)[CSVの結合](../../cmd/edit/join_csv) | 2個のCSV文書を結合します。 |
-| ![](../../images/extract_columns.png)[列を抽出](../../cmd/edit/extract_columns) | 現在のCSV文書から指定する列を抽出します。 |
+| ![](../../images/sort_length_a.png)[短い文字列から長い文字列へ並べ替え](../../cmd/sort/sort_length_a) | 現在の列の文字列を長さで昇順で並べ替えます。 |
+| ![](../../images/sort_length_d.png)[長い文字列から短い文字列へ並べ替え](../../cmd/sort/sort_length_d) | 現在の列の文字列を長さで降順で並べ替えます。 |
+| ![](../../images/deleteduplicatelines_advanced.png)[重複行の削除(高度)](../../cmd/sort/delete_duplicate_advanced) | ダイアログ ボックスを表示して設定を指定し、選択範囲または文書全体から重複行を削除します。 |
+| ![](../../images/join_csv.png)[CSVの結合](../../cmd/csv/join_csv) | 2個のCSV文書を結合します。 |
+| ![](../../images/extract_columns.png)[列を抽出](../../cmd/csv/extract_columns) | 現在のCSV文書から指定する列を抽出します。 |
 | ![コミット リスト](../../images/plugin_commit_list.gif)[コミット リスト](../plugin/plugin_commit_list) | \[コミット リスト\] プラグイン。 |
 | ![エクスプローラ](../../images/plugin_explorer.gif)[エクスプローラ](../plugin/plugin_explorer) | \[エクスプローラ\] プラグイン。 |
 | ![](../../images/htmlbar.gif)[HTML バー](../plugin/plugin_htmlbar) | \[HTML バー\] プラグイン。 |
