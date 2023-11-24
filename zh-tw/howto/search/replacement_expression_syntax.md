@@ -17,10 +17,10 @@
 | \\U | 強制所有後續取代字元要大寫。 |
 | \\H | 強制所有後續取代字元要是半形字元。 |
 | \\F | 強制所有後續取代字元要是全形字元。 |
-| \\Nc | 強制使用 [Unicode 正規化表單 C（標準組合）](../../cmd/edit/unicode_norm_fc) 轉換所有後續取代字元。 |
-| \\Nd | 強制使用 [Unicode 正規化表單 D（標準分解）](../../cmd/edit/unicode_norm_fd) 轉換所有後續取代字元。 |
-| \\NC | 強制使用 [Unicode 正規化表單 KC（相容性組合）](../../cmd/edit/unicode_norm_fkc) 轉換所有後續取代字元。 |
-| \\ND | 強制使用 [Unicode 正規化表單 KD（相容性分解）](../../cmd/edit/unicode_norm_fkd) 轉換所有後續取代字元。 |
+| \\Nc | 強制使用 [Unicode 正規化表單 C（標準組合）](../../cmd/convert/unicode_norm_fc) 轉換所有後續取代字元。 |
+| \\Nd | 強制使用 [Unicode 正規化表單 D（標準分解）](../../cmd/convert/unicode_norm_fd) 轉換所有後續取代字元。 |
+| \\NC | 強制使用 [Unicode 正規化表單 KC（相容性組合）](../../cmd/convert/unicode_norm_fkc) 轉換所有後續取代字元。 |
+| \\ND | 強制使用 [Unicode 正規化表單 KD（相容性分解）](../../cmd/convert/unicode_norm_fkd) 轉換所有後續取代字元。 |
 | \\E | 關閉之前的 \\L，\\U，\\F，\\H，\\Nc，\\Nd，\\NC，或 \\ND。 |
 | \\J | 指定運算式使用 JavaScript。\\J 必須放在取代運算式的開頭。可以與反向參考結合使用。還可以在指令碼中使用 **cell** 函數。例如，<table><tbody><tr><th>取代運算式</th><th>含義</th></tr><tr><td>\J&quot;\0&quot;+&quot;abc&quot;</td><td>合併符合字串與&quot;abc&quot;</td></tr><tr><td>\J&quot;\0&quot;.substr(0,5);</td><td>返回符合字串的前5個字元</td></tr><tr><td>\J\0*100;</td><td>將符合的數字乘以100</td></tr><tr><td>\JparseFloat(\0).toFixed(2);</td><td>將符合的數字四舍五入到小數點後2位</td></tr><tr><td>\Jcell(-1)</td><td>返回位於符合儲存格左側相鄰儲存格中的文字</td></tr><tr><td>\JparseFloat(cell(-1))<br>+parseFloat(cell(-2))</td><td>返回左側兩個相鄰儲存格的總和</td></tr></tbody></table>
 | \\V | 與 \\J 相同，只是 \\V 使用 **V8 JavaScript** 引擎而不是 **Chakra** 引擎。 |

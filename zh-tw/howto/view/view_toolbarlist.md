@@ -38,20 +38,20 @@
 | ![](../../images/macrorecord.gif)[開始/停止巨集錄制](../../cmd/macros/quick_macro_record) | 開始或停止巨集錄制。 |
 | ![](../../images/macrorun.gif)[運行巨集](../../cmd/macros/quick_macro_run) | 運行巨集。 |
 | ![](../../images/windowalwaystop.gif)[總是置頂](../../cmd/window/window_always_top) | 設置或取消總是將該視窗置頂顯示。 |
-| ![](../../images/bookmarktoggle.gif)[設置或清除書籤](../../cmd/edit/bookmark_toggle) | 在目前的行設置或清除書籤。 |
-| ![](../../images/bookmarkprev.gif)[上一個書籤](../../cmd/edit/bookmark_prev) | 去到上一個書籤處。 |
-| ![](../../images/bookmarknext.gif)[下一個書籤](../../cmd/edit/bookmark_next) | 去到下一個書籤。 |
-| ![](../../images/bookmarkclear.gif)[清除書籤](../../cmd/edit/bookmark_clear) | 清除所有書籤。 |
+| ![](../../images/bookmarktoggle.gif)[設置或清除書籤](../../cmd/bookmarks/bookmark_toggle) | 在目前的行設置或清除書籤。 |
+| ![](../../images/bookmarkprev.gif)[上一個書籤](../../cmd/bookmarks/bookmark_prev) | 去到上一個書籤處。 |
+| ![](../../images/bookmarknext.gif)[下一個書籤](../../cmd/bookmarks/bookmark_next) | 去到下一個書籤。 |
+| ![](../../images/bookmarkclear.gif)[清除書籤](../../cmd/bookmarks/bookmark_clear) | 清除所有書籤。 |
 | ![](../../images/filesaveexit.gif)[儲存并關閉](../../cmd/file/file_save_exit) | 儲存并關閉目前的檔案。 |
 | ![](../../images/saveexitall.gif)[儲存并全部關閉](../../cmd/file/save_exit_all) | 儲存并關閉所有打開的檔案。 |
 | ![](../../images/nextparen.gif)[尋找配對的括號](../../cmd/edit/next_paren) | 移動游標到配對的圓括號/方括號。 |
-| ![](../../images/duplicateline.gif)[創建目前的行的副本](../../cmd/edit/duplicate_line) | 創建目前的邏輯行的副本。 |
-| ![](../../images/insertcontrol.gif)[插入特殊字元](../../cmd/edit/insert_control) | 插入一個特殊字元。 |
+| ![](../../images/duplicateline.gif)[創建目前的行的副本](../../cmd/insert/duplicate_line) | 創建目前的邏輯行的副本。 |
+| ![](../../images/insertcontrol.gif)[插入特殊字元](../../cmd/insert/insert_control) | 插入一個特殊字元。 |
 | ![](../../images/marks.gif)[標記](../../cmd/view/view_marks) | 顯示或隱藏換行符、檔案結尾或 Tab標記。 |
-| ![](../../images/editcomment.gif)[注釋](../../cmd/edit/edit_comment) | 注釋選定區域。 |
-| ![](../../images/edituncomment.gif)[取消注釋](../../cmd/edit/edit_uncomment) | 取消選定區域的注釋標記。 |
-| ![](../../images/indent.gif)[增加行縮排](../../cmd/edit/indent) | 增加選定區域的行縮排。 |
-| ![](../../images/unindent.gif)[減少行縮排](../../cmd/edit/unindent) | 減少選定區域的行縮排。 |
+| ![](../../images/editcomment.gif)[注釋](../../cmd/convert/edit_comment) | 注釋選定區域。 |
+| ![](../../images/edituncomment.gif)[取消注釋](../../cmd/convert/edit_uncomment) | 取消選定區域的注釋標記。 |
+| ![](../../images/indent.gif)[增加行縮排](../../cmd/convert/indent) | 增加選定區域的行縮排。 |
+| ![](../../images/unindent.gif)[減少行縮排](../../cmd/convert/unindent) | 減少選定區域的行縮排。 |
 | ![](../../images/macrosave.gif)[儲存巨集](../../cmd/macros/macro_save) | 儲存臨時巨集。 |
 | ![](../../images/macroedit.gif)[編輯巨集](../../cmd/macros/macro_edit) | 編輯目前的選定的巨集。 |
 | ![](../../images/macroselect.gif)[選擇巨集](../../cmd/macros/macro_select) | 選擇一個巨集。 |
@@ -60,8 +60,8 @@
 | ![](../../images/increasefontsize.gif)[增大字型](../../cmd/view/increase_font_size) | 增大顯示的字型大小。 |
 | ![](../../images/decreasefontsize.gif)[減小字型](../../cmd/view/decrease_font_size) | 減小顯示的字型大小。 |
 | ![](../../images/replaceinfiles.gif)[多檔取代](../../cmd/search/replace_in_files) | 取代多個檔案中的文字。 |
-| ![](../../images/bookmarkprevwithin.gif)[目前的視窗中的上一個書籤](../../cmd/edit/bookmark_prev_within) | 去到目前的視窗中的上一個書籤處。 |
-| ![](../../images/bookmarknextwithin.gif)[目前的視窗中的下一個書籤](../../cmd/edit/bookmark_next_within) | 去到目前的視窗中的下一個書籤處。 |
+| ![](../../images/bookmarkprevwithin.gif)[目前的視窗中的上一個書籤](../../cmd/bookmarks/bookmark_prev_within) | 去到目前的視窗中的上一個書籤處。 |
+| ![](../../images/bookmarknextwithin.gif)[目前的視窗中的下一個書籤](../../cmd/bookmarks/bookmark_next_within) | 去到目前的視窗中的下一個書籤處。 |
 | ![](../../images/delete.gif)[刪除](../../cmd/edit/delete) | 刪除選定內容，或刪除游標右邊的字元。 |
 | ![](../../images/full_screen.gif)[全屏](../../cmd/view/full_screen) | 切換全屏模式。 |
 | ![](../../images/sticky.gif)[粘滯垂直模式](../../cmd/edit/vertical_mode) | 切換粘滯垂直模式。 |
@@ -69,15 +69,15 @@
 | ![](../../images/outline_exp.gif)[全部展開](../../cmd/edit/outline_expand_all) | 當顯示大綱視圖時展開整個文檔。 |
 | ![](../../images/save_as.gif)[另存新檔](../../cmd/file/file_save_as) | 使用一個新的名稱儲存目前的檔案。 |
 | ![](../../images/cycle_clipboard_ring.gif)[循環貼上](../../cmd/edit/paste_history) | 在游標位置處插入剪貼簿中的歷史內容。 |
-| ![](../../images/default_mode.gif)[標準模式](../../cmd/edit/mode_normal) | 清除 CSV (逗號分隔)，TSV ( Tab分隔)，以及 DSV (分隔符分隔) 模式。 |
-| ![](../../images/csv.gif)[CSV 模式](../../cmd/edit/mode_csv) | 選擇 CSV (逗號分隔) 模式。 |
-| ![](../../images/tsv.gif)[TSV 模式](../../cmd/edit/mode_tsv) | 選擇 TSV ( Tab分隔) 模式。 |
-| ![](../../images/dsv.gif)[使用者定義的 DSV 模式](../../cmd/edit/mode_dsv) | 選擇使用者定義的 DSV (分隔符分隔) 模式。 |
+| ![](../../images/default_mode.gif)[標準模式](../../cmd/csv/mode_normal) | 清除 CSV (逗號分隔)，TSV ( Tab分隔)，以及 DSV (分隔符分隔) 模式。 |
+| ![](../../images/csv.gif)[CSV 模式](../../cmd/csv/mode_csv) | 選擇 CSV (逗號分隔) 模式。 |
+| ![](../../images/tsv.gif)[TSV 模式](../../cmd/csv/mode_tsv) | 選擇 TSV ( Tab分隔) 模式。 |
+| ![](../../images/dsv.gif)[使用者定義的 DSV 模式](../../cmd/csv/mode_dsv) | 選擇使用者定義的 DSV (分隔符分隔) 模式。 |
 | ![](../../images/narrowing.gif)[切換僅編輯選定區域模式](../../cmd/edit/narrowing_toggle) | 啟用或不用僅選定的區域可編輯，其他剩余的區域則不允許訪問模式。 |
-| ![](../../images/sortinga-z.gif)[字母升序](../../cmd/edit/sort_text_a) | 在目前的列中以字母升序排序文字。 |
-| ![](../../images/sortingz-a.gif)[字母降序](../../cmd/edit/sort_text_d) | 在目前的列中以字母降序排序文字。 |
-| ![](../../images/sorting0-9.gif)[數字升序](../../cmd/edit/sort_num_a) | 在目前的列中以升序排序數字。 |
-| ![](../../images/sorting9-0.gif)[數字降序](../../cmd/edit/sort_num_d) | 在目前的列中以降序排序數字。 |
+| ![](../../images/sortinga-z.gif)[字母升序](../../cmd/sort/sort_text_a) | 在目前的列中以字母升序排序文字。 |
+| ![](../../images/sortingz-a.gif)[字母降序](../../cmd/sort/sort_text_d) | 在目前的列中以字母降序排序文字。 |
+| ![](../../images/sorting0-9.gif)[數字升序](../../cmd/sort/sort_num_a) | 在目前的列中以升序排序數字。 |
+| ![](../../images/sorting9-0.gif)[數字降序](../../cmd/sort/sort_num_d) | 在目前的列中以降序排序數字。 |
 | ![](../../images/compare24x16.gif)[比較](../../cmd/diff/compare_direct) | 不指定參數比較最后訪問的兩個文檔。 |
 | ![](../../images/rescan24x16.gif)[重新掃描](../../cmd/diff/compare_rescan) | 重新掃描并重新整理所比較的文檔。 |
 | ![](../../images/sync24x16.gif)[同步捲動](../../cmd/diff/sync_scroll_direct) | 不指定參數直接同步捲動兩個最近訪問的文檔。 |
@@ -90,10 +90,10 @@
 | ![](../../images/wrap_indent24x16.gif)[換行縮排](../../cmd/view/toggle_wrap_indent) | 啟用或停用換行縮排。 |
 | ![](../../images/tab_column24x16.gif)[制表欄](../../cmd/view/tab_column_popup) | 顯示一個快顯功能表來選擇制表欄。 |
 | ![](../../images/indent_column24x16.gif)[縮排欄](../../cmd/view/indent_column_popup) | 顯示一個快顯功能表來選擇縮排欄。 |
-| ![](../../images/html2uni24x16.gif)[將 HTML/XML 字元引用轉換為 Unicode](../../cmd/edit/decode_html_char_ref) | 解碼選中的 HTML/XML 字元引用文字。 |
-| ![](../../images/uni2html24x16.gif)[將 Unicode 轉換為 HTML/XML 數字字元引用](../../cmd/edit/encode_html_char_ref) | 把選中的文字編碼為 HTML/XML 數字字元引用。 |
-| ![](../../images/ucs2uni24x16.gif)[將通用字元名稱轉換為 Unicode](../../cmd/edit/decode_ucn) | 解碼選中的選中的通用字元名稱文字。 |
-| ![](../../images/uni2ucs24x16.gif)[將 Unicode 轉換為通用字元名稱](../../cmd/edit/encode_ucn) | 將選中的文字用通用字元名稱編碼。 |
+| ![](../../images/html2uni24x16.gif)[將 HTML/XML 字元引用轉換為 Unicode](../../cmd/convert/decode_html_char_ref) | 解碼選中的 HTML/XML 字元引用文字。 |
+| ![](../../images/uni2html24x16.gif)[將 Unicode 轉換為 HTML/XML 數字字元引用](../../cmd/convert/encode_html_char_ref) | 把選中的文字編碼為 HTML/XML 數字字元引用。 |
+| ![](../../images/ucs2uni24x16.gif)[將通用字元名稱轉換為 Unicode](../../cmd/convert/decode_ucn) | 解碼選中的選中的通用字元名稱文字。 |
+| ![](../../images/uni2ucs24x16.gif)[將 Unicode 轉換為通用字元名稱](../../cmd/convert/encode_ucn) | 將選中的文字用通用字元名稱編碼。 |
 | ![](../../images/spelling24x16.gif)[拼寫檢查](../../cmd/edit/spell_toggle) | 對文檔進行拼寫檢查。 |
 | ![](../../images/emeditor12_toggle_find_bar_button.png)[搜尋工具列](../../cmd/view/show_find_bar) | 顯示或隱藏搜尋工具列。 |
 | ![](../../images/emeditor12_back_button.png)[后退](../../cmd/edit/caret_back) | 移動游標至上一位置。 |

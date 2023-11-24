@@ -13,17 +13,17 @@ orphan: true
 ## 新增命令
 
 - [全部關閉不保存](../cmd/file/quit_all)
-- [制表位化命令](../cmd/edit/tabify)
-- [非制表位化命令](../cmd/edit/untabify)
-- [增加行縮進命令](../cmd/edit/indent)
-- [減少行縮進命令](../cmd/edit/unindent)
-- [注釋命令](../cmd/edit/edit_comment)
-- [取消注釋命令](../cmd/edit/edit_uncomment)
-- [插入變音符命令](../cmd/edit/insert_caron)
+- [制表位化命令](../cmd/convert/tabify)
+- [非制表位化命令](../cmd/convert/untabify)
+- [增加行縮進命令](../cmd/convert/indent)
+- [減少行縮進命令](../cmd/convert/unindent)
+- [注釋命令](../cmd/convert/edit_comment)
+- [取消注釋命令](../cmd/convert/edit_uncomment)
+- [插入變音符命令](../cmd/insert/insert_caron)
 - [制表位化整個文檔命令](../cmd/edit/space_to_tab)
 - [移動到上次編輯位置命令](../cmd/edit/move_last_edit)
-- [當前文檔中的下一個書簽命令](../cmd/edit/bookmark_next_within)
-- [當前文檔中的上一個書簽命令](../cmd/edit/bookmark_prev_within)
+- [當前文檔中的下一個書簽命令](../cmd/bookmarks/bookmark_next_within)
+- [當前文檔中的上一個書簽命令](../cmd/bookmarks/bookmark_prev_within)
 - [多檔取代命令](../cmd/search/replace_in_files)
 - [標記命令](../cmd/view/view_marks)
 - [增大字體命令](../cmd/view/increase_font_size)
@@ -44,8 +44,8 @@ orphan: true
 
 ## 增加新功能的已存在的命令
 
-- [插入銳音符命令](../cmd/edit/insert_acute)
-- [插入波形符命令](../cmd/edit/insert_tilde)
+- [插入銳音符命令](../cmd/insert/insert_acute)
+- [插入波形符命令](../cmd/insert/insert_tilde)
 
 ## 新的對話方塊
 
@@ -66,13 +66,13 @@ orphan: true
 - ![](../images/filesaveexit.gif)[保存并關閉命令](../cmd/file/file_save_exit)
 - ![](../images/saveexitall.gif)[保存并全部關閉命令](../cmd/file/save_exit_all)
 - ![](../images/nextparen.gif)[查找配對的括號命令](../cmd/edit/next_paren)
-- ![](../images/duplicateline.gif)[創建當前行的副本命令](../cmd/edit/duplicate_line)
-- ![](../images/insertcontrol.gif)[插入特殊字符命令](../cmd/edit/insert_control)
+- ![](../images/duplicateline.gif)[創建當前行的副本命令](../cmd/insert/duplicate_line)
+- ![](../images/insertcontrol.gif)[插入特殊字符命令](../cmd/insert/insert_control)
 - ![](../images/marks.gif)[標記命令](../cmd/view/view_marks)
-- ![](../images/editcomment.gif)[注釋命令](../cmd/edit/edit_comment)
-- ![](../images/edituncomment.gif)[取消注釋命令](../cmd/edit/edit_uncomment)
-- ![](../images/indent.gif)[增加行縮進命令](../cmd/edit/indent)
-- ![](../images/unindent.gif)[減少行縮進命令](../cmd/edit/unindent)
+- ![](../images/editcomment.gif)[注釋命令](../cmd/convert/edit_comment)
+- ![](../images/edituncomment.gif)[取消注釋命令](../cmd/convert/edit_uncomment)
+- ![](../images/indent.gif)[增加行縮進命令](../cmd/convert/indent)
+- ![](../images/unindent.gif)[減少行縮進命令](../cmd/convert/unindent)
 - ![](../images/macrosave.gif)[保存巨集命令](../cmd/macros/macro_save)
 - ![](../images/macroedit.gif)[編輯巨集命令](../cmd/macros/macro_edit)
 - ![](../images/macroselect.gif)[選擇巨集命令](../cmd/macros/macro_select)
@@ -81,8 +81,8 @@ orphan: true
 - ![](../images/increasefontsize.gif)[增大字體命令](../cmd/view/increase_font_size)
 - ![](../images/decreasefontsize.gif)[減小字體命令](../cmd/view/decrease_font_size)
 - ![](../images/replaceinfiles.gif)[多檔取代命令](../cmd/search/replace_in_files)
-- ![](../images/bookmarkprevwithin.gif)[當前文檔中的上一個書簽命令](../cmd/edit/bookmark_prev_within)
-- ![](../images/bookmarknextwithin.gif)[當前文檔中的下一個書簽命令](../cmd/edit/bookmark_next_within)
+- ![](../images/bookmarkprevwithin.gif)[當前文檔中的上一個書簽命令](../cmd/bookmarks/bookmark_prev_within)
+- ![](../images/bookmarknextwithin.gif)[當前文檔中的下一個書簽命令](../cmd/bookmarks/bookmark_next_within)
 
 ## 其他新增功能
 
