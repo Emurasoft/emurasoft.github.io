@@ -73,7 +73,7 @@
 | **[替换下一个 (查找工具栏)](findbar_replace_next)** | 用查找工具栏替换下一个匹配的字符串。 |
 | **[替换全部 (查找工具栏)](findbar_replace_all)** | 用查找工具栏替换所有匹配的字符串。 |
 | **[仅限于选区内 (查找工具栏)](findbar_sel_only)** | 切换查找工具栏上「仅限于选区内」按钮的状态。 |
-| **[搜索符号](../tools/ql_symbols)** | 打开快速启动窗口并选择符号。 |
+| **[搜索符号](../search/ql_symbols)** | 打开快速启动窗口并选择符号。 |
 
 
 ```{toctree}
@@ -146,6 +146,7 @@ findbar_sel_only
 focus_filter_bar
 focus_find_bar
 grep
+ql_symbols
 replace_in_files
 replace_next
 retrieve_find_text

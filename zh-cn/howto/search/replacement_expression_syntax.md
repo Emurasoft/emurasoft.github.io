@@ -17,10 +17,10 @@
 | \\U | 强制所有后续替换字符要大写。 |
 | \\H | 强制所有后续替换字符要是半角字符。 |
 | \\F | 强制所有后续替换字符要是全角字符。 |
-| \\Nc | 强制使用 [Unicode 标准化表单 C（规范组成）](../../cmd/edit/unicode_norm_fc) 转换所有后续替换字符。 |
-| \\Nd | 强制使用 [Unicode 标准化表单 D（规范分解）](../../cmd/edit/unicode_norm_fd) 转换所有后续替换字符。 |
-| \\NC | 强制使用 [Unicode 标准化表单 KC（兼容性组成）](../../cmd/edit/unicode_norm_fkc) 转换所有后续替换字符。 |
-| \\ND | 强制使用 [Unicode 标准化表单 KD（兼容性分解）](../../cmd/edit/unicode_norm_fkd) 转换所有后续替换字符。 |
+| \\Nc | 强制使用 [Unicode 标准化表单 C（规范组成）](../../cmd/convert/unicode_norm_fc) 转换所有后续替换字符。 |
+| \\Nd | 强制使用 [Unicode 标准化表单 D（规范分解）](../../cmd/convert/unicode_norm_fd) 转换所有后续替换字符。 |
+| \\NC | 强制使用 [Unicode 标准化表单 KC（兼容性组成）](../../cmd/convert/unicode_norm_fkc) 转换所有后续替换字符。 |
+| \\ND | 强制使用 [Unicode 标准化表单 KD（兼容性分解）](../../cmd/convert/unicode_norm_fkd) 转换所有后续替换字符。 |
 | \\E | 关闭之前的 \\L，\\U，\\F，\\H，\\Nc，\\Nd，\\NC，或 \\ND。 |
 | \\J | 指定表达式使用 JavaScript。\\J 必须放在替换表达式的开头。可以与反向引用结合使用。还可以在脚本中使用 **cell** 函数。例如，<table><tbody><tr><th>替换表达式</th><th>含义</th></tr><tr><td>\J&quot;\0&quot;+&quot;abc&quot;</td><td>合并匹配字符串与&quot;abc&quot;</td></tr><tr><td>\J&quot;\0&quot;.substr(0,5);</td><td>返回匹配字符串的前5个字符</td></tr><tr><td>\J\0*100;</td><td>将匹配的数字乘以100</td></tr><tr><td>\JparseFloat(\0).toFixed(2);</td><td>将匹配的数字四舍五入到小数点后2位</td></tr><tr><td>\Jcell(-1)</td><td>返回位于匹配单元格左侧相邻单元格中的文本</td></tr><tr><td>\JparseFloat(cell(-1))<br>+parseFloat(cell(-2))</td><td>返回左侧两个相邻单元格的总和</td></tr></tbody></table>
 | \\V | 与 \\J 相同，只是 \\V 使用 **V8 JavaScript** 引擎而不是 **Chakra** 引擎。 |
