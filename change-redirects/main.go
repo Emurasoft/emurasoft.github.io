@@ -12,18 +12,18 @@ import (
 )
 
 func main() {
-	file, err := os.Open("./name-status.txt")
-	if err != nil {
-		panic(err)
-	}
-	defer file.Close()
-
-	entries, err := csv.NewReader(file).ReadAll()
-	if err != nil {
-		panic(err)
-	}
-
 	for _, language := range []string{"en", "ja", "zh-cn", "zh-tw"} {
+		file, err := os.Open(fmt.Sprintf("%s.txt", language))
+		if err != nil {
+			panic(err)
+		}
+		defer file.Close()
+
+		entries, err := csv.NewReader(file).ReadAll()
+		if err != nil {
+			panic(err)
+		}
+
 		for _, entry := range entries {
 			path := entry[0]
 			targetPath := entry[1]
