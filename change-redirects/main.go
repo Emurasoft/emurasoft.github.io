@@ -28,7 +28,7 @@ func main() {
 			path := entry[0]
 			targetPath := entry[1]
 
-			path = strings.TrimPrefix(path, "en/")
+			path = strings.TrimPrefix(path, language+"/")
 			path = strings.ReplaceAll(path, "/", "_")
 			path = changeSuffix(path)
 
