@@ -32,7 +32,7 @@ func main() {
 			path = strings.ReplaceAll(path, "/", "_")
 			path = changeSuffix(path)
 
-			targetPath = strings.TrimPrefix(targetPath, "en/")
+			targetPath = strings.TrimPrefix(targetPath, language+"/")
 			targetPath = fmt.Sprintf("%s/%s", language, targetPath)
 			targetPath = changeSuffix(targetPath)
 
@@ -57,7 +57,8 @@ func changeRedirect(path string, targetPath string, language string) {
 	{
 		file, err := os.Open(path)
 		if err != nil {
-			panic(err)
+			fmt.Printf("open error: %s\n", err)
+			return
 		}
 		defer file.Close()
 
