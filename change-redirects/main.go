@@ -23,16 +23,21 @@ func main() {
 		panic(err)
 	}
 
-	for _, entry := range entries[:1] {
-		path := entry[0]
-		targetPath := entry[1]
+	for _, language := range []string{"en", "ja", "zh-cn", "zh-tw"} {
+		for _, entry := range entries {
+			path := entry[0]
+			targetPath := entry[1]
 
-		path = strings.TrimPrefix(path, "en/")
-		path = strings.ReplaceAll(path, "/", "_")
-		path = changeSuffix(path)
-		targetPath = changeSuffix(targetPath)
+			path = strings.TrimPrefix(path, "en/")
+			path = strings.ReplaceAll(path, "/", "_")
+			path = changeSuffix(path)
 
-		changeRedirect(path, targetPath)
+			targetPath = strings.TrimPrefix(targetPath, "en/")
+			targetPath = fmt.Sprintf("%s/%s", language, targetPath)
+			targetPath = changeSuffix(targetPath)
+
+			changeRedirect(path, targetPath, language)
+		}
 	}
 }
 
@@ -45,8 +50,8 @@ func changeSuffix(path string) string {
 	return s + ".html"
 }
 
-func changeRedirect(path string, targetPath string) {
-	path = filepath.Join(`..\_add_to_build\en`, path)
+func changeRedirect(path string, targetPath string, language string) {
+	path = filepath.Join(`..\_add_to_build`, language, path)
 
 	var tree *html.Node
 	{
