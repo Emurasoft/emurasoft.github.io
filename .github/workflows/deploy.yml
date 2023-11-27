@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Get minify
-        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.12.7/minify_linux_amd64.tar.gz | tar -xz
+        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.20.7/minify_linux_amd64.tar.gz | tar -xz
       - name: Set version
         run: |
           echo "${GITHUB_REF_NAME}" > version
@@ -39,13 +39,14 @@ jobs:
         run: ./minify -v -r --sync -o help_pages/ _build
       - name: Make copy for local help
         run: cp -r help_pages Help/
-      - run: ls help_pages
       - run: ls Help
       - name: unneeded-html-remover
         run: go run . ../Help
+      - run: ls Help
         working-directory: unneeded-html-remover
       - name: Minify local files
         run: ./minify -v -r --sync -o Help/ Help
+      - run: ls Help
       - name: Create language archives
         run: |
           languages=('en' 'ja' 'ko' 'zh-cn' 'zh-tw')
