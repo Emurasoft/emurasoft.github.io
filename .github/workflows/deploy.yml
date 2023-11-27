@@ -21,18 +21,30 @@ jobs:
         with:
           python-version: '3.11' 
           cache: pip
+      - uses: actions/setup-go@v4
+        with:
+          go-version: '^1.21.4'
+          cache-dependency-path: unneeded-html-remover/go.sum
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Get minify
-        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.12.7/minify_linux_amd64.tar.gz | tar -xz
+        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.20.7/minify_linux_amd64.tar.gz | tar -xz
       - name: Set version
         run: |
           echo "${GITHUB_REF_NAME}" > version
           cat conf.py
       - name: Build pages
         run: sh ./buildAll.sh
-      - name: Minify
-        run: ./minify -v -r --sync -o Help/ _build
+      - name: Minify files
+        run: ./minify -v -r --sync -o . _build
+      - name: Make copy for local help
+        run: cp -r _build Help/
+      - name: unneeded-html-remover
+        run: go run . ../Help
+        working-directory: unneeded-html-remover
+      - name: Minify local files
+        run: ./minify -v -r --sync -o . Help
+      - run: ls Help
       - name: Create language archives
         run: |
           languages=('en' 'ja' 'ko' 'zh-cn' 'zh-tw')
@@ -40,17 +52,17 @@ jobs:
           do
             zip -r "${language}.zip" "Help/${language}" -x **/sitemap.xml **/.doctrees/** **/objects.inv
           done
-      - name: Rename directory
-        run: mv Help help_pages
       - name: Create archive
         run: |
-          zip -r archive.zip help_pages \
+          zip -r archive.zip Help \
             -x Help/404.html Help\en\404.html Help/index.html **/sitemap.xml **/.doctrees/** **/objects.inv
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: artifact
           path: archive.zip
+      - name: Create archive directory
+        run: mv _build help_pages
       - name: Add to build folder
         run: cp -r _add_to_build/* help_pages
       - name: Configure GitHub Pages
