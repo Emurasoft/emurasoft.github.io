@@ -21,9 +21,9 @@ jobs:
         with:
           python-version: '3.11' 
           cache: pip
-    - uses: actions/setup-go@v4
-      with:
-        go-version: '^1.21.4'
+      - uses: actions/setup-go@v4
+        with:
+          go-version: '^1.21.4'
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Get minify
