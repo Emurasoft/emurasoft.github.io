@@ -8,11 +8,14 @@ import (
 	"path/filepath"
 
 	"golang.org/x/net/html"
+	"golang.org/x/sync/errgroup"
 )
 
 func main() {
 	flag.Parse()
 	directory := flag.Arg(0)
+
+	group := errgroup.Group{}
 
 	err := filepath.WalkDir(directory, func(path string, d fs.DirEntry, err error) error {
 		if err != nil {
@@ -23,38 +26,49 @@ func main() {
 			return nil
 		}
 
-		var root *html.Node
-		{
-			file, err := os.Open(path)
-			if err != nil {
-				return err
-			}
-			defer file.Close()
-
-			root, err = html.Parse(file)
-			if err != nil {
-				return err
-			}
-		}
-
-		transformTree(root)
-
-		file, err := os.OpenFile(path, os.O_WRONLY|os.O_TRUNC, 0666)
-		if err != nil {
-			return err
-		}
-		defer file.Close()
-
-		if err := html.Render(file, root); err != nil {
-			return err
-		}
-
-		fmt.Println(path)
+		group.Go(func() error {
+			return walkFunc(path)
+		})
 		return nil
 	})
 	if err != nil {
 		panic(err)
 	}
+
+	if err := group.Wait(); err != nil {
+		panic(err)
+	}
+}
+
+func walkFunc(path string) error {
+	var root *html.Node
+	{
+		file, err := os.Open(path)
+		if err != nil {
+			return err
+		}
+		defer file.Close()
+
+		root, err = html.Parse(file)
+		if err != nil {
+			return err
+		}
+	}
+
+	transformTree(root)
+
+	file, err := os.OpenFile(path, os.O_WRONLY|os.O_TRUNC, 0666)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	if err := html.Render(file, root); err != nil {
+		return err
+	}
+
+	fmt.Println(path)
+	return nil
 }
 
 func transformTree(node *html.Node) {
