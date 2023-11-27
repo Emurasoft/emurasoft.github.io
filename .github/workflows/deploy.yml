@@ -31,8 +31,12 @@ jobs:
           cat conf.py
       - name: Build pages
         run: sh ./buildAll.sh
-      - name: Minify
-        run: ./minify -v -r --sync -o Help/ _build
+      - name: Make copy for local help
+        run: cp -r _build Help
+      - name: Minify web files
+        run: ./minify -v -r --sync -o help_pages/ _build
+      - name: Minify local files
+        run: ./minify -v -r --sync -o Help/ Help
       - name: Create language archives
         run: |
           languages=('en' 'ja' 'ko' 'zh-cn' 'zh-tw')
