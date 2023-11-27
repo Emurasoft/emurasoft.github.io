@@ -44,6 +44,7 @@ jobs:
         working-directory: unneeded-html-remover
       - name: Minify local files
         run: ./minify -v -r --sync -o Help/ help_pages_local
+      - run: ls Help
       - name: Create language archives
         run: |
           languages=('en' 'ja' 'ko' 'zh-cn' 'zh-tw')
