@@ -36,9 +36,9 @@ jobs:
       - name: Build pages
         run: sh ./buildAll.sh
       - name: Minify files
-        run: ./minify -v -r --sync -o help_pages/ _build
+        run: ./minify -v -r --sync -o . _build
       - name: Make copy for local help
-        run: cp -r help_pages Help/
+        run: cp -r _build Help/
       - name: unneeded-html-remover
         run: go run . ../Help
         working-directory: unneeded-html-remover
@@ -61,6 +61,8 @@ jobs:
         with:
           name: artifact
           path: archive.zip
+      - name: Create archive directory
+        run: mv _build help_pages
       - name: Add to build folder
         run: cp -r _add_to_build/* help_pages
       - name: Configure GitHub Pages
