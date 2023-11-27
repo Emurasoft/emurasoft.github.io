@@ -42,8 +42,8 @@ jobs:
       - run: ls Help
       - name: unneeded-html-remover
         run: go run . ../Help
-      - run: ls Help
         working-directory: unneeded-html-remover
+      - run: ls Help
       - name: Minify local files
         run: ./minify -v -r --sync -o Help/ Help
       - run: ls Help
