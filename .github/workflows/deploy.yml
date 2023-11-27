@@ -50,11 +50,9 @@ jobs:
           do
             zip -r "${language}.zip" "Help/${language}" -x **/sitemap.xml **/.doctrees/** **/objects.inv
           done
-      - name: Rename directory
-        run: mv Help help_pages
       - name: Create archive
         run: |
-          zip -r archive.zip help_pages \
+          zip -r archive.zip Help \
             -x Help/404.html Help\en\404.html Help/index.html **/sitemap.xml **/.doctrees/** **/objects.inv
       - name: Upload artifact
         uses: actions/upload-artifact@v3
