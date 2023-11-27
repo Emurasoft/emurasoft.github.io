@@ -24,6 +24,7 @@ jobs:
       - uses: actions/setup-go@v4
         with:
           go-version: '^1.21.4'
+          cache-dependency-path: unneeded-html-remover/go.sum
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Get minify
@@ -38,6 +39,8 @@ jobs:
         run: ./minify -v -r --sync -o help_pages/ _build
       - name: Make copy for local help
         run: cp -r help_pages Help/
+      - run: ls help_pages
+      - run: ls Help
       - name: unneeded-html-remover
         run: go run . ../Help
         working-directory: unneeded-html-remover
