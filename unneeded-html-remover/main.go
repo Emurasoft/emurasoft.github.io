@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+	flag.Parse()
 	directory := flag.Arg(0)
 
 	err := filepath.WalkDir(directory, func(path string, d fs.DirEntry, err error) error {
@@ -18,7 +19,7 @@ func main() {
 			return err
 		}
 
-		if d.IsDir() {
+		if d.IsDir() || filepath.Ext(d.Name()) != ".html" {
 			return nil
 		}
 
@@ -49,7 +50,7 @@ func main() {
 		}
 
 		fmt.Println(path)
-		return filepath.SkipAll
+		return nil
 	})
 	if err != nil {
 		panic(err)
