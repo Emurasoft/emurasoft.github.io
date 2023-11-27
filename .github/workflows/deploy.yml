@@ -38,15 +38,12 @@ jobs:
       - name: Minify files
         run: ./minify -v -r --sync -o help_pages/ _build
       - name: Make copy for local help
-        run: cp -r help_pages Help/
-      - run: ls Help
+        run: cp -r help_pages help_pages_local
       - name: unneeded-html-remover
-        run: go run . ../Help
+        run: go run . ../help_pages_local
         working-directory: unneeded-html-remover
-      - run: ls Help
       - name: Minify local files
-        run: ./minify -v -r --sync -o Help/ Help
-      - run: ls Help
+        run: ./minify -v -r --sync -o Help/ help_pages_local
       - name: Create language archives
         run: |
           languages=('en' 'ja' 'ko' 'zh-cn' 'zh-tw')
