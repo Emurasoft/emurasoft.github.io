@@ -6,11 +6,13 @@ import (
 	"io/fs"
 	"os"
 	"path/filepath"
+	"slices"
 
 	"golang.org/x/net/html"
 	"golang.org/x/sync/errgroup"
 )
 
+// Removes unnecessary html for local help pages
 func main() {
 	flag.Parse()
 	directory := flag.Arg(0)
@@ -75,8 +77,7 @@ func transformTree(node *html.Node) {
 	var childrenToRemove []*html.Node
 
 	for child := node.FirstChild; child != nil; child = child.NextSibling {
-		// Remove <a id="mode_toggle">
-		if isModeToggle(child) {
+		if isModeToggle(child) || isUnneededLink(child) {
 			childrenToRemove = append(childrenToRemove, child)
 		} else {
 			transformTree(child)
@@ -88,10 +89,31 @@ func transformTree(node *html.Node) {
 	}
 }
 
+// <a id="mode_toggle">
 func isModeToggle(node *html.Node) bool {
 	if node.Type == html.ElementNode && node.Data == "a" {
 		for _, attr := range node.Attr {
 			if attr.Key == "id" && attr.Val == "mode_toggle" {
+				return true
+			}
+		}
+	}
+
+	return false
+}
+
+var unneededLinkRel = []string{
+	"index",
+	"search",
+	"next",
+	"prev",
+}
+
+// <link rel="[canonical, index, search, next, or prev]">
+func isUnneededLink(node *html.Node) bool {
+	if node.Type == html.ElementNode && node.Data == "link" {
+		for _, attr := range node.Attr {
+			if attr.Key == "rel" && slices.Contains(unneededLinkRel, attr.Val) {
 				return true
 			}
 		}
