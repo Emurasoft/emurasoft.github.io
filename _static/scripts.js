@@ -80,13 +80,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function toggleLanguageDropdown() {
     const dropdown = document.querySelector('.languageDropdown');
-    dropdown.classList.toggle('active');
+    if (dropdown) {
+        dropdown.classList.toggle('active');
+    }
 }
 
 // Closes language dropdown
 window.addEventListener('click', function(event) {
     const dropdown = document.querySelector('.languageDropdown');
-    if (!dropdown.contains(event.target)) {
+    if (dropdown && !dropdown.contains(event.target)) {
         dropdown.classList.remove('active');
     }
 });
