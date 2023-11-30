@@ -2,7 +2,7 @@
 
 {%- block scripts %}
     {{- script() }}
-    <meta name="description" content="EmEditor documentation">
+    <meta name="description" content="{{ title|striptags|e }}{{ titlesuffix }}">
 
     <link rel='preload' as='style' href='https://fonts.googleapis.com/css2?family=Roboto&family=Roboto:wght@700&family=Roboto+Mono&family=Noto+Sans+JP&display=swap' referrerpolicy="no-referrer">
 

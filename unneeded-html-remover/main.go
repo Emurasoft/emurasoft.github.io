@@ -6,11 +6,13 @@ import (
 	"io/fs"
 	"os"
 	"path/filepath"
+	"slices"
 
 	"golang.org/x/net/html"
 	"golang.org/x/sync/errgroup"
 )
 
+// Removes unnecessary html for local help pages
 func main() {
 	flag.Parse()
 	directory := flag.Arg(0)
@@ -72,11 +74,12 @@ func walkFunc(path string) error {
 }
 
 func transformTree(node *html.Node) {
+	removeReferenceClass(node)
+
 	var childrenToRemove []*html.Node
 
 	for child := node.FirstChild; child != nil; child = child.NextSibling {
-		// Remove <a id="mode_toggle">
-		if isModeToggle(child) {
+		if isModeToggle(child) || isUnneededLink(child) || isLanguageDropdown(child) {
 			childrenToRemove = append(childrenToRemove, child)
 		} else {
 			transformTree(child)
@@ -88,6 +91,7 @@ func transformTree(node *html.Node) {
 	}
 }
 
+// <a id="mode_toggle">
 func isModeToggle(node *html.Node) bool {
 	if node.Type == html.ElementNode && node.Data == "a" {
 		for _, attr := range node.Attr {
@@ -98,4 +102,55 @@ func isModeToggle(node *html.Node) bool {
 	}
 
 	return false
+}
+
+var unneededLinkRel = []string{
+	"index",
+	"search",
+	"next",
+	"prev",
+}
+
+// <link rel="[canonical, index, search, next, or prev]">
+func isUnneededLink(node *html.Node) bool {
+	if node.Type == html.ElementNode && node.Data == "link" {
+		for _, attr := range node.Attr {
+			if attr.Key == "rel" && slices.Contains(unneededLinkRel, attr.Val) {
+				return true
+			}
+		}
+	}
+
+	return false
+}
+
+// <div id="languageDropdown">
+func isLanguageDropdown(node *html.Node) bool {
+	if node.Type == html.ElementNode && node.Data == "div" {
+		for _, attr := range node.Attr {
+			if attr.Key == "id" && attr.Val == "languageDropdown" {
+				return true
+			}
+		}
+	}
+
+	return false
+}
+
+// class="reference internal" or class="reference external"
+func removeReferenceClass(node *html.Node) {
+	if node.Type == html.ElementNode && node.Data == "a" {
+		indexToRemove := -1
+
+		for i := range node.Attr {
+			if node.Attr[i].Key == "class" &&
+				(node.Attr[i].Val == "reference internal" || node.Attr[i].Val == "reference external") {
+				indexToRemove = i
+			}
+		}
+
+		if indexToRemove >= 0 {
+			node.Attr = slices.Delete(node.Attr, indexToRemove, indexToRemove+1)
+		}
+	}
 }

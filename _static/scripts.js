@@ -28,15 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById('searchbox').style.display = "block";
 
-    // Hide language dropdown in local
-    const isLocal = window.location.protocol === "file:";
-    if (isLocal) {
-        const dropdown = document.querySelector("#languageDropdown");
-        if (dropdown) {
-            dropdown.style.display = "none";
-        }
-    }
-
     // Theming
     const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
 
