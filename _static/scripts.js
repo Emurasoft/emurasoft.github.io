@@ -20,8 +20,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // External links
-    for (const element of document.querySelectorAll("a.external")) {
-        element.setAttribute("target", "_blank");
+    for (const element of document.getElementsByTagName("a")) {
+        if (element.href.startsWith("https://")) {
+            element.setAttribute("target", "_blank");
+        }
     }
 
     document.getElementById('searchbox').style.display = "block";
