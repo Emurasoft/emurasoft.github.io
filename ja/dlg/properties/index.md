@@ -46,13 +46,11 @@
 
 ![](../../images/b.gif)[\[タブ/インデント\] ダイアログ ボックス](general/indent/index) ( [\[基本\] ページ](general/index) より \[タブ/インデント\] ボタンを選択)
 
-![](../../images/b.gif)[\[新規作成時の詳細\] ダイアログ ボックス](file/new_details/index)
-( [\[ファイル\] ページ](file/index) より \[新規作成時\] ボタンを選択)
+![](../../images/b.gif)[\[新規作成時の詳細\] ダイアログ ボックス](file/new_details/index) ( [\[ファイル\] ページ](file/index) より \[新規作成時\] ボタンを選択)
 
 ![](../../images/b.gif)[\[保存時の詳細\] ダイアログ ボックス](file/save_details/index) ( [\[ファイル\] ページ](file/index) より \[保存時\] ボタンを選択)
 
-![](../../images/b.gif)[\[フォントの設定\] ダイアログ ボックス](font/index) ( [\[表示\] ページ](display/index) または [\[印刷\] ページ](print/index) より \[フォント\]
-ボタンを選択)
+![](../../images/b.gif)[\[フォントの設定\] ダイアログ ボックス](font/index) ( [\[表示\] ページ](display/index) または [\[印刷\] ページ](print/index) より \[フォント\] ボタンを選択)
 
 ![](../../images/b.gif)[\[文字範囲\] ダイアログ ボックス](char_check/char_range/index) ( [\[文字チェック\] ページ](char_check/index) より \[追加\] ボタンを選択)
 
