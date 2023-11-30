@@ -124,6 +124,7 @@ func isUnneededLink(node *html.Node) bool {
 	return false
 }
 
+// <div id="languageDropdown">
 func isLanguageDropdown(node *html.Node) bool {
 	if node.Type == html.ElementNode && node.Data == "div" {
 		for _, attr := range node.Attr {
@@ -136,6 +137,7 @@ func isLanguageDropdown(node *html.Node) bool {
 	return false
 }
 
+// class="reference internal" or class="reference external"
 func removeReferenceClass(node *html.Node) {
 	if node.Type == html.ElementNode && node.Data == "a" {
 		indexToRemove := -1
