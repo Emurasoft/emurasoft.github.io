@@ -7,7 +7,7 @@ You can set options for Markers.
 
 ```{toctree}
 :maxdepth: 1
-auto_marker/index
 marker_list/index
+auto_marker/index
 marker_options/index
 ```
