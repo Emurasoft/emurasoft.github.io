@@ -77,7 +77,7 @@ func transformTree(node *html.Node) {
 	var childrenToRemove []*html.Node
 
 	for child := node.FirstChild; child != nil; child = child.NextSibling {
-		if isModeToggle(child) || isUnneededLink(child) {
+		if isModeToggle(child) || isUnneededLink(child) || isLanguageDropdown(child) {
 			childrenToRemove = append(childrenToRemove, child)
 		} else {
 			transformTree(child)
@@ -114,6 +114,18 @@ func isUnneededLink(node *html.Node) bool {
 	if node.Type == html.ElementNode && node.Data == "link" {
 		for _, attr := range node.Attr {
 			if attr.Key == "rel" && slices.Contains(unneededLinkRel, attr.Val) {
+				return true
+			}
+		}
+	}
+
+	return false
+}
+
+func isLanguageDropdown(node *html.Node) bool {
+	if node.Type == html.ElementNode && node.Data == "div" {
+		for _, attr := range node.Attr {
+			if attr.Key == "id" && attr.Val == "languageDropdown" {
 				return true
 			}
 		}
