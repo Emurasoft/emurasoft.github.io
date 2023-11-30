@@ -71,6 +71,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })
 
+    // Hide theme button in local
+    const isLocal = window.location.protocol === "file:";
     if (!isLocal) {
         button.mount('#mode_toggle')
     }
