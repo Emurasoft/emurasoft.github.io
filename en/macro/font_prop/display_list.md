@@ -1,6 +1,6 @@
 # DisplayList Property (FontProp Object)
 
-Retrieves the FontList object.
+Retrieves the [FontList collection](../font_list/index) for display.
 
 ## 
 

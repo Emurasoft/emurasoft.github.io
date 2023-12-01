@@ -1,6 +1,6 @@
 # PrintList Property (FontProp Object)
 
-Retrieves the PrintList object.
+Retrieves the [FontList collection](../font_list/index) for print.
 
 ## 
 
