@@ -16,7 +16,7 @@ This command displays a popup menu, and allows you to select a
 configuration to begin with (such as Text, HTML, VBScript, etc). If the specified configuration is configured with a template file,
 the template will be used as the starting document. A template file, encoding for a new file,
 the newline characters, and the font category can be set in
-the [**New File****Details** dialog box](../../dlg/properties/file/new_details/index), which can be accessed by clicking the
+the [**New File** **Details** dialog box](../../dlg/properties/file/new_details/index), which can be accessed by clicking the
 [**Properties for Current Configuration** button](../tools/customize) (or press ALT + ENTER), selecting the
 [**File** page](../../dlg/properties/file/index), and then
 clicking the **New**
@@ -35,7 +35,8 @@ the arrow)
 ## Plug-in Command ID
 
 ```
-EEID_NEW_CONFIG_POPUP (4281)```
+EEID_NEW_CONFIG_POPUP (4281)
+```
 
 ## Macros
 
