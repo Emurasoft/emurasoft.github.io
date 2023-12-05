@@ -34,7 +34,7 @@ enter X, ALT + CTRL + X can be specified as the shortcut key.
 
 ## Customize Menu button
 
-Displays the [**Customize****Menus** dialog box](../menus/index) to customize menus.
+Displays the [**Customize** **Menus** dialog box](../menus/index) to customize menus.
 
 ## Reset button
 

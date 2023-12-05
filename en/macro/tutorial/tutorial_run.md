@@ -46,4 +46,4 @@ shown in the **Macros** menu.
 If you want to run a macro from a shortcut key on your keyboard, you can assign
 a shortcut key to the macro by selecting the
 [**Keyboard** page](../../dlg/properties/keyboard/index) from
-the [**Properties for All Configurations**command](../../cmd/tools/all_prop) or the [**Properties for****Current Configuration**command](../../cmd/tools/customize).
+the [**Properties for All Configurations**command](../../cmd/tools/all_prop) or the [**Properties for** **Current Configuration**command](../../cmd/tools/customize).

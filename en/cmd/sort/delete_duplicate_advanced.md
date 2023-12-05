@@ -6,7 +6,7 @@ Displays a dialog box to specify settings and deletes or set bookmarks at duplic
 
 ## Description
 
-Displays a dialog box to specify settings and deletes or set bookmarks at duplicate lines in the selection or in the entire document. The [**Delete/Bookmark Duplicate****Lines** dialog box](../../dlg/delete_duplicate_advanced/index)
+Displays a dialog box to specify settings and deletes or set bookmarks at duplicate lines in the selection or in the entire document. The [**Delete/Bookmark Duplicate** **Lines** dialog box](../../dlg/delete_duplicate_advanced/index)
 will be displayed upon executing this command, where you can set options.
 
 ## How to Run
@@ -20,7 +20,8 @@ will be displayed upon executing this command, where you can set options.
 ## Plug-in Command ID
 
 ```
-EEID_DELETE_DUPLICATE_ADVANCED (3920)```
+EEID_DELETE_DUPLICATE_ADVANCED (3920)
+```
 
 ## Macros
 

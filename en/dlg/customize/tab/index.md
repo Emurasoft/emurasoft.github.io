@@ -101,7 +101,7 @@ Specifies the color to highlight the active tab when the **Highlight Active Tab*
 
 ## Customize Menu button
 
-Displays the [**Customize****Menus** dialog box](../../menus/index) to customize menus.
+Displays the [**Customize** **Menus** dialog box](../../menus/index) to customize menus.
 
 ## Reset button
 
