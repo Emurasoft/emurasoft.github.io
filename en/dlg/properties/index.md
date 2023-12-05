@@ -37,14 +37,14 @@ associate/index
 
 The following dialog boxes are also available through Configuration Properties.
 
-![](../../images/b.gif)[\[Tab/Indent\] dialog box](general/indent/index) (Select the **Tab/Indent** button on the [**General** page](general/index))
+[\[Tab/Indent\] dialog box](general/indent/index) (Select the **Tab/Indent** button on the [**General** page](general/index))
 
-![](../../images/b.gif)[\[New File Details\] dialog box](file/new_details/index) (Select the **New Files** button on the [**File** page](file/index))
+[\[New File Details\] dialog box](file/new_details/index) (Select the **New Files** button on the [**File** page](file/index))
 
-![](../../images/b.gif)[\[Save Details\] dialog box](file/save_details/index) (Select the **Saving** button on the [**File** page](file/index))
+[\[Save Details\] dialog box](file/save_details/index) (Select the **Saving** button on the [**File** page](file/index))
 
-![](../../images/b.gif)[\[Customize Font\] dialog box](font/index) (Select the **Font** button on the [**Display** page](display/index) or [**Print** page](print/index))
+[\[Customize Font\] dialog box](font/index) (Select the **Font** button on the [**Display** page](display/index) or [**Print** page](print/index))
 
-![](../../images/b.gif)[\[Character Check\] dialog box](char_check/char_range/index) (Select the **Add** button on the [**Character Check** page](char_check/index))
+[\[Character Check\] dialog box](char_check/char_range/index) (Select the **Add** button on the [**Character Check** page](char_check/index))
 
-![](../../images/b.gif)[\[Reset\] dialog box](reset/index) (each page or dialog boxes)
+[\[Reset\] dialog box](reset/index) (each page or dialog boxes)
