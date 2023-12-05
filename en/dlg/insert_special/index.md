@@ -1,6 +1,6 @@
 # Insert Special Character dialog box
 
-This dialog box appears when the [**Insert****Special Character** command](../../cmd/insert/insert_control) is selected. It allows you to select a character
+This dialog box appears when the [**Insert** **Special Character** command](../../cmd/insert/insert_control) is selected. It allows you to select a character
 to insert.
 
 ## Characters to Add drop-down list box
