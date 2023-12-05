@@ -1,6 +1,6 @@
 # New File Details dialog box
 
-This dialog box appears when the [**New** **Files** button](../index)
+This dialog box appears when the [**New****Files** button](../index)
 on the [**File** page](../index) of Configuration Properties is selected.
 
 ## Encoding drop-down list box

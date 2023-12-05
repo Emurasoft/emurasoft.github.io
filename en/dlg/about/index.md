@@ -1,6 +1,6 @@
 # About EmEditor dialog box
 
-This dialog box appears when the [**About** **EmEditor** command](../../cmd/help/app_about) is selected. Information about EmEditor will be
+This dialog box appears when the [**About****EmEditor** command](../../cmd/help/app_about) is selected. Information about EmEditor will be
 displayed.
 
 ## How to Purchase button

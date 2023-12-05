@@ -9,7 +9,7 @@ text.
 
 Copies the selected text with the quote marks to the Clipboard, and
 deselects the text.
-This command is equivalent to the [**Copy Text in** **Quotes** command](edit_copy) followed by the [**Cancel** command](escape). After this command, you
+This command is equivalent to the [**Copy Text in****Quotes** command](edit_copy) followed by the [**Cancel** command](escape). After this command, you
 can place the selection by moving the cursor to a different location
 and running the [**Paste** command](edit_paste).
 
@@ -25,8 +25,7 @@ and running the [**Paste** command](edit_paste).
 ## Plug-in Command ID
 
 ```
-EEID_EDIT_COPY_PREFIX_DESELECT (4131)
-```
+EEID_EDIT_COPY_PREFIX_DESELECT (4131)```
 
 ## Macros
 
