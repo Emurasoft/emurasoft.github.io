@@ -14,7 +14,7 @@ Selecting **No** will abort reloading and will allow you to continue
 editing the document.
 
 This command remains for compatibility with the older versions of
-EmEditor. You can use the [**Reload with****Encoding (multiple menu)** command](file_reload_defined) instead and specify Japanese JIS.
+EmEditor. You can use the [**Reload with** **Encoding (multiple menu)** command](file_reload_defined) instead and specify Japanese JIS.
 
 ## How to Run
 
@@ -28,7 +28,8 @@ EmEditor. You can use the [**Reload with****Encoding (multiple menu)** command](
 ## Plug-in Command ID
 
 ```
-EEID_FILE_RELOAD_JIS (4111)```
+EEID_FILE_RELOAD_JIS (4111)
+```
 
 ## Macros
 
