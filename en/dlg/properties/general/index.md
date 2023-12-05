@@ -40,7 +40,7 @@ The length of lines in bytes that begins with quote characters when **Wrapped by
 
 Quote character that EmEditor uses for the **Quoted Line**
 **Margin** text box. It is also used by the
-[**Quote** **Copy** command](../../../cmd/edit/edit_copy_prefix).
+[**Quote****Copy** command](../../../cmd/edit/edit_copy_prefix).
 
 ## Show Line Numbers check box
 

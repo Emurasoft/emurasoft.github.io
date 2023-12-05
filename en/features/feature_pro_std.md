@@ -17,7 +17,7 @@ orphan: true
 
 ## Other new features
 
-- You can cancel during the [**Find in** **Files** command](../cmd/search/grep).
+- You can cancel during the [**Find in****Files** command](../cmd/search/grep).
 - You can use multi-byte characters using regular expressions for the
 [**Find in Files** command](../cmd/search/grep).
 - Searching using a regular expression has become faster.

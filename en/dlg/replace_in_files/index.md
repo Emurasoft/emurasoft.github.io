@@ -96,7 +96,7 @@ Close the dialog box when finished searching or replacing.
 
 If this box is checked, changes to files will not be made immediately; all files that have had
 changes made will be left open. Thus you can save the changes after you verify them. After you replace in files with this option
-checked, you can select the [**Save and** **Close All** command](../../cmd/file/save_exit_all) if you are satisfied with the changes, or select the
+checked, you can select the [**Save and****Close All** command](../../cmd/file/save_exit_all) if you are satisfied with the changes, or select the
 [**Close All without Saving** command](../../cmd/file/quit_all) if
 you wish to undo the changes. If this box is not checked, the maximum number of
 files to be replaced is limited to 32.

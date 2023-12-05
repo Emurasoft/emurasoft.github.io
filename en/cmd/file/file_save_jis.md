@@ -12,7 +12,7 @@ untitled, the **Save As** dialog box appears,
 which allows you to enter a file name to save the file as.
 
 This command remains for compatibility with the older versions of
-EmEditor. You can use the [**Save with** **Encoding (multiple menu)** command](file_save_defined) instead and specify Japanese JIS.
+EmEditor. You can use the [**Save with****Encoding (multiple menu)** command](file_save_defined) instead and specify Japanese JIS.
 
 ## How to Run
 
@@ -26,8 +26,7 @@ EmEditor. You can use the [**Save with** **Encoding (multiple menu)** command](f
 ## Plug-in Command ID
 
 ```
-EEID_FILE_SAVE_JIS (4103)
-```
+EEID_FILE_SAVE_JIS (4103)```
 
 ## Macros
 
