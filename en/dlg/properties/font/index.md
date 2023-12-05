@@ -1,6 +1,6 @@
 # Customize Font dialog box
 
-This dialog box appears when [**Customize****Font** command](../../../cmd/view/font) is selected, or when the
+This dialog box appears when [**Customize** **Font** command](../../../cmd/view/font) is selected, or when the
 **Font** button is selected on the [**Display** page](../display/index)
 or the [**Print** page](../print/index) of the Configuration
 Properties.
