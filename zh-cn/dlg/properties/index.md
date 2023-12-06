@@ -33,16 +33,16 @@ reset/index
 associate/index
 ```
 
-下列对话框同样能通过配置属性访问。
+下列对话框同样能通过配置属性对话框访问。
 
-选择 **「制表符/缩进」** 按钮在 [**常规** 页面](general/index) 上）
+[\[制表符/缩进\] 对话框](general/indent/index)（选择 **「制表符/缩进」** 按钮在 [**常规** 页面](general/index) 上）
 
-选择 **「新建文件」** 按钮在 [**文件** 页面](file/index) 上）
+[\[新建文件详细信息\] 对话框](file/new_details/index)（选择 **「新建文件」** 按钮在 [**文件** 页面](file/index) 上）
 
-选择 **「保存中」** 按钮在 [**文件** 页面](file/index) 上）
+[\[保存详细信息\] 对话框](file/save_details/index)（选择 **「保存中」** 按钮在 [**文件** 页面](file/index) 上）
 
-选择 **「字体」** 按钮在 [**显示** 页面](display/index) 上或 [**打印** 页面](print/index) 上）
+[\[自定义字体\] 对话框](font/index)（选择 **「字体」** 按钮在 [**显示** 页面](display/index) 上或 [**打印** 页面](print/index) 上）
 
-选择 **「添加」** 按钮在 [**字符检查** 页面](char_check/index) 上）
+[\[字符范围\] 对话框](char_check/char_range/index)（选择 **「添加」** 按钮在 [**字符检查** 页面](char_check/index) 上）
 
-每一页或对话框）
+[\[重置\] 对话框](reset/index)（选择 **「重置」** 按钮在对话框的每一页上）

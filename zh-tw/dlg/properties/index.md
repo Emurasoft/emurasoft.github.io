@@ -33,16 +33,16 @@ reset/index
 associate/index
 ```
 
-下列對話方塊同樣能通過組態屬性訪問。
+下列對話方塊同樣能通過組態屬性對話方塊訪問。
 
-(在 [**一般** 頁面](general/index) 上選擇 **「 Tab/縮排」** 按鈕)
+[\[Tab/縮排\] 對話方塊](general/indent/index) (在 [**一般** 頁面](general/index) 上選擇 **「Tab/縮排」** 按鈕)
 
-(在 [**檔案** 頁面](file/index) 上選擇 **「新增檔案」** 按鈕)
+[\[新增檔案詳細信息\] 對話方塊](file/new_details/index) (在 [**檔案** 頁面](file/index) 上選擇 **「新增檔案」** 按鈕)
 
-(在 [**檔案** 頁面](file/index) 上選擇 **「儲存中」** 按鈕)
+[\[儲存詳細信息\] 對話方塊](file/save_details/index) (在 [**檔案** 頁面](file/index) 上選擇 **「儲存中」** 按鈕)
 
-(在 [**顯示** 頁面](display/index) 上或 [**列印** 頁面](print/index) 上)選擇 **「字型」** 按鈕)
+[\[自訂字型\] 對話方塊](font/index) (在 [**顯示** 頁面](display/index) 上或 [**列印** 頁面](print/index) 上)選擇 **「字型」** 按鈕)
 
-（選擇 **「添加」** 按鈕在 [**字元檢查** 頁面](char_check/index) 上）
+[\[字元範圍\] 對話方塊](char_check/char_range/index)（選擇 **「添加」** 按鈕在 [**字元檢查** 頁面](char_check/index) 上）
 
-(每一頁或對話方塊)
+[\[重設\] 對話方塊](reset/index) (選擇 **「重設」** 按鈕在對話方塊的每一頁上)
