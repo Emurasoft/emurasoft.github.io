@@ -37,10 +37,11 @@
 
 下面的對話方塊可以通過這個對話方塊打開。
 
- (選擇 **「屬性」** 按鈕)
+<a href="properties/index.htm"><b>外部工具屬性</b>對話方塊</a> (選擇 **「屬性」** 按鈕)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 properties/index
 ```

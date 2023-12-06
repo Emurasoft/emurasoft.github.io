@@ -37,11 +37,13 @@ Resets to default settings.
 
 The following dialog box is also available through this dialog box.
 
- (Select **Properties**
+<a href="properties/index.htm"><b>External 
+	Tool Properties</b> Dialog Box</a> (Select **Properties**
 button)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 properties/index
 ```
