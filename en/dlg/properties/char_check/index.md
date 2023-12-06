@@ -50,11 +50,12 @@ and will allow you to copy from another configuration.
 
 You can also move to the following dialog box from this page.
 
- (Select **Add**
+<a href="char_range/index.html"><b>Character Range</b> dialog box</a> (Select **Add**
 button)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 char_range/index
 ```

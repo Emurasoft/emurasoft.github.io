@@ -48,10 +48,11 @@
 
 下面的对话框同样能够通过该对话框访问。
 
-（选择 **「事件」** 按钮）
+<a href="select_events/index.html"><b>选择事件</b>对话框</a>（选择 **「事件」** 按钮）
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 select_events/index
 ```

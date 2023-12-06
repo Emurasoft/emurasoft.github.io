@@ -100,15 +100,16 @@ Charset 検出を含みません。
 
 さらに、このページから、次のダイアログ ボックスに移動することもできます。
 
-![](../../../images/b.gif)[\[新規作成時の詳細\] ダイアログ ボックス](new_details/index) (\[新規作成時\]
+[\[新規作成時の詳細\] ダイアログ ボックス](new_details/index) (\[新規作成時\]
 ボタンを選択)
 
-![](../../../images/b.gif)[\[保存時の詳細\] ダイアログ ボックス](save_details/index) (\[保存時\]
+[\[保存時の詳細\] ダイアログ ボックス](save_details/index) (\[保存時\]
 ボタンを選択)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 new_details/index
 save_details/index
 ```

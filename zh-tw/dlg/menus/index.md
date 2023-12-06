@@ -49,10 +49,11 @@
 
 下面的對話方塊同樣能夠通過該對話方塊訪問。
 
- (點擊 **「屬性」** 按鈕)
+<a href="properties/index.html"><b>功能表屬性</b>對話方塊</a> (點擊 **「屬性」** 按鈕)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 properties/index
 ```

@@ -49,10 +49,12 @@
 
 이 대화 상자를 통해 다음의 대화 상자들을 사용 가능합니다.
 
- (**이벤트** 버튼 선택)
+<a href="select_events/index.html">
+<b>이벤트 선택</b> 대화 상자</a> (**이벤트** 버튼 선택)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 select_events/index
 ```

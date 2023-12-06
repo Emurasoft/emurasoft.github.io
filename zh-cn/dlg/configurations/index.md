@@ -48,9 +48,9 @@
 
 下面的对话框同样能够通过该对话框访问。
 
-（选择 **「新建」** 按钮）
+<a href="new_config/index.html"><b>新建</b>对话框</a>（选择 **「新建」** 按钮）
 
-（选择 **「关联」** 按钮）
+<a href="../configuration_associations/index.html"> <strong>文件关联配置</strong>对话框</a>（选择 **「关联」** 按钮）
 
 
 ```{toctree}

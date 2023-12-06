@@ -86,10 +86,11 @@ EmEditor 用于 **引用行边距** 文本框上的引用字符。它同样也�
 
 你能通过该页面访问下列对话框。
 
-（点击 **「制表符/缩进」** 按钮）
+<a href="indent/index.html"><b>制表符/缩进</b>对话框</a>（点击 **「制表符/缩进」** 按钮）
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 indent/index
 ```

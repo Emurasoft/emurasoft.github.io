@@ -93,13 +93,14 @@
 
 你能通过该页面访问下列对话框。
 
-（选择 **「新建文件」** 按钮）
+<a href="new_details/index.html"><b>新建文件详细信息</b>对话框</a>（选择 **「新建文件」** 按钮）
 
-（选择 **「保存中」** 按钮）
+<a href="save_details/index.html"><b>保存详细信息</b>对话框</a>（选择 **「保存中」** 按钮）
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 new_details/index
 save_details/index
 ```

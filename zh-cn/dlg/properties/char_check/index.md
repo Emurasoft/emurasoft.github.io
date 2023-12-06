@@ -44,10 +44,11 @@
 
 你能通过该页面访问下列对话框。
 
-（选择 **「添加」** 按钮）
+<a href="char_range/index.html"><b>字符范围</b>对话框</a>（选择 **「添加」** 按钮）
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 char_range/index
 ```

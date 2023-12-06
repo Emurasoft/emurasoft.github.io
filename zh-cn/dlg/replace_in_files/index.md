@@ -241,9 +241,9 @@
 
 你还能通过这个对话框访问下列对话框。
 
- ( 点击「 **高级**」按钮 )
+<a href="../advanced/index.html"><b>高级</b>对话框</a> ( 点击「 **高级**」按钮 )
 
- ( 点击 **提取选项** )
+<a href="../extract_options/index.html"><b>提取选项</b>对话框</a> ( 点击 **提取选项** )
 
- ( 点击 **批处理选项** )
+<a href="../batch_options/index.html"><b>批处理选项</b>对话框</a> ( 点击 **批处理选项** )
 

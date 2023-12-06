@@ -37,11 +37,12 @@
 
 さらに、このダイアログ ボックスから、次のダイアログ ボックスに移動することもできます。
 
-![](../../images/b.gif)[\[外部ツールのプロパティ\] ダイアログ ボックス](properties/index) (\[プロパティ\]
+[\[外部ツールのプロパティ\] ダイアログ ボックス](properties/index) (\[プロパティ\]
 ボタンを選択)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 properties/index
 ```

@@ -56,5 +56,5 @@
 
 さらに、このダイアログ ボックスから、次のダイアログ ボックスに移動することもできます。
 
-![](../../images/b.gif)[\[EmEditorと関連付け\] ダイアログ ボックス](../file_associate/index) (\[EmEditor と関連付け\] ボタンを選択)
+[\[EmEditorと関連付け\] ダイアログ ボックス](../file_associate/index) (\[EmEditor と関連付け\] ボタンを選択)
 

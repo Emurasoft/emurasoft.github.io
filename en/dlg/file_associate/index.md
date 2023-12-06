@@ -27,12 +27,14 @@ Show or edit the selected configuration properties in the list.
 
 The following dialog box is also available through this dialog box.
 
- (Select
+<a href="properties/index.html"><b>(Extension) 
+	Properties</b> Dialog Boxes</a> (Select
 **Properties**
 button)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 properties/index
 ```

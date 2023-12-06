@@ -24,10 +24,11 @@
 
 さらに、このダイアログ ボックスから、次のダイアログ ボックスに移動することもできます。
 
-![](../../images/b.gif)[\[EmEditorと関連付けのプロパティ\] ダイアログ ボックス](properties/index) (\[プロパティ\] ボタンを選択)
+[\[EmEditorと関連付けのプロパティ\] ダイアログ ボックス](properties/index) (\[プロパティ\] ボタンを選択)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 properties/index
 ```

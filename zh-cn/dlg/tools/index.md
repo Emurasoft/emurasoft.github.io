@@ -37,10 +37,11 @@
 
 下面的对话框可以通过这个对话框打开。
 
-（选择 **「属性」** 按钮）
+<a href="properties/index.html"><b>外部工具属性</b>对话框</a>（选择 **「属性」** 按钮）
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 properties/index
 ```

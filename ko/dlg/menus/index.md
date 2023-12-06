@@ -49,10 +49,12 @@
 
 이 대화 상자를 통해 다음의 대화 상자들을 사용 가능합니다.
 
- (**속성** 버튼 선택)
+<a href="properties/index.html"><b>메뉴 속성</b>
+대화 상자</a> (**속성** 버튼 선택)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 properties/index
 ```

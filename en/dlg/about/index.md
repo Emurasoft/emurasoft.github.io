@@ -19,7 +19,7 @@ Go to this URL with a Web browser.
 
 The following dialog box is also available through this dialog box.
 
- (Select the
+<a href="../opening/index.html"><b>How to Purchase</b> dialog box</a> (Select the
 **How to Purchase**
 button)
 
