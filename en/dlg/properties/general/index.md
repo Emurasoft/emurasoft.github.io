@@ -110,12 +110,13 @@ and will allow you to copy from another configuration.
 
 You can also move to the following dialog box from this page.
 
- (Select the
+<a href="indent/index.htm"><b>Tab/Indent</b> Dialog Box</a> (Select the
 **Tab/Indent**
 button)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 indent/index
 ```

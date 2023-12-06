@@ -103,10 +103,11 @@
 
 이 페이지에서 다음의 대화 상자로 이동할 수 있습니다.
 
- (**탭/들여쓰기** 버튼 선택)
+<a href="indent/index.htm"><b>탭/들여쓰기</b> 대화 상자</a> (**탭/들여쓰기** 버튼 선택)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 indent/index
 ```
