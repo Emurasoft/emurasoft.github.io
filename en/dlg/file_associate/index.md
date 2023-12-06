@@ -27,7 +27,7 @@ Show or edit the selected configuration properties in the list.
 
 The following dialog box is also available through this dialog box.
 
-<a href="properties/index.htm"><b>(Extension) 
+<a href="properties/index.html"><b>(Extension) 
 	Properties</b> Dialog Boxes</a> (Select
 **Properties**
 button)

@@ -119,11 +119,11 @@ and will allow you to copy from another configuration.
 
 You can also move to the following dialog box from this page.
 
-<a href="new_details/index.htm"><b>New File Details</b> dialog box</a> (Select **New Files**
+<a href="new_details/index.html"><b>New File Details</b> dialog box</a> (Select **New Files**
 button)
 
 
-<a href="save_details/index.htm"><b>Save Details</b> Dialog Boxes</a> (Select **Savings**
+<a href="save_details/index.html"><b>Save Details</b> Dialog Boxes</a> (Select **Savings**
 button)
 
 

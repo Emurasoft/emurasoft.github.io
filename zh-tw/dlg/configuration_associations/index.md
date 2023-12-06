@@ -54,5 +54,5 @@
 
 下面的對話方塊同樣能夠通過該對話方塊訪問。
 
-<a href="../../dlg/file_associate/index.htm"> <b>與 EmEditor 關聯</b>對話方塊</a> (選擇 **「關聯到 EmEditor」** 按鈕)
+<a href="../../dlg/file_associate/index.html"> <b>與 EmEditor 關聯</b>對話方塊</a> (選擇 **「關聯到 EmEditor」** 按鈕)
 

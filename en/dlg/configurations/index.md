@@ -54,9 +54,9 @@ Click this button to reset all items to default settings.
 
 The following dialog boxes are also available through this dialog box.
 
-<a href="new_config/index.htm"><b>New</b> dialog box</a> (Select **New** button)
+<a href="new_config/index.html"><b>New</b> dialog box</a> (Select **New** button)
 
-<a href="../configuration_associations/index.htm"> <strong>Configuration Associations</strong> dialog box</a> (Select **Associations** button)
+<a href="../configuration_associations/index.html"> <strong>Configuration Associations</strong> dialog box</a> (Select **Associations** button)
 
 
 ```{toctree}

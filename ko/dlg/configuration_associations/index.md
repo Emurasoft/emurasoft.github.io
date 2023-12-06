@@ -52,5 +52,5 @@
 
 이 대화 상자를 통해 다음의 대화 상자들을 사용 가능합니다.
 
-<a href="../../dlg/file_associate/index.htm"> <b>엠에디터와 연결 </b>대화 상자</a> (**엠에디터 속성과 연결** 버튼 선택)
+<a href="../../dlg/file_associate/index.html"> <b>엠에디터와 연결 </b>대화 상자</a> (**엠에디터 속성과 연결** 버튼 선택)
 

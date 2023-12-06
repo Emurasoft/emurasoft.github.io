@@ -50,7 +50,7 @@ and will allow you to copy from another configuration.
 
 You can also move to the following dialog box from this page.
 
-<a href="char_range/index.htm"><b>Character Range</b> dialog box</a> (Select **Add**
+<a href="char_range/index.html"><b>Character Range</b> dialog box</a> (Select **Add**
 button)
 
 

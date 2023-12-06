@@ -44,7 +44,7 @@
 
 你能通過該頁面訪問下列對話方塊。
 
-<a href="char_range/index.htm"><b>字元範圍</b>對話方塊</a>（選擇 **「添加」** 按鈕）
+<a href="char_range/index.html"><b>字元範圍</b>對話方塊</a>（選擇 **「添加」** 按鈕）
 
 
 ```{toctree}

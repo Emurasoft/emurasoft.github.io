@@ -49,7 +49,7 @@
 
 下面的對話方塊同樣能夠通過該對話方塊訪問。
 
-<a href="properties/index.htm"><b>功能表屬性</b>對話方塊</a> (點擊 **「屬性」** 按鈕)
+<a href="properties/index.html"><b>功能表屬性</b>對話方塊</a> (點擊 **「屬性」** 按鈕)
 
 
 ```{toctree}

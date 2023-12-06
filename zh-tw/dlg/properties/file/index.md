@@ -93,9 +93,9 @@
 
 您能通過該頁面訪問下列對話方塊。
 
-<a href="new_details/index.htm"><b>新增檔案詳細信息</b>對話方塊</a> (選擇 **「新增檔案」** 按鈕)
+<a href="new_details/index.html"><b>新增檔案詳細信息</b>對話方塊</a> (選擇 **「新增檔案」** 按鈕)
 
-<a href="save_details/index.htm"><b>儲存詳細信息</b>對話方塊</a> (選擇 **「儲存中」** 按鈕)
+<a href="save_details/index.html"><b>儲存詳細信息</b>對話方塊</a> (選擇 **「儲存中」** 按鈕)
 
 
 ```{toctree}

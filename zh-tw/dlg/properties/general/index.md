@@ -86,7 +86,7 @@ EmEditor 用於 **引用行邊距** 文字方塊上的引用字元。它同樣�
 
 您能通過該頁面訪問下列對話方塊。
 
-<a href="indent/index.htm"><b> Tab/縮排</b>對話方塊</a> (點擊 **「 Tab/縮排」** 按鈕)
+<a href="indent/index.html"><b> Tab/縮排</b>對話方塊</a> (點擊 **「 Tab/縮排」** 按鈕)
 
 
 ```{toctree}

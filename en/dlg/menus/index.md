@@ -49,7 +49,7 @@ Resets to default settings.
 
 The following dialog box is also available through this dialog box.
 
-<a href="properties/index.htm"><b>Menu 
+<a href="properties/index.html"><b>Menu 
 	Properties</b> dialog box</a> (Select
 **Properties**
 button)

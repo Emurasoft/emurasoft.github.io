@@ -36,7 +36,7 @@
 
 이 대화 상자를 통해 다음의 대화 상자들을 사용 가능합니다.
 
-<a href="properties/index.htm"><b>외부 도구 속성</b> 
+<a href="properties/index.html"><b>외부 도구 속성</b> 
   대화 상자</a> (**속성** 버튼 선택)
 
 

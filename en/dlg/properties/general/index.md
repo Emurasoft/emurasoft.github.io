@@ -110,7 +110,7 @@ and will allow you to copy from another configuration.
 
 You can also move to the following dialog box from this page.
 
-<a href="indent/index.htm"><b>Tab/Indent</b> Dialog Box</a> (Select the
+<a href="indent/index.html"><b>Tab/Indent</b> Dialog Box</a> (Select the
 **Tab/Indent**
 button)
 

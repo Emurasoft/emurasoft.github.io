@@ -37,7 +37,7 @@ Resets to default settings.
 
 The following dialog box is also available through this dialog box.
 
-<a href="properties/index.htm"><b>External 
+<a href="properties/index.html"><b>External 
 	Tool Properties</b> Dialog Box</a> (Select **Properties**
 button)
 

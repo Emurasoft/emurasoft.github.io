@@ -48,9 +48,9 @@
 
 下面的對話方塊同樣能夠通過該對話方塊訪問。
 
-<a href="new_config/index.htm"><b>新增</b>對話方塊</a> (選擇 **「新增」** 按鈕)
+<a href="new_config/index.html"><b>新增</b>對話方塊</a> (選擇 **「新增」** 按鈕)
 
-<a href="../configuration_associations/index.htm"> <strong>檔案關聯組態</strong>對話方塊</a> (選擇 **「關聯」** 按鈕)
+<a href="../configuration_associations/index.html"> <strong>檔案關聯組態</strong>對話方塊</a> (選擇 **「關聯」** 按鈕)
 
 
 ```{toctree}

@@ -48,7 +48,7 @@
 
 下面的對話方塊同樣能夠通過該對話方塊訪問。
 
-<a href="select_events/index.htm"><b>選擇事件</b>對話方塊</a> (選擇 **「事件」** 按鈕)
+<a href="select_events/index.html"><b>選擇事件</b>對話方塊</a> (選擇 **「事件」** 按鈕)
 
 
 ```{toctree}

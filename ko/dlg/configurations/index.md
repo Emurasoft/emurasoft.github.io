@@ -52,9 +52,9 @@
 
 이 대화 상자를 통해 다음의 대화 상자들을 사용 가능합니다.
 
-<a href="new_config/index.htm"><b>새로 만들기</b> 대화 상자</a> (**새로 만들기** 버튼 선택)
+<a href="new_config/index.html"><b>새로 만들기</b> 대화 상자</a> (**새로 만들기** 버튼 선택)
 
-<a href="../configuration_associations/index.htm"> <strong>구성 연결</strong> 대화 상자</a> (**연결** 버튼 선택)
+<a href="../configuration_associations/index.html"> <strong>구성 연결</strong> 대화 상자</a> (**연결** 버튼 선택)
 
 
 ```{toctree}

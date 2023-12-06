@@ -24,7 +24,7 @@
 
 下面的对话框可以通过这个对话框访问。
 
-<a href="properties/index.htm"><b>（扩展名）属性</b>对话框</a>（选择 **「属性」** 按钮）
+<a href="properties/index.html"><b>（扩展名）属性</b>对话框</a>（选择 **「属性」** 按钮）
 
 
 ```{toctree}
