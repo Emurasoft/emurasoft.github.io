@@ -24,10 +24,11 @@
 
 下面的對話方塊可以通過這個對話方塊訪問。
 
- (選擇 **「屬性」** 按鈕)
+<a href="properties/index.htm"><b> (副檔名) 屬性</b>對話方塊</a> (選擇 **「屬性」** 按鈕)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 properties/index
 ```
