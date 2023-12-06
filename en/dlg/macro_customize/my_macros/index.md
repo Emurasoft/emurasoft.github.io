@@ -48,11 +48,12 @@ Displays the full path of the selected macro.
 
 The following dialog box is also available through this dialog box.
 
- (Select
+<a href="select_events/index.htm"><b>Select Events</b> dialog box</a> (Select
 **Events** button)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 select_events/index
 ```

@@ -48,10 +48,11 @@
 
 下面的對話方塊同樣能夠通過該對話方塊訪問。
 
- (選擇 **「事件」** 按鈕)
+<a href="select_events/index.htm"><b>選擇事件</b>對話方塊</a> (選擇 **「事件」** 按鈕)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 select_events/index
 ```
