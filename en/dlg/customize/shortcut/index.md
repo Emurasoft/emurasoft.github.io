@@ -49,6 +49,6 @@ Resets to default settings.
 
 The following dialog box is also available through this dialog box.
 
- (Select
+<a href="../../tray/index.htm"><b>Customize Tray Icon </b>dialog box</a> (Select
 **Customize Tray Icon** button)
 
