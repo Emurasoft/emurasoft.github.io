@@ -22,10 +22,6 @@ print/index
 link/index
 keyboard/index
 spell/index
-outline/index
-validation/index
-char_check/index
-language_server/index
 font/index
 reset/index
 ```
