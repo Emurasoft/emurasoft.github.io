@@ -56,5 +56,5 @@ Displays the
 
 The following dialog box is also available through this dialog box.
 
- (Select **Associate with EmEditor** button)
+<a href="../../dlg/file_associate/index.html"> <b>Associate with EmEditor </b>dialog box</a> (Select **Associate with EmEditor** button)
 
