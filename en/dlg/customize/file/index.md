@@ -110,6 +110,5 @@ Resets to default settings.
 
 The following dialog box is also available through this dialog box.
 
- (Select
-**Associate with EmEditor** button)
+<a href="../../file_associate/index.htm"><b>Associate with EmEditor </b>dialog box</a> (Select **Associate with EmEditor** button)
 

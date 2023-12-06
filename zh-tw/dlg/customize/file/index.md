@@ -92,5 +92,5 @@
 
 下面的對話方塊同樣能夠通過該對話方塊訪問。
 
-（選擇 **「關聯到 EmEditor」** 按鈕）
+<a href="../../file_associate/index.htm"><b>關聯到 EmEditor</b>對話方塊</a>（選擇 **「關聯到 EmEditor」** 按鈕）
 
