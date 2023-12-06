@@ -48,10 +48,11 @@
 
 さらに、このタブから、次のダイアログ ボックスに移動することもできます。
 
-![](../../../images/b.gif)[\[イベントの選択\] ダイアログ ボックス](select_events/index) (\[イベント\] ボタンを選択)
+[\[イベントの選択\] ダイアログ ボックス](select_events/index) (\[イベント\] ボタンを選択)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 select_events/index
 ```

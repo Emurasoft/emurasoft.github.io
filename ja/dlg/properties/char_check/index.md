@@ -44,11 +44,12 @@
 
 さらに、このページから、次のダイアログ ボックスに移動することもできます。
 
-![](../../../images/b.gif)[\[文字範囲\]ダイアログボックス](char_range/index) (\[追加\]
+[\[文字範囲\]ダイアログボックス](char_range/index) (\[追加\]
 ボタンを選択)
 
 
 ```{toctree}
 :maxdepth: 1
+:hidden:
 char_range/index
 ```

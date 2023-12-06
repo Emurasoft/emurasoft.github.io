@@ -49,14 +49,15 @@
 
 さらに、このダイアログ ボックスから、次のダイアログ ボックスに移動することもできます。
 
-![](../../images/b.gif)[\[新規作成\] ダイアログ ボックス](new_config/index) (\[新規作成\]
+[\[新規作成\] ダイアログ ボックス](new_config/index) (\[新規作成\]
 ボタンを選択)
 
-![](../../images/b.gif)[\[設定の関連付け\] ダイアログ ボックス](../configuration_associations/index) (\[関連付け\]
+[\[設定の関連付け\] ダイアログ ボックス](../configuration_associations/index) (\[関連付け\]
 ボタンを選択)
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 new_config/index
 ```
