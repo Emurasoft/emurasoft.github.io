@@ -201,9 +201,9 @@ insert newline characters.
 
 The following dialog box is also available through this dialog box.
 
- (Select **Advanced** button)
+<a href="../advanced/index.htm"><b>Advanced</b> dialog box</a> (Select **Advanced** button)
 
- (Select **Extract Options**)
+<a href="../extract_options/index.htm"><b>Extract Options</b> dialog box</a> (Select **Extract Options**)
 
- (Select **Batch Options**)
+<a href="../batch_options/index.htm"><b>Batch Options</b> dialog box</a> (Select **Batch Options**)
 
