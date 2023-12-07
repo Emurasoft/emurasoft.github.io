@@ -76,15 +76,32 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!isLocal) {
         button.mount('#mode_toggle')
     }
+
+    // Language dropdown
+    const dropdown = document.getElementById('languageDropdown-title');
+    if (dropdown) {
+        dropdown.addEventListener('click', function(event) {
+            event.preventDefault();
+            document.getElementById('languageDropdown').classList.toggle('active');
+        });
+    }
+
+
+    if (document.getElementById('languageDropdown-en')) {
+        const languages = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw'];
+
+        for (const language of languages) {
+            document.getElementById('languageDropdown-' + language).addEventListener('click', function(event) {
+                event.preventDefault();
+                changeLanguage(language);
+            });
+        }
+    }
 });
 
-function toggleLanguageDropdown(event) {
-    event.preventDefault();
-
-    const dropdown = document.getElementById('languageDropdown');
-    if (dropdown) {
-        dropdown.classList.toggle('active');
-    }
+function changeLanguage(lang) {
+    const newPath = 'https://www.emeditor.org/' + lang + '/' + getPageName() + '.html';
+    window.location.href = newPath;
 }
 
 // Closes language dropdown

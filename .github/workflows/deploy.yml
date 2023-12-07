@@ -68,6 +68,13 @@ jobs:
       - name: Configure GitHub Pages
         if: ${{ github.ref_type == 'tag' }}
         uses: actions/configure-pages@v3
+      - name: Create archive
+        run: zip -r help_pages.zip help_pages
+      - name: Upload help_pages
+        uses: actions/upload-artifact@v3
+        with:
+          name: help_pages
+          path: help_pages.zip
       - name: Upload pages
         if: ${{ github.ref_type == 'tag' }}
         uses: actions/upload-pages-artifact@v1

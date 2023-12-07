@@ -12,6 +12,12 @@
     <script src="{{ pathto('_static/js/petite-vue.js', 1) }}"></script>
 
     <script src="{{ pathto('_static/scripts.js', 1) }}"></script>
+
+    <script>
+        function getPageName() {
+            return '{{ pagename }}';
+        }
+    </script>
 {% endblock %}
 
 {%- block body_tag %}
@@ -34,22 +40,16 @@
         <h1><a href="{{ pathto(root_doc)|e }}" title="Go to homepage">{{ nav_title }}</a></h1>
 
         <div id="languageDropdown" class="languageDropdown">
-            <a href="#" onclick="toggleLanguageDropdown(event)">
+            <a href="#" id="languageDropdown-title">
                 {% if language == "en" %}English{% elif language == "ja" %}日本語{% elif language == "ko" %}한국어{% elif language == "zh-CN" %}简体中文{% elif language == "zh-TW" %}繁體中文{% endif %}
             </a>
             <div class="languageDropdown-content">
-                <a href="#" onclick="changeLanguage('en')">English</a>
-                <a href="#" onclick="changeLanguage('ja')">日本語</a>
-                <a href="#" onclick="changeLanguage('ko')">한국어</a>
-                <a href="#" onclick="changeLanguage('zh-cn')">简体中文</a>
-                <a href="#" onclick="changeLanguage('zh-tw')">繁體中文</a>
+                <a href="#" id="languageDropdown-en">English</a>
+                <a href="#" id="languageDropdown-ja">日本語</a>
+                <a href="#" id="languageDropdown-ko">한국어</a>
+                <a href="#" id="languageDropdown-zh-cn">简体中文</a>
+                <a href="#" id="languageDropdown-zh-tw">繁體中文</a>
             </div>
-            <script>
-                function changeLanguage(lang) {
-                    const newPath = 'https://www.emeditor.org/' + lang + '/{{ pagename }}.html';
-                    window.location.href = newPath;
-                }
-            </script>
         </div>
 
         {% include "./components/dark_mode_toggle.html" %}
