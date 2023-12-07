@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Language dropdown
     const dropdown = document.getElementById('languageDropdown-title');
     if (dropdown) {
-        dropdown.addEventListener('onclick', function(event) {
+        dropdown.addEventListener('click', function(event) {
             event.preventDefault();
             document.getElementById('languageDropdown').classList.toggle('active');
         });
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const languages = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw'];
 
         for (const language of languages) {
-            document.getElementById('languageDropdown-' + language).addEventListener('onclick', function() {
+            document.getElementById('languageDropdown-' + language).addEventListener('click', function() {
                 changeLanguage(language);
             });
         }
