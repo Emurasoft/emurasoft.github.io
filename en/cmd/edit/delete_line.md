@@ -1,4 +1,4 @@
-# Delete Line(s) command
+# Delete Lines command
 
 ## Summary
 
@@ -12,7 +12,7 @@ Deletes the selected lines or one logical line at the cursor.
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Edit** \> **Delete**
-\> **Delete Line(s)**
+\> **Delete Lines**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+L

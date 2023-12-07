@@ -13,14 +13,14 @@
 | **[Repeat Last Command](repeat_last_command)** | Repeats the last run command. |
 | **[Repeat Steps](repeat_steps)** | Repeats specified last steps for a specified number of times. |
 | **[Cut](edit_cut)** | Cuts the selection or the current line and moves it to the Clipboard. |
-| **[Cut Line(s)](edit_cut_line)** | Cuts the selected lines or current line and moves it to the Clipboard. |
+| **[Cut Lines](edit_cut_line)** | Cuts the selected lines or current line and moves it to the Clipboard. |
 | **[Cut Selection](edit_cut_sel)** | Cuts the selection and moves it to the Clipboard. |
 | **[Cut Columns](cut_column)** | Cuts the selected columns or current column and moves it to the Clipboard. |
 | **[Copy](edit_copy)** | Copies the selection or the current line and pastes it to the Clipboard. |
 | **[Copy in Quotes](edit_copy_prefix)** | Copies the selection in quotes and pastes it to the Clipboard. |
 | **[Copy and Deselect](edit_copy_deselect)** | Copies the selection, pastes it to the Clipboard and deselects the text. |
 | **[Copy in Quotes and Deselect](edit_copy_prefix_deselect)** | Copies the selection in quotes, pastes it to the Clipboard and deselects <br> the text. |
-| **[Copy Line(s)](edit_copy_line)** | Copies the selected lines or current line and pastes it to the Clipboard. |
+| **[Copy Lines](edit_copy_line)** | Copies the selected lines or current line and pastes it to the Clipboard. |
 | [**Copy Selection**](edit_copy_sel) | Copies the selection and pastes it to the Clipboard. |
 | [**Copy Columns**](copy_column) | Copies the selected columns or current column and pastes it to the Clipboard. |
 | **[Copy Link](edit_copy_link)** | Copies a hyperlink and pastes it to the Clipboard. |
@@ -37,7 +37,7 @@
 | **[Delete](delete)** | Deletes the selection. |
 | **[Delete Left Character](back)** | Deletes the selection. |
 | **[Delete Completely](delete_complete)** | Deletes the selection completely. |
-| **[Delete Line(s)](delete_line)** | Deletes the selected lines or the current line. |
+| **[Delete Lines](delete_line)** | Deletes the selected lines or the current line. |
 | **[Delete Right Line](delete_right_line)** | Deletes the line to the right of the cursor. |
 | **[Delete Left Line](delete_left_line)** | Deletes the line to the left of the cursor. |
 | **[Delete Word](delete_word)** | Deletes the word at the current cursor position. |
