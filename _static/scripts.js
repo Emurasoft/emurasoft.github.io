@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // External links
     for (const element of document.getElementsByTagName("a")) {
-        if (element.href.startsWith("https://")) {
+        if (element.getAttribute('href').startsWith("https://")) {
             element.setAttribute("target", "_blank");
         }
     }
