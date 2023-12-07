@@ -91,7 +91,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const languages = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw'];
 
         for (const language of languages) {
-            document.getElementById('languageDropdown-' + language).addEventListener('click', function() {
+            document.getElementById('languageDropdown-' + language).addEventListener('click', function(event) {
+                event.preventDefault();
                 changeLanguage(language);
             });
         }
