@@ -76,16 +76,17 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!isLocal) {
         button.mount('#mode_toggle')
     }
+
+    // Language dropdown
+    document.getElementById('languageDropdown-title').addEventListener('onclick', function(event) {
+        event.preventDefault();
+
+        const dropdown = document.getElementById('languageDropdown');
+        if (dropdown) {
+            dropdown.classList.toggle('active');
+        }
+    });
 });
-
-function toggleLanguageDropdown(event) {
-    event.preventDefault();
-
-    const dropdown = document.getElementById('languageDropdown');
-    if (dropdown) {
-        dropdown.classList.toggle('active');
-    }
-}
 
 // Closes language dropdown
 window.addEventListener('click', function(event) {
