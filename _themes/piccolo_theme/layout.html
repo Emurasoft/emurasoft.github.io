@@ -34,7 +34,7 @@
         <h1><a href="{{ pathto(root_doc)|e }}" title="Go to homepage">{{ nav_title }}</a></h1>
 
         <div id="languageDropdown" class="languageDropdown">
-            <a href="#" onclick="toggleLanguageDropdown()">
+            <a href="#" onclick="toggleLanguageDropdown(event)">
                 {% if language == "en" %}English{% elif language == "ja" %}日本語{% elif language == "ko" %}한국어{% elif language == "zh-CN" %}简体中文{% elif language == "zh-TW" %}繁體中文{% endif %}
             </a>
             <div class="languageDropdown-content">

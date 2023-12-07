@@ -78,8 +78,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-function toggleLanguageDropdown() {
-    const dropdown = document.querySelector('.languageDropdown');
+function toggleLanguageDropdown(event) {
+    event.preventDefault();
+
+    const dropdown = document.getElementById('languageDropdown');
     if (dropdown) {
         dropdown.classList.toggle('active');
     }
@@ -87,7 +89,7 @@ function toggleLanguageDropdown() {
 
 // Closes language dropdown
 window.addEventListener('click', function(event) {
-    const dropdown = document.querySelector('.languageDropdown');
+    const dropdown = document.getElementById('languageDropdown');
     if (dropdown && !dropdown.contains(event.target)) {
         dropdown.classList.remove('active');
     }
