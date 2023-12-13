@@ -60,7 +60,8 @@
 | **[Customize Syntax Check](customize_validation)** | Opens the Syntax Check page of the Customize dialog box. |
 | **[Customize Notifications](customize_notifications)** | Opens the Notifications page of the Customize dialog box. |
 | **[Customize Update](customize_update)** | Opens the Update page of the Customize dialog box. |
-| **[Customize Language](customize_lang)** | Opens the Language page of the Customize dialog box. |
+| **[Customize Help](customize_help)** | Opens the Update page of the Customize dialog box. |
+| **[Customize Language](customize_lang)** | Opens the Help page of the Customize dialog box. |
 | **[Associate with EmEditor](file_associate)** | Associates file extensions. |
 | **[Customize Toolbars](customize_toolbar)** | Customizes toolbar settings. |
 | **[Customize Menus](customize_menu)** | Customizes menus. |
@@ -111,6 +112,7 @@ customize_csv_options
 customize_edit
 customize_file
 customize_format
+customize_help
 customize_history
 customize_jump_list
 customize_lang
