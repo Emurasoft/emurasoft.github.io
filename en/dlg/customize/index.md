@@ -36,5 +36,6 @@ validation/index
 web/index
 notifications/index
 update/index
+help/index
 lang/index
 ```
