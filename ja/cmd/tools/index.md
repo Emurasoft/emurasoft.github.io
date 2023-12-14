@@ -38,6 +38,7 @@
 | [構文チェックのカスタマイズ](customize_validation) | \[カスタマイズ\] ダイアログ ボックスの \[構文チェック\] ページを開きます。 |
 | [通知のカスタマイズ](customize_notifications) | \[カスタマイズ\] ダイアログ ボックスの \[通知\] ページを開きます。 |
 | [更新のカスタマイズ](customize_update) | \[カスタマイズ\] ダイアログ ボックスの \[更新\] ページを開きます。 |
+| [ヘルプのカスタマイズ](customize_help) | \[カスタマイズ\] ダイアログ ボックスの \[ヘルプ\] ページを開きます。 |
 | [言語のカスタマイズ](customize_lang) | \[カスタマイズ\] ダイアログ ボックスの \[言語\] ページを開きます。 |
 | [関連付け](file_associate) | 指定するファイルの拡張子を開くように関連付けます。 |
 | [ツール バーの変更](customize_toolbar) | ツール バーの設定を行います。 |
@@ -111,6 +112,7 @@ customize_csv_options
 customize_edit
 customize_file
 customize_format
+customize_help
 customize_history
 customize_jump_list
 customize_lang
