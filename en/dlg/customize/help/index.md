@@ -2,11 +2,11 @@
 
 The **Help** page allows you to customize settings related to Help.
 
-## Online Help (The Internet connection is required.) radio button
+## Online Help (The Internet connection is required) radio button
 
 Displays Online Help.
 
-## Local Help (The Help file needs to be installed if not already.) radio button
+## Local Help (The Help file needs to be installed if not already) radio button
 
 Displays Local Help.
 

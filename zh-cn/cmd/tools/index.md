@@ -37,6 +37,7 @@
 | **[自定义语法检查](customize_validation)** | 打开自定义对话框中的语法检查页面。 |
 | **[自定义通知](customize_notifications)** | 打开自定义对话框中的通知页面。 |
 | **[自定义更新](customize_update)** | 打开自定义对话框中的更新页面。 |
+| **[自定义帮助](customize_help)** | 打开自定义对话框中的帮助页面。 |
 | **[自定义语言](customize_lang)** | 打开自定义对话框中的语言页面。 |
 | **[与 EmEditor 关联](file_associate)** | 关联文件扩展名。 |
 | **[自定义工具栏](customize_toolbar)** | 自定义工具栏设置。 |
@@ -111,6 +112,7 @@ customize_csv_options
 customize_edit
 customize_file
 customize_format
+customize_help
 customize_history
 customize_jump_list
 customize_lang

@@ -37,6 +37,7 @@
 | **[自訂語法檢查](customize_validation)** | 打開自訂對話方塊中的語法檢查頁面。 |
 | **[自訂通知](customize_notifications)** | 打開自訂對話方塊中的通知頁面。 |
 | **[自訂更新](customize_update)** | 打開自訂對話方塊中的更新頁面。 |
+| **[自訂説明](customize_help)** | 打開自訂對話方塊中的説明頁面。 |
 | **[自訂語言](customize_lang)** | 打開自訂對話方塊中的語言頁面。 |
 | **[與 EmEditor 關聯](file_associate)** | 關聯檔案副檔名。 |
 | **[自訂工具列](customize_toolbar)** | 自訂工具列設置。 |
@@ -111,6 +112,7 @@ customize_csv_options
 customize_edit
 customize_file
 customize_format
+customize_help
 customize_history
 customize_jump_list
 customize_lang
