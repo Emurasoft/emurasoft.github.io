@@ -27,13 +27,11 @@ EEID_DELETE_LINE (4190)```
 ### \[JavaScript\]
 
 ```
-document.selection.SelectLine();
-document.selection.Delete(1);
+editor.ExecuteCommandByID(4190);
 ```
 
 ### \[VBScript\]
 
 ```
-document.selection.SelectLine
-document.selection.Delete 1
+editor.ExecuteCommandByID 4190
 ```

@@ -27,13 +27,11 @@ EEID_EDIT_CUT_LINE (4193)```
 ### \[JavaScript\]
 
 ```
-document.selection.SelectLine()
-document.selection.Cut();
+editor.ExecuteCommandByID(4193);
 ```
 
 ### \[VBScript\]
 
 ```
-document.selection.SelectLine
-document.selection.Cut
+editor.ExecuteCommandByID 4193
 ```

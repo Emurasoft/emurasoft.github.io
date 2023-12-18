@@ -27,13 +27,11 @@ EEID_DELETE_RIGHT_LINE (4191)```
 ### \[JavaScript\]
 
 ```
-document.selection.EndOfLine(true,eeLineLogical);
-document.selection.Delete(1);
+editor.ExecuteCommandByID(4191);
 ```
 
 ### \[VBScript\]
 
 ```
-document.selection.EndOfLine true,eeLineLogical
-document.selection.Delete 1
+editor.ExecuteCommandByID 4191
 ```
