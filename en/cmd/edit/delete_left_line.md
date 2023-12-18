@@ -27,13 +27,11 @@ EEID_DELETE_LEFT_LINE (4302)```
 ### \[JavaScript\]
 
 ```
-document.selection.StartOfLine(true,eeLineLogical);
-document.selection.Delete(1);
+editor.ExecuteCommandByID(4302);
 ```
 
 ### \[VBScript\]
 
 ```
-document.selection.StartOfLine true,eeLineLogical
-document.selection.Delete 1
+editor.ExecuteCommandByID 4302
 ```

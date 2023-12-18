@@ -25,16 +25,14 @@ EEID_EDIT_COPY_LINE (4192)```
 
 ## マクロ
 
-### \[JavaScript\]
+## \[JavaScript\]
 
 ```
-document.selection.SelectLine();
-document.selection.Copy(eeCopyUnicode);
+editor.ExecuteCommandByID(4192);
 ```
 
-### \[VBScript\]
+## \[VBScript\]
 
 ```
-document.selection.SelectLine
-document.selection.Copy eeCopyUnicode
+editor.ExecuteCommandByID 4192
 ```
