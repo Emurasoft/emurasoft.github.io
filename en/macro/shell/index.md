@@ -5,6 +5,7 @@
 |     |     |
 | --- | --- |
 | **[ForegroundWindow](foreground_window)** | Retrieves the current foreground window. |
+| **[KeepRunning](KeepRunning)** | Retrieves or sets the flag to keep running the macro while using V8. |
 | **[windows](windows)** | Returns the top-level Windows collection. |
 
 ## Methods
@@ -37,6 +38,7 @@ file_exists
 find_window
 folder_exists
 foreground_window
+keep_running
 get_file_attributes
 run
 send_keys

@@ -5,6 +5,7 @@
 |     |     |
 | --- | --- |
 | [ForegroundWindow](foreground_window) | 現在のフォアグラウンド ウィンドウを取得します。 |
+| [KeepRunning](KeepRunning) | V8 を使用中、マクロを継続して実行するかどうかのフラグを取得または設定します。 |
 | [windows](windows) | トップ レベルの Windows コレクションを返します。 |
 
 ## メソッド
@@ -37,6 +38,7 @@ file_exists
 find_window
 folder_exists
 foreground_window
+keep_running
 get_file_attributes
 run
 send_keys
