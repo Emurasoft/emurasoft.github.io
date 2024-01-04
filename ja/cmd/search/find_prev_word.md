@@ -26,7 +26,7 @@ EEID_FIND_PREV_WORD (4205)```
 ### \[JavaScript\]
 
 ```
-document.selection.FindRepeat(eeFindRepeatPrevious \| eeFindRepeatWord);
+document.selection.FindRepeat(eeFindRepeatPrevious | eeFindRepeatWord);
 ```
 
 ### \[VBScript\]

@@ -129,7 +129,7 @@ CSV 文書の 1 列目をピボット テーブルの行に、2 列目をピボ�
 ### \[JavaScript\]
 
 ```
-document.PivotTable( 1, 2, 3, eePivotTypeSumInt \| eePivotTotalRows \| eePivotTotalColumns, "A+", eeSortBinaryComparison, "A+", eeSortBinaryComparison, "", "Grand Total", "Grand Total" );
+document.PivotTable( 1, 2, 3, eePivotTypeSumInt | eePivotTotalRows | eePivotTotalColumns, "A+", eeSortBinaryComparison, "A+", eeSortBinaryComparison, "", "Grand Total", "Grand Total" );
 ```
 
 ### \[VBScript\]

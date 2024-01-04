@@ -26,11 +26,11 @@ EEID_HOME_TEXT (4296)```
 ### \[JavaScript\]
 
 ```
-document.selection.StartOfLine(false,eeLineView \| eeLineHomeText);
+document.selection.StartOfLine(false,eeLineView | eeLineHomeText);
 ```
 
 ### \[VBScript\]
 
 ```
-document.selection.StartOfLine false,eeLineView \| eeLineHomeText
+document.selection.StartOfLine false,eeLineView Or eeLineHomeText
 ```

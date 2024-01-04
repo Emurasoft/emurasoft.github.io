@@ -49,9 +49,9 @@ menu.Add( "Button 1", 1, eeMenuChecked );
 menu.Add( "Button 2", 2 );
 result = menu.MsgBox( "Header", "Body", eeIconInformation );
 if( result != 0 ) alert( menu.GetText( result ) );
-result = menu.MsgBox( "Header", "Body", eeCommandLinks \| eeIconExclamation );
+result = menu.MsgBox( "Header", "Body", eeCommandLinks | eeIconExclamation );
 if( result != 0 ) alert( menu.GetText( result ) );
-result = menu.MsgBox( "Header", "Body", eeRadioButtons \| eeIconStop \| eeHideStopMacro );
+result = menu.MsgBox( "Header", "Body", eeRadioButtons | eeIconStop | eeHideStopMacro );
 if( result != 0 ) alert( menu.GetText( result ) );
 ```
 
