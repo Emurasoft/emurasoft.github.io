@@ -44,8 +44,8 @@ The return value is not used.
 ### \[JavaScript\]
 
 ```
-editor.ExecuteMacro( "E:\\\Macros\\\Macro.jsee", eeRunFile \| eeMacroLangJScript );
-editor.ExecuteMacro( "alert('Hello')", eeRunText \| eeMacroLangJScript );
+editor.ExecuteMacro( "E:\\\Macros\\\Macro.jsee", eeRunFile | eeMacroLangJScript );
+editor.ExecuteMacro( "alert('Hello')", eeRunText | eeMacroLangJScript );
 ```
 
 ### \[VBScript\]

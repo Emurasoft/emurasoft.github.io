@@ -82,7 +82,7 @@ The return value can be a combination of the following values if the method succ
 ### \[JavaScript\]
 
 ```
-nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries \| eeFillDontOverwrite );
+nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries | eeFillDontOverwrite );
 if( nResults >= 0 ) {
 alert( "Success" );
 }
@@ -91,7 +91,7 @@ alert( "Success" );
 ### \[VBScript\]
 
 ```
-nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries \| eeFillDontOverwrite );
+nResults = document.AutoFill( 1, 1, 2, 3, 1, 1, 5, 3, eeFillSeries Or eeFillDontOverwrite );
 If nResults >= 0 Then
 alert "Success"
 End If

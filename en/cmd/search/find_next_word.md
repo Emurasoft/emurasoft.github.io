@@ -28,7 +28,7 @@ EEID_FIND_NEXT_WORD (4204)```
 ### \[JavaScript\]
 
 ```
-document.selection.FindRepeat(eeFindRepeatNext \| eeFindRepeatWord);
+document.selection.FindRepeat(eeFindRepeatNext | eeFindRepeatWord);
 ```
 
 ### \[VBScript\]

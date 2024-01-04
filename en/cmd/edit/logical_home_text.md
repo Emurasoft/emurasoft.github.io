@@ -31,7 +31,7 @@ EEID_LOGICAL_HOME_TEXT (4333)```
 ### \[JavaScript\]
 
 ```
-document.selection.StartOfLine(false,eeLineLogical \| eeLineHomeText);
+document.selection.StartOfLine(false,eeLineLogical | eeLineHomeText);
 ```
 
 ### \[VBScript\]
