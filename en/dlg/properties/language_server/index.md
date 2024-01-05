@@ -28,11 +28,11 @@ Resets to default settings. The [**Reset** dialog box](../reset/index) will be d
 
 ### C/C++
 
-Install [clangd](https://clangd.llvm.org/installation) and follow the [project setup](https://clangd.llvm.org/installation#project-setup) instructions to generate the `compile_commands.json` file. Test the installation by opening Command Prompt and calling `clangd`. clangd only supports CMake and Bazel-based projects.
+Install [clangd](https://clangd.llvm.org/installation) and follow the [project setup](https://clangd.llvm.org/installation#project-setup) instructions to generate the `compile_commands.json` file. Test the installation by opening Command Prompt and calling `clangd --version`. clangd only supports CMake and Bazel-based projects.
 
 ### Python
 
-Use pip to install [Python LSP Server](https://github.com/python-lsp/python-lsp-server). Test the installation with `python -m pylsp` in Command Prompt.
+Use pip to install [Python LSP Server](https://github.com/python-lsp/python-lsp-server). Test the installation with `python -m pylsp --help` in Command Prompt.
 
 ### HTML, CSS, JavaScript, JSON, and Perl
 
