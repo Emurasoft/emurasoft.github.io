@@ -38,6 +38,7 @@ file_exists
 find_window
 folder_exists
 foreground_window
+keep_running
 get_file_attributes
 run
 send_keys
