@@ -5,7 +5,7 @@
 |     |     |
 | --- | --- |
 | **[ForegroundWindow](foreground_window)** | 檢索當前置前視窗。 |
-| **[KeepRunning](KeepRunning)** | 檢索或設定標志以在使用 V8 時繼續運行巨集。 |
+| **[KeepRunning](keep_running)** | 檢索或設定標志以在使用 V8 時繼續運行巨集。 |
 | **[windows](windows)** | 返回頂層視窗集合。 |
 
 ## 方法

@@ -28,11 +28,11 @@
 
 ### C/C++
 
-安装 [clangd](https://clangd.llvm.org/installation)。通过打开命令提示符并调用 `clangd` 来测试安装。 它支持基于 CMake 和 Bazel 的项目。您需要按照上述页面上的项目设置步骤来生成 `compile_commands.json` 文件。
+安装 [clangd](https://clangd.llvm.org/installation)。通过打开命令提示符并调用 `clangd --version` 来测试安装。 它支持基于 CMake 和 Bazel 的项目。您需要按照上述页面上的项目设置步骤来生成 `compile_commands.json` 文件。
 
 ### Python
 
-用 pip 安装 [Python LSP Server](https://github.com/python-lsp/python-lsp-server)。在命令提示符中使用 `python -m pylsp` 测试安装。
+用 pip 安装 [Python LSP Server](https://github.com/python-lsp/python-lsp-server)。在命令提示符中使用 `python -m pylsp --help` 测试安装。
 
 ### HTML，CSS，JavaScript，JSON 和 Perl
 
