@@ -26,7 +26,7 @@ EEID_ZEN_TO_HAN (4151)```
 ### \[JavaScript\]
 
 ```
-document.selection.ChangeWidth(eeWidthHalfWidth \| eeWidthAllTypes);
+document.selection.ChangeWidth(eeWidthHalfWidth | eeWidthAllTypes);
 ```
 
 ### \[VBScript\]

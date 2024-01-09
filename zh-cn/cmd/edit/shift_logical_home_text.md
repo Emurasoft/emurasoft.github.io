@@ -27,11 +27,11 @@ EEID_SHIFT_LOGICAL_HOME_TEXT (4334)```
 ### \[JavaScript\]
 
 ```
-document.selection.StartOfLine(true,eeLineLogical \| eeLineHomeText);
+document.selection.StartOfLine(true,eeLineLogical | eeLineHomeText);
 ```
 
 ### \[VBScript\]
 
 ```
-document.selection.StartOfLine true,eeLineLogical \| eeLineHomeText
+document.selection.StartOfLine true,eeLineLogical Or eeLineHomeText
 ```

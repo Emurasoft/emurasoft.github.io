@@ -39,6 +39,22 @@ _nFlags_
 
 不使用返回值。
 
+## 示例
+
+### \[JavaScript\]
+
+```
+editor.ExecuteMacro( "E:\\\Macros\\\Macro.jsee", eeRunFile | eeMacroLangJScript );
+editor.ExecuteMacro( "alert('Hello')", eeRunText | eeMacroLangJScript );
+```
+
+### \[VBScript\]
+
+```
+editor.ExecuteMacro "E:\\Macros\\Macro.jsee", eeRunFile Or eeMacroLangJScript
+editor.ExecuteMacro "alert('Hello')", eeRunText Or eeMacroLangJScript
+```
+
 ## 版本
 
 支持 EmEditor 17.0 或之後的版本。

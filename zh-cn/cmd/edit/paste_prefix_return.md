@@ -29,7 +29,7 @@ EEID_PASTE_PREFIX_RETURN (4134)```
 ### \[JavaScript\]
 
 ```
-document.selection.Paste(eeCopyQuotes \| eeCopyNL);
+document.selection.Paste(eeCopyQuotes | eeCopyNL);
 ```
 
 ### \[VBScript\]

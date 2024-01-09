@@ -27,7 +27,7 @@ EEID_SHIFT_HOME_TEXT (4297)```
 ### \[JavaScript\]
 
 ```
-document.selection.StartOfLine(true,eeLineView \| eeLineHomeText);
+document.selection.StartOfLine(true,eeLineView | eeLineHomeText);
 ```
 
 ### \[VBScript\]

@@ -129,7 +129,7 @@ _nDecimalPlaces_
 ### \[JavaScript\]
 
 ```
-document.PivotTable( 1, 2, 3, eePivotTypeSumInt \| eePivotTotalRows \| eePivotTotalColumns, "A+", eeSortBinaryComparison, "A+", eeSortBinaryComparison, "", "Grand Total", "Grand Total" );
+document.PivotTable( 1, 2, 3, eePivotTypeSumInt | eePivotTotalRows | eePivotTotalColumns, "A+", eeSortBinaryComparison, "A+", eeSortBinaryComparison, "", "Grand Total", "Grand Total" );
 ```
 
 ### \[VBScript\]

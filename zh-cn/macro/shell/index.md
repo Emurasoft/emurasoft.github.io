@@ -5,6 +5,7 @@
 |     |     |
 | --- | --- |
 | **[ForegroundWindow](foreground_window)** | 检索当前置前窗口。 |
+| **[KeepRunning](KeepRunning)** | 检索或设置标志以在使用 V8 时继续运行宏。 |
 | **[windows](windows)** | 返回顶层窗口集合。 |
 
 ## 方法
