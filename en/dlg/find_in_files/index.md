@@ -191,7 +191,13 @@ The following dialog box is also available through this dialog box.
 
 ## Add to Batch button
 
-Adds the current settings to the batch list.
+Adds the current settings to the batch list. Click the ▼ button to show the menu.
+
+## ▼ button
+
+|     |     |
+| --- | --- |
+| **Add a Linked File...** | Select a file that contains multiple find strings separated by newlines. This is similar to **Import**, but a linked file only contains find strings, and it uses less memory as small sections of the file are loaded at a time. |
 
 ## Batch >> button
 
