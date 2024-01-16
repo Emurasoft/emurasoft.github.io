@@ -43,10 +43,8 @@ myst_enable_extensions = [
     'attrs_inline',
     'html_image',
     'linkify',
-    'replacements',
     'strikethrough',
     'substitution',
-    'tasklist',
 ]
 
 match get_project(multiproject_projects):
