@@ -20,6 +20,10 @@ Specifies the language server to use. The HTML, CSS, JavaScript, and Perl server
 
 Shows hover tooltips.
 
+### Show completion list check box
+
+Shows completion list.
+
 ### Reset button
 
 Resets to default settings. The [**Reset** dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
