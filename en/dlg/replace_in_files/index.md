@@ -199,7 +199,13 @@ Click this button to display the [**Advanced** dialog box](../advanced/index) to
 
 ## Add to Batch button
 
-Adds the current settings to the batch list.
+Adds the current settings to the batch list. Click the ▼ button to show the menu.
+
+## ▼ button
+
+|     |     |
+| --- | --- |
+| **Add a Linked File...** | Select a TSV file that contains multiple find and replace strings separated by newlines. This is similar to **Import**, but a linked file only contains find and replace strings. A linked file also uses less memory, because the file is shown as one entry in the Replace list box. Each line of a linked file contains the find string, a tab, and the replace string. |
 
 ## Batch >> button
 
