@@ -197,7 +197,7 @@ Adds the current settings to the batch list. Click the ▼ button to show the me
 
 |     |     |
 | --- | --- |
-| **Add a Linked File...** | Select a file that contains multiple find strings separated by newlines. This is similar to **Import**, but a linked file only contains find strings, and it uses less memory as small sections of the file are loaded at a time. |
+| **Add a Linked File...** | Select a file that contains multiple find strings separated by newlines. This is similar to **Import**, but a linked file only contains find strings. A linked file also uses less memory, because the file is shown as one entry in the Find list box. |
 
 ## Batch >> button
 
