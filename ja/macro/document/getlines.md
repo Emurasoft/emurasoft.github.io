@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-str = document.GetLines( [ nFlags ] );
+nLines = document.GetLines( [ nFlags ] );
 ```
 
 ### \[VBScript\]
 
 ```
-str = document.GetLines( [ nFlags] )
+nLines = document.GetLines( [ nFlags] )
 ```
 
 ## パラメータ
