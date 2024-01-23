@@ -52,27 +52,27 @@ _nFlags_
 ```
 nResults = document.ValidateCsv( eeValidateQuiet );
 if( nResults != 0 ) {
-if( nResults & eeCsvAbort ) {
-alert( "操作はユーザーにより中止されました。" );
-}
-if( nResults & eeCsvAdjusted ) {
-alert( "区切り位置は調節されました。" );
-}
-if( nResults & eeCsvInconsistentColumns ) {
-alert( "一致しない列数を検出しました。" );
-}
-if( nResults & eeCsvInvalidQuotes ) {
-alert( "不正な2重引用符を検出しました。" );
-}
-if( nResults & eeCsvNLEmbedded ) {
-alert( "改行コードがセルに埋め込まれました。" );
-}
-if( nResults & eeCsvNotCsv ) {
-alert( "CSVモードが選択されていません。" );
-}
+    if( nResults & eeCsvAbort ) {
+        alert( "The operation was aborted by the user." );
+    }
+    if( nResults & eeCsvAdjusted ) {
+        alert( "Separator positions were adjusted." );
+    }
+    if( nResults & eeCsvInconsistentColumns ) {
+        alert( "The inconsistent number of columns was detected." );
+    }
+    if( nResults & eeCsvInvalidQuotes ) {
+        alert( "An invalid quotation mark was detected." );
+    }
+    if( nResults & eeCsvNLEmbedded ) {
+        alert( "A newline code was embedded into a cell." );
+    }
+    if( nResults & eeCsvNotCsv ) {
+        alert( "A CSV mode was not selected." );
+    }
 }
 else {
-alert( "エラーが見つかりませんでした。" );
+    alert( "There were no errors" );
 }
 ```
 

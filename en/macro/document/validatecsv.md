@@ -52,28 +52,27 @@ Return values are combination of following values. The return value of 0 means t
 ```
 nResults = document.ValidateCsv( eeValidateQuiet );
 if( nResults != 0 ) {
-if( nResults & eeCsvAbort ) {
-alert( "The operation was aborted by the user." );
-}
-if( nResults & eeCsvAdjusted ) {
-alert( "Separator
-positions were adjusted." );
-}
-if( nResults & eeCsvInconsistentColumns ) {
-alert( "The inconsistent number of columns was detected." );
-}
-if( nResults & eeCsvInvalidQuotes ) {
-alert( "An invalid quotation mark was detected." );
-}
-if( nResults & eeCsvNLEmbedded ) {
-alert( "A newline code was embedded into a cell." );
-}
-if( nResults & eeCsvNotCsv ) {
-alert( "A CSV mode was not selected." );
-}
+    if( nResults & eeCsvAbort ) {
+        alert( "The operation was aborted by the user." );
+    }
+    if( nResults & eeCsvAdjusted ) {
+        alert( "Separator positions were adjusted." );
+    }
+    if( nResults & eeCsvInconsistentColumns ) {
+        alert( "The inconsistent number of columns was detected." );
+    }
+    if( nResults & eeCsvInvalidQuotes ) {
+        alert( "An invalid quotation mark was detected." );
+    }
+    if( nResults & eeCsvNLEmbedded ) {
+        alert( "A newline code was embedded into a cell." );
+    }
+    if( nResults & eeCsvNotCsv ) {
+        alert( "A CSV mode was not selected." );
+    }
 }
 else {
-alert( "There were no errors" );
+    alert( "There were no errors" );
 }
 ```
 
