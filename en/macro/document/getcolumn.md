@@ -52,7 +52,7 @@ The following example retrieves the first column, and insert a new column with t
 ### \[JavaScript\]
 
 ```
-s1 = document.GetColumn( 1, "\\n", eeCellIncludeNone );
+s1 = document.GetColumn( 1, "\n", eeCellIncludeNone );
 sLines = s1.split("\\n");
 s2 = "";
 nTotal = sLines.length;
