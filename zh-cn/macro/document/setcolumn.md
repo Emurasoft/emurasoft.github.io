@@ -59,11 +59,14 @@ document.InsertColumn( 3 );
 nLines = document.GetLines() - 1;
 s3 = "";
 for( y = 1; y <= nLines; y++ ) {
-s1 = document.GetCell( y, 1, eeCellIncludeNone );
-s2 = document.GetCell( y, 2, eeCellIncludeNone );
-s3 += s1 + " " + s2 + "\\n";
+	if( y != 1 ) {
+		s3 += "\n";
+	}
+	s1 = document.GetCell( y, 1, eeCellIncludeNone );
+	s2 = document.GetCell( y, 2, eeCellIncludeNone );
+	s3 += s1 + " " + s2;
 }
-document.SetColumn( 3, s3, "\\n", eeAutoQuote );
+document.SetColumn( 3, s3, "\n", eeAutoQuote );
 ```
 
 ### \[VBScript\]
@@ -73,9 +76,10 @@ document.InsertColumn 3
 nLines = document.GetLines() - 1
 s3 = ""
 For y = 1 To nLines
-s1 = document.GetCell( y, 1, eeCellIncludeNone )
-s2 = document.GetCell( y, 2, eeCellIncludeNone )
-s3 = s3 + s1 + " " + s2 + Chr(10)
+	If y <> 1 Then s3 = s3 + Chr(10)
+	s1 = document.GetCell( y, 1, eeCellIncludeNone )
+	s2 = document.GetCell( y, 2, eeCellIncludeNone )
+	s3 = s3 + s1 + " " + s2
 Next
 document.SetColumn 3, s3, Chr(10), eeAutoQuote
 ```
