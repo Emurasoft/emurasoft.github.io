@@ -7,7 +7,7 @@
 | **[Rescan](compare_rescan)** | Rescans the compared documents and refresh the results. |
 | **[Synchronize Scrolling](sync_scroll_direct)** | Synchronizes scrolling of two recently viewed documents without specifying options. |
 | **[Synchronize Scrolling with Options](sync_scroll_options)** | Starts Synchronize Scrolling Wizard to scroll two recently viewed documents synchronously. |
-| [Split View](split_view_direct) | Displays two most recently viewed documents in a split window. |
+| **[Split View](split_view_direct)** | Displays two most recently viewed documents in a split window. |
 | **[Reset to Normal Mode](compare_reset)** | Resets comparison or synchronized scrolling mode and clears comparison results. |
 | **[Ignore Leading Spaces](ignore_lead_space)** | Ignores leading spaces at each line when comparing documents. |
 | **[Ignore Trailing Spaces](ignore_trail_space)** | Ignores trailing spaces at each line when comparing documents. |
