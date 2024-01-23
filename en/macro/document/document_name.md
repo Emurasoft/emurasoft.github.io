@@ -7,13 +7,15 @@ Retrieves the file name of the document without its path, or renames the file na
 ### \[JavaScript\]
 
 ```
-strName = document.Name;document.Name = strName;
+strName = document.Name;
+document.Name = strName;
 ```
 
 ### \[VBScript\]
 
 ```
-strName = document.Name document.Name = strName
+strName = document.Name 
+document.Name = strName
 ```
 
 ## Examples

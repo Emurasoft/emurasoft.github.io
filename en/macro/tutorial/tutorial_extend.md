@@ -9,7 +9,7 @@ To change Selection Range, add the sixth line to our tutorial macro:
 ```
 document.selection.Text = "EmEditor supports macros.";
 document.selection.NewLine();
-document.selection.Text = "\\tEmEditor is a text editor.";
+document.selection.Text = "\tEmEditor is a text editor.";
 document.selection.CharLeft( false, 12 );
 document.selection.DeleteLeft( 15 );
 document.selection.CharRight( true, 9 );

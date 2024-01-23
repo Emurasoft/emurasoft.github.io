@@ -7,13 +7,15 @@
 ### \[JavaScript\]
 
 ```
-strName = document.Name;document.Name = strName;
+strName = document.Name;
+document.Name = strName;
 ```
 
 ### \[VBScript\]
 
 ```
-strName = document.Name document.Name = strName
+strName = document.Name 
+document.Name = strName
 ```
 
 ## 例

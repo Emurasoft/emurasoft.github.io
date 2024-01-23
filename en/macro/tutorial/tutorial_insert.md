@@ -10,7 +10,7 @@ Modify our tutorial file as follows:
 ```
 document.selection.Text = "EmEditor supports macros.";
 document.selection.NewLine();
-document.selection.Text = "\\tEmEditor is a text editor.";
+document.selection.Text = "\tEmEditor is a text editor.";
 ```
 
 ### \[VBScript\]

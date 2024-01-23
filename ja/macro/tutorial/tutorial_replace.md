@@ -7,13 +7,12 @@
 ```
 document.selection.Text = "EmEditor supports macros.";
 document.selection.NewLine();
-document.selection.Text = "\\tEmEditor is a text editor.";
+document.selection.Text = "\tEmEditor is a text editor.";
 document.selection.CharLeft( false, 12 );
 document.selection.DeleteLeft( 15 );
 document.selection.CharRight( true, 9 );
 document.selection.ChangeCase( eeCaseUpperCase );
-if( document.selection.Find( "Em", eeFindPrevious ) )  alert( "見つかりました！"
-);
+if( document.selection.Find( "Em", eeFindPrevious ) )  alert( "見つかりました！");
 n = document.selection.Replace( "editor", "######", eeReplaceAll );
 alert( n + " 個の文字列が見つかりました！" );
 ```
