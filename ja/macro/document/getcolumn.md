@@ -52,17 +52,17 @@ _yLines_
 ### \[JavaScript\]
 
 ```
-s1 = document.GetColumn( 1, "\\n", eeCellIncludeNone );
-sLines = s1.split("\\n");
+s1 = document.GetColumn( 1, "\n", eeCellIncludeNone );
+sLines = s1.split("\n");
 s2 = "";
 nTotal = sLines.length;
 for( y = 0; y < nTotal; y++ ) {
 count = sLines[y].length;
-s2 += count + "\\n";
+s2 += count + "\n";
 }
 x = s2.length;
 if( x > 0 ) s2 = s2.substr( 0, x - 1 );
-document.InsertColumn( 2, s2, "\\n", eeDontQuote );
+document.InsertColumn( 2, s2, "\n", eeDontQuote );
 ```
 
 ### \[VBScript\]

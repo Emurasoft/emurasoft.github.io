@@ -7,7 +7,8 @@
 ### \[JavaScript\]
 
 ```
-strTitle = document.Title;document.Title = strTitle;
+strTitle = document.Title;
+document.Title = strTitle;
 ```
 
 ### \[VBScript\]
@@ -21,7 +22,7 @@ strTitle = document.Title document.Title = strTitle
 ### \[JavaScript\]
 
 ```
-document.Title = "This is a long title.\\nShort title";
+document.Title = "This is a long title.\nShort title";
 ```
 
 ### \[VBScript\]
