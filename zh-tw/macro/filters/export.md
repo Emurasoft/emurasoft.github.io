@@ -29,7 +29,7 @@ _strFileName_
 ```
 var filters = document.filters;
 if( filters.Count > 0 ) {
-filters.Export( "E:\\\Test\\\filter.tsv" );
+filters.Export( "E:\\Test\\filter.tsv" );
 }
 ```
 

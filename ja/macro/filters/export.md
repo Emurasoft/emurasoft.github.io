@@ -29,7 +29,7 @@ TSV ファイルの完全パスを含むファイル名を指定します。
 ```
 var filters = document.filters;
 if( filters.Count > 0 ) {
-filters.Export( "E:\\\Test\\\filter.tsv" );
+filters.Export( "E:\\Test\\filter.tsv" );
 }
 ```
 

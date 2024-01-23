@@ -29,7 +29,7 @@ Specifies the file name including the full path of the TSV file.
 ```
 var filters = document.filters;
 if( filters.Count > 0 ) {
-filters.Export( "E:\\\Test\\\filter.tsv" );
+filters.Export( "E:\\Test\\filter.tsv" );
 }
 ```
 

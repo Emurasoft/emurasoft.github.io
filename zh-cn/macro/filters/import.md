@@ -32,7 +32,7 @@ _bAppend_
 
 ```
 var filters = document.filters;
-filters.Import( "E:\\\Test\\\filter.tsv" );
+filters.Import( "E:\\Test\\filter.tsv" );
 document.filters = filters;
 ```
 

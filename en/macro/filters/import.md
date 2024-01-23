@@ -32,7 +32,7 @@ Specifies whether the method imports a file and appends the filters to the exist
 
 ```
 var filters = document.filters;
-filters.Import( "E:\\\Test\\\filter.tsv" );
+filters.Import( "E:\\Test\\filter.tsv" );
 document.filters = filters;
 ```
 
