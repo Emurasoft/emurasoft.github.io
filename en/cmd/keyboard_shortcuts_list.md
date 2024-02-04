@@ -22,7 +22,7 @@ Move Line Up|Ctrl+Shift+Up|Moves the selected lines or the current line up one l
 
 ### Multiple Selections
 
-||
+| | | |
 --|--|--
 Vertical selection | Alt+E,E |
 Line Up Extend (Vertical Mode)|Alt+Ctrl+Up|Extends the vertical selection up one line.
@@ -32,7 +32,7 @@ Deselect Top Selection from Multiple Selections|Alt+Ctrl+Shift+Down|Deselects th
 
 ### Selection by Keyboard
 
-||
+| | | |
 --|--|--
 Select Character|F8|Toggles character selection mode.<br>You can use arrow keys to extend a vertical selection. You can press Ctrl+G to extend the selection to a specific line.
 Select Line|Ctrl+F8|Toggles line selection mode.
@@ -40,14 +40,14 @@ Select Vertically|Ctrl+Shift+F8|Toggles vertical selection mode.
 
 ### Delete
 
-||
+| | | |
 --|--|--
 Delete Right Word|Ctrl+Delete|Deletes the word to the right of the current cursor position.
 Delete Left Word|Ctrl+Backspace|Deletes the word to the left of the cursor.
 
 ### Search
 
-||
+| | | |
 --|--|--
 Find|Ctrl+F|Finds a string.
 Replace|Ctrl+H|Replaces a string.
@@ -61,7 +61,7 @@ Erase Find Highlight|Alt+F3|Erases highlights from search terms.
 
 ### Insert
 
-||
+| | | |
 --|--|--
 Show Clipboard History|Ctrl+Shift+V, Ctrl+Shift+Insert|Shows the Clipboard history.
 Date and Time|Shift+F5|Inserts date and time.
@@ -70,7 +70,7 @@ Insert Special Character|Ctrl+Shift+I|Inserts a special character.
 
 ### Programming languages
 
-||
+| | | |
 --|--|--
 Comment|Ctrl+K,C|Comments out the selection or current line.
 Uncomment|Ctrl+K,U|Removes comment marks in the selection or current line.
@@ -83,7 +83,7 @@ Parameter Info (macro)|Ctrl+Shift+Space|
 
 ### Others
 
-||
+| | | |
 --|--|--
 Quick Launch|Ctrl+Q|Quickly launches a specified command.
 Character Code Value|Ctrl+I|Displays the Unicode character value.
@@ -91,7 +91,7 @@ Toggle Bookmark|Ctrl+F2|Toggles a bookmark on the current line.
 
 ### CSV cell selection mode
 
-||
+| | | |
 --|--|--
 Edit Cell|F2|Edits the current cell in the CSV document.
 Right Edge|Ctrl+Right|Moves to the right edge of the current data region.
