@@ -1,4 +1,4 @@
-# Keyboard Shortcuts
+# Keyboard Shortcuts List
 
 This page lists the default keyboard shortcuts in EmEditor. You can change a keyboard shortcut in the [**Keyboard**](../dlg/properties/keyboard/index) page in **Configuration Properties**.
 
