@@ -18,4 +18,5 @@ plugins/index
 external_tools/index
 window/index
 help/index
+keyboard_shortcuts_list
 ```
