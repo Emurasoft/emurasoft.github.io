@@ -1,6 +1,6 @@
 # Common Keyboard Shortcuts
 
-This page lists keyboard shortcuts that you may find to be useful. There is also a list of [All Keyboard Shortcuts](All Keyboard Shortcuts).
+This page lists keyboard shortcuts and resources that you may find to be useful. There is also a list of [All Keyboard Shortcuts](all_keyboard_shortcuts).
 
 ## Cursor Movements
 Command | Shortcut key
@@ -12,11 +12,13 @@ Word Left|Ctrl+🠈
 Find Matching Tag|Ctrl+.
 Find Matching Parenthesis/Bracket|Ctrl+]
 Matching Parenthesis/Bracket Extend|Ctrl+Shift+]
-Jump|Ctrl+G
+[Jump](https://www.emeditor.com/text-editor-features/more-features/jump/)|Ctrl+G
 Move Line Down|Ctrl+Shift+🠋
 Move Line Up|Ctrl+Shift+🠉
 
 ## Multiple Selections
+
+- [Multiple Selection Editing](https://www.emeditor.com/text-editor-features/coding/multiple-selection-editing/)
 
 | | |
 --|--
@@ -25,11 +27,6 @@ Line Up Extend (Vertical Mode)|Alt+Ctrl+🠉
 Line Down Extend (Vertical Mode)|Alt+Ctrl+🠋
 Deselect Bottom Selection from Multiple Selections|Alt+Ctrl+Shift+🠉
 Deselect Top Selection from Multiple Selections|Alt+Ctrl+Shift+🠋
-
-## Selection by Keyboard
-
-| | |
---|--
 Select Character|F8
 Select Line|Ctrl+F8
 Select Vertically|Ctrl+Shift+F8
@@ -42,6 +39,8 @@ Delete Right Word|Ctrl+Delete
 Delete Left Word|Ctrl+Backspace
 
 ## Search
+
+- [Find and Replace](https://www.emeditor.com/text-editor-features/coding/find-replace/)
 
 | | |
 --|--
@@ -59,9 +58,9 @@ Erase Find Highlight|Alt+F3
 
 | | |
 --|--
-Show Clipboard History|Ctrl+Shift+V, Ctrl+Shift+Insert
+[Show Clipboard History](https://www.emeditor.com/text-editor-features/coding/clipboard-history/)|Ctrl+Shift+V, Ctrl+Shift+Insert
 Date and Time|Shift+F5
-Numbering|Alt+N
+[Numbering](https://www.emeditor.com/text-editor-features/powerful-csv-tools/numbering/)|Alt+N
 Insert Special Character|Ctrl+Shift+I
 
 ## Programming languages
@@ -81,9 +80,9 @@ Parameter Info (macro)|Ctrl+Shift+Space
 
 | | |
 --|--
-Quick Launch|Ctrl+Q
-Character Code Value|Ctrl+I
-Toggle Bookmark|Ctrl+F2
+[Quick Launch](https://www.emeditor.com/text-editor-features/user-experience/quick-launch/)|Ctrl+Q
+[Character Code Value](https://www.emeditor.com/text-editor-features/more-features/character-code-value/)|Ctrl+I
+[Toggle Bookmark](https://www.emeditor.com/text-editor-features/more-features/bookmarks/)|Ctrl+F2
 
 ## CSV cell selection mode
 
