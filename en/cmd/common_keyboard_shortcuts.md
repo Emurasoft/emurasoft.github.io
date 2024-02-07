@@ -7,24 +7,24 @@ Command | Shortcut key
 --|--
 Top|Ctrl+Home
 Bottom|Ctrl+End
-Word Right|Ctrl+→
-Word Left|Ctrl+←
+Word Right|Ctrl+⇒
+Word Left|Ctrl+⇐
 Find Matching Tag|Ctrl+.
 Find Matching Parenthesis/Bracket|Ctrl+]
 Matching Parenthesis/Bracket Extend|Ctrl+Shift+]
 Jump|Ctrl+G
-Move Line Down|Ctrl+Shift+↓
-Move Line Up|Ctrl+Shift+↑
+Move Line Down|Ctrl+Shift+⇓
+Move Line Up|Ctrl+Shift+⇑
 
 ## Multiple Selections
 
 | | |
 --|--
 Vertical selection | Alt+E,E 
-Line Up Extend (Vertical Mode)|Alt+Ctrl+↑
-Line Down Extend (Vertical Mode)|Alt+Ctrl+↓
-Deselect Bottom Selection from Multiple Selections|Alt+Ctrl+Shift+↑
-Deselect Top Selection from Multiple Selections|Alt+Ctrl+Shift+↓
+Line Up Extend (Vertical Mode)|Alt+Ctrl+⇑
+Line Down Extend (Vertical Mode)|Alt+Ctrl+⇓
+Deselect Bottom Selection from Multiple Selections|Alt+Ctrl+Shift+⇑
+Deselect Top Selection from Multiple Selections|Alt+Ctrl+Shift+⇓
 
 ## Selection by Keyboard
 
@@ -90,7 +90,7 @@ Toggle Bookmark|Ctrl+F2
 | | |
 --|--
 Edit Cell|F2
-Right Edge|Ctrl+→
-Left Edge|Ctrl+←
-Top Edge|Ctrl+↑
-Bottom Edge|Ctrl+↓
+Right Edge|Ctrl+⇒
+Left Edge|Ctrl+⇐
+Top Edge|Ctrl+⇑
+Bottom Edge|Ctrl+⇓
