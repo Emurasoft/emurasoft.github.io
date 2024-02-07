@@ -1,10 +1,10 @@
 # All Keyboard Shortcuts
 
-This page lists the default keyboard shortcuts in EmEditor. You can change a keyboard shortcut in the [**Keyboard**](../dlg/properties/keyboard/index) page in **Configuration Properties**.
+This page lists the default keyboard shortcuts in EmEditor. You can also list these commands within EmEditor with Help > Search Commands... (Ctrl+Shift+C). You can change a keyboard shortcut in the [**Keyboard**](../dlg/properties/keyboard/index) page in **Configuration Properties**.
 
 Command | Shortcut key | Description
 --|--|--
-[Add Next Occurrence](../cmd/search/add_next_occurrence)|Ctrl+R|Adds the next occurrence of the specified text to the selection.
+Add Next Occurrence|Ctrl+R|Adds the next occurrence of the specified text to the selection.
 Back|Alt+Left|Moves the cursor to the previous position.
 Bottom|Ctrl+End|Moves the cursor to the bottom of the document.
 Bottom Edge (Cell Selection Mode Only)|Ctrl+Down|Moves to the bottom edge of the current data region.
