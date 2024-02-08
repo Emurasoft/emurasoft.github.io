@@ -69,7 +69,7 @@ Insert Special Character|Ctrl+Shift+I
 --|--
 Comment|Ctrl+K,C
 Uncomment|Ctrl+K,U
-Format Document|Ctrl+K,D
+[Format Document](https://www.emeditor.com/text-editor-features/coding/format-selection/)|Ctrl+K,D
 Format Selection|Ctrl+K,F
 Wrap in HTML/XML tags  (macro)|Ctrl+Shift+,
 Go to Definition (macro)|F12
