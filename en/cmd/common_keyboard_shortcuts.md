@@ -80,6 +80,7 @@ Parameter Info (macro)|Ctrl+Shift+Space
 
 | | |
 --|--
+Start Window|Press 🠋 on a new document
 [Quick Launch](https://www.emeditor.com/text-editor-features/user-experience/quick-launch/)|Ctrl+Q
 [Character Code Value](https://www.emeditor.com/text-editor-features/more-features/character-code-value/)|Ctrl+I
 [Toggle Bookmark](https://www.emeditor.com/text-editor-features/more-features/bookmarks/)|Ctrl+F2
