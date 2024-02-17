@@ -8,6 +8,8 @@ Downgrades the product to EmEditor Free.
 
 Downgrades the product to EmEditor Free from EmEditor Professional. User will be prompted to confirm before the downgrade occurs.
 
+The current device will also be unregistered.
+
 ## How to Run
 
 - Default Menu: **Help** >
@@ -21,7 +23,8 @@ Downgrades the product to EmEditor Free from EmEditor Professional. User will be
 ## Plug-in Command ID
 
 ```
-EEID_HELP_DOWNGRADE (3844)```
+EEID_HELP_DOWNGRADE (3844)
+```
 
 ## Macros
 
