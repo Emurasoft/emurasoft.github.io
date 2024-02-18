@@ -1,8 +1,8 @@
-# All Keyboard Shortcuts
+# すべてのキーボード ショートカット
 
-This page lists the default keyboard shortcuts in EmEditor. You can also list these commands within EmEditor with Help > Search Commands... (Ctrl+Shift+C). You can change a keyboard shortcut in the [**Keyboard**](../dlg/properties/keyboard/index) page in **Configuration Properties**.
+このページでは、EmEditor の既定のキーボード ショートカットを一覧表示します。EmEditor 内でこれらのコマンドを一覧表示するには、[ヘルプ] メニューの [コマンドを検索] (Ctrl+Shift+C) を使用します。キーボード ショートカットは、設定プロパティの [キーボード](../dlg/properties/keyboard/index) ページで変更できます。
 
-Category | Command | Shortcut key | Description
+分類 | コマンド | ショートカット キー | 説明
 --|--|--|--
 CSV|セル編集 (セル選択モードのみ)|F2|CSV文書の現在のセルを編集します。
 CSV|上端へ (セル選択モードのみ)|Ctrl+Up|現在のデータ領域の上端へ移動します。
