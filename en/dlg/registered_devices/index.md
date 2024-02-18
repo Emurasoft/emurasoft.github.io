@@ -33,4 +33,4 @@ If you encounter issues on registration, you can [contact us](https://www.emedit
 
 ## More information
 
-You can [read the blog]() for detailed information about the registration and validation process.
+[Read the blog](https://www.emeditor.com/) for detailed information about the registration and validation process.
