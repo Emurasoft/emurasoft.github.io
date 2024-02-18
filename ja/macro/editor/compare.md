@@ -56,7 +56,7 @@ _nFlags_
 
 _strDocument1_
 
-第1文書を特定する文字列を指定します。この値は、ファイル名、完全パスの付いたファイル名、またはコロン (:) で始まる現在のグループ内の文書のインデックスになります。例えば、"filename.csv"、"C:\\data\\filename.csv" (JavaScript の場合は、"C:\\\data\\\filename.csv") 、または ":2" と指定することができます。strDocument1 と strDocument2 の両方が空の文字列の場合、EmEditor は最近使用された 2 個のファイルを選択します。
+第1文書を特定する文字列を指定します。この値は、ファイル名、完全パスの付いたファイル名、またはコロン (:) で始まる現在のグループ内の文書のインデックスになります。例えば、"filename.csv"、"C:\\data\\filename.csv" (JavaScript の場合は、"C:\\\\data\\\\filename.csv") 、または ":2" と指定することができます。strDocument1 と strDocument2 の両方が空の文字列の場合、EmEditor は最近使用された 2 個のファイルを選択します。
 
 _strDocument2_
 

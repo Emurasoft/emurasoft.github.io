@@ -51,7 +51,7 @@ Specifies an initial directory. This parameter can be omitted.
 ### \[JavaScript\]
 
 ```
-nAttr = shell.Run( "C:\\\Windows\\\calc.exe", 1 );
+nAttr = shell.Run( "C:\\\\Windows\\\\calc.exe", 1 );
 ```
 
 ### \[VBScript\]

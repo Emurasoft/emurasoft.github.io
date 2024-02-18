@@ -35,7 +35,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 | \\r | \\u000d | 復帰。 |
 | \\" | \\u0022 | 2 重引用符 |
 | \\' | \\u0027 | 1 重引用符 |
-| \\\ | \\u005c | バックスラッシュ |
+| \\\\ | \\u005c | バックスラッシュ |
 | \\xXX |  | 2 桁の 16 進数で表記された Latin-1 文字 |
 | \\uXXXX |  | 4 桁の 16 進数で表記された Unicode 文字 |
 

@@ -24,7 +24,7 @@ Microsoft アカウントを使用して設定を同期します。ストア ア
 
 ## \[ネットワーク フォルダ\] ラジオ ボタン
 
-すべてのコンピューターで共有されるネットワーク上の共有フォルダを指定します。ここには、UNC パス (例えば、\\\computer1\\sharedfolder\\EmEditorSync) または OneDrive フォルダ (例えば、C:\\Users\\name\\OneDrive\\EmEditorSync) などが指定できます。
+すべてのコンピューターで共有されるネットワーク上の共有フォルダを指定します。ここには、UNC パス (例えば、\\\\computer1\\sharedfolder\\EmEditorSync) または OneDrive フォルダ (例えば、C:\\Users\\name\\OneDrive\\EmEditorSync) などが指定できます。
 
 ## \[監視間隔\] テキスト ボックスボタン
 

@@ -27,7 +27,7 @@ Specifies a folder to create.
 ### \[JavaScript\]
 
 ```
-shell.CreateFolder( "C:\\\Test" );
+shell.CreateFolder( "C:\\\\Test" );
 ```
 
 ### \[VBScript\]

@@ -39,7 +39,7 @@ languages.
 | \\r | \\u000d | Carriage return. |
 | \\" | \\u0022 | Double quote. |
 | \\' | \\u0027 | Single quote. |
-| \\\ | \\u005c | Backslash. |
+| \\\\ | \\u005c | Backslash. |
 | \\xXX |  | The Latin-1 character with the encoding specified by the two hexadecimal digits. |
 | \\uXXXX |  | The Unicode character with the encoding specified by the four hexadecimal digits. |
 

@@ -18,7 +18,7 @@ The following tables contain the complete list of metacharacters
 
 |     |     |
 | --- | --- |
-| \ | Marks the next character as a special character, a literal, or a back <br> reference. For example, 'n' matches the character "n". '\\n' matches a <br> newline character. The sequence '\\\' matches "\\" and "\\(" matches "(". |
+| \ | Marks the next character as a special character, a literal, or a back <br> reference. For example, 'n' matches the character "n". '\\n' matches a <br> newline character. The sequence '\\\\' matches "\\" and "\\(" matches "(". |
 | ^ | Matches the position at the beginning of the input string. For <br> example, "^e" matches any "e" that begins a string. |
 | $ | Matches the position at the end of the input string. For <br> example, "e$" matches any "e" that ends a string. |
 | \* | Matches the preceding character or sub-expression zero or more times. <br> For example, zo\* matches "z" and "zoo". \* is equivalent to {0,}. |

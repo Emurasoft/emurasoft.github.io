@@ -335,12 +335,12 @@ You will need to be careful that all \ and \` and $ are proceeded by a \\. For i
 
 \`# Interface.writeln( "C:\\\\\\Program Files\\\\\\EmEditor" ); \`
 
-This is because a backslash must be written as \\\, and JavaScript also converts a backslash to \\\. As a result, a backslash converts to four backslashes (\\\\\\).
+This is because a backslash must be written as \\\\, and JavaScript also converts a backslash to \\\\. As a result, a backslash converts to four backslashes (\\\\\\\\).
 
 If you don't want backslashes converted and if you don't need to include any parameters within a shell code or macro, you can include an exclamation mark (!) at the beginning of the code. That is--in shell code, you would write \`!...\` and in macros, you would write \`!#...\`. Therefore, the previous
 example can be rewritten as:
 
-\`!# Interface.writeln( "C:\\\Program Files\\\EmEditor" ); \`
+\`!# Interface.writeln( "C:\\\\Program Files\\\\EmEditor" ); \`
 
 ## Tips
 

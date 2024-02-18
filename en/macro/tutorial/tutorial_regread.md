@@ -10,7 +10,7 @@ The following example code reads the file name of a running macro from the regis
 
 ```
 WshShell = new ActiveXObject( "WScript.Shell" );
-str = WshShell.RegRead( "HKCU\\\Software\\\EmSoft\\\EmEditor v3\\\Common\\\MacroFile");
+str = WshShell.RegRead( "HKCU\\\\Software\\\\EmSoft\\\\EmEditor v3\\\\Common\\\\MacroFile");
 alert( str );
 ```
 
@@ -25,7 +25,7 @@ alert str
 ## Tips:
 
 In JavaScript, if you want to include a backslash "\\" within a string,
-it must be preceded by another backslash "\\\".
+it must be preceded by another backslash "\\\\".
 
 ## References
 

@@ -27,7 +27,7 @@ The name of the folder whose existance is to be determined.
 ### \[JavaScript\]
 
 ```
-b = shell.FolderExists( "C:\\\Test\\\folder" );
+b = shell.FolderExists( "C:\\\\Test\\\\folder" );
 ```
 
 ### \[VBScript\]

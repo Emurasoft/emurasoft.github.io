@@ -46,7 +46,7 @@ _nExFlags_
 | eeExFindCrLf | 改行コードが CR+LF の行に一致します。このフラグは、eeExFindMatchNL と一緒に指定する必要があります。 |
 | eeExFindCrOnly | 改行コードが CR のみの行に一致します。このフラグは、eeExFindMatchNL と一緒に指定する必要があります。 |
 | eeExFindFuzzy | あいまい一致を使用します。 |
-| eeExFindLinkFile | _strFind_ が改行で分割された複数の検索文字列を含むリンク ファイルへのファイルのパスであることを指定します。行にタブ文字が含まれている場合、検索文字列はタブを含まない最初の文字列になります。 _strFind_ は EmEditor インストール パスからの相対パスにすることができます。%USERPROFILE% などの環境変数を含むこともできます。実行中のマクロ フォルダ内のファイルを指定するには、次のようにしてください。<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\" ) + 1 ) + "LinkFile.txt" |
+| eeExFindLinkFile | _strFind_ が改行で分割された複数の検索文字列を含むリンク ファイルへのファイルのパスであることを指定します。行にタブ文字が含まれている場合、検索文字列はタブを含まない最初の文字列になります。 _strFind_ は EmEditor インストール パスからの相対パスにすることができます。%USERPROFILE% などの環境変数を含むこともできます。実行中のマクロ フォルダ内のファイルを指定するには、次のようにしてください。<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\\" ) + 1 ) + "LinkFile.txt" |
 | eeExFindLfOnly | 改行コードが LF のみの行に一致します。このフラグは、eeExFindMatchNL と一緒に指定する必要があります。 |
 | eeExFindMatchNL | 指定する改行コードに一致します。このフラグは、eeExFindCrLf、eeExFindCrOnly、eeExFindLfOnly、または eeExFindNLOthers と一緒に指定します。 |
 | eeExFindNLOthers | 改行コードが存在しない行に一致します。これらの行には、ファイルの最終行、および改行コード無しで次の行に続く非常に長い行が含まれます。このフラグは、eeExFindMatchNL と一緒に指定する必要があります。 |

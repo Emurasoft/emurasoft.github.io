@@ -57,7 +57,7 @@ You can specify a combination of the following values.
 _strDocument1_
 
 Specifies the string to identify the first document. This value can be a file name, file name with the full path, or a colon (:) followed by the index of the document in the current group. For
-example, "filename.csv", "C:\\data\\filename.csv" (in case of JavaScript, "C:\\\data\\\filename.csv"), or ":2". If both strDocument1 and strDocument2 are empty strings, EmEditor chooses most recently used documents.
+example, "filename.csv", "C:\\data\\filename.csv" (in case of JavaScript, "C:\\\\data\\\\filename.csv"), or ":2". If both strDocument1 and strDocument2 are empty strings, EmEditor chooses most recently used documents.
 
 _strDocument2_
 
