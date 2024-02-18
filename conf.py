@@ -26,6 +26,7 @@ html_theme = 'piccolo_theme'
 html_show_sphinx = False
 html_baseurl = 'https://www.emeditor.org/'
 sitemap_url_scheme = '{lang}{link}'
+smartquotes = False
 
 html_sidebars = {
    '**': ['globaltoc.html'],
