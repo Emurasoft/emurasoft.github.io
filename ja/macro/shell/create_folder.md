@@ -27,7 +27,7 @@ _strFolder_
 ### \[JavaScript\]
 
 ```
-shell.CreateFolder( "C:\\\Test" );
+shell.CreateFolder( "C:\\\\Test" );
 ```
 
 ### \[VBScript\]

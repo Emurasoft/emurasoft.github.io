@@ -27,7 +27,7 @@ The name of the folder to delete. It can contain wildard characters in the last 
 ### \[JavaScript\]
 
 ```
-shell.DeleteFolder( "C:\\\Test\\\folder" );
+shell.DeleteFolder( "C:\\\\Test\\\\folder" );
 ```
 
 ### \[VBScript\]

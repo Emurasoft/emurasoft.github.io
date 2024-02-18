@@ -27,7 +27,7 @@ The name of the file to delete. It can contain wildard characters in the last pa
 ### \[JavaScript\]
 
 ```
-shell.DeleteFile( "C:\\\Test\\\\*.txt" );
+shell.DeleteFile( "C:\\\\Test\\\\\*.txt" );
 ```
 
 ### \[VBScript\]

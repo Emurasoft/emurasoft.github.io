@@ -40,7 +40,7 @@ A combination of the following values.
 ### \[JavaScript\]
 
 ```
-shell.SetFileAttributes( "C:\\\Test\\\file.txt", 1 );
+shell.SetFileAttributes( "C:\\\\Test\\\\file.txt", 1 );
 ```
 
 ### \[VBScript\]

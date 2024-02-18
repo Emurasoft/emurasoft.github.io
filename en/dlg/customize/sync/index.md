@@ -24,7 +24,7 @@ Uses Microsoft Account to sync settings. Available only on the Store App version
 
 ## Network Folder radio button
 
-Specifies a shared folder on the network to be shared by all computers. This can be a UNC (Universal Naming Convention) path, for instance, \\\computer1\\sharedFolder\\EmEditorSync, or a local folder, for instance, C:\\Users\\name\\OneDrive\\EmEditorSync.
+Specifies a shared folder on the network to be shared by all computers. This can be a UNC (Universal Naming Convention) path, for instance, \\\\computer1\\sharedFolder\\EmEditorSync, or a local folder, for instance, C:\\Users\\name\\OneDrive\\EmEditorSync.
 
 ## Monitor Interval text box
 

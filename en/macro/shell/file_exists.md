@@ -27,7 +27,7 @@ The name of the file whose existance is to be determined.
 ### \[JavaScript\]
 
 ```
-b = shell.FileExists( "C:\\\Test\\\file.txt" );
+b = shell.FileExists( "C:\\\\Test\\\\file.txt" );
 ```
 
 ### \[VBScript\]

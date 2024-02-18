@@ -41,7 +41,7 @@ Specifies a delimiter to separate the data items. The delimiter can include the 
 | \\b | Backspace |
 | \\t | Horizontal tab |
 | \\v | Vertical tab |
-| \\\ | Backslash |
+| \\\\ | Backslash |
 | \\xhhhh | Unicode character in hexadecimal notation |
 
 ## Quotation Mark text box

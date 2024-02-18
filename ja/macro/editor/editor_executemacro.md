@@ -44,7 +44,7 @@ _nFlags_
 ### \[JavaScript\]
 
 ```
-editor.ExecuteMacro( "E:\\\Macros\\\Macro.jsee", eeRunFile | eeMacroLangJScript );
+editor.ExecuteMacro( "E:\\\\Macros\\\\Macro.jsee", eeRunFile | eeMacroLangJScript );
 editor.ExecuteMacro( "alert('Hello')", eeRunText | eeMacroLangJScript );
 ```
 

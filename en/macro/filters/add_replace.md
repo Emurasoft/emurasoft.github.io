@@ -43,7 +43,7 @@ Specifies a combination of the following values.
 
 |     |     |
 | --- | --- |
-| eeExFindLinkFile | Specifies _strFind_ is the file path to a linked file that contains multiple search strings divided by newlines. If a tab character is included in a line, the search string is the first string not including the tab character, and the replace string is the second string. _strFind_ may be a relative path from the EmEditor install path. It may contain environment variables such as %USERPROFILE%. To specify a file in the running macro folder, use this form:<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\" ) + 1 ) + "LinkFile.txt" |
+| eeExFindLinkFile | Specifies _strFind_ is the file path to a linked file that contains multiple search strings divided by newlines. If a tab character is included in a line, the search string is the first string not including the tab character, and the replace string is the second string. _strFind_ may be a relative path from the EmEditor install path. It may contain environment variables such as %USERPROFILE%. To specify a file in the running macro folder, use this form:<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\\" ) + 1 ) + "LinkFile.txt" |
 | eeExFindNumberRange | Matches a [number range expression](../../howto/search/number_range_syntax). This flag cannot be combined with eeFindReplaceEscSeq or eeFindReplaceRegExp. |
 | eeExFindFuzzy | Uses fuzzy matching. |
 

@@ -56,7 +56,7 @@ The return value is a negative value If an error occurs. Otherwise, if eePluginE
 
 ```
 editor.ExecutePlugin( "Snippets.dll", eePluginUserMessage, 0, "<${1:p}>${2:${SelText}}</$1>$0" );
-editor.ExecutePlugin( "Snippets.dll", eePluginUserMessage, 1, "General\\\Date");
+editor.ExecutePlugin( "Snippets.dll", eePluginUserMessage, 1, "General\\\\Date");
 editor.ExecutePlugin( "Snippets.dll", eePluginUserMessage, 2, "/General/Date" );
 ```
 

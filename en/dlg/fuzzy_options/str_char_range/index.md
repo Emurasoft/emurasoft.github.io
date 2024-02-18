@@ -41,6 +41,6 @@ Enter a character or a string to be substituted for. If this is empty, the speci
 | \\b | Backspace |
 | \\t | Horizontal tab |
 | \\v | Vertical tab |
-| \\\ | Backslash |
+| \\\\ | Backslash |
 | \\xhhhh | Unicode character in hexadecimal notation |
 

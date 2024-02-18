@@ -43,7 +43,7 @@ You can specify a combination of the following values. eeJoinSimpleMerge, eeJoin
 _strDocument1_
 
 Specifies the string to identify the first document. This value can be a file name, file name with the full path, or a colon (:) followed by the index of the document in the current group. For
-example, "filename.csv", "C:\\data\\filename.csv" (in case of JavaScript, "C:\\\data\\\filename.csv"), or ":2".
+example, "filename.csv", "C:\\data\\filename.csv" (in case of JavaScript, "C:\\\\data\\\\filename.csv"), or ":2".
 
 _strColumn1_
 

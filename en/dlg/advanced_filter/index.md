@@ -79,7 +79,7 @@ sequences.
 | **\\n** | Newline character |
 | **\\t** | Horizontal tab |
 | **\\v** | Vertical tab |
-| **\\\** | Backslash |
+| **\\\\** | Backslash |
 | **\\oooooo** | Unicode character in octal notation |
 | **\\xhhhh** | Unicode character in hexadecimal notation |
 

@@ -51,7 +51,7 @@ _strFolder_
 ### \[JavaScript\]
 
 ```
-nAttr = shell.Run( "C:\\\Windows\\\calc.exe", 1 );
+nAttr = shell.Run( "C:\\\\Windows\\\\calc.exe", 1 );
 ```
 
 ### \[VBScript\]

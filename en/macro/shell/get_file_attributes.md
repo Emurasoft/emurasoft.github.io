@@ -27,7 +27,7 @@ The full path and name of a file or folder to retrieve the attributes.
 ### \[JavaScript\]
 
 ```
-nAttr = shell.GetFileAttributes( "C:\\\Test\\\file.txt" );
+nAttr = shell.GetFileAttributes( "C:\\\\Test\\\\file.txt" );
 ```
 
 ### \[VBScript\]
