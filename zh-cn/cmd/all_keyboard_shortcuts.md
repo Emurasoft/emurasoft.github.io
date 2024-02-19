@@ -1,8 +1,8 @@
-# All Keyboard Shortcuts
+# 所有键盘快捷键
 
-This page lists the default keyboard shortcuts in EmEditor. You can also list these commands within EmEditor with Help > Search Commands... (Ctrl+Shift+C). You can change a keyboard shortcut in the [**Keyboard**](../dlg/properties/keyboard/index) page in **Configuration Properties**.
+此页列出了 EmEditor 中的默认快捷键。您也可以到 EmEditor 中选择“帮助” > “搜索命令... (Ctrl+Shift+C)” 来列出这些命令。您可以在 **配置属性** 的 [**键盘**](../dlg/properties/keyboard/index) 页面中更改键盘快捷键。
 
-Category | Command | Shortcut key | Description
+类别 | 命令 | 快捷键 | 描述
 --|--|--|--
 CSV|上一单元格|Alt+Shift+向左键|CSV、TSV或DSV模式下跳转至上一单元格。
 CSV|上边缘(仅限单元格选择模式)|Ctrl+向上键|移动到当前数据区域的上边缘。
