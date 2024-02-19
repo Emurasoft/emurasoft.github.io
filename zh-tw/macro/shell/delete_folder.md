@@ -27,7 +27,7 @@ _strFolder_
 ### \[JavaScript\]
 
 ```
-shell.DeleteFolder( "C:\\\Test\\\folder" );
+shell.DeleteFolder( "C:\\\\Test\\\\folder" );
 ```
 
 ### \[VBScript\]

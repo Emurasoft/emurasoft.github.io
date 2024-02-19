@@ -328,11 +328,11 @@ Interface.writeln( s );
 
 \`# Interface.writeln( "C:\\\\\\Program Files\\\\\\EmEditor" ); \`
 
-這是因為一個反斜杠必須被寫作 \\\，并且 JavaScript 同樣會把一個反斜杠轉換為 \\\。結果，一個反斜杠就轉換為四個反斜杠 (\\\\\\)。
+這是因為一個反斜杠必須被寫作 \\\\，并且 JavaScript 同樣會把一個反斜杠轉換為 \\\\。結果，一個反斜杠就轉換為四個反斜杠 (\\\\\\\\)。
 
 如果您不想要反斜杠被轉換，并且您也不需要再一個 shell 代碼或巨集中包括任何參數，您可以在代碼的開始處標示一個感嘆號 (!)。即——在 shell 代碼中，您會寫 \`!...\`，在巨集中，您可以寫 \`!#...\`。因此，之前的例子可以被重新寫作:
 
-\`!# Interface.writeln( "C:\\\Program Files\\\EmEditor" ); \`
+\`!# Interface.writeln( "C:\\\\Program Files\\\\EmEditor" ); \`
 
 ## 提示
 

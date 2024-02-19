@@ -328,11 +328,11 @@ Interface.writeln( s );
 
 \`# Interface.writeln( "C:\\\\\\Program Files\\\\\\EmEditor" ); \`
 
-这是因为一个反斜杠必须被写作 \\\，并且 JavaScript 同样会把一个反斜杠转换为 \\\。结果，一个反斜杠就转换为四个反斜杠 (\\\\\\)。
+这是因为一个反斜杠必须被写作 \\\\，并且 JavaScript 同样会把一个反斜杠转换为 \\\\。结果，一个反斜杠就转换为四个反斜杠 (\\\\\\\\)。
 
 如果你不想要反斜杠被转换，并且你也不需要再一个 shell 代码或宏中包括任何参数，你可以在代码的开始处标示一个感叹号 (!)。即——在 shell 代码中，你会写 \`!...\`，在宏中，你可以写 \`!#...\`。因此，之前的例子可以被重新写作:
 
-\`!# Interface.writeln( "C:\\\Program Files\\\EmEditor" ); \`
+\`!# Interface.writeln( "C:\\\\Program Files\\\\EmEditor" ); \`
 
 ## 提示
 

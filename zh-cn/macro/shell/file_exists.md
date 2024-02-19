@@ -27,7 +27,7 @@ _strFile_
 ### \[JavaScript\]
 
 ```
-b = shell.FileExists( "C:\\\Test\\\file.txt" );
+b = shell.FileExists( "C:\\\\Test\\\\file.txt" );
 ```
 
 ### \[VBScript\]

@@ -7,7 +7,7 @@
 ## \[JavaScript\]
 
 ```
-editor.ReplaceInFiles( "<H3>(.\*?)</H3>", "<H4>\\\1<H4>", "C:\\\web\\\\*.htm", eeFindReplaceRegExp | eeReplaceBackup, eeEncodingSystemDefault, "\*.bak", "C:\\\Backup" );
+editor.ReplaceInFiles( "<H3>(.\*?)</H3>", "<H4>\\\\1<H4>", "C:\\\\web\\\\\*.htm", eeFindReplaceRegExp | eeReplaceBackup, eeEncodingSystemDefault, "\*.bak", "C:\\\\Backup" );
 ```
 
 ## \[VBScript\]

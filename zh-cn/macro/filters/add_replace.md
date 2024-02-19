@@ -43,7 +43,7 @@ _nExFlags_
 
 |     |     |
 | --- | --- |
-| eeExFindLinkFile | 指定 _strFind_ 是链接文件的文件路径，该链接文件包含多个用换行符分隔的搜索字符串。如果一行中包含制表符，则搜索字符串是第一个不包含制表符的字符串，替换字符串则是第二个字符串。 _strFind_ 可以是 EmEditor 安装路径的相对路径。它可以包含环境变量，例如 %USERPROFILE%。要指定正在运行的宏文件夹中的文件，请使用以下形式：<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\" ) + 1 ) + "LinkFile.txt" |
+| eeExFindLinkFile | 指定 _strFind_ 是链接文件的文件路径，该链接文件包含多个用换行符分隔的搜索字符串。如果一行中包含制表符，则搜索字符串是第一个不包含制表符的字符串，替换字符串则是第二个字符串。 _strFind_ 可以是 EmEditor 安装路径的相对路径。它可以包含环境变量，例如 %USERPROFILE%。要指定正在运行的宏文件夹中的文件，请使用以下形式：<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\\" ) + 1 ) + "LinkFile.txt" |
 | eeExFindNumberRange | 匹配 [数字范围表达式](../../howto/search/number_range_syntax)。此标志不能与 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
 | eeExFindFuzzy | 使用模糊匹配。 |
 

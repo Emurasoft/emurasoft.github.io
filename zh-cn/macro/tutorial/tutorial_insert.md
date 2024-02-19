@@ -33,7 +33,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 | \\r | \\u000d | 回车。 |
 | \\" | \\u0022 | 双引号。 |
 | \\' | \\u0027 | 单引号。 |
-| \\\ | \\u005c | 反斜杠。 |
+| \\\\ | \\u005c | 反斜杠。 |
 | \\xXX |  | 由两个十六进制数指定的含编码的 Latin-1 字符。 |
 | \\uXXXX |  | 由四个十六进制数指定的含编码的 Unicode 字符。 |
 

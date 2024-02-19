@@ -24,7 +24,7 @@
 
 ## 「網絡資料夾」單選按鈕
 
-指定網絡上的共享資料夾以供所有電腦共享。這可以是 UNC（通用命名慣例）路徑，例如 \\\computer1\\sharedfolder\\EmEditorSync，或本機資料夾，例如，C:\\Users\\name\\OneDrive\\EmEditorSync。
+指定網絡上的共享資料夾以供所有電腦共享。這可以是 UNC（通用命名慣例）路徑，例如 \\\\computer1\\sharedfolder\\EmEditorSync，或本機資料夾，例如，C:\\Users\\name\\OneDrive\\EmEditorSync。
 
 ## 「監控間隔」文字方塊
 

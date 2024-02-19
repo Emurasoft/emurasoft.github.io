@@ -27,7 +27,7 @@ _strFile_
 ### \[JavaScript\]
 
 ```
-shell.DeleteFile( "C:\\\Test\\\\*.txt" );
+shell.DeleteFile( "C:\\\\Test\\\\\*.txt" );
 ```
 
 ### \[VBScript\]

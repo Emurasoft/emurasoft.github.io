@@ -47,7 +47,7 @@ _nExFlags_
 | eeExFindCrOnly | 符合換行符號僅是 CR 的行。此標志必須與 eeExFindMatchNL 合用。 |
 | eeExFindFuzzy | 使用模糊比對。 |
 | eeExFindLfOnly | 符合換行符號僅是 LF 的行。此標志必須與 eeExFindMatchNL 合用。 |
-| eeExFindLinkFile | 指定 _strFind_ 是連結檔案的檔案路徑，該連結檔案包含多個用換行符分隔的搜索字串。如果一行中包含 Tab，則搜索字串是第一個不包含 Tab 的字串。 _strFind_ 可以是 EmEditor 安裝路徑的相對路徑。它可以包含環境變數，例如 %USERPROFILE%。要指定正在運行的巨集資料夾中的檔案，請使用以下形式：<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\" ) + 1 ) + "LinkFile.txt" |
+| eeExFindLinkFile | 指定 _strFind_ 是連結檔案的檔案路徑，該連結檔案包含多個用換行符分隔的搜索字串。如果一行中包含 Tab，則搜索字串是第一個不包含 Tab 的字串。 _strFind_ 可以是 EmEditor 安裝路徑的相對路徑。它可以包含環境變數，例如 %USERPROFILE%。要指定正在運行的巨集資料夾中的檔案，請使用以下形式：<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\\" ) + 1 ) + "LinkFile.txt" |
 | eeExFindMatchNL | 符合指定的換行符號。此標志應與 eeExFindCrLf，eeExFindCrOnly，eeExFindLfOnly，和/或 eeExFindNLOthers 合用。 |
 | eeExFindNLOthers | 符合沒有換行符號的行。這些行包括檔案的最後一行和很長的行，這些行繼續到下一行而沒有換行符號。此標志必須與 eeExFindMatchNL 合用。 |
 | eeExFindNumberRange | 符合 [數字範圍運算式](../../howto/search/number_range_syntax)。此標志不能與 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |

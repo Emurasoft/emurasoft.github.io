@@ -27,7 +27,7 @@ _strFolder_
 ### \[JavaScript\]
 
 ```
-b = shell.FolderExists( "C:\\\Test\\\folder" );
+b = shell.FolderExists( "C:\\\\Test\\\\folder" );
 ```
 
 ### \[VBScript\]

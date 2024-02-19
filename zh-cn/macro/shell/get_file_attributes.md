@@ -27,7 +27,7 @@ _strFile_
 ### \[JavaScript\]
 
 ```
-nAttr = shell.GetFileAttributes( "C:\\\Test\\\file.txt" );
+nAttr = shell.GetFileAttributes( "C:\\\\Test\\\\file.txt" );
 ```
 
 ### \[VBScript\]

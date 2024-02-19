@@ -41,7 +41,7 @@ re.Pattern = "([A-Z0-9.\%+-]+)@([A-Z0-9.-]+\\\.[A-Z]{2,})";
 re.IgnoreCase = true;
 re.OnlyWord = false;
 strOrg = "The email address is john@test.com."
-strNew = re.Replace( strOrg, "\\\1 at \\\2" );
+strNew = re.Replace( strOrg, "\\\\1 at \\\\2" );
 if( strOrg != strNew ) {
 alert( strNew );
 }

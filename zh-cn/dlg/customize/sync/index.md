@@ -24,7 +24,7 @@
 
 ## “网络文件夹”单选按钮
 
-指定网络上的共享文件夹以供所有计算机共享。这可以是 UNC（通用命名约定）路径，例如 \\\computer1\\sharedFolder\\EmEditorSync，或本地文件夹，例如，C:\\Users\\name\\OneDrive\\EmEditorSync。
+指定网络上的共享文件夹以供所有计算机共享。这可以是 UNC（通用命名约定）路径，例如 \\\\computer1\\sharedFolder\\EmEditorSync，或本地文件夹，例如，C:\\Users\\name\\OneDrive\\EmEditorSync。
 
 ## “监控间隔”文本框
 

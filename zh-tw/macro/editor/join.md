@@ -42,7 +42,7 @@ _nFlags_
 
 _strDocument1_
 
-指定字串來識別第一個文檔。這個值可以是檔案名，檔案名以及路徑，或一個冒號 (:) 后跟目前的群組中指定文檔的索引號。例如，"filename.csv"，"C:\\data\\filename.csv" (如果是 JavaScript，"C:\\\data\\\filename.csv")，或 ":2"。
+指定字串來識別第一個文檔。這個值可以是檔案名，檔案名以及路徑，或一個冒號 (:) 后跟目前的群組中指定文檔的索引號。例如，"filename.csv"，"C:\\data\\filename.csv" (如果是 JavaScript，"C:\\\\data\\\\filename.csv")，或 ":2"。
 
 _strColumn1_
 

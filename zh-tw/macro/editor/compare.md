@@ -56,7 +56,7 @@ _nFlags_
 
 _strDocument1_
 
-指定用於標識第一個文檔的字串。該值可以是檔案名，帶完整路徑的檔案名或一個冒號 (:) 後跟目前的組中的文檔索引。 例如，"filename.csv"，"C:\\data\\filename.csv" (在 JavaScript 中是"C:\\\data\\\filename.csv")，或 ":2"。
+指定用於標識第一個文檔的字串。該值可以是檔案名，帶完整路徑的檔案名或一個冒號 (:) 後跟目前的組中的文檔索引。 例如，"filename.csv"，"C:\\data\\filename.csv" (在 JavaScript 中是"C:\\\\data\\\\filename.csv")，或 ":2"。
 
 _strDocument2_
 

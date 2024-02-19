@@ -33,7 +33,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 | \\r | \\u000d | 歸位。 |
 | \\" | \\u0022 | 雙引號。 |
 | \\' | \\u0027 | 單引號。 |
-| \\\ | \\u005c | 反斜杠。 |
+| \\\\ | \\u005c | 反斜杠。 |
 | \\xXX |  | 由兩個十六進位數指定的含編碼的 Latin-1 字元。 |
 | \\uXXXX |  | 由四個十六進位數指定的含編碼的 Unicode 字元。 |
 

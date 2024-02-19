@@ -62,7 +62,7 @@ _nExFlags_
 
 |     |     |
 | --- | --- |
-| eeExFindLinkFile | 指定 _strFilter_ 是連結檔案的檔案路徑，該連結檔案包含多個用換行符分隔的搜索字串。如果一行中包含 Tab，則搜索字串是第一個不包含 Tab 的字串。 _strFilter_ 可以是 EmEditor 安裝路徑的相對路徑。它可以包含環境變數，例如 %USERPROFILE%。要指定正在運行的巨集資料夾中的檔案，請使用以下形式：<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\" ) + 1 ) + "LinkFile.txt" |
+| eeExFindLinkFile | 指定 _strFilter_ 是連結檔案的檔案路徑，該連結檔案包含多個用換行符分隔的搜索字串。如果一行中包含 Tab，則搜索字串是第一個不包含 Tab 的字串。 _strFilter_ 可以是 EmEditor 安裝路徑的相對路徑。它可以包含環境變數，例如 %USERPROFILE%。要指定正在運行的巨集資料夾中的檔案，請使用以下形式：<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\\" ) + 1 ) + "LinkFile.txt" |
 | eeExFindNumberRange | 符合 [數字範圍運算式](../../howto/search/number_range_syntax)。此標志不能與 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
 | eeExFindFuzzy | 使用模糊比對。 |
 

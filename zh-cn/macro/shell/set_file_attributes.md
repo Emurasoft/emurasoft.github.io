@@ -40,7 +40,7 @@ _nAttr_
 ### \[JavaScript\]
 
 ```
-shell.SetFileAttributes( "C:\\\Test\\\file.txt", 1 );
+shell.SetFileAttributes( "C:\\\\Test\\\\file.txt", 1 );
 ```
 
 ### \[VBScript\]
