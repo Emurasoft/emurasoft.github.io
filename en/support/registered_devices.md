@@ -1,7 +1,3 @@
----
-orphan: true
----
-
 # Registered Devices page
 
 The [Registered Devices page](https://support.emeditor.com/en/account/devices) contains a list of all devices that you have registered EmEditor on.
@@ -25,7 +21,7 @@ You may register a certain number of devices per license. The limit is stated on
 
 ## Unregister
 
-To unregister EmEditor from a device, please uninstall EmEditor from that device or click [Downgrade](https://www.emeditor.org/en/cmd/help/downgrade.html) in the **Help** menu. You can also click Edit in this table to unregister the device.
+To unregister EmEditor from a device, please uninstall EmEditor from that device or click **Downgrade** in the **Help** menu. You can also click Edit in this table to unregister the device.
 
 ## Support
 
