@@ -1,3 +1,8 @@
+```{toctree}
+:hidden:
+registered_devices
+```
+
 # Support
 
 If you have any questions about to how to use EmEditor, or how to purchase
