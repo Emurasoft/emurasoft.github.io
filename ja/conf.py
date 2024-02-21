@@ -8,3 +8,5 @@ myst_substitutions = {
     'pro': '<sup title="EmEditor Professional のみ" style="cursor: help;">[P]</sup>',
     'profree': '<sup title="EmEditor Professional と EmEditor Free" style="cursor: help;">[PF]</sup>',
 }
+
+html_title = 'EmEditor ヘルプ'
