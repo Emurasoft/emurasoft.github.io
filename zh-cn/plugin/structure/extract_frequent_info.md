@@ -30,6 +30,8 @@ _nType_
 | FREQ\_TYPE\_CELLS | 创建一个常用单元格列表。 |
 | FREQ\_TYPE\_IPV4 | 创建一个常用 IPv4 地址列表。 |
 | FREQ\_TYPE\_IPV6 | 创建一个常用 IPv6 地址列表。 |
+| FREQ\_TYPE\_URI | 创建一个常用 URI 的列表。 |
+| FREQ\_TYPE\_EMAIL | 创建一个常用电子邮件地址列表。 |
 
 _nNumOfLines_
 

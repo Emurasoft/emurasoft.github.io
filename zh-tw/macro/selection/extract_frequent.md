@@ -29,6 +29,8 @@ _nType_
 | eeFreqTypeCells | 創建一個常用儲存格清單。 |
 | eeFreqTypeIPv4 | 創建一個常用 IPv4 地址清單。 |
 | eeFreqTypeIPv6 | 創建一個常用 IPv6 地址清單。 |
+| eeFreqTypeUri | 創建一個常用 URI 的清單。 |
+| eeFreqTypeEmail | 創建一個常用電子郵件地址清單。 |
 
 _nNumOfLines_
 

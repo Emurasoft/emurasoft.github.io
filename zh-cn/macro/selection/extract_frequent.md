@@ -29,6 +29,8 @@ _nType_
 | eeFreqTypeCells | 创建一个常用单元格列表。 |
 | eeFreqTypeIPv4 | 创建一个常用 IPv4 地址列表。 |
 | eeFreqTypeIPv6 | 创建一个常用 IPv6 地址列表。 |
+| eeFreqTypeUri | 创建一个常用 URI 的列表。 |
+| eeFreqTypeEmail | 创建一个常用电子邮件地址列表。 |
 
 _nNumOfLines_
 

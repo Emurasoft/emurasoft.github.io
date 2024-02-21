@@ -21,6 +21,8 @@ _nType_
 | FREQ\_TYPE\_CELLS | 創建一個常用儲存格清單。 |
 | FREQ\_TYPE\_IPV4 | 創建一個常用 IPv4 地址清單。 |
 | FREQ\_TYPE\_IPV6 | 創建一個常用 IPv6 地址清單。 |
+| FREQ\_TYPE\_URI | 創建一個常用 URI 的清單。 |
+| FREQ\_TYPE\_EMAIL | 創建一個常用電子郵件地址清單。 |
 
 _nNumOfLines_
 
