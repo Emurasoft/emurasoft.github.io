@@ -38,6 +38,7 @@ _nFlags_
 | FLAG\_FIND\_FUZZY | あいまい一致を使用します。 |
 | FLAG\_FIND\_LOOKAROUND | 選択範囲のみの正規表現を使用する検索で周辺を見ます。 |
 | FLAG\_FIND\_NEXT | カーソル位置より下方向に検索します。これが指定されていない場合、上方向に検索します。 |
+| FLAG\_FIND\_NO\_OVERLAP | 次を検索または前を検索で、重ならない文字列のみ一致します。 |
 | FLAG\_FIND\_NO\_PROMPT | 検索する文字列が見つからなくてもプロンプト ダイアログ ボックスを表示しません。 |
 | FLAG\_FIND\_NUMBER\_RANGE | [数値範囲表現](../../howto/search/number_range_syntax) に一致します。このフラグは、FLAG\_FIND\_ESCAPE または FLAG\_FIND\_REG\_EXP と一緒に指定することはできません。 |
 | FLAG\_FIND\_ONLY\_WORD | 単語のみ選択します。 |

@@ -86,6 +86,10 @@ If this is checked, EmEditor shows a message box to abort CSV syntax check when 
 
 Specifies the default value of column width.
 
+## Max column width text box
+
+Specifies the maximum value of column width when columns are automoatically adjusted.
+
 ## Reset button
 
 Resets to default settings.

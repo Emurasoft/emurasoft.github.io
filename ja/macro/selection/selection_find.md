@@ -62,6 +62,7 @@ _nExFlags_
 | eeExFindEOL | 正規表現「$」が選択の最後に一致することができます。 |
 | eeExFindFuzzy | あいまい一致を使用します。 |
 | eeExFindLookaround | 選択範囲のみの正規表現を使用する検索で周辺を見ます。 |
+| eeExFindNoOverlap | 次を検索または前を検索で、重ならない文字列のみ一致します。 |
 | eeExFindNumberRange | [数値範囲表現](../../howto/search/number_range_syntax) に一致します。このフラグは、eeFindReplaceEscSeq または eeFindReplaceRegExp と一緒に指定することはできません。 |
 | eeExFindRegexBoost | 正規表現エンジンとして Boost.Regex を使用します。 |
 | eeExFindRegexOnigmo | 正規表現エンジンとして Onigmo を使用します。 |

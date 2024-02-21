@@ -25,6 +25,14 @@ Creates a list of frequent IPv4 addresses.
 
 Creates a list of frequent IPv6 addresses.
 
+### URIs radio button
+
+Creates a list of URIs.
+
+### Email Addresses radio button
+
+Creates a list of email addresses.
+
 ### Match Case check box
 
 Match cases while counting frequent strings.

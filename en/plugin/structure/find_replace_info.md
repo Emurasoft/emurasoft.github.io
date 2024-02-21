@@ -38,6 +38,7 @@ _nFlags_
 | FLAG\_FIND\_FUZZY | Uses fuzzy matching. |
 | FLAG\_FIND\_LOOKAROUND | Looks around during selection only regular-expression searches. |
 | FLAG\_FIND\_NEXT | Searches the string downward from the cursor position. If this flag is <br> not set, searches the string upward. |
+| FLAG\_FIND\_NO\_OVERLAP | Does not match overlapping strings when finding a next or previous match. |
 | FLAG\_FIND\_NO\_PROMPT | Suppresses displaying a dialog box even if no string is found. |
 | FLAG\_FIND\_NUMBER\_RANGE | Matches a number range. This flag cannot be combined with FLAG\_FIND\_ESCAPE or FLAG\_FIND\_REG\_EXP. |
 | FLAG\_FIND\_ONLY\_WORD | Searches only words. |

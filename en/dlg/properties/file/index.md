@@ -101,6 +101,10 @@ If you save a file as a different name, with **All Files (\*.\*)** selected in
 the **File Type** combo box, and do not specify the file extension, the
 file extension will be the one you selected in this text box.
 
+## Prompt if deleted check box
+
+Displays a message box if the opened file is deleted by another program.
+
 ## New Files button
 
 Click this button to display the [**New File** **Details** dialog box](new_details/index), which allows you to configure the encodings and other

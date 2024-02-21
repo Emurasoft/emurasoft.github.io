@@ -62,6 +62,7 @@ Specifies a combination of the following values. However, only one of eeExFindRe
 | eeExFindEOL | The regular expression ‘$’ can match the end of the selection. |
 | eeExFindFuzzy | Uses fuzzy matching. |
 | eeExFindLookaround | Looks around during selection only regular-expression searches. |
+| eeExFindNoOverlap | Does not match overlapping strings when finding a next or previous match. |
 | eeExFindNumberRange | Matches a [number range expression](../../howto/search/number_range_syntax). This flag cannot be combined with eeFindReplaceEscSeq or eeFindReplaceRegExp. |
 | eeExFindRegexBoost | Uses Boost.Regex as the regular expression engine. |
 | eeExFindRegexOnigmo | Uses Onigmo as the regular expression engine. |

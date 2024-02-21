@@ -21,6 +21,8 @@ _nType_
 | FREQ\_TYPE\_CELLS | 頻出するセルの一覧を作成します。このオプションは CSV 文書がアクティブの時のみ利用可能です。 |
 | FREQ\_TYPE\_IPV4 | 頻出するIPv4アドレスの一覧を作成します。 |
 | FREQ\_TYPE\_IPV6 | 頻出するIPv6アドレスの一覧を作成します。 |
+| FREQ\_TYPE\_URI | 頻出するURIの一覧を作成します。 |
+| FREQ\_TYPE\_EMAIL | 頻出するメール アドレスの一覧を作成します。 |
 
 _nNumOfLines_
 
