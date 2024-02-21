@@ -29,6 +29,8 @@ Specifies one of the following values. If omitted, eeFreqTypeLines is used.
 | eeFreqTypeCells | Creates a list of frequent cells. |
 | eeFreqTypeIPv4 | Creates a list of frequent IPv4 addresses. |
 | eeFreqTypeIPv6 | Creates a list of frequent IPv6 addresses. |
+| eeFreqTypeUri | Creates a list of frequent URIs. |
+| eeFreqTypeEmail | Creates a list of frequent email addresses. |
 
 _nNumOfLines_
 

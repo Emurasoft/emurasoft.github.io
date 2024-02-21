@@ -21,6 +21,8 @@ Specifies one of the following values.
 | FREQ\_TYPE\_CELLS | Creates a list of frequent cells. |
 | FREQ\_TYPE\_IPV4 | Creates a list of frequent IPv4 addresses. |
 | FREQ\_TYPE\_IPV6 | Creates a list of frequent IPv6 addresses. |
+| FREQ\_TYPE\_URI | Creates a list of frequent URIs. |
+| FREQ\_TYPE\_EMAIL | Creates a list of frequent email addresses. |
 
 _nNumOfLines_
 
