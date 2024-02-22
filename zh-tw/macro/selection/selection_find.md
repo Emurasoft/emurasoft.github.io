@@ -62,6 +62,7 @@ _nExFlags_
 | eeExFindEOL | 規則運算式 ‘$’ 可符合選取部分的結尾。 |
 | eeExFindFuzzy | 使用模糊比對。 |
 | eeExFindLookaround | 只在選區內進行規則運算式搜索時用環顧。 |
+| eeExFindNoOverlap | 尋找下一個或上一個符合項時，排除重疊字串。 |
 | eeExFindNumberRange | 符合 [數字範圍運算式](../../howto/search/number_range_syntax)。此標志不能與 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
 | eeExFindRegexBoost | 把 Boost.Regex 作為規則運算式引擎。 |
 | eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎。 |

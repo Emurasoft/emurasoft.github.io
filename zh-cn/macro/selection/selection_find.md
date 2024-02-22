@@ -62,6 +62,7 @@ _nExFlags_
 | eeExFindEOL | 正则表达式 ‘$’ 可匹配选取部分的末尾。 |
 | eeExFindFuzzy | 使用模糊匹配。 |
 | eeExFindLookaround | 只在选区内进行正则表达式搜索时用前后断言。 |
+| eeExFindNoOverlap | 查找下一个或上一个匹配项时，不匹配重叠字符串。 |
 | eeExFindNumberRange | 匹配 [数字范围表达式](../../howto/search/number_range_syntax)。此标志不能与 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
 | eeExFindRegexBoost | 把 Boost.Regex 作为正则表达式引擎。 |
 | eeExFindRegexOnigmo | 把 Onigmo 作为正则表达式引擎。 |

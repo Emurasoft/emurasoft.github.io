@@ -25,6 +25,7 @@ _nFlags_
 | FLAG\_FIND\_EXTRACT | 把匹配的行提取到一个新的文档中。 |
 | FLAG\_FIND\_FUZZY | 使用模糊匹配。 |
 | FLAG\_FIND\_NEXT | 从光标处往下搜索字符串。如果没有设置该标志，则往上搜索字符串。 |
+| FLAG\_FIND\_NO\_OVERLAP | 查找下一个或上一个匹配项时，不匹配重叠字符串。 |
 | FLAG\_FIND\_NO\_PROMPT | 禁止显示对话框即使没有找到任何字符串。 |
 | FLAG\_FIND\_ONLY\_WORD | 匹配整个单词。 |
 | FLAG\_FIND\_OPEN\_DOC | 在同一个框架窗口中，搜索所有打开的文档。 |

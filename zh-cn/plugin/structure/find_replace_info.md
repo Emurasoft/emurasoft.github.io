@@ -38,6 +38,7 @@ _nFlags_
 | FLAG\_FIND\_FUZZY | 使用模糊匹配。 |
 | FLAG\_FIND\_LOOKAROUND | 只在选区内进行正则表达式搜索时用前后断言。 |
 | FLAG\_FIND\_NEXT | 从光标处往下搜索字符串。如果没有设置该标志，则往上搜索字符串。 |
+| FLAG\_FIND\_NO\_OVERLAP | 查找下一个或上一个匹配项时，不匹配重叠字符串。 |
 | FLAG\_FIND\_NO\_PROMPT | 禁止显示对话框即使没有找到任何字符串。 |
 | FLAG\_FIND\_NUMBER\_RANGE | 匹配数字范围。此标志不能与FLAG\_FIND\_ESCAPE或FLAG\_FIND\_REG\_EXP组合使用。 |
 | FLAG\_FIND\_ONLY\_WORD | 匹配整个单词。 |

@@ -38,6 +38,7 @@ _nFlags_
 | FLAG\_FIND\_FUZZY | 使用模糊比對。 |
 | FLAG\_FIND\_LOOKAROUND | 只在選區內進行規則運算式搜索時用合樣判斷提示。 |
 | FLAG\_FIND\_NEXT | 從游標處往下搜索字串。如果沒有設置該標志，則往上搜索字串。 |
+| FLAG\_FIND\_NO\_OVERLAP | 尋找下一個或上一個符合項時，排除重疊字串。 |
 | FLAG\_FIND\_NO\_PROMPT | 禁止顯示對話方塊即使沒有找到任何字串。 |
 | FLAG\_FIND\_NUMBER\_RANGE | 符合數字範圍。此標志不能與FLAG\_FIND\_ESCAPE或FLAG\_FIND\_REG\_EXP組合使用。 |
 | FLAG\_FIND\_ONLY\_WORD | 符合整個單字。 |
