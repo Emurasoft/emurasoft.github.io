@@ -65,6 +65,7 @@
 | [**Save Workspace As**](workspace_save_as) | Saves the workspace as a new file name. |
 | **[Save and Close](file_save_exit)** | Saves and Closes the current file. |
 | **[Close](app_exit)** | Closes the current file. |
+| **[Close Tab](close_tab)** | Closes the selected tab. |
 | **[Save and Close All (Current Desktop Only)](save_close_desktop)** | Saves and closes all open files in the current virtual desktop. |
 | **[Close All (Current Desktop Only)](close_desktop)** | Closes all open files in the current virtual desktop. |
 | **[Save and Close All](save_exit_all)** | Saves and Close all open files. |
@@ -93,6 +94,7 @@ app_exit
 app_quit
 close_all_others
 close_desktop
+close_tab
 copy_file_dir
 copy_file_path
 erase_workspace
