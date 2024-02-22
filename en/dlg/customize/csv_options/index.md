@@ -88,7 +88,7 @@ Specifies the default value of column width.
 
 ## Max column width text box
 
-Specifies the maximum value of column width when columns are automoatically adjusted.
+Specifies the maximum value of column width when columns are automatically adjusted.
 
 ## Reset button
 
