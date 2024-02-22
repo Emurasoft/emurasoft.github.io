@@ -66,6 +66,7 @@
 | [ワークスペースを名前を付けて保存](workspace_save_as) | ワークスペースを名前を付けて保存します。 |
 | [保存して閉じる](file_save_exit) | ファイルを保存して閉じます。 |
 | [閉じる](app_exit) | 現在アクティブな文書を閉じます。 |
+| [タブを閉じる](close_tab) | 選択タブを閉じます。 |
 | [すべて保存して閉じる(現在のデスクトップのみ)](save_close_desktop) | ファイルをすべて保存して閉じます。 |
 | [すべて閉じる(現在のデスクトップのみ)](close_desktop) | すべての文書を閉じます。 |
 | [すべて保存して閉じる](save_exit_all) | ファイルをすべて保存して閉じます。 |
@@ -94,6 +95,7 @@ app_exit
 app_quit
 close_all_others
 close_desktop
+close_tab
 copy_file_dir
 copy_file_path
 erase_workspace

@@ -30,6 +30,8 @@
 | **[為有改動的行設置書籤](compare_bookmark)** | 為所有已修改的行添加書籤。 |
 | **[生成報告](compare_generate_report)** | 根據目前的比較結果生成報告檔案。 |
 | **[跳轉到其他](compare_jump_to_other)** | 跳轉到正在與目前的文檔比較或捲動的另一個文檔。 |
+| **[全部複製到左邊](copy_all_to_left)** | 將所有變更複製到左側。 |
+| **[全部複製到右邊](copy_all_to_right)** | 將所有變更複製到右側。 |
 
 
 ```{toctree}
@@ -49,6 +51,8 @@ compare_prev_line
 compare_rescan
 compare_reset
 compare_save_options
+copy_all_to_left
+copy_all_to_right
 ignore_cases
 ignore_comment
 ignore_embedded_space

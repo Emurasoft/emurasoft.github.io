@@ -65,6 +65,7 @@
 | [**另存新工作區**](workspace_save_as) | 用一個新檔名儲存工作區。 |
 | **[儲存并關閉](file_save_exit)** | 儲存并關閉目前的檔案。 |
 | **[關閉](app_exit)** | 關閉目前的檔案。 |
+| **[關閉標籤](close_tab)** | 關閉選取的標籤。 |
 | **[儲存并全部關閉 (僅目前的桌面)](save_close_desktop)** | 儲存并關閉所有在目前的虛擬桌面上打開的檔案。 |
 | **[全部關閉 (僅目前的桌面)](close_desktop)** | 關閉所有在目前的虛擬桌面上打開的檔案。 |
 | **[儲存并全部關閉](save_exit_all)** | 儲存并關閉所有打開的檔案。 |
@@ -93,6 +94,7 @@ app_exit
 app_quit
 close_all_others
 close_desktop
+close_tab
 copy_file_dir
 copy_file_path
 erase_workspace

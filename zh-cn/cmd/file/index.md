@@ -65,6 +65,7 @@
 | [**另存工作区为**](workspace_save_as) | 用一个新文件名保存工作区。 |
 | **[保存并关闭](file_save_exit)** | 保存并关闭当前文件。 |
 | **[关闭](app_exit)** | 关闭当前文件。 |
+| **[关闭标签](close_tab)** | 关闭选取的标签。 |
 | **[保存并全部关闭 (仅当前桌面)](save_close_desktop)** | 保存并关闭所有在当前虚拟桌面上打开的文件。 |
 | **[全部关闭 (仅当前桌面)](close_desktop)** | 关闭所有在当前虚拟桌面上打开的文件。 |
 | **[保存并全部关闭](save_exit_all)** | 保存并关闭所有打开的文件。 |
@@ -93,6 +94,7 @@ app_exit
 app_quit
 close_all_others
 close_desktop
+close_tab
 copy_file_dir
 copy_file_path
 erase_workspace

@@ -31,6 +31,8 @@
 | [変更をブックマーク](compare_bookmark) | 変更行すべてにブックマークを設定します。 |
 | [レポートを作成](compare_generate_report) | 現在の比較の結果に基づいてレポート ファイルを作成します。 |
 | [他方にジャンプ](compare_jump_to_other) | 現在の文書が比較またはスクロールしている他方の文書にジャンプします。 |
+| [すべてを左へコピー](copy_all_to_left) | すべての変更を左へコピーします。 |
+| [すべてを右へコピー](copy_all_to_right) | すべての変更を右へコピーします。 |
 
 
 ```{toctree}
@@ -50,6 +52,8 @@ compare_prev_line
 compare_rescan
 compare_reset
 compare_save_options
+copy_all_to_left
+copy_all_to_right
 ignore_cases
 ignore_comment
 ignore_embedded_space
