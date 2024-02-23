@@ -1,17 +1,17 @@
-# Copy All to Left command
+# Copy to Other command
 
 ## Summary
 
-Copies all changes to left.
+Copies this change in this document to the other document.
 
 ## Description
 
-Copies all changes to left.
+Copies this change in this document to the other document.
 
 ## How to Run
 
-- Default Menu: None
-- [All Commands](../tools/all_commands): **Compare** \> **Copy All to Left**
+- Default Menu: **Compare** \> **Copy to Other**
+- [All Commands](../tools/all_commands): **Compare** \> **Copy to Other**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -19,7 +19,7 @@ Copies all changes to left.
 ## Plug-in Command ID
 
 ```
-EEID_COPY_ALL_TO_LEFT (23247)```
+EEID_COPY_TO_OTHER (23247)```
 
 ## Macros
 

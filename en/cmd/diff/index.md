@@ -30,8 +30,8 @@
 | **[Bookmark Changes](compare_bookmark)** | Bookmark all changed lines. |
 | **[Generate Report](compare_generate_report)** | Generates a report file based on the current comparison result. |
 | **[Jump to Other](compare_jump_to_other)** | Jumps to the other document that the current document is comparing with or scrolling with. |
-| **[Copy All to Left](copy_all_to_left)** | Copies all changes to left. |
-| **[Copy All to Right](copy_all_to_right)** | Copies all changes to right. |
+| **[Copy to Other](copy_to_other)** | Copies this change in this document to the other document. |
+| **[Copy All to Other](copy_all_to_other)** | Copies all changes in this document to the other document. |
 
 
 ```{toctree}
@@ -51,8 +51,8 @@ compare_prev_line
 compare_rescan
 compare_reset
 compare_save_options
-copy_all_to_left
-copy_all_to_right
+copy_all_to_other
+copy_to_other
 ignore_cases
 ignore_comment
 ignore_embedded_space
