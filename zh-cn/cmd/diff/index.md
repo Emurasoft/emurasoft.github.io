@@ -30,8 +30,8 @@
 | **[为有改动的行设置书签](compare_bookmark)** | 为所有已修改的行添加书签。 |
 | **[生成报告](compare_generate_report)** | 根据当前比较结果生成报告文件。 |
 | **[跳转到其他](compare_jump_to_other)** | 跳转到正在与当前文档比较或滚动的另一个文档。 |
-| **[全部复制到左边](copy_all_to_left)** | 将所有更改复制到左侧。 |
-| **[全部复制到右边](copy_all_to_right)** | 将所有更改复制到右侧。 |
+| **[复制到其他](copy_to_other)** | 将此文档中的这个更改复制到其他文档。 |
+| **[全部复制到其他](copy_all_to_other)** | 将此文档中的全部更改复制到其他文档。 |
 
 ```{toctree}
 :hidden:
@@ -50,8 +50,8 @@ compare_prev_line
 compare_rescan
 compare_reset
 compare_save_options
-copy_all_to_left
-copy_all_to_right
+copy_all_to_other
+copy_to_other
 ignore_cases
 ignore_comment
 ignore_embedded_space
