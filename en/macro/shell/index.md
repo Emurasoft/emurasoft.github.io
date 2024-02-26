@@ -18,6 +18,7 @@
 | [**FileExists**](file_exists) | Returns true if a specified file exists; false if it does not. |
 | **[FindWindow](find_window)** | Finds the top-level Window object by a class name and/or by a window title. |
 | [**FolderExists**](folder_exists) | Returns true if a specified folder exists; false if it does not. |
+| [**GetEnv**](get_env) | Retrieves an environment variable. |
 | [**GetFileAttributes**](get_file_attributes) | Returns the attributes of a specified file or folder. |
 | [**Run**](run) | Runs a program in a new process. |
 | **[SendKeys](send_keys)** | Sends one or more keystrokes (or mouse activities) to the active window. |

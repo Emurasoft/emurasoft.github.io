@@ -18,6 +18,7 @@
 | [FileExists](file_exists) | 指定するファイルが存在すれば true を、存在しなければ false を返します。 |
 | [FindWindow](find_window) | クラス名またはウィンドウ タイトルでトップ レベルの Window オブジェクトを検索します。 |
 | [FolderExists](folder_exists) | 指定するフォルダが存在すれば true を、存在しなければ false を返します。 |
+| [GetEnv](get_env) | 環境変数を取得します。 |
 | [GetFileAttributes](get_file_attributes) | 指定するファイルまたはフォルダの属性を返します。 |
 | [Run](run) | 新規プロセスでプログラムを実行します。 |
 | [SendKeys](send_keys) | アクティブなウィンドウにキー ストローク (またはマウス アクティビティ) を送ります。 |
