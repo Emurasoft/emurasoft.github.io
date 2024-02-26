@@ -13,7 +13,7 @@ str = shell.GetEnv( strName );
 ### \[VBScript\]
 
 ```
-str = shell.GetFileAttributes( strName )
+str = shell.GetEnv( strName )
 ```
 
 ## パラメータ

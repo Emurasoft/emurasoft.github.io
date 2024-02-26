@@ -18,6 +18,7 @@
 | [**FileExists**](file_exists) | 如果指定文件存在则返回 true；如果没有，则为 false。 |
 | **[FindWindow](find_window)** | 通过一个类名和/或窗口标题查找顶层 Window 对象。 |
 | [**FolderExists**](folder_exists) | 如果指定文件夹存在则返回 true；如果没有，则为 false。 |
+| [**GetEnv**](get_env) | 检索环境变量。 |
 | [**GetFileAttributes**](get_file_attributes) | 返回指定文件或文件夹的属性。 |
 | [**Run**](run) | 在新进程中运行程序。 |
 | **[SendKeys](send_keys)** | 发送一个或多个键击（或鼠标活动）到活动窗口中。 |
@@ -39,6 +40,7 @@ find_window
 folder_exists
 foreground_window
 keep_running
+get_env
 get_file_attributes
 run
 send_keys
