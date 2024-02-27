@@ -22,9 +22,13 @@
 
 高速启动 EmEditor 当 EmEditor 托盘图标显示时。如果勾选了该复选框，一个隐藏的 EmEidtor 窗口在会在 EmEditor 托盘图标显示的同时运行。当你启动 EmEditor 时，这个隐藏的 EmEidtor 窗口会变为可见的状态，迅速打开 EmEditor。
 
-## “在 IE 中使用使用 EmEditor 查看源文件”复选框
+## “在 IE 中使用 EmEditor 查看源文件”复选框
 
 把 EmEditor 指定为在 Internet Explorer 上查看源代码的默认工具。
+
+## “添加 EmEditor 到 IE 的 HTML 编辑器列表中”复选框
+
+添加 EmEditor 到 IE 的 HTML 编辑器列表中。这个选项仅在每个用户的安装时启用。
 
 ## “添加一个快捷方式到资源管理器的上下文菜单”复选框
 
@@ -33,10 +37,6 @@
 ## “添加 EmEditor 图标到上下文菜单中”复选框
 
 添加 EmEditor 图标到上下文菜单上。仅当勾选了 **添加一个快捷方式到资源管理器的上下文菜单** 复选框时，才能启用此选项。
-
-## “添加 EmEditor 到 IE 的 HTML 编辑器列表中”复选框
-
-添加 EmEditor 到 IE 的 HTML 编辑器列表中。这个选项仅在每个用户的安装时启用。
 
 ## 「自定义托盘图标」按钮
 

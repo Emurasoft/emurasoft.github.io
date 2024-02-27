@@ -26,6 +26,10 @@
 
 把 EmEditor 指定為在 Internet Explorer 上檢視源代碼的預設工具。
 
+## 「把 EmEditor 添加至 Internet Explorer 的 HTML 編輯器清單」核取方塊
+
+添加 EmEditor 到 Internet Explorer 的 HTML 編輯器清單中。這個選項僅在每個使用者的安裝時啟用。
+
 ## 「添加一個捷徑至檔案總管的內容功能表中」核取方塊
 
 在 EmEditor 中，添加一個捷徑到資源管理器的內容功能表上。這個選項僅在每個使用者的安裝時啟用。
@@ -33,10 +37,6 @@
 ## 「添加 EmEditor 圖示到內容功能表中」核取方塊
 
 添加 EmEditor 圖示到內容功能表上。僅當勾選了 **添加一個捷徑到檔案總管的內容功能表** 核取方塊時，才能啟用此選項。
-
-## 「把 EmEditor 添加至 Internet Explorer 的 HTML 編輯器清單」核取方塊
-
-添加 EmEditor 到 Internet Explorer 的 HTML 編輯器清單中。這個選項僅在每個使用者的安裝時啟用。
 
 ## 「自訂系統匣圖示」按鈕
 
