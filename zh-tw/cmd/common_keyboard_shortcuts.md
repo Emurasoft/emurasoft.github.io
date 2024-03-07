@@ -1,96 +1,96 @@
-# Common Keyboard Shortcuts
+# 常用鍵盤快速鍵
 
-This page lists keyboard shortcuts and resources that you may find to be useful. There is also a list of [All Keyboard Shortcuts](all_keyboard_shortcuts).
+本頁面列出了常用的鍵盤快速鍵和資源。您還可以檢視[所有鍵盤快速鍵](all_keyboard_shortcuts)清單。
 
-## Cursor Movements
-Command | Shortcut key
+## 移動游標
+命令 | 快速鍵
 --|--
-Top|Ctrl+Home
-Bottom|Ctrl+End
-Word Right|Ctrl+🠊
-Word Left|Ctrl+🠈
-Find Matching Tag|Ctrl+.
-Find Matching Parenthesis/Bracket|Ctrl+]
-Matching Parenthesis/Bracket Extend|Ctrl+Shift+]
-[Jump](https://www.emeditor.com/text-editor-features/more-features/jump/)|Ctrl+G
-Move Line Down|Ctrl+Shift+🠋
-Move Line Up|Ctrl+Shift+🠉
+文件頂部|Ctrl+Home
+文件底部|Ctrl+End
+右移一個單字|Ctrl+向右鍵
+左移一個單字|Ctrl+向左鍵
+搜尋符合的標籤|Ctrl+.
+尋找符合的括弧|Ctrl+]
+延伸選取到符合的括弧|Ctrl+Shift+]
+[跳躍](https://zh-tw.emeditor.com/text-editor-features/more-features/jump/)|Ctrl+G
+向下移動行|Ctrl+Shift+向下鍵
+向上移動行|Ctrl+Shift+向上鍵
 
-## Multiple Selections
+## 多選區
 
-- [Multiple Selection Editing](https://www.emeditor.com/text-editor-features/coding/multiple-selection-editing/)
+- [多選區編輯](https://zh-tw.emeditor.com/text-editor-features/coding/multiple-selection-editing/)
 
 | | |
 --|--
-Vertical selection | Alt+E,E 
-Line Up Extend (Vertical Mode)|Alt+Ctrl+🠉
-Line Down Extend (Vertical Mode)|Alt+Ctrl+🠋
-Deselect Bottom Selection from Multiple Selections|Alt+Ctrl+Shift+🠉
-Deselect Top Selection from Multiple Selections|Alt+Ctrl+Shift+🠋
-Select Character|F8
-Select Line|Ctrl+F8
-Select Vertically|Ctrl+Shift+F8
+垂直選擇| Alt+E,E 
+向上延伸一行(垂直選擇模式)|Alt+Ctrl+向上鍵
+向下延伸一行(垂直選擇模式)|Alt+Ctrl+向下鍵
+取消多選區最下方選取|Alt+Ctrl+Shift+向上鍵
+取消多選區最上方選取|Alt+Ctrl+Shift+向下鍵
+選擇字元|F8
+選擇行|Ctrl+F8
+垂直選擇|Ctrl+Shift+F8
 
-## Delete
-
-| | |
---|--
-Delete Right Word|Ctrl+Delete
-Delete Left Word|Ctrl+Backspace
-
-## Search
-
-- [Find and Replace](https://www.emeditor.com/text-editor-features/coding/find-replace/)
+## 刪除
 
 | | |
 --|--
-Find|Ctrl+F
-Replace|Ctrl+H
-Find Next|F3
-Find Previous|Shift+F3
-Find Next Word|Ctrl+F3
-Find Previous Word|Ctrl+Shift+F3
-Add Next Occurrence|Ctrl+R
-Select All Occurrences|Ctrl+Shift+A
-Erase Find Highlight|Alt+F3
+刪除右側單字|Ctrl+Delete
+刪除左側單字|Ctrl+Backspace
 
-## Insert
+## 搜索
+
+- [尋找和取代](https://zh-tw.emeditor.com/text-editor-features/coding/find-replace/)
 
 | | |
 --|--
-[Show Clipboard History](https://www.emeditor.com/text-editor-features/coding/clipboard-history/)|Ctrl+Shift+V, Ctrl+Shift+Insert
-Date and Time|Shift+F5
-[Numbering](https://www.emeditor.com/text-editor-features/powerful-csv-tools/numbering/)|Alt+N
-Insert Special Character|Ctrl+Shift+I
+尋找|Ctrl+F
+取代|Ctrl+H
+尋找下一個|F3
+尋找上一個|Shift+F3
+尋找下一個字|Ctrl+F3
+尋找上一個字|Ctrl+Shift+F3
+添加下一個符合結果|Ctrl+R
+選取所有符合結果|Ctrl+Shift+A
+取消尋找亮顯|Alt+F3
 
-## Programming languages
-
-| | |
---|--
-Comment|Ctrl+K,C
-Uncomment|Ctrl+K,U
-[Format Document](https://www.emeditor.com/text-editor-features/coding/format-selection/)|Ctrl+K,D
-Format Selection|Ctrl+K,F
-Wrap in HTML/XML tags  (macro)|Ctrl+Shift+,
-Go to Definition (macro)|F12
-Pop Browse Context (macro)|Ctrl+Num *
-Parameter Info (macro)|Ctrl+Shift+Space
-
-## Others
+## 插入
 
 | | |
 --|--
-[Start Window](https://www.emeditor.com/text-editor-features/user-experience/start-window/)|Press 🠋 on a new document
-[Quick Launch](https://www.emeditor.com/text-editor-features/user-experience/quick-launch/)|Ctrl+Q
-[Character Code Value](https://www.emeditor.com/text-editor-features/more-features/character-code-value/)|Ctrl+I
-[Toggle Bookmark](https://www.emeditor.com/text-editor-features/more-features/bookmarks/)|Ctrl+F2
+[顯示剪貼簿記錄](https://zh-tw.emeditor.com/text-editor-features/coding/clipboard-history/)|Ctrl+Shift+V, Ctrl+Shift+Insert
+日期和時間|Shift+F5
+[編號](https://zh-tw.emeditor.com/text-editor-features/powerful-csv-tools/numbering/)|Alt+N
+插入特殊字元|Ctrl+Shift+I
 
-## CSV cell selection mode
+## 編程語言
 
 | | |
 --|--
-Edit Cell|F2
-Right Edge|Ctrl+🠊
-Left Edge|Ctrl+🠈
-Top Edge|Ctrl+🠉
-Bottom Edge|Ctrl+🠋
+注解|Ctrl+K,C
+取消注解|Ctrl+K,U
+[格式化文檔](https://zh-tw.emeditor.com/text-editor-features/coding/format-selection/)|Ctrl+K,D
+格式化選區|Ctrl+K,F
+包含 HTML/XML 標籤（巨集）|Ctrl+Shift+,
+移至定義（巨集）|F12
+快速瀏覽內容（巨集）|Ctrl+Num *
+參數資訊（巨集）|Ctrl+Shift+Space
+
+## 其他
+
+| | |
+--|--
+[啟動視窗](https://zh-tw.emeditor.com/text-editor-features/user-experience/start-window/)|在新文檔上按向下鍵
+[快速啟動](https://zh-tw.emeditor.com/text-editor-features/user-experience/quick-launch/)|Ctrl+Q
+[字元碼值](https://zh-tw.emeditor.com/text-editor-features/more-features/character-code-value/)|Ctrl+I
+[切換書籤](https://zh-tw.emeditor.com/text-editor-features/more-features/bookmarks/)|Ctrl+F2
+
+## CSV 儲存格選擇模式
+
+| | |
+--|--
+編輯儲存格|F2
+右邊緣|Ctrl+向右鍵
+左邊緣|Ctrl+向左鍵
+上邊緣|Ctrl+向上鍵
+下邊緣|Ctrl+向下鍵
