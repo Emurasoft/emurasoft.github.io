@@ -33,8 +33,9 @@
 | **[自訂 URI 配置](customize_uri_schemes)** | 打開自訂對話方塊中的 URI 配置頁面。 |
 | **[自訂同步](customize_sync)** | 打開自訂對話方塊中的同步頁面。 |
 | **[自訂優化](customize_optimization)** | 打開自訂對話方塊中的優化頁面。 |
-| **[自訂網頁瀏覽器](customize_web)** | 打開自訂對話方塊中的網頁瀏覽器頁面。 |
 | **[自訂語法檢查](customize_validation)** | 打開自訂對話方塊中的語法檢查頁面。 |
+| **[自訂網頁瀏覽器](customize_web)** | 打開自訂對話方塊中的網頁瀏覽器頁面。 |
+| **[自訂 AI](customize_ai)** | 打開自訂對話方塊中的 AI 頁面。 |
 | **[自訂通知](customize_notifications)** | 打開自訂對話方塊中的通知頁面。 |
 | **[自訂更新](customize_update)** | 打開自訂對話方塊中的更新頁面。 |
 | **[自訂説明](customize_help)** | 打開自訂對話方塊中的説明頁面。 |
@@ -107,6 +108,7 @@ context_menu
 customize
 customize_active_string
 customize_advanced
+customize_ai
 customize_clipboard
 customize_csv_options
 customize_edit

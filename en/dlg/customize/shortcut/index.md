@@ -33,11 +33,15 @@ Adds EmEditor to the HTML editor list used by Internet Explorer. This option is 
 
 ## Add a shortcut to the Context Menu on Explorer check box
 
-Adds a shortcut to the Context Menu in Explorer. This option is enabled only if EmEditor has been installed per user.
+Adds a shortcut to the context menu in Explorer. This option is enabled only if EmEditor has been installed per user.
 
 ## Add an EmEditor icon to the Context menu check box
 
 Adds an EmEditor icon to the context menu. This option is enabled only if the **Add a shortcut to the Context Menu on Explorer** check box is set.
+
+## Add a shortcut to Windows 11 Context Menu in Explorer check box
+
+Adds a shortcut to Windows 11 context menu in Explorer. 
 
 ## Customize Tray Icon button
 

@@ -98,6 +98,10 @@ to Unicode.
 
 When this is checked, the cursor can move beyond the end of each line, and spaces are inserted when a character is inserted beyond the end of each line.
 
+## AI assisted writing check box
+
+When this is checked, EmEditor will enable AI assisted writing. This option is enabled only if the **Enable AI** check box in the **AI** page of the **Customize** dialog box is set.
+
 ## Tab/Indent button
 
 Press this button to display the [**Tab/Indent** dialog box](indent/index) to specify **Auto Indent** settings.
@@ -110,10 +114,7 @@ and will allow you to copy from another configuration.
 
 You can also move to the following dialog box from this page.
 
-<a href="indent/index.html"><b>Tab/Indent</b> Dialog Box</a> (Select the
-**Tab/Indent**
-button)
-
+[**Tab/Indent** Dialog Box](indent/index) (Select the **Tab/Indent** button)
 
 ```{toctree}
 :maxdepth: 1

@@ -34,8 +34,9 @@
 | [URI スキームのカスタマイズ](customize_uri_schemes) | \[カスタマイズ\] ダイアログ ボックスの \[URI スキーム\] ページを開きます。 |
 | [同期のカスタマイズ](customize_sync) | \[カスタマイズ\] ダイアログ ボックスの \[同期\] ページを開きます。 |
 | [最適化のカスタマイズ](customize_optimization) | \[カスタマイズ\] ダイアログ ボックスの \[最適化\] ページを開きます。 |
-| [Webブラウザのカスタマイズ](customize_web) | \[カスタマイズ\] ダイアログ ボックスの \[Webブラウザ\] ページを開きます。 |
 | [構文チェックのカスタマイズ](customize_validation) | \[カスタマイズ\] ダイアログ ボックスの \[構文チェック\] ページを開きます。 |
+| [Webブラウザのカスタマイズ](customize_web) | \[カスタマイズ\] ダイアログ ボックスの \[Webブラウザ\] ページを開きます。 |
+| [AIのカスタマイズ](customize_ai) | \[カスタマイズ\] ダイアログ ボックスの \[AI\] ページを開きます。 |
 | [通知のカスタマイズ](customize_notifications) | \[カスタマイズ\] ダイアログ ボックスの \[通知\] ページを開きます。 |
 | [更新のカスタマイズ](customize_update) | \[カスタマイズ\] ダイアログ ボックスの \[更新\] ページを開きます。 |
 | [ヘルプのカスタマイズ](customize_help) | \[カスタマイズ\] ダイアログ ボックスの \[ヘルプ\] ページを開きます。 |
@@ -107,6 +108,7 @@ context_menu
 customize
 customize_active_string
 customize_advanced
+customize_ai
 customize_clipboard
 customize_csv_options
 customize_edit
