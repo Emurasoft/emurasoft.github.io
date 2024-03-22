@@ -34,6 +34,7 @@ sync/index
 optimization/index
 validation/index
 web/index
+ai/index
 notifications/index
 update/index
 help/index
