@@ -6,7 +6,7 @@ Sorts IPv6 addresses in the current column, in ascending order.
 
 ## Description
 
-Sorts IPv6 addresses in the current column, in ascending order.
+Sorts IPv6 addresses in the current column, in ascending order. An IPv6 address must be in the canonical text representation recommended by RFC 5952. Enabling **IPv6 addresses** in the **Active String** list box in the [**Link** page](../../dlg/properties/link) of Configuration Properties allows you to distinguish text recognized as IPv6 addresses.
 
 ## How to Run
 

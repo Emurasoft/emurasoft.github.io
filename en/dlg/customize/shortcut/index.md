@@ -41,7 +41,7 @@ Adds an EmEditor icon to the context menu. This option is enabled only if the **
 
 ## Add a shortcut to the Windows 11 Context Menu in Explorer check box
 
-This option adds a shortcut to the modern context menu in Windows 11 Explorer. To activate this feature, the EmEditor tray icon must be visible in the notification area of the Windows taskbar. This check box is enabled only when all the following conditions are satisfied:
+This option adds a shortcut to the modern context menu in Windows 11 Explorer. To use this feature, the EmEditor tray icon must be visible in the notification area of the Windows taskbar. This check box is enabled only when all the following conditions are satisfied:
 
 - The operating system is **Windows 11**.
 - A Desktop Installer version of EmEditor is running.

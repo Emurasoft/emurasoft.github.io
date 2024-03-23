@@ -100,7 +100,7 @@ When this is checked, the cursor can move beyond the end of each line, and space
 
 ## AI assisted writing check box
 
-When this is checked, EmEditor will enable AI assisted writing. This option is enabled only if the **Enable AI** check box in the **AI** page of the **Customize** dialog box is set.
+When this is checked, EmEditor will enable AI assisted writing. This option is enabled only if the [**Enable AI** check box](../../customize/ai/index) in the **AI** page of the **Customize** dialog box is set.
 
 ## Tab/Indent button
 
