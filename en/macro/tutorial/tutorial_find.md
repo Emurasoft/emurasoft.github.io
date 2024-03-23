@@ -77,5 +77,5 @@ it performs searches, which has the corresponding keyboard commands shortcuts.
 | --- | --- |
 | eeFindRepeatNext | Search again forward from the current cursor position for the string that you have previously searched for. Equivalent to F3. |
 | eeFindRepeatPrevious | Search again backward from the current cursor position for the string that you have previously searched for. Equivalent to Shift + F3. |
-| eeFindRepeatNext + eeFindRepeatWord | Search forward from the current cursor position for the selected string <br> or the word at the cursor. Equivalent to CTRL + F3. |
-| eeFindRepeatPrevious + eeFindRepeatWord | Search backward from the current cursor position for the selected string <br> or the word at the cursor. Equivalent to CTRL + SHIFT + F3. |
+| eeFindRepeatNext + eeFindRepeatWord | Search forward from the current cursor position for the selected string or the word at the cursor. Equivalent to CTRL + F3. |
+| eeFindRepeatPrevious + eeFindRepeatWord | Search backward from the current cursor position for the selected string or the word at the cursor. Equivalent to CTRL + SHIFT + F3. |

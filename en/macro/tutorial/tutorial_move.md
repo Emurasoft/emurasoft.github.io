@@ -31,10 +31,10 @@ use the LEFT ARROW key on your keyboard.
 The following methods are provided to manipulate cursor movements.
 |     |     |
 | --- | --- |
-|[CharLeft](../selection/selection_charleft) | Move the cursor the specified number of characters to the left. Equivalent to the <br> LEFT ARROW key. |
-|[CharRight](../selection/selection_charright) | Move the cursor the specified number of characters to the right. Equivalent to the <br> RIGHT ARROW key. |
-|[LineDown](../selection/selection_linedown) | Move the cursor the specified number of lines down. Equivalent to the <br> DOWN ARROW key. |
-|[LineUp](../selection/selection_lineup) | Move the cursor the specified number of lines up. Equivalent to the UP <br> ARROW key. |
+|[CharLeft](../selection/selection_charleft) | Move the cursor the specified number of characters to the left. Equivalent to the LEFT ARROW key. |
+|[CharRight](../selection/selection_charright) | Move the cursor the specified number of characters to the right. Equivalent to the RIGHT ARROW key. |
+|[LineDown](../selection/selection_linedown) | Move the cursor the specified number of lines down. Equivalent to the DOWN ARROW key. |
+|[LineUp](../selection/selection_lineup) | Move the cursor the specified number of lines up. Equivalent to the UP ARROW key. |
 |[WordLeft](../selection/selection_wordleft) | Move the cursor one word to the left. Equivalent to CTRL + LEFT ARROW. |
 |[WordRight](../selection/selection_wordright) | Move the cursor one word to the right. Equivalent to CTRL + RIGHT ARROW. |
 |[PageDown](../selection/selection_pagedown) | Move the cursor down one tab. Equivalent to the PAGE DOWN key. |

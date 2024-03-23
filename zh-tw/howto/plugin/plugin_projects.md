@@ -171,8 +171,8 @@
 | **$(PlatformName)** | 目前的平臺名稱。 |
 | **$(FrameworkSDKDir)** | 末端帶反斜杠的 framework SDK 目錄。 |
 | **$(VCInstallDir)** | 末端帶反斜杠的 Visual C++ 安裝目錄。 |
-| **$(VSInstallDir)** | 末端帶反斜杠的 Visual <br> Studio 安裝目錄。 |
-| **$(WindowsSdkDir)** | 末端沒有反斜杠的 Windows <br> SDK 安裝目錄。 |
+| **$(VSInstallDir)** | 末端帶反斜杠的 Visual Studio 安裝目錄。 |
+| **$(WindowsSdkDir)** | 末端沒有反斜杠的 Windows SDK 安裝目錄。 |
 | **$(LatestFrameworkDir)** | Framework 目錄。 |
 | **$(SourceSafe)** | Visual SourceSafe executable (ss.exe) 的完整路徑以及名稱。 |
 | **$(SccProjectName)** | SourceSafe 的專案名稱。 |

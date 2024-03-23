@@ -28,9 +28,9 @@ Determines how outlining is calculated. Select one from the following:
 | --- | --- |
 | **Number of Braces {}** | Outlining is calculated by number of braces. This may be useful for many programming languages. |
 | **Number of Spaces** | Outlining is calculated by number of spaces or tabs at the beginning of each line. This may be useful for general purposes. |
-| **Custom** | Outlining is calculated according to the specified settings in the **Find** list box. If this is selected, click the **Add** button next to the **Find** <br> list box to add more than one item to the list. |
+| **Custom** | Outlining is calculated according to the specified settings in the **Find** list box. If this is selected, click the **Add** button next to the **Find** list box to add more than one item to the list. |
 | **Number of Brackets \[\]** | Outlining is calculated by number of brackets. This may be useful for some programming languages. |
-| **Custom (Specify Begin as Level 1/End as Level 2)** | Outlining is calculated according to the specified settings in the **Find** list box. If this is selected, click the **Add** button next to the **Find** <br> list box to add two items to the list. The first item in the **Find** list box is set as the begin string, and the second item as the end string. The XML configuration uses this as default. |
+| **Custom (Specify Begin as Level 1/End as Level 2)** | Outlining is calculated according to the specified settings in the **Find** list box. If this is selected, click the **Add** button next to the **Find** list box to add two items to the list. The first item in the **Find** list box is set as the begin string, and the second item as the end string. The XML configuration uses this as default. |
 | **Number of Tabs** | Outlining is calculated by number of tabs at the beginning of each line. This may be useful for general purposes. |
 
 ## Make comments collapsible check box

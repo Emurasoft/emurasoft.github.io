@@ -90,10 +90,10 @@ Select what to do if the file you are editing is changed by another program.
 
 |     |     |
 | --- | --- |
-| Ignore | Does not reload the file even if the file is modified by another <br> program. This option does not change the read-only status of EmEditor <br> even if the read-only attribute of the file is changed. |
-| Prompt | Displays a message box to ask whether it is OK to reload the file. <br> This option allows changes to the read-only status of EmEditor when <br> the read-only attribute of the file is changed. |
-| Auto-Reload | Always reloads the file unless it has been modified. This option <br> allows changes to the read-only status of EmEditor when the read-only <br> attribute of the file is changed. |
-| Keep Locked | Exclusively opens the file with EmEditor and prohibits another <br> program to write the file while the file is open. This option  <br> allows changes to the read-only status of EmEditor when the read-only <br> attribute of the file is changed. |
+| Ignore | Does not reload the file even if the file is modified by another program. This option does not change the read-only status of EmEditor even if the read-only attribute of the file is changed. |
+| Prompt | Displays a message box to ask whether it is OK to reload the file. This option allows changes to the read-only status of EmEditor when the read-only attribute of the file is changed. |
+| Auto-Reload | Always reloads the file unless it has been modified. This option allows changes to the read-only status of EmEditor when the read-only attribute of the file is changed. |
+| Keep Locked | Exclusively opens the file with EmEditor and prohibits another program to write the file while the file is open. This option  allows changes to the read-only status of EmEditor when the read-only attribute of the file is changed. |
 
 ## Default Extension text box
 

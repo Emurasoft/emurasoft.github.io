@@ -26,7 +26,7 @@ You can specify a combination of the following values.
 | FLAG\_FIND\_EXTRACT | Extracts matched lines to a new document. |
 | FLAG\_FIND\_FILTER | Shows the Filter toolbar and shows only the lines that match the specified string. If this flag is specified, you can't also specify FLAG\_FIND\_AROUND, FLAG\_FIND\_BOOKMARK, FLAG\_FIND\_COUNT, FLAG\_FIND\_EXTRACT, FLAG\_FIND\_NEXT, FLAG\_FIND\_OPEN\_DOC, FLAG\_FIND\_NO\_PROMPT, FLAG\_FIND\_SEL\_ONLY, FLAG\_FIND\_SAVE\_HISTORY, or FLAG\_FIND\_SELECT\_ALL flags. |
 | FLAG\_FIND\_NEGATIVE | Shows the Filter toolbar and excludes the lines that match the specified string. This flag must be specified with the FLAG\_FIND\_FILTER flag. |
-| FLAG\_FIND\_NEXT | Searches the string downward from the cursor position. If this flag is <br> not set, searches the string upward. |
+| FLAG\_FIND\_NEXT | Searches the string downward from the cursor position. If this flag is not set, searches the string upward. |
 | FLAG\_FIND\_NO\_PROMPT | Suppresses displaying a dialog box even if no string is found. |
 | FLAG\_FIND\_ONLY\_WORD | Searches only words. |
 | FLAG\_FIND\_OPEN\_DOC | Searches all open documents in the same frame window. |

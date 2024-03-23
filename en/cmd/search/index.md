@@ -17,7 +17,7 @@
 | **[Erase Find Highlight](erase_find_hilite)** | Erases highlights from search terms. |
 | **[Find Next Warning Character/Unicode](find_next_unicode)** | Finds the next warning or Unicode character that cannot be converted to the encoding for saving. |
 | **[Find Previous Warning Character/Unicode](find_prev_unicode)** | Finds the previous warning or Unicode character that cannot be converted to the encoding for saving. |
-| **[Erase Unicode Highlight](erase_unicode_hilite)** | Erases any highlights marking Unicode characters that cannot be converted to the <br> encoding for saving. |
+| **[Erase Unicode Highlight](erase_unicode_hilite)** | Erases any highlights marking Unicode characters that cannot be converted to the encoding for saving. |
 | **[Find in Files](grep)** | Searches multiple files for a matching string. |
 | **[Replace in Files](replace_in_files)** | Replaces text in multiple files. |
 | **[Set Focus to Filter Toolbar](focus_filter_bar)** | Sets the focus to the Filter toolbar. |

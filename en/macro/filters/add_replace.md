@@ -35,7 +35,7 @@ Specifies a combination of the following values.
 | eeFindReplaceCase | Matches cases. |
 | eeFindReplaceEscSeq | Uses escape sequences. Cannot be combined with eeFindReplaceRegExp. |
 | eeFindReplaceOnlyWord | Matches only whole words. |
-| eeFindReplaceRegExp | Uses a regular expression for the searched string. Cannot be combined <br> with eeFindReplaceEscSeq. |
+| eeFindReplaceRegExp | Uses a regular expression for the searched string. Cannot be combined with eeFindReplaceEscSeq. |
 
 _nExFlags_
 

@@ -25,10 +25,10 @@
 | **[NewlineCode](newline_code)** | Retrieves the current newline character code of the document. |
 | **[Path](document_path)** | Retrieves only the path of the current document. |
 | **[ReadOnly](document_readonly)** | Sets the Read-Only status of the document. |
-| **[Saved](document_saved)** | Retrieves or sets the flag indicating whether the document has been <br> modified <br> since last being saved or opened. |
+| **[Saved](document_saved)** | Retrieves or sets the flag indicating whether the document has been modified since last being saved or opened. |
 | **[selection](document_selection)** | Retrieves the Selection Object. |
 | **[Title](title)** | Retrieves or sets the title of the document. |
-| **[UnicodeSignature](document_unicodesignature)** | Retrieves or sets the flag indicating whether EmEditor should add the Unicode <br> signature (BOM) next time it saves the document. |
+| **[UnicodeSignature](document_unicodesignature)** | Retrieves or sets the flag indicating whether EmEditor should add the Unicode signature (BOM) next time it saves the document. |
 | **[Untitled](untitled)** | Retrieves a flag indicating whether the document is untitled. |
 
 ## Methods
@@ -42,7 +42,7 @@
 | **[CombineLines](combine_lines)** | Combines vertical adjacent duplicate cells of the CSV document. |
 | **[ConvertCsv](convert_csv)** | Converts the CSV format. |
 | **[DeleteColumn](delete_column)** | Deletes specified columns in a CSV mode. |
-| **[CopyFullName](document_copyfullname)** | Copies the complete path and file name of the document to the <br> Clipboard. |
+| **[CopyFullName](document_copyfullname)** | Copies the complete path and file name of the document to the Clipboard. |
 | **[CopyPath](document_copypath)** | Copies only the path of the document to the Clipboard. |
 | **[DeleteDuplicates](delete_duplicates)** | Deletes duplicate lines, or sets bookmarks on duplicate lines. |
 | **[ExtractColumns](extract_columns)** | Extracts the specified columns of the CSV document. |
@@ -71,7 +71,7 @@
 | **[ValidateCsv](validatecsv)** | Validates the CSV document and output errors, and optionally adjusts separator positions. |
 | **[ViewToLogical](viewtological)** | Convert the display coordinates of a specified position to the logical coordinates, and retrieves the position in the [**Point** object](../point/index). |
 | **[write](document_write)** | Inserts or overwrites a string at the current cursor position. |
-| **[writeln](document_writeln)** | Inserts or overwrites a string and a newline character at the current cursor <br> position. |
+| **[writeln](document_writeln)** | Inserts or overwrites a string and a newline character at the current cursor position. |
 
 ## Version
 

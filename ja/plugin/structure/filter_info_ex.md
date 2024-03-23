@@ -30,7 +30,7 @@ _flags_
 | --- | --- |
 | FLAG\_FIND\_BOOKMARKED\_ONLY | ブックマークが設定された行のみ一致します。このフラグは FLAG\_FIND\_UNBOOKMARKED\_ONLY と一緒に指定することはできません。 |
 | FLAG\_FIND\_CASE | 大文字と小文字を区別して検索します。 |
-| FLAG\_FIND\_CONTINUE | 次に EE\_FILTER メッセージを呼ぶ際にフィルターをクリアしないことを示します。この EE\_FILTER メッセージの直後には、フィルターが適用されず、次のメッセージまでフィルターの適用を待ちます。このフラグは複数レベルのフィルタを作成する時に使用します。FLAG\_FIND\_KEEP\_PREVIOUS フラグと似ていますが、EE\_FILTER <br> メッセージを呼び出す毎にフィルターが適用されないため、複数のレベルが存在する場合には、FLAG\_FIND\_KEEP\_PREVIOUS より高速に動作します。 |
+| FLAG\_FIND\_CONTINUE | 次に EE\_FILTER メッセージを呼ぶ際にフィルターをクリアしないことを示します。この EE\_FILTER メッセージの直後には、フィルターが適用されず、次のメッセージまでフィルターの適用を待ちます。このフラグは複数レベルのフィルタを作成する時に使用します。FLAG\_FIND\_KEEP\_PREVIOUS フラグと似ていますが、EE\_FILTER メッセージを呼び出す毎にフィルターが適用されないため、複数のレベルが存在する場合には、FLAG\_FIND\_KEEP\_PREVIOUS より高速に動作します。 |
 | FLAG\_FIND\_CR\_LF | 改行コードが CR+LF の行に一致します。このフラグは、FLAG\_FIND\_MATCH\_NL と一緒に指定する必要があります。 |
 | FLAG\_FIND\_CR\_ONLY | 改行コードが CR のみの行に一致します。このフラグは、FLAG\_FIND\_MATCH\_NL と一緒に指定する必要があります。 |
 | FLAG\_FIND\_ESCAPE | 文字列をエスケープ シーケンスで指定します。 |

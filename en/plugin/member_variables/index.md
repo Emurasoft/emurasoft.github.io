@@ -20,7 +20,7 @@ These member variables inside CETLFrame provide EmEditor with information about 
 | \_IDB\_TRUE\_24\_BW | True color, 24x24 px, black and white. |
 | \_MASK\_TRUE\_COLOR | The color that becomes transparent in the true color icon. Use RGB(r,g,b) to set this value. |
 | \_ALLOW\_OPEN\_SAME\_GROUP | TRUE if the plug-in allows EmEditor to open a new file in the same group. |
-| \_ALLOW\_MULTIPLE\_INSTANCES | TRUE if the plug-in supports multiple instances. If the plug-in should be allowed to run in more than one frame simultaneously, this message should return TRUE. Note that global <br> variables will be shared when multiple instances are running. |
+| \_ALLOW\_MULTIPLE\_INSTANCES | TRUE if the plug-in supports multiple instances. If the plug-in should be allowed to run in more than one frame simultaneously, this message should return TRUE. Note that global variables will be shared when multiple instances are running. |
 | \_MAX\_EE\_VERSION | The newest version number of supported EmEditor \* 1000. |
 | \_MIN\_EE\_VERSION | The oldest version number of supported EmEditor \* 1000. |
 | \_SUPPORT\_EE\_PRO | TRUE if EmEditor Professional is supported. |

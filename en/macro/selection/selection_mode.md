@@ -33,8 +33,8 @@ eeModeBox.  When setting the property, eeModeSelected will be ignored.
 | eeModeStream | Stream selection mode. |
 | eeModeLine | Line selection mode. |
 | eeModeBox | Vertical selection mode. |
-| eeModeMask | A mask to inspect the selection mode. Cannot use to set the property. To <br> inspect the Mode Property, use an AND operator and compare the result with <br> eeModeStream, eeModeLine, and eeModeBox. |
-| eeModeKeyboard | Specifies the keyboard selection mode. This value can be combined with <br> another value. |
+| eeModeMask | A mask to inspect the selection mode. Cannot use to set the property. To inspect the Mode Property, use an AND operator and compare the result with eeModeStream, eeModeLine, and eeModeBox. |
+| eeModeKeyboard | Specifies the keyboard selection mode. This value can be combined with another value. |
 | eeModeSelected | Selection is not empty. Valid only when retrieving the property. |
 
 ## Examples

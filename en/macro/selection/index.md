@@ -29,7 +29,7 @@
 | **[CopyLink](selection_copylink)** | Copies the hyperlink at the cursor to the Clipboard. |
 | **[Cut](selection_cut)** | Moves the selected text to the Clipboard. |
 | **[Delete](selection_delete)** | Deletes the contents of the selection. |
-| **[DeleteLeft](selection_deleteleft)** | Deletes the contents of the selection, or the <br> specified number of characters to the left of the cursor. |
+| **[DeleteLeft](selection_deleteleft)** | Deletes the contents of the selection, or the specified number of characters to the left of the cursor. |
 | **[DestructiveInsert](selection_destructiveinsert)** | Inserts text, overwriting the existing text. |
 | **[DuplicateLine](selection_duplicateline)** | Duplicates the current line. |
 | **[EndOfDocument](selection_endofdocument)** | Moves the cursor to the end of the document. |
@@ -47,7 +47,7 @@
 | **[GetTopPointX](selection_gettoppointx)** | Returns the column number of the top of the selection. |
 | **[GetTopPointY](selection_gettoppointy)** | Returns the line number of the top of the selection. |
 | **[GoToBrace](selection_gotobrace)** | Moves the cursor to the corresponding bracket / brace. |
-| **[Indent](selection_indent)** | Indents the selected lines by the specified number of indentation <br> levels. |
+| **[Indent](selection_indent)** | Indents the selected lines by the specified number of indentation levels. |
 | **[InsertDate](selection_insertdate)** | Inserts the current time and date. |
 | **[InsertFromFile](selection_insertfromfile)** | Inserts the contents of the specified file at the cursor position. |
 | **[LineDown](selection_linedown)** | Moves the cursor down a specified number of lines. |
@@ -73,7 +73,7 @@
 | **[StartOfLine](selection_startofline)** | Moves the cursor to the start of the line. |
 | **[Tabify](selection_tabify)** | Converts spaces to tabs in the selection. |
 | **[TagJump](selection_tagjump)** | Jumps to a tag at the cursor. |
-| **[UnIndent](selection_unindent)** | Removes indents from the selected text by the specified number of <br> indentation levels. |
+| **[UnIndent](selection_unindent)** | Removes indents from the selected text by the specified number of indentation levels. |
 | **[Untabify](selection_untabify)** | Converts tabs to spaces in the selection. |
 | **[WordLeft](selection_wordleft)** | Moves the cursor the specified number of words to the left. |
 | **[WordRight](selection_wordright)** | Moves the cursor the specified number of words to the right. |

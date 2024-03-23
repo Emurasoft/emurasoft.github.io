@@ -10,7 +10,7 @@ Specifies how lines should wrap. Select one of the following options.
 |     |     |
 | --- | --- |
 | **No Wrap** | Does not wrap lines. |
-| **Specified Characters** | Wraps by a specified length of characters (in bytes). The length of <br> characters can be specified at **Normal**<br>**Line Margin** text box or **Quote**<br>**Line Margin** text box. |
+| **Specified Characters** | Wraps by a specified length of characters (in bytes). The length of characters can be specified at **Normal Line Margin** text box or **Quote Line Margin** text box. |
 | **Window Width** | Wraps according to the window width. If the window resizes, the wrapped position will resize. |
 | **Page Width** | Wraps according to the printed page width. |
 
@@ -21,10 +21,10 @@ one of the following options.
 
 |     |     |
 | --- | --- |
-| **Display Coordinates** | Line numbers and column positions are counted as displayed. If a line <br> wraps, the wrapped position is counted. The column position will be restored <br> to one at the wrapped position. A full-width character is counted as two. It <br> can be called a word-processor-like display. |
-| **Logical Coord.** (Full-Width Char. as 2 Col.) | Line numbers and column positions are counted by real logical lines. <br> Lines numbers and column positions do not depend on how lines are wrapped. A <br> full-width character is counted as two columns. A tab character is counted as <br> one character. |
-| **Logical Coord.**(Full-Width Char. as 1 Col.) | Line numbers and column positions are counted by real logical lines. <br> Line numbers and column positions do not depend on how lines are wrapped. A <br> full-width character is counted as one column. A tab character is counted as <br> one character. |
-| **Logical w/Tab**(Full-Width Char. as 2 Col.) | Line numbers and column positions are counted by real logical lines. <br> Line numbers and column positions do not depend on how lines are wrapped. A <br> full-width character is counted as two columns. A tab character is counted as <br> if it were replaced by spaces. |
+| **Display Coordinates** | Line numbers and column positions are counted as displayed. If a line wraps, the wrapped position is counted. The column position will be restored to one at the wrapped position. A full-width character is counted as two. It can be called a word-processor-like display. |
+| **Logical Coord.** (Full-Width Char. as 2 Col.) | Line numbers and column positions are counted by real logical lines. Lines numbers and column positions do not depend on how lines are wrapped. A full-width character is counted as two columns. A tab character is counted as one character. |
+| **Logical Coord.**(Full-Width Char. as 1 Col.) | Line numbers and column positions are counted by real logical lines. Line numbers and column positions do not depend on how lines are wrapped. A full-width character is counted as one column. A tab character is counted as one character. |
+| **Logical w/Tab**(Full-Width Char. as 2 Col.) | Line numbers and column positions are counted by real logical lines. Line numbers and column positions do not depend on how lines are wrapped. A full-width character is counted as two columns. A tab character is counted as if it were replaced by spaces. |
 
 ## Normal Line Margin text box
 

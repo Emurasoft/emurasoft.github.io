@@ -28,7 +28,7 @@ SEL\_TYPE\_CHAR, SEL\_TYPE\_LINE, or SEL\_TYPE\_BOX.
 | SEL\_TYPE\_CHAR | Stream selection mode. |
 | SEL\_TYPE\_LINE | Line selection mode. |
 | SEL\_TYPE\_BOX | Vertical selection mode. |
-| SEL\_TYPE\_KEYBOARD | Specifies the keyboard selection mode. This value can be combined with <br> another value. |
+| SEL\_TYPE\_KEYBOARD | Specifies the keyboard selection mode. This value can be combined with another value. |
 
 ## Return Values
 

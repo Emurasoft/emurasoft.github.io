@@ -32,7 +32,7 @@ Specifies a combination of the following values.
 
 |     |     |
 | --- | --- |
-| eeFindContinue | Specifies the Filter method called next time should not clear the filter. This filter is not <br> applied immediately after this Filter method is called. This flag is used when you want to create multiple levels of the filter. <br> It is similar to the eeFindKeepPrevious flag, but since the actual filter is not <br> applied each time the Filter method is called, this method works faster if there are multiple filter levels. |
+| eeFindContinue | Specifies the Filter method called next time should not clear the filter. This filter is not applied immediately after this Filter method is called. This flag is used when you want to create multiple levels of the filter. It is similar to the eeFindKeepPrevious flag, but since the actual filter is not applied each time the Filter method is called, this method works faster if there are multiple filter levels. |
 | eeFindKeepPrevious | Specifies the Filter method should not clear the existing filter before applying the new filter. This flag is used when you want to create multiple levels of the filter. |
 | eeFindLogicalOr | Specifies a logical disjunction (logical OR) to the previous level in case of multiple levels of the filter. |
 | eeFindNegative | Shows the Filter toolbar and excludes the lines that match the specified string. |
@@ -40,7 +40,7 @@ Specifies a combination of the following values.
 | eeFindReplaceCase | Matches cases. |
 | eeFindReplaceEscSeq | Uses escape sequences. Cannot be combined with eeFindReplaceRegExp or eeExFindNumberRange. |
 | eeFindReplaceOnlyWord | Matches only whole words. |
-| eeFindReplaceRegExp | Uses a regular expression for the searched string. Cannot be combined <br> with eeFindReplaceEscSeq or eeExFindNumberRange. |
+| eeFindReplaceRegExp | Uses a regular expression for the searched string. Cannot be combined with eeFindReplaceEscSeq or eeExFindNumberRange. |
 | eeFindWholeString | Matches whole strings. |
 
 _xBegin_

@@ -128,13 +128,13 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | /eh | grabs a text box contents. |
 | /fc " _FindWhat_" | find in files (case sensitive). |
 | /fd | displays the [**Find in Files**dialog box](../../dlg/find_in_files/index). |
-| /ff " _FindWhat_" | find a string directly within the opened document. Can be combined with <br> /mc or /x. |
+| /ff " _FindWhat_" | find a string directly within the opened document. Can be combined with /mc or /x. |
 | /fi " _FindWhat_" | find in files (ignore case). |
 | /fh | highlights searched strings. |
 | /fhf | filters using the last searched string(s). |
 | /fn | displays only file names when finding in file. |
 | /fu " _FilesToIgnore_" | ignores the following file or folder names. |
-| /fr | search in sub folders when finding in <br>files (use with /fc or /fi). |
+| /fr | search in sub folders when finding in files (use with /fc or /fi). |
 | /fw | searches only words. |
 | /hide | runs EmEditor as a hidden window when the "Quick Start" option is enabled. |
 | /i | pastes a text string from the Clipboard. |
@@ -148,7 +148,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | /mc | matches cases when /ff is used to find a string. |
 | /mf | specifies a macro file to run. |
 | /n | always start as a new file. |
-| /ncp | suppresses "The specified file does not exist. Open as a new file?" prompt when a specified file is not found. <br> This option does not apply when restoring files from a workspace. |
+| /ncp | suppresses "The specified file does not exist. Open as a new file?" prompt when a specified file is not found. This option does not apply when restoring files from a workspace. |
 | /ne | specifies event-triggered macros should be disabled. |
 | /ng | always creates a new group window. |
 | /nr | does not add the file path to the recent file list. |
@@ -157,7 +157,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | /pos left top right bottom | specifies the window position with four integers (left, top, right, bottom). |
 | /r | read-only mode. |
 | /rc " _FindWhat_" | replaces in files (case sensitive). |
-| /rd | displays the [**Replace in**\<br>**Files** dialog box](../../dlg/replace_in_files/index). |
+| /rd | displays the [**Replace in Files** dialog box](../../dlg/replace_in_files/index). |
 | /rh | opens HTML files as read-only. Used internally. |
 | /ri " _FindWhat_" | replaces in files (ignore case). |
 | /rr | opens files in folders recursively. |
@@ -167,7 +167,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | /scrlf | saves the file using CR+LF as newline characters after the encoding conversion. |
 | /scr | saves the file using the CR only as newline characters after the encoding conversion. |
 | /slf | saves the file using the LF only as newline characters after the encoding conversion. |
-| /sp | specifies that a new separate process from other EmEditor windows should be run. This option is useful when a new EmEditor window must be launched from another application because the application must monitor the process termination so it can <br> detect the file modification. If this is specified, however, some features including tab operations will be disabled, and will void support. |
+| /sp | specifies that a new separate process from other EmEditor windows should be run. This option is useful when a new EmEditor window must be launched from another application because the application must monitor the process termination so it can detect the file modification. If this is specified, however, some features including tab operations will be disabled, and will void support. |
 | /ss+ | saves the file with a Unicode signature (BOM) after the encoding conversion. |
 | /ss- | saves the file without a Unicode signature (BOM) after the encoding conversion. |
 | /ti | displays the Tray Icon. |

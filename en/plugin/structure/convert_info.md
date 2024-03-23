@@ -34,7 +34,7 @@ You can specify a combination of the following values.
 | FLAG\_MAKE\_LOWER\_L | Converts to lowercase characters (locale-dependent). |
 | FLAG\_MAKE\_UPPER\_L | Converts to uppercase characters (locale-dependent). |
 | FLAG\_CAPITALIZE\_L | Capitalizes the first letter of each word (locale-dependent). |
-| FLAG\_CONVERT\_SELECT\_ALL | Converts the entire text. If this flag is not set, EE\_CONVERT converts <br> the characters only in the selection. |
+| FLAG\_CONVERT\_SELECT\_ALL | Converts the entire text. If this flag is not set, EE\_CONVERT converts the characters only in the selection. |
 | FLAG\_CONVERT\_KATA | Converts Katakana. |
 | FLAG\_CONVERT\_ALPHANUMERIC | Converts Alphabets and numeric characters. |
 | FLAG\_CONVERT\_MARK | Converts marks. |

@@ -14,7 +14,7 @@
 | [Editor\_ConvertCsv](editor_convertcsv) | Converts the CSV format of the current document. |
 | [Editor\_CustomBarOpen](editor_custombaropen) | Opens a custom bar. |
 | [Editor\_CustomBarClose](editor_custombarclose) | Closes a custom bar. |
-| [Editor\_DevToView](editor_devtoview) | Converts the device (client) coordinates of a specified position to the <br> display coordinates. |
+| [Editor\_DevToView](editor_devtoview) | Converts the device (client) coordinates of a specified position to the display coordinates. |
 | [Editor\_DocGetConfigA](editor_docgetconfiga) | Retrieves the selected configuration name for the specified document as an ANSI string. |
 | [Editor\_DocGetConfigW](editor_docgetconfigw) | Retrieves the selected configuration name for the specified document as a Unicode string. |
 | [Editor\_DocGetLines](editor_docgetlines) | Retrieves the number of the lines for the specified document. |
@@ -63,12 +63,12 @@
 | [Editor\_GetLineW](editor_getlinew) | Retrieves the Unicode text on the specified line. |
 | [Editor\_GetMargin](editor_getmargin) | Retrieves the margin size. |
 | [Editor\_GetModified](editor_getmodified) | Retrieves the modified state of the text. |
-| [Editor\_GetMultiSel](editor_getmultisel) | Retrieves the information of a specified selection when multiple <br> selections are available. |
+| [Editor\_GetMultiSel](editor_getmultisel) | Retrieves the information of a specified selection when multiple selections are available. |
 | [Editor\_GetOutlineLevel](editor_getoutlinelevel) | Retrieves the outline level for the specified logical line. |
 | [Editor\_GetOutputString](editor_getoutputstring) | Retrieves the text in the output bar. |
 | [Editor\_GetPageSize](editor_getpagesize) | Retrieves a page size. |
 | [Editor\_GetRef](editor_getref) | Retrieves the reference number of a specified plug-in. |
-| [Editor\_GetRedraw](editor_getredraw) | Retrieves the flag that allows changes in EmEditor to be redrawn or prevents changes in EmEditor <br> to be redrawn. |
+| [Editor\_GetRedraw](editor_getredraw) | Retrieves the flag that allows changes in EmEditor to be redrawn or prevents changes in EmEditor to be redrawn. |
 | [Editor\_GetScrollPos](editor_getscrollpos) | Retrieves the current positions of the scroll bars. |
 | [Editor\_GetSelEnd](editor_getselend) | Retrieves the ending character position of the selection. |
 | [Editor\_GetSelStart](editor_getselstart) | Retrieves the starting character position of the selection. |
@@ -82,19 +82,19 @@
 | [Editor\_GetVersion](editor_getversion) | Returns the version number. |
 | [Editor\_GetWord](editor_getword) | Retrieves a word at the cursor position. |
 | [Editor\_Help](editor_help) | Displays the specified page of the Help. |
-| [Editor\_Info](editor_info) | Retrieves or sets the value of one of the information parameters used by <br> EmEditor. |
+| [Editor\_Info](editor_info) | Retrieves or sets the value of one of the information parameters used by EmEditor. |
 | [Editor\_InsertA](editor_inserta) | Inserts an ANSI string into the current cursor position. |
 | [Editor\_InsertClip](editor_insertclip) | Inserts text at the specified position in the Clipboard history. |
 | [Editor\_InsertFileA](editor_insertfilea) | Inserts the specified file contents at the cursor (ANSI). |
 | [Editor\_InsertFileW](editor_insertfilew) | Inserts the specified file contents at the cursor (Unicode). |
-| [Editor\_InsertStringA](editor_insertstringa) | Inserts an ANSI string at the current cursor position. This may <br> overwrite the existing string depending on the current properties. |
-| [Editor\_InsertStringW](editor_insertstringw) | Inserts a Unicode string into the current cursor position. This may <br> overwrite the existing string depending on the current Properties. |
+| [Editor\_InsertStringA](editor_insertstringa) | Inserts an ANSI string at the current cursor position. This may overwrite the existing string depending on the current properties. |
+| [Editor\_InsertStringW](editor_insertstringw) | Inserts a Unicode string into the current cursor position. This may overwrite the existing string depending on the current Properties. |
 | [Editor\_InsertW](editor_insertw) | Inserts a Unicode string at the current cursor position. |
-| [Editor\_IsCharHalfOrFull](editor_ischarhalforfull) | Determines whether a specified character is a half-width or full-width <br> character. It can also count the total widths of the specified string. |
+| [Editor\_IsCharHalfOrFull](editor_ischarhalforfull) | Determines whether a specified character is a half-width or full-width character. It can also count the total widths of the specified string. |
 | [Editor\_Join](editor_join) | Combines two CSV documents specifying key columns, using a method similar to JOIN operations, and creates a new document. |
 | [Editor\_KeyboardProp](editor_keyboardprop) | Displays the Keyboard Properties for the specified command ID and configuration. |
-| [Editor\_LineFromChar](editor_linefromchar) | Retrieves the index of the line that contains the specified character <br> index (the serial position). |
-| [Editor\_LineIndex](editor_lineindex) | Retrieves the character index of the first character of a specified line <br> in EmEditor. |
+| [Editor\_LineFromChar](editor_linefromchar) | Retrieves the index of the line that contains the specified character index (the serial position). |
+| [Editor\_LineIndex](editor_lineindex) | Retrieves the character index of the first character of a specified line in EmEditor. |
 | [Editor\_LoadConfigA](editor_loadconfiga) | Reloads a configuration which is specified by name as an ANSI string. |
 | [Editor\_LoadConfigW](editor_loadconfigw) | Reloads a configuration which is specified by name as a Unicode string. |
 | [Editor\_LoadFileA](editor_loadfilea) | Loads a specified file into EmEditor (ANSI). |
@@ -106,14 +106,14 @@
 | [Editor\_Numbering](editor_numbering) | Inserts numbering at the cursor position or vertical selection. |
 | [Editor\_OutputDir](editor_outputdir) | Sets the current directory for the output bar. |
 | [Editor\_OutputString](editor_outputstring) | Appends a string to the output bar. |
-| [Editor\_OverwriteA](editor_overwritea) | Inserts an ANSI string by overwriting the existing string at the current <br> cursor position. |
-| [Editor\_OverwriteW](editor_overwritew) | Inserts a Unicode string by overwriting the existing string at the <br> current cursor position. |
+| [Editor\_OverwriteA](editor_overwritea) | Inserts an ANSI string by overwriting the existing string at the current cursor position. |
+| [Editor\_OverwriteW](editor_overwritew) | Inserts a Unicode string by overwriting the existing string at the current cursor position. |
 | [Editor\_PivotTable](editor_pivottable) | Creates a pivot table in the CSV document. |
 | [Editor\_QueryStatus](editor_querystatus) | Queries the status of the command, whether the command is enabled, and whether <br>the status has been checked. |
 | [Editor\_QueryString](editor_querystring) | Queries the string associated with the specified command. |
 | [Editor\_QueryStringEx](editor_querystringex) | Queries the string associated with the specified command. This inline function supports a long path exceeding MAX\_PATH. |
 | [Editor\_RearrangeColumns](editor_rearrangecolumns) | Rearranges CSV columns. |
-| [Editor\_Redraw](editor_redraw) | Allows changes in EmEditor to be redrawn, or prevents changes in EmEditor <br> from being redrawn. |
+| [Editor\_Redraw](editor_redraw) | Allows changes in EmEditor to be redrawn, or prevents changes in EmEditor from being redrawn. |
 | [Editor\_RegQueryValue](editor_regqueryvalue) | Queries a value from the Registry or an INI file depending on the EmEditor settings. |
 | [Editor\_RegSetValue](editor_regsetvalue) | Sets a value into the Registry or an INI file depending on the EmEditor settings. |
 | [Editor\_Release](editor_release) | Decrements the reference number of the plug-in. |
@@ -158,8 +158,8 @@
 | [Editor\_ToolbarShow](editor_toolbarshow) | Shows or hides a custom toolbar. |
 | [Editor\_Unpivot](editor_unpivot) | Converts columns into rows by flattening the CSV data. |
 | [Editor\_UpdateToolbar](editor_updatetoolbar) | Updates a button status in a toolbar. |
-| [Editor\_ViewToDev](editor_viewtodev) | Converts the display coordinates of a specified position to the device <br> (client) coordinates. |
-| [Editor\_ViewToLogical](editor_viewtological) | Converts the display coordinates of a specified position to the logical <br> coordinates. |
+| [Editor\_ViewToDev](editor_viewtodev) | Converts the display coordinates of a specified position to the device (client) coordinates. |
+| [Editor\_ViewToLogical](editor_viewtological) | Converts the display coordinates of a specified position to the logical coordinates. |
 
 
 ```{toctree}

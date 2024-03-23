@@ -33,7 +33,7 @@
 | **[Japanese Shift JIS으로 저장](file_save_932)** | Japanese Shift JIS 인코딩을 사용하여 현재 파일을 저장합니다. |
 | **[Japanese JIS으로 저장](file_save_jis)** | Japanese JIS 인코딩을 사용하여 현재 파일을 저장합니다. |
 | **[Japanese EUC으로 저장](file_save_euc)** | Japanese EUC 인코딩을 사용하여 현재 파일을 저장합니다. |
-| [**인코딩하여 저장하기 리스트**](file_save_defined) | 지정된<br> 인코딩을 사용하여현재 파일을 저장합니다 <br> (여러 항목). |
+| [**인코딩하여 저장하기 리스트**](file_save_defined) | 지정된<br> 인코딩을 사용하여현재 파일을 저장합니다 (여러 항목). |
 | **[CR+LF로 저장 명령](save_as_crlf)** | CR+LF로 저장합니다. |
 | **[CR로만 저장 명령](save_as_cr)** | CR로만 저장합니다. |
 | **[LF로만 저장 명령](save_as_lf)** | LF로만 저장합니다. |

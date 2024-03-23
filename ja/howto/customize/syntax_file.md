@@ -21,9 +21,9 @@
 | #Escape= | 引用符のエスケープ文字を指定します。 |
 | #ScriptBegin= | スクリプト開始文字列を指定します。 |
 | #ScriptEnd= | スクリプト終了文字列を指定します。 |
-| #SpecialSyntax= | HTML とスクリプト言語の混在に応じて HTML、HTML-Embedded、off のいずれかを指定します。<br>- #SpecialSyntax=HTML は、<SCRIPT <br>   type=...>で始まるスクリプトが HTML ファイルに含まれている場合や、<%で始まるスクリプトを含む ASP ファイルで利用されます。これらのスクリプトには通常 VBScript、JavaScript、PerlScript、CSS を含みます。<br>- #SpecialSyntax=HTML-Embedded は、PHP や JSP のように<?や<%など #ScriptBegin で指定した文字列から始まるスクリプトを含む HTML ファイルに利用されます。 |
+| #SpecialSyntax= | HTML とスクリプト言語の混在に応じて HTML、HTML-Embedded、off のいずれかを指定します。<br>- #SpecialSyntax=HTML は、\<SCRIPT   type=...\>で始まるスクリプトが HTML ファイルに含まれている場合や、<%で始まるスクリプトを含む ASP ファイルで利用されます。これらのスクリプトには通常 VBScript、JavaScript、PerlScript、CSS を含みます。<br>- #SpecialSyntax=HTML-Embedded は、PHP や JSP のように<?や<%など #ScriptBegin で指定した文字列から始まるスクリプトを含む HTML ファイルに利用されます。 |
 | #HighlightBraces= | on を指定すると対応するかっこを強調します。off を指定すると強調しません。 |
-| #Keyword= | 次のオプションを含みます。<br>- color= 強調色を指定します。この色はプロパティの \[表示\] ページの一覧の強調単語(1)～(10)で調べることができます。<br>- word= <br>   キーワードが単語のみで強調する場合に on を指定します。たとえば、キーワードが run で word=on を指定していると、runner の中の run の部分は強調されません。<br>- rightall= キーワードの右側もすべて強調したい場合は on を指定します。<br>- case= 大文字と小文字を区別したい場合は on を指定します。<br>- insidetag= タグの内側だけ強調したい場合に on を指定します。<br>- regexp= 正規表現を使って一致した文字列を強調したい場合に on を指定します。 |
+| #Keyword= | 次のオプションを含みます。<br>- color= 強調色を指定します。この色はプロパティの \[表示\] ページの一覧の強調単語(1)～(10)で調べることができます。<br>- word=   キーワードが単語のみで強調する場合に on を指定します。たとえば、キーワードが run で word=on を指定していると、runner の中の run の部分は強調されません。<br>- rightall= キーワードの右側もすべて強調したい場合は on を指定します。<br>- case= 大文字と小文字を区別したい場合は on を指定します。<br>- insidetag= タグの内側だけ強調したい場合に on を指定します。<br>- regexp= 正規表現を使って一致した文字列を強調したい場合に on を指定します。 |
 
 3. 構文ファイルが完成して保存したら、新しい設定を作成してその構文ファイルをインポートするか、既に存在する設定にその構文ファイルをインポートすることができます。
 

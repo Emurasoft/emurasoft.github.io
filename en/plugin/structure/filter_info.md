@@ -27,7 +27,7 @@ Specifies a combination of the following values.
 |     |     |
 | --- | --- |
 | FLAG\_FIND\_CASE | Matches cases. |
-| FLAG\_FIND\_CONTINUE | Specifies the EE\_FILTER message called next time should not clear the filter. This filter is not <br> applied immediately after this message is called. This flag is used when you want to create multiple levels of the filter. <br> It is similar to the FLAG\_FIND\_KEEP\_PREVIOUS flag, but since the actual filter is not <br> applied each time the message is called, this method works faster if there are multiple filter levels. |
+| FLAG\_FIND\_CONTINUE | Specifies the EE\_FILTER message called next time should not clear the filter. This filter is not applied immediately after this message is called. This flag is used when you want to create multiple levels of the filter. It is similar to the FLAG\_FIND\_KEEP\_PREVIOUS flag, but since the actual filter is not applied each time the message is called, this method works faster if there are multiple filter levels. |
 | FLAG\_FIND\_ESCAPE | Uses escape sequences. |
 | FLAG\_FIND\_KEEP\_PREVIOUS | Specifies the EE\_FILTER message should not clear the existing filter before applying the new filter. This flag is used when you want to create multiple levels of the filter. |
 | FLAG\_FIND\_LOGICAL\_OR | Specifies a logical disjunction (logical OR) to the previous level in case of multiple levels of the filter. |

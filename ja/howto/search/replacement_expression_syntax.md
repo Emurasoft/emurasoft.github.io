@@ -27,7 +27,7 @@
 | \\V | \\J と同じですが、\\V は Chakra エンジンの代わりに V8 JavaScript エンジンを使用します。 |
 | \\D | [数値範囲表現](number_range_syntax) の日付/時刻タイプが使用された一致の場合、この表現は日付フォーマットを指定します。\\Tと組み合わせて使用することもできます。 [利用可能な日、月、年形式のフォーマットを参照](https://docs.microsoft.com/ja-jp/windows/win32/intl/day--month--year--and-era-format-pictures)。例えば、一致した日付/時刻が「2022-03-31 21:30」の場合:<table><tbody><tr><th>置換表現</th><th>結果</th></tr><tr><td>\DM/d/yyyy</td><td>3/31/2022</td></tr><tr><td>\Dyyyy年M月d日</td><td>&nbsp;2022年3月31日</td></tr><tr><td>\D'month='M'day='d\THH:mm</td><td>month=3day=3121:30</td></tr></tbody></table>
 | \\T | [数値範囲表現](number_range_syntax) の日付/時刻タイプが使用された一致の場合、この表現は時刻フォーマットを指定します。\\Dと組み合わせて使用することもできます。 [利用可能な時刻、分、秒形式のフォーマットを参照](https://docs.microsoft.com/ja-jp/windows/win32/intl/day--month--year--and-era-format-pictures)。例えば、一致した日付/時刻が「2022-03-31 21:30」の場合:<table><tbody><tr><th>置換表現</th><th>結果</th></tr><tr><td>\THH:mm</td><td>21:30</td></tr><tr><td>\Th:mmtt</td><td>9:30PM</td></tr><tr><td>\THH:mm\D-yyyy-MM-dd</td><td>21:30-2022-03-31</td></tr></tbody></table>
-| (?Ntrue\_expression:false\_expression) | 部分式 N が一致した場合、true\_expression に変換されます。一致しない場合は false\_expression <br> に変換されます。例えば、(?1foo:bar) は部分式 \\1 が一致すると foo と置換され、一致しないと  bar と置換されます。(?{1}foo:bar) と書くこともできます。 |
+| (?Ntrue\_expression:false\_expression) | 部分式 N が一致した場合、true\_expression に変換されます。一致しない場合は false\_expression に変換されます。例えば、(?1foo:bar) は部分式 \\1 が一致すると foo と置換され、一致しないと  bar と置換されます。(?{1}foo:bar) と書くこともできます。 |
 | $(Path) | ファイル パス |
 | $(Dir) | ファイル ディレクトリ |
 | $(Filename) | 拡張子無しファイル名 |

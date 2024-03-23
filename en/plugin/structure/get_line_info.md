@@ -33,7 +33,7 @@ The low word of this parameter is a combination of the following values.
 | --- | --- |
 | FLAG\_LOGICAL | Specifies _yLine_ field by logical coordinates _yLine_. |
 | FLAG\_WITH\_CRLF | Adds return codes to the text. |
-| FLAG\_GET\_CRLF\_BYTE | Instructs the _byteCrLf_ field to be filled with the flag indicating the newline characters. FLAG\_LOGICAL must also be <br> specified. |
+| FLAG\_GET\_CRLF\_BYTE | Instructs the _byteCrLf_ field to be filled with the flag indicating the newline characters. FLAG\_LOGICAL must also be specified. |
 
 The high word of this parameter is the index of the target document. A one-based index should be specified at the higher word of flags. If 0 is specified at the higher word of flags, the currently active document will
 be targeted. If USE\_HDOC is specified at the higher word of flags, the _hDoc_ field specifies the handle to the target document.

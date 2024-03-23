@@ -3,7 +3,7 @@
 |     |     |
 | --- | --- |
 | [EP\_DISABLE\_AUTO\_COMPLETE](ep_disable_auto_complete) | Queries whether the auto complete for brackets/quotation marks feature should be disabled. |
-| [EP\_GET\_BITMAP](ep_get_bitmap) | Retrieves bitmap resource IDs for various sizes and color depths for the <br> plug-in displayed on a toolbar. |
+| [EP\_GET\_BITMAP](ep_get_bitmap) | Retrieves bitmap resource IDs for various sizes and color depths for the plug-in displayed on a toolbar. |
 | [EP\_GET\_INFO](ep_get_info) | Retrieves information about the plug-in. |
 | [EP\_GET\_MASK](ep_get_mask) | Retrieves mask color for the plug-in button on a toolbar. |
 | [EP\_GET\_NAME](ep_get_name) | Retrieves the plug-in name. |

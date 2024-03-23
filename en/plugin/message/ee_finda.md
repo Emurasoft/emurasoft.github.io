@@ -24,7 +24,7 @@ You can specify a combination of the following values.
 | FLAG\_FIND\_EMBEDDED\_NL | Matches embedded newlines in CSV documents and does not match other newlines. |
 | FLAG\_FIND\_ESCAPE | Uses escape sequences. |
 | FLAG\_FIND\_EXTRACT | Extracts matched lines to a new document. |
-| FLAG\_FIND\_NEXT | Searches the string downward from the cursor position. If this flag is <br> not set, searches the string upward. |
+| FLAG\_FIND\_NEXT | Searches the string downward from the cursor position. If this flag is not set, searches the string upward. |
 | FLAG\_FIND\_NO\_PROMPT | Suppresses displaying a dialog box even if no string is found. |
 | FLAG\_FIND\_ONLY\_WORD | Searches only words. |
 | FLAG\_FIND\_OPEN\_DOC | Searches all open documents in the same frame window. |

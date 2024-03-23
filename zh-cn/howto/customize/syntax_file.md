@@ -18,7 +18,7 @@
 | #Escape= | 指定用作引号转义符的字符。 |
 | #ScriptBegin= | 指定用来标记脚本开始的字符。 |
 | #ScriptEnd= | 指定用来标记脚本开始的字符。 |
-| #SpecialSyntax= | 指定 **HTML**， **HTML-内嵌**，或 **无**，取决于在同一个文档中是否有 HTML 和其他脚本语言的混合。<br> <br>- 选择 **HTML**，当 HTML 标签指定脚本语言 (**<SCRIPT type=...>**) 存在在这个 **HTML** 文档中。 <br>   HTML 同样也适用于包含以 <% 标记开始的脚本的 ASP 文件，诸如 VBScript，JavaScript，PerlScript，<br>   CSS，等。<br>- **HTML-内嵌** 适用于 PHP 或 JSP 这样的脚本语言，并且通常这些脚本语言以 #ScriptBegin 字符开始。 |
+| #SpecialSyntax= | 指定 **HTML**， **HTML-内嵌**，或 **无**，取决于在同一个文档中是否有 HTML 和其他脚本语言的混合。<br> <br>- 选择 **HTML**，当 HTML 标签指定脚本语言 (**\<SCRIPT type=...\>**) 存在在这个 **HTML** 文档中。   HTML 同样也适用于包含以 <% 标记开始的脚本的 ASP 文件，诸如 VBScript，JavaScript，PerlScript，<br>   CSS，等。<br>- **HTML-内嵌** 适用于 PHP 或 JSP 这样的脚本语言，并且通常这些脚本语言以 #ScriptBegin 字符开始。 |
 | #HighlightBraces= | 要么 **on** 或 **off**，取决于你是否想要高亮括号。 |
 | #Keyword= | #Keyword 选项包括: <br>- **color** = 指定高亮颜色。让你能在 **当前配置属性** 中的 **显示** 页面上预览颜色。滚动页面上的列表，你会发现高亮(1)到高亮(10)的选项。你可以用这几个选项设定高亮颜色。<br>- **word** = 指定 **on** 会高亮关键字，仅当整个单词都匹配时。例如，如果关键字是“run”，如果你指定了 **word=on**， **runner** 中的 **run** 就不会被高亮。,<br>- **rightall** = 要么 **on** 或 **off**，取决于你是否想要高亮除了匹配关键字之外的右侧区域。<br>- **case** = 要么 **on** 或 **off**，取决于你是否想要匹配的关键字的大小写也符合。<br>- **insidetag** = 指定 **on** 会高亮关键字仅当它们存在在标签中时。<br>- **regexp=** 指定 **on** 会用正则表达式高亮匹配的关键字。 |
 

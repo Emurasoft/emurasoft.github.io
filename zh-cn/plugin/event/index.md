@@ -29,7 +29,7 @@
 | EVENT\_TEMP\_SAVING | 当用户正要保存一个临时文档时被调用。该插件负责保存文件。lParam 代表存储一个指针到 [TEMP\_INFO 结构](../structure/temp_info) 中。 |
 | EVENT\_TOOLBAR\_CLOSED | 当关闭一个自定义工具栏时被调用。与 EVENT\_CUSTOM\_BAR\_CLOSED 消息不同，EmEditor 不毁坏客户端窗口。lParam 代表存储一个指针到 [TOOLBAR\_INFO 结构](../structure/toolbar_info) 中（支持 EmEditor 7.00 或之后的版本）。 |
 | EVENT\_TOOLBAR\_SHOW | 当显示或隐藏一个自定义工具栏时被调用 （即当 RBBS\_HIDDEN 样式被切换时）。lParam 代表存储一个指针到 [TOOLBAR\_INFO 结构](../structure/toolbar_info) 中 （支持 EmEditor 7.00 或之后的版本）。 |
-| EVENT\_UI\_CHANGED | 调用当 UI 变更时。<br> changed. lParam 代表下列标志的组合: <br> UI\_CHANGED\_LANGUAGE 以及 UI\_CHANGED\_TOOLBARS。 |
+| EVENT\_UI\_CHANGED | 调用当 UI 变更时。<br> changed. lParam 代表下列标志的组合: UI\_CHANGED\_LANGUAGE 以及 UI\_CHANGED\_TOOLBARS。 |
 
 通过 [OnEvents](../exports/index) 函数，这些事件被用作 nEvents 参数。
 

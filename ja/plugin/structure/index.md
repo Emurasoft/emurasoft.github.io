@@ -13,14 +13,14 @@
 | [COMPARE\_INFO](compare_info) | [EE\_COMPARE](../message/ee_compare) メッセージで使用します。 |
 | [CONVERT\_INFO](convert_info) | [EE\_CONVERT\_EX](../message/ee_convert_ex) メッセージで使用します。 |
 | [CONVERT\_CSV\_INFO](convert_csv_info) | [EE\_CONVERT\_CSV](../message/ee_convert_csv) メッセージで使用します。 |
-| [CUSTOM\_BAR\_INFO](custom_bar_info) | [Editor\_CustomBarOpen](../macro/editor_custombaropen) インライン関数 ( [EE\_CUSTOM\_BAR\_OPEN](../message/ee_custom_bar_open) <br> メッセージ) で使用します。 |
+| [CUSTOM\_BAR\_INFO](custom_bar_info) | [Editor\_CustomBarOpen](../macro/editor_custombaropen) インライン関数 ( [EE\_CUSTOM\_BAR\_OPEN](../message/ee_custom_bar_open) メッセージ) で使用します。 |
 | [CUSTOM\_BAR\_CLOSE\_INFO](custom_bar_close_info) | [EVENT\_CUSTOM\_BAR\_CLOSED](../event/index) イベントで使用します。 |
 | [EDIT\_COLUMN\_INFO](edit_column_info) | [EE\_EDIT\_COLUMN メッセージ](../message/ee_edit_column) で使用します。 |
 | [EXEC\_PLUGIN\_INFO](exec_plugin_info) | [EE\_EXEC\_PLUGIN](../message/ee_filter) メッセージで使用します。 |
 | [EXTRACT\_FREQUENT\_INFO](extract_frequent_info) | [EE\_EXTRACT\_FREQUENT メッセージ](../message/ee_extract_frequent) で使用します。 |
 | [FILTER\_INFO](filter_info) | [EE\_FILTER](../message/ee_filter) メッセージで使用します。 |
 | [FILTER\_INFO\_EX](filter_info_ex) | [EE\_FILTER](../message/ee_filter) メッセージと [EE\_GET\_FILTER](../message/ee_get_filter) メッセージで使用します。 |
-| [FIND\_REGEX\_INFO](find_regex_info) | [Editor\_FindRegex](../macro/editor_findregex) インライン関数 ( [EE\_FIND\_REGEX](../message/ee_find_regex) <br> メッセージ) で使用します。 |
+| [FIND\_REGEX\_INFO](find_regex_info) | [Editor\_FindRegex](../macro/editor_findregex) インライン関数 ( [EE\_FIND\_REGEX](../message/ee_find_regex) メッセージ) で使用します。 |
 | [FIND\_REGEX\_INFO\_EX](find_regex_info_ex) | [Editor\_FindRegex](../macro/editor_findregex) インライン関数 ( [EE\_FIND\_REGEX](../message/ee_find_regex) メッセージ) で使用します。 |
 | [FIND\_REPLACE\_INFO](find_replace_info) | [EE\_FIND\_REPLACE](../message/ee_find_replace) メッセージで使用します。 |
 | [GET\_CELL\_INFO](get_cell_info) | [Editor\_GetCell](../macro/editor_getcell) インライン関数 ( [EE\_GET\_CELL](../message/ee_get_cell) メッセージ) で使用します。 |
@@ -32,10 +32,10 @@
 | [HISTORY\_INFO](history_info) | [EVENT\_HISTORY イベント](../event/index) で使用します。 |
 | [INFO\_EX\_DATA](info_ex_data) | [EE\_INFO\_EX メッセージ](../message/ee_info_ex) で使用します。 |
 | [JOIN\_INFO](join_info) | [EE\_JOIN](../message/ee_join) メッセージで使用します。 |
-| [LOAD\_FILE\_INFO\_EX](load_file_info) | [Editor\_LoadFileA](../macro/editor_loadfilea), [Editor\_LoadFileW](../macro/editor_loadfilew) インライン関数 ( [EE\_LOAD\_FILEA](../message/ee_load_filea), [EE\_LOAD\_FILEW](../message/ee_load_filew) <br> メッセージ) で使用します。 |
+| [LOAD\_FILE\_INFO\_EX](load_file_info) | [Editor\_LoadFileA](../macro/editor_loadfilea), [Editor\_LoadFileW](../macro/editor_loadfilew) インライン関数 ( [EE\_LOAD\_FILEA](../message/ee_load_filea), [EE\_LOAD\_FILEW](../message/ee_load_filew) メッセージ) で使用します。 |
 | [MANAGE\_DUPLICATES\_INFO](match_regex_info) | [EE\_MANAGE\_DUPLICATES](../message/ee_manage_duplicates) メッセージで使用します。 |
-| [MATCH\_REGEX\_INFO](match_regex_info) | [Editor\_MatchRegex](../macro/editor_matchregex) インライン関数 ( [EE\_MATCH\_REGEX](../message/ee_match_regex) <br> メッセージ) で使用します。 |
-| [MATCH\_REGEX\_INFO\_EX](match_regex_info_ex) | [Editor\_MatchRegex](../macro/editor_matchregex) インライン関数 ( [EE\_MATCH\_REGEX](../message/ee_match_regex) <br> メッセージ) で使用します。 |
+| [MATCH\_REGEX\_INFO](match_regex_info) | [Editor\_MatchRegex](../macro/editor_matchregex) インライン関数 ( [EE\_MATCH\_REGEX](../message/ee_match_regex) メッセージ) で使用します。 |
+| [MATCH\_REGEX\_INFO\_EX](match_regex_info_ex) | [Editor\_MatchRegex](../macro/editor_matchregex) インライン関数 ( [EE\_MATCH\_REGEX](../message/ee_match_regex) メッセージ) で使用します。 |
 | [NUMBERING\_INFO](numbering_info) | [EE\_NUMBERING メッセージ](../message/ee_numbering) で使用します。 |
 | [OUTLINE\_ARRAY\_INFO](point_ptr) | [EE\_SET\_OUTILNE\_ARRAY](../message/ee_set_outline_array) メッセージ ( [Editor\_SetOutlineArray](../macro/editor_setoutlinearray) <br>インライン関数) で使用します。 |
 | [POINT\_PTR](point_ptr) | 様々な座標を表すのに使用します。32 ビット用プラグインでは、POINT 構造体と同じ意味です。64 ビット用プラグインでは、各フィールドが 32 ビットから 64 ビットに拡張されます。 |

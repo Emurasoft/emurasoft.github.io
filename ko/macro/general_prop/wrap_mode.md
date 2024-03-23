@@ -27,7 +27,7 @@ _nMode_
 |     |     |
 | --- | --- |
 | eeWrapNone | 줄 바꿈을 하지 않습니다. |
-| eeWrapByChar | 자정된 문자의 길이 (바이트로) 에 의해 줄 바꿈을 합니다. 문자의 길이는<br> [**일반 줄과 여백** 텍스트 박스](../../dlg/properties/general/index) 또는 <br> [**따옴표 붙은 줄여백** 텍스트 박스](../../dlg/properties/general/index) 에서 지정할 수 있습니다. |
+| eeWrapByChar | 자정된 문자의 길이 (바이트로) 에 의해 줄 바꿈을 합니다. 문자의 길이는<br> [**일반 줄과 여백** 텍스트 박스](../../dlg/properties/general/index) 또는 [**따옴표 붙은 줄여백** 텍스트 박스](../../dlg/properties/general/index) 에서 지정할 수 있습니다. |
 | eeWrapByWindow | 창의 너비에 의해 줄 바꿈을 합니다. 창의 크기가 변경되는 경우, 줄 바꿈된 위치가 변경됩니다. |
 | eeWrapByPage | 프린트된 페이지 너비에 의해 줄 바꿈을 합니다. |
 

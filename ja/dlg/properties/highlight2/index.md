@@ -46,7 +46,7 @@
 | --- | --- |
 | (無し) | HTMLとは関係のないファイルを使用します。 |
 | HTML | HTML、ASP などのファイルを使用します。CSS、JavaScript、VBScript、Script の設定を使用します。 |
-| HTML-埋め込み | JSP、PHP などの HTML に埋め込まれたスクリプトを使用します。HTML、CSS、JavaScript、VBScript、Script <br> の設定を使用します。 |
+| HTML-埋め込み | JSP、PHP などの HTML に埋め込まれたスクリプトを使用します。HTML、CSS、JavaScript、VBScript、Script の設定を使用します。 |
 | Markdown | 特別な太字または斜体の強調のため Markdown を使用します。 |
 
 ## \[対応するタグを強調する\] チェック ボックス

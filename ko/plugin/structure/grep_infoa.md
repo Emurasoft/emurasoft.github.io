@@ -57,7 +57,7 @@ _nFlags_
 | FLAG\_FIND\_REG\_EXP | 정규식 표현을 사용합니다. FLAG\_FIND\_ESCAPE와 결합될 수 없습니다. |
 | FLAG\_FIND\_RECURSIVE | 지정된 경로의 하위 폴더를 검색합니다. |
 | FLAG\_FIND\_FILENAMES\_ONLY | 파일 이름만 표시합니다. |
-| FLAG\_REPLACE\_KEEP\_OPEN | 수정된 파일들을 연 상태로 유지합니다. eeReplaceBackup과 결합될 수 없습니다. FLAG\_REPLACE\_BACKUP과 <br> 결합될 수 없습니다. |
+| FLAG\_REPLACE\_KEEP\_OPEN | 수정된 파일들을 연 상태로 유지합니다. eeReplaceBackup과 결합될 수 없습니다. FLAG\_REPLACE\_BACKUP과 결합될 수 없습니다. |
 | FLAG\_REPLACE\_BACKUP | 백업을 저장합니다. FLAG\_REPLACE\_KEEP\_OPEN과 결합될 수 없습니다. |
 | FLAG\_FIND\_IGNORE\_FILES | _pszFilesToIgnore_ 에 의해 지정된 파일이나 폴더를 무시합니다. |
 | FLAG\_FIND\_OUTPUT | 검색 결과를 출력 표시줄로 재지정합니다. |

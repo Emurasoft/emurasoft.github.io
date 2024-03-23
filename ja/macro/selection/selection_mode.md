@@ -30,7 +30,7 @@ _nMode_
 | eeModeStream | 線形選択です。 |
 | eeModeLine | 行選択です。 |
 | eeModeBox | 箱型選択です。 |
-| eeModeMask | 選択状態を調べるためのマスクです。設定には使用できません。Mode プロパティの値を調べる場合は、このマスクとの And <br> を調べて、eeModeStream、eeModeLine、および eeModeBox と比較します。 |
+| eeModeMask | 選択状態を調べるためのマスクです。設定には使用できません。Mode プロパティの値を調べる場合は、このマスクとの And を調べて、eeModeStream、eeModeLine、および eeModeBox と比較します。 |
 | eeModeKeyboard | キーボードを使った選択状態を表します。この値は、他の値と組み合わせて使うことができます。 |
 | eeModeSelected | 選択された状態です。プロパティの取得時のみ有効です。 |
 

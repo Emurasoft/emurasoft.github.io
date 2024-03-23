@@ -8,7 +8,7 @@ the **Replace** dialog box and in the **Replace in Files** dialog box.
 | | |
 | --- | --- |
 | \\0 | Indicates a back reference to the entire regular expression. |
-| \\1 - \\9 | Indicates a back reference - a back reference is a reference to a <br> previous sub-expression that has already been matched. The reference is <br> to what the sub-expression matched, not to the expression itself. A back <br> reference consists of the escape character "\\" followed by a digit "1" <br> to "9", "\\1" refers to the first sub-expression, "\\2" to the second etc. |
+| \\1 - \\9 | Indicates a back reference - a back reference is a reference to a previous sub-expression that has already been matched. The reference is to what the sub-expression matched, not to the expression itself. A back reference consists of the escape character "\\" followed by a digit "1" to "9", "\\1" refers to the first sub-expression, "\\2" to the second etc. |
 | $10, $11, $12, ... | Indicates a back reference more than 9. Equivalent to \\k<10>, \\k<11>, \\k<12>, .... |
 | \\k<name> | Indicates a named back reference. A named back reference is a reference to a previously matched named capturing group using this form: (?<name>expression). If "name" is a number, it indicates a numbered back reference, equivalent to \\1, \\2, \\3, ... |
 | \\n | A newline character. |
@@ -16,8 +16,8 @@ the **Replace** dialog box and in the **Replace in Files** dialog box.
 | \\t | A tab. |
 | \\L | Forces all subsequent substituted characters to be in lowercase. |
 | \\U | Forces all subsequent substituted characters to be in uppercase. |
-| \\H | Forces all subsequent substituted characters to be in half-width <br> characters. |
-| \\F | Forces all subsequent substituted characters to be in full-width <br> characters. |
+| \\H | Forces all subsequent substituted characters to be in half-width characters. |
+| \\F | Forces all subsequent substituted characters to be in full-width characters. |
 | \\Nc | Forces all subsequent substituted characters to be converted using [Unicode Normalization Form C (Canonical Composition)](../../cmd/convert/unicode_norm_fc). |
 | \\Nd | Forces all subsequent substituted characters to be converted using [Unicode Normalization Form D (Canonical Decomposition)](../../cmd/convert/unicode_norm_fd). |
 | \\NC | Forces all subsequent substituted characters to converted using [Unicode Normalization Form KC (Compatibility Composition)](../../cmd/convert/unicode_norm_fkc). |

@@ -1,6 +1,6 @@
 # 질문. 속성의 강조 표시 (2)에 있는 특수 구문 콤보 상자에서 "HTML" 그리고 "HTML-포함"이 무엇입니까?
 
-HTML 은 HTML이 스크립트 언어(<SCRIPT type=...>) 지정을 태그 할 때, HTML 문서에 존재합니다.
+HTML 은 HTML이 스크립트 언어(\<SCRIPT type=...\>) 지정을 태그 할 때, HTML 문서에 존재합니다.
 HTML은 또한 % 표시로 시작하는 스크립트를 포함하는 ASP 파일에도 적합합니다.
 이것은 보통 VBScript, Javascript, PerlScript, CSS, 등등의 경우입니다.
 HTML 포함은 PHP 혹은 JSP와 같이 스크립트 언어 또한, 일반적으로 **스크립트 시작** 상자에서 지정되는

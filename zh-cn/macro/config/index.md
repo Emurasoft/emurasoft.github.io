@@ -7,7 +7,7 @@
 | [Association](association) | 检索 [AssociationProp 对象](../association_prop/index)。 |
 | [AutoSave](auto_save) | 检索 [AutoSaveProp 对象](../auto_save_prop/index)。 |
 | [Backup](backup) | 检索 [BackupProp 对象](../backup_prop/index)。 |
-| [Display](display) | 检索 <br> [DisplayProp 对象](../display_prop/index)。 |
+| [Display](display) | 检索 [DisplayProp 对象](../display_prop/index)。 |
 | [File](file) | 检索 [FileProp 对象](../file_prop/index)。 |
 | [FileNew](file_new) | 检索 [FileNewProp 对象](../file_new_prop/index)。 |
 | [FileSave](file_save) | 检索 [FileSaveProp 对象](../file_save_prop/index)。 |

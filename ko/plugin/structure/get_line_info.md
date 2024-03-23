@@ -29,7 +29,7 @@ _flags_
 | --- | --- |
 | FLAG\_LOGICAL | 논리 좌표 _yLine_ 로 _yLine_ 필드를 지정합니다. |
 | FLAG\_WITH\_CRLF | 텍스트에 반환 코드를 추가합니다. |
-| FLAG\_GET\_CRLF\_BYTE | 반환 방법을 나타내는 flag와 채워질 _byteCrLf_ 필드를 지시합니다. FLAG\_LOGICAL 또한 <br> 지정되어야 합니다. |
+| FLAG\_GET\_CRLF\_BYTE | 반환 방법을 나타내는 flag와 채워질 _byteCrLf_ 필드를 지시합니다. FLAG\_LOGICAL 또한 지정되어야 합니다. |
 
 이 매개 변수의 상위 단어는 대상 문서의 인덱스입니다. flag의 상위 단어에 1로 시작하는 인덱스를 지정해야 합니다. flag의 상위
 단어에 0이 지정된 경우, 현재 활성화중인 문서가 대상으로 지정됩니다.

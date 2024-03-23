@@ -69,7 +69,7 @@ Specifies a combination of the following values.
 | FLAG\_FIND\_OUTPUT\_ENCODING | Appends encoding names to file names. |
 | FLAG\_FIND\_SEPARATE\_CRLF | Treats CR and LF separately. |
 | FLAG\_REPLACE\_BACKUP | Saves the backups. Cannot be combined with FLAG\_REPLACE\_KEEP\_OPEN. |
-| FLAG\_REPLACE\_KEEP\_OPEN | Keeps the modified files open. Cannot combine with eeReplaceBackup. <br> Cannot be combined with FLAG\_REPLACE\_BACKUP. |
+| FLAG\_REPLACE\_KEEP\_OPEN | Keeps the modified files open. Cannot combine with eeReplaceBackup. Cannot be combined with FLAG\_REPLACE\_BACKUP. |
 
 Additionally, you may specify one of the following values.
 

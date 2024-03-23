@@ -3,7 +3,7 @@
 |     |     |
 | --- | --- |
 | **[New Text](file_new)** | Creates a new text file. |
-| [**New**(popup menu)](new_config_popup) | Shows a popup menu to create a new file with a specified <br> configuration. |
+| [**New**(popup menu)](new_config_popup) | Shows a popup menu to create a new file with a specified configuration. |
 | **[New and Paste](file_new_paste)** | Creates a new file and inserts the contents of the Clipboard. |
 | [**New and Paste in Quotes**](file_new_paste_prefix) | Creates a new file and inserts the contents of the Clipboard in quotes. |
 | [**New File, Paste in Quotes and Newline Characters**](file_new_paste_prefix_return) | Creates a new file, pastes the current selection in quotes and newline characters. |
@@ -16,9 +16,9 @@
 | **[Save As](file_save_as)** | Saves the current file with a new name. |
 | **[Rename](file_save_rename)** | Renames the current file. |
 | **[Save All](file_save_all)** | Saves all currently open files. |
-| **[Save All with Encoding](file_save_all_as)** | Saves all opened documents as the specified destination folder, <br> encoding, and newline characters except untitled documents. |
+| **[Save All with Encoding](file_save_all_as)** | Saves all opened documents as the specified destination folder, encoding, and newline characters except untitled documents. |
 | **[Advanced Open](advanced_open)** | Opens existing files with advanced options. |
-| **[Save as System Default Encoding](file_save_ansi)** | Saves the current file using the<br> [system default encoding.](../../glossary/index) |
+| **[Save as System Default Encoding](file_save_ansi)** | Saves the current file using the [system default encoding.](../../glossary/index) |
 | **[Save as UTF-16LE](file_save_unicode)** | Saves the current file using Unicode (UTF-16LE) encoding. |
 | **[Save as UTF-16LE with Signature](save_utf16le_sign)** | Saves the current file using Unicode (UTF-16LE) encoding with signature. |
 | **[Save as UTF-16LE without Signature](save_utf16le_nosign)** | Saves the current file using Unicode (UTF-16LE) encoding without signature. |
@@ -43,7 +43,7 @@
 | **[Reload as Same Encoding](file_reload)** | Reloads the file using the default encoding. |
 | [**Reload** (popup menu)](reload_popup) | Shows a popup menu to select an encoding to reload the file with. |
 | **[Reload Detect All](file_reload_detect_all)** | Reloads the current file using the best-fit encoding. |
-| **[Reload as System Default Encoding](file_reload_ansi)** | Reloads the current file using the<br> [system default encoding.](../../glossary/index) |
+| **[Reload as System Default Encoding](file_reload_ansi)** | Reloads the current file using the [system default encoding.](../../glossary/index) |
 | **[Reload as UTF-16LE](file_reload_unicode)** | Reloads the current file using Unicode (UTF-16LE) encoding. |
 | **[Reload as UTF-16BE](file_reload_unicode_bigendian)** | Reloads the current file using Unicode (UTF-16BE) encoding. |
 | **[Reload as UTF-8](file_reload_utf8)** | Reloads the current file using Unicode (UTF-8) encoding. |

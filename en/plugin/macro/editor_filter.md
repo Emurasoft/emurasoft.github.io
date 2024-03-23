@@ -28,7 +28,7 @@ You can specify a combination of the following values.
 | --- | --- |
 | FLAG\_FIND\_BOOKMARKED\_ONLY | Matches bookmarked lines only. This flag cannot be combined with FLAG\_FIND\_UNBOOKMARKED\_ONLY. |
 | FLAG\_FIND\_CASE | Matches cases. |
-| FLAG\_FIND\_CONTINUE | Specifies the EE\_FILTER message called next time should not clear the filter. This filter is not applied immediately after this message is called. This flag is used when you want to create multiple levels of the filter. <br> It is similar to the FLAG\_FIND\_KEEP\_PREVIOUS flag, but since the actual filter is not applied each time the message is called, this method works faster if there are multiple filter levels. |
+| FLAG\_FIND\_CONTINUE | Specifies the EE\_FILTER message called next time should not clear the filter. This filter is not applied immediately after this message is called. This flag is used when you want to create multiple levels of the filter. It is similar to the FLAG\_FIND\_KEEP\_PREVIOUS flag, but since the actual filter is not applied each time the message is called, this method works faster if there are multiple filter levels. |
 | FLAG\_FIND\_CR\_LF | Matches lines of which the newline character is CR and LF. This flag must be combined with FLAG\_FIND\_MATCH\_NL. |
 | FLAG\_FIND\_CR\_ONLY | Matches lines of which the newline character is CR only. This flag must be combined with FLAG\_FIND\_MATCH\_NL. |
 | FLAG\_FIND\_ESCAPE | Uses escape sequences. |

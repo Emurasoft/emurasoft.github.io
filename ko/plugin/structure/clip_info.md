@@ -46,7 +46,7 @@ _nAction_
 | CI\_GET\_POS | 클립보드 기록의 현재 위치를 검색합니다. |
 | CI\_SET\_POS | 클립보드 기록의 현재 위치를 설정합니다. |
 | CI\_ROTATE\_CLIP | 클립보드 기록의 현재 위치를 순환합니다. |
-| CI\_FLAG\_NO\_UPDATE\_REAL\_CLIP | 클립보드 기록에 의해 현재 실제 클립보드 내용이 대체되는 것을 막습니다. 이 값은 CI\_INSERT\_CLIP과 결합하여 <br> 사용될 수 있습니다. |
+| CI\_FLAG\_NO\_UPDATE\_REAL\_CLIP | 클립보드 기록에 의해 현재 실제 클립보드 내용이 대체되는 것을 막습니다. 이 값은 CI\_INSERT\_CLIP과 결합하여 사용될 수 있습니다. |
 
 _nFlags_
 

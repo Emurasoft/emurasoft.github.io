@@ -11,7 +11,7 @@
 | [EE\_CONVERT\_EX](ee_convert_ex) | Converts characters. |
 | [EE\_CUSTOM\_BAR\_CLOSE](ee_custom_bar_close) | Closes a custom bar. |
 | [EE\_CUSTOM\_BAR\_OPEN](ee_custom_bar_open) | Opens a custom bar. |
-| [EE\_DEV\_TO\_VIEW](ee_dev_to_view) | Converts the device (client) coordinates of a specified position to the <br> display coordinates. |
+| [EE\_DEV\_TO\_VIEW](ee_dev_to_view) | Converts the device (client) coordinates of a specified position to the display coordinates. |
 | [EE\_DO\_IDLE](ee_do_idle) | Refreshes the toolbar, the window title, the tab, and others. |
 | [EE\_EDIT\_COLUMN](ee_edit_column) | Moves, copies, deletes, or combines specified columns of the current CSV document. |
 | [EE\_EDIT\_TEMP](ee_edit_temp) | Opens temporary text as a new document, or activates, saves, or closes the existing temporary text. |
@@ -47,7 +47,7 @@
 | [EE\_GET\_LINEW](ee_get_linew) | Retrieves the Unicode text on the specified line. |
 | [EE\_GET\_MARGIN](ee_get_margin) | Retrieves the margin size. |
 | [EE\_GET\_MODIFIED](ee_get_modified) | Retrieves the modified state of the text. |
-| [EE\_GET\_MULTI\_SEL](../../plugin/message/ee_get_multi_sel) | Retrieves the information of a specified selection when multiple <br> selections are available. |
+| [EE\_GET\_MULTI\_SEL](../../plugin/message/ee_get_multi_sel) | Retrieves the information of a specified selection when multiple selections are available. |
 | [EE\_GET\_OUTLINE\_LEVEL](ee_get_outline_level) | Retrieves the outline level for the specified logical line. |
 | [EE\_GET\_OUTPUT\_STRING](ee_get_output_string) | Retrieves the text in the output bar. |
 | [EE\_GET\_PAGE\_SIZE](ee_get_page_size) | Retrieves a page size. |
@@ -65,17 +65,17 @@
 | [EE\_GET\_VERSION](ee_get_version) | Returns the version number. |
 | [EE\_GET\_WORD](ee_get_word) | Returns a word at the cursor position. |
 | [EE\_HELP](ee_help) | Displays the specified page of the Help. |
-| [EE\_INFO](ee_info) | Retrieves or sets the value of one of the information parameters used by <br> EmEditor. |
-| [EE\_INFO\_EX](ee_info_ex) | Retrieves or sets the value of one of the information parameters used by <br> EmEditor. |
+| [EE\_INFO](ee_info) | Retrieves or sets the value of one of the information parameters used by EmEditor. |
+| [EE\_INFO\_EX](ee_info_ex) | Retrieves or sets the value of one of the information parameters used by EmEditor. |
 | [EE\_INSERT\_FILEA](ee_insert_filea) | Inserts the specified file contents at the cursor (ANSI). |
 | [EE\_INSERT\_FILEW](ee_insert_filew) | Inserts the specified file contents at the cursor (Unicode). |
 | [EE\_INSERT\_STRINGA](ee_insert_stringa) | Inserts an ANSI string into the current cursor position. |
 | [EE\_INSERT\_STRINGW](ee_insert_stringw) | Inserts a Unicode string into the current cursor position. |
-| [EE\_IS\_CHAR\_HALF\_OR\_FULL](ee_is_char_half_or_full) | Determines whether a specified character is a half-width or full-width <br> character. It can also count the total widths of the specified string. |
+| [EE\_IS\_CHAR\_HALF\_OR\_FULL](ee_is_char_half_or_full) | Determines whether a specified character is a half-width or full-width character. It can also count the total widths of the specified string. |
 | [EE\_JOIN](ee_join) | Combines two CSV documents specifying key columns, using a method similar to JOIN operations, and creates a new document. |
 | [EE\_KEYBOARD\_PROP](ee_keyboard_prop) | Displays the Keyboard Properties for the specified command ID and configuration. |
-| [EE\_LINE\_FROM\_CHAR](ee_line_from_char) | Retrieves the index of the line that contains the specified character <br> index (the serial position). |
-| [EE\_LINE\_INDEX](ee_line_index) | Retrieves the character index of the first character of a specified line <br> in EmEditor. |
+| [EE\_LINE\_FROM\_CHAR](ee_line_from_char) | Retrieves the index of the line that contains the specified character index (the serial position). |
+| [EE\_LINE\_INDEX](ee_line_index) | Retrieves the character index of the first character of a specified line in EmEditor. |
 | [EE\_LOAD\_CONFIGA](ee_load_configa) | Reloads a configuration of which name is specified by an ANSI string. |
 | [EE\_LOAD\_CONFIGW](ee_load_configw) | Reloads a configuration of which name is specified by a Unicode string. |
 | [EE\_LOAD\_FILEA](ee_load_filea) | Loads a specified file into EmEditor (ANSI). |
@@ -88,11 +88,11 @@
 | [EE\_OUTPUT\_DIR](ee_output_dir) | Sets the current directory for the output bar. |
 | [EE\_OUTPUT\_STRING](ee_output_string) | Appends a string to the output bar. |
 | [EE\_PIVOT\_TABLE](ee_pivot_table) | Creates a pivot table in the CSV document. |
-| [EE\_QUERY\_STATUS](ee_query_status) | Queries the status of the command, whether the command is enabled and <br> whether the command is a checked status. |
+| [EE\_QUERY\_STATUS](ee_query_status) | Queries the status of the command, whether the command is enabled and whether the command is a checked status. |
 | [EE\_QUERY\_STRING](ee_query_string) | Queries the string associated with the specified command. |
 | [EE\_QUERY\_STRING\_EX](ee_query_string_ex) | Queries the string associated with the specified command. This message supports a long path exceeding MAX\_PATH. |
 | [EE\_REARRANGE\_COLUMNS](ee_rearrange_columns) | Rearranges CSV columns. |
-| [EE\_REDRAW](ee_redraw) | Allows changes in EmEditor to be redrawn or prevents changes in EmEditor <br> to be redrawn. |
+| [EE\_REDRAW](ee_redraw) | Allows changes in EmEditor to be redrawn or prevents changes in EmEditor to be redrawn. |
 | [EE\_REG\_QUERY\_VALUE](ee_reg_query_value) | Queries a value from the Registry or an INI file depending on the EmEditor settings. |
 | [EE\_REG\_SET\_VALUE](ee_reg_set_value) | Sets a value into the Registry or an INI file depending on the EmEditor settings. |
 | [EE\_RELEASE](ee_release) | Decrements the reference number of the plug-in. |
@@ -129,8 +129,8 @@
 | [EE\_TOOLBAR\_SHOW](ee_toolbar_show) | Shows or hides a custom toolbar. |
 | [EE\_UNPIVOT](ee_unpivot) | Converts columns into rows by flattening the CSV data. |
 | [EE\_UPDATE\_TOOLBAR](ee_update_toolbar) | Updates a button status in a toolbar. |
-| [EE\_VIEW\_TO\_DEV](ee_view_to_dev) | Converts the display coordinates of a specified position to the device <br> (client) coordinates. |
-| [EE\_VIEW\_TO\_LOGICAL](ee_view_to_logical) | Converts the display coordinates of a specified position to the logical <br> coordinates. |
+| [EE\_VIEW\_TO\_DEV](ee_view_to_dev) | Converts the display coordinates of a specified position to the device (client) coordinates. |
+| [EE\_VIEW\_TO\_LOGICAL](ee_view_to_logical) | Converts the display coordinates of a specified position to the logical coordinates. |
 
 These constants are defined at the
 header file (plugin.h).
@@ -142,16 +142,16 @@ more information on these messages.
 
 |     |     |
 | --- | --- |
-| EM\_GETSEL | Retrieves the starting and ending character positions of the current <br> selection. |
+| EM\_GETSEL | Retrieves the starting and ending character positions of the current selection. |
 | EM\_SCROLLCARET | Scrolls the cursor into view. |
 | EM\_SETSEL | Selects a range of characters. |
 | EM\_REPLACESEL | Replaces the current selection with the specified text. |
 | WM\_CLEAR | Deletes the current selection. |
 | WM\_COPY | Copies the current selection to the Clipboard. |
-| WM\_CUT | Deletes the current selection and copy the deleted text to the <br> Clipboard. |
+| WM\_CUT | Deletes the current selection and copy the deleted text to the Clipboard. |
 | WM\_GETTEXT | Copies the entire document into a buffer. |
-| WM\_GETTEXTLENGTH | Retrieves the size of buffer needed to retrieve the entire document <br> excluding a terminating null character. |
-| WM\_PASTE | Copies the current content of the clipboard at the current cursor <br> position. |
+| WM\_GETTEXTLENGTH | Retrieves the size of buffer needed to retrieve the entire document excluding a terminating null character. |
+| WM\_PASTE | Copies the current content of the clipboard at the current cursor position. |
 | WM\_SETTEXT | Sets the entire document. |
 | WM\_UNDO | Undo the last operation. |
 

@@ -24,7 +24,7 @@ _nFlags_
 | FLAG\_FIND\_EMBEDDED\_NL | CSV文書に埋め込まれた改行コードを検索し、その他の改行コードは検索しません。 |
 | FLAG\_FIND\_ESCAPE | エスケープ シーケンスを使用します。 |
 | FLAG\_FIND\_EXTRACT | 見つかった行を抽出して新規文書を作成します。 |
-| FLAG\_FIND\_FILTER | フィルター ツール <br> バーを表示して指定する文字列に一致する行のみを表示します。このフラグが指定されている場合、FLAG\_FIND\_AROUND、FLAG\_FIND\_BOOKMARK、FLAG\_FIND\_COUNT、FLAG\_FIND\_EXTRACT、LAG\_FIND\_NEXT、FLAG\_FIND\_OPEN\_DOC、FLAG\_FIND\_NO\_PROMPT、FLAG\_FIND\_SEL\_ONLY、FLAG\_FIND\_SAVE\_HISTORY、または <br> FLAG\_FIND\_SELECT\_ALL とともに指定することはできません。 |
+| FLAG\_FIND\_FILTER | フィルター ツール バーを表示して指定する文字列に一致する行のみを表示します。このフラグが指定されている場合、FLAG\_FIND\_AROUND、FLAG\_FIND\_BOOKMARK、FLAG\_FIND\_COUNT、FLAG\_FIND\_EXTRACT、LAG\_FIND\_NEXT、FLAG\_FIND\_OPEN\_DOC、FLAG\_FIND\_NO\_PROMPT、FLAG\_FIND\_SEL\_ONLY、FLAG\_FIND\_SAVE\_HISTORY、または FLAG\_FIND\_SELECT\_ALL とともに指定することはできません。 |
 | FLAG\_FIND\_NEGATIVE | フィルター ツール バーを表示して指定する文字列に一致する行を除外します。このフラグは、FLAG\_FIND\_FILTER フラグとともに指定する必要があります。 |
 | FLAG\_FIND\_NEXT | カーソル位置より下方向に検索します。これが指定されていない場合、上方向に検索します。 |
 | FLAG\_FIND\_NO\_PROMPT | 検索する文字列が見つからなくてもプロンプト ダイアログ ボックスを表示しません。 |

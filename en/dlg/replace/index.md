@@ -112,7 +112,7 @@ Find and extract all occurrences of the search term. The exact behavior depends 
 | --- | --- |
 | **New Document** | Finds and extracts all occurrences of the search term using regular expressions, and replace them with replace expressions. EmEditor displays the search results as a list in a new document. |
 | **Use Output Bar** | Finds and extracts all occurrences of the search term using regular expressions, and replace them with replace expressions. EmEditor displays the search results as a list in the Output Bar. |
-| **To New CSV Column** | Creates a new CSV column filled with the replaced strings, while the original column remains unchanged. If the **Use Regular Expression** option is not set, the text specified in the **Replace with** drop-down list box must be empty, and the new column will be filled with the matched terms without any <br> changes. The new column is inserted just to the right of the original. |
+| **To New CSV Column** | Creates a new CSV column filled with the replaced strings, while the original column remains unchanged. If the **Use Regular Expression** option is not set, the text specified in the **Replace with** drop-down list box must be empty, and the new column will be filled with the matched terms without any changes. The new column is inserted just to the right of the original. |
 
 ## << Find button
 

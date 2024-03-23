@@ -43,7 +43,7 @@
 | --- | --- |
 | **[alert](window_alert)** | Displays a message in a simple dialog box with the OK button. |
 | **[close](window_close)** | Closes the window. |
-| **[confirm](window_confirm)** | Displays a message in a simple dialog box with the OK button and the <br> Cancel button. |
+| **[confirm](window_confirm)** | Displays a message in a simple dialog box with the OK button and the Cancel button. |
 | **[CreatePopupMenu](createpopupmenu)** | Creates a popup menu. |
 | **[FindWindow](find_window)** | Finds the child Window object by a class name and/or by a window title. |
 | **[FindWindowByID](find_window_by_id)** | Finds the child window object by the window identifier. |

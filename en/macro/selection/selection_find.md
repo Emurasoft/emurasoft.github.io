@@ -46,7 +46,7 @@ Specifies a combination of the following values:
 | eeFindReplaceOnlyWord | Matches only whole words. |
 | eeFindReplaceOpenDoc | Searches all open documents in the same frame window. |
 | eeFindReplaceQuiet | Does not display a message on the status bar if no string is found. |
-| eeFindReplaceRegExp | Uses a regular expression for the searched string. Cannot be combined <br> with eeFindReplaceEscSeq or eeExFindNumberRange. |
+| eeFindReplaceRegExp | Uses a regular expression for the searched string. Cannot be combined with eeFindReplaceEscSeq or eeExFindNumberRange. |
 | eeFindReplaceSelOnly | Searches only in the selection. |
 | eeFindSaveHistory | Saves the searched string for repeated search. |
 | eeFindSelectAll | Selects all matched strings. |

@@ -6,8 +6,8 @@
 | --- | --- |
 | [Association](association) | Retrieves the [AssociationProp object](../association_prop/index). |
 | [AutoSave](auto_save) | Retrieves the [AutoSaveProp object](../auto_save_prop/index). |
-| [Backup](backup) | Retrieves the <br> [BackupProp object](../backup_prop/index). |
-| [Display](display) | Retrieves the <br> [DisplayProp object](../display_prop/index). |
+| [Backup](backup) | Retrieves the [BackupProp object](../backup_prop/index). |
+| [Display](display) | Retrieves the [DisplayProp object](../display_prop/index). |
 | [File](file) | Retrieves the [FileProp object](../file_prop/index). |
 | [FileNew](file_new) | Retrieves the [FileNewProp object](../file_new_prop/index). |
 | [FileSave](file_save) | Retrieves the [FileSaveProp object](../file_save_prop/index). |

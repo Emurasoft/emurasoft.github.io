@@ -11,8 +11,8 @@
 | **[Previous Bookmark in This Document (Around)](../bookmarks/bookmark_prev_around)** | Goes to the previous bookmark in this document, or goes to the last bookmark in this document if not found. |
 | **[Clear All Bookmarks in This Document](../bookmarks/bookmark_clear)** | Clears all bookmarks in the current document. |
 | **[Invert Bookmarks in This Document](../bookmarks/bookmark_invert)** | Inverts all bookmarks in the current document. |
-| **[Cut Bookmarked Lines in This Document](../bookmarks/bookmark_cut)** | Cuts all bookmarked lines in the current document and moves it to the <br> Clipboard. |
-| **[Copy Bookmarked Lines in This Document](../bookmarks/bookmark_copy)** | Copies all bookmarked lines in the current document and pastes it to the <br> Clipboard. |
+| **[Cut Bookmarked Lines in This Document](../bookmarks/bookmark_cut)** | Cuts all bookmarked lines in the current document and moves it to the Clipboard. |
+| **[Copy Bookmarked Lines in This Document](../bookmarks/bookmark_copy)** | Copies all bookmarked lines in the current document and pastes it to the Clipboard. |
 | **[Delete Bookmarked Lines in this Document](../bookmarks/bookmark_delete)** | Deletes all bookmarked lines in the current document. |
 | **[Extract Bookmarked Lines in This Document to New File](../bookmarks/bookmark_extract)** | Extracts all bookmarked lines in the current document and copied to a new document. |
 | **[Select Bookmarked Lines in This Document](../bookmarks/bookmark_select)** | Selects all bookmarked lines in the current document. |

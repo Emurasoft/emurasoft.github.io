@@ -10,7 +10,7 @@ Specifies how to display the horizontal scroll bar.
 |     |     |
 | --- | --- |
 | **Nothing** | Does not display the horizontal scroll bar. |
-| **Display Only when Necessary** | Displays the horizontal scroll bar only when the length of a line is <br> longer than the window width. |
+| **Display Only when Necessary** | Displays the horizontal scroll bar only when the length of a line is longer than the window width. |
 | **Always Display** | Always displays the horizontal scroll bar. |
 
 ## Vertical Scroll Bar drop-down list box
@@ -20,7 +20,7 @@ Specifies how to display the vertical scroll bar.
 |     |     |
 | --- | --- |
 | **Nothing** | Does not display the vertical scroll bar. |
-| **Display Only when Necessary** | Displays the vertical scroll bar only when the number of total lines is <br> larger than one that the current window can display. |
+| **Display Only when Necessary** | Displays the vertical scroll bar only when the number of total lines is larger than one that the current window can display. |
 | **Always Display** | Always displays the vertical scroll bar. |
 
 ## Smooth Scroll check box

@@ -36,7 +36,7 @@ Optional. Specifies a combination of the following values.
 | --- | --- |
 | eeFileDialogCreatePrompt | If the user specifies a file that does not exist, this flag causes the dialog box to prompt the user for permission to create the file. |
 | eeFileDialogDontAddToRecent | Prevents the system from adding a link to the selected file in the file system directory that contains the user's most recently used documents. |
-| eeFileDialogFileMustExist | Specifies that the user can type only names of existing files in the **File Name** entry field. If this flag is specified and the user enters an invalid name, the dialog box procedure displays a warning in a message box. If this flag is specified, the <br> eeFileDialogPathMustExist flag is also used. |
+| eeFileDialogFileMustExist | Specifies that the user can type only names of existing files in the **File Name** entry field. If this flag is specified and the user enters an invalid name, the dialog box procedure displays a warning in a message box. If this flag is specified, the eeFileDialogPathMustExist flag is also used. |
 | eeFileDialogNoChangeDir | Restores the current directory to its original value if the user changed the directory while searching for files. |
 | eeFileDialogNoDereferenceLinks | Directs the dialog box to return the path and file name of the selected shortcut (.LNK) file. If this value is not specified, the dialog box returns the path and file name of the file referenced by the shortcut. |
 | eeFileDialogNoNetworkButton | Hides and disables the **Network** button. |

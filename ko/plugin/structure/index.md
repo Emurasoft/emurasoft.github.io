@@ -7,7 +7,7 @@
 | [CUSTOM\_BAR\_INFO](custom_bar_info) | [Editor\_CustomBarOpen](../macro/editor_custombaropen) 인라인 함수<br> ( [EE\_CUSTOM\_BAR\_OPEN](../message/ee_custom_bar_open) 메시지)에 의해 사용됩니다. |
 | [CUSTOM\_BAR\_CLOSE\_INFO](custom_bar_close_info) | [EVENT\_CUSTOM\_BAR\_CLOSED 이벤트](../event/index) 에 의해 사용됩니다. |
 | [FIND\_REGEX\_INFO](find_regex_info) | [Editor\_FindRegex 인라인 함수](../macro/editor_findregex)<br> ( [EE\_FIND\_REGEX 메시지](../message/ee_find_regex))에 의해 사용됩니다. |
-| [GET\_LINE\_INFO](get_line_info) | Editor\_GetLineA 와 Editor\_GetLineW 인라인 함수 (EE\_GET\_LINEA, <br> EE\_GET\_LINEW 메시지)에 의해 사용됩니다. |
+| [GET\_LINE\_INFO](get_line_info) | Editor\_GetLineA 와 Editor\_GetLineW 인라인 함수 (EE\_GET\_LINEA, EE\_GET\_LINEW 메시지)에 의해 사용됩니다. |
 | [GREP\_INFOA](grep_infoa) | [Editor\_FindInFilesA 인라인 함수](../macro/editor_findinfilesa),<br> [Editor\_ReplaceInFilesA 인라인 함수](../macro/editor_replaceinfilesa)<br> ( [EE\_FIND\_IN\_FILESA 메시지](../message/ee_find_in_filesa), [EE\_REPLACE\_IN\_FILESA 메시지](../message/ee_replace_in_filesa))에 의해 사용됩니다. |
 | [GREP\_INFOW](grep_infow) | [Editor\_FindInFilesW 인라인 함수](../macro/editor_findinfilesw),<br> [Editor\_ReplaceInFilesW 인라인 함수](../macro/editor_replaceinfilesw)<br> ( [EE\_FIND\_IN\_FILESW 메시지](../message/ee_find_in_filesw), [EE\_REPLACE\_IN\_FILESW 메시지](../message/ee_replace_in_filesw))에 의해 사용됩니다. |
 | [HISTORY\_INFO](history_info) | [EVENT\_HISTORY 이벤트](../event/index) 에 의해 사용됩니다. |

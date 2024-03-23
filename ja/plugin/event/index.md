@@ -19,7 +19,7 @@
 | EVENT\_IDLE | アイドル時に呼ばれます。(EmEditor Version 6.00 以上で対応) |
 | EVENT\_KILL\_FOCUS | フォーカスを失った時に呼ばれます。 |
 | EVENT\_MODIFIED | 更新した状態、または更新されていない状態に変わった時に呼ばれます。 |
-| EVENT\_SAVING | ドキュメントが保存される直前に呼ばれます。lParam には、保存されるドキュメントへのハンドル (HEEDOC) が格納されます。 (EmEditor Version <br> 8.00 以上で対応) |
+| EVENT\_SAVING | ドキュメントが保存される直前に呼ばれます。lParam には、保存されるドキュメントへのハンドル (HEEDOC) が格納されます。 (EmEditor Version 8.00 以上で対応) |
 | EVENT\_SCROLL | スクロールバーの位置が変更された時に呼ばれます。 |
 | EVENT\_SEL\_CHANGED | テキストの選択状態が変更された時に呼ばれます。 |
 | EVENT\_SET\_FOCUS | フォーカスを取得したときに呼ばれます。 |

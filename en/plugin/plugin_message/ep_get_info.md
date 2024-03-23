@@ -23,7 +23,7 @@ Specifies the type of information requested. It is one of the following values.
 | Value | Meaning |
 | --- | --- |
 | EPGI\_ALLOW\_OPEN\_SAME\_GROUP | Returns TRUE if the plug-in allows EmEditor to open a new file in the same group. |
-| EPGI\_ALLOW\_MULTIPLE\_INSTANCES | Returns TRUE if the plug-in supports multiple instances. If the plug-in should be allowed to run in more than one frame simultaneously, this message should return TRUE. Note that global <br> variables will be shared when multiple instances are running. |
+| EPGI\_ALLOW\_MULTIPLE\_INSTANCES | Returns TRUE if the plug-in supports multiple instances. If the plug-in should be allowed to run in more than one frame simultaneously, this message should return TRUE. Note that global variables will be shared when multiple instances are running. |
 | EPGI\_MAX\_EE\_VERSION | Returns the newest version number of supported EmEditor \* 1000. |
 | EPGI\_MIN\_EE\_VERSION | Returns the oldest version number of supported EmEditor \* 1000. |
 | EPGI\_SUPPORT\_EE\_PRO | Returns TRUE if EmEditor Professional is supported. |

@@ -63,7 +63,7 @@ Specifies a combination of the following values.
 | FLAG\_FIND\_OPEN\_FILTER | Directly opens the document that includes the specified string, and set the specified string as the filter. Cannot combine with FLAG\_FIND\_OPEN\_DIRECT or FLAG\_FIND\_OUTPUT. |
 | FLAG\_FIND\_OUTPUT | Displays the Find in Files results as a list in the Output Bar. Cannot combine with FLAG\_FIND\_OPEN\_DIRECT or FLAG\_FIND\_OPEN\_FILTER. |
 | FLAG\_REPLACE\_BACKUP | Saves the backups. Cannot be combined with FLAG\_REPLACE\_KEEP\_OPEN. |
-| FLAG\_REPLACE\_KEEP\_OPEN | Keeps the modified files open. Cannot combine with eeReplaceBackup. <br> Cannot be combined with FLAG\_REPLACE\_BACKUP. |
+| FLAG\_REPLACE\_KEEP\_OPEN | Keeps the modified files open. Cannot combine with eeReplaceBackup. Cannot be combined with FLAG\_REPLACE\_BACKUP. |
 
 _pszFind_
 

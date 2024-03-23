@@ -14,7 +14,7 @@ Click this button to show the list of available commands.
 
 |     |     |
 | --- | --- |
-| **Selected Text or Word at Cursor** | When this is checked, the dialog box initializes the Find <br> drop-down list box with the selected text or word at the cursor. |
+| **Selected Text or Word at Cursor** | When this is checked, the dialog box initializes the Find drop-down list box with the selected text or word at the cursor. |
 | **Selected Text** | When this is checked, the dialog box initializes the Find drop-down list box with the selected text. |
 | **Word at Cursor** | When this is checked, the dialog box initializes the Find drop-down list box with the word at the cursor. |
 | **Last Used Value** | When this is checked, the dialog box initializes the Find drop-down list box with the last used string. |
@@ -40,9 +40,9 @@ Click this button to show the list of available commands.
 | **Current File Type** | When this is checked, the dialog box initializes the File Types drop-down list using the current file type. |
 | **Current File Extension** | When this is checked, the dialog box initializes the File Types drop-down list using the current file extension. |
 | **Current File** | When this is checked, the dialog box initializes the File Types drop-down list using the current file. |
-| **Last Used Value** | When this is checked, the dialog box initializes the File <br> Types drop-down list box with the last used string. |
-| **Fixed Value** | When this is checked, the dialog box initializes the File <br> Types drop-down list box with the string set as the fixed value. |
-| **Auto Save** | Saves the option (Current File Type, Current File Extension, Current <br> File or Last Used Value) as the default for the next time the dialog box is displayed. |
+| **Last Used Value** | When this is checked, the dialog box initializes the File Types drop-down list box with the last used string. |
+| **Fixed Value** | When this is checked, the dialog box initializes the File Types drop-down list box with the string set as the fixed value. |
+| **Auto Save** | Saves the option (Current File Type, Current File Extension, Current File or Last Used Value) as the default for the next time the dialog box is displayed. |
 
 The commands also includes the list of available escape sequences or regular expressions. Selecting an item from the list will insert the selected item into the text box next to the button.
 
@@ -60,11 +60,11 @@ Click this button to show the list of available commands.
 | **Parent Folder** | When this is checked, the dialog box initializes the In Folder drop-down list box with the current parent folder. |
 | **Grand Parent Folder** | When this is checked, the dialog box initializes the In Folder drop-down list box with the current grandparent folder. |
 | **Root Folder** | When this is checked, the dialog box initializes the In Folder drop-down list box with the current root folder. |
-| **Last Used Value** | When this is checked, the dialog box initializes the In <br> Folder drop-down list box with the last used string. |
-| **Fixed Value** | When this is checked, the dialog box initializes the In <br> Folder drop-down list box with the string set as the fixed value. |
+| **Last Used Value** | When this is checked, the dialog box initializes the In Folder drop-down list box with the last used string. |
+| **Fixed Value** | When this is checked, the dialog box initializes the In Folder drop-down list box with the string set as the fixed value. |
 | **Browse** | Allows you to browse or search for the desired folder. |
 | **Browse and Add** | Allows you to browse or search for the desired folder, and add to the existing specified folders. |
-| **Auto Save** | Saves the option (Current Folder, Parent Folder, Grand Parent Folder, <br> Root Folder, Last Used Value or Browse) as the default for the next time the dialog box is displayed. |
+| **Auto Save** | Saves the option (Current Folder, Parent Folder, Grand Parent Folder, Root Folder, Last Used Value or Browse) as the default for the next time the dialog box is displayed. |
 
 The commands also includes the list of available escape sequences or regular expressions. Selecting an item from the list will insert the selected item into the text box next to the button.
 

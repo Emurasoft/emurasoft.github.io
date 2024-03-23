@@ -12,7 +12,7 @@
 | [ShowReturns](show_returns) | 구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의<br> **반환 보이기** 체크 박스에 해당합니다. |
 | [ShowSpaces](show_spaces) | 구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의<br> **공백 보이기** 체크 박스에 해당합니다. |
 | [ShowTabs](show_tabs) | 구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의<br> **탭 보이기** 체크 박스에 해당합니다. |
-| [ShowUserDefinedGuides](show_user_defined_guides) | 구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의 <br> **사용자 지정 가이드 보이기** 체크 박스에 해당합니다. |
+| [ShowUserDefinedGuides](show_user_defined_guides) | 구성 속성 [**표시** 탭](../../dlg/properties/marks/index) 의 **사용자 지정 가이드 보이기** 체크 박스에 해당합니다. |
 
 ## 버전
 

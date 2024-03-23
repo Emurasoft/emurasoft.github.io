@@ -13,12 +13,12 @@ will install EmEditor with default settings without displaying any dialog boxes.
 | --- | --- |
 | MSIINSTALLPERUSER=1 | Specifies a per-user install for the current user (default on v20.9 or later). |
 | MSIINSTALLPERUSER="" | Specifies a per-computer install (default on v20.8 or earlier). |
-| NOCHECKUPDATES=1 | disables checking new versions of EmEditor periodically via the <br> Internet. |
+| NOCHECKUPDATES=1 | disables checking new versions of EmEditor periodically via the Internet. |
 | NOCONTEXTMENU=1 | disables adding a shortcut to the Context Menu on Explorer. |
 | DESKTOP=1 | enables adding a shortcut to the Desktop. |
 | NOIEEDITOR=1 | disables adding EmEditor to Internet Explorer HTML editor list. |
 | NOIEVIEW=1 | disables View Source by EmEditor on Internet Explorer. |
-| NOPATH=1 | disables adding the path to EmEditor to the PATH environment <br> variable. |
+| NOPATH=1 | disables adding the path to EmEditor to the PATH environment variable. |
 | NOSHORTCUT=1 | disables adding a shortcut to the Program menu. |
 | NOSKIP=1 | does not skip installer screens even when upgrading. |
 | NOTRAYICON=1 | disables the tray icon. |

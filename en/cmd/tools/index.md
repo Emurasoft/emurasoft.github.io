@@ -77,10 +77,10 @@
 | **[Customize Tray Icon](customize_tray)** | Customizes Tray Icon. |
 | **[Quick Launch](search_all_commands)** | Searches all commands. |
 | **[Start Window](start_window)** | Displays the Start window. |
-| [**User Menu (1)**](user_menu1) | Shows User Menu (1), used as the first shortcut key for two-keystroke <br> shortcuts. |
-| [**User Menu (2)**](user_menu2) | Shows User Menu (2), used as the first shortcut key for two-keystroke <br> shortcuts. |
-| [**User Menu (3)**](user_menu3) | Shows User Menu (3), used as the first shortcut key for two-keystroke <br> shortcuts. |
-| [**User Menu (4)**](user_menu4) | Shows User Menu (4), used as the first shortcut key for two-keystroke <br> shortcuts. |
+| [**User Menu (1)**](user_menu1) | Shows User Menu (1), used as the first shortcut key for two-keystroke shortcuts. |
+| [**User Menu (2)**](user_menu2) | Shows User Menu (2), used as the first shortcut key for two-keystroke shortcuts. |
+| [**User Menu (3)**](user_menu3) | Shows User Menu (3), used as the first shortcut key for two-keystroke shortcuts. |
+| [**User Menu (4)**](user_menu4) | Shows User Menu (4), used as the first shortcut key for two-keystroke shortcuts. |
 | [**User Menu (5)**](user_menu5) | Shows User Menu (5), used as the first shortcut key for two-keystroke shortcuts. |
 | [**User Menu (6)**](user_menu6) | Shows User Menu (6), used as the first shortcut key for two-keystroke shortcuts. |
 | [**User Menu (7)**](user_menu7) | Shows User Menu (7), used as the first shortcut key for two-keystroke shortcuts. |

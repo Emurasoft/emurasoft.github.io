@@ -19,14 +19,14 @@
 | **[Copy](edit_copy)** | Copies the selection or the current line and pastes it to the Clipboard. |
 | **[Copy in Quotes](edit_copy_prefix)** | Copies the selection in quotes and pastes it to the Clipboard. |
 | **[Copy and Deselect](edit_copy_deselect)** | Copies the selection, pastes it to the Clipboard and deselects the text. |
-| **[Copy in Quotes and Deselect](edit_copy_prefix_deselect)** | Copies the selection in quotes, pastes it to the Clipboard and deselects <br> the text. |
+| **[Copy in Quotes and Deselect](edit_copy_prefix_deselect)** | Copies the selection in quotes, pastes it to the Clipboard and deselects the text. |
 | **[Copy Lines](edit_copy_line)** | Copies the selected lines or current line and pastes it to the Clipboard. |
 | [**Copy Selection**](edit_copy_sel) | Copies the selection and pastes it to the Clipboard. |
 | [**Copy Columns**](copy_column) | Copies the selected columns or current column and pastes it to the Clipboard. |
 | **[Copy Link](edit_copy_link)** | Copies a hyperlink and pastes it to the Clipboard. |
 | **[Auto Copy](auto_copy)** | Toggles the auto copy mode. |
 | **[Paste](edit_paste)** | Inserts the contents of the Clipboard at the cursor position. |
-| **[Paste as System Default Encoding](edit_paste_ansi)** | Pastes Clipboard contents using the system default <br> encoding. |
+| **[Paste as System Default Encoding](edit_paste_ansi)** | Pastes Clipboard contents using the system default encoding. |
 | **[Paste as HTML](paste_html)** | Pastes Clipboard contents as the HTML format. |
 | **[Paste in Quotes](paste_prefix)** | Inserts the contents of the Clipboard with quotes. |
 | **[Paste with Newline Characters](paste_return)** | Inserts the Clipboard contents and newline characters. |
@@ -50,7 +50,7 @@
 | **[Word Right](right_word)** | Moves the cursor one word to the right. |
 | **[Word Left](left_word)** | Moves the cursor one word to the left. |
 | **[Home](home)** | Moves the cursor to the start of the current line. |
-| **[Home or Start of Text](home_text)** | Moves the cursor to the first non-white space character of the current <br> line. |
+| **[Home or Start of Text](home_text)** | Moves the cursor to the first non-white space character of the current line. |
 | **[Logical Home](logical_home)** | Moves the cursor to the start of the current logical line. |
 | **[Logical Home or Start of Text](logical_home_text)** | Moves the cursor to the start of the current logical line or the start of text. |
 | **[End](end)** | Moves the cursor to the end of the current line. |
@@ -93,7 +93,7 @@
 | **[Home Extend](shift_home)** | Extends the selection to the start of the current line. |
 | **[Home or Start of Text Extend](shift_home_text)** | Extends the selection to the start of the current line or the start of text. |
 | **[Logical Home Extend](shift_logical_home)** | Extends the selection to the start of the current logical line. |
-| **[Logical Home or Start of Text Extend](shift_logical_home_text)** | Extends the selection to the start of the current logical line or the start <br> of text. |
+| **[Logical Home or Start of Text Extend](shift_logical_home_text)** | Extends the selection to the start of the current logical line or the start of text. |
 | **[End Extend](shift_end)** | Extends the selection to the end of the current line. |
 | **[Logical End Extend](shift_logical_end)** | Extends the selection to the end of the current logical line. |
 | **[Top Extend](shift_top)** | Extends the selection to the top of the document. |
@@ -137,7 +137,7 @@
 | **[Collapse All](outline_collapse_all)** | Collapses the entire document while outlining is displayed. |
 | **[Level 2 - 16](outline_level)** | Collapses or expands to the level 2 - 16 in the entire document while outlining is displayed. |
 | **[Expand All](outline_expand_all)** | Expands the entire document while outlining is displayed. |
-| **[Synchronize Outline Bar and Outline Guide](outline_sync_bar_to_guide)** | Synchronizes the expanded or collapsed status in the Outline Bar and the <br> Outline Guide. |
+| **[Synchronize Outline Bar and Outline Guide](outline_sync_bar_to_guide)** | Synchronizes the expanded or collapsed status in the Outline Bar and the Outline Guide. |
 | **[Next Node](outline_next_node)** | Moves the cursor to the next node while outlining is displayed. |
 | **[Previous Node](outline_prev_node)** | Moves the cursor to the previous node while outlining is displayed. |
 | **[Next Node Extend](shift_next_node)** | Extends the selection to the next node while outlining is displayed. |

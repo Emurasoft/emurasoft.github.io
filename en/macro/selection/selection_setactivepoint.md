@@ -25,7 +25,7 @@ Specifies a combination of the following values:
 |     |     |
 | --- | --- |
 | eePosView | Specifies by the column position and the line number in view. |
-| eePosLogical | Specifies by the number of characters and lines from the previous <br> newline characters (or the start of the document if the first line). |
+| eePosLogical | Specifies by the number of characters and lines from the previous newline characters (or the start of the document if the first line). |
 | eePosLogicalA | Same as eePosLogical but counts a full-width character as 2. |
 | eePosCellLogical | CSV cell unit in logical coordinates. |
 | eePosCellView | CSV cell unit in view coordinates. |

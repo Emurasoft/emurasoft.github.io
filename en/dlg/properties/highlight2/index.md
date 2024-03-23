@@ -52,8 +52,8 @@ Select from the following.
 |     |     |
 | --- | --- |
 | **(None)** | Uses a file unrelated to HTML. |
-| **HTML** | Uses an HTML or ASP file. It uses the HTML, CSS, JavaScript, VBScript, <br> and Script configurations. |
-| **HTML-Embedded** | Uses script languages such as JSP or PHP, HTML embedded language. It <br> uses the HTML, CSS, JavaScript, VBScript, and Script configurations. |
+| **HTML** | Uses an HTML or ASP file. It uses the HTML, CSS, JavaScript, VBScript, and Script configurations. |
+| **HTML-Embedded** | Uses script languages such as JSP or PHP, HTML embedded language. It uses the HTML, CSS, JavaScript, VBScript, and Script configurations. |
 | **Markdown** | Uses Markdown for special bold and italic emphasis. |
 
 ## Highlight Matching Tag check box
