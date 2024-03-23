@@ -4,7 +4,7 @@ The **AI** page allows you to customize settings related to AI.
 
 ## Enable AI check box
 
-Enable writing assistance using [**OpenAI**](https://openai.com/) in EmEditor. You must also set the **AI assisted writing** check box in the [**General**](../../dlg/properties/general/index) page of each configuration's properties after enabling this option. The feature requires an [**OpenAI API key**](https://platform.openai.com/api-keys) to use.
+Enable writing assistance using [**OpenAI**](https://openai.com/) in EmEditor. You must also set the **AI assisted writing** check box in the [**General**](../../properties/general/index) page of each configuration's properties after enabling this option. The feature requires an [**OpenAI API key**](https://platform.openai.com/api-keys) to use.
 
 ## Use 'OPENAI_API_KEY' environment variable
 
