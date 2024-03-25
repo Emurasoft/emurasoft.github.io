@@ -4,19 +4,19 @@
 
 ## 「啟用 AI」核取方塊
 
-啟用 AI。
+在 EmEditor 中可以用 [**OpenAI**](https://openai.com/) 來輔助寫作。要啟用此功能，您必須在每個組態屬性的 [**常規**](../../properties/general/index) 頁面中勾選 **AI 輔助寫作** 核取方塊。該功能需要 [**OpenAI API 金鑰**](https://platform.openai.com/api-keys) 才能使用。
 
 ## 「使用 'OPENAI_API_KEY' 環境變數」核取方塊
 
-使用 'OPENAI_API_KEY' 環境變數。
+如果選中此選項，將使用 「OPENAI_API_KEY」 環境變數儲存 OpenAI API 金鑰。這是 OpenAI 推薦的存儲方式，並與其他應用程式共享。如果未勾選此選項，則將儲存 API 金鑰以僅供 EmEditor 使用。
 
 ## 「OpenAI API 金鑰」文字方塊
 
-指定 OpenAI API 金鑰。
+指定 OpenAI API 金鑰。您可以單擊此文字方塊右側的 **o-o** 來切換字元的顯示/隱藏。在您修改此文字方塊並單擊對話方塊中的 **確定** 按鈕之後，EmEditor 將執行與 OpenAI API 的連線測試，以檢查輸入的 API 金鑰是否有效。
 
 ## 「首選模型」下拉清單方塊
 
-指定首選模型。
+指定您要使用的模型的名稱。您可以從清單中選擇已定義的模型名稱，也可以直接輸入未定義的模型名稱。根據所使用的模型，AI 的響應可能有所不同，OpenAI 的使用費也可能有所不同。如果您指定未定義的模型名稱並單擊 **確定** 按鈕，EmEditor 將執行與 OpenAI API 的連線測試以檢查輸入的模型名稱是否有效。
 
 ## 「重設」按鈕
 
