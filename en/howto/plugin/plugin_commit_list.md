@@ -48,7 +48,7 @@ In the commit list, you can right-click on a commit and select **Copy** to copy 
 
 You can checkout the commit with **Checkout (--detach)**, which creates a detached HEAD. If you want to create a new branch from the commit, select **Create New Branch...**.
 
-You can filter the list by clicking on **Filter History…**. Enter the **Filter String**, select a **Filter By** option, then click **Filter**. The commit list now only shows commits that match the filter. The **X** button next to the **Filter History…** button cancels the filter.
+You can filter the list by clicking on **Filter History…**. Enter the **Filter String**, select a **Filter By** option, then click **Filter**. The commit list now only shows commits that match the filter. The **Cancel Filter** button next to the **Filter History…** button cancels the filter.
 
 The left panel shows a list of branches in the repo. Select **View Branch** to show the list of commits for that branch. You can **Checkout Branch** to switch to the branch, **Create New Branch** from the selected branch, or **Delete Branch**. When two branches are selected, you can compare the files between those branches with **Compare Branches**.
 
