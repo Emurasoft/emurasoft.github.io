@@ -50,7 +50,15 @@ You can checkout the commit with **Checkout (--detach)**, which creates a detach
 
 You can filter the list by clicking on **Filter History…**. Enter the **Filter String**, select a **Filter By** option, then click **Filter**. The commit list now only shows commits that match the filter. The **Cancel Filter** button next to the **Filter History…** button cancels the filter.
 
-The left panel shows a list of branches in the repo. Select **View Branch** to show the list of commits for that branch. You can **Checkout Branch** to switch to the branch, **Create New Branch** from the selected branch, or **Delete Branch**. When two branches are selected, you can compare the files between those branches with **Compare Branches**.
+The left panel shows a list of branches in the repo. The context menu shows commands relating to branches.
+
+- **View Branch**: Show the list of commits for that branch.
+- **Compare Branches**: When two branches are selected, you can compare the files between those branches.
+- **Refresh**: Refreshes the information displayed in the CommitList bar
+- **Checkout Branch**: Switch to the branch
+- **Create New Branch...**: Create new branch from the selected branch and checkout the new branch.
+- **Delete Branch**: Delete the selected branch
+- **Delete Remote Branch**: Deletes the remote branch that is tracked by the branch. (Calls the command `git push -v <upstream> --delete <branch>`)
 
 If a file that is in the current repo is opened in the editor, the **View History For Current Document** button can be selected. It lists any commits that include changes to the current file. Right-clicking on a commit will show four options. **Show Commit** jumps to that commit in the main commit list. **Compare with Previous** compares the file with its previous revision. **Compare File at Commits** compares the file at two different commits. **Compare with File in Working Tree** compares the file at the selected commit and the work tree version.
 
