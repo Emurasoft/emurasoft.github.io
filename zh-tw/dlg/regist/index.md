@@ -26,3 +26,6 @@
 
 請輸入在 Emurasoft 客戶中心賬戶的密碼。
 
+## 「標記裝置」核取方塊
+
+啟用**標記裝置**會將標籤文字添加到[註冊的裝置](https://support.emeditor.com/en/account/devices)清單的裝置記錄中。預設的標籤為 `{computer name} {user name}`。您可以選擇是否要標記裝置。

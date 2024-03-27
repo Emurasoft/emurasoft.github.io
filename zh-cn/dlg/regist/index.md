@@ -18,7 +18,7 @@
 
 您无需输入注册密钥即可通过 EmEditor 登录 Emurasoft 客户中心来注册。
 
-## “电子邮件地址文本框
+## “电子邮件地址”文本框
 
 请输入在 Emurasoft 客户中心账户的电子邮件地址。
 
@@ -26,3 +26,6 @@
 
 请输入在 Emurasoft 客户中心账户的密码。
 
+## “标记设备”复选框
+
+启用**标记设备**会将标签文本添加到[注册的设备](https://support.emeditor.com/en/account/devices)列表的设备记录中。默认的标签为 `{computer name} {user name}`。您可以选择是否要标记设备。
