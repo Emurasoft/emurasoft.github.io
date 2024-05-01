@@ -1,8 +1,8 @@
 # Stripe Subscriptions page
 
-All Stripe subscriptions that are associated with your Customer Center account are listed in the [Stripe Subscriptions page](https://support.emeditor.com/en/account/subscriptions). The page also contains [a link to purchase new Stripe subscriptions](https://support.emeditor.com/en/stripe_payment) for your account.
+All Stripe subscriptions associated with your Customer Center account are listed on the [Stripe Subscriptions page](https://support.emeditor.com/en/account/subscriptions). The page also contains [a link to purchase new Stripe subscriptions](https://support.emeditor.com/en/stripe_payment) for your account.
 
-The following section describes each column in Stripe Subscriptions list.
+The following section describes each column in the Stripe Subscriptions list.
 
 1. **Stripe subscription ID**: ID for the Stripe subscription
 2. **Created on**: The date that the subscription was created
