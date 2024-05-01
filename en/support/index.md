@@ -1,6 +1,7 @@
 ```{toctree}
 :hidden:
 registered_devices
+subscriptions
 ```
 
 # Support
