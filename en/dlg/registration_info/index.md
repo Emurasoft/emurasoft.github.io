@@ -15,3 +15,11 @@ The following information may be displayed in the text box.
 - You subscription ID if you are using a Stripe subscription
 - Your device will be validated, and the result will be printed. If successful, it will show "Validation successful". If unsuccessful, it will show diagnostic information to help solve the issue.
     - If you would like support, please [contact us](https://www.emeditor.com/support/#contact).
+
+## Sign In/Enter Registration Key button
+
+This button opens the [Register Product dialog box](../regist/index).
+
+## Edit Device Info
+
+This button opens the Edit device page on Emurasoft Customer Center, which allows you to view more information about your device.
