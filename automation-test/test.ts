@@ -13,7 +13,7 @@ async function test(language: string) {
     console.log(`language: ${language}`);
 
     const options = new chrome.Options();
-    options.headless()
+    options.addArguments('--headless=new');
 
     const logPreferences = new logging.Preferences();
     logPreferences.setLevel(logging.Type.BROWSER, logging.Level.WARNING);
@@ -29,7 +29,7 @@ async function test(language: string) {
     await driver.get(url.toString());
 
     const logEntries = await driver.manage().logs().get(logging.Type.BROWSER);
-    assert.equal(logEntries.length, 0);
+    assert.equal(logEntries.length, 0, JSON.stringify(logEntries));
 
     await driver.quit();
 }
