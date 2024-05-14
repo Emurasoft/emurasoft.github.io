@@ -3,10 +3,10 @@
     "start": "ts-node test.ts"
   },
   "dependencies": {
-    "selenium-webdriver": "^4.11.1",
-    "ts-node": "^10.9.1"
+    "selenium-webdriver": "^4.20.0",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "@types/selenium-webdriver": "^4.1.16"
+    "@types/selenium-webdriver": "^4.1.22"
   }
 }
