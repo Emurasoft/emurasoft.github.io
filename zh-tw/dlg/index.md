@@ -63,4 +63,5 @@ about/index
 regist/index
 opening/index
 enter_maintenance/index
+registration_info/index
 ```
