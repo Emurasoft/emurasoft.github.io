@@ -20,6 +20,7 @@
 | [FolderExists](folder_exists) | 指定するフォルダが存在すれば true を、存在しなければ false を返します。 |
 | [GetEnv](get_env) | 環境変数を取得します。 |
 | [GetFileAttributes](get_file_attributes) | 指定するファイルまたはフォルダの属性を返します。 |
+| [GetKeyState](get_key_state) | 指定する仮想キーのステータスを取得します。 |
 | [Run](run) | 新規プロセスでプログラムを実行します。 |
 | [SendKeys](send_keys) | アクティブなウィンドウにキー ストローク (またはマウス アクティビティ) を送ります。 |
 | [SetFileAttributes](set_file_attributes) | 指定するファイルまたはフォルダの属性を設定します。 |

@@ -20,6 +20,7 @@
 | [**FolderExists**](folder_exists) | Returns true if a specified folder exists; false if it does not. |
 | [**GetEnv**](get_env) | Retrieves an environment variable. |
 | [**GetFileAttributes**](get_file_attributes) | Returns the attributes of a specified file or folder. |
+| [**GetKeyState**](get_key_state) | Retrieves the status of the specified virtual key. |
 | [**Run**](run) | Runs a program in a new process. |
 | **[SendKeys](send_keys)** | Sends one or more keystrokes (or mouse activities) to the active window. |
 | [**SetFileAttributes**](set_file_attributes) | Sets the attributes of a specified file or folder. |
