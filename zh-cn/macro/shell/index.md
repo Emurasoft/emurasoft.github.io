@@ -20,6 +20,7 @@
 | [**FolderExists**](folder_exists) | 如果指定文件夹存在则返回 true；如果没有，则为 false。 |
 | [**GetEnv**](get_env) | 检索环境变量。 |
 | [**GetFileAttributes**](get_file_attributes) | 返回指定文件或文件夹的属性。 |
+| [**GetKeyState**](get_key_state) | 检索指定虚拟键的状态。 |
 | [**Run**](run) | 在新进程中运行程序。 |
 | **[SendKeys](send_keys)** | 发送一个或多个键击（或鼠标活动）到活动窗口中。 |
 | [**SetFileAttributes**](set_file_attributes) | 设置指定文件或文件夹的属性。 |
@@ -42,6 +43,7 @@ foreground_window
 keep_running
 get_env
 get_file_attributes
+get_key_state
 run
 send_keys
 set_file_attributes

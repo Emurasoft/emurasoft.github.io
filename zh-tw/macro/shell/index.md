@@ -20,6 +20,7 @@
 | [**FolderExists**](folder_exists) | 如果指定資料夾存在則返回 true；如果沒有，則為 false。 |
 | [**GetEnv**](get_env) | 檢索環境變數。 |
 | [**GetFileAttributes**](get_file_attributes) | 返回指定檔案或資料夾的屬性。 |
+| [**GetKeyState**](get_key_state) | 檢索指定虛擬按鍵的狀態。 |
 | [**Run**](run) | 在新進程中運行程式。 |
 | **[SendKeys](send_keys)** | 發送一個或多個鍵擊（或滑鼠活動）到活動視窗中。 |
 | [**SetFileAttributes**](set_file_attributes) | 設定指定檔案或資料夾的屬性。 |
@@ -42,6 +43,7 @@ foreground_window
 keep_running
 get_env
 get_file_attributes
+get_key_state
 run
 send_keys
 set_file_attributes
