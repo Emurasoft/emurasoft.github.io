@@ -43,6 +43,7 @@ foreground_window
 keep_running
 get_env
 get_file_attributes
+get_key_state
 run
 send_keys
 set_file_attributes
