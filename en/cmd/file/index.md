@@ -63,6 +63,8 @@
 | [**Open Workspace**](workspace_open) | Opens a saved workspace file. |
 | [**Save Workspace**](workspace_save_current) | Saves the workspace into the current workspace file. |
 | [**Save Workspace As**](workspace_save_as) | Saves the workspace as a new file name. |
+| [**Add to Favorites**](add_to_favorites) | Adds the current file to the list of favorites. |
+| [**Favorite Files to Open**](favorite_file1) | Opens a specified favorite file (multiple items). |
 | **[Save and Close](file_save_exit)** | Saves and Closes the current file. |
 | **[Close](app_exit)** | Closes the current file. |
 | **[Close Tab](close_tab)** | Closes the selected tab. |
@@ -89,6 +91,7 @@
 :hidden:
 :maxdepth: 1
 activate_or_new
+add_to_favorites
 advanced_open
 app_exit
 app_quit
@@ -99,6 +102,7 @@ copy_file_dir
 copy_file_path
 erase_workspace
 exit_all
+favorite_file1
 file_close_open
 file_mru_file1
 file_mru_folder1

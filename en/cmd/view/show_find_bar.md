@@ -10,10 +10,8 @@ Shows or hides the Find toolbar. The Find toolbar allows you to find or replace 
 
 ## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **Find Toolbar**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Find Toolbar**
+- Default Menu: **View** > **Toolbars** \> **Find**
+- [All Commands](../tools/all_commands): **View** > **Toolbars** \> **Find**
 - Toolbar:
 ![](../../images/emeditor12_toggle_find_bar_button.png)
 - Status Bar: None

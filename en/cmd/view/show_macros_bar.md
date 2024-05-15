@@ -10,10 +10,8 @@ Shows or hides the macros toolbar. The macros toolbar displays all defined My Ma
 
 ## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **Macros Toolbar**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Macros Toolbar**
+- Default Menu: **View** > **Toolbars** \> **Macros**
+- [All Commands](../tools/all_commands): **View** > **Toolbars** \> **Macros**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

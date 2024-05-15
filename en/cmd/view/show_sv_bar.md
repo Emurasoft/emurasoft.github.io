@@ -10,10 +10,8 @@ Shows or hides the CSV toolbar.
 
 ## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **CSV Toolbar**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **CSV Toolbar**
+- Default Menu: **View** > **Toolbars** \> **CSV**
+- [All Commands](../tools/all_commands): **View** > **Toolbars** \> **CSV**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -59,6 +59,7 @@
 | **[Customize Syntax Check](customize_validation)** | Opens the Syntax Check page of the Customize dialog box. |
 | **[Customize Web Browser](customize_web)** | Opens the Web Browser page of the Customize dialog box. |
 | **[Customize AI](customize_ai)** | Opens the AI page of the Customize dialog box. |
+| **[Customize Favorites](customize_favorites)** | Opens the Favorites page of the Customize dialog box. |
 | **[Customize Notifications](customize_notifications)** | Opens the Notifications page of the Customize dialog box. |
 | **[Customize Update](customize_update)** | Opens the Update page of the Customize dialog box. |
 | **[Customize Help](customize_help)** | Opens the Update page of the Customize dialog box. |
@@ -112,6 +113,7 @@ customize_ai
 customize_clipboard
 customize_csv_options
 customize_edit
+customize_favorites
 customize_file
 customize_format
 customize_help

@@ -34,6 +34,7 @@
 | **[Filter Toolbar](show_filter_bar)** | Shows or hides the filter toolbar. |
 | **[Find Toolbar](show_find_bar)** | Shows or hides the find toolbar. |
 | **[Cell Toolbar](show_cell_bar)** | Shows or hides the cell toolbar. |
+| **[Favorites Toolbar](show_favorites_bar)** | Shows or hides the favorites toolbar. |
 | **[Cell Toolbar Options (Popup)](cell_bar_options)** | Shows a popup menu to set options for the cell toolbar. |
 | **[Automatically Show/Hide Cell Toolbar](auto_show_hide_cell_bar)** | Automatically shows or hides the cell toolbar. |
 | **[Automatically Set Focus (Cell Toolbar)](auto_set_focus)** | Automatically sets focus to the cell toolbar. |
@@ -157,6 +158,7 @@ reset_font_size
 set_default_font_size
 show_bar_title
 show_cell_bar
+show_favorites_bar
 show_filter_bar
 show_find_bar
 show_last_message

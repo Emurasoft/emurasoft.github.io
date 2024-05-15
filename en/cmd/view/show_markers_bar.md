@@ -10,10 +10,8 @@ Shows or hides the markers toolbar. The markers toolbar displays all defined mar
 
 ## How to Run
 
-- Default Menu: **View** >
-**Toolbars** \> **Markers Toolbar**
-- [All Commands](../tools/all_commands): **View** >
-**Toolbars** \> **Markers Toolbar**
+- Default Menu: **View** > **Toolbars** \> **Markers**
+- [All Commands](../tools/all_commands): **View** > **Toolbars** \> **Markers**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

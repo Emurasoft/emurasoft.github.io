@@ -17,6 +17,7 @@
 | **[Write a Review](write_review)** | Writes a review about EmEditor. |
 | **[Upgrade](upgrade)** | Upgrades this product to EmEditor Professional. |
 | **[Downgrade](downgrade)** | Downgrades the product to EmEditor Free. |
+| **[Registration Information](registration_info)** | Shows registration information. |
 | **[About EmEditor](app_about)** | Displays version information. |
 
 
@@ -32,6 +33,7 @@ help_internet
 help_local
 help_regist
 keyboard_map
+registration_info
 send_feedback
 update_channel
 upgrade

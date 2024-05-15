@@ -37,6 +37,7 @@
 | [構文チェックのカスタマイズ](customize_validation) | \[カスタマイズ\] ダイアログ ボックスの \[構文チェック\] ページを開きます。 |
 | [Webブラウザのカスタマイズ](customize_web) | \[カスタマイズ\] ダイアログ ボックスの \[Webブラウザ\] ページを開きます。 |
 | [AIのカスタマイズ](customize_ai) | \[カスタマイズ\] ダイアログ ボックスの \[AI\] ページを開きます。 |
+| [お気に入りのカスタマイズ](customize_favorites) | \[カスタマイズ\] ダイアログ ボックスの \[お気に入り\] ページを開きます。 |
 | [通知のカスタマイズ](customize_notifications) | \[カスタマイズ\] ダイアログ ボックスの \[通知\] ページを開きます。 |
 | [更新のカスタマイズ](customize_update) | \[カスタマイズ\] ダイアログ ボックスの \[更新\] ページを開きます。 |
 | [ヘルプのカスタマイズ](customize_help) | \[カスタマイズ\] ダイアログ ボックスの \[ヘルプ\] ページを開きます。 |
@@ -112,6 +113,7 @@ customize_ai
 customize_clipboard
 customize_csv_options
 customize_edit
+customize_favorites
 customize_file
 customize_format
 customize_help

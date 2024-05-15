@@ -18,6 +18,7 @@
 | [レビューを書く](write_review) | EmEditorについてのレビューを書きます。 |
 | [アップグレード](upgrade) | この製品を EmEditor Professional にアップグレードします。 |
 | [ダウングレード](downgrade) | この製品を EmEditor Free にダウングレードします。 |
+| [登録情報](registration_info) | 登録情報を表示します。 |
 | [バージョン情報](app_about) | バージョン情報を表示します。 |
 
 
@@ -33,6 +34,7 @@ help_internet
 help_local
 help_regist
 keyboard_map
+registration_info
 send_feedback
 update_channel
 upgrade

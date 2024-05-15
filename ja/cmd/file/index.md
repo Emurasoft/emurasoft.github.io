@@ -64,6 +64,8 @@
 | [ワークスペースを開く](workspace_open) | 既存のワークスペース ファイルを開きます。 |
 | [ワークスペースを上書き保存](workspace_save_current) | 現在のワークスペースを上書き保存します。 |
 | [ワークスペースを名前を付けて保存](workspace_save_as) | ワークスペースを名前を付けて保存します。 |
+| [お気に入りに追加](add_to_favorites) | 現在のファイルをお気に入りの一覧に追加します。 |
+| [お気に入りファイル](favorite_file1) | 指定したお気に入りファイルを開きます (複数項目)。 |
 | [保存して閉じる](file_save_exit) | ファイルを保存して閉じます。 |
 | [閉じる](app_exit) | 現在アクティブな文書を閉じます。 |
 | [タブを閉じる](close_tab) | 選択タブを閉じます。 |
@@ -90,6 +92,7 @@
 :hidden:
 :maxdepth: 1
 activate_or_new
+add_to_favorites
 advanced_open
 app_exit
 app_quit
@@ -100,6 +103,7 @@ copy_file_dir
 copy_file_path
 erase_workspace
 exit_all
+favorite_file1
 file_close_open
 file_mru_file1
 file_mru_folder1

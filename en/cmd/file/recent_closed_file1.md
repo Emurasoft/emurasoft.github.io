@@ -2,7 +2,7 @@
 
 ## Summary
 
-Opens a specified recently closed document (multiple items)
+Opens a specified recently closed document (multiple items).
 
 ## Description
 
