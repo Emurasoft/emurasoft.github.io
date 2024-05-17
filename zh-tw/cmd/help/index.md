@@ -17,6 +17,7 @@
 | **[撰寫評論](write_review)** | 撰寫有關 EmEditor 的評論。 |
 | **[升級](upgrade)** | 將本產品升級為 EmEditor Professional。 |
 | **[降級](downgrade)** | 將產品降級為 EmEditor Free (免費版)。 |
+| **[註冊信息](registration_info)** | 顯示註冊信息。 |
 | **[關于 EmEditor](app_about)** | 顯示版本信息。 |
 
 
@@ -32,6 +33,7 @@ help_internet
 help_local
 help_regist
 keyboard_map
+registration_info
 send_feedback
 update_channel
 upgrade

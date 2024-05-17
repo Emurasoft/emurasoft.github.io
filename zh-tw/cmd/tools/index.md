@@ -36,6 +36,7 @@
 | **[自訂語法檢查](customize_validation)** | 打開自訂對話方塊中的語法檢查頁面。 |
 | **[自訂網頁瀏覽器](customize_web)** | 打開自訂對話方塊中的網頁瀏覽器頁面。 |
 | **[自訂 AI](customize_ai)** | 打開自訂對話方塊中的 AI 頁面。 |
+| **[自訂我的最愛](customize_favorites)** | 打開自訂對話方塊中的我的最愛頁面。 |
 | **[自訂通知](customize_notifications)** | 打開自訂對話方塊中的通知頁面。 |
 | **[自訂更新](customize_update)** | 打開自訂對話方塊中的更新頁面。 |
 | **[自訂説明](customize_help)** | 打開自訂對話方塊中的説明頁面。 |
@@ -112,6 +113,7 @@ customize_ai
 customize_clipboard
 customize_csv_options
 customize_edit
+customize_favorites
 customize_file
 customize_format
 customize_help

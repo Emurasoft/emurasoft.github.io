@@ -36,6 +36,7 @@
 | **[自定义语法检查](customize_validation)** | 打开自定义对话框中的语法检查页面。 |
 | **[自定义网页浏览器](customize_web)** | 打开自定义对话框中的网页浏览器页面。 |
 | **[自定义 AI](customize_ai)** | 打开自定义对话框中的 AI 页面。 |
+| **[自定义收藏夹](customize_favorites)** | 打开自定义对话框中的收藏夹页面。 |
 | **[自定义通知](customize_notifications)** | 打开自定义对话框中的通知页面。 |
 | **[自定义更新](customize_update)** | 打开自定义对话框中的更新页面。 |
 | **[自定义帮助](customize_help)** | 打开自定义对话框中的帮助页面。 |
@@ -112,6 +113,7 @@ customize_ai
 customize_clipboard
 customize_csv_options
 customize_edit
+customize_favorites
 customize_file
 customize_format
 customize_help
