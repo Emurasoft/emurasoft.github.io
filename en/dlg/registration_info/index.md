@@ -20,6 +20,10 @@ The following information may be displayed in the text box.
 
 This button opens the [Register Product dialog box](../regist/index).
 
+## Unregister button
+
+This button unregisters your device.
+
 ## Edit Device Info button
 
 This button opens the Edit device page on Emurasoft Customer Center, which allows you to view more information about your device.
