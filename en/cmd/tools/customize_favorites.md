@@ -6,12 +6,12 @@ Opens the Favorites page of the Customize dialog box.
 
 ## Description
 
-Displays the Favorites page of the [**Customize** dialog box](../../dlg/customize/index),
+Displays the **Favorites** page of the [**Customize** dialog box](../../dlg/customize/index),
 where you can define common application settings.
 
 ## How to Run
 
-- Default Menu: **File** > **Favorites** > **Customize Favorites...**
+- Default Menu: **File** > **Favorites** > **Customize Favorites**
 - [All Commands](all_commands): **Tools** > **Customize** > **Favorites**
 - Toolbar: None
 - Status Bar: None

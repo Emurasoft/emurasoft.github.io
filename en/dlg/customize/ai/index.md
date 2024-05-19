@@ -18,6 +18,10 @@ Specify the OpenAI API key. You can click the **o-o** on the right side of this 
 
 Specify the name of the model you want to use. You can either select an already defined model name from the list or directly enter an undefined model name. Depending on the model used, the AI's responses may differ, and OpenAI's usage fees may vary. If you specify an undefined model name and click the **OK** button in this dialog box, a connection test to the OpenAI API will be performed to check whether the entered model name is valid.
 
+## Disable AI (per computer) button
+
+Prohibits all AI related features in EmEditor, including the **AI assisted writing** feature, **AI** macro, and any other macros using the **fetch** function. This button requires an administrative privilege to proceed.
+
 ## Reset button
 
 Resets to default settings.

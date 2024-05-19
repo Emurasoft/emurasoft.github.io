@@ -6,7 +6,7 @@ Opens the AI page of the Customize dialog box.
 
 ## Description
 
-Displays the AI page of the [**Customize** dialog box](../../dlg/customize/index),
+Displays the **AI** page of the [**Customize** dialog box](../../dlg/customize/index),
 where you can define common application settings.
 
 ## How to Run
