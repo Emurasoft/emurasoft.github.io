@@ -63,6 +63,8 @@
 | [**打开工作区**](workspace_open) | 打开一个被保存的工作区文件。 |
 | [**保存工作区**](workspace_save_current) | 保存工作区到当前工作区文件中。 |
 | [**另存工作区为**](workspace_save_as) | 用一个新文件名保存工作区。 |
+| [**添加到收藏夹**](add_to_favorites) | 将当前文件添加到收藏夹列表中。 |
+| [**要打开的收藏的文件**](favorite_file1) | 打开指定的收藏夹中的文件(多个项目)。 |
 | **[保存并关闭](file_save_exit)** | 保存并关闭当前文件。 |
 | **[关闭](app_exit)** | 关闭当前文件。 |
 | **[关闭标签](close_tab)** | 关闭选取的标签。 |
@@ -89,6 +91,7 @@
 :hidden:
 :maxdepth: 1
 activate_or_new
+add_to_favorites
 advanced_open
 app_exit
 app_quit
@@ -99,6 +102,7 @@ copy_file_dir
 copy_file_path
 erase_workspace
 exit_all
+favorite_file1
 file_close_open
 file_mru_file1
 file_mru_folder1

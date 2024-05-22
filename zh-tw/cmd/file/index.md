@@ -63,6 +63,8 @@
 | [**打開工作區**](workspace_open) | 打開一個被儲存的工作區檔案。 |
 | [**儲存工作區**](workspace_save_current) | 儲存工作區到目前的工作區檔案中。 |
 | [**另存新工作區**](workspace_save_as) | 用一個新檔名儲存工作區。 |
+| [**添加到我的最愛**](add_to_favorites) | 將目前的檔案添加到我的最愛清單中。 |
+| [**要打開的我的最愛檔案**](favorite_file1) | 打開指定的我的最愛檔案(多個項目)。 |
 | **[儲存并關閉](file_save_exit)** | 儲存并關閉目前的檔案。 |
 | **[關閉](app_exit)** | 關閉目前的檔案。 |
 | **[關閉標籤](close_tab)** | 關閉選取的標籤。 |
@@ -89,6 +91,7 @@
 :hidden:
 :maxdepth: 1
 activate_or_new
+add_to_favorites
 advanced_open
 app_exit
 app_quit
@@ -99,6 +102,7 @@ copy_file_dir
 copy_file_path
 erase_workspace
 exit_all
+favorite_file1
 file_close_open
 file_mru_file1
 file_mru_folder1
