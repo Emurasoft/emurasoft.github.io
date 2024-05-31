@@ -13,6 +13,10 @@ The following information may be displayed in the text box.
 - "Not registered" is displayed if you have not registered.
 - The device ID
 - You subscription ID if you are using a Stripe subscription
+- If you used offline registration, the following information is displayed
+    - Offline license ID
+    - Your email address
+    - Your name
 - Your device will be validated, and the result will be printed. If successful, it will show "Validation successful". If unsuccessful, it will show diagnostic information to help solve the issue.
     - If you would like support, please [contact us](https://www.emeditor.com/support/#contact).
 
