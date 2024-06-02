@@ -1,6 +1,6 @@
 # Using Command Line Options
 
-Command line options can be specified in the Run dialog box on the Start menu or a  Command Prompt window.
+Command line options can be specified in the Run dialog box on the Start menu or a Command Prompt window.
 
 ## Syntax
 
