@@ -6,20 +6,27 @@ Windows の \[スタート\] メニューの \[ファイル名を指定して実
 
 ### ファイルを開く
 
-" _File1_" " _File2_" " _File3_" ... \[/r\] \[/fh\] \[/nr\] \[/sp\] \[/l _LineNumber_\] \[/cl _ColumnNumber_\]
-\[/cp _encoding_\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+"File1" "File2" "File3" ... [/r] [/fh] [/nr] [/sp] [/l LineNumber] [/cl ColumnNumber] [/cp encoding] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新規作成
 
-\[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新規作成して貼り付け
 
-\[/i\] \[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新規作成して引用付き貼り付け
 
-\[/iq\] \[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/iq] [/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新規作成して引用と改行コード付き貼り付け
 
