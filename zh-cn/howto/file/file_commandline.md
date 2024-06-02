@@ -30,77 +30,101 @@
 
 ### 新建一个文件，粘贴为引用文本并换行
 
-\[/iqr\] \[/cd\] \[/sp\] \[/c " _Config_"\]
-\[/mf " _MacroPath_"\]
+```
+[/iqr] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 显示托盘图标
 
+```
 /ti
+```
 
 ### 打印一个文件
 
-" _File_" /p \[/nr\] \[/sp\] \[/cp encoding\]
+```
+"File" /p [/nr] [/sp] [/cp encoding]
+```
 
 ### 比较两个文件
 
-/cmp " _File1_" " _File2_"
+```
+/cmp "File1" "File2"
+```
 
 ### 转换一个文件编码
 
-" _SrcFile_" \[/nr\] \[/sp\] \[/cp _EncodingToOpen_\] \[/c " _Config_"\] /cps _EncodingToSave_ /ss+ /sa " _DestFile_"
+```
+"SrcFile" [/nr] [/sp] [/cp EncodingToOpen] [/c "Config"] /cps EncodingToSave /ss+ /sa "DestFile"
+```
 
 如果不用 Unicode 签名（BOM）保存，用 /ss- 而不是 /ss+.
 
 ### 显示“在文件中查找”对话框
 
+```
 /fd
+```
 
 ### 显示“在文件中替换”对话框
 
+```
 /rd
+```
 
 ### 在文件中查找
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/fn\] \[/fu " _FilesToIgnore_"\]
-\[/cp _encoding_\] " _path_"
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/fn] [/fu "FilesToIgnore"] [/cp encoding] "path"
+```
 
 当点击在“在文件中查找”对话框中的「查找」按钮时，该命令被内部调用。要进行不区分大小的搜索，用 /fi 而不是 /fc。
 
 ### 在文件中替换
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/ko\] \[/fu " _FilesToIgnore_"\] \[/cp
-_encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/ko] [/fu "FilesToIgnore"] [/cp encoding] "path" /rw "ReplaceWith" [/bk "BackupFolder"]
+```
 
 当点击在“在文件中替换”对话框中的「替换全部」按钮时，该命令被内部调用。要进行不区分大小的搜索，用 /fi 而不是 /fc。/ko 和 /bk 不能同时被指定。
 
 ### 打开一个文件并替换
 
-" _File_"
-/rc " _FindWhat_" \[/fw\] \[/x\] \[/cp encoding\] /rw " _ReplaceWith_"
+```
+"File" /rc "FindWhat" [/fw] [/x] [/cp encoding] /rw "ReplaceWith"
+```
 
 当执行“在文件中替换”命令时，该命令被内部调用。要进行不区分大小的搜索，用 /ri 而不是 /rc。
 
 ### 还原工作区
 
+```
 /ws
+```
 
 该命令被内部调用当选择“还原工作区”命令时。
 
 ### 保存工作区
 
+```
 /wss
+```
 
 该命令被内部调用当选择“保存工作区”命令时。
 
 ### 用 EmEditor 抓取文本
 
+```
 /eh
+```
 
 该命令从托盘图标上被调用，当按下在“自定义托盘图标”对话框中定义的用 EmEditor 抓取文本的快捷键时。
 
 ### 显示“帮助”
 
+```
 /?
+```
 
 ## 选项
 

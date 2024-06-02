@@ -30,78 +30,102 @@ Windows の \[スタート\] メニューの \[ファイル名を指定して実
 
 ### 新規作成して引用と改行コード付き貼り付け
 
-\[/iqr\] \[/cd\] \[/sp\] \[/c " _Config_"\]
-\[/mf " _MacroPath_"\]
+```
+[/iqr] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### トレイアイコンを新規作成
 
+```
 /ti
+```
 
 ### ファイルを印刷
 
-" _File_" /p \[/nr\] \[/sp\] \[/cp encoding\]
+```
+"File" /p [/nr] [/sp] [/cp encoding]
+```
 
 ### 2 個のファイルを比較
 
-/cmp " _File1_" " _File2_"
+```
+/cmp "File1" "File2"
+```
 
 ### エンコードの変換
 
-" _SrcFile_" \[/nr\] \[/sp\] \[/cp _EncodingToOpen_\] \[/c " _Config_"\] /cps _EncodingToSave_ /ss+ /sa " _DestFile_"
+```
+"SrcFile" [/nr] [/sp] [/cp EncodingToOpen] [/c "Config"] /cps EncodingToSave /ss+ /sa "DestFile"
+```
 
 Unicode サイン (BOM) を付けて保存しない場合は、/ss+
 の代わりに /ss- を指定します。
 
 ### \[ファイルから検索\] ダイアログ ボックスを表示
 
+```
 /fd
+```
 
 ### \[ファイルから置換\] ダイアログ ボックスを表示
 
+```
 /rd
+```
 
 ### ファイルから検索
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/fn\] \[/fu " _FilesToIgnore_"\]
-\[/cp _encoding_\] " _path_"
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/fn] [/fu "FilesToIgnore"] [/cp encoding] "path"
+```
 
 このコマンドは、EmEditor で \[ファイルから検索\] ダイアログ ボックスで \[検索\] を選択した直後に内部で呼ばれます。大文字と小文字を区別しない場合は、/fc の代わりに /fi を使用します。
 
 ### ファイルから置換
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/ko\] \[/fu " _FilesToIgnore_"\] \[/cp
-_encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/ko] [/fu "FilesToIgnore"] [/cp encoding] "path" /rw "ReplaceWith" [/bk "BackupFolder"]
+```
 
 このコマンドは、EmEditor で \[ファイルから置換\] ダイアログ ボックスで \[すべて置換\] を選択した直後に内部で呼ばれます。大文字と小文字を区別しない場合は、/fc の代わりに /fi を使用します。/ko と /bk は同時に指定できません。
 
 ### ファイルを開いて置換
 
-" _File_"
-/rc " _FindWhat_" \[/fw\] \[/x\] \[/cp encoding\] /rw " _ReplaceWith_"
+```
+"File" /rc "FindWhat" [/fw] [/x] [/cp encoding] /rw "ReplaceWith"
+```
 
 このコマンドは、EmEditor でファイルから置換の実行中に内部で呼ばれます。大文字と小文字を区別しない場合は、/rc の代わりに /ri を使用します。
 
 ### ワークスペースを復元
 
+```
 /ws
+```
 
 このコマンドは、EmEditor で \[ワークスペースを復元\] コマンドを実行した際に内部で呼ばれます。
 
 ### ワークスペースを保存
 
+```
 /wss
+```
 
 このコマンドは、EmEditor で \[ワークスペースを保存\] コマンドを実行した際に内部で呼ばれます。
 
 ### テキスト ボックスの内容を取り込む
 
+```
 /eh
+```
 
 このコマンドは、\[トレイ アイコンの設定\] ダイアログ ボックスで指定されている \[EmEditor でテキストを取り込むショートカット キー\] が押された時に、トレイアイコンから呼ばれます。
 
 ### ヘルプを表示
 
+```
 /?
+```
 
 ## 各オプションの説明
 

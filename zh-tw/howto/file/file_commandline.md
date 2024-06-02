@@ -30,77 +30,101 @@
 
 ### 新增一個檔案，貼為引文並換行
 
-\[/iqr\] \[/cd\] \[/sp\] \[/c " _Config_"\]
-\[/mf " _MacroPath_"\]
+```
+[/iqr] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 顯示系統匣圖示
 
+```
 /ti
+```
 
 ### 列印一個檔案
 
-" _File_" /p \[/nr\] \[/sp\] \[/cp encoding\]
+```
+"File" /p [/nr] [/sp] [/cp encoding]
+```
 
 ### 比較兩個檔案
 
-/cmp " _File1_" " _File2_"
+```
+/cmp "File1" "File2"
+```
 
 ### 轉換一個檔案編碼
 
-" _SrcFile_" \[/nr\] \[/sp\] \[/cp _EncodingToOpen_\] \[/c " _Config_"\] /cps _EncodingToSave_ /ss+ /sa " _DestFile_"
+```
+"SrcFile" [/nr] [/sp] [/cp EncodingToOpen] [/c "Config"] /cps EncodingToSave /ss+ /sa "DestFile"
+```
 
 如果不用 Unicode 簽名 (BOM) 儲存，用 /ss- 而不是 /ss+.
 
 ### 顯示「多檔尋找」對話方塊
 
+```
 /fd
+```
 
 ### 顯示「多檔取代」對話方塊
 
+```
 /rd
+```
 
 ### 多檔尋找
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/fn\] \[/fu " _FilesToIgnore_"\]
-\[/cp _encoding_\] " _path_"
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/fn] [/fu "FilesToIgnore"] [/cp encoding] "path"
+```
 
 當點擊在「多檔尋找」對話方塊中的「尋找」按鈕時，該命令被內部調用。要進行不區分大小的搜尋，用 /fi 而不是 /fc。
 
 ### 多檔取代
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/ko\] \[/fu " _FilesToIgnore_"\] \[/cp
-_encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/ko] [/fu "FilesToIgnore"] [/cp encoding] "path" /rw "ReplaceWith" [/bk "BackupFolder"]
+```
 
 當點擊在「多檔取代」對話方塊中的「取代全部」按鈕時，該命令被內部調用。要進行不區分大小的搜尋，用 /fi 而不是 /fc。/ko 和 /bk 不能同時被指定。
 
 ### 打開一個檔案並取代
 
-" _File_"
-/rc " _FindWhat_" \[/fw\] \[/x\] \[/cp encoding\] /rw " _ReplaceWith_"
+```
+"File" /rc "FindWhat" [/fw] [/x] [/cp encoding] /rw "ReplaceWith"
+```
 
 當執行「多檔取代」命令時，該命令被內部調用。要進行不區分大小的搜尋，用 /ri 而不是 /rc。
 
 ### 還原工作區
 
+```
 /ws
+```
 
 該命令被內部調用當選擇「還原工作區」命令時。
 
 ### 儲存工作區
 
+```
 /wss
+```
 
 該命令被內部調用當選擇「儲存工作區」命令時。
 
 ### 用 EmEditor 抓取文字
 
+```
 /eh
+```
 
 該命令從系統匣圖示上被調用，當按下在「自訂系統匣圖示」對話方塊中定義的用 EmEditor 抓取文字的快速鍵時。
 
 ### 顯示「說明」
 
+```
 /?
+```
 
 ## 選項
 

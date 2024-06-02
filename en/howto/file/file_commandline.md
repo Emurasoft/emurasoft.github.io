@@ -30,81 +30,105 @@ Command line options can be specified in the Run dialog box on the Start menu or
 
 ### Create a new file and paste with quote and returns
 
-\[/iqr\] \[/cd\] \[/sp\] \[/c " _Config_"\]
-\[/mf " _MacroPath_"\]
+```
+[/iqr] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### Display the Tray Icon
 
+```
 /ti
+```
 
 ### Print a file
 
-" _File_" /p \[/nr\] \[/sp\] \[/cp encoding\]
+```
+"File" /p [/nr] [/sp] [/cp encoding]
+```
 
 ### Compare two files
 
-/cmp " _File1_" " _File2_"
+```
+/cmp "File1" "File2"
+```
 
 ### Convert a file encoding
 
-" _SrcFile_" \[/nr\] \[/sp\] \[/cp _EncodingToOpen_\] \[/c " _Config_"\] /cps _EncodingToSave_ /ss+ /sa " _DestFile_"
+```
+"SrcFile" [/nr] [/sp] [/cp EncodingToOpen] [/c "Config"] /cps EncodingToSave /ss+ /sa "DestFile"
+```
 
 To save
 without the Unicode signature (BOM), use /ss- instead of /ss+.
 
 ### Display Find in Files dialog box
 
+```
 /fd
+```
 
 ### Display Replace in Files dialog box
 
+```
 /rd
+```
 
 ### Find in files
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/fn\] \[/fu " _FilesToIgnore_"\]
-\[/cp _encoding_\] " _path_"
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/fn] [/fu "FilesToIgnore"] [/cp encoding] "path"
+```
 
 This command is called internally when the Find button is selected in the Find in Files dialog box. To search without matching case, use /fi instead
 of /fc.
 
 ### Replace in files
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/ko\] \[/fu " _FilesToIgnore_"\] \[/cp
-_encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/ko] [/fu "FilesToIgnore"] [/cp encoding] "path" /rw "ReplaceWith" [/bk "BackupFolder"]
+```
 
 This command is called internally when the Replace All button is selected in the
 Replace in Files dialog box. To search without matching case, use /fi instead of /fc. /ko and /bk cannot be specified simultaneously.
 
 ### Open a file and replace
 
-" _File_"
-/rc " _FindWhat_" \[/fw\] \[/x\] \[/cp encoding\] /rw " _ReplaceWith_"
+```
+"File" /rc "FindWhat" [/fw] [/x] [/cp encoding] /rw "ReplaceWith"
+```
 
 This command is called internally during the Replace in Files process. To search without matching
 case, use /ri instead of /rc.
 
 ### Restore workspace
 
+```
 /ws
+```
 
 This command is called internally when the Restore Workspace command is selected.
 
 ### Save workspace
 
+```
 /wss
+```
 
 This command is called internally when the Save Workspace command is selected.
 
 ### Grab text with EmEditor
 
+```
 /eh
+```
 
 This command is called from the Tray Icon when the shortcut key to grab text with EmEditor defined in the Customize Tray Icon dialog box is pressed.
 
 ### Display Help
 
+```
 /?
+```
 
 ## Options
 
