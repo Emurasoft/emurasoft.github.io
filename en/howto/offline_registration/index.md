@@ -13,7 +13,7 @@ Offline registration uses a license file during registration. The license file i
 EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
 ```
 
-5. Open EmEditor and view [Registration Information](../../dlg/registration_info/index) to confirm that offline registration was successful. The license file is no longer needed to use EmEditor.
+5. Open EmEditor and view [Registration Information](../../dlg/registration_info/index) to confirm that offline registration was successful. The license file can be deleted now as it is no longer needed to use EmEditor.
 
 ## Technical information
 
