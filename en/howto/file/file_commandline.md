@@ -1,103 +1,134 @@
 # Using Command Line Options
 
-Command line options can be specified in the Run dialog box on the Start menu or a  Command Prompt window.
+Command line options can be specified in the Run dialog box on the Start menu or a Command Prompt window.
 
 ## Syntax
 
 ### Open a file or files
 
-" _File1_" " _File2_" " _File3_" ... \[/r\] \[/fh\] \[/nr\] \[/sp\] \[/l _LineNumber_\] \[/cl _ColumnNumber_\]
-\[/cp _encoding_\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+"File1" "File2" "File3" ... [/r] [/fh] [/nr] [/sp] [/l LineNumber] [/cl ColumnNumber] [/cp encoding] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### Create a new file
 
-\[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### Create a new file and paste
 
-\[/i\] \[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### Create a new file and paste with quote
 
-\[/iq\] \[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/iq] [/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### Create a new file and paste with quote and returns
 
-\[/iqr\] \[/cd\] \[/sp\] \[/c " _Config_"\]
-\[/mf " _MacroPath_"\]
+```
+[/iqr] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### Display the Tray Icon
 
+```
 /ti
+```
 
 ### Print a file
 
-" _File_" /p \[/nr\] \[/sp\] \[/cp encoding\]
+```
+"File" /p [/nr] [/sp] [/cp encoding]
+```
 
 ### Compare two files
 
-/cmp " _File1_" " _File2_"
+```
+/cmp "File1" "File2"
+```
 
 ### Convert a file encoding
 
-" _SrcFile_" \[/nr\] \[/sp\] \[/cp _EncodingToOpen_\] \[/c " _Config_"\] /cps _EncodingToSave_ /ss+ /sa " _DestFile_"
+```
+"SrcFile" [/nr] [/sp] [/cp EncodingToOpen] [/c "Config"] /cps EncodingToSave /ss+ /sa "DestFile"
+```
 
 To save
 without the Unicode signature (BOM), use /ss- instead of /ss+.
 
 ### Display Find in Files dialog box
 
+```
 /fd
+```
 
 ### Display Replace in Files dialog box
 
+```
 /rd
+```
 
 ### Find in files
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/fn\] \[/fu " _FilesToIgnore_"\]
-\[/cp _encoding_\] " _path_"
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/fn] [/fu "FilesToIgnore"] [/cp encoding] "path"
+```
 
 This command is called internally when the Find button is selected in the Find in Files dialog box. To search without matching case, use /fi instead
 of /fc.
 
 ### Replace in files
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/ko\] \[/fu " _FilesToIgnore_"\] \[/cp
-_encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/ko] [/fu "FilesToIgnore"] [/cp encoding] "path" /rw "ReplaceWith" [/bk "BackupFolder"]
+```
 
 This command is called internally when the Replace All button is selected in the
 Replace in Files dialog box. To search without matching case, use /fi instead of /fc. /ko and /bk cannot be specified simultaneously.
 
 ### Open a file and replace
 
-" _File_"
-/rc " _FindWhat_" \[/fw\] \[/x\] \[/cp encoding\] /rw " _ReplaceWith_"
+```
+"File" /rc "FindWhat" [/fw] [/x] [/cp encoding] /rw "ReplaceWith"
+```
 
 This command is called internally during the Replace in Files process. To search without matching
 case, use /ri instead of /rc.
 
 ### Restore workspace
 
+```
 /ws
+```
 
 This command is called internally when the Restore Workspace command is selected.
 
 ### Save workspace
 
+```
 /wss
+```
 
 This command is called internally when the Save Workspace command is selected.
 
 ### Grab text with EmEditor
 
+```
 /eh
+```
 
 This command is called from the Tray Icon when the shortcut key to grab text with EmEditor defined in the Customize Tray Icon dialog box is pressed.
 
 ### Display Help
 
+```
 /?
+```
 
 ## Options
 
@@ -180,66 +211,93 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 
 ## Examples
 
-/rr \*.htm
+```
+/rr *.htm
+```
 
 opens all .htm files including all sub folders.
 
+```
 /p "filename"
+```
 
 prints filename.
 
+```
 /r "filename"
+```
 
 opens filename in read only
 mode.
 
+```
 /c "Normal" "filename"
+```
 
 opens filename in the
 default configuration.
 
+```
 /l 123 "filename"
+```
 
 opens filename, jumps to
 the 123rd line and displays it.
 
+```
 /l -1 "filename"
+```
 
 opens filename, jumps to the last line and displays it.
 
+```
 /ff "what" /mc "filename"
+```
 
 opens filename, and finds what matching cases.
 
+```
 /fh
+```
 
 highlights string of last search.
 
+```
 /ti
+```
 
 opens as a tray icon.
 
-/fi "ABC" "c:\\Temp\\\*.txt"
+```
+/fi "ABC" "c:\Temp\*.txt"
+```
 
 searches for the string ABC
 from all files with the extension .txt on the c:\\Temp folder while ignoring case.
 
-/fi "abc" /fr /fw /fn /fu "\_\*;\*.bak" /cp 65536 "c:\\test\\\*.htm;\*.txt"
+```
+/fi "abc" /fr /fw /fn /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 searches for the string abc from all files with the extension .htm and .txt on the c:\\test folder while ignoring case. it searches sub folders, searches only words, displays only file names,
 ignores file or folder names matching "\_\*;\*.bak", and uses the system default encoding.
 
-/fc "\[a-e\]" /fr /x /fu "\_\*;\*.bak" /cp 65536
-"c:\\test\\\*.htm;\*.txt"
+```
+/fc "[a-e]" /fr /x /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 searches for text matching a regular expression \[a-e\] from all files with the extension .htm and .txt on the c:\\test folder while not ignoring case. it searches sub folders, ignores file or folder
 names matching "\_\*;\*.bak", and uses the system default encoding.
 
-"c:\\test\\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\\test\\utf8.txt" /scrlf
+```
+"c:\test\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\test\utf8.txt" /scrlf
+```
 
 converts a UTF-16LE file c:\\test\\utf16.txt to UTF-8 without a Unicode signature and saves as c:\\test\\utf8.txt. The newline characters is converted to CR+LF.
 
+```
 /layout "Focus Mode"
+```
 
 uses the "Focus Mode" layout.
 

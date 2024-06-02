@@ -6,94 +6,125 @@
 
 ### 打開一個或多個檔案
 
-" _File1_" " _File2_" " _File3_" ... \[/r\] \[/fh\] \[/nr\] \[/sp\] \[/l _LineNumber_\] \[/cl _ColumnNumber_\]
-\[/cp _encoding_\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+"File1" "File2" "File3" ... [/r] [/fh] [/nr] [/sp] [/l LineNumber] [/cl ColumnNumber] [/cp encoding] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新增一個檔案
 
-\[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新增一個檔案並貼上
 
-\[/i\] \[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新增一個檔案並貼為引文
 
-\[/iq\] \[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/iq] [/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新增一個檔案，貼為引文並換行
 
-\[/iqr\] \[/cd\] \[/sp\] \[/c " _Config_"\]
-\[/mf " _MacroPath_"\]
+```
+[/iqr] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 顯示系統匣圖示
 
+```
 /ti
+```
 
 ### 列印一個檔案
 
-" _File_" /p \[/nr\] \[/sp\] \[/cp encoding\]
+```
+"File" /p [/nr] [/sp] [/cp encoding]
+```
 
 ### 比較兩個檔案
 
-/cmp " _File1_" " _File2_"
+```
+/cmp "File1" "File2"
+```
 
 ### 轉換一個檔案編碼
 
-" _SrcFile_" \[/nr\] \[/sp\] \[/cp _EncodingToOpen_\] \[/c " _Config_"\] /cps _EncodingToSave_ /ss+ /sa " _DestFile_"
+```
+"SrcFile" [/nr] [/sp] [/cp EncodingToOpen] [/c "Config"] /cps EncodingToSave /ss+ /sa "DestFile"
+```
 
 如果不用 Unicode 簽名 (BOM) 儲存，用 /ss- 而不是 /ss+.
 
 ### 顯示「多檔尋找」對話方塊
 
+```
 /fd
+```
 
 ### 顯示「多檔取代」對話方塊
 
+```
 /rd
+```
 
 ### 多檔尋找
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/fn\] \[/fu " _FilesToIgnore_"\]
-\[/cp _encoding_\] " _path_"
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/fn] [/fu "FilesToIgnore"] [/cp encoding] "path"
+```
 
 當點擊在「多檔尋找」對話方塊中的「尋找」按鈕時，該命令被內部調用。要進行不區分大小的搜尋，用 /fi 而不是 /fc。
 
 ### 多檔取代
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/ko\] \[/fu " _FilesToIgnore_"\] \[/cp
-_encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/ko] [/fu "FilesToIgnore"] [/cp encoding] "path" /rw "ReplaceWith" [/bk "BackupFolder"]
+```
 
 當點擊在「多檔取代」對話方塊中的「取代全部」按鈕時，該命令被內部調用。要進行不區分大小的搜尋，用 /fi 而不是 /fc。/ko 和 /bk 不能同時被指定。
 
 ### 打開一個檔案並取代
 
-" _File_"
-/rc " _FindWhat_" \[/fw\] \[/x\] \[/cp encoding\] /rw " _ReplaceWith_"
+```
+"File" /rc "FindWhat" [/fw] [/x] [/cp encoding] /rw "ReplaceWith"
+```
 
 當執行「多檔取代」命令時，該命令被內部調用。要進行不區分大小的搜尋，用 /ri 而不是 /rc。
 
 ### 還原工作區
 
+```
 /ws
+```
 
 該命令被內部調用當選擇「還原工作區」命令時。
 
 ### 儲存工作區
 
+```
 /wss
+```
 
 該命令被內部調用當選擇「儲存工作區」命令時。
 
 ### 用 EmEditor 抓取文字
 
+```
 /eh
+```
 
 該命令從系統匣圖示上被調用，當按下在「自訂系統匣圖示」對話方塊中定義的用 EmEditor 抓取文字的快速鍵時。
 
 ### 顯示「說明」
 
+```
 /?
+```
 
 ## 選項
 
@@ -175,56 +206,81 @@ _encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
 
 ## 範例
 
-/rr \*.htm
+```
+/rr *.htm
+```
 
 打開所有 .htm 檔案包括所有子資料夾。
 
+```
 /p "filename"
+```
 
 匯出檔案名稱。
 
+```
 /r "filename"
+```
 
 用唯讀模式打開 filename 檔案。
 
+```
 /c "Normal" "filename"
+```
 
 用預設組態打開 filename 檔案。
 
+```
 /l 123 "filename"
+```
 
 打開 filename 檔案，跳到第 123 行並顯示。
 
+```
 /l -1 "filename"
+```
 
 打開 filename 檔案，跳到最後一行並顯示。
 
+```
 /ff "what" /mc "filename"
+```
 
 打開 filename 檔案，並尋找符合的大小寫。
 
+```
 /fh
+```
 
 亮顯最後一次搜尋的字串。
 
+```
 /ti
+```
 
 作為一個系統匣圖示打開。
 
-/fi "ABC" "c:\\Temp\\\*.txt"
+```
+/fi "ABC" "c:\Temp\*.txt"
+```
 
 在 c:\\Temp 資料夾中從所有副檔名為 .txt 的檔案中搜尋字串 ABC，並忽略大小寫。
 
-/fi "abc" /fr /fw /fn /fu "\_\*;\*.bak" /cp 65536 "c:\\test\\\*.htm;\*.txt"
+```
+/fi "abc" /fr /fw /fn /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 在 c:\\test 資料夾中從所有副檔名為 .htm 以及 .txt 的檔案中搜尋字串 abc，並忽略大小寫。另外，該命令的附加條件有搜尋子資料夾，只搜尋字詞，僅顯示檔案名，忽略檔案或資料夾名稱與 "\_\*;\*.bak" 符合，並使用系統預設編碼。
 
-/fc "\[a-e\]" /fr /x /fu "\_\*;\*.bak" /cp 65536
-"c:\\test\\\*.htm;\*.txt"
+```
+/fc "[a-e]" /fr /x /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 在 c:\\test 資料夾中從所有副檔名為 .htm 以及 .txt 的檔案中搜尋與規則運算式 \[a-e\] 符合的文字，並且大小寫需符合。另外，該命令的附加條件有搜尋子資料夾，忽略檔案或資料夾名稱與 "\_\*;\*.bak" 符合，並使用系統預設編碼。
 
-"c:\\test\\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\\test\\utf8.txt" /scrlf
+```
+"c:\test\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\test\utf8.txt" /scrlf
+```
 
 不用 Unicode 簽名，把一個 UTF-16LE 檔案，c:\\test\\utf16.txt，轉換為 UTF-8，並儲存為 c:\\test\\utf8.txt。換行方式被轉換為 CR+LF。
 

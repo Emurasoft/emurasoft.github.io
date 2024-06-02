@@ -6,95 +6,126 @@ Windows の \[スタート\] メニューの \[ファイル名を指定して実
 
 ### ファイルを開く
 
-" _File1_" " _File2_" " _File3_" ... \[/r\] \[/fh\] \[/nr\] \[/sp\] \[/l _LineNumber_\] \[/cl _ColumnNumber_\]
-\[/cp _encoding_\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+"File1" "File2" "File3" ... [/r] [/fh] [/nr] [/sp] [/l LineNumber] [/cl ColumnNumber] [/cp encoding] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新規作成
 
-\[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新規作成して貼り付け
 
-\[/i\] \[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新規作成して引用付き貼り付け
 
-\[/iq\] \[/cd\] \[/sp\] \[/c " _Config_"\] \[/mf " _MacroPath_"\]
+```
+[/iq] [/i] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### 新規作成して引用と改行コード付き貼り付け
 
-\[/iqr\] \[/cd\] \[/sp\] \[/c " _Config_"\]
-\[/mf " _MacroPath_"\]
+```
+[/iqr] [/cd] [/sp] [/c "Config"] [/mf "MacroPath"]
+```
 
 ### トレイアイコンを新規作成
 
+```
 /ti
+```
 
 ### ファイルを印刷
 
-" _File_" /p \[/nr\] \[/sp\] \[/cp encoding\]
+```
+"File" /p [/nr] [/sp] [/cp encoding]
+```
 
 ### 2 個のファイルを比較
 
-/cmp " _File1_" " _File2_"
+```
+/cmp "File1" "File2"
+```
 
 ### エンコードの変換
 
-" _SrcFile_" \[/nr\] \[/sp\] \[/cp _EncodingToOpen_\] \[/c " _Config_"\] /cps _EncodingToSave_ /ss+ /sa " _DestFile_"
+```
+"SrcFile" [/nr] [/sp] [/cp EncodingToOpen] [/c "Config"] /cps EncodingToSave /ss+ /sa "DestFile"
+```
 
 Unicode サイン (BOM) を付けて保存しない場合は、/ss+
 の代わりに /ss- を指定します。
 
 ### \[ファイルから検索\] ダイアログ ボックスを表示
 
+```
 /fd
+```
 
 ### \[ファイルから置換\] ダイアログ ボックスを表示
 
+```
 /rd
+```
 
 ### ファイルから検索
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/fn\] \[/fu " _FilesToIgnore_"\]
-\[/cp _encoding_\] " _path_"
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/fn] [/fu "FilesToIgnore"] [/cp encoding] "path"
+```
 
 このコマンドは、EmEditor で \[ファイルから検索\] ダイアログ ボックスで \[検索\] を選択した直後に内部で呼ばれます。大文字と小文字を区別しない場合は、/fc の代わりに /fi を使用します。
 
 ### ファイルから置換
 
-/fc " _FindWhat_" \[/fr\] \[/fw\] \[/x\] \[/ko\] \[/fu " _FilesToIgnore_"\] \[/cp
-_encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
+```
+/fc "FindWhat" [/fr] [/fw] [/x] [/ko] [/fu "FilesToIgnore"] [/cp encoding] "path" /rw "ReplaceWith" [/bk "BackupFolder"]
+```
 
 このコマンドは、EmEditor で \[ファイルから置換\] ダイアログ ボックスで \[すべて置換\] を選択した直後に内部で呼ばれます。大文字と小文字を区別しない場合は、/fc の代わりに /fi を使用します。/ko と /bk は同時に指定できません。
 
 ### ファイルを開いて置換
 
-" _File_"
-/rc " _FindWhat_" \[/fw\] \[/x\] \[/cp encoding\] /rw " _ReplaceWith_"
+```
+"File" /rc "FindWhat" [/fw] [/x] [/cp encoding] /rw "ReplaceWith"
+```
 
 このコマンドは、EmEditor でファイルから置換の実行中に内部で呼ばれます。大文字と小文字を区別しない場合は、/rc の代わりに /ri を使用します。
 
 ### ワークスペースを復元
 
+```
 /ws
+```
 
 このコマンドは、EmEditor で \[ワークスペースを復元\] コマンドを実行した際に内部で呼ばれます。
 
 ### ワークスペースを保存
 
+```
 /wss
+```
 
 このコマンドは、EmEditor で \[ワークスペースを保存\] コマンドを実行した際に内部で呼ばれます。
 
 ### テキスト ボックスの内容を取り込む
 
+```
 /eh
+```
 
 このコマンドは、\[トレイ アイコンの設定\] ダイアログ ボックスで指定されている \[EmEditor でテキストを取り込むショートカット キー\] が押された時に、トレイアイコンから呼ばれます。
 
 ### ヘルプを表示
 
+```
 /?
+```
 
 ## 各オプションの説明
 
@@ -175,15 +206,21 @@ _encoding_\] " _path_" /rw " _ReplaceWith_" \[/bk " _BackupFolder_"\]
 
 ## 例
 
-/rr \*.htm
+```
+/rr *.htm
+```
 
 拡張子が htm のファイルを、サブ フォルダ内も含めてすべて開きます。
 
+```
 /p "filename"
+```
 
 filename を印刷します。
 
+```
 /r "filename"
+```
 
 filename を書き換え禁止で開きます。
 
@@ -191,46 +228,65 @@ filename を書き換え禁止で開きます。
 
 filename を HTML の設定で開きます。
 
+```
 /l 123 "filename"
+```
 
 filename を開き、123 行目にジャンプして表示します。
 
+```
 /l -1 "filename"
+```
 
 filename を開き、最終行にジャンプして表示します。
 
+```
 /ff "what" /mc "filename"
+```
 
 filename を開き、what を大文字小文字を区別して検索します。
 
+```
 /fh
+```
 
 最後に検索した文字列を強調表示します。
 
+```
 /ti
+```
 
 トレイアイコンとして起動します。
 
-/fi "ABC" "c:\\Temp\\\*.txt"
+```
+/fi "ABC" "c:\Temp\*.txt"
+```
 
 c:\\Temp のフォルダ上の拡張子が txt のファイルから ABC
 という文字列を大文字小文字を区別しないで検索します。
 
-/fi "abc" /fr /fw /fn /fu "\_\*;\*.bak" /cp 65536 "c:\\test\\\*.htm;\*.txt"
+```
+/fi "abc" /fr /fw /fn /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 c:\\test のフォルダ上の拡張子が htm または txt のファイルから "abc"
 という文字列を大文字小文字を区別しないで検索します。その時、サブフォルダも検索し、単語のみを検索し、ファイル名のみを取得し、"\_\*;\*.bak" に一致するファイルは無視し、システム既定エンコードを使用します。
 
-/fc "\[a-e\]" /fr /x /fu "\_\*;\*.bak" /cp 65536
-"c:\\test\\\*.htm;\*.txt"
+```
+/fc "[a-e]" /fr /x /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 c:\\test のフォルダ上の拡張子が htm または txt のファイルから "\[a-e\]" という正規表現で、文字列を大文字小文字を区別して検索します。その時、サブフォルダも検索し、"\_\*;\*.bak" に一致するファイルは無視し、システム既定エンコードを使用します。
 
-"c:\\test\\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\\test\\utf8.txt" /scrlf
+```
+"c:\test\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\test\utf8.txt" /scrlf
+```
 
 "c:\\test\\utf16.txt" という UTF-16LE のファイルを UTF-8 で Unicode サイン (BOM) 無しに変換し、"c:\\test\\utf8.txt" というファイル名で保存します。改行コードは CR+LF に変換します。
 
+```
 /layout "集中モード"
+```
 
 "集中モード" レウアウトを使用します。
 
