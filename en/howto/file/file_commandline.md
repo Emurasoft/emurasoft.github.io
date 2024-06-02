@@ -134,80 +134,73 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 
 |     |     |
 | --- | --- |
-| /? | displays Help. |
-| /act | activates EmEditor if it is already running, or launches EmEditor if it is not already running. |
-| /bk " _BackupFolder_" | specifies a backup folder when replacing in files. |
-| /c " _Config_" | sets the configuration. |
-| /ca | closes all documents. |
-| /car | closes all documents including a hidden window if the "Quick Start" option is enabled. |
-| /cd | set the current directory as the default folder in the Open dialog box. |
-| /cjl | customizes the Jump List on Windows 7 or later. |
-| /cl _ColumnNumber_ | logical column number. A negative number means the number of characters from the end of the line. |
-| /clw | clears the workspace. |
-| /cmp | compares two files. |
-| /cp _Encoding_ | sets an encoding to open as.  An encoding can be one of [Encoding Constants](../../macro/const/const_encoding). A combination with following values can be specified.|
-
-|     |     |
-| --- | --- |
-| 131072 | Detects Unicode signature (BOM). |
-| 262144 | Detects UTF-8. |
-| 524288 | Detects HTML/XML Charset. |
-| 1048576 | Detects all encodings. | |
-| /cps _Encoding_ | sets an encoding to save as.  An encoding can be one of [Encoding Constants](../../macro/const/const_encoding). |
-| /csv " _CSVName_" | sets the initial CSV mode, and the CSV detection is disabled. _CSVName_ can be the name of the CSV format or the index number. If 0 is specified, the normal mode is used. |
-| /di | specifies the working folder when creating a new document. Used internally by EmEditor. |
-| /eh | grabs a text box contents. |
-| /fc " _FindWhat_" | find in files (case sensitive). |
-| /fd | displays the [**Find in Files**dialog box](../../dlg/find_in_files/index). |
-| /ff " _FindWhat_" | find a string directly within the opened document. Can be combined with /mc or /x. |
-| /fi " _FindWhat_" | find in files (ignore case). |
-| /fh | highlights searched strings. |
-| /fhf | filters using the last searched string(s). |
-| /fn | displays only file names when finding in file. |
-| /fu " _FilesToIgnore_" | ignores the following file or folder names. |
-| /fr | search in sub folders when finding in files (use with /fc or /fi). |
-| /fw | searches only words. |
-| /hide | runs EmEditor as a hidden window when the "Quick Start" option is enabled. |
-| /i | pastes a text string from the Clipboard. |
-| /ipi | refreshes the plug-in list. used from plug-in installers. |
-| /iq | pastes a text string in quotes from the Clipboard. |
-| /iqr | pastes a text string in quotes and returns from the Clipboard. |
-| /ko | keeps modified files open when replacing in files. |
-| /l _LineNumber_ | move cursor to the logical line number. A negative number means the number of lines from the bottom of the file. |
-| /layout " _Layout_" | uses a specified layout. |
-| /max _limit_ | Stops find or replace in files when the number of matches reaches this number. |
-| /mc | matches cases when /ff is used to find a string. |
-| /mf | specifies a macro file to run. |
-| /n | always start as a new file. |
-| /ncp | suppresses "The specified file does not exist. Open as a new file?" prompt when a specified file is not found. This option does not apply when restoring files from a workspace. |
-| /ne | specifies event-triggered macros should be disabled. |
-| /ng | always creates a new group window. |
-| /nr | does not add the file path to the recent file list. |
-| /od | displays the Open dialog box to select files to open. |
-| /p | prints the file. |
-| /pos left top right bottom | specifies the window position with four integers (left, top, right, bottom). |
-| /r | read-only mode. |
-| /rc " _FindWhat_" | replaces in files (case sensitive). |
-| /rd | displays the [**Replace in Files** dialog box](../../dlg/replace_in_files/index). |
-| /rh | opens HTML files as read-only. Used internally. |
-| /ri " _FindWhat_" | replaces in files (ignore case). |
-| /rr | opens files in folders recursively. |
-| /rw | specifies a string to be replaced with. |
-| /sa " _DestFile_" | specifies a file name to save as after the encoding conversion. |
-| /sca | saves and closes all opened documents. |
-| /scrlf | saves the file using CR+LF as newline characters after the encoding conversion. |
-| /scr | saves the file using the CR only as newline characters after the encoding conversion. |
-| /slf | saves the file using the LF only as newline characters after the encoding conversion. |
-| /sp | specifies that a new separate process from other EmEditor windows should be run. This option is useful when a new EmEditor window must be launched from another application because the application must monitor the process termination so it can detect the file modification. If this is specified, however, some features including tab operations will be disabled, and will void support. |
-| /ss+ | saves the file with a Unicode signature (BOM) after the encoding conversion. |
-| /ss- | saves the file without a Unicode signature (BOM) after the encoding conversion. |
-| /ti | displays the Tray Icon. |
-| /uob | uses the Output Bar to display the Find in Files results. |
-| /x | finds or finds in files using a regular expression. |
-| /xnr | finds or finds in files using a number range expression. |
-| /ws | restores the workspace. |
-| /wsf "WorkspaceFile" | restores the specified workspace. |
-| /wss | saves the workspace. |
+| `/?` | displays Help. |
+| `/act` | activates EmEditor if it is already running, or launches EmEditor if it is not already running. |
+| `/bk "BackupFolder"` | specifies a backup folder when replacing in files. |
+| `/c "Config"` | sets the configuration. |
+| `/ca` | closes all documents. |
+| `/car` | closes all documents including a hidden window if the "Quick Start" option is enabled. |
+| `/cd` | set the current directory as the default folder in the Open dialog box. |
+| `/cjl` | customizes the Jump List on Windows 7 or later. |
+| `/cl ColumnNumber` | logical column number. A negative number means the number of characters from the end of the line. |
+| `/clw` | clears the workspace. |
+| `/cmp` | compares two files. |
+| `/cp Encoding` | sets an encoding to open as. An encoding can be one of [Encoding Constants](../../macro/const/const_encoding). A combination with following values can be specified.<br><table><tr><td>`131072`</td><td>Detects Unicode signature (BOM).</td></tr><tr><td>`262144`</td><td>Detects UTF-8.</td></tr><tr><td>`524288`</td><td>Detects HTML/XML Charset.</td></tr><tr><td>`1048576`</td><td>Detects all encodings.</td></tr></table> |
+| `/cps Encoding` | sets an encoding to save as.  An encoding can be one of [Encoding Constants](../../macro/const/const_encoding). |
+| `/csv "CSVName"` | sets the initial CSV mode, and the CSV detection is disabled. _CSVName_ can be the name of the CSV format or the index number. If 0 is specified, the normal mode is used. |
+| `/di` | specifies the working folder when creating a new document. Used internally by EmEditor. |
+| `/eh` | grabs a text box contents. |
+| `/fc "FindWhat"` | find in files (case sensitive). |
+| `/fd` | displays the [**Find in Files**dialog box](../../dlg/find_in_files/index). |
+| `/ff "FindWhat"` | find a string directly within the opened document. Can be combined with /mc or /x. |
+| `/fi "FindWhat"` | find in files (ignore case). |
+| `/fh` | highlights searched strings. |
+| `/fhf` | filters using the last searched string(s). |
+| `/fn` | displays only file names when finding in file. |
+| `/fu "FilesToIgnore"` | ignores the following file or folder names. |
+| `/fr` | search in sub folders when finding in files (use with /fc or /fi). |
+| `/fw` | searches only words. |
+| `/hide` | runs EmEditor as a hidden window when the "Quick Start" option is enabled. |
+| `/i` | pastes a text string from the Clipboard. |
+| `/ipi` | refreshes the plug-in list. used from plug-in installers. |
+| `/iq` | pastes a text string in quotes from the Clipboard. |
+| `/iqr` | pastes a text string in quotes and returns from the Clipboard. |
+| `/ko` | keeps modified files open when replacing in files. |
+| `/l LineNumber` | move cursor to the logical line number. A negative number means the number of lines from the bottom of the file. |
+| `/layout "Layout"` | uses a specified layout. |
+| `/max limit` | Stops find or replace in files when the number of matches reaches this number. |
+| `/mc` | matches cases when /ff is used to find a string. |
+| `/mf` | specifies a macro file to run. |
+| `/n` | always start as a new file. |
+| `/ncp` | suppresses "The specified file does not exist. Open as a new file?" prompt when a specified file is not found. This option does not apply when restoring files from a workspace. |
+| `/ne` | specifies event-triggered macros should be disabled. |
+| `/ng` | always creates a new group window. |
+| `/nr` | does not add the file path to the recent file list. |
+| `/od` | displays the Open dialog box to select files to open. |
+| `/p` | prints the file. |
+| `/pos left top right bottom` | specifies the window position with four integers (left, top, right, bottom). |
+| `/r` | read-only mode. |
+| `/rc "FindWhat"` | replaces in files (case sensitive). |
+| `/rd` | displays the [**Replace in Files** dialog box](../../dlg/replace_in_files/index). |
+| `/rh` | opens HTML files as read-only. Used internally. |
+| `/ri "FindWhat"` | replaces in files (ignore case). |
+| `/rr` | opens files in folders recursively. |
+| `/rw` | specifies a string to be replaced with. |
+| `/sa "DestFile"` | specifies a file name to save as after the encoding conversion. |
+| `/sca` | saves and closes all opened documents. |
+| `/scrlf` | saves the file using CR+LF as newline characters after the encoding conversion. |
+| `/scr` | saves the file using the CR only as newline characters after the encoding conversion. |
+| `/slf` | saves the file using the LF only as newline characters after the encoding conversion. |
+| `/sp` | specifies that a new separate process from other EmEditor windows should be run. This option is useful when a new EmEditor window must be launched from another application because the application must monitor the process termination so it can detect the file modification. If this is specified, however, some features including tab operations will be disabled, and will void support. |
+| `/ss+` | saves the file with a Unicode signature (BOM) after the encoding conversion. |
+| `/ss-` | saves the file without a Unicode signature (BOM) after the encoding conversion. |
+| `/ti` | displays the Tray Icon. |
+| `/uob` | uses the Output Bar to display the Find in Files results. |
+| `/x` | finds or finds in files using a regular expression. |
+| `/xnr` | finds or finds in files using a number range expression. |
+| `/ws` | restores the workspace. |
+| `/wsf "WorkspaceFile"` | restores the specified workspace. |
+| `/wss` | saves the workspace. |
 
 ## Examples
 
