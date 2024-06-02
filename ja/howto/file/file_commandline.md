@@ -206,15 +206,21 @@ Unicode サイン (BOM) を付けて保存しない場合は、/ss+
 
 ## 例
 
-/rr \*.htm
+```
+/rr *.htm
+```
 
 拡張子が htm のファイルを、サブ フォルダ内も含めてすべて開きます。
 
+```
 /p "filename"
+```
 
 filename を印刷します。
 
+```
 /r "filename"
+```
 
 filename を書き換え禁止で開きます。
 
@@ -222,46 +228,65 @@ filename を書き換え禁止で開きます。
 
 filename を HTML の設定で開きます。
 
+```
 /l 123 "filename"
+```
 
 filename を開き、123 行目にジャンプして表示します。
 
+```
 /l -1 "filename"
+```
 
 filename を開き、最終行にジャンプして表示します。
 
+```
 /ff "what" /mc "filename"
+```
 
 filename を開き、what を大文字小文字を区別して検索します。
 
+```
 /fh
+```
 
 最後に検索した文字列を強調表示します。
 
+```
 /ti
+```
 
 トレイアイコンとして起動します。
 
-/fi "ABC" "c:\\Temp\\\*.txt"
+```
+/fi "ABC" "c:\Temp\*.txt"
+```
 
 c:\\Temp のフォルダ上の拡張子が txt のファイルから ABC
 という文字列を大文字小文字を区別しないで検索します。
 
-/fi "abc" /fr /fw /fn /fu "\_\*;\*.bak" /cp 65536 "c:\\test\\\*.htm;\*.txt"
+```
+/fi "abc" /fr /fw /fn /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 c:\\test のフォルダ上の拡張子が htm または txt のファイルから "abc"
 という文字列を大文字小文字を区別しないで検索します。その時、サブフォルダも検索し、単語のみを検索し、ファイル名のみを取得し、"\_\*;\*.bak" に一致するファイルは無視し、システム既定エンコードを使用します。
 
-/fc "\[a-e\]" /fr /x /fu "\_\*;\*.bak" /cp 65536
-"c:\\test\\\*.htm;\*.txt"
+```
+/fc "[a-e]" /fr /x /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 c:\\test のフォルダ上の拡張子が htm または txt のファイルから "\[a-e\]" という正規表現で、文字列を大文字小文字を区別して検索します。その時、サブフォルダも検索し、"\_\*;\*.bak" に一致するファイルは無視し、システム既定エンコードを使用します。
 
-"c:\\test\\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\\test\\utf8.txt" /scrlf
+```
+"c:\test\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\test\utf8.txt" /scrlf
+```
 
 "c:\\test\\utf16.txt" という UTF-16LE のファイルを UTF-8 で Unicode サイン (BOM) 無しに変換し、"c:\\test\\utf8.txt" というファイル名で保存します。改行コードは CR+LF に変換します。
 
+```
 /layout "集中モード"
+```
 
 "集中モード" レウアウトを使用します。
 

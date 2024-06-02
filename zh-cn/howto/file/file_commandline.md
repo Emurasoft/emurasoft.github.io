@@ -206,56 +206,81 @@
 
 ## 示例
 
-/rr \*.htm
+```
+/rr *.htm
+```
 
 打开所有 .htm 文件包括所有子文件夹。
 
+```
 /p "filename"
+```
 
 输出文件名称。
 
+```
 /r "filename"
+```
 
 用只读模式打开该文件。
 
+```
 /c "Normal" "filename"
+```
 
 用默认配置打开 filename 文件。
 
+```
 /l 123 "filename"
+```
 
 打开 filename 文件，跳到第 123 行并显示。
 
+```
 /l -1 "filename"
+```
 
 打开 filename 文件，跳到最后一行并显示。
 
+```
 /ff "what" /mc "filename"
+```
 
 打开 filename 文件，并查找符合的大小写。
 
+```
 /fh
+```
 
 高亮最后一次搜索的字符串。
 
+```
 /ti
+```
 
 作为一个托盘图标打开。
 
-/fi "ABC" "c:\\Temp\\\*.txt"
+```
+/fi "ABC" "c:\Temp\*.txt"
+```
 
 在 c:\\Temp 文件夹中从所有扩展名为 .txt 的文件中搜索字符串 ABC，并忽略大小写。
 
-/fi "abc" /fr /fw /fn /fu "\_\*;\*.bak" /cp 65536 "c:\\test\\\*.htm;\*.txt"
+```
+/fi "abc" /fr /fw /fn /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 在 c:\\test 文件夹中从所有扩展名为 .htm 以及 .txt 的文件中搜索字符串 abc，并忽略大小写。另外，该命令的附加条件有搜索子文件夹，只搜索字词，仅显示文件名，忽略文件或文件夹名称与 "\_\*;\*.bak" 匹配，并使用系统默认编码。
 
-/fc "\[a-e\]" /fr /x /fu "\_\*;\*.bak" /cp 65536
-"c:\\test\\\*.htm;\*.txt"
+```
+/fc "[a-e]" /fr /x /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 在 c:\\test 文件夹中从所有扩展名为 .htm 以及 .txt 的文件中搜索与正则表达式 \[a-e\] 匹配的文本，并且大小写需符合。另外，该命令的附加条件有搜索子文件夹，忽略文件或文件夹名称与 "\_\*;\*.bak" 匹配，并使用系统默认编码。
 
-"c:\\test\\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\\test\\utf8.txt" /scrlf
+```
+"c:\test\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\test\utf8.txt" /scrlf
+```
 
 不用 Unicode 签名，把一个 UTF-16LE 文件，c:\\test\\utf16.txt，转换为 UTF-8，并保存为 c:\\test\\utf8.txt。换行方式被转换为 CR+LF。
 

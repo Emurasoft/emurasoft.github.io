@@ -211,66 +211,93 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 
 ## Examples
 
-/rr \*.htm
+```
+/rr *.htm
+```
 
 opens all .htm files including all sub folders.
 
+```
 /p "filename"
+```
 
 prints filename.
 
+```
 /r "filename"
+```
 
 opens filename in read only
 mode.
 
+```
 /c "Normal" "filename"
+```
 
 opens filename in the
 default configuration.
 
+```
 /l 123 "filename"
+```
 
 opens filename, jumps to
 the 123rd line and displays it.
 
+```
 /l -1 "filename"
+```
 
 opens filename, jumps to the last line and displays it.
 
+```
 /ff "what" /mc "filename"
+```
 
 opens filename, and finds what matching cases.
 
+```
 /fh
+```
 
 highlights string of last search.
 
+```
 /ti
+```
 
 opens as a tray icon.
 
-/fi "ABC" "c:\\Temp\\\*.txt"
+```
+/fi "ABC" "c:\Temp\*.txt"
+```
 
 searches for the string ABC
 from all files with the extension .txt on the c:\\Temp folder while ignoring case.
 
-/fi "abc" /fr /fw /fn /fu "\_\*;\*.bak" /cp 65536 "c:\\test\\\*.htm;\*.txt"
+```
+/fi "abc" /fr /fw /fn /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 searches for the string abc from all files with the extension .htm and .txt on the c:\\test folder while ignoring case. it searches sub folders, searches only words, displays only file names,
 ignores file or folder names matching "\_\*;\*.bak", and uses the system default encoding.
 
-/fc "\[a-e\]" /fr /x /fu "\_\*;\*.bak" /cp 65536
-"c:\\test\\\*.htm;\*.txt"
+```
+/fc "[a-e]" /fr /x /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 searches for text matching a regular expression \[a-e\] from all files with the extension .htm and .txt on the c:\\test folder while not ignoring case. it searches sub folders, ignores file or folder
 names matching "\_\*;\*.bak", and uses the system default encoding.
 
-"c:\\test\\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\\test\\utf8.txt" /scrlf
+```
+"c:\test\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\test\utf8.txt" /scrlf
+```
 
 converts a UTF-16LE file c:\\test\\utf16.txt to UTF-8 without a Unicode signature and saves as c:\\test\\utf8.txt. The newline characters is converted to CR+LF.
 
+```
 /layout "Focus Mode"
+```
 
 uses the "Focus Mode" layout.
 

@@ -206,56 +206,81 @@
 
 ## 範例
 
-/rr \*.htm
+```
+/rr *.htm
+```
 
 打開所有 .htm 檔案包括所有子資料夾。
 
+```
 /p "filename"
+```
 
 匯出檔案名稱。
 
+```
 /r "filename"
+```
 
 用唯讀模式打開 filename 檔案。
 
+```
 /c "Normal" "filename"
+```
 
 用預設組態打開 filename 檔案。
 
+```
 /l 123 "filename"
+```
 
 打開 filename 檔案，跳到第 123 行並顯示。
 
+```
 /l -1 "filename"
+```
 
 打開 filename 檔案，跳到最後一行並顯示。
 
+```
 /ff "what" /mc "filename"
+```
 
 打開 filename 檔案，並尋找符合的大小寫。
 
+```
 /fh
+```
 
 亮顯最後一次搜尋的字串。
 
+```
 /ti
+```
 
 作為一個系統匣圖示打開。
 
-/fi "ABC" "c:\\Temp\\\*.txt"
+```
+/fi "ABC" "c:\Temp\*.txt"
+```
 
 在 c:\\Temp 資料夾中從所有副檔名為 .txt 的檔案中搜尋字串 ABC，並忽略大小寫。
 
-/fi "abc" /fr /fw /fn /fu "\_\*;\*.bak" /cp 65536 "c:\\test\\\*.htm;\*.txt"
+```
+/fi "abc" /fr /fw /fn /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 在 c:\\test 資料夾中從所有副檔名為 .htm 以及 .txt 的檔案中搜尋字串 abc，並忽略大小寫。另外，該命令的附加條件有搜尋子資料夾，只搜尋字詞，僅顯示檔案名，忽略檔案或資料夾名稱與 "\_\*;\*.bak" 符合，並使用系統預設編碼。
 
-/fc "\[a-e\]" /fr /x /fu "\_\*;\*.bak" /cp 65536
-"c:\\test\\\*.htm;\*.txt"
+```
+/fc "[a-e]" /fr /x /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 在 c:\\test 資料夾中從所有副檔名為 .htm 以及 .txt 的檔案中搜尋與規則運算式 \[a-e\] 符合的文字，並且大小寫需符合。另外，該命令的附加條件有搜尋子資料夾，忽略檔案或資料夾名稱與 "\_\*;\*.bak" 符合，並使用系統預設編碼。
 
-"c:\\test\\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\\test\\utf8.txt" /scrlf
+```
+"c:\test\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\test\utf8.txt" /scrlf
+```
 
 不用 Unicode 簽名，把一個 UTF-16LE 檔案，c:\\test\\utf16.txt，轉換為 UTF-8，並儲存為 c:\\test\\utf8.txt。換行方式被轉換為 CR+LF。
 

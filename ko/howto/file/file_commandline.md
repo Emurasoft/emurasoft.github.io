@@ -171,7 +171,9 @@ _인코딩_\] " _경로_" /rw " _바꾸기_" \[/bk " _백업 폴더_"\]
 
 ## 예
 
-/rr \*.htm
+```
+/rr *.htm
+```
 
 모든 서브 폴더를 포함하는 .htm 파일 열기
 
@@ -199,21 +201,28 @@ _인코딩_\] " _경로_" /rw " _바꾸기_" \[/bk " _백업 폴더_"\]
 
 트레이 아이콘으로 열기
 
-/fi "ABC" "c:\\Temp\\\*.txt"
+```
+/fi "ABC" "c:\Temp\*.txt"
+```
 
 대/소문자 구분을 무시하고 c:\\Temp folder(임시 폴더)에서 .txt 확장으로 모든파일에서 ABC 문자열을 찾기
 
-/fi "abc" /fr /fw /fn /fu "\_\*;\*.bak" /cp 65536 "c:\\test\\\*.htm;\*.txt"
+```
+/fi "abc" /fr /fw /fn /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 대/소문자 구분을 무시하고 c:\\test folder에서 .htm 와 .txt 확장자로 모든 파일에서부터 abc 문자열을 찾기.
 이것은 하위 폴더를 검색, 단어만 검색, 파일이름만 디스플레이, "\_\*;\*.bak"과 이름이 일치하는 파일 혹은 폴더 무시, 그리고 시스템 초기값 인코딩을 사용하기 가능.
 
-/fc "\[a-e\]" /fr /x /fu "\_\*;\*.bak" /cp 65536
-"c:\\test\\\*.htm;\*.txt"
+```
+/fc "[a-e]" /fr /x /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
+```
 
 대/소문자를 무시하고, 모든 파일에서 c:\\테스트 폴더의 .htm 와 .txt 확장자를 가진 정규식\[a-e\]이 일치하는 텍스트 찾기. 이것은 하위폴더를 찾고, "\_\*;\*.bak"과 일치하는 이름을 가진 파일 혹은 폴더를 무시하며 시스템 초기값 인코딩을 사용
 
-"c:\\test\\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\\test\\utf8.txt" /scrlf
+```
+"c:\test\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\test\utf8.txt" /scrlf
+```
 
 converts a UTF-16LE 파일 c:\\test\\utf16.txt 을 서명이 없는 UTF-8 로 전환하고 c:\\test\\utf8.txt로 저장하기. 반환 방법은 CR+LF로 전환입니다.
 
