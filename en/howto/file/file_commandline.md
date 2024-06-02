@@ -201,7 +201,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | `/ws` | restores the workspace. |
 | `/wsf "WorkspaceFile"` | restores the specified workspace. |
 | `/wss` | saves the workspace. |
-| `/ol "licenseFilePath"` | Register EmEditor using an offline license. `licenseFilePath` is the file path to the license file. |
+| `/ol "licenseFilePath"` | Register EmEditor using an [offline license](../offline_registration/index.md). `licenseFilePath` is the file path to the license file. |
 
 ## Examples
 
