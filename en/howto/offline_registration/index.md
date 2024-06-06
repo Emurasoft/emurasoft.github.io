@@ -1,6 +1,6 @@
 # Offline Registration
 
-Registration using the [Register Product dialog box](../../dlg/regist/index) requires an internet connection. If you would like to register EmEditor without an internet connection, you can use the offline registration feature. Offline registration requires EmEditor version 24.2.1 or later.
+Registration using the [Register Product dialog box](../../dlg/regist/index) requires an internet connection. If you would like to register EmEditor without an internet connection, you can use the offline registration feature. Offline registration requires EmEditor version 24.3.0 or later.
 
 Offline registration uses a license file during registration. The license file is delivered to customers by email. Follow these steps to register EmEditor using an offline license.
 
