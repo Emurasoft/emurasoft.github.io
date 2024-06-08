@@ -191,6 +191,8 @@ select_config
 split_to_files
 start_window
 terminate_tool
+new_prompt
+ai_item1
 tool1
 user_menu1
 user_menu2
