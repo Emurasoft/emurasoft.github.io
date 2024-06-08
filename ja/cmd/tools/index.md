@@ -36,7 +36,9 @@
 | [最適化のカスタマイズ](customize_optimization) | \[カスタマイズ\] ダイアログ ボックスの \[最適化\] ページを開きます。 |
 | [構文チェックのカスタマイズ](customize_validation) | \[カスタマイズ\] ダイアログ ボックスの \[構文チェック\] ページを開きます。 |
 | [Webブラウザのカスタマイズ](customize_web) | \[カスタマイズ\] ダイアログ ボックスの \[Webブラウザ\] ページを開きます。 |
-| [AIのカスタマイズ](customize_ai) | \[カスタマイズ\] ダイアログ ボックスの \[AI\] ページを開きます。 |
+| [AIプロンプトのカスタマイズ](customize_ai_list) | \[カスタマイズ\] ダイアログ ボックスの \[AIプロンプト\] ページを開きます。 |
+| [AIオプションのカスタマイズ](customize_ai) | \[カスタマイズ\] ダイアログ ボックスの \[AIオプション\] ページを開きます。 |
+| [AIとチャットのカスタマイズ](customize_chat_ai) | \[カスタマイズ\] ダイアログ ボックスの \[AIとチャット\] ページを開きます。 |
 | [お気に入りのカスタマイズ](customize_favorites) | \[カスタマイズ\] ダイアログ ボックスの \[お気に入り\] ページを開きます。 |
 | [通知のカスタマイズ](customize_notifications) | \[カスタマイズ\] ダイアログ ボックスの \[通知\] ページを開きます。 |
 | [更新のカスタマイズ](customize_update) | \[カスタマイズ\] ダイアログ ボックスの \[更新\] ページを開きます。 |
@@ -110,6 +112,8 @@ customize
 customize_active_string
 customize_advanced
 customize_ai
+customize_ai_list
+customize_chat_ai
 customize_clipboard
 customize_csv_options
 customize_edit
