@@ -17,4 +17,4 @@ EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
 
 ## 技術情報
 
-オフライン登録の内部詳細については、[こちら](https://www.emeditor.com/general/new-validation-systを参照してください。
+オフライン登録の内部詳細については、[こちら](https://www.emeditor.com/general/new-validation-syst)を参照してください。
