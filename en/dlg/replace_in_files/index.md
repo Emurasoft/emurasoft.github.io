@@ -9,7 +9,7 @@ files.
 
 Enter a string to search for. If this is a multi-line text box, you can enter newline characters by pressing CTRL + ENTER. While the drop-down list is open, you may press ALT + DELETE to clear the selected history item.
 
-## >button
+## > button
 
 Click this button to show the list of available commands.
 
@@ -37,7 +37,7 @@ Enter a string with which you would like to replace the found string. If this is
 File types to search within. Wild cards (\* and ?) can be used. Also multiple
 files can be separated with semicolons (;).
 
-## >button
+## > button
 
 Click this button to show the list of available commands.
 
@@ -48,6 +48,8 @@ Click this button to show the list of available commands.
 | **Current File** | When this is checked, the dialog box initializes the File Types drop-down list using the current file. |
 | **Last Used Value** | When this is checked, the dialog box initializes the File Types drop-down list box with the last used string. |
 | **Fixed Value** | When this is checked, the dialog box initializes the File Types drop-down list box with the string set as the fixed value. |
+| **Wildcard** | When this is checked, you can use wildcard characters to specify file types. |
+| **Regular Expression** | When this is checked, you can use regular expressions to specify file types. |
 | **Auto Save** | Saves the option (Current File Type, Current File Extension, Current File or Last Used Value) as the default for the next time the dialog box is displayed. |
 
 The commands also includes the list of available escape sequences or regular expressions. Selecting an item from the list will insert the selected item into the text box next to the button.
@@ -56,7 +58,7 @@ The commands also includes the list of available escape sequences or regular exp
 
 Specify the folder to be searched.
 
-## >button
+## > button
 
 Click this button to show the list of available commands.
 

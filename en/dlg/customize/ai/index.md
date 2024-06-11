@@ -1,6 +1,6 @@
-# AI page
+# AI Options page
 
-The **AI** page allows you to customize settings related to AI.
+The **AI Options** page allows you to customize settings related to AI.
 
 ## Enable AI check box
 

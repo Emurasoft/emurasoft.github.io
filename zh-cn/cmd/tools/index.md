@@ -35,7 +35,9 @@
 | **[自定义优化](customize_optimization)** | 打开自定义对话框中的优化页面。 |
 | **[自定义语法检查](customize_validation)** | 打开自定义对话框中的语法检查页面。 |
 | **[自定义网页浏览器](customize_web)** | 打开自定义对话框中的网页浏览器页面。 |
-| **[自定义 AI](customize_ai)** | 打开自定义对话框中的 AI 页面。 |
+| **[自定义 AI 提示](customize_ai_list)** | 打开自定义对话框中的 AI 提示页面。 |
+| **[自定义 AI 选项](customize_ai)** | 打开自定义对话框中的 AI 选项页面。 |
+| **[自定义与 AI 聊天](customize_chat_ai)** | 打开自定义对话框中的与 AI 聊天页面。 |
 | **[自定义收藏夹](customize_favorites)** | 打开自定义对话框中的收藏夹页面。 |
 | **[自定义通知](customize_notifications)** | 打开自定义对话框中的通知页面。 |
 | **[自定义更新](customize_update)** | 打开自定义对话框中的更新页面。 |
@@ -87,7 +89,9 @@
 | **[上下文菜单](context_menu)** | 显示上下文菜单。 |
 | **[导入导出向导](import_export)** | 显示一个向导来从文件中导入设置或导出当前设置到一个文件中。 |
 | **[自定义工具](customize_tools)** | 自定义外部工具。 |
-| [**终止工具任务**](terminate_tool) | 终止当前正在运行的工具任务。 |
+| **[终止工具任务](terminate_tool)** | 终止当前正在运行的工具任务。 |
+| **[新提示](new_prompt)** | 输入一个新提示来询问 AI。 |
+| **[AI 提示](ai_item1)** | 询问指定的 AI 提示(多个项目)。 |
 | **[分割文件](split_to_files)** | 将当前文档或指定文件分割并保存为多个文件。 |
 | **[合并文件](combine_files)** | 将打开的文档合并至一个文件。 |
 | **[重置所有设定](reset_all_settings)** | 重置所有 EmEditor 设置并重启 EmEditor。 |
@@ -110,6 +114,8 @@ customize
 customize_active_string
 customize_advanced
 customize_ai
+customize_ai_list
+customize_chat_ai
 customize_clipboard
 customize_csv_options
 customize_edit
@@ -185,6 +191,8 @@ select_config
 split_to_files
 start_window
 terminate_tool
+new_prompt
+ai_item1
 tool1
 user_menu1
 user_menu2

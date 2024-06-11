@@ -10,8 +10,8 @@ Shows or hides the favorites toolbar.
 
 ## How to Run
 
-- Default Menu: **View** > **Toolbars** \> **Favorites**
-- [All Commands](../tools/all_commands): **View** > **Toolbars** \> **Favorites**
+- Default Menu: **View** \> **Toolbars** \> **Favorites**
+- [All Commands](../tools/all_commands): **View** \> **Toolbars** \> **Favorites**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

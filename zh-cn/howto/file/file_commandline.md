@@ -173,6 +173,7 @@
 | `/ng` | 总是创建一个新的群组窗口。 |
 | `/nr` | 不添加文件路径到最近文件列表中。 |
 | `/od` | 显示“打开”对话框来选择要打开的文件。 |
+| `/ol "licenseFilePath"` | 使用[离线授权](../offline_registration/index.md)来注册 EmEditor。`licenseFilePath` 是授权文件的路径。 |
 | `/p` | 打印文件。 |
 | `/pos left top right bottom` | 用四个整数指定窗口位置（左，顶，右，底）。 |
 | `/r` | 只读模式。 |

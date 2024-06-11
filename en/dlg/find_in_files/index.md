@@ -42,6 +42,8 @@ Click this button to show the list of available commands.
 | **Current File** | When this is checked, the dialog box initializes the File Types drop-down list using the current file. |
 | **Last Used Value** | When this is checked, the dialog box initializes the File Types drop-down list box with the last used string. |
 | **Fixed Value** | When this is checked, the dialog box initializes the File Types drop-down list box with the string set as the fixed value. |
+| **Wildcard** | When this is checked, you can use wildcard characters to specify file types. |
+| **Regular Expression** | When this is checked, you can use regular expressions to specify file types. |
 | **Auto Save** | Saves the option (Current File Type, Current File Extension, Current File or Last Used Value) as the default for the next time the dialog box is displayed. |
 
 The commands also includes the list of available escape sequences or regular expressions. Selecting an item from the list will insert the selected item into the text box next to the button.

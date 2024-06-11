@@ -173,7 +173,7 @@
 | `/ng` | 總是建立一個新的群組視窗。 |
 | `/nr` | 不添加檔案路徑到最近檔案清單中。 |
 | `/od` | 顯示「打開」對話方塊來選擇要打開的檔案。 |
-| `/p` | 列印檔案。 |
+| `/ol "licenseFilePath"` | 使用[離線授權](../offline_registration/index.md)來註冊 EmEditor。`licenseFilePath` 是授權檔案的路徑。 || `/p` | 列印檔案。 |
 | `/pos left top right bottom` | 用四個整數指定視窗位置 (左，頂，右，底) 。 |
 | `/r` | 唯讀模式。 |
 | `/rc "FindWhat"` | 多檔取代 (區分大小寫) 。 |

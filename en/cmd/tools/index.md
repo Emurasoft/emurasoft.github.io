@@ -58,7 +58,9 @@
 | **[Customize Optimization](customize_optimization)** | Opens the Optimization page of the Customize dialog box. |
 | **[Customize Syntax Check](customize_validation)** | Opens the Syntax Check page of the Customize dialog box. |
 | **[Customize Web Browser](customize_web)** | Opens the Web Browser page of the Customize dialog box. |
-| **[Customize AI](customize_ai)** | Opens the AI page of the Customize dialog box. |
+| **[Customize AI Prompts](customize_ai_list)** | Opens the AI Prompts page of the Customize dialog box. |
+| **[Customize AI Options](customize_ai)** | Opens the AI Options page of the Customize dialog box. |
+| **[Customize Chat with AI](customize_chat_ai)** | Opens the Chat with AI page of the Customize dialog box. |
 | **[Customize Favorites](customize_favorites)** | Opens the Favorites page of the Customize dialog box. |
 | **[Customize Notifications](customize_notifications)** | Opens the Notifications page of the Customize dialog box. |
 | **[Customize Update](customize_update)** | Opens the Update page of the Customize dialog box. |
@@ -88,7 +90,9 @@
 | [**User Menu (8)**](user_menu8) | Shows User Menu (8), used as the first shortcut key for two-keystroke shortcuts. |
 | **[Import and Export](import_export)** | Displays a Wizard to import settings from a file or to export current settings into a file. |
 | **[Customize Tools](customize_tools)** | Customizes external tools. |
-| [**Terminate Tool Job**](terminate_tool) | Terminates the currently running tool job. |
+| **[Terminate Tool Job](terminate_tool)** | Terminates the currently running tool job. |
+| **[New Prompt](new_prompt)** | Enters a new prompt to ask AI. |
+| **[AI Prompts](ai_item1)** | Asks a specified AI prompt (multiple items). |
 | **[Split a File](split_to_files)** | Splits the current document or an existing file and saves as several files. |
 | **[Combine Files](combine_files)** | Combines open documents into a single file. |
 | **[Reset All Settings](reset_all_settings)** | Resets all EmEditor settings and restarts EmEditor. |
@@ -110,6 +114,8 @@ customize
 customize_active_string
 customize_advanced
 customize_ai
+customize_ai_list
+customize_chat_ai
 customize_clipboard
 customize_csv_options
 customize_edit
@@ -185,6 +191,8 @@ select_config
 split_to_files
 start_window
 terminate_tool
+new_prompt
+ai_item1
 tool1
 user_menu1
 user_menu2

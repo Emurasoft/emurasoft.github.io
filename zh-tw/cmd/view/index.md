@@ -16,6 +16,7 @@
 | **[清空輸出列視窗](output_clear)** | 清除輸出列視窗中的內容。 |
 | **[啟用快速鍵](toggle_output_shortcuts)** | 啟用或停用輸出列內的快速鍵。 |
 | **[按視窗換行 (輸出列)](toggle_output_wrap)** | 在輸出列中按視窗大小換行。 |
+| **[與 AI 聊天](view_chat_ai)** | 顯示或隱藏與 AI 聊天列。 |
 | [**語法檢查器**](toggle_validation_bar) | 顯示語法檢查器欄並檢查語法，或隱藏語法檢查器欄。 |
 | [**切換大檔案控制器**](large_file_bar) | 顯示或隱藏大檔案控制器。 |
 | [**切換大綱顯示條和導引**](outline_bar_guide) | 顯示或隱藏大綱顯示條和大綱導引。 |
@@ -35,6 +36,7 @@
 | **[搜尋工具列](show_find_bar)** | 顯示或隱藏搜尋工具列。 |
 | **[儲存格工具列](show_cell_bar)** | 顯示或隱藏儲存格工具列。 |
 | **[我的最愛工具列](show_favorites_bar)** | 顯示或隱藏我的最愛工具列。 |
+| **[AI 工具列](show_ai_bar)** | 顯示或隱藏 AI 工具列。 |
 | **[儲存格工具列選項（快顯）](cell_bar_options)** | 顯示一個快顯功能表為儲存格工具列設置選項。 |
 | **[自動顯示/隱藏儲存格工具列](auto_show_hide_cell_bar)** | 自動顯示或隱藏儲存格工具列。 |
 | **[自動設置焦點（儲存格工具列）](auto_set_focus)** | 自動設置焦點到儲存格工具列上。 |
@@ -159,6 +161,7 @@ set_default_font_size
 show_bar_title
 show_cell_bar
 show_favorites_bar
+show_ai_bar
 show_filter_bar
 show_find_bar
 show_last_message
@@ -193,6 +196,7 @@ view_indent_guides
 view_line_numbers
 view_marks
 view_output
+view_chat_ai
 view_return
 view_ruler
 view_space

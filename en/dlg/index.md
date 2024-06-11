@@ -55,6 +55,7 @@ tray/index
 import_export/index
 plugins/index
 tools/index
+new_prompt/index
 split_to_files/index
 combine_files/index
 macro_temp_options/index

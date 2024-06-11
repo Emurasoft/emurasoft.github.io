@@ -34,7 +34,9 @@ sync/index
 optimization/index
 validation/index
 web/index
+ai_list/index
 ai/index
+chat_ai/index
 favorites/index
 notifications/index
 update/index
