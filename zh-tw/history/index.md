@@ -2,6 +2,7 @@
 
 ```{toctree}
 :maxdepth: 1
+v24_3
 v24_2
 v24_1
 v24_0
