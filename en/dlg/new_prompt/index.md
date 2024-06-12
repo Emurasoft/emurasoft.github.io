@@ -40,6 +40,14 @@ Specify the maximum token count. If this number is small, the response from the 
 
 Specify the temperature for the AI. The higher this value, the greater the randomness.
 
+## Image size drop-down list box
+
+If you selected the **Generate Image** from the **Output** drop-down list box, you can select the image size to be generated.
+
+## Vivid check box
+
+If you selected the **Generate Image** from the **Output** drop-down list box, you can also choose to create a vivid image.
+
 ## Save to Chat with AI check box
 
 Specify whether to save to the Chat with AI log.
