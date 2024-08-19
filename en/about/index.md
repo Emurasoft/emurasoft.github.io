@@ -1,5 +1,9 @@
 # About EmEditor Help
 
+```{toctree}
+thirdPartyLicenses
+```
+
 Version {{version}}
 
 - [EmEditor contact form](https://www.emeditor.com/support/#contact)
