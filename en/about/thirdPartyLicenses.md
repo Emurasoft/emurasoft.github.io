@@ -1,4 +1,4 @@
-# Third party licenses
+# Third-party licenses
 
 ```
 HTML Validator
