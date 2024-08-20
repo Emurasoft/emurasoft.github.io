@@ -1,6 +1,7 @@
 # About EmEditor Help
 
 ```{toctree}
+:hidden:
 thirdPartyLicenses
 ```
 
