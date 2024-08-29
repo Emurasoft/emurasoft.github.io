@@ -17,6 +17,7 @@ history/index
 support/index
 glossary/index
 howto/file/file_commandline.md
+about/index
 ```
 
 - [禁止非法使用本软件。](notice/illegal_usage)
