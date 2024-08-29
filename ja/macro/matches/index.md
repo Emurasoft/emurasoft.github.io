@@ -13,3 +13,9 @@ Matches コレクションは、正規表現の検索結果を表す [Match オ�
 
 EmEditor Professional Version 15.9 以上で利用できます。
 
+```{toctree}
+:hidden:
+:maxdepth: 1
+count
+item
+```

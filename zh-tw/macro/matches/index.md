@@ -13,3 +13,9 @@ Matches 集合提供一集合的規則運算式搜尋結果的 [Match 對象](..
 
 支持 EmEditor Professional Version 15.9 或之後的版本。
 
+```{toctree}
+:hidden:
+:maxdepth: 1
+count
+item
+```

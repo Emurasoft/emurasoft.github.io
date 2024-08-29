@@ -13,3 +13,9 @@ Matches 集合提供一集合的正则表达式搜索结果的 [Match 对象](..
 
 支持 EmEditor Professional Version 15.9 或之后的版本。
 
+```{toctree}
+:hidden:
+:maxdepth: 1
+count
+item
+```
