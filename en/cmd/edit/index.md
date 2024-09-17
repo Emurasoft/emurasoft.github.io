@@ -142,6 +142,29 @@
 | **[Previous Node](outline_prev_node)** | Moves the cursor to the previous node while outlining is displayed. |
 | **[Next Node Extend](shift_next_node)** | Extends the selection to the next node while outlining is displayed. |
 | **[Previous Node Extend](shift_prev_node)** | Extends the selection to the previous node while outlining is displayed. |
+| **[Paragraph](markdown_paragraph)** | Toggles a code style. |
+| **[Heading 1](markdown_heading1)** | Sets the current line as heading level 1. |
+| **[Heading 2](markdown_heading2)** | Sets the current line as heading level 2. |
+| **[Heading 3](markdown_heading3)** | Sets the current line as heading level 3. |
+| **[Heading 4](markdown_heading4)** | Sets the current line as heading level 4. |
+| **[Heading 5](markdown_heading5)** | Sets the current line as heading level 5. |
+| **[Heading 6](markdown_heading6)** | Sets the current line as heading level 6. |
+| **[Bold](markdown_bold)** | Toggles a bold style. |
+| **[Italic](markdown_italic)** | Toggles an italic style. |
+| **[Code](markdown_code)** | Toggles a code style. |
+| **[Clear All Formatting](markdown_clear)** | Removes bold and italic formatting from the selected text. |
+| **[Hyperlink](markdown_hyperlink)** | Inserts a hyperlink. |
+| **[Remove Hyperlinks](markdown_remove_hyperlinks)** | Removes hyperlinks. |
+| **[Image](markdown_image)** | Inserts an Image. |
+| **[Table](markdown_table)** | Inserts a table. |
+| **[Horizontal Rule](markdown_hr)** | Inserts a horizontal rule. |
+| **[Line Break](markdown_line_break)** | Inserts a line break. |
+| **[Blockquote](markdown_blockquote)** | Sets the current line as a blockquote. |
+| **[Code Block](markdown_codeblock)** | Sets the current line as a code block. |
+| **[Numbering](markdown_numbering)** | Inserts an ordered list. |
+| **[Bullets](markdown_bullets)** | Inserts an unordered list. |
+| **[Design View](markdown_view)** | Displays the Markdown design view. |
+| **[Preview](markdown_preview)** | Displays the Markdown preview of the current document. |
 | **[Toggle Narrowing](narrowing_toggle)** | Sets or resets only the selection as editable area and make the rest inaccessible. |
 | **[Set Narrowing](narrowing_on)** | Sets only the selection as editable area and make the rest inaccessible. |
 | **[Reset Narrowing](narrowing_off)** | Makes the entire document accessible. |
@@ -231,6 +254,29 @@ link_open
 logical_end
 logical_home
 logical_home_text
+markdown_blockquote
+markdown_bold
+markdown_bullets
+markdown_clear
+markdown_code
+markdown_codeblock
+markdown_heading1
+markdown_heading2
+markdown_heading3
+markdown_heading4
+markdown_heading5
+markdown_heading6
+markdown_hr
+markdown_hyperlink
+markdown_image
+markdown_italic
+markdown_line_break
+markdown_numbering
+markdown_paragraph
+markdown_preview
+markdown_remove_hyperlinks
+markdown_table
+markdown_view
 move_last_edit
 move_column_left
 move_column_right

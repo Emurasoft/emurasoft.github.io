@@ -37,6 +37,7 @@
 | **[Cell Toolbar](show_cell_bar)** | Shows or hides the cell toolbar. |
 | **[Favorites Toolbar](show_favorites_bar)** | Shows or hides the favorites toolbar. |
 | **[AI Toolbar](show_ai_bar)** | Shows or hides the AI toolbar. |
+| **[Markdown Toolbar](show_markdown_bar)** | Shows or hides the Markdown toolbar. |
 | **[Cell Toolbar Options (Popup)](cell_bar_options)** | Shows a popup menu to set options for the cell toolbar. |
 | **[Automatically Show/Hide Cell Toolbar](auto_show_hide_cell_bar)** | Automatically shows or hides the cell toolbar. |
 | **[Automatically Set Focus (Cell Toolbar)](auto_set_focus)** | Automatically sets focus to the cell toolbar. |
@@ -162,6 +163,7 @@ show_bar_title
 show_cell_bar
 show_favorites_bar
 show_ai_bar
+show_markdown_bar
 show_filter_bar
 show_find_bar
 show_last_message

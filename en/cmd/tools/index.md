@@ -62,6 +62,7 @@
 | **[Customize AI Options](customize_ai)** | Opens the AI Options page of the Customize dialog box. |
 | **[Customize Chat with AI](customize_chat_ai)** | Opens the Chat with AI page of the Customize dialog box. |
 | **[Customize Favorites](customize_favorites)** | Opens the Favorites page of the Customize dialog box. |
+| **[Customize Markdown](customize_markdown)** | Opens the Markdown page of the Customize dialog box. |
 | **[Customize Notifications](customize_notifications)** | Opens the Notifications page of the Customize dialog box. |
 | **[Customize Update](customize_update)** | Opens the Update page of the Customize dialog box. |
 | **[Customize Help](customize_help)** | Opens the Update page of the Customize dialog box. |
@@ -127,6 +128,7 @@ customize_history
 customize_jump_list
 customize_lang
 customize_layouts
+customize_markdown
 customize_markers
 customize_markers_auto
 customize_markers_list

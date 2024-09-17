@@ -40,6 +40,7 @@
 | [AIオプションのカスタマイズ](customize_ai) | \[カスタマイズ\] ダイアログ ボックスの \[AIオプション\] ページを開きます。 |
 | [AIとチャットのカスタマイズ](customize_chat_ai) | \[カスタマイズ\] ダイアログ ボックスの \[AIとチャット\] ページを開きます。 |
 | [お気に入りのカスタマイズ](customize_favorites) | \[カスタマイズ\] ダイアログ ボックスの \[お気に入り\] ページを開きます。 |
+| [Markdownのカスタマイズ](customize_markdown) | \[カスタマイズ\] ダイアログ ボックスの \[Markdown\] ページを開きます。 |
 | [通知のカスタマイズ](customize_notifications) | \[カスタマイズ\] ダイアログ ボックスの \[通知\] ページを開きます。 |
 | [更新のカスタマイズ](customize_update) | \[カスタマイズ\] ダイアログ ボックスの \[更新\] ページを開きます。 |
 | [ヘルプのカスタマイズ](customize_help) | \[カスタマイズ\] ダイアログ ボックスの \[ヘルプ\] ページを開きます。 |
@@ -127,6 +128,7 @@ customize_history
 customize_jump_list
 customize_lang
 customize_layouts
+customize_markdown
 customize_markers
 customize_markers_auto
 customize_markers_list

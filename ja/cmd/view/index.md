@@ -37,6 +37,7 @@
 | [セル ツール バー](show_cell_bar) | セル ツール バーの表示/非表示を切り替えます。 |
 | [お気に入りツール バー](show_favorites_bar) | お気に入りツール バーの表示/非表示を切り替えます。 |
 | [AI ツール バー](show_ai_bar) | AI ツール バーの表示/非表示を切り替えます。 |
+| [Markdown ツール バー](show_markdown_bar) | Markdown ツール バーの表示/非表示を切り替えます。 |
 | [セル ツール バー オプション (ポップアップ)](cell_bar_options) | セル ツール バーに関するオプションを設定するポップアップ メニューを表示します。 |
 | [セル ツール バーを自動的に表示/非表示を切り替える](auto_show_hide_cell_bar) | セル ツール バーを自動的に表示/非表示を切り替えます。 |
 | [自動的にフォーカスを設定する (セル ツール バー)](auto_set_focus) | セル ツール バーに自動的にフォーカスを設定します。 |
@@ -163,6 +164,7 @@ show_bar_title
 show_cell_bar
 show_favorites_bar
 show_ai_bar
+show_markdown_bar
 show_filter_bar
 show_find_bar
 show_last_message

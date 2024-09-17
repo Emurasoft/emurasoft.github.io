@@ -144,6 +144,29 @@
 | [前のノードへ](outline_prev_node) | アウトライン表示時、前のノードへ移動します。 |
 | [選択範囲を次のノードへ](shift_next_node) | アウトライン表示時、選択範囲を次のノードへ移動します。 |
 | [選択範囲を前のノードへ](shift_prev_node) | アウトライン表示時、選択範囲を前のノードへ移動します。 |
+| [段落](markdown_paragraph) | 現在行を段落に設定します。 |
+| [見出し1](markdown_heading1) | 現在行を見出しのレベル 1 に設定します。 |
+| [見出し2](markdown_heading2) | 現在行を見出しのレベル 2 に設定します。 |
+| [見出し3](markdown_heading3) | 現在行を見出しのレベル 3 に設定します。 |
+| [見出し4](markdown_heading4) | 現在行を見出しのレベル 4 に設定します。 |
+| [見出し5](markdown_heading5) | 現在行を見出しのレベル 5 に設定します。 |
+| [見出し6](markdown_heading6) | 現在行を見出しのレベル 6 に設定します。 |
+| [太字](markdown_bold) | 太字のスタイルのオン/オフを切り替えます。 |
+| [斜体](markdown_italic) | 斜体のスタイルのオン/オフを切り替えます。 |
+| [Code](markdown_code) | コードのスタイルのオン/オフを切り替えます。 |
+| [すべての書式をクリア](markdown_clear) | 選択テキストから太字や斜体の書式を削除します。 |
+| [ハイパーリンク](markdown_hyperlink) | ハイパーリンクを挿入します。 |
+| [ハイパーリンクの削除](markdown_remove_hyperlinks) | ハイパーリンクを削除します。 |
+| [画像](markdown_image) | 画像を挿入します。 |
+| [表](markdown_table) | 表を挿入します。 |
+| [水平線](markdown_hr) | 水平線を挿入します。 |
+| [改行](markdown_line_break) | 改行を挿入します。 |
+| [ブロック引用](markdown_blockquote) | 現在行をブロック引用に設定します。 |
+| [コード ブロック](markdown_codeblock) | 現在行をコード ブロックに設定します。 |
+| [段落番号](markdown_numbering) | 段落番号を挿入します。 |
+| [箇条書き](markdown_bullets) | 箇条書きを挿入します。 |
+| [デザイン ビュー](markdown_view) | Markdown デザイン ビューを表示します。 |
+| [プレビュー](markdown_preview) | 現在の文書の Markdown プレビューを表示します。 |
 | [部分編集の設定/解除](narrowing_toggle) | 選択範囲のみを編集可能な領域として設定または解除します。 |
 | [部分編集の設定](narrowing_on) | 選択範囲のみを編集可能な領域として設定します。 |
 | [部分編集の解除](narrowing_off) | 文書全体を編集可能にします。 |
@@ -233,6 +256,29 @@ link_open
 logical_end
 logical_home
 logical_home_text
+markdown_blockquote
+markdown_bold
+markdown_bullets
+markdown_clear
+markdown_code
+markdown_codeblock
+markdown_heading1
+markdown_heading2
+markdown_heading3
+markdown_heading4
+markdown_heading5
+markdown_heading6
+markdown_hr
+markdown_hyperlink
+markdown_image
+markdown_italic
+markdown_line_break
+markdown_numbering
+markdown_paragraph
+markdown_preview
+markdown_remove_hyperlinks
+markdown_table
+markdown_view
 move_column_left
 move_column_right
 move_last_edit
