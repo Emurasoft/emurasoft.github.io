@@ -37,6 +37,7 @@ ai_list/index
 ai/index
 chat_ai/index
 favorites/index
+markdown/index
 notifications/index
 update/index
 help/index

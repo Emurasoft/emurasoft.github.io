@@ -14,7 +14,7 @@ Number of recently used fonts shown in the **View** menu. The maximum is 64.
 
 Number of recent searches shown in the **Find/Replace** dialog boxes.
 
-## **Popup if Number of Items Exceeds** text box
+## Popup if Number of Items Exceeds text box
 
 Number of items first displayed in the menu. The items exceeding this number are displayed inside the **More** popup menu.
 
