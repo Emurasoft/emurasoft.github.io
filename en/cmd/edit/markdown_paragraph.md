@@ -2,11 +2,11 @@
 
 ## Summary
 
-Toggles a code style.
+Sets the current line as a single paragraph.
 
 ## Description
 
-Toggles a code style.
+Sets the current line as a single paragraph.
 
 ## How to Run
 

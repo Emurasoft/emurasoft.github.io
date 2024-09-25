@@ -11,7 +11,7 @@ Displays the Markdown design view.
 ## How to Run
 
 - Default Menu: **Edit** \> **Markdown** \> **Design View**
-- [All Commands](../tools/all_commands): **CSV** \> **Markdown** \> **Design View**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Design View**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

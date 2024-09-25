@@ -142,7 +142,7 @@
 | **[Previous Node](outline_prev_node)** | Moves the cursor to the previous node while outlining is displayed. |
 | **[Next Node Extend](shift_next_node)** | Extends the selection to the next node while outlining is displayed. |
 | **[Previous Node Extend](shift_prev_node)** | Extends the selection to the previous node while outlining is displayed. |
-| **[Paragraph](markdown_paragraph)** | Toggles a code style. |
+| **[Paragraph](markdown_paragraph)** | Sets the current line as a single paragraph. |
 | **[Heading 1](markdown_heading1)** | Sets the current line as heading level 1. |
 | **[Heading 2](markdown_heading2)** | Sets the current line as heading level 2. |
 | **[Heading 3](markdown_heading3)** | Sets the current line as heading level 3. |
@@ -277,9 +277,9 @@ markdown_preview
 markdown_remove_hyperlinks
 markdown_table
 markdown_view
-move_last_edit
 move_column_left
 move_column_right
+move_last_edit
 move_line_down
 move_line_up
 narrowing_off

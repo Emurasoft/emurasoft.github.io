@@ -142,6 +142,29 @@
 | **[上一個節點](outline_prev_node)** | 當顯示大綱視圖時移動游標到上一個節點。 |
 | **[延伸到下一個節點](shift_next_node)** | 當顯示大綱視圖時把選區延伸到下一個節點。 |
 | **[延伸到上一個節點](shift_prev_node)** | 當顯示大綱視圖時把選區延伸到上一個節點。 |
+| **[段落](markdown_paragraph)** | 將目前的行設定為單個段落。 |
+| **[一級標題](markdown_heading1)** | 將目前的行設定為一級標題。 |
+| **[二級標題](markdown_heading2)** | 將目前的行設定為二級標題。 |
+| **[三級標題](markdown_heading3)** | 將目前的行設定為三級標題。 |
+| **[四級標題](markdown_heading4)** | 將目前的行設定為四級標題。 |
+| **[五級標題](markdown_heading5)** | 將目前的行設定為五級標題。 |
+| **[六級標題](markdown_heading6)** | 將目前的行設定為六級標題。 |
+| **[粗體](markdown_bold)** | 切換粗體樣式。 |
+| **[斜體](markdown_italic)** | 切換斜體樣式。 |
+| **[程式碼](markdown_code)** | 切換程式碼樣式。 |
+| **[清除所有格式](markdown_clear)** | 清除所選文字的粗體和斜體格式。 |
+| **[超連結](markdown_hyperlink)** | 插入超連結。 |
+| **[移除超連結](markdown_remove_hyperlinks)** | 移除超連結。 |
+| **[圖像](markdown_image)** | 插入一個圖像。 |
+| **[表格](markdown_table)** | 插入表格。 |
+| **[水平線](markdown_hr)** | 插入水平線。 |
+| **[分行符號](markdown_line_break)** | 插入分行符號。 |
+| **[區塊引用](markdown_blockquote)** | 將目前的行設定為區塊引用。 |
+| **[程式碼區塊](markdown_codeblock)** | 將目前的行設定為程式碼區塊。 |
+| **[編號](markdown_numbering)** | 插入編號清單。 |
+| **[項目符號](markdown_bullets)** | 插入項目符號清單。 |
+| **[設計檢視](markdown_view)** | 顯示 Markdown 設計檢視。 |
+| **[預覽](markdown_preview)** | 顯示目前的文檔的 Markdown 預覽。 |
 | **[切換僅編輯選定區域模式](narrowing_toggle)** | 啟用或不用僅選定的區域可編輯，其他剩余的區域則不允許瀏覽模式。 |
 | **[啟用僅編輯選定區域模式](narrowing_on)** | 把選定的區域設置為可編輯的區域，其他剩余的區域則不允許瀏覽。 |
 | **[停用僅編輯選定區域模式](narrowing_off)** | 使整個文檔可編輯。 |
@@ -231,6 +254,29 @@ link_open
 logical_end
 logical_home
 logical_home_text
+markdown_blockquote
+markdown_bold
+markdown_bullets
+markdown_clear
+markdown_code
+markdown_codeblock
+markdown_heading1
+markdown_heading2
+markdown_heading3
+markdown_heading4
+markdown_heading5
+markdown_heading6
+markdown_hr
+markdown_hyperlink
+markdown_image
+markdown_italic
+markdown_line_break
+markdown_numbering
+markdown_paragraph
+markdown_preview
+markdown_remove_hyperlinks
+markdown_table
+markdown_view
 move_column_left
 move_column_right
 move_last_edit

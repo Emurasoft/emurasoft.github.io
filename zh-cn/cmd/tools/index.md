@@ -39,6 +39,7 @@
 | **[自定义 AI 选项](customize_ai)** | 打开自定义对话框中的 AI 选项页面。 |
 | **[自定义与 AI 聊天](customize_chat_ai)** | 打开自定义对话框中的与 AI 聊天页面。 |
 | **[自定义收藏夹](customize_favorites)** | 打开自定义对话框中的收藏夹页面。 |
+| **[自定义 Markdown](customize_markdown)** | 打开自定义对话框中的 Markdown 页面。 |
 | **[自定义通知](customize_notifications)** | 打开自定义对话框中的通知页面。 |
 | **[自定义更新](customize_update)** | 打开自定义对话框中的更新页面。 |
 | **[自定义帮助](customize_help)** | 打开自定义对话框中的帮助页面。 |
@@ -127,6 +128,7 @@ customize_history
 customize_jump_list
 customize_lang
 customize_layouts
+customize_markdown
 customize_markers
 customize_markers_auto
 customize_markers_list

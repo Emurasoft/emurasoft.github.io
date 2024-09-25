@@ -39,6 +39,7 @@
 | **[自訂 AI 選項](customize_ai)** | 打開自訂對話方塊中的 AI 選項頁面。 |
 | **[自訂與 AI 聊天](customize_chat_ai)** | 打開自訂對話方塊中的與 AI 聊天頁面。 |
 | **[自訂我的最愛](customize_favorites)** | 打開自訂對話方塊中的我的最愛頁面。 |
+| **[自訂 Markdown](customize_markdown)** | 打開自訂對話方塊中的 Markdown 頁面。 |
 | **[自訂通知](customize_notifications)** | 打開自訂對話方塊中的通知頁面。 |
 | **[自訂更新](customize_update)** | 打開自訂對話方塊中的更新頁面。 |
 | **[自訂説明](customize_help)** | 打開自訂對話方塊中的説明頁面。 |
@@ -127,6 +128,7 @@ customize_history
 customize_jump_list
 customize_lang
 customize_layouts
+customize_markdown
 customize_markers
 customize_markers_auto
 customize_markers_list

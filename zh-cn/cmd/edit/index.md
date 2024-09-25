@@ -142,6 +142,29 @@
 | **[上一个节点](outline_prev_node)** | 当显示大纲视图时移动光标到上一个节点。 |
 | **[扩展到下一个节点](shift_next_node)** | 当显示大纲视图时把选区扩展到下一个节点。 |
 | **[扩展到上一个节点](shift_prev_node)** | 当显示大纲视图时把选区扩展到上一个节点。 |
+| **[段落](markdown_paragraph)** | 将当前行设置为单个段落。 |
+| **[一级标题](markdown_heading1)** | 将当前行设置为一级标题。 |
+| **[二级标题](markdown_heading2)** | 将当前行设置为二级标题。 |
+| **[三级标题](markdown_heading3)** | 将当前行设置为三级标题。 |
+| **[四级标题](markdown_heading4)** | 将当前行设置为四级标题。 |
+| **[五级标题](markdown_heading5)** | 将当前行设置为五级标题。 |
+| **[六级标题](markdown_heading6)** | 将当前行设置为六级标题。 |
+| **[粗体](markdown_bold)** | 切换粗体样式。 |
+| **[斜体](markdown_italic)** | 切换斜体样式。 |
+| **[代码](markdown_code)** | 切换代码样式。 |
+| **[清除所有格式](markdown_clear)** | 清除所选文本的粗体和斜体格式。 |
+| **[超链接](markdown_hyperlink)** | 插入超链接。 |
+| **[移除超链接](markdown_remove_hyperlinks)** | 移除超链接。 |
+| **[图像](markdown_image)** | 插入一个图像。 |
+| **[表格](markdown_table)** | 插入表格。 |
+| **[水平线](markdown_hr)** | 插入水平线。 |
+| **[换行符](markdown_line_break)** | 插入换行符。 |
+| **[块引用](markdown_blockquote)** | 将当前行设置为块引用。 |
+| **[代码块](markdown_codeblock)** | 将当前行设置为代码块。 |
+| **[有序列表](markdown_numbering)** | 插入有序列表。 |
+| **[无序列表](markdown_bullets)** | 插入无序列表。 |
+| **[设计视图](markdown_view)** | 显示 Markdown 设计视图。 |
+| **[预览](markdown_preview)** | 显示当前文档的 Markdown 预览。 |
 | **[切换仅编辑选定区域模式](narrowing_toggle)** | 启用或不用仅选定的区域可编辑，其他剩余的区域则不允许访问模式。 |
 | **[启用仅编辑选定区域模式](narrowing_on)** | 把选定的区域设置为可编辑的区域，其他剩余的区域则不允许访问。 |
 | **[禁用仅编辑选定区域模式](narrowing_off)** | 使整个文件可编辑。 |
@@ -231,6 +254,29 @@ link_open
 logical_end
 logical_home
 logical_home_text
+markdown_blockquote
+markdown_bold
+markdown_bullets
+markdown_clear
+markdown_code
+markdown_codeblock
+markdown_heading1
+markdown_heading2
+markdown_heading3
+markdown_heading4
+markdown_heading5
+markdown_heading6
+markdown_hr
+markdown_hyperlink
+markdown_image
+markdown_italic
+markdown_line_break
+markdown_numbering
+markdown_paragraph
+markdown_preview
+markdown_remove_hyperlinks
+markdown_table
+markdown_view
 move_column_left
 move_column_right
 move_last_edit
