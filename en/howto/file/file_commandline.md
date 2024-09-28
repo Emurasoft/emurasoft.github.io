@@ -177,7 +177,8 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | `/ng` | always creates a new group window. |
 | `/nr` | does not add the file path to the recent file list. |
 | `/od` | displays the Open dialog box to select files to open. |
-| `/ol "licenseFilePath"` | Register EmEditor using an [offline license](../offline_registration/index.md). `licenseFilePath` is the file path to the license file. |
+| `/ol "licenseFilePath"` | Register EmEditor using an [offline license](../offline_registration/index.md). `licenseFilePath` is the file path to the license file. The licence info is written to `HKEY_CURRENT_USER` for desktop installation and `eeCommon.ini` for portable version. |
+| `/ola "licenseFilePath"` | Register EmEditor using an [offline license](../offline_registration/index.md). `licenseFilePath` is the file path to the license file. The licence info is written to `HKEY_LOCAL_MACHINE`, which requires administrator permissions. |
 | `/p` | prints the file. |
 | `/pos left top right bottom` | specifies the window position with four integers (left, top, right, bottom). |
 | `/r` | read-only mode. |
