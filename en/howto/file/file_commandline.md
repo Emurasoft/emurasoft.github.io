@@ -79,8 +79,7 @@ without the Unicode signature (BOM), use /ss- instead of /ss+.
 /fc "FindWhat" [/fr] [/fw] [/x] [/fn] [/fu "FilesToIgnore"] [/cp encoding] "path"
 ```
 
-This command is called internally when the Find button is selected in the Find in Files dialog box. To search without matching case, use /fi instead
-of /fc.
+This command is called internally when the Find button is selected in the Find in Files dialog box. To search without matching case, use /fi instead of /fc.
 
 ### Replace in files
 
@@ -88,8 +87,7 @@ of /fc.
 /fc "FindWhat" [/fr] [/fw] [/x] [/ko] [/fu "FilesToIgnore"] [/cp encoding] "path" /rw "ReplaceWith" [/bk "BackupFolder"]
 ```
 
-This command is called internally when the Replace All button is selected in the
-Replace in Files dialog box. To search without matching case, use /fi instead of /fc. /ko and /bk cannot be specified simultaneously.
+This command is called internally when the Replace All button is selected in the Replace in Files dialog box. To search without matching case, use /fi instead of /fc. /ko and /bk cannot be specified simultaneously.
 
 ### Open a file and replace
 
@@ -97,8 +95,7 @@ Replace in Files dialog box. To search without matching case, use /fi instead of
 "File" /rc "FindWhat" [/fw] [/x] [/cp encoding] /rw "ReplaceWith"
 ```
 
-This command is called internally during the Replace in Files process. To search without matching
-case, use /ri instead of /rc.
+This command is called internally during the Replace in Files process. To search without matching case, use /ri instead of /rc.
 
 ### Restore workspace
 
@@ -148,10 +145,10 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | `/cp Encoding` | sets an encoding to open as. An encoding can be one of [Encoding Constants](../../macro/const/const_encoding). A combination with following values can be specified.<br><table><tr><td>`131072`</td><td>Detects Unicode signature (BOM).</td></tr><tr><td>`262144`</td><td>Detects UTF-8.</td></tr><tr><td>`524288`</td><td>Detects HTML/XML Charset.</td></tr><tr><td>`1048576`</td><td>Detects all encodings.</td></tr></table> |
 | `/cps Encoding` | sets an encoding to save as.  An encoding can be one of [Encoding Constants](../../macro/const/const_encoding). |
 | `/csv "CSVName"` | sets the initial CSV mode, and the CSV detection is disabled. _CSVName_ can be the name of the CSV format or the index number. If 0 is specified, the normal mode is used. |
-| `/di` | specifies the working folder when creating a new document. Used internally by EmEditor. |
+| `/di "Folder"` | specifies the working folder when creating a new document. Used internally by EmEditor. |
 | `/eh` | grabs a text box contents. |
 | `/fc "FindWhat"` | find in files (case sensitive). |
-| `/fd` | displays the [**Find in Files**dialog box](../../dlg/find_in_files/index). |
+| `/fd` | displays the [**Find in Files** dialog box](../../dlg/find_in_files/index). |
 | `/ff "FindWhat"` | find a string directly within the opened document. Can be combined with /mc or /x. |
 | `/fi "FindWhat"` | find in files (ignore case). |
 | `/fh` | highlights searched strings. |
@@ -222,22 +219,19 @@ prints filename.
 /r "filename"
 ```
 
-opens filename in read only
-mode.
+opens filename in read only mode.
 
 ```
 /c "Normal" "filename"
 ```
 
-opens filename in the
-default configuration.
+opens filename in the default configuration.
 
 ```
 /l 123 "filename"
 ```
 
-opens filename, jumps to
-the 123rd line and displays it.
+opens filename, jumps to the 123rd line and displays it.
 
 ```
 /l -1 "filename"
@@ -281,8 +275,7 @@ ignores file or folder names matching "\_\*;\*.bak", and uses the system default
 /fc "[a-e]" /fr /x /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
 ```
 
-searches for text matching a regular expression \[a-e\] from all files with the extension .htm and .txt on the c:\\test folder while not ignoring case. it searches sub folders, ignores file or folder
-names matching "\_\*;\*.bak", and uses the system default encoding.
+searches for text matching a regular expression \[a-e\] from all files with the extension .htm and .txt on the c:\\test folder while not ignoring case. it searches sub folders, ignores file or folder names matching "\_\*;\*.bak", and uses the system default encoding.
 
 ```
 "c:\test\utf16.txt" /cp 65537 /cps 65001 /ss- /sa "c:\test\utf8.txt" /scrlf
@@ -300,8 +293,7 @@ uses the "Focus Mode" layout.
 
 - The string searched for in files must be after /fc or /fi.
 - If no options are specified, the selected file will simply be opened.
-- If /c is not specified and the associated extensions of the
-configuration are the same, open the file with that configuration.
+- If /c is not specified and the associated extensions of the configuration are the same, open the file with that configuration.
 - If a folder name is specified instead of a file name, the Open dialog box with that folder will be displayed.
 - Command line options are case sensitive. For instance /r will not be recognized if written as /R.
 - Escape sequences are always on when searching from the command line.
