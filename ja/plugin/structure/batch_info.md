@@ -42,7 +42,8 @@ _nBatchFlags_
 | FLAG\_FIND\_OPEN\_DOC | 同じフレーム ウィンドウ内に開いているすべての文書から検索します。 |
 | FLAG\_FIND\_OUTPUT | 抽出結果をアウトプット バーに表示します。FLAG\_FIND\_EXTRACT と組み合わせて使用します。 |
 | FLAG\_FIND\_REGEX\_BOOST | 正規表現エンジンとして Regex.Boost を使用します。 |
-| FLAG\_FIND\_REGEX\_ONIGMO | 正規表現エンジンとして Onigmo を使用します。 |
+| FLAG\_FIND\_REGEX\_ONIGMO | 正規表現エンジンとして Onigmo を使用し、Ruby 構文を使用します。 |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | 正規表現エンジンとして Onigmo を使用し、Perl 構文を使用します。 |
 | FLAG\_FIND\_SAVE\_HISTORY | 次の検索用に、検索文字列を保存します。 |
 | FLAG\_FIND\_SEPARATE\_CRLF | CR と LF を区別します。 |
 | FLAG\_FIND\_SEL\_ONLY | 選択範囲のみ検索します。 |

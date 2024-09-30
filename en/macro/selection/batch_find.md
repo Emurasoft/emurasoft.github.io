@@ -48,7 +48,7 @@ Specifies a combination of the following values:
 
 _nExFlags_
 
-Specifies a combination of the following values. However, only one of eeExFindRegexBoost and eeExFindRegexOnigmo can be specified. If none of these two is specified, the default regular expression engine is used.
+Specifies a combination of the following values. However, only one of eeExFindRegexBoost, eeExFindRegexOnigmo, and eeExFindRegexOnigmoPerl can be specified. If none of them is specified, the default regular expression engine is used.
 
 |     |     |
 | --- | --- |
@@ -57,7 +57,8 @@ Specifies a combination of the following values. However, only one of eeExFindRe
 | eeExFindEOL | The regular expression ‘$’ can match the end of the selection. |
 | eeExFindLookaround | Looks around during selection only regular-expression searches. |
 | eeExFindRegexBoost | Uses Boost.Regex as the regular expression engine. |
-| eeExFindRegexOnigmo | Uses Onigmo as the regular expression engine. |
+| eeExFindRegexOnigmo | Uses Onigmo as the regular expression engine, using the Ruby syntax. |
+| eeExFindRegexOnigmoPerl | Uses Onigmo as the regular expression engine, using the Perl syntax. |
 | eeExFindSeparateCRLF | Treats CR and LF separately. |
 
 ## Return Values

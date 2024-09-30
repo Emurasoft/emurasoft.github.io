@@ -27,9 +27,10 @@ _nFlags_
 |     |     |
 | --- | --- |
 | FLAG\_FIND\_CASE | Matches cases. |
-| FLAG\_FIND\_FUZZY | This special flag uses fuzzy matching, and disables regular expressions. You cannot combine fuzzy matching with regular expressions. Cannot be combined with FLAG\_FIND\_REGEX\_BOOST, FLAG\_FIND\_REGEX\_ONIGMO, or FLAG\_FIND\_SEPARATE\_CRLF. |
+| FLAG\_FIND\_FUZZY | This special flag uses fuzzy matching, and disables regular expressions. You cannot combine fuzzy matching with regular expressions. Cannot be combined with FLAG\_FIND\_REGEX\_BOOST, FLAG\_FIND\_REGEX\_ONIGMO, FLAG\_FIND\_REGEX\_ONIGMO\_PERL, or FLAG\_FIND\_SEPARATE\_CRLF. |
 | FLAG\_FIND\_REGEX\_BOOST | Uses Boost.Regex as the regular expression engine. |
-| FLAG\_FIND\_REGEX\_ONIGMO | Uses Onigmo as the regular expression engine. |
+| FLAG\_FIND\_REGEX\_ONIGMO | Uses Onigmo as the regular expression engine, using the Ruby syntax. |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | Uses Onigmo as the regular expression engine, using the Perl syntax. |
 | FLAG\_FIND\_SEPARATE\_CRLF | Treats CR and LF separately. |
 
 _pszRegex_

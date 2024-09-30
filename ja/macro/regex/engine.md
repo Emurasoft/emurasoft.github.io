@@ -8,7 +8,8 @@
 | --- | --- |
 | 0 | 既定の正規表現エンジンを使用します。 |
 | eeExFindRegexBoost | Boost.Regex を正規表現エンジンとして使用します。 |
-| eeExFindRegexOnigmo | Onigmo を正規表現エンジンとして使用します。 |
+| eeExFindRegexOnigmo | 正規表現エンジンとして Onigmo を使用し、Ruby 構文を使用します。 |
+| eeExFindRegexOnigmoPerl | 正規表現エンジンとして Onigmo を使用し、Perl 構文を使用します。 |
 
 ## 
 

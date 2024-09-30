@@ -46,7 +46,8 @@ _nFlags_
 | FLAG\_FIND\_OUTPUT | Displays the Extract results as a list in the Output Bar. Must combine with FLAG\_FIND\_EXTRACT. |
 | FLAG\_FIND\_REG\_EXP | Uses a regular expression. |
 | FLAG\_FIND\_REGEX\_BOOST | Uses Boost.Regex as the regular expression engine. |
-| FLAG\_FIND\_REGEX\_ONIGMO | Uses Onigmo as the regular expression engine. |
+| FLAG\_FIND\_REGEX\_ONIGMO | Uses Onigmo as the regular expression engine, using the Ruby syntax. |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | Uses Onigmo as the regular expression engine, using the Perl syntax. |
 | FLAG\_FIND\_SAVE\_HISTORY | Saves the searched string for repeated search. |
 | FLAG\_FIND\_SELECT\_ALL | Selects all matched strings. |
 | FLAG\_FIND\_SEPARATE\_CRLF | Treats CR and LF separately. |

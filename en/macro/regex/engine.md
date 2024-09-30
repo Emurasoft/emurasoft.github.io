@@ -8,7 +8,8 @@ The value must be one of the following values.
 | --- | --- |
 | 0 | Uses the default regular expression engine. |
 | eeExFindRegexBoost | Uses Boost.Regex as the regular expression engine. |
-| eeExFindRegexOnigmo | Uses Onigmo as the regular expression engine. |
+| eeExFindRegexOnigmo | Uses Onigmo as the regular expression engine, using the Ruby syntax. |
+| eeExFindRegexOnigmoPerl | Uses Onigmo as the regular expression engine, using the Perl syntax. |
 
 ## 
 

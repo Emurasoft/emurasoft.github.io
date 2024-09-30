@@ -34,10 +34,11 @@ _nFlags_
 |     |     |
 | --- | --- |
 | FLAG\_FIND\_CASE | 大文字と小文字を区別して検索します。 |
-| FLAG\_FIND\_FUZZY | この特別なフラグは、あいまい一致を使用し、正規表現を無効にします。正規表現とあいまい一致と組み合わせることはできません。FLAG\_FIND\_REGEX\_BOOST、FLAG\_FIND\_REGEX\_ONIGMO、FLAG\_FIND\_SEPARATE\_CRLF と組み合わせることはできません。 |
+| FLAG\_FIND\_FUZZY | この特別なフラグは、あいまい一致を使用し、正規表現を無効にします。正規表現とあいまい一致と組み合わせることはできません。FLAG\_FIND\_REGEX\_BOOST、FLAG\_FIND\_REGEX\_ONIGMO、FLAG\_FIND\_REGEX\_ONIGMO\_PERL、FLAG\_FIND\_SEPARATE\_CRLF と組み合わせることはできません。 |
 | FLAG\_FIND\_ONLY\_WORD | 単語のみを検索します。 |
 | FLAG\_FIND\_REGEX\_BOOST | 正規表現エンジンとして Boost.Regex を使用します。 |
-| FLAG\_FIND\_REGEX\_ONIGMO | 正規表現エンジンとして Onigmo を使用します。 |
+| FLAG\_FIND\_REGEX\_ONIGMO | 正規表現エンジンとして Onigmo を使用し、Ruby 構文を使用します。 |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | 正規表現エンジンとして Onigmo を使用し、Perl 構文を使用します。 |
 | FLAG\_FIND\_SEPARATE\_CRLF | CR と LF を区別します。 |
 
 _pszRegex_

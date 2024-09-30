@@ -61,7 +61,8 @@ _nFlags_
 | FLAG\_FIND\_RECURSIVE | サブフォルダも検索します。 |
 | FLAG\_FIND\_REG\_EXP | 文字列を正規表現で指定します。FLAG\_FIND\_ESCAPE と組み合わせて指定できません。 |
 | FLAG\_FIND\_REGEX\_BOOST | 正規表現エンジンとして Boost.Regex を使用します。 |
-| FLAG\_FIND\_REGEX\_ONIGMO | 正規表現エンジンとして Onigmo を使用します。 |
+| FLAG\_FIND\_REGEX\_ONIGMO | 正規表現エンジンとして Onigmo を使用し、Ruby 構文を使用します。 |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | 正規表現エンジンとして Onigmo を使用し、Perl 構文を使用します。 |
 | FLAG\_FIND\_OPEN\_DIRECT | ファイルから検索の結果を一覧としては表示せずに、検索文字列を含むファイルを直接開きます。FLAG\_FIND\_OPEN\_FILTER または FLAG\_FIND\_OUTPUT と組み合わせて指定できません。 |
 | FLAG\_FIND\_OPEN\_FILTER | ファイルから検索の結果を一覧としては表示せずに、検索文字列を含むファイルを直接開き、さらにフィルターに検索文字列を設定します。FLAG\_FIND\_OPEN\_DIRECT または FLAG\_FIND\_OUTPUT と組み合わせて指定できません。 |
 | FLAG\_FIND\_OUTPUT | ファイルから検索の結果を一覧としてアウトプット バーに表示します。FLAG\_FIND\_OPEN\_DIRECT または FLAG\_FIND\_OPEN\_FILTER と組み合わせて指定できません。 |

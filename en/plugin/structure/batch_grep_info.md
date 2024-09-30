@@ -38,7 +38,8 @@ Specifies a combination of the following values.
 | FLAG\_FIND\_IGNORE\_FILES | Ignores the files or folders specified by _pszFilesToIgnore_. |
 | FLAG\_FIND\_RECURSIVE | Searches in subfolders of the specified path. |
 | FLAG\_FIND\_REGEX\_BOOST | Uses Boost.Regex as the regular expression engine. |
-| FLAG\_FIND\_REGEX\_ONIGMO | Uses Onigmo as the regular expression engine. |
+| FLAG\_FIND\_REGEX\_ONIGMO | Uses Onigmo as the regular expression engine, using the Ruby syntax. |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | Uses Onigmo as the regular expression engine, using the Perl syntax. |
 | FLAG\_FIND\_OPEN\_DIRECT | Directly opens the document that includes the specified string. Cannot combine with FLAG\_FIND\_OPEN\_FILTER or FLAG\_FIND\_OUTPUT. |
 | FLAG\_FIND\_OPEN\_FILTER | Directly opens the document that includes the specified string, and set the specified string as the filter. Cannot combine with FLAG\_FIND\_OPEN\_DIRECT or FLAG\_FIND\_OUTPUT. |
 | FLAG\_FIND\_OUTPUT | Displays the Find in Files results as a list in the Output Bar. Cannot combine with FLAG\_FIND\_OPEN\_DIRECT or FLAG\_FIND\_OPEN\_FILTER. |

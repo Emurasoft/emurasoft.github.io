@@ -50,7 +50,7 @@ _nFlags_
 
 _nExFlags_
 
-次の値の組み合わせを指定します。ただし、eeExFindRegexBoost と eeExFindRegexOnigmo は、どちらか一方のみ指定できます。どちらも指定されない場合には、既定の正規表現エンジンを使用します。
+次の値の組み合わせを指定します。ただし、eeExFindRegexBoost、eeExFindRegexOnigmo、eeExFindRegexOnigmoPerl は、どれか1個のみ指定できます。どれも指定されない場合には、既定の正規表現エンジンを使用します。
 
 |     |     |
 | --- | --- |
@@ -61,7 +61,8 @@ _nExFlags_
 | eeExFindLookaround | 選択範囲のみの正規表現を使用する検索で周辺を見ます。 |
 | eeExFindNumberRange | [数値範囲表現](../../howto/search/number_range_syntax) に一致します。このフラグは、eeFindReplaceEscSeq または eeFindReplaceRegExp と一緒に指定することはできません。 |
 | eeExFindRegexBoost | 正規表現エンジンとして Boost.Regex を使用します。 |
-| eeExFindRegexOnigmo | 正規表現エンジンとして Onigmo を使用します。 |
+| eeExFindRegexOnigmo | 正規表現エンジンとして Onigmo を使用し、Ruby 構文を使用します。 |
+| eeExFindRegexOnigmoPerl | 正規表現エンジンとして Onigmo を使用し、Perl 構文を使用します。 |
 | eeExFindSeparateCRLF | CR と LF を区別します。 |
 
 ## 戻り値
