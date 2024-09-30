@@ -16,7 +16,7 @@ Specifies whether a period can match newline characters when searching for a str
 
 ## Regular Expression Engine drop-down list box
 
-Specifies the regular expression engine to use in **Find**, **Replace**, **Find in Files**, and **Replace in Files**. You can choose **Boost.Regex** or **Onigmo**.
+Choose the regular expression engine you'd like to use for **Find**, **Replace**, **Find in Files**, and **Replace in Files**. You can select from **Boost.Regex**, **Onigmo.Ruby**, or **Onigmo.Perl**.
 
 The following option only appears in the **Find** dialog box and **Replace** dialog box.
 
