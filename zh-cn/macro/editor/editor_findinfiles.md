@@ -66,7 +66,7 @@ _strFilesToIgnore_
 
 _nExFlags_
 
-指定下列值的组合。但是，只能指定 eeExFindRegexBoost 和 eeExFindRegexOnigmo 中的一个。如果未指定这两者，则使用默认的正则表达式引擎。
+指定下列值的组合。但是，只能指定 eeExFindRegexBoost，eeExFindRegexOnigmo 和 eeExFindRegexOnigmoPerl 中的一个。如果不指定，则使用默认的正则表达式引擎。
 
 |     |     |
 | --- | --- |
@@ -75,7 +75,8 @@ _nExFlags_
 | eeExFindNumberRange | 匹配 [数字范围表达式](../../howto/search/number_range_syntax)。此标志不能与 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
 | eeExFindOutputEncoding | 将编码名称附加到文件名。 |
 | eeExFindRegexBoost | 使用 Boost.Regex 作为正则表达式引擎。 |
-| eeExFindRegexOnigmo | 使用 Onigmo 作为正则表达式引擎。 |
+| eeExFindRegexOnigmo | 使用 Onigmo 作为正则表达式引擎，Ruby 语法。 |
+| eeExFindRegexOnigmoPerl | 使用 Onigmo 作为正则表达式引擎，Perl 语法。 |
 
 _nLimit_
 

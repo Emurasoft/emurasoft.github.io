@@ -8,7 +8,8 @@
 | --- | --- |
 | 0 | 使用預設規則運算式引擎。 |
 | eeExFindRegexBoost | 把 Boost.Regex 作為規則運算式引擎。 |
-| eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎。 |
+| eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎，Ruby 語法。 |
+| eeExFindRegexOnigmoPerl | 使用 Onigmo 作為規則運算式引擎，Perl 語法。 |
 
 ## 
 

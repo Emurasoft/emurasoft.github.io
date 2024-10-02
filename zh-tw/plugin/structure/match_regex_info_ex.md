@@ -27,9 +27,10 @@ _nFlags_
 |     |     |
 | --- | --- |
 | FLAG\_FIND\_CASE | 區分大小寫。 |
-| FLAG\_FIND\_FUZZY | 此特殊旗標使用模糊比對，並停用規則運算式。你不能將模糊比對與規則運算式結合使用。也不能與 FLAG\_FIND\_REGEX\_BOOST，FLAG\_FIND\_REGEX\_ONIGMO，或 FLAG\_FIND\_SEPARATE\_CRLF 合用。 |
+| FLAG\_FIND\_FUZZY | 此特殊旗標使用模糊比對，並停用規則運算式。你不能將模糊比對與規則運算式結合使用。不能與 FLAG\_FIND\_REGEX\_BOOST，FLAG\_FIND\_REGEX\_ONIGMO，FLAG\_FIND\_REGEX\_ONIGMO\_PERL，或 FLAG\_FIND\_SEPARATE\_CRLF 合用。 |
 | FLAG\_FIND\_REGEX\_BOOST | 把 Boost.Regex 作為規則運算式引擎。 |
-| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作為規則運算式引擎。 |
+| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作為規則運算式引擎，Ruby 語法。 |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | 使用 Onigmo 作為規則運算式引擎，Perl 語法。 |
 | FLAG\_FIND\_SEPARATE\_CRLF | 區分 CR 和 LF 。 |
 
 _pszRegex_

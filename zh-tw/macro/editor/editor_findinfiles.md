@@ -66,7 +66,7 @@ _strFilesToIgnore_
 
 _nExFlags_
 
-指定以下值的組合。但是，只能指定 eeExFindRegexBoost 和 eeExFindRegexOnigmo 中的一個。如果未指定這兩者，則使用預設的規則運算式引擎。
+指定以下值的組合。但是，只能指定 eeExFindRegexBoost，eeExFindRegexOnigmo 和 eeExFindRegexOnigmoPerl 中的一個。如果不指定，則使用預設的規則運算式引擎。
 
 |     |     |
 | --- | --- |
@@ -75,7 +75,8 @@ _nExFlags_
 | eeExFindNumberRange | 符合 [數字範圍運算式](../../howto/search/number_range_syntax)。此標志不能與 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
 | eeExFindOutputEncoding | 將編碼名稱附加到檔案名。 |
 | eeExFindRegexBoost | 使用 Boost.Regex 作為規則運算式引擎。 |
-| eeExFindRegexOnigmo | 使用 Onigmo 作為規則運算式引擎。 |
+| eeExFindRegexOnigmo | 使用 Onigmo 作為規則運算式引擎，Ruby 語法。 |
+| eeExFindRegexOnigmoPerl | 使用 Onigmo 作為規則運算式引擎，Perl 語法。 |
 
 _nLimit_
 

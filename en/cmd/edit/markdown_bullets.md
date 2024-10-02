@@ -12,7 +12,7 @@ Inserts an unordered list.
 
 - Default Menu: **Edit** \> **Markdown** \> **Bullets**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Bullets**
-- Toolbar: 
+- Toolbar: ![](../../images/bullets.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

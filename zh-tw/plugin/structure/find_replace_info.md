@@ -46,7 +46,8 @@ _nFlags_
 | FLAG\_FIND\_OUTPUT | 將抽出結果顯示為匯出欄中的清單。必須與 FLAG\_FIND\_EXTRACT 結合使用。 |
 | FLAG\_FIND\_REG\_EXP | 使用規則運算式。 |
 | FLAG\_FIND\_REGEX\_BOOST | 把 Boost.Regex 作為規則運算式引擎。 |
-| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作為規則運算式引擎。 |
+| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作為規則運算式引擎，Ruby 語法。 |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | 使用 Onigmo 作為規則運算式引擎，Perl 語法。 |
 | FLAG\_FIND\_SAVE\_HISTORY | 為重複搜索儲存搜索過的字串。 |
 | FLAG\_FIND\_SELECT\_ALL | 選擇所有符合的字串。 |
 | FLAG\_FIND\_SEPARATE\_CRLF | 區分 CR 和 LF 。 |

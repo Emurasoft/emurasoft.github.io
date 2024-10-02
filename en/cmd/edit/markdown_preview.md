@@ -12,7 +12,7 @@ Displays the Markdown preview of the current document.
 
 - Default Menu: **Edit** \> **Markdown** \> **Preview**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Preview**
-- Toolbar: None
+- Toolbar: ![](../../images/plugin_webpreview.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

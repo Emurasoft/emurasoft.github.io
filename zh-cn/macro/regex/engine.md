@@ -8,7 +8,8 @@
 | --- | --- |
 | 0 | 使用默认正则表达式引擎。 |
 | eeExFindRegexBoost | 把 Boost.Regex 作为正则表达式引擎。 |
-| eeExFindRegexOnigmo | 把 Onigmo 作为正则表达式引擎。 |
+| eeExFindRegexOnigmo | 把 Onigmo 作为正则表达式引擎，Ruby 语法。 |
+| eeExFindRegexOnigmoPerl | 使用 Onigmo 作为正则表达式引擎，Perl 语法。 |
 
 ## 
 

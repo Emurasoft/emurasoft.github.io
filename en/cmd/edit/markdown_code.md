@@ -12,7 +12,7 @@ Toggles a code style.
 
 - Default Menu: **Edit** \> **Markdown** \> **Code**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Code**
-- Toolbar: 
+- Toolbar: ![](../../images/markdown_code.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

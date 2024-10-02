@@ -27,9 +27,10 @@ _nFlags_
 |     |     |
 | --- | --- |
 | FLAG\_FIND\_CASE | 区分大小写。 |
-| FLAG\_FIND\_FUZZY | 此特殊标志使用模糊匹配，并禁用正则表达式。你不能将模糊匹配与正则表达式结合使用。也不能与 FLAG\_FIND\_REGEX\_BOOST，FLAG\_FIND\_REGEX\_ONIGMO，或 FLAG\_FIND\_SEPARATE\_CRLF 合用。 |
+| FLAG\_FIND\_FUZZY | 此特殊标志使用模糊匹配，并禁用正则表达式。你不能将模糊匹配与正则表达式结合使用。即不能与 FLAG\_FIND\_REGEX\_BOOST，FLAG\_FIND\_REGEX\_ONIGMO，FLAG\_FIND\_REGEX\_ONIGMO\_PERL，或 FLAG\_FIND\_SEPARATE\_CRLF 合用。 |
 | FLAG\_FIND\_REGEX\_BOOST | 把 Boost.Regex 作为正则表达式引擎。 |
-| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作为正则表达式引擎。 |
+| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作为正则表达式引擎，Ruby 语法。 |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | 使用 Onigmo 作为正则表达式引擎，Perl 语法。 |
 | FLAG\_FIND\_SEPARATE\_CRLF | 区分 CR 和 LF 。 |
 
 _pszRegex_

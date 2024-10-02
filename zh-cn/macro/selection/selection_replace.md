@@ -52,7 +52,7 @@ _nFlags_
 
 _nExFlags_
 
-指定一个下列值的组合。
+指定一个下列值的组合。但是，eeExFindRegexBoost，eeExFindRegexOnigmo 和 eeExFindRegexOnigmoPerl 中只能指定一个。如果不指定，那么会使用默认的正则表达式引擎。
 
 |     |     |
 | --- | --- |
@@ -62,8 +62,9 @@ _nExFlags_
 | eeExFindInsertColumn | 为提取的列创建新的 CSV 列。必须在 nFlags 中指定 eeFindExtract。新列将插入在原始列的右侧。 |
 | eeExFindLookaround | 只在选区内进行正则表达式搜索时用前后断言。 |
 | eeExFindNumberRange | 匹配 [数字范围表达式](../../howto/search/number_range_syntax)。此标志不能与 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
-| eeExFindRegexBoost | 把 Boost.Regex 作为正则表达式引擎。不能与 eeExFindRegexOnigmo 联用。 |
-| eeExFindRegexOnigmo | 把 Onigmo 作为正则表达式引擎。不能与 eeExFindRegexBoost 联用。 |
+| eeExFindRegexBoost | 把 Boost.Regex 作为正则表达式引擎。不能与 eeExFindRegexOnigmo 或 eeExFindRegexOnigmoPerl 联用。 |
+| eeExFindRegexOnigmo | 把 Onigmo 作为正则表达式引擎，Ruby 语法。 |
+| eeExFindRegexOnigmoPerl | 使用 Onigmo 作为正则表达式引擎，Perl 语法。 |
 | eeExFindSeparateCRLF | 区分 CR 和 LF。 |
 
 ## 返回值

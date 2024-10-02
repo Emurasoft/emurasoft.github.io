@@ -84,7 +84,7 @@
 | ![](../../images/reset24x16.gif)[重置](../../cmd/diff/compare_reset) | 重置比较或同步滚动模式并清除比较结果。 |
 | ![](../../images/line_number24x16.gif)[行号](../../cmd/view/view_line_numbers) | 显示或隐藏行号。 |
 | ![](../../images/ruler24x16.gif)[标尺](../../cmd/view/view_ruler) | 显示或隐藏标尺。 |
-| **![Outline](../../images/plugin_outline.gif)**[大纲显示](../../cmd/view/outline_bar_guide) | 显示或隐藏大纲栏和大纲导航。 |
+| ![](../../images/plugin_outline.gif)[大纲显示](../../cmd/view/outline_bar_guide) | 显示或隐藏大纲栏和大纲导航。 |
 | ![](../../images/auto_indent24x16.gif)[自动缩进](../../cmd/view/toggle_auto_indent) | 启用或停用自动缩进。 |
 | ![](../../images/space_tab24x16.gif)[将制表符转换为空格](../../cmd/view/toggle_spaces_tab) | 将制表符转换为空格。 |
 | ![](../../images/wrap_indent24x16.gif)[换行缩进](../../cmd/view/toggle_wrap_indent) | 启用或停用换行缩进。 |
@@ -98,13 +98,27 @@
 | ![](../../images/emeditor12_toggle_find_bar_button.png)[查找工具栏](../../cmd/view/show_find_bar) | 显示或隐藏查找工具栏。 |
 | ![](../../images/emeditor12_back_button.png)[后退](../../cmd/edit/caret_back) | 移动光标至上一位置。 |
 | ![](../../images/emeditor12_forward_button.png)[前进](../../cmd/edit/caret_forward) | 移动光标至下一位置。 |
-| ![CommitList](../../images/plugin_commit_list.gif)[提交列表](../plugin/plugin_commit_list) | 提交列表插件。 |
-| ![Explorer](../../images/plugin_explorer.gif)[资源管理器](../plugin/plugin_explorer) | 资源管理器插件。 |
+| ![](../../images/plugin_commit_list.gif)[提交列表](../plugin/plugin_commit_list) | 提交列表插件。 |
+| ![](../../images/plugin_explorer.gif)[资源管理器](../plugin/plugin_explorer) | 资源管理器插件。 |
 | ![](../../images/htmlbar.gif)[HTMLBar](../plugin/plugin_htmlbar) | HTMLBar 插件。 |
-| **![Open Documents](../../images/plugin_opendocuments.gif)**[打开的文档](../plugin/plugin_opendocuments) | 打开的文档插件。 |
-| **![](../../images/projects.gif)**[项目](../plugin/plugin_projects) | 项目插件。 |
-| **![Search](../../images/plugin_search.gif)**[搜索](../plugin/plugin_search) | 搜索插件。 |
-| **![Snippets](../../images/plugin_snippets.gif)**[代码片段](../plugin/plugin_snippets) | 代码片段插件。 |
-| ![Web Preview](../../images/plugin_webpreview.gif)[网页预览](../plugin/plugin_webpreview) | 网页预览插件。 |
+| ![](../../images/plugin_opendocuments.gif)[打开的文档](../plugin/plugin_opendocuments) | 打开的文档插件。 |
+| ![](../../images/projects.gif)[项目](../plugin/plugin_projects) | 项目插件。 |
+| ![](../../images/plugin_search.gif)[搜索](../plugin/plugin_search) | 搜索插件。 |
+| ![](../../images/plugin_snippets.gif)[代码片段](../plugin/plugin_snippets) | 代码片段插件。 |
+| ![](../../images/plugin_webpreview.gif)[网页预览](../plugin/plugin_webpreview) | 网页预览插件。 |
 | ![](../../images/wordcomplete.gif)[单词自动完成](../plugin/plugin_wordcomplete) | 单词自动完成插件。 |
-| **![Word Count](../../images/plugin_wordcount.gif)**[字数统计](../plugin/plugin_wordcount) | 字数统计插件。 |
+| ![](../../images/plugin_wordcount.gif)[字数统计](../plugin/plugin_wordcount) | 字数统计插件。 |
+| ![](../../images/bold.gif)[粗体](../../cmd/edit/markdown_bold) | 切换粗体样式。 |
+| ![](../../images/italic.gif)[斜体](../../cmd/edit/markdown_italic) | 切换斜体样式。 |
+| ![](../../images/markdown_code.gif)[代码](../../cmd/edit/markdown_code) | 切换代码样式。 |
+| ![](../../images/markdown_clear.gif)[清除所有格式](../../cmd/edit/markdown_clear) | 清除所选文本的粗体和斜体格式。 |
+| ![](../../images/hyperlink.gif)[超链接](../../cmd/edit/markdown_hyperlink) | 插入超链接。 |
+| ![](../../images/remove_hyperlinks.gif)[移除超链接](../../cmd/edit/markdown_remove_hyperlinks) | 移除超链接。 |
+| ![](../../images/image.gif)[图像](../../cmd/edit/markdown_image) | 插入一个图像。 |
+| ![](../../images/table.gif)[表格](../../cmd/edit/markdown_table) | 插入表格。 |
+| ![](../../images/hr.gif)[水平线](../../cmd/edit/markdown_hr) | 插入水平线。 |
+| ![](../../images/markdown_line_break.gif)[换行符](../../cmd/edit/markdown_line_break) | 插入换行符。 |
+| ![](../../images/numbering.gif)[有序列表](../../cmd/edit/markdown_numbering) | 插入有序列表。 |
+| ![](../../images/bullets.gif)[无序列表](../../cmd/edit/markdown_bullets) | 插入无序列表。 |
+| ![](../../images/markdown_view.gif)[Markdown 设计视图](../../cmd/edit/markdown_view) | 显示 Markdown 设计视图。 |
+| ![](../../images/plugin_webpreview.gif)[Markdown 预览](../../cmd/edit/markdown_preview) | 显示当前文档的 Markdown 预览。 |

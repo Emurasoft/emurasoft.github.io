@@ -62,7 +62,8 @@ _nFlags_
 | FLAG\_FIND\_RECURSIVE | 在指定路径的子文件夹中搜索。 |
 | FLAG\_FIND\_REG\_EXP | 使用正则表达式。不能与 FLAG\_FIND\_ESCAPE 同时使用。 |
 | FLAG\_FIND\_REGEX\_BOOST | 把 Boost.Regex 作为正则表达式引擎。 |
-| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作为正则表达式引擎。 |
+| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作为正则表达式引擎，Ruby 语法。 |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | 使用 Onigmo 作为正则表达式引擎，Perl 语法。 |
 | FLAG\_FIND\_OPEN\_DIRECT | 直接打开包含指定字符串的文档。不能与 FLAG\_FIND\_OPEN\_FILTER or FLAG\_FIND\_OUTPUT 同时使用。 |
 | FLAG\_FIND\_OPEN\_FILTER | 直接打开包含指定字符串的文档，并且把指定字符串设为筛选器。不能与 FLAG\_FIND\_OPEN\_DIRECT 或 FLAG\_FIND\_OUTPUT 同时使用。 |
 | FLAG\_FIND\_OUTPUT | 在输出栏列表中显示在文件中查找搜索结果。不能与 FLAG\_FIND\_OPEN\_DIRECT 或 FLAG\_FIND\_OPEN\_FILTER 同时使用。 |

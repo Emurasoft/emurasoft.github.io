@@ -12,7 +12,7 @@ Inserts a horizontal rule.
 
 - Default Menu: **Edit** \> **Markdown** \> **Horizontal Rule**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Horizontal Rule**
-- Toolbar: 
+- Toolbar: ![](../../images/hr.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

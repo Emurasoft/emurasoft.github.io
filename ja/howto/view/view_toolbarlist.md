@@ -119,17 +119,17 @@
 | ![](../../images/plugin_webpreview.gif)[Web プレビュー](../plugin/plugin_webpreview) | \[Web プレビュー\] プラグイン。 |
 | ![](../../images/wordcomplete.gif)[単語補完](../plugin/plugin_wordcomplete) | \[単語補完\] プラグイン。 |
 | ![](../../images/plugin_wordcount.gif)[単語数](../plugin/plugin_wordcount) | \[単語数\] プラグイン。 |
-| 太字 | 太字のスタイルのオン/オフを切り替えます。 |
-| 斜体 | 斜体のスタイルのオン/オフを切り替えます。 |
-| コード | コードのスタイルのオン/オフを切り替えます。 |
-| すべての書式をクリア | 選択テキストから太字や斜体の書式を削除します。 |
-| ハイパーリンク | ハイパーリンクを挿入します。 |
-| ハイパーリンクの削除 | ハイパーリンクを削除します。 |
-| 画像 | 画像を挿入します。 |
-| 表 | 表を挿入します。 |
-| 水平線 | 水平線を挿入します。 |
-| 改行 | 改行を挿入します。 |
-| 段落番号 | 段落番号を挿入します。 |
-| 箇条書き | 箇条書きを挿入します。 |
-| Markdown デザイン ビュー | Markdown デザイン ビューを表示します。 |
-| Markdown プレビュー | 現在の文書の Markdown プレビューを表示します。 |
+| ![](../../images/bold.gif)[太字](../../cmd/edit/markdown_bold) | 太字のスタイルのオン/オフを切り替えます。 |
+| ![](../../images/italic.gif)[斜体](../../cmd/edit/markdown_italic) | 斜体のスタイルのオン/オフを切り替えます。 |
+| ![](../../images/markdown_code.gif)[コード](../../cmd/edit/markdown_code) | コードのスタイルのオン/オフを切り替えます。 |
+| ![](../../images/markdown_clear.gif)[すべての書式をクリア](../../cmd/edit/markdown_clear) | 選択テキストから太字や斜体の書式を削除します。 |
+| ![](../../images/hyperlink.gif)[ハイパーリンク](../../cmd/edit/markdown_hyperlink) | ハイパーリンクを挿入します。 |
+| ![](../../images/remove_hyperlinks.gif)[ハイパーリンクの削除](../../cmd/edit/markdown_remove_hyperlinks) | ハイパーリンクを削除します。 |
+| ![](../../images/image.gif)[画像](../../cmd/edit/markdown_image) | 画像を挿入します。 |
+| ![](../../images/table.gif)[表](../../cmd/edit/markdown_table) | 表を挿入します。 |
+| ![](../../images/hr.gif)[水平線](../../cmd/edit/markdown_hr) | 水平線を挿入します。 |
+| ![](../../images/markdown_line_break.gif)[改行](../../cmd/edit/markdown_line_break) | 改行を挿入します。 |
+| ![](../../images/numbering.gif)[段落番号](../../cmd/edit/markdown_numbering) | 段落番号を挿入します。 |
+| ![](../../images/bullets.gif)[箇条書き](../../cmd/edit/markdown_bullets) | 箇条書きを挿入します。 |
+| ![](../../images/markdown_view.gif)[Markdown デザイン ビュー](../../cmd/edit/markdown_view) | Markdown デザイン ビューを表示します。 |
+| ![](../../images/plugin_webpreview.gif)[Markdown プレビュー](../../cmd/edit/markdown_preview) | 現在の文書の Markdown プレビューを表示します。 |

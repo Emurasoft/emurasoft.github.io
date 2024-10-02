@@ -144,7 +144,7 @@
 | `/cp Encoding` | 设定一个用来打开的编码。一个编码可以是 [编码常数](../../macro/const/const_encoding) 之一。可以指定带有下列数值的组合。<br><table><tr><td>`131072`</td><td>检测 Unicode 签名 (BOM)。</td></tr><tr><td>`262144`</td><td>检测 UTF-8。</td></tr><tr><td>`524288`</td><td>检测 HTML/XML 字符集。</td></tr><tr><td>`1048576`</td><td>检测所有编码。</td></tr></table> |
 | `/cps Encoding` | 设定一个用来打开的编码。一个编码可以是 [编码常数](../../macro/const/const_encoding) 之一。 |
 | `/csv "CSVName"` | 设置初始 CSV 模式，禁用 CSV 检测。 _CSVName_ 可以是 CSV 格式的名称或索引号。如果指定为 0，则使用普通模式。 |
-| `/di` | 指定工作文件夹当创建一个新文档时。EmEditor 内部使用。 |
+| `/di "Folder"` | 指定工作文件夹当创建一个新文档时。EmEditor 内部使用。 |
 | `/eh` | 抓取文本块内容。 |
 | `/fc "FindWhat"` | 在文件中查找（区分大小写）。 |
 | `/fd` | 显示 [**在文件中查找** 对话框](../../dlg/find_in_files/index)。 |
@@ -173,7 +173,8 @@
 | `/ng` | 总是创建一个新的群组窗口。 |
 | `/nr` | 不添加文件路径到最近文件列表中。 |
 | `/od` | 显示“打开”对话框来选择要打开的文件。 |
-| `/ol "licenseFilePath"` | 使用[离线授权](../offline_registration/index.md)来注册 EmEditor。`licenseFilePath` 是授权文件的路径。 |
+| `/ol "licenseFilePath"` | 使用[离线授权](../offline_registration/index.md)来注册 EmEditor。`licenseFilePath` 是授权文件的路径。对于桌面安装，授权信息写入 `HKEY_CURRENT_USER`；对于便携版本，授权信息写入 `eeCommon.ini`。 |
+| `/ola "licenseFilePath"` | 使用[离线授权](../offline_registration/index.md)来注册 EmEditor。 `licenseFilePath` 是授权文件的路径。授权信息写入 `HKEY_LOCAL_MACHINE`，这需要管理员权限。 |
 | `/p` | 打印文件。 |
 | `/pos left top right bottom` | 用四个整数指定窗口位置（左，顶，右，底）。 |
 | `/r` | 只读模式。 |

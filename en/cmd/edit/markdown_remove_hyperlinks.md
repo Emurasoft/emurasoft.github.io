@@ -12,7 +12,7 @@ Removes hyperlinks.
 
 - Default Menu: **Edit** \> **Markdown** \> **Remove Hyperlinks**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Remove Hyperlinks**
-- Toolbar: 
+- Toolbar: ![](../../images/remove_hyperlinks.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

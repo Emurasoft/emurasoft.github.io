@@ -48,7 +48,7 @@ _nFlags_
 
 _nExFlags_
 
-指定一个下列值的组合。但是，eeExFindRegexBoost 和 eeExFindRegexOnigmo 中只能指定一个。如果两个都不指定，那么会使用默认的正则表达式引擎。
+指定一个下列值的组合。但是，eeExFindRegexBoost，eeExFindRegexOnigmo 和 eeExFindRegexOnigmoPerl 中只能指定一个。如果不指定，那么会使用默认的正则表达式引擎。
 
 |     |     |
 | --- | --- |
@@ -57,7 +57,8 @@ _nExFlags_
 | eeExFindEOL | 正则表达式 ‘$’ 可匹配选取部分的末尾。 |
 | eeExFindLookaround | 只在选区内进行正则表达式搜索时用前后断言。 |
 | eeExFindRegexBoost | 把 Boost.Regex 作为正则表达式引擎。 |
-| eeExFindRegexOnigmo | 把 Onigmo 作为正则表达式引擎。 |
+| eeExFindRegexOnigmo | 把 Onigmo 作为正则表达式引擎，Ruby 语法。 |
+| eeExFindRegexOnigmoPerl | 使用 Onigmo 作为正则表达式引擎，Perl 语法。 |
 | eeExFindSeparateCRLF | 区分 CR 和 LF。 |
 
 ## 返回值

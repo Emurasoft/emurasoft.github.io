@@ -84,7 +84,7 @@
 | ![](../../images/reset24x16.gif)[重設](../../cmd/diff/compare_reset) | 重設比較或同步捲動模式并清除比較結果。 |
 | ![](../../images/line_number24x16.gif)[行號](../../cmd/view/view_line_numbers) | 顯示或隱藏行號。 |
 | ![](../../images/ruler24x16.gif)[尺規](../../cmd/view/view_ruler) | 顯示或隱藏尺規。 |
-| **![Outline](../../images/plugin_outline.gif)**[大綱顯示](../../cmd/view/outline_bar_guide) | 顯示或隱藏大綱顯示條和大綱導引。 |
+| ![](../../images/plugin_outline.gif)[大綱顯示](../../cmd/view/outline_bar_guide) | 顯示或隱藏大綱顯示條和大綱導引。 |
 | ![](../../images/auto_indent24x16.gif)[自動縮排](../../cmd/view/toggle_auto_indent) | 啟用或停用自動縮排。 |
 | ![](../../images/space_tab24x16.gif)[將 Tab轉換為空白](../../cmd/view/toggle_spaces_tab) | 將 Tab轉換為空白。 |
 | ![](../../images/wrap_indent24x16.gif)[換行縮排](../../cmd/view/toggle_wrap_indent) | 啟用或停用換行縮排。 |
@@ -98,13 +98,27 @@
 | ![](../../images/emeditor12_toggle_find_bar_button.png)[搜尋工具列](../../cmd/view/show_find_bar) | 顯示或隱藏搜尋工具列。 |
 | ![](../../images/emeditor12_back_button.png)[后退](../../cmd/edit/caret_back) | 移動游標至上一位置。 |
 | ![](../../images/emeditor12_forward_button.png)[前進](../../cmd/edit/caret_forward) | 移動游標至下一位置。 |
-| ![CommitList](../../images/plugin_commit_list.gif)[提交清單](../plugin/plugin_commit_list) | 提交清單外掛程式。 |
-| ![Explorer](../../images/plugin_explorer.gif)[檔案總管](../plugin/plugin_explorer) | 檔案總管外掛程式。 |
+| ![](../../images/plugin_commit_list.gif)[提交清單](../plugin/plugin_commit_list) | 提交清單外掛程式。 |
+| ![](../../images/plugin_explorer.gif)[檔案總管](../plugin/plugin_explorer) | 檔案總管外掛程式。 |
 | ![](../../images/htmlbar.gif)[HTMLBar](../plugin/plugin_htmlbar) | HTMLBar 外掛程式。 |
-| **![Open Documents](../../images/plugin_opendocuments.gif)**[打開的文檔](../plugin/plugin_opendocuments) | 打開的文檔外掛程式。 |
-| **![](../../images/projects.gif)**[項目](../plugin/plugin_projects) | 專案外掛程式。 |
-| **![Search](../../images/plugin_search.gif)**[搜尋](../plugin/plugin_search) | 搜尋外掛程式。 |
-| **![Snippets](../../images/plugin_snippets.gif)**[程式碼片段](../plugin/plugin_snippets) | 程式碼片段外掛程式。 |
-| ![Web Preview](../../images/plugin_webpreview.gif)[網頁預覽](../plugin/plugin_webpreview) | 網頁預覽外掛程式。 |
+| ![](../../images/plugin_opendocuments.gif)[打開的文檔](../plugin/plugin_opendocuments) | 打開的文檔外掛程式。 |
+| ![](../../images/projects.gif)[項目](../plugin/plugin_projects) | 專案外掛程式。 |
+| ![](../../images/plugin_search.gif)[搜尋](../plugin/plugin_search) | 搜尋外掛程式。 |
+| ![](../../images/plugin_snippets.gif)[程式碼片段](../plugin/plugin_snippets) | 程式碼片段外掛程式。 |
+| ![](../../images/plugin_webpreview.gif)[網頁預覽](../plugin/plugin_webpreview) | 網頁預覽外掛程式。 |
 | ![](../../images/wordcomplete.gif)[字詞自動完成](../plugin/plugin_wordcomplete) | 字詞自動完成外掛程式。 |
-| **![Word Count](../../images/plugin_wordcount.gif)**[字數統計](../plugin/plugin_wordcount) | 字數統計外掛程式。 |
+| ![](../../images/plugin_wordcount.gif)[字數統計](../plugin/plugin_wordcount) | 字數統計外掛程式。 |
+| ![](../../images/bold.gif)[粗體](../../cmd/edit/markdown_bold) | 切換粗體樣式。 |
+| ![](../../images/italic.gif)[斜體](../../cmd/edit/markdown_italic) | 切換斜體樣式。 |
+| ![](../../images/markdown_code.gif)[程式碼](../../cmd/edit/markdown_code) | 切換程式碼樣式。 |
+| ![](../../images/markdown_clear.gif)[清除所有格式](../../cmd/edit/markdown_clear) | 清除所選文字的粗體和斜體格式。 |
+| ![](../../images/hyperlink.gif)[超連結](../../cmd/edit/markdown_hyperlink) | 插入超連結。 |
+| ![](../../images/remove_hyperlinks.gif)[移除超連結](../../cmd/edit/markdown_remove_hyperlinks) | 移除超連結。 |
+| ![](../../images/image.gif)[圖像](../../cmd/edit/markdown_image) | 插入一個圖像。 |
+| ![](../../images/table.gif)[表格](../../cmd/edit/markdown_table) | 插入表格。 |
+| ![](../../images/hr.gif)[水平線](../../cmd/edit/markdown_hr) | 插入水平線。 |
+| ![](../../images/markdown_line_break.gif)[分行符號](../../cmd/edit/markdown_line_break) | 插入分行符號。 |
+| ![](../../images/numbering.gif)[編號](../../cmd/edit/markdown_numbering) | 插入編號清單。 |
+| ![](../../images/bullets.gif)[項目符號](../../cmd/edit/markdown_bullets) | 插入項目符號清單。 |
+| ![](../../images/markdown_view.gif)[Markdown 設計檢視](../../cmd/edit/markdown_view) | 顯示 Markdown 設計檢視。 |
+| ![](../../images/plugin_webpreview.gif)[Markdown 預覽](../../cmd/edit/markdown_preview) | 顯示目前的文檔的 Markdown 預覽。 |

@@ -144,7 +144,7 @@
 | `/cp Encoding` | 設定一個用來打開的編碼。一個編碼可以是 [編碼常數](../../macro/const/const_encoding) 之一。可以指定帶有下列數值的組合。<br><table><tr><td>`131072`</td><td>偵測 Unicode 簽名 (BOM)。</td></tr><tr><td>`262144`</td><td>偵測 UTF-8。</td></tr><tr><td>`524288`</td><td>偵測 HTML/XML 字元集。</td></tr><tr><td>`1048576`</td><td>偵測所有編碼。</td></tr></table> |
 | `/cps Encoding` | 設定一個用來打開的編碼。一個編碼可以是 [編碼常數](../../macro/const/const_encoding) 之一。 |
 | `/csv "CSVName"` | 設定初始 CSV 模式，停用 CSV 檢測。 _CSVName_ 可以是 CSV 格式的名稱或索引號。如果指定為 0，則使用普通模式。 |
-| `/di` | 指定工作資料夾當創建一個新文檔時。EmEditor 內部使用。 |
+| `/di "Folder"` | 指定工作資料夾當創建一個新文檔時。EmEditor 內部使用。 |
 | `/eh` | 抓取文字塊內容。 |
 | `/fc "FindWhat"` | 多檔尋找 (區分大小寫) 。 |
 | `/fd` | 顯示 [**多檔尋找** 對話方塊](../../dlg/find_in_files/index)。 |
@@ -173,7 +173,9 @@
 | `/ng` | 總是建立一個新的群組視窗。 |
 | `/nr` | 不添加檔案路徑到最近檔案清單中。 |
 | `/od` | 顯示「打開」對話方塊來選擇要打開的檔案。 |
-| `/ol "licenseFilePath"` | 使用[離線授權](../offline_registration/index.md)來註冊 EmEditor。`licenseFilePath` 是授權檔案的路徑。 || `/p` | 列印檔案。 |
+| `/ol "licenseFilePath"` | 使用[離線授權](../offline_registration/index.md)來註冊 EmEditor。`licenseFilePath` 是授權檔案的路徑。對於桌面安裝，授權信息寫入 `HKEY_CURRENT_USER`；對於可攜式版本，授權信息寫入 `eeCommon.ini`。 |
+| `/ola "licenseFilePath"` | 使用[離線授權](../offline_registration/index.md)來註冊 EmEditor。 `licenseFilePath` 是授權檔案的路徑。授權信息寫入 `HKEY_LOCAL_MACHINE`，這需要系統管理員權限。 |
+| `/p` | 列印檔案。 |
 | `/pos left top right bottom` | 用四個整數指定視窗位置 (左，頂，右，底) 。 |
 | `/r` | 唯讀模式。 |
 | `/rc "FindWhat"` | 多檔取代 (區分大小寫) 。 |

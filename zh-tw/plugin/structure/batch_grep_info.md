@@ -38,7 +38,8 @@ _nBatchFlags_
 | FLAG\_FIND\_IGNORE\_FILES | I忽略由 _pszFilesToIgnore_ 指定的檔案或資料夾。 |
 | FLAG\_FIND\_RECURSIVE | 在指定路徑的子資料夾中搜索。 |
 | FLAG\_FIND\_REGEX\_BOOST | 使用 Boost.Regex 作為規則運算式引擎。 |
-| FLAG\_FIND\_REGEX\_ONIGMO | 使用 Onigmo 作為規則運算式引擎。 |
+| FLAG\_FIND\_REGEX\_ONIGMO | 使用 Onigmo 作為規則運算式引擎，Ruby 語法。 |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | 使用 Onigmo 作為規則運算式引擎，Perl 語法。 |
 | FLAG\_FIND\_OPEN\_DIRECT | 直接打開包含指定字串的文檔。不能與 FLAG\_FIND\_OPEN\_FILTER 或 FLAG\_FIND\_OUTPUT 合用。 |
 | FLAG\_FIND\_OPEN\_FILTER | 直接打開包含指定字串的文檔，並將指定字串設為篩選。不能與 FLAG\_FIND\_OPEN\_DIRECT 或 FLAG\_FIND\_OUTPUT 合用。 |
 | FLAG\_FIND\_OUTPUT | 在匯出欄中以清單形式顯示「多檔尋找」結果。不能與 FLAG\_FIND\_OPEN\_DIRECT 或 FLAG\_FIND\_OPEN\_FILTER 合用。 |

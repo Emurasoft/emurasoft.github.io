@@ -119,17 +119,17 @@
 | ![](../../images/plugin_webpreview.gif)[Web Preview](../plugin/plugin_webpreview) | Web Preview Plug-in. |
 | ![](../../images/wordcomplete.gif)[Word Complete](../plugin/plugin_wordcomplete) | Word Complete Plug-in. |
 | ![](../../images/plugin_wordcount.gif)[Word Count](../plugin/plugin_wordcount) | Word Count Plug-in. |
-| Bold | Toggles a bold style. |
-| Italic | Toggles an italic style. |
-| Code | Toggles a code style. |
-| Clear All Formatting | Removes bold and italic formatting from the selected text. |
-| Hyperlink | Inserts a hyperlink. |
-| Remove Hyperlinks | Removes hyperlinks. |
-| Image | Inserts an Image. |
-| Table | Inserts a table. |
-| Horizontal Rule | Inserts a horizontal rule. |
-| Line Break | Inserts a line break. |
-| Numbering | Inserts an ordered list. |
-| Bullets | Inserts an unordered list. |
-| Markdown Design View | Displays the Markdown design view. |
-| Markdown Preview | Displays the Markdown preview of the current document. |
+| ![](../../images/bold.gif)[Bold](../../cmd/edit/markdown_bold) | Toggles a bold style. |
+| ![](../../images/italic.gif)[Italic](../../cmd/edit/markdown_italic) | Toggles an italic style. |
+| ![](../../images/markdown_code.gif)[Code](../../cmd/edit/markdown_code) | Toggles a code style. |
+| ![](../../images/markdown_clear.gif)[Clear All Formatting](../../cmd/edit/markdown_clear) | Removes bold and italic formatting from the selected text. |
+| ![](../../images/hyperlink.gif)[Hyperlink](../../cmd/edit/markdown_hyperlink) | Inserts a hyperlink. |
+| ![](../../images/remove_hyperlinks.gif)[Remove Hyperlinks](../../cmd/edit/markdown_remove_hyperlinks) | Removes hyperlinks. |
+| ![](../../images/image.gif)[Image](../../cmd/edit/markdown_image) | Inserts an Image. |
+| ![](../../images/table.gif)[Table](../../cmd/edit/markdown_table) | Inserts a table. |
+| ![](../../images/hr.gif)[Horizontal Rule](../../cmd/edit/markdown_hr) | Inserts a horizontal rule. |
+| ![](../../images/markdown_line_break.gif)[Line Break](../../cmd/edit/markdown_line_break) | Inserts a line break. |
+| ![](../../images/numbering.gif)[Numbering](../../cmd/edit/markdown_numbering) | Inserts an ordered list. |
+| ![](../../images/bullets.gif)[Bullets](../../cmd/edit/markdown_bullets) | Inserts an unordered list. |
+| ![](../../images/markdown_view.gif)[Markdown Design View](../../cmd/edit/markdown_view) | Displays the Markdown design view. |
+| ![](../../images/plugin_webpreview.gif)[Markdown Preview](../../cmd/edit/markdown_preview) | Displays the Markdown preview of the current document. |

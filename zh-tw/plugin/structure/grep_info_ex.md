@@ -62,7 +62,8 @@ _nFlags_
 | FLAG\_FIND\_RECURSIVE | 在指定路徑的子資料夾中搜索。 |
 | FLAG\_FIND\_REG\_EXP | 使用規則運算式。不能與 FLAG\_FIND\_ESCAPE 合併使用。 |
 | FLAG\_FIND\_REGEX\_BOOST | 把 Boost.Regex 作為規則運算式引擎。 |
-| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作為規則運算式引擎。 |
+| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作為規則運算式引擎，Ruby 語法。 |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | 使用 Onigmo 作為規則運算式引擎，Perl 語法。 |
 | FLAG\_FIND\_OPEN\_DIRECT | 直接打開包含指定字串的文檔。不能與 FLAG\_FIND\_OPEN\_FILTER or FLAG\_FIND\_OUTPUT 合併使用。 |
 | FLAG\_FIND\_OPEN\_FILTER | 直接打開包含指定字串的文檔，並且把指定字串設為篩選器。不能與 FLAG\_FIND\_OPEN\_DIRECT 或 FLAG\_FIND\_OUTPUT 合併使用。 |
 | FLAG\_FIND\_OUTPUT | 在輸出列清單中顯示多檔尋找搜索結果。不能與 FLAG\_FIND\_OPEN\_DIRECT 或 FLAG\_FIND\_OPEN\_FILTER 合併使用。 |

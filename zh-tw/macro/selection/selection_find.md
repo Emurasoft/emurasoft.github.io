@@ -53,7 +53,7 @@ _nFlags_
 
 _nExFlags_
 
-指定一個下列值的組合。但是，eeExFindRegexBoost 和 eeExFindRegexOnigmo 中只能指定一個。如果兩個都不指定，那么會使用預設的規則運算式引擎。
+指定一個下列值的組合。但是，eeExFindRegexBoost，eeExFindRegexOnigmo 和 eeExFindRegexOnigmoPerl 中只能指定一個。如果不指定，那么會使用預設的規則運算式引擎。
 
 |     |     |
 | --- | --- |
@@ -65,7 +65,8 @@ _nExFlags_
 | eeExFindNoOverlap | 尋找下一個或上一個符合項時，排除重疊字串。 |
 | eeExFindNumberRange | 符合 [數字範圍運算式](../../howto/search/number_range_syntax)。此標志不能與 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
 | eeExFindRegexBoost | 把 Boost.Regex 作為規則運算式引擎。 |
-| eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎。 |
+| eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎，Ruby 語法。 |
+| eeExFindRegexOnigmoPerl | 使用 Onigmo 作為規則運算式引擎，Perl 語法。 |
 | eeExFindSeparateCRLF | 區分 CR 和 LF。 |
 
 ## 返回值

@@ -12,7 +12,7 @@
 
 - 默认菜单: **编辑** \> **Markdown** \> **代码**
 - [所有命令](../tools/all_commands): **编辑** \> **Markdown** \> **代码**
-- 工具栏: 无
+- 工具栏: ![](../../images/markdown_code.gif)
 - 状态栏: 无
 - 默认快捷键: 无
 

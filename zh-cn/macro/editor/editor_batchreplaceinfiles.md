@@ -55,13 +55,14 @@ _strBackupPath_
 
 _nExFlags_
 
-指定下列值的组合。但是，只能指定 eeExFindRegexBoost 和 eeExFindRegexOnigmo 中的一个。如果未指定这两者，则使用默认的正则表达式引擎。
+指定下列值的组合。但是，只能指定 eeExFindRegexBoost，eeExFindRegexOnigmo 和 eeExFindRegexOnigmoPerl 中的一个。如果不指定，则使用默认的正则表达式引擎。
 
 |     |     |
 | --- | --- |
 | eeExFindMulti | 执行 **多项替换全部**。如果未指定，则执行 **批处理替换全部**。详情请参阅 [**批处理替换全部和多项替换全部之间的区别**](../../howto/search/batch_vs_bulk)。 |
 | eeExFindRegexBoost | 使用 Boost.Regex 作为正则表达式引擎。 |
-| eeExFindRegexOnigmo | 使用 Onigmo 作为正则表达式引擎。 |
+| eeExFindRegexOnigmo | 使用 Onigmo 作为正则表达式引擎，Ruby 语法。 |
+| eeExFindRegexOnigmoPerl | 使用 Onigmo 作为正则表达式引擎，Perl 语法。 |
 
 _nLimit_
 

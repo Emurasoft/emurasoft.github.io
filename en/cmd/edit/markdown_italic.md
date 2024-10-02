@@ -12,7 +12,7 @@ Toggles an italic style.
 
 - Default Menu: **Edit** \> **Markdown** \> **Italic**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Italic**
-- Toolbar: 
+- Toolbar: ![](../../images/italic.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

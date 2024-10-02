@@ -42,7 +42,8 @@ _nBatchFlags_
 | FLAG\_FIND\_OPEN\_DOC | 在同一个框架窗口中，搜索所有打开的文档。 |
 | FLAG\_FIND\_OUTPUT | 将提取结果显示为输出栏中的列表。必须与 FLAG\_FIND\_EXTRACT 结合使用。 |
 | FLAG\_FIND\_REGEX\_BOOST | 把 Boost.Regex 作为正则表达式引擎。 |
-| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作为正则表达式引擎。 |
+| FLAG\_FIND\_REGEX\_ONIGMO | 把 Onigmo 作为正则表达式引擎，Ruby 语法。 |
+| FLAG\_FIND\_REGEX\_ONIGMO\_PERL | 使用 Onigmo 作为正则表达式引擎，Perl 语法。 |
 | FLAG\_FIND\_SAVE\_HISTORY | 为重复搜索保存搜索过的字符串。 |
 | FLAG\_FIND\_SEPARATE\_CRLF | 区分 CR 和 LF 。 |
 | FLAG\_FIND\_SEL\_ONLY | 仅搜索选区。 |

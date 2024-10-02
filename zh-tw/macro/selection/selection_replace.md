@@ -50,7 +50,7 @@ _nFlags_
 
 _nExFlags_
 
-指定一個下列值的組合。
+指定一個下列值的組合。但是，eeExFindRegexBoost，eeExFindRegexOnigmo 和 eeExFindRegexOnigmoPerl 中只能指定一個。如果不指定，那么會使用預設的規則運算式引擎。
 
 |     |     |
 | --- | --- |
@@ -60,8 +60,9 @@ _nExFlags_
 | eeExFindInsertColumn | 為抽出的列創建新的 CSV 欄。必須在 nFlags 中指定 eeFindExtract。新欄將插入在原始欄的右側。 |
 | eeExFindLookaround | 只在選區內進行規則運算式搜索時用環顧。 |
 | eeExFindNumberRange | 符合 [數字範圍運算式](../../howto/search/number_range_syntax)。此標志不能與 eeFindReplaceEscSeq 或 eeFindReplaceRegExp 合用。 |
-| eeExFindRegexBoost | 把 Boost.Regex 作為規則運算式引擎。不能與 eeExFindRegexOnigmo 聯用。 |
-| eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎。不能與 eeExFindRegexBoost 聯用。 |
+| eeExFindRegexBoost | 把 Boost.Regex 作為規則運算式引擎。不能與 eeExFindRegexOnigmo 或 eeExFindRegexOnigmoPerl 聯用。 |
+| eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎，Ruby 語法。 |
+| eeExFindRegexOnigmoPerl | 使用 Onigmo 作為規則運算式引擎，Perl 語法。 |
 | eeExFindSeparateCRLF | 區分 CR 和 LF。 |
 
 ## 返回值

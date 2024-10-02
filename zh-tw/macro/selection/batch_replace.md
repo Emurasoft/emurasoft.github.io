@@ -44,7 +44,7 @@ _nFlags_
 
 _nExFlags_
 
-指定一個以下值的組合。但是，eeExFindRegexBoost 和 eeExFindRegexOnigmo 中只能指定一個。如果兩個都不指定，那么會使用預設的規則運算式引擎。
+指定一個以下值的組合。但是，eeExFindRegexBoost，eeExFindRegexOnigmo 和 eeExFindRegexOnigmoPerl 中只能指定一個。如果不指定，那么會使用預設的規則運算式引擎。
 
 |     |     |
 | --- | --- |
@@ -55,7 +55,8 @@ _nExFlags_
 | eeExFindLookaround | 只在選區內進行規則運算式搜索時用合樣判斷提示。 |
 | eeExFindMulti | 執行 **多項取代全部**。如果未指定，則執行 **批次取代全部**。詳情請參閱 [**批次和多項之間的區別**](../../howto/search/batch_vs_bulk)。 |
 | eeExFindRegexBoost | 把 Boost.Regex 作為規則運算式引擎。 |
-| eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎。 |
+| eeExFindRegexOnigmo | 把 Onigmo 作為規則運算式引擎，Ruby 語法。 |
+| eeExFindRegexOnigmoPerl | 使用 Onigmo 作為規則運算式引擎，Perl 語法。 |
 | eeExFindSeparateCRLF | 區分 CR 和 LF。 |
 
 ## 返回值

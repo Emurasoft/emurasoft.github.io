@@ -12,7 +12,7 @@ Inserts a line break.
 
 - Default Menu: **Edit** \> **Markdown** \> **Line Break**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Line Break**
-- Toolbar: 
+- Toolbar: ![](../../images/markdown_line_break.gif)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
