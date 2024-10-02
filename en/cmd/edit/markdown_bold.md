@@ -12,7 +12,7 @@ Toggles a bold style.
 
 - Default Menu: **Edit** \> **Markdown** \> **Bold**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Bold**
-- Toolbar: None
+- Toolbar: 
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

@@ -12,7 +12,7 @@ Removes bold and italic formatting from the selected text.
 
 - Default Menu: **Edit** \> **Markdown** \> **Clear All Formatting**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Clear All Formatting**
-- Toolbar: None
+- Toolbar: 
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

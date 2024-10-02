@@ -12,7 +12,7 @@ Sets the current line as a code block.
 
 - Default Menu: **Edit** \> **Markdown** \> **Code Block**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Code Block**
-- Toolbar: None
+- Toolbar: 
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

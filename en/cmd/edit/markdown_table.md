@@ -12,7 +12,7 @@ Inserts a table.
 
 - Default Menu: **Edit** \> **Markdown** \> **Table**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Table**
-- Toolbar: None
+- Toolbar: 
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

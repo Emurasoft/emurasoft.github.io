@@ -12,7 +12,7 @@ Inserts a hyperlink.
 
 - Default Menu: **Edit** \> **Markdown** \> **Hyperlink**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Hyperlink**
-- Toolbar: None
+- Toolbar: 
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

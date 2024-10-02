@@ -12,7 +12,7 @@ Displays the Markdown design view.
 
 - Default Menu: **Edit** \> **Markdown** \> **Design View**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Design View**
-- Toolbar: None
+- Toolbar: 
 - Status Bar: None
 - Default Keyboard Shortcut: None
 

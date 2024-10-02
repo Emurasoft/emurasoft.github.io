@@ -84,7 +84,7 @@
 | ![](../../images/reset24x16.gif)[Reset](../../cmd/diff/compare_reset) | Resets comparison or synchronized scrolling mode and clears comparison results. |
 | ![](../../images/line_number24x16.gif)[Line Numbers](../../cmd/view/view_line_numbers) | Shows or hides line numbers. |
 | ![](../../images/ruler24x16.gif)[Ruler](../../cmd/view/view_ruler) | Shows or hides the ruler. |
-| **![Outline](../../images/plugin_outline.gif)**[Outlining](../../cmd/view/outline_bar_guide) | Shows or hides outlining. |
+| ![](../../images/plugin_outline.gif)[Outlining](../../cmd/view/outline_bar_guide) | Shows or hides outlining. |
 | ![](../../images/auto_indent24x16.gif)[Auto Indent](../../cmd/view/toggle_auto_indent) | Enables or disables the auto indent. |
 | ![](../../images/space_tab24x16.gif)[Insert Spaces for Tabs](../../cmd/view/toggle_spaces_tab) | Inserts spaces for tabs. |
 | ![](../../images/wrap_indent24x16.gif)[Wrap Indent](../../cmd/view/toggle_wrap_indent) | Enables or disables the wrap indent. |
@@ -109,13 +109,13 @@
 | ![](../../images/deleteduplicatelines_advanced.png)[Delete Duplicate Lines (Advanced)](../../cmd/sort/delete_duplicate_advanced) | Displays a dialog box to specify settings and deletes duplicate lines in the selection or in the entire document. |
 | ![](../../images/join_csv.png)[Join CSV](../../cmd/csv/join_csv) | Joins two CSV documents. |
 | ![](../../images/extract_columns.png)[Extract Columns](../../cmd/csv/extract_columns) | Extracts specified columns from the current CSV document. |
-| ![CommitList](../../images/plugin_commit_list.gif)[CommitList](../plugin/plugin_commit_list) | CommitList Plug-in. |
-| ![Explorer](../../images/plugin_explorer.gif)[Explorer](../plugin/plugin_explorer) | Explorer Plug-in. |
+| ![](../../images/plugin_commit_list.gif)[CommitList](../plugin/plugin_commit_list) | CommitList Plug-in. |
+| ![](../../images/plugin_explorer.gif)[Explorer](../plugin/plugin_explorer) | Explorer Plug-in. |
 | ![](../../images/htmlbar.gif)[HTMLBar](../plugin/plugin_htmlbar) | HTMLBar Plug-in. |
-| **![Open Documents](../../images/plugin_opendocuments.gif)**[Open Documents](../plugin/plugin_opendocuments) | Open Documents Plug-in. |
-| **![](../../images/projects.gif)**[Projects](../plugin/plugin_projects) | Projects Plug-in. |
-| **![Search](../../images/plugin_search.gif)**[Search](../plugin/plugin_search) | Search Plug-in. |
-| **![Snippets](../../images/plugin_snippets.gif)**[Snippets](../plugin/plugin_snippets) | Snippets Plug-in. |
-| ![Web Preview](../../images/plugin_webpreview.gif)[Web Preview](../plugin/plugin_webpreview) | Web Preview Plug-in. |
+| ![](../../images/plugin_opendocuments.gif)[Open Documents](../plugin/plugin_opendocuments) | Open Documents Plug-in. |
+| ![](../../images/projects.gif)[Projects](../plugin/plugin_projects) | Projects Plug-in. |
+| ![](../../images/plugin_search.gif)[Search](../plugin/plugin_search) | Search Plug-in. |
+| ![](../../images/plugin_snippets.gif)[Snippets](../plugin/plugin_snippets) | Snippets Plug-in. |
+| ![](../../images/plugin_webpreview.gif)[Web Preview](../plugin/plugin_webpreview) | Web Preview Plug-in. |
 | ![](../../images/wordcomplete.gif)[Word Complete](../plugin/plugin_wordcomplete) | Word Complete Plug-in. |
-| **![Word Count](../../images/plugin_wordcount.gif)**[Word Count](../plugin/plugin_wordcount) | Word Count Plug-in. |
+| ![](../../images/plugin_wordcount.gif)[Word Count](../plugin/plugin_wordcount) | Word Count Plug-in. |

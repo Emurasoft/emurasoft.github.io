@@ -12,7 +12,7 @@ Inserts an ordered list.
 
 - Default Menu: **Edit** \> **Markdown** \> **Numbering**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Numbering**
-- Toolbar: None
+- Toolbar: 
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
