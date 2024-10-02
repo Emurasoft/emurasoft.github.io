@@ -84,7 +84,7 @@
 | ![](../../images/reset24x16.gif)[リセット](../../cmd/diff/compare_reset) | 比較や同期スクロールをリセットして比較結果をクリアします。 |
 | ![](../../images/line_number24x16.gif)[行番号](../../cmd/view/view_line_numbers) | 行番号の表示/非表示を切り替えます。 |
 | ![](../../images/ruler24x16.gif)[ルーラ](../../cmd/view/view_ruler) | ルーラの表示/非表示を切り替えます。 |
-| ![アウトライン](../../images/plugin_outline.gif)[アウトライン](../../cmd/view/outline_bar_guide) | アウトライン バーとガイドの表示/非表示を切り替えます。 |
+| ![](../../images/plugin_outline.gif)[アウトライン](../../cmd/view/outline_bar_guide) | アウトライン バーとガイドの表示/非表示を切り替えます。 |
 | ![](../../images/auto_indent24x16.gif)[自動インデント](../../cmd/view/toggle_auto_indent) | 自動インデントを有効にします。 |
 | ![](../../images/space_tab24x16.gif)[タブの代わりに空白を挿入](../../cmd/view/toggle_spaces_tab) | タブの代わりに空白を挿入します。 |
 | ![](../../images/wrap_indent24x16.gif)[折り返しインデント](../../cmd/view/toggle_wrap_indent) | 折り返しインデントを有効にします。 |
@@ -109,13 +109,27 @@
 | ![](../../images/deleteduplicatelines_advanced.png)[重複行の削除(高度)](../../cmd/sort/delete_duplicate_advanced) | ダイアログ ボックスを表示して設定を指定し、選択範囲または文書全体から重複行を削除します。 |
 | ![](../../images/join_csv.png)[CSVの結合](../../cmd/csv/join_csv) | 2個のCSV文書を結合します。 |
 | ![](../../images/extract_columns.png)[列を抽出](../../cmd/csv/extract_columns) | 現在のCSV文書から指定する列を抽出します。 |
-| ![コミット リスト](../../images/plugin_commit_list.gif)[コミット リスト](../plugin/plugin_commit_list) | \[コミット リスト\] プラグイン。 |
-| ![エクスプローラ](../../images/plugin_explorer.gif)[エクスプローラ](../plugin/plugin_explorer) | \[エクスプローラ\] プラグイン。 |
+| ![](../../images/plugin_commit_list.gif)[コミット リスト](../plugin/plugin_commit_list) | \[コミット リスト\] プラグイン。 |
+| ![](../../images/plugin_explorer.gif)[エクスプローラ](../plugin/plugin_explorer) | \[エクスプローラ\] プラグイン。 |
 | ![](../../images/htmlbar.gif)[HTML バー](../plugin/plugin_htmlbar) | \[HTML バー\] プラグイン。 |
-| ![開いている文書](../../images/plugin_opendocuments.gif)[開いている文書](../plugin/plugin_opendocuments) | \[開いている文書\] プラグイン。 |
-| **![](../../images/projects.gif)**[プロジェクト](../plugin/plugin_projects) | \[プロジェクト\] プラグイン。 |
-| ![検索](../../images/plugin_search.gif)[検索](../plugin/plugin_search) | \[検索\] プラグイン。 |
-| ![スニペット](../../images/plugin_snippets.gif)[スニペット](../plugin/plugin_snippets) | \[スニペット\] プラグイン。 |
-| ![Web プレビュー](../../images/plugin_webpreview.gif)[Web プレビュー](../plugin/plugin_webpreview) | \[Web プレビュー\] プラグイン。 |
+| ![](../../images/plugin_opendocuments.gif)[開いている文書](../plugin/plugin_opendocuments) | \[開いている文書\] プラグイン。 |
+| ![](../../images/projects.gif)[プロジェクト](../plugin/plugin_projects) | \[プロジェクト\] プラグイン。 |
+| ![](../../images/plugin_search.gif)[検索](../plugin/plugin_search) | \[検索\] プラグイン。 |
+| ![](../../images/plugin_snippets.gif)[スニペット](../plugin/plugin_snippets) | \[スニペット\] プラグイン。 |
+| ![](../../images/plugin_webpreview.gif)[Web プレビュー](../plugin/plugin_webpreview) | \[Web プレビュー\] プラグイン。 |
 | ![](../../images/wordcomplete.gif)[単語補完](../plugin/plugin_wordcomplete) | \[単語補完\] プラグイン。 |
-| ![単語数](../../images/plugin_wordcount.gif)[単語数](../plugin/plugin_wordcount) | \[単語数\] プラグイン。 |
+| ![](../../images/plugin_wordcount.gif)[単語数](../plugin/plugin_wordcount) | \[単語数\] プラグイン。 |
+| 太字 | 太字のスタイルのオン/オフを切り替えます。 |
+| 斜体 | 斜体のスタイルのオン/オフを切り替えます。 |
+| コード | コードのスタイルのオン/オフを切り替えます。 |
+| すべての書式をクリア | 選択テキストから太字や斜体の書式を削除します。 |
+| ハイパーリンク | ハイパーリンクを挿入します。 |
+| ハイパーリンクの削除 | ハイパーリンクを削除します。 |
+| 画像 | 画像を挿入します。 |
+| 表 | 表を挿入します。 |
+| 水平線 | 水平線を挿入します。 |
+| 改行 | 改行を挿入します。 |
+| 段落番号 | 段落番号を挿入します。 |
+| 箇条書き | 箇条書きを挿入します。 |
+| Markdown デザイン ビュー | Markdown デザイン ビューを表示します。 |
+| Markdown プレビュー | 現在の文書の Markdown プレビューを表示します。 |

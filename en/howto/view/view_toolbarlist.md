@@ -119,3 +119,17 @@
 | ![](../../images/plugin_webpreview.gif)[Web Preview](../plugin/plugin_webpreview) | Web Preview Plug-in. |
 | ![](../../images/wordcomplete.gif)[Word Complete](../plugin/plugin_wordcomplete) | Word Complete Plug-in. |
 | ![](../../images/plugin_wordcount.gif)[Word Count](../plugin/plugin_wordcount) | Word Count Plug-in. |
+| Bold | Toggles a bold style. |
+| Italic | Toggles an italic style. |
+| Code | Toggles a code style. |
+| Clear All Formatting | Removes bold and italic formatting from the selected text. |
+| Hyperlink | Inserts a hyperlink. |
+| Remove Hyperlinks | Removes hyperlinks. |
+| Image | Inserts an Image. |
+| Table | Inserts a table. |
+| Horizontal Rule | Inserts a horizontal rule. |
+| Line Break | Inserts a line break. |
+| Numbering | Inserts an ordered list. |
+| Bullets | Inserts an unordered list. |
+| Markdown Design View | Displays the Markdown design view. |
+| Markdown Preview | Displays the Markdown preview of the current document. |
