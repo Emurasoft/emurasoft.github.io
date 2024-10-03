@@ -165,6 +165,7 @@ See [Replacement Expression Syntax](replacement_expression_syntax).
 line feed (\\n) must be specified carefully. See [To Specify newline characters](search_nl) for details.
 - In order for some escape sequences to work in EmEditor, like "\\l", "\\u" and
 their complements, the Match Case option has to be selected.
+- Buffer boundaries ("\\`", "\\'", "\\A", "\\z", "\\Z") are not supported.
 
 ## Copyright Notice
 
