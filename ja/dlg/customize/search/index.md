@@ -40,7 +40,7 @@ If this is checked, the Find Toolbar will synchronize history with Find/Replace 
 
 ## \[単語のみ検索\] チェック ボックス
 
-これがチェックされていると、 [\[次の文字列を選択に追加\]](../../../cmd/search/addnextoccurrence)、 [\[すべての文字列を選択\]](../../../cmd/search/selectalloccurrences) コマンドで、単語のみ検索します。
+これがチェックされていると、 [\[次の文字列を選択に追加\]](../../../cmd/search/add_next_occurrence)、 [\[すべての文字列を選択\]](../../../cmd/search/select_all_occurrences) コマンドで、単語のみ検索します。
 
 ## \[既定の正規表現エンジン\] ドロップダウン リスト ボックス
 
