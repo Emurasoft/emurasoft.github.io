@@ -19,7 +19,7 @@ This command uses the [**system default encoding**](../../glossary/systemdefault
 \> **Paste in Quotes**
 - Toolbar: None
 - Status Bar: None
-- Default Keyboard Shortcut: CTRL+B
+- Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 

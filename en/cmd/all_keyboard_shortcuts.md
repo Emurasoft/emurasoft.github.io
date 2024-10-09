@@ -29,6 +29,7 @@ Convert|Decrease Line Indent|Shift+Tab|Decreases the line indent in the selectio
 Convert|Lowercase|Ctrl+U|Converts the selection to all lowercase characters.
 Convert|Uppercase|Ctrl+Shift+U|Converts the selection to all uppercase characters.
 Edit|Back|Alt+Left|Moves the cursor to the previous position.
+Edit|Bold|Ctrl+B|Toggles a bold style.
 Edit|Bottom|Ctrl+End|Moves the cursor to the bottom of the document.
 Edit|Bottom Extend|Ctrl+Shift+End|Extends the selection to the end of the document.
 Edit|Cancel|Esc|Cancels the selection.
@@ -87,7 +88,6 @@ Edit|Page Up|PageUp|Moves the cursor up one page.
 Edit|Page Up Extend|Shift+PageUp|Extends the selection up one page.
 Edit|Paste|Ctrl+V, Shift+Insert|Inserts the contents of the Clipboard at the cursor position.
 Edit|Paste as System Default Encoding|Alt+Ctrl+V|Pastes Clipboard contents using the system default encoding.
-Edit|Paste in Quotes|Ctrl+B|Inserts the contents of the Clipboard with quotes.
 Edit|Paste with Newline Characters|Ctrl+J|Inserts the Clipboard contents and newline characters.
 Edit|Previous Logical Line|Ctrl+PageUp|Moves the cursor to the start of the previous logical line.
 Edit|Previous Misspelling|Ctrl+Shift+M|Jumps to previous misspelling in this document.

@@ -14,7 +14,7 @@ Toggles a bold style.
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Bold**
 - Toolbar: ![](../../images/bold.gif)
 - Status Bar: None
-- Default Keyboard Shortcut: None
+- Default Keyboard Shortcut: CTRL+B
 
 ## Plug-in Command ID
 
