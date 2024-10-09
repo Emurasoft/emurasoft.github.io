@@ -14,7 +14,7 @@
 - [全部命令](../tools/all_commands): **編輯** \> **Markdown** \> **粗體**
 - 工具列: ![](../../images/bold.gif)
 - 狀態列: 無
-- 預設快速鍵: 無
+- 預設快速鍵: CTRL+B
 
 ## 外掛程式命令 ID
 

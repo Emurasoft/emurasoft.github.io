@@ -14,7 +14,7 @@
 - [所有命令](../tools/all_commands): **编辑** \> **Markdown** \> **粗体**
 - 工具栏: ![](../../images/bold.gif)
 - 状态栏: 无
-- 默认快捷键: 无
+- 默认快捷键: CTRL+B
 
 ## 插件命令 ID
 
