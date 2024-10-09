@@ -1,6 +1,6 @@
 # \[Markdown\] ページ
 
-\[Markdown\] ページでは、Markdownに関する設定を行います。
+\[Markdown\] ページでは、Markdown に関する設定を行います。
 
 ## \[自動的に Markdown ツール バーを表示する\] チェック ボックス
 
