@@ -77,7 +77,7 @@ jobs:
           path: help_pages.zip
       - name: Upload pages
         if: ${{ github.ref_type == 'tag' }}
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: help_pages
       - uses: actions/setup-node@v3
