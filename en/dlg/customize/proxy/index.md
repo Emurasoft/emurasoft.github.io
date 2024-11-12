@@ -16,7 +16,7 @@ Select between HTTP or SOCKS5 protocol to connect to your proxy.
 
 ### Host name
 
-Specify the host name for your proxy.
+Specify the host name or IP address for your proxy.
 
 ### Port number
 
