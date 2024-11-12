@@ -43,4 +43,5 @@ notifications/index
 update/index
 help/index
 lang/index
+proxy/index
 ```
