@@ -32,7 +32,7 @@ Specify the username to use to connect.
 
 ### Password
 
-Specify the password to use to connect. You can click on o-o to show the password.
+Specify the password to use to connect. You can click on o-o to show the password. The username and password will be stored on your computer.
 
 ### Proxy URL
 
