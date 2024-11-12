@@ -32,11 +32,11 @@ Specify the username to use to connect.
 
 ### Password
 
-Specify the password to use to connect. You can click on o-o to show the password. The username and password will be stored on your computer.
+Specify the password to use to connect. You can click on o-o to show or hide the password. The username and password will be stored on your computer.
 
 ### Proxy URL
 
-This field displays the URL that encodes all settings specified above. EmEditor will use this URL to connect to the proxy.
+This field displays the URL that encodes all settings specified above. You can click on o-o to show or hide the URL. EmEditor will use this URL to connect to the proxy. 
 
 ## Check connection button
 
