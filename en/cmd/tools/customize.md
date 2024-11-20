@@ -6,8 +6,7 @@ Changes properties for currently selected configuration.
 
 ## Description
 
-Displays the **[Configuration \**
-**Properties](../../dlg/properties/index)** dialog box for the current configuration. Within this
+Displays the **[Configuration Properties](../../dlg/properties/index)** dialog box for the current configuration. Within this
 menu, you can set
 various options for the current configuration.
 
@@ -23,7 +22,8 @@ various options for the current configuration.
 ## Plug-in Command ID
 
 ```
-EEID_CUSTOMIZE (4219)```
+EEID_CUSTOMIZE (4219)
+```
 
 ## Macros
 
