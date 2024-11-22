@@ -28,9 +28,8 @@ under the **Tools** Menu (**Tools** \> **Customize** \> **History**).
 ## Plug-in Command ID
 
 ```
-From EEID_FILE_MRU_FILE1 through EEID_FILE_MRU_FILE1 + 63 (from 4609
+From EEID_FILE_MRU_FILE1 through EEID_FILE_MRU_FILE1 + 63 (from 4609 through 4609 + 63)
 ```
-through 4609 + 63)
 
 ## Macros
 
