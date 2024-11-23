@@ -11,7 +11,8 @@ saved to the specified folder if the **Save to Auto**
 file is opened.
 
 ## Save to Auto Save Folder check box
-/* cspell:disable-next-line */
+
+<!-- cspell:disable-next-line -->
 Saves to the specified folder in the **Auto Save** **Folder** text box if this box is checked. If this box is not checked, the files are saved in the same folder. Untitled files are saved only when checked, and the file name will be "txtnnn.tmp" where nnn is an integer. The full path of the folder must be specified.
 
 ## Rename if the Same File Name Exists check box
