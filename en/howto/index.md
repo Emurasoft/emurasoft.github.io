@@ -1,6 +1,5 @@
 # How to ...
 
-
 ```{toctree}
 :maxdepth: 1
 file/index
@@ -12,4 +11,5 @@ macro/index
 plugin/index
 window/index
 offline_registration/index
+stripe_sign_in/index
 ```
