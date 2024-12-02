@@ -1,6 +1,6 @@
 # File Verification Results Dialog Box
 
-The **File Verification Results** dialog box provides information about the outcome of the file verification process. This dialog appears when you choose the [**Verify**](../../cmd/file/verify) command.
+The **File Verification Results** dialog box provides information about the outcome of the file verification process. This dialog appears when you choose the **Verify** command.
 
 In the **File Verification Results** dialog box, you'll find the following details:
 
