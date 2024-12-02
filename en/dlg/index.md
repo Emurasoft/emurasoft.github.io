@@ -7,6 +7,7 @@ The following dialog boxes exist in EmEditor.
 save_all_as/index
 advanced_open/index
 detect_result/index
+file_verify_result/index
 undo_history/index
 repeat_count/index
 jump/index
