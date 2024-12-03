@@ -36,3 +36,7 @@ Please enter your password.
 ## Label device check box
 
 Enabling **Label device** will add the label text to the device record in the [Registered Devices](https://support.emeditor.com/en/account/devices) table. By default, the label is `{computer name} {user name}`. The label is optional.
+
+## Proxy settings hyperlink
+
+Clicking on **Proxy settings** will open the [**Customize Proxy**](../customize/proxy/index) dialog window. The proxy settings will be used during registration.
