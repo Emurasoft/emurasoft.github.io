@@ -21,8 +21,7 @@
 ## 外掛程式命令ID
 
 ```
-從 EEID_FILE_MRU_FILE1 到 EEID_FILE_MRU_FILE1 + 63 (從 4609```
-到 4609 + 63)
+從 EEID_FILE_MRU_FILE1 到 EEID_FILE_MRU_FILE1 + 63 (從 4609 到 4609 + 63)```
 
 ## 巨集
 

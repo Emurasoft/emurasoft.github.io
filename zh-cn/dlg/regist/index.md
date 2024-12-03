@@ -33,3 +33,7 @@
 ## “标记设备”复选框
 
 启用**标记设备**会将标签文本添加到[注册的设备](https://support.emeditor.com/en/account/devices)列表的设备记录中。默认的标签为 `{computer name} {user name}`。您可以选择是否要标记设备。
+
+## 网络代理设置超链接
+
+点击 **网络代理设置** 将打开 [**自定义网络代理**](../customize/proxy/index) 对话窗口。网络代理设置将在注册期间使用。

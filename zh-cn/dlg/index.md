@@ -7,6 +7,7 @@ EmEditor 中会出现下列对话框。
 save_all_as/index
 advanced_open/index
 detect_result/index
+file_verify_result/index
 undo_history/index
 repeat_count/index
 jump/index

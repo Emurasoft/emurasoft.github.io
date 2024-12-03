@@ -32,4 +32,8 @@
 
 ## 「標記裝置」核取方塊
 
-啟用**標記裝置**會將標籤文字添加到[註冊的裝置](https://support.emeditor.com/en/account/devices)清單的裝置記錄中。預設的標籤為 `{computer name} {user name}`。您可以選擇是否要標記裝置。
+啟用 **標記裝置** 會將標籤文字添加到[註冊的裝置](https://support.emeditor.com/en/account/devices)清單的裝置記錄中。預設的標籤為 `{computer name} {user name}`。您可以選擇是否要標記裝置。
+
+## 代理伺服器設定超連結
+
+點擊 **代理伺服器設定** 將打開 [**自訂代理伺服器**](../customize/proxy/index) 對話視窗。代理伺服器設定將在註冊期間使用。

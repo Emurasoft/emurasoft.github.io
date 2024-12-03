@@ -21,8 +21,7 @@
 ## 插件命令ID
 
 ```
-从 EEID_FILE_MRU_FILE1 到 EEID_FILE_MRU_FILE1 + 63 (从 4609```
-到 4609 + 63)
+从 EEID_FILE_MRU_FILE1 到 EEID_FILE_MRU_FILE1 + 63 (从 4609 到 4609 + 63)```
 
 ## 宏
 
