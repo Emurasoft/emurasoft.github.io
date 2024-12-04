@@ -22,6 +22,7 @@
 | **[Syntax Check Properties](property_validation)** | Syntax Check properties for current configuration. |
 | **[Character Check Properties](property_char_check)** | Character Check properties for current configuration. |
 | **[Language Server Properties](property_language_server)** | Language Server properties for current configuration. |
+| **[AI Assist Properties](property_ai_assist)** | AI Assist properties for current configuration. |
 | **[Tab/Indent Properties](property_indent)** | Tab/Indent properties for current configuration. |
 | **[New File Details Properties](property_file_new)** | New File Details properties for current configuration. |
 | **[Save File Details Properties](property_file_save)** | Save File Details properties for current configuration. |
@@ -163,6 +164,7 @@ delete_old_settings
 file_associate
 import_export
 plug_in1
+property_ai_assist
 property_auto_save
 property_backup
 property_char_check

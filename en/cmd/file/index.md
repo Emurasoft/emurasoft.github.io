@@ -54,6 +54,7 @@
 | **[Reload as Japanese JIS](file_reload_jis)** | Reloads the current file using Japanese JIS encoding. |
 | **[Reload as Japanese EUC](file_reload_euc)** | Reloads the current file using Japanese EUC encoding. |
 | [**List of Encodings to Reload**](file_reload_defined) | Reloads the current file with a specified encoding (multiple items). |
+| **[Verify](file_verify)** | Verifies the current document is identical with the original file. |
 | **[Print](file_print)** | Prints the current file. |
 | **[Print Now](file_print_direct)** | Prints the current file on the default printer without specifying options. |
 | **[Print Preview](print_preview)** | Displays a preview of how the current document will print. |
@@ -144,6 +145,7 @@ file_save_unicode
 file_save_unicode_bigendian
 file_save_utf7
 file_save_utf8
+file_verify
 load_workspace
 most_recent_closed_file
 new_config_popup

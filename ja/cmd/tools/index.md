@@ -66,6 +66,7 @@
 | [構文チェックのプロパティ](property_validation) | 現在の設定の構文チェックのプロパティを変更します。 |
 | [文字チェックのプロパティ](property_char_check) | 現在の設定の文字チェックのプロパティを変更します。 |
 | [言語サーバーのプロパティ](property_language_server) | 現在の設定の言語サーバーのプロパティを変更します。 |
+| [AI支援のプロパティ](property_ai_assist) | 現在の設定のAI支援のプロパティを変更します。 |
 | [タブ/インデントのプロパティ](property_indent) | 現在の設定のタブ/インデントのプロパティを変更します。 |
 | [ファイル新規作成時の詳細のプロパティ](property_file_new) | 現在の設定のファイル新規作成時の詳細のプロパティを変更します。 |
 | [ファイル保存時の詳細のプロパティ](property_file_save) | 現在の設定のファイル保存時の詳細のプロパティを変更します。 |
@@ -163,6 +164,7 @@ delete_old_settings
 file_associate
 import_export
 plug_in1
+property_ai_assist
 property_auto_save
 property_backup
 property_char_check

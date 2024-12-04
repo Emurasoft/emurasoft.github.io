@@ -55,6 +55,7 @@
 | [日本語JISで読み直し](file_reload_jis) | ファイルを日本語 JIS で読み直します。 |
 | [日本語EUCで読み直し](file_reload_euc) | ファイルを日本語 EUC で読み直します。 |
 | [読み直しエンコードの一覧](file_reload_defined) | ファイルを指定したエンコードで読み直します (複数項目)。 |
+| [検証](file_verify) | 現在の文書が元のファイルと同一であることを検証します。 |
 | [印刷](file_print) | ファイルを印刷します。 |
 | [すぐに印刷](file_print_direct) | 通常使うプリンタでファイルをすぐに印刷します。 |
 | [印刷プレビュー](print_preview) | この文書の印刷方法を表示します。 |
@@ -145,6 +146,7 @@ file_save_unicode
 file_save_unicode_bigendian
 file_save_utf7
 file_save_utf8
+file_verify
 load_workspace
 most_recent_closed_file
 new_config_popup
