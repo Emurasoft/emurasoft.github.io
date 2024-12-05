@@ -65,6 +65,7 @@
 | **[语法检查属性](property_validation)** | 当前配置的语法检查属性。 |
 | **[字符检查属性](property_char_check)** | 当前配置的字符检查属性。 |
 | **[语言服务器属性](property_language_server)** | 当前配置的语言服务器属性。 |
+| **[AI 辅助属性](property_ai_assist)** | 当前配置的 AI 辅助属性。 |
 | **[制表符/缩进属性](property_indent)** | 当前配置的制表符/缩进属性。 |
 | **[新建文件详细信息属性](property_file_new)** | 当前配置的新建文件详细信息属性。 |
 | **[保存文件详细信息属性](property_file_save)** | 当前配置的保存文件详细信息属性。 |
@@ -163,6 +164,7 @@ delete_old_settings
 file_associate
 import_export
 plug_in1
+property_ai_assist
 property_auto_save
 property_backup
 property_char_check

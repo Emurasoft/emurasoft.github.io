@@ -65,6 +65,7 @@
 | **[語法檢查屬性](property_validation)** | 目前的組態的語法檢查屬性。 |
 | **[字元檢查屬性](property_char_check)** | 目前的組態的字元檢查屬性。 |
 | **[語言伺服器屬性](property_language_server)** | 目前的組態的語言伺服器屬性。 |
+| **[AI 助理属性](property_ai_assist)** | 目前的組態的 AI 助理屬性。 |
 | **[Tab/縮排屬性](property_indent)** | 目前的組態的 Tab/縮排屬性。 |
 | **[新增檔案詳細信息屬性](property_file_new)** | 目前的組態的新增檔案詳細信息屬性。 |
 | **[儲存檔案詳細信息屬性](property_file_save)** | 目前的組態的儲存檔案詳細信息屬性。 |
@@ -163,6 +164,7 @@ delete_old_settings
 file_associate
 import_export
 plug_in1
+property_ai_assist
 property_auto_save
 property_backup
 property_char_check

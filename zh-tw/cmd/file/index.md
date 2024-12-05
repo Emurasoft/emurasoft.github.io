@@ -54,6 +54,7 @@
 | **[重新載入為日文 JIS](file_reload_jis)** | 用日文 JIS 重新載入目前的檔案。 |
 | **[重新載入為日文 EUC](file_reload_euc)** | 用日文 EUC 重新載入目前的檔案。 |
 | [**要重新載入的編碼清單**](file_reload_defined) | 用一個指定的編碼(多個項目)重新載入目前的檔案。 |
+| **[驗證](file_verify)** | 驗證當前文件與原始文件是否相同。 |
 | **[列印](file_print)** | 列印目前的檔案。 |
 | **[立即列印](file_print_direct)** | 使用預設的印表機而不指定任何選項列印目前的檔案。 |
 | **[列印預覽](print_preview)** | 顯示目前的文檔的列印預覽。 |
@@ -144,6 +145,7 @@ file_save_unicode
 file_save_unicode_bigendian
 file_save_utf7
 file_save_utf8
+file_verify
 load_workspace
 most_recent_closed_file
 new_config_popup

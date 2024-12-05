@@ -23,6 +23,7 @@ outline/index
 validation/index
 char_check/index
 language_server/index
+ai_assist/index
 font/index
 reset/index
 ```

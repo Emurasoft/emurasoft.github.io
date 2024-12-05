@@ -54,6 +54,7 @@
 | **[重新载入为日文JIS](file_reload_jis)** | 用日文JIS重新载入当前文件。 |
 | **[重新载入为日文EUC](file_reload_euc)** | 用日文EUC重新载入当前文件。 |
 | [**要重新载入的编码列表**](file_reload_defined) | 用一个指定的编码(多个项目)重新载入当前文件。 |
+| **[验证](file_verify)** | 验证当前文档与原始文件是否相同。 |
 | **[打印](file_print)** | 打印当前文件。 |
 | **[立即打印](file_print_direct)** | 使用默认的打印机而不指定任何选项打印当前文件。 |
 | **[打印预览](print_preview)** | 显示当前文档的打印预览。 |
@@ -144,6 +145,7 @@ file_save_unicode
 file_save_unicode_bigendian
 file_save_utf7
 file_save_utf8
+file_verify
 load_workspace
 most_recent_closed_file
 new_config_popup
