@@ -2,7 +2,7 @@
 
 スクリプト言語を指定します。この指定により、JavaScript、VBScript 以外の ActiveScript が利用できるようになります。この指示子は、スクリプトのメイン コードの上の最初の行に指定する必要があります。
 
-#language = " _ScriptName_"
+#language = "_ScriptName_"
 
 ## パラメータ
 
