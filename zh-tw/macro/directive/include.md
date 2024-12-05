@@ -2,7 +2,7 @@
 
 指定要包括的檔案。該指示詞必須在主代碼上方的指示詞碼中的第一行上被指定。
 
-#include " _filename_"
+#include "_filename_"
 
 ## 參數
 

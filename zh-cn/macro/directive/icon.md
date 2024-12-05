@@ -2,7 +2,7 @@
 
 指定要使用的工具栏按钮的图标。这个指令必须在上述主代码的脚本的第一行中指定。
 
-#icon = " _filename_", _index_
+#icon = "_filename_", _index_
 
 ## 参数
 

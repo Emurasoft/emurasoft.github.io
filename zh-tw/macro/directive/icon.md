@@ -2,7 +2,7 @@
 
 指定要使用的工具列按鈕的圖示。這個指示詞必須在上述主代碼的指示詞碼的第一行中指定。
 
-#icon = " _filename_", _index_
+#icon = "_filename_", _index_
 
 ## 參數
 

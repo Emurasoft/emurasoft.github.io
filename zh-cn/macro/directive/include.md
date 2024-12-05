@@ -2,7 +2,7 @@
 
 指定要包括的文件。该指令必须在脚本的第一行，即主代码上面指定。
 
-#include " _filename_"
+#include "_filename_"
 
 ## 参数
 

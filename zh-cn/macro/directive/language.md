@@ -2,7 +2,7 @@
 
 指定要使用的脚本语言。通过指定这个，你就可以使用 JavaScript 和 VBScript 之外的 ActiveScript 语言。这个指令必须在脚本的第一行，即主代码上面指定。
 
-#language = "ScriptName"
+#language = "_ScriptName_"
 
 ## 参数
 
