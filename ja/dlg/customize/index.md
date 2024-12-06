@@ -41,5 +41,6 @@ markdown/index
 notifications/index
 update/index
 help/index
+proxy/index
 lang/index
 ```
