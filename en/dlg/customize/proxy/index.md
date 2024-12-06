@@ -10,7 +10,7 @@ Connect to the internet without specifying proxy settings. Use this setting if y
 
 Check to enable the custom proxy settings below.
 
-### Protocol combo box
+### Protocol drop-down list box
 
 Select between HTTP or SOCKS5 protocol to connect to your proxy.
 
@@ -47,4 +47,3 @@ If unsuccessful, an error message will appear to diagnosing the issue. Double ch
 ## Reset button
 
 Resets to default settings.
-
