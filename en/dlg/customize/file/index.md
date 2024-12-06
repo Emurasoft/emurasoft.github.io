@@ -78,6 +78,14 @@ If this is checked, EmEditor will enable file mapping when saving a very large f
 
 If this is checked, EmEditor will monitor files only while EmEditor is active.
 
+## Verify files immediately after opening check box
+
+When this option is selected, the newly opened file is saved as a temporary file, and its size and SHA256 hash value are compared to the original.
+
+## Display verification results only if there is a failure check box
+
+If you select this option along with the **Verify files immediately after opening** check box, the verification results will only be shown if there's a failure.
+
 ## From (default)
 
 Specifies the place where EmEditor starts loading a file. By default, 0 is specified.
