@@ -67,6 +67,7 @@
 | **[Customize Notifications](customize_notifications)** | Opens the Notifications page of the Customize dialog box. |
 | **[Customize Update](customize_update)** | Opens the Update page of the Customize dialog box. |
 | **[Customize Help](customize_help)** | Opens the Update page of the Customize dialog box. |
+| **[Customize Proxy](customize_proxy)** | Opens the Proxy page of the Customize dialog box. |
 | **[Customize Language](customize_lang)** | Opens the Help page of the Customize dialog box. |
 | **[Associate with EmEditor](file_associate)** | Associates file extensions. |
 | **[Customize Toolbars](customize_toolbar)** | Customizes toolbar settings. |
@@ -141,6 +142,7 @@ customize_notifications
 customize_optimization
 customize_outline
 customize_plug_ins
+customize_proxy
 customize_rendering
 customize_search
 customize_shortcut

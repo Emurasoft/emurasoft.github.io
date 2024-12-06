@@ -43,6 +43,7 @@
 | **[自訂通知](customize_notifications)** | 打開自訂對話方塊中的通知頁面。 |
 | **[自訂更新](customize_update)** | 打開自訂對話方塊中的更新頁面。 |
 | **[自訂説明](customize_help)** | 打開自訂對話方塊中的説明頁面。 |
+| **[自訂代理伺服器](customize_proxy)** | 打開自訂對話方塊中的代理伺服器頁面。 |
 | **[自訂語言](customize_lang)** | 打開自訂對話方塊中的語言頁面。 |
 | **[與 EmEditor 關聯](file_associate)** | 關聯檔案副檔名。 |
 | **[自訂工具列](customize_toolbar)** | 自訂工具列設置。 |
@@ -141,6 +142,7 @@ customize_notifications
 customize_optimization
 customize_outline
 customize_plug_ins
+customize_proxy
 customize_rendering
 customize_search
 customize_shortcut

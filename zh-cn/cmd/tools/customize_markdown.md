@@ -19,7 +19,7 @@
 ## 插件命令ID
 
 ```
-EEID_CUSTOMIZE_MARKDOWN (20720)
+EEID_CUSTOMIZE_MARKDOWN (9075)
 ```
 
 ## 宏
@@ -27,11 +27,11 @@ EEID_CUSTOMIZE_MARKDOWN (20720)
 ### \[JavaScript\]
 
 ```
-editor.ExecuteCommandByID(20720);
+editor.ExecuteCommandByID(9075);
 ```
 
 ### \[VBScript\]
 
 ```
-editor.ExecuteCommandByID 20720
+editor.ExecuteCommandByID 9075
 ```

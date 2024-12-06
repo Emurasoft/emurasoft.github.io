@@ -43,6 +43,7 @@
 | **[自定义通知](customize_notifications)** | 打开自定义对话框中的通知页面。 |
 | **[自定义更新](customize_update)** | 打开自定义对话框中的更新页面。 |
 | **[自定义帮助](customize_help)** | 打开自定义对话框中的帮助页面。 |
+| **[自定义网络代理](customize_proxy)** | 打开自定义对话框中的网络代理页面。 |
 | **[自定义语言](customize_lang)** | 打开自定义对话框中的语言页面。 |
 | **[与 EmEditor 关联](file_associate)** | 关联文件扩展名。 |
 | **[自定义工具栏](customize_toolbar)** | 自定义工具栏设置。 |
@@ -141,6 +142,7 @@ customize_notifications
 customize_optimization
 customize_outline
 customize_plug_ins
+customize_proxy
 customize_rendering
 customize_search
 customize_shortcut
