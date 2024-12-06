@@ -39,4 +39,4 @@ Enabling **Label device** will add the label text to the device record in the [R
 
 ## Proxy settings hyperlink
 
-Clicking on **Proxy settings** will open the [**Customize Proxy**](../customize/proxy/index) dialog window. The proxy settings will be used during registration.
+Clicking on **Proxy settings** will open the [**Proxy** page](../customize/proxy/index) of the **Customize** dialog window. The proxy settings will be used during registration.
