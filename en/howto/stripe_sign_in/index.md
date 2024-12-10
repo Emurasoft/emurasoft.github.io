@@ -4,7 +4,7 @@ Stripe is the new payment processor for EmEditor.
 
 ## Purchasing a subscription
 
-1. Purchase a subscription by going to [emeditor.com](https://www.emeditor.com/), scroll down and click on Buy Now.
+1. Visit [emeditor.com](https://www.emeditor.com/), scroll down, and click 'Buy Now' to purchase a subscription.
 2. On the payment page, your customer center email is displayed. If you would like to purchase a subscription using a different account, please log out of customer center and go to the payment page again. You can then enter your email address in the payment page.
 3. After purchase, you will receive two emails from `emurasoft.com`:
     - Subscription details and sign-in instructions
