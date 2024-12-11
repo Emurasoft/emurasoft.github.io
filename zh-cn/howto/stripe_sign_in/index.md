@@ -4,7 +4,7 @@ Stripe 是 EmEditor 新的支付处理器。通过 Stripe 购买 EmEditor 的订
 
 ## 购买订阅
 
-1. 从 [emeditor.com](https://www.emeditor.com/) 通过 Stripe 购买 EmEditor 年订阅授权。
+1. 访问 [emeditor.com](https://zh-cn.emeditor.com/)，向下滚动，然后点击“立即购买”以购买年订阅。
 2. 在支付页面上，输入支付信息。如果您已经登录 [Emurasoft 客户中心](https://support.emeditor.com/en/account/subscriptions)，支付页面上会直接显示您注册的电子邮件。如果您想使用其他账户购买订阅，请先退出客户中心，然后再次进入支付页面。您可以在支付页面输入新的电子邮件地址。
 3. 购买后，您将收到来自 `emurasoft.com` 的两封电子邮件：
     - 订阅详情和登录说明
