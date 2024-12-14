@@ -1,25 +1,25 @@
-# Signing into EmEditor with Stripe
+# Stripe を使用した EmEditor へのサインイン
 
-Stripe is the new payment processor for EmEditor.
+Stripe は EmEditor の新しい決済処理プロバイダーです。
 
-## Purchasing a subscription
+## サブスクリプションの購入方法
 
-1. Visit [emeditor.com](https://www.emeditor.com/), scroll down, and click 'Buy Now' to purchase a subscription.
-2. On the payment page, your customer center email is displayed. If you would like to purchase a subscription using a different account, please log out of customer center and go to the payment page again. You can then enter your email address in the payment page.
-3. After purchase, you will receive two emails from `emurasoft.com`:
-    - Subscription details and sign-in instructions
-    - Invoice and receipt
+1. [emeditor.com](https://www.emeditor.com/) を訪問し、ページを下にスクロールして「今すぐ購入」をクリックしてサブスクリプションを購入します。
+2. 決済ページでは、お客様センターのメールアドレスが表示されます。別のアカウントを使用してサブスクリプションを購入したい場合は、お客様センターからログアウトして再度決済ページにアクセスしてください。その後、決済ページでメールアドレスを入力できます。
+3. 購入後、`emurasoft.com` から以下の 2 通のメールが届きます：
+    - サブスクリプションの詳細およびサインイン方法の説明
+    - 請求書と領収書
 
-- You can manage your subscriptions in [Emurasoft Customer Center](https://support.emeditor.com/en/account/subscriptions).
+- [Emurasoft お客様センター](https://support.emeditor.com/en/account/subscriptions) でサブスクリプションを管理できます。
 
-## Signing into EmEditor
+## EmEditor へのサインイン方法
 
-1. Open EmEditor. Go to **Help** &gt; **About EmEditor**, and click on **How to Purchase/Enter Key**. Click on **Enter Key/Sign in**.
-2. Sign in with your Emurasoft Customer Center credentials. The newest subscription will be used to register EmEditor.
+1. EmEditor を開きます。**ヘルプ** &gt; **EmEditor のバージョン情報** に進み、**購入方法/キーの入力** をクリックします。その後、**キーの入力/サインイン** をクリックしてください。
+2. Emurasoft お客様センターの資格情報を使用してサインインします。最新のサブスクリプションが EmEditor に登録されます。
 
-- You can make changes to your payment information in the [customer portal](https://billing.stripe.com/p/login/14k7w2fK6g9Ca9q9AA).
+- 支払い情報の変更は [顧客ポータル](https://billing.stripe.com/p/login/14k7w2fK6g9Ca9q9AA) で行えます。
 
-## Offline registration
+## オフライン登録
 
-- Offline registration replaces the registration keys that were previously issued when purchasing from our 2Checkout merchant.
-- If you would like to register EmEditor without an internet connection, you can do so using an [offline license](../offline_registration/index).
+- オフライン登録は、以前 2Checkout 商人を通じて購入した際に発行されていた登録キーに代わるものです。
+- インターネット接続なしで EmEditor を登録したい場合は、[オフラインライセンス](../offline_registration/index) を使用して登録することができます。
