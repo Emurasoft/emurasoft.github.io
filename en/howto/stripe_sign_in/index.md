@@ -5,7 +5,7 @@ Stripe is the new payment processor for EmEditor.
 ## Purchasing a subscription
 
 1. Visit [emeditor.com](https://www.emeditor.com/), scroll down, and click 'Buy Now' to purchase a subscription.
-2. On the payment page, your customer center email is displayed. If you would like to purchase a subscription using a different account, please log out of customer center and go to the payment page again. You can then enter your email address in the payment page.
+2. On the payment page, your [Emurasoft Customer Center](https://support.emeditor.com/) email is displayed. If you would like to purchase a subscription using a different account, please log out of [Emurasoft Customer Center](https://support.emeditor.com/) and go to the payment page again. You can then enter your email address in the payment page.
 3. After purchase, you will receive two emails from `emurasoft.com`:
     - Subscription details and sign-in instructions
     - Invoice and receipt
@@ -21,5 +21,4 @@ Stripe is the new payment processor for EmEditor.
 
 ## Offline registration
 
-- Offline registration replaces the registration keys that were previously issued when purchasing from our 2Checkout merchant.
 - If you would like to register EmEditor without an internet connection, you can do so using an [offline license](../offline_registration/index).
