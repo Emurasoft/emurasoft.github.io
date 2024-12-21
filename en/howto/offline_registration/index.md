@@ -2,7 +2,7 @@
 
 Registration using the [Register Product dialog box](../../dlg/regist/index) requires an internet connection.
 
-If you experienced the error message "Request error: sending request for url…No such host is known." during online registration, please ensure that your firewall allows `EmEditor.exe` to access `support.emeditor.com` via ports 80 and 443.
+If you encountered the error message "Request error: sending request for url…No such host is known." during online registration and your system requires specific proxy settings for internet access, you can configure them in [Customize Proxy](../../dlg/customize/proxy/index).
 
 If you would like to register EmEditor without an internet connection, you can use the offline registration feature. Offline registration requires EmEditor version 24.3.0 or later.
 
