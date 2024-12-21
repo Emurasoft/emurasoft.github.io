@@ -20,6 +20,8 @@ EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
 
 6. Open EmEditor and view [Registration Information](../../dlg/registration_info/index) to confirm that offline registration was successful. The license file can be deleted now as it is no longer needed to use EmEditor.
 
+- You do not need to register with the offline license again after you renew your subscription.
+
 ## Technical information
 
 The internal details about offline registration can be viewed [here](https://www.emeditor.com/general/new-validation-system-explained/).
