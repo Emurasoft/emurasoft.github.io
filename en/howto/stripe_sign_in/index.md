@@ -17,10 +17,10 @@ Stripe is the new payment processor for EmEditor.
 You can sign into EmEditor or enter the registration key to register EmEditor.
 
 1. Open EmEditor. Go to **Help** &gt; **About EmEditor**, and click on **How to Purchase/Enter Key**. Click on **Enter Key/Sign in**.
-2.
-    a. Select the **Sign in** option. Sign in with your Emurasoft Customer Center credentials.
-    b. Or, select the **Enter Registration Key** option. Enter your name and the email address used to purchase the subscription. Copy the registration key from [Stripe Subscriptions](https://support.emeditor.com/en/account/subscriptions), and paste it to the **Registration Key** field. (EmEditor v24.5.3 or later is required.)
-3. You can enable <strong>Label device</strong> to label the device for the [Registered Devices](https://support.emeditor.com/en/account/devices) page of Emurasoft Customer Center. Click OK.
+2. Choose between signing in or using a registration key.
+    - Select the **Sign in** option. Sign in with your Emurasoft Customer Center email and password.
+    - Or, select the **Enter Registration Key** option. Enter your name and the email address used to purchase the subscription. Copy the registration key from [Stripe Subscriptions](https://support.emeditor.com/en/account/subscriptions), and paste it to the **Registration Key** field. (EmEditor v24.5.3 or later is required.)
+3. You can enable **Label device** to label the device in the [Registered Devices](https://support.emeditor.com/en/account/devices) page of Emurasoft Customer Center. Click OK.
 
 - You can make changes to your payment information in the [customer portal](https://billing.stripe.com/p/login/14k7w2fK6g9Ca9q9AA).
 
