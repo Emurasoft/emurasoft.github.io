@@ -2,7 +2,7 @@
 
 使用[产品注册对话框](../../dlg/regist/index)进行注册需要互联网连接。
 
-如果您在在线注册过程中遇到错误信息“请求错误：发送请求的 URL… 找不到这样的主机。”，请确保您的防火墙允许 `EmEditor.exe` 通过端口 80 和 443 访问 `support.emeditor.com`。
+如果您在在线注册时遇到错误信息“请求错误：发送请求的 URL… 找不到这样的主机。”，并且您的系统需要特定的代理设置才能访问互联网，您可以在[自定义网络代理](../../dlg/customize/proxy/index)页面上进行配置。
 
 如果您想在没有互联网连接的情况下注册 EmEditor，可以使用离线注册功能。离线注册要求 EmEditor 版本 24.3.0 或更高。
 
@@ -18,6 +18,8 @@ EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
 ```
 
 6. 打开 EmEditor 并查看[注册信息](../../dlg/registration_info/index)，确认离线注册是否成功。授权文件现在可以删除，因为不再需要用它激活 EmEditor。
+
+- 在续订后，您无需再次用离线授权注册。
 
 ## 技术信息
 

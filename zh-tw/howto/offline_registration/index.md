@@ -2,7 +2,7 @@
 
 使用[產品註冊對話方塊](../../dlg/regist/index)進行註冊需要互聯網串連。
 
-如果您在連線註冊過程中遇到錯誤信息「請求錯誤：發送請求的 URL… 找不到這樣的主機。」，請確保您的防火墻允許 `EmEditor.exe` 通過端口 80 和 443 訪問 `support.emeditor.com`。
+如果您在連線註冊時遇到錯誤訊息「請求錯誤：發送請求的 URL… 找不到這樣的主機。」，且您的系統需要特定的代理伺服器設置才能訪問網絡，您可以在[自訂代理伺服器](../../dlg/customize/proxy/index)中進行配置。
 
 如果您想在沒有互聯網串連的情況下註冊 EmEditor，可以使用離線註冊功能。離線註冊要求 EmEditor 版本 24.3.0 或更高。
 
@@ -19,6 +19,8 @@ EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
 ```
 
 6. 打開 EmEditor 並檢視[註冊信息](../../dlg/registration_info/index)，確認離線註冊是否成功。授權檔案現在可以刪除，因為不再需要用它啟動 EmEditor。
+
+- 在您續訂後，無需再次用離線授權注冊。
 
 ## 技術信息
 
