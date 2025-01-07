@@ -14,8 +14,13 @@ Stripe 是 EmEditor 新的支付处理器。通过 Stripe 购买 EmEditor 的订
 
 ## 登录 EmEditor
 
-1. 打开 EmEditor。到 **帮助** &gt; **关于 EmEditor**，点击 **如何购买/输入密钥**。点击 **输入密钥/登录**。
-2. 使用您的 Emurasoft 客户中心凭据登录。最新的订阅将用于注册 EmEditor。
+您可以登录 EmEditor 或输入注册密钥来注册 EmEditor。
+
+1. 打开 EmEditor。进入 **帮助** &gt; **关于 EmEditor**，然后点击 **如何购买/输入密钥**。点击 **输入密钥/登录**。  
+2. 选择登录或使用注册密钥。  
+    - 选择 **登录** 选项。使用 Emurasoft 客户中心的电子邮件和密码登录。  
+    - 或选择 **输入注册密钥** 选项。输入您的姓名和用于购买订阅的电子邮件地址。从 [Stripe 订阅](https://support.emeditor.com/en/account/subscriptions) 复制注册密钥，并将其粘贴到 **注册密钥** 字段。（需要 EmEditor v24.5.3 或更高版本。）  
+3. 您可以启用 **设备标签** 来在 Emurasoft 客户中心的 [注册设备](https://support.emeditor.com/en/account/devices) 页面为设备打标签。点击确定。
 
 - 您可以在 [客户门户](https://billing.stripe.com/p/login/14k7w2fK6g9Ca9q9AA) 中更改您的支付信息。
 

@@ -12,10 +12,15 @@ Stripe 是 EmEditor 新的支付處理器。通過 Stripe 購買 EmEditor 的訂
 
 - 您可以在 [Emurasoft 客戶中心](https://support.emeditor.com/en/account/subscriptions) 管理您的訂閱。
 
-## 登錄 EmEditor
+## 登入 EmEditor
 
-1. 打開 EmEditor。到 **說明** &gt; **關於 EmEditor**，點擊 **如何購買/輸入金鑰**。點擊 **輸入金鑰/登錄**。
-2. 使用您的 Emurasoft 客戶中心憑據登錄。最新的訂閱將用於註冊 EmEditor。
+您可以登入 EmEditor 或輸入註冊密鑰來註冊 EmEditor。
+
+1. 打開 EmEditor。進入 **說明** &gt; **關於 EmEditor**，然後點擊 **如何購買/輸入密鑰**。點擊 **輸入密鑰/登入**。  
+2. 選擇登入或使用註冊密鑰。  
+    - 選擇 **登入** 選項。使用 Emurasoft 客戶中心的電子郵件和密碼登入。  
+    - 或選擇 **輸入註冊密鑰** 選項。輸入您的姓名和用於購買訂閱的電子郵件地址。從 [Stripe 訂閱](https://support.emeditor.com/en/account/subscriptions) 複製註冊密鑰，並將其粘貼到 **註冊密鑰** 欄位。（需要 EmEditor v24.5.3 或更高版本。）  
+3. 您可以啟用 **裝置標籤** 來在 Emurasoft 客戶中心的 [已註冊裝置](https://support.emeditor.com/en/account/devices) 頁面為裝置標籤。點擊確定。
 
 - 您可以在 [客戶門戶](https://billing.stripe.com/p/login/14k7w2fK6g9Ca9q9AA) 中變更您的支付信息。
 
