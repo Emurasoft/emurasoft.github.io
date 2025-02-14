@@ -12,12 +12,12 @@ converted to the specified encoding.
 ## Save Unicode as HTML/XML Character Reference check box
 
 If this box is checked, any Unicode character that cannot be converted to the
-destination code page will be encoded as a numeric entity code such as &#10070;.
+destination code page will be encoded as a numeric entity code such as \&\#10070;.
 
 ## Use Named Entity Reference check box
 
 If this box is checked, any Unicode character that cannot be converted to the
-destination code page will be encoded as the named entity code such as &copy;.
+destination code page will be encoded as the named entity code such as \&copy;.
 This option is available only when Internet Explorer 5.0 or later is installed.
 
 ## Save Tabs as Spaces check box
