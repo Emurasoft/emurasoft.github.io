@@ -1,5 +1,3 @@
 # Q. 如何在安装过程中选择“每个人（所有用户）”？
 
-默认情况下，安装程序中的 **安装类型** 对话框处于禁用状态，您无法选择 **每个人（所有用户）** 选项。 我们建议接受默认的“只为我”安装，因为将来更新会更安全、更容易。但是，如果您在安装 EmEditor 时确实需要选择 **每个人（所有用户）** 选项，则必须在命令行中指定 **MSIINSTALLPERUSER=””** 选项。例如，如果 EmEditor 安装文件是 emed64\_21.1.0.msi，您将需要按 **Win(⊞)+R** 键来调出 **运行** 对话框，然后输入以下命令：
-
-msiexec /i "(...path...)emed64\_21.1.0.msi" MSIINSTALLPERUSER=""
+自版本 v24.2 起，**每个人/所有用户**的安装选项已被弃用。我们现在支持便携版的 `[IniDir]` 选项来设置设定文件夹。您可以在[此页面](https://www.emeditor.com/faq/installation-faq/how-can-the-portable-version-be-shared-by-all-users/)找到有关此选项的更多详细信息。
