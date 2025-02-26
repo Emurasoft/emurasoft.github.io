@@ -44,6 +44,10 @@ Specify the temperature for the AI. The higher this value is, the greater the ra
 
 If you selected the **Generate Image** from the **Output** drop-down list box, you can select the image size to be generated.
 
+## HD check box
+
+If you selected the **Generate Image** from the **Output** drop-down list box, you can also choose to create a high resolution image.
+
 ## Vivid check box
 
 If you selected the **Generate Image** from the **Output** drop-down list box, you can also choose to create a vivid image.

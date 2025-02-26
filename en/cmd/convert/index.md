@@ -43,6 +43,10 @@
 | **[Unicode Normalization Form D (Canonical Decomposition)](../convert/unicode_norm_fd)** | Apply Unicode Normalization Form D (Canonical Decomposition) to the selected string. |
 | **[Unicode Normalization Form KC (Compatibility Composition)](../convert/unicode_norm_fkc)** | Apply Unicode Normalization Form KC (Compatibility Composition) to the selected string. |
 | **[Unicode Normalization Form KD (Compatibility Decomposition)](../convert/unicode_norm_fkd)** | Apply Unicode Normalization Form KD (Compatibility Decomposition) to the selected string. |
+| **[Markdown to HTML](../convert/markdown_to_html)** | Converts the selected text from Markdown to HTML. |
+| **[HTML to Markdown](../convert/html_to_markdown)** | Converts the selected text from HTML to Markdown. |
+| **[Markdown to Plain Text](../convert/markdown_to_text)** | Converts the selected text from Markdown to plain text. |
+| **[HTML to Plain Text](../convert/html_to_text)** | Converts the selected text from HTML to plain text. |
 
 ```{toctree}
 :maxdepth: 1
@@ -88,4 +92,8 @@ unicode_norm_fc
 unicode_norm_fd
 unicode_norm_fkc
 unicode_norm_fkd
+markdown_to_html
+html_to_markdown
+markdown_to_text
+html_to_text
 ```

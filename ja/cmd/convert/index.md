@@ -43,6 +43,10 @@
 | [Unicode正規化形式D (正準分解)](../convert/unicode_norm_fd) | 選択テキストに Unicode正規化形式D (正準分解) を適用します。 |
 | [Unicode正規化形式KC (互換合成)](../convert/unicode_norm_fkc) | 選択テキストに Unicode正規化形式KC (互換合成) を適用します。 |
 | [Unicode正規化形式KD (互換分解)](../convert/unicode_norm_fkd) | 選択テキストに Unicode正規化形式KD (互換分解) を適用します。 |
+| [MarkdownをHTMLに変換](../convert/markdown_to_html) | 選択テキストをMarkdownからHTMLに変換します。 |
+| [HTMLをMarkdownに変換](../convert/html_to_markdown) | 選択テキストをHTMLからMarkdownに変換します。 |
+| [Markdownをプレーン テキストに変換](../convert/markdown_to_text) | 選択テキストをMarkdownからプレーン テキストに変換します。 |
+| [HTMLをプレーン テキストに変換](../convert/html_to_text) | 選択テキストをHTMLからプレーン テキストに変換します。 |
 
 ```{toctree}
 :maxdepth: 1
@@ -88,4 +92,8 @@ unicode_norm_fc
 unicode_norm_fd
 unicode_norm_fkc
 unicode_norm_fkd
+markdown_to_html
+html_to_markdown
+markdown_to_text
+html_to_text
 ```

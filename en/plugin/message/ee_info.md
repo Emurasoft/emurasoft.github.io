@@ -137,6 +137,9 @@ Specifies a parameter to retrieve or set. This parameter can be one of the value
 | EI\_SET\_TITLE | Sets the title of the current document. The title may contain long and short titles separated by a linefeed (\\n). | (LPCWSTR)pszTitle<br> Specifies a new title. | (HRESULT)hr<br>Returns a negative value if failed. |
 | EI\_SET\_WEB | Sets the flags of the Web Browser. | (UINT)nFlags<br> Specifies a new flag. | Not used. |
 | EI\_OPEN\_WEB | Opens a website of the specified URL. | (LPCWSTR)pszURL<br> Specifies an URL. | (HRESULT)hWnd<br>Returns the window handle to the web view. |
+| EI\_GET\_MARKDOWN\_PREVIEW | Retrieves whether the Markdown Design View is set. | Not used. | (BOOL)bMarkdownPreview<br> Markdown Design View if TRUE |
+| EI\_SET\_MARKDOWN\_PREVIEW | Toggles the Markdown Design View | (BOOL)bMarkdownPreview<br> Markdown Design View if TRUE | Not used. |
+| EI\_IS\_CHATAI\_INSTALLED | Retrieves whether the ChatAI plug-in is installed. | Not used. | (BOOL)bInstalled<br> Markdown Design View if TRUE |
 
 _iDoc_
 

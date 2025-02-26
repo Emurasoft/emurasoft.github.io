@@ -134,6 +134,9 @@ _nCmd_
 | EI\_SET\_TITLE | 現在の文書のタイトルを設定します。タイトルには長いタイトルと短いタイトルを LF (\\n) で区切って指定することができます。 | (LPCWSTR)pszTitle<br>新しいタイトルを指定します。 | (HRESULT)hr<br>失敗すると負の値を返します。 |
 | EI\_SET\_WEB | Webブラウザのフラグを設定します。 | (UINT)nFlags<br> 新しいフラグを指定します。 | 使用されません。 |
 | EI\_OPEN\_WEB | 指定する URL の Webサイトを開きます。 | (LPCWSTR)pszURL<br> URL を指定します。 | (HRESULT)hWnd<br>Webビューのウィンドウ ハンドルを返します。 |
+| EI\_GET\_MARKDOWN\_PREVIEW | Markdown デザイン ビューかどうかを取得します。 | 使用されません。 | (BOOL)bMarkdownPreview<br> TRUEなら Markdown デザイン ビューになります。 |
+| EI\_SET\_MARKDOWN\_PREVIEW | Markdown デザイン ビューを設定または解除します。 | (BOOL)bMarkdownPreview<br> TRUEなら Markdown デザイン ビューになります。 | 使用されません。 |
+| EI\_IS\_CHATAI\_INSTALLED | ChatAI プラグインがインストールされているかどうかを取得します。 | 使用されません。 | (BOOL)bInstalled<br> TRUEならインストールされています。 |
 
 _iDoc_
 
