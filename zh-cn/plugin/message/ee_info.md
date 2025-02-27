@@ -135,7 +135,10 @@ _nCmd_
 | EI\_GET\_TITLE | 检索当前文档的标题。 | (STRING\_BUF\*)pStringBuf<br> 指定指针指向一个检索标题的 [STRING\_BUF](../structure/string_buf) 结构。 | 不使用。 |
 | EI\_SET\_TITLE | 设置当前文档的标题。标题可能包含由换行符 (\\n) 分隔的长标题和短标题。 | (LPCWSTR)pszTitle<br> 指定一个新标题。 | (HRESULT)hr<br>如果失败，则返回负值。 |
 | EI\_SET\_WEB | 设置网页浏览器的标志。 | (UINT)nFlags<br> 指定一个新标志。 | 不使用。 |
-| EI\_OPEN\_WEB | 打开指定 URL 的网站。 | (LPCWSTR)pszURL<br> 指定一个 URL。 | (HRESULT)hWnd<br>返回网页视图的窗口句柄。 |
+| EI\_OPEN\_WEB | 打开指定 URL 的网站。 | (LPCWSTR)pszURL<br> 指定一个 URL。 | (HRESULT)hWnd<br> 返回网页视图的窗口句柄。 |
+| EI\_GET\_MARKDOWN\_PREVIEW | 检索是否设置了 Markdown 设计视图。 | 不使用。 | (BOOL)bMarkdownPreview<br> 如果为 TRUE，则是 Markdown 设计视图 |
+| EI\_SET\_MARKDOWN\_PREVIEW | 切换 Markdown 设计视图 | (BOOL)bMarkdownPreview<br> 如果为 TRUE，则是 Markdown 设计视图 | 不使用。 |
+| EI\_IS\_CHATAI\_INSTALLED | 检索是否安装了 ChatAI 插件。 | 不使用。 | (BOOL)bInstalled<br> 如果为 TRUE，则是 Markdown 设计视图 |
 
 _iDoc_
 

@@ -43,6 +43,10 @@
 | **[Unicode 标准化表单 D（规范分解）](../convert/unicode_norm_fd)** | 将 Unicode 标准化表单 D（规范分解）应用于所选字符串。 |
 | **[Unicode 标准化表单 KC（兼容性组成）](../convert/unicode_norm_fkc)** | 将 Unicode 标准化表单 KC（兼容性组成）应用于所选字符串。 |
 | **[Unicode 标准化表单 KD（兼容性分解）](../convert/unicode_norm_fkd)** | 将 Unicode 标准化表单 KD（兼容性分解）应用于所选字符串。 |
+| **[Markdown 转 HTML](../convert/markdown_to_html)** | 将选取的文本从 Markdown 转换为 HTML。 |
+| **[HTML 转 Markdown](../convert/html_to_markdown)** | 将选取的文本从 HTML 转换为 Markdown。 |
+| **[Markdown 转纯文本](../convert/markdown_to_text)** | 将选取的文本从 Markdown 转换为纯文本。 |
+| **[HTML 转纯文本](../convert/html_to_text)** | 将选取的文本从 HTML 转换为纯文本。 |
 
 ```{toctree}
 :maxdepth: 1
@@ -88,4 +92,8 @@ unicode_norm_fc
 unicode_norm_fd
 unicode_norm_fkc
 unicode_norm_fkd
+markdown_to_html
+html_to_markdown
+markdown_to_text
+html_to_text
 ```
