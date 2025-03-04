@@ -1,5 +1,5 @@
 ```
-HTML Validator
+### HTML Validator
 
 --- IMPORTANT - LICENSE AGREEMENT ---
 
@@ -157,7 +157,7 @@ UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, TORT, CONTRACT, OR OTHERWISE, 
 
 This agreement shall be governed by the laws of the state of Texas.
 
-Hunspell
+### Hunspell
 
 /* ***** BEGIN LICENSE BLOCK *****
  * Version: MPL 1.1/GPL 2.0/LGPL 2.1
@@ -214,8 +214,7 @@ Hunspell
  *
  * ***** END LICENSE BLOCK ***** */
 
-Onigmo (Oniguruma-mod) LICENSE
-------------------------------
+### Onigmo
 
 /*-
  * Copyright (c) 2002-2009  K.Kosako  <sndgk393 AT ybb DOT ne DOT jp>
@@ -298,7 +297,7 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
-uchardet
+### uchardet
 
 https://github.com/BYVoid/uchardet
 
@@ -1619,7 +1618,7 @@ necessary.  Here is a sample; alter the names:
 
 That's all there is to it!
 
-libgit2
+### libgit2
 
  libgit2 is Copyright (C) the libgit2 contributors,
  unless otherwise stated. See the AUTHORS file for details.
@@ -2925,7 +2924,55 @@ If the Work includes a "NOTICE" text file as part of its distribution, then any 
 
 END OF TERMS AND CONDITIONS
 
-node
+### md4c
+
+Copyright © 2016-2024 Martin Mitáš
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the “Software”),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+
+### html2md
+
+MIT License
+
+Copyright (c) 2020 suntong
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## LSP libraries
+
+### node
 
 Node.js is licensed for use as follows:
 
@@ -5092,7 +5139,7 @@ The externally maintained libraries used by Node.js are:
     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   """
 
-typescript
+### typescript
 
 Apache License
 
@@ -5150,7 +5197,7 @@ If the Work includes a "NOTICE" text file as part of its distribution, then any 
 
 END OF TERMS AND CONDITIONS
 
-typescript-language-server
+### typescript-language-server
 
 Parts of the code copied from the https://github.com/microsoft/vscode repository are licensed under the following license:
 
@@ -5393,7 +5440,7 @@ The rest of the code licensed under:
    See the License for the specific language governing permissions and
    limitations under the License.
 
-Markdown
+### Markdown
 
 Copyright © 2004, John Gruber
 http://daringfireball.net/
@@ -5407,12 +5454,12 @@ Redistribution and use in source and binary forms, with or without modification,
 
 This software is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
 
-Git logo
+### Git logo
 
 Adapted from https://git-scm.com/downloads/logos By Jason Long
 Licensed under CC BY 3.0 https://creativecommons.org/licenses/by/3.0/
 
-fluentui-system-icons
+### fluentui-system-icons
 
 MIT License
 
