@@ -11,7 +11,7 @@ Displays the [**AI Assist** page](../../dlg/properties/ai_assist/index) of the *
 ## How to Run
 
 - Default Menu: **AI** \> **AI Assist Properties**
-- [All Commands](all_commands): **AI** \> **AI Assist Properties**
+- [All Commands](../tools/all_commands): **AI** \> **AI Assist Properties**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

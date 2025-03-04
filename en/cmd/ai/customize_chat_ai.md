@@ -12,7 +12,7 @@ where you can define common application settings.
 ## How to Run
 
 - Default Menu: **AI** > **Customize** > **Chat with AI**
-- [All Commands](all_commands): **AI** > **Customize** > **Chat with AI**
+- [All Commands](../tools/all_commands): **AI** > **Customize** > **Chat with AI**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

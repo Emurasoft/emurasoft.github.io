@@ -11,7 +11,7 @@ This command consists of multiple menu items. You can run this command to ask an
 ## How to Run
 
 - Default Menu: **AI** \> **(AI prompt)**
-- [All Commands](all_commands): **AI** \> **(AI prompt)**
+- [All Commands](../tools/all_commands): **AI** \> **(AI prompt)**
 - Toolbar: Each button on the AI toolbar
 - Status Bar: None
 - Default Shortcut Key: None

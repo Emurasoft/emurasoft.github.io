@@ -12,7 +12,7 @@ where you can define common application settings.
 ## How to Run
 
 - Default Menu: **AI** > **Customize** > **AI Options**
-- [All Commands](all_commands): **AI** > **Customize** > **AI Options**
+- [All Commands](../tools/all_commands): **AI** > **Customize** > **AI Options**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

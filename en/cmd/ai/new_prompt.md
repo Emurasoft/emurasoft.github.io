@@ -11,7 +11,7 @@ Displays the [**New Prompt** dialog box](../../dlg/new_prompt/index) to create a
 ## How to Run
 
 - Default Menu: **AI** \> **New Prompt**
-- [All Commands](all_commands): **AI** \> **New Prompt**
+- [All Commands](../tools/all_commands): **AI** \> **New Prompt**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
