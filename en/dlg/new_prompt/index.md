@@ -1,6 +1,6 @@
 # New Prompt dialog box
 
-This dialog box appears when the [**New Prompt** command](../../cmd/tools/new_prompt) is selected. Here, you can enter a new prompt to ask the AI.
+This dialog box appears when the [**New Prompt** command](../../cmd/ai/new_prompt) is selected. Here, you can enter a new prompt to ask the AI.
 
 ## Copy from list box
 
