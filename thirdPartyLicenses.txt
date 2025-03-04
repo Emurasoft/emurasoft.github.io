@@ -2948,7 +2948,7 @@ IN THE SOFTWARE.
 
 ## LSP libraries
 
-node
+### node
 
 Node.js is licensed for use as follows:
 
@@ -5115,7 +5115,7 @@ The externally maintained libraries used by Node.js are:
     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   """
 
-typescript
+### typescript
 
 Apache License
 
@@ -5173,7 +5173,7 @@ If the Work includes a "NOTICE" text file as part of its distribution, then any 
 
 END OF TERMS AND CONDITIONS
 
-typescript-language-server
+### typescript-language-server
 
 Parts of the code copied from the https://github.com/microsoft/vscode repository are licensed under the following license:
 
@@ -5416,7 +5416,7 @@ The rest of the code licensed under:
    See the License for the specific language governing permissions and
    limitations under the License.
 
-Markdown
+### Markdown
 
 Copyright © 2004, John Gruber
 http://daringfireball.net/
@@ -5430,12 +5430,12 @@ Redistribution and use in source and binary forms, with or without modification,
 
 This software is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
 
-Git logo
+### Git logo
 
 Adapted from https://git-scm.com/downloads/logos By Jason Long
 Licensed under CC BY 3.0 https://creativecommons.org/licenses/by/3.0/
 
-fluentui-system-icons
+### fluentui-system-icons
 
 MIT License
 
