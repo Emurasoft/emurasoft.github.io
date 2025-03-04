@@ -17,7 +17,6 @@
 | [アウトプットのクリア](output_clear) | アウトプット バーの中身を消去します。 |
 | [ショートカット キーを有効にする (アウトプット バー)](toggle_output_shortcuts) | アウトプット バーでショートカット キーの有効と無効を切り替えます。 |
 | [ウィンドウの右端で折り返し (アウトプット バー)](toggle_output_wrap) | アウトプット バーで行をウィンドウの右端で折り返します。 |
-| [AIとチャット](view_chat_ai) | AIとチャット バーの表示/非表示を切り替えます。 |
 | [構文チェック バー](toggle_validation_bar) | 構文チェック バーの表示/非表示を切り替えます。 |
 | [巨大ファイル コントローラー](large_file_bar) | 巨大ファイル コントローラーの表示/非表示を切り替えます。 |
 | [アウトライン バーとガイド](outline_bar_guide) | アウトライン バーとガイドの表示/非表示を切り替えます。 |
@@ -36,7 +35,6 @@
 | [検索ツール バー](show_find_bar) | 検索ツール バーの表示/非表示を切り替えます。 |
 | [セル ツール バー](show_cell_bar) | セル ツール バーの表示/非表示を切り替えます。 |
 | [お気に入りツール バー](show_favorites_bar) | お気に入りツール バーの表示/非表示を切り替えます。 |
-| [AI ツール バー](show_ai_bar) | AI ツール バーの表示/非表示を切り替えます。 |
 | [Markdown ツール バー](show_markdown_bar) | Markdown ツール バーの表示/非表示を切り替えます。 |
 | [セル ツール バー オプション (ポップアップ)](cell_bar_options) | セル ツール バーに関するオプションを設定するポップアップ メニューを表示します。 |
 | [セル ツール バーを自動的に表示/非表示を切り替える](auto_show_hide_cell_bar) | セル ツール バーを自動的に表示/非表示を切り替えます。 |
@@ -163,7 +161,6 @@ set_default_font_size
 show_bar_title
 show_cell_bar
 show_favorites_bar
-show_ai_bar
 show_markdown_bar
 show_filter_bar
 show_find_bar
@@ -199,7 +196,6 @@ view_indent_guides
 view_line_numbers
 view_marks
 view_output
-view_chat_ai
 view_return
 view_ruler
 view_space

@@ -35,9 +35,6 @@
 | **[自訂優化](customize_optimization)** | 打開自訂對話方塊中的優化頁面。 |
 | **[自訂語法檢查](customize_validation)** | 打開自訂對話方塊中的語法檢查頁面。 |
 | **[自訂網頁瀏覽器](customize_web)** | 打開自訂對話方塊中的網頁瀏覽器頁面。 |
-| **[自訂 AI 提示](customize_ai_list)** | 打開自訂對話方塊中的 AI 提示頁面。 |
-| **[自訂 AI 選項](customize_ai)** | 打開自訂對話方塊中的 AI 選項頁面。 |
-| **[自訂與 AI 聊天](customize_chat_ai)** | 打開自訂對話方塊中的與 AI 聊天頁面。 |
 | **[自訂我的最愛](customize_favorites)** | 打開自訂對話方塊中的我的最愛頁面。 |
 | **[自訂 Markdown](customize_markdown)** | 打開自訂對話方塊中的 Markdown 頁面。 |
 | **[自訂通知](customize_notifications)** | 打開自訂對話方塊中的通知頁面。 |
@@ -66,7 +63,6 @@
 | **[語法檢查屬性](property_validation)** | 目前的組態的語法檢查屬性。 |
 | **[字元檢查屬性](property_char_check)** | 目前的組態的字元檢查屬性。 |
 | **[語言伺服器屬性](property_language_server)** | 目前的組態的語言伺服器屬性。 |
-| **[AI 助理属性](property_ai_assist)** | 目前的組態的 AI 助理屬性。 |
 | **[Tab/縮排屬性](property_indent)** | 目前的組態的 Tab/縮排屬性。 |
 | **[新增檔案詳細信息屬性](property_file_new)** | 目前的組態的新增檔案詳細信息屬性。 |
 | **[儲存檔案詳細信息屬性](property_file_save)** | 目前的組態的儲存檔案詳細信息屬性。 |
@@ -93,8 +89,6 @@
 | **[導入導出精靈](import_export)** | 顯示一個精靈來從檔案中導入設置或導出目前的設置到一個檔案中。 |
 | **[自訂工具](customize_tools)** | 自訂外部工具。 |
 | [**終止工具任務**](terminate_tool) | 終止目前的正在運行的工具任務。 |
-| **[新提示](new_prompt)** | 輸入一個新提示來詢問 AI。 |
-| **[AI 提示](ai_item1)** | 詢問指定的 AI 提示(多個項目)。 |
 | **[分割檔案](split_to_files)** | 將目前的文件或一個檔案分割並儲存為多個檔案。 |
 | **[合併檔案](combine_files)** | 將打開的文檔合併至一個檔案。 |
 | **[重設所有設定](reset_all_settings)** | 重設所有 EmEditor 設置并重啟 EmEditor。 |
@@ -116,9 +110,6 @@ context_menu
 customize
 customize_active_string
 customize_advanced
-customize_ai
-customize_ai_list
-customize_chat_ai
 customize_clipboard
 customize_csv_options
 customize_edit
@@ -166,7 +157,6 @@ delete_old_settings
 file_associate
 import_export
 plug_in1
-property_ai_assist
 property_auto_save
 property_backup
 property_char_check
@@ -197,8 +187,6 @@ select_config
 split_to_files
 start_window
 terminate_tool
-new_prompt
-ai_item1
 tool1
 user_menu1
 user_menu2

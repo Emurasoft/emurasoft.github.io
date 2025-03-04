@@ -15,6 +15,7 @@ sort/index
 diff/index
 macros/index
 tools/index
+ai/index
 plugins/index
 external_tools/index
 window/index

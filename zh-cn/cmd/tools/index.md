@@ -35,9 +35,6 @@
 | **[自定义优化](customize_optimization)** | 打开自定义对话框中的优化页面。 |
 | **[自定义语法检查](customize_validation)** | 打开自定义对话框中的语法检查页面。 |
 | **[自定义网页浏览器](customize_web)** | 打开自定义对话框中的网页浏览器页面。 |
-| **[自定义 AI 提示](customize_ai_list)** | 打开自定义对话框中的 AI 提示页面。 |
-| **[自定义 AI 选项](customize_ai)** | 打开自定义对话框中的 AI 选项页面。 |
-| **[自定义与 AI 聊天](customize_chat_ai)** | 打开自定义对话框中的与 AI 聊天页面。 |
 | **[自定义收藏夹](customize_favorites)** | 打开自定义对话框中的收藏夹页面。 |
 | **[自定义 Markdown](customize_markdown)** | 打开自定义对话框中的 Markdown 页面。 |
 | **[自定义通知](customize_notifications)** | 打开自定义对话框中的通知页面。 |
@@ -66,7 +63,6 @@
 | **[语法检查属性](property_validation)** | 当前配置的语法检查属性。 |
 | **[字符检查属性](property_char_check)** | 当前配置的字符检查属性。 |
 | **[语言服务器属性](property_language_server)** | 当前配置的语言服务器属性。 |
-| **[AI 辅助属性](property_ai_assist)** | 当前配置的 AI 辅助属性。 |
 | **[制表符/缩进属性](property_indent)** | 当前配置的制表符/缩进属性。 |
 | **[新建文件详细信息属性](property_file_new)** | 当前配置的新建文件详细信息属性。 |
 | **[保存文件详细信息属性](property_file_save)** | 当前配置的保存文件详细信息属性。 |
@@ -93,8 +89,6 @@
 | **[导入导出向导](import_export)** | 显示一个向导来从文件中导入设置或导出当前设置到一个文件中。 |
 | **[自定义工具](customize_tools)** | 自定义外部工具。 |
 | **[终止工具任务](terminate_tool)** | 终止当前正在运行的工具任务。 |
-| **[新提示](new_prompt)** | 输入一个新提示来询问 AI。 |
-| **[AI 提示](ai_item1)** | 询问指定的 AI 提示(多个项目)。 |
 | **[分割文件](split_to_files)** | 将当前文档或指定文件分割并保存为多个文件。 |
 | **[合并文件](combine_files)** | 将打开的文档合并至一个文件。 |
 | **[重置所有设定](reset_all_settings)** | 重置所有 EmEditor 设置并重启 EmEditor。 |
@@ -116,9 +110,6 @@ context_menu
 customize
 customize_active_string
 customize_advanced
-customize_ai
-customize_ai_list
-customize_chat_ai
 customize_clipboard
 customize_csv_options
 customize_edit
@@ -166,7 +157,6 @@ delete_old_settings
 file_associate
 import_export
 plug_in1
-property_ai_assist
 property_auto_save
 property_backup
 property_char_check
@@ -197,8 +187,6 @@ select_config
 split_to_files
 start_window
 terminate_tool
-new_prompt
-ai_item1
 tool1
 user_menu1
 user_menu2

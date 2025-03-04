@@ -36,9 +36,6 @@
 | [最適化のカスタマイズ](customize_optimization) | \[カスタマイズ\] ダイアログ ボックスの \[最適化\] ページを開きます。 |
 | [構文チェックのカスタマイズ](customize_validation) | \[カスタマイズ\] ダイアログ ボックスの \[構文チェック\] ページを開きます。 |
 | [Webブラウザのカスタマイズ](customize_web) | \[カスタマイズ\] ダイアログ ボックスの \[Webブラウザ\] ページを開きます。 |
-| [AIプロンプトのカスタマイズ](customize_ai_list) | \[カスタマイズ\] ダイアログ ボックスの \[AIプロンプト\] ページを開きます。 |
-| [AIオプションのカスタマイズ](customize_ai) | \[カスタマイズ\] ダイアログ ボックスの \[AIオプション\] ページを開きます。 |
-| [AIとチャットのカスタマイズ](customize_chat_ai) | \[カスタマイズ\] ダイアログ ボックスの \[AIとチャット\] ページを開きます。 |
 | [お気に入りのカスタマイズ](customize_favorites) | \[カスタマイズ\] ダイアログ ボックスの \[お気に入り\] ページを開きます。 |
 | [Markdownのカスタマイズ](customize_markdown) | \[カスタマイズ\] ダイアログ ボックスの \[Markdown\] ページを開きます。 |
 | [通知のカスタマイズ](customize_notifications) | \[カスタマイズ\] ダイアログ ボックスの \[通知\] ページを開きます。 |
@@ -67,7 +64,6 @@
 | [構文チェックのプロパティ](property_validation) | 現在の設定の構文チェックのプロパティを変更します。 |
 | [文字チェックのプロパティ](property_char_check) | 現在の設定の文字チェックのプロパティを変更します。 |
 | [言語サーバーのプロパティ](property_language_server) | 現在の設定の言語サーバーのプロパティを変更します。 |
-| [AI支援のプロパティ](property_ai_assist) | 現在の設定のAI支援のプロパティを変更します。 |
 | [タブ/インデントのプロパティ](property_indent) | 現在の設定のタブ/インデントのプロパティを変更します。 |
 | [ファイル新規作成時の詳細のプロパティ](property_file_new) | 現在の設定のファイル新規作成時の詳細のプロパティを変更します。 |
 | [ファイル保存時の詳細のプロパティ](property_file_save) | 現在の設定のファイル保存時の詳細のプロパティを変更します。 |
@@ -94,8 +90,6 @@
 | [インポートとエクスポート](import_export) | ウィザードを表示してファイルから設定をインポートしたりファイルに現在の設定をエクスポートします。 |
 | [外部ツールの設定](customize_tools) | 外部ツールを設定します。 |
 | [ツール ジョブの中止](terminate_tool) | 現在実行されているツール ジョブを中止します。 |
-| [プロンプトの新規作成](new_prompt) | AI に質問する新しいプロンプトを入力します。 |
-| [AIプロンプト](ai_item1) | 指定する AI プロンプトで質問します (複数項目)。 |
 | [ファイルを分割](split_to_files) | 現在の文書または既存のファイルを分割して複数のファイルに保存します。 |
 | [ファイルを結合](combine_files) | 開いている複数文書または既存のファイルを1個のファイルに結合します。 |
 | [すべての設定をリセット](reset_all_settings) | EmEditor のすべての設定をリセットして、EmEditor を再起動します。 |
@@ -116,9 +110,6 @@ context_menu
 customize
 customize_active_string
 customize_advanced
-customize_ai
-customize_ai_list
-customize_chat_ai
 customize_clipboard
 customize_csv_options
 customize_edit
@@ -166,7 +157,6 @@ delete_old_settings
 file_associate
 import_export
 plug_in1
-property_ai_assist
 property_auto_save
 property_backup
 property_char_check
@@ -197,8 +187,6 @@ select_config
 split_to_files
 start_window
 terminate_tool
-new_prompt
-ai_item1
 tool1
 user_menu1
 user_menu2

@@ -16,7 +16,6 @@
 | **[清空输出栏窗口](output_clear)** | 清除输出栏窗口中的内容。 |
 | **[启用快捷键 (输出栏)](toggle_output_shortcuts)** | 启用或停用输出栏内的快捷键。 |
 | **[按窗口换行 (输出栏)](toggle_output_wrap)** | 在输出栏中按窗口大小换行。 |
-| **[与 AI 聊天](view_chat_ai)** | 显示或隐藏与 AI 聊天栏。 |
 | **[语法检查器](toggle_validation_bar)** | 显示语法检查器栏并检查语法，或隐藏语法检查器栏。 |
 | [**切换大文件控制器**](large_file_bar) | 显示或隐藏大文件控制器。 |
 | [**切换大纲栏和向导**](outline_bar_guide) | 显示或隐藏大纲栏和大纲导航。 |
@@ -36,7 +35,6 @@
 | **[查找工具栏](show_find_bar)** | 显示或隐藏查找工具栏。 |
 | **[单元格工具栏](show_cell_bar)** | 显示或隐藏单元格工具栏。 |
 | **[收藏夹工具栏](show_favorites_bar)** | 显示或隐藏收藏夹工具栏。 |
-| **[AI 工具栏](show_ai_bar)** | 显示或隐藏 AI 工具栏。 |
 | **[Markdown 工具栏](show_markdown_bar)** | 显示或隐藏 Markdown 工具栏。 |
 | **[单元格工具栏选项（弹出）](cell_bar_options)** | 显示一个弹出菜单为单元格工具栏设置选项。 |
 | **[自动显示/隐藏单元格工具栏](auto_show_hide_cell_bar)** | 自动显示或隐藏单元格工具栏。 |
@@ -162,7 +160,6 @@ set_default_font_size
 show_bar_title
 show_cell_bar
 show_favorites_bar
-show_ai_bar
 show_markdown_bar
 show_filter_bar
 show_find_bar
@@ -198,7 +195,6 @@ view_indent_guides
 view_line_numbers
 view_marks
 view_output
-view_chat_ai
 view_return
 view_ruler
 view_space

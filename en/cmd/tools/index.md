@@ -22,7 +22,6 @@
 | **[Syntax Check Properties](property_validation)** | Syntax Check properties for current configuration. |
 | **[Character Check Properties](property_char_check)** | Character Check properties for current configuration. |
 | **[Language Server Properties](property_language_server)** | Language Server properties for current configuration. |
-| **[AI Assist Properties](property_ai_assist)** | AI Assist properties for current configuration. |
 | **[Tab/Indent Properties](property_indent)** | Tab/Indent properties for current configuration. |
 | **[New File Details Properties](property_file_new)** | New File Details properties for current configuration. |
 | **[Save File Details Properties](property_file_save)** | Save File Details properties for current configuration. |
@@ -59,9 +58,6 @@
 | **[Customize Optimization](customize_optimization)** | Opens the Optimization page of the Customize dialog box. |
 | **[Customize Syntax Check](customize_validation)** | Opens the Syntax Check page of the Customize dialog box. |
 | **[Customize Web Browser](customize_web)** | Opens the Web Browser page of the Customize dialog box. |
-| **[Customize AI Prompts](customize_ai_list)** | Opens the AI Prompts page of the Customize dialog box. |
-| **[Customize AI Options](customize_ai)** | Opens the AI Options page of the Customize dialog box. |
-| **[Customize Chat with AI](customize_chat_ai)** | Opens the Chat with AI page of the Customize dialog box. |
 | **[Customize Favorites](customize_favorites)** | Opens the Favorites page of the Customize dialog box. |
 | **[Customize Markdown](customize_markdown)** | Opens the Markdown page of the Customize dialog box. |
 | **[Customize Notifications](customize_notifications)** | Opens the Notifications page of the Customize dialog box. |
@@ -94,8 +90,6 @@
 | **[Import and Export](import_export)** | Displays a Wizard to import settings from a file or to export current settings into a file. |
 | **[Customize Tools](customize_tools)** | Customizes external tools. |
 | **[Terminate Tool Job](terminate_tool)** | Terminates the currently running tool job. |
-| **[New Prompt](new_prompt)** | Enters a new prompt to ask AI. |
-| **[AI Prompts](ai_item1)** | Asks a specified AI prompt (multiple items). |
 | **[Split a File](split_to_files)** | Splits the current document or an existing file and saves as several files. |
 | **[Combine Files](combine_files)** | Combines open documents into a single file. |
 | **[Reset All Settings](reset_all_settings)** | Resets all EmEditor settings and restarts EmEditor. |
@@ -116,9 +110,6 @@ context_menu
 customize
 customize_active_string
 customize_advanced
-customize_ai
-customize_ai_list
-customize_chat_ai
 customize_clipboard
 customize_csv_options
 customize_edit
@@ -166,7 +157,6 @@ delete_old_settings
 file_associate
 import_export
 plug_in1
-property_ai_assist
 property_auto_save
 property_backup
 property_char_check
@@ -197,8 +187,6 @@ select_config
 split_to_files
 start_window
 terminate_tool
-new_prompt
-ai_item1
 tool1
 user_menu1
 user_menu2
