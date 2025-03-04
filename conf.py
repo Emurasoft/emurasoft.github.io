@@ -19,7 +19,10 @@ html_copy_source = False
 html_favicon = '_static/favicon.ico'
 sitemap_locales = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw']
 highlight_language = 'none'
-suppress_warnings = ['image.not_readable']
+suppress_warnings = [
+    'image.not_readable',
+    'myst.header',
+]
 navigation_depth = 2
 html_theme_path = ['_themes']
 html_theme = 'piccolo_theme'
