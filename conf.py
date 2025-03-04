@@ -21,7 +21,7 @@ sitemap_locales = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw']
 highlight_language = 'none'
 suppress_warnings = [
     'image.not_readable',
-    ("myst.header", "thirdPartyLicenses.txt.rst"),
+    'myst.header',
 ]
 navigation_depth = 2
 html_theme_path = ['_themes']
