@@ -4,7 +4,7 @@
 
 ## \[AI を有効にする\] チェック ボックス
 
-[OpenAI](https://openai.com/) を使用した執筆支援を有効にします。本オプションを有効にした後、さらに、各設定のプロパティの [\[基本\]](../../properties/general/index) ページの [AIによる支援執筆] チェック ボックスを設定する必要があります。本機能を使用するには、[OpenAI API キー](https://platform.openai.com/api-keys)が必要です。
+[OpenAI](https://openai.com/) を使用した執筆支援を有効にします。本オプションを有効にした後、さらに、各設定のプロパティの [\[AI支援\]](../../properties/ai_assist/index) ページの [AIによる支援執筆] チェック ボックスを設定する必要があります。本機能を使用するには、[OpenAI API キー](https://platform.openai.com/api-keys)が必要です。
 
 ## \['OPENAI_API_KEY' 環境変数を使用する\] チェック ボックス
 
@@ -26,3 +26,6 @@ EmEditor の全ての AI 関連機能、[AI 支援執筆] 機能、AI マクロ�
 
 設定を既定にします。
 
+## 注
+
+このページは、ChatAI プラグインがインストールされ有効になっている場合だけ、利用可能です。

@@ -63,3 +63,7 @@ Ask a question immediately with the current settings.
 ## Reset button
 
 Reset the settings to default.
+
+## Notes
+
+This page is available only when the **ChatAI** plugin is installed and enabled.

@@ -26,3 +26,6 @@ Use this slider to adjust the output length. Longer output text results in more 
 
 Resets to default settings. The [**Reset** dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
 
+## Notes
+
+This page is available only when the **ChatAI** plugin is installed and enabled.

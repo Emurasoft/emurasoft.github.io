@@ -4,7 +4,7 @@ The **AI Options** page allows you to customize settings related to AI.
 
 ## Enable AI check box
 
-Enable writing assistance using [**OpenAI**](https://openai.com/) in EmEditor. You must also set the **AI assisted writing** check box in the [**General**](../../properties/general/index) page of each configuration's properties after enabling this option. The feature requires an [**OpenAI API key**](https://platform.openai.com/api-keys) to use.
+Enable writing assistance using [**OpenAI**](https://openai.com/) in EmEditor. You must also set the **Enable AI assisted writing** check box in the [**AI Assist**](../../properties/ai_assist/index) page of each configuration's properties after enabling this option. The feature requires an [**OpenAI API key**](https://platform.openai.com/api-keys) to use.
 
 ## Use 'OPENAI_API_KEY' environment variable
 
@@ -26,3 +26,6 @@ Prohibits all AI related features in EmEditor, including the **AI assisted writi
 
 Resets to default settings.
 
+## Notes
+
+This page is available only when the **ChatAI** plugin is installed and enabled.

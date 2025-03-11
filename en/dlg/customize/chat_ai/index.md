@@ -21,3 +21,7 @@ Specify whether to save a log file of Chat with AI. If you choose to save, you c
 ## Reset button
 
 Reset the settings to default.
+
+## Notes
+
+This page is available only when the **ChatAI** plugin is installed and enabled.
