@@ -18,6 +18,8 @@ Offline registration uses a license file during registration. The license file i
 EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
 ```
 
+- You may use `/ola` instead of `/ol` if you need to register EmEditor per computer (administrative permissions are required).
+
 6. Open EmEditor and view [Registration Information](../../dlg/registration_info/index) to confirm that offline registration was successful. The license file can be deleted now as it is no longer needed to use EmEditor.
 
 - You do not need to register with the offline license again after you renew your subscription.
