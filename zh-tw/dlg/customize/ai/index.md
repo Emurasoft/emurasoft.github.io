@@ -4,7 +4,7 @@
 
 ## 「啟用 AI」核取方塊
 
-在 EmEditor 中可以用 [**OpenAI**](https://openai.com/) 來輔助寫作。要啟用此功能，您必須在每個組態屬性的 [**常規**](../../properties/general/index) 頁面中勾選 **AI 輔助寫作** 核取方塊。該功能需要 [**OpenAI API 金鑰**](https://platform.openai.com/api-keys) 才能使用。
+在 EmEditor 中啟用使用 [**OpenAI**](https://openai.com/) 的寫作輔助。啟用此選項後，還必須在每個組態屬性的 [**AI 助理**](../../properties/ai_assist/index) 頁面中勾選 **啟用 AI 協助寫作** 核取方塊。此功能需要 [**OpenAI API 金鑰**](https://platform.openai.com/api-keys) 才能使用。
 
 ## 「使用 'OPENAI_API_KEY' 環境變數」核取方塊
 
@@ -26,3 +26,6 @@
 
 重設為預設設定。
 
+## 註意
+
+僅當安裝並啟用了 **ChatAI** 外掛程式時，此頁面才可用。

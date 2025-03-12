@@ -17,6 +17,8 @@
 EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
 ```
 
+- 您可以使用 `/ola` 代替 `/ol`，如果您需要按计算机注册 EmEditor（需要管理员权限）。
+
 6. 打开 EmEditor 并查看[注册信息](../../dlg/registration_info/index)，确认离线注册是否成功。授权文件现在可以删除，因为不再需要用它激活 EmEditor。
 
 - 在续订后，您无需再次用离线授权注册。
@@ -24,3 +26,4 @@ EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
 ## 技术信息
 
 关于离线注册的内部细节可以[在这里](https://www.emeditor.com/general/new-validation-system-explained/)查看。
+

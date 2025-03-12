@@ -18,6 +18,8 @@
 EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
 ```
 
+- 您可以使用 `/ola` 代替 `/ol`，如果您需要按電腦註冊 EmEditor（需要管理員權限）。
+
 6. 打開 EmEditor 並檢視[註冊信息](../../dlg/registration_info/index)，確認離線註冊是否成功。授權檔案現在可以刪除，因為不再需要用它啟動 EmEditor。
 
 - 在您續訂後，無需再次用離線授權注冊。

@@ -4,7 +4,7 @@
 
 ## “启用 AI”复选框
 
-在 EmEditor 中可以用 [**OpenAI**](https://openai.com/) 来辅助写作。要启用此功能，您必须在每个配置属性的 [**常规**](../../properties/general/index) 页面中勾选 **AI 辅助写作** 复选框。该功能需要 [**OpenAI API 密钥**](https://platform.openai.com/api-keys) 才能使用。
+在 EmEditor 中启用使用 [**OpenAI**](https://openai.com/) 的写作辅助。启用此选项后，还必须在每个配置属性的 [**AI 辅助**](../../properties/ai_assist/index) 页面中勾选 **启用 AI 辅助写作** 复选框。此功能需要 [**OpenAI API 密钥**](https://platform.openai.com/api-keys) 才能使用。
 
 ## “使用 'OPENAI_API_KEY' 环境变量”复选框
 
@@ -26,3 +26,6 @@
 
 重置为默认设定。
 
+## 注意
+
+仅当安装并启用了 **ChatAI** 插件时，此页面才可用。
