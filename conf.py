@@ -30,6 +30,15 @@ html_show_sphinx = False
 html_baseurl = 'https://www.emeditor.org/'
 sitemap_url_scheme = '{lang}{link}'
 smartquotes = False
+latex_engine = 'xelatex'
+latex_elements = {
+    'preamble': r'''
+            \usepackage{fontspec}
+    ''',
+    'inputenc': r'\usepackage[utf8]{inputenc}',
+    'utf8extra': r'\DeclareUnicodeCharacter{01F8}{N}',
+}
+exclude_patterns = ['about/thirdPartyLicenses.md']
 
 html_sidebars = {
    '**': ['globaltoc.html'],
