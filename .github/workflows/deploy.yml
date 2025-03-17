@@ -14,21 +14,21 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.12' 
+          python-version: '3.13'
           cache: pip
       - uses: actions/setup-go@v4
         with:
-          go-version: '^1.22.3'
+          go-version: '^1.24.1'
           cache-dependency-path: unneeded-html-remover/go.sum
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Get minify
-        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.20.7/minify_linux_amd64.tar.gz | tar -xz
+        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.22.2/minify_linux_amd64.tar.gz | tar -xz
       - name: Set version
         run: |
           echo "${GITHUB_REF_NAME}" > version
@@ -82,7 +82,7 @@ jobs:
           path: help_pages
       - uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 23
           cache: npm
           cache-dependency-path: 'automation-test/package-lock.json'
       - name: Test
