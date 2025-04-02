@@ -37,7 +37,7 @@
 | ![](../../images/commonsettings.gif)[カスタマイズ](../../cmd/tools/common_settings) | アプリケーション共通の設定を行います。 |
 | ![](../../images/macrorecord.gif)[マクロの記録/停止](../../cmd/macros/quick_macro_record) | マクロの記録を開始または終了します。 |
 | ![](../../images/macrorun.gif)[マクロの実行](../../cmd/macros/quick_macro_run) | マクロを実行します。 |
-| ![](../../images/windowalwaystop.gif)[常に最上位](../../cmd/window/window_always_top) | このウィンドウを常に手前に表示または解除します。 |
+| ![](../../images/windowalwaystop.gif)[常に手前に表示](../../cmd/window/window_always_top) | このウィンドウを常に手前に表示または解除します。 |
 | ![](../../images/bookmarktoggle.gif)[ブックマークを設定/解除](../../cmd/bookmarks/bookmark_toggle) | 現在行のブックマークのオン/オフを切り替えます。 |
 | ![](../../images/bookmarkprev.gif)[すべてのウィンドウの前のブックマーク](../../cmd/bookmarks/bookmark_prev) | すべてのウィンドウで前のブックマークへ移動します。 |
 | ![](../../images/bookmarknext.gif)[すべてのウィンドウの次のブックマーク](../../cmd/bookmarks/bookmark_next) | すべてのウィンドウで次のブックマークへ移動します。 |
