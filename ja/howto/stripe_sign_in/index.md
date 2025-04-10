@@ -22,7 +22,7 @@ EmEditor にサインインするか、登録キーを入力して登録でき�
     - または、[登録キーを入力] オプションを選択します。購入時に使用した名前とメールアドレスを入力してください。[Stripe サブスクリプション](https://support.emeditor.com/en/account/subscriptions)から登録キーをコピーし、[登録キー] フィールドに貼り付けます。（EmEditor v24.5.3 以降が必要です。）  
 3. [デバイスにラベルを付ける] を有効にすると、エムソフト カスタマー センターの [\[登録デバイス\]](https://support.emeditor.com/en/account/devices) ページでデバイスにラベルを付けることができます。OK をクリックしてください。
 
-- 支払い情報の変更は、[カスタマーポータル](https://billing.stripe.com/p/login/14k7w2fK6g9Ca9q9AA)で行えます。
+- 支払い情報の変更は、[カスタマーポータル](https://stripe.emeditor.com/p/login/14k7w2fK6g9Ca9q9AA)で行えます。
 
 ## オフライン登録
 
