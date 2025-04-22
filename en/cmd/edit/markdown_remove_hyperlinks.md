@@ -12,14 +12,15 @@ Removes hyperlinks.
 
 - Default Menu: **Edit** \> **Markdown** \> **Remove Hyperlinks**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Remove Hyperlinks**
-- Toolbar: ![](../../images/remove_hyperlinks.gif)
+- Toolbar: ![](../../images/remove_hyperlinks.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_REMOVE_HYPERLINKS (23272)```
+EEID_MARKDOWN_REMOVE_HYPERLINKS (23272)
+```
 
 ## Macros
 

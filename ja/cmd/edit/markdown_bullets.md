@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[箇条書き\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[箇条書き\]
-- ツール バー: ![](../../images/bullets.gif)
+- ツール バー: ![](../../images/bullets.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MARKDOWN_BULLETS (23266)```
+EEID_MARKDOWN_BULLETS (23266)
+```
 
 ## マクロ
 

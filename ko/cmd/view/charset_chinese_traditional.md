@@ -16,7 +16,7 @@
 
 - 기본 메뉴: **보기** \> **글꼴 범주** \> **중국어 번체**
 - [모든 명령](../tools/all_commands): **보기** \> **글꼴** \> **글꼴 범주** \> **중국어 번체**
-- 도구 모음: ![](../../images/fontpopup.gif)
+- 도구 모음: ![](../../images/fontpopup.png)
 (화살표 위)\> **글꼴 범주** \> **중국어 번체**
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -24,7 +24,8 @@
 ## 플러그인 명령 ID
 
 ```
-EEID_CHARSET_CHINESE_TRADITIONAL (8709)```
+EEID_CHARSET_CHINESE_TRADITIONAL (8709)
+```
 
 ## 매크로
 

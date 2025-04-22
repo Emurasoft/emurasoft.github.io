@@ -12,14 +12,15 @@
 
 - 默认菜单: **编辑** \> **大纲** \> **全部展开**
 - [所有命令](../tools/all_commands): **编辑** \> **大纲** \> **全部展开**
-- 工具栏: ![](../../images/outline_exp.gif)
+- 工具栏: ![](../../images/outline_exp.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_OUTLINE_EXPAND_ALL (4411)```
+EEID_OUTLINE_EXPAND_ALL (4411)
+```
 
 ## 宏
 

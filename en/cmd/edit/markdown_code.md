@@ -12,14 +12,15 @@ Toggles a code style.
 
 - Default Menu: **Edit** \> **Markdown** \> **Code**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Code**
-- Toolbar: ![](../../images/markdown_code.gif)
+- Toolbar: ![](../../images/markdown_code.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_CODE (23278)```
+EEID_MARKDOWN_CODE (23278)
+```
 
 ## Macros
 

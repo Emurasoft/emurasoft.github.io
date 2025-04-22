@@ -13,14 +13,15 @@ Encodes the selected text to Universal Character Names.
 - Default Menu: **Convert** \> **Encode/Decode** \> **Unicode to Universal Character Names**
 - [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode to Universal Character Names**
 - Toolbar:
-![](../../images/uni2ucs24x16.gif)
+![](../../images/uni2ucs24x16.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_ENCODE_UCN (4527)```
+EEID_ENCODE_UCN (4527)
+```
 
 ## Macros
 

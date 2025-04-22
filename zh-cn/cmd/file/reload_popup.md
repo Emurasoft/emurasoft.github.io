@@ -13,14 +13,15 @@
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **文件** \> **重新载入**
 \> **弹出菜单**
-- 工具栏: ![](../../images/reload.gif)（点击箭头）
+- 工具栏: ![](../../images/reload.png)（点击箭头）
 - 状态栏: 在显示的编码上双击
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_RELOAD_POPUP (4283)```
+EEID_RELOAD_POPUP (4283)
+```
 
 ## 宏
 

@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[ツール\] \- \[カスタマイズ\]
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[カスタマイズ\] \- \[カスタマイズ\]
-- ツール バー: ![](../../images/commonsettings.gif)
+- ツール バー: ![](../../images/commonsettings.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_COMMON_SETTINGS (4222)```
+EEID_COMMON_SETTINGS (4222)
+```
 
 ## マクロ
 

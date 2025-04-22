@@ -15,14 +15,15 @@
 
 - 기본 메뉴: **편집** \> **실행 취소**
 - [모든 명령](../tools/all_commands): **편집** \> **실행 취소**
-- 도구 모음: ![](../../images/editundo.gif)
+- 도구 모음: ![](../../images/editundo.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+Z 또는 ALT+BACKSPACE
 
 ## 플러그인 명령 ID
 
 ```
-EEID_EDIT_UNDO (4124)```
+EEID_EDIT_UNDO (4124)
+```
 
 ## 매크로
 

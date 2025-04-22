@@ -14,14 +14,15 @@ Shows or hides line numbers. By default, EmEditor does not display line numbers.
 - [All Commands](../tools/all_commands): **View** >
 **Line Numbers**
 - Toolbar:
-![](../../images/line_number24x16.gif)
+![](../../images/line_number24x16.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_VIEW_LINE_NUMBERS (4530)```
+EEID_VIEW_LINE_NUMBERS (4530)
+```
 
 ## Macros
 

@@ -12,14 +12,15 @@ Inserts a hyperlink.
 
 - Default Menu: **Edit** \> **Markdown** \> **Hyperlink**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Hyperlink**
-- Toolbar: ![](../../images/hyperlink.gif)
+- Toolbar: ![](../../images/hyperlink.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_HYPERLINK (23271)```
+EEID_MARKDOWN_HYPERLINK (23271)
+```
 
 ## Macros
 

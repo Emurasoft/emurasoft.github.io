@@ -3,7 +3,7 @@
 The **Open Documents** plug-in is installed by default with EmEditor Professional. This plug-in displays the list of open documents, and allows you to activate, close, or save selected documents within the list. To use the **Open Documents** plug-in:
 
 1. Make sure the tabs are enabled. When the tabs are enabled, the **Enable Tabs** menu item is checked on the **Window** menu.
-2. Click the **![Open Documents](../../images/plugin_opendocuments.gif)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Open Documents**.
+2. Click the **![Open Documents](../../images/plugin_opendocuments.png)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Open Documents**.
 The list of open documents will appear in the **Open**
 **Documents** custom bar.
 

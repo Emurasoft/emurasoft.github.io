@@ -13,14 +13,15 @@ Finds the next occurrence using the Find toolbar.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Search**
 \> **Find Toolbar** \> **Find Next**
-- Toolbar: ![](../../images/editrepeat.gif) (Find toolbar)
+- Toolbar: ![](../../images/editrepeat.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_FINDBAR_FIND_NEXT (4570)```
+EEID_FINDBAR_FIND_NEXT (4570)
+```
 
 ## Macros
 

@@ -12,14 +12,15 @@ Inserts an Image.
 
 - Default Menu: **Edit** \> **Markdown** \> **Image**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Image**
-- Toolbar: ![](../../images/image.gif)
+- Toolbar: ![](../../images/image.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_IMAGE (23277)```
+EEID_MARKDOWN_IMAGE (23277)
+```
 
 ## Macros
 

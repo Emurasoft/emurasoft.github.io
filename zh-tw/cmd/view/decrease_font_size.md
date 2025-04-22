@@ -13,14 +13,15 @@
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **檢視** \> **字型** >
 **減小顯示的字型大小**
-- 工具列: ![](../../images/decreasefontsize.gif)
+- 工具列: ![](../../images/decreasefontsize.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_DECREASE_FONT_SIZE (4374)```
+EEID_DECREASE_FONT_SIZE (4374)
+```
 
 ## 巨集
 

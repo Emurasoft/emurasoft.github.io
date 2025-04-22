@@ -14,14 +14,15 @@ options.
 - Default Menu: **Search** \> **Next**
 - [All Commands](../tools/all_commands): **Search**
 \> **Next**
-- Toolbar: ![](../../images/editrepeat.gif)
+- Toolbar: ![](../../images/editrepeat.png)
 - Status Bar: None
 - Default Shortcut Key: F3
 
 ## Plug-in Command ID
 
 ```
-EEID_EDIT_REPEAT (4202)```
+EEID_EDIT_REPEAT (4202)
+```
 
 ## Macros
 

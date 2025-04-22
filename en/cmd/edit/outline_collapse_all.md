@@ -12,14 +12,15 @@ While outlining is displayed, this command collapses the entire document. A plug
 
 - Default Menu: **Edit** \> **Outlining** \> **Collapse All**
 - [All Commands](../tools/all_commands): **Edit** \> **Outlining** \> **Collapse All**
-- Toolbar: ![](../../images/outline_min.gif)
+- Toolbar: ![](../../images/outline_min.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_OUTLINE_COLLAPSE_ALL (4410)```
+EEID_OUTLINE_COLLAPSE_ALL (4410)
+```
 
 ## Macros
 

@@ -1,7 +1,7 @@
 # 定義一個新組態
 
 1. 點擊
-![Select Configuration](../../images/configpopup.gif) 并從功能表中選擇
+![Select Configuration](../../images/configpopup.png) 并從功能表中選擇
 **定義組態**。
 2. 點擊 **「新增」** 按鈕，并命名新組態。
 3. 點擊 **「屬性」** 按鈕并更改新組態屬性。

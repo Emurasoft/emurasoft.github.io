@@ -12,14 +12,15 @@
 
 - 預設功能表: **編輯** \> **僅編輯選定區域**
 - [全部命令](../tools/all_commands): **編輯** \> **僅編輯選定區域** \> **啟用/禁用僅編輯選定區域模式**
-- 工具列: ![](../../images/narrowing.gif)
+- 工具列: ![](../../images/narrowing.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_NARROWING_TOGGLE (4456)```
+EEID_NARROWING_TOGGLE (4456)
+```
 
 ## 巨集
 

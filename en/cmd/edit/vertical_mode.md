@@ -14,14 +14,15 @@ Toggles the sticky vertical mode. When Sticky Vertical Mode is active, dragging 
 \> **Sticky Vertical Mode**
 - [All Commands](../tools/all_commands): **Edit** \> **Selection Mode**
 \> **Sticky Vertical Mode**
-- Toolbar: ![](../../images/sticky.gif)
+- Toolbar: ![](../../images/sticky.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_VERTICAL_MODE (4473)```
+EEID_VERTICAL_MODE (4473)
+```
 
 ## Macros
 

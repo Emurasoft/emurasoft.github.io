@@ -13,14 +13,15 @@
 - 預設功能表: **檔案** \> **儲存并全部關閉**
 - [全部命令](../tools/all_commands): **檔案** \> **關閉**
 \> **儲存并全部關閉**
-- 工具列: ![](../../images/saveexitall.gif)
+- 工具列: ![](../../images/saveexitall.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+SHIFT+E
 
 ## 外掛程式命令ID
 
 ```
-EEID_SAVE_EXIT_ALL (4118)```
+EEID_SAVE_EXIT_ALL (4118)
+```
 
 ## 巨集
 

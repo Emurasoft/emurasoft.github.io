@@ -13,14 +13,15 @@ Automatically shows or hides the cell toolbar.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **View** >
 **Toolbars** \> **Cell Toolbar Options** \> **Automatically Show/Hide Cell Toolbar**
-- Toolbar: ![](../../images/commonsettings.gif) (Cell toolbar) + Automatically Show/Hide Cell Toolbar
+- Toolbar: ![](../../images/commonsettings.png) (Cell toolbar) + Automatically Show/Hide Cell Toolbar
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_CELL_BAR_AUTO_SHOW (3969)```
+EEID_CELL_BAR_AUTO_SHOW (3969)
+```
 
 ## Macros
 

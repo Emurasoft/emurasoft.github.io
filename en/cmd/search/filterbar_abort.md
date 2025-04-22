@@ -13,14 +13,15 @@ Aborts filtering and empties the filter string.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Search**
 \> **Filter Toolbar** \> **Abort**
-- Toolbar: ![](../../images/abort.gif) (Filter toolbar)
+- Toolbar: ![](../../images/abort.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_FILTERBAR_ABORT (3914)```
+EEID_FILTERBAR_ABORT (3914)
+```
 
 ## Macros
 

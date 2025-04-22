@@ -14,14 +14,15 @@ where you can define common application settings.
 - Default Menu: **Tools** \> **Customize**
 - [All Commands](all_commands): **Tools** >
 **Customize** \> **Customize**
-- Toolbar: ![](../../images/commonsettings.gif)
+- Toolbar: ![](../../images/commonsettings.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_COMMON_SETTINGS (4222)```
+EEID_COMMON_SETTINGS (4222)
+```
 
 ## Macros
 

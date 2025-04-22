@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セパレーター\] - \[自動的にセパレーターを追加\]
-- ツール バー: ![](../../images/columns_separators.gif) \+ \[自動的にセパレーターを追加\]
+- ツール バー: ![](../../images/columns_separators.png) \+ \[自動的にセパレーターを追加\]
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_AUTO_ADD_SEPARATORS (3885)```
+EEID_AUTO_ADD_SEPARATORS (3885)
+```
 
 ## マクロ
 

@@ -1,9 +1,9 @@
 # To Save Files Automatically
 
 1. Click
-![Properties for Current Configuration](../../images/properties.gif)
+![Properties for Current Configuration](../../images/properties.png)
 (if you want to change only the current configuration) or
-![Properties for All Configuration](../../images/allproperties.gif)
+![Properties for All Configuration](../../images/allproperties.png)
 (if you want to change all configurations) on the
 Toolbar to display the **Auto Save** page.
 2. Check **Auto Save**, and specify how often you want to automatically

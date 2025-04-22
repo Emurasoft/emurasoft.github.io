@@ -13,14 +13,15 @@
 - 默认菜单: **搜索** \> **查找**
 - [所有命令](../tools/all_commands): **搜索**
 \> **查找**
-- 工具栏: ![](../../images/editfind.gif)
+- 工具栏: ![](../../images/editfind.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+F
 
 ## 插件命令ID
 
 ```
-EEID_EDIT_FIND (4200)```
+EEID_EDIT_FIND (4200)
+```
 
 ## 宏
 

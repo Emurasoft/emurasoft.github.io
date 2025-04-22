@@ -1,6 +1,6 @@
 # To Find a Text String
 
-1. Click  ![Search](../../images/editfind.gif)
+1. Click  ![Search](../../images/editfind.png)
 on the Toolbar to display the **Find** dialog.
 2. Enter the text string you would like to find. You can search up or down
 from the current position in the document.

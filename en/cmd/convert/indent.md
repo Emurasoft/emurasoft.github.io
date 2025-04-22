@@ -14,14 +14,15 @@ multiple lines are selected, this command is equivalent to the
 
 - Default Menu: **Convert** \> **Increase Line Indent**
 - [All Commands](../tools/all_commands): **Convert** \> **Increase Line Indent**
-- Toolbar: ![](../../images/indent.gif)
+- Toolbar: ![](../../images/indent.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_INDENT (4358)```
+EEID_INDENT (4358)
+```
 
 ## Macros
 

@@ -12,14 +12,15 @@
 
 - 預設功能表: **編輯** \> **CSV** \> **標準模式**
 - [全部命令](../tools/all_commands): **編輯** \> **CSV** \> **標準模式**
-- 工具列: ![](../../images/default_mode.gif)
+- 工具列: ![](../../images/default_mode.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_MODE_NORMAL (4472)```
+EEID_MODE_NORMAL (4472)
+```
 
 ## 巨集
 

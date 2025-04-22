@@ -12,14 +12,15 @@ Toggles a bold style.
 
 - Default Menu: **Edit** \> **Markdown** \> **Bold**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Bold**
-- Toolbar: ![](../../images/bold.gif)
+- Toolbar: ![](../../images/bold.png)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+B
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_BOLD (23269)```
+EEID_MARKDOWN_BOLD (23269)
+```
 
 ## Macros
 

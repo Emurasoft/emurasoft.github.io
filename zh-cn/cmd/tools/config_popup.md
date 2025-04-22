@@ -14,14 +14,15 @@
 **选择配置** \> **选择配置（弹出菜单）**
 - [所有命令](all_commands): **工具** >
 **选择配置** \> **选择配置（弹出菜单）**
-- 工具栏: ![](../../images/configpopup.gif) （在箭头上）
+- 工具栏: ![](../../images/configpopup.png) （在箭头上）
 - 状态栏: （双击配置名称）
 - 默认快捷键: SHIFT + F11
 
 ## 插件命令ID
 
 ```
-EEID_CONFIG_POPUP (4220)```
+EEID_CONFIG_POPUP (4220)
+```
 
 ## 宏
 

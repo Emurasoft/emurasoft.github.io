@@ -14,14 +14,15 @@
 - 기본 메뉴: **도구** \> **사용자 지정**
 - [모든 명령](all_commands): **도구** >
 **사용자 지정** \> **사용자 지정**
-- 도구 모음: ![](../../images/commonsettings.gif)
+- 도구 모음: ![](../../images/commonsettings.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_COMMON_SETTINGS (4222)```
+EEID_COMMON_SETTINGS (4222)
+```
 
 ## 매크로
 

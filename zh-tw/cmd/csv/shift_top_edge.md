@@ -12,14 +12,15 @@
 
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **編輯** \> **CSV** \> **僅限儲存格選擇模式** \> **延伸到上邊緣**
-- 工具列: ![](../../images/cell_selection_mode.gif)
+- 工具列: ![](../../images/cell_selection_mode.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+SHIFT+向上鍵 (僅限儲存格選擇模式)
 
 ## 外掛程式命令ID
 
 ```
-EEID_SHIFT_TOP_EDGE (4023)```
+EEID_SHIFT_TOP_EDGE (4023)
+```
 
 ## 巨集
 

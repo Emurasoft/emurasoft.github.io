@@ -16,14 +16,15 @@
 - 預設功能表: **搜尋** \> **多檔尋找**
 - [全部命令](../tools/all_commands): **搜尋**
 \> **多檔尋找**
-- 工具列: ![](../../images/grep.gif)
+- 工具列: ![](../../images/grep.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+SHIFT+F
 
 ## 外掛程式命令ID
 
 ```
-EEID_GREP (4207)```
+EEID_GREP (4207)
+```
 
 ## 巨集
 

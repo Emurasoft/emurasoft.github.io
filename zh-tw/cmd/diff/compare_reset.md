@@ -12,14 +12,15 @@
 
 - 預設功能表: **比較** \> **重設為普通模式**
 - [全部命令](../tools/all_commands): **比較** \> **重設為普通模式**
-- 工具列: ![](../../images/reset24x16.gif)
+- 工具列: ![](../../images/reset24x16.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_COMPARE_RESET (4497)```
+EEID_COMPARE_RESET (4497)
+```
 
 ## 巨集
 

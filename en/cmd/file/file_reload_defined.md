@@ -19,7 +19,7 @@ will allow you to continue editing the document.
 
 - Default Menu: **File** \> **Reload** \> **(encoding)**
 - [All Commands](../tools/all_commands): **File** \> **Reload** \> **(encoding)**
-- Toolbar: ![](../../images/reload.gif) (on
+- Toolbar: ![](../../images/reload.png) (on
 the arrow) -
 (encoding)
 - Status Bar: double-click on Encodings - (encoding)
@@ -28,7 +28,8 @@ the arrow) -
 ## Plug-in Command ID
 
 ```
-From EEID_FILE_RELOAD_DEFINED through EEID_FILE_RELOAD_DEFINED + 255 (from 6656```
+From EEID_FILE_RELOAD_DEFINED through EEID_FILE_RELOAD_DEFINED + 255 (from 6656
+```
 through
 6656 + 255)
 

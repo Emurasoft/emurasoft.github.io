@@ -13,14 +13,15 @@
 - 기본 메뉴: **파일** \> **닫기**
 - [모든 명령](../tools/all_commands): **파일** \> **닫기**
 \> **닫기**
-- 도구 모음: ![](../../images/appexit.gif)
+- 도구 모음: ![](../../images/appexit.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+F4 또는 CTRL+W
 
 ## 플러그인 명령 ID
 
 ```
-EEID_APP_EXIT (4117)```
+EEID_APP_EXIT (4117)
+```
 
 ## 매크로
 

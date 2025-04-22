@@ -12,14 +12,15 @@
 
 - 預設功能表: **書籤** \> **開關書籤**
 - [全部命令](../tools/all_commands): **書籤** \> **開關書籤**
-- 工具列: ![](../../images/bookmarktoggle.gif)
+- 工具列: ![](../../images/bookmarktoggle.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+F2
 
 ## 外掛程式命令ID
 
 ```
-EEID_BOOKMARK_TOGGLE (4320)```
+EEID_BOOKMARK_TOGGLE (4320)
+```
 
 ## 巨集
 

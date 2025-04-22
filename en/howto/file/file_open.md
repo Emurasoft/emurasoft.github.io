@@ -1,7 +1,7 @@
 # To Open an Existing File
 
 1. Click
-![Open](../../images/fileopen.gif) on the
+![Open](../../images/fileopen.png) on the
 toolbar.
 2. Select the file you want to open and click on the **Open** button.
 

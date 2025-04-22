@@ -14,14 +14,15 @@ Displays the **[Configuration \**
 - Default Menu: **Tools** \> **Properties for All Configurations**
 - [All Commands](all_commands): **Tools** >
 **Properties for All Configurations**
-- Toolbar: ![](../../images/allproperties.gif)
+- Toolbar: ![](../../images/allproperties.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_ALL_PROP (4270)```
+EEID_ALL_PROP (4270)
+```
 
 ## Macros
 

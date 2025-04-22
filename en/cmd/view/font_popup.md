@@ -16,7 +16,7 @@ This command displays a popup menu, which includes the
 - Default Menu: None
 - [All Commands](../tools/all_commands): **View** \> **Font** >
 **Font** (Popup Menu)
-- Toolbar: ![](../../images/fontpopup.gif) (on
+- Toolbar: ![](../../images/fontpopup.png) (on
 the arrow)
 - Status Bar: None
 - Default Shortcut Key: None
@@ -24,7 +24,8 @@ the arrow)
 ## Plug-in Command ID
 
 ```
-EEID_FONT_POPUP (4282)```
+EEID_FONT_POPUP (4282)
+```
 
 ## Macros
 

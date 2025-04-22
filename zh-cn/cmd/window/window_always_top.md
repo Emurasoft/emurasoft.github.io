@@ -13,7 +13,7 @@
 - 默认菜单: **窗口** \> **总是置顶**
 - [所有命令](../tools/all_commands): **窗口**
 \> **总是置顶** \> **总是置顶**
-- 工具栏: ![](../../images/windowalwaystop.gif)
+- 工具栏: ![](../../images/windowalwaystop.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

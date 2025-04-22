@@ -13,14 +13,15 @@
 - 預設功能表: **檢視** \> **尺規**
 - [全部命令](../tools/all_commands): **檢視** \> **尺規**
 - 工具列:
-![](../../images/ruler24x16.gif)
+![](../../images/ruler24x16.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_VIEW_LINE_RULER (4531)```
+EEID_VIEW_LINE_RULER (4531)
+```
 
 ## 巨集
 

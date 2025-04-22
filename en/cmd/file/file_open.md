@@ -14,14 +14,15 @@ tab if the current tab is untitled and no characters have been typed. If you wis
 - Default Menu: **File** \> **Open**
 - [All Commands](../tools/all_commands): **File** \> **Open**
 \> **Open**
-- Toolbar: ![](../../images/fileopen.gif)
+- Toolbar: ![](../../images/fileopen.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+O
 
 ## Plug-in Command ID
 
 ```
-EEID_FILE_OPEN (4097)```
+EEID_FILE_OPEN (4097)
+```
 
 ## Macros
 

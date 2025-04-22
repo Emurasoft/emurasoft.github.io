@@ -13,14 +13,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[コピー\] \- \[選択範囲をコピー\]
-- ツール バー: ![](../../images/copy.gif)
+- ツール バー: ![](../../images/copy.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+C または Ctrl+Insert
 
 ## プラグイン コマンド ID
 
 ```
-EEID_EDIT_COPY_SEL (4445)```
+EEID_EDIT_COPY_SEL (4445)
+```
 
 ## マクロ
 

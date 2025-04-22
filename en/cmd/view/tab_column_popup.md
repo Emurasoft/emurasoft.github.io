@@ -13,14 +13,15 @@ Displays a popup menu to select tab columns.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Tab Columns**
 - Toolbar:
-![](../../images/tab_column24x16.gif)
+![](../../images/tab_column24x16.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_TAB_COLUMN_POPUP (4550)```
+EEID_TAB_COLUMN_POPUP (4550)
+```
 
 ## Macros
 

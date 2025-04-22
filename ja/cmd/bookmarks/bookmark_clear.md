@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[ブックマーク\] \- \[ブックマークをクリア\]
 - [すべてのコマンド](../../glossary/allcommands): \[ブックマーク\] \- \[ブックマークをクリア\]
-- ツール バー: ![](../../images/bookmarkclear.gif)
+- ツール バー: ![](../../images/bookmarkclear.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+F2
 
 ## プラグイン コマンド ID
 
 ```
-EEID_BOOKMARK_CLEAR (4323)```
+EEID_BOOKMARK_CLEAR (4323)
+```
 
 ## マクロ
 

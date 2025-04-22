@@ -12,14 +12,15 @@ Removes comment marks at the beginning of each line at the selected area. If the
 
 - Default Menu: **Convert** \> **Uncomment**
 - [All Commands](../tools/all_commands): **Convert** \> **Uncomment**
-- Toolbar: ![](../../images/edituncomment.gif)
+- Toolbar: ![](../../images/edituncomment.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_EDIT_UNCOMMENT (4372)```
+EEID_EDIT_UNCOMMENT (4372)
+```
 
 ## Macros
 

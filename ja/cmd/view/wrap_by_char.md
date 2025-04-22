@@ -14,14 +14,15 @@
 
 - 既定のメニュー: \[表示\] \- \[指定文字数で折り返し\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[指定文字数で折り返し\]
-- ツール バー: ![](../../images/wrapbychar.gif)
+- ツール バー: ![](../../images/wrapbychar.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+2
 
 ## プラグイン コマンド ID
 
 ```
-EEID_WRAP_BY_CHAR (4209)```
+EEID_WRAP_BY_CHAR (4209)
+```
 
 ## マクロ
 

@@ -13,14 +13,15 @@
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **檢視** \> **字型** >
 **字型** (快顯功能表)
-- 工具列: ![](../../images/fontpopup.gif) (點擊箭頭)
+- 工具列: ![](../../images/fontpopup.png) (點擊箭頭)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_FONT_POPUP (4282)```
+EEID_FONT_POPUP (4282)
+```
 
 ## 巨集
 

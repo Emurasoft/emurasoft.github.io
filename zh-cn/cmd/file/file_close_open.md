@@ -16,14 +16,15 @@
 - [所有命令](../tools/all_commands): **文件** \> **打开**
 \> **关闭并打开**
 - 工具栏:
-![](../../images/filecloseopen.gif)
+![](../../images/filecloseopen.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_FILE_CLOSE_OPEN (4098)```
+EEID_FILE_CLOSE_OPEN (4098)
+```
 
 ## 宏
 

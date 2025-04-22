@@ -17,7 +17,7 @@ file. If you want to change the encoding and reload the file, select the
 - Default Menu: **View** \> **Font Category** > **Turkish**
 - [All Commands](../tools/all_commands): **View** \> **Font** >
 **Font Category** > **Turkish**
-- Toolbar: ![](../../images/fontpopup.gif)
+- Toolbar: ![](../../images/fontpopup.png)
 (on the arrow) > **Font Category** \> **Turkish**
 - Status Bar: None
 - Default Shortcut Key: None
@@ -25,7 +25,8 @@ file. If you want to change the encoding and reload the file, select the
 ## Plug-in Command ID
 
 ```
-EEID_CHARSET_TURKISH (8716)```
+EEID_CHARSET_TURKISH (8716)
+```
 
 ## Macros
 

@@ -13,14 +13,15 @@ Shows or hides the ruler. By default, EmEditor does not display the ruler.
 - Default Menu: **View** \> **Ruler**
 - [All Commands](../tools/all_commands): **View** \> **Ruler**
 - Toolbar:
-![](../../images/ruler24x16.gif)
+![](../../images/ruler24x16.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_VIEW_RULER (4531)```
+EEID_VIEW_RULER (4531)
+```
 
 ## Macros
 

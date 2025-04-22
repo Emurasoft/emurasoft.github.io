@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[画像\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[画像\]
-- ツール バー: ![](../../images/image.gif)
+- ツール バー: ![](../../images/image.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MARKDOWN_IMAGE (23277)```
+EEID_MARKDOWN_IMAGE (23277)
+```
 
 ## マクロ
 

@@ -14,14 +14,15 @@
 **選擇組態** \> **選擇組態 (快顯功能表)**
 - [所有命令](all_commands): **工具** >
 **選擇組態** \> **選擇組態 (快顯功能表)**
-- 工具列: ![](../../images/configpopup.gif) (在箭頭上)
+- 工具列: ![](../../images/configpopup.png) (在箭頭上)
 - 狀態列: (雙擊組態名稱)
 - 預設捷徑: SHIFT + F11
 
 ## 外掛程式命令ID
 
 ```
-EEID_CONFIG_POPUP (4220)```
+EEID_CONFIG_POPUP (4220)
+```
 
 ## 巨集
 

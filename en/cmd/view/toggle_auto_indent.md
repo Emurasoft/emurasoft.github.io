@@ -13,14 +13,15 @@ Enables or disables the auto indent. When auto indent is enabled, EmEditor will 
 - Default Menu: **View** \> **Tab/Indent** \> **Auto Indent**
 - [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Auto Indent**
 - Toolbar:
-![](../../images/auto_indent24x16.gif)
+![](../../images/auto_indent24x16.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_TOGGLE_AUTO_INDENT (4540)```
+EEID_TOGGLE_AUTO_INDENT (4540)
+```
 
 ## Macros
 

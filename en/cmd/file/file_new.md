@@ -27,7 +27,7 @@ button.
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **File** \> **New** \> **New Text**
-- Toolbar: ![](../../images/filenew.gif) (not
+- Toolbar: ![](../../images/filenew.png) (not
 on the arrow)
 - Status Bar: None
 - Default Shortcut Key: CTRL+N

@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[アウトライン\] \- \[アウトライン バーとガイド\]
-- ツール バー: ![アウトライン](../../images/plugin_outline.gif)
+- ツール バー: ![アウトライン](../../images/plugin_outline.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_OUTLINE_BAR_GUIDE (3874)```
+EEID_OUTLINE_BAR_GUIDE (3874)
+```
 
 ## マクロ
 

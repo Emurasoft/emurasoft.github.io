@@ -16,7 +16,7 @@ configuration is displayed on the Status Bar. EmEditor defaults to the
 - Default Menu: **Tools** \> **Select Configuration** \> (**configuration name**)
 - [All Commands](all_commands): **Tools** >
 **Select Configuration** \> (**configuration name**)
-- Toolbar: ![](../../images/configpopup.gif) (on
+- Toolbar: ![](../../images/configpopup.png) (on
 the arrow) >
 (**configuration name**)
 - Status Bar: (double-click on configuration name) > (**configuration name**)

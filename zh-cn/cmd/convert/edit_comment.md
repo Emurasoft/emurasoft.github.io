@@ -12,14 +12,15 @@
 
 - 默认菜单: **转换** \> **注释**
 - [所有命令](../tools/all_commands): **转换** \> **注释**
-- 工具栏: ![](../../images/editcomment.gif)
+- 工具栏: ![](../../images/editcomment.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_EDIT_COMMENT (4371)```
+EEID_EDIT_COMMENT (4371)
+```
 
 ## 宏
 

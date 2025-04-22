@@ -13,14 +13,15 @@
 - 默认菜单: **查看** \> **按页面换行**
 - [所有命令](../tools/all_commands): **查看** >
 **按页面换行**
-- 工具栏: ![](../../images/wrapbypage.gif)
+- 工具栏: ![](../../images/wrapbypage.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+4
 
 ## 插件命令ID
 
 ```
-EEID_WRAP_BY_PAPER (4318)```
+EEID_WRAP_BY_PAPER (4318)
+```
 
 ## 宏
 

@@ -12,14 +12,15 @@
 
 - 預設功能表: **書籤** \> **下一個書籤**
 - [全部命令](../tools/all_commands): **書籤** \> **下一個書籤**
-- 工具列: ![](../../images/bookmarknextwithin.gif)
+- 工具列: ![](../../images/bookmarknextwithin.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_BOOKMARK_NEXT_WITHIN (4351)```
+EEID_BOOKMARK_NEXT_WITHIN (4351)
+```
 
 ## 巨集
 

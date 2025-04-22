@@ -20,7 +20,7 @@ under the **Tools** Menu (**Tools** \> **Customize** \> **History**).
 - Default Menu: **View** \> (**Recent Font**)
 - [All Commands](../tools/all_commands): **View** \> **Font** >
 **Recent Font** \> (**Recent Font**)
-- Toolbar: ![](../../images/fontpopup.gif) (on
+- Toolbar: ![](../../images/fontpopup.png) (on
 the arrow) >
 (**Recent Font**)
 - Status Bar: None

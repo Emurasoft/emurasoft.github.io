@@ -12,14 +12,15 @@ Inserts an unordered list.
 
 - Default Menu: **Edit** \> **Markdown** \> **Bullets**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Bullets**
-- Toolbar: ![](../../images/bullets.gif)
+- Toolbar: ![](../../images/bullets.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_BULLETS (23266)```
+EEID_MARKDOWN_BULLETS (23266)
+```
 
 ## Macros
 

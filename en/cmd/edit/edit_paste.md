@@ -18,14 +18,15 @@ is checked on the [**General** page](../../dlg/properties/general/index) of the 
 - Default Menu: **Edit** \> **Paste**
 - [All Commands](../tools/all_commands): **Edit** \> **Paste**
 \> **Paste**
-- Toolbar: ![](../../images/paste.gif)
+- Toolbar: ![](../../images/paste.png)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+V or Shift+Insert
 
 ## Plug-in Command ID
 
 ```
-EEID_EDIT_PASTE (4129)```
+EEID_EDIT_PASTE (4129)
+```
 
 ## Macros
 

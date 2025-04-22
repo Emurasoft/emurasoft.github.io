@@ -12,14 +12,15 @@
 
 - 預設功能表: **編輯** \> **大綱** \> **全部展開**
 - [全部命令](../tools/all_commands): **編輯** \> **大綱** \> **全部展開**
-- 工具列: ![](../../images/outline_exp.gif)
+- 工具列: ![](../../images/outline_exp.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_OUTLINE_EXPAND_ALL (4411)```
+EEID_OUTLINE_EXPAND_ALL (4411)
+```
 
 ## 巨集
 

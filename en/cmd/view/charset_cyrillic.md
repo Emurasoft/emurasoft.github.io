@@ -17,7 +17,7 @@ file. If you want to change the encoding and reload the file, select the
 - Default Menu: **View** \> **Font Category** > **Cyrillic**
 - [All Commands](../tools/all_commands): **View** \> **Font** >
 **Font Category** > **Cyrillic**
-- Toolbar: ![](../../images/fontpopup.gif)
+- Toolbar: ![](../../images/fontpopup.png)
 (on the arrow) > **Font Category** \> **Cyrillic**
 - Status Bar: None
 - Default Shortcut Key: None
@@ -25,7 +25,8 @@ file. If you want to change the encoding and reload the file, select the
 ## Plug-in Command ID
 
 ```
-EEID_CHARSET_CYRILLIC (8710)```
+EEID_CHARSET_CYRILLIC (8710)
+```
 
 ## Macros
 

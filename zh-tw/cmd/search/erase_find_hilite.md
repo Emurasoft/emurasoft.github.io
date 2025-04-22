@@ -14,14 +14,15 @@
 - [全部命令](../tools/all_commands): **搜尋**
 \> **取消尋找亮顯**
 - 工具列:
-![](../../images/erasefindhilite.gif)
+![](../../images/erasefindhilite.png)
 - 狀態列: 無
 - 預設捷徑: ALT+F3
 
 ## 外掛程式命令ID
 
 ```
-EEID_ERASE_FIND_HILITE (4206)```
+EEID_ERASE_FIND_HILITE (4206)
+```
 
 ## 巨集
 

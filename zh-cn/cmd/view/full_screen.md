@@ -12,14 +12,15 @@
 
 - 默认菜单: **查看** \> **布局** \> **全屏**
 - [所有命令](../tools/all_commands): **查看** \> **布局** \> **全屏**
-- 工具栏: ![](../../images/full_screen.gif)
+- 工具栏: ![](../../images/full_screen.png)
 - 状态栏: 无
 - 默认快捷键: F11
 
 ## 插件命令ID
 
 ```
-EEID_FULL_SCREEN (4453)```
+EEID_FULL_SCREEN (4453)
+```
 
 ## 宏
 

@@ -12,14 +12,15 @@ Adjusts separator positions in the visible lines only of the CSV document.
 
 - Default Menu: **CSV** \> **Adjust Separator Positions (Visible Lines Only)**
 - [All Commands](../tools/all_commands): **CSV** \> **Adjust Separator Positions (Visible Lines Only)**
-- Toolbar: ![](../../images/columns_separators.gif) \+ Adjust Separator Positions (Visible Lines Only)
+- Toolbar: ![](../../images/columns_separators.png) \+ Adjust Separator Positions (Visible Lines Only)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_ADJUST_COLUMN_VISIBLE (3901)```
+EEID_ADJUST_COLUMN_VISIBLE (3901)
+```
 
 ## Macros
 

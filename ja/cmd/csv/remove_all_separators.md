@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セパレーター\] - \[すべてのセパレーターを削除\]
-- ツール バー: ![](../../images/convert_to.gif) \+ \[すべてのセパレーターを削除\]
+- ツール バー: ![](../../images/convert_to.png) \+ \[すべてのセパレーターを削除\]
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_REMOVE_ALL_SEPARATORS (3886)```
+EEID_REMOVE_ALL_SEPARATORS (3886)
+```
 
 ## マクロ
 

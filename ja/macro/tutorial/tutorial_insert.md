@@ -39,7 +39,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 | \\xXX |  | 2 桁の 16 進数で表記された Latin-1 文字 |
 | \\uXXXX |  | 4 桁の 16 進数で表記された Unicode 文字 |
 
-### ![](../../images/g.gif) 参考： [JScript \ 特殊文字 (Microsoft MSDN ライブラリ)](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Lexical_grammar\#String_literals)
+### ![](../../images/g.png) 参考： [JScript \ 特殊文字 (Microsoft MSDN ライブラリ)](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Lexical_grammar\#String_literals)
 
 ### \[VBScript\]
 
@@ -53,7 +53,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 | vbTab | Chr(9) | 水平タブ |
 | vbVerticalTab | Chr(11) | 垂直タブ |
 
-### ![](../../images/g.gif) 参考： [VBScript \ 文字列の定数 (Microsoft MSDN ライブラリ)](https://docs.microsoft.com/ja-jp/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/hh277t8e(v=vs.84))
+### ![](../../images/g.png) 参考： [VBScript \ 文字列の定数 (Microsoft MSDN ライブラリ)](https://docs.microsoft.com/ja-jp/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/hh277t8e(v=vs.84))
 
 ## 注意
 

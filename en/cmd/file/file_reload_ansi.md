@@ -19,7 +19,7 @@ editing the document.
 - Default Menu: **File** \> **Reload** \> **System Default**
 - [All Commands](../tools/all_commands): **File** \> **Reload**
 \> **System Default**
-- Toolbar: ![](../../images/reload.gif) (on
+- Toolbar: ![](../../images/reload.png) (on
 the arrow) > **System Default**
 - Status Bar: (double-click on **Encodings**) \> **System Default**
 - Default Shortcut Key: None
@@ -27,7 +27,8 @@ the arrow) > **System Default**
 ## Plug-in Command ID
 
 ```
-EEID_FILE_RELOAD_ANSI (4110)```
+EEID_FILE_RELOAD_ANSI (4110)
+```
 
 ## Macros
 

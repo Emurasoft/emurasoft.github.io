@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[フォント\]  \- \[小さいフォント サイズ\]
-- ツール バー: ![](../../images/decreasefontsize.gif)
+- ツール バー: ![](../../images/decreasefontsize.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_DECREASE_FONT_SIZE (4374)```
+EEID_DECREASE_FONT_SIZE (4374)
+```
 
 ## マクロ
 

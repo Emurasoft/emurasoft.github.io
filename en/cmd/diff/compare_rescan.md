@@ -12,14 +12,15 @@ Rescans the compared documents and refreshes the results.
 
 - Default Menu: **Compare** \> **Rescan**
 - [All Commands](../tools/all_commands): **Compare** \> **Rescan**
-- Toolbar: ![](../../images/rescan24x16.gif)
+- Toolbar: ![](../../images/rescan24x16.png)
 - Status Bar: None
 - Default Keyboard Shortcut: **F5**
 
 ## Plug-in Command ID
 
 ```
-EEID_COMPARE_RESCAN (4494)```
+EEID_COMPARE_RESCAN (4494)
+```
 
 ## Macros
 

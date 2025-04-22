@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[検索ツール バー\] \- \[次を検索\]
-- ツール バー: ![](../../images/editrepeat.gif) (検索ツール バー)
+- ツール バー: ![](../../images/editrepeat.png) (検索ツール バー)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_FINDBAR_FIND_NEXT (4570)```
+EEID_FINDBAR_FIND_NEXT (4570)
+```
 
 ## マクロ
 

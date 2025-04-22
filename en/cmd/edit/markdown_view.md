@@ -12,14 +12,15 @@ Displays the Markdown design view.
 
 - Default Menu: **Edit** \> **Markdown** \> **Design View**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Design View**
-- Toolbar: ![](../../images/markdown_view.gif)
+- Toolbar: ![](../../images/markdown_view.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_VIEW (23255)```
+EEID_MARKDOWN_VIEW (23255)
+```
 
 ## Macros
 

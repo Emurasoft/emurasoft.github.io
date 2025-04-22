@@ -1,7 +1,7 @@
 # 새 파일 만들기
 
 1. 도구 모음에서
-![New](../../images/filenew.gif)
+![New](../../images/filenew.png)
 를 클릭하십시오.
 2. 새 엠에디터 창에 텍스트를 입력하십시오.
 

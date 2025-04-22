@@ -13,14 +13,15 @@ If you repeat this command, you can redo multiple consecutive actions.
 
 - Default Menu: **Edit** \> **Redo**
 - [All Commands](../tools/all_commands): **Edit** \> **Redo**
-- Toolbar: ![](../../images/editredo.gif)
+- Toolbar: ![](../../images/editredo.png)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+Y
 
 ## Plug-in Command ID
 
 ```
-EEID_EDIT_REDO (4125)```
+EEID_EDIT_REDO (4125)
+```
 
 ## Macros
 

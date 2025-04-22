@@ -15,14 +15,15 @@
 - [모든 명령](../tools/all_commands): **보기** >
 **줄 번호**
 - 도구 모음:
-![](../../images/line_number24x16.gif)
+![](../../images/line_number24x16.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_VIEW_LINE_NUMBERS (4530)```
+EEID_VIEW_LINE_NUMBERS (4530)
+```
 
 ## 매크로
 

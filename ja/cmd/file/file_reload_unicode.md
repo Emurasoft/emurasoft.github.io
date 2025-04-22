@@ -15,14 +15,15 @@
 
 - 既定のメニュー: \[ファイル\] \- \[読み直し\] \- \[UTF-16LE\]
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[読み直し\] \- \[UTF-16LE\]
-- ツール バー: ![](../../images/reload.gif) (矢印の部分) \- \[UTF-16LE\]
+- ツール バー: ![](../../images/reload.png) (矢印の部分) \- \[UTF-16LE\]
 - ステータス バー: エンコードの項目をダブルクリック \- \[UTF-16LE\]
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_FILE_RELOAD_UNICODE (4257)```
+EEID_FILE_RELOAD_UNICODE (4257)
+```
 
 ## マクロ
 

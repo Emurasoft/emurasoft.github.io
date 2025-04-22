@@ -1,6 +1,6 @@
 # To Save an Edited File
 
-1. Click ![Save](../../images/filesave.gif) on the
+1. Click ![Save](../../images/filesave.png) on the
 Toolbar.
 2. If the file is not named, the **Save As** dialog will be displayed,
 allowing you to enter a name for the file.

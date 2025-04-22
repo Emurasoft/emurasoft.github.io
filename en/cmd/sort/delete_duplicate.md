@@ -12,14 +12,15 @@ Deletes duplicate lines in the selection or in the entire document. The first in
 
 - Default Menu: **Sort** \> **Delete Duplicate Lines**
 - [All Commands](../tools/all_commands): **Sort** \> **Delete Duplicate Lines**
-- Toolbar: ![](../../images/deleteduplicatelines.gif)
+- Toolbar: ![](../../images/deleteduplicatelines.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_DELETE_DUPLICATE (4564)```
+EEID_DELETE_DUPLICATE (4564)
+```
 
 ## Macros
 

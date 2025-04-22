@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[ウィンドウ\] \- \[常に手前に表示\]
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[常に手前に表示\] \- \[常に手前に表示\]
-- ツール バー: ![](../../images/windowalwaystop.gif)
+- ツール バー: ![](../../images/windowalwaystop.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_WINDOW_ALWAYS_TOP (4239)```
+EEID_WINDOW_ALWAYS_TOP (4239)
+```
 
 ## マクロ
 

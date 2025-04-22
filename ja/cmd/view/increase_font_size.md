@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[フォント\]  \- \[大きいフォント サイズ\]
-- ツール バー: ![](../../images/increasefontsize.gif)
+- ツール バー: ![](../../images/increasefontsize.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_INCREASE_FONT_SIZE (4373)```
+EEID_INCREASE_FONT_SIZE (4373)
+```
 
 ## マクロ
 

@@ -12,14 +12,15 @@ Inserts a copy of the current logical line below the current cursor position.
 
 - Default Menu: **Insert** \> **Duplicate Line**
 - [All Commands](../tools/all_commands): **Insert** \> **Duplicate Line**
-- Toolbar: ![](../../images/duplicateline.gif)
+- Toolbar: ![](../../images/duplicateline.png)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+Y
 
 ## Plug-in Command ID
 
 ```
-EEID_DUPLICATE_LINE (4328)```
+EEID_DUPLICATE_LINE (4328)
+```
 
 ## Macros
 

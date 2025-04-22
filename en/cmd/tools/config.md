@@ -15,7 +15,7 @@ current and selected configurations.
 - Default Menu: **Tools** \> **Select Configuration** \> **Define Configurations**
 - [All Commands](all_commands): **Tools** >
 **Select Configuration** \> **Define Configurations**
-- Toolbar: ![](../../images/configpopup.gif) (not
+- Toolbar: ![](../../images/configpopup.png) (not
 on the arrow)
 - Status Bar: (double-click on configuration name) > **Define Configurations**
 - Default Shortcut Key: None
@@ -23,7 +23,8 @@ on the arrow)
 ## Plug-in Command ID
 
 ```
-EEID_CONFIG (4221)```
+EEID_CONFIG (4221)
+```
 
 ## Macros
 

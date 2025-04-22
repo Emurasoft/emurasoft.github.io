@@ -13,14 +13,15 @@
 - 기본 메뉴: 없음
 - [모든 명령](../tools/all_commands): **보기** \> **탭/들여쓰기** \> **탭 열**
 - 도구 모음:
-![](../../images/tab_column24x16.gif)
+![](../../images/tab_column24x16.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_TAB_COLUMN_POPUP (4550)```
+EEID_TAB_COLUMN_POPUP (4550)
+```
 
 ## 매크로
 

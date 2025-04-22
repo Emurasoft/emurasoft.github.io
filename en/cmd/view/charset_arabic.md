@@ -17,7 +17,7 @@ file. If you want to change the encoding and reload the file, select the
 - Default Menu: **View** \> **Font Category** > **Arabic**
 - [All Commands](../tools/all_commands): **View** \> **Font** >
 **Font Category** > **Arabic**
-- Toolbar: ![](../../images/fontpopup.gif) (on
+- Toolbar: ![](../../images/fontpopup.png) (on
 the arrow) > **Font Category** \> **Arabic**
 - Status Bar: None
 - Default Shortcut Key: None
@@ -25,7 +25,8 @@ the arrow) > **Font Category** \> **Arabic**
 ## Plug-in Command ID
 
 ```
-EEID_CHARSET_ARABIC (8705)```
+EEID_CHARSET_ARABIC (8705)
+```
 
 ## Macros
 

@@ -14,14 +14,15 @@ to the [**Tab Left or Decrease Line Indent** command](../edit/shift_tab).
 
 - Default Menu: **Convert** \> **Decrease Line Indent**
 - [All Commands](../tools/all_commands): **Convert** \> **Decrease Line Indent**
-- Toolbar: ![](../../images/unindent.gif)
+- Toolbar: ![](../../images/unindent.png)
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT + TAB
 
 ## Plug-in Command ID
 
 ```
-EEID_UNINDENT (4359)```
+EEID_UNINDENT (4359)
+```
 
 ## Macros
 

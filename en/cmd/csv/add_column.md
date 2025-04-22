@@ -12,14 +12,15 @@ Adds a new column at the right side of the last column in the separated value do
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Add Column**
-- Toolbar: ![](../../images/columns_separators.gif) \+ **Add Column**
+- Toolbar: ![](../../images/columns_separators.png) \+ **Add Column**
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_ADD_COLUMN (3888)```
+EEID_ADD_COLUMN (3888)
+```
 
 ## Macros
 

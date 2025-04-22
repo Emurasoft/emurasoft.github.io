@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セパレーター\] - \[セパレーターを追加/削除\]
-- ツール バー: ![](../../images/columns_separators.gif) \+ \[セパレーターを追加/削除\]
+- ツール バー: ![](../../images/columns_separators.png) \+ \[セパレーターを追加/削除\]
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_ADD_REMOVE_SEPARATOR (3884)```
+EEID_ADD_REMOVE_SEPARATOR (3884)
+```
 
 ## マクロ
 

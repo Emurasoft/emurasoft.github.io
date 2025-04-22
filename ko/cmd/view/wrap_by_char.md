@@ -17,14 +17,15 @@
 - 기본 메뉴: **보기** \> **문자에 맞춰 줄 바꿈**
 - [모든 명령](../tools/all_commands): **보기** >
 **문자에 맞춰 줄 바꿈**
-- 도구 모음: ![](../../images/wrapbychar.gif)
+- 도구 모음: ![](../../images/wrapbychar.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+2
 
 ## 플러그인 명령 ID
 
 ```
-EEID_WRAP_BY_CHAR (4209)```
+EEID_WRAP_BY_CHAR (4209)
+```
 
 ## 매크로
 

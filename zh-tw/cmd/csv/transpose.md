@@ -12,7 +12,7 @@
 
 - 預設功能表: **CSV** \> **進階** \> **轉置**
 - [全部命令](../tools/all_commands): **CSV** \> **進階** \> **轉置**
-- 工具列: ![](../../images/transpose.gif)
+- 工具列: ![](../../images/transpose.png)
 - 狀態列: 無
 - 預設快速鍵: 無
 

@@ -1,6 +1,6 @@
 # 새로운 구성을 정의하는 방법
 
-1. ![Select Configuration](../../images/configpopup.gif) 을 클릭하시고
+1. ![Select Configuration](../../images/configpopup.png) 을 클릭하시고
 메뉴에서 **구성 정의** 를 선택해 주십시오.
 2. **새로 만들기** 버튼을 클릭하고 새 구성의 이름을 지정하십시오.
 3. 새 구성 속성을 바꾸기 위해서 **구성** 버튼을 클릭하십시오.

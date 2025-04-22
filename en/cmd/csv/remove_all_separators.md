@@ -12,14 +12,15 @@ Removes all the separators while in the normal mode.
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **CSV** > **Separators** \> **Remove All Separators**
-- Toolbar: ![](../../images/columns_separators.gif) \+ Remove All Separators
+- Toolbar: ![](../../images/columns_separators.png) \+ Remove All Separators
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_REMOVE_ALL_SEPARATOR (3886)```
+EEID_REMOVE_ALL_SEPARATOR (3886)
+```
 
 ## Macros
 

@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[変換\] \- \[逆インデント\]
 - [すべてのコマンド](../../glossary/allcommands): \[変換\] \- \[逆インデント\]
-- ツール バー: ![](../../images/unindent.gif)
+- ツール バー: ![](../../images/unindent.png)
 - ステータス バー: なし
 - 既定のショートカット: Shift+Tab
 
 ## プラグイン コマンド ID
 
 ```
-EEID_UNINDENT (4359)```
+EEID_UNINDENT (4359)
+```
 
 ## マクロ
 

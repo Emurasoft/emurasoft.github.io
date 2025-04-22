@@ -15,7 +15,7 @@ various options for the current configuration.
 - Default Menu: **Tools** \> **Properties for Current Configuration**
 - [All Commands](all_commands): **Tools** >
 **Properties for Current Configuration** \> **Properties**
-- Toolbar: ![](../../images/properties.gif)
+- Toolbar: ![](../../images/properties.png)
 - Status Bar: None
 - Default Shortcut Key: ALT+ENTER
 

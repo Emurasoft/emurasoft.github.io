@@ -13,7 +13,7 @@
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **窗口**
 \> **分割** \> **切换水平分割**
-- 工具栏: ![](../../images/windowsplithorzfix.gif)
+- 工具栏: ![](../../images/windowsplithorzfix.png)
 - 状态栏: 无
 - 默认快捷键: CTRL + -
 

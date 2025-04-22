@@ -15,14 +15,15 @@ start the printing.
 
 - Default Menu: **File** \> **Print**
 - [All Commands](../tools/all_commands): **File** \> **Print** \> **Print**
-- Toolbar: ![](../../images/fileprint.gif)
+- Toolbar: ![](../../images/fileprint.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+P
 
 ## Plug-in Command ID
 
 ```
-EEID_FILE_PRINT (4114)```
+EEID_FILE_PRINT (4114)
+```
 
 ## Macros
 

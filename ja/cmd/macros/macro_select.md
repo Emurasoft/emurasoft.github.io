@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[マクロ\] \- \[選択\]
 - [すべてのコマンド](../../glossary/allcommands): \[マクロ\] \- \[選択\]
-- ツール バー: ![](../../images/macroselect.gif)
+- ツール バー: ![](../../images/macroselect.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MACRO_SELECT (4347)```
+EEID_MACRO_SELECT (4347)
+```
 
 ## マクロ
 

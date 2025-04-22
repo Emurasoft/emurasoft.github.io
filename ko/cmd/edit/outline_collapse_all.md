@@ -13,14 +13,15 @@
 
 - 기본 메뉴: **편집** \> **윤곽** \> **모두 축소**
 - [모든 명령](../tools/all_commands): **편집** \> **윤곽** \> **모두 축소**
-- 도구 모음: ![](../../images/outline_min.gif)
+- 도구 모음: ![](../../images/outline_min.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_OUTLINE_COLLAPSE_ALL (4410)```
+EEID_OUTLINE_COLLAPSE_ALL (4410)
+```
 
 ## 매크로
 

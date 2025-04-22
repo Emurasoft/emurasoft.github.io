@@ -15,14 +15,15 @@
 - 預設功能表: **檔案** \> **另存新檔**
 - [全部命令](../tools/all_commands): **檔案** \> **儲存**
 \> **另存新檔**
-- 工具列: ![](../../images/save_as.gif)
+- 工具列: ![](../../images/save_as.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_FILE_SAVE_AS (4100)```
+EEID_FILE_SAVE_AS (4100)
+```
 
 ## 巨集
 

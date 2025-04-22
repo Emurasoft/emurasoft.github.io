@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[水平線\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[水平線\]
-- ツール バー: ![](../../images/hr.gif)
+- ツール バー: ![](../../images/hr.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MARKDOWN_HR (23267)```
+EEID_MARKDOWN_HR (23267)
+```
 
 ## マクロ
 

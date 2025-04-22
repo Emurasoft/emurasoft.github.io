@@ -12,14 +12,15 @@ Shows or hides the CSV Converter.
 
 - Default Menu: **CSV** \> **CSV Converter**
 - [All Commands](../tools/all_commands): **CSV** \> **CSV Converter**
-- Toolbar: ![](../../images/convert_to.gif)
+- Toolbar: ![](../../images/convert_to.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_CSV_CONVERTER (3891)```
+EEID_CSV_CONVERTER (3891)
+```
 
 ## Macros
 

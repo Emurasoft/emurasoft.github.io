@@ -13,14 +13,15 @@ document, this command will not move the cursor.
 
 - Default Menu: **Bookmarks** \> **Previous Bookmark**
 - [All Commands](../tools/all_commands): **Bookmarks** \> **Previous Bookmark**
-- Toolbar: ![](../../images/bookmarkprevwithin.gif)
+- Toolbar: ![](../../images/bookmarkprevwithin.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_BOOKMARK_PREV_WITHIN (4352)```
+EEID_BOOKMARK_PREV_WITHIN (4352)
+```
 
 ## Macros
 

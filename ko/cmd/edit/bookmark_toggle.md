@@ -12,14 +12,15 @@
 
 - 기본 메뉴: **편집** \> **책갈피** \> **책갈피 설정/해제**
 - [모든 명령](../tools/all_commands): **편집** \> **책갈피** \> **책갈피 설정/해제**
-- 도구 모음: ![](../../images/bookmarktoggle.gif)
+- 도구 모음: ![](../../images/bookmarktoggle.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+F2
 
 ## 플러그인 명령 ID
 
 ```
-EEID_BOOKMARK_TOGGLE (4320)```
+EEID_BOOKMARK_TOGGLE (4320)
+```
 
 ## 매크로
 

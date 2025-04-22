@@ -13,14 +13,15 @@ set.
 
 - Default Menu: **Bookmarks** \> **Toggle Bookmark**
 - [All Commands](../tools/all_commands): **Bookmarks** \> **Toggle Bookmark**
-- Toolbar: ![](../../images/bookmarktoggle.gif)
+- Toolbar: ![](../../images/bookmarktoggle.png)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+F2
 
 ## Plug-in Command ID
 
 ```
-EEID_BOOKMARK_TOGGLE (4320)```
+EEID_BOOKMARK_TOGGLE (4320)
+```
 
 ## Macros
 

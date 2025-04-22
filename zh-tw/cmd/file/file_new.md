@@ -15,7 +15,7 @@
 
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **檔案** \> **新增** \> **新增文字**
-- 工具列: ![](../../images/filenew.gif)
+- 工具列: ![](../../images/filenew.png)
 (不包括箭頭)
 - 狀態列: 無
 - 預設捷徑: CTRL+N
@@ -23,7 +23,8 @@
 ## 外掛程式命令ID
 
 ```
-EEID_FILE_NEW (4096)```
+EEID_FILE_NEW (4096)
+```
 
 ## 巨集
 

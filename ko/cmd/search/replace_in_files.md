@@ -15,14 +15,15 @@
 
 - 기본 메뉴: **검색** \> **파일 내 바꾸기**
 - [모든 명령](../tools/all_commands): **검색** \> **파일 내 바꾸기**
-- 도구 모음: ![](../../images/replaceinfiles.gif)
+- 도구 모음: ![](../../images/replaceinfiles.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_REPLACE_IN_FILES (4362)```
+EEID_REPLACE_IN_FILES (4362)
+```
 
 ## 매크로
 

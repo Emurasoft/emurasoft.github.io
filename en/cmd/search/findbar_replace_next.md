@@ -13,14 +13,15 @@ Replaces the next matched string using the Find toolbar.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Search**
 \> **Find Toolbar** \> **Replace Next**
-- Toolbar: ![](../../images/replace.gif) (Find toolbar)
+- Toolbar: ![](../../images/replace.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_FINDBAR_REPLACE_NEXT (4581)```
+EEID_FINDBAR_REPLACE_NEXT (4581)
+```
 
 ## Macros
 

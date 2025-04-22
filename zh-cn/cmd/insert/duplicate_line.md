@@ -12,14 +12,15 @@
 
 - 默认菜单: **插入** \> **重复行**
 - [所有命令](../tools/all_commands): **插入** \> **重复行**
-- 工具栏: ![](../../images/duplicateline.gif)
+- 工具栏: ![](../../images/duplicateline.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+Y
 
 ## 插件命令ID
 
 ```
-EEID_DUPLICATE_LINE (4328)```
+EEID_DUPLICATE_LINE (4328)
+```
 
 ## 宏
 

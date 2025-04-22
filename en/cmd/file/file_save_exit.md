@@ -13,14 +13,15 @@ Saves the changes to, and closes the current document.
 - Default Menu: **File** \> **Save and Close**
 - [All Commands](../tools/all_commands): **File** \> **Close**
 \> **Save and Close**
-- Toolbar: ![](../../images/filesaveexit.gif)
+- Toolbar: ![](../../images/filesaveexit.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+E
 
 ## Plug-in Command ID
 
 ```
-EEID_FILE_SAVE_EXIT (4116)```
+EEID_FILE_SAVE_EXIT (4116)
+```
 
 ## Macros
 

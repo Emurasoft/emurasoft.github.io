@@ -13,14 +13,15 @@
 - 預設功能表: **檔案** \> **列印預覽**
 - [全部命令](../tools/all_commands): **檔案** \> **列印**
 \> **列印預覽**
-- 工具列: ![](../../images/printpreview.gif)
+- 工具列: ![](../../images/printpreview.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_PRINT_PREVIEW (4286)```
+EEID_PRINT_PREVIEW (4286)
+```
 
 ## 巨集
 

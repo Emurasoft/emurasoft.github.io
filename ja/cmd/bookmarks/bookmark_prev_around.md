@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[ブックマーク\] \- \[この文書の前のブックマーク(一周)\]
 - [すべてのコマンド](../../glossary/allcommands): \[ブックマーク\] \- \[この文書の前のブックマーク(一周)\]
-- ツール バー: ![](../../images/bookmarkprevwithin.gif)
+- ツール バー: ![](../../images/bookmarkprevwithin.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_BOOKMARK_PREV_AROUND (4000)```
+EEID_BOOKMARK_PREV_AROUND (4000)
+```
 
 ## マクロ
 

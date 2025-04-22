@@ -18,7 +18,7 @@ file. If you want to change the encoding and reload the file, select the
 - [All Commands](../tools/all_commands): **View** \> **Font** >
 **Font Category**
 \> **OEM/DOS**
-- Toolbar: ![](../../images/fontpopup.gif)
+- Toolbar: ![](../../images/fontpopup.png)
 (on the arrow) > **Font Category** \> **OEM/DOS**
 - Status Bar: None
 - Default Shortcut Key: None
@@ -26,7 +26,8 @@ file. If you want to change the encoding and reload the file, select the
 ## Plug-in Command ID
 
 ```
-EEID_CHARSET_OEM (8719)```
+EEID_CHARSET_OEM (8719)
+```
 
 ## Macros
 

@@ -13,14 +13,15 @@
 - 既定のメニュー: \[検索\] \- \[前を検索\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[前を検索\]
 - ツール バー:
-![](../../images/editrepeatback.gif)
+![](../../images/editrepeatback.png)
 - ステータス バー: なし
 - 既定のショートカット: Shift+F3
 
 ## プラグイン コマンド ID
 
 ```
-EEID_EDIT_REPEAT_BACK (4203)```
+EEID_EDIT_REPEAT_BACK (4203)
+```
 
 ## マクロ
 

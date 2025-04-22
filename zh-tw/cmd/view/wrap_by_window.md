@@ -13,14 +13,15 @@
 - 預設功能表: **檢視** \> **按視窗換行**
 - [全部命令](../tools/all_commands): **檢視** >
 **按視窗換行**
-- 工具列: ![](../../images/wrapbywindow.gif)
+- 工具列: ![](../../images/wrapbywindow.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+3
 
 ## 外掛程式命令ID
 
 ```
-EEID_WRAP_BY_WINDOW (4210)```
+EEID_WRAP_BY_WINDOW (4210)
+```
 
 ## 巨集
 

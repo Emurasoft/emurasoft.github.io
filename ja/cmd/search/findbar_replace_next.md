@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[検索ツール バー\] \- \[次を置換\]
-- ツール バー: ![](../../images/replace.gif) (検索ツール バー)
+- ツール バー: ![](../../images/replace.png) (検索ツール バー)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_FINDBAR_REPLACE_NEXT (4581)```
+EEID_FINDBAR_REPLACE_NEXT (4581)
+```
 
 ## マクロ
 

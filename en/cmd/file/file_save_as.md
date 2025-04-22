@@ -17,14 +17,15 @@ If you want to save a titled file under the same name immediately, use the
 - Default Menu: **File** \> **Save As**
 - [All Commands](../tools/all_commands): **File** \> **Save**
 \> **Save As**
-- Toolbar: ![](../../images/save_as.gif)
+- Toolbar: ![](../../images/save_as.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_FILE_SAVE_AS (4100)```
+EEID_FILE_SAVE_AS (4100)
+```
 
 ## Macros
 

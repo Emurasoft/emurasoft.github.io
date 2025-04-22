@@ -12,14 +12,15 @@ Redo all the previous actions.
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Edit** \> **Redo** \> **Redo All**
-- Toolbar: ![](../../images/editredo.gif) (on the arrow)
+- Toolbar: ![](../../images/editredo.png) (on the arrow)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_REDO_ALL (3981)```
+EEID_REDO_ALL (3981)
+```
 
 ## Macros
 

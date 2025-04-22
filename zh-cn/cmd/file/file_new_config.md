@@ -12,14 +12,15 @@
 
 - 默认菜单: **文件** \> **新建** \> **(配置名称)**
 - [所有命令](../tools/all_commands): **文件** \> **新建 \> (配置名称)**
-- 工具栏: ![](../../images/filenew.gif) (点击向下箭头) \+ (配置名称)
+- 工具栏: ![](../../images/filenew.png) (点击向下箭头) \+ (配置名称)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-从 EEID_FILE_NEW_CONFIG 到 ID_FILE_NEW_CONFIG + 255 (从 7168```
+从 EEID_FILE_NEW_CONFIG 到 ID_FILE_NEW_CONFIG + 255 (从 7168
+```
 到 7168 + 255)
 
 ## 宏

@@ -12,14 +12,15 @@ Toggles the cell selection mode in CSV documents.
 
 - Default Menu: **CSV** \> **Cell Selection Mode**
 - [All Commands](../tools/all_commands): **CSV** \> **Cell Selection Mode**
-- Toolbar: ![](../../images/cell_selection_mode.gif)
+- Toolbar: ![](../../images/cell_selection_mode.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_CSV_CELL_MODE (3959)```
+EEID_CSV_CELL_MODE (3959)
+```
 
 ## Macros
 

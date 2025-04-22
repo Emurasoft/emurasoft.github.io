@@ -12,7 +12,7 @@
 
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **CSV** \> **列** \> **添加列**
-- 工具栏: ![](../../images/columns_separators.gif) \+ 添加列
+- 工具栏: ![](../../images/columns_separators.png) \+ 添加列
 - 状态栏: 无
 - 默认快捷键: 无
 

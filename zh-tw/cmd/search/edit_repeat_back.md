@@ -14,14 +14,15 @@
 - [全部命令](../tools/all_commands): **搜尋**
 \> **上一個**
 - Toolbar:
-![](../../images/editrepeatback.gif)
+![](../../images/editrepeatback.png)
 - 狀態列: 無
 - 預設捷徑: SHIFT+F3
 
 ## 外掛程式命令ID
 
 ```
-EEID_EDIT_REPEAT_BACK (4203)```
+EEID_EDIT_REPEAT_BACK (4203)
+```
 
 ## 巨集
 

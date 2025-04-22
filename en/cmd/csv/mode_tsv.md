@@ -12,14 +12,15 @@ Selects the TSV (Tab-separated) mode.
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): None
-- Toolbar: ![](../../images/tsv.gif)
+- Toolbar: ![](../../images/tsv.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MODE_TSV (4471)```
+EEID_MODE_TSV (4471)
+```
 
 ## Macros
 

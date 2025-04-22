@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セパレーター\] - \[列/セパレーター (ポップアップ メニュー)\]
-- ツール バー: ![](../../images/columns_separators.gif)
+- ツール バー: ![](../../images/columns_separators.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_SV_SEP_POPUP (3893)```
+EEID_SV_SEP_POPUP (3893)
+```
 
 ## マクロ
 

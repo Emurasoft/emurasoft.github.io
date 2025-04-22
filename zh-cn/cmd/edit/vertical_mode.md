@@ -14,14 +14,15 @@
 \> **粘滞垂直模式**
 - [所有命令](../tools/all_commands): **编辑** \> **选择模式**
 \> **粘滞垂直模式**
-- 工具栏: ![](../../images/sticky.gif)
+- 工具栏: ![](../../images/sticky.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_VERTICAL_MODE (4473)```
+EEID_VERTICAL_MODE (4473)
+```
 
 ## 宏
 

@@ -2,7 +2,7 @@
 
 The **HTMLBar** plug-in is installed by default with EmEditor Professional. This plug-in displays a toolbar, filled with buttons, which helps you insert frequently used HTML tags and elements. To use the **HTMLBar** plug-in:
 
-1. Open an HTML file, and click ![](../../images/htmlbar.gif) on the **Plug-Ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **HTMLBar**. The
+1. Open an HTML file, and click ![](../../images/htmlbar.png) on the **Plug-Ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **HTMLBar**. The
 **HTML toolbar** will appear.
 2. Click any button of the **HTML** tag or element you would like to insert in the **HTML** document.
 
@@ -12,7 +12,7 @@ The **HTMLBar** plug-in is installed by default with EmEditor Professional. This
 
 In order to customize the toolbar buttons:
 
-1. Right click ![](../../images/htmlbar.gif) on the **Plug-in toolbar**, then click **Properties**. The **HTML Bar Properties** box is displayed.
+1. Right click ![](../../images/htmlbar.png) on the **Plug-in toolbar**, then click **Properties**. The **HTML Bar Properties** box is displayed.
 2. Click on the **Customize Buttons** button **.**
 The **Customize Buttons** dialog box will appear. The predefined buttons are listed. You can click the **New** button to add a new button, or the **Properties** button to edit the selected button.
 When you click the **New** button or the **Properties** button, the **Button Properties** will appear, where you can set the following options:

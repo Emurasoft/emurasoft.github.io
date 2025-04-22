@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[ヘディング\] - \[ヘディング (ポップアップ メニュー)\]
-- ツール バー: ![](../../images/heading.gif)
+- ツール バー: ![](../../images/heading.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_HEADING_POPUP (3898)```
+EEID_HEADING_POPUP (3898)
+```
 
 ## マクロ
 

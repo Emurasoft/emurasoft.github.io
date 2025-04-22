@@ -17,14 +17,15 @@ current window.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Window**
 \> **Split** \> **Toggle Horizontal Split**
-- Toolbar: ![](../../images/windowsplithorzfix.gif)
+- Toolbar: ![](../../images/windowsplithorzfix.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL + -
 
 ## Plug-in Command ID
 
 ```
-EEID_WINDOW_SPLIT_HORZ_TOGGLE (4385)```
+EEID_WINDOW_SPLIT_HORZ_TOGGLE (4385)
+```
 
 ## Macros
 

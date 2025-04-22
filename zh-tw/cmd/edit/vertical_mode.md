@@ -14,14 +14,15 @@
 \> **相粘垂直模式**
 - [全部命令](../tools/all_commands): **編輯** \> **選擇模式**
 \> **相粘垂直模式**
-- 工具列: ![](../../images/sticky.gif)
+- 工具列: ![](../../images/sticky.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_VERTICAL_MODE (4473)```
+EEID_VERTICAL_MODE (4473)
+```
 
 ## 巨集
 

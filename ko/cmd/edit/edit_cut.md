@@ -14,14 +14,15 @@
 - 기본 메뉴: **편집** \> **자르기**
 - [모든 명령](../tools/all_commands): **편집** \> **자르기**
 \> **자르기**
-- 도구 모음: ![](../../images/cut.gif)
+- 도구 모음: ![](../../images/cut.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+X 또는 SHIFT+DELETE
 
 ## 플러그인 명령 ID
 
 ```
-EEID_EDIT_CUT (4126)```
+EEID_EDIT_CUT (4126)
+```
 
 ## 매크로
 
