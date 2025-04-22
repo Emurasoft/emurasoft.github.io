@@ -42,6 +42,7 @@ latex_elements = {
           Path=../../,
           Extension=.ttf,
         ]{NotoSans-VariableFont_wdth,wght}
+        \raggedright
     '''
 }
 exclude_patterns = ['about/thirdPartyLicenses.md']
