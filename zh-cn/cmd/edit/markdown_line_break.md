@@ -12,7 +12,7 @@
 
 - 默认菜单: **编辑** \> **Markdown** \> **换行符**
 - [所有命令](../tools/all_commands): **编辑** \> **Markdown** \> **换行符**
-- 工具栏: ![](../../images/markdown_line_break.gif)
+- 工具栏: ![](../../images/markdown_line_break.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

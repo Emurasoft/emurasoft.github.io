@@ -16,7 +16,7 @@ editing the document.
 
 - Default Menu: **File** \> **Reload** \> **UTF-16LE**
 - [All Commands](../tools/all_commands): **File** \> **Reload UTF-16LE**
-- Toolbar: ![](../../images/reload.gif) (on
+- Toolbar: ![](../../images/reload.png) (on
 the arrow) > **UTF-16LE**
 - Status Bar: (double-click on the **Encoding**) \> **UTF-16LE**
 - Default Shortcut Key: None
@@ -24,7 +24,8 @@ the arrow) > **UTF-16LE**
 ## Plug-in Command ID
 
 ```
-EEID_FILE_RELOAD_UNICODE (4257)```
+EEID_FILE_RELOAD_UNICODE (4257)
+```
 
 ## Macros
 

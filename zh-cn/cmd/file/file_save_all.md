@@ -14,14 +14,15 @@
 - [所有命令](../tools/all_commands): **文件** \> **保存**
 \> **全部保存**
 - 工具栏:
-![](../../images/filesaveall.gif)
+![](../../images/filesaveall.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_FILE_SAVE_ALL (4101)```
+EEID_FILE_SAVE_ALL (4101)
+```
 
 ## 宏
 

@@ -14,14 +14,15 @@ message appears to select whether you want to save the changes or not.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **File** \> **Close**
 \> **Close All**
-- Toolbar: ![](../../images/exitall.gif)
+- Toolbar: ![](../../images/exitall.png)
 - Status Bar: None
 - Default Shortcut Key: ALT+SHIFT+X
 
 ## Plug-in Command ID
 
 ```
-EEID_EXIT_ALL (4119)```
+EEID_EXIT_ALL (4119)
+```
 
 ## Macros
 

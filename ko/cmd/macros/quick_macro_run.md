@@ -17,14 +17,15 @@
 - 기본 메뉴: **매크로** \> **실행** (엠에디터 스탠다드, **도구** \> **매크로 실행**)
 - [모든 명령](../tools/all_commands): **매크로**
 \> **실행** (엠에디터 스탠다드, **도구** \> **매크로 실행**)
-- 도구 모음: ![](../../images/quickmacrorun.gif)
+- 도구 모음: ![](../../images/quickmacrorun.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+SHIFT+P
 
 ## 플러그인 명령 ID
 
 ```
-EEID_QUICK_MACRO_RUN (4217)```
+EEID_QUICK_MACRO_RUN (4217)
+```
 
 ## 매크로
 

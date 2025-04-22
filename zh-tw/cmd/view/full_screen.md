@@ -12,14 +12,15 @@
 
 - 預設功能表: **檢視** \> **版面配置** \> **全屏**
 - [全部命令](../tools/all_commands): **檢視** \> **版面配置** \> **全屏**
-- 工具列: ![](../../images/full_screen.gif)
+- 工具列: ![](../../images/full_screen.png)
 - 狀態列: 無
 - 預設捷徑: F11
 
 ## 外掛程式命令ID
 
 ```
-EEID_FULL_SCREEN (4453)```
+EEID_FULL_SCREEN (4453)
+```
 
 ## 巨集
 

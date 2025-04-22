@@ -13,14 +13,15 @@ Automatically sets focus to the cell toolbar.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **View** >
 **Toolbars** \> **Cell Toolbar Options** \> **Automatically Set Focus**
-- Toolbar: ![](../../images/commonsettings.gif) (Cell toolbar) + Automatically Set Focus
+- Toolbar: ![](../../images/commonsettings.png) (Cell toolbar) + Automatically Set Focus
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_CELL_BAR_AUTO_FOCUS (3970)```
+EEID_CELL_BAR_AUTO_FOCUS (3970)
+```
 
 ## Macros
 

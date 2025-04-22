@@ -18,14 +18,15 @@
 - 기본 메뉴: **매크로** \> **편집**
 - [모든 명령](../tools/all_commands): **매크로**
 \> **편집**
-- 도구 모음: ![](../../images/macroedit.gif)
+- 도구 모음: ![](../../images/macroedit.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_MACRO_EDIT (4348)```
+EEID_MACRO_EDIT (4348)
+```
 
 ## 매크로
 

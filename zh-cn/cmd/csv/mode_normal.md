@@ -12,14 +12,15 @@
 
 - 默认菜单: **编辑** \> **CSV** \> **标准模式**
 - [所有命令](../tools/all_commands): **编辑** \> **CSV** \> **标准模式**
-- 工具栏: ![](../../images/default_mode.gif)
+- 工具栏: ![](../../images/default_mode.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_MODE_NORMAL (4472)```
+EEID_MODE_NORMAL (4472)
+```
 
 ## 宏
 

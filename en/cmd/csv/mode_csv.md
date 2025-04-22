@@ -12,14 +12,15 @@ Selects the CSV (Comma-separated) mode.
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): None
-- Toolbar: ![](../../images/csv.gif)
+- Toolbar: ![](../../images/csv.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MODE_CSV (4459)```
+EEID_MODE_CSV (4459)
+```
 
 ## Macros
 

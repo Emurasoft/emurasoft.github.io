@@ -14,14 +14,15 @@
 
 - 既定のメニュー: \[表示\] \- \[ウィンドウの右端で折り返し\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[ウィンドウの右端で折り返し\]
-- ツール バー: ![](../../images/wrapbywindow.gif)
+- ツール バー: ![](../../images/wrapbywindow.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+3
 
 ## プラグイン コマンド ID
 
 ```
-EEID_WRAP_BY_WINDOW (4210)```
+EEID_WRAP_BY_WINDOW (4210)
+```
 
 ## マクロ
 

@@ -13,7 +13,7 @@
 - 默认菜单: **窗口** \> **启用标签页**
 - [所有命令](../tools/all_commands): **窗口**
 \> **启用标签页** \> **启用标签页**
-- 工具栏: ![](../../images/windowcombine.gif)
+- 工具栏: ![](../../images/windowcombine.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

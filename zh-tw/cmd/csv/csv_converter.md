@@ -12,7 +12,7 @@
 
 - 預設功能表: **CSV** \> **CSV 轉換器**
 - [全部命令](../tools/all_commands): **CSV** \> **CSV 轉換器**
-- 工具列: ![](../../images/convert_to.gif)
+- 工具列: ![](../../images/convert_to.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

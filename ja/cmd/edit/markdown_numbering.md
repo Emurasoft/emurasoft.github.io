@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[段落番号\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[段落番号\]
-- ツール バー: ![](../../images/numbering.gif)
+- ツール バー: ![](../../images/numbering.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MARKDOWN_NUMBERING (23265)```
+EEID_MARKDOWN_NUMBERING (23265)
+```
 
 ## マクロ
 

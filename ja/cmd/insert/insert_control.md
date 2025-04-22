@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[挿入\] \- \[特殊文字\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[特殊文字\]
-- ツール バー: ![](../../images/insertcontrol.gif)
+- ツール バー: ![](../../images/insertcontrol.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl + Shift + I
 
 ## プラグイン コマンド ID
 
 ```
-EEID_INSERT_CONTROL (4197)```
+EEID_INSERT_CONTROL (4197)
+```
 
 ## マクロ
 

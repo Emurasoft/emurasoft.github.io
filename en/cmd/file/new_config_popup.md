@@ -27,7 +27,7 @@ button.
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **File** \> **New** \> **New (Popup Menu)**
-- Toolbar: ![](../../images/filenew.gif) (on
+- Toolbar: ![](../../images/filenew.png) (on
 the arrow)
 - Status Bar: None
 - Default Shortcut Key: None

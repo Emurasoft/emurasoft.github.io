@@ -16,14 +16,15 @@
 - [全部命令](../tools/all_commands): **檔案** \> **打開**
 \> **關閉并打開**
 - 工具列:
-![](../../images/filecloseopen.gif)
+![](../../images/filecloseopen.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_FILE_CLOSE_OPEN (4098)```
+EEID_FILE_CLOSE_OPEN (4098)
+```
 
 ## 巨集
 

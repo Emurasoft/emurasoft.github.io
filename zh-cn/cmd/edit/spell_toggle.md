@@ -13,14 +13,15 @@
 - 默认菜单: **编辑** \> **拼写检查** \> **进行拼写检查**
 - [所有命令](../tools/all_commands): **编辑** \> **拼写检查** \> **进行拼写检查**
 - 工具栏:
-![](../../images/spelling24x16.gif)
+![](../../images/spelling24x16.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_SPELL_TOGGLE (4512)```
+EEID_SPELL_TOGGLE (4512)
+```
 
 ## 宏
 

@@ -12,14 +12,15 @@
 
 - 預設功能表: **編輯** \> **CSV** \> **儲存格選擇模式**
 - [全部命令](../tools/all_commands): **編輯** \> **CSV** \> **儲存格選擇模式**
-- 工具列: ![](../../images/cell_selection_mode.gif)
+- 工具列: ![](../../images/cell_selection_mode.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_CSV_CELL_MODE (3959)```
+EEID_CSV_CELL_MODE (3959)
+```
 
 ## 巨集
 

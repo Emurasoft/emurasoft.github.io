@@ -12,14 +12,15 @@
 
 - 默认菜单: **编辑** \> **仅编辑选定区域**
 - [所有命令](../tools/all_commands): **编辑** \> **仅编辑选定区域** \> **启用/禁用仅编辑选定区域模式**
-- 工具栏: ![](../../images/narrowing.gif)
+- 工具栏: ![](../../images/narrowing.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_NARROWING_TOGGLE (4456)```
+EEID_NARROWING_TOGGLE (4456)
+```
 
 ## 宏
 

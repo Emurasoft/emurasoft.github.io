@@ -1,11 +1,11 @@
 # 录制或运行宏
 
-1. 在工具栏上点击 ![Start/Stop Macro Record](../../images/macrorecord.gif) 。
+1. 在工具栏上点击 ![Start/Stop Macro Record](../../images/macrorecord.png) 。
 2. 进行你想要录制的操作。
 3. 完成录制通过在工具栏上再次点击
-![Start/Stop Macro Record](../../images/macrorecord.gif) 。
+![Start/Stop Macro Record](../../images/macrorecord.png) 。
 4. 要运行录制的宏，点击工具栏上的
-![](../../images/macrorun.gif) 。
+![](../../images/macrorun.png) 。
 
 ## 提示
 

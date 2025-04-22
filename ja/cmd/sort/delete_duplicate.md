@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[並べ替え\] \- \[重複行の削除\]
 - [すべてのコマンド](../../glossary/allcommands): \[並べ替え\] \- \[重複行の削除\]
-- ツール バー: ![](../../images/deleteduplicatelines.gif)
+- ツール バー: ![](../../images/deleteduplicatelines.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_DELETE_DUPLICATE (4564)```
+EEID_DELETE_DUPLICATE (4564)
+```
 
 ## マクロ
 

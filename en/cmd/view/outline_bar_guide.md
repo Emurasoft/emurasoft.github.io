@@ -14,14 +14,15 @@ Shows or hides the outline bar and the outline guide.
 - [All Commands](../tools/all_commands): **View** >
 **Outline** >
 **Outline Bar and Guide**
-- Toolbar: **![Outline](../../images/plugin_outline.gif)**
+- Toolbar: **![Outline](../../images/plugin_outline.png)**
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_OUTLINE_BAR_GUIDE (3874)```
+EEID_OUTLINE_BAR_GUIDE (3874)
+```
 
 ## Macros
 

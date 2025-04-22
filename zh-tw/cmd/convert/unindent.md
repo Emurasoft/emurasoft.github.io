@@ -12,14 +12,15 @@
 
 - 預設功能表: **轉換** \> **減少行縮排**
 - [全部命令](../tools/all_commands): **轉換** \> **減少行縮排**
-- 工具列: ![](../../images/unindent.gif)
+- 工具列: ![](../../images/unindent.png)
 - 狀態列: 無
 - 預設捷徑: SHIFT + TAB
 
 ## 外掛程式命令ID
 
 ```
-EEID_UNINDENT (4359)```
+EEID_UNINDENT (4359)
+```
 
 ## 巨集
 

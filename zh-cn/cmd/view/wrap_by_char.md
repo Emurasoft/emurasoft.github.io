@@ -13,14 +13,15 @@
 - 默认菜单: **查看** \> **按字符换行**
 - [所有命令](../tools/all_commands): **查看** >
 **按字符换行**
-- 工具栏: ![](../../images/wrapbychar.gif)
+- 工具栏: ![](../../images/wrapbychar.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+2
 
 ## 插件命令ID
 
 ```
-EEID_WRAP_BY_CHAR (4209)```
+EEID_WRAP_BY_CHAR (4209)
+```
 
 ## 宏
 

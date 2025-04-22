@@ -21,7 +21,7 @@ editing the document.
 - Default Menu: **File** \> **Reload** \> **Detect All**
 - [All Commands](../tools/all_commands): **File** \> **Reload**
 \> **Detect All**
-- Toolbar: ![](../../images/reload.gif) (on
+- Toolbar: ![](../../images/reload.png) (on
 the arrow) > **Detect All**
 - Status Bar: (double-click on **Encoding**) \> **Detect All**
 - Default Shortcut Key: None
@@ -29,7 +29,8 @@ the arrow) > **Detect All**
 ## Plug-in Command ID
 
 ```
-EEID_FILE_RELOAD_DETECT_ALL (4279)```
+EEID_FILE_RELOAD_DETECT_ALL (4279)
+```
 
 ## Macros
 

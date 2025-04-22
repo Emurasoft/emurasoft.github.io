@@ -12,14 +12,15 @@
 
 - 預設功能表: **CSV** \> **調整分隔符號位置**
 - [全部命令](../tools/all_commands): **CSV** \> **調整分隔符號位置**
-- 工具列: ![](../../images/columns_separators.gif) \+ 調整分隔符號位置
+- 工具列: ![](../../images/columns_separators.png) \+ 調整分隔符號位置
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_ADJUST_COLUMN (4460)```
+EEID_ADJUST_COLUMN (4460)
+```
 
 ## 巨集
 

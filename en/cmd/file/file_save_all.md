@@ -15,14 +15,15 @@ the **Save As** dialog box appears, which allows you to enter a file name to sav
 - [All Commands](../tools/all_commands): **File** \> **Save**
 \> **Save All**
 - Toolbar:
-![](../../images/filesaveall.gif)
+![](../../images/filesaveall.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_FILE_SAVE_ALL (4101)```
+EEID_FILE_SAVE_ALL (4101)
+```
 
 ## Macros
 

@@ -13,14 +13,15 @@
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **文件** \> **关闭**
 \> **全部关闭**
-- 工具栏: ![](../../images/exitall.gif)
+- 工具栏: ![](../../images/exitall.png)
 - 状态栏: 无
 - 默认快捷键: ALT+SHIFT+X
 
 ## 插件命令ID
 
 ```
-EEID_EXIT_ALL (4119)```
+EEID_EXIT_ALL (4119)
+```
 
 ## 宏
 

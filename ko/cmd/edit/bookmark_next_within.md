@@ -13,14 +13,15 @@
 
 - 기본 메뉴: **편집** \> **책갈피** \> **다음 책갈피**
 - [모든 명령](../tools/all_commands): **편집** \> **책갈피** \> **다음 책갈피**
-- 도구 모음: ![](../../images/bookmarknextwithin.gif)
+- 도구 모음: ![](../../images/bookmarknextwithin.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_BOOKMARK_NEXT_WITHIN (4351)```
+EEID_BOOKMARK_NEXT_WITHIN (4351)
+```
 
 ## 매크로
 

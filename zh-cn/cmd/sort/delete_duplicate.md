@@ -12,14 +12,15 @@
 
 - 默认菜单: **排序** \> **删除重复行**
 - [所有命令](../tools/all_commands): **排序** \> **删除重复行**
-- 工具栏: ![](../../images/deleteduplicatelines.gif)
+- 工具栏: ![](../../images/deleteduplicatelines.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_DELETE_DUPLICATE (4564)```
+EEID_DELETE_DUPLICATE (4564)
+```
 
 ## 宏
 

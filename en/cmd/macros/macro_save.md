@@ -15,14 +15,15 @@ This command displays the **Save As** dialog box, and allows you to enter a file
 - Default Menu: **Macros** \> **Save As**
 - [All Commands](../tools/all_commands): **Macros**
 \> **Save As**
-- Toolbar: ![](../../images/macrosave.gif)
+- Toolbar: ![](../../images/macrosave.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MACRO_SAVE (4346)```
+EEID_MACRO_SAVE (4346)
+```
 
 ## Macros
 

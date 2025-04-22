@@ -15,14 +15,15 @@ same options.
 - [All Commands](../tools/all_commands): **Search**
 \> **Previous**
 - Toolbar:
-![](../../images/editrepeatback.gif)
+![](../../images/editrepeatback.png)
 - Status Bar: None
 - Default Shortcut Key: SHIFT+F3
 
 ## Plug-in Command ID
 
 ```
-EEID_EDIT_REPEAT_BACK (4203)```
+EEID_EDIT_REPEAT_BACK (4203)
+```
 
 ## Macros
 

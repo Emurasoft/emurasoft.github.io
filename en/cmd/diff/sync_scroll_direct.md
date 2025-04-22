@@ -13,14 +13,15 @@ Synchronizes scrolling of the two most recently viewed documents without specify
 - Default Menu: **Compare** \> **Synchronize Scrolling Direct**
 - [All Commands](../tools/all_commands): **Compare** \> **Synchronize Scrolling**
 **Direct**
-- Toolbar: ![](../../images/sync24x16.gif)
+- Toolbar: ![](../../images/sync24x16.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_SYNC_SCROLL_DIRECT (4495)```
+EEID_SYNC_SCROLL_DIRECT (4495)
+```
 
 ## Macros
 

@@ -12,14 +12,15 @@ Adds or removes a separator at the cursor position (or at the pointed position o
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **CSV** > **Separators** \> **Add/Remove Separator**
-- Toolbar: ![](../../images/columns_separators.gif) \+ Add/Remove Separator
+- Toolbar: ![](../../images/columns_separators.png) \+ Add/Remove Separator
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_ADD_REMOVE_SEPARATOR (3884)```
+EEID_ADD_REMOVE_SEPARATOR (3884)
+```
 
 ## Macros
 

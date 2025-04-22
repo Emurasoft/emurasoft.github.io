@@ -18,14 +18,15 @@ temporary macro to a file.
 Standard; **Tools** \> **Start/Stop Macro Record**)
 - [All Commands](../tools/all_commands): **Macros**
 \> **Start/Stop Record** (On EmEditor Standard; **Tools** \> **Start/Stop Macro Record**)
-- Toolbar: ![](../../images/quickmacrorecord.gif)
+- Toolbar: ![](../../images/quickmacrorecord.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+R
 
 ## Plug-in Command ID
 
 ```
-EEID_QUICK_MACRO_RECORD (4216)```
+EEID_QUICK_MACRO_RECORD (4216)
+```
 
 ## Macros
 

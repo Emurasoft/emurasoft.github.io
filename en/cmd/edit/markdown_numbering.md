@@ -12,14 +12,15 @@ Inserts an ordered list.
 
 - Default Menu: **Edit** \> **Markdown** \> **Numbering**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Numbering**
-- Toolbar: ![](../../images/numbering.gif)
+- Toolbar: ![](../../images/numbering.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_NUMBERING (23265)```
+EEID_MARKDOWN_NUMBERING (23265)
+```
 
 ## Macros
 

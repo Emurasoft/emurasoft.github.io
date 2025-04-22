@@ -13,14 +13,15 @@
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **编辑** \> **水平移动光标**
 \> **查找配对的括号**
-- 工具栏: ![](../../images/nextparen.gif)
+- 工具栏: ![](../../images/nextparen.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+\]
 
 ## 插件命令ID
 
 ```
-EEID_NEXT_PAREN (4276)```
+EEID_NEXT_PAREN (4276)
+```
 
 ## 宏
 

@@ -13,14 +13,15 @@
 
 - 預設功能表: **插入** \> **插入特殊字元**
 - [全部命令](../tools/all_commands): **插入** \> **插入特殊字元**
-- 工具列: ![](../../images/insertcontrol.gif)
+- 工具列: ![](../../images/insertcontrol.png)
 - 狀態列: 無
 - 預設捷徑: CTRL + SHIFT + I
 
 ## 外掛程式命令ID
 
 ```
-EEID_INSERT_CONTROL (4197)```
+EEID_INSERT_CONTROL (4197)
+```
 
 ## 巨集
 

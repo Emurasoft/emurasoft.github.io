@@ -13,14 +13,15 @@
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **查看** >
 **标记** \> **标记（换行， 文件结尾或制表符和制表符）**
-- 工具栏: ![](../../images/marks.gif)
+- 工具栏: ![](../../images/marks.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_VIEW_MARKS (4370)```
+EEID_VIEW_MARKS (4370)
+```
 
 ## 宏
 

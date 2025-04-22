@@ -14,14 +14,15 @@ icon will be displayed on the Windows Task Bar.
 - Default Menu: **Window** \> **Enable Tabs**
 - [All Commands](../tools/all_commands): **Window**
 \> **Enable Tabs** \> **Enable Tabs**
-- Toolbar: ![](../../images/windowcombine.gif)
+- Toolbar: ![](../../images/windowcombine.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_WINDOW_COMBINE (4342)```
+EEID_WINDOW_COMBINE (4342)
+```
 
 ## Macros
 

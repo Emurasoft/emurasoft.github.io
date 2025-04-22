@@ -13,14 +13,15 @@
 
 - 默认菜单: **编辑** \> **撤消**
 - [所有命令](../tools/all_commands): **编辑** \> **撤消**
-- 工具栏: ![](../../images/editundo.gif)
+- 工具栏: ![](../../images/editundo.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+Z 或 ALT+BACKSPACE
 
 ## 插件命令ID
 
 ```
-EEID_EDIT_UNDO (4124)```
+EEID_EDIT_UNDO (4124)
+```
 
 ## 宏
 

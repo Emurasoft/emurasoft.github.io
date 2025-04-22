@@ -18,14 +18,15 @@ to search, and other options, will start replacing in files. If the
 - Default Menu: **Search** \> **Replace in Files**
 - [All Commands](../tools/all_commands): **Search**
 \> **Replace in Files**
-- Toolbar: ![](../../images/replaceinfiles.gif)
+- Toolbar: ![](../../images/replaceinfiles.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+H
 
 ## Plug-in Command ID
 
 ```
-EEID_REPLACE_IN_FILES (4362)```
+EEID_REPLACE_IN_FILES (4362)
+```
 
 ## Macros
 

@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[検索\] \- \[検索\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[検索\]
-- ツール バー: ![](../../images/editfind.gif)
+- ツール バー: ![](../../images/editfind.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+D
 
 ## プラグイン コマンド ID
 
 ```
-EEID_EDIT_FIND (4200)```
+EEID_EDIT_FIND (4200)
+```
 
 ## マクロ
 

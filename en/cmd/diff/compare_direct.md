@@ -12,14 +12,15 @@ Compares the two most recently viewed documents without specifying options. EmEd
 
 - Default Menu: **Compare** \> **Compare Direct**
 - [All Commands](../tools/all_commands): **Compare** \> **Compare Direct**
-- Toolbar: ![](../../images/compare24x16.gif)
+- Toolbar: ![](../../images/compare24x16.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_COMPARE_DIRECT (4492)```
+EEID_COMPARE_DIRECT (4492)
+```
 
 ## Macros
 

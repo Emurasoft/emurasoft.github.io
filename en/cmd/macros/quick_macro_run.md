@@ -20,14 +20,15 @@ this command on the menu.
 - Default Menu: **Macros** \> **Run**
 - [All Commands](../tools/all_commands): **Macros**
 \> **Run**
-- Toolbar: ![](../../images/quickmacrorun.gif)
+- Toolbar: ![](../../images/quickmacrorun.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+P
 
 ## Plug-in Command ID
 
 ```
-EEID_QUICK_MACRO_RUN (4217)```
+EEID_QUICK_MACRO_RUN (4217)
+```
 
 ## Macros
 

@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[マクロ\] \- \[記録/停止\]
 - [すべてのコマンド](../../glossary/allcommands): \[マクロ\] \- \[記録/停止\]
-- ツール バー: ![](../../images/quickmacrorecord.gif)
+- ツール バー: ![](../../images/quickmacrorecord.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+R
 
 ## プラグイン コマンド ID
 
 ```
-EEID_QUICK_MACRO_RECORD (4216)```
+EEID_QUICK_MACRO_RECORD (4216)
+```
 
 ## マクロ
 

@@ -12,14 +12,15 @@ Clears the separated value view mode.
 
 - Default Menu: **CSV** \> **Normal Mode**
 - [All Commands](../tools/all_commands): **CSV** \> **Normal Mode**
-- Toolbar: ![](../../images/default_mode.gif)
+- Toolbar: ![](../../images/default_mode.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MODE_NORMAL (4472)```
+EEID_MODE_NORMAL (4472)
+```
 
 ## Macros
 

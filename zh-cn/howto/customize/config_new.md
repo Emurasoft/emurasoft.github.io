@@ -1,7 +1,7 @@
 # 定义一个新配置
 
 1. 点击
-![Select Configuration](../../images/configpopup.gif) 并从菜单中选择
+![Select Configuration](../../images/configpopup.png) 并从菜单中选择
 **定义配置**。
 2. 点击 **「新建」** 按钮，并命名新配置。
 3. 点击 **「属性」** 按钮并更改新配置属性。

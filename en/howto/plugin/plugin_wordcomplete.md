@@ -7,7 +7,7 @@ The Word Complete plug-in can also complete recently searched strings. This proc
 
 To use the Word Complete plug-in:
 
-1. Click ![](../../images/wordcomplete.gif) on the **Plug-Ins** bar. Or on the Tools menu, point to **Plug-ins**, and then click **Word Complete** so that it is checked.
+1. Click ![](../../images/wordcomplete.png) on the **Plug-Ins** bar. Or on the Tools menu, point to **Plug-ins**, and then click **Word Complete** so that it is checked.
 2. Type the first few characters of the word you want to insert into the document, and a list filled with previously used words and highlighted words defined in EmEditor will appear.
 3. Use the **UP** or **DOWN** key to select the word to insert, and press **Enter**.
 

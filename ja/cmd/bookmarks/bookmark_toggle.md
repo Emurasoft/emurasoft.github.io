@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[ブックマーク\] \- \[ブックマークを設定/解除\]
 - [すべてのコマンド](../../glossary/allcommands): \[ブックマーク\] \- \[ブックマークを設定/解除\]
-- ツール バー: ![](../../images/bookmarktoggle.gif)
+- ツール バー: ![](../../images/bookmarktoggle.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+F2
 
 ## プラグイン コマンド ID
 
 ```
-EEID_BOOKMARK_TOGGLE (4320)```
+EEID_BOOKMARK_TOGGLE (4320)
+```
 
 ## マクロ
 

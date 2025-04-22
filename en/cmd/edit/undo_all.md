@@ -12,14 +12,15 @@ Undo all the previous actions.
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Edit** \> **Undo** \> **Undo All**
-- Toolbar: ![](../../images/editundo.gif) (on the arrow)
+- Toolbar: ![](../../images/editundo.png) (on the arrow)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_UNDO_ALL (3980)```
+EEID_UNDO_ALL (3980)
+```
 
 ## Macros
 

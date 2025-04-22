@@ -12,14 +12,15 @@
 
 - 預設功能表: **比較** \> **重新掃描**
 - [全部命令](../tools/all_commands): **比較** \> **重新掃描**
-- 工具列:  ![](../../images/rescan24x16.gif)
+- 工具列:  ![](../../images/rescan24x16.png)
 - 狀態列: 無
 - 預設捷徑: **F5**
 
 ## 外掛程式命令ID
 
 ```
-EEID_COMPARE_RESCAN (4494)```
+EEID_COMPARE_RESCAN (4494)
+```
 
 ## 巨集
 

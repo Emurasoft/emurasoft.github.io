@@ -17,14 +17,15 @@
 - 기본 메뉴: **보기** \> **페이지에 맞춰 줄 바꿈**
 - [모든 명령](../tools/all_commands): **보기** >
 **페이지에 맞춰 줄 바꿈**
-- 도구 모음: ![](../../images/wrapbypage.gif)
+- 도구 모음: ![](../../images/wrapbypage.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+4
 
 ## 플러그인 명령 ID
 
 ```
-EEID_WRAP_BY_PAPER (4318)```
+EEID_WRAP_BY_PAPER (4318)
+```
 
 ## 매크로
 

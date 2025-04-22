@@ -12,7 +12,7 @@
 
 - 預設功能表: **編輯** \> **Markdown** \> **表格**
 - [全部命令](../tools/all_commands): **編輯** \> **Markdown** \> **表格**
-- 工具列: ![](../../images/table.gif)
+- 工具列: ![](../../images/table.png)
 - 狀態列: 無
 - 預設快速鍵: 無
 

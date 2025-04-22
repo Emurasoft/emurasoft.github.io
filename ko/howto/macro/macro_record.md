@@ -1,12 +1,12 @@
 # 매크로 기록 및 실행하기
 
-1. 도구 모음에서 ![Start/Stop Macro Record](../../images/macrorecord.gif)
+1. 도구 모음에서 ![Start/Stop Macro Record](../../images/macrorecord.png)
 를 클릭하세요.
 2. 기록하고 싶은 작업을 하십시오.
 3. 도구 모음에서
-![Start/Stop Macro Record](../../images/macrorecord.gif)
+![Start/Stop Macro Record](../../images/macrorecord.png)
 를 다시 클릭해서 기록을 끝내세요.
-4. 도구 모음에서 매크로를 기록하기 위해서 ![](../../images/macrorun.gif) 를 클릭해 주십시오.
+4. 도구 모음에서 매크로를 기록하기 위해서 ![](../../images/macrorun.png) 를 클릭해 주십시오.
 
 ## 팁
 

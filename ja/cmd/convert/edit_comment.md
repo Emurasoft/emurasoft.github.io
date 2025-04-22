@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[変換\] \- \[コメント\]
 - [すべてのコマンド](../../glossary/allcommands): \[変換\] \- \[コメント\]
-- ツール バー: ![](../../images/editcomment.gif)
+- ツール バー: ![](../../images/editcomment.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_EDIT_COMMENT (4371)```
+EEID_EDIT_COMMENT (4371)
+```
 
 ## マクロ
 

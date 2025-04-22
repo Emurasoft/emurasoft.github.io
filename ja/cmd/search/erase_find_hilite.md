@@ -13,14 +13,15 @@
 - 既定のメニュー: \[検索\] \- \[検索文字列の強調を解除\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[検索文字列の強調を解除\]
 - ツール バー:
-![](../../images/erasefindhilite.gif)
+![](../../images/erasefindhilite.png)
 - ステータス バー: なし
 - 既定のショートカット: Alt+F3
 
 ## プラグイン コマンド ID
 
 ```
-EEID_ERASE_FIND_HILITE (4206)```
+EEID_ERASE_FIND_HILITE (4206)
+```
 
 ## マクロ
 

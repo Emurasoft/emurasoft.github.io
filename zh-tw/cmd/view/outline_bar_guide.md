@@ -12,14 +12,15 @@
 
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **檢視** \> **大綱** \> **大綱顯示條和導引**
-- 工具列: **![Outline](../../images/plugin_outline.gif)**
+- 工具列: **![Outline](../../images/plugin_outline.png)**
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_OUTLINE_BAR_GUIDE (3874)```
+EEID_OUTLINE_BAR_GUIDE (3874)
+```
 
 ## 巨集
 

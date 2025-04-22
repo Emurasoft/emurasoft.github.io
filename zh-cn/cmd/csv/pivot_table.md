@@ -12,7 +12,7 @@
 
 - 默认菜单: **CSV** \> **高级** \> **数据透视表**
 - [所有命令](../tools/all_commands): **CSV** \> **高级** \> **数据透视表**
-- 工具栏: ![](../../images/pivot_table.gif)
+- 工具栏: ![](../../images/pivot_table.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

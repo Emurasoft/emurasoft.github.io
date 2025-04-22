@@ -15,14 +15,15 @@
 - 預設功能表: **編輯** \> **貼上**
 - [全部命令](../tools/all_commands): **編輯** \> **貼上**
 \> **貼上**
-- 工具列: ![](../../images/paste.gif)
+- 工具列: ![](../../images/paste.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+V 或 Shift+Insert
 
 ## 外掛程式命令ID
 
 ```
-EEID_EDIT_PASTE (4129)```
+EEID_EDIT_PASTE (4129)
+```
 
 ## 巨集
 

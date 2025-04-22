@@ -12,7 +12,7 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[検索ツール バー\] \- \[高度\]
-- ツール バー: ![](../../images/commonsettings.gif)
+- ツール バー: ![](../../images/commonsettings.png)
 (検索ツール バー)
 - ステータス バー: なし
 - 既定のショートカット: なし
@@ -20,7 +20,8 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_FINDBAR_ADVANCED (3923)```
+EEID_FINDBAR_ADVANCED (3923)
+```
 
 ## マクロ
 

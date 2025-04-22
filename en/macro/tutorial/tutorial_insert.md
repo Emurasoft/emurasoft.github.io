@@ -43,7 +43,7 @@ languages.
 | \\xXX |  | The Latin-1 character with the encoding specified by the two hexadecimal digits. |
 | \\uXXXX |  | The Unicode character with the encoding specified by the four hexadecimal digits. |
 
-### ![](../../images/g.gif) Reference:  [JScript \ Special Characters (Microsoft MSDN Library)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar\#String_literals)
+### ![](../../images/g.png) Reference:  [JScript \ Special Characters (Microsoft MSDN Library)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar\#String_literals)
 
 ### \[VBScript\]
 
@@ -57,7 +57,7 @@ languages.
 | vbTab | Chr(9) | Horizontal tab. |
 | vbVerticalTab | Chr(11) | Vertical tab. |
 
-### ![](../../images/g.gif) Reference:  [VBScript \ String Constants (Microsoft MSDN Library)](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/hh277t8e(v=vs.84))
+### ![](../../images/g.png) Reference:  [VBScript \ String Constants (Microsoft MSDN Library)](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/hh277t8e(v=vs.84))
 
 ## Tips
 

@@ -15,14 +15,15 @@ the **[Configuration Properties](../../dlg/properties/index)** dialog box.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **View** >
 **Marks** \> **Marks (Returns, EOF and Tabs)**
-- Toolbar: ![](../../images/marks.gif)
+- Toolbar: ![](../../images/marks.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_VIEW_MARKS (4370)```
+EEID_VIEW_MARKS (4370)
+```
 
 ## Macros
 

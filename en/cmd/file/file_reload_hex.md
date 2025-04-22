@@ -18,7 +18,7 @@ editing the document.
 - Default Menu: **File** \> **Reload** \> **Binary (Hex View)**
 - [All Commands](../tools/all_commands): **File** \> **Reload**
 \> **Binary (Hex View)**
-- Toolbar: ![](../../images/reload.gif) (on
+- Toolbar: ![](../../images/reload.png) (on
 the arrow) > **System Default**
 - Status Bar: (double-click on **Encodings**) \> **Binary (Hex View)**
 - Default Shortcut Key: None
@@ -26,7 +26,8 @@ the arrow) > **System Default**
 ## Plug-in Command ID
 
 ```
-EEID_FILE_RELOAD_HEX (4439)```
+EEID_FILE_RELOAD_HEX (4439)
+```
 
 ## Macros
 

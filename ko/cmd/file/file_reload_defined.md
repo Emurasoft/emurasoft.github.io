@@ -15,7 +15,7 @@
 
 - 기본 메뉴: **파일** \> **다시 로드** \> **(인코딩)**
 - [모든 명령](../tools/all_commands): **파일** \> **다시 로드** \> **(인코딩)**
-- 도구 모음: ![](../../images/reload.gif) (화살표 위)\-
+- 도구 모음: ![](../../images/reload.png) (화살표 위)\-
 (인코딩)
 - 상태 표시줄: 인코딩을 두 번 클릭 \- (인코딩)
 - 기본 바로 가기 키: 없음
@@ -23,7 +23,8 @@
 ## 플러그인 명령 ID
 
 ```
-From EEID_FILE_RELOAD_DEFINED through EEID_FILE_RELOAD_DEFINED + 255 (from 6656```
+From EEID_FILE_RELOAD_DEFINED through EEID_FILE_RELOAD_DEFINED + 255 (from 6656
+```
 through
 6656 + 255)
 

@@ -13,14 +13,15 @@ Refreshes the document with the current filter settings.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Search**
 \> **Filter Toolbar** \> **Refresh**
-- Toolbar: ![](../../images/refresh.gif) (Filter toolbar)
+- Toolbar: ![](../../images/refresh.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_FILTERBAR_REFRESH (3905)```
+EEID_FILTERBAR_REFRESH (3905)
+```
 
 ## Macros
 

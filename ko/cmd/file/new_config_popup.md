@@ -18,7 +18,7 @@
 
 - 기본 메뉴: 없음
 - [모든 명령](../tools/all_commands): **파일** \> **새로 만들기** \> **새로 만들기 (팝업 메뉴)**
-- 도구 모음: ![](../../images/filenew.gif)
+- 도구 모음: ![](../../images/filenew.png)
 (화살표 위)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -26,7 +26,8 @@
 ## 플러그인 명령 ID
 
 ```
-EEID_NEW_CONFIG_POPUP (4281)```
+EEID_NEW_CONFIG_POPUP (4281)
+```
 
 ## 매크로
 

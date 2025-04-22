@@ -13,14 +13,15 @@
 - 默认菜单: **宏** \> **选择**
 - [所有命令](../tools/all_commands): **宏**
 \> **选择**
-- 工具栏: ![](../../images/macroselect.gif)
+- 工具栏: ![](../../images/macroselect.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_MACRO_SELECT (4347)```
+EEID_MACRO_SELECT (4347)
+```
 
 ## 宏
 

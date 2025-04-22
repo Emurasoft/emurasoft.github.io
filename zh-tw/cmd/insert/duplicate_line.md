@@ -12,14 +12,15 @@
 
 - 預設功能表: **插入** \> **複製行**
 - [全部命令](../tools/all_commands): **插入** \> **複製行**
-- 工具列: ![](../../images/duplicateline.gif)
+- 工具列: ![](../../images/duplicateline.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+SHIFT+Y
 
 ## 外掛程式命令ID
 
 ```
-EEID_DUPLICATE_LINE (4328)```
+EEID_DUPLICATE_LINE (4328)
+```
 
 ## 巨集
 

@@ -12,14 +12,15 @@
 
 - 默认菜单: **排序** \> **按字母升序排序**
 - [所有命令](../tools/all_commands): **排序** \> **按字母升序排序**
-- 工具栏: ![](../../images/sortinga-z.gif)
+- 工具栏: ![](../../images/sortinga-z.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_SORT_TEXT_A (4477)```
+EEID_SORT_TEXT_A (4477)
+```
 
 ## 宏
 

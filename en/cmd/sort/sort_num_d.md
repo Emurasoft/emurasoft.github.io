@@ -12,14 +12,15 @@ Sort numbers at the current column in descending order. This command will not fu
 
 - Default Menu: **Sort** \> **Sort Largest to Smallest**
 - [All Commands](../tools/all_commands): **Sort** \> **Sort Largest to Smallest**
-- Toolbar: ![](../../images/sorting9-0.gif)
+- Toolbar: ![](../../images/sorting9-0.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_SORT_NUM_D (4480)```
+EEID_SORT_NUM_D (4480)
+```
 
 ## Macros
 

@@ -13,14 +13,15 @@ configurations.
 
 - Default Menu: **Convert** \> **Comment**
 - [All Commands](../tools/all_commands): **Convert** \> **Comment**
-- Toolbar: ![](../../images/editcomment.gif)
+- Toolbar: ![](../../images/editcomment.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_EDIT_COMMENT (4371)```
+EEID_EDIT_COMMENT (4371)
+```
 
 ## Macros
 

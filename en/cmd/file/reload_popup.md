@@ -21,7 +21,7 @@ will abort reloading and will allow you to continue editing the document.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **File** \> **Reload**
 \> **Popup Menu**
-- Toolbar: ![](../../images/reload.gif) (on
+- Toolbar: ![](../../images/reload.png) (on
 the arrow)
 - Status Bar: double-click on Encodings
 - Default Shortcut Key: None
@@ -29,7 +29,8 @@ the arrow)
 ## Plug-in Command ID
 
 ```
-EEID_RELOAD_POPUP (4283)```
+EEID_RELOAD_POPUP (4283)
+```
 
 ## Macros
 

@@ -13,14 +13,15 @@
 - 默认菜单: **宏** \> **另存为**
 - [所有命令](../tools/all_commands): **宏**
 \> **另存为**
-- 工具栏: ![](../../images/macrosave.gif)
+- 工具栏: ![](../../images/macrosave.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_MACRO_SAVE (4346)```
+EEID_MACRO_SAVE (4346)
+```
 
 ## 宏
 

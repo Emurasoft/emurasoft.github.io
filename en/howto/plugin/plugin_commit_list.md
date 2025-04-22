@@ -1,6 +1,6 @@
 # To Use CommitList Plug-in
 
-The **CommitList** plug-in is installed by default with EmEditor Professional. This plug-in shows the current changes and the commit history of a Git repo. To use the **CommitList** plug-in, click ![CommitList](../../images/plugin_commit_list.gif) on the **Plug-ins** bar. Or in the **Tools** menu, point to **Plug-ins**, and then click **CommitList**.
+The **CommitList** plug-in is installed by default with EmEditor Professional. This plug-in shows the current changes and the commit history of a Git repo. To use the **CommitList** plug-in, click ![CommitList](../../images/plugin_commit_list.png) on the **Plug-ins** bar. Or in the **Tools** menu, point to **Plug-ins**, and then click **CommitList**.
 
 Some features of CommitList require Git to be installed and callable from command prompt with the command `git`.
 

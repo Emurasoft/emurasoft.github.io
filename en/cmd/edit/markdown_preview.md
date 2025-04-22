@@ -12,14 +12,15 @@ Displays the Markdown preview of the current document.
 
 - Default Menu: **Edit** \> **Markdown** \> **Preview**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Preview**
-- Toolbar: ![](../../images/plugin_webpreview.gif)
+- Toolbar: ![](../../images/plugin_webpreview.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_PREVIEW (23275)```
+EEID_MARKDOWN_PREVIEW (23275)
+```
 
 ## Macros
 

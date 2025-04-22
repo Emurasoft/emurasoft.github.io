@@ -4,7 +4,7 @@ The **Word Count** plug-in is installed by default with EmEditor Professional. T
 counts the words in a selection if you make a selection of text. To use the **Word Count** plug-in:
 
 1. Select text where you want to count words or select no text to count the entire document.
-2. Click **![Word Count](../../images/plugin_wordcount.gif)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Word Count**.
+2. Click **![Word Count](../../images/plugin_wordcount.png)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Word Count**.
 
 The **Word Count** custom bar appears. In the first column, the plug-in displays the types of query: characters, width, words, and lines. In the second column, the plug-in displays the count of words in the entire document. In the third column, the
 plug-in displays the count of words in the selected text only.

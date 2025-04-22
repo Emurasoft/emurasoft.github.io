@@ -13,14 +13,15 @@
 - 預設功能表: **檢視** \> **Tab/縮排** \> **將 Tab 轉換為空格**
 - [全部命令](../tools/all_commands): **檢視** \> **Tab/縮排** \> **將 Tab 轉換為空格**
 - 工具列:
-![](../../images/space_tab24x16.gif)
+![](../../images/space_tab24x16.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_TOGGLE_SPACES_TAB (4541)```
+EEID_TOGGLE_SPACES_TAB (4541)
+```
 
 ## 巨集
 

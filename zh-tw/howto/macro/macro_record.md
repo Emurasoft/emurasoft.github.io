@@ -1,11 +1,11 @@
 # 錄制或運行巨集
 
-1. 在工具列上點擊 ![Start/Stop Macro Record](../../images/macrorecord.gif) 。
+1. 在工具列上點擊 ![Start/Stop Macro Record](../../images/macrorecord.png) 。
 2. 進行您想要錄制的操作。
 3. 完成錄制通過在工具列上再次點擊
-![Start/Stop Macro Record](../../images/macrorecord.gif) 。
+![Start/Stop Macro Record](../../images/macrorecord.png) 。
 4. 要運行錄制的巨集，點擊工具列上的
-![](../../images/macrorun.gif) 。
+![](../../images/macrorun.png) 。
 
 ## 提示
 

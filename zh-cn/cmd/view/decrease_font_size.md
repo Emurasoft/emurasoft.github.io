@@ -13,14 +13,15 @@
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **查看** \> **字体** >
 **减小显示的字体大小**
-- 工具栏: ![](../../images/decreasefontsize.gif)
+- 工具栏: ![](../../images/decreasefontsize.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_DECREASE_FONT_SIZE (4374)```
+EEID_DECREASE_FONT_SIZE (4374)
+```
 
 ## 宏
 

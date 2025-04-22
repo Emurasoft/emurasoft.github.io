@@ -13,14 +13,15 @@
 - 默认菜单: **宏** \> **开始/停止录制**
 - [所有命令](../tools/all_commands): **宏**
 \> **开始/停止录制**
-- 工具栏: ![](../../images/quickmacrorecord.gif)
+- 工具栏: ![](../../images/quickmacrorecord.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+R
 
 ## 插件命令ID
 
 ```
-EEID_QUICK_MACRO_RECORD (4216)```
+EEID_QUICK_MACRO_RECORD (4216)
+```
 
 ## 宏
 

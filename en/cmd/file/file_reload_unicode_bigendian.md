@@ -18,7 +18,7 @@ editing the document.
 - Default Menu: **File** \> **Reload** \> **UTF-16BE**
 - [All Commands](../tools/all_commands): **File** \> **Reload**
 \> **UTF-16BE**
-- Toolbar: ![](../../images/reload.gif) (on
+- Toolbar: ![](../../images/reload.png) (on
 the arrow) > **UTF-16BE**
 - Status Bar: (double-click on **Encodings**) \> **UTF-16BE**
 - Default Shortcut Key: None
@@ -26,7 +26,8 @@ the arrow) > **UTF-16BE**
 ## Plug-in Command ID
 
 ```
-EEID_FILE_RELOAD_UNICODE_BIGENDIAN (4261)```
+EEID_FILE_RELOAD_UNICODE_BIGENDIAN (4261)
+```
 
 ## Macros
 

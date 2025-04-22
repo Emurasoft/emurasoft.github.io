@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[並べ替え\] \- \[高度な並べ替え\]
 - [すべてのコマンド](../../glossary/allcommands): \[並べ替え\] \- \[高度な並べ替え\]
-- ツール バー: ![](../../images/sortbymultiple.gif)
+- ツール バー: ![](../../images/sortbymultiple.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_SORT_MULTI (3903)```
+EEID_SORT_MULTI (3903)
+```
 
 ## マクロ
 

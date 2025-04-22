@@ -12,14 +12,15 @@ Removes bold and italic formatting from the selected text.
 
 - Default Menu: **Edit** \> **Markdown** \> **Clear All Formatting**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Clear All Formatting**
-- Toolbar: ![](../../images/markdown_clear.gif)
+- Toolbar: ![](../../images/markdown_clear.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_CLEAR (23276)```
+EEID_MARKDOWN_CLEAR (23276)
+```
 
 ## Macros
 

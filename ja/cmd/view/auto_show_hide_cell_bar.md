@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[ツール バー\] \- \[セル ツール バー\] \- \[セル ツール バーを自動的に表示/非表示を切り替える\]
-- ツール バー: ![](../../images/commonsettings.gif) (セル ツール バー)
+- ツール バー: ![](../../images/commonsettings.png) (セル ツール バー)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_CELL_BAR_AUTO_SHOW (3969)```
+EEID_CELL_BAR_AUTO_SHOW (3969)
+```
 
 ## マクロ
 

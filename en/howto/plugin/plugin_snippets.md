@@ -3,7 +3,7 @@
 The **Snippets** plug-in is installed by default with EmEditor Professional. This plug-in allows you to insert words and phrases quickly. A snippet is a piece of text that you insert into your document and may contain plain text, placeholders, shell code, a macro, or regular expressions to
 transform text and various built-in and user-defined parameters. In the Snippets plug-in, you can create two types of items - snippets and macros.
 
-To use the **Snippets** plug-in, Click **![Snippets](../../images/plugin_snippets.gif)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Snippets**. The **Snippets** custom bar will appear.
+To use the **Snippets** plug-in, Click **![Snippets](../../images/plugin_snippets.png)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Snippets**. The **Snippets** custom bar will appear.
 
 Right-clicking on the Snippets bar shows the following options:
 

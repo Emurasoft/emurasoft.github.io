@@ -12,14 +12,15 @@ Adjusts all separator positions in the CSV document.
 
 - Default Menu: **CSV** \> **Adjust Separator Positions (Whole Document)**
 - [All Commands](../tools/all_commands): **CSV** \> **Adjust Separator Positions (Whole Document)**
-- Toolbar: ![](../../images/columns_separators.gif) \+ Adjust Separator Positions (Whole Document)
+- Toolbar: ![](../../images/columns_separators.png) \+ Adjust Separator Positions (Whole Document)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_ADJUST_COLUMN (4460)```
+EEID_ADJUST_COLUMN (4460)
+```
 
 ## Macros
 

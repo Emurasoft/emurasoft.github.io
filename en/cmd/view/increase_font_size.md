@@ -14,14 +14,15 @@ specified on the [**Customize Font** dialog box](../../dlg/properties/font/index
 - Default Menu: None
 - [All Commands](../tools/all_commands): **View** \> **Font** >
 **Increase Font Size**
-- Toolbar: ![](../../images/increasefontsize.gif)
+- Toolbar: ![](../../images/increasefontsize.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_INCREASE_FONT_SIZE (4373)```
+EEID_INCREASE_FONT_SIZE (4373)
+```
 
 ## Macros
 

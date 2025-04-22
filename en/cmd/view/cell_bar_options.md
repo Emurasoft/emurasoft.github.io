@@ -13,14 +13,15 @@ Shows a popup menu to set options for the cell toolbar.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **View** >
 **Toolbars** \> **Cell Toolbar Options** \> **Cell Toolbar Options (Popup)**
-- Toolbar: ![](../../images/commonsettings.gif) (Cell toolbar)
+- Toolbar: ![](../../images/commonsettings.png) (Cell toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_CELL_BAR_OPTIONS (3968)```
+EEID_CELL_BAR_OPTIONS (3968)
+```
 
 ## Macros
 

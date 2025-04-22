@@ -14,14 +14,15 @@
 
 - 기본 메뉴: 없음
 - [모든 명령](../tools/all_commands): **창** \> **분할** \> **가로 분할 설정/해제**
-- 도구 모음: ![](../../images/windowsplithorzfix.gif)
+- 도구 모음: ![](../../images/windowsplithorzfix.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL + -
 
 ## 플러그인 명령 ID
 
 ```
-EEID_WINDOW_SPLIT_HORZ_TOGGLE (4385)```
+EEID_WINDOW_SPLIT_HORZ_TOGGLE (4385)
+```
 
 ## 매크로
 

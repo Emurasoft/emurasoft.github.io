@@ -12,14 +12,15 @@ Toggles Layout 1 (Focus Mode by default).
 
 - Default Menu: **View** \> **Layouts** \> **Full Screen**
 - [All Commands](../tools/all_commands): **View** \> **Layouts** \> **Full Screen**
-- Toolbar: ![](../../images/full_screen.gif)
+- Toolbar: ![](../../images/full_screen.png)
 - Status Bar: None
 - Default Shortcut Key: F11
 
 ## Plug-in Command ID
 
 ```
-EEID_FULL_SCREEN (4453)```
+EEID_FULL_SCREEN (4453)
+```
 
 ## Macros
 

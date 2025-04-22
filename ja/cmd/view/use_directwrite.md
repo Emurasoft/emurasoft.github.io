@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[表示\] \- \[DirectWrite を使用\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[フォント\] \- \[DirectWrite を使用\]
-- ツール バー: ![](../../images/fontpopup.gif) (右端の矢印部分) \-
+- ツール バー: ![](../../images/fontpopup.png) (右端の矢印部分) \-
 \[DirectWrite を使用\]
 - ステータス バー: なし
 - 既定のショートカット: なし
@@ -20,7 +20,8 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_USE_DIRECTWRITE (3997)```
+EEID_USE_DIRECTWRITE (3997)
+```
 
 ## マクロ
 

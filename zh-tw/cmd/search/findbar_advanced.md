@@ -13,7 +13,7 @@
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **搜索**
 \> **搜尋工具列** \> **進階**
-- 工具列: ![](../../images/commonsettings.gif)
+- 工具列: ![](../../images/commonsettings.png)
 (搜尋工具列)
 - 狀態列: 無
 - 預設捷徑: 無

@@ -18,7 +18,7 @@ editing the document.
 - Default Menu: **File** \> **Reload** \> **UTF-8**
 - [All Commands](../tools/all_commands): **File** \> **Reload**
 \> **UTF-8**
-- Toolbar: ![](../../images/reload.gif) (on
+- Toolbar: ![](../../images/reload.png) (on
 the arrow) > **UTF-8**
 - Status Bar: (double-click on **Encodings**) \> **UTF-8**
 - Default Shortcut Key: None
@@ -26,7 +26,8 @@ the arrow) > **UTF-8**
 ## Plug-in Command ID
 
 ```
-EEID_FILE_RELOAD_UTF8 (4258)```
+EEID_FILE_RELOAD_UTF8 (4258)
+```
 
 ## Macros
 

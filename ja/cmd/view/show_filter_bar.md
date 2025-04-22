@@ -13,14 +13,15 @@
 - 既定のメニュー: \[表示\] \- \[ツール バー\] \- \[フィルター\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[ツール バー\] \- \[フィルター\]
 - ツール バー:
-![](../../images/togglefilterbar.gif)
+![](../../images/togglefilterbar.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_SHOW_FILTER_BAR (3911)```
+EEID_SHOW_FILTER_BAR (3911)
+```
 
 ## マクロ
 

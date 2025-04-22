@@ -13,14 +13,15 @@
 
 - 기본 메뉴: **검색** \> **찾기**
 - [모든 명령](../tools/all_commands): **검색** \> **찾기**
-- 도구 모음: ![](../../images/editfind.gif)
+- 도구 모음: ![](../../images/editfind.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+F
 
 ## 플러그인 명령 ID
 
 ```
-EEID_EDIT_FIND (4200)```
+EEID_EDIT_FIND (4200)
+```
 
 ## 매크로
 

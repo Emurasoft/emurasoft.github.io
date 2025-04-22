@@ -13,14 +13,15 @@
 - 默认菜单: **宏** \> **编辑**
 - [所有命令](../tools/all_commands): **宏**
 \> **编辑**
-- 工具栏: ![](../../images/macroedit.gif)
+- 工具栏: ![](../../images/macroedit.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_MACRO_EDIT (4348)```
+EEID_MACRO_EDIT (4348)
+```
 
 ## 宏
 

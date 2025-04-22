@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[検索\] \- \[置換\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[置換\]
-- ツール バー: ![](../../images/replace.gif)
+- ツール バー: ![](../../images/replace.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+H
 
 ## プラグイン コマンド ID
 
 ```
-EEID_EDIT_REPLACE (4201)```
+EEID_EDIT_REPLACE (4201)
+```
 
 ## マクロ
 

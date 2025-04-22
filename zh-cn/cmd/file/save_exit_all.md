@@ -13,14 +13,15 @@
 - 默认菜单: **文件** \> **保存并全部关闭**
 - [所有命令](../tools/all_commands): **文件** \> **关闭**
 \> **保存并全部关闭**
-- 工具栏: ![](../../images/saveexitall.gif)
+- 工具栏: ![](../../images/saveexitall.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+E
 
 ## 插件命令ID
 
 ```
-EEID_SAVE_EXIT_ALL (4118)```
+EEID_SAVE_EXIT_ALL (4118)
+```
 
 ## 宏
 

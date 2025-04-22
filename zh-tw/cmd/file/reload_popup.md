@@ -13,14 +13,15 @@
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **檔案** \> **重新載入**
 \> **快顯功能表**
-- 工具列: ![](../../images/reload.gif) (點擊箭頭)
+- 工具列: ![](../../images/reload.png) (點擊箭頭)
 - 狀態列: 在顯示的編碼上雙擊
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_RELOAD_POPUP (4283)```
+EEID_RELOAD_POPUP (4283)
+```
 
 ## 巨集
 

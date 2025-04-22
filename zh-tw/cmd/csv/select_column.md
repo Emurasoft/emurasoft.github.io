@@ -12,14 +12,15 @@
 
 - 預設功能表: **CSV** \> **欄** \> **選取不帶標題的欄**
 - [全部命令](../tools/all_commands): **CSV** \> **欄** \> **選取不帶標題的欄**
-- 工具列: ![](../../images/columns_separators.gif) \+ 選取不帶標題的欄
+- 工具列: ![](../../images/columns_separators.png) \+ 選取不帶標題的欄
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_SELECT_COLUMN (4461)```
+EEID_SELECT_COLUMN (4461)
+```
 
 ## 巨集
 

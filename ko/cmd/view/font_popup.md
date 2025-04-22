@@ -15,14 +15,15 @@
 - [모든 명령](../tools/all_commands): **보기** >
 **글꼴** >
 **글꼴** (팝업 메뉴)
-- 도구 모음: ![](../../images/fontpopup.gif) (화살표 위)
+- 도구 모음: ![](../../images/fontpopup.png) (화살표 위)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_FONT_POPUP (4282)```
+EEID_FONT_POPUP (4282)
+```
 
 ## 매크로
 

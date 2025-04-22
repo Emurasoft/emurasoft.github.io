@@ -14,14 +14,15 @@
 
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **檔案** \> **新增** \> **新增 (快顯功能表)**
-- 工具列: ![](../../images/filenew.gif) (點擊箭頭)
+- 工具列: ![](../../images/filenew.png) (點擊箭頭)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_NEW_CONFIG_POPUP (4281)```
+EEID_NEW_CONFIG_POPUP (4281)
+```
 
 ## 巨集
 

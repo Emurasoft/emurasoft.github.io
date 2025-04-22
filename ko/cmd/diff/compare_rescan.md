@@ -12,14 +12,15 @@
 
 - 기본 메뉴: **비교** \> **다시 검사**
 - [모든 명령](../tools/all_commands): **비교** \> **다시 검사**
-- 도구 모음: ![](../../images/rescan24x16.gif)
+- 도구 모음: ![](../../images/rescan24x16.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: **F5**
 
 ## 플러그인 명령 ID
 
 ```
-EEID_COMPARE_RESCAN (4494)```
+EEID_COMPARE_RESCAN (4494)
+```
 
 ## 매크로
 

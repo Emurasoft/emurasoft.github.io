@@ -12,14 +12,15 @@ Selects the user-defined DSV (Delimiter-separated) mode.
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): None
-- Toolbar: ![](../../images/dsv.gif)
+- Toolbar: ![](../../images/dsv.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MODE_DSV (4476)```
+EEID_MODE_DSV (4476)
+```
 
 ## Macros
 

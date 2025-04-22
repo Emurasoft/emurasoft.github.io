@@ -13,14 +13,15 @@
 - 預設功能表: **編輯** \> **刪除**
 - [全部命令](../tools/all_commands): **編輯** \> **刪除**
 \> **刪除右側字元**
-- 工具列: ![](../../images/delete.gif)
+- 工具列: ![](../../images/delete.png)
 - 狀態列: 無
 - 預設捷徑: SHIFT+BACKSPACE 或 DELETE
 
 ## 外掛程式命令ID
 
 ```
-EEID_DELETE (4135)```
+EEID_DELETE (4135)
+```
 
 ## 巨集
 

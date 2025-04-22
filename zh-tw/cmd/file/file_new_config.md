@@ -12,14 +12,15 @@
 
 - 預設功能表: **檔案** \> **新增** \> **(組態名稱)**
 - [全部命令](../tools/all_commands): **檔案** \> **新增 \> (組態名稱)**
-- 工具列: ![](../../images/filenew.gif) (點擊向下箭頭) \+ (組態名稱)
+- 工具列: ![](../../images/filenew.png) (點擊向下箭頭) \+ (組態名稱)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-從 EEID_FILE_NEW_CONFIG 到 ID_FILE_NEW_CONFIG + 255 (從 7168```
+從 EEID_FILE_NEW_CONFIG 到 ID_FILE_NEW_CONFIG + 255 (從 7168
+```
 到 7168 + 255)
 
 ## 巨集

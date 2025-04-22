@@ -13,14 +13,15 @@
 
 - 既定のメニュー: \[編集\] \- \[元に戻す\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[元に戻す\]
-- ツール バー: ![](../../images/editundo.gif)
+- ツール バー: ![](../../images/editundo.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Z または Alt+Backspace
 
 ## プラグイン コマンド ID
 
 ```
-EEID_EDIT_UNDO (4124)```
+EEID_EDIT_UNDO (4124)
+```
 
 ## マクロ
 

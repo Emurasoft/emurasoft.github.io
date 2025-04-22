@@ -15,14 +15,15 @@ the first bookmark of that document.
 
 - Default Menu: **Bookmarks** \> **This Group** \> **Next Bookmark**
 - [All Commands](../tools/all_commands): **Bookmarks** \> **This Group** \> **Next Bookmark**
-- Toolbar: ![](../../images/bookmarknext.gif)
+- Toolbar: ![](../../images/bookmarknext.png)
 - Status Bar: None
 - Default Keyboard Shortcut: F2
 
 ## Plug-in Command ID
 
 ```
-EEID_BOOKMARK_NEXT (4321)```
+EEID_BOOKMARK_NEXT (4321)
+```
 
 ## Macros
 

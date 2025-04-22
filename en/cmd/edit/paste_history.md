@@ -13,14 +13,15 @@ Inserts one of the contents from the Clipboard history (recently copied items) a
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Edit** \> **Paste**
 \> **Cycle Clipboard Ring**
-- Toolbar: ![](../../images/cycle_clipboard_ring.gif)
+- Toolbar: ![](../../images/cycle_clipboard_ring.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_PASTE_HISTORY (4454)```
+EEID_PASTE_HISTORY (4454)
+```
 
 ## Macros
 

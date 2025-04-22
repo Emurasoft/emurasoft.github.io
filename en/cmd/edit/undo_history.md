@@ -12,14 +12,15 @@ Displays the [**Undo/Redo History** dialog box](../../dlg/undo_history/index).
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Edit** \> **Undo** \> **Undo/Redo History**
-- Toolbar: ![](../../images/editundo.gif) (on the arrow)
+- Toolbar: ![](../../images/editundo.png) (on the arrow)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_UNDO_HISTORY (3982)```
+EEID_UNDO_HISTORY (3982)
+```
 
 ## Macros
 

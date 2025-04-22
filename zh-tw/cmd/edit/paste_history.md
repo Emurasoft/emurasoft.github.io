@@ -13,14 +13,15 @@
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **編輯** \> **貼上**
 \> **循環貼上**
-- 工具列: ![](../../images/cycle_clipboard_ring.gif)
+- 工具列: ![](../../images/cycle_clipboard_ring.png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_PASTE_HISTORY (4454)```
+EEID_PASTE_HISTORY (4454)
+```
 
 ## 巨集
 

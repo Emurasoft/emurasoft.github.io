@@ -14,14 +14,15 @@ specified on the [**Customize Font** dialog box](../../dlg/properties/font/index
 - Default Menu: None
 - [All Commands](../tools/all_commands): **View** \> **Font** >
 **Decrease Font Size**
-- Toolbar: ![](../../images/decreasefontsize.gif)
+- Toolbar: ![](../../images/decreasefontsize.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_DECREASE_FONT_SIZE (4374)```
+EEID_DECREASE_FONT_SIZE (4374)
+```
 
 ## Macros
 

@@ -13,14 +13,15 @@
 
 - 기본 메뉴: **비교** \> **직접 비교**
 - [모든 명령](../tools/all_commands): **비교** \> **직접 비교**
-- 도구 모음: ![](../../images/compare24x16.gif)
+- 도구 모음: ![](../../images/compare24x16.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_COMPARE_DIRECT (4492)```
+EEID_COMPARE_DIRECT (4492)
+```
 
 ## 매크로
 

@@ -20,14 +20,15 @@ this command behaves the same as the [**Open** command](file_open).
 - [All Commands](../tools/all_commands): **File** \> **Open**
 \> **Close and Open**
 - Toolbar:
-![](../../images/filecloseopen.gif)
+![](../../images/filecloseopen.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_FILE_CLOSE_OPEN (4098)```
+EEID_FILE_CLOSE_OPEN (4098)
+```
 
 ## Macros
 

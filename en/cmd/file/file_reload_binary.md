@@ -18,7 +18,7 @@ editing the document.
 - Default Menu: **File** \> **Reload** \> **Binary (ASCII View)**
 - [All Commands](../tools/all_commands): **File** \> **Reload**
 \> **Binary (ASCII View)**
-- Toolbar: ![](../../images/reload.gif) (on
+- Toolbar: ![](../../images/reload.png) (on
 the arrow) > **System Default**
 - Status Bar: (double-click on **Encodings**) \> **Binary (ASCII View)**
 - Default Shortcut Key: None
@@ -26,7 +26,8 @@ the arrow) > **System Default**
 ## Plug-in Command ID
 
 ```
-EEID_FILE_RELOAD_BINARY (4438)```
+EEID_FILE_RELOAD_BINARY (4438)
+```
 
 ## Macros
 

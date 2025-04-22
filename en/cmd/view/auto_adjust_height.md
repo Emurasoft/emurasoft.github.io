@@ -13,14 +13,15 @@ Automatically adjusts the height of the cell toolbar.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **View** >
 **Toolbars** \> **Cell Toolbar Options** \> **Automatically Adjust Height**
-- Toolbar: ![](../../images/commonsettings.gif) (Cell toolbar) + Automatically Adjust Height
+- Toolbar: ![](../../images/commonsettings.png) (Cell toolbar) + Automatically Adjust Height
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_CELL_BAR_AUTO_HEIGHT (3971)```
+EEID_CELL_BAR_AUTO_HEIGHT (3971)
+```
 
 ## Macros
 

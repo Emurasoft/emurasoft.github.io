@@ -15,14 +15,15 @@
 - 默认菜单: **文件** \> **另存为**
 - [所有命令](../tools/all_commands): **文件** \> **保存**
 \> **另存为**
-- 工具栏: ![](../../images/save_as.gif)
+- 工具栏: ![](../../images/save_as.png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_FILE_SAVE_AS (4100)```
+EEID_FILE_SAVE_AS (4100)
+```
 
 ## 宏
 
