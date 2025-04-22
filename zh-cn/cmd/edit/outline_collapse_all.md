@@ -12,14 +12,15 @@
 
 - 默认菜单: **编辑** \> **大纲** \> **全部折叠**
 - [所有命令](../tools/all_commands): **编辑** \> **大纲** \> **全部折叠**
-- 工具栏: ![](../../images/outline_min.gif)
+- 工具栏: ![](../../images/outline_min..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_OUTLINE_COLLAPSE_ALL (4410)```
+EEID_OUTLINE_COLLAPSE_ALL (4410)
+```
 
 ## 宏
 

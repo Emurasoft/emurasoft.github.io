@@ -13,14 +13,15 @@
 
 - 既定のメニュー: \[編集\] \- \[やり直し\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[やり直し\]
-- ツール バー: ![](../../images/editredo.gif)
+- ツール バー: ![](../../images/editredo..png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Y
 
 ## プラグイン コマンド ID
 
 ```
-EEID_EDIT_REDO (4125)```
+EEID_EDIT_REDO (4125)
+```
 
 ## マクロ
 

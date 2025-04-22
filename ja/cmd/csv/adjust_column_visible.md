@@ -12,14 +12,15 @@ CSV文書の表示されている行のみの区切り位置を調節します�
 
 - 既定のメニュー: \[CSV\] - \[区切り位置を調節 (表示されている行のみ)\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[区切り位置を調節 (表示されている行のみ)\]
-- ツール バー: ![](../../images/columns_separators.gif) \+ \[区切り位置を調節 (表示されている行のみ)\]
+- ツール バー: ![](../../images/columns_separators..png) \+ \[区切り位置を調節 (表示されている行のみ)\]
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_ADJUST_COLUMN_VISIBLE (3901)```
+EEID_ADJUST_COLUMN_VISIBLE (3901)
+```
 
 ## マクロ
 

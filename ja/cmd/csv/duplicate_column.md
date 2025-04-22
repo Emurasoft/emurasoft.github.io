@@ -12,14 +12,15 @@ CSV文書の選択列を2重化します。
 
 - 既定のメニュー: \[CSV\] - \[列\] - \[列の2重化\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[列\] - \[列の2重化\]
-- ツール バー: ![](../../images/columns_separators.gif) \+ \[列の2重化\]
+- ツール バー: ![](../../images/columns_separators..png) \+ \[列の2重化\]
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_DUPLICATE_COLUMN (3998)```
+EEID_DUPLICATE_COLUMN (3998)
+```
 
 ## マクロ
 

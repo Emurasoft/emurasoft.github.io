@@ -12,14 +12,15 @@
 
 - 預設功能表: **比較** \> **同步捲動**
 - [全部命令](../tools/all_commands): **比較** \> **同步捲動**
-- 工具列:  ![](../../images/sync24x16.gif)
+- 工具列:  ![](../../images/sync24x16..png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_SYNC_SCROLL_DIRECT (4495)```
+EEID_SYNC_SCROLL_DIRECT (4495)
+```
 
 ## 巨集
 

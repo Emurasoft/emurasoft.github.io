@@ -12,14 +12,15 @@
 
 - 預設功能表: **CSV** \> **暫時隱藏引號**
 - [全部命令](../tools/all_commands): **CSV** \> **暫時隱藏引號**
-- 工具列: ![](../../images/csv_hide_quotes.gif)
+- 工具列: ![](../../images/csv_hide_quotes..png)
 - 狀態列: 無
 - 預設快速鍵: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_CSV_HIDE_QUOTES (4067)```
+EEID_CSV_HIDE_QUOTES (4067)
+```
 
 ## 巨集
 

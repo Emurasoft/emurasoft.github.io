@@ -12,14 +12,15 @@
 
 - 기본 메뉴: **비교** \> **직접 스크롤링 동기화**
 - [모든 명령](../tools/all_commands): **비교** \> **직접 스크롤링 동기화**
-- 도구 모음: ![](../../images/sync24x16.gif)
+- 도구 모음: ![](../../images/sync24x16..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_SYNC_SCROLL_DIRECT (4495)```
+EEID_SYNC_SCROLL_DIRECT (4495)
+```
 
 ## 매크로
 

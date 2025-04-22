@@ -12,14 +12,15 @@
 
 - 默认菜单: **编辑** \> **复制**
 - [所有命令](../tools/all_commands): **编辑** \> **复制** \> **复制**
-- 工具栏: ![](../../images/copy.gif)
+- 工具栏: ![](../../images/copy..png)
 - 状态栏: 无
 - 默认快捷键: CTRL+C 或 CTRL+INSERT
 
 ## 插件命令ID
 
 ```
-EEID_EDIT_COPY (4127)```
+EEID_EDIT_COPY (4127)
+```
 
 ## 宏
 

@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[ブックマーク\] \- \[この文書の次のブックマーク\]
 - [すべてのコマンド](../../glossary/allcommands): \[ブックマーク\] \- \[この文書の次のブックマーク\]
-- ツール バー: ![](../../images/bookmarknextwithin.gif)
+- ツール バー: ![](../../images/bookmarknextwithin..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_BOOKMARK_NEXT_WITHIN (4351)```
+EEID_BOOKMARK_NEXT_WITHIN (4351)
+```
 
 ## マクロ
 

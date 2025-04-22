@@ -14,14 +14,15 @@
 - [全部命令](../tools/all_commands): **檢視** >
 **行號**
 - 工具列:
-![](../../images/line_number24x16.gif)
+![](../../images/line_number24x16..png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_VIEW_LINE_NUMBERS (4530)```
+EEID_VIEW_LINE_NUMBERS (4530)
+```
 
 ## 巨集
 

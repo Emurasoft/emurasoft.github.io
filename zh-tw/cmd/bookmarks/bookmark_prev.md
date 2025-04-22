@@ -12,14 +12,15 @@
 
 - 預設功能表: **書籤** \> **目前的群組** \> **上一個書籤**
 - [全部命令](../tools/all_commands): **書籤** \> **目前的群組** \> **上一個書籤**
-- 工具列: ![](../../images/bookmarkprev.gif)
+- 工具列: ![](../../images/bookmarkprev..png)
 - 狀態列: 無
 - 預設捷徑: SHIFT+F2
 
 ## 外掛程式命令ID
 
 ```
-EEID_BOOKMARK_PREV (4322)```
+EEID_BOOKMARK_PREV (4322)
+```
 
 ## 巨集
 

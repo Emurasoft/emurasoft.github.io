@@ -13,14 +13,15 @@
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **查看** \> **字体** >
 **增大字体**
-- 工具栏: ![](../../images/increasefontsize.gif)
+- 工具栏: ![](../../images/increasefontsize..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_INCREASE_FONT_SIZE (4373)```
+EEID_INCREASE_FONT_SIZE (4373)
+```
 
 ## 宏
 

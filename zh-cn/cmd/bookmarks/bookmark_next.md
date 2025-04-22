@@ -12,14 +12,15 @@
 
 - 默认菜单: **书签** \> **当前群组** \> **下一个书签**
 - [所有命令](../tools/all_commands): **书签** \> **当前群组** \> **下一个书签**
-- 工具栏: ![](../../images/bookmarknext.gif)
+- 工具栏: ![](../../images/bookmarknext..png)
 - 状态栏: 无
 - 默认快捷键: F2
 
 ## 插件命令ID
 
 ```
-EEID_BOOKMARK_NEXT (4321)```
+EEID_BOOKMARK_NEXT (4321)
+```
 
 ## 宏
 

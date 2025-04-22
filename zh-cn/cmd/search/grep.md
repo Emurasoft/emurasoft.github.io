@@ -16,14 +16,15 @@
 - 默认菜单: **搜索** \> **在文件中查找**
 - [所有命令](../tools/all_commands): **搜索**
 \> **在文件中查找**
-- 工具栏: ![](../../images/grep.gif)
+- 工具栏: ![](../../images/grep..png)
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+F
 
 ## 插件命令ID
 
 ```
-EEID_GREP (4207)```
+EEID_GREP (4207)
+```
 
 ## 宏
 

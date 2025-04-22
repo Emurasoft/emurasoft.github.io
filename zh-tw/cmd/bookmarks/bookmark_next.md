@@ -12,14 +12,15 @@
 
 - 預設功能表: **書籤** \> **目前的群組** \> **下一個書籤**
 - [全部命令](../tools/all_commands): **書籤** \> **目前的群組** \> **下一個書籤**
-- 工具列: ![](../../images/bookmarknext.gif)
+- 工具列: ![](../../images/bookmarknext..png)
 - 狀態列: 無
 - 預設捷徑: F2
 
 ## 外掛程式命令ID
 
 ```
-EEID_BOOKMARK_NEXT (4321)```
+EEID_BOOKMARK_NEXT (4321)
+```
 
 ## 巨集
 

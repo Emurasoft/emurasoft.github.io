@@ -13,14 +13,15 @@
 
 - 既定のメニュー: \[ファイル\] \- \[印刷プレビュー\]
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[印刷\] \- \[印刷プレビュー\]
-- ツール バー: ![](../../images/printpreview.gif)
+- ツール バー: ![](../../images/printpreview..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_PRINT_PREVIEW (4286)```
+EEID_PRINT_PREVIEW (4286)
+```
 
 ## マクロ
 

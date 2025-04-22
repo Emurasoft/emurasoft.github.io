@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[タブ/インデント\] \- \[インデントの桁数\]
-- ツール バー: ![](../../images/indent_column24x16.gif)
+- ツール バー: ![](../../images/indent_column24x16..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_INDENT_COLUMN_POPUP (4551)```
+EEID_INDENT_COLUMN_POPUP (4551)
+```
 
 ## マクロ
 

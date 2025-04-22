@@ -13,7 +13,7 @@
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **搜索**
 \> **搜尋工具列** \> **比對 CSV 中的內嵌新行**
-- 工具列: ![](../../images/find_embedded_newlines.gif) (搜尋工具列)
+- 工具列: ![](../../images/find_embedded_newlines..png) (搜尋工具列)
 - 狀態列: 無
 - 預設快速鍵: 無
 

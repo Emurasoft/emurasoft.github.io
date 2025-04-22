@@ -12,7 +12,7 @@
 
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **CSV** \> **分隔符** \> **列/分隔符 (弹出菜单)**
-- 工具栏: ![](../../images/columns_separators.gif)
+- 工具栏: ![](../../images/columns_separators..png)
 - 状态栏: 无
 - 默认快捷键: 无
 

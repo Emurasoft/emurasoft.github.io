@@ -14,14 +14,15 @@
 - 既定のメニュー: \[ファイル\] \- \[すべて保存\]
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[保存\] \- \[すべて保存\]
 - ツール バー:
-![](../../images/filesaveall.gif)
+![](../../images/filesaveall..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_FILE_SAVE_ALL (4101)```
+EEID_FILE_SAVE_ALL (4101)
+```
 
 ## マクロ
 

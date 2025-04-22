@@ -14,14 +14,15 @@
 - 기본 메뉴: **보기** \> **탭/들여쓰기** \> **줄 바꿔서 들여쓰기**
 - [모든 명령](../tools/all_commands): **보기** \> **탭/들여쓰기** \> **줄 바꿔서 들여쓰기**
 - 도구 모음:
-![](../../images/wrap_indent24x16.gif)
+![](../../images/wrap_indent24x16..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_TOGGLE_WRAP_INDENT (4542)```
+EEID_TOGGLE_WRAP_INDENT (4542)
+```
 
 ## 매크로
 

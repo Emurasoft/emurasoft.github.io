@@ -12,14 +12,15 @@
 
 - 預設功能表: **比較** \> **直接比較**
 - [全部命令](../tools/all_commands): **比較** \> **比較**
-- 工具列:  ![](../../images/compare24x16.gif)
+- 工具列:  ![](../../images/compare24x16..png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_COMPARE_DIRECT (4492)```
+EEID_COMPARE_DIRECT (4492)
+```
 
 ## 巨集
 

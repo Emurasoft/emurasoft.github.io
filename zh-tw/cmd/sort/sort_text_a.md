@@ -12,14 +12,15 @@
 
 - 預設功能表: **排序** \> **A 到 Z 排序**
 - [全部命令](../tools/all_commands): **排序** \> **A 到 Z 排序**
-- 工具列: ![](../../images/sortinga-z.gif)
+- 工具列: ![](../../images/sortinga-z..png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_SORT_TEXT_A (4477)```
+EEID_SORT_TEXT_A (4477)
+```
 
 ## 巨集
 

@@ -12,14 +12,15 @@
 
 - 默认菜单: **编辑** \> **剪切**
 - [所有命令](../tools/all_commands): **编辑** \> **剪切** \> **剪切**
-- 工具栏: ![](../../images/cut.gif)
+- 工具栏: ![](../../images/cut..png)
 - 状态栏: 无
 - 默认快捷键: CTRL+X 或 SHIFT+DELETE
 
 ## 插件命令ID
 
 ```
-EEID_EDIT_CUT (4126)```
+EEID_EDIT_CUT (4126)
+```
 
 ## 宏
 

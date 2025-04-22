@@ -14,14 +14,15 @@
 
 - 기본 메뉴: **편집** \> **책갈피** \> **이 그룹** \> **이전 책갈피**
 - [모든 명령](../tools/all_commands): **편집** \> **책갈피** \> **이 그룹** \> **이전 책갈피**
-- 도구 모음: ![](../../images/bookmarkprev.gif)
+- 도구 모음: ![](../../images/bookmarkprev..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: SHIFT+F2
 
 ## 플러그인 명령 ID
 
 ```
-EEID_BOOKMARK_PREV (4322)```
+EEID_BOOKMARK_PREV (4322)
+```
 
 ## 매크로
 

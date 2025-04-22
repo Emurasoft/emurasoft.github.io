@@ -12,7 +12,7 @@
 
 - 預設功能表: **檔案** \> **重新載入** \> **(編碼)**
 - [全部命令](../tools/all_commands): **檔案** \> **重新載入** \> **(編碼)**
-- 工具列: ![](../../images/reload.gif) (下拉箭頭) \-
+- 工具列: ![](../../images/reload..png) (下拉箭頭) \-
 (編碼)
 - 狀態列: 在顯示的編碼上按兩下 \- (編碼))
 - 預設捷徑: 無
@@ -20,7 +20,8 @@
 ## 外掛程式命令ID
 
 ```
-從 EEID_FILE_RELOAD_DEFINED 到 EEID_FILE_RELOAD_DEFINED + 255 (從 6656```
+從 EEID_FILE_RELOAD_DEFINED 到 EEID_FILE_RELOAD_DEFINED + 255 (從 6656
+```
 到 6656 + 255)
 
 ## 巨集

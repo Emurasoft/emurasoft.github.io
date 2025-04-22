@@ -14,14 +14,15 @@
 - 기본 메뉴: **도구** \> **현재 구성 속성**
 - [모든 명령](all_commands): **도구** >
 **현재 구성 속성** \> **속성**
-- 도구 모음: ![](../../images/properties.gif)
+- 도구 모음: ![](../../images/properties..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: ALT+ENTER
 
 ## 플러그인 명령 ID
 
 ```
-EEID_CUSTOMIZE (4219)```
+EEID_CUSTOMIZE (4219)
+```
 
 ## 매크로
 

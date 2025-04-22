@@ -18,14 +18,15 @@
 - [모든 명령](../tools/all_commands): **파일** \> **열기**
 \> **닫은 후 열기**
 - 도구 모음:
-![](../../images/filecloseopen.gif)
+![](../../images/filecloseopen..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_FILE_CLOSE_OPEN (4098)```
+EEID_FILE_CLOSE_OPEN (4098)
+```
 
 ## 매크로
 

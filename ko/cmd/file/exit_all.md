@@ -13,14 +13,15 @@
 - 기본 메뉴: 없음
 - [모든 명령](../tools/all_commands): **파일** \> **닫기**
 \> **모두 닫기**
-- 도구 모음: ![](../../images/exitall.gif)
+- 도구 모음: ![](../../images/exitall..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: ALT+SHIFT+X
 
 ## 플러그인 명령 ID
 
 ```
-EEID_EXIT_ALL (4119)```
+EEID_EXIT_ALL (4119)
+```
 
 ## 매크로
 

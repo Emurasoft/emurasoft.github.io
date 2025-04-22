@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[表示\] \- \[行番号\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[行番号\]
-- ツール バー: ![](../../images/line_number24x16.gif)
+- ツール バー: ![](../../images/line_number24x16..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_VIEW_LINE_NUMBERS (4530)```
+EEID_VIEW_LINE_NUMBERS (4530)
+```
 
 ## マクロ
 

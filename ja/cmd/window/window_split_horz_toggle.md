@@ -13,14 +13,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[分割\] \- \[上下分割の切り替え\]
-- ツール バー: ![](../../images/windowsplithorzfix.gif)
+- ツール バー: ![](../../images/windowsplithorzfix..png)
 - ステータス バー: なし
 - 既定のショートカット: F12
 
 ## プラグイン コマンド ID
 
 ```
-EEID_WINDOW_SPLIT_HORZ_TOGGLE (4385)```
+EEID_WINDOW_SPLIT_HORZ_TOGGLE (4385)
+```
 
 ## マクロ
 

@@ -13,14 +13,15 @@
 - 默认菜单: **查看** \> **制表符/缩进** \> **换行缩进**
 - [所有命令](../tools/all_commands): **查看** \> **制表符/缩进** \> **换行缩进**
 - Toolbar:
-![](../../images/wrap_indent24x16.gif)
+![](../../images/wrap_indent24x16..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_TOGGLE_WRAP_INDENT (4542)```
+EEID_TOGGLE_WRAP_INDENT (4542)
+```
 
 ## 宏
 

@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[挿入\] \- \[行の2重化\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[行の2重化\]
-- ツール バー: ![](../../images/duplicateline.gif)
+- ツール バー: ![](../../images/duplicateline..png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+Y
 
 ## プラグイン コマンド ID
 
 ```
-EEID_DUPLICATE_LINE (4328)```
+EEID_DUPLICATE_LINE (4328)
+```
 
 ## マクロ
 

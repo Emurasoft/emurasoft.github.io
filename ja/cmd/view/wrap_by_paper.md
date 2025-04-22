@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[表示\] \- \[ページの右端で折り返し\]
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[ページの右端で折り返し\]
-- ツール バー: ![](../../images/wrapbypage.gif)
+- ツール バー: ![](../../images/wrapbypage..png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+4
 
 ## プラグイン コマンド ID
 
 ```
-EEID_WRAP_BY_PAPER (4318)```
+EEID_WRAP_BY_PAPER (4318)
+```
 
 ## マクロ
 

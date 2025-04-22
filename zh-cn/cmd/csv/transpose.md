@@ -12,7 +12,7 @@
 
 - 默认菜单: **CSV** \> **高级** \> **转置**
 - [所有命令](../tools/all_commands): **CSV** \> **高级** \> **转置**
-- 工具栏: ![](../../images/transpose.gif)
+- 工具栏: ![](../../images/transpose..png)
 - 状态栏: 无
 - 默认快捷键: 无
 

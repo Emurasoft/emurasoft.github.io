@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[すべての書式をクリア\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[すべての書式をクリア\]
-- ツール バー: ![](../../images/markdown_clear.gif)
+- ツール バー: ![](../../images/markdown_clear..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MARKDOWN_CLEAR (23276)```
+EEID_MARKDOWN_CLEAR (23276)
+```
 
 ## マクロ
 

@@ -13,14 +13,15 @@
 - 默认菜单: **查看** \> **制表符/缩进** \> **将制表符转换为空格**
 - [所有命令](../tools/all_commands): **查看** \> **制表符/缩进** \> **将制表符转换为空格**
 - Toolbar:
-![](../../images/space_tab24x16.gif)
+![](../../images/space_tab24x16..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_TOGGLE_SPACES_TAB (4541)```
+EEID_TOGGLE_SPACES_TAB (4541)
+```
 
 ## 宏
 

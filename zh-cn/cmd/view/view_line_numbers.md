@@ -14,14 +14,15 @@
 - [所有命令](../tools/all_commands): **查看** >
 **行号**
 - 工具栏:
-![](../../images/line_number24x16.gif)
+![](../../images/line_number24x16..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_VIEW_LINE_NUMBERS (4530)```
+EEID_VIEW_LINE_NUMBERS (4530)
+```
 
 ## 宏
 

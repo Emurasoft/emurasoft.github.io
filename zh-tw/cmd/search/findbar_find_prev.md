@@ -13,14 +13,15 @@
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **搜尋**
 \> **搜尋工具列** \> **尋找上一個**
-- 工具列: ![](../../images/editrepeatback.gif) (搜尋工具列)
+- 工具列: ![](../../images/editrepeatback..png) (搜尋工具列)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_FINDBAR_FIND_PREV (4569)```
+EEID_FINDBAR_FIND_PREV (4569)
+```
 
 ## 巨集
 

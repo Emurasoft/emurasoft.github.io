@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[ハイパーリンク\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[ハイパーリンク\]
-- ツール バー: ![](../../images/hyperlink.gif)
+- ツール バー: ![](../../images/hyperlink..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MARKDOWN_HYPERLINK (23271)```
+EEID_MARKDOWN_HYPERLINK (23271)
+```
 
 ## マクロ
 

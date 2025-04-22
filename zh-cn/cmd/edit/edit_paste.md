@@ -15,14 +15,15 @@
 - 默认菜单: **编辑** \> **粘贴**
 - [所有命令](../tools/all_commands): **编辑** \> **粘贴**
 \> **粘贴**
-- 工具栏: ![](../../images/paste.gif)
+- 工具栏: ![](../../images/paste..png)
 - 状态栏: 无
 - 默认快捷键: CTRL+V 或 Shift+Insert
 
 ## 插件命令ID
 
 ```
-EEID_EDIT_PASTE (4129)```
+EEID_EDIT_PASTE (4129)
+```
 
 ## 宏
 

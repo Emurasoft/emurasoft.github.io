@@ -12,14 +12,15 @@
 
 - 默认菜单: **书签** \> **下一个书签**
 - [所有命令](../tools/all_commands): **书签** \> **下一个书签**
-- 工具栏: ![](../../images/bookmarknextwithin.gif)
+- 工具栏: ![](../../images/bookmarknextwithin..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_BOOKMARK_NEXT_WITHIN (4351)```
+EEID_BOOKMARK_NEXT_WITHIN (4351)
+```
 
 ## 宏
 

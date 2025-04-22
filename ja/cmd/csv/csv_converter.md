@@ -12,14 +12,15 @@ CSVコンバーターの表示/非表示を切り替えます。
 
 - 既定のメニュー: \[CSV\] - \[CSVコンバーター\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[CSVコンバーター\]
-- ツール バー: ![](../../images/convert_to.gif)
+- ツール バー: ![](../../images/convert_to..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_CSV_COVERTER (3891)```
+EEID_CSV_COVERTER (3891)
+```
 
 ## マクロ
 

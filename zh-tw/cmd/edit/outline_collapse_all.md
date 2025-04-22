@@ -12,14 +12,15 @@
 
 - 預設功能表: **編輯** \> **大綱** \> **全部折疊**
 - [全部命令](../tools/all_commands): **編輯** \> **大綱** \> **全部折疊**
-- 工具列: ![](../../images/outline_min.gif)
+- 工具列: ![](../../images/outline_min..png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_OUTLINE_COLLAPSE_ALL (4410)```
+EEID_OUTLINE_COLLAPSE_ALL (4410)
+```
 
 ## 巨集
 

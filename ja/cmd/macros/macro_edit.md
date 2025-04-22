@@ -15,14 +15,15 @@
 
 - 既定のメニュー: \[マクロ\] \- \[編集\]
 - [すべてのコマンド](../../glossary/allcommands): \[マクロ\] \- \[編集\]
-- ツール バー: ![](../../images/macroedit.gif)
+- ツール バー: ![](../../images/macroedit..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MACRO_EDIT (4348)```
+EEID_MACRO_EDIT (4348)
+```
 
 ## マクロ
 

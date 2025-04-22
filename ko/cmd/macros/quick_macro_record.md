@@ -16,14 +16,15 @@
 - 기본 메뉴: **매크로** \> **녹화 시작/중지** (엠에디터 스탠다드; **도구** \> **매크로 녹화 시작/중지**)
 - [모든 명령](../tools/all_commands): **매크로**
 \> **녹화 시작/중지** (엠에디터 스탠다드; **도구** \> **매크로 녹화 시작/중지**)
-- 도구 모음: ![](../../images/quickmacrorecord.gif)
+- 도구 모음: ![](../../images/quickmacrorecord..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+SHIFT+R
 
 ## 플러그인 명령 ID
 
 ```
-EEID_QUICK_MACRO_RECORD (4216)```
+EEID_QUICK_MACRO_RECORD (4216)
+```
 
 ## 매크로
 

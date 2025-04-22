@@ -12,14 +12,15 @@ Markdown デザイン ビューを表示します。
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[デザイン ビュー\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[デザイン ビュー\]
-- ツール バー: ![](../../images/markdown_view.gif)
+- ツール バー: ![](../../images/markdown_view..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MARKDOWN_VIEW (23255)```
+EEID_MARKDOWN_VIEW (23255)
+```
 
 ## マクロ
 

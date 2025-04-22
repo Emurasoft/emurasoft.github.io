@@ -14,14 +14,15 @@
 - 기본 메뉴: **편집** \> **맞춤법** \> **맞춤법 확인**
 - [모든 명령](../tools/all_commands): **편집** \> **맞춤법** \> **맞춤법 확인**
 - 도구 모음:
-![](../../images/spelling24x16.gif)
+![](../../images/spelling24x16..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_SPELL_TOGGLE (4512)```
+EEID_SPELL_TOGGLE (4512)
+```
 
 ## 매크로
 

@@ -14,14 +14,15 @@
 - [全部命令](../tools/all_commands): **檢視** \> **字型** >
 **字型分類**
 \> **OEM/DOS**
-- 工具列: ![](../../images/fontpopup.gif) (點擊箭頭) \> **字型分類** \> **OEM/DOS**
+- 工具列: ![](../../images/fontpopup..png) (點擊箭頭) \> **字型分類** \> **OEM/DOS**
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_CHARSET_OEM (8719)```
+EEID_CHARSET_OEM (8719)
+```
 
 ## 巨集
 

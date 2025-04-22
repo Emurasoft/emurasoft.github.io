@@ -13,7 +13,7 @@
 - 預設功能表: **視窗** \> **啟用標籤頁**
 - [全部命令](../tools/all_commands): **視窗**
 \> **啟用標籤頁** \> **啟用標籤頁**
-- 工具列: ![](../../images/windowcombine.gif)
+- 工具列: ![](../../images/windowcombine..png)
 - 狀態列: 無
 - 預設捷徑: 無
 

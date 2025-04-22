@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[ハイパーリンクの削除\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[ハイパーリンクの削除\]
-- ツール バー: ![](../../images/remove_hyperlinks.gif)
+- ツール バー: ![](../../images/remove_hyperlinks..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MARKDOWN_REMOVE_HYPERLINKS (23272)```
+EEID_MARKDOWN_REMOVE_HYPERLINKS (23272)
+```
 
 ## マクロ
 

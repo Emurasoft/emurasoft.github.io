@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[ツール\] \- \[現在の設定のプロパティ\]
 - [すべてのコマンド](../../glossary/allcommands): \[ツール\] \- \[現在の設定のプロパティ\] \- \[プロパティ\]
-- ツール バー: ![](../../images/properties.gif)
+- ツール バー: ![](../../images/properties..png)
 - ステータス バー: なし
 - 既定のショートカット: Alt+Enter
 
 ## プラグイン コマンド ID
 
 ```
-EEID_CUSTOMIZE (4219)```
+EEID_CUSTOMIZE (4219)
+```
 
 ## マクロ
 

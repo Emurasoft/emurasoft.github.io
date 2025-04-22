@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[CSV\] - (CSV)
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - (CSV)
-- ツール バー: ![](../../images/csv_mode.gif) (CSV)
+- ツール バー: ![](../../images/csv_mode..png) (CSV)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_SV_MODE から EEID_SV_MODE + 63 まで (22528 から 22528 + 63 まで)```
+EEID_SV_MODE から EEID_SV_MODE + 63 まで (22528 から 22528 + 63 まで)
+```
 
 ## マクロ
 

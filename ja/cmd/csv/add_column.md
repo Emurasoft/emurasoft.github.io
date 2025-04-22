@@ -12,14 +12,15 @@ CSV文書の最終列の右側に新規列を挿入します。
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[列\] - \[列を追加\]
-- ツール バー: ![](../../images/columns_separators.gif) \+ \[列を追加\]
+- ツール バー: ![](../../images/columns_separators..png) \+ \[列を追加\]
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_ADD_COLUMN (3888)```
+EEID_ADD_COLUMN (3888)
+```
 
 ## マクロ
 

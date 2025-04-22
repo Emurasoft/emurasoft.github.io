@@ -12,14 +12,15 @@
 
 - 預設功能表: **巨集** \> **執行**
 - [全部命令](../tools/all_commands): **巨集** \> **執行**
-- 工具列: ![](../../images/quickmacrorun.gif)
+- 工具列: ![](../../images/quickmacrorun..png)
 - 狀態列: 無
 - 預設捷徑: CTRL+SHIFT+P
 
 ## 外掛程式命令ID
 
 ```
-EEID_QUICK_MACRO_RUN (4217)```
+EEID_QUICK_MACRO_RUN (4217)
+```
 
 ## 巨集
 

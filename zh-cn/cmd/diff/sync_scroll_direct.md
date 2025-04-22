@@ -12,14 +12,15 @@
 
 - 默认菜单: **比较** \> **同步滚动**
 - [所有命令](../tools/all_commands): **比较** \> **同步滚动**
-- 工具栏:  ![](../../images/sync24x16.gif)
+- 工具栏:  ![](../../images/sync24x16..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_SYNC_SCROLL_DIRECT (4495)```
+EEID_SYNC_SCROLL_DIRECT (4495)
+```
 
 ## 宏
 

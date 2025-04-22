@@ -15,14 +15,15 @@
 - 기본 메뉴: **파일** \> **열기**
 - [모든 명령](../tools/all_commands): **파일** \> **열기**
 \> **열기**
-- 도구 모음: ![](../../images/fileopen.gif)
+- 도구 모음: ![](../../images/fileopen..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+O
 
 ## 플러그인 명령 ID
 
 ```
-EEID_FILE_OPEN (4097)```
+EEID_FILE_OPEN (4097)
+```
 
 ## 매크로
 

@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[貼り付け\] \- \[クリップボード リングの回転\]
-- ツール バー: ![](../../images/cycle_clipboard_ring.gif)
+- ツール バー: ![](../../images/cycle_clipboard_ring..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_PASTE_HISTORY (4454)```
+EEID_PASTE_HISTORY (4454)
+```
 
 ## マクロ
 

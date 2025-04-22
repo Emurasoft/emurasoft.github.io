@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[太字\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[太字\]
-- ツール バー: ![](../../images/bold.gif)
+- ツール バー: ![](../../images/bold..png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+B
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MARKDOWN_BOLD (23269)```
+EEID_MARKDOWN_BOLD (23269)
+```
 
 ## マクロ
 

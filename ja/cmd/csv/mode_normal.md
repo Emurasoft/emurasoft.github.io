@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[CSV\] - \[通常モード\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[通常モード\]
-- ツール バー: ![](../../images/default_mode.gif)
+- ツール バー: ![](../../images/default_mode..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_MODE_NORMAL (4472)```
+EEID_MODE_NORMAL (4472)
+```
 
 ## マクロ
 

@@ -13,14 +13,15 @@
 - 預設功能表: **檢視** \> **按字元換行**
 - [全部命令](../tools/all_commands): **檢視** >
 **按字元換行**
-- 工具列: ![](../../images/wrapbychar.gif)
+- 工具列: ![](../../images/wrapbychar..png)
 - 狀態列: 無
 - 預設捷徑: CTRL+2
 
 ## 外掛程式命令ID
 
 ```
-EEID_WRAP_BY_CHAR (4209)```
+EEID_WRAP_BY_CHAR (4209)
+```
 
 ## 巨集
 

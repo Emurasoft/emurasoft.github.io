@@ -13,14 +13,15 @@
 
 - 既定のメニュー: \[ファイル\] \- \[印刷\]
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[印刷\] \- \[印刷\]
-- ツール バー: ![](../../images/fileprint.gif)
+- ツール バー: ![](../../images/fileprint..png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+P
 
 ## プラグイン コマンド ID
 
 ```
-EEID_FILE_PRINT (4114)```
+EEID_FILE_PRINT (4114)
+```
 
 ## マクロ
 

@@ -1,7 +1,7 @@
 # 打开一个已存在的文件
 
 1. 在工具栏栏上点击
-![Open](../../images/fileopen.gif) 。
+![Open](../../images/fileopen..png) 。
 2. 选择您想要打开的文件并点击 **「打开」** 按钮。
 
 ## 提示

@@ -13,14 +13,15 @@
 - 默认菜单: **查看** \> **标尺**
 - [所有命令](../tools/all_commands): **查看** \> **标尺**
 - 工具栏:
-![](../../images/ruler24x16.gif)
+![](../../images/ruler24x16..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_VIEW_RULER (4531)```
+EEID_VIEW_RULER (4531)
+```
 
 ## 宏
 

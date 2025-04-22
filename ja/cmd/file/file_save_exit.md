@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[ファイル\] \- \[保存して閉じる\]
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[閉じる\] \- \[保存して閉じる\]
-- ツール バー: ![](../../images/filesaveexit.gif)
+- ツール バー: ![](../../images/filesaveexit..png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+E
 
 ## プラグイン コマンド ID
 
 ```
-EEID_FILE_SAVE_EXIT (4116)```
+EEID_FILE_SAVE_EXIT (4116)
+```
 
 ## マクロ
 

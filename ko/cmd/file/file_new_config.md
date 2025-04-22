@@ -12,7 +12,7 @@
 
 - 기본 메뉴: **파일** \> **새로 만들기 \> (구성 이름)**
 - [모든 명령](../tools/all_commands): **파일** \> **새로 만들기 \> (구성 이름)**
-- 도구 모음: ![](../../images/filenew.gif) (화살표)
+- 도구 모음: ![](../../images/filenew..png) (화살표)
 \+ (구성 이름)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
@@ -20,7 +20,8 @@
 ## 플러그인 명령 ID
 
 ```
-EEID_FILE_NEW_CONFIG 부터 ID_FILE_NEW_CONFIG 까지 + 255 (7168 부터```
+EEID_FILE_NEW_CONFIG 부터 ID_FILE_NEW_CONFIG 까지 + 255 (7168 부터
+```
 7168 까지 + 255)
 
 ## 매크로

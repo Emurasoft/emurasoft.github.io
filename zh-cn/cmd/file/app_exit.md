@@ -13,14 +13,15 @@
 - 默认菜单: **文件** \> **关闭**
 - [所有命令](../tools/all_commands): **文件** \> **关闭**
 \> **关闭**
-- 工具栏: ![](../../images/appexit.gif)
+- 工具栏: ![](../../images/appexit..png)
 - 状态栏: 无
 - 默认快捷键: CTRL+F4 或 CTRL+W
 
 ## 插件命令ID
 
 ```
-EEID_APP_EXIT (4117)```
+EEID_APP_EXIT (4117)
+```
 
 ## 宏
 

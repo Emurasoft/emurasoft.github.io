@@ -12,14 +12,15 @@
 
 - 默认菜单: **书签** \> **上一个书签**
 - [所有命令](../tools/all_commands): **书签** \> **上一个书签**
-- 工具栏: ![](../../images/bookmarkprevwithin.gif)
+- 工具栏: ![](../../images/bookmarkprevwithin..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_BOOKMARK_PREV_WITHIN (4352)```
+EEID_BOOKMARK_PREV_WITHIN (4352)
+```
 
 ## 宏
 

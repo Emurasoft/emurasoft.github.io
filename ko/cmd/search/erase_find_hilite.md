@@ -13,14 +13,15 @@
 - 기본 메뉴: **검색** \> **찾은 강조 표시 삭제**
 - [모든 명령](../tools/all_commands): **검색** \> **찾은 강조 표시 삭제**
 - 도구 모음:
-![](../../images/erasefindhilite.gif)
+![](../../images/erasefindhilite..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: ALT+F3
 
 ## 플러그인 명령 ID
 
 ```
-EEID_ERASE_FIND_HILITE (4206)```
+EEID_ERASE_FIND_HILITE (4206)
+```
 
 ## 매크로
 

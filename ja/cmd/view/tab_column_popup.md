@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[タブ/インデント\] \- \[タブの桁数\]
-- ツール バー: ![](../../images/tab_column24x16.gif)
+- ツール バー: ![](../../images/tab_column24x16..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_TAB_COLUMN_POPUP (4550)```
+EEID_TAB_COLUMN_POPUP (4550)
+```
 
 ## マクロ
 

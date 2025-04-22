@@ -12,14 +12,15 @@
 
 - 默认菜单: **比较** \> **重新扫描**
 - [所有命令](../tools/all_commands): **比较** \> **重新扫描**
-- 工具栏:  ![](../../images/rescan24x16.gif)
+- 工具栏:  ![](../../images/rescan24x16..png)
 - 状态栏: 无
 - 默认快捷键: **F5**
 
 ## 插件命令ID
 
 ```
-EEID_COMPARE_RESCAN (4494)```
+EEID_COMPARE_RESCAN (4494)
+```
 
 ## 宏
 

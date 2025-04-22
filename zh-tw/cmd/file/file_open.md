@@ -13,14 +13,15 @@
 - 預設功能表: **檔案** \> **打開**
 - [全部命令](../tools/all_commands): **檔案** \> **打開**
 \> **打開**
-- 工具列: ![](../../images/fileopen.gif)
+- 工具列: ![](../../images/fileopen..png)
 - 狀態列: 無
 - 預設捷徑: CTRL+O
 
 ## 外掛程式命令ID
 
 ```
-EEID_FILE_OPEN (4097)```
+EEID_FILE_OPEN (4097)
+```
 
 ## 巨集
 

@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[変換\] \- \[コメント削除\]
 - [すべてのコマンド](../../glossary/allcommands): \[変換\] \- \[コメント削除\]
-- ツール バー: ![](../../images/edituncomment.gif)
+- ツール バー: ![](../../images/edituncomment..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_EDIT_UNCOMMENT (4372)```
+EEID_EDIT_UNCOMMENT (4372)
+```
 
 ## マクロ
 

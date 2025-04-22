@@ -12,14 +12,15 @@
 
 - 預設功能表: **檔案** \> **列印**
 - [全部命令](../tools/all_commands): **檔案** \> **列印** \> **列印**
-- 工具列: ![](../../images/fileprint.gif)
+- 工具列: ![](../../images/fileprint..png)
 - 狀態列: 無
 - 預設捷徑: CTRL+P
 
 ## 外掛程式命令ID
 
 ```
-EEID_FILE_PRINT (4114)```
+EEID_FILE_PRINT (4114)
+```
 
 ## 巨集
 

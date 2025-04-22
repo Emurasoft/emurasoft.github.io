@@ -13,14 +13,15 @@
 - 默认菜单: **查看** \> **制表符/缩进** \> **自动缩进**
 - [所有命令](../tools/all_commands): **查看** \> **制表符/缩进** \> **自动缩进**
 - Toolbar:
-![](../../images/auto_indent24x16.gif)
+![](../../images/auto_indent24x16..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_TOGGLE_AUTO_INDENT (4540)```
+EEID_TOGGLE_AUTO_INDENT (4540)
+```
 
 ## 宏
 

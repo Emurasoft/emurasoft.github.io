@@ -12,14 +12,15 @@
 
 - 默认菜单: **比较** \> **直接比较**
 - [所有命令](../tools/all_commands): **比较** \> **比较**
-- 工具栏:  ![](../../images/compare24x16.gif)
+- 工具栏:  ![](../../images/compare24x16..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_COMPARE_DIRECT (4492)```
+EEID_COMPARE_DIRECT (4492)
+```
 
 ## 宏
 

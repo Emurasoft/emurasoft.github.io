@@ -14,14 +14,15 @@
 - [所有命令](../tools/all_commands): **搜索**
 \> **上一个**
 - 工具栏:
-![](../../images/editrepeatback.gif)
+![](../../images/editrepeatback..png)
 - 状态栏: 无
 - 默认快捷键: SHIFT+F3
 
 ## 插件命令ID
 
 ```
-EEID_EDIT_REPEAT_BACK (4203)```
+EEID_EDIT_REPEAT_BACK (4203)
+```
 
 ## 宏
 

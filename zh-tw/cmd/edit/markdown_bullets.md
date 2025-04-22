@@ -12,7 +12,7 @@
 
 - 預設功能表: **編輯** \> **Markdown** \> **項目符號**
 - [全部命令](../tools/all_commands): **編輯** \> **Markdown** \> **項目符號**
-- 工具列: ![](../../images/bullets.gif)
+- 工具列: ![](../../images/bullets..png)
 - 狀態列: 無
 - 預設快速鍵: 無
 

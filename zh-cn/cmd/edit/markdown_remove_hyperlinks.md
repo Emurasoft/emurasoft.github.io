@@ -12,7 +12,7 @@
 
 - 默认菜单: **编辑** \> **Markdown** \> **移除超链接**
 - [所有命令](../tools/all_commands): **编辑** \> **Markdown** \> **移除超链接**
-- 工具栏: ![](../../images/remove_hyperlinks.gif)
+- 工具栏: ![](../../images/remove_hyperlinks..png)
 - 状态栏: 无
 - 默认快捷键: 无
 

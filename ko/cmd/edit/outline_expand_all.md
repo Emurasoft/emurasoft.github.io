@@ -12,14 +12,15 @@
 
 - 기본 메뉴: **편집** \> **윤곽** \> **모두 확장**
 - [모든 명령](../tools/all_commands): **편집** \> **윤곽** \> **모두 확장**
-- 도구 모음: ![](../../images/outline_exp.gif)
+- 도구 모음: ![](../../images/outline_exp..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_OUTLINE_EXPAND_ALL (4411)```
+EEID_OUTLINE_EXPAND_ALL (4411)
+```
 
 ## 매크로
 

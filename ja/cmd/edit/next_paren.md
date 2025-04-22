@@ -12,14 +12,15 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[水平にカーソル移動\] \- \[対応するかっこ\]
-- ツール バー: ![](../../images/nextparen.gif)
+- ツール バー: ![](../../images/nextparen..png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+\]
 
 ## プラグイン コマンド ID
 
 ```
-EEID_NEXT_PAREN (4276)```
+EEID_NEXT_PAREN (4276)
+```
 
 ## マクロ
 

@@ -13,14 +13,15 @@
 - 預設功能表: **巨集** \> **選擇**
 - [全部命令](../tools/all_commands): **巨集**
 \> **選擇**
-- 工具列: ![](../../images/macroselect.gif)
+- 工具列: ![](../../images/macroselect..png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_MACRO_SELECT (4347)```
+EEID_MACRO_SELECT (4347)
+```
 
 ## 巨集
 

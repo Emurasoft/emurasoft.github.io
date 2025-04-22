@@ -13,14 +13,15 @@
 - 默认菜单: **宏** \> **运行**
 - [所有命令](../tools/all_commands): **宏**
 \> **运行**
-- 工具栏: ![](../../images/quickmacrorun.gif)
+- 工具栏: ![](../../images/quickmacrorun..png)
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+P
 
 ## 插件命令ID
 
 ```
-EEID_QUICK_MACRO_RUN (4217)```
+EEID_QUICK_MACRO_RUN (4217)
+```
 
 ## 宏
 

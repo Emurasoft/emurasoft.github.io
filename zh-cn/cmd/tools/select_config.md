@@ -13,14 +13,15 @@
 - 默认菜单: **工具** \> **选择配置** \> （ **配置名称**）
 - [所有命令](all_commands): **工具** >
 **选择配置** \> （ **配置名称**）
-- 工具栏: ![](../../images/configpopup.gif)（点击箭头） \> （ **配置名称**）
+- 工具栏: ![](../../images/configpopup..png)（点击箭头） \> （ **配置名称**）
 - 状态栏: （双击配置名称） \> （ **配置名称**）
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-From EEID_SELECT_CONFIG through EEID_SELECT_CONFIG + 255 （从 5120 到 5120 + 255）```
+From EEID_SELECT_CONFIG through EEID_SELECT_CONFIG + 255 （从 5120 到 5120 + 255）
+```
 
 ## 宏
 

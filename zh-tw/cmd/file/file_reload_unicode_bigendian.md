@@ -13,14 +13,15 @@
 - 預設功能表: **檔案** \> **重新載入** \> **UTF-16BE**
 - [全部命令](../tools/all_commands): **檔案** \> **重新載入**
 \> **UTF-16BE**
-- 工具列: ![](../../images/reload.gif) (點擊箭頭) \> **UTF-16BE**
+- 工具列: ![](../../images/reload..png) (點擊箭頭) \> **UTF-16BE**
 - 狀態列: (在顯示的 **編碼** 上雙擊) \> **UTF-16BE**
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_FILE_RELOAD_UNICODE_BIGENDIAN (4261)```
+EEID_FILE_RELOAD_UNICODE_BIGENDIAN (4261)
+```
 
 ## 巨集
 

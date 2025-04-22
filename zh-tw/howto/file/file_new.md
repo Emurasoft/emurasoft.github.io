@@ -1,7 +1,7 @@
 # 創建一個新檔案
 
 1. 在工具列上點擊
-![New](../../images/filenew.gif)
+![New](../../images/filenew..png)
 。
 2. 在新增的 EmEditor 視窗中輸入您的文字。
 

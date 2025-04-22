@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[編集\] \- \[部分編集\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[部分編集\] \- \[部分編集の設定/解除\]
-- ツール バー: ![](../../images/narrowing.gif)
+- ツール バー: ![](../../images/narrowing..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_NARROWING_TOGGLE (4456)```
+EEID_NARROWING_TOGGLE (4456)
+```
 
 ## マクロ
 

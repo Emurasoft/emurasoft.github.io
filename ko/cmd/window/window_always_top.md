@@ -14,14 +14,15 @@
 
 - 기본 메뉴: **창** \> **항상 위**
 - [모든 명령](../tools/all_commands): **창** \> **항상 위** \> **항상 위**
-- 도구 모음: ![](../../images/windowalwaystop.gif)
+- 도구 모음: ![](../../images/windowalwaystop..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_WINDOW_ALWAYS_TOP (4239)```
+EEID_WINDOW_ALWAYS_TOP (4239)
+```
 
 ## 매크로
 

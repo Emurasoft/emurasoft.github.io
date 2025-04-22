@@ -12,14 +12,15 @@
 
 - 預設功能表: **編輯** \> **Markdown** \> **設計檢視**
 - [全部命令](../tools/all_commands): **編輯** \> **Markdown** \> **設計檢視**
-- 工具列: ![](../../images/markdown_view.gif)
+- 工具列: ![](../../images/markdown_view..png)
 - 狀態列: 無
 - 預設快速鍵: 無
 
 ## 外掛程式命令 ID
 
 ```
-EEID_MARKDOWN_VIEW (23255)```
+EEID_MARKDOWN_VIEW (23255)
+```
 
 ## 巨集
 

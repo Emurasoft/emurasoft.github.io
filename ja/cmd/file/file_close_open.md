@@ -17,14 +17,15 @@
 - 既定のメニュー: \[ファイル\] \- \[閉じて開く\]
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[開く\] \- \[閉じて開く\]
 - ツール バー:
-![](../../images/filecloseopen.gif)
+![](../../images/filecloseopen..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_FILE_CLOSE_OPEN (4098)```
+EEID_FILE_CLOSE_OPEN (4098)
+```
 
 ## マクロ
 

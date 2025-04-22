@@ -12,14 +12,15 @@
 
 - 默认菜单: **文件** \> **重新载入** \> **UTF-16LE**
 - [所有命令](../tools/all_commands): **文件** \> **重新载入UTF-16LE**
-- 工具栏: ![](../../images/reload.gif)（点击箭头） \> **UTF-16LE**
+- 工具栏: ![](../../images/reload..png)（点击箭头） \> **UTF-16LE**
 - 状态栏: （在显示的 **编码** 上双击） \> **UTF-16LE**
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_FILE_RELOAD_UNICODE (4257)```
+EEID_FILE_RELOAD_UNICODE (4257)
+```
 
 ## 宏
 

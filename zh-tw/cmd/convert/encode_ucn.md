@@ -13,14 +13,15 @@
 - 預設功能表: **轉換** \> **編碼/解碼** \> **將 Unicode 轉換為通用字元名稱**
 - [全部命令](../tools/all_commands): **轉換** \> **編碼/解碼** \> **將 Unicode 轉換為通用字元名稱**
 - 工具列:
-![](../../images/uni2ucs24x16.gif)
+![](../../images/uni2ucs24x16..png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_ENCODE_UCN (4527)```
+EEID_ENCODE_UCN (4527)
+```
 
 ## 巨集
 

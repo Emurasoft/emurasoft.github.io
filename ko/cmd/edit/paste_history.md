@@ -14,14 +14,15 @@
 - 기본 메뉴: **편집** \> **클립보드 링 순환**
 - [모든 명령](../tools/all_commands): **편집** \> **붙여넣기**
 \> **클립보드 링 순환**
-- 도구 모음: ![](../../images/cycle_clipboard_ring.gif)
+- 도구 모음: ![](../../images/cycle_clipboard_ring..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+SHIFT+V, CTRL+SHIFT+INSERT
 
 ## 플러그인 명령 ID
 
 ```
-EEID_PASTE_HISTORY (4454)```
+EEID_PASTE_HISTORY (4454)
+```
 
 ## 매크로
 

@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[検索\] \- \[次を検索\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[次を検索\]
-- ツール バー: ![](../../images/editrepeat.gif)
+- ツール バー: ![](../../images/editrepeat..png)
 - ステータス バー: なし
 - 既定のショートカット: F3
 
 ## プラグイン コマンド ID
 
 ```
-EEID_EDIT_REPEAT (4202)```
+EEID_EDIT_REPEAT (4202)
+```
 
 ## マクロ
 

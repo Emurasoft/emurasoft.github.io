@@ -15,14 +15,15 @@
 - [모든 명령](../tools/all_commands): **파일** \> **저장**
 \> **모두 저장**
 - 도구 모음:
-![](../../images/filesaveall.gif)
+![](../../images/filesaveall..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_FILE_SAVE_ALL (4101)```
+EEID_FILE_SAVE_ALL (4101)
+```
 
 ## 매크로
 

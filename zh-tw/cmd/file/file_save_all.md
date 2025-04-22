@@ -14,14 +14,15 @@
 - [全部命令](../tools/all_commands): **檔案** \> **儲存**
 \> **全部儲存**
 - 工具列:
-![](../../images/filesaveall.gif)
+![](../../images/filesaveall..png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_FILE_SAVE_ALL (4101)```
+EEID_FILE_SAVE_ALL (4101)
+```
 
 ## 巨集
 

@@ -12,7 +12,7 @@
 
 - 默认菜单: **文件** \> **重新载入** \> **(编码)**
 - [所有命令](../tools/all_commands): **文件** \> **重新载入** \> **(编码)**
-- 工具栏: ![](../../images/reload.gif) (点击箭头) \-
+- 工具栏: ![](../../images/reload..png) (点击箭头) \-
 (编码)
 - 状态栏: 在显示的编码上双击 \- (编码)
 - 默认快捷键: 无
@@ -20,7 +20,8 @@
 ## 插件命令ID
 
 ```
-从 EEID_FILE_RELOAD_DEFINED 到 EEID_FILE_RELOAD_DEFINED + 255 (从 6656```
+从 EEID_FILE_RELOAD_DEFINED 到 EEID_FILE_RELOAD_DEFINED + 255 (从 6656
+```
 到 6656 + 255)
 
 ## 宏

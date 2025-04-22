@@ -13,14 +13,15 @@
 - 기본 메뉴: **편집** \> **복사**
 - [모든 명령](../tools/all_commands): **편집** \> **복사**
 \> **복사**
-- 도구 모음: ![](../../images/copy.gif)
+- 도구 모음: ![](../../images/copy..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+C 또는 CTRL+INSERT
 
 ## 플러그인 명령 ID
 
 ```
-EEID_EDIT_COPY (4127)```
+EEID_EDIT_COPY (4127)
+```
 
 ## 매크로
 

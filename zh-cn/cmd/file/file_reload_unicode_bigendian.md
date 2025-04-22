@@ -13,14 +13,15 @@
 - 默认菜单: **文件** \> **重新载入** \> **UTF-16BE**
 - [所有命令](../tools/all_commands): **文件** \> **重新载入**
 \> **UTF-16BE**
-- 工具栏: ![](../../images/reload.gif) （点击箭头） \> **UTF-16BE**
+- 工具栏: ![](../../images/reload..png) （点击箭头） \> **UTF-16BE**
 - 状态栏: （在显示的 **编码** 上双击） \> **UTF-16BE**
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_FILE_RELOAD_UNICODE_BIGENDIAN (4261)```
+EEID_FILE_RELOAD_UNICODE_BIGENDIAN (4261)
+```
 
 ## 宏
 

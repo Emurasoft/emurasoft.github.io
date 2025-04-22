@@ -13,14 +13,15 @@
 - 預設功能表: **工具** \> **自訂**
 - [所有命令](all_commands): **工具** >
 **自訂** \> **自訂**
-- 工具列: ![](../../images/commonsettings.gif)
+- 工具列: ![](../../images/commonsettings..png)
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令ID
 
 ```
-EEID_COMMON_SETTINGS (4222)```
+EEID_COMMON_SETTINGS (4222)
+```
 
 ## 巨集
 

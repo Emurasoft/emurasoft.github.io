@@ -13,14 +13,15 @@
 - 默认菜单: **编辑** \> **删除**
 - [所有命令](../tools/all_commands): **编辑** \> **删除**
 \> **删除右侧字符**
-- 工具栏: ![](../../images/delete.gif)
+- 工具栏: ![](../../images/delete..png)
 - 状态栏: 无
 - 默认快捷键: SHIFT+BACKSPACE 或 DELETE
 
 ## 插件命令ID
 
 ```
-EEID_DELETE (4135)```
+EEID_DELETE (4135)
+```
 
 ## 宏
 

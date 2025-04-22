@@ -12,14 +12,15 @@
 
 - 默认菜单: **转换** \> **取消注释**
 - [所有命令](../tools/all_commands): **转换** \> **取消注释**
-- 工具栏: ![](../../images/edituncomment.gif)
+- 工具栏: ![](../../images/edituncomment..png)
 - 状态栏: 无
 - 默认快捷键: 无
 
 ## 插件命令ID
 
 ```
-EEID_EDIT_UNCOMMENT (4372)```
+EEID_EDIT_UNCOMMENT (4372)
+```
 
 ## 宏
 

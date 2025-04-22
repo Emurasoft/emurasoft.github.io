@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[ブックマーク\] \- \[このグループ\] \- \[前のブックマーク\]
 - [すべてのコマンド](../../glossary/allcommands): \[ブックマーク\] \- \[このグループ\] \- \[前のブックマーク\]
-- ツール バー: ![](../../images/bookmarkprev.gif)
+- ツール バー: ![](../../images/bookmarkprev..png)
 - ステータス バー: なし
 - 既定のショートカット: Shift+F2
 
 ## プラグイン コマンド ID
 
 ```
-EEID_BOOKMARK_PREV (4322)```
+EEID_BOOKMARK_PREV (4322)
+```
 
 ## マクロ
 

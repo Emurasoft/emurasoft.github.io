@@ -12,14 +12,15 @@
 
 - 기본 메뉴: **검색** \> **다음**
 - [모든 명령](../tools/all_commands): **검색** \> **다음**
-- 도구 모음: ![](../../images/editrepeat.gif)
+- 도구 모음: ![](../../images/editrepeat..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: F3
 
 ## 플러그인 명령 ID
 
 ```
-EEID_EDIT_REPEAT (4202)```
+EEID_EDIT_REPEAT (4202)
+```
 
 ## 매크로
 

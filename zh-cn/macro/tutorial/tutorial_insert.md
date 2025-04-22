@@ -37,7 +37,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 | \\xXX |  | 由两个十六进制数指定的含编码的 Latin-1 字符。 |
 | \\uXXXX |  | 由四个十六进制数指定的含编码的 Unicode 字符。 |
 
-### ![](../../images/g.gif) 参考:  [JScript \ 特殊字符 (Microsoft MSDN Library)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Lexical_grammar\#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B4%E6%8E%A5%E9%87%8F)
+### ![](../../images/g..png) 参考:  [JScript \ 特殊字符 (Microsoft MSDN Library)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Lexical_grammar\#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B4%E6%8E%A5%E9%87%8F)
 
 ### \[VBScript\]
 
@@ -51,7 +51,7 @@ document.selection.Text = Chr(9) & "EmEditor is a text editor."
 | vbTab | Chr(9) | 水平 tab。 |
 | vbVerticalTab | Chr(11) | 垂直 tab。 |
 
-### ![](../../images/g.gif) 参考:  [VBScript 字符串常数 (Microsoft MSDN Library)](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/hh277t8e(v=vs.84))
+### ![](../../images/g..png) 参考:  [VBScript 字符串常数 (Microsoft MSDN Library)](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/hh277t8e(v=vs.84))
 
 ## 提示
 

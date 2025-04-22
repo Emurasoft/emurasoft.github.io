@@ -15,14 +15,15 @@
 - 預設功能表: **檔案** \> **儲存**
 - [全部命令](../tools/all_commands): **檔案** \> **儲存**
 \> **儲存**
-- 工具列: ![](../../images/filesave.gif)
+- 工具列: ![](../../images/filesave..png)
 - 狀態列: 無
 - 預設捷徑: CTRL+S
 
 ## 外掛程式命令ID
 
 ```
-EEID_FILE_SAVE (4099)```
+EEID_FILE_SAVE (4099)
+```
 
 ## 巨集
 

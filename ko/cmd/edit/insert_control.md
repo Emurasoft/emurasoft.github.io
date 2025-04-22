@@ -14,14 +14,15 @@
 - 기본 메뉴: **편집** \> **고급** \> **특수 문자 삽입**
 - [모든 명령](../tools/all_commands): **편집** \> **삽입**
 \> **특수 문자 삽입**
-- 도구 모음: ![](../../images/insertcontrol.gif)
+- 도구 모음: ![](../../images/insertcontrol..png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 
 ## 플러그인 명령 ID
 
 ```
-EEID_INSERT_CONTROL (4197)```
+EEID_INSERT_CONTROL (4197)
+```
 
 ## 매크로
 

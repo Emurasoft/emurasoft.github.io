@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[ウィンドウ\] \- \[タブを有効にする\]
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[タブを有効にする\]
-- ツール バー: ![](../../images/windowcombine.gif)
+- ツール バー: ![](../../images/windowcombine..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_WINDOW_COMBINE (4342)```
+EEID_WINDOW_COMBINE (4342)
+```
 
 ## マクロ
 

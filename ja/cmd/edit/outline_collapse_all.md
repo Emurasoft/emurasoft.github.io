@@ -12,14 +12,15 @@
 
 - 既定のメニュー: \[編集\] \- \[アウトライン\] \- \[アウトラインをすべて縮小\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[アウトライン\] \- \[アウトラインをすべて縮小\]
-- ツール バー: ![](../../images/outline_min.gif)
+- ツール バー: ![](../../images/outline_min..png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 
 ## プラグイン コマンド ID
 
 ```
-EEID_OUTLINE_COLLAPSE_ALL (4410)```
+EEID_OUTLINE_COLLAPSE_ALL (4410)
+```
 
 ## マクロ
 
