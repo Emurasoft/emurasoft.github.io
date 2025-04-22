@@ -38,7 +38,10 @@ latex_elements = {
 
     'preamble': r'''
         \usepackage{fontspec}
-        \setmainfont{Latin Modern Roman}  % or another font that supports needed chars
+        \setmainfont[
+          Path=../../,
+          Extension=.ttf,
+        ]{NotoSans-VariableFont_wdth,wght}
     '''
 }
 exclude_patterns = ['about/thirdPartyLicenses.md']
