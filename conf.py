@@ -32,11 +32,14 @@ sitemap_url_scheme = '{lang}{link}'
 smartquotes = False
 latex_engine = 'xelatex'
 latex_elements = {
+    # Don't use inputenc or utf8extra with xelatex
+    'inputenc': '',
+    'utf8extra': '',
+
     'preamble': r'''
-            \usepackage{fontspec}
-    ''',
-    'inputenc': r'\usepackage[utf8]{inputenc}',
-    'utf8extra': r'\DeclareUnicodeCharacter{01F8}{N}',
+        \usepackage{fontspec}
+        \setmainfont{Latin Modern Roman}  % or another font that supports needed chars
+    '''
 }
 exclude_patterns = ['about/thirdPartyLicenses.md']
 
