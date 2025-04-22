@@ -14,7 +14,7 @@ where you can set the display font and the print font.
 - Default Menu: **View** \> **Font**
 - [All Commands](../tools/all_commands): **View** >
 **Font** \> **Font**
-- Toolbar: ![](../../images/fontpopup.gif) (not
+- Toolbar: ![](../../images/fontpopup.png) (not
 on the arrow)
 - Status Bar: None
 - Default Shortcut Key: None
@@ -22,7 +22,8 @@ on the arrow)
 ## Plug-in Command ID
 
 ```
-EEID_FONT (4218)```
+EEID_FONT (4218)
+```
 
 ## Macros
 

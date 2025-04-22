@@ -13,14 +13,15 @@ Toggles always on top status. When always on top is enabled, the EmEditor window
 - Default Menu: **Window** \> **Always on Top**
 - [All Commands](../tools/all_commands): **Window**
 \> **Always on Top** \> **Always on Top**
-- Toolbar: ![](../../images/windowalwaystop.gif)
+- Toolbar: ![](../../images/windowalwaystop.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_WINDOW_ALWAYS_TOP (4239)```
+EEID_WINDOW_ALWAYS_TOP (4239)
+```
 
 ## Macros
 

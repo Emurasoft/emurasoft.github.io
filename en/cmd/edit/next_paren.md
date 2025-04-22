@@ -16,14 +16,15 @@ parenthesis/bracket. If it is inside of the area about by the parentheses/bracke
 - [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
 \> **Find Matching**
 **Parenthesis/Bracket**
-- Toolbar: ![](../../images/nextparen.gif)
+- Toolbar: ![](../../images/nextparen.png)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+\]
 
 ## Plug-in Command ID
 
 ```
-EEID_NEXT_PAREN (4276)```
+EEID_NEXT_PAREN (4276)
+```
 
 ## Macros
 

@@ -14,14 +14,15 @@ From the **Print Preview** window, you can print or set options for printing.
 - Default Menu: **File** \> **Print Preview**
 - [All Commands](../tools/all_commands): **File** \> **Print**
 \> **Print Preview**
-- Toolbar: ![](../../images/printpreview.gif)
+- Toolbar: ![](../../images/printpreview.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_PRINT_PREVIEW (4286)```
+EEID_PRINT_PREVIEW (4286)
+```
 
 ## Macros
 

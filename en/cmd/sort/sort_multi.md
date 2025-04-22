@@ -12,14 +12,15 @@ Sorts the document by multiple columns or with advanced options.
 
 - Default Menu: **Sort** \> **Advanced Sort**
 - [All Commands](../tools/all_commands): **Sort** \> **Advanced Sort**
-- Toolbar: ![](../../images/sortbymultiple.gif)
+- Toolbar: ![](../../images/sortbymultiple.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_SORT_MULTI (3903)```
+EEID_SORT_MULTI (3903)
+```
 
 ## Macros
 

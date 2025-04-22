@@ -12,14 +12,15 @@ Sort text at the current column in descending order. If the text does not contai
 
 - Default Menu: **Sort** \> **Sort Z to A**
 - [All Commands](../tools/all_commands): **Sort** \> **Sort Z to A**
-- Toolbar: ![](../../images/sortingz-a.gif)
+- Toolbar: ![](../../images/sortingz-a.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_SORT_TEXT_D (4478)```
+EEID_SORT_TEXT_D (4478)
+```
 
 ## Macros
 

@@ -13,14 +13,15 @@ Resets comparison or synchronized scrolling mode and clears comparison results (
 - Default Menu: **Compare** \> **Reset to Normal Mode**
 - [All Commands](../tools/all_commands): **Compare** \> **Reset**
 **to Normal Mode**
-- Toolbar: ![](../../images/reset24x16.gif)
+- Toolbar: ![](../../images/reset24x16.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_COMPARE_RESET (4497)```
+EEID_COMPARE_RESET (4497)
+```
 
 ## Macros
 

@@ -13,7 +13,7 @@ Displays the Advanced dialog box for the Find toolbar.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Search**
 \> **Find Toolbar** \> **Advanced**
-- Toolbar: ![](../../images/commonsettings.gif)
+- Toolbar: ![](../../images/commonsettings.png)
 (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
@@ -21,7 +21,8 @@ Displays the Advanced dialog box for the Find toolbar.
 ## Plug-in Command ID
 
 ```
-EEID_FINDBAR_ADVANCED (3923)```
+EEID_FINDBAR_ADVANCED (3923)
+```
 
 ## Macros
 

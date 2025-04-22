@@ -15,14 +15,15 @@ Saves and closes all open files. This command is equivalent to the
 - Default Menu: **File** \> **Save and Close All**
 - [All Commands](../tools/all_commands): **File** \> **Close**
 \> **Save and Close All**
-- Toolbar: ![](../../images/saveexitall.gif)
+- Toolbar: ![](../../images/saveexitall.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+E
 
 ## Plug-in Command ID
 
 ```
-EEID_SAVE_EXIT_ALL (4118)```
+EEID_SAVE_EXIT_ALL (4118)
+```
 
 ## Macros
 

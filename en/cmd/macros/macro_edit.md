@@ -13,14 +13,15 @@ This command opens the last executed or recorded macro.
 - Default Menu: **Macros** \> **Edit**
 - [All Commands](../tools/all_commands): **Macros**
 \> **Edit**
-- Toolbar: ![](../../images/macroedit.gif)
+- Toolbar: ![](../../images/macroedit.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MACRO_EDIT (4348)```
+EEID_MACRO_EDIT (4348)
+```
 
 ## Macros
 

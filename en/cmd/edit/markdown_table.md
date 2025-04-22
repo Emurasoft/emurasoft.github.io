@@ -12,14 +12,15 @@ Inserts a table.
 
 - Default Menu: **Edit** \> **Markdown** \> **Table**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Table**
-- Toolbar: ![](../../images/table.gif)
+- Toolbar: ![](../../images/table.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_TABLE (23273)```
+EEID_MARKDOWN_TABLE (23273)
+```
 
 ## Macros
 

@@ -13,14 +13,15 @@ Finds the previous occurrence using the Find toolbar.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Search**
 \> **Find Toolbar** \> **Find Previous**
-- Toolbar: ![](../../images/editrepeatback.gif) (Find toolbar)
+- Toolbar: ![](../../images/editrepeatback.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_FINDBAR_FIND_PREV (4569)```
+EEID_FINDBAR_FIND_PREV (4569)
+```
 
 ## Macros
 

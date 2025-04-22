@@ -14,14 +14,15 @@ right of the cursor if no text is selected.
 - Default Menu: **Edit** \> **Delete**
 - [All Commands](../tools/all_commands): **Edit** \> **Delete**
 \> **Delete Right Character**
-- Toolbar: ![](../../images/delete.gif)
+- Toolbar: ![](../../images/delete.png)
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+BACKSPACE or DELETE
 
 ## Plug-in Command ID
 
 ```
-EEID_DELETE (4135)```
+EEID_DELETE (4135)
+```
 
 ## Macros
 

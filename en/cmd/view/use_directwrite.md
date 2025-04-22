@@ -12,7 +12,7 @@ Toggles the Use DirectWrite setting.
 
 - Default Menu: **View** \> **Use DirectWrite**
 - [All Commands](../tools/all_commands): **View** \> **Font** \> **Use DirectWrite**
-- Toolbar: ![](../../images/fontpopup.gif)
+- Toolbar: ![](../../images/fontpopup.png)
 (on the arrow) > **Use DirectWrite**
 - Status Bar: None
 - Default Shortcut Key: None
@@ -20,7 +20,8 @@ Toggles the Use DirectWrite setting.
 ## Plug-in Command ID
 
 ```
-EEID_USE_DIRECTWRITE (3997)```
+EEID_USE_DIRECTWRITE (3997)
+```
 
 ## Macros
 

@@ -13,14 +13,15 @@ Copies the selected text and moves it to the Clipboard. After this command, you 
 - Default Menu: **Edit** \> **Copy**
 - [All Commands](../tools/all_commands): **Edit** \> **Copy**
 \> **Copy**
-- Toolbar: ![](../../images/copy.gif)
+- Toolbar: ![](../../images/copy.png)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+C or CTRL+INSERT
 
 ## Plug-in Command ID
 
 ```
-EEID_EDIT_COPY (4127)```
+EEID_EDIT_COPY (4127)
+```
 
 ## Macros
 

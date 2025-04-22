@@ -12,14 +12,15 @@ Toggles an italic style.
 
 - Default Menu: **Edit** \> **Markdown** \> **Italic**
 - [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Italic**
-- Toolbar: ![](../../images/italic.gif)
+- Toolbar: ![](../../images/italic.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MARKDOWN_ITALIC (23270)```
+EEID_MARKDOWN_ITALIC (23270)
+```
 
 ## Macros
 

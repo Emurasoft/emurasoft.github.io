@@ -17,14 +17,15 @@ of the **[Configuration Properties](../../dlg/properties/index)** dialog box.
 - Default Menu: **View** \> **Wrap by Characters**
 - [All Commands](../tools/all_commands): **View** >
 **Wrap by Characters**
-- Toolbar: ![](../../images/wrapbychar.gif)
+- Toolbar: ![](../../images/wrapbychar.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+2
 
 ## Plug-in Command ID
 
 ```
-EEID_WRAP_BY_CHAR (4209)```
+EEID_WRAP_BY_CHAR (4209)
+```
 
 ## Macros
 

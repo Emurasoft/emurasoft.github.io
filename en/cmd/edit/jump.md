@@ -14,14 +14,15 @@ specified.
 - Default Menu: **Edit** \> **Jump**
 - [All Commands](../tools/all_commands): **Edit** \> **Advanced**
 \> **Jump**
-- Toolbar: ![](../../images/jump.gif)
+- Toolbar: ![](../../images/jump.png)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+G
 
 ## Plug-in Command ID
 
 ```
-EEID_JUMP (4139)```
+EEID_JUMP (4139)
+```
 
 ## Macros
 

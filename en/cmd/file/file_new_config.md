@@ -15,7 +15,7 @@ configuration. You can edit, delete, or add configurations in the
 
 - Default Menu: **File** \> **New** \> **(configuration name)**
 - [All Commands](../tools/all_commands): **File** \> **New > (configuration name)**
-- Toolbar: ![](../../images/filenew.gif) (on
+- Toolbar: ![](../../images/filenew.png) (on
 the arrow) + (configuration name)
 - Status Bar: None
 - Default Shortcut Key: None
@@ -23,7 +23,8 @@ the arrow) + (configuration name)
 ## Plug-in Command ID
 
 ```
-From EEID_FILE_NEW_CONFIG through ID_FILE_NEW_CONFIG + 255 (from 7168```
+From EEID_FILE_NEW_CONFIG through ID_FILE_NEW_CONFIG + 255 (from 7168
+```
 through 7168 + 255)
 
 ## Macros

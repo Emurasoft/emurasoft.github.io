@@ -17,14 +17,15 @@ checked on the [**Edit** page](../../dlg/customize/edit/index) of the [**Customi
 
 - Default Menu: **Edit** \> **Undo**
 - [All Commands](../tools/all_commands): **Edit** \> **Undo**
-- Toolbar: ![](../../images/editundo.gif)
+- Toolbar: ![](../../images/editundo.png)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+Z or ALT+BACKSPACE
 
 ## Plug-in Command ID
 
 ```
-EEID_EDIT_UNDO (4124)```
+EEID_EDIT_UNDO (4124)
+```
 
 ## Macros
 

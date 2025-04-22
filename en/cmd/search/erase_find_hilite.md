@@ -15,14 +15,15 @@ document.
 - [All Commands](../tools/all_commands): **Search**
 \> **Erase Find Highlight**
 - Toolbar:
-![](../../images/erasefindhilite.gif)
+![](../../images/erasefindhilite.png)
 - Status Bar: None
 - Default Shortcut Key: ALT+F3
 
 ## Plug-in Command ID
 
 ```
-EEID_ERASE_FIND_HILITE (4206)```
+EEID_ERASE_FIND_HILITE (4206)
+```
 
 ## Macros
 

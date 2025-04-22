@@ -1,13 +1,13 @@
 # To Record or Run Macro
 
-1. Click ![Start/Stop Macro Record](../../images/macrorecord.gif)
+1. Click ![Start/Stop Macro Record](../../images/macrorecord.png)
 on the Toolbar.
 2. Do the operations you want recorded.
 3. Finish recording by clicking
-![Start/Stop Macro Record](../../images/macrorecord.gif)
+![Start/Stop Macro Record](../../images/macrorecord.png)
 again on the Toolbar.
 4. To run the recorded macro, click
-![](../../images/macrorun.gif) on
+![](../../images/macrorun.png) on
 the Toolbar.
 
 ## Tips

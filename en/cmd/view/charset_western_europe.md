@@ -18,7 +18,7 @@ file. If you want to change the encoding and reload the file, select the
 - Default Menu: **View** \> **Font Category** > **Western European**
 - [All Commands](../tools/all_commands): **View** \> **Font** >
 **Font Category** > **Western European**
-- Toolbar: ![](../../images/fontpopup.gif)
+- Toolbar: ![](../../images/fontpopup.png)
 (on the arrow) > **Font Category** \> **Western European**
 - Status Bar: None
 - Default Shortcut Key: None
@@ -26,7 +26,8 @@ file. If you want to change the encoding and reload the file, select the
 ## Plug-in Command ID
 
 ```
-EEID_CHARSET_WESTERN_EUROPE (8718)```
+EEID_CHARSET_WESTERN_EUROPE (8718)
+```
 
 ## Macros
 

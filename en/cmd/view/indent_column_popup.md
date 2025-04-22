@@ -13,14 +13,15 @@ Displays a popup menu to select indent columns.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Indent Columns**
 - Toolbar:
-![](../../images/indent_column24x16.gif)
+![](../../images/indent_column24x16.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_INDENT_COLUMN_POPUP (4551)```
+EEID_INDENT_COLUMN_POPUP (4551)
+```
 
 ## Macros
 

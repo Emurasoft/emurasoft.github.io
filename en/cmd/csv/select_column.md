@@ -12,14 +12,15 @@ Selects the current column without headings as vertical selection mode in the CS
 
 - Default Menu: **CSV** \> **Columns** \> **Select Column without Headings**
 - [All Commands](../tools/all_commands): **CSV** \> **Columns** \> **Select Column without Headings**
-- Toolbar: ![](../../images/columns_separators.gif) \+ Select Column without Headings
+- Toolbar: ![](../../images/columns_separators.png) \+ Select Column without Headings
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_SELECT_COLUMN (4461)```
+EEID_SELECT_COLUMN (4461)
+```
 
 ## Macros
 

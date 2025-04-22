@@ -17,14 +17,15 @@ of the **[Configuration Properties](../../dlg/properties/index)** dialog box.
 - Default Menu: **View** \> **Wrap by Page**
 - [All Commands](../tools/all_commands): **View** >
 **Wrap by Page**
-- Toolbar: ![](../../images/wrapbypage.gif)
+- Toolbar: ![](../../images/wrapbypage.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+4
 
 ## Plug-in Command ID
 
 ```
-EEID_WRAP_BY_PAPER (4318)```
+EEID_WRAP_BY_PAPER (4318)
+```
 
 ## Macros
 

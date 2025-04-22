@@ -13,14 +13,15 @@ selection) as editable area and make the rest inaccessible.
 
 - Default Menu: **Edit** \> **Narrowing**
 - [All Commands](../tools/all_commands): **Edit** \> **Narrowing** \> **Toggle Narrowing**
-- Toolbar: ![](../../images/narrowing.gif)
+- Toolbar: ![](../../images/narrowing.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_NARROWING_TOGGLE (4456)```
+EEID_NARROWING_TOGGLE (4456)
+```
 
 ## Macros
 

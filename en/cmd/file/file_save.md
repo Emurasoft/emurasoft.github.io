@@ -18,14 +18,15 @@ If the file is untitled, the **Save As** dialog box will be displayed, which all
 - Default Menu: **File** \> **Save**
 - [All Commands](../tools/all_commands): **File** \> **Save**
 \> **Save**
-- Toolbar: ![](../../images/filesave.gif)
+- Toolbar: ![](../../images/filesave.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+S
 
 ## Plug-in Command ID
 
 ```
-EEID_FILE_SAVE (4099)```
+EEID_FILE_SAVE (4099)
+```
 
 ## Macros
 

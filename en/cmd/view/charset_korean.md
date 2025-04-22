@@ -17,7 +17,7 @@ file. If you want to change the encoding and reload the file, select the
 - Default Menu: **View** \> **Font Category** > **Korean**
 - [All Commands](../tools/all_commands): **View** \> **Font** >
 **Font Category** > **Korean**
-- Toolbar: ![](../../images/fontpopup.gif)
+- Toolbar: ![](../../images/fontpopup.png)
 (on the arrow) > **Font Category** \> **Korean**
 - Status Bar: None
 - Default Shortcut Key: None
@@ -25,7 +25,8 @@ file. If you want to change the encoding and reload the file, select the
 ## Plug-in Command ID
 
 ```
-EEID_CHARSET_KOREAN (8714)```
+EEID_CHARSET_KOREAN (8714)
+```
 
 ## Macros
 

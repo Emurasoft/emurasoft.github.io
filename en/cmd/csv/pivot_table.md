@@ -12,14 +12,15 @@ This command displays the [**Pivot Table** dialog box](../../dlg/pivot_table/ind
 
 - Default Menu: **CSV** \> **Advanced** \> **Pivot Table**
 - [All Commands](../tools/all_commands): **CSV** \> **Advanced** \> **Pivot Table**
-- Toolbar: ![](../../images/pivot_table.gif)
+- Toolbar: ![](../../images/pivot_table.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_PIVOT_TABLE (4081)```
+EEID_PIVOT_TABLE (4081)
+```
 
 ## Macros
 

@@ -14,14 +14,15 @@ Toggles the Block Multiline Changes button on the Filter toolbar.
 - [All Commands](../tools/all_commands): **Search**
 \> **Filter Toolbar** \> **Block Multiline Changes**
 - Toolbar:
-![](../../images/blockmultilinechanges.gif) (Filter toolbar)
+![](../../images/blockmultilinechanges.png) (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_FILTERBAR_LIMIT(3915)```
+EEID_FILTERBAR_LIMIT(3915)
+```
 
 ## Macros
 

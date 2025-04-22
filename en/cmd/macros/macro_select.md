@@ -14,14 +14,15 @@ the [**Edit Macro** command](macro_edit), and the [**Run Macro** command](quick_
 - Default Menu: **Macros** \> **Select**
 - [All Commands](../tools/all_commands): **Macros**
 \> **Select**
-- Toolbar: ![](../../images/macroselect.gif)
+- Toolbar: ![](../../images/macroselect.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_MACRO_SELECT (4347)```
+EEID_MACRO_SELECT (4347)
+```
 
 ## Macros
 

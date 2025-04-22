@@ -17,14 +17,15 @@ of the **[Configuration Properties](../../dlg/properties/index)** dialog box.
 - Default Menu: **View** \> **Wrap by Window**
 - [All Commands](../tools/all_commands): **View** >
 **Wrap by Window**
-- Toolbar: ![](../../images/wrapbywindow.gif)
+- Toolbar: ![](../../images/wrapbywindow.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+3
 
 ## Plug-in Command ID
 
 ```
-EEID_WRAP_BY_WINDOW (4210)```
+EEID_WRAP_BY_WINDOW (4210)
+```
 
 ## Macros
 

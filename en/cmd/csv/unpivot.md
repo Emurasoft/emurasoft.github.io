@@ -12,14 +12,15 @@ This command displays the [**Unpivot** dialog box](../../dlg/unpivot/index), and
 
 - Default Menu: **CSV** \> **Advanced** \> **Unpivot**
 - [All Commands](../tools/all_commands): **CSV** \> **Advanced** \> **Unpivot**
-- Toolbar: ![](../../images/unpivot.gif)
+- Toolbar: ![](../../images/unpivot.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_UNPIVOT (4083)```
+EEID_UNPIVOT (4083)
+```
 
 ## Macros
 

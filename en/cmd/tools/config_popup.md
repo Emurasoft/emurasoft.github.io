@@ -15,7 +15,7 @@ Shows a popup menu showing the [**Select** **Specified Configuration** command](
 - [All Commands](all_commands): **Tools** >
 **Select Configuration** \> **Select Configuration (Popup**
 **Menu)**
-- Toolbar: ![](../../images/configpopup.gif) (on
+- Toolbar: ![](../../images/configpopup.png) (on
 the arrow)
 - Status Bar: (double-click on configuration name)
 - Default Shortcut Key: SHIFT + F11

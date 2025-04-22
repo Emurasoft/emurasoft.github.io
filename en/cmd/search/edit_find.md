@@ -15,14 +15,15 @@ and other options will start finding the specified string.
 - Default Menu: **Search** \> **Find**
 - [All Commands](../tools/all_commands): **Search**
 \> **Find**
-- Toolbar: ![](../../images/editfind.gif)
+- Toolbar: ![](../../images/editfind.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+F
 
 ## Plug-in Command ID
 
 ```
-EEID_EDIT_FIND (4200)```
+EEID_EDIT_FIND (4200)
+```
 
 ## Macros
 

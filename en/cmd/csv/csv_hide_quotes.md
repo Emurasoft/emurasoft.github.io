@@ -12,14 +12,15 @@ Temporarily shows the current CSV document without quotation marks or escape cha
 
 - Default Menu: **CSV** \> **Hide Quotes Temporarily**
 - [All Commands](../tools/all_commands): **CSV** \> **Hide Quotes Temporarily**
-- Toolbar: ![](../../images/csv_hide_quotes.gif)
+- Toolbar: ![](../../images/csv_hide_quotes.png)
 - Status Bar: None
 - Default Shortcut Key: None
 
 ## Plug-in Command ID
 
 ```
-EEID_CSV_HIDE_QUOTES (4067)```
+EEID_CSV_HIDE_QUOTES (4067)
+```
 
 ## Macros
 

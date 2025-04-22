@@ -2,7 +2,7 @@
 
 The **Search** plug-in is installed by default with EmEditor Professional. This plug-in searches opened documents for a string. To use the **Search** plug-in:
 
-1. Click **![Search](../../images/plugin_search.gif)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Search**. The **Search** custom bar will appear.
+1. Click **![Search](../../images/plugin_search.png)** on the **Plug-ins** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Search**. The **Search** custom bar will appear.
 2. Enter any word, phrase, or regular expression you want to search for in the **Find** text box.
 
 - Click the **Match Case** check box if the cases should be matched.

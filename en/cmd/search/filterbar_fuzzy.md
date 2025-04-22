@@ -13,14 +13,15 @@ Toggles the Fuzzy Matching button on the Filter toolbar.
 - Default Menu: None
 - [All Commands](../tools/all_commands): **Edit** \> **Filter Toolbar**
 \> **Fuzzy Matching**
-- Toolbar: ![](../../images/fuzzy.gif) (Filter toolbar)
+- Toolbar: ![](../../images/fuzzy.png) (Filter toolbar)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_FILTERBAR_FUZZY (23235)```
+EEID_FILTERBAR_FUZZY (23235)
+```
 
 ## Macros
 

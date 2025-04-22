@@ -18,7 +18,7 @@ will allow you to continue editing the document.
 - Default Menu: **File** \> **Reload** \> **Same Encoding**
 - [All Commands](../tools/all_commands): **File** \> **Reload**
 \> **Same Encoding**
-- Toolbar: ![](../../images/reload.gif) (not
+- Toolbar: ![](../../images/reload.png) (not
 on the arrow)
 - Status Bar: None
 - Default Shortcut Key: None

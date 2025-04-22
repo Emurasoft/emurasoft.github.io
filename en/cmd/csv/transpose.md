@@ -12,14 +12,15 @@ Switches the rows and columns of the CSV document.
 
 - Default Menu: **CSV** \> **Advanced** \> **Transpose**
 - [All Commands](../tools/all_commands): **CSV** \> **Advanced** \> **Transpose**
-- Toolbar: ![](../../images/transpose.gif)
+- Toolbar: ![](../../images/transpose.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 
 ```
-EEID_TRANSPOSE (4082)```
+EEID_TRANSPOSE (4082)
+```
 
 ## Macros
 

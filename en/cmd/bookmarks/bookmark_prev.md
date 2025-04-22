@@ -15,14 +15,15 @@ straight to the last bookmark of that document.
 
 - Default Menu: **Bookmarks** \> **This Group** \> **Previous Bookmark**
 - [All Commands](../tools/all_commands): **Bookmarks** \> **This Group** \> **Previous Bookmark**
-- Toolbar: ![](../../images/bookmarkprev.gif)
+- Toolbar: ![](../../images/bookmarkprev.png)
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+F2
 
 ## Plug-in Command ID
 
 ```
-EEID_BOOKMARK_PREV (4322)```
+EEID_BOOKMARK_PREV (4322)
+```
 
 ## Macros
 

@@ -12,14 +12,15 @@ Clears all bookmarks in the current document.
 
 - Default Menu: **Bookmarks** \> **Clear All Bookmarks**
 - [All Commands](../tools/all_commands): **Bookmarks** \> **Clear All Bookmarks**
-- Toolbar: ![](../../images/bookmarkclear.gif)
+- Toolbar: ![](../../images/bookmarkclear.png)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+F2
 
 ## Plug-in Command ID
 
 ```
-EEID_BOOKMARK_CLEAR (4323)```
+EEID_BOOKMARK_CLEAR (4323)
+```
 
 ## Macros
 

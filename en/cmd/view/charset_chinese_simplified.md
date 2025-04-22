@@ -18,7 +18,7 @@ file. If you want to change the encoding and reload the file, select the
 - Default Menu: **View** \> **Font Category** > **Simplified Chinese**
 - [All Commands](../tools/all_commands): **View** \> **Font** >
 **Font Category** > **Simplified Chinese**
-- Toolbar: ![](../../images/fontpopup.gif)
+- Toolbar: ![](../../images/fontpopup.png)
 (on the arrow) > **Font Category** \> **Simplified Chinese**
 - Status Bar: None
 - Default Shortcut Key: None
@@ -26,7 +26,8 @@ file. If you want to change the encoding and reload the file, select the
 ## Plug-in Command ID
 
 ```
-EEID_CHARSET_CHINESE_SIMPLIFIED (8708)```
+EEID_CHARSET_CHINESE_SIMPLIFIED (8708)
+```
 
 ## Macros
 

@@ -4,7 +4,7 @@ The **Projects** plug-in is installed by default with EmEditor Professional. Thi
 
 To create a new project using the **Projects** plug-in:
 
-1. Click **![](../../images/projects.gif)** on the **Projects** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Projects**. The **Projects** custom bar will appear.
+1. Click **![](../../images/projects.png)** on the **Projects** bar. Or on the **Tools** menu, point to **Plug-ins**, and then click **Projects**. The **Projects** custom bar will appear.
 2. Right-click in the **Projects** bar, and select **New Projects**.
 3. Right-click on **Untitled Project**, and select **Add Existing Files**.
 4. Select all files you want to include in the project.
@@ -58,16 +58,16 @@ Right clicking on the Projects bar shows the following options:
 
 |     |     |
 | --- | --- |
-| **![](../../images/newsolution.gif) New Solution** | creates a new solution. |
-| **![](../../images/opensolution.gif) Open Solution** | opens an existing solution. |
-| **![](../../images/runsolution.gif) Run Solution** | runs the open solution. |
-| **![](../../images/parameterinformation.gif) Parameter Information** | displays the parameter information. |
-| **![](../../images/gotodefinition.gif) Go to Definition** | causes the cursor to jump to definitions. |
-| **![](../../images/popbrowsecontent.gif) Pop Browse Context** | causes the cursor to return to the previous. |
-| **![](../../images/symbollist.gif) Symbol List** | displays a list of symbols. |
-| **![](../../images/propertiesforcurrentsolutiontemplate.gif) Properties for Current Solution Template** | displays the customizable properties for the current solution template. The General tab includes the Solution Format, File Extension, and Read Only option. The Configurations tab includes Configurations, Platforms, and Macros. The Symbols tab includes, Refresh All Symbol Lists Automatically and Additional Parameters to Ctags. The Tools tab includes customizable tools. The Keyboard page includes the option to assign commands to keyboard shortcuts for this plug-in. |
-| **![](../../images/solutiontemplates.gif) Solution Templates** | displays the **Solution Template** dialog box. |
-| **![](../../images/pluginproperties.gif) Plug-in Properties** | displays the plug-in Properties. |
+| **![](../../images/newsolution.png) New Solution** | creates a new solution. |
+| **![](../../images/opensolution.png) Open Solution** | opens an existing solution. |
+| **![](../../images/runsolution.png) Run Solution** | runs the open solution. |
+| **![](../../images/parameterinformation.png) Parameter Information** | displays the parameter information. |
+| **![](../../images/gotodefinition.png) Go to Definition** | causes the cursor to jump to definitions. |
+| **![](../../images/popbrowsecontent.png) Pop Browse Context** | causes the cursor to return to the previous. |
+| **![](../../images/symbollist.png) Symbol List** | displays a list of symbols. |
+| **![](../../images/propertiesforcurrentsolutiontemplate.png) Properties for Current Solution Template** | displays the customizable properties for the current solution template. The General tab includes the Solution Format, File Extension, and Read Only option. The Configurations tab includes Configurations, Platforms, and Macros. The Symbols tab includes, Refresh All Symbol Lists Automatically and Additional Parameters to Ctags. The Tools tab includes customizable tools. The Keyboard page includes the option to assign commands to keyboard shortcuts for this plug-in. |
+| **![](../../images/solutiontemplates.png) Solution Templates** | displays the **Solution Template** dialog box. |
+| **![](../../images/pluginproperties.png) Plug-in Properties** | displays the plug-in Properties. |
 
 ### Solution Templates
 
@@ -76,7 +76,7 @@ When you open a solution file, a solution template associated with the file exte
 
 ### Solution Templates dialog box
 
-This dialog box appears when you click the ![](../../images/solutiontemplates.gif) button. Available solution templates are displayed in the list. Click the Properties button to display the properties of the selected solution template.
+This dialog box appears when you click the ![](../../images/solutiontemplates.png) button. Available solution templates are displayed in the list. Click the Properties button to display the properties of the selected solution template.
 
 ### Solution Template Properties
 
