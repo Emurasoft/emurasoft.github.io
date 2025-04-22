@@ -13,7 +13,7 @@
 - 默认菜单: **查看** \> **按窗口换行**
 - [所有命令](../tools/all_commands): **查看** >
 **按窗口换行**
-- 工具栏: ![](../../images/wrapbywindow..png)
+- 工具栏: ![](../../images/wrapbywindow.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+3
 

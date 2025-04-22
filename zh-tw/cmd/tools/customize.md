@@ -13,7 +13,7 @@
 - 預設功能表: **工具** \> **當前組態屬性**
 - [所有命令](all_commands): **工具** >
 **當前組態屬性** \> **屬性**
-- 工具列: ![](../../images/properties..png)
+- 工具列: ![](../../images/properties.png)
 - 狀態列: 無
 - 預設捷徑: ALT+ENTER
 

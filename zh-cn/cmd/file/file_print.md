@@ -12,7 +12,7 @@
 
 - 默认菜单: **文件** \> **打印**
 - [所有命令](../tools/all_commands): **文件** \> **打印** \> **打印**
-- 工具栏: ![](../../images/fileprint..png)
+- 工具栏: ![](../../images/fileprint.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+P
 

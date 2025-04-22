@@ -20,7 +20,7 @@ CR+LF (Windows) で、フォントの分類は日本語版 Windows
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ファイル\] \- \[新規作成\] \- \[Textを新規作成\]
-- ツール バー: ![](../../images/filenew..png) (矢印でない部分)
+- ツール バー: ![](../../images/filenew.png) (矢印でない部分)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+N
 

@@ -14,7 +14,7 @@
 - [所有命令](../tools/all_commands): **搜索**
 \> **上一个**
 - 工具栏:
-![](../../images/editrepeatback..png)
+![](../../images/editrepeatback.png)
 - 状态栏: 无
 - 默认快捷键: SHIFT+F3
 

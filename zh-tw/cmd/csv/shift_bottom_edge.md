@@ -12,7 +12,7 @@
 
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **編輯** \> **CSV** \> **僅限儲存格選擇模式** \> **延伸到下邊緣**
-- 工具列: ![](../../images/cell_selection_mode..png)
+- 工具列: ![](../../images/cell_selection_mode.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+SHIFT+向下鍵 (僅限儲存格選擇模式)
 

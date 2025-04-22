@@ -13,7 +13,7 @@
 
 - 기본 메뉴: **편집** \> **다시 실행**
 - [모든 명령](../tools/all_commands): **편집** \> **다시 실행**
-- 도구 모음: ![](../../images/editredo..png)
+- 도구 모음: ![](../../images/editredo.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+Y
 

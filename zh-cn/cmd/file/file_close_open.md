@@ -16,7 +16,7 @@
 - [所有命令](../tools/all_commands): **文件** \> **打开**
 \> **关闭并打开**
 - 工具栏:
-![](../../images/filecloseopen..png)
+![](../../images/filecloseopen.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

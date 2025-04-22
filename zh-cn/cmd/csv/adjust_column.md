@@ -12,7 +12,7 @@
 
 - 默认菜单: **CSV** \> **调整分隔符位置 (整个文档)**
 - [所有命令](../tools/all_commands): **CSV** \> **调整分隔符位置 (整个文档)**
-- 工具栏: ![](../../images/columns_separators..png) \+ 调整分隔符位置 (整个文档)
+- 工具栏: ![](../../images/columns_separators.png) \+ 调整分隔符位置 (整个文档)
 - 状态栏: 无
 - 默认快捷键: 无
 

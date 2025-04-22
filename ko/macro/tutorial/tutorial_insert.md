@@ -41,7 +41,7 @@ VBScript 상수 vbTab을 탭 문자로 사용할 수도 있습니다.
 | \\xXX |  | 두 16진수로 지정된 인코딩을 사용한 Latin-1 문자. |
 | \\uXXXX |  | 네개의 16진수로 지정된 인코딩을 사용한 유니코드 문자. |
 
-### ![](../../images/g..png) 참조: [JScript 특수 문자 (Microsoft MSDN Library)](http://msdn.microsoft.com/ko-kr/library/ie/2yfce773(v=vs.94).aspx)
+### ![](../../images/g.png) 참조: [JScript 특수 문자 (Microsoft MSDN Library)](http://msdn.microsoft.com/ko-kr/library/ie/2yfce773(v=vs.94).aspx)
 
 ### \[VBScript\]
 
@@ -55,7 +55,7 @@ VBScript 상수 vbTab을 탭 문자로 사용할 수도 있습니다.
 | vbTab | Chr(9) | 수평 탭. |
 | vbVerticalTab | Chr(11) | 수직 탭. |
 
-### ![](../../images/g..png) 참조: [VBScript \ 문자열 상수 (Microsoft MSDN Library)](http://msdn.microsoft.com/ko-kr/library/hh277t8e(v=vs.84).aspx)
+### ![](../../images/g.png) 참조: [VBScript \ 문자열 상수 (Microsoft MSDN Library)](http://msdn.microsoft.com/ko-kr/library/hh277t8e(v=vs.84).aspx)
 
 ## 팁
 

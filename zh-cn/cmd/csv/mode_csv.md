@@ -12,7 +12,7 @@
 
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): 无
-- 工具栏: ![](../../images/csv..png)
+- 工具栏: ![](../../images/csv.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

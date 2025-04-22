@@ -15,7 +15,7 @@
 
 - 기본 메뉴: **검색** \> **파일 내 바꾸기**
 - [모든 명령](../tools/all_commands): **검색** \> **파일 내 바꾸기**
-- 도구 모음: ![](../../images/replaceinfiles..png)
+- 도구 모음: ![](../../images/replaceinfiles.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 

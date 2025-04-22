@@ -12,7 +12,7 @@
 
 - 默认菜单: **CSV** \> **CSV 转换器**
 - [所有命令](../tools/all_commands): **CSV** \> **CSV 转换器**
-- 工具栏: ![](../../images/convert_to..png)
+- 工具栏: ![](../../images/convert_to.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[太字\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[太字\]
-- ツール バー: ![](../../images/bold..png)
+- ツール バー: ![](../../images/bold.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+B
 

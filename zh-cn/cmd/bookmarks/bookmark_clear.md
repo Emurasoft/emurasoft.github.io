@@ -12,7 +12,7 @@
 
 - 默认菜单: **书签** \> **清除所有书签**
 - [所有命令](../tools/all_commands): **书签** \> **清除所有书签**
-- 工具栏: ![](../../images/bookmarkclear..png)
+- 工具栏: ![](../../images/bookmarkclear.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+F2
 

@@ -13,7 +13,7 @@
 
 - 默认菜单: **编辑** \> **重做**
 - [所有命令](../tools/all_commands): **编辑** \> **重做**
-- 工具栏: ![](../../images/editredo..png)
+- 工具栏: ![](../../images/editredo.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+Y
 

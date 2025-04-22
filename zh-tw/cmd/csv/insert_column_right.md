@@ -12,7 +12,7 @@
 
 - 預設功能表: **CSV** \> **欄** \> **在右邊插入一欄**
 - [全部命令](../tools/all_commands): **CSV** \> **欄** \> **在右邊插入一欄**
-- 工具列: ![](../../images/columns_separators..png) \+ 在右邊插入一欄
+- 工具列: ![](../../images/columns_separators.png) \+ 在右邊插入一欄
 - 狀態列: 無
 - 預設捷徑: 無
 

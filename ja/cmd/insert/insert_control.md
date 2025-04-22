@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[挿入\] \- \[特殊文字\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[特殊文字\]
-- ツール バー: ![](../../images/insertcontrol..png)
+- ツール バー: ![](../../images/insertcontrol.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl + Shift + I
 

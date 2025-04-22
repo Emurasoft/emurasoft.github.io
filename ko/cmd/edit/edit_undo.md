@@ -15,7 +15,7 @@
 
 - 기본 메뉴: **편집** \> **실행 취소**
 - [모든 명령](../tools/all_commands): **편집** \> **실행 취소**
-- 도구 모음: ![](../../images/editundo..png)
+- 도구 모음: ![](../../images/editundo.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+Z 또는 ALT+BACKSPACE
 

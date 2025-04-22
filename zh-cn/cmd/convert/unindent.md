@@ -12,7 +12,7 @@
 
 - 默认菜单: **转换** \> **减少行缩进**
 - [所有命令](../tools/all_commands): **转换** \> **减少行缩进**
-- 工具栏: ![](../../images/unindent..png)
+- 工具栏: ![](../../images/unindent.png)
 - 状态栏: 无
 - 默认快捷键: SHIFT + TAB
 

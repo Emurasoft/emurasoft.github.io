@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[Code\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[Code\]
-- ツール バー: ![](../../images/markdown_code..png)
+- ツール バー: ![](../../images/markdown_code.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

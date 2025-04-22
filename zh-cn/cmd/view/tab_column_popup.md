@@ -13,7 +13,7 @@
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **查看** \> **制表符/缩进** \> **制表栏**
 - Toolbar:
-![](../../images/tab_column24x16..png)
+![](../../images/tab_column24x16.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

@@ -13,7 +13,7 @@
 - 기본 메뉴: **검색** \> **찾은 강조 표시 삭제**
 - [모든 명령](../tools/all_commands): **검색** \> **찾은 강조 표시 삭제**
 - 도구 모음:
-![](../../images/erasefindhilite..png)
+![](../../images/erasefindhilite.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: ALT+F3
 

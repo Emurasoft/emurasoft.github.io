@@ -12,7 +12,7 @@
 
 - 預設功能表: **編輯** \> **Markdown** \> **超連結**
 - [全部命令](../tools/all_commands): **編輯** \> **Markdown** \> **超連結**
-- 工具列: ![](../../images/hyperlink..png)
+- 工具列: ![](../../images/hyperlink.png)
 - 狀態列: 無
 - 預設快速鍵: 無
 

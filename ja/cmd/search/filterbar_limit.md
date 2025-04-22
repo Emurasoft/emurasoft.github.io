@@ -12,7 +12,7 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[フィルター ツール バー\] \- \[複数行の変更をブロック\]
-- ツール バー: ![](../../images/blockmultilinechanges..png) (フィルター ツール バー)
+- ツール バー: ![](../../images/blockmultilinechanges.png) (フィルター ツール バー)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

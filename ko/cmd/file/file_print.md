@@ -13,7 +13,7 @@
 
 - 기본 메뉴: **파일** \> **인쇄**
 - [모든 명령](../tools/all_commands): **파일** \> **인쇄** \> **인쇄**
-- 도구 모음: ![](../../images/fileprint..png)
+- 도구 모음: ![](../../images/fileprint.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+P
 

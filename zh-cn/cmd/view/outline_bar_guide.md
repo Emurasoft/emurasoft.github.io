@@ -14,7 +14,7 @@
 - [所有命令](../tools/all_commands): **查看** >
 **大纲** >
 **大纲栏和大纲导航**
-- 工具栏: **![Outline](../../images/plugin_outline..png)**
+- 工具栏: **![Outline](../../images/plugin_outline.png)**
 - 状态栏: 无
 - 默认快捷键: 无
 

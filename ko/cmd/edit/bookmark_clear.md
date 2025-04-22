@@ -12,7 +12,7 @@
 
 - 기본 메뉴: **편집** \> **책갈피** \> **모든 책갈피 지우기**
 - [모든 명령](../tools/all_commands): **편집** \> **책갈피** \> **모든 책갈피 지우기**
-- 도구 모음: ![](../../images/bookmarkclear..png)
+- 도구 모음: ![](../../images/bookmarkclear.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+SHIFT+F2
 

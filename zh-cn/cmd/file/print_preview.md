@@ -13,7 +13,7 @@
 - 默认菜单: **文件** \> **打印预览**
 - [所有命令](../tools/all_commands): **文件** \> **打印**
 \> **打印预览**
-- 工具栏: ![](../../images/printpreview..png)
+- 工具栏: ![](../../images/printpreview.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

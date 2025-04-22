@@ -12,7 +12,7 @@
 
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): 無
-- 工具列: ![](../../images/csv..png)
+- 工具列: ![](../../images/csv.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

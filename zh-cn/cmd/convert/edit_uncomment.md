@@ -12,7 +12,7 @@
 
 - 默认菜单: **转换** \> **取消注释**
 - [所有命令](../tools/all_commands): **转换** \> **取消注释**
-- 工具栏: ![](../../images/edituncomment..png)
+- 工具栏: ![](../../images/edituncomment.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

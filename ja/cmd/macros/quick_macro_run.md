@@ -15,7 +15,7 @@
 
 - 既定のメニュー: \[マクロ\] \- \[実行\]
 - [すべてのコマンド](../../glossary/allcommands): \[マクロ\] \- \[実行\]
-- ツール バー: ![](../../images/quickmacrorun..png)
+- ツール バー: ![](../../images/quickmacrorun.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+P
 

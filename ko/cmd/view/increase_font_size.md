@@ -14,7 +14,7 @@
 
 - 기본 메뉴: 없음
 - [모든 명령](../tools/all_commands): **보기** \> **글꼴** \> **글꼴 크기 크게**
-- 도구 모음: ![](../../images/increasefontsize..png)
+- 도구 모음: ![](../../images/increasefontsize.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 

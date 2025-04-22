@@ -12,7 +12,7 @@
 
 - 預設功能表: **檔案** \> **列印**
 - [全部命令](../tools/all_commands): **檔案** \> **列印** \> **列印**
-- 工具列: ![](../../images/fileprint..png)
+- 工具列: ![](../../images/fileprint.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+P
 

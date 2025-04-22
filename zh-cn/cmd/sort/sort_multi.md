@@ -12,7 +12,7 @@
 
 - 默认菜单: **排序** \> **高级排序**
 - [所有命令](../tools/all_commands): **排序** \> **高级排序**
-- 工具栏: ![](../../images/sortbymultiple..png)
+- 工具栏: ![](../../images/sortbymultiple.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

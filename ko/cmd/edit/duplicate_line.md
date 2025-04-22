@@ -14,7 +14,7 @@
 \> **줄 복제**
 - [모든 명령](../tools/all_commands): **편집** \> **삽입**
 \> **줄 복제**
-- 도구 모음: ![](../../images/duplicateline..png)
+- 도구 모음: ![](../../images/duplicateline.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+SHIFT+Y
 

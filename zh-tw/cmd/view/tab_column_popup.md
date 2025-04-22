@@ -13,7 +13,7 @@
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **檢視** \> **Tab/縮排** \> **制表欄**
 - Toolbar:
-![](../../images/tab_column24x16..png)
+![](../../images/tab_column24x16.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

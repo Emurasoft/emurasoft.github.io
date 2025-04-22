@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[並べ替え\] \- \[重複行の削除\]
 - [すべてのコマンド](../../glossary/allcommands): \[並べ替え\] \- \[重複行の削除\]
-- ツール バー: ![](../../images/deleteduplicatelines..png)
+- ツール バー: ![](../../images/deleteduplicatelines.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

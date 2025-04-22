@@ -12,7 +12,7 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[削除\] \- \[右を1文字削除\]
-- ツール バー: ![](../../images/delete..png)
+- ツール バー: ![](../../images/delete.png)
 - ステータス バー: なし
 - 既定のショートカット: Shift+Backspace または Delete
 

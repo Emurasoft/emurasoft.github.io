@@ -12,7 +12,7 @@
 
 - 默认菜单: **书签** \> **当前群组** \> **上一个书签**
 - [所有命令](../tools/all_commands): **书签** \> **当前群组** \> **上一个书签**
-- 工具栏: ![](../../images/bookmarkprev..png)
+- 工具栏: ![](../../images/bookmarkprev.png)
 - 状态栏: 无
 - 默认快捷键: SHIFT+F2
 

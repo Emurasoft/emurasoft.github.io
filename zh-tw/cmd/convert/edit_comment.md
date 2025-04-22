@@ -12,7 +12,7 @@
 
 - 預設功能表: **轉換** \> **註解**
 - [全部命令](../tools/all_commands): **轉換** \> **註解**
-- 工具列: ![](../../images/editcomment..png)
+- 工具列: ![](../../images/editcomment.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

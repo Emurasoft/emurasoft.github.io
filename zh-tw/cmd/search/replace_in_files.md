@@ -16,7 +16,7 @@
 - 預設功能表: **搜尋** \> **多檔取代**
 - [全部命令](../tools/all_commands): **搜尋**
 \> **多檔取代**
-- 工具列: ![](../../images/replaceinfiles..png)
+- 工具列: ![](../../images/replaceinfiles.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

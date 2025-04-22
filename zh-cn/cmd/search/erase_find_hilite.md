@@ -14,7 +14,7 @@
 - [所有命令](../tools/all_commands): **搜索**
 \> **取消查找高亮**
 - 工具栏:
-![](../../images/erasefindhilite..png)
+![](../../images/erasefindhilite.png)
 - 状态栏: 无
 - 默认快捷键: ALT+F3
 

@@ -12,7 +12,7 @@
 
 - 기본 메뉴: **편집** \> **삭제**
 - [모든 명령](../tools/all_commands): **편집** > **삭제** \> **오른쪽 문자 삭제**
-- 도구 모음: ![](../../images/delete..png)
+- 도구 모음: ![](../../images/delete.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: SHIFT+BACKSPACE 또는 DELETE
 

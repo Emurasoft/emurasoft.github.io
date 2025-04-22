@@ -13,7 +13,7 @@
 - 預設功能表: **檢視** \> **Tab/縮排** \> **換行縮排**
 - [全部命令](../tools/all_commands): **檢視** \> **Tab/縮排** \> **換行縮排**
 - 工具列:
-![](../../images/wrap_indent24x16..png)
+![](../../images/wrap_indent24x16.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

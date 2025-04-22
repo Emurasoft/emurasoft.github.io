@@ -12,7 +12,7 @@
 
 - 默认菜单: **查看** \> **使用 DirectWrite**
 - [所有命令](../tools/all_commands): **查看** \> **字体** \> **使用 DirectWrite**
-- 工具栏: ![](../../images/fontpopup..png)
+- 工具栏: ![](../../images/fontpopup.png)
 （点击箭头） \> **使用 DirectWrite**
 - 状态栏: 无
 - 默认快捷键: 无

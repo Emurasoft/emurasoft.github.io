@@ -16,7 +16,7 @@
 - [全部命令](../tools/all_commands): **檔案** \> **打開**
 \> **關閉并打開**
 - 工具列:
-![](../../images/filecloseopen..png)
+![](../../images/filecloseopen.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

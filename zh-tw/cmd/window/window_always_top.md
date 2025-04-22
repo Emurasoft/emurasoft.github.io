@@ -13,7 +13,7 @@
 - 預設功能表: **視窗** \> **最上層顯示**
 - [全部命令](../tools/all_commands): **視窗**
 \> **最上層顯示** \> **最上層顯示**
-- 工具列: ![](../../images/windowalwaystop..png)
+- 工具列: ![](../../images/windowalwaystop.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

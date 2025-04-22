@@ -13,7 +13,7 @@
 - 默认菜单: **宏** \> **另存为**
 - [所有命令](../tools/all_commands): **宏**
 \> **另存为**
-- 工具栏: ![](../../images/macrosave..png)
+- 工具栏: ![](../../images/macrosave.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

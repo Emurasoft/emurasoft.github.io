@@ -12,7 +12,7 @@
 
 - 預設功能表: **書籤** \> **清除所有書籤**
 - [全部命令](../tools/all_commands): **書籤** \> **清除所有書籤**
-- 工具列: ![](../../images/bookmarkclear..png)
+- 工具列: ![](../../images/bookmarkclear.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+SHIFT+F2
 

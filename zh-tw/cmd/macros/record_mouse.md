@@ -13,7 +13,7 @@
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **巨集**
 \> **錄制所有動作**
-- 工具列: ![](../../images/quickmacrorecord..png) (點擊箭頭) \> **錄制所有動作**
+- 工具列: ![](../../images/quickmacrorecord.png) (點擊箭頭) \> **錄制所有動作**
 - 狀態列: 無
 - 預設捷徑: 無
 

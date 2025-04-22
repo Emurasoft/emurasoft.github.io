@@ -13,7 +13,7 @@
 - 預設功能表: **工具** \> **選擇組態** \> **定義組態**
 - [所有命令](all_commands): **工具** >
 **Select Configuration** \> **定義組態**
-- 工具列: ![](../../images/configpopup..png) (點擊箭頭)
+- 工具列: ![](../../images/configpopup.png) (點擊箭頭)
 - 狀態列: (雙擊組態名稱) \> **定義組態**
 - 預設快速鍵: 無
 

@@ -13,7 +13,7 @@
 
 - 默认菜单: **插入** \> **插入特殊字符**
 - [所有命令](../tools/all_commands): **插入** \> **插入特殊字符**
-- 工具栏: ![](../../images/insertcontrol..png)
+- 工具栏: ![](../../images/insertcontrol.png)
 - 状态栏: 无
 - 默认快捷键: CTRL + SHIFT + I
 

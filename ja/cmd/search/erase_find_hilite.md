@@ -13,7 +13,7 @@
 - 既定のメニュー: \[検索\] \- \[検索文字列の強調を解除\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[検索文字列の強調を解除\]
 - ツール バー:
-![](../../images/erasefindhilite..png)
+![](../../images/erasefindhilite.png)
 - ステータス バー: なし
 - 既定のショートカット: Alt+F3
 

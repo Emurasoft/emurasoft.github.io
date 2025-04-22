@@ -12,7 +12,7 @@
 
 - 預設功能表: **檢視** \> **使用 DirectWrite**
 - [全部命令](../tools/all_commands): **檢視** \> **字型** \> **使用 DirectWrite**
-- 工具列: ![](../../images/fontpopup..png)
+- 工具列: ![](../../images/fontpopup.png)
 （點擊箭頭） \> **使用 DirectWrite**
 - 狀態列: 無
 - 預設捷徑: 無

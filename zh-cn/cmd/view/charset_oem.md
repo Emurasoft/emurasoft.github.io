@@ -14,7 +14,7 @@
 - [所有命令](../tools/all_commands): **查看** \> **字体** >
 **字体分类**
 \> **OEM/DOS**
-- 工具栏: ![](../../images/fontpopup..png)（点击箭头） \> **字体分类** \> **OEM/DOS**
+- 工具栏: ![](../../images/fontpopup.png)（点击箭头） \> **字体分类** \> **OEM/DOS**
 - 状态栏: 无
 - 默认快捷键: 无
 

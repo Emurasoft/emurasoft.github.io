@@ -13,7 +13,7 @@
 - 默认菜单: **工具** \> **所有配置的属性**
 - [所有命令](all_commands): **工具** >
 **所有配置的属性**
-- 工具栏: ![](../../images/allproperties..png)
+- 工具栏: ![](../../images/allproperties.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

@@ -12,7 +12,7 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[フォント\]  \- \[大きいフォント サイズ\]
-- ツール バー: ![](../../images/increasefontsize..png)
+- ツール バー: ![](../../images/increasefontsize.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

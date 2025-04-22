@@ -13,7 +13,7 @@
 - 默认菜单: **宏** \> **运行**
 - [所有命令](../tools/all_commands): **宏**
 \> **运行**
-- 工具栏: ![](../../images/quickmacrorun..png)
+- 工具栏: ![](../../images/quickmacrorun.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+P
 

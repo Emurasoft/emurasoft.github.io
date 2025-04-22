@@ -12,7 +12,7 @@
 
 - 預設功能表: **CSV** \> **調整分隔符號位置 (僅可見行)**
 - [全部命令](../tools/all_commands): **CSV** \> **調整分隔符號位置 (僅可見行)**
-- 工具列: ![](../../images/columns_separators..png) \+ 調整分隔符號位置 (僅可見行)
+- 工具列: ![](../../images/columns_separators.png) \+ 調整分隔符號位置 (僅可見行)
 - 狀態列: 無
 - 預設快速鍵: 無
 

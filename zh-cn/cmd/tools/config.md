@@ -13,7 +13,7 @@
 - 默认菜单: **工具** \> **选择配置** \> **定义配置**
 - [所有命令](all_commands): **工具** >
 **Select Configuration** \> **定义配置**
-- 工具栏: ![](../../images/configpopup..png)（点击箭头）
+- 工具栏: ![](../../images/configpopup.png)（点击箭头）
 - 状态栏: （双击配置名称） \> **定义配置**
 - 默认快捷键: 无
 

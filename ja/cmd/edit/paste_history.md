@@ -12,7 +12,7 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[貼り付け\] \- \[クリップボード リングの回転\]
-- ツール バー: ![](../../images/cycle_clipboard_ring..png)
+- ツール バー: ![](../../images/cycle_clipboard_ring.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

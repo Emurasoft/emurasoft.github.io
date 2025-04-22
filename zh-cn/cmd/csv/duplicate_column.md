@@ -12,7 +12,7 @@
 
 - 默认菜单: **CSV** \> **列** \> **重复列**
 - [所有命令](../tools/all_commands): **CSV** \> **列** \> **重复列**
-- 工具栏: ![](../../images/columns_separators..png) \+ 重复列
+- 工具栏: ![](../../images/columns_separators.png) \+ 重复列
 - 状态栏: 无
 - 默认快捷键: 无
 

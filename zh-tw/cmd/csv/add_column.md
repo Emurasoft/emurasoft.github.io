@@ -12,7 +12,7 @@
 
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **CSV** \> **欄** \> **添加欄**
-- 工具列: ![](../../images/columns_separators..png) \+ 添加欄
+- 工具列: ![](../../images/columns_separators.png) \+ 添加欄
 - 狀態列: 無
 - 預設快速鍵: 無
 

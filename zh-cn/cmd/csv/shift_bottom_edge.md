@@ -12,7 +12,7 @@
 
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **编辑** \> **CSV** \> **仅限单元格选择模式** \> **扩展到下边缘**
-- 工具栏: ![](../../images/cell_selection_mode..png)
+- 工具栏: ![](../../images/cell_selection_mode.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+SHIFT+向下键 (仅限单元格选择模式)
 

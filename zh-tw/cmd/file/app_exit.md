@@ -13,7 +13,7 @@
 - 預設功能表: **檔案** \> **關閉**
 - [全部命令](../tools/all_commands): **檔案** \> **關閉**
 \> **關閉**
-- 工具列: ![](../../images/appexit..png)
+- 工具列: ![](../../images/appexit.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+F4 或 CTRL+W
 

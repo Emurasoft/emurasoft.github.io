@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[改行\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[改行\]
-- ツール バー: ![](../../images/markdown_line_break..png)
+- ツール バー: ![](../../images/markdown_line_break.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

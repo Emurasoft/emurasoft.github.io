@@ -13,7 +13,7 @@
 
 - 默认菜单: **编辑** \> **撤消**
 - [所有命令](../tools/all_commands): **编辑** \> **撤消**
-- 工具栏: ![](../../images/editundo..png)
+- 工具栏: ![](../../images/editundo.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+Z 或 ALT+BACKSPACE
 

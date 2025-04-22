@@ -1,7 +1,7 @@
 # 打開一個已存在的檔案
 
 1. 在工具列欄上點擊
-![Open](../../images/fileopen..png) 。
+![Open](../../images/fileopen.png) 。
 2. 選擇您想要打開的檔案并點擊 **「打開」** 按鈕。
 
 ## 提示

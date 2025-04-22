@@ -14,7 +14,7 @@
 - [所有命令](../tools/all_commands): **文件** \> **保存**
 \> **全部保存**
 - 工具栏:
-![](../../images/filesaveall..png)
+![](../../images/filesaveall.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

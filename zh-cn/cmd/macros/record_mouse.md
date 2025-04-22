@@ -13,7 +13,7 @@
 - 默认菜单: 无
 - [所有命令](../tools/all_commands): **宏**
 \> **录制所有动作**
-- 工具栏: ![](../../images/quickmacrorecord..png)（点击箭头） \> **录制所有动作**
+- 工具栏: ![](../../images/quickmacrorecord.png)（点击箭头） \> **录制所有动作**
 - 状态栏: 无
 - 默认快捷键: 无
 

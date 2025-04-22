@@ -13,7 +13,7 @@
 - 預設功能表: **工具** \> **自訂**
 - [所有命令](all_commands): **工具** >
 **自訂** \> **自訂**
-- 工具列: ![](../../images/commonsettings..png)
+- 工具列: ![](../../images/commonsettings.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

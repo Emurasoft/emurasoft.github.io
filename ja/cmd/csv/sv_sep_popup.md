@@ -12,7 +12,7 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セパレーター\] - \[列/セパレーター (ポップアップ メニュー)\]
-- ツール バー: ![](../../images/columns_separators..png)
+- ツール バー: ![](../../images/columns_separators.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

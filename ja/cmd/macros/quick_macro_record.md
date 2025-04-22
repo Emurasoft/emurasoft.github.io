@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[マクロ\] \- \[記録/停止\]
 - [すべてのコマンド](../../glossary/allcommands): \[マクロ\] \- \[記録/停止\]
-- ツール バー: ![](../../images/quickmacrorecord..png)
+- ツール バー: ![](../../images/quickmacrorecord.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+R
 

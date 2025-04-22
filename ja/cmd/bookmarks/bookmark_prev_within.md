@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[ブックマーク\] \- \[前のブックマーク\]
 - [すべてのコマンド](../../glossary/allcommands): \[ブックマーク\] \- \[前のブックマーク\]
-- ツール バー: ![](../../images/bookmarkprevwithin..png)
+- ツール バー: ![](../../images/bookmarkprevwithin.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

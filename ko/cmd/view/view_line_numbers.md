@@ -15,7 +15,7 @@
 - [모든 명령](../tools/all_commands): **보기** >
 **줄 번호**
 - 도구 모음:
-![](../../images/line_number24x16..png)
+![](../../images/line_number24x16.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 

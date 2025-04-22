@@ -12,7 +12,7 @@
 
 - 默认菜单: **查看** > **工具栏** \> **筛选**
 - [所有命令](../tools/all_commands): **查看** > **工具栏** \> **筛选**
-- 工具栏: ![](../../images/togglefilterbar..png)
+- 工具栏: ![](../../images/togglefilterbar.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

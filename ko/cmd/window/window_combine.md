@@ -14,7 +14,7 @@
 
 - 기본 메뉴: **창** \> **탭 활성화**
 - [모든 명령](../tools/all_commands): **창** \> **탭 활성화** \> **탭 활성화**
-- 도구 모음: ![](../../images/windowcombine..png)
+- 도구 모음: ![](../../images/windowcombine.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 

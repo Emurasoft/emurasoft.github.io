@@ -13,7 +13,7 @@
 - 默认菜单: **工具** \> **当前配置属性**
 - [所有命令](all_commands): **工具** >
 **当前配置属性** \> **属性**
-- 工具栏: ![](../../images/properties..png)
+- 工具栏: ![](../../images/properties.png)
 - 状态栏: 无
 - 默认快捷键: ALT+ENTER
 

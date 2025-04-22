@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[編集\] \- \[Markdown\] \- \[ハイパーリンク\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[ハイパーリンク\]
-- ツール バー: ![](../../images/hyperlink..png)
+- ツール バー: ![](../../images/hyperlink.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

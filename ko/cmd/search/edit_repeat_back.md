@@ -13,7 +13,7 @@
 - 기본 메뉴: **검색** \> **이전**
 - [모든 명령](../tools/all_commands): **검색** \> **이전**
 - 도구 모음:
-![](../../images/editrepeatback..png)
+![](../../images/editrepeatback.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: SHIFT+F3
 

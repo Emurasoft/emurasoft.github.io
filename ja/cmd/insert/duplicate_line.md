@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[挿入\] \- \[行の2重化\]
 - [すべてのコマンド](../../glossary/allcommands): \[挿入\] \- \[行の2重化\]
-- ツール バー: ![](../../images/duplicateline..png)
+- ツール バー: ![](../../images/duplicateline.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+Y
 

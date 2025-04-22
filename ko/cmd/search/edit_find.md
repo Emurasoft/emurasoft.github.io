@@ -13,7 +13,7 @@
 
 - 기본 메뉴: **검색** \> **찾기**
 - [모든 명령](../tools/all_commands): **검색** \> **찾기**
-- 도구 모음: ![](../../images/editfind..png)
+- 도구 모음: ![](../../images/editfind.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: CTRL+F
 

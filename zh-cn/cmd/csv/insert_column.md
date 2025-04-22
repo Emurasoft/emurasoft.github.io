@@ -12,7 +12,7 @@
 
 - 默认菜单: **CSV** \> **列** \> **在左边插入一列**
 - [所有命令](../tools/all_commands): **CSV** \> **列** \> **在左边插入一列**
-- 工具栏: ![](../../images/columns_separators..png) \+ 在左边插入一列
+- 工具栏: ![](../../images/columns_separators.png) \+ 在左边插入一列
 - 状态栏: 无
 - 默认快捷键: 无
 

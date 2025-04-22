@@ -12,7 +12,7 @@
 
 - 默认菜单: **编辑** \> **CSV** \> **(CSV 格式)**
 - [所有命令](../tools/all_commands): **编辑** \> **CSV** \> **(CSV 格式)**
-- 工具栏: ![](../../images/csv_mode..png) \+ (CSV 格式) (CSV 工具栏)
+- 工具栏: ![](../../images/csv_mode.png) \+ (CSV 格式) (CSV 工具栏)
 - 状态栏: 无
 - 默认快捷键: 无
 

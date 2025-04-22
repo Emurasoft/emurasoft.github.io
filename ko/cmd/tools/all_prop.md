@@ -13,7 +13,7 @@
 - 기본 메뉴: **도구** \> **모든 구성 속성**
 - [모든 명령](all_commands): **도구** >
 **모든 구성 속성**
-- 도구 모음: ![](../../images/allproperties..png)
+- 도구 모음: ![](../../images/allproperties.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 

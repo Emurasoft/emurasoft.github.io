@@ -12,7 +12,7 @@
 
 - 默认菜单: **CSV** \> **临时隐藏引号**
 - [所有命令](../tools/all_commands): **CSV** \> **临时隐藏引号**
-- 工具栏: ![](../../images/csv_hide_quotes..png)
+- 工具栏: ![](../../images/csv_hide_quotes.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

@@ -12,7 +12,7 @@
 
 - 預設功能表: **編輯** \> **複製**
 - [全部命令](../tools/all_commands): **編輯** \> **複製** \> **複製**
-- 工具列: ![](../../images/copy..png)
+- 工具列: ![](../../images/copy.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+C 或 CTRL+INSERT
 

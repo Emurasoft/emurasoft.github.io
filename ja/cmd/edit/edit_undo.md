@@ -13,7 +13,7 @@
 
 - 既定のメニュー: \[編集\] \- \[元に戻す\]
 - [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[元に戻す\]
-- ツール バー: ![](../../images/editundo..png)
+- ツール バー: ![](../../images/editundo.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Z または Alt+Backspace
 

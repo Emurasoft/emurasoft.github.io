@@ -13,7 +13,7 @@
 - 기본 메뉴: 없음
 - [모든 명령](../tools/all_commands): **파일** \> **닫기**
 \> **모두 닫기**
-- 도구 모음: ![](../../images/exitall..png)
+- 도구 모음: ![](../../images/exitall.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: ALT+SHIFT+X
 

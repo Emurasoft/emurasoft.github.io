@@ -1,7 +1,7 @@
 # すべて閉じるには
 
 \[Shift\] を押しながら、ウィンドウ右上の
-![[閉じる]](../../images/windowclose..png) をクリックします。
+![[閉じる]](../../images/windowclose.png) をクリックします。
 
 ## ヒント
 

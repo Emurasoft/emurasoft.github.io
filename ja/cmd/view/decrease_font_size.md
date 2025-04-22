@@ -12,7 +12,7 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[フォント\]  \- \[小さいフォント サイズ\]
-- ツール バー: ![](../../images/decreasefontsize..png)
+- ツール バー: ![](../../images/decreasefontsize.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

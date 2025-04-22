@@ -13,7 +13,7 @@
 - 預設功能表: **工具** \> **所有組態的屬性**
 - [所有命令](all_commands): **工具** >
 **所有組態的屬性**
-- 工具列: ![](../../images/allproperties..png)
+- 工具列: ![](../../images/allproperties.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

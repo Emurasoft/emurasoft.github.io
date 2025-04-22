@@ -13,7 +13,7 @@
 - 既定のメニュー: \[検索\] \- \[前を検索\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[前を検索\]
 - ツール バー:
-![](../../images/editrepeatback..png)
+![](../../images/editrepeatback.png)
 - ステータス バー: なし
 - 既定のショートカット: Shift+F3
 

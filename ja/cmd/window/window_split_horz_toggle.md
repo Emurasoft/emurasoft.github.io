@@ -13,7 +13,7 @@
 
 - 既定のメニュー: なし
 - [すべてのコマンド](../../glossary/allcommands): \[ウィンドウ\] \- \[分割\] \- \[上下分割の切り替え\]
-- ツール バー: ![](../../images/windowsplithorzfix..png)
+- ツール バー: ![](../../images/windowsplithorzfix.png)
 - ステータス バー: なし
 - 既定のショートカット: F12
 

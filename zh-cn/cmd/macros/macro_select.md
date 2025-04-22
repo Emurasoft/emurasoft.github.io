@@ -13,7 +13,7 @@
 - 默认菜单: **宏** \> **选择**
 - [所有命令](../tools/all_commands): **宏**
 \> **选择**
-- 工具栏: ![](../../images/macroselect..png)
+- 工具栏: ![](../../images/macroselect.png)
 - 状态栏: 无
 - 默认快捷键: 无
 

@@ -13,7 +13,7 @@
 - 預設功能表: **搜尋** \> **尋找**
 - [全部命令](../tools/all_commands): **搜尋**
 \> **尋找**
-- 工具列: ![](../../images/editfind..png)
+- 工具列: ![](../../images/editfind.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+F
 

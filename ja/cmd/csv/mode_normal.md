@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[CSV\] - \[通常モード\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[通常モード\]
-- ツール バー: ![](../../images/default_mode..png)
+- ツール バー: ![](../../images/default_mode.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

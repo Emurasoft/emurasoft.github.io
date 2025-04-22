@@ -13,7 +13,7 @@
 - 默认菜单: **文件** \> **打开**
 - [所有命令](../tools/all_commands): **文件** \> **打开**
 \> **打开**
-- 工具栏: ![](../../images/fileopen..png)
+- 工具栏: ![](../../images/fileopen.png)
 - 状态栏: 无
 - 默认快捷键: CTRL+O
 

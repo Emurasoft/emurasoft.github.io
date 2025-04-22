@@ -12,7 +12,7 @@
 
 - 預設功能表: **排序** \> **刪除重複行**
 - [全部命令](../tools/all_commands): **排序** \> **刪除重複行**
-- 工具列: ![](../../images/deleteduplicatelines..png)
+- 工具列: ![](../../images/deleteduplicatelines.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

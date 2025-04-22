@@ -21,7 +21,7 @@ Windows Vista에서 이 명령은 **사용자 계정 컨트롤** 대화 상자�
 - 기본 메뉴: 없음
 - [모든 명령](../tools/all_commands): **매크로**
 \> **모든 활동 녹화**
-- 도구 모음: ![](../../images/quickmacrorecord..png) (화살표 위)\> **모든 활동 녹화**
+- 도구 모음: ![](../../images/quickmacrorecord.png) (화살표 위)\> **모든 활동 녹화**
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 

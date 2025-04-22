@@ -12,7 +12,7 @@
 
 - 既定のメニュー: \[ブックマーク\] \- \[ブックマークをクリア\]
 - [すべてのコマンド](../../glossary/allcommands): \[ブックマーク\] \- \[ブックマークをクリア\]
-- ツール バー: ![](../../images/bookmarkclear..png)
+- ツール バー: ![](../../images/bookmarkclear.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+F2
 

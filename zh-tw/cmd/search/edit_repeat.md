@@ -13,7 +13,7 @@
 - 預設功能表: **搜尋** \> **下一個**
 - [全部命令](../tools/all_commands): **搜尋**
 \> **下一個**
-- 工具列: ![](../../images/editrepeat..png)
+- 工具列: ![](../../images/editrepeat.png)
 - 狀態列: 無
 - 預設捷徑: F3
 

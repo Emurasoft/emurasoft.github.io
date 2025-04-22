@@ -14,7 +14,7 @@
 - [全部命令](../tools/all_commands): **檔案** \> **儲存**
 \> **全部儲存**
 - 工具列:
-![](../../images/filesaveall..png)
+![](../../images/filesaveall.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

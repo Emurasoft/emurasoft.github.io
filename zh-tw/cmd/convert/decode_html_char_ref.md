@@ -13,7 +13,7 @@
 - 預設功能表: **轉換** \> **編碼/解碼** \> **將 HTML/XML 字元參照轉換為 Unicode**
 - [全部命令](../tools/all_commands): **轉換** \> **編碼/解碼** \> **將 HTML/XML 字元參照轉換為 Unicode**
 - 工具列:
-![](../../images/html2uni24x16..png)
+![](../../images/html2uni24x16.png)
 - 狀態列: 無
 - 預設捷徑: 無
 

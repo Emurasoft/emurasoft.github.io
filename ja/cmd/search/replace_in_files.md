@@ -13,7 +13,7 @@ EmEditor のウィンドウ上で表示されます。そこで置換を確認�
 
 - 既定のメニュー: \[検索\] \- \[ファイルから置換\]
 - [すべてのコマンド](../../glossary/allcommands): \[検索\] \- \[ファイルから置換\]
-- ツール バー: ![](../../images/replaceinfiles..png)
+- ツール バー: ![](../../images/replaceinfiles.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+Shift+H
 

@@ -14,7 +14,7 @@
 Standard; **工具** \> **開始/停止巨集錄制**)
 - [全部命令](../tools/all_commands): **巨集**
 \> **開始/停止錄制** (在EmEditor Standard中， **工具** \> **開始/停止巨集錄制**)
-- 工具列: ![](../../images/quickmacrorecord..png)
+- 工具列: ![](../../images/quickmacrorecord.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+SHIFT+R
 

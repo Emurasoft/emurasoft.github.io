@@ -13,7 +13,7 @@
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **編輯** \> **水平移動游標**
 \> **尋找配對的括號**
-- 工具列: ![](../../images/nextparen..png)
+- 工具列: ![](../../images/nextparen.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+\]
 

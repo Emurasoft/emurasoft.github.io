@@ -12,7 +12,7 @@
 
 - 預設功能表: **編輯** \> **剪下**
 - [全部命令](../tools/all_commands): **編輯** \> **剪下** \> **剪下**
-- 工具列: ![](../../images/cut..png)
+- 工具列: ![](../../images/cut.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+X 或 SHIFT+DELETE
 

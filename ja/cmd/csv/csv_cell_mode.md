@@ -12,7 +12,7 @@ CSV文書でセル選択モードのオン/オフを切り替えます。
 
 - 既定のメニュー: \[CSV\] - \[セル選択モード\]
 - [すべてのコマンド](../../glossary/allcommands): \[CSV\] - \[セル選択モード\]
-- ツール バー: ![](../../images/cell_selection_mode..png)
+- ツール バー: ![](../../images/cell_selection_mode.png)
 - ステータス バー: なし
 - 既定のショートカット: なし
 

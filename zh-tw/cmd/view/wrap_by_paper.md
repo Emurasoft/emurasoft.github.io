@@ -13,7 +13,7 @@
 - 預設功能表: **檢視** \> **按頁面換行**
 - [全部命令](../tools/all_commands): **檢視** >
 **按頁面換行**
-- 工具列: ![](../../images/wrapbypage..png)
+- 工具列: ![](../../images/wrapbypage.png)
 - 狀態列: 無
 - 預設捷徑: CTRL+4
 

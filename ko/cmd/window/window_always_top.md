@@ -14,7 +14,7 @@
 
 - 기본 메뉴: **창** \> **항상 위**
 - [모든 명령](../tools/all_commands): **창** \> **항상 위** \> **항상 위**
-- 도구 모음: ![](../../images/windowalwaystop..png)
+- 도구 모음: ![](../../images/windowalwaystop.png)
 - 상태 표시줄: 없음
 - 기본 바로 가기 키: 없음
 

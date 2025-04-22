@@ -12,7 +12,7 @@
 
 - 預設功能表: **轉換** \> **減少行縮排**
 - [全部命令](../tools/all_commands): **轉換** \> **減少行縮排**
-- 工具列: ![](../../images/unindent..png)
+- 工具列: ![](../../images/unindent.png)
 - 狀態列: 無
 - 預設捷徑: SHIFT + TAB
 

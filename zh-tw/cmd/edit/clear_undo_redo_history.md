@@ -12,7 +12,7 @@
 
 - 預設功能表: 無
 - [全部命令](../tools/all_commands): **編輯** \> **復原** \> **清除所有復原/重做歷史**
-- 工具列: ![](../../images/editundo..png) (向下箭頭) / ![](../../images/editredo..png) (向下箭頭)
+- 工具列: ![](../../images/editundo.png) (向下箭頭) / ![](../../images/editredo.png) (向下箭頭)
 - 狀態列: 無
 - 預設快速鍵: 無
 

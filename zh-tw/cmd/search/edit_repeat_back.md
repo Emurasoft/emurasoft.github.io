@@ -14,7 +14,7 @@
 - [全部命令](../tools/all_commands): **搜尋**
 \> **上一個**
 - Toolbar:
-![](../../images/editrepeatback..png)
+![](../../images/editrepeatback.png)
 - 狀態列: 無
 - 預設捷徑: SHIFT+F3
 
