@@ -12,7 +12,7 @@ def run_sphinx_build():
     return True
 
 def remove_svg_from_tex(tex_file):
-    """Remove SVG file references from the LaTeX file."""
+    """Remove lines with \sphinxincludegraphics referencing .svg files."""
     if not os.path.exists(tex_file):
         print(f"Error: {tex_file} does not exist.")
         return False
@@ -20,14 +20,12 @@ def remove_svg_from_tex(tex_file):
     with open(tex_file, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
-    # Write back the file without SVG images
     with open(tex_file, 'w', encoding='utf-8') as file:
         for line in lines:
-            # Skip lines that include SVG files
-            if '.svg' not in line:
+            if not (line.strip().startswith(r'\sphinxincludegraphics') and '.svg' in line):
                 file.write(line)
 
-    print("SVG references removed from the LaTeX file.")
+    print("SVG image references removed from the LaTeX file.")
     return True
 
 def run_latexmk(tex_file):
