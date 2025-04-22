@@ -22,7 +22,7 @@ You can sign into EmEditor or enter the registration key to register EmEditor.
     - Or, select the **Enter Registration Key** option. Enter your name and the email address used to purchase the subscription. Copy the registration key from [Stripe Subscriptions](https://support.emeditor.com/en/account/subscriptions), and paste it to the **Registration Key** field. (EmEditor v24.5.3 or later is required.)
 3. You can enable **Label device** to label the device in the [Registered Devices](https://support.emeditor.com/en/account/devices) page of Emurasoft Customer Center. Click OK.
 
-- You can make changes to your payment information in the [customer portal](https://billing.stripe.com/p/login/14k7w2fK6g9Ca9q9AA).
+- You can make changes to your payment information in the [customer portal](https://stripe.emeditor.com/p/login/14k7w2fK6g9Ca9q9AA).
 
 ## Offline registration
 

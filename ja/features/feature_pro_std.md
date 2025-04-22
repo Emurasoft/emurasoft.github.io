@@ -5,8 +5,8 @@ orphan: true
 
 ## 新しいコマンド
 
-- [\[常に最上位 \- オン\] コマンド](../cmd/window/window_always_top_on)
-- [\[常に最上位 \- オフ\] コマンド](../cmd/window/window_always_top_off)
+- [\[常に手前に表示 \- オン\] コマンド](../cmd/window/window_always_top_on)
+- [\[常に手前に表示 \- オフ\] コマンド](../cmd/window/window_always_top_off)
 
 ## 新オプションが追加された既存のダイアログ ボックス
 
