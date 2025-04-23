@@ -37,12 +37,19 @@ latex_elements = {
     'utf8extra': '',
 
     'preamble': r'''
+        % Set font
         \usepackage{fontspec}
         \setmainfont[
           Path=../../,
           Extension=.ttf,
         ]{NotoSans-VariableFont_wdth,wght}
+
+        % Flush left
         \raggedright
+
+        % Break lines in tables
+        \usepackage{tabularx}
+        \usepackage{makecell}
     '''
 }
 exclude_patterns = ['about/thirdPartyLicenses.md']
