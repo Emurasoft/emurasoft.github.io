@@ -34,7 +34,7 @@ def run_latexmk(tex_file):
     tex_filename = os.path.basename(tex_file)
     print("Running latexmk...")
     try:
-        subprocess.run(["latexmk", "-silent", "-pdf", tex_filename], check=True, cwd=build_dir)
+        subprocess.run(["latexmk", "-pdf", tex_filename], check=True, cwd=build_dir)
         print("PDF build complete.")
     except subprocess.CalledProcessError as e:
         print(f"Error running latexmk: {e}")

@@ -50,6 +50,12 @@ latex_elements = {
         % Break lines in tables
         \usepackage{tabularx}
         \usepackage{makecell}
+
+        \usepackage{array}
+        \usepackage{ragged2e}
+        \renewcommand{\arraystretch}{1.2}
+        \renewcommand{\tabcolsep}{4pt}
+        \newcolumntype{l}{>{\RaggedRight\arraybackslash}p{5cm}}
     '''
 }
 exclude_patterns = ['about/thirdPartyLicenses.md']
