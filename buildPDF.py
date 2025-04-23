@@ -22,7 +22,7 @@ def remove_svg_from_tex(tex_file):
 
     with open(tex_file, 'w', encoding='utf-8') as file:
         for line in lines:
-            if not (line.strip().startswith(r'\sphinxincludegraphics') and '.svg' in line):
+            if not (r'\sphinxincludegraphics' in line and '.svg' in line):
                 file.write(line)
 
     print("SVG image references removed from the LaTeX file.")
