@@ -1,11 +1,11 @@
 import os
 import subprocess
 import shutil
+import re
 
 def run_sphinx_build():
-    """Run the Sphinx build command to generate the LaTeX files."""
     print("Running sphinx-build...")
-    result = subprocess.run(['sphinx-build', '-b', 'latex', '.', '_build/en'], capture_output=True, text=True)
+    result = subprocess.run(['sphinx-build', '--jobs', 'auto', '-b', 'latex', '.', '_build/en'], capture_output=True, text=True)
     if result.returncode != 0:
         print(f"Error running sphinx-build: {result.stderr}")
         return False
@@ -13,7 +13,6 @@ def run_sphinx_build():
     return True
 
 def remove_svg_from_tex(tex_file):
-    """Remove lines with \sphinxincludegraphics referencing .svg files."""
     if not os.path.exists(tex_file):
         print(f"Error: {tex_file} does not exist.")
         return False
@@ -26,23 +25,124 @@ def remove_svg_from_tex(tex_file):
             if not (r'\sphinxincludegraphics' in line and '.svg' in line):
                 file.write(line)
 
-    print("SVG image references removed from the LaTeX file.")
+    print("SVG image references removed.")
     return True
 
+def parse_tabulary_table(tex_content):
+    table_pattern = re.compile(
+        r'\\begin\{tabulary\}\{.*?\}(?:\[.*?\])?\{.*?\}(.*?)\\end\{tabulary\}',
+        re.DOTALL
+    )
+    tables = table_pattern.findall(tex_content)
+    parsed_tables = []
+
+    for table in tables:
+        rows = []
+        for line in table.splitlines():
+            line = line.strip()
+            if line.endswith(r'\\'):
+                cells = [cell.strip() for cell in line[:-2].split('&')]
+                rows.append(cells)
+        parsed_tables.append((table, rows))
+
+    return parsed_tables
+
+def encode_longtable(rows, col_spec='ll'):
+    header = """\\begin{{longtable}}{{{}}}
+\\sphinxtoprule
+\\sphinxAtStartPar
+&\\sphinxAtStartPar
+\\\\
+\\sphinxmidrule
+\\endfirsthead
+\\multicolumn{{2}}{{c}}{{\\sphinxnorowcolor
+    \\makebox[0pt]{{\\sphinxtablecontinued{{\\tablename\\ \\thetable{{}} \\textendash{{}} continued from previous page}}}}%
+}}\\\\
+\\sphinxtoprule
+\\sphinxAtStartPar
+&\\sphinxAtStartPar
+\\\\
+\\sphinxmidrule
+\\endhead
+\\sphinxbottomrule
+\\multicolumn{{2}}{{r}}{{\\sphinxnorowcolor
+    \\makebox[0pt][r]{{\\sphinxtablecontinued{{continues on next page}}}}%
+}}\\\\
+\\endfoot
+\\endlastfoot
+\\sphinxtableatstartofbodyhook
+""".format(col_spec)
+
+    body = "\n".join(
+        "\\sphinxAtStartPar\n" + " &\n".join(row) + r"\\"
+        for row in rows
+    )
+
+    footer = "\\end{longtable}"
+
+    return "\n".join([header, body, footer])
+
+def convert_tabulary_to_longtable(tex_file):
+    if not os.path.exists(tex_file):
+        print(f"Error: {tex_file} does not exist.")
+        return False
+
+    with open(tex_file, 'r', encoding='utf-8') as file:
+        tex_content = file.read()
+
+    table_pattern = re.compile(
+        r'\\begin\{tabulary\}\{.*?\}(?:\[.*?\])?\{(.*?)\}(.*?)\\end\{tabulary\}',
+        re.DOTALL
+    )
+
+    def table_replacement(match):
+        col_spec = match.group(1)
+        table_body = match.group(2)
+
+        rows = []
+        current_row_lines = []
+
+        for line in table_body.splitlines():
+            stripped_line = line.strip()
+            if not stripped_line:
+                continue  # skip empty lines
+            current_row_lines.append(stripped_line)
+
+            if stripped_line.endswith(r'\\'):
+                # Join all accumulated lines, remove trailing '\\'
+                full_row = ' '.join(current_row_lines)[:-2].strip()
+                cells = [cell.strip() for cell in full_row.split('&')]
+                rows.append(cells)
+                current_row_lines = []  # reset buffer for next row
+
+        longtable_tex = encode_longtable(rows, col_spec)
+        return longtable_tex
+
+    new_tex_content, count = table_pattern.subn(table_replacement, tex_content)
+
+    if count == 0:
+        print("No tabulary tables found.")
+        return True
+
+    with open(tex_file, 'w', encoding='utf-8') as file:
+        file.write(new_tex_content)
+
+    print(f"Converted {count} tabulary table(s) to longtable.")
+    return True
+
+
 def run_latexmk(tex_file):
-    """Run latexmk to compile the LaTeX file to PDF."""
     build_dir = os.path.dirname(tex_file)
     tex_filename = os.path.basename(tex_file)
     print("Running latexmk...")
     try:
-        subprocess.run(["latexmk", "-pdf", tex_filename], check=True, cwd=build_dir)
+        subprocess.run(["latexmk", "-silent", "-pdf", tex_filename], check=True, cwd=build_dir)
         print("PDF build complete.")
     except subprocess.CalledProcessError as e:
         print(f"Error running latexmk: {e}")
 
 def main():
-    # Remove the folder _build/en if it exists
-    build_folder = '_build/en'
+    build_folder = '_build'
     if os.path.exists(build_folder):
         shutil.rmtree(build_folder)
         print(f"Removed directory: {build_folder}")
@@ -52,11 +152,12 @@ def main():
 
     tex_file = '_build/en/emeditor.tex'
 
-    # Step 2: Remove SVG references from the LaTeX file
     if not remove_svg_from_tex(tex_file):
         return
 
-    # Step 3: Run latexmk to compile the LaTeX file into PDF
+    if not convert_tabulary_to_longtable(tex_file):
+        return
+
     if not run_latexmk(tex_file):
         return
 
