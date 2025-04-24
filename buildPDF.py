@@ -1,5 +1,6 @@
 import os
 import subprocess
+import shutil
 
 def run_sphinx_build():
     """Run the Sphinx build command to generate the LaTeX files."""
@@ -40,7 +41,12 @@ def run_latexmk(tex_file):
         print(f"Error running latexmk: {e}")
 
 def main():
-    # Step 1: Run Sphinx to generate LaTeX files
+    # Remove the folder _build/en if it exists
+    build_folder = '_build/en'
+    if os.path.exists(build_folder):
+        shutil.rmtree(build_folder)
+        print(f"Removed directory: {build_folder}")
+
     if not run_sphinx_build():
         return
 
