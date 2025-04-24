@@ -79,6 +79,15 @@ def convert_tabulary_to_longtable(tex_file):
         # Convert tabulary's T to longtable's p{3cm}, default to l
         return ''.join('p{3cm}' if col == 'T' else col for col in tab_spec)
 
+    def clean_sphinx_commands(text):
+        # Remove any Sphinx-specific LaTeX commands from the table content
+        cleaned_text = re.sub(r'\\sphinxstylestrong\{(.*?)\}', r'\1', text)  # Remove \sphinxstylestrong{}
+        cleaned_text = re.sub(r'\\sphinxAtStartPar', '', cleaned_text)  # Remove \sphinxAtStartPar
+        cleaned_text = re.sub(r'\\sphinxmidrule', r'\\hline', cleaned_text)  # Change \sphinxmidrule to \hline
+        cleaned_text = re.sub(r'\\sphinxtoprule', r'\\hline', cleaned_text)  # Change \sphinxtoprule to \hline
+        cleaned_text = re.sub(r'\\sphinxhline', r'\\hline', cleaned_text)  # Change \sphinxhline to \hline
+        return cleaned_text
+
     def table_replacement(match):
         col_spec = match.group(1)
         table_body = match.group(2)
@@ -98,6 +107,8 @@ def convert_tabulary_to_longtable(tex_file):
             if stripped_line.endswith(r'\\'):
                 # Join all accumulated lines, remove trailing '\\'
                 full_row = ' '.join(current_row_lines)[:-2].strip()
+                # Clean up Sphinx-specific commands
+                full_row = clean_sphinx_commands(full_row)
                 cells = [cell.strip() for cell in full_row.split('&')]
                 rows.append(cells)
                 current_row_lines = []  # reset buffer for next row
