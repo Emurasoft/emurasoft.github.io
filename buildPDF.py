@@ -48,36 +48,16 @@ def parse_tabulary_table(tex_content):
     return parsed_tables
 
 def encode_longtable(rows, col_spec='ll'):
-    header = """\\begin{{longtable}}{{{}}}
-\\sphinxtoprule
-\\sphinxAtStartPar
-&\\sphinxAtStartPar
-\\\\
-\\sphinxmidrule
-\\endfirsthead
-\\multicolumn{{2}}{{c}}{{\\sphinxnorowcolor
-    \\makebox[0pt]{{\\sphinxtablecontinued{{\\tablename\\ \\thetable{{}} \\textendash{{}} continued from previous page}}}}%
-}}\\\\
-\\sphinxtoprule
-\\sphinxAtStartPar
-&\\sphinxAtStartPar
-\\\\
-\\sphinxmidrule
-\\endhead
-\\sphinxbottomrule
-\\multicolumn{{2}}{{r}}{{\\sphinxnorowcolor
-    \\makebox[0pt][r]{{\\sphinxtablecontinued{{continues on next page}}}}%
-}}\\\\
-\\endfoot
-\\endlastfoot
-\\sphinxtableatstartofbodyhook
-""".format(col_spec)
+    # Start the longtable environment with the correct column specification
+    header = "\\begin{longtable}{" + col_spec + "}"
 
+    # Build the table rows without sphinx-specific commands
     body = "\n".join(
-        "\\sphinxAtStartPar\n" + " &\n".join(row) + r"\\"
+        " & ".join(row) + r"\\"
         for row in rows
     )
 
+    # End the longtable environment
     footer = "\\end{longtable}"
 
     return "\n".join([header, body, footer])
@@ -91,13 +71,20 @@ def convert_tabulary_to_longtable(tex_file):
         tex_content = file.read()
 
     table_pattern = re.compile(
-        r'\\begin\{tabulary\}\{.*?\}(?:\[.*?\])?\{(.*?)\}(.*?)\\end\{tabulary\}',
+        r'\\begin\{tabulary\}\{.*?\}\[.*?\]\{(.*?)\}(.*?)\\end\{tabulary\}',
         re.DOTALL
     )
+
+    def map_column_spec(tab_spec):
+        # Convert tabulary's T to longtable's p{3cm}, default to l
+        return ''.join('p{3cm}' if col == 'T' else col for col in tab_spec)
 
     def table_replacement(match):
         col_spec = match.group(1)
         table_body = match.group(2)
+
+        # Convert tabulary column spec to longtable format
+        col_spec = map_column_spec(col_spec)
 
         rows = []
         current_row_lines = []
@@ -115,6 +102,7 @@ def convert_tabulary_to_longtable(tex_file):
                 rows.append(cells)
                 current_row_lines = []  # reset buffer for next row
 
+        # Now generate longtable using the converted column spec
         longtable_tex = encode_longtable(rows, col_spec)
         return longtable_tex
 
@@ -129,7 +117,6 @@ def convert_tabulary_to_longtable(tex_file):
 
     print(f"Converted {count} tabulary table(s) to longtable.")
     return True
-
 
 def run_latexmk(tex_file):
     build_dir = os.path.dirname(tex_file)
