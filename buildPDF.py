@@ -109,7 +109,7 @@ def convert_tabulary_to_longtable(tex_file):
                 full_row = ' '.join(current_row_lines)[:-2].strip()
                 # Clean up Sphinx-specific commands
                 full_row = clean_sphinx_commands(full_row)
-                cells = [cell.strip() for cell in full_row.split('&')]
+                cells = [cell.strip() for cell in re.split(r'(?<!\\)&', full_row)]
                 rows.append(cells)
                 current_row_lines = []  # reset buffer for next row
 
