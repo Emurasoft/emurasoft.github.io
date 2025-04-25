@@ -76,8 +76,7 @@ def convert_tabulary_to_longtable(tex_file):
     )
 
     def map_column_spec(tab_spec):
-        # Convert tabulary's T to longtable's p{3cm}, default to l
-        return ''.join('p{3cm}' if col == 'T' else col for col in tab_spec)
+        return ''.join('l' if col == 'T' else col for col in tab_spec)
 
     def clean_sphinx_commands(text):
         # Remove any Sphinx-specific LaTeX commands from the table content
