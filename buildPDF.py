@@ -76,7 +76,23 @@ def convert_tabulary_to_longtable(tex_file):
     )
 
     def map_column_spec(tab_spec):
-        return ''.join('l' if col == 'T' else col for col in tab_spec)
+        # Paper dimensions and margins (in inches)
+        page_width = 8.5  # letter size width
+        margin_left_right = 1  # 1 inch margin on left and right
+        usable_width = page_width - 2 * margin_left_right  # 6.5 inches usable width
+
+        # Count the number of 'X' columns (assuming 'T' is replaced by 'X')
+        num_columns = len([col for col in tab_spec if col == 'T'])
+
+        # Calculate the column width by dividing the usable width by the number of columns
+        if num_columns > 0:
+            column_width = usable_width / num_columns  # in inches
+            column_width = f"{column_width:.2f}in"  # format the width to two decimal places (in inches)
+        else:
+            column_width = '1in'  # default width for non-X columns (you can adjust this)
+
+        # Construct the column specification with p{calculated_width} for each 'T'
+        return '|' + '|'.join(f'p{{{column_width}}}' if col == 'T' else col for col in tab_spec) + '|'
 
     def clean_sphinx_commands(text):
         # Remove any Sphinx-specific LaTeX commands from the table content

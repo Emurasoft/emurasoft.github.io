@@ -48,6 +48,7 @@ latex_elements = {
         \raggedright
 
         % Break lines in tables
+        \usepackage{longtable}
         \usepackage{tabularx}
         \usepackage{makecell}
 
