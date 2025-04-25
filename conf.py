@@ -5,6 +5,7 @@
 
 from multiproject.utils import get_project
 from datetime import datetime
+import os
 
 project = 'EmEditor'
 copyright = '{} Emurasoft'.format(datetime.now().year)
@@ -59,7 +60,8 @@ latex_elements = {
         \newcolumntype{l}{>{\RaggedRight\arraybackslash}p{5cm}}
     '''
 }
-# exclude_patterns = ['about/thirdPartyLicenses.md']
+if os.getenv('SPHINX_BUILDER') == 'latex':
+    exclude_patterns = ['about/thirdPartyLicenses.md']
 
 html_sidebars = {
    '**': ['globaltoc.html'],

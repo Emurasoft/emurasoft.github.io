@@ -5,6 +5,7 @@ import re
 
 def run_sphinx_build():
     print("Running sphinx-build...")
+    os.environ['SPHINX_BUILDER'] = 'latex'
     result = subprocess.run(['sphinx-build', '--jobs', 'auto', '-b', 'latex', '.', '_build/en'], capture_output=True, text=True)
     if result.returncode != 0:
         print(f"Error running sphinx-build: {result.stderr}")
