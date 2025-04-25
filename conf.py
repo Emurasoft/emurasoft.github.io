@@ -59,7 +59,7 @@ latex_elements = {
         \newcolumntype{l}{>{\RaggedRight\arraybackslash}p{5cm}}
     '''
 }
-exclude_patterns = ['about/thirdPartyLicenses.md']
+# exclude_patterns = ['about/thirdPartyLicenses.md']
 
 html_sidebars = {
    '**': ['globaltoc.html'],
