@@ -120,6 +120,13 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: zh-tw.zip
+      - name: Create PDF
+        run: python buildPDF.py
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: emeditor.pdf
+          path: _build/en/emeditor.pdf
   deploy:
     if: ${{ github.ref_type == 'tag' && github.ref_name != '0.0.0'}}
     environment:
