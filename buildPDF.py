@@ -9,14 +9,7 @@ def run_sphinx_build():
     os.environ['SPHINX_BUILDER'] = 'latex'
     result = subprocess.run(['sphinx-build', '--jobs', 'auto', '-b', 'latex', '.', '_build/en'], capture_output=True, text=True)
     if result.returncode != 0:
-        print(f"Error running sphinx-build: {result.stderr}\n")
-        log_path = '_build/en/emeditor.log'
-        if os.path.exists(log_path):
-            with open(log_path, 'r') as log_file:
-                print("emeditor.org contents:")
-                print(log_file.read())
-        else:
-            print(f"Log file not found: {log_path}")
+        print(f"Error running sphinx-build: {result.stderr}")
         return False
     print("Sphinx build complete.")
     return True
@@ -159,9 +152,19 @@ def run_latexmk(tex_file):
     print("Running latexmk...")
     try:
         subprocess.run(["latexmk", "-silent", "-pdf", tex_filename], check=True, cwd=build_dir)
-        print("PDF build complete.")
     except subprocess.CalledProcessError as e:
         print(f"Error running latexmk: {e}")
+        log_path = os.path.join(build_dir, 'emeditor.log')
+        if os.path.exists(log_path):
+            with open(log_path, 'r') as log_file:
+                print("emeditor.log contents:")
+                print(log_file.read())
+        else:
+            print(f"Log file not found: {log_path}")
+        return False
+
+    print("PDF build complete.")
+    return True
 
 def main():
     build_folder = '_build'
