@@ -11,6 +11,7 @@
 1. 使用[联系表单](https://zh-cn.emeditor.com/support/#contact)请求授权文件。在表单中，请使用您在 [Emurasoft 用户中心](https://support.emeditor.com/)使用的电子邮件地址。包括您的注册密钥或 [Stripe 订阅 ID](https://support.emeditor.com/en/account/subscriptions)。
 2. 我们将通过电子邮件回复您的请求，邮件中附有授权文件。将授权文件下载到本地磁盘中一个不需要管理员权限访问的文件夹中。
 3. 如果您尚未安装 EmEditor，请安装 EmEditor。安装时无需添加 [`REGKEY`](https://www.emeditor.com/faq/installation-faq/how-can-i-install-emeditor-without-displaying-dialog-boxes/) 选项。
+  - 我们建议按用户安装 EmEditor，但如果您需要按每台计算机安装 EmEditor，请[使用便携版本](https://www.emeditor.com/faq/installation-faq/how-can-the-portable-version-be-shared-by-all-users/)。
 4. 如果您已经注册了 EmEditor，请使用[注册信息](../../dlg/registration_info/index)取消注册。
 5. 关闭 EmEditor。使用[命令行选项](https://www.emeditor.org/zh-cn/howto/file/file_commandline.html#options) `/ol "licenseFilePath"`，其中 `licenseFilePath` 是授权文件的绝对路径。以下是命令示例。
 ```
