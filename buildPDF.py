@@ -81,7 +81,7 @@ def convert_tabulary_to_longtable(tex_file):
 
     def clean_sphinx_commands(text):
         # Remove any Sphinx-specific LaTeX commands from the table content
-        cleaned_text = re.sub(r'\\sphinxstylestrong\{(.*?)\}', r'\1', text)  # Remove \sphinxstylestrong{}
+        cleaned_text = re.sub(r'\\sphinxstylestrong', r'\\stylestrong', text)  # Remove \sphinxstylestrong{}
         cleaned_text = re.sub(r'\\sphinxAtStartPar', '', cleaned_text)  # Remove \sphinxAtStartPar
         cleaned_text = re.sub(r'\\sphinxmidrule', r'\\hline', cleaned_text)  # Change \sphinxmidrule to \hline
         cleaned_text = re.sub(r'\\sphinxtoprule', r'\\hline', cleaned_text)  # Change \sphinxtoprule to \hline
