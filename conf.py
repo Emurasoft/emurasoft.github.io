@@ -5,6 +5,7 @@
 
 from multiproject.utils import get_project
 from datetime import datetime
+import os
 
 project = 'EmEditor'
 copyright = '{} Emurasoft'.format(datetime.now().year)
@@ -30,6 +31,37 @@ html_show_sphinx = False
 html_baseurl = 'https://www.emeditor.org/'
 sitemap_url_scheme = '{lang}{link}'
 smartquotes = False
+latex_engine = 'xelatex'
+latex_elements = {
+    # Don't use inputenc or utf8extra with xelatex
+    'inputenc': '',
+    'utf8extra': '',
+
+    'preamble': r'''
+        % Set font
+        \usepackage{fontspec}
+        \setmainfont[
+          Path=../../,
+          Extension=.ttf,
+        ]{NotoSans-VariableFont_wdth,wght}
+
+        % Flush left
+        \raggedright
+
+        % Break lines in tables
+        \usepackage{longtable}
+        \usepackage{tabularx}
+        \usepackage{makecell}
+
+        \usepackage{array}
+        \usepackage{ragged2e}
+        \renewcommand{\arraystretch}{1.2}
+        \renewcommand{\tabcolsep}{4pt}
+        \newcolumntype{l}{>{\RaggedRight\arraybackslash}p{5cm}}
+    '''
+}
+if os.getenv('SPHINX_BUILDER') == 'latex':
+    exclude_patterns = ['about/thirdPartyLicenses.md']
 
 html_sidebars = {
    '**': ['globaltoc.html'],

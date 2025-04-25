@@ -1,7 +1,8 @@
 module github.com/Emurasoft/emurasoft.github.io/unneeded-html-remover
 
-go 1.21.4
-toolchain go1.24.1
+go 1.23.0
+
+toolchain go1.24.2
 
 require golang.org/x/net v0.38.0
 
