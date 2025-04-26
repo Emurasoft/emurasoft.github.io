@@ -131,7 +131,7 @@ jobs:
       - name: Install packages
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: latexmk texlive-latex-base texlive-xetex
+          packages: latexmk texlive-latex-base texlive-xetex texlive-fonts-extra
           version: 1.0
       - name: Install dependencies
         run: pip install -r requirements.txt
