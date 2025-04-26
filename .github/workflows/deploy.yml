@@ -120,6 +120,32 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: zh-tw.zip
+  buildPDF:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+          cache: pip
+      - name: Install packages
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: latexmk texlive-latex-base texlive-xetex texlive-fonts-extra
+          version: 1.0
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Set version
+        run: |
+          echo "${GITHUB_REF_NAME}" > version
+          cat conf.py
+      - name: Create PDF
+        run: python buildPDF.py
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: emeditor.pdf
+          path: _build/en/emeditor.pdf
   deploy:
     if: ${{ github.ref_type == 'tag' && github.ref_name != '0.0.0'}}
     environment:

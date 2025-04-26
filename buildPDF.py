@@ -2,6 +2,7 @@ import os
 import subprocess
 import shutil
 import re
+import sys
 
 def run_sphinx_build():
     print("Running sphinx-build...")
@@ -151,9 +152,19 @@ def run_latexmk(tex_file):
     print("Running latexmk...")
     try:
         subprocess.run(["latexmk", "-silent", "-pdf", tex_filename], check=True, cwd=build_dir)
-        print("PDF build complete.")
     except subprocess.CalledProcessError as e:
         print(f"Error running latexmk: {e}")
+        log_path = os.path.join(build_dir, 'emeditor.log')
+        if os.path.exists(log_path):
+            with open(log_path, 'r') as log_file:
+                print("emeditor.log contents:")
+                print(log_file.read())
+        else:
+            print(f"Log file not found: {log_path}")
+        return False
+
+    print("PDF build complete.")
+    return True
 
 def main():
     build_folder = '_build'
@@ -162,18 +173,18 @@ def main():
         print(f"Removed directory: {build_folder}")
 
     if not run_sphinx_build():
-        return
+        sys.exit(1)
 
     tex_file = '_build/en/emeditor.tex'
 
     if not remove_svg_from_tex(tex_file):
-        return
+        sys.exit(1)
 
     if not convert_tabulary_to_longtable(tex_file):
-        return
+        sys.exit(1)
 
     if not run_latexmk(tex_file):
-        return
+        sys.exit(1)
 
     print("All steps completed successfully.")
 

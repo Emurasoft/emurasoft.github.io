@@ -39,11 +39,8 @@ latex_elements = {
 
     'preamble': r'''
         % Set font
-        \usepackage{fontspec}
-        \setmainfont[
-          Path=../../,
-          Extension=.ttf,
-        ]{NotoSans-VariableFont_wdth,wght}
+        \usepackage{noto-sans}
+        \renewcommand{\familydefault}{\sfdefault}
 
         % Flush left
         \raggedright
