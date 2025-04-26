@@ -131,7 +131,7 @@ jobs:
       - name: Install packages
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: latexmk texlive-xetex
+          packages: latexmk texlive-latex-base
           version: 1.0
       - name: Create PDF
         run: python buildPDF.py
