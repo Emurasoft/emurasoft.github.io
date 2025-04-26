@@ -39,12 +39,7 @@ latex_elements = {
 
     'preamble': r'''
         % Set font
-        \usepackage{fontspec}
-        \setmainfont[
-          Path=../../,
-          Extension=.ttf,
-          UprightFont = *-VariableFont_wdth,wght
-        ]{Noto Sans}
+        \usepackage{noto-sans}
 
         % Flush left
         \raggedright
