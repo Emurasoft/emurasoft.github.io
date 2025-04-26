@@ -120,10 +120,10 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: zh-tw.zip
-      - name: Install latexmk
+      - name: Install packages
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: latexmk
+          packages: latexmk texlive-xetex
           version: 1.0
       - name: Create PDF
         run: python buildPDF.py
