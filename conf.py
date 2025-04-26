@@ -40,6 +40,7 @@ latex_elements = {
     'preamble': r'''
         % Set font
         \usepackage{noto-sans}
+        \renewcommand{\familydefault}{\sfdefault}
 
         % Flush left
         \raggedright
