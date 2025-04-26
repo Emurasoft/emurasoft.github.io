@@ -133,6 +133,12 @@ jobs:
         with:
           packages: latexmk texlive-latex-base
           version: 1.0
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Set version
+        run: |
+          echo "${GITHUB_REF_NAME}" > version
+          cat conf.py
       - name: Create PDF
         run: python buildPDF.py
       - name: Upload PDF
