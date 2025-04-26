@@ -43,7 +43,7 @@ latex_elements = {
         \setmainfont[
           Path=../../,
           Extension=.ttf,
-        ]{NotoSans-VariableFont_wdth,wght}
+        ]{NotoSans-Regular,wght}
 
         % Flush left
         \raggedright
