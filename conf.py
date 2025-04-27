@@ -39,7 +39,7 @@ latex_elements = {
 
     'preamble': r'''
         % Set font
-        \setmainfont{NotoSerifCJK-VF.otf.ttc}
+        \usepackage{noto-sans}
         \renewcommand{\familydefault}{\sfdefault}
 
         % Flush left
