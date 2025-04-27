@@ -39,8 +39,7 @@ latex_elements = {
 
     'preamble': r'''
         % Set font
-        \setmainfont{NotoSerifCJK-VF.otf.ttc}
-        \renewcommand{\familydefault}{\sfdefault}
+        \setmainfont{NotoSansCJKjp-Regular.otf}
 
         % Flush left
         \raggedright
