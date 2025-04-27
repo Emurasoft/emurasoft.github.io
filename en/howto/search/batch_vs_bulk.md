@@ -2,13 +2,13 @@
 
 **Batch Replace All** searches a whole document for one string at a time, and repeats this procedure for the number of search strings. **Bulk Replace All** searches for all search strings simultaneously. The difference may lead to different results if search/replace string pairs contain, for instance:
 
-1 → 5
+1 {math}`\rightarrow` 5
 
-2 → 4
+2 {math}`\rightarrow` 4
 
-4 → 2
+4 {math}`\rightarrow` 2
 
-5 → 1
+5 {math}`\rightarrow` 1
 
 and if the source document is:
 
