@@ -7,14 +7,14 @@ Command | Shortcut key
 --|--
 Top|Ctrl+Home
 Bottom|Ctrl+End
-Word Right|Ctrl+{math}`\rightarrow`
-Word Left|Ctrl+{math}`\leftarrow`
+Word Right|Ctrl+🠊
+Word Left|Ctrl+🠈
 Find Matching Tag|Ctrl+.
 Find Matching Parenthesis/Bracket|Ctrl+]
 Matching Parenthesis/Bracket Extend|Ctrl+Shift+]
 [Jump](https://www.emeditor.com/text-editor-features/more-features/jump/)|Ctrl+G
-Move Line Down|Ctrl+Shift+{math}`\downarrow`
-Move Line Up|Ctrl+Shift+{math}`\uparrow`
+Move Line Down|Ctrl+Shift+🠋
+Move Line Up|Ctrl+Shift+🠉
 
 ## Multiple Selections
 
@@ -23,10 +23,10 @@ Move Line Up|Ctrl+Shift+{math}`\uparrow`
 | | |
 --|--
 Vertical selection | Alt+E,E 
-Line Up Extend (Vertical Mode)|Alt+Ctrl+{math}`\uparrow`
-Line Down Extend (Vertical Mode)|Alt+Ctrl+{math}`\downarrow`
-Deselect Bottom Selection from Multiple Selections|Alt+Ctrl+Shift+{math}`\uparrow`
-Deselect Top Selection from Multiple Selections|Alt+Ctrl+Shift+{math}`\downarrow`
+Line Up Extend (Vertical Mode)|Alt+Ctrl+🠉
+Line Down Extend (Vertical Mode)|Alt+Ctrl+🠋
+Deselect Bottom Selection from Multiple Selections|Alt+Ctrl+Shift+🠉
+Deselect Top Selection from Multiple Selections|Alt+Ctrl+Shift+🠋
 Select Character|F8
 Select Line|Ctrl+F8
 Select Vertically|Ctrl+Shift+F8
@@ -80,7 +80,7 @@ Parameter Info (macro)|Ctrl+Shift+Space
 
 | | |
 --|--
-[Start Window](https://www.emeditor.com/text-editor-features/user-experience/start-window/)|Press {math}`\downarrow` on a new document
+[Start Window](https://www.emeditor.com/text-editor-features/user-experience/start-window/)|Press 🠋 on a new document
 [Quick Launch](https://www.emeditor.com/text-editor-features/user-experience/quick-launch/)|Ctrl+Q
 [Character Code Value](https://www.emeditor.com/text-editor-features/more-features/character-code-value/)|Ctrl+I
 [Toggle Bookmark](https://www.emeditor.com/text-editor-features/more-features/bookmarks/)|Ctrl+F2
@@ -90,7 +90,7 @@ Parameter Info (macro)|Ctrl+Shift+Space
 | | |
 --|--
 Edit Cell|F2
-Right Edge|Ctrl+{math}`\rightarrow`
-Left Edge|Ctrl+{math}`\leftarrow`
-Top Edge|Ctrl+{math}`\uparrow`
-Bottom Edge|Ctrl+{math}`\downarrow`
+Right Edge|Ctrl+🠊
+Left Edge|Ctrl+🠈
+Top Edge|Ctrl+🠉
+Bottom Edge|Ctrl+🠋
