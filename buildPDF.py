@@ -151,7 +151,7 @@ def run_latexmk(tex_file):
     tex_filename = os.path.basename(tex_file)
     print("Running latexmk...")
     try:
-        subprocess.run(["latexmk", "-silent", "-pdf", tex_filename], check=True, cwd=build_dir)
+        subprocess.run(["latexmk", "-silent", "-xelatex", tex_filename], check=True, cwd=build_dir)
     except subprocess.CalledProcessError as e:
         print(f"Error running latexmk: {e}")
         log_path = os.path.join(build_dir, 'emeditor.log')
