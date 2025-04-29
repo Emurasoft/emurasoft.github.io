@@ -38,10 +38,11 @@ latex_elements = {
     'utf8extra': '',
     'fontpkg': r'''
         \usepackage{fontspec}
-        % Set Latin font with emoji fallback
         \setmainfont{NotoSans-VariableFont_wdth,wght.ttf}        
         \setmainjfont{NotoSansCJKjp-Regular.otf}
+        
         \newfontfamily\emojifont{Segoe UI Emoji}
+        \newcommand{\emoji}[1]{{\emojifont #1}}
     ''',
 
     'preamble': r'''
