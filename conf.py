@@ -37,6 +37,8 @@ latex_elements = {
     'inputenc': '',
     'utf8extra': '',
     'fontpkg': r'''
+        \usepackage{luatexja}
+        \usepackage{luatexja-fontspec}
         \usepackage{fontspec}
         \setmainfont{NotoSans-VariableFont_wdth,wght.ttf}        
         \setmainjfont{NotoSansCJKjp-Regular.otf}
