@@ -168,12 +168,12 @@ def wrap_symbols_in_tex(tex_file):
     with open(tex_file, 'r', encoding='utf-8') as file:
         content = file.read()
 
-    new_content, count = symbol_pattern.subn(r'\\symbol{\1}', content)
+    new_content, count = symbol_pattern.subn(r'\\symbolchar{\1}', content)
 
     with open(tex_file, 'w', encoding='utf-8') as file:
         file.write(new_content)
 
-    print(f"Wrapped {count} symbol character(s) with \\symbol{{}}.")
+    print(f"Wrapped {count} symbol character(s) with \\symbolchar{{}}.")
     return True
 
 def run_latexmk(tex_file):

@@ -61,7 +61,7 @@ latex_elements = {
         ]{Symbola}
         
         % Command to insert Symbola characters safely
-        \newcommand{\symbol}[1]{{\symbolafont #1}}
+        \newcommand{\symbolchar}[1]{{\symbolafont #1}}
     ''',
 
     'preamble': r'''
