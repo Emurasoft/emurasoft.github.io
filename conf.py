@@ -36,15 +36,15 @@ latex_elements = {
     # Don't use inputenc or utf8extra with xelatex
     'inputenc': '',
     'utf8extra': '',
+    'fontpkg': r'''
+        \usepackage{fontspec}
+        % Set Latin font with emoji fallback
+        \setmainfont{NotoSans-VariableFont_wdth,wght.ttf}        
+        \setmainjfont{NotoSansCJKjp-Regular.otf}
+        \newfontfamily\emojifont{Segoe UI Emoji}
+    ''',
 
     'preamble': r'''
-        % Set font
-        \usepackage{xeCJK}
-        \setmainfont{NotoSans-VariableFont_wdth,wght.ttf}
-        \setCJKmainfont{NotoSansCJKjp-Regular.otf}
-        \setCJKsansfont{NotoSansCJKjp-Regular.otf}
-        \renewcommand{\familydefault}{\sfdefault}
-
         % Flush left
         \raggedright
 
