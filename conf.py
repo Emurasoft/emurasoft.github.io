@@ -39,6 +39,7 @@ latex_elements = {
         \usepackage{luatexja}
         \usepackage{luatexja-fontspec}
         \usepackage{fontspec}
+        
         \setmainfont[
             Path=../../fonts/
         ]{NotoSans-VariableFont.ttf}
@@ -46,11 +47,21 @@ latex_elements = {
             Path=../../fonts/
         ]{NotoSerifCJKjp-VF.ttf}
         
+        % Emoji
         \newfontfamily\emojifont[
             Path=../../fonts/,
             UprightFont=segoe-ui-emoji.ttf
         ]{Segoe UI Emoji}
         \newcommand{\emoji}[1]{{\emojifont #1}}
+        
+        % Symbols
+        \newfontfamily\symbolafont[
+            Path=../../fonts/,
+            UprightFont=Symbola.ttf
+        ]{Symbola}
+        
+        % Command to insert Symbola characters safely
+        \newcommand{\symbol}[1]{{\symbolafont #1}}
     ''',
 
     'preamble': r'''
