@@ -46,7 +46,10 @@ latex_elements = {
             Path=../../fonts/
         ]{NotoSerifCJKjp-VF.ttf}
         
-        \newfontfamily\emojifont{Segoe UI Emoji}
+        \newfontfamily\emojifont[
+            Path=../../fonts/
+            UprightFont=segoe-ui-emoji.ttf
+        ]{Segoe UI Emoji}
         \newcommand{\emoji}[1]{{\emojifont #1}}
     ''',
 
