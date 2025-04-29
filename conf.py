@@ -40,10 +40,11 @@ latex_elements = {
         \usepackage{luatexja-fontspec}
         \usepackage{fontspec}
         \setmainfont[
-          Path=../../fonts/,
-          UprightFont=*-VariableFont_wdth,wght.ttf
-        ]{NotoSans}     
-        \setmainjfont{NotoSansCJKjp-Regular.otf}
+            Path=../../fonts/
+        ]{NotoSans-VariableFont.ttf}
+        \setmainjfont[
+            Path=../../fonts/
+        ]{NotoSerifCJKjp-VF.ttf}
         
         \newfontfamily\emojifont{Segoe UI Emoji}
         \newcommand{\emoji}[1]{{\emojifont #1}}
