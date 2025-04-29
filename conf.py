@@ -31,7 +31,7 @@ html_show_sphinx = False
 html_baseurl = 'https://www.emeditor.org/'
 sitemap_url_scheme = '{lang}{link}'
 smartquotes = False
-latex_engine = 'xelatex'
+latex_engine = 'lualatex'
 latex_elements = {
     # Don't use inputenc or utf8extra with xelatex
     'inputenc': '',
