@@ -40,7 +40,7 @@ This field displays the URL that encodes all settings specified above. You can c
 
 ## Check connection button
 
-Click this button to test the connection to `support.emeditor.org` using the settings specified above. If the connection is successful, "☑ Connection successful!" will appear to the left of this button.
+Click this button to test the connection to `support.emeditor.org` using the settings specified above. If the connection is successful, "✓ Connection successful!" will appear to the left of this button.
 
 If unsuccessful, an error message will appear to diagnosing the issue. Double check the proxy settings and ensure that the proxy is accessible.
 
