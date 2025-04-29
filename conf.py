@@ -33,14 +33,16 @@ sitemap_url_scheme = '{lang}{link}'
 smartquotes = False
 latex_engine = 'lualatex'
 latex_elements = {
-    # Don't use inputenc or utf8extra with xelatex
     'inputenc': '',
     'utf8extra': '',
     'fontpkg': r'''
         \usepackage{luatexja}
         \usepackage{luatexja-fontspec}
         \usepackage{fontspec}
-        \setmainfont{NotoSans-VariableFont_wdth,wght.ttf}        
+        \setmainfont[
+          Path=../../fonts/,
+          UprightFont=*-VariableFont_wdth,wght.ttf
+        ]{NotoSans}     
         \setmainjfont{NotoSansCJKjp-Regular.otf}
         
         \newfontfamily\emojifont{Segoe UI Emoji}
