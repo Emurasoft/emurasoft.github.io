@@ -31,17 +31,40 @@ html_show_sphinx = False
 html_baseurl = 'https://www.emeditor.org/'
 sitemap_url_scheme = '{lang}{link}'
 smartquotes = False
-latex_engine = 'xelatex'
+latex_engine = 'lualatex'
 latex_elements = {
-    # Don't use inputenc or utf8extra with xelatex
     'inputenc': '',
     'utf8extra': '',
+    'fontpkg': r'''
+        \usepackage{luatexja}
+        \usepackage{luatexja-fontspec}
+        \usepackage{fontspec}
+        
+        \setmainfont[
+            Path=../../fonts/
+        ]{NotoSans-VariableFont.ttf}
+        \setmainjfont[
+            Path=../../fonts/
+        ]{NotoSerifCJKjp-VF.ttf}
+        
+        % Emoji
+        \newfontfamily\emojifont[
+            Path=../../fonts/,
+            UprightFont=segoe-ui-emoji.ttf
+        ]{Segoe UI Emoji}
+        \newcommand{\emoji}[1]{{\emojifont #1}}
+        
+        % Symbols
+        \newfontfamily\symbolafont[
+            Path=../../fonts/,
+            UprightFont=Symbola.ttf
+        ]{Symbola}
+        
+        % Command to insert Symbola characters safely
+        \newcommand{\symbolchar}[1]{{\symbolafont #1}}
+    ''',
 
     'preamble': r'''
-        % Set font
-        \usepackage{noto-sans}
-        \renewcommand{\familydefault}{\sfdefault}
-
         % Flush left
         \raggedright
 

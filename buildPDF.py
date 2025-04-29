@@ -50,18 +50,12 @@ def parse_tabulary_table(tex_content):
     return parsed_tables
 
 def encode_longtable(rows, col_spec='ll'):
-    # Start the longtable environment with the correct column specification
     header = "\\begin{longtable}{" + col_spec + "}"
-
-    # Build the table rows without sphinx-specific commands
     body = "\n".join(
         " & ".join(row) + r"\\"
         for row in rows
     )
-
-    # End the longtable environment
     footer = "\\end{longtable}"
-
     return "\n".join([header, body, footer])
 
 def convert_tabulary_to_longtable(tex_file):
@@ -78,59 +72,42 @@ def convert_tabulary_to_longtable(tex_file):
     )
 
     def map_column_spec(tab_spec):
-        # Paper dimensions and margins (in inches)
-        page_width = 8.5  # letter size width
-        margin_left_right = 1  # 1 inch margin on left and right
-        usable_width = page_width - 2 * margin_left_right  # 6.5 inches usable width
-
-        # Count the number of 'X' columns (assuming 'T' is replaced by 'X')
+        page_width = 8.5
+        margin_left_right = 1
+        usable_width = page_width - 2 * margin_left_right
         num_columns = len([col for col in tab_spec if col == 'T'])
-
-        # Calculate the column width by dividing the usable width by the number of columns
         if num_columns > 0:
-            column_width = usable_width / num_columns  # in inches
-            column_width = f"{column_width:.2f}in"  # format the width to two decimal places (in inches)
+            column_width = usable_width / num_columns
+            column_width = f"{column_width:.2f}in"
         else:
-            column_width = '1in'  # default width for non-X columns (you can adjust this)
-
-        # Construct the column specification with p{calculated_width} for each 'T'
+            column_width = '1in'
         return '|' + '|'.join(f'p{{{column_width}}}' if col == 'T' else col for col in tab_spec) + '|'
 
     def clean_sphinx_commands(text):
-        # Remove any Sphinx-specific LaTeX commands from the table content
-        cleaned_text = re.sub(r'\\sphinxstylestrong', r'\\textbf', text)  # Remove \sphinxstylestrong{}
-        cleaned_text = re.sub(r'\\sphinxAtStartPar', '', cleaned_text)  # Remove \sphinxAtStartPar
-        cleaned_text = re.sub(r'\\sphinxmidrule', r'\\hline', cleaned_text)  # Change \sphinxmidrule to \hline
-        cleaned_text = re.sub(r'\\sphinxtoprule', r'\\hline', cleaned_text)  # Change \sphinxtoprule to \hline
-        cleaned_text = re.sub(r'\\sphinxhline', r'\\hline', cleaned_text)  # Change \sphinxhline to \hline
+        cleaned_text = re.sub(r'\\sphinxstylestrong', r'\\textbf', text)
+        cleaned_text = re.sub(r'\\sphinxAtStartPar', '', cleaned_text)
+        cleaned_text = re.sub(r'\\sphinxmidrule', r'\\hline', cleaned_text)
+        cleaned_text = re.sub(r'\\sphinxtoprule', r'\\hline', cleaned_text)
+        cleaned_text = re.sub(r'\\sphinxhline', r'\\hline', cleaned_text)
         return cleaned_text
 
     def table_replacement(match):
         col_spec = match.group(1)
         table_body = match.group(2)
-
-        # Convert tabulary column spec to longtable format
         col_spec = map_column_spec(col_spec)
-
         rows = []
         current_row_lines = []
-
         for line in table_body.splitlines():
             stripped_line = line.strip()
             if not stripped_line:
-                continue  # skip empty lines
+                continue
             current_row_lines.append(stripped_line)
-
             if stripped_line.endswith(r'\\'):
-                # Join all accumulated lines, remove trailing '\\'
                 full_row = ' '.join(current_row_lines)[:-2].strip()
-                # Clean up Sphinx-specific commands
                 full_row = clean_sphinx_commands(full_row)
                 cells = [cell.strip() for cell in re.split(r'(?<!\\)&', full_row)]
                 rows.append(cells)
-                current_row_lines = []  # reset buffer for next row
-
-        # Now generate longtable using the converted column spec
+                current_row_lines = []
         longtable_tex = encode_longtable(rows, col_spec)
         return longtable_tex
 
@@ -146,12 +123,65 @@ def convert_tabulary_to_longtable(tex_file):
     print(f"Converted {count} tabulary table(s) to longtable.")
     return True
 
+def wrap_emojis_in_tex(tex_file):
+    if not os.path.exists(tex_file):
+        print(f"Error: {tex_file} does not exist.")
+        return False
+
+    emoji_pattern = re.compile(
+        r'(['
+        '\U00002600-\U000026FF'
+        '\U00002700-\U000027BF'
+        '\U0001F300-\U0001F5FF'
+        '\U0001F600-\U0001F64F'
+        '\U0001F680-\U0001F6FF'
+        '\U0001F700-\U0001F77F'
+        '\U0001F780-\U0001F7FF'
+        '\U0001F800-\U0001F8FF'
+        '\U0001F900-\U0001F9FF'
+        '\U0001FA00-\U0001FA6F'
+        '\U0001FA70-\U0001FAFF'
+        '])'
+    )
+
+    with open(tex_file, 'r', encoding='utf-8') as file:
+        content = file.read()
+
+    new_content, count = emoji_pattern.subn(r'\\emoji{\1}', content)
+
+    with open(tex_file, 'w', encoding='utf-8') as file:
+        file.write(new_content)
+
+    print(f"Wrapped {count} emoji(s) with \\emoji{{}}.")
+    return True
+
+def wrap_symbols_in_tex(tex_file):
+    if not os.path.exists(tex_file):
+        print(f"Error: {tex_file} does not exist.")
+        return False
+
+    # Supplemental Arrows-C: U+1F800–U+1F8FF (🠀–🠿)
+    symbol_pattern = re.compile(
+        r'([\U0001F800-\U0001F8FF])'
+    )
+
+    with open(tex_file, 'r', encoding='utf-8') as file:
+        content = file.read()
+
+    new_content, count = symbol_pattern.subn(r'\\symbolchar{\1}', content)
+
+    with open(tex_file, 'w', encoding='utf-8') as file:
+        file.write(new_content)
+
+    print(f"Wrapped {count} symbol character(s) with \\symbolchar{{}}.")
+    return True
+
 def run_latexmk(tex_file):
     build_dir = os.path.dirname(tex_file)
     tex_filename = os.path.basename(tex_file)
     print("Running latexmk...")
     try:
-        subprocess.run(["latexmk", "-silent", "-pdf", tex_filename], check=True, cwd=build_dir)
+        subprocess.run(["latexmk", "-silent", "-lualatex", tex_filename], check=True, cwd=build_dir)
     except subprocess.CalledProcessError as e:
         print(f"Error running latexmk: {e}")
         log_path = os.path.join(build_dir, 'emeditor.log')
@@ -181,6 +211,12 @@ def main():
         sys.exit(1)
 
     if not convert_tabulary_to_longtable(tex_file):
+        sys.exit(1)
+
+    if not wrap_emojis_in_tex(tex_file):
+        sys.exit(1)
+
+    if not wrap_symbols_in_tex(tex_file):
         sys.exit(1)
 
     if not run_latexmk(tex_file):
