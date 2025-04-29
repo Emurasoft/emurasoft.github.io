@@ -155,6 +155,27 @@ def wrap_emojis_in_tex(tex_file):
     print(f"Wrapped {count} emoji(s) with \\emoji{{}}.")
     return True
 
+def wrap_symbols_in_tex(tex_file):
+    if not os.path.exists(tex_file):
+        print(f"Error: {tex_file} does not exist.")
+        return False
+
+    # Supplemental Arrows-C: U+1F800–U+1F8FF (🠀–🠿)
+    symbol_pattern = re.compile(
+        r'([\U0001F800-\U0001F8FF])'
+    )
+
+    with open(tex_file, 'r', encoding='utf-8') as file:
+        content = file.read()
+
+    new_content, count = symbol_pattern.subn(r'\\symbol{\1}', content)
+
+    with open(tex_file, 'w', encoding='utf-8') as file:
+        file.write(new_content)
+
+    print(f"Wrapped {count} symbol character(s) with \\symbol{{}}.")
+    return True
+
 def run_latexmk(tex_file):
     build_dir = os.path.dirname(tex_file)
     tex_filename = os.path.basename(tex_file)
@@ -193,6 +214,9 @@ def main():
         sys.exit(1)
 
     if not wrap_emojis_in_tex(tex_file):
+        sys.exit(1)
+
+    if not wrap_symbols_in_tex(tex_file):
         sys.exit(1)
 
     if not run_latexmk(tex_file):
