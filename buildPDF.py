@@ -1,10 +1,11 @@
 import os
-import subprocess
-import shutil
 import re
+import shutil
+import subprocess
 import sys
+from typing import List, Tuple, Match
 
-def run_sphinx_build():
+def run_sphinx_build() -> bool:
     print("Running sphinx-build...")
     os.environ['SPHINX_BUILDER'] = 'latex'
     result = subprocess.run(['sphinx-build', '--jobs', 'auto', '-b', 'latex', '.', '_build/en'], capture_output=True, text=True)
@@ -14,7 +15,7 @@ def run_sphinx_build():
     print("Sphinx build complete.")
     return True
 
-def remove_svg_from_tex(tex_file):
+def remove_svg_from_tex(tex_file: str) -> bool:
     if not os.path.exists(tex_file):
         print(f"Error: {tex_file} does not exist.")
         return False
@@ -30,13 +31,13 @@ def remove_svg_from_tex(tex_file):
     print("SVG image references removed.")
     return True
 
-def parse_tabulary_table(tex_content):
+def parse_tabulary_table(tex_content: str) -> List[Tuple[str, List[List[str]]]]:
     table_pattern = re.compile(
         r'\\begin\{tabulary\}\{.*?\}(?:\[.*?\])?\{.*?\}(.*?)\\end\{tabulary\}',
         re.DOTALL
     )
     tables = table_pattern.findall(tex_content)
-    parsed_tables = []
+    parsed_tables: List[Tuple[str, List[List[str]]]] = []
 
     for table in tables:
         rows = []
@@ -49,7 +50,7 @@ def parse_tabulary_table(tex_content):
 
     return parsed_tables
 
-def encode_longtable(rows, col_spec='ll'):
+def encode_longtable(rows: List[List[str]], col_spec: str = 'll') -> str:
     header = "\\begin{longtable}{" + col_spec + "}"
     body = "\n".join(
         " & ".join(row) + r"\\"
@@ -58,7 +59,7 @@ def encode_longtable(rows, col_spec='ll'):
     footer = "\\end{longtable}"
     return "\n".join([header, body, footer])
 
-def convert_tabulary_to_longtable(tex_file):
+def convert_tabulary_to_longtable(tex_file: str) -> bool:
     if not os.path.exists(tex_file):
         print(f"Error: {tex_file} does not exist.")
         return False
@@ -79,14 +80,14 @@ def convert_tabulary_to_longtable(tex_file):
     return True
 
 
-def replace_tabulary_tables(tex_content):
+def replace_tabulary_tables(tex_content: str) -> Tuple[str, int]:
     """Identifies and replaces tabulary tables in the LaTeX content."""
     table_pattern = re.compile(
         r'\\begin\{tabulary\}\{.*?\}\[.*?\]\{(.*?)\}(.*?)\\end\{tabulary\}',
         re.DOTALL
     )
 
-    def table_replacement(match):
+    def table_replacement(match: Match[str]) -> str:
         col_spec = match.group(1)
         table_body = match.group(2)
         col_spec = map_column_spec(col_spec)
@@ -96,7 +97,7 @@ def replace_tabulary_tables(tex_content):
     return table_pattern.subn(table_replacement, tex_content)
 
 
-def map_column_spec(tab_spec):
+def map_column_spec(tab_spec: str) -> str:
     """Maps the column specification for tabulary to longtable."""
     page_width = 8.5  # Example: standard US Letter width in inches
     margin_left_right = 1  # Example: 1-inch margin on both sides
@@ -105,17 +106,17 @@ def map_column_spec(tab_spec):
 
     if num_columns > 0:
         column_width = usable_width / num_columns
-        column_width = f"{column_width:.2f}in"
+        column_width_str = f"{column_width:.2f}in"
     else:
-        column_width = '1in'
+        column_width_str = '1in'
 
-    return '|' + '|'.join(f'p{{{column_width}}}' if col == 'T' else col for col in tab_spec) + '|'
+    return '|' + '|'.join(f'p{{{column_width_str}}}' if col == 'T' else col for col in tab_spec) + '|'
 
 
-def parse_table_body(table_body):
+def parse_table_body(table_body: str) -> List[List[str]]:
     """Parses the table body into rows and cells."""
-    rows = []
-    current_row_lines = []
+    rows: List[List[str]] = []
+    current_row_lines: List[str] = []
 
     for line in table_body.splitlines():
         stripped_line = line.strip()
@@ -134,7 +135,7 @@ def parse_table_body(table_body):
     return rows
 
 
-def clean_sphinx_commands(text):
+def clean_sphinx_commands(text: str) -> str:
     replacements = {
         r'\sphinxstylestrong': r'\textbf',
         r'\sphinxAtStartPar': '',
@@ -148,15 +149,7 @@ def clean_sphinx_commands(text):
 
     return text
 
-
-def encode_longtable(rows, col_spec='ll'):
-    """Encodes rows into a LaTeX longtable format."""
-    header = "\\begin{longtable}{" + col_spec + "}"
-    body = "\n".join(" & ".join(row) + r"\\" for row in rows)
-    footer = "\\end{longtable}"
-    return "\n".join([header, body, footer])
-
-emoji_ranges = [
+emoji_ranges: List[Tuple[int, int]] = [
     (0x2600, 0x26FF),
     (0x2700, 0x27BF),
     (0x1F300, 0x1F5FF),
@@ -170,19 +163,19 @@ emoji_ranges = [
     (0x1FA70, 0x1FAFF),
 ]
 
-symbol_ranges = [
+symbol_ranges: List[Tuple[int, int]] = [
     (0x1F800, 0x1F8FF),
 ]
 
-def is_emoji(char):
+def is_emoji(char: str) -> bool:
     codepoint = ord(char)
     return any(start <= codepoint <= end for start, end in emoji_ranges)
 
-def is_symbol(char):
+def is_symbol(char: str) -> bool:
     codepoint = ord(char)
     return any(start <= codepoint <= end for start, end in symbol_ranges)
 
-def wrap_special_chars_in_tex(tex_file):
+def wrap_special_chars_in_tex(tex_file: str) -> bool:
     if not os.path.exists(tex_file):
         print(f"Error: {tex_file} does not exist.")
         return False
@@ -190,9 +183,9 @@ def wrap_special_chars_in_tex(tex_file):
     with open(tex_file, 'r', encoding='utf-8') as file:
         content = file.read()
 
-    new_content = []
-    emoji_count = 0
-    symbol_count = 0
+    new_content: List[str] = []
+    emoji_count: int = 0
+    symbol_count: int = 0
 
     for char in content:
         if is_emoji(char):
@@ -210,7 +203,7 @@ def wrap_special_chars_in_tex(tex_file):
     print(f"Wrapped {emoji_count} emoji(s) with \\emoji{{}} and {symbol_count} symbol(s) with \\symbolchar{{}}.")
     return True
 
-def run_latexmk(tex_file):
+def run_latexmk(tex_file: str) -> bool:
     build_dir = os.path.dirname(tex_file)
     tex_filename = os.path.basename(tex_file)
     print("Running latexmk...")
@@ -230,7 +223,7 @@ def run_latexmk(tex_file):
     print("PDF build complete.")
     return True
 
-def main():
+def main() -> None:
     build_folder = '_build'
     if os.path.exists(build_folder):
         shutil.rmtree(build_folder)
