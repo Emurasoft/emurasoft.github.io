@@ -135,13 +135,18 @@ def parse_table_body(table_body):
 
 
 def clean_sphinx_commands(text):
-    """Cleans Sphinx-specific LaTeX commands."""
-    cleaned_text = re.sub(r'\\sphinxstylestrong', r'\\textbf', text)
-    cleaned_text = re.sub(r'\\sphinxAtStartPar', '', cleaned_text)
-    cleaned_text = re.sub(r'\\sphinxmidrule', r'\\hline', cleaned_text)
-    cleaned_text = re.sub(r'\\sphinxtoprule', r'\\hline', cleaned_text)
-    cleaned_text = re.sub(r'\\sphinxhline', r'\\hline', cleaned_text)
-    return cleaned_text
+    replacements = {
+        r'\sphinxstylestrong': r'\textbf',
+        r'\sphinxAtStartPar': '',
+        r'\sphinxmidrule': r'\hline',
+        r'\sphinxtoprule': r'\hline',
+        r'\sphinxhline': r'\hline'
+    }
+
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+
+    return text
 
 
 def encode_longtable(rows, col_spec='ll'):
