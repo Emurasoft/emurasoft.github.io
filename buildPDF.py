@@ -203,20 +203,31 @@ def wrap_symbols_in_tex(tex_file):
         print(f"Error: {tex_file} does not exist.")
         return False
 
-    # Supplemental Arrows-C: U+1F800–U+1F8FF (🠀–🠿)
-    symbol_pattern = re.compile(
-        r'([\U0001F800-\U0001F8FF])'
-    )
+    symbol_ranges = [
+        (0x27F0, 0x27FF),  # Supplemental Arrows-A
+    ]
+
+    def is_symbol(char):
+        codepoint = ord(char)
+        return any(start <= codepoint <= end for start, end in symbol_ranges)
 
     with open(tex_file, 'r', encoding='utf-8') as file:
         content = file.read()
 
-    new_content, count = symbol_pattern.subn(r'\\symbolchar{\1}', content)
+    new_content = []
+    count = 0
+
+    for char in content:
+        if is_symbol(char):
+            new_content.append(f"\\symbol{{{char}}}")
+            count += 1
+        else:
+            new_content.append(char)
 
     with open(tex_file, 'w', encoding='utf-8') as file:
-        file.write(new_content)
+        file.write(''.join(new_content))
 
-    print(f"Wrapped {count} symbol character(s) with \\symbolchar{{}}.")
+    print(f"Wrapped {count} symbol(s) with \\symbol{{}}.")
     return True
 
 def run_latexmk(tex_file):
