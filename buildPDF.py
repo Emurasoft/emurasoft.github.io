@@ -156,78 +156,58 @@ def encode_longtable(rows, col_spec='ll'):
     footer = "\\end{longtable}"
     return "\n".join([header, body, footer])
 
-def wrap_emojis_in_tex(tex_file):
+emoji_ranges = [
+    (0x2600, 0x26FF),
+    (0x2700, 0x27BF),
+    (0x1F300, 0x1F5FF),
+    (0x1F600, 0x1F64F),
+    (0x1F680, 0x1F6FF),
+    (0x1F700, 0x1F77F),
+    (0x1F780, 0x1F7FF),
+    (0x1F800, 0x1F8FF),
+    (0x1F900, 0x1F9FF),
+    (0x1FA00, 0x1FA6F),
+    (0x1FA70, 0x1FAFF),
+]
+
+symbol_ranges = [
+    (0x1F800, 0x1F8FF),
+]
+
+def is_emoji(char):
+    codepoint = ord(char)
+    return any(start <= codepoint <= end for start, end in emoji_ranges)
+
+def is_symbol(char):
+    codepoint = ord(char)
+    return any(start <= codepoint <= end for start, end in symbol_ranges)
+
+def wrap_special_chars_in_tex(tex_file):
     if not os.path.exists(tex_file):
         print(f"Error: {tex_file} does not exist.")
         return False
-
-    emoji_ranges = [
-        (0x2600, 0x26FF),
-        (0x2700, 0x27BF),
-        (0x1F300, 0x1F5FF),
-        (0x1F600, 0x1F64F),
-        (0x1F680, 0x1F6FF),
-        (0x1F700, 0x1F77F),
-        (0x1F780, 0x1F7FF),
-        (0x1F800, 0x1F8FF),
-        (0x1F900, 0x1F9FF),
-        (0x1FA00, 0x1FA6F),
-        (0x1FA70, 0x1FAFF),
-    ]
-
-    def is_emoji(char):
-        codepoint = ord(char)
-        return any(start <= codepoint <= end for start, end in emoji_ranges)
 
     with open(tex_file, 'r', encoding='utf-8') as file:
         content = file.read()
 
     new_content = []
-    count = 0
+    emoji_count = 0
+    symbol_count = 0
 
     for char in content:
         if is_emoji(char):
             new_content.append(f"\\emoji{{{char}}}")
-            count += 1
+            emoji_count += 1
+        elif is_symbol(char):
+            new_content.append(f"\\symbolchar{{{char}}}")
+            symbol_count += 1
         else:
             new_content.append(char)
 
     with open(tex_file, 'w', encoding='utf-8') as file:
         file.write(''.join(new_content))
 
-    print(f"Wrapped {count} emoji(s) with \\emoji{{}}.")
-    return True
-
-def wrap_symbols_in_tex(tex_file):
-    if not os.path.exists(tex_file):
-        print(f"Error: {tex_file} does not exist.")
-        return False
-
-    symbol_ranges = [
-        (0x27F0, 0x27FF),  # Supplemental Arrows-A
-    ]
-
-    def is_symbol(char):
-        codepoint = ord(char)
-        return any(start <= codepoint <= end for start, end in symbol_ranges)
-
-    with open(tex_file, 'r', encoding='utf-8') as file:
-        content = file.read()
-
-    new_content = []
-    count = 0
-
-    for char in content:
-        if is_symbol(char):
-            new_content.append(f"\\symbol{{{char}}}")
-            count += 1
-        else:
-            new_content.append(char)
-
-    with open(tex_file, 'w', encoding='utf-8') as file:
-        file.write(''.join(new_content))
-
-    print(f"Wrapped {count} symbol(s) with \\symbol{{}}.")
+    print(f"Wrapped {emoji_count} emoji(s) with \\emoji{{}} and {symbol_count} symbol(s) with \\symbolchar{{}}.")
     return True
 
 def run_latexmk(tex_file):
@@ -267,10 +247,7 @@ def main():
     if not convert_tabulary_to_longtable(tex_file):
         sys.exit(1)
 
-    if not wrap_emojis_in_tex(tex_file):
-        sys.exit(1)
-
-    if not wrap_symbols_in_tex(tex_file):
+    if not wrap_special_chars_in_tex(tex_file):
         sys.exit(1)
 
     if not run_latexmk(tex_file):
