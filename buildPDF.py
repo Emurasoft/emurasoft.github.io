@@ -66,52 +66,7 @@ def convert_tabulary_to_longtable(tex_file):
     with open(tex_file, 'r', encoding='utf-8') as file:
         tex_content = file.read()
 
-    table_pattern = re.compile(
-        r'\\begin\{tabulary\}\{.*?\}\[.*?\]\{(.*?)\}(.*?)\\end\{tabulary\}',
-        re.DOTALL
-    )
-
-    def map_column_spec(tab_spec):
-        page_width = 8.5
-        margin_left_right = 1
-        usable_width = page_width - 2 * margin_left_right
-        num_columns = len([col for col in tab_spec if col == 'T'])
-        if num_columns > 0:
-            column_width = usable_width / num_columns
-            column_width = f"{column_width:.2f}in"
-        else:
-            column_width = '1in'
-        return '|' + '|'.join(f'p{{{column_width}}}' if col == 'T' else col for col in tab_spec) + '|'
-
-    def clean_sphinx_commands(text):
-        cleaned_text = re.sub(r'\\sphinxstylestrong', r'\\textbf', text)
-        cleaned_text = re.sub(r'\\sphinxAtStartPar', '', cleaned_text)
-        cleaned_text = re.sub(r'\\sphinxmidrule', r'\\hline', cleaned_text)
-        cleaned_text = re.sub(r'\\sphinxtoprule', r'\\hline', cleaned_text)
-        cleaned_text = re.sub(r'\\sphinxhline', r'\\hline', cleaned_text)
-        return cleaned_text
-
-    def table_replacement(match):
-        col_spec = match.group(1)
-        table_body = match.group(2)
-        col_spec = map_column_spec(col_spec)
-        rows = []
-        current_row_lines = []
-        for line in table_body.splitlines():
-            stripped_line = line.strip()
-            if not stripped_line:
-                continue
-            current_row_lines.append(stripped_line)
-            if stripped_line.endswith(r'\\'):
-                full_row = ' '.join(current_row_lines)[:-2].strip()
-                full_row = clean_sphinx_commands(full_row)
-                cells = [cell.strip() for cell in re.split(r'(?<!\\)&', full_row)]
-                rows.append(cells)
-                current_row_lines = []
-        longtable_tex = encode_longtable(rows, col_spec)
-        return longtable_tex
-
-    new_tex_content, count = table_pattern.subn(table_replacement, tex_content)
+    new_tex_content, count = replace_tabulary_tables(tex_content)
 
     if count == 0:
         print("No tabulary tables found.")
@@ -122,6 +77,79 @@ def convert_tabulary_to_longtable(tex_file):
 
     print(f"Converted {count} tabulary table(s) to longtable.")
     return True
+
+
+def replace_tabulary_tables(tex_content):
+    """Identifies and replaces tabulary tables in the LaTeX content."""
+    table_pattern = re.compile(
+        r'\\begin\{tabulary\}\{.*?\}\[.*?\]\{(.*?)\}(.*?)\\end\{tabulary\}',
+        re.DOTALL
+    )
+
+    def table_replacement(match):
+        col_spec = match.group(1)
+        table_body = match.group(2)
+        col_spec = map_column_spec(col_spec)
+        rows = parse_table_body(table_body)
+        return encode_longtable(rows, col_spec)
+
+    return table_pattern.subn(table_replacement, tex_content)
+
+
+def map_column_spec(tab_spec):
+    """Maps the column specification for tabulary to longtable."""
+    page_width = 8.5  # Example: standard US Letter width in inches
+    margin_left_right = 1  # Example: 1-inch margin on both sides
+    usable_width = page_width - 2 * margin_left_right
+    num_columns = sum(1 for col in tab_spec if col == 'T')
+
+    if num_columns > 0:
+        column_width = usable_width / num_columns
+        column_width = f"{column_width:.2f}in"
+    else:
+        column_width = '1in'
+
+    return '|' + '|'.join(f'p{{{column_width}}}' if col == 'T' else col for col in tab_spec) + '|'
+
+
+def parse_table_body(table_body):
+    """Parses the table body into rows and cells."""
+    rows = []
+    current_row_lines = []
+
+    for line in table_body.splitlines():
+        stripped_line = line.strip()
+        if not stripped_line:
+            continue
+
+        current_row_lines.append(stripped_line)
+
+        if stripped_line.endswith(r'\\'):  # End of row
+            full_row = ' '.join(current_row_lines)[:-2].strip()
+            full_row = clean_sphinx_commands(full_row)
+            cells = [cell.strip() for cell in re.split(r'(?<!\\)&', full_row)]
+            rows.append(cells)
+            current_row_lines = []
+
+    return rows
+
+
+def clean_sphinx_commands(text):
+    """Cleans Sphinx-specific LaTeX commands."""
+    cleaned_text = re.sub(r'\\sphinxstylestrong', r'\\textbf', text)
+    cleaned_text = re.sub(r'\\sphinxAtStartPar', '', cleaned_text)
+    cleaned_text = re.sub(r'\\sphinxmidrule', r'\\hline', cleaned_text)
+    cleaned_text = re.sub(r'\\sphinxtoprule', r'\\hline', cleaned_text)
+    cleaned_text = re.sub(r'\\sphinxhline', r'\\hline', cleaned_text)
+    return cleaned_text
+
+
+def encode_longtable(rows, col_spec='ll'):
+    """Encodes rows into a LaTeX longtable format."""
+    header = "\\begin{longtable}{" + col_spec + "}"
+    body = "\n".join(" & ".join(row) + r"\\" for row in rows)
+    footer = "\\end{longtable}"
+    return "\n".join([header, body, footer])
 
 def wrap_emojis_in_tex(tex_file):
     if not os.path.exists(tex_file):
