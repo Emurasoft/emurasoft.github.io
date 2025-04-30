@@ -161,29 +161,39 @@ def wrap_emojis_in_tex(tex_file):
         print(f"Error: {tex_file} does not exist.")
         return False
 
-    emoji_pattern = re.compile(
-        r'(['
-        '\U00002600-\U000026FF'
-        '\U00002700-\U000027BF'
-        '\U0001F300-\U0001F5FF'
-        '\U0001F600-\U0001F64F'
-        '\U0001F680-\U0001F6FF'
-        '\U0001F700-\U0001F77F'
-        '\U0001F780-\U0001F7FF'
-        '\U0001F800-\U0001F8FF'
-        '\U0001F900-\U0001F9FF'
-        '\U0001FA00-\U0001FA6F'
-        '\U0001FA70-\U0001FAFF'
-        '])'
-    )
+    emoji_ranges = [
+        (0x2600, 0x26FF),
+        (0x2700, 0x27BF),
+        (0x1F300, 0x1F5FF),
+        (0x1F600, 0x1F64F),
+        (0x1F680, 0x1F6FF),
+        (0x1F700, 0x1F77F),
+        (0x1F780, 0x1F7FF),
+        (0x1F800, 0x1F8FF),
+        (0x1F900, 0x1F9FF),
+        (0x1FA00, 0x1FA6F),
+        (0x1FA70, 0x1FAFF),
+    ]
+
+    def is_emoji(char):
+        codepoint = ord(char)
+        return any(start <= codepoint <= end for start, end in emoji_ranges)
 
     with open(tex_file, 'r', encoding='utf-8') as file:
         content = file.read()
 
-    new_content, count = emoji_pattern.subn(r'\\emoji{\1}', content)
+    new_content = []
+    count = 0
+
+    for char in content:
+        if is_emoji(char):
+            new_content.append(f"\\emoji{{{char}}}")
+            count += 1
+        else:
+            new_content.append(char)
 
     with open(tex_file, 'w', encoding='utf-8') as file:
-        file.write(new_content)
+        file.write(''.join(new_content))
 
     print(f"Wrapped {count} emoji(s) with \\emoji{{}}.")
     return True
