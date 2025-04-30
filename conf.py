@@ -33,8 +33,6 @@ sitemap_url_scheme = '{lang}{link}'
 smartquotes = False
 latex_engine = 'lualatex'
 latex_elements = {
-    'inputenc': '',
-    'utf8extra': '',
     'fontpkg': r'''
         \usepackage{luatexja}
         \usepackage{luatexja-fontspec}
