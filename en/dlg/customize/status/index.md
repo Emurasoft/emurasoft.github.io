@@ -21,8 +21,8 @@ Displays the list of items that can be displayed in the Status Bar. This list co
 | **Number of Words in the selection** | Displays the number of words in the selection (not available for very large files). |
 | **Number of Lines (in the selection/total)** | Displays the number of lines in the selection and the total number of lines in the current document. |
 | **Number of Columns in the CSV document (in the selection/total)** | Displays the number of columns in the selection and the total number of columns in the current CSV document. |
-| **Average of numbers in the selection** | Displays the average of numbers in the selection. |
-| **Sum of numbers in the selection** | Displays the sum of numbers in the selection. |
+| **Average of numbers in the selection** | Displays the average of numbers in the selection. See also the **Allow digit grouping** check box in the [**Sort** page](../sort/index). |
+| **Sum of numbers in the selection** | Displays the sum of numbers in the selection. See also the **Allow digit grouping** check box in the [**Sort** page](../sort/index). |
 | **Percentage of Physical Memory in Use** | Displays the Percentage of Physical Memory in Use |
 | **CSV Mode** | Displays the name of the CSV mode if the current document is in a CSV mode. Otherwise, displays Normal Mode. |
 | **Bookmark Count in the Entire Document** | Displays the number of bookmarks in the current document. |
