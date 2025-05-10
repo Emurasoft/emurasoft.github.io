@@ -131,8 +131,10 @@ jobs:
       - name: Install packages
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: latexmk texlive-full texlive-luatex
+          packages: latexmk texlive-full
           version: 1.0
+      - run: sudo fmtutil-sys --all
+      - run: kpsewhich lualatex.fmt
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Set version
