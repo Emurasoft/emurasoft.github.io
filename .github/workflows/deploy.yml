@@ -133,7 +133,8 @@ jobs:
         with:
           packages: latexmk texlive-full
           version: 1.0
-      - run: sudo fmtutil-sys --all
+      - run: fmtutil --all
+      - run: kpsewhich --var-value=TEXMFSYSVAR
       - run: kpsewhich lualatex.fmt
       - name: Install dependencies
         run: pip install -r requirements.txt
