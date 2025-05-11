@@ -128,12 +128,13 @@ jobs:
         with:
           python-version: '3.13'
           cache: pip
-      - name: Install packages
-        uses: awalsh128/cache-apt-pkgs-action@latest
-        with:
-          packages: latexmk texlive-full
-          version: 1.0
-      - run: sudo apt-get install --reinstall texlive-luatex
+#      - name: Install packages
+#        uses: awalsh128/cache-apt-pkgs-action@latest
+#        with:
+#          packages: latexmk texlive-full
+#          version: 1.0
+      - run: sudo apt install latexmk texlive-full
+      - run: sudo apt install --reinstall texlive-luatex
       - run: sudo fmtutil-sys --all
       - run: kpsewhich --var-value=TEXMFSYSVAR
       - run: kpsewhich lualatex.fmt
