@@ -128,32 +128,15 @@ jobs:
         with:
           python-version: '3.13'
           cache: pip
-#      - name: Install packages
-#        uses: awalsh128/cache-apt-pkgs-action@latest
-#        with:
-#          packages: latexmk texlive-full
-#          version: 1.0
-      - run: sudo apt install -y latexmk texlive-full
-      - run: sudo apt install --reinstall -y texlive-luatex
-      - name: Install TeX Live (Full)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y texlive-full
-
-      - name: Verify LuaHBTeX Engine
-        run: |
-          which luahbtex
-          luahbtex --version
-
+      - name: Install packages
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: latexmk texlive-full
+          version: 1.0
       - name: Regenerate lualatex.fmt with LuaHBTeX
         run: |
           sudo fmtutil-sys --byengine luahbtex
           sudo mktexlsr
-
-      - name: Confirm lualatex.fmt location
-        run: |
-          kpsewhich --engine=luahbtex lualatex.fmt
-
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Set version
