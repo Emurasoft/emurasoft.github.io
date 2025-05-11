@@ -142,6 +142,9 @@ jobs:
         continue-on-error: true
       - run: cat fmtutil.log
         continue-on-error: true
+      - run: |
+          kpsewhich --engine=luahbtex lualatex.fmt
+          kpsewhich --engine=luatex lualatex.fmt
       - run: kpsewhich --var-value=TEXMFSYSVAR
       - run: kpsewhich lualatex.fmt
       - name: Install dependencies
