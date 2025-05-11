@@ -135,6 +135,10 @@ jobs:
 #          version: 1.0
       - run: sudo apt install latexmk texlive-full
       - run: sudo apt install --reinstall texlive-luatex
+      - run: cat /etc/texmf/web2c/fmtutil.cnf
+        continue-on-error: true
+      - run: echo "lualatex luatex language.dat,language.dat.lua lualatex.ini" | sudo tee /etc/texmf/web2c/fmtutil.cnf
+        continue-on-error: true
       - run: sudo fmtutil-sys --all
       - run: kpsewhich --var-value=TEXMFSYSVAR
       - run: kpsewhich lualatex.fmt
