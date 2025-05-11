@@ -135,21 +135,25 @@ jobs:
 #          version: 1.0
       - run: sudo apt install -y latexmk texlive-full
       - run: sudo apt install --reinstall -y texlive-luatex
-      - run: echo "lualatex luatex language.dat,language.dat.lua lualatex.ini" | sudo tee /etc/texmf/web2c/fmtutil.cnf
-      - run: sudo mktexlsr
-        continue-on-error: true
-      - run: sudo fmtutil-sys --byfmt lualatex | tee fmtutil.log
-        continue-on-error: true
-      - run: cat fmtutil.log
-        continue-on-error: true
-      - run: |
-          kpsewhich -var-value=TEXMFVAR
-          kpsewhich -var-value=TEXMFCACHE
-          
-          which lualatex
-          lualatex --version
-      - run: kpsewhich --var-value=TEXMFSYSVAR
-      - run: kpsewhich lualatex.fmt
+      - name: Install TeX Live (Full)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-full
+
+      - name: Verify LuaHBTeX Engine
+        run: |
+          which luahbtex
+          luahbtex --version
+
+      - name: Regenerate lualatex.fmt with LuaHBTeX
+        run: |
+          sudo fmtutil-sys --byengine luahbtex
+          sudo mktexlsr
+
+      - name: Confirm lualatex.fmt location
+        run: |
+          kpsewhich --engine=luahbtex lualatex.fmt
+
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Set version
