@@ -133,6 +133,7 @@ jobs:
         with:
           packages: latexmk texlive-full
           version: 1.0
+      - run: sudo apt install --reinstall -y texlive-luatex
       - name: Regenerate lualatex.fmt with LuaHBTeX
         run: |
           sudo fmtutil-sys --byengine luahbtex
