@@ -120,6 +120,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: zh-tw.zip
+
   buildPDF:
     runs-on: ubuntu-24.04
     steps:
@@ -128,12 +129,12 @@ jobs:
         with:
           python-version: '3.13'
           cache: pip
+      # Cannot use apt cache due to issues that occur with cache
       - name: Install packages
-        uses: awalsh128/cache-apt-pkgs-action@latest
-        with:
-          packages: latexmk texlive-full texlive-luatex
-          version: 1.0
-      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install latexmk texlive-luatex texlive-lang-japanese texlive-latex-extra texlive-plain-generic
+      - name: Install python dependencies
         run: pip install -r requirements.txt
       - name: Set version
         run: |
@@ -146,6 +147,7 @@ jobs:
         with:
           name: emeditor.pdf
           path: _build/en/emeditor.pdf
+
   deploy:
     if: ${{ github.ref_type == 'tag' && github.ref_name != '0.0.0'}}
     environment:
