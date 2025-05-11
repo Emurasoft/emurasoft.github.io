@@ -128,6 +128,10 @@ jobs:
         with:
           python-version: '3.13'
           cache: pip
+      - uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: latexmk texlive-full
+          version: 1.0
       - run: sudo apt install latexmk texlive-full
       - name: Install dependencies
         run: pip install -r requirements.txt
