@@ -129,7 +129,9 @@ jobs:
           python-version: '3.13'
           cache: pip
       # Cannot use apt cache due to issues that occur with cache
-      - run: sudo apt install latexmk texlive-luatex texlive-fontspec texlive-lang-japanese texlive-latex-extra texlive-plain-generic
+      - run: |
+          sudo apt update
+          sudo apt install latexmk texlive-luatex texlive-lang-japanese texlive-latex-extra texlive-plain-generic
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Set version
