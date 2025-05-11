@@ -129,7 +129,6 @@ jobs:
           python-version: '3.13'
           cache: pip
       - run: sudo apt install latexmk texlive-full
-      - run: sudo apt install --reinstall -y texlive-luatex
       - name: Regenerate lualatex.fmt with LuaHBTeX
         run: |
           sudo fmtutil-sys --byengine luahbtex
