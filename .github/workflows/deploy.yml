@@ -129,10 +129,6 @@ jobs:
           python-version: '3.13'
           cache: pip
       - run: sudo apt install latexmk texlive-full
-      - name: Regenerate lualatex.fmt with LuaHBTeX
-        run: |
-          sudo fmtutil-sys --byengine luahbtex
-          sudo mktexlsr
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Set version
