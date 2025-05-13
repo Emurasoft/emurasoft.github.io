@@ -37,6 +37,7 @@
 | **[Top Custom Bar](top_custom_bar)** | Switches to the custom bar on top. |
 | **[Right Custom Bar](right_custom_bar)** | Switches to the custom bar on right. |
 | **[Bottom Custom Bar](bottom_custom_bar)** | Switches to the custom bar on bottom. |
+| **[Custom Bar Options](pane_menu)** | Displays a popup menu to set the custom bar options. |
 | **[Enable Tabs](window_combine)** | Enables tabs to combine or disable tabs to separate all windows. |
 | **[Enable Tabs - On](window_combine_on)** | Enables tabs to combine all windows. |
 | **[Enable Tabs - Off](window_combine_off)** | Disables tabs to separate all windows. |
@@ -100,6 +101,7 @@ next_pane
 next_pane_or_bar
 next_window
 next_zorder_doc
+pane_menu
 prev_pane
 prev_pane_or_bar
 prev_window

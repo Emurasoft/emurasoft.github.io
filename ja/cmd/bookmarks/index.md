@@ -22,10 +22,12 @@
 | [このグループのブックマークを反転](../bookmarks/bookmark_group_invert) | このグループのすべてのブックマークを反転します。 |
 | [このグループのブックマークされた行を削除](../bookmarks/bookmark_group_delete) | このグループのすべてのブックマークされた行を削除します。 |
 | [このグループのブックマークされた行を抽出して新規作成](../bookmarks/bookmark_group_extract) | このグループのすべてのブックマークされた行を抽出して新規ファイルにコピーします。 |
+| [ブックマーク](../bookmarks/bookmark_bar) | ブックマーク カスタム バーにブックマーク一覧を表示します。 |
 
 ```{toctree}
 :maxdepth: 1
 :hidden:
+bookmark_bar
 bookmark_toggle
 bookmark_set
 bookmark_reset

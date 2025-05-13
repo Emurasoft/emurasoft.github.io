@@ -38,6 +38,7 @@
 | [上カスタム バー](top_custom_bar) | 上のカスタム バーに切り替えます。 |
 | [右カスタム バー](right_custom_bar) | 右のカスタム バーに切り替えます。 |
 | [下カスタム バー](bottom_custom_bar) | 下のカスタム バーに切り替えます。 |
+| [カスタム バー オプション](pane_menu) | カスタム バー オプションを設定するポップアップ メニューを表示します。 |
 | [タブを有効にする](window_combine) | タブの有効と無効を切り替え、ウィンドウを結合したり切り離します。 |
 | [タブを有効にする \- オン](window_combine_on) | タブを有効にしてすべてのウィンドウを結合します。 |
 | [タブを有効にする \- オフ](window_combine_off) | タブを無効にしてすべてのウィンドウの結合を解除します。 |
@@ -101,6 +102,7 @@ next_pane
 next_pane_or_bar
 next_window
 next_zorder_doc
+pane_menu
 prev_pane
 prev_pane_or_bar
 prev_window
