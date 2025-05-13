@@ -140,6 +140,8 @@ Specifies a parameter to retrieve or set. This parameter can be one of the value
 | EI\_GET\_MARKDOWN\_PREVIEW | Retrieves whether the Markdown Design View is set. | Not used. | (BOOL)bMarkdownPreview<br> Markdown Design View if TRUE |
 | EI\_SET\_MARKDOWN\_PREVIEW | Toggles the Markdown Design View | (BOOL)bMarkdownPreview<br> Markdown Design View if TRUE | Not used. |
 | EI\_IS\_CHATAI\_INSTALLED | Retrieves whether the ChatAI plug-in is installed. | Not used. | (BOOL)bInstalled<br> Markdown Design View if TRUE |
+| EI_RESET_BOOKMARK | Resets a specified bookmark in a document or all bookmarks in all open documents. | (INT\_PTR)y<br>Specifies the line number to reset a bookmark, or all bookmarks in all open documents if -1\. | Not used. |
+| EI_BRING_CUSTOM_BAR_TOP | Brings the specified custom bar to the top. | (HWND)hwndClient<br>Specifies the client window | (int)iCustomBar<br>Specifies the custom bar position if found, or -1 if the custom bar is not found. |
 
 _iDoc_
 

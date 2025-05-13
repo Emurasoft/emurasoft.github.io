@@ -15,7 +15,7 @@ Displays a popup menu to set the custom bar options.
 \> **Custom Bar** \> **Custom Bar Options**
 - Toolbar: None
 - Status Bar: None
-- Default Shortcut Key: None
+- Default Shortcut Key: ALT+.
 
 ## Plug-in Command ID
 
