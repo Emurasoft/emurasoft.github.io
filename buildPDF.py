@@ -82,10 +82,17 @@ def map_column_spec(tab_spec: str) -> str:
     num_columns = sum(1 for col in tab_spec if col == 'T')
 
     if num_columns > 0:
-        column_width = usable_width / num_columns
-        column_width_str = f"{column_width:.2f}in"
+        base_column_width = usable_width / num_columns
+
+        # Linear adjustment factor per column to account for borders/spacing
+        factor = 0.0045
+
+        adjusted_width = base_column_width - (num_columns * factor)
+        adjusted_width = max(0.25, adjusted_width)
+
+        column_width_str = f"{adjusted_width:.2f}in"
     else:
-        column_width_str = '1in'
+        column_width_str = '4in'
 
     return '|' + '|'.join(f'p{{{column_width_str}}}' if col == 'T' else col for col in tab_spec) + '|'
 
