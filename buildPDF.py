@@ -83,9 +83,9 @@ def map_column_spec(tab_spec: str) -> str:
 
     if num_columns > 0:
         column_width = usable_width / num_columns
-        column_width_str = f"{column_width:.2f}in"
+        column_width_str = f"{column_width:.4f}in"
     else:
-        column_width_str = '1in'
+        column_width_str = '4in'
 
     return '|' + '|'.join(f'p{{{column_width_str}}}' if col == 'T' else col for col in tab_spec) + '|'
 
