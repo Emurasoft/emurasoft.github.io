@@ -47,7 +47,7 @@ If this is checked, EmEditor will save bookmarks up to specified days (maximum 1
 
 ## days text box
 
-Specifies the number of days to save the bookmarks. The maximum is 100 days.
+Specifies the number of days to save the bookmarks. The maximum is unlimited.
 
 ## Exclusion Folders list box
 
