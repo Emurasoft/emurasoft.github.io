@@ -37,6 +37,7 @@
 | **[顶部自定义分栏](top_custom_bar)** | 自定义分栏居于置顶。 |
 | **[右侧自定义分栏](right_custom_bar)** | 自定义分栏居于右侧。 |
 | **[底部自定义分栏](bottom_custom_bar)** | 自定义分栏居于置底。 |
+| **[自定义栏选项](pane_menu)** | 显示一个弹出菜单以设置自定义栏选项。 |
 | **[启用标签页](window_combine)** | 启用标签页对窗口进行合并或禁用标签页分割所有窗口。 |
 | **[启用标签页 \- 开](window_combine_on)** | 启用标签页并合并所有窗口。 |
 | **[启用标签页 \- 关](window_combine_off)** | 禁用标签页并分隔所有窗口。 |
@@ -100,6 +101,7 @@ next_pane
 next_pane_or_bar
 next_window
 next_zorder_doc
+pane_menu
 prev_pane
 prev_pane_or_bar
 prev_window

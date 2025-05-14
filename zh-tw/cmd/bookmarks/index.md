@@ -22,10 +22,12 @@
 | **[倒置目前的群組中的書籤](../bookmarks/bookmark_group_invert)** | 倒置目前的群組中全部的書籤。 |
 | **[刪除目前的群組中書籤標示行](../bookmarks/bookmark_group_delete)** | 刪除目前的群組中所有書籤標示行。 |
 | **[抽出目前的群組中所有書籤標示行至新檔案](../bookmarks/bookmark_group_extract)** | 抽出目前的群組中所有書籤標示行并複製到一個新文檔中 |
+| **[書籤](../bookmarks/bookmark_bar)** | 顯示書籤自訂欄中的書籤清單。 |
 
 ```{toctree}
 :maxdepth: 1
 :hidden:
+bookmark_bar
 bookmark_toggle
 bookmark_set
 bookmark_reset

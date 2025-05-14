@@ -30,13 +30,14 @@
 | **[關閉目前的群組中所有右側的文檔](group_close_right)** | 關閉目前的群組中目前的文檔右側的所有文檔視窗。 |
 | **[下一個窗格](next_pane)** | 切換到下一個窗格。 |
 | **[上一個窗格](prev_pane)** | 切換到上一個窗格。 |
-| **[下一窗格或自訂顯示條](next_pane_or_bar)** | 切換至下一窗格或自訂顯示條。 |
-| **[上一窗格或自訂顯示條](prev_pane_or_bar)** | 切換至上一窗格或自訂顯示條。 |
+| **[下一窗格或自訂欄](next_pane_or_bar)** | 切換至下一窗格或自訂欄。 |
+| **[上一窗格或自訂欄](prev_pane_or_bar)** | 切換至上一窗格或自訂欄。 |
 | **[活動窗格](active_pane)** | 切換到活動窗格。 |
-| **[左側自訂顯示條](left_custom_bar)** | 自訂顯示條居于左側。 |
-| **[頂部自訂顯示條](top_custom_bar)** | 自訂顯示條居于置頂。 |
-| **[右側自訂顯示條](right_custom_bar)** | 自訂顯示條居于右側。 |
-| **[底部自訂顯示條](bottom_custom_bar)** | 自訂顯示條居于置底。 |
+| **[左側自訂欄](left_custom_bar)** | 自訂欄居于左側。 |
+| **[頂部自訂欄](top_custom_bar)** | 自訂欄居于置頂。 |
+| **[右側自訂欄](right_custom_bar)** | 自訂欄居于右側。 |
+| **[底部自訂欄](bottom_custom_bar)** | 自訂欄居于置底。 |
+| **[自訂欄選項](pane_menu)** | 顯示彈出選單以設定自訂欄選項。 |
 | **[啟用標籤頁](window_combine)** | 啟用標籤頁對視窗進行合併或禁用標籤頁分割所有視窗。 |
 | **[啟用標籤頁 \- 開](window_combine_on)** | 啟用標籤頁并合併所有視窗。 |
 | **[啟用標籤頁 \- 關](window_combine_off)** | 禁用標籤頁并分隔所有視窗。 |
@@ -100,6 +101,7 @@ next_pane
 next_pane_or_bar
 next_window
 next_zorder_doc
+pane_menu
 prev_pane
 prev_pane_or_bar
 prev_window

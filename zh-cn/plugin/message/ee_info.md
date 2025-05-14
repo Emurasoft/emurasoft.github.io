@@ -139,6 +139,8 @@ _nCmd_
 | EI\_GET\_MARKDOWN\_PREVIEW | 检索是否设置了 Markdown 设计视图。 | 不使用。 | (BOOL)bMarkdownPreview<br> 如果为 TRUE，则是 Markdown 设计视图 |
 | EI\_SET\_MARKDOWN\_PREVIEW | 切换 Markdown 设计视图 | (BOOL)bMarkdownPreview<br> 如果为 TRUE，则是 Markdown 设计视图 | 不使用。 |
 | EI\_IS\_CHATAI\_INSTALLED | 检索是否安装了 ChatAI 插件。 | 不使用。 | (BOOL)bInstalled<br> 如果为 TRUE，则是 Markdown 设计视图 |
+| EI_RESET_BOOKMARK | 重置文档中指定的书签或所有打开的文档中的所有书签。 | (INT\_PTR)y<br>指定要重置书签的行号，如果为 -1，则重置所有打开的文档中的所有书签。 | 不使用。 |
+| EI_BRING_CUSTOM_BAR_TOP | 将指定的自定义栏置于顶部。 | (HWND)hwndClient<br>指定客户端窗口 | (int)iCustomBar<br>指定自定义栏的位置，如果未找到则为 -1。 |
 
 _iDoc_
 

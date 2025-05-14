@@ -140,6 +140,8 @@ _nCmd_
 | EI\_GET\_MARKDOWN\_PREVIEW | 檢索是否設定了 Markdown 設計檢視。 | 不使用。 | (BOOL)bMarkdownPreview<br> 如果為 TRUE，則是 Markdown 設計檢視 |
 | EI\_SET\_MARKDOWN\_PREVIEW | 切換 Markdown 設計檢視 | (BOOL)bMarkdownPreview<br> 如果為 TRUE，則是 Markdown 設計檢視 | 不使用。 |
 | EI\_IS\_CHATAI\_INSTALLED | 檢索是否安裝了 ChatAI 外掛程式。 | 不使用。 | (BOOL)bInstalled<br> 如果為 TRUE，則是 Markdown 設計檢視 |
+| EI_RESET_BOOKMARK | 重設文檔中指定的書籤或所有打開的文檔中的所有書籤。 | (INT\_PTR)y<br>指定要重設書籤的行號，如果為 -1，則重設所有打開的文檔中的所有書籤。 | 不使用。 |
+| EI_BRING_CUSTOM_BAR_TOP | 將指定的自訂欄置於頂部。 | (HWND)hwndClient<br>指定客戶端視窗 | (int)iCustomBar<br>指定自訂欄的位置，如果未找到則為 -1。 |
 
 _iDoc_
 
