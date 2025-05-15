@@ -29,3 +29,11 @@ Go to **AI > Chat with AI**.
 - OpenAI may response with a code block that contains programming code. On the top right of a code block, you can click on **…** to open the menu containing options to copy the code block text.
 
 ## Sidebar
+- Each chat conversation is listed in the sidebar. Click on **+ New chat** to create a new chat that contains a different conversation. Responses in a chat will use the context of other messages in that chat conversation only.
+- Click on *…* on any entry in the list for these options:
+  - **Delete Chat**: Deletes all messages in the chat conversation.
+  - **Copy to New Document**: Copies all messages in the conversation to a new document.
+- Click on **⚙️** (Open menu) for app options.
+  - **Debug Log Options**: The debug log helps diagnose technical issues with the app.
+  - **Keyboard Shortcuts**: Contains Keyboard shortcuts for Chat with AI
+- You can hide the sidebar with the **Close sidebar** button.
