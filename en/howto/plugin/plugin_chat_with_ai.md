@@ -11,3 +11,21 @@ Chat with AI is included in the **ChatAI** plug-in. You can download the plug-in
 - **Model capabilities**: **Write**
 - All other resources: **None**
 5. Copy the API key to the **OpenAI API key** field in **AI Options**. Click **OK**.
+
+## Access Chat with AI
+Go to **AI > Chat with AI**.
+
+## Chat panel
+- There is an input box at the bottom of the chat, in which you can type your questions or prompts. Press enter or click **↑** to send the prompt.
+- Your prompt message will show on the right side of the panel. OpenAI's response message will momentarily appear below your prompt. You can add new prompts, and OpenAI will use previous prompts and responses as context for new responses.
+- Hover over any prompt and response message to see buttons:
+  - **Copy to clipboard**: Copies the prompt or response text to clipboard
+  - **Edit message**: Edit your prompt or the response. This allows you to modify the conversation to better suit your topic.
+  - **Regenerate response**: Asks OpenAI to try generating the response again, so that the output is slightly different.
+- You can right click on any message to open a context menu with these options.
+  - **Copy**: Copies to clipboard
+  - **Copy to Editor**: Copies the text to the editor, at the caret position.
+  - **Copy to New Document**: Opens a new document and copies the text to the editor.
+- OpenAI may response with a code block that contains programming code. On the top right of a code block, you can click on **…** to open the menu containing options to copy the code block text.
+
+## Sidebar
