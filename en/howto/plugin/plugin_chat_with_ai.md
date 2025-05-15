@@ -37,7 +37,7 @@ In EmEditor, select **Chat with AI** on the **AI** menu. If the **AI** menu does
 - Code blocks contain programming code. In a code block, you can click on **…** for options to copy the code.
 
 ## Sidebar
-- Conversations are listed in the sidebar. Click on **+ New chat** to create a new chat that contains a different conversation. Responses in a chat will use the context of other messages in that chat conversation only.
+- Conversations are listed in the sidebar. Click on **+ New chat** to create a new chat that contains a different conversation. Responses in a chat will use the context of messages in that chat conversation only.
 - Click on **&#8230;** on any entry for these options:
   - **Delete Chat**: Clears all messages in that chat.
   - **Copy to New Document**: Copies all messages in the conversation to a new document.
