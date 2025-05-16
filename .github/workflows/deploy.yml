@@ -147,6 +147,11 @@ jobs:
         with:
           name: emeditor.pdf
           path: _build/en/emeditor.pdf
+      - name: Publish PDF
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: _build/en/emeditor.pdf
 
   deploy:
     if: ${{ github.ref_type == 'tag' && github.ref_name != '0.0.0'}}
