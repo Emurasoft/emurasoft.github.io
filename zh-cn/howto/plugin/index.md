@@ -19,4 +19,5 @@ plugin_uninstall
 plugin_webpreview
 plugin_wordcomplete
 plugin_wordcount
+plugin_chat_with_ai
 ```
