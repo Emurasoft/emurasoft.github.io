@@ -36,7 +36,7 @@ jobs:
       - name: Build pages
         run: sh ./buildAll.sh
       - name: Minify files
-        run: ./minify -v -r --sync -o . Help --exclude "_build/*/_static/js/petite-vue.js"
+        run: ./minify -v -r --sync -o . _build --exclude "_build/*/_static/js/petite-vue.js"
       - name: Make copy for local help
         run: cp -r _build Help/
       - name: unneeded-html-remover
