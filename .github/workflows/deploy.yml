@@ -43,7 +43,7 @@ jobs:
         run: go run . ../Help
         working-directory: unneeded-html-remover
       - name: Minify local files
-        run: ./minify -v -r --sync -o . Help
+        run: ./minify -v -r --sync -o . Help --include "_build" --exclude "_build/**/_static/js/petite-vue.js"
       - run: ls Help
       - name: Create language archives
         run: |
