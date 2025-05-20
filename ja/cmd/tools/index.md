@@ -153,7 +153,6 @@ customize_web
 customize_window
 customize_workspace
 define_code_page
-delete_old_settings
 file_associate
 import_export
 plug_in1

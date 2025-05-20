@@ -93,7 +93,6 @@
 | **[Split a File](split_to_files)** | Splits the current document or an existing file and saves as several files. |
 | **[Combine Files](combine_files)** | Combines open documents into a single file. |
 | **[Reset All Settings](reset_all_settings)** | Resets all EmEditor settings and restarts EmEditor. |
-| **[Delete Old Settings](delete_old_settings)** | Delete old settings that are not used anymore. |
 
 
 ```{toctree}
@@ -153,7 +152,6 @@ customize_web
 customize_window
 customize_workspace
 define_code_page
-delete_old_settings
 file_associate
 import_export
 plug_in1
