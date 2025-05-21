@@ -36,7 +36,6 @@ the **Replace** dialog box and in the **Replace in Files** dialog box.
 | $(Lines) | Number of lines (cannot be used in **Replace in Files**). |
 | $(CsvColumns) | Number of CSV columns (cannot be used in **Replace in Files**). |
 
-(cell-function-beta)=
 ## cell function (beta)
 
 The **cell** function can be used in JavaScript if **\\J** is also specified. This function retrieves the text in the specified CSV cell.
