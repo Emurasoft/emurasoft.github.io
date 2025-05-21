@@ -30,12 +30,6 @@ font/index
 reset/index
 ```
 
-```{toctree}
-:maxdepth: 1
-:hidden:
-associate/index
-```
-
 The following dialog boxes are also available through Configuration Properties.
 
 [\[Tab/Indent\] dialog box](general/indent/index) (Select the **Tab/Indent** button on the [**General** page](general/index))
