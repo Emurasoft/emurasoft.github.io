@@ -16,7 +16,6 @@
 | [ShowLineNumbers](show_line_numbers) | Corresponds to the **Show Line Numbers** check box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
 | [ShowPage](show_page) | Corresponds to the **Show Page Numbers** check box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
 | [ShowRuler](show_ruler) | Corresponds to the **Show Ruler** check box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
-| [UndoBufferSize](undo_buffer_size) | Corresponds to the **Undo Max Number** text box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
 | [VirtualSpace](virtual_space) | Corresponds to the **Enable Virtual Space** check box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
 | [WrapMode](wrap_mode) | Corresponds to the **Wrap by drop-down** list box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
 
@@ -40,7 +39,6 @@ quote_character
 show_line_numbers
 show_page
 show_ruler
-undo_buffer_size
 virtual_space
 wrap_mode
 ```
