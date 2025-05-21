@@ -30,12 +30,6 @@ font/index
 reset/index
 ```
 
-```{toctree}
-:maxdepth: 1
-:hidden:
-associate/index
-```
-
 さらに、設定のプロパティの中から、次のダイアログ ボックスに移動することもできます。
 
 [\[タブ/インデント\] ダイアログ ボックス](general/indent/index) ( [\[基本\] ページ](general/index) より \[タブ/インデント\] ボタンを選択)

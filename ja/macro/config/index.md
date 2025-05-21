@@ -4,7 +4,6 @@
 
 |     |     |
 | --- | --- |
-| [Association](association) | [AssociationProp オブジェクト](../association_prop/index) を取得します。 |
 | [AutoSave](auto_save) | [AutoSaveProp オブジェクト](../auto_save_prop/index) を取得します。 |
 | [Backup](backup) | [BackupProp オブジェクト](../backup_prop/index) を取得します。 |
 | [Display](display) | [DisplayProp オブジェクト](../display_prop/index) を取得します。 |
@@ -42,7 +41,6 @@ EmEditor Professional Version 7.00 以上で利用できます。
 ```{toctree}
 :hidden:
 :maxdepth: 1
-association
 auto_save
 backup
 display

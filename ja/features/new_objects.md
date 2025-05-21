@@ -5,9 +5,9 @@ orphan: true
 
 以下のオブジェクトが追加されました。
 
-- [**AssociationItem** オブジェクト](../macro/association_item/index)
-- [**AssociationList** コレクション](../macro/association_list/index)
-- [**AssociationProp** オブジェクト](../macro/association_prop/index)
+- **AssociationItem** オブジェクト
+- **AssociationList** コレクション
+- **AssociationProp** オブジェクト
 - [**AutoSaveProp** オブジェクト](../macro/auto_save_prop/index)
 - [**BackupProp** オブジェクト](../macro/backup_prop/index)
 - [**Config** オブジェクト](../macro/config/index)
