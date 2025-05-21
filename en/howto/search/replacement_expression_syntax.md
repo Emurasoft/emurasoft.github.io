@@ -23,7 +23,7 @@ the **Replace** dialog box and in the **Replace in Files** dialog box.
 | \\NC | Forces all subsequent substituted characters to converted using [Unicode Normalization Form KC (Compatibility Composition)](../../cmd/convert/unicode_norm_fkc). |
 | \\ND | Forces all subsequent substituted characters to be converted using [Unicode Normalization Form KD (Compatibility Decomposition)](../../cmd/convert/unicode_norm_fkd). |
 | \\E | Turns off previous \\L, \\U, \\F, \\H, \\Nc, \\Nd, \\NC, or \\ND. |
-| \\J | Specifies that JavaScript is used as the expression. \\J must be placed at the beginning of the replacement expression. Can be combined with back references. The **cell** function can also be used in the script. See [cell function (beta)](#cell-function-beta).
+| \\J | Specifies that JavaScript is used as the expression. \\J must be placed at the beginning of the replacement expression. Can be combined with back references. The **cell** function can also be used in the script. See {ref}`cell-function-beta`.
 | \\V | Same as \\J except that \\V uses the **V8 JavaScript** engine instead of the **Chakra** engine. |
 | \\D | If the Date/Time type of a [**Number Range Expression**](number_range_syntax) is used to match a string, this expression specifies a date format. It can be combined with **\\T**. [See available day, month, and year format pictures.](https://docs.microsoft.com/en-us/windows/win32/intl/day--month--year--and-era-format-pictures) See [Date format example](#date-format-example)
 | \\T | If the Date/Time type of a [**Number Range Expression**](number_range_syntax) is used to match a string, this expression specifies a time format. It can be combined with **\\D**. [See available hour, minute, and second format pictures.](https://docs.microsoft.com/en-us/windows/win32/intl/hour--minute--and-second-format-pictures) See [Time format example](#time-format-example)
@@ -36,6 +36,7 @@ the **Replace** dialog box and in the **Replace in Files** dialog box.
 | $(Lines) | Number of lines (cannot be used in **Replace in Files**). |
 | $(CsvColumns) | Number of CSV columns (cannot be used in **Replace in Files**). |
 
+(cell-function-beta)=
 ## cell function (beta)
 
 The **cell** function can be used in JavaScript if **\\J** is also specified. This function retrieves the text in the specified CSV cell.
