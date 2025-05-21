@@ -23,7 +23,6 @@ highlight_language = 'none'
 suppress_warnings = [
     'image.not_readable',
     'myst.header',
-"myst.xref_missing",
 ]
 navigation_depth = 2
 html_theme_path = ['_themes']
