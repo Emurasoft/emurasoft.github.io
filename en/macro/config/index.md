@@ -4,7 +4,6 @@
 
 |     |     |
 | --- | --- |
-| [Association](association) | Retrieves the [AssociationProp object](../association_prop/index). |
 | [AutoSave](auto_save) | Retrieves the [AutoSaveProp object](../auto_save_prop/index). |
 | [Backup](backup) | Retrieves the [BackupProp object](../backup_prop/index). |
 | [Display](display) | Retrieves the [DisplayProp object](../display_prop/index). |
@@ -42,7 +41,6 @@ Supported on EmEditor Professional Version 7.00 or later.
 ```{toctree}
 :hidden:
 :maxdepth: 1
-association
 auto_save
 backup
 display

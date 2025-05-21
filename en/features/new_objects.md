@@ -5,9 +5,9 @@ orphan: true
 
 The following objects were added.
 
-- [**AssociationItem** Object](../macro/association_item/index)
-- [**AssociationList** Collection](../macro/association_list/index)
-- [**AssociationProp** Object](../macro/association_prop/index)
+- **AssociationItem** Object
+- **AssociationList** Collection
+- **AssociationProp** Object
 - [**AutoSaveProp** Object](../macro/auto_save_prop/index)
 - [**BackupProp** Object](../macro/backup_prop/index)
 - [**Config** Object](../macro/config/index)
