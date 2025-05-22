@@ -23,10 +23,10 @@ the **Replace** dialog box and in the **Replace in Files** dialog box.
 | \\NC | Forces all subsequent substituted characters to converted using [Unicode Normalization Form KC (Compatibility Composition)](../../cmd/convert/unicode_norm_fkc). |
 | \\ND | Forces all subsequent substituted characters to be converted using [Unicode Normalization Form KD (Compatibility Decomposition)](../../cmd/convert/unicode_norm_fkd). |
 | \\E | Turns off previous \\L, \\U, \\F, \\H, \\Nc, \\Nd, \\NC, or \\ND. |
-| \\J | Specifies that JavaScript is used as the expression. \\J must be placed at the beginning of the replacement expression. Can be combined with back references. The **cell** function can also be used in the script. See [cell function (beta)](replacement_expression_syntax#cell-function-beta).
+| \\J | Specifies that JavaScript is used as the expression. \\J must be placed at the beginning of the replacement expression. Can be combined with back references. The **cell** function can also be used in the script. See [cell function (beta)](#cell-function-beta).
 | \\V | Same as \\J except that \\V uses the **V8 JavaScript** engine instead of the **Chakra** engine. |
-| \\D | If the Date/Time type of a [**Number Range Expression**](number_range_syntax) is used to match a string, this expression specifies a date format. It can be combined with **\\T**. [See available day, month, and year format pictures.](https://docs.microsoft.com/en-us/windows/win32/intl/day--month--year--and-era-format-pictures) See [Date format example](replacement_expression_syntax#date-format-example)
-| \\T | If the Date/Time type of a [**Number Range Expression**](number_range_syntax) is used to match a string, this expression specifies a time format. It can be combined with **\\D**. [See available hour, minute, and second format pictures.](https://docs.microsoft.com/en-us/windows/win32/intl/hour--minute--and-second-format-pictures) See [Time format example](replacement_expression_syntax#time-format-example)
+| \\D | If the Date/Time type of a [**Number Range Expression**](number_range_syntax) is used to match a string, this expression specifies a date format. It can be combined with **\\T**. [See available day, month, and year format pictures.](https://docs.microsoft.com/en-us/windows/win32/intl/day--month--year--and-era-format-pictures) See [Date format example](#date-format-example)
+| \\T | If the Date/Time type of a [**Number Range Expression**](number_range_syntax) is used to match a string, this expression specifies a time format. It can be combined with **\\D**. [See available hour, minute, and second format pictures.](https://docs.microsoft.com/en-us/windows/win32/intl/hour--minute--and-second-format-pictures) See [Time format example](#time-format-example)
 | (?Ntrue\_expression:false\_expression) | If sub-expression N was matched, then true\_expression is evaluated and sent to output, otherwise false\_expression is evaluated and sent to output. For example, (?1foo:bar) will replace each match found with foo if the sub-expression \\1 was matched, and with bar otherwise. Alternatively, you can write the expression in this form: (?{1}foo:bar) |
 | $(Path) | File path. |
 | $(Dir) | File directory. |
@@ -36,6 +36,7 @@ the **Replace** dialog box and in the **Replace in Files** dialog box.
 | $(Lines) | Number of lines (cannot be used in **Replace in Files**). |
 | $(CsvColumns) | Number of CSV columns (cannot be used in **Replace in Files**). |
 
+(cell-function-beta)=
 ## cell function (beta)
 
 The **cell** function can be used in JavaScript if **\\J** is also specified. This function retrieves the text in the specified CSV cell.
@@ -71,10 +72,12 @@ Specifies a combination of the following values. 0, 1, and 2 cannot be used toge
 | 2 | The returned text may include surrounded double-quotes and delimiters. |
 | 8 | _iColumn_ and _yLine_ parameters are expressed in 1-based absolute values. |
 
+(date-format-example)=
 ## Date format example
 
 If the matched date/time is "2022-03-31 21:30": <table><tbody><tr><th>Replacement Expression</th><th>Result</th></tr><tr><td>\DM/d/yyyy</td><td>3/31/2022</td></tr><tr><!-- cspell:disable-next-line --><td>\DMMMM, d, yyyy</td><td>March 31, 2022</td></tr><tr><td>\D'month='M 'day='d \THH:mm</td><td>month=3 day=31 21:30</td></tr></tbody></table>
 
+(time-format-example)=
 ## Time format example
 
 If the matched date/time is "2022-03-31 21:30": <table><tbody><tr><th>Replacement Expression</th><th>Result</th></tr><tr><td>\THH:mm</td><td>21:30</td></tr><tr><td>\Th:mm tt</td><td>9:30 PM</td></tr><tr><td>\THH:mm\D-yyyy-MM-dd</td><td>21:30-2022-03-31</td></tr></tbody></table>
