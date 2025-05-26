@@ -4,7 +4,6 @@
 
 |     |     |
 | --- | --- |
-| [Association](association) | 檢索 [AssociationProp 對象](../association_prop/index)。 |
 | [AutoSave](auto_save) | 檢索 [AutoSaveProp 對象](../auto_save_prop/index)。 |
 | [Backup](backup) | 檢索 [BackupProp 對象](../backup_prop/index)。 |
 | [Display](display) | 檢索 [DisplayProp 對象](../display_prop/index)。 |
@@ -42,7 +41,6 @@
 ```{toctree}
 :hidden:
 :maxdepth: 1
-association
 auto_save
 backup
 display

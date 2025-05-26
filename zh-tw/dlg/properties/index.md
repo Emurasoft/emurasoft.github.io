@@ -28,12 +28,6 @@ font/index
 reset/index
 ```
 
-```{toctree}
-:maxdepth: 1
-:hidden:
-associate/index
-```
-
 下列對話方塊同樣能通過組態屬性對話方塊訪問。
 
 [\[Tab/縮排\] 對話方塊](general/indent/index) (在 [**一般** 頁面](general/index) 上選擇 **「Tab/縮排」** 按鈕)

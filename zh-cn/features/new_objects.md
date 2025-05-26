@@ -5,9 +5,9 @@ orphan: true
 
 EmEditor Version 7 添加了下面的对象（Object）。
 
-- [**AssociationItem** 对象](../macro/association_item/index)
-- [**AssociationList** 集合](../macro/association_list/index)
-- [**AssociationProp** 对象](../macro/association_prop/index)
+- **AssociationItem** 对象
+- **AssociationList** 集合
+- **AssociationProp** 对象
 - [**AutoSaveProp** 对象](../macro/auto_save_prop/index)
 - [**BackupProp** 对象](../macro/backup_prop/index)
 - [**Config** 对象](../macro/config/index)

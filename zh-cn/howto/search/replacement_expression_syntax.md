@@ -22,10 +22,10 @@
 | \\NC | 强制使用 [Unicode 标准化表单 KC（兼容性组成）](../../cmd/convert/unicode_norm_fkc) 转换所有后续替换字符。 |
 | \\ND | 强制使用 [Unicode 标准化表单 KD（兼容性分解）](../../cmd/convert/unicode_norm_fkd) 转换所有后续替换字符。 |
 | \\E | 关闭之前的 \\L，\\U，\\F，\\H，\\Nc，\\Nd，\\NC，或 \\ND。 |
-| \\J | 指定表达式使用 JavaScript。\\J 必须放在替换表达式的开头。可以与反向引用结合使用。还可以在脚本中使用 **cell** 函数。例如，<table><tbody><tr><th>替换表达式</th><th>含义</th></tr><tr><td>\J&quot;\0&quot;+&quot;abc&quot;</td><td>合并匹配字符串与&quot;abc&quot;</td></tr><tr><td>\J&quot;\0&quot;.substr(0,5);</td><td>返回匹配字符串的前5个字符</td></tr><tr><td>\J\0*100;</td><td>将匹配的数字乘以100</td></tr><tr><td>\JparseFloat(\0).toFixed(2);</td><td>将匹配的数字四舍五入到小数点后2位</td></tr><tr><td>\Jcell(-1)</td><td>返回位于匹配单元格左侧相邻单元格中的文本</td></tr><tr><td>\JparseFloat(cell(-1))<br>+parseFloat(cell(-2))</td><td>返回左侧两个相邻单元格的总和</td></tr></tbody></table>
+| \\J | 指定表达式使用 JavaScript。\\J 必须放在替换表达式的开头。可以与反向引用结合使用。还可以在脚本中使用 **cell** 函数。请看 [cell function (beta)](#cell-function-beta)。
 | \\V | 与 \\J 相同，只是 \\V 使用 **V8 JavaScript** 引擎而不是 **Chakra** 引擎。 |
-| \\D | 如果 [**数字范围表达式**](number_range_syntax) 的日期/时间类型用于匹配字符串，则此表达式可以指定日期格式。它可以与 **\\T** 结合使用。 [查看可用的日、月、年格式图片。](https://docs.microsoft.com/en-us/windows/win32/intl/day--month--year--and-era-format-pictures) 例如，如果匹配的日期/时间是 "2022-03-31 21:30":（示例的语言环境是英语（美国））<table><tbody><tr><th>替换表达式</th><th>结果</th></tr><tr><td>\DM/d/yyyy</td><td>3/31/2022</td></tr><tr><td>\DMMMM,d,yyyy</td><td>March31,2022</td></tr><tr><td>\D'month='M'day='d\THH:mm</td><td>month=3day=3121:30</td></tr></tbody></table>
-| \\T | 如果 [**数字范围表达式**](number_range_syntax) 的日期/时间类型用于匹配字符串，则此表达式可以指定时间格式。它可以与 **\\D** 结合使用。 [查看可用小时、分钟 , 和第二种格式的图片。](https://docs.microsoft.com/en-us/windows/win32/intl/hour--minute--and-second-format-pictures) 例如，如果匹配的日期/时间是   "2022-03-31 21:30":（示例的语言环境是英语（美国））<table><tbody><tr><th>替换表达式</th><th>结果</th></tr><tr><td>\DM/d/yyyy</td><td>3/31/2022</td></tr><tr><td>\DMMMM,d,yyyy</td><td>March31,2022</td></tr><tr><td>\D'month='M'day='d\THH:mm</td><td>month=3day=3121:30</td></tr></tbody></table>
+| \\D | 如果 [**数字范围表达式**](number_range_syntax) 的类型为日期/时间，并用于匹配字符串，则该表达式指定了一种日期格式。它可以与 **\\T** 结合使用。[请参阅可用的日、月和年格式图片。](https://docs.microsoft.com/zh-cn/windows/win32/intl/day--month--year--and-era-format-pictures) 参见[日期格式示例](#date-format-example)
+| \\T | 如果 [**数字范围表达式**](number_range_syntax) 的类型为日期/时间，并用于匹配字符串，则该表达式指定了一种时间格式。它可以与 **\\D** 结合使用。[请参阅可用的小时、分钟和秒格式图片。](https://docs.microsoft.com/zh-cn/windows/win32/intl/hour--minute--and-second-format-pictures) 参见[时间格式示例](#time-format-example)
 | (?Ntrue\_expression:false\_expression) | 如果匹配子表达式 N，则评估 true\_expression 并将其发送到输出，否则评估 false\_expression 并将其发送到输出。例如，(?1foo:bar)，如果匹配子表达式 \\1，会用 foo替换每个匹配，反之则用 bar。另外，您也可以用这种方式写该表达式：(?{1}foo:bar) |
 | $(Path) | 文件路径。 |
 | $(Dir) | 文件目录。 |
@@ -35,9 +35,12 @@
 | $(Lines) | 行数（不能用于 **在文件中替换**）。 |
 | $(CsvColumns) | CSV 列数（不能用于 **在文件中替换**）。 |
 
+(cell-function-beta)=
 ## cell 函数 (beta)
 
 如果指定了 **\\J**，则可以在 JavaScript 中使用 **cell** 函数。此函数检索指定 CSV 单元格中的文本。
+
+<table><tbody><tr><th>替换表达式</th><th>含义</th></tr><tr><td>\J &quot;\0&quot; + &quot;abc&quot;</td><td>连接匹配到的字符串和“abc”</td></tr><tr><td>\J &quot;\0&quot;.substr( 0, 5 );</td><td>返回匹配字符串的前 5 个字符</td></tr><tr><td>\J \0 * 100;</td><td>将匹配到的数字乘以100</td></tr><tr><td>\J parseFloat( \0 ).toFixed(2);</td><td>将匹配到的数字保留两位小数</td></tr><tr><td>\J cell( -1 )</td><td>返回匹配单元格左侧相邻单元格的文本</td></tr><tr><td>\J parseFloat( cell( -1 ) ) <br>+ parseFloat( cell( -2 ) ) </td><td>返回左侧两个相邻单元格的总和</td></tr></tbody></table>
 
 ### 
 

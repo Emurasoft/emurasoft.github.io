@@ -19,9 +19,6 @@ tutorial/index
 
 ```{toctree}
 :maxdepth: 1
-association_item/index
-association_list/index
-association_prop/index
 auto_save_prop/index
 backup_prop/index
 character_range/index

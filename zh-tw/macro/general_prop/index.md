@@ -16,7 +16,6 @@
 | [ShowLineNumbers](show_line_numbers) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **顯示行號** 核取方塊相對應。 |
 | [ShowPage](show_page) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **顯示頁碼** 核取方塊相對應。 |
 | [ShowRuler](show_ruler) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **顯示尺規** 核取方塊相對應。 |
-| [UndoBufferSize](undo_buffer_size) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **最大復原次數** 文字方塊相對應。 |
 | [VirtualSpace](virtual_space) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **啟用虛空白** 核取方塊相對應。 |
 | [WrapMode](wrap_mode) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **自動換行** 下拉清單方塊相對應。 |
 
@@ -40,7 +39,6 @@ quote_character
 show_line_numbers
 show_page
 show_ruler
-undo_buffer_size
 virtual_space
 wrap_mode
 ```

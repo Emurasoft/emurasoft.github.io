@@ -28,12 +28,6 @@ font/index
 reset/index
 ```
 
-```{toctree}
-:maxdepth: 1
-:hidden:
-associate/index
-```
-
 下列对话框同样能通过配置属性对话框访问。
 
 [\[制表符/缩进\] 对话框](general/indent/index)（选择 **「制表符/缩进」** 按钮在 [**常规** 页面](general/index) 上）
