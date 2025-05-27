@@ -36,6 +36,7 @@
 | $(Lines) | 行数 (ファイルから置換では使用できません) |
 | $(CsvColumns) | CSV 列数 (ファイルから置換では使用できません) |
 
+(cell-function-beta)=
 ## cell 関数 (beta)
 
 \\J が指定されている場合、JavaScript で cell 関数が使用できます。この関数は CSV モードで指定するセルのテキストを取得します。
