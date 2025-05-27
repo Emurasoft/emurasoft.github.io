@@ -48,7 +48,7 @@ The **cell** function can be used in JavaScript if **\\J** is also specified. Th
 #### \[JavaScript\]
 
 ```
-str =cell( iColumn [, yLine [, flags ] ] );
+str = cell( iColumn [, yLine [, flags ] ] );
 ```
 
 ### Parameters

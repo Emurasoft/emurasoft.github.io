@@ -47,7 +47,7 @@
 #### \[JavaScript\]
 
 ```
-str =cell( iColumn [, yLine [, flags ] ] );
+str = cell( iColumn [, yLine [, flags ] ] );
 ```
 
 ### 參數
@@ -70,6 +70,16 @@ _flags_
 | 1 | 返回的文字可以包括包圍的雙引號但不包括分隔符。 |
 | 2 | 返回的文字可以包括包圍的雙引號和分隔符。 |
 | 8 | _iColumn_ 和 _yLine_ 參數以 1 為基礎的絕對值表示。 |
+
+(date-format-example)=
+## 日期格式範例
+
+例如，如果符合的日期/時間是 "2022-03-31 21:30":（範例的語言環境是英語（美國））<table><tbody><tr><th>取代運算式</th><th>結果</th></tr><tr><td>\DM/d/yyyy</td><td>3/31/2022</td></tr><tr><td>\DMMMM,d,yyyy</td><td>March31,2022</td></tr><tr><td>\D'month='M'day='d\THH:mm</td><td>month=3day=3121:30</td></tr></tbody></table>
+
+(time-format-example)=
+## 時間格式範例
+
+例如，如果符合的日期/時間是   "2022-03-31 21:30":（範例的語言環境是英語（美國））<table><tbody><tr><th>取代運算式</th><th>結果</th></tr><tr><td>\THH:mm</td><td>21:30</td></tr><tr><td>\Th:mmtt</td><td>9:30PM</td></tr><tr><td>\THH:mm\D-yyyy-MM-dd</td><td>21:30-2022-03-31</td></tr></tbody></table>
 
 ## 註意
 

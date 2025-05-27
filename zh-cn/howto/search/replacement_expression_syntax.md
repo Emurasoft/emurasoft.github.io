@@ -22,7 +22,7 @@
 | \\NC | 强制使用 [Unicode 标准化表单 KC（兼容性组成）](../../cmd/convert/unicode_norm_fkc) 转换所有后续替换字符。 |
 | \\ND | 强制使用 [Unicode 标准化表单 KD（兼容性分解）](../../cmd/convert/unicode_norm_fkd) 转换所有后续替换字符。 |
 | \\E | 关闭之前的 \\L，\\U，\\F，\\H，\\Nc，\\Nd，\\NC，或 \\ND。 |
-| \\J | 指定表达式使用 JavaScript。\\J 必须放在替换表达式的开头。可以与反向引用结合使用。还可以在脚本中使用 **cell** 函数。请看 [cell function (beta)](#cell-function-beta)。
+| \\J | 指定表达式使用 JavaScript。\\J 必须放在替换表达式的开头。可以与反向引用结合使用。还可以在脚本中使用 **cell** 函数。请看 [cell 函数 (beta)](#cell-function-beta)。
 | \\V | 与 \\J 相同，只是 \\V 使用 **V8 JavaScript** 引擎而不是 **Chakra** 引擎。 |
 | \\D | 如果 [**数字范围表达式**](number_range_syntax) 的类型为日期/时间，并用于匹配字符串，则该表达式指定了一种日期格式。它可以与 **\\T** 结合使用。[请参阅可用的日、月和年格式图片。](https://docs.microsoft.com/zh-cn/windows/win32/intl/day--month--year--and-era-format-pictures) 参见[日期格式示例](#date-format-example)
 | \\T | 如果 [**数字范围表达式**](number_range_syntax) 的类型为日期/时间，并用于匹配字符串，则该表达式指定了一种时间格式。它可以与 **\\D** 结合使用。[请参阅可用的小时、分钟和秒格式图片。](https://docs.microsoft.com/zh-cn/windows/win32/intl/hour--minute--and-second-format-pictures) 参见[时间格式示例](#time-format-example)
@@ -47,7 +47,7 @@
 #### \[JavaScript\]
 
 ```
-str =cell( iColumn [, yLine [, flags ] ] );
+str = cell( iColumn [, yLine [, flags ] ] );
 ```
 
 ### 参数
@@ -70,6 +70,16 @@ _flags_
 | 1 | 返回的文本可以包括包围的双引号但不包括分隔符。 |
 | 2 | 返回的文本可以包括包围的双引号和分隔符。 |
 | 8 | _iColumn_ 和 _yLine_ 参数以 1 为基础的绝对值表示。 |
+
+(date-format-example)=
+## 日期格式示例
+
+例如，如果匹配的日期/时间是 "2022-03-31 21:30":（示例的语言环境是英语（美国））<table><tbody><tr><th>替换表达式</th><th>结果</th></tr><tr><td>\DM/d/yyyy</td><td>3/31/2022</td></tr><tr><td>\DMMMM,d,yyyy</td><td>March31,2022</td></tr><tr><td>\D'month='M'day='d\THH:mm</td><td>month=3day=3121:30</td></tr></tbody></table>
+
+(time-format-example)=
+## 时间格式示例
+
+例如，如果匹配的日期/时间是   "2022-03-31 21:30":（示例的语言环境是英语（美国））<table><tbody><tr><th>替换表达式</th><th>结果</th></tr><tr><td>\DM/d/yyyy</td><td>3/31/2022</td></tr><tr><td>\DMMMM,d,yyyy</td><td>March31,2022</td></tr><tr><td>\D'month='M'day='d\THH:mm</td><td>month=3day=3121:30</td></tr></tbody></table>
 
 ## 注意
 
