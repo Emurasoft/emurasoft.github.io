@@ -24,8 +24,8 @@
 | \\E | 關閉之前的 \\L，\\U，\\F，\\H，\\Nc，\\Nd，\\NC，或 \\ND。 |
 | \\J | 指定運算式使用 JavaScript。\\J 必須放在取代運算式的開頭。可以與反向參考結合使用。還可以在指令碼中使用 **cell** 函數。請看 [cell function (beta)](#cell-function-beta)。
 | \\V | 與 \\J 相同，只是 \\V 使用 **V8 JavaScript** 引擎而不是 **Chakra** 引擎。 |
-| \\D | 如果 [**數字範圍運算式**](number_range_syntax) 的類型為日期/時間，並用於符合字串，則該運算式指定了一種日期格式。它可以與 **\\T** 結合使用。[請參閱可用的日、月和年格式圖片。](https://docs.microsoft.com/zh-tw/windows/win32/intl/day--month--year--and-era-format-pictures)
-| \\T | 如果 [**數字範圍運算式**](number_range_syntax) 的類型為日期/時間，並用於符合字串，則該運算式指定了一種時間格式。它可以與 **\\D** 結合使用。[請參閱可用的小時、分鐘和秒格式圖片。](https://docs.microsoft.com/zh-tw/windows/win32/intl/hour--minute--and-second-format-pictures)
+| \\D | 如果 [**數字範圍運算式**](number_range_syntax) 的類型為日期/時間，並用於符合字串，則該運算式指定了一種日期格式。它可以與 **\\T** 結合使用。[請參閱可用的日、月和年格式圖片。](https://docs.microsoft.com/zh-tw/windows/win32/intl/day--month--year--and-era-format-pictures) 參見[日期格式範例](#date-format-example)
+| \\T | 如果 [**數字範圍運算式**](number_range_syntax) 的類型為日期/時間，並用於符合字串，則該運算式指定了一種時間格式。它可以與 **\\D** 結合使用。[請參閱可用的小時、分鐘和秒格式圖片。](https://docs.microsoft.com/zh-tw/windows/win32/intl/hour--minute--and-second-format-pictures) 參見[時間格式範例](#time-format-example)
 | (?n:true\_expression:false\_expression) | 如果符合子運算式 N，則評估 true\_expression 並將其發送到匯出，否則評估 false\_expression 並將其發送到匯出。例如，(?1foo:bar)，如果符合子運算式 \\1，會用 foo取代每個符合，反之則用 bar。另外，您也可以用這種方式寫該運算式：(?{1}foo:bar) |
 | $(Path) | 檔案路徑。 |
 | $(Dir) | 檔案目錄。 |

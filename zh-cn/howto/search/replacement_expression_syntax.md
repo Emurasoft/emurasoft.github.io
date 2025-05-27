@@ -24,8 +24,8 @@
 | \\E | 关闭之前的 \\L，\\U，\\F，\\H，\\Nc，\\Nd，\\NC，或 \\ND。 |
 | \\J | 指定表达式使用 JavaScript。\\J 必须放在替换表达式的开头。可以与反向引用结合使用。还可以在脚本中使用 **cell** 函数。请看 [cell function (beta)](#cell-function-beta)。
 | \\V | 与 \\J 相同，只是 \\V 使用 **V8 JavaScript** 引擎而不是 **Chakra** 引擎。 |
-| \\D | 如果 [**数字范围表达式**](number_range_syntax) 的类型为日期/时间，并用于匹配字符串，则该表达式指定了一种日期格式。它可以与 **\\T** 结合使用。[请参阅可用的日、月和年格式图片。](https://docs.microsoft.com/zh-cn/windows/win32/intl/day--month--year--and-era-format-pictures)
-| \\T | 如果 [**数字范围表达式**](number_range_syntax) 的类型为日期/时间，并用于匹配字符串，则该表达式指定了一种时间格式。它可以与 **\\D** 结合使用。[请参阅可用的小时、分钟和秒格式图片。](https://docs.microsoft.com/zh-cn/windows/win32/intl/hour--minute--and-second-format-pictures)
+| \\D | 如果 [**数字范围表达式**](number_range_syntax) 的类型为日期/时间，并用于匹配字符串，则该表达式指定了一种日期格式。它可以与 **\\T** 结合使用。[请参阅可用的日、月和年格式图片。](https://docs.microsoft.com/zh-cn/windows/win32/intl/day--month--year--and-era-format-pictures) 参见[日期格式示例](#date-format-example)
+| \\T | 如果 [**数字范围表达式**](number_range_syntax) 的类型为日期/时间，并用于匹配字符串，则该表达式指定了一种时间格式。它可以与 **\\D** 结合使用。[请参阅可用的小时、分钟和秒格式图片。](https://docs.microsoft.com/zh-cn/windows/win32/intl/hour--minute--and-second-format-pictures) 参见[时间格式示例](#time-format-example)
 | (?Ntrue\_expression:false\_expression) | 如果匹配子表达式 N，则评估 true\_expression 并将其发送到输出，否则评估 false\_expression 并将其发送到输出。例如，(?1foo:bar)，如果匹配子表达式 \\1，会用 foo替换每个匹配，反之则用 bar。另外，您也可以用这种方式写该表达式：(?{1}foo:bar) |
 | $(Path) | 文件路径。 |
 | $(Dir) | 文件目录。 |
