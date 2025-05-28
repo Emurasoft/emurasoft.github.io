@@ -1,5 +1,5 @@
 # Q. If I purchase EmEditor, can I get the newer version for free? Or do I have to pay for the registration fee every time I get a new version?
 
-If you purchase a lifetime license, you will get all the new versions for free.
+If you have a lifetime license, you’ll receive all future versions at no additional cost.
 
-If you purchase an annual subscription, you will get all the new versions for one year after your purchase date. After one year, you will need to renew your subscription in order to continue using EmEditor.
+If you purchase a subscription, you’ll have access to all new versions released during your subscription period. Once your subscription expires or is canceled, you’ll need to renew it to continue using EmEditor and access the latest updates.
