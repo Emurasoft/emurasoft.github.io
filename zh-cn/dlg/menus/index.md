@@ -49,7 +49,7 @@
 
 下面的对话框同样能够通过该对话框访问。
 
-<a href="properties/index.html"><b>菜单属性</b>对话框</a>（点击 **「属性」** 按钮）
+[**菜单属性** 对话框](properties/index)（选择 **属性** 按钮）
 
 
 ```{toctree}

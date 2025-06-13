@@ -48,7 +48,6 @@ customize/index
 customize_start/index
 file_associate/index
 clear_history/index
-toolbars/index
 menus/index
 customize_markers/index
 encodings/index
