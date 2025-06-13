@@ -49,11 +49,7 @@ Resets to default settings.
 
 The following dialog box is also available through this dialog box.
 
-<a href="properties/index.html"><b>Menu 
-	Properties</b> dialog box</a> (Select
-**Properties**
-button)
-
+[**Menu Properties** dialog box](properties/index) (Select **Properties** button)
 
 ```{toctree}
 :maxdepth: 1

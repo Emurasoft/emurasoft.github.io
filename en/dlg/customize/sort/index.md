@@ -66,6 +66,10 @@ Allows digit grouping in numbers. The digit grouping character depends on the lo
 
 Specifies the locale used for the sort.
 
+## Use default date formats drop-down list box
+
+Specifies that the date formats derived from the current locale should be used. If this is not set, a date and/or time format should be specified in the drop down list box below.
+
 ## Reset button
 
 Resets to default settings.

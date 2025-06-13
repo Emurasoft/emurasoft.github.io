@@ -38,6 +38,8 @@ ai/index
 chat_ai/index
 favorites/index
 markdown/index
+toolbar_options/index
+toolbar_buttons/index
 notifications/index
 update/index
 help/index
