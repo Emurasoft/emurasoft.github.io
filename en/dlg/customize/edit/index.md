@@ -107,6 +107,10 @@ If this is checked, EmEditor will extend selection when you run Duplicate Lines/
 
 If this is checked, the **Uppercase**, **Lowercase**, and **Capitalize** commands will depend on the locale specified in the **Sort** page of the **Customize** dialog box.
 
+## Use .editorconfig
+
+Uses .editorconfig file to format coding styles. If this option is turned on, some of EmEditor features will be disabled. See [EditorConfig](https://editorconfig.org/).
+
 ## Treat the following characters as alphanumeric text box
 
 Treats the following characters as alphanumeric when editing. For instance, when you double-click a word, these characters are treated as a part of the word. However, this setting does not apply to the regular expression \\w operator in the Find dialog box.
