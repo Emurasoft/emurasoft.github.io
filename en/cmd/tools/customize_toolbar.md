@@ -6,8 +6,7 @@ Customizes toolbar settings.
 
 ## Description
 
-Displays the [**Toolbars** dialog box](../../dlg/toolbars/index),
-where you can customize toolbars.
+Displays the [**Toolbar Buttons**](../../dlg/customize/toolbar_buttons/index) page of the **Customize** dialog box, where you can customize toolbars.
 
 ## How to Run
 

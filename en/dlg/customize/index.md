@@ -36,7 +36,6 @@ validation/index
 web/index
 ai_list/index
 ai/index
-chat_ai/index
 favorites/index
 markdown/index
 toolbar_options/index
