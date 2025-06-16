@@ -33,12 +33,12 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 - Your message appears on the right; the AI’s response will appear just below it shortly. Prompts and responses remain in the conversation for context-aware replies.
 - Hover over any message to see buttons for:
   - **Copy to clipboard**: Copies the message to clipboard
+  - **Copy to New Document**: Opens a new document and inserts the text.
   - **Edit message**: Make revisions to the message.
   - **Regenerate response**: Requests a new reply based on the same prompt. Useful if you would like a different phrasing.
-- Right-click on any message for additional options:
-  - **Copy**: Copies to clipboard
+- Click the **⋯** button or right-click on any message for additional options:
   - **Copy to Editor**: Inserts the text at the cursor position in the editor.
-  - **Copy to New Document**: Opens a new document and inserts the text.
+  - **Message Info**: Displays details about this message.
 - Code blocks contain programming code. In a code block, you can click on **…** for options to copy the code.
 
 ## Sidebar
