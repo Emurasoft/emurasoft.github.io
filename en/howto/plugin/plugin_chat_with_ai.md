@@ -64,3 +64,18 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - These settings customize the Chat with AI interface.
 - **Debug Log Options**
   - The debug log helps diagnose technical issues with the app.
+
+## LM Studio setup instructions
+The LM Studio integration requires initial setup. Follow these steps to set up LM Studio.
+
+1. Download and install LM studio from [lmstudio.ai](https://lmstudio.ai/).
+2. In LM Studio, [Download a model.](https://lmstudio.ai/docs/app/basics)
+    - `mistralai/mistral-7b-instruct-v0.3` is a good model to try, as it can run on most computers.
+    - Attempting to run a model unsupported by your system may result in an error.
+3. Go to the **Developer** tab. Click on the switch on the top left to start the server. It should now say "Status: Running".
+4. Open the **Settings** next to the switch. **Enable CORS**.
+5. Open **Chat with AI** and open **Settings**.
+6. In the **AI Connection** page, set the **Provider** to "LM Studio/OpenAI compatible". Leave the **API key** field empty.
+7. Go to the **AI Parameters** page. Under **Model**, select the model you downloaded. 
+   - If it is not listed, verify that CORS is enabled in LM Studio. You can manually enter the model name by selecting "Other".
+8. Go back to **AI Connection**, and click **Test Connection** to ensure that it can connect to LM Studio.
