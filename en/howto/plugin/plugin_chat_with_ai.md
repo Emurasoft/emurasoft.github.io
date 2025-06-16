@@ -46,7 +46,4 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 - Click on **&#8230;** on any entry for these options:
   - **Delete Chat**: Clears all messages in that chat.
   - **Copy to New Document**: Copies all messages in the conversation to a new document.
-- Click on &#9881;&#65039; (Open menu) for app options.
-  - **Debug Log Options**: The debug log helps diagnose technical issues with the app.
-  - **Keyboard Shortcuts**: View keyboard shortcuts for Chat with AI
 - You can hide the sidebar with the **Close sidebar** button.
