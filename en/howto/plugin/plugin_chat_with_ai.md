@@ -25,7 +25,7 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 
 ## Setup
 1. After **ChatAI** is installed, the **AI** menu should appear in the main menu. Open the **AI** menu and select **Chat with AI**.
-2. In the **Chat with AI** app, click the ⚙️ button in the sidebar and open **Settings**.
+2. In the **Chat with AI** app, click the ⚙️ button in the sidebar and select **Settings**.
 3. Paste your API key into the **API key** field.
 
 ## Chat panel
@@ -47,3 +47,20 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - **Delete Chat**: Clears all messages in that chat.
   - **Copy to New Document**: Copies all messages in the conversation to a new document.
 - You can hide the sidebar with the **Close sidebar** button.
+
+## Settings
+- You can change AI connection and user interface settings by clicking the ⚙️ button in the sidebar and selecting **Settings**.
+- **AI Connection**
+  - Configure how the app connects to an AI service.
+  - You can select the following providers: Deepseek, LM Studio/OpenAI compatible, OpenAI
+  - Clicking on **Test Connection** checks that the settings are correct for the provider by sending a small AI request.
+- **AI Parameters**
+  - Adjust parameters for AI generation.
+  - Chat completion and reasoning models are supported.
+  - Read the providers' documentation for more details about each setting.
+    - [Deepseek](https://api-docs.deepseek.com/api/create-chat-completion)
+    - [OpenAI](https://platform.openai.com/docs/api-reference/chat/create)
+- **User Interface**
+  - These settings customize the Chat with AI interface.
+- **Debug Log Options**
+  - The debug log helps diagnose technical issues with the app.
