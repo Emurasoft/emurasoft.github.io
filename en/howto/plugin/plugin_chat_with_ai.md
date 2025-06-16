@@ -6,22 +6,27 @@
 - If you use the **Desktop Installer** version of EmEditor, click **Installer** to download the installer version. Run the downloaded installer.
 - If you use the **Portable** version of EmEditor, click **Zip archive** to download the zip file, then unzip the `ChatAI.dll` file to the `PlugIns` folder in your EmEditor folder. Navigate to [**Customize Plug-ins**](../../cmd/tools/customize_plug_ins) in EmEditor and **Add** the `ChatAI.dll` file.
 
-## OpenAI API Key
-You will need an OpenAI API key to use the ChatAI plug-in. If you don't have an OpenAI API key, follow these steps:
-1. Log into your OpenAI account and visit the [API keys page](https://platform.openai.com/settings/organization/api-keys).
+## API Key
+To start using Chat with AI, create and copy an API key from one of these AI providers.
+
+### Deepseek API Key
+1. Log into your Deepseek account and visit the [API keys page](https://platform.deepseek.com/api_keys).
+2. Click **Create new API key**. Add a name for the key.
+3. Copy the API key.
+
+### OpenAI API Key
+1. Log into your OpenAI account and visit the [API keys page](https://platform.openai.com/api-keys).
 2. Click **Create a new secret key**. Optionally, add a name and select any project.
 3. Select **All** permissions, or select **Restricted** and add the required permissions below. The required resources may change in the future as new features are added:
    - **Model capabilities**: **Write**
+   - **Responses API**: **Write**
    - All other resources: **None**
-4. Copy the generated API key. You will need it for the next step.
+4. Copy the generated API key.
 
 ## Setup
-1. After **ChatAI** is installed, the **AI** menu should appear in the main menu. Click the **AI** menu, select **Customize**, and then select **AI Options**. If the **AI** menu does not appear, you can also go to **Tools > Customize... > AI Options**.
-2. Check the **Enable AI** box. A prompt will appear asking whether you agree to the terms. Click **Continue** if you agree.
-3. Paste your API key into the **OpenAI API key** text box. Click **OK**.
-
-## Launching Chat with AI
-In EmEditor, select **Chat with AI** on the **AI** menu. If the **AI** menu does not appear, you can also access **Chat with AI** from the **Plug-ins** menu.
+1. After **ChatAI** is installed, the **AI** menu should appear in the main menu. Open the **AI** menu and select **Chat with AI**.
+2. In the **Chat with AI** app, click the ⚙️ button in the sidebar and open **Settings**.
+3. Paste your API key into the **API key** field.
 
 ## Chat panel
 - Type your question or prompt in the input box at the bottom and press Enter or click **&#8593;** to send.
