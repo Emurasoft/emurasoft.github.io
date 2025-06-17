@@ -2,9 +2,7 @@
 
 Macintosh uses slightly different code pages than Windows
 does. In Windows 2000/XP/2003/Vista, where Macintosh code pages are installed, you can
-convert Macintosh text files into Windows text files. First, select the
-[**Define Encodings** command](../../cmd/tools/define_code_page) under the
-**Tools** menu. In the [**Define Encodings** dialog box](../../dlg/encodings/index), press
+convert Macintosh text files into Windows text files. First, select the [**File Encodings** page](../../dlg/customize/encodings/index.md) of the **Customize** dialog, press
 the **New** button, and select a Macintosh encoding, for example, "10001 (MAC -
 Japanese)". Select an appropriate character set, for example, Japanese. Click **OK** to close the dialog box.
 

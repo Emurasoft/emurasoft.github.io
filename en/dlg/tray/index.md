@@ -32,10 +32,6 @@ the focused edit box, and the original edit box will be filled with the EmEditor
 contents when the EmEditor window closes. For instance, if you
 enter X, ALT + CTRL + X can be specified as the shortcut key.
 
-## Customize Menu button
-
-Displays the [**Customize** **Menus** dialog box](../menus/index) to customize menus.
-
 ## Reset button
 
 Resets to default settings.

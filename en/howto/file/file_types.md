@@ -9,8 +9,7 @@ languages under **Supplemental language support** on the **Languages** page
 of **Regional and Language Options** in the Control Panel. You can also check
 encoding you want to use under **code page conversion tables** on the **Advanced** page.
 
-Encodings you want to use can be added on the
-[**Define Encodings** dialog box](../../dlg/encodings/index).
+Encodings you want to use can be added on the [**File Encodings** page](../../dlg/customize/encodings/index) of the **Customize** dialog box.
 
 Newline Characters can be CRs only, LFs
 only, or CR and LF pairs.

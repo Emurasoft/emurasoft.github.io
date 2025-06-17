@@ -99,10 +99,6 @@ Highlights the active tab when the **Tab** is selected for the **Style** drop-do
 
 Specifies the color to highlight the active tab when the **Highlight Active Tab** check box is set.
 
-## Customize Menu button
-
-Displays the [**Customize** **Menus** dialog box](../../menus/index) to customize menus.
-
 ## Reset button
 
 Resets to default settings.

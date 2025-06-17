@@ -127,7 +127,6 @@ customize_markers_auto
 customize_markers_list
 customize_markers_options
 customize_marks
-customize_menu
 customize_mouse
 customize_notifications
 customize_optimization
@@ -152,7 +151,6 @@ customize_view
 customize_web
 customize_window
 customize_workspace
-define_code_page
 file_associate
 import_export
 plug_in1

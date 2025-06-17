@@ -40,6 +40,8 @@ favorites/index
 markdown/index
 toolbar_options/index
 toolbar_buttons/index
+menus/index
+encodings/index
 notifications/index
 update/index
 help/index

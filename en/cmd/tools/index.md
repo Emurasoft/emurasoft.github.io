@@ -67,9 +67,7 @@
 | **[Customize Language](customize_lang)** | Opens the Help page of the Customize dialog box. |
 | **[Associate with EmEditor](file_associate)** | Associates file extensions. |
 | **[Customize Toolbars](customize_toolbar)** | Customizes toolbar settings. |
-| **[Customize Menus](customize_menu)** | Customizes menus. |
 | **[Customize Jump List](customize_jump_list)** | Customizes the jump list. |
-| **[Define Encodings](define_code_page)** | Defines encodings to use when opening/saving files. |
 | **[Customize Markers](customize_markers)** | Customizes marker settings. |
 | **[Customize Markers - Marker List](customize_markers_list)** | Opens the Customize Markers dialog box, and selects the Marker List page. |
 | **[Customize Markers - Auto Marker](customize_markers_auto)** | Opens the Customize Markers dialog box, and selects the Auto Marker page. |
@@ -126,7 +124,6 @@ customize_markers_auto
 customize_markers_list
 customize_markers_options
 customize_marks
-customize_menu
 customize_mouse
 customize_notifications
 customize_optimization
@@ -151,7 +148,6 @@ customize_view
 customize_web
 customize_window
 customize_workspace
-define_code_page
 file_associate
 import_export
 plug_in1
