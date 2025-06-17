@@ -8,7 +8,7 @@ shortcuts.
 ## Description
 
 Shows User Menu (6), used as the first shortcut key for two-keystroke
-shortcuts. User Menus can be customized with the [**Customize Menus** command](customize_menu).
+shortcuts. User Menus can be customized in the [**Menus** page](../../dlg/customize/menus/index) of the **Customize** dialog box.
 
 ## How to Run
 

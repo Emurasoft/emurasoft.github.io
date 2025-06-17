@@ -7,7 +7,7 @@ Shows Context Menu.
 ## Description
 
 Displays a context menu within the EmEditor window. Menu commands displayed
-in the context menu can be customized by the [**Customize Menus** command](customize_menu). This menu also appears when the right
+in the context menu can be customized in the [**Menus** page](../../dlg/customize/menus/index) of the **Customize** dialog box. This menu also appears when the right
 mouse button is clicked.
 
 ## How to Run

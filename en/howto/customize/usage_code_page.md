@@ -1,8 +1,7 @@
 # To Define Encodings
 
-1. Select the [**Define** **Encodings** command](../../cmd/tools/define_code_page) under the **Tools** menu.
-2. Click the **New** button if you want to define a new encoding.
-3. Select the **Encoding** and the **Font Category**, and enter the **Name** for this encoding.
+1. Select the [**File Encodings** page](../../dlg/customize/encodings/index) of the **Customize** dialog box.
+2. Check the encoding you want to include.
 
 ## Tips
 
