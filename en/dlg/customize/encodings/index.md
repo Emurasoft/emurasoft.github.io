@@ -1,7 +1,6 @@
-# Define Encodings dialog box
+# File Encodings page
 
-This dialog box appears when the
-[**Define Encodings** command](../../cmd/tools/define_code_page) is selected.
+The **File Encodings** page allows you to customize menus.
 
 ## Encoding list box
 

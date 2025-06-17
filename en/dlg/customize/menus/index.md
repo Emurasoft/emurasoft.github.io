@@ -1,7 +1,6 @@
-# Customize Menus dialog box
+# Menus page
 
-This dialog box appears when the
-[**Customize Menu** command](../../cmd/tools/customize_menu) is selected.
+The **Menus** page allows you to customize menus.
 
 ## Menu to Customize list box
 
@@ -45,7 +44,11 @@ Move the selected item down on the list.
 
 ## Reset button
 
-Resets to default settings.
+Resets the current menu to default settings.
+
+## Reset All button
+
+Resets all menus to default settings.
 
 The following dialog box is also available through this dialog box.
 
