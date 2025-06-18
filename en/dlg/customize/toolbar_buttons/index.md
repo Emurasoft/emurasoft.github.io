@@ -30,6 +30,10 @@ Move the selected item up on the list.
 
 Move the selected item down on the list.
 
+## Size slider
+
+Sets the width of the drop-down list box for the **Find** and **Filter** toolbars.
+
 ## Reset button
 
 Resets to default settings.
