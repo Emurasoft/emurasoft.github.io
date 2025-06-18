@@ -16,7 +16,6 @@ csv_options/index
 edit/index
 favorites/index
 file/index
-encodings/index
 format/index
 help/index
 history/index
@@ -24,7 +23,6 @@ lang/index
 layouts/index
 markdown/index
 marks/index
-menus/index
 mouse/index
 notifications/index
 optimization/index
