@@ -26,6 +26,10 @@ If this box is checked, EmEditor runs macros asynchronously if the [**#async** d
 
 If this box is checked, EmEditor runs JavaScript macros using the V8 engine if the [**#language** directive](../../../macro/directive/language) is not used.
 
+## Always open macros without a Unicode signature (BOM) as UTF-8 check box
+
+If this box is checked, and if a macro file does not have a Unicode signature (BOM), EmEditor opens the file as UTF-8 without displaying a dialog box to select the encoding with which the file should be opened.
+
 ## Default language option
 
 Specifies the default language for a macro. If the Clipboard is selected for the macro, this option selects the language of the macro in the Clipboard.
