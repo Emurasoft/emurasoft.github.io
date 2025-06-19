@@ -62,5 +62,5 @@ about/index
 regist/index
 opening/index
 registration_info/index
-filter_propsheet
+filter_propsheet/index
 ```
