@@ -22,6 +22,10 @@ Specifies that the Web Browser within EmEditor should be used to view web sites.
 
 Specifies that a prompt dialog box should be displayed to select whether the Web Browser within EmEditor should be used to view web sites.
 
+## Clear browsing data button
+
+Deletes browsing data from the web browser.
+
 ## Reset button
 
 Resets to default settings.
