@@ -72,10 +72,13 @@ The LM Studio integration requires initial setup. Follow these steps to set up L
 2. In LM Studio, go to the **Discover** tab to download a model.
     - `mistralai/mistral-7b-instruct-v0.3` is a good model to try, as it can run on most computers.
     - Attempting to load a model unsupported by your system may result in an error.
-3. Go to the **Developer** tab. Click on the switch on the top left to start the server. It should now say "Status: Running".
-4. Open the **Settings** next to the switch. **Enable CORS**.
-5. Open **Chat with AI** and open **Settings**.
-6. In the **AI Connection** page, set the **Provider** to "LM Studio/OpenAI compatible". Leave the **API key** field empty.
-7. Go to the **AI Parameters** page. Under **Model**, select the model you downloaded. 
+3. At the top of the LM Studio window, load the model that you downloaded.
+4. Go to the **Developer** tab. Click on the switch on the top left to start the server. It should now say "Status: Running".
+5. Open the **Settings** next to the switch. **Enable CORS**.
+6. Open **Chat with AI** and open **Settings**.
+7. In the **AI Connection** page, set the **Provider** to "LM Studio/OpenAI compatible". Leave the **API key** field empty.
+8. Go to the **AI Parameters** page. Under **Model**, select the model you downloaded. 
    - If it is not listed, verify that CORS is enabled in LM Studio. You can manually enter the model name by selecting "Other".
-8. Go back to **AI Connection**, and click **Test Connection** to ensure that it can connect to LM Studio.
+9. Go back to **AI Connection**, and click **Test Connection** to ensure that it can connect to LM Studio.
+
+- Each time you restart your computer, the LM Studio service starts automatically. However, you’ll need to manually load a model before you can use it in Chat with AI.
