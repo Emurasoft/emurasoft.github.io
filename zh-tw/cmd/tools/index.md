@@ -66,9 +66,7 @@
 | **[Tab/縮排屬性](property_indent)** | 目前的組態的 Tab/縮排屬性。 |
 | **[新增檔案詳細信息屬性](property_file_new)** | 目前的組態的新增檔案詳細信息屬性。 |
 | **[儲存檔案詳細信息屬性](property_file_save)** | 目前的組態的儲存檔案詳細信息屬性。 |
-| **[自訂功能表](customize_menu)** | 自訂功能表。 |
 | **[自訂跳轉清單](customize_jump_list)** | 自訂跳轉清單。 |
-| **[定義編碼](define_code_page)** | 定義打開或儲存檔案時使用的編碼。 |
 | **[自訂標記](customize_markers)** | 自訂標記設置。 |
 | **[自訂標記 \- 標記清單](customize_markers_list)** | 打開自訂標記對話方塊并選擇標記清單頁面。 |
 | **[自訂標記 \- 自動標記](customize_markers_auto)** | 打開自訂標記對話方塊并選擇自動標記頁面。 |
@@ -127,7 +125,6 @@ customize_markers_auto
 customize_markers_list
 customize_markers_options
 customize_marks
-customize_menu
 customize_mouse
 customize_notifications
 customize_optimization
@@ -152,7 +149,6 @@ customize_view
 customize_web
 customize_window
 customize_workspace
-define_code_page
 delete_old_settings
 file_associate
 import_export

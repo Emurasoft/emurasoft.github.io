@@ -66,9 +66,7 @@
 | **[制表符/缩进属性](property_indent)** | 当前配置的制表符/缩进属性。 |
 | **[新建文件详细信息属性](property_file_new)** | 当前配置的新建文件详细信息属性。 |
 | **[保存文件详细信息属性](property_file_save)** | 当前配置的保存文件详细信息属性。 |
-| **[自定义菜单](customize_menu)** | 自定义菜单。 |
 | **[自定义跳转列表](customize_jump_list)** | 自定义跳转列表。 |
-| **[定义编码](define_code_page)** | 定义打开或保存文件时使用的编码。 |
 | **[自定义标记](customize_markers)** | 自定义标记设置。 |
 | **[自定义标记 \- 标记列表](customize_markers_list)** | 打开自定义标记对话框并选择标记列表页面。 |
 | **[自定义标记 \- 自动标记](customize_markers_auto)** | 打开自定义标记对话框并选择自动标记页面。 |
@@ -127,7 +125,6 @@ customize_markers_auto
 customize_markers_list
 customize_markers_options
 customize_marks
-customize_menu
 customize_mouse
 customize_notifications
 customize_optimization
@@ -152,7 +149,6 @@ customize_view
 customize_web
 customize_window
 customize_workspace
-define_code_page
 delete_old_settings
 file_associate
 import_export

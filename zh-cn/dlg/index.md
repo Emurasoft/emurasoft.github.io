@@ -48,9 +48,7 @@ customize/index
 customize_start/index
 file_associate/index
 clear_history/index
-menus/index
 customize_markers/index
-encodings/index
 tray/index
 import_export/index
 plugins/index
@@ -64,4 +62,5 @@ about/index
 regist/index
 opening/index
 registration_info/index
+filter_propsheet/index
 ```

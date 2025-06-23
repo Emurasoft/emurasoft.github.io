@@ -22,6 +22,10 @@
 
 如果勾选了此复选框，则在不使用 [**#language** 指令时](../../../macro/directive/language) EmEditor 会使用 V8 引擎运行 JavaScript 宏。
 
+## “始终将没有 Unicode 签名（BOM）的宏作为 UTF-8 打开”复选框
+
+如果勾选了此复选框，并且宏文件没有 Unicode 签名（BOM），EmEditor 将以 UTF-8 格式打开该文件，而不会显示选择文件打开编码的对话框。
+
 ## “默认语言”选项
 
 指定宏的默认语言。如果为宏选择了剪贴板，则此选项会在剪贴板中选择宏的语言。
