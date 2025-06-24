@@ -26,4 +26,4 @@ following value.
 
 ## Return Values
 
-Returns the version number multiplied by 1000.
+Returns the version number multiplied by 10000. For instance, if the version number is 25.1.907, the return value will be 251907.
