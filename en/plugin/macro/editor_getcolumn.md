@@ -1,6 +1,6 @@
 # Editor\_GetColumn
 
-Sets a column of text in CSV mode. You can use this inline function or explicitly send the
+Gets a column of text in CSV mode. You can use this inline function or explicitly send the
 [EE\_GET\_COLUMN](../message/ee_get_column) message.
 
 Editor\_GetColumn( HWND hwnd, COLUMN\_STRUCT\* pColumnStruct );
