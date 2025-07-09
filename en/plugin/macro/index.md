@@ -53,7 +53,7 @@
 | [Editor\_GetClipPos](editor_getclippos) | Retrieves the current position in the Clipboard history. |
 | [Editor\_GetCmdID](editor_getcmdid) | Obtains the plug-in command ID. |
 | [Editor\_GetColor](editor_getcolor) | Retrieves the text and background colors and style for the specified part. |
-| [Editor\_GetColumn](editor_getcolumn) | Sets a column of text in CSV mode. |
+| [Editor\_GetColumn](editor_getcolumn) | Gets a column of text in CSV mode. |
 | [Editor\_GetConfigA](editor_getconfiga) | Retrieves the selected configuration name as an ANSI string. |
 | [Editor\_GetConfigW](editor_getconfigw) | Retrieves the selected configuration name as a Unicode string. |
 | [Editor\_GetDroppedFile](editor_getdroppedfile) | Retrieves the most recently dropped file. |
