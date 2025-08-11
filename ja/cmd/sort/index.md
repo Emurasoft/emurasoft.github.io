@@ -16,6 +16,7 @@
 | [出現頻度が多いから少ないへ並べ替え](../sort/sort_occurrence_d) | 現在の列のテキストを出現頻度の降順に並べ替えます。 |
 | [ランダムに並べ替え](../sort/sort_random) | 現在の列をランダムに並べ替えます。 |
 | [逆順に並べ替え](../sort/sort_reverse) | 現在の列を逆順に並べ替えます。 |
+| [類似度で並べ替え](../sort/sort_similarity) | 現在の列のテキストを現在の行との類似度で並べ替えます。 |
 | [高度な並べ替え](../sort/sort_multi) | 文書を複数列または高度なオプションで並べ替えます。 |
 | [列の並べ替え](sort_columns) | CSV文書の列を並べ替えます。 |
 | [重複行の削除](../sort/delete_duplicate) | 選択範囲または文書全体から重複行を削除します。 |
@@ -45,6 +46,7 @@ sort_occurrence_d
 sort_random
 sort_reverse
 sort_sel
+sort_similarity
 sort_text_a
 sort_text_d
 sort_words_a

@@ -10,8 +10,8 @@ Displays the Markdown design view.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Design View**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Design View**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Design View**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Design View**
 - Toolbar: ![](../../images/markdown_view.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -10,8 +10,8 @@
 
 ## 実行方法
 
-- 既定のメニュー: \[編集\] \- \[Markdown\] \- \[段落番号\]
-- [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[段落番号\]
+- 既定のメニュー: \[編集\] \- \[Markdown/HTML\] \- \[段落番号\]
+- [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown/HTML\] \- \[段落番号\]
 - ツール バー: ![](../../images/numbering.png)
 - ステータス バー: なし
 - 既定のショートカット: なし

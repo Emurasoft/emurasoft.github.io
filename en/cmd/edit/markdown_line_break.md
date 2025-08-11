@@ -10,8 +10,8 @@ Inserts a line break.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Line Break**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Line Break**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Line Break**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Line Break**
 - Toolbar: ![](../../images/markdown_line_break.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

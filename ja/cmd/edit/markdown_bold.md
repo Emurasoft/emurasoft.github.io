@@ -10,8 +10,8 @@
 
 ## 実行方法
 
-- 既定のメニュー: \[編集\] \- \[Markdown\] \- \[太字\]
-- [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[太字\]
+- 既定のメニュー: \[編集\] \- \[Markdown/HTML\] \- \[太字\]
+- [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown/HTML\] \- \[太字\]
 - ツール バー: ![](../../images/bold.png)
 - ステータス バー: なし
 - 既定のショートカット: Ctrl+B

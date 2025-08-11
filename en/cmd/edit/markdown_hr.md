@@ -10,8 +10,8 @@ Inserts a horizontal rule.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Horizontal Rule**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Horizontal Rule**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Horizontal Rule**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Horizontal Rule**
 - Toolbar: ![](../../images/hr.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -10,8 +10,8 @@ Displays the Markdown preview of the current document.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Preview**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Preview**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Preview**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Preview**
 - Toolbar: ![](../../images/plugin_webpreview.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

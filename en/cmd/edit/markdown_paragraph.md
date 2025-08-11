@@ -10,8 +10,8 @@ Sets the current line as a single paragraph.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Paragraph**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Paragraph**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Paragraph**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Paragraph**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

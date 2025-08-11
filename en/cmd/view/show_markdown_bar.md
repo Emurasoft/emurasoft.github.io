@@ -1,17 +1,17 @@
-# Markdown Toolbar command
+# Markdown/HTML Toolbar command
 
 ## Summary
 
-Shows or hides the Markdown toolbar.
+Shows or hides the Markdown/HTML toolbar.
 
 ## Description
 
-Shows or hides the Markdown toolbar.
+Shows or hides the Markdown/HTML toolbar.
 
 ## How to Run
 
-- Default Menu: **View** > **Toolbars** \> **Markdown**
-- [All Commands](../tools/all_commands): **View** > **Toolbars** \> **Markdown**
+- Default Menu: **View** > **Toolbars** \> **Markdown/HTML**
+- [All Commands](../tools/all_commands): **View** > **Toolbars** \> **Markdown/HTML**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

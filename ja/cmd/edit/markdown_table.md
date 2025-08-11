@@ -10,8 +10,8 @@
 
 ## 実行方法
 
-- 既定のメニュー: \[編集\] \- \[Markdown\] \- \[表\]
-- [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[表\]
+- 既定のメニュー: \[編集\] \- \[Markdown/HTML\] \- \[表\]
+- [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown/HTML\] \- \[表\]
 - ツール バー: ![](../../images/table.png)
 - ステータス バー: なし
 - 既定のショートカット: なし

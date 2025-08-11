@@ -16,6 +16,7 @@
 | [**Sort by Occurrence Descending**](../sort/sort_occurrence_d) | Sorts by occurrence in the current column, in descending order. |
 | [**Sort Randomly**](../sort/sort_random) | Sorts randomly in the current column. |
 | [**Sort Reverse**](../sort/sort_reverse) | Sorts reverse in the current column. |
+| [**Sort by Similarity**](../sort/sort_similarity) | Sorts by similarity to the current line of the current column. |
 | [**Advanced Sort**](../sort/sort_multi) | Sorts the document by multiple columns or with advanced options. |
 | [**Sort Columns**](sort_columns) | Sorts columns of the CSV document. |
 | **[Delete Duplicate Lines](../sort/delete_duplicate)** | Deletes duplicate lines in the selection or in the entire document. |
@@ -45,6 +46,7 @@ sort_occurrence_d
 sort_random
 sort_reverse
 sort_sel
+sort_similarity
 sort_text_a
 sort_text_d
 sort_words_a

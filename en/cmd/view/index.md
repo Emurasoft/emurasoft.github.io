@@ -35,7 +35,7 @@
 | **[Find Toolbar](show_find_bar)** | Shows or hides the find toolbar. |
 | **[Cell Toolbar](show_cell_bar)** | Shows or hides the cell toolbar. |
 | **[Favorites Toolbar](show_favorites_bar)** | Shows or hides the favorites toolbar. |
-| **[Markdown Toolbar](show_markdown_bar)** | Shows or hides the Markdown toolbar. |
+| **[Markdown/HTML Toolbar](show_markdown_bar)** | Shows or hides the Markdown/HTML toolbar. |
 | **[Cell Toolbar Options (Popup)](cell_bar_options)** | Shows a popup menu to set options for the cell toolbar. |
 | **[Automatically Show/Hide Cell Toolbar](auto_show_hide_cell_bar)** | Automatically shows or hides the cell toolbar. |
 | **[Automatically Set Focus (Cell Toolbar)](auto_set_focus)** | Automatically sets focus to the cell toolbar. |

@@ -10,8 +10,8 @@ Inserts an ordered list.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Numbering**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Numbering**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Numbering**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Numbering**
 - Toolbar: ![](../../images/numbering.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

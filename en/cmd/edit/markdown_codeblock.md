@@ -10,8 +10,8 @@ Sets the current line as a code block.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Code Block**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Code Block**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Code Block**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Code Block**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

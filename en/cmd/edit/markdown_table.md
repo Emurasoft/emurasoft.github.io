@@ -10,8 +10,8 @@ Inserts a table.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Table**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Table**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Table**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Table**
 - Toolbar: ![](../../images/table.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

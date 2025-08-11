@@ -10,8 +10,8 @@ Inserts a hyperlink.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Hyperlink**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Hyperlink**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Hyperlink**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Hyperlink**
 - Toolbar: ![](../../images/hyperlink.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

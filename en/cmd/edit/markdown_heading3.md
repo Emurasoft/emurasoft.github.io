@@ -10,8 +10,8 @@ Sets the current line as heading level 3.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Heading 3**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Heading 3**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Heading 3**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Heading 3**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

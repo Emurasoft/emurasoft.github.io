@@ -10,8 +10,8 @@ Sets the current line as a blockquote.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Blockquote**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Blockquote**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Blockquote**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Blockquote**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

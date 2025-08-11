@@ -10,8 +10,8 @@ Sets the current line as heading level 5.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Heading 5**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Heading 5**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Heading 5**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Heading 5**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

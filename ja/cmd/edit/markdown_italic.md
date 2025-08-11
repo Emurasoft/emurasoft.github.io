@@ -10,8 +10,8 @@
 
 ## 実行方法
 
-- 既定のメニュー: \[編集\] \- \[Markdown\] \- \[斜体\]
-- [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown\] \- \[斜体\]
+- 既定のメニュー: \[編集\] \- \[Markdown/HTML\] \- \[斜体\]
+- [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown/HTML\] \- \[斜体\]
 - ツール バー: ![](../../images/italic.png)
 - ステータス バー: なし
 - 既定のショートカット: なし

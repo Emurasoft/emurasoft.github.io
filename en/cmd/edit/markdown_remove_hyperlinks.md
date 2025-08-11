@@ -10,8 +10,8 @@ Removes hyperlinks.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Remove Hyperlinks**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Remove Hyperlinks**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Remove Hyperlinks**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Remove Hyperlinks**
 - Toolbar: ![](../../images/remove_hyperlinks.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

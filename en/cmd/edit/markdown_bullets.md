@@ -10,8 +10,8 @@ Inserts an unordered list.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Markdown** \> **Bullets**
-- [All Commands](../tools/all_commands): **Edit** \> **Markdown** \> **Bullets**
+- Default Menu: **Edit** \> **Markdown/HTML** \> **Bullets**
+- [All Commands](../tools/all_commands): **Edit** \> **Markdown/HTML** \> **Bullets**
 - Toolbar: ![](../../images/bullets.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None
