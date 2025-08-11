@@ -101,3 +101,17 @@ Resets to default settings. The
 [**Reset** dialog box](../reset/index) will be displayed
 and will allow you to copy from another configuration.
 
+## Tips
+
+When Regular Expression is enabled, you can add these special directives to conditionally apply a highlight based on the formatting at the start of the match. Place the directive at the very beginning of your pattern.
+
+- `(?#_text_c==n)` Apply the highlight only if the current text (foreground) color is n.
+- `(?#_text_c!=n)` Apply the highlight only if the current text (foreground) color is not n.
+- `(?#_back_c==n)` Apply the highlight only if the current background color is n.
+- `(?#_back_c!=n)` Apply the highlight only if the current background color is not n.
+- `(?#_font_s==n)` Apply the highlight only if the current font style is n.
+- `(?#_font_s!=n)` Apply the highlight only if the current font style is not n.
+
+Here, n is an integer ID defined in plugin.h (for example, 0 = SMART_COLOR_NORMAL, 17 = SMART_COLOR_HILITE_4, etc.).
+
+Example: instead of `%%.*$`, use `(?#_text_c!=17)%%.*$` to highlight lines that start with `%%` only if they don’t already use color 17 (SMART_COLOR_HILITE_4).
