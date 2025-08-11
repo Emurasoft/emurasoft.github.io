@@ -111,7 +111,6 @@
 | ![](../../images/extract_columns.png)[Extract Columns](../../cmd/csv/extract_columns) | Extracts specified columns from the current CSV document. |
 | ![](../../images/plugin_commit_list.png)[CommitList](../plugin/plugin_commit_list) | CommitList Plug-in. |
 | ![](../../images/plugin_explorer.png)[Explorer](../plugin/plugin_explorer) | Explorer Plug-in. |
-| ![](../../images/htmlbar.png)[HTMLBar](../plugin/plugin_htmlbar) | HTMLBar Plug-in. |
 | ![](../../images/plugin_opendocuments.png)[Open Documents](../plugin/plugin_opendocuments) | Open Documents Plug-in. |
 | ![](../../images/projects.png)[Projects](../plugin/plugin_projects) | Projects Plug-in. |
 | ![](../../images/plugin_search.png)[Search](../plugin/plugin_search) | Search Plug-in. |

@@ -111,7 +111,6 @@
 | ![](../../images/extract_columns.png)[列を抽出](../../cmd/csv/extract_columns) | 現在のCSV文書から指定する列を抽出します。 |
 | ![](../../images/plugin_commit_list.png)[コミット リスト](../plugin/plugin_commit_list) | \[コミット リスト\] プラグイン。 |
 | ![](../../images/plugin_explorer.png)[エクスプローラ](../plugin/plugin_explorer) | \[エクスプローラ\] プラグイン。 |
-| ![](../../images/htmlbar.png)[HTML バー](../plugin/plugin_htmlbar) | \[HTML バー\] プラグイン。 |
 | ![](../../images/plugin_opendocuments.png)[開いている文書](../plugin/plugin_opendocuments) | \[開いている文書\] プラグイン。 |
 | ![](../../images/projects.png)[プロジェクト](../plugin/plugin_projects) | \[プロジェクト\] プラグイン。 |
 | ![](../../images/plugin_search.png)[検索](../plugin/plugin_search) | \[検索\] プラグイン。 |
