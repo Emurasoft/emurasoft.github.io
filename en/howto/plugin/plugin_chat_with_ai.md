@@ -72,6 +72,10 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - These settings customize the Chat with AI interface.
 - **Debug Log Options**
   - The debug log helps diagnose technical issues with the app.
+- **Update**
+  - Allows you to manually update the app.
+- **Reset Settings**
+  - Delete all chats or reset all settings.
 
 ## LM Studio setup instructions
 The LM Studio integration requires initial setup. Follow these steps to set up LM Studio.
