@@ -9,12 +9,18 @@
 ## API Key
 To start using Chat with AI, create and copy an API key from one of these AI providers.
 
-### Deepseek API Key
+### Deepseek
 1. Log into your Deepseek account and visit the [API keys page](https://platform.deepseek.com/api_keys).
 2. Click **Create new API key**. Add a name for the key.
 3. Copy the API key.
 
-### OpenAI API Key
+### Google
+1. Log into your Google AI Studio account and visit the [API keys page](https://aistudio.google.com/u/1/apikey).
+2. Click **+ Create API Key**.
+3. If prompted, select an existing Google Cloud project to create the API key.
+4. Copy the API key.
+
+### OpenAI
 1. Log into your OpenAI account and visit the [API keys page](https://platform.openai.com/api-keys).
 2. Click **Create a new secret key**. Optionally, add a name and select any project.
 3. Select **All** permissions, or select **Restricted** and add the required permissions below. The required resources may change in the future as new features are added:
@@ -26,7 +32,8 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 ## Setup
 1. After **ChatAI** is installed, the **AI** menu should appear in the main menu. Open the **AI** menu and select **Chat with AI**.
 2. In the **Chat with AI** app, click the ⚙️ button in the sidebar and select **Settings**.
-3. Paste your API key into the **API key** field.
+3. Select the **Provider** of your choice.
+4. Paste your API key into the **API key** field.
 
 ## Chat panel
 - Type your question or prompt in the input box at the bottom and press Enter or click **&#8593;** to send.
@@ -59,11 +66,20 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - Chat completion and reasoning models are supported.
   - Read the providers' documentation for more details about each setting.
     - [Deepseek](https://api-docs.deepseek.com/api/create-chat-completion)
+    - [Google](https://ai.google.dev/api/generate-content)
     - [OpenAI](https://platform.openai.com/docs/api-reference/chat/create)
+- **Tool Calling**
+  - These EmEditor tools can be made accessible to the AI to read or modify your document.
+  - Using tools will incur additional token costs.
+  - Tool calling can be enabled from the chat input by clicking on the **Tools** button.
 - **User Interface**
   - These settings customize the Chat with AI interface.
 - **Debug Log Options**
   - The debug log helps diagnose technical issues with the app.
+- **Update**
+  - Allows you to manually update the app.
+- **Reset Settings**
+  - Delete all chats or reset all settings to default.
 
 ## LM Studio setup instructions
 The LM Studio integration requires initial setup. Follow these steps to set up LM Studio.
