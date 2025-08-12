@@ -9,12 +9,18 @@
 ## API Key
 To start using Chat with AI, create and copy an API key from one of these AI providers.
 
-### Deepseek API Key
+### Deepseek
 1. Log into your Deepseek account and visit the [API keys page](https://platform.deepseek.com/api_keys).
 2. Click **Create new API key**. Add a name for the key.
 3. Copy the API key.
 
-### OpenAI API Key
+### Google
+1. Log into your Google AI Studio account and visit the [API keys page](https://aistudio.google.com/u/1/apikey).
+2. Click **+ Create API Key**.
+3. If prompted, select an existing Google Cloud project to create the API key.
+4. Copy the API key.
+
+### OpenAI
 1. Log into your OpenAI account and visit the [API keys page](https://platform.openai.com/api-keys).
 2. Click **Create a new secret key**. Optionally, add a name and select any project.
 3. Select **All** permissions, or select **Restricted** and add the required permissions below. The required resources may change in the future as new features are added:
