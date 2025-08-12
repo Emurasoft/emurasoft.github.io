@@ -71,7 +71,7 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 - **Tool Calling**
   - These EmEditor tools can be made accessible to the AI to read or modify your document.
   - Using tools will incur additional token costs.
-  - Tool calling calling can be enabled from the chat input by clicking on the **Tools** button.
+  - Tool calling can be enabled from the chat input by clicking on the **Tools** button.
 - **User Interface**
   - These settings customize the Chat with AI interface.
 - **Debug Log Options**
