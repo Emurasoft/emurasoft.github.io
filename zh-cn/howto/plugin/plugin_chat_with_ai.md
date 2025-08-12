@@ -70,7 +70,7 @@
     - [OpenAI](https://platform.openai.com/docs/api-reference/chat/create)
 - **工具调用**
   - 这些 EmEditor 工具可供 AI 访问，以读取或修改您的文档。
-  - 使用工具将产生额外的代币成本。
+  - 使用工具会产生额外的令牌费用。
   - 通过单击**工具**按钮，可以在聊天输入框中启用工具调用。
 - **用户界面**
   - 这些设置可自定义与 AI 聊天的界面。
