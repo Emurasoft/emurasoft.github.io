@@ -65,6 +65,7 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - Chat completion and reasoning models are supported.
   - Read the providers' documentation for more details about each setting.
     - [Deepseek](https://api-docs.deepseek.com/api/create-chat-completion)
+    - [Google](https://ai.google.dev/api/generate-content)
     - [OpenAI](https://platform.openai.com/docs/api-reference/chat/create)
 - **User Interface**
   - These settings customize the Chat with AI interface.
