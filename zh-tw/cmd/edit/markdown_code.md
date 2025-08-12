@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表: **編輯** \> **Markdown** \> **程式碼**
-- [全部命令](../tools/all_commands): **編輯** \> **Markdown** \> **程式碼**
+- 預設功能表: **編輯** \> **Markdown/HTML** \> **程式碼**
+- [全部命令](../tools/all_commands): **編輯** \> **Markdown/HTML** \> **程式碼**
 - 工具列: ![](../../images/markdown_code.png)
 - 狀態列: 無
 - 預設快速鍵: 無

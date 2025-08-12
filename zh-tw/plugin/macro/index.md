@@ -53,7 +53,7 @@
 | [Editor\_GetClipPos](editor_getclippos) | 檢索剪貼簿記錄中的目前的位置。 |
 | [Editor\_GetCmdID](editor_getcmdid) | 獲得外掛程式命令 ID。 |
 | [Editor\_GetColor](editor_getcolor) | 檢索指定部分的文字、背景顏色以及樣式。 |
-| [Editor\_GetColumn](editor_getcolumn) | 在 CSV 模式中設置一欄文字。 |
+| [Editor\_GetColumn](editor_getcolumn) | 在 CSV 模式中取得一欄文字。 |
 | [Editor\_GetConfigA](editor_getconfiga) | 檢索所選取的組態名稱為 ANSI 字串。 |
 | [Editor\_GetConfigW](editor_getconfigw) | 檢索所選取的組態名稱為 Unicode 字串。 |
 | [Editor\_GetDroppedFile](editor_getdroppedfile) | 檢索最近拖放的檔案。 |

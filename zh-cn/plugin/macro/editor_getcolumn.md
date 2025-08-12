@@ -1,7 +1,6 @@
 # Editor\_GetColumn
 
-在 CSV 模式中设置一列文本。你能用该内联函数或明确地发送
-[EE\_GET\_COLUMN](../message/ee_get_column) 消息。
+在 CSV 模式中获取一列文本。你能用该内联函数或明确地发送 [EE\_GET\_COLUMN](../message/ee_get_column) 消息。
 
 Editor\_GetColumn( HWND hwnd, COLUMN\_STRUCT\* pColumnStruct );
 

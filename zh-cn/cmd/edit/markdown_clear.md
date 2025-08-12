@@ -10,8 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单: **编辑** \> **Markdown** \> **清除所有格式**
-- [所有命令](../tools/all_commands): **编辑** \> **Markdown** \> **清除所有格式**
+- 默认菜单: **编辑** \> **Markdown/HTML** \> **清除所有格式**
+- [所有命令](../tools/all_commands): **编辑** \> **Markdown/HTML** \> **清除所有格式**
 - 工具栏: ![](../../images/markdown_clear.png)
 - 状态栏: 无
 - 默认快捷键: 无

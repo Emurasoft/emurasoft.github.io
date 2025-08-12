@@ -9,12 +9,18 @@
 ## API 密钥
 要开始使用与 AI 聊天，请从以下 AI 提供商中创建并复制一个 API 密钥。
 
-### Deepseek API 密钥
+### Deepseek
 1. 登录您的 Deepseek 账号并访问 [API 密钥页面](https://platform.deepseek.com/api_keys)。
 2. 点击**创建新 API 密钥**，为密钥添加名称。
 3. 复制 API 密钥。
 
-### OpenAI API 密钥
+### Google
+1. 登录您的 Google AI Studio 帐户，并访问 [API 密钥页面](https://aistudio.google.com/u/1/apikey)。
+2. 点击 **+ 创建 API 密钥**。
+3. 如果出现提示，请选择一个现有的 Google Cloud 项目以创建 API 密钥。
+4. 复制 API 密钥。
+
+### OpenAI
 1. 登录您的 OpenAI 账号并访问 [API 密钥页面](https://platform.openai.com/api-keys)。
 2. 点击 **Create a new secret key**。或者，您也可以添加名称并选择一个项目。
 3. 选择 **All** 权限，或选择 **Restricted** 并添加下方所需权限。随着新功能的增加，所需资源可能会有所变化：
@@ -26,7 +32,8 @@
 ## 设置
 1. 安装 **ChatAI** 后，主菜单中应出现 **AI** 菜单。打开 **AI** 菜单并选择 **与 AI 聊天**。
 2. 在 **与 AI 聊天** 应用中，点击侧边栏的 ⚙️ 按钮并选择**设置**。
-3. 将您的 API 密钥粘贴到**API 密钥**字段中。
+3. 选择您想要的**服务提供商**。
+4. 将您的 API 密钥粘贴到**API 密钥**字段中。
 
 ## 聊天面板
 - 在底部输入框中输入您的问题或提示，按回车或点击 **&#8593;** 发送。
@@ -59,11 +66,20 @@
   - 支持聊天补全和推理模型。
   - 详细设置请参考各提供商的文档：
     - [Deepseek](https://api-docs.deepseek.com/api/create-chat-completion)
+    - [Google](https://ai.google.dev/api/generate-content)
     - [OpenAI](https://platform.openai.com/docs/api-reference/chat/create)
+- **工具调用**
+  - 这些 EmEditor 工具可供 AI 访问，以读取或修改您的文档。
+  - 使用工具将产生额外的代币成本。
+  - 通过单击**工具**按钮，可以在聊天输入框中启用工具调用。
 - **用户界面**
   - 这些设置可自定义与 AI 聊天的界面。
 - **调试日志选项**
   - 调试日志有助于诊断应用的技术问题。
+- **更新**
+  - 允许您手动更新应用。
+- **重置设置**
+  - 删除所有聊天记录或将所有设置重置为默认值。
 
 ## LM Studio 设置说明
 集成 LM Studio 需要进行初始设置。请按照以下步骤设置 LM Studio。

@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表: **編輯** \> **Markdown** \> **移除超連結**
-- [全部命令](../tools/all_commands): **編輯** \> **Markdown** \> **移除超連結**
+- 預設功能表: **編輯** \> **Markdown/HTML** \> **移除超連結**
+- [全部命令](../tools/all_commands): **編輯** \> **Markdown/HTML** \> **移除超連結**
 - 工具列: ![](../../images/remove_hyperlinks.png)
 - 狀態列: 無
 - 預設快速鍵: 無

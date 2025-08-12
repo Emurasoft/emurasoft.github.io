@@ -16,6 +16,7 @@
 | [**按出现次数降序排序**](../sort/sort_occurrence_d) | 把当前列中的出现次数按降序排序。 |
 | [**随机排序**](../sort/sort_random) | 随机排序当前列。 |
 | [**反向排序**](../sort/sort_reverse) | 反向排序。 |
+| [**按相似度排序**](../sort/sort_similarity) | 按与当前行的相似度对当前列中的文本进行排序。 |
 | [**高级排序**](../sort/sort_multi) | 排序文档中的多个列或用高级选项。 |
 | [**列排序**](sort_columns) | 对 CSV 文档中的列进行排序。 |
 | **[删除重复行](../sort/delete_duplicate)** | 删除已选中文本或整个文档内的重复行。 |
@@ -45,6 +46,7 @@ sort_occurrence_d
 sort_random
 sort_reverse
 sort_sel
+sort_similarity
 sort_text_a
 sort_text_d
 sort_words_a

@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表: **編輯** \> **Markdown** \> **分行符號**
-- [全部命令](../tools/all_commands): **編輯** \> **Markdown** \> **分行符號**
+- 預設功能表: **編輯** \> **Markdown/HTML** \> **分行符號**
+- [全部命令](../tools/all_commands): **編輯** \> **Markdown/HTML** \> **分行符號**
 - 工具列: ![](../../images/markdown_line_break.png)
 - 狀態列: 無
 - 預設快速鍵: 無

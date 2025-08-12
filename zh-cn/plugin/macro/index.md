@@ -53,7 +53,7 @@
 | [Editor\_GetClipPos](editor_getclippos) | 检索剪贴板记录中的当前位置。 |
 | [Editor\_GetCmdID](editor_getcmdid) | 获得插件命令 ID。 |
 | [Editor\_GetColor](editor_getcolor) | 检索指定部分的文本、背景颜色以及样式。 |
-| [Editor\_GetColumn](editor_getcolumn) | 在 CSV 模式中设置一列文本。 |
+| [Editor\_GetColumn](editor_getcolumn) | 在 CSV 模式中获取一列文本。 |
 | [Editor\_GetConfigA](editor_getconfiga) | 将所选配置名称检索为 ANSI 字符串。 |
 | [Editor\_GetConfigW](editor_getconfigw) | 将所选配置名称检索为 Unicode 字符串。 |
 | [Editor\_GetDroppedFile](editor_getdroppedfile) | 检索最近拖放的文件。 |

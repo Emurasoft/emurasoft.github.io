@@ -100,7 +100,6 @@
 | ![](../../images/emeditor12_forward_button.png)[前进](../../cmd/edit/caret_forward) | 移动光标至下一位置。 |
 | ![](../../images/plugin_commit_list.png)[提交列表](../plugin/plugin_commit_list) | 提交列表插件。 |
 | ![](../../images/plugin_explorer.png)[资源管理器](../plugin/plugin_explorer) | 资源管理器插件。 |
-| ![](../../images/htmlbar.png)[HTMLBar](../plugin/plugin_htmlbar) | HTMLBar 插件。 |
 | ![](../../images/plugin_opendocuments.png)[打开的文档](../plugin/plugin_opendocuments) | 打开的文档插件。 |
 | ![](../../images/projects.png)[项目](../plugin/plugin_projects) | 项目插件。 |
 | ![](../../images/plugin_search.png)[搜索](../plugin/plugin_search) | 搜索插件。 |

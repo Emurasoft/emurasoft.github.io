@@ -1,17 +1,17 @@
-# Markdown 工具列命令
+# Markdown/HTML 工具列命令
 
 ## 摘要
 
-顯示或隱藏 Markdown 工具列。
+顯示或隱藏 Markdown/HTML 工具列。
 
 ## 說明
 
-顯示或隱藏 Markdown 工具列。
+顯示或隱藏 Markdown/HTML 工具列。
 
 ## 運行方法
 
-- 預設功能表: **檢視** > **工具列** \> **Markdown**
-- [全部命令](../tools/all_commands): **檢視** > **工具列** \> **Markdown**
+- 預設功能表: **檢視** > **工具列** \> **Markdown/HTML**
+- [全部命令](../tools/all_commands): **檢視** > **工具列** \> **Markdown/HTML**
 - 工具列: 無
 - 狀態列: 無
 - 預設快速鍵: 無

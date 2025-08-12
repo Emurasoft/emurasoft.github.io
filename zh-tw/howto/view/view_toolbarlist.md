@@ -100,7 +100,6 @@
 | ![](../../images/emeditor12_forward_button.png)[前進](../../cmd/edit/caret_forward) | 移動游標至下一位置。 |
 | ![](../../images/plugin_commit_list.png)[提交清單](../plugin/plugin_commit_list) | 提交清單外掛程式。 |
 | ![](../../images/plugin_explorer.png)[檔案總管](../plugin/plugin_explorer) | 檔案總管外掛程式。 |
-| ![](../../images/htmlbar.png)[HTMLBar](../plugin/plugin_htmlbar) | HTMLBar 外掛程式。 |
 | ![](../../images/plugin_opendocuments.png)[打開的文檔](../plugin/plugin_opendocuments) | 打開的文檔外掛程式。 |
 | ![](../../images/projects.png)[項目](../plugin/plugin_projects) | 專案外掛程式。 |
 | ![](../../images/plugin_search.png)[搜尋](../plugin/plugin_search) | 搜尋外掛程式。 |

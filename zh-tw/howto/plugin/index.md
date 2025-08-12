@@ -8,7 +8,6 @@
 plugin_commit_list
 plugin_develop
 plugin_explorer
-plugin_htmlbar
 plugin_install
 plugin_opendocuments
 plugin_projects

@@ -10,8 +10,8 @@
 
 ## 運行方法
 
-- 預設功能表: **編輯** \> **Markdown** \> **編號**
-- [全部命令](../tools/all_commands): **編輯** \> **Markdown** \> **編號**
+- 預設功能表: **編輯** \> **Markdown/HTML** \> **編號**
+- [全部命令](../tools/all_commands): **編輯** \> **Markdown/HTML** \> **編號**
 - 工具列: ![](../../images/numbering.png)
 - 狀態列: 無
 - 預設快速鍵: 無
