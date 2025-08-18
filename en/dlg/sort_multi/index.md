@@ -39,6 +39,7 @@ Displays the list of defined sort conditions.
 | Sort IPv6 Addresses Ascending | Sorts IPv6 addresses in the current column, in ascending order. |
 | Sort IPv6 Addresses Descending | Sorts IPv6 addresses in the current column, in descending order. |
 | Sort Randomly | Sorts randomly in the current column. |
+| Sort by Similarity | Sorts by similarity to the current cell in the current column. |
 
 ## Enable/Disable ALL check box
 
