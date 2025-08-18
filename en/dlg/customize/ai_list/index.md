@@ -32,9 +32,17 @@ Select how to display the response from the AI.
 | **Split and Compare** | The response will become the content of a new document and will be displayed in a split window for comparison. |
 | **Image** | The response will be displayed as an image in a web browser. |
 
+## Max tokens check box
+
+Select this to set a custom maximum token count instead of the default.
+
 ## Max tokens text box
 
 Specify the maximum token count. If this number is small, the response from the AI may be truncated.
+
+## Temperature (randomness) check box
+
+Select this to set a custom temperature instead of the default.
 
 ## Temperature (randomness) drop-down list box
 
