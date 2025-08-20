@@ -1,8 +1,8 @@
-# AI Prompts Page
+# AI Prompts page
 
 On the **AI Prompts**  page allows you to customize settings related to AI prompts.
 
-## AI Prompts list Box
+## AI Prompts list box
 
 Select the AI prompt you want to edit.
 
@@ -14,7 +14,7 @@ Enter the prompt.
 
 Use this button to choose from a list of already defined arguments.
 
-## Output drop-down list Box
+## Output drop-down list box
 
 Select how to display the response from the AI.
 
@@ -46,7 +46,7 @@ Select this to set a custom temperature instead of the default.
 
 ## Temperature (randomness) drop-down list box
 
-Specify the temperature for the AI. The higher this value is, the greater the randomness will be.
+Sets the AI’s temperature. Higher values make its output more random.
 
 ## Image size drop-down list box
 
