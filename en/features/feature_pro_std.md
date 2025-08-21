@@ -26,7 +26,7 @@ become faster.
 - Added a **Help** button to each
 dialog box.
 - Enhanced the Help with more details including **[Command Reference](../cmd/index)**
-and **[Frequently Asked Questions](../faq/index)**.
+and **Frequently Asked Questions**.
 - In Windows 2000/XP/2003, not only the core and some dialog boxes, but all
 dialog boxes support Unicode.
 - Added the /? switch to the **[Command Line Options](../howto/file/file_commandline)**.

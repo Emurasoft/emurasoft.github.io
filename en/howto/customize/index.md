@@ -25,4 +25,5 @@ usage_ruler
 usage_scroll
 virtual_space
 wrap_indent
+tools_external.md
 ```
