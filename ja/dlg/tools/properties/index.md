@@ -111,5 +111,5 @@
 
 ## 参考
 
-[Q. 外部ツールの定義例を教えてください。](../../../faq/tools/tools_external)
+[外部ツールの定義例](../../../howto/customize/tools_external)
 

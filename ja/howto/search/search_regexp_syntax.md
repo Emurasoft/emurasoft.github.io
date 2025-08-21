@@ -170,7 +170,7 @@ Copyright (C) K. Takata, based on Oniguruma Copyright (C) by K. Kosako.
 
 ## 参考
 
-- [Q. 正規表現例を教えてください。](../../faq/search/search_reg_exp_ex)
+- [正規表現による検索例](search_reg_exp_ex)
 - [改行コードの指定方法](search_nl)
 - [Boost.Regex: Regular Expression Syntax](https://www.boost.org/doc/libs/1_76_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html)
 - [Onigmo: Regular Expression Syntax](https://github.com/k-takata/Onigmo/blob/master/doc/RE) (注: \\nnn と \\xHH は非対応です)

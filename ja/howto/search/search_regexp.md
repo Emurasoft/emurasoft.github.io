@@ -15,4 +15,4 @@
 ## 参考
 
 - [正規表現構文](search_regexp_syntax)
-- [Q. 正規表現例を教えてください。](../../faq/search/search_reg_exp_ex)
+- [正規表現による検索例](search_reg_exp_ex)

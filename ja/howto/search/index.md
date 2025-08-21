@@ -14,4 +14,5 @@ search_regexp
 search_regexp_syntax
 search_replace
 search_replace_files
+search_reg_exp_ex
 ```
