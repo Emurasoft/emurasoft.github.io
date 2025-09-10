@@ -110,5 +110,5 @@
 
 ## 请同样参考
 
-[Q. 外部工具配置的例子有哪些？](../../../faq/tools/tools_external)
+[外部工具示例](../../../howto/customize/tools_external)
 

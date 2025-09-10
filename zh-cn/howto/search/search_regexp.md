@@ -11,4 +11,4 @@
 ## **See Also**
 
 - [正则表达式语法](search_regexp_syntax)
-- [Q. 正则表达式的例子有哪些？](../../faq/search/search_reg_exp_ex)
+- [正则表达式搜索示例](search_reg_exp_ex)

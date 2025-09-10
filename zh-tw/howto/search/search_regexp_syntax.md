@@ -127,7 +127,7 @@ Copyright (c) 1998-2001 Dr John Maddock
 
 ## 請同樣參考
 
-- [Q. 規則運算式的例子有哪些？](../../faq/search/search_reg_exp_ex)
+- [規則運算式搜尋範例](search_reg_exp_ex)
 - [指定換行](search_nl)
 - [Boost.Regex: Regular Expression Syntax](https://www.boost.org/doc/libs/1_76_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html)
 - [Onigmo: Regular Expression Syntax](https://github.com/k-takata/Onigmo/blob/master/doc/RE)（備注：不支持 **\\nnn** 和 **\\xHH** ）

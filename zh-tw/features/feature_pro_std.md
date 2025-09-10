@@ -20,7 +20,7 @@ orphan: true
 - 提高了用一個規則運算式搜尋的速度。
 - 優化了 EmEditor 如何搜尋其他窗口，并讓 EmEditor 的啟動更加快速。
 - 添加了 **「說明」** 鍵到每一個對話方塊中。
-- 添加了更多細節來加強 EmEditor 的「說明」，包括 **[命令參考](../cmd/index)** 以及 **[常見問題解答](../faq/index)**。
+- 添加了更多細節來加強 EmEditor 的「說明」，包括 **[命令參考](../cmd/index)** 以及 **常見問題解答**。
 - 在 Windows 2000/XP/2003 操作系統上，不僅是核心功能和一些對話方塊，而是所有的對話方塊都支持 Unicode。
 - 添加了 /? 開關到 **[命令行選項](../howto/file/file_commandline)** 中。
 - 在預設設定下，一個被插入的字符串能通過執行一次 [**撤消** 命令](../cmd/edit/edit_undo) 就被撤消。這個行為能被還原到之前的行為通過在 [**自訂** 對話方塊](../dlg/customize/index) 中 [**進階** 選項卡](../dlg/customize/advanced/index) 上取消勾選 **逐格撤消 (需要重啟 EmEditor )** 復選框。

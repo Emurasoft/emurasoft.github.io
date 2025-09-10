@@ -20,7 +20,7 @@ orphan: true
 - 提高了用一个正则表达式搜索的速度。
 - 优化了 EmEditor 如何搜索其他窗口，并让 EmEditor 的启动更加快速。
 - 添加了 **「帮助」** 键到每一个对话框中。
-- 添加了更多细节来加强 EmEditor 的“帮助”，包括 **[命令参考](../cmd/index)** 以及 **[常见问题解答](../faq/index)**。
+- 添加了更多细节来加强 EmEditor 的“帮助”，包括 **[命令参考](../cmd/index)** 以及 **常见问题解答**。
 - 在 Windows 2000/XP/2003 操作系统上，不仅是核心功能和一些对话框，而是所有的对话框都支持 Unicode。
 - 添加了 /? 开关到 **[命令行选项](../howto/file/file_commandline)** 中。
 - 在默认设定下，一个被插入的字符串能通过执行一次 [**撤消** 命令](../cmd/edit/edit_undo) 就被撤消。这个行为能被还原到之前的行为通过在 [**自定义** 对话框](../dlg/customize/index) 中 [**高级** 页面](../dlg/customize/advanced/index) 上取消勾选 **逐格撤消（需要重启 EmEditor ）** 复选框。

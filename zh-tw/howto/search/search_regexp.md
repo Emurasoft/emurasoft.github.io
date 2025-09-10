@@ -11,4 +11,4 @@
 ## **See Also**
 
 - [規則運算式語法](search_regexp_syntax)
-- [Q. 規則運算式的例子有哪些？](../../faq/search/search_reg_exp_ex)
+- [規則運算式搜尋範例](search_reg_exp_ex)
