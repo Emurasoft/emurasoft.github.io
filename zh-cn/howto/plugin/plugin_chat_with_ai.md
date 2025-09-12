@@ -3,8 +3,16 @@
 ## 安装
 **与 AI 聊天** 作为 **ChatAI** 插件提供。您可以从 [ChatAI 插件下载页面](https://www.emeditor.com/download-chatai/)下载。**ChatAI** 插件不适用于商店版或 32 位版本的 EmEditor。
 
-- 如果您使用的是 **桌面安装版** EmEditor，请点击 **Installer** 下载安装程序版本。然后，运行下载的安装程序。
-- 如果您使用的是 **便携版** EmEditor，请点击 **Zip archive** 下载 zip 文件，然后将 `ChatAI.dll` 文件解压到 EmEditor 文件夹下的 `PlugIns` 文件夹中。在 EmEditor 中进入 [**自定义插件**](../../cmd/tools/customize_plug_ins)，并**添加** `ChatAI.dll` 文件。
+### 桌面版
+1. 如果您使用 EmEditor 的**桌面安装程序**版本，请点击 **Installer** 下载安装程序版本。
+2. 运行已下载的安装程序。
+3. 打开 EmEditor，依次转到**自定义** > **AI 选项**。勾选**启用 AI**。
+
+### 便携版
+1. 如果您使用 EmEditor 的**便携版**，请点击 **Zip archive** 下载 zip 文件。
+2. 将 `ChatAI.dll` 解压到 EmEditor 文件夹中的 `PlugIns` 文件夹。
+3. 在 EmEditor 中导航到[**自定义插件**](../../cmd/tools/customize_plug_ins)，并**添加**`ChatAI.dll` 文件。
+4. 打开 EmEditor，前往到**自定义** > **AI 选项**。勾选**启用 AI**。
 
 ## API 密钥
 要开始使用与 AI 聊天，请从以下 AI 提供商中创建并复制一个 API 密钥。

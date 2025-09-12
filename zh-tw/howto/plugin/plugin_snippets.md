@@ -114,225 +114,216 @@
 
 ### 純文字
 
-程式碼片段包括任何您想要插入到文檔中的純文字。要編寫純文字，大部分的字元都可以使用，然而，如果您想要包括 \\，$，或 \` 到您的純文字中，它們必須被轉義為 \\\，\\$，以及 \\\`。
+程式碼片段包括任何您想要插入到文檔中的純文字。要編寫純文字，大部分的字元都可以使用，然而，如果您想要包括 `\`，`$`，或 \` 到您的純文字中，它們必須被轉義為 `\\`，`\$`，以及 \\\`。
 
 ### 占位符
 
 在您插入一個程式碼片段后，游標位置會在占位符之間跳轉，按 TAB 鍵會跳到下一個占位符。
 
-您可以在占位符中把這些制表位定義為 ${n:default}，這樣，當程式碼片段被插入時，第一次出現會是預設值。如果沒有預設值，您可以省略 {}，讓制表位顯示為$n，在這里，n 的數值是一個 0 到 9 之間的整數。當一個使用者插入一個程式碼片段，最初的游標位置在 $1，按 TAB 鍵會讓 Tab前進道下一個占位符 $2，$3，... 等等。最后一個 Tab是 $0。
+你可以在程式碼片段中將這些占位符定義為 `${n:default}`，其中 `default` 是插入片段時首先出現的預設值。若沒有預設值，可以省略 `{}`，讓占位符顯示為 `$n`，其中 `n` 為 0 到 9 之間的整數。使用者插入片段後，游標的第一個位置在 `$1`，按 Tab 鍵會將占位符前移到下一個預留位置 `$2`、`$3` 等。最後一個占位符為 `$0`。
 
-例如，下列的程式碼片段會在 HTML 中插入一個超連結，并且一開始的游標位置是 $1。當游標在 $1 處時，如果使用者按 TAB 鍵，游標會跳到 $2 處，然后到 $0。
+例如，下列的程式碼片段會在 HTML 中插入一個超連結，並且一開始的游標位置是 `$1`。當游標在 `$1` 處時，如果使用者按 TAB 鍵，游標會跳到 `$2` 處，然後到 `$0`。
 
+```
 <a target="$1" href="$2">$0</a>
+```
 
 程式碼片段能包括預設數值。下面顯示程式碼片段用一個預設值插入一個超連結。
 
-<a target="${1:\_blank}" href="${2:url}">$0</a>
+```
+<a target="${1:_blank}" href="${2:url}">$0</a>
+```
 
-您能在一個占位符中再包含一個占位符。下列程式碼片段用選取的目標參數插入一個超連結標籤。使用者能決定是否覆寫參數，刪除它，或再次按 TAB 鍵前進道下一個占位符處。
+你能在一個預留位置中再包含一個預留位置。下列程式碼片段用選取的目標參數插入一個超連結標籤。使用者能決定是否覆寫參數，刪除它，或再次按 TAB 鍵前進道下一個預留位置處。
 
-<a ${1: target="${2:\_blank}"} href="${3:url}">$0</a>
+```
+<a ${1: target="${2:_blank}"} href="${3:url}">$0</a>
+```
 
 ### 鏡像
 
-如果您用相同的占位符索引，所有這些占位符的數值都會變為相同或被鏡像。下列程式碼片段插入一個 “for” 循環。在這個情況下，數值 i 是占位符 $2 的預設值，并且相同索引中的占位符被用在其他兩處地方。當游標在 ${2:i} 處時，變更 i 的數值會被鏡像到其他地方。
+如果你用相同的預留位置索引，所有這些預留位置的數值都會變為相同或被鏡像。下列程式碼片段插入一個 `for` 循環。在這個情況下，數值 `i` 是預留位置 `$2` 的預設值，並且相同索引中的預留位置被用在其他兩處地方。當游標在 `${2:i}` 處時，變更 `i` 的數值會被鏡像到其他地方。
 
+```
 for( ${1:int} ${2:i} = ${3:0}; $2 != ${4:10}; $2++ ){
-
-$0
-
+    $0
 }
+```
 
 ### 轉換
 
-您能用規則運算式和取代格式把一個占位符的數值轉換為另一個。語法是: ${n/regexp/replace\_format/option} 其中
+你可以使用規則運算式和取代格式，將一個預留位置的值轉換為另一個。語法為：${n/regexp/replace_format/option}，其中：
+- n：預留位置的索引
+- regexp：要搜索的規則運算式
+- replace_format：取代格式
+- option：
+  - i：忽略大小寫
+  - g：全局選項
 
-n: 該占位符的索引
+下面的範例會把第一行輸入的字元複製到第二行，但會將第一個字元大寫。
 
-regexp: 要搜尋的規則運算式
-
-replace\_format: 取代的格式
-
-選項:
-
-**i** : 忽略大小寫
-
-**g** : 全局選項
-
-下列例子除了大寫第一個字元外，把第一行上輸入的字元複製到第二行上。T
-
+```
 $1
+${1/./\U\0/}
+```
 
-${1/./\\U\\0/}
+### 預定義參數：
 
-### 預設的參數:
+- $1：預留位置 1
+- $2：預留位置 2
+- $3：預留位置 3
+- $4：預留位置 4
+- $5：預留位置 5
+- ...：...
+- $9：預留位置 9
+- $0：最後一個預留位置
+- ${n:default}：帶預設文字的第 n 個預留位置
+- ${Path}：檔案的完整路徑名。
+- ${Dir}：目前的檔案的目錄名。
+- ${Filename}：不含副檔名的檔案名。
+- ${FilenameEx}：含副檔名的檔案名。
+- ${Ext}：檔案副檔名。
+- ${LineText}：游標所在行的文字。
+- ${WordText}：游標所在處的單字。
+- ${SelText}：所選文字。
+- ${CurCol}：游標的邏輯列號。
+- ${CurLine}：游標的邏輯行號。
+- ${Date}：今天的日期。
+- ${Time}：目前的時間。
+- ${Charset}：字元集（用於 HTML meta 標籤）。
+- ${TabSize}： Tab寬度。
+- ${IndentSize}：縮排寬度。
+- ${AutoIndent}：自動縮排開啟為 1，否則為 0。
+- ${UseSpacesForTabs}：「用空格代替 Tab」開啟為 1，否則為 0。
+- ${AppVersion}：EmEditor 的版本。
+- ${PluginVersion}：Snippets 外掛程式的版本。
+- ${TM_FILENAME}：同 ${FilenameEx}。
+- ${TM_CURRENT_LINE}：同 ${LineText}。
+- ${TM_CURRENT_WORD}：同 ${WordText}。
+- ${TM_DIRECTORY}：同 ${Dir}。
+- ${TM_FILEPATH}：同 ${Path}。
+- ${TM_LINE_INDEX}：同 ${CurCol}。
+- ${TM_LINE_NUMBER}：同 ${CurLine}。
+- ${TM_SELECTED_TEXT}：同 ${SelText}。
+- ${TM_SOFT_TABS}：同 ${UseSpacesForTabs}。
+- ${TM_TAB_SIZE}：同 ${TabSize}。
+- ${PickFullPath,title,filter}：所選檔案的完整路徑名。title 為對話方塊標題，filter 的格式為：文字檔案|*.txt|所有檔案|*.*||。
+- ${PickRelativePath,title,filter}：所選檔案的相對路徑名。title 為對話方塊標題，filter 的格式為：文字檔案|*.txt|所有檔案|*.*||。
+- ${PickColor}：所選顏色的 RGB 值。
+- ${DefColor}：最近選擇的顏色的 RGB 值。
 
-$1 占位符 1
+你也可以建立自訂參數，形式為 ${parameter_name}，其中 parameter_name 不在上述預定義清單中。當使用新的使用者參數時，會快顯對話方塊讓你輸入新值，除非該參數的值已儲存在外掛程式屬性的「全局參數」頁面。
 
-$2 占位符 2
+### Shell 程式碼
 
-$3 占位符 3
+你可以定義一個 Shell 程式碼來運行控制臺應用程式，並將字串傳遞給其標準輸入。控制臺應用程式的標準匯出和標準錯誤會被重定向到文檔的游標位置。Shell 程式碼必須按以下格式指定：
 
-$4 占位符 4
-
-$5 占位符 5
-
-...
-
-$9 占位符 9
-
-$0 上一個占位符
-
-${n:default} 有預設文字的占位符 n
-
-${Path} 檔案的完整路徑名。
-
-${Dir} 目前的檔案的目錄名稱。
-
-${Filename} 不帶副檔名的檔案名。
-
-${FilenameEx} 帶副檔名的檔案名。
-
-${Ext} 檔案副檔名。
-
-${LineText} 游標所在行。
-
-${WordText} 游標所在單字。
-
-${SelText} 選取的文字。
-
-${CurCol} 游標的邏輯列號。
-
-${CurLine} 游標的邏輯行號。
-
-${Date} 今天的日期。
-
-${Time} 目前的的時間。
-
-${Charset} 字元集 (用在 HTML META 標記中) 。
-
-${TabSize} Tab大小。
-
-${IndentSize} 縮排大小。
-
-${AutoIndent} 1 如果自動縮排開著，0 如果自動縮排關閉。
-
-${UseSpacesForTabs} 1 如果 "將空白來取代 Tab" 開著，0 如果該選項被關閉。
-
-${AppVersion} EmEditor 的版本。
-
-${PluginVersion} 程式碼片段外掛程式的版本。
-
-${TM\_FILENAME} 與 ${FilenameEx}相同。
-
-${TM\_CURRENT\_LINE} 與 ${LineText}相同。
-
-${TM\_CURRENT\_WORD} 與 ${WordText}相同。
-
-${TM\_DIRECTORY} 與 ${Dir}相同。
-
-${TM\_FILEPATH} 與 ${Path}相同。
-
-${TM\_LINE\_INDEX} 與 ${CurCol}相同。
-
-${TM\_LINE\_NUMBER} 與 ${CurLine}相同。
-
-${TM\_SELECTED\_TEXT} 與 ${SelText}相同。
-
-${TM\_SOFT\_TABS} 與 ${Use與SpacesForTabs}相同。
-
-${TM\_TAB\_SIZE} 與 ${TabSize}相同。
-
-${PickFullPath,title,filter} 選取檔案的完整路徑名稱。標題是對話方塊的標題，過濾器是檔案過濾器的格式: Text files\|\*.txt\|All files\|\*.\*\|\|
-
-${PickRelativePath,title,filter} 選取檔案的相對路徑名稱。標題是對話方塊的標題，過濾器是檔案過濾器的格式: Text files\|\*.txt\|All files\|\*.\*\|\|
-
-${PickColor} 選取顏色的 RGB 值。
-
-${DefColor} 選取顏色的 RGB 值。
-
-您同樣能在 ${parameter\_name} 的形式中創建您自己的參數，其中，parameter\_name 沒有在上述清單中被預先設定。當一個新使用者參數被使用，一個對話方塊出現，讓您能插入一個新的數值，除非一個參數的值被儲存到外掛程式屬性的全局參數頁面中。
-
-### 外殼程式代碼 (Shell Code)
-
-您能定義一個能夠運行程式，然后把字串傳遞到它的標準輸入中的外殼程式代碼。控制臺應用程式的標準輸出，還有標準錯誤，會被重新導向您下一個文檔的游標位置處。一個外殼程式代碼必須由下列格式指定:
-
-\`\- appname
-
+```
+`- appname
 stdin1
-
 stdin2
-
 ...
+`
+```
 
-\`
+如果結果字串以換行符（CR、LF 或 CR+LF）結束，換行符會被移除。例如，下面的片段會以大寫形式插入 ${name} 參數的內容。
 
-如果結果字串以一個換行符 (CR，LF 或 CR+LF) 結尾,換行符會被刪除。例如下列程式碼片段會用大寫插入 ${name} 參數的內容。
-
-\`\- powershell -
-
-\# prompts for name then echos the hello greeting
-
-\\$name = "${name}".ToUpper()
-
-"Hello \\$name!"
-
+```
+`- powershell -
+# prompts for name then echos the hello greeting
+\$name = "${name}".ToUpper()
+"Hello \$name!"
 exit
+`
+```
 
-\`
+如果你不想解析片段參數，可以這樣寫：
 
-如果您不想要分析程式碼片段參數，您可以寫:
-
-\`!\- appname
-
+```
+`!- appname
 stdin1
-
 stdin2
-
 ...
+`
+```
 
-\`
+如果你想運行命令提示符中的命令，可以定義傳給命令提示符（cmd.exe）的 Shell 程式碼，格式如下：
 
-如果您想要運行一個在命令提示符中使用的命令，您便能用 \`#cmd shell\_code\` 格式來定義一個可以被傳遞到命令提示符視窗 (cmd.exe) 的 shell 代碼。您指定的這個值可以用 "%COMSPEC% /c shell\_code" 格式被傳遞到 cmd.exe 中。標準輸出以及標準錯誤會從控制臺程式被重新導向到您的文字文檔的游標位置處。例如，下面的程式碼片段會插入到目前的的資料夾清單中。您能在每個程式碼片段中插入任意多個 shell 代碼。
+```
+`#cmd shell_code`
+```
 
-\`#cmd DIR\`
+你指定的值會以以下形式傳給 cmd.exe：
+
+```
+%COMSPEC% /c shell_code
+```
+
+控制臺應用程式的標準匯出和標準錯誤會被重定向到文字文檔的游標位置。例如，下面的片段會插入目前的資料夾的清單。你可以在每個片段中包含任意數量的 Shell 程式碼。
+
+```
+`#cmd DIR`
+```
 
 ### 巨集
 
-您能用 \`# \` 的格式在一個程式碼片段中包括一個巨集。第一個字元 # 表示這是一個巨集，而不是一個 shell 代碼。如果這個一個 ActiveScript 而不是 JavaScript，例如指示詞碼是 VBScript，PerlScript，PHPScript，或 RubyScript，您需要用 "#language=" 來定義語言。舉個例子，如果您想要用 VBScript，您就要寫 \`#language="VBScript"...\`。 **Interface** 對象被用來在程式碼片段和 EmEditor 巨集引擎之間傳遞值。下面的示例會在游標位置處插入剪貼簿上的內容。
+你可以在片段中以如下形式包含一個巨集：
 
-剪貼簿包含 \`# Interface.write( clipboardData.getData("") );\`。
+```
+`# `
+```
 
-Interface.write() 方法會把巨集結果傳遞到程式碼片段中。您同樣能使用 Interface.writeln() 來在結果的末尾添加歸位以及換行 (CR+LF)。您能在每個程式碼片段中包括任意多個巨集。
+第一個字元 # 表示這是一個巨集，而不是 Shell 程式碼。如果使用 JavaScript 之外的 ActiveScript（如 VBScript、PerlScript、PHPScript 或 RubyScript），你需要用以下方式定義語言：
 
-### 預設值，shell 代碼或巨集內的參數
+```
+`#language= `
+```
 
-占位符預設值能包含參數，shell 代碼或一個巨集。下面的程式碼片段會在 <p> 和 </p> 之間插入一個 <p> 標籤，如果存在選區的話。
+例如，如果你希望使用 VBScript，應寫作：
 
+```
+`#language="VBScript"... `
+```
+
+Interface 對象用於在片段與 EmEditor 巨集引擎之間傳遞值。下面的範例會將剪貼簿的內容插入到游標位置。
+
+```
+The clipboard contains `# Interface.write( clipboardData.getData("") );`.
+```
+
+Interface.write() 方法將巨集的結果傳回片段。你也可以使用 Interface.writeln()，在結果末尾添加歸位和換行（CR+LF）。你可以在每個片段中包含任意數量的巨集。
+
+### 預設值、Shell 程式碼或巨集中的參數
+
+預留位置的預設值可以包含參數、Shell 程式碼或巨集。下面的片段在存在選擇時，插入一個 <p> 標籤，並將所選文字放在 <p> 與 </p> 之間。
+
+```
 <p>${0:${SelText}}</p>
+```
 
-Shell 代碼和巨集能包含在它們的代碼或巨集中包含參數。下面的程式碼片段顯示了一個對話方塊，讓使用者可以輸入 ${name} 參數值來繼續。
+Shell 程式碼和巨集也可以在其程式碼或巨集中包含參數。下面的片段會顯示一個對話方塊，讓使用者為 ${name} 參數輸入一個值以繼續。
 
-\`# var s = "${name}";
-
+```
+`# var s = "${name}";
 for( var i = 0; i != 5; i++ ){
-
-Interface.writeln( s );
-
+    Interface.writeln( s );
 }
+`
+```
 
-\`
+你需要註意，所有 \、` 和 $ 前都必須加上一個 \。例如，下面的片段會插入 C:\Program Files\EmEditor。
 
-您要小心所有 \ 和 \` 和 $ 之前都要有一個 \\。例如，下列程式碼片段插入的是 "C:\\Program Files\\EmEditor"。
+```
+`# Interface.writeln( "C:\\\\Program Files\\\\EmEditor" ); `
+```
 
-\`# Interface.writeln( "C:\\\\\\Program Files\\\\\\EmEditor" ); \`
+這是因為反斜杠必須寫成 \\，而 JavaScript 也會將反斜杠轉換為 \\。結果就是，一個反斜杠會變成四個反斜杠（\\\\）。
 
-這是因為一個反斜杠必須被寫作 \\\\，并且 JavaScript 同樣會把一個反斜杠轉換為 \\\\。結果，一個反斜杠就轉換為四個反斜杠 (\\\\\\\\)。
+如果你不希望反斜杠被轉換，並且不需要在 shell 程式碼或巨集中包含任何參數，那么可以在程式碼開頭加入一個感嘆號（`!`）。也就是說——在 shell 程式碼中，你可以寫作 \`!...\`，在巨集中，你可以寫作 \`!#...\`。因此，前面的範例可以覆寫為：
 
-如果您不想要反斜杠被轉換，并且您也不需要再一個 shell 代碼或巨集中包括任何參數，您可以在代碼的開始處標示一個感嘆號 (!)。即——在 shell 代碼中，您會寫 \`!...\`，在巨集中，您可以寫 \`!#...\`。因此，之前的例子可以被重新寫作:
-
-\`!# Interface.writeln( "C:\\\\Program Files\\\\EmEditor" ); \`
+```
+`!# Interface.writeln( "C:\\Program Files\\EmEditor" ); `
+```
 
 ## 提示
 

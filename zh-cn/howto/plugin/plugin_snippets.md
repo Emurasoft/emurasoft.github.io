@@ -114,225 +114,216 @@
 
 ### 纯文本
 
-代码片段包括任何你想要插入到文档中的纯文本。要编写纯文本，大部分的字符都可以使用，然而，如果你想要包括 \\，$，或 \` 到纯文本中，它们必须被转义为 \\\，\\$，以及 \\\`。
+代码片段包括任何你想要插入到文档中的纯文本。要编写纯文本，大部分的字符都可以使用，然而，如果你想要包括 `\`，`$`，或 \` 到纯文本中，它们必须被转义为 `\\`，`\$`，以及 \\\`。
 
 ### 占位符
 
 在你插入一个代码片段后，光标位置会在占位符之间跳转，按 TAB 键会跳到下一个占位符。
 
-你可以在占位符中把这些制表位定义为 ${n:default}，这样，当代码片段被插入时，第一次出现会是默认值。如果没有默认值，你可以省略 {}，让制表位显示为$n，在这里，n 的数值是一个 0 到 9 之间的整数。当一个用户插入一个代码片段，最初的光标位置在 $1，按 TAB 键会让制表符前进道下一个占位符 $2，$3，... 等等。最后一个制表符是 $0。
+你可以在代码片段中将这些制表位定义为 `${n:default}`，其中 `default` 是插入片段时首先出现的默认值。若没有默认值，可以省略 `{}`，让制表位显示为 `$n`，其中 `n` 为 0 到 9 之间的整数。用户插入片段后，光标的第一个位置在 `$1`，按 Tab 键会将制表位前移到下一个占位符 `$2`、`$3` 等。最后一个制表位为 `$0`。
 
-例如，下列的代码片段会在 HTML 中插入一个超链接，并且一开始的光标位置是 $1。当光标在 $1 处时，如果用户按 TAB 键，光标会跳到 $2 处，然后到 $0。
+例如，下列的代码片段会在 HTML 中插入一个超链接，并且一开始的光标位置是 `$1`。当光标在 `$1` 处时，如果用户按 TAB 键，光标会跳到 `$2` 处，然后到 `$0`。
 
+```
 <a target="$1" href="$2">$0</a>
+```
 
 代码片段能包括默认数值。下面显示代码片段用一个默认值插入一个超链接。
 
-<a target="${1:\_blank}" href="${2:url}">$0</a>
+```
+<a target="${1:_blank}" href="${2:url}">$0</a>
+```
 
 你能在一个占位符中再包含一个占位符。下列代码片段用选取的目标参数插入一个超链接标签。用户能决定是否改写参数，删除它，或再次按 TAB 键前进道下一个占位符处。
 
-<a ${1: target="${2:\_blank}"} href="${3:url}">$0</a>
+```
+<a ${1: target="${2:_blank}"} href="${3:url}">$0</a>
+```
 
 ### 镜像
 
-如果你用相同的占位符索引，所有这些占位符的数值都会变为相同或被镜像。下列代码片段插入一个 “for” 循环。在这个情况下，数值 i 是占位符 $2 的默认值，并且相同索引中的占位符被用在其他两处地方。当光标在 ${2:i} 处时，变更 i 的数值会被镜像到其他地方。
+如果你用相同的占位符索引，所有这些占位符的数值都会变为相同或被镜像。下列代码片段插入一个 `for` 循环。在这个情况下，数值 `i` 是占位符 `$2` 的默认值，并且相同索引中的占位符被用在其他两处地方。当光标在 `${2:i}` 处时，变更 `i` 的数值会被镜像到其他地方。
 
+```
 for( ${1:int} ${2:i} = ${3:0}; $2 != ${4:10}; $2++ ){
-
-$0
-
+    $0
 }
+```
 
 ### 转换
 
-你能用正则表达式和替换格式把一个占位符的数值转换为另一个。语法是: ${n/regexp/replace\_format/option} 其中
+你可以使用正则表达式和替换格式，将一个占位符的值转换为另一个。语法为：${n/regexp/replace_format/option}，其中：
+- n：占位符的索引
+- regexp：要搜索的正则表达式
+- replace_format：替换格式
+- option：
+  - i：忽略大小写
+  - g：全局选项
 
-n: 该占位符的索引
+下面的示例会把第一行输入的字符复制到第二行，但会将第一个字符大写。
 
-regexp: 要搜索的正则表达式
-
-replace\_format: 替换的格式
-
-选项:
-
-**i** : 忽略大小写
-
-**g** : 全局选项
-
-下列例子除了大写第一个字符外，把第一行上输入的字符复制到第二行上。T
-
+```
 $1
+${1/./\U\0/}
+```
 
-${1/./\\U\\0/}
+### 预定义参数：
 
-### 预设的参数:
+- $1：占位符 1
+- $2：占位符 2
+- $3：占位符 3
+- $4：占位符 4
+- $5：占位符 5
+- ...：...
+- $9：占位符 9
+- $0：最后一个占位符
+- ${n:default}：带默认文本的第 n 个占位符
+- ${Path}：文件的完整路径名。
+- ${Dir}：当前文件的目录名。
+- ${Filename}：不含扩展名的文件名。
+- ${FilenameEx}：含扩展名的文件名。
+- ${Ext}：文件扩展名。
+- ${LineText}：光标所在行的文本。
+- ${WordText}：光标所在处的单词。
+- ${SelText}：所选文本。
+- ${CurCol}：光标的逻辑列号。
+- ${CurLine}：光标的逻辑行号。
+- ${Date}：今天的日期。
+- ${Time}：当前时间。
+- ${Charset}：字符集（用于 HTML meta 标签）。
+- ${TabSize}：制表符宽度。
+- ${IndentSize}：缩进宽度。
+- ${AutoIndent}：自动缩进开启为 1，否则为 0。
+- ${UseSpacesForTabs}：“用空格代替制表符”开启为 1，否则为 0。
+- ${AppVersion}：EmEditor 的版本。
+- ${PluginVersion}：Snippets 插件的版本。
+- ${TM_FILENAME}：同 ${FilenameEx}。
+- ${TM_CURRENT_LINE}：同 ${LineText}。
+- ${TM_CURRENT_WORD}：同 ${WordText}。
+- ${TM_DIRECTORY}：同 ${Dir}。
+- ${TM_FILEPATH}：同 ${Path}。
+- ${TM_LINE_INDEX}：同 ${CurCol}。
+- ${TM_LINE_NUMBER}：同 ${CurLine}。
+- ${TM_SELECTED_TEXT}：同 ${SelText}。
+- ${TM_SOFT_TABS}：同 ${UseSpacesForTabs}。
+- ${TM_TAB_SIZE}：同 ${TabSize}。
+- ${PickFullPath,title,filter}：所选文件的完整路径名。title 为对话框标题，filter 的格式为：文本文件|*.txt|所有文件|*.*||。
+- ${PickRelativePath,title,filter}：所选文件的相对路径名。title 为对话框标题，filter 的格式为：文本文件|*.txt|所有文件|*.*||。
+- ${PickColor}：所选颜色的 RGB 值。
+- ${DefColor}：最近选择的颜色的 RGB 值。
 
-$1 占位符 1
+你也可以创建自定义参数，形式为 ${parameter_name}，其中 parameter_name 不在上述预定义列表中。当使用新的用户参数时，会弹出对话框让你输入新值，除非该参数的值已保存在插件属性的“全局参数”页面。
 
-$2 占位符 2
+### Shell 代码
 
-$3 占位符 3
+你可以定义一个 Shell 代码来运行控制台应用程序，并将字符串传递给其标准输入。控制台应用程序的标准输出和标准错误会被重定向到文档的光标位置。Shell 代码必须按以下格式指定：
 
-$4 占位符 4
-
-$5 占位符 5
-
-...
-
-$9 占位符 9
-
-$0 上一个占位符
-
-${n:default} 有默认文本的占位符 n
-
-${Path} 文件的完整路径名。
-
-${Dir} 当前文件的目录名称。
-
-${Filename} 不带扩展名的文件名。
-
-${FilenameEx} 带扩展名的文件名。
-
-${Ext} 文件扩展名。
-
-${LineText} 光标所在行。
-
-${WordText} 光标所在单词。
-
-${SelText} 选取的文本。
-
-${CurCol} 光标的逻辑列号。
-
-${CurLine} 光标的逻辑行号。
-
-${Date} 今天的日期。
-
-${Time} 当前的时间。
-
-${Charset} 字符集（用在 HTML META 标记中）。
-
-${TabSize} 制表符大小。
-
-${IndentSize} 缩进大小。
-
-${AutoIndent} 1 如果自动缩进开着，0 如果自动缩进关闭。
-
-${UseSpacesForTabs} 1 如果 "将空格来替换制表符" 开着，0 如果该选项被关闭。
-
-${AppVersion} EmEditor 的版本。
-
-${PluginVersion} 代码片段插件的版本。
-
-${TM\_FILENAME} 与 ${FilenameEx}相同。
-
-${TM\_CURRENT\_LINE} 与 ${LineText}相同。
-
-${TM\_CURRENT\_WORD} 与 ${WordText}相同。
-
-${TM\_DIRECTORY} 与 ${Dir}相同。
-
-${TM\_FILEPATH} 与 ${Path}相同。
-
-${TM\_LINE\_INDEX} 与 ${CurCol}相同。
-
-${TM\_LINE\_NUMBER} 与 ${CurLine}相同。
-
-${TM\_SELECTED\_TEXT} 与 ${SelText}相同。
-
-${TM\_SOFT\_TABS} 与 ${Use与SpacesForTabs}相同。
-
-${TM\_TAB\_SIZE} 与 ${TabSize}相同。
-
-${PickFullPath,title,filter} 选取文件的完整路径名称。标题是对话框的标题，过滤器是文件过滤器的格式: Text files\|\*.txt\|All files\|\*.\*\|\|
-
-${PickRelativePath,title,filter} 选取文件的相对路径名称。标题是对话框的标题，过滤器是文件过滤器的格式: Text files\|\*.txt\|All files\|\*.\*\|\|
-
-${PickColor} 选取颜色的 RGB 值。
-
-${DefColor} 选取颜色的 RGB 值。
-
-你同样能在 ${parameter\_name} 的形式中创建你自己的参数，其中，parameter\_name 没有在上述列表中被预先设定。当一个新用户参数被使用，一个对话框出现，让你能插入一个新的数值，除非一个参数的值被保存到插件属性的全局参数页面中。
-
-### 外壳程序代码 (Shell Code)
-
-你能定义一个能够运行程序，然后把字符串传递到它的标准输入中的外壳程序代码。控制台应用程序的标准输出，还有标准错误，会被重新导向你下一个文档的光标位置处。一个外壳程序代码必须由下列格式指定:
-
-\`\- appname
-
+```
+`- appname
 stdin1
-
 stdin2
-
 ...
+`
+```
 
-\`
+如果结果字符串以换行符（CR、LF 或 CR+LF）结束，换行符会被移除。例如，下面的片段会以大写形式插入 ${name} 参数的内容。
 
-如果结果字符串以一个换行符（CR，LF 或 CR+LF）结尾,换行符会被删除。例如下列代码片段会用大写插入 ${name} 参数的内容。
-
-\`\- powershell -
-
-\# prompts for name then echos the hello greeting
-
-\\$name = "${name}".ToUpper()
-
-"Hello \\$name!"
-
+```
+`- powershell -
+# prompts for name then echos the hello greeting
+\$name = "${name}".ToUpper()
+"Hello \$name!"
 exit
+`
+```
 
-\`
+如果你不想解析片段参数，可以这样写：
 
-如果你不想要分析代码片段参数，你可以写:
-
-\`!\- appname
-
+```
+`!- appname
 stdin1
-
 stdin2
-
 ...
+`
+```
 
-\`
+如果你想运行命令提示符中的命令，可以定义传给命令提示符（cmd.exe）的 Shell 代码，格式如下：
 
-如果你想要运行一个在命令提示符中使用的命令，你便能用 \`#cmd shell\_code\` 格式来定义一个可以被传递到命令提示符窗口 (cmd.exe) 的 shell 代码。你指定的这个值可以用 "%COMSPEC% /c shell\_code" 格式被传递到 cmd.exe 中。标准输出以及标准错误会从控制台程序被重新导向到文本文档的光标位置处。例如，下面的代码片段会插入到当前的文件夹列表中。你能在每个代码片段中插入任意多个 shell 代码。
+```
+`#cmd shell_code`
+```
 
-\`#cmd DIR\`
+你指定的值会以以下形式传给 cmd.exe：
+
+```
+%COMSPEC% /c shell_code
+```
+
+控制台应用程序的标准输出和标准错误会被重定向到文本文档的光标位置。例如，下面的片段会插入当前文件夹的列表。你可以在每个片段中包含任意数量的 Shell 代码。
+
+```
+`#cmd DIR`
+```
 
 ### 宏
 
-你能用 \`# \` 的格式在一个代码段中包括一个宏。第一个字符 # 表示这是一个宏，而不是一个 shell 代码。如果这个一个 ActiveScript 而不是 JavaScript，例如脚本是 VBScript，PerlScript，PHPScript，或 RubyScript，你需要用 "#language=" 来定义语言。举个例子，如果你想要用 VBScript，你就要写 \`#language="VBScript"...\`。 **Interface** 对象被用来在代码片段和 EmEditor 宏引擎之间传递值。下面的示例会在光标位置处插入剪贴板上的内容。
+你可以在片段中以如下形式包含一个宏：
 
-剪贴板包含 \`# Interface.write( clipboardData.getData("") );\`。
+```
+`# `
+```
 
-Interface.write() 方法会把宏结果传递到代码片段中。你同样能使用 Interface.writeln() 来在结果的末尾添加回车以及换行 (CR+LF)。你能在每个代码片段中包括任意多个宏。
+第一个字符 # 表示这是一个宏，而不是 Shell 代码。如果使用 JavaScript 之外的 ActiveScript（如 VBScript、PerlScript、PHPScript 或 RubyScript），你需要用以下方式定义语言：
 
-### 默认值，shell 代码或宏内的参数
+```
+`#language= `
+```
 
-占位符默认值能包含参数，shell 代码或一个宏。下面的代码片段会在 <p> 和 </p> 之间插入一个 <p> 标签，如果存在选区的话。
+例如，如果你希望使用 VBScript，应写作：
 
+```
+`#language="VBScript"... `
+```
+
+Interface 对象用于在片段与 EmEditor 宏引擎之间传递值。下面的示例会将剪贴板的内容插入到光标位置。
+
+```
+The clipboard contains `# Interface.write( clipboardData.getData("") );`.
+```
+
+Interface.write() 方法将宏的结果传回片段。你也可以使用 Interface.writeln()，在结果末尾添加回车和换行（CR+LF）。你可以在每个片段中包含任意数量的宏。
+
+### 默认值、Shell 代码或宏中的参数
+
+占位符的默认值可以包含参数、Shell 代码或宏。下面的片段在存在选择时，插入一个 <p> 标签，并将所选文本放在 <p> 与 </p> 之间。
+
+```
 <p>${0:${SelText}}</p>
+```
 
-Shell 代码和宏能包含在它们的代码或宏中包含参数。下面的代码片段显示了一个对话框，让用户可以输入 ${name} 参数值来继续。
+Shell 代码和宏也可以在其代码或宏中包含参数。下面的片段会显示一个对话框，让用户为 ${name} 参数输入一个值以继续。
 
-\`# var s = "${name}";
-
+```
+`# var s = "${name}";
 for( var i = 0; i != 5; i++ ){
-
-Interface.writeln( s );
-
+    Interface.writeln( s );
 }
+`
+```
 
-\`
+你需要注意，所有 \、` 和 $ 前都必须加上一个 \。例如，下面的片段会插入 C:\Program Files\EmEditor。
 
-你要小心所有 \ 和 \` 和 $ 之前都要有一个 \\。例如，下列代码片段插入的是 "C:\\Program Files\\EmEditor"。
+```
+`# Interface.writeln( "C:\\\\Program Files\\\\EmEditor" ); `
+```
 
-\`# Interface.writeln( "C:\\\\\\Program Files\\\\\\EmEditor" ); \`
+这是因为反斜杠必须写成 \\，而 JavaScript 也会将反斜杠转换为 \\。结果就是，一个反斜杠会变成四个反斜杠（\\\\）。
 
-这是因为一个反斜杠必须被写作 \\\\，并且 JavaScript 同样会把一个反斜杠转换为 \\\\。结果，一个反斜杠就转换为四个反斜杠 (\\\\\\\\)。
+如果你不希望反斜杠被转换，并且不需要在 shell 代码或宏中包含任何参数，那么可以在代码开头加入一个感叹号（`!`）。也就是说——在 shell 代码中，你可以写作 \`!...\`，在宏中，你可以写作 \`!#...\`。因此，前面的示例可以改写为：
 
-如果你不想要反斜杠被转换，并且你也不需要再一个 shell 代码或宏中包括任何参数，你可以在代码的开始处标示一个感叹号 (!)。即——在 shell 代码中，你会写 \`!...\`，在宏中，你可以写 \`!#...\`。因此，之前的例子可以被重新写作:
-
-\`!# Interface.writeln( "C:\\\\Program Files\\\\EmEditor" ); \`
+```
+`!# Interface.writeln( "C:\\Program Files\\EmEditor" ); `
+```
 
 ## 提示
 
