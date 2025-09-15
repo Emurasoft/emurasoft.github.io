@@ -38,6 +38,7 @@
 | [Webブラウザのカスタマイズ](customize_web) | \[カスタマイズ\] ダイアログ ボックスの \[Webブラウザ\] ページを開きます。 |
 | [お気に入りのカスタマイズ](customize_favorites) | \[カスタマイズ\] ダイアログ ボックスの \[お気に入り\] ページを開きます。 |
 | [Markdownのカスタマイズ](customize_markdown) | \[カスタマイズ\] ダイアログ ボックスの \[Markdown\] ページを開きます。 |
+| [スニペットのカスタマイズ](customize_snippets) | \[カスタマイズ\] ダイアログ ボックスの \[スニペット\] ページを開きます。 |
 | [通知のカスタマイズ](customize_notifications) | \[カスタマイズ\] ダイアログ ボックスの \[通知\] ページを開きます。 |
 | [更新のカスタマイズ](customize_update) | \[カスタマイズ\] ダイアログ ボックスの \[更新\] ページを開きます。 |
 | [ヘルプのカスタマイズ](customize_help) | \[カスタマイズ\] ダイアログ ボックスの \[ヘルプ\] ページを開きます。 |
@@ -134,6 +135,7 @@ customize_proxy
 customize_rendering
 customize_search
 customize_shortcut
+customize_snippets
 customize_sort
 customize_status
 customize_sv

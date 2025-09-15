@@ -26,7 +26,7 @@ Move the selected item up on the list.
 
 Move the selected item down on the list.
 
-## Text
+## Text text box
 
 Enter the text.
 
