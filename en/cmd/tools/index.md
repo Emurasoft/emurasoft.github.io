@@ -60,6 +60,7 @@
 | **[Customize Web Browser](customize_web)** | Opens the Web Browser page of the Customize dialog box. |
 | **[Customize Favorites](customize_favorites)** | Opens the Favorites page of the Customize dialog box. |
 | **[Customize Markdown](customize_markdown)** | Opens the Markdown page of the Customize dialog box. |
+| **[Customize Snippets](customize_snippets)** | Opens the Snippets page of the Customize dialog box. |
 | **[Customize Notifications](customize_notifications)** | Opens the Notifications page of the Customize dialog box. |
 | **[Customize Update](customize_update)** | Opens the Update page of the Customize dialog box. |
 | **[Customize Help](customize_help)** | Opens the Update page of the Customize dialog box. |
@@ -133,6 +134,7 @@ customize_proxy
 customize_rendering
 customize_search
 customize_shortcut
+customize_snippets
 customize_sort
 customize_status
 customize_sv
