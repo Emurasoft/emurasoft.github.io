@@ -61,6 +61,7 @@
 | **[Customize Favorites](customize_favorites)** | Opens the Favorites page of the Customize dialog box. |
 | **[Customize Markdown](customize_markdown)** | Opens the Markdown page of the Customize dialog box. |
 | **[Customize Snippets](customize_snippets)** | Opens the Snippets page of the Customize dialog box. |
+| **[Customize Markers](customize_markers)** | Opens the Markers page of the Customize dialog box. |
 | **[Customize Notifications](customize_notifications)** | Opens the Notifications page of the Customize dialog box. |
 | **[Customize Update](customize_update)** | Opens the Update page of the Customize dialog box. |
 | **[Customize Help](customize_help)** | Opens the Update page of the Customize dialog box. |
@@ -69,10 +70,6 @@
 | **[Associate with EmEditor](file_associate)** | Associates file extensions. |
 | **[Customize Toolbars](customize_toolbar)** | Customizes toolbar settings. |
 | **[Customize Jump List](customize_jump_list)** | Customizes the jump list. |
-| **[Customize Markers](customize_markers)** | Customizes marker settings. |
-| **[Customize Markers - Marker List](customize_markers_list)** | Opens the Customize Markers dialog box, and selects the Marker List page. |
-| **[Customize Markers - Auto Marker](customize_markers_auto)** | Opens the Customize Markers dialog box, and selects the Auto Marker page. |
-| **[Customize Markers - Options](customize_markers_options)** | Opens the Customize Markers dialog box, and selects the Options page. |
 | **[All Commands](all_commands)** | Displays all commands. |
 | **[Context Menu](context_menu)** | Shows Context Menu. |
 | **[Customize Tray Icon](customize_tray)** | Customizes Tray Icon. |
@@ -120,10 +117,6 @@ customize_jump_list
 customize_lang
 customize_layouts
 customize_markdown
-customize_markers
-customize_markers_auto
-customize_markers_list
-customize_markers_options
 customize_marks
 customize_mouse
 customize_notifications
@@ -135,6 +128,7 @@ customize_rendering
 customize_search
 customize_shortcut
 customize_snippets
+customize_markers
 customize_sort
 customize_status
 customize_sv

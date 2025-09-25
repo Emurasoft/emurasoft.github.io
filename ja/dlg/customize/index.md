@@ -38,6 +38,7 @@ ai/index
 favorites/index
 markdown/index
 snippets/index
+markers/index
 toolbar_options/index
 toolbar_buttons/index
 menus/index

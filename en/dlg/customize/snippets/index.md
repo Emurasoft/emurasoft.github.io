@@ -30,6 +30,10 @@ Move the selected item down on the list.
 
 Enter the text.
 
+## Custom icon check box
+
+Customizes the icon for the selected snippet.
+
 ## Sample Icon From This File text box
 
 Enter the file name you sampled the icon from.

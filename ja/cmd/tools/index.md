@@ -39,6 +39,7 @@
 | [お気に入りのカスタマイズ](customize_favorites) | \[カスタマイズ\] ダイアログ ボックスの \[お気に入り\] ページを開きます。 |
 | [Markdownのカスタマイズ](customize_markdown) | \[カスタマイズ\] ダイアログ ボックスの \[Markdown\] ページを開きます。 |
 | [スニペットのカスタマイズ](customize_snippets) | \[カスタマイズ\] ダイアログ ボックスの \[スニペット\] ページを開きます。 |
+| [マーカーのカスタマイズ](customize_markers) | \[カスタマイズ\] ダイアログ ボックスの \[マーカー\] ページを開きます。 |
 | [通知のカスタマイズ](customize_notifications) | \[カスタマイズ\] ダイアログ ボックスの \[通知\] ページを開きます。 |
 | [更新のカスタマイズ](customize_update) | \[カスタマイズ\] ダイアログ ボックスの \[更新\] ページを開きます。 |
 | [ヘルプのカスタマイズ](customize_help) | \[カスタマイズ\] ダイアログ ボックスの \[ヘルプ\] ページを開きます。 |
@@ -69,10 +70,6 @@
 | [ファイル新規作成時の詳細のプロパティ](property_file_new) | 現在の設定のファイル新規作成時の詳細のプロパティを変更します。 |
 | [ファイル保存時の詳細のプロパティ](property_file_save) | 現在の設定のファイル保存時の詳細のプロパティを変更します。 |
 | [ジャンプ リストのカスタマイズ](customize_jump_list) | ジャンプ リストをカスタマイズします。 |
-| [マーカーのカスタマイズ](customize_markers) | マーカーの設定をカスタマイズします。 |
-| [マーカーのカスタマイズ \- マーカー一覧](customize_markers_list) | マーカーのカスタマイズ ダイアログ ボックスを表示して、マーカー一覧ページを選択します。 |
-| [マーカーのカスタマイズ \- 自動マーカー](customize_markers_auto) | マーカーのカスタマイズ ダイアログ ボックスを表示して、自動マーカー ページを選択します。 |
-| [マーカーのカスタマイズ \- オプション](customize_markers_options) | マーカーのカスタマイズ ダイアログ ボックスを表示して、オプション ページを選択します。 |
 | [トレイ アイコンの設定](customize_tray) | トレイ アイコンの設定を行います。 |
 | [すべてのコマンド](all_commands) | すべてのコマンドから選択して実行します。 |
 | [クイック起動](search_all_commands) | すべてのコマンドから指定するコマンドを検索して素早く起動します。 |
@@ -121,10 +118,6 @@ customize_jump_list
 customize_lang
 customize_layouts
 customize_markdown
-customize_markers
-customize_markers_auto
-customize_markers_list
-customize_markers_options
 customize_marks
 customize_mouse
 customize_notifications
@@ -136,6 +129,7 @@ customize_rendering
 customize_search
 customize_shortcut
 customize_snippets
+customize_markers
 customize_sort
 customize_status
 customize_sv

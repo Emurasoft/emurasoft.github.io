@@ -2,17 +2,16 @@
 
 ## Summary
 
-Customizes marker settings.
+Opens the Markers page of the Customize dialog box.
 
 ## Description
 
-Displays the [**Customize Markers** dialog box](../../dlg/customize_markers/index), where you can customize markers.
+Displays the Markers page of the [**Customize** dialog box](../../dlg/customize/index), where you can define common application settings.
 
 ## How to Run
 
-- Default Menu: **Tools** \> **Customize Markers**
-- [All Commands](all_commands): **Tools** >
-**Customize Markers** \> **Customize Markers**
+- Default Menu: None
+- [All Commands](all_commands): **Tools** \> **Customize** \> **Markers**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
