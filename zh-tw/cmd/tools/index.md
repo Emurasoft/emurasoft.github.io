@@ -3,9 +3,32 @@
 |     |     |
 | --- | --- |
 | **[當前組態屬性](customize)** | 更改目前的選定組態的屬性。 |
+| **[一般屬性](property_margin)** | 目前的組態的一般屬性。 |
+| **[捲動屬性](property_scroll)** | 目前的組態的捲動屬性。 |
+| **[檔案屬性](property_file)** | 目前的組態的檔案屬性。 |
+| **[備份屬性](property_backup)** | 目前的組態的備份屬性。 |
+| **[自動儲存屬性](property_auto_save)** | 目前的組態的自動儲存屬性。 |
+| **[換行屬性](property_kinsoku)** | 目前的組態的換行屬性。 |
+| **[不換行屬性](property_face)** | 目前的組態的不換行屬性。 |
+| **[亮顯 (1) 屬性](property_hilite)** | 目前的組態的亮顯 (1) 屬性。 |
+| **[亮顯 (2) 屬性](property_comment)** | 目前的組態的亮顯 (2) 屬性。 |
+| **[顯示屬性](property_show)** | 目前的組態的顯示屬性。 |
+| **[標記屬性](property_mark)** | 目前的組態的標記屬性。 |
+| **[列印屬性](property_print)** | 目前的組態的列印屬性。 |
+| **[連結屬性](property_link)** | 目前的組態的連結屬性。 |
+| **[鍵盤屬性](property_keyboard)** | 目前的組態的鍵盤屬性。 |
+| **[拼字檢查屬性](property_spell)** | 目前的組態的拼字檢查屬性。 |
+| **[大綱屬性](property_outline)** | 目前的組態的大綱屬性。 |
+| **[語法檢查屬性](property_validation)** | 目前的組態的語法檢查屬性。 |
+| **[字元檢查屬性](property_char_check)** | 目前的組態的字元檢查屬性。 |
+| **[語言伺服器屬性](property_language_server)** | 目前的組態的語言伺服器屬性。 |
+| **[Tab/縮排屬性](property_indent)** | 目前的組態的 Tab/縮排屬性。 |
+| **[新增檔案詳細信息屬性](property_file_new)** | 目前的組態的新增檔案詳細信息屬性。 |
+| **[儲存檔案詳細信息屬性](property_file_save)** | 目前的組態的儲存檔案詳細信息屬性。 |
 | **[所有組態屬性](all_prop)** | 更改所有組態的屬性。 |
-| [**選擇組態**(快顯功能表)](config_popup) | 選擇一個組態。 |
+| **[組態清單](select_config)** | 選擇一個指定的組態 (多個項目) 。 |
 | **[定義組態](config)** | 定義組態。 |
+| [**選擇組態**(快顯功能表)](config_popup) | 選擇一個組態。 |
 | **[檔案關聯組態](configuration_associations)** | 將檔案類型關聯到組態項。 |
 | **[自訂](common_settings)** | 自訂常用應用程式設置。 |
 | **[自訂檔案](customize_file)** | 打開自訂對話方塊中的檔案頁面。 |
@@ -37,6 +60,8 @@
 | **[自訂網頁瀏覽器](customize_web)** | 打開自訂對話方塊中的網頁瀏覽器頁面。 |
 | **[自訂我的最愛](customize_favorites)** | 打開自訂對話方塊中的我的最愛頁面。 |
 | **[自訂 Markdown](customize_markdown)** | 打開自訂對話方塊中的 Markdown 頁面。 |
+| **[自訂程式碼片段](customize_snippets)** | 打開自訂對話方塊的程式碼片段頁面。 |
+| **[自訂標記](customize_markers)** | 打開自訂對話方塊的標記頁面。 |
 | **[自訂通知](customize_notifications)** | 打開自訂對話方塊中的通知頁面。 |
 | **[自訂更新](customize_update)** | 打開自訂對話方塊中的更新頁面。 |
 | **[自訂説明](customize_help)** | 打開自訂對話方塊中的説明頁面。 |
@@ -44,35 +69,10 @@
 | **[自訂語言](customize_lang)** | 打開自訂對話方塊中的語言頁面。 |
 | **[與 EmEditor 關聯](file_associate)** | 關聯檔案副檔名。 |
 | **[自訂工具列](customize_toolbar)** | 自訂工具列設置。 |
-| **[一般屬性](property_margin)** | 目前的組態的一般屬性。 |
-| **[捲動屬性](property_scroll)** | 目前的組態的捲動屬性。 |
-| **[檔案屬性](property_file)** | 目前的組態的檔案屬性。 |
-| **[備份屬性](property_backup)** | 目前的組態的備份屬性。 |
-| **[自動儲存屬性](property_auto_save)** | 目前的組態的自動儲存屬性。 |
-| **[換行屬性](property_kinsoku)** | 目前的組態的換行屬性。 |
-| **[不換行屬性](property_face)** | 目前的組態的不換行屬性。 |
-| **[亮顯 (1) 屬性](property_hilite)** | 目前的組態的亮顯 (1) 屬性。 |
-| **[亮顯 (2) 屬性](property_comment)** | 目前的組態的亮顯 (2) 屬性。 |
-| **[顯示屬性](property_show)** | 目前的組態的顯示屬性。 |
-| **[標記屬性](property_mark)** | 目前的組態的標記屬性。 |
-| **[列印屬性](property_print)** | 目前的組態的列印屬性。 |
-| **[連結屬性](property_link)** | 目前的組態的連結屬性。 |
-| **[鍵盤屬性](property_keyboard)** | 目前的組態的鍵盤屬性。 |
-| **[拼字檢查屬性](property_spell)** | 目前的組態的拼字檢查屬性。 |
-| **[大綱屬性](property_outline)** | 目前的組態的大綱屬性。 |
-| **[語法檢查屬性](property_validation)** | 目前的組態的語法檢查屬性。 |
-| **[字元檢查屬性](property_char_check)** | 目前的組態的字元檢查屬性。 |
-| **[語言伺服器屬性](property_language_server)** | 目前的組態的語言伺服器屬性。 |
-| **[Tab/縮排屬性](property_indent)** | 目前的組態的 Tab/縮排屬性。 |
-| **[新增檔案詳細信息屬性](property_file_new)** | 目前的組態的新增檔案詳細信息屬性。 |
-| **[儲存檔案詳細信息屬性](property_file_save)** | 目前的組態的儲存檔案詳細信息屬性。 |
 | **[自訂跳轉清單](customize_jump_list)** | 自訂跳轉清單。 |
-| **[自訂標記](customize_markers)** | 自訂標記設置。 |
-| **[自訂標記 \- 標記清單](customize_markers_list)** | 打開自訂標記對話方塊并選擇標記清單頁面。 |
-| **[自訂標記 \- 自動標記](customize_markers_auto)** | 打開自訂標記對話方塊并選擇自動標記頁面。 |
-| **[自訂標記 \- 選項](customize_markers_options)** | 打開自訂標記對話方塊并選擇選項頁面。 |
-| **[自訂系統匣圖示](customize_tray)** | 自訂系統匣圖示。 |
 | **[所有命令](all_commands)** | 顯示所有命令。 |
+| **[內容功能表](context_menu)** | 顯示內容功能表。 |
+| **[自訂系統匣圖示](customize_tray)** | 自訂系統匣圖示。 |
 | **[快速啟動](search_all_commands)** | 快速啟動一個指定的命令。 |
 | **[啟動視窗](start_window)** | 顯示啟動視窗。 |
 | [**使用者功能表 (1)**](user_menu1) | 顯示使用者功能表 (1)，被用作兩次按鍵捷徑的第一個快速鍵。 |
@@ -83,15 +83,12 @@
 | [**使用者功能表 (6)**](user_menu6) | 顯示使用者功能表 (6)，被用作兩次按鍵捷徑的第一個快速鍵。 |
 | [**使用者功能表 (7)**](user_menu7) | 顯示使用者功能表 (7)，被用作兩次按鍵捷徑的第一個快速鍵。 |
 | [**使用者功能表 (8)**](user_menu8) | 顯示使用者功能表 (8)，被用作兩次按鍵捷徑的第一個快速鍵。 |
-| **[內容功能表](context_menu)** | 顯示內容功能表。 |
 | **[導入導出精靈](import_export)** | 顯示一個精靈來從檔案中導入設置或導出目前的設置到一個檔案中。 |
 | **[自訂工具](customize_tools)** | 自訂外部工具。 |
 | [**終止工具任務**](terminate_tool) | 終止目前的正在運行的工具任務。 |
 | **[分割檔案](split_to_files)** | 將目前的文件或一個檔案分割並儲存為多個檔案。 |
 | **[合併檔案](combine_files)** | 將打開的文檔合併至一個檔案。 |
 | **[重設所有設定](reset_all_settings)** | 重設所有 EmEditor 設置并重啟 EmEditor。 |
-| **[刪除舊的設定](delete_old_settings)** | 刪除所有不再使用的舊設定。 |
-| **[組態清單](select_config)** | 選擇一個指定的組態 (多個項目) 。 |
 
 
 ```{toctree}
@@ -121,9 +118,6 @@ customize_lang
 customize_layouts
 customize_markdown
 customize_markers
-customize_markers_auto
-customize_markers_list
-customize_markers_options
 customize_marks
 customize_mouse
 customize_notifications
@@ -134,6 +128,7 @@ customize_proxy
 customize_rendering
 customize_search
 customize_shortcut
+customize_snippets
 customize_sort
 customize_status
 customize_sv
@@ -149,7 +144,6 @@ customize_view
 customize_web
 customize_window
 customize_workspace
-delete_old_settings
 file_associate
 import_export
 plug_in1

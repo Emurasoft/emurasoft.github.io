@@ -48,7 +48,6 @@ customize/index
 customize_start/index
 file_associate/index
 clear_history/index
-customize_markers/index
 tray/index
 import_export/index
 plugins/index
