@@ -163,6 +163,7 @@ Selects how results are displayed.
 | **Display Matched Strings Only** | Only the matched strings will be displayed as results. |
 | **Display File Names, Lines, and Matched Strings** | File names, line numbers and matched strings will be displayed. |
 | **Display File Names and Matched Strings** | File names and matched strings will be displayed. |
+| **Display File Names, Lines, and Matched Lines (Truncate long lines)** | File names, line numbers, and the whole lines containing the searched string will be displayed as results. Long lines will be truncated. |
 
 ## Stop if number of matches reaches check box/text box
 
