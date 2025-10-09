@@ -22,17 +22,13 @@
 
 高速啟動 EmEditor 當 EmEditor 系統匣圖示顯示時。如果勾選了該核取方塊，一個隱藏的 EmEidtor 視窗在會在 EmEditor 系統匣圖示顯示的同時運行。當您啟動 EmEditor 時，這個隱藏的 EmEidtor 視窗會變為可見的狀態，迅速打開 EmEditor。
 
-## 「在 Internet Explorer 上用 EmEditor 檢視原始檔」核取方塊
+## 「將 EmEditor 添加至網頁瀏覽器的 HTML 編輯器清單」核取方塊
 
-把 EmEditor 指定為在 Internet Explorer 上檢視源代碼的預設工具。
-
-## 「把 EmEditor 添加至 Internet Explorer 的 HTML 編輯器清單」核取方塊
-
-添加 EmEditor 到 Internet Explorer 的 HTML 編輯器清單中。這個選項僅在每個使用者的安裝時啟用。
+將 EmEditor 添加至網頁瀏覽器使用的 HTML 編輯器清單中。
 
 ## 「添加一個捷徑至檔案總管的內容功能表中」核取方塊
 
-在 EmEditor 中，添加一個捷徑到檔案總管的內容功能表上。這個選項僅在每個使用者的安裝時啟用。
+在 EmEditor 中，添加一個捷徑到檔案總管的內容功能表上。
 
 ## 「添加 EmEditor 圖示到內容功能表中」核取方塊
 
