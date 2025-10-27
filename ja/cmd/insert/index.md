@@ -70,6 +70,6 @@ insert_cr_lf
 insert_tab
 insert
 file_insert
-insert_snippet
+insert_snippet1
 file_mru_insert1
 ```
