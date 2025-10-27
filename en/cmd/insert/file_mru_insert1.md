@@ -26,9 +26,8 @@ under the **Tools** Menu (**Tools** \> **Customize** \> **History**).
 ## Plug-in Command ID
 
 ```
-From EEID_FILE_MRU_INSERT1 through EEID_FILE_MRU_INSERT1 + 63 (from 4864
+From EEID_FILE_MRU_INSERT1 through EEID_FILE_MRU_INSERT1 + 63 (from 4864 through 4864 + 63)
 ```
-through 4864 + 63)
 
 ## Macros
 
@@ -41,6 +40,5 @@ editor.ExecuteCommandByID(4864 + i); // i is an integer from 0 through 63
 ## \[VBScript\]
 
 ```
-editor.ExecuteCommandByID 4864 + i   ' i is an integer from 0
-through 63
+editor.ExecuteCommandByID 4864 + i   ' i is an integer from 0 through 63
 ```

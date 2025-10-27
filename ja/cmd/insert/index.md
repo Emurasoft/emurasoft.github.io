@@ -33,6 +33,7 @@
 | [Tabを挿入](../insert/insert_tab) | カーソル位置に Tab を挿入します。 |
 | [挿入/上書](../insert/insert) | 挿入/上書モードを切り替えます。 |
 | [挿入](../insert/file_insert) | カーソル位置にファイルを挿入します。 |
+| [スニペットの挿入](insert_snippet1) | 現在のカーソル位置に指定したスニペットを挿入します (複数項目)。 |
 | [最近使ったファイルの挿入用一覧](../insert/file_mru_insert1) | 指定した最近使ったファイルを挿入します (複数項目)。 |
 
 ```{toctree}
@@ -69,5 +70,6 @@ insert_cr_lf
 insert_tab
 insert
 file_insert
+insert_snippet
 file_mru_insert1
 ```
