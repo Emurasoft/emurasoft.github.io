@@ -33,6 +33,7 @@
 | **[插入 Tab 鍵](../insert/insert_tab)** | 在游標處插入一個 Tab 鍵。 |
 | **[插入/覆寫](../insert/insert)** | 切換插入/覆寫模式。 |
 | **[插入](../insert/file_insert)** | 插入一個指定的檔案到目前的游標位置。 |
+| [**插入程式碼片段**](insert_snippet1) | 在目前的游標位置插入指定的程式碼片段（多項）。 |
 | **[插入最近使用的檔案清單](../insert/file_mru_insert1)** | 插入一個指定的最近訪問的檔案在游標位置處 (多個項目) 。 |
 
 ```{toctree}
@@ -69,5 +70,6 @@ insert_cr_lf
 insert_tab
 insert
 file_insert
+insert_snippet1
 file_mru_insert1
 ```

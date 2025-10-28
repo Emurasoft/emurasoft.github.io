@@ -33,6 +33,7 @@
 | **[插入 Tab 键](../insert/insert_tab)** | 在光标处插入一个 Tab 键。 |
 | **[插入/改写](../insert/insert)** | 切换插入/改写模式。 |
 | **[插入](../insert/file_insert)** | 插入一个指定的文件到当前光标位置。 |
+| [**插入代码片段**](insert_snippet1) | 在当前光标位置插入指定的代码片段（多项）。 |
 | [**要插入的最近使用的文件列表**](../insert/file_mru_insert1) | 插入一个指定的最近访问的文件在光标位置处（多个项目）。 |
 
 ```{toctree}
@@ -69,5 +70,6 @@ insert_cr_lf
 insert_tab
 insert
 file_insert
+insert_snippet1
 file_mru_insert1
 ```
