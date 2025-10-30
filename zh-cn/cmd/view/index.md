@@ -36,6 +36,7 @@
 | **[单元格工具栏](show_cell_bar)** | 显示或隐藏单元格工具栏。 |
 | **[收藏夹工具栏](show_favorites_bar)** | 显示或隐藏收藏夹工具栏。 |
 | **[Markdown/HTML 工具栏](show_markdown_bar)** | 显示或隐藏 Markdown/HTML 工具栏。 |
+| **[代码片段工具栏命令](show_snippets_bar)** | 显示或隐藏代码片段工具栏。 |
 | **[单元格工具栏选项（弹出）](cell_bar_options)** | 显示一个弹出菜单为单元格工具栏设置选项。 |
 | **[自动显示/隐藏单元格工具栏](auto_show_hide_cell_bar)** | 自动显示或隐藏单元格工具栏。 |
 | **[自动设置焦点（单元格工具栏）](auto_set_focus)** | 自动设置焦点到单元格工具栏上。 |
@@ -161,6 +162,7 @@ show_bar_title
 show_cell_bar
 show_favorites_bar
 show_markdown_bar
+show_snippets_bar
 show_filter_bar
 show_find_bar
 show_last_message
