@@ -28,7 +28,7 @@ Move the selected item down on the list.
 
 ## Text text box
 
-Enter the text.
+Enter the text. Please refer [**To Use Snippets Plug-in**](../../../howto/plugin/plugin_snippets) for the detailed syntax of snippets.
 
 ## Custom icon check box
 
