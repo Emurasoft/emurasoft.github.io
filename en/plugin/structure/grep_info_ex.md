@@ -78,6 +78,7 @@ Additionally, you may specify one of the following values.
 | --- | --- |
 | FLAG\_FIND\_FILE\_AND\_MATCHED | File names and matched strings will be displayed. |
 | FLAG\_FIND\_FILE\_LINE\_AND\_MATCHED | File names, line numbers and matched strings will be displayed. |
+| FLAG\_FIND\_FILE\_LINE\_TRUNCATED | File names, line numbers and matched lines will be displayed. Long lines will be truncated. |
 | FLAG\_FIND\_FILENAMES\_ONLY | Only file names will be displayed and the whole lines containing the searched string will not be displayed as results. |
 | FLAG\_FIND\_LINE\_ONLY | Only the whole lines containing the searched string will be displayed as results. |
 | FLAG\_FIND\_MATCHED\_ONLY | Only the matched strings will be displayed as results. |

@@ -54,6 +54,7 @@ Additionally, you may specify one of the following values.
 | --- | --- |
 | eeFindFileAndMatched | File names and matched strings will be displayed. |
 | eeFindFileLineAndMatched | File names, line numbers and matched strings will be displayed. |
+| eeFindFileLineTruncated | File names, line numbers and matched lines will be displayed. Long lines will be truncated. |
 | eeFindFileNamesOnly | Only file names will be displayed and the whole lines containing the searched string will not be displayed as results. |
 | eeFindLineOnly | Only the whole lines containing the searched string will be displayed as results. |
 | eeFindMatchedOnly | Only the matched strings will be displayed as results. |

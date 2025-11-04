@@ -53,6 +53,7 @@ _nFlags_
 | --- | --- |
 | eeFindFileAndMatched | ファイル名と一致した文字列が結果として表示されます。 |
 | eeFindFileLineAndMatched | ファイル名、行番号、一致した文字列が結果として表示されます。 |
+| eeFindFileLineTruncated | ファイル名、行番号、一致した行が結果として表示されます。長い行は切り詰められます。 |
 | eeFindFileNamesOnly | 見つかったファイルのファイル名だけを結果として表示し、検索した文字列を含む行の内容は表示しません。 |
 | eeFindLineOnly | 検索した文字列を含む行の内容だけが結果として表示されます。 |
 | eeFindMatchedOnly | 一致した文字列のみが結果として表示されます。 |
