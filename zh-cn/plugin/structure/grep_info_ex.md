@@ -78,6 +78,7 @@ _nFlags_
 | --- | --- |
 | FLAG\_FIND\_FILE\_AND\_MATCHED | 搜索结果将显示文件名和匹配的字符串。 |
 | FLAG\_FIND\_FILE\_LINE\_AND\_MATCHED | 搜索结果将显示文件名，行号和匹配的字符串。 |
+| FLAG\_FIND\_FILE\_LINE\_TRUNCATED | 搜索结果将显示文件名、行号和匹配的行。过长的行将被截断。 |
 | FLAG\_FIND\_FILENAMES\_ONLY | 搜索结果仅显示文件名，而包含搜索字符串的整行将不显示为结果。 |
 | FLAG\_FIND\_LINE\_ONLY | 搜索结果仅显示包含搜索字符串的整行。 |
 | FLAG\_FIND\_MATCHED\_ONLY | 搜索结果仅显示匹配的字符串。 |

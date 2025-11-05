@@ -52,6 +52,7 @@ _nFlags_
 | --- | --- |
 | eeFindFileAndMatched | 搜索结果将显示文件名和匹配的字符串。 |
 | eeFindFileLineAndMatched | 搜索结果将显示文件名，行号和匹配的字符串。 |
+| eeFindFileLineTruncated | 搜索结果将显示文件名、行号和匹配的行。过长的行将被截断。 |
 | eeFindFileNamesOnly | 搜索结果仅显示文件名，而包含搜索字符串的整行将不显示为结果。 |
 | eeFindLineOnly | 搜索结果仅显示包含搜索字符串的整行。 |
 | eeFindMatchedOnly | 搜索结果仅显示匹配的字符串。 |

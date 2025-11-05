@@ -78,6 +78,7 @@ _nFlags_
 | --- | --- |
 | FLAG\_FIND\_FILE\_AND\_MATCHED | 搜索結果將顯示檔案名和符合的字串。 |
 | FLAG\_FIND\_FILE\_LINE\_AND\_MATCHED | 搜索結果將顯示檔案名，行號和符合的字串。 |
+| FLAG\_FIND\_FILE\_LINE\_TRUNCATED | 搜索結果將顯示檔案名、行號與符合的行。過長的行將被截斷。 |
 | FLAG\_FIND\_FILENAMES\_ONLY | 搜索結果僅顯示檔案名，而包含搜索字串的整行將不顯示為結果。 |
 | FLAG\_FIND\_LINE\_ONLY | 搜索結果僅顯示包含搜索字串的整行。 |
 | FLAG\_FIND\_MATCHED\_ONLY | 搜索結果僅顯示符合的字串。 |
