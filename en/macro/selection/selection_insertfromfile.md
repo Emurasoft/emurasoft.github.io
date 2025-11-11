@@ -24,7 +24,7 @@ Specifies the full path and name of the file to be opened.
 
 _nEncoding_
 
-Selects from the [Encoding Constants](../const/constencoding), or specify any code page used in the Windows Operating System.
+Selects from the [Encoding Constants](../const/const_encoding), or specify any code page used in the Windows Operating System.
 
 _nFlags_
 

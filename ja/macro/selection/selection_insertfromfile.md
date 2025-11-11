@@ -22,7 +22,7 @@ _strFileName_
 
 _nEncoding_
 
-開くファイルのエンコードを指定します。 [エンコード定数](../const/constencoding)から選択するか、または Windows で使用されるエンコードを指定します。
+開くファイルのエンコードを指定します。 [エンコード定数](../const/const_encoding)から選択するか、または Windows で使用されるエンコードを指定します。
 
 _nFlags_
 
