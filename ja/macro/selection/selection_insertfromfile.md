@@ -14,20 +14,26 @@ selection.InsertFromFile( strFileName, nEncoding, nFlags );
 
 ```
 selection.InsertFromFile strFileName, nEncoding, nFlags
-strFileName
+```
+
+_strFileName_
+
 開く既存のファイル名を完全パスで指定します。
-nEncoding
-開くファイルのエンコードを指定します。 [エンコード定数](../const/constencoding) から選択するか、または
-Windows で使用されるエンコードを指定します。
-nFlags
+
+_nEncoding_
+
+開くファイルのエンコードを指定します。 [エンコード定数](../const/constencoding)から選択するか、または Windows で使用されるエンコードを指定します。
+
+_nFlags_
+
 次の値の組み合わせを指定します。
+
 |     |     |
 | --- | --- |
 | eeOpenDetectUnicode | Unicode サイン (BOM) を検出します。 |
 | eeOpenDetectUTF8 | UTF-8 を自動検出します。 |
 | eeOpenDetectCharset | HTML/XML の Charset を検出します。 |
 | eeOpenDetectAll | すべて自動検出します。 |
-```
 
 ## バージョン
 
