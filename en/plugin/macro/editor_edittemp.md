@@ -37,7 +37,12 @@ Specifies the initial cursor position.
 
 _nFlags_
 
-This value must be zero.
+Specifies one of the following values.
+
+|     |     |
+| --- | --- |
+| TEMP\_INFO\_OPEN | Opens a temporary text. |
+| TEMP\_INFO\_NO\_ID | Opens a temporary text without setting an ID. A document opened with this flag can be saved to a file when a user selects **Save As** on the **File** menu. |
 
 ## Return Values
 

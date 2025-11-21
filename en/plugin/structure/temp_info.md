@@ -56,9 +56,11 @@ Specifies one of the following values.
 
 |     |     |
 | --- | --- |
-| TEMP\_INFO\_OPEN | Opens the temporary text if nID is zero. Activates the existing temporary text if nID is not zero. |
+| TEMP\_INFO\_OPEN | Opens a temporary text if nID is zero. Activates the existing temporary text if nID is not zero. |
 | TEMP\_INFO\_CLOSE | Closes the temporary text specified by nID. |
 | TEMP\_INFO\_SAVE | Saves the temporary text specified by nID. |
+| TEMP\_INFO\_QUIT | Closes the temporary text specified by nID without saving. |
+| TEMP\_INFO\_NO\_ID | Opens a temporary text without setting an ID. A document opened with this flag can be saved to a file when a user selects **Save As** on the **File** menu. |
 
 ## Version
 
