@@ -56,9 +56,11 @@ _nFlags_
 
 |     |     |
 | --- | --- |
-| TEMP\_INFO\_OPEN | 打开临时文本如果 nID 为零。激活已存在的临时文本如果 nID 不是零。 |
+| TEMP\_INFO\_OPEN | 打开一个临时文本如果 nID 为零。激活已存在的临时文本如果 nID 不是零。 |
 | TEMP\_INFO\_CLOSE | 关闭用 nID 指定的临时文本。 |
 | TEMP\_INFO\_SAVE | 保存用 nID 指定的临时文本。 |
+| TEMP\_INFO\_QUIT | 关闭由 nID 指定的临时文本而不保存。 |
+| TEMP\_INFO\_NO\_ID | 打开一个临时文本文件，不设置 ID。使用此标志打开的文档可以在用户选择 **“文件”** 菜单中的 **“另存为”** 时保存到文件中。 |
 
 ## 版本
 
