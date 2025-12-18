@@ -9,7 +9,6 @@ Each device record contains the following information.
 1. **Device ID**: This is the identifier for this device. A device has a unique combination of registry key, user ID, and machine ID. When you register EmEditor to a new device, a new device record is created. When EmEditor is renewed, a new device is created.
 2. **Registration key**: This is the registration key that was used to register this device. If you used a Stripe subscription, this field is empty.
 3. **Stripe subscription ID**: This is the Stripe subscription that was used to register this device. If you used a registration key, this field is empty.
-3. **Machine ID**: This identifies a Windows installation. It is copied from the Windows registry value for `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MachineGuid`.
 4. **Registration date**: The date when you registered EmEditor on the device.
 5. **Last validation date**: The date when EmEditor last connected to our server to validate the registration. Validation occurs once each time EmEditor is opened on your device. EmEditor may connect to our server during validation, but this does not happen every time. Therefore, the last validation date may not be when you last opened EmEditor.
 6. **Installation type**: This value can be "Desktop," "Portable," or "Store App," depending on how you installed EmEditor.
