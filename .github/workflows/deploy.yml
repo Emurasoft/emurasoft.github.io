@@ -19,11 +19,11 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.13'
+          python-version: '3.14'
           cache: pip
       - uses: actions/setup-go@v4
         with:
-          go-version: '^1.24.1'
+          go-version: '^1.25.6'
           cache-dependency-path: unneeded-html-remover/go.sum
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -82,7 +82,7 @@ jobs:
           path: help_pages
       - uses: actions/setup-node@v3
         with:
-          node-version: 23
+          node-version: 25
           cache: npm
           cache-dependency-path: 'automation-test/package-lock.json'
       - name: Test
@@ -127,7 +127,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.13'
+          python-version: '3.14'
           cache: pip
       # Cannot use apt cache due to issues that occur with cache
       - name: Install packages
