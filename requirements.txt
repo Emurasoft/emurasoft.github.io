@@ -29,6 +29,6 @@ sphinxcontrib-htmlhelp==2.1.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
-tomli==2.3.0
+tomli==2.4.0
 uc-micro-py==1.0.3
 urllib3==2.6.3
