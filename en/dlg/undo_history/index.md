@@ -4,7 +4,7 @@ This dialog box appears when the [**Undo/Redo History** command](../../cmd/edit/
 
 ## List
 
-The Undo and Redo history for the current document is displayed in this list. Items below the selection represent the Redo actions, and items above the selection represent the Undo actions. You can click an item to jump to the particular action. The '#' mark on the left of the list means the saved action or the new document.Right-clicking will display the context menu where you can select all or copy selected item strings to the Clipboard.
+The Undo and Redo history for the current document is displayed in this list. Items below the selection represent the Redo actions, and items above the selection represent the Undo actions. You can click an item to jump to the particular action. The '#' mark on the left of the list means the saved action or the new document. Right-clicking will display the context menu where you can select all or copy selected item strings to the Clipboard.
 
 ## Undo button
 
