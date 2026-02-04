@@ -56,7 +56,7 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - **Message Info**: Displays details about this message.
 - Code blocks contain programming code. In a code block, you can click on **⋯** for options to copy the code.
 
-## Chat Input
+## Chat input
 * Enter your prompts in the input box at the bottom of the chat panel.
 * Click **+ File** to upload a file.
   * This feature is available only when using OpenAI. Only files with [supported extensions](https://platform.openai.com/docs/guides/tools-file-search#supported-files) can be uploaded.
@@ -106,10 +106,10 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - Deletes all chats or reset all settings to default.
 
 ## Uploaded files
-- To view uploaded files and vector stores, click on ⚙️ in the sidebar and select **Uploaded files**.
-- The dialog window lists all files and vector stores uploaded to your OpenAI account or organization. Next to the vector store, it also shows the associated chat and status.
-  - Vector stores that have expired vector stores do not cost anything to keep. 
-- You can select and delete files or vector stores from your account or organization.
+* To view uploaded files and vector stores, click the ⚙️ button in the sidebar and select **Uploaded Files**.
+* The dialog displays all files and vector stores associated with your OpenAI account or organization. For each vector store, the associated chat and current status are also shown.
+  * Expired vector stores do not incur storage costs.
+* You can select and delete files or vector stores from your account or organization.
 
 ## LM Studio setup instructions
 The LM Studio integration requires initial setup. Follow these steps to set up LM Studio.
