@@ -107,8 +107,8 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 
 ## Uploaded files
 - To view uploaded files and vector stores, click on ⚙️ in the sidebar and select **Uploaded files**.
-- The dialog window lists all files and vector stores uploaded to your OpenAI account or organization with its status.
-  - Active vector stores are billed. Expired vector stores do not cost anything. 
+- The dialog window lists all files and vector stores uploaded to your OpenAI account or organization. Next to the vector store, it also shows the associated chat and status.
+  - Vector stores that have expired vector stores do not cost anything to keep. 
 - You can select and delete files or vector stores from your account or organization.
 
 ## LM Studio setup instructions
