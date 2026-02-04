@@ -78,7 +78,6 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 - You can hide the sidebar with the **Close sidebar** button.
 
 ## Search
-
 * Click the 🔍 button in the sidebar to search for chat messages.
 * Enter a keyword in the search box to display matching messages.
 * In the results list, select a message to jump directly to its location in the chat panel.
