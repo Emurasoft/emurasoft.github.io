@@ -78,9 +78,10 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 - You can hide the sidebar with the **Close sidebar** button.
 
 ## Search
-- You can search for messages by clicking the 🔍 button in the sidebar.
-- Type a keyword into the input box to find relevant messages.
-- In the search results, you can click on a message to jump to that message in the chat panel.
+
+* Click the 🔍 button in the sidebar to search for chat messages.
+* Enter a keyword in the search box to display matching messages.
+* In the results list, select a message to jump directly to its location in the chat panel.
 
 ## Settings
 - You can change AI connection and user interface settings by clicking the ⚙️ button in the sidebar and selecting **Settings**.
