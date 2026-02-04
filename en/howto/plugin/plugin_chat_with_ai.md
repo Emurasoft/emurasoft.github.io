@@ -56,19 +56,19 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - **Message Info**: Displays details about this message.
 - Code blocks contain programming code. In a code block, you can click on **⋯** for options to copy the code.
 
-## Chat input
-- Type in your questions in the input box at the bottom of the chat panel.
-- Click on **+ File** to upload a file.
-  - This feature is only available for OpenAI. Only files with [certain file extensions](https://platform.openai.com/docs/guides/tools-file-search#supported-files) are supported.
-  - If a file with a supported file extension is opened in the editor, the document name appears in the dropdown menu to select.
-  - You can also select **Browse** to select a supported file with the file browser dialog window.
-  - When a file is uploaded, Chat with AI creates a file and a vector store object in OpenAI. The file can be referenced in a chat conversation.
-  - The uploaded file is listed in the input box. You can click on a file to delete that file. Right click on the file for more options.
-  - Using an uploaded file in chat typically consumes less tokens than copy and pasting the file text to the chat.
-  - See [OpenAI pricing](https://platform.openai.com/docs/pricing#built-in-tools) for file search costs.
-- You can enable **Tools** to use the tool calling feature. These EmEditor tools can used by the AI to read or modify your document.
-  - Tools are only available for OpenAI and Deepseek. 
-  - Hovering over **Tools** and clicking on **Settings** allows you to see what tools are available to use.
+## Chat Input
+* Enter your prompts in the input box at the bottom of the chat panel.
+* Click **+ File** to upload a file.
+  * This feature is available only when using OpenAI. Only files with [supported extensions](https://platform.openai.com/docs/guides/tools-file-search#supported-files) can be uploaded.
+  * When a supported file is opened in the editor, its document name appears in the file selection dropdown.
+  * You can also click **Browse** to select a supported file using the file browser dialog.
+  * When a file is uploaded, Chat with AI creates both a file and a vector store resources in OpenAI. The file can then be referenced during chat conversations.
+  * Uploaded files are listed in the input area. Click a file to remove it, or right-click for additional options.
+  * Referencing uploaded files typically consumes fewer tokens than copying and pasting the file contents directly into the chat.
+  * For details on file search costs, see [OpenAI pricing](https://platform.openai.com/docs/pricing#built-in-tools).
+* Enable **Tools** to use the tool-calling feature. These EmEditor tools can used by the AI to read or modify your document.
+  * Tools are available only for OpenAI and DeepSeek.
+  * Hover over **Tools** and select **Settings** to view and configure the available tools.
 
 ## Sidebar
 - Conversations are listed in the sidebar. Click on **+ New chat** to create a new chat that contains a different conversation. Responses in a chat will use the context of messages in that chat conversation only.
