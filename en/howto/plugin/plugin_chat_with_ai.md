@@ -1,7 +1,7 @@
 # To use Chat with AI plug-in
 
 ## Installation
-**Chat with AI** is available as the **ChatAI** plug-in. You can download it from [ChatAI plug-in downloads](https://www.emeditor.com/download-chatai/). The **ChatAI** plug-in is not available for the Store App or the 32-bit version of EmEditor.
+**Chat with AI** is available as the **ChatAI** plug-in. You can download it from [ChatAI plug-in downloads](https://www.emeditor.com/download-chatai/). The **ChatAI** plug-in is not available for the Store App.
 
 ### Desktop
 1. If you use the **Desktop Installer** version of EmEditor, click **Installer** to download the installer version
@@ -56,12 +56,31 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - **Message Info**: Displays details about this message.
 - Code blocks contain programming code. In a code block, you can click on **⋯** for options to copy the code.
 
+## Chat input
+* Enter your prompts in the input box at the bottom of the chat panel.
+* Click **+ File** to upload a file.
+  * This feature is available only when using OpenAI. Only files with [supported extensions](https://platform.openai.com/docs/guides/tools-file-search#supported-files) can be uploaded.
+  * When a supported file is opened in the editor, its document name appears in the file selection dropdown.
+  * You can also click **Browse** to select a supported file using the file browser dialog.
+  * When a file is uploaded, Chat with AI creates both a file and a vector store resources in OpenAI. The file can then be referenced during chat conversations.
+  * Uploaded files are listed in the input area. Click a file to remove it, or right-click for additional options.
+  * Referencing uploaded files typically consumes fewer tokens than copying and pasting the file contents directly into the chat.
+  * For details on file search costs, see [OpenAI pricing](https://platform.openai.com/docs/pricing#built-in-tools).
+* Enable **Tools** to use the tool-calling feature. These EmEditor tools can used by the AI to read or modify your document.
+  * Tools are available only for OpenAI and DeepSeek.
+  * Hover over **Tools** and select **Settings** to view and configure the available tools.
+
 ## Sidebar
 - Conversations are listed in the sidebar. Click on **+ New chat** to create a new chat that contains a different conversation. Responses in a chat will use the context of messages in that chat conversation only.
 - Click on **&#8230;** on any entry for these options:
   - **Delete Chat**: Clears all messages in that chat.
   - **Copy to New Document**: Copies all messages in the conversation to a new document.
 - You can hide the sidebar with the **Close sidebar** button.
+
+## Search
+* Click the 🔍 button in the sidebar to search for chat messages.
+* Enter a keyword in the search box to display matching messages.
+* In the results list, select a message to jump directly to its location in the chat panel.
 
 ## Settings
 - You can change AI connection and user interface settings by clicking the ⚙️ button in the sidebar and selecting **Settings**.
@@ -80,6 +99,8 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - These EmEditor tools can be made accessible to the AI to read or modify your document.
   - Using tools will incur additional token costs.
   - Tool calling can be enabled from the chat input by clicking on the **Tools** button.
+- **Files**
+  - These options for the OpenAI file search feature control the expiration of files and vector stores.
 - **User Interface**
   - These settings customize the Chat with AI interface.
 - **Debug Log Options**
@@ -88,6 +109,12 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - Allows you to manually update the app.
 - **Reset Settings**
   - Deletes all chats or reset all settings to default.
+
+## Uploaded files
+* To view uploaded files and vector stores, click the ⚙️ button in the sidebar and select **Uploaded Files**.
+* The dialog displays all files and vector stores associated with your OpenAI account or organization. For each vector store, the associated chat and current status are also shown.
+  * Expired vector stores do not incur storage costs.
+* You can select and delete files or vector stores from your account or organization.
 
 ## LM Studio setup instructions
 The LM Studio integration requires initial setup. Follow these steps to set up LM Studio.
