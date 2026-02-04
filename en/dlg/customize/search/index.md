@@ -3,18 +3,18 @@
 The **Search** page allows you to customize settings related to search
 operations.
 
-## Highlight Strings Replaced After Replace in Files check box
+## Highlight strings replaced after replace in files check box
 
 If this box is checked, EmEditor highlights the strings that have been
 replaced with
 the [**Replace in Files** command](../../../cmd/search/replace_in_files).
 If not checked, EmEditor highlights the searched strings.
 
-## Disable Shortcuts in the Find/Replace Dialog Boxes check box
+## Disable shortcuts in the find/replace dialog boxes check box
 
 If this is checked, the keyboard shortcuts in the Find and Replace dialog boxes will be disabled.
 
-## Prompt when End of Document is Reached check box
+## Prompt when the end of the document is reached check box
 
 If this is checked, EmEditor will display a dialog box to prompt the user when Search reaches the end of the document.
 
@@ -26,7 +26,7 @@ If this is checked, EmEditor will display the Enter Number Range dialog box when
 
 If this is checked, EmEditor will display a dialog box to prompt the user when an incremental search takes a long time to complete.
 
-## Return Focus to Editor after Searched check box
+## Return focus to the editor after searching check box
 
 If this is checked, the focus will be switched to the editor after searching using the Find Toolbar.
 

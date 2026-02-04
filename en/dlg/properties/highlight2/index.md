@@ -11,29 +11,29 @@ Select the beginning string for multiple line comments.
 
 Select the end string for multiple line comments.
 
-## Comments group box - Line Comment (1) text box
+## Comments group box - Line comment (1) text box
 
 Specify a string that designates a line comment.
 
-## Comments group box - Line Comment (2) text box
+## Comments group box - Line comment (2) text box
 
 Specify a string that designates a line comment.
 
-## String Enclosed by Quotation Marks group box - Single Quotation Marks \['...'\] check box
+## String enclosed by quotation marks group box - Single quotation marks \['...'\] check box
 
 If this box is checked, strings enclosed with single quotation marks will be
 highlighted.
 
-## String Enclosed by Quotation Marks group box - Double Quotation Marks \["..."\] check box
+## String enclosed by quotation marks group box - Double quotation marks \["..."\] check box
 
 If this box is checked, strings enclosed with double quotation marks will
 be highlighted.
 
-## String Enclosed by Quotation Marks group box - Continue to Next Line check box
+## String enclosed by quotation marks group box - Continue to the next line check box
 
 If this box is checked, quoted strings may span multiple lines.
 
-## String Enclosed by Quotation Marks group box - Escape Character text box
+## String enclosed by quotation marks group box - Escape character text box
 
 Specify an escape character for quotation marks.
 
@@ -45,7 +45,7 @@ Specify the beginning string for scripts.
 
 Specify the end string for scripts.
 
-## Special Syntax drop-down list box
+## Special syntax drop-down list box
 
 Select from the following.
 
@@ -56,20 +56,20 @@ Select from the following.
 | **HTML-Embedded** | Uses script languages such as JSP or PHP, HTML embedded language. It uses the HTML, CSS, JavaScript, VBScript, and Script configurations. |
 | **Markdown** | Uses Markdown for special bold and italic emphasis. |
 
-## Highlight Matching Tag check box
+## Highlight matching tag check box
 
 Highlights inside a tag and the matching tag at the cursor in XHTML and XML documents. This feature works only when a document is a well-formed XML document. The feature may not work if ending tags
 are missing from a document such as an old HTML document.
 
-## Highlight Matching Brackets check box
+## Highlight matching brackets check box
 
 Highlight the matching brace (parenthesis or bracket).
 
-## Auto-Complete Brackets/Quotation Marks check box
+## Auto-complete brackets/quotation marks check box
 
 Auto-completes brackets and quotation marks.
 
-## Bracket Pairs list box
+## Bracket pairs list box
 
 The list of bracket pairs that can be auto-completed. Checked items are auto-completed while unchecked items are not auto-completed. You can't add a new pair of brackets.
 

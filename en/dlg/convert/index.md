@@ -7,15 +7,15 @@ types of characters to convert and how to convert them.
 
 Apply conversion to Katakana.
 
-## Kana Marks check box
+## Kana marks check box
 
 Apply conversion to Kana Marks.
 
-## Alphabets and Numbers check box
+## Alphabets and numbers check box
 
 Apply conversion to alphabets and numbers.
 
-## Alphabetical Marks check box
+## Alphabetical marks check box
 
 Apply conversions to alphabetical marks.
 
@@ -23,11 +23,11 @@ Apply conversions to alphabetical marks.
 
 Apply conversion to spaces.
 
-## Full-Width Characters radio button
+## Full-width characters radio button
 
 Convert half-width characters to full-width characters.
 
-## Half-Width Characters radio button
+## Half-width characters radio button
 
 Convert full-width characters to half-width characters.
 
@@ -39,7 +39,7 @@ Convert all text.
 
 Convert only the selection.
 
-## Half-width and Full-width characters list box
+## Half-width and full-width characters list box
 
 Allows you to select which individual characters to convert.
 

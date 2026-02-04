@@ -94,7 +94,7 @@ Specifies the place where EmEditor starts loading a file. By default, 0 is speci
 
 Specifies the place where EmEditor ends loading a file. A blank means unlimited. By default, unlimited is specified.
 
-## Custom File Filter text box
+## Custom file filter text box
 
 Set the custom file filter shown in the **File Type** combo box in the **Open**
 dialog box and the **Save As** dialog box.
