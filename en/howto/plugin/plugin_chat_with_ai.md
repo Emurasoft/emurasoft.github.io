@@ -77,6 +77,11 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - **Copy to New Document**: Copies all messages in the conversation to a new document.
 - You can hide the sidebar with the **Close sidebar** button.
 
+## Search
+- You can search for messages by clicking the 🔍 button in the sidebar.
+- Type a keyword into the input box to find relevant messages.
+- In the search results, you can click on a message to jump to that message in the chat panel.
+
 ## Settings
 - You can change AI connection and user interface settings by clicking the ⚙️ button in the sidebar and selecting **Settings**.
 - **AI Connection**
