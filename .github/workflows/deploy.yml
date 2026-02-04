@@ -80,7 +80,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: help_pages
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: 25
           cache: npm
