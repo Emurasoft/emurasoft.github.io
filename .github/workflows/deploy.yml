@@ -16,12 +16,12 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.14'
           cache: pip
-      - uses: actions/setup-go@v4
+      - uses: actions/setup-go@v6
         with:
           go-version: '^1.25.6'
           cache-dependency-path: unneeded-html-remover/go.sum
@@ -57,7 +57,7 @@ jobs:
           zip -r archive.zip Help \
             -x Help/404.html Help\en\404.html Help/index.html **/sitemap.xml **/.doctrees/** **/objects.inv
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: artifact
           path: archive.zip
@@ -67,11 +67,11 @@ jobs:
         run: cp -r _add_to_build/* help_pages
       - name: Configure GitHub Pages
         if: ${{ github.ref_type == 'tag' }}
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
       - name: Create archive
         run: zip -r help_pages.zip help_pages
       - name: Upload help_pages
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: help_pages
           path: help_pages.zip
