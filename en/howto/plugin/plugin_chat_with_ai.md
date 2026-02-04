@@ -1,7 +1,7 @@
 # To use Chat with AI plug-in
 
 ## Installation
-**Chat with AI** is available as the **ChatAI** plug-in. You can download it from [ChatAI plug-in downloads](https://www.emeditor.com/download-chatai/). The **ChatAI** plug-in is not available for the Store App or the 32-bit version of EmEditor.
+**Chat with AI** is available as the **ChatAI** plug-in. You can download it from [ChatAI plug-in downloads](https://www.emeditor.com/download-chatai/). The **ChatAI** plug-in is not available for the Store App.
 
 ### Desktop
 1. If you use the **Desktop Installer** version of EmEditor, click **Installer** to download the installer version
