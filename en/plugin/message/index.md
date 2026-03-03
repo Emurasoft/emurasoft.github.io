@@ -55,6 +55,7 @@
 | [EE\_GET\_REF](ee_get_ref) | Retrieves the reference number of a specified plug-in. |
 | [EE\_GET\_SCROLL\_POS](ee_get_scroll_pos) | Retrieves the current positions of the scroll bars. |
 | [EE\_GET\_SEL\_END](ee_get_sel_end) | Retrieves the ending character position of the selection. |
+| [EE\_GET\_SEL\_LENGTH](ee_get_sel_end) | Retrieves the length of the selected text.
 | [EE\_GET\_SEL\_START](ee_get_sel_start) | Retrieves the starting character position of the selection. |
 | [EE\_GET\_SEL\_TEXTA](ee_get_sel_texta) | Retrieves the selected ANSI text. |
 | [EE\_GET\_SEL\_TEXTW](ee_get_sel_textw) | Retrieves the selected Unicode text. |
@@ -213,6 +214,7 @@ ee_get_ref
 ee_get_scroll_pos
 ee_get_sel_end
 ee_get_sel_start
+ee_get_sel_length
 ee_get_sel_texta
 ee_get_sel_textw
 ee_get_sel_type

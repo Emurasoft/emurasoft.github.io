@@ -71,6 +71,7 @@
 | [Editor\_GetRedraw](editor_getredraw) | ウィンドウの再描画を行うかどうかのフラグを取得します。 |
 | [Editor\_GetScrollPos](editor_getscrollpos) | スクロールバーの位置を取得します |
 | [Editor\_GetSelEnd](editor_getselend) | 選択テキストの終了位置を取得します |
+| [Editor\_GetSelLength](editor_getsellength) | 選択テキストの長さを取得します。 |
 | [Editor\_GetSelStart](editor_getselstart) | 選択テキストの開始位置を取得します |
 | [Editor\_GetSelTextA](editor_getseltexta) | 選択されているANSIテキストを取得します |
 | [Editor\_GetSelTextW](editor_getseltextw) | 選択されているUnicodeテキストを取得します |
@@ -234,6 +235,7 @@ editor_getredraw
 editor_getref
 editor_getscrollpos
 editor_getselend
+editor_getsellength
 editor_getselstart
 editor_getseltexta
 editor_getseltextw

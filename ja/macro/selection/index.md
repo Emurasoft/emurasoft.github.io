@@ -12,6 +12,7 @@
 | [OverwriteMode](selection_overwritemode) | 上書き状態、または挿入状態かどうかを取得、または設定します。 |
 | [Sum](sum) | 選択範囲に含まれる数の合計を取得します。 |
 | [Text](selection_text) | 選択されたテキストを取得、またはテキストを挿入します。 |
+| [TextLength](text_length) | 選択テキストの長さを取得します。 |
 
 ## メソッド
 
@@ -154,4 +155,5 @@ selection_wordleft
 selection_wordright
 sort
 sum
+text_length
 ```

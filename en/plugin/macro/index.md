@@ -71,6 +71,7 @@
 | [Editor\_GetRedraw](editor_getredraw) | Retrieves the flag that allows changes in EmEditor to be redrawn or prevents changes in EmEditor to be redrawn. |
 | [Editor\_GetScrollPos](editor_getscrollpos) | Retrieves the current positions of the scroll bars. |
 | [Editor\_GetSelEnd](editor_getselend) | Retrieves the ending character position of the selection. |
+| [Editor\_GetSelLength](editor_getsellength) | Retrieves the length of the selected text. |
 | [Editor\_GetSelStart](editor_getselstart) | Retrieves the starting character position of the selection. |
 | [Editor\_GetSelTextA](editor_getseltexta) | Retrieves the selected ANSI text. |
 | [Editor\_GetSelTextW](editor_getseltextw) | Retrieves the selected Unicode text. |
@@ -234,6 +235,7 @@ editor_getredraw
 editor_getref
 editor_getscrollpos
 editor_getselend
+editor_getsellength
 editor_getselstart
 editor_getseltexta
 editor_getseltextw

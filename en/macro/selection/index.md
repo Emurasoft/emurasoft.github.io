@@ -12,6 +12,7 @@
 | **[OverwriteMode](selection_overwritemode)** | Sets or retrieves a flag indicating the overwrite or insert mode. |
 | **[Sum](sum)** | Retrieves the sum of the numbers contained in the selection. |
 | **[Text](selection_text)** | Retrieves the selected text, or inserts a string at the cursor position. |
+| **[TextLength](text_length)** | Retrieves the length of the selected text. |
 
 ## Methods
 
@@ -154,4 +155,5 @@ selection_wordleft
 selection_wordright
 sort
 sum
+text_length
 ```

@@ -57,6 +57,7 @@
 | [EE\_GET\_REF](ee_get_ref) | 指定するプラグインの参照数を返します。 |
 | [EE\_GET\_SCROLL\_POS](ee_get_scroll_pos) | スクロール バーの位置を取得します。 |
 | [EE\_GET\_SEL\_END](ee_get_sel_end) | 選択テキストの終了位置を取得します。 |
+| [EE\_GET\_SEL\_LENGTH](ee_get_sel_length) | 選択テキストの長さを取得します。 |
 | [EE\_GET\_SEL\_START](ee_get_sel_start) | 選択テキストの開始位置を取得します。 |
 | [EE\_GET\_SEL\_TEXTA](ee_get_sel_texta) | 選択されているANSIテキストを取得します。 |
 | [EE\_GET\_SEL\_TEXTW](ee_get_sel_textw) | 選択されているUnicodeテキストを取得します。 |
@@ -209,6 +210,7 @@ ee_get_redraw
 ee_get_ref
 ee_get_scroll_pos
 ee_get_sel_end
+ee_get_sel_length
 ee_get_sel_start
 ee_get_sel_texta
 ee_get_sel_textw
