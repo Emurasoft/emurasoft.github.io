@@ -14,8 +14,7 @@ Specifies the window handle of the view or frame of EmEditor.
 
 _nLen_
 
-Specifies the character length of the selection. Returns are always two
-character length (CR+LF).
+Specifies the character length of the selection.
 
 ## Return Values
 
