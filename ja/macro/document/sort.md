@@ -80,6 +80,7 @@ _flags_
 | eeSortIgnorePrefix | 数字を並べ替える際、先頭の数字以外の文字は無視されます。 |
 | eeSortInspectNotSelOnly | 箱型選択または複数選択が存在する時でも、行全体を調べます。strColumns パラメータが指定されている場合、このフラグは無視されます。 |
 | eeSortLengthView | \[短い文字列から長い文字列へ並べ替え\] コマンドまたは \[長い文字列から短い文字列へ並べ替え\] コマンドを使用時、全角文字が2文字として扱われます。 |
+| eeSortMoveCursor | 並べ替え時、カーソルを正しい位置に移動します。 |
 | eeSortRemoveEmpty | eeSortColumns と共に指定されている場合、空のセルを削除します。 |
 | eeSortSelectionOnly | 選択された行のみ並べ替えます。 |
 | eeSortStable | 常に順位の位置関係を保ったままソートを行います。このフラグが指定されていると、指定されていない場合に比べて、通常、遅くなります。 |

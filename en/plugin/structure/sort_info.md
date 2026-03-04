@@ -42,6 +42,7 @@ Specifies a combination of the following values.
 | SORT\_IPV6 | Sorts IPv6 addresses. |
 | SORT\_LENGTH | Sorts strings by the number of characters. |
 | SORT\_LENGTH\_VIEW | Full width characters are treated as 2 characters when using Sort Shortest to Longest or Sort Longest to Shortest commands. |
+| SORT\_MOVE\_CURSOR | The cursor moves to the correct position when sorting. |
 | SORT\_NUM | Sorts numbers. |
 | SORT\_GROUP\_IDENTICAL | Groups identical strings when sorted by occurrence. Must be specified with SORT\_OCCURRENCE. |
 | SORT\_OCCURRENCE | Sorts by occurrence. |

@@ -79,6 +79,7 @@ Specifies a combination of the following values.
 | eeSortIgnorePrefix | Leading non-numeric characters are ignored when sorted by numbers. |
 | eeSortInspectNotSelOnly | Inspects the whole lines even when vertical selection or multiple selections exist. This flag is ignored if the strColumns parameter is specified. |
 | eeSortLengthView | Full width characters are treated as 2 characters when sorted by lengths. |
+| eeSortMoveCursor | The cursor moves to the correct position when sorting. |
 | eeSortRemoveEmpty | Removes columns with an empty cell at the specified line if eeSortColumns is also specified. |
 | eeSortSelectionOnly | Sorts only the selected lines. |
 | eeSortStable | Use stable sort to maintain the relative order of identical records. Stable sorting is slower. |

@@ -42,6 +42,7 @@ _nFlags_
 | SORT\_IPV6 | IPv6 アドレスを並べ替えます。 |
 | SORT\_LENGTH | 文字数で並べ替えます。 |
 | SORT\_LENGTH\_VIEW | \[短い文字列から長い文字列へ並べ替え\] コマンドまたは \[長い文字列から短い文字列へ並べ替え\] コマンドを使用時、全角文字が2文字として扱われます。 |
+| SORT\_MOVE\_CURSOR | 並べ替え時、カーソルを正しい位置に移動します。 |
 | SORT\_NUM | 数字を並べ替えます。 |
 | SORT\_GROUP\_IDENTICAL | 出現頻度で並べ替える時、同じ文字列をグループ化します。SORT\_OCCURRENCE と共に指定する必要があります。 |
 | SORT\_OCCURRENCE | 出現頻度で並べ替えます。 |
