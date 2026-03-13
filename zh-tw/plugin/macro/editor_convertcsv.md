@@ -8,7 +8,7 @@ HRESULT Editor\_ConvertCsv( HWND hwnd, int iDestMode, UINT nFlags = 0, int nSepC
 
 _hwnd_
 
-指定 EmEditor 視圖或框架的視窗控制代碼。
+指定 EmEditor 視圖或框架的視窗控制程式碼。。
 
 _iDestMode_
 

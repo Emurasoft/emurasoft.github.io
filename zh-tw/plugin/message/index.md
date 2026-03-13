@@ -55,6 +55,7 @@
 | [EE\_GET\_REF](ee_get_ref) | 檢索一個指定外掛程式的引用號。 |
 | [EE\_GET\_SCROLL\_POS](ee_get_scroll_pos) | 檢索捲軸的目前的游標位置。 |
 | [EE\_GET\_SEL\_END](ee_get_sel_end) | 檢索選區的結尾字元位置。 |
+| [EE\_GET\_SEL\_LENGTH](ee_get_sel_length) | 檢索所選文字的長度。 |
 | [EE\_GET\_SEL\_START](ee_get_sel_start) | 檢索選區的開始字元位置。 |
 | [EE\_GET\_SEL\_TEXTA](ee_get_sel_texta) | 檢索被選取的 ANSI 文字。 |
 | [EE\_GET\_SEL\_TEXTW](ee_get_sel_textw) | 檢索被選取的 Unicode 文字。 |
@@ -210,6 +211,7 @@ ee_get_ref
 ee_get_scroll_pos
 ee_get_sel_end
 ee_get_sel_start
+ee_get_sel_length
 ee_get_sel_texta
 ee_get_sel_textw
 ee_get_sel_type

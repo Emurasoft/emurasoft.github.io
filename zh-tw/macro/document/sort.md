@@ -79,6 +79,7 @@ _flags_
 | eeSortIgnorePrefix | 當用數字升序或數字降序命令時，排序時前導非數字字元會被忽略。 |
 | eeSortInspectNotSelOnly | 檢查整行即使存在垂直選擇或多重選擇時。如果指定了 strColumns 參數，則忽略此標志。 |
 | eeSortLengthView | 當選擇按文字長度排序命令時，全形字元會被視為 2 個字元。 |
+| eeSortMoveCursor | 排序時，游標會移動到正確的位置。 |
 | eeSortRemoveEmpty | 如果還指定了 eeSortColumns，則刪除指定行中包含空儲存格的欄。 |
 | eeSortSelectionOnly | 僅排序選取部分。 |
 | eeSortStable | 使用平穩排序來維護相同記錄的相對順序，但通常較慢。 |

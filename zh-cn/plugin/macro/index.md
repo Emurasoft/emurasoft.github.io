@@ -71,6 +71,7 @@
 | [Editor\_GetRedraw](editor_getredraw) | 检索在 EmEditor 中允许或禁止重绘变更的标志。 |
 | [Editor\_GetScrollPos](editor_getscrollpos) | 检索滚动条的当前光标位置。 |
 | [Editor\_GetSelEnd](editor_getselend) | 检索选区的结尾字符位置。 |
+| [Editor\_GetSelLength](editor_getsellength) | 检索所选文本的长度。 |
 | [Editor\_GetSelStart](editor_getselstart) | 检索选区的开始字符位置。 |
 | [Editor\_GetSelTextA](editor_getseltexta) | 检索被选取的 ANSI 文本。 |
 | [Editor\_GetSelTextW](editor_getseltextw) | 检索被选取的 Unicode 文本。 |
@@ -234,6 +235,7 @@ editor_getredraw
 editor_getref
 editor_getscrollpos
 editor_getselend
+editor_getsellength
 editor_getselstart
 editor_getseltexta
 editor_getseltextw

@@ -12,6 +12,7 @@
 | **[OverwriteMode](selection_overwritemode)** | 設置或檢索表示覆寫或插入模式的標志。 |
 | **[Sum](sum)** | 檢索所選內容中包含的數字的總和。 |
 | **[Text](selection_text)** | 檢索被選取的文字，或在游標位置處插入一個字串。 |
+| **[TextLength](text_length)** | 檢索所選文字的長度。 |
 
 ## 方法
 
@@ -154,4 +155,5 @@ selection_wordleft
 selection_wordright
 sort
 sum
+text_length
 ```

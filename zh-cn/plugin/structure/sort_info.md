@@ -42,6 +42,7 @@ _nFlags_
 | SORT\_IPV6 | 对 IPv6 地址进行排序。 |
 | SORT\_LENGTH | 按字符数对字符串排序。 |
 | SORT\_LENGTH\_VIEW | 当选择按文本长度排序命令时，全角字符会被视为 2 个字符。 |
+| SORT\_MOVE\_CURSOR | 排序时，光标会移动到正确的位置。 |
 | SORT\_NUM | 对数字进行排序。 |
 | SORT\_GROUP\_IDENTICAL | 按出现次数对相同的字符串进行群组。必须与 SORT\_OCCURRENCE 一起指定。 |
 | SORT\_OCCURRENCE | 按出现次数排序。 |

@@ -4,14 +4,15 @@
 
 |     |     |
 | --- | --- |
-| **[Average](average)** | 检索所选内容中包含的数字的平均值。 |
-| **[Count](selection_count)** | 检索在当前文档中所选取的数目。 |
+| **[Average](average)** | 获取所选内容中包含的数字的平均值。 |
+| **[Count](selection_count)** | 获取在当前文档中所选取的数目。 |
 | **[IsActiveEndGreater](selection_isactiveendgreater)** | 表示活动点是否与底部点相同。 |
 | **[IsEmpty](selection_isempty)** | 表示活动点是否与锚点相同。 |
-| **[Mode](selection_mode)** | 设置或检索表示选取模式的标志。 |
-| **[OverwriteMode](selection_overwritemode)** | 设置或检索表示改写或插入模式的标志。 |
-| **[Sum](sum)** | 检索选择中包含的数字的总和。 |
-| **[Text](selection_text)** | 检索被选取的文本，或在光标位置处插入一个字符串。 |
+| **[Mode](selection_mode)** | 设置或获取表示选取模式的标志。 |
+| **[OverwriteMode](selection_overwritemode)** | 设置或获取表示改写或插入模式的标志。 |
+| **[Sum](sum)** | 获取选择中包含的数字的总和。 |
+| **[Text](selection_text)** | 获取被选取的文本，或在光标位置处插入一个字符串。 |
+| **[TextLength](text_length)** | 获取所选文本的长度。 |
 
 ## 方法
 
@@ -154,4 +155,5 @@ selection_wordleft
 selection_wordright
 sort
 sum
+text_length
 ```

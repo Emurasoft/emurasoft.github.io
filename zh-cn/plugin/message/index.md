@@ -55,6 +55,7 @@
 | [EE\_GET\_REF](ee_get_ref) | 检索一个指定插件的引用号。 |
 | [EE\_GET\_SCROLL\_POS](ee_get_scroll_pos) | 检索滚动条的当前光标位置。 |
 | [EE\_GET\_SEL\_END](ee_get_sel_end) | 检索选区的结尾字符位置。 |
+| [EE\_GET\_SEL\_LENGTH](ee_get_sel_length) | 检索所选文本的长度。|
 | [EE\_GET\_SEL\_START](ee_get_sel_start) | 检索选区的开始字符位置。 |
 | [EE\_GET\_SEL\_TEXTA](ee_get_sel_texta) | 检索被选取的 ANSI 文本。 |
 | [EE\_GET\_SEL\_TEXTW](ee_get_sel_textw) | 检索被选取的 Unicode 文本。 |
@@ -209,6 +210,7 @@ ee_get_ref
 ee_get_scroll_pos
 ee_get_sel_end
 ee_get_sel_start
+ee_get_sel_length
 ee_get_sel_texta
 ee_get_sel_textw
 ee_get_sel_type

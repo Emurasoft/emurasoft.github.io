@@ -1,6 +1,6 @@
 # Editor\_ReplaceA
 
-替换一个 ANSI 字符串。R你能直接用该内联函数或明确地发送
+替换一个 ANSI 字符串。你能直接用该内联函数或明确地发送
 [EE\_REPLACEA](../message/ee_replacea) 消息。
 
 Editor\_ReplaceA( HWND hwnd, UINT nFlags, LPCSTR szFindReplace );

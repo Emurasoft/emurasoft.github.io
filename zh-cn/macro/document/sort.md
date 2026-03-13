@@ -79,6 +79,7 @@ _flags_
 | eeSortIgnorePrefix | 当用数字升序或数字降序命令时，排序时前导非数字字符会被忽略。 |
 | eeSortInspectNotSelOnly | 检查整行即使存在垂直选择或多重选择时。如果指定了 strColumns 参数，则忽略此标志。 |
 | eeSortLengthView | 当选择按文本长度排序命令时，全角字符会被视为 2 个字符。 |
+| eeSortMoveCursor | 排序时，光标会移动到正确的位置。 |
 | eeSortRemoveEmpty | 如果还指定了 eeSortColumns，则删除指定行中包含空单元格的列。 |
 | eeSortSelectionOnly | 仅排序选取部分。 |
 | eeSortStable | 使用平稳排序来维护相同记录的相对顺序，但通常较慢。 |
