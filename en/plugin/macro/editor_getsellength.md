@@ -2,13 +2,23 @@
 
 Retrieves the length of the selected text. You can use this inline function or explicitly send the [EE_GET_SEL_LENGTH](../message/ee_get_sel_length) message.
 
-nLen = Editor_GetSelLength( HWND hwnd );
+nLen = Editor_GetSelLength( HWND hwnd, size_t nMaxLen = 0 );
 
 ## Parameters
 
 _hwnd_
 
 Specifies the window handle of the view or frame of EmEditor.
+
+_nMaxLen_
+
+Specifies the maximum length. If the length exceeds this value, this value is returned.
+
+## Parameters
+
+_nMaxLen_
+
+Specifies the maximum length. If the length exceeds this value, this value is returned.
 
 ## Return Values
 

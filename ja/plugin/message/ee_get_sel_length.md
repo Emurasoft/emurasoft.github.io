@@ -8,6 +8,12 @@ wParam = (WPARAM)0
 lParam = (LPARAM)0
 ```
 
+## Parameters
+
+_nMaxLen_
+
+最大の長さを指定します。長さがこの値を超える場合は、この値が返されます。
+
 ## 戻り値
 
 戻り値は選択テキストの長さになります。ただし、長さが LONG_MAX を超える場合は、戻り値は LONG_MAX になります。

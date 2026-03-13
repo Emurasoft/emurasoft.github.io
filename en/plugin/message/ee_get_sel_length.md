@@ -5,9 +5,15 @@ Retrieves the length of the selected text. You can send this message explicitly 
 
 ```
 EE_GET_SEL_LENGTH
-wParam = (WPARAM)0
+wParam = (WPARAM) (size_t) nMaxLen
 lParam = (LPARAM)0
 ```
+
+## Parameters
+
+_nMaxLen_
+
+Specifies the maximum length. If the length exceeds this value, this value is returned.
 
 ## Return Values
 

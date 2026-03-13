@@ -1,8 +1,6 @@
 # TextLength Property (Selection Object)
 
-Retrieves the length of the selected text.
-
-## 
+Retrieves the length of the selected text. If the length exceeds 2,147,483,647, the return value is 2,147,483,647.
 
 ### \[JavaScript\]
 
