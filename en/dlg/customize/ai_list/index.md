@@ -4,11 +4,11 @@ On the **AI Prompts**  page allows you to customize settings related to AI promp
 
 ## AI Prompts list box
 
-Select the AI prompt you want to edit.
+Selects the AI prompt you want to edit.
 
 ## Prompt text box
 
-Enter the prompt.
+Enters the prompt.
 
 ## > button
 
@@ -16,7 +16,7 @@ Use this button to choose from a list of already defined arguments.
 
 ## Output drop-down list box
 
-Select how to display the response from the AI.
+Selects how to display the response from the AI.
 
 |     |     |
 | --- | --- |
@@ -38,7 +38,7 @@ Select this to set a custom maximum token count instead of the default.
 
 ## Max tokens text box
 
-Specify the maximum token count. If this number is small, the response from the AI may be truncated.
+Specifies the maximum token count. If this number is small, the response from the AI may be truncated.
 
 ## Temperature (randomness) check box
 
@@ -62,15 +62,15 @@ If you selected the **Generate Image** from the **Output** drop-down list box, y
 
 ## Save to Chat with AI check box
 
-Specify whether to save to the Chat with AI log.
+Specifies whether to save to the Chat with AI log.
 
 ## Ask Now button
 
-Ask a question immediately with the current settings.
+Asks a question immediately with the current settings.
 
 ## Reset button
 
-Reset the settings to default.
+Resets the settings to default.
 
 ## Notes
 

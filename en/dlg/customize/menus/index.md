@@ -2,33 +2,33 @@
 
 The **Menus** page allows you to customize menus.
 
-## Menu to Customize list box
+## Menu to customize list box
 
-Specify a menu to customize.
+Specifies a menu to customize.
 
-## Defined Menu list box
+## Defined menu list box
 
 Components of the defined menu.
 
-## Delay Time slider
+## Delay time slider
 
 Specifies the delay time to display the menu when a user menu is selected. It is possible to enter a shortcut key before the menu is displayed.
 
 ## Insert Above button
 
-Insert above the selected item.
+Inserts above the selected item.
 
 ## Insert Below button
 
-Insert below the selected item.
+Inserts below the selected item.
 
 ## Insert Right button
 
-Insert a new menu to the right of the selected popup menu.
+Inserts a new menu to the right of the selected popup menu.
 
 ## Properties button
 
-Show or edit the selected configuration properties in the list.
+Shows or edits the selected configuration properties in the list.
 
 ## Delete button
 
@@ -36,11 +36,11 @@ Click this button to delete the selected item from the list.
 
 ## Up button
 
-Move the selected item up on the list.
+Moves the selected item up on the list.
 
 ## Down button
 
-Move the selected item down on the list.
+Moves the selected item down on the list.
 
 ## Reset button
 

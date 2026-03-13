@@ -22,7 +22,7 @@ Specifies how each button width is adjusted. Select one of the following options
 | **Truncate only when longer than specified width** | Each button is adjusted to its file name length, but truncated only when its length is longer than a width specified in the **Specified Width** text box. |
 | **Fix to specified width** | All buttons are same in length as specified in the **Specified Width** text box. |
 
-## When Not Fit drop-down list box
+## When not fit drop-down list box
 
 Specifies how buttons should be displayed when buttons do not fit in the window width. Specifies one of the following options.
 
@@ -32,7 +32,7 @@ Specifies how buttons should be displayed when buttons do not fit in the window 
 | **Adjust Width** | Adjusts each button width to fit to the window width. |
 | **Add Rows** | Adds rows to display all the buttons. |
 
-## Specified Width text box
+## Specified width text box
 
 Specifies the width of each button when **Truncate only when Longer than specified width** or **Fixed to specified width** is selected for the **Item Width** drop-down list box.
 

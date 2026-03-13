@@ -17,15 +17,15 @@ Click this button to delete the selected item from the list.
 
 ## Up button
 
-Move the selected item up on the list.
+Moves the selected item up on the list.
 
 ## Down button
 
-Move the selected item down on the list.
+Moves the selected item down on the list.
 
 ## Select All button
 
-Select the entire list.
+Selects the entire list.
 
 ## Toolbar button title check box and text box
 
@@ -56,7 +56,7 @@ Specifies whether the delimiters should be allowed in quotes.
 
 Specifies whether newline characters should be allowed in quotes.
 
-## Use Escape Character check box
+## Use an escape character check box
 
 Specifies whether delimiters and backslashes should be escaped by a backslash. This option allows a nonstandard CSV format, which does not allow delimiters in quotes.
 

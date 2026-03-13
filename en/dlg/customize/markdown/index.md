@@ -20,7 +20,7 @@ If this is checked, EmEditor will switch to Markdown View when a new document is
 
 ## Escape these characters check box
 
-Specify whether to escape specified characters in Markdown files. If you choose to escape some characters, you can specify the characters below the check box.
+Specifies whether to escape specified characters in Markdown files. If you choose to escape some characters, you can specify the characters below the check box.
 
 ## Reset button
 

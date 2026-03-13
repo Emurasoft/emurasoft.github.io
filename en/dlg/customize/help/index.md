@@ -2,19 +2,19 @@
 
 The **Help** page allows you to customize settings related to Help.
 
-## Online Help (The Internet connection is required) radio button
+## Online help (the internet connection is required) radio button
 
 Displays Online Help.
 
-## Local Help (The Help file needs to be installed if not already) radio button
+## Local help (requires the help file to be installed) radio button
 
 Displays Local Help.
 
-## Use Web Browser within EmEditor to view Help if available check box
+## Use Web Browser within EmEditor to view help if available check box
 
 Specifies that the Web Browser within EmEditor should be used to view Help.
 
-## Prompt when viewing Help check box
+## Prompt when viewing help check box
 
 Specifies that a prompt dialog box should be displayed to select how to display Help. 
 

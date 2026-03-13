@@ -14,7 +14,7 @@ Displays the list of events that can be selected as triggers at which an action 
 
 Specifies an action when the specified event for the specified type is triggered.
 
-## Select String before Action check box
+## Select string before action check box
 
 If this is checked, the active string will be selected before running the specified action. Some actions might require this check box set. If **None** was selected for the **Action** drop-down list box, the active string will be simply selected without any actions.
 
