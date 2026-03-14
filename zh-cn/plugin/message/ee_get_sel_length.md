@@ -4,9 +4,15 @@
 
 ```
 EE_GET_SEL_LENGTH
-wParam = (WPARAM)0
+wParam = (WPARAM) (size_t) nMaxLen
 lParam = (LPARAM)0
 ```
+
+## 参数
+
+_nMaxLen_
+
+指定最大长度。如果长度超过此值，则返回此值。
 
 ## 返回值
 

@@ -1,13 +1,17 @@
 # EE_GET_SEL_LENGTH
 
-取得所選取文字的長度。您可以明確傳送此訊息，或使用  
-[Editor_GetSelLength](../macro/editor_getsellength) 內嵌函式。
+檢索選取文字的長度。您可以明確傳送此訊息，或使用 [Editor_GetSelLength](../macro/editor_getsellength) 內嵌函式。
 
 ```
 EE_GET_SEL_LENGTH
-wParam = (WPARAM)0
+wParam = (WPARAM) (size_t) nMaxLen
 lParam = (LPARAM)0
 ```
+## 參數
+
+_nMaxLen_
+
+指定最大長度。如果長度超過此值，則返回此值。
 
 ## 返回值
 
