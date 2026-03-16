@@ -14,12 +14,6 @@ _nMaxLen_
 
 Specifies the maximum length. If the length exceeds this value, this value is returned.
 
-## Parameters
-
-_nMaxLen_
-
-Specifies the maximum length. If the length exceeds this value, this value is returned.
-
 ## Return Values
 
 The return value is the length of the selected text. If the length is larger than LONG_MAX, the return value becomes LONG_MAX.
