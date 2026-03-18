@@ -6,9 +6,9 @@ The **URI Schemes** page allows you to customize URI schemes.
 
 Shows the list of available URI schemes.
 
-## Enable/Disable ALL check box
+## Enable/Disable All checkbox
 
-This check box allows you to enable or disable all items in the list.
+This checkbox allows you to enable or disable all items in the list.
 
 ## Add button
 

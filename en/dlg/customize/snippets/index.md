@@ -30,23 +30,23 @@ Move the selected item down on the list.
 
 Enter the text. Please refer [**To Use Snippets Plug-in**](../../../howto/plugin/plugin_snippets) for the detailed syntax of snippets.
 
-## Custom icon check box
+## Custom icon checkbox
 
 Customizes the icon for the selected snippet.
 
-## Sample Icon From This File text box
+## Sample icon from this file checkbox and text box
 
-Enter the file name you sampled the icon from.
+Select the checkbox to set the file name you sampled the icon from.
 
 ## ... button
 
 Click this button to find the specified file.
 
-## Current Icon list box
+## Current icon list box
 
 List of icons you can use and the current icon selected.
 
 ## Reset button
 
-Reset the settings to default.
+Resets the settings to default.
 

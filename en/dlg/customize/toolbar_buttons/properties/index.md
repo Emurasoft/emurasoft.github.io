@@ -4,11 +4,11 @@ This dialog box appears when the **Properties** button is selected in the [**Too
 
 ## Command radio button
 
-Specify a command menu.
+Specifies a command menu.
 
 ## Separator radio button
 
-Specify a separator to separate commands.
+Specifies a separator to separate commands.
 
 ## Category list box
 
@@ -20,20 +20,20 @@ Commands available for the selected category.
 
 ## Description text
 
-Display the description for the selected command.
+Displays the description for the selected command.
 
-## Custom icon check box
+## Custom icon checkbox
 
 Customizes the icon for the selected command.
 
-## Sample Icon From This File text box
+## Sample icon from this file checkbox and text box
 
-Enter the file name you sampled the icon from.
+Select the checkbox to set the file name you sampled the icon from.
 
 ## ... button
 
 Click this button to find the specified file.
 
-## Current Icon list box
+## Current icon list box
 
 List of icons you can use and the current icon selected.

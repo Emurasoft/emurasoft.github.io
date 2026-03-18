@@ -2,9 +2,9 @@
 
 The **Sync** page allows you to customize sync settings.
 
-## Sync Settings checkbox
+## Sync settings checkbox
 
-Enable setting synchronization.
+Enables setting synchronization.
 
 ## Bidirectional radio button
 
@@ -18,15 +18,15 @@ Sends the settings to EmEditor in other computers, but does not update EmEditor 
 
 Receives EmEditor settings from other computers, but does not send the settings to other computers.
 
-## Microsoft Account radio button
+## Microsoft account radio button
 
 Uses Microsoft Account to sync settings. Available only on the Store App versions.
 
-## Network Folder radio button
+## Network folder radio button
 
 Specifies a shared folder on the network to be shared by all computers. This can be a UNC (Universal Naming Convention) path, for instance, \\\\computer1\\sharedFolder\\EmEditorSync, or a local folder, for instance, C:\\Users\\name\\OneDrive\\EmEditorSync.
 
-## Monitor Interval text box
+## Monitor interval text box
 
 Specifies how often EmEditor checks if new settings become available in the shared folder. This option only affects the sending frequency and not the receiving frequency.
 

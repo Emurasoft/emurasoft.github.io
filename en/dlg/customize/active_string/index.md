@@ -14,9 +14,9 @@ Displays the list of events that can be selected as triggers at which an action 
 
 Specifies an action when the specified event for the specified type is triggered.
 
-## Select string before action check box
+## Select string before action checkbox
 
-If this is checked, the active string will be selected before running the specified action. Some actions might require this check box set. If **None** was selected for the **Action** drop-down list box, the active string will be simply selected without any actions.
+If this is checked, the active string will be selected before running the specified action. Some actions might require this checkbox set. If **None** was selected for the **Action** drop-down list box, the active string will be simply selected without any actions.
 
 ## Command text box
 
@@ -32,7 +32,7 @@ When **External Tool** is selected for the **Action** drop-down list box, you ca
 
 ## Command drop-down list box
 
-When **EmEditor Command** is selected for the **Action** drop-down list box, you can choose the command to execute from this drop-down list box. Some commands need the active string selected before execute, and in that case, the **Select String before Action** check box should be set.
+When **EmEditor Command** is selected for the **Action** drop-down list box, you can choose the command to execute from this drop-down list box. Some commands need the active string selected before execute, and in that case, the **Select String before Action** checkbox should be set.
 
 ## Reset button
 

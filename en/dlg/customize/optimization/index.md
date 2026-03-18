@@ -6,11 +6,11 @@ The **Optimization** page allows you to customize Optimization settings.
 
 Improves performance by disabling highlighting of lines that are longer than the specified length in characters.
 
-## Assume fixed width font check box
+## Assume fixed-width font checkbox
 
 Enabling this option will improve rendering speeds of lines that are longer than the specified length, but may not work well if proportional width font is used or if the document contains full-width characters.
 
-## Disable slow find markers on scroll bar check box
+## Disable slow find markers on the scroll bar checkbox
 
 Enabling this option will disable find markers on the vertical scroll bar while opening a very large file, and improve the speed of searches.
 

@@ -4,7 +4,7 @@ The **Proxy** page allows you to customize settings related to the proxy connect
 
 ## No proxy radio button
 
-Connect to the internet without specifying proxy settings. Use this setting if you do not use a proxy or you have configured [proxy settings in Windows settings](https://support.microsoft.com/en-us/windows/use-a-proxy-server-in-windows-03096c53-0554-4ffe-b6ab-8b1deee8dae1#ID0EFD=Windows_11).
+Connects to the internet without specifying proxy settings. Use this setting if you do not use a proxy or you have configured [proxy settings in Windows settings](https://support.microsoft.com/en-us/windows/use-a-proxy-server-in-windows-03096c53-0554-4ffe-b6ab-8b1deee8dae1#ID0EFD=Windows_11).
 
 ## Manual proxy configuration radio button
 
@@ -14,27 +14,27 @@ Check to enable the custom proxy settings below.
 
 Select between HTTP or SOCKS5 protocol to connect to your proxy.
 
-### Host name
+### Host name text box
 
-Specify the host name or IP address for your proxy.
+Specifies the host name or IP address for your proxy.
 
-### Port number
+### Port number text box
 
-Specify the port number for your proxy.
+Specifies the port number for your proxy.
 
-### Proxy authentication
+### Proxy authentication checkbox
 
 Enable this option if your proxy requires a username and password to connect.
 
-### Username
+### Username text box
 
-Specify the username to use to connect.
+Specifies the username to use to connect.
 
-### Password
+### Password text box
 
-Specify the password to use to connect. You can click on o-o to show or hide the password. The username and password will be stored on your computer.
+Specifies the password to use to connect. You can click on o-o to show or hide the password. The username and password will be stored on your computer.
 
-### Proxy URL
+### Proxy URL text box
 
 This field displays the URL that encodes all settings specified above. You can click on o-o to show or hide the URL. EmEditor will use this URL to connect to the proxy. 
 

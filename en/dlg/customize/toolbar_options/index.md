@@ -2,27 +2,27 @@
 
 The **Toolbar Options** page allows you to customize settings related to Toolbar options.
 
-## Show Toolbar Titles check box
+## Show Toolbar Titles checkbox
 
-Display toolbar titles for special toolbars.
+Displays toolbar titles for special toolbars.
 
-## Lock Toolbars check box
+## Lock Toolbars checkbox
 
-Lock the toolbar positions.
+Locks the toolbar positions.
 
-## Use Large Icons check box
+## Use large icons checkbox
 
-Show toolbars with large icons.
+Displays toolbars with large icons.
 
-## Display macro titles in basic toolbars check box
+## Display macro titles in basic toolbars checkbox
 
 If this is checked, macro buttons will include title text in basic toolbars. If not checked, no button in basic toolbars will contain text and each button will be kept small.
 
-## True color check box
+## True color checkbox
 
-Show toolbars with true color (24bit) icons.
+Shows toolbars with true color (24bit) icons.
 
-## Drop-down List Font drop-down list box
+## Drop-down list font drop-down list box
 
 Specifies the font to be used for the drop-down lists in toolbars.
 

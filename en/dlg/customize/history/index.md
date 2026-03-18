@@ -18,7 +18,7 @@ Number of recent searches shown in the **Find/Replace** dialog boxes.
 
 Number of items first displayed in the menu. The items exceeding this number are displayed inside the **More** popup menu.
 
-## Strip paths for files in the current folder check box
+## Strip paths for files in the current folder checkbox
 
 If this is checked, the path of the file in the same folder as the active file will not be displayed. However, the full path may appear when a new file is created and when there is no other file opened.
 The tray icon menu always displays the full path.
@@ -33,7 +33,7 @@ Specifies keyboard shortcuts when the number of menu items exceeds ten. Select o
 | **All Zeros** | Adds all zeros (0). |
 | **Add Alphabets** | Adds alphabets (A-Z). If this is selected, depending on the menu configuration, other existing menu item keyboard shortcuts might conflict with these alphabets. |
 
-## Save cursor position check box
+## Save cursor position checkbox
 
 If this is checked, EmEditor will save the cursor position up to specified days (maximum 100 days).
 
@@ -41,7 +41,7 @@ If this is checked, EmEditor will save the cursor position up to specified days 
 
 Specifies the number of days to save the cursor position. The maximum is 100 days.
 
-## Save bookmarks check box
+## Save bookmarks checkbox
 
 If this is checked, EmEditor will save bookmarks up to specified days (maximum 100 days).
 
@@ -61,7 +61,7 @@ Adds an item to the list.
 
 Deletes an item to the list.
 
-## Exclude the internet cache folder List check box
+## Exclude the internet cache folder List checkbox
 
 If this box is checked, EmEditor will not add file paths that are in the Internet
 cache folder.

@@ -38,7 +38,7 @@ Specifies the width of each button when **Truncate only when Longer than specifi
 
 ## Show or hide the favorites toolbar automatically
 
-When this check box is checked, EmEditor automatically hides the Favorites toolbar when there is no button on the toolbar, and displays the toolbar when a user adds a button to the toolbar.
+When this checkbox is checked, EmEditor automatically hides the Favorites toolbar when there is no button on the toolbar, and displays the toolbar when a user adds a button to the toolbar.
 
 ## Add File button
 

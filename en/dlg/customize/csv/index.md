@@ -27,7 +27,7 @@ Moves the selected item down on the list.
 
 Selects the entire list.
 
-## Toolbar button title check box and text box
+## Toolbar button title checkbox and text box
 
 Specifies the title separately from the CSV format name.
 
@@ -48,15 +48,15 @@ Specifies a delimiter to separate the data items. The delimiter can include the 
 
 Specifies a quotation mark to quote data items. The quotation mark can include the above escape sequences. The quotation mark must be exactly one character.
 
-## Allow delimiters in quotes check box
+## Allow delimiters in quotes checkbox
 
 Specifies whether the delimiters should be allowed in quotes.
 
-## Allow newlines in quotes check box
+## Allow newlines in quotes checkbox
 
 Specifies whether newline characters should be allowed in quotes.
 
-## Use an escape character check box
+## Use an escape character checkbox
 
 Specifies whether delimiters and backslashes should be escaped by a backslash. This option allows a nonstandard CSV format, which does not allow delimiters in quotes.
 

@@ -14,11 +14,11 @@ Specifies the search URL to use when a search word is entered in the address bar
 
 Selects where the Web Browser bar should be positioned in the EmEditor window.
 
-## Use Web Browser within EmEditor to view web sites check box
+## Use Web Browser within EmEditor to view websites checkbox
 
 Specifies that the Web Browser within EmEditor should be used to view web sites.
 
-## Prompt when viewing a web site check box
+## Prompt when viewing a website checkbox
 
 Specifies that a prompt dialog box should be displayed to select whether the Web Browser within EmEditor should be used to view web sites.
 

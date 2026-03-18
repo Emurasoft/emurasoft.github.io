@@ -18,10 +18,10 @@ Specifies how an icon for each tab is displayed. Select one of the following opt
 |     |     |
 | --- | --- |
 | **None** | Does not display any icons. |
-| **Document Type Icons** | Displays icons associated with opened document types. |
-| **EmEditor Icon** | Displays the EmEditor icon. |
+| **Document type icons** | Displays icons associated with opened document types. |
+| **EmEditor icon** | Displays the EmEditor icon. |
 
-## Insert Position drop-down list box
+## Insert position drop-down list box
 
 Specifies where a new tab should be inserted. Select one of the following options.
 
@@ -29,28 +29,28 @@ Specifies where a new tab should be inserted. Select one of the following option
 | --- | --- |
 | **Leftmost** | A new tab will be inserted at the leftmost position. |
 | **Rightmost** | A new tab will be inserted at the rightmost position. |
-| **Left of Active Tab** | A new tab will be inserted to the left of the active document tab. |
-| **Right of Active Tab** | A new tab will be inserted to the right of the active document tab. |
+| **Left of active tab** | A new tab will be inserted to the left of the active document tab. |
+| **Right of active tab** | A new tab will be inserted to the right of the active document tab. |
 
-## When Closed drop-down list box
+## When closed drop-down list box
 
 Specifies which tab should be activated when a tab is closed. Select one of the following options.
 
 |     |     |
 | --- | --- |
-| **Activate Most Recent Tab** | Activates the most recently used tab. |
-| **Activate Left Tab** | Activates the tab to the left of the closed tab. |
-| **Activate Right Tab** | Activates the tab to the right of the closed tab. |
+| **Activate most recent tab** | Activates the most recently used tab. |
+| **Activate left tab** | Activates the tab to the left of the closed tab. |
+| **Activate right tab** | Activates the tab to the right of the closed tab. |
 
-## Open In drop-down list box
+## Open in drop-down list box
 
 Specifies in which window a new file should be opened. Select one of the following options.
 
 |     |     |
 | --- | --- |
-| **New Window** | Opens both new files and existing files in new windows. |
-| **New Tab in Most Recent Window** | Opens both new files and existing files in new tabs in the most recent window. However, when tabs are disabled, or when a plug-in is running, the file might be opened always in a new window. |
-| **New Window for New File, otherwise New Tab** | Opens a new file in a new window, and an existing file as a new tab. However, when tabs are disabled, or when a plug-in is running, the file might be opened always in a new window. |
+| **New window** | Opens both new files and existing files in new windows. |
+| **New tab in the most recent window** | Opens both new files and existing files in new tabs in the most recent window. However, when tabs are disabled, or when a plug-in is running, the file might be opened always in a new window. |
+| **New window for a new file; otherwise, new tab** | Opens a new file in a new window, and an existing file as a new tab. However, when tabs are disabled, or when a plug-in is running, the file might be opened always in a new window. |
 
 ## Width drop-down list box
 
@@ -59,45 +59,45 @@ Specifies how each tab width is adjusted. Select one of the following options.
 |     |     |
 | --- | --- |
 | **Adjust to file name** | Each tab is adjusted to its file name length. |
-| **Truncate only when longer than specified width** | Each tab is adjusted to its file name length, but truncated only when its length is longer than a width specified in the **Specified Width** text box. |
+| **Truncate only when longer than specified width** | Each tab is adjusted to its file name length, but truncated only when its length is longer than a width specified in the **Specified width** text box. |
 | **Fix to specified width** | All tabs are same in length as specified in the **Specified Width** text box. |
 
-## When Not Fit drop-down list box
+## When not fit drop-down list box
 
 Specifies how tabs should be displayed when tabs do not fit in the window width. Specifies one of the following options.
 
 |     |     |
 | --- | --- |
 | **None** | Does nothing. |
-| **Adjust Width** | Adjusts each tab width to fit to the window width. |
-| **Add Rows** | Adds rows to display all the tabs. |
+| **Adjust width** | Adjusts each tab width to fit to the window width. |
+| **Add rows** | Adds rows to display all the tabs. |
 
-## Close Button drop-down list box
+## Close button drop-down list box
 
 Specifies how the Close button should be displayed. Select one of the following options.
 
 |     |     |
 | --- | --- |
 | **None** | Does not display the Close button. |
-| **Right Side of Window** | Displays the Close button on the right side of the window. |
-| **On Active Tab** | Displays the Close button only on the active tab. |
-| **On Each Tab** | Displays the Close button on each tab. |
+| **Right side of window** | Displays the Close button on the right side of the window. |
+| **On active tab** | Displays the Close button only on the active tab. |
+| **On each tab** | Displays the Close button on each tab. |
 
-## Specified Width text box
+## Specified width text box
 
-Specifies the width of each tab when **Truncate only when Longer than specified width** or **Fixed to specified width** is selected for the **Item Width** drop-down list box.
+Specifies the width of each tab when **Truncate only when longer than specified width** or **Fix to specified width** is selected for the **Width** drop-down list box.
 
-## Show Read-Only Icon check box
+## Show read-only icon checkbox
 
 Shows the read-only icon on the tab where the file is opened as read-only mode.
 
-## Highlight Active Tab check box
+## Highlight active tab checkbox
 
 Highlights the active tab when the **Tab** is selected for the **Style** drop-down list box.
 
 ## Color button
 
-Specifies the color to highlight the active tab when the **Highlight Active Tab** check box is set.
+Specifies the color to highlight the active tab when the **Highlight active tab** checkbox is set.
 
 ## Reset button
 

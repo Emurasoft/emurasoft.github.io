@@ -18,9 +18,9 @@ Deletes the selected item(s) in the list.
 
 Shows the list of options for the selected layouts.
 
-## Enable/Disable ALL check box
+## Enable/Disable ALL checkbox
 
-This check box allows you to enable or disable all items in the list.
+This checkbox allows you to enable or disable all items in the list.
 
 ## Save Current Layout button
 

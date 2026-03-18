@@ -3,7 +3,7 @@
 The **Edit** page allows you to customize settings related to edit
 operations.
 
-## Specify tag format using regular expressions check box
+## Specify tag format using regular expressions checkbox
 
 Uses regular expressions to specify the tag format.
 
@@ -23,87 +23,87 @@ Specifies a regular expression to match a line number.
 
 Specifies a regular expression to match a column number.
 
-## Save Insert/Overwrite Mode check box
+## Save Insert/Overwrite Mode checkbox
 
 If this box is checked, **Insert/Overwrite** mode will be saved, and the next time
 you start a new EmEditor window, the **Insert/Overwrite** mode will restored. If
 this box is not checked, EmEditor always starts with the insert mode.
 
-## Enable Multiple Selections check box
+## Enable Multiple Selections checkbox
 
 Specifies whether you want to enable multiple selections. To make multiple selections, after making one selection, make another selection with the mouse while pressing the CTRL key. Alternatively, you can press the F8 key, move the cursor to extend the selection, press the F8 key again to finish the selection, move the cursor again to go to the next selection position, and repeat this procedure until you make all selections.
 
-## Read-only when a temporary file is opened with View Source on Internet Explorer check box
+## Read-only when a temporary file is opened with View Source on Internet Explorer checkbox
 
 Enables read-only when a temporary file is opened with View Source in Internet Explorer.
 
-## Prompt when EmEditor cannot open the Clipboard check box
+## Prompt when EmEditor cannot open the Clipboard checkbox
 
 Displays a dialog box to prompt users when EmEditor cannot open the Clipboard.
 
-## Keep horizontal cursor position check box
+## Keep horizontal cursor position checkbox
 
 After you insert a string and move the cursor up or down, this option allows the cursor position to return to the same horizontal position as the position before inserting the string.
 
-## Undo character by character check box (need to restart emeditor) 
+## Undo character by character checkbox (need to restart emeditor) 
 
 If this box is checked, the [**Undo** command](../../../cmd/edit/edit_undo) will undo the word, character by character.
 This action will also affect macros which record an insert command, character by character. To activate the new settings, you need to restart EmEditor.
 
-## Always discard lengthy undo information to improve performance check box
+## Always discard lengthy undo information to improve performance checkbox
 
 Always discards lengthy undo information. EmEditor determines that Undo information is
 lengthy enough to discard if one of the following conditions is met: (1) the number of lines is greater than 3,000,000 lines. (2) the number of characters is greater than 100,000,000. (3) the percentage of the system physical memory in use is greater than the **Maximum Memory Size** specified in the **Advanced** page of the **Customize** dialog box.
 
-## Prompt when no undo information is available check box
+## Prompt when no undo information is available checkbox
 
 Displays a dialog box to prompt users when no Undo information is available.
 
-## Auto Copy check box
+## Auto Copy checkbox
 
 This option allows you to copy the selection automatically to the Clipboard without selecting the Copy command (CTRL + C). While the **Auto Copy** mode is on, the selection will be copied to the Clipboard immediately before the selection is deselected or deleted, immediately before the active document is switched, or the editor loses the keyboard focus. However, it does not work during the CSV cell mode.
 
-## Prompt when Very Long Lines Exist check box
+## Prompt when Very Long Lines Exist checkbox
 
 Displays a dialog box to prompt users when very long lines exist in the document.
 
-## Treat ambiguous-width characters as full-width check box
+## Treat ambiguous-width characters as full-width checkbox
 
 Treats ambiguous characters defined in " [Unicode Standard Annex #11 - East Asian Width](http://www.unicode.org/reports/tr11/)" as Fullwidth.
 
-## Add additional information to the Undo/Redo history check box
+## Add additional information to the Undo/Redo history checkbox
 
 If this is checked, EmEditor will add additional information, such as command name and bookmarks positions, in the comment when you export the Undo/Redo history.
 
-## Always insert newlines when copying multiple selections check box
+## Always insert newlines when copying multiple selections checkbox
 
 If this is checked, EmEditor will insert newline characters when you copy multiple selections so that it can paste to another multiple selections.
 
-## Keep selections while typing with multiple selections check box
+## Keep selections while typing with multiple selections checkbox
 
 If this is checked, EmEditor will keep selections while typing in multiple selections, and confine the cursors to the multiple selection range when you move the cursor via arrow keys.
 
-## Alternative behavior of the Word Right command check box
+## Alternative behavior of the Word Right command checkbox
 
 If this is checked, EmEditor will use an alternative behavior of the [**Word Right**](../../../cmd/edit/right_word) command.
 
-## Alternative behavior of the Word Left command check box
+## Alternative behavior of the Word Left command checkbox
 
 If this is checked, EmEditor will use an alternative behavior of the [**Word Left**](../../../cmd/edit/left_word) command.
 
-## Ignore the last character in the selection for the Insert/Remove Newline Characters commands check box
+## Ignore the last character in the selection for the Insert/Remove Newline Characters commands checkbox
 
 If this is checked, EmEditor will ignore the last character in the selection when executing the Insert/Remove Newline Characters commands.
 
-## Inspect only selected strings when a vertical selection or multiple selections exist (Delete Duplicates command) check box
+## Inspect only selected strings when a vertical selection or multiple selections exist (Delete Duplicates command) checkbox
 
 If this is checked, EmEditor will inspect only selected strings for duplication when vertical selection or multiple selections exist.
 
-## Extend the selection on the Duplicate Lines/Columns commands check box
+## Extend the selection on the Duplicate Lines/Columns commands checkbox
 
 If this is checked, EmEditor will extend selection when you run Duplicate Lines/Columns commands.
 
-## Locale-dependent uppercase/lowercase check box
+## Locale-dependent uppercase/lowercase checkbox
 
 If this is checked, the **Uppercase**, **Lowercase**, and **Capitalize** commands will depend on the locale specified in the **Sort** page of the **Customize** dialog box.
 

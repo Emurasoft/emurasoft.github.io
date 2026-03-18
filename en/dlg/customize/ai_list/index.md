@@ -32,7 +32,7 @@ Selects how to display the response from the AI.
 | **Split and Compare** | The response will become the content of a new document and will be displayed in a split window for comparison. |
 | **Image** | The response will be displayed as an image in a web browser. |
 
-## Max tokens check box
+## Max tokens checkbox
 
 Select this to set a custom maximum token count instead of the default.
 
@@ -40,7 +40,7 @@ Select this to set a custom maximum token count instead of the default.
 
 Specifies the maximum token count. If this number is small, the response from the AI may be truncated.
 
-## Temperature (randomness) check box
+## Temperature (randomness) checkbox
 
 Select this to set a custom temperature instead of the default.
 
@@ -52,15 +52,15 @@ Sets the AI’s temperature. Higher values make its output more random.
 
 If you selected the **Generate Image** from the **Output** drop-down list box, you can select the image size to be generated.
 
-## HD check box
+## HD checkbox
 
 If you selected the **Generate Image** from the **Output** drop-down list box, you can also choose to create a high resolution image.
 
-## Vivid check box
+## Vivid checkbox
 
 If you selected the **Generate Image** from the **Output** drop-down list box, you can also choose to create a vivid image.
 
-## Save to Chat with AI check box
+## Save to Chat with AI checkbox
 
 Specifies whether to save to the Chat with AI log.
 

@@ -4,11 +4,11 @@ The **Format** page allows you to customize settings related to the formats of d
 
 ## Date
 
-Allows you to customize the date format to use when you use **Date and Time** command or **Time and Date** command. If the **Use system format** check box is set, the date format specified in the **Control Panel** will be used.
+Allows you to customize the date format to use when you use **Date and Time** command or **Time and Date** command. If the **Use system format** checkbox is set, the date format specified in the **Control Panel** will be used.
 
 ## Time
 
-Allows you to customize the time format to use when you use **Date and Time** command or **Time and Date** command. If the **Use system format** check box is set, the time format specified in the **Control Panel** will be used.
+Allows you to customize the time format to use when you use **Date and Time** command or **Time and Date** command. If the **Use system format** checkbox is set, the time format specified in the **Control Panel** will be used.
 
 ## Line number (decimal)
 

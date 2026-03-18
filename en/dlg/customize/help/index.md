@@ -10,11 +10,11 @@ Displays Online Help.
 
 Displays Local Help.
 
-## Use Web Browser within EmEditor to view help if available check box
+## Use Web Browser within EmEditor to view help if available checkbox
 
 Specifies that the Web Browser within EmEditor should be used to view Help.
 
-## Prompt when viewing help check box
+## Prompt when viewing help checkbox
 
 Specifies that a prompt dialog box should be displayed to select how to display Help. 
 

@@ -3,82 +3,82 @@
 The **File** page allows you to customize settings related to file
 operations.
 
-## Remember last folder check box
+## Remember last folder checkbox
 
 In the **Open** and **Save As** dialogs, show the most recently used folder.
 
-## This file doesn't exist. Create it? check box
+## This file doesn't exist. Create it? checkbox
 
 Shows a warning message if trying to open non-existent files.
 
-## Prompt when creating a new file in a network path check box
+## Prompt when creating a new file in a network path checkbox
 
 Shows an additional warning message if trying to open non-existent files in a network path.
 
-## Always add to Recent Documents folder check box
+## Always add to Recent Documents folder checkbox
 
 Save the shortcuts to the Windows **My Recent Documents** folder when you
-open or save files. This check box must be on in order for the recent category in the Windows 7 jump list to include the recently used items.
+open or save files. This checkbox must be on in order for the recent category in the Windows 7 jump list to include the recently used items.
 
-## Use uchardet to detect file encodings when the Detect All option is enabled check box
+## Use uchardet to detect file encodings when the Detect All option is enabled checkbox
 
 When the **Detect All** option is used to open files, EmEditor will use **[uchardet](https://github.com/BYVoid/uchardet)** (C++ fork of Mozilla Charset Detectors) to detect file encoding.
 
-## Open US-ASCII as system default encoding check box
+## Open US-ASCII as system default encoding checkbox
 
 If the detected file encoding was US-ASCII, EmEditor will open the file as the system default encoding.
 
-## Always show Detect All results check box
+## Always show Detect All results checkbox
 
-Always displays the [**Detect All Result** dialog box](../../detect_result/index) when the **Detect All** check box is selected when opening a file, or when the **[Reload Detect All](../../../cmd/file/file_reload_detect_all)** command is selected. However, if UTF-16 with
+Always displays the [**Detect All Result** dialog box](../../detect_result/index) when the **Detect All** checkbox is selected when opening a file, or when the **[Reload Detect All](../../../cmd/file/file_reload_detect_all)** command is selected. However, if UTF-16 with
 signature, UTF-16 without signature or UTF-8 with signature is detected, the file will be loaded immediately without displaying the dialog box.
 
-## Show only when multiple encodings are detected check box
+## Show only when multiple encodings are detected checkbox
 
-Displays the [**Detect All Result** dialog box](../../detect_result/index) only if multiple encodings are detected when the **Detect All** check box is selected when opening a file, or when the **[Reload Detect All](../../../cmd/file/file_reload_detect_all)** command is selected.
+Displays the [**Detect All Result** dialog box](../../detect_result/index) only if multiple encodings are detected when the **Detect All** checkbox is selected when opening a file, or when the **[Reload Detect All](../../../cmd/file/file_reload_detect_all)** command is selected.
 
-## Also show Detect All results during Find in Files check box
+## Also show Detect All results during Find in Files checkbox
 
-Displays the [**Detect All Result** dialog box](../../detect_result/index) during Find in Files when the **Detect All** check box is selected.
+Displays the [**Detect All Result** dialog box](../../detect_result/index) during Find in Files when the **Detect All** checkbox is selected.
 
-## Avoid printer access check box
+## Avoid printer access checkbox
 
 Avoids access to a printer. If this is checked, when EmEditor is launched, even if the
-**Show Page Numbers** check box is checked, page numbers will not be displayed until the
+**Show Page Numbers** checkbox is checked, page numbers will not be displayed until the
 [**Print** command](../../../cmd/file/file_print) or the [**Print Preview** command](../../../cmd/file/print_preview) is selected. This option is recommended if the printer access is slow.
 
-## Show the Large File Controller when a large file is opened check box
+## Show the Large File Controller when a large file is opened checkbox
 
 If this is checked, EmEditor automatically displays the Large File Controller when it opens a large file (larger than the size specified in Minimum File Size to Open Asynchronously text box in the
 [Advanced page](../advanced/index) of the Customize dialog box).
 
-## Prompt when only part of a file is opened check box
+## Prompt when only part of a file is opened checkbox
 
 If this is checked, EmEditor will display a prompt dialog box if EmEditor loads only a portion of a file specified in the **From (default)** and **To (default)** text boxes.
 
-## Prompt when default Open Filter exists check box
+## Prompt when default Open Filter exists checkbox
 
 If this is checked, EmEditor will display a prompt dialog box if the **Open Filter** exists. The **Open Filter** can be set in the **Large File Controller**.
 
-## Prompt if a Unicode (UTF-16) file size is an odd number of bytes check box
+## Prompt if a Unicode (UTF-16) file size is an odd number of bytes checkbox
 
 If this is checked, EmEditor will display a prompt dialog box if a Unicode (UTF-16) file size is an odd number in bytes.
 
-## Enable file mapping when saving a large file check box
+## Enable file mapping when saving a large file checkbox
 
 If this is checked, EmEditor will enable file mapping when saving a very large file if possible.
 
-## Monitor files only while EmEditor is active check box
+## Monitor files only while EmEditor is active checkbox
 
 If this is checked, EmEditor will monitor files only while EmEditor is active.
 
-## Verify files immediately after opening check box
+## Verify files immediately after opening checkbox
 
 When this option is selected, the newly opened file is saved as a temporary file, and its size and SHA256 hash value are compared to the original.
 
-## Display verification results only if there is a failure check box
+## Display verification results only if there is a failure checkbox
 
-If you select this option along with the **Verify files immediately after opening** check box, the verification results will only be shown if there's a failure.
+If you select this option along with the **Verify files immediately after opening** checkbox, the verification results will only be shown if there's a failure.
 
 ## From (default)
 

@@ -2,30 +2,30 @@
 
 The **Advanced** page allows you to customize advanced settings. You will need to restart EmEditor if you change these options.
 
-## Do not share a process between documents (disables tabs) check box
+## Do not share a process between documents (disables tabs) checkbox
 
 By default, all EmEditor windows will run in one single process, and no more than one process will run on a system whether or not tabs are displayed. It is recommended to leave this option unchecked so
 that EmEditor minimizes the system's memory usage. However, an application error can cause all documents
 to terminate, even though the EmEditor's error handler can try to save unsaved documents when an application error happens. By checking this option, each window will run in an independent process, and an application error on one document will not cause other documents to terminate. If this is
 checked, tabs will be disabled and cannot be displayed.
 
-## Enable disk-based mode check box
+## Enable disk-based mode checkbox
 
-If this box is checked, EmEditor uses file-based operations for editing, and reduces the system's memory usage. If the Read Unmodified Lines from the Original File check box is also set, unmodified lines will be read from the original file, which increases the speed to open a file. If not, the file contents will be saved as a temporary file while opening a file, which reduces the file opening speed. Both cases reduce the system's memory usage.
+If this box is checked, EmEditor uses file-based operations for editing, and reduces the system's memory usage. If the Read Unmodified Lines from the Original File checkbox is also set, unmodified lines will be read from the original file, which increases the speed to open a file. If not, the file contents will be saved as a temporary file while opening a file, which reduces the file opening speed. Both cases reduce the system's memory usage.
 
 ## Minimum file size to enable disk-based mode text box
 
-Uses a disk-based operations when the file size is larger than the size specified here and the Enable Disk-Based check box is checked. Specifying zero will always enable disk-based operations.
+Uses a disk-based operations when the file size is larger than the size specified here and the Enable Disk-Based checkbox is checked. Specifying zero will always enable disk-based operations.
 
-## Read unmodified lines from the original file check box
+## Read unmodified lines from the original file checkbox
 
 If this box is checked, unmodified lines will be read from the original file, which increases the speed to open a file.
 
-## Lock the original file check box
+## Lock the original file checkbox
 
 If this box is checked, the original file is locked when the disk-based is enabled to open a file.
 
-## Use temporary files while editing check box
+## Use temporary files while editing checkbox
 
 If this box is checked, modified file contents will be saved to a temporary file while editing. While this action reduces the system's memory usage, it will slow down the running speed.
 
@@ -34,7 +34,7 @@ If this box is checked, modified file contents will be saved to a temporary file
 Opens a file asynchronously when the file size is larger than the size specified here. Specifying zero
 will always open a file asynchronously.
 
-## Use the system temporary folder check box
+## Use the system temporary folder checkbox
 
 Uses the system temporary folder rather than a user-specified folder (see below).
 
@@ -46,7 +46,7 @@ Specifies the temporary folder if the system temporary folder is not used.
 
 Specifies the number of threads used for some features in EmEditor to improve the speed. When Auto is selected, EmEditor uses the most appropriate number of the threads.
 
-## Automatically manage all memory sizes check box
+## Automatically manage all memory sizes checkbox
 
 If this box is checked, EmEditor automatically calculates optimal memory sizes from the total physical memory size and the available virtual memory size.
 
