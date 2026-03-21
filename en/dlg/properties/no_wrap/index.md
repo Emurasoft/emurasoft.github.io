@@ -3,7 +3,7 @@
 The **No Wrap** page allows you to set properties related to basic
 operations.
 
-## Enable Non-Wrap Words check box
+## Enable Non-Wrap Words checkbox
 
 These characters will not be allowed to wrap at the end of lines.
 

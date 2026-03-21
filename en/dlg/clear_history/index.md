@@ -7,7 +7,7 @@ This dialog box appears when either the **Clear History Now** button or **Clear 
 
 Shows the list of history items to clear.
 
-## Enable/Disable All check box
+## Enable/Disable All checkbox
 
 Enables or disables all items in the list.
 

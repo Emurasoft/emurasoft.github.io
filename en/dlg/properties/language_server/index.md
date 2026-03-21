@@ -4,11 +4,11 @@ The **Language Server** page allows you to set properties related to language se
 
 ## 
 
-### Enable Language Server Protocol check box
+### Enable Language Server Protocol checkbox
 
 Enabling Language Server Protocol turns on the following features:
 
-- Hover tooltips when the **Show hover tooltips** check box is set.
+- Hover tooltips when the **Show hover tooltips** checkbox is set.
 - **Search Symbols** in the **Search** menu
 - Allows selecting **Language Server Protocol** as the **Document Type** for **Syntax Check**
 
@@ -16,11 +16,11 @@ Enabling Language Server Protocol turns on the following features:
 
 Specifies the language server to use. The HTML, CSS, JavaScript, and Perl servers are installed with EmEditor and are ready to use. Other language servers require additional steps to install. See the "Language Server installation" section below for information on installing language servers.
 
-### Show hover tooltip check box
+### Show hover tooltip checkbox
 
 Shows hover tooltips.
 
-### Show completion list check box
+### Show completion list checkbox
 
 Shows completion list.
 

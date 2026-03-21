@@ -6,19 +6,19 @@ The **Link** page allows you to set properties related to links.
 
 Displays the list of types that can be specified to be enabled as **Active String**. Each item with the check mark acts as Active String. An action can be assigned to each Active String for each event in the [**Active String** page](../../customize/active_string/index) of the **Customize** dialog box.
 
-## Enable Double-Clicking Only check box
+## Enable Double-Clicking Only checkbox
 
 Despite the settings in the [**Active String** page](../../customize/active_string/index) of the **Customize** dialog box, the actions associated with the **Left Clicked** event are ignored.
 
-## Remember Visited Links check box
+## Remember Visited Links checkbox
 
 Remembers the visited URLs, mail addresses and tags (after the **Find in Files** command) and highlight those links according to the specified colors specified in the [**Display** page](../display/index) of configuration properties.
 
-## URLs and Mail Addresses Can Include Full-Width Unicode Characters check box
+## URLs and Mail Addresses Can Include Full-Width Unicode Characters checkbox
 
 Recognize full-width Unicode characters as URLs.
 
-## URLs and Mail Addresses Can Include Half-Width Unicode Characters check box
+## URLs and Mail Addresses Can Include Half-Width Unicode Characters checkbox
 
 Recognize half-width Unicode characters as URLs.
 

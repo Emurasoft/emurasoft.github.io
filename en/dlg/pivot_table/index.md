@@ -77,11 +77,11 @@ Selects the sort method of the new columns (the first row of each column).
 
 Selects the column of the CSV document to be extended to the values in a new pivot table.
 
-## Total in columns check box
+## Total in columns checkbox
 
 Displays the total value of each column at the bottom row. If this is set, enter the label to be used for the first column of the row.
 
-## Total in rows check box
+## Total in rows checkbox
 
 Displays the total value of each row at the rightmost column. If this is set, enter the label to be used for the first row of the column.
 

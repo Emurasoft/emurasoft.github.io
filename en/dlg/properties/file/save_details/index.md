@@ -3,51 +3,51 @@
 This dialog box appears when the **Saving** button
 on the [**File** page](../index) of Configuration Properties is selected.
 
-## Prompt when Saving Unicode as ANSI check box
+## Prompt when Saving Unicode as ANSI checkbox
 
 When saving a file as an encoding other than Unicode, Unicode big endian, or
 UTF-8, prompts if the document contains Unicode characters which cannot be
 converted to the specified encoding.
 
-## Save Unicode as HTML/XML Character Reference check box
+## Save Unicode as HTML/XML Character Reference checkbox
 
 If this box is checked, any Unicode character that cannot be converted to the
 destination code page will be encoded as a numeric entity code such as \&\#10070;.
 
-## Use Named Entity Reference check box
+## Use Named Entity Reference checkbox
 
 If this box is checked, any Unicode character that cannot be converted to the
 destination code page will be encoded as the named entity code such as \&copy;.
 This option is available only when Internet Explorer 5.0 or later is installed.
 
-## Save Tabs as Spaces check box
+## Save Tabs as Spaces checkbox
 
 Convert tabs to spaces when saving documents.
 
-## Insert Returns when Saving check box
+## Insert Returns when Saving checkbox
 
 Insert returns at wrap points when saving documents.
 
-## Delete Empty Files when Saving check box
+## Delete Empty Files when Saving checkbox
 
 Delete the file if the document is empty.
 
-## Always Enable Saving check box
+## Always Enable Saving checkbox
 
 Enable the [**Save** command](../../../../cmd/file/file_save) even
 if the document is not modified.
 
-## Delete Spaces at End of Lines check box
+## Delete Spaces at End of Lines checkbox
 
 Delete spaces at end of lines when saving documents. Even if this option is enabled, extra spaces at the cursor line will not be affected when a file is being saved. However, they will be deleted when a file is being saved and closed at the same time.
 
-## Except for Line at Cursor check box
+## Except for Line at Cursor checkbox
 
-## Automatically Name Untitled Document check box
+## Automatically Name Untitled Document checkbox
 
 If this is checked, when an untitled document is being saved, the first line of the document will be used to name the file.
 
-## Prompt before Deleting an Old File when Renaming check box
+## Prompt before Deleting an Old File when Renaming checkbox
 
 If this is checked, EmEditor will display a dialogue box to prompt user before deleting the old file when renaming.
 
@@ -55,7 +55,7 @@ If this is checked, EmEditor will display a dialogue box to prompt user before d
 
 Select an encoding method when saving the file.
 
-## Add a Unicode Signature (BOM) check box
+## Add a Unicode Signature (BOM) checkbox
 
 When saving the file as Unicode, Unicode big endian or UTF-8, add the Byte
 Order Mark (BOM) signature to the file.

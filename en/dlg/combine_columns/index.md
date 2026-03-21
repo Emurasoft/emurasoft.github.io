@@ -11,15 +11,15 @@ If this button is checked, EmEditor concatenates the selected columns.
 
 You can specify the string to insert when concatenating the selected columns.
 
-## Remove empty strings check box
+## Remove empty strings checkbox
 
 If this is checked, EmEditor removes empty strings when combining columns.
 
-## Remove duplicate strings check box
+## Remove duplicate strings checkbox
 
 If this is checked, EmEditor removes duplicate strings when combining columns.
 
-## Sort strings check box
+## Sort strings checkbox
 
 If this is checked, EmEditor sorts strings with the specified sort condition.
 

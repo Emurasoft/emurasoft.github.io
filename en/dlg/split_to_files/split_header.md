@@ -10,6 +10,6 @@ Specifies the header to be appended at the top of each split file.
 
 Specifies the footer to be appended at the bottom of each split file.
 
-## Repeat the first line as header check box
+## Repeat the first line as header checkbox
 
 Specifies the first line of the document is repeated as the header of each split file.

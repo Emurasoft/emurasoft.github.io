@@ -3,20 +3,20 @@
 The **Print** page allows you to set properties related to print
 operations.
 
-## Print Line Numbers check box
+## Print Line Numbers checkbox
 
 Print line numbers down the left side of the page.
 
-## Ignore Color and Underlines check box
+## Ignore Color and Underlines checkbox
 
 Ignore color and underlines when printing.
 
-## Draw Separating Lines check box
+## Draw Separating Lines checkbox
 
 Insert horizontal lines between the header and the text and between the text
 and the footer.
 
-## Wrap by Page when Printing check box
+## Wrap by Page when Printing checkbox
 
 Wrap according to page width when printing.
 
@@ -25,7 +25,7 @@ Wrap according to page width when printing.
 Specify the amount of space between lines when printing. This value
 corresponds to 1/10 of the height of a single line.
 
-## Header check box
+## Header checkbox
 
 Enables the specified header.
 
@@ -50,7 +50,7 @@ Use this button to select from a list of predefined marks.
 | &e | last modified date |
 | &u | last modified time |
 
-## Footer check box
+## Footer checkbox
 
 Enables the specified footer.
 

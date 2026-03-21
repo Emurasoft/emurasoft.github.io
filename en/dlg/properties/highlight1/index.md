@@ -3,7 +3,7 @@
 The **Highlight (1)** page allows you to set properties related to highlight
 (1).
 
-## Enable Keyword Highlight check box
+## Enable Keyword Highlight checkbox
 
 If this is checked, EmEditor will highlight specified keywords.
 
@@ -19,7 +19,7 @@ Specifies the type of keywords to be highlighted. Select one of the following op
 
 ## User-Defined Strings list box
 
-List of highlighted strings. Clicking the check box will change the color.
+List of highlighted strings. Clicking the checkbox will change the color.
 These numbers correspond to the highlight colors specified on the
 [**Display** page](../display/index).
 
@@ -35,29 +35,29 @@ Click this button to delete the selected item from the list.
 
 Click this button to add default keywords to the list.
 
-## Whole Word Only check box
+## Whole Word Only checkbox
 
 Highlight the selected string only if the whole word is the string.
 
-## Highlight Right Side check box
+## Highlight Right Side checkbox
 
 Highlight the selected word and the right of the word on the
 line only up to the word wrapped position.
 
-## Highlight Right All check box
+## Highlight Right All checkbox
 
 Highlight the selected word and everything to the right of the word on the
 line up to the window border (if no wrap or wrap by window is selected) or specified width or page width.
 
-## Match Case check box
+## Match Case checkbox
 
 Highlight the selected word only if the case matches.
 
-## Inside Tag Only check box
+## Inside Tag Only checkbox
 
 Highlight the string only if the string is inside a tag.
 
-## Regular Expression check box
+## Regular Expression checkbox
 
 Highlight the selected string using a regular expression.
 

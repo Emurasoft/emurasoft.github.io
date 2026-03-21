@@ -25,23 +25,23 @@ styles. **CR+LF (Windows)** will change all returns to CR plus LF pairs. **CR on
 will change returns to LFs. Generally, Windows uses CR+LF for all returns.
 Macintosh uses CRs only, and Unix uses LFs only.
 
-## Bookmarked lines only check box
+## Bookmarked lines only checkbox
 
 If this is checked, only bookmarked lines will be saved.
 
-## Remove the first line from all documents except the first document check box
+## Remove the first line from all documents except the first document checkbox
 
 If this is checked, EmEditor will remove the first line from all source documents except the first document.
 
-## Prompt when Saving Unicode as ANSI check box
+## Prompt when Saving Unicode as ANSI checkbox
 
 When saving a file as an encoding other than Unicode, Unicode big endian, or UTF-8, prompts if the document contains Unicode characters which cannot be converted to the specified encoding.
 
-## Open the combined file when finished successfully check box
+## Open the combined file when finished successfully checkbox
 
 If this is checked, EmEditor will open the combined file when combining files is finished successfully.
 
-## Run a macro against the combined file check box
+## Run a macro against the combined file checkbox
 
 If this is checked, EmEditor will run a macro against the combined file.
 
@@ -49,6 +49,6 @@ If this is checked, EmEditor will run a macro against the combined file.
 
 Specify a macro file to run against the combined file.
 
-## Set this as the default macro check box
+## Set this as the default macro checkbox
 
 If this is checked, the selected macro will be set as the default macro.

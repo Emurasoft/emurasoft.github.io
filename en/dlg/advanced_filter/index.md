@@ -8,7 +8,7 @@ This dialog box appears when the
 
 Shows the list of defined filters.
 
-## Enable/Disable All check box
+## Enable/Disable All checkbox
 
 Enables or disables all items in the list.
 
@@ -24,37 +24,37 @@ Specifies the one-based index of the character where the search begins.
 
 Specifies the one-based index of the character where the search ends. The specified ending character is exclusive. For instance, if you specify 1 in the Begin text box, and 2 in the End text box, only one character (2-1=1) will be searched.
 
-## Count Last check box
+## Count Last checkbox
 
 If this is checked, the search range is counted from the end of the line.
 
-## All the Rest check box
+## All the Rest checkbox
 
 If this is checked, the search range is up to the end of the line.
 
-## Match Case check box
+## Match Case checkbox
 
 Match cases when searching for a string.
 
-## Match Whole Word check box
+## Match Whole Word checkbox
 
 Search words only. A word is defined as a string that begins and ends with
 any of these characters: A – Z, a – z, 0 – 9, or an underscore. Strings
-surrounded by full-width characters are considered words. When using regular expressions, this check box may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
+surrounded by full-width characters are considered words. When using regular expressions, this checkbox may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
 
-## Match Whole String check box
+## Match Whole String checkbox
 
 This matches the whole item in the selected column, character positions, or the whole line. It is recommended to set this option whenever possible to optimize the filter for speed. When multiple filter conditions are defined with the Logical Disjunction, set this option for all conditions to increase the filter speed extremely faster.
 
-## Negative check box
+## Negative checkbox
 
 This negates the match condition. Therefore, the lines matched to the specified string will be hidden from the document when displayed. This option does not affect the **Bookmarked Lines Only**, **Unbookmarked Lines Only**, or **Match Newline Characters** options.
 
-## Bookmarked Lines Only check box
+## Bookmarked Lines Only checkbox
 
 Matches bookmarked lines only.
 
-## Unbookmarked Lines Only check box
+## Unbookmarked Lines Only checkbox
 
 Matches unbookmarked lines only.
 
@@ -89,35 +89,35 @@ A null character (\\0) may not be used. \\n must be used instead of \\r.
 
 Enables [number range expressions](../../howto/search/number_range_syntax).
 
-## Match Newline Characters check box
+## Match Newline Characters checkbox
 
 Matches specified newline characters. This option should be combined with **CR Only**, **LF Only**, **CR+LF Only**, and/or **Others** check boxes.
 
-## CR Only check box
+## CR Only checkbox
 
 Matches lines of which the newline character is CR only. This option should be combined with the **Match Newline Characters** option.
 
-## LF Only check box
+## LF Only checkbox
 
 Matches lines of which the newline character is LF only. This option should be combined with the **Match Newline Characters** option.
 
-## CR+LF check box
+## CR+LF checkbox
 
 Matches lines of which the newline character is CR and LF. This option should be combined with the **Match Newline Characters** option.
 
-## Others check box
+## Others checkbox
 
 Matches lines without a newline character. These lines includes the last line of the file and very long lines that continue to the next line without a newline character. This option should be combined with the **Match Newline Characters** option.
 
-## Begin Filter check box
+## Begin Filter checkbox
 
 Specifies a begin filter. If both an item with the begin filter and another item with the end filter exist, EmEditor shows only the lines between the line that matches the begin filter and the line that matches the end filter.
 
-## End Filter check box
+## End Filter checkbox
 
 Specifies an end filter.
 
-## Logical Disjunction (OR) to the Previous Condition check box
+## Logical Disjunction (OR) to the Previous Condition checkbox
 
 Specifies a logical disjunction (logical OR) to the previous condition. If this is not checked, a logical conjunction (logical AND) is specified.
 

@@ -11,11 +11,11 @@ Specifies the path to the destination folder.
 
 Specifies the file name to save.
 
-## Open all split files when finished successfully check box
+## Open all split files when finished successfully checkbox
 
 If this is checked, EmEditor will open all split files when splitting a file is finished successfully.
 
-## Run a macro against each opened split files check box
+## Run a macro against each opened split files checkbox
 
 If this is checked, EmEditor will run a macro against each of the opened split files.
 
@@ -23,6 +23,6 @@ If this is checked, EmEditor will run a macro against each of the opened split f
 
 Specify a macro file to run against each of the opened split files.
 
-## Set this as the default macro check box
+## Set this as the default macro checkbox
 
 If this is checked, the selected macro will be set as the default macro.

@@ -41,15 +41,15 @@ Displays the list of defined sort conditions.
 | Sort Randomly | Sorts randomly in the current column. |
 | Sort by Similarity | Sorts by similarity to the current cell in the current column. |
 
-## Enable/Disable ALL check box
+## Enable/Disable ALL checkbox
 
-This check box allows you to enable or disable all items in the list.
+This checkbox allows you to enable or disable all items in the list.
 
-## Apply to all documents in the group check box
+## Apply to all documents in the group checkbox
 
 Sorts all the documents in the group.
 
-## In the Selection Only check box
+## In the Selection Only checkbox
 
 Sorts only the selected lines.
 

@@ -16,7 +16,7 @@ Specifies that the selected file type uses regular expressions.
 
 Specifies which configuration is associated with the selected file type.
 
-## Use in Find in Files Filter check box
+## Use in Find in Files Filter checkbox
 
 Specifies whether the selected file type is used for the **Current File**
 **Type** in the **Find in Files** dialog box.

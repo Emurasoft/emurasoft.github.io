@@ -15,31 +15,31 @@ Click this button to display the **Open** dialog box where you can select a macr
 
 Click this button to display the default macro, the (Clipboard) option and the list of **My Macros**.
 
-## Set this as the default macro check box
+## Set this as the default macro checkbox
 
 If this is checked, the selected macro will be set as the default macro.
 
-## Set Repeat Count check box and text box
+## Set Repeat Count checkbox and text box
 
 Specifies the number of times the macro repeats.
 
-## Stop if Search Fails check box
+## Stop if Search Fails checkbox
 
 If this box is checked, the macro will be stopped when finding or replacing a string
 fails. It is useful when you want to repeat a macro that finds or replaces a
 string.
 
-## Suppress redraw check box
+## Suppress redraw checkbox
 
 If this box is checked, the macro starts with "Redraw = false". EmEditor will suppress redraw of changes until "Redraw = true" or the end of macro is reached.
 
-## Run the macro against each opened document check box
+## Run the macro against each opened document checkbox
 
 If this box is checked, you can specify files to open before running the macro. The macro will be run immediately after each specified file is opened. If the **Repeat Count** is specified, the macro will be repeated for each opened file.
 
 ## Name list box
 
-Specifies the files to open if the **Run the macro against each opened document** check box is set.
+Specifies the files to open if the **Run the macro against each opened document** checkbox is set.
 
 ## Add button
 
@@ -49,11 +49,11 @@ Adds an item to the list.
 
 Deletes the selected items from the list.
 
-## Save and close each document after running the macro check box
+## Save and close each document after running the macro checkbox
 
 If this is checked, each opened file will be saved and closed after running the macro.
 
-## Save options check box
+## Save options checkbox
 
 If this is checked, the settings will be saved.
 

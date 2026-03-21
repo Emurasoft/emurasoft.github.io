@@ -16,6 +16,6 @@ If the files don't match, it could be due to several reasons:
 - The file might have been opened using the **Open Advanced** command with options like **Insert line breaks every specified number of bytes** or **Ensure that a newline code exists at the end of each file**.
 - There could be an issue with the hard disk or memory. If you're attempting to open a file on the network, it might be a network problem.
 
-## Delete Temporary Files check box
+## Delete Temporary Files checkbox
 
 When checked, this option will delete the saved temporary file.

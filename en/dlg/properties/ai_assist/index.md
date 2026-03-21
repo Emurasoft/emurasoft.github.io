@@ -2,11 +2,11 @@
 
 The **AI Assist** page allows you to set properties related to AI assisted writing.
 
-## Enable AI assisted writing check box
+## Enable AI-assisted writing checkbox
 
 If this is checked, EmEditor will enable AI assisted writing. 
 
-## Show suggestion only on Ctrl+Space check box
+## Show suggestions only on Ctrl+Space checkbox
 
 If this is checked, EmEditor will only show suggestions when you press the shortcut key, Ctrl+Space, which helps reduce the frequency of OpenAI API calls.
 

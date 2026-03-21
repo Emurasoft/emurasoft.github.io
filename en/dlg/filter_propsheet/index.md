@@ -6,7 +6,7 @@ This dialog box appears when you click the > button in a property sheet and sele
 
 List of proprty page titles.
 
-## Enable/Disable All check box
+## Enable/Disable All checkbox
 
 Enables or disables all items on the list.
 

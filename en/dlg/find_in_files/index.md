@@ -70,21 +70,21 @@ Click this button to show the list of available commands.
 
 The commands also includes the list of available escape sequences or regular expressions. Selecting an item from the list will insert the selected item into the text box next to the button.
 
-## Match Case check box
+## Match Case checkbox
 
 Match cases when searching for a string.
 
-## Look in Subfolders check box
+## Look in Subfolders checkbox
 
 Looks in subfolders of **In Folder** drop-down list box.
 
-## Match Whole Word check box
+## Match Whole Word checkbox
 
 Search words only. A word is defined as a string that begins and ends with
 any of these characters: A – Z, a – z, 0 – 9, or an underscore. Strings
-surrounded by full-width characters are considered as words. When using regular expressions, this check box may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
+surrounded by full-width characters are considered as words. When using regular expressions, this checkbox may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
 
-## Close when Finished check box
+## Close when Finished checkbox
 
 Close the dialog box when finished searching.
 
@@ -123,20 +123,20 @@ Enables [number range expressions](../../howto/search/number_range_syntax).
 
 Select the encoding. If you select **Configured Encoding**, the encoding associated with the opened file extension will be selected.
 
-## Detect All check box
+## Detect All checkbox
 
 Statistically detect code page from all available code pages. The detection can make
 mistakes especially when the file is very small. This option does not include HTML/XML charset detection.
 
-## Detect HTML/XML Charset check box
+## Detect HTML/XML Charset checkbox
 
 Find "charset=..." from HTML files, "encoding=..." from XML files, or "#coding=..." from Python and Ruby files, and use the corresponding encoding. If you open HTML, XML, Python, or Ruby files, check only this option and clear the other options.
 
-## Detect UTF-8 check box
+## Detect UTF-8 checkbox
 
 Statistically detect UTF-8.
 
-## Save Settings check box
+## Save Settings checkbox
 
 Saves the encoding-related options (**Encoding** drop-down list box, and **Detect All**, **Detect HTML/XML Charset**, and **Detect UTF-8** check boxes) as default so that these options will be restored next time when you open this dialog box.
 
@@ -165,9 +165,9 @@ Selects how results are displayed.
 | **Display File Names and Matched Strings** | File names and matched strings will be displayed. |
 | **Display File Names, Lines, and Matched Lines (Truncate long lines)** | File names, line numbers, and the whole lines containing the searched string will be displayed as results. Long lines will be truncated. |
 
-## Stop if number of matches reaches check box/text box
+## Stop if number of matches reaches checkbox/text box
 
-EmEditor will stop searching files if the number of matches reaches the specified value when this check box is set.
+EmEditor will stop searching files if the number of matches reaches the specified value when this checkbox is set.
 
 ## Find button
 
@@ -228,7 +228,7 @@ Displays the list of find strings to be used for the batch process. The followin
 | **B** | Use Boost.Regex as the Regular Expression Engine |
 | **O** | Use Onigmo as the Regular Expression Engine |
 
-## Enable/Disable All check box
+## Enable/Disable All checkbox
 
 Enables or disables all items in the list.
 

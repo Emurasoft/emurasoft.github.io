@@ -76,25 +76,25 @@ Click this button to show the list of available commands.
 
 The commands also includes the list of available escape sequences or regular expressions. Selecting an item from the list will insert the selected item into the text box next to the button.
 
-## Match Case check box
+## Match Case checkbox
 
 Match cases when searching for a string.
 
-## Look in Subfolders check box
+## Look in Subfolders checkbox
 
 Looks in subfolders of **In Folder** drop-down list box.
 
-## Match Whole Word check box
+## Match Whole Word checkbox
 
 Search words only. A word is defined as a string that begins and ends with
 any of these characters: A – Z, a – z, 0 – 9, or an underscore. Strings
-surrounded by full-width characters are considered as words. When using regular expressions, this check box may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
+surrounded by full-width characters are considered as words. When using regular expressions, this checkbox may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
 
-## Close when Finished check box
+## Close when Finished checkbox
 
 Close the dialog box when finished searching or replacing.
 
-## Keep Modified Files Open check box
+## Keep Modified Files Open checkbox
 
 If this box is checked, changes to files will not be made immediately; all files that have had
 changes made will be left open. Thus you can save the changes after you verify them. After you replace in files with this option
@@ -107,15 +107,15 @@ If this box is not checked, you will not be able to undo the changes. It is
 recommended that you make backups before you replace in files.
 
 How to specify the carriage return (\\r) and the line feed (\\n) depends on this
-check box when you use a regular expression to specify a string to replace. If checked, specify \\n without distinguishing the
+checkbox when you use a regular expression to specify a string to replace. If checked, specify \\n without distinguishing the
 carriage return or the line feed. If not checked, the carriage return (\\r) and
 the line feed (\\n) must be distinguished when specified.
 
-## Save Backups check box
+## Save Backups checkbox
 
 If this box is checked, the backups of the original files will be created in a folder
 specified in the **Backup Folder** text box. If the
-**Look in Subfolders** check box
+**Look in Subfolders** checkbox
 is checked, the original folder tree will be conserved in the backup folder.
 
 ## (None) radio button
@@ -151,32 +151,32 @@ Enables [number range expressions](../../howto/search/number_range_syntax).
 
 ## Backup Folder text box
 
-If the **Save Backups** check box is checked, it will specify the file to copy the original.
+If the **Save Backups** checkbox is checked, it will specify the file to copy the original.
 
 ## Encoding drop-down list box
 
 Select the encoding. If you select **Configured Encoding**, the encoding associated with the opened file extension will be selected.
 
-## Detect All check box
+## Detect All checkbox
 
 Statistically detect code page from all available code pages. The detection can make
 mistakes especially when the file is very small. This option does not include HTML/XML charset detection.
 
-## Detect HTML/XML Charset check box
+## Detect HTML/XML Charset checkbox
 
 Find "charset=..." from HTML files, "encoding=..." from XML files, or "#coding=..." from Python and Ruby files, and use the corresponding encoding. If you open HTML, XML, Python, or Ruby files, check only this option and clear the other options.
 
-## Detect UTF-8 check box
+## Detect UTF-8 checkbox
 
 Statistically detect UTF-8.
 
-## Save Settings check box
+## Save Settings checkbox
 
 Saves the encoding-related options (**Encoding** drop-down list box, and **Detect All**, **Detect HTML/XML Charset**, and **Detect UTF-8** check boxes) as default so that these options will be restored next time when you open this dialog box.
 
-## Stop if number of matches reaches check box/text box
+## Stop if number of matches reaches checkbox/text box
 
-EmEditor will stop searching files if the number of matches reaches the specified value when this check box is set.
+EmEditor will stop searching files if the number of matches reaches the specified value when this checkbox is set.
 
 ## Find button
 
@@ -235,7 +235,7 @@ Displays the list of find and replace combinations to be used for the batch proc
 | **B** | Use Boost.Regex as the Regular Expression Engine |
 | **O** | Use Onigmo as the Regular Expression Engine |
 
-## Enable/Disable All check box
+## Enable/Disable All checkbox
 
 Enables or disables all items in the list.
 

@@ -11,15 +11,15 @@ Specifies the columns should be sorted at the current line.
 
 Specifies the columns should be sorted at the specified line.
 
-## Remove columns at empty strings check box
+## Remove columns at empty strings checkbox
 
 If this is checked, EmEditor removes the column where the cell is empty.
 
-## Remove columns at duplicate strings check box
+## Remove columns at duplicate strings checkbox
 
 If this is checked, EmEditor removes the column where the cell is identical to another cell.
 
-## Sort strings check box
+## Sort strings checkbox
 
 If this is checked, EmEditor sorts columns with the specified sort condition.
 

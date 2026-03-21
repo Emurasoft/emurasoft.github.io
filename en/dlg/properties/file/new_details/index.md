@@ -7,7 +7,7 @@ on the [**File** page](../index) of Configuration Properties is selected.
 
 Select the encoding when you save a new file.
 
-## Add a Unicode Signature (BOM) check box
+## Add a Unicode Signature (BOM) checkbox
 
 Adds a signature when you save a new file as Unicode or UTF-8.
 
@@ -15,11 +15,11 @@ Adds a signature when you save a new file as Unicode or UTF-8.
 
 Selects a newline characters when you create a new file.
 
-## Add a Sequential Number to Untitled Document Name check box
+## Add a Sequential Number to Untitled Document Name checkbox
 
 Adds a sequential number to an untitled document name when you create a new file so that document names would become "untitled-1", "untitled\_2", ...
 
-## Use Template check box
+## Use Template checkbox
 
 Uses a template file to begin with as a new file.
 
@@ -31,7 +31,7 @@ Specify a template file name to load as a new file.
 
 Click this button to find the specified file.
 
-## Set Initial Folder check box
+## Set Initial Folder checkbox
 
 Sets a default initial folder. When an **untitled**
 document is saved, the **Save As** dialog box will be initialized

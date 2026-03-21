@@ -2,7 +2,7 @@
 
 This wizard appears when the [**Import and Export** command](../../cmd/tools/import_export) is selected. You can then select to import settings from a file or to export current settings into a file.
 
-To find more information about each control, such as a check box or a text
+To find more information about each control, such as a checkbox or a text
 box in the wizard, select from the control list below, or press the **F1** key when a control is selected.
 
 ## Choose an action to perform list box

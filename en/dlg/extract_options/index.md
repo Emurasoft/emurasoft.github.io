@@ -3,7 +3,7 @@
 This dialog box appears when the
 **Extract Options** is selected in the [**Find** dialog box](../find/index).
 
-## Use Output Bar check box
+## Use Output Bar checkbox
 
 If this box is checked, EmEditor displays the search results as a list in the Output Bar.
 
@@ -30,7 +30,7 @@ Specifies the number of additional lines below matched lines when the **Display 
 
 Specifies the separator when a number greater than 0 is specified for the **Number of Additional Lines Above Matched Lines** or **Number of Additional Lines Below Matched Lines** drop-down list box.
 
-## Count Frequent Strings check box
+## Count Frequent Strings checkbox
 
 If this box is checked, EmEditor counts the frequently used strings and extracts them into a new document.
 

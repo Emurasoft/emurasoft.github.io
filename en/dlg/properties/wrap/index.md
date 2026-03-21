@@ -2,15 +2,15 @@
 
 The **Wrap** page allows you to set properties related to wrap.
 
-## Word Wrap check box
+## Word Wrap checkbox
 
 Enable word wraps.
 
-## Enable Word Wrap After Marks check box
+## Enable Word Wrap After Marks checkbox
 
 Enable word wrap after marks.
 
-## Wrap These Characters check box
+## Wrap These Characters checkbox
 
 Wrap characters specified at \[Not allowed at line head\] and at \[Not allowed
 at line end\].

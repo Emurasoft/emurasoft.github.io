@@ -42,51 +42,51 @@ Quote character that EmEditor uses for the **Quoted Line**
 **Margin** text box. It is also used by the
 [**Quote** **Copy** command](../../../cmd/edit/edit_copy_prefix).
 
-## Show Line Numbers check box
+## Show Line Numbers checkbox
 
 Shows line numbers on the left side of the window. To print line numbers when
-printing, you will need to check the **Print Line Numbers** check box on the
+printing, you will need to check the **Print Line Numbers** checkbox on the
 **Print**
 page.
 
-## Show Ruler check box
+## Show Ruler checkbox
 
 Shows the ruler on the top of the window.
 
-## Show Zero-based Line/Column Numbers check box
+## Show Zero-based Line/Column Numbers checkbox
 
 Shows zero-based line numbers and column numbers instead of one-based numbers. This option does NOT alter macro or plug-in behaviors.
 
-## Run Input Method Editor check box
+## Run Input Method Editor checkbox
 
 Runs an Input Method Editor (IME) when running EmEditor.
 
-## No Space at Left Edge of Window check box
+## No Space at Left Edge of Window checkbox
 
 Does not display a space along the left edge of the EmEditor window when line
 numbers are not displayed.
 
-## Show Page Numbers check box
+## Show Page Numbers checkbox
 
 Displays page numbers. Page break lines will be drawn, and page numbers will be displayed in
 the status bar to show in which page the cursor is located. If line numbers are
 displayed, the line numbers are based from the top of each page. Page numbers
 might not be displayed if a printer is unavailable.
 
-## Allow Insert Control Character check box
+## Allow Insert Control Character checkbox
 
 If this box is checked, you can insert a control character by typing CTRL + an alphabetical
 key, or CTRL + SHIFT+ an alphabetical key, as long as it is not configured elsewhere
 as a shortcut key. If this box is not checked, you cannot insert a control character
 in this way.
 
-## Preserve Newline Characters on Clipboard check box
+## Preserve Newline Characters on Clipboard checkbox
 
 If this box is checked, the newline characters will be preserved when you copy and paste text.
 For instance, the LF only returns will be copied and pasted to another location
 with LF only returns.
 
-## Always Paste as ANSI check box
+## Always Paste as ANSI checkbox
 
 If this box is checked, text is pasted from the Clipboard not as Unicode, but
 always as the [system default encoding](../../../glossary/systemdefaultencoding). This option is sometimes useful when you want to copy text from
@@ -94,13 +94,13 @@ other applications that have a problem converting text from the
 [system default encoding](../../../glossary/systemdefaultencoding)
 to Unicode.
 
-## Enable Virtual Space check box
+## Enable Virtual Space checkbox
 
 When this is checked, the cursor can move beyond the end of each line, and spaces are inserted when a character is inserted beyond the end of each line.
 
-## AI assisted writing check box
+## AI assisted writing checkbox
 
-When this is checked, EmEditor will enable AI assisted writing. This option is enabled only if the [**Enable AI** check box](../../customize/ai/index) in the **AI** page of the **Customize** dialog box is set.
+When this is checked, EmEditor will enable AI assisted writing. This option is enabled only if the [**Enable AI** checkbox](../../customize/ai/index) in the **AI** page of the **Customize** dialog box is set.
 
 ## Tab/Indent button
 

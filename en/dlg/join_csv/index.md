@@ -15,16 +15,16 @@ Selects the second document. The two CSV documents will be merged by matching th
 
 Selects the key column.
 
-## Unique Key check box
+## Unique Key checkbox
 
 If each line in the key column contains a unique value, this option reduces the speed of the Join operation.
 
-## Include all non-matching rows check box
+## Include all non-matching rows checkbox
 
-Include all non-matching rows when merged. This is equivalent to OUTER JOIN in SQL if both check boxes are checked, LEFT JOIN if only the left check box is checked, RIGHT JOIN if
-only the right check box is checked, and INNER JOIN if neither are checked.
+Include all non-matching rows when merged. This is equivalent to OUTER JOIN in SQL if both check boxes are checked, LEFT JOIN if only the left checkbox is checked, RIGHT JOIN if
+only the right checkbox is checked, and INNER JOIN if neither are checked.
 
-## Ignore Headings check box
+## Ignore Headings checkbox
 
 If this is checked, headings in the key column are ignored, so that original headings are retained in the merged document.
 
@@ -32,7 +32,7 @@ If this is checked, headings in the key column are ignored, so that original hea
 
 Specifies a condition.
 
-## Match Case check box
+## Match Case checkbox
 
 If this is checked, column comparisons are case sensitive.
 
@@ -40,7 +40,7 @@ If this is checked, column comparisons are case sensitive.
 
 If _Both split strings match_, _Key1 matches split Key2_, or _Key2 matches split Key1_ is selected for Conditions, enter the separator to split strings.
 
-## Limit splits check box and text box
+## Limit splits checkbox and text box
 
 Specifies the maximum number of limits.
 
@@ -48,9 +48,9 @@ Specifies the maximum number of limits.
 
 This shows a list of all columns in both documents. The selected columns are included in the output, in this order.
 
-## Enable/Disable All check box
+## Enable/Disable All checkbox
 
-This check box enables or disables all items in the list.
+This checkbox enables or disables all items in the list.
 
 ## Up button
 
@@ -68,9 +68,9 @@ Moves the selected item(s) to the top of the list.
 
 Moves the selected item(s) to the bottom of the list.
 
-## Combine with previous column check box
+## Combine with previous column checkbox
 
-This check box allows you to combine the current column with previous column.
+This checkbox allows you to combine the current column with previous column.
 
 ## Concatenate radio button
 

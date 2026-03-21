@@ -7,9 +7,9 @@ This dialog box appears when the
 
 Displays the list of columns that can be specified.
 
-## Enable/Disable All check box
+## Enable/Disable All checkbox
 
-This check box allows you to enable or disable all items in the list.
+This checkbox allows you to enable or disable all items in the list.
 
 ## Split the selected columns into - Columns radio button
 
@@ -27,11 +27,11 @@ If this button is checked, EmEditor does not split the selected columns, but sor
 
 Specifies a string as a separator when splitting columns.
 
-## Remove duplicate split strings check box
+## Remove duplicate split strings checkbox
 
 If this is checked, EmEditor removes duplicate split strings when splitting columns.
 
-## Sort split strings check box
+## Sort split strings checkbox
 
 If this is checked, EmEditor sorts split strings with the specified sort condition.
 
@@ -60,11 +60,11 @@ Displays the list of defined sort conditions.
 | Sort Randomly | Sorts split strings randomly. |
 | Sort Reverse | Sorts split strings in reverse order. |
 
-## Limit the number of splits check box and text box
+## Limit the number of splits checkbox and text box
 
 Specifies the maximum number of splits per cell.
 
-## Discard extra strings check box
+## Discard extra strings checkbox
 
 Discards extra strings.
 

@@ -3,24 +3,23 @@
 The **Auto Save** page allows you to set properties related to automatic
 saving.
 
-## Auto save check box
+## Auto save checkbox
 
-Save the document automatically at specified time intervals. The files are
-saved to the specified folder if the **Save to auto save folder** check box is checked. The Auto Save feature will not work when a very large
-file is opened.
+Saves the document automatically at specified time intervals. The files are
+saved to the specified folder if the **Save to auto save folder** checkbox is checked. The Auto Save feature will not work when a very large file is opened.
 
-## Save to auto save folder check box
+## Save to auto save folder checkbox
 
 <!-- cspell:disable-next-line -->
 Saves to the specified folder in the **Auto save folder** text box if this box is checked. If this box is not checked, the files are saved in the same folder. Untitled files are saved only when checked, and the file name will be "txtnnn.tmp" where nnn is an integer. The full path of the folder must be specified.
 
-## Rename if the file name already exists check box
+## Rename if the file name already exists checkbox
 
-Save with a different name if the same file names already exist.
+Saves with a different name if the same file name already exists.
 
 ## Auto save folder text box
 
-Set the auto save folder if the **Save to auto save folder** check box is checked.
+Sets the auto save folder if the **Save to auto save folder** checkbox is checked.
 
 ## ... button
 

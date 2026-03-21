@@ -11,7 +11,7 @@ Line number to which you would like to jump.
 
 Column number to which you would like to jump. In case of a CSV document, this number represents the column relative to the left side of the specified CSV column.
 
-## Logical Coordinates check box
+## Logical Coordinates checkbox
 
 Count line numbers as [logical coordinates](../../glossary/logicalcoordinates).
 

@@ -3,7 +3,7 @@
 The **File** page allows you to set properties related to file
 operations.
 
-## Prompt if Null Character Found check box
+## Prompt if Null Character Found checkbox
 
 Show warning message if the file contains
 [Null characters](../../../glossary/nullcharacter) when opening
@@ -11,7 +11,7 @@ a file. Null characters are converted into spaces when a file is opened. You
 must be careful since files containing Null characters may corrupt the
 original file.
 
-## Prompt if Invalid Character Found check box
+## Prompt if Invalid Character Found checkbox
 
 When open a file containing a Unicode character that
 cannot be converted into the specified encoding, a warning message will be
@@ -24,53 +24,53 @@ the Japanese Shift JIS encoding, the warning message will be displayed.
 
 **Notice**
 
-Even if this check box is checked, some encodings will not display the
+Even if this checkbox is checked, some encodings will not display the
 warning message. For instance, trying to open a Japanese Shift-JIS file with the
 Japanese EUC encoding will not display the warning message.
 
-## Prompt at Inconsistent Newline Characters check box
+## Prompt at Inconsistent Newline Characters checkbox
 
 Show warning message if the return style in the file is not consistent when
 opening a file.
 
-## Except for Binary Files check box
+## Except for Binary Files checkbox
 
 Disables the **Prompt at Inconsistent Newline Characters** option if Binary (ASCII View) is selected for the encoding.
 
-## Show File Name with Full Path check box
+## Show File Name with Full Path checkbox
 
 Show the file name with the full path on the EmEditor window title.
 
-## Without Full Path if Not Active check box
+## Without Full Path if Not Active checkbox
 
 Will not show the file name with the full path on the EmEditor window title, unless window is active.
 
-## Notepad-Compatible Diary check box
+## Notepad-Compatible Diary checkbox
 
 Enable the Notepad-like diary function. If you save with .LOG on the first line, it will automatically insert time and
 date at the end of document each time you open the file.
 
-## Detect HTML/XML Charset check box
+## Detect HTML/XML Charset checkbox
 
 Find "charset=..." from HTML files, "encoding=..." from XML files, or "#coding=..." from Python and Ruby files, and use the corresponding encoding. If you open HTML, XML, Python, or Ruby files, check only this option and clear the other options.
 
-## Detect All check box
+## Detect All checkbox
 
 Statistically
 detect code page from all available code pages. The detection can make mistakes especially when the file is very small. This option does not include HTML/XML charset detection.
 
-## Detect Unicode Signature (BOM) check box
+## Detect Unicode Signature (BOM) checkbox
 
 Detect whether the file contains a Byte Order Mark (BOM) signature, and if it detects
 the BOM signature, EmEditor will open the file as UTF-16LE, UTF-16BE, or UTF-8 file.
 
-## Detect UTF-8 check box
+## Detect UTF-8 checkbox
 
 Statistically detect UTF-8.
 
-## Prefer UTF-8 check box
+## Prefer UTF-8 checkbox
 
-When this is checked and the Detect UTF-8 check box is also checked, UTF-8 takes precedence if the file can be interpreted both as UTF-8 and the selected encoding. For example, a
+When this is checked and the Detect UTF-8 checkbox is also checked, UTF-8 takes precedence if the file can be interpreted both as UTF-8 and the selected encoding. For example, a
 file contains only ANSI characters (alphabets and numbers), it can be opened without any problems both as UTF-8 and Western European. In this situation, EmEditor opens the file as UTF-8. EmEditor also
 opens an empty file as UTF-8 if this is checked.
 
@@ -101,7 +101,7 @@ If you save a file as a different name, with **All Files (\*.\*)** selected in
 the **File Type** combo box, and do not specify the file extension, the
 file extension will be the one you selected in this text box.
 
-## Prompt if deleted check box
+## Prompt if deleted checkbox
 
 Displays a message box if the opened file is deleted by another program.
 

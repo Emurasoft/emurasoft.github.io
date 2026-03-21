@@ -8,13 +8,13 @@ Extract Columns command or the Extract Columns button is selected in a toolbar.
 The list is filled with all the columns in the document. You can check only the columns that you want to include in the output, or change the order to change the column order in
 the output.
 
-## Enable/Disable All check box
+## Enable/Disable All checkbox
 
-This check box allows you to enable or disable all items in the list.
+This checkbox allows you to enable or disable all items in the list.
 
-## Combine with previous column check box
+## Combine with previous column checkbox
 
-This check box allows you to combine the current column with previous column.
+This checkbox allows you to combine the current column with previous column.
 
 ## Concatenate radio button
 

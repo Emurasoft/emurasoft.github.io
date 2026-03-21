@@ -37,7 +37,7 @@ the First Line text box, this option inserts sequential characters using the
 increment of the Unicode value specified in the Increment text box. Only one
 character can be inserted at each line.
 
-## Capital Letters check box
+## Capital Letters checkbox
 
 Inserts hexadecimal values in capital letters.
 

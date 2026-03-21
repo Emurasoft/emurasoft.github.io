@@ -34,7 +34,7 @@ Opens the selected macro file with EmEditor so that you can edit the macro.
 
 Displays the [**Select Events** dialog box](select_events/index) so you can select events which the selected macro can be associated with.
 
-## Runs at Events check box
+## Runs at Events checkbox
 
 Runs the selected macro at the specified events.
 

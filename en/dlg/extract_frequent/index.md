@@ -33,15 +33,15 @@ Creates a list of URIs.
 
 Creates a list of email addresses.
 
-### Match Case check box
+### Match Case checkbox
 
 Match cases while counting frequent strings.
 
-### Search All Documents in the Group check box
+### Search All Documents in the Group checkbox
 
 Searches all open documents in the same frame window.
 
-### In the Selection Only check box
+### In the Selection Only checkbox
 
 Extract frequent strings within the selected text only.
 
@@ -67,5 +67,5 @@ Deletes the selected item(s) from the list.
 
 ## Tips
 
-To count and extract strings matching a specific pattern, set the **Count Frequent Strings** check box in the [**Extract Options** dialog box](../extract_options/index), use a regular expression to match specific strings, and use the **Extract** button in the [**Find** dialog box](../find/index).
+To count and extract strings matching a specific pattern, set the **Count Frequent Strings** checkbox in the [**Extract Options** dialog box](../extract_options/index), use a regular expression to match specific strings, and use the **Extract** button in the [**Find** dialog box](../find/index).
 

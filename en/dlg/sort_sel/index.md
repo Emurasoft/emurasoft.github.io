@@ -7,15 +7,15 @@ This dialog box appears when the
 
 Specifies a string as a separator when sorting a selection.
 
-## Detect separator automatically check box
+## Detect separator automatically checkbox
 
 If this is checked, this dialog box detects the separator, and updates the **Separator** text box.
 
-## Remove duplicate split strings check box
+## Remove duplicate split strings checkbox
 
 If this is checked, EmEditor removes duplicate split strings.
 
-## Sort split strings check box
+## Sort split strings checkbox
 
 If this is checked, EmEditor sorts split strings with the specified sort condition.
 

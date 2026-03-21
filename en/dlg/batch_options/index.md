@@ -3,7 +3,7 @@
 This dialog box appears when the
 **Batch Options** is selected in the Batch Find/Replace dialog box.
 
-## Enable Separator check box
+## Enable Separator checkbox
 
 If this box is checked, EmEditor enables separator when extracting matched results in batches.
 

@@ -9,16 +9,16 @@ Properties.
 
 Select the character set of the font you want to change from the list.
 
-## Show Fixed Pitch Fonts Only check box
+## Show Fixed Pitch Fonts Only checkbox
 
 Shows only fixed pitch fonts to choose.
 
-## Include Default Printer Fonts in Lists Below check box
+## Include Default Printer Fonts in Lists Below checkbox
 
 If your default printer provides fonts, you can include those fonts in the
 **Display Font** and **Print Font** lists to expand your font choices.
 
-## Use Display Font as Printer Font check box
+## Use Display Font as Printer Font checkbox
 
 Use the display font as printer font, so that the printer font is the same as
 the display font.

@@ -19,17 +19,17 @@ Specify a string that designates a line comment.
 
 Specify a string that designates a line comment.
 
-## String enclosed by quotation marks group box - Single quotation marks \['...'\] check box
+## String enclosed by quotation marks group box - Single quotation marks \['...'\] checkbox
 
 If this box is checked, strings enclosed with single quotation marks will be
 highlighted.
 
-## String enclosed by quotation marks group box - Double quotation marks \["..."\] check box
+## String enclosed by quotation marks group box - Double quotation marks \["..."\] checkbox
 
 If this box is checked, strings enclosed with double quotation marks will
 be highlighted.
 
-## String enclosed by quotation marks group box - Continue to the next line check box
+## String enclosed by quotation marks group box - Continue to the next line checkbox
 
 If this box is checked, quoted strings may span multiple lines.
 
@@ -56,16 +56,16 @@ Select from the following.
 | **HTML-Embedded** | Uses script languages such as JSP or PHP, HTML embedded language. It uses the HTML, CSS, JavaScript, VBScript, and Script configurations. |
 | **Markdown** | Uses Markdown for special bold and italic emphasis. |
 
-## Highlight matching tag check box
+## Highlight matching tag checkbox
 
 Highlights inside a tag and the matching tag at the cursor in XHTML and XML documents. This feature works only when a document is a well-formed XML document. The feature may not work if ending tags
 are missing from a document such as an old HTML document.
 
-## Highlight matching brackets check box
+## Highlight matching brackets checkbox
 
 Highlight the matching brace (parenthesis or bracket).
 
-## Auto-complete brackets/quotation marks check box
+## Auto-complete brackets/quotation marks checkbox
 
 Auto-completes brackets and quotation marks.
 

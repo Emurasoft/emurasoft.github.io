@@ -32,32 +32,32 @@ Click this button to show the list of available commands.
 
 The commands also include the list of available escape sequences or regular expressions. Selecting an item from the list will insert the selected item into the text box next to the button.
 
-## Match Case check box
+## Match Case checkbox
 
 Match cases when searching for a string.
 
-## Match Whole Word check box
+## Match Whole Word checkbox
 
 Search words only. A word is defined as a string that begins and ends with any of these characters: A – Z, a – z, 0 – 9, or an underscore. Strings surrounded by full-width characters
-are considered words. When using regular expressions, this check box may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
+are considered words. When using regular expressions, this checkbox may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
 
-## Incremental Search check box
+## Incremental Search checkbox
 
 When this is checked, the search immediately starts as you type in the **Find** drop-down list box.
 
-## Search All Documents in the Group check box
+## Search All Documents in the Group checkbox
 
 Searches all open documents in the same frame window.
 
-## In the Selection Only check box
+## In the Selection Only checkbox
 
 Replace within the selected text only.
 
-## Wrap Around check box
+## Wrap Around checkbox
 
 Search down from the current position by choosing **Find Next** or **Replace**. If the word is not found by the end of the file, it will continue searching from the top of the file.
 
-## Close when Finished check box
+## Close when Finished checkbox
 
 Close the dialog box when finished replacing.
 
@@ -156,7 +156,7 @@ Displays the list of find and replace combinations to be used for the batch proc
 | **B** | Use Boost.Regex as the Regular Expression Engine |
 | **O** | Use Onigmo as the Regular Expression Engine |
 
-## Enable/Disable All check box
+## Enable/Disable All checkbox
 
 Enables or disables all items in the list.
 

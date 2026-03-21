@@ -2,51 +2,51 @@
 
 The **Spelling** page allows you to set properties related to spelling.
 
-## Check Spelling check box
+## Check Spelling checkbox
 
 If this is checked, EmEditor checks spelling in documents.
 
-## Support Camel Case check box
+## Support Camel Case checkbox
 
 If this is checked, EmEditor supports camel case while checking spelling in documents.
 
-## All check box
+## All checkbox
 
-Click this check box to toggle all check boxes below.
+Click this checkbox to toggle all check boxes below.
 
-## Quoted Lines check box
+## Quoted Lines checkbox
 
 If this is checked, EmEditor checks spelling in quoted lines.
 
-## String Enclosed by Single Quotation Marks check box
+## String Enclosed by Single Quotation Marks checkbox
 
 If this is checked, EmEditor checks spelling in strings enclosed by single quotation marks.
 
-## String Enclosed by Double Quotation Marks check box
+## String Enclosed by Double Quotation Marks checkbox
 
 If this is checked, EmEditor checks spelling in strings enclosed by double quotation marks.
 
-## Comments check box
+## Comments checkbox
 
 If this is checked, EmEditor checks spelling in comments.
 
-## Script check box
+## Script checkbox
 
 If this is checked, EmEditor checks spelling in script.
 
-## Tags check box
+## Tags checkbox
 
 If this is checked, EmEditor checks spelling in tags.
 
-## Highlighted Text check box
+## Highlighted Text checkbox
 
 If this is checked, EmEditor checks spelling in highlighted text.
 
-## Hyperlinks check box
+## Hyperlinks checkbox
 
 If this is checked, EmEditor checks spelling in hyperlinks.
 
-## Unspecified Text check box
+## Unspecified Text checkbox
 
 If this is checked, EmEditor checks spelling in unspecified text that is not
 covered by previous controls.

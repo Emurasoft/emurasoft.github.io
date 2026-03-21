@@ -19,35 +19,35 @@ If this button is checked, EmEditor inspects only specified columns for duplicat
 
 Displays the list of columns that can be specified.
 
-## Enable/Disable ALL check box
+## Enable/Disable ALL checkbox
 
-This check box allows you to enable or disable all items in the list.
+This checkbox allows you to enable or disable all items in the list.
 
-## Ignore Case check box
+## Ignore Case checkbox
 
 Ignores cases when deleting duplicate lines.
 
-## Ignore Empty Lines check box
+## Ignore Empty Lines checkbox
 
 Ignores all empty lines when deleting duplicate lines.
 
-## Ignore Empty Cells check box
+## Ignore Empty Cells checkbox
 
 Ignores all empty cells in CSV documents when deleting duplicate lines. In other words, lines that contain only separators are ignored if all columns are selected. When multiple columns are specified, all cells in the specified columns must be empty in order to be ignored.
 
-## Compare Adjacent Lines Only (Assume Presorted) check box
+## Compare Adjacent Lines Only (Assume Presorted) checkbox
 
 Inspects only adjacent lines. This option is useful if the document has been already sorted.
 
-## Apply to all documents in the group check box
+## Apply to all documents in the group checkbox
 
 Applies the settings to all documents in this group.
 
-## In the Selection Only check box
+## In the Selection Only checkbox
 
 Deletes or bookmarks only the selected lines.
 
-## Include All Lines of Each Duplicate check box
+## Include All Lines of Each Duplicate checkbox
 
 Deletes or bookmarks all duplicate lines.
 

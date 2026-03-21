@@ -3,23 +3,23 @@
 This dialog box appears when the [**Half-Width/Full-Width Conversion** command](../../cmd/edit/convert) is selected. You can specify
 types of characters to convert and how to convert them.
 
-## Katakana check box
+## Katakana checkbox
 
 Apply conversion to Katakana.
 
-## Kana marks check box
+## Kana marks checkbox
 
 Apply conversion to Kana Marks.
 
-## Alphabets and numbers check box
+## Alphabets and numbers checkbox
 
 Apply conversion to alphabets and numbers.
 
-## Alphabetical marks check box
+## Alphabetical marks checkbox
 
 Apply conversions to alphabetical marks.
 
-## Spaces check box
+## Spaces checkbox
 
 Apply conversion to spaces.
 
@@ -43,7 +43,7 @@ Convert only the selection.
 
 Allows you to select which individual characters to convert.
 
-## Enable/Disable All check box
+## Enable/Disable All checkbox
 
 Enables or disables all items in the list.
 

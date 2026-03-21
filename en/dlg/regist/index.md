@@ -33,7 +33,7 @@ Please enter your email.
 
 Please enter your password.
 
-## Label device check box
+## Label device checkbox
 
 Enabling **Label device** will add the label text to the device record in the [Registered Devices](https://support.emeditor.com/en/account/devices) table. By default, the label is `{computer name} {user name}`. The label is optional.
 

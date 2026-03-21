@@ -2,39 +2,39 @@
 
 The **Marks** page allows you to set properties related to marks.
 
-## Show newline characters check box
+## Show newline characters checkbox
 
 Check to display newline characters in documents.
 
-## Show end of file check box
+## Show end of file checkbox
 
 Check to display the end of file mark in documents.
 
-## Show tabs check box
+## Show tabs checkbox
 
 Check to display tab marks in documents.
 
-## Show spaces check box
+## Show spaces checkbox
 
 Show single byte character space marks in the text.
 
-## Show wide spaces check box
+## Show wide spaces checkbox
 
 Check to display double byte character space marks in documents.
 
-## Show CR and LF with different marks check box
+## Show CR and LF with different marks checkbox
 
 Check to use different marks to distinguish CR from LF.
 
-## Show control characters check box
+## Show control characters checkbox
 
 Show control character marks in the text.
 
-## Show indent guides check box
+## Show indent guides checkbox
 
 Shows indent guides.
 
-## Show user-defined guides check box
+## Show user-defined guides checkbox
 
 Shows user-defined guides.
 
@@ -42,7 +42,7 @@ Shows user-defined guides.
 
 Specifies the column positions of user-defined guides. Multiple positions can be separated by commas (,).
 
-## Highlight changed/saved lines check box
+## Highlight changed/saved lines checkbox
 
 Highlights the lines that have been changed/saved on the left edge of EmEditor windows.
 

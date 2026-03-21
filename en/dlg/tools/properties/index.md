@@ -36,24 +36,24 @@ Enter the file name you sampled the icon from.
 
 List of icons you can use and the current icon selected.
 
-### Save File check box
+### Save File checkbox
 
 If this is checked, EmEditor will save the current open document before
 launching the tool.
 
-### Use Current Environment Variables check box
+### Use Current Environment Variables checkbox
 
 If this is checked, external tools will use current environment variables when launched. If not, external tools will use environment variables inherited from the parent process (EmEditor).
 
-### Use Output Bar check box
+### Use Output Bar checkbox
 
 If this is checked, EmEditor will redirect the standard output and standard error output to the Output Bar.
 
-### Set Focus in Output Bar check box
+### Set Focus in Output Bar checkbox
 
 If this is checked, EmEditor will set the keyboard focus to the Output Bar.
 
-### Close on Exit check box
+### Close on Exit checkbox
 
 If this is checked, the Output Bar will be closed after the tool process is terminated.
 
@@ -66,13 +66,13 @@ Select the standard input for the external tool.
 | None | No standard input is used. |
 | Selection | The selected text is used as the standard input. |
 | Document | The entire document is used as the standard input. |
-| Custom | Specifies the standard input in customized format. If this is selected, the **Custom** text box and the **Add EOF** check box must also be specified. |
+| Custom | Specifies the standard input in customized format. If this is selected, the **Custom** text box and the **Add EOF** checkbox must also be specified. |
 
 ### Custom text box
 
 Specifies the customized standard input. This text box is enabled only if **Custom** is selected in the **Input** drop-down list box.
 
-### Add EOF (Ctrl+Z, U+001A or 1AH) check box
+### Add EOF (Ctrl+Z, U+001A or 1AH) checkbox
 
 If this is checked, the **End of File** character (U+001A or 1AH) will be added to the end of the customized standard input. The EOF character is generally not necessary, but some old applications might need the EOF character.
 

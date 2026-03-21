@@ -2,7 +2,7 @@
 
 The **Syntax Check** page allows you to set properties related to Syntax Check.
 
-## Enable Syntax Check check box
+## Enable Syntax Check checkbox
 
 If this is checked, syntax check errors are displayed with red wiggly underlines (customizable), and hovering the mouse pointer causes a tooltip show information about the errors.
 
@@ -14,7 +14,7 @@ Specifies the document type to check syntax. Notes that syntax check will be ena
 
 |     |     |
 | --- | --- |
-| (None) | Syntax check results will not be displayed as a list. Even if results are not displayed as a list, syntax check errors will be displayed with red wiggly underlines if the **Enable Syntax Check** check box is set. |
+| (None) | Syntax check results will not be displayed as a list. Even if results are not displayed as a list, syntax check errors will be displayed with red wiggly underlines if the **Enable Syntax Check** checkbox is set. |
 | When a Document is Opened | Syntax check results will be displayed as a list when a document of this configuration is opened. |
 | Only when Errors are Detected | Syntax check results will be displayed as a list only if errors are detected when a document of this configuration is opened. |
 

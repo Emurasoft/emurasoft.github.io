@@ -7,7 +7,7 @@ This dialog box appears when the
 
 Displays the list of columns that can be specified to inspect duplicates.
 
-## Ignore Case check box
+## Ignore Case checkbox
 
 If this box is checked, EmEditor ignores case when comparing vertical adjacent cells.
 
@@ -19,15 +19,15 @@ Displays the list of columns to combine.
 
 You can specify the string to insert when combining lines.
 
-## Remove empty strings check box
+## Remove empty strings checkbox
 
 If this is checked, EmEditor removes empty strings when combining lines.
 
-## Remove duplicate strings check box
+## Remove duplicate strings checkbox
 
 If this is checked, EmEditor removes duplicate strings when combining lines.
 
-## Sort strings check box
+## Sort strings checkbox
 
 If this is checked, EmEditor sorts strings with the specified sort condition.
 
