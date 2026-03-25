@@ -5,55 +5,53 @@ highlight (2).
 
 ## Comments group box - Begin text box
 
-Select the beginning string for multiple line comments.
+Selects the beginning string for multiple line comments.
 
 ## Comments group box - End text box
 
-Select the end string for multiple line comments.
+Selects the end string for multiple line comments.
 
 ## Comments group box - Line comment (1) text box
 
-Specify a string that designates a line comment.
+Specifies a string that designates a line comment.
 
 ## Comments group box - Line comment (2) text box
 
-Specify a string that designates a line comment.
+Specifies a string that designates a line comment.
 
-## String enclosed by quotation marks group box - Single quotation marks \['...'\] checkbox
+## Strings enclosed in quotation marks group box - Single quotation marks \['...'\] checkbox
 
-If this box is checked, strings enclosed with single quotation marks will be
-highlighted.
+If this box is checked, strings enclosed with single quotation marks will be highlighted.
 
-## String enclosed by quotation marks group box - Double quotation marks \["..."\] checkbox
+## Strings enclosed in quotation marks group box - Double quotation marks \["..."\] checkbox
 
-If this box is checked, strings enclosed with double quotation marks will
-be highlighted.
+If this box is checked, strings enclosed with double quotation marks will be highlighted.
 
-## String enclosed by quotation marks group box - Continue to the next line checkbox
+## Strings enclosed in quotation marks group box - Continue to the next line checkbox
 
 If this box is checked, quoted strings may span multiple lines.
 
-## String enclosed by quotation marks group box - Escape character text box
+## Strings enclosed in quotation marks group box - Escape character text box
 
-Specify an escape character for quotation marks.
+Specifies an escape character for quotation marks.
 
 ## Script group box - Begin text box
 
-Specify the beginning string for scripts.
+Specifies the beginning string for scripts.
 
 ## Script group box - End text box
 
-Specify the end string for scripts.
+Specifies the end string for scripts.
 
 ## Special syntax drop-down list box
 
-Select from the following.
+Selects from the following.
 
 |     |     |
 | --- | --- |
 | **(None)** | Uses a file unrelated to HTML. |
 | **HTML** | Uses an HTML or ASP file. It uses the HTML, CSS, JavaScript, VBScript, and Script configurations. |
-| **HTML-Embedded** | Uses script languages such as JSP or PHP, HTML embedded language. It uses the HTML, CSS, JavaScript, VBScript, and Script configurations. |
+| **HTML-embedded** | Uses script languages such as JSP or PHP, HTML embedded language. It uses the HTML, CSS, JavaScript, VBScript, and Script configurations. |
 | **Markdown** | Uses Markdown for special bold and italic emphasis. |
 
 ## Highlight matching tag checkbox
@@ -63,7 +61,7 @@ are missing from a document such as an old HTML document.
 
 ## Highlight matching brackets checkbox
 
-Highlight the matching brace (parenthesis or bracket).
+Highlights the matching brace (parenthesis or bracket).
 
 ## Auto-complete brackets/quotation marks checkbox
 
@@ -75,7 +73,5 @@ The list of bracket pairs that can be auto-completed. Checked items are auto-com
 
 ## Reset button
 
-Resets to default settings. The
-[**Reset** dialog box](../reset/index) will be displayed
-and will allow you to copy from another configuration.
+Resets to default settings. The [**Reset** dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
 

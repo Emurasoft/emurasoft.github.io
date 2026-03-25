@@ -16,7 +16,7 @@ Check to display tab marks in documents.
 
 ## Show spaces checkbox
 
-Show single byte character space marks in the text.
+Shows single byte character space marks in the text.
 
 ## Show wide spaces checkbox
 
@@ -28,7 +28,7 @@ Check to use different marks to distinguish CR from LF.
 
 ## Show control characters checkbox
 
-Show control character marks in the text.
+Shows control character marks in the text.
 
 ## Show indent guides checkbox
 
@@ -48,7 +48,5 @@ Highlights the lines that have been changed/saved on the left edge of EmEditor w
 
 ## Reset button
 
-Resets to default settings. The
-[**Reset** dialog box](../reset/index) will be displayed
-and will allow you to copy from another configuration.
+Resets to default settings. The [**Reset** dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
 

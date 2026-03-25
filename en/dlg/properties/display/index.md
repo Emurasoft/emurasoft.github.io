@@ -23,11 +23,11 @@ A menu regarding the themes appears when this button is clicked. Select one of t
 
 ## Search text box
 
-Finds an item in the Specify Part list box.
+Finds an item in the Specify a part list box.
 
-## Specify Part list box
+## Specify a part list box
 
-Select an item to apply color and underline attributes.
+Selects an item to apply color and underline attributes.
 
 ## Text Color drop-down list box
 
@@ -37,7 +37,7 @@ Selects a color for text.
 
 Click this button to find the specified text color.
 
-## Background Color drop-down list box
+## Background color drop-down list box
 
 Selects a color for the background.
 
@@ -47,7 +47,7 @@ Click this button to find the specified background color.
 
 ## Style drop-down list box
 
-Apply underline, bold, italic, wiggly line, dotted line or thick line format to the selected item.
+Applies underline, bold, italic, wiggly line, dotted line or thick line format to the selected item.
 
 ## Underline Color drop-down list box
 
@@ -57,34 +57,33 @@ Selects a color for underline.
 
 Click this button to find the specified underline color.
 
-## Search Colors text box
+## Search colors text box
 
 Specifies the number of previously searched strings to highlight.
 
 ## Select All button
 
-Select the entire list.
+Selects the entire list.
 
-## Quote Marks text box
+## Quote marks text box
 
 List of quote marks to be used when recognizing **Quoted Lines**.
 
-## Line Space text box
+## Line spacing text box
 
-Specify the amount of space between lines. This value corresponds to 1/10 of
-the height of a single line.
+Specifies the amount of space between lines. This value corresponds to 1/10 of the height of a single line.
 
-## Character Space text box
+## Character spacing text box
 
-Specify the amount of space between characters in pixels.
+Specifies the amount of space between characters in pixels.
 
-## (Display Example) Text
+## (Display Example) text
 
-Show a sample of text with the currently selected font.
+Shows a sample of text with the currently selected font.
 
 ## Font button
 
-Specify the font to be used to display text.
+Specifies the font to be used to display text.
 
 ## Reset button
 

@@ -3,26 +3,26 @@
 The **Print** page allows you to set properties related to print
 operations.
 
-## Print Line Numbers checkbox
+## Print line numbers checkbox
 
-Print line numbers down the left side of the page.
+Prints line numbers down the left side of the page.
 
-## Ignore Color and Underlines checkbox
+## Ignore color and underlines checkbox
 
-Ignore color and underlines when printing.
+Ignores color and underlines when printing.
 
-## Draw Separating Lines checkbox
+## Draw separating lines checkbox
 
-Insert horizontal lines between the header and the text and between the text
+Inserts horizontal lines between the header and the text and between the text
 and the footer.
 
-## Wrap by Page when Printing checkbox
+## Wrap by page when printing checkbox
 
-Wrap according to page width when printing.
+Wraps according to page width when printing.
 
-## Space Between Lines text box
+## Space between lines text box
 
-Specify the amount of space between lines when printing. This value
+Specifies the amount of space between lines when printing. This value
 corresponds to 1/10 of the height of a single line.
 
 ## Header checkbox
@@ -31,7 +31,7 @@ Enables the specified header.
 
 ## Header text box
 
-Print document information at the top of the page using the following marks.
+Prints document information at the top of the page using the following marks.
 
 ## \> button
 
@@ -56,8 +56,7 @@ Enables the specified footer.
 
 ## Footer text box
 
-Print document information at the bottom of the page using the following
-marks.
+Prints document information at the bottom of the page using the following marks.
 
 ## \> button
 
@@ -80,11 +79,9 @@ Use this button to specify page settings.
 
 ## Font button
 
-Specify the font to use for printing.
+Specifies the font to use for printing.
 
 ## Reset button
 
-Resets to default settings. The
-[**Reset** dialog box](../reset/index) will be displayed
-and will allow you to copy from another configuration.
+Resets to default settings. The [**Reset** dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
 

@@ -1,11 +1,10 @@
 # Keyboard page
 
-The **Keyboard** page allows you to set properties related to basic
-operations.
+The **Keyboard** page allows you to set properties related to basic operations.
 
 ## Category drop-down list box
 
-Available category for commands.
+Available categories for commands.
 
 ## Commands drop-down list box
 
@@ -19,7 +18,7 @@ Jumps back to the previously selected command.
 
 Enter shortcut key for the selected command.
 
-## Currently Assigned to text
+## Currently assigned to text
 
 Command that the shortcut key just pressed is currently assigned to.
 
@@ -37,15 +36,13 @@ Description for the selected command.
 
 ## Assign button
 
-Assign the shortcut key to the currently selected command.
+Assigns the shortcut key to the currently selected command.
 
 ## Delete button
 
-Delete the currently selected shortcut key.
+Deletes the currently selected shortcut key.
 
 ## Reset button
 
-Resets to default settings. The
-[**Reset** dialog box](../reset/index) will be displayed
-and will allow you to copy from another configuration.
+Resets to default settings. The [**Reset** dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
 

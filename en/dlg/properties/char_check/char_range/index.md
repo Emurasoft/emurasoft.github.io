@@ -1,13 +1,12 @@
 # Character Range dialog box
 
-This dialog box appears when the [**Add** button](../index)
-on the [**Character Check** page](../index) is selected.
+This dialog box appears when the [**Add** button](../index) on the [**Character Check** page](../index) is selected.
 
-## Unicode Script list box
+## Unicode script list box
 
 Selects Unicode scripts.
 
-## Unicode General Category list box
+## Unicode general category list box
 
 Selects Unicode general category.
 

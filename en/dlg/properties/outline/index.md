@@ -2,15 +2,13 @@
 
 The **Outline** page allows you to set properties related to Outline.
 
-## Display Outline as guide checkbox
+## Display outline as a guide checkbox
 
-If this is checked, EmEditor displays the outlining as a guide on the left side of the editor. This checkbox is enabled only if the **Toggle Outline Guide per configuration**
-checkbox is checked in the [**Outline** page](../../customize/outline/index) of the Customize dialog box.
+If this is checked, EmEditor displays the outlining as a guide on the left side of the editor. This checkbox is enabled only if the **Toggle outline guide per configuration** checkbox is checked in the [**Outline** page](../../customize/outline/index) of the Customize dialog box.
 
-## Display Outline as custom bar checkbox
+## Display outline as custom bar checkbox
 
-If this is checked, EmEditor displays the outlining in a custom bar. This checkbox is enabled only if the **Toggle Outline Bar per configuration** checkbox is checked in the
-[**Outline** page](../../customize/outline/index) of the Customize dialog box.
+If this is checked, EmEditor displays the outlining in a custom bar. This checkbox is enabled only if the **Toggle outline bar per configuration** checkbox is checked in the [**Outline** page](../../customize/outline/index) of the Customize dialog box.
 
 ## Max level drop-down list box
 
@@ -26,12 +24,12 @@ Determines how outlining is calculated. Select one from the following:
 
 |     |     |
 | --- | --- |
-| **Number of Braces {}** | Outlining is calculated by number of braces. This may be useful for many programming languages. |
-| **Number of Spaces** | Outlining is calculated by number of spaces or tabs at the beginning of each line. This may be useful for general purposes. |
+| **Number of braces {}** | outlining is calculated by number of braces. This may be useful for many programming languages. |
+| **Number of spaces** | Outlining is calculated by number of spaces or tabs at the beginning of each line. This may be useful for general purposes. |
 | **Custom** | Outlining is calculated according to the specified settings in the **Find** list box. If this is selected, click the **Add** button next to the **Find** list box to add more than one item to the list. |
-| **Number of Brackets \[\]** | Outlining is calculated by number of brackets. This may be useful for some programming languages. |
+| **Number of brackets \[\]** | Outlining is calculated by number of brackets. This may be useful for some programming languages. |
 | **Custom (Specify Begin as Level 1/End as Level 2)** | Outlining is calculated according to the specified settings in the **Find** list box. If this is selected, click the **Add** button next to the **Find** list box to add two items to the list. The first item in the **Find** list box is set as the begin string, and the second item as the end string. The XML configuration uses this as default. |
-| **Number of Tabs** | Outlining is calculated by number of tabs at the beginning of each line. This may be useful for general purposes. |
+| **Number of tabs** | Outlining is calculated by number of tabs at the beginning of each line. This may be useful for general purposes. |
 
 ## Make comments collapsible checkbox
 
@@ -43,10 +41,9 @@ Specifies whether matched strings should be hidden in the custom bar. If the **R
 
 ## Find drop-down list box
 
-If the **Regular Expression** is unchecked, enter character(s) that a line should begin with. For instance, enter "." to match only the lines beginning with ".". If the "Regular Expression" is checked, enter a regular expression that should match
-for the specified level. For instance, enter "^\\d.\*?$" to match only the lines beginning with a number.
+If the **Regular expression** is unchecked, enter character(s) that a line should begin with. For instance, enter "." to match only the lines beginning with ".". If the "Regular Expression" is checked, enter a regular expression that should match for the specified level. For instance, enter "^\\d.\*?$" to match only the lines beginning with a number.
 
-## Regular Expression checkbox
+## Regular expression checkbox
 
 Specifies whether the string entered in the **Find** text box is treated as a regular expression.
 
@@ -56,7 +53,5 @@ Specifies a string to replace with when the **Hide matched strings/replace with 
 
 ## Reset button
 
-Resets to default settings. The
-[**Reset** dialog box](../reset/index) will be displayed
-and will allow you to copy from another configuration.
+Resets to default settings. The [**Reset** dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
 

@@ -8,9 +8,9 @@ The **Language Server** page allows you to set properties related to language se
 
 Enabling Language Server Protocol turns on the following features:
 
-- Hover tooltips when the **Show hover tooltips** checkbox is set.
-- **Search Symbols** in the **Search** menu
-- Allows selecting **Language Server Protocol** as the **Document Type** for **Syntax Check**
+- Displays hover tooltips when the **Show hover tooltips** checkbox is set.
+- Enables **Search Symbols** in the **Search** menu
+- Allows selecting **Language Server Protocol** as the **Document type** for **Syntax Check**
 
 ### Document Type drop-down list box
 
