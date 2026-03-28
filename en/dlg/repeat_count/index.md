@@ -6,7 +6,7 @@ This dialog box appears when the [**Repeat Steps** command](../../cmd/edit/repea
 
 Allows you to select which steps to repeat.
 
-## Show repeated steps only
+## Show repeated steps only checkbox
 
 Specifies that only repeated steps should be displayed in the list.
 

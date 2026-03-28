@@ -1,13 +1,12 @@
 # Fuzzy Matching Options dialog box
 
-This dialog box appears when the
-**...** button is clicked in the **Find**, **Replace**, **Find in Files**, **Replace in Files**, **Advanced Filter**, or **Join CSV** dialog box.
+This dialog box appears when the **...** button is clicked in the **Find**, **Replace**, **Find in Files**, **Replace in Files**, **Advanced Filter**, or **Join CSV** dialog box.
 
-## Similarity slider
+## Similarity level drop-down list box
 
 Specifies the similarity in percentage. For instance, if you specify 75%, and if the search string is 4 characters long, 3 out of 4 characters must be equal in order to match. You may set this 100% if any of the following options is set. For instance, if you only want to ignore diacritics, you should set this 100% and set the **Ignore nonspacing combining characters, such as diacritics, dakuten, and handakuten** checkbox.
 
-## Max edit distance
+## Max edit distance drop-down list box
 
 <!-- cspell:disable-next-line -->
 Specifies the max [edit distance](https://en.wikipedia.org/wiki/Edit_distance) that a matched string can have. `fuzzx maching` and `fuzzy matching` are 2 edit distance apart.
@@ -44,7 +43,7 @@ If this is checked, Emoji sequences are ignored except the first code value of t
 
 Removes the selected range from the list.
 
-## String/Character ranges list box
+## String/character ranges list box
 
 Lists the user-defined strings and character ranges. Double-clicking on an item in the list will allow you to edit the selected string or character range.
 
