@@ -34,3 +34,7 @@ Exports the Undo/Redo history into a CSV file. When you import the file next tim
 
 Clicking this button clears all the actions in the Undo/Redo history.
 
+## Repeat Steps button
+
+Click this button to open the [**Repeat Steps** dialog box](../repeat_count/index).
+

@@ -1,13 +1,12 @@
 # Destination files page
 
-This page allows you to specify destination folder and file names after
-splitting the document into multiple files.
+This page allows you to specify destination folder and file names after splitting the document into multiple files.
 
 ## Folder text box
 
 Specifies the path to the destination folder.
 
-## File Name text box
+## File name text box
 
 Specifies the file name to save.
 
@@ -15,11 +14,11 @@ Specifies the file name to save.
 
 If this is checked, EmEditor will open all split files when splitting a file is finished successfully.
 
-## Run a macro against each opened split files checkbox
+## Run a macro on each open split file checkbox
 
 If this is checked, EmEditor will run a macro against each of the opened split files.
 
-## Run a macro against each opened split files text box
+## Run a macro on each open split file text box
 
 Specify a macro file to run against each of the opened split files.
 

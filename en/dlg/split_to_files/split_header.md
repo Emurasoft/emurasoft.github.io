@@ -2,14 +2,14 @@
 
 This page allows you to specify a header or footer which you can add to each split file.
 
-## Header text box
+## Header checkbox and text box
 
 Specifies the header to be appended at the top of each split file.
 
-## Footer text box
+## Footer checkbox and text box
 
 Specifies the footer to be appended at the bottom of each split file.
 
-## Repeat the first line as header checkbox
+## Repeat the first line as a header checkbox
 
 Specifies the first line of the document is repeated as the header of each split file.

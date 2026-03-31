@@ -1,21 +1,20 @@
 # Sort Columns dialog box
 
-This dialog box appears when the
-[**Sort Columns** command](../../cmd/sort/sort_columns) is selected.
+This dialog box appears when the [**Sort Columns** command](../../cmd/sort/sort_columns) is selected.
 
 ## Sort at current line radio button
 
 Specifies the columns should be sorted at the current line.
 
-## Sort at Line radio button and text box
+## Sort at line radio button and text box
 
 Specifies the columns should be sorted at the specified line.
 
-## Remove columns at empty strings checkbox
+## Remove columns with empty strings checkbox
 
 If this is checked, EmEditor removes the column where the cell is empty.
 
-## Remove columns at duplicate strings checkbox
+## Remove columns with duplicate strings checkbox
 
 If this is checked, EmEditor removes the column where the cell is identical to another cell.
 
@@ -23,7 +22,7 @@ If this is checked, EmEditor removes the column where the cell is identical to a
 
 If this is checked, EmEditor sorts columns with the specified sort condition.
 
-## How to Sort list box
+## How to sort list box
 
 Displays the list of defined sort conditions.
 

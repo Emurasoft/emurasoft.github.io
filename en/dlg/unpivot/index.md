@@ -1,7 +1,6 @@
 # Unpivot dialog box
 
-This dialog box appears when the
-[**Unpivot** command](../../cmd/csv/unpivot) is selected.
+This dialog box appears when the [**Unpivot** command](../../cmd/csv/unpivot) is selected.
 
 ## Attribute name text box
 
@@ -14,6 +13,10 @@ Enter the label to be used for the value column on the first row.
 ## Column list box
 
 Selects the columns of the CSV document to unpivot.
+
+## Enable/Disable All checkbox
+
+Enables or disables all items in the list.
 
 ## Header drop-down list box
 

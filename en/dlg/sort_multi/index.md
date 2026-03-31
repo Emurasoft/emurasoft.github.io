@@ -1,8 +1,6 @@
 # Advanced Sort dialog box
 
-This dialog box appears when the
-[**Advanced Sort** command](../../cmd/sort/sort_multi) or the
-**Advanced Sort** button is selected in a toolbar.
+This dialog box appears when the [**Advanced Sort** command](../../cmd/sort/sort_multi) or the **Advanced Sort** button is selected in a toolbar.
 
 ## Columns list box
 
@@ -16,7 +14,7 @@ Adds an item to the list.
 
 Click this button to delete the selected item from the list.
 
-## How to Sort list box
+## How to sort list box
 
 Displays the list of defined sort conditions.
 
@@ -41,7 +39,7 @@ Displays the list of defined sort conditions.
 | Sort Randomly | Sorts randomly in the current column. |
 | Sort by Similarity | Sorts by similarity to the current cell in the current column. |
 
-## Enable/Disable ALL checkbox
+## Enable/Disable All checkbox
 
 This checkbox allows you to enable or disable all items in the list.
 
@@ -49,7 +47,7 @@ This checkbox allows you to enable or disable all items in the list.
 
 Sorts all the documents in the group.
 
-## In the Selection Only checkbox
+## In the selection only checkbox
 
 Sorts only the selected lines.
 
