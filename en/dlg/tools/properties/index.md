@@ -1,7 +1,6 @@
 # External Tool Properties dialog box
 
-This dialog box appears when the
-**Properties** button on the **External Tools** dialog box is selected.
+This dialog box appears when the **Properties** button on the **External Tools** dialog box is selected.
 
 ## 
 
@@ -22,38 +21,36 @@ launched. Use the **Arrow** (**>**) button to select from a
 list of predefined arguments. You can also specify environment variables, such as
 %WinDir%.
 
-### Initial Directory text box
+### Initial directory text box
 
-Specifies the working directory of the tool. Use the
-**Arrow** (**>**) button to select a directory. You
-can also specify environment variables, such as %WinDir%.
+Specifies the working directory of the tool. Use the **Arrow** (**>**) button to select a directory. You can also specify environment variables, such as %WinDir%.
 
-### Icon Path text box
+### Icon path text box
 
 Enter the file name you sampled the icon from.
 
-### Current Icon list box
+### Current icon list box
 
 List of icons you can use and the current icon selected.
 
-### Save File checkbox
+### Save file checkbox
 
 If this is checked, EmEditor will save the current open document before
 launching the tool.
 
-### Use Current Environment Variables checkbox
+### Use current environment variables checkbox
 
 If this is checked, external tools will use current environment variables when launched. If not, external tools will use environment variables inherited from the parent process (EmEditor).
 
-### Use Output Bar checkbox
+### Use output bar checkbox
 
 If this is checked, EmEditor will redirect the standard output and standard error output to the Output Bar.
 
-### Set Focus in Output Bar checkbox
+### Set focus in output bar checkbox
 
 If this is checked, EmEditor will set the keyboard focus to the Output Bar.
 
-### Close on Exit checkbox
+### Close on exit checkbox
 
 If this is checked, the Output Bar will be closed after the tool process is terminated.
 

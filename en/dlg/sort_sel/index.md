@@ -1,13 +1,12 @@
 # Sort Selection dialog box
 
-This dialog box appears when the
-[**Sort/Remove Duplicate split strings in Selection** command](../../cmd/sort/sort_sel) is selected.
+This dialog box appears when the [**Sort/Remove Duplicate split strings in Selection** command](../../cmd/sort/sort_sel) is selected.
 
 ## Separator text box
 
 Specifies a string as a separator when sorting a selection.
 
-## Detect separator automatically checkbox
+## Automatically detect separator checkbox
 
 If this is checked, this dialog box detects the separator, and updates the **Separator** text box.
 
@@ -19,7 +18,7 @@ If this is checked, EmEditor removes duplicate split strings.
 
 If this is checked, EmEditor sorts split strings with the specified sort condition.
 
-## How to Sort list box
+## How to sort list box
 
 Displays the list of defined sort conditions.
 

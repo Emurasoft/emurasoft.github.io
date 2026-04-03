@@ -1,7 +1,6 @@
 # External Tools dialog box
 
-This dialog box appears when the
-[**Customize Tools** command](../../cmd/tools/customize_tools) is selected.
+This dialog box appears when the [**Customize Tools** command](../../cmd/tools/customize_tools) is selected.
 
 ## External Tools list box
 
@@ -17,19 +16,19 @@ Click this button to delete the selected item from the list.
 
 ## Copy button
 
-Make a copy of the selected item.
+Makes a copy of the selected item.
 
 ## Up button
 
-Move the selected item up on the list.
+Moves the selected item up on the list.
 
 ## Down button
 
-Move the selected item down on the list.
+Moves the selected item down on the list.
 
 ## Properties button
 
-Show or edit the selected configuration properties in the list.
+Shows or edits the selected configuration properties in the list.
 
 ## Reset button
 
@@ -37,9 +36,7 @@ Resets to default settings.
 
 The following dialog box is also available through this dialog box.
 
-<a href="properties/index.html"><b>External 
-	Tool Properties</b> Dialog Box</a> (Select **Properties**
-button)
+[**External Tool Properties** Dialog Box](properties/index) (Select **Properties** button)
 
 
 ```{toctree}

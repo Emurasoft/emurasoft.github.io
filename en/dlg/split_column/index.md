@@ -1,7 +1,6 @@
 # Split Columns dialog box
 
-This dialog box appears when the
-[**Split Columns** command](../../cmd/csv/split_column) is selected.
+This dialog box appears when the [**Split Columns** command](../../cmd/csv/split_column) is selected.
 
 ## Columns list box
 
@@ -35,7 +34,7 @@ If this is checked, EmEditor removes duplicate split strings when splitting colu
 
 If this is checked, EmEditor sorts split strings with the specified sort condition.
 
-## How to Sort list box
+## How to sort list box
 
 Displays the list of defined sort conditions.
 
