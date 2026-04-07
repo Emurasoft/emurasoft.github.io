@@ -13,7 +13,7 @@ Offline registration uses a license file during registration. The license file i
 3. If you have not installed EmEditor yet, install EmEditor. You do not need to add the [`REGKEY`](https://www.emeditor.com/faq/installation-faq/how-can-i-install-emeditor-without-displaying-dialog-boxes/) option when installing.
   - We recommend installing EmEditor per user, but if you need to install EmEditor per computer, [use the portable version](https://www.emeditor.com/faq/installation-faq/how-can-the-portable-version-be-shared-by-all-users/).
 4. If you have already registered EmEditor, unregister using [Help > Registration Information](../../dlg/registration_info/index).
-5. Close EmEditor. Use the [command line option](../file/file_commandline.md#options) `/ol "licenseFilePath"` where `licenseFilePath` is the absolute path to the license file. The following is an example of the command.
+5. Close EmEditor. Use the [command line option](commandline_options) `/ol "licenseFilePath"` where `licenseFilePath` is the absolute path to the license file. The following is an example of the command.
 
 ```
 EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
