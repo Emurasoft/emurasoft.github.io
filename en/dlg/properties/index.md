@@ -1,8 +1,6 @@
 # Configuration Properties
 
-This dialog box appears when the
-**Properties** button is selected in the [**Define Configurations** dialog box](../configurations/index), when the [**Properties for Current Configuration** command](../../cmd/tools/customize) is selected, or when the
-[**Properties for All Configurations** command](../../cmd/tools/all_prop) is selected. The following pages exist on this dialog box.
+This dialog box appears when the **Properties** button is selected in the [**Define Configurations** dialog box](../configurations/index), when the [**Properties for Current Configuration** command](../../cmd/tools/customize) is selected, or when the [**Properties for All Configurations** command](../../cmd/tools/all_prop) is selected. The following pages exist on this dialog box.
 
 ```{toctree}
 :maxdepth: 1

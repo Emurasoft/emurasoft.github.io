@@ -2,11 +2,11 @@
 
 This dialog box appears when launching EmEditor if the correct registration key has never been entered.
 
-## How to Register - Enter Registration Key radio button
+## How to register - Enter registration key radio button
 
 This option allows you to enter registration key without signing in to Emurasoft Customer Center.
 
-## Your Name text box
+## Your name text box
 
 Please enter your name.
 
@@ -16,12 +16,9 @@ Please enter the email address that was used to buy your license. It will be the
 
 ## Registration Key text box
 
-Please copy the registration key for the current version of EmEditor Professional to the Clipboard, select this text box, and press **CTRL + V**, or right-click to display the context menu, and select **Paste**. The key will be displayed or sent by email when you
-have purchased EmEditor Professional. If you upgrade from the previous version of EmEditor, you may request a key for
-the current version at Emurasoft Customer Center
-(https://support.emeditor.com/en/).
+Please copy the registration key for the current version of EmEditor Professional to the Clipboard, select this text box, and press **CTRL + V**, or right-click to display the context menu, and select **Paste**. The key will be displayed or sent by email when you have purchased EmEditor Professional. If you upgrade from the previous version of EmEditor, you may request a key for the current version at Emurasoft Customer Center (https://support.emeditor.com/en/).
 
-## How to Register - Sign in radio button
+## How to register - Sign in radio button
 
 You can sign in to Emurasoft Customer Center in EmEditor to register the product without entering a new registration key.
 

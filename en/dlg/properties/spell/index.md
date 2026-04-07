@@ -2,58 +2,56 @@
 
 The **Spelling** page allows you to set properties related to spelling.
 
-## Check Spelling checkbox
+## Check spelling checkbox
 
 If this is checked, EmEditor checks spelling in documents.
 
-## Support Camel Case checkbox
+## Support camel case checkbox
 
 If this is checked, EmEditor supports camel case while checking spelling in documents.
 
-## All checkbox
+## Check spelling in group box - All checkbox
 
 Click this checkbox to toggle all check boxes below.
 
-## Quoted Lines checkbox
+## Check spelling in group box - Quoted lines checkbox
 
 If this is checked, EmEditor checks spelling in quoted lines.
 
-## String Enclosed by Single Quotation Marks checkbox
+## Check spelling in group box - Text enclosed in single quotation marks checkbox
 
 If this is checked, EmEditor checks spelling in strings enclosed by single quotation marks.
 
-## String Enclosed by Double Quotation Marks checkbox
+## Check spelling in group box - Text enclosed in double quotation marks checkbox
 
 If this is checked, EmEditor checks spelling in strings enclosed by double quotation marks.
 
-## Comments checkbox
+## Check spelling in group box - Comments checkbox
 
 If this is checked, EmEditor checks spelling in comments.
 
-## Script checkbox
+## Check spelling in group box - Script checkbox
 
 If this is checked, EmEditor checks spelling in script.
 
-## Tags checkbox
+## Check spelling in group box - Tags checkbox
 
 If this is checked, EmEditor checks spelling in tags.
 
-## Highlighted Text checkbox
+## Check spelling in group box - Highlighted text checkbox
 
 If this is checked, EmEditor checks spelling in highlighted text.
 
-## Hyperlinks checkbox
+## Check spelling in group box - Hyperlinks checkbox
 
 If this is checked, EmEditor checks spelling in hyperlinks.
 
-## Unspecified Text checkbox
+## Check spelling in group box - Unspecified text checkbox
 
 If this is checked, EmEditor checks spelling in unspecified text that is not
 covered by previous controls.
 
 ## Reset button
 
-Resets to default settings. The
-[**Reset** dialog box](../reset/index) will be displayed
-and will allow you to copy from another configuration.
+Resets to default settings. The [**Reset** dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
 

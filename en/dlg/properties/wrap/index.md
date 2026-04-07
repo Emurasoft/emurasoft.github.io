@@ -2,30 +2,28 @@
 
 The **Wrap** page allows you to set properties related to wrap.
 
-## Word Wrap checkbox
+## Word wrap checkbox
 
-Enable word wraps.
+Enables word wraps.
 
-## Enable Word Wrap After Marks checkbox
+## Enable word wrap after marks checkbox
 
-Enable word wrap after marks.
+Enables word wrap after marks.
 
-## Wrap These Characters checkbox
+## Wrap these characters checkbox
 
 Wrap characters specified at \[Not allowed at line head\] and at \[Not allowed
 at line end\].
 
-## Not Allowed at Line Head text box
+## Not allowed at line start text box
 
 These characters will not be allowed to wrap at the beginning of lines.
 
-## Not Allowed at Line End text box
+## Not allowed at line end text box
 
 These characters will not be allowed to wrap at the end of lines.
 
 ## Reset button
 
-Resets to default settings. The
-[**Reset** dialog box](../reset/index) will be displayed
-and will allow you to copy from another configuration.
+Resets to default settings. The [**Reset** dialog box](../reset/index) will be displayed and will allow you to copy from another configuration.
 
