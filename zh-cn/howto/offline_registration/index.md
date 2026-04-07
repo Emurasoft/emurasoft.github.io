@@ -13,7 +13,7 @@
 3. 如果您尚未安装 EmEditor，请安装 EmEditor。安装时无需添加 [`REGKEY`](https://www.emeditor.com/faq/installation-faq/how-can-i-install-emeditor-without-displaying-dialog-boxes/) 选项。
   - 我们建议按用户安装 EmEditor，但如果您需要按每台计算机安装 EmEditor，请[使用便携版本](https://www.emeditor.com/faq/installation-faq/how-can-the-portable-version-be-shared-by-all-users/)。
 4. 如果您已经注册了 EmEditor，请使用[注册信息](../../dlg/registration_info/index)取消注册。
-5. 关闭 EmEditor。使用[命令行选项](../file/file_commandline#options) `/ol "licenseFilePath"`，其中 `licenseFilePath` 是授权文件的绝对路径。以下是命令示例。
+5. 关闭 EmEditor。使用[命令行选项](../file/file_commandline.md#options) `/ol "licenseFilePath"`，其中 `licenseFilePath` 是授权文件的绝对路径。以下是命令示例。
 ```
 EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
 ```
