@@ -127,6 +127,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 /?
 ```
 
+(options)=
 ## Options
 
 |     |     |
