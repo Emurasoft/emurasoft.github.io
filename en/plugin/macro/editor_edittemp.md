@@ -29,7 +29,7 @@ Specifies the name of the configuration that the new document should use.
 
 _nEncoding_
 
-Specifies the encoding of the file. The encoding constants are listed in ["EmEditor Macro Reference: Encoding Constants".](../../macro_const_const_encoding.html)
+Specifies the encoding of the file. The encoding constants are listed in ["EmEditor Macro Reference: Encoding Constants".](../../macro_const_const_encoding)
 
 _pptInitialCaret_
 
