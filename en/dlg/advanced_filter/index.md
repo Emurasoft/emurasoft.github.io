@@ -1,8 +1,6 @@
 # Advanced Filter dialog box
 
-This dialog box appears when the
-**Advanced Filter** command or the
-**Advanced Filter** button is selected in the **Filter** toolbar.
+This dialog box appears when the **Advanced Filter** command or the **Advanced Filter** button is selected in the **Filter** toolbar.
 
 ## Find \| Columns \| Conditions list box
 
@@ -12,7 +10,7 @@ Shows the list of defined filters.
 
 Enables or disables all items in the list.
 
-## Column drop down list box
+## Column drop-down list box
 
 Changes the column for the items selected in the list.
 
@@ -24,37 +22,35 @@ Specifies the one-based index of the character where the search begins.
 
 Specifies the one-based index of the character where the search ends. The specified ending character is exclusive. For instance, if you specify 1 in the Begin text box, and 2 in the End text box, only one character (2-1=1) will be searched.
 
-## Count Last checkbox
+## Count last checkbox
 
 If this is checked, the search range is counted from the end of the line.
 
-## All the Rest checkbox
+## All the rest checkbox
 
 If this is checked, the search range is up to the end of the line.
 
-## Match Case checkbox
+## Match case checkbox
 
-Match cases when searching for a string.
+Matches cases when searching for a string.
 
-## Match Whole Word checkbox
+## Match whole word checkbox
 
-Search words only. A word is defined as a string that begins and ends with
-any of these characters: A – Z, a – z, 0 – 9, or an underscore. Strings
-surrounded by full-width characters are considered words. When using regular expressions, this checkbox may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
+Searches words only. A word is defined as a string that begins and ends with any of these characters: A – Z, a – z, 0 – 9, or an underscore. Strings surrounded by full-width characters are considered words. When using regular expressions, this checkbox may not work correctly. When using regular expressions, please use word boundary expressions (\\<, \\>, and \\b) instead.
 
-## Match Whole String checkbox
+## Match whole string checkbox
 
 This matches the whole item in the selected column, character positions, or the whole line. It is recommended to set this option whenever possible to optimize the filter for speed. When multiple filter conditions are defined with the Logical Disjunction, set this option for all conditions to increase the filter speed extremely faster.
 
 ## Negative checkbox
 
-This negates the match condition. Therefore, the lines matched to the specified string will be hidden from the document when displayed. This option does not affect the **Bookmarked Lines Only**, **Unbookmarked Lines Only**, or **Match Newline Characters** options.
+This negates the match condition. Therefore, the lines matched to the specified string will be hidden from the document when displayed. This option does not affect the **Bookmarked lines only**, **Unbookmarked lines only**, or **Match newline characters** options.
 
-## Bookmarked Lines Only checkbox
+## Bookmarked lines only checkbox
 
 Matches bookmarked lines only.
 
-## Unbookmarked Lines Only checkbox
+## Unbookmarked lines only checkbox
 
 Matches unbookmarked lines only.
 
@@ -62,14 +58,13 @@ Matches unbookmarked lines only.
 
 Specifies that the string should match literally.
 
-## **Regular Expressions** radio button
+## **Regular expressions** radio button
 
 Enables [regular expressions](../../howto/search/search_regexp).
 
-## **Escape Sequence** radio button
+## **Escape sequence** radio button
 
-Enables escape sequences. You can use the following characters as escape
-sequences.
+Enables escape sequences. You can use the following characters as escape sequences.
 
 |     |     |
 | --- | --- |
@@ -85,19 +80,23 @@ sequences.
 
 A null character (\\0) may not be used. \\n must be used instead of \\r.
 
-## **Number Range** radio button
+## **Number range** radio button
 
 Enables [number range expressions](../../howto/search/number_range_syntax).
 
-## Match Newline Characters checkbox
+## **Fuzzy matching** checkbox
+
+Enables [fuzzy matching options](../fuzzy_options/index). If **Fuzzy matching** is already selected, clicking the **...** button on the right will open the [**Fuzzy Matching Options**](../fuzzy_options/index) dialog box. 
+
+## Match newline characters checkbox
 
 Matches specified newline characters. This option should be combined with **CR Only**, **LF Only**, **CR+LF Only**, and/or **Others** check boxes.
 
-## CR Only checkbox
+## CR only checkbox
 
 Matches lines of which the newline character is CR only. This option should be combined with the **Match Newline Characters** option.
 
-## LF Only checkbox
+## LF only checkbox
 
 Matches lines of which the newline character is LF only. This option should be combined with the **Match Newline Characters** option.
 
@@ -105,21 +104,25 @@ Matches lines of which the newline character is LF only. This option should be c
 
 Matches lines of which the newline character is CR and LF. This option should be combined with the **Match Newline Characters** option.
 
-## Others checkbox
+## Other checkbox
 
 Matches lines without a newline character. These lines includes the last line of the file and very long lines that continue to the next line without a newline character. This option should be combined with the **Match Newline Characters** option.
 
-## Begin Filter checkbox
+## Begin filter checkbox
 
 Specifies a begin filter. If both an item with the begin filter and another item with the end filter exist, EmEditor shows only the lines between the line that matches the begin filter and the line that matches the end filter.
 
-## End Filter checkbox
+## End filter checkbox
 
 Specifies an end filter.
 
-## Logical Disjunction (OR) to the Previous Condition checkbox
+## Logical disjunction (OR) with the previous condition checkbox
 
 Specifies a logical disjunction (logical OR) to the previous condition. If this is not checked, a logical conjunction (logical AND) is specified.
+
+## Close when finished checkbox
+
+Closes the dialog box when EmEditor finishes filtering.
 
 ## Filter button
 

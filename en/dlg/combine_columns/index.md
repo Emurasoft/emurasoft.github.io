@@ -1,13 +1,12 @@
 # Combine Columns dialog box
 
-This dialog box appears when the
-[**Combine Columns** command](../../cmd/csv/combine_columns) is selected.
+This dialog box appears when the [**Combine Columns** command](../../cmd/csv/combine_columns) is selected.
 
 ## Concatenate radio button
 
 If this button is checked, EmEditor concatenates the selected columns.
 
-## String to Insert (optional) list box
+## String to insert (optional) list box
 
 You can specify the string to insert when concatenating the selected columns.
 
@@ -23,7 +22,7 @@ If this is checked, EmEditor removes duplicate strings when combining columns.
 
 If this is checked, EmEditor sorts strings with the specified sort condition.
 
-## How to Sort list box
+## How to sort list box
 
 Displays the list of defined sort conditions.
 

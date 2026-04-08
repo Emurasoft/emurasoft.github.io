@@ -14,17 +14,13 @@ Click this button to add a new item to the list.
 
 Click this button to delete the selected item from the list.
 
-## Delete All button
-
-Click this button to delete all items from the list.
-
 ## Up button
 
-Move the selected item up on the list.
+Moves the selected item up on the list.
 
 ## Down button
 
-Move the selected item down on the list.
+Moves the selected item down on the list.
 
 ## Edit button
 
@@ -34,7 +30,7 @@ Opens the selected macro file with EmEditor so that you can edit the macro.
 
 Displays the [**Select Events** dialog box](select_events/index) so you can select events which the selected macro can be associated with.
 
-## Runs at Events checkbox
+## Runs at events checkbox
 
 Runs the selected macro at the specified events.
 
@@ -48,8 +44,7 @@ Displays the full path of the selected macro.
 
 The following dialog box is also available through this dialog box.
 
-<a href="select_events/index.html"><b>Select Events</b> dialog box</a> (Select
-**Events** button)
+[**Select Events** dialog box](select_events/index) (Select **Events** button)
 
 
 ```{toctree}

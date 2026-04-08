@@ -1,9 +1,8 @@
 # Batch Options dialog box
 
-This dialog box appears when the
-**Batch Options** is selected in the Batch Find/Replace dialog box.
+This dialog box appears when the **Batch Options** is selected in the Batch Find/Replace dialog box.
 
-## Enable Separator checkbox
+## Enable separator checkbox
 
 If this box is checked, EmEditor enables separator when extracting matched results in batches.
 

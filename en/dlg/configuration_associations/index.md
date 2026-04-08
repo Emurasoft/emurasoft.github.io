@@ -1,25 +1,24 @@
 # Configuration Associations dialog box
 
-## File Types list box
+## File types list box
 
 List of all the file types associated with the selected configuration. By setting an association, the associated configuration is automatically selected when you open files or save files with the associated extension.
 
-## Use Wildcard radio button
+## Use wildcard radio button
 
 Specifies that the selected file type uses wildcards such as \* and ?.
 
-## Use Regular Expressions radio button
+## Use regular expressions radio button
 
 Specifies that the selected file type uses regular expressions.
 
-## Configuration drop box
+## Configuration drop-down list box
 
 Specifies which configuration is associated with the selected file type.
 
-## Use in Find in Files Filter checkbox
+## Use in Find in Files filter checkbox
 
-Specifies whether the selected file type is used for the **Current File**
-**Type** in the **Find in Files** dialog box.
+Specifies whether the selected file type is used for the **Current File** **Type** in the **Find in Files** dialog box.
 
 ## New button
 
@@ -51,10 +50,9 @@ Applies the settings now without closing the dialog box.
 
 ## Associate with EmEditor button
 
-Displays the
-[**Associate with EmEditor** dialog box](../../dlg/file_associate/index), where the user can specify which file extensions to associate with EmEditor.
+Displays the [**Associate with EmEditor** dialog box](../../dlg/file_associate/index), where the user can specify which file extensions to associate with EmEditor.
 
 The following dialog box is also available through this dialog box.
 
-<a href="../../dlg/file_associate/index.html"> <b>Associate with EmEditor </b>dialog box</a> (Select **Associate with EmEditor** button)
+[**Associate with EmEditor** dialog box](../../dlg/file_associate/index) (Select **Associate with EmEditor** button)
 

@@ -9,7 +9,7 @@ List of currently defined configurations.
 
 ## Select button
 
-Set the selected item as the current configuration, and close the dialog box.
+Sets the selected item as the current configuration, and closes the dialog box.
 
 ## Close button
 
@@ -17,8 +17,7 @@ Click this button to close the dialog box.
 
 ## New button
 
-Click this button to add a new item to the list. The
-[**New** dialog box](new_config/index) appears when you click this button.
+Click this button to add a new item to the list. The [**New** dialog box](new_config/index) appears when you click this button.
 
 ## Delete button
 
@@ -34,19 +33,15 @@ Select the entire list.
 
 ## Properties button
 
-Show or edit the selected configuration properties in the list.
+Shows or edits the selected configuration properties in the list.
 
 ## Set as Default button
 
-Set the selected item as the default configuration. The
-default configuration is selected when EmEditor is launched or when
-the
-[**New Text** command](../../cmd/file/file_new) is selected.
+Sets the selected item as the default configuration. The default configuration is selected when EmEditor is launched or when the [**New Text** command](../../cmd/file/file_new) is selected.
 
 ## Associations button
 
-Click this button to go to the
-[**Configuration Associations** dialog box](../configuration_associations/index).
+Click this button to go to the [**Configuration Associations** dialog box](../configuration_associations/index).
 
 ## Reset All button
 
@@ -54,9 +49,9 @@ Click this button to reset all items to default settings.
 
 The following dialog boxes are also available through this dialog box.
 
-<a href="new_config/index.html"><b>New</b> dialog box</a> (Select **New** button)
+[**New** dialog box](new_config/index) (Select **New** button)
 
-<a href="../configuration_associations/index.html"> <strong>Configuration Associations</strong> dialog box</a> (Select **Associations** button)
+[ **Configuration Associations** dialog box](../configuration_associations/index) (Select **Associations** button)
 
 
 ```{toctree}
