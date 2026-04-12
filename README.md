@@ -1,6 +1,6 @@
 # EmEditor Help
 
-Sphinx project for [https://www.emeditor.org/](https://www.emeditor.org/).
+Sphinx project for [https://help.emeditor.com/](https://help.emeditor.com/).
 
 # Build instructions
 
