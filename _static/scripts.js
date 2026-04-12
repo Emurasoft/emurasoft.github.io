@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function changeLanguage(lang) {
-    const newPath = 'https://www.emeditor.org/' + lang + '/' + getPageName() + '.html';
+    const newPath = 'https://help.emeditor.com/' + lang + '/' + getPageName() + '.html';
     window.location.href = newPath;
 }
 
