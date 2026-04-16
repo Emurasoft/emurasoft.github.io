@@ -17,6 +17,11 @@
 ## API Key
 To start using Chat with AI, create and copy an API key from one of these AI providers.
 
+### Anthropic
+1. Log into Claude Console and visit the [API keys page](https://platform.claude.com/settings/keys).
+2. Click **Create key**. Add a name for the key.
+3. Copy the API key.
+
 ### Deepseek
 1. Log into your Deepseek account and visit the [API keys page](https://platform.deepseek.com/api_keys).
 2. Click **Create new API key**. Add a name for the key.
