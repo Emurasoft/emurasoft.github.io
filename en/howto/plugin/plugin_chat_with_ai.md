@@ -68,7 +68,7 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - When a file is uploaded, Chat with AI creates both a file and a vector store resources. The file can then be referenced during chat conversations.
   - Uploaded files are listed in the input area. Click a file to remove it, or right-click for additional options.
   - Referencing uploaded files typically consumes fewer tokens than copying and pasting the file contents directly into the chat.
-- Enable **Tools** to use the tool-calling feature. These EmEditor tools can used by the AI to read or modify your document.
+- Enable **Tools** to use the tool-calling feature. These EmEditor tools can be used by the AI to read or modify your document.
   - Hover over **Tools** and select **Settings** to view and configure the available tools.
   - Using tools will incur additional token costs.
 
@@ -105,7 +105,7 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 - **Debug Log Options**
   - The debug log helps diagnose technical issues with the app.
 - **Reset Settings**
-  - Deletes all chats or reset all settings to default.
+  - Deletes all chats or resets all settings to default.
 - **Update**
   - Allows you to manually update the app.
 - **User Interface**
