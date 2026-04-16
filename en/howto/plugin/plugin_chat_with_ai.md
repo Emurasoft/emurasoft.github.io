@@ -88,7 +88,6 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 - You can change AI connection and user interface settings by clicking the ⚙️ button in the sidebar and selecting **Settings**.
 - **AI Connection**
   - Configure how the app connects to an AI service.
-  - You can select the following providers: Deepseek, LM Studio/OpenAI compatible, OpenAI
   - Clicking on **Test Connection** checks that the settings are correct for the provider by sending a small AI request.
 - **AI Parameters**
   - Adjust parameters for AI generation.
