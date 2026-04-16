@@ -61,15 +61,16 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - **Message Info**: Displays details about this message.
 
 ## Chat input
-* Enter your prompts in the input box at the bottom of the chat panel.
-* Click **+ File** to upload a file.
-  * This feature is only available for Anthropic, Google, and OpenAI. File search incurs extra costs.
-  * You can also click **Browse** to select a supported file using the file browser dialog.
-  * When a file is uploaded, Chat with AI creates both a file and a vector store resources. The file can then be referenced during chat conversations.
-  * Uploaded files are listed in the input area. Click a file to remove it, or right-click for additional options.
-  * Referencing uploaded files typically consumes fewer tokens than copying and pasting the file contents directly into the chat.
-* Enable **Tools** to use the tool-calling feature. These EmEditor tools can used by the AI to read or modify your document.
-  * Hover over **Tools** and select **Settings** to view and configure the available tools.
+- Enter your prompts in the input box at the bottom of the chat panel.
+- Click **+ File** to upload a file.
+  - This feature is only available for Anthropic, Google, and OpenAI. File search incurs extra costs.
+  - You can also click **Browse** to select a supported file using the file browser dialog.
+  - When a file is uploaded, Chat with AI creates both a file and a vector store resources. The file can then be referenced during chat conversations.
+  - Uploaded files are listed in the input area. Click a file to remove it, or right-click for additional options.
+  - Referencing uploaded files typically consumes fewer tokens than copying and pasting the file contents directly into the chat.
+- Enable **Tools** to use the tool-calling feature. These EmEditor tools can used by the AI to read or modify your document.
+  - Hover over **Tools** and select **Settings** to view and configure the available tools.
+  - Using tools will incur additional token costs.
 
 ## Sidebar
 - Conversations are listed in the sidebar. Click on **+ New chat** to create a new chat that contains a different conversation. Responses in a chat will use the context of messages in that chat conversation only.
@@ -98,7 +99,6 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
     - [OpenAI](https://platform.openai.com/docs/api-reference/chat/create)
 - **Tool Calling**
   - These EmEditor tools can be made accessible to the AI to read or modify your document.
-  - Using tools will incur additional token costs.
   - Tool calling can be enabled from the chat input by clicking on the **Tools** button.
 - **Files**
   - These options for the OpenAI file search feature control the expiration of files and vector stores.
@@ -112,10 +112,10 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - Deletes all chats or reset all settings to default.
 
 ## Uploaded files
-* To view uploaded files and vector stores, click the ⚙️ button in the sidebar and select **Uploaded Files**.
-* The dialog displays all files and vector stores associated with your OpenAI account or organization. For each vector store, the associated chat and current status are also shown.
-  * Expired vector stores do not incur storage costs.
-* You can select and delete files or vector stores from your account or organization.
+- To view uploaded files and vector stores, click the ⚙️ button in the sidebar and select **Uploaded Files**.
+- The dialog displays all files and vector stores associated with your OpenAI account or organization. For each vector store, the associated chat and current status are also shown.
+  - Expired vector stores do not incur storage costs.
+- You can select and delete files or vector stores from your account or organization.
 
 ## LM Studio setup instructions
 The LM Studio integration requires initial setup. Follow these steps to set up LM Studio.
