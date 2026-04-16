@@ -122,7 +122,7 @@ The LM Studio integration requires initial setup. Follow these steps to set up L
 
 1. Download and install LM studio from [lmstudio.ai](https://lmstudio.ai/).
 2. In LM Studio, go to the **Discover** tab to download a model.
-    - `mistralai/mistral-7b-instruct-v0.3` is a good model to try, as it can run on most computers.
+    - `mistralai/Ministral-8B-Instruct-2410` is a good model to try, as it can run on most computers.
     - Attempting to load a model unsupported by your system may result in an error.
 3. At the top of the LM Studio window, load the model that you downloaded.
 4. Go to the **Developer** tab. Click on the switch on the top left to start the server. It should now say "Status: Running".
