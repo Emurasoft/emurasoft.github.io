@@ -59,7 +59,6 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 - Click the **⋯** button or right-click on any message for additional options:
   - **Copy to Editor**: Inserts the text at the cursor position in the editor.
   - **Message Info**: Displays details about this message.
-- Code blocks contain programming code. In a code block, you can click on **⋯** for options to copy the code.
 
 ## Chat input
 * Enter your prompts in the input box at the bottom of the chat panel.
