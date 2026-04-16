@@ -102,14 +102,14 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 - **Tool Calling**
   - These EmEditor tools can be made accessible to the AI to read or modify your document.
   - Tool calling can be enabled from the chat input by clicking on the **Tools** button.
-- **User Interface**
-  - These settings customize the Chat with AI interface.
 - **Debug Log Options**
   - The debug log helps diagnose technical issues with the app.
-- **Update**
-  - Allows you to manually update the app.
 - **Reset Settings**
   - Deletes all chats or reset all settings to default.
+- **Update**
+  - Allows you to manually update the app.
+- **User Interface**
+  - These settings customize the Chat with AI interface.
 
 ## Uploaded files
 - To view uploaded files and vector stores, click the ⚙️ button in the sidebar and select **Uploaded Files**.
