@@ -111,11 +111,14 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 - **User Interface**
   - These settings customize the Chat with AI interface.
 
-## Uploaded files
+## Uploaded Files
 - To view uploaded files and vector stores, click the ⚙️ button in the sidebar and select **Uploaded Files**.
 - The dialog displays all files and vector stores associated with your account or organization. For each vector store, the associated chat and current status are also shown.
   - Expired vector stores do not incur storage costs.
 - You can select and delete files or vector stores from your account or organization.
+
+## Import and Export Chat
+- You can export your chat conversations to a file. This file can be imported to restore the conversations.
 
 ## LM Studio setup instructions
 The LM Studio integration requires initial setup. Follow these steps to set up LM Studio.
