@@ -94,6 +94,7 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
   - Adjust parameters for AI generation.
   - Chat completion and reasoning models are supported.
   - Read the providers' documentation for more details about each setting.
+    - [Anthropic](https://platform.claude.com/docs/en/api/typescript/messages/create) 
     - [Deepseek](https://api-docs.deepseek.com/api/create-chat-completion)
     - [Google](https://ai.google.dev/api/generate-content)
     - [OpenAI](https://platform.openai.com/docs/api-reference/chat/create)
