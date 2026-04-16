@@ -1,7 +1,6 @@
 # Half-Width/Full-Width Conversion dialog box
 
-This dialog box appears when the [**Half-Width/Full-Width Conversion** command](../../cmd/edit/convert) is selected. You can specify
-types of characters to convert and how to convert them.
+This dialog box appears when the [**Half-Width/Full-Width Conversion** command](../../cmd/edit/convert) is selected. You can specify types of characters to convert and how to convert them.
 
 ## Katakana checkbox
 

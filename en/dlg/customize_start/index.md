@@ -10,7 +10,7 @@ If this is checked, the Start window appears when EmEditor opens as a new docume
 
 If this is checked, the Start window appears when the Down key is pressed on a new document.
 
-## Prompt if the automatic workspace is not set when restoring previous workspace checkbox
+## Prompt if the automatic workspace is not set when restoring the previous workspace checkbox
 
 If this is checked, EmEditor shows the prompt message if the automatic workspace is not set when the **Restore Previous Workspace** button is clicked in the **Start** window.
 

@@ -1,13 +1,12 @@
 # Combine Lines dialog box
 
-This dialog box appears when the
-[**Combine Lines** command](../../cmd/csv/combine_lines) is selected. This command combines vertical adjacent duplicate cells.
+This dialog box appears when the [**Combine Lines** command](../../cmd/csv/combine_lines) is selected. This command combines vertical adjacent duplicate cells.
 
 ## Columns to inspect duplicates list box
 
 Displays the list of columns that can be specified to inspect duplicates.
 
-## Ignore Case checkbox
+## Ignore case checkbox
 
 If this box is checked, EmEditor ignores case when comparing vertical adjacent cells.
 
@@ -15,9 +14,9 @@ If this box is checked, EmEditor ignores case when comparing vertical adjacent c
 
 Displays the list of columns to combine.
 
-## String to Insert list box
+## String to insert text box
 
-You can specify the string to insert when combining lines.
+You can specify a string to insert when combining vertical adjacent duplicate cells.
 
 ## Remove empty strings checkbox
 
@@ -31,7 +30,7 @@ If this is checked, EmEditor removes duplicate strings when combining lines.
 
 If this is checked, EmEditor sorts strings with the specified sort condition.
 
-## How to Sort list box
+## How to sort list box
 
 Displays the list of defined sort conditions.
 
@@ -55,8 +54,4 @@ Displays the list of defined sort conditions.
 | Sort IPv6 Addresses Descending | Sorts IPv6 addresses in strings, in descending order. |
 | Sort Randomly | Sorts strings randomly. |
 | Sort Reverse | Sorts strings in reverse order. |
-
-## String to Insert text box
-
-Specifies a string to insert when combining vertical adjacent duplicate cells.
 

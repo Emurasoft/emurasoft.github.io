@@ -16,14 +16,11 @@ Click this button to display a list of predefined arguments.
 
 ## Encoding drop-down list box
 
-Select an encoding method when saving the file.
+Selects an encoding method when saving the file.
 
-## Newline Character drop-down list box
+## Newline character drop-down list box
 
-Specify how to save returns. **No Change** will not change the return
-styles. **CR+LF (Windows)** will change all returns to CR plus LF pairs. **CR only (Macintosh)** will change all returns to CRs. **LF only (Unix)**
-will change returns to LFs. Generally, Windows uses CR+LF for all returns.
-Macintosh uses CRs only, and Unix uses LFs only.
+Specifies how to save returns. **No Change** will not change the return styles. **CR+LF (Windows)** will change all returns to CR plus LF pairs. **CR only (Macintosh)** will change all returns to CRs. **LF only (Unix)** will change returns to LFs. Generally, Windows uses CR+LF for all returns. Macintosh uses CRs only, and Unix uses LFs only.
 
 ## Bookmarked lines only checkbox
 
@@ -33,7 +30,7 @@ If this is checked, only bookmarked lines will be saved.
 
 If this is checked, EmEditor will remove the first line from all source documents except the first document.
 
-## Prompt when Saving Unicode as ANSI checkbox
+## Prompt when saving Unicode as ANSI checkbox
 
 When saving a file as an encoding other than Unicode, Unicode big endian, or UTF-8, prompts if the document contains Unicode characters which cannot be converted to the specified encoding.
 
