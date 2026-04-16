@@ -63,7 +63,7 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 ## Chat input
 - Enter your prompts in the input box at the bottom of the chat panel.
 - Click **+ File** to upload a file.
-  - This feature is only available for Anthropic, Google, and OpenAI. File search incurs extra costs.
+  - This feature is only available for Google and OpenAI. File search incurs extra costs.
   - You can also click **Browse** to select a supported file using the file browser dialog.
   - When a file is uploaded, Chat with AI creates both a file and a vector store resources. The file can then be referenced during chat conversations.
   - Uploaded files are listed in the input area. Click a file to remove it, or right-click for additional options.
@@ -97,11 +97,11 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
     - [Deepseek](https://api-docs.deepseek.com/api/create-chat-completion)
     - [Google](https://ai.google.dev/api/generate-content)
     - [OpenAI](https://platform.openai.com/docs/api-reference/chat/create)
+- **Files**
+  - These options for the OpenAI file search feature control the expiration of files and vector stores.
 - **Tool Calling**
   - These EmEditor tools can be made accessible to the AI to read or modify your document.
   - Tool calling can be enabled from the chat input by clicking on the **Tools** button.
-- **Files**
-  - These options for the OpenAI file search feature control the expiration of files and vector stores.
 - **User Interface**
   - These settings customize the Chat with AI interface.
 - **Debug Log Options**
