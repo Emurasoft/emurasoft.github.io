@@ -1,3 +1,5 @@
 User-Agent: *
 Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
+
+Sitemap: https://www.emeditor.org/sitemap_index.xml
