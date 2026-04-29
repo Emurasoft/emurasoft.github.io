@@ -6,6 +6,7 @@
 | --- | --- |
 | [**AllowControlCharacter**](allow_control_character) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[制御文字の入力を許可\] チェック ボックスに相当します。 |
 | [**LineColumnMode**](line_column_mode) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[行、桁の表示方法\] ドロップダウン リスト ボックスに相当します。 |
+| [**LineNumbersZeroBase**](line_numbers_zero_base) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[0から始まる行、桁の番号を表示\] チェック ボックスに相当します。 |
 | [**MarginNormal**](margin_normal) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[普通行の文字数\] テキスト ボックスに相当します。 |
 | [**MarginQuote**](margin_quote) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[引用行の文字数\] テキスト ボックスに相当します。 |
 | [**NoSpaceEdge**](no_space_edge) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[ウィンドウ左端に空白を入れない\] チェック ボックスに相当します。 |
@@ -29,6 +30,7 @@ EmEditor Professional Version 7.00 以上で利用できます。
 :maxdepth: 1
 allow_control_character
 line_column_mode
+line_numbers_zero_base
 margin_normal
 margin_quote
 no_space_edge

@@ -6,6 +6,7 @@
 | --- | --- |
 | [AllowControlCharacter](allow_control_character) | Corresponds to the **Allow Insert Control Character** check box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
 | [LineColumnMode](line_column_mode) | Corresponds to the **Line and Column Display as drop-down** list box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
+| [LineNumbersZeroBase](line_numbers_zero_base) | Corresponds to the **Show zero-based line/column numbers checkbox** check box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
 | [MarginNormal](margin_normal) | Corresponds to the **Normal Line Margin** text box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
 | [MarginQuote](margin_quote) | Corresponds to the **Quoted Line Margin** text box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
 | [NoSpaceEdge](no_space_edge) | Corresponds to the **No Space at Left Edge of Window** check box in the [**General** page](../../dlg/properties/general/index) of Configuration Properties. |
@@ -29,6 +30,7 @@ Supported on EmEditor Professional Version 7.00 or later.
 :maxdepth: 1
 allow_control_character
 line_column_mode
+line_numbers_zero_base
 margin_normal
 margin_quote
 no_space_edge
