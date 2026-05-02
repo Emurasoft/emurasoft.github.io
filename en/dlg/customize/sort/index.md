@@ -64,7 +64,7 @@ Allows digit grouping in numbers. The digit grouping character depends on the lo
 
 ## The cursor moves to the correct position when sorting checkbox
 
-If this is checked, the cursor moves to the correct position when sorting. 
+If this is checked, the cursor moves to the correct position when sorting. However, the **Sort by Similarity** command will always causes the cursor to move to the correct position.
 
 ## Locale drop-down list box
 
