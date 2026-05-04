@@ -6,6 +6,7 @@
 | --- | --- |
 | [AllowControlCharacter](allow_control_character) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **允許插入控制字元** 核取方塊相對應。 |
 | [LineColumnMode](line_column_mode) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **行列顯示** 下拉清單方塊相對應。 |
+| [LineNumbersZeroBase](line_numbers_zero_base) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **顯示基底為 0 的行/欄號** 核取方塊相對應。 |
 | [MarginNormal](margin_normal) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **標準行邊距** 文字方塊相對應。 |
 | [MarginQuote](margin_quote) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **引用行邊距** 文字方塊相對應。 |
 | [NoSpaceEdge](no_space_edge) | 與組態屬性中 [**一般** 頁面](../../dlg/properties/general/index) 上的 **視窗左邊緣無可用空間** 核取方塊相對應。 |
@@ -29,6 +30,7 @@
 :maxdepth: 1
 allow_control_character
 line_column_mode
+line_numbers_zero_base
 margin_normal
 margin_quote
 no_space_edge

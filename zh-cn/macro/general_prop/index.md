@@ -6,6 +6,7 @@
 | --- | --- |
 | [AllowControlCharacter](allow_control_character) | 与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **允许插入控制字符** 复选框相对应。 |
 | [LineColumnMode](line_column_mode) | 与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **行列显示** 下拉列表框相对应。 |
+| [LineNumbersZeroBase](line_numbers_zero_base) | 与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **显示从 0 开始的行/列号** 复选框相对应。 |
 | [MarginNormal](margin_normal) | 与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **标准行边距** 文本框相对应。 |
 | [MarginQuote](margin_quote) | 与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **引用行边距** 文本框相对应。 |
 | [NoSpaceEdge](no_space_edge) | 与配置属性中 [**常规** 页面](../../dlg/properties/general/index) 上的 **窗口左边缘无可用空间** 复选框相对应。 |
@@ -29,6 +30,7 @@
 :maxdepth: 1
 allow_control_character
 line_column_mode
+line_numbers_zero_base
 margin_normal
 margin_quote
 no_space_edge
