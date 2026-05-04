@@ -10,7 +10,7 @@ Displays the list of encodings detected for the current file.
 
 Displays the preview of the file encoded with the selected encoding.
 
-## Open US-ASCII as System Default Encoding
+## Open US-ASCII as the system default encoding
 
-When the selected encoding is US-ASCII, this option opens the file as the System Default Encoding.
+When the selected encoding is US-ASCII, this option opens the file as the system default encoding.
 
