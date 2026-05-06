@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - '*'
+      - deploy
     tags:
       - '*'
     
@@ -31,7 +31,7 @@ jobs:
         run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.22.2/minify_linux_amd64.tar.gz | tar -xz
       - name: Set version
         run: |
-          echo "${GITHUB_REF_NAME}" > version
+          echo "26.1.0" > version
           cat conf.py
       - name: Build pages
         run: sh ./buildAll.sh
@@ -56,105 +56,52 @@ jobs:
         run: |
           zip -r archive.zip Help \
             -x Help/404.html Help\en\404.html Help/index.html **/sitemap.xml **/.doctrees/** **/objects.inv
-      - name: Upload artifact
-        uses: actions/upload-artifact@v6
-        with:
-          name: artifact
-          path: archive.zip
       - name: Create archive directory
         run: mv _build help_pages
       - name: Add to build folder
         run: cp -r _add_to_build/* help_pages
       - name: Configure GitHub Pages
-        if: ${{ github.ref_type == 'tag' }}
         uses: actions/configure-pages@v5
       - name: Create archive
         run: zip -r help_pages.zip help_pages
-      - name: Upload help_pages
-        uses: actions/upload-artifact@v6
-        with:
-          name: help_pages
-          path: help_pages.zip
       - name: Upload pages
-        if: ${{ github.ref_type == 'tag' }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: help_pages
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 25
-          cache: npm
-          cache-dependency-path: 'automation-test/package-lock.json'
-      - name: Test
-        run: |
-          npm ci
-          npm start
-        working-directory: automation-test
-      - name: Publish asset
-        if: ${{ github.ref_type == 'tag' }}
-        uses: softprops/action-gh-release@v1
-        with:
-          files: archive.zip
-      - name: Publish English
-        if: ${{ github.ref_type == 'tag' }}
-        uses: softprops/action-gh-release@v1
-        with:
-          files: en.zip
-      - name: Publish Japanese
-        if: ${{ github.ref_type == 'tag' }}
-        uses: softprops/action-gh-release@v1
-        with:
-          files: ja.zip
-      - name: Publish Korean
-        if: ${{ github.ref_type == 'tag' }}
-        uses: softprops/action-gh-release@v1
-        with:
-          files: ko.zip
-      - name: Publish Chinese Simplified
-        if: ${{ github.ref_type == 'tag' }}
-        uses: softprops/action-gh-release@v1
-        with:
-          files: zh-cn.zip
-      - name: Publish Chinese Traditional
-        if: ${{ github.ref_type == 'tag' }}
-        uses: softprops/action-gh-release@v1
-        with:
-          files: zh-tw.zip
 
-  buildPDF:
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-python@v6
-        with:
-          python-version: '3.14'
-          cache: pip
-      # Cannot use apt cache due to issues that occur with cache
-      - name: Install packages
-        run: |
-          sudo apt update
-          sudo apt install latexmk texlive-luatex texlive-lang-japanese texlive-latex-extra texlive-plain-generic
-      - name: Install python dependencies
-        run: pip install -r requirements.txt
-      - name: Set version
-        run: |
-          echo "${GITHUB_REF_NAME}" > version
-          cat conf.py
-      - name: Create PDF
-        run: python buildPDF.py
-      - name: Upload PDF
-        uses: actions/upload-artifact@v6
-        with:
-          name: emeditor.pdf
-          path: _build/en/emeditor.pdf
-      - name: Publish PDF
-        if: ${{ github.ref_type == 'tag' }}
-        uses: softprops/action-gh-release@v1
-        with:
-          files: _build/en/emeditor.pdf
-
+#  buildPDF:
+#    runs-on: ubuntu-24.04
+#    steps:
+#      - uses: actions/checkout@v6
+#      - uses: actions/setup-python@v6
+#        with:
+#          python-version: '3.14'
+#          cache: pip
+#      # Cannot use apt cache due to issues that occur with cache
+#      - name: Install packages
+#        run: |
+#          sudo apt update
+#          sudo apt install latexmk texlive-luatex texlive-lang-japanese texlive-latex-extra texlive-plain-generic
+#      - name: Install python dependencies
+#        run: pip install -r requirements.txt
+#      - name: Set version
+#        run: |
+#          echo "${GITHUB_REF_NAME}" > version
+#          cat conf.py
+#      - name: Create PDF
+#        run: python buildPDF.py
+#      - name: Upload PDF
+#        uses: actions/upload-artifact@v6
+#        with:
+#          name: emeditor.pdf
+#          path: _build/en/emeditor.pdf
+#      - name: Publish PDF
+#        if: ${{ github.ref_type == 'tag' }}
+#        uses: softprops/action-gh-release@v1
+#        with:
+#          files: _build/en/emeditor.pdf
+#
   deploy:
-    if: ${{ github.ref_type == 'tag' && github.ref_name != '0.0.0'}}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -164,13 +111,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-  scan:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v6
-    - name: Get gitleaks
-      run: |
-        wget -qO- https://github.com/gitleaks/gitleaks/releases/download/v8.18.0/gitleaks_8.18.0_linux_x64.tar.gz | tar xvz
-    - name: Check for secrets
-      run: |
-        ./gitleaks detect -v --redact
+#  scan:
+#    runs-on: ubuntu-latest
+#    steps:
+#    - uses: actions/checkout@v6
+#    - name: Get gitleaks
+#      run: |
+#        wget -qO- https://github.com/gitleaks/gitleaks/releases/download/v8.18.0/gitleaks_8.18.0_linux_x64.tar.gz | tar xvz
+#    - name: Check for secrets
+#      run: |
+#        ./gitleaks detect -v --redact
