@@ -125,7 +125,7 @@
 
 1. 从 [lmstudio.ai](https://lmstudio.ai/) 下载并安装 LM Studio。
 2. 在 LM Studio 中，前往 **Discover** 标签页下载模型。
-    - 推荐尝试 `mistralai/Ministral-8B-Instruct-2410` 模型，因为它可以在大多数电脑上运行。
+    - 推荐尝试 `qwen3-vl-8b` 模型，因为它可以在大多数电脑上运行。
     - 加载系统不支持的模型可能会导致错误。
 3. 在 LM Studio 窗口顶部，加载您下载的模型。
 4. 前往 **Developer** 标签页。点击左上角的开关以启动服务器，状态应显示为“Status: Running”。
