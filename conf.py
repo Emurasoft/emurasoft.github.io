@@ -18,7 +18,6 @@ html_css_files = ['custom.css']
 templates_path = ['_templates']
 html_copy_source = False
 html_favicon = '_static/favicon.png'
-sitemap_locales = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw']
 highlight_language = 'none'
 suppress_warnings = [
     'image.not_readable',
@@ -29,9 +28,13 @@ html_theme_path = ['_themes']
 html_theme = 'piccolo_theme'
 html_show_sphinx = False
 html_baseurl = 'https://help.emeditor.com/'
+smartquotes = False
+
+sitemap_locales = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw']
 sitemap_url_scheme = '{lang}{link}'
 sitemap_show_lastmod = True
-smartquotes = False
+sitemap_excludes = ['_static/logo-minified-margins.svg']
+
 latex_engine = 'lualatex'
 latex_elements = {
     'fontpkg': r'''
