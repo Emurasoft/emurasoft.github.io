@@ -22,6 +22,7 @@ highlight_language = 'none'
 suppress_warnings = [
     'image.not_readable',
     'myst.header',
+    'git.dependency_not_found'
 ]
 navigation_depth = 2
 html_theme_path = ['_themes']
@@ -33,7 +34,6 @@ smartquotes = False
 sitemap_locales = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw']
 sitemap_url_scheme = '{lang}{link}'
 sitemap_show_lastmod = True
-git_untracked_check_dependencies = False
 
 latex_engine = 'lualatex'
 latex_elements = {
