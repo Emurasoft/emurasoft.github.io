@@ -30,6 +30,7 @@ html_theme = 'piccolo_theme'
 html_show_sphinx = False
 html_baseurl = 'https://help.emeditor.com/'
 sitemap_url_scheme = '{lang}{link}'
+sitemap_show_lastmod = True
 smartquotes = False
 latex_engine = 'lualatex'
 latex_elements = {
