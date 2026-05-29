@@ -1,6 +1,6 @@
 # Proxy page
 
-The **Proxy** page allows you to customize settings related to the proxy connection. EmEditor will use the proxy settings on this page to connect to `support.emeditor.com` via HTTP and HTTPS, and if using AI features, it will use the proxy settings to connect to `api.openai.com`.
+The **Proxy** page allows you to customize settings related to the proxy connection. EmEditor will use the proxy settings on this page to connect to `support.emeditor.com` via HTTP and HTTPS. If you installed ChatAI, these proxy settings will be used to connect to AI services.
 
 ## No proxy radio button
 
