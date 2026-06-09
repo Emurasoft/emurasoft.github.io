@@ -6,6 +6,26 @@ On the **AI Prompts**  page allows you to customize settings related to AI promp
 
 Selects the AI prompt you want to edit.
 
+## Set second provider/model checkbox
+
+Specifies a second provider/model, so you can send the same prompt to two AIs at the same time. You can also compare the responses from the two AIs side by side in a split view. You cannot set this option if the Image is selected for the **Output** drop-down list box.
+
+## Provider 1 checkbox
+
+Specifies a different provider from default. If you set this option, select the provider you want to use from the drop-down list box below. Only OpenAI is supported for images.
+
+## Model 1 checkbox
+
+Specifies a different model from default. If you set this option, select the model you want to use from the drop-down list box below.
+
+## Provider 2 checkbox
+
+If the Set second provider/model checkbox is set, specifies a different provider from default. If you set this option, select the provider you want to use from the drop-down list box below.
+
+## Model 2 checkbox
+
+If the Set second provider/model checkbox is set, specifies a different model from default. If you set this option, select the model you want to use from the drop-down list box below.
+
 ## Prompt text box
 
 Enters the prompt.
@@ -51,14 +71,6 @@ Sets the AI’s temperature. Higher values make its output more random.
 ## Image size drop-down list box
 
 If you selected the **Generate Image** from the **Output** drop-down list box, you can select the image size to be generated.
-
-## HD checkbox
-
-If you selected the **Generate Image** from the **Output** drop-down list box, you can also choose to create a high resolution image.
-
-## Vivid checkbox
-
-If you selected the **Generate Image** from the **Output** drop-down list box, you can also choose to create a vivid image.
 
 ## Save to Chat with AI checkbox
 

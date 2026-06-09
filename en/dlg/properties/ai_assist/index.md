@@ -8,7 +8,19 @@ If this is checked, EmEditor will enable AI assisted writing.
 
 ## Show suggestions only on Ctrl+Space checkbox
 
-If this is checked, EmEditor will only show suggestions when you press the shortcut key, Ctrl+Space, which helps reduce the frequency of OpenAI API calls.
+If this is checked, EmEditor will only show suggestions when you press the shortcut key, Ctrl+Space, which helps reduce the frequency of AI calls.
+
+## Show suggestions only when confident checkbox
+
+If this is checked, the Confidence level slider becomes enabled.
+
+## Set the temperature checkbox
+
+If this is checked, the temperature parameter becomes enabled to adjust the randomness. Not all AI models support this parameter.
+
+## Don't show suggestions after any of the following checkbox
+
+If this is checked, EmEditor will not show suggestions when the cursor is after any of the following characters.
 
 ## Confidence level slider
 
@@ -21,6 +33,14 @@ Use this slider to adjust the input length. Using longer input text for predicti
 ## Output length slider
 
 Use this slider to adjust the output length. Longer output text results in more words being suggested.
+
+## Delay time slider
+
+Use this slider to adjust the delay time. A longer delay time makes suggestions appear more slowly.
+
+## Additional instructions text box
+
+Specifies additional instructions. For example, "Use JavaScript" or "Write politely".
 
 ## Reset button
 
