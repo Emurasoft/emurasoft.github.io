@@ -1,6 +1,6 @@
 # “网络代理”页面
 
-**网络代理**页面允许您自定义与代理连接相关的设置。EmEditor 将使用此页面上的代理服务器设置通过 HTTP 和 HTTPS 连接到 `support.emeditor.com`，如果使用 AI 功能，它将使用代理服务器设置连接到 `api.openai.com`。
+**网络代理**页面允许您自定义与代理连接相关的设置。EmEditor 将使用此页面上的代理服务器设置通过 HTTP 和 HTTPS 连接到 `support.emeditor.com`。如果您安装了 ChatAI，这些代理设置将用于连接到 AI 服务。
 
 ## “无代理”单选按钮
 

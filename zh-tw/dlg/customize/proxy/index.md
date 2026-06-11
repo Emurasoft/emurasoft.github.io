@@ -1,6 +1,6 @@
 # 「代理伺服器」頁面
 
-**代理伺服器**頁面允許您自訂與代理連線相關的設定。EmEditor 將使用此頁面上的代理伺服器設定通過 HTTP 和 HTTPS 連線到 `support.emeditor.com`，如果使用 AI 功能，它將使用代理伺服器設定連線到 `api.openai.com`。
+**代理伺服器**頁面允許您自訂與代理連線相關的設定。EmEditor 將使用此頁面上的代理伺服器設定通過 HTTP 和 HTTPS 連線到 `support.emeditor.com`。如果您已安裝 ChatAI，將會使用這些代理伺服器設定來連線至 AI 服務。
 
 ## 「無代理」選項按鈕
 
