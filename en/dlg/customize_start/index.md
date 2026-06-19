@@ -62,3 +62,6 @@ If this is checked, the Start window includes Update Checker. This option will n
 
 If this is checked, the Start window includes Update Checker only when new versions become available for updates even if the **Show update checker** checkbox is set.
 
+## Show language/icon options checkbox
+
+If this is checked, the Start window includes Language/Icon options.
