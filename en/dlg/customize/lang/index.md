@@ -1,6 +1,6 @@
-# Language page
+# Language/Icon page
 
-The **Language** page allows you to customize the language used for menus and dialog boxes.
+The **Language/Icon** page allows you to customize the language and icon used for menus and dialog boxes.
 
 ## Use System Language radio button
 
@@ -29,7 +29,7 @@ Displays the version for the currently selected language.
 
 ## Current icon drop-down list box
 
-Specifies EmEditor's icon.
+Specifies EmEditor's icon. Note: The Store version of EmEditor cannot change the icon on the Taskbar.
 
 ## Reset button
 
