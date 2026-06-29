@@ -22,10 +22,6 @@ Displays an EmEditor tray icon next time EmEditor launches.
 
 Quickly launches EmEditor while the EmEditor tray icon is displayed. If this is checked, a hidden EmEditor window launches at the same time as the EmEditor tray icon. When you start EmEditor, the hidden EmEditor window switches to the visible state, and EmEditor appears to launch quickly.
 
-## Add EmEditor to HTML editor list on web browsers checkbox
-
-Adds EmEditor to the HTML editor list used by Web browsers.
-
 ## Add a shortcut to the context menu in Explorer checkbox
 
 Adds a shortcut to the context menu in Explorer.
