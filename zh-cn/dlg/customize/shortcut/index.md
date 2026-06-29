@@ -18,13 +18,9 @@
 
 显示一个托盘图标当 EmEditor 下次启动时。
 
-## “EmEditor 的高速启动”复选框
+## “EmEditor 的快速启动”复选框
 
-高速启动 EmEditor 当 EmEditor 托盘图标显示时。如果勾选了该复选框，一个隐藏的 EmEidtor 窗口在会在 EmEditor 托盘图标显示的同时运行。当你启动 EmEditor 时，这个隐藏的 EmEidtor 窗口会变为可见的状态，迅速打开 EmEditor。
-
-## “将 EmEditor 添加到网页浏览器的 HTML 编辑器列表中”复选框
-
-将 EmEditor 添加到网页浏览器使用的 HTML 编辑器列表中。
+快速启动 EmEditor 当 EmEditor 托盘图标显示时。如果勾选了该复选框，一个隐藏的 EmEidtor 窗口在会在 EmEditor 托盘图标显示的同时运行。当你启动 EmEditor 时，这个隐藏的 EmEidtor 窗口会变为可见的状态，迅速打开 EmEditor。
 
 ## “添加一个快捷方式到资源管理器的上下文菜单”复选框
 

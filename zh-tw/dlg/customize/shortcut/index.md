@@ -18,13 +18,9 @@
 
 顯示一個系統匣圖示當 EmEditor 下次啟動時。
 
-## 「EmEditor 的高速啟動」核取方塊
+## 「EmEditor 的快速啟動」核取方塊
 
-高速啟動 EmEditor 當 EmEditor 系統匣圖示顯示時。如果勾選了該核取方塊，一個隱藏的 EmEidtor 視窗在會在 EmEditor 系統匣圖示顯示的同時運行。當您啟動 EmEditor 時，這個隱藏的 EmEidtor 視窗會變為可見的狀態，迅速打開 EmEditor。
-
-## 「將 EmEditor 添加至網頁瀏覽器的 HTML 編輯器清單」核取方塊
-
-將 EmEditor 添加至網頁瀏覽器使用的 HTML 編輯器清單中。
+快速啟動 EmEditor 當 EmEditor 系統匣圖示顯示時。如果勾選了該核取方塊，一個隱藏的 EmEidtor 視窗在會在 EmEditor 系統匣圖示顯示的同時運行。當您啟動 EmEditor 時，這個隱藏的 EmEidtor 視窗會變為可見的狀態，迅速打開 EmEditor。
 
 ## 「添加一個捷徑至檔案總管的內容功能表中」核取方塊
 
