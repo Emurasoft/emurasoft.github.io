@@ -24,7 +24,7 @@ Displays the description for the selected command.
 
 ## Custom icon checkbox
 
-Customizes the icon for the selected command.
+Customizes the icon for the selected command. You can specify an icon for My Macros using the [#icon directive](../../../../macro/directive/icon.md) in the macro file.
 
 ## Sample icon from this file checkbox and text box
 
