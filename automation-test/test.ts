@@ -1,5 +1,5 @@
 import {Builder, logging} from 'selenium-webdriver';
-import * as chrome from 'selenium-webdriver/chrome'
+import * as chrome from 'selenium-webdriver/chrome.js'
 import {resolve} from 'path';
 import {strict as assert} from 'assert';
 
