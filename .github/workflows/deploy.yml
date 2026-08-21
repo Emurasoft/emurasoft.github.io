@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Get minify
-        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.22.2/minify_linux_amd64.tar.gz | tar -xz
+        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.24.17/minify_linux_amd64.tar.gz | tar -xz
       - name: Set version
         run: |
           echo "${GITHUB_REF_NAME}" > version
