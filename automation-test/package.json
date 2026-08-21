@@ -1,12 +1,12 @@
 {
+  "type": "module",
   "scripts": {
-    "start": "ts-node test.ts"
+    "start": "node test.ts"
   },
   "dependencies": {
-    "selenium-webdriver": "^4.40.0",
-    "ts-node": "^10.9.2"
+    "selenium-webdriver": "^4.47.0"
   },
   "devDependencies": {
-    "@types/selenium-webdriver": "^4.35.5"
+    "@types/selenium-webdriver": "^4.35.6"
   }
 }
