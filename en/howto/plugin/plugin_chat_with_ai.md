@@ -148,17 +148,16 @@ MCP (Model Context Protocol) lets AI connect to external services. In the **MCP 
 
 - Click **+ Add MCP Connector** to connect to an new MCP server.
   1. First, paste your MCP server configuration JSON into the text box. This is an example of a configuration JSON:
-    
-    ```json
-      {
-        "mcpServers": {
-          "cloudflare-api": {
-            "url": "https://mcp.cloudflare.com/mcp"
-          }
-        }
-      }
-    ```
-  
-    - STDIO and SSE connections are currently not supported. HTTP servers are supported as well as authentication with OAuth 2. Custom headers can be included in the configuration.
-  2. If the server requires OAuth authentication, it will ask you to sign into the service at this point.
-  3. Finally, you can add a display name for the MCP connector. Once added, the MCP connector is available to use on a new chat.
+     ```json
+     {
+       "mcpServers": {
+         "cloudflare-api": {
+           "url": "https://mcp.cloudflare.com/mcp"
+         }
+       }
+     }
+     ```
+    - Currently, only HTTP servers are supported (STDIO and SSE connections are not supported). You can include custom headers in the configuration. OAuth 2.0 authentication is also supported.
+
+  2. If the server requires OAuth authentication, you will be prompted to sign into the service using your web browser.
+  3. Enter a name for the MCP connector. Once the connector is added, it will be available to use in a new chat.
