@@ -62,15 +62,17 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 
 ## Chat input
 - Enter your prompts in the input box at the bottom of the chat panel.
-- Click **+ File** to upload a file.
+- Click the **Upload file** button to upload a file.
   - This feature is only available for Google and OpenAI. File search incurs extra costs.
-  - You can also click **Browse** to select a supported file using the file browser dialog.
-  - When a file is uploaded, Chat with AI creates both a file and a vector store resources. The file can then be referenced during chat conversations.
-  - Uploaded files are listed in the input area. Click a file to remove it, or right-click for additional options.
-  - Referencing uploaded files typically consumes fewer tokens than copying and pasting the file contents directly into the chat.
-- Enable **Tools** to use the tool-calling feature. These EmEditor tools can be used by the AI to read or modify your document.
-  - Hover over **Tools** and select **Settings** to view and configure the available tools.
+  - Click **Browse** to select a supported file using the file browser dialog.
+  - When a file is uploaded, Chat with AI creates both the file and a vector store resource. The file can then be referenced during your chat conversations.
+  - Uploaded files are listed below the input field. Click a file to remove it, or right-click for additional options.
+  - Referencing uploaded files typically consumes fewer tokens than copying and pasting file contents directly into the chat.
+- Click the **AI model name** to change per-chat settings.
+  - Changes made here are applied only to the current chat session. To adjust global settings, use the **Settings** button in the sidebar.
+- Click the 🔨 (**Tools**) button to view settings for tool calling. These EmEditor tools allow the AI to read or modify your document.
   - Using tools will incur additional token costs.
+- Click the 🔌 (**MCP**) button to open the MCP connector settings. MCP connectors are explained in a separate section.
 
 ## Sidebar
 - Conversations are listed in the sidebar. Click on **+ New chat** to create a new chat that contains a different conversation. Responses in a chat will use the context of messages in that chat conversation only.
@@ -99,6 +101,8 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
     - [OpenAI](https://platform.openai.com/docs/api-reference/chat/create)
 - **Files**
   - These options for the OpenAI file search feature control the expiration of files and vector stores.
+- **MCP Connectors**
+  - MCP connectors are used to connect to external services. MCP is explained in a separate section.
 - **Tool Calling**
   - These EmEditor tools can be made accessible to the AI to read or modify your document.
   - Tool calling can be enabled from the chat input by clicking on the **Tools** button.
@@ -137,3 +141,23 @@ The LM Studio integration requires initial setup. Follow these steps to set up L
 9. Go back to **AI Connection**, and click **Test Connection** to ensure that it can connect to LM Studio.
 
 - Each time you restart your computer, the LM Studio service starts automatically. However, you’ll need to manually load a model before you can use it in Chat with AI.
+
+## MCP connectors
+
+MCP (Model Context Protocol) lets AI connect to external services. In the **MCP Connectors** settings page, you can toggle the switch next to a connector to enable or disable it.
+
+- Click **+ Add MCP Connector** to connect to an new MCP server.
+  1. First, paste your MCP server configuration JSON into the text box. This is an example of a configuration JSON:
+     ```json
+     {
+       "mcpServers": {
+         "cloudflare-api": {
+           "url": "https://mcp.cloudflare.com/mcp"
+         }
+       }
+     }
+     ```
+    - Currently, only HTTP servers are supported (STDIO and SSE connections are not supported). You can include custom headers in the configuration. OAuth 2.0 authentication is also supported.
+
+  2. If the server requires OAuth authentication, you will be prompted to sign into the service using your web browser.
+  3. Enter a name for the MCP connector. Once the connector is added, it will be available to use in a new chat.
