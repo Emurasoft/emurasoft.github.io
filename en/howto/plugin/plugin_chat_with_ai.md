@@ -62,15 +62,17 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
 
 ## Chat input
 - Enter your prompts in the input box at the bottom of the chat panel.
-- Click **+ File** to upload a file.
+- Click the **Upload file** button to upload a file.
   - This feature is only available for Google and OpenAI. File search incurs extra costs.
-  - You can also click **Browse** to select a supported file using the file browser dialog.
+  - You can click **Browse** to select a supported file using the file browser dialog.
   - When a file is uploaded, Chat with AI creates both a file and a vector store resources. The file can then be referenced during chat conversations.
-  - Uploaded files are listed in the input area. Click a file to remove it, or right-click for additional options.
+  - Uploaded files are listed below. Click a file to remove it, or right-click for additional options.
   - Referencing uploaded files typically consumes fewer tokens than copying and pasting the file contents directly into the chat.
-- Enable **Tools** to use the tool-calling feature. These EmEditor tools can be used by the AI to read or modify your document.
-  - Hover over **Tools** and select **Settings** to view and configure the available tools.
+- Click the AI model name to see per-chat settings.
+  - Any changes made to the settings here only get applied to the current chat. If you want to change global settings, use the **Settings** button in the sidebar.
+- Click the 🔨 (**Tools**) button to see settings for tool calling. These EmEditor tools can be used by the AI to read or modify your document.
   - Using tools will incur additional token costs.
+- Click the 🔌 (**MCP**) button to see MCP connector settings. MCP connectors are explained in a seperate section.
 
 ## Sidebar
 - Conversations are listed in the sidebar. Click on **+ New chat** to create a new chat that contains a different conversation. Responses in a chat will use the context of messages in that chat conversation only.
