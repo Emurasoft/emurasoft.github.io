@@ -101,6 +101,8 @@ To start using Chat with AI, create and copy an API key from one of these AI pro
     - [OpenAI](https://platform.openai.com/docs/api-reference/chat/create)
 - **Files**
   - These options for the OpenAI file search feature control the expiration of files and vector stores.
+- **MCP Connectors**
+  - MCP connectors are used to connect to external services. MCP is explained in a separate section.
 - **Tool Calling**
   - These EmEditor tools can be made accessible to the AI to read or modify your document.
   - Tool calling can be enabled from the chat input by clicking on the **Tools** button.
