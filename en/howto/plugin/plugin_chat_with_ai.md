@@ -141,3 +141,24 @@ The LM Studio integration requires initial setup. Follow these steps to set up L
 9. Go back to **AI Connection**, and click **Test Connection** to ensure that it can connect to LM Studio.
 
 - Each time you restart your computer, the LM Studio service starts automatically. However, you’ll need to manually load a model before you can use it in Chat with AI.
+
+## MCP connectors
+
+MCP (Model Context Protocol) lets AI connect to external services. In the **MCP Connectors** settings page, you can toggle the switch next to a connector to enable or disable it.
+
+- Click **+ Add MCP Connector** to connect to an new MCP server.
+  1. First, paste your MCP server configuration JSON into the text box. This is an example of a configuration JSON:
+    
+    ```json
+      {
+        "mcpServers": {
+          "cloudflare-api": {
+            "url": "https://mcp.cloudflare.com/mcp"
+          }
+        }
+      }
+    ```
+  
+    - STDIO and SSE connections are currently not supported. HTTP servers are supported as well as authentication with OAuth 2. Custom headers can be included in the configuration.
+  2. If the server requires OAuth authentication, it will ask you to sign into the service at this point.
+  3. Finally, you can add a display name for the MCP connector. Once added, the MCP connector is available to use on a new chat.
