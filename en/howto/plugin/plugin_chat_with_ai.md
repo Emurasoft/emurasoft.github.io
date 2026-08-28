@@ -158,6 +158,10 @@ MCP (Model Context Protocol) lets AI connect to external services. In the **MCP 
      }
      ```
     - Currently, only HTTP servers are supported (STDIO and SSE connections are not supported). You can include custom headers in the configuration. OAuth 2.0 authentication is also supported.
+    - You can also paste the MCP configuration in the form of a Claude CLI command, such as:
+      ```
+        claude mcp add --transport http stripe https://mcp.stripe.com/
+      ```
 
   2. If the server requires OAuth authentication, you will be prompted to sign into the service using your web browser.
   3. Enter a name for the MCP connector. Once the connector is added, it will be available to use in a new chat.
