@@ -7,13 +7,13 @@ Returns the horizontal position of the scroll bar.
 ### \[JavaScript\]
 
 ```
-xPos =scrollX;
+xPos = scrollX;
 ```
 
 ### \[VBScript\]
 
 ```
-xPos =scrollX
+xPos = scrollX
 ```
 
 ## Version

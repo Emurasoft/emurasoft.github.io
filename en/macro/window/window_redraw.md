@@ -7,14 +7,14 @@ Allows changes in EmEditor to be redrawn or prevents changes in EmEditor from be
 ### \[JavaScript\]
 
 ```
-b =Redraw;
+b = Redraw;
 Redraw = b;
 ```
 
 ### \[VBScript\]
 
 ```
-b =Redraw
+b = Redraw
 Redraw = b;
 ```
 

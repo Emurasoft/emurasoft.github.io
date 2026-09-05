@@ -7,13 +7,13 @@ Returns the [**clipboardData** Object](../clipboarddata/index).
 ### \[JavaScript\]
 
 ```
-clip =clipboardData;
+clip = clipboardData;
 ```
 
 ### \[VBScript\]
 
 ```
-Set clip =clipboardData
+Set clip = clipboardData
 ```
 
 ## Version

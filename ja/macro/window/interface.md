@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-obj =Interface;
+obj = Interface;
 ```
 
 ### \[VBScript\]
 
 ```
-Set obj =Interface
+Set obj = Interface
 ```
 
 ## バージョン

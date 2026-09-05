@@ -7,13 +7,13 @@ Returns the [**DroppedFiles** Object](../dropped_files/index).
 ### \[JavaScript\]
 
 ```
-obj =DroppedFiles;
+obj = DroppedFiles;
 ```
 
 ### \[VBScript\]
 
 ```
-Set obj =DroppedFiles
+Set obj = DroppedFiles
 ```
 
 ## Version

@@ -7,13 +7,13 @@ Returns the [**Interface** Object](../interface/index).
 ### \[JavaScript\]
 
 ```
-obj =Interface;
+obj = Interface;
 ```
 
 ### \[VBScript\]
 
 ```
-Set obj =Interface
+Set obj = Interface
 ```
 
 ## Version

@@ -7,13 +7,13 @@ Retrieves only the file name of the currently running macro file.
 ### \[JavaScript\]
 
 ```
-str =ScriptName;
+str = ScriptName;
 ```
 
 ### \[VBScript\]
 
 ```
-str =ScriptName
+str = ScriptName
 ```
 
 ## Version

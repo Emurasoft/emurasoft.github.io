@@ -7,13 +7,13 @@ Returns the [Editor Object](../editor/index).
 ### \[JavaScript\]
 
 ```
-app =editor;
+app = editor;
 ```
 
 ### \[VBScript\]
 
 ```
-Set app =editor
+Set app = editor
 ```
 
 ## Version

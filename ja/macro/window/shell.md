@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-shl =shell;
+shl = shell;
 ```
 
 ### \[VBScript\]
 
 ```
-Set shl =shell
+Set shl = shell
 ```
 
 ## バージョン

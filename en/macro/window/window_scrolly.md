@@ -7,13 +7,13 @@ Returns the vertical position of the scroll bar.
 ### \[JavaScript\]
 
 ```
-yPos =scrollY;
+yPos = scrollY;
 ```
 
 ### \[VBScript\]
 
 ```
-yPos =scrollY
+yPos = scrollY
 ```
 
 ## Version

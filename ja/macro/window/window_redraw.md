@@ -7,14 +7,14 @@
 ### \[JavaScript\]
 
 ```
-b =Redraw;
+b = Redraw;
 Redraw = b;
 ```
 
 ### \[VBScript\]
 
 ```
-b =Redraw
+b = Redraw
 Redraw = b
 ```
 

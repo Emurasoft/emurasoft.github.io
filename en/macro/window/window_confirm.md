@@ -8,13 +8,13 @@ button.
 ### \[JavaScript\]
 
 ```
-bAnswer =confirm( strQuestion, strMessage2);
+bAnswer = confirm( strQuestion, strMessage2 );
 ```
 
 ### \[VBScript\]
 
 ```
-bAnswer =confirm( strQuestion, strMessage2 )
+bAnswer = confirm( strQuestion, strMessage2 )
 ```
 
 ## Parameters

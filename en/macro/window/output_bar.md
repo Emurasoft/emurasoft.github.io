@@ -7,13 +7,13 @@ Returns the [OutputBar Object](../output_bar/index).
 ### \[JavaScript\]
 
 ```
-outbar =OutputBar;
+outbar = OutputBar;
 ```
 
 ### \[VBScript\]
 
 ```
-Set outbar =OutputBar
+Set outbar = OutputBar
 ```
 
 ## Version

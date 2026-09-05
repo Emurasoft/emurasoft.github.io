@@ -27,6 +27,8 @@
 | **[ReadOnly](document_readonly)** | Sets the Read-Only status of the document. |
 | **[Saved](document_saved)** | Retrieves or sets the flag indicating whether the document has been modified since last being saved or opened. |
 | **[selection](document_selection)** | Retrieves the Selection Object. |
+| **[Text](text)** | Retrieves the document text. |
+| **[TextLength](text_length)** | Retrieves the length of the document text. |
 | **[Title](title)** | Retrieves or sets the title of the document. |
 | **[UnicodeSignature](document_unicodesignature)** | Retrieves or sets the flag indicating whether EmEditor should add the Unicode signature (BOM) next time it saves the document. |
 | **[Untitled](untitled)** | Retrieves a flag indicating whether the document is untitled. |
@@ -139,6 +141,8 @@ setcell
 setcolumn
 sort
 split_column
+text
+text_length
 title
 unpivot
 untitled

@@ -7,7 +7,7 @@ Scrolls the window by the specified relative amount.
 ### \[JavaScript\]
 
 ```
-scrollBy( dx, dy);
+scrollBy( dx, dy );
 ```
 
 ### \[VBScript\]

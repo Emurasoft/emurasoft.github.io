@@ -7,14 +7,14 @@ Retrieves or sets a string displayed on the status bar.
 ### \[JavaScript\]
 
 ```
-str =status;
+str = status;
 status = str;
 ```
 
 ### \[VBScript\]
 
 ```
-str =status
+str = status
 status = str
 ```
 

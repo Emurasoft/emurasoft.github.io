@@ -7,14 +7,14 @@ Returns the flag to indicate whether EmEditor discards undo information to impro
 ### \[JavaScript\]
 
 ```
-b =DiscardUndo;
+b = DiscardUndo;
 DiscardUndo = b;
 ```
 
 ### \[VBScript\]
 
 ```
-b =DiscardUndo
+b = DiscardUndo
 DiscardUndo = b
 ```
 

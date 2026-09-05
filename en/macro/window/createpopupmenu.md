@@ -7,13 +7,13 @@ Creates a popup menu.
 ### \[JavaScript\]
 
 ```
-popupmenu =CreatePopupMenu();
+popupmenu = CreatePopupMenu();
 ```
 
 ### \[VBScript\]
 
 ```
-Set popupmenu =CreatePopupMenu
+Set popupmenu = CreatePopupMenu
 ```
 
 ## Return Values

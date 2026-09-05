@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-xPos =scrollX;
+xPos = scrollX;
 ```
 
 ### \[VBScript\]
 
 ```
-xPos =scrollX
+xPos = scrollX
 ```
 
 ## バージョン

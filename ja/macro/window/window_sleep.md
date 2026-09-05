@@ -7,7 +7,7 @@
 ### \[JavaScript\]
 
 ```
-Sleep( nMilliseconds);
+Sleep( nMilliseconds );
 ```
 
 ### \[VBScript\]

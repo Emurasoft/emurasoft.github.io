@@ -7,14 +7,14 @@ EmEditor が置換、挿入、削除の速度を改善するために元に戻�
 ### \[JavaScript\]
 
 ```
-b =DiscardUndo;
+b = DiscardUndo;
 DiscardUndo = b;
 ```
 
 ### \[VBScript\]
 
 ```
-b =DiscardUndo
+b = DiscardUndo
 DiscardUndo = b
 ```
 

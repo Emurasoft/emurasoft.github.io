@@ -7,14 +7,14 @@ Specifies the undo/redo history to be combined or not combined.
 ### \[JavaScript\]
 
 ```
-b =CombineHistory;
+b = CombineHistory;
 CombineHistory = b;
 ```
 
 ### \[VBScript\]
 
 ```
-b =CombineHistory
+b = CombineHistory
 CombineHistory = b;
 ```
 

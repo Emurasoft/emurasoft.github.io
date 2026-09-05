@@ -7,7 +7,7 @@
 ### \[JavaScript\]
 
 ```
-scrollTo( x, y);
+scrollTo( x, y );
 ```
 
 ### \[VBScript\]

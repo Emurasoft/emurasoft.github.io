@@ -27,6 +27,8 @@
 | [ReadOnly](document_readonly) | 文書が書き換え禁止状態かどうかを取得、または設定します。 |
 | [Saved](document_saved) | 文書を前回保存または開いた後に変更されているかどうかを示すフラグを取得、または設定します。 |
 | [selection](document_selection) | Selection オブジェクトを取得します。 |
+| [Text](text) | 文書のテキストを取得します。 |
+| [TextLength](text_length) | 文書のテキストの長さを取得します。 |
 | [Title](title) | 文書のタイトルを取得、または設定します。 |
 | [UnicodeSignature](document_unicodesignature) | 次に保存する時に Unicode サイン (BOM) を付けるかどうかを取得、または設定します。 |
 | [Untitled](untitled) | 無題かどうかを示すフラグを取得します。 |
@@ -139,6 +141,8 @@ setcell
 setcolumn
 sort
 split_column
+text
+text_length
 title
 unpivot
 untitled

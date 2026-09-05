@@ -14,7 +14,8 @@ document.Title = strTitle;
 ### \[VBScript\]
 
 ```
-strTitle = document.Title document.Title = strTitle
+strTitle = document.Title
+document.Title = strTitle
 ```
 
 ## Examples
