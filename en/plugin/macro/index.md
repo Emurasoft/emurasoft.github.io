@@ -79,6 +79,7 @@
 | [Editor\_GetSelTypeEx](editor_getseltypeex) | Obtains the type of selection status. |
 | [Editor\_GetStatusA](editor_getstatusa) | Retrieves the ANSI text displayed on the status bar. |
 | [Editor\_GetStatusW](editor_getstatusw) | Retrieves the Unicode text displayed on the status bar. |
+| [Editor\_GetTextW](editor_gettextw) | Retrieves the document text. |
 | [Editor\_GetUnicodeName](editor_getunicodename) | Retrieves the Unicode name of the specified character or string. |
 | [Editor\_GetVersion](editor_getversion) | Returns the version number. |
 | [Editor\_GetWord](editor_getword) | Retrieves a word at the cursor position. |
@@ -243,6 +244,7 @@ editor_getseltype
 editor_getseltypeex
 editor_getstatusa
 editor_getstatusw
+editor_gettextw
 editor_getunicodename
 editor_getversion
 editor_getword

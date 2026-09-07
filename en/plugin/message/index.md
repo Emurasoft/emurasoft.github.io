@@ -62,6 +62,7 @@
 | [EE\_GET\_SEL\_TYPE](ee_get_sel_type) | Obtains the type of selection status. |
 | [EE\_GET\_STATUSA](ee_get_statusa) | Retrieves the ANSI text displayed on the status bar. |
 | [EE\_GET\_STATUSW](ee_get_statusw) | Retrieves the Unicode text displayed on the status bar. |
+| [EE\_GET\_TEXTW](ee_get_textw) | Retrieves the document text. |
 | [EE\_GET\_UNICODE\_NAME](ee_get_unicode_name) | Retrieves the Unicode name of the specified character or string. |
 | [EE\_GET\_VERSION](ee_get_version) | Returns the version number. |
 | [EE\_GET\_WORD](ee_get_word) | Returns a word at the cursor position. |
@@ -220,6 +221,7 @@ ee_get_sel_textw
 ee_get_sel_type
 ee_get_statusa
 ee_get_statusw
+ee_get_textw
 ee_get_unicode_name
 ee_get_version
 ee_get_word
