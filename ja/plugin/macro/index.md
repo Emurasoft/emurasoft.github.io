@@ -79,6 +79,7 @@
 | [Editor\_GetSelTypeEx](editor_getseltypeex) | 選択状態の種類を取得します |
 | [Editor\_GetStatusA](editor_getstatusa) | ステータス バーに表示されている文字列をANSIで取得します。 |
 | [Editor\_GetStatusW](editor_getstatusw) | ステータス バーに表示されている文字列をUnicodeで取得します。 |
+| [Editor\_GetTextW](editor_gettextw) | 文書のテキストを取得します。 |
 | [Editor\_GetUnicodeName](editor_getunicodename) | 指定された文字または文字列のUnicode名を取得します。 |
 | [Editor\_GetWord](editor_getword) | カーソル位置の単語を返します。 |
 | [Editor\_GetVersion](editor_getversion) | バージョン番号を返します。 |
@@ -243,6 +244,7 @@ editor_getseltype
 editor_getseltypeex
 editor_getstatusa
 editor_getstatusw
+editor_gettextw
 editor_getunicodename
 editor_getversion
 editor_getword

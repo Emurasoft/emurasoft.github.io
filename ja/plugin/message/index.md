@@ -64,6 +64,7 @@
 | [EE\_GET\_SEL\_TYPE](ee_get_sel_type) | 選択状態の種類を取得します。 |
 | [EE\_GET\_STATUSA](ee_get_statusa) | ステータス バーに表示されている文字列をANSIで取得します。 |
 | [EE\_GET\_STATUSW](ee_get_statusw) | ステータス バーに表示されている文字列をUnicodeで取得します。 |
+| [EE\_GET\_TEXTW](ee_get_textw) | 文書のテキストを取得します。 |
 | [EE\_GET\_UNICODE\_NAME](ee_get_unicode_name) | 指定された文字または文字列のUnicode名を取得します。 |
 | [EE\_GET\_VERSION](ee_get_version) | バージョン番号を返します。 |
 | [EE\_GET\_WORD](ee_get_word) | カーソル位置の単語を返します。 |
@@ -217,6 +218,7 @@ ee_get_sel_textw
 ee_get_sel_type
 ee_get_statusa
 ee_get_statusw
+ee_get_textw
 ee_get_unicode_name
 ee_get_version
 ee_get_word
