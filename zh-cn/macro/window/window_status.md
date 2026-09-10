@@ -7,14 +7,14 @@
 ### \[JavaScript\]
 
 ```
-str =status;
+str = status;
 status = str;
 ```
 
 ### \[VBScript\]
 
 ```
-str =status
+str = status
 status = str
 ```
 

@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-obj =DroppedFiles;
+obj = DroppedFiles;
 ```
 
 ### \[VBScript\]
 
 ```
-Set obj =DroppedFiles
+Set obj = DroppedFiles
 ```
 
 ## 版本

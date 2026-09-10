@@ -27,6 +27,8 @@
 | **[ReadOnly](document_readonly)** | 设置文档的只读状态。 |
 | **[Saved](document_saved)** | 检索或设置表示自从上次被保存或打开后文档是否已被修改的标志。 |
 | **[selection](document_selection)** | 检索 Selection 对象. |
+| **[Text](text)** | 检索文档文本。 |
+| **[TextLength](text_length)** | 检索文档文本的长度。 |
 | **[Title](title)** | 检索或设置文档标题。 |
 | **[UnicodeSignature](document_unicodesignature)** | 检索或设置标志，表示 EmEditor 是否应添加 Unicode 签名 (BOM) 当下次保存该文档时。 |
 | **[Untitled](untitled)** | 检索标示文档是否无标题的标志。 |
@@ -139,6 +141,8 @@ setcell
 setcolumn
 sort
 split_column
+text
+text_length
 title
 unpivot
 untitled

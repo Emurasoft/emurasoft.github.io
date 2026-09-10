@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-doc =document;
+doc = document;
 ```
 
 ### \[VBScript\]
 
 ```
-Set doc =document
+Set doc = document
 ```
 
 ## 版本

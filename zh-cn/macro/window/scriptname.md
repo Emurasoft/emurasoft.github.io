@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-str =ScriptName;
+str = ScriptName;
 ```
 
 ### \[VBScript\]
 
 ```
-str =ScriptName
+str = ScriptName
 ```
 
 ## 版本

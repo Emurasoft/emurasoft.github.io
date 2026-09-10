@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-app =editor;
+app = editor;
 ```
 
 ### \[VBScript\]
 
 ```
-Set app =editor
+Set app = editor
 ```
 
 ## 版本

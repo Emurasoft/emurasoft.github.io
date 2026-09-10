@@ -79,6 +79,7 @@
 | [Editor\_GetSelTypeEx](editor_getseltypeex) | 獲得選區狀態的類型。 |
 | [Editor\_GetStatusA](editor_getstatusa) | 檢索顯示在狀態列上的 ANSI 文字。 |
 | [Editor\_GetStatusW](editor_getstatusw) | 檢索顯示在狀態列上的 Unicode 文字。 |
+| [Editor\_GetTextW](editor_gettextw) | 檢索文件文字。 |
 | [Editor\_GetUnicodeName](editor_getunicodename) | 檢索指定字元或字串的 Unicode 名。 |
 | [Editor\_GetVersion](editor_getversion) | 返回版本號。 |
 | [Editor\_GetWord](editor_getword) | 檢索游標位置處的一個單字。 |
@@ -243,6 +244,7 @@ editor_getseltype
 editor_getseltypeex
 editor_getstatusa
 editor_getstatusw
+editor_gettextw
 editor_getunicodename
 editor_getversion
 editor_getword

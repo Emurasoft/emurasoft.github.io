@@ -62,6 +62,7 @@
 | [EE\_GET\_SEL\_TYPE](ee_get_sel_type) | 获得选区状态的类型。 |
 | [EE\_GET\_STATUSA](ee_get_statusa) | 检索显示在状态栏上的 ANSI 文本。 |
 | [EE\_GET\_STATUSW](ee_get_statusw) | 检索显示在状态栏上的 Unicode 文本。 |
+| [EE\_GET\_TEXTW](ee_get_textw) | 检索文档文本。 |
 | [EE\_GET\_UNICODE\_NAME](ee_get_unicode_name) | 检索指定字符或字符串的 Unicode 名。 |
 | [EE\_GET\_VERSION](ee_get_version) | 返回版本号。 |
 | [EE\_GET\_WORD](ee_get_word) | 检索光标位置处的一个单词。 |
@@ -216,6 +217,7 @@ ee_get_sel_textw
 ee_get_sel_type
 ee_get_statusa
 ee_get_statusw
+ee_get_textw
 ee_get_unicode_name
 ee_get_version
 ee_get_word

@@ -27,6 +27,8 @@
 | **[ReadOnly](document_readonly)** | 設定文檔的唯讀狀態。 |
 | **[Saved](document_saved)** | 檢索或設定表示自從上次被儲存或打開後文檔是否已被修改的標志。 |
 | **[selection](document_selection)** | 檢索 Selection 對象. |
+| **[Text](text)** | 檢索文件文字。 |
+| **[TextLength](text_length)** | 檢索文件文字的長度。 |
 | **[Title](title)** | 檢索或設定文檔標題。 |
 | **[UnicodeSignature](document_unicodesignature)** | 檢索或設定標志，表示 EmEditor 是否應添加 Unicode 簽名 (BOM) 當下次儲存該文檔時。 |
 | **[Untitled](untitled)** | 檢索標示文檔是否未命名的標志。 |
@@ -138,6 +140,8 @@ setcell
 setcolumn
 sort
 split_column
+text
+text_length
 title
 unpivot
 untitled

@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-yPos =scrollY;
+yPos = scrollY;
 ```
 
 ### \[VBScript\]
 
 ```
-yPos =scrollY
+yPos = scrollY
 ```
 
 ## 版本

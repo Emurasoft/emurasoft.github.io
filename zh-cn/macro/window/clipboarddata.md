@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-clip =clipboardData;
+clip = clipboardData;
 ```
 
 ### \[VBScript\]
 
 ```
-Set clip =clipboardData
+Set clip = clipboardData
 ```
 
 ## 版本

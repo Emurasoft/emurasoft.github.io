@@ -62,6 +62,7 @@
 | [EE\_GET\_SEL\_TYPE](ee_get_sel_type) | 獲得選區狀態的類型。 |
 | [EE\_GET\_STATUSA](ee_get_statusa) | 檢索顯示在狀態列上的 ANSI 文字。 |
 | [EE\_GET\_STATUSW](ee_get_statusw) | 檢索顯示在狀態列上的 Unicode 文字。 |
+| [EE\_GET\_TEXTW](ee_get_textw) | 檢索文件文字。 |
 | [EE\_GET\_UNICODE\_NAME](ee_get_unicode_name) | 檢索指定字元或字串的 Unicode 名。 |
 | [EE\_GET\_VERSION](ee_get_version) | 返回版本號。 |
 | [EE\_GET\_WORD](ee_get_word) | 檢索游標位置處的一個單字。 |
@@ -217,6 +218,7 @@ ee_get_sel_textw
 ee_get_sel_type
 ee_get_statusa
 ee_get_statusw
+ee_get_textw
 ee_get_unicode_name
 ee_get_version
 ee_get_word

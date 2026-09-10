@@ -7,14 +7,14 @@
 ### \[JavaScript\]
 
 ```
-b =CombineHistory;
+b = CombineHistory;
 CombineHistory = b;
 ```
 
 ### \[VBScript\]
 
 ```
-b =CombineHistory
+b = CombineHistory
 CombineHistory = b;
 ```
 

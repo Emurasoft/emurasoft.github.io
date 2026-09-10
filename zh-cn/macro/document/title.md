@@ -7,8 +7,8 @@
 ### \[JavaScript\]
 
 ```
-strTitle = document.Title;
-document.Title = strTitle;
+strTitle = document.Title
+document.Title = strTitle
 ```
 
 ### \[VBScript\]

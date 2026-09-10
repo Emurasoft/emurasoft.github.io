@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-popupmenu =CreatePopupMenu();
+popupmenu = CreatePopupMenu();
 ```
 
 ### \[VBScript\]
 
 ```
-Set popupmenu =CreatePopupMenu
+Set popupmenu = CreatePopupMenu
 ```
 
 ## 返回值

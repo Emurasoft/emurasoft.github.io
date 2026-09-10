@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-outbar =OutputBar;
+outbar = OutputBar;
 ```
 
 ### \[VBScript\]
 
 ```
-Set outbar =OutputBar
+Set outbar = OutputBar
 ```
 
 ## 版本

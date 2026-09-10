@@ -7,7 +7,7 @@
 ### \[JavaScript\]
 
 ```
-scrollBy( dx, dy);
+scrollBy( dx, dy );
 ```
 
 ### \[VBScript\]

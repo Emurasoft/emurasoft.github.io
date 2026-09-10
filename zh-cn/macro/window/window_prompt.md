@@ -7,13 +7,13 @@
 ### \[JavaScript\]
 
 ```
-strAnswer =prompt( strMessage, strDefault, flags);
+strAnswer = prompt( strMessage, strDefault, flags );
 ```
 
 ### \[VBScript\]
 
 ```
-strAnswer =prompt( strMessage, strDefault, flags )
+strAnswer = prompt( strMessage, strDefault, flags )
 ```
 
 ## 参数
