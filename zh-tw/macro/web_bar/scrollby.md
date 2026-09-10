@@ -4,15 +4,15 @@
 
 ##
 
-### 【JavaScript】
+### \[JavaScript\]
 
-```javascript
+```
 WebBar.scrollBy( dx, dy );
 ```
 
-### 【VBScript】
+### \[VBScript\]
 
-```vbscript
+```
 WebBar.scrollBy dx, dy
 ```
 

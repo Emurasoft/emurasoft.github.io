@@ -6,13 +6,13 @@
 
 ### \[JavaScript\]
 
-```js
+```
 xPos = WebBar.scrollX;
 ```
 
 ### \[VBScript\]
 
-```vb
+```
 xPos = WebBar.scrollX
 ```
 

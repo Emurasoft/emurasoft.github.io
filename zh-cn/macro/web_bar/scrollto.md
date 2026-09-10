@@ -4,13 +4,13 @@
 
 ## 
 
-### 【JavaScript】
+### \[JavaScript\]
 
 ```
 WebBar.scrollTo( x, y );
 ```
 
-### 【VBScript】
+### \[VBScript\]
 
 ```
 WebBar.scrollTo x, y

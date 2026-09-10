@@ -4,15 +4,15 @@
 
 ## 
 
-### 【JavaScript】
+### \[JavaScript\]
 
-```javascript
+```
 yPos = WebBar.scrollY;
 ```
 
-### 【VBScript】
+### \[VBScript\]
 
-```vbscript
+```
 yPos = WebBar.scrollY
 ```
 

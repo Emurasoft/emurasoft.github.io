@@ -6,13 +6,13 @@
 
 ### \[JavaScript\]
 
-```js
+```
 WebBar.scrollTo( x, y );
 ```
 
 ### \[VBScript\]
 
-```vb
+```
 WebBar.scrollTo x, y
 ```
 
