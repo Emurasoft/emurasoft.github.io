@@ -1,6 +1,6 @@
 # TextLength Property (Document Object)
 
-Retrieves the length of the document text. If the document contains more than 0x7ffffffe UTF-16 characters, the property is truncated to that length.
+Retrieves the length of the document text. If the document contains more than 0x7fffffff UTF-16 characters, the property is truncated to that length.
 
 ## 
 
