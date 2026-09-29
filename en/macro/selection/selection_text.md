@@ -1,6 +1,6 @@
 # Text Property (Selection Object)
 
-Retrieves the selected text, or inserts a string at the cursor position.
+Retrieves the selected text, or inserts a string at the cursor position. If the text is too long when retrieving the text, the property fails. The maximum supported length, in UTF-16 characters, is 0x19fffffe when using V8; otherwise, it is 0x3ffffffe.
 
 ## 
 

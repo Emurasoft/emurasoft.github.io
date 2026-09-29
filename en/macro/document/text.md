@@ -1,6 +1,6 @@
 # Text Property (Document Object)
 
-Retrieves the document text. If the document contains more than 0x7ffffffe UTF-16 characters, the property is truncated to that length.
+Retrieves the document text. If the text is too long, the property fails. The maximum supported length, in UTF-16 characters, is 0x19fffffe when using V8; otherwise, it is 0x3ffffffe.
 
 ## 
 
