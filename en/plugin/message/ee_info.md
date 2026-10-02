@@ -142,6 +142,7 @@ Specifies a parameter to retrieve or set. This parameter can be one of the value
 | EI\_IS\_CHATAI\_INSTALLED | Retrieves whether the ChatAI plug-in is installed. | Not used. | (BOOL)bInstalled<br> Markdown Design View if TRUE |
 | EI_RESET_BOOKMARK | Resets a specified bookmark in a document or all bookmarks in all open documents. | (INT\_PTR)y<br>Specifies the line number to reset a bookmark, or all bookmarks in all open documents if -1\. | Not used. |
 | EI_BRING_CUSTOM_BAR_TOP | Brings the specified custom bar to the top. | (HWND)hwndClient<br>Specifies the client window | (int)iCustomBar<br>Specifies the custom bar position if found, or -1 if the custom bar is not found. |
+| EI\_GET\_FAST\_VIEW | Retrieves whether the document is in Fast View mode (EmEditor Professional 26.3 or later only). | Not used. | (BOOL)bFastView<br> TRUE if the document is in Fast View mode. |
 
 _iDoc_
 

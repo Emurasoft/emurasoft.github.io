@@ -11,6 +11,7 @@
 | **[ConfigName](document_configname)** | Retrieves or sets the current configuration name. |
 | **[Csv](csv)** | Retrieves the Csv Object. |
 | **[Encoding](document_encoding)** | Retrieves or sets the current encoding of the opened file. |
+| **[FastView](fast_view)** | Retrieves or sets whether the document is in Fast View mode. |
 | **[filters](filters)** | Retrieves or sets the [**Filters** Collection](../filters/index). |
 | **[FontCategory](document_fontcategory)** | Retrieves or sets the current font category. |
 | **[FullName](document_fullname)** | Retrieves the complete path and file name of the document. |
@@ -116,6 +117,7 @@ document_unicodesignature
 document_write
 document_writeln
 extract_columns
+fast_view
 filter
 filters
 getcell

@@ -137,6 +137,9 @@ _nCmd_
 | EI\_GET\_MARKDOWN\_PREVIEW | Markdown デザイン ビューかどうかを取得します。 | 使用されません。 | (BOOL)bMarkdownPreview<br> TRUEなら Markdown デザイン ビューになります。 |
 | EI\_SET\_MARKDOWN\_PREVIEW | Markdown デザイン ビューを設定または解除します。 | (BOOL)bMarkdownPreview<br> TRUEなら Markdown デザイン ビューになります。 | 使用されません。 |
 | EI\_IS\_CHATAI\_INSTALLED | ChatAI プラグインがインストールされているかどうかを取得します。 | 使用されません。 | (BOOL)bInstalled<br> TRUEならインストールされています。 |
+| EI\_RESET\_BOOKMARK | 文書内の指定するブックマーク、またはすべての開いている文書のすべてのブックマークを解除します。 | (INT\_PTR)y<br>ブックマークを解除する行番号を指定します。-1 を指定すると、すべての開いている文書のすべてのブックマークを解除します。 | 使用されません。 |
+| EI\_BRING\_CUSTOM\_BAR\_TOP | 指定するカスタム バーを一番上に表示します。 | (HWND)hwndClient<br>クライアント ウィンドウを指定します。 | (int)iCustomBar<br>カスタム バーが見つかった場合はカスタム バーの位置、見つからない場合は -1 を返します。 |
+| EI\_GET\_FAST\_VIEW | 文書が高速ビュー モードかどうかを取得します (EmEditor Professional 26.3 以上のみ)。 | 使用されません。 | (BOOL)bFastView<br> TRUEなら高速ビュー モードです。 |
 
 _iDoc_
 

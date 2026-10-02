@@ -11,6 +11,7 @@
 | [ConfigName](document_configname) | 現在の設定の名前を取得、または設定します。 |
 | [Csv](csv) | Csv オブジェクトを取得します。 |
 | [Encoding](document_encoding) | 次に保存する時に使用されるエンコードを取得、または設定します。 |
+| [FastView](fast_view) | 文書が高速ビュー モードかどうかを取得、または設定します。 |
 | [filters](filters) | Filters コレクションを取得、または設定します。 |
 | [FontCategory](document_fontcategory) | フォント分類を取得、または設定します |
 | [FullName](document_fullname) | 文書ファイルの完全パスと名前を取得します。 |
@@ -116,6 +117,7 @@ document_unicodesignature
 document_write
 document_writeln
 extract_columns
+fast_view
 filter
 filters
 getcell
