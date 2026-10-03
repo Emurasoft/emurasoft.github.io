@@ -8,6 +8,8 @@ Extracts all filtered lines into a new document.
 
 Extracts all filtered lines into a new document.
 
+This command can also be used in Fast View mode. If the filter is still running, EmEditor waits until the filter finishes.
+
 ## How to Run
 
 - Default Menu: None

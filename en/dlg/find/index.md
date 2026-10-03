@@ -115,6 +115,8 @@ Bookmarks all lines that match the specified string.
 
 Extracts the lines that match the specified string by creating a new document. Clicking the ▼ button on the right will display a context menu, where you can access the [**Extract Options** dialog box](../extract_options/index).
 
+This button can also be used in Fast View mode, unless the **In the selection only** check box is selected. The **Batch Extract** button is not available in Fast View mode.
+
 ## Replace >> button
 
 Click this button to display the [**Replace** dialog box](../replace/index) for the specified string with selected options.

@@ -8,6 +8,8 @@ Extracts matched strings into a new document.
 
 Extracts matched strings into a new document. This command will extract only one string per line if multiple strings are matched.
 
+This command can also be used in Fast View mode. If the filter is still running, EmEditor waits until the filter finishes.
+
 ## How to Run
 
 - Default Menu: None
