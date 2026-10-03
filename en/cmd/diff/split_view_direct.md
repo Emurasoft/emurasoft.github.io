@@ -6,7 +6,7 @@ Displays two most recently viewed documents in a split window.
 
 ## Description
 
-Displays two most recently viewed documents in a split window.
+Displays two most recently viewed documents in a split window. A document in Fast View mode can also be displayed.
 
 ## How to Run
 

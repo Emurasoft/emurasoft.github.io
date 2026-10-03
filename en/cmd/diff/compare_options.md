@@ -8,6 +8,8 @@ Compares the two most recently viewed documents with the choice to specify optio
 
 Compares the two most recently viewed documents with the choice to specify options.
 
+Documents in Fast View mode can also be compared, after all the lines of the documents are found. The [**Ignore Comments**](ignore_comment), [**Copy to Other**](copy_to_other), [**Copy All to Other**](copy_all_to_other), and [**Bookmark Changes**](compare_bookmark) commands are not available when a document is in Fast View mode.
+
 ## How to Run
 
 - Default Menu: **Compare** \> **Compare with Options**

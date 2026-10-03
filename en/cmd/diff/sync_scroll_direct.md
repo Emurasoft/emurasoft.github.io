@@ -6,7 +6,7 @@ Synchronizes scrolling of two recently viewed documents without specifying optio
 
 ## Description
 
-Synchronizes scrolling of the two most recently viewed documents without specifying options.
+Synchronizes scrolling of the two most recently viewed documents without specifying options. A document in Fast View mode can also be scrolled synchronously.
 
 ## How to Run
 
