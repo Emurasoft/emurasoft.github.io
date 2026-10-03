@@ -179,6 +179,8 @@ Search multiple selected items from the batch list before the current position.
 
 Search multiple selected items from the batch list after the current position.
 
+The **Multi-Find Previous** and **Multi-Find Next** buttons can also be used in Fast View mode, including linked files in the batch list.
+
 ## Batch Bookmark button
 
 Click this button to bookmark all lines that match the selected items from the batch list.
