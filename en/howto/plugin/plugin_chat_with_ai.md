@@ -168,4 +168,4 @@ MCP (Model Context Protocol) lets AI connect to external services. In the **MCP 
 
 ## EmEditor Help Pages MCP for other apps
 
-Chat with AI can use the EmEditor Help Pages MCP connector to access the EmEditor help pages, providing up-to-date and better answers about EmEditor than web search tools. While Chat with AI comes with this MCP connector built in, you can connect to it from other apps. See the [EmEditor Help Pages MCP](https://github.com/Emurasoft/emeditor-help-mcp) project for more info.
+Chat with AI can use the EmEditor Help Pages MCP connector to access the EmEditor help pages, providing more accurate, up-to-date answers about EmEditor than web search tools. While Chat with AI comes with this MCP connector built in, you can connect to it from other apps. See the [EmEditor Help Pages MCP](https://github.com/Emurasoft/emeditor-help-mcp) project for more info.
