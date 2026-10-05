@@ -165,3 +165,7 @@ MCP (Model Context Protocol) lets AI connect to external services. In the **MCP 
 
   2. If the server requires OAuth authentication, you will be prompted to sign into the service using your web browser.
   3. Enter a name for the MCP connector. Once the connector is added, it will be available to use in a new chat.
+
+## EmEditor Help Pages MCP for other apps
+
+While Chat with AI comes with the EmEditor Help Pages MCP connector built in, you can connect to it from other apps. See the [EmEditor Help Pages MCP](https://github.com/Emurasoft/emeditor-help-mcp) project for more info.
