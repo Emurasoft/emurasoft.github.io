@@ -2,11 +2,13 @@
 
 ## Summary
 
-Displays two most recently viewed documents in a split window.
+Displays the two most recently viewed documents in a split view.
 
 ## Description
 
-Displays two most recently viewed documents in a split window. A document in Fast View mode can also be displayed.
+Displays the two most recently viewed documents in a split view, which displays the documents side-by-side in the same window and the same tab.
+
+Documents in Fast View mode can also be displayed.
 
 ## How to Run
 
@@ -19,7 +21,8 @@ Displays two most recently viewed documents in a split window. A document in Fas
 ## Plug-in Command ID
 
 ```
-EEID_SPLIT_VIEW_DIRECT (4085)```
+EEID_SPLIT_VIEW_DIRECT (4085)
+```
 
 ## Macros
 
