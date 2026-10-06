@@ -7,6 +7,10 @@ operations.
 
 Shows warning message if the file contains [null characters](../../../glossary/nullcharacter) when opening a file. Null characters are converted into spaces when a file is opened. You must be careful since files containing null characters may corrupt the original file.
 
+**Notice**
+
+In the normal mode, EmEditor checks the whole file for null characters. In Fast View mode, EmEditor checks only the beginning of the file: the number of bytes specified in the **Maximum bytes to detect UTF-8** text box on the [**File** page](../../customize/file/index) of the **Customize** dialog box (at least 4 KB). Null characters after that are not reported.
+
 ## Prompt if an invalid character is found checkbox
 
 When opening a file containing a Unicode character that cannot be converted into the specified encoding, a warning message will be displayed: "Some characters cannot be converted using the specified encoding. The file will be corrupted if you continue editing and save the file." For instance, if you try to open a Japanese EUC file with the Japanese Shift-JIS encoding, and if the file contains a character code value not in the range of the Japanese Shift JIS encoding, the warning message will be displayed.
@@ -14,6 +18,13 @@ When opening a file containing a Unicode character that cannot be converted into
 **Notice**
 
 Even if this checkbox is checked, some encodings will not display the warning message. For instance, trying to open a Japanese Shift-JIS file with the Japanese EUC encoding will not display the warning message.
+
+In the normal mode, EmEditor checks the whole file for invalid characters. In Fast View mode:
+
+- EmEditor checks only the beginning of the file, the same bytes as the **Prompt if a null character is found** check box. Invalid characters after that are not reported.
+- If the beginning of the file is detected as UTF-8 and the rest of the file contains a character that is invalid in UTF-8, the normal mode reopens the file in the opening encoding without detecting UTF-8, but Fast View mode keeps UTF-8.
+- Only UTF-8, single-byte encodings, Japanese (Shift JIS, 932), Chinese Simplified (GBK, 936), Korean (949), and Chinese Traditional (Big5, 950) are checked.
+- If the beginning of the file contains both null characters and invalid characters, only the warning message about null characters is displayed.
 
 ## Prompt about inconsistent newline characters checkbox
 
