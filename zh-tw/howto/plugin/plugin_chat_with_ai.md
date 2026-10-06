@@ -139,3 +139,7 @@
 9. 返回 **AI 串連**，點擊**測試串連**以確保可以串連到 LM Studio。
 
 - 每次重啟電腦後，LM Studio 服務會自動啟動。但在與 AI 聊天中使用前，您需要手動加載模型。
+
+## 適用於其他應用程式的 EmEditor 說明頁面 MCP
+
+Chat with AI 可使用 EmEditor 說明頁面 MCP 連接器來存取 EmEditor 說明頁面，從而提供比網頁搜尋工具更準確且最新的 EmEditor 相關解答。雖然與 AI 聊天內建此 MCP 連接器，但您也可以從其他應用程式連線至它。更多資訊請參閱 [EmEditor Help Pages MCP](https://github.com/Emurasoft/emeditor-help-mcp) 專案。

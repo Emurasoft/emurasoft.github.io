@@ -11,6 +11,7 @@
 | **[ConfigName](document_configname)** | 检索或设置当前配置名称。 |
 | **[Csv](csv)** | 检索 Csv 对象。 |
 | **[Encoding](document_encoding)** | 检索或设置打开的文件的当前编码。 |
+| **[FastView](fast_view)** | 检索或设置文档是否处于快速查看模式。 |
 | **[filters](filters)** | 检索或设置 [**Filters** 集合](../filters/index)。 |
 | **[FontCategory](document_fontcategory)** | 检索或设置当前字体类别。 |
 | **[FullName](document_fullname)** | 检索文档的完整路径以及文件名称。 |
@@ -116,6 +117,7 @@ document_unicodesignature
 document_write
 document_writeln
 extract_columns
+fast_view
 filter
 filters
 getcell
