@@ -10,7 +10,7 @@
 
 在 Windows 任务栏的通知区域显示一个 EmEditor 的托盘图标。
 
-## “在 Windows 下次启动时显示一个托盘图标”复选框
+## “启动 Windows 时显示托盘图标”复选框
 
 显示一个托盘图标当 Windows 下次启动时。
 
@@ -18,7 +18,7 @@
 
 显示一个托盘图标当 EmEditor 下次启动时。
 
-## “EmEditor 的快速启动”复选框
+## “EmEditor 的高速启动”复选框
 
 快速启动 EmEditor 当 EmEditor 托盘图标显示时。如果勾选了该复选框，一个隐藏的 EmEidtor 窗口在会在 EmEditor 托盘图标显示的同时运行。当你启动 EmEditor 时，这个隐藏的 EmEidtor 窗口会变为可见的状态，迅速打开 EmEditor。
 

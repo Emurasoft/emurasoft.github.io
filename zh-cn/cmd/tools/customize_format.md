@@ -21,7 +21,7 @@
 ## 插件命令ID
 
 ```
-EEID_CUSTOMIZE_MARKS (9056)```
+EEID_CUSTOMIZE_FORMAT (9056)```
 
 ## 宏
 

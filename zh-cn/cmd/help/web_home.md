@@ -2,7 +2,7 @@
 
 ## 摘要
 
-打开 EmEditor 网站主页。
+打开 EmEditor 主页。
 
 ## 说明
 

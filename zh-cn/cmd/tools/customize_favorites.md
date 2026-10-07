@@ -19,7 +19,7 @@
 ## 插件命令ID
 
 ```
-EEID_CUSTOMIZE_FAVORITES (20716)
+EEID_CUSTOMIZE_FAVORITES (9072)
 ```
 
 ## 宏
@@ -27,11 +27,11 @@ EEID_CUSTOMIZE_FAVORITES (20716)
 ### \[JavaScript\]
 
 ```
-editor.ExecuteCommandByID(20716);
+editor.ExecuteCommandByID(9072);
 ```
 
 ### \[VBScript\]
 
 ```
-editor.ExecuteCommandByID 20716
+editor.ExecuteCommandByID 9072
 ```

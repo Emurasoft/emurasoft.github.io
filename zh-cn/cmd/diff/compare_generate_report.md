@@ -19,7 +19,7 @@
 ## 插件命令ID
 
 ```
-EEID_COMPARE_BOOKMARK (3996)```
+EEID_COMPARE_GENERATE_REPORT (3996)```
 
 ## 宏
 

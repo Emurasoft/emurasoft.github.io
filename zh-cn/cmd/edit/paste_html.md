@@ -20,7 +20,7 @@
 ## 插件命令ID
 
 ```
-EEID_EDIT_PASTE_HTML (4071)```
+EEID_PASTE_HTML (4071)```
 
 ## 宏
 

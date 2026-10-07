@@ -5,8 +5,8 @@ orphan: true
 
 ## 新增命令
 
-- [總是置頂 \- 開命令](../cmd/window/window_always_top_on)
-- [總是置頂 \- 關命令](../cmd/window/window_always_top_off)
+- [最上層顯示-開啟命令](../cmd/window/window_always_top_on)
+- [最上層顯示-關閉命令](../cmd/window/window_always_top_off)
 
 ## 增加新選項的已存在的對話方塊
 

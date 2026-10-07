@@ -19,7 +19,7 @@
 
 ## 插件命令 ID
 
-- EEID\_MOVE\_NEXT (4382)
+- EEID\_WINDOW\_MOVE\_NEXT (4382)
 
 ## 宏
 

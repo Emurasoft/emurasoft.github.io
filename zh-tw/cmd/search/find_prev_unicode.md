@@ -19,8 +19,7 @@
 
 - 預設功能表: **搜尋**
 \> **尋找上一個警告/Unicode 字元**
-- [全部命令](../tools/all_commands): **搜尋**
-\> **尋找上一個警告/Unicode 字元**
+- [全部命令](../tools/all_commands): **搜尋** \> **Unicode** \> **尋找上一個警告/Unicode 字元**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: SHIFT+F9

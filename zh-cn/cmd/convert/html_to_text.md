@@ -19,7 +19,7 @@
 ## 插件命令 ID
 
 ```
-EEID_MARKDOWN_TO_TEXT (23283)
+EEID_HTML_TO_TEXT (23283)
 ```
 
 ## 宏

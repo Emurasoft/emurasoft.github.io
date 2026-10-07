@@ -13,7 +13,7 @@
 | **[高亮(1)属性](property_hilite)** | 当前配置的高亮(1)属性。 |
 | **[高亮(2)属性](property_comment)** | 当前配置的高亮(2)属性。 |
 | **[显示属性](property_show)** | 当前配置的显示属性。 |
-| **[标记属性](property_mark)** | 当前配置的标记属性。 |
+| **[段落标记属性](property_mark)** | 当前配置的段落标记属性。 |
 | **[打印属性](property_print)** | 当前配置的打印属性。 |
 | **[链接属性](property_link)** | 当前配置的链接属性。 |
 | **[键盘属性](property_keyboard)** | 当前配置的键盘属性。 |
@@ -30,19 +30,19 @@
 | **[定义配置](config)** | 定义配置。 |
 | [**选择配置**(弹出菜单)](config_popup) | 选择一个配置。 |
 | **[文件关联配置](configuration_associations)** | 将文件类型关联到配置项。 |
-| **[自定义](common_settings)** | 自定义常用应用程序设置。 |
+| **[自定义](common_settings)** | 自定义公用应用程序设置。 |
 | **[自定义文件](customize_file)** | 打开自定义对话框中的文件页面。 |
 | [**自定义编辑**](customize_edit) | 打开自定义对话框中的编辑页面。 |
-| [**自定义剪贴板**](customize_clipboard) | 打开自定义对话框中的剪贴板页面。 |
+| [**自定义剪贴板。**](customize_clipboard) | 打开自定义对话框中的剪贴板页面。 |
 | [**自定义排序**](customize_sort) | 打开自定义对话框中的排序页面。 |
 | **[自定义搜索](customize_search)** | 打开自定义对话框中的搜索页面。 |
-| **[自定义历史记录](customize_history)** | 打开自定义对话框中的历史页面。 |
+| **[自定义历史](customize_history)** | 打开自定义对话框中的历史页面。 |
 | **[自定义查看](customize_view)** | 打开自定义对话框的查看页面。 |
-| **[自定义布局](customize_layouts)** | 打开自定义对话框中的布局页面。 |
-| **[自定义文本呈现](customize_rendering)** | 打开自定义对话框的文本呈现页面。 |
+| **[自定义布局。](customize_layouts)** | 打开自定义对话框中的布局页面。 |
+| **[自定义文本呈现](customize_rendering)** | 打开自定义对话框中的文本呈现页面。 |
 | **[自定义窗口](customize_window)** | 打开自定义对话框中的窗口页面。 |
 | **[自定义工作区](customize_workspace)** | 打开自定义对话框中的工作区页面。 |
-| **[自定义标签](customize_tab)** | 打开自定义对话框中的标签页面。 |
+| **[自定义标签页](customize_tab)** | 打开自定义对话框中的标签页页面。 |
 | **[自定义鼠标](customize_mouse)** | 打开自定义对话框的鼠标页面。 |
 | **[自定义状态栏](customize_status)** | 打开自定义对话框中的状态栏页面。 |
 | **[自定义快捷方式](customize_shortcut)** | 打开自定义对话框中的快捷方式页面。 |
@@ -60,7 +60,7 @@
 | **[自定义网页浏览器](customize_web)** | 打开自定义对话框中的网页浏览器页面。 |
 | **[自定义收藏夹](customize_favorites)** | 打开自定义对话框中的收藏夹页面。 |
 | **[自定义 Markdown](customize_markdown)** | 打开自定义对话框中的 Markdown 页面。 |
-| **[自定义代码片段命令](customize_snippets)** | 打开自定义对话框的代码片段页面。 |
+| **[自定义代码片段](customize_snippets)** | 打开自定义对话框的代码片段页面。 |
 | **[自定义标记](customize_markers)** | 打开自定义对话框的标记页面。 |
 | **[自定义通知](customize_notifications)** | 打开自定义对话框中的通知页面。 |
 | **[自定义更新](customize_update)** | 打开自定义对话框中的更新页面。 |

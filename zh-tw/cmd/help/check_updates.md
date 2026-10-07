@@ -2,7 +2,7 @@
 
 ## 摘要
 
-連接到 Emurasoft 服務器檢查可用的新版本的 EmEditor。
+連結到 Emurasoft 伺服器以檢查 EmEditor 可用的更新版本。
 
 ## 說明
 

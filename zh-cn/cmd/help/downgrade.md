@@ -2,7 +2,7 @@
 
 ## 摘要
 
-将产品降级为 EmEditor Free。
+将产品降级为 EmEditor 免费版。
 
 ## 说明
 

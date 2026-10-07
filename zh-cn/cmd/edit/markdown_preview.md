@@ -1,8 +1,8 @@
-# Markdown 预览命令
+# Markdown/HTML 预览命令
 
 ## 摘要
 
-显示当前文档的 Markdown 预览。
+显示当前文档的 Markdown/HTML 预览。
 
 ## 说明
 

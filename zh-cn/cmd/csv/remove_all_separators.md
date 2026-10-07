@@ -2,7 +2,7 @@
 
 ## 摘要
 
-在标准模式下，删除所有分隔符。
+在标准模式下删除所有分隔符。
 
 ## 说明
 
@@ -18,7 +18,7 @@
 
 ## 插件命令 ID
 
-- EEID\_REMOVE\_ALL\_SEPARATOR (3886)
+- EEID\_REMOVE\_ALL\_SEPARATORS (3886)
 
 ## 宏
 

@@ -1,8 +1,8 @@
-# 下一窗格或自訂欄命令
+# 下一窗格或自訂列命令
 
 ## 摘要
 
-切換至下一窗格或自訂欄。
+轉到下一窗格或自訂列。
 
 ## 說明
 
@@ -11,27 +11,25 @@
 ## 運行方法
 
 - 預設功能表: 無
-- [全部命令](../tools/all_commands): **視窗**
-\> **窗格**
-\> **下一窗格或自訂欄**
+- [全部命令](../tools/all_commands): **視窗** \> **窗格** \> **下一窗格或自訂工具條**
 - 工具列: 無
 - 狀態列: 無
 - 預設捷徑: 無
 
 ## 外掛程式命令 ID
 
-- EEID\_NEXT\_PANE\_OR\_BAR (4553)
+- EEID\_NEXT\_PANE\_OR\_BAR (4552)
 
 ## 巨集
 
 ### \[JavaScript\]
 
 ```
-editor.ExecuteCommandByID(4553);
+editor.ExecuteCommandByID(4552);
 ```
 
 ### \[VBScript\]
 
 ```
-editor.ExecuteCommandByID 4553
+editor.ExecuteCommandByID 4552
 ```

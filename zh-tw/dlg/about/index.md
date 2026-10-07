@@ -1,6 +1,6 @@
 # 「關于 EmEditor」對話方塊
 
-該對話方塊會在 [**關于 EmEditor** 命令](../../cmd/help/app_about) 被選擇時顯示。有關 EmEditor 的信息將會被呈現。
+該對話方塊會在 [**關於EmEditor** 命令](../../cmd/help/app_about) 被選擇時顯示。有關 EmEditor 的信息將會被呈現。
 
 ## 「重新輸入注冊碼」按鈕
 

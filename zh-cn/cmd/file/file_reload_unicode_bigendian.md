@@ -2,7 +2,7 @@
 
 ## 摘要
 
-用 Unicode(UTF-16BE) 重新载入当前文件。
+用Unicode UTF-16BE编码重新载入当前文件。
 
 ## 说明
 

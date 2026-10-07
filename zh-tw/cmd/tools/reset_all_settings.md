@@ -2,7 +2,7 @@
 
 ## 摘要
 
-重設所有 EmEditor 設置并重啟 EmEditor。
+重設所有 EmEditor 設定並重啟 EmEditor。
 
 ## 說明
 

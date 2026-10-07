@@ -19,7 +19,7 @@
 ## 插件命令ID
 
 ```
-EEID_SPELL_SINGLE_QUOTES (4515)```
+EEID_SPELL_DOUBLE_QUOTES (4515)```
 
 ## 宏
 

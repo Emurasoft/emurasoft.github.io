@@ -1,8 +1,8 @@
-# 將 HTML/XML 字元參照轉換為 Unicode 命令
+# 將 HTML/XML 字元參考轉換為 Unicode 命令
 
 ## 摘要
 
-解碼選中的 HTML/XML 字元參照文字。
+將選中的文字視為HTML/XML 字元參考進行解碼。
 
 ## 說明
 

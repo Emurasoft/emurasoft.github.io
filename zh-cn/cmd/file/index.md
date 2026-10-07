@@ -6,7 +6,7 @@
 | [**新建**（弹出菜单）](new_config_popup) | 显示一个弹出菜单来使用指定的配置新建一个文件。 |
 | **[新建并粘贴](file_new_paste)** | 创建一个新的文件并插入剪贴板中的内容。 |
 | [**新建并粘贴为引用文本**](file_new_paste_prefix) | 创建一个新的文件并粘贴剪贴版内容为引用文本。 |
-| [**新建文件，粘贴为引用文本并换行**](file_new_paste_prefix_return) | 创建一个新的文件，粘贴选定内容为引用文本并换行。 |
+| [**新建文件,粘贴为引用文本并包含换行符**](file_new_paste_prefix_return) | 创建一个新的文件，粘贴选定内容为引用文本并换行。 |
 | [**显示托盘图标**](new_tray_icon) | 显示一个新的系统托盘图标。 |
 | [**新建配置列表**](file_new_config) | 用一个指定配置(多个项目)创建一个新文件。 |
 | **[打开](file_open)** | 打开一个已存在的文件。 |
@@ -16,50 +16,50 @@
 | **[另存为](file_save_as)** | 使用一个新的名称保存当前文件。 |
 | **[重命名](file_save_rename)** | 重命名当前文件。 |
 | **[全部保存](file_save_all)** | 保存所有当前打开的文件。 |
-| **[以指定编码全部保存](file_save_all_as)** | 除了未命名的文档外，以指定的目标文件夹，编码以及换行方式保存所有打开的文档。 |
+| **[以指定编码全部保存](file_save_all_as)** | 本命令用于将除了未命名的文档外的所有已打开的文档,以指定的目标文件夹、编码和换行符进行保存。 |
 | **[高级打开](advanced_open)** | 用高级选项打开现有文件。 |
-| **[保存为系统默认编码](file_save_ansi)** | 用 [系统默认编码](../../glossary/systemdefaultencoding) 保存当前文件。 |
-| **[保存为 UTF-16LE](file_save_unicode)** | 用 Unicode(UTF-16LE) 编码保存当前文件。 |
-| **[保存为带签名的 UTF-16LE](save_utf16le_sign)** | 用带签名的 Unicode(UTF-16LE) 编码保存当前文件。 |
-| **[保存为不带签名的 UTF-16LE](save_utf16le_nosign)** | 用不带签名的 Unicode(UTF-16LE) 编码保存当前文件。 |
-| **[保存为 UTF-16BE](file_save_unicode_bigendian)** | 用 Unicode(UTF-16BE) 编码保存当前文件。 |
-| **[保存为带签名的 UTF-16BE](save_utf16be_sign)** | 用带签名的Unicode(UTF-16BE) 编码保存当前文件。 |
-| **[保存为不带签名的 UTF-16BE](save_utf16be_nosign)** | 用不带签名的Unicode(UTF-16BE) 编码保存当前文件。 |
-| **[保存为 UTF-8](file_save_utf8)** | 用 Unicode(UTF-8) 编码保存当前文件。 |
-| **[保存为带签名的 UTF-8](save_utf8_sign)** | 用带签名的 Unicode(UTF-8) 编码保存当前文件。 |
-| **[保存为不带签名的 UTF-8](save_utf8_nosign)** | 用不带签名的 Unicode(UTF-8) 编码保存当前文件。 |
-| **[保存为 UTF-7](file_save_utf7)** | 用 Unicode(UTF-7) 编码保存当前文件。 |
-| [**保存为二进制编码（ASCII 视图）**](file_save_binary) | 用二进制编码（ASCII 视图）保存当前文件。 |
-| [**保存为二进制编码（十六进制视图）**](file_save_hex) | 用二进制编码（十六进制视图）保存当前文件。 |
-| **[保存为日文 Shift JIS](file_save_932)** | 用日文 Shift JIS 编码保存当前文件。 |
-| **[保存为日文 JIS](file_save_jis)** | 用日文 JIS 编码保存当前文件。 |
-| **[保存为日文 EUC](file_save_euc)** | 用日文 EUC 编码保存当前文件。 |
+| **[保存为系统默认编码](file_save_ansi)** | 保存当前文件为[系统默认编码](../../glossary/systemdefaultencoding)。 |
+| **[保存为 UTF-16LE](file_save_unicode)** | 使用Unicode UTF-16LE编码保存当前文件。 |
+| **[保存为带签名的 UTF-16LE](save_utf16le_sign)** | 使用带签名的Unicode(UTF-16LE)编码保存当前文件。 |
+| **[保存为不带签名的 UTF-16LE](save_utf16le_nosign)** | 使用不带签名的Unicode(UTF-16LE)编码保存当前文件。 |
+| **[保存为 UTF-16BE](file_save_unicode_bigendian)** | 用 Unicode UTF-16BE编码保存当前文件。 |
+| **[保存为带签名的 UTF-16BE](save_utf16be_sign)** | 使用带签名的Unicode(UTF-16BE)编码保存当前文件。 |
+| **[保存为不带签名的 UTF-16BE](save_utf16be_nosign)** | 使用不带签名的Unicode(UTF-16BE)编码保存当前文件。 |
+| **[保存为 UTF-8](file_save_utf8)** | 使用Unicode UTF-8编码保存当前文件。 |
+| **[保存为带签名的 UTF-8](save_utf8_sign)** | 使用带签名的Unicode(UTF-8)编码保存当前文件。 |
+| **[保存为不带签名的 UTF-8](save_utf8_nosign)** | 使用不带签名的Unicode(UTF-8)编码保存当前文件。 |
+| **[保存为 UTF-7](file_save_utf7)** | 用Unicode UTF-7编码保存当前文件。 |
+| [**保存为二进制编码(ASCII视图)**](file_save_binary) | 用二进制编码（ASCII 视图）保存当前文件。 |
+| [**保存为二进制编码(十六进制视图)**](file_save_hex) | 用二进制编码（十六进制视图）保存当前文件。 |
+| **[保存为日文 Shift JIS](file_save_932)** | 使用日文 Shift JIS编码保存当前文件。 |
+| **[保存为日文 JIS](file_save_jis)** | 使用日文 JIS编码保存当前文件。 |
+| **[保存为日文 EUC](file_save_euc)** | 使用日文 EUC编码保存当前文件。 |
 | [**要保存的编码列表**](file_save_defined) | 用一个指定的编码(多个项目)保存当前文件。 |
-| **[保存换行为CR+LF](save_as_crlf)** | 保存换行为 CR+LF。 |
-| **[保存换行为 CR](save_as_cr)** | 只以 CR 方式保存换行。 |
-| **[仅保存换行为 LF](save_as_lf)** | 仅以 LF 方式保存换行。 |
-| **[复制文件完整路径](copy_file_path)** | 复制当前文件的完整路径名到剪贴板。 |
+| **[换行符保存为CR+LF](save_as_crlf)** | 换行符保存为CR+LF。 |
+| **[保存换行符仅为CR](save_as_cr)** | 保存换行符仅为CR。 |
+| **[保存换行符仅为LF](save_as_lf)** | 保存换行符仅为LF。 |
+| **[复制文件完整路径](copy_file_path)** | 复制当前文件的完整路径到剪贴板。 |
 | **[复制文件所在文件夹名](copy_file_dir)** | 复制当前文件所在文件夹的完整路径名到剪贴板。 |
-| **[重新载入为相同编码](file_reload)** | 用默认编码重新载入当前文件。 |
+| **[重新载入为相同编码](file_reload)** | 用相同编码重新载入当前文件。 |
 | [**重新载入**（弹出菜单）](reload_popup) | 显示弹出菜单来指定一个编码并用该编码重新载入文件。 |
-| **[重新载入并检测所有编码](file_reload_detect_all)** | 使用最适合的编码重新载入当前文件。 |
+| **[重新载入并检测所有编码](file_reload_detect_all)** | 用最适合的编码重新载入当前文件。 |
 | **[重新载入为系统默认编码](file_reload_ansi)** | 用 [系统默认编码](../../glossary/systemdefaultencoding) 重新载入当前文件。 |
-| **[重新载入为 UTF-16LE](file_reload_unicode)** | 用 Unicode(UTF-16LE) 重新载入当前文件。 |
-| **[重新载入为 UTF-16BE](file_reload_unicode_bigendian)** | 用 Unicode(UTF-16BE) 重新载入当前文件。 |
-| **[重新载入为 UTF-8](file_reload_utf8)** | 用 Unicode(UTF-8) 重新载入当前文件。 |
-| **[重新载入为 UTF-7](file_reload_utf7)** | 用 Unicode(UTF-7) 重新载入当前文件。 |
-| [**重新载入为二进制(ASCII 视图)**](file_reload_binary) | 用二进制(ASCII 视图)重新载入当前文件。 |
+| **[重新载入为 UTF-16LE](file_reload_unicode)** | 用Unicode UTF-16LE编码重新载入当前文件。 |
+| **[重新载入为 UTF-16BE](file_reload_unicode_bigendian)** | 用Unicode UTF-16BE编码重新载入当前文件。 |
+| **[重新载入为 UTF-8](file_reload_utf8)** | 用Unicode UTF-8编码重新载入当前文件。 |
+| **[重新载入为 UTF-7](file_reload_utf7)** | 用Unicode UTF-7编码重新载入当前文件。 |
+| [**重新载入为二进制编码(ASCII视图)**](file_reload_binary) | 用二进制(ASCII 视图)重新载入当前文件。 |
 | [**重新载入为二进制(十六进制视图)**](file_reload_hex) | 用二进制(十六进制视图)重新载入当前文件。 |
-| **[重新载入为日文Shift JIS](file_reload_932)** | 用日文Shift JIS重新载入当前文件。 |
-| **[重新载入为日文JIS](file_reload_jis)** | 用日文JIS重新载入当前文件。 |
-| **[重新载入为日文EUC](file_reload_euc)** | 用日文EUC重新载入当前文件。 |
+| **[重新载入为日文 Shift JIS](file_reload_932)** | 用日文 Shift JIS编码重新载入当前文件。 |
+| **[重新载入为日文 JIS](file_reload_jis)** | 用日文 JIS编码重新载入当前文件。 |
+| **[重新载入为日文 EUC](file_reload_euc)** | 用日文 EUC编码重新载入当前文件。 |
 | [**要重新载入的编码列表**](file_reload_defined) | 用一个指定的编码(多个项目)重新载入当前文件。 |
 | **[验证](file_verify)** | 验证当前文档与原始文件是否相同。 |
 | **[打印](file_print)** | 打印当前文件。 |
-| **[立即打印](file_print_direct)** | 使用默认的打印机而不指定任何选项打印当前文件。 |
-| **[打印预览](print_preview)** | 显示当前文档的打印预览。 |
+| **[立即打印](file_print_direct)** | 使用当前默认的打印机并不使用其他特殊选项直接打印当前文件。 |
+| **[打印预览](print_preview)** | 显示文档打印预览。 |
 | **[还原默认工作区](load_workspace)** | 还原一个已保存的默认工作区状态。 |
-| **[保存默认工作区](save_workspace)** | 保存默认工作区。 |
+| **[保存默认工作区](save_workspace)** | 保存默认的工作区。 |
 | [**清除默认工作区**](erase_workspace) | 清除默认工作区。 |
 | [**打开工作区**](workspace_open) | 打开一个被保存的工作区文件。 |
 | [**保存工作区**](workspace_save_current) | 保存工作区到当前工作区文件中。 |
@@ -68,19 +68,19 @@
 | [**要打开的收藏的文件**](favorite_file1) | 打开指定的收藏夹中的文件(多个项目)。 |
 | **[保存并关闭](file_save_exit)** | 保存并关闭当前文件。 |
 | **[关闭](app_exit)** | 关闭当前文件。 |
-| **[关闭标签](close_tab)** | 关闭选取的标签。 |
-| **[保存并全部关闭 (仅当前桌面)](save_close_desktop)** | 保存并关闭所有在当前虚拟桌面上打开的文件。 |
-| **[全部关闭 (仅当前桌面)](close_desktop)** | 关闭所有在当前虚拟桌面上打开的文件。 |
+| **[关闭标签页](close_tab)** | 关闭选取的标签页。 |
+| **[保存并全部关闭 (仅当前桌面)](save_close_desktop)** | 在当前虚拟桌面上,保存并关闭所有打开的文件。 |
+| **[全部关闭 (仅当前桌面)](close_desktop)** | 在当前虚拟桌面上,关闭所有打开的文件。 |
 | **[保存并全部关闭](save_exit_all)** | 保存并关闭所有打开的文件。 |
 | **[全部关闭](exit_all)** | 关闭所有打开的文件。 |
-| **[关闭所有其他文件](close_all_others)** | 关闭除了目前工作的文件之外所以打开的文件。 |
+| **[关闭所有其他窗口](close_all_others)** | 关闭除当前窗口外的所有其他窗口。 |
 | [**直接关闭不保存**](app_quit) | 不保存就直接关闭当前文件。 |
-| **[全部关闭不保存 (仅当前桌面)](quit_desktop)** | 在当前虚拟桌面上，关闭所有打开的文件并不保存。 |
-| **[全部关闭不保存](quit_all)** | 不保存就全部关闭当前文件。 |
-| **[保存工作区与所有文件并全部关闭 (仅当前桌面)](save_workspace_close_desktop)** | 在当前虚拟桌面上，保存工作区与所有文件并关闭所有打开的文件。 |
-| **[保存工作区并全部关闭 (仅当前桌面)](save_workspace_quit_desktop)** | 在当前虚拟桌面上，保存工作区并关闭所有打开的文件。 |
-| **[保存工作区，保存，并全部关闭](save_workspace_exit_all)** | 保存工作区，保存，并关闭所有打开的文件。 |
-| **[保存工作区并全部关闭](save_workspace_quit_all)** | 保存工作区并关闭所有打开的文件。 |
+| **[全部关闭不保存 (仅当前桌面)](quit_desktop)** | 在当前虚拟桌面上,不保存并且关闭所有打开的文件。 |
+| **[全部关闭不保存](quit_all)** | 不保存,并且关闭所有打开的文件。 |
+| **[保存工作区与所有文件并全部关闭 (仅当前桌面)](save_workspace_close_desktop)** | 在当前虚拟桌面上,保存该工作区与所有文件并关闭所有窗口。 |
+| **[保存工作区并全部关闭 (仅当前桌面)](save_workspace_quit_desktop)** | 在当前虚拟桌面上,保存该工作区并关闭所有打开的文件。 |
+| **[保存工作区与所有文件并全部关闭](save_workspace_exit_all)** | 保存该工作区与所有文件并关闭所有窗口。 |
+| **[保存工作区并全部关闭](save_workspace_quit_all)** | 保存该工作区并关闭所有打开的文件。 |
 | [**最近使用的文档列表**](file_mru_file1) | 打开一个指定的最近访问的文档（多个项目）。 |
 | [**最近使用的文件夹列表**](file_mru_folder1) | 打开一个指定的最近访问的文件夹（多个项目）。 |
 | [**最近关闭的文件**](recent_closed_file1) | 打开一个指定的最近关闭的文档（多个项目）。 |

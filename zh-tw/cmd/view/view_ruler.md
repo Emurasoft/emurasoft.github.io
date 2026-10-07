@@ -20,7 +20,7 @@
 ## 外掛程式命令ID
 
 ```
-EEID_VIEW_LINE_RULER (4531)
+EEID_VIEW_RULER (4531)
 ```
 
 ## 巨集

@@ -10,9 +10,8 @@
 
 ## 运行方法
 
-- 默认菜单: **帮助** \> **关于 EmEditor**
-- [所有命令](../tools/all_commands): **帮助** >
-**关于 EmEditor**
+- 默认菜单: **帮助** \> **关于EmEditor**
+- [所有命令](../tools/all_commands): **帮助** \> **关于EmEditor**
 - 工具栏: 无
 - 状态栏: 无
 - 默认快捷键: 无

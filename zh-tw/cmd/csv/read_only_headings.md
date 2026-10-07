@@ -18,7 +18,7 @@
 
 ## 外掛程式命令 ID
 
-- EEID\_HEADING\_POPUP (3900)
+- EEID\_READ\_ONLY\_HEADINGS (3900)
 
 ## 巨集
 

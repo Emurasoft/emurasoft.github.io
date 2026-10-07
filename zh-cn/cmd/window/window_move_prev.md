@@ -19,7 +19,7 @@
 
 ## 插件命令 ID
 
-- EEID\_MOVE\_PREV (4383)
+- EEID\_WINDOW\_MOVE\_PREV (4383)
 
 ## 宏
 

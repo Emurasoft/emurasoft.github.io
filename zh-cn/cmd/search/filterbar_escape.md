@@ -19,7 +19,7 @@
 
 ## 插件命令 ID
 
-- EEID\_FILTERBAR\_REG\_EXP(3909)
+- EEID\_FILTERBAR\_ESCAPE(3909)
 
 ## 宏
 

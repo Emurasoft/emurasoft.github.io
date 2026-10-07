@@ -20,7 +20,7 @@
 ## 插件命令ID
 
 ```
-EEID_USE_DIRECTWRITE (3997)
+EEID_USE_DIRECT_WRITE (3997)
 ```
 
 ## 宏

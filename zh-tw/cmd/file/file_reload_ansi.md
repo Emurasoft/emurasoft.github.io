@@ -1,8 +1,8 @@
-# 重新載入為系統預設編碼命令
+# 重新載入系統預設編碼命令
 
 ## 摘要
 
-用 [系統預設編碼](../../glossary/systemdefaultencoding) 重新載入目前的檔案。
+以[系統預設的編碼](../../glossary/systemdefaultencoding)重新載入目前的檔案。
 
 ## 說明
 

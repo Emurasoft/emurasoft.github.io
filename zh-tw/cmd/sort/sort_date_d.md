@@ -19,7 +19,7 @@
 ## 外掛程式命令ID
 
 ```
-EEID_SORT_DATE_A (3973)```
+EEID_SORT_DATE_D (3973)```
 
 ## 巨集
 

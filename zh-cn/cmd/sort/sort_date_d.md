@@ -19,7 +19,7 @@
 ## 插件命令ID
 
 ```
-EEID_SORT_DATE_A (3973)```
+EEID_SORT_DATE_D (3973)```
 
 ## 宏
 

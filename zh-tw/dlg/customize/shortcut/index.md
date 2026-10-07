@@ -6,19 +6,19 @@
 
 在 EmEditor 中，添加一個捷徑到檔案總管中的 "發送到" 功能表中。
 
-## 「在任務長條圖中顯示系統匣圖示」核取方塊
+## 「在工作列中顯示系統匣圖示」核取方塊
 
 在 Windows 任務長條圖的通知區域顯示一個 EmEditor 的系統匣圖示。
 
-## 「Windows 啟動時在顯示系統匣圖示」核取方塊
+## 「Windows 啟動時顯示系統匣圖示」核取方塊
 
 顯示一個系統匣圖示當 Windows 下次啟動時。
 
-## 「EmEditor 啟動時在顯示系統匣圖示」核取方塊
+## 「EmEditor 啟動時顯示系統匣圖示」核取方塊
 
 顯示一個系統匣圖示當 EmEditor 下次啟動時。
 
-## 「EmEditor 的快速啟動」核取方塊
+## 「EmEditor 的高速啟動」核取方塊
 
 快速啟動 EmEditor 當 EmEditor 系統匣圖示顯示時。如果勾選了該核取方塊，一個隱藏的 EmEidtor 視窗在會在 EmEditor 系統匣圖示顯示的同時運行。當您啟動 EmEditor 時，這個隱藏的 EmEidtor 視窗會變為可見的狀態，迅速打開 EmEditor。
 

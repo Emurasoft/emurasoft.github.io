@@ -20,18 +20,18 @@
 
 ## 插件命令 ID
 
-- EEID\_PREV\_PANE\_OR\_BAR (4554)
+- EEID\_PREV\_PANE\_OR\_BAR (4553)
 
 ## 宏
 
 ## \[JavaScript\]
 
 ```
-editor.ExecuteCommandByID(4554);
+editor.ExecuteCommandByID(4553);
 ```
 
 ## \[VBScript\]
 
 ```
-editor.ExecuteCommandByID 4554
+editor.ExecuteCommandByID 4553
 ```

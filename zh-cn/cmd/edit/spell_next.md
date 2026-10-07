@@ -19,7 +19,7 @@
 ## 插件命令ID
 
 ```
-EEID_SPELL_PREV (4554)```
+EEID_SPELL_NEXT (4554)```
 
 ## 宏
 

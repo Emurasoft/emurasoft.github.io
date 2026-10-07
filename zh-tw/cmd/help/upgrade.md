@@ -2,7 +2,7 @@
 
 ## 摘要
 
-將本產品升級為 EmEditor Professional。
+將產品升級到 EmEditor 專業版。
 
 ## 說明
 
