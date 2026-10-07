@@ -1,5 +1,4 @@
-# Toggle Status Bar command
-
+# Status Bar command
 ## Summary
 
 Shows or hides the status bar.

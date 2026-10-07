@@ -10,7 +10,7 @@ Moves the cursor to the previous position.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Advanced** \> **Back**
+- Default Menu: **Edit** \> **Back**
 - [All Commands](../tools/all_commands): **Edit** \> **Advanced** \> **Back**
 - Toolbar:
 ![](../../images/emeditor12_back_button.png)

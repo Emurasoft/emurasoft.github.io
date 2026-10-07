@@ -1,5 +1,4 @@
-# Find Previous (Find toolbar) command
-
+# Find Previous (Find Toolbar) command
 ## Summary
 
 Finds the previous occurrence using the Find toolbar.

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sets the current font size as the default size
+Sets the current font size as the default size.
 
 ## Description
 

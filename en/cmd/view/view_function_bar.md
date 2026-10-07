@@ -1,5 +1,4 @@
-# Toggle Function Bar command
-
+# Function Bar command
 ## Summary
 
 Shows or hides the function bar.

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a ligature character.
+Inserts a ligature by typing a, o, s, A or O.
 
 ## Description
 

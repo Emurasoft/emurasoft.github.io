@@ -2,7 +2,7 @@
 
 ## Summary
 
-Converts all selected half-width characters to full-width characters.
+Converts half-width characters to full-width characters.
 
 ## Description
 

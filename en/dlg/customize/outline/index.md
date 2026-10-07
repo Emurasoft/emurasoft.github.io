@@ -14,7 +14,7 @@ Specifies whether the Outline Bar should be toggled per configuration.
 
 Specifies whether the Outline Guide should be toggled per configuration.
 
-## Set focus in the custom bar at first run checkbox
+## Set focus in the custom bar on first run checkbox
 
 Specifies whether the plug-in should sets the focus in the custom bar when the plug-in is launched.
 

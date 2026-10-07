@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts newline characters at wrap points in the selection.
+Inserts newline characters at wrap points in the current selection.
 
 ## Description
 

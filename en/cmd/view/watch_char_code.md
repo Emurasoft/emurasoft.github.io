@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays the Unicode character value.
+Displays the Unicode value of the character.
 
 ## Description
 

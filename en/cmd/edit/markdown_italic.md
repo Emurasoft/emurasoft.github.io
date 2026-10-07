@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles an italic style.
+Toggles italic formatting.
 
 ## Description
 

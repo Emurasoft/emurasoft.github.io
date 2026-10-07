@@ -2,7 +2,7 @@
 
 ## Summary
 
-Enters a new prompt to ask AI.
+Creates a new prompt to ask AI.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Decodes the selected text from HTML/XML Character Reference.
+Decodes the selected text from an HTML/XML character reference.
 
 ## Description
 
@@ -11,7 +11,7 @@ Decodes the selected text from HTML/XML Character Reference into the Unicode equ
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **HTML/XML Character Reference to Unicode**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **HTML/XML Character Reference to Unicode**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **HTML/XML Character Reference to Unicode**
 - Toolbar:
 ![](../../images/html2uni24x16.png)
 - Status Bar: None

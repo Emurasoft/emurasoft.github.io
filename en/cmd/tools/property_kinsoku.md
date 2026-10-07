@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Wrap properties.
+Wrap properties for the current configuration.
 
 ## Description
 

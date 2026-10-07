@@ -2,7 +2,7 @@
 
 ## Summary
 
-Continues a series or pattern into neighboring cells.
+Continues a series or pattern into neighboring cells, lines, or characters.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Erases highlights from search terms.
+Clears highlighting for search terms.
 
 ## Description
 
@@ -12,8 +12,7 @@ document.
 ## How to Run
 
 - Default Menu: **Search** \> **Erase Find Highlight**
-- [All Commands](../tools/all_commands): **Search**
-\> **Erase Find Highlight**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Erase Find Highlight**
 - Toolbar:
 ![](../../images/erasefindhilite.png)
 - Status Bar: None

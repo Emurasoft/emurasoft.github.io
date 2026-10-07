@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts the vertical selection at the cursor position (or at the pointed position on the ruler).
+Inserts a vertical selection at the cursor position (or the position pointed to on the ruler).
 
 ## Description
 
@@ -11,8 +11,7 @@ Inserts the vertical selection at the cursor position (or at the pointed positio
 ## How to Run
 
 - Default Menu: **Edit** \> **Vertical Selection**
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Vertical Selection**
+- [All Commands](../tools/all_commands): **Edit** \> **Selection Mode** \> **Vertical Selection**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

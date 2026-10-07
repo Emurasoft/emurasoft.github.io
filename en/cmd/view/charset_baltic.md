@@ -1,5 +1,4 @@
-# Display in Baltic font command
-
+# Baltic Font command
 ## Summary
 
 Displays text in a Baltic font.

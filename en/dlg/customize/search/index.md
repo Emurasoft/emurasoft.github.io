@@ -30,7 +30,7 @@ If this is checked, EmEditor will display a dialog box to prompt the user when a
 
 If this is checked, the focus will be switched to the editor after searching using the Find Toolbar.
 
-## Close if ESC is pressed checkbox
+## Close when Esc is pressed checkbox
 
 If this is checked, the Find Toolbar as well as the Filter Toolbar will be closed when you press the ESC key.
 

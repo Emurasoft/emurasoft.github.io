@@ -2,7 +2,7 @@
 
 ## Summary
 
-Compares the two most recently viewed documents with the choice to specify options.
+Compares the two most recently viewed documents with an option to specify settings.
 
 ## Description
 

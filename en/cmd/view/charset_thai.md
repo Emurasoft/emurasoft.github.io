@@ -1,5 +1,4 @@
-# Display in Thai font command
-
+# Thai Font command
 ## Summary
 
 Displays text in a Thai font.

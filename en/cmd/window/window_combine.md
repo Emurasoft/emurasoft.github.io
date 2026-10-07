@@ -2,7 +2,7 @@
 
 ## Summary
 
-Enables tabs to combine or disable tabs to separate all windows.
+Enables tabs to combine windows, or disables tabs to separate all windows.
 
 ## Description
 

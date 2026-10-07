@@ -2,7 +2,7 @@
 
 ## Summary
 
-Deletes the word at the current cursor position.
+Deletes the word at the cursor.
 
 ## Description
 

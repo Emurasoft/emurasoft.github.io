@@ -2,7 +2,7 @@
 
 ## Summary
 
-Unhides the selected columns or current column.
+Unhides the selected columns or the current column.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Customizes Plug-ins.
+Customizes plug-ins.
 
 ## Description
 

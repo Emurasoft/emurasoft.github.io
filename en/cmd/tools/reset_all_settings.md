@@ -1,5 +1,4 @@
-# Reset All Setting command
-
+# Reset All Settings command
 ## Summary
 
 Resets all EmEditor settings and restarts EmEditor.

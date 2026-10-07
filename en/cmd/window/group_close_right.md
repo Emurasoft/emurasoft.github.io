@@ -2,7 +2,7 @@
 
 ## Summary
 
-Closes all right documents in the current group.
+Closes all documents to the right in the current group.
 
 ## Description
 

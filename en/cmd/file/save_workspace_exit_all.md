@@ -2,7 +2,7 @@
 
 ## Summary
 
-Saves the workspace, saves and closes all open files.
+Saves the workspace, then saves and closes all open files.
 
 ## Description
 

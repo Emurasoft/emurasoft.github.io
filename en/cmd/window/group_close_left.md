@@ -2,7 +2,7 @@
 
 ## Summary
 
-Closes all left documents windows in the current group.
+Closes all documents to the left in the current group.
 
 ## Description
 

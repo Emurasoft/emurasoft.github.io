@@ -2,8 +2,7 @@
 
 ## Summary
 
-Moves the cursor one tab character to the left, or decreases the line
-indent.
+Moves the cursor one tab stop to the left, or decreases the line indent.
 
 ## Description
 
@@ -15,9 +14,7 @@ selected line.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
-\> **Reverse Tab/Decrease Line**
-**Indent**
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally** \> **Reverse Tab/Decrease Line Indent**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

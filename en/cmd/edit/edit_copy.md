@@ -2,7 +2,7 @@
 
 ## Summary
 
-Copies the selection or the current line and pastes it to the Clipboard.
+Copies the selection or the current line to the Clipboard.
 
 ## Description
 

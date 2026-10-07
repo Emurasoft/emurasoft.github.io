@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a character with an acute accent mark.
+Inserts a character with an acute accent by typing a, d, e, i, o, u, y, A, D, E, I, O, U, Y, ' or ".
 
 ## Description
 

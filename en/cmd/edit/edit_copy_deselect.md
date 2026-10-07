@@ -2,7 +2,7 @@
 
 ## Summary
 
-Copies the selection, pastes it to the Clipboard and deselects the text.
+Copies the selection to the Clipboard and deselects it.
 
 ## Description
 

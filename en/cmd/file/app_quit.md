@@ -1,5 +1,4 @@
-# Close without Save command
-
+# Close without Saving command
 ## Summary
 
 Closes the current file without saving.

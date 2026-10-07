@@ -2,7 +2,7 @@
 
 ## Summary
 
-Add or remove user-defined guide at the cursor position (or at the pointed position on the ruler).
+Adds or removes a user-defined guide at the cursor position (or the position pointed to on the ruler).
 
 ## Description
 

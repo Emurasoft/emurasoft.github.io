@@ -2,7 +2,7 @@
 
 ## Summary
 
-Saves options to compare or to synchronize scrolling.
+Saves options for comparing or synchronizing scrolling.
 
 ## Description
 

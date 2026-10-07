@@ -35,8 +35,8 @@ Click this button to show the list of available commands.
 
 |     |     |
 | --- | --- |
-| **Current File Type** | When this is checked, the dialog box initializes the File Types drop-down list using the current file type. |
-| **Current File Extension** | When this is checked, the dialog box initializes the File Types drop-down list using the current file extension. |
+| **Current File Type** | When this is checked, the dialog box initializes the File Types drop-down list using the current file type. |
+| **Current File Extension** | When this is checked, the dialog box initializes the File Types drop-down list using the current file extension. |
 | **Current File** | When this is checked, the dialog box initializes the File Types drop-down list using the current file. |
 | **Last Used Value** | When this is checked, the dialog box initializes the File Types drop-down list box with the last used string. |
 | **Fixed value** | When this is checked, the dialog box initializes the File Types drop-down list box with the string set as the fixed value. |
@@ -167,7 +167,7 @@ Selects how results are displayed.
 | **Display file names and matched strings** | File names and matched strings will be displayed. |
 | **Display file names, lines, and matched lines (Truncate long lines)** | File names, line numbers, and the whole lines containing the searched string will be displayed as results. Long lines will be truncated. |
 
-## Stop when the number of matches reaches checkbox/text box
+## Stop if number of matches reaches checkbox/text box
 
 EmEditor will stop searching files if the number of matches reaches the specified value when this checkbox is set.
 

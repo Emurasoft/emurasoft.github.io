@@ -2,7 +2,7 @@
 
 ## Summary
 
-Jumps to the next location in the Output Bar.
+Jumps to the next location in the Output Bar or Syntax Checker.
 
 ## Description
 

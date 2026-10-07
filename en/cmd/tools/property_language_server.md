@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Language Server properties.
+Language Server properties for the current configuration.
 
 ## Description
 

@@ -27,7 +27,7 @@ Plays extra sounds for alerts, such as when the cursor can't move anymore when p
 
 ## Switch to the most recently used document for the Next Document command checkbox
 
-If this is checked, the [**Next Document** command](../../../cmd/window/next_window) will switch to the last used document. If not checked, the [**Next** **Document** command](../../../cmd/window/next_window) will switch to the next
+If this is checked, the [**Next** command](../../../cmd/window/next_window) will switch to the last used document. If not checked, the [**Next** **Document** command](../../../cmd/window/next_window) will switch to the next
 document displayed on the tab bar.
 
 ## Close the group when closing a window while tabs are enabled checkbox
@@ -55,7 +55,7 @@ If this is checked, the **Always on Top** status is saved when the [**Always on 
 
 If this is checked, a new group window will bond to the other window when you select the **New Horizontal Group** or **New Vertical Group** command. Bonded windows will keep the same z-level when they are minimized or restored. For instance, if you minimize one window, the other bonded window will also minimize. If you bring one window foreground, the other bonded window will also be brought foreground. This option will also affect the default behavior of comparison result windows.
 
-## Show the modification mark on the left side of file name checkbox
+## Show the modification mark on the left side of the file name checkbox
 
 If this is checked, EmEditor will show the modification mark on the left side of a file name.
 

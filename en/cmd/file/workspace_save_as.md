@@ -2,7 +2,7 @@
 
 ## Summary
 
-Saves the workspace as a new file name.
+Saves the workspace with a new file name.
 
 ## Description
 
@@ -12,9 +12,9 @@ restore the positions and settings saved by this command.
 
 ## How to Run
 
-- Default Menu: **File > Workspace** \> **Save As Workspace**
+- Default Menu: **File** \> **Workspace** \> **Save Workspace As**
 - [All Commands](../tools/all_commands): **File** \> **Workspace**
-\> **Save As Workspace**
+\> **Save Workspace As**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

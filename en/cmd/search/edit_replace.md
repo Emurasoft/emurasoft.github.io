@@ -2,7 +2,7 @@
 
 ## Summary
 
-Replaces a string.
+Replaces text.
 
 ## Description
 
@@ -14,8 +14,7 @@ will start replacing the specified string.
 ## How to Run
 
 - Default Menu: **Search** \> **Replace**
-- [All Commands](../tools/all_commands): **Search**
-\> **Replace**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Replace**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+H

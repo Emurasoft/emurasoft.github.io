@@ -1,8 +1,7 @@
-# Go to EmEditor Home page command
-
+# Go to EmEditor Home Page command
 ## Summary
 
-Opens the EmEditor web site.
+Opens the EmEditor website.
 
 ## Description
 

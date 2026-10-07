@@ -2,7 +2,7 @@
 
 ## Summary
 
-Switches to the previous pane or the custom bar.
+Switches to the previous pane or custom bar.
 
 ## Description
 
@@ -21,18 +21,18 @@ Moves the cursor to the previous pane, if the window is split into multiple pane
 ## Plug-in Command ID
 
 ```
-EEID_PREV_PANE_OR_BAR (4554)```
+EEID_PREV_PANE_OR_BAR (4553)```
 
 ## Macros
 
 ### \[JavaScript\]
 
 ```
-editor.ExecuteCommandByID(4554);
+editor.ExecuteCommandByID(4553);
 ```
 
 ### \[VBScript\]
 
 ```
-editor.ExecuteCommandByID 4554
+editor.ExecuteCommandByID 4553
 ```

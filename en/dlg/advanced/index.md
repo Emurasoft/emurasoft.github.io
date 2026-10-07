@@ -2,7 +2,7 @@
 
 This dialog box appears when the **Advanced** button is selected in the [**Find** dialog box](../find/index), [**Replace** dialog box](../replace/index), [**Find in Files** dialog box](../find_in_files/index) or the [**Replace in Files** dialog box](../replace_in_files/index).
 
-## Match only embedded newlines in CSV checkbox
+## Match only embedded newline characters in CSV checkbox
 
 If this box is checked, EmEditor matches only embedded newlines in CSV documents.
 
@@ -10,7 +10,7 @@ If this box is checked, EmEditor matches only embedded newlines in CSV documents
 
 If this box is checked, EmEditor will treat CR and LF separately. In case Find in Files and Replace in Files, EmEditor will treat CR and LF separately if the Use Regular Expressions is checked regardless of this option.
 
-## Regular expressions “.” can match newline characters checkbox
+## Regular expression “.” can match newline characters checkbox
 
 Specifies whether a period can match newline characters when searching for a string using a regular expression. A regular expression \\s can match newline characters when a number greater than zero is specified in the **Additional Lines to Search for Regular Expressions** text box even if this is not checked. Except for the [**Find in Files** command](../../cmd/search/grep), the actual number of lines that can be matched depends on the number specified in the **Additional Lines to Search for Regular Expressions** text box.
 
@@ -65,11 +65,11 @@ Checks whether the folder specified in the **In Folder** drop-down list box, and
 
 If this box is checked, EmEditor will append encoding names to file names in the Find in Files results. This option is useful when the **Detect All** option is set in the [**File** page](../properties/file/index) of configuration properties, and when you want to check the encodings of searched files.
 
-## Oldest date modified date box
+## Oldest date modified box
 
 Specifies the oldest date modified to search files if this checkbox is set.
 
-## Newest date modified date box
+## Newest date modified box
 
 Specifies the newest date modified to search files if this checkbox is set. If only the **Oldest date modified** is set, EmEditor searches files newer than the specified date. If only the **Newest date modified** is set, EmEditor searches files older than the specified date. If neither of them is set, EmEditor searches all files regardless of file dates.
 

@@ -1,8 +1,7 @@
-# Search All Open Documents (Find toolbar) command
-
+# Search All Documents in the Group (Find Toolbar) command
 ## Summary
 
-Toggles the Search All Open Documents button on the Find toolbar.
+Toggles the Search All Documents in the Group button on the Find toolbar.
 
 ## Description
 
@@ -11,8 +10,7 @@ Toggles the Search All Open Documents button on the Find toolbar. Using the **Fi
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Toolbar** \> **Search All Open Documents**
+- [All Commands](../tools/all_commands): **Search** \> **Find Toolbar** \> **Search All Documents in the Group**
 - Toolbar: ![](../../images/find_open_doc.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

@@ -1,5 +1,4 @@
-# Display in Japanese font command
-
+# Japanese Font command
 ## Summary
 
 Displays text in a Japanese font.

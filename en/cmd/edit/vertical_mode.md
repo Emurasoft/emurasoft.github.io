@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles the sticky vertical mode.
+Toggles sticky vertical mode.
 
 ## Description
 

@@ -20,7 +20,7 @@ Moves the current document to the previous tab position. You can use this comman
 ## Plug-in Command ID
 
 ```
-EEID_MOVE_PREV (4383)```
+EEID_WINDOW_MOVE_PREV (4383)```
 
 ## Macros
 

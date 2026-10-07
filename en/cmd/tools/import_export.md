@@ -1,8 +1,7 @@
-# Import and Export command
-
+# Import and Export Wizard command
 ## Summary
 
-Displays a Wizard to import settings from a file or to export current settings into a file.
+Displays a wizard to import settings from a file or export the current settings to a file.
 
 ## Description
 

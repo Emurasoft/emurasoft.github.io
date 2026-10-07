@@ -12,8 +12,7 @@ Extends the selection down one page. The cursor moves a half page if the **Scrol
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Vertically**
-\> **Page Down**
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection** \> **Page Down Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: SHIFT+PAGE DOWN

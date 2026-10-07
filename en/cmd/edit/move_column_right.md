@@ -2,7 +2,7 @@
 
 ## Summary
 
-Moves the selected columns or the current column of the CSV document right one column.
+Moves the selected columns, or the current column, one column to the right in a CSV document.
 
 ## Description
 

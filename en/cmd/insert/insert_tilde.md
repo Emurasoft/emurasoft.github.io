@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a character with a tilde accent mark.
+Inserts a character with a tilde by typing a, n, o, A, N or O.
 
 ## Description
 

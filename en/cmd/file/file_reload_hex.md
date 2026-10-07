@@ -15,12 +15,12 @@ editing the document.
 
 ## How to Run
 
-- Default Menu: **File** \> **Reload** \> **Binary (Hex View)**
+- Default Menu: **File** \> **Reload** \> **Binary (Hexadecimal View)**
 - [All Commands](../tools/all_commands): **File** \> **Reload**
-\> **Binary (Hex View)**
+\> **Binary (Hexadecimal View)**
 - Toolbar: ![](../../images/reload.png) (on
 the arrow) > **System Default**
-- Status Bar: (double-click on **Encodings**) \> **Binary (Hex View)**
+- Status Bar: (double-click on **Encodings**) \> **Binary (Hexadecimal View)**
 - Default Shortcut Key: None
 
 ## Plug-in Command ID

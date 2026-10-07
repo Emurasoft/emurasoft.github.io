@@ -2,7 +2,7 @@
 
 ## Summary
 
-Cuts the selection and moves it to the Clipboard.
+Cuts the selection to the Clipboard.
 
 ## Description
 

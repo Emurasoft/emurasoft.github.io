@@ -2,7 +2,7 @@
 
 ## Summary
 
-Bookmark all changed lines.
+Bookmarks all changed lines.
 
 ## Description
 

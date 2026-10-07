@@ -15,12 +15,12 @@ Shows a warning message if trying to open non-existent files.
 
 Shows an additional warning message if trying to open non-existent files in a network path.
 
-## Always add to Recent Documents folder checkbox
+## Always add to the Recent Documents folder checkbox
 
 Save the shortcuts to the Windows **My Recent Documents** folder when you
 open or save files. This checkbox must be on in order for the recent category in the Windows 7 jump list to include the recently used items.
 
-## Use uchardet to detect file encodings when the Detect All option is enabled checkbox
+## Use uchardet to detect file encodings when Detect All is enabled checkbox
 
 When the **Detect All** option is used to open files, EmEditor will use **[uchardet](https://github.com/BYVoid/uchardet)** (C++ fork of Mozilla Charset Detectors) to detect file encoding.
 
@@ -56,11 +56,11 @@ If this is checked, EmEditor automatically displays the Large File Controller wh
 
 If this is checked, EmEditor will display a prompt dialog box if EmEditor loads only a portion of a file specified in the **From (default)** and **To (default)** text boxes.
 
-## Prompt when default Open Filter exists checkbox
+## Prompt when a default Open Filter exists checkbox
 
 If this is checked, EmEditor will display a prompt dialog box if the **Open Filter** exists. The **Open Filter** can be set in the **Large File Controller**.
 
-## Prompt if a Unicode (UTF-16) file size is an odd number of bytes checkbox
+## Prompt when a Unicode (UTF-16) file size is an odd number of bytes checkbox
 
 If this is checked, EmEditor will display a prompt dialog box if a Unicode (UTF-16) file size is an odd number in bytes.
 

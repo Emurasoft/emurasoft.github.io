@@ -2,7 +2,7 @@
 
 ## Summary
 
-Hides the selected columns or current column.
+Hides the selected columns or the current column.
 
 ## Description
 

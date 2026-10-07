@@ -2,7 +2,7 @@
 
 ## Summary
 
-Synchronizes scrolling of two recently viewed documents without specifying options.
+Synchronizes scrolling between the two most recently viewed documents without prompting for options.
 
 ## Description
 
@@ -10,9 +10,8 @@ Synchronizes scrolling of the two most recently viewed documents without specify
 
 ## How to Run
 
-- Default Menu: **Compare** \> **Synchronize Scrolling Direct**
-- [All Commands](../tools/all_commands): **Compare** \> **Synchronize Scrolling**
-**Direct**
+- Default Menu: **Compare** \> **Synchronize Scrolling Directly**
+- [All Commands](../tools/all_commands): **Compare** \> **Synchronize Scrolling Directly**
 - Toolbar: ![](../../images/sync24x16.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

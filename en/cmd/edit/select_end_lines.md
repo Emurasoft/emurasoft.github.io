@@ -2,7 +2,7 @@
 
 ## Summary
 
-Selects the ending of lines in the selection.
+Selects the end of each line in the selection.
 
 ## Description
 

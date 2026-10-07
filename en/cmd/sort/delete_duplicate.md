@@ -2,7 +2,7 @@
 
 ## Summary
 
-Deletes duplicate lines in the selection or in the entire document.
+Deletes duplicate lines in the selection or the entire document.
 
 ## Description
 

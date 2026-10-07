@@ -2,7 +2,7 @@
 
 ## Summary
 
-Repeats the last run command.
+Repeats the last command.
 
 ## Description
 

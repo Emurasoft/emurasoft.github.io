@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles newline characters, EOF and tab marks.
+Shows or hides newline, EOF, and tab marks.
 
 ## Description
 
@@ -13,8 +13,7 @@ the **[Configuration Properties](../../dlg/properties/index)** dialog box.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** >
-**Marks** \> **Marks (Returns, EOF and Tabs)**
+- [All Commands](../tools/all_commands): **View** \> **Marks** \> **Marks (Newline Characters, EOF and Tabs)**
 - Toolbar: ![](../../images/marks.png)
 - Status Bar: None
 - Default Shortcut Key: None

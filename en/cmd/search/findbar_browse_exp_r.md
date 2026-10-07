@@ -1,5 +1,4 @@
-# Browse Replace Expressions (Find toolbar) command
-
+# Browse Replace Expressions (Find Toolbar) command
 ## Summary
 
 Browses regular expressions or escape sequences for the Replace string.

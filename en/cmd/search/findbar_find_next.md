@@ -1,5 +1,4 @@
-# Find Next (Find toolbar) command
-
+# Find Next (Find Toolbar) command
 ## Summary
 
 Finds the next occurrence using the Find toolbar.

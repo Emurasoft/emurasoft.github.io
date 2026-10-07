@@ -2,7 +2,7 @@
 
 ## Summary
 
-Undo the last action.
+Undoes the last action.
 
 ## Description
 

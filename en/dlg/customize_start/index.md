@@ -6,7 +6,7 @@ This dialog box appears when the **Customize** button in the **Start** window is
 
 If this is checked, the Start window appears when EmEditor opens as a new document.
 
-## Show the Start window when the Down key is pressed on a new document checkbox
+## Show the Start window when the Down key is pressed in a new document checkbox
 
 If this is checked, the Start window appears when the Down key is pressed on a new document.
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts spaces for tabs.
+Inserts spaces instead of tabs.
 
 ## Description
 

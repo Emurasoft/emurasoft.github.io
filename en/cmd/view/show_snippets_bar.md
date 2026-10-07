@@ -2,7 +2,7 @@
 
 ## Summary
 
-Shows or hides the Snippets toolbar.
+Shows or hides the snippets toolbar.
 
 ## Description
 

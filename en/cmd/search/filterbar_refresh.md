@@ -2,7 +2,7 @@
 
 ## Summary
 
-Refreshes the document with the current filter settings.
+Refreshes the document using the current filter settings.
 
 ## Description
 

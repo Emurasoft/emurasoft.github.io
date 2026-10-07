@@ -2,7 +2,7 @@
 
 The **CSV Options** page allows you to customize settings related to the CSV options.
 
-## Drag separators only in headings and the ruler with the mouse checkbox
+## Drag separators only in headings and the ruler checkbox
 
 Specifies whether separators can be dragged with the mouse only in headings and the ruler. If this is not checked, separators can be dragged everywhere in the document.
 
@@ -46,11 +46,11 @@ If this is checked, EmEditor automatically displays the column header when a CSV
 
 Uses alphabetical characters for the column header.
 
-## Use Zero-Based Characters for Column Header checkbox
+## Use Zero-Based Numerical Characters for Column Header checkbox
 
 Uses zero-based numerical characters for the column header.
 
-## Enable AutoFill in cell selection mode checkbox
+## Enable AutoFill handle in cell selection mode checkbox
 
 If this is checked, **AutoFill handle** will be displayed at the bottom right corner of the selected cell border under the CSV selection mode. You can drag the handle to continue a series or pattern into neighboring cells. Double-clicking the AutoFill handle while the selected cell is at the top of the CSV document, the above behavior can be applied to the entire column of the document.
 
@@ -58,7 +58,7 @@ If this is checked, **AutoFill handle** will be displayed at the bottom right co
 
 If this is checked, you can drag a border of the selected cell(s) to move or copy the selection. While the whole columns or line(s) are selected, dropping with the SHIFT key reorders the columns or line(s).
 
-## Keep number of columns same while editing in cell selection mode checkbox
+## Keep number of columns the same while editing in cell selection mode checkbox
 
 If this is checked, EmEditor keeps the number of columns same while editing in the cell selection mode.
 
@@ -66,7 +66,7 @@ If this is checked, EmEditor keeps the number of columns same while editing in t
 
 If this is checked, pressing the TAB key to go to the next cell will cause a new cell created if the current cell is the rightmost cell.
 
-## Double-click header/line numbers to create a new column/line checkbox
+## Double-click headers/line numbers to create a new column/line checkbox
 
 If this is checked, double-clicking the header or line numbers causes EmEditor to create a new column or line.
 
@@ -78,7 +78,7 @@ If this is checked, double-clicking outside of editable cells will cause EmEdito
 
 If this is checked, number columns are right-aligned automatically when a CSV file is opened or when a CSV mode is selected.
 
-## Prompt when CSV Syntax Check is still running checkbox
+## Prompt when the CSV syntax check is still running checkbox
 
 If this is checked, EmEditor shows a message box to abort CSV syntax check when CSV Syntax Check is still running.
 
@@ -86,7 +86,7 @@ If this is checked, EmEditor shows a message box to abort CSV syntax check when 
 
 Specifies the default value of column width.
 
-## Max column width text box
+## Maximum column width text box
 
 Specifies the maximum value of column width when columns are automatically adjusted.
 

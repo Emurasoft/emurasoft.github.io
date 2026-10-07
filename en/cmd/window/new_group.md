@@ -2,7 +2,7 @@
 
 ## Summary
 
-Detaches the current document from combined windows as a new group.
+Detaches the current document from the combined window as a new group.
 
 ## Description
 

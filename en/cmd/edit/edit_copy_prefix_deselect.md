@@ -2,8 +2,7 @@
 
 ## Summary
 
-Copies the selection in quotes, pastes it to the Clipboard and deselects
-text.
+Copies the selection in quotation marks to the Clipboard and deselects it.
 
 ## Description
 

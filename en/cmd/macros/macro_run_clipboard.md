@@ -2,7 +2,7 @@
 
 ## Summary
 
-Run the clipboard macro.
+Runs the clipboard macro.
 
 ## Description
 
@@ -10,9 +10,9 @@ Runs the clipboard macro.
 
 ## How to Run
 
-- Default Menu: **Macros** \> **Run Clipboard**
+- Default Menu: **Macros** \> **Run from Clipboard**
 - [All Commands](../tools/all_commands): **Macros**
-\> **Run Clipboard**
+\> **Run from Clipboard**
 - Toolbar: None
 
 - Status Bar: None

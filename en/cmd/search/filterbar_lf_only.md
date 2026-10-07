@@ -11,8 +11,7 @@ Toggles the LF Only command on the Filter toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Filter Toolbar** \> **Match Newline Characters** \> **LF Only**
+- [All Commands](../tools/all_commands): **Search** \> **Filter Toolbar** \> **LF Only**
 - Toolbar: ![](../../images/match_newline_characters.png) \+ LF Only (Filter toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

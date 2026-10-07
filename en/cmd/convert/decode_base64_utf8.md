@@ -2,7 +2,7 @@
 
 ## Summary
 
-Decodes the selected Base64 encoded text to plain text using the UTF-8 encoding.
+Decodes the selected Base64-encoded text to plain text using UTF-8.
 
 ## Description
 
@@ -11,7 +11,7 @@ Decodes the selected Base64 encoded text to plain text using the UTF-8 encoding.
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **Base64 to Plain Text (UTF-8)**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Base64 to Plain Text (UTF-8)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **Base64 to Plain Text (UTF-8)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

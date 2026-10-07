@@ -2,7 +2,7 @@
 
 ## Summary
 
-Undo all the previous actions.
+Undoes all previous actions.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Checks for available new versions of EmEditor by connecting to the Emurasoft server.
+Checks for new versions of EmEditor by connecting to the Emurasoft server.
 
 ## Description
 

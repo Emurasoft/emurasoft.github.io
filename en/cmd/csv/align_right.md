@@ -2,7 +2,7 @@
 
 ## Summary
 
-Align text in the selected columns or current column right.
+Aligns text in the selected columns, or the current column, to the right.
 
 ## Description
 

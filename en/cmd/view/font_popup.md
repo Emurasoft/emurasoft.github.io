@@ -2,7 +2,7 @@
 
 ## Summary
 
-Shows a popup menu to select a font.
+Shows a pop-up menu to select a font.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays a popup menu to select tab columns.
+Displays a pop-up menu to select tab columns.
 
 ## Description
 

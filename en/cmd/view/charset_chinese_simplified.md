@@ -1,5 +1,4 @@
-# Display in Simplified Chinese font command
-
+# Simplified Chinese Font command
 ## Summary
 
 Displays text in a Simplified Chinese font.

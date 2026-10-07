@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays EmEditor Macro Reference.
+Displays the EmEditor macro reference.
 
 ## Description
 

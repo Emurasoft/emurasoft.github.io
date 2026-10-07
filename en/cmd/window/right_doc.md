@@ -2,7 +2,7 @@
 
 ## Summary
 
-Switches to the document at the right side on the tab bar.
+Switches to the document to the right on the tab bar.
 
 ## Description
 

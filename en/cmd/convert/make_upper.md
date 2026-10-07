@@ -2,7 +2,7 @@
 
 ## Summary
 
-Converts the selection to all uppercase characters.
+Converts the selection to uppercase.
 
 ## Description
 

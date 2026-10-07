@@ -1,5 +1,4 @@
-# Display in Cyrillic font command
-
+# Cyrillic Font command
 ## Summary
 
 Displays text in a Cyrillic font.

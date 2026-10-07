@@ -1,5 +1,4 @@
-# Previous Document command
-
+# Previous command
 ## Summary
 
 Switches to the previous document.

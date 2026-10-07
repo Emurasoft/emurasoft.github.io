@@ -2,7 +2,7 @@
 
 ## Summary
 
-Adds the current file to the list of favorites.
+Adds the current file to the favorites list.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Shows or hides the Find toolbar.
+Shows or hides the find toolbar.
 
 ## Description
 

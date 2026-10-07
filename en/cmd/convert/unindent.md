@@ -2,7 +2,7 @@
 
 ## Summary
 
-Decreases line indent at the selected area.
+Decreases the line indent in the selection.
 
 ## Description
 

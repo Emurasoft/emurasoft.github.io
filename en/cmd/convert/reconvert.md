@@ -2,7 +2,7 @@
 
 ## Summary
 
-Reconverts the selection using an IME capable of re-conversion.
+Reconverts the selection using an IME that supports reconversion.
 
 ## Description
 

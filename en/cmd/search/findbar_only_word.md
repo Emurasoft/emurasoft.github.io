@@ -1,5 +1,4 @@
-# Match Whole Word (Find toolbar) command
-
+# Match Whole Word (Find Toolbar) command
 ## Summary
 
 Toggles the Match Whole Word button on the Find toolbar.
@@ -12,8 +11,7 @@ Toggles the Match Whole Word button on the Find toolbar. When this command is to
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Toolbar** \> **Search Only Word**
+- [All Commands](../tools/all_commands): **Search** \> **Find Toolbar** \> **Match Whole Word**
 - Toolbar: ![](../../images/find_only_word.png) (Find toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

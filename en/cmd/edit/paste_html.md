@@ -2,7 +2,7 @@
 
 ## Summary
 
-Pastes Clipboard contents as the HTML format.
+Pastes the contents of the Clipboard as HTML.
 
 ## Description
 
@@ -20,7 +20,7 @@ Pastes Clipboard contents as the HTML format.
 ## Plug-in Command ID
 
 ```
-EEID_EDIT_PASTE_HTML (4071)```
+EEID_PASTE_HTML (4071)```
 
 ## Macros
 

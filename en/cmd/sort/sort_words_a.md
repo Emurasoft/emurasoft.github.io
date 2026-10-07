@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sorts text at the current column by the number of words in ascending order.
+Sorts text in the current column by word count in ascending order.
 
 ## Description
 

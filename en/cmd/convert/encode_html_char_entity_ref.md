@@ -11,7 +11,7 @@ Encodes the selected text to HTML Character Entity Reference.
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **Unicode to HTML Character Entity Reference**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode to HTML Character Entity Reference**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **Unicode to HTML Character Entity Reference**
 - Toolbar:
 None
 - Status Bar: None

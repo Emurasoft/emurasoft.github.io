@@ -2,7 +2,7 @@
 
 ## Summary
 
-Copies the selected columns or current column and pastes it to the Clipboard.
+Copies the selected columns or the current column to the Clipboard.
 
 ## Description
 

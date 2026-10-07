@@ -2,7 +2,7 @@
 
 ## Summary
 
-Disables always on top.
+Does not keep this window always on top.
 
 ## Description
 

@@ -1,8 +1,7 @@
-# User Defined DSV Mode command
-
+# User-Defined DSV Mode command
 ## Summary
 
-Selects the user-defined DSV (Delimiter-separated) mode.
+Switches to user-defined DSV (delimiter-separated) mode.
 
 ## Description
 

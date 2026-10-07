@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a character with a diaeresis (umlaut) accent mark.
+Inserts a character with a diaeresis by typing a, e, i, o, u, y, A, E, I, O, U or Y.
 
 ## Description
 

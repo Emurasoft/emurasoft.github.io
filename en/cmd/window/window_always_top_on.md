@@ -2,7 +2,7 @@
 
 ## Summary
 
-Enables always on top.
+Keeps this window always on top.
 
 ## Description
 

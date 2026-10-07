@@ -2,7 +2,7 @@
 
 ## Summary
 
-Uses zero-based numerical characters for the column header.
+Uses zero-based numbering for the column header.
 
 ## Description
 

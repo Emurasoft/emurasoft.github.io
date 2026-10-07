@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sorts columns of the CSV document.
+Sorts columns in the CSV document.
 
 ## Description
 

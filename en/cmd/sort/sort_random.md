@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sorts randomly in the current column.
+Sorts the current column randomly.
 
 ## Description
 

@@ -20,7 +20,7 @@ Toggles the Use Escape Sequence button on the Filter toolbar.
 ## Plug-in Command ID
 
 ```
-EEID_FILTERBAR_REG_EXP(3909)```
+EEID_FILTERBAR_ESCAPE (3909)```
 
 ## Macros
 

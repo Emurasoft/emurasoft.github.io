@@ -2,7 +2,7 @@
 
 ## Summary
 
-Removes unnecessary double-quotes in CSV documents.
+Removes unnecessary double quotes in a CSV document.
 
 ## Description
 

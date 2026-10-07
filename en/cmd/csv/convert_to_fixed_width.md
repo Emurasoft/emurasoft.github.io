@@ -2,7 +2,7 @@
 
 ## Summary
 
-Converts the current separated value document to the fixed width columns using the current separator positions.
+Converts the current separated value document to fixed-width columns using the current separator positions.
 
 ## Description
 

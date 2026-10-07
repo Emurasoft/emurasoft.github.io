@@ -1,8 +1,7 @@
-# Reload (popup menu) command
-
+# Reload (Pop-up Menu) command
 ## Summary
 
-Shows a popup menu to select an encoding to reload the file with.
+Shows a pop-up menu to select an encoding to reload the file with.
 
 ## Description
 
@@ -19,8 +18,7 @@ will abort reloading and will allow you to continue editing the document.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **Reload**
-\> **Popup Menu**
+- [All Commands](../tools/all_commands): **File** \> **Reload** \> **Pop-up Menu**
 - Toolbar: ![](../../images/reload.png) (on
 the arrow)
 - Status Bar: double-click on Encodings

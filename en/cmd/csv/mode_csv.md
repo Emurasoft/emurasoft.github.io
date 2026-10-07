@@ -2,7 +2,7 @@
 
 ## Summary
 
-Selects the CSV (Comma-separated) mode.
+Switches to CSV (comma-separated) mode.
 
 ## Description
 

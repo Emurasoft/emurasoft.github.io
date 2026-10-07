@@ -2,7 +2,7 @@
 
 ## Summary
 
-Zooms out the minimap.
+Zooms out on the minimap.
 
 ## Description
 

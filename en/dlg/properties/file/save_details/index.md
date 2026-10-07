@@ -47,7 +47,7 @@ Deletes spaces at end of lines when saving documents. Even if this option is ena
 
 If this is checked, when an untitled document is being saved, the first line of the document will be used to name the file.
 
-## Prompt before deleting an old file when renaming checkbox
+## Prompt before deleting the old file when renaming checkbox
 
 If this is checked, EmEditor will display a dialogue box to prompt user before deleting the old file when renaming.
 

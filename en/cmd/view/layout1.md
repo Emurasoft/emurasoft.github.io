@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles this layout (multiple items).
+Toggles this layout.
 
 ## Description
 
@@ -14,7 +14,7 @@ Toggles this layout (multiple items).
 - [All Commands](../tools/all_commands): **View** \> **Layouts** \> (**Layout**)
 - Toolbar: None
 - Status Bar: None
-- Default Shortcut Key: None
+- Default Shortcut Key: F11
 
 ## Plug-in Command ID
 

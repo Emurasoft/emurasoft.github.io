@@ -2,7 +2,7 @@
 
 ## Summary
 
-Prints the current file on the default printer without previewing.
+Prints the current file on the default printer without prompting for options.
 
 ## Description
 

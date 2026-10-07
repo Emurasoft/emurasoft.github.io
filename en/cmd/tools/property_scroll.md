@@ -2,7 +2,7 @@
 
 ## Summary
 
-Scroll properties for current configuration.
+Scroll properties for the current configuration.
 
 ## Description
 

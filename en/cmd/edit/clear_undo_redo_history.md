@@ -2,7 +2,7 @@
 
 ## Summary
 
-Clears all the undo and redo history.
+Clears all undo and redo history.
 
 ## Description
 

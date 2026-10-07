@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sets or resets lines above and columns left of the current cell non-scrollable.
+Freezes or unfreezes panes above and to the left of the current cell.
 
 ## Description
 

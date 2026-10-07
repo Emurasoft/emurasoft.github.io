@@ -6,7 +6,7 @@ The **Syntax Check** page allows you to customize the syntax checker.
 
 Specifies the syntax checker engine to use for HTML/CSS/JSON documents.
 
-## Disable syntax checking if number of lines exceeds text box
+## Disable syntax checking if the number of lines exceeds text box
 
 Syntax check for HTML/CSS/JSON documents will be disabled if the number of lines in a document exceeds this number.
 
@@ -30,7 +30,7 @@ If this is checked, EmEditor will try resolving external definitions, resolvable
 
 If this is checked, EmEditor will automatically refresh the syntax check highlight.
 
-## Disable automatic refresh if number of lines exceeds text box
+## Disable automatic refresh if the number of lines exceeds text box
 
 Automatic refresh will be disabled if the number of lines in a document exceeds this number.
 

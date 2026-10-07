@@ -1,5 +1,4 @@
-# Display in Hebrew font command
-
+# Hebrew Font command
 ## Summary
 
 Displays text in a Hebrew font.

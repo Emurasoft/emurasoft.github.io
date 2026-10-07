@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a tab at the current cursor position.
+Inserts a tab at the cursor.
 
 ## Description
 

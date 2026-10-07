@@ -2,7 +2,7 @@
 
 ## Summary
 
-Moves the selected columns or the current column of the CSV document left one column.
+Moves the selected columns, or the current column, one column to the left in a CSV document.
 
 ## Description
 

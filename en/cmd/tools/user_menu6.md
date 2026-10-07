@@ -2,8 +2,7 @@
 
 ## Summary
 
-Shows User Menu (6), used as the first shortcut key for two-keystroke
-shortcuts.
+Shows User Menu (6), used as the first key for two-keystroke shortcuts.
 
 ## Description
 
@@ -22,7 +21,7 @@ shortcuts. User Menus can be customized in the [**Menus** page](../../dlg/custom
 ## Plug-in Command ID
 
 ```
-EEID_USER_MENU1 (4434)```
+EEID_USER_MENU6 (4434)```
 
 ## Macros
 

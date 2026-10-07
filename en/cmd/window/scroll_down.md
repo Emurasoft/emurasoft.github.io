@@ -1,5 +1,4 @@
-# Scroll Line Down command
-
+# Line Scroll Down command
 ## Summary
 
 Scrolls the document down by one line.

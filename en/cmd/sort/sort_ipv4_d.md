@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sorts IPv4 addresses in the current column, in descending order.
+Sorts IPv4 addresses in the current column in descending order.
 
 ## Description
 
@@ -10,7 +10,7 @@ Sorts IPv4 addresses in the current column, in descending order.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Sort** \> **Sort IPv4 Addresses Descending**
+- Default Menu: **Sort** \> **Sort IPv4 Addresses Descending**
 - [All Commands](../tools/all_commands): **Sort** \> **Sort IPv4 Addresses Descending**
 - Toolbar: None
 - Status Bar: None

@@ -1,5 +1,4 @@
-# Reload as UTF-16LE command
-
+# Reload as Unicode command
 ## Summary
 
 Reloads the current file using Unicode (UTF-16LE) encoding.
@@ -15,7 +14,7 @@ editing the document.
 ## How to Run
 
 - Default Menu: **File** \> **Reload** \> **UTF-16LE**
-- [All Commands](../tools/all_commands): **File** \> **Reload UTF-16LE**
+- [All Commands](../tools/all_commands): **File** \> **Reload** \> **UTF-16LE**
 - Toolbar: ![](../../images/reload.png) (on
 the arrow) > **UTF-16LE**
 - Status Bar: (double-click on the **Encoding**) \> **UTF-16LE**

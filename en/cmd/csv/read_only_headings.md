@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggle the option to make the column headings as read only.
+Toggles the option to make column headings read-only.
 
 ## Description
 
@@ -11,7 +11,7 @@ Toggle the option to make the column headings as read only.
 ## How to Run
 
 - Default Menu: **CSV** \> **Headings (Freeze Panes)** \> **Read Only in Column Headings**
-- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Read Only in Column Headings**
+- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Read Only in Headings**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

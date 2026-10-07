@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays a dialog box to specify settings and deletes or set bookmarks at duplicate lines in the selection or in the entire document.
+Displays a dialog box to specify settings and deletes or bookmarks duplicate lines in the selection or the entire document.
 
 ## Description
 

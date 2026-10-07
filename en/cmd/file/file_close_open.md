@@ -16,7 +16,7 @@ this command behaves the same as the [**Open** command](file_open).
 
 ## How to Run
 
-- Default Menu: **File** \> **Close and Open**
+- Default Menu: None
 - [All Commands](../tools/all_commands): **File** \> **Open**
 \> **Close and Open**
 - Toolbar:

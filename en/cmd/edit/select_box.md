@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles column selection mode.
+Toggles vertical selection mode.
 
 ## Description
 
@@ -16,8 +16,7 @@ mode.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection** \> **Select**
-**Vertically**
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection** \> **Select Vertically**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+Shift+F8

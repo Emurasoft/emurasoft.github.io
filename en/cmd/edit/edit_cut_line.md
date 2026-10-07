@@ -2,7 +2,7 @@
 
 ## Summary
 
-Cuts the selected lines or current line and moves it to the Clipboard.
+Cuts the selected lines or the current line to the Clipboard.
 
 ## Description
 
@@ -11,7 +11,7 @@ this command, you can place the line by moving the cursor to a different locatio
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Advanced** \> **Cut Lines**
+- Default Menu: **Edit** \> **Advanced** \> **Cut Line**
 - [All Commands](../tools/all_commands): **Edit** \> **Cut** \> **Cut Lines**
 - Toolbar: None
 - Status Bar: None

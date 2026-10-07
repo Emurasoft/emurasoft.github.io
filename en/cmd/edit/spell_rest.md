@@ -10,8 +10,7 @@ Checks spelling in the rest of the document. Misspelled words will be underlined
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \>
-**Unspecified**
+- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Unspecified Text**
 - [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \>
 **Unspecified Text**
 - Toolbar: None

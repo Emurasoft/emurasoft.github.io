@@ -21,7 +21,7 @@ position on the tab bar.
 ## Plug-in Command ID
 
 ```
-EEID_MOVE_NEXT (4382)```
+EEID_WINDOW_MOVE_NEXT (4382)```
 
 ## Macros
 

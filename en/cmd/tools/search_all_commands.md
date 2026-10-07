@@ -2,7 +2,7 @@
 
 ## Summary
 
-Searches all commands.
+Quickly runs a specified command.
 
 ## Description
 
@@ -10,7 +10,7 @@ Selecting this command will display the **Quick Launch** window, where you can s
 
 ## How to Run
 
-- Default Menu: **Tools** \> **Quick Launch**
+- Default Menu: None
 - [All Commands](all_commands): **Tools**
 \> **Quick Launch**
 - Toolbar: None

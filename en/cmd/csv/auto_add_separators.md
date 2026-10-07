@@ -2,7 +2,7 @@
 
 ## Summary
 
-Automatically detects and adds separators while in the normal mode to prepare for conversion into the fixed width columns.
+Automatically detects and adds separators in Normal mode to prepare for conversion to fixed-width columns.
 
 ## Description
 

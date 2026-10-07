@@ -2,7 +2,7 @@
 
 ## Summary
 
-Decodes the selected Base64 encoded text to plain text using the current encoding.
+Decodes the selected Base64-encoded text to plain text using the current encoding.
 
 ## Description
 
@@ -11,7 +11,7 @@ Decodes the selected Base64 encoded text to plain text using the current encodin
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **Base64 to Plain Text (Current Encoding)**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Base64 to Plain Text (Current Encoding)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **Base64 to Plain Text (Current Encoding)**
 - Toolbar:
 None
 - Status Bar: None

@@ -1,8 +1,7 @@
-# Replace Next (Find toolbar) command
-
+# Replace Next (Find Toolbar) command
 ## Summary
 
-Replaces the next matched string using the Find toolbar.
+Replaces the next match using the Find toolbar.
 
 ## Description
 

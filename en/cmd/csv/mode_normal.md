@@ -2,7 +2,7 @@
 
 ## Summary
 
-Clears the separated value view mode.
+Exits separated value view mode.
 
 ## Description
 

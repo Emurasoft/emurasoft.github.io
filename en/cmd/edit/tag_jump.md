@@ -12,7 +12,7 @@ number in question.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Advanced** \> **Tag Jump**
+- Default Menu: **Edit** \> **Tag Jump**
 - [All Commands](../tools/all_commands): **Edit** \> **Advanced**
 \> **Tag Jump**
 - Toolbar: None

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Keyboard properties.
+Keyboard properties for the current configuration.
 
 ## Description
 

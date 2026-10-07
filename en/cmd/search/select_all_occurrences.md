@@ -2,7 +2,7 @@
 
 ## Summary
 
-Selects all the occurrences of the specified text.
+Selects all occurrences of the specified text.
 
 ## Description
 
@@ -11,8 +11,7 @@ Selects all the occurrences of the specified text in the current document.
 ## How to Run
 
 - Default Menu: **Search** \> **Select All Occurrences**
-- [All Commands](../tools/all_commands): **Search**
-\> **Select All Occurrences**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Select All Occurrences**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: CTRL+Shift+A

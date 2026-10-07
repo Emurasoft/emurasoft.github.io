@@ -2,7 +2,7 @@
 
 ## Summary
 
-Clears the visited URLs, Email addresses, and tag history.
+Clears visited URL, email address, and tag history.
 
 ## Description
 

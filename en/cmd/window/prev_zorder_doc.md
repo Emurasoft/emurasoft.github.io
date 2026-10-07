@@ -2,7 +2,7 @@
 
 ## Summary
 
-Switches to the least accessed document.
+Switches to the least recently accessed document.
 
 ## Description
 

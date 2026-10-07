@@ -2,7 +2,7 @@
 
 ## Summary
 
-Arranges windows so they overlap one another.
+Arranges windows so they overlap.
 
 ## Description
 

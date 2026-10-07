@@ -2,7 +2,7 @@
 
 ## Summary
 
-Opens a link.
+Opens a hyperlink.
 
 ## Description
 
@@ -10,9 +10,8 @@ Opens a hyperlink at the cursor.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Open Link**
-- [All Commands](../tools/all_commands): **Edit** \> **Advanced**
-\> **Open Link**
+- Default Menu: **Edit** \> **Link**
+- [All Commands](../tools/all_commands): **Edit** \> **Advanced** \> **Open Link**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

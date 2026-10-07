@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Local Help.
+Displays local help.
 
 ## Description
 
@@ -10,9 +10,8 @@ Displays Local Help.
 
 ## How to Run
 
-- Default Menu: **Help** \> **Local Help**
-- [All Commands](../tools/all_commands): **Help** >
-**Local Help**
+- Default Menu: **Help** \> **Preference** \> **Local Help**
+- [All Commands](../tools/all_commands): **Help** \> **Preference** \> **Local Help**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

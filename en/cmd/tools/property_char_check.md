@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Character Check properties.
+Character Check properties for the current configuration.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Change font settings.
+Displays the Customize Font dialog box.
 
 ## Description
 

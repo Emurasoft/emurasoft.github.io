@@ -2,7 +2,7 @@
 
 ## Summary
 
-Moves the selected lines or the current line down one line.
+Moves the selected lines or the current line down by one line.
 
 ## Description
 

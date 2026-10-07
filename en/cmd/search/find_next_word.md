@@ -2,7 +2,7 @@
 
 ## Summary
 
-Finds the next occurrence of the current word.
+Finds the next occurrence of the specified text.
 
 ## Description
 
@@ -12,8 +12,7 @@ Otherwise, finds the next occurrence of the word at the cursor position.
 ## How to Run
 
 - Default Menu: **Search** \> **Find Next Word**
-- [All Commands](../tools/all_commands): **Search**
-\> **Find Next Word**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Find Next Word**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: Ctrl+F3

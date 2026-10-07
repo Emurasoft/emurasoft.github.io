@@ -2,7 +2,7 @@
 
 ## Summary
 
-Finds the non-empty shortest line in a non-CSV document or non-empty shortest cell in the current column of a CSV document.
+Finds the shortest non-empty line in a non-CSV document or the shortest non-empty cell in the current column of a CSV document.
 
 ## Description
 

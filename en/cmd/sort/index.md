@@ -19,8 +19,8 @@
 | [**Sort by Similarity**](../sort/sort_similarity) | Sorts by similarity to the current line of the current column. |
 | [**Advanced Sort**](../sort/sort_multi) | Sorts the document by multiple columns or with advanced options. |
 | [**Sort Columns**](sort_columns) | Sorts columns of the CSV document. |
-| **[Delete Duplicate Lines](../sort/delete_duplicate)** | Deletes duplicate lines in the selection or in the entire document. |
-| **[Delete/Bookmark Duplicate Lines (Advanced)](../sort/delete_duplicate_advanced)** | Displays a dialog box to specify settings and deletes or set bookmarks at duplicate lines in the selection or in the entire document. |
+| **[Delete Duplicate Lines](../sort/delete_duplicate)** | Deletes duplicate lines in the selection or the entire document. |
+| **[Delete/Bookmark Duplicate Lines (Advanced)](../sort/delete_duplicate_advanced)** | Displays a dialog box to specify settings and deletes or bookmarks duplicate lines in the selection or the entire document. |
 | [**Sort/Remove Duplicate Split Strings in Selection**](sort_sel) | Sorts or removes duplicate split strings in the selection. |
 
 

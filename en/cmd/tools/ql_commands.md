@@ -2,7 +2,7 @@
 
 ## Summary
 
-Opens the **Quick Launch** window and selects the **Commands** mode.
+Displays the **Quick Launch** window and selects **Commands** mode.
 
 ## Description
 

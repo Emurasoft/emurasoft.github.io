@@ -2,7 +2,7 @@
 
 ## Summary
 
-Redo all the previous actions.
+Redoes all previously undone actions.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Deletes extra spaces at the end of all lines in current document.
+Deletes extra spaces at the end of all lines in the current document.
 
 ## Description
 

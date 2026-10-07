@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles the auto copy mode.
+Toggles auto copy mode.
 
 ## Description
 

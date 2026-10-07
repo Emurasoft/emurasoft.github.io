@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a character with a macron accent mark.
+Inserts a character with a macron accent by typing a letter.
 
 ## Description
 

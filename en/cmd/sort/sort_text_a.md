@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sort text at the current column in ascending order.
+Sorts text in the current column in ascending order.
 
 ## Description
 

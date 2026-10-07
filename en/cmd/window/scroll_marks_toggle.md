@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles the markers on the vertical scroll bar.
+Toggles markers on the vertical scroll bar.
 
 ## Description
 

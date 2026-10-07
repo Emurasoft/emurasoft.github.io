@@ -2,7 +2,7 @@
 
 ## Summary
 
-Runs macro with temporary options.
+Runs a macro with temporary options.
 
 ## Description
 

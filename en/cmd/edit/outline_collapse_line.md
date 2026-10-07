@@ -2,7 +2,7 @@
 
 ## Summary
 
-Collapses the current line while the outlining is displayed.
+Collapses the current line while outlining is displayed.
 
 ## Description
 

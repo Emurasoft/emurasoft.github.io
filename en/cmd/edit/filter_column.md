@@ -2,7 +2,7 @@
 
 ## Summary
 
-Filters the document in the current column with the selected text or the word at cursor.
+Filters the current column using the selected text or the word at the cursor.
 
 ## Description
 

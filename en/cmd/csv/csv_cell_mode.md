@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles the cell selection mode in CSV documents.
+Toggles cell selection mode in CSV documents.
 
 ## Description
 

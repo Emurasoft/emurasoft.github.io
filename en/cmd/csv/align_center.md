@@ -2,7 +2,7 @@
 
 ## Summary
 
-Align text in the selected columns or current column center.
+Centers text in the selected columns, or the current column.
 
 ## Description
 

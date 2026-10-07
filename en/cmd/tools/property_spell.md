@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Spelling properties.
+Spelling properties for the current configuration.
 
 ## Description
 

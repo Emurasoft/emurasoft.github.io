@@ -2,7 +2,7 @@
 
 ## Summary
 
-Wraps lines by specified number of characters.
+Wraps lines by a specified number of characters.
 
 ## Description
 

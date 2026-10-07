@@ -2,8 +2,7 @@
 
 ## Summary
 
-Erases any highlights marking Unicode characters that cannot be converted to the
-encoding for saving.
+Clears highlights marking Unicode characters that cannot be converted to the selected encoding.
 
 ## Description
 

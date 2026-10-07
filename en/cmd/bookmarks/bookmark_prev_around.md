@@ -2,7 +2,7 @@
 
 ## Summary
 
-Goes to the previous bookmark in this document, or goes to the last bookmark in this document if not found.
+Goes to the previous bookmark in this document, or to the last bookmark if none is found.
 
 ## Description
 

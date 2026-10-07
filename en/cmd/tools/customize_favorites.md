@@ -20,18 +20,18 @@ where you can define common application settings.
 ## Plug-in Command ID
 
 ```
-EEID_CUSTOMIZE_FAVORITES (20716)```
+EEID_CUSTOMIZE_FAVORITES (9072)```
 
 ## Macros
 
 ### \[JavaScript\]
 
 ```
-editor.ExecuteCommandByID(20716);
+editor.ExecuteCommandByID(9072);
 ```
 
 ### \[VBScript\]
 
 ```
-editor.ExecuteCommandByID 20716
+editor.ExecuteCommandByID 9072
 ```

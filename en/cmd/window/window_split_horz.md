@@ -12,8 +12,7 @@ position (you can change the orientation later as necessary).
 
 ## How to Run
 
-- Default Menu: **Window**
-\> **Split Horizontally**
+- Default Menu: None
 - [All Commands](../tools/all_commands): **Window**
 \> **Split** \> **Split Horizontally**
 - Toolbar: None

@@ -1,5 +1,4 @@
-# Display in Western European font command
-
+# Western European Font command
 ## Summary
 
 Displays text in a Western European font.

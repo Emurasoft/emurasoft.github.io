@@ -20,7 +20,7 @@ icon.
 Specifies an action when the left mouse button is double-clicked on the tray
 icon.
 
-## Shortcut key to simulate left mouse button text box
+## Shortcut key to simulate a left mouse button click text box
 
 Specifies the shortcut key for the left mouse button. For instance, if you enter N, ALT + CTRL + N can be specified as the shortcut key.
 

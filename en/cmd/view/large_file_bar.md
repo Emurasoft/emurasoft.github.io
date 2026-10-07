@@ -1,5 +1,4 @@
-# Toggle Large File Controller command
-
+# Large File Controller command
 ## Summary
 
 Shows or hides the large file controller.

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Pastes Clipboard contents using the [system default encoding](../../glossary/index).
+Pastes the contents of the Clipboard using the [system default encoding](../../glossary/index).
 
 ## Description
 

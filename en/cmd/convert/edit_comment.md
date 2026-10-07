@@ -2,7 +2,7 @@
 
 ## Summary
 
-Comments out the selection or current line.
+Comments out the selection or the current line.
 
 ## Description
 

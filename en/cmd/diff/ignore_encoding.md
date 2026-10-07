@@ -2,7 +2,7 @@
 
 ## Summary
 
-Ignores encodings when comparing documents.
+Ignores encoding differences when comparing documents.
 
 ## Description
 

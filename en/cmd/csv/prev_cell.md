@@ -2,7 +2,7 @@
 
 ## Summary
 
-Jumps to the previous cell in CSV mode.
+Jumps to the previous cell in CSV, TSV, or DSV mode.
 
 ## Description
 

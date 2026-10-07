@@ -2,7 +2,7 @@
 
 ## Summary
 
-Ignores newline characters at each line when comparing documents.
+Ignores newline characters on each line when comparing documents.
 
 ## Description
 

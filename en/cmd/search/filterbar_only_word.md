@@ -20,7 +20,7 @@ Toggles the Match Whole Word button on the Filter toolbar.
 ## Plug-in Command ID
 
 ```
-EEID_FILTERBAR_REG_EXP(3910)```
+EEID_FILTERBAR_ONLY_WORD (3910)```
 
 ## Macros
 

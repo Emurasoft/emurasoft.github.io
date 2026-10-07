@@ -2,7 +2,7 @@
 
 ## Summary
 
-Moves the cursor to the corresponding tag.
+Moves the cursor to the matching tag.
 
 ## Description
 

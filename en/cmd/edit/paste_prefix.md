@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts the contents of the Clipboard with quotes.
+Inserts the contents of the Clipboard in quotation marks.
 
 ## Description
 

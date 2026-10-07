@@ -6,7 +6,7 @@ The **Shortcut** page allows you to customize settings related to the shortcuts.
 
 In EmEditor, adds a shortcut to the "Send To" menu in Explorer.
 
-## Display a tray icon to the taskbar checkbox
+## Display a tray icon in the taskbar checkbox
 
 Displays an EmEditor tray icon on the Windows Taskbar notification area.
 

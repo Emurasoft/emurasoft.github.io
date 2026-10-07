@@ -11,7 +11,7 @@ Converts the selected text from Markdown to HTML.
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **Markdown to HTML**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Markdown to HTML**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **Markdown to HTML**
 - Toolbar:
 None
 - Status Bar: None

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts the Clipboard contents and newline characters.
+Inserts the contents of the Clipboard and a newline.
 
 ## Description
 

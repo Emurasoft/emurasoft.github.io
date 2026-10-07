@@ -2,7 +2,7 @@
 
 ## Summary
 
-Selects the word right of the current cursor position.
+Selects the word to the right of the cursor.
 
 ## Description
 

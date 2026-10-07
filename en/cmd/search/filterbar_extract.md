@@ -1,8 +1,7 @@
-# Extract All Lines (Filter Toolbar) command
-
+# Extract All (Filter Toolbar) command
 ## Summary
 
-Extracts all filtered lines into a new document.
+Extracts all filtered lines to a new document.
 
 ## Description
 

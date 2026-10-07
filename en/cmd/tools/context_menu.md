@@ -2,7 +2,7 @@
 
 ## Summary
 
-Shows Context Menu.
+Shows the context menu.
 
 ## Description
 

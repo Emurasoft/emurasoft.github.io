@@ -2,7 +2,7 @@
 
 ## Summary
 
-Resets row headings.
+Unfreezes row headings.
 
 ## Description
 

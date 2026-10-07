@@ -1,18 +1,16 @@
-# Web Help command
-
+# Online Help command
 ## Summary
 
-Displays Web Help.
+Displays online help.
 
 ## Description
 
-Displays Web Help.
+Displays online help.
 
 ## How to Run
 
-- Default Menu: **Help** \> **Web Help**
-- [All Commands](../tools/all_commands): **Help** >
-**Web Help**
+- Default Menu: **Help** \> **Preference** \> **Online Help**
+- [All Commands](../tools/all_commands): **Help** \> **Preference** \> **Online Help**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None
@@ -20,7 +18,7 @@ Displays Web Help.
 ## Plug-in Command ID
 
 ```
-EEID_HELP_REGIST (3932)```
+EEID_HELP_INTERNET (3932)```
 
 ## Macros
 

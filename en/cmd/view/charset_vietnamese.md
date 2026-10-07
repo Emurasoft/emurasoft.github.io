@@ -1,5 +1,4 @@
-# Display in Vietnamese font command
-
+# Vietnamese Font command
 ## Summary
 
 Displays text in a Vietnamese font.

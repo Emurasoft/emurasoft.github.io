@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sets the focus to the Filter toolbar.
+Sets focus to the Filter toolbar.
 
 ## Description
 

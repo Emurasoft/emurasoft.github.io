@@ -2,7 +2,7 @@
 
 ## Summary
 
-Stops macro.
+Stops the macro.
 
 ## Description
 

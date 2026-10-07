@@ -2,7 +2,7 @@
 
 ## Summary
 
-Scrolls the document to the right edge of the document.
+Scrolls the document to the right edge.
 
 ## Description
 

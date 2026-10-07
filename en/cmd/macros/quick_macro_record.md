@@ -2,7 +2,7 @@
 
 ## Summary
 
-Starts or stops recording a macro.
+Starts or stops macro recording.
 
 ## Description
 
@@ -14,10 +14,8 @@ temporary macro to a file.
 
 ## How to Run
 
-- Default Menu: **Macros** \> **Start/Stop Record** (On EmEditor
-Standard; **Tools** \> **Start/Stop Macro Record**)
-- [All Commands](../tools/all_commands): **Macros**
-\> **Start/Stop Record** (On EmEditor Standard; **Tools** \> **Start/Stop Macro Record**)
+- Default Menu: **Macros** \> **Start/Stop Recording**
+- [All Commands](../tools/all_commands): **Macros** \> **Start/Stop Recording**
 - Toolbar: ![](../../images/quickmacrorecord.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+R

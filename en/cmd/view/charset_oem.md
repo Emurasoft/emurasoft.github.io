@@ -1,8 +1,7 @@
-# Display in OEM/DOS font command
-
+# OEM/DOS Font command
 ## Summary
 
-Displays text in a OEM/DOS font
+Displays text in an OEM/DOS font.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays preview of how the current document will be printed.
+Displays a preview of how the current document will print.
 
 ## Description
 

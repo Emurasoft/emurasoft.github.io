@@ -2,7 +2,7 @@
 
 ## Summary
 
-Deletes the selection, or deletes one character at the left of the cursor.
+Deletes the selection, or deletes one character to the left of the cursor.
 
 ## Description
 

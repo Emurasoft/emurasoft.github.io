@@ -10,9 +10,8 @@ Displays the [**Toolbar Buttons**](../../dlg/customize/toolbar_buttons/index) pa
 
 ## How to Run
 
-- Default Menu: **Tools** \> **Customize Toolbars**
-- [All Commands](all_commands): **Tools** >
-**Customize Toolbars**
+- Default Menu: None
+- [All Commands](all_commands): None
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Tab/Indent properties.
+Tab/Indent properties for the current configuration.
 
 ## Description
 

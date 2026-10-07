@@ -1,8 +1,7 @@
-# Insert CR and LF command
-
+# Insert CR+LF command
 ## Summary
 
-Inserts a carriage return and a line feed at the current cursor position.
+Inserts a carriage return and line feed at the cursor.
 
 ## Description
 

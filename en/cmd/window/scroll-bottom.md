@@ -2,7 +2,7 @@
 
 ## Summary
 
-Scrolls the document to the bottom of the document.
+Scrolls the document to the bottom.
 
 ## Description
 

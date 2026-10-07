@@ -2,7 +2,7 @@
 
 ## Summary
 
-Moves the cursor to the corresponding parenthesis/bracket.
+Moves the cursor to the matching parenthesis/bracket.
 
 ## Description
 
@@ -13,9 +13,7 @@ parenthesis/bracket. If it is inside of the area about by the parentheses/bracke
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally**
-\> **Find Matching**
-**Parenthesis/Bracket**
+- [All Commands](../tools/all_commands): **Edit** \> **Move Cursor Horizontally** \> **Find Matching Parenthesis/Bracket**
 - Toolbar: ![](../../images/nextparen.png)
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+\]

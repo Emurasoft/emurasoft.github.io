@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays No Wrap properties.
+No Wrap properties for the current configuration.
 
 ## Description
 

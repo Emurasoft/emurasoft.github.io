@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays AI Assist properties.
+AI Assist properties for the current configuration.
 
 ## Description
 

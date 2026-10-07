@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays a popup menu to select indent columns.
+Displays a pop-up menu to select indent columns.
 
 ## Description
 
@@ -11,7 +11,7 @@ Displays a popup menu to select indent columns.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Indent Columns**
+- [All Commands](../tools/all_commands): **View** \> **Tab/Indent** \> **Indent Column**
 - Toolbar:
 ![](../../images/indent_column24x16.png)
 - Status Bar: None

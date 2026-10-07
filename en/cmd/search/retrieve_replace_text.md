@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sets the current word as the replace string.
+Sets the current word or selection as the replace string.
 
 ## Description
 
@@ -15,8 +15,7 @@ will display the word specified by this command as default.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Set Word to Replace**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Set Word to Replace**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

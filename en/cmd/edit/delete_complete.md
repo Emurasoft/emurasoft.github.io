@@ -2,7 +2,7 @@
 
 ## Summary
 
-Deletes the selection completely.
+Deletes the selection.
 
 ## Description
 

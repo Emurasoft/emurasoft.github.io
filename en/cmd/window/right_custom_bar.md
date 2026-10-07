@@ -2,7 +2,7 @@
 
 ## Summary
 
-Switches to the custom bar on right.
+Switches to the custom bar on the right.
 
 ## Description
 

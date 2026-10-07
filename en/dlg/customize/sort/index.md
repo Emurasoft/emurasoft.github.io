@@ -26,7 +26,7 @@ If this is checked, nonspacing combining characters, such as diacritics, dakuten
 
 If this is checked, symbols are ignored.
 
-## Do not differentiate between a half-width and a full-width characters checkbox
+## Do not differentiate between half-width and full-width characters checkbox
 
 If this is checked, the difference between half-width and full-width characters is ignored. The full-width form is a formatting distinction used in Chinese and Japanese scripts.
 

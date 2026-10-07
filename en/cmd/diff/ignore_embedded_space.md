@@ -2,7 +2,7 @@
 
 ## Summary
 
-Ignores embedded spaces in each line when comparing documents.
+Ignores embedded spaces on each line when comparing documents.
 
 ## Description
 

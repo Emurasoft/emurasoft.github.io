@@ -2,7 +2,7 @@
 
 ## Summary
 
-Saves the workspace into the current workspace file.
+Saves the workspace to the current workspace file.
 
 ## Description
 

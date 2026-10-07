@@ -2,7 +2,7 @@
 
 ## Summary
 
-Removes newline characters at wrap points in the selection.
+Removes newline characters at wrap points in the current selection.
 
 ## Description
 

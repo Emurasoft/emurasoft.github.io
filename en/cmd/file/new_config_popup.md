@@ -1,9 +1,7 @@
-# New (popup menu) command
-
+# New (Pop-up Menu) command
 ## Summary
 
-Shows a popup menu to create a new file with a specified
-configuration.
+Shows a pop-up menu to create a new file with a specified configuration.
 
 ## Description
 
@@ -26,7 +24,7 @@ button.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **File** \> **New** \> **New (Popup Menu)**
+- [All Commands](../tools/all_commands): **File** \> **New** \> **New (Pop-up Menu)**
 - Toolbar: ![](../../images/filenew.png) (on
 the arrow)
 - Status Bar: None

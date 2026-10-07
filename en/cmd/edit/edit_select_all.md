@@ -2,7 +2,7 @@
 
 ## Summary
 
-Selects all.
+Selects all text.
 
 ## Description
 

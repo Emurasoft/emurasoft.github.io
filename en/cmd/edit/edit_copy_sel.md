@@ -2,7 +2,7 @@
 
 ## Summary
 
-Copies the selection and pastes it to the Clipboard.
+Copies the selection to the Clipboard.
 
 ## Description
 

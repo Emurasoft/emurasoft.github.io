@@ -2,7 +2,7 @@
 
 ## Summary
 
-Jumps to the other document that the current document is comparing with or scrolling with.
+Jumps to the other document being compared or scrolled synchronously with the current document.
 
 ## Description
 

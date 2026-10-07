@@ -1,5 +1,4 @@
-# Browse Find Expressions (Find toolbar) command
-
+# Browse Find Expressions (Find Toolbar) command
 ## Summary
 
 Browses regular expressions or escape sequences for the Find string used in the Find toolbar.

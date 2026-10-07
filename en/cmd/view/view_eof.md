@@ -2,7 +2,7 @@
 
 ## Summary
 
-Shows or hides the end of file mark.
+Shows or hides the end-of-file mark.
 
 ## Description
 

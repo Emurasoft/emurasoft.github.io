@@ -2,7 +2,7 @@
 
 ## Summary
 
-Resets the width of the selected columns of the CSV document.
+Resets the width of the selected columns in a CSV document.
 
 ## Description
 

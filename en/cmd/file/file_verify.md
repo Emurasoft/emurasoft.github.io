@@ -2,7 +2,7 @@
 
 ## Summary
 
-Verifies the current document is identical with the original file.
+Verifies that the current document is identical to the original file.
 
 ## Description
 

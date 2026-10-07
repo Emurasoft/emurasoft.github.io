@@ -11,7 +11,7 @@ command cannot be selected if the document is untitled.
 
 ## How to Run
 
-- Default Menu: **File** \> **Copy File Path Name**
+- Default Menu: **File** \> **Copy File Path**
 - [All Commands](../tools/all_commands): **File** \> **Copy**
 \> **File Path Name**
 - Toolbar: None

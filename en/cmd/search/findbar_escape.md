@@ -1,5 +1,4 @@
-# Use Escape Sequence (Find toolbar) command
-
+# Use Escape Sequence (Find Toolbar) command
 ## Summary
 
 Toggles the Use Escape Sequence button on the Find toolbar.

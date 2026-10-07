@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays information on how to purchase EmEditor.
+Displays information about purchasing EmEditor.
 
 ## Description
 

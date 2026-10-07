@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a character with a circumflex accent mark.
+Inserts a character with a circumflex accent by typing a, e, i, o, u, A, E, I, O or U.
 
 ## Description
 

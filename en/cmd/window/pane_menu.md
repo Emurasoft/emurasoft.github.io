@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays a popup menu to set the custom bar options.
+Displays a pop-up menu to set custom bar options.
 
 ## Description
 

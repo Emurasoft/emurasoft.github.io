@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sets or resets only the selection as editable area and makes the rest inaccessible.
+Turns narrowing on or off so that only the selection is editable.
 
 ## Description
 

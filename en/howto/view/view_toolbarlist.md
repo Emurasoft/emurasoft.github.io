@@ -33,7 +33,7 @@
 | ![](../../images/fontpopup.png)[Font](../../cmd/view/font) | Change font settings. |
 | ![](../../images/properties.png)[Properties for Current Configuration](../../cmd/tools/customize) | Change properties for currently selected configuration. |
 | ![](../../images/allproperties.png)[Properties for all Configurations](../../cmd/tools/all_prop) | Change properties for all configurations. |
-| ![](../../images/configpopup.png)[Select Configuration (popup menu)](../../cmd/tools/config_popup) | Show a popup menu to select a configuration. |
+| ![](../../images/configpopup.png)[Select Configuration (Pop-up Menu)](../../cmd/tools/config_popup) | Show a popup menu to select a configuration. |
 | ![](../../images/commonsettings.png)[Customize](../../cmd/tools/common_settings) | Customize the common application settings. |
 | ![](../../images/macrorecord.png)[Record or Finish Quick Macro](../../cmd/macros/quick_macro_record) | Record or Finish Quick Macro. |
 | ![](../../images/macrorun.png)[Run Quick Macro](../../cmd/macros/quick_macro_run) | Run Quick Macro. |
@@ -131,4 +131,4 @@
 | ![](../../images/numbering.png)[Numbering](../../cmd/edit/markdown_numbering) | Inserts an ordered list. |
 | ![](../../images/bullets.png)[Bullets](../../cmd/edit/markdown_bullets) | Inserts an unordered list. |
 | ![](../../images/markdown_view.png)[Markdown Design View](../../cmd/edit/markdown_view) | Displays the Markdown design view. |
-| ![](../../images/plugin_webpreview.png)[Markdown Preview](../../cmd/edit/markdown_preview) | Displays the Markdown preview of the current document. |
+| ![](../../images/plugin_webpreview.png)[Markdown/HTML Preview](../../cmd/edit/markdown_preview) | Displays the Markdown preview of the current document. |

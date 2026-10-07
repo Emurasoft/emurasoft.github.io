@@ -20,13 +20,13 @@ Specifies the maximum value of a number range. This value should not include the
 
 Specifies that the maximum value should be included in a number range.
 
-### Multiples + Minimum numbers Only checkbox
+### Multiples + minimum number only checkbox
 
 Specifies that only multiples of the specified integers added by the minimum number should be matched.
 
 ### Multiples of text box
 
-Specifies a factor if the **Multiples + Minimum numbers Only** checkbox is set.
+Specifies a factor if the **Multiples + minimum number only** checkbox is set.
 
 ### Integers radio button
 

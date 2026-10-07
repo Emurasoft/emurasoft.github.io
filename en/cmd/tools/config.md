@@ -2,7 +2,7 @@
 
 ## Summary
 
-Defines Configurations.
+Defines configurations.
 
 ## Description
 

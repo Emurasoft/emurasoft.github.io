@@ -2,7 +2,7 @@
 
 ## Summary
 
-Removes comment marks in the selection or current line.
+Uncomments the selection or the current line.
 
 ## Description
 

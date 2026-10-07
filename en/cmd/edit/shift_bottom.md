@@ -2,7 +2,7 @@
 
 ## Summary
 
-Extends the selection to the bottom of the file.
+Extends the selection to the bottom of the document.
 
 ## Description
 

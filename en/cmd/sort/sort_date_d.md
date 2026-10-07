@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sorts date and time at the current column in descending order.
+Sorts date and time in the current column in descending order.
 
 ## Description
 
@@ -19,7 +19,7 @@ Sorts date and time at the current column in descending order.
 ## Plug-in Command ID
 
 ```
-EEID_SORT_DATE_A (3973)```
+EEID_SORT_DATE_D (3973)```
 
 ## Macros
 

@@ -15,7 +15,7 @@ Specifies the max [edit distance](https://en.wikipedia.org/wiki/Edit_distance) t
 
 If this is checked, nonspacing combining characters, such as diacritics, dakuten, and handakuten, are ignored. For instance, é (U+00E9) and e (U+0065) will not be differentiated.
 
-## Do not differentiate between a half-width and a full-width characters checkbox
+## Do not differentiate between half-width and full-width characters checkbox
 
 If this is checked, the difference between half-width and full-width characters is ignored. For instance, A (U+0041) and Ａ (U+FF21) will not be differentiated.
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Finds the previous warning or Unicode character that cannot be converted to the encoding for saving.
+Finds the previous warning or Unicode character that cannot be converted to the selected encoding.
 
 ## Description
 

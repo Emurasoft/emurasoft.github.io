@@ -1,8 +1,7 @@
-# Notifications command
-
+# Notification Bar command
 ## Summary
 
-Shows or hides Notifications.
+Shows or hides Notification Bar.
 
 ## Description
 

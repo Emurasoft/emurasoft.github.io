@@ -2,7 +2,7 @@
 
 ## Summary
 
-Makes the number of columns same in a CSV document.
+Makes the number of columns the same in a CSV document.
 
 ## Description
 
@@ -10,8 +10,8 @@ Makes the number of columns same in a CSV document.
 
 ## How to Run
 
-- Default Menu: **CSV** \> **Advanced** \> **Make Number of Columns Same**
-- [All Commands](../tools/all_commands): **CSV** \> **Advanced** \> **Make Number of Columns Same**
+- Default Menu: **CSV** \> **Advanced** \> **Make the Number of Columns the Same**
+- [All Commands](../tools/all_commands): **CSV** \> **Advanced** \> **Make the Number of Columns the Same**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

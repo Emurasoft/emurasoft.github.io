@@ -2,7 +2,7 @@
 
 ## Summary
 
-Clears match counts of all markers in the current document.
+Clears match counts for all markers in the current document.
 
 ## Description
 

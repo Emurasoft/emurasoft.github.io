@@ -2,7 +2,7 @@
 
 ## Summary
 
-Selects the current column with headings as vertical selection mode in the CSV document.
+Selects the current column with headings in vertical selection mode.
 
 ## Description
 

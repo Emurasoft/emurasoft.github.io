@@ -2,7 +2,7 @@
 
 ## Summary
 
-Synchronizes vertical scrolling of split windows.
+Synchronizes vertical scrolling in split windows.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Enables or disables the auto indent.
+Enables or disables auto indent.
 
 ## Description
 

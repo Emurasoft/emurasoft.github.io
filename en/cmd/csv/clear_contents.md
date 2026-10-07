@@ -2,7 +2,7 @@
 
 ## Summary
 
-Clear the contents of the selection in the CSV document.
+Clears the contents of the selection in the CSV document.
 
 ## Description
 

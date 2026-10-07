@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles always on top status.
+Toggles Always on Top for the current window.
 
 ## Description
 

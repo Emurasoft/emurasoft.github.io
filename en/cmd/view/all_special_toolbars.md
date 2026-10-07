@@ -20,7 +20,7 @@ Shows or hides all special toolbars.
 ## Plug-in Command ID
 
 ```
-EEID_ALL_BASIC_TOOLBARS (4069)```
+EEID_ALL_SPECIAL_TOOLBARS (4069)```
 
 ## Macros
 

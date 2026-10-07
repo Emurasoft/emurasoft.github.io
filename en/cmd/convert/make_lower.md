@@ -2,7 +2,7 @@
 
 ## Summary
 
-Converts the selection to all lowercase letters.
+Converts the selection to lowercase.
 
 ## Description
 

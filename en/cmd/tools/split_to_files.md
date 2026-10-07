@@ -2,7 +2,7 @@
 
 ## Summary
 
-Splits the current document or an existing file and saves as several files.
+Splits the current document or a file and saves it as multiple files.
 
 ## Description
 

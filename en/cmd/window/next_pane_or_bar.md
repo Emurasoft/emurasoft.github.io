@@ -2,7 +2,7 @@
 
 ## Summary
 
-Switches to the next pane or the custom bar.
+Switches to the next pane or custom bar.
 
 ## Description
 
@@ -21,18 +21,18 @@ Moves the cursor to the next pane, if the window is split into multiple panes, o
 ## Plug-in Command ID
 
 ```
-EEID_NEXT_PANE_OR_BAR (4553)```
+EEID_NEXT_PANE_OR_BAR (4552)```
 
 ## Macros
 
 ### \[JavaScript\]
 
 ```
-editor.ExecuteCommandByID(4553);
+editor.ExecuteCommandByID(4552);
 ```
 
 ### \[VBScript\]
 
 ```
-editor.ExecuteCommandByID 4553
+editor.ExecuteCommandByID 4552
 ```

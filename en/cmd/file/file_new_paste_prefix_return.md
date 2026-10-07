@@ -2,7 +2,7 @@
 
 ## Summary
 
-Creates a file, pastes the current selection in quotes and newline characters.
+Creates a new file and pastes the current selection in quotes with newline characters.
 
 ## Description
 

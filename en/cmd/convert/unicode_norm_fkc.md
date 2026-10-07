@@ -2,7 +2,7 @@
 
 ## Summary
 
-Apply Unicode Normalization Form KC (Compatibility Composition) to the selected string.
+Applies Unicode Normalization Form KC (Compatibility Composition) to the selected string.
 
 ## Description
 
@@ -11,7 +11,7 @@ Apply Unicode Normalization Form KC (Compatibility Composition) defined in " [Un
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **Unicode Normalization Form KC (Compatibility Composition)**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode Normalization Form KC (Compatibility Composition)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **Unicode Normalization Form KC (Compatibility Composition)**
 - Toolbar:
 None
 - Status Bar: None

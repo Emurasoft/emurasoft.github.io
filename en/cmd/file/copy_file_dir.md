@@ -2,7 +2,7 @@
 
 ## Summary
 
-Copies the full path of the directory of the current file to the Clipboard.
+Copies the full path of the current file's folder to the Clipboard.
 
 ## Description
 

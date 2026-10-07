@@ -1,8 +1,7 @@
-# Select Configuration (popup menu) command
-
+# Select Configuration (Pop-up Menu) command
 ## Summary
 
-Selects a configuration.
+Selects a configuration (pop-up menu).
 
 ## Description
 
@@ -10,11 +9,8 @@ Shows a popup menu showing the [**Select** **Specified Configuration** command](
 
 ## How to Run
 
-- Default Menu: **Tools** >
-**Select Configuration** \> **Select Configuration (Popup Menu)**
-- [All Commands](all_commands): **Tools** >
-**Select Configuration** \> **Select Configuration (Popup**
-**Menu)**
+- Default Menu: None
+- [All Commands](all_commands): **Tools** \> **Select Configuration** \> **Select Configuration (Pop-up Menu)**
 - Toolbar: ![](../../images/configpopup.png) (on
 the arrow)
 - Status Bar: (double-click on configuration name)

@@ -16,8 +16,7 @@ to search, and other options, will start replacing in files. If the
 ## How to Run
 
 - Default Menu: **Search** \> **Replace in Files**
-- [All Commands](../tools/all_commands): **Search**
-\> **Replace in Files**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace in Files** \> **Replace in Files**
 - Toolbar: ![](../../images/replaceinfiles.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+H

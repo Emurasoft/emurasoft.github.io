@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles Read Only status for the current file.
+Toggles read-only status for the current file.
 
 ## Description
 

@@ -11,7 +11,7 @@ Encodes the selected text to HTML/XML Numeric Character Reference.
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **Unicode to HTML/XML Numeric Character Reference**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode to HTML/XML Numeric Character Reference**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **Unicode to HTML/XML Numeric Character Reference**
 - Toolbar:
 ![](../../images/uni2html24x16.png)
 - Status Bar: None

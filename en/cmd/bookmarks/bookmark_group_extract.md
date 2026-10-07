@@ -2,7 +2,7 @@
 
 ## Summary
 
-Extracts all bookmarked lines in this group and copies to a new document.
+Extracts all bookmarked lines in this group and copies them to a new document.
 
 ## Description
 

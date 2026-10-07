@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sets the opened file as the current macro.
+Sets the current file as the active macro.
 
 ## Description
 

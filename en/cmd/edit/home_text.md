@@ -2,8 +2,7 @@
 
 ## Summary
 
-Moves the cursor to the first non-white space character of the current
-line.
+Moves the cursor to the first non-whitespace character of the current line.
 
 ## Description
 

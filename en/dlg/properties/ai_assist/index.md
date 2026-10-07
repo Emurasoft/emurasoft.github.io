@@ -6,7 +6,7 @@ The **AI Assist** page allows you to set properties related to AI assisted writi
 
 If this is checked, EmEditor will enable AI assisted writing. 
 
-## Show suggestions only on Ctrl+Space checkbox
+## Show suggestions only with Ctrl+Space checkbox
 
 If this is checked, EmEditor will only show suggestions when you press the shortcut key, Ctrl+Space, which helps reduce the frequency of AI calls.
 

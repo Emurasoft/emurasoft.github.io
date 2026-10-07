@@ -2,7 +2,7 @@
 
 ## Summary
 
-Quotes all cells in the CSV document with double-quotes.
+Encloses all cells in a CSV document in double quotes.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Copies a hyperlink and pastes it to the Clipboard.
+Copies a hyperlink to the Clipboard.
 
 ## Description
 

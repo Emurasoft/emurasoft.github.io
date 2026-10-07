@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Outlining properties.
+Outline properties for the current configuration.
 
 ## Description
 

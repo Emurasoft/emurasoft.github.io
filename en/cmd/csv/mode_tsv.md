@@ -2,7 +2,7 @@
 
 ## Summary
 
-Selects the TSV (Tab-separated) mode.
+Switches to TSV (tab-separated) mode.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Changes properties for currently selected configuration.
+Changes properties for the currently selected configuration.
 
 ## Description
 

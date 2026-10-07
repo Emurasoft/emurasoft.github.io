@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles the IME.
+Enables or disables the Input Method Editor (IME).
 
 ## Description
 

@@ -1,5 +1,4 @@
-# Fuzzy Matching (Find toolbar) command
-
+# Fuzzy Matching (Find Toolbar) command
 ## Summary
 
 Toggles the Fuzzy Matching button on the Find toolbar.

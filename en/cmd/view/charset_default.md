@@ -1,8 +1,7 @@
-# Display in Normal font command
-
+# Normal Font command
 ## Summary
 
-Displays text in a Normal font.
+Displays text in a normal font.
 
 ## Description
 

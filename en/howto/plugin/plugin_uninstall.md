@@ -1,7 +1,6 @@
 # To Uninstall Plug-ins
 
-1. With Plug-ins that have uninstalling functions, select **Customize**
-**Plug-ins...** under the **Tools** menu.
+1. With Plug-ins that have uninstalling functions, select **Customize Plug-ins** under the **Plug-ins** menu.
 2. Select the plug-in that you want to uninstall, and click **Uninstall**.
 
 ## Tips

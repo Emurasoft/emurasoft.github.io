@@ -2,7 +2,7 @@
 
 ## Summary
 
-Jumps to previous misspelling in this document.
+Jumps to the previous misspelling in this document.
 
 ## Description
 

@@ -29,7 +29,7 @@ Creates a list of frequent IPv6 addresses.
 
 Creates a list of URIs.
 
-### Email Addresses radio button
+### Mail addresses radio button
 
 Creates a list of email addresses.
 

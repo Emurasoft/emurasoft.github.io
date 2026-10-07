@@ -2,7 +2,7 @@
 
 The **Character Check** page allows you to set properties related to character check.
 
-## Check before savings checkbox
+## Check before saving checkbox
 
 If this is checked, EmEditor checks if the document contains specified warning characters immediately before being saved.
 

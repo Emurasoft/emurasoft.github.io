@@ -1,5 +1,4 @@
-# In the Selection Only (Find toolbar) command
-
+# In the Selection Only (Find Toolbar) command
 ## Summary
 
 Toggles the In the Selection Only button on the Find toolbar.

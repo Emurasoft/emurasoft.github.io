@@ -33,13 +33,13 @@ string.
 
 If this box is checked, the macro starts with "Redraw = false". EmEditor will suppress redraw of changes until "Redraw = true" or the end of macro is reached.
 
-## Run the macro against each opened document checkbox
+## Run the macro against each open document checkbox
 
 If this box is checked, you can specify files to open before running the macro. The macro will be run immediately after each specified file is opened. If the **Repeat Count** is specified, the macro will be repeated for each opened file.
 
 ## Name list box
 
-Specifies the files to open if the **Run the macro against each opened document** checkbox is set.
+Specifies the files to open if the **Run the macro against each open document** checkbox is set.
 
 ## Add button
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Adjusts separator positions in the visible lines only of the CSV document.
+Adjusts separator positions in visible lines only in a CSV document.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sort numbers at the current column in descending order.
+Sorts numbers in the current column in descending order.
 
 ## Description
 

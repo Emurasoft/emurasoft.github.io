@@ -2,7 +2,7 @@
 
 ## Summary
 
-Aborts filtering and empties the filter string.
+Aborts filtering and clears the filter string.
 
 ## Description
 

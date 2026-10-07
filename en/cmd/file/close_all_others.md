@@ -2,7 +2,7 @@
 
 ## Summary
 
-Closes all open files except the currently working file.
+Closes all open files except the current file.
 
 ## Description
 

@@ -1,5 +1,4 @@
-# Delete Bookmarked Lines in this Document command
-
+# Delete Bookmarked Lines in This Document command
 ## Summary
 
 Deletes all bookmarked lines in the current document.

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Clears bookmarks on the current line.
+Clears the bookmark on the current line.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-General properties for current configuration.
+General properties for the current configuration.
 
 ## Description
 

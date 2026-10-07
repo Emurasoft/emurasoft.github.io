@@ -1,5 +1,4 @@
-# Incremental Search (Find toolbar) command
-
+# Incremental Search (Find Toolbar) command
 ## Summary
 
 Toggles the Incremental Search button on the Find toolbar.

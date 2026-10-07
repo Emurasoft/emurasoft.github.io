@@ -1,8 +1,7 @@
-# Replace All (Find toolbar) command
-
+# Replace All (Find Toolbar) command
 ## Summary
 
-Replaces all the matched strings using the Find toolbar.
+Replaces all matches using the Find toolbar.
 
 ## Description
 

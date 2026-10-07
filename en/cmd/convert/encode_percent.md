@@ -2,7 +2,7 @@
 
 ## Summary
 
-Encodes the selected text to the percent-encoding using the current encoding.
+Encodes the selected text as percent-encoding using the current encoding.
 
 ## Description
 
@@ -11,7 +11,7 @@ Encodes the selected text to the percent-encoding using the current encoding.
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **Unicode to Percent-encoding (Current Encoding)**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode to Percent-encoding (Current Encoding)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **Unicode to Percent-encoding (Current Encoding)**
 - Toolbar:
 None
 - Status Bar: None

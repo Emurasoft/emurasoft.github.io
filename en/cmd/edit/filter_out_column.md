@@ -2,7 +2,7 @@
 
 ## Summary
 
-Filters the document in the current column without the selected text or the word at cursor.
+Filters the current column by excluding the selected text or the word at the cursor.
 
 ## Description
 

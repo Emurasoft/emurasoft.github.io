@@ -2,7 +2,7 @@
 
 ## Summary
 
-Splits the current window into four panes.
+Splits the active window into panes.
 
 ## Description
 
@@ -12,7 +12,7 @@ to control the split position. Click to set the split to a fixed position
 
 ## How to Run
 
-- Default Menu: **Window** \> **Split**
+- Default Menu: None
 - [All Commands](../tools/all_commands): **Window**
 \> **Split** \> **Split**
 - Toolbar: None

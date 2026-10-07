@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Display properties.
+Display properties for the current configuration.
 
 ## Description
 

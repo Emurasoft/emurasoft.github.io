@@ -39,7 +39,7 @@ Draws color using embedded color information in fonts. Available to Windows 8.1 
 
 Uses double buffering to draw text on screen. Double buffering reduces flicker, but makes drawing slower. If a slower computer is used and if drawing is slow, please clear this checkbox. This checkbox is disabled if DirectWrite is used.
 
-## Display hangul jamo composed checkbox
+## Display Hangul jamo as composed checkbox
 
 If this is checked, EmEditor displays a correct series of Hangul Jamo as composed characters. For example, "ᄒ ᅡ ᆫ ᄀ ᅳ ᆯ" (without spaces) will be displayed as "한글". This option is also effective to display old Hangul correctly where composed characters are unavailable.
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Erases the default saved workspace state.
+Erases the default workspace.
 
 ## Description
 

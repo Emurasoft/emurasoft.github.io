@@ -2,7 +2,7 @@
 
 ## Summary
 
-Ignores trailing spaces at each line when comparing documents.
+Ignores trailing spaces on each line when comparing documents.
 
 ## Description
 

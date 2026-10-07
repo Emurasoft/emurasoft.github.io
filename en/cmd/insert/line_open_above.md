@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a new line above the current cursor position.
+Inserts a new line above the cursor.
 
 ## Description
 

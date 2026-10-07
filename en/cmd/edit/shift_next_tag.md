@@ -2,7 +2,7 @@
 
 ## Summary
 
-Extends the selection to the corresponding tag.
+Extends the selection to the matching tag.
 
 ## Description
 

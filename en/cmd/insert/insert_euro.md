@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts an euro symbol.
+Inserts a euro symbol.
 
 ## Description
 

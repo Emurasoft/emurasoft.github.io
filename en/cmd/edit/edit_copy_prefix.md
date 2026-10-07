@@ -2,7 +2,7 @@
 
 ## Summary
 
-Copies the selection in quotes and pastes it to the Clipboard.
+Copies the selection in quotation marks to the Clipboard.
 
 ## Description
 
@@ -12,9 +12,8 @@ and running the [**Paste** command](edit_paste).
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Copy in Quotes**
-- [All Commands](../tools/all_commands): **Edit** \> **Copy**
-\> **Copy in Quotes**
+- Default Menu: **Edit** \> **Copy Text in Quotes**
+- [All Commands](../tools/all_commands): **Edit** \> **Copy** \> **Copy in Quotes**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

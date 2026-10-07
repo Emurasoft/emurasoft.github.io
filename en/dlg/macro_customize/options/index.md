@@ -2,19 +2,19 @@
 
 The **Options** page allows you to set options related to the **Macros** menu.
 
-## Add to My Macros when New Macro is Saved or   Selected checkbox
+## Add to My Macros when a new macro is saved or selected checkbox
 
 If this box is checked, when a new macro is selected by the
 [**Save Macro** command](../../../cmd/macros/macro_save) or the
 [**Select Macro** command](../../../cmd/macros/macro_select), the
 macro will be added to **My Macros**.
 
-## Ask Macro Language when Editing New Recorded Macro checkbox
+## Ask for macro language when editing a newly recorded macro checkbox
 
 Displays a dialog box to select a macro language from JavaScript or VBScript
 when selecting the **Edit Macro** command while a temporary macro is selected.
 
-## Running one of My Macros will set it as the default macro checkbox
+## Running a macro from My Macros sets it as the default macro checkbox
 
 If this box is checked, when you select one of **My Macros** or press the shortcut key assigned to a macro, the selected macro will be set as the default macro.
 
@@ -22,7 +22,7 @@ If this box is checked, when you select one of **My Macros** or press the shortc
 
 If this box is checked, EmEditor runs macros asynchronously if the [**#async** directive](../../../macro/directive/async) is not used.
 
-## Use V8 as JavaScript engine checkbox
+## Use V8 as the JavaScript engine checkbox
 
 If this box is checked, EmEditor runs JavaScript macros using the V8 engine if the [**#language** directive](../../../macro/directive/language) is not used.
 

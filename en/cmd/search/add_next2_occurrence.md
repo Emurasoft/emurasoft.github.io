@@ -2,7 +2,7 @@
 
 ## Summary
 
-Adds the next next occurrence of the specified text to the selection.
+Adds the next occurrence after that of the specified text to the selection.
 
 ## Description
 
@@ -10,9 +10,8 @@ Adds the occurrence after the next occurrence of the specified text to the selec
 
 ## How to Run
 
-- Default Menu: **Search** \> **Add Next Next Occurrence**
-- [All Commands](../tools/all_commands): **Search**
-\> **Add Next Next Occurrence**
+- Default Menu: **Search** \> **Add Second Next Occurrence**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Add Second Next Occurrence**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -1,6 +1,6 @@
 # To Insert or Delete Returns at Wrap Points
 
-Select the text within which to insert or delete returns, select **Convert Selection** under the **Edit** menu, and then select the
+Select the text within which to insert or delete returns, select the **Convert** menu, and then select the
 [**Insert newline characters** command](../../cmd/convert/insert_cr_wrap)
 or the [**Remove newline characters** command](../../cmd/convert/delete_cr_wrap).
 

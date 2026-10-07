@@ -2,7 +2,7 @@
 
 ## Summary
 
-Decodes the selected text from the percent-encoding to Unicode using the UTF-8 encoding.
+Decodes the selected text from percent-encoding to Unicode using UTF-8.
 
 ## Description
 
@@ -11,7 +11,7 @@ Decodes the selected text from the percent-encoding into the equivalent Unicode 
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **Percent-encoding to Unicode (UTF-8)**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Percent-encoding to Unicode (UTF-8)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **Percent-encoding to Unicode (UTF-8)**
 - Toolbar:
 None
 - Status Bar: None

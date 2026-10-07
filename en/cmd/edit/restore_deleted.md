@@ -2,7 +2,7 @@
 
 ## Summary
 
-Restores previously deleted string at cursor position.
+Restores previously deleted text at the cursor position.
 
 ## Description
 

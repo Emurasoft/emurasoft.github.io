@@ -2,7 +2,7 @@
 
 ## Summary
 
-Saves and Close the current file.
+Saves and closes the current file.
 
 ## Description
 

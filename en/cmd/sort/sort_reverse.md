@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sorts reverse in the current column.
+Sorts in reverse order.
 
 ## Description
 

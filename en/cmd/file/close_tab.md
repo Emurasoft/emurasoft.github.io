@@ -19,7 +19,7 @@ This command closes the selected tab.
 ## Plug-in Command ID
 
 ```
-EEID__CLOSE_TAB (23246)```
+EEID_CLOSE_TAB (23246)```
 
 ## Macros
 

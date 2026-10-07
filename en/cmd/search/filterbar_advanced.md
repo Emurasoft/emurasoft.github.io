@@ -2,7 +2,7 @@
 
 ## Summary
 
-Shows the Advanced Filter dialog box.
+Displays the Advanced Filter dialog box.
 
 ## Description
 

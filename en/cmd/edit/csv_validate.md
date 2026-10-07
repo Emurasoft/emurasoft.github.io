@@ -2,7 +2,7 @@
 
 ## Summary
 
-Check syntax of the current document and shows the results.
+Checks the syntax of the current document and shows the results.
 
 ## Description
 

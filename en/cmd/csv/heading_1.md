@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sets the first one line headings and non-scrollable.
+Freezes the first line as headings.
 
 ## Description
 

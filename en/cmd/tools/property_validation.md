@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Syntax Check properties.
+Syntax Check properties for the current configuration.
 
 ## Description
 

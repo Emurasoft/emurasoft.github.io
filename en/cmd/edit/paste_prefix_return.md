@@ -1,8 +1,7 @@
-# Paste In Quotes And Newline Characters command
-
+# Paste in Quotes and Newline Characters command
 ## Summary
 
-Inserts the Clipboard contents in quotes and with newline characters.
+Inserts the contents of the Clipboard in quotation marks and adds a newline.
 
 ## Description
 
@@ -17,8 +16,7 @@ on the [**General** page](../../dlg/properties/general/index) of the Properties 
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Paste**
-\> **Paste In Quotes And Newline Characters**
+- [All Commands](../tools/all_commands): **Edit** \> **Paste** \> **Paste in Quotes and Newline Characters**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

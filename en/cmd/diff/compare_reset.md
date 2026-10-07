@@ -1,5 +1,4 @@
-# Reset to Normal Mode command
-
+# Reset command
 ## Summary
 
 Resets comparison or synchronized scrolling mode and clears comparison results.
@@ -11,8 +10,7 @@ Resets comparison or synchronized scrolling mode and clears comparison results (
 ## How to Run
 
 - Default Menu: **Compare** \> **Reset to Normal Mode**
-- [All Commands](../tools/all_commands): **Compare** \> **Reset**
-**to Normal Mode**
+- [All Commands](../tools/all_commands): **Compare** \> **Reset to Normal Mode**
 - Toolbar: ![](../../images/reset24x16.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

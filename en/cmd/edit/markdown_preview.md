@@ -1,8 +1,7 @@
-# Markdown Preview command
-
+# Markdown/HTML Preview command
 ## Summary
 
-Displays the Markdown preview of the current document.
+Displays a Markdown/HTML preview of the current document.
 
 ## Description
 

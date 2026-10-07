@@ -2,7 +2,7 @@
 
 ## Summary
 
-Extends the selection to the corresponding parenthesis/bracket.
+Extends the selection to the matching parenthesis/bracket.
 
 ## Description
 
@@ -12,9 +12,7 @@ command will extend the selection to the corresponding closing/opening bracket.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection**
-\> **Matching Parenthesis/Bracket**
-**Extend**
+- [All Commands](../tools/all_commands): **Edit** \> **Extend Selection** \> **Matching Parenthesis/Bracket Extend**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: CTRL+SHIFT+\]

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Moves, copies, deletes, or sorts columns of the CSV document.
+Moves, copies, deletes, or sorts columns in the CSV document.
 
 ## Description
 

@@ -1,5 +1,4 @@
-# Expand/Collapse Line command
-
+# Collapse/Expand Line command
 ## Summary
 
 Expands or collapses the current line while outlining is displayed.

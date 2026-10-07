@@ -2,21 +2,21 @@
 
 |     |     |
 | --- | --- |
-| **[Search Help Topics](help_finder)** | Displays EmEditor Help Topics. |
-| **[Search Commands](../tools/ql_commands)** | Opens the Quick Launch window and selects commands. |
-| **[Search Options](../tools/ql_options)** | Opens the Quick Launch window and selects options. |
+| **[Search Help Topics](help_finder)** | Displays EmEditor help topics. |
+| **[Search Commands](../tools/ql_commands)** | Displays the **Quick Launch** window and selects **Commands** mode. |
+| **[Search Options](../tools/ql_options)** | Displays the **Quick Launch** window and selects **Options** mode. |
 | **[Keyboard Map](keyboard_map)** | Displays all available keyboard shortcuts. |
-| **[Web Help](help_internet)** | Displays Web Help. |
+| **[Online Help](help_internet)** | Displays online help. |
 | [**Local Help**](help_local) | Displays Local Help. |
-| **[How to Purchase](help_regist)** | Displays information on how to purchase EmEditor. |
-| **[Go to EmEditor Home Page](web_home)** | Opens the EmEditor web site. |
-| **[Check for Updates](check_updates)** | Checks for available new versions of EmEditor by connecting Emurasoft server. |
+| **[How to Purchase](help_regist)** | Displays information about purchasing EmEditor. |
+| **[Go to EmEditor Home Page](web_home)** | Opens the EmEditor website. |
+| **[Check for Updates](check_updates)** | Checks for new versions of EmEditor by connecting to the Emurasoft server. |
 | **[Customize Update Checker](customize_update_checker)** | Customizes the Update Checker. |
 | **[Select Update Channel](update_channel)** | Selects an update channel. |
 | **[Send Feedback](send_feedback)** | Sends feedback to the EmEditor developer team. |
 | **[Write a Review](write_review)** | Writes a review about EmEditor. |
 | **[Upgrade](upgrade)** | Upgrades this product to EmEditor Professional. |
-| **[Downgrade](downgrade)** | Downgrades the product to EmEditor Free. |
+| **[Downgrade](downgrade)** | Downgrades this product to EmEditor Free. |
 | **[Registration Information](registration_info)** | Shows registration information. |
 | **[About EmEditor](app_about)** | Displays version information. |
 

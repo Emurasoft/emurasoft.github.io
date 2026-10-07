@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a character with a ring accent mark.
+Inserts a character with a ring above by typing a, A or space.
 
 ## Description
 

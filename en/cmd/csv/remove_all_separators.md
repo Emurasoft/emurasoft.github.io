@@ -2,7 +2,7 @@
 
 ## Summary
 
-Removes all the separators while in the normal mode.
+Removes all separators in Normal mode.
 
 ## Description
 
@@ -19,7 +19,7 @@ Removes all the separators while in the normal mode.
 ## Plug-in Command ID
 
 ```
-EEID_REMOVE_ALL_SEPARATOR (3886)
+EEID_REMOVE_ALL_SEPARATORS (3886)
 ```
 
 ## Macros

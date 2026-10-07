@@ -3,7 +3,7 @@
 This dialog box appears when the
 **Extract Options** is selected in the menu displayed when the **Extract All** button is clicked in the **Filter** toolbar.
 
-## Extract first matched string per line radio button
+## Extract the first matched string per line radio button
 
 If this is checked, extracts first matched string per line.
 

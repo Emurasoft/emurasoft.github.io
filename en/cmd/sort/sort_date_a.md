@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sorts date and time at the current column in ascending order.
+Sorts date and time in the current column in ascending order.
 
 ## Description
 

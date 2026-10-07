@@ -1,5 +1,4 @@
-# Scroll Line Up command
-
+# Line Scroll Up command
 ## Summary
 
 Scrolls the document up by one line.

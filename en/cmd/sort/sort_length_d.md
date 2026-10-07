@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sorts text at the current column by length in descending order.
+Sorts text in the current column by length in descending order.
 
 ## Description
 

@@ -1,5 +1,4 @@
-# Arrange in Descending Order command
-
+# Descending Order command
 ## Summary
 
 Arranges in descending order.

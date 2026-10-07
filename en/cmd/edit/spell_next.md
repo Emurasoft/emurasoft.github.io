@@ -2,7 +2,7 @@
 
 ## Summary
 
-Jumps to next misspelling in this document.
+Jumps to the next misspelling in this document.
 
 ## Description
 
@@ -19,7 +19,7 @@ Jumps to next misspelling in this document.
 ## Plug-in Command ID
 
 ```
-EEID_SPELL_PREV (4554)```
+EEID_SPELL_NEXT (4554)```
 
 ## Macros
 

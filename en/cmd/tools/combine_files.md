@@ -2,7 +2,7 @@
 
 ## Summary
 
-Combines open documents or existing files into a single file.
+Combines open documents into a single file.
 
 ## Description
 

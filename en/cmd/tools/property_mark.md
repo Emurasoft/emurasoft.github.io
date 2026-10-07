@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Marks properties.
+Mark properties for the current configuration.
 
 ## Description
 

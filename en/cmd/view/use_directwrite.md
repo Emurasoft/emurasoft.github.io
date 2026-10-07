@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles the Use DirectWrite setting.
+Specifies whether to use DirectWrite for text rendering.
 
 ## Description
 
@@ -20,7 +20,7 @@ Toggles the Use DirectWrite setting.
 ## Plug-in Command ID
 
 ```
-EEID_USE_DIRECTWRITE (3997)
+EEID_USE_DIRECT_WRITE (3997)
 ```
 
 ## Macros

@@ -1,5 +1,4 @@
-# Browse Filter Expressions (Filter toolbar) command
-
+# Browse Filter Expressions (Filter Toolbar) command
 ## Summary
 
 Browses regular expressions or escape sequences for the Filter string used in the Filter toolbar.

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Automatically fills values in the entire column of the CSV document.
+Automatically fills values in the entire column of a CSV document.
 
 ## Description
 

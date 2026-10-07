@@ -2,7 +2,7 @@
 
 ## Summary
 
-Finds next occurrence.
+Finds the next occurrence.
 
 ## Description
 
@@ -12,8 +12,7 @@ options.
 ## How to Run
 
 - Default Menu: **Search** \> **Next**
-- [All Commands](../tools/all_commands): **Search**
-\> **Next**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Next**
 - Toolbar: ![](../../images/editrepeat.png)
 - Status Bar: None
 - Default Shortcut Key: F3

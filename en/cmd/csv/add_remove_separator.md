@@ -2,7 +2,7 @@
 
 ## Summary
 
-Adds or removes a separator at the cursor position (or at the pointed position on the ruler) while in the normal mode to prepare for conversion into the fixed width columns.
+Adds or removes a separator at the cursor position (or the position pointed to on the ruler) in Normal mode to prepare for conversion to fixed-width columns.
 
 ## Description
 

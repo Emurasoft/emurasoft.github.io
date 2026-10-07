@@ -1,5 +1,4 @@
-# Match Case (Find toolbar) command
-
+# Match Case (Find Toolbar) command
 ## Summary
 
 Toggles the Match Case button on the Find toolbar.

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Link properties.
+Link properties for the current configuration.
 
 ## Description
 

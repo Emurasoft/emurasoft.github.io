@@ -1,5 +1,4 @@
-# Display in Arabic font command
-
+# Arabic Font command
 ## Summary
 
 Displays text in an Arabic font.

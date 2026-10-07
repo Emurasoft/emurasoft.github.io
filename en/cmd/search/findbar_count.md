@@ -1,5 +1,4 @@
-# Count Matches (Find toolbar) command
-
+# Count Matches (Find Toolbar) command
 ## Summary
 
 Toggles the Count Matches button on the Find toolbar.

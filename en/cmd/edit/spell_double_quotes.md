@@ -2,7 +2,7 @@
 
 ## Summary
 
-Checks spelling in string enclosed by double quotation marks.
+Checks spelling in strings enclosed in double quotation marks.
 
 ## Description
 
@@ -10,8 +10,8 @@ Checks spelling in string enclosed by double quotation marks. Misspelled words w
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **String Enclosed by Double Quotation Marks**
-- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **String Enclosed by Double Quotation Marks**
+- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Strings Enclosed in Double Quotation Marks**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **Strings Enclosed in Double Quotation Marks**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None
@@ -19,7 +19,7 @@ Checks spelling in string enclosed by double quotation marks. Misspelled words w
 ## Plug-in Command ID
 
 ```
-EEID_SPELL_SINGLE_QUOTES (4515)```
+EEID_SPELL_DOUBLE_QUOTES (4515)```
 
 ## Macros
 

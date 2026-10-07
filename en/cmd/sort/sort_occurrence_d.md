@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sorts by occurrence in the current column, in descending order.
+Sorts by occurrence in the current column in descending order.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a c/C character with a cedilla accent mark.
+Inserts a c/C character with a cedilla by typing c or C.
 
 ## Description
 

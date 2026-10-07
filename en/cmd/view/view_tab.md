@@ -2,7 +2,7 @@
 
 ## Summary
 
-Shows or hides the tab mark.
+Shows or hides tab marks.
 
 ## Description
 

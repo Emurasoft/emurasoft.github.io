@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a character with a caron accent mark.
+Inserts a character with a caron by typing a, i, o, u, A, I, O, or U.
 
 ## Description
 

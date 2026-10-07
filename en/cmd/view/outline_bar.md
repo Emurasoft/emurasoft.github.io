@@ -1,5 +1,4 @@
-# Toggle Outline Bar command
-
+# Outline Bar command
 ## Summary
 
 Shows or hides the outline bar.

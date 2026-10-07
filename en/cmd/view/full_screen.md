@@ -1,8 +1,7 @@
-# Layout 1 (Focus Mode) command
-
+# Layout 1 command
 ## Summary
 
-Toggles Layout 1 (Focus Mode by default).
+Toggles Layout 1.
 
 ## Description
 
@@ -10,11 +9,11 @@ Toggles Layout 1 (Focus Mode by default).
 
 ## How to Run
 
-- Default Menu: **View** \> **Layouts** \> **Full Screen**
-- [All Commands](../tools/all_commands): **View** \> **Layouts** \> **Full Screen**
+- Default Menu: None
+- [All Commands](../tools/all_commands): None
 - Toolbar: ![](../../images/full_screen.png)
 - Status Bar: None
-- Default Shortcut Key: F11
+- Default Shortcut Key: None
 
 ## Plug-in Command ID
 

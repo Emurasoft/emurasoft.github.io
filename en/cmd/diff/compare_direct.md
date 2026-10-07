@@ -2,7 +2,7 @@
 
 ## Summary
 
-Compares the two most recently viewed documents without specifying options.
+Compares the two most recently viewed documents without prompting for options.
 
 ## Description
 
@@ -12,8 +12,8 @@ Documents in Fast View mode can also be compared, after all the lines of the doc
 
 ## How to Run
 
-- Default Menu: **Compare** \> **Compare Direct**
-- [All Commands](../tools/all_commands): **Compare** \> **Compare Direct**
+- Default Menu: **Compare** \> **Compare Directly**
+- [All Commands](../tools/all_commands): **Compare** \> **Compare Directly**
 - Toolbar: ![](../../images/compare24x16.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

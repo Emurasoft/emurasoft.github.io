@@ -2,7 +2,7 @@
 
 ## Summary
 
-Searches multiple files for a matching string.
+Searches for text across multiple files.
 
 ## Description
 
@@ -16,8 +16,7 @@ number the search query occurs on. Using the [**Tag Jump** command](../edit/tag_
 ## How to Run
 
 - Default Menu: **Search** \> **Find in Files**
-- [All Commands](../tools/all_commands): **Search**
-\> **Find in Files**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace in Files** \> **Find in Files**
 - Toolbar: ![](../../images/grep.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+SHIFT+F

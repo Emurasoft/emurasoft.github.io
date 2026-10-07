@@ -2,7 +2,7 @@
 
 ## Summary
 
-Detaches the current document from combined windows as a new group, and arrange windows so they overlap.
+Detaches the current document from the combined window as a new group, and arranges the windows so they overlap.
 
 ## Description
 

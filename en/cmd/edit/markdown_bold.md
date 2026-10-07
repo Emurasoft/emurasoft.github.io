@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles a bold style.
+Toggles bold formatting.
 
 ## Description
 

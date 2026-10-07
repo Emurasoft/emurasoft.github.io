@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts the current date and time.
+Inserts the date and time.
 
 ## Description
 

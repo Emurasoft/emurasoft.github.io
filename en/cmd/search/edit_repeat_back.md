@@ -2,7 +2,7 @@
 
 ## Summary
 
-Finds previous occurrence.
+Finds the previous occurrence.
 
 ## Description
 
@@ -12,8 +12,7 @@ same options.
 ## How to Run
 
 - Default Menu: **Search** \> **Previous**
-- [All Commands](../tools/all_commands): **Search**
-\> **Previous**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Previous**
 - Toolbar:
 ![](../../images/editrepeatback.png)
 - Status Bar: None

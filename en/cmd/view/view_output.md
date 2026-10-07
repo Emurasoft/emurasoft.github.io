@@ -1,5 +1,4 @@
-# Toggle Output Bar command
-
+# Output Bar command
 ## Summary
 
 Shows or hides the output bar.

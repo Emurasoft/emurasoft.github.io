@@ -2,7 +2,7 @@
 
 ## Summary
 
-Apply Unicode Normalization Form KD (Compatibility Decomposition) to the selected string.
+Applies Unicode Normalization Form KD (Compatibility Decomposition) to the selected string.
 
 ## Description
 
@@ -11,7 +11,7 @@ Apply Unicode Normalization Form KD (Compatibility Decomposition) defined in " [
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **Unicode Normalization Form KD (Compatibility Decomposition)**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Unicode Normalization Form KD (Compatibility Decomposition)**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **Unicode Normalization Form KD (Compatibility Decomposition)**
 - Toolbar:
 None
 - Status Bar: None

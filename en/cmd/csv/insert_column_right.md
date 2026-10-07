@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a new column at the right side of the current column in the separated value document.
+Inserts a new column to the right of the current column in a separated value document.
 
 ## Description
 

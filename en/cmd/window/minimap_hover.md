@@ -2,7 +2,7 @@
 
 ## Summary
 
-Shows the minimap while the mouse is hovered on the vertical scroll bar.
+Shows the minimap when the mouse hovers over the vertical scroll bar.
 
 ## Description
 

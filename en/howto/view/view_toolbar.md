@@ -1,6 +1,6 @@
 # To Customize the Toolbar
 
-1. Select **Customize Toolbar** under the **Tools** menu.
+1. Right-click a toolbar, and then select **Customize Toolbars**.
 2. Select the toolbar you would like to customize and click the **Customize**
 button.
 3. Select a command from the Available Toolbar Buttons list on the left and
@@ -11,7 +11,7 @@ toolbar. You can also drag and drop commands between the two lists.
 
 ## Tips
 
-- Alternatively, double-click an empty area on the Toolbar to display **Customize Toolbar**.
+- Alternatively, double-click an empty area on the Toolbar to display **Customize Toolbars**.
 - Drag a button on the toolbar while pressing the SHIFT key to change
 its position. Drag a button off the Toolbar to remove it.
 - Selecting **Toolbar** from the **View** menu will show or hide the

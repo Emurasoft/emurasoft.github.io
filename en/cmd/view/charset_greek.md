@@ -1,5 +1,4 @@
-# Display in Greek font command
-
+# Greek Font command
 ## Summary
 
 Displays text in a Greek font.

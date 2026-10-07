@@ -1,5 +1,4 @@
-# Use Regular Expressions (Find toolbar) command
-
+# Use Regular Expressions (Find Toolbar) command
 ## Summary
 
 Toggles the Use Regular Expressions button on the Find toolbar.

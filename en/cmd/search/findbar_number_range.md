@@ -1,5 +1,4 @@
-# Use Number Range (Find toolbar) command
-
+# Use Number Range (Find Toolbar) command
 ## Summary
 
 Toggles the Use Number Range button on the Find toolbar.

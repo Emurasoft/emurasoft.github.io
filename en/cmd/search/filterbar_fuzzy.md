@@ -1,5 +1,4 @@
-# Fuzzy Matching (Filter toolbar) command
-
+# Fuzzy Matching (Filter Toolbar) command
 ## Summary
 
 Toggles the Fuzzy Matching button on the Filter toolbar.
@@ -11,8 +10,7 @@ Toggles the Fuzzy Matching button on the Filter toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Edit** \> **Filter Toolbar**
-\> **Fuzzy Matching**
+- [All Commands](../tools/all_commands): **Search** \> **Filter Toolbar** \> **Fuzzy Matching**
 - Toolbar: ![](../../images/fuzzy.png) (Filter toolbar)
 - Status Bar: None
 - Default Keyboard Shortcut: None

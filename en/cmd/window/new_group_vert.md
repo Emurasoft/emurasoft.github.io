@@ -2,7 +2,7 @@
 
 ## Summary
 
-Detaches the current document from combined windows as a new group, and arranges windows vertically as non-overlapping tiles.
+Detaches the current document from the combined window as a new group, and arranges the windows vertically as non-overlapping tiles.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts an Image.
+Inserts an image.
 
 ## Description
 

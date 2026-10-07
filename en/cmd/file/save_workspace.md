@@ -13,7 +13,7 @@ restore the positions and settings saved by this command.
 
 ## How to Run
 
-- Default Menu: **System Tray Icon menu** \> **Save Default Workspace**
+- Default Menu: **File** \> **Workspace** \> **Save Default Workspace**
 - [All Commands](../tools/all_commands): **File** \> **Workspace**
 \> **Save Default Workspace**
 - Toolbar: None

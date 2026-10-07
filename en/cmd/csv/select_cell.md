@@ -2,7 +2,7 @@
 
 ## Summary
 
-Selects the cell of the current cursor position in CSV mode.
+Selects the cell at the cursor in CSV, TSV, or DSV mode.
 
 ## Description
 

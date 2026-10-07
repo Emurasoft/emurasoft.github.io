@@ -2,7 +2,7 @@
 
 The **Help** page allows you to customize settings related to Help.
 
-## Online help (the internet connection is required) radio button
+## Online help (Internet connection required) radio button
 
 Displays Online Help.
 

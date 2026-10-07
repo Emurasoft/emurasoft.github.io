@@ -2,7 +2,7 @@
 
 ## Summary
 
-Restores the saved default workspace state.
+Restores the saved default workspace.
 
 ## Description
 
@@ -11,7 +11,7 @@ state set by the [**Save Default Workspace** command](save_workspace).
 
 ## How to Run
 
-- Default Menu: **System Tray Icon menu** \> **Restore Default Workspace**
+- Default Menu: **File** \> **Workspace** \> **Restore Default Workspace**
 - [All Commands](../tools/all_commands): **File** \> **Workspace**
 \> **Restore Default Workspace**
 - Toolbar: None

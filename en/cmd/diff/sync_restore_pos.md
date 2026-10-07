@@ -1,5 +1,4 @@
-# Restore Window Positions when Finished command
-
+# Restore Window Positions When Finished command
 ## Summary
 
 Restores window positions when comparison or synchronization is finished.
@@ -10,8 +9,8 @@ Restores original window/tab positions when comparison or synchronization is can
 
 ## How to Run
 
-- Default Menu: **Compare** \> **Restore Window Positions when Finished**
-- [All Commands](../tools/all_commands): **Compare** \> **Restore Window Positions when Finished**
+- Default Menu: **Compare** \> **Restore Window Positions When Finished**
+- [All Commands](../tools/all_commands): **Compare** \> **Restore Window Positions When Finished**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

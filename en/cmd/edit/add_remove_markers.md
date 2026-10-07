@@ -2,7 +2,7 @@
 
 ## Summary
 
-Adds the selected text to the Markers list or removes the selected text from the Markers list.
+Adds the selected text to the Markers list or removes it from the Markers list.
 
 ## Description
 
@@ -20,7 +20,7 @@ Adds the selected text to the Markers list or removes the selected text from the
 ## Plug-in Command ID
 
 ```
-EEID_ADD_REMOVE_MARKERS (4591)```
+EEID_ADD_REMOVE_MARKER (4591)```
 
 ## Macros
 

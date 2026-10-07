@@ -2,7 +2,7 @@
 
 ## Summary
 
-Moves the cursor to the bottom of the window.
+Moves the cursor to the bottom of the current window.
 
 ## Description
 

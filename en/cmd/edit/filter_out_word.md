@@ -1,8 +1,7 @@
-# Filter without Selection or Word at Cursor command
-
+# Filter Out command
 ## Summary
 
-Filters the document without the selected text or the word at cursor.
+Filters the document by excluding the selected text or the word at the cursor.
 
 ## Description
 

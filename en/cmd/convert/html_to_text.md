@@ -11,7 +11,7 @@ Converts the selected text from HTML to plain text.
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **HTML to Plain Text**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **HTML to Plain Text**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **HTML to Plain Text**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays File properties.
+File properties for the current configuration.
 
 ## Description
 

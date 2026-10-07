@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a character with a grave accent mark.
+Inserts a character with a grave accent by typing a, e, i, o, u, A, E, I, O, U, \` or ".
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts numbering at the cursor position or vertical selection.
+Inserts numbering at the cursor position or in a vertical selection.
 
 ## Description
 

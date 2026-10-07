@@ -2,7 +2,7 @@
 
 ## Summary
 
-Checks spelling of the document.
+Checks spelling in the document.
 
 ## Description
 

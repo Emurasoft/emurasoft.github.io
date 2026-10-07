@@ -2,7 +2,7 @@
 
 ## Summary
 
-Finds a string.
+Finds text.
 
 ## Description
 
@@ -13,8 +13,7 @@ and other options will start finding the specified string.
 ## How to Run
 
 - Default Menu: **Search** \> **Find**
-- [All Commands](../tools/all_commands): **Search**
-\> **Find**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Find**
 - Toolbar: ![](../../images/editfind.png)
 - Status Bar: None
 - Default Shortcut Key: CTRL+F

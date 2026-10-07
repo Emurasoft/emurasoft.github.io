@@ -2,7 +2,7 @@
 
 ## Summary
 
-Repeats specified last steps for a specified number of times.
+Repeats the specified recent steps a specified number of times.
 
 ## Description
 

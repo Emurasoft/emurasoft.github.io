@@ -2,7 +2,7 @@
 
 ## Summary
 
-Edits currently selected macro.
+Edits the currently selected macro.
 
 ## Description
 

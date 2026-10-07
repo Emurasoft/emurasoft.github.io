@@ -2,7 +2,7 @@
 
 ## Summary
 
-Moves the cursor to the end of the document.
+Moves the cursor to the bottom of the document.
 
 ## Description
 

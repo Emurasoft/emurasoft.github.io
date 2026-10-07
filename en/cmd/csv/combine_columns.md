@@ -2,7 +2,7 @@
 
 ## Summary
 
-Combines selected columns of the CSV document.
+Combines selected columns in a CSV document.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sorts IPv6 addresses in the current column, in descending order.
+Sorts IPv6 addresses in the current column in descending order.
 
 ## Description
 
@@ -10,7 +10,7 @@ Sorts IPv6 addresses in the current column, in descending order. An IPv6 address
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Sort** \> **Sort IPv6 Addresses Descending**
+- Default Menu: **Sort** \> **Sort IPv6 Addresses Descending**
 - [All Commands](../tools/all_commands): **Sort** \> **Sort IPv6 Addresses Descending**
 - Toolbar: None
 - Status Bar: None

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Runs macro.
+Runs a macro.
 
 ## Description
 

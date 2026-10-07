@@ -2,7 +2,7 @@
 
 ## Summary
 
-Enables or disables Wrap Indent.
+Enables or disables wrap indent.
 
 ## Description
 

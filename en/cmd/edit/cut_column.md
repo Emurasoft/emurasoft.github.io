@@ -2,7 +2,7 @@
 
 ## Summary
 
-Cuts the selected columns or current column and moves it to the Clipboard.
+Cuts the selected columns or the current column to the Clipboard.
 
 ## Description
 

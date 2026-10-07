@@ -2,7 +2,7 @@
 
 ## Summary
 
-Customizes Tray Icon.
+Customizes the tray icon.
 
 ## Description
 

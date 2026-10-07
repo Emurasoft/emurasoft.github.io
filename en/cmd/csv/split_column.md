@@ -2,7 +2,7 @@
 
 ## Summary
 
-Splits the selected columns of the CSV document.
+Splits the selected columns in a CSV document.
 
 ## Description
 

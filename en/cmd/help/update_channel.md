@@ -10,9 +10,8 @@ Selects an update channel.
 
 ## How to Run
 
-- Default Menu: **Help** \> **Select Update Channel**
-- [All Commands](../tools/all_commands): **Help** >
-**Select Update Channel**
+- Default Menu: None
+- [All Commands](../tools/all_commands): None
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

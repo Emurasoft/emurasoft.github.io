@@ -2,7 +2,7 @@
 
 ## Summary
 
-Starts recording a macro except mouse or keyboard activities.
+Starts recording a macro, excluding mouse and keyboard actions.
 
 ## Description
 

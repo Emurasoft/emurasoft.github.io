@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays EmEditor Help topics.
+Displays EmEditor help topics.
 
 ## Description
 

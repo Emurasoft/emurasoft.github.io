@@ -1,5 +1,4 @@
-# Display in Turkish font command
-
+# Turkish Font command
 ## Summary
 
 Displays text in a Turkish font.

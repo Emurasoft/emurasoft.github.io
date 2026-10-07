@@ -2,7 +2,7 @@
 
 ## Summary
 
-Deletes the line to the right of the cursor.
+Deletes text to the right of the cursor on the current line.
 
 ## Description
 

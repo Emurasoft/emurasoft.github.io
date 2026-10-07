@@ -2,7 +2,7 @@
 
 ## Summary
 
-Saves the current file using Unicode (UTF-8) encoding with signature.
+Saves the current file using Unicode (UTF-8) encoding with a signature.
 
 ## Description
 

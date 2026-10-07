@@ -2,7 +2,7 @@
 
 This dialog box appears when the [**Combine Lines** command](../../cmd/csv/combine_lines) is selected. This command combines vertical adjacent duplicate cells.
 
-## Columns to inspect duplicates list box
+## Columns to inspect for duplicates list box
 
 Displays the list of columns that can be specified to inspect duplicates.
 

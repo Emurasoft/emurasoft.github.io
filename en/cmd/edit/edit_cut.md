@@ -2,7 +2,7 @@
 
 ## Summary
 
-Cuts the selection or the current line and moves it to the Clipboard.
+Cuts the selection, or cuts the current line, to the Clipboard.
 
 ## Description
 

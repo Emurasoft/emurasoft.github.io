@@ -1,5 +1,4 @@
-# Advanced (Find toolbar) command
-
+# Advanced (Find Toolbar) command
 ## Summary
 
 Displays the Advanced dialog box for the Find toolbar.

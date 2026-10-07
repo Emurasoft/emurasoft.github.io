@@ -1,8 +1,7 @@
-# Associate Configurations command
-
+# Associate Configuration command
 ## Summary
 
-Associates configurations with files types.
+Associates file types with configurations.
 
 ## Description
 
@@ -11,8 +10,8 @@ Displays the
 
 ## How to Run
 
-- Default Menu: **Tools** \> **Associate Configurations**
-- [All Commands](all_commands): **Tools** \> **Associate Configurations**
+- Default Menu: **Tools** \> **Associate Configuration**
+- [All Commands](all_commands): **Tools** \> **Associate Configuration**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

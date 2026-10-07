@@ -2,7 +2,7 @@
 
 ## Summary
 
-Opens the **Quick Launch** window and selects the **Symbols** mode.
+Displays the **Quick Launch** window and selects **Symbols** mode.
 
 ## Description
 

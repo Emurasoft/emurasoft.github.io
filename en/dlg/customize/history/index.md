@@ -61,7 +61,7 @@ Adds an item to the list.
 
 Deletes an item to the list.
 
-## Exclude the internet cache folder List checkbox
+## Exclude the internet cache folder checkbox
 
 If this box is checked, EmEditor will not add file paths that are in the Internet
 cache folder.

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Decodes the selected text from Universal Character Names.
+Decodes the selected text from universal character names.
 
 ## Description
 
@@ -11,7 +11,7 @@ Decodes the selected text from Universal Character Names into the equivalent Uni
 ## How to Run
 
 - Default Menu: **Convert** \> **Encode/Decode** \> **Universal Character Names to Unicode**
-- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode** \> **Universal Character Names to Unicode**
+- [All Commands](../tools/all_commands): **Convert** \> **Encode/Decode Selection** \> **Universal Character Names to Unicode**
 - Toolbar:
 ![](../../images/ucs2uni24x16.png)
 - Status Bar: None

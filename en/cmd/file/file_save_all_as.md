@@ -2,8 +2,7 @@
 
 ## Summary
 
-Saves all opened documents with the specified destination folder,
-encoding, and newline characters, except for untitled documents.
+Saves all open documents to the specified destination folder with the selected encoding and newline characters, except untitled documents.
 
 ## Description
 
@@ -15,7 +14,7 @@ In order to use this command, the opened documents that you wish to save with th
 ## How to Run
 
 - Default Menu: **File** \> **Save All with Encoding**
-- [All Commands](../tools/all_commands): **File** \> **Save All with Encoding**
+- [All Commands](../tools/all_commands): **File** \> **Save** \> **Save All with Encoding**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

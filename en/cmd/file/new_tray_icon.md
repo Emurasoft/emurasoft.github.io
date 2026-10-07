@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays a new System Tray icon.
+Displays a new system tray icon.
 
 ## Description
 

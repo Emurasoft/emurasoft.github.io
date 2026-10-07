@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a line feed at the current cursor position.
+Inserts an LF at the cursor.
 
 ## Description
 

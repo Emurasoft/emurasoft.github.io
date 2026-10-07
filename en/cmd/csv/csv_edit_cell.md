@@ -2,7 +2,7 @@
 
 ## Summary
 
-Edits the current cell in the CSV document.
+Edits the current cell in a CSV document.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Ignores leading spaces at each line when comparing documents.
+Ignores leading spaces on each line when comparing documents.
 
 ## Description
 

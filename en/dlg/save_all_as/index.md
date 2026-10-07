@@ -10,7 +10,7 @@ Specifies the destination folder.
 
 Specifies the encoding to be used to save the files.
 
-## Newline character drop box
+## Newline character drop-down list box
 
 Specifies the newline characters to be used to save the files.
 

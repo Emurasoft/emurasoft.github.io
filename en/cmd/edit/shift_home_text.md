@@ -2,8 +2,7 @@
 
 ## Summary
 
-Extends the selection to the start of the current line or the start of the
-text on that line.
+Extends the selection to the start of the current line or the start of text.
 
 ## Description
 

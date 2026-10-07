@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sets the first two columns headings and non-scrollable.
+Freezes the first two columns as row headings.
 
 ## Description
 

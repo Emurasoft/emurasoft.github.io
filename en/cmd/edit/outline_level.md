@@ -24,7 +24,7 @@ Collapses or expands to the specified level (2 - 16) in the entire document whil
 ## Plug-in Command ID
 
 ```
-EEID_OUTLINE_LEVEL_2 (8832) - ID_OUTLINE_LEVEL_16 (8846)```
+EEID_OUTLINE_LEVEL_2 (8832) - EEID_OUTLINE_LEVEL_16 (8846)```
 
 ## Macros
 

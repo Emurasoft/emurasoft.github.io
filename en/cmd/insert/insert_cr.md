@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a carriage return at the current cursor position.
+Inserts a CR at the cursor.
 
 ## Description
 

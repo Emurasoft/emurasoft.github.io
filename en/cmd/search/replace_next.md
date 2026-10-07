@@ -2,7 +2,7 @@
 
 ## Summary
 
-Replaces the next occurrence.
+Replaces the next occurrence and then finds the next one.
 
 ## Description
 
@@ -12,8 +12,7 @@ options.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Replace Next**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Replace Next**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

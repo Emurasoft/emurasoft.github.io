@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sets the current word as the query string.
+Sets the current word or selection as the find string.
 
 ## Description
 
@@ -15,8 +15,7 @@ will display the word specified by this command as default.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **Search**
-\> **Set Word to Find**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Set Word to Find**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

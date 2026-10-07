@@ -2,7 +2,7 @@
 
 ## Summary
 
-Converts tabs to equivalent spaces throughout the entire document.
+Converts tabs to the equivalent spaces.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays the two most recently viewed documents in a split view.
+Displays the two most recently viewed documents in a split window.
 
 ## Description
 

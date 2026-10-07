@@ -33,7 +33,7 @@ this box is not checked, EmEditor always starts with the insert mode.
 
 Specifies whether you want to enable multiple selections. To make multiple selections, after making one selection, make another selection with the mouse while pressing the CTRL key. Alternatively, you can press the F8 key, move the cursor to extend the selection, press the F8 key again to finish the selection, move the cursor again to go to the next selection position, and repeat this procedure until you make all selections.
 
-## Read-only when a temporary file is opened with View Source on Internet Explorer checkbox
+## Read-only when a temporary file is opened with View Source in Internet Explorer checkbox
 
 Enables read-only when a temporary file is opened with View Source in Internet Explorer.
 
@@ -83,11 +83,11 @@ If this is checked, EmEditor will insert newline characters when you copy multip
 
 If this is checked, EmEditor will keep selections while typing in multiple selections, and confine the cursors to the multiple selection range when you move the cursor via arrow keys.
 
-## Alternative behavior of the Word Right command checkbox
+## Alternative behavior for the Word Right command checkbox
 
 If this is checked, EmEditor will use an alternative behavior of the [**Word Right**](../../../cmd/edit/right_word) command.
 
-## Alternative behavior of the Word Left command checkbox
+## Alternative behavior for the Word Left command checkbox
 
 If this is checked, EmEditor will use an alternative behavior of the [**Word Left**](../../../cmd/edit/left_word) command.
 
@@ -99,7 +99,7 @@ If this is checked, EmEditor will ignore the last character in the selection whe
 
 If this is checked, EmEditor will inspect only selected strings for duplication when vertical selection or multiple selections exist.
 
-## Extend the selection on the Duplicate Lines/Columns commands checkbox
+## Extend the selection for the Duplicate Lines/Columns commands checkbox
 
 If this is checked, EmEditor will extend selection when you run Duplicate Lines/Columns commands.
 

@@ -27,7 +27,7 @@ Specifies an action when the left mouse button is double-clicked outside of tabs
 If this is checked, you can drag and drop the selection of text to copy or move into another place. If you drag and drop while the CTRL key is pressed, the text is copied. If you drag and drop while the SHIFT key is pressed, the text is moved. If you don't press any key while dragging and dropping, the
 text will be moved if you drop into the same window, and copied if you drop into another window.
 
-## Enable triple-click to select line checkbox
+## Enable triple-click to select a line checkbox
 
 Enables triple-clicking the mouse to select a line at the current cursor position.
 
@@ -51,7 +51,7 @@ If this box is checked, clicking on a word while pressing the CTRL key will sele
 
 If this box is checked, clicking the middle mouse button will paste what is on the clipboard.
 
-## Drag the selection border to extend/shrink selection checkbox
+## Drag the selection border to extend/shrink the selection checkbox
 
 If this box is checked, you can drag the selection border to extend or shrink the selection.
 

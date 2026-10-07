@@ -2,7 +2,7 @@
 
 ## Summary
 
-Makes the entire document accessible.
+Turns narrowing off and makes the entire document accessible.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Resets column headings.
+Unfreezes panes.
 
 ## Description
 

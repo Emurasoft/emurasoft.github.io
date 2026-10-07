@@ -2,7 +2,7 @@
 
 ## Summary
 
-Joins non-empty lines by replacing each newline with a space.
+Joins lines by removing newline characters and inserting spaces at the end of each line.
 
 ## Description
 

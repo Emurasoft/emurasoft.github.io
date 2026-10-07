@@ -2,7 +2,7 @@
 
 ## Summary
 
-Finds Help topics for selected macro keyword.
+Searches help topics for the selected macro keyword.
 
 ## Description
 

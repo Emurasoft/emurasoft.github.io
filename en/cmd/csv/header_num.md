@@ -2,7 +2,7 @@
 
 ## Summary
 
-Uses one-based numerical characters for the column header.
+Uses one-based numbering for the column header.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Arranges tabs by active order.
+Arranges tabs by activation order.
 
 ## Description
 

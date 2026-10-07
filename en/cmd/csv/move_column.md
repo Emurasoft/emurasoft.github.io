@@ -2,7 +2,7 @@
 
 ## Summary
 
-Moves or copies selected columns or the current column of the CSV document to the specified position.
+Moves or copies selected columns, or the current column, to the specified position in a CSV document.
 
 ## Description
 

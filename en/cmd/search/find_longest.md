@@ -2,7 +2,7 @@
 
 ## Summary
 
-Finds the longest line in a non-CSV document or longest cell in the current column of a CSV document.
+Finds the longest line in a non-CSV document or the longest cell in the current column of a CSV document.
 
 ## Description
 

@@ -40,8 +40,8 @@ Click this button to show the list of available commands.
 
 |     |     |
 | --- | --- |
-| **Current File Type** | When this is checked, the dialog box initializes the File Types drop-down list using the current file type. |
-| **Current File Extension** | When this is checked, the dialog box initializes the File Types drop-down list using the current file extension. |
+| **Current File Type** | When this is checked, the dialog box initializes the File Types drop-down list using the current file type. |
+| **Current File Extension** | When this is checked, the dialog box initializes the File Types drop-down list using the current file extension. |
 | **Current File** | When this is checked, the dialog box initializes the File Types drop-down list using the current file. |
 | **Last used value** | When this is checked, the dialog box initializes the File Types drop-down list box with the last used string. |
 | **Fixed value** | When this is checked, the dialog box initializes the File Types drop-down list box with the string set as the fixed value. |

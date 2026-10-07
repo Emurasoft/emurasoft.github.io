@@ -2,7 +2,7 @@
 
 ## Summary
 
-Saves the current file using Unicode (UTF-16BE) encoding without signature.
+Saves the current file using Unicode (UTF-16BE) encoding without a signature.
 
 ## Description
 
@@ -22,7 +22,7 @@ which allows you to enter a file name to save the file as.
 ## Plug-in Command ID
 
 ```
-EEID_SAVE_UTF16BE_SIGN (4486)```
+EEID_SAVE_UTF16BE_NOSIGN (4486)```
 
 ## Macros
 

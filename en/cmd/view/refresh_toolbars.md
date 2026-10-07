@@ -2,7 +2,7 @@
 
 ## Summary
 
-Refreshes all toolbars.
+Refreshes the toolbars.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Combines vertical adjacent duplicate cells of the CSV document.
+Combines vertically adjacent duplicate cells in a CSV document.
 
 ## Description
 

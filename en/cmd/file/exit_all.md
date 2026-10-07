@@ -2,7 +2,7 @@
 
 ## Summary
 
-Closes all open files and quits EmEditor.
+Closes all open files.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Toggles a code style.
+Toggles code formatting.
 
 ## Description
 

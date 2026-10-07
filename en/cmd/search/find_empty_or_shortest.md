@@ -2,7 +2,7 @@
 
 ## Summary
 
-Finds the shortest line in a non-CSV document or shortest cell in the current column of a CSV document.
+Finds the shortest line in a non-CSV document or the shortest cell in the current column of a CSV document.
 
 ## Description
 

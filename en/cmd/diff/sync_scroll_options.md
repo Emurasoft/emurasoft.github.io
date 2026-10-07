@@ -2,8 +2,7 @@
 
 ## Summary
 
-Starts Synchronize Scrolling Wizard to synchronize scrolling between the
-two most recently viewed documents.
+Starts the Synchronize Scrolling wizard to synchronize scrolling between the two most recently viewed documents.
 
 ## Description
 

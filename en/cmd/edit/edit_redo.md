@@ -2,7 +2,7 @@
 
 ## Summary
 
-Redo the last undone action.
+Redoes the last undone action.
 
 ## Description
 

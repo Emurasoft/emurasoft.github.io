@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays New File Details Properties.
+New File Details properties for the current configuration.
 
 ## Description
 
@@ -13,8 +13,7 @@ dialog box.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](all_commands): **Tools** >
-**Properties for Current Configuration** \> **New File Details Properties**
+- [All Commands](all_commands): **Tools** \> **Properties for Current Configuration** \> **New File Details**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Highlight (2) properties.
+Highlight (2) properties for the current configuration.
 
 ## Description
 

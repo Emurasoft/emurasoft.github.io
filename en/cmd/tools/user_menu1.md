@@ -2,8 +2,7 @@
 
 ## Summary
 
-Shows User Menu (1), used as the first shortcut key for two-keystroke
-shortcuts.
+Shows User Menu (1), used as the first key for two-keystroke shortcuts.
 
 ## Description
 

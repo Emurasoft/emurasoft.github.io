@@ -2,7 +2,7 @@
 
 ## Summary
 
-Scrolls the document to the left edge of the document.
+Scrolls the document to the left edge.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Print properties.
+Print properties for the current configuration.
 
 ## Description
 

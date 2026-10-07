@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts a character with a stroke.
+Inserts a character with a stroke by typing o, O or c.
 
 ## Description
 

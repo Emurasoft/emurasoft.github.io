@@ -1,5 +1,4 @@
-# Toggle Minimap command
-
+# Minimap command
 ## Summary
 
 Toggles the minimap.

@@ -1,5 +1,4 @@
-# Toggle Outline Guide command
-
+# Outline Guide command
 ## Summary
 
 Shows or hides the outline guide.

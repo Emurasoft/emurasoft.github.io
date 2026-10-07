@@ -2,7 +2,7 @@
 
 ## Summary
 
-Shows or hides the Web Browser.
+Shows or hides the web browser.
 
 ## Description
 

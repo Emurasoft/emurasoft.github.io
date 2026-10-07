@@ -2,7 +2,7 @@
 
 ## Summary
 
-Saves and Close all open files.
+Saves and closes all open files.
 
 ## Description
 

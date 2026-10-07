@@ -2,7 +2,7 @@
 
 ## Summary
 
-Duplicates selected columns of the CSV document.
+Duplicates the selected columns in a CSV document.
 
 ## Description
 

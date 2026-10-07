@@ -2,7 +2,7 @@
 
 ## Summary
 
-Shows the syntax checker bar and check syntax, or hides the syntax checker bar.
+Shows the syntax checker bar and checks syntax, or hides the syntax checker bar.
 
 ## Description
 

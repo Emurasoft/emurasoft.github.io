@@ -1,5 +1,4 @@
-# Replace >> (Find toolbar) command
-
+# Replace >> (Find Toolbar) command
 ## Summary
 
 Toggles the Replace >> button on the Find toolbar.

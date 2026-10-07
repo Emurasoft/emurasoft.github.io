@@ -2,7 +2,7 @@
 
 ## Summary
 
-Opens the **Quick Launch** window and selects the **Options** mode.
+Displays the **Quick Launch** window and selects **Options** mode.
 
 ## Description
 

@@ -1,8 +1,7 @@
-# Check Spelling in Highlight command
-
+# Check Spelling in Highlighted Text command
 ## Summary
 
-Checks spelling in highlight.
+Checks spelling in highlighted text.
 
 ## Description
 
@@ -10,10 +9,8 @@ Checks spelling in highlight. Misspelled words will be underlined in red.
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Highlighted**
-**Text**
-- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **Highlight**
-**Text**
+- Default Menu: **Edit** \> **Spelling** \> **Check Spelling in** \> **Highlighted Text**
+- [All Commands](../tools/all_commands): **Edit** \> **Spelling** \> **Check Spelling in** \> **Highlighted Text**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

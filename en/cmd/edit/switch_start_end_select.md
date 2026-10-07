@@ -2,7 +2,7 @@
 
 ## Summary
 
-Switches the starting point and ending point of the selections.
+Switches the start and end points of the selection.
 
 ## Description
 

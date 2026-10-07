@@ -2,7 +2,7 @@
 
 ## Summary
 
-Inserts one of the contents from the Clipboard history at the cursor position.
+Inserts an item from the Clipboard history at the cursor position.
 
 ## Description
 

@@ -1,5 +1,4 @@
-# Display in Central European font command
-
+# Central European Font command
 ## Summary
 
 Displays text in a Central European font.

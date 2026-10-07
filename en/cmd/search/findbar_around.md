@@ -1,5 +1,4 @@
-# Wrap Around (Find toolbar) command
-
+# Wrap Around (Find Toolbar) command
 ## Summary
 
 Toggles the Wrap Around button on the Find toolbar.

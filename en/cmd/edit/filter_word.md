@@ -1,8 +1,7 @@
-# Filter with Selection or Word at Cursor command
-
+# Filter with Selection or Word at the Cursor command
 ## Summary
 
-Filters the document with the selected text or the word at cursor.
+Filters the document using the selected text or the word at the cursor.
 
 ## Description
 

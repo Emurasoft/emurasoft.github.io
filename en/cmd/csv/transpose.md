@@ -2,7 +2,7 @@
 
 ## Summary
 
-Switches the rows and columns of the CSV document.
+Swaps rows and columns in the CSV document.
 
 ## Description
 

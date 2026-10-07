@@ -1,8 +1,7 @@
-# CSV (popup menu) command
-
+# CSV (Pop-up Menu) command
 ## Summary
 
-Shows a popup menu to select a CSV mode.
+Shows a pop-up menu to select a CSV mode.
 
 ## Description
 
@@ -11,7 +10,7 @@ Shows a popup menu to select a CSV mode.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **CSV (Popup Menu)**
+- [All Commands](../tools/all_commands): **CSV** \> **CSV (Pop-up Menu)**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

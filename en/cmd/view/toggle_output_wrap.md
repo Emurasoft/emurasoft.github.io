@@ -2,7 +2,7 @@
 
 ## Summary
 
-Wraps lines according to window size in the Output Bar.
+Wraps output lines according to window size.
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Auto Save properties.
+Auto Save properties for the current configuration.
 
 ## Description
 

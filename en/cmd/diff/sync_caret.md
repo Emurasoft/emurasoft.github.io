@@ -2,7 +2,7 @@
 
 ## Summary
 
-Synchronize Cursor Positions.
+Synchronizes cursor positions.
 
 ## Description
 

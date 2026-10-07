@@ -1,5 +1,4 @@
-# Display in Traditional Chinese font command
-
+# Traditional Chinese Font command
 ## Summary
 
 Displays text in a Traditional Chinese font.

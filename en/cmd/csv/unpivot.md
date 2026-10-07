@@ -2,7 +2,7 @@
 
 ## Summary
 
-Converts columns into rows by flattening the CSV data.
+Converts columns into rows by unpivoting the CSV data.
 
 ## Description
 

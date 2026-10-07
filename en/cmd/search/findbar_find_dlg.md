@@ -1,8 +1,7 @@
-# << Find (Find toolbar) command
-
+# << Find (Find Toolbar) command
 ## Summary
 
-Toggles the << Find button on the Find toolbar.
+Switches to Find mode on the Find toolbar.
 
 ## Description
 

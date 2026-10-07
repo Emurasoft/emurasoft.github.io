@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays Backup properties.
+Backup properties for the current configuration.
 
 ## Description
 

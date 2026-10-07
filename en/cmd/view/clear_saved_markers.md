@@ -2,7 +2,7 @@
 
 ## Summary
 
-Clears all markers indicating saved lines.
+Clears all markers that indicate saved lines.
 
 ## Description
 
@@ -11,8 +11,7 @@ Clears all markers indicating saved lines.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Markers**
-\> **Clear Markers for Saved Lines**
+- [All Commands](../tools/all_commands): **View** \> **Clear Markers for Saved Lines**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

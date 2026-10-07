@@ -2,7 +2,7 @@
 
 ## Summary
 
-Generates a report file based on the current comparison result.
+Generates a report file based on the current comparison results.
 
 ## Description
 
@@ -19,7 +19,7 @@ Generates a report file based on the current comparison result.
 ## Plug-in Command ID
 
 ```
-EEID_COMPARE_BOOKMARK (3996)```
+EEID_COMPARE_GENERATE_REPORT (3996)```
 
 ## Macros
 

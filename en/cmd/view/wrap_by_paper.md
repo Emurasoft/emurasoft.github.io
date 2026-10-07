@@ -2,7 +2,7 @@
 
 ## Summary
 
-Wraps lines according to page width.
+Wraps lines according to the page width.
 
 ## Description
 

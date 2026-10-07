@@ -2,7 +2,7 @@
 
 ## Summary
 
-Saves the workspace, saves and closes all open files in the current virtual desktop.
+Saves the workspace, then saves and closes all open files in the current virtual desktop.
 
 ## Description
 

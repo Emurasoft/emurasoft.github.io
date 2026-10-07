@@ -2,7 +2,7 @@
 
 ## Summary
 
-Downgrades the product to EmEditor Free.
+Downgrades this product to EmEditor Free.
 
 ## Description
 

@@ -43,7 +43,7 @@ Highlights the selected string only if the whole word is the string.
 
 Highlights the selected word and the right of the word on the line only up to the word wrapped position.
 
-## Highlight right all checkbox
+## Highlight right side checkbox
 
 Highlights the selected word and everything to the right of the word on the line up to the window border (if no wrap or wrap by window is selected) or specified width or page width.
 

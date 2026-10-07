@@ -7,7 +7,7 @@ operations.
 
 Prints line numbers down the left side of the page.
 
-## Ignore color and underlines checkbox
+## Ignore colors and underlines checkbox
 
 Ignores color and underlines when printing.
 

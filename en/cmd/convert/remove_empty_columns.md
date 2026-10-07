@@ -2,7 +2,7 @@
 
 ## Summary
 
-Removes empty columns in the CSV document.
+Removes empty columns in a CSV document.
 
 ## Description
 
