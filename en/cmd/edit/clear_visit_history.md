@@ -15,7 +15,7 @@ Clears the visited URLs, Email addresses, and tag history.
 \> **Clear Visited Link History**
 - Toolbar: None
 - Status Bar: None
-- Default Keyboard Shortcut: F10
+- Default Keyboard Shortcut: None
 
 ## Plug-in Command ID
 

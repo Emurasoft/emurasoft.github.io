@@ -1,4 +1,4 @@
-# \[DirectWrite を使用\] コマンド
+# \[DirectWriteを使用\] コマンド
 
 ## 概要
 
@@ -10,8 +10,8 @@
 
 ## 実行方法
 
-- 既定のメニュー: \[表示\] \- \[DirectWrite を使用\]
-- [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[フォント\] \- \[DirectWrite を使用\]
+- 既定のメニュー: \[表示\] \- \[DirectWriteを使用\]
+- [すべてのコマンド](../../glossary/allcommands): \[表示\] \- \[フォント\] \- \[DirectWriteを使用\]
 - ツール バー: ![](../../images/fontpopup.png) (右端の矢印部分) \-
 \[DirectWrite を使用\]
 - ステータス バー: なし
@@ -20,7 +20,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_USE_DIRECTWRITE (3997)
+EEID_USE_DIRECT_WRITE (3997)
 ```
 
 ## マクロ

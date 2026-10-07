@@ -28,11 +28,11 @@ EEID_FILE_SAVE_HEX (4441)```
 ### \[JavaScript\]
 
 ```
-editor.ExecuteCommandByID(4440);
+editor.ExecuteCommandByID(4441);
 ```
 
 ### \[VBScript\]
 
 ```
-editor.ExecuteCommandByID 4440
+editor.ExecuteCommandByID 4441
 ```

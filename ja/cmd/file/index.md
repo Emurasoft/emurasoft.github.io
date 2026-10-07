@@ -17,20 +17,20 @@
 | [名前を付けて保存](file_save_as) | ファイルに名前を付けて保存します。 |
 | [名前を変更](file_save_rename) | ファイル名を変更します。 |
 | [すべて保存](file_save_all) | 開いているファイルをすべて保存します。 |
-| [すべてエンコードを指定して保存](file_save_all_as) | 無題の文書を除き、すべての開いている文書を指定するフォルダ、エンコード、改行コード方法で保存します。 |
+| [すべてエンコードを指定して保存](file_save_all_as) | 無題の文書を除き、すべての開いている文書を指定するフォルダ、エンコード、改行コードで保存します。 |
 | [高度に開く](advanced_open) | 既存のファイルを高度なオプションで開きます。 |
 | [システム既定エンコードで保存](file_save_ansi) | システム既定エンコードで保存します。 |
-| [UTF-16LEで保存](file_save_unicode) | ファイルを Unicode (UTF-16LE) で保存します。 |
+| [UTF-16LEで保存](file_save_unicode) | ファイルをUTF-16LEで保存します。 |
 | [UTF-16LE(BOM付き)で保存](save_utf16le_sign) | ファイルをUTF-16LE(BOM付き)で保存します。 |
 | [UTF-16LE(BOM無し)で保存](save_utf16le_nosign) | ファイルをUTF-16LE(BOM無し)で保存します。 |
-| [UTF-16BEで保存](file_save_unicode_bigendian) | ファイルを Unicode (UTF-16BE) で保存します。 |
+| [UTF-16BEで保存](file_save_unicode_bigendian) | ファイルをUTF-16BEで保存します。 |
 | [UTF-16BE(BOM付き)で保存](save_utf16be_sign) | ファイルをUTF-16BE(BOM付き)で保存します。 |
 | [UTF-16BE(BOM無し)で保存](save_utf16be_nosign) | ファイルをUTF-16BE(BOM無し)で保存します。 |
-| [UTF-8で保存](file_save_utf8) | ファイルを Unicode (UTF-8) で保存します。 |
+| [UTF-8で保存](file_save_utf8) | ファイルをUTF-8で保存します。 |
 | [UTF-8(BOM付き)で保存](save_utf8_sign) | ファイルをUTF-8(BOM付き)で保存します。 |
 | [UTF-8(BOM無し)で保存](save_utf8_nosign) | ファイルをUTF-8(BOM無し)で保存します。 |
-| [UTF-7で保存](file_save_utf7) | ファイルを Unicode (UTF-7) で保存します。 |
-| [バイナリ(アスキー表示)で保存](file_save_binary) | バイナリ(アスキー表示) で保存します。 |
+| [UTF-7で保存](file_save_utf7) | ファイルをUTF-7で保存します。 |
+| [バイナリ(アスキー表示)で保存](file_save_binary) | ファイルをバイナリ (アスキー表示) で保存します。 |
 | [バイナリ(16進数表示)で保存](file_save_hex) | ファイルをバイナリ (16進数表示) で保存します。 |
 | [日本語Shift JISで保存](file_save_932) | 日本語 Shift JIS で保存します。 |
 | [日本語JISで保存](file_save_jis) | 日本語 JIS で保存します。 |
@@ -39,16 +39,16 @@
 | [CR+LFで保存](save_as_crlf) | CR+LF (Windows 形式) で保存します。 |
 | [CRのみで保存](save_as_cr) | CR のみ (Macintosh 形式) で保存します。 |
 | [LFのみで保存](save_as_lf) | LF のみ (Unix 形式) で保存します。 |
-| [ファイル パス名をコピー](copy_file_path) | ファイルの完全パス名をコピーしてクリップボードに保存します。 |
+| [ファイル パス名をコピー](copy_file_path) | ファイルの完全パスと名前をコピーしてクリップボードに保存します。 |
 | [ファイル ディレクトリ名をコピー](copy_file_dir) | ファイルのディレクトリ名をコピーしてクリップボードに保存します。 |
 | [同じエンコードで読み直し](file_reload) | ファイルを同じエンコードで読み直します。 |
 | [読み直し (ポップアップ メニュー)](reload_popup) | ポップアップ メニューを表示して指定するエンコードで読み直します。 |
 | [自動検出で読み直し](file_reload_detect_all) | すべてのエンコードを自動検出して読み直します。 |
 | [システム既定エンコードで読み直し](file_reload_ansi) | システム既定エンコードで読み直します。 |
-| [UTF-16LEで読み直し](file_reload_unicode) | ファイルを Unicode (UTF-16LE) で読み直します。 |
-| [UTF-16BEで読み直し](file_reload_unicode_bigendian) | ファイルを Unicode (UTF-16BE) で読み直します。 |
-| [UTF-8で読み直し](file_reload_utf8) | ファイルを Unicode (UTF-8) で読み直します。 |
-| [UTF-7で読み直し](file_reload_utf7) | ファイルを Unicode (UTF-7) で読み直します。 |
+| [UTF-16LEで読み直し](file_reload_unicode) | ファイルをUTF-16LEで読み直します。 |
+| [UTF-16BEで読み直し](file_reload_unicode_bigendian) | ファイルをUTF-16BEで読み直します。 |
+| [UTF-8で読み直し](file_reload_utf8) | ファイルをUTF-8で読み直します。 |
+| [UTF-7で読み直し](file_reload_utf7) | ファイルをUTF-7で読み直します。 |
 | [バイナリ(アスキー表示)で読み直し](file_reload_binary) | ファイルをバイナリ (アスキー表示) で読み直します。 |
 | [バイナリ(16進数表示)で読み直し](file_reload_hex) | ファイルをバイナリ (16進数表示) で読み直します。 |
 | [日本語Shift JISで読み直し](file_reload_932) | ファイルを日本語 Shift JIS で読み直します。 |
@@ -70,16 +70,16 @@
 | [保存して閉じる](file_save_exit) | ファイルを保存して閉じます。 |
 | [閉じる](app_exit) | 現在アクティブな文書を閉じます。 |
 | [タブを閉じる](close_tab) | 選択タブを閉じます。 |
-| [すべて保存して閉じる(現在のデスクトップのみ)](save_close_desktop) | ファイルをすべて保存して閉じます。 |
-| [すべて閉じる(現在のデスクトップのみ)](close_desktop) | すべての文書を閉じます。 |
+| [すべて保存して閉じる(現在のデスクトップのみ)](save_close_desktop) | 現在の仮想デスクトップのファイルをすべて保存して閉じます。 |
+| [すべて閉じる(現在のデスクトップのみ)](close_desktop) | 現在の仮想デスクトップのすべての文書を閉じます。 |
 | [すべて保存して閉じる](save_exit_all) | ファイルをすべて保存して閉じます。 |
 | [すべて閉じる](exit_all) | すべての文書を閉じます。 |
 | [すべての他を閉じる](close_all_others) | すべての他の文書を閉じます。 |
 | [保存しないで閉じる](app_quit) | 現在アクティブな文書を保存しないで閉じます。 |
-| [すべて保存しないで閉じる(現在のデスクトップのみ)](quit_desktop) | すべての文書を保存しないで閉じます。 |
+| [すべて保存しないで閉じる(現在のデスクトップのみ)](quit_desktop) | 現在の仮想デスクトップのすべての文書を保存しないで閉じます。 |
 | [すべて保存しないで閉じる](quit_all) | すべての文書を保存しないで閉じます。 |
-| [ワークスペースを保存してすべて保存して閉じる(現在のデスクトップのみ)](save_workspace_close_desktop) | ワークスペースを保存してすべてのファイルを保存してすべて閉じます。 |
-| [ワークスペースを保存してすべて閉じる(現在のデスクトップのみ)](save_workspace_quit_desktop) | ワークスペースを保存してすべて閉じます。 |
+| [ワークスペースを保存してすべて保存して閉じる(現在のデスクトップのみ)](save_workspace_close_desktop) | 現在の仮想デスクトップのワークスペースを保存してすべてのファイルを保存してすべて閉じます。 |
+| [ワークスペースを保存してすべて閉じる(現在のデスクトップのみ)](save_workspace_quit_desktop) | 現在の仮想デスクトップのワークスペースを保存してすべて閉じます。 |
 | [ワークスペースを保存してすべて保存して閉じる](save_workspace_exit_all) | ワークスペースを保存してすべてのファイルを保存してすべて閉じます。 |
 | [ワークスペースを保存してすべて閉じる](save_workspace_quit_all) | ワークスペースを保存してすべて閉じます。 |
 | [最近使ったファイルの一覧](file_mru_file1) | 指定した最近使ったファイルを開きます (複数項目)。 |

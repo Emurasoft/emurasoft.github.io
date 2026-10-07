@@ -19,7 +19,7 @@ HTMLフォーマットで貼り付けます。
 ## プラグイン コマンド ID
 
 ```
-EEID_EDIT_PASTE_HTML (4071)```
+EEID_PASTE_HTML (4071)```
 
 ## マクロ
 

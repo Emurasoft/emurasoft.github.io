@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_BOOKMARK_CLEAR (4594)```
+EEID_BOOKMARK_GROUP_CLEAR (4594)```
 
 ## マクロ
 

@@ -14,7 +14,7 @@ Jumps to the previous cell in CSV mode.
 - [All Commands](../tools/all_commands): **CSV** \> **Previous Cell**
 - Toolbar: None
 - Status Bar: None
-- Default Keyboard Shortcut: None
+- Default Keyboard Shortcut: ALT+SHIFT+LEFT ARROW
 
 ## Plug-in Command ID
 

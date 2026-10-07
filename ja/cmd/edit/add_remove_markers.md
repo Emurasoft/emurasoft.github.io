@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_ADD_REMOVE_MARKERS (4591)```
+EEID_ADD_REMOVE_MARKER (4591)```
 
 ## マクロ
 

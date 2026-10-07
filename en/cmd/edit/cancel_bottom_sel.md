@@ -15,7 +15,7 @@ Deselects the bottom selection from multiple selections.
 \> **Deselect Bottom Selection from Multiple Selections**
 - Toolbar: None
 - Status Bar: None
-- Default Keyboard Shortcut: ALT+CTRL+SHIFT+DOWN
+- Default Keyboard Shortcut: ALT+CTRL+SHIFT+UP
 
 ## Plug-in Command ID
 

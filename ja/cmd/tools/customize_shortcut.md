@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_CUSTOMIZE_ADVANCED (9048)```
+EEID_CUSTOMIZE_SHORTCUT (9048)```
 
 ## マクロ
 

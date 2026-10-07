@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_SORT_LENGTH_A (3918)```
+EEID_SORT_LENGTH_D (3918)```
 
 ## マクロ
 

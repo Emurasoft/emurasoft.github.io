@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID__CLOSE_TAB (23246)
+EEID_CLOSE_TAB (23246)
 ```
 
 ## マクロ

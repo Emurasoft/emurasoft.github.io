@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_CUSTOMIZE_SEARCH (9042)```
+EEID_CUSTOMIZE_HISTORY (9042)```
 
 ## マクロ
 

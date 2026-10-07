@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_QL_OPTIONS (3951)```
+EEID_QL_COMMANDS (3951)```
 
 ## マクロ
 

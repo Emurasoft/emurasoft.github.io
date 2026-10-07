@@ -1,4 +1,4 @@
-# \[Code\] コマンド
+# \[コード\] コマンド
 
 ## 概要
 
@@ -10,8 +10,8 @@
 
 ## 実行方法
 
-- 既定のメニュー: \[編集\] \- \[Markdown/HTML\] \- \[Code\]
-- [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown/HTML\] \- \[Code\]
+- 既定のメニュー: \[編集\] \- \[Markdown/HTML\] \- \[コード\]
+- [すべてのコマンド](../../glossary/allcommands): \[編集\] \- \[Markdown/HTML\] \- \[コード\]
 - ツール バー: ![](../../images/markdown_code.png)
 - ステータス バー: なし
 - 既定のショートカット: なし

@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_HEADING_POPUP (3900)```
+EEID_READ_ONLY_HEADINGS (3900)```
 
 ## マクロ
 

@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_SAVE_CLOSE_DESKTOP (3935)```
+EEID_CLOSE_DESKTOP (3935)```
 
 ## マクロ
 

@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_DELETE_COLULMN (3962)```
+EEID_DELETE_COLUMN (3962)```
 
 ## マクロ
 

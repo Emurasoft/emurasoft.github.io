@@ -23,7 +23,7 @@
 | [ユーロを挿入](../insert/insert_euro) | ユーロを挿入します。 |
 | [特殊文字を入力](../insert/insert_control) | 特殊文字を入力します。 |
 | [番号](../insert/numbering) | カーソル位置または箱型選択位置に番号を挿入します。 |
-| [オートフィル/オート リピート](../insert/auto_fill) | 連番やパターンを隣のセルに続けます。 |
+| [オートフィル/オートリピート](../insert/auto_fill) | 連番やパターンを隣のセル、行、文字に続けます。 |
 | [上に行挿入](../insert/line_open_above) | カーソル位置の上に行を挿入します。 |
 | [下に行挿入](../insert/line_open_below) | カーソル位置の下に行を挿入します。 |
 | [行の2重化](../insert/duplicate_line) | カーソルのある論理行全体を 2 重化します。 |

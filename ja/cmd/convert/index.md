@@ -15,8 +15,8 @@
 | [選択範囲のタブを空白に変換](../convert/untabify) | 選択範囲のタブを空白に変換します。 |
 | [インデント](../convert/indent) | 選択範囲の行インデントを増やします。 |
 | [逆インデント](../convert/unindent) | 選択範囲の行インデントを少なくします。 |
-| [コメント挿入](../convert/edit_comment) | 選択範囲または現在行をコメントにします。 |
-| [コメント削除](../convert/edit_uncomment) | 選択範囲または現在行のコメント記号を削除します。 |
+| [コメント](../convert/edit_comment) | 選択範囲または現在行をコメントにします。 |
+| [コメント解除](../convert/edit_uncomment) | 選択範囲または現在行のコメントを解除します。 |
 | [先頭の空白を削除](../convert/sel_trim_left) | 選択範囲の先頭の空白、タブ、全角空白を削除します。 |
 | [最後の空白を削除](../convert/sel_trim_right) | 選択範囲の最後の空白、タブ、全角空白を削除します。 |
 | [空行を削除](../convert/remove_empty_lines) | 選択範囲または文書全体の空行を削除します。 |
@@ -30,15 +30,15 @@
 | [Universal Character NamesをUnicodeに変換](../convert/decode_ucn) | 選択テキストをUniversal Character NamesからUnicodeに変換します。 |
 | [UnicodeをUniversal Character Namesに変換](../convert/encode_ucn) | 選択テキストをUnicodeからUniversal Character Namesに変換します。 |
 | [パーセント エンコーディングをUnicodeに変換(現在のエンコード)](../convert/decode_percent) | 選択テキストを現在のエンコードを用いてパーセント エンコーディングからUnicodeにデコードします。 |
-| [Unicodeをパーセント エンコーディングに変換(現在のエンコード)](../convert/encode_percent) | 選択テキストを現在のエンコードを用いてパーセント エンコーディングにデコードします。 |
-| [パーセント エンコーディングをUnicodeに変換(UTF-8)](../convert/decode_percent_utf8) | 選択テキストを現在のエンコードを用いてパーセント エンコーディングからUnicodeにデコードします。 |
-| [Unicodeをパーセント エンコーディングに変換(UTF-8)](../convert/encode_percent_utf8) | 選択テキストをUTF-8を用いてパーセント エンコーディングにデコードします。 |
+| [Unicodeをパーセント エンコーディングに変換(現在のエンコード)](../convert/encode_percent) | 選択テキストを現在のエンコードを用いてパーセント エンコーディングにエンコードします。 |
+| [パーセント エンコーディングをUnicodeに変換(UTF-8)](../convert/decode_percent_utf8) | 選択テキストをUTF-8を用いてパーセント エンコーディングからUnicodeにデコードします。 |
+| [Unicodeをパーセント エンコーディングに変換(UTF-8)](../convert/encode_percent_utf8) | 選択テキストをUTF-8を用いてパーセント エンコーディングにエンコードします。 |
 | [Base64をプレーン テキストに変換(現在のエンコード)](../convert/decode_base64) | 選択テキストを現在のエンコードを用いて Base64 エンコーディングからプレーン テキストにデコードします。 |
-| [プレーン テキストをBase64に変換(現在のエンコード)](../convert/encode_base64) | 選択テキストを現在のエンコードを用いて Base64 エンコーディングにデコードします。 |
+| [プレーン テキストをBase64に変換(現在のエンコード)](../convert/encode_base64) | 選択テキストを現在のエンコードを用いて Base64 エンコーディングにエンコードします。 |
 | [Base64をプレーン テキストに変換(UTF-8)](../convert/decode_base64_utf8) | 選択テキストをUTF-8を用いて Base64 エンコーディングからプレーン テキストにデコードします。 |
-| [プレーン テキストをBase64に変換(UTF-8)](../convert/encode_base64_utf8) | 選択テキストをUTF-8を用いて Base64 エンコーディングにデコードします。 |
+| [プレーン テキストをBase64に変換(UTF-8)](../convert/encode_base64_utf8) | 選択テキストをUTF-8を用いて Base64 エンコーディングにエンコードします。 |
 | [Base64をバイナリ ファイルに変換](../convert/decode_base64_binary) | 選択テキストを Base64 エンコーディングからバイナリ ファイルにデコードします。 |
-| [バイナリ ファイルをBase64に変換](../convert/encode_base64_binary) | バイナリ ファイルを Base64 エンコーディングにデコードします。 |
+| [バイナリ ファイルをBase64に変換](../convert/encode_base64_binary) | バイナリ ファイルを Base64 エンコーディングにエンコードします。 |
 | [Unicode正規化形式C (正準合成)](../convert/unicode_norm_fc) | 選択テキストに Unicode正規化形式C (正準合成) を適用します。 |
 | [Unicode正規化形式D (正準分解)](../convert/unicode_norm_fd) | 選択テキストに Unicode正規化形式D (正準分解) を適用します。 |
 | [Unicode正規化形式KC (互換合成)](../convert/unicode_norm_fkc) | 選択テキストに Unicode正規化形式KC (互換合成) を適用します。 |

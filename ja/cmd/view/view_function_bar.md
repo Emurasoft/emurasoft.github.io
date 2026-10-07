@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_VIEW_STATUS_BAR (4448)```
+EEID_VIEW_FUNCTION_BAR (4448)```
 
 ## マクロ
 

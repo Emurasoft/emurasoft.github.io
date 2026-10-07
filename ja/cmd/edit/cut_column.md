@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_CUT_COLULMN (3963)```
+EEID_CUT_COLUMN (3963)```
 
 ## マクロ
 

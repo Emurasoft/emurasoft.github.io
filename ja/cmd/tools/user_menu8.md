@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_USER_MENU1 (4436)```
+EEID_USER_MENU8 (4436)```
 
 ## マクロ
 

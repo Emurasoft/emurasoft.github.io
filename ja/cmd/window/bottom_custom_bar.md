@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_FOCUS_RIGHT_BAR (4428)```
+EEID_FOCUS_BOTTOM_BAR (4428)```
 
 ## マクロ
 

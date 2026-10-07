@@ -1,8 +1,8 @@
-# \[Markdown プレビュー\] コマンド
+# \[Markdown/HTML プレビュー\] コマンド
 
 ## 概要
 
-現在の文書の Markdown プレビューを表示します。
+現在の文書の Markdown/HTML プレビューを表示します。
 
 ## 説明
 

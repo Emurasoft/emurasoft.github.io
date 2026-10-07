@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_COPY_COLULMN (3964)```
+EEID_COPY_COLUMN (3964)```
 
 ## マクロ
 

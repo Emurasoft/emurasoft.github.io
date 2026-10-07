@@ -19,7 +19,7 @@
 ## プラグイン コマンド ID
 
 ```
-EEID_USER_MENU1 (4435)```
+EEID_USER_MENU7 (4435)```
 
 ## マクロ
 
@@ -32,5 +32,5 @@ editor.ExecuteCommandByID(4435);
 ### \[VBScript\]
 
 ```
-editor.ExecuteCommandByID 44
+editor.ExecuteCommandByID 4435
 ```

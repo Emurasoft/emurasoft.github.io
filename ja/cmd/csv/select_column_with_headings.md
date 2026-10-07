@@ -19,7 +19,7 @@ CSV文書で現在の列をヘディング付きで箱型選択モードで選�
 ## プラグイン コマンド ID
 
 ```
-EEID_SELECT_COLUMN (3931)
+EEID_SELECT_COLUMN_WITH_HEADINGS (3931)
 ```
 
 ## マクロ
