@@ -4,12 +4,12 @@ When you press Ctrl+G in Claude Code's [interactive mode](https://code.claude.co
 
 1. Exit Claude Code.
 2. Make sure EmEditor is in your `PATH`. If you used the desktop installer, this should already be set up. If you use the portable version, set `PATH` as follows:
-  1. Open the Windows Start menu, search for **environment variables**, and select **Edit environment variables for your account**.
-  2. In **System Properties**, click the **Environment Variables** button. 
-  2. In the **User variables** section, select the **Path** entry and click **Edit**.
-  3. Click **New** and paste the path to your EmEditor installation folder.
-  4. Click **OK** on each open window to save.
-  5. Close and reopen your terminal so the new `PATH` takes effect.
+   1. Open the Windows Start menu, search for **environment variables**, and select **Edit environment variables for your account**.
+   2. In **System Properties**, click the **Environment Variables** button. 
+   3. In the **User variables** section, select the **Path** entry and click **Edit**.
+   4. Click **New** and paste the path to your EmEditor installation folder.
+   5. Click **OK** on each open window to save.
+   6. Close and reopen your terminal so the new `PATH` takes effect.
 3. Open the file `%USERPROFILE%\.claude\settings.json` in EmEditor.
 4. Add the `VISUAL` variable to the `env` section:
 
