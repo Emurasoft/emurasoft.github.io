@@ -1,6 +1,6 @@
 # Using EmEditor as the editor for Claude Code
 
-When you press **Ctrl+G** in [interactive mode](https://code.claude.com/docs/en/interactive-mode) in Claude Code, it opens Notepad so you can edit your prompt text. You can change the editor that opens to EmEditor by following the steps below.
+When you press Ctrl+G in Claude Code's [interactive mode](https://code.claude.com/docs/en/interactive-mode),  it opens Notepad so you can edit your prompt text. You can change the editor that opens on Ctrl+G to EmEditor by following the steps below.
 
 1. Exit Claude Code.
 2. Make sure EmEditor is in your `PATH`. If you used the desktop installer, this should already be set up. If you use the portable version, set `PATH` as follows:
