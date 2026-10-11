@@ -46,9 +46,9 @@ Synchronizes the wrap mode through out all the documents with the same configura
 
 If **System** is selected, EmEditor will use dark colors when Dark mode is used in Windows 10. If **Light** is selected, EmEditor will use light colors. However, editor colors can be specified in the [**Display** page](../../properties/display/index) of configuration properties.
 
-## Very Dark (experimental) checkbox
+## Very Dark checkbox
 
-If this option is set, EmEditor will use dark colors on all elements including menu bars and dialog boxes when Dark mode is used in Windows 10 Build 17763 or later only. This feature is still beta since Windows API does not officially support the dark mode against desktop apps. It may not be supported on future versions of Windows.
+If this option is set, EmEditor will use dark colors on all elements including menu bars and dialog boxes when Dark mode is used in Windows 10 Build 17763 or later only. Since the Windows API does not officially support the dark mode for desktop apps, this feature may not be supported on future versions of Windows.
 
 ## Reset button
 
