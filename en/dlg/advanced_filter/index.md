@@ -120,6 +120,10 @@ Specifies an end filter.
 
 Specifies a logical disjunction (logical OR) to the previous condition. If this is not checked, a logical conjunction (logical AND) is specified.
 
+**Note**
+
+The conditions are combined in order from the top, each with the result of the conditions before it. For example, *A* AND *B* OR *C* means (*A* AND *B*) OR *C*, so a line that matches *C* is displayed even if it does not match *A*. In versions earlier than v26.3.1, a line that did not match *A* was not displayed even if it matched *C*, except in Fast View mode.
+
 ## Close when finished checkbox
 
 Closes the dialog box when EmEditor finishes filtering.
