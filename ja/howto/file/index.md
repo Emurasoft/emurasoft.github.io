@@ -10,6 +10,7 @@ file_backup
 file_commandline
 file_exitall
 file_ext_doubleclick
+file_fast_view
 file_new
 file_open
 file_recent_folder

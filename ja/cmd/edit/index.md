@@ -124,6 +124,7 @@
 | [表示済みリンクの履歴をクリア](clear_visit_history) | 表示済みURL、メール アドレス、タグの履歴をクリアします。 |
 | [ジャンプ](jump) | 指定行へジャンプします。 |
 | [IMEオン/オフ](toggle_ime) | IME オン/オフを切り替えます。 |
+| [高速ビュー](fast_view) | 通常モードと巨大ファイル用の高速ビュー モードを切り替えます。 |
 | [書き換え禁止](read_only) | ファイルの保存の有効/無効を切り替えます。 |
 | [次へジャンプ](jump_next) | アウトプット バーまたは構文チェッカーの次の場所にジャンプします。 |
 | [前へジャンプ](jump_prev) | アウトプット バーまたは構文チェッカーの前の場所にジャンプします。 |
@@ -239,6 +240,7 @@ edit_select_all
 edit_undo
 end
 escape
+fast_view
 filter_column
 filter_out_column
 filter_out_word

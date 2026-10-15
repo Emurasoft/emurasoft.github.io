@@ -18,6 +18,7 @@
 | [EDIT\_COLUMN\_INFO](edit_column_info) | [EE\_EDIT\_COLUMN メッセージ](../message/ee_edit_column) で使用します。 |
 | [EXEC\_PLUGIN\_INFO](exec_plugin_info) | [EE\_EXEC\_PLUGIN](../message/ee_filter) メッセージで使用します。 |
 | [EXTRACT\_FREQUENT\_INFO](extract_frequent_info) | [EE\_EXTRACT\_FREQUENT メッセージ](../message/ee_extract_frequent) で使用します。 |
+| [FAST\_VIEW\_DIFF\_PATH\_INFO](fast_view_diff_path_info) | [EE\_INFO](../message/ee_info) メッセージで使用します。 |
 | [FILTER\_INFO](filter_info) | [EE\_FILTER](../message/ee_filter) メッセージで使用します。 |
 | [FILTER\_INFO\_EX](filter_info_ex) | [EE\_FILTER](../message/ee_filter) メッセージと [EE\_GET\_FILTER](../message/ee_get_filter) メッセージで使用します。 |
 | [FIND\_REGEX\_INFO](find_regex_info) | [Editor\_FindRegex](../macro/editor_findregex) インライン関数 ( [EE\_FIND\_REGEX](../message/ee_find_regex) メッセージ) で使用します。 |
@@ -75,6 +76,7 @@ custom_bar_info
 edit_column_info
 exec_plugin_info
 extract_frequent_info
+fast_view_diff_path_info
 filter_info
 filter_info_ex
 find_regex_info

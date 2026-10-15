@@ -18,6 +18,9 @@
 | [名前を変更](file_save_rename) | ファイル名を変更します。 |
 | [すべて保存](file_save_all) | 開いているファイルをすべて保存します。 |
 | [すべてエンコードを指定して保存](file_save_all_as) | 無題の文書を除き、すべての開いている文書を指定するフォルダ、エンコード、改行コードで保存します。 |
+| [差分を保存](fast_view_save_diff) | 高速ビュー モードの編集内容と行の位置を、ファイルを書き換えずに EmEditor のデータ フォルダーの差分ファイルに保存し、ファイルを速く開けるようにします。 |
+| [差分を読み込む](fast_view_load_diff) | ファイルの差分ファイルに保存された編集内容を高速ビュー モードで適用します。 |
+| [差分を破棄](fast_view_discard_diff) | 高速ビュー モードの編集内容を破棄し、差分ファイルを削除します。 |
 | [高度に開く](advanced_open) | 既存のファイルを高度なオプションで開きます。 |
 | [システム既定エンコードで保存](file_save_ansi) | システム既定エンコードで保存します。 |
 | [UTF-16LEで保存](file_save_unicode) | ファイルをUTF-16LEで保存します。 |
@@ -104,6 +107,9 @@ copy_file_dir
 copy_file_path
 erase_workspace
 exit_all
+fast_view_discard_diff
+fast_view_load_diff
+fast_view_save_diff
 favorite_file1
 file_close_open
 file_mru_file1

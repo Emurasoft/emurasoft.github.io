@@ -30,6 +30,7 @@
 | [ExecutePlugin](editor_executeplugin) | 指定するプラグインを実行します。 |
 | [FileDialog](filedialog) | ファイルを開く、または名前を付けて保存ダイアログ ボックスを表示して、開くファイルのドライブ、ディレクトリ、名前を指定します。 |
 | [FindInFiles](editor_findinfiles) | 指定したパスの複数のファイルから文字列を検索します。 |
+| [GetFastViewDiffPath](get_fast_view_diff_path) | 指定するファイルの高速ビュー モードの差分ファイルのパスを取得します。 |
 | [GetProfileInt](getprofileint) | EmEditor の設定に応じて、レジストリまたは INI ファイルから、指定する整数値を取得します。 |
 | [GetProfileString](getprofilestring) | EmEditor の設定に応じて、レジストリまたは INI ファイルから、指定する文字列値を取得します。 |
 | [Join](join) | SQL においての JOIN 操作と同様な方法を使って、2個の CSV 文書を結合して新規文書を作成します。 |
@@ -77,6 +78,7 @@ editor_version
 filedialog
 filters
 fuzzy_options
+get_fast_view_diff_path
 getprofileint
 getprofilestring
 getunicodename

@@ -40,6 +40,7 @@
 | [Markdownのカスタマイズ](customize_markdown) | \[カスタマイズ\] ダイアログ ボックスの \[Markdown\] ページを開きます。 |
 | [スニペットのカスタマイズ](customize_snippets) | \[カスタマイズ\] ダイアログ ボックスの \[スニペット\] ページを開きます。 |
 | [マーカーのカスタマイズ](customize_markers) | \[カスタマイズ\] ダイアログ ボックスの \[マーカー\] ページを開きます。 |
+| [高速ビューのカスタマイズ](customize_fast_view) | \[カスタマイズ\] ダイアログ ボックスの \[高速ビュー\] ページを開きます。 |
 | [通知のカスタマイズ](customize_notifications) | \[カスタマイズ\] ダイアログ ボックスの \[通知\] ページを開きます。 |
 | [更新のカスタマイズ](customize_update) | \[カスタマイズ\] ダイアログ ボックスの \[更新\] ページを開きます。 |
 | [ヘルプのカスタマイズ](customize_help) | \[カスタマイズ\] ダイアログ ボックスの \[ヘルプ\] ページを開きます。 |
@@ -109,6 +110,7 @@ customize_advanced
 customize_clipboard
 customize_csv_options
 customize_edit
+customize_fast_view
 customize_favorites
 customize_file
 customize_format

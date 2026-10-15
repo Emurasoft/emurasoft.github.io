@@ -140,6 +140,7 @@ _nCmd_
 | EI\_RESET\_BOOKMARK | 文書内の指定するブックマーク、またはすべての開いている文書のすべてのブックマークを解除します。 | (INT\_PTR)y<br>ブックマークを解除する行番号を指定します。-1 を指定すると、すべての開いている文書のすべてのブックマークを解除します。 | 使用されません。 |
 | EI\_BRING\_CUSTOM\_BAR\_TOP | 指定するカスタム バーを一番上に表示します。 | (HWND)hwndClient<br>クライアント ウィンドウを指定します。 | (int)iCustomBar<br>カスタム バーが見つかった場合はカスタム バーの位置、見つからない場合は -1 を返します。 |
 | EI\_GET\_FAST\_VIEW | 文書が高速ビュー モードかどうかを取得します (EmEditor Professional 26.3 以上のみ)。 | 使用されません。 | (BOOL)bFastView<br> TRUEなら高速ビュー モードです。 |
+| EI\_GET\_FAST\_VIEW\_DIFF\_PATH | ファイルの高速ビュー モードの差分ファイルのパスを取得します (EmEditor Professional 26.4 以上のみ)。ファイルの差分ファイルが見つからない場合は、\[差分を保存\] コマンドが差分ファイルを保存するパスを取得します。 | (FAST\_VIEW\_DIFF\_PATH\_INFO\*)pInfo<br> [FAST\_VIEW\_DIFF\_PATH\_INFO](../structure/fast_view_diff_path_info) 構造体へのポインタを指定します。 | (size\_t)cch<br> 終端の NULL を含まない、パスの文字数。失敗した場合は 0 です。 |
 
 _iDoc_
 
