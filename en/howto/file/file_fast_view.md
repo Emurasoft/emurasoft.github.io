@@ -19,7 +19,7 @@ You can jump to the end of a file as soon as it starts opening, while EmEditor i
 - Find, count, replace, and extract text, including with regular expressions and text that spans lines. Many of the options of the **Find** dialog box, the **Find** toolbar, and the [**Advanced** dialog box](../../dlg/advanced/index) are available. {{profree}}
 - Reload the file in a different encoding, [**Compare**](../../cmd/diff/index) documents, and run [external tools](../../cmd/external_tools/index), macros, plug-ins, and the commands on the [**AI** menu](../../cmd/ai/index). {{pro}}
 - Use the CSV modes, including the [**Cell Selection Mode**](../../cmd/csv/csv_cell_mode). {{pro}}
-- You can edit and use most of the commands that can change the document, including [**Undo**](../../cmd/edit/edit_undo)/[**Redo**](../../cmd/edit/edit_redo), the [**Insert**](../../cmd/insert/index), [**Convert**](../../cmd/convert/index), [**Sort**](../../cmd/sort/index), and [**CSV**](../../cmd/csv/index) menus, and macros and plug-ins. See [Limitations](#limitations) for the features that are not supported in Fast View mode.
+- You can edit and use most of the commands that can change the document, including [**Undo**](../../cmd/edit/edit_undo)/[**Redo**](../../cmd/edit/edit_redo), the [**Insert**](../../cmd/insert/index), [**Convert**](../../cmd/convert/index), [**Sort**](../../cmd/sort/index), and [**CSV**](../../cmd/csv/index) menus, and macros and plug-ins. See [Limitations](#fast-view-limitations) for the features that are not supported in Fast View mode.
 
 You cannot edit a document if the file is read-only, is opened in Binary (Hexadecimal View), or is partly opened with the [**Large File Controller**](../../cmd/view/large_file_bar), while a filter is applied, or while documents are being compared. To stop editing, turn on [**Read Only**](../../cmd/edit/read_only). Commands that change many lines run on multiple threads. EmEditor keeps your edits in memory, and a message appears if they need more memory than is available. If this happens, save your edits or switch to the normal mode.
 
@@ -49,6 +49,8 @@ A diff file stores your edits to a file and the positions of its lines, so that 
 - To view and delete diff files, use the [**Fast View** page](../../dlg/customize/fast_view/index) of the **Customize** dialog box.
 
 Documents in Fast View mode are included in workspaces. When a workspace is saved, the line positions of each unmodified document are saved too, so the workspace opens without finding the lines again. Unsaved edits are saved in the workspace, and the document is restored as modified.
+
+(fast-view-limitations)=
 
 ## Limitations
 
