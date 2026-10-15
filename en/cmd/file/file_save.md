@@ -13,6 +13,8 @@ the [**Save with Encoding (multiple menu)** command](file_save_defined).
 
 If the file is untitled, the **Save As** dialog box will be displayed, which allows you to enter a file name.
 
+If the document is in Fast View mode and has edits, EmEditor asks whether to merge the edits into the file now, or to save only the changes to a diff file and leave the original file untouched, depending on the options on the [**Fast View** page](../../dlg/customize/fast_view/index) of the **Customize** dialog box. See [To Open and Edit Huge Files in Fast View Mode](../../howto/file/file_fast_view) for details.
+
 ## How to Run
 
 - Default Menu: **File** \> **Save**

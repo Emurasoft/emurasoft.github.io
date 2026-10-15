@@ -8,6 +8,8 @@ Shows or hides the large file controller.
 Shows or hides the large file controller. The large file controller is displayed when a large file is opened while the
 **Displays Large File Controller when a large file is opened** check box (in the [File page](../../dlg/customize/file/index) of the Customize dialog box) is checked.
 
+If the **Fast View mode** check box is selected, the **Apply**, **Next**, and **Back** buttons open the specified range in [Fast View mode](../../howto/file/file_fast_view). Otherwise, they open the range in the normal mode.
+
 ## How to Run
 
 - Default Menu: **View** \> **Large File Controller**

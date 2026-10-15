@@ -8,6 +8,8 @@ Toggles read-only status for the current file.
 
 Enables or disables the ability to save changes to the file.
 
+In Fast View mode, turning on Read Only also turns off editing, and turning it off allows editing. If the document has unsaved edits, EmEditor asks whether to save them. See [To Open and Edit Huge Files in Fast View Mode](../../howto/file/file_fast_view) for details.
+
 ## How to Run
 
 - Default Menu: **Edit** \> **Read Only**

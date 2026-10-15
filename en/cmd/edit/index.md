@@ -120,6 +120,7 @@
 | **[Clear Visited Link History](clear_visit_history)** | Clears visited URL, email address, and tag history. |
 | **[Jump](jump)** | Jumps to a specified line. |
 | **[Toggle IME](toggle_ime)** | Enables or disables the Input Method Editor (IME). |
+| **[Fast View](fast_view)** | Toggles between the normal mode and Fast View mode for huge files. |
 | **[Read Only](read_only)** | Toggles read-only status for the current file. |
 | [**Jump Next**](jump_next) | Jumps to the next location in the Output Bar. |
 | [**Jump Previous**](jump_prev) | Jumps to the previous location in the Output Bar. |
@@ -237,6 +238,7 @@ edit_select_all
 edit_undo
 end
 escape
+fast_view
 filter_column
 filter_out_column
 filter_out_word

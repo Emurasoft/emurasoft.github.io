@@ -26,6 +26,8 @@ This property can be set only for the active document. Setting this property fai
 
 While the document is opened in Fast View mode, subsequent macro calls on the document wait until EmEditor finishes reading the document.
 
+See [To Open and Edit Huge Files in Fast View Mode](../../howto/file/file_fast_view) for the features available in Fast View mode.
+
 ## Examples
 
 ### \[JavaScript\]

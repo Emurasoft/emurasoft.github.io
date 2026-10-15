@@ -62,6 +62,7 @@
 | **[Customize Markdown](customize_markdown)** | Opens the Markdown page of the Customize dialog box. |
 | **[Customize Snippets](customize_snippets)** | Opens the Snippets page of the Customize dialog box. |
 | **[Customize Markers](customize_markers)** | Opens the Markers page of the Customize dialog box. |
+| [**Customize Fast View**](customize_fast_view) | Opens the Fast View page of the Customize dialog box. |
 | **[Customize Notifications](customize_notifications)** | Opens the Notifications page of the Customize dialog box. |
 | **[Customize Update](customize_update)** | Opens the Update page of the Customize dialog box. |
 | **[Customize Help](customize_help)** | Opens the Help page of the Customize dialog box. |
@@ -108,6 +109,7 @@ customize_advanced
 customize_clipboard
 customize_csv_options
 customize_edit
+customize_fast_view
 customize_favorites
 customize_file
 customize_format

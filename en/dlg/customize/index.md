@@ -44,6 +44,7 @@ toolbar_options/index
 toolbar_buttons/index
 menus/index
 encodings/index
+fast_view/index
 notifications/index
 update/index
 help/index

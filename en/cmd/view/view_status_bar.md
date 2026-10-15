@@ -8,7 +8,7 @@ Shows or hides the status bar.
 Shows or hides the status bar. The status bar is displayed on the bottom of
 the EmEditor window. The status bar indicates the current configuration, the
 current line, the current column, the current encoding, the overwrite mode ("OVR"),
-and the read-only mode ("READ").
+the read-only mode ("READ"), and [Fast View mode](../../howto/file/file_fast_view) ("FAST").
 
 ## How to Run
 

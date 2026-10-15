@@ -17,6 +17,9 @@
 | **[Rename](file_save_rename)** | Renames the current file. |
 | **[Save All](file_save_all)** | Saves all currently open files. |
 | **[Save All with Encoding](file_save_all_as)** | Saves all open documents to the specified destination folder with the selected encoding and newline characters, except untitled documents. |
+| [**Save Diff**](fast_view_save_diff) | Saves the edits of Fast View mode and the positions of the lines to a diff file in the EmEditor data folder, without rewriting the file, so that the file opens faster. |
+| [**Load Diff**](fast_view_load_diff) | Applies the edits saved in the diff file of the file in Fast View mode. |
+| [**Discard Diff**](fast_view_discard_diff) | Discards the edits of Fast View mode and deletes the diff file. |
 | **[Advanced Open](advanced_open)** | Opens existing files with advanced options. |
 | **[Save as System Default Encoding](file_save_ansi)** | Saves the current file using the [system default encoding.](../../glossary/index) |
 | **[Save as UTF-16LE](file_save_unicode)** | Saves the current file using Unicode (UTF-16LE) encoding. |
@@ -103,6 +106,9 @@ copy_file_dir
 copy_file_path
 erase_workspace
 exit_all
+fast_view_discard_diff
+fast_view_load_diff
+fast_view_save_diff
 favorite_file1
 file_close_open
 file_mru_file1

@@ -29,6 +29,7 @@ Displays the list of items that can be displayed in the Status Bar. This list co
 | **File position at the cursor** | Displays the file position at cursor. |
 | **Notifications** | Displays an icon if notifications are available. |
 | **Selection mode** | Displays the selection mode. |
+| **Fast View mode** | Displays **FAST** if the current document is in [Fast View mode](../../../howto/file/file_fast_view). Double-click it to switch between the normal mode and Fast View mode. |
 
 ## Up button
 

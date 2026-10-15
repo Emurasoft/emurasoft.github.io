@@ -143,6 +143,7 @@ Specifies a parameter to retrieve or set. This parameter can be one of the value
 | EI_RESET_BOOKMARK | Resets a specified bookmark in a document or all bookmarks in all open documents. | (INT\_PTR)y<br>Specifies the line number to reset a bookmark, or all bookmarks in all open documents if -1\. | Not used. |
 | EI_BRING_CUSTOM_BAR_TOP | Brings the specified custom bar to the top. | (HWND)hwndClient<br>Specifies the client window | (int)iCustomBar<br>Specifies the custom bar position if found, or -1 if the custom bar is not found. |
 | EI\_GET\_FAST\_VIEW | Retrieves whether the document is in Fast View mode (EmEditor Professional 26.3 or later only). | Not used. | (BOOL)bFastView<br> TRUE if the document is in Fast View mode. |
+| EI\_GET\_FAST\_VIEW\_DIFF\_PATH | Retrieves the path of the diff file of Fast View mode for a file (EmEditor Professional 26.4 or later only). If no diff file is found for the file, retrieves the path where the **Save Diff** command would save the diff file. | (FAST\_VIEW\_DIFF\_PATH\_INFO\*)pInfo<br> Specifies a pointer to the [FAST\_VIEW\_DIFF\_PATH\_INFO](../structure/fast_view_diff_path_info) structure. | (size\_t)cch<br> The length of the path in characters, not including the terminating NULL, or 0 if failed. |
 
 _iDoc_
 

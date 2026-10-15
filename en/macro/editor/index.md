@@ -30,6 +30,7 @@
 | **[ExecutePlugin](editor_executeplugin)** | Executes the specified plug-in. |
 | **[FileDialog](filedialog)** | Displays an Open or Save As dialog box that lets the user specify the drive, directory, and the name of a file to open. |
 | **[FindInFiles](editor_findinfiles)** | Searches multiple files for matching string. |
+| [**GetFastViewDiffPath**](get_fast_view_diff_path) | Retrieves the path of the diff file of Fast View mode for the specified file. |
 | [**GetProfileInt**](getprofileint) | Retrieves the integer value for the specified entry from the Registry or an INI file depending on the EmEditor settings. |
 | [**GetProfileString**](getprofilestring) | Retrieves the string value for the specified entry from the Registry or an INI file depending on the EmEditor settings. |
 | [**Join**](join) | Combines two CSV documents specifying key columns, using a method similar to JOIN operations, and creates a new document. |
@@ -77,6 +78,7 @@ editor_version
 filedialog
 filters
 fuzzy_options
+get_fast_view_diff_path
 getprofileint
 getprofilestring
 getunicodename
