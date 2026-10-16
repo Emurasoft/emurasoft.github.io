@@ -182,6 +182,11 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | `/r` | read-only mode. |
 | `/rc "FindWhat"` | replaces in files (case sensitive). |
 | `/rd` | displays the [**Replace in Files** dialog box](../../dlg/replace_in_files/index). |
+| `/regemail "email"` | specifies the registration email address for registration. |
+| `/register` | registers EmEditor per-machine. See Examples for details. |
+| `/regkey "regKey"` | specifies the registration key for registration. |
+| `/reglabel "label"` | specifies the device label for registration. |
+| `/regname "name"` | specifies the licensed user name for registration. |
 | `/rh` | opens HTML files as read-only. Used internally. |
 | `/ri "FindWhat"` | replaces in files (ignore case). |
 | `/rr` | opens files in folders recursively. |
@@ -289,6 +294,20 @@ converts a UTF-16LE file c:\\test\\utf16.txt to UTF-8 without a Unicode signatur
 ```
 
 uses the "Focus Mode" layout.
+
+```
+/register /regname "Your Name" /regkey "Registration Key" /reglabel "Device label" /regemail "example@example.com"
+```
+
+The command runs per-machine registration of EmEditor. This allows all users on the same Windows machine to use the same license. To register for the current user only, use the [Register Product dialog box](../../dlg/regist/index).
+
+The command returns an error for Portable and Store installations, because they cannot modify local machine registry entries.
+
+The `/register` command requires the `/regname`, `/regkey`, `/reglabel`, and `/regemail` parameters. The registration name is required, but it is neither sent to the service nor stored. For details about the registration fields, see [Register Product dialog box](../../dlg/regist/index).
+
+If EmEditor is already registered, the command first unregisters the current registration. It then calls an API on `support.emeditor.com` to register EmEditor. Finally, it displays a UAC prompt so that it can store device data in `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`.
+
+If an error occurs during registration, the command writes an error message to stderr. You can run the command again with the same registration key, regardless of the previous attempt result, as running this command multiple times with the same registration key will only create up to one registered device.
 
 ## Tips
 
