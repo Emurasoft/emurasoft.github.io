@@ -209,11 +209,15 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 
 ## Examples
 
+### `/rr`
+
 ```
 /rr *.htm
 ```
 
 opens all .htm files including all sub folders.
+
+### `/p`
 
 ```
 /p "filename"
@@ -221,17 +225,23 @@ opens all .htm files including all sub folders.
 
 prints filename.
 
+### `/r`
+
 ```
 /r "filename"
 ```
 
 opens filename in read only mode.
 
+### `/c`
+
 ```
 /c "Normal" "filename"
 ```
 
 opens filename in the default configuration.
+
+### `/l`
 
 ```
 /l 123 "filename"
@@ -245,6 +255,8 @@ opens filename, jumps to the 123rd line and displays it.
 
 opens filename, jumps to the last line and displays it.
 
+### `/ff`
+
 ```
 /ff "what" /mc "filename"
 ```
@@ -257,11 +269,15 @@ opens filename, and finds what matching cases.
 
 highlights string of last search.
 
+### `/ti`
+
 ```
 /ti
 ```
 
 opens as a tray icon.
+
+### `/fi`
 
 ```
 /fi "ABC" "c:\Temp\*.txt"
@@ -277,6 +293,8 @@ from all files with the extension .txt on the c:\\Temp folder while ignoring cas
 searches for the string abc from all files with the extension .htm and .txt on the c:\\test folder while ignoring case. it searches sub folders, searches only words, displays only file names,
 ignores file or folder names matching "\_\*;\*.bak", and uses the system default encoding.
 
+### `/fc`
+
 ```
 /fc "[a-e]" /fr /x /fu "_*;*.bak" /cp 65536 "c:\test\*.htm;*.txt"
 ```
@@ -289,11 +307,15 @@ searches for text matching a regular expression \[a-e\] from all files with the 
 
 converts a UTF-16LE file c:\\test\\utf16.txt to UTF-8 without a Unicode signature and saves as c:\\test\\utf8.txt. The newline characters is converted to CR+LF.
 
+### `/layout`
+
 ```
 /layout "Focus Mode"
 ```
 
 uses the "Focus Mode" layout.
+
+### `/register`
 
 ```
 /register /regname "Your Name" /regkey "Registration Key" /reglabel "Device label" /regemail "example@example.com"
