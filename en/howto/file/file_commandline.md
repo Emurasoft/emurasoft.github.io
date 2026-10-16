@@ -183,7 +183,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | `/rc "FindWhat"` | replaces in files (case sensitive). |
 | `/rd` | displays the [**Replace in Files** dialog box](../../dlg/replace_in_files/index). |
 | `/regemail "email"` | specifies the registration email address for registration. |
-| `/register` | registers EmEditor per-machine. |
+| `/register` | registers EmEditor per-machine. See Examples for details. |
 | `/regkey "regKey"` | specifies the registration key for registration. |
 | `/reglabel "label"` | specifies the device label for registration. |
 | `/regname "name"` | specifies the licensed user name for registration. |
@@ -296,7 +296,7 @@ converts a UTF-16LE file c:\\test\\utf16.txt to UTF-8 without a Unicode signatur
 uses the "Focus Mode" layout.
 
 ```
-/register /regname "Your Name" /regkey "Your Registration Key" /reglabel "Your Device" /regemail "you@example.com"
+/register /regname "Your Name" /regkey "Registration Key" /reglabel "Device label" /regemail "example@example.com"
 ```
 
 registers EmEditor for the machine.
