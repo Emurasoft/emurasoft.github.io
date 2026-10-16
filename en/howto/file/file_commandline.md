@@ -299,17 +299,17 @@ uses the "Focus Mode" layout.
 /register /regname "Your Name" /regkey "Registration Key" /reglabel "Device label" /regemail "example@example.com"
 ```
 
-The command registers EmEditor for the machine. For per-user registration, use the [Register Product dialog box](../../dlg/regist/index).
+The command runs per-machine registration of EmEditor. This allows all users on the same Windows machine to use the same license. To register for the current user only, use the [Register Product dialog box](../../dlg/regist/index).
 
-The command returns an error for Portable and Store installations as they cannot modify local machine registry entries. 
+The command returns an error for Portable and Store installations, because they cannot modify local machine registry entries.
 
-The `/register` command requires `/regname`, `/regkey`, `/reglabel`, and `/regemail`. The registration name is required but is not sent to the service or stored.
+The `/register` command requires the `/regname`, `/regkey`, `/reglabel`, and `/regemail` parameters. The registration name is required, but it is neither sent to the service nor stored.
 
 For details about the registration fields, see [Register Product dialog box](../../dlg/regist/index).
 
-The command will first unregister the current EmEditor registration if it is registered. Then, it calls an API on `support.emeditor.com` to register the EmEditor. Then, it will show an UAC prompt to be able to store device data in `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`.
+If EmEditor is already registered, the command first unregisters the current registration. It then calls an API on `support.emeditor.com` to register EmEditor. Finally, it displays a UAC prompt so that it can store device data in `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`.
 
-Any errors during registration will output an error message to stderr and exit with a non-zero code.
+If an error occurs during registration, the command writes an error message to stderr and exits with a non-zero code.
 
 ## Tips
 
