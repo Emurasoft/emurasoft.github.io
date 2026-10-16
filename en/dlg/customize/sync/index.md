@@ -18,17 +18,15 @@ Sends the settings to EmEditor in other computers, but does not update EmEditor 
 
 Receives EmEditor settings from other computers, but does not send the settings to other computers.
 
-## Microsoft account radio button
-
-Uses Microsoft Account to sync settings. Available only on the Store App versions.
-
-## Network folder radio button
+## Network folder text box
 
 Specifies a shared folder on the network to be shared by all computers. This can be a UNC (Universal Naming Convention) path, for instance, \\\\computer1\\sharedFolder\\EmEditorSync, or a local folder, for instance, C:\\Users\\name\\OneDrive\\EmEditorSync.
 
+When you turn on the sync or change the folder, and the folder already has settings from another computer, EmEditor asks whether to use the settings in the Sync folder or to replace the Sync folder with the settings on this computer. Sync via a Microsoft account is no longer available.
+
 ## Monitor interval text box
 
-Specifies how often EmEditor checks if new settings become available in the shared folder. This option only affects the sending frequency and not the receiving frequency.
+Specifies how often EmEditor checks if new settings become available in the shared folder. This option only affects the receiving frequency and not the sending frequency.
 
 ## Include supported plug-ins checkbox
 
