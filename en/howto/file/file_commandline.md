@@ -299,7 +299,17 @@ uses the "Focus Mode" layout.
 /register /regname "Your Name" /regkey "Registration Key" /reglabel "Device label" /regemail "example@example.com"
 ```
 
-registers EmEditor for the machine.
+The command registers EmEditor for the machine. For per-user registration, use the [Register Product dialog box](../../dlg/regist/index).
+
+The command returns an error for Portable and Store installations as they cannot modify local machine registry entries. 
+
+The `/register` command requires `/regname`, `/regkey`, `/reglabel`, and `/regemail`. The registration name is required but is not sent to the service or stored.
+
+For details about the registration fields, see [Register Product dialog box](../../dlg/regist/index).
+
+The command will first unregister the current EmEditor registration if it is registered. Then, it calls an API on `support.emeditor.com` to register the EmEditor. Then, it will show an UAC prompt to be able to store device data in `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`.
+
+Any errors during registration will output an error message to stderr and exit with a non-zero code.
 
 ## Tips
 
