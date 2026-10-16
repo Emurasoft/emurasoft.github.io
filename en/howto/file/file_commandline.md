@@ -182,6 +182,11 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | `/r` | read-only mode. |
 | `/rc "FindWhat"` | replaces in files (case sensitive). |
 | `/rd` | displays the [**Replace in Files** dialog box](../../dlg/replace_in_files/index). |
+| `/regemail "email"` | specifies the registration email address for registration. |
+| `/register` | registers EmEditor per-machine. |
+| `/regkey "regKey"` | specifies the registration key for registration. |
+| `/reglabel "label"` | specifies the device label for registration. |
+| `/regname "name"` | specifies the licensed user name for registration. |
 | `/rh` | opens HTML files as read-only. Used internally. |
 | `/ri "FindWhat"` | replaces in files (ignore case). |
 | `/rr` | opens files in folders recursively. |
@@ -289,6 +294,12 @@ converts a UTF-16LE file c:\\test\\utf16.txt to UTF-8 without a Unicode signatur
 ```
 
 uses the "Focus Mode" layout.
+
+```
+/register /regname "Your Name" /regkey "Your Registration Key" /reglabel "Your Device" /regemail "you@example.com"
+```
+
+registers EmEditor for the machine.
 
 ## Tips
 
