@@ -309,7 +309,7 @@ For details about the registration fields, see [Register Product dialog box](../
 
 If EmEditor is already registered, the command first unregisters the current registration. It then calls an API on `support.emeditor.com` to register EmEditor. Finally, it displays a UAC prompt so that it can store device data in `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`.
 
-If an error occurs during registration, the command writes an error message to stderr. The command can be safely attempted multiple times with the same registration key regardless of last attempt result.
+If an error occurs during registration, the command writes an error message to stderr. You can run the command again with the same registration key, regardless of the previous attempt result. Running this command multiple times with the same registration key will only create up to one registration.
 
 ## Tips
 
