@@ -303,9 +303,7 @@ The command runs per-machine registration of EmEditor. This allows all users on 
 
 The command returns an error for Portable and Store installations, because they cannot modify local machine registry entries.
 
-The `/register` command requires the `/regname`, `/regkey`, `/reglabel`, and `/regemail` parameters. The registration name is required, but it is neither sent to the service nor stored.
-
-For details about the registration fields, see [Register Product dialog box](../../dlg/regist/index).
+The `/register` command requires the `/regname`, `/regkey`, `/reglabel`, and `/regemail` parameters. The registration name is required, but it is neither sent to the service nor stored. For details about the registration fields, see [Register Product dialog box](../../dlg/regist/index).
 
 If EmEditor is already registered, the command first unregisters the current registration. It then calls an API on `support.emeditor.com` to register EmEditor. Finally, it displays a UAC prompt so that it can store device data in `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`.
 
