@@ -8,7 +8,7 @@ Enables setting synchronization.
 
 ## Bidirectional radio button
 
-This option updates EmEditor settings in other computers, and also updates EmEditor settings in the current computer. EmEditor uses the last saved settings when two computers are opening EmEditor at the same time.
+This option updates EmEditor settings in other computers, and also updates EmEditor settings in the current computer. When two computers change settings before they receive each other's settings, EmEditor keeps the changes of both computers: each setting comes from the computer that changed it. If both computers changed the same setting, the later change is used.
 
 ## Send only radio button
 
@@ -34,11 +34,11 @@ If this is checked, plug-ins settings are also synced as long as the sync featur
 
 ## Send Now button
 
-Sends all settings to the shared folder.
+Sends all settings to the shared folder. The settings in the shared folder are replaced, including changes from other computers that this computer has not received yet.
 
 ## Receive Now button
 
-Receives all settings from the shared folder.
+Receives all settings from the shared folder. The settings on this computer are replaced, including changes that have not been sent yet.
 
 ## Reset button
 
