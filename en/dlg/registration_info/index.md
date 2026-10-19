@@ -9,7 +9,7 @@ The dialog box is accessed through **Help > Registration Information**.
 The following information may be displayed in the text box.
 
 - The first line contains "EmEditor Professional" or "EmEditor Free" and the version string.
-- If you signed in, your email address is displayed.
+- If you signed in, or if you registered per-machine with the `/register` command, your email address is displayed.
 - "Not registered" is displayed if you have not registered.
 - The device ID
 - You subscription ID if you are using a Stripe subscription

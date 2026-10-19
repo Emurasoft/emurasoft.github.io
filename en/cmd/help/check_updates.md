@@ -9,6 +9,8 @@ Checks for new versions of EmEditor by connecting to the Emurasoft server.
 Checks for available new versions of EmEditor by connecting to the Emurasoft server. An Internet connection is required for this operation. After EmEditor has finished checking for updates, you
 will be prompted to begin updates if they are available.
 
+The Update Checker is retired after March 31, 2027 (UTC). After that date, this command is unavailable.
+
 ## How to Run
 
 - Default Menu: **Help** \> **Check for Updates**

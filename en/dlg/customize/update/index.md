@@ -2,6 +2,8 @@
 
 The **Update** page allows you to customize settings related to the notifications.
 
+The Update Checker is retired after March 31, 2027 (UTC). After that date, EmEditor no longer checks for updates, and this page is unavailable.
+
 ## Automatically check for updates checkbox
 
 Automatically checks for updates every specified number of days.

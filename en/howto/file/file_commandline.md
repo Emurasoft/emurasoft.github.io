@@ -200,6 +200,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | `/ss+` | saves the file with a Unicode signature (BOM) after the encoding conversion. |
 | `/ss-` | saves the file without a Unicode signature (BOM) after the encoding conversion. |
 | `/ti` | displays the Tray Icon. |
+| `/unregister` | unregisters EmEditor per-machine and per-user. See Examples for details. |
 | `/uob` | uses the Output Bar to display the Find in Files results. |
 | `/x` | finds or finds in files using a regular expression. |
 | `/xnr` | finds or finds in files using a number range expression. |
@@ -330,6 +331,18 @@ The `/register` command requires the `/regname`, `/regkey`, `/reglabel`, and `/r
 If EmEditor is already registered, the command first unregisters the current registration. It then calls an API on `support.emeditor.com` to register EmEditor. Finally, it displays a UAC prompt so that it can store device data in `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`.
 
 If an error occurs during registration, the command writes an error message to stderr. You can run the command again with the same registration key, regardless of the previous attempt result, as running this command multiple times with the same registration key will only create up to one registered device.
+
+### `/unregister`
+
+```
+/unregister
+```
+
+The command unregisters EmEditor. It is the counterpart of `/register`, and it takes no parameters. It cannot be used together with `/register`.
+
+The command unregisters the device registered for the current user and the device registered per-machine on `support.emeditor.com`, and then deletes the registration data from the registry. If EmEditor was registered per-machine, it displays a UAC prompt so that it can delete the device data from `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`. A per-machine offline license is not deleted. Unlike the **Unregister** button of the [Registration Information dialog box](../../dlg/registration_info/index), the command does not ask for confirmation.
+
+The command returns an error for Portable and Store installations. If an error occurs, the command writes an error message to stderr.
 
 ## Tips
 

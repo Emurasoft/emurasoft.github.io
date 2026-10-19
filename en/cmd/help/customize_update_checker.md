@@ -8,6 +8,8 @@ Customizes the Update Checker.
 
 Opens the **Update Options** dialog box, where you can specify how often EmEditor checks for updates, and where updates are downloaded and saved.
 
+The Update Checker for EmEditor (MSI) is retired after March 31, 2027 (UTC). After that date, this command is unavailable.
+
 ## How to Run
 
 - Default Menu: **Help** \> **Customize Update Checker**
