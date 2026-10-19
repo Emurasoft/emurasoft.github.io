@@ -122,6 +122,7 @@
 | **[清除瀏覽過的連結記錄](clear_visit_history)** | 清除瀏覽過的 URL，電子郵件以及標籤記錄。 |
 | **[跳躍](jump)** | 跳躍到指定行 |
 | **[切換輸入法](toggle_ime)** | 為遠東語言啟用或停用輸入法編輯器。 |
+| **[快速檢視](fast_view)** | 在一般模式與巨型檔案的快速檢視模式之間切換。 |
 | **[唯讀](read_only)** | 切換目前的檔案的唯讀鎖定狀態。 |
 | [**跳躍到下一個**](jump_next) | 跳轉到輸出欄中的下一個位置。 |
 | [**跳躍到上一個**](jump_prev) | 跳轉到輸出欄中的上一個位置。 |
@@ -237,6 +238,7 @@ edit_select_all
 edit_undo
 end
 escape
+fast_view
 filter_column
 filter_out_column
 filter_out_word

@@ -122,6 +122,7 @@
 | **[清除访问过的链接记录](clear_visit_history)** | 清除访问过的 URL,电子邮件以及标签记录。 |
 | **[跳转](jump)** | 跳转到指定行。 |
 | **[切换输入法](toggle_ime)** | 为远东语言启用或禁用输入法编辑器。 |
+| **[快速查看](fast_view)** | 在处理超大文件时，在普通模式和快速查看模式之间切换。 |
 | **[只读](read_only)** | 切换当前文件的只读状态。 |
 | [**跳转到下一个**](jump_next) | 跳转到输出栏中的下一个位置。 |
 | [**跳转到上一个**](jump_prev) | 跳转到输出栏中的上一个位置。 |
@@ -237,6 +238,7 @@ edit_select_all
 edit_undo
 end
 escape
+fast_view
 filter_column
 filter_out_column
 filter_out_word

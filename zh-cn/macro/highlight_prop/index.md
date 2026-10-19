@@ -4,6 +4,7 @@
 
 |     |     |
 | --- | --- |
+| [AutoCompleteBrackets](auto_complete_brackets) | 与配置属性中 [**高亮（2）** 页面](../../dlg/properties/highlight2/index) 上的 **自动完成括号/引号标记** 复选框相对应。 |
 | [CommentBegin](comment_begin) | 与配置属性中 [**高亮（2）** 页面](../../dlg/properties/highlight2/index) 上的 **“注释”群组框 \- “开始”** 文本框相对应。 |
 | [CommentEnd](comment_end) | 与配置属性中 [**高亮（2）** 页面](../../dlg/properties/highlight2/index) 上的 **“注释”群组框 \- “结束”** 文本框相对应。 |
 | [Enabled](enabled) | 与配置属性中 [**高亮（1）** 页面](../../dlg/properties/highlight1/index) 上的 **高亮单词** 复选框相对应。 |
@@ -31,6 +32,7 @@
 ```{toctree}
 :hidden:
 :maxdepth: 1
+auto_complete_brackets
 comment_begin
 comment_end
 enabled

@@ -62,6 +62,7 @@
 | **[自定义 Markdown](customize_markdown)** | 打开自定义对话框中的 Markdown 页面。 |
 | **[自定义代码片段](customize_snippets)** | 打开自定义对话框的代码片段页面。 |
 | **[自定义标记](customize_markers)** | 打开自定义对话框的标记页面。 |
+| [**自定义快速查看**](customize_fast_view) | 打开自定义对话框中的快速查看页面。 |
 | **[自定义通知](customize_notifications)** | 打开自定义对话框中的通知页面。 |
 | **[自定义更新](customize_update)** | 打开自定义对话框中的更新页面。 |
 | **[自定义帮助](customize_help)** | 打开自定义对话框中的帮助页面。 |
@@ -108,6 +109,7 @@ customize_advanced
 customize_clipboard
 customize_csv_options
 customize_edit
+customize_fast_view
 customize_favorites
 customize_file
 customize_format

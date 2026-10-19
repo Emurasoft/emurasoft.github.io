@@ -18,6 +18,7 @@
 | [EDIT\_COLUMN\_INFO](edit_column_info) | 用于 [EE\_EDIT\_COLUMN](../message/ee_edit_column) 消息。 |
 | [EXEC\_PLUGIN\_INFO](exec_plugin_info) | 用于 [EE\_EXEC\_PLUGIN](../message/ee_exec_plugin) 消息。 |
 | [EXTRACT\_FREQUENT\_INFO](extract_frequent_info) | 用于 [EE\_EXTRACT\_FREQUENT](../message/ee_extract_frequent) 消息。 |
+| [FAST\_VIEW\_DIFF\_PATH\_INFO](fast_view_diff_path_info) | 用于 [EE\_INFO](../message/ee_info) 消息。 |
 | [FILTER\_INFO](filter_info) | 用于 [EE\_FILTER](../message/ee_filter) 消息。 |
 | [FILTER\_INFO\_EX](filter_info_ex) | 用于 [EE\_FILTER](../message/ee_filter) 和 [EE\_GET\_FILTER](../message/ee_get_filter) 消息。 |
 | [FIND\_REGEX\_INFO](find_regex_info) | 用于 [Editor\_FindRegex 内联函数](../macro/editor_findregex) ( [EE\_FIND\_REGEX 消息](../message/ee_find_regex)) 中。 |
@@ -76,6 +77,7 @@ custom_bar_info
 edit_column_info
 exec_plugin_info
 extract_frequent_info
+fast_view_diff_path_info
 filter_info
 filter_info_ex
 find_regex_info

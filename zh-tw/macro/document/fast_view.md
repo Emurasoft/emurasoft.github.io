@@ -26,6 +26,8 @@ document.FastView = bFastView
 
 當文檔以快速檢視模式打開時，隨後對該文檔的巨集調用會等待，直到 EmEditor 讀完該文檔。
 
+有關快速檢視模式下可用的功能，請參見[在快速檢視模式中開啟和編輯巨型檔案](../../howto/file/file_fast_view)。
+
 ## 範例
 
 ### \[JavaScript\]

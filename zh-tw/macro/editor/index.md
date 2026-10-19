@@ -30,6 +30,7 @@
 | **[ExecutePlugin](editor_executeplugin)** | 執行指定外掛程式。 |
 | **[FileDialog](filedialog)** | 顯示一個「打開」或「另存新檔」對話方塊，讓使用者指定磁碟機、目錄以及要打開的檔案名。 |
 | **[FindInFiles](editor_findinfiles)** | 在多個檔案中搜尋符合的字串。 |
+| [**GetFastViewDiffPath**](get_fast_view_diff_path) | 檢索指定檔案的快速檢視模式差異檔路徑。 |
 | [**GetProfileInt**](getprofileint) | 按 EmEidtor 的設定，從註冊表或一個 INI 檔案上檢索指定項目的整數值。 |
 | [**GetProfileString**](getprofilestring) | 按 EmEidtor 的設定，從註冊表或一個 INI 檔案上檢索指定項目的字串值。 |
 | [**Join**](join) | 按指定索引鍵資料欄，用一個與 JOIN 操作類似的方法合併兩個 CSV 文檔，並創建一個新文檔。 |
@@ -77,6 +78,7 @@ editor_version
 filedialog
 filters
 fuzzy_options
+get_fast_view_diff_path
 getprofileint
 getprofilestring
 getunicodename

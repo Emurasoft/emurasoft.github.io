@@ -142,6 +142,7 @@ _nCmd_
 | EI_RESET_BOOKMARK | 重置文档中指定的书签或所有打开的文档中的所有书签。 | (INT\_PTR)y<br>指定要重置书签的行号，如果为 -1，则重置所有打开的文档中的所有书签。 | 不使用。 |
 | EI_BRING_CUSTOM_BAR_TOP | 将指定的自定义栏置于顶部。 | (HWND)hwndClient<br>指定客户端窗口 | (int)iCustomBar<br>指定自定义栏的位置，如果未找到则为 -1。 |
 | EI\_GET\_FAST\_VIEW | 获取文档是否处于快速查看模式（仅限 EmEditor Professional 26.3 或更高版本）。 | 不使用。 | (BOOL)bFastView<br> 如果文档处于快速查看模式，则为 TRUE。 |
+| EI\_GET\_FAST\_VIEW\_DIFF\_PATH | 检索文件的快速查看模式差异文件的路径（仅限 EmEditor Professional 26.4 或更高版本）。如果找不到该文件的差异文件，则检索 **保存差异** 命令将要保存差异文件的路径。 | (FAST\_VIEW\_DIFF\_PATH\_INFO\*)pInfo<br> 指定指向 [FAST\_VIEW\_DIFF\_PATH\_INFO](../structure/fast_view_diff_path_info) 结构的指针。 | (size\_t)cch<br> 路径的长度（以字符为单位，不包括终止 NULL 字符），如果失败则为 0。 |
 
 _iDoc_
 

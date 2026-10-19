@@ -181,6 +181,11 @@
 | `/r` | 唯讀模式。 |
 | `/rc "FindWhat"` | 多檔取代 (區分大小寫) 。 |
 | `/rd` | 顯示 [**多檔取代** 對話方塊](../../dlg/replace_in_files/index)。 |
+| `/regemail "email"` | 指定註冊用的電子郵件地址。 |
+| `/register` | 以電腦為單位註冊 EmEditor。詳細資訊請參見範例。 |
+| `/regkey "regKey"` | 指定註冊用的註冊金鑰。 |
+| `/reglabel "label"` | 指定註冊用的裝置標籤。 |
+| `/regname "name"` | 指定註冊用的授權使用者名稱。 |
 | `/rh` | 把 HTML 檔案打開為唯讀。內部使用。 |
 | `/ri "FindWhat"` | 多檔取代 (不區分大小寫) 。 |
 | `/rr` | 在資料夾中以遞歸方式打開檔案。 |
@@ -194,6 +199,7 @@
 | `/ss+` | 用一個 Unicode 簽名 (BOM) 儲存檔案在在轉換編碼之後。 |
 | `/ss-` | 不用一個 Unicode 簽名 (BOM) 儲存檔案在在轉換編碼之後。 |
 | `/ti` | 顯示系統匣圖示。 |
+| `/unregister` | 取消以電腦為單位及以使用者為單位的 EmEditor 註冊。詳細資訊請參見範例。 |
 | `/uob` | 用匯出欄來顯示多檔尋找的結果。 |
 | `/x` | 用規則運算式尋找或多檔尋找。 |
 | `/xnr` | 使用數字範圍運算式多檔尋找或尋找。 |
@@ -297,6 +303,42 @@
 ```
 
 不用 Unicode 簽名，把一個 UTF-16LE 檔案，c:\\test\\utf16.txt，轉換為 UTF-8，並儲存為 c:\\test\\utf8.txt。換行方式被轉換為 CR+LF。
+
+### `/layout`
+
+```
+/layout "焦點模式"
+```
+
+使用「焦點模式」版面配置。
+
+### `/register`
+
+```
+/register /regname "Your Name" /regkey "Registration Key" /reglabel "Device label" /regemail "example@example.com"
+```
+
+此命令以電腦為單位註冊 EmEditor。這可讓同一台 Windows 電腦上的所有使用者使用相同的授權。若只要為目前的使用者註冊，請使用[「註冊產品」對話方塊](../../dlg/regist/index)。
+
+對於可攜式版本和市集版本的安裝，此命令會傳回錯誤，因為它們無法修改本機電腦的登錄項目。
+
+`/register` 命令需要 `/regname`、`/regkey`、`/reglabel` 和 `/regemail` 參數。註冊名稱為必要項目，但既不會傳送至服務，也不會被儲存。有關註冊欄位的詳細資訊，請參見[「註冊產品」對話方塊](../../dlg/regist/index)。
+
+如果 EmEditor 已經註冊，此命令會先取消目前的註冊，然後呼叫 `support.emeditor.com` 上的 API 來註冊 EmEditor。最後，它會顯示 UAC 提示，以便將裝置資料儲存至 `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`。
+
+如果在註冊期間發生錯誤，此命令會將錯誤訊息寫入 stderr。無論先前嘗試的結果如何，您都可以使用相同的註冊金鑰再次執行此命令，因為使用相同的註冊金鑰多次執行此命令最多只會建立一個已註冊的裝置。
+
+### `/unregister`
+
+```
+/unregister
+```
+
+此命令會取消 EmEditor 的註冊。它與 `/register` 相對應，且不接受任何參數。它不能與 `/register` 一起使用。
+
+此命令會在 `support.emeditor.com` 上取消為目前使用者註冊的裝置和以電腦為單位註冊的裝置，然後從登錄中刪除註冊資料。如果 EmEditor 是以電腦為單位註冊的，它會顯示 UAC 提示，以便從 `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common` 刪除裝置資料。以電腦為單位的離線授權不會被刪除。與[「註冊信息」對話方塊](../../dlg/registration_info/index)的 **取消註冊** 按鈕不同，此命令不會要求確認。
+
+對於可攜式版本和市集版本的安裝，此命令會傳回錯誤。如果發生錯誤，此命令會將錯誤訊息寫入 stderr。
 
 ## 提示
 

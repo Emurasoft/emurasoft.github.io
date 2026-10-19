@@ -181,6 +181,11 @@
 | `/r` | 只读模式。 |
 | `/rc "FindWhat"` | 在文件中替换（区分大小写）。 |
 | `/rd` | 显示 [**在文件中替换** 对话框](../../dlg/replace_in_files/index)。 |
+| `/regemail "email"` | 指定用于注册的注册电子邮件地址。 |
+| `/register` | 按计算机注册 EmEditor。详细信息请参见示例。 |
+| `/regkey "regKey"` | 指定用于注册的注册密钥。 |
+| `/reglabel "label"` | 指定用于注册的设备标签。 |
+| `/regname "name"` | 指定用于注册的许可用户名。 |
 | `/rh` | 把 HTML 文件打开为只读。内部使用。 |
 | `/ri "FindWhat"` | 在文件中替换（不区分大小写）。 |
 | `/rr` | 在文件夹中以递归方式打开文件。 |
@@ -194,6 +199,7 @@
 | `/ss+` | 用一个 Unicode 签名 (BOM) 保存文件在在转换编码之后。 |
 | `/ss-` | 不用一个 Unicode 签名 (BOM) 保存文件在在转换编码之后。 |
 | `/ti` | 显示托盘图标。 |
+| `/unregister` | 按计算机和按用户取消注册 EmEditor。详细信息请参见示例。 |
 | `/uob` | 用输出栏来显示在文件中查找的结果。 |
 | `/x` | 用正则表达式查找或在文件中查找。 |
 | `/xnr` | 使用数字范围表达式在文件中查找或查找。 |
@@ -297,6 +303,42 @@
 ```
 
 不用 Unicode 签名，把一个 UTF-16LE 文件，c:\\test\\utf16.txt，转换为 UTF-8，并保存为 c:\\test\\utf8.txt。换行方式被转换为 CR+LF。
+
+### `/layout`
+
+```
+/layout "焦点模式"
+```
+
+使用“焦点模式”布局。
+
+### `/register`
+
+```
+/register /regname "Your Name" /regkey "Registration Key" /reglabel "Device label" /regemail "example@example.com"
+```
+
+该命令会按计算机注册 EmEditor。这样同一台 Windows 计算机上的所有用户都可以使用同一个许可证。要只为当前用户注册，请使用[“注册产品”对话框](../../dlg/regist/index)。
+
+对于便携版和商店版安装，该命令会返回错误，因为它们无法修改本地计算机的注册表项。
+
+`/register` 命令需要 `/regname`、`/regkey`、`/reglabel` 和 `/regemail` 参数。注册名称是必需的，但它既不会发送到服务，也不会被保存。有关注册字段的详细信息，请参见[“注册产品”对话框](../../dlg/regist/index)。
+
+如果 EmEditor 已经注册，该命令会先取消当前的注册。然后，它会调用 `support.emeditor.com` 上的 API 来注册 EmEditor。最后，它会显示 UAC 提示，以便将设备数据保存到 `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`。
+
+如果注册过程中发生错误，该命令会将错误消息写入 stderr。无论上次尝试的结果如何，你都可以使用同一个注册密钥再次运行该命令，因为使用同一个注册密钥多次运行此命令最多只会创建一个已注册的设备。
+
+### `/unregister`
+
+```
+/unregister
+```
+
+该命令会取消注册 EmEditor。它是 `/register` 的对应命令，不带任何参数。它不能与 `/register` 一起使用。
+
+该命令会在 `support.emeditor.com` 上取消为当前用户注册的设备和按计算机注册的设备，然后从注册表中删除注册数据。如果 EmEditor 是按计算机注册的，它会显示 UAC 提示，以便从 `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common` 中删除设备数据。按计算机的离线许可证不会被删除。与[“注册信息”对话框](../../dlg/registration_info/index)的 **取消注册** 按钮不同，该命令不会要求确认。
+
+对于便携版和商店版安装，该命令会返回错误。如果发生错误，该命令会将错误消息写入 stderr。
 
 ## 提示
 

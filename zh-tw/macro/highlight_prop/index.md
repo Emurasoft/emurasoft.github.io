@@ -4,6 +4,7 @@
 
 |     |     |
 | --- | --- |
+| [AutoCompleteBrackets](auto_complete_brackets) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **自動完成括號/引號標記** 核取方塊相對應。 |
 | [CommentBegin](comment_begin) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「注釋」群組方塊 \- 「開始」** 文字方塊相對應。 |
 | [CommentEnd](comment_end) | 與組態屬性中 [**亮顯 (2)** 頁面](../../dlg/properties/highlight2/index) 上的 **「注釋」群組方塊 \- 「結束」** 文字方塊相對應。 |
 | [Enabled](enabled) | 與組態屬性中 [**亮顯 (1)** 頁面](../../dlg/properties/highlight1/index) 上的 **亮顯單字** 核取方塊相對應。 |
@@ -31,6 +32,7 @@
 ```{toctree}
 :hidden:
 :maxdepth: 1
+auto_complete_brackets
 comment_begin
 comment_end
 enabled

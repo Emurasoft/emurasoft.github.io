@@ -9,8 +9,10 @@ file_associate_all
 file_associate_config
 file_auto_save
 file_backup
+file_claude_editor
 file_commandline
 file_exitall
+file_fast_view
 file_new
 file_open
 file_recent_folder

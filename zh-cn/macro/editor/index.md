@@ -30,6 +30,7 @@
 | **[ExecutePlugin](editor_executeplugin)** | 执行指定插件。 |
 | **[FileDialog](filedialog)** | 显示一个“打开”或“另存为”对话框，让用户指定驱动器、目录以及要打开的文件名。 |
 | **[FindInFiles](editor_findinfiles)** | 在多个文件中搜索匹配的字符串。 |
+| [**GetFastViewDiffPath**](get_fast_view_diff_path) | 检索指定文件的快速查看模式差异文件的路径。 |
 | [**GetProfileInt**](getprofileint) | 按 EmEidtor 的设定，从注册表或一个 INI 文件上检索指定项目的整数值。 |
 | [**GetProfileString**](getprofilestring) | 按 EmEidtor 的设定，从注册表或一个 INI 文件上检索指定项目的字符串值。 |
 | [**Join**](join) | 按指定键列，用一个与 JOIN 操作类似的方法合并两个 CSV 文档，并创建一个新文档。 |
@@ -77,6 +78,7 @@ editor_version
 filedialog
 filters
 fuzzy_options
+get_fast_view_diff_path
 getprofileint
 getprofilestring
 getunicodename

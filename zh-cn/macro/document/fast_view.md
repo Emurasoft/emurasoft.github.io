@@ -26,6 +26,8 @@ document.FastView = bFastView
 
 当文档以快速查看模式打开时，随后对该文档的宏调用会等待，直到 EmEditor 读完该文档。
 
+有关快速查看模式下可用的功能，请参见[以快速查看模式打开和编辑超大文件](../../howto/file/file_fast_view)。
+
 ## 示例
 
 ### \[JavaScript\]

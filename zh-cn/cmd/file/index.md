@@ -17,6 +17,9 @@
 | **[重命名](file_save_rename)** | 重命名当前文件。 |
 | **[全部保存](file_save_all)** | 保存所有当前打开的文件。 |
 | **[以指定编码全部保存](file_save_all_as)** | 本命令用于将除了未命名的文档外的所有已打开的文档,以指定的目标文件夹、编码和换行符进行保存。 |
+| [**保存差异**](fast_view_save_diff) | 将快速查看模式的编辑内容和行的位置保存到 EmEditor 数据文件夹中的差异文件，而不重写文件，使文件能更快打开。 |
+| [**载入差异**](fast_view_load_diff) | 应用保存在快速查看模式文件的差异文件中的编辑内容。 |
+| [**放弃差异**](fast_view_discard_diff) | 放弃快速查看模式的编辑内容并删除差异文件。 |
 | **[高级打开](advanced_open)** | 用高级选项打开现有文件。 |
 | **[保存为系统默认编码](file_save_ansi)** | 保存当前文件为[系统默认编码](../../glossary/systemdefaultencoding)。 |
 | **[保存为 UTF-16LE](file_save_unicode)** | 使用Unicode UTF-16LE编码保存当前文件。 |
@@ -103,6 +106,9 @@ copy_file_dir
 copy_file_path
 erase_workspace
 exit_all
+fast_view_discard_diff
+fast_view_load_diff
+fast_view_save_diff
 favorite_file1
 file_close_open
 file_mru_file1

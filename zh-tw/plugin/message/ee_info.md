@@ -143,6 +143,7 @@ _nCmd_
 | EI_RESET_BOOKMARK | 重設文檔中指定的書籤或所有打開的文檔中的所有書籤。 | (INT\_PTR)y<br>指定要重設書籤的行號，如果為 -1，則重設所有打開的文檔中的所有書籤。 | 不使用。 |
 | EI_BRING_CUSTOM_BAR_TOP | 將指定的自訂欄置於頂部。 | (HWND)hwndClient<br>指定客戶端視窗 | (int)iCustomBar<br>指定自訂欄的位置，如果未找到則為 -1。 |
 | EI\_GET\_FAST\_VIEW | 獲取文檔是否處於快速檢視模式（僅限 EmEditor Professional 26.3 或更高版本）。 | 不使用。 | (BOOL)bFastView<br> 如果文檔處於快速檢視模式，則為 TRUE。 |
+| EI\_GET\_FAST\_VIEW\_DIFF\_PATH | 檢索檔案的快速檢視模式差異檔路徑（僅限 EmEditor Professional 26.4 或更高版本）。如果找不到該檔案的差異檔，則檢索 **儲存差異** 命令將會儲存差異檔的路徑。 | (FAST\_VIEW\_DIFF\_PATH\_INFO\*)pInfo<br> 指定一個指針指向 [FAST\_VIEW\_DIFF\_PATH\_INFO](../structure/fast_view_diff_path_info) 結構。 | (size\_t)cch<br> 路徑的長度（以字元為單位，不包括終止空字元），失敗時為 0。 |
 
 _iDoc_
 

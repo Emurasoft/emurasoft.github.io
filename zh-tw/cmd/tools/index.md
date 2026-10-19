@@ -62,6 +62,7 @@
 | **[自訂 Markdown](customize_markdown)** | 開啟自訂對話方塊中的 Markdown 頁面。 |
 | **[自訂程式碼片段](customize_snippets)** | 開啟自訂對話方塊的程式碼片段頁面。 |
 | **[自訂標記](customize_markers)** | 開啟自訂對話方塊的標記頁面。 |
+| [**自訂快速檢視**](customize_fast_view) | 開啟自訂對話方塊中的快速檢視頁面。 |
 | **[自訂通知](customize_notifications)** | 開啟自訂對話方塊中的通知頁面。 |
 | **[自訂更新](customize_update)** | 開啟自訂對話方塊中的更新頁面。 |
 | **[自訂說明](customize_help)** | 開啟自訂對話方塊中的說明頁面。 |
@@ -108,6 +109,7 @@ customize_advanced
 customize_clipboard
 customize_csv_options
 customize_edit
+customize_fast_view
 customize_favorites
 customize_file
 customize_format
