@@ -7,7 +7,7 @@ Command line options can be specified in the Run dialog box on the Start menu or
 ### Open a file or files
 
 ```
-"File1" "File2" "File3" ... [/r] [/fh] [/nr] [/sp] [/l LineNumber] [/cl ColumnNumber] [/cp encoding] [/c "Config"] [/mf "MacroPath"]
+"File1" "File2" "File3" ... [/r] [/fh] [/nr] [/sp] [/l LineNumber] [/cl ColumnNumber] [/tail] [/cp encoding] [/c "Config"] [/mf "MacroPath"]
 ```
 
 ### Create a new file
@@ -148,6 +148,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | `/csv "CSVName"` | sets the initial CSV mode, and the CSV detection is disabled. _CSVName_ can be the name of the CSV format or the index number. If 0 is specified, the normal mode is used. |
 | `/di "Folder"` | specifies the working folder when creating a new document. Used internally by EmEditor. |
 | `/eh` | grabs a text box contents. |
+| `/fast` | opens the file in [Fast View mode](file_fast_view) even if the file is smaller than the **Minimum file size to enable Fast View mode** on the [**Fast View** page](../../dlg/customize/fast_view/index) of the **Customize** dialog box. |
 | `/fc "FindWhat"` | find in files (case sensitive). |
 | `/fd` | displays the [**Find in Files** dialog box](../../dlg/find_in_files/index). |
 | `/ff "FindWhat"` | find a string directly within the opened document. Can be combined with /mc or /x. |
@@ -160,6 +161,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | `/fw` | searches only words. |
 | `/hide` | runs EmEditor as a hidden window when the "Quick Start" option is enabled. |
 | `/i` | pastes a text string from the Clipboard. |
+| `/ims` | opens the file as a new untitled document, and deletes the file. The tray icon uses this option for the [**Show Last Message** command](../../cmd/view/show_last_message). |
 | `/ipi` | refreshes the plug-in list. used from plug-in installers. |
 | `/iq` | pastes a text string in quotes from the Clipboard. |
 | `/iqr` | pastes a text string in quotes and returns from the Clipboard. |
@@ -199,6 +201,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | `/sp` | specifies that a new separate process from other EmEditor windows should be run. This option is useful when a new EmEditor window must be launched from another application because the application must monitor the process termination so it can detect the file modification. If this is specified, however, some features including tab operations will be disabled, and will void support. |
 | `/ss+` | saves the file with a Unicode signature (BOM) after the encoding conversion. |
 | `/ss-` | saves the file without a Unicode signature (BOM) after the encoding conversion. |
+| `/tail` | opens the file in [Fast View mode](file_fast_view) and moves the cursor to the last line of the file, like `/fast /l -1`. The end of the file is displayed immediately, while the positions of the lines are still being indexed. If `/tail` is specified, `/l` is ignored. `/cl` can specify the column number. |
 | `/ti` | displays the Tray Icon. |
 | `/unregister` | unregisters EmEditor per-machine and per-user. See Examples for details. |
 | `/uob` | uses the Output Bar to display the Find in Files results. |
@@ -255,6 +258,12 @@ opens filename, jumps to the 123rd line and displays it.
 ```
 
 opens filename, jumps to the last line and displays it.
+
+```
+/tail "filename"
+```
+
+opens filename in Fast View mode, jumps to the last line and displays it. The end of the file is displayed immediately, while the positions of the lines are still being indexed.
 
 ### `/ff`
 
