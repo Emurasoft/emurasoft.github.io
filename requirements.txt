@@ -4,7 +4,7 @@ certifi==2026.10.19
 charset-normalizer==3.5.2
 click==8.5.0
 colorama==0.4.6
-docutils==0.22.4
+docutils==0.21.2
 idna==3.20
 imagesize==2.0.1
 Jinja2==3.1.6
@@ -22,7 +22,7 @@ requests==2.34.2
 roman==5.2
 roman-numerals==4.1.0
 snowballstemmer==3.1.1
-Sphinx==9.2.0
+Sphinx==8.2.3
 sphinx-intl==2.4.0
 sphinx-last-updated-by-git==0.3.8
 sphinx-multiproject==1.0.0
