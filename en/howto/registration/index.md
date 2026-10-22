@@ -5,8 +5,8 @@ EmEditor can be installed and registered in several ways. Choose the method that
 | Method | Deployment type | Updates | Intended for |
 |---|---|---|---|
 | Microsoft Store | Per user | Automatic | Quick set up |
-| Per-user installer | Per user | Automatic | Power users |
-| Per-machine installer | Per machine | Manual | IT admins |
+| Per-user installation | Per user | Automatic | Power users |
+| Per-machine installation | Per machine | Manual | IT admins |
 
 ## Microsoft Store (per-user)
 
