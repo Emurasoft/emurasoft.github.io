@@ -45,7 +45,8 @@ This method installs EmEditor for the whole machine, making it available to ever
 Add-AppxProvisionedPackage -PackagePath path\to\emed64_x.x.x.msix -Online -SkipLicense
 ```
 
-3. Register the license for the machine by running the following command. The previous step would have made `emeditor.exe` available in `PATH`. When the User Account Control (UAC) prompt appears, confirm it so that EmEditor can write the registration data to `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`.
+3. [Purchase an EmEditor subscription](https://www.emeditor.com/buy/).
+4. Register the license for the machine by running the following [command](../file/file_commandline.md). The previous step would have made `emeditor.exe` available in `PATH`. When the User Account Control (UAC) prompt appears, confirm it so that EmEditor can write the registration data to `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`.
 
 ```powershell
 emeditor /register /regname "Your Name" /regemail "example@example.com" /regkey "Registration Key" /reglabel "Device label"
