@@ -1,5 +1,7 @@
 # Installation and Registration guideline
 
+There are multiple methods to install EmEditor and register your subscription. Follow the instructions for the installation method of your choice.
+
 ## Per-user Microsoft Store download
 
 This is the easiest way to get EmEditor, and it is recommended for individual users.
