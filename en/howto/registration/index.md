@@ -15,7 +15,7 @@ This is the easiest way to start using EmEditor, and we recommend it for individ
 1. Open the [EmEditor page in the Microsoft Store](https://apps.microsoft.com/detail/9nblggh537df) and install it.
 2. Use the free trial. When it ends, EmEditor will take you to the Microsoft Store where you can buy a subscription.
 
-The Microsoft Store keeps EmEditor up to date on your machine.
+- EmEditor updates automatically when a new version is available.
 
 ## Per-user installation
 
