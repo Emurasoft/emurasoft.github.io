@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
         with:
@@ -22,7 +22,7 @@ jobs:
           fetch-tags: false
       - uses: actions/setup-python@v6
         with:
-          python-version: '3.14'
+          python-version: '3.15'
           cache: pip
       - uses: actions/setup-go@v6
         with:
@@ -125,12 +125,13 @@ jobs:
           files: zh-tw.zip
 
   buildPDF:
-    runs-on: ubuntu-24.04
+    if: ${{ github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || github.ref_type == 'tag') }}
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
-          python-version: '3.14'
+          python-version: '3.15'
           cache: pip
       # Cannot use apt cache due to issues that occur with cache
       - name: Install packages
