@@ -12,4 +12,5 @@ plugin/index
 window/index
 offline_registration/index
 stripe_sign_in/index
+registration/index
 ```
