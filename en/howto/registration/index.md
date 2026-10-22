@@ -36,7 +36,7 @@ Notes
 
 ## Per-machine installation
 
-This method installs EmEditor for the whole machine, making it available to every user on the same Windows system. The license is registered per machine, so that only one registration is necessary for one machine.
+This method installs EmEditor for the whole machine, making it available to every user on the same Windows system. The license is registered per machine, so that only one registration is necessary for one machine. This method is intended for IT admins.
 
 1. Download the latest `.msix` installer from the **Other download options** section of the [Download page](https://www.emeditor.com/download/). You can also get the latest installer from the [Emurasoft Customer Center](https://support.emeditor.com/en/account/downloads).
 2. In **PowerShell with administrator rights**, run the following command to provision the package for all users.
@@ -51,6 +51,8 @@ Add-AppxProvisionedPackage -PackagePath path\to\emed64_x.x.x.msix -Online -SkipL
 ```powershell
 emeditor /register /regname "Your Name" /regemail "example@example.com" /regkey "Registration Key" /reglabel "Device label"
 ```
+
+5. If you are deploying a VM image, you can create a snapshot of the VM at this point. It is safe to start using EmEditor from a snapshot taken from this step.
 
 Notes
 
