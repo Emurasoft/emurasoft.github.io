@@ -125,6 +125,7 @@ jobs:
           files: zh-tw.zip
 
   buildPDF:
+    if: ${{ github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || github.ref_type == 'tag') }}
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v6
