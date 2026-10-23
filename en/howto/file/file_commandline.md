@@ -349,7 +349,7 @@ If an error occurs during registration, the command writes an error message to s
 
 The command unregisters EmEditor. It is the counterpart of `/register`, and it takes no parameters. It cannot be used together with `/register`.
 
-The command unregisters the device registered for the current user and the device registered per-machine on `support.emeditor.com`, and then deletes the registration data from the registry. If EmEditor was registered per-machine, it displays a UAC prompt so that it can delete the device data from `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`. A per-machine offline license is not deleted. Unlike the **Unregister** button of the [Registration Information dialog box](../../dlg/registration_info/index), the command does not ask for confirmation.
+The command unregisters the device registered for the current user and the device registered per-machine on `support.emeditor.com`, and then deletes the registration data from the registry. If EmEditor was registered per-machine, it displays a UAC prompt so that it can delete the device data from `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`. It also deletes the offline license entries created by `/ol` and `/ola`. Unlike the **Unregister** button of the [Registration Information dialog box](../../dlg/registration_info/index), the command does not ask for confirmation.
 
 The command returns an error for Portable and Store installations. If an error occurs, the command writes an error message to stderr.
 
