@@ -186,6 +186,7 @@ This command is called from the Tray Icon when the shortcut key to grab text wit
 | `/rd` | displays the [**Replace in Files** dialog box](../../dlg/replace_in_files/index). |
 | `/regemail "email"` | specifies the registration email address for registration. |
 | `/register` | registers EmEditor per-machine. See Examples for details. |
+| `/registerrenew` | renews the per-machine registration and its device token. See Examples for details. |
 | `/regkey "regKey"` | specifies the registration key for registration. |
 | `/reglabel "label"` | specifies the device label for registration. |
 | `/regname "name"` | specifies the licensed user name for registration. |
@@ -333,7 +334,7 @@ uses the "Focus Mode" layout.
 
 The command runs per-machine registration of EmEditor. This allows all users on the same Windows machine to use the same license. To register for the current user only, use the [Register Product dialog box](../../dlg/regist/index).
 
-The command returns an error for Portable and Store installations, because they cannot modify local machine registry entries.
+The command returns an error for Portable and Store installations, because they cannot modify local machine registry entries. It cannot be used while another EmEditor.exe process is running.
 
 The `/register` command requires the `/regname`, `/regkey`, `/reglabel`, and `/regemail` parameters. The registration name is required, but it is neither sent to the service nor stored. For details about the registration fields, see [Register Product dialog box](../../dlg/regist/index).
 
@@ -341,15 +342,29 @@ If EmEditor is already registered, the command first unregisters the current reg
 
 If an error occurs during registration, the command writes an error message to stderr. You can run the command again with the same registration key, regardless of the previous attempt result, as running this command multiple times with the same registration key will only create up to one registered device.
 
+A per-machine registration is valid for one year or until the device is unregistered. Use `/registerrenew` to renew it before it expires.
+
+### `/registerrenew`
+
+```
+/registerrenew
+```
+
+The command renews the per-machine registration created by `/register`. The command takes no parameters. It cannot be used together with `/register` or `/unregister`, and it cannot be used while another EmEditor.exe process is running.
+
+EmEditor renews a per-user registration automatically, but a per-machine registration is never renewed automatically because it needs to write to `HKLM`. Running `/registerrenew` makes EmEditor validate the device, obtain a new device token, and then display a UAC prompt so that it can store the token in `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`. If an error occurs, the command writes an error message to stderr.
+
+The command returns an error for Portable and Store installations. It also returns an error if the computer is not registered per-machine; use `/register` to register it first.
+
 ### `/unregister`
 
 ```
 /unregister
 ```
 
-The command unregisters EmEditor. It is the counterpart of `/register`, and it takes no parameters. It cannot be used together with `/register`.
+The command unregisters EmEditor. It is the counterpart of `/register`, and it takes no parameters. It cannot be used together with `/register`. It cannot be used while another EmEditor.exe process is running.
 
-The command unregisters the device registered for the current user and the device registered per-machine on `support.emeditor.com`, and then deletes the registration data from the registry. If EmEditor was registered per-machine, it displays a UAC prompt so that it can delete the device data from `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`. A per-machine offline license is not deleted. Unlike the **Unregister** button of the [Registration Information dialog box](../../dlg/registration_info/index), the command does not ask for confirmation.
+The command unregisters the device registered for the current user and the device registered per-machine on `support.emeditor.com`, and then deletes the registration data from the registry. If EmEditor was registered per-machine, it displays a UAC prompt so that it can delete the device data from `HKEY_LOCAL_MACHINE\SOFTWARE\EmSoft\EmEditor v3\Common`. It also deletes the offline license entries created by `/ol` and `/ola`. Unlike the **Unregister** button of the [Registration Information dialog box](../../dlg/registration_info/index), the command does not ask for confirmation.
 
 The command returns an error for Portable and Store installations. If an error occurs, the command writes an error message to stderr.
 
