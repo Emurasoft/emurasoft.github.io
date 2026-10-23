@@ -53,6 +53,7 @@ emeditor /register /regname "Your Name" /regemail "example@example.com" /regkey 
 ```
 
 5. If you are deploying a VM image, you can create a snapshot of the VM at this point. It is safe to start using EmEditor from a snapshot taken from this step.
+6. The registration token stored in the registry expires after one year. To renew it for another year, run `emeditor /registerrenew`. We recommend running this command each time you update EmEditor.
 
 Notes
 
