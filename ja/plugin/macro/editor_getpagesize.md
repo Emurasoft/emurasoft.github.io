@@ -4,7 +4,7 @@
 
 Editor\_GetPageSize( HWND hwnd, SIZE\_PTR\* psizePage );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -12,7 +12,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _psizePage_
 
-1ページに表示できる行数と桁数を表す [SIZE\_PTR 構造体](../structure/size_ptr) へのポインタを指定します。
+1ページに表示できる行数と桁数を表す [SIZE\_PTR 構造体](../structure/size_ptr) へのポインターを指定します。
 
 ## 戻り値
 

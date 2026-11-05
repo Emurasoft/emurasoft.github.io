@@ -7,7 +7,7 @@ Editor\_DocGetModified( HWND hwnd, int iDoc );
 
 Editor\_DocGetModified( HWND hwnd, HEEDOC hDoc );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

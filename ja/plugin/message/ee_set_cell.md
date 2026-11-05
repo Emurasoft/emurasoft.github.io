@@ -9,11 +9,11 @@ wParam = (WPARAM) (GET_CELL_INFO*) pGetCellInfo;
 lParam = (LPARAM) (LPWSTR) szString;
 ```
 
-## パラメータ
+## パラメーター
 
 _pGetCellInfo_
 
-[GET\_CELL\_INFO 構造体](../structure/get_cell_info) へのポインタを指定します。
+[GET\_CELL\_INFO 構造体](../structure/get_cell_info) へのポインターを指定します。
 
 _szString_
 

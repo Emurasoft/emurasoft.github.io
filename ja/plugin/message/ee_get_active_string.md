@@ -8,15 +8,15 @@ wParam = (WPARAM) 0;
 lParam = (LPARAM) (ACTIVE_STRING_INFO*) pInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[ACTIVE\_STRING\_INFO 構造体](../structure/active_string_info) へのポインタを指定します。
+[ACTIVE\_STRING\_INFO 構造体](../structure/active_string_info) へのポインターを指定します。
 
 ## 戻り値
 
-アクティブな文字列を終端NULL文字を含めて取得するのに必要なバッファのサイズを文字単位で指定します。
+アクティブな文字列を終端NULL文字を含めて取得するのに必要なバッファーのサイズを文字単位で指定します。
 
 ## バージョン
 

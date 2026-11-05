@@ -16,7 +16,7 @@ strResult = reg.Replace( strText, strReplace );
 strResult = reg.Replace( strText, strReplace )
 ```
 
-### パラメータ
+### パラメーター
 
 _strText_
 

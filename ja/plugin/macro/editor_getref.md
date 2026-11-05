@@ -1,10 +1,10 @@
 # Editor\_GetRef
 
-指定するプラグインの参照数を返します。このインライン関数を使うか、または [EE\_GET\_REF](../message/ee_get_ref) メッセージを直接送ることができます。通常、EmEditorのプラグイン設定ダイアログで使用されます。
+指定するプラグインの参照数を返します。このインライン関数を使うか、または [EE\_GET\_REF](../message/ee_get_ref) メッセージを直接送ることができます。通常、EmEditorのプラグイン設定ダイアログ ボックスで使用されます。
 
 Editor\_GetRef( HWND hwnd, ATOM atom );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

@@ -8,11 +8,11 @@ wParam = 0;
 lParam = (LPARAM) (GET_COLOR_INFO*) pGetColorInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pGetColorInfo_
 
-GET\_COLOR\_INFO 構造体へのポインタを指定します。
+GET\_COLOR\_INFO 構造体へのポインターを指定します。
 
 ## 戻り値
 

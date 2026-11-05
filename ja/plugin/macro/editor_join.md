@@ -4,7 +4,7 @@ SQL においての JOIN 操作と同様な方法を使って、2個の CSV 文�
 
 Editor\_Join( HWND hwnd, UINT nFlags, LPCWSTR pszDocument1, LPCWSTR pszColumn1, LPCWSTR pszDocument2, LPCWSTR pszColumn2, LPCWSTR pszSelect, int\* piDocument3 );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -21,7 +21,7 @@ _nFlags_
 | JOIN\_FLAG\_INCLUDE\_ALL\_1 | 第1文書のすべての行が出力に含まれます。第1文書にマッチしない行が存在する場合、出力文書には空のセルが含まれます。 |
 | JOIN\_FLAG\_INCLUDE\_ALL\_2 | 第2文書のすべての行が出力に含まれます。第2文書にマッチしない行が存在する場合、出力文書には空のセルが含まれます。 |
 | JOIN\_FLAG\_MATCH\_CASE | 大文字と小文字を区別します。 |
-| JOIN\_FLAG\_SIMPLE\_JOIN | キーを使用しないで、単純に結合します。これを指定した場合、 _pszColumn1_ と _pszColumn2_ パラメータは無視されます。 |
+| JOIN\_FLAG\_SIMPLE\_JOIN | キーを使用しないで、単純に結合します。これを指定した場合、 _pszColumn1_ と _pszColumn2_ パラメーターは無視されます。 |
 | JOIN\_FLAG\_IGNORE\_HEADINGS\_1 | 第1文書のヘディングを無視します。第1文書のヘディングは、結合された文書に残ります。 |
 | JOIN\_FLAG\_IGNORE\_HEADINGS\_2 | 第2文書のヘディングを無視します。 |
 | JOIN\_FLAG\_CONTAIN | Key1 は Key2 を含みます。 |

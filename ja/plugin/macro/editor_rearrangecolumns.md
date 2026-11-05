@@ -5,7 +5,7 @@ CSV 列を再配置します。このインライン関数を使うか、また�
 
 Editor\_RearrangeColumns( HWND hwnd, UINT nColumnArraySize, const INT\* piColumn );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -13,7 +13,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _nSize_
 
-_piColumn_ パラメータに指定する列の数を指定します。
+_piColumn_ パラメーターに指定する列の数を指定します。
 
 _piColumn_
 

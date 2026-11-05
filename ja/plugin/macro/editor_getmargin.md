@@ -4,7 +4,7 @@
 
 Editor\_Convert( HWND hwnd );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

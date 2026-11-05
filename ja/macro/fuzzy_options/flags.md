@@ -10,7 +10,7 @@
 | eeFuzzyIgnoreEmoji | 絵文字シーケンスの違いは無視されます。 |
 | eeFuzzyIgnoreKanaSize | 仮名の大小は無視されます。 |
 | eeFuzzyIgnoreKanaType | ひらがなとカタカナの違いを無視します。 |
-| eeFuzzyIgnoreVS | 異字体セレクタは無視されます。 |
+| eeFuzzyIgnoreVS | 異字体セレクターは無視されます。 |
 | eeFuzzyIgnoreWidth | 半角文字と全角文字の違いは無視されます。 |
 
 ## 

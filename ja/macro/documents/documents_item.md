@@ -16,7 +16,7 @@ doc = editor.Documents.Item( Index );
 doc = editor.Documents.Item( Index )
 ```
 
-## パラメータ
+## パラメーター
 
 _Index_
 

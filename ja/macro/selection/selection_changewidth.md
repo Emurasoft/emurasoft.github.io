@@ -16,7 +16,7 @@ document.selection.ChangeWidth( nFlags [, szChars ] );
 document.selection.ChangeWidth nFlags [, szChars ]
 ```
 
-## パラメータ
+## パラメーター
 
 _nFlags_
 

@@ -5,7 +5,7 @@
 
 Editor\_DocGetConfigA( HWND hwnd, int iDoc, LPSTR szConfigName );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -17,7 +17,7 @@ _iDoc_
 
 _szConfigName_
 
-設定の名前を取得するバッファを指定します。バッファは、ヌル文字 ('\\0') を含めて MAX\_CONFIG\_NAME の長さを確保します。
+設定の名前を取得するバッファーを指定します。バッファーは、ヌル文字 ('\\0') を含めて MAX\_CONFIG\_NAME の長さを確保します。
 
 ## 戻り値
 

@@ -8,11 +8,11 @@ wParam = 0;
 lParam = (LPARAM) (POINT_PTR*) pptPos;
 ```
 
-## パラメータ
+## パラメーター
 
 _pptPos_
 
-スクロールバー位置を格納するための [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+スクロールバー位置を格納するための [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 ## 戻り値
 

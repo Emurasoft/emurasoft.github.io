@@ -52,11 +52,11 @@ _nFlags_
 | FLAG\_FIND\_CASE | 大文字と小文字を区別して検索します。 |
 | FLAG\_FIND\_ESCAPE | 文字列をエスケープ シーケンスで指定します。FLAG\_FIND\_REG\_EXP と組み合わせて指定できません。 |
 | FLAG\_FIND\_FILENAMES\_ONLY | 見つかったファイルのファイル名だけを結果として表示し、検索した文字列を含む行の内容は表示しません。FLAG\_FIND\_LINE\_ONLY または FLAG\_FIND\_MATCHED\_ONLY と組み合わせて指定できません。 |
-| FLAG\_FIND\_IGNORE\_FILES | pszFilesToIgnore で指定する名前のファイルまたはフォルダを無視します。 |
+| FLAG\_FIND\_IGNORE\_FILES | pszFilesToIgnore で指定する名前のファイルまたはフォルダーを無視します。 |
 | FLAG\_FIND\_LINE\_ONLY | 検索した文字列を含む行の内容だけが結果として表示されます。FLAG\_FIND\_FILENAMES\_ONLY または FLAG\_FIND\_MATCHED\_ONLY と組み合わせて指定できません。 |
 | FLAG\_FIND\_MATCHED\_ONLY | 一致した文字列のみが結果として表示されます。FLAG\_FIND\_FILENAMES\_ONLY または FLAG\_FIND\_LINE\_ONLY と組み合わせて指定できません。 |
 | FLAG\_FIND\_ONLY\_WORD | 単語のみを検索します。 |
-| FLAG\_FIND\_RECURSIVE | サブフォルダも検索します。 |
+| FLAG\_FIND\_RECURSIVE | サブフォルダーも検索します。 |
 | FLAG\_FIND\_REG\_EXP | 文字列を正規表現で指定します。FLAG\_FIND\_ESCAPE と組み合わせて指定できません。 |
 | FLAG\_FIND\_OPEN\_DIRECT | ファイルから検索の結果を一覧としては表示せずに、検索文字列を含むファイルを直接開きます。FLAG\_FIND\_OPEN\_FILTER または FLAG\_FIND\_OUTPUT と組み合わせて指定できません。 |
 | FLAG\_FIND\_OPEN\_FILTER | ファイルから検索の結果を一覧としては表示せずに、検索文字列を含むファイルを直接開き、さらにフィルターに検索文字列を設定します。FLAG\_FIND\_OPEN\_DIRECT または FLAG\_FIND\_OUTPUT と組み合わせて指定できません。 |
@@ -78,12 +78,12 @@ _pszPath_
 
 _pszBackupPath_
 
-ファイルから置換の場合で、 _nFlags_ に FLAG\_REPLACE\_BACKUP を指定した場合、バックアップ先フォルダを指定します。
+ファイルから置換の場合で、 _nFlags_ に FLAG\_REPLACE\_BACKUP を指定した場合、バックアップ先フォルダーを指定します。
 
 _pszFilesToIgnore_
 
 _nFlags_ に FLAG\_FIND\_IGNORE\_FILES
-を指定した場合、無視するファイルまたはフォルダの名前を指定します。ここには、\\* または ? のワイルド
+を指定した場合、無視するファイルまたはフォルダーの名前を指定します。ここには、\\* または ? のワイルド
 カードを含めて指定することができます。複数のファイルを指定する場合は、; で区切ります。
 
 ## バージョン

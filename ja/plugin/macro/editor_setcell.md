@@ -4,7 +4,7 @@ CSV モードで指定するセルに文字列を設定します。このイン�
 
 Editor\_SetCell( HWND hwnd, GET\_CELL\_INFO\* pGetCellInfo, LPCWSTR szString );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -12,7 +12,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pGetCellInfo_
 
-[GET\_CELL\_INFO 構造体](../structure/get_cell_info) へのポインタを指定します。
+[GET\_CELL\_INFO 構造体](../structure/get_cell_info) へのポインターを指定します。
 
 _szString_
 

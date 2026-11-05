@@ -16,7 +16,7 @@ document.SetColumn( iColumn, strInsert, strDelimiter, flags, yTop, yLines );
 document.SetColumn( iColumn, strInsert, strDelimiter, flags, yTop, yLines )
 ```
 
-## パラメータ
+## パラメーター
 
 _iColumn_
 

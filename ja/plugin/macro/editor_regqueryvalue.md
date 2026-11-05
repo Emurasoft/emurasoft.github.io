@@ -5,7 +5,7 @@ EmEditor の設定に応じて、レジストリまたは INI ファイルから
 
 Editor\_RegQueryValue( HWND hwnd, DWORD dwKey, LPCWSTR pszConfig, LPCWSTR pszValue, DWORD dwType, BYTE\* lpData, DWORD\* lpcbData, DWORD dwFlags );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -13,7 +13,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _dwKey_
 
-以下の値のいずれかを指定して、キーを指定します。EEREG\_CONFIG および EEREG\_EMEDITORPLUGIN には pszConfig パラメータが必要です。
+以下の値のいずれかを指定して、キーを指定します。EEREG\_CONFIG および EEREG\_EMEDITORPLUGIN には pszConfig パラメーターが必要です。
 
 |     |     |
 | --- | --- |
@@ -35,7 +35,7 @@ _pszValue_
 
 _dwType_
 
-以下の値のいずれかを選択し、lpData パラメータのデータの種類を指定します。
+以下の値のいずれかを選択し、lpData パラメーターのデータの種類を指定します。
 
 |     |     |
 | --- | --- |
@@ -45,15 +45,15 @@ _dwType_
 
 _lpData_
 
-値のデータを受け取るバッファへのポインタです。このパラメータは、データが REG\_BINARY の種類のときのみヌルにすることができます。
+値のデータを受け取るバッファーへのポインターです。このパラメーターは、データが REG\_BINARY の種類のときのみヌルにすることができます。
 
 _lpcbData_
 
-lpData パラメータで指定されたバッファのサイズをバイト数で指定する変数へのポインタです。関数から戻ると、この変数には lpData に保存されたデータのサイズを保存します。
+lpData パラメーターで指定されたバッファーのサイズをバイト数で指定する変数へのポインターです。関数から戻ると、この変数には lpData に保存されたデータのサイズを保存します。
 
 _dwFlags_
 
-このパラメータは予約されており、0 を指定する必要があります。
+このパラメーターは予約されており、0 を指定する必要があります。
 
 ## 戻り値
 

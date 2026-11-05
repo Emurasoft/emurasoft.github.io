@@ -10,7 +10,7 @@ wParam = flags;
 
 lParam = 0;
 
-## パラメータ
+## パラメーター
 
 _hwndParent_
 

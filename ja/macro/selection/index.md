@@ -47,7 +47,7 @@
 | [GetBottomPointY](selection_getbottompointy) | 選択範囲の最後の現在行を 1 で始まる整数で返します。 |
 | [GetTopPointX](selection_gettoppointx) | 選択範囲の最初の現在桁を 1 で始まる整数で返します。 |
 | [GetTopPointY](selection_gettoppointy) | 選択範囲の最初の現在行を 1 で始まる整数で返します。 |
-| [GoToBrace](selection_gotobrace) | 対応するかっこへ移動します。 |
+| [GoToBrace](selection_gotobrace) | 対応する括弧へ移動します。 |
 | [Indent](selection_indent) | 選択範囲をインデントします。 |
 | [InsertDate](selection_insertdate) | 時刻と日付を挿入します。 |
 | [InsertFromFile](selection_insertfromfile) | 指定したファイルの中身をカーソル位置に挿入します。 |

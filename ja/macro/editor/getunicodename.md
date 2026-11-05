@@ -16,7 +16,7 @@ strName = editor.GetUnicodeName( strChar );
 strName = editor.GetUnicodeName( strChar )
 ```
 
-## パラメータ
+## パラメーター
 
 _strChar_
 

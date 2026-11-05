@@ -27,8 +27,8 @@ _nType_
 | eeFreqTypeLines | 頻出する行の一覧を作成します。 |
 | eeFreqTypeWords | 頻出する単語の一覧を作成します。単語は英数字でない文字に囲まれた文字列であり、\[カスタマイズ\] ダイアログ ボックスの [\[編集\] ページ](../../dlg/customize/edit/index) の \[次の文字を英数字として扱う\] テキスト ボックスでカスタマイズできます。 |
 | eeFreqTypeCells | 頻出するセルの一覧を作成します。このオプションは CSV 文書がアクティブの時のみ利用可能です。 |
-| eeFreqTypeIPv4 | 頻出するIPv4アドレスの一覧を作成します。 |
-| eeFreqTypeIPv6 | 頻出するIPv6アドレスの一覧を作成します。 |
+| eeFreqTypeIPv4 | 頻出するIPv4 アドレスの一覧を作成します。 |
+| eeFreqTypeIPv6 | 頻出するIPv6 アドレスの一覧を作成します。 |
 
 _nNumOfLines_
 

@@ -9,7 +9,7 @@ wParam = 0;
 lParam = (LPARAM) (LPCWSTR) szCurrDir;
 ```
 
-## パラメータ
+## パラメーター
 
 _szCurrDir_
 

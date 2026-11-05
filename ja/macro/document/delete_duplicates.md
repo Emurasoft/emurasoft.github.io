@@ -16,7 +16,7 @@ nCount = document.DeleteDuplicates( [ strColumns, [ flags ] ] );
 nCount = document.DeleteDuplicates( [ strColumns, [ flags ] ] )
 ```
 
-## パラメータ
+## パラメーター
 
 _strFilter_
 
@@ -38,7 +38,7 @@ _flags_
 | eeIgnoreEmptyLines | 空行を無視します。 |
 | eeIncludeAll | 各重複のすべての行を削除、または各重複のすべての行にブックマークを設定します。 |
 | eeSortIgnoreCase | 大文字と小文字を区別しません。 |
-| eeSortInspectSelOnly | 箱型選択または複数選択が存在する時、選択範囲の文字列のみを調べます。strColumns パラメータが指定されている場合、このフラグは無視されます。 |
+| eeSortInspectSelOnly | 箱型選択または複数選択が存在する時、選択範囲の文字列のみを調べます。strColumns パラメーターが指定されている場合、このフラグは無視されます。 |
 | eeSortSelectionOnly | 選択範囲のみ調べます。 |
 
 ## 戻り値

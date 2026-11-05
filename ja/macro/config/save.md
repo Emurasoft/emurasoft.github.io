@@ -16,7 +16,7 @@ object.Save( [ strName ] );
 object.Save [ strName ]
 ```
 
-## パラメータ
+## パラメーター
 
 _strName_
 

@@ -5,7 +5,7 @@
 
 Editor\_Help( HWND hwnd, LPCTSTR szPageURL );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

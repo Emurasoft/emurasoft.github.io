@@ -16,7 +16,7 @@ popupmenu.Add( strText, id, [ flags ] );
 popupmenu.Add strText, id, [ flags ]
 ```
 
-## パラメータ
+## パラメーター
 
 _strText_
 
@@ -34,7 +34,7 @@ _flags_
 | --- | --- |
 | eeMenuChecked | 項目がチェックされた状態にします。 |
 | eeMenuGrayed | 項目が無効であることを指定します。 |
-| eeMenuSeparator | セパレータを指定します。 |
+| eeMenuSeparator | セパレーターを指定します。 |
 
 ## バージョン
 

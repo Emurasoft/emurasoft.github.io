@@ -8,7 +8,7 @@ EE_TOOLBAR_CLOSE
 (UINT)wParam = nToolbarID
 ```
 
-## パラメータ
+## パラメーター
 
 _nToolbarID_
 

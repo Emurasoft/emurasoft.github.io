@@ -44,7 +44,7 @@
 | ![](../../images/bookmarkclear.png)[このウィンドウのブックマークをクリア](../../cmd/bookmarks/bookmark_clear) | このウィンドウのすべてのブックマークをクリアします。 |
 | ![](../../images/filesaveexit.png)[保存して閉じる](../../cmd/file/file_save_exit) | ファイルを保存して閉じます。 |
 | ![](../../images/saveexitall.png)[すべて保存して閉じる](../../cmd/file/save_exit_all) | ファイルをすべて保存して閉じます。 |
-| ![](../../images/nextparen.png)[対応するかっこへ](../../cmd/edit/next_paren) | 対応するかっこへ移動します。 |
+| ![](../../images/nextparen.png)[対応する括弧へ](../../cmd/edit/next_paren) | 対応する括弧へ移動します。 |
 | ![](../../images/duplicateline.png)[行の2重化](../../cmd/insert/duplicate_line) | カーソルのある論理行全体を 2 重化します。 |
 | ![](../../images/insertcontrol.png)[特殊文字を入力](../../cmd/insert/insert_control) | 特殊文字を入力します。 |
 | ![](../../images/marks.png)[記号](../../cmd/view/view_marks) | 改行コード/EOF/タブ記号の表示/非表示を切り替えます。 |
@@ -83,7 +83,7 @@
 | ![](../../images/sync24x16.png)[同期スクロール](../../cmd/diff/sync_scroll_direct) | 比較した文書を再スキャンして結果を最新情報に更新します。 |
 | ![](../../images/reset24x16.png)[リセット](../../cmd/diff/compare_reset) | 比較や同期スクロールをリセットして比較結果をクリアします。 |
 | ![](../../images/line_number24x16.png)[行番号](../../cmd/view/view_line_numbers) | 行番号の表示/非表示を切り替えます。 |
-| ![](../../images/ruler24x16.png)[ルーラ](../../cmd/view/view_ruler) | ルーラの表示/非表示を切り替えます。 |
+| ![](../../images/ruler24x16.png)[ルーラー](../../cmd/view/view_ruler) | ルーラーの表示/非表示を切り替えます。 |
 | ![](../../images/plugin_outline.png)[アウトライン](../../cmd/view/outline_bar_guide) | アウトライン バーとガイドの表示/非表示を切り替えます。 |
 | ![](../../images/auto_indent24x16.png)[自動インデント](../../cmd/view/toggle_auto_indent) | 自動インデントを有効にします。 |
 | ![](../../images/space_tab24x16.png)[タブの代わりに空白を挿入](../../cmd/view/toggle_spaces_tab) | タブの代わりに空白を挿入します。 |
@@ -110,7 +110,7 @@
 | ![](../../images/join_csv.png)[CSVの結合](../../cmd/csv/join_csv) | 2個のCSV文書を結合します。 |
 | ![](../../images/extract_columns.png)[列を抽出](../../cmd/csv/extract_columns) | 現在のCSV文書から指定する列を抽出します。 |
 | ![](../../images/plugin_commit_list.png)[コミット リスト](../plugin/plugin_commit_list) | \[コミット リスト\] プラグイン。 |
-| ![](../../images/plugin_explorer.png)[エクスプローラ](../plugin/plugin_explorer) | \[エクスプローラ\] プラグイン。 |
+| ![](../../images/plugin_explorer.png)[エクスプローラー](../plugin/plugin_explorer) | \[エクスプローラー\] プラグイン。 |
 | ![](../../images/plugin_opendocuments.png)[開いている文書](../plugin/plugin_opendocuments) | \[開いている文書\] プラグイン。 |
 | ![](../../images/projects.png)[プロジェクト](../plugin/plugin_projects) | \[プロジェクト\] プラグイン。 |
 | ![](../../images/plugin_search.png)[検索](../plugin/plugin_search) | \[検索\] プラグイン。 |

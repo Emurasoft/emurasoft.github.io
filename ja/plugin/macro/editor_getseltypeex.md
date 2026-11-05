@@ -4,7 +4,7 @@
 
 Editor\_GetSelTypeEx( HWND hwnd, BOOL bNeedAlways );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

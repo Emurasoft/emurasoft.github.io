@@ -4,7 +4,7 @@
 
 Editor\_ExecCommand( HWND hwnd, UINT nCmdID );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

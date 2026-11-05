@@ -4,7 +4,7 @@
 
 Editor\_SetSelTypeEx( hwnd, bNeedAlways, nSelType );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

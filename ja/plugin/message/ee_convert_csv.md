@@ -8,11 +8,11 @@ wParam = (WPARAM)(CONVERT_CSV_INFO*)pInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[CONVERT\_CSV\_INFO 構造体](../structure/convert_csv_info) へのポインタを指定します。
+[CONVERT\_CSV\_INFO 構造体](../structure/convert_csv_info) へのポインターを指定します。
 
 ## 戻り値
 

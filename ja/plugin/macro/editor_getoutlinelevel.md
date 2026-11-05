@@ -5,7 +5,7 @@
 
 Editor\_GetOutlineLevel( HWND hwnd, INT\_PTR nLogicalLine );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

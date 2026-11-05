@@ -16,7 +16,7 @@ nResult = editor.ExecutePlugin( strPluginFileName, nFlags, nParam, strParam );
 nResult = editor.ExecutePlugin( strPluginFileName, nFlags, nParam, strParam )
 ```
 
-## パラメータ
+## パラメーター
 
 _strPluginFileName_
 
@@ -28,18 +28,18 @@ _nFlags_
 
 |     |     |
 | --- | --- |
-| eePluginExecuteCommand | ユーザーがプラグイン コマンドを選択したかのようにプラグインを実行します。これが指定されていると、nParam と strParam パラメータは無視されます。 |
-| eePluginUserMessage | nParam と strParam パラメータを使用して、プラグインにメッセージを送ります 。 |
-| eePluginQueryStatus | プラグインの状態を取得します。これが指定されていると、nParam と strParam パラメータは無視されます。 |
-| eePluginAbsolutePath | strPluginFileName にはファイルへの完全パスが含まれます。このフラグが指定されていない場合は、プラグインは既定のプラグインフォルダ (EmEditor インストール フォルダの中の PlugIns サブ フォルダ) に存在する必要があります。 |
+| eePluginExecuteCommand | ユーザーがプラグイン コマンドを選択したかのようにプラグインを実行します。これが指定されていると、nParam と strParam パラメーターは無視されます。 |
+| eePluginUserMessage | nParam と strParam パラメーターを使用して、プラグインにメッセージを送ります 。 |
+| eePluginQueryStatus | プラグインの状態を取得します。これが指定されていると、nParam と strParam パラメーターは無視されます。 |
+| eePluginAbsolutePath | strPluginFileName にはファイルへの完全パスが含まれます。このフラグが指定されていない場合は、プラグインは既定のプラグインフォルダー (EmEditor インストール フォルダーの中の PlugIns サブフォルダー) に存在する必要があります。 |
 
 _nParam_
 
-プラグインに送る整数パラメータを指定します。このパラメータの意味は各プラグインに依存します。これが省略されると、0 を指定することになります。
+プラグインに送る整数パラメーターを指定します。このパラメーターの意味は各プラグインに依存します。これが省略されると、0 を指定することになります。
 
 _strParam_
 
-プラグインに送る文字列パラメータを指定します。このパラメータの意味は各プラグインに依存します。これが省略されると、空の文字列を指定することになります。
+プラグインに送る文字列パラメーターを指定します。このパラメーターの意味は各プラグインに依存します。これが省略されると、空の文字列を指定することになります。
 
 ## 戻り値
 

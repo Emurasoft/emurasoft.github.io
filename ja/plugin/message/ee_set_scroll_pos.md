@@ -8,7 +8,7 @@ wParam = (WPARAM) (BOOL) bCanMoveCursor;
 lParam = (LPARAM) (POINT_PTR*) pptPos;
 ```
 
-## パラメータ
+## パラメーター
 
 _bCanMoveCursor_
 
@@ -16,7 +16,7 @@ TRUE の場合、プロパティで [\[スクロールでカーソルも移動\]
 
 _pptPos_
 
-スクロールバーの位置を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+スクロールバーの位置を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 ## 戻り値
 

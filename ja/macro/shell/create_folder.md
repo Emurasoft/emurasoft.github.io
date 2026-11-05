@@ -1,6 +1,6 @@
 # CreateFolder メソッド (Shell オブジェクト)
 
-フォルダを作成します。
+フォルダーを作成します。
 
 ## 
 
@@ -16,11 +16,11 @@ shell.CreateFolder( strFolder );
 shell.CreateFolder strFolder
 ```
 
-## パラメータ
+## パラメーター
 
 _strFolder_
 
-作成するフォルダを指定します。
+作成するフォルダーを指定します。
 
 ## 例
 

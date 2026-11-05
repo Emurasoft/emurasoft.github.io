@@ -4,7 +4,7 @@ ANSI文字列で指定する設定を読み直します。このインライン�
 
 Editor\_LoadConfigA( HWND hwnd, LPCSTR szConfigName );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

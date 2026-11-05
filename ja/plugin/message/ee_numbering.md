@@ -9,11 +9,11 @@ wParam = (WPARAM)(NUMBERING_INFO*)pNI;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pUNI_
 
-[NUMBERING\_INFO 構造体](../structure/numbering_info) へのポインタを指定します。
+[NUMBERING\_INFO 構造体](../structure/numbering_info) へのポインターを指定します。
 
 ## 戻り値
 

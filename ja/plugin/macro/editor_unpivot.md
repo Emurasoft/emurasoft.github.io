@@ -4,7 +4,7 @@ CSV データを平らにして行に変換します。このインライン関�
 
 HRESULT Editor\_PivotTable( HWND hwnd, int iRow, int iColumn, int iValue, UINT nFlags, UINT nSortRow, UINT nSortColumn, LPCWSTR pszLocale, LPCWSTR pszTotalRowLabel, LPCWSTR pszTotalColLabel, int nDecimalPlaces );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

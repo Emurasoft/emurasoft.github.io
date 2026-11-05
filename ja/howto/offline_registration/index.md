@@ -18,7 +18,7 @@
 EmEditor.exe /ol "C:\Users\Example\emeditorLicenseFile-a7PT7Au3TOelfK1w.txt"
 ```
 
-- EmEditorをコンピュータごとに登録するには、`/ol`の代わりに`/ola`を使用できます (管理者権限が必要です)。
+- EmEditorをコンピューターごとに登録するには、`/ol`の代わりに`/ola`を使用できます (管理者権限が必要です)。
 
 6. EmEditor を起動し、[登録情報](../../dlg/registration_info/index)を表示してオフライン登録が成功したことを確認します。ライセンス ファイルはもう必要ないので削除して構いません。
 

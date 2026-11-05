@@ -16,7 +16,7 @@ wnd = shell.windows.Item( Index );
 wnd = shell.windows.Item( Index )
 ```
 
-## パラメータ
+## パラメーター
 
 _Index_
 

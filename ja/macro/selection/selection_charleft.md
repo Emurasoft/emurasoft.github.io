@@ -16,7 +16,7 @@ document.selection.CharLeft( [ bExtend [, nCount ] ] );
 document.selection.CharLeft [ bExtend [, nCount ] ]
 ```
 
-## パラメータ
+## パラメーター
 
 _bExtend_
 

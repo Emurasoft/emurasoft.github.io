@@ -5,7 +5,7 @@ EmEditor の設定に応じて、レジストリまたは INI ファイルに、
 
 Editor\_RegSetValue( HWND hwnd, DWORD dwKey, LPCWSTR pszConfig, LPCWSTR pszValue, DWORD dwType, const BYTE\* lpData, DWORD cbData, DWORD dwFlags );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -13,7 +13,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _dwKey_
 
-以下の値のいずれかを指定して、キーを指定します。EEREG\_CONFIG および EEREG\_EMEDITORPLUGIN には pszConfig パラメータが必要です。
+以下の値のいずれかを指定して、キーを指定します。EEREG\_CONFIG および EEREG\_EMEDITORPLUGIN には pszConfig パラメーターが必要です。
 
 |     |     |
 | --- | --- |
@@ -31,11 +31,11 @@ EEREG\_CONFIG、EEREG\_EMEDITORPLUGIN または EEREG\_EMEDITORUSERS が選択�
 
 _pszValue_
 
-設定する値の名前を指定します。このパラメータが NULL で dwType パラーメータが REG\_SZ なら、dwKey パラメータと pszConfig パラメータで指定されたすべてのエントリを含むキーは削除されます。
+設定する値の名前を指定します。このパラメーターが NULL で dwType パラメーターが REG\_SZ なら、dwKey パラメーターと pszConfig パラメーターで指定されたすべてのエントリを含むキーは削除されます。
 
 _dwType_
 
-以下の値のいずれかを選択し、lpData パラメータのデータの種類を指定します。
+以下の値のいずれかを選択し、lpData パラメーターのデータの種類を指定します。
 
 |     |     |
 | --- | --- |
@@ -45,15 +45,15 @@ _dwType_
 
 _lpData_
 
-保存するデータを指定します。REG\_SZ の種類では、ヌル文字で終了する必要があります。このパラメータが NULL の場合、pszValue パラメータで示された値は削除されます。
+保存するデータを指定します。REG\_SZ の種類では、ヌル文字で終了する必要があります。このパラメーターが NULL の場合、pszValue パラメーターで示された値は削除されます。
 
 _cbData_
 
-lpData パラメータで示された情報のサイズをバイト数で指定します。データが REG\_SZ の種類の場合、cbData は終端ヌル文字を含めたサイズを指定する必要があります。
+lpData パラメーターで示された情報のサイズをバイト数で指定します。データが REG\_SZ の種類の場合、cbData は終端ヌル文字を含めたサイズを指定する必要があります。
 
 _dwFlags_
 
-バイナリ データが可変サイズの場合、このパラメータには EE\_REG\_VARIABLE\_SIZE を指定します。それ以外の場合、0 を指定する必要があります。
+バイナリ データが可変サイズの場合、このパラメーターには EE\_REG\_VARIABLE\_SIZE を指定します。それ以外の場合、0 を指定する必要があります。
 
 ## 戻り値
 

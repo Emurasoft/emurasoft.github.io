@@ -16,7 +16,7 @@ scrollBy( dx, dy );
 scrollBy dx, dy
 ```
 
-## パラメータ
+## パラメーター
 
 _dx_
 

@@ -8,11 +8,11 @@ wParam = (WPARAM) (REARRANGE_COLULMNS_INFO*)pInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[REARRANGE\_COLUMNS\_INFO 構造体](../structure/rearrange_columns_info) へのポインタを指定します。
+[REARRANGE\_COLUMNS\_INFO 構造体](../structure/rearrange_columns_info) へのポインターを指定します。
 
 ## 戻り値
 

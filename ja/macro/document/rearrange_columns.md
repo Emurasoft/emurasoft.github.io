@@ -16,7 +16,7 @@ document.RearrangeColumns( strColumns );
 document.RearrangeColumns strColumns
 ```
 
-## パラメータ
+## パラメーター
 
 _strColumns_
 

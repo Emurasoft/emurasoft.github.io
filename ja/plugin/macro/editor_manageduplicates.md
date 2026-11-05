@@ -4,7 +4,7 @@
 
 Editor\_ManageDuplicates( HWND hwnd, UINT nFlags, int nNumOfColumns, int\* anColumns, INT\_PTR\* pnFound, int nNumOfColumnsToCombine = 0, int\* anColumnsToCombine = NULL, LPCWSTR pszInsert = NULL, UINT nCombineFlags = 0, LPCWSTR pszLocale = NULL );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -28,11 +28,11 @@ _nFlags_
 
 _nNumOfColumns_
 
-_anColumns_ パラメータに指定されているカラムの数を指定します。これが 0 だと行全体が指定されることになります。
+_anColumns_ パラメーターに指定されているカラムの数を指定します。これが 0 だと行全体が指定されることになります。
 
 _anColumns_
 
-重複行を調べる列の 0 を基底とするインデックスの配列を指定します。 _nNumOfColumns_ パラメータが 0 の場合 NULL を指定することができます。
+重複行を調べる列の 0 を基底とするインデックスの配列を指定します。 _nNumOfColumns_ パラメーターが 0 の場合 NULL を指定することができます。
 
 _pnFound_
 

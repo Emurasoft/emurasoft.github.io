@@ -9,7 +9,7 @@ wParam = (WPARAM) nFlags;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _nFlags_
 

@@ -4,7 +4,7 @@
 
 Editor\_LogicalToView( HWND hwnd, POINT\_PTR\* pptLogical, POINT\_PTR\* pptView );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -12,11 +12,11 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pptLogical_
 
-論理座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+論理座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 _pptView_
 
-表示座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+表示座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 ## 戻り値
 

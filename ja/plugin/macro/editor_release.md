@@ -4,7 +4,7 @@
 
 Editor\_Release( HWND hwnd, HINSTANCE hInstance );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

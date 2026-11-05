@@ -16,7 +16,7 @@ item = list.Item( Index );
 item = list.Item( Index )
 ```
 
-## パラメータ
+## パラメーター
 
 _Index_
 
@@ -37,7 +37,7 @@ _Index_
 | eeColorDoubleQuotes | 2重引用符で囲まれた文字列 "..." |
 | eeColorComment | コメント |
 | eeColorScript | スクリプト |
-| eeColorBraces | 対応するかっこ |
+| eeColorBraces | 対応する括弧 |
 | eeColorInsideTag | HTML/XMLタグ |
 | eeColorHighlight1 | 強調文字列(1) |
 | eeColorHighlight2 | 強調文字列(2) |

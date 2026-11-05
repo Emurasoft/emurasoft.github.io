@@ -9,7 +9,7 @@ wParam = (WPARAM) (UINT_PTR) iSel;
 lParam = (LPARAM) (const SEL_INFO*) pSelInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _iSel_
 
@@ -17,7 +17,7 @@ _iSel_
 
 _pSelInfo_
 
-[SEL\_INFO 構造体](../structure/sel_info) へのポインタを指定します。
+[SEL\_INFO 構造体](../structure/sel_info) へのポインターを指定します。
 
 ## 戻り値
 

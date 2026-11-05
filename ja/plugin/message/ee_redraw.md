@@ -8,7 +8,7 @@ wParam = (WPARAM)bRedraw;
 lParam = (LPARAM)0;
 ```
 
-## パラメータ
+## パラメーター
 
 _bRedraw_
 

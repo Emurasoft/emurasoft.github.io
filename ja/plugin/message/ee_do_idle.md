@@ -9,7 +9,7 @@ wParam = (WPARAM) (BOOL) bResetTab;
 lParam = (LPARAM) 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _bResetTab_
 

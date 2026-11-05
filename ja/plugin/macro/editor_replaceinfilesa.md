@@ -5,7 +5,7 @@
 
 Editor\_ReplaceInFilesA( HWND hwnd, GREP\_INFOA pGrepInfo );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -13,7 +13,7 @@ EmEditor ビューまたはフレームのウィンドウハンドルを指定�
 
 _pGrepInfo_
 
-[GREP\_INFOA 構造体](../structure/grep_infoa) へのポインタを指定します。
+[GREP\_INFOA 構造体](../structure/grep_infoa) へのポインターを指定します。
 
 ## 戻り値
 

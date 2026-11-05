@@ -8,11 +8,11 @@ wParam = 0;
 lParam = (LPCTSTR) (LPCTSTR) pCustomBarInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pCustomBarInfo_
 
-[CUSTOM\_BAR\_INFO 構造体](../structure/custom_bar_info) へのポインタを指定します。
+[CUSTOM\_BAR\_INFO 構造体](../structure/custom_bar_info) へのポインターを指定します。
 
 ## 戻り値
 

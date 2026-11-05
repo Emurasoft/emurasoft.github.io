@@ -16,11 +16,11 @@ document.Unpivot( strSelect, strAttrLabel, strValueLabel, nFooter );
 document.Unpivot strSelect, strAttrLabel, strValueLabel, nFooter
 ```
 
-## パラメータ
+## パラメーター
 
 _strSelect_
 
-ピボット解除する列を選択する文字列を指定します。例: "2-5"、"3-"、"1,3,5"。このパラメータが空または省略した場合には、"2-" が指定されたとみなされます。
+ピボット解除する列を選択する文字列を指定します。例: "2-5"、"3-"、"1,3,5"。このパラメーターが空または省略した場合には、"2-" が指定されたとみなされます。
 
 _strAttrLabel_
 

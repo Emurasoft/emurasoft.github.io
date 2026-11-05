@@ -4,7 +4,7 @@
 
 Editor\_RemoveClip( HWND hwnd, UINT iPos, UINT nFlags );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

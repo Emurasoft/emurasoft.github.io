@@ -16,7 +16,7 @@ wnd.SetPosition( x, y, width, height );
 wnd.SetPosition x, y, width, height
 ```
 
-## パラメータ
+## パラメーター
 
 _x_
 

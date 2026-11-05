@@ -4,11 +4,11 @@ Retrieves the active string. このインライン関数を使うか、または
 
 Editor\_GetActiveString(... );
 
-## パラメータ
+## パラメーター
 
 _..._
 
-[ACTIVE\_STRING\_INFO 構造体](../structure/active_string_info) へポインタします。
+[ACTIVE\_STRING\_INFO 構造体](../structure/active_string_info) へポインターします。
 
 ## 戻り値
 

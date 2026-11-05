@@ -1,6 +1,6 @@
-# よく使われるキーボード ショートカット
+# よく使われるショートカット キー
 
-このページでは、便利だと思われるキーボード ショートカットやリソースをリストしています。また、[すべてのキーボード ショートカット](all_keyboard_shortcuts)のリストもあります。
+このページでは、便利だと思われるショートカット キーやリソースをリストしています。また、[すべてのショートカット キー](all_keyboard_shortcuts)のリストもあります。
 
 ## カーソル移動
 コマンド | ショートカットキー
@@ -10,8 +10,8 @@
 1単語右へ|Ctrl+Right
 1単語左へ|Ctrl+Left
 対応するタグへ|Ctrl+.
-対応するかっこへ|Ctrl+]
-選択範囲を対応するかっこへ|Ctrl+Shift+]
+対応する括弧へ|Ctrl+]
+選択範囲を対応する括弧へ|Ctrl+Shift+]
 [ジャンプ](https://jp.emeditor.com/text-editor-features/more-features/jump/)|Ctrl+G
 1行下へ移動|Ctrl+Shift+Down
 1行上へ移動|Ctrl+Shift+Up
@@ -74,7 +74,7 @@
 HTML/XML タグで囲む（マクロ）|Ctrl+Shift+,
 定義へ移動（マクロ）|F12
 ブラウズ コンテキストのポップ（マクロ）|Ctrl+Num *
-パラメータ情報（マクロ）|Ctrl+Shift+Space
+パラメーター情報（マクロ）|Ctrl+Shift+Space
 
 ## Others
 

@@ -9,11 +9,11 @@ wParam = (WPARAM) (JOIN_INFO*) pJoinInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pJoinInfo_
 
-[JOIN\_INFO 構造体](../structure/join_info) へのポインタを指定します。
+[JOIN\_INFO 構造体](../structure/join_info) へのポインターを指定します。
 
 ## 戻り値
 

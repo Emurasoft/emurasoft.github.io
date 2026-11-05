@@ -9,15 +9,15 @@ wParam = (WPARAM)(UNICODE_NAME_INFO*)pUNI;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pUNI_
 
-[UNICODE\_NAME\_INFO 構造体](../structure/unicode_name_info) へのポインタを指定します。
+[UNICODE\_NAME\_INFO 構造体](../structure/unicode_name_info) へのポインターを指定します。
 
 ## 戻り値
 
-UNICODE\_NAME\_INFO 構造体の _cchBuf_ に 0 を指定した場合、バッファに必要なサイズを文字単位で返します。
+UNICODE\_NAME\_INFO 構造体の _cchBuf_ に 0 を指定した場合、バッファーに必要なサイズを文字単位で返します。
 
 ## バージョン
 

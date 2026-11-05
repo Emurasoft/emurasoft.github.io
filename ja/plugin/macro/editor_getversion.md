@@ -6,7 +6,7 @@ Editor\_GetVersion( HWND hwnd );
 
 Editor\_GetVersionEx( HWND hwnd, int\* pnProductType );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -14,7 +14,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pnProductType_
 
-製品タイプを取得する int 変数へのポインタを指定します。次のうちいずれかの値になります。
+製品タイプを取得する int 変数へのポインターを指定します。次のうちいずれかの値になります。
 
 |     |     |
 | --- | --- |

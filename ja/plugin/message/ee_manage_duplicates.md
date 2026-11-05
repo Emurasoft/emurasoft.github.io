@@ -9,11 +9,11 @@ wParam = 0;
 lParam = (LPARAM) (MANAGE_DUPLICATES_INFO*) pManageDuplicatesInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pManageDuplicatesInfo_
 
-[MANAGE\_DUPLICATES\_INFO 構造体](../structure/manage_duplicates_info) へのポインタを指定します。
+[MANAGE\_DUPLICATES\_INFO 構造体](../structure/manage_duplicates_info) へのポインターを指定します。
 
 ## 戻り値
 

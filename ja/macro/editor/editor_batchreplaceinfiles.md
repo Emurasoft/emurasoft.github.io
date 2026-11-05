@@ -16,7 +16,7 @@ nFound = editor.ReplaceInFiles( filters, strPath, nFlags, [ nEncoding, [ strFil
 nFound = editor.ReplaceInFiles( filters, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ strBackupPath, [ nExFlags, [ nLimit ] ] ] ] ] )
 ```
 
-## パラメータ
+## パラメーター
 
 _filters_
 
@@ -32,8 +32,8 @@ _nFlags_
 
 |     |     |
 | --- | --- |
-| eeFindRecursive | サブフォルダも検索します。 |
-| eeFindReplaceIgnoreFiles | _strFilesToIgnore_ で指定する名前のファイルまたはフォルダを無視します。 |
+| eeFindRecursive | サブフォルダーも検索します。 |
+| eeFindReplaceIgnoreFiles | _strFilesToIgnore_ で指定する名前のファイルまたはフォルダーを無視します。 |
 | eeReplaceKeepOpen | 変更したファイルを開いたままにします。eeReplaceBackup と組み合わせて指定できません。 |
 | eeReplaceBackup | バックアップを保存します。eeReplaceKeepOpen と組み合わせて指定できません。 |
 | eeOpenDetectUnicode | Unicode サイン (BOM) を検出します。 |
@@ -49,12 +49,12 @@ Windows で使用されるエンコードを指定します。0 を指定する�
 _strFilesToIgnore_
 
 _nFlags_ に eeFindReplaceIgnoreFiles
-を指定した場合、無視するファイルまたはフォルダの名前を指定します。ここには、\\* または ? のワイルド
+を指定した場合、無視するファイルまたはフォルダーの名前を指定します。ここには、\\* または ? のワイルド
 カードを含めて指定することができます。複数のファイルを指定する場合は、; で区切ります。
 
 _strBackupPath_
 
-_nFlags_ に eeReplaceBackup を指定した場合、バックアップ先フォルダを指定します。
+_nFlags_ に eeReplaceBackup を指定した場合、バックアップ先フォルダーを指定します。
 
 _nExFlags_
 
@@ -79,7 +79,7 @@ _nLimit_
 
 _nFlags_ に eeReplaceKeepOpen を指定しない場合、この操作は元に戻すことはできません。その場合、 _nFlags_
 に eeReplaceBackup
-を指定して、バックアップを保存することをおすすめします。バックアップ先フォルダに同じファイル名が存在する場合、以前のファイル上に上書き保存されます。
+を指定して、バックアップを保存することをおすすめします。バックアップ先フォルダーに同じファイル名が存在する場合、以前のファイル上に上書き保存されます。
 
 ## バージョン
 

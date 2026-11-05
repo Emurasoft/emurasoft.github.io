@@ -5,7 +5,7 @@ Unicode文字列で指定する設定を読み直します。このインライ�
 
 Editor\_LoadConfigW( HWND hwnd, LPCWSTR szConfigName );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

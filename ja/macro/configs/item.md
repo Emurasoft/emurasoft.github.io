@@ -16,7 +16,7 @@ cfg = editor.Configs.Item( Index );
 cfg = editor.Configs.Item( Index )
 ```
 
-## パラメータ
+## パラメーター
 
 _Index_
 

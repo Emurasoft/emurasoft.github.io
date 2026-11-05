@@ -5,7 +5,7 @@ Unicode文字列を検索します。このインライン関数を使うか、�
 
 Editor\_FindW( HWND hwnd, UINT nFlags, LPCWSTR szFind );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

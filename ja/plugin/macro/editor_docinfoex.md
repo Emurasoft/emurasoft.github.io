@@ -5,7 +5,7 @@
 
 Editor\_DocInfoEx( HWND hwnd, HEEDOC hDoc, UINT nCmd, LPARAM lParam );
 
-## パラメータ
+## パラメーター
 
 _nCmd_
 

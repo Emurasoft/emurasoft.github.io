@@ -49,5 +49,5 @@ _iSel_
 
 ## バージョン
 
-EmEditor Professional Version 4.00 以上で利用できます。ただし、 _bExtend_ パラメータは
+EmEditor Professional Version 4.00 以上で利用できます。ただし、 _bExtend_ パラメーターは
 Version 4.03 以上で追加されました。

@@ -5,7 +5,7 @@
 
 Editor\_DocSaveFileA( HWND hwnd, int iDoc, BOOL bReplace, LPSTR szFileName );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

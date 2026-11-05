@@ -8,15 +8,15 @@ wParam = (WPARAM)(INFO_EX_DATA*)pInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[INFO\_EX\_DATA 構造体](../structure/info_ex_data) へのポインタを指定します。
+[INFO\_EX\_DATA 構造体](../structure/info_ex_data) へのポインターを指定します。
 
 ## 戻り値
 
-指定するパラメータに依存します。
+指定するパラメーターに依存します。
 
 ## バージョン
 

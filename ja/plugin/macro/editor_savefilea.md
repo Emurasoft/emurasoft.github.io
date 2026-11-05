@@ -5,7 +5,7 @@
 
 Editor\_SaveFileA( HWND hwnd, BOOL bReplace, LPSTR szFileName );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

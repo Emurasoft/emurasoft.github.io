@@ -18,7 +18,7 @@ editor.OpenFile( strFileName, [ nEncoding, [ nFlags
 editor.OpenFile strFileName, [ nEncoding, [ nFlags ] ]
 ```
 
-## パラメータ
+## パラメーター
 
 _strFileName_
 

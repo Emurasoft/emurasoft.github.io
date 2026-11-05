@@ -4,7 +4,7 @@
 
 Editor\_SerialToLogical( HWND hwnd, UINT nSerial, POINT\_PTR\* pptLogical );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -16,7 +16,7 @@ _nSerial_
 
 _pptLogical_
 
-論理座標を格納するための [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+論理座標を格納するための [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 ## 戻り値
 

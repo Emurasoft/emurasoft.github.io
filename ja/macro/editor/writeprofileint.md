@@ -16,11 +16,11 @@ editor.WriteProfileInt( nKey, strConfig, strEntry, nData );
 editor.WriteProfileInt nKey, strConfig, strEntry, nData
 ```
 
-## パラメータ
+## パラメーター
 
 _nKey_
 
-以下の値のいずれかを指定して、キーを指定します。eeRegConfig および eeRegEmEditorPlugin には pszConfig パラメータが必要です。
+以下の値のいずれかを指定して、キーを指定します。eeRegConfig および eeRegEmEditorPlugin には pszConfig パラメーターが必要です。
 
 |     |     |
 | --- | --- |

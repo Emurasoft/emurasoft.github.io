@@ -4,7 +4,7 @@
 
 Editor\_RunMacro( HWND _hwnd_, UINT _nFlags_, UINT _nDefMacroLang_, LPCWSTR _pszMacroFile_, LPCWSTR _pszText_, const POINT\_PTR\* _pptOrgPos_, POINT\_PTR\* _pptCodePos_, POINT\_PTR\* _pptErrorPos_, HGLOBAL\* _phstrResult_ );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -16,8 +16,8 @@ _nFlags_
 
 |     |     |
 | --- | --- |
-| RUN\_FILE | pszMacroFile パラメータは有効です。 |
-| RUN\_TEXT | pszText パラメータは有効です。 |
+| RUN\_FILE | pszMacroFile パラメーターは有効です。 |
+| RUN\_TEXT | pszText パラメーターは有効です。 |
 
 _nDefMacroLang_
 
@@ -63,7 +63,7 @@ _phstrResult_
 | --- | --- |
 | S\_OK | 成功。 |
 | S\_FALSE | 構文エラーが起こったようなマクロ エラーです。 |
-| S\_EDIT\_TEMP | マクロ エラーが起こりました。しかし、ソース コードがテキスト ファイルではないため、編集するためにソース コードを開くことができませんでした。発信者は ptErrorPos パラメータが提供している情報を参照し、カーソル位置の設定と同時にソース ファイルを開いてください。 |
+| S\_EDIT\_TEMP | マクロ エラーが起こりました。しかし、ソース コードがテキスト ファイルではないため、編集するためにソース コードを開くことができませんでした。発信者は ptErrorPos パラメーターが提供している情報を参照し、カーソル位置の設定と同時にソース ファイルを開いてください。 |
 | E\_FAIL | 致命的なエラーが起こりました。 |
 
 ## バージョン

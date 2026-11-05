@@ -4,7 +4,7 @@
 
 Editor\_ActivateTemp( HWND hwnd, UINT nEditID, const POINT\_PTR\* pptInitialCaret = NULL );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

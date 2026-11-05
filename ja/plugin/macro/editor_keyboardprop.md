@@ -5,7 +5,7 @@
 
 Editor\_KeyboardProp( HWND hwnd, UINT nCmdID, LPCWSTR pszConfigName );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

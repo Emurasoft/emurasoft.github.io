@@ -5,7 +5,7 @@
 
 Editor\_DocSetConfigA( HWND hwnd, int iDoc, LPCSTR szConfigName );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

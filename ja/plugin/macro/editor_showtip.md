@@ -4,7 +4,7 @@
 
 Editor\_ShowTip( HWND hwnd, TIP\_INFO\* pTipInfo );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -12,7 +12,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pFilterInfo_
 
-[TIP\_INFO 構造体](../structure/tip_info) へのポインタを指定します。
+[TIP\_INFO 構造体](../structure/tip_info) へのポインターを指定します。
 
 ## 戻り値
 

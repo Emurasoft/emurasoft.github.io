@@ -5,7 +5,7 @@
 
 Editor\_QueryStatus( HWND hwnd, UINT nCmdID, BOOL\* pbChecked );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

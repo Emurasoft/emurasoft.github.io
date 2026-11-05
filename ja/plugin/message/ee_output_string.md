@@ -9,7 +9,7 @@ wParam = nFlags;
 lParam = (LPARAM) (LPCWSTR) szString;
 ```
 
-## パラメータ
+## パラメーター
 
 _nFlags_
 

@@ -16,7 +16,7 @@ document.ExtractColumns( strColumns );
 document.ExtractColumns strColumns
 ```
 
-## パラメータ
+## パラメーター
 
 _strColumns_
 

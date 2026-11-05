@@ -9,11 +9,11 @@ wParam = (WPARAM)0;
 lParam = (LPARAM)(SET_COLUMN_INFO*) pColumnStruct;
 ```
 
-## パラメータ
+## パラメーター
 
 _pColumnStruct_
 
-[COLUMN\_STRUCT](../structure/column_struct) 構造体へのポインタを指定します。
+[COLUMN\_STRUCT](../structure/column_struct) 構造体へのポインターを指定します。
 
 ## 戻り値
 

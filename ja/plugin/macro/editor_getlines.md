@@ -4,7 +4,7 @@
 
 Editor\_GetLines( HWND hwnd, int nLogical );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

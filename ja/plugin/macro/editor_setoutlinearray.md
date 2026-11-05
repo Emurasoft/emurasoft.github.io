@@ -5,7 +5,7 @@
 
 Editor\_SetOutlineArray( HWND hwnd, INT\_PTR nStartLine, INT\_PTR nCount, BYTE\* pLevelData );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

@@ -8,7 +8,7 @@ wParam = (WPARAM) (BOOL) bNeedAlways;
 lParam = (LPARAM)0;
 ```
 
-## パラメータ
+## パラメーター
 
 _bNeedAlways_
 

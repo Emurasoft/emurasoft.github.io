@@ -16,7 +16,7 @@ sData = clipboardData.getData( sDataFormat, [ iPos ] );
 sData = clipboardData.getData( sDataFormat, [ iPos ] )
 ```
 
-## パラメータ
+## パラメーター
 
 _sDataFormat_
 

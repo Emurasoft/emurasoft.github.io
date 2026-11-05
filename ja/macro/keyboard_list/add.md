@@ -16,7 +16,7 @@ list.Add( nKey, nFlags, nCommand );
 list.Add nKey, nFlags, nCommand
 ```
 
-## パラメータ
+## パラメーター
 
 _nKey_
 

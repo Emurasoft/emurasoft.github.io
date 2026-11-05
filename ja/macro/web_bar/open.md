@@ -16,7 +16,7 @@ WebBar.Open( sURL );
 WebBar.Open sURL
 ```
 
-## パラメータ
+## パラメーター
 
 _sURL_
 

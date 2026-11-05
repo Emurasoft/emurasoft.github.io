@@ -5,7 +5,7 @@
 
 Editor\_OutputString( HWND hwnd, LPCWSTR szString, UINT nFlags );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

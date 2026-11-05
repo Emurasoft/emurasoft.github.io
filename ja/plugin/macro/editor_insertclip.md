@@ -4,7 +4,7 @@
 
 Editor\_InsertClip( HWND hwnd, LPCWSTR pszText, UINT iPos, UINT nFlags );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

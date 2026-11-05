@@ -4,7 +4,7 @@
 
 nLen = Editor_GetSelLength( HWND hwnd, size_t nMaxLen = 0 );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

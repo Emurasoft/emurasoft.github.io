@@ -16,7 +16,7 @@ document.MoveColumn( iColumn, iColumn2, iColumnTo [ , nFlags ] );
 document.MoveColumn iColumn, iColumn2, iColumnTo [ , nFlags ]
 ```
 
-## パラメータ
+## パラメーター
 
 _iColumn1_
 

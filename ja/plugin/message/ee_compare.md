@@ -9,11 +9,11 @@ wParam = (WPARAM) (COMPARE_INFO*) pCompareInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pCompareInfo_
 
-[COMPARE\_INFO 構造体](../structure/compare_info) へのポインタを指定します。
+[COMPARE\_INFO 構造体](../structure/compare_info) へのポインターを指定します。
 
 ## 戻り値
 

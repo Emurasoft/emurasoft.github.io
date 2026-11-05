@@ -5,7 +5,7 @@
 
 HRESULT Editor\_Numbering( HWND hwnd, LPCWSTR pszFirst, LPCWSTR pszInc, INT64 nMaxLines, UINT nFlags );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

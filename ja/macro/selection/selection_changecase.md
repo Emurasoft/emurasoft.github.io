@@ -16,7 +16,7 @@ document.selection.ChangeCase( nFlags );
 document.selection.ChangeCase nFlags
 ```
 
-## パラメータ
+## パラメーター
 
 _nFlags_
 

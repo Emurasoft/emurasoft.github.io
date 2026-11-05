@@ -16,7 +16,7 @@ clipboardData.clearData( [ sDataFormat, [ iPos ] ] );
 clipboardData.clearData [ sDataFormat, [ iPos ] ]
 ```
 
-## パラメータ
+## パラメーター
 
 _sDataFormat_
 

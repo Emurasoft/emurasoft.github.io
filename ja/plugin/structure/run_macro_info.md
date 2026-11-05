@@ -36,8 +36,8 @@ _nFlags_
 
 |     |     |
 | --- | --- |
-| RUN\_FILE | pszMacroFile パラメータは有効です。 |
-| RUN\_TEXT | pszText パラメータは有効です。 |
+| RUN\_FILE | pszMacroFile パラメーターは有効です。 |
+| RUN\_TEXT | pszText パラメーターは有効です。 |
 
 _nDefMacroLang_
 

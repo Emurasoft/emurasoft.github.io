@@ -51,7 +51,7 @@ _nExFlags_
 | eeExFindBOL | 正規表現「^」が選択の最初に一致することができます。 |
 | eeExFindCountFrequency | 抽出の結果より頻出文字列の表を作成します。eeFindExtract と、eeFindLineOnly または eeFindMatchedOnly と組み合わせて使用します。ウィンドウのタブが有効である必要があります。 |
 | eeExFindEOL | 正規表現「$」が選択の最後に一致することができます。 |
-| eeExFindInsertColumn | 置換表現によって新しい CSV 列を作成し、元の列は変更されません。nFlags パラメータに eeFindReplaceRegExp が指定されていない場合、置換表現は空である必要があり、新しい列は一致した文字列を変更なしに埋められます。新しい列は元の列の右側に挿入されます。eeFindExtract と共に指定する必要があります。 |
+| eeExFindInsertColumn | 置換表現によって新しい CSV 列を作成し、元の列は変更されません。nFlags パラメーターに eeFindReplaceRegExp が指定されていない場合、置換表現は空である必要があり、新しい列は一致した文字列を変更なしに埋められます。新しい列は元の列の右側に挿入されます。eeFindExtract と共に指定する必要があります。 |
 | eeExFindLookaround | 選択範囲のみの正規表現を使用する検索で周辺を見ます。 |
 | eeExFindMulti | すべて一括置換を実行します。これが指定されていないと、すべて連続置換を実行します。 [\[すべて連続置換\] と \[すべて一括置換\] の違い](../../howto/search/batch_vs_bulk) をお読みください。 |
 | eeExFindRegexBoost | 正規表現エンジンとして Boost.Regex を使用します。 |

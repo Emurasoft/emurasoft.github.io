@@ -9,11 +9,11 @@ wParam = (WPARAM) 0;
 lParam = (LPARAM) (OUTLINE_ARRAY_INFO*) pOutlineArrayInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pOutlineArrayInfo_
 
-[OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) 構造体へのポインタを指定します。
+[OUTLINE\_ARRAY\_INFO](../structure/outline_array_info) 構造体へのポインターを指定します。
 
 ## 戻り値
 

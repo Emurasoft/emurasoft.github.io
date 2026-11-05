@@ -9,11 +9,11 @@ wParam = 0;
 lParam = (LPARAM) (TEMP_INFO) pTI;
 ```
 
-## パラメータ
+## パラメーター
 
 _pTI_
 
-[TEMP\_INFO](../structure/temp_info) 構造体へのポインタを指定します。
+[TEMP\_INFO](../structure/temp_info) 構造体へのポインターを指定します。
 
 ## 戻り値
 

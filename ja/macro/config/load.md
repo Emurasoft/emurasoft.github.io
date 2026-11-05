@@ -16,7 +16,7 @@ object.Load( [ strName ] );
 object.Load [ strName ]
 ```
 
-## パラメータ
+## パラメーター
 
 _strName_
 

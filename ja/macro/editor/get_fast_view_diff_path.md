@@ -16,7 +16,7 @@ strDiffPath = editor.GetFastViewDiffPath( strFile );
 strDiffPath = editor.GetFastViewDiffPath( strFile )
 ```
 
-## パラメータ
+## パラメーター
 
 _strFile_
 

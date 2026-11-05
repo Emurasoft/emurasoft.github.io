@@ -10,11 +10,11 @@ wParam = (WPARAM) (LPTSTR) pszUninstallCommand;
 
 lParam = (LPARAM) (LPTSTR) pszUninstallParam;
 
-## パラメータ
+## パラメーター
 
 _hwndParent_
 
-プラグインの設定ダイアログのウィンドウ ハンドルが格納されています。
+プラグインの設定ダイアログ ボックスのウィンドウ ハンドルが格納されています。
 
 _pszUninstallCommand_
 
@@ -22,7 +22,7 @@ _pszUninstallCommand_
 
 _pszUninstallParam_
 
-戻り値に UNINSTALL\_RUN\_COMMAND を指定する場合、実行するファイルのパラメータを指定します。
+戻り値に UNINSTALL\_RUN\_COMMAND を指定する場合、実行するファイルのパラメーターを指定します。
 
 ## 戻り値
 
@@ -38,4 +38,4 @@ TRUE を返すとアンインストールを実行します、FALSE を返すと
 
 ## バージョン
 
-Version 3.00 以上で利用できます。ただし、戻り値の UNINSTALL\_RUN\_COMMAND と、pszUninstallCommand パラメータと pszUninstallParam パラメータは、Version 6.00 以上で利用できます。
+Version 3.00 以上で利用できます。ただし、戻り値の UNINSTALL\_RUN\_COMMAND と、pszUninstallCommand パラメーターと pszUninstallParam パラメーターは、Version 6.00 以上で利用できます。

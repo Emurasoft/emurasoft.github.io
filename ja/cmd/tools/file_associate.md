@@ -6,7 +6,7 @@
 
 ## 説明
 
-[\[EmEditorと関連付け\] ダイアログ ボックス](../../dlg/file_associate/index) を表示して、EmEditor
+[\[EmEditor と関連付け\] ダイアログ ボックス](../../dlg/file_associate/index) を表示して、EmEditor
 に関連付ける拡張子を設定できるようにします。
 
 ## 実行方法

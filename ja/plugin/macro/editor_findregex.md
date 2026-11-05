@@ -4,7 +4,7 @@
 
 Editor\_FindRegex( HWND hwnd, FIND\_REGEX\_INFO\_EX\* pFindRegexInfo );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -12,7 +12,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pFindRegexInfo_
 
-[FIND\_REGEX\_INFO\_EX 構造体](../structure/find_regex_info_ex)、または [FIND\_REGEX\_INFO 構造体](../structure/find_regex_info) へのポインタを指定します。
+[FIND\_REGEX\_INFO\_EX 構造体](../structure/find_regex_info_ex)、または [FIND\_REGEX\_INFO 構造体](../structure/find_regex_info) へのポインターを指定します。
 
 ## 戻り値
 

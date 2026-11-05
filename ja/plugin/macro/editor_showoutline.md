@@ -4,7 +4,7 @@
 
 Editor\_ShowOutline( HWND hwnd, WPARAM nFlags );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

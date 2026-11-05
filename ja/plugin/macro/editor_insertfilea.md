@@ -6,7 +6,7 @@
 Editor\_InsertFileA( HWND hwnd, LOAD\_FILE\_INFO\_EX\* pLoadFileInfoEx, LPCSTR
 szFileName );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -14,7 +14,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pLoadFileInfoEx_
 
-[LOAD\_FILE\_INFO\_EX 構造体](../structure/load_file_info) へのポインタを指定します。NULLを指定すると、プロパティで設定された既定値で開きます。
+[LOAD\_FILE\_INFO\_EX 構造体](../structure/load_file_info) へのポインターを指定します。NULLを指定すると、プロパティで設定された既定値で開きます。
 
 _szFileName_
 

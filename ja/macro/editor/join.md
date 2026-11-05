@@ -16,7 +16,7 @@ n = editor.Join( nFlags, strDocument1, strColumn1, strDocument2, strColumn2, str
 n = editor.Join( nFlags, strDocument1, strColumn1, strDocument2, strColumn2, strSelect )
 ```
 
-## パラメータ
+## パラメーター
 
 _nFlags_
 
@@ -29,7 +29,7 @@ _nFlags_
 | eeJoinIncludeAll1 | 第1文書のすべての行が出力に含まれます。第1文書にマッチしない行が存在する場合、出力文書には空のセルが含まれます。 |
 | eeJoinIncludeAll2 | 第2文書のすべての行が出力に含まれます。第2文書にマッチしない行が存在する場合、出力文書には空のセルが含まれます。 |
 | eeJoinMatchCase | 大文字と小文字を区別します。 |
-| eeJoinSimpleMerge | キーを使用しないで、単純に結合します。これを指定した場合、 _strColumn1_ と _StrColumn2_ パラメータは無視されます。 |
+| eeJoinSimpleMerge | キーを使用しないで、単純に結合します。これを指定した場合、 _strColumn1_ と _StrColumn2_ パラメーターは無視されます。 |
 | eeJoinIgnoreHeadings1 | 第1文書のヘディングを無視します。第1文書のヘディングは、結合された文書に残ります。 |
 | eeJoinIgnoreHeadings2 | 第2文書のヘディングを無視します。 |
 | eeJoinContain | Key1 は Key2 を含みます。 |

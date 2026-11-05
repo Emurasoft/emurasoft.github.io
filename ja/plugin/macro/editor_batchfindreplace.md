@@ -4,7 +4,7 @@
 
 HRESULT Editor\_BatchFindReplace( HWND hwnd, FIND\_REPLACE\_INFO\* pBatchArray, UINT nBatchCount, UINT64 nBatchFlags, UINT64\* pnTotalCount );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -12,11 +12,11 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pBatchArray_
 
-[FIND\_REPLACE\_INFO 構造体](../structure/find_replace_info) の配列へのポインタを指定します。
+[FIND\_REPLACE\_INFO 構造体](../structure/find_replace_info) の配列へのポインターを指定します。
 
 _nBatchCount_
 
-_pBatchArray_ パラメータで指定された FIND\_REPLACE\_INFO 構造体の数を指定します。
+_pBatchArray_ パラメーターで指定された FIND\_REPLACE\_INFO 構造体の数を指定します。
 
 _nBatchFlags_
 
@@ -49,7 +49,7 @@ _nBatchFlags_
 
 _pnTotalCount_
 
-\[out\] nBatchFlags が FLAG\_FIND\_COUNT, FLAG\_FIND\_BOOKMARK, FLAG\_FIND\_SELECT\_ALL, FLAG\_FIND\_EXTRACT または FLAG\_FIND\_FILTER を含んでいる場合、見つかった文字列の数を受け取る変数へのポインタを指定します。
+\[out\] nBatchFlags が FLAG\_FIND\_COUNT, FLAG\_FIND\_BOOKMARK, FLAG\_FIND\_SELECT\_ALL, FLAG\_FIND\_EXTRACT または FLAG\_FIND\_FILTER を含んでいる場合、見つかった文字列の数を受け取る変数へのポインターを指定します。
 
 ## 戻り値
 

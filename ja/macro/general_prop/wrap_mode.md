@@ -19,7 +19,7 @@ nMode = object.WrapMode
 object.WrapMode = nMode
 ```
 
-## パラメータ
+## パラメーター
 
 _nMode_
 

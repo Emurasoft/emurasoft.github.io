@@ -9,7 +9,7 @@ wParam = (WPARAM) (INT_PTR) nLogicalLine;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _nLogicalLine_
 

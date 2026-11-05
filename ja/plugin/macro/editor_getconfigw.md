@@ -5,7 +5,7 @@
 
 Editor\_GetConfigW( HWND hwnd, LPWSTR szConfigName );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -13,7 +13,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _szConfigName_
 
-設定の名前を取得するバッファを指定します。バッファは、ヌル文字 ('\\0') を含めて MAX\_CONFIG\_NAME の長さ(文字数)を確保します。
+設定の名前を取得するバッファーを指定します。バッファーは、ヌル文字 ('\\0') を含めて MAX\_CONFIG\_NAME の長さ(文字数)を確保します。
 
 ## 戻り値
 

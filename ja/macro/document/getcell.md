@@ -16,7 +16,7 @@ str = document.GetCell( yLine, iColumn, flags );
 str = document.GetCell( yLine, iColumn, flags )
 ```
 
-## パラメータ
+## パラメーター
 
 _yLine_
 

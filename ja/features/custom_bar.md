@@ -7,7 +7,7 @@ orphan: true
 
 既定で、以下のプラグインがインストールされます。(\[単語数\] プラグインは、カスタム バーを使用しません。)
 
-- [\[エクスプローラ\] プラグイン](../howto/plugin/plugin_explorer)
+- [\[エクスプローラー\] プラグイン](../howto/plugin/plugin_explorer)
 - [\[開いている文書\] プラグイン](../howto/plugin/plugin_opendocuments)
 - [\[検索\] プラグイン](../howto/plugin/plugin_search)
 - [\[スニペット\] プラグイン](../howto/plugin/plugin_snippets)

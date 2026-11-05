@@ -4,7 +4,7 @@
 
 Editor\_Redraw( HWND hwnd, BOOL bRedraw );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

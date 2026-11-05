@@ -4,7 +4,7 @@
 
 Editor\_SetClipPos( HWND hwnd, int iPos );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

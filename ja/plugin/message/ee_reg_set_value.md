@@ -8,7 +8,7 @@ wParam = 0;
 (REG_SET_VALUE_INFO*)lParam = pRegSetValueInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pRegSetValueInfo_
 

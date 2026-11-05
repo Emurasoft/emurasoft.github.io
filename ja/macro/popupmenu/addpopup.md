@@ -16,7 +16,7 @@ popupmenu.AddPopup( strText, submenu );
 popupmenu.AddPopup strText, submenu
 ```
 
-## パラメータ
+## パラメーター
 
 _strText_
 

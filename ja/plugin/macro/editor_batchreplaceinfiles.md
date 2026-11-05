@@ -5,7 +5,7 @@
 
 Editor\_BatchReplaceInFiles( HWND hwnd, FIND\_REPLACE\_INFO\* pBatchArray, BATCH\_GREP\_INFO\* pGrepInfo );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -13,11 +13,11 @@ EmEditor ビューまたはフレームのウィンドウハンドルを指定�
 
 _pBatchArray_
 
-[FIND\_REPLACE\_INFO 構造体](../structure/find_replace_info) の配列へのポインタを指定します。
+[FIND\_REPLACE\_INFO 構造体](../structure/find_replace_info) の配列へのポインターを指定します。
 
 _pBatchGrepInfo_
 
-[BATCH\_GREP\_INFO 構造体へのポインタを指定します。](../structure/batch_grep_info)
+[BATCH\_GREP\_INFO 構造体へのポインターを指定します。](../structure/batch_grep_info)
 
 ## 戻り値
 

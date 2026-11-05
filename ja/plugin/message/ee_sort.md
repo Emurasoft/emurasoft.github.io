@@ -9,11 +9,11 @@ wParam = 0;
 lParam = (LPARAM) (SORT_INFO*) pSortInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pSortInfo_
 
-[SORT\_INFO 構造体](../structure/sort_info) へのポインタを指定します。
+[SORT\_INFO 構造体](../structure/sort_info) へのポインターを指定します。
 
 ## 戻り値
 

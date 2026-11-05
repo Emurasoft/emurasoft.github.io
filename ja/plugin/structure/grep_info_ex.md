@@ -56,9 +56,9 @@ _nFlags_
 | FLAG\_FIND\_COUNT\_FREQUENCY | 結果より頻出文字列の表を作成します。FLAG\_FIND\_OUTPUT\_DISPLAY と組み合わせて使用します。 |
 | FLAG\_FIND\_ESCAPE | 文字列をエスケープ シーケンスで指定します。FLAG\_FIND\_REG\_EXP と組み合わせて指定できません。 |
 | FLAG\_FIND\_FUZZY | あいまい一致を使用します。 |
-| FLAG\_FIND\_IGNORE\_FILES | pszFilesToIgnore で指定する名前のファイルまたはフォルダを無視します。 |
+| FLAG\_FIND\_IGNORE\_FILES | pszFilesToIgnore で指定する名前のファイルまたはフォルダーを無視します。 |
 | FLAG\_FIND\_ONLY\_WORD | 単語のみを検索します。 |
-| FLAG\_FIND\_RECURSIVE | サブフォルダも検索します。 |
+| FLAG\_FIND\_RECURSIVE | サブフォルダーも検索します。 |
 | FLAG\_FIND\_REG\_EXP | 文字列を正規表現で指定します。FLAG\_FIND\_ESCAPE と組み合わせて指定できません。 |
 | FLAG\_FIND\_REGEX\_BOOST | 正規表現エンジンとして Boost.Regex を使用します。 |
 | FLAG\_FIND\_REGEX\_ONIGMO | 正規表現エンジンとして Onigmo を使用し、Ruby 構文を使用します。 |
@@ -96,12 +96,12 @@ _pszPath_
 
 _pszBackupPath_
 
-ファイルから置換の場合で、 _nFlags_ に FLAG\_REPLACE\_BACKUP を指定した場合、バックアップ先フォルダを指定します。
+ファイルから置換の場合で、 _nFlags_ に FLAG\_REPLACE\_BACKUP を指定した場合、バックアップ先フォルダーを指定します。
 
 _pszFilesToIgnore_
 
 _nFlags_ に FLAG\_FIND\_IGNORE\_FILES
-を指定した場合、無視するファイルまたはフォルダの名前を指定します。ここには、\\* または ? のワイルド
+を指定した場合、無視するファイルまたはフォルダーの名前を指定します。ここには、\\* または ? のワイルド
 カードを含めて指定することができます。複数のファイルを指定する場合は、; で区切ります。
 
 _nLimit_

@@ -5,8 +5,8 @@
 |     |     |
 | --- | --- |
 | [**DrawSeparatingLines**](draw_separating_lines) | 設定のプロパティの [\[印刷\] ページ](../../dlg/properties/print/index) の \[区切り線を引く\] チェック ボックスに相当します。 |
-| [**Footer**](footer) | 設定のプロパティの [\[印刷\] ページ](../../dlg/properties/print/index) の \[フッタ\] テキスト ボックスに相当します。 |
-| [**Header**](header) | 設定のプロパティの [\[印刷\] ページ](../../dlg/properties/print/index) の \[ヘッダ\] テキスト ボックスに相当します。 |
+| [**Footer**](footer) | 設定のプロパティの [\[印刷\] ページ](../../dlg/properties/print/index) の \[フッター\] テキスト ボックスに相当します。 |
+| [**Header**](header) | 設定のプロパティの [\[印刷\] ページ](../../dlg/properties/print/index) の \[ヘッダー\] テキスト ボックスに相当します。 |
 | [**IgnoreColor**](ignore_color) | 設定のプロパティの [\[印刷\] ページ](../../dlg/properties/print/index) の \[色と下線を無効にする\] チェック ボックスに相当します。 |
 | [**LineSpace**](line_space) | 設定のプロパティの [\[印刷\] ページ](../../dlg/properties/print/index) の \[行間隔\] テキスト ボックスに相当します。 |
 | [**ShowLineNumbers**](show_line_numbers) | 設定のプロパティの [\[印刷\] ページ](../../dlg/properties/print/index) の \[行番号を印刷\] チェック ボックスに相当します。 |

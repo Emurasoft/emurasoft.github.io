@@ -16,7 +16,7 @@ popupmenu.Track( flags );
 popupmenu.Track flags
 ```
 
-## パラメータ
+## パラメーター
 
 _flags_
 
@@ -24,7 +24,7 @@ _flags_
 
 |     |     |
 | --- | --- |
-| eePosMouse | 現在のマウス ポインタの位置にポップアップ メニューを表示します。 |
+| eePosMouse | 現在のマウス ポインターの位置にポップアップ メニューを表示します。 |
 
 ## バージョン
 

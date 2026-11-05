@@ -9,7 +9,7 @@ wParam = (WPARAM) (UINT) nCmdID;
 lParam = (LPARAM) (BOOL*) pbChecked;
 ```
 
-## パラメータ
+## パラメーター
 
 _nCmdID_
 
@@ -17,7 +17,7 @@ _nCmdID_
 
 _pbChecked_
 
-チェックされた状態を示すBOOL値へのポインタを示します。
+チェックされた状態を示すBOOL値へのポインターを示します。
 
 ## 戻り値
 

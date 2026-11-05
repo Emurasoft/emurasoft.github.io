@@ -1,6 +1,6 @@
 # ValidateCsv メソッド (Document オブジェクト)
 
-CSV文書の正当性を確認してエラーを出力し、オプションにより区切り位置を調節します。
+CSV文書の正当性を確認してエラーを出力し、オプションによりセパレーター位置を調節します。
 
 ## 
 
@@ -16,7 +16,7 @@ nResults = document.ValidateCsv( nFlags );
 nResults = document.ValidateCsv( nFlags )
 ```
 
-## パラメータ
+## パラメーター
 
 _nFlags_
 
@@ -24,9 +24,9 @@ _nFlags_
 
 |     |     |
 | --- | --- |
-| eeValidateAdjustColumns | 区切り位置を調節します。 |
+| eeValidateAdjustColumns | セパレーター位置を調節します。 |
 | eeValidateAdjustEnlargeOnly | eeValidateAdjustColumns と組み合わせて指定することにより、列の幅を狭くすることはできませんが広くすることはできます。 |
-| eeValidateAdjustVisibleOnly | eeValidateAdjustColumns と組み合わせて指定することにより、表示されている行のみの区切り位置を調節します。 |
+| eeValidateAdjustVisibleOnly | eeValidateAdjustColumns と組み合わせて指定することにより、表示されている行のみのセパレーター位置を調節します。 |
 | eeValidateDetectNL | 改行コードを検出し2重引用符の内側で見つけた場合はセルの中に埋め込みます。このフラグは、定義されたCSVフォーマットが \[2重引用符の内の改行コードを許可\] オプションが有効な場合にのみ意味があります。 |
 | eeValidateDontClearOutput | 使用されません。 |
 | eeValidateQuiet | アウトプット バーに情報やエラーを表示しません。 |
@@ -39,7 +39,7 @@ _nFlags_
 |     |     |
 | --- | --- |
 | eeCsvAbort | 操作はユーザーにより中止されました。 |
-| eeCsvAdjusted | 区切り位置は調節されました。 |
+| eeCsvAdjusted | セパレーター位置は調節されました。 |
 | eeCsvInconsistentColumns | 一致しない列数を検出しました。 |
 | eeCsvInvalidQuotes | 不正な2重引用符を検出しました。 |
 | eeCsvNLEmbedded | 改行コードがセルに埋め込まれました。 |

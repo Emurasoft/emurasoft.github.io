@@ -8,15 +8,15 @@ wParam = (WPARAM) (BATCH_INFO*) pBatchInfo;
 lParam = (LPARAM) (FIND_REPLACE_INFO*) pFindReplaceInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pBatchInfo_
 
-[BATCH\_INFO 構造体](../structure/batch_info) へのポインタを指定します。連続検索を指定しない場合、このパラメータは NULL にすることができます。
+[BATCH\_INFO 構造体](../structure/batch_info) へのポインターを指定します。連続検索を指定しない場合、このパラメーターは NULL にすることができます。
 
 _pFindReplaceInfo_
 
-[FIND\_REPLACE\_INFO 構造体](../structure/find_replace_info) へのポインタを指定します。pBatchInfo が NULL でない場合、このパラメータは FIND\_REPLACE\_INFO 構造体の配列を指定します。
+[FIND\_REPLACE\_INFO 構造体](../structure/find_replace_info) へのポインターを指定します。pBatchInfo が NULL でない場合、このパラメーターは FIND\_REPLACE\_INFO 構造体の配列を指定します。
 
 ## 戻り値
 

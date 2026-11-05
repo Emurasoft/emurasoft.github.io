@@ -14,7 +14,7 @@
 | [**MoveCursorScroll**](move_cursor_scroll) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の \[スクロールでカーソルも移動\] チェック ボックスに相当します。 |
 | [**ShowOnlyActive**](show_only_active) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の \[アクティブ ペインの中だけバーを表示\] チェック ボックスに相当します。 |
 | [**Smooth**](smooth) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の \[スムーズ スクロール\] チェック ボックスに相当します。 |
-| [**SmoothSpeed**](smooth_speed) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の \[スムーズ スクロール\] スライダに相当します。 |
+| [**SmoothSpeed**](smooth_speed) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の \[スムーズ スクロール\] スライダーに相当します。 |
 | [**VerticalBar**](vertical_bar) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の \[垂直スクロール バー\] ドロップダウン リスト ボックスに相当します。 |
 | [**VerticalLine**](vertical_line) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の \[垂直罫線\] チェック ボックスに相当します。 |
 | [**VerticalPage**](vertical_page) | 設定のプロパティの [\[スクロール\] ページ](../../dlg/properties/scroll/index) の \[1頁の垂直スクロールを常に有効\] チェック ボックスに相当します。 |

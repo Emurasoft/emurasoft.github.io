@@ -16,7 +16,7 @@ list.AddString( sFind, sTreatAs );
 list.AddString sFind, sTreatAs
 ```
 
-## パラメータ
+## パラメーター
 
 _sFind_
 

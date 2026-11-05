@@ -8,7 +8,7 @@ wParam = nCustomBarID;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _nCustomBarID_
 

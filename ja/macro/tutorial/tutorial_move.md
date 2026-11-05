@@ -40,7 +40,7 @@ editor" の最初の t の文字の位置に来るはずです。
 | [EndOfLine](../selection/selection_endofline) | 現在行の最後に移動します。End キーに相当。 |
 | [StartOfDocument](../selection/selection_startofdocument) | カーソル位置を文書の最初に移動します。Ctrl + Home キーに相当。 |
 | [EndOfDocument](../selection/selection_endofdocument) | カーソル位置を文書の最後に移動します。Ctrl + End キーに相当。 |
-| [GoToBrace](../selection/selection_gotobrace) | 対応するかっこへ移動します。 |
+| [GoToBrace](../selection/selection_gotobrace) | 対応する括弧へ移動します。 |
 
 また、次のメソッドは、カーソル位置を指定した行、桁位置に移動します。
 |     |     |

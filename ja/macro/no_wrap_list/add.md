@@ -16,7 +16,7 @@ list.Add( sName, bEnabled );
 list.Add sName, bEnabled
 ```
 
-## パラメータ
+## パラメーター
 
 _sName_
 

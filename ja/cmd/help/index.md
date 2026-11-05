@@ -10,7 +10,7 @@
 | [オンライン ヘルプ](help_internet) | オンライン ヘルプを表示します。 |
 | [ローカル ヘルプ](help_local) | ローカル ヘルプを表示します。 |
 | [購入方法](help_regist) | 購入方法を表示します。 |
-| [EmEditorホームぺージを表示](web_home) | EmEditorホームページを表示します。 |
+| [EmEditorホームページを表示](web_home) | EmEditorホームページを表示します。 |
 | [更新のチェック](check_updates) | Emurasoft サーバーに接続して利用可能な新バージョンをチェックします。 |
 | [更新チェッカーのカスタマイズ](customize_update_checker) | 更新チェッカーをカスタマイズします。 |
 | [更新チャネルの選択](update_channel) | 更新チャネルを選択します。 |

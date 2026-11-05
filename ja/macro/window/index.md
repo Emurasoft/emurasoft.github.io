@@ -46,7 +46,7 @@
 | [CreatePopupMenu](createpopupmenu) | ポップアップ メニューを作成します。 |
 | [FindWindow](find_window) | クラス名と/またはウィンドウのタイトルで子 window オブジェクトを検索します。 |
 | [FindWindowByID](find_window_by_id) | ウィンドウの識別子で子ウィンドウ オブジェクトを見つけます。 |
-| [print](window_print) | 印刷ダイアログを表示します。 |
+| [print](window_print) | 印刷ダイアログ ボックスを表示します。 |
 | [prompt](window_prompt) | 文字列を入力するためのダイアログ ボックスを表示します。 |
 | [Quit](quit) | マクロの実行を停止します。 |
 | [scrollBy](window_scrollby) | スクロール バーを指定する差分だけ移動します。 |
@@ -54,7 +54,7 @@
 | [SetFocus](set_focus) | ウィンドウにキーボード フォーカスを設定します。 |
 | [SetForeground](set_foreground) | フォアグラウンドにウィンドウを持ってきます。 |
 | [SetPosition](set_position) | ウィンドウのサイズと位置を設定します。 |
-| [ShowTip](show_tip) | ツールチップを表示します。 |
+| [ShowTip](show_tip) | ツール チップを表示します。 |
 | [Sleep](window_sleep) | ミリ秒で指定する時間だけマクロの実行を停止します。 |
 
 ## バージョン

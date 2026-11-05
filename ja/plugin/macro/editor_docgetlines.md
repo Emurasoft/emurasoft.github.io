@@ -6,7 +6,7 @@ Editor\_DocGetLines( HWND hwnd, int iDoc, int nLogical );
 
 Editor\_GetLines( HWND hwnd, HEEDOC hDoc, int nLogical );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

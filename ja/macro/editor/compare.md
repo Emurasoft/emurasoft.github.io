@@ -16,7 +16,7 @@ n = editor.Compare( nFlags, strDocument1, strDocument2, strResultFileName );
 n = editor.Compare( nFlags, strDocument1, strDocument2, strResultFileName )
 ```
 
-## パラメータ
+## パラメーター
 
 _nFlags_
 
@@ -24,7 +24,7 @@ _nFlags_
 
 |     |     |
 | --- | --- |
-| eeCompareGenerateReport | レポート ファイルを作成します。ファイルのパスは strResultFileName パラメータに指定する必要があります。 |
+| eeCompareGenerateReport | レポート ファイルを作成します。ファイルのパスは strResultFileName パラメーターに指定する必要があります。 |
 | eeCompareOpenReport | レポート ファイルを開きます。eeCompareGenerateReport も指定する必要があります。 |
 | eeCompareQuality1 | 近くの行のみを検索する最も速い方法。 |
 | eeCompareQuality2 | より速い方法。 |
@@ -46,7 +46,7 @@ _nFlags_
 | eeCompareSyncScrollVert | 垂直スクロールを同期します。 |
 | eeCompareTileHorz | 文書を上下に並べます。 |
 | eeCompareTileVert | 文書を左右に並べます。 |
-| eeIgnoreCases | 大文字小文字の区別を無視します。 |
+| eeIgnoreCases | 大文字と小文字を区別しません。 |
 | eeIgnoreComments | コメントを無視します。 |
 | eeIgnoreEmbeddedSpaces | 行の中間に埋め込まれた空白を無視します。 |
 | eeIgnoreEncodings | エンコードの違いを無視します。 |
@@ -64,7 +64,7 @@ _strDocument2_
 
 _strResultFileName_
 
-nFlags パラメータに COMPARE\_GENERATE\_REPORT が指定されていると、EmEditor は比較のレポートを指定するファイル名で保存します。
+nFlags パラメーターに COMPARE\_GENERATE\_REPORT が指定されていると、EmEditor は比較のレポートを指定するファイル名で保存します。
 
 ## 戻り値
 

@@ -4,7 +4,7 @@
 
 Editor\_CustomBarOpen( HWND hwnd, CUSTOM\_BAR\_INFO\* pCustomBarInfo );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -12,7 +12,7 @@ EmEditor ビューまたはフレームのウィンドウハンドルを指定�
 
 _pCustomBarInfo_
 
-[CUSTOM\_BAR\_INFO 構造体](../structure/custom_bar_info) へのポインタを指定します。
+[CUSTOM\_BAR\_INFO 構造体](../structure/custom_bar_info) へのポインターを指定します。
 
 ## 戻り値
 

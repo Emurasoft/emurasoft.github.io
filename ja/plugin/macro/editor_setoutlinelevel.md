@@ -6,7 +6,7 @@
 Editor\_SetOutlineLevel( HWND hwnd, INT\_PTR nLogicalLine, int
 nLevel );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

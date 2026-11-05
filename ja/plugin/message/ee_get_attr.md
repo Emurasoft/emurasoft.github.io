@@ -8,11 +8,11 @@ wParam = 0;
 lParam = (LPARAM) (ATTR_INFO) pAI;
 ```
 
-## パラメータ
+## パラメーター
 
 _pAI_
 
-[ATTR\_INFO 構造体](../structure/attr_info) へのポインタを指定します。
+[ATTR\_INFO 構造体](../structure/attr_info) へのポインターを指定します。
 
 ## 戻り値
 

@@ -9,7 +9,7 @@ wParam = (WPARAM) MAKEWPARAM( nCmdID, bShortTitle );
 lParam = (LPARAM) (LPWSTR) psz;
 ```
 
-## パラメータ
+## パラメーター
 
 _nCmdID_
 
@@ -20,7 +20,7 @@ _nCmdID_
 | nID | コマンド名 | 戻り値 |
 | 4609 から 4609 + 63 まで | [最近使ったファイルの一覧](../../cmd/file/file_mru_file1) | ファイルのパスと名前 |
 | 4864 から 4864 + 63 まで | [最近使ったファイルの挿入用一覧](../../cmd/insert/file_mru_insert1) | ファイルのパスと名前 |
-| 4992 から 4992 + 63 まで | [最近使ったフォルダの一覧](../../cmd/file/file_mru_folder1) | ファイルのパスと名前 |
+| 4992 から 4992 + 63 まで | [最近使ったフォルダーの一覧](../../cmd/file/file_mru_folder1) | ファイルのパスと名前 |
 | 5376 から 5376 + 255 まで | [文書の一覧](../../cmd/window/window_menu) | ウィンドウ タイトル |
 | 5632 から 5632 + 255 まで | [プラグインの一覧](../../cmd/tools/plug_in1) | プラグインのファイル名 |
 | 6656 から 6656 + 255 まで | [読み直しエンコードの一覧](../../cmd/file/file_reload_defined) | エンコード名 |
@@ -33,7 +33,7 @@ _bShortTitle_
 
 _psz_
 
-文字列を取得するバッファを指定します。
+文字列を取得するバッファーを指定します。
 
 ## 戻り値
 

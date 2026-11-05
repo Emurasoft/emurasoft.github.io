@@ -16,7 +16,7 @@ nStatus = editor.QueryStatusByID( nID );
 nStatus = editor.QueryStatusByID( nID )
 ```
 
-## パラメータ
+## パラメーター
 
 _nID_
 

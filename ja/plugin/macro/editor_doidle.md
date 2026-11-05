@@ -4,7 +4,7 @@
 
 void Editor\_DoIdle( HWND hwnd, BOOL bResetTab );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

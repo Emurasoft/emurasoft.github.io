@@ -1,6 +1,6 @@
 # GetFileAttributes メソッド (Shell オブジェクト)
 
-指定するファイルまたはフォルダの属性を返します。
+指定するファイルまたはフォルダーの属性を返します。
 
 ## 
 
@@ -16,11 +16,11 @@ nAttr = shell.GetFileAttributes( strFile );
 nAttr = shell.GetFileAttributes( strFile )
 ```
 
-## パラメータ
+## パラメーター
 
 _strFile_
 
-属性を取得するファイルまたはフォルダの完全パス。
+属性を取得するファイルまたはフォルダーの完全パス。
 
 ## 例
 

@@ -8,7 +8,7 @@ wParam = (WPARAM) (UINT) nFlags;
 lParam = (LPARAM) (LPCWSTR) szFind;
 ```
 
-## パラメータ
+## パラメーター
 
 _nFlags_
 

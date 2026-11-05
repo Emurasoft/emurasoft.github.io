@@ -16,7 +16,7 @@ object.Reset( [ strName ] );
 object.Reset [ strName ]
 ```
 
-## パラメータ
+## パラメーター
 
 _strName_
 

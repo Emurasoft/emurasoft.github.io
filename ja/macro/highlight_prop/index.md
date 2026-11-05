@@ -4,13 +4,13 @@
 
 |     |     |
 | --- | --- |
-| [**AutoCompleteBrackets**](auto_complete_brackets) | 設定のプロパティの [\[強調(2)\] ページ](../../dlg/properties/highlight2/index) の \[かっこ/引用符の自動補完\] チェック ボックスに相当します。 |
+| [**AutoCompleteBrackets**](auto_complete_brackets) | 設定のプロパティの [\[強調(2)\] ページ](../../dlg/properties/highlight2/index) の \[括弧/引用符の自動補完\] チェック ボックスに相当します。 |
 | [**CommentBegin**](comment_begin) | 設定のプロパティの [\[強調(2)\] ページ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[開始\] テキスト ボックスに相当します。 |
 | [**CommentEnd**](comment_end) | 設定のプロパティの [\[強調(2)\] ページ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[終了\] テキスト ボックスに相当します。 |
 | [**Enabled**](enabled) | 設定のプロパティの [\[強調(1)\] ページ](../../dlg/properties/highlight1/index) の \[ここで設定する文字列を強調表示する\] チェック ボックスに相当します。 |
 | [**EscapeCharacter**](escape_character) | 設定のプロパティの [\[強調(2)\] ページ](../../dlg/properties/highlight2/index) の \[引用符に囲まれた文字列\] グループ \- \[エスケープ文字\] テキスト ボックスに相当します。 |
 | [**HighlightCharRef**](highlight_char_ref) | 設定のプロパティの [\[強調(2)\] ページ](../../dlg/properties/highlight2/index) の \[HTML/XML文字参照とUCNを強調する\] チェック ボックスに相当します。 |
-| [**HighlightMatchingBrackets**](highlight_matching_brackets) | 設定のプロパティの [\[強調(2)\] ページ](../../dlg/properties/highlight2/index) の \[対応するかっこを強調する\] チェック ボックスに相当します。 |
+| [**HighlightMatchingBrackets**](highlight_matching_brackets) | 設定のプロパティの [\[強調(2)\] ページ](../../dlg/properties/highlight2/index) の \[対応する括弧を強調する\] チェック ボックスに相当します。 |
 | [**HighlightMatchingTag**](highlight_matching_tag) | 設定のプロパティの [\[強調(2)\] ページ](../../dlg/properties/highlight2/index) の \[対応するタグを強調する\] チェック ボックスに相当します。 |
 | [**LineComment1**](line_comment1) | 設定のプロパティの [\[強調(2)\] ページ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[行コメント\] テキスト ボックスに相当します。 |
 | [**LineComment2**](line_comment2) | 設定のプロパティの [\[強調(2)\] ページ](../../dlg/properties/highlight2/index) の \[コメント\] グループ \- \[行コメント\] テキスト ボックスに相当します。 |

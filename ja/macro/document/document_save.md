@@ -16,7 +16,7 @@ document.Save( [ strName ] );
 document.Save [ strName ]
 ```
 
-## パラメータ
+## パラメーター
 
 _strName_
 

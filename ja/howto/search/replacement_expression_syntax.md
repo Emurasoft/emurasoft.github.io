@@ -29,8 +29,8 @@
 | \\T | [数値範囲表現](number_range_syntax) の日付/時刻タイプが使用された一致の場合、この表現は時刻フォーマットを指定します。\\Dと組み合わせて使用することもできます。 [利用可能な時刻、分、秒形式のフォーマットを参照](https://docs.microsoft.com/ja-jp/windows/win32/intl/day--month--year--and-era-format-pictures)。[時刻フォーマット例](#time-format-example)を参照してください。
 | (?Ntrue\_expression:false\_expression) | 部分式 N が一致した場合、true\_expression に変換されます。一致しない場合は false\_expression に変換されます。例えば、(?1foo:bar) は部分式 \\1 が一致すると foo と置換され、一致しないと  bar と置換されます。(?{1}foo:bar) と書くこともできます。 |
 | $(Path) | ファイル パス |
-| $(Dir) | ファイル ディレクトリ |
-| $(Filename) | 拡張子無しファイル名 |
+| $(Dir) | ファイル フォルダー |
+| $(Filename) | 拡張子なしファイル名 |
 | $(FilenameEx) | 拡張子付きファイル名 |
 | $(Ext) | ファイル拡張子 |
 | $(Lines) | 行数 (ファイルから置換では使用できません) |
@@ -70,7 +70,7 @@ _flags_
 | 0 | 出力テキストには囲む2重引用符も区切り文字列も含まれません。 |
 | 1 | 出力テキストには囲む2重引用符が含まれますが、区切り文字列は含まれません。 |
 | 2 | 出力テキストには囲む2重引用符も区切り文字列も含まれます。 |
-| 8 | _yLine_ と _iColumn_ パラメータは 1 から始まる絶対値で指定します。 |
+| 8 | _yLine_ と _iColumn_ パラメーターは 1 から始まる絶対値で指定します。 |
 
 (date-format-example)=
 ## 日付フォーマット例

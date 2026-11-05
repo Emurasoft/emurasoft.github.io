@@ -10,7 +10,7 @@ wParam = 0;
 
 lParam = 0;
 
-## パラメータ
+## パラメーター
 
 _hwndView_
 

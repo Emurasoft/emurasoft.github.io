@@ -9,11 +9,11 @@ wParam = 0;
 lParam = (LPARAM) (QUERY_STRING_INFO*) pInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[QUERY\_STRING\_INFO 構造体](../structure/query_string_info) へのポインタを指定します。
+[QUERY\_STRING\_INFO 構造体](../structure/query_string_info) へのポインターを指定します。
 
 ## 戻り値
 

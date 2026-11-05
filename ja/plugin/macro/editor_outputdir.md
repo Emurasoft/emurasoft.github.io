@@ -5,7 +5,7 @@
 
 Editor\_OutputDir( HWND hwnd, LPCWSTR szCurrDir );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

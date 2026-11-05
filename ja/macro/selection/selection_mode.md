@@ -18,7 +18,7 @@ nMode = document.selection.Mode
 document.selection.Mode = nMode
 ```
 
-## パラメータ
+## パラメーター
 
 _nMode_
 

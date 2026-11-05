@@ -4,7 +4,7 @@
 
 Editor\_Sort( HWND hwnd, UINT nFlags, LPCWSTR pszLocale, int nNumOfColumns, COLUMN\_INFO\* anColumns, BOOL\* pbModified );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -57,7 +57,7 @@ _bModified_
 
 _nNumOfColumns_
 
-_anColumns_ パラメータに指定されているカラムの数を指定します。
+_anColumns_ パラメーターに指定されているカラムの数を指定します。
 
 _anColumns_
 

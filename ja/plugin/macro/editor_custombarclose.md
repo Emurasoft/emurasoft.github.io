@@ -4,7 +4,7 @@
 
 Editor\_CustomBarClose( HWND hwnd, UINT nCustomBarID );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

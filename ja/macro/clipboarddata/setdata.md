@@ -16,7 +16,7 @@ bSuccess = clipboardData.setData( sDataFormat, sData, [ iPos ] );
 bSuccess = clipboardData.setData( sDataFormat, sData, [ iPos ] )
 ```
 
-## パラメータ
+## パラメーター
 
 _sDataFormat_
 

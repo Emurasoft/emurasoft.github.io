@@ -29,7 +29,7 @@ _cbSize_
 
 _hwndRebar_
 
-EmEditor は、ツール バーが EE\_TOOLBAR\_OPEN メッセージ ハンドラ内で作成されたとき、リバー ウィンドウへのハンドルを保存します。
+EmEditor は、ツール バーが EE\_TOOLBAR\_OPEN メッセージ ハンドラー内で作成されたとき、リバー ウィンドウへのハンドルを保存します。
 
 _hwndClient_
 
@@ -45,17 +45,17 @@ _nMask_
 
 |     |     |
 | --- | --- |
-| TIM\_REBAR | hwndRebar パラメータは有効です。 |
-| TIM\_CLIENT | hwndClient パラメータは有効です。 |
-| TIM\_TITLE | pszTitle パラメータは有効です。 |
-| TIM\_ID | nID パラメータは有効です。 |
-| TIM\_FLAGS | nFlags パラメータは有効です。 |
-| TIM\_STYLE | fStyle パラメータは有効です。 |
-| TIM\_MINCHILD | cxMinChild と cyMinChild パラメータは有効です。 |
-| TIM\_CX | cx パラメータは有効です。 |
-| TIM\_CXIDEAL | cxIdeal パラメータは有効です。 |
-| TIM\_BAND | nBand パラメータは有効です。 |
-| TIM\_PLUG\_IN\_CMD\_ID | wPlugInCmdID パラメータは有効です。 |
+| TIM\_REBAR | hwndRebar パラメーターは有効です。 |
+| TIM\_CLIENT | hwndClient パラメーターは有効です。 |
+| TIM\_TITLE | pszTitle パラメーターは有効です。 |
+| TIM\_ID | nID パラメーターは有効です。 |
+| TIM\_FLAGS | nFlags パラメーターは有効です。 |
+| TIM\_STYLE | fStyle パラメーターは有効です。 |
+| TIM\_MINCHILD | cxMinChild と cyMinChild パラメーターは有効です。 |
+| TIM\_CX | cx パラメーターは有効です。 |
+| TIM\_CXIDEAL | cxIdeal パラメーターは有効です。 |
+| TIM\_BAND | nBand パラメーターは有効です。 |
+| TIM\_PLUG\_IN\_CMD\_ID | wPlugInCmdID パラメーターは有効です。 |
 
 _nID_
 
@@ -72,27 +72,27 @@ _nFlags_
 
 _fStyle_
 
-バンドのスタイルを指定するフラグです。ツール バーを非表示にするには RBBS\_HIDDEN を含めます。このパラメータは REBARBANDINFO 構造体の fStyle パラメータと同一です。
+バンドのスタイルを指定するフラグです。ツール バーを非表示にするには RBBS\_HIDDEN を含めます。このパラメーターは REBARBANDINFO 構造体の fStyle パラメーターと同一です。
 
 _cxMinChild_
 
-子ウィンドウの最小幅をピクセル単位で指定します。このパラメータは REBARBANDINFO 構造体の cxMinChild パラメータと同一です。
+子ウィンドウの最小幅をピクセル単位で指定します。このパラメーターは REBARBANDINFO 構造体の cxMinChild パラメーターと同一です。
 
 _cyMinChild_
 
-子ウィンドウの最小の高さをピクセル単位で指定します。このパラメータは REBARBANDINFO 構造体の cyMinChild パラメータと同一です。
+子ウィンドウの最小の高さをピクセル単位で指定します。このパラメーターは REBARBANDINFO 構造体の cyMinChild パラメーターと同一です。
 
 _cx_
 
-バンドの長さをピクセル単位で指定します。このパラメータは REBARBANDINFO 構造体の cx パラメータと同一です。
+バンドの長さをピクセル単位で指定します。このパラメーターは REBARBANDINFO 構造体の cx パラメーターと同一です。
 
 _cxIdeal_
 
-バンドの幅をピクセル単位で指定します。このパラメータは REBARBANDINFO 構造体の cxIdeal パラメータと同一です。
+バンドの幅をピクセル単位で指定します。このパラメーターは REBARBANDINFO 構造体の cxIdeal パラメーターと同一です。
 
 _nBand_
 
-バンドを挿入する位置の 0 から始まる、インデックスを指定します。このパラメータに -1 を指定すると、リバー コントロールは最後の位置に新しいバンドを追加します。
+バンドを挿入する位置の 0 から始まる、インデックスを指定します。このパラメーターに -1 を指定すると、リバー コントロールは最後の位置に新しいバンドを追加します。
 
 _wPlugInCmdID_
 

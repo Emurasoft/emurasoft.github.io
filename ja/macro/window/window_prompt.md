@@ -16,7 +16,7 @@ strAnswer = prompt( strMessage, strDefault, flags );
 strAnswer = prompt( strMessage, strDefault, flags )
 ```
 
-## パラメータ
+## パラメーター
 
 _strMessage_
 

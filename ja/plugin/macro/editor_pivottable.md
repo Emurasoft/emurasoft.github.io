@@ -4,7 +4,7 @@ CSV 文書のピボット テーブルを作成します。このインライン
 
 HRESULT Editor\_PivotTable( HWND hwnd, int iRow, int iColumn, int iValue, UINT nFlags, UINT nSortRow, UINT nSortColumn, LPCWSTR pszLocale, LPCWSTR pszTotalRowLabel, LPCWSTR pszTotalColLabel, int nDecimalPlaces );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -70,7 +70,7 @@ _nSortRow_
 
 _nSortColumn_
 
-行に適用する並べ替えのためのフラグの組み合わせを指定します。0 の場合、並べ替えは行われません。使用できるフラグは _nSortRow_ パラメータと同じです。
+行に適用する並べ替えのためのフラグの組み合わせを指定します。0 の場合、並べ替えは行われません。使用できるフラグは _nSortRow_ パラメーターと同じです。
 
 _pszLocale_
 
@@ -78,11 +78,11 @@ _pszLocale_
 
 _pszTotalRowLabel_
 
-行の合計値に使用するヘディングのラベルを指定します。このパラメータは、 _nFlags_ パラメータに PIVOT\_FLAG\_TOTAL\_ROW が指定されている場合のみ使用されます。
+行の合計値に使用するヘディングのラベルを指定します。このパラメーターは、 _nFlags_ パラメーターに PIVOT\_FLAG\_TOTAL\_ROW が指定されている場合のみ使用されます。
 
 _pszTotalColLabel_
 
-列の合計値に使用するヘディングのラベルを指定します。このパラメータは、 _nFlags_ パラメータに PIVOT\_FLAG\_TOTAL\_COL が指定されている場合のみ使用されます。
+列の合計値に使用するヘディングのラベルを指定します。このパラメーターは、 _nFlags_ パラメーターに PIVOT\_FLAG\_TOTAL\_COL が指定されている場合のみ使用されます。
 
 _nDecimalPlaces_
 

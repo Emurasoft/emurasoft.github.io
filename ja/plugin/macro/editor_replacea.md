@@ -4,7 +4,7 @@ ANSI文字列を置換します。このインライン関数を使うか、ま�
 
 Editor\_ReplaceA( HWND hwnd, UINT nFlags, LPCSTR szFindReplace );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

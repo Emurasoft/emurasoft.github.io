@@ -4,7 +4,7 @@
 
 |     |     |
 | --- | --- |
-| [Case](case) | 設定のプロパティの [\[強調(1)\] ページ](../../dlg/properties/highlight1/index) の \[大文字小文字を区別\] チェック ボックスに相当します。 |
+| [Case](case) | 設定のプロパティの [\[強調(1)\] ページ](../../dlg/properties/highlight1/index) の \[大文字と小文字を区別する\] チェック ボックスに相当します。 |
 | [Color](color) | オブジェクトの色を指定します。 |
 | [InsideTag](inside_tag) | 設定のプロパティの [\[強調(1)\] ページ](../../dlg/properties/highlight1/index) の \[タグの内側のみ\] チェック ボックスに相当します。 |
 | [Name](name) | オブジェクトの名前を指定します。 |

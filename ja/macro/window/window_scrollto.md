@@ -16,7 +16,7 @@ scrollTo( x, y );
 scrollTo x, y
 ```
 
-## パラメータ
+## パラメーター
 
 _x_
 

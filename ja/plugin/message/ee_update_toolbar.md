@@ -9,7 +9,7 @@ wParam = (WPARAM) (UINT) nCmdID;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _nCmdID_
 

@@ -1,6 +1,6 @@
 # FolderExists メソッド (Shell オブジェクト)
 
-指定するフォルダが存在すれば true を、存在しなければ false を返します。
+指定するフォルダーが存在すれば true を、存在しなければ false を返します。
 
 ## 
 
@@ -16,11 +16,11 @@ shell.FolderExists( strFolder );
 shell.FolderExists strFolder
 ```
 
-## パラメータ
+## パラメーター
 
 _strFolder_
 
-存在するかどうかを調べるフォルダの名前を指定します。
+存在するかどうかを調べるフォルダーの名前を指定します。
 
 ## 例
 

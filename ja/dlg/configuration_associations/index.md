@@ -49,12 +49,12 @@
 
 設定内容を今すぐ適用します。
 
-## \[EmEditorと関連付け\] ボタン
+## \[EmEditor と関連付け\] ボタン
 
 [\[EmEditor と関連付け\] ダイアログ ボックス](../../dlg/file_associate/index) を表示して、EmEditor
 に関連付ける拡張子を設定できるようにします。
 
 さらに、このダイアログ ボックスから、次のダイアログ ボックスに移動することもできます。
 
-[\[EmEditorと関連付け\] ダイアログ ボックス](../file_associate/index) (\[EmEditor と関連付け\] ボタンを選択)
+[\[EmEditor と関連付け\] ダイアログ ボックス](../file_associate/index) (\[EmEditor と関連付け\] ボタンを選択)
 

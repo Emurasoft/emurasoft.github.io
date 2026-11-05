@@ -4,7 +4,7 @@
 
 Editor\_ToolbarOpen( HWND hwnd, TOOLBAR\_INFO\* pToolbarInfo);
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -12,7 +12,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _nCmdID_
 
-[TOOLBAR\_INFO 構造体](../structure/toolbar_info) へのポインタを指定します。
+[TOOLBAR\_INFO 構造体](../structure/toolbar_info) へのポインターを指定します。
 
 ## 戻り値
 

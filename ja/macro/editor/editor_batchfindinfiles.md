@@ -16,7 +16,7 @@ nFound = editor.BatchFindInFiles( filters, strPath, nFlags, [ nEncoding, [ strF
 nFound = editor.BatchFindInFiles( filters, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ nExFlags, [ nLimit ] ] ] ] )
 ```
 
-## パラメータ
+## パラメーター
 
 _filters_
 
@@ -35,8 +35,8 @@ _nFlags_
 | eeFindOpenDirect | ファイルから検索の結果を一覧としては表示せずに、検索文字列を含むファイルを直接開きます。eeFindOpenFilter または eeFindOutput と組み合わせて指定できません。 |
 | eeFindOpenFilter | ファイルから検索の結果を一覧としては表示せずに、検索文字列を含むファイルを直接開き、さらにフィルターに検索文字列を設定します。eeFindOpenDirect または eeFindOutput と組み合わせて指定できません。 |
 | eeFindOutput | ファイルから検索の場合、検索結果をアウトプット バーに表示します。eeFindOpenDirect または eeFindOpenFilter と組み合わせて指定できません。 |
-| eeFindRecursive | サブフォルダも検索します。 |
-| eeFindReplaceIgnoreFiles | _strFilesToIgnore_ で指定する名前のファイルまたはフォルダを無視します。 |
+| eeFindRecursive | サブフォルダーも検索します。 |
+| eeFindReplaceIgnoreFiles | _strFilesToIgnore_ で指定する名前のファイルまたはフォルダーを無視します。 |
 | eeFindSaveHistory | 検索した文字列を履歴に保存します。 |
 | eeOpenDetectAll | すべて自動検出します。 |
 | eeOpenDetectCharset | HTML/XML の Charset を検出します。 |
@@ -61,7 +61,7 @@ Windows で使用されるエンコードを指定します。0 を指定する�
 _strFilesToIgnore_
 
 _nFlags_ に eeFindReplaceIgnoreFiles
-を指定した場合、無視するファイルまたはフォルダの名前を指定します。ここには、\\* または ? のワイルド
+を指定した場合、無視するファイルまたはフォルダーの名前を指定します。ここには、\\* または ? のワイルド
 カードを含めて指定することができます。複数のファイルを指定する場合は、; で区切ります。
 
 _nExFlags_

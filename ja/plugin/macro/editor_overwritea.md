@@ -4,7 +4,7 @@
 
 Editor\_OverwriteA( HWND hwnd, LPCSTR szString, bool bKeepDestReturnType = false );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -16,7 +16,7 @@ _szString_
 
 _bKeepDestReturnType_
 
-上書き先の改行コード （CR のみ、LF のみ、または CR + LF) が保持されることを指定します。このパラメータが省略されると、EmEditor は szString のパラメータで指定された改行コードを保持します。
+上書き先の改行コード （CR のみ、LF のみ、または CR + LF) が保持されることを指定します。このパラメーターが省略されると、EmEditor は szString のパラメーターで指定された改行コードを保持します。
 
 ## 戻り値
 
@@ -24,4 +24,4 @@ _bKeepDestReturnType_
 
 ## バージョン
 
-bKeepDestReturnType パラメータは、EmEditor Version 7.00 以上で利用できます。
+bKeepDestReturnType パラメーターは、EmEditor Version 7.00 以上で利用できます。

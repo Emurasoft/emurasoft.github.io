@@ -24,8 +24,8 @@ _flags_
 
 |     |     |
 | --- | --- |
-| COMPARE\_GENERATE\_REPORT | レポート ファイルを作成します。ファイルのパスは strResultFileName パラメータに指定する必要があります。 |
-| COMPARE\_IGNORE\_CASE | 大文字小文字の区別を無視します。 |
+| COMPARE\_GENERATE\_REPORT | レポート ファイルを作成します。ファイルのパスは strResultFileName パラメーターに指定する必要があります。 |
+| COMPARE\_IGNORE\_CASE | 大文字と小文字を区別しません。 |
 | COMPARE\_IGNORE\_COMMENT | コメントを無視します。 |
 | COMPARE\_IGNORE\_CRLF | 改行コードの違いを無視します。 |
 | COMPARE\_IGNORE\_EMBEDDED\_SPACE | 行の中間に埋め込まれた空白を無視します。 |

@@ -15,8 +15,8 @@ typedef struct _GET_CELL_INFO {
 
 _cch_
 
-[Editor\_GetCell](../macro/editor_getcell) インライン関数 ( [EE\_GET\_CELL](../message/ee_get_cell) メッセージ) で使用する場合、 [Editor\_GetCell マクロ](../macro/editor_getlinea) の _szString_ パラメータ、または [EE\_GET\_CELL メッセージ](../message/ee_get_linea) の _lParam_ パラメータで、テキストを取得するバッファに格納することができる文字列の文字数を終端 Null
-文字を含めて指定します。0 を指定すると、バッファに必要な文字数を返すように指定することになります。 _iColumn_ フィールドが -1 の場合、この値は無視されます。 [Editor\_SetCell](../macro/editor_setcell) インライン関数 ( [EE\_SET\_CELL](../message/ee_set_cell) メッセージ) で使用する場合、この値は無視されます。
+[Editor\_GetCell](../macro/editor_getcell) インライン関数 ( [EE\_GET\_CELL](../message/ee_get_cell) メッセージ) で使用する場合、 [Editor\_GetCell マクロ](../macro/editor_getlinea) の _szString_ パラメーター、または [EE\_GET\_CELL メッセージ](../message/ee_get_linea) の _lParam_ パラメーターで、テキストを取得するバッファーに格納することができる文字列の文字数を終端 Null
+文字を含めて指定します。0 を指定すると、バッファーに必要な文字数を返すように指定することになります。 _iColumn_ フィールドが -1 の場合、この値は無視されます。 [Editor\_SetCell](../macro/editor_setcell) インライン関数 ( [EE\_SET\_CELL](../message/ee_set_cell) メッセージ) で使用する場合、この値は無視されます。
 
 _flags_
 

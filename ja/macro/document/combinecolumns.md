@@ -16,7 +16,7 @@ document.CombineColumns( iColumn1, iColumn2, nFlags, strInsert, strSortType, nCo
 document.CombineColumns iColumn1, iColumn2, nFlags, strInsert, strSortType, nCombineFlags, strLocale
 ```
 
-## パラメータ
+## パラメーター
 
 _iColumn1_
 
@@ -77,7 +77,7 @@ option: 以下のテーブルから並べ替えオプションを選択します
 
 _nFlags_
 
-次の値の組み合わせを指定します。重複文字列を削除するには、eeRemoveDuplicates を指定する必要があります。その他のフラグは、 _strSortType_ に空でない文字列を指定した場合だけ、指定できます。このパラメータは省略できます。
+次の値の組み合わせを指定します。重複文字列を削除するには、eeRemoveDuplicates を指定する必要があります。その他のフラグは、 _strSortType_ に空でない文字列を指定した場合だけ、指定できます。このパラメーターは省略できます。
 
 |     |     |
 | --- | --- |

@@ -24,13 +24,13 @@
 | [特殊文字を入力](../insert/insert_control) | 特殊文字を入力します。 |
 | [番号](../insert/numbering) | カーソル位置または箱型選択位置に番号を挿入します。 |
 | [オートフィル/オートリピート](../insert/auto_fill) | 連番やパターンを隣のセル、行、文字に続けます。 |
-| [上に行挿入](../insert/line_open_above) | カーソル位置の上に行を挿入します。 |
-| [下に行挿入](../insert/line_open_below) | カーソル位置の下に行を挿入します。 |
+| [上に空行を挿入](../insert/line_open_above) | カーソル位置の上に行を挿入します。 |
+| [下に空行を挿入](../insert/line_open_below) | カーソル位置の下に行を挿入します。 |
 | [行の2重化](../insert/duplicate_line) | カーソルのある論理行全体を 2 重化します。 |
 | [CRのみ挿入](../insert/insert_cr) | カーソル位置に CR のみを挿入します。 |
 | [LFのみ挿入](../insert/insert_lf) | カーソル位置に LF のみを挿入します。 |
 | [CR+LFを挿入](../insert/insert_cr_lf) | カーソル位置に CR と LF を挿入します。 |
-| [Tabを挿入](../insert/insert_tab) | カーソル位置に Tab を挿入します。 |
+| [タブを挿入](../insert/insert_tab) | カーソル位置に Tab を挿入します。 |
 | [挿入/上書](../insert/insert) | 挿入/上書モードを切り替えます。 |
 | [挿入](../insert/file_insert) | カーソル位置にファイルを挿入します。 |
 | [スニペットの挿入](insert_snippet1) | 現在のカーソル位置に指定したスニペットを挿入します (複数項目)。 |

@@ -4,7 +4,7 @@
 
 Editor\_Compare( HWND hwnd, UINT nFlags, LPCWSTR pszDocument1, LPCWSTR pszDocument2, LPCWSTR pszResultFileName );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -16,8 +16,8 @@ _nFlags_
 
 |     |     |
 | --- | --- |
-| COMPARE\_GENERATE\_REPORT | レポート ファイルを作成します。ファイルのパスは strResultFileName パラメータに指定する必要があります。 |
-| COMPARE\_IGNORE\_CASE | 大文字小文字の区別を無視します。 |
+| COMPARE\_GENERATE\_REPORT | レポート ファイルを作成します。ファイルのパスは strResultFileName パラメーターに指定する必要があります。 |
+| COMPARE\_IGNORE\_CASE | 大文字と小文字を区別しません。 |
 | COMPARE\_IGNORE\_COMMENT | コメントを無視します。 |
 | COMPARE\_IGNORE\_CRLF | 改行コードの違いを無視します。 |
 | COMPARE\_IGNORE\_EMBEDDED\_SPACE | 行の中間に埋め込まれた空白を無視します。 |
@@ -56,7 +56,7 @@ _pszDocument2_
 
 _pszResultFileName_
 
-nFlags パラメータに COMPARE\_GENERATE\_REPORT が指定されていると、EmEditor は比較のレポートを指定するファイル名で保存します。
+nFlags パラメーターに COMPARE\_GENERATE\_REPORT が指定されていると、EmEditor は比較のレポートを指定するファイル名で保存します。
 
 ## 戻り値
 

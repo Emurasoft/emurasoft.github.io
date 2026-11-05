@@ -4,7 +4,7 @@ CSV 文書に対してオートフィル、またはフラッシュ フィルを
 
 Editor\_AutoFill( HWND hwnd, AUTOFILL\_INFO\* pInfo );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -12,7 +12,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pInfo_
 
-[AUTOFILL\_INFO 構造体](../structure/autofill_info) へのポインタを指定します。
+[AUTOFILL\_INFO 構造体](../structure/autofill_info) へのポインターを指定します。
 
 ## 戻り値
 

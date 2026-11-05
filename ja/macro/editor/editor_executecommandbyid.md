@@ -16,7 +16,7 @@ editor.ExecuteCommandByID( nID );
 editor.ExecuteCommandByID nID
 ```
 
-## パラメータ
+## パラメーター
 
 _nID_
 

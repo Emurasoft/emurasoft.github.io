@@ -18,7 +18,7 @@ nEncoding = document.Encoding
 document.Encoding = nEncoding
 ```
 
-## パラメータ
+## パラメーター
 
 _nEncoding_
 

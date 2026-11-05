@@ -8,11 +8,11 @@ wParam = 0;
 (REG_QUERY_VALUE_INFO*)lParam = pRegQueryValueInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pRegSetValueInfo_
 
-[REG\_QUERY\_VALUE\_INFO 構造体](../structure/reg_query_value_info) へのポインタ。
+[REG\_QUERY\_VALUE\_INFO 構造体](../structure/reg_query_value_info) へのポインター。
 
 ## 戻り値
 

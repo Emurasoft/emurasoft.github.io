@@ -16,7 +16,7 @@ document.SplitColumn( strColumns, strSeparator, strSeparator, nType, strSortType
 document.SplitColumn strColumns, strSeparator, strSeparator, nType, strSortType, nFlags, nLimit, BSTR strLocale
 ```
 
-## パラメータ
+## パラメーター
 
 _strColumns_
 
@@ -24,7 +24,7 @@ _strColumns_
 
 _strSeparator_
 
-列を分割する際に使用する区切り文字列を指定します。このパラメータは空にすることができません。
+列を分割する際に使用する区切り文字列を指定します。このパラメーターは空にすることができません。
 
 _nType_
 
@@ -74,7 +74,7 @@ option: 以下のテーブルから並べ替えオプションを選択します
 
 _nFlags_
 
-次の値の組み合わせを指定します。分割後に重複文字列を削除するには、eeRemoveDuplicates を指定する必要があります。その他のフラグは、 _strSortType_ に空でない文字列を指定した場合だけ、指定できます。このパラメータは省略できます。
+次の値の組み合わせを指定します。分割後に重複文字列を削除するには、eeRemoveDuplicates を指定する必要があります。その他のフラグは、 _strSortType_ に空でない文字列を指定した場合だけ、指定できます。このパラメーターは省略できます。
 
 |     |     |
 | --- | --- |

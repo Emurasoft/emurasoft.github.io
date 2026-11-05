@@ -4,7 +4,7 @@
 
 Editor\_RotateClip( HWND hwnd, int iDirection );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

@@ -8,15 +8,15 @@ wParam = (WPARAM) (POINT_PTR*) pptView;
 lParam = (LPARAM) (POINT_PTR*) pptLogical;
 ```
 
-## パラメータ
+## パラメーター
 
 _pptView_
 
-表示座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+表示座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 _pptLogical_
 
-論理座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+論理座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 ## 戻り値
 

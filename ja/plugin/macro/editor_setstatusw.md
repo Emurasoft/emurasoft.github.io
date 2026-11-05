@@ -5,7 +5,7 @@
 
 Editor\_SetStatusW( HWND hwnd, LPCWSTR szStatus, UINT nFlags = 0 );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

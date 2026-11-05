@@ -8,11 +8,11 @@ wParam = (WPARAM)(UNPIVOT*)pInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[UNPIVOT\_INFO 構造体](../structure/unpivot_info) へのポインタを指定します。
+[UNPIVOT\_INFO 構造体](../structure/unpivot_info) へのポインターを指定します。
 
 ## 戻り値
 

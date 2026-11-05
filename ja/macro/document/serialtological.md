@@ -16,7 +16,7 @@ point = document.SerialToLogical( nSerialPos );
 point = document.SerialToLogical( nSerialPos )
 ```
 
-## パラメータ
+## パラメーター
 
 _nSerialPos_
 

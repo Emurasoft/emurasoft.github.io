@@ -10,8 +10,8 @@
 | EVENT\_CONFIG\_CHANGED | 現在の設定のプロパティが変更されたときに呼ばれます。<br> アクティブな文書が変更されたときにも呼ばれます。ファイルを開いた直後は現在の設定が変わっても呼ばれません。 |
 | EVENT\_CREATE | EmEditorが起動した直後、またはプラグインを追加した時に呼ばれます。LOWORD(lParam)は、プラグイン自身のコマンドIDを示します。 |
 | EVENT\_CREATE\_FRAME | 新しい EmEditor フレームが作成された時に呼ばれます。タブの有効、無効が切り替えられた時でも、このイベントが呼ばれます。LOWORD(lParam) は、プラグイン自身のコマンドIDを示します。(EmEditor Version 5.00 以上で対応) |
-| EVENT\_CUSTOM\_BAR\_CLOSED | カスタム バーが閉じられた後に呼ばれます。EmEditor は、カスタム バーを閉じるときに、そのクライアント ウィンドウに対して、DestroyWindow() を呼びます。lParam には、 [CUSTOM\_BAR\_CLOSE\_INFO 構造体](../structure/custom_bar_close_info) へのポインタが格納されます。(EmEditor Version 6.00 以上で対応) |
-| EVENT\_CUSTOM\_BAR\_CLOSING | カスタム バーが閉じられる直前に呼ばれます。lParam には、 [CUSTOM\_BAR\_CLOSE\_INFO 構造体](../structure/custom_bar_close_info) へのポインタが格納されます。(EmEditor Version 6.00 以上で対応) |
+| EVENT\_CUSTOM\_BAR\_CLOSED | カスタム バーが閉じられた後に呼ばれます。EmEditor は、カスタム バーを閉じるときに、そのクライアント ウィンドウに対して、DestroyWindow() を呼びます。lParam には、 [CUSTOM\_BAR\_CLOSE\_INFO 構造体](../structure/custom_bar_close_info) へのポインターが格納されます。(EmEditor Version 6.00 以上で対応) |
+| EVENT\_CUSTOM\_BAR\_CLOSING | カスタム バーが閉じられる直前に呼ばれます。lParam には、 [CUSTOM\_BAR\_CLOSE\_INFO 構造体](../structure/custom_bar_close_info) へのポインターが格納されます。(EmEditor Version 6.00 以上で対応) |
 | EVENT\_DOC\_CLOSE | ドキュメントが閉じる直前に呼ばれます。lParam には、閉じられるドキュメントへのハンドル (HEEDOC) が格納されます。 (EmEditor Version 5.00 以上で対応) |
 | EVENT\_DOC\_SEL\_CHANGED | アクティブなドキュメントが変更された時に呼ばれます。(EmEditor Version 5.00 以上で対応) |
 | EVENT\_DROPPED | EmEditor フレーム ウィンドウにファイルがドロップされました。 |
@@ -24,13 +24,13 @@
 | EVENT\_SEL\_CHANGED | テキストの選択状態が変更された時に呼ばれます。 |
 | EVENT\_SET\_FOCUS | フォーカスを取得したときに呼ばれます。 |
 | EVENT\_TAB\_MOVED | タブが移動された時に呼ばれます。 |
-| EVENT\_TEMP\_SAVING | ユーザーが一時テキストを保存しようとする時に呼ばれます。プラグインがファイルの保存に責任を負います。lParam には [TEMP\_INFO 構造体](../structure/temp_info) へのポインタが格納されます。 |
-| EVENT\_TOOLBAR\_CLOSED | カスタム ツール バーが閉じられた後に呼ばれます。EVENT\_CUSTOM\_BAR\_CLOSED メッセージと違い、クライアント ウィンドウに対して DestroyWindow() を呼びません。lParam には [TOOLBAR\_INFO 構造体](../structure/toolbar_info) へのポインタが格納されます。(EmEditor Version 7.00 以上で利用できます。) |
-| EVENT\_TOOLBAR\_SHOW | カスタム バーの表示/非表示が切り替えられた時 (RBBS\_HIDDEN スタイルが切り替えられた時) 呼ばれます。lParam には [TOOLBAR\_INFO 構造体](../structure/toolbar_info) へのポインタが格納されます。(EmEditor Version 7.00 以上で利用できます。) |
+| EVENT\_TEMP\_SAVING | ユーザーが一時テキストを保存しようとする時に呼ばれます。プラグインがファイルの保存に責任を負います。lParam には [TEMP\_INFO 構造体](../structure/temp_info) へのポインターが格納されます。 |
+| EVENT\_TOOLBAR\_CLOSED | カスタム ツール バーが閉じられた後に呼ばれます。EVENT\_CUSTOM\_BAR\_CLOSED メッセージと違い、クライアント ウィンドウに対して DestroyWindow() を呼びません。lParam には [TOOLBAR\_INFO 構造体](../structure/toolbar_info) へのポインターが格納されます。(EmEditor Version 7.00 以上で利用できます。) |
+| EVENT\_TOOLBAR\_SHOW | カスタム バーの表示/非表示が切り替えられた時 (RBBS\_HIDDEN スタイルが切り替えられた時) 呼ばれます。lParam には [TOOLBAR\_INFO 構造体](../structure/toolbar_info) へのポインターが格納されます。(EmEditor Version 7.00 以上で利用できます。) |
 | EVENT\_UI\_CHANGED | UI が変更された時に呼ばれます。lParam は次の値の組み合わせになります: UI\_CHANGED\_LANGUAGE、UI\_CHANGED\_TOOLBARS。 |
 
 イベントは、EmEditor から送信されプラグインで使用されます。 [OnEvents 関数](../exports/index) の
-nEvent パラメータで論理和として指定されます。
+nEvent パラメーターで論理和として指定されます。
 
-これらの定数は、ヘッダ (plugin.h) で定義されています。
+これらの定数は、ヘッダー (plugin.h) で定義されています。
 

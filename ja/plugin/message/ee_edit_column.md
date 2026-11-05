@@ -9,11 +9,11 @@ wParam = (WPARAM)(EDIT_COLUMN_INFO*)pInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[EDIT\_COLUMN\_INFO 構造体](../structure/edit_column_info) へのポインタを指定します。
+[EDIT\_COLUMN\_INFO 構造体](../structure/edit_column_info) へのポインターを指定します。
 
 ## 戻り値
 

@@ -8,11 +8,11 @@ wParam = (WPARAM)(SPLIT_COLUMN_INFO*)pInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[SPLIT\_COLUMN\_INFO 構造体](../structure/split_column_info) へのポインタを指定します。
+[SPLIT\_COLUMN\_INFO 構造体](../structure/split_column_info) へのポインターを指定します。
 
 ## 戻り値
 

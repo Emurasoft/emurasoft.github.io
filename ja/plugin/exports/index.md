@@ -6,7 +6,7 @@
 | QueryStatus( HWND hwnd, LPBOOL pbChecked ) | プラグインが実行可能か、またはチェックされた状態かを調べます |
 | OnEvents( HWND hwnd, UINT nEvent, LPARAM lParam ) | 状態が変更されたときに [イベント](../event/index) が指定されて呼び出されます |
 | GetMenuTextID() | プラグインのメニューアイテムテキストのリソースIDを取得します |
-| GetStatusMessageID() | ステータスバーテキストとツールバーのツールチップ用テキストを \\n で結合した文字列のリソースIDを取得します。 |
+| GetStatusMessageID() | ステータスバーテキストとツールバーのツール チップ用テキストを \\n で結合した文字列のリソースIDを取得します。 |
 | GetBitmapID() | ツールバーに表示されるプラグイン ボタンのビットマップのリソースIDを取得します |
 | PlugInProc( HWND hwnd, UINT nMsg, WPARAM wParam, LPARAM lParam ) | [プラグインへのメッセージ](../plugin_message/index) を使って、さまざまな設定や取得を行います。 |
 

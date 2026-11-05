@@ -16,7 +16,7 @@ point = document.ViewToLogical( x, y );
 point = document.ViewToLogical( x, y )
 ```
 
-## パラメータ
+## パラメーター
 
 _x_
 

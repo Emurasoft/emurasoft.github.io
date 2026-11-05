@@ -52,7 +52,7 @@ _nBatchFlags_
 
 _nCount_
 
-\[out\] nBatchFlags が FLAG\_FIND\_COUNT、FLAG\_FIND\_BOOKMARK、FLAG\_FIND\_SELECT\_ALL、FLAG\_FIND\_EXTRACT、FLAG\_FIND\_FILTER、または FLAG\_REPLACE\_ALL を含んでいる場合、一致する数を受け取る変数へのポインタを指定します。
+\[out\] nBatchFlags が FLAG\_FIND\_COUNT、FLAG\_FIND\_BOOKMARK、FLAG\_FIND\_SELECT\_ALL、FLAG\_FIND\_EXTRACT、FLAG\_FIND\_FILTER、または FLAG\_REPLACE\_ALL を含んでいる場合、一致する数を受け取る変数へのポインターを指定します。
 
 ## バージョン
 

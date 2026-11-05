@@ -66,7 +66,7 @@ _bModified_
 
 _nNumOfColumns_
 
-_anColumns_ パラメータに指定されているカラムの数を指定します。
+_anColumns_ パラメーターに指定されているカラムの数を指定します。
 
 _anColumns_
 

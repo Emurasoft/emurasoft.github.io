@@ -8,11 +8,11 @@ wParam = (WPARAM) (CONVERT_INFO*)pInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[CONVERT\_INFO 構造体](../structure/convert_info) へのポインタを指定します。
+[CONVERT\_INFO 構造体](../structure/convert_info) へのポインターを指定します。
 
 ## 戻り値
 

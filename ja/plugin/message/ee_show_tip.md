@@ -1,6 +1,6 @@
 # EE\_SHOW\_TIP
 
-ツールチップの表示/非表示を切り替えます。このメッセージを直接送るか、または
+ツール チップの表示/非表示を切り替えます。このメッセージを直接送るか、または
 [Editor\_ShowTip インライン関数](../macro/editor_showtip) を使うことができます。
 
 ```
@@ -9,11 +9,11 @@ wParam = (WPARAM) 0;
 lParam = (LPARAM) (TIP_INFO*) pTipInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _nFlags_
 
-[TIP\_INFO 構造体](../structure/tip_info) へのポインタを指定します。
+[TIP\_INFO 構造体](../structure/tip_info) へのポインターを指定します。
 
 ## 戻り値
 

@@ -18,7 +18,7 @@ nCategory = document.FontCategory
 document.FontCategory = nCategory
 ```
 
-## パラメータ
+## パラメーター
 
 _nCategory_
 
@@ -33,7 +33,7 @@ _nCategory_
 | eeFontCategoryChineseSimplified | 簡体字中国語 |
 | eeFontCategoryChineseTraditional | 繁体字中国語 |
 | eeFontCategoryCyrillic | キリル言語 |
-| eeFontCategoryGreek | ギリシャ言語 |
+| eeFontCategoryGreek | ギリシャ語 |
 | eeFontCategoryHebrew | ヘブライ語 |
 | eeFontCategoryJapanese | 日本語 |
 | eeFontCategoryKorean | 韓国語 |

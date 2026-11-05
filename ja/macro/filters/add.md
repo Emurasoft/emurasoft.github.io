@@ -16,7 +16,7 @@ list.Add( strFilter, bEnabled, iColumn, nFlags, xBegin, xEnd, strReplace, nExFla
 list.Add strFilter, bEnabled, iColumn, nFlags, xBegin, xEnd, strReplace, nExFlags
 ```
 
-## パラメータ
+## パラメーター
 
 _strFilter_
 
@@ -28,7 +28,7 @@ _bEnabled_
 
 _iColumn_
 
-取得するテキストの列の 1 から始まるインデックスを指定します。0 を指定すると行全体から検索します。-1 を指定すると xBegin と xEnd パラメータによってテキストの開始位置と終了位置を指定します。
+取得するテキストの列の 1 から始まるインデックスを指定します。0 を指定すると行全体から検索します。-1 を指定すると xBegin と xEnd パラメーターによってテキストの開始位置と終了位置を指定します。
 
 _nFlags_
 
@@ -47,12 +47,12 @@ _nFlags_
 _xBegin_
 
 検索したいテキストの開始位置のインデックスを論理文字単位で指定します。テキストの最後から数えて xEnd で指定する場合には 0
-を指定します。このフィールドを有効にするには iColumn パラメータに -1 を指定する必要があります。
+を指定します。このフィールドを有効にするには iColumn パラメーターに -1 を指定する必要があります。
 
 _xEnd_
 
 検索したいテキストの終了位置のインデックスを論理文字単位で指定します。最後まで全部を検索する場合には 0
-を指定します。このフィールドを有効にするには iColumn パラメータに -1 を指定する必要があります。
+を指定します。このフィールドを有効にするには iColumn パラメーターに -1 を指定する必要があります。
 
 _strFilter_
 
@@ -64,7 +64,7 @@ _nExFlags_
 
 |     |     |
 | --- | --- |
-| eeExFindLinkFile | _strFilter_ が改行で分割された複数の検索文字列を含むリンク ファイルへのファイルのパスであることを指定します。行にタブ文字が含まれている場合、検索文字列はタブを含まない最初の文字列になります。 _strFilter_ は EmEditor インストール パスからの相対パスにすることができます。%USERPROFILE% などの環境変数を含むこともできます。実行中のマクロ フォルダ内のファイルを指定するには、次のようにしてください。<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\\" ) + 1 ) + "LinkFile.txt" |
+| eeExFindLinkFile | _strFilter_ が改行で分割された複数の検索文字列を含むリンク ファイルへのファイルのパスであることを指定します。行にタブ文字が含まれている場合、検索文字列はタブを含まない最初の文字列になります。 _strFilter_ は EmEditor インストール パスからの相対パスにすることができます。%USERPROFILE% などの環境変数を含むこともできます。実行中のマクロ フォルダー内のファイルを指定するには、次のようにしてください。<br>ScriptFullName.substr( 0, ScriptFullName.lastIndexOf( "\\\\" ) + 1 ) + "LinkFile.txt" |
 | eeExFindFuzzy | あいまい一致を使用します。 |
 | eeExFindNumberRange | [数値範囲表現](../../howto/search/number_range_syntax) に一致します。このフラグは、eeFindReplaceEscSeq または eeFindReplaceRegExp と一緒に指定することはできません。 |
 

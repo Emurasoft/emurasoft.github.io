@@ -18,7 +18,7 @@ n = item.Flags
 item.Flags = n
 ```
 
-## パラメータ
+## パラメーター
 
 _n_
 

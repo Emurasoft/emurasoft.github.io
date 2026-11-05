@@ -59,13 +59,13 @@ orphan: true
 - [\[置換\] ダイアログ ボックス](../dlg/replace/index)
 - [\[ファイルから検索\] ダイアログ ボックス](../dlg/find_in_files/index)
 - [\[カスタマイズ\] ダイアログ ボックス](../dlg/customize/index)
-- [\[トレイ アイコンの設定\] ダイアログ ボックス](../dlg/tray/index)
+- [\[トレイ アイコンのカスタマイズ\] ダイアログ ボックス](../dlg/tray/index)
 
 ## ツール バーの新しいボタン
 
 - ![](../images/filesaveexit.png)[保存して閉じる](../cmd/file/file_save_exit)
 - ![](../images/saveexitall.png)[すべて保存して閉じる](../cmd/file/save_exit_all)
-- ![](../images/nextparen.png)[対応するかっこへ](../cmd/edit/next_paren)
+- ![](../images/nextparen.png)[対応する括弧へ](../cmd/edit/next_paren)
 - ![](../images/duplicateline.png)[行の2重化](../cmd/insert/duplicate_line)
 - ![](../images/insertcontrol.png)[特殊文字を入力](../cmd/insert/insert_control)
 - ![](../images/marks.png)[記号](../cmd/view/view_marks)
@@ -99,11 +99,11 @@ orphan: true
 リスト ボックスのフォントを、現在開かれているウィンドウのフォントに合わせるか、または、現在開かれているウィンドウの表示フォントの文字セットがシステム既定の文字セットでない場合のみ合わせるかを指定できるようになりました。 [\[カスタマイズ\] ダイアログ ボックス](../dlg/customize/index) \- [\[検索\] ページ](../dlg/customize/search/index) の **\[検索/置換ドロップダウン**
 **リスト用のフォントを変更する\]** チェック ボックス、および
 \[表示フォントの文字セットがシステム既定でない場合のみ変更する\] チェック ボックスで設定できます。
-- トレイ アイコンのメニューを表示するショート カットを追加しました。既定では、Alt + Ctrl + N で、 [\[トレイ アイコンの設定\] ダイアログ ボックス](../dlg/tray/index) の **\[マウス左ボタンのショートカット**
+- トレイ アイコンのメニューを表示するショート カットを追加しました。既定では、Alt + Ctrl + N で、 [\[トレイ アイコンのカスタマイズ\] ダイアログ ボックス](../dlg/tray/index) の **\[マウス左ボタンのショートカット**
 **キー\]** テキスト ボックスで設定できます。
 - 現在フォーカスのあるテキスト
 ボックスの内容を取り込んで EmEditor を起動し、EmEditor の終了時に元のテキスト ボックスに EmEditor
-の内容で更新することができるようになりました。既定では、Alt + Ctrl + X で、 [\[トレイ アイコンの設定\] ダイアログ ボックス](../dlg/tray/index) の \[EmEditorでテキストを取り込むショートカット キー\] テキスト ボックスで設定できます。
+の内容で更新することができるようになりました。既定では、Alt + Ctrl + X で、 [\[トレイ アイコンのカスタマイズ\] ダイアログ ボックス](../dlg/tray/index) の \[EmEditorでテキストを取り込むショートカット キー\] テキスト ボックスで設定できます。
 - ファイルを保存時、「この文書は、保存用に選択されたエンコードで保存すると失われてしまうUnicode形式の文字を含んでいます。... 継続しますか?」というメッセージが表示された後、キャンセルすると、保存用エンコードに変換できないUnicode文字にジャンプして、Unicode文字を強調表示するようになりました。
 - [コマンド ライン](../howto/file/file_commandline) のオプション /bk、/eh、/fu、/fn、/ko、/mf、/rc、/rd、/ri、/rw
 を追加しました。

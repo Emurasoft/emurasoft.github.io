@@ -13,7 +13,7 @@ wParam = (WPARAM) (BOOL) bReplace;
 lParam = (LPARAM) (LPWSTR) szFileName;
 ```
 
-## パラメータ
+## パラメーター
 
 _bReplace_
 

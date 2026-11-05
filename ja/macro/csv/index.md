@@ -13,7 +13,7 @@
 | [**Heading**](heading) | \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[列ヘディング\] テキスト ボックス に相当します。 |
 | [**LinesCell**](lines_cell) | \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[セル内の最大改行数\] テキスト ボックス に相当します。 |
 | [**MaxDetectLines**](max_detect_lines) | \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[検出最大行数\] テキスト ボックス に相当します。 |
-| [**MinDetectDelimiter**](min_detect_delimiter) | \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[検出最小区切り数\] テキスト ボックス に相当します。 |
+| [**MinDetectDelimiter**](min_detect_delimiter) | \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[検出最小区切り文字数\] テキスト ボックス に相当します。 |
 | [**Name**](name) | 現在の Csv オブジェクトの名前を取得、または設定します。 |
 | [**QuotationMark**](delimiter) | 現在の Csv オブジェクトの引用符文字を取得、または設定します。 |
 | [**RowHeading**](row_heading) | \[カスタマイズ\] ダイアログ ボックスの [\[CSV\] ページ](../../dlg/customize/csv/index) の \[行ヘディング\] テキスト ボックス に相当します。 |

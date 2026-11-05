@@ -16,7 +16,7 @@ str = document.GetColumn( iColumn, strDelimiter, flags, yTop, yLines );
 str = document.GetColumn( iColumn, strDelimiter, flags, yTop, yLines )
 ```
 
-## パラメータ
+## パラメーター
 
 _iColumn_
 
@@ -24,7 +24,7 @@ _iColumn_
 
 _strDelimiter_
 
-出力文字列を区切るための区切り文字列を指定します。このパラメータには空の文字列を指定することはできません。
+出力文字列を区切るための区切り文字列を指定します。このパラメーターには空の文字列を指定することはできません。
 
 _flags_
 

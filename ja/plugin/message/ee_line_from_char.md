@@ -9,7 +9,7 @@ wParam = (WPARAM) (int) nLogical;
 lParam = (LPARAM) (UINT_PTR) nSerialIndex;
 ```
 
-## パラメータ
+## パラメーター
 
 _nLogical_
 
@@ -23,7 +23,7 @@ _nLogical_
 
 _nSerialIndex_
 
-シリアル位置を指定します。このパラメータに (UINT\_PTR)(-1) を指定すると、EE\_LINE\_EROM\_CHAR は、現在行 (カーソル位置の行) の行番号を返します。
+シリアル位置を指定します。このパラメーターに (UINT\_PTR)(-1) を指定すると、EE\_LINE\_EROM\_CHAR は、現在行 (カーソル位置の行) の行番号を返します。
 
 ## 戻り値
 

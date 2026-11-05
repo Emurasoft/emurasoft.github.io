@@ -16,7 +16,7 @@
 | [**QuoteCharacter**](quote_character) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[引用マーク\] テキスト ボックス相当します。 |
 | [**ShowLineNumbers**](show_line_numbers) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[行番号を表示\] チェック ボックスに相当します。 |
 | [**ShowPage**](show_page) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[ページ番号を表示\] チェック ボックスに相当します。 |
-| [**ShowRuler**](show_ruler) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[ルーラを表示\] チェック ボックスに相当します。 |
+| [**ShowRuler**](show_ruler) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[ルーラーを表示\] チェック ボックスに相当します。 |
 | [**VirtualSpace**](virtual_space) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[フリー カーソル モード\] チェック ボックスに相当します。 |
 | [**WrapMode**](wrap_mode) | 設定のプロパティの [\[基本\] ページ](../../dlg/properties/general/index) の \[折り返し方法\] ドロップダウン リスト ボックスに相当します。 |
 

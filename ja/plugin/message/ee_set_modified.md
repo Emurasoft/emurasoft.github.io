@@ -9,7 +9,7 @@ wParam = (WPARAM) (BOOL) bModified;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _bModified_
 

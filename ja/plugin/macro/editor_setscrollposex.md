@@ -4,7 +4,7 @@
 
 Editor\_SetScrollPosEx( HWND hwnd, POINT\_PTR\* pptPos, BOOL bCanMoveCursor );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -12,7 +12,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pptPos_
 
-スクロールバーの位置を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+スクロールバーの位置を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 _bCanMoveCursor_
 

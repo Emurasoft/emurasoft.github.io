@@ -16,7 +16,7 @@ item = List.Item( Index );
 item = List.Item( Index )
 ```
 
-## パラメータ
+## パラメーター
 
 _Index_
 

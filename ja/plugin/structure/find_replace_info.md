@@ -64,11 +64,11 @@ _pszReplace_
 
 _pnCount_
 
-\[out\] nFlags が FLAG\_FIND\_COUNT、FLAG\_FIND\_BOOKMARK、FLAG\_FIND\_SELECT\_ALL、FLAG\_FIND\_EXTRACT、FLAG\_FIND\_FILTER、または FLAG\_REPLACE\_ALL を含んでいる場合、一致する数を受け取る変数へのポインタを指定します。
+\[out\] nFlags が FLAG\_FIND\_COUNT、FLAG\_FIND\_BOOKMARK、FLAG\_FIND\_SELECT\_ALL、FLAG\_FIND\_EXTRACT、FLAG\_FIND\_FILTER、または FLAG\_REPLACE\_ALL を含んでいる場合、一致する数を受け取る変数へのポインターを指定します。
 
 _pnMatchedLines_
 
-\[out\] nFlags が FLAG\_FIND\_COUNT、FLAG\_FIND\_BOOKMARK、FLAG\_FIND\_SELECT\_ALL、FLAG\_FIND\_EXTRACT、FLAG\_FIND\_FILTER、または FLAG\_REPLACE\_ALL を含んでいる場合、一致する行数を受け取る変数へのポインタを指定します。
+\[out\] nFlags が FLAG\_FIND\_COUNT、FLAG\_FIND\_BOOKMARK、FLAG\_FIND\_SELECT\_ALL、FLAG\_FIND\_EXTRACT、FLAG\_FIND\_FILTER、または FLAG\_REPLACE\_ALL を含んでいる場合、一致する行数を受け取る変数へのポインターを指定します。
 
 ## バージョン
 

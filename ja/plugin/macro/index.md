@@ -30,7 +30,7 @@
 | [Editor\_EditTemp](editor_edittemp) | 新規文書として一時テキストを開きます。 |
 | [Editor\_EnumConfig](editor_enumconfig) | 利用可能な設定の一覧を取得します。 |
 | [Editor\_EnumHighlight](editor_enumhighlight) | 強調文字列の一覧を取得します。 |
-| [Editor\_EmptyUndoBuffer](editor_emptyundobuffer) | 元に戻す、やり直しのバッファを空にします |
+| [Editor\_EmptyUndoBuffer](editor_emptyundobuffer) | 元に戻す、やり直しのバッファーを空にします |
 | [Editor\_ExecCommand](editor_execcommand) | 指定するコマンドIDを実行します |
 | [Editor\_ExecPlugin](editor_execplugin) | 指定するプラグインを実行します |
 | [Editor\_ExtractFrequent](editor_extractfrequent) | 頻出文字列を抽出して新規文書を作成します。 |
@@ -152,7 +152,7 @@
 | [Editor\_SetStatusA](editor_setstatusa) | ステータスメッセージにANSI文字列を設定します。 |
 | [Editor\_SetStatusW](editor_setstatusw) | ステータスメッセージにUnicode文字列を設定します。 |
 | [Editor\_ShowOutline](editor_showoutline) | アウトラインを表示または非表示に設定します。 |
-| [Editor\_ShowTip](editor_showtip) | ツールチップの表示/非表示を切り替えます。 |
+| [Editor\_ShowTip](editor_showtip) | ツール チップの表示/非表示を切り替えます。 |
 | [Editor\_Sort](editor_sort) | 文書を並べ替えます。 |
 | [Editor\_SplitColumn](editor_splitcolumn) | 現在の CSV 文書の指定された列を分割します。 |
 | [Editor\_ToolbarClose](editor_toolbarclose) | カスタム ツール バーを閉じます。 |

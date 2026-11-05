@@ -8,7 +8,7 @@ wParam = 0;
 lParam = (LPARAM) (LPCSTR) szConfigName;
 ```
 
-## パラメータ
+## パラメーター
 
 _szConfigName_
 

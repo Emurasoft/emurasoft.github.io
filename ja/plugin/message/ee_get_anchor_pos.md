@@ -8,7 +8,7 @@ wParam = (WPARAM) (int) nLogical;
 lParam = (LPARAM) (POINT_PTR*) pptPos;
 ```
 
-## パラメータ
+## パラメーター
 
 _nLogical_
 
@@ -23,7 +23,7 @@ _nLogical_
 
 _pptPos_
 
-カーソル位置を格納するための [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+カーソル位置を格納するための [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 ## 戻り値
 

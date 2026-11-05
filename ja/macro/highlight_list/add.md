@@ -16,7 +16,7 @@ list.Add( sName, nColor, bWord, bRightSide, bRightAll, bCase, bInsideTag, bRegEx
 list.Add sName, nColor, bWord, bRightSide, bRightAll, bCase, bInsideTag, bRegExp
 ```
 
-## パラメータ
+## パラメーター
 
 _sName_
 
@@ -40,7 +40,7 @@ _bRightAll_
 
 _bCase_
 
-設定のプロパティの [\[強調(1)\] ページ](../../dlg/properties/highlight1/index) の \[大文字小文字を区別\] チェック ボックスに相当します。
+設定のプロパティの [\[強調(1)\] ページ](../../dlg/properties/highlight1/index) の \[大文字と小文字を区別する\] チェック ボックスに相当します。
 
 _bInsideTag_
 

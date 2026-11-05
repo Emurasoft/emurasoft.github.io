@@ -10,7 +10,7 @@ wParam = nFlags;
 
 lParam = 0;
 
-## パラメータ
+## パラメーター
 
 _hwndView_
 

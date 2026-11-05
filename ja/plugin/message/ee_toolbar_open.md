@@ -8,7 +8,7 @@ wParam = 0;
 lParam = (LPARAM) (TOOLBAR_INFO*) pToolbarInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pToolbarInfo_
 

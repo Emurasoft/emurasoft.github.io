@@ -4,7 +4,7 @@
 
 #language = "_ScriptName_"
 
-## パラメータ
+## パラメーター
 
 _ScriptName_
 
@@ -71,8 +71,8 @@ Window.document.write( "Hello!" );
 
 document.write "Hello!";
 
-他の ActiveScript の場合、レジストリエディタ (regedit.exe) で、{F0B7A1A2-9847-11CF-8F20-00805F2CD064} のキーを検索します。そして、その１つ上の階層のキーが、Implemented Categories になっていたら、さらにその上の階層のキーの既定の値が使いたいスクリプトの名前かどうかを調べます。目的のスクリプトだったら、その下の階層の ProgID のキーの既定の値を控えます。この値で ScriptName
-パラメータを置き換えます。ただし、最後にピリオドと数字が付いていたら、その部分は、通常、省略することもできます。例えば、GlobalRubyScript.1 となっていたら GlobalRubyScript とだけ指定することができます。
+他の ActiveScript の場合、レジストリエディター (regedit.exe) で、{F0B7A1A2-9847-11CF-8F20-00805F2CD064} のキーを検索します。そして、その１つ上の階層のキーが、Implemented Categories になっていたら、さらにその上の階層のキーの既定の値が使いたいスクリプトの名前かどうかを調べます。目的のスクリプトだったら、その下の階層の ProgID のキーの既定の値を控えます。この値で ScriptName
+パラメーターを置き換えます。ただし、最後にピリオドと数字が付いていたら、その部分は、通常、省略することもできます。例えば、GlobalRubyScript.1 となっていたら GlobalRubyScript とだけ指定することができます。
 
 ## 注意
 

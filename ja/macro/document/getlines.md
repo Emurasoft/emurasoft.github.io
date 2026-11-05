@@ -16,7 +16,7 @@ nLines = document.GetLines( [ nFlags ] );
 nLines = document.GetLines( [ nFlags] )
 ```
 
-## パラメータ
+## パラメーター
 
 _nFlags_
 

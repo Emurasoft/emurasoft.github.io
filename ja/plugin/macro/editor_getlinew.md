@@ -6,7 +6,7 @@ Editor\_GetLineW( HWND hwnd, GET\_LINE\_INFO\* pGetLineInfo, LPWSTR szString );
 
 Editor\_GetLineW( HWND hwnd, HEEDOC hDoc, UINT\_PTR yLine, LPWSTR pBuf, UINT\_PTR cchBuf, UINT flags, BYTE byteCrLf )
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -14,11 +14,11 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pGetLineInfo_
 
-[GET\_LINE\_INFO 構造体](../structure/get_line_info) へのポインタを指定します。
+[GET\_LINE\_INFO 構造体](../structure/get_line_info) へのポインターを指定します。
 
 _szString_
 
-テキストを取得するバッファへのポインタを指定します。
+テキストを取得するバッファーへのポインターを指定します。
 
 _hDoc_
 
@@ -30,12 +30,12 @@ _yLine_
 
 _pBuf_
 
-テキストを取得するバッファへのポインタを指定します。
+テキストを取得するバッファーへのポインターを指定します。
 
 _cchBuf_
 
-_pBuf_ パラメータで、テキストを取得するバッファに格納することができる文字列の文字数を終端 Null
-文字を含めて指定します。 0 を指定すると、バッファに必要な文字数を返すように指定することになります。
+_pBuf_ パラメーターで、テキストを取得するバッファーに格納することができる文字列の文字数を終端 Null
+文字を含めて指定します。 0 を指定すると、バッファーに必要な文字数を返すように指定することになります。
 
 _flags_
 
@@ -61,5 +61,5 @@ _byteCrLf_
 
 ## 戻り値
 
-_cchBuf_ に 0 を指定した場合、バッファに必要なサイズを文字単位で返します。 _cchBuf_
+_cchBuf_ に 0 を指定した場合、バッファーに必要なサイズを文字単位で返します。 _cchBuf_
 が 0 以外の場合は利用されません。

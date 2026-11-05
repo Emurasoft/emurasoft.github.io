@@ -16,7 +16,7 @@ shell.SendKeys( str );
 shell.SendKeys str
 ```
 
-## パラメータ
+## パラメーター
 
 _str_
 
@@ -66,7 +66,7 @@ _str_
 | マウス下 | {BTNDOWN button, x, y} |
 | マウス上 | {BTNUP button, x, y} |
 | マウス クリック | {CLICK button, x, y} |
-| マウス ダブルクリック | {DBLCLICK button, x, y} |
+| マウス ダブル クリック | {DBLCLICK button, x, y} |
 | マウス移動 | {MOVETO, x, y} |
 | 無変換 | {NONCONVERT} |
 | NUM LOCK | {NUMLOCK} |

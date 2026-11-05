@@ -16,11 +16,11 @@ editor.Numbering( strFirst, strInc, nMaxLines [, nFlags ] );
 editor.Numbering strFirst, strInc, nMaxLines [, nFlags ]
 ```
 
-## パラメータ
+## パラメーター
 
 _strFirst_
 
-最初の行に挿入する初期値または文字を指定します。このテキストには、数字でない接頭語または接尾語 (または両方) を追加することができます ( _nFlags_ パラメータに eeNumOther が選択されていない場合に限る)。
+最初の行に挿入する初期値または文字を指定します。このテキストには、数字でない接頭語または接尾語 (または両方) を追加することができます ( _nFlags_ パラメーターに eeNumOther が選択されていない場合に限る)。
 
 _strInc_
 

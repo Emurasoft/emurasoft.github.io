@@ -16,7 +16,7 @@ nStatus = shell.GetKeyState( nVirtKey );
 nStatus = shell.GetKeyState( nVirtKey )
 ```
 
-## パラメータ
+## パラメーター
 
 _nVirtKey_
 

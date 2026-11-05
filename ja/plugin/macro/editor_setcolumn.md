@@ -4,7 +4,7 @@ CSV モードで指定する列に文字列を設定または挿入します。�
 
 Editor\_SetColumn( HWND hwnd, COLUMN\_STRUCT\* pColumnStruct );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -12,7 +12,7 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pGetLineInfo_
 
-[COLUMN\_STRUCT 構造体](../structure/column_struct) へのポインタを指定します。
+[COLUMN\_STRUCT 構造体](../structure/column_struct) へのポインターを指定します。
 
 ## 戻り値
 

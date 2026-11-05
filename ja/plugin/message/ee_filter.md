@@ -9,11 +9,11 @@ wParam = (WPARAM) (FILTER_INFO_EX*) pFilterInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pFilterInfo_
 
-[FILTER\_INFO\_EX 構造体](../structure/filter_info_ex) へのポインタを指定します。
+[FILTER\_INFO\_EX 構造体](../structure/filter_info_ex) へのポインターを指定します。
 
 ## 戻り値
 

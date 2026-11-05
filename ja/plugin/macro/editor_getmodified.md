@@ -5,7 +5,7 @@
 
 Editor\_GetModified( HWND hwnd );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

@@ -16,7 +16,7 @@ str = document.GetLine( yLine [, nFlags ] );
 str = document.GetLine( yLine [, nFlags ] )
 ```
 
-## パラメータ
+## パラメーター
 
 _yLine_
 

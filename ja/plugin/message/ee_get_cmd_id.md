@@ -8,7 +8,7 @@ wParam = 0;
 lParam = (LPARAM) (HINSTANCE) hInstance
 ```
 
-## パラメータ
+## パラメーター
 
 _hInstance_
 

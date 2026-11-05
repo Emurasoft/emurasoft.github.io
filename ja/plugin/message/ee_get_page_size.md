@@ -8,11 +8,11 @@ wParam = 0;
 lParam = (LPARAM) (SIZE_PTR*) psizePage;
 ```
 
-## パラメータ
+## パラメーター
 
 _psizePage_
 
-1ページに表示できる行数と桁数を表す [SIZE\_PTR 構造体](../structure/size_ptr) へのポインタを指定します。
+1ページに表示できる行数と桁数を表す [SIZE\_PTR 構造体](../structure/size_ptr) へのポインターを指定します。
 
 ## 戻り値
 

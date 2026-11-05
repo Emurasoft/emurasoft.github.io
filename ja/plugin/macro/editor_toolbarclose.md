@@ -4,7 +4,7 @@
 
 Editor\_ToolbarClose( HWND hwnd, UINT nCustomRebarID );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

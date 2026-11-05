@@ -1,6 +1,6 @@
 # Editor\_IsCharHalfOrFull
 
-指定する (1) UTF-16 で表現された、または (2) スカラ値で表現された文字が半角か全角かを調べます。(3) また、指定した文字列の幅の合計を数えることもできます。このインライン関数を使うか、または
+指定する (1) UTF-16 で表現された、または (2) スカラー値で表現された文字が半角か全角かを調べます。(3) また、指定した文字列の幅の合計を数えることもできます。このインライン関数を使うか、または
 [EE\_IS\_CHAR\_HALF\_OR\_FULL メッセージ](../message/ee_is_char_half_or_full) を直接送ることができます。
 
 (1) Editor\_IsCharHalfOrFull( HWND hwnd, WCHAR ch );
@@ -9,7 +9,7 @@
 
 (3) Editor\_IsCharHalfOrFull( HWND hwnd, LPCWSTR pStr, INT\_PTR cchStr )
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

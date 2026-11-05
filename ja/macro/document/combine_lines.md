@@ -16,7 +16,7 @@ nCount = document.CombineLines( strColumnsToInspect, strColumnsToCombine, strIns
 nCount = document.CombineLines( strColumnsToInspect, strColumnsToCombine, strInsert, strSortType, flags, strLocale )
 ```
 
-## パラメータ
+## パラメーター
 
 _strColumns_
 
@@ -68,7 +68,7 @@ option: 以下のテーブルから並べ替えオプションを選択します
 
 _nFlags_
 
-次の値の組み合わせを指定します。重複文字列を削除するには、eeRemoveDuplicates を指定する必要があります。その他のフラグは、 _strSortType_ に空でない文字列を指定した場合だけ、指定できます。このパラメータは省略できます。
+次の値の組み合わせを指定します。重複文字列を削除するには、eeRemoveDuplicates を指定する必要があります。その他のフラグは、 _strSortType_ に空でない文字列を指定した場合だけ、指定できます。このパラメーターは省略できます。
 
 |     |     |
 | --- | --- |

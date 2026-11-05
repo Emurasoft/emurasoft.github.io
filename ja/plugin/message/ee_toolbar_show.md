@@ -8,7 +8,7 @@ EE_TOOLBAR_SHOW
 (BOOL)lParam = bVisible
 ```
 
-## パラメータ
+## パラメーター
 
 _nToolbarID_
 

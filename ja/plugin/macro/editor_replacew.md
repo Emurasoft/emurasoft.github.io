@@ -4,7 +4,7 @@ Unicode文字列を置換します。このインライン関数を使うか、�
 
 Editor\_ReplaceW( HWND hwnd, UINT nFlags, LPCWSTR szFindReplace );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

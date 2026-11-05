@@ -1,6 +1,6 @@
 # EE\_EMPTY\_UNDO\_BUFFER
 
-元に戻す、やり直しのバッファを空にします。このメッセージを直接送るか、または
+元に戻す、やり直しのバッファーを空にします。このメッセージを直接送るか、または
 [Editor\_EmptyUndoBuffer インライン関数](../macro/editor_emptyundobuffer) を使うことができます。
 
 ```
@@ -9,7 +9,7 @@ wParam = 0;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 なし。
 

@@ -16,7 +16,7 @@ shell.DeleteFile( strFolder );
 shell.DeleteFile strFolder
 ```
 
-## パラメータ
+## パラメーター
 
 _strFile_
 

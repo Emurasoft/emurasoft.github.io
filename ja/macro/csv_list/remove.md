@@ -16,7 +16,7 @@ list.Remove( Index );
 list.Remove Index
 ```
 
-## パラメータ
+## パラメーター
 
 _Index_
 

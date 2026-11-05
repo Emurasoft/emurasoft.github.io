@@ -8,11 +8,11 @@ wParam = 0;
 lParam = (LPARAM) (AUTOFILL_INFO*) pInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[AUTOFILL\_INFO 構造体](../structure/autofill_info) へのポインタを指定します。
+[AUTOFILL\_INFO 構造体](../structure/autofill_info) へのポインターを指定します。
 
 ## 戻り値
 

@@ -12,18 +12,18 @@
 
 |     |     |
 | --- | --- |
-| [CreateFolder](create_folder) | フォルダを作成します。 |
+| [CreateFolder](create_folder) | フォルダーを作成します。 |
 | [DeleteFile](delete_file) | 指定するファイルを削除します。 |
-| [DeleteFolder](delete_folder) | 指定するフォルダとその中身を削除します。指定したフォルダが空でなくも削除されます。 |
+| [DeleteFolder](delete_folder) | 指定するフォルダーとその中身を削除します。指定したフォルダーが空でなくも削除されます。 |
 | [FileExists](file_exists) | 指定するファイルが存在すれば true を、存在しなければ false を返します。 |
 | [FindWindow](find_window) | クラス名またはウィンドウ タイトルでトップ レベルの Window オブジェクトを検索します。 |
-| [FolderExists](folder_exists) | 指定するフォルダが存在すれば true を、存在しなければ false を返します。 |
+| [FolderExists](folder_exists) | 指定するフォルダーが存在すれば true を、存在しなければ false を返します。 |
 | [GetEnv](get_env) | 環境変数を取得します。 |
-| [GetFileAttributes](get_file_attributes) | 指定するファイルまたはフォルダの属性を返します。 |
+| [GetFileAttributes](get_file_attributes) | 指定するファイルまたはフォルダーの属性を返します。 |
 | [GetKeyState](get_key_state) | 指定する仮想キーのステータスを取得します。 |
 | [Run](run) | 新規プロセスでプログラムを実行します。 |
 | [SendKeys](send_keys) | アクティブなウィンドウにキー ストローク (またはマウス アクティビティ) を送ります。 |
-| [SetFileAttributes](set_file_attributes) | 指定するファイルまたはフォルダの属性を設定します。 |
+| [SetFileAttributes](set_file_attributes) | 指定するファイルまたはフォルダーの属性を設定します。 |
 
 ## バージョン
 

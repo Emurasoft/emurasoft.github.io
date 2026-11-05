@@ -1,24 +1,24 @@
 # 外部ツールの定義例
 
--  インターネット エクスプローラを開く
+-  インターネット エクスプローラーを開く
 
 \[コマンド\] C:\\Program Files\\Internet Explorer\\iexplore.exe
 
 \[引数\] $(Path)
 
-\[初期ディレクトリ\] $(Dir)
+\[初期フォルダー\] $(Dir)
 
 \[アイコン パス\] C:\\Program Files\\Internet Explorer\\iexplore.exe
 
 \[ファイルを保存\] をチェック
 
-- エクスプローラを開く
+- エクスプローラーを開く
 
 \[コマンド\] %WinDir%\\explorer.exe
 
 \[引数\] $(Dir)
 
-\[初期ディレクトリ\] $(Dir)
+\[初期フォルダー\] $(Dir)
 
 \[アイコン パス\] %WinDir%\\explorer.exe
 
@@ -28,7 +28,7 @@
 
 \[引数\] $(Dir)
 
-\[初期ディレクトリ\] $(Dir)
+\[初期フォルダー\] $(Dir)
 
 \[アイコン パス\] %WinDir%\\system32\\cmd.exe
 
@@ -38,7 +38,7 @@
 
 \[引数\] /k "C:\\Program Files\\Visual Studio\\Vc7\\bin\\vcvars32.bat"&&cl $(Path)
 
-\[初期ディレクトリ\] $(Dir)
+\[初期フォルダー\] $(Dir)
 
 \[アイコン パス\] C:\\Program Files\\Visual Studio\\Common7\\IDE\\devenv.exe
 
@@ -50,7 +50,7 @@
 
 \[引数\]
 
-\[初期ディレクトリ\] $(Dir)
+\[初期フォルダー\] $(Dir)
 
 \[アイコン パス\]
 
@@ -62,18 +62,18 @@
 
 \[引数\]
 
-\[初期ディレクトリ\]
+\[初期フォルダー\]
 
 \[アイコン パス\]
 
-- Microsoft Visual SourceSafe からチェック アウトする
+- Microsoft Visual SourceSafe からチェックアウトする
 
 \[コマンド\] %WinDir%\\system32\\cmd.exe
 
 \[引数\] /k C:\\(SourceSafe のパス)\\Common\\VSS\\win32\\SS.EXE checkout
 $/(パス)/$(Filename).$(Ext) -y(ユーザー名)
 
-\[初期ディレクトリ\] $(Dir)
+\[初期フォルダー\] $(Dir)
 
 \[アイコン パス\] C:\\(SourceSafe のパス)\\Common\\VSS\\win32\\SSEXP.EXE
 
@@ -84,17 +84,17 @@ $/(パス)/$(Filename).$(Ext) -y(ユーザー名)
 \[引数\] /k C:\\(SourceSafe のパス)\\Common\\VSS\\win32\\SS.EXE checkin
 $/(パス)/$(Filename).$(Ext) -y(ユーザー名)
 
-\[初期ディレクトリ\] $(Dir)
+\[初期フォルダー\] $(Dir)
 
 \[アイコン パス\] C:\\(SourceSafe のパス)\\Common\\VSS\\win32\\SSEXP.EXE
 
 \[ファイルを保存\] をチェック
 
-\[コマンド\]、\[引数\]、\[初期ディレクトリ\]、\[アイコン パス\] には、次のあらかじめ定義された引数を使うことができます。
+\[コマンド\]、\[引数\]、\[初期フォルダー\]、\[アイコン パス\] には、次のあらかじめ定義された引数を使うことができます。
 
 $(Path) ファイルの完全パス名
 
-$(Dir) ファイルのディレクトリ名
+$(Dir) ファイルのフォルダー
 
 $(Filename) 拡張子を除くファイル名
 

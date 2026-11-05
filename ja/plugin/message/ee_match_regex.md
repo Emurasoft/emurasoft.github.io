@@ -8,11 +8,11 @@ wParam = 0;
 lParam = (LPARAM) (MATCH_REGEX_INFO_EX*) pMatchRegexInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pMatchRegexInfo_
 
-[MATCH\_REGEX\_INFO\_EX 構造体](../structure/match_regex_info_ex)、または [MATCH\_REGEX\_INFO 構造体](../structure/match_regex_info) へのポインタを指定します。
+[MATCH\_REGEX\_INFO\_EX 構造体](../structure/match_regex_info_ex)、または [MATCH\_REGEX\_INFO 構造体](../structure/match_regex_info) へのポインターを指定します。
 
 ## 戻り値
 

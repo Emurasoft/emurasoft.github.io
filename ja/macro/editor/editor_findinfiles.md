@@ -16,7 +16,7 @@ nFound = editor.FindInFiles( strFind, strPath, nFlags, [ nEncoding, [ strFilesT
 nFound = editor.FindInFiles strFind, strPath, nFlags, [ nEncoding, [ strFilesToIgnore, [ nExFlags, [ nLimit ] ] ] ]
 ```
 
-## パラメータ
+## パラメーター
 
 _strFind_
 
@@ -35,10 +35,10 @@ _nFlags_
 | eeFindOpenDirect | ファイルから検索の結果を一覧としては表示せずに、検索文字列を含むファイルを直接開きます。eeFindOpenFilter または eeFindOutput と組み合わせて指定できません。 |
 | eeFindOpenFilter | ファイルから検索の結果を一覧としては表示せずに、検索文字列を含むファイルを直接開き、さらにフィルターに検索文字列を設定します。eeFindOpenDirect または eeFindOutput と組み合わせて指定できません。 |
 | eeFindOutput | ファイルから検索の場合、検索結果をアウトプット バーに表示します。eeFindOpenDirect または eeFindOpenFilter と組み合わせて指定できません。 |
-| eeFindRecursive | サブフォルダも検索します。 |
+| eeFindRecursive | サブフォルダーも検索します。 |
 | eeFindReplaceCase | 大文字と小文字を区別して検索します。 |
 | eeFindReplaceEscSeq | 文字列をエスケープ シーケンスで指定します。eeFindReplaceRegExp と組み合わせて指定できません。 |
-| eeFindReplaceIgnoreFiles | _strFilesToIgnore_ で指定する名前のファイルまたはフォルダを無視します。 |
+| eeFindReplaceIgnoreFiles | _strFilesToIgnore_ で指定する名前のファイルまたはフォルダーを無視します。 |
 | eeFindReplaceOnlyWord | 単語のみを検索します。 |
 | eeFindReplaceRegExp | 文字列を正規表現で指定します。eeFindReplaceEscSeq と組み合わせて指定できません。 |
 | eeFindSaveHistory | 検索した文字列を履歴に保存します。 |
@@ -66,7 +66,7 @@ Windows で使用されるエンコードを指定します。0 を指定する�
 _strFilesToIgnore_
 
 _nFlags_ に eeFindReplaceIgnoreFiles
-を指定した場合、無視するファイルまたはフォルダの名前を指定します。ここには、\\* または ? のワイルド
+を指定した場合、無視するファイルまたはフォルダーの名前を指定します。ここには、\\* または ? のワイルド
 カードを含めて指定することができます。複数のファイルを指定する場合は、; で区切ります。
 
 _nExFlags_

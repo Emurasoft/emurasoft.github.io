@@ -16,7 +16,7 @@ list.AddCharacterRange( nMin, nMax, sProperties, sTreatAs );
 list.AddCharacterRange nMin, nMax, sProperties, sTreatAs
 ```
 
-## パラメータ
+## パラメーター
 
 _nMin_
 

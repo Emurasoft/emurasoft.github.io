@@ -4,7 +4,7 @@
 
 Editor\_CloseTemp( HWND hwnd, UINT nEditID );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

@@ -16,7 +16,7 @@ nSerialPos = document.LogicalToSerial( x, y );
 nSerialPos = document.LogicalToSerial( x, y )
 ```
 
-## パラメータ
+## パラメーター
 
 _x_
 

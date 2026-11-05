@@ -1,6 +1,6 @@
 # SetFileAttributes メソッド (Shell オブジェクト)
 
-指定するファイルまたはフォルダの属性を設定します。
+指定するファイルまたはフォルダーの属性を設定します。
 
 ## 
 
@@ -16,11 +16,11 @@ shell.SetFileAttributes( strFile, nAttr );
 shell.SetFileAttributes strFile, nAttr
 ```
 
-## パラメータ
+## パラメーター
 
 _strFile_
 
-属性を設定するファイルまたはフォルダの完全パス。
+属性を設定するファイルまたはフォルダーの完全パス。
 
 _nAttr_
 

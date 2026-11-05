@@ -4,7 +4,7 @@
 
 Editor\_GetClipPos( HWND hwnd );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

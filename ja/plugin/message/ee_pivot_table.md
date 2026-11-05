@@ -8,11 +8,11 @@ wParam = (WPARAM)(PIVOT_TABLE_INFO*)pInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[PIVOT\_TABLE\_INFO 構造体](../structure/pivot_table_info) へのポインタを指定します。
+[PIVOT\_TABLE\_INFO 構造体](../structure/pivot_table_info) へのポインターを指定します。
 
 ## 戻り値
 

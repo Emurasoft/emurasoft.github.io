@@ -16,7 +16,7 @@ str = shell.GetEnv( strName );
 str = shell.GetEnv( strName )
 ```
 
-## パラメータ
+## パラメーター
 
 _strName_
 

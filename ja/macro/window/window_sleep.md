@@ -16,7 +16,7 @@ Sleep( nMilliseconds );
 Sleep nMilliseconds
 ```
 
-## パラメータ
+## パラメーター
 
 _nMilliseconds_
 

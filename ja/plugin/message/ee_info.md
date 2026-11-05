@@ -16,7 +16,7 @@ wParam = MAKEWPARAM(nCmd, iDoc+1);
 lParam = (LPARAM)lParam;
 ```
 
-## パラメータ
+## パラメーター
 
 _nCmd_
 
@@ -34,16 +34,16 @@ _nCmd_
 | EI\_GET\_INPUT\_CP | 入力言語に対応するコードページを取得します。 | 使用されません。 | (UINT)nCP<br> コードページ。 |
 | EI\_GET\_SHOW\_TAG | タグを下線表示するかどうかを取得します。 | 使用されません。 | (BOOL)bShowTag<br> TRUEならタグを下線表示します。 |
 | EI\_SET\_SHOW\_TAG | タグを下線表示するかどうかを設定します。 | (BOOL)bShowTag<br> TRUEならタグを下線表示します。 | 使用されません。 |
-| EI\_GET\_FILE\_NAMEA | 開いているファイル名をANSI文字列で取得します。 | (LPSTR)szFileName<br> ファイル名を取得するバッファへのポインタを指定します。バッファには、NULL文字を含めてMAX\_PATHバイトを確保しておく必要があります。 | 使用されません。 |
-| EI\_GET\_FILE\_NAME\_EX | 開いているファイル名をUnicode文字列で取得します。 | (STRING\_BUF\*)pStringBuf<br> ファイル名を取得するための [STRING\_BUF 構造体](../structure/string_buf) へのポインタを指定します。 | 使用されません。 |
-| EI\_GET\_FILE\_NAMEW | 開いているファイル名をUnicode文字列で取得します。 | (LPWSTR)szFileName<br> ファイル名を取得するバッファへのポインタを指定します。バッファには、NULL文字を含めてMAX\_PATH文字分を確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_FILE\_NAMEA | 開いているファイル名をANSI文字列で取得します。 | (LPSTR)szFileName<br> ファイル名を取得するバッファーへのポインターを指定します。バッファーには、NULL文字を含めてMAX\_PATHバイトを確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_FILE\_NAME\_EX | 開いているファイル名をUnicode文字列で取得します。 | (STRING\_BUF\*)pStringBuf<br> ファイル名を取得するための [STRING\_BUF 構造体](../structure/string_buf) へのポインターを指定します。 | 使用されません。 |
+| EI\_GET\_FILE\_NAMEW | 開いているファイル名をUnicode文字列で取得します。 | (LPWSTR)szFileName<br> ファイル名を取得するバッファーへのポインターを指定します。バッファーには、NULL文字を含めてMAX\_PATH文字分を確保しておく必要があります。 | 使用されません。 |
 | EI\_SET\_FILE\_NAMEW | 現在開いているファイル名をリネームします。文書が無題の場合、ファイルを保存しないで文書のタイトルを変更します。 | (LPCWSTR)pszName<br>新しい名前を指定します。 | (HRESULT)hr<br>失敗すると負の値を返します。 |
 | EI\_IS\_PROPORTIONAL\_FONT | 表示フォントがプロポーショナル フォントかどうかを取得します。Windows XP/2003 では、常に TRUE を返します。 | 使用されません。 | (BOOL)bProportionalFont<br> プロポーショナル フォントなら TRUE を、固定幅なら FALSE を返します。 |
 | EI\_GET\_NEXT\_BOOKMARK | 次のブックマーク位置を取得します。 | (INT\_PTR)yLine<br> 検索を開始する論理行を指定します。-1 を指定すると、文書の先頭から検索を始めます。 | (INT\_PTR)yLine<br> 検索したブックマークの論理行を返します。見つからない場合は -1 を返します。 |
 | EI\_GET\_HILITE\_FIND | 検索文字列を強調表示するかどうかを取得します。 | 使用されません。 | (BOOL)bShowFindHilite |
 | EI\_SET\_HILITE\_FIND | 検索文字列を強調表示するかどうかを設定します。 | (BOOL)bShowFindHilite | 使用されません。 |
-| EI\_GET\_APP\_VERSIONA | バージョン名をANSI文字列で取得します。 | (LPSTR)szVersionName<br> バージョン名を取得するバッファへのポインタを指定します。バッファには、NULL文字を含めてMAX\_PATHバイトを確保しておく必要があります。 | 使用されません。 |
-| EI\_GET\_APP\_VERSIONW | バージョン名をUnicode文字列で取得します。 | (LPWSTR)szVersionName<br> バージョン名を取得するバッファへのポインタを指定します。バッファには、NULL文字を含めてMAX\_PATH文字分を確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_APP\_VERSIONA | バージョン名をANSI文字列で取得します。 | (LPSTR)szVersionName<br> バージョン名を取得するバッファーへのポインターを指定します。バッファーには、NULL文字を含めてMAX\_PATHバイトを確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_APP\_VERSIONW | バージョン名をUnicode文字列で取得します。 | (LPWSTR)szVersionName<br> バージョン名を取得するバッファーへのポインターを指定します。バッファーには、NULL文字を含めてMAX\_PATH文字分を確保しておく必要があります。 | 使用されません。 |
 | EI\_GET\_READ\_ONLY | 書き換え禁止状態かどうかを取得します。 | 使用されません。 | (BOOL)bReadOnly |
 | EI\_IS\_WINDOW\_COMBINED | ウィンドウが結合された状態かどうかを取得します。 | 使用されません。 | (BOOL)bCombined |
 | EI\_WINDOW\_COMBINE | ウィンドウの結合状態を設定します。 | (BOOL)bCombined<br> TRUEなら結合します。FALSEなら結合を解除します。 | 使用されません。 |
@@ -55,19 +55,19 @@ _nCmd_
 | EI\_DOC\_TO\_ZORDER | ドキュメントのハンドルから Z オーダーに変換します。 | ドキュメントへのハンドルを指定します。 | (int)nZOrder<br> ドキュメントの 0 を基底とする Z オーダーを返します。 |
 | EI\_GET\_ACTIVE\_INDEX | アクティブなドキュメントのインデックスを取得します。 | 使用されません。 | (int)nIndex<br> ドキュメントの 0 を基底とするインデックスを返します。 |
 | EI\_SET\_ACTIVE\_INDEX | ドキュメントをアクティブにします。 | 使用されません。 | (BOOL)bSuccess<br> 成功すると TRUE を、失敗すると FALSE を返します。 |
-| EI\_GET\_FULL\_TITLEA | ドキュメントの長いタイトルを ANSI 文字列で取得します。 | (LPSTR)szＴｉｔｌｅ<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX\_PATH バイトを確保しておく必要があります。 | 使用されません。 |
-| EI\_GET\_FULL\_TITLEW | ドキュメントの長いタイトルを Unicode 文字列で取得します。 | (LPWSTR)szTitle<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | 使用されません。 |
-| EI\_GET\_SHORT\_TITLEA | ドキュメントの短いタイトルを ANSI 文字列で取得します。 | (LPSTR)szＴｉｔｌｅ<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX\_PATH バイトを確保しておく必要があります。 | 使用されません。 |
-| EI\_GET\_SHORT\_TITLEW | ドキュメントの短いタイトルを Unicode 文字列で取得します。 | (LPWSTR)szTitle<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | 使用されません。 |
-| EI\_GET\_SAVE\_AS\_TITLEA | ドキュメントの長いタイトルからファイルが変更されたかどうかを示すアスタリスク「\*」を除いた文字列を ANSI 文字列で取得します。 | (LPSTR)szＴｉｔｌｅ<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX\_PATH バイトを確保しておく必要があります。 | 使用されません。 |
-| EI\_GET\_SAVE\_AS\_TITLEW | ドキュメントの長いタイトルからファイルが変更されたかどうかを示すアスタリスク「\*」を除いた文字列を Unicode 文字列で取得します。 | (LPWSTR)szTitle<br> タイトルを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_FULL\_TITLEA | ドキュメントの長いタイトルを ANSI 文字列で取得します。 | (LPSTR)szＴｉｔｌｅ<br> タイトルを取得するバッファーへのポインターを指定します。バッファーには、NULL 文字を含めて MAX\_PATH バイトを確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_FULL\_TITLEW | ドキュメントの長いタイトルを Unicode 文字列で取得します。 | (LPWSTR)szTitle<br> タイトルを取得するバッファーへのポインターを指定します。バッファーには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_SHORT\_TITLEA | ドキュメントの短いタイトルを ANSI 文字列で取得します。 | (LPSTR)szＴｉｔｌｅ<br> タイトルを取得するバッファーへのポインターを指定します。バッファーには、NULL 文字を含めて MAX\_PATH バイトを確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_SHORT\_TITLEW | ドキュメントの短いタイトルを Unicode 文字列で取得します。 | (LPWSTR)szTitle<br> タイトルを取得するバッファーへのポインターを指定します。バッファーには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_SAVE\_AS\_TITLEA | ドキュメントの長いタイトルからファイルが変更されたかどうかを示すアスタリスク「\*」を除いた文字列を ANSI 文字列で取得します。 | (LPSTR)szＴｉｔｌｅ<br> タイトルを取得するバッファーへのポインターを指定します。バッファーには、NULL 文字を含めて MAX\_PATH バイトを確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_SAVE\_AS\_TITLEW | ドキュメントの長いタイトルからファイルが変更されたかどうかを示すアスタリスク「\*」を除いた文字列を Unicode 文字列で取得します。 | (LPWSTR)szTitle<br> タイトルを取得するバッファーへのポインターを指定します。バッファーには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | 使用されません。 |
 | EI\_MOVE\_ORDER | ドキュメントのタブの順番を変更します。 | 移動先のTabの位置を 0 を基底とするインデックスで指定します。 | 使用されません。 |
 | EI\_CLOSE\_DOC | ドキュメントを閉じます。 | 使用されません。 | (BOOL)bSuccess<br> 成功すると TRUE を、失敗すると FALSE を返します。 |
 | EI\_SAVE\_DOC | ドキュメントを保存します。無題の場合は「名前を付けて保存」ダイアログ ボックスが表示されます。 | 使用されません。 | (BOOL)bSuccess<br> 成功すると TRUE を、失敗すると FALSE を返します。無題の場合に「名前を付けて保存」ダイアログ ボックスで \[キャンセル\] を選択すると、FALSE を返します。 |
-| EI\_GET\_CURRENT\_FOLDER | 現在の作業フォルダを取得します。 | (LPWSTR)szDir<br> フォルダ名を取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_CURRENT\_FOLDER | 現在の作業フォルダーを取得します。 | (LPWSTR)szDir<br> フォルダー名を取得するバッファーへのポインターを指定します。バッファーには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | 使用されません。 |
 | EI\_IS\_LARGE\_DOC | 非常に大きなファイルかどうかを取得します。 | 使用されません。 | (BOOL)bLarge<br> 非常に大きなファイルの場合は TRUE を、そうでなければ FALSE を返します。 |
 | EI\_USE\_INI | INI ファイルがレジストリの代わりに使用されているかどうかを取得します。 | 使用されません。 | (BOOL)bIni<br> INI ファイルが使用されている場合は TRUE を、レジストリが使用されている場合は FALSE を返します。 |
-| EI\_GET\_LANGUAGE | 現在選択されているユーザー インターフェイス用の言語を取得します。 | (LPWSTR)szFolder<br> 言語フォルダを取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | (UINT)nLangID<br> 現在選択されている言語 ID を返します。 |
+| EI\_GET\_LANGUAGE | 現在選択されているユーザー インターフェイス用の言語を取得します。 | (LPWSTR)szFolder<br> 言語フォルダーを取得するバッファーへのポインターを指定します。バッファーには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | (UINT)nLangID<br> 現在選択されている言語 ID を返します。 |
 | EI\_COMBINE\_HISTORY | 元に戻す履歴の1つとして、次の変更を前の変更と結合するかどうかを指定します。 | (BOOL)bCombine<br> 結合する場合は TRUE を返します | 使用されません。 |
 | EI\_GET\_BAR\_TEXT\_COLOR | カスタム バーの文字色を取得します。 | 使用されません。 | (COLORREF)clrText<br> 文字色の RGB 値。 |
 | EI\_GET\_BAR\_BACK\_COLOR | カスタム バーの背景色を取得します。 | 使用されません。 | (COLORREF)clrBack<br> 背景色の RGB 値。 |
@@ -99,9 +99,9 @@ _nCmd_
 | EI\_SET\_FILTER\_VISIBLE\_LINES\_BELOW | フィルターで一致した行の下に表示する行数の設定します。 | (long)nLines | 使用されません。 |
 | EI\_GET\_DPI\_OPTIONS | モニターに関するオプションを取得します。現在のところ、DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED のみがサポートされています。DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED が設定されていると、DPI の変更に応じてウィンドウのサイズが変更されます。 | 使用されません。 | (long)nFlags |
 | EI\_SET\_DPI\_OPTIONS | モニターに関するオプションを設定します。現在のところ、DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED のみがサポートされています。DPI\_OPTIONS\_RESIZE\_WHEN\_DPI\_CHANGED が設定されていると、DPI の変更に応じてウィンドウのサイズが変更されます。 | (long)nFlags | 使用されません。 |
-| EI\_GET\_REGISTERED\_NAME | \[バージョン情報\] ダイアログ ボックスに表示される、ユーザー登録されている名前を取得します。製品が登録されていない場合、空の文字列が取得されます。 | (LPWSTR)szName<br>文字列を取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX\_REG\_NAME 文字分を確保しておく必要があります。 | 使用されません。 |
-| EI\_VALIDATE\_CSV | CSV文書の正当性を確認してエラーを出力し、オプションにより区切り位置を調節します。 | (int)nFlags<br>次の値の組み合わせを指定します。<br>VALIDATE\_ADJUST\_COLUMNS, VALIDATE\_QUIET, VALIDATE\_ADJUST\_VISIBLE\_ONLY, VALIDATE\_DETECT\_NL, VALIDATE\_QUIET\_IF\_NO\_ERROR, VALIDATE\_ADJUST\_ENLARGE\_ONLY,  VALIDATE\_DETECT\_CSV,  VALIDATE\_ASYNC | (int)nResults<br>戻り値は、次の値の組み合わせになります。戻り値が 0 の場合エラーが無いことを意味します。<br>CSV\_ADJUSTED, CSV\_NL\_EMBEDDED, CSV\_ABORT, CSV\_INVALID\_QUOTES, CSV\_INCONSISTENT\_COLUMNS, CSV\_NOT\_CSV, CSV\_ASYNC\_SUCCESS,  CSV\_ASYNC\_RUNNING |
-| EI\_GET\_CLIENT\_RECT\_NO\_BARS | スクロール バーまたはミニマップに占有された領域を除くエディタ ビューの座標を取得します。 | (RECT\*)pRect | 成功すると TRUE を、失敗すると FALSE を返します。 |
+| EI\_GET\_REGISTERED\_NAME | \[バージョン情報\] ダイアログ ボックスに表示される、ユーザー登録されている名前を取得します。製品が登録されていない場合、空の文字列が取得されます。 | (LPWSTR)szName<br>文字列を取得するバッファーへのポインターを指定します。バッファーには、NULL 文字を含めて MAX\_REG\_NAME 文字分を確保しておく必要があります。 | 使用されません。 |
+| EI\_VALIDATE\_CSV | CSV文書の正当性を確認してエラーを出力し、オプションによりセパレーター位置を調節します。 | (int)nFlags<br>次の値の組み合わせを指定します。<br>VALIDATE\_ADJUST\_COLUMNS, VALIDATE\_QUIET, VALIDATE\_ADJUST\_VISIBLE\_ONLY, VALIDATE\_DETECT\_NL, VALIDATE\_QUIET\_IF\_NO\_ERROR, VALIDATE\_ADJUST\_ENLARGE\_ONLY,  VALIDATE\_DETECT\_CSV,  VALIDATE\_ASYNC | (int)nResults<br>戻り値は、次の値の組み合わせになります。戻り値が 0 の場合エラーが無いことを意味します。<br>CSV\_ADJUSTED, CSV\_NL\_EMBEDDED, CSV\_ABORT, CSV\_INVALID\_QUOTES, CSV\_INCONSISTENT\_COLUMNS, CSV\_NOT\_CSV, CSV\_ASYNC\_SUCCESS,  CSV\_ASYNC\_RUNNING |
+| EI\_GET\_CLIENT\_RECT\_NO\_BARS | スクロール バーまたはミニマップに占有された領域を除くエディター ビューの座標を取得します。 | (RECT\*)pRect | 成功すると TRUE を、失敗すると FALSE を返します。 |
 | EI\_REFRESH\_COMMON\_SETTINGS | 共通の設定をロードし EmEditor ウィンドウを最新の情報に更新します。 | 使用されません。 | 使用されません。 |
 | EI\_GET\_NEWLINE\_CODE | 文書で使用された改行コードを取得します。 | 使用されません。 | FLAG\_CR\_AND\_LF、FLAG\_CR\_ONLY、FLAG\_LF\_ONLY、または FLAG\_NEWLINE\_MIXED を返します。 |
 | EI\_GET\_MEMORY\_SIZE | 文書で使用されている1かたまりのメモリ サイズを取得します。既定値は、\[カスタマイズ\] ダイアログ ボックスの [\[高度\] ページ](../../dlg/advanced/index) の \[メモリ サイズ\] テキスト ボックスで指定された値になります。 | 使用されません。 | メモリ サイズを返します。 |
@@ -118,21 +118,21 @@ _nCmd_
 | EI\_WM\_CTLCOLOR | 非常に暗いモードをサポートするために、ダイアログ プロシージャーの WM\_CTLCOLORDLG、WM\_CTLCOLORSTATIC、WM\_CTLCOLOREDIT、WM\_CTLCOLORBTN、WM\_CTLCOLORLISTBOX メッセージの中で呼ばれます。 | (WPARAM)wParam<br>WM\_CTLCOLORxxx メッセージの wParam を渡すことができます。 | 非常に暗いモードが選択されている場合、ブラシを返します。この値をダイアログ プロシージャーの戻り値に渡す必要があります。 |
 | EI\_WM\_THEMECHANGED | 非常に暗いモードをサポートするために、ダイアログ プロシージャーの WM\_THEMECHANGED メッセージの中で呼ばれます。 | (HWND)hWnd | 使用されません。 |
 | EI\_INIT\_LISTVIEW | 非常に暗いモードをサポートするために、リストビュー コントロールを初期化します。 | (HWND)hWnd | 使用されません。 |
-| EI\_GET\_VIEW\_FONT | 現在、選択されているエディタ フォントへのハンドルを取得します。 | 使用されません。 | (HFONT)hFont |
+| EI\_GET\_VIEW\_FONT | 現在、選択されているエディター フォントへのハンドルを取得します。 | 使用されません。 | (HFONT)hFont |
 | EI\_GET\_HIDE\_QUOTES | CSV セル選択モードで \[引用符で囲まないで/エスケープしないで表示\] が有効かどうかを示すフラグを取得します。 | 使用されません。 | (BOOL)bHideQuotes |
 | EI\_SET\_HIDE\_QUOTES | CSV セル選択モードで \[引用符で囲まないで/エスケープしないで表示\] が有効かどうかを示すフラグを設定します。 | (BOOL)bHideQuotes | 使用されません。 |
 | EI\_ENABLE\_WM\_CHAR | 内部で使用されます。 | 使用されません。 | 内部で使用されます。 |
-| EI\_GET\_SYNC | 同期フォルダへのパスを取得します。 | (LPWSTR)szDir<br>フォルダ名を取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | SYNC\_SETTINGS\_SEND, SYNC\_SETTINGS\_RECEIVE を含む値の組み合わせを返します。 |
+| EI\_GET\_SYNC | 同期フォルダーへのパスを取得します。 | (LPWSTR)szDir<br>フォルダー名を取得するバッファーへのポインターを指定します。バッファーには、NULL 文字を含めて MAX\_PATH 文字分を確保しておく必要があります。 | SYNC\_SETTINGS\_SEND, SYNC\_SETTINGS\_RECEIVE を含む値の組み合わせを返します。 |
 | EI\_GET\_SPLIT | 分割の状態を取得します。 | 使用されません。 | 次の値のどれかを返します:<br>SPLIT\_NONE, SPLIT\_HORZ, SPLIT\_VERT, SPLIT\_BOTH, SPLIT\_2\_HORZ, SPLIT\_2\_VERT |
 | EI\_GET\_SUM | 選択範囲に含まれる数の合計と出現数を取得します。 | (SUM\_INFO\*)pSumInfo | 成功すると TRUE を、失敗すると FALSE を返します。 |
-| EI\_GET\_CONFIG | 選択されている設定の名前を取得します。 | 設定の名前を取得するバッファへのポインタを指定します。バッファには、NULL 文字を含めて MAX\_CONFIG\_NAME 文字分を確保しておく必要があります。 | 使用されません。 |
+| EI\_GET\_CONFIG | 選択されている設定の名前を取得します。 | 設定の名前を取得するバッファーへのポインターを指定します。バッファーには、NULL 文字を含めて MAX\_CONFIG\_NAME 文字分を確保しておく必要があります。 | 使用されません。 |
 | EI\_SET\_CONFIG | 指定する設定に変更します。 | 設定の名前を指定します。 | (BOOL)bSuccess |
 | EI\_SAVE\_FILE | 文書を保存します。 | 完全パスのファイル名を指定します。 | (BOOL)bSuccess |
 | EI\_INDEX\_TO\_DOC\_REAL | ドキュメントのインデックスからハンドルに変換します。EI\_INDEX\_TO\_DOC と異なり、このコマンドは分割ウィンドウ内の個々の文書を数えます。 | ドキュメントの 0 を基底とするインデックスを指定します。 | (HEEDOC)hDoc<br>ドキュメントへのハンドルを返します。 |
 | EI\_DOC\_TO\_INDEX\_REAL | ドキュメントのハンドルからインデックスに変換します。EI\_INDEX\_TO\_DOC と異なり、このコマンドは分割ウィンドウ内の個々の文書を数えます。 | ドキュメントへのハンドルを指定します。 | (int)nIndex<br>ドキュメントの 0 を基底とするインデックスを返します。 |
-| EI\_GET\_TITLE | 現在の文書のタイトルを取得します。 | (STRING\_BUF\*)pStringBuf<br> タイトルを取得するための [STRING\_BUF 構造体](../structure/string_buf) へのポインタを指定します。 | 使用されません。 |
+| EI\_GET\_TITLE | 現在の文書のタイトルを取得します。 | (STRING\_BUF\*)pStringBuf<br> タイトルを取得するための [STRING\_BUF 構造体](../structure/string_buf) へのポインターを指定します。 | 使用されません。 |
 | EI\_SET\_TITLE | 現在の文書のタイトルを設定します。タイトルには長いタイトルと短いタイトルを LF (\\n) で区切って指定することができます。 | (LPCWSTR)pszTitle<br>新しいタイトルを指定します。 | (HRESULT)hr<br>失敗すると負の値を返します。 |
-| EI\_SET\_WEB | Webブラウザのフラグを設定します。 | (UINT)nFlags<br> 新しいフラグを指定します。 | 使用されません。 |
+| EI\_SET\_WEB | Webブラウザーのフラグを設定します。 | (UINT)nFlags<br> 新しいフラグを指定します。 | 使用されません。 |
 | EI\_OPEN\_WEB | 指定する URL の Webサイトを開きます。 | (LPCWSTR)pszURL<br> URL を指定します。 | (HRESULT)hWnd<br>Webビューのウィンドウ ハンドルを返します。 |
 | EI\_GET\_MARKDOWN\_PREVIEW | Markdown デザイン ビューかどうかを取得します。 | 使用されません。 | (BOOL)bMarkdownPreview<br> TRUEなら Markdown デザイン ビューになります。 |
 | EI\_SET\_MARKDOWN\_PREVIEW | Markdown デザイン ビューを設定または解除します。 | (BOOL)bMarkdownPreview<br> TRUEなら Markdown デザイン ビューになります。 | 使用されません。 |
@@ -140,7 +140,7 @@ _nCmd_
 | EI\_RESET\_BOOKMARK | 文書内の指定するブックマーク、またはすべての開いている文書のすべてのブックマークを解除します。 | (INT\_PTR)y<br>ブックマークを解除する行番号を指定します。-1 を指定すると、すべての開いている文書のすべてのブックマークを解除します。 | 使用されません。 |
 | EI\_BRING\_CUSTOM\_BAR\_TOP | 指定するカスタム バーを一番上に表示します。 | (HWND)hwndClient<br>クライアント ウィンドウを指定します。 | (int)iCustomBar<br>カスタム バーが見つかった場合はカスタム バーの位置、見つからない場合は -1 を返します。 |
 | EI\_GET\_FAST\_VIEW | 文書が高速ビュー モードかどうかを取得します (EmEditor Professional 26.3 以上のみ)。 | 使用されません。 | (BOOL)bFastView<br> TRUEなら高速ビュー モードです。 |
-| EI\_GET\_FAST\_VIEW\_DIFF\_PATH | ファイルの高速ビュー モードの差分ファイルのパスを取得します (EmEditor Professional 26.4 以上のみ)。ファイルの差分ファイルが見つからない場合は、\[差分を保存\] コマンドが差分ファイルを保存するパスを取得します。 | (FAST\_VIEW\_DIFF\_PATH\_INFO\*)pInfo<br> [FAST\_VIEW\_DIFF\_PATH\_INFO](../structure/fast_view_diff_path_info) 構造体へのポインタを指定します。 | (size\_t)cch<br> 終端の NULL を含まない、パスの文字数。失敗した場合は 0 です。 |
+| EI\_GET\_FAST\_VIEW\_DIFF\_PATH | ファイルの高速ビュー モードの差分ファイルのパスを取得します (EmEditor Professional 26.4 以上のみ)。ファイルの差分ファイルが見つからない場合は、\[差分を保存\] コマンドが差分ファイルを保存するパスを取得します。 | (FAST\_VIEW\_DIFF\_PATH\_INFO\*)pInfo<br> [FAST\_VIEW\_DIFF\_PATH\_INFO](../structure/fast_view_diff_path_info) 構造体へのポインターを指定します。 | (size\_t)cch<br> 終端の NULL を含まない、パスの文字数。失敗した場合は 0 です。 |
 
 _iDoc_
 
@@ -156,4 +156,4 @@ nCmd によって意味が異なります。
 
 ## バージョン
 
-Version 3.00 以上で利用できます。ただし、iDoc パラメータは Version 5.00 以上で利用できます。
+Version 3.00 以上で利用できます。ただし、iDoc パラメーターは Version 5.00 以上で利用できます。

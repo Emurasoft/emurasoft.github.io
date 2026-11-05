@@ -16,7 +16,7 @@ shell.FileExists( strFile );
 shell.FileExists strFile
 ```
 
-## パラメータ
+## パラメーター
 
 _strFile_
 

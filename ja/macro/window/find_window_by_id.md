@@ -16,7 +16,7 @@ wndChild = wnd.FindWindowByID( id );
 wndChild = wnd.FindWindowByID( id )
 ```
 
-## パラメータ
+## パラメーター
 
 _id_
 

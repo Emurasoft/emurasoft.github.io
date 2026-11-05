@@ -16,7 +16,7 @@ list.Add( strName, strDelimiter );
 list.Add strName, strDelimiter
 ```
 
-## パラメータ
+## パラメーター
 
 _sName_
 

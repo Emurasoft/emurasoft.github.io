@@ -1,12 +1,12 @@
 # Editor\_EmptyUndoBuffer
 
-元に戻す、やり直しのバッファを空にします。このインライン関数を使うか、または
+元に戻す、やり直しのバッファーを空にします。このインライン関数を使うか、または
 [EE\_EMPTY\_UNDO\_BUFFER](../message/ee_empty_undo_buffer)
 メッセージを直接送ることができます。
 
 Editor\_EmptyUndoBuffer( HWND hwnd );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

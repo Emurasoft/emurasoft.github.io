@@ -5,7 +5,7 @@
 
 int Editor\_GetUnicodeName( HWND hwnd, LPWSTR pBuf, int cchBuf, LPCWSTR pstrSrc, int cchSrc );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -13,11 +13,11 @@ EmEditor ビューまたはフレームのウィンドウ ハンドルを指定�
 
 _pBuf_
 
-Unicode名を取得するバッファを指定します。
+Unicode名を取得するバッファーを指定します。
 
 _cchBuf_
 
-終端 NULL 文字を含めた文字のバッファのサイズを指定します。
+終端 NULL 文字を含めた文字のバッファーのサイズを指定します。
 
 _pstrSrc_
 
@@ -29,7 +29,7 @@ _pstrSrc_ で指定された文字数を指定します。
 
 ## 戻り値
 
-UNICODE\_NAME\_INFO 構造体の _cchBuf_ に 0 を指定した場合、バッファに必要なサイズを文字単位で返します。
+UNICODE\_NAME\_INFO 構造体の _cchBuf_ に 0 を指定した場合、バッファーに必要なサイズを文字単位で返します。
 
 ## バージョン
 

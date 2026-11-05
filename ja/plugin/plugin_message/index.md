@@ -2,7 +2,7 @@
 
 | メッセージ | 説明 |
 | --- | --- |
-| [EP\_DISABLE\_AUTO\_COMPLETE](ep_disable_auto_complete) | かっこ/引用符機能の自動完了を無効にするかどうかを尋ねます。 |
+| [EP\_DISABLE\_AUTO\_COMPLETE](ep_disable_auto_complete) | 括弧/引用符機能の自動完了を無効にするかどうかを尋ねます。 |
 | [EP\_GET\_BITMAP](ep_get_bitmap) | ツールバーに表示される様々なサイズと色数のプラグイン ボタンのビットマップのリソースIDを取得します。 |
 | [EP\_GET\_INFO](ep_get_info) | プラグインに関するさまざまな情報を取得します。(Version 5.00 以上で対応) |
 | [EP\_GET\_MASK](ep_get_mask) | ツールバーに表示されるプラグイン ボタンのマスク カラーを取得します |
@@ -20,7 +20,7 @@
 これらのメッセージは、 [プラグインのエクスポート関数 PlugInProc](../exports/index)
 で利用されます。
 
-これらの定数は、ヘッダ (plugin.h) で定義されています。
+これらの定数は、ヘッダー (plugin.h) で定義されています。
 
 
 ```{toctree}

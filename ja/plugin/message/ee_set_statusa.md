@@ -9,7 +9,7 @@ wParam = 0;
 lParam = (LPARAM) (LPCSTR) szStatus;
 ```
 
-## パラメータ
+## パラメーター
 
 _szStatus_
 

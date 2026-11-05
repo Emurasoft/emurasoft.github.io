@@ -8,7 +8,7 @@ wParam = (WPARAM) (UINT_PTR) nLen;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _nLen_
 

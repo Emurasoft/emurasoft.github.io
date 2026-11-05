@@ -16,7 +16,7 @@ strFileName = editor.FileDialog( nType [, nFlags [, strTitle [, strFilter [, nDe
 strFileName = editor.FileDialog( nType [, nFlags [, strTitle [, strFilter [, nDefFilterIndex [, strDefPath [, strDefFolder [, strDefExt ]]]]]]] )
 ```
 
-## パラメータ
+## パラメーター
 
 _nType_
 
@@ -52,15 +52,15 @@ _strTitle_
 
 _strFilter_
 
-省略可能。フィルタを指定します。文字列は次の形式である必要があります。
+省略可能。フィルターを指定します。文字列は次の形式である必要があります。
 
 "Text Files\|\*.txt\|All Files\|\*.\*\|\|"
 
-空の文字列が指定されると、フィルタは使用されません。
+空の文字列が指定されると、フィルターは使用されません。
 
 _nDefFilterIndex_
 
-省略可能。初期状態で選択されるフィルタを 1 を基底とするインデックスで指定します。
+省略可能。初期状態で選択されるフィルターを 1 を基底とするインデックスで指定します。
 
 _strDefPath_
 
@@ -68,7 +68,7 @@ _strDefPath_
 
 _strDefFolder_
 
-省略可能。初期状態で選択されるフォルダを指定します。
+省略可能。初期状態で選択されるフォルダーを指定します。
 
 _strDefExt_
 

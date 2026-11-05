@@ -16,7 +16,7 @@ doc = editor.CsvList.Item( Index );
 doc = editor.CsvList.Item( Index )
 ```
 
-## パラメータ
+## パラメーター
 
 _Index_
 

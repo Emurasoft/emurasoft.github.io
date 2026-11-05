@@ -4,7 +4,7 @@
 
 Editor\_EditTemp( HWND hwnd, LPCWSTR pszTempText, LPCWSTR pszTitle, LPCWSTR pszIconPath, LPCWSTR pszConfig, UINT nEncoding, const POINT\_PTR\* pptInitialCaret = NULL, UINT nFlags = 0 );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

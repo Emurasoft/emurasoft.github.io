@@ -16,7 +16,7 @@ bAnswer = confirm( strQuestion, strMessage2 );
 bAnswer = confirm( strQuestion, strMessage2 )
 ```
 
-## パラメータ
+## パラメーター
 
 _strQuestion_
 

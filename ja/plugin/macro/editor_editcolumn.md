@@ -5,7 +5,7 @@
 
 Editor\_EditColumn( HWND hwnd, UINT nFlags, int iColumnFrom1, int iColumnFrom2, int iColumnTo, LPCWSTR pszInsert, UINT nCombineFlags = 0, LPWSTR pszLocale = NULL );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -43,7 +43,7 @@ _pszInsert_
 
 _nCombineFlags_
 
-次の値の組み合わせを指定します。文字列を並べ替えるには SORT\_ENABLED を指定する必要があり、他のフラグと組み合わせて並べ替えの動作を指定します。重複した文字列を削除するには SORT\_DELETE\_DUPLICATE を指定する必要があります。このパラメータは、 _nFlags_ パラメータに COLUMN\_CONCAT を指定したときのみ使用されます。このパラメータは省略できます。
+次の値の組み合わせを指定します。文字列を並べ替えるには SORT\_ENABLED を指定する必要があり、他のフラグと組み合わせて並べ替えの動作を指定します。重複した文字列を削除するには SORT\_DELETE\_DUPLICATE を指定する必要があります。このパラメーターは、 _nFlags_ パラメーターに COLUMN\_CONCAT を指定したときのみ使用されます。このパラメーターは省略できます。
 
 |     |     |
 | --- | --- |

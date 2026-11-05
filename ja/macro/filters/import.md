@@ -16,7 +16,7 @@ list.Import( strFileName[, bAppend ] );
 list.Import strFileName[, bAppend ]
 ```
 
-## パラメータ
+## パラメーター
 
 _strFileName_
 

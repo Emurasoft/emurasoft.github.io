@@ -4,11 +4,11 @@
 
 #status = _id_
 
-## パラメータ
+## パラメーター
 
 _id_
 
-状態を調べるのに使用するコマンド ID の整数値を指定します。この値は、 [QueryStatusByID メソッド](../editor/editor_querystatusbyid) の _nID_ パラメータと同等です。
+状態を調べるのに使用するコマンド ID の整数値を指定します。この値は、 [QueryStatusByID メソッド](../editor/editor_querystatusbyid) の _nID_ パラメーターと同等です。
 
 ## 例
 

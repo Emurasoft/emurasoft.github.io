@@ -4,7 +4,7 @@
 
 Editor\_GetSelEnd( HWND hwnd, int nLogical, POINT\_PTR\* pptPos );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -22,7 +22,7 @@ _nLogical_
 
 _pptPos_
 
-選択テキストの終了位置を表す POINT\_\_PTR 構造体へのポインタを指定します。
+選択テキストの終了位置を表す POINT\_\_PTR 構造体へのポインターを指定します。
 
 ## 戻り値
 

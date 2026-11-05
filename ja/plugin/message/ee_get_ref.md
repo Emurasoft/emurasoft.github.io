@@ -1,6 +1,6 @@
 # EE\_GET\_REF
 
-指定するプラグインの参照数を返します。このメッセージを直接送るか、または [Editor\_GetRef インライン関数](../macro/editor_getref) を使うことができます。通常、EmEditorのプラグイン設定ダイアログで使用されます。
+指定するプラグインの参照数を返します。このメッセージを直接送るか、または [Editor\_GetRef インライン関数](../macro/editor_getref) を使うことができます。通常、EmEditorのプラグイン設定ダイアログ ボックスで使用されます。
 
 ```
 EE_GET_REF
@@ -8,7 +8,7 @@ wParam = 0;
 lParam = (LPARAM)(ATOM)atom;
 ```
 
-## パラメータ
+## パラメーター
 
 _atom_
 

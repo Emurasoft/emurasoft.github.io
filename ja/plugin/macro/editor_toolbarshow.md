@@ -4,7 +4,7 @@
 
 Editor\_ToolbarShow( HWND hwnd, UINT nCustomRebarID, BOOL bVisible );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

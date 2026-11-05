@@ -16,7 +16,7 @@ strText = popupmenu.GetText( id );
 strText = popupmenu.GetText( id )
 ```
 
-## パラメータ
+## パラメーター
 
 _id_
 

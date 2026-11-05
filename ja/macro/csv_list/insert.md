@@ -16,7 +16,7 @@ list.Insert( Index, obj );
 list.Insert Index, obj
 ```
 
-## パラメータ
+## パラメーター
 
 _Index_
 

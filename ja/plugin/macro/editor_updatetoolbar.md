@@ -5,7 +5,7 @@
 
 Editor\_UpdateToolbar( HWND hwnd, UINT nCmdID );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

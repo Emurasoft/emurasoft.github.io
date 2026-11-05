@@ -9,11 +9,11 @@ wParam = 0;
 lParam = (LPARAM) (POINT_PTR*) pptLogical
 ```
 
-## パラメータ
+## パラメーター
 
 _pptLogical_
 
-論理座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+論理座標を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 ## 戻り値
 

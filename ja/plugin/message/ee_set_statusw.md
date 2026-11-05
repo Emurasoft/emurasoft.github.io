@@ -8,7 +8,7 @@ wParam = (WPARAM) (UINT) nFlags;
 lParam = (LPARAM) (LPCWSTR) szStatus;
 ```
 
-## パラメータ
+## パラメーター
 
 _szStatus_
 

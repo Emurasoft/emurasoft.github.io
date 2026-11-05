@@ -8,7 +8,7 @@ wParam = 0
 (LPCTSTR)lParam = szPageURL
 ```
 
-## パラメータ
+## パラメーター
 
 _szPageURL_
 

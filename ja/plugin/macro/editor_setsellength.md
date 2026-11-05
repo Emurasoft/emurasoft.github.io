@@ -4,7 +4,7 @@
 
 Editor\_SetSelLength( HWND hwnd, UINT nLen );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

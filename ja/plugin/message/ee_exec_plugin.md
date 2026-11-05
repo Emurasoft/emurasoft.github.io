@@ -9,11 +9,11 @@ wParam = (WPARAM) (EXEC_PLUGIN_INFO*) pPluginInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pFilterInfo_
 
-[EXEC\_PLUGIN\_INFO 構造体](../structure/exec_plugin_info) へのポインタを指定します。
+[EXEC\_PLUGIN\_INFO 構造体](../structure/exec_plugin_info) へのポインターを指定します。
 
 ## 戻り値
 

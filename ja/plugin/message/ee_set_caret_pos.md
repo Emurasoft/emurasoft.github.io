@@ -8,7 +8,7 @@ wParam = MAKEWPARAM( nLogical, bExtend );
 lParam = (LPARAM) (POINT_PTR*) pptPos;
 ```
 
-## パラメータ
+## パラメーター
 
 _nLogical_
 
@@ -31,7 +31,7 @@ _bExtend_
 
 _pptPos_
 
-カーソル位置を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+カーソル位置を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 ## 戻り値
 
@@ -39,4 +39,4 @@ _pptPos_
 
 ## バージョン
 
-Version 4.00 以上で利用できます。ただし、bExtend パラメータは、Version 4.03 以上で追加されました。POS\_SCROLL\_DONT\_CARE、POS\_SCROLL\_CENTER、POS\_SCROLL\_TOP フラグは Version 6.00 で追加されました。
+Version 4.00 以上で利用できます。ただし、bExtend パラメーターは、Version 4.03 以上で追加されました。POS\_SCROLL\_DONT\_CARE、POS\_SCROLL\_CENTER、POS\_SCROLL\_TOP フラグは Version 6.00 で追加されました。

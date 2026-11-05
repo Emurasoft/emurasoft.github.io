@@ -4,11 +4,11 @@
 
 Editor\_GetAttr( HWND hwnd, ATTR\_INFO\* pAI );
 
-## パラメータ
+## パラメーター
 
 _pAI_
 
-[ATTR\_INFO](../structure/attr_info) 構造体へポインタします。
+[ATTR\_INFO](../structure/attr_info) 構造体へポインターします。
 
 ## 戻り値
 

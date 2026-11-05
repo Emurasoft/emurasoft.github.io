@@ -8,7 +8,7 @@ wParam = (WPARAM)(UINT)nCmdID;
 lParam = (LPARAM)(LPCWSTR)pszConfigName;
 ```
 
-## パラメータ
+## パラメーター
 
 _nCmdID_
 

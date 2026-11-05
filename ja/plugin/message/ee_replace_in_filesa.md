@@ -9,11 +9,11 @@ wParam = 0;
 lParam = (LPARAM) (GREP_INFOA) pGrepInfo;
 ```
 
-## パラメータ
+## パラメーター
 
 _pGrepInfo_
 
-[GREP\_INFOA 構造体](../structure/grep_infoa) へのポインタを指定します。
+[GREP\_INFOA 構造体](../structure/grep_infoa) へのポインターを指定します。
 
 ## 戻り値
 

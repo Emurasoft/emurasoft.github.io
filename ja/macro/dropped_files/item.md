@@ -16,7 +16,7 @@ str = DroppedFiles.Item( Index );
 str = DroppedFiles.Item( Index )
 ```
 
-## パラメータ
+## パラメーター
 
 _Index_
 

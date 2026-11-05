@@ -6,7 +6,7 @@
 
 Editor\_Convert( HWND hwnd, UINT nFlags, LPCWSTR szChars = NULL, LPCWSTR pszSeparator = NULL, UINT nSortFlags = 0, LPCWSTR pszLocale = NULL );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

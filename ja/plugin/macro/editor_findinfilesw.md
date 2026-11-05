@@ -5,7 +5,7 @@
 
 Editor\_FindInFilesW( HWND hwnd, GREP\_INFOW pGrepInfo );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -13,7 +13,7 @@ EmEditor ビューまたはフレームのウィンドウハンドルを指定�
 
 _pGrepInfo_
 
-[GREP\_INFOW 構造体](../structure/grep_infow) へのポインタを指定します。
+[GREP\_INFOW 構造体](../structure/grep_infow) へのポインターを指定します。
 
 ## 戻り値
 

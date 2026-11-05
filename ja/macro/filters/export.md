@@ -16,7 +16,7 @@ list.Export( strFileName );
 list.Export strFileName
 ```
 
-## パラメータ
+## パラメーター
 
 _strFileName_
 

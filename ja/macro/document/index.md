@@ -71,7 +71,7 @@
 | [SplitColumn](split_column) | CSV モードで指定された列を区切り文字で分割して右の列または下の行に置きます。 |
 | [Undo](document_undo) | 直前の操作を元に戻します。 |
 | [Unpivot](unpivot) | CSVデータを平らにして行に変換します。 |
-| [ValidateCsv](validatecsv) | CSV文書の正当性を確認してエラーを出力し、オプションにより区切り位置を調節します。 |
+| [ValidateCsv](validatecsv) | CSV文書の正当性を確認してエラーを出力し、オプションによりセパレーター位置を調節します。 |
 | [ViewToLogical](viewtological) | 表示座標を論理座標に変換します。 |
 | [write](document_write) | 現在のカーソル位置に文字列を挿入、または上書きします。 |
 | [writeln](document_writeln) | 現在のカーソル位置に文字列と改行コードを挿入、または上書きします。 |

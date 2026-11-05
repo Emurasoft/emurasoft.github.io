@@ -16,7 +16,7 @@ b  = reg.Test( strText );
 b  = reg.Test( strText )
 ```
 
-### パラメータ
+### パラメーター
 
 _strText_
 

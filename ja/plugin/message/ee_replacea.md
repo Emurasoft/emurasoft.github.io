@@ -8,7 +8,7 @@ wParam = (WPARAM) (UINT) nFlags;
 lParam = (LPARAM) (LPCSTR) szFindReplace;
 ```
 
-## パラメータ
+## パラメーター
 
 _nFlags_
 

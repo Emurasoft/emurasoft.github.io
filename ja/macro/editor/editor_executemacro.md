@@ -16,7 +16,7 @@ editor.ExecuteMacro( strMacroFileName [, nFlags ] );
 editor.ExecuteMacro strMacroFileName [, nFlags ]
 ```
 
-## パラメータ
+## パラメーター
 
 _strMacroFileName_
 
@@ -24,12 +24,12 @@ _strMacroFileName_
 
 _nFlags_
 
-次の値の組み合わせを指定します。省略すると、 _strMacroFileName_ パラメータは、マクロ ファイルのパスとファイル名を指定し、マクロの種類はファイルの拡張子より検出されます。
+次の値の組み合わせを指定します。省略すると、 _strMacroFileName_ パラメーターは、マクロ ファイルのパスとファイル名を指定し、マクロの種類はファイルの拡張子より検出されます。
 
 |     |     |
 | --- | --- |
-| eeRunFile | _strMacroFileName_ パラメータは、マクロ ファイルのパスとファイル名を指定します。 |
-| eeRunText | _strMacroFileName_ パラメータは、メモリのマクロ テキストを指定します。 |
+| eeRunFile | _strMacroFileName_ パラメーターは、マクロ ファイルのパスとファイル名を指定します。 |
+| eeRunText | _strMacroFileName_ パラメーターは、メモリのマクロ テキストを指定します。 |
 | eeMacroLangJScript | マクロは JScript です。 |
 | eeMacroLangV8 | マクロは V8 です。 |
 | eeMacroLangVBScript | マクロは VBScript です。 |

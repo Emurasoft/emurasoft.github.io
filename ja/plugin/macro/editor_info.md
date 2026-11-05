@@ -5,7 +5,7 @@
 
 Editor\_Info( HWND hwnd, int nCmd, LPARAM lParam );
 
-## パラメータ
+## パラメーター
 
 _nCmd_
 

@@ -8,11 +8,11 @@ wParam = (WPARAM)(EXTRACT_FREQUENT_INFO*)pInfo;
 lParam = 0;
 ```
 
-## パラメータ
+## パラメーター
 
 _pInfo_
 
-[EXTRACT\_FREQUENT\_INFO 構造体](../structure/extract_frequent_info) へのポインタを指定します。
+[EXTRACT\_FREQUENT\_INFO 構造体](../structure/extract_frequent_info) へのポインターを指定します。
 
 ## 戻り値
 

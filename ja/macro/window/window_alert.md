@@ -16,7 +16,7 @@ alert( strMessage, strMessage2 );
 alert strMessage, strMessage2
 ```
 
-## パラメータ
+## パラメーター
 
 _strMessage_
 

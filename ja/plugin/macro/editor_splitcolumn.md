@@ -5,7 +5,7 @@
 
 Editor\_EditColumn( HWND hwnd, UINT nFlags, int iColumnFrom1, int iColumnFrom2, int iColumnTo, LPCWSTR pszInsert );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

@@ -4,7 +4,7 @@
 
 Editor\_ExtractFrequent( HWND hwnd, UINT nType, UINT nNumOfLines, UINT iCsvFormat, UINT64 nFlags, LPCWSTR pszIgnore );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -19,8 +19,8 @@ _nType_
 | FREQ\_TYPE\_LINES | 頻出する行の一覧を作成します。 |
 | FREQ\_TYPE\_WORDS | 頻出する単語の一覧を作成します。単語は英数字でない文字に囲まれた文字列であり、\[カスタマイズ\] ダイアログ ボックスの [\[編集\] ページ](../../dlg/customize/edit/index) の \[次の文字を英数字として扱う\] テキスト ボックスでカスタマイズできます。 |
 | FREQ\_TYPE\_CELLS | 頻出するセルの一覧を作成します。このオプションは CSV 文書がアクティブの時のみ利用可能です。 |
-| FREQ\_TYPE\_IPV4 | 頻出するIPv4アドレスの一覧を作成します。 |
-| FREQ\_TYPE\_IPV6 | 頻出するIPv6アドレスの一覧を作成します。 |
+| FREQ\_TYPE\_IPV4 | 頻出するIPv4 アドレスの一覧を作成します。 |
+| FREQ\_TYPE\_IPV6 | 頻出するIPv6 アドレスの一覧を作成します。 |
 | FREQ\_TYPE\_URI | 頻出するURIの一覧を作成します。 |
 | FREQ\_TYPE\_EMAIL | 頻出するメール アドレスの一覧を作成します。 |
 

@@ -4,7 +4,7 @@
 
 Editor\_SetMultiSel( HWND hwnd, UINT\_PTR iSel, const SEL\_INFO\* pSelInfo );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -16,7 +16,7 @@ _iSel_
 
 _pSelInfo_
 
-[SEL\_INFO 構造体](../structure/sel_info) へのポインタを指定します。
+[SEL\_INFO 構造体](../structure/sel_info) へのポインターを指定します。
 
 ## 戻り値
 

@@ -17,7 +17,7 @@
 | [EE\_DO\_IDLE](ee_do_idle) | ツール バー、タイトル、タブなどの表示更新を行います。 |
 | [EE\_EDIT\_COLUMN](ee_edit_column) | 現在の CSV 文書の指定された列を移動、コピー、削除、または結合します。 |
 | [EE\_EDIT\_TEMP](ee_edit_temp) | 一時テキストを新規文書として開くか、アクティブにするか、保存するか、または閉じます。 |
-| [EE\_EMPTY\_UNDO\_BUFFER](ee_empty_undo_buffer) | 元に戻す、やり直しのバッファを空にします。 |
+| [EE\_EMPTY\_UNDO\_BUFFER](ee_empty_undo_buffer) | 元に戻す、やり直しのバッファーを空にします。 |
 | [EE\_ENUM\_CONFIG](ee_enum_config) | 利用可能な設定の一覧を取得します。 |
 | [EE\_ENUM\_HIGHLIGHT](ee_enum_highlight) | 強調文字列の一覧を取得します。 |
 | [EE\_EXEC\_COMMAND](ee_exec_command) | 指定するコマンドIDを実行します |
@@ -125,7 +125,7 @@
 | [EE\_SET\_STATUSA](ee_set_statusa) | ステータス メッセージにANSI文字列を設定します。 |
 | [EE\_SET\_STATUSW](ee_set_statusw) | ステータス メッセージにUnicode文字列を設定します。 |
 | [EE\_SHOW\_OUTLINE](ee_show_outline) | アウトラインを表示または非表示に設定します。 |
-| [EE\_SHOW\_TIP](ee_show_tip) | ツールチップの表示/非表示を切り替えます。 |
+| [EE\_SHOW\_TIP](ee_show_tip) | ツール チップの表示/非表示を切り替えます。 |
 | [EE\_SPLIT\_COLUMN](ee_split_column) | 現在の CSV 文書の指定された列を分割します。 |
 | [EE\_TOOLBAR\_CLOSE](ee_toolbar_close) | カスタム ツール バーを閉じます。 |
 | [EE\_TOOLBAR\_OPEN](ee_toolbar_open) | カスタム ツール バーを開きます。 |
@@ -135,7 +135,7 @@
 | [EE\_VIEW\_TO\_DEV](ee_view_to_dev) | 表示座標をデバイス座標 (クライアント座標) に変換します。 |
 | [EE\_VIEW\_TO\_LOGICAL](ee_view_to_logical) | 表示座標を論理座標に変換します。 |
 
-これらの定数は、ヘッダ (plugin.h) で定義されています。
+これらの定数は、ヘッダー (plugin.h) で定義されています。
 
 次の Windows API メッセージもサポートしています。一部のメッセージについては完全にサポートしているわけではありません。ウィンドウ ハンドルには、EmEditor のフレームではなく、ビューを指定します。詳しくは、SDK のリファレンスをお読みください。これらのメッセージについて詳しくは、Microsoft MSDN ライブラリを参考にしてください。
 

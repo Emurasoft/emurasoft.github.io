@@ -16,7 +16,7 @@ document.SetCell( yLine, iColumn, str, flags );
 document.SetCell( yLine, iColumn, str, flags )
 ```
 
-## パラメータ
+## パラメーター
 
 _yLine_
 

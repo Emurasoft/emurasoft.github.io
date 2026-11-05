@@ -16,7 +16,7 @@ document.DeleteColumn( iColumn, [ iColumn2 ] );
 document.DeleteColumn iColumn, [ iColumn2 ]
 ```
 
-## パラメータ
+## パラメーター
 
 _iColumn1_
 

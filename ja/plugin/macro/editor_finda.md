@@ -5,7 +5,7 @@ ANSI文字列を検索します。このインライン関数を使うか、ま�
 
 Editor\_FindA( HWND hwnd, UINT nFlags, LPCSTR szFind )
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

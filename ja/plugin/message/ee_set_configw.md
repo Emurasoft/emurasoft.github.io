@@ -13,7 +13,7 @@ wParam = 0;
 lParam = (LPARAM) (LPCWSTR) szConfigName;
 ```
 
-## パラメータ
+## パラメーター
 
 _iDoc_
 
@@ -29,4 +29,4 @@ _szConfigName_
 
 ## バージョン
 
-Version 3.00 以上で利用できます。ただし、iDoc パラメータは Version 5.00 以上で利用できます。
+Version 3.00 以上で利用できます。ただし、iDoc パラメーターは Version 5.00 以上で利用できます。

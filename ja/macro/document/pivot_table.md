@@ -16,7 +16,7 @@ document.PivotTable( iRow, iColumn, iValue, nFlags, strSortRow, nSortRowFlags, s
 document.PivotTable iRow, iColumn, iValue, nFlags, strSortRow, nSortRowFlags, strSortColumn, nSortColumnFlags, strLocale, strTotalRowLabel, strTotalColLabel, nDecimalPlaces
 ```
 
-## パラメータ
+## パラメーター
 
 _iRow_
 
@@ -81,7 +81,7 @@ option: 以下のテーブルから並べ替えオプションを選択します
 
 _nSortRowFlags_
 
-行に適用する並べ替えのためのフラグの組み合わせを指定します。これらのフラグは _strSortRow_ が空でない場合のみ指定できます。このパラメータは省略できます。
+行に適用する並べ替えのためのフラグの組み合わせを指定します。これらのフラグは _strSortRow_ が空でない場合のみ指定できます。このパラメーターは省略できます。
 
 |     |     |
 | --- | --- |
@@ -100,11 +100,11 @@ _nSortRowFlags_
 
 _strSortColumn_
 
-列に適用するフラグを指定する文字列を指定します。省略すると、並べ替えは行われません。フォーマットは _strSortRow_ パラメータと同じです。
+列に適用するフラグを指定する文字列を指定します。省略すると、並べ替えは行われません。フォーマットは _strSortRow_ パラメーターと同じです。
 
 _nSortColumnFlags_
 
-列に適用する並べ替えのためのフラグの組み合わせを指定します。これらのフラグは _strSortColulmn_ が空でない場合のみ指定できます。このパラメータは省略できます。
+列に適用する並べ替えのためのフラグの組み合わせを指定します。これらのフラグは _strSortColulmn_ が空でない場合のみ指定できます。このパラメーターは省略できます。
 
 _strLocale_
 
@@ -112,11 +112,11 @@ _strLocale_
 
 _strTotalRowLabel_
 
-行の合計値に使用するヘディングのラベルを指定します。このパラメータは、 _nFlags_ パラメータに eePivotTotalRows が指定されている場合のみ使用されます。
+行の合計値に使用するヘディングのラベルを指定します。このパラメーターは、 _nFlags_ パラメーターに eePivotTotalRows が指定されている場合のみ使用されます。
 
 _strTotalColLabel_
 
-列の合計値に使用するヘディングのラベルを指定します。このパラメータは、 _nFlags_ パラメータに eePivotTotalColumns が指定されている場合のみ使用されます。
+列の合計値に使用するヘディングのラベルを指定します。このパラメーターは、 _nFlags_ パラメーターに eePivotTotalColumns が指定されている場合のみ使用されます。
 
 _nDecimalPlaces_
 

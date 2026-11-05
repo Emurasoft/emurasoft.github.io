@@ -16,7 +16,7 @@ document.Sort( strColumns, flags, strLocale );
 document.Sort strColumns, flags, strLocale
 ```
 
-## パラメータ
+## パラメーター
 
 _strColumns_
 
@@ -78,7 +78,7 @@ _flags_
 | eeSortIgnoreSymbols | 記号を無視して並べ替えます。 |
 | eeSortIgnoreWidth | 半角文字と全角文字の違いは無視されます。例えば、「Ｃａｔ」と「cat」は同一とみなされます。全角文字は中国語と日本語の文章で使用されているフォーマットです。 |
 | eeSortIgnorePrefix | 数字を並べ替える際、先頭の数字以外の文字は無視されます。 |
-| eeSortInspectNotSelOnly | 箱型選択または複数選択が存在する時でも、行全体を調べます。strColumns パラメータが指定されている場合、このフラグは無視されます。 |
+| eeSortInspectNotSelOnly | 箱型選択または複数選択が存在する時でも、行全体を調べます。strColumns パラメーターが指定されている場合、このフラグは無視されます。 |
 | eeSortLengthView | \[短い文字列から長い文字列へ並べ替え\] コマンドまたは \[長い文字列から短い文字列へ並べ替え\] コマンドを使用時、全角文字が2文字として扱われます。 |
 | eeSortMoveCursor | 並べ替え時、カーソルを正しい位置に移動します。 |
 | eeSortRemoveEmpty | eeSortColumns と共に指定されている場合、空のセルを削除します。 |

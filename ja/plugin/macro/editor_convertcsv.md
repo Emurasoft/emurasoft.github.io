@@ -5,7 +5,7 @@
 
 HRESULT Editor\_ConvertCsv( HWND hwnd, int iDestMode, UINT nFlags = 0, int nSepCount = 0, const int\* pcxSepWidths = NULL );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 

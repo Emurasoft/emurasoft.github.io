@@ -16,7 +16,7 @@ editor.Stderr( str );
 editor.Stderr str
 ```
 
-## パラメータ
+## パラメーター
 
 _str_
 

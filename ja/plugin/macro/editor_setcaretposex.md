@@ -4,7 +4,7 @@
 
 Editor\_SetCaretPosEx( HWND hwnd, int nLogical, POINT\_PTR\* pptPos, bExtend );
 
-## パラメータ
+## パラメーター
 
 _hwnd_
 
@@ -27,7 +27,7 @@ _nLogical_
 
 _pptPos_
 
-カーソル位置を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインタを指定します。
+カーソル位置を指定した [POINT\_PTR 構造体](../structure/point_ptr) へのポインターを指定します。
 
 _bExtend_
 
