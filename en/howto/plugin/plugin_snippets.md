@@ -62,7 +62,7 @@ To adjust the properties of the Snippets plug-in, right-click the Snippets Plug-
 
 |     |     |
 | --- | --- |
-| Commands | lists available commands. (Popup Menu or Select Snippets) |
+| Commands | lists available commands. (Pop-up Menu or Select Snippets) |
 | Press New Shortcut Key | allows you to enter shortcut key for the selected command. |
 | Current Keys | Current keys assigned to the selected command. |
 | Description | Description for the selected command. |
@@ -186,7 +186,7 @@ ${1/./\U\0/}
 | `$0` | Last Placeholder |
 | `${n:default}` | Placeholder n with default Text |
 | `${Path}` | The full path name of the file. |
-| `${Dir}` | The directory name of the current file. |
+| `${Dir}` | The folder name of the current file. |
 | `${Filename}` | The file name without its extension. |
 | `${FilenameEx}` | The file name with its extension. |
 | `${Ext}` | The file name extension. |

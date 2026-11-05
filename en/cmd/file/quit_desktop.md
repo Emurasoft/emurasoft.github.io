@@ -1,4 +1,4 @@
-# Close All without Save (Current Desktop Only) command
+# Close All without Saving (Current Desktop Only) command
 
 ## Summary
 
@@ -12,7 +12,7 @@ Closes all open files without saving in the current virtual desktop.
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **File** \> **Close**
-\> **Close All without Save (Current Desktop Only)**
+\> **Close All without Saving (Current Desktop Only)**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

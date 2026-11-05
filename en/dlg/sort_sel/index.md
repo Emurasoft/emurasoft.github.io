@@ -2,13 +2,13 @@
 
 This dialog box appears when the [**Sort/Remove Duplicate split strings in Selection** command](../../cmd/sort/sort_sel) is selected.
 
-## Separator text box
+## Delimiter text box
 
-Specifies a string as a separator when sorting a selection.
+Specifies a string as a delimiter when sorting a selection.
 
-## Automatically detect separator checkbox
+## Automatically detect delimiter checkbox
 
-If this is checked, this dialog box detects the separator, and updates the **Separator** text box.
+If this is checked, this dialog box detects the delimiter, and updates the **Delimiter** text box.
 
 ## Remove duplicate split strings checkbox
 

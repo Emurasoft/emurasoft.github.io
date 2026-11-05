@@ -1,6 +1,6 @@
 # Visible Property (OutputBar Object)
 
-Shows or hides the output bar.
+Shows or hides the Output Bar.
 
 ## 
 

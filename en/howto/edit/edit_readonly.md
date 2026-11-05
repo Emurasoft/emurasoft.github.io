@@ -1,6 +1,6 @@
 # To Set Read-Only Mode
 
-Select **Read Only** under the **Edit** menu.
+Select **Read-Only** under the **Edit** menu.
 
 ## Notes
 

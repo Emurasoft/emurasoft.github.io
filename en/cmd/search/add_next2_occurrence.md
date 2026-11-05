@@ -1,4 +1,4 @@
-# Add Next Next Occurrence command
+# Add Second Next Occurrence command
 
 ## Summary
 

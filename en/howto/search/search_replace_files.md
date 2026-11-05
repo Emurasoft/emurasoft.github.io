@@ -12,7 +12,7 @@ the changes.
 [**Save and Close All** command](../../cmd/file/save_exit_all).
 If you want to cancel the changes, you can select the
 [**All Commands** command](../../cmd/tools/all_commands),
-and select **File** \> **Close** \> [**Close All without Save** command](../../cmd/file/quit_all).
+and select **File** \> **Close** \> [**Close All without Saving** command](../../cmd/file/quit_all).
 
 ## Tips
 

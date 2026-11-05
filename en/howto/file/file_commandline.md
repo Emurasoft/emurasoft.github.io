@@ -236,7 +236,7 @@ prints filename.
 /r "filename"
 ```
 
-opens filename in read only mode.
+opens filename in read-only mode.
 
 ### `/c`
 

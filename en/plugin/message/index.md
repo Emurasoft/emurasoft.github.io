@@ -49,7 +49,7 @@
 | [EE\_GET\_MODIFIED](ee_get_modified) | Retrieves the modified state of the text. |
 | [EE\_GET\_MULTI\_SEL](../../plugin/message/ee_get_multi_sel) | Retrieves the information of a specified selection when multiple selections are available. |
 | [EE\_GET\_OUTLINE\_LEVEL](ee_get_outline_level) | Retrieves the outline level for the specified logical line. |
-| [EE\_GET\_OUTPUT\_STRING](ee_get_output_string) | Retrieves the text in the output bar. |
+| [EE\_GET\_OUTPUT\_STRING](ee_get_output_string) | Retrieves the text in the Output Bar. |
 | [EE\_GET\_PAGE\_SIZE](ee_get_page_size) | Retrieves a page size. |
 | [EE\_GET\_REDRAW](ee_get_redraw) | Retrieves the flag that allows changes in EmEditor to be redrawn or prevents changes in EmEditor to be redrawn. |
 | [EE\_GET\_REF](ee_get_ref) | Retrieves the reference number of a specified plug-in. |
@@ -87,8 +87,8 @@
 | [EE\_MANAGE\_DUPLICATES](ee_manage_duplicates) | Deletes or bookmarks duplicate lines. |
 | [EE\_MATCH\_REGEX](ee_match_regex) | Searches a string for a regular expression. |
 | [EE\_NUMBERING](ee_numbering) | Inserts numbering at the cursor position or vertical selection. |
-| [EE\_OUTPUT\_DIR](ee_output_dir) | Sets the current directory for the output bar. |
-| [EE\_OUTPUT\_STRING](ee_output_string) | Appends a string to the output bar. |
+| [EE\_OUTPUT\_DIR](ee_output_dir) | Sets the current directory for the Output Bar. |
+| [EE\_OUTPUT\_STRING](ee_output_string) | Appends a string to the Output Bar. |
 | [EE\_PIVOT\_TABLE](ee_pivot_table) | Creates a pivot table in the CSV document. |
 | [EE\_QUERY\_STATUS](ee_query_status) | Queries the status of the command, whether the command is enabled and whether the command is a checked status. |
 | [EE\_QUERY\_STRING](ee_query_string) | Queries the string associated with the specified command. |

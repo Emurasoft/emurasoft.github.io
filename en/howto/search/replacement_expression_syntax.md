@@ -29,7 +29,7 @@ the **Replace** dialog box and in the **Replace in Files** dialog box.
 | \\T | If the Date/Time type of a [**Number Range Expression**](number_range_syntax) is used to match a string, this expression specifies a time format. It can be combined with **\\D**. [See available hour, minute, and second format pictures.](https://docs.microsoft.com/en-us/windows/win32/intl/hour--minute--and-second-format-pictures) See [Time format example](#time-format-example)
 | (?Ntrue\_expression:false\_expression) | If sub-expression N was matched, then true\_expression is evaluated and sent to output, otherwise false\_expression is evaluated and sent to output. For example, (?1foo:bar) will replace each match found with foo if the sub-expression \\1 was matched, and with bar otherwise. Alternatively, you can write the expression in this form: (?{1}foo:bar) |
 | $(Path) | File path. |
-| $(Dir) | File directory. |
+| $(Dir) | File folder. |
 | $(Filename) | File name without extension. |
 | $(FilenameEx) | File name with extension. |
 | $(Ext) | File extension. |

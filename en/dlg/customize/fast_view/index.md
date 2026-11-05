@@ -1,18 +1,18 @@
 # Fast View page
 
-The **Fast View** page allows you to customize settings related to Fast View mode, and to manage the diff files that store the edits and the line positions of huge files. See [To Open and Edit Huge Files in Fast View Mode](../../../howto/file/file_fast_view) for details about Fast View mode.
+The **Fast View** page allows you to customize settings related to Fast View mode, and to manage the diff files that store the edits and the line positions of very large files. See [To Open and Edit Very Large Files in Fast View Mode](../../../howto/file/file_fast_view) for details about Fast View mode.
 
 ## Options list box
 
-### Prompt when saving a huge file in Fast View mode
+### Prompt when saving a very large file in Fast View mode
 
 If this is checked, saving a document with edits in Fast View mode asks whether to merge the edits into the file now, or to save only the changes to a diff file and leave the original file untouched. This option is checked by default.
 
-### Save only the changes to a diff file when saving a huge file in Fast View mode
+### Save only the changes to a diff file when saving a very large file in Fast View mode
 
-If this is checked, saving a document with edits in Fast View mode saves only the changes to a diff file. If this is cleared, the changes are merged into the file. This option can be changed only when the **Prompt when saving a huge file in Fast View mode** option is cleared. It is also used when macros save a document. This option is cleared by default.
+If this is checked, saving a document with edits in Fast View mode saves only the changes to a diff file. If this is cleared, the changes are merged into the file. This option can be changed only when the **Prompt when saving a very large file in Fast View mode** option is cleared. It is also used when macros save a document. This option is cleared by default.
 
-### Save the line positions of huge files so they open instantly next time
+### Save the line positions of very large files so they open instantly next time
 
 If this is checked, EmEditor saves the positions of the lines of a file opened in Fast View mode to a diff file after the positions are found, and when the file is saved, if the file is larger than the **Minimum file size to enable Fast View mode**. The next time the file is opened, EmEditor uses the saved positions instead of finding the positions of the lines again. This option is checked by default.
 

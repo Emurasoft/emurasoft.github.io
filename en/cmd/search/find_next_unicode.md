@@ -25,7 +25,7 @@ select one of the Unicode options from the Encoding drop-down list box.
 "Continue?" appears, the file will
 be saved using the encoding you specified when trying to save the file.
 
-After you select the [**Erase Unicode Highlight** command](erase_unicode_hilite), the encoding used to save the
+After you select the [**Clear Unicode Highlight** command](erase_unicode_hilite), the encoding used to save the
 file will be the encoding displayed in the status bar.
 
 ## How to Run

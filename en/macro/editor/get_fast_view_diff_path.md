@@ -28,7 +28,7 @@ Returns the path of the diff file that stores the edits and the line positions o
 
 ## Remarks
 
-Diff files are saved in the **FastView** folder in the local application data folder of EmEditor. See [To Open and Edit Huge Files in Fast View Mode](../../howto/file/file_fast_view) for details.
+Diff files are saved in the **FastView** folder in the local application data folder of EmEditor. See [To Open and Edit Very Large Files in Fast View Mode](../../howto/file/file_fast_view) for details.
 
 ## Examples
 

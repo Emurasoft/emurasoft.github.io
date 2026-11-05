@@ -6,7 +6,7 @@ orphan: true
 Other features introduced in Version 7 include:
 
 - The virtual space mode.
-- Read Only icon on tab.
+- Read-Only icon on tab.
 - Close button on each tab or on active tab.
 - User defined menus allowing two-stroke key shortcuts.
 - **Smooth Scroll**
@@ -14,7 +14,7 @@ Other features introduced in Version 7 include:
 - **Column** text box in the Jump dialog box.
 - **Apply to All** checkbox in the **Save changes to ...** message box.
 - Ability to adjust character space.
-- Ability to select an encoding for the Output bar.
+- Ability to select an encoding for the Output Bar.
 - Options to save/load workspace automatically.
 - Options to highlight right side or right all.
 - The Open dialog box now allows multiple files to open simultaneously.

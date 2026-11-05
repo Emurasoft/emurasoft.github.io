@@ -1,6 +1,6 @@
 # Text Property (OutputBar Object)
 
-Retrieves the entire text in the output bar.
+Retrieves the entire text in the Output Bar.
 
 ## 
 

@@ -9,15 +9,15 @@
 | **[Find Next Word](find_next_word)** | Finds the next occurrence of the specified text. |
 | **[Find Previous Word](find_prev_word)** | Finds the previous occurrence of the specified text. |
 | **[Add Next Occurrence](add_next_occurrence)** | Adds the next occurrence of the specified text to the selection. |
-| **[Add Next Next Occurrence](add_next2_occurrence)** | Adds the next occurrence after that of the specified text to the selection. |
+| **[Add Second Next Occurrence](add_next2_occurrence)** | Adds the next occurrence after that of the specified text to the selection. |
 | **[Select All Occurrences](select_all_occurrences)** | Selects all occurrences of the specified text. |
 | [**Replace Next**](replace_next) | Replaces the next occurrence and finds the next occurrence. |
 | **[Set Word to Find](retrieve_find_text)** | Sets the current word or selection as the find string. |
 | [**Set Word to Replace**](retrieve_replace_text) | Sets the current word as the replace string. |
-| **[Erase Find Highlight](erase_find_hilite)** | Clears highlighting for search terms. |
+| **[Clear Find Highlight](erase_find_hilite)** | Clears highlighting for search terms. |
 | **[Find Next Warning Character/Unicode](find_next_unicode)** | Finds the next warning or Unicode character that cannot be converted to the selected encoding. |
 | **[Find Previous Warning Character/Unicode](find_prev_unicode)** | Finds the previous warning or Unicode character that cannot be converted to the selected encoding. |
-| **[Erase Unicode Highlight](erase_unicode_hilite)** | Clears highlights marking Unicode characters that cannot be converted to the selected encoding. |
+| **[Clear Unicode Highlight](erase_unicode_hilite)** | Clears highlights marking Unicode characters that cannot be converted to the selected encoding. |
 | **[Find in Files](grep)** | Searches for text across multiple files. |
 | **[Replace in Files](replace_in_files)** | Replaces text in multiple files. |
 | **[Set Focus to Filter Toolbar](focus_filter_bar)** | Sets focus to the Filter toolbar. |

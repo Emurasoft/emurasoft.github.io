@@ -11,7 +11,7 @@ this command, you can place the line by moving the cursor to a different locatio
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Advanced** \> **Cut Line**
+- Default Menu: **Edit** \> **Advanced** \> **Cut Lines**
 - [All Commands](../tools/all_commands): **Edit** \> **Cut** \> **Cut Lines**
 - Toolbar: None
 - Status Bar: None

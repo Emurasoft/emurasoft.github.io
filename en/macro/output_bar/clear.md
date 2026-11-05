@@ -1,6 +1,6 @@
 # Clear Method (OutputBar Object)
 
-Clears the contents of the output bar.
+Clears the contents of the Output Bar.
 
 ## 
 

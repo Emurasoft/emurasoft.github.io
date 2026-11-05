@@ -26,9 +26,9 @@ Specifies the number of additional lines above matched lines when the **Display 
 
 Specifies the number of additional lines below matched lines when the **Display File Names and Lines** or **Display Matched Lines Only** is selected for the **Extract Options** drop-down list box.
 
-## Separator text box
+## Delimiter text box
 
-Specifies the separator when a number greater than 0 is specified for the **Number of Additional Lines Above Matched Lines** or **Number of Additional Lines Below Matched Lines** drop-down list box.
+Specifies the delimiter when a number greater than 0 is specified for the **Number of Additional Lines Above Matched Lines** or **Number of Additional Lines Below Matched Lines** drop-down list box.
 
 ## Count Frequent Strings checkbox
 

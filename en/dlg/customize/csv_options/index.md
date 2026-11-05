@@ -6,9 +6,9 @@ The **CSV Options** page allows you to customize settings related to the CSV opt
 
 Specifies whether separators can be dragged with the mouse only in headings and the ruler. If this is not checked, separators can be dragged everywhere in the document.
 
-## Read only in headings checkbox
+## Read-only in column headings checkbox
 
-Specifies whether headings should be read only.
+Specifies whether headings should be read-only.
 
 ## Adjust separator positions automatically checkbox
 

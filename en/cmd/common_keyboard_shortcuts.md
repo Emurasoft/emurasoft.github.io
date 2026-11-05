@@ -52,7 +52,7 @@ Find Next Word|Ctrl+F3
 Find Previous Word|Ctrl+Shift+F3
 Add Next Occurrence|Ctrl+R
 Select All Occurrences|Ctrl+Shift+A
-Erase Find Highlight|Alt+F3
+Clear Find Highlight|Alt+F3
 
 ## Insert
 

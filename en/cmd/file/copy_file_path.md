@@ -1,4 +1,4 @@
-# Copy File Path Name command
+# Copy File Path command
 
 ## Summary
 
@@ -13,7 +13,7 @@ command cannot be selected if the document is untitled.
 
 - Default Menu: **File** \> **Copy File Path**
 - [All Commands](../tools/all_commands): **File** \> **Copy**
-\> **File Path Name**
+\> **Copy File Path**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

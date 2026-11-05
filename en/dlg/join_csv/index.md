@@ -36,9 +36,9 @@ Specifies a condition.
 
 If this is checked, column comparisons are case sensitive.
 
-## Separator text box
+## Delimiter text box
 
-If _Both split strings match_, _Key1 matches split Key2_, or _Key2 matches split Key1_ is selected for Conditions, enter the separator to split strings.
+If _Both split strings match_, _Key1 matches split Key2_, or _Key2 matches split Key1_ is selected for Conditions, enter the delimiter to split strings.
 
 ## Limit splits checkbox and text box
 

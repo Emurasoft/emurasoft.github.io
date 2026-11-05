@@ -1,6 +1,6 @@
 # writeln Method (OutputBar Object)
 
-Appends a string and a newline character to the output bar.
+Appends a string and a newline character to the Output Bar.
 
 ## 
 

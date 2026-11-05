@@ -112,16 +112,16 @@
 | **[Move Line Down](move_line_down)** | Moves the selected lines or the current line down by one line. |
 | **[Move Column Right](move_column_right)** | Moves the selected columns, or the current column, one column to the right in a CSV document. |
 | **[Move Column Left](move_column_left)** | Moves the selected columns, or the current column, one column to the left in a CSV document. |
-| **[Tabify All](space_to_tab)** | Converts equivalent spaces to tabs throughout the document. |
-| **[Untabify All](tab_to_space)** | Converts tabs to the equivalent spaces. |
+| **[Tabify Document](space_to_tab)** | Converts equivalent spaces to tabs throughout the document. |
+| **[Untabify Document](tab_to_space)** | Converts tabs to the equivalent spaces. |
 | **[Move to Last Edited Position](move_last_edit)** | Moves the cursor to the last edited position. |
 | **[Tag Jump](tag_jump)** | Jumps to a tag. |
 | **[Open Link](link_open)** | Opens a hyperlink. |
 | **[Clear Visited Link History](clear_visit_history)** | Clears visited URL, email address, and tag history. |
 | **[Jump](jump)** | Jumps to a specified line. |
 | **[Toggle IME](toggle_ime)** | Enables or disables the Input Method Editor (IME). |
-| **[Fast View](fast_view)** | Toggles between the normal mode and Fast View mode for huge files. |
-| **[Read Only](read_only)** | Toggles read-only status for the current file. |
+| **[Fast View](fast_view)** | Toggles between the normal mode and Fast View mode for very large files. |
+| **[Read-Only](read_only)** | Toggles read-only status for the current file. |
 | [**Jump Next**](jump_next) | Jumps to the next location in the Output Bar. |
 | [**Jump Previous**](jump_prev) | Jumps to the previous location in the Output Bar. |
 | [**Add to Markers**](add_to_markers) | Adds the selected text to the Markers list. |
@@ -132,7 +132,7 @@
 | [**Filter Out in Column**](filter_out_column) | Filters the document in the current column without the selected text or the word at cursor. |
 | **[Back](caret_back)** | Moves the cursor to the previous position. |
 | **[Forward](caret_forward)** | Moves the cursor to the next position. |
-| **[Collapse/Expand Line](outline_toggle_line)** | Expands or collapses the current line while outlining is displayed. |
+| **[Expand/Collapse Line](outline_toggle_line)** | Expands or collapses the current line while outlining is displayed. |
 | **[Collapse Line](outline_collapse_line)** | Collapses the current line while outlining is displayed. |
 | **[Expand Line](outline_expand_line)** | Expands the current line while outlining is displayed. |
 | **[Collapse All](outline_collapse_all)** | Collapses the entire document while outlining is displayed. |
@@ -172,8 +172,8 @@
 | **[Check Spelling](spell_toggle)** | Checks spelling in the document. |
 | **[Check Spelling in All](spell_all)** | Checks spelling in the entire document. |
 | **[Check Spelling in Quoted Lines](spell_quote)** | Checks spelling in quoted lines. |
-| **[Check Spelling in String Enclosed by Single Quotation Marks](spell_single_quotes)** | Checks spelling in strings enclosed in single quotation marks. |
-| **[Check Spelling in String Enclosed by Double Quotation Marks](spell_double_quotes)** | Checks spelling in strings enclosed in double quotation marks. |
+| **[Check Spelling in Strings Enclosed in Single Quotation Marks](spell_single_quotes)** | Checks spelling in strings enclosed in single quotation marks. |
+| **[Check Spelling in Strings Enclosed in Double Quotation Marks](spell_double_quotes)** | Checks spelling in strings enclosed in double quotation marks. |
 | **[Check Spelling in Comments](spell_comments)** | Checks spelling in comments. |
 | **[Check Spelling in Script](spell_script)** | Checks spelling in script. |
 | **[Check Spelling in Tags](spell_tags)** | Checks spelling in tags. |

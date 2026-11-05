@@ -9,7 +9,7 @@ button.
 - The current line and column at the cursor.
 - Encoding method used to open.
 - Overwrite mode **(OVR)**
-- Read only mode **(READ)**
+- Read-only mode **(READ)**
 - [Fast View mode](../file/file_fast_view) **(FAST)**
 
 ## Tips

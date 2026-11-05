@@ -1,4 +1,4 @@
-# New Group Minimize command
+# New Minimized Group command
 ## Summary
 
 Detaches the current document from the combined window as a new group, and minimizes it.

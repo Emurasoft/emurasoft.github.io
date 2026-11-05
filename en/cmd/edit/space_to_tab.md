@@ -1,4 +1,4 @@
-# Tabify All command
+# Tabify Document command
 
 ## Summary
 

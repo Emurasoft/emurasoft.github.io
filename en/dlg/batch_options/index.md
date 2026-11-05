@@ -2,13 +2,13 @@
 
 This dialog box appears when the **Batch Options** is selected in the Batch Find/Replace dialog box.
 
-## Enable separator checkbox
+## Enable delimiter checkbox
 
-If this box is checked, EmEditor enables separator when extracting matched results in batches.
+If this box is checked, EmEditor enables the delimiter when extracting matched results in batches.
 
-## Separator text box
+## Delimiter text box
 
-Specifies a separator.
+Specifies a delimiter.
 
 ## \> button
 

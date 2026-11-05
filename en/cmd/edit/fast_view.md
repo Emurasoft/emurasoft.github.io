@@ -2,11 +2,11 @@
 
 ## Summary
 
-Toggles between the normal mode and Fast View mode for huge files.
+Toggles between the normal mode and Fast View mode for very large files.
 
 ## Description
 
-Reopens the current document in Fast View mode, or in the normal mode if the document is already in Fast View mode. Fast View mode opens a huge file almost instantly without loading the whole file into memory, and allows you to view, search, and edit the file. See [To Open and Edit Huge Files in Fast View Mode](../../howto/file/file_fast_view) for details.
+Reopens the current document in Fast View mode, or in the normal mode if the document is already in Fast View mode. Fast View mode opens a very large file almost instantly without loading the whole file into memory, and allows you to view, search, and edit the file. See [To Open and Edit Very Large Files in Fast View Mode](../../howto/file/file_fast_view) for details.
 
 Files larger than the **Minimum file size to enable Fast View mode** on the [**Fast View** page](../../dlg/customize/fast_view/index) of the **Customize** dialog box are opened in Fast View mode automatically.
 

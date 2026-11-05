@@ -1,12 +1,12 @@
-# Reload as Binary (Hex View)
+# Reload as Binary (Hexadecimal View)
 
 ## Summary
 
-Reloads the current file using Binary (Hex View) encoding.
+Reloads the current file using Binary (Hexadecimal View) encoding.
 
 ## Description
 
-This command reloads the current file from the disk using the Binary (Hex View)
+This command reloads the current file from the disk using the Binary (Hexadecimal View)
 encoding. If the document is changed within EmEditor, the prompt message
 "Are you sure you want to abandon changes?" appears. Selecting **Yes**
 will discard the changes without saving, and will reload the new contents.

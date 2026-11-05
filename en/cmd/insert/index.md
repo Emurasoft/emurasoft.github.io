@@ -24,8 +24,8 @@
 | **[Insert Special Character](insert_control)** | Inserts a special character. |
 | **[Numbering](numbering)** | Inserts numbering at the cursor position or in a vertical selection. |
 | **[AutoFill/AutoRepeat](auto_fill)** | Continues a series or pattern into neighboring cells, lines, or characters. |
-| **[Insert Line Above](line_open_above)** | Inserts a new line above the cursor. |
-| **[Insert Line Below](line_open_below)** | Inserts a new line below the cursor. |
+| **[Insert Empty Line Above](line_open_above)** | Inserts a new line above the cursor. |
+| **[Insert Empty Line Below](line_open_below)** | Inserts a new line below the cursor. |
 | **[Duplicate Line](duplicate_line)** | Duplicates the current logical line. |
 | **[Insert CR](insert_cr)** | Inserts a CR at the cursor. |
 | **[Insert LF](insert_lf)** | Inserts an LF at the cursor. |

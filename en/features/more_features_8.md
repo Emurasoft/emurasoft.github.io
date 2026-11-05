@@ -40,7 +40,7 @@ A new dialog appears when the document contains characters which will be lost if
 -
 Find in Files results can be redirected in the Output Bar (Find in Files > Use Output Bar).
 -
-The new **Jump Next** and **Jump Previous** commands can be used to jump between results in the Output bar.
+The new **Jump Next** and **Jump Previous** commands can be used to jump between results in the Output Bar.
 -
 Mouse wheel with CTRL increases or decreases the font size.
 -

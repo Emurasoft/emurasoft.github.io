@@ -7,7 +7,7 @@ Runs a specified macro in My Macros list (multiple items).
 ## Description
 
 This command consists of multiple menu items. This command runs a
-specified macro registered in the My Macros directory. You may set your Macro file to use in My Macro at the [Customize Macros command](customize_macro).
+specified macro registered in the My Macros folder. You may set your Macro file to use in My Macro at the [Customize Macros command](customize_macro).
 
 ## How to Run
 

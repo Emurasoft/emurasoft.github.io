@@ -1,6 +1,6 @@
 # Editor\_OutputString
 
-Appends a string to the output bar. You can use this inline function or explicitly send the [EE\_OUTPUT\_STRING](../message/ee_output_string) message.
+Appends a string to the Output Bar. You can use this inline function or explicitly send the [EE\_OUTPUT\_STRING](../message/ee_output_string) message.
 
 Editor\_OutputString( HWND hwnd, LPCWSTR szString, UINT nFlags );
 
@@ -20,10 +20,10 @@ Specifies a combination of the following values.
 
 |     |     |
 | --- | --- |
-| FLAG\_OPEN\_OUTPUT | Opens the output bar. |
-| FLAG\_CLOSE\_OUTPUT | Closes the output bar. |
-| FLAG\_FOCUS\_OUTPUT | Sets the keyboard focus to the output bar. |
-| FLAG\_CLEAR\_OUTPUT | Clears the output bar. |
+| FLAG\_OPEN\_OUTPUT | Opens the Output Bar. |
+| FLAG\_CLOSE\_OUTPUT | Closes the Output Bar. |
+| FLAG\_FOCUS\_OUTPUT | Sets the keyboard focus to the Output Bar. |
+| FLAG\_CLEAR\_OUTPUT | Clears the Output Bar. |
 
 ## Return Values
 

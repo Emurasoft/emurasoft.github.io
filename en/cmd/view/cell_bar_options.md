@@ -1,4 +1,4 @@
-# Cell Toolbar Options (Pop-up) command
+# Cell Toolbar Options (Pop-up Menu) command
 ## Summary
 
 Shows a pop-up menu to set options for the cell toolbar.
@@ -10,7 +10,7 @@ Shows a popup menu to set options for the cell toolbar.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **View** \> **Toolbars** \> **Cell Toolbar Options** \> **Cell Toolbar Options (Pop-up)**
+- [All Commands](../tools/all_commands): **View** \> **Toolbars** \> **Cell Toolbar Options** \> **Cell Toolbar Options (Pop-up Menu)**
 - Toolbar: ![](../../images/commonsettings.png) (Cell toolbar)
 - Status Bar: None
 - Default Shortcut Key: None

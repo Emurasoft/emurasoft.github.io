@@ -65,7 +65,7 @@ Right clicking on the Projects bar shows the following options:
 | **![](../../images/gotodefinition.png) Go to Definition** | causes the cursor to jump to definitions. |
 | **![](../../images/popbrowsecontent.png) Pop Browse Context** | causes the cursor to return to the previous. |
 | **![](../../images/symbollist.png) Symbol List** | displays a list of symbols. |
-| **![](../../images/propertiesforcurrentsolutiontemplate.png) Properties for Current Solution Template** | displays the customizable properties for the current solution template. The General tab includes the Solution Format, File Extension, and Read Only option. The Configurations tab includes Configurations, Platforms, and Macros. The Symbols tab includes, Refresh All Symbol Lists Automatically and Additional Parameters to Ctags. The Tools tab includes customizable tools. The Keyboard page includes the option to assign commands to keyboard shortcuts for this plug-in. |
+| **![](../../images/propertiesforcurrentsolutiontemplate.png) Properties for Current Solution Template** | displays the customizable properties for the current solution template. The General tab includes the Solution Format, File Extension, and Read-Only option. The Configurations tab includes Configurations, Platforms, and Macros. The Symbols tab includes, Refresh All Symbol Lists Automatically and Additional Parameters to Ctags. The Tools tab includes customizable tools. The Keyboard page includes the option to assign commands to keyboard shortcuts for this plug-in. |
 | **![](../../images/solutiontemplates.png) Solution Templates** | displays the **Solution Template** dialog box. |
 | **![](../../images/pluginproperties.png) Plug-in Properties** | displays the plug-in Properties. |
 
@@ -86,7 +86,7 @@ This dialog box appears when you click the ![](../../images/solutiontemplates.pn
 | --- | --- |
 | **Solution Format** | selects a solution format. Currently, only **EmEditor** and **Visual Studio** can be selected. |
 | **File Extension** | specifies the file extension for solution files. When you open a solution file, a solution template associated with the file extension is selected. |
-| **Read Only** | specifies whether the solution is read only. If you set to read only, you won't be able to add files to the solution, and the project files won't be overridden when a solution is saved. |
+| **Read-only** | specifies whether the solution is read-only. If you set to read-only, you won't be able to add files to the solution, and the project files won't be overridden when a solution is saved. |
 | **Files to Include** | specifies file types that are included when you drag and drop files to a project tree. For example, you would specify "\*.c;\*.cpp" if you would like to include both .c and .cpp files. |
 | **Files to Exclude** | specifies file types that are excluded when you drag and drop files to a project tree. For example, you would specify "\*.com;\*.exe" if you would like to exclude both .com and .exe files. |
 | **Folder to Exclude** | specifies folder names that are excluded when you drag and drop files to a project tree. For example, you would specify "\*folder1;folder2" if you would like to exclude both "folder1" and "folder2" folders. |
@@ -145,14 +145,14 @@ Under Configurations properties in the Properties for Current Solution Template 
 
 ### Creating Tools for Solutions
 
-Under Tools properties, in the Properties for Current Solution Template dialog box, you can create new tools. Tools Properties allows you to specify the Title, Command, Arguments, Initial Directory, Icon Path, and Current Icon, among other
+Under Tools properties, in the Properties for Current Solution Template dialog box, you can create new tools. Tools Properties allows you to specify the Title, Command, Arguments, Initial folder, Icon Path, and Current Icon, among other
 options. The Tools Properties provides some predefined Arguments, such as File Path and Current Line. To create a new tool:
 
 1. Click New in the Tools Properties dialog box.
 2. Name the tool, Compile.
 3. Specify the Command, for example, C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\VC\\bin\\cl.exe.
 4. Specify the Argument, for example, $(OPTIONS) $(Path).
-5. Specify the Initial Directory, for example, $(Dir).
+5. Specify the Initial folder, for example, $(Dir).
 6. Specify the Icon Path and Current Icon.
 7. Click the Saves Files button to direct the tool to save the files.
 8. Click the Use Output Bar to specify the desired Output Encoding.
@@ -163,7 +163,7 @@ options. The Tools Properties provides some predefined Arguments, such as File P
 |     |     |
 | --- | --- |
 | **$(Path)** | the full path and name of the active document. |
-| **$(Dir)** | the directory of the active document. |
+| **$(Dir)** | the folder of the active document. |
 | **$(Filename)** | the file name of the active document without file extension. |
 | **$(Ext)** | the file extension of the active document. |
 | **$(RelPath)** | the relative path and name of the active document. |
@@ -171,7 +171,7 @@ options. The Tools Properties provides some predefined Arguments, such as File P
 | **$(CurText)** | the word of the current cursor position. |
 | **$(Solution)** | the full path and name of the solution file. |
 | **$(Project)** | the full path and name of the project file. |
-| **$(SolutionDir)** | the directory of the solution. |
+| **$(SolutionDir)** | the folder of the solution. |
 | **$(ConfigurationName)** | the active configuration name. |
 | **$(PlatformName)** | the active platform name. |
 | **$(FrameworkSDKDir)** | framework SDK directory with trailing backslash. |
@@ -187,14 +187,14 @@ options. The Tools Properties provides some predefined Arguments, such as File P
 |     |     |
 | --- | --- |
 | **f** | file name without extension. |
-| **d** | directory. |
+| **d** | folder. |
 | **x** | file extension. |
 
 ### Examples
 
 |     |     |
 | --- | --- |
-| **$(Project,d)** | returns the directory of the project file. |
+| **$(Project,d)** | returns the folder of the project file. |
 | **$(Solution,f)** | returns the file name without extension of the solution file. |
 | **$(Solution,f).$(Solution,x)** | returns the file name with extension of the solution file. |
 

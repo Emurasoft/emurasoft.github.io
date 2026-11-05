@@ -19,7 +19,7 @@ Right-clicking on a changed file in the sidebar will show a menu with commands f
 - If a submodule is listed, **Update Submodule** will call [`git submodule update --init`](https://git-scm.com/docs/git-submodule#Documentation/git-submodule.txt-update--init--remote-N--no-fetch--no-recommend-shallow-f--force--checkout--rebase--merge--referenceltrepositorygt--depthltdepthgt--recursive--jobsltngt--no-single-branch--filterltfilterspecgt--ltpathgt82308203) to update the files in the submodule to its current `HEAD`.
 - **Refresh** will refresh the changed files list.
 
-CommitList monitors the file system so that if a file in the repo directory was modified by an external program, the sidebar is refreshed.
+CommitList monitors the file system so that if a file in the repo folder was modified by an external program, the sidebar is refreshed.
 
 The **Pull** button pulls changes from the remote to the local repo. **Push** sends local changes to the remote repo. If the current branch is not associated with an upstream branch, the upstream branch will be created before pushing changes to it. These commands print a message to the status bar on completion.
 

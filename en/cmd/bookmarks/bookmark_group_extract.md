@@ -1,4 +1,4 @@
-# Extract Bookmarked Lines in this Group to New File command
+# Extract Bookmarked Lines in This Group to New File command
 
 ## Summary
 

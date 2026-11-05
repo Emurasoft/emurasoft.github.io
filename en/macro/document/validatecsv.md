@@ -29,8 +29,8 @@ Specifies a combination of the following values. If omitted, no flags will be sp
 | eeValidateAdjustVisibleOnly | Adjusts separator positions in the visible lines only if combined with **eeValidateAdjustColumns**. |
 | eeValidateDetectNL | If **Allow newlines in double quotes** is enabled for the current [CSV format](../../dlg/customize/csv/index), this flag finds two lines that have one unpaired double quote each, and turns any newlines between those double quotes into embedded newlines. |
 | eeValidateDontClearOutput | Not used. |
-| eeValidateQuiet | Does not display any information or errors in the output bar. |
-| eeValidateQuietIfNoError | Does not display any information in the output bar if there were no errors. |
+| eeValidateQuiet | Does not display any information or errors in the Output Bar. |
+| eeValidateQuietIfNoError | Does not display any information in the Output Bar if there were no errors. |
 
 ## Return Values
 

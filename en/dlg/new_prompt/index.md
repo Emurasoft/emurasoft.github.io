@@ -25,9 +25,9 @@ Select how to display the response from the AI.
 | **Replace Document** | The response will replace the entire document. |
 | **Insert before Selection** | The response will be inserted before the selection. |
 | **Insert after Selection** | The response will be inserted after the selection. |
-| **Show as Tool Tip** | The response will be displayed as a tooltip. |
+| **Show as Tooltip** | The response will be displayed as a tooltip. |
 | **Create New Document** | The response will become the content of a new document. |
-| **Output Bar** | The response will be displayed in the output bar. |
+| **Output Bar** | The response will be displayed in the Output Bar. |
 | **Split Document** | The response will become the content of a new document and will be displayed in a split window. |
 | **Split and Compare** | The response will become the content of a new document and will be displayed in a split window for comparison. |
 | **Image** | The response will be displayed as an image in a web browser. |

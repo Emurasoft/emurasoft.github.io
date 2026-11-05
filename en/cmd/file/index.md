@@ -33,7 +33,7 @@
 | **[Save as UTF-8 without Signature](save_utf8_nosign)** | Saves the current file using Unicode (UTF-8) encoding without a signature. |
 | **[Save as UTF-7](file_save_utf7)** | Saves the current file using Unicode (UTF-7) encoding. |
 | [**Save as Binary (ASCII View)**](file_save_binary) | Saves the current file using Binary (ASCII View) encoding. |
-| [**Save as Binary (Hex View)**](file_save_hex) | Saves the current file using Binary (Hex View) encoding. |
+| [**Save as Binary (Hexadecimal View)**](file_save_hex) | Saves the current file using Binary (Hexadecimal View) encoding. |
 | **[Save as Japanese Shift JIS](file_save_932)** | Saves the current file using Japanese Shift JIS encoding. |
 | **[Save as Japanese JIS](file_save_jis)** | Saves the current file using Japanese JIS encoding. |
 | **[Save as Japanese EUC](file_save_euc)** | Saves the current file using Japanese EUC encoding. |
@@ -41,18 +41,18 @@
 | **[Save Newline Characters as CR+LF](save_as_crlf)** | Saves newline characters as CR+LF. |
 | **[Save Newline Characters as CR Only](save_as_cr)** | Saves newline characters as CR only. |
 | **[Save Newline Characters as LF Only](save_as_lf)** | Saves newline characters as LF only. |
-| **[Copy File Path Name](copy_file_path)** | Copies the full path of the current file to the Clipboard. |
-| **[Copy File Directory Name](copy_file_dir)** | Copies the full path of the current file's folder to the Clipboard. |
+| **[Copy File Path](copy_file_path)** | Copies the full path of the current file to the Clipboard. |
+| **[Copy File Folder Path](copy_file_dir)** | Copies the full path of the current file's folder to the Clipboard. |
 | **[Reload as Same Encoding](file_reload)** | Reloads the file using the default encoding. |
 | [**Reload** (popup menu)](reload_popup) | Shows a popup menu to select an encoding to reload the file with. |
 | **[Reload Detect All](file_reload_detect_all)** | Reloads the current file using the best-fit encoding. |
 | **[Reload as System Default Encoding](file_reload_ansi)** | Reloads the current file using the [system default encoding.](../../glossary/index) |
-| **[Reload as Unicode](file_reload_unicode)** | Reloads the current file using Unicode (UTF-16LE) encoding. |
+| **[Reload as UTF-16LE](file_reload_unicode)** | Reloads the current file using Unicode (UTF-16LE) encoding. |
 | **[Reload as UTF-16BE](file_reload_unicode_bigendian)** | Reloads the current file using Unicode (UTF-16BE) encoding. |
 | **[Reload as UTF-8](file_reload_utf8)** | Reloads the current file using Unicode (UTF-8) encoding. |
 | **[Reload as UTF-7](file_reload_utf7)** | Reloads the current file using Unicode (UTF-7) encoding. |
 | [**Reload as Binary (ASCII View)**](file_reload_binary) | Reloads the current file using Binary (ASCII View) encoding. |
-| [**Reload as Binary (Hex View)**](file_reload_hex) | Reloads the current file using Binary (Hex View) encoding. |
+| [**Reload as Binary (Hexadecimal View)**](file_reload_hex) | Reloads the current file using Binary (Hexadecimal View) encoding. |
 | **[Reload as Japanese Shift JIS](file_reload_932)** | Reloads the current file using Japanese Shift JIS encoding. |
 | **[Reload as Japanese JIS](file_reload_jis)** | Reloads the current file using Japanese JIS encoding. |
 | **[Reload as Japanese EUC](file_reload_euc)** | Reloads the current file using Japanese EUC encoding. |
@@ -78,8 +78,8 @@
 | **[Close All](exit_all)** | Closes all open files. |
 | **[Close All Others](close_all_others)** | Closes all open files except the current file. |
 | [**Close without Saving**](app_quit) | Closes the current file without saving. |
-| **[Close All without Save (Current Desktop Only)](quit_desktop)** | Closes all open files without saving in the current virtual desktop. |
-| **[Close All without Save](quit_all)** | Closes all open files without saving. |
+| **[Close All without Saving (Current Desktop Only)](quit_desktop)** | Closes all open files without saving in the current virtual desktop. |
+| **[Close All without Saving](quit_all)** | Closes all open files without saving. |
 | **[Save Workspace, Save, and Close All (Current Desktop Only)](save_workspace_close_desktop)** | Saves the workspace, then saves and closes all open files in the current virtual desktop. |
 | **[Save Workspace and Close All (Current Desktop Only)](save_workspace_quit_desktop)** | Saves the workspace and closes all open files in the current virtual desktop. |
 | **[Save Workspace, Save, and Close All](save_workspace_exit_all)** | Saves the workspace, then saves and closes all open files. |

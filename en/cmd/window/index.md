@@ -18,7 +18,7 @@
 | **[Synchronize Horizontal Scrolling when Split](sync_horz_scroll_split)** | Synchronizes horizontal scrolling in split windows. |
 | **[Synchronize Vertical Scrolling when Split](sync_vert_scroll_split)** | Synchronizes vertical scrolling in split windows. |
 | **[New Group](new_group)** | Detaches the current document from the combined window as a new group. |
-| **[New Group Minimize](new_group_minimize)** | Detaches the current document from the combined window as a new group, and minimizes it. |
+| **[New Minimized Group](new_group_minimize)** | Detaches the current document from the combined window as a new group, and minimizes it. |
 | **[New Cascade Group](new_group_cascade)** | Detaches the current document from the combined window as a new group, and arranges the windows so they overlap. |
 | **[New Horizontal Group](new_group_horz)** | Detaches the current document from the combined window as a new group, and arranges the windows horizontally as non-overlapping tiles. |
 | **[New Vertical Group](new_group_vert)** | Detaches the current document from the combined window as a new group, and arranges the windows vertically as non-overlapping tiles. |
@@ -55,7 +55,7 @@
 | **[Line Scroll Down](scroll_down)** | Scrolls the document down by one line. |
 | **[Toggle Markers on Vertical Scroll Bar](scroll_marks_toggle)** | Toggles markers on the vertical scroll bar. |
 | **[Minimap](minimap_toggle)** | Toggles the minimap. |
-| **[Show Minimap while Hovered](minimap_hover)** | Shows the minimap when the mouse hovers over the vertical scroll bar. |
+| **[Show Minimap while Hovering](minimap_hover)** | Shows the minimap when the mouse hovers over the vertical scroll bar. |
 | **[Zoom In Minimap](minimap_zoom_in)** | Zooms in on the minimap. |
 | **[Zoom Out Minimap](minimap_zoom_out)** | Zooms out on the minimap. |
 | **[Show Entire Minimap](minimap_entire_map)** | Shows the entire minimap. |

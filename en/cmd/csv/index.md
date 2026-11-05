@@ -25,10 +25,10 @@
 | **[Row Heading 2](row_heading_2)** | Freezes the first two columns as row headings. |
 | **[Row Heading 3](row_heading_3)** | Freezes the first three columns as row headings. |
 | **[Row Heading 4](row_heading_4)** | Freezes the first four columns as row headings. |
-| **[Read Only in Column Headings](read_only_headings)** | Toggles the option to make column headings read-only. |
-| **[Heading (Pop-up)](heading_popup)** | Shows a pop-up menu to set headings. |
+| **[Read-Only in Column Headings](read_only_headings)** | Toggles the option to make column headings read-only. |
+| **[Heading (Pop-up Menu)](heading_popup)** | Shows a pop-up menu to set headings. |
 | **[Convert to CSV (multiple items)](convert_to_sv)** | Converts the current separated value document or fixed width column document to the specified separated value document (multiple items). |
-| **[Convert to Fixed Width Columns](convert_to_fixed_width)** | Converts the current separated value document to fixed-width columns using the current separator positions. |
+| **[Convert to Fixed-Width Columns](convert_to_fixed_width)** | Converts the current separated value document to fixed-width columns using the current separator positions. |
 | **[CSV Converter](csv_converter)** | Shows or hides the CSV Converter. |
 | **[Adjust Separator Positions (Whole Document)](adjust_column)** | Adjusts all separator positions in the CSV document. |
 | **[Adjust Separator Positions (Visible Lines Only)](adjust_column_visible)** | Adjusts separator positions in visible lines only in a CSV document. |
@@ -50,7 +50,7 @@
 | **[Split Columns](split_column)** | Splits the selected columns in a CSV document. |
 | **[Make Number of Columns Same](make_columns_same)** | Makes the number of columns the same in a CSV document. |
 | **[Remove Unnecessary Quotes](remove_unnecessary_quotes)** | Removes unnecessary double quotes in a CSV document. |
-| **[Remove Embedded Newline Characters in CSV](remove_embedded_nl)** | Removes embedded newline characters in CSV documents. |
+| **[Remove Embedded Newlines](remove_embedded_nl)** | Removes embedded newline characters in CSV documents. |
 | **[Quote All Cells](add_quotes)** | Encloses all cells in a CSV document in double quotes. |
 | **[Combine Lines](combine_lines)** | Combines vertically adjacent duplicate cells in a CSV document. |
 | **[Flash Fill (Cell Selection Mode Only)](flash_fill)** | Automatically fills values in the entire column of a CSV document. |

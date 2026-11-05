@@ -18,11 +18,11 @@ Click this checkbox to toggle all check boxes below.
 
 If this is checked, EmEditor checks spelling in quoted lines.
 
-## Check spelling in group box - Text enclosed in single quotation marks checkbox
+## Check spelling in group box - Strings enclosed in single quotation marks checkbox
 
 If this is checked, EmEditor checks spelling in strings enclosed by single quotation marks.
 
-## Check spelling in group box - Text enclosed in double quotation marks checkbox
+## Check spelling in group box - Strings enclosed in double quotation marks checkbox
 
 If this is checked, EmEditor checks spelling in strings enclosed by double quotation marks.
 

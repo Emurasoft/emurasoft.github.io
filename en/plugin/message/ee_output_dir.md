@@ -1,6 +1,6 @@
 # EE\_OUTPUT\_DIR
 
-Sets the current directory for the output bar. You can send this
+Sets the current directory for the Output Bar. You can send this
 message explicitly or use the [Editor\_OutputDir](../macro/editor_outputdir) inline function.
 
 ```

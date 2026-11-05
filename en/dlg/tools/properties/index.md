@@ -21,9 +21,9 @@ launched. Use the **Arrow** (**>**) button to select from a
 list of predefined arguments. You can also specify environment variables, such as
 %WinDir%.
 
-### Initial directory text box
+### Initial folder text box
 
-Specifies the working directory of the tool. Use the **Arrow** (**>**) button to select a directory. You can also specify environment variables, such as %WinDir%.
+Specifies the working folder of the tool. Use the **Arrow** (**>**) button to select a folder. You can also specify environment variables, such as %WinDir%.
 
 ### Icon path text box
 
@@ -42,11 +42,11 @@ launching the tool.
 
 If this is checked, external tools will use current environment variables when launched. If not, external tools will use environment variables inherited from the parent process (EmEditor).
 
-### Use output bar checkbox
+### Use Output Bar checkbox
 
 If this is checked, EmEditor will redirect the standard output and standard error output to the Output Bar.
 
-### Set focus in output bar checkbox
+### Set focus in Output Bar checkbox
 
 If this is checked, EmEditor will set the keyboard focus to the Output Bar.
 
@@ -84,7 +84,7 @@ Select the standard output for the external tool.
 | Replace Document | The standard output will replace the entire document. |
 | Insert before Selection | The standard output will be inserted before the selected text. |
 | Insert after Selection | The standard output will be inserted after the selected text. |
-| Show as Tool Tip | The standard output will be displayed as a tool tip. |
+| Show as Tooltip | The standard output will be displayed as a tooltip. |
 | Create New Document | The standard output will be contents of a new document. |
 
 ### Encoding drop-down list box
@@ -102,7 +102,7 @@ Select how you want to display the standard error for the external tool.
 | Replace Document | The standard error will replace the entire document. |
 | Insert before Selection | The standard error will be inserted before the selected text. |
 | Insert after Selection | The standard error will be inserted after the selected text. |
-| Show as Tool Tip | The standard error will be displayed as a tool tip. |
+| Show as Tooltip | The standard error will be displayed as a tooltip. |
 | Create New Document | The standard error will be contents of a new document. |
 | Display as Output Bar | The standard error will be displayed in the Output Bar. |
 

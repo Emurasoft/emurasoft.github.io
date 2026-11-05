@@ -1,4 +1,4 @@
-# Heading (Pop-up) command
+# Heading (Pop-up Menu) command
 ## Summary
 
 Shows a pop-up menu to set headings.
@@ -10,7 +10,7 @@ Shows a popup menu to set headings.
 ## How to Run
 
 - Default Menu: None
-- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Heading (Pop-up)**
+- [All Commands](../tools/all_commands): **CSV** \> **Headings (Freeze Panes)** \> **Heading (Pop-up Menu)**
 - Toolbar: ![](../../images/heading.png)
 - Status Bar: None
 - Default Keyboard Shortcut: None

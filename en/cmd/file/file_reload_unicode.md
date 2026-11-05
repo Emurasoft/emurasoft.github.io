@@ -1,4 +1,4 @@
-# Reload as Unicode command
+# Reload as UTF-16LE command
 ## Summary
 
 Reloads the current file using Unicode (UTF-16LE) encoding.

@@ -14,7 +14,7 @@ Displays the list of items that can be displayed in the Status Bar. This list co
 | **Character code at the cursor** | Displays the character code at the cursor. |
 | **Current encoding** | Displays the current encoding. |
 | **Overwrite mode** | Displays the Overwrite mode. |
-| **Read only mode** | Displays the Read Only mode. |
+| **Read-only mode** | Displays the Read-Only mode. |
 | **Current folder** | Displays the current folder. |
 | **Newline character** | Displays the newline characters of the entire file (not available for very large files). |
 | **Number of characters in the selection** | Displays the number of characters in the selection. |

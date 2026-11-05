@@ -6,7 +6,7 @@
 
 **Arguments**: $(Path)
 
-**Initial Directory**: $(Dir)
+**Initial folder**: $(Dir)
 
 **Icon Path**: C:\\Program Files\\Internet Explorer\\iexplore.exe
 
@@ -18,7 +18,7 @@ Check **Save File**
 
 **Arguments**: $(Dir)
 
-**Initial Directory**: $(Dir)
+**Initial folder**: $(Dir)
 
 **Icon Path**: %WinDir%\\explorer.exe
 
@@ -28,7 +28,7 @@ Check **Save File**
 
 **Arguments**: $(Dir)
 
-**Initial Directory**: $(Dir)
+**Initial folder**: $(Dir)
 
 **Icon Path**: %WinDir%\\system32\\cmd.exe
 
@@ -38,7 +38,7 @@ Check **Save File**
 
 **Arguments**: /k "C:\\Program Files\\Visual Studio\\Vc7\\bin\\vcvars32.bat"&&cl $(Path)
 
-**Initial Directory**: $(Dir)
+**Initial folder**: $(Dir)
 
 **Icon Path**: C:\\Program Files\\Visual Studio\\Common7\\IDE\\devenv.exe
 
@@ -50,7 +50,7 @@ Check **Save File**
 
 **Arguments**:
 
-**Initial Directory**: $(Dir)
+**Initial folder**: $(Dir)
 
 **Icon Path**:
 
@@ -62,7 +62,7 @@ Check **Save File**
 
 **Arguments**:
 
-**Initial Directory**:
+**Initial folder**:
 
 **Icon Path**:
 
@@ -73,7 +73,7 @@ Check **Save File**
 **Arguments**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkout
 $/(path)/$(Filename).$(Ext) -y(user name)
 
-**Initial Directory**: $(Dir)
+**Initial folder**: $(Dir)
 
 **Icon Path**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
 
@@ -84,17 +84,17 @@ $/(path)/$(Filename).$(Ext) -y(user name)
 **Arguments**: /k C:\\(SourceSafe path)\\Common\\VSS\\win32\\SS.EXE checkin
 $/(path)/$(Filename).$(Ext) -y(user name)
 
-**Initial Directory**: $(Dir)
+**Initial folder**: $(Dir)
 
 **Icon Path**: C:\\(SourceSafe path)\\Common\\VSS\\win32\\SSEXP.EXE
 
 Check **Save File**
 
-You can use the following predefined arguments in **Command**, **Arguments**, **Initial Directory**, and **Icon Path**.
+You can use the following predefined arguments in **Command**, **Arguments**, **Initial folder**, and **Icon Path**.
 
 $(Path) The full path name of the file.
 
-$(Dir) The directory name of the file.
+$(Dir) The folder name of the file.
 
 $(Filename) The file name without its extension.
 

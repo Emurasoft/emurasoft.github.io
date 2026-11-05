@@ -1,4 +1,4 @@
-# Convert to Fixed Width Columns command
+# Convert to Fixed-Width Columns command
 
 ## Summary
 
@@ -11,7 +11,7 @@ Converts the current separated value document to the fixed width columns using t
 ## How to Run
 
 - Default Menu: (None)
-- [All Commands](../tools/all_commands): **CSV** \> **Convert to** \> **Convert to Fixed Width Columns**
+- [All Commands](../tools/all_commands): **CSV** \> **Convert to** \> **Convert to Fixed-Width Columns**
 - Toolbar: None
 - Status Bar: None
 - Default Keyboard Shortcut: None

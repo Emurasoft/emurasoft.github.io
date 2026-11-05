@@ -1,4 +1,4 @@
-# Erase Unicode Highlight command
+# Clear Unicode Highlight command
 
 ## Summary
 
@@ -12,8 +12,8 @@ that is set by the [**Find Next Unicode** command](find_next_unicode) or [**Find
 
 ## How to Run
 
-- Default Menu: **Search** \> **Erase Unicode Highlight**
-- [All Commands](../tools/all_commands): **Search** \> **Unicode** \> **Erase Unicode Highlight**
+- Default Menu: **Search** \> **Clear Unicode Highlight**
+- [All Commands](../tools/all_commands): **Search** \> **Unicode** \> **Clear Unicode Highlight**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: ALT+F9

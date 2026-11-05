@@ -1,6 +1,6 @@
 # EE\_GET\_OUTPUT\_STRING
 
-Retrieves the text in the output bar. You can send this message explicitly or by using the [Editor\_GetOutputString](../macro/editor_getoutputstring) inline function.
+Retrieves the text in the Output Bar. You can send this message explicitly or by using the [Editor\_GetOutputString](../macro/editor_getoutputstring) inline function.
 
 ```
 EE_GET_OUTPUT_STRING

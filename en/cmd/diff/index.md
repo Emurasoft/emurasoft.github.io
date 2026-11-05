@@ -12,7 +12,7 @@
 | **[Ignore Leading Spaces](ignore_lead_space)** | Ignores leading spaces on each line when comparing documents. |
 | **[Ignore Trailing Spaces](ignore_trail_space)** | Ignores trailing spaces on each line when comparing documents. |
 | **[Ignore Embedded Spaces](ignore_embedded_space)** | Ignores embedded spaces on each line when comparing documents. |
-| **[Ignore Cases](ignore_cases)** | Ignores case when comparing documents. |
+| **[Ignore Case](ignore_cases)** | Ignores case when comparing documents. |
 | **[Ignore Newline Characters](ignore_returns)** | Ignores newline characters on each line when comparing documents. |
 | **[Ignore Comments](ignore_comment)** | Ignores comments when comparing documents. |
 | **[Ignore Encodings](ignore_encoding)** | Ignores encoding differences when comparing documents. |

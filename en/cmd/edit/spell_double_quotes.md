@@ -1,4 +1,4 @@
-# Check Spelling in String Enclosed by Double Quotation Marks command
+# Check Spelling in Strings Enclosed in Double Quotation Marks command
 
 ## Summary
 

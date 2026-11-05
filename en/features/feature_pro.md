@@ -12,7 +12,7 @@ orphan: true
 
 ## New commands
 
-- [Close All without Save command](../cmd/file/quit_all)
+- [Close All without Saving command](../cmd/file/quit_all)
 - [Tabify command](../cmd/convert/tabify)
 - [Untabify command](../cmd/convert/untabify)
 - [Increase Line Indent command](../cmd/convert/indent)
@@ -20,7 +20,7 @@ orphan: true
 - [Comment command](../cmd/convert/edit_comment)
 - [Uncomment command](../cmd/convert/edit_uncomment)
 - [Insert Caron command](../cmd/insert/insert_caron)
-- [Tabify All command](../cmd/edit/space_to_tab)
+- [Tabify Document command](../cmd/edit/space_to_tab)
 - [Move to Last Edited Position command](../cmd/edit/move_last_edit)
 - [Next Bookmark in This Window command](../cmd/bookmarks/bookmark_next_within)
 - [Previous Bookmark in This Window command](../cmd/bookmarks/bookmark_prev_within)
@@ -40,7 +40,7 @@ orphan: true
 - [Combine Windows command](../cmd/window/window_combine)
 - [Find Next Unicode command](../cmd/search/find_next_unicode)
 - [Find Previous Unicode command](../cmd/search/find_prev_unicode)
-- [Erase Unicode Highlight command](../cmd/search/erase_unicode_hilite)
+- [Clear Unicode Highlight command](../cmd/search/erase_unicode_hilite)
 
 ## Existing commands with new features
 

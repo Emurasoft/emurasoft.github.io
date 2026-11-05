@@ -1,4 +1,4 @@
-# Erase Find Highlight command
+# Clear Find Highlight command
 
 ## Summary
 
@@ -11,8 +11,8 @@ document.
 
 ## How to Run
 
-- Default Menu: **Search** \> **Erase Find Highlight**
-- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Erase Find Highlight**
+- Default Menu: **Search** \> **Clear Find Highlight**
+- [All Commands](../tools/all_commands): **Search** \> **Find/Replace** \> **Clear Find Highlight**
 - Toolbar:
 ![](../../images/erasefindhilite.png)
 - Status Bar: None

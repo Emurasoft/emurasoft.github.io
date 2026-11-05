@@ -8,7 +8,7 @@ Discards the edits of Fast View mode and deletes the diff file.
 
 This command is available in Fast View mode when the document has edits or the diff file of the current file exists. After you confirm, EmEditor discards the edits of the document, including the edits saved in the diff file, and deletes the diff file. The original file is not changed.
 
-To delete the diff files of files that are not open, use the [**Fast View** page](../../dlg/customize/fast_view/index) of the **Customize** dialog box. See [To Open and Edit Huge Files in Fast View Mode](../../howto/file/file_fast_view) for details.
+To delete the diff files of files that are not open, use the [**Fast View** page](../../dlg/customize/fast_view/index) of the **Customize** dialog box. See [To Open and Edit Very Large Files in Fast View Mode](../../howto/file/file_fast_view) for details.
 
 ## How to Run
 

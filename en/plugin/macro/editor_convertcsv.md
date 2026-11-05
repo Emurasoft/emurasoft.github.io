@@ -12,7 +12,7 @@ Specifies the window handle of the view or frame of EmEditor.
 
 _iDestMode_
 
-Specifies the index of the CSV format you want to convert the current document to. 0 means fixed-width columns format (non-CSV). 1 means the first defined format in the CSV tab of the Customize dialog box (Comma separated by default).
+Specifies the index of the CSV format you want to convert the current document to. 0 means fixed-width columns format (non-CSV). 1 means the first defined format in the CSV tab of the Customize dialog box (Comma-separated by default).
 
 _nFlags_
 

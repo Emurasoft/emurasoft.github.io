@@ -1,6 +1,6 @@
-# To Open and Edit Huge Files in Fast View Mode
+# To Open and Edit Very Large Files in Fast View Mode
 
-Fast View mode opens a huge file almost instantly, without loading it into memory. EmEditor finds the lines in the background and reads only the lines on the screen. Your edits are kept separately, and the file does not change until you save it.
+Fast View mode opens a very large file almost instantly, without loading it into memory. EmEditor finds the lines in the background and reads only the lines on the screen. Your edits are kept separately, and the file does not change until you save it.
 
 ## To Open a File in Fast View Mode
 
@@ -21,16 +21,16 @@ You can jump to the end of a file as soon as it starts opening, while EmEditor i
 - Use the CSV modes, including the [**Cell Selection Mode**](../../cmd/csv/csv_cell_mode). {{pro}}
 - You can edit and use most of the commands that can change the document, including [**Undo**](../../cmd/edit/edit_undo)/[**Redo**](../../cmd/edit/edit_redo), the [**Insert**](../../cmd/insert/index), [**Convert**](../../cmd/convert/index), [**Sort**](../../cmd/sort/index), and [**CSV**](../../cmd/csv/index) menus, and macros and plug-ins. See [Limitations](#fast-view-limitations) for the features that are not supported in Fast View mode.
 
-You cannot edit a document if the file is read-only, is opened in Binary (Hexadecimal View), or is partly opened with the [**Large File Controller**](../../cmd/view/large_file_bar), while a filter is applied, or while documents are being compared. To stop editing, turn on [**Read Only**](../../cmd/edit/read_only). Commands that change many lines run on multiple threads. EmEditor keeps your edits in memory, and a message appears if they need more memory than is available. If this happens, save your edits or switch to the normal mode.
+You cannot edit a document if the file is read-only, is opened in Binary (Hexadecimal View), or is partly opened with the [**Large File Controller**](../../cmd/view/large_file_bar), while a filter is applied, or while documents are being compared. To stop editing, turn on [**Read-Only**](../../cmd/edit/read_only). Commands that change many lines run on multiple threads. EmEditor keeps your edits in memory, and a message appears if they need more memory than is available. If this happens, save your edits or switch to the normal mode.
 
 ## To Save Edits
 
-Saving a huge file can take a long time, so when you [**Save**](../../cmd/file/file_save) a document in Fast View mode, EmEditor asks how you want to save it:
+Saving a very large file can take a long time, so when you [**Save**](../../cmd/file/file_save) a document in Fast View mode, EmEditor asks how you want to save it:
 
 - **Save and merge now** writes your changes into the file.
 - **Save only my changes** saves your changes to a diff file and leaves the original file untouched. The next time you open the file, the changes are applied automatically. You can merge them into the file later by choosing **Save and merge now**.
 
-If you select **Do not show this message again**, EmEditor remembers your choice. To change it later, use the **Prompt when saving a huge file in Fast View mode** and **Save only the changes to a diff file when saving a huge file in Fast View mode** options on the [**Fast View** page](../../dlg/customize/fast_view/index) of the **Customize** dialog box. [**Save As**](../../cmd/file/file_save_as) always writes the whole file, including your changes.
+If you select **Do not show this message again**, EmEditor remembers your choice. To change it later, use the **Prompt when saving a very large file in Fast View mode** and **Save only the changes to a diff file when saving a very large file in Fast View mode** options on the [**Fast View** page](../../dlg/customize/fast_view/index) of the **Customize** dialog box. [**Save As**](../../cmd/file/file_save_as) always writes the whole file, including your changes.
 
 You can also use the following commands on the **File** \> **Diff** submenu of the [**All Commands**](../../cmd/tools/all_commands) menu:
 
@@ -40,9 +40,9 @@ You can also use the following commands on the **File** \> **Diff** submenu of t
 
 ## Diff Files
 
-A diff file stores your edits to a file and the positions of its lines, so that a huge file opens instantly the next time, without finding the lines again. Diff files are saved in the **FastView** folder in the EmEditor local application data folder, not next to the original files.
+A diff file stores your edits to a file and the positions of its lines, so that a very large file opens instantly the next time, without finding the lines again. Diff files are saved in the **FastView** folder in the EmEditor local application data folder, not next to the original files.
 
-- When the **Save the line positions of huge files so they open instantly next time** option is on (the default), the line positions of a file larger than the minimum file size are saved once they are found, and again when the file is saved.
+- When the **Save the line positions of very large files so they open instantly next time** option is on (the default), the line positions of a file larger than the minimum file size are saved once they are found, and again when the file is saved.
 - If you rename or move the file outside EmEditor, its diff file still applies to it.
 - A diff file cannot be applied if the file has changed since the diff file was saved, if the file is opened in a different encoding, or if the CSV setting that allows newlines in quoted cells is different.
 - Diff files that contain only line positions are deleted automatically when their file changes size or has been missing for more than 30 days. Only the newest 100 of them are kept. Diff files that contain edits are never deleted automatically.
@@ -64,11 +64,11 @@ The following features are not available in Fast View mode. To use them, switch 
 - **Insert** menu: [**AutoFill/AutoRepeat**](../../cmd/insert/auto_fill).
 - **Convert** menu: [**Remove Newline Characters**](../../cmd/convert/delete_cr_wrap), [**Join Lines**](../../cmd/convert/join_lines), and the Base64, Markdown, and HTML conversions of **Encode/Decode Selection**.
 - **Bookmarks** menu: [**Invert Bookmarks**](../../cmd/bookmarks/bookmark_invert) and [**Select Bookmarked Lines**](../../cmd/bookmarks/bookmark_select).
-- **Search** menu: [**Find Next/Previous Warning Character/Unicode**](../../cmd/search/find_next_unicode) and [**Erase Unicode Highlight**](../../cmd/search/erase_unicode_hilite).
+- **Search** menu: [**Find Next/Previous Warning Character/Unicode**](../../cmd/search/find_next_unicode) and [**Clear Unicode Highlight**](../../cmd/search/erase_unicode_hilite).
 - **Find** dialog box and **Find** toolbar: **Incremental search**. With **Search all documents in the group**, **Select All** and **Extract** skip the Fast View documents other than the active document. (**Find Next**, **Count**, and **Bookmark** search all of them.)
 - **Filter** toolbar: **Incremental Search** and **Block Multiline Changes**.
 - **View** menu: the **Wrap** commands, the [**Syntax Checker**](../../cmd/view/toggle_validation_bar), the [**Outline Bar**](../../cmd/view/outline_bar) and [**Outline Guide**](../../cmd/view/outline_guide), the **Tab/Indent** options, [**Tag Links**](../../cmd/view/tag_links), [**Clear Markers for Saved Lines**](../../cmd/view/clear_saved_markers), and the [**Minimap**](../../cmd/window/minimap_toggle).
-- **CSV** menu: [**Convert to Fixed Width Columns**](../../cmd/csv/convert_to_fixed_width), [**Flash Fill**](../../cmd/csv/flash_fill), [**Transpose**](../../cmd/csv/transpose), [**Pivot Table**](../../cmd/csv/pivot_table), [**Unpivot**](../../cmd/csv/unpivot), the **Separators** submenu, and **Convert**, [**Auto Add Separators**](../../cmd/csv/auto_add_separators), and **Truncate Unfit** on the **CSV Converter** bar.
+- **CSV** menu: [**Convert to Fixed-Width Columns**](../../cmd/csv/convert_to_fixed_width), [**Flash Fill**](../../cmd/csv/flash_fill), [**Transpose**](../../cmd/csv/transpose), [**Pivot Table**](../../cmd/csv/pivot_table), [**Unpivot**](../../cmd/csv/unpivot), the **Separators** submenu, and **Convert**, [**Auto Add Separators**](../../cmd/csv/auto_add_separators), and **Truncate Unfit** on the **CSV Converter** bar.
 - Macros: the **AutoFill**, **ConvertCsv**, **PivotTable**, and **Unpivot** methods of the **Document** object fail. {{pro}}
 
 ## See Also

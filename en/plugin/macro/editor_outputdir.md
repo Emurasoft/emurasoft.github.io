@@ -1,6 +1,6 @@
 # Editor\_OutputDir
 
-Sets the current directory for the output bar. You can use this inline function or explicitly send the [EE\_OUTPUT\_DIR](../message/ee_output_dir) message.
+Sets the current directory for the Output Bar. You can use this inline function or explicitly send the [EE\_OUTPUT\_DIR](../message/ee_output_dir) message.
 
 Editor\_OutputDir( HWND hwnd, LPCWSTR szCurrDir );
 

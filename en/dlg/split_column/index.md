@@ -12,19 +12,19 @@ This checkbox allows you to enable or disable all items in the list.
 
 ## Split the selected columns into - Columns radio button
 
-If this button is checked, EmEditor splits the selected columns by the separator and put them into the right columns.
+If this button is checked, EmEditor splits the selected columns by the delimiter and put them into the right columns.
 
 ## Split the selected columns into - Lines radio button
 
-If this button is checked, EmEditor splits the selected columns by the separator and put them into the lines beneath.
+If this button is checked, EmEditor splits the selected columns by the delimiter and put them into the lines beneath.
 
 ## Split the selected columns into - (None) radio button
 
 If this button is checked, EmEditor does not split the selected columns, but sort or remove duplicate split strings only.
 
-## Separator text box
+## Delimiter text box
 
-Specifies a string as a separator when splitting columns.
+Specifies a string as a delimiter when splitting columns.
 
 ## Remove duplicate split strings checkbox
 

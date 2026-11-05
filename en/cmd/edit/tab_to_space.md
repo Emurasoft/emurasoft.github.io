@@ -1,4 +1,4 @@
-# Untabify All command
+# Untabify Document command
 
 ## Summary
 

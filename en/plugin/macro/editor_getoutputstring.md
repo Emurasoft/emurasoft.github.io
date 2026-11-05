@@ -1,6 +1,6 @@
 # Editor\_GetOutputString
 
-Retrieves the text in the output bar. You can use this inline function or explicitly send the [EE\_GET\_OUTPUT\_STRING](../message/ee_get_output_string)
+Retrieves the text in the Output Bar. You can use this inline function or explicitly send the [EE\_GET\_OUTPUT\_STRING](../message/ee_get_output_string)
 message.
 
 Editor\_GetOutputString( HWND hwnd, UINT cchBuf, LPWSTR pBuf );

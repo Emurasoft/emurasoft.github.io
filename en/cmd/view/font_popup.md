@@ -15,7 +15,7 @@ This command displays a popup menu, which includes the
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **View** \> **Font** >
-**Font** (Popup Menu)
+**Font** (Pop-up Menu)
 - Toolbar: ![](../../images/fontpopup.png) (on
 the arrow)
 - Status Bar: None

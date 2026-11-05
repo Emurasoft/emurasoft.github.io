@@ -21,7 +21,7 @@
 | **[Clear All Bookmarks in This Group](../bookmarks/bookmark_group_clear)** | Clears all bookmarks in this group. |
 | **[Invert Bookmarks in This Group](../bookmarks/bookmark_group_invert)** | Inverts all bookmarks in this group. |
 | **[Delete Bookmarked Lines in This Group](../bookmarks/bookmark_group_delete)** | Deletes all bookmarked lines in this group. |
-| **[Extract Bookmarked Lines in this Group to New File](../bookmarks/bookmark_group_extract)** | Extracts all bookmarked lines in this group and copies them to a new document. |
+| **[Extract Bookmarked Lines in This Group to New File](../bookmarks/bookmark_group_extract)** | Extracts all bookmarked lines in this group and copies them to a new document. |
 | **[Bookmarks](../bookmarks/bookmark_bar)** | Displays the list of bookmarks in the Bookmarks custom bar. |
 
 

@@ -33,8 +33,8 @@ If the object is a color list, it should be one of the following values.
 | eeColorURL | URLs |
 | eeColorMailTo | Mail addresses |
 | eeColorTag | Tags including Find in Files hyperlinks |
-| eeColorSingleQuotes | String enclosed by single quotation marks '...' |
-| eeColorDoubleQuotes | String enclosed by double quotation marks "..." |
+| eeColorSingleQuotes | String enclosed in single quotation marks '...' |
+| eeColorDoubleQuotes | String enclosed in double quotation marks "..." |
 | eeColorComment | Comments |
 | eeColorScript | Script |
 | eeColorBraces | Matched parentheses/brackets |

@@ -1,4 +1,4 @@
-# To Exit All
+# To Close All
 
 Click in the top, right-hand corner of the window while pressing the SHIFT
 key.

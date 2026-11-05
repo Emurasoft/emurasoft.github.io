@@ -1,6 +1,6 @@
 # EE\_OUTPUT\_STRING
 
-Appends a string to the output bar. You can send this
+Appends a string to the Output Bar. You can send this
 message explicitly or use the [Editor\_OutputString](../macro/editor_outputstring) inline function.
 
 ```
@@ -17,10 +17,10 @@ Specifies a combination of the following values.
 
 |     |     |
 | --- | --- |
-| FLAG\_OPEN\_OUTPUT | Opens the output bar. |
-| FLAG\_CLOSE\_OUTPUT | Closes the output bar. |
-| FLAG\_FOCUS\_OUTPUT | Sets the keyboard focus to the output bar. |
-| FLAG\_CLEAR\_OUTPUT | Clears the contents of the output bar. |
+| FLAG\_OPEN\_OUTPUT | Opens the Output Bar. |
+| FLAG\_CLOSE\_OUTPUT | Closes the Output Bar. |
+| FLAG\_FOCUS\_OUTPUT | Sets the keyboard focus to the Output Bar. |
+| FLAG\_CLEAR\_OUTPUT | Clears the contents of the Output Bar. |
 
 _szString_
 

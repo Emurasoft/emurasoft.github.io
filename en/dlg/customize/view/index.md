@@ -2,39 +2,39 @@
 
 The **View** page allows you to customize settings related to view.
 
-## custom bar colors - use system color checkbox
+## Custom bar colors - Use system color checkbox
 
 If this is checked, the text and background colors of each custom bar will use system colors.
 
-## custom bar colors - Text button
+## Custom bar colors - Text button
 
 Click this button to change the text color of custom bars.
 
-## custom bar colors - Background button
+## Custom bar colors - Background button
 
 Click this button to change the background color of custom bars.
 
-## custom bar colors - (Sample) text
+## Custom bar colors - (Sample) text
 
 Shows a sample of text with the currently selected colors.
 
-## cursor size and color - Set overwrite cursor size and color checkbox
+## Cursor size and color - Set overwrite cursor size and color checkbox
 
 Specifies the following options apply to the cursor size and color during the Overwrite mode opposed to the Insert Mode.
 
-## cursor size and color - Width drop-down list box
+## Cursor size and color - Width drop-down list box
 
 Specifies the width of the cursor.
 
-## cursor size and color - Height drop-down list box
+## Cursor size and color - Height drop-down list box
 
 Specifies the height of the cursor.
 
-## cursor size and color - Use system color checkbox
+## Cursor size and color - Use system color checkbox
 
 If this is checked, the cursor color becomes the inverse of the background color.
 
-## cursor size and color - Color button
+## Cursor size and color - Color button
 
 Click this button to change the color of the cursor
 

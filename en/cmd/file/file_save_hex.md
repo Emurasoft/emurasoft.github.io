@@ -1,12 +1,12 @@
-# Save as Binary (Hex View) command
+# Save as Binary (Hexadecimal View) command
 
 ## Summary
 
-Saves the current file using Binary (Hex View) encoding.
+Saves the current file using Binary (Hexadecimal View) encoding.
 
 ## Description
 
-This command saves the current file using the Binary (Hex View) encoding, unless the
+This command saves the current file using the Binary (Hexadecimal View) encoding, unless the
 document is untitled. If the document is untitled, the **Save As** dialog box appears,
 which allows you to enter a file name to save the file as.
 
@@ -14,7 +14,7 @@ which allows you to enter a file name to save the file as.
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **File** \> **Save**
-\> **Save with Encoding** \> **Save as Binary (Hex View)**
+\> **Save with Encoding** \> **Save as Binary (Hexadecimal View)**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

@@ -12,7 +12,7 @@
 | [**Toggle All Special Toolbars**](all_special_toolbars) | Shows or hides all special toolbars. |
 | [**Function Bar**](view_function_bar) | Shows or hides the function bar. |
 | **[Status Bar](view_status_bar)** | Shows or hides the status bar. |
-| **[Output Bar](view_output)** | Shows or hides the output bar. |
+| **[Output Bar](view_output)** | Shows or hides the Output Bar. |
 | **[Clear Output Bar](output_clear)** | Clears the contents of the Output Bar. |
 | **[Enable Shortcut Keys (Output Bar)](toggle_output_shortcuts)** | Enables or disables shortcut keys in the Output Bar. |
 | **[Wrap by Window (Output Bar)](toggle_output_wrap)** | Wraps output lines according to window size. |
@@ -37,7 +37,7 @@
 | **[Favorites Toolbar](show_favorites_bar)** | Shows or hides the favorites toolbar. |
 | **[Markdown/HTML Toolbar](show_markdown_bar)** | Shows or hides the Markdown/HTML toolbar. |
 | **[Snippets Toolbar](show_snippets_bar)** | Shows or hides the snippets toolbar. |
-| **[Cell Toolbar Options (Pop-up)](cell_bar_options)** | Shows a pop-up menu to set options for the cell toolbar. |
+| **[Cell Toolbar Options (Pop-up Menu)](cell_bar_options)** | Shows a pop-up menu to set options for the cell toolbar. |
 | **[Automatically Show/Hide Cell Toolbar](auto_show_hide_cell_bar)** | Automatically shows or hides the cell toolbar. |
 | **[Automatically Set Focus (Cell Toolbar)](auto_set_focus)** | Automatically sets focus to the cell toolbar. |
 | **[Automatically Adjust Height (Cell Toolbar)](auto_adjust_height)** | Automatically adjusts the height of the cell toolbar. |

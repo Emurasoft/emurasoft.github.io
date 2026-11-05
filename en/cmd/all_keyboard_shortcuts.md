@@ -141,8 +141,8 @@ Insert|Insert Grave|Ctrl+`|"Inserts a character with a grave accent by now typin
 Insert|Insert Inverted Exclamation Mark|Alt+Ctrl+Shift+1|Inserts an inverted exclamation mark
 Insert|Insert Inverted Question Mark|Alt+Ctrl+Shift+/|Inserts an inverted question mark
 Insert|Insert Ligature|Ctrl+Shift+7|Inserts a ligature by now typing a, o, s, A or O
-Insert|Insert Line Above|Shift+Enter|Inserts a new line above the current cursor position.
-Insert|Insert Line Below|Ctrl+Shift+Enter|Inserts a new line below the current cursor position.
+Insert|Insert Empty Line Above|Shift+Enter|Inserts a new line above the current cursor position.
+Insert|Insert Empty Line Below|Ctrl+Shift+Enter|Inserts a new line below the current cursor position.
 Insert|Insert Macron|Alt+-|Inserts a character with a macron accent by now typing a letter.
 Insert|Insert Registered|Alt+Ctrl+R|Inserts a registered symbol
 Insert|Insert Ring|Ctrl+Shift+2|Inserts a character with a ring above by now typing a, A or space
@@ -160,8 +160,8 @@ My Macros||Ctrl+Shift+,|$(AppDir)\Macros\WrapTags.jsee
 My Macros||Ctrl+Shift+Space|$(AppDir)\Macros\ParameterInfo.jsee
 My Macros||F12|$(AppDir)\Macros\GotoDefinition.jsee
 Search|Add Next Occurrence|Ctrl+R|Adds the next occurrence of the specified text to the selection.
-Search|Erase Find Highlight|Alt+F3|Erases highlights from search terms.
-Search|Erase Unicode Highlight|Alt+F9|Erases any highlights marking Unicode characters that cannot be converted to the encoding for saving.
+Search|Clear Find Highlight|Alt+F3|Clears highlights from search terms.
+Search|Clear Unicode Highlight|Alt+F9|Clears any highlights marking Unicode characters that cannot be converted to the encoding for saving.
 Search|Find|Ctrl+F|Finds a string.
 Search|Find Next|F3|Finds next occurrence.
 Search|Find Next Warning Character/Unicode|F9|Finds the next warning or Unicode character that cannot be converted to the encoding for saving.
@@ -186,7 +186,7 @@ View|Character Code Value|Ctrl+I|Displays the Unicode character value.
 View|Layout 1|F11|Full Screen
 View|Layout 2|Alt+F11|Focus Mode
 View|No Wrap|Ctrl+1|Displays each line without wrapping.
-View|Output Bar|Alt+2|Shows or hides the output bar.
+View|Output Bar|Alt+2|Shows or hides the Output Bar.
 View|Reset Font Size|Ctrl+0|Resets the display font size.
 View|Wrap by Characters|Ctrl+2|Wraps lines by a specified number of characters.
 View|Wrap by Page|Ctrl+4|Wraps lines according to page width.

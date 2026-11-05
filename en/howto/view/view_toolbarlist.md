@@ -13,7 +13,7 @@
 | ![](../../images/fileprint.png)[Print](../../cmd/file/file_print) | Print the file. |
 | ![](../../images/printpreview.png)[Print Preview](../../cmd/file/print_preview) | Displays preview of how this document will print. |
 | ![](../../images/appexit.png)[Exit](../../cmd/file/app_exit) | Quit EmEditor. |
-| ![](../../images/exitall.png)[Exit All](../../cmd/file/exit_all) | Save the file and exit. |
+| ![](../../images/exitall.png)[Close All](../../cmd/file/exit_all) | Save the file and exit. |
 | ![](../../images/cut.png)[Cut](../../cmd/edit/edit_cut) | Cut the selection and put it on the Clipboard. |
 | ![](../../images/copy.png)[Copy](../../cmd/edit/edit_copy) | Copy the selection and put it on the Clipboard. |
 | ![](../../images/paste.png)[Paste](../../cmd/edit/edit_paste) | Insert Clipboard contents. |

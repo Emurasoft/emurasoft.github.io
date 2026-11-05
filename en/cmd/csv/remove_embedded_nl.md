@@ -1,4 +1,4 @@
-# Remove Embedded Newline Characters in CSV command
+# Remove Embedded Newlines command
 ## Summary
 
 Removes embedded newline characters in CSV documents.

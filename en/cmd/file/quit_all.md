@@ -1,4 +1,4 @@
-# Close All without Save command
+# Close All without Saving command
 
 ## Summary
 
@@ -12,7 +12,7 @@ This command closes all opened windows without saving. All changes will be disca
 
 - Default Menu: None
 - [All Commands](../tools/all_commands): **File** \> **Close**
-\> **Close All without Save**
+\> **Close All without Saving**
 - Toolbar: None
 - Status Bar: None
 - Default Shortcut Key: None

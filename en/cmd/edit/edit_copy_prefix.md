@@ -12,7 +12,7 @@ and running the [**Paste** command](edit_paste).
 
 ## How to Run
 
-- Default Menu: **Edit** \> **Copy Text in Quotes**
+- Default Menu: **Edit** \> **Copy in Quotes**
 - [All Commands](../tools/all_commands): **Edit** \> **Copy** \> **Copy in Quotes**
 - Toolbar: None
 - Status Bar: None

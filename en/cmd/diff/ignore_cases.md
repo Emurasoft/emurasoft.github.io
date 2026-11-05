@@ -1,4 +1,4 @@
-# Ignore Cases command
+# Ignore Case command
 
 ## Summary
 

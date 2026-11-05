@@ -65,7 +65,7 @@
 | [Editor\_GetModified](editor_getmodified) | Retrieves the modified state of the text. |
 | [Editor\_GetMultiSel](editor_getmultisel) | Retrieves the information of a specified selection when multiple selections are available. |
 | [Editor\_GetOutlineLevel](editor_getoutlinelevel) | Retrieves the outline level for the specified logical line. |
-| [Editor\_GetOutputString](editor_getoutputstring) | Retrieves the text in the output bar. |
+| [Editor\_GetOutputString](editor_getoutputstring) | Retrieves the text in the Output Bar. |
 | [Editor\_GetPageSize](editor_getpagesize) | Retrieves a page size. |
 | [Editor\_GetRef](editor_getref) | Retrieves the reference number of a specified plug-in. |
 | [Editor\_GetRedraw](editor_getredraw) | Retrieves the flag that allows changes in EmEditor to be redrawn or prevents changes in EmEditor to be redrawn. |
@@ -106,8 +106,8 @@
 | [Editor\_ManageDuplicates](editor_manageduplicates) | Deletes or bookmarks duplicate lines. |
 | [Editor\_MatchRegex](editor_matchregex) | Determines whether a string matches a specified regular expression. |
 | [Editor\_Numbering](editor_numbering) | Inserts numbering at the cursor position or vertical selection. |
-| [Editor\_OutputDir](editor_outputdir) | Sets the current directory for the output bar. |
-| [Editor\_OutputString](editor_outputstring) | Appends a string to the output bar. |
+| [Editor\_OutputDir](editor_outputdir) | Sets the current directory for the Output Bar. |
+| [Editor\_OutputString](editor_outputstring) | Appends a string to the Output Bar. |
 | [Editor\_OverwriteA](editor_overwritea) | Inserts an ANSI string by overwriting the existing string at the current cursor position. |
 | [Editor\_OverwriteW](editor_overwritew) | Inserts a Unicode string by overwriting the existing string at the current cursor position. |
 | [Editor\_PivotTable](editor_pivottable) | Creates a pivot table in the CSV document. |

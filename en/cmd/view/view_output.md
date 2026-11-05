@@ -1,11 +1,11 @@
 # Output Bar command
 ## Summary
 
-Shows or hides the output bar.
+Shows or hides the Output Bar.
 
 ## Description
 
-Shows or hides the output bar. The output bar is displayed when an external tool is launched while the
+Shows or hides the Output Bar. The Output Bar is displayed when an external tool is launched while the
 [**Use Output Bar** check box](../../dlg/tools/properties/index) is checked.
 
 ## How to Run
