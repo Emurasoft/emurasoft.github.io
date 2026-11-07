@@ -1,15 +1,15 @@
 # 使用與 AI 聊天外掛程式
 
 ## 安裝
-**與 AI 聊天** 作為 **ChatAI** 外掛程式提供。您可以從 [ChatAI 外掛程式下載頁面](https://www.emeditor.com/download-chatai/)下載。**ChatAI** 外掛程式不適用於 Microsoft 市集應用程式版。
+**與 AI 聊天** 功能由 **ChatAI** 外掛程式提供。ChatAI 已包含在 Microsoft Store、`.appinstaller` 和 `.msix` 版本的 EmEditor 中，因此無需另外安裝。如果您使用 `.msi` 安裝程式版或可攜式版，請按照以下步驟安裝。
 
-### 桌面版
-1. 如果您使用 EmEditor 的**桌面安裝程式**版本，請點擊 **Installer** 下載安裝程式版本。
+### EmEditor .msi 安裝程式
+1. 從 [ChatAI 外掛程式下載頁面](https://www.emeditor.com/download-chatai/)下載安裝程式。
 2. 運行已下載的安裝程式。
 3. 打開 EmEditor，依次轉到**自訂** > **AI 選項**。勾選**啟用 AI**。
 
 ### 可攜式版
-1. 如果您使用 EmEditor 的**可攜式版**，請點擊 **Zip archive** 下載 zip 檔案。
+1. 從 [ChatAI 外掛程式下載頁面](https://www.emeditor.com/download-chatai/)下載 zip 壓縮檔。
 2. 將 `ChatAI.dll` 解壓到 EmEditor 資料夾中的 `PlugIns` 資料夾。
 3. 在 EmEditor 中導航到[**自訂外掛程式**](../../cmd/tools/customize_plug_ins)，並**添加**`ChatAI.dll` 檔案。
 4. 打開 EmEditor，前往到**自訂** > **AI 選項**。勾選**啟用 AI**。
@@ -143,3 +143,7 @@
 ## 適用於其他應用程式的 EmEditor 說明頁面 MCP
 
 Chat with AI 可使用 EmEditor 說明頁面 MCP 連接器來存取 EmEditor 說明頁面，從而提供比網頁搜尋工具更準確且最新的 EmEditor 相關解答。雖然與 AI 聊天內建此 MCP 連接器，但您也可以從其他應用程式連線至它。更多資訊請參閱 [EmEditor Help Pages MCP](https://github.com/Emurasoft/emeditor-help-mcp) 專案。
+
+## 停用 AI 功能
+
+請參閱[EmEditor 是否提供 AI 功能？](https://www.emeditor.com/faq/installation-faq/are-ai-features-enabled-in-emeditor/)。
