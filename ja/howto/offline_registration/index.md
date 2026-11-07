@@ -11,6 +11,7 @@
 1. [お問い合わせフォーム](https://jp.emeditor.com/support/#contact) を使用してライセンス ファイルをリクエストしてください。フォームには、[エムソフト カスタマー センター](https://support.emeditor.com/)で使用されているメール アドレスを指定してください。登録キーまたは [Stripe サブスクリプションID](https://support.emeditor.com/ja/account/subscriptions) を含めてください。
 2. リクエストに対する返信メールにライセンス ファイルが添付されます。ライセンス ファイルを管理者権限が不要なローカル ディスクのフォルダーにダウンロードしてください。
 3. EmEditorをまだインストールしていない場合は、EmEditorをインストールしてください。インストール時に[`REGKEY`](https://jp.emeditor.com/faq/%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab-faq/%e3%83%80%e3%82%a4%e3%82%a2%e3%83%ad%e3%82%b0-%e3%83%9c%e3%83%83%e3%82%af%e3%82%b9%e3%82%92%e8%a1%a8%e7%a4%ba%e3%81%9b%e3%81%9a%e3%81%ab-emeditor-%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc/)オプションを追加する必要はありません。
+  - EmEditor はユーザーごとにインストールすることをお勧めしますが、コンピューターごとにインストールする必要がある場合は、[インストールおよび登録ガイド](https://help.emeditor.com/en/howto/registration/)を参照してください。
 4. すでに EmEditor を登録している場合は、[登録情報](../../dlg/registration_info/index) を使用して登録を解除してください。
 5. EmEditor を閉じます。[コマンド ライン オプション](commandline_options) `/ol "licenseFilePath"` を使用します。`licenseFilePath` はライセンス ファイルの完全パスです。以下はコマンドの例です。
 
