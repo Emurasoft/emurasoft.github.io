@@ -7,7 +7,7 @@ operations.
 
 In the **Open** and **Save As** dialogs, show the most recently used folder.
 
-## This file doesn't exist. Create it? checkbox
+## Prompt when opening a new file checkbox
 
 Shows a warning message if trying to open non-existent files.
 
