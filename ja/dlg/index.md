@@ -10,6 +10,8 @@ detect_result/index
 file_verify_result/index
 undo_history/index
 repeat_count/index
+select_location/index
+table/index
 jump/index
 insert_numbering/index
 auto_fill/index
