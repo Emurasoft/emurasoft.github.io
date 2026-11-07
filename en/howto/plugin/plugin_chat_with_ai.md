@@ -2,9 +2,9 @@
 
 ## Installation
 
-Chat with AI is included with the `.appinstaller` and `.msix` versions of EmEditor, so no separate installation is required. If you use the `.msi` or portable version, follow the installation steps below.
+Chat with AI is included with the Microsoft Store, `.appinstaller`, and `.msix` versions of EmEditor, so no separate installation is required. If you use the `.msi` or portable version, follow the installation steps below.
 
-The **Chat with AI** feature is provided by the **ChatAI** plug-in, which is not available in the Store App.
+The **Chat with AI** feature is provided by the **ChatAI** plug-in.
 
 ### EmEditor .msi installer
 1. Download the installer from [ChatAI plug-in downloads](https://www.emeditor.com/download-chatai/).
