@@ -1,15 +1,15 @@
 # [AIとチャット] プラグインの使い方
 
 ## インストール
-**AIとチャット** は **ChatAI** プラグインとして提供されています。[ChatAI プラグイン ダウンロード](https://jp.emeditor.com/download-chatai/) からダウンロードできます。**ChatAI** プラグインは、ストア アプリ版ではご利用いただけません。
+**AIとチャット** 機能は **ChatAI** プラグインによって提供されます。ChatAI は Microsoft Store 版、`.appinstaller` 版、および `.msix` 版の EmEditor に含まれているため、別途インストールする必要はありません。`.msi` インストーラー版またはポータブル版をご利用の場合は、以下の手順に従ってください。
 
-### デスクトップ
-1. EmEditor の **デスクトップ インストーラー版** を使用している場合は、**インストーラー** をクリックしてインストーラー版をダウンロードします。
+### EmEditor .msi インストーラー
+1. [ChatAI プラグイン ダウンロード](https://jp.emeditor.com/download-chatai/) からインストーラーをダウンロードします。
 2. ダウンロードしたインストーラーを実行します。
 3. EmEditor を開き、**カスタマイズ** > **AI オプション** に移動します。**AI を有効にする** にチェックを入れます。
 
 ### ポータブル
-1. EmEditor の **ポータブル版** を使用している場合は、**zipアーカイブ** をクリックして zip ファイルをダウンロードします。
+1. [ChatAI プラグイン ダウンロード](https://jp.emeditor.com/download-chatai/) から zip アーカイブをダウンロードします。
 2. `ChatAI.dll` ファイルを、EmEditor フォルダー内の `PlugIns` フォルダーに解凍（展開）します。
 3. EmEditor で [**プラグインのカスタマイズ**](../../cmd/tools/customize_plug_ins) に移動し、`ChatAI.dll` ファイルを **追加** します。
 4. EmEditor を開き、**カスタマイズ** > **AI オプション** に移動します。**AI を有効にする** にチェックを入れます。
@@ -170,3 +170,7 @@ MCP (Model Context Protocol) を使用すると、AI を外部サービスに接
 ## 他のアプリ用の EmEditor ヘルプ ページ MCP
 
 AIとチャットは、EmEditor ヘルプ ページ MCP コネクターを使用して EmEditor のヘルプ ページにアクセスできるため、Web 検索ツールよりも正確で最新の EmEditor に関する回答が得られます。この MCP コネクターは AIとチャットに組み込まれていますが、他のアプリから接続することもできます。詳細については、[EmEditor Help Pages MCP](https://github.com/Emurasoft/emeditor-help-mcp) プロジェクトを参照してください。
+
+## AI 機能を無効にする
+
+[EmEditor で AI 機能は利用できますか？](https://www.emeditor.com/faq/installation-faq/are-ai-features-enabled-in-emeditor/) を参照してください。

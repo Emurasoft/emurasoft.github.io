@@ -1,15 +1,18 @@
 # To use Chat with AI plug-in
 
 ## Installation
-**Chat with AI** is available as the **ChatAI** plug-in. You can download it from [ChatAI plug-in downloads](https://www.emeditor.com/download-chatai/). The **ChatAI** plug-in is not available for the Store App.
 
-### Desktop
-1. If you use the **Desktop Installer** version of EmEditor, click **Installer** to download the installer version
+Chat with AI is included with the Microsoft Store, `.appinstaller`, and `.msix` versions of EmEditor, so no separate installation is required. If you use the `.msi` or portable version, follow the installation steps below.
+
+The **Chat with AI** feature is provided by the **ChatAI** plug-in.
+
+### EmEditor .msi installer
+1. Download the installer from [ChatAI plug-in downloads](https://www.emeditor.com/download-chatai/).
 2. Run the downloaded installer.
 3. Open EmEditor and go to **Customize** > **AI Options**. Check **Enable AI**.
 
 ### Portable
-1. If you use the **Portable** version of EmEditor, click **Zip archive** to download the zip file.
+1. Download the zip archive from [ChatAI plug-in downloads](https://www.emeditor.com/download-chatai/).
 2. Unzip the `ChatAI.dll` file to the `PlugIns` folder in your EmEditor folder.
 3. Navigate to [**Customize Plug-ins**](../../cmd/tools/customize_plug_ins) in EmEditor and **Add** the `ChatAI.dll` file.
 4. Open EmEditor and go to **Customize** > **AI Options**. Check **Enable AI**.
@@ -169,3 +172,7 @@ MCP (Model Context Protocol) lets AI connect to external services. In the **MCP 
 ## EmEditor Help Pages MCP for other apps
 
 Chat with AI can use the EmEditor Help Pages MCP connector to access the EmEditor help pages, providing more accurate, up-to-date answers about EmEditor than web search tools. While Chat with AI comes with this MCP connector built in, you can connect to it from other apps. See the [EmEditor Help Pages MCP](https://github.com/Emurasoft/emeditor-help-mcp) project for more info.
+
+## Disabling AI features
+
+See [Are AI features available in EmEditor?](https://www.emeditor.com/faq/installation-faq/are-ai-features-enabled-in-emeditor/).
