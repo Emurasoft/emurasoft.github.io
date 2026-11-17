@@ -17,7 +17,7 @@ html_static_path = ['_static']
 html_css_files = ['custom.css']
 templates_path = ['_templates']
 html_copy_source = False
-html_favicon = '_static/favicon.png'
+html_favicon = '_static/logo-square.svg'
 highlight_language = 'none'
 suppress_warnings = [
     'image.not_readable',
