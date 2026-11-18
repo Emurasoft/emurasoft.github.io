@@ -1,0 +1,66 @@
+name: Deploy to Cloudflare Workers
+
+on:
+  push:
+    branches:
+      - '**'
+    tags:
+      - '**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-cloudflare-workers
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: ${{ !(github.ref_type == 'tag' && github.ref_name == '0.0.0') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          fetch-tags: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.15'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Get minify
+        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.24.17/minify_linux_amd64.tar.gz | tar -xz
+      - name: Set version
+        run: |
+          echo "${GITHUB_REF_NAME}" > version
+      - name: Build pages
+        run: sh ./buildAll.sh
+      - name: Minify files
+        run: ./minify -v -r --sync -o . _build --exclude "_build/*/_static/js/petite-vue.js"
+      - name: Create archive directory
+        run: mv _build help_pages
+      - name: Add to build folder
+        run: cp -r _add_to_build/* help_pages
+      - name: Remove Sphinx working state
+        run: find help_pages -type d -name .doctrees -prune -exec rm -rf {} +
+      - name: Check asset count
+        run: |
+          count=$(find help_pages -type f | wc -l)
+          echo "Deployable files: ${count}"
+          if [ "${count}" -gt 100000 ]; then
+            echo "::error::${count} files exceeds the 100,000 file limit for Workers static assets"
+            exit 1
+          fi
+      - name: Deploy to Cloudflare Workers
+        id: deploy
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: '4.164.0'
+          command: deploy
+      - name: Show deployment URL
+        run: echo "Deployed to ${{ steps.deploy.outputs.deployment-url }}"
