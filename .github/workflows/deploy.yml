@@ -9,8 +9,6 @@ on:
     
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   build:
@@ -64,25 +62,6 @@ jobs:
         with:
           name: artifact
           path: archive.zip
-      - name: Create archive directory
-        run: mv _build help_pages
-      - name: Add to build folder
-        run: cp -r _add_to_build/* help_pages
-      - name: Configure GitHub Pages
-        if: ${{ github.ref_type == 'tag' }}
-        uses: actions/configure-pages@v5
-      - name: Create archive
-        run: zip -r help_pages.zip help_pages
-      - name: Upload help_pages
-        uses: actions/upload-artifact@v6
-        with:
-          name: help_pages
-          path: help_pages.zip
-      - name: Upload pages
-        if: ${{ github.ref_type == 'tag' }}
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: help_pages
       - uses: actions/setup-node@v6
         with:
           node-version: 26
