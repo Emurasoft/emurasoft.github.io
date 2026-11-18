@@ -6,5 +6,13 @@
     "directory": "./help_pages",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
-  }
+  },
+  // Serve the site at its public hostname. Cloudflare creates the DNS record and
+  // certificate, so the old CNAME for this hostname must be deleted first.
+  "routes": [
+    {
+      "pattern": "help.emeditor.com",
+      "custom_domain": true
+    }
+  ]
 }
