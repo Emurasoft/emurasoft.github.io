@@ -1,0 +1,43 @@
+# Cloudflare Workers static asset headers for help.emeditor.com.
+#
+# Documentation pages built from Markdown, plus any file without a more
+# specific rule below, may be reused for 10 minutes before revalidating.
+/*
+  Cache-Control: public, max-age=600
+
+# Screenshots, icons, and theme images keep their filenames when replaced, so
+# avoid a long immutable cache. One day of browser caching is safe.
+/*.png
+  ! Cache-Control
+  Cache-Control: public, max-age=86400
+
+/*.svg
+  ! Cache-Control
+  Cache-Control: public, max-age=86400
+
+/*.ico
+  ! Cache-Control
+  Cache-Control: public, max-age=86400
+
+# Sphinx appends ?v=<content hash> to its stylesheets, so the URL changes
+# whenever the file changes. A one-year immutable cache is safe.
+/*.css
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+# Scripts that also carry a ?v=<content hash> in the URL.
+/*/_static/doctools.js
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/*/_static/documentation_options.js
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/*/_static/sphinx_highlight.js
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/*/_static/translations.js
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
