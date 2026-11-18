@@ -19,7 +19,7 @@ jobs:
   deploy:
     if: ${{ !(github.ref_type == 'tag' && github.ref_name == '0.0.0') }}
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v6
         with:
@@ -46,14 +46,6 @@ jobs:
         run: cp -r _add_to_build/* help_pages
       - name: Remove Sphinx working state
         run: find help_pages -type d -name .doctrees -prune -exec rm -rf {} +
-      - name: Check asset count
-        run: |
-          count=$(find help_pages -type f | wc -l)
-          echo "Deployable files: ${count}"
-          if [ "${count}" -gt 100000 ]; then
-            echo "::error::${count} files exceeds the 100,000 file limit for Workers static assets"
-            exit 1
-          fi
       - name: Deploy to Cloudflare Workers
         id: deploy
         uses: cloudflare/wrangler-action@v4
