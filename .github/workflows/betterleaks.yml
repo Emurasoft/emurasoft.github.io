@@ -1,0 +1,56 @@
+name: Secret scanning
+
+# Scans pushed commits for leaked secrets with Betterleaks.
+# https://github.com/betterleaks/betterleaks
+#
+# Suppress false positives with an inline `#betterleaks:allow` comment or a
+# `.betterleaksignore` file (see https://github.com/betterleaks/betterleaks/blob/main/docs/scanning.md).
+
+on:
+  push:
+
+permissions: {}
+
+env:
+  BETTERLEAKS_VERSION: '1.9.0'
+
+jobs:
+  betterleaks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Cache betterleaks
+        id: betterleaks-cache
+        uses: actions/cache@v6
+        with:
+          path: betterleaks
+          key: betterleaks-${{ env.BETTERLEAKS_VERSION }}-linux-x64
+
+      - name: Install betterleaks
+        if: steps.betterleaks-cache.outputs.cache-hit != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          archive="betterleaks_${BETTERLEAKS_VERSION}_linux_x64.tar.gz"
+          curl --silent --show-error --fail --location --output betterleaks.tar.gz \
+            "https://github.com/betterleaks/betterleaks/releases/download/v${BETTERLEAKS_VERSION}/${archive}"
+          tar --extract --gzip --file betterleaks.tar.gz betterleaks
+          chmod +x betterleaks
+
+      - name: Show betterleaks version
+        run: ./betterleaks --version
+
+      - name: Scan commit
+        run: |
+          ./betterleaks git . \
+            --redact \
+            --no-banner
