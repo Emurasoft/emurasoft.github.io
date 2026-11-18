@@ -289,7 +289,7 @@ div.document code {
   padding: 2px 4px;
   background-color: var(--inlineCodeBackgroundColor);
   border-radius: 0.2rem;
-  font-family: 'Cascadia Mono', Consolas, 'Courier New', monospace;
+  font-family: 'Consolas', 'Courier New';
   font-size: 0.9em;
 }
 div.document div.documentwrapper {
@@ -308,7 +308,7 @@ div.document div.highlight {
   font-size: 0.9rem;
 }
 div.document div.highlight pre {
-  font-family: 'Cascadia Mono', Consolas, 'Courier New', monospace;
+  font-family: 'Consolas', 'Courier New';
 }
 div.document div[class*=highlight] {
   overflow-x: auto;
@@ -420,7 +420,7 @@ div.document dl.py dt.sig {
   background-color: var(--codeBackgroundColor);
   color: var(--fontColor);
   box-sizing: border-box;
-  font-family: 'Cascadia Mono', Consolas, 'Courier New', monospace;
+  font-family: 'Consolas', 'Courier New';
   font-size: 0.9rem;
   padding: 1rem;
   border-left: 5px solid rgba(0, 0, 0, 0.1);
@@ -459,7 +459,7 @@ div.document dl.cpp dt.sig, div.document dl.c dt.sig {
   background-color: var(--codeBackgroundColor);
   color: var(--fontColor);
   box-sizing: border-box;
-  font-family: 'Cascadia Mono', Consolas, 'Courier New', monospace;
+  font-family: 'Consolas', 'Courier New';
   font-size: 0.9rem;
   padding: 1rem;
   border-left: 5px solid rgba(0, 0, 0, 0.1);
