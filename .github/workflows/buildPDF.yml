@@ -1,0 +1,60 @@
+name: Build PDFs
+
+on:
+  push:
+    branches:
+      - 'main'
+    tags:
+      - '*'
+
+permissions:
+  contents: write
+
+jobs:
+  buildPDF:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.15'
+          cache: pip
+      # Ubuntu's texlive packages are frozen at TeX Live 2023, whose luaotfload
+      # and fontspec are older than the versions the PDFs were verified with.
+      # Install a current TeX Live instead; the action caches ~/texlive.
+      - name: Install TeX Live
+        uses: zauguin/install-texlive@v4
+        with:
+          texlive_version: 2025
+          packages: >
+            scheme-basic
+            latexmk
+            collection-latexrecommended
+            collection-latexextra
+            collection-fontsrecommended
+            collection-luatex
+            collection-langjapanese
+            collection-xetex
+      - name: Install python dependencies
+        run: pip install -r requirements.txt
+      - name: Set version
+        run: |
+          echo "${GITHUB_REF_NAME}" > version
+          cat conf.py
+      - name: Create PDFs
+        run: python buildPDF.py
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v6
+        with:
+          name: emeditor-pdfs
+          path: |
+            _build/emeditor-en.pdf
+            _build/emeditor-ja.pdf
+      - name: Publish PDFs
+        if: ${{ github.ref_type == 'tag' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            _build/emeditor-en.pdf
+            _build/emeditor-ja.pdf
