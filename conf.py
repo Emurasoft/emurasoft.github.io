@@ -39,6 +39,7 @@ smartquotes = False
 sitemap_locales = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw']
 sitemap_url_scheme = '{lang}{link}'
 sitemap_show_lastmod = True
+sitemap_excludes = ['404.html']
 
 # Sphinx needs the underscore locale for its interface translations, but the
 # deployed URLs use hyphens. sphinx-sitemap takes the locale for the page URL
