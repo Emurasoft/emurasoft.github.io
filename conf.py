@@ -123,6 +123,13 @@ match get_project(multiproject_projects):
     case _:
         raise 'unknown project'
 
+# LuaTeX-ja classes work with luatexja, which the font package already sets up.
+# polyglossia and fncychap are meant for non-CJK classes and conflict with it.
+if language == 'ja':
+    latex_docclass = {'manual': 'ltjsbook', 'howto': 'ltjsreport'}
+    latex_elements['polyglossia'] = ''
+    latex_elements['fncychap'] = ''
+
 # docutils' html5 translator adds this meta tag to every page, and Sphinx copies
 # the translator's metas into the "metatags" template variable. Sphinx's own
 # layout already emits a viewport meta, so the docutils one is a duplicate.
