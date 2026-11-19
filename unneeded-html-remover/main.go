@@ -74,8 +74,6 @@ func walkFunc(path string) error {
 }
 
 func transformTree(node *html.Node) {
-	removeReferenceClass(node)
-
 	var childrenToRemove []*html.Node
 
 	for child := node.FirstChild; child != nil; child = child.NextSibling {
@@ -135,22 +133,4 @@ func isLanguageDropdown(node *html.Node) bool {
 	}
 
 	return false
-}
-
-// class="reference internal" or class="reference external"
-func removeReferenceClass(node *html.Node) {
-	if node.Type == html.ElementNode && node.Data == "a" {
-		indexToRemove := -1
-
-		for i := range node.Attr {
-			if node.Attr[i].Key == "class" &&
-				(node.Attr[i].Val == "reference internal" || node.Attr[i].Val == "reference external") {
-				indexToRemove = i
-			}
-		}
-
-		if indexToRemove >= 0 {
-			node.Attr = slices.Delete(node.Attr, indexToRemove, indexToRemove+1)
-		}
-	}
 }
