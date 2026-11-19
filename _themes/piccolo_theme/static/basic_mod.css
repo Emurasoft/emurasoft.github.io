@@ -40,7 +40,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', system-ui;
+  font-family: 'Segoe UI', system-ui, sans-serif;
   background-color: var(--mainBackgroundColor);
   color: var(--fontColor);
 }
