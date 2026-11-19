@@ -41,3 +41,10 @@ class ServedHtmlBuilder(StandaloneHTMLBuilder):
 
 def setup(app):
     app.add_builder(ServedHtmlBuilder)
+    # The builder only affects the URLs written after reading, so reading in
+    # parallel is safe. Declaring this also avoids Sphinx's warning, which the
+    # build scripts' -W turns into a failure.
+    return {
+        'parallel_read_safe': True,
+        'parallel_write_safe': True,
+    }
