@@ -5,15 +5,26 @@ import subprocess
 import sys
 from typing import List, Tuple, Match, Optional
 
-def run_sphinx_build() -> bool:
-    """Run sphinx-build to generate LaTeX files."""
-    print("Running sphinx-build...")
-    os.environ['SPHINX_BUILDER'] = 'latex'
-    result = subprocess.run(['sphinx-build', '--jobs', 'auto', '-b', 'latex', '.', '_build/en'], capture_output=True, text=True)
+PDF_LANGUAGES = ('en', 'ja')
+BUILD_ROOT = '_build'
+TEX_NAME = 'emeditor.tex'
+
+def run_sphinx_build(language: str) -> bool:
+    """Run sphinx-build to generate LaTeX files for one language."""
+    print(f"[{language}] Running sphinx-build...")
+    env = dict(os.environ)
+    env['PROJECT'] = language
+    env['SPHINX_BUILDER'] = 'latex'
+    output_dir = os.path.join(BUILD_ROOT, language)
+    result = subprocess.run(
+        [sys.executable, '-m', 'sphinx', '--jobs', 'auto', '-b', 'latex', '.', output_dir],
+        capture_output=True, text=True, encoding='utf-8', errors='replace', env=env
+    )
     if result.returncode != 0:
-        print(f"Error running sphinx-build: {result.stderr}")
+        print(f"[{language}] Error running sphinx-build:")
+        print(result.stderr if result.stderr else result.stdout)
         return False
-    print("Sphinx build complete.")
+    print(f"[{language}] Sphinx build complete.")
     return True
 
 def read_tex_file(tex_file: str) -> Optional[str]:
@@ -21,7 +32,7 @@ def read_tex_file(tex_file: str) -> Optional[str]:
     if not os.path.exists(tex_file):
         print(f"Error: {tex_file} does not exist.")
         return None
-    
+
     try:
         with open(tex_file, 'r', encoding='utf-8') as file:
             return file.read()
@@ -42,7 +53,7 @@ def write_tex_file(tex_file: str, content: str) -> bool:
 def remove_svg_from_tex(content: str) -> str:
     """Remove SVG image references from the content."""
     lines = content.splitlines()
-    filtered_lines = [line for line in lines 
+    filtered_lines = [line for line in lines
                      if not (r'\sphinxincludegraphics' in line and '.svg' in line)]
     print("SVG image references removed.")
     return '\n'.join(filtered_lines)
@@ -50,12 +61,12 @@ def remove_svg_from_tex(content: str) -> str:
 def convert_tabulary_to_longtable(content: str) -> str:
     """Convert tabulary tables to longtable format."""
     new_content, count = replace_tabulary_tables(content)
-    
+
     if count == 0:
         print("No tabulary tables found.")
     else:
         print(f"Converted {count} tabulary table(s) to longtable.")
-        
+
     return new_content
 
 def replace_tabulary_tables(tex_content: str) -> Tuple[str, int]:
@@ -186,59 +197,100 @@ def wrap_special_chars_in_tex(content: str) -> str:
     print(f"Wrapped {emoji_count} emoji(s) with \\emoji{{}} and {symbol_count} symbol(s) with \\symbolchar{{}}.")
     return ''.join(new_content)
 
-def run_latexmk(tex_file: str) -> bool:
-    """Run latexmk to build the PDF."""
-    build_dir = os.path.dirname(tex_file)
-    tex_filename = os.path.basename(tex_file)
-    print("Running latexmk...")
-    try:
-        subprocess.run(["latexmk", "-silent", "-lualatex", tex_filename], check=True, cwd=build_dir)
-    except subprocess.CalledProcessError as e:
-        print(f"Error running latexmk: {e}")
-        log_path = os.path.join(build_dir, 'emeditor.log')
-        if os.path.exists(log_path):
-            with open(log_path, 'r') as log_file:
-                print("emeditor.log contents:")
-                print(log_file.read())
-        else:
-            print(f"Log file not found: {log_path}")
-        return False
-
-    print("PDF build complete.")
-    return True
-
-def main() -> None:
-    # Clean build directory
-    build_folder = '_build'
-    if os.path.exists(build_folder):
-        shutil.rmtree(build_folder)
-        print(f"Removed directory: {build_folder}")
-
-    # Run sphinx-build to generate LaTeX files
-    if not run_sphinx_build():
-        sys.exit(1)
-
-    tex_file = '_build/en/emeditor.tex'
-    
-    # Read the TeX file
+def postprocess_tex(tex_file: str, language: str) -> bool:
+    """Apply the TeX transformations to the generated file."""
+    print(f"[{language}] Transforming {os.path.basename(tex_file)}...")
     content = read_tex_file(tex_file)
     if content is None:
-        sys.exit(1)
-    
-    # Apply transformations to the content
+        return False
+
     content = remove_svg_from_tex(content)
     content = convert_tabulary_to_longtable(content)
     content = wrap_special_chars_in_tex(content)
-    
-    # Write the modified content back to the file
-    if not write_tex_file(tex_file, content):
-        sys.exit(1)
-    
-    # Run latexmk to build the PDF
-    if not run_latexmk(tex_file):
-        sys.exit(1)
+
+    return write_tex_file(tex_file, content)
+
+def run_latexmk(tex_file: str, language: str) -> bool:
+    """Run latexmk to build the PDF."""
+    build_dir = os.path.dirname(tex_file)
+    tex_filename = os.path.basename(tex_file)
+    print(f"[{language}] Running latexmk...")
+    try:
+        subprocess.run(["latexmk", "-silent", "-lualatex", tex_filename], check=True, cwd=build_dir)
+    except subprocess.CalledProcessError as e:
+        print(f"[{language}] Error running latexmk: {e}")
+        log_path = os.path.splitext(tex_file)[0] + '.log'
+        if os.path.exists(log_path):
+            with open(log_path, 'r', encoding='utf-8', errors='replace') as log_file:
+                lines = log_file.read().splitlines()
+            print(f"[{language}] Last 200 lines of {os.path.basename(log_path)}:")
+            if len(lines) > 200:
+                print(f"(showing last 200 of {len(lines)} lines)")
+            print('\n'.join(lines[-200:]))
+        else:
+            print(f"[{language}] Log file not found: {log_path}")
+        return False
+
+    print(f"[{language}] PDF build complete.")
+    return True
+
+def build_pdf(language: str) -> bool:
+    """Build one language's PDF and stage it in the build root."""
+    build_dir = os.path.join(BUILD_ROOT, language)
+    shutil.rmtree(build_dir, ignore_errors=True)
+
+    if not run_sphinx_build(language):
+        return False
+
+    tex_file = os.path.join(build_dir, TEX_NAME)
+    if not postprocess_tex(tex_file, language):
+        return False
+
+    if not run_latexmk(tex_file, language):
+        return False
+
+    pdf_file = os.path.splitext(tex_file)[0] + '.pdf'
+    if not os.path.exists(pdf_file) or os.path.getsize(pdf_file) == 0:
+        print(f"[{language}] Error: {pdf_file} was not produced.")
+        return False
+
+    staged_pdf = os.path.join(BUILD_ROOT, f'emeditor-{language}.pdf')
+    shutil.copy2(pdf_file, staged_pdf)
+    print(f"[{language}] PDF staged as {staged_pdf}.")
+    return True
+
+def parse_languages(argv: List[str]) -> List[str]:
+    """Validate command line language arguments."""
+    if not argv:
+        return list(PDF_LANGUAGES)
+
+    unknown = [arg for arg in argv if arg not in PDF_LANGUAGES]
+    if unknown:
+        print(f"Unknown language(s): {', '.join(unknown)}")
+        print(f"Usage: python buildPDF.py [{'|'.join(PDF_LANGUAGES)} ...]")
+        sys.exit(2)
+
+    languages: List[str] = []
+    for arg in argv:
+        if arg not in languages:
+            languages.append(arg)
+    return languages
+
+def main(languages: List[str]) -> None:
+    # Remove stale staged PDFs so a failed run cannot leave an old build behind
+    for language in languages:
+        staged_pdf = os.path.join(BUILD_ROOT, f'emeditor-{language}.pdf')
+        if os.path.exists(staged_pdf):
+            os.remove(staged_pdf)
+
+    print("Note: the requested languages' _build/<language> directories are replaced; other _build content is kept.")
+    for language in languages:
+        print(f"=== Building the {language} PDF ===")
+        if not build_pdf(language):
+            print(f"Error: the {language} PDF build failed.")
+            sys.exit(1)
 
     print("All steps completed successfully.")
 
 if __name__ == '__main__':
-    main()
+    main(parse_languages(sys.argv[1:]))
