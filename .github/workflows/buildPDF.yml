@@ -8,7 +8,11 @@ on:
       - '*'
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: build-pdfs-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   buildPDF:
@@ -52,3 +56,24 @@ jobs:
         with:
           name: emeditor-pdf-${{ matrix.language }}
           path: _build/emeditor-${{ matrix.language }}.pdf
+
+  publish:
+    needs: buildPDF
+    if: ${{ github.ref_type == 'tag' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download PDFs
+        uses: actions/download-artifact@v6
+        with:
+          pattern: emeditor-pdf-*
+          merge-multiple: true
+          path: _build
+      - name: Publish PDFs
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            _build/emeditor-en.pdf
+            _build/emeditor-ja.pdf
+          fail_on_unmatched_files: true
