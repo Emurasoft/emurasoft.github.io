@@ -28,12 +28,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // External links
     for (const element of document.getElementsByTagName("a")) {
-        if (element.getAttribute('href').startsWith("https://")) {
+        const href = element.getAttribute('href');
+        if (href && href.startsWith("https://")) {
             element.setAttribute("target", "_blank");
         }
     }
 
-    document.getElementById('searchbox').style.display = "block";
+    // The search page has no search box.
+    const searchbox = document.getElementById('searchbox');
+    if (searchbox) {
+        searchbox.style.display = "block";
+    }
 
     // Language dropdown
     const dropdown = document.getElementById('languageDropdown-title');
