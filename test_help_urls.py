@@ -3,9 +3,11 @@
 Run with: python test_help_urls.py
 """
 
+import tempfile
 import unittest
+from pathlib import Path
 
-from help_urls import served_path, served_url
+from help_urls import find_problems, served_path, served_url
 
 
 class ServedPathTest(unittest.TestCase):
@@ -56,6 +58,46 @@ class ServedUrlTest(unittest.TestCase):
 
     def test_relative_url(self):
         self.assertEqual(served_url('csv/align_center.html'), 'csv/align_center')
+
+
+class FindProblemsTest(unittest.TestCase):
+    def setUp(self):
+        self._directory = tempfile.TemporaryDirectory()
+        self.directory = Path(self._directory.name)
+        self.addCleanup(self._directory.cleanup)
+
+    def write(self, name: str, content: str) -> None:
+        path = self.directory / name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding='utf-8')
+
+    def test_internal_html_links_are_problems(self):
+        self.write('served.html', '<a href="cmd/">cmd</a>')
+        self.write('page.html', '<a href="cmd.html">cmd</a>')
+        self.write('search.html',
+                   '<form action="search.html"></form>')
+        self.write('external.html', '<a href="https://example.com/x.html">x</a>')
+
+        problems = find_problems(self.directory)
+
+        self.assertEqual(sorted(value for _, value in problems),
+                         ['cmd.html', 'search.html'])
+
+    def test_absolute_site_links_are_problems(self):
+        self.write('page.html',
+                   '<a href="https://help.emeditor.com/en/cmd/index.html">x</a>')
+        self.assertEqual(len(find_problems(self.directory)), 1)
+
+    def test_clean_tree_has_no_problems(self):
+        self.write('page.html', '<a href="cmd/">cmd</a><a href="#top">top</a>')
+        self.write('sitemap.xml', '<loc>https://help.emeditor.com/en/cmd/</loc>')
+        self.assertEqual(find_problems(self.directory), [])
+
+    def test_sitemap_with_html_entries_is_a_problem(self):
+        self.write('sitemap.xml', '<loc>https://help.emeditor.com/en/cmd/index.html</loc>')
+        problems = find_problems(self.directory)
+        self.assertEqual(len(problems), 1)
+        self.assertEqual(problems[0][0].name, 'sitemap.xml')
 
 
 if __name__ == '__main__':
