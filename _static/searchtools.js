@@ -80,6 +80,16 @@ const _displayItem = (item, searchTerms, highlightTerms) => {
     else if (dirname === "index/") dirname = "";
     requestUrl = dirname;
     linkUrl = requestUrl;
+  } else if (docLinkSuffix === "") {
+    // servedhtml builder: link to the URLs the site serves. A bare "" would
+    // resolve to the search page itself, so the root document is "./".
+    if (docName === "index")
+      requestUrl = "./";
+    else if (docName.endsWith("/index"))
+      requestUrl = docName.slice(0, -"index".length);
+    else
+      requestUrl = docName;
+    linkUrl = requestUrl;
   } else {
     // normal html builders
     requestUrl = docName + docFileSuffix;
