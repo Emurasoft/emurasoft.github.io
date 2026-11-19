@@ -15,7 +15,8 @@ async function test(language: string) {
 
     // The generated page keeps the top-level links but not the branch.
     const raw = await readFile(resolve(`../_build/${language}/cmd/index.html`), 'utf8');
-    const currentItem = raw.match(/<li class="toctree-l1 current">[\s\S]*?<\/li>/);
+    // The minifier omits optional </li> end tags, so stop at the next item or list end.
+    const currentItem = raw.match(/<li class="toctree-l1 current">(?:(?!<li\b|<\/ul>)[\s\S])*/);
     assert.ok(currentItem, 'the sidebar should have a current section');
     assert.ok(!currentItem[0].includes('<ul'), 'the branch should not be in the page');
     assert.ok(raw.includes('/_static/nav.js'), 'the page should load nav.js');
