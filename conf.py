@@ -129,6 +129,14 @@ if language == 'ja':
     latex_docclass = {'manual': 'ltjsbook', 'howto': 'ltjsreport'}
     latex_elements['polyglossia'] = ''
     latex_elements['fncychap'] = ''
+    # ltjsbook renders headings in the sans family, whose Latin default (Latin
+    # Modern Sans) has no glyphs for many accented letters used in the headings
+    # of the special-character pages. Use the same sans font as the body text.
+    latex_elements['fontpkg'] += r'''
+        \setsansfont[
+            Path=../../fonts/
+        ]{NotoSans-VariableFont.ttf}
+    '''
 
 # docutils' html5 translator adds this meta tag to every page, and Sphinx copies
 # the translator's metas into the "metatags" template variable. Sphinx's own
