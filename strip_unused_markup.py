@@ -97,9 +97,10 @@ def strip_in(html: bytes) -> tuple[bytes, Counter[str]]:
             kept = []
             for token in tokens:
                 if token in DROPPED_TOKENS:
-                    counts['class_token'] += 1
                     if token in (b'reference', b'internal', b'external'):
                         counts['reference_class'] += 1
+                    else:
+                        counts['class_token'] += 1
                     continue
                 if token in CONDITIONAL_TOKENS:
                     if CONDITIONAL_TOKENS[token] not in tokens:
