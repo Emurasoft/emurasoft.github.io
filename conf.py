@@ -34,6 +34,8 @@ html_theme_options = {
 }
 html_show_sphinx = False
 html_permalinks = False
+# Stays at the site root for sphinx-sitemap, which falls back to it for
+# site_url. The per-language canonical link is set in set_canonical_pageurl().
 html_baseurl = 'https://help.emeditor.com/'
 smartquotes = False
 
@@ -179,6 +181,26 @@ def fix_sitemap_locale_paths(app, exception):
         sitemap.write_text(fixed, encoding='utf-8')
 
 
+# Sphinx builds the canonical link from html_baseurl and the page's target
+# URI, which omits the language directory (for example /cmd/index.html). The
+# deployed Worker also serves extensionless paths (wrangler.jsonc:
+# "html_handling": "auto-trailing-slash"): "x.html" becomes "x", and
+# "x/index.html" becomes "x/". Point the canonical at that final URL, prefixed
+# with the project name (zh-cn, not Sphinx's zh_CN).
+def set_canonical_pageurl(app, pagename, templatename, context, doctree):
+    if app.builder.format != 'html':
+        return
+    project = get_project(multiproject_projects)
+    if pagename == 'index':
+        path = ''
+    elif pagename.endswith('/index'):
+        path = pagename[:-len('/index')] + '/'
+    else:
+        path = pagename
+    context['pageurl'] = f'https://help.emeditor.com/{project}/{path}'
+
+
 def setup(app):
     app.set_translator('html', ViewportMetaTranslator)
     app.connect('build-finished', fix_sitemap_locale_paths)
+    app.connect('html-page-context', set_canonical_pageurl)
