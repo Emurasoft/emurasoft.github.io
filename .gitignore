@@ -2,3 +2,4 @@
 /_build
 /help_pages
 /.vs
+__pycache__/
