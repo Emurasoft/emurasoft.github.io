@@ -115,7 +115,7 @@ function injectSidebarNav() {
         return;
     }
 
-    const currentItem = sidebar.querySelector('li.current');
+    const currentItem = sidebar.querySelector('li.toctree-l1.current');
     if (!currentItem) {
         return;
     }
@@ -166,17 +166,30 @@ function markCurrentEntries(container, pagePath) {
             continue;
         }
 
-        const target = href.slice(marker.length);
+        const resolved = href.slice(marker.length);
+        const hashIndex = resolved.indexOf('#');
+        const target = hashIndex < 0 ? resolved : resolved.slice(0, hashIndex);
+        const fragment = hashIndex < 0 ? '' : resolved.slice(hashIndex);
         const item = link.closest('li');
         const isPage = target === pagePath;
         const isIndex = target === 'index.html' || target.endsWith('/index.html');
-        const isAncestor = isIndex && pagePath.startsWith(target.slice(0, -'index.html'.length));
+        const isAncestor = isIndex && target !== 'index.html'
+            && pagePath.startsWith(target.slice(0, -'index.html'.length));
 
         if (isPage) {
             link.classList.add('current');
+            // Sphinx links the current entry to the page itself with "#".
+            link.setAttribute('href', '#' + fragment.slice(1));
         }
         if ((isPage || isAncestor) && item) {
             item.classList.add('current');
+        }
+    }
+
+    // Sphinx marks a list current when it has a current direct child.
+    for (const list of container.querySelectorAll('ul')) {
+        if (list.querySelector(':scope > li.current')) {
+            list.classList.add('current');
         }
     }
 }
@@ -188,7 +201,7 @@ function rootRelative(href, pagePath) {
         return null;
     }
     if (href.startsWith('#')) {
-        return pagePath;
+        return pagePath + href.slice(1);
     }
     if (href.startsWith('/') || href.includes(':')) {
         return null;
