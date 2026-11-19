@@ -1,4 +1,9 @@
+const THEME_STORAGE_KEY = 'piccoloThemeMode'
+
 document.addEventListener("DOMContentLoaded", () => {
+    const initialMode = initTheme();
+    initThemeToggle(initialMode);
+
     injectSidebarNav();
 
     // Scroll sidebar to current page
@@ -30,55 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById('searchbox').style.display = "block";
 
-    // Theming
-    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
-
-    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
-
-    if (initialMode) {
-        // Make sure the value in local storage is valid
-        if (['light', 'dark', 'darkest'].indexOf(initialMode) === -1) {
-            initialMode = 'light'
-            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
-        }
-    } else {
-        // Check if the client prefers dark mode
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            initialMode = 'dark'
-        } else {
-            initialMode = 'light'
-        }
-        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
-    }
-
-    document.documentElement.dataset.mode = initialMode
-
-    const button = PetiteVue.createApp({
-        'mode': initialMode,
-        handleClick() {
-            let currentMode = this.mode
-
-            if (currentMode === 'light') {
-                this.mode = 'dark'
-            } else if (currentMode === 'dark') {
-                this.mode = 'darkest'
-            } else if (currentMode === 'darkest') {
-                this.mode = 'light'
-            }
-
-            document.documentElement.dataset.mode = this.mode
-            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
-
-            console.log(this.mode)
-        }
-    })
-
-    // Hide theme button in local
-    const isLocal = window.location.protocol === "file:";
-    if (!isLocal) {
-        button.mount('#mode_toggle')
-    }
-
     // Language dropdown
     const dropdown = document.getElementById('languageDropdown-title');
     if (dropdown) {
@@ -100,6 +56,59 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 });
+
+// Apply the saved theme (or the system preference). Runs before any
+// page-specific setup so a missing element cannot leave the page unthemed.
+function initTheme() {
+    let initialMode = localStorage.getItem(THEME_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) === -1) {
+            initialMode = 'light'
+            localStorage.setItem(THEME_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(THEME_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+    return initialMode
+}
+
+// Mount the theme toggle button, which is hidden when Help is opened from local files.
+function initThemeToggle(initialMode) {
+    const button = PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode === 'light') {
+                this.mode = 'dark'
+            } else if (currentMode === 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode === 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(THEME_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    })
+
+    const isLocal = window.location.protocol === "file:";
+    if (!isLocal) {
+        button.mount('#mode_toggle')
+    }
+}
 
 // Insert the current section's sidebar branch from the shared nav.js data.
 // build_sidebar_nav.py removes that branch from every page and stores it in
