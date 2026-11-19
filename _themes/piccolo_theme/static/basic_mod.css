@@ -314,12 +314,6 @@ div.document div.highlight pre {
 div.document div[class*=highlight] {
   overflow-x: auto;
 }
-div.document a.headerlink {
-  font-size: 0.6em;
-  display: none;
-  padding-left: 0.5rem;
-  vertical-align: middle;
-}
 div.document h1,
 div.document h2,
 div.document h3,
@@ -338,12 +332,6 @@ div.document h2 {
 }
 div.document h3, div.document h4 {
   margin: 1rem 0 0.5rem 0;
-}
-div.document h1:hover a.headerlink,
-div.document h2:hover a.headerlink,
-div.document h3:hover a.headerlink,
-div.document h4:hover a.headerlink {
-  display: inline-block;
 }
 div.document p,
 div.document li {
