@@ -6,6 +6,7 @@ on:
       - 'main'
     tags:
       - '*'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -21,7 +22,9 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        language: [en, ja]
+        # A main push builds English only, as a smoke test for LaTeX errors.
+        # Tags and manual runs build both languages; only tags publish.
+        language: ${{ (github.event_name == 'workflow_dispatch' || github.ref_type == 'tag') && fromJSON('["en","ja"]') || fromJSON('["en"]') }}
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
