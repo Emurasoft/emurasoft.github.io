@@ -24,9 +24,11 @@ suppress_warnings = [
     'myst.header',
     'git.dependency_not_found'
 ]
-navigation_depth = 2
 html_theme_path = ['_themes']
 html_theme = 'piccolo_theme'
+html_theme_options = {
+    'globaltoc_maxdepth': 2,
+}
 html_show_sphinx = False
 html_baseurl = 'https://help.emeditor.com/'
 smartquotes = False
