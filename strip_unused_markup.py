@@ -10,7 +10,7 @@ token, such as ``image-reference`` or ``download``.
 Only the matched anchor tags are rewritten. The rest of each document is
 preserved byte for byte.
 
-Usage: python strip_reference_classes.py <directory>
+Usage: python strip_unused_markup.py <directory>
 """
 
 import re
@@ -78,22 +78,22 @@ def strip_directory(directory: Path) -> tuple[int, int, int]:
 
 def main() -> int:
     if len(sys.argv) != 2:
-        print('usage: python strip_reference_classes.py <directory>', file=sys.stderr)
+        print('usage: python strip_unused_markup.py <directory>', file=sys.stderr)
         return 2
 
     directory = Path(sys.argv[1])
     if not directory.is_dir():
-        print(f'strip_reference_classes: not a directory: {directory}', file=sys.stderr)
+        print(f'strip_unused_markup: not a directory: {directory}', file=sys.stderr)
         return 2
 
     try:
         scanned, rewrote, removed = strip_directory(directory)
     except OSError as error:
-        print(f'strip_reference_classes: {error}', file=sys.stderr)
+        print(f'strip_unused_markup: {error}', file=sys.stderr)
         return 1
 
     print(
-        f'strip_reference_classes: scanned {scanned} files, rewrote {rewrote}, '
+        f'strip_unused_markup: scanned {scanned} files, rewrote {rewrote}, '
         f'removed {removed} reference class attributes'
     )
     return 0

@@ -15,7 +15,7 @@ $env:PROJECT='en'
 sphinx-build . _build/en
 ```
 
-Use `buildEnglish.ps1` (English) or `buildAll.sh` (all languages) for a complete build. They run `sphinx-build` and then two post-build scripts: `strip_reference_classes.py` removes unused anchor classes, and `build_sidebar_nav.py` moves the expanded sidebar branch out of every page into `_build/<language>/_static/nav.js`. A bare `sphinx-build` skips both, and because `nav.js` is generated rather than checked in, its pages would load no expanded sidebar branch.
+Use `buildEnglish.ps1` (English) or `buildAll.sh` (all languages) for a complete build. They run `sphinx-build` and then two post-build scripts: `strip_unused_markup.py` removes unused attributes and wrapper markup, and `build_sidebar_nav.py` moves the expanded sidebar branch out of every page into `_build/<language>/_static/nav.js`. A bare `sphinx-build` skips both, and because `nav.js` is generated rather than checked in, its pages would load no expanded sidebar branch.
 
 # Deployment
 
