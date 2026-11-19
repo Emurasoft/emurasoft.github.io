@@ -6,6 +6,7 @@
 from multiproject.utils import get_project
 from datetime import datetime
 import os
+from sphinx.writers.html5 import HTML5Translator
 
 project = 'EmEditor'
 copyright = '{} Emurasoft'.format(datetime.now().year)
@@ -121,3 +122,20 @@ match get_project(multiproject_projects):
         language = 'zh_TW'
     case _:
         raise 'unknown project'
+
+# docutils' html5 translator adds this meta tag to every page, and Sphinx copies
+# the translator's metas into the "metatags" template variable. Sphinx's own
+# layout already emits a viewport meta, so the docutils one is a duplicate.
+DOCUTILS_VIEWPORT_META = (
+    '<meta name="viewport" content="width=device-width, initial-scale=1" />\n'
+)
+
+
+class ViewportMetaTranslator(HTML5Translator):
+    def __init__(self, document, builder):
+        super().__init__(document, builder)
+        self.meta = [meta for meta in self.meta if meta != DOCUTILS_VIEWPORT_META]
+
+
+def setup(app):
+    app.set_translator('html', ViewportMetaTranslator)
