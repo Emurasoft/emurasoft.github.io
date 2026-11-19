@@ -17,16 +17,18 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+# Link classes Sphinx adds, counted separately from the other dropped tokens.
+REFERENCE_TOKENS = frozenset({b'reference', b'internal', b'external'})
+
 # Tokens dropped from the class attribute of any tag.
-DROPPED_TOKENS = frozenset({
-    b'reference', b'internal', b'external',
+DROPPED_TOKENS = REFERENCE_TOKENS | {
     b'row-odd', b'row-even',
     b'highlight-none',
     b'bodywrapper', b'searchformwrapper', b'page_toc',
     b'compound', b'toctree-wrapper',
     b'simple', b'arabic', b'align-default',
     b'genindex-jumpbox',
-})
+}
 
 # Tokens dropped only when the attribute does not also contain a given token.
 # Sphinx marks the current sidebar entry with "toctree-l1 current", and
@@ -96,22 +98,23 @@ def strip_in(html: bytes) -> tuple[bytes, Counter[str]]:
             tokens = class_match.group(1).split()
             kept = []
             for token in tokens:
-                if token in DROPPED_TOKENS:
-                    if token in (b'reference', b'internal', b'external'):
+                if token in CONDITIONAL_TOKENS:
+                    # Keep the conditional token when its companion is present.
+                    if CONDITIONAL_TOKENS[token] in tokens:
+                        kept.append(token)
+                    else:
+                        counts['class_token'] += 1
+                elif token in DROPPED_TOKENS:
+                    if token in REFERENCE_TOKENS:
                         counts['reference_class'] += 1
                     else:
                         counts['class_token'] += 1
-                    continue
-                if token in CONDITIONAL_TOKENS:
-                    if CONDITIONAL_TOKENS[token] not in tokens:
-                        counts['class_token'] += 1
-                        continue
                 elif token in tag_tokens:
                     counts['class_token'] += 1
-                    continue
-                kept.append(token)
+                else:
+                    kept.append(token)
 
-            if len(kept) == len(tokens):
+            if kept == tokens:
                 return class_match.group(0)
             if not kept:
                 return b''

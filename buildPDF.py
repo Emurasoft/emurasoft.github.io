@@ -3,60 +3,79 @@ import re
 import shutil
 import subprocess
 import sys
-from typing import List, Tuple, Match, Optional
+from pathlib import Path
 
 PDF_LANGUAGES = ('en', 'ja')
-BUILD_ROOT = '_build'
+BUILD_ROOT = Path('_build')
 TEX_NAME = 'emeditor.tex'
+
+SPHINX_TO_LATEX = {
+    r'\sphinxstylestrong': r'\textbf',
+    r'\sphinxAtStartPar': '',
+    r'\sphinxmidrule': r'\hline',
+    r'\sphinxtoprule': r'\hline',
+    r'\sphinxhline': r'\hline',
+}
+
+EMOJI_RANGES = (
+    (0x1F300, 0x1F5FF),
+    (0x1F600, 0x1F64F),
+    (0x1F680, 0x1F6FF),
+    (0x1F700, 0x1F77F),
+    (0x1F780, 0x1F7FF),
+    (0x1F900, 0x1F9FF),
+    (0x1FA00, 0x1FA6F),
+    (0x1FA70, 0x1FAFF),
+)
+
+SYMBOL_RANGES = (
+    (0x1F800, 0x1F8FF),
+)
+
 
 def run_sphinx_build(language: str) -> bool:
     """Run sphinx-build to generate LaTeX files for one language."""
     print(f"[{language}] Running sphinx-build...")
-    env = dict(os.environ)
-    env['PROJECT'] = language
-    env['SPHINX_BUILDER'] = 'latex'
-    output_dir = os.path.join(BUILD_ROOT, language)
+    env = {**os.environ, 'PROJECT': language, 'SPHINX_BUILDER': 'latex'}
+    output_dir = BUILD_ROOT / language
     result = subprocess.run(
-        [sys.executable, '-m', 'sphinx', '--jobs', 'auto', '-b', 'latex', '.', output_dir],
+        [sys.executable, '-m', 'sphinx', '--jobs', 'auto', '-b', 'latex', '.', str(output_dir)],
         capture_output=True, text=True, encoding='utf-8', errors='replace', env=env
     )
     if result.returncode != 0:
         print(f"[{language}] Error running sphinx-build:")
-        print(result.stderr if result.stderr else result.stdout)
+        print(result.stderr or result.stdout)
         return False
     print(f"[{language}] Sphinx build complete.")
     return True
 
-def read_tex_file(tex_file: str) -> Optional[str]:
-    """Read a TeX file and return its contents as a string."""
-    if not os.path.exists(tex_file):
-        print(f"Error: {tex_file} does not exist.")
-        return None
 
+def read_tex_file(tex_file: Path) -> str | None:
+    """Read a TeX file, or report the error and return None."""
     try:
-        with open(tex_file, 'r', encoding='utf-8') as file:
-            return file.read()
-    except Exception as e:
-        print(f"Error reading {tex_file}: {e}")
+        return tex_file.read_text(encoding='utf-8')
+    except OSError as error:
+        print(f"Error reading {tex_file}: {error}")
         return None
 
-def write_tex_file(tex_file: str, content: str) -> bool:
+
+def write_tex_file(tex_file: Path, content: str) -> bool:
     """Write content to a TeX file."""
     try:
-        with open(tex_file, 'w', encoding='utf-8') as file:
-            file.write(content)
-        return True
-    except Exception as e:
-        print(f"Error writing to {tex_file}: {e}")
+        tex_file.write_text(content, encoding='utf-8')
+    except OSError as error:
+        print(f"Error writing to {tex_file}: {error}")
         return False
+    return True
+
 
 def remove_svg_from_tex(content: str) -> str:
     """Remove SVG image references from the content."""
-    lines = content.splitlines()
-    filtered_lines = [line for line in lines
-                     if not (r'\sphinxincludegraphics' in line and '.svg' in line)]
+    lines = [line for line in content.splitlines()
+             if not (r'\sphinxincludegraphics' in line and '.svg' in line)]
     print("SVG image references removed.")
-    return '\n'.join(filtered_lines)
+    return '\n'.join(lines)
+
 
 def convert_tabulary_to_longtable(content: str) -> str:
     """Convert tabulary tables to longtable format."""
@@ -69,126 +88,95 @@ def convert_tabulary_to_longtable(content: str) -> str:
 
     return new_content
 
-def replace_tabulary_tables(tex_content: str) -> Tuple[str, int]:
+
+def replace_tabulary_tables(tex_content: str) -> tuple[str, int]:
     """Identifies and replaces tabulary tables in the LaTeX content."""
     table_pattern = re.compile(
         r'\\begin\{tabulary\}\{.*?\}\[.*?\]\{(.*?)\}(.*?)\\end\{tabulary\}',
         re.DOTALL
     )
 
-    def table_replacement(match: Match[str]) -> str:
-        col_spec = match.group(1)
-        table_body = match.group(2)
-        col_spec = map_column_spec(col_spec)
-        rows = parse_table_body(table_body)
+    def table_replacement(match: re.Match[str]) -> str:
+        col_spec = map_column_spec(match.group(1))
+        rows = parse_table_body(match.group(2))
         return encode_longtable(rows, col_spec)
 
     return table_pattern.subn(table_replacement, tex_content)
 
+
 def map_column_spec(tab_spec: str) -> str:
     """Maps the column specification for tabulary to longtable."""
-    page_width = 8.5  # Example: standard US Letter width in inches
-    margin_left_right = 1  # Example: 1-inch margin on both sides
-    usable_width = page_width - 2 * margin_left_right
-    num_columns = sum(1 for col in tab_spec if col == 'T')
+    num_columns = tab_spec.count('T')
 
-    if num_columns > 0:
-        base_column_width = usable_width / num_columns
-
-        # Linear adjustment factor per column to account for borders/spacing
-        factor = 0.0045
-
-        adjusted_width = base_column_width - (num_columns * factor)
-        adjusted_width = max(0.25, adjusted_width)
-
-        column_width_str = f"{adjusted_width:.2f}in"
+    if num_columns == 0:
+        column_width = '4in'
     else:
-        column_width_str = '4in'
+        # Standard US Letter width with 1-inch margins, minus a small
+        # adjustment per column to account for borders and spacing.
+        usable_width = 8.5 - 2 * 1
+        adjusted_width = max(0.25, usable_width / num_columns - num_columns * 0.0045)
+        column_width = f'{adjusted_width:.2f}in'
 
-    return '|' + '|'.join(f'p{{{column_width_str}}}' if col == 'T' else col for col in tab_spec) + '|'
+    columns = [f'p{{{column_width}}}' if col == 'T' else col for col in tab_spec]
+    return '|' + '|'.join(columns) + '|'
 
-def parse_table_body(table_body: str) -> List[List[str]]:
+
+def parse_table_body(table_body: str) -> list[list[str]]:
     """Parses the table body into rows and cells."""
-    rows: List[List[str]] = []
-    current_row_lines: List[str] = []
+    rows = []
+    current_row = []
 
     for line in table_body.splitlines():
-        stripped_line = line.strip()
-        if not stripped_line:
+        line = line.strip()
+        if not line:
             continue
 
-        current_row_lines.append(stripped_line)
+        current_row.append(line)
 
-        if stripped_line.endswith(r'\\'):  # End of row
-            full_row = ' '.join(current_row_lines)[:-2].strip()
-            full_row = clean_sphinx_commands(full_row)
-            cells = [cell.strip() for cell in re.split(r'(?<!\\)&', full_row)]
-            rows.append(cells)
-            current_row_lines = []
+        if line.endswith(r'\\'):  # End of row
+            row = ' '.join(current_row)[:-2].strip()
+            row = clean_sphinx_commands(row)
+            rows.append([cell.strip() for cell in re.split(r'(?<!\\)&', row)])
+            current_row = []
 
     return rows
 
+
 def clean_sphinx_commands(text: str) -> str:
     """Replace Sphinx commands with LaTeX equivalents."""
-    replacements = {
-        r'\sphinxstylestrong': r'\textbf',
-        r'\sphinxAtStartPar': '',
-        r'\sphinxmidrule': r'\hline',
-        r'\sphinxtoprule': r'\hline',
-        r'\sphinxhline': r'\hline'
-    }
-
-    for old, new in replacements.items():
-        text = text.replace(old, new)
+    for sphinx_command, latex in SPHINX_TO_LATEX.items():
+        text = text.replace(sphinx_command, latex)
 
     return text
 
-def encode_longtable(rows: List[List[str]], col_spec: str = 'll') -> str:
+
+def encode_longtable(rows: list[list[str]], col_spec: str = 'll') -> str:
     """Create longtable LaTeX code from rows and column specification."""
-    header = "\\begin{longtable}{" + col_spec + "}"
-    body = "\n".join(
-        " & ".join(row) + r"\\"
-        for row in rows
-    )
-    footer = "\\end{longtable}"
-    return "\n".join([header, body, footer])
+    body = '\n'.join(' & '.join(row) + r'\\' for row in rows)
+    return '\n'.join([
+        f'\\begin{{longtable}}{{{col_spec}}}',
+        body,
+        '\\end{longtable}',
+    ])
 
-emoji_ranges: List[Tuple[int, int]] = [
-    (0x1F300, 0x1F5FF),
-    (0x1F600, 0x1F64F),
-    (0x1F680, 0x1F6FF),
-    (0x1F700, 0x1F77F),
-    (0x1F780, 0x1F7FF),
-    (0x1F900, 0x1F9FF),
-    (0x1FA00, 0x1FA6F),
-    (0x1FA70, 0x1FAFF),
-]
 
-symbol_ranges: List[Tuple[int, int]] = [
-    (0x1F800, 0x1F8FF),
-]
-
-def is_emoji(char: str) -> bool:
-    """Check if a character is an emoji."""
+def in_ranges(char: str, ranges: tuple[tuple[int, int], ...]) -> bool:
+    """Return whether the character's code point falls in any range."""
     codepoint = ord(char)
-    return any(start <= codepoint <= end for start, end in emoji_ranges)
+    return any(start <= codepoint <= end for start, end in ranges)
 
-def is_symbol(char: str) -> bool:
-    """Check if a character is a symbol that needs special handling."""
-    codepoint = ord(char)
-    return any(start <= codepoint <= end for start, end in symbol_ranges)
 
 def wrap_special_chars_in_tex(content: str) -> str:
     """Wrap emoji and symbol characters with appropriate LaTeX commands."""
-    new_content: List[str] = []
-    emoji_count: int = 0
-    symbol_count: int = 0
+    new_content = []
+    emoji_count = 0
+    symbol_count = 0
 
     for char in content:
-        if is_emoji(char):
+        if in_ranges(char, EMOJI_RANGES):
             new_content.append(f"\\emoji{{{char}}}")
             emoji_count += 1
-        elif is_symbol(char):
+        elif in_ranges(char, SYMBOL_RANGES):
             new_content.append(f"\\symbolchar{{{char}}}")
             symbol_count += 1
         else:
@@ -197,9 +185,10 @@ def wrap_special_chars_in_tex(content: str) -> str:
     print(f"Wrapped {emoji_count} emoji(s) with \\emoji{{}} and {symbol_count} symbol(s) with \\symbolchar{{}}.")
     return ''.join(new_content)
 
-def postprocess_tex(tex_file: str, language: str) -> bool:
+
+def postprocess_tex(tex_file: Path, language: str) -> bool:
     """Apply the TeX transformations to the generated file."""
-    print(f"[{language}] Transforming {os.path.basename(tex_file)}...")
+    print(f"[{language}] Transforming {tex_file.name}...")
     content = read_tex_file(tex_file)
     if content is None:
         return False
@@ -210,56 +199,59 @@ def postprocess_tex(tex_file: str, language: str) -> bool:
 
     return write_tex_file(tex_file, content)
 
-def run_latexmk(tex_file: str, language: str) -> bool:
+
+def run_latexmk(tex_file: Path, language: str) -> bool:
     """Run latexmk to build the PDF."""
-    build_dir = os.path.dirname(tex_file)
-    tex_filename = os.path.basename(tex_file)
     print(f"[{language}] Running latexmk...")
     try:
-        subprocess.run(["latexmk", "-silent", "-lualatex", tex_filename], check=True, cwd=build_dir)
-    except subprocess.CalledProcessError as e:
-        print(f"[{language}] Error running latexmk: {e}")
-        log_path = os.path.splitext(tex_file)[0] + '.log'
-        if os.path.exists(log_path):
-            with open(log_path, 'r', encoding='utf-8', errors='replace') as log_file:
-                lines = log_file.read().splitlines()
-            print(f"[{language}] Last 200 lines of {os.path.basename(log_path)}:")
-            if len(lines) > 200:
-                print(f"(showing last 200 of {len(lines)} lines)")
-            print('\n'.join(lines[-200:]))
-        else:
+        subprocess.run(
+            ["latexmk", "-silent", "-lualatex", tex_file.name],
+            check=True, cwd=tex_file.parent)
+    except subprocess.CalledProcessError as error:
+        print(f"[{language}] Error running latexmk: {error}")
+        log_path = tex_file.with_suffix('.log')
+        if not log_path.is_file():
             print(f"[{language}] Log file not found: {log_path}")
+            return False
+
+        lines = log_path.read_text(encoding='utf-8', errors='replace').splitlines()
+        print(f"[{language}] Last 200 lines of {log_path.name}:")
+        if len(lines) > 200:
+            print(f"(showing last 200 of {len(lines)} lines)")
+        print('\n'.join(lines[-200:]))
         return False
 
     print(f"[{language}] PDF build complete.")
     return True
 
+
 def build_pdf(language: str) -> bool:
     """Build one language's PDF and stage it in the build root."""
-    build_dir = os.path.join(BUILD_ROOT, language)
+    build_dir = BUILD_ROOT / language
     shutil.rmtree(build_dir, ignore_errors=True)
 
     if not run_sphinx_build(language):
         return False
 
-    tex_file = os.path.join(build_dir, TEX_NAME)
+    tex_file = build_dir / TEX_NAME
     if not postprocess_tex(tex_file, language):
         return False
 
     if not run_latexmk(tex_file, language):
         return False
 
-    pdf_file = os.path.splitext(tex_file)[0] + '.pdf'
-    if not os.path.exists(pdf_file) or os.path.getsize(pdf_file) == 0:
+    pdf_file = tex_file.with_suffix('.pdf')
+    if not pdf_file.is_file() or pdf_file.stat().st_size == 0:
         print(f"[{language}] Error: {pdf_file} was not produced.")
         return False
 
-    staged_pdf = os.path.join(BUILD_ROOT, f'emeditor-{language}.pdf')
+    staged_pdf = BUILD_ROOT / f'emeditor-{language}.pdf'
     shutil.copy2(pdf_file, staged_pdf)
     print(f"[{language}] PDF staged as {staged_pdf}.")
     return True
 
-def parse_languages(argv: List[str]) -> List[str]:
+
+def parse_languages(argv: list[str]) -> list[str]:
     """Validate command line language arguments."""
     if not argv:
         return list(PDF_LANGUAGES)
@@ -270,18 +262,13 @@ def parse_languages(argv: List[str]) -> List[str]:
         print(f"Usage: python buildPDF.py [{'|'.join(PDF_LANGUAGES)} ...]")
         sys.exit(2)
 
-    languages: List[str] = []
-    for arg in argv:
-        if arg not in languages:
-            languages.append(arg)
-    return languages
+    return list(dict.fromkeys(argv))
 
-def main(languages: List[str]) -> None:
+
+def main(languages: list[str]) -> None:
     # Remove stale staged PDFs so a failed run cannot leave an old build behind
     for language in languages:
-        staged_pdf = os.path.join(BUILD_ROOT, f'emeditor-{language}.pdf')
-        if os.path.exists(staged_pdf):
-            os.remove(staged_pdf)
+        (BUILD_ROOT / f'emeditor-{language}.pdf').unlink(missing_ok=True)
 
     print("Note: the requested languages' _build/<language> directories are replaced; other _build content is kept.")
     for language in languages:
@@ -291,6 +278,7 @@ def main(languages: List[str]) -> None:
             sys.exit(1)
 
     print("All steps completed successfully.")
+
 
 if __name__ == '__main__':
     main(parse_languages(sys.argv[1:]))

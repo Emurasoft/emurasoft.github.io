@@ -3,14 +3,15 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-from multiproject.utils import get_project
-from datetime import datetime
 import os
+from datetime import datetime
 from pathlib import Path
+
+from multiproject.utils import get_project
 from sphinx.writers.html5 import HTML5Translator
 
 project = 'EmEditor'
-copyright = '{} Emurasoft'.format(datetime.now().year)
+copyright = f'{datetime.now().year} Emurasoft'
 author = 'Emurasoft'
 
 extensions = ['multiproject', 'myst_parser', 'sphinx_sitemap']
@@ -104,7 +105,7 @@ if os.getenv('SPHINX_BUILDER') == 'latex':
     exclude_patterns = ['about/thirdPartyLicenses.md']
 
 html_sidebars = {
-   '**': ['globaltoc.html'],
+    '**': ['globaltoc.html'],
 }
 
 multiproject_projects = {
@@ -115,6 +116,16 @@ multiproject_projects = {
     'zh-tw': {},
 }
 
+# Sphinx language codes for each project. The underscore locales are needed for
+# Sphinx's interface translations; the deployed URLs use hyphens.
+SPHINX_LANGUAGES = {
+    'en': 'en',
+    'ja': 'ja',
+    'ko': 'ko',
+    'zh-cn': 'zh_CN',
+    'zh-tw': 'zh_TW',
+}
+
 myst_enable_extensions = [
     'attrs_inline',
     'html_image',
@@ -123,19 +134,7 @@ myst_enable_extensions = [
     'substitution',
 ]
 
-match get_project(multiproject_projects):
-    case 'en':
-        language = 'en'
-    case 'ja':
-        language = 'ja'
-    case 'ko':
-        language = 'ko'
-    case 'zh-cn':
-        language = 'zh_CN'
-    case 'zh-tw':
-        language = 'zh_TW'
-    case _:
-        raise 'unknown project'
+language = SPHINX_LANGUAGES[get_project(multiproject_projects)]
 
 # LuaTeX-ja classes work with luatexja, which the font package already sets up.
 # polyglossia and fncychap are meant for non-CJK classes and conflict with it.
