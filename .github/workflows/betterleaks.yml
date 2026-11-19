@@ -12,7 +12,7 @@ on:
 permissions: {}
 
 env:
-  BETTERLEAKS_VERSION: '1.9.0'
+  BETTERLEAKS_VERSION: '1.10.1'
 
 jobs:
   betterleaks:
