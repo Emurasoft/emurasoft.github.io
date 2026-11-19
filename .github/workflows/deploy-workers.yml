@@ -31,6 +31,8 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Test stripper
+        run: python test_strip_unused_markup.py
       - name: Get minify
         run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.24.17/minify_linux_amd64.tar.gz | tar -xz
       - name: Set version

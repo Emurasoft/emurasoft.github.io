@@ -17,6 +17,11 @@
     </script>
 {% endblock %}
 
+{# Sphinx's index, search, next, and prev links are unused: keyboard
+   navigation is disabled, and the local Help removes them anyway. Canonical
+   and icon links are emitted outside this block, so they are kept. #}
+{%- block linktags %}{% endblock %}
+
 {%- block body_tag %}
     <body data-dark_mode_code_blocks="{{ 'true' if theme_dark_mode_code_blocks else 'false' }}">
 {% endblock %}

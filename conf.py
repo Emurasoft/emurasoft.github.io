@@ -39,6 +39,10 @@ sitemap_locales = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw']
 sitemap_url_scheme = '{lang}{link}'
 sitemap_show_lastmod = True
 
+# Only the meta tag is suppressed; the footer date and the sitemap lastmod
+# still come from the Git timestamps.
+git_last_updated_metatags = False
+
 latex_engine = 'lualatex'
 latex_elements = {
     'fontpkg': r'''
