@@ -6,6 +6,7 @@
 from multiproject.utils import get_project
 from datetime import datetime
 import os
+from pathlib import Path
 from sphinx.writers.html5 import HTML5Translator
 
 project = 'EmEditor'
@@ -38,6 +39,14 @@ smartquotes = False
 sitemap_locales = ['en', 'ja', 'ko', 'zh-cn', 'zh-tw']
 sitemap_url_scheme = '{lang}{link}'
 sitemap_show_lastmod = True
+
+# Sphinx needs the underscore locale for its interface translations, but the
+# deployed URLs use hyphens. sphinx-sitemap takes the locale for the page URL
+# from the Sphinx language, so correct its output after the build.
+SITEMAP_LOCALE_PATHS = {
+    '/zh_CN/': '/zh-cn/',
+    '/zh_TW/': '/zh-tw/',
+}
 
 # Only the meta tag is suppressed; the footer date and the sitemap lastmod
 # still come from the Git timestamps.
@@ -156,5 +165,20 @@ class ViewportMetaTranslator(HTML5Translator):
         self.meta = [meta for meta in self.meta if meta != DOCUTILS_VIEWPORT_META]
 
 
+def fix_sitemap_locale_paths(app, exception):
+    if exception is not None:
+        return
+    sitemap = Path(app.outdir) / app.config.sitemap_filename
+    if not sitemap.is_file():
+        return
+    text = sitemap.read_text(encoding='utf-8')
+    fixed = text
+    for wrong, right in SITEMAP_LOCALE_PATHS.items():
+        fixed = fixed.replace(wrong, right)
+    if fixed != text:
+        sitemap.write_text(fixed, encoding='utf-8')
+
+
 def setup(app):
     app.set_translator('html', ViewportMetaTranslator)
+    app.connect('build-finished', fix_sitemap_locale_paths)
