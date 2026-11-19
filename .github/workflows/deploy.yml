@@ -113,11 +113,22 @@ jobs:
         with:
           python-version: '3.15'
           cache: pip
-      # Cannot use apt cache due to issues that occur with cache
-      - name: Install packages
-        run: |
-          sudo apt update
-          sudo apt install latexmk texlive-luatex texlive-lang-japanese texlive-latex-extra texlive-plain-generic
+      # Ubuntu's texlive packages are frozen at TeX Live 2023, whose luaotfload
+      # and fontspec are older than the versions the PDFs were verified with.
+      # Install a current TeX Live instead; the action caches ~/texlive.
+      - name: Install TeX Live
+        uses: zauguin/install-texlive@v4
+        with:
+          texlive_version: 2025
+          packages: >
+            scheme-basic
+            latexmk
+            collection-latexrecommended
+            collection-latexextra
+            collection-fontsrecommended
+            collection-luatex
+            collection-langjapanese
+            collection-xetex
       - name: Install python dependencies
         run: pip install -r requirements.txt
       - name: Set version
