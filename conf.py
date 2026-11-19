@@ -4,9 +4,16 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 import os
+import re
+import sys
 from datetime import datetime
 from pathlib import Path
 
+# Sphinx evaluates this file from the configuration directory but does not add
+# that directory to sys.path, so the helper module next to it needs this.
+sys.path.insert(0, str(Path(__file__).parent))
+
+from help_urls import served_path, served_url
 from multiproject.utils import get_project
 from sphinx.writers.html5 import HTML5Translator
 
@@ -14,7 +21,7 @@ project = 'EmEditor'
 copyright = f'{datetime.now().year} Emurasoft'
 author = 'Emurasoft'
 
-extensions = ['multiproject', 'myst_parser', 'sphinx_sitemap']
+extensions = ['multiproject', 'myst_parser', 'sphinx_sitemap', 'served_html']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv']
 html_static_path = ['_static']
 html_css_files = ['custom.css']
@@ -46,11 +53,17 @@ sitemap_excludes = ['404.html']
 
 # Sphinx needs the underscore locale for its interface translations, but the
 # deployed URLs use hyphens. sphinx-sitemap takes the locale for the page URL
-# from the Sphinx language, so correct its output after the build.
+# from the Sphinx language, so correct its output after the build. The served
+# build also needs its ".html" entries rewritten, because sphinx-sitemap
+# appends html_file_suffix and ignores the builder's get_target_uri().
 SITEMAP_LOCALE_PATHS = {
     '/zh_CN/': '/zh-cn/',
     '/zh_TW/': '/zh-tw/',
 }
+
+# A help URL inside the sitemap. The pattern stops at the XML delimiters, so a
+# match stays inside <loc> text or an attribute value.
+HELP_URL = re.compile(r'https://help\.emeditor\.com/[^"<\s]+')
 
 # Only the meta tag is suppressed; the footer date and the sitemap lastmod
 # still come from the Git timestamps.
@@ -167,7 +180,7 @@ class ViewportMetaTranslator(HTML5Translator):
         self.meta = [meta for meta in self.meta if meta != DOCUTILS_VIEWPORT_META]
 
 
-def fix_sitemap_locale_paths(app, exception):
+def fix_sitemap_urls(app, exception):
     if exception is not None:
         return
     sitemap = Path(app.outdir) / app.config.sitemap_filename
@@ -177,30 +190,38 @@ def fix_sitemap_locale_paths(app, exception):
     fixed = text
     for wrong, right in SITEMAP_LOCALE_PATHS.items():
         fixed = fixed.replace(wrong, right)
+    # sphinx-sitemap appends html_file_suffix and ignores get_target_uri, so
+    # the served build's entries are corrected here.
+    if app.builder.name == 'servedhtml':
+        fixed = HELP_URL.sub(lambda match: served_url(match.group(0)), fixed)
     if fixed != text:
         sitemap.write_text(fixed, encoding='utf-8')
 
 
 # Sphinx builds the canonical link from html_baseurl and the page's target
-# URI, which omits the language directory (for example /cmd/index.html). The
-# deployed Worker also serves extensionless paths (wrangler.jsonc:
-# "html_handling": "auto-trailing-slash"): "x.html" becomes "x", and
-# "x/index.html" becomes "x/". Point the canonical at that final URL, prefixed
-# with the project name (zh-cn, not Sphinx's zh_CN).
+# URI, which omits the language directory (for example /cmd/index.html). Point
+# the canonical at the URL the Worker serves: "x.html" becomes "x", and
+# "x/index.html" becomes "x/". served_path() is shared with ServedHtmlBuilder,
+# so the canonical and the links agree in both builds. The project name (zh-cn,
+# not Sphinx's zh_CN) is added here.
 def set_canonical_pageurl(app, pagename, templatename, context, doctree):
     if app.builder.format != 'html':
         return
     project = get_project(multiproject_projects)
-    if pagename == 'index':
-        path = ''
-    elif pagename.endswith('/index'):
-        path = pagename[:-len('/index')] + '/'
-    else:
-        path = pagename
-    context['pageurl'] = f'https://help.emeditor.com/{project}/{path}'
+    context['pageurl'] = f'https://help.emeditor.com/{project}/{served_path(pagename)}'
 
 
 def setup(app):
     app.set_translator('html', ViewportMetaTranslator)
-    app.connect('build-finished', fix_sitemap_locale_paths)
+    app.set_translator('servedhtml', ViewportMetaTranslator)
+    app.connect('build-finished', fix_sitemap_urls)
     app.connect('html-page-context', set_canonical_pageurl)
+    # Registered rather than hardcoded in the theme's layout so Sphinx appends
+    # its ?v=<content hash> to each URL. Registration order is the load order:
+    # petite-vue.js has to run before scripts.js. None of them need the DOM at
+    # parse time, so defer keeps them out of the parser's way. nav.js is left
+    # in the layout because build_sidebar_nav.py writes it after the build and
+    # Sphinx cannot hash it.
+    app.add_js_file('js/theme.js', loading_method='defer')
+    app.add_js_file('js/petite-vue.js', loading_method='defer')
+    app.add_js_file('scripts.js', loading_method='defer')

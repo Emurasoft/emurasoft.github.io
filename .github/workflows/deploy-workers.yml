@@ -31,19 +31,23 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Test stripper
-        run: python test_strip_unused_markup.py
+      - name: Test helper scripts
+        run: |
+          python test_strip_unused_markup.py
+          python test_help_urls.py
       - name: Get minify
         run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.24.17/minify_linux_amd64.tar.gz | tar -xz
       - name: Set version
         run: |
           echo "${GITHUB_REF_NAME}" > version
       - name: Build pages
-        run: sh ./buildAll.sh
+        run: sh ./buildAll.sh servedhtml
       - name: Minify files
         run: ./minify -v -r --sync -o . _build --exclude "_build/*/_static/js/petite-vue.js"
       - name: Create archive directory
         run: mv _build help_pages
+      - name: Check served URLs
+        run: python check_served_urls.py help_pages
       - name: Add to build folder
         run: cp -r _add_to_build/* help_pages
       - name: Remove Sphinx working state

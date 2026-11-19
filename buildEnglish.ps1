@@ -1,5 +1,6 @@
+param([string] $Builder = 'html')
 $env:PROJECT='en'
-sphinx-build --jobs auto -W --keep-going -n . _build/en
+sphinx-build -b $Builder --jobs auto -W --keep-going -n . _build/en
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 python -I strip_unused_markup.py _build/en
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

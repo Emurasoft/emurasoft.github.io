@@ -173,6 +173,8 @@ function injectSidebarNav() {
 // fragment: the entry for this page, and its ancestor index entries.
 function markCurrentEntries(container, pagePath) {
     const marker = '{{ROOT}}';
+    const pageSpellings = pathSpellings(pagePath);
+    const ancestorSpellings = ancestorSpellingsOf(pagePath);
 
     for (const link of container.querySelectorAll('a')) {
         const href = link.getAttribute('href');
@@ -185,10 +187,8 @@ function markCurrentEntries(container, pagePath) {
         const target = hashIndex < 0 ? resolved : resolved.slice(0, hashIndex);
         const fragment = hashIndex < 0 ? '' : resolved.slice(hashIndex);
         const item = link.closest('li');
-        const isPage = target === pagePath;
-        const isIndex = target === 'index.html' || target.endsWith('/index.html');
-        const isAncestor = isIndex && target !== 'index.html'
-            && pagePath.startsWith(target.slice(0, -'index.html'.length));
+        const isPage = pageSpellings.includes(target);
+        const isAncestor = ancestorSpellings.includes(target);
 
         if (isPage) {
             link.classList.add('current');
@@ -206,6 +206,40 @@ function markCurrentEntries(container, pagePath) {
             list.classList.add('current');
         }
     }
+}
+
+// The spellings a nav entry can use for one build path: the ".html" file name
+// that the html build links to, and the extensionless or slash-terminated form
+// that the servedhtml build links to.
+function pathSpellings(path) {
+    if (path === 'index.html') {
+        return ['index.html', '.', ''];
+    }
+
+    const spellings = [path];
+    if (path.endsWith('/index.html')) {
+        const directory = path.slice(0, -'index.html'.length);
+        spellings.push(directory, directory.slice(0, -1));
+    } else if (path.endsWith('.html')) {
+        spellings.push(path.slice(0, -'.html'.length));
+    }
+    return spellings;
+}
+
+// The spellings of every index page above a build path. build_sidebar_nav.py
+// resolves hrefs with posixpath.normpath, so the servedhtml build spells the
+// root as "." and a section as "cmd" rather than "cmd/".
+function ancestorSpellingsOf(path) {
+    const spellings = [];
+    let directory = path;
+    let separator = directory.lastIndexOf('/');
+    while (separator >= 0) {
+        directory = directory.slice(0, separator);
+        spellings.push(directory + '/index.html', directory);
+        separator = directory.lastIndexOf('/');
+    }
+    spellings.push('index.html', '.', '');
+    return spellings;
 }
 
 // Normalize a sidebar href to a path relative to the build root, the same way
@@ -238,8 +272,25 @@ function rootRelative(href, pagePath) {
 }
 
 function changeLanguage(lang) {
-    const newPath = 'https://help.emeditor.com/' + lang + '/' + getPageName() + '.html';
+    const newPath = 'https://help.emeditor.com/' + lang + '/' + languagePath();
     window.location.href = newPath;
+}
+
+// This page's path in the other language: the ".html" file name in the html
+// build, the served URL shape in the servedhtml build.
+function languagePath() {
+    const docname = getPageName();
+    const linkSuffix = DOCUMENTATION_OPTIONS.LINK_SUFFIX;
+    if (linkSuffix) {
+        return docname + linkSuffix;
+    }
+    if (docname === 'index') {
+        return '';
+    }
+    if (docname.endsWith('/index')) {
+        return docname.slice(0, -'index'.length);
+    }
+    return docname;
 }
 
 // Closes language dropdown

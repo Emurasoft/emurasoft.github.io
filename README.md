@@ -17,9 +17,13 @@ sphinx-build . _build/en
 
 Use `buildEnglish.ps1` (English) or `buildAll.sh` (all languages) for a complete build. They run `sphinx-build` and then two post-build scripts: `strip_unused_markup.py` removes unused attributes and wrapper markup, and `build_sidebar_nav.py` moves the expanded sidebar branch out of every page into `_build/<language>/_static/nav.js`. A bare `sphinx-build` skips both, and because `nav.js` is generated rather than checked in, its pages would load no expanded sidebar branch.
 
+Both scripts take an optional Sphinx builder name and use `html` when none is given. The `servedhtml` builder (registered by `served_html.py`) writes the URLs the deployed site serves, so index pages end with `/` and other pages have no extension. Use it only for the Workers deploy: the local Help archives, the PDFs and the automation test use `html`, whose `.html` links work when the files are opened from disk.
+
 # Deployment
 
-The help site is deployed to Cloudflare Workers as static assets by `.github/workflows/deploy-workers.yml`. The workflow builds all languages, assembles `help_pages/` from `_build/` with `_add_to_build/` copied over it, removes the Sphinx `.doctrees` directories, and runs `wrangler deploy` using `wrangler.jsonc`.
+The help site is deployed to Cloudflare Workers as static assets by `.github/workflows/deploy-workers.yml`. The workflow builds all languages with the `servedhtml` builder, assembles `help_pages/` from `_build/` with `_add_to_build/` copied over it, removes the Sphinx `.doctrees` directories, and runs `wrangler deploy` using `wrangler.jsonc`.
+
+`check_served_urls.py help_pages` runs after the built tree is moved to `help_pages/` and before `_add_to_build/` is copied in. It fails the deploy if a page or the sitemap still points at a `.html` URL, which would only reach the visitor through the Worker's redirect.
 
 The deploy requires the repository secrets `CLOUDFLARE_API_TOKEN` (Workers Scripts: Edit, Workers Routes: Edit, and Account Settings: Read) and `CLOUDFLARE_ACCOUNT_ID`.
 
