@@ -30,6 +30,7 @@ html_theme_options = {
     'globaltoc_maxdepth': 2,
 }
 html_show_sphinx = False
+html_permalinks = False
 html_baseurl = 'https://help.emeditor.com/'
 smartquotes = False
 
