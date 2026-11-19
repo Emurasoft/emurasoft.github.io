@@ -14,6 +14,10 @@ jobs:
   buildPDF:
     runs-on: ubuntu-latest
     timeout-minutes: 180
+    strategy:
+      fail-fast: true
+      matrix:
+        language: [en, ja]
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
@@ -41,20 +45,10 @@ jobs:
       - name: Set version
         run: |
           echo "${GITHUB_REF_NAME}" > version
-          cat conf.py
-      - name: Create PDFs
-        run: python buildPDF.py
-      - name: Upload PDFs
+      - name: Create PDF
+        run: python buildPDF.py ${{ matrix.language }}
+      - name: Upload PDF
         uses: actions/upload-artifact@v6
         with:
-          name: emeditor-pdfs
-          path: |
-            _build/emeditor-en.pdf
-            _build/emeditor-ja.pdf
-      - name: Publish PDFs
-        if: ${{ github.ref_type == 'tag' }}
-        uses: softprops/action-gh-release@v1
-        with:
-          files: |
-            _build/emeditor-en.pdf
-            _build/emeditor-ja.pdf
+          name: emeditor-pdf-${{ matrix.language }}
+          path: _build/emeditor-${{ matrix.language }}.pdf
