@@ -88,6 +88,15 @@ class FindProblemsTest(unittest.TestCase):
                    '<a href="https://help.emeditor.com/en/cmd/index.html">x</a>')
         self.assertEqual(len(find_problems(self.directory)), 1)
 
+    def test_prose_mentioning_html_has_no_problems(self):
+        self.write('page.html', '<p>Save the page as .html.</p>')
+        self.assertEqual(find_problems(self.directory), [])
+
+    def test_uppercase_html_link_is_a_problem(self):
+        self.write('page.html', '<a href="cmd.HTML">cmd</a>')
+        problems = find_problems(self.directory)
+        self.assertEqual([value for _, value in problems], ['cmd.HTML'])
+
     def test_clean_tree_has_no_problems(self):
         self.write('page.html', '<a href="cmd/">cmd</a><a href="#top">top</a>')
         self.write('sitemap.xml', '<loc>https://help.emeditor.com/en/cmd/</loc>')
