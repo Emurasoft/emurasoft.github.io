@@ -42,13 +42,24 @@ latex_elements = {
         \usepackage{luatexja-fontspec}
         \usepackage{fontspec}
         
-        \setmainfont[
-            Path=../../fonts/
-        ]{NotoSans-VariableFont.ttf}
+        % Text: match the web CSS stack 'Segoe UI', system-ui, sans-serif.
+        % The CI runner does not have Segoe UI, so fall back to the bundled
+        % Noto Sans there.
+        \IfFontExistsTF{Segoe UI}
+            {\setmainfont{Segoe UI}}
+            {\setmainfont[Path=../../fonts/]{NotoSans-VariableFont.ttf}}
         \setmainjfont[
             Path=../../fonts/
         ]{NotoSerifCJKjp-VF.ttf}
-        
+
+        % Code: match the web CSS stack 'Consolas', 'Courier New', monospace.
+        % The CI runner has neither, so fall back to Latin Modern Mono.
+        \IfFontExistsTF{Consolas}
+            {\setmonofont{Consolas}}
+            {\IfFontExistsTF{Courier New}
+                {\setmonofont{Courier New}}
+                {\setmonofont{Latin Modern Mono}}}
+
         % Emoji
         \newfontfamily\emojifont[
             Path=../../fonts/,
