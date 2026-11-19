@@ -1,14 +1,15 @@
 {% extends "basic/layout.html" %}
 
 {%- block scripts %}
+    {# build_sidebar_nav.py writes _static/nav.js after the Sphinx build, so
+       Sphinx cannot append its content hash and the tag stays hardcoded.
+       scripts.js reads window.SIDEBAR_NAV only inside DOMContentLoaded, which
+       runs after every deferred script. The other theme scripts are
+       registered in conf.py so they get a ?v=<content hash>. #}
+    <script src="{{ pathto('_static/nav.js', 1) }}" defer="defer"></script>
+
     {{- script() }}
     <meta name="description" content="{{ title|striptags|e }}{{ titlesuffix }}">
-
-    <script src="{{ pathto('_static/js/theme.js', 1) }}"></script>
-    <script src="{{ pathto('_static/js/petite-vue.js', 1) }}"></script>
-    <script src="{{ pathto('_static/nav.js', 1) }}"></script>
-
-    <script src="{{ pathto('_static/scripts.js', 1) }}"></script>
 
     <script>
         function getPageName() {

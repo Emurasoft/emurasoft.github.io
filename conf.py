@@ -216,3 +216,12 @@ def setup(app):
     app.set_translator('servedhtml', ViewportMetaTranslator)
     app.connect('build-finished', fix_sitemap_urls)
     app.connect('html-page-context', set_canonical_pageurl)
+    # Registered rather than hardcoded in the theme's layout so Sphinx appends
+    # its ?v=<content hash> to each URL. Registration order is the load order:
+    # petite-vue.js has to run before scripts.js. None of them need the DOM at
+    # parse time, so defer keeps them out of the parser's way. nav.js is left
+    # in the layout because build_sidebar_nav.py writes it after the build and
+    # Sphinx cannot hash it.
+    app.add_js_file('js/theme.js', loading_method='defer')
+    app.add_js_file('js/petite-vue.js', loading_method='defer')
+    app.add_js_file('scripts.js', loading_method='defer')
