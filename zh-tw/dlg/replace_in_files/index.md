@@ -249,9 +249,9 @@
 
 你還能通過這個對話方塊訪問下列對話方塊。
 
-<a href="../advanced/index.html"><b>進階</b>對話方塊</a> ( 點擊「 **進階**」按鈕 )
+[**進階**對話方塊](../advanced/index) ( 點擊「 **進階**」按鈕 )
 
-<a href="../extract_options/index.html"><b>抽出選項</b>對話方塊</a> ( 點擊 **抽出選項** )
+[**抽出選項**對話方塊](../extract_options/index) ( 點擊 **抽出選項** )
 
-<a href="../batch_options/index.html"><b>批次選項</b>對話方塊</a> ( 點擊 **批次選項** )
+[**批次選項**對話方塊](../batch_options/index) ( 點擊 **批次選項** )
 

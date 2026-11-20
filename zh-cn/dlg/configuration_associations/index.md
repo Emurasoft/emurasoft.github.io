@@ -54,5 +54,5 @@
 
 下面的对话框同样能够通过该对话框访问。
 
-<a href="../../dlg/file_associate/index.html"> <b>与 EmEditor 关联</b>对话框</a>（选择 **「与 EmEditor 关联」** 按钮）
+[**与 EmEditor 关联**对话框](../../dlg/file_associate/index)（选择 **「与 EmEditor 关联」** 按钮）
 
