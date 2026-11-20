@@ -71,8 +71,13 @@ def find_problems(directory: Path) -> list[tuple[Path, str]]:
     """Return every (file, offending value) pair in a built tree."""
     problems = []
     for path in sorted(directory.rglob('*.html')):
+        data = path.read_bytes()
+        # A page whose text contains no ".html" cannot contain a ".html"
+        # link, and this check is much cheaper than parsing every page.
+        if b'.html' not in data.lower():
+            continue
         parser = _LinkParser()
-        parser.feed(path.read_text(encoding='utf-8', errors='replace'))
+        parser.feed(data.decode('utf-8', errors='replace'))
         for value in parser.links:
             if _is_html_link(value):
                 problems.append((path, value))

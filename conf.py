@@ -21,7 +21,10 @@ project = 'EmEditor'
 copyright = f'{datetime.now().year} Emurasoft'
 author = 'Emurasoft'
 
-extensions = ['multiproject', 'myst_parser', 'sphinx_sitemap', 'served_html']
+# git_dates fills env.git_last_updated before sphinx_last_updated_by_git
+# (loaded by sphinx_sitemap) would look up the dates one directory at a time.
+extensions = ['multiproject', 'git_dates', 'myst_parser', 'sphinx_sitemap',
+              'served_html']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv']
 html_static_path = ['_static']
 html_css_files = ['custom.css']

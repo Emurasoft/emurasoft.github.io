@@ -16,6 +16,7 @@ env:
 
 jobs:
   betterleaks:
+    name: Secret scan
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:

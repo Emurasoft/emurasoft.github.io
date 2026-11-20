@@ -8,6 +8,7 @@ permissions:
 
 jobs:
   stripper:
+    name: Stripper tests
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -21,6 +22,7 @@ jobs:
       - name: Run stripper unit tests
         run: python test_strip_unused_markup.py
   urls:
+    name: URL tests
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:

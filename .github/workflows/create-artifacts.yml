@@ -6,13 +6,23 @@ on:
       - '**'
     tags:
       - '*'
-    
+
 permissions:
   contents: write
 
 jobs:
   build:
+    name: Build pages (${{ matrix.language }})
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      # Keep building the other languages when one fails, so every error shows
+      # up in a single run.
+      fail-fast: false
+      matrix:
+        language: [en, ja, ko, zh-cn, zh-tw]
+    env:
+      LANGUAGE: ${{ matrix.language }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -22,26 +32,59 @@ jobs:
         with:
           python-version: '3.15'
           cache: pip
-      - uses: actions/setup-go@v6
-        with:
-          go-version: '^1.27'
-          cache-dependency-path: unneeded-html-remover/go.sum
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Test stripper
-        run: python test_strip_unused_markup.py
-      - name: Get minify
-        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.24.17/minify_linux_amd64.tar.gz | tar -xz
       - name: Set version
         run: |
           echo "${GITHUB_REF_NAME}" > version
-          cat conf.py
       - name: Build pages
-        run: sh ./buildAll.sh
+        run: sh ./buildLanguage.sh "$LANGUAGE"
+      # Stage under the language name so the artifacts unpack as _build/<lang>.
+      # .doctrees is Sphinx working state that nothing downstream reads.
+      - name: Stage build output
+        run: |
+          mkdir -p artifact
+          rsync -a --exclude=.doctrees "_build/${LANGUAGE}/" "artifact/${LANGUAGE}/"
+      - uses: actions/upload-artifact@v6
+        with:
+          name: site-${{ matrix.language }}
+          path: artifact
+          # .buildinfo is hidden and has to stay in the local Help archives.
+          include-hidden-files: true
+
+  assemble:
+    name: Assemble artifacts
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.15'
+          cache: pip
+      # test_git_dates.py imports sphinx.util.matching.
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Test helper scripts
+        run: |
+          python test_strip_unused_markup.py
+          python test_git_dates.py
+      - uses: actions/download-artifact@v6
+        with:
+          pattern: site-*
+          merge-multiple: true
+          path: _build
+      - name: Get minify
+        run: wget -qO- https://github.com/tdewolff/minify/releases/download/v2.24.17/minify_linux_amd64.tar.gz | tar -xz
       - name: Minify files
         run: ./minify -v -r --sync -o . _build --exclude "_build/*/_static/js/petite-vue.js"
       - name: Make copy for local help
         run: cp -r _build Help/
+      - uses: actions/setup-go@v6
+        with:
+          go-version: '^1.27'
+          cache-dependency-path: unneeded-html-remover/go.sum
       - name: unneeded-html-remover
         run: go run . ../Help
         working-directory: unneeded-html-remover
