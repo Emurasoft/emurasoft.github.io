@@ -17,6 +17,7 @@ concurrency:
 
 jobs:
   buildPDF:
+    name: Build PDF (${{ matrix.language }})
     runs-on: ubuntu-latest
     timeout-minutes: 180
     strategy:
@@ -61,6 +62,7 @@ jobs:
           path: _build/emeditor-${{ matrix.language }}.pdf
 
   publish:
+    name: Publish PDFs
     needs: buildPDF
     if: ${{ github.ref_type == 'tag' }}
     runs-on: ubuntu-latest

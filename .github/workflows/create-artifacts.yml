@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   build:
+    name: Build pages (${{ matrix.language }})
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
@@ -52,6 +53,7 @@ jobs:
           include-hidden-files: true
 
   assemble:
+    name: Assemble artifacts
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 20

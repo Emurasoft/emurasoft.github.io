@@ -17,6 +17,7 @@ concurrency:
 
 jobs:
   build:
+    name: Build pages (${{ matrix.language }})
     # The 0.0.0 tag is not deployed, so it should not spend build minutes.
     if: ${{ !(github.ref_type == 'tag' && github.ref_name == '0.0.0') }}
     runs-on: ubuntu-latest
@@ -58,6 +59,7 @@ jobs:
           include-hidden-files: true
 
   deploy:
+    name: Deploy to Workers
     needs: build
     if: ${{ !(github.ref_type == 'tag' && github.ref_name == '0.0.0') }}
     runs-on: ubuntu-latest
