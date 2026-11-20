@@ -130,11 +130,10 @@ DSV(사용자 정의된 구분 기호로 구분)에 사용할 구분 기호를 �
 
 이 페이지에서 다음의 대화 상자로 이동할 수 있습니다.
 
-<a href="new_details/index.html"><b>새 파일 상세 정보</b> 대화 상자</a> (**새 파일**
-버튼 선택)
+[**새 파일 상세 정보** 대화 상자](new_details/index) (**새 파일** 버튼 선택)
 
 
-<a href="save_details/index.html"><b>세부 정보 저장</b> 대화 상자</a> (**저장 중** 버튼 선택)
+[**세부 정보 저장** 대화 상자](save_details/index) (**저장 중** 버튼 선택)
 
 
 ```{toctree}
